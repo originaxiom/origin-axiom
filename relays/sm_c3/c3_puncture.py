@@ -8,7 +8,11 @@ F_X = Phi (X x I2) Phi^-1 keeps V2 are the scalars, and likewise for V4; (e) D =
 two, equals F_X for X = diag(1,-1,-1) with det X = 1, the (1,2) block of [D, P2] is (2/3) I2, and the commutant of
 {L, R, D} is the scalars; with only dim(Lambda+) in {0, 6} the stipulated index dim(Lambda+) - 3 is -3 or +3;
 (f) the doubled model: B((u,v),(u',v')) = u^dag v' + v^dag u', L_t = {(u, i t u)} is null and invariant for real t, the
-grading Gamma(u,v) = (u,-v) sends L_t to L_-t, and the real graph (u, t u) has B = 2 t u^dag u'.
+grading Gamma(u,v) = (u,-v) sends L_t to L_-t, and the real graph (u, t u) has B = 2 t u^dag u';
+(g) the classification behind (f): the intertwiners from E to E + E under {L, R, D} (acting diagonally) form a space of
+dimension two, so every invariant six-dimensional subspace is a graph {(alpha u, beta u)}; B is of signature (6, 6), so
+maximal null subspaces have dimension six; with alpha = 1, beta = x + i y, B = 2 x u^dag u', null exactly when x = 0
+(the family L_y), alpha = 0 giving the endpoint; Gamma keeps only y = 0 and the endpoint.
 Not checked here: the SU6 embedding into compact E8 (the packet's own verifier marks it not reconstructed).
 Planted: a scalar phase in place of D must leave the commutant two-dimensional (V2 and V4 still available)."""
 import json
@@ -101,7 +105,25 @@ gam_ok = z(grade(Lt(uu))[1] - (-sp.I * t) * uu)
 real_graph = sp.simplify(Bf((uu, t * uu), (up, t * up)) - 2 * t * (uu.H * up)[0])
 out["(f)"] = {"L_t_null": null_ok, "L_t_invariant": inv_ok, "Gamma_L_t=L_-t": gam_ok, "real_graph_B=2t_u^dag_u'": real_graph == 0}
 f_ok = null_ok and inv_ok and gam_ok and real_graph == 0
-out["checks_ok"] = {"a": out["(a)_squares"], "b": out["(b)_P2_P4_span_it"], "c": c_ok, "d": d_ok, "e": e_ok, "f": f_ok}
+# (g) intertwiners E -> E + E for {L, R, D}, and the nullity of their graphs
+Ksyms = sp.symbols("h0:72")
+K = sp.Matrix(12, 6, Ksyms)
+eqs = []
+for Gm in (L, R, D):
+    eqs += list(sp.expand(sp.diag(Gm, Gm) * K - K * Gm))
+Ah, _ = sp.linear_eq_to_matrix(eqs, Ksyms)
+hom_dim = len(Ah.nullspace())
+xr, yr = sp.symbols("x y", real=True)
+beta = xr + sp.I * yr
+Bgraph = sp.simplify(Bf((uu, beta * uu), (up, beta * up)) - 2 * xr * (uu.H * up)[0])
+signature = sp.Matrix([[sp.zeros(6), sp.eye(6)], [sp.eye(6), sp.zeros(6)]]).eigenvals()
+grading_keeps = sp.solve([sp.Eq(-beta, beta)], [xr, yr], dict=True)
+out["(g)"] = {"hom_dim_E_to_E+E": hom_dim, "B_on_graph=2x_u^dag_u'": Bgraph == 0,
+              "B_eigenvalues": {str(k): v for k, v in signature.items()}, "Gamma_keeps_graph_iff": str(grading_keeps)}
+g_ok = (hom_dim == 2 and Bgraph == 0 and signature == {1: 6, -1: 6}
+        and grading_keeps == [{xr: 0, yr: 0}])
+out["checks_ok"] = {"a": out["(a)_squares"], "b": out["(b)_P2_P4_span_it"], "c": c_ok, "d": d_ok, "e": e_ok, "f": f_ok,
+                    "g": g_ok}
 phase = sp.exp(sp.I * sp.pi / 5) * sp.eye(6)
 out["PLANTED_scalar_phase_commutant_dim"] = len(commutant([L, R, phase]))
 out["PLANTED_caught"] = out["PLANTED_scalar_phase_commutant_dim"] == 2

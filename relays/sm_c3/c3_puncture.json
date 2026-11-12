@@ -42,13 +42,23 @@
   "Gamma_L_t=L_-t": true,
   "real_graph_B=2t_u^dag_u'": true
  },
+ "(g)": {
+  "hom_dim_E_to_E+E": 2,
+  "B_on_graph=2x_u^dag_u'": true,
+  "B_eigenvalues": {
+   "-1": 6,
+   "1": 6
+  },
+  "Gamma_keeps_graph_iff": "[{x: 0, y: 0}]"
+ },
  "checks_ok": {
   "a": true,
   "b": true,
   "c": true,
   "d": true,
   "e": true,
-  "f": true
+  "f": true,
+  "g": true
  },
  "PLANTED_scalar_phase_commutant_dim": 2,
  "PLANTED_caught": true,
