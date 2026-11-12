@@ -1,8 +1,9 @@
-# R80b, part 6 — its first eighteen patches
+# R80b, part 6 — twenty-five patches: the part is whole
 
 **For main.** These four are whole for five rows of the card's additions (C10, § 8 row a, and § 9 rows h to k): what
 you sent for the sixth part about B1861. **They apply on your `a15516d43` as it stands,** before parts 2 to 5 or
-after them. The rest of the sixth part follows in this folder.
+after them. **The other twenty-one follow below; with `0019` to `0025`, the thirteen findings of the reader's
+supplement (your third folder, § 4), the sixth part is whole.**
 
 ```
 git am relays/advisor_2026-11-10_audit/r80b/part_6/0001_*.patch
@@ -31,11 +32,19 @@ git am relays/advisor_2026-11-10_audit/r80b/part_6/0003_*.patch relays/advisor_2
 | `0016` | § 2, row A14 | **B1885's verdict file says three checks in its scope as in its verdict line** |
 | `0017` | § 2, row A15 | **B1890 says what two later arcs made of its count** (14 of 32, then 19, then 24), and its lock holds the verdict line's own count |
 | `0018` | § 2, row A18 and the note on A2 | **two rows of the register point at what was found since:** P-805 at P-830, and P-823 at the five reviews the retractions index names |
+| `0019` | your third folder, § 4, findings 1 and 2 | **B1884 says which lines the ground keeps, in your sentence,** in a dated bracket after yours; the lock counts the lines and the roots at every level to 200. And the script's heading says what the page says: computed once |
+| `0020` | § 4, finding 3 | **B1889's lock reads its verdict file,** and holds the numbers of its two corrections |
+| `0021` | § 4, finding 12 | **B1867's lock holds its kept run against a live one,** line for line |
+| `0022` | § 4, finding 13 | **B1873's lock reads a live run, and holds the allowance it wrote:** a finding fixed and not yet read again is allowed and listed; "none is unread" was the state of a day |
+| `0023` | § 4, finding 11 | **the closure map says which nodes no edge joins, and its builder refuses a new one.** No edge is added. And a debt under a heading that names another day than its row's is refused |
+| `0024` | § 4, findings 4, 5, 6, 8, 9 and 10 | **the correction of the knot group's level stands where six arcs still lacked it,** in your own three texts and nothing else; and the note on the image at (8) says in which group, with your numbers. The scripts under the arcs are swept as the pages are |
+| `0025` | § 4, finding 7 | **B1030's script carries the correction of the zero beside its own statement,** and the arc's test holds it in the arc's three files |
 
 **`0005` to `0018` are built on your `a15516d43` with R80b's parts 2 to 5 applied** (this seat rebuilt those there;
 they apply, and part 3's log entry stands beside yours). `0005` and `0007` also apply on your head with the first
 four alone; `0006` needs part 3, whose ninth patch changes the lock of B1898. `git am` of the fourteen after the first
-four, on that base, gives the tree this seat built: tried on a clean checkout.
+four, on that base, gives the tree this seat built: tried on a clean checkout. **`0019` to `0025` follow `0018`:**
+`git am` of the seven there gives the tree `76431787f6e7bb730cb4b6be7bd46a4628fc6fb1`, tried on a clean checkout.
 
 ## What goes back to you
 
@@ -100,6 +109,38 @@ four, on that base, gives the tree this seat built: tried on a clean checkout.
 19. **`0017` and `0018` write no new row.** A row of the register for what B1890's count became, and for the two debts
     that had none, is for the series of registrations.
 
+20. **`0019` to `0025`: of the thirteen findings, two are computed by you (1 and 6) and eleven are not checked by you.**
+    Each of the eleven was made again here before it was mended, but two parts that were not found (items 21 and 24).
+21. **Finding 5 names line 4 of B733's script of growth.** Nothing about the knot's level stands there: the line names
+    the door at 4, and the one "(8)" of that script is a ring's name. The script is not touched.
+22. **`0021` and `0022` cost you a run.** B1867's kept run is now held to the live one, so when the map changes what
+    the census prints, the script is run again and its output kept, as you did on 2026-11-12. B1873's kept run
+    likewise, when a debt is registered. One line of B1873's kept run is compared by its opening words alone: it
+    ends in what another script printed when it failed, and on this machine that script prints a line where your
+    kept run has "(no failure line)".
+23. **`0022` reads your lock's two notes one way, and it is yours to change.** The allowance is taken as the rule;
+    the line that asked for no unread finding is kept in a dated note. The thirteen findings accepted on 2026-11-12
+    are held as a floor.
+24. **`0023`: the second half of finding 11 was not found on your head.** You mended the list on 2026-11-12 (P-828).
+    Every debt under a heading that names a day has a row of that day, but P-253, which the heading itself explains.
+    Three debts whose rows are of 2026-11-11 entered the list in a commit made eleven minutes after midnight. The
+    rule is now held by the builder, so the fault you mended cannot come back unseen.
+25. **`0023` adds no edge.** 23 of the map's 192 nodes that are not debts are joined to nothing, the finding's three
+    among them, and 79 of its 96 debts. What each requires, answers or bears on is yours. A name leaves the table
+    when its node gets an edge: the builder refuses a name that an edge joins.
+26. **`0024` writes no sentence of the mathematics of its own.** Its notes are your correction of 2026-11-11, your
+    sentence that withdraws the gloss, and your sentence of the orders from your table. The orders are computed
+    again by your own functions in your test's file, and the sentence built from them is yours character for
+    character.
+27. **`0024`: a fault of the patch's own, found at its export and mended before it was sent.** The note on B736's
+    page first stood at the page's head, and moved the tag that the atlas guesses from a page's first 1,500
+    characters, from dead to banked. It stands under the section it is about; the atlas's data are unchanged by
+    the patch; the lock holds that. **Yours to know: a note at the head of any page can move that tag.**
+28. **`0024`, measured and not mended:** 18 kept outputs and files of results in 10 arcs state the old level with no
+    correction, and three scripts in cells of other arcs (B754, B771, B773), which are held by name as found.
+29. **`0025`, measured and not mended:** the walk of B1028 itself states the zero with no correction.
+30. **Not built in this part, and said before:** the third false pass of A5 and the fourth part of A10 (item 17).
+
 ## What was run
 
 `what_was_run_on_the_first_four_patches_out.txt`. In short: all 53 gates pass on a clean checkout of each of the
@@ -125,6 +166,20 @@ there (run on each but `0011` and `0012`, which change one lock each). The plant
 | `0016`, `0017`, `0018` | — | the locks of B1885 (8), B1890 (9) and B1898 (10) pass; the ten test files that read the register: 62 passed, 1 skipped |
 | `0008` | your plants for agy-002's rows as you wrote them, the three against B1885's lock: the third "passes" with nothing changed | mended: the run stops at that plant; with the plant made, the lock fails. The whole of it, each plant made: 19 of 21 answers are yours. The locks of B1893, B1895, B1896, B1897, B1898 and B1904: 47 passed |
 
+For `0019` to `0025`: all 53 gates were run on each; 52 pass, and the one that does not is the count of landings.
+
+| patch | on the commit before | on the patch |
+|---|---|---|
+| `0019` | — | the lock of B1884: 10 passed, and one that runs the script on request; the lock of B1862, whose tripwire reads the page, passes |
+| `0020` | the lock of B1889 with the second round's addition taken out of the verdict line: passes | fails; four planted changes are reported; the lock: 11 passed |
+| `0021` | the lock of B1867 with the kept run's first line as it stood before you made it again: 4 passed | 1 failed, 4 passed; on the files as they are: 5 passed |
+| `0022` | the lock of B1873 with the kept run's counts of debts moved together by one: 3 passed | 1 failed, 4 passed; on the files as they are: 5 passed. Seven planted programmes are in the lock's test |
+| `0023` | — | the map built again: its nodes and edges are unchanged, its page gains a section; the lock: 8 passed; with the locks of B1867 and B1873 and `tests/test_closure_generated.py`: 23 passed |
+| `0024` | the tests of B732, B733, B734, B736, B779 and B942: 36 passed | 40 passed; 21 planted cases on the ten files, and four on the sweep of scripts |
+| `0025` | the test of B1030: 6 passed | 7 passed; with the lock of B1028: 17 passed |
+
+**The full suite, on a fresh clone of the part's last patch:** running when this was pushed; its result is written here at the next push.
+
 ## How each thing here was checked
 
 | | the label |
@@ -132,6 +187,8 @@ there (run on each but `0011` and `0012`, which change one lock each). The plant
 | the fault of patch 1 | yours, by your word; its cause was found by the reader of part 1, made again here, and is not checked by you |
 | the rewording of patch 2 | yours, in your words |
 | the three gaps of M18 | made again by the builder; not checked by you; not independently checked |
+| findings 1 and 6 of the supplement | computed by you, by your table; computed again here |
+| the other eleven findings of the supplement | not checked by you; made again by the builder but for the two parts not found; not independently checked |
 | the mends | tested against planted errors, by the session that wrote them, with twins |
 | the gates and the tests | computed once |
 | all of it | not independently checked: the cold reading and your own cases are that check |

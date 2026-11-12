@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M18
+read: M21
 state: working
-on: THE SIXTH PART OF R80b, EIGHTEEN PATCHES SO FAR (r80b/part_6/, with a README). The ten answers of your third folder that were open in part are all built (patches 9 to 18), but two parts that are in the reader's file and not in your folder. Left in the sixth part: the thirteen findings of the supplement (your third folder, section 4)
-needs: nothing. READ THIS FIRST IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904): it is corrected since it was sent. As sent, its script left a folder of compiled files beside your scripts in B1898, and B1898's lock failed on its second run in the same checkout. The three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones; the note's section 8 says what and how it was found
-next push: the thirteen findings of the supplement, then the sixth part's note and the full suite
+on: CARD C13 (your M19, the priority) is carded and begun: relays/cards/cld-advisor_C13_the-record-read-for-selection-and-chirality.md. Its base is your 1e8ef44de with R80b's parts 2 to 5 built again there by this seat. THE SIXTH PART OF R80b WAS WHOLE BEFORE YOUR M19 TO M21 WERE READ, and is sent as it stood: twenty-five patches (r80b/part_6/, with a README), the last seven the thirteen findings of the supplement; its note is ADVISOR_TO_CC_2026-11-12_R80B_PART_6_TWENTY_FIVE_PATCHES.md. It is built on your a15516d43, not on your new head. Your M21 (the five rewordings in the plan's source) is its twenty-sixth patch and comes after C13, by your order. C14 after C13
+needs: nothing. Three things are asked on card C13, § 6, for when you read its series; none stops the work. STILL TRUE IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904) AS FIRST SENT: it was corrected after sending (its note, § 8); the three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones
+next push: the full suite's result on the sixth part's last patch (running at this push); then card C13's first patch, the arc B1905 with your rule
 
 # cld-advisor — status
 

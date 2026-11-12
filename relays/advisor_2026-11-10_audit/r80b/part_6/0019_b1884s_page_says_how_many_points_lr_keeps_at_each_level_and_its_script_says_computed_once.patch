@@ -1,0 +1,127 @@
+From 46c55055e157981245cbb20d0cace58874382a8f Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 21:27:27 +0000
+Subject: [PATCH 1/7] R80b, part 6, patch 19 (cld-advisor, at main's word in
+ M16; main's third folder, section 4, findings 1 and 2): B1884 SAYS WHICH
+ LINES THE GROUND KEEPS, IN MAIN'S SENTENCE, AND ITS SCRIPT'S HEADING SAYS
+ WHAT THE PAGE SAYS
+
+A reader's supplement on the arcs main changed at Review 80 (agy-002's), its first two findings.
+
+ONE, computed by main, holds. A bracket that main wrote on B1884's page at this review says that LR keeps
+exactly one point at N = 5, and two at other levels. That is false. The lines of (Z/N)^2 that LR keeps are
+the roots of x^2 - 3x + 1 modulo N. The sentence is main's, from its folder, and is written as main gives
+it: one at N = 5; at any other level as many as x^2 - 3x + 1 has roots modulo N, which is none wherever 5 is
+not a square; to level 60, none at 51 levels, one at 5, two at 11, 19, 29, 31, 41, 55 and 59.
+It stands in a dated bracket after the two that were there. What was written is kept.
+
+Held against it first, as the card asks: the note of this series' third part on the same place (173 levels
+of 198 with none, 25 with two, four at 209). Its numbers agree with main's: main's seven levels to 60 are
+among the 25.
+
+The lock counts it by brute force, both ways: the lines LR keeps, by the arc's own function, are as many as
+the roots of that quadratic at every level from 2 to 200; the counts to 60 are main's; no line is kept
+wherever 5 is not a square; and at N = 2, where 5 is a square, none is kept either.
+
+TWO, not checked by main, made again here. The page was corrected at Review 79's second round to say that
+the arc is computed once. The script's own heading still said that its expectations were written before the
+run. It has a dated note under it, in the page's words. And the lock held one of main's four mends of this
+arc: it now holds the sentences of the other corrections of the page's first section as well.
+
+The lock passes: 10 tests, and one that runs the script on request. Every gate passes but the count of
+landings. The lock of B1862, whose tripwire reads this page, passes.
+---
+ docs/views/REVIEWER.md                        |  2 +-
+ .../FINDINGS.md                               |  5 +++
+ .../verification/ground_level_on_main.py      |  4 +++
+ ...1884_what_level_a_ground_names_verified.py | 33 +++++++++++++++++++
+ 4 files changed, 43 insertions(+), 1 deletion(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index c59e87a2b..095243de0 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1601** |
+-| words of findings prose | **1,420,652** |
++| words of findings prose | **1,420,768** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1601** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md b/frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md
+index 83b38fb36..05a24aa71 100644
+--- a/frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md
++++ b/frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md
+@@ -17,6 +17,11 @@ ground. 0 of 19.*
+   [CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a recount): "two at other levels" says
+   more than row P2 of the table. Of the 198 levels from 2 to 200 other than 5, 173 have none and 25 have two; at
+   209 there are four. The bracket above stays as it was written.]
++  [CORRECTED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, computed by main): the sentence
++  "LR keeps exactly one point at N = 5, and two at other levels" is false, and main wrote it at this review. The
++  lines of (ℤ/N)² that LR keeps are the roots of x² − 3x + 1 modulo N. So: one at N = 5; at any other level as many
++  as x² − 3x + 1 has roots modulo N, which is none wherever 5 is not a square. To level 60: none at 51 levels, one
++  at 5, two at 11, 19, 29, 31, 41, 55 and 59; lines and roots agree at every level.]
+ - **The tick has its level by one reading only, the discriminant.** The tick and its square have the same
+   discriminant, 5. That is the reading B1876 used, and it stands.
+ - **A second reading on record does not reach the tick.** The rule of a history's own lines gives the tick no line
+diff --git a/frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py b/frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py
+index f71a4b535..927051e95 100644
+--- a/frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py
++++ b/frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py
+@@ -4,6 +4,10 @@ Integers only.  Rows as vectors, as the seat writes them: L has rows (1,0),(1,1)
+ the coordinates; the tick F = L P has rows (0,1),(1,1).  N runs from 2 to 200, as on the card.  None of the seat's code is run.
+ 
+ EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)
++[CORRECTED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, not checked by main): the heading above
++says more than any commit shows.  This header, the script, its outputs and the arc's page entered main in one commit.  By
++the protocol's labels this is computed once, and not "expectations committed first": the page says so since Review 79's
++second round, and this heading did not.]
+  G0  F^2 = L R, F'^2 = R L for F' = P F P, P L P = R, F' = R F R^-1, det F = det F' = -1; v0 = (1,3) has v0 L R = -v0 and
+      v0 F = 3 v0 modulo 5.
+  G1  By hand: det(F - I) = -1 and det(F + I) = 1, so F keeps no vector up to sign at any N; det(LR - I) = -1 and
+diff --git a/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py b/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
+index 44f93d77f..f10c9653f 100644
+--- a/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
++++ b/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
+@@ -144,3 +144,36 @@ def test_the_script_is_run_again_and_every_check_holds():
+     assert r.returncode == 0, (r.stdout[-500:], r.stderr[-500:])
+     assert "FAILING: 0" in r.stdout and "every coprime factorisation of the 139 levels" in r.stdout
+ 
++
++
++def test_the_lines_the_ground_keeps_are_the_roots_of_its_own_quadratic():
++    """ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its first finding, computed by main).  A
++    bracket main wrote at this review said that LR keeps one point at N = 5 and two at other levels.  The lines LR keeps are
++    the roots of x^2 - 3x + 1 modulo N: counted here by brute force, both ways, and the page's sentence is held to it."""
++    roots = lambda n: sum(1 for x in range(n) if (x * x - 3 * x + 1) % n == 0)
++    assert all(m.lines_kept(m.LR, n) == roots(n) for n in range(2, 201))                # lines and roots agree at every level
++    to_60 = {n: roots(n) for n in range(2, 61)}
++    assert sum(1 for c in to_60.values() if c == 0) == 51 and [n for n, c in to_60.items() if c == 1] == [5]
++    assert [n for n, c in to_60.items() if c == 2] == [11, 19, 29, 31, 41, 55, 59] and max(to_60.values()) == 2
++    five_is_a_square = lambda n: any((x * x - 5) % n == 0 for x in range(n))
++    assert all(roots(n) == 0 for n in range(2, 201) if not five_is_a_square(n))          # none wherever 5 is not a square
++    assert five_is_a_square(2) and roots(2) == 0                                         # and not only there: at 2, 5 is a square and no line is kept
++    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
++    assert "one at N = 5; at any other level as many as x² − 3x + 1 has roots modulo N, which is none wherever 5 is not a square" in f
++    assert "To level 60: none at 51 levels, one at 5, two at 11, 19, 29, 31, 41, 55 and 59; lines and roots agree at every level." in f
++    assert "LR keeps exactly one point at N = 5, and two at other levels.]" in f           # what was written is kept, with its two corrections after it
++
++
++def test_the_arcs_corrections_of_review_79_and_80_are_held_and_the_script_says_what_the_page_says():
++    """ADDED 2026-11-12 (the same supplement, its second finding, not checked by main): the page was corrected to say
++    "computed once" and the script's own heading still said that its expectations were written before the run; and the
++    lock held one of main's four mends of this arc."""
++    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
++    for s in ("is main's own check and not a prediction of the card",
++              "it now tries every one",
++              "stood unscoped in five places; each carries the correction now",
++              "By the protocol's labels this is computed once, and not \"expectations committed first\""):
++        assert s in f, s
++    script = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
++    assert "EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)\n[CORRECTED 2026-11-12 (Review 80;" in script
++    assert "By the protocol's labels this is computed once" in " ".join(script.split())
+-- 
+2.43.0
+
