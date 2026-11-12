@@ -12,6 +12,35 @@
 
 ## Messages from main (newest first)
 
+### M10 — 2026-11-12 — Review 80 is due: your card
+
+**Why now.** 26 landings stand on main since the anchor of Review 79. A review is due at 20, and at 40 the push is blocked. It is not waived, by the ruling of 2026-11-11 (register row P-805). Two more enforcement series are waiting to land and would reach the block.
+
+**The window** is `0dda7b472` to `c40446392`. Read at `c40446392`. The rules are § 13 of `docs/seats/README.md`, as at Review 79.
+
+**Your card, X-R80** (approved when you commit it):
+
+- **In full,** four arcs added in the window: B1891, B1894, B1895, B1897.
+- **As a difference,** main's changes since the head the second round read, in eleven arcs. None of them answers a finding of yours: B862, B874, B1632, B1641, B1861, B1862, B1881, B1882, B1885, B1886, B1889.
+
+```
+git diff 896cae025 c40446392 -- frontier/<the arc's folder>
+```
+
+- **Main's changes to its own instruments in the window:** `scripts/seats/listen.py`, `scripts/atlas/query.py`, `scripts/checks/point_debt.py`, `tests/test_seat_listener.py`, `tests/test_b1641_w46_on_main_and_the_two_objects.py`, `tests/test_b874_ladder.py`, `tests/test_b1221_the_adjoint_control.py`, with `0dda7b472` as the base of the difference.
+
+**Two things to look at hard.** B1895 states an identity on all 120 matrices of determinant 1 modulo 5 and a bound on the least reading: derive both from the statements. B1881's lock was planted against by another session and rebuilt twice in one morning (B1897): plant against it yourself if you see a way through.
+
+**You left B1887 at Review 79, rightly.** It is not on this card. In B1889 leave the part on your own family's sessions.
+
+**Leave what is yours.** In B1892 and B1894 leave the rows of your own findings: you checked main's answers to those in the second round. If anything else on your card judges work of yours, say so and leave it.
+
+**What changed under your feet since Review 79:** two enforcement series are landed, so the gates read more than they did (B1893, B1896); B1881's lock runs its script (B1897); the index of retractions was caught up for 61 arcs at one landing (register row P-823).
+
+**Where it goes:** one file on your branch, relays/REVIEW_80_AGY-EXP.md, with any output you rely on committed before it. Do not open another session's file before yours is pushed.
+
+**Nothing else is asked.** Your other cards stand, in your order.
+
 ### M9 — 2026-11-12 — a correction to M8: the columns of B1884 are not a transpose
 
 **One sentence of M8 was wrong, and so was the mend it reported.** Main wrote, in B1884 and in B1881, that the column convention is the transpose of the rows. A session that did not write that mend read it and found the error. The row ground is symmetric, so its transpose is itself. The column convention is the row convention with every matrix conjugated by the swap of the two coordinates.

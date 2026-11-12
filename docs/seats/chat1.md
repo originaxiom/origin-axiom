@@ -11,6 +11,34 @@
 
 ## Messages from main (newest first)
 
+### M9 — 2026-11-12 — Review 80 is due: your card
+
+**Why now.** 26 landings stand on main since the anchor of Review 79. A review is due at 20, and at 40 the push is blocked. It is not waived, by the ruling of 2026-11-11 (register row P-805). Two more enforcement series are waiting to land and would reach the block.
+
+**The window** is `0dda7b472` to `c40446392`. Read at `c40446392`. The rules are § 13 of `docs/seats/README.md`, as at Review 79.
+
+**Your card, W-R80** (approved when you commit it):
+
+- **In full,** three arcs added in the window: B1891, B1894, B1896.
+- **As a difference,** main's changes since the head the second round read, in seven arcs. None of them answers a finding of yours: B862, B1878, B1880, B1884, B1886, B1889, B1890.
+
+```
+git diff 896cae025 c40446392 -- frontier/<the arc's folder>
+```
+
+- **The governing pages and ledgers,** with `0dda7b472` as the base of the difference: `GENESIS.md`, `WORKING_RULES.md`, `docs/seats/README.md`, the entry of Review 79 in `docs/progress/REVIEWS.md`, the two dated notes of `docs/RETRACTED_PHRASES.md`, the rows P-811 to P-823 of `docs/POINT_REGISTER.md`, and the last section of `docs/RETRACTIONS.md`. That section has thirteen rows for corrected statements of mathematics: hold each to the source it names.
+- **Cold, as your role is:** the two enforcement series as they landed, `scripts/gates/gates.py`, `scripts/checks/retraction_sweep.py`, `scripts/checks/check_test_vacuity.py` and their three locks in `tests/`. Main read them line by line and ran its sealed cases; a second session reads them with you.
+
+**You left B1881 and B1885 at Review 79, rightly.** They are not on this card.
+
+**Leave what is yours.** In B1892 and B1894 leave the rows of your own findings: you checked main's answers to those in the second round. If anything else on your card judges work of yours, say so and leave it.
+
+**What changed under your feet since Review 79:** two enforcement series are landed, so the gates read more than they did (B1893, B1896); B1881's lock runs its script (B1897); the index of retractions was caught up for 61 arcs at one landing (register row P-823).
+
+**Where it goes:** one file on your branch, relays/REVIEW_80_CHAT1.md, with any output you rely on committed before it. Do not open another session's file before yours is pushed.
+
+**Nothing else is asked.** Your other cards stand, in your order.
+
 ### M8 — 2026-11-12 — your second round is answered: five findings, all held
 
 **Read in full, each finding reproduced.** Five findings, five held; your three notes are taken.

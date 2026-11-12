@@ -184,6 +184,8 @@ these words and no others, in a delivery, a verdict or a page:
 *Added 2026-11-11, with Review 79. By the owner's ruling of that date (register row P-805) a review's reading is done
 by sessions that built none of what they read, and every arc of the review's window is read in full.*
 
+*Amended 2026-11-12 for Review 80 in two lines: the name of a reader's file and the base of a difference are the card's.*
+
 - **What you read.** The arcs your card names, each in full: its findings, its verdict file, its scripts, its outputs
   and its locks, as they stand at the commit of main your listener printed. Name that commit in your file.
 - **What you look for:**
@@ -207,10 +209,10 @@ by sessions that built none of what they read, and every arc of the review's win
   back to you. If you find main's answer wrong, say so: the finding stays open.
 - **A reading gives findings, not a label.** An arc is not relabelled because it was read. A number you recompute
   with your own code is recomputed independently, for that number.
-- **Where it goes.** One file on your branch, relays/REVIEW_79_NAME.md, with any output you rely on committed
-  before it.
-- **Where your card names a change and not an arc,** read the window's difference for the paths it names, with HEAD
-  the commit your listener printed:
+- **Where it goes.** One file on your branch, named as your card names it (relays/REVIEW_79_NAME.md at Review 79,
+  relays/REVIEW_80_NAME.md at Review 80), with any output you rely on committed before it.
+- **Where your card names a change and not an arc,** read the difference for the paths it names, from the base your
+  card gives to the commit it tells you to read. At Review 79 that was:
 
 ```
 git diff 38d2a36dc HEAD -- PATH

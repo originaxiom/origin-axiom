@@ -19831,3 +19831,17 @@ seat's check. Six are left.
 **A note added the same hour.** The entry above says the check compares the script's output byte for byte with what is saved. That was changed before it was published. Comparing bytes alone would have made the check fail on a machine with another version of the two libraries the script uses, although nothing in the result had changed. The script now writes down which versions produced the saved output. With those versions the check asks for the bytes. With others it asks for the same lines, the same checks and the same numbers to eight digits. Main noticed this while reading the next repair of the automatic checks, which names exactly that kind of fragile check.
 
 0 of 19.
+
+## 2026-11-12 — The next periodic review is opened (S306p)
+
+**Why.** The rule counts what has been published since the last review. At twenty the next review is due; at forty nothing more can be published until it is done. The count stood at 26, and the next repair of the automatic checks is twelve more. The rule is not being waived.
+
+**What the review covers.** Everything published since the last one: seven new pieces of work, the corrections main made to nineteen older ones, the governing pages, main's own tools, and the two repairs of the automatic checks that are in.
+
+**Who reads it.** The four reading sessions. Each new piece goes to two sessions that had no part in it, one of the same kind of model as main and one of another kind. Each correction goes to two sessions other than the one that asked for it. Nobody is given work that judges its own.
+
+**What main does meanwhile.** It checks the fourth repair of the automatic checks without publishing it, and publishes nothing else until the review is entered.
+
+**Which piece of the plan moved.** None. This is the rule that keeps the record read by someone other than its writer.
+
+0 of 19.

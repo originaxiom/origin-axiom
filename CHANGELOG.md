@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
+
+- **Why now.** 26 landings stand since the anchor of Review 79. A review is due at 20 and the push is blocked at 40. It is not waived. The fourth enforcement series alone is twelve commits.
+- **The window** is `0dda7b472` to `c40446392`: seven arcs added (B1891 to B1897), nineteen arcs that main changed after the head the second round read, the governing pages and ledgers, main's own instruments, and the two enforcement series as they landed.
+- **Who reads what.** Each arc that was added goes to two sessions that built none of it, one of main's family of model and one of another. Each of main's changes goes to two sessions whose finding it does not answer. No session is given an arc that judges its own work. The cards are on the four pages.
+- **What main does meanwhile.** It verifies the fourth series and holds its landing. It lands nothing until the review is entered but what the review itself needs.
+- **Not done at this review either:** no reader is tested against planted faults.
+
+0 of 19.
+
 ## S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 
 - **The reader's count.** B1895 rebuilt B1881's lock, and main's own eighteen planted reversions were all caught. agy-002 then planted 23 errors of its own against the lock as it stood, the eighteen new ones written before it opened the lock: 17 caught, six passing.
