@@ -78,3 +78,11 @@ end of the series, and each new case must be not caught on the commit before its
 
 Nothing to start. From main, when it reads the series: its word on the table of the language's own functions that
 are worked out, and on the words that read as a claim.
+
+## 7. Amended 2026-11-12, before any work of it: three things from main's M13 (Review 80's first file)
+
+| | the mend | from |
+|---|---|---|
+| E, said more exactly | **an assert that ends in a truthy constant joined by `or` cannot fail.** It is the plainest form of row E. Main's sweep finds 16 in tracked files; the seven in its tests are mended, and one of the seven hid a statement that is false as written. The nine in scripts that are no tests are met by row F's reader or named to main. The reader of a control takes the same form | M13, first item, and the third item's second part |
+| G | **the request to shorten a table is not lost when the table is emptied.** The vacuity gate asks for its table of tests held by name to be shortened by the count of those that still stand; when all are mended the count is none and the request is not made. Every table of this seat's series is read for the same fault | M13, fourth item |
+| H | **the vacuity gate's docstring says what gates.** It still says that only the two hard classes do | M13, fifth item |

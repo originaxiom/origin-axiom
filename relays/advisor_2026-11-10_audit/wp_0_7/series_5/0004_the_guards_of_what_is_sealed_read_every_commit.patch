@@ -1,0 +1,318 @@
+From 249444585c2b27c5b70d6762f2feed094aaf2dce Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 09:48:14 +0000
+Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 5, patch 4;
+ built on a35fd4bce with the ten patches of series 4 and the first three of
+ series 5 applied): THE GUARDS OF WHAT IS SEALED READ EVERY COMMIT (Review 79,
+ the second reader's row 23). Three guards hold that a sealed file, a list of
+ hashed files under its usual name, and a list under any other name, does not
+ change after it is added. Each read main's own line only. A branch that adds
+ such a file, changes it, and is then merged shows the file on main's line as
+ added, and the change was read by nothing. And the third guard read the file
+ as it stood before a change as text: a list whose bytes are not text raised
+ an error in place of an answer. THE MEND: the three guards share one reader
+ of every commit that the head reaches and their root does not. A commit with
+ one parent is read beside it, all such commits in one call, as before. A
+ MERGE IS READ FOR WHAT IT CHANGES ITSELF: a path is the merge's own change
+ only where its state in the merge is the state in none of its parents. What a
+ merge brings from a branch was changed on that branch and is read there, so a
+ change that is waived by name is not counted again at the merge; and what a
+ branch from before a seal lacks is no deletion. The file as it stood is read
+ as bytes. The messages are word for word what they were, and on main the
+ three sentences are the same: no commit after any of the three roots stands
+ on another line today. What it does not reach: a file that is added on a
+ branch already changed, in one commit, is added; the guards hold what stood
+ in a commit. The lock: three tests added to
+ tests/test_gates_are_a_function_of_the_commit.py. On the commit before, two
+ fail: a sealed file and two lists changed on a branch before the merge are
+ read by nothing, and a list whose bytes are not text raises an error. The
+ third holds on both sides, and is the control of the reading of merges: a
+ merge that rewrites a list in its own commit is refused, and a merge that
+ brings in a branch from before the seals is not. Tested against planted
+ errors; computed once. 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 132 ++++++++++--------
+ ...test_gates_are_a_function_of_the_commit.py |  95 +++++++++++++
+ 2 files changed, 170 insertions(+), 57 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 00eadef33..426f5a818 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2016,9 +2016,56 @@ SEAL_IMMUTABLE_FROM = "76a4ff388b719a15af955e6acd3b99ec676d42a0"     # the rule
+ SEAL_IMMUTABLE_WAIVED = {}                                             # (full sha, path) -> the owner's reason
+ 
+ 
++# THE GUARDS OF WHAT IS SEALED READ EVERY COMMIT (WP-0.7, series 5; Review 79, the second reader's row 23).  The three guards
++# below each read main's own line.  A branch that adds a sealed file or a list of hashed files, changes it, and is then merged
++# shows the file on main's line as added: the change was read by nothing.  They now read every commit that the head reaches
++# and their root does not.  A commit with one parent is read beside it.  A MERGE IS READ FOR WHAT IT CHANGES ITSELF: a path is
++# the merge's own change only where its state in the merge is the state in none of its parents.  What a merge brings from a
++# branch was changed on that branch, and is read there; what a branch from before a seal lacks is no deletion.
++def changes_after(git, root, specs=()):
++    """((commit, parent, status, path) for every change to a path that is not the adding of it, by a commit after `root`;
++    the number of commits read).  `status` is git's letter; for a move the path is the old one.  `git` runs a git command
++    and gives the finished process.  The commits with one parent are read in one call; a merge is read beside each parent."""
++    out, n = [], 0
++    one = git("log", "--reverse", "--full-history", "--no-merges", "-M", "--name-status", "--format=%x01%H %P", f"{root}..HEAD", "--", *specs)
++    for rec in one.stdout.split("\x01"):
++        rows = [l for l in rec.split("\n") if l.strip()]
++        if not rows:
++            continue
++        n += 1
++        head = rows[0].split()
++        c, par = head[0], (head[1] if len(head) > 1 else None)
++        for line in rows[1:]:
++            parts = line.split("\t")
++            if len(parts) >= 2 and not parts[0].startswith("A") and par:
++                out.append((c, par, parts[0][0], parts[1]))
++    merges = [l.split() for l in git("log", "--reverse", "--full-history", "--merges", "--format=%H %P", f"{root}..HEAD", "--", *specs).stdout.splitlines() if l.strip()]
++    for row in merges:
++        n += 1
++        c, per_parent = row[0], []
++        for par in row[1:]:
++            changed = {}
++            for line in git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", par, c, "--", *specs).stdout.splitlines():
++                parts = line.split("\t")
++                if len(parts) >= 2:
++                    changed[parts[1]] = parts[0][0]
++                    if parts[0][0] in "RC" and len(parts) >= 3:
++                        changed.setdefault(parts[2], "A")              # the new name of what was moved: added there
++            per_parent.append((par, changed))
++        own = set.intersection(*(set(ch) for _par, ch in per_parent)) if per_parent else set()     # as none of the parents has it
++        for path in sorted(own):
++            against = [(par, ch[path]) for par, ch in per_parent if ch[path] != "A"]
++            if against:                                               # at least one parent held it, and the merge changed it
++                out.append((c, against[0][0], against[0][1], path))
++    return out, n
++
++
++_VERBS = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
++
++
+ def seal_immutable_problems(repo, root, waived=(), limit=5):
+-    """The committed changes to sealed-style files on `repo`'s first-parent line after `root`: (problems, commits read).
+-    A pure function of the commit graph. It fails closed where the history cannot be read."""
++    """The committed changes to sealed-style files by any commit after `root` that `repo`'s head reaches: (problems, commits
++    read).  A pure function of the commit graph. It fails closed where the history cannot be read."""
+     def git(*a):
+         return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+     if git("rev-parse", "--git-dir").returncode != 0:
+@@ -2027,21 +2074,10 @@ def seal_immutable_problems(repo, root, waived=(), limit=5):
+         return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
+     if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+         return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
+-    specs = [":(glob)frontier/B*/" + pat for pat in SEAL_PATTERNS]
+-    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", *specs).stdout.split()
+-    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+-    problems = []
+-    for c in commits:
+-        out = git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", f"{c}^", c, "--", *specs).stdout
+-        for line in out.splitlines():
+-            parts = line.split("\t")
+-            if len(parts) < 2 or parts[0].startswith("A"):
+-                continue                               # a new sealed file is a seal
+-            path = parts[1]                            # for a move, the sealed file's own (old) path
+-            if (c, path) in waived:
+-                continue
+-            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the sealed file {path}")
+-    return problems[:limit], len(commits)
++    changes, n = changes_after(git, root, [":(glob)frontier/B*/" + pat for pat in SEAL_PATTERNS])
++    problems = [f"{c[:9]} {_VERBS.get(st, 'changes')} the sealed file {path}"             # for a move, the sealed file's own (old) path
++                for c, _par, st, path in changes if (c, path) not in waived]
++    return problems[:limit], n
+ 
+ 
+ def gate_seal_immutable():
+@@ -2251,62 +2287,44 @@ def _history_guards(git, root, what):
+ 
+ 
+ def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
+-    """The committed changes to a list of hashed files on `repo`'s first-parent line after `root`: (problems, commits read).
+-    A pure function of the commit graph, as seal_immutable_problems is; it fails closed where history cannot be read."""
++    """The committed changes to a list of hashed files by any commit after `root` that `repo`'s head reaches: (problems,
++    commits read).  A pure function of the commit graph, as seal_immutable_problems is; it fails closed where history cannot
++    be read."""
+     def git(*a):
+         return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+     bad = _history_guards(git, root, "the rule's first commit")
+     if bad:
+         return [bad], 0
+-    spec = ":(glob)**/" + ARTIFACT_HASH_GLOB
+-    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", spec).stdout.split()
+-    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+-    problems = []
+-    for c in commits:
+-        out = git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", f"{c}^", c, "--", spec).stdout
+-        for line in out.splitlines():
+-            parts = line.split("\t")
+-            if len(parts) < 2 or parts[0].startswith("A"):
+-                continue                               # a new list is a seal
+-            if (c, parts[1]) in waived:
+-                continue
+-            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the list of hashed files {parts[1]}")
+-    return problems[:limit], len(commits)
++    changes, n = changes_after(git, root, [":(glob)**/" + ARTIFACT_HASH_GLOB])           # a new list is a seal: it is not a change
++    problems = [f"{c[:9]} {_VERBS.get(st, 'changes')} the list of hashed files {path}" for c, _par, st, path in changes if (c, path) not in waived]
++    return problems[:limit], n
+ 
+ 
+ def hash_lists_by_content_problems(repo, root, waived=(), limit=5):
+-    """The same rule for a list under any other name: on `repo`'s first-parent line after `root`, no commit edits, deletes or moves
+-    a file that WAS a list of hashed files by content in the commit before: (problems, commits read).  One call reads the names
+-    each commit changed; a changed file of a listed suffix is then read as it stood in the parent."""
++    """The same rule for a list under any other name: no commit after `root` that `repo`'s head reaches edits, deletes or moves
++    a file that WAS a list of hashed files by content in the commit before: (problems, commits read).  A changed file of a
++    listed suffix is read as it stood in the parent it was changed against."""
+     def git(*a):
+         return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=300)
+     bad = _history_guards(git, root, "the first commit of the rule for lists under other names")
+     if bad:
+         return [bad], 0
+-    r = git("log", "--first-parent", "--reverse", "-M", "--name-status", "--diff-merges=first-parent", "--format=%x01%H", f"{root}..HEAD")
++    r = git("rev-list", "--count", f"{root}..HEAD")
+     if r.returncode != 0:
+         return ["cannot verify: the history after %s cannot be read (%s)" % (root[:9], r.stderr.strip().split("\n")[0][:80])], 0
+-    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+-    problems, n = [], 0
+-    for rec in r.stdout.split("\x01"):
+-        rows = [l for l in rec.split("\n") if l.strip()]
+-        if not rows:
++    changes, n = changes_after(git, root)
++    problems = []
++    for c, par, st, path in changes:
++        base = os.path.basename(path)
++        if fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB) or os.path.splitext(base)[1].lower() not in HASH_LIST_SUFFIXES:
++            continue                               # the named lists have their own rule and their own first commit
++        # the file as it stood, read as bytes: a list whose bytes are not text raised an error here in place of an answer
++        before = subprocess.run(["git", "-C", str(repo), "show", f"{par}:{path}"], capture_output=True, timeout=300)
++        if before.returncode != 0 or len(before.stdout) > HASH_LIST_MAX_BYTES:
+             continue
+-        c = rows[0].strip(); n += 1
+-        for line in rows[1:]:
+-            parts = line.split("\t")
+-            if len(parts) < 2 or parts[0].startswith("A"):
+-                continue
+-            path = parts[1]
+-            base = os.path.basename(path)
+-            if fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB) or os.path.splitext(base)[1].lower() not in HASH_LIST_SUFFIXES:
+-                continue                               # the named lists have their own rule and their own first commit
+-            before = git("show", f"{c}^:{path}")
+-            if before.returncode != 0 or len(before.stdout) > HASH_LIST_MAX_BYTES or not is_hash_list(path, before.stdout):
+-                continue
+-            if (c, path) in waived:
+-                continue
+-            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the list of hashed files {path}")
++        if not is_hash_list(path, before.stdout.decode("utf-8", "replace")) or (c, path) in waived:
++            continue
++        problems.append(f"{c[:9]} {_VERBS.get(st, 'changes')} the list of hashed files {path}")
+     return problems[:limit], n
+ 
+ 
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index 887ecaff1..95caf8759 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -793,3 +793,98 @@ def test_a_commit_dated_before_any_of_its_parents_is_refused_wherever_it_stands(
+     merged = merge("late", t0 + 600)
+     bad = g.commit_day_problems(repo, root, limit=9)
+     assert any(merged[:9] in b and late[:9] in b for b in bad), "a merge was dated before the branch it merges, and the guard reads: %r" % (bad,)
++
++
++# ---- series 5: the guards of what is sealed read every commit (Review 79, the second reader's row 23) ---------------------
++# Three guards hold that a sealed file, and a list of hashed files under either kind of name, does not change after it is
++# added.  Each read main's own line only.  A branch that adds such a file, changes it, and is then merged shows the file
++# on main's line as added, and the change was read by nothing.
++_SEALED = "frontier/B9_an_arc/PREREGISTRATION.md"
++_LISTED = "frontier/B9_an_arc/ARTIFACT_HASHES.txt"
++_SUMMED = "frontier/B9_an_arc/verification/sums.sha256"
++_A_HASH = "0123456789abcdef" * 4
++
++
++def _guards(g, repo, root):
++    """the three guards' problems on `repo` after `root`, as one list"""
++    return (g.seal_immutable_problems(repo, root)[0] + g.hash_lists_immutable_problems(repo, root)[0]
++            + g.hash_lists_by_content_problems(repo, root)[0])
++
++
++def _a_repository_with_a_trunk(tmp_path):
++    repo = _small_repo(tmp_path)
++    return repo, _git(repo, "rev-parse", "HEAD"), _git(repo, "rev-parse", "--abbrev-ref", "HEAD")
++
++
++def _write(repo, files):
++    for rel, text in files.items():
++        f = repo / rel
++        f.parent.mkdir(parents=True, exist_ok=True)
++        f.write_bytes(text) if isinstance(text, bytes) else f.write_text(text, encoding="utf-8")
++    _git(repo, "add", "-A")
++
++
++def _commit_files(repo, message, files):
++    _write(repo, files)
++    _git(repo, "commit", "-q", "-m", message)
++    return _git(repo, "rev-parse", "HEAD")
++
++
++_THREE = {_SEALED: "what is declared before the run\n", _LISTED: "%s  run.py\n" % _A_HASH, _SUMMED: "%s  out.json\n" % _A_HASH}
++
++
++def test_what_is_sealed_on_a_branch_and_changed_there_before_the_merge_is_read(tmp_path):
++    g = _gates()
++    # the twin first: a branch adds the three and leaves them as they are; main's line moves on; the branch is merged
++    repo, root, trunk = _a_repository_with_a_trunk(tmp_path / "clean")
++    _git(repo, "checkout", "-q", "-b", "side")
++    _commit_files(repo, "three seals", _THREE)
++    _git(repo, "checkout", "-q", trunk)
++    _commit_files(repo, "on main's own line", {"sub/page.md": "a page, changed\n"})
++    _git(repo, "merge", "-q", "--no-ff", "-m", "merge side", "side")
++    assert _guards(g, repo, root) == []
++    # the case: the same branch, with a second commit that changes each of the three
++    repo, root, trunk = _a_repository_with_a_trunk(tmp_path / "changed")
++    _git(repo, "checkout", "-q", "-b", "side")
++    _commit_files(repo, "three seals", _THREE)
++    edit = _commit_files(repo, "each of the three changed", {k: v + "and one line more\n" for k, v in _THREE.items()})
++    _git(repo, "checkout", "-q", trunk)
++    _git(repo, "merge", "-q", "--no-ff", "-m", "merge side", "side")
++    bad = _guards(g, repo, root)
++    for path, what in ((_SEALED, "the sealed file"), (_LISTED, "the list of hashed files"), (_SUMMED, "the list of hashed files")):
++        assert any(edit[:9] in b and "edits " + what + " " + path in b for b in bad), (
++            "%s was added on a branch, changed there, and merged; the guards read: %r" % (path, bad))
++
++
++def test_a_merge_is_read_for_what_it_changes_itself_and_not_for_what_it_brings(tmp_path):
++    g = _gates()
++    repo, root, trunk = _a_repository_with_a_trunk(tmp_path)
++    _commit_files(repo, "three seals, on main's own line", _THREE)
++    sealed = _git(repo, "rev-parse", "HEAD")
++    # a branch from before the seals, merged after them: against the branch the three are new, and that is no change
++    _git(repo, "checkout", "-q", "-b", "side", root)
++    _commit_files(repo, "a page on the branch", {"sub/other.md": "another page\n"})
++    _git(repo, "checkout", "-q", trunk)
++    _git(repo, "merge", "-q", "--no-ff", "-m", "merge side", "side")
++    assert _guards(g, repo, sealed) == [], "a merge that brings in a branch from before the seals is read as changing them"
++    # a merge that changes a list in its own commit: the list is as neither of its parents has it
++    _git(repo, "checkout", "-q", "-b", "side2")
++    _commit_files(repo, "a second page on a branch", {"sub/third.md": "a third page\n"})
++    _git(repo, "checkout", "-q", trunk)
++    _git(repo, "merge", "-q", "--no-ff", "--no-commit", "side2")
++    _write(repo, {_LISTED: "%s  run.py\n" % ("f" * 64)})
++    _git(repo, "commit", "-q", "-m", "merge side2, and the list rewritten in the merge")
++    merge = _git(repo, "rev-parse", "HEAD")
++    bad = _guards(g, repo, sealed)
++    assert any(merge[:9] in b and _LISTED in b for b in bad), "a merge rewrote a list of hashed files in its own commit, and the guards read: %r" % (bad,)
++
++
++def test_a_list_whose_bytes_are_not_text_does_not_break_the_guard(tmp_path):
++    """the same row, its last part: the file as it stood before a change was read as text, and bytes that are not UTF-8
++    raised an error in place of an answer"""
++    g = _gates()
++    repo, root, trunk = _a_repository_with_a_trunk(tmp_path)
++    _commit_files(repo, "a list with a name in another encoding", {_SUMMED: ("%s  caf\xe9.json\n" % _A_HASH).encode("latin-1")})
++    edit = _commit_files(repo, "and changed", {_SUMMED: ("%s  caf\xe9.json\n" % ("e" * 64)).encode("latin-1")})
++    bad, read = g.hash_lists_by_content_problems(repo, root)
++    assert any(edit[:9] in b and _SUMMED in b for b in bad), bad
+-- 
+2.43.0
+

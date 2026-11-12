@@ -1,0 +1,251 @@
+From 3a995c3edecd3135bbef8b30e87e008a7ad72836 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 09:34:53 +0000
+Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 5, patch 2;
+ built on a35fd4bce with the ten patches of series 4 and the first patch of
+ series 5 applied): A SEAT'S BRANCH IS FOUND BY A NAME THAT FITS ONE BRANCH,
+ AND A HARVEST GATE THAT COULD READ NO BRANCH FAILS AND SAYS SO (Review 79,
+ the second reader's row 22; main's word in M10; and what the seat found on
+ the way to the failure of M10). Four things. ONE: the checker found a seat's
+ branch by the last part of its name and, of two that fit, took the shorter
+ without a word, so a second seat's branch of the same last name would have
+ been read in place of the first. A name that fits more than one branch is now
+ refused, and the branches that fit are named. TWO: where a seat has no pin in
+ the ledger's table, or its pin does not resolve in the clone, its entry was
+ left with neither a head nor a reason, and the report raised an error of a
+ missing key in place of the checker's own line. The seat is now given its
+ reason and the report prints it. THREE: in a clone that holds no seat's
+ branch the checker reads none, finds nothing wrong among none and ends with
+ status 0, and the gate said that no seat's branch is past its pin. The gate
+ is now refused there with its reason, as it is on a shallow clone: that is
+ main's word, and the stricter option. FOUR: a failing checker's reason stood
+ after one line for each seat, and the gate's answer was cut before it; the
+ reason now comes first. And where the gate read some branches and not others
+ it passes, and its sentence counts those it did not read and names the first
+ three: a gate says what it did not read. Where every branch is read the
+ sentence is word for word the one main's own test holds. On this clone the
+ sentence now ends: 1 seat(s) not read in this clone, the one whose remote is
+ not configured here. What it does not reach: a branch that is in the clone
+ and is not the seat's; a clone that holds an old copy of a seat's branch
+ reads that copy. The lock: four tests added to
+ tests/test_gates_are_a_function_of_the_commit.py, each on a small repository
+ with a remote of its own. On the commit before, all four fail: a name that
+ fits two branches ends with status 0; a pin that does not resolve raises the
+ error of a missing key; a clone with no seat's branch passes; and the
+ sentence counts nothing it did not read. Tested against planted errors, 4 of
+ 4; computed once. 0 of 19.
+
+---
+ scripts/checks/harvest_debt.py                | 32 ++++++++--
+ scripts/gates/gates.py                        | 40 ++++++++++--
+ ...test_gates_are_a_function_of_the_commit.py | 64 +++++++++++++++++++
+ 3 files changed, 125 insertions(+), 11 deletions(-)
+
+diff --git a/scripts/checks/harvest_debt.py b/scripts/checks/harvest_debt.py
+index 7dc35b8a8..5af4b75eb 100644
+--- a/scripts/checks/harvest_debt.py
++++ b/scripts/checks/harvest_debt.py
+@@ -221,13 +221,21 @@ def _remotes():
+     return set(out.split()) if rc == 0 else set()
+ 
+ 
+-def _resolve_branch(remote, short, _cache={}):
+-    """the remote-tracking ref whose last path segment is `short` (unique on every remote here), or None."""
++def _branches_named(remote, short, _cache={}):
++    """every remote-tracking ref of `remote` whose last path segment is `short`"""
+     if remote not in _cache:
+         rc, out = _git("for-each-ref", "--format=%(refname:short)", f"refs/remotes/{remote}")
+         _cache[remote] = [l.strip() for l in out.splitlines() if l.strip()] if rc == 0 else []
+-    hits = [r for r in _cache[remote] if r.rsplit("/", 1)[-1] == short]
+-    return sorted(hits, key=len)[0] if hits else None
++    return sorted(r for r in _cache[remote] if r.rsplit("/", 1)[-1] == short)
++
++
++def _resolve_branch(remote, short):
++    """the one remote-tracking ref whose last path segment is `short`, or None: where none fits, and where more than one
++    does.  (2026-11-12, WP-0.7 series 5; Review 79, the second reader's row 22.  Of two that fit, the shorter name was
++    taken without a word, so a second seat's branch of the same last name would have been read in place of the first.
++    The run below names the branches that fit, and fails.)"""
++    hits = _branches_named(remote, short)
++    return hits[0] if len(hits) == 1 else None
+ 
+ 
+ def _rev(ref):
+@@ -688,6 +696,11 @@ def run(fetch=False, strict=False):
+                 report["integrity"].append(f"{k}: {s['skipped']}")
+             totals["skipped"] += 1
+             continue
++        fits = _branches_named(canon, seat["branch"])
++        if len(fits) > 1:
++            s["unread"] = f"the name {seat['branch']} fits {len(fits)} branches of {canon}: {', '.join(fits)}"
++            report["integrity"].append(f"{k}: {s['unread']}. A seat's branch is named so that it fits one")
++            continue
+         ref = _resolve_branch(canon, seat["branch"])
+         head = _rev(ref) if ref else None
+         if not head:
+@@ -697,12 +710,16 @@ def run(fetch=False, strict=False):
+                 report["integrity"].append(f"{k}: {s['skipped']}")
+             continue
+         pin_short = overrides.get(k, pins.get(k))
++        # A seat that is not read is given its reason (2026-11-12): the two cases below left its entry with neither a head nor
++        # a reason, and the report raised an error of a missing key in place of the line that says why.
+         if not pin_short:
+-            report["integrity"].append(f"{k}: no pin in the `## Pins` table")
++            s["unread"] = "no pin in the `## Pins` table"
++            report["integrity"].append(f"{k}: {s['unread']}")
+             continue
+         pin = _rev(pin_short)
+         if not pin:
+-            report["integrity"].append(f"{k}: pin {pin_short} does not resolve")
++            s["unread"] = f"pin {pin_short} does not resolve"
++            report["integrity"].append(f"{k}: {s['unread']}")
+             continue
+         s["head"], s["pin"] = head[:8], pin[:8]
+         rc, out = _git("rev-list", "--count", f"{pin}..{head}")
+@@ -781,6 +798,9 @@ def print_report(rep, verbose=True):
+         if "skipped" in s:
+             print(f"    {k:<8} SKIPPED: {s['skipped']}")
+             continue
++        if "unread" in s:
++            print(f"    {k:<8} NOT READ: {s['unread']}")
++            continue
+         print(f"    {k:<8} head {s['head']} pin {s['pin']} (+{s['commits_since_pin']} commits) index {s['index_size']} rows {s['rows']} | "
+               f"NEW unrowed {len(s['new_unrowed'])} rowed {len(s['new_rowed'])} | backlog {len(s['backlog'])} | stale {len(s['stale_rows'])} | "
+               f"relays unrowed {len(s['relays_unrowed'])}/{s['relays_on_branch']} (named on main without a row: {len(s.get('relays_unrowed_named_on_main', []))}) | scheduled rows {s.get('scheduled_rows', 0)}"
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index d03e23fd9..746e0df77 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2661,9 +2661,34 @@ def gate_retraction_debt():
+ def gate_harvest_debt():
+     """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
+     (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
+-    rc, out = _debt_checker("harvest_debt.py", "--quiet")
++    return harvest_answer(*_debt_checker("harvest_debt.py", "--quiet"))
++
++
++REFUSED_NO_SEAT = ("refused: no seat's branch is in this clone (%d not read: %s). This gate reads each seat's branch against the "
++                   "harvest ledger, and it could read none. Fetch the seats' branches")
++
++
++def _seats_not_read(tool_output):
++    """(seat, why) for every seat the tool did not read and that is not retired: its branch not fetched, its remote not
++    configured, its pin not readable"""
++    lines = re.findall(r"^\s+(\S+)\s+(?:SKIPPED|NOT READ): (.*)$", tool_output, re.M)
++    return [(seat, why.strip()) for seat, why in lines if not why.startswith("retired")]
++
++
++def harvest_answer(rc, out):
++    """the harvest gate's answer for a run of its checker: (ok, detail).
++
++    WP-0.7, series 5 (Review 79, the second reader's row 22; main's M10).  A checker that fails gives its reason first: the
++    reason stands after one line for each seat, and the answer was cut before it.  A checker that read no seat's branch
++    passes, having found nothing wrong among none: the gate is then refused, as it is on a shallow clone."""
+     if rc != 0:
+-        return False, out.replace("\n", " | ")[:500]
++        lines = [l.strip() for l in out.split("\n") if l.strip()]
++        why = [l for l in lines if l.startswith(("INTEGRITY", "harvest-debt:", "harvest-debt --strict", "refused"))
++               or re.match(r"\w+(?:Error|Exception)\b", l)]
++        return False, " | ".join(why + [l for l in lines if l not in why])[:500]
++    not_read = _seats_not_read(out)
++    if not re.search(r"^\s+\S+\s+head \S+ pin \S+", out, re.M):
++        return False, REFUSED_NO_SEAT % (len(not_read), "; ".join("%s, %s" % u for u in not_read[:3]) + (" ..." if len(not_read) > 3 else ""))
+     # A seat whose branch has moved past its pin is not a failure for 21 days, and the gate said a bare "ok" meanwhile: on
+     # 2026-11-11 the advisor seat's third re-audit sat fetched and unread for eight hours while main landed twice (B1880).  The
+     # sentence now names every seat past its pin, and the runner prints it at every push.
+@@ -2671,12 +2696,17 @@ def gate_harvest_debt():
+ 
+ 
+ def harvest_sentence(tool_output):
+-    """the harvest gate's sentence from the tool's own lines: which seats have commits past their pin, and how many"""
++    """the harvest gate's sentence from the tool's own lines: which seats have commits past their pin, and how many; and,
++    from series 5, how many seats the tool could not read in this clone (a gate says what it did not read)"""
+     past = re.findall(r"^\s+(\S+)\s+head \S+ pin \S+ \(\+(\d+) commits?\)", tool_output, re.M)
+     past = [(seat, int(n)) for seat, n in past if int(n) > 0]
++    not_read = _seats_not_read(tool_output)
++    blind = ("; %d seat(s) not read in this clone: " % len(not_read) + ", ".join("%s (%s)" % u for u in not_read[:3])
++             + (" and %d more" % (len(not_read) - 3) if len(not_read) > 3 else "")) if not_read else ""
+     if not past:
+-        return "ok (no seat's branch is past its pin in this clone)"
+-    return "ok within the 21 days -- UNREAD: " + ", ".join("%s +%d commit(s) past its pin" % p for p in past) + " (read them at this landing)"
++        return "ok (no seat's branch is past its pin in this clone%s)" % blind
++    return ("ok within the 21 days -- UNREAD: " + ", ".join("%s +%d commit(s) past its pin" % p for p in past)
++            + " (read them at this landing)" + blind)
+ 
+ 
+ def gate_lead_debt():
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index eaf6fa0e4..cfd52771e 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -653,3 +653,67 @@ def test_a_debt_gate_gives_one_answer_on_one_commit():
+     g = _gates()
+     twice = sorted(name for name in DATED if tuple(map(str, g.GATES[name]())) != tuple(map(str, g.GATES[name]())))
+     assert not twice, "these gates give two answers on one commit, with nothing changed between the two: %s" % ", ".join(twice)
++
++
++# ---- series 5: a seat's branch is found by its full name, and a gate that could read no branch says so and fails ----------
++# The second reader's row 22, and what was found on the way to the failure of M10.  Main's word (M10): a gate that could
++# read no seat's branch is a failure, refused with its reason, as a shallow clone is.
++def _the_harvest_gates_answer(status, out):
++    """what the harvest gate answers for a run of its checker (before series 5 the gate held this in its own body)"""
++    g = _gates()
++    as_it_was = lambda rc, text: (False, text.replace("\n", " | ")[:500]) if rc != 0 else (True, g.harvest_sentence(text))
++    return getattr(g, "harvest_answer", as_it_was)(status, out)
++
++
++def test_a_branch_name_that_fits_two_branches_is_refused_by_name(tmp_path):
++    """the checker found a seat's branch by the last part of its name and, of two that fit, took the shorter"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path, branches=("chat1/web-seat", "zz/web-seat"))
++    status, out = _the_harvest_checker(repo)
++    assert status == 1, "the name web-seat fits two branches of the remote, one was taken without a word, and the checker ended with status %d" % status
++    assert "INTEGRITY" in out and "origin/chat1/web-seat" in out and "origin/zz/web-seat" in out, out
++    ok, detail = _the_harvest_gates_answer(status, out)
++    assert ok is False and "origin/zz/web-seat" in detail, "the gate's answer does not carry the reason: " + detail
++
++
++def test_a_pin_that_does_not_resolve_is_said_and_the_report_does_not_break(tmp_path):
++    """found on 2026-11-12 in a clone that had not fetched four pinned commits: the seat's entry was left with neither a
++    head nor a reason, and the report raised an error of a missing key in place of the checker's own line"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path / "a", pin="deadbeef1")
++    status, out = _the_harvest_checker(repo)
++    assert status == 1 and "Traceback" not in out and "KeyError" not in out, out[-600:]
++    assert "INTEGRITY: chat1: pin deadbeef1 does not resolve" in out and re.search(r"chat1\s+NOT READ: pin deadbeef1 does not resolve", out), out
++    ok, detail = _the_harvest_gates_answer(status, out)
++    assert ok is False and "pin deadbeef1 does not resolve" in detail, "the gate's answer does not carry the reason: " + detail
++    # a seat with no pin at all in the ledger's table: the same
++    repo = _a_clone_with_the_web_seats_branch(tmp_path / "b")
++    ledger = repo / "docs" / "HARVEST_LEDGER.md"
++    ledger.write_text("".join(l for l in ledger.read_text(encoding="utf-8").splitlines(keepends=True) if not l.startswith("| chat1 ")), encoding="utf-8")
++    status, out = _the_harvest_checker(repo)
++    assert status == 1 and "Traceback" not in out and re.search(r"chat1\s+NOT READ: no pin", out), out[-600:]
++
++
++def test_a_harvest_gate_that_could_read_no_seats_branch_fails_and_says_so(tmp_path):
++    """a clone that holds main alone: every seat's branch is absent, the checker reads none and ends with status 0, and the
++    gate said that no seat's branch is past its pin"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path, branches=())
++    status, out = _the_harvest_checker(repo)
++    assert status == 0 and "head " not in out.split("\n", 1)[1], out            # the checker itself has nothing to refuse: it read no branch
++    ok, detail = _the_harvest_gates_answer(status, out)
++    assert ok is False, "the harvest gate could read no seat's branch in this clone, and it answers: " + detail
++    assert "refused" in detail and "no seat's branch" in detail, detail
++
++
++def test_a_harvest_gate_that_read_some_branches_says_which_it_did_not_read(tmp_path):
++    """the other side: one seat's branch is in the clone and is read; the gate passes, and its sentence counts the rest"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path)
++    status, out = _the_harvest_checker(repo)
++    assert status == 0, out
++    ok, detail = _the_harvest_gates_answer(status, out)
++    assert ok is True, detail
++    live = sum(1 for s in _harvest().SEATS if not s.get("retired"))
++    assert "%d seat(s) not read in this clone" % (live - 1) in detail and "hostile (remote golden_gate not configured here)" in detail, detail
++    g = _gates()
++    assert g.result_line("harvest-debt", ok, detail).strip().startswith("PASS"), "the runner prints the sentence as a skip: " + detail
++    # where every branch is read the sentence is the one it was (main's own test holds it word for word)
++    read = "  harvest-debt (2026-11-11): 1 seat-index ids across 1 seats\n    sm       head 47228ae8 pin 47228ae8 (+0 commits) index 1 rows 1\n"
++    assert _the_harvest_gates_answer(0, read) == (True, "ok (no seat's branch is past its pin in this clone)")
+-- 
+2.43.0
+

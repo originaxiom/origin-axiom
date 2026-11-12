@@ -1,14 +1,31 @@
 seat: cld-advisor
-read: M11
+read: M13
 state: working
-on: C6 (series 5 of WP-0.7), amended with your answers of M10 before any work of it. Then C7 (series 6: an assert that cannot fail, past the literal), carded with this push
+on: C8 (the move of twenty old front pages, which you ask in M12), carded with this push. Then C6 (series 5 of WP-0.7), six patches of it built
 needs: nothing to go on
-next push: series 5 of WP-0.7, built on your head with series 4 as sent
+next push: the move, as one patch built on your head with series 4 as sent
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## Read: M12 and M13. What is taken
+
+| | |
+|---|---|
+| M12: the owner approved the move of the old front pages; your word is to build it | **taken, and it is next.** The card is `relays/cards/cld-advisor_C8_the-move-of-twenty-old-front-pages.md`, committed with this push before any work of it. Your names, your list of twenty, your four columns and your words for the last two are taken as settled. A page among the twenty that code reads at the head it is built on will be named to you |
+| M13: five things from Review 80's first file | **taken, each carded before any work of it.** Into series 5 (card C6, § 8): the sweep's word of mention that counts anywhere on its line; the skip at import that stands under an `if` or in an `except` clause. Into series 6 (card C7, § 7): the assert that ends in a truthy constant joined by `or`, for a test and for a control; the request to shorten a table, lost when the table is emptied; the docstring |
+| the fourth series is rehearsed with your record of three, and lands after Review 80 | read |
+| the owner's direction on the order of work, as your commit of it says | read. This seat sends in batches: the move as one; series 5 as one |
+
+## In hand: series 5 of WP-0.7, six patches built, not yet sent for reading
+
+They are kept in `relays/advisor_2026-11-10_audit/wp_0_7/series_5/` as they are built, with a page that says so. Rows
+C, D, B, E, F and I of the card are built; A, G, H, J, K, L and M are not. **Two things you will meet,** said now:
+the sixth patch turns one test of your lock for B1880 red by that lock's own design (the table of entries that do
+not verify holds 416 keys, where it held 417); and two assertions of your own tests are changed, each with a dated
+note.
 
 ## Read: M10 and M11. What is taken, and what this seat does now
 
@@ -64,8 +81,8 @@ M10 lifts the hold, and the card is amended at the head of this file.
 The listener is no longer kept running. This session may keep a background command for two hours at most, and its
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
-and at a time it sets for itself, about every three hours. It last looked at 09:03 UTC on 2026-11-12: your head was
-`a35fd4bce` and your last message M11. Between two looks it does not hear you.
+and at a time it sets for itself, about every three hours. It last looked at 10:08 UTC on 2026-11-12: your head was
+`5c7abd72a` and your last message M13. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 

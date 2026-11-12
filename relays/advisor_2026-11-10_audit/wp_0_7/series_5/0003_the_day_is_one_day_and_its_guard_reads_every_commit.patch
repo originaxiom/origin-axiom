@@ -1,0 +1,362 @@
+From b6279cce630cbb2592959fb333c6d993e75877d5 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 09:42:25 +0000
+Subject: [PATCH 3/6] WP-0.7, enforcement (cld-advisor's series 5, patch 3;
+ built on a35fd4bce with the ten patches of series 4 and the first two of
+ series 5 applied): THE DAY IS ONE DAY, AND ITS GUARD READS EVERY COMMIT
+ (Review 79, the second reader's row 10, its first and second parts; the first
+ reader's R79-SM-47). The day a gate judges by was the day the commit states,
+ in the commit's own zone. The guard on that day read the commit's time. A
+ commit made one second after its parent and stated in a zone twelve hours
+ behind, after a parent stated fourteen hours ahead, passed the guard and
+ moved the day two days back. And the guard read main's own line only: a
+ commit dated before its parent on a branch that is then merged, and a merge
+ dated before the branch it merges, were not read. THE MEND: every day a gate
+ or a debt checker takes from a commit is the day, in UTC, of the commit's
+ time, in the one module that decides the day, in the gates, in the checker of
+ leads and in the date of a review's anchor; so the day and its guard read one
+ clock, and where the guard holds the day does not go back. The guard reads
+ every commit that the head reaches and its root does not, each beside each of
+ its parents. WHAT MOVES ON MAIN: of the 38 commits after the rule's root,
+ three were made in the first hour after midnight in main's zone, and their
+ day is now the day before; at main's head nothing moves. On main no commit
+ after the root is dated before a parent, on any line: there is no other line
+ after the root. The comment in the relay checker that said the day cannot
+ stand still says what the guard bounds: a run of commits each dated at its
+ parent's time keeps the day still. That is a comment, and it has no test.
+ Four lines of the first series' lock that read the day as the commit states
+ it now read it as the gates do, each with a dated note. What it does not
+ reach: between a parent's time and the real time a commit's time is its
+ maker's to choose, as before. The lock: two tests added to
+ tests/test_gates_are_a_function_of_the_commit.py. On the commit before, both
+ fail: the day of a commit made a second after its parent is two days earlier
+ and the guard passes; and a commit dated a month before its parent, merged
+ from a branch, is read by nothing. Tested against planted errors; computed
+ once. 0 of 19.
+
+---
+ scripts/checks/commit_day.py                  | 20 +++-
+ scripts/checks/lead_debt.py                   |  5 +-
+ scripts/checks/relay_debt.py                  |  7 +-
+ scripts/gates/gates.py                        | 51 +++++++---
+ ...test_gates_are_a_function_of_the_commit.py | 92 +++++++++++++++++--
+ 5 files changed, 145 insertions(+), 30 deletions(-)
+
+diff --git a/scripts/checks/commit_day.py b/scripts/checks/commit_day.py
+index dd4f28ad6..a54ab8487 100644
+--- a/scripts/checks/commit_day.py
++++ b/scripts/checks/commit_day.py
+@@ -11,7 +11,7 @@ This is the one place the day is decided, in this order:
+      environment can move a gate's day.
+   2. the seam `OA_<NAME>_TODAY`, for a test and for a look ahead by hand ("what goes stale next week").  It is read only
+      when the checker is run without `--today`, which a gate never does.
+-  3. the date of HEAD's commit, read from git.
++  3. the date of HEAD's commit, read from git: the day, in UTC, of its committer time.
+ 
+ Never the wall clock.  Where no day is given and there is no commit to read, the checker refuses; and a day that is not a
+ day (`--today tomorrow`) is refused in plain words, not answered with a traceback.
+@@ -25,15 +25,25 @@ import sys
+ ROOT = pathlib.Path(__file__).resolve().parents[2]
+ 
+ 
++def utc_day(seconds):
++    """the day, in UTC, of a time given in seconds since the epoch (a commit's committer time)"""
++    return datetime.datetime.fromtimestamp(int(seconds), datetime.timezone.utc).date()
++
++
+ def of_head(root=ROOT):
+-    """the committer date of HEAD, as the commit states it; None where there is no commit to read"""
++    """the day of HEAD's commit: the day, in UTC, of its committer time; None where there is no commit to read.
++
++    Until 2026-11-12 (WP-0.7, series 5; Review 79, the second reader's row 10) it was the day as the commit states it, in
++    the commit's own zone, while the guard on the day (gates.py, commit_day_problems) reads the commit's time.  A commit
++    made a second after its parent and stated in a zone far behind it passed the guard and moved the day two days back.
++    The day and its guard now read one clock."""
+     try:
+-        r = subprocess.run(["git", "-C", str(root), "log", "-1", "--format=%cs", "HEAD"], capture_output=True, text=True, timeout=30)
++        r = subprocess.run(["git", "-C", str(root), "log", "-1", "--format=%ct", "HEAD"], capture_output=True, text=True, timeout=30)
+     except Exception:
+         return None
+     try:
+-        return datetime.date.fromisoformat(r.stdout.strip()) if r.returncode == 0 else None
+-    except ValueError:
++        return utc_day(r.stdout.strip()) if r.returncode == 0 else None
++    except (ValueError, OverflowError, OSError):
+         return None
+ 
+ 
+diff --git a/scripts/checks/lead_debt.py b/scripts/checks/lead_debt.py
+index dd4fd926d..3b8a011b7 100644
+--- a/scripts/checks/lead_debt.py
++++ b/scripts/checks/lead_debt.py
+@@ -114,9 +114,10 @@ def open_arcs() -> list:
+                 txt += p.read_text(encoding="utf-8", errors="ignore")
+         date = None
+         try:
+-            r = subprocess.run(["git", "-C", str(ROOT), "log", "-1", "--format=%cs", "--", str(arc.relative_to(ROOT))],
++            # the day, in UTC, of the commit's time: the one day every debt is aged by (commit_day.py; WP-0.7, series 5)
++            r = subprocess.run(["git", "-C", str(ROOT), "log", "-1", "--format=%ct", "--", str(arc.relative_to(ROOT))],
+                                capture_output=True, text=True, timeout=30)
+-            date = r.stdout.strip() or None
++            date = commit_day.utc_day(r.stdout.strip()).isoformat() if r.stdout.strip() else None
+         except Exception:
+             date = None
+         out.append(dict(arc=arc.name, date=date, excused=bool(ESCALATED_RE.search(txt) or BY_DESIGN_RE.search(txt))))
+diff --git a/scripts/checks/relay_debt.py b/scripts/checks/relay_debt.py
+index d6ecf36cd..323844334 100644
+--- a/scripts/checks/relay_debt.py
++++ b/scripts/checks/relay_debt.py
+@@ -87,8 +87,11 @@ import commit_day  # noqa: E402  (the day is the commit's: see that module)
+ def _today() -> datetime.date:
+     # B1172: the old clock read the ledger's own stamp, froze at 2026-08-09, and the gate never fired; it was replaced by the
+     # wall clock.  WP-0.7 (2026-11-11): the day is the commit's own -- --today DAY, which the gate passes; then the seam
+-    # OA_RELAY_TODAY for a test or a look ahead; then the date of HEAD's commit.  It moves with every commit, so it cannot
+-    # freeze as the stamp did, and it does not move between commits, as the wall clock did (commit_day.py).
++    # OA_RELAY_TODAY for a test or a look ahead; then the date of HEAD's commit.  It does not move between commits, as the
++    # wall clock did (commit_day.py).  It moves on only as far as each commit is dated after the one before: the guard on the
++    # day (gates.py, commit_day_problems) refuses a commit dated before a parent and no more, so a run of commits each dated
++    # at its parent's time would keep the day still, and their debts would not age.  (Reworded 2026-11-12: this comment said
++    # the day cannot freeze as the stamp did; Review 79, R79-SM-47.)
+     return commit_day.today("OA_RELAY_TODAY")
+ 
+ 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 746e0df77..00eadef33 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -11,6 +11,7 @@ whitelists are explicit frozen constants in this file (auditable, versioned).
+ import ast
+ import base64
+ import collections
++import datetime
+ import fnmatch
+ import hashlib
+ import json
+@@ -104,11 +105,22 @@ def _today_args():
+     four debt gates aged their rows against the wall clock, and the variable that moves the date for a test moved it for the
+     gate.  Passed on the command line, the commit's day cannot be moved by the environment.  Empty where there is no commit
+     to read: the checker then takes its seam, or refuses (scripts/checks/commit_day.py)."""
+-    rc, out = _git("log", "-1", "--format=%cs", "HEAD")
+-    day = out.strip() if rc == 0 else ""
++    rc, out = _git("log", "-1", "--format=%ct", "HEAD")
++    day = _utc_day(out) if rc == 0 else ""
+     return ["--today", day] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", day) else []
+ 
+ 
++def _utc_day(seconds):
++    """YYYY-MM-DD, the day in UTC of a commit's time; '' where it is not a time.  THE DAY IS ONE DAY (WP-0.7, series 5; Review
++    79, the second reader's row 10): until 2026-11-12 a gate took the day the commit states, in the commit's own zone, and
++    the guard below read the commit's time.  One second later and twelve hours of zone behind, a commit passed the guard and
++    moved the day two days back.  Every day a gate takes from a commit is now the day of its time in UTC."""
++    try:
++        return datetime.datetime.fromtimestamp(int(str(seconds).strip()), datetime.timezone.utc).date().isoformat()
++    except (ValueError, OverflowError, OSError):
++        return ""
++
++
+ # A day taken from the commit can be moved by whoever makes the commit: dated a month back, a commit's debts are a month
+ # younger.  So the day is trusted only where time has not run backwards: after COMMIT_DAY_FROM, no commit on the first-parent
+ # line may be dated before its parent.  Read at 2026-11-11: none of main's 2,985 first-parent commits is, so nothing is frozen.
+@@ -121,9 +133,13 @@ COMMIT_DAY_FROM = "ea41e6fc96012acfe5ec91478eadd7c5cfe95cbe"          # ea41e6fc
+ 
+ 
+ def commit_day_problems(repo=None, root=COMMIT_DAY_FROM, limit=3):
+-    """every first-parent commit after `root` that is dated (committer time) before its parent.  A pure function of the
+-    commit graph.  With no repository it reports nothing (the gate is refused as an export before it is asked); where the
+-    history cannot be read back to `root` it fails closed."""
++    """every commit after `root` that is dated (committer time) before one of its parents.  A pure function of the commit
++    graph.  With no repository it reports nothing (the gate is refused as an export before it is asked); where the history
++    cannot be read back to `root` it fails closed.
++
++    From series 5 it reads every commit that HEAD reaches and `root` does not, each beside each of its parents.  Until then
++    it read main's own line only: a merge dated before the branch it merges, and a commit dated before its parent on a
++    branch that is then merged, were not read."""
+     repo = str(repo or ROOT)
+ 
+     def git(*a):
+@@ -134,13 +150,22 @@ def commit_day_problems(repo=None, root=COMMIT_DAY_FROM, limit=3):
+         return [f"cannot verify the commit's day: {root[:9]}, the commit the rule is read from, is not in this clone (shallow or partial)"]
+     if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+         return [f"cannot verify the commit's day: HEAD does not descend from {root[:9]}, the commit the rule is read from"]
+-    fmt = "--format=%H %ct %cs"
+-    rows = [l.split() for l in (git("log", "--first-parent", fmt, f"{root}..HEAD").stdout + git("log", "-1", fmt, root).stdout).splitlines() if l.strip()]
++    rows = [l.split() for l in git("log", "--format=%H %ct %P", f"{root}..HEAD").stdout.splitlines() if l.strip()]
++    when = {r[0]: int(r[1]) for r in rows}
++    unknown = sorted({p for r in rows for p in r[2:]} - set(when))            # parents that `root` reaches: the root itself, and
++    for i in range(0, len(unknown), 200):                                     # where a branch left main's line before it
++        for l in git("log", "--no-walk=unsorted", "--format=%H %ct", *unknown[i:i + 200]).stdout.splitlines():
++            if l.strip():
++                when[l.split()[0]] = int(l.split()[1])
+     problems = []
+-    for (h, t, day), (ph, pt, pday) in zip(rows, rows[1:]):                     # newest first: each commit beside its parent
+-        if int(t) < int(pt):
+-            problems.append(f"{h[:9]} is dated {day}, before its parent {ph[:9]} ({pday}): a gate's day is the commit's, and this "
+-                            f"commit's cannot be trusted")
++    for r in rows:                                                            # newest first
++        h, t = r[0], int(r[1])
++        for p in r[2:]:
++            if p not in when:
++                return [f"cannot verify the commit's day: {p[:9]}, a parent of {h[:9]}, cannot be read in this clone"]
++            if t < when[p]:
++                problems.append(f"{h[:9]} is dated {_utc_day(t)}, before its parent {p[:9]} ({_utc_day(when[p])}): a gate's day is "
++                                f"the commit's, and this commit's cannot be trusted")
+     return problems[:limit]
+ 
+ 
+@@ -3066,8 +3091,8 @@ def review_anchor_date():
+     anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", text)
+     if not anchors:
+         return None
+-    rc, out = _git("log", "-1", "--format=%cs", anchors[-1])
+-    return out.strip() if rc == 0 and out.strip() else None
++    rc, out = _git("log", "-1", "--format=%ct", anchors[-1])                 # the day, in UTC, of the anchor's time (series 5)
++    return (_utc_day(out) or None) if rc == 0 else None
+ 
+ 
+ # THE ANCHOR OF THE LAST REVIEW IS THE COMMIT IN WHICH THAT REVIEW LANDED (WP-0.7, series 4; found on main's f9e70c167).  The count
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index cfd52771e..887ecaff1 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -223,7 +223,7 @@ DATED = {"lead-debt": "OA_LEAD_TODAY", "point-debt": "OA_POINT_TODAY", "relay-de
+ def test_a_debt_gate_answers_the_same_whatever_day_the_environment_names(monkeypatch):
+     """PV15.  The planted case set the day through the checkers' own seam, to the commit's date and to sixty days on."""
+     g = _gates()
+-    head = datetime.date.fromisoformat(_git(ROOT, "log", "-1", "--format=%cs", "HEAD"))
++    head = _utc_day_of(ROOT)                    # 2026-11-12: the day of the commit's time in UTC, as the gates now take it
+     answers = {}
+     for days in (0, 60, 600):
+         for env in DATED.values():
+@@ -246,7 +246,7 @@ def test_no_gate_and_no_checker_reads_the_wall_clock():
+     the harvest checker's stood in its gate's failing answer (series 5).  And a commit's time is turned into a day in UTC,
+     never in the zone of the machine: a call that makes a date of a time names its zone."""
+     clock = re.compile(r"\bdate\.today\(|\bdatetime\.now\(|\butcnow\(|\btime\.(?:localtime|gmtime|strftime|ctime|asctime)\("
+-                       r"|\btime\.(?:time|monotonic|perf_counter|process_time)(?:_ns)?\(|\bfromtimestamp\((?![^()]*(?:timezone|tz))")
++                       r"|\btime\.(?:time|monotonic|perf_counter|process_time)(?:_ns)?\(|\bfromtimestamp\((?!.*(?:timezone|tz=))")
+     found = []
+     for p in sorted((ROOT / "scripts" / "gates").glob("*.py")) + sorted((ROOT / "scripts" / "checks").glob("*.py")):
+         for n, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+@@ -260,7 +260,7 @@ def test_the_day_is_decided_in_one_place_and_in_one_order(tmp_path, monkeypatch)
+     cd = importlib.util.module_from_spec(spec)
+     spec.loader.exec_module(cd)
+     repo = _small_repo(tmp_path)
+-    head = datetime.date.fromisoformat(_git(repo, "log", "-1", "--format=%cs", "HEAD"))
++    head = _utc_day_of(repo)                    # 2026-11-12: until then the day the commit states, in its own zone (series 5)
+     monkeypatch.delenv("OA_X_TODAY", raising=False)
+     assert cd.today("OA_X_TODAY", argv=[], root=repo) == head                                   # 3. the commit's own date
+     monkeypatch.setenv("OA_X_TODAY", "2031-05-06")
+@@ -282,18 +282,18 @@ def test_the_day_is_decided_in_one_place_and_in_one_order(tmp_path, monkeypatch)
+     monkeypatch.delenv("OA_X_TODAY")
+     # and each gate does pass the commit's day on the command line
+     g = _gates()
+-    assert g._today_args() == ["--today", _git(ROOT, "log", "-1", "--format=%cs", "HEAD")]
++    assert g._today_args() == ["--today", _utc_day_of(ROOT).isoformat()]
+     src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
+     for checker in ("relay_debt.py", "harvest_debt.py", "lead_debt.py", "point_debt.py"):
+         calls = [c for c in re.findall(r'[^\n]*"%s"[^\n]*' % re.escape(checker), src) if "subprocess.run" in c or "_debt_checker" in c]
+         assert calls and all("_today_args()" in c or "_debt_checker(" in c for c in calls), (checker, calls)
+ 
+ 
+-def _commit_dated(repo, when, text):
+-    """one more commit on `repo`, its committer date set to `when` (seconds since the epoch)"""
++def _commit_dated(repo, when, text, zone="+0000"):
++    """one more commit on `repo`, its committer date set to `when` (seconds since the epoch), stated in the zone `zone`"""
+     (repo / "sub" / "page.md").write_text(text, encoding="utf-8")
+     r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", "commit", "-q", "-a", "-m", text.strip()],
+-                       capture_output=True, text=True, env={**__import__("os").environ, "GIT_COMMITTER_DATE": "%d +0000" % when, "GIT_AUTHOR_DATE": "%d +0000" % when})
++                       capture_output=True, text=True, env={**__import__("os").environ, "GIT_COMMITTER_DATE": "%d %s" % (when, zone), "GIT_AUTHOR_DATE": "%d %s" % (when, zone)})
+     assert r.returncode == 0, r.stderr
+     return _git(repo, "rev-parse", "HEAD")
+ 
+@@ -531,7 +531,7 @@ def _git_subcommands(gate_function_name):
+         for p in scripts.get(script, []):
+             text += "\n" + _used_part(p, names)
+     # the date of HEAD's commit is the commit itself, not the past: that one call is set aside before the commands are read
+-    text = re.sub(r'"log",\s*"-1",\s*"--format=%cs",\s*"HEAD"', '"head-date"', text)
++    text = re.sub(r'"log",\s*"-1",\s*"--format=%c[st]",\s*"HEAD"', '"head-date"', text)      # %ct from series 5: the day in UTC
+     return {a or b for a, b in _SUB.findall(text)}
+ 
+ 
+@@ -717,3 +717,79 @@ def test_a_harvest_gate_that_read_some_branches_says_which_it_did_not_read(tmp_p
+     # where every branch is read the sentence is the one it was (main's own test holds it word for word)
+     read = "  harvest-debt (2026-11-11): 1 seat-index ids across 1 seats\n    sm       head 47228ae8 pin 47228ae8 (+0 commits) index 1 rows 1\n"
+     assert _the_harvest_gates_answer(0, read) == (True, "ok (no seat's branch is past its pin in this clone)")
++
++
++# ---- series 5: the day is one day (Review 79, the second reader's row 10, its first and second parts) ---------------------
++# The day a gate took was the day the commit states, in the commit's own zone; the guard on the day read the commit's
++# time.  A commit made one second after its parent, and stated in a zone far behind its parent's, passed the guard and
++# moved the day two days back.  And the guard read main's own line only: a merge dated before the branch it merges, or a
++# commit dated before its parent on that branch, was not read.
++def _commit_day():
++    spec = importlib.util.spec_from_file_location("commit_day_for_the_one_day", ROOT / "scripts" / "checks" / "commit_day.py")
++    cd = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(cd)
++    return cd
++
++
++def _utc_day_of(repo, ref="HEAD"):
++    return datetime.datetime.fromtimestamp(int(_git(repo, "log", "-1", "--format=%ct", ref)), datetime.timezone.utc).date()
++
++
++def test_the_day_of_a_commit_is_the_day_of_its_time_in_utc(tmp_path):
++    g, cd = _gates(), _commit_day()
++    repo = _small_repo(tmp_path)
++    noon = int(datetime.datetime(2026, 11, 10, 11, 0, tzinfo=datetime.timezone.utc).timestamp())
++    root = _commit_dated(repo, noon - 3600, "an hour before\n")
++    _commit_dated(repo, noon, "stated fourteen hours ahead: the commit says the 11th\n", zone="+1400")
++    parent_day = cd.of_head(repo)
++    _commit_dated(repo, noon + 1, "one second later, stated twelve hours behind: the commit says the 9th\n", zone="-1200")
++    assert _git(repo, "log", "-2", "--format=%cs") == "2026-11-09\n2026-11-11"          # as the two commits state their day
++    assert g.commit_day_problems(repo, root) == []                                  # time did not run backwards
++    day = cd.of_head(repo)
++    assert day >= parent_day, "a commit made one second after its parent has an earlier day (%s, after %s): the day went backwards and the guard passed" % (day, parent_day)
++    assert day == parent_day == datetime.date(2026, 11, 10) == _utc_day_of(repo)
++    # and on this repository the gates pass the same day to their checkers
++    assert g._today_args() == ["--today", cd.of_head(ROOT).isoformat()] == ["--today", _utc_day_of(ROOT).isoformat()]
++
++
++def test_a_commit_dated_before_any_of_its_parents_is_refused_wherever_it_stands(tmp_path):
++    g = _gates()
++    repo = _small_repo(tmp_path)
++    t0 = int(_git(repo, "log", "-1", "--format=%ct", "HEAD"))
++    root = _git(repo, "rev-parse", "HEAD")
++    trunk = _git(repo, "rev-parse", "--abbrev-ref", "HEAD")
++
++    def merge(branch, when):
++        r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", "merge", "-q", "--no-ff", "-m", "merge " + branch, branch],
++                           capture_output=True, text=True, env={**os.environ, "GIT_COMMITTER_DATE": "%d +0000" % when, "GIT_AUTHOR_DATE": "%d +0000" % when})
++        assert r.returncode == 0, r.stderr
++        return _git(repo, "rev-parse", "HEAD")
++
++    def side(name, times):
++        _git(repo, "checkout", "-q", "-b", name, root)
++        made = []
++        for n, when in enumerate(times):
++            (repo / "sub" / (name + ".md")).write_text("%s %d\n" % (name, n), encoding="utf-8")
++            _git(repo, "add", "-A")
++            r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", "commit", "-q", "-m", "%s %d" % (name, n)],
++                               capture_output=True, text=True, env={**os.environ, "GIT_COMMITTER_DATE": "%d +0000" % when, "GIT_AUTHOR_DATE": "%d +0000" % when})
++            assert r.returncode == 0, r.stderr
++            made.append(_git(repo, "rev-parse", "HEAD"))
++        _git(repo, "checkout", "-q", trunk)
++        return made
++
++    # the twin first: a branch whose commits and whose merge are each dated after their parents
++    side("clean", [t0 + 100, t0 + 200])
++    _commit_dated(repo, t0 + 150, "on main's own line\n")
++    merge("clean", t0 + 300)
++    assert g.commit_day_problems(repo, root) == []
++    # a commit dated before its parent, on a branch that is then merged
++    back = side("back", [t0 + 400, t0 + 400 - 30 * 86400])[1]
++    merge("back", t0 + 500)
++    bad = g.commit_day_problems(repo, root, limit=9)
++    assert any(back[:9] in b and "before its parent" in b for b in bad), "a commit dated a month before its parent was merged from a branch, and the guard reads: %r" % (bad,)
++    # a merge dated before the branch it merges: after its first parent, before its second
++    late = side("late", [t0 + 900])[0]
++    merged = merge("late", t0 + 600)
++    bad = g.commit_day_problems(repo, root, limit=9)
++    assert any(merged[:9] in b and late[:9] in b for b in bad), "a merge was dated before the branch it merges, and the guard reads: %r" % (bad,)
+-- 
+2.43.0
+

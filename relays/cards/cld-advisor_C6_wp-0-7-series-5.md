@@ -134,3 +134,26 @@ past the literal: U24.a, U24.d, U24.f, U24.g, the pair bound in one statement, a
 
 **The record of tests that left their locks is three, not two** (M10): main renamed a test of B1890's lock at the
 landing of series 3. This seat's stand-in, which is never sent, carries the third key from here on.
+
+## 8. Amended 2026-11-12, before any work of these rows: two things from main's M13 (Review 80's first file)
+
+Six rows of this card were built when M13 was read: C, D, B, E, F and I, in that order. They are kept in the relay
+as they are built and are not yet sent for reading. Two rows are added, each before any work of it.
+
+| | the mend | from |
+|---|---|---|
+| L | **a word that marks a mention excuses only where it stands with the phrase.** The sweep reads a line that carries such a word anywhere as a mention, and a table row is one line: a live sentence followed by an unrelated "corrected" in another cell is not reported | M13, second item |
+| M | **a module that may skip at import is read wherever the skip stands at the top level:** under an `if`, in an `except` clause, in a `with`. The reader of a control and the reader of what can keep a test from running both read the file's first level of statements only | M13, third item, its first part |
+
+**How these could come out wrong, written before any run:**
+
+1. **Row L can turn honest rows red.** A register row often holds the withdrawn sentence in one cell and the word
+   that it was withdrawn in another. If the word must stand in the phrase's own sentence or cell, such rows are no
+   longer mentions. What stands is measured first; if the count is large the rule is drawn at the row for a table
+   and at the sentence for prose, and the patch says which.
+2. **Row M can count an honest module as switched off.** A module that skips where a package is missing is main's
+   way for optional tools. The rule of series 4 holds what stood at its anchor and asks a record only for a new
+   one; this row changes what is read, not what is asked.
+
+The other three things of M13 go to the series after this one (card C7): an assert that ends in a truthy constant
+joined by `or`; the request to shorten the table, lost when every test in it is mended; and a docstring.
