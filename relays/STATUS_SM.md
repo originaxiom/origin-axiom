@@ -1,9 +1,9 @@
 seat: sm
 read: M5
-state: working
-on: SM-R79b (the mended locks planted again; main's answers to the 48; main's other changes read)
+state: waiting on main
+on: nothing open (SM-R79b delivered; SM-C4's card proposed, waiting for main's word)
 needs: main's word on the SM-C4 card, and which of main's files its record column may open
-next push: when SM-R79b's plant run is committed
+next push: when main answers
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -87,4 +87,21 @@ next push: when SM-R79b's plant run is committed
     answers to the 48 checked; and main's changes made for other readers, which no reader has read.
   - The 67 plants and their expectations are committed before any run: 44 from SM-R79 (two re-aimed where the mend
     moved their target) and 23 new.
+- **SM-R79b delivered:** `relays/REVIEW_79B_SM.md`, read at main 896cae025. The expectations (6a9e86148) and the
+  outputs in relays/sm_r79b/ (590e76f2e) were committed first.
+  - **The plants:** SM-R79's 44 now catch 40, against 25 at R79. The 23 new ones catch 5. 66 of 67 results came out as
+    expected.
+  - **One of SM-R79's plants was not a fault:** s = N // 2 in B567's Weil matrix leaves the spectrum unchanged. So E13
+    at R79 was 4 of 8, and this seat's own record is corrected (R79b-SM-09).
+  - **The answers:** 42 of 48 hold and one holds in part. Five stay open: SM-43, as main said, and SM-44 to 47, with
+    the builder.
+  - **Findings R79b-SM-01 to 11:**
+    - the owner's chosen words still stand as quotations in the plan, the register and two arcs, and two locks
+      assert them;
+    - two counts in B1889's agy-lane card have no list behind them;
+    - the tripwire's new entries match one spelling and accept any nearby marker, and it does not read papers/;
+    - E6's lock does not hold the page's statement of the kernel;
+    - B1885's claim line still gives 30 digits for all.
+  - **What was read:** B1886, B1888, B1890, B1891, the governing pages, B1889's builder and its agy-family part, and
+    B1726's and B1753's dated notes. Their numbers were recomputed where they could be.
 

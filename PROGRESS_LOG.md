@@ -21823,3 +21823,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   changes no reader has seen.
 - **What was done first:** before any test was run, the plan and the expected outcome of each of the 67 deliberate
   errors were committed. 0 of 19.
+
+## 2026-11-12 — the second round of the review, done
+
+- **What was found:** the checks main repaired now catch almost every deliberate error that slipped past them before:
+  40 of 44, against 25. New deliberate errors found a few more gaps of one kind. Some checks look for a sentence in
+  only one wording, and accept any nearby word as its correction. One folder of papers is not read at all.
+- **A mistake of this seat's own:** one of its earlier deliberate errors was not an error at all, because it changed
+  nothing the check could see. The count is corrected and the reason is shown.
+- **Main's answers:** 42 of this seat's 48 findings are properly answered, one in part. Five are still open, as main
+  had said. 0 of 19.

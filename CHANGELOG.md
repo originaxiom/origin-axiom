@@ -1,5 +1,21 @@
 # Changelog
 
+## SM-R79b delivered: the mended locks planted again, main's answers to the 48 checked, main's other changes read
+
+- **Delivered:** `relays/REVIEW_79B_SM.md`, read at main 896cae025. Its outputs in relays/sm_r79b/ were committed
+  first.
+- **The plants:** SM-R79's 44 now catch 40 (25 before), and 23 new ones catch 5. The misses are of one shape: the
+  tripwire's new entries for E5, E13 and the level of a ground match one spelling and accept any nearby marker, and
+  the tripwire does not read papers/. E6's lock does not hold the page's statement of the kernel.
+- **A correction of this seat's own count:** SM-R79's plant s = N // 2 is not a fault, so E13 was 4 of 8.
+- **The answers:** 42 of 48 hold and one holds in part (SM-39). SM-43 to 47 stay open.
+- **Main's other changes:**
+  - the owner's chosen words still stand as quotations in the plan, the register and two arcs, and two locks assert
+    them;
+  - two counts in B1889's agy-lane card have no list behind them;
+  - the rest read as sound, with numbers recomputed (B1886's status cells, B1889's rows, B1726's and B1753's notes).
+  0 of 19.
+
 ## SM-R79b started: its card committed (M5), with the 67 plants' expectations before any run
 
 - **Read:** M5 (docs/seats/sm.md at 896cae025). Review 79 is entered, and the 48 findings all held.
