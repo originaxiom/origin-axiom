@@ -1,0 +1,86 @@
+=== 1. QUOTE CHECK AT c40446392 + CTL-R80-QUOTE ===
+Target commit resolved: c40446392db2a1d174e554163045197d01bb720d
+  R01 [B1892] frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md:81 -> EXACT_LINE_MATCH
+  R02 [B1892] frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md:25 -> EXACT_LINE_MATCH
+  R03 [B1892] frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md:124 -> EXACT_LINE_MATCH
+  R04 [B1892] frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md:105 -> EXACT_LINE_MATCH
+  R05 [B1892] frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py:79 -> EXACT_LINE_MATCH
+  R06 [B1893] frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/test_b1893_the_second_enforcement_series_verified_and_landed.py:49 -> EXACT_LINE_MATCH
+  R07 [B1896] frontier/B1896_the_third_enforcement_series_verified_and_landed/FINDINGS.md:143 -> EXACT_LINE_MATCH
+  R08 [B1896] frontier/B1896_the_third_enforcement_series_verified_and_landed/FINDINGS.md:94 -> EXACT_LINE_MATCH
+  R09 [B1896] frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py:191 -> EXACT_LINE_MATCH
+  R10 [B1862] frontier/B1862_the_audits_first_corrections/FINDINGS.md:122 -> EXACT_LINE_MATCH
+  R11 [B1862] frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:253 -> EXACT_LINE_MATCH
+  R12 [B1878] frontier/B1878_the_goal_as_ruled_in_the_governing_documents/FINDINGS.md:61 -> EXACT_LINE_MATCH
+  R13 [B1880] frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py:10 -> EXACT_LINE_MATCH
+  R14 [B1885] frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md:44 -> EXACT_LINE_MATCH
+  R15 [B1890] frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py:31 -> EXACT_LINE_MATCH
+  R16 [window] docs/RETRACTIONS.md:273 -> EXACT_LINE_MATCH
+  R17 [window] docs/RETRACTIONS.md:264 -> EXACT_LINE_MATCH
+  R18 [window] docs/RETRACTIONS.md:255 -> EXACT_LINE_MATCH
+  R19 [window] docs/progress/REVIEWS.md:8799 -> EXACT_LINE_MATCH
+  R20 [window] docs/progress/REVIEWS.md:8828 -> EXACT_LINE_MATCH
+  R21 [window] docs/progress/REVIEWS.md:8837 -> EXACT_LINE_MATCH
+  R22 [window] docs/progress/REVIEWS.md:8854 -> EXACT_LINE_MATCH
+  R23 [window] docs/RETRACTED_PHRASES.md:247 -> EXACT_LINE_MATCH
+  R24 [B1896] scripts/gates/gates.py:2825 -> EXACT_LINE_MATCH
+  R25 [B1896] scripts/checks/check_test_vacuity.py:53 -> EXACT_LINE_MATCH
+  R26 [B1896] scripts/checks/check_test_vacuity.py:128 -> EXACT_LINE_MATCH
+  R27 [B1896] scripts/checks/check_test_vacuity.py:265 -> EXACT_LINE_MATCH
+  R28 [B1896] scripts/gates/gates.py:264 -> EXACT_LINE_MATCH
+  R29 [B1896] scripts/gates/gates.py:362 -> EXACT_LINE_MATCH
+  R30 [B1896] scripts/checks/retraction_sweep.py:155 -> EXACT_LINE_MATCH
+  R31 [B1893] scripts/gates/gates.py:173 -> EXACT_LINE_MATCH
+  R32 [B1893] scripts/gates/gates.py:2497 -> EXACT_LINE_MATCH
+  R33 [B1893] scripts/gates/gates.py:2540 -> EXACT_LINE_MATCH
+  R34 [B1893] scripts/gates/gates.py:208 -> EXACT_LINE_MATCH
+  R35 [B1893] scripts/gates/gates.py:1344 -> EXACT_LINE_MATCH
+  R36 [window] tests/test_gates_are_a_function_of_the_commit.py:233 -> EXACT_LINE_MATCH
+  CTL-R80-QUOTE (single-word mutation rejected): PASS
+
+=== 2. BLOCK 1: FULL ARCS B1892, B1893, B1896 ===
+  R01: W total=10, W governing=['W2:ROADMAP.md', 'W9:GENESIS.md', 'W10:WORKING_RULES.md'] (len=3 vs 2); s5+B1889=52+43+3=98 (!=99)
+  R02: existing changed verdict=11, findings=24 (not 14), neither=6 (['B1858_the_closure_map', 'B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised', 'B1870_the_audits_backlog_reproduced_on_main', 'B1873_the_programme_read_by_a_non_author', 'B736_ABC_campaign', 'B779_convergence_probe'])
+  R03: window_commits=49, generated_only=20, seat_or_log_only=0 (20 vs 18)
+  R04: P-811 row says 25 of 43 while P-811 debt index, B1892 FINDINGS/arc_verdict, and VERDICT_LEDGER still say 25 of 44
+  R05: quote_check wrong-file/empty/pipe/compact-row defects + test_b1892 passing under NEGATIVE/corrupted ANSWERS: VERIFIED
+  R06: unseen_s2 null named gates=['U12.a', 'U12.c', 'U13.a'] + test_b1893 passing under NEGATIVE & stripped FINDINGS: VERIFIED
+  R07: RETRACTED_PHRASES rows=54, swept_phrases=46, reading_rows=8 (neither is 48)
+  R08: builtin-on-literals vacuous tests in tests/ = 9 (not 3): ['tests/test_b568_results.py::test_aq2_latency_values', 'tests/test_b706_rung2.py::test_rung2_kind_mismatch_discrete_vs_continuous', 'tests/test_b709_turok.py::test_rung4_single_ratios_are_hints_only', 'tests/test_b709_turok.py::test_dimensionful_no_go', 'tests/test_b714_spine.py::test_incommensurable_blocks_close_the_generation_triple', 'tests/test_b714_spine.py::test_object_authored_region_is_rungs_0_to_6', 'tests/test_b717_observer_emergence.py::test_child_washes_out_the_being', 'tests/test_b724_seeing.py::test_C2_three_H1_incommensurable_not_spatial_triad', 'tests/test_b724_seeing.py::test_C5_two_bits_cannot_parametrize_19_continuous']
+  R09: test_b1896 passes under corrupted claim_one_line/FINDINGS & deleted runners + P-806 stale at 19 of 32: VERIFIED
+
+=== 3. BLOCK 2: FIVE ARC DIFFS (896cae025..c40446392) ===
+  R10 & R11: live unmarked E11 in frontier/, scripts/ unscanned, FORCES Z6->Z3 passes test_e6, and 8 unit/E3/markup bypasses pass _hits(): VERIFIED
+  R12: B1878 NOTE 2026-11-12 deleted + arc_verdict.json broken still passes test_b1878; 5 §3 rules replaced in B1880: VERIFIED
+  R13: B1880 measure_all_hash_lists.py wrong filename / --write docstring & read_class_a.py header: VERIFIED
+  R14: B1885 FINDINGS.md omits 18-digit grid precision; test_b1885 passes under REFUTED + reverted 18-digit mend and omits hxy determinant check: VERIFIED
+  R15: test_b1890 passes with all 14 original READS_HISTORY gates deleted, U9.b reopened in _refusing(), and invalid arc_verdict.json: VERIFIED
+
+=== 4. BLOCK 3: GOVERNING PAGES, REVIEWS.md, RETRACTED_PHRASES.md, RETRACTIONS.md ===
+  R16: B1885 empty list is elliptic points at p=17 (not levels), and 32->31 mend was solely in B1892 (not B1894): VERIFIED
+  R17: B952 commuting correction stands across all 5 surfaces (refuting pre-Review-78 'B952's findings' limitation): VERIFIED
+  R18: 5 reviews in B1837..B1897 and standalone corrections (B1859/B997, B1028, B1842, B1855, B1873, B1675) absent from RETRACTIONS.md & P-823: VERIFIED
+  R19: 6 unmerged branches across 5 sessions moved in Review 79 window (3 new since 17 leaves at Review 78): VERIFIED
+  R20: LAW_MAP (329 rows) and THEOREM_REGISTRY (229 rows) gained 0 rows in 38d2a36dc..0dda7b472: VERIFIED
+  R21: ERROR_LEDGER table edits in place=['E21', 'E22'] (0 added rows), bullet instances added=12: VERIFIED
+  R22: papers/ files modified in window = ['papers/P3_THE_PAPER/CLAIM_CANDIDATES.md', 'papers/P3_THE_PAPER/verification_package/MANIFEST.json', 'papers/P3_THE_PAPER/verification_package/MANIFEST.md', 'papers/candidates/PC27_one_arithmetic_knot/PAPER.md', 'papers/candidates/PC27_one_arithmetic_knot/PAPER_CARD.md']: VERIFIED
+  R23: reading rows above note = 8 (Oct 7-8 tables = 3, NOT_SWEPT_BY_NAME = 2): VERIFIED
+
+=== 5. BLOCK 4: ENFORCEMENT SERIES 2 & 3 AND THREE LOCKS (+ CTL-R80-LOCK) ===
+  R24 (CTL-R80-LOCK direct-skip refused; AnnAssign/helper/approx passed while pytest skipped all): True | ss                                                                       [100%]
+2 skipped in 0.01s
+  R25, R26, R27: all 15 vacuity/syntax/class/suffix bypasses passed test-vacuity -> ok (14 tests, 0 vacuous; 8 both-literal for review; 0 more in the arcs' own locks, 0 vacuous; 2 in which no assert can fail, held by name as found, and 24 of that table mended or gone: shorten the table)
+  R28: gate_framing (.git path -> 'ok (0 text files read, in any letter case; not read: 0 above 5 MB, 0 that are not text; 0 that quote what the gate bans, exempt by name)'; markup/NUL-tar/symlink -> 'ok (42 text files read, in any letter case; not read: 0 above 5 MB, 0 that are not text; 1 that quote what the gate bans, exempt by name)'): VERIFIED
+  R29: gate_claims passed docstring-only lock + 4 unlocked Proven rows -> 'ok (1 rows in the locked tables, 1 citing a lock; 0 held by name as found without one; 1 of the table now cite one or are gone: shorten the table (P51))'
+  R30 & R34: sweep bypasses passed ('ok (4 rows of the registry read: 2 swept, 2 that retract a reading and are not swept; 1 standing instance(s) of a phrase held by name as found; 12 name(s) in the sweep's tables meet nothing now: shorten the table)') and deleted post-anchor phrase escaped held_since: VERIFIED
+  R31: float ceiling 5.5 coerced to 0 in ceiling_rises while allowing 5 matched tokens in gate_attribution -> True
+  R32 & R33: '?' status cells passed and boolean raises passed -> 'ok; the baseline was raised 2 time(s) by name since e50baf924: False -> True (2026-11-12); False -> True (2026-11-12)'
+  R35: LAW_MAP '---' row skipped/deleted unseen, C1 [THEOREM]->[AXIOM] passed, lowercase [theorem] raised AttributeError: VERIFIED
+  R36: clock regex omits fromtimestamp, _SUB extracts '-c', and `git rm --cached` flipped retraction-sweep False -> True with HEAD & disk unchanged: VERIFIED
+
+=== 6. INDEPENDENT RECOMPUTATIONS OF CLEAN CONTROLS AT c40446392 ===
+  B1885 math: Laplace trace/peak=-159.5190056655524 matches Hessian eig sum; |P^1(F_5)|=6
+  RETRACTIONS.md checkable algebra (B952 sl(2) centralizer=0, sin(pi/7) degree-6 abelian, 16275/2815/47988): PASS
+  WORKING_RULES (81+16+14=111) and GENESIS v1.66 header: PASS
+
+ALL R80 VERIFICATIONS AND CONTROLS PASSED (36/36 FINDINGS + CTL-R80-QUOTE + CTL-R80-LOCK).
