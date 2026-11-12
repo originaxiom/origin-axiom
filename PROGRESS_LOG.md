@@ -19890,3 +19890,19 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None.
 
 0 of 19.
+
+## 2026-11-12 — The open review: two readers are in, and every finding of theirs is real (S306p)
+
+**What came in.** Two of the four readers have filed. One found seven faults and the other thirty-six. Main checked each one itself, and all forty-three are real.
+
+**What they are.** Mostly three kinds: wrong counts in main's own summary of the last review; corrections that were made in one place and not carried to the others; and checks that did not hold what their page said, so that a changed verdict passed them. One is a real hole in an automatic check, which reads almost nothing when the copy of the repository sits under a folder with a certain name.
+
+**What main did.** It mended its own share and holds the mends until the review is closed. Eighteen faults are in the checks built by the advisor seat and go to it.
+
+**The other two readers have started.** One of them had sent nothing since the night and took up its reading at midday. Main had written a message that gave part of its list to another reader; the message was not sent.
+
+**The mathematics meanwhile.** Three pieces of the plan have their first step worked and wait to be published: why the carrier of the two records is not abelian and which surface is left; what "no period" removes; and that the parent algebra is supplied, with exactly what is supplied.
+
+**Which piece of the plan moved.** None is published yet.
+
+0 of 19.

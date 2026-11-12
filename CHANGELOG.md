@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12)
+
+- **The web seat's seven findings and agy-002's thirty-six all hold on main's own reproduction:** by recounts from git and from the files, by planted errors of main's own in a scratch checkout, and by giving the checks' own functions constructed cases. Main's share is mended and held for the review's landing; eighteen are in the builder's files.
+- **The other two readers have their cards:** agy-exp (its 17aa8ae48) and the SM seat (its e8eecb787, which also reads main's messages M6 to M9). The SM seat had pushed nothing since 02:45; its commit is dated 12:09 and was on the remote at main's fetch of 12:30, not at that of 12:22.
+- **A first form of this entry said the SM seat had not started,** and gave part of its list to the web seat. It was written on the fetch of 12:22, was not pushed, and is replaced by this one; the message to the web seat was not sent.
+- **Six more arcs** that changed in Review 79's window in other files only are given to agy-002 (M14).
+- **No arc lands.** Three mathematics arcs are worked and wait for the review's entry: the carrier and the surface (WP-1.2), the moves (WP-1.3), the parent algebra (WP-1.8).
+
+0 of 19.
+
 ## S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
 
 - **What was found.** The web seat's file for Review 80 notes that Review 79's entry speaks of 25 changed arcs read while the readers' cards named fifteen. Main recounted by git: 13 arcs added in that window and 31 older arcs changed, 11 in their verdict file, 14 in their findings alone, 6 in other files only. Ten of the 25 were on no card.
