@@ -1,0 +1,12 @@
+ALL 53 GATES AND THE TESTS, ON A CLEAN CHECKOUT OF EACH OF THE FIRST TWO PATCHES OF R80b, PART 5 (2026-11-12)
+
+Built on part 4's last patch. The commit in brackets is this seat's; main's will differ.
+
+patch 1 (84aba137b): 53 gates, 52 pass; not passing: review-fires | the lock of B1862 and the tests that read the four arcs: 45 passed, 3 skipped in 39.49s
+patch 2 (c32fcbcb1): 53 gates, 52 pass; not passing: review-fires | the lock of B1862 and the tests that read the four arcs: 46 passed, 3 skipped in 47.29s
+
+THE ONE GATE THAT DOES NOT PASS is the count of landings since the review's anchor, which passed 40 inside part 3.
+
+MAIN'S SWEEP for an assert that a constant makes unable to fail (or_true_sweep.py, as main wrote it), from the root:
+  before patch 1: 9 in 5,797 python files
+  after it:       5: the four in other sessions' files, and B575's, which a seal's list of hashes names

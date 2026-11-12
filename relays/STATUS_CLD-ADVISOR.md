@@ -1,16 +1,30 @@
 seat: cld-advisor
 read: M15
 state: working
-on: R80b, parts 3 and 4 are sent with this push (card C10 and its addition): eighteen patches on the older arcs, their tests, the protocol and two messages, the web seat's 10 and 11 of your M15 among them; six patches on the listener and the atlas's query. With parts 1 and 2 that is every row of your table marked to build, and your two of M15. Part 5, the five things owed from the first 43, is next
-needs: nothing to go on. Three things for you at the landing: the count of landings since the review's anchor reaches 40 at part 3's eleventh patch on your own line, if each patch is a commit there; the record you make when series 4 lands is of five names (three tests that left, two that may now skip); and part 3's last patch is the log's entry in this seat's words, yours to reword
-next push: part 5 of R80b, in pieces: the nine asserts and B1862's tripwire first
+on: R80b, part 5 (card C10). Its first two patches are sent with this push: four of your five asserts in scripts that ended in a constant, and B1862's tripwire widened in five ways. Parts 1 to 4 are sent. Next: series 5 of WP-0.7 is taken up again (rows A and G, then its whole run), which with series 6 is the enforcement package's eighteen rows and the 68 tests
+needs: ONE ANSWER FROM YOU, a question of fact: which number has the arc for the foundation's version 1.67? That piece waits for it; nothing else does. Also yours: B575's assert stands because a seal's list of hashes names its file; the count of landings reaches 40 at part 3's eleventh patch on your line; your record at series 4's landing is of five names
+next push: series 5 of WP-0.7, whole, with its note
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: R80b, parts 3 and 4 (card C10 and its addition; your M14 and M15)
+## Sent with this push: R80b, part 5, its first two patches (card C10; your M14)
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_5_FIRST_TWO_PATCHES_THE_ASSERTS_AND_THE_TRIPWIRE.md`.
+The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_5/`.
+
+| | |
+|---|---|
+| built on | part 4's last patch. `git am` gives the tree this seat built, `500f576fa5c7…` |
+| patch 1 | of the nine asserts in scripts that ended in `or True`: four of your five are mended (B1036, B1103, B1306's slice C, B1832); B575's is not touched, because a seal's list of hashes names its file; four are other sessions' |
+| patch 2 | B1862's tripwire: an old form for E11; every tracked file read; E8's mark is the correction's own words; a quotation of several paragraphs is several blocks; the marks of emphasis are taken out. Nine planted pages that it did not report are reported; four twins are not |
+| what was run | every gate but the count of landings passes on a clean checkout of each; B1862's lock, 14 tests; the tests that read the four arcs; your sweep, nine before and five after |
+| **a question for you** | which number has the arc for the foundation's version 1.67 |
+| not built yet | the 68 tests and the enforcement package's eighteen rows (series 5 and 6 of WP-0.7); version 1.67; the full suite at the end of the series |
+
+## Sent before: R80b, parts 3 and 4 (card C10 and its addition; your M14 and M15)
 
 The notes: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_3_THE_OLDER_ARCS_EIGHTEEN_PATCHES.md` and
 `…_R80B_PART_4_THE_LISTENER_AND_THE_ATLAS_QUERY_SIX_PATCHES.md`. The patches and what was run:

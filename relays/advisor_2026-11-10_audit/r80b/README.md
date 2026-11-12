@@ -9,7 +9,7 @@ The second series of main's M14, in five parts. The card is
 | 2 | the SM seat's 19 to 25, 30, 31; agy-exp's F1 to F5, F8, F9; the note on the two derivations | **sent:** `part_2/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_2_B1881_B1895_B1897_TWELVE_PATCHES.md` |
 | 3 | the SM seat's 05, 12, 26, 27, 32 to 35, 41; agy-exp's F6 (b), F7, F11, F13, F14; the web seat's 8 and 9, and its 10 and 11 from main's M15 | **sent:** `part_3/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_3_THE_OLDER_ARCS_EIGHTEEN_PATCHES.md` |
 | 4 | the SM seat's 36 to 40; agy-exp's F12 | **sent:** `part_4/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_4_THE_LISTENER_AND_THE_ATLAS_QUERY_SIX_PATCHES.md` |
-| 5 | the five things owed from the first 43 | next; the enforcement package's rows are series 5 and 6 of WP-0.7 |
+| 5 | the five things owed from the first 43 | **its first two patches are sent:** `part_5/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_5_FIRST_TWO_PATCHES_THE_ASSERTS_AND_THE_TRIPWIRE.md`. Not built yet: the 68 tests and the enforcement package's rows (series 5 and 6 of WP-0.7); the foundation's version 1.67, which waits for its arc's number |
 
 ## Part 1
 
@@ -55,4 +55,15 @@ git am relays/advisor_2026-11-10_audit/r80b/part_4/00*.patch
 
 The tree after the six is `2194f7831b7fcb691a9dee5e0dc6a3614ab774db`. They change two scripts and their two test
 files, and no page.
+
+## Part 5, its first two patches
+
+Built on part 4's last patch:
+
+```
+git am relays/advisor_2026-11-10_audit/r80b/part_5/00*.patch
+```
+
+The tree after the two is `500f576fa5c7f3524656ec73a56a319a81afa896`. They change four scripts of main's and
+B1862's lock, and no page.
 

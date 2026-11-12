@@ -1,0 +1,17 @@
+                                           the page                 before                       now                          what it is
+1. no old form for E11                     docs/sine.md             not read                     an old form, no correction   an old form, no correction
+   its twin                                docs/sine_good.md        not read                     corrected                    corrected
+2. a script outside an arc                 scripts/tool.py          not read                     an old form, no correction   an old form, no correction
+   a test                                  tests/test_x.py          not read                     an old form, no correction   an old form, no correction
+   a page of another tree                  knowledge/K1.md          not read                     an old form, no correction   an old form, no correction
+3. a mark that was one word in any case    docs/principal.md        corrected                    an old form, no correction   an old form, no correction
+   its twin                                docs/principal_good.md   corrected                    corrected                    corrected
+4. a cue in a later quoted paragraph       docs/quoted.md           corrected                    an old form, no correction   an old form, no correction
+   its twin                                docs/quoted_good.md      corrected                    corrected                    corrected
+5. a word of the form in bold              docs/bold.md             not read                     an old form, no correction   an old form, no correction
+   in italics                              docs/italic.md           not read                     an old form, no correction   an old form, no correction
+   as code                                 docs/code.md             not read                     an old form, no correction   an old form, no correction
+   its twin                                docs/bold_good.md        not read                     corrected                    corrected
+
+of the 9 planted pages, reported as an old form with no correction: 0 before, 9 now
+of the 4 twins, reported so: 0 before, 0 now
