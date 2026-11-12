@@ -434,7 +434,8 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     # X14 (B874)
     b874_verdict = json.loads(git_show(PINNED_MAIN, "frontier/B874_measurement_ladder/arc_verdict.json"))
     x14_ok = (
-        "CORRECTED 2026-11-12" in b874_verdict["claim_one_line"]
+        "SCOPED 2026-11-12" in b874_verdict["claim_one_line"]
+        and "{12, 14, 16, 16" not in b874_verdict["claim_one_line"]
         and "{12, 14, 16, 18, 20, 26}" in b874_verdict["claim_one_line"]
         and "{12, 16, 18}" in b874_verdict["claim_one_line"]
     )
@@ -449,7 +450,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
         and "not for a v|" not in b1861_prog
         and "[…]" in b1861_prog
         and "| P-813 |" in point_reg
-        and "B1858" in point_reg
+        and "builders of the map and of the digest cut a sentence" in point_reg
     )
     assert x15_ok
 
@@ -679,13 +680,15 @@ def verify_b1884() -> dict[str, object]:
     b1881_verdict = json.loads(git_show(PINNED_MAIN, "frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json"))
     b1881_verdict_misattributes_b1872 = "the seat's convention and B1872's name one allowed set" in b1881_verdict["claim_one_line"] and "CORRECTED" not in b1881_verdict["claim_one_line"]
     # 3. SM-06 / SM-16 one-commit "expectations were written before the run" still stands in B1884/FINDINGS.md, and "is reproduced to N = 60" in section 2
-    b1884_commits_before_review79 = git_cmd(
-        "log", "--format=%h", f"{BASE_MAIN}", "--", "frontier/B1884_what_level_a_ground_names_verified"
+    b1884_verif_commits_before_review79 = git_cmd(
+        "log", "--format=%h", f"{BASE_MAIN}", "--",
+        "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+        "frontier/B1884_what_level_a_ground_names_verified/verification",
     ).strip().splitlines()
     b1884_script_commits_before_review79 = git_cmd(
         "log", "--format=%h", f"{BASE_MAIN}", "--", "frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py"
     ).strip().splitlines()
-    assert len(b1884_commits_before_review79) == 1 and b1884_commits_before_review79 == b1884_script_commits_before_review79
+    assert len(b1884_verif_commits_before_review79) == 1 and b1884_verif_commits_before_review79 == b1884_script_commits_before_review79
 
     return {
         "checks_in_json": sum(1 for v in res_json.values() if isinstance(v, bool)),
@@ -698,7 +701,7 @@ def verify_b1884() -> dict[str, object]:
         "b1872_uses_rows_1_3_not_columns": b1872_uses_rows_1_3,
         "b1884_misattributes_b1872_columns": b1884_misattributes_b1872,
         "b1881_verdict_still_says_b1872_convention": b1881_verdict_misattributes_b1872,
-        "b1884_pre_review79_commits": b1884_commits_before_review79,
+        "b1884_pre_review79_verif_commits": b1884_verif_commits_before_review79,
     }
 
 
