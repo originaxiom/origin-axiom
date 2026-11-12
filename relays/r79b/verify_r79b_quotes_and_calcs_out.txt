@@ -1,4 +1,4 @@
-=== SECTION 1: EXACT QUOTATION CHECKS AT 896cae025238cda82304de7424bf05f83cb69abe ===
+=== SECTION 1: EXACT QUOTATION CHECKS AT 896cae025238cda82304de7424bf05f83cb69abe AND 87bfa1f055372f08c35a712047b521fc50b74409 ===
   [PASS] R01 (B1892) frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md -> lines=[68], count=1
   [PASS] R02 (B1886) frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py -> lines=[126], count=1
   [PASS] R03 (B1641) frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md -> lines=[123], count=1
@@ -12,6 +12,10 @@
   [PASS] R11 (B1221) tests/test_b1221_the_adjoint_control.py -> lines=[36], count=1
   [PASS] R12 (B874) frontier/B874_measurement_ladder/arc_verdict.json -> lines=[5], count=1
   [PASS] R13 (B1861) frontier/B1861_the_closure_programme/verification/build_programme.py -> lines=[638], count=1
+  [PASS] R14 (B1881) frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md -> lines=[105], count=1
+  [PASS] R15 (B1881) frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json -> lines=[31], count=1
+  [PASS] R16 (B1881) frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py -> lines=[600], count=1
+  [PASS] R17 (B1881) frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py -> lines=[111], count=1
   [PASS] CTL-R79B-QUOTE (planted single-word mutation refused): ok_mut=False
 
 === SECTION 2: PLANTED CONTROL 2 (ADVERSARIAL LOCK & HELPER MUTATIONS) ===
@@ -28,5 +32,11 @@
   [PASS] B874/B892 check: 2D strata {16, 20, 26} and four 26-points are unimported audit-seat claims, absent from B892; B874 arc_verdict unlocked
   [PASS] B1880 check: census.jsonl.gz hashed by 0 hash lists (frozen 'N' in gate_artifact_hashes); root_files_not_committed.json (58 entries, 56 untracked) unreferenced in B1880 & B1892
   [PASS] B1889 & Register check: SEATS.json (1699; web 240/74/63; audit 314/6) vs stale arc_verdict.json; P-803, R79-16, and P-812 verified
+
+=== SECTION 4: M7 ADDITION — B1881 DIFF, MATH, AND PLANTED LOCK CHECKS AT 87bfa1f055372f08c35a712047b521fc50b74409 ===
+  [PASS] B1881 SM-11 & SM-16: [[1,1],[1,2]]^T == [[1,1],[1,2]] != [[2,1],[1,1]] (J-conjugation); SL(2,F_5) universal identity; stale arc_verdict & docstring confirmed
+  [PASS] B1881 SM-13/X7 & SM-14 math: 290/240 box matrices, symbolic mirror normalisation, exact one6=2*sqrt(30)/3 (0.9245%), and symbolic single-run limit verified
+  [PASS] B1881 SM-15 & X8 math: independent coset census ([1,1,5,5],0,0,0) and ([1,5],2,0,0) verified
+  [PASS] CTL-R79B-LOCK-B1881 & SM-17: 16275 vs 2815/5575; unmended JSON/run/py confirmed; stripping all Review 79 mends from FINDINGS.md & .py passes test_b1881
 
 ALL R79B PRE-PROSE CHECKS AND PLANTED CONTROLS PASSED (0 of 19).

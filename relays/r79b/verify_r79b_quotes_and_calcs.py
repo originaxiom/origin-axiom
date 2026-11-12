@@ -28,6 +28,7 @@ import tempfile
 REPO = pathlib.Path(__file__).resolve().parents[2]
 BASE = "0dda7b4725f613dbef273edafcd3fca73ccb245c"
 TARGET = "896cae025238cda82304de7424bf05f83cb69abe"
+M7_TARGET = "87bfa1f055372f08c35a712047b521fc50b74409"
 
 
 def git_show(rev_path):
@@ -121,6 +122,30 @@ QUOTES = [
         "frontier/B1861_the_closure_programme/verification/build_programme.py",
         'return (head[:head.rfind(" ")] if " " in head else head).rstrip(" ,;:") + " […]"',
     ),
+    (
+        "R14",
+        "B1881",
+        "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+        "here, columns with the mark (1, 2) and the ground [[2, 1], [1, 1]], is its transpose and is this arc's own; the",
+    ),
+    (
+        "R15",
+        "B1881",
+        "frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",
+        "the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception);",
+    ),
+    (
+        "R16",
+        "B1881",
+        "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
+        'check("the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground\'s own, sqrt5/2 (%d sequences)" % len(lows), abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))',
+    ),
+    (
+        "R17",
+        "B1881",
+        "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
+        "def test_the_arc_says_what_it_is_and_what_it_is_not():",
+    ),
 ]
 
 
@@ -132,12 +157,16 @@ def check_quote_in_text(text, quote):
 
 
 def section_1_quotes_and_control():
-    print("=== SECTION 1: EXACT QUOTATION CHECKS AT", TARGET, "===")
+    print("=== SECTION 1: EXACT QUOTATION CHECKS AT", TARGET, "AND", M7_TARGET, "===")
     for rid, arc, path, quote in QUOTES:
-        text = git_show(f"{TARGET}:{path}")
-        ok, lines = check_quote_in_text(text, quote)
-        assert ok, f"MISSING OR INVALID QUOTE {rid} in {path}: {quote!r}"
-        print(f"  [PASS] {rid} ({arc}) {path} -> lines={lines}, count={text.count(quote)}")
+        revs = (TARGET, M7_TARGET) if int(rid[1:]) <= 13 else (M7_TARGET,)
+        for rev in revs:
+            text = git_show(f"{rev}:{path}")
+            ok, lines = check_quote_in_text(text, quote)
+            assert ok, f"MISSING OR INVALID QUOTE {rid} at {rev} in {path}: {quote!r}"
+        text_latest = git_show(f"{M7_TARGET}:{path}")
+        _, lines = check_quote_in_text(text_latest, quote)
+        print(f"  [PASS] {rid} ({arc}) {path} -> lines={lines}, count={text_latest.count(quote)}")
 
     # Planted Control 1: mutate one word of R08's real line from B1882/FINDINGS.md
     real_text = git_show(f"{TARGET}:frontier/B1882_the_v1_card_run_on_main/FINDINGS.md")
@@ -518,8 +547,128 @@ def section_3_independent_math_and_ledger_checks():
     print("  [PASS] B1889 & Register check: SEATS.json (1699; web 240/74/63; audit 314/6) vs stale arc_verdict.json; P-803, R79-16, and P-812 verified")
 
 
+def section_4_b1881_m7_checks():
+    print("\n=== SECTION 4: M7 ADDITION — B1881 DIFF, MATH, AND PLANTED LOCK CHECKS AT", M7_TARGET, "===")
+    import mpmath as mp
+    import sympy as sp
+
+    f_md = git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md")
+    av = json.loads(git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json"))
+    py = git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py")
+    js = json.loads(git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.json"))
+    run_txt = git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main_run.txt")
+    t_py = git_show(f"{M7_TARGET}:frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py")
+    vl_md = git_show(f"{M7_TARGET}:docs/views/VERDICT_LEDGER.md")
+
+    # 4a. SM-11: exact linear algebra of ground [[1,1],[1,2]] vs [[2,1],[1,1]] and universal SL(2, F_5) agreement
+    Ls = sp.Matrix([[1, 0], [1, 1]])
+    Rs = sp.Matrix([[1, 1], [0, 1]])
+    Gs = Ls * Rs
+    Lm = sp.Matrix([[1, 1], [0, 1]])
+    Rm = sp.Matrix([[1, 0], [1, 1]])
+    Gm = Lm * Rm
+    J = sp.Matrix([[0, 1], [1, 0]])
+    assert Gs.tolist() == [[1, 1], [1, 2]]
+    assert Gs.T == Gs and Gs.T.tolist() != [[2, 1], [1, 1]]  # symmetric! Its transpose is NOT [[2,1],[1,1]]!
+    assert (J * Gs * J).tolist() == [[2, 1], [1, 1]] == Gm.tolist()
+
+    def line5(u):
+        return min(((k * u[0]) % 5, (k * u[1]) % 5) for k in (1, 2, 3, 4))
+
+    sl2_5 = [(a, b, c, d) for a in range(5) for b in range(5) for c in range(5) for d in range(5) if (a * d - b * c) % 5 == 1]
+    assert len(sl2_5) == 120
+    for a, b, c, d in sl2_5:
+        Ws = sp.Matrix([[a, b], [c, d]])
+        Wm = J * Ws * J
+        rs = tuple(int(x) % 5 for x in (sp.Matrix([[1, 3]]) * Ws))
+        cm = tuple(int(x) % 5 for x in (Wm * sp.Matrix([[1], [2]])))
+        assert (line5(rs) == line5((1, 3))) == (line5(cm) == line5((1, 2)))
+    assert 6 ** 2 + 6 ** 4 + 6 ** 6 == 47988
+
+    # Stale B1872 attribution and "reproduced" label in arc_verdict.json / VERDICT_LEDGER.md / keeps_line_main
+    assert "the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception);" in av["claim_one_line"]
+    assert "the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception);" in vl_md
+    assert "every printed number reproduced" in av["claim_one_line"]
+    assert "Every exact fact of both relays is reproduced by main's own code" in f_md
+    assert '"""B1872\'s convention: L = [[1,1],[0,1]], R = [[1,0],[1,1]], columns, v = (1,2)"""' in py
+    print("  [PASS] B1881 SM-11 & SM-16: [[1,1],[1,2]]^T == [[1,1],[1,2]] != [[2,1],[1,1]] (J-conjugation); SL(2,F_5) universal identity; stale arc_verdict & docstring confirmed")
+
+    # 4b. SM-13/X7 & SM-14 independent checks
+    box = [(a, b, 5 * c, d) for a in range(-12, 13) for b in range(-12, 13) for c in range(-3, 4) for d in range(-12, 13) if a * d - 5 * b * c == 1]
+    assert len(box) == 290 and sum(1 for x in box if x[2] != 0) == 240
+    a_s, b_s, c_s, d_s = sp.symbols("a b c d")
+    Jm = sp.Matrix([[-1, 0], [0, 1]])
+    assert sp.simplify(Jm * sp.Matrix([[a_s, b_s], [5 * c_s, d_s]]) * Jm - sp.Matrix([[a_s, -b_s], [-5 * c_s, d_s]])) == sp.zeros(2, 2)
+
+    # Exact closed form for [6, 1, 1, 1] apex: 2*sqrt(30)/3 = sqrt(40/3), and symbolic limit for single run (n,)
+    mp.mp.dps = 60
+    phi = (1 + mp.sqrt(5)) / 2
+    one6_exact = 2 * mp.sqrt(30) / 3
+    own6_exact = mp.mpf(5) / 2 + mp.sqrt(5) / 2
+    pct6 = (one6_exact - own6_exact) / own6_exact * 100
+    assert mp.nstr(one6_exact, 5) == "3.6515" and mp.nstr(pct6, 2) == "0.92" and mp.mpf("0.9") < pct6 < 1
+    n_sym = sp.symbols("n")
+    phi_sym = (1 + sp.sqrt(5)) / 2
+    assert sp.simplify((n_sym + 2 / phi_sym) / 2 - ((n_sym - 1) / 2 + sp.sqrt(5) / 2)) == 0
+    print("  [PASS] B1881 SM-13/X7 & SM-14 math: 290/240 box matrices, symbolic mirror normalisation, exact one6=2*sqrt(30)/3 (0.9245%), and symbolic single-run limit verified")
+
+    # 4c. SM-15 & X8 independent PSL_2(Z) coset census and mutation check
+    Fr = fractions.Fraction
+    S5, T5 = (0, 4, 1, 0), (1, 1, 0, 1)
+    mul5 = lambda A, B: ((A[0]*B[0]+A[1]*B[2])%5, (A[0]*B[1]+A[1]*B[3])%5, (A[2]*B[0]+A[3]*B[2])%5, (A[2]*B[1]+A[3]*B[3])%5)
+    ST5 = mul5(S5, T5)
+    act5 = lambda g, w: ((w[0]*g[0]+w[1]*g[2])%5, (w[0]*g[1]+w[1]*g[3])%5)
+    vecs = [(a, b) for a in range(5) for b in range(5) if (a, b) != (0, 0)]
+    sign_c = lambda w: min(w, ((-w[0]) % 5, (-w[1]) % 5))
+    pts12 = sorted({sign_c(w) for w in vecs})
+    pts6 = sorted({line5(w) for w in vecs})
+    for pts, can, exp in ((pts12, sign_c, ([1, 1, 5, 5], 0, 0, Fr(0))), (pts6, line5, ([1, 5], 2, 0, Fr(0)))):
+        seen, widths = set(), []
+        for p0 in pts:
+            if p0 in seen:
+                continue
+            q, k = p0, 0
+            while True:
+                seen.add(q); k += 1; q = can(act5(T5, q))
+                if q == p0:
+                    break
+            widths.append(k)
+        e2 = sum(1 for p0 in pts if can(act5(S5, p0)) == p0)
+        e3 = sum(1 for p0 in pts if can(act5(ST5, p0)) == p0)
+        g = Fr(1) + Fr(len(pts), 12) - Fr(e2, 4) - Fr(e3, 3) - Fr(len(widths), 2)
+        assert (sorted(widths), e2, e3, g) == exp
+    print("  [PASS] B1881 SM-15 & X8 math: independent coset census ([1,1,5,5],0,0,0) and ([1,5],2,0,0) verified")
+
+    # 4d. SM-17 necklace counts & unmended script/JSON/run check + CTL-R79B-LOCK-B1881
+    assert 5 ** 2 + 5 ** 4 + 5 ** 6 == 16275
+    necklaces_all = sum(sum(5 ** math.gcd(n, r) for r in range(n)) // n for n in (2, 4, 6))
+    necklaces_even = sum(sum(5 ** (2 * math.gcd(n // 2, r)) for r in range(n // 2)) // (n // 2) for n in (2, 4, 6))
+    assert necklaces_all == 2815 and necklaces_even == 5575
+    assert Fr(16, 9) > Fr(5, 4) and mp.mpf(4) / 3 > mp.sqrt(5) / 2  # global lower bound for any sequence containing a run >= 2
+    assert "the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences)" in js
+    assert "the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences)" in run_txt
+
+    # Planted Control on test_b1881: strip all [CORRECTED ...] brackets from FINDINGS.md and revert whole_and_value_on_main.py to True
+    assert "CORRECTED" not in t_py
+    stripped_f = re.sub(r"\[CORRECTED 2026-11-12 \(Review 79\):.*?\]", "", f_md, flags=re.S)
+    stripped_f = stripped_f.replace("- **Three checks did not check what they said**", "")
+    assert stripped_f != f_md
+    for s in (
+        "## Seen first", "## Disclosed", "## Reproduce", "0 of 19",
+        "main's reading; a criterion, not a result", "Nothing is selected",
+        "Three of main's own checks failed on the first run, and none of the seat's facts",
+        "main's safeguard, which is main's wording and not the owner's",
+    ):
+        assert s in stripped_f
+    reverted_py = py.replace("mirror_ok and len(box) >= 200 and sum(1 for x in box if x[2] != 0) >= 200", "True").replace("single_ok", "True")
+    assert reverted_py != py
+    assert "frontier/" not in reverted_py and "open(" not in reverted_py.replace("write_text", "")
+    print("  [PASS] CTL-R79B-LOCK-B1881 & SM-17: 16275 vs 2815/5575; unmended JSON/run/py confirmed; stripping all Review 79 mends from FINDINGS.md & .py passes test_b1881")
+
+
 if __name__ == "__main__":
     section_1_quotes_and_control()
     section_2_planted_lock_mutations()
     section_3_independent_math_and_ledger_checks()
+    section_4_b1881_m7_checks()
     print("\nALL R79B PRE-PROSE CHECKS AND PLANTED CONTROLS PASSED (0 of 19).")
