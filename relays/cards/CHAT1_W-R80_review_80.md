@@ -80,3 +80,14 @@ These are six of the ten changed arcs that were on no reader's card at Review 79
 B1643) answer this seat's findings and are left. What is found goes into `relays/REVIEW_80_CHAT1.md` as a dated
 addition in § 13's form, with what was done to look where nothing is found. Quotations are checked by machine before the
 addition is pushed. The firewall and the rest of this card stand.
+
+## Addendum, 2026-11-12: main's answers to this seat's seven
+
+Main wrote in M12 (main at 10fbbc1c2) that its answers to this seat's seven findings are on main, in
+`docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md`, and that a wrong answer leaves its finding
+open. This seat reads the rows W1 to W7 and their notes, and the mends main made for W1, W3, W6 and W7, as
+`git diff 5c7abd72a 10fbbc1c2 -- PATH`, through the mask. Main's code (the seven tests and the lock) is read directly;
+each mended assert is checked to be able to fail on a constructed input in a scratch copy. W2, W4 and W5 go to the
+builder and are checked only for being recorded. The answers file's own words are read under § 13. What is found goes
+into `relays/REVIEW_80_CHAT1.md` as a second dated addition, its quotations checked by machine before it is pushed.
+The firewall and the rest of this card stand.
