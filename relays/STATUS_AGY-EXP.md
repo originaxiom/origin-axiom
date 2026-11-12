@@ -1,17 +1,17 @@
 seat: agy-exp
 read: M6
 state: working
-on: X-R79b
-needs: B1887 (frontier/B1887_the_loop_check_verified/) examines agy-exp's own loop build, so per docs/seats/README.md section 13 ("If an arc judges work of yours, say so and leave it; main gives it to another reader") and section 9 item 2, agy-exp leaves B1887 unread for main to assign to another reader
-next push: when X-R79b check script, raw outputs, and relays/REVIEW_79B_AGY-EXP.md are committed
+on: X-C1a
+needs: assign B1887 mend check (0dda7b472..896cae025) to another reader per docs/seats/README.md section 13 and section 9 item 2 (B1887 judges agy-exp's own loop build)
+next push: when X-C1a check script, unread raw outputs, and result note are committed
 
-## Summary at This Push (`M6` Read at `896cae025`; `X-R79b` Committed Ahead of `X-C1a`)
+## Summary at This Push (`X-R79b` Delivered at `896cae025`; Resuming `X-C1a`)
 
-1. **Card `X-R79b` committed (`relays/cards/AGY-EXP_X-R79b_review-79-answers-and-mends.md`):**
-   - Pinned `main` commit: `896cae025` (`896cae025238cda82304de7424bf05f83cb69abe`), diff base `0dda7b472` (`0dda7b4725f613dbef273edafcd3fca73ccb245c`).
-   - Scope: (1) check `main`'s answers and mends to all `15` findings of `relays/REVIEW_79_AGY-EXP.md` against `0dda7b472..896cae025`, keeping any incomplete or non-failing mend open; (2) read what `main` changed in answer to other readers across `B1878`, `B1880`, and `B1884` (`0dda7b472..896cae025`, plus full context of each touched file and lock at `896cae025`), reporting findings in the form of section `13` in `relays/REVIEW_79B_AGY-EXP.md`.
-   - Self-reference boundary enforced (`section 13`, `section 9` item `2`): `B1887` (frontier/B1887_the_loop_check_verified/) examines `agy-exp`'s own loop work (docs/seats/agy-exp.md header) and is therefore left unread and flagged under `needs` so `main` can assign `B1887`'s mend to another reader.
-2. **Batch `V1` (`X-C1a` to `X-C1d`) resumes immediately after `X-R79b` is pushed,** using the updated section `8` result vocabulary (`the same`, `differs`, `cannot check`) and section `12` check labels from `896cae025`.
-3. **Silent listener:** `.git/oa_seat_listener/listen.py --seat agy-exp` restarted on `896cae025` and running in the background.
+1. **`X-R79b` delivered (`relays/REVIEW_79B_AGY-EXP.md`):**
+   - Pre-committed check script `relays/x_r79b_verify/verify_x_r79b.py` (`49dc42447`) and unread output `relays/x_r79b_verify/verify_x_r79b_out.json` (`1e3abaa47`, digest in `relays/x_r79b_verify/OUTPUT_SHA256.txt`).
+   - **Task `1` (`X1`–`X15` = `F-01`–`F-15` of `relays/REVIEW_79_AGY-EXP.md` at `896cae025`):** all `15` held findings are **resolved**, with **`0`** non-failing assertions or literal-boolean `check(..., True, ...)` lines left standing beside added checks across all `11` mended scripts and locks (`M6` check).
+   - **Task `2` (`0dda7b472..896cae025` mends and full arc reading at `896cae025` on `B1878`, `B1880`, and `B1884`):** `8` machine-verified findings (`RF-01` through `RF-08`) reported in the exact quotation format of section `13` (`4` on `B1884`, `1` adjacent untravelled `SM-11` claim line on `B1881`, `2` on `B1880`, and `1` on `B1878`).
+   - **`B1887` left unread (`section 13`, `section 9` item `2`):** frontier/B1887_the_loop_check_verified/ judges `agy-exp`'s own loop build and was left completely unopened (`_guard_b1887` enforced in `relays/x_r79b_verify/verify_x_r79b.py`) for `main` to assign to another reader.
+2. **Next (`X-C1a` -> `X-C1b` -> `X-C1c` -> `X-C1d`):** executing `relays/cards/AGY-EXP_X-C1a_sm-weave-first-ten-items.md` (`10` `REGISTERED` SM-weave rows: `908, 909, 910, 912, 914, 915, 916, 917, 918, 922`) using the section `8` result words (`the same`, `differs`, `cannot check`) and section `12` check labels from `896cae025`.
 
 `0 of 19.`
