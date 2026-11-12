@@ -609,6 +609,41 @@ def test_the_script_is_the_one_this_lock_was_written_against():
     assert not _as_the_lock_read_the_scripts_text_before(_planted(src, [('for the run of 5m + 1", single_ok,', 'for the run of 5m + 1", True,')]))
 
 
+# ---- Review 80 (2026-11-12): a reader's finding F2, made again by main's plant.  The script's own function for a check was
+# given a signature under which it ignores what it is passed: every check then reads as holding, and the 65 are 65 holding.
+# The digest above sees the change.  This sees what the change does: the function is called, and must record a failure.
+def _check_records_what_it_is_passed(mod):
+    """True where the script's check() records a false thing as failing and a true thing as holding, in all three places"""
+    mod.OUT.clear(); mod.RES.clear(); mod.FAILS.clear()
+    a = mod.check("planted by the lock: a false thing", False, "the detail")
+    b = mod.check("planted by the lock: a true thing", 1 == 1)
+    return (a is False and b is True and mod.RES == {"planted by the lock: a false thing": False, "planted by the lock: a true thing": True}
+            and mod.FAILS == ["planted by the lock: a false thing"] and len(mod.OUT) == 2
+            and mod.OUT[0].startswith("   [FAILS] planted by the lock: a false thing -- the detail") and mod.OUT[1].startswith("   [ok] planted by the lock: a true thing"))
+
+
+def _a_module_of(src, name):
+    import types
+    mod = types.ModuleType(name)
+    mod.__file__ = str(HERE / "whole_and_value_on_main.py")
+    exec(compile(src, mod.__file__, "exec"), mod.__dict__)                     # definitions only: the run is under __main__
+    return mod
+
+
+def test_a_check_of_the_script_fails_when_it_is_passed_a_false_thing(capsys):
+    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+    assert _check_records_what_it_is_passed(_a_module_of(src, "b1881_script_as_it_is"))
+    # main's plant, and two more ways to the same end: the function then records a false thing as holding, or not at all
+    for old, new in _PLANTS_OF_REVIEW_80["F2: check() made to ignore what it is passed"] + [
+            ("    RES[name] = bool(ok)\n    if not ok:\n        FAILS.append(name)", "    RES[name] = True\n    if not ok and False:\n        FAILS.append(name)"),
+            ('"ok" if ok else "FAILS"', '"ok"')]:
+        assert src.count(old) == 1, old
+        assert not _check_records_what_it_is_passed(_a_module_of(src.replace(old, new), "b1881_script_planted")), new
+    capsys.readouterr()                                                        # what the planted checks printed is not this test's output
+    # and the committed run was made by 65 calls that could fail: its json holds no check under a planted name
+    assert not any(k.startswith("planted by the lock") for k in RES)
+
+
 def test_the_withdrawn_word_stands_only_where_it_is_taken_back():
     """Two plants: the docstring of the script's second function given the withdrawn word, where the lock read the header; and
     a new paragraph on the page that states the withdrawn claim in other words than the old sentence.  Held here: the function's
