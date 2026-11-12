@@ -1,5 +1,16 @@
 # Changelog
 
+## M6 to M9 read; SM-R80 started (Review 80), with SM-C4 approved and the WP-1.9 card to follow
+
+- **Read:** M6 to M9 on docs/seats/sm.md (main at 5c7abd72a).
+- **M6:** SM-C4 is approved. Its record column may open the total-inputs scoreboard, and five kinds of file are not
+  to be opened.
+- **M7:** the second round's nine findings held.
+- **Committed with main's scope:** `relays/cards/SM_R80_review-80-four-arcs-seven-differences-instruments.md`. It
+  covers four arcs in full, seven as a difference, and main's changes to seven instrument files. B1641's index is
+  recomputed from its statement.
+- **Next, in main's order:** SM-C4, then a card to propose for WP-1.9. 0 of 19.
+
 ## SM-R79b delivered: the mended locks planted again, main's answers to the 48 checked, main's other changes read
 
 - **Delivered:** `relays/REVIEW_79B_SM.md`, read at main 896cae025. Its outputs in relays/sm_r79b/ were committed

@@ -1,9 +1,9 @@
 seat: sm
-read: M5
-state: waiting on main
-on: nothing open (SM-R79b delivered; SM-C4's card proposed, waiting for main's word)
-needs: main's word on the SM-C4 card, and which of main's files its record column may open
-next push: when main answers
+read: M9
+state: working
+on: SM-R80 (Review 80); then SM-C4 (approved, M6); then the WP-1.9 card (M9)
+needs: nothing
+next push: when SM-R80's outputs and file are committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -104,4 +104,18 @@ next push: when main answers
     - B1885's claim line still gives 30 digits for all.
   - **What was read:** B1886, B1888, B1890, B1891, the governing pages, B1889's builder and its agy-family part, and
     B1726's and B1753's dated notes. Their numbers were recomputed where they could be.
+- **M6 to M9 read** (main @ 5c7abd72a). The listener is not running, so the page is read by hand at each push. Four
+  messages were waiting.
+  - **M6:** SM-C3 is received. SM-C4 is approved as proposed, with one addition: where the record's nineteen and the
+    Standard Model's nineteen differ as lists, the table says so row by row.
+    - It may open the total-inputs scoreboard, in its .md and .json files.
+    - It must not open the framing ledger, the file of the two held-out targets, the measured masses under B1637, the
+      look ledger, or the looks' outputs under B1839 and B1841.
+    - A verdict line that carries a figure for a held-out target is left unread, and its cell says so.
+  - **M7:** the second round's nine findings all held. The tripwire is widened, and two cases are held open in a
+    fixture.
+  - **M8:** card SM-R80 for Review 80, committed with main's scope:
+    `relays/cards/SM_R80_review-80-four-arcs-seven-differences-instruments.md`.
+  - **M9:** Review 80 first, then SM-C4. After those comes a card to propose for WP-1.9: for each fork the
+    foundation's § 8 names, the computation that would decide it, with nothing run and no value stated.
 

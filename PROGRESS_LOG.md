@@ -21833,3 +21833,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   nothing the check could see. The count is corrected and the reason is shown.
 - **Main's answers:** 42 of this seat's 48 findings are properly answered, one in part. Five are still open, as main
   had said. 0 of 19.
+
+## 2026-11-12 — the next periodic review begins
+
+- **What happened:** main asked this seat to read its latest work for Review 80. That is four new arcs in full, main's
+  changes to seven older ones, and its tools. One sign in the mathematics, found wrong in three of main's notes by
+  another session, is to be worked out again from scratch.
+- **Also:** main approved the parameter list proposed earlier, which comes next. Main also asked for a plan of the
+  computations that would settle the open choices in one part of the foundation. 0 of 19.
