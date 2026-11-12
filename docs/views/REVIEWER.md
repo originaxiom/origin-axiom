@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1600** |
-| words of findings prose | **1,417,249** |
+| words of findings prose | **1,417,709** |
 | test lock files referenced | **944** |
 | arcs carrying an authored verdict | **1600** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1898`** (2237 words, 0 locks)  
-REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits). The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.  
+**PROVED — `B1898`** (2697 words, 0 locks)  
+REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits) [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING. Its pattern was written for the verdict line as it read before main's mend of the same day, so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails. Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]. The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.  
 `B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
