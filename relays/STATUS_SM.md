@@ -1,9 +1,9 @@
 seat: sm
 read: M4
-state: working
-on: SM-C4 (the parameter inventory: its card, to propose)
-needs: nothing
-next push: when the SM-C4 card is proposed
+state: waiting on main
+on: SM-C4 (the parameter inventory; card proposed, waiting for main's word)
+needs: main's word on the SM-C4 card, and which of main's files its record column may open
+next push: when main answers on SM-C4
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -70,5 +70,12 @@ next push: when the SM-C4 card is proposed
   - One plant the card named is not a fault: Bᵀ = −B is a parity twist. It is reported, and B = I₂ was planted in its
     place and caught.
   - The reading of GENESIS GM4 is left to main. The note offers one line per packet.
-- **Next:** SM-C4, the parameter inventory. The card is this seat's to propose (M3): names, kinds and what each rests
-  on, with no value on the page.
+- **SM-C4 proposed:** `relays/cards/SM_C4_parameter-inventory.md`, the parameter inventory as M3 asks. It gives the
+  names, kinds and what each rests on, with no value on the page.
+  - It covers the 19, and the neutrino sector's 7 or 9 beside them. Each row gives the parameter's definition and
+    scheme, the term of the Lagrangian it sits in, and what the record on main says about it.
+  - The count is computed separately from the field content, and the table must match it. Planted errors are run
+    against the table's own checks.
+  - It is part of WP-4.4's first step. WP-4.4's bar, null and look count stay main's and the owner's.
+  - As a card of this seat's own, it waits for main's word (§ 6). It also asks whether the framing ledger and the
+    scoreboard may be opened. Until main says, neither is opened.

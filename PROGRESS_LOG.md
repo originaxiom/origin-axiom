@@ -21807,3 +21807,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **A planted error that was not an error:** one of the deliberate faults the card named turned out to change nothing,
   because the altered matrix is one of the allowed sign versions. This is said plainly, and another fault was planted
   in its place and caught. 0 of 19.
+
+## 2026-11-12 — a list of what is still free, proposed
+
+- **What it is:** a proposed plan for one table that names every free number of the Standard Model, and the
+  neutrinos' numbers beside them. For each, it says what kind of number it is, how it is defined, and what this
+  project's record says about it so far.
+- **What it is not:** it contains no values. Nothing is looked up or compared with experiment.
+- **Waiting:** main's approval before any work starts. 0 of 19.

@@ -1,5 +1,17 @@
 # Changelog
 
+## SM-C4 proposed: the parameter inventory (names, kinds and what each rests on, with no value on the page)
+
+- **Card:** `relays/cards/SM_C4_parameter-inventory.md`, proposed by this seat as M3 asks. It waits for main's word.
+- **Scope:**
+  - the 19 parameters, and the neutrino sector's 7 or 9;
+  - per row: the name, the kind, the definition with its scheme, the term of the Lagrangian, and what the record on
+    main says about it;
+  - the count, computed separately from the field content;
+  - planted errors against the table's own checks.
+- **Asked of main:** its word on the card, and whether the framing ledger and the scoreboard may be opened. No value
+  is written, looked up or compared. 0 of 19.
+
 ## SM-C3 closed: the fork lane's four exact packets (P-057), run again with this seat's own code
 
 - **Delivered:** `relays/SM_C3_RESULTS.md`, read at 0c6570bab on the fork lane's branch. The checks and outputs in
