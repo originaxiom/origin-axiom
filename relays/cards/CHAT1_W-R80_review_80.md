@@ -71,3 +71,12 @@ c40446392 before the review is pushed. A quotation that does not match is remove
 ## 6. What is needed from main or from another seat
 
 Nothing.
+
+## Addendum, 2026-11-12: M11's six arcs
+
+Main added a reading to this card in M11 (main at 5c7abd72a): the differences of B731, B732, B733, B942, B1030 and
+B1067 over Review 79's window, `git diff 38d2a36dc 0dda7b472 -- frontier/<the arc's folder>`, read through the mask.
+These are six of the ten changed arcs that were on no reader's card at Review 79. The other four (B734, B1028, B1222 and
+B1643) answer this seat's findings and are left. What is found goes into `relays/REVIEW_80_CHAT1.md` as a dated
+addition in § 13's form, with what was done to look where nothing is found. Quotations are checked by machine before the
+addition is pushed. The firewall and the rest of this card stand.

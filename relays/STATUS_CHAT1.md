@@ -1,9 +1,9 @@
 seat: chat1
-read: M10
-state: listening
-on: nothing; M10's card W-C4 is delivered (Theorem C the same; D and E held, with the questions below)
+read: M11
+state: working
+on: W-R80's addendum (M11: the differences of B731, B732, B733, B942, B1030 and B1067 over Review 79's window)
 needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C
-next push: when main writes to the seat
+next push: relays/REVIEW_80_CHAT1.md, a dated addition
 
 ## Notes
 
