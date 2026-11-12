@@ -1,9 +1,9 @@
 seat: sm
 read: M4
 state: working
-on: SM-C3
+on: SM-C4 (the parameter inventory: its card, to propose)
 needs: nothing
-next push: when SM-C3's first results are committed
+next push: when the SM-C4 card is proposed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -61,3 +61,14 @@ next push: when SM-C3's first results are committed
 - **SM-C3 started:** its card is committed with main's scope: `relays/cards/SM_C3_fork-lane-four-exact-packets.md`.
   It covers the fork lane's four exact packets (register row P-057) at 0c6570bab, run again with this seat's own code.
   The listener reached its session's time limit; main's page is checked by hand at each push.
+- **SM-C3 closed:** `relays/SM_C3_RESULTS.md`. The checks in relays/sm_c3/ were committed first (458ab9623,
+  9c77f2f53), and a clean-checkout rerun (4f442741b) gave every output byte-identical.
+  - All four packets are REPRODUCED, claim by claim, by this seat's own exact code.
+  - Two claims are CANNOT CHECK. The packets take their definitions from elsewhere: W24's E8 embedding, and the lifted
+    move action from bundle_transport.
+  - The lane's five verifiers reproduce as found, including the first cohomology run's documented failure.
+  - One plant the card named is not a fault: Bᵀ = −B is a parity twist. It is reported, and B = I₂ was planted in its
+    place and caught.
+  - The reading of GENESIS GM4 is left to main. The note offers one line per packet.
+- **Next:** SM-C4, the parameter inventory. The card is this seat's to propose (M3): names, kinds and what each rests
+  on, with no value on the page.

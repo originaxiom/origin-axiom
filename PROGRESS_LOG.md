@@ -21795,3 +21795,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** the work card was committed before anything was run. It says what result would count as a
   failure, and that this seat rebuilds each computation from the written definitions, not from the other seat's code.
   0 of 19.
+
+## 2026-11-12 — the four short computations hold
+
+- **What was found:** all four computations from the fork lane come out the same when rebuilt from their written
+  definitions with this seat's own code. Two of them settle how much of the free group a construction needs. The
+  positive words alone can be kept by a smaller group. The matter construction needs one more layer than that smaller
+  group has, and not the whole free group.
+- **What could not be checked:** two claims rest on definitions written down in other places. These are an embedding
+  into E8 and a move action from another packet. They are named, not guessed.
+- **A planted error that was not an error:** one of the deliberate faults the card named turned out to change nothing,
+  because the altered matrix is one of the allowed sign versions. This is said plainly, and another fault was planted
+  in its place and caught. 0 of 19.

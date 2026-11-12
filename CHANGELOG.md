@@ -1,5 +1,21 @@
 # Changelog
 
+## SM-C3 closed: the fork lane's four exact packets (P-057), run again with this seat's own code
+
+- **Delivered:** `relays/SM_C3_RESULTS.md`, read at 0c6570bab on the fork lane's branch. The checks and outputs in
+  relays/sm_c3/ were committed first, and a clean-checkout rerun gave every output byte-identical.
+- **Four REPRODUCED, claim by claim:**
+  - matter_line_compatibility: charges tied to (a, −a);
+  - puncture_symmetry: one sign excludes the intermediate subspaces;
+  - positive_carrier: positive-word fidelity does not force a faithful F₂;
+  - cohomology_carrier: the doublet H¹ is zero on F₂/F₂″ and survives on F₂/F₂‴.
+- **Two claims CANNOT CHECK,** for definitions the packets take from elsewhere: the E8 embedding, and the lifted move
+  action.
+- **The lane's five verifiers reproduce as found,** including the documented first failure.
+- **Planted errors:** five faults were planted and five caught. The card's named plant for cohomology_carrier is not a
+  fault, and this is reported.
+- **Left to main:** the GENESIS GM4 reading. 0 of 19.
+
 ## SM-C3 started: its card committed (the fork lane's four exact packets, P-057, run again with this seat's own code)
 
 - **Committed with main's scope:** `relays/cards/SM_C3_fork-lane-four-exact-packets.md`. It covers four packets at
