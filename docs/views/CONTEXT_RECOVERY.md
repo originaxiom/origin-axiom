@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 823 |
-| … QUEUED | 291 |
+| register points | 824 |
+| … QUEUED | 292 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 512 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 - S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
@@ -63,11 +64,10 @@
 - S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 - S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
-- S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT (B1897): 17 OF 23 PLANTED ERRORS CAUGHT, THE SIX THAT PASSED CLOSED.** Main's own eighteen plants against the lock it rebuilt at B1895 had all been caught. agy-002's 23 found six that pass: each leaves a mend in place and defeats what holds it. The lock now runs the script and holds its outputs to the committed files, byte for byte under the library versions that made the run and to eight digits under others, holds the mended conditions word for word, sees a table of constants, and reads where the withdrawn word stands: 24 of 24 of main's reconstructions caught, the control passing. Not closed, and said: a wit…
+LATEST (2026-11-12, S306p: REVIEW 80 OPENED (P-824): FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED.** 26 landings stand since Review 79's anchor; a review is due at 20 and the push is blocked at 40; it is not waived. The window is 0dda7b472 to c40446392: seven arcs added, nineteen changed after the second round, the governing pages, main's instruments and two enforcement series. Each added arc goes to two sessions that built none of it, of two families of model; each change to two sessions whose finding it does not answer. Main verifies the fourth enforcement series meanwhile and holds its landing. Owner calls open: P-081, P-082, P-253, P-787. 0 of 19.
 
 ## Completeness (nothing skipped silently)
 
