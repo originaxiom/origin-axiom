@@ -220,13 +220,15 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     assert adj_grid_counts == {12: 72, 24: 144, 60: 360} and len(twenty_seven_kernel) == 6
     x1_ok = (
         "CORRECTED 2026-11-12" in b1221_verdict["claim_one_line"]
-        and "72, 144, 360" in b1221_verdict["claim_one_line"]
+        and "72 is six times the twelve-point grid, 144 at 24 points and 360 at 60" in b1221_verdict["claim_one_line"]
         and "infinite" in b1221_verdict["claim_one_line"]
     )
+    b1221_findings_flat = " ".join(b1221_findings.split())
     x2_ok = (
         "agy-002" not in b1221_findings
-        and "recomputed on another family of model, harvest row 1709" in b1221_findings
-        and "recomputed on another family of model, harvest row 1709" in b1221_test
+        and "agy-002" not in b1221_test
+        and "recomputed on another family of model, harvest row 1709" in b1221_findings_flat
+        and "harvest row 1709" in " ".join(b1221_test.split())
     )
     assert x1_ok and x2_ok
 
@@ -283,18 +285,19 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
         assert abs(chi3_indep(float(kk)) - val) < 1e-9
     assert [round(chi3_indep(1.5, m)) for m in ((0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 1))] == [0, 1, 1, 1, 3]
 
+    b1641_findings_flat = " ".join(b1641_findings.split())
     x3_ok = (
-        "max(0, m_P + m_M + m_N) on every vector computed" in " ".join(b1641_findings.split())
-        and "negative on ten of the 64 vectors" in b1641_findings
+        "max(0, m_P + m_M + m_N) on every vector computed" in b1641_findings_flat
+        and "negative on ten of the 64 vectors" in b1641_findings_flat
         and "all(table[str(v)] == max(0, index(v)) for v in vecs)" in b1641_test
     )
     x4_ok = (
         "P-802" in b1641_verdict["claim_one_line"]
         and "three lines" in b1641_verdict["claim_one_line"]
-        and "three lines" in law_map
-        and "three lines" in thm_reg
+        and "three lines" in " ".join(law_map.split())
+        and "three lines" in " ".join(thm_reg.split())
     )
-    x5_ok = "agy-002" not in b1641_findings and "harvest row 1709" in b1641_findings and "harvest row 1709" in b1641_test
+    x5_ok = "agy-002" not in b1641_findings and "harvest row 1709" in b1641_findings_flat and "harvest row 1709" in " ".join(b1641_test.split())
     x6_ok = (
         "len({1, 3, 7})" not in b1641_test
         and "classical.get(" not in b1641_test
@@ -401,22 +404,24 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     b1888_verdict = json.loads(git_show(PINNED_MAIN, "frontier/B1888_the_public_form_scrutinised/arc_verdict.json"))
     b1888_json = json.loads(git_show(PINNED_MAIN, "frontier/B1888_the_public_form_scrutinised/verification/candidate_chain.json"))
     b1888_test = git_show(PINNED_MAIN, "frontier/B1888_the_public_form_scrutinised/verification/test_b1888_the_public_form_scrutinised.py")
+    b1888_findings_flat = " ".join(b1888_findings.split())
     x11_ok = (
         b1888_json["namers_in_tree"] == 51
-        and "In the whole tree 51 do" in b1888_findings
-        and "in the whole tree, 51" in b1888_findings
-        and "51 in the whole tree" in b1888_verdict["claim_one_line"]
+        and "In the whole tree 51 do" in b1888_findings_flat
+        and "in the whole tree, 51" in b1888_findings_flat
+        and "51 scripts of the whole tree" in b1888_verdict["claim_one_line"]
         and 'RES["namers_in_tree"]' in b1888_test
     )
     assert x11_ok
 
     # X12 & X13 (B1890)
     b1890_findings = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md")
+    b1890_findings_flat = " ".join(b1890_findings.split())
     b1890_verdict = json.loads(git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/arc_verdict.json"))
     b1890_other = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/other_checks_run.txt")
     b1890_test = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py")
     x12_ok = "14 passed" in b1890_other and "14 passed" in b1890_test and "Review 79" in b1890_verdict["claim_one_line"]
-    x13_ok = "run_unseen.py clock" in b1890_findings and "unseen_cases_run.json" in b1890_findings and "put together by hand" in b1890_findings
+    x13_ok = "run_unseen.py clock" in b1890_findings and "unseen_cases_run.json" in b1890_findings and "put together by hand" in b1890_findings_flat
     assert x12_ok and x13_ok
 
     # X14 (B874)
