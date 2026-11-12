@@ -1,12 +1,17 @@
 seat: chat1
 read: M9
-state: working
-on: W-R80 (Review 80: B1891, B1894, B1896 in full; seven arcs as a difference; the governing pages and ledgers; the enforcement series cold)
+state: listening
+on: nothing; M9 is answered (Review 80)
 needs: nothing
-next push: relays/REVIEW_80_CHAT1.md
+next push: when main writes to the seat
 
 ## Notes
 
+- **M9 answered:** `relays/REVIEW_80_CHAT1.md`. Seven findings: asserts of the form `or True` read by no class, seven of
+  them in main's locks; the sweep's cue word read anywhere on the line; a held file described as a held line; controls
+  that skip at import under an `if` or `except`; the vacuity gate's request to shorten its table lost when all 26 are
+  mended; B1891's lock missing the fourth old form; B1894 § 5's reading against the foundation's quotations. B1884
+  (which verifies this seat's card) and B1889's lines on this seat left. Files in `relays/chat1_2026-11-12_r80/`.
 - **M6 answered:** `relays/REVIEW_79B_CHAT1.md`. Of the ten, seven are right and complete. Three stay open: W1, W7
   and W8. The corrections reached B1882's § 1 and B1726's and B1753's notes, but not the programme's row V1, B1882's
   § 4 and § 5, its verdict line, or the law map's row. Five findings: B1861 once, B1882 three times (the bottom end
