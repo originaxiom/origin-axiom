@@ -19934,3 +19934,17 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
 
 0 of 19.
+
+## 2026-11-12 — The review's entry goes in, with the faults that two checks of it found (S306p)
+
+**What happened.** The review's entry was built by one session, checked by main, read cold by a third session of a different kind, and then published. This is the first time that chain ran from end to end.
+
+**What the checks found.** Main's check found two faults, and both came from main's own scripts. One test read a branch that moves instead of a fixed commit, so it failed as soon as the branch moved. One of main's planted errors changed nothing, so its result proved nothing; made properly, it is caught. The cold reading found five faults, one of them the first of main's. The most serious: the test that guards the review's numbers looked for digits, not sentences, so the numbers could be rewritten and the test still passed. It now holds the sentences, and six planted rewrites are caught.
+
+**What is said plainly.** After the count of a hundred was fixed, more findings came in: two from the web session, and from the cold-reading session a check of main's own repairs (ten of thirty-six still open in part) and thirteen findings on older pages. Two of those thirteen are mathematics and main computed both: a sentence main wrote today about lines kept modulo N is false, and a note gives a group's size in the wrong quotient. All of it goes to the building session. One of main's own tests has been failing for days without anyone running it.
+
+**Five old items.** Five tasks have now been carried through three reviews. The rule says such a task is done, declined, or waived by the owner. Main chose not to ask for a waiver and not to decline any. It starts nothing else until they are done. One of them moved furthest today: a computation that had stopped twice with no explanation stops because a search was too narrow, and both earlier explanations on record were wrong.
+
+**Which piece of the plan moved.** None is finished. Work began on the weak currents (the paired pole), on the two sealed packets, and on the tube.
+
+0 of 19.

@@ -10,13 +10,21 @@ entry is in `docs/progress/REVIEWS.md`; this arc holds its evidence. 0 of 19.*
 
 - **100 findings,** in four readers' files and one dated addition. Every quotation was found by machine at the commit
   read.
+  [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: every quotation BUT THE ADDITION'S TWO. § 4 and the verdict line say so; this bullet did not.]
 - **80 of them main checked in full, and every one held.** Main checked 3 in part. **17 nobody but their reader has
   looked at.** The table says which.
 - **Main's mends for the first 43 are on main.** 16 of the 43 are in the enforcement package's files and went to its
   builder whole.
+  [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: FIVE THINGS OF THE FIRST 43 ARE OWED AND NOT BUILT, as § 5 and the entry say: the tripwire of B1862, nine asserts in
+  scripts that end in a constant, 68 tests that read nothing outside themselves, eighteen rows in the enforcement
+  package's own files, and the foundation's seven passages. This bullet left them out.]
 - **41 of the 57 wait to be built.** The other 16 are mended or noted on main. What waits is the series after this
   arc, R80b.
 - **One plant of main's own passes** the lock it was written against. § 6 says which.
+  [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING.
+  Its pattern was written for the verdict line as it read before main's mend of the same day,
+  so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails.
+  Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]
 - **Not done:** no reader was tested against planted faults. The findings that wait are not mended by this arc.
 
 "Checked" is main's word for these tables, and it defines it there: main made the finding again itself, by a recount
@@ -127,6 +135,26 @@ that git ignores; they were run from there.
 **One plant of main's own passes.** In `plants_agy002.py`, for B1885: the note on the grid's 18 digits taken out of
 the verdict line. The lock passes, in main's kept output and here. The first table's row A14 says that the lock holds
 the verdict, the note and the determinant. Which of the two is to change is main's.
+
+**Main's answer, at the landing (2026-11-12).** Neither the lock nor row A14: the plant. A reading on another family
+of model, checking main's answers to its 36 findings, found that the plant changes nothing, and main made it again
+(`verification/main_at_the_landing/the_plant_on_b1885_made_properly.py`, with its output):
+
+| the plant | characters taken out of the verdict line | the lock |
+|---|---|---|
+| nothing planted | 0 | passes, 8 tests |
+| main's pattern as it was written | 0 | passes, 8 tests |
+| the note in fact taken out | 178 | **fails**, 1 of 8 |
+
+- **Why it changed nothing.** The pattern looks for "the two checks made on it". Main's mend of the same day had
+  changed the line to "the three checks made on it, A4, A5 and H5". The script does not ask that a plant change
+  its file, so the run was written down as a plant that passes.
+- **What stands.** Row A14: the lock holds the note. The sentence above, "one plant of main's own passes", is true
+  of main's kept output and of nothing else.
+- **What is owed.** In `plants_agy002.py` and in every script of main's that plants: a plant that changes nothing
+  stops the run. It goes to the series R80b. The other plants of that script were not checked for the same fault
+  here: 14 of them fail the lock, which a plant that changes nothing cannot do; the one that "could not be made"
+  says so.
 
 **What differs, and goes back to main with its output:**
 

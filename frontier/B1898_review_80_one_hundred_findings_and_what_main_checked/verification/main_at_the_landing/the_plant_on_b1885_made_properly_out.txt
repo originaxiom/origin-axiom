@@ -1,0 +1,3 @@
+nothing planted                    characters taken out:   0   the lock: passes (8 passed)
+main's pattern as it was written   characters taken out:   0   the lock: passes (8 passed)
+the note in fact taken out         characters taken out: 178   the lock: FAILS  (1 failed, 7 passed)

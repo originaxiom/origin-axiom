@@ -93,6 +93,43 @@ def test_the_page_the_verdict_line_and_the_entry_say_the_recounts_numbers():
     assert G["the theorem registry: lines of its tables less the rules, at the two ends"] == [229, 229]
 
 
+# ADDED 2026-11-12 at the landing, by main.  A cold reading of this series on another family of model planted four
+# rewrites and all four passed the test above: it asked for "80", "17" and "41" as digits, and "80" is in "REVIEW 80".
+# The verdict line, the entry and the register's row are held here by their SENTENCES, the marks on Review 79's items and
+# the items of this review by count, and the seventeen rows nobody but their reader looked at by name.
+LINE_SAYS = ["REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14).", 'MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader.', 'The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT.', 'The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.']
+ENTRY_SAYS = ["**100 findings** on main's work since Review 79, in four readers' files and one dated addition.", '**Main checked 80 of them in full, and all 80 held.** It checked 3 more in part. **17 have been looked at by nobody but their reader.**', "16 of the 43 are in the enforcement package's files and went whole to its builder. Of the other 57, 16 are mended or noted on main.", '**41 of the 57 wait to be built,** with five things owed from the first 43.', "Review 79's eighteen items: none resolved, eighteen carried", "And 17 findings stand on their reader's word alone: eleven of the SM seat's, four of agy-exp's, and the web seat's two of its addition."]
+REGISTER_SAYS = ['100 findings; main checked 80 in full and all 80 held, and 3 in part; 17 have been looked at by nobody but their reader.']
+
+
+def test_the_numbers_are_held_as_sentences_and_not_as_digits():
+    line = " ".join(V["claim_one_line"].split())
+    for s in LINE_SAYS:
+        assert s in line, "the verdict line does not say: " + s
+    reviews = (ROOT / "docs" / "progress" / "REVIEWS.md").read_text(encoding="utf-8")
+    entry = " ".join(reviews[reviews.index("\n# Review 80 "):].split())
+    for s in ENTRY_SAYS:
+        assert s in entry, "Review 80's entry does not say: " + s
+    items = re.findall(r"^- \[.\] R80-(\d+):", reviews, re.M)
+    assert items == [str(n) for n in range(1, 23)], "Review 80's action items are not R80-1 to R80-22, once each and in order"
+    before = reviews[:reviews.index("\n# Review 80 ")]
+    carried = re.findall(r"^- \[>\] R79-(\d+):", before, re.M)
+    assert sorted(carried, key=int) == [str(n) for n in range(1, 19)], "Review 79's eighteen items are not all marked as carried"
+    row = [l for l in (ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8").split("\n") if l.startswith("| P-834 |")]
+    assert len(row) == 1 and all(s in row[0] for s in REGISTER_SAYS), "register row P-834 does not say what the entry says"
+    # the page's own counts, against the recount and not against digits found anywhere
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    sec = lambda n: " ".join(page[page.index("\n## %d. " % n):page.index("\n## %d. " % (n + 1))].split())
+    assert T["findings in all"] == 100 == T["checked by main in full, both tables"] + 20
+    assert "**80 of them main checked in full, and every one held.** Main checked 3 in part. **17 nobody but their reader has looked at.**" in sec(1)
+    alone = T["the second table: main's check is 'not checked'"]
+    assert len(alone) == 17 and T["the second table: 'not checked' for a part of the row"] == ["F6", "F7", "F10"]
+    named = "17 (the SM seat's 22, 25, 26, 30, 32, 33 and 37 to 41; agy-exp's F9, F11, F13 and F14; the web seat's W8 and W9)"
+    assert alone == ["22", "25", "26", "30", "32", "33", "37", "38", "39", "40", "41", "F9", "F11", "F13", "F14", "W8", "W9"], "the recount's seventeen are not the ones the page names"
+    assert named in sec(5), "section 5 does not name the seventeen rows that only their reader looked at"
+    assert "26 commits" in sec(3) and G["commits in the window"] == 26
+
+
 def test_the_outputs_main_kept_say_what_the_tables_say():
     again = _recount().the_kept_outputs()
     assert again == K
@@ -114,6 +151,15 @@ def test_the_outputs_main_kept_say_what_the_tables_say():
     # one plant of main's own still passes the lock it was written against, and the page says so: it is not written as held
     assert K["main's plants for agy-002's rows that the lock passes, a plant being made"] == [["B1885", "the note on the grid's 18 digits taken out of the verdict line"]]
     assert "One plant of main's own passes" in F
+    # CORRECTED 2026-11-12 at the landing, by main: that plant changed nothing.  The page, the verdict line and the entry
+    # say so, and main's own run of the plant made properly is held: 178 characters taken out, and the lock fails
+    made = json.loads((HERE / "main_at_the_landing" / "the_plant_on_b1885_made_properly.json").read_text(encoding="utf-8"))
+    assert [(m["plant"], m["characters taken out"], m["the lock"]) for m in made] == [
+        ("nothing planted", 0, "passes"), ("main's pattern as it was written", 0, "passes"), ("the note in fact taken out", 178, "FAILS")]
+    assert "THAT PLANT CHANGED NOTHING" in F and "THAT PLANT CHANGED NOTHING" in " ".join(V["claim_one_line"].split())
+    assert "| the note in fact taken out | 178 | **fails**, 1 of 8 |" in (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    reviews = " ".join((ROOT / "docs" / "progress" / "REVIEWS.md").read_text(encoding="utf-8").split())
+    assert reviews.count("THAT PLANT CHANGED NOTHING") == 1 and "[ANSWERED 2026-11-12 at the landing: the plant changed nothing" in reviews
 
 
 def test_the_planted_suites_output_says_what_the_page_and_the_entry_say():
@@ -134,15 +180,30 @@ def test_the_planted_suites_output_says_what_the_page_and_the_entry_say():
     assert "Main's gates catch 24 of 37 planted faults" in entry and "24 of 37, by the enforcement package's suite" in entry
 
 
+# ADDED 2026-11-12 at the landing, by main.  One of main's checks names a session's BRANCH where it should name the commit
+# main read, and the branch has moved since: its file has 49 rows now and had 36.  The lock as it was sent ran the script
+# as written and so compared 49 with the 36 main kept; it passed where the branch had not moved and failed on main.  The
+# script is held as main wrote it (by hash); it is RUN with the one name replaced by the commit, and the lock says so.
+READ_AT = {"quote_check_agy002": ('"origin/agy-002/verify"', '"4ae026d99"')}
+
+
 def _run_a_check(name, tmp_path):
-    """one of main's checks, run as main wrote it: from a folder that is not the repository, with git told where the
-    repository is, so that what the script writes beside itself or under audit/ lands in the temporary folder"""
+    """one of main's checks, run as main wrote it but for the name in READ_AT: from a folder that is not the repository,
+    with git told where the repository is, so that what the script writes beside itself or under audit/ lands in the
+    temporary folder"""
     work = tmp_path / name
     (work / "audit" / "review80").mkdir(parents=True)
+    script = HERE / "checks" / (name + ".py")
+    if name in READ_AT:
+        branch, commit = READ_AT[name]
+        text = script.read_text(encoding="utf-8")
+        assert text.count(branch) == 1, name + ": the branch's name is not in the script exactly once"
+        script = work / (name + ".py")
+        script.write_text(text.replace(branch, commit), encoding="utf-8")
     env = {k: v for k, v in __import__("os").environ.items() if not k.startswith("GIT_")}
     git_dir = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--absolute-git-dir"], capture_output=True, text=True).stdout.strip()
     env["GIT_DIR"] = git_dir
-    r = subprocess.run([sys.executable, "-B", str(HERE / "checks" / (name + ".py"))], cwd=str(work), capture_output=True, text=True, env=env, timeout=600)
+    r = subprocess.run([sys.executable, "-B", str(script)], cwd=str(work), capture_output=True, text=True, env=env, timeout=600)
     return r, work
 
 
@@ -154,7 +215,7 @@ def test_three_of_the_four_checks_of_quotations_run_again_give_what_main_kept(tm
     web = json.loads(r.stdout)
     assert (web["found"], web["of"], web["the control, one word changed, is found"]) == (7, 7, False)
     ran = ["the web seat"]
-    for name, source in (("quote_check_agy002", "origin/agy-002/verify"), ("quote_check_agyexp", "42ac86532")):
+    for name, source in (("quote_check_agy002", "4ae026d99"), ("quote_check_agyexp", "42ac86532")):
         if not _have(source):
             continue                                                  # that session's commit is not in this clone
         r, work = _run_a_check(name, tmp_path)

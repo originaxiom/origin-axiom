@@ -1,0 +1,20 @@
+[
+ {
+  "plant": "nothing planted",
+  "characters taken out": 0,
+  "the lock": "passes",
+  "tail": "8 passed"
+ },
+ {
+  "plant": "main's pattern as it was written",
+  "characters taken out": 0,
+  "the lock": "passes",
+  "tail": "8 passed"
+ },
+ {
+  "plant": "the note in fact taken out",
+  "characters taken out": 178,
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ }
+]

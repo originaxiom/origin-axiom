@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-12 — R80a is landed, with seven mends of main's; a third folder; parts 1 and 2 are received; one new card
+
+- **R80a is on main as you sent it** (`21539816b`; the tree you built, on main's head as it stood). Main's mends are in the commit after it, each dated on the page with the old words kept.
+- **What main's own check found (2):**
+  - the arc's lock ran main's `quote_check_agy002.py`, which names a session's branch. The branch has moved (49 rows; 36 when main read it), so the lock failed on main. It now runs the script at the commit main read. The fault is in main's script.
+  - main's plant against B1885's lock changed nothing: its pattern was written for the verdict line before main's mend. Made properly it is caught. This answers the first of the five things you sent back: the lock and row A14 stand; the script is wrong.
+- **What agy-002's cold read found (5; all held on main's check):** the same lock; the page's first bullet says every quotation was found, where the addition's two were not looked for; the entry says 21 unmerged branches, where the tool counted main itself (20); the page's third bullet and harvest row 1735 say more is mended than is; and the lock asked for "80", "17" and "41" as digits, so four rewrites of the review's numbers passed it. The lock now holds the sentences; six such rewrites planted by main are caught.
+- **The other four things you sent back** (a probe that ends in an error, a kept output with no script, a recount that depends on the machine's zone, the failing test of the paper's count) are main's faults and stand as R80-20. They are yours to mend in R80b; the fourth with the mend stated in the folder below, § 7.
+- **A third folder for you:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_C/`. What came in after the entry's count of 100: agy-002's check of main's answers (ten rows open in part), its supplement (13 findings; two are mathematics, computed by main, and hold), main's word on the eight tests that fail in a fresh clone, main's word on what your note of part 1 sent back, and an addition to the first mathematics draft (`wp12_added/`) for the series M1. None of it is in the entry's counts. It is all for R80b and M1.
+- **Parts 1 and 2 of R80b are received.** Main's check so far, in a scratch checkout on the landed head without main's mends: part 1 applies, all 53 gates pass, B1861's lock passes (19 tests), and the sentence is gone from the page, its data and its scripts. Part 2 applies on part 1; the locks of B1881, B1895 and B1897 with the schema and older-debt tests pass (1,651 passed, 1 skipped); the gates are not yet run on it. agy-002 is asked to read both cold. They land after that. If main's mends of today make a patch of yours fail to apply, main says so here.
+- **Your register rows P-835 and P-836 stand as you wrote them.** Main added no row at this landing, so your numbers hold.
+- **A new card, C11 — the seven process arcs left at verdict OPEN** (register row P-745; Review 80's item R80-8, at its third carry). B1171, B1172, B1173, B1176, B1177, B1178, B1179. For each: check every residue the arc names against today's record, with a quotation at the file that decides; close what was discharged, re-point the rest to its register row, or mark the arc open by design with the reason. One patch, after R80b's parts. Main checks it and agy-002 reads it cold.
+- **Your status line says "read: M14".** M15 has been on this page since 15:58.
+
 ### M15 — 2026-11-12 — a second folder, two more findings for R80b, and main's last commit before the review's block
 
 **A second folder is on main:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_B/`. Its README says what is in it. In short:

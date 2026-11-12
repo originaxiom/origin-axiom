@@ -8949,7 +8949,7 @@ every row they name is QUEUED.
 
 ## 1b. The branches
 
-21 branches not merged, every one registered as a lane (the review's tool, on the commit read). By the ledger's pin
+21 branches not merged, every one registered as a lane (the review's tool, on the commit read). [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: 20. The tool was run on the commit read while main stood 12 commits ahead of it, and its 21 leaves count main itself (the tool's kept output, the line "main +12").] By the ledger's pin
 rows at the two ends of the window, six lanes moved: the web seat's, the SM seat's, the advisor seat's, agy-002's,
 agy-exp's and the physical lane's. None was newly registered.
 
@@ -8971,6 +8971,10 @@ agy-exp's and the physical lane's. None was newly registered.
   P-814).
 - **Made again for this entry:** every check main kept. Most give the same bytes; what differs is in the arc's § 6.
   One plant of main's own passes the lock it was written against.
+  [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING.
+  Its pattern was written for the verdict line as it read before main's mend of the same day,
+  so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails.
+  Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]
 
 fresh-clone: PASS @ c40446392 (gates all PASS; belt ok) (the commit the readers read, run by the session that put this entry together, in a clone that holds every session's branch and no second remote. The tool clones a commit, so it cannot be run on the commit that carries this entry before that commit exists: that run is main's, at the landing, as at Reviews 78 and 79)
 fresh-clone suite: NOT RUN by the review's tool on the commit that carries this entry: that commit does not exist until main lands the patch. What was run on the patch is in the builder's note with it; the run on the landed head is main's (R80-22)
@@ -9053,7 +9057,7 @@ window; 41 findings of this one wait to be mended.
 - [ ] R80-17: P-811 — the error ledger: two candidate classes entered or declined with a reason, a reader of rows that drops what it cannot parse (B1889) and a label stronger than its evidence; and the locks of the window's arcs tested against planted errors, as the five corrections' were (carried from R79-17; owner: cc; source: B1892 § 6)
 - [ ] R80-18: P-813 — what Review 79 left unmended: a lock that reads manifold facts from a committed file (B1887); the status page's milestone rows, which overlap; the other quotations of the owner in the foundation, not counted (carried from R79-18; owner: cc; source: B1892's table)
 - [ ] R80-19: P-833 — the mends of Review 80 that are not made: the 41 findings that the table of the 57 gives as to build, 17 of which nobody but their reader has looked at and 3 of which main checked in part; and the five things owed from the first 43: the tripwire of B1862, nine asserts in scripts that end in a constant, 68 tests that read nothing outside themselves, eighteen rows in the enforcement package's own files, and the foundation's seven passages in plain words. Built as a patch series, read cold by a session that did not build it, and landed by main after its own check (owner: the builder, then cc; source: B1898, its two tables)
-- [ ] R80-20: what was sent back to main with this entry: one plant of main's own that passes B1885's lock, where the answer to agy-002's finding 14 says the lock holds the note; a check that ends in an error, and a kept output whose script is not in the folder (the builder's rows); a recount whose output changes with the machine's zone and with what main's own repository holds (owner: cc; source: B1898 § 6)
+- [ ] R80-20: what was sent back to main with this entry: one plant of main's own that passes B1885's lock, where the answer to agy-002's finding 14 says the lock holds the note [ANSWERED 2026-11-12 at the landing: the plant changed nothing, and made properly it is caught; the answer stands; the script is to stop on a plant that changes nothing, in R80b]; a check that ends in an error, and a kept output whose script is not in the folder (the builder's rows); a recount whose output changes with the machine's zone and with what main's own repository holds (owner: cc; source: B1898 § 6)
 - [ ] R80-21: the five items at their third carry, R80-5 to R80-9: each resolved, declined with its reason, or waived by the owner, as the rule of 2026-10-03 asks; and the gate on a carried item's age made to read a carried item in the form this block and Review 79's write one (owner: cc and the owner; source: this entry, § 1)
 - [ ] R80-22: P-824 — the full suite on a fresh clone of the head that carries this entry, run by the review's tool, and its result entered; the gates and the belt on a fresh clone of that head (owner: cc; source: this entry's core lines)
 

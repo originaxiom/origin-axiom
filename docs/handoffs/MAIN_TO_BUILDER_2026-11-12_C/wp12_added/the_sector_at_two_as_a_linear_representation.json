@@ -1,0 +1,61 @@
+{
+ "signs of the image, by move and representation": {
+  "a -> ab | (1, 1)": "(-1, 1)",
+  "a -> ab | (1, -1)": "(1, -1)",
+  "a -> ab | (-1, 1)": "(1, 1)",
+  "a -> ab | (-1, -1)": "(-1, -1)",
+  "a -> ba | (1, 1)": "(-1, 1)",
+  "a -> ba | (1, -1)": "(1, -1)",
+  "a -> ba | (-1, 1)": "(1, 1)",
+  "a -> ba | (-1, -1)": "(-1, -1)",
+  "b -> ba | (1, 1)": "(1, -1)",
+  "b -> ba | (1, -1)": "(1, 1)",
+  "b -> ba | (-1, 1)": "(-1, 1)",
+  "b -> ba | (-1, -1)": "(-1, -1)",
+  "b -> ab | (1, 1)": "(1, -1)",
+  "b -> ab | (1, -1)": "(1, 1)",
+  "b -> ab | (-1, 1)": "(-1, 1)",
+  "b -> ab | (-1, -1)": "(-1, -1)",
+  "the swap | (1, 1)": "(1, 1)",
+  "the swap | (1, -1)": "(-1, 1)",
+  "the swap | (-1, 1)": "(1, -1)",
+  "the swap | (-1, -1)": "(-1, -1)",
+  "the tick | (1, 1)": "(-1, 1)",
+  "the tick | (1, -1)": "(1, 1)",
+  "the tick | (-1, 1)": "(1, -1)",
+  "the tick | (-1, -1)": "(-1, -1)"
+ },
+ "checks": [
+  {
+   "check": "the four representations: a^2 and b^2 are the two signs, [a, b] = -1, and (ab)^2 = -a^2 b^2",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the scalar of [a, b] is kept by all six moves on all four (at p = 2 the scalar -1 is its own inverse)",
+   "holds": true,
+   "detail": "asserted in the loop, 24 cases"
+  },
+  {
+   "check": "the representation with a^2 = b^2 = -1 (the quaternion point of statement C) is carried to itself by all six moves, with an explicit invertible intertwiner each time",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the other three, clock-and-shift among them, are one orbit of the moves: each has exactly one of a^2, b^2, (ab)^2 equal to -1",
+   "holds": true,
+   "detail": "[(-1, 1), (1, -1), (1, 1)]"
+  },
+  {
+   "check": "clock-and-shift (a^2 = b^2 = 1) is NOT carried to itself by the tick, nor by a -> ab; it is by the swap",
+   "holds": true,
+   "detail": "{'a -> ab': '(-1, 1)', 'a -> ba': '(-1, 1)', 'b -> ba': '(1, -1)', 'b -> ab': '(1, -1)', 'the swap': '(1, 1)', 'the tick': '(-1, 1)'}"
+  },
+  {
+   "check": "planted: no invertible matrix carries clock-and-shift to its image under the tick",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}
