@@ -428,7 +428,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     b1890_other = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/other_checks_run.txt")
     b1890_test = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py")
     x12_ok = "14 passed" in b1890_other and "14 passed" in b1890_test and "Review 79" in b1890_verdict["claim_one_line"]
-    x13_ok = "run_unseen.py clock" in b1890_findings and "unseen_cases_run.json" in b1890_findings and "put together by hand" in b1890_findings_flat
+    x13_ok = "run_unseen.py clock" in b1890_findings and "unseen_cases_run.json" in b1890_findings and "put together into this one by hand" in b1890_findings_flat
     assert x12_ok and x13_ok
 
     # X14 (B874)
