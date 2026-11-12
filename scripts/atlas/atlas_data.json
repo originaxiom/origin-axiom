@@ -16584,6 +16584,15 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1897": {
+   "slug": "b1881s lock tested by a session that did not write it",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B189": {
    "slug": "omega causal dimension",
    "motifs": [

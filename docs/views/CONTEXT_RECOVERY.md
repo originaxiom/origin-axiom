@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1598 |
-| … PROVED | 1106 |
+| arcs with a verdict file | 1599 |
+| … PROVED | 1107 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 821 |
-| … QUEUED | 290 |
+| register points | 823 |
+| … QUEUED | 291 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 511 |
+| … DONE | 512 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1734 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
 | B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
 | B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (agy-002's reading of main at 87bfa1f05, 4 of 4 quotations found by machine; data-free, inte… |
 | B1894 | PROVED | REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete… |
@@ -42,7 +43,6 @@
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
-| B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits, and 18 for the grid and the two checks made on it [added 2026-11-12, Review 79… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 - S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
 - S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
@@ -63,11 +64,10 @@
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 - S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
 - S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807) (2026-11-11)
-- S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4; P-802, P-803,…
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: THE THIRD ENFORCEMENT SERIES VERIFIED AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154).** Six patches of the advisor seat's under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what stood. 17 of main's 22 unseen cases are caught, each by the gate that looks for the fault, and the gap of the first series is closed. Five pass, and three of five more that main wrote after reading the patches: a retracted phrase over two lines, four kinds of test that cannot fail, a pair and a twice-bound name, a lock that is a folder. None is opened by the series; all go to the seat.…
+LATEST (2026-11-12, S306p: B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT (B1897): 17 OF 23 PLANTED ERRORS CAUGHT, THE SIX THAT PASSED CLOSED.** Main's own eighteen plants against the lock it rebuilt at B1895 had all been caught. agy-002's 23 found six that pass: each leaves a mend in place and defeats what holds it. The lock now runs the script and holds its outputs to the committed files, byte for byte under the library versions that made the run and to eight digits under others, holds the mended conditions word for word, sees a table of constants, and reads where the withdrawn word stands: 24 of 24 of main's reconstructions caught, the control passing. Not closed, and said: a wit…
 
 ## Completeness (nothing skipped silently)
 

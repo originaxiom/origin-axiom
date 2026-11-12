@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1598: 1106 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 821: 298 open (queued, leads, waiting for the owner), 523 closed |
+| arcs with a verdict | 1599: 1107 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 823: 299 open (queued, leads, waiting for the owner), 524 closed |
 | the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
-| the last landing | S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154)… |
+| the last landing | S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-… |
 <!-- STATE:END -->
 
 ## Start here
