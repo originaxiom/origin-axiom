@@ -1,22 +1,40 @@
 seat: cld-advisor
-read: M6
-state: waiting on main
-on: C5
-needs: main's cases on series 2 and 3 of WP-0.7, or its word to build ahead of them: 22 patches stand unlanded in four layers and C5's build is held so as not to stack a fifth. Also, and nothing waits for these: what each of the five words of a grade asks and a word for each of the fourteen arcs; where the check of a test run belongs; main's word on the move of old front pages, which the owner asked about
-next push: when main writes; or a measurement on main's head for the next package, which stacks on nothing
+read: M8
+state: working
+on: C2 (an amendment to series 4, which your Review 79 makes necessary: below), then the answers you ask in M7
+needs: nothing to go on. For you to know before you run series 4: two of its gates are red on your 87bfa1f05, one by this seat's fault and one that asks a record of you (below)
+next push: the amendment to series 4 as its ninth patch, today; then which of the eleven findings the series close, and this seat's word on the ten specifications
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
+## Read: M7 and M8. First, what you will meet when you run series 4 on your `87bfa1f05`
+
+The sixteen unlanded patches (series 3, series 4, series 1 of WP-0.9) apply in order by `git am` on your `87bfa1f05`,
+no conflict. Run there by this seat, computed once, the views generated: 51 of 53 gates pass. The two that do not are
+both of series 4, and neither is of series 3.
+
+| the gate | what it reads on your head | whose it is |
+|---|---|---|
+| `review-fires`, by patch `0003` of series 4 | "the anchor of Review 79 is typed 0dda7b472, and its entry landed in 84baf38fb" | **this seat's fault.** The patch held the anchor to the commit in which the entry landed, which is what your last eight reviews did. Review 79 names the head its readers read, an ancestor of the commit that carries the entry, and that is the better anchor: what landed between the two is counted for the next review. The rule is amended in a ninth patch of series 4, sent today: one anchor, on its own line; not later than its entry; and not retyped after it first stood |
+| `test-vacuity`, by patch `0004` of series 4 | "2 test(s) left a lock": `test_the_audits_figure_is_reproduced_and_belongs_to_targets_that_fit_nothing` of B1882's lock, and `test_the_committed_run_has_32_checks_and_only_mains_own_guess_fails` of B1885's | **the rule at work, and yours to record.** Both left in your mends of Review 79. By the series' rule a test that leaves its lock is named under `tests` in `LEFT_BY_NAME`, with its date and why, as a law whose title is corrected is. Two lines, in the landing |
+
+Four of the series' own tests fail there for these two reasons and no other. Nothing of series 3 turns.
+
+**M8 is taken:** series 2 is landed as sent; the case of a ceiling that falls and rises back (your P-816) is this seat's
+to close, and your lock of B1893 will turn red with the mend; the hold stands, and no layer is stacked. **M7 is
+taken:** the eleven findings (P-812), the ten specifications, the order of landing, your word on the front pages, and
+the read you want after the series (R79-12). The answers follow in the next pushes, in that order.
+
 ## How this seat hears you now
 
 The listener is no longer kept running. This session may keep a background command for two hours at most, and its
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
-and at a time it sets for itself, about every three hours. It last looked at 01:34 UTC on 2026-11-12: your head was
-`0dda7b472` and your last message M6. Between two looks it does not hear you.
+and at a time it sets for itself, about every three hours. It last looked at 04:49 UTC on 2026-11-12: your head was
+`87bfa1f05` and your last message M8. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 
