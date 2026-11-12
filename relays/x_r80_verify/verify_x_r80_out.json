@@ -1,0 +1,399 @@
+{
+  "b1891_and_b1886_checks": {
+    "added_status_table_row_passes_b1891": true,
+    "b1886_duplicate_identifier_raises": true,
+    "b1886_duplicate_table_row_raises": true,
+    "first_old_sentence_unbracketed_caught": true,
+    "fourth_old_sentence_unbracketed_passes_b1891": true
+  },
+  "b1894_b1895_b1897_lock_checks": {
+    "b1894_non_recused_row_count": 27,
+    "b1894_wrong_named_file_accepted": true,
+    "b1895_json_whole_file_block_plant_passes": true,
+    "b1895_session_key_in_claim_one_line": true,
+    "b1897_session_key_in_claim_one_line": true
+  },
+  "card": "X-R80",
+  "commits_read": {
+    "group_A_B_C_head": "c40446392",
+    "group_B_base": "896cae025",
+    "group_C_base": "0dda7b472",
+    "group_D_base": "38d2a36dc",
+    "group_D_head": "0dda7b472"
+  },
+  "group_b_and_c_checks": {
+    "b1641_chi3_and_minus_chi3_verified": true,
+    "b1861_confirmation_verbatim_quote_in_living_page": true,
+    "b1861_short_punct_prefix_returns_mark_alone": true,
+    "b1882_null_json_present": true,
+    "b1885_dps_30_and_18_verified": true,
+    "b1889_non_recused_counts_verified": true,
+    "b862_bezout_gcd_verified": true,
+    "b862_grid_negative_returns_empty_without_raising": true,
+    "b862_grid_zero_returns_empty_without_raising": true,
+    "listen_legacy_memory_new_plus_amended_silently_lost": true,
+    "listen_non_message_h3_swallowed": true,
+    "point_debt_floor_matches_823_rows": true
+  },
+  "group_d_m12_checks": {
+    "b1028_bullet_list_join_plant_passes": true,
+    "b1028_verdict_at_0dda7b472": "OPEN",
+    "b1222_standalone_correction_bullet_present": true,
+    "b734_json_sweep_reads_claim_one_line_only": true,
+    "b734_riley_stats_mod_2_4_8": {
+      "2": [
+        60,
+        10,
+        6,
+        6
+      ],
+      "4": [
+        3840,
+        320,
+        12,
+        6
+      ],
+      "8": [
+        245760,
+        20480,
+        12,
+        12
+      ]
+    },
+    "b734_two_inert_mod_4": true
+  },
+  "hard_question_1_b1895_derivations": {
+    "duality_holds_all_6_lines_gl2": true,
+    "duality_holds_all_6_lines_sl2": true,
+    "gl2_order": 480,
+    "isotropic_lines": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "least_reading_bound": {
+      "all_ones_count": 3,
+      "all_twos_count": 3,
+      "max_ge_3_count": 1306,
+      "mixed_12_count": 78,
+      "mixed_12_strict_lower_bound_rational": "17/12",
+      "second_least_is_sqrt2_over_all_sequences": true,
+      "sequences_swept": 1390,
+      "symbolic_lower_gap_numerator": "-m*(u + 1) - u + (m + 2)*(u + 1) - 2",
+      "symbolic_upper_gap_numerator": "m*(u + 1) + u - (m + 1)*(u + 1) + 2"
+    },
+    "recipe_agreement_by_line": {
+      "(0, 1)": 88,
+      "(1, 0)": 88,
+      "(1, 1)": 88,
+      "(1, 2)": 120,
+      "(1, 3)": 120,
+      "(1, 4)": 88
+    },
+    "sl2_order": 120,
+    "stabilizer_data_by_line": {
+      "(0, 1)": {
+        "inclusion_exclusion_agree": 88,
+        "intersection_order": 4,
+        "orth_line": [
+          1,
+          0
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          1,
+          0
+        ]
+      },
+      "(1, 0)": {
+        "inclusion_exclusion_agree": 88,
+        "intersection_order": 4,
+        "orth_line": [
+          0,
+          1
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          0,
+          1
+        ]
+      },
+      "(1, 1)": {
+        "inclusion_exclusion_agree": 88,
+        "intersection_order": 4,
+        "orth_line": [
+          1,
+          4
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          1,
+          1
+        ]
+      },
+      "(1, 2)": {
+        "inclusion_exclusion_agree": 120,
+        "intersection_order": 20,
+        "orth_line": [
+          1,
+          2
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          1,
+          3
+        ]
+      },
+      "(1, 3)": {
+        "inclusion_exclusion_agree": 120,
+        "intersection_order": 20,
+        "orth_line": [
+          1,
+          3
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          1,
+          2
+        ]
+      },
+      "(1, 4)": {
+        "inclusion_exclusion_agree": 88,
+        "intersection_order": 4,
+        "orth_line": [
+          1,
+          1
+        ],
+        "stab_order": 20,
+        "swapped_mark": [
+          1,
+          4
+        ]
+      }
+    },
+    "words_len_2_4_runs_to_6": {
+      "column_test_differs_from_transpose": 342,
+      "reached_sl2_matrices": 120,
+      "reversed_word_identity_all_6_lines": true,
+      "swapped_word_differs_from_transpose": 989,
+      "total_words": 1332
+    }
+  },
+  "hard_question_2_b1881_adversarial_plants": {
+    "bypasses_passing_all_14_tests": 5,
+    "ordered_cases": [
+      {
+        "label": "baseline_unmutated",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 21.57s"
+      },
+      {
+        "label": "control_literal_true_caught",
+        "passed_lock": false,
+        "returncode": 1,
+        "summary": "3 failed, 12 passed in 21.73s"
+      },
+      {
+        "label": "F-R80-1_vacuous_all_on_mirror_and_single",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 21.69s"
+      },
+      {
+        "label": "F-R80-2_neutralized_check_function",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 21.74s"
+      },
+      {
+        "label": "F-R80-3_always_true_or_len_ge_1",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 21.69s"
+      },
+      {
+        "label": "F-R80-4_typed_counts_behind_startswith",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 14.94s"
+      },
+      {
+        "label": "F-R80-5_version_sidecar_unheeded_A_numbers",
+        "passed_lock": true,
+        "returncode": 0,
+        "summary": "15 passed in 21.52s"
+      }
+    ]
+  },
+  "negative_controls": {
+    "C-R80-1": {
+      "fired": true,
+      "swap_agreement_out_of_120": 120,
+      "swap_matches_ground": true,
+      "transpose_agreement_out_of_120": 88,
+      "transpose_matches_ground": false
+    },
+    "C-R80-2": {
+      "dummy_test_classification": "SURVIVED",
+      "fired": true,
+      "genuine_test_classification": "CAUGHT"
+    },
+    "C-R80-3": {
+      "exact_quote_accepted": true,
+      "fired": true,
+      "perturbed_quote_accepted": false
+    }
+  },
+  "verbatim_quote_verification": {
+    "all_exact": true,
+    "quotes": [
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-1",
+        "length": 86,
+        "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-2",
+        "length": 123,
+        "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-3",
+        "length": 79,
+        "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-4",
+        "length": 133,
+        "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-5",
+        "length": 108,
+        "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-6a",
+        "length": 111,
+        "path": "frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-6b",
+        "length": 94,
+        "path": "frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-7a",
+        "length": 143,
+        "path": "frontier/B1894_review_79_the_second_round/verification/quote_check.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-7b",
+        "length": 42,
+        "path": "frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-8a",
+        "length": 203,
+        "path": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/arc_verdict.json"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-8b",
+        "length": 160,
+        "path": "frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/arc_verdict.json"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-8c",
+        "length": 62,
+        "path": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-9a",
+        "length": 130,
+        "path": "frontier/B1861_the_closure_programme/verification/programme_source.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-9b",
+        "length": 39,
+        "path": "frontier/B1861_the_closure_programme/verification/build_programme.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-10",
+        "length": 61,
+        "path": "frontier/B862_global_form/global_form.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-11a",
+        "length": 49,
+        "path": "scripts/seats/listen.py"
+      },
+      {
+        "commit": "c40446392",
+        "exact_match": true,
+        "id": "F-R80-11b",
+        "length": 112,
+        "path": "scripts/seats/listen.py"
+      },
+      {
+        "commit": "0dda7b472",
+        "exact_match": true,
+        "id": "F-R80-12a",
+        "length": 103,
+        "path": "frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md"
+      },
+      {
+        "commit": "0dda7b472",
+        "exact_match": true,
+        "id": "F-R80-12b",
+        "length": 79,
+        "path": "tests/test_b1028_freedom_ledger.py"
+      },
+      {
+        "commit": "0dda7b472",
+        "exact_match": true,
+        "id": "F-R80-12c",
+        "length": 49,
+        "path": "tests/test_b734_m004_congruence.py"
+      }
+    ],
+    "total_quotes": 20
+  }
+}
