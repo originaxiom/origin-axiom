@@ -1,0 +1,57 @@
+every gate on the series: series 2, 3 and 4 of WP-0.7 and series 1 of WP-0.9 on main's 323f92327, with the views generated, in one commit (faf26b665, local and not sent)
+
+  PASS  append-only: HEAD prefix preserved; 30 commit(s) since f31729801: 30 an append or a roll-up, 0 waived by name
+  PASS  arc-data: ok (1592 verdict files; D1-D6 empty; 185 prose-only candidates reported; 0 carry a grade, each held to the evidence it names; 14 of the 14 arcs the candidate runs on owe one, held by name as found; that list of 14 is typed here from B1888)
+  PASS  arc-verdicts: ok
+  PASS  arrival-phrases: ok (0 new on the pages read; 3 old line(s) frozen by key)
+  PASS  artifact-hashes: ok (2250 entries in 270 lists: 1829 verify, 421 do not (417 distinct, each frozen in the state it was found in, or amended by name; the table holds 417); 80 of the lists are under another name than ARTIFACT_HASHES*.txt, found by content; 1 commit(s) since 270a27ee6 touch a named list, each only adding one; 41 commit(s) since 3e25c8ec3 read for a change to a list under another name; amended by name: 0; waived: 0)
+  PASS  atlas-fresh: ok
+  PASS  atlas-lexicon-current: ok
+  PASS  attribution: ok
+  PASS  carry-age: ok
+  PASS  chain-locks: ok
+  PASS  claims: ok (86 rows in the locked tables, 85 citing a lock; 1 held by name as found without one: P51)
+  PASS  closure-generated: ok
+  PASS  doc-currency: ok
+  PASS  doc-facts: ok
+  PASS  firewall-oneway: ok
+  PASS  framing: ok (14500 text files read, in any letter case; not read: 22 above 5 MB, 246 that are not text; 4 that quote what the gate bans, exempt by name)
+  PASS  gate-controls: ok
+  PASS  genesis-cited: ok
+  PASS  harvest-debt: ok within the 21 days -- UNREAD: sm +3 commit(s) past its pin, chat1 +7 commit(s) past its pin, advisor +7 commit(s) past its pin, agy002 +2 commit(s) past its pin (read them at this landing)
+  PASS  id-collisions: ok
+  PASS  identification-register: ok
+  PASS  inputs-scoreboard: ok
+  PASS  knowledge-index: ok
+  PASS  law-map-provenance: ok
+  PASS  lawmap-scope: ok
+  PASS  lead-debt: ok
+  PASS  log-changelog-paired: ok
+  PASS  member-scope: ok (8 on the record, each held by name as found; baseline 8)
+  PASS  path-refs: ok
+  PASS  point-debt: ok
+  PASS  practices-register: ok
+  PASS  pretense-phrases: ok
+  PASS  relay-debt: ok
+  PASS  representation-sweep: ok
+  PASS  retraction-debt: ok
+  PASS  retraction-sweep: ok (54 rows of the registry read: 46 swept, 8 that retract a reading and are not swept, 2 of them by name; 12 standing instance(s) of a phrase held by name as found)
+  PASS  review-actions: ok
+  PASS  review-core: ok
+  PASS  review-fires: ok
+  PASS  seal-digests: ok
+  PASS  seal-immutable: ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+  PASS  seal-ledger-current: ok
+  PASS  seal-order-unshown: ok
+  PASS  seal-provenance: ok
+  PASS  seat-positive-verified: ok
+  PASS  seen-first: ok
+  PASS  supersession-backlinks: ok
+  PASS  test-vacuity: ok (6588 tests, 0 vacuous; 97 both-literal for review; 308 more in the arcs' own locks, 0 vacuous; 26 in which no assert can fail, held by name as found; 15 that compare, as text, a float a process printed, held by name as found; 7 more compare the whole of what a process printed with a committed file in which no such number stands)
+  PASS  theorem-registry: ok
+  PASS  tracked-deps: ok (4031 paths that the locks name beside themselves read, in any way they are written; 324 more have a part that is computed and are not read; 1 that git ignores held by name as found)
+  PASS  tracked-forbidden: ok
+  PASS  views-fresh: ok
+  PASS  views-generated: ok
+
+53 of 53 pass

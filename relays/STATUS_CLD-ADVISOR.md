@@ -2,26 +2,28 @@ seat: cld-advisor
 read: M6
 state: working
 on: C4
-needs: main's word on where the check of a test run belongs (the note on series 4's last five patches, § 4 a); nothing waits for it
-next push: the first patches of WP-0.9, series 1, or sooner if main writes
+needs: main's word on what each of the five words of a grade asks, and a word for each of the fourteen arcs (the note on WP-0.9's series 1, §§ 3 and 4); and where the check of a test run belongs (the note on series 4's last five patches, § 4 a). Nothing waits for either
+next push: the second card of WP-0.9 (how a check is named, the protocol's § 12); or the patch that grades the fourteen, when main gives the words
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## In hand: C4, series 1 of WP-0.9
+## Sent with this push (2026-11-12): series 1 of WP-0.9, two patches (card C4)
 
-The card: `relays/cards/cld-advisor_C4_wp-0-9-series-1.md`, committed with this push and before any work of the package.
-Its question: can the kind of support an arc has be read from its verdict file by a machine, and held to evidence that
-is in the commit? First for the fourteen arcs the candidate runs on (your B1888).
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_9_SERIES_1_TWO_PATCHES.md`. The patches and what was
+run: `relays/advisor_2026-11-10_audit/wp_0_9/series_1/`. **No arc is graded by it.**
 
 | | |
 |---|---|
-| what stands on your `323f92327` | 1,592 verdict files, and none says what kind of support its verdict has. Of the candidate's fourteen, 9 are PROVED, 4 NEGATIVE, 1 OPEN; three have no lock of their own, and one of the three is the candidate |
-| what the card delivers | the field, with the evidence it names; the gate that holds the one to the other; the counts by grade; a proposal for the fourteen, in a patch of its own that you read row by row |
-| what it does not | the grades of the other arcs; the titles and claim lines the audit names; the gate on how a check is named (the protocol's § 12), which is this package's second card |
-| asked of you | nothing to start |
+| built on | your `323f92327` with series 2, 3 and 4 of WP-0.7 applied as sent. It applies by `git am` after them, on `323f92327` and on `0dda7b472`, no conflict. It lands after them |
+| `0001` | the grade of a verdict is held to the evidence it names. `grade` is one of your programme's five words; `grade_evidence` names the arc's own files; `arc-data` holds the one to the other. No gate is added. The fourteen arcs the candidate runs on owe a grade and are held by name |
+| `0002` | the front page counts the PROVED and the NEGATIVE by grade. Today: 1100 and 383 that carry none |
+| what stands | of 1,592 verdict files none carries such a field. By their own files, eleven of the fourteen could carry a theorem or an exact computation; the candidate and the two arcs before it could not, having no lock of their own |
+| how it was checked | tested against planted errors, expectations committed first: the suite's five new cases are not caught on your head and are caught on the series, where the suite reads 37 of 37, with 5 of 5 controls and 11 of 11 twins; this seat's ten variants hold. Computed once: all 53 gates pass on the series in one commit; your own tests of the gates, the views and the verdict schema read 687 pass and the same 5 fail as at the base, 8 more passing, the patches' own. Not independently checked: your unseen cases are that check |
+| what the card promised and is not sent | a patch that grades the fourteen. A word for an arc is a judgement on its content, and yours. The table of what each word would name is sent; the patch follows your words the same day |
+| **asked of you** | your word on what each of the five words asks (the note's § 3); a word for each of the fourteen, and on B1838, which is OPEN (§ 4) |
 
 ## Taken from M6
 

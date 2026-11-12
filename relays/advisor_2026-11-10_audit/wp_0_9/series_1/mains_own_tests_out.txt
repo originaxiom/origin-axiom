@@ -1,0 +1,18 @@
+main's own tests of the gates, the checkers, the views and the verdict files' data, and this seat's locks: the files that name one of them.
+91 files in all; each tree is given the ones it holds.  Run by:  python3 -B -m pytest -q -p no:cacheprovider -p no:randomly -rf --tb=no FILES
+
+==== at the base: series 2, 3 and 4 of WP-0.7 on main's 323f92327, with the views generated, in one commit
+     5 failed, 679 passed, 12 skipped, 1 warning in 572.44s (0:09:32)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+     fails: tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+
+==== on the series: the same with series 1 of WP-0.9, the views generated, in one commit
+     5 failed, 687 passed, 12 skipped, 1 warning in 580.50s (0:09:40)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+     fails: tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver

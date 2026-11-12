@@ -43,7 +43,8 @@ MANUAL. The re-audit runs this script on the fix commit; the target is 0 NOT CAU
 
 *Added 2026-11-11 (WP-0.7, series 4): the six are planted by the script itself now, and none is listed as manual. It
 plants 32 cases: these 27, and PV28 to PV32, which were found after this page was written. Each case added since has a
-twin with no violation, on which the same gates must pass.*
+twin with no violation, on which the same gates must pass. Since 2026-11-12 it plants five more, PV33 to PV37, for
+the grade of a verdict (WP-0.9, series 1): 37 in all.*
 
 | # | Planted violation | Gate that must fail | Finding |
 |---|---|---|---|

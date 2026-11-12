@@ -1,0 +1,30 @@
+
+==== patch 1: 278ec4450 -- THE GRADE OF A VERDICT IS HELD TO THE EVIDENCE IT NAMES (the audit's M1: PROVED means at least five things). A
+     its 7 tests, on the commit before (4da223c53):
+        E   AssertionError: a verdict file carries a grade that is not one of the programme's five words, and the gate reads: ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reported)
+        tests/test_a_grade_is_held_to_its_evidence.py:101: AssertionError: a verdict file carries a grade that is not one of the programme's five words, and the gate reads: ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reporte
+        E   AssertionError: a grade names a lock that is not in the tree, and the gate reads: ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reported)
+        tests/test_a_grade_is_held_to_its_evidence.py:109: AssertionError: a grade names a lock that is not in the tree, and the gate reads: ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reported)
+        E   AssertionError: ('theorem', 'ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reported)')
+        tests/test_a_grade_is_held_to_its_evidence.py:155: AssertionError: ('theorem', 'ok (1 verdict files; D1-D6 empty; 0 prose-only candidates reported)')
+        E   AssertionError: the gates name no arc that owes a grade
+        tests/test_a_grade_is_held_to_its_evidence.py:162: AssertionError: the gates name no arc that owes a grade
+        E   AssertionError: a grade says more than the evidence it names, and the gate passes for: a theorem that names its findings page; a theorem that names a lock in which no assert can fail; a theorem that names nothing; a theorem th
+        tests/test_a_grade_is_held_to_its_evidence.py:137: AssertionError: a grade says more than the evidence it names, and the gate passes for: a theorem that names its findings page; a theorem that names a lock in which no assert can f
+        E   AssertionError: the gates hold no list of the arcs the candidate runs on
+        tests/test_a_grade_is_held_to_its_evidence.py:195: AssertionError: the gates hold no list of the arcs the candidate runs on
+     PASSED tests/test_a_grade_is_held_to_its_evidence.py::test_a_verdict_file_with_no_grade_passes_as_it_did
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_a_grade_that_is_not_one_of_the_five_words_is_refused
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_a_grade_whose_evidence_is_not_in_the_tree_is_refused
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_a_grade_with_its_evidence_passes_for_each_of_the_five_words
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_an_arc_the_candidate_runs_on_owes_a_grade_and_is_held_by_name
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_each_word_asks_its_own_kind_of_evidence
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_on_this_repository_the_chain_is_mains_fourteen_and_the_gate_passes
+     6 failed, 1 passed in 2.67s
+
+==== patch 2: 82668a06c -- THE FRONT PAGE COUNTS THE VERDICTS BY THE GRADE OF THEIR SUPPORT. The front page's generated block says how ma
+     its 1 tests, on the commit before (278ec4450):
+        E   AssertionError: the front page prints how many arcs are PROVED and nothing of what kind of support they have
+        tests/test_a_grade_is_held_to_its_evidence.py:216: AssertionError: the front page prints how many arcs are PROVED and nothing of what kind of support they have
+     FAILED tests/test_a_grade_is_held_to_its_evidence.py::test_the_front_page_counts_the_verdicts_by_the_grade_of_their_support
+     1 failed in 0.17s

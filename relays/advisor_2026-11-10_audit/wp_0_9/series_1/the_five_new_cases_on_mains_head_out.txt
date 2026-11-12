@@ -1,0 +1,31 @@
+planted-violation suite at origin/main (0dda7b472)
+
+the 19 gates the cases name, on the clean clone: all pass
+
+PV33  M1   NOT CAUGHT    an arc the candidate runs on is graded a theorem and names no lock, commit
+      arc-data=PASS
+PV34  M1   NOT CAUGHT    a new arc with a grade that is not one of the five words, commit
+      arc-data=PASS
+PV35  M1   NOT CAUGHT    a new arc graded an exact computation, naming a script and a lock that are not there, commit
+      arc-data=PASS
+PV36  M1   NOT CAUGHT    a new arc graded a numerical estimate, naming a script and no output, commit
+      arc-data=PASS
+PV37  M1   NOT CAUGHT    a new arc graded sealed cells held, with more cells held than were sealed, commit
+      arc-data=PASS
+
+PV33  twin PASSES       the same arc graded a theorem and naming its own lock
+      arc-data=PASS
+PV34  twin PASSES       the same new arc graded a process
+      arc-data=PASS
+PV35  twin PASSES       the same, with the script and a lock that can fail in the commit
+      arc-data=PASS
+PV36  twin PASSES       the same, naming the script and its committed output
+      arc-data=PASS
+PV37  twin PASSES       the same, with seven of thirteen cells held
+      arc-data=PASS
+
+
+controls not reported CAUGHT: 0
+twins that do not pass: 0
+NOT CAUGHT: 5
+the suite ended with status 5

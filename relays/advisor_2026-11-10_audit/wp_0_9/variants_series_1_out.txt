@@ -1,0 +1,13 @@
+variants on the patches at faf26b665
+y1   HOLDS  the candidate graded a theorem, naming a lock that is not its own: G3 a grade that says more than the evidence it names: B1841_the_principled_ends_card (theorem asks a lock of its own in which an assert can fail; named and not the arc's 
+y2   HOLDS  the candidate graded an exact computation, naming one of its scripts: G3 a grade that says more than the evidence it names: B1841_the_principled_ends_card (exact computation asks its script, and a lock of its own in which an assert can fail
+y3   HOLDS  B1612 graded a theorem, naming B1637's lock: G3 a grade that says more than the evidence it names: B1612_the_mixing_patterns_the_weave_fixes (theorem asks a lock of its own in which an assert can fail; named and not
+y4   HOLDS  a grade given as a list of one word: G1 a grade that is not one of the five words: B1612_the_mixing_patterns_the_weave_fixes (['theorem'] is not one of: theorem, exact computation, numeri
+y5   HOLDS  the word with a capital letter: G1 a grade that is not one of the five words: B1612_the_mixing_patterns_the_weave_fixes ('Theorem' is not one of: theorem, exact computation, numerica
+y6   HOLDS  a folder named as evidence: G2 a grade whose evidence is not in the tree: B1612_the_mixing_patterns_the_weave_fixes (not a file in the tree: frontier/B1612_the_mixing_patterns_th
+y7   HOLDS  the candidate graded a numerical estimate, naming a script and an output: the gate passes (a limit)
+y8   HOLDS  the candidate graded sealed cells held with a made-up count: the gate passes (a limit)
+y9   HOLDS  a PROVED arc that is not an instrument graded a process: the gate passes and prints it (a limit) -- 1 carry a grade, each held to the evidence it names (1 process)
+y10  HOLDS  B1612 graded a theorem with its own lock: the gate passes and says one of the named carries a grade; the front page reads: | the PROVED, by the grade of their support | 1 theorem; 1099 carry no grade |; the gate on the views passes
+
+10 of 10 expectations hold
