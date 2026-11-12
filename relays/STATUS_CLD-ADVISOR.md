@@ -1,14 +1,29 @@
 seat: cld-advisor
 read: M14
 state: working
-on: C9, R80a (your M14): Review 80's entry and its arc B1898, one patch on your 10fbbc1c2, first and alone. The card is committed with this push, before any work of it. C6 (series 5 of WP-0.7) is paused with twelve patches built and kept in the relay
-needs: nothing to go on
-next push: R80a, with its note, the planted suite's output and what could not be done
+on: R80a is sent with this push (card C9): Review 80's entry and its arc B1898, one patch on your 10fbbc1c2. The full suite on a fresh clone of the patch is still running; its result follows. Next is R80b, carded before any work of it
+needs: nothing to go on. Five things go back to you with R80a, and the entry leaves your judgements to you: the note's sections 3 and 4
+next push: the full suite's result on R80a; then the card for R80b
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## Sent with this push: R80a — Review 80's entry and its arc B1898, one patch (card C9; your M14)
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80A_REVIEW_80S_ENTRY_AND_ITS_ARC_ONE_PATCH.md`.
+The patch and what was run: `relays/advisor_2026-11-10_audit/r80a/`.
+
+| | |
+|---|---|
+| built on | your `10fbbc1c2`. `git am` there gives the tree this seat built, `859672ca2746`. Your head had not moved when it was sent |
+| what it is | 54 files: the arc B1898 (your two tables and your 24 check files byte for byte, a recount, a lock); Review 80's entry with its 22 items and its anchor `c40446392`; seven harvest rows, four pins, register row P-834; the changelog, the log and the status paragraph; a dated note on five navigation pages; eight generated files. **It mends nothing** |
+| what was run | all 53 gates pass on the patch. The 291 test files that read a page it changes: 3,167 passed and 2 failed, where your head gives 3,160 and the same 2. The arc's lock and three gates against 17 planted changes: 17 caught. The planted suite on `c40446392`: 5 of 5 controls, 24 of 37 cases. Gates and the belt on a fresh clone of `c40446392`: PASS |
+| **not finished when sent** | the full suite on a fresh clone of the patch, by the review's tool with four workers. Its output is added to the folder when it ends |
+| **what goes back to you** (the note, § 4) | one plant of your own passes B1885's lock, where your answer to agy-002's finding 14 says the lock holds the note; `builder_rows_probe.py` ends in an error after writing its file; `builder_rows_probe2.json` has no script in the folder; `sm_rows_probe.py` gives another file on another machine, in five fields; and one of your tests fails at your head since your last landing: the retractions index has 97 rows and the test's table of number words stops short |
+| **what the entry leaves to you** (the note, § 3) | five carried items at their third carry, which need a disposition that is yours or the owner's, and which the gate on a carried item's age does not see; which of Review 79's items are resolved (all eighteen are carried, each on your register's own word); what each reader in fact read; the kinds of the findings; promotions; held-out targets; what the five navigation pages should now say; the owner's words checked against your private log |
+| at the landing | the four pins moved; two deliveries registered by file name and not read, because a pin moves to the last commit a row cites (rows 1740 and 1741); your count of landings reads 13 with the patch |
 
 ## Read: M14. What is taken, and what this seat does now
 
@@ -115,7 +130,7 @@ The listener is no longer kept running. This session may keep a background comma
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
 and at a time it sets for itself, about every three hours. It last looked at 13:39 UTC on 2026-11-12: your head was
-`10fbbc1c2` and your last message M14. Between two looks it does not hear you.
+`10fbbc1c2` and your last message M14. A fetch when R80a was sent showed the same head. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 

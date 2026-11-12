@@ -1,0 +1,237 @@
+====================================================================================================
+the web seat's quotations (checks/quote_check_chat1.py), from the root of a checkout of main's 10fbbc1c2
+====================================================================================================
+{
+ "at": "c40446392",
+ "quotations": [
+  {
+   "file": "scripts/checks/check_test_vacuity.py",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "scripts/checks/retraction_sweep.py",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "docs/RETRACTED_PHRASES.md",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "scripts/gates/gates.py",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "scripts/gates/gates.py",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py",
+   "found": true,
+   "found when the lines are joined": true
+  },
+  {
+   "file": "frontier/B1894_review_79_the_second_round/FINDINGS.md",
+   "found": true,
+   "found when the lines are joined": true
+  }
+ ],
+ "found": 7,
+ "of": 7,
+ "the control, one word changed, is found": false
+}
+
+====================================================================================================
+agy-002's, the SM seat's and agy-exp's quotations: what each script prints (the files they write are, byte for byte, the ones main kept)
+====================================================================================================
+--- agy002
+{
+ "at": "c40446392",
+ "rows": 36,
+ "found exactly": 36,
+ "found exactly or when lines are joined": 36,
+ "files that do not exist at the commit": 0,
+ "lines of the review whose quotation is not found": [],
+ "controls found": 0
+}
+
+--- sm
+{
+ "at": "c40446392",
+ "findings": 41,
+ "quotations": 50,
+ "placed": 50,
+ "found elsewhere only": 0,
+ "found nowhere": [],
+ "findings with no quotation read": [],
+ "findings with a quotation found elsewhere only": [],
+ "controls found": 0
+}
+
+--- agyexp
+{
+ "findings": 14,
+ "with a file that exists at the commit named": 14,
+ "every line of the quotation found in that file": 14,
+ "findings whose quotation is not found": [],
+ "controls found": 0,
+ "commits named": [
+  "0dda7b472",
+  "c40446392"
+ ]
+}
+
+====================================================================================================
+checks/strict_recheck_r79_quotations.py: its last lines (its file is, byte for byte, the one main kept)
+====================================================================================================
+agy-exp      {"quotations": 15, "found by the old rule": 15, "in the file the finding names": 15, "in the arc's own folder (no file named)": 0, "in a wide page only": 0, "the named file is not at the commit": 0, "empty quotations": 0, "found nowhere, strictly": 0}
+all four: {"quotations": 111, "found by the old rule": 111, "in the file the finding names": 52, "in the arc's own folder (no file named)": 45, "in a wide page only": 14, "found nowhere, strictly": 0, "empty quotations": 0}
+
+====================================================================================================
+checks/b1895_probes.py: its last lines (its file is, byte for byte, the one main kept)
+====================================================================================================
+      mark (1, 3)  annihilates its own line: True   0
+      mark (1, 4)  annihilates its own line: False  362
+(3) 120 matrices; 'row v kept by W' against 'column J v kept by J W J', mark by mark: {'(0, 1)': 88, '(1, 0)': 88, '(1, 1)': 88, '(1, 2)': 120, '(1, 3)': 120, '(1, 4)': 88} | marks that annihilate their own line: ['(1, 2)', '(1, 3)']
+(4) 3378 primitive cyclic sequences; all ones reads 1.11803398875 (sqrt5/2: True); all twos 1.41421356237 (sqrt2: True); the least of the others 1.48660687473 at [(1, 1, 2, 2)]; above 17/12 = 1.4166667: True
+
+====================================================================================================
+checks/plants_b1881_third.py, run from a scratch folder of a checkout of 10fbbc1c2
+====================================================================================================
+nothing planted                                                                                  PASSES     15 passed in 18.03s  (18s)
+the control: single_ok replaced by the literal True (a plant B1895's lock holds)                 CATCHES IT 3 failed, 12 passed in 12.17s  (13s)
+F1: the two mended conditions taken over empty lists                                             PASSES     15 passed in 11.14s  (12s)
+F2: check() made to ignore what it is passed                                                     PASSES     15 passed in 11.27s  (12s)
+F3: an unpinned check made unable to fail by an 'or' on a length that is never 0                 PASSES     15 passed in 11.47s  (12s)
+F4: no sequence read: the least typed, the two counts typed behind the pinned beginning          PASSES     15 passed in 6.23s  (7s)
+F5: the made-with file given another version, and a number of part A changed in the script       PASSES     15 passed in 11.23s  (12s)
+the two controls behave: True; of the five plants, the lock passes: 5
+
+====================================================================================================
+checks/plants_agy002.py, run inside a scratch checkout of 10fbbc1c2: the same 21 answers as the output main kept
+====================================================================================================
+B1893  nothing planted                                                                passes           1.0s  7 passed in 0.78s
+B1893  the verdict changed from PROVED to NEGATIVE                                    FAILS            1.0s  1 failed, 6 passed in 0.80s
+B1893  the verdict line made to open with ZERO CAUGHT                                 FAILS            1.1s  1 failed, 6 passed in 0.79s
+B1893  the rows of the cases U10 to U19 deleted from the page                         FAILS            0.5s  1 failed, 2 passed in 0.21s
+B1893  'still passes' turned into 'IS REFUSED' on the page                            PLANT NOT MADE   0.0s  the plant changed nothing in <the checkout>
+B1896  nothing planted                                                                passes           8.8s  8 passed in 8.58s
+B1896  'Five are not caught' turned into 'None is not caught' on the page             FAILS            8.9s  1 failed, 7 passed in 8.66s
+B1896  every '17' on the page's first forty lines turned into '22'                    FAILS            0.4s  1 failed, 1 passed in 0.19s
+B1896  the runner of the sealed cases deleted                                         FAILS            9.2s  1 failed, 7 passed in 8.92s
+B1896  the runner of the cases written after reading deleted                          FAILS            9.5s  1 failed, 7 passed in 9.27s
+B1896  the verdict line made to open with ALL TWENTY-TWO CAUGHT                       FAILS            8.8s  1 failed, 7 passed in 8.53s
+B1878  nothing planted                                                                passes           0.6s  5 passed in 0.42s
+B1878  the dated note of 2026-11-12 removed from the page                             FAILS            0.6s  1 failed, 4 passed in 0.42s
+B1878  the verdict file made invalid JSON                                             FAILS            0.6s  1 failed, 4 passed in 0.43s
+B1885  nothing planted                                                                passes          14.5s  8 passed in 14.25s
+B1885  the verdict changed from PROVED to REFUTED                                     FAILS            8.0s  1 failed, 6 passed in 7.74s
+B1885  the note on the grid's 18 digits taken out of the verdict line                 passes          14.1s  8 passed in 13.90s
+B1890  nothing planted                                                                passes           0.7s  8 passed in 0.43s
+B1890  the verdict file made invalid JSON                                             FAILS            0.7s  1 failed, 7 passed in 0.43s
+B1890  the table of gates that read history shrunk to two names                       FAILS            1.3s  1 failed, 5 passed in 1.09s
+B1890  the refusal of an empty checkout switched off                                  FAILS            0.5s  1 failed, 6 passed in 0.23s
+
+====================================================================================================
+checks/or_true_sweep.py in a checkout of c40446392: its last line, and where its hits are (the list itself is not copied here: one of main's file names holds a word this seat keeps out of its files)
+====================================================================================================
+python files read: 5757; not parsed: 1; asserts that cannot fail by a constant: 16
+hits listed: 16; in tests/: 7; elsewhere: 9
+the seven in tests/:
+  tests/test_b1011_mckay_tensor.py:72  assert {"0", "1/2", "1/(2phi)", "phi/2", "1"} <= set(M.tone_labels) | {"0"} or True
+  tests/test_b355_weil_layer_independent.py:51  assert op_triv == (m % N == 0 if N in (3, 5) else m % 15 == 0) or N == 15 and m == 15 or True
+  tests/test_b448.py:51  assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0 or True
+  tests/test_b674_route1.py:12  assert "phi" in s.lower() or "golden" in s.lower() or True
+  tests/test_b799_doors.py:48  assert d["g_is_elliptic"] != d["A_is_hyperbolic"] or True
+  tests/test_r28_10_stabilizations.py:101  assert all( c.is_rational or c == sp.sqrt(5) or c == -sp.sqrt(5) for c in num.as_coefficients_dict() ) or True
+  tests/test_w2_molien_cell.py:22  assert sp.expand(1/(2 - phi) - phi**2) != 0 or True
+
+====================================================================================================
+checks/or_true_sweep.py in a checkout of 10fbbc1c2: its last line
+====================================================================================================
+python files read: 5780; not parsed: 1; asserts that cannot fail by a constant: 9
+
+====================================================================================================
+checks/literal_only_tests.py c40446392: its first line
+====================================================================================================
+test files read at c40446392: 1546; tests of this shape: 92; of them held by name as found: 24; not held: 68
+
+====================================================================================================
+checks/builder_rows_probe.py: what it prints, and the error it ends in (python 3.13)
+====================================================================================================
+row 41  (a) the module's mark written with an annotation                                         -> None                                           REPRODUCED
+row 41  (b) a skip inside a helper that the control calls                                        -> None                                           REPRODUCED
+row 41  (c) a control with no assert and a bare approx                                           -> None                                           REPRODUCED
+row 41  the control of the probe: the same mark written plainly                                  -> is in a module marked pytest.mark.skip(reason= REPRODUCED
+row 42  (a) no assert, a bare approx                                                             -> no class                                       REPRODUCED
+row 42  (b) a no-op call before a comparison of literals                                         -> ['CANNOT-FAIL']                                not reproduced
+row 42  (c) the only assert inside an inner function never called                                -> no class                                       REPRODUCED
+row 42  the control: a comparison of literals alone                                              -> ['CANNOT-FAIL']                                REPRODUCED
+row 42  the control: no assert at all                                                            -> ['NO-ASSERT']                                  REPRODUCED
+row 43  a shift of literals                                                                      -> no class                                       REPRODUCED
+row 43  a subscript of a literal list                                                            -> ['CANNOT-FAIL']                                not reproduced
+row 43  a repeated tuple                                                                         -> no class                                       REPRODUCED
+row 43  a dict unpacked into a dict                                                              -> no class                                       REPRODUCED
+row 43  an f-string of literals                                                                  -> no class                                       REPRODUCED
+row 43  an annotated binding                                                                     -> no class                                       REPRODUCED
+row 43  two names bound at once                                                                  -> no class                                       REPRODUCED
+row 43  the control: a sum of literals                                                           -> ['CANNOT-FAIL']                                REPRODUCED
+row 44  (a) a lock that does not parse is passed over before it is counted                       -> except Exception: continue                     REPRODUCED
+row 44  (b) the key of a test is the file and the function's name, with no class                 -> f"{rel}::{fn.name}"                            REPRODUCED
+row 44  (c) only files named test_*.py are collected outside tests/                              -> ":(glob)**/test_*.py"                          REPRODUCED
+row 45  the control: one of the gate's phrases written plainly                                   -> seen                                           REPRODUCED
+row 45  the control: asterisks around one word (the gate strips them)                            -> seen                                           REPRODUCED
+row 45  (a) underscores around one word                                                          -> not seen                                       REPRODUCED
+row 45  (a) double underscores around one word                                                   -> not seen                                       REPRODUCED
+row 45  (a) an emphasis command around one word                                                  -> not seen                                       REPRODUCED
+row 45  (a) a link around one word                                                               -> not seen                                       REPRODUCED
+row 45  (a) a tilde in place of one space                                                        -> not seen                                       REPRODUCED
+row 45  (a) a quoted block broken before one word                                                -> not seen                                       REPRODUCED
+row 45  (b) the walk skips a folder when '.git' is anywhere in its full path                     -> if ".git" in dirpath                           REPRODUCED
+row 42  42 (b) again: a bare approx before a comparison of literals                              -> no class                                       REPRODUCED
+row 42  42 (b) again: a call of a helper's attribute before it                                   -> ['CANNOT-FAIL']                                not reproduced
+row 43  43 again: a slice of a literal list                                                      -> no class                                       REPRODUCED
+row 43  43 again: a subscript of a literal dict                                                  -> ['CANNOT-FAIL']                                not reproduced
+
+--- the end of what it writes to the error stream
+Traceback (most recent call last):
+  File "<the checkout>", line 123, in <module>
+    rows = sorted({o["row"] for o in OUT})
+TypeError: '<' not supported between instances of 'int' and 'str'
+
+====================================================================================================
+checks/sm_rows_probe.py: where the file it writes here differs from the one main kept (this machine's clock is UTC)
+====================================================================================================
+SM-04 / main finds / c66c8ccae
+      here:   '2026-11-11 23:20:21'
+      main's: '2026-11-12 00:20:21'
+SM-04 / main finds / entry
+      here:   '2026-11-12 02:04:24'
+      main's: '2026-11-12 03:04:24'
+SM-04 / main finds / last message
+      here:   '2026-11-11 23:11:54'
+      main's: '2026-11-12 00:11:54'
+SM-16 / held
+      here:   True
+      main's: False
+SM-16 / main finds / f6e89032a is a commit in this repository
+      here:   False
+      main's: True
+
+fields that differ: 5
+
+====================================================================================================
+the review's tool, fresh_clone, on a checkout of c40446392
+====================================================================================================
+{
+ "status": "PASS",
+ "commit": "c40446392",
+ "detail": "gates all PASS; belt ok"
+}
+fresh-clone: PASS @ c40446392 (gates all PASS; belt ok)
+minutes: 2.0
+

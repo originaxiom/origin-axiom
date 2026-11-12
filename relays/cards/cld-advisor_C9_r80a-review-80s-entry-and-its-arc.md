@@ -17,7 +17,7 @@ What stands, read in main's folder `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/` b
 |---|---|
 | the findings | 100, in four readers' files and one dated addition: the web seat 7 and 2 more, agy-002 36, the SM seat 41, agy-exp 14 |
 | main's answers | the first 43, in one table; the other 57, in a second table that says for each whether main checked it and what state it is in |
-| main's checks | 27 files in `review80/checks/`: scripts and what they gave |
+| main's checks | 27 files in `review80/checks/`: scripts and what they gave *[corrected 2026-11-12, while building: 24 files, 15 scripts and 9 outputs. The count was typed from a listing and not counted]* |
 | the window | `0dda7b472` to `c40446392`, read at `c40446392` |
 | the form | Review 79's entry on the reviews' page, and its arc B1892 |
 

@@ -1,0 +1,22 @@
+the lock        nothing planted                                                                                                  passes   6 passed in 0.53s
+the lock        a row of the second table deleted (the SM seat's 22)                                                             FAILS    2 failed, 4 passed in 0.59s
+the lock        a row of the first table deleted (agy-002's 7)                                                                   FAILS    2 failed, 4 passed in 0.55s
+the lock        a finding that only its reader looked at written as checked (the SM seat's 22: 'not checked' to 'the line read') FAILS    2 failed, 4 passed in 0.57s
+the lock        a finding that waits written as mended (agy-exp's F1: 'held. **To build**' to 'held; mended')                    FAILS    2 failed, 4 passed in 0.59s
+the lock        the entry's count of findings changed by one (100 to 101, wherever the entry says it)                            FAILS    1 failed, 5 passed in 0.54s
+the lock        the page's count of what main checked in full changed by one (80 to 81)                                          FAILS    1 failed, 5 passed in 0.56s
+the lock        the verdict line's count of what waits changed (41 to 14)                                                        FAILS    1 failed, 5 passed in 0.54s
+the lock        the verdict changed from PROVED to NEGATIVE                                                                      FAILS    1 failed, 5 passed in 0.54s
+the lock        the kept recount changed and the tables left as they are (17 not checked made 16)                                FAILS    1 failed, 5 passed in 0.54s
+the lock        an output main kept changed (a quotation of the SM seat's marked as not placed)                                  FAILS    2 failed, 4 passed in 0.56s
+the lock        one of main's checks changed (the commit the web seat's quotations are looked for at)                            FAILS    1 failed, 5 passed in 0.51s
+the lock        the entry's anchor changed to main's head at the handing over                                                    FAILS    1 failed, 5 passed in 0.54s
+the lock        the planted suite's output changed: a case that is not caught written as caught                                  FAILS    1 failed, 5 passed in 0.53s
+the lock        the page's sentence on the plant of main's that passes taken out                                                 FAILS    1 failed, 5 passed in 0.53s
+review-actions  nothing planted                                                                                                  passes   ok (22 open in the latest block, advisory; carry chain continuous)
+review-actions  one of Review 79's items left open (R79-4)                                                                       FAILS    1 open item(s) in a superseded review's block — resolve [x] or carry [
+review-actions  a carried item of Review 79 that stands in no later block (R80-9's line taken out)                               FAILS    Review 79: carried item key R79-9 never recurs later — silent drop
+review-core     nothing planted                                                                                                  passes   ok
+review-core     the line of the sample's seed taken out of the entry                                                             FAILS    the latest review entry lacks its core lines: sample seed:
+
+nothing planted: True; plants made: 17; caught: 17; passed: 0; not made: 0
