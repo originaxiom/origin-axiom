@@ -1,0 +1,95 @@
+rows 636; about selection or chirality 511; neither on reading 125
+quotations: {"quotations": 547, "found on one line of the file named, at the commit read": 547, "not found": [], "controls found": 0, "the commit read": "a15516d43"}
+by topic: {'selection': 235, 'chirality': 201, 'both': 75}
+by outcome: {'yes': 177, 'partly': 156, 'no': 120, 'question was wrong': 10, 'later corrected or retracted': 48}
+
+WALL: settled / partly / not / the question was wrong / later corrected
+  W1 the mirror pair not split             149   65   40   35    0    9
+  W2 one member of a family not picked     138   40   43   35    3   17
+  W3 a value or modulus not picked          47    5   13   21    2    6
+  W4 a count not forced                     49   13   18    9    3    6
+  W5 a scale or hierarchy                   17    9    5    1    0    2
+  W6 an identification borrowed             28    5   12    8    2    1
+  W7 a construction not canonical           51   27   15    7    0    2
+  W8 other                                  32   13   10    4    0    5
+
+KIND OF PRINCIPLE, all walls: arcs  settled / partly / not / wrong / corrected   share settled
+  A extremum       25    6    7    8    1    3   24%
+  B census        196   66   64   45    3   18   34%
+  C symmetry      269  107   81   56    3   22   40%
+  D uniqueness     64   36   15    5    1    7   56%
+  E consistency    51   11   18   17    2    3   22%
+  F arithmetic    154   49   49   36    4   16   32%
+  G dynamics       19    3    5    9    1    1   16%
+  H read-out       63   24   20   14    0    5   38%
+  I declared       10    1    6    2    1    0   10%
+  J measure        24    0    8   14    0    2    0%
+  K other          49   17   20    4    0    8   35%
+
+W1, the mirror pair not split:
+  A extremum        2    1    0    1    0    0
+  B census         44   16   13   10    0    5
+  C symmetry      124   57   33   27    0    7
+  D uniqueness      6    5    0    0    0    1
+  E consistency     7    1    3    3    0    0
+  F arithmetic     37   16   11   10    0    0
+  G dynamics        3    1    0    2    0    0
+  H read-out       28   10   10    7    0    1
+  I declared        2    1    1    0    0    0
+  K other           9    3    5    1    0    0
+
+W2, one member of a family not picked:
+  A extremum       12    2    5    3    0    2
+  B census         68   22   20   16    1    9
+  C symmetry       48   14   19    8    1    6
+  D uniqueness     30   15    8    3    0    4
+  E consistency    12    4    4    4    0    0
+  F arithmetic     60   18   19   13    1    9
+  G dynamics        4    1    1    2    0    0
+  H read-out       12    3    4    4    0    1
+  I declared        2    0    1    0    1    0
+  J measure        13    0    4    9    0    0
+  K other           5    1    2    0    0    2
+
+W3, a value or modulus not picked:
+  A extremum        5    0    0    4    1    0
+  B census         11    0    4    7    0    0
+  C symmetry       11    2    3    3    1    2
+  D uniqueness      4    0    0    1    1    2
+  E consistency     9    1    2    4    0    2
+  F arithmetic     17    3    5    7    0    2
+  G dynamics        7    0    2    4    1    0
+  H read-out        2    1    0    1    0    0
+  I declared        1    0    1    0    0    0
+  J measure         9    0    3    5    0    1
+  K other           8    2    3    1    0    2
+
+W4, a count not forced:
+  A extremum        2    0    1    0    0    1
+  B census         35   12   14    5    2    2
+  C symmetry       18    5    7    4    0    2
+  D uniqueness      2    0    2    0    0    0
+  E consistency     6    0    3    2    1    0
+  F arithmetic     10    0    3    3    3    1
+  G dynamics        1    0    0    0    0    1
+  H read-out        3    2    1    0    0    0
+  I declared        3    0    1    2    0    0
+  J measure         1    0    0    0    0    1
+  K other           9    5    2    0    0    2
+
+W7, a construction not canonical:
+  A extremum        1    1    0    0    0    0
+  B census         11    7    4    0    0    0
+  C symmetry       29   17    7    5    0    0
+  D uniqueness     20   16    4    0    0    0
+  E consistency     8    3    3    2    0    0
+  F arithmetic     11    6    3    1    0    1
+  G dynamics        2    1    1    0    0    0
+  H read-out        8    3    1    2    0    2
+  I declared        1    0    1    0    0    0
+  J measure         1    0    1    0    0    0
+  K other           3    1    1    1    0    0
+
+pairs of kinds used together: {'B+C': 76, 'C+F': 54, 'C+H': 34, 'B+F': 26, 'C+D': 20, 'B+E': 15, 'D+F': 13, 'C+K': 13}
+settled or partly, by the words of the outcome: {'W1': {'mixed': 16, 'does not pick': 59, 'other': 28, 'picks': 2}, 'W2': {'mixed': 25, 'picks': 16, 'other': 18, 'does not pick': 24}, 'W3': {'picks': 4, 'does not pick': 7, 'other': 4, 'mixed': 3}, 'W4': {'other': 10, 'mixed': 4, 'does not pick': 15, 'picks': 2}}
+the question was found to be wrong: ['B22', 'B58', 'B284', 'B516', 'B709', 'B1225', 'B1407', 'B1604', 'B1673', 'B1808']

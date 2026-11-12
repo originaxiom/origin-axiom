@@ -1,0 +1,24 @@
+{
+ "id": "B1905",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1204",
+  "B1225"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc (the sweep, the check of the quotations, the tables and the page); six read-only readers wrote the rows, one reader an arc",
+ "scope": {
+  "frame": "the record's own arcs on main at a15516d43, read by their verdict files and the heads of their pages",
+  "object": "the 636 arcs whose verdict line or title the topic sweep matched for the words of selection or of chirality, of 1,644",
+  "reach": "general",
+  "hypotheses": "the classes (wall, kind of principle, whether settled) are the readers', one reader an arc, not independently checked; every quotation was found by machine at the commit read; 'settled' means the arc settled the question it asked, which for the mirror pair is mostly a proof that a route does not split it; arcs that do not name either subject in their verdict line or title were not read; no measured value is read or compared"
+ },
+ "claim_one_line": "SELECTION AND CHIRALITY ACROSS THE WHOLE RECORD: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE RECORD HAD DRAWN THE LESSON IN AUGUST 2026 (B1204, B1225) AND ONE OF THE TWO ARCS IS IN NO GOVERNING PAGE. 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a uniqueness theorem, arithmetic or a census. By kind of principle, the share of arcs that settled the question they asked: uniqueness 56%, symmetry 40%, a read-out 38%, census 34%, arithmetic 32%, an extremum 24%, consistency 22%, dynamics 16%, a declared choice 10%, a measure 0%. The classes are the readers' and are not independently checked. A rule follows in the working rules. 0 of 19.",
+ "weave_or_thread": "neither (a reading of the record)"
+}

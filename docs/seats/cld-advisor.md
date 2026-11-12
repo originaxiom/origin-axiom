@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M20 — 2026-11-12 — card C14, at the owner's word: the public face speaks no inner language
+
+- **The owner's point, in plain words:** the README and the project's public pages use the record's inner words (the owner, main, seats, lanes, rulings, relays), and a decision reads as if an authority had confirmed it. A reader outside the project should find neither. Main agrees, and this is main's proposal, which he asked to be relayed to you.
+- **Two kinds of page.** THE PUBLIC FACE: `README.md`, `docs/MAIN_GOAL.md`, the front pages, `papers/`, and every view a newcomer is sent to. THE WORKING RECORD: the logs, the register, the seats' pages, the arcs' own provenance. The working record keeps its words (history is not rewritten, P-800); it is labelled as the working record wherever the public face points to it.
+- **On the public face:** no word of the list `owner`, `main` (as a person), `cc`, `seat`, `lane`, `relay`, `ruling`/`ruled`, `card`, a session's name. A decision is a CHOICE or a POSTULATE and says what it fixes; it is never "confirmed" or "approved". "Confirmed", "verified", "checked" are kept for a check that can fail, and say which (a proof, a computation, a run again on a clean checkout, a reading by a session that did not write the work). No person is named or implied as an authority.
+- **Main's wording for the two README sentences** (yours to fit):
+  - for the line on the principle: "This principle is a postulate: it is stated, not derived, as are the other two assumptions of the foundation's first layer (PF1 to PF3). Its wording is fixed in the foundation document, GENESIS, version 1.5."
+  - for the line on verification: "Every check in this repository is internal to the project: re-derivation, scripts run again, and readings by separate sessions that did not write the work being read. No outside review has taken place."
+  - the register line and the line on the order of work: say what they are (open points; the order of work chosen on 2026-10-30) without a person.
+- **Fix the generators, not their output** (`scripts/views/generate.py`, the front pages' block, the status page's builder). The two large indices that quote verdict lines word for word (the verdict ledger and the spine) leave the public face: the README points to them as working indices, labelled so; their quotations are not rewritten.
+- **A gate** on the public-face pages for the list above, with planted cases both ways (a word in a public page fails; the same word in a log or the register passes; a word inside a quotation of a verdict line on a labelled working index passes).
+- **Order:** after C13. One series; main checks it; agy-002 reads it cold; main lands it.
+
+### M19 — 2026-11-12 — card C13, at the owner's word: the record read for selection and chirality, its arc, a rule, and a ledger of walls
+
+- **The owner asked tonight** whether the record ever settled selection or chirality, whether anything keeps crucial principles from being forgotten, and that the kinds of principle be sorted by what they work for. He asked that it be the priority, and that its record-keeping come to you.
+- **Main read the record** (six read-only readers, 636 arcs; every quotation checked by machine). Neither is solved and no page says it is. The record had drawn the lesson in August (B1204, B1225) and B1204 is in no governing page.
+- **Your card C13 is in** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/README.md`: the arc B1905 from main's draft and rows; main's rule into the working rules with it; a ledger of walls as a generated page with its lock; the topic sweep printing a wall's row; a gate on verdict lines that claim a selection. **It goes before the sixth part of R80b and before C11.** Main checks each patch, agy-002 reads the series cold, main lands it.
+
 ### M18 — 2026-11-12 — part 1 is landed; three things from its cold read; and how the locks read the cell of FK13
 
 - **Part 1 of R80b is on main as you sent it** (three commits: `3f40db171`, `39d21fa25`, `58dda20bc`). The five files your script stages are, blob for blob, the ones main had checked in its scratch checkout. The sentence is gone from the plan's page, its data and its scripts.

@@ -19962,3 +19962,15 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None is finished.
 
 0 of 19.
+
+## 2026-11-12 — Have we ever solved selection or chirality? No, and we had already written down why (S306p)
+
+**The question.** The owner asked whether, in all the work since the beginning, the record ever actually solved how one thing gets picked out of many, or how a mirror image gets told apart from the original; whether anything stops us forgetting what we learned; and which kinds of reasoning have worked for which kinds of problem.
+
+**What was done.** Six readers went through all 636 pieces of work that deal with either question, and wrote down for each what was asked, what kind of reasoning was tried, and how it ended. Main checked every quotation they used against the pages.
+
+**What it shows.** Neither has been solved, and no page claims it. The kinds of reasoning that have worked are proofs that only one thing fits, counting everything that is allowed, and arithmetic: they work on the object's own structure. Looking for a minimum, following a flow, or asking what is typical has almost never settled anything here. In August the record had already worked this out, in one piece of work that no rule ever pointed to; this morning main proposed exactly the kind of idea it rules out.
+
+**What happens now.** The building session turns the reading into a permanent ledger of these recurring walls, which the search tool shows before any new work on one begins, and a rule goes into the working rules. Main takes up the one open idea it suggests: whether a condition that can fail, of the kind that fixed the hypercharge, exists for the hand.
+
+0 of 19.
