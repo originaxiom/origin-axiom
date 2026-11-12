@@ -86,12 +86,22 @@ def test_the_two_tests_are_one_test_recomputed_with_the_lines_that_s_keeps():
 
 def test_the_bound_on_the_least_reading_recomputed():
     """The ingredient and the three statements, on sequences the arc's script did not try: length 2 with runs to 12, length 4 with
-    runs to 4, and the all-twos and one-two sequences to length 10."""
+    runs to 4, and the all-twos and one-two sequences to length 10.
+
+    CORRECTED 2026-11-12 (Review 80; a reader's finding, not checked by main; counted here, below): most of these sequences the
+    arc's script did try.  Of the 409 distinct sequences of this test, 295 are among the script's 2,061 (length 2 and 4 with runs
+    to 6, length 6 with runs to 3): every one of length 4, the 36 of length 2 with runs to 6, and three of length 6.  114 are
+    new: the 108 of length 2 with a run of 7 to 12, and six of length 8 and 10.  The first sentence stays as it was written."""
     S = _b1881_script()
     mp.mp.dps = 40
     s5 = mp.sqrt(5) / 2
     seqs = [q for q in itertools.product(range(1, 13), repeat=2)] + [q for q in itertools.product(range(1, 5), repeat=4)]
     seqs += [(2,) * n for n in (2, 4, 6, 8, 10)] + [(2,) + (1,) * (n - 1) for n in (2, 4, 6, 8, 10)] + [(1,) * n for n in (2, 4, 6, 8, 10)]
+    tried_by_the_script = {q for n, top in ((2, 6), (4, 6), (6, 3)) for q in itertools.product(range(1, top + 1), repeat=n)}
+    distinct = set(seqs)
+    assert len(tried_by_the_script) == RES["B_numbers"]["sequences"] == 2061
+    assert (len(distinct), len(distinct & tried_by_the_script), len(distinct - tried_by_the_script)) == (409, 295, 114)
+    assert sum(1 for q in distinct - tried_by_the_script if len(q) == 2 and max(q) >= 7) == 108
     seen_ground = seen_other = 0
     for q in seqs:
         n = len(q)
@@ -108,6 +118,78 @@ def test_the_bound_on_the_least_reading_recomputed():
             assert top > (mp.mpf(3) / 2 if max(q) >= 3 else mp.mpf(4) / 3), q
     assert seen_ground >= 5 and seen_other >= 300 and s5 < mp.mpf(4) / 3
     assert "every run sequence that is not all ones reads above 4/3" in PAGE and "Whether √2 is the second least\n  reading over every sequence is not shown" in PAGE
+
+
+# ---- Review 80 (2026-11-12).  Four things the readers' files say of this arc, each computed by main with code of its own (the
+# arc B1898 keeps it: verification/checks/b1895_probes.py, with its output).  They are computed again here, by that code
+# placed in the lock, so that the notes of that day on the page are held to a computation.
+def _word(seq, a, b):
+    """the word of a run sequence over the integers: the first letter for runs at even places, the second for the others"""
+    mul = lambda A, B: (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2], A[2] * B[1] + A[3] * B[3])
+    W = (1, 0, 0, 1)
+    for k, r in enumerate(seq):
+        for _ in range(r):
+            W = mul(W, a if k % 2 == 0 else b)
+    return W
+
+
+_SEAT = ((1, 0, 1, 1), (1, 1, 0, 1))          # the seat's letters, on rows
+_SECOND = ((1, 1, 0, 1), (1, 0, 1, 1))        # the second convention's letters, on columns
+_SEQS = [seq for n in (2, 4) for seq in itertools.product(range(1, 7), repeat=n)]
+_LINE = lambda w: min(((k * w[0]) % 5, (k * w[1]) % 5) for k in (1, 2, 3, 4))
+_LINES = sorted({_LINE((a, b)) for a in range(5) for b in range(5) if (a, b) != (0, 0)})
+_OWN = lambda v: (v[0] * v[0] + v[1] * v[1]) % 5 == 0                            # the mark annihilates its own line
+
+
+def test_the_second_conventions_word_is_built_and_is_the_seats_conjugated_by_the_swap():
+    """Row A1 of the page says that every word of the second convention is the seat's word conjugated by the swap.  The arc's
+    script and this lock compared the outcome of the two tests, and built no word of the second convention.  Here it is built,
+    letter by letter over the integers, on the 1,332 sequences of the row.  A control: with the letters of the second
+    convention exchanged the two words differ, so the comparison can fail."""
+    mul = lambda A, B: (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2], A[2] * B[1] + A[3] * B[3])
+    J = (0, 1, 1, 0)
+    conj = lambda W: mul(mul(J, W), J)
+    assert len(_SEQS) == 1332 == RES["A_numbers"]["sequences"]
+    assert sum(1 for seq in _SEQS if _word(seq, *_SECOND) == conj(_word(seq, *_SEAT))) == 1332
+    assert sum(1 for seq in _SEQS if _word(seq, _SECOND[1], _SECOND[0]) == conj(_word(seq, *_SEAT))) < 1332        # the control
+    assert "it equals the seat's word conjugated by the swap on 1,332 of the 1,332 sequences" in PAGE
+
+
+def test_the_allowed_set_is_not_closed_under_reversal_for_a_mark_that_does_not_annihilate_its_own_line():
+    """Section 7 left this as not computed.  It is: for each mark, the sequences that are allowed differently from their
+    reversal.  None for the two marks that annihilate their own line; 358 or 362 of the 1,332 for each of the other four."""
+    m5 = lambda A: tuple(x % 5 for x in A)
+    row = lambda v, g: ((v[0] * g[0] + v[1] * g[2]) % 5, (v[0] * g[1] + v[1] * g[3]) % 5)
+    kept = lambda v, g: _LINE(row(v, g)) == _LINE(v)
+    differ = {v: sum(1 for seq in _SEQS if kept(v, m5(_word(seq, *_SEAT))) != kept(v, m5(_word(tuple(reversed(seq)), *_SEAT)))) for v in _LINES}
+    assert [v for v in _LINES if _OWN(v)] == [(1, 2), (1, 3)]
+    assert differ == {(0, 1): 358, (1, 0): 358, (1, 1): 362, (1, 2): 0, (1, 3): 0, (1, 4): 362}
+    assert "358 or 362 of the 1,332 run sequences" in PAGE and "for the two that do, none" in PAGE
+
+
+def test_the_second_least_reading_is_the_all_twos_over_the_cyclic_sequences_that_were_read():
+    """Section 4 says that whether the all-twos' reading is the second least over every sequence is not shown.  A reader gave an
+    argument by cases, which main read; that argument is not written in this arc and is not what this test holds.  What it
+    holds is main's computation: over the primitive cyclic run sequences of length 1 to 10 and 12, with the runs each length
+    is given below, the least reading is the all-ones', the second least the all-twos', and every other reads above 17/12."""
+    S = _b1881_script()
+    mp.mp.dps = 50
+    canon = lambda seq: min(tuple(seq[i:] + seq[:i]) for i in range(len(seq)))
+    cyc = set()
+    for n, top in ((1, 9), (2, 9), (3, 7), (4, 6), (5, 5), (6, 4), (7, 3), (8, 3), (9, 2), (10, 2), (12, 2)):
+        for seq in itertools.product(range(1, top + 1), repeat=n):
+            cyc.add(canon(seq))
+    primitive = lambda seq: not any(len(seq) % d == 0 and seq == seq[:d] * (len(seq) // d) for d in range(1, len(seq)))
+    prim = sorted(c for c in cyc if primitive(c))
+    read = {c: max(S.heights(list(c) if len(c) % 2 == 0 else list(c) * 2)) for c in prim}       # the reading takes an even length
+    assert len(prim) == 3378
+    assert abs(read[(1,)] - mp.sqrt(5) / 2) < mp.mpf(10) ** -40 and abs(read[(2,)] - mp.sqrt(2)) < mp.mpf(10) ** -40
+    others = {c: h for c, h in read.items() if c not in ((1,), (2,))}
+    low = min(others.values())
+    assert low > mp.mpf(17) / 12 > mp.sqrt(2) and [c for c, h in others.items() if h == low] == [(1, 1, 2, 2)]
+    assert mp.nstr(low, 5) == "1.4866"
+    flat = " ".join(PAGE.split())                                              # the page's sentences, whatever line they break on
+    assert "over 3,378 primitive cyclic run sequences" in flat and "the least of them 1.4866 at (1, 1, 2, 2)" in flat
 
 
 def test_the_quotations_and_the_planted_reversions():

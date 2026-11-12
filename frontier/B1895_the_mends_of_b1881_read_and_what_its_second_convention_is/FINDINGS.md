@@ -61,6 +61,11 @@ same run sequences in both.
 | A6 | a control. Two lines annihilate themselves, the mark's and the second mark's. For each of the other four, "the swapped mark on the swapped matrix" is another test | they agree on 88 of the 120 |
 | A7 | on the reversed sequence the second word is the transpose of the seat's word, conjugated by the swap. A row is kept by a matrix exactly when the same vector, as a column, is kept by its transpose | every sequence; every line |
 
+- **On row A1** [NOTED 2026-11-12 (Review 80; a reader's finding, checked by main with a computation of its own)].
+  The statement of the row is true, and it is not what was computed. The arc's script and its lock compare the
+  outcome of the two tests; no word of the second convention was built. Main has since built it, letter by letter
+  over the integers: it equals the seat's word conjugated by the swap on 1,332 of the 1,332 sequences. The lock now
+  builds it.
 - **Why A4 holds, by hand.** Let the row v annihilate the column u, and let the matrix W keep u. Then (vW)u = v(Wu) is
   zero, so vW annihilates u as well. The rows that annihilate u are one line, so vW is on the line of v. The converse
   is the same argument.
@@ -137,7 +142,18 @@ its 23 were caught and six passed. The six are closed in B1897. The sentence abo
   run, came with the change made before B1897's push (`644d5b40f`), and this note was not changed with it.]
 - **Whether the allowed set is closed under reversal for a mark that does not annihilate its own line** is not
   computed. B1881's statement is about its own mark.
+  [COMPUTED 2026-11-12 (Review 80; a reader's finding, checked by main with a computation of its own): it is not
+  closed. For each of the four marks that do not annihilate their own line, 358 or 362 of the 1,332 run sequences
+  of length 2 and 4 with runs to 6 are allowed differently from their reversal; for the two that do, none. The
+  lock computes it. The sentence above stays as it was written.]
 - **The second least reading over every sequence** is not shown (§ 4).
+  [NOTED 2026-11-12 (Review 80; two derivations of a reader, both recomputed by main). The first: the swapped-mark
+  recipe agrees on 120 of 120 matrices at the two marks that annihilate their own line, and on 88 of 120 at each
+  of the other four. That is rows A5 and A6. The second: over 3,378 primitive cyclic run sequences the least
+  reading is the all-ones' (√5/2), the second least the all-twos' (√2), and every other reads above 17/12, the
+  least of them 1.4866 at (1, 1, 2, 2). The reader's argument by cases, for every sequence, was read by main and
+  is right; it is in the reader's file and is not written here. The lock holds the computation, not the argument.
+  The sentence above, and § 4's last bullet, stay as they were written.]
 
 ## Seen first
 
