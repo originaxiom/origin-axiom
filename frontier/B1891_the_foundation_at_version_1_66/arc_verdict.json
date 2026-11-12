@@ -1,0 +1,26 @@
+{
+ "id": "B1891",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1886",
+  "B1879"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the readers of Review 79 (the web seat, the SM seat, agy-002): three of the four corrections are their findings, each reproduced by main at its source"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the foundation's statement)",
+  "object": "GENESIS.md at version 1.66",
+  "reach": "general",
+  "hypotheses": "wording only; no computation is made here. Not covered: the other quotations of the owner that stand in the foundation, which were not counted."
+ },
+ "claim_one_line": "THE FOUNDATION AT VERSION 1.66: FOUR CORRECTIONS FROM REVIEW 79, NO ITEM ADDED AND NO STATUS CELL CHANGED. The advisor seat's sort counts fourteen entries, which are eleven things, as suppositions, where the foundation said eleven entries; with the exchange added most of what the record holds about the weave is unchanged, where it said every statement but the hand; what stands of the walk is its law of run lengths, where it said its measure; and the tick is the only history of at most five letters with exactly the two fixed characters among those that are not a power. One quotation of the owner is given in plain words. Found by sessions that built none of it, reproduced by main. 0 of 19.",
+ "weave_or_thread": "n/a (wording of the foundation; no result is restated)"
+}

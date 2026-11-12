@@ -9,7 +9,7 @@ measurement is not read and not repeated. 0 of 19.*
 
 ## 1. The answer first
 
-- **Every cell the web seat asked main to verify reproduces on main's own code.** 32 checks; 31 hold. The one that
+- **Every cell the web seat asked main to verify reproduces on main's own code.** 31 checks; 30 hold [CORRECTED 2026-11-12 (Review 79; found by a second reading): this read "32 checks; 31 hold". One of the 32 was a check over an empty list: at level 17 the character forces a zero at no elliptic point, and the line passed with nothing under it. It is no longer counted, and the run says in its place that nothing is forced there]. The one that
   fails is main's own guess at how well the lane's point would agree (§ 5).
 - **The state is Maass's form of the golden field at level 5.** It transforms with the quadratic character, to
   2.3 × 10⁻³⁰. It is odd under the mirror and changes sign under the dual involution.
@@ -43,7 +43,8 @@ full and ran none of its code.
 
 - **Main's precision is 30 digits and the seat's is 40.** The agreements are to main's precision.
 - **Two of G3's four zeros test nothing,** as the seat says: on x = 0 and x = ½ every term of a sine series
-  vanishes. Main's run prints exactly 0 there.
+  vanishes. Main's run prints exactly 0 there. [CORRECTED 2026-11-12 (Review 79): on x = 0 only. On x = ½ the check is a
+  threshold: the series is very small there and not exactly 0, and the run prints no value.]
 - **G5's last clause, which failed for the seat by a fault of its design, is not repeated here.** Main checked the
   three clauses that hold.
 
@@ -100,8 +101,14 @@ By hand first: at a point fixed by a move g the state satisfies f = χ(d) f, so 
 ### 3.5 The place depends on the measure
 
 "Density" above is f², taken against the hyperbolic area. Against the chart's Euclidean area the density is f²/y²,
-and near the peak that is greatest 0.057 away, at ∣z∣² = 0.163, off the circle. So the area clock enters the
-read-out a third time, as the web seat's referee says. Main's grid reproduces its figure of 0.056.
+and near the peak that is greatest 0.056 away, at ∣z∣² = 0.164, off the circle. So the area clock enters the
+read-out a third time, as the web seat's referee says.
+
+> **CORRECTED 2026-11-12 (Review 79).** This read "greatest 0.057 away, at ∣z∣² = 0.163" and "Main's grid reproduces
+> its figure of 0.056". The 0.057 and the 0.163 are the nearest point of main's grid, which printed 0.0569. The
+> greatest place itself, found by a search and not on the grid, is 0.05585 from the peak, at ∣z∣² = 0.16432, and the
+> density there is 1.00018 times the grid point's. So the referee's 0.056 is the figure, and a grid that prints 0.0569
+> does not reproduce it. A session that did not build this arc found it; main recomputed the place by its own search.
 
 ## 4. What is forced and what is found
 
@@ -117,7 +124,10 @@ read-out a third time, as the web seat's referee says. Main's grid reproduces it
 
 ## 5. The agy lane's reported point
 
-Main read the lane's point in the web seat's sealed header. Main has not read the lane's files.
+Main read the lane's point in the web seat's sealed header. Main has not read the lane's files. [CORRECTED
+2026-11-12 (Review 79): the second sentence is wrong as it stands. Before this arc main had read the lane's relay in full
+and the head of one of its sealed pages, both through its mask (harvest rows 1676 and 1677). What is true is that the
+point was not taken from the lane's files.]
 
 | | at main's point | at the lane's reported point |
 |---|---|---|
@@ -126,7 +136,7 @@ Main read the lane's point in the web seat's sealed header. Main has not read th
 | ∣z∣² − 1/5 | 0 to 30 digits | 1.33 × 10⁻⁹ |
 | distance between the two points | | 1.5 × 10⁻⁹ |
 
-- **The lane's point is right to 1.5 × 10⁻⁹ and no further.** Its last six printed digits are not the peak's.
+- **The lane's point is right to 1.5 × 10⁻⁹ and no further.** Its last six printed digits are not the peak's in the real part, and its last seven in the imaginary part [the count for the imaginary part added 2026-11-12, Review 79].
 - **Main's own expectation H6 fails as written.** It said the two would agree to 10⁻⁹. It was not blind (§ Disclosed).
   It is kept as failed in the run.
 - **Not verified by main:** the web seat reports that the lane's printed gradient does not fit its printed point,
@@ -205,4 +215,4 @@ python3 -B frontier/B1885_the_golden_state_on_the_whole_verified/verification/go
 ```
 
 It writes `golden_state_on_main.json` and `golden_state_on_main_run.txt` beside itself. It ends with
-`CHECKS: 32, FAILING: 1`, the one being H6.
+`CHECKS: 31, FAILING: 1`, the one being H6. [Was 32: see the correction in § 1.]

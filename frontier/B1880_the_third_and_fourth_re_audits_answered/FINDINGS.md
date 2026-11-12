@@ -71,6 +71,12 @@ The seat's search found lists the gate did not read. Main measured them the way 
   and no datum changed in any of them.
 - **Classes C, D and E are not read one by one.** Where they are:
 
+  > **CORRECTED 2026-11-12 (Review 79).** The table below counts all five classes and not these three. Its rows add
+  > to 144 entries that mismatch and 210 that name no tracked file, 354 in all; classes C, D and E are 135, 22 and
+  > 188, which is 345. The nine entries of classes A and B, read one by one above, are inside its first and third
+  > rows. And classes D and E are told apart by files on main's own disk that git does not track: on a clean
+  > checkout class D is empty and class E has 210. The split is not reproducible from the repository; their sum is.
+
 | where | entries that do not verify | what the lists are |
 |---|---|---|
 | B600 to B879 | 142 that mismatch, 152 that name no tracked file | other seats' packets of June to August, integrated whole: lists of the files as received |
@@ -176,7 +182,7 @@ recommended. The advisor seat notes both.
 ## Reproduce
 
 ```
-python3 -B frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py
+python3 -B frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py      # prints; writes nothing (corrected 2026-11-12, Review 79: it overwrote its committed outputs)
 python3 -B frontier/B1880_the_third_and_fourth_re_audits_answered/verification/read_class_a.py
 python3 -m pytest -q tests/test_artifact_hashes.py tests/test_arrival_phrases.py tests/test_attribution_history.py
 python3 -m pytest -q frontier/B1880_the_third_and_fourth_re_audits_answered/verification/

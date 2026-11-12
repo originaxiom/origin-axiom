@@ -161,3 +161,35 @@ def test_the_proposal_is_marked_as_not_in_force_and_asks_no_question_of_fact():
     assert len(re.findall(r"^\d\. \*\*", asks, flags=re.M)) == 3
     # the three are a standard, the team and an order of work: none asks him whether a statement of the mathematics is true
     assert [m for m in re.findall(r"^\d\. \*\*(.+?)\*\*", asks, flags=re.M)] == ["The standard.", "The team.", "The order."]
+
+
+def test_the_builder_reads_every_numbered_row_of_the_ledger():
+    """Added 2026-11-12 (Review 79).  The builder asked for eight cells and dropped thirteen rows that have six, and this lock,
+    which compared the builder with its own committed output, could not see it: a reading on another family of model did.
+    Here the ledger's rows are counted apart from the builder, at the commit the pages are of."""
+    import re
+    import subprocess
+    commit = json.loads((ARC / "SEATS.json").read_text(encoding="utf-8"))["as_of"]
+    r = subprocess.run(["git", "-C", str(ARC.parents[1]), "show", "%s:docs/HARVEST_LEDGER.md" % commit[:12]], capture_output=True, text=True)
+    if r.returncode != 0:                                              # without the commit, the ledger as it stands gives a floor
+        text = (ARC.parents[1] / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
+        numbered = [int(m.group(1)) for m in re.finditer(r"^\| (\d+) \|", text, re.M)]
+        assert len([n for n in numbered if n <= 1699]) == 1699
+        return
+    text = r.stdout
+    numbered = [int(m.group(1)) for m in re.finditer(r"^\| (\d+) \|", text, re.M)]
+    built = bs.rows(text)
+    assert sorted(numbered) == list(range(1, max(numbered) + 1)) == sorted(x["n"] for x in built)          # every number once, and every one read
+    six = [l for l in text.split("\n") if re.match(r"^\| \d+ \|", l) and len(l.strip().strip("|").split(" | ")) == 6]
+    assert len(six) == 13 and len(built) == 1699
+    # a row of a shape the builder does not know is refused, not dropped
+    try:
+        bs.rows("| 1 | a seat | an item | a headline |")
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("a row of four cells was read or dropped without a word")
+    # the cell for main's arc is read for the register row that carries an item
+    D = json.loads((ARC / "SEATS.json").read_text(encoding="utf-8"))
+    assert sum(1 for x in D["flagged"] if x["carried_by"]) == 53 and len(D["flagged"]) == 74
+

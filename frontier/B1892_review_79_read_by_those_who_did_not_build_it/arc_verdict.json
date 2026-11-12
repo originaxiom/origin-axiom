@@ -1,0 +1,42 @@
+{
+ "id": "B1892",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1878",
+  "B1879",
+  "B1880",
+  "B1881",
+  "B1882",
+  "B1883",
+  "B1884",
+  "B1885",
+  "B1886",
+  "B1887",
+  "B1888",
+  "B1889",
+  "B1890",
+  "B1891"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat: relays/REVIEW_79_CHAT1.md @ 0455e766c, ten findings and three notes, each reproduced by main",
+  "the SM seat: relays/REVIEW_79_SM.md @ 4d0a46b93, forty-eight findings and five locks tested against planted errors, each finding reproduced by main",
+  "agy-002: relays/REVIEW_79_AGY-002.md @ 7af2a8670, twenty-six findings, read by main through its mask, each reproduced by main",
+  "agy-exp: relays/REVIEW_79_AGY-EXP.md @ 18634218e, fifteen findings, read by main through its mask, each reproduced by main",
+  "the advisor seat: its read of the page on the review (@ 0daadf89d) and its planted suite (@ f61cfbd1c), run by main"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's own arcs, pages and instruments over Review 79's window (38d2a36dc to 0dda7b472)",
+  "object": "the window's 13 added arcs, 11 whose verdict file changed and 14 whose findings changed, the governing pages, and main's changes to its instruments",
+  "reach": "general",
+  "hypotheses": "four of four readers delivered; B1889 was read by one reader, and its part on the agy family's sessions by none; two changed arcs whose notes concern a comparison with measured values were left by their second reader under the firewall; every finding is an exact quotation found by machine and reproduced by main; no reader was tested against planted faults; what main mended in answer is outside the window"
+ },
+ "claim_one_line": "REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of which ten were found by two readers, so one reading misses most of what is there: in one arc one reader found ten faults and the other none. Every arc of the window was read in full, all but one by two sessions, the governing pages and main's changes to its instruments with them; every quotation, 111 of 111, was found by machine at the commit read. Main mended what was its to mend, each with the old words kept and a lock that can fail where a check had been too weak, and sent eleven faults in the enforcement package's files to its builder. The instruments: main's gates catch 14 of 32 planted cases on the reviewed commit; the locks on five corrections caught 25 of 44 errors planted against them; the full suite on a fresh clone failed 15 tests, 12 of them main's own of this window. The review's block can still be switched off in two ways, and no reader was tested against planted faults. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

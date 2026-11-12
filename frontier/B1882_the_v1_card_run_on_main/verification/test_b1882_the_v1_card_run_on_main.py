@@ -125,7 +125,10 @@ def test_the_counts_and_the_margins_the_page_prints():
     assert D["instruments"]["N1"]["rows"] == 47880 and D["instruments"]["N2"]["rows"] == 21408
 
 
-def test_the_audits_figure_is_reproduced_and_belongs_to_targets_that_fit_nothing():
+def test_a_share_falls_in_the_window_written_for_the_audits_figure_and_the_pile_up_is_not_among_the_well_fitted():
+    # RENAMED 2026-11-12 (Review 79).  The name said the audit's figure "is reproduced" and "belongs to targets that fit nothing".
+    # Nothing of the audit's was run again, and no fit was measured.  "reproduced" below is the card's own field: a share fell in
+    # the window the card wrote beforehand.  The last layer is compared with its neighbour at the two depths named here, no deeper.
     fig = D["the_audits_figure"]
     assert fig["reproduced"] is True and any(0.17 <= v <= 0.23 for v in fig["shares_of_all_targets"].values())
     assert abs(fig["shares_of_all_targets"]["N1 wf|seat | top layer 1 | all_seeds"] - 0.205881) < 1e-9
@@ -150,3 +153,71 @@ def test_the_arc_says_what_the_cells_read_and_no_more():
     for d, word in (("B1726_the_two_ingredients_replicated", "about 1.5 times"), ("B1753_the_six_on_the_five_ality_lines", "about 2 times")):
         t = (ARC.parent / d / "FINDINGS.md").read_text(encoding="utf-8")
         assert "Dated note 2026-11-11 (B1882" in t and word in t and "whose two ends are a choice" in t
+
+
+def test_the_pages_numbers_are_the_runs():
+    """Added 2026-11-12 (Review 79).  Two readings of this arc, by sessions that did not build it, found six numbers and three
+    sentences of the page that the run does not give; the test above, which asks only that phrases be present, let all of them
+    through.  Here every number the corrected page states is computed from the committed run and looked for in the page as it
+    prints it.  What fails it: a threshold, an interval end, a range, a count or a margin on the page that is not the run's."""
+    from decimal import Decimal, ROUND_HALF_UP
+    from fractions import Fraction
+    inst = json.loads((ARC / "card" / "v1_null.json").read_text(encoding="utf-8"))["instruments"]
+    page = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
+    cells = [(n, k) for n in ("N1", "N2") for k in inst[n]["cells"]]
+    assert len(cells) == 9
+    end = lambda n, k, depth, which: inst[n]["cells"][k]["leave_out"][depth][which + " layer 1"]
+    share = lambda x: Fraction(x["rows_share"]).limit_denominator(10 ** 6)                    # 1/15 and 15/223, exactly
+    ratio = lambda x: Fraction(x["lost"], x["n"]) / share(x)
+
+    def places(q, n):                                                                          # exact, rounded half up as the page was
+        return str((Decimal(q.numerator) / Decimal(q.denominator)).quantize(Decimal(1).scaleb(-n), rounding=ROUND_HALF_UP))
+
+    # the rule's line: twice the rows' share of the thousand targets
+    t1, t2 = (2 * share(end(n, k, "best 0.1%", "top")) * 1000 for n, k in (("N1", "wf|seat"), ("N2", "chi2|seat")))
+    assert "%s targets for the first null and %s for the second" % (places(t1, 1), places(t2, 1)) in page
+    # the table at ten times the depth
+    for name, (n, k) in (("first null, worst factor, seat", ("N1", "wf|seat")), ("second null, χ², seat", ("N2", "chi2|seat")),
+                         ("second null, worst factor, seat", ("N2", "wf|seat"))):
+        x = end(n, k, "best 1%", "top"); s = float(share(x))
+        assert "| %s | %s [%.2f, %.2f] |" % (name, places(ratio(x), 2), x["ci95"][0] / s, x["ci95"][1] / s) in page, name
+    # the two ranges, under the seat's menu and over all nine cells
+    tops = {c: float(ratio(end(*c, "best 0.1%", "top"))) for c in cells}
+    bots = {c: float(ratio(end(*c, "best 0.1%", "bottom"))) for c in cells}
+    seat = [c for c in cells if c[1].endswith("|seat")]
+    assert "at %.1f to %.1f times the average rate, and from the first at %.2f to %.2f of it" % (
+        min(tops[c] for c in seat), max(tops[c] for c in seat), min(bots[c] for c in seat), max(bots[c] for c in seat)) in page
+    assert "the top end reads %.1f to %.1f and the bottom end %.2f to %.2f" % (min(tops.values()), max(tops.values()), min(bots.values()), max(bots.values())) in page
+    assert max(bots.values()) > 0.1 and max(tops.values()) > 2                                # what the old sentence denied
+    # the targets whose best row is in the top layer, by how well they are fitted
+    pop = inst["N1"]["cells"]["wf|seat"]["all_seeds"]["populations"]
+    hits = [pop[d]["share"]["top layer 1"]["hits"] for d in ("all", "best 5%", "best 1%", "best 0.1%")]
+    assert "of the first null's {:,}, {:,} are in the best 5%, {:,} in the best 1% and {:,} in the best 0.1%".format(*hits) in page
+    # the last layer against its neighbour: below it at three depths in all three decisive cells, and the counts at the deepest
+    deep = []
+    for n, k in (("N1", "wf|seat"), ("N2", "chi2|seat"), ("N2", "wf|seat")):
+        P = inst[n]["cells"][k]["all_seeds"]["populations"]
+        for d in ("best 5%", "best 1%", "best 0.1%"):
+            assert P[d]["share"]["top layer 1"]["hits"] < P[d]["share"]["top layer 2"]["hits"], (n, k, d)
+        deep.append((P["best 0.01%"]["share"]["top layer 1"]["hits"], P["best 0.01%"]["share"]["top layer 2"]["hits"]))
+    assert "%d against %d in the first null; %d against %d and %d against %d in the second" % (deep[0] + deep[1] + deep[2]) in page
+    assert deep[0][0] > deep[0][1]                                                             # so "below its neighbour" cannot stand with no depth
+    # ... nor with no menu: under the other two menus it holds at 5% and 1% in every cell, and at 0.1% in all but one
+    hits = lambda c, d, layer: inst[c[0]]["cells"][c[1]]["all_seeds"]["populations"][d]["share"][layer]["hits"]
+    others = [c for c in cells if not c[1].endswith("|seat")]
+    assert all(hits(c, d, "top layer 1") < hits(c, d, "top layer 2") for c in others for d in ("best 5%", "best 1%"))
+    above = [c for c in others if hits(c, "best 0.1%", "top layer 1") > hits(c, "best 0.1%", "top layer 2")]
+    assert above == [("N1", "wf|cov")]
+    assert "the first null's covariant menu, %d against %d" % (hits(above[0], "best 0.1%", "top layer 1"), hits(above[0], "best 0.1%", "top layer 2")) in page
+    # the margins of the read-outs that read A
+    over = lambda n, k, depth: float(end(n, k, depth, "top")["lost"] - 2 * share(end(n, k, depth, "top")) * end(n, k, depth, "top")["n"])
+    a = [over("N2", k, "best 0.1%") for k in ("chi2|cov", "chi2|free", "wf|cov", "wf|free")]
+    b = [over("N2", k, "best 1%") for k in ("chi2|cov", "chi2|free", "wf|cov", "wf|free")]
+    assert "%.1f and %.1f over it under χ² and %.1f and %.1f under the worst factor" % tuple(a) in page
+    assert "%.1f, %.1f, %.1f and %.1f over it" % tuple(b) in page and all(v > 0 for v in a + b)
+    x = end("N2", "wf|free", "best 1%", "top")
+    assert "{:,} against a line at {:,.2f}, a ratio of {:.3f}".format(x["lost"], float(2 * share(x) * x["n"]), float(ratio(x))) in page
+    # the sentences that were wrong stand once each, inside the dated correction
+    for old in ("Those are targets that fit nothing.", "At the bottom end, at less than a tenth of it.", "was reproduced on main in B1870"):
+        assert page.count(old) == 1 and page.index("CORRECTED 2026-11-12 (Review 79") < page.index(old) or old == "was reproduced on main in B1870", old
+    assert "left open there" in page and "\"OPEN, not checked\"" in page

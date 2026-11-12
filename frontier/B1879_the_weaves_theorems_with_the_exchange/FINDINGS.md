@@ -6,13 +6,23 @@ computation: for each statement the closure map holds about the weave, what beco
 number of ticks take part. Data-free: exact algebra, a count, and SnapPy. No measured number is read and nothing is
 compared with a measurement. It decides nothing; it says what each decision costs. 0 of 19.*
 
+> **Corrections of 2026-11-12 (Review 79).** This arc was read in full by a session that did not build it, and ten
+> things in it were wrong or wider than what was computed. Each is corrected where it stands, with the old words kept.
+> One concerns the first sentence above: by the working rules' point on what the owner says, "the tick is an act" is
+> a supposition about the mathematics, re-typed as such on 2026-11-11, and it is not recorded as his ruling. This
+> page, here and in § 7, was written before the re-typing and calls it a ruling; those sentences are kept as written.
+
 ## 1. The answer first
 
 - **Most of what the record holds about the weave is unchanged** when the exchange is added to the moves: the two
-  fixed characters, the walk's measure, the absence of a fixed modulus, one end per history.
+  fixed characters, the walk's law of run lengths, the absence of a fixed modulus, one end per history.
+  [CORRECTED 2026-11-12 (Review 79): this read "the walk's measure". What was computed is the law of the lengths of
+  runs; § 2's row says what that leaves unshown.]
 - **What changes is one thing: the hand.** With the exchange the triplet is no longer a representation by itself. It
   joins its conjugate into one irreducible piece of dimension six. The group then contains its own generalised CP.
-  The chiral three, whose sign is the hand, has no sign left at the level of the weave.
+  The chiral three, whose sign is the hand, then has no sign left at the level of the weave: that is argued from the
+  joined piece, and the index was not recomputed (§ 2).
+  [CORRECTED 2026-11-12 (Review 79): this was stated as a result, with no word that it is an argument.]
 - **One thing gets stronger, and main did not expect it.** The tick, alone, fixes exactly two characters: the trivial
   one and the quaternion point. The record needs both two-act moves together for that. So the place where the
   records sit is singled out by the single founding act.
@@ -31,10 +41,10 @@ compared with a measurement. It decides nothing; it says what each decision cost
 | the weave's group has order 96, and its generalised CP is the record swap (W:G96) | **changed as that statement itself says:** order 192, and the group contains its CP | computed; the triplet's indicator twisted by the exchange is +1, whatever the lift |
 | neither hand is derived on the weave (W:HANDS) | **stronger:** on the joined piece there is no hand to derive | follows from the row above |
 | given two tagged inputs, the chiral three is an index ±3 (W:INDEX3) | **changed.** The sign is the hand. The exchange carries the half with one sign onto the half with the other, so the one joined piece has no signed index | argued from the two rows above; the index itself is not recomputed here |
-| the moves' walk gives Minkowski's measure (W:WALK, W:MEASURE) | **unchanged, exactly.** A run has length r with probability 2⁻ʳ in the grammar of L and the tick, as in that of L and R | exact count: all 165 triples of runs that fit in 12 letters |
+| the moves' walk gives Minkowski's measure (W:WALK, W:MEASURE) | **the law of run lengths is unchanged, exactly.** A run has length r with probability 2⁻ʳ in the grammar of L and the tick, as in that of L and R. **The measure itself is not shown unchanged** [CORRECTED 2026-11-12 (Review 79): this read "unchanged, exactly". The node's statement holds "at every strength of the pull-back", and no pull-back was computed. And a word in L and the tick, rewritten in L and R, always begins with L, where words in L and R begin each way equally: so where the walk's point lies is not the same in the two grammars] | exact count: all 165 triples of runs that fit in 12 letters |
 | no weight at the cusp (W:NO-ATOM) | unchanged: it is a statement about that same measure | follows |
 | no point of the modulus is fixed by every move (W:NOMOD) | **unchanged, a fortiori.** The tick fixes no point of the half-plane. The exchange adds mirrors: the lines Re τ = 0, Re τ = ½ and ∣τ∣ = 1 | exact |
-| a generated state has one end (W:ONE-END) | **unchanged:** each of the 22 histories of an odd number of runs to 7 letters has one end | SnapPy |
+| a generated state has one end (W:ONE-END) | **unchanged:** each of the 22 histories of an odd number of runs to 7 letters has one end [Added 2026-11-12 (Review 79): this holds by construction. A bundle over the once-punctured torus has one cusp whatever its monodromy, so the count could not have come out otherwise and tests nothing the exchange could change] | SnapPy; by construction |
 | a sum over all threads is mirror-even (W:FLAT-SUM, W:MIRROR-EVEN) | unchanged, and now by construction | follows |
 | no parameter is a number of the weave's group; the six read as a draw (W:NOVAL, W:DRAW) | **not restated** | they compare with measurement: § 5 |
 
@@ -121,6 +131,12 @@ What this does not do: it supplies no hand. It says where a hand would have to c
 The advisor seat recomputed every statement of this arc that can be computed, with its own code (its `verify_b1879/`
 @ `7726eeed`; not blind, since main had landed the result first). All of it agrees.
 
+> **CORRECTED 2026-11-12 (Review 79).** The two sentences above state another session's check as a fact of this
+> record. Its code and outputs are on that session's branch and not on main, and main has neither read nor run them.
+> What can be said: by its own account it recomputed these statements with separate code, after main's result was
+> public, and found agreement. The verdict file now cites it as that, and no label of the protocol is claimed for it
+> here.
+
 It put one question more, after its check: every history fixes the two universal characters; which histories fix
 nothing else? Main checked its answer with main's own code (`verification/only_the_tick.py`, exact, by Groebner
 bases over the rationals):
@@ -132,8 +148,10 @@ bases over the rationals):
 | the other eleven of at most five letters | a set of positive dimension |
 
 - **So § 3 holds in a stronger form.** Among the thirteen histories of at most five letters, the single tick is the
-  only one whose fixed characters are exactly those two. The square of the tick, which is the root, is one of the
-  eleven.
+  only one whose fixed characters are exactly those two. The square of the tick, which is the root, is not among the
+  thirteen: the count leaves out a power of a shorter word. It fixes a curve (§ 3).
+  [CORRECTED 2026-11-12 (Review 79): this read "The square of the tick, which is the root, is one of the eleven."
+  The run's own heading says the thirteen are words that are not a power.]
 - **Not proved beyond five letters.** The fact is the advisor seat's; main reproduced it.
 
 ## Seen first
@@ -151,7 +169,9 @@ bases over the rationals):
   it. The suggestion in § 6 is main's and is marked as such.
 - **Main asked the owner about the tick without the standing ruling beside the question** (Review 78's record). This
   computation is what that omission cost, done the same day.
-- **The expectations were written before computing,** in the script's header. Of six, three held, one was already on
+- **The expectations were written before computing,** in the script's header. [CORRECTED 2026-11-12 (Review 79):
+  nothing on file shows that. The header carries each outcome beside its expectation, and script, run and findings
+  entered the record in one commit. By the protocol's labels this arc is computed once.] Of six, three held, one was already on
   record, one failed in a useful way (the tick alone fixes the two characters), and one was not well posed.
 - **The exchange's lift on the six-dimensional space is fixed only up to a phase.** Only statements that do not
   depend on it are made.

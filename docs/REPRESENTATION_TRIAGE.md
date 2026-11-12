@@ -141,3 +141,10 @@ S158's five (B1686 W60 and W62 on main, B1687 the Clifford group, B1688 Ising ×
 verifications) are on CAMPAIGN_STATUS. The 13 PENDING rows above are unchanged.
 
 **Currency read 2026-10-24 (S218; the window B1691–B1751).** The representation sweep reports 0 untriaged substantial arcs at B1751. The window's arcs are on synthesis surfaces: the frame's value tests and their verifications (B1712–B1749: the line census, the two ingredients, the thread rule, the Higgs regimes, the reading test, the heavy generations, the six at fresh apexes) on CAMPAIGN_STATUS and `docs/LOOK_LEDGER.md`; the foundations (B1706, B1715, B1721, B1750, B1751: GENESIS v1.52–v1.56) on GENESIS's log; the weave's facts and rules on `docs/THE_WEAVE.md`. The 13 PENDING rows above are unchanged.
+
+**Currency read 2026-11-12 (S306p, Review 79; the window B1832–B1892).** The currency gate found this page 61 arcs
+behind the corpus and owed a read. `representation_sweep.py` at the corpus head B1892: 743 substantial arcs, 13 cited
+on no synthesis surface, **0 untriaged**. So every substantial arc of the window is cited on a synthesis surface or
+has a row above. What this read did not do: read those surfaces for what they say of each arc; the sweep sees a
+citation and not its content. The PENDING rows above are unchanged, and each is still a debt.
+

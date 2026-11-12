@@ -40,6 +40,14 @@ def test_the_comparison_half_reaches_the_measured_values_and_the_derivation_half
     # one file of the chain names the measured file; many in the tree do
     assert len(RES["namers_in_chain"]) == 1 and RES["namers_in_chain"][0].endswith("B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py")
     assert RES["namers_in_tree"] >= 40
+    # ADDED 2026-11-12 (Review 79): the page said 50 where this output says 51, and the line above could not see it.  The
+    # page's number and the verdict line's are now read and held to the output.  What could fail: either stating another count.
+    import re
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    said = [int(x) for x in re.findall(r"In the whole tree (\d+) do", page)] + [int(x) for x in re.findall(r"in the archive (\d+) scripts name the file", page)]
+    said += [int(x) for x in re.findall(r"that (\d+) scripts of the whole tree name", line)]
+    assert len(said) == 3 and set(said) == {RES["namers_in_tree"]}, said
 
 
 def test_the_chain_is_far_shorter_than_the_lists_and_inside_them():
@@ -60,7 +68,8 @@ def test_the_first_fault_cannot_return():
 
 def test_the_arc_says_what_was_measured_and_what_is_judgement():
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
-    for s in ("It is an upper bound", "does not hold as stated", "\"Not now\" stands", "A rough estimate, not a measurement", "Main is a party",
+    # 2026-11-12 (Review 79): this asserted the sentence "It is an upper bound", which a reading showed to be wider than the measurement
+    for s in ("It is an upper bound on what the code names", "It is not an upper bound on what the code opens", "as read from the code, does not reach the measured values", "does not hold as stated", "\"Not now\" stands", "A rough estimate, not a measurement", "Main is a party",
               "The agy lane's reports were not read", "## Seen first", "## Disclosed", "0 of 19"):
         assert s in f, s
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))

@@ -47,7 +47,7 @@ try: git is there and has nothing to say.
 | check | result |
 |---|---|
 | each patch's lock, run on the commit before the patch | patch 1: all 7 fail. Patch 2: 2 fail, 7 pass. Patch 3: 4 fail, 8 pass. Patch 4: 2 fail, 12 pass. These are the seat's numbers |
-| the series' own lock on main's head | 14 pass |
+| the series' own lock on main's head | 14 pass [CORRECTED 2026-11-12 (Review 79): no committed output showed this run when the row was written; the file held each patch's lock on the commit before it. Run again at Review 79's landing and committed: 14 passed, the last section of `verification/other_checks_run.txt`] |
 | main's own tests that name a gate or a debt checker, 47 files | 366 pass, 5 skipped, 2 fail; the 2 are the views being out of date, and pass once the views are generated |
 | all 53 gates on the end of the series, views generated | 53 pass |
 
@@ -66,7 +66,7 @@ Two smaller things, looked for and not found:
 | a shallow clone refuses the 14 gates that read the past, at any depth | kept |
 | run by hand, the day is still the commit's | kept: a review is read as a function of the commit |
 | the day is the committer date in the commit's own time zone | kept |
-| a commit dated before its parent is not trusted for its day (the fourth patch, the seat's own rule) | kept. Main's commits and the patches it applies are dated by the committer's clock, which does not run backwards |
+| a commit dated before its parent is not trusted for its day (the fourth patch, the seat's own rule) | kept. Main's commits and the patches it applies are dated by the committer's clock, which does not run backwards [CORRECTED 2026-11-12 (Review 79, from a reading on another family of model): the rule compares two commits by seconds since the epoch, and the day the gates then use is the commit's calendar date in its own time zone. A commit made later, in a zone further west, passes the rule and carries an earlier day, by one day or two. So the day can move back without the rule firing; and the rule reads the first-parent line only. Both go to the builder of the package] |
 | the views are not in the series | main generated them at this landing |
 
 Four of main's tests are changed by the series, each with a dated note in the file. Two of them keep names that say
@@ -110,6 +110,13 @@ The cases need a scratch checkout of main at 2f3984d27 with the four patches app
 python3 -B run_unseen.py export
 python3 -B run_unseen.py shallow
 python3 -B run_unseen.py dates
+python3 -B run_unseen.py clock
 ```
 
 About fifteen minutes in all. `verification/unseen_cases_run.json` holds every gate's line as it was printed.
+
+> **CORRECTED 2026-11-12 (Review 79).** That sentence says more than the file holds. For each case the file holds which
+> gates refused, which failed otherwise and which passed, as lists of names; and, for the cases on dates, the lines
+> that changed, of which there are none. It does not hold every gate's line. And two things in the commands above were
+> wrong: each stage writes a file of its own name beside the runner, which were then put together into this one by
+> hand; and the fourth stage, the clock, was not listed. It is listed now.

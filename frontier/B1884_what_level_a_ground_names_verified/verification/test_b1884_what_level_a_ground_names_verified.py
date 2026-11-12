@@ -50,3 +50,35 @@ def test_the_arc_says_which_reading_gives_the_level():
         assert s in f, s
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1884" and v["claim_one_line"].endswith("0 of 19.") and "thread" in v["weave_or_thread"]
+
+
+def test_two_and_no_more_holds_to_200_and_not_beyond():
+    """Added 2026-11-12 (Review 79), from a second derivation on another family of model: the page said "Two at 11, 19, ... and
+    on; none elsewhere", which is true of the range computed and false nine levels later.  Counted here by brute force."""
+    rho = lambda n: sum(1 for x in range(n) if (x * x - x - 1) % n == 0)
+    counts = {n: rho(n) for n in range(2, 1001)}
+    assert max(counts[n] for n in range(2, 201)) == 2                                   # to 200: none, one or two
+    assert min(n for n, c in counts.items() if c > 2) == 209 and counts[209] == 4      # 11 x 19: the first with four
+    assert [x for x in range(209) if (x * x - x - 1) % 209 == 0] == [15, 81, 129, 195]
+    assert [n for n, c in counts.items() if c == 1] == [5] and counts[25] == 0          # exactly one: at 5 and at no other level to 1000
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "four at 209 = 11 × 19" in f and "holds to 200, the range computed" in f
+
+
+import os as _os
+
+import pytest as _pytest
+
+
+@_pytest.mark.skipif(not _os.environ.get("OA_SLOW"), reason="OA_SLOW=1: runs the arc's script again (four and a half minutes on main's machine)")
+def test_the_script_is_run_again_and_every_check_holds():
+    """Added 2026-11-12 (Review 79).  The first test reads the seventeen checks from the committed file and reruns nothing; a
+    reader planted a change in one check, the script reported it failing and this lock passed.  Here the script is run.
+    IN THE SLOW LANE ONLY, because of its time: so in the default lane a change to the script that is not rerun still
+    passes this lock, and the three recomputing tests above are what stands against it.  Said, not hidden."""
+    import subprocess
+    import sys
+    r = subprocess.run([sys.executable, "-B", str(HERE / "ground_level_on_main.py")], capture_output=True, text=True, timeout=1800)
+    assert r.returncode == 0, (r.stdout[-500:], r.stderr[-500:])
+    assert "FAILING: 0" in r.stdout and "every coprime factorisation of the 139 levels" in r.stdout
+

@@ -9,7 +9,11 @@ of work or a meaning, and never a fact (P-780). It changes wording and adds thre
 ## 1. The answer first
 
 - **No status cell of an existing item changes.** Every older row of the foundation has the status it had at v1.64;
-  the lock compares them all with the committed v1.64.
+  the lock compares them all with the committed v1.64. [CORRECTED 2026-11-12 (Review 79): it compared the 29 rows that
+  open with an identifier, and not the foundation's other tables that carry a status. It compares both now: 29 rows of
+  the first kind and 19 of the second at version 1.64, none gone and none changed at 1.65. And where git did not hold
+  the older commit the test skipped, so on a shallow clone or an export the claim was not tested; the cells of both
+  versions are now a committed file, compared in every checkout.]
 - **Three items are new:** the claim (PF5, OPEN), the ground (SE3, POSTULATED as main's entry), and a fork on the
   observer's place (FK16, OPEN).
 - **One sentence is re-typed:** "even ticks observed" is no longer recorded as the owner's ruling. It is a condition

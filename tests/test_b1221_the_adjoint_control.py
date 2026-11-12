@@ -1,6 +1,6 @@
 """B1221 lock -- the control row "adjoint-only content | 72" was a grid's size, not a kernel's order (corrected 2026-11-11).
 
-Found by a second derivation on another family of model (agy-002's card A2-C1) and checked here on the arc's own instrument,
+Found by a second derivation on another family of model (harvest row 1709) and checked here on the arc's own instrument,
 which samples the circle U(1) at N points.  What could fail: the adjoint count not growing with the grid (then 72 would have
 been a kernel's order after all); a count that matters moving with the grid; or the correction missing from the page."""
 import importlib.util

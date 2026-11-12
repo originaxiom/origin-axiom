@@ -7,7 +7,12 @@ ground. 0 of 19.*
 
 ## 1. The answer first
 
-- **Every prediction of the card is reproduced:** 17 checks, none failing, on the first run.
+- **Every prediction of the card is reproduced:** 17 checks, none failing, on the first run. [CORRECTED 2026-11-12
+  (Review 79): two things. These are recomputations with main's own code, which the protocol calls "recomputed
+  independently" and not "reproduced". And one of the seventeen, G5, is main's own check and not a prediction of the
+  card. Also: the check of multiplicativity tried coprime parts only up to 14, which covers 47 of the 139 levels to
+  200 that have a coprime factorisation; it now tries every one. And the old sentence that this arc's table
+  corrects, that LR fixes a point only at N = 5, stood unscoped in five places; each carries the correction now.]
 - **The tick has its level by one reading only, the discriminant.** The tick and its square have the same
   discriminant, 5. That is the reading B1876 used, and it stands.
 - **A second reading on record does not reach the tick.** The rule of a history's own lines gives the tick no line
@@ -28,7 +33,7 @@ sides; the tick is F = L·P, with rows (0, 1), (1, 1); F′ = P·F·P is its oth
 | P0: the controls | F² = L·R, F′² = R·L, P·L·P = R, F′ = R·F·R⁻¹, both of determinant −1. v₀ = (1, 3) has v₀·L·R = −v₀ and v₀·F = 3v₀ modulo 5 |
 | P1: the invariants | det(F − I) = −1 and det(F + I) = 1. det(L·R − I) = −1 and det(L·R + I) = 5 |
 | P1b: by brute force | to N = 200 the tick and its other side keep no primitive vector up to sign at any N. The square keeps four at N = 5 and none elsewhere |
-| P2: lines kept as sets | for each of the four and every N to 200, as many as the roots of x² − x − 1 modulo N. Exactly one at N = 5 and at no other N. Two at 11, 19, 29, 31, 41, 55, 59, 61, 71, 79, 89, 95 and on; none elsewhere |
+| P2: lines kept as sets | for each of the four and every N to 200, as many as the roots of x² − x − 1 modulo N. Exactly one at N = 5 and at no other N. Two at 11, 19, 29, 31, 41, 55, 59, 61, 71, 79, 89, 95 and on; none elsewhere [CORRECTED 2026-11-12 (Review 79): "and on; none elsewhere" holds to 200, the range computed. Beyond it the count is a product over the primes of N, two for each prime that is ±1 modulo 5: four at 209 = 11 × 19, where the roots are 15, 81, 129 and 195. That 5 is the only level with exactly one holds at every N, since 25 has none] |
 | P3: at level 5 | the tick moves the four vectors of its line in one orbit of length 4. Its square moves them in two of length 2 |
 | P4: among odd histories | of the 87 non-negative matrices of determinant −1 with entries to 8, exactly two have no line of their own at any level: the tick and its other side |
 

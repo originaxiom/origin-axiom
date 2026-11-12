@@ -38,9 +38,29 @@ import time
 MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
 
 
+GIT_SECONDS = 180          # a fetch that stalls is a failure to look, not a silence (Review 79: the call had no time limit)
+
+
 def git(*args, cwd=None):
-    r = subprocess.run(["git", *args], capture_output=True, text=True, cwd=cwd)
+    try:
+        r = subprocess.run(["git", *args], capture_output=True, text=True, cwd=cwd, timeout=GIT_SECONDS)
+    except subprocess.TimeoutExpired:
+        return 124, "", "git %s did not answer within %d seconds" % (args[0] if args else "", GIT_SECONDS)
     return r.returncode, r.stdout.strip(), r.stderr.strip()
+
+
+def recall(state_file, empty):
+    """the listener's memory of one page or of the branches; (state, None), or (None, why) when the file is there and cannot be
+    read (Review 79: a damaged file crashed the listener, where it should say that it could not look)"""
+    if not state_file.is_file():
+        return dict(empty), None
+    try:
+        s = json.loads(state_file.read_text(encoding="utf-8"))
+        if not isinstance(s, dict):
+            raise ValueError("not a table")
+        return s, None
+    except (OSError, ValueError) as ex:
+        return None, "the listener's memory cannot be read (%s): %s. Remove it to start again from nothing" % (state_file, ex)
 
 
 def memory(cwd):
@@ -52,56 +72,90 @@ def memory(cwd):
     return d
 
 
+def _fenced(page):
+    """the spans of the page that lie inside a fenced block, where a line that begins with # is not a heading"""
+    spans, start = [], None
+    for m in re.finditer(r"^(```|~~~)", page, re.M):
+        if start is None:
+            start = m.start()
+        else:
+            spans.append((start, m.end())); start = None
+    if start is not None:
+        spans.append((start, len(page)))
+    return spans
+
+
 def messages(page):
-    """the page's messages of main, as {number: text}: each runs from its '### M<n>' line to the next heading of its level or above"""
+    """the page's messages of main, as {number: text}: each runs from its '### M<n>' line to the next heading of its level or
+    above.  A line inside a fenced block is never a heading (Review 79: a '# comment' in a block of code cut a message short)."""
+    fenced = _fenced(page)
+    outside = lambda pos: not any(a <= pos < b for a, b in fenced)
     found = {}
-    heads = list(MESSAGE.finditer(page))
+    heads = [m for m in MESSAGE.finditer(page) if outside(m.start())]
     for k, m in enumerate(heads):
         end = heads[k + 1].start() if k + 1 < len(heads) else len(page)
-        nxt = re.search(r"^#{1,2} ", page[m.end():end], re.M)
+        nxt = next((x for x in re.finditer(r"^#{1,2} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
         found[int(m.group(1))] = body.rstrip() + "\n"
     return found
 
 
+def _sum(text):
+    import hashlib
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+
+
 def look_seat(seat, cwd, remote, peek):
-    """(status, text): 0 and the unread messages, 3 and nothing, or 2 and why it could not look"""
+    """(status, text, remember): 0 and the unread messages, 3 and nothing, or 2 and why it could not look.
+
+    `remember` is what stores the page as read.  The caller calls it AFTER the text has been printed, and not before
+    (corrected 2026-11-12, Review 79: the page was stored as read before anything was shown, so a print that failed lost
+    the message for good; and a page that could not be read was taken for an empty one and stored as read)."""
     mem = memory(cwd)
     if mem is None:
-        return 2, "there is no git repository here"
+        return 2, "there is no git repository here", None
     rc, _, err = git("fetch", "--quiet", remote, "main", cwd=cwd)
     if rc != 0:
-        return 2, "the fetch of main failed" + (": " + err.splitlines()[-1] if err else "")
+        return 2, "the fetch of main failed" + (": " + err.splitlines()[-1] if err else ""), None
     path = "docs/seats/%s.md" % seat
     rc, blob, _ = git("rev-parse", "%s/main:%s" % (remote, path), cwd=cwd)
     if rc != 0:
-        return 2, "main has no page %s" % path
+        return 2, "main has no page %s" % path, None
     state_file = mem / ("%s.json" % seat)
-    state = json.loads(state_file.read_text(encoding="utf-8")) if state_file.is_file() else {"blob": None, "read": 0}
-    if state["blob"] == blob:
-        return 3, ""
-    rc, page, _ = git("show", "%s/main:%s" % (remote, path), cwd=cwd)
+    state, why = recall(state_file, {"blob": None, "read": 0})
+    if state is None:
+        return 2, why, None
+    if state.get("blob") == blob:
+        return 3, "", None
+    rc, page, err = git("show", "%s/main:%s" % (remote, path), cwd=cwd)
+    if rc != 0:
+        return 2, "main's page %s could not be read" % path + (": " + err.splitlines()[-1] if err else ""), None
     ms = messages(page)
-    new = {n: t for n, t in ms.items() if n > state["read"]}
+    read, sums = int(state.get("read", 0)), state.get("sums") or {}
+    new = {n: t for n, t in ms.items() if n > read}
+    # a message already read whose text has changed since is shown again (Review 79: an amendment in place was never shown)
+    amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}
     rc, head, _ = git("rev-parse", "--short=9", "%s/main" % remote, cwd=cwd)
     out = ["YOUR PAGE ON MAIN HAS CHANGED (%s, main at %s)." % (path, head)]
     if new:
         out.append("Messages of main you have not read: %s. Newest first:\n" % ", ".join("M%d" % n for n in sorted(new)))
         out += [new[n] for n in sorted(new, reverse=True)]
-    else:
+    if amended:
+        out.append("Messages you had read that main has CHANGED since: %s. As they stand now:\n" % ", ".join("M%d" % n for n in sorted(amended)))
+        out += [amended[n] for n in sorted(amended, reverse=True)]
+    if not new and not amended:
         out.append("No new message: main changed the page elsewhere (your cards, or what it waits for). Read the page.")
-    if not peek:
-        state_file.write_text(json.dumps({"blob": blob, "read": max([state["read"]] + list(ms))}), encoding="utf-8")
-    return 0, "\n".join(out)
+    remembered = json.dumps({"blob": blob, "read": max([read] + list(ms)), "sums": {str(n): _sum(t) for n, t in ms.items()}})
+    return 0, "\n".join(out), (None if peek else (lambda: state_file.write_text(remembered, encoding="utf-8")))
 
 
 def look_main(cwd, remote, peek):
     mem = memory(cwd)
     if mem is None:
-        return 2, "there is no git repository here"
+        return 2, "there is no git repository here", None
     rc, _, err = git("fetch", "--quiet", "--prune", remote, cwd=cwd)
     if rc != 0:
-        return 2, "the fetch failed: " + (err.splitlines()[-1] if err else "")
+        return 2, "the fetch failed: " + (err.splitlines()[-1] if err else ""), None
     rc, out, _ = git("for-each-ref", "--format=%(refname:short) %(objectname:short=9)", "refs/remotes/%s" % remote, cwd=cwd)
     heads = {}
     for line in out.splitlines():
@@ -110,14 +164,22 @@ def look_main(cwd, remote, peek):
             heads[name] = sha
     state_file = mem / "main.json"
     first = not state_file.is_file()
-    old = json.loads(state_file.read_text(encoding="utf-8")) if not first else {}
+    old, why = recall(state_file, {})
+    if old is None:
+        return 2, why, None
     moved = ["%s  %s -> %s" % (n, old.get(n, "(new)"), s) for n, s in sorted(heads.items()) if old.get(n) != s]
     gone = ["%s  %s -> (gone)" % (n, s) for n, s in sorted(old.items()) if n not in heads]
-    if not peek:
-        state_file.write_text(json.dumps(heads), encoding="utf-8")
-    if first or not (moved or gone):
-        return 3, ""
-    return 0, "SEATS' BRANCHES HAVE MOVED (names and commits only; read each as its lane is read):\n" + "\n".join("  " + x for x in moved + gone)
+    remember = None if peek else (lambda: state_file.write_text(json.dumps(heads), encoding="utf-8"))
+    if first and heads:
+        # the first look has nothing to compare with.  It used to remember the branches and say nothing, so what a seat had pushed
+        # before the listener was first started was never reported (Review 79).  It now shows where every branch is, once.
+        return 0, ("FIRST LOOK: nothing to compare with. These branches are on the remote now (names and commits only); what each holds since "
+                   "you last read it is yours to check:\n" + "\n".join("  %s  %s" % (n, s) for n, s in sorted(heads.items()))), remember
+    if not (moved or gone):
+        if remember:
+            remember()                      # nothing is shown, so nothing can be lost by storing now
+        return 3, "", None
+    return 0, "SEATS' BRANCHES HAVE MOVED (names and commits only; read each as its lane is read):\n" + "\n".join("  " + x for x in moved + gone), remember
 
 
 def main(argv=None):
@@ -136,9 +198,11 @@ def main(argv=None):
         return 2
     failures = 0
     while True:
-        status, text = look_main(a.repo, a.remote, a.peek) if a.main else look_seat(a.seat, a.repo, a.remote, a.peek)
+        status, text, remember = look_main(a.repo, a.remote, a.peek) if a.main else look_seat(a.seat, a.repo, a.remote, a.peek)
         if status == 0:
             print(text, flush=True)
+            if remember:
+                remember()                  # stored as read only once it has been shown
             return 0
         if status == 2:
             failures += 1

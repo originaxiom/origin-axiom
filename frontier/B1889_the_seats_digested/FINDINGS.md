@@ -9,12 +9,34 @@ and none of its code is run. 0 of 19.*
 
 ## 1. The answer first
 
-- **The seats have sent 1,686 items in two months. Main has recomputed 377 of them itself, 22%.** Of those,
-  349 held and 28 differed. In at least three of the 28 the fault was main's (rows 86, 93, 836).
+> **CORRECTED 2026-11-12 (Review 79; found by a reading of this arc on another family of model, and reproduced by
+> main).** The builder dropped thirteen rows of the ledger without a word. They have six cells where the others have
+> eight (rows 633 to 638, the physical lane's, and 879 to 885, the web seat's), and the builder asked for eight. So
+> this page counted 1,686 items of 1,699. It also did not read the cell in which main writes the register row that
+> carries an item, so 18 flagged items were called uncarried that are carried. The builder is mended, the pages are
+> rebuilt as of the same commit, and the numbers below are the corrected ones. What they were:
+>
+> | | was | is |
+> |---|---|---|
+> | items sent | 1,686 | 1,699 |
+> | recomputed by main | 377 (349 held, 28 differed) | 382 (354 held, 28 differed) |
+> | read and not recomputed | 455 | 456 |
+> | not read | 55 | 61 (the six more are the physical lane's, rows 633 to 638) |
+> | the web seat | 233 items, 69 recomputed (58 held) | 240 items, 74 recomputed (63 held) |
+> | the physical lane | 308 items | 314 items, 6 of them not read |
+> | flagged items that name a register row | 35 of 74 | 53 of 74 |
+>
+> Two more things were wrong. Of the 74 flagged items two are of the class "not read", where § 5 says they are all
+> registered or read. And §§ 3 and 4 left out three entries that `SEATS.md` has: the physical lane's fork lane, quiet
+> since 2026-10-13 with 53 items; the listening thread, ended 2026-10-06 with 2; and the weave archive, one import.
+> The lock compared the builder with its own output and could not see any of this; it now counts the ledger's rows.
+
+- **The seats have sent 1,699 items in two months. Main has recomputed 382 of them itself, 22%.** Of those,
+  354 held and 28 differed. In at least three of the 28 the fault was main's (rows 86, 93, 836).
 - **560 items are registered and were never fully read by main.** 239 of them are the physical lane's
   and 160 are the SM seat's. This is the largest body of work the record holds and has not used.
-- **55 items are not read.** 46 are from seats that have ended, all of September. The other 9 are the web
-  seat's, the SM seat's and the advisor seat's, and are listed on the page.
+- **61 items are not read.** 46 are from seats that have ended, all of September. The other 15 are the physical
+  lane's (6), the web seat's, the SM seat's and the advisor seat's, and are listed on the page.
 - **Four seats are working today:** the web seat, the advisor seat, the agy lane and the physical lane. Three more
   worked in the past eight days: the explore seat, the SM seat and the independent audit lane.
 - **No seat is to be trusted on its own word, and none is useless.** Each has a record that says what it is good for.
@@ -34,9 +56,9 @@ Each card says what the record shows. "Recomputed" means main ran its own code o
 
 | | |
 |---|---|
-| sent | 233 items since 2026-09-08 |
-| recomputed by main | 69: 58 held, 11 differed |
-| not recomputed | 135 read, 19 registered, 5 not read |
+| sent | 240 items since 2026-09-08 |
+| recomputed by main | 74: 63 held, 11 differed |
+| not recomputed | 136 read, 19 registered, 5 not read |
 | how main reads it | directly |
 | doing now | asked for a sealed card on the lowest and simplest read-out (P-783), and for a cold read of the three-part public structure |
 
@@ -97,9 +119,9 @@ Each card says what the record shows. "Recomputed" means main ran its own code o
 
 | | |
 |---|---|
-| sent | 308 items since 2026-09-08, and 53 more on its fork lane |
+| sent | 314 items since 2026-09-08, and 53 more on its fork lane |
 | recomputed by main | 31, and all 31 held |
-| not recomputed | 87 read, 187 registered; on the fork lane 52 of 53 registered |
+| not recomputed | 87 read, 187 registered, 6 not read; on the fork lane 52 of 53 registered |
 | how main reads it | its purely mathematical files, through the second mask |
 | doing now | its work order of 2026-11-10 for closing the record before calibration, which main took into its plan (P-748) |
 
@@ -119,6 +141,7 @@ Each card says what the record shows. "Recomputed" means main ran its own code o
 | the explore seat | 2026-11-07 | 5 items, all 5 verified on main's own code. Every run was preregistered; a crashed attempt was kept; a missed sweep was disclosed (rows 1612 to 1617) |
 | the independent audit lane | 2026-11-04 | 2 items: its audit of the agy lane, verified in part, and its 22 outputs reproduced (rows 1512, 1550) |
 | the referee lane | 2026-10-20 | 4 items from an outside referee's reports |
+| the physical lane's fork lane | 2026-10-13 | 53 items, 52 of them registered and none recomputed (added 2026-11-12, Review 79: this row was left out) |
 
 The owner's word of 2026-11-05 on the SM seat and the web seat stands until he changes it: they are asked "only when
 their expertise is required".
@@ -127,6 +150,8 @@ their expertise is required".
 
 Ten seats of August to October: the cloud seat, cc3 and its second branch, the physics seat, the codex seat, the
 sep16 seat, the consolidation seat, the hostile-review seat, and two single handoffs. Their counts are on `SEATS.md`.
+[Added 2026-11-12 (Review 79): two more entries of `SEATS.md` were left out here, the listening thread, ended 2026-10-06
+with 2 items, and the weave archive, which is one import and not a seat.]
 They will not work again. What matters is what of theirs was never read.
 
 - **46 of their items are not read.** They are what is left of the September backlog after Review 76 closed the
@@ -139,10 +164,11 @@ They will not work again. What matters is what of theirs was never read.
 
 ## 5. What the record holds and has not used
 
-- **560 registered items** and **455 read ones** were not recomputed.
+- **560 registered items** and **456 read ones** were not recomputed.
 - **The five readers flagged 74 of them** as possibly bearing on the goal: a choice removed, a route killed,
   an error in main's work, or an instrument. The list is the last table of `SEATS.md`.
-- **35 of the 74 name a register row,** so they are carried. **39 name none.**
+- **53 of the 74 name a register row,** so they are carried. **21 name none.** Two of the 74 are items main has not
+  read at all (rows 1331 and 1698), and not registered or read ones.
 - **Main has not judged the 74.** A flag is a reader's pointer. Sorting them is register row P-791: each one is
   taken into the card of the package it bears on, or closed with its reason.
 
@@ -299,7 +325,8 @@ Literature: none. This is a measurement of the record and a proposal for how to 
 - **Main's first cut put two rows under the wrong seat.** The independent audit lane's two rows (1512, 1550) were
   filed with the physical lane's, and that reader saw them as the lane's. The generator sorts them rightly; the
   reader's report is kept as received and its two rows are not used for the physical lane.
-- **Main had told the owner "about 46 unread".** The count is 55 not read and 560 never fully read. It
+- **Main had told the owner "about 46 unread".** The count is 61 not read and 560 never fully read [55 as this page first
+  counted it]. It
   was corrected to him the same hour.
 - **The readers are of one family of model, and of main's.** Their quotes are checked; their grouping is not.
 - **The classes are main's typing.** A disposition that begins with a word outside them is counted as "other" and

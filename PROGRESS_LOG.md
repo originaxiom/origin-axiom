@@ -19711,3 +19711,28 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None.
 
 0 of 19.
+
+## 2026-11-12 — The periodic review, read for the first time by sessions that built none of the work (S306p)
+
+**What the review is.** Every forty landings the project stops and checks its own recent work. Until now main checked its own work, with readers of its own kind. The owner ruled that the review's choices are settled by what best protects the project's integrity. So this time everything of the last two days was read in full by four other sessions, and main's part was to answer.
+
+**What they found.** 99 faults were reported. Main looked each one up at its source before changing anything, and every one was real. Counting those that two readers found as one, there are 88.
+
+**What kind of faults.** No result of the mathematics was overturned. The faults are of five kinds:
+
+- a check that could not fail, so that it proved nothing;
+- a sentence that claimed more than was computed;
+- a number on a page that differed from the output it came from;
+- a label that promised more evidence than there was;
+- a correction made in one place while the old sentence stayed in another.
+
+**What main did.** It mended every fault that was its own to mend, and kept the old words beside each correction so that the change can be seen. Eleven faults are in tooling that another session builds, and went to that session. Four are left unmended and listed.
+
+**What it shows.** Main's own checks had passed all of this work. Tested against faults planted on purpose, main's automatic gates catch 14 of 32. And one outside reading is not enough either: in one piece of work, one reader found ten faults and a second reader found none. So the project cannot yet say that what has been read is clean. It can say that 88 faults are gone, and how they were found.
+
+**What is not done.** The readers themselves were not tested against planted faults. The review's own blocking rule can still be switched off in two ways; the repair exists and is not yet checked. Main's corrections have so far been read only by main, and the four sessions are asked to read them.
+
+**Which piece of the plan moved.** The clean-up of false or stale statements, of checks that cannot fail, and of errors in the mathematics or its code. No package closed.
+
+0 of 19.
+

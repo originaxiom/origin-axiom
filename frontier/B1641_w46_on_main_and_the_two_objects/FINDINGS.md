@@ -96,7 +96,12 @@ land.
 
 > **CORRECTED the same evening. This note was wrong about the foundation, in three sentences.** The foundation's row
 > FK10 has said since its version 1.59 (2026-10-28; B1796, register row P-288) what the note below presents as unsaid:
-> with m = (m_P, m_M, m_N) units of end data on the three lines the space has dimension m_P + m_M + m_N; the least
+> with m = (m_P, m_M, m_N) units of end data on the three lines the space has dimension max(0, m_P + m_M + m_N) on
+> every vector computed [CORRECTED 2026-11-12 (Review 79): this read "the space has dimension m_P + m_M + m_N". That
+> is negative on ten of the 64 vectors B1796 computed, those of negative sum, where the dimension is 0; and it stated
+> as a law what the foundation's row states for the vectors computed, proved only where the sum is not positive and
+> for the same number of units on all three lines. The index is another matter and is the sum, above its value at no
+> unit, for every vector]; the least
 > datum on one line gives one; the least uniform datum gives three; and "uniform end data" is one of four links of
 > the unit, none derived. B1796 computed it on main, exactly: d(1,0,0), d(0,1,0), d(0,0,1) = 1 1 1, and d(1,1,1) = 3.
 > So nothing is owed to the foundation, and main had the computation. What lagged was this arc, which wrote one
@@ -105,9 +110,9 @@ land.
 > derivation's finding without first sweeping the foundation for the three-component form. The session whose
 > derivation raised the point found the row within the hour. The three sentences are marked below and kept.
 
-*Raised by a second derivation of the chiral three from its statement alone, on another family of model (agy-002's
-card A2-C1, read through the mask; its code not run). Checked by main on its own formula and its own committed
-numbers.*
+*Raised by a second derivation of the chiral three from its statement alone, on another family of model (harvest row
+1709; read through the mask; its code not run). Checked by main on its own formula and its own committed numbers.
+[Reworded 2026-11-12 (Review 79): this line named the session; register row P-797.]*
 
 - **What this arc says** [written as "what this arc and the foundation say": wrong of the foundation, see above]**.** Given Λ and n units at the cusp, the index is n times the fibre's index:
   +3, 0, −3 at n = −1, 0, 1 for Λ₊ = 0. The cusp's twist is written as one integer n.

@@ -12,10 +12,31 @@ measurement. 0 of 19.*
 - **All three decisive cells read B: an end of the window is like other rows.** By the card's rule, fixed before any
   number, finding V1 is reduced to one sentence for these two nulls.
 - **Two of the three read B by a hair.** One is short of A by less than one target in a thousand, one by three.
-- **The audit's figure is reproduced, and it is not about rarity.** One random target in five has its least bad row in
-  the top layer. Those are targets that fit nothing. Among well-fitted targets the last layer is below its neighbour.
-- **What the window's ends do to a rarity, in numbers.** At the top end, well-fitted random targets come from the
-  last layer at 1.5 to 2 times the average rate. At the bottom end, at less than a tenth of it.
+- **A figure like the audit's is computed, and it is not about rarity.** One random target in five has its least bad
+  row in the top layer. Most of those are poorly fitted: of the first null's 205,881, 5,925 are in the best 5%, 1,049
+  in the best 1% and 111 in the best 0.1%. Among well-fitted targets the last layer is below its neighbour at the best
+  5%, 1% and 0.1%, in all three decisive cells. At the best 0.01%, a hundred targets, the counts are too small to say:
+  17 against 10 in the first null; 17 against 18 and 16 against 21 in the second. Under the other two menus it is
+  below it at the best 5% and 1% in every cell, and at the best 0.1% in all but one: the first null's covariant
+  menu, 130 against 123.
+- **What the window's ends do to a rarity, in numbers.** Under the seat's menu, well-fitted random targets come from
+  the last layer at 1.6 to 2.0 times the average rate, and from the first at 0.06 to 0.08 of it. Over all nine cells
+  the top end reads 1.6 to 2.4 and the bottom end 0.04 to 0.18.
+
+> **CORRECTED 2026-11-12 (Review 79; found by two readings of this arc by sessions that did not build it).** The two
+> bullets above read: "**The audit's figure is reproduced, and it is not about rarity.** One random target in five has
+> its least bad row in the top layer. Those are targets that fit nothing. Among well-fitted targets the last layer is
+> below its neighbour." and "At the top end, well-fitted random targets come from the last layer at 1.5 to 2 times the
+> average rate. At the bottom end, at less than a tenth of it." Four things were wrong.
+> 1. **Nothing of the audit's was reproduced.** Its figure had no tracked source and named no null (B1870). What was
+>    computed is a share, 20.6%, that falls in a window written beforehand: computed once, with expectations committed
+>    first.
+> 2. **"Fit nothing" was not measured.** The card prints no value of a fit, and 5,925 of those targets are in the best
+>    5%.
+> 3. **"Below its neighbour" named no depth and no menu.** Under the seat's menu it holds at three depths and is not
+>    shown at the deepest the card reads; under the first null's covariant menu it fails at the best 0.1%.
+> 4. **The two ranges were the seat's menu alone.** Under the first null's covariant menu the bottom end reads 0.18,
+>    and under the second null's covariant and free menus the top end reads 2.08 to 2.36.
 - **Under the two menus the card made read-outs, the second null's top end reads A.** The card does not let those
   decide. Main reports them and carries their factor in the sentence.
 - **Not covered:** the later nulls, the live candidate's among them. The same count on that null is owed before its
@@ -35,8 +56,10 @@ is no longer fitted as well once the last layer at that end is removed. r is tha
 - **The rule:** A if the loss is at least 2r and its interval lies above r; C if the loss is below r/2; B otherwise.
   A cell reads A if either end does.
 - **Every bottom end reads C.** The reach of the well-fitted targets ends inside the window there.
-- **Every top end of a decisive cell reads B.** The threshold for A is 133.3 targets for the first null and 134.6
-  for the second.
+- **Every top end of a decisive cell reads B.** The threshold for A is 133.3 targets for the first null and 134.5
+  for the second. [CORRECTED 2026-11-12 (Review 79): this read 134.6, from the rows' share rounded to 0.0673. The share
+  is 15 of 223, and twice that of a thousand targets is 134.53. The margin, less than one target, stands: 134 against
+  134.53.]
 - **Main recomputed each reading from the counts,** with its own exact interval. They agree with the script's to nine
   digits.
 
@@ -48,9 +71,12 @@ said it would say so if a decisive cell landed within a few targets of a thresho
 
 | cell | top loss over r, with its 95% interval |
 |---|---|
-| first null, worst factor, seat | 1.46 [1.37, 1.55] |
-| second null, χ², seat | 1.90 [1.80, 2.00] |
+| first null, worst factor, seat | 1.46 [1.37, 1.54] |
+| second null, χ², seat | 1.90 [1.81, 2.00] |
 | second null, worst factor, seat | 1.89 [1.79, 1.99] |
+
+*CORRECTED 2026-11-12 (Review 79): two interval ends were rounded wrongly. The first row's upper end read 1.55 and
+is 1.5445; the second row's lower end read 1.80 and is 1.8050.*
 
 So the second null's top end sits at about 1.9 times the average rate under the seat's menu. The card's line is at 2.
 
@@ -68,6 +94,10 @@ Not decisive by the card. Printed here because the same rule reads them differen
 | second null, worst factor, free | 2.36 | 2.00 | **A** |
 
 - **For the second null the top end is a lever under two of its three menus,** by the card's own rule, at both depths.
+- **By how much** (added 2026-11-12, Review 79: these read-outs stood with no margin, where the decisive cells had
+  theirs). In targets lost against the rule's line: at the best 0.1%, 5.5 and 8.5 over it under χ² and 24.5 and 24.5
+  under the worst factor; at the best 1%, 202.7, 80.7, 172.7 and 2.7 over it. The last is the free menu under the
+  worst factor: 1,348 against a line at 1,345.29, a ratio of 2.004. The caveat of two machines holds for these too.
 - **For the first null it is not,** under any menu.
 - Every bottom end reads C here too.
 
@@ -117,7 +147,8 @@ show:
 
 **Main does not ask for the second card** that the card attaches to a reading of A. The decisive cells read B. At
 twice the average rate, a window longer at the top by a tenth of its rows would add about a fifth to the count of
-well-fitted random targets, if the rate held; and the last layer is already below its neighbour. That moves a quoted
+well-fitted random targets, if the rate held; and the last layer is already below its neighbour at the best 0.1% and 1% (the
+correction under § 1 gives the depths). That moves a quoted
 rarity by a fraction, not by an order of magnitude. If the advisor seat reads its own rule otherwise for the second
 null, main runs it.
 
@@ -137,7 +168,9 @@ Main leaned a little further towards A than the seat did. The decisive cells wen
 
 ## 7. What is not shown
 
-- **The later nulls** are not measured: B1798's, B1839's and B1841's. They are built from other tables.
+- **The later nulls** are not measured: B1798's, B1839's and B1841's. They are built from other tables. [Added
+  2026-11-12 (Review 79): the register row P-786 carried the count owed on B1841's only; B1798's and B1839's are
+  entered in it now.]
 - **The nine** are not covered. The finding is about the six.
 - **The other choices of the window** are not touched: the values of the real part, the menu of lines, the two
   horocycles.
@@ -151,7 +184,8 @@ Checked before the run, in `PRE_RUN_NOTE.md` § 2: the script read in full; what
 are deleted in every process; that the file of held-out targets is not opened.
 
 The record swept for the topic, from main at 818d17f46. This sweep was run after the reading and not before the run;
-the finding itself was reproduced on main in B1870 before the card existed.
+the finding itself was read on main in B1870 before the card existed, and left open there. [CORRECTED 2026-11-12
+(Review 79): this said the finding "was reproduced on main in B1870". B1870's row for it reads "OPEN, not checked".]
 
 - `VERDICT topic-sweep /window in the height|window in Im|unpriced window|end of the window|top layer|edge of the window|pile-up/ (full text): 5 of 1633 arcs on main match (PROVED 5); 0 register rows match (none)`
 - `VERDICT topic-sweep /random targets|random hierarchies|specificity null|well-fitted/ (full text): 32 of 1633 arcs on main match (NEGATIVE 17, PROVED 15); 22 register rows match (DONE 18, QUEUED 4)`

@@ -46,7 +46,7 @@ the same stage are kept beside, in `the_seats_stage_1/`, as the seat committed t
 - **One read-out count differs by one.** For B1753's null under χ² and the free menu, 136 of 222 planted rows were
   found at the planted point on main's machine and 137 on the seat's. All 222 were found at the planted height,
   which is what the control asks. Several rows share a height, the measure is not exact there, and the tie fell
-  differently. Five interval endpoints differ in the sixteenth digit.
+  differently. Five interval endpoints differ in the sixteenth digit. [CORRECTED 2026-11-12 (Review 79): six endpoints differ between the two control files, and one of them already in the fifteenth significant digit. The point stands: the two machines are not the same bit for bit.]
 - **So the instrument is not bit-for-bit the same on two machines,** and a count of stage 2 could differ by a few
   targets on another machine. The card's reading has thresholds at a factor of two. Main will say so if a decisive
   cell lands within a few targets of one.

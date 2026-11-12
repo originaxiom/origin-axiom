@@ -10,6 +10,11 @@ Nothing of the lane's is adopted. 0 of 19.*
 ## 1. The answer first
 
 - **Every cell the web seat asked for reproduces on main's own code, by another route:** 35 checks, none failing.
+  [CORRECTED 2026-11-12 (Review 79): "by another route" holds for the cells in integers, which separate code computes.
+  For the cells about manifolds (the symmetry groups, amphicheirality, the Chern–Simons invariants, the isometries)
+  main's numbers come from SnapPy's own routines, the library the seat's referee used: the same library run again
+  by other hands, and not another route. And one of the 35, "M4 by hand", was an expression of typed integers that
+  could not fail; it is computed from the matrices now.]
 - **Root lattices.** Of the 95 irreducible root systems of rank 1 to 24, exactly one has an even root lattice of
   determinant 1: E₈. The lane's "one of 95" is that classical fact.
 - **Metallic words.** W(m) − I has invariants (m, m). So only m = 1 gives a knot complement, which the record already
@@ -55,7 +60,11 @@ walks all of it. A box can be too small. This cannot.
 - All 95 Gram matrices are integral and even. Each determinant is the closed form above.
 - G₂ and F₄ have Cartan determinant 1 and Gram determinant 3 and 4. The Cartan matrix is not the Gram matrix.
 - **The domain does the selecting.** Two even lattices of determinant 1 are left out by it: E₈ + E₈, because it is
-  reducible, and D₁₆⁺, because its roots generate only D₁₆. Main checked D₁₆⁺ directly: even, determinant 1, and
+  reducible, and D₁₆⁺, because its roots generate only D₁₆. [CORRECTED 2026-11-12 (Review 79): two in rank 16. The
+  domain runs to rank 24, and there the twenty-four even lattices of determinant 1 of Niemeier's classification are
+  left out as well: none is the root lattice of an irreducible system. D₂₄⁺ is one of them, for the reason given for
+  D₁₆⁺: the least norm in its second coset is 6. The twenty-four is the classification's count, cited and not
+  recomputed. That E₈ is the only one of the 95 is not touched.] Main checked D₁₆⁺ directly: even, determinant 1, and
   every vector of its second coset has norm at least 4.
 
 ## 4. The metallic words

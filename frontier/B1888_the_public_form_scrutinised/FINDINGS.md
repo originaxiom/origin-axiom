@@ -11,7 +11,10 @@ nothing is compared with a measurement; the repository's structure does not chan
 
 - **The proposal survives the attack on its central step, and the number under it changes.** By the arcs' own lists
   the candidate has 736 arcs upstream. By its code it uses at most 14 arcs: 17 Python files, 3,032 lines.
-- **The derivation half never touches the measured values.** It is 13 files, 2,252 lines, in 11 arcs. The measured
+- **The derivation half's chain, as read from the code, does not reach the measured values.** [CORRECTED 2026-11-12
+  (Review 79): this read "The derivation half never touches the measured values." What was measured is the chain of
+  files that the code names; a file opened by a name built at run time is not seen (Disclosed), so "never" said more
+  than the measurement.] It is 13 files, 2,252 lines, in 11 arcs. The measured
   values enter at one module of the comparison half.
 - **So a rebuild in a few thousand lines is realistic.** The present chain is already that size.
 - **The weakest point is the independence of the check,** not the size of the rebuild. Naming a seat that "wrote
@@ -22,8 +25,11 @@ nothing is compared with a measurement; the repository's structure does not chan
 
 ## 2. Measured: what the candidate really uses
 
-Read from the code of the candidate, B1841, and followed file by file. It is an upper bound: a file that is named and
-never opened is counted.
+Read from the code of the candidate, B1841, and followed file by file. It is an upper bound on what the code names: a
+file that is named and never opened is counted. It is not an upper bound on what the code opens: a file whose name is
+built at run time is missed, so the true chain can also be longer. [CORRECTED 2026-11-12 (Review 79): this read "It is
+an upper bound", with no such limit; the script's header said the chain "can be longer than the true one and not
+shorter", which the Disclosed section of this page contradicts.]
 
 | | by the arcs' own lists | by the code |
 |---|---|---|
@@ -47,7 +53,9 @@ never opened is counted.
 | the look (what is set beside the measurement) | 17 | 3,032 | 14 | yes |
 
 **How the measured values enter:** the candidate's look loads B1839's look, which loads B1741's comparison module,
-which opens the one file of measured masses. One Python file of the chain names that file. In the whole tree 50 do.
+which opens the one file of measured masses. One Python file of the chain names that file. In the whole tree 51 do, this arc's own script among them. [CORRECTED
+2026-11-12 (Review 79): the count in this sentence read 50. The arc's committed output says 51, and so does a count at
+the commit the review read. A second reading found it.]
 
 **What it costs to run.** The candidate's census took 26,060 seconds, a little over seven hours.
 
@@ -59,7 +67,7 @@ which opens the one file of measured masses. One Python file of the chain names 
 | 2 | the candidate's real chain is short | 14 arcs at most, all inside the lists' 736 | **holds** |
 | 3 | not now | a statement today: 0 of 19 earned; three headline results that are conditional; one that is a reading, a sealed screen at 0.87%; two that are a lane's and not verified on main. The mathematics by itself already has its vehicle, the paper the owner froze | **holds for the claim.** Sending the mathematics is the owner's decision and needs no new repository |
 | 4 | the check is written by a seat that wrote none of the statement | several seats share a family and every seat has read the record. Independence by name is thin | **does not hold as stated.** What would count is below |
-| 5 | the measured values are kept in the check only | already true of the candidate's derivation half; in the archive 50 scripts name the file | **holds, and is cheaper than feared.** Enforce it with two tests: no file of the statement names the measured file, and the derivation runs with that file absent |
+| 5 | the measured values are kept in the check only | already true of the candidate's derivation half; in the archive 51 scripts name the file [was: 50; corrected 2026-11-12, Review 79, from the arc's own output] | **holds, and is cheaper than feared.** Enforce it with two tests: no file of the statement names the measured file, and the derivation runs with that file absent |
 | 6 | the archive is frozen at the seal | the lanes go on working after a seal | **change:** the archive is a signed tag on this repository and a dated deposit of it, not a second repository. Work goes on after the tag; the statement pins the tag's commit |
 | 7 | one graph computes the headline | WP-0.12 builds a typed graph for the record | **one graph.** The statement's is the part of it upstream of the claimed values, generated and compared with its builder |
 | 8 | a certificate anyone can write again | WP-5.1 builds a generator | **one generator,** run on the statement's own files. Every file it hashes is in the repository it is in |

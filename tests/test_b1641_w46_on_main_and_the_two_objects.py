@@ -64,7 +64,7 @@ def test_post_seal_rho_T_S_squared_is_i():
 
 
 def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_gives_one():
-    """2026-11-11 (raised by agy-002's second derivation; checked on main's own formula and numbers).  The record writes the
+    """2026-11-11 (raised by a second derivation, harvest row 1709; checked on main's own formula and numbers).  The record writes the
     cusp's twist as one integer n.  The cusp has three lines with distinct exponents, so there are three integers, and the
     index is their sum above its value at no unit.  What could fail: the exponents not being distinct (then a line would not
     be canonical); the index at no unit not being 0; the unit on all three lines not giving 3; or the formula's shift law
@@ -79,7 +79,27 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
     assert abs(ch["1.5"]) < 1e-9                                        # no unit: the index is 0
     assert abs(ch["13.5"] - ch["1.5"] - 3) < 1e-9                       # the unit on all three lines is the cusp's divisor, weight + 12: 3
     b1634 = (root / "frontier" / "B1634_w50_on_main" / "FINDINGS.md").read_text(encoding="utf-8")
-    assert "T's exponents (⅛, ⅜, ⅞)" in b1634 and len({1, 3, 7}) == 3   # three distinct exponents: three canonical lines
+    assert "T's exponents (⅛, ⅜, ⅞)" in b1634
+    # CORRECTED 2026-11-12 (Review 79; found by a second reading of this lock).  Three things here could not fail: the three
+    # exponents were counted in a typed set; the classical dimension twelve weights higher was read from a table that held
+    # it for two weights of eight and fell back to the answer for the rest; and the index was the sum of the units by
+    # definition.  Now the exponents are computed from the representation's own T-matrix, the table holds every weight it
+    # is asked for, and the index is the formula evaluated for the three-dimensional representation with each line's
+    # exponent lowered by its units, held to the committed values at every allowed weight.
+    import numpy as _np
+    P13 = _np.array([[0, 0, 1], [0, 1, 0], [1, 0, 0]], dtype=complex); P23 = _np.array([[1, 0, 0], [0, 0, 1], [0, 1, 0]], dtype=complex)
+    rS = cmath.exp(-23j * math.pi / 4) * P13                              # the representation on the three thetas, as B1634 writes it
+    rT = cmath.exp(7j * math.pi / 4) * _np.diag([1j, 1, 1]) @ P23
+
+    def turns(M):
+        out = []
+        for e in _np.linalg.eigvals(M):
+            b = (cmath.phase(e) / (2 * math.pi)) % 1.0
+            out.append(0.0 if abs(b - 1.0) < 1e-9 else b)
+        return sorted(out)
+    a = turns(rT)
+    assert _np.allclose(a, [1 / 8, 3 / 8, 7 / 8], atol=1e-9) and _np.allclose(a, w50["V4"]["T_eigen_turns"], atol=1e-6)
+    assert min(a[1] - a[0], a[2] - a[1], 1 + a[0] - a[2]) > 0.2           # distinct on the circle: three canonical lines
 
     # the shift law, on the trivial character, where every dimension is classical: B1632's formula with d = 1
     def alpha(z):
@@ -89,12 +109,21 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
     def chi(k, shift=0):
         return 1 + k / 12 - alpha(cmath.exp(1j * math.pi * k / 2)) - alpha(1 / cmath.exp(1j * math.pi * k / 3)) - (0 - shift)
 
-    classical = {0: 1, 4: 1, 6: 1, 8: 1, 10: 1, 12: 2, 14: 1, 16: 2}       # dim M_k of the full modular group
-    for k, dim in classical.items():
-        assert round(chi(k)) == dim, k
-        assert round(chi(k, shift=1)) == classical.get(k + 12, dim + 1) == dim + 1     # one more order of pole on the one line: + 1
-    # so on three lines the index above its value at no unit is m1 + m2 + m3
-    index = lambda m: round(ch["1.5"]) + sum(m)
+    classical = {0: 1, 4: 1, 6: 1, 8: 1, 10: 1, 12: 2, 14: 1, 16: 2, 18: 2, 20: 2, 22: 2, 24: 3, 26: 2, 28: 3}    # dim M_k of the full modular group
+    for k in (0, 4, 6, 8, 10, 12, 14, 16):
+        assert round(chi(k)) == classical[k] and round(chi(k + 12)) == classical[k + 12], k
+        assert round(chi(k, shift=1)) == round(chi(k + 12)) == classical[k + 12], k     # one more order of pole on the one line is the weight twelve higher
+
+    # the same formula for the three-dimensional representation, the exponent of each line lowered by its units
+    def chi3(k, m=(0, 0, 0)):
+        return (3 + 3 * k / 12 - sum(turns(cmath.exp(1j * math.pi * k / 2) * rS)) - sum(turns(_np.linalg.inv(cmath.exp(1j * math.pi * k / 3) * (rS @ rT))))
+                - sum(x - y for x, y in zip(a, m)))
+    assert len(ch) == 8
+    for kk, v in ch.items():                                             # written here apart, it gives the committed value at every allowed weight
+        assert abs(chi3(float(kk)) - v) < 1e-9, kk
+    assert abs(chi3(1.5, (1, 1, 1)) - chi3(13.5)) < 1e-9                  # the same unit on all three lines is the weight twelve higher
+    index = lambda m: round(chi3(1.5, m))
+    assert abs(chi3(1.5, (1, 0, 0)) - index((1, 0, 0))) < 1e-9
     assert index((1, 1, 1)) == 3 and index((1, 0, 0)) == 1 and index((0, 0, 1)) == 1 and index((0, 0, 0)) == 0
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8") if "ARC" in globals() else (root / "frontier" / "B1641_w46_on_main_and_the_two_objects" / "FINDINGS.md").read_text(encoding="utf-8")
     for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main finds no such sentence"):
@@ -106,6 +135,16 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
     import re as _re
     m = _re.search(r"d\(1,0,0\), d\(0,1,0\), d\(0,0,1\) = (\d+) (\d+) (\d+) \| uniform: d\(1,1,1\) = (\d+)", run)
     assert m and [int(x) for x in m.groups()] == [index((1, 0, 0)), index((0, 1, 0)), index((0, 0, 1)), index((1, 1, 1))]
+    # ADDED 2026-11-12 (Review 79): the note's sentence on the dimension had lost its maximum.  B1796 computed the dimension on 64
+    # vectors, and it is max(0, the sum) on each: the index and the dimension differ exactly where the sum is negative.
+    import itertools as _it
+    seat = _json.loads((root / "frontier" / "B1796_the_cusp_unit_from_the_field_checked_on_main" / "verification" / "seat_the_higgs_route_exact.json").read_text(encoding="utf-8"))
+    vecs = list(_it.product((-1, 0, 1, 2), repeat=3))
+    table = seat["d at N = 3"]
+    assert len(table) == 64 == len(vecs) and all(table[str(v)] == max(0, index(v)) for v in vecs)
+    assert sum(1 for v in vecs if index(v) < 0) == 10 == sum(1 for v in vecs if table[str(v)] != index(v))
+    assert "per-line table: 64 entries; main's d(m) = max(0, sum m) for all: True" in run
+    assert "the space has dimension max(0, m_P + m_M + m_N) on" in f and "negative on ten of the 64 vectors" in f
     gen = (root / "GENESIS.md").read_text(encoding="utf-8")
     assert "The least datum on one eigenline gives one dimension" in gen and "the least uniform datum gives three" in gen and "uniform end data; and the least remainder" in gen
     assert "CORRECTED the same evening. This note was wrong about the foundation" in f

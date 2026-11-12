@@ -315,6 +315,8 @@ several statements. Each was read against the tracked corpus by a search for its
   B1870's sentence that a script the audit says fails does not (dated correction at B1873).
 - **Corrected in one place and not yet in the others:** "invisible to every state" as either sign of the charge premise
   (B1856 corrected by B1862; B1853, B1855, B1857 and the read-out rule's page still state the old form). It is a debt
-  (P-772), found by the advisor seat's second re-audit. And "an exit is on the table for 12" (8; B1873), carried at
+  (P-772), found by the advisor seat's second re-audit. [2026-11-12 (Review 79): the correction is that it holds for
+  E ≡ +I only, E ≡ −I being invisible only under a parity superselection rule. It was carried to those four places on
+  2026-11-11, at Review 78, so this entry's "still state the old form" is no longer so.] And "an exit is on the table for 12" (8; B1873), carried at
   that landing to the five surfaces that stated it.
 

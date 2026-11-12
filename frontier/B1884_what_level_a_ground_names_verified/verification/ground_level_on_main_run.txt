@@ -9,7 +9,7 @@ THE WEB SEAT'S CARD ON WHAT LEVEL A GROUND NAMES, ON MAIN
    N to 200 at which a line is kept: [5, 11, 19, 29, 31, 41, 55, 59, 61, 71, 79, 89, 95, 101, 109, 121, 131, 139, 145, 149, 151, 155, 179, 181, 191, 199]
    [ok] G2 exactly one line is kept at N = 5 and at no other N to 200; elsewhere there are two or none
    [ok] G2 rho is as the card says: 1 at 5, 0 at 25, 0 at 2, 2 at a prime that is +-1 modulo 5, 0 at one that is +-2
-   [ok] G2 rho is multiplicative on the N to 200 that are products of two coprime parts
+   [ok] G2 rho is multiplicative on the N to 200 that are products of two coprime parts -- every coprime factorisation of the 139 levels to 200 that have one (corrected 2026-11-12, Review 79: the parts ran to 14 only, 47 levels)
    [ok] G3 at N = 5 the tick and its other side move their line's four vectors in one orbit of length 4; the square in two of length 2 -- ([4], [4], [2, 2], [2, 2])
    [ok] G4 non-negative matrices with entries to 8: 174 of determinant +-1, 87 of determinant -1 -- (174, 87)
    [ok] G4 those with det(g - I) and det(g + I) both units (no line of their own at any level) are exactly the tick and its other side -- [(0, 1, 1, 1), (1, 1, 1, 0)]

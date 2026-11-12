@@ -189,27 +189,36 @@ def context_card(g=None):
 
 
 def arc_card(arc_id, g=None):
-    """One arc: its status in the atlas, and its verdict file's verdict and claim line. Added 2026-11-10 (B1862; the
-    advisor seat's audit, E10): `card B1812`, as the front page gives it, printed the corpus card whatever the id."""
+    """One arc: its verdict file's verdict and claim line, and the atlas's tag for it. Added 2026-11-10 (B1862; the
+    advisor seat's audit, E10): `card B1812`, as the front page gives it, printed the corpus card whatever the id.
+    CHANGED 2026-11-12 (Review 79): the head of the card printed the atlas's tag in brackets, as if it were the arc's
+    status. The tag is a guess from the arc's words (the first of four word lists that matches) and it disagrees with
+    the verdict for hundreds of arcs: 218 proved arcs were shown as dead and 198 negative ones as banked. The head now
+    carries the verdict, and the tag is printed as what it is."""
     import glob, json
     g = g or load(); p = g["probes"].get(arc_id)
     if not p:
         return dict(probe=arc_id, error="unknown arc", text=f"unknown arc '{arc_id}'")
-    text = [f"{arc_id} [{p['status']}]  -- \"{p['slug']}\"",
-            f"  obstacle-type: {p['obstacle'] or 'unclassified'};  motifs: {', '.join(sorted(p['motifs'])) or 'none'}"]
     root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     hits = sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*", "arc_verdict.json")))
+    v, unreadable = None, None
     for h in hits[:1]:
         try:
             v = json.load(open(h, encoding="utf-8"))
         except ValueError:
-            text.append(f"  verdict file unreadable: {os.path.relpath(h, root)}")
-            continue
-        text.append(f"  verdict: {v.get('verdict')}   folder: {os.path.relpath(os.path.dirname(h), root)}")
+            unreadable = os.path.relpath(h, root)
+    head = (v or {}).get("verdict") or "no verdict"
+    text = [f"{arc_id} [{head}]  -- \"{p['slug']}\"",
+            f"  atlas tag (a guess from the arc's words, not a verdict): {p['status']}",
+            f"  obstacle-type: {p['obstacle'] or 'unclassified'};  motifs: {', '.join(sorted(p['motifs'])) or 'none'}"]
+    if v is not None:
+        text.append(f"  verdict: {v.get('verdict')}   folder: {os.path.relpath(os.path.dirname(hits[0]), root)}")
         text.append("  claim: " + str(v.get("claim_one_line", "")))
-    if not hits:
+    elif unreadable:
+        text.append(f"  verdict file unreadable: {unreadable}")
+    else:
         text.append("  no verdict file under frontier/")
-    return dict(probe=arc_id, status=p["status"], text="\n".join(text))
+    return dict(probe=arc_id, status=p["status"], verdict=(v or {}).get("verdict"), text="\n".join(text))
 
 
 if __name__ == "__main__":

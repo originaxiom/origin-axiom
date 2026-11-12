@@ -241,12 +241,21 @@ def part5():
     say("  the tick fixes no point of the upper half-plane (its fixed points are the two golden numbers on the boundary): solutions in the half-plane %s" % in_H)
     assert not in_H
     # the mirrors of the whole group: the three reflections in the sides of the modular triangle
+    # CORRECTED 2026-11-12 (Review 79): the fixed set of each mirror was computed and then the typed name printed in its place,
+    # with nothing asserted.  Each is now held to the equation its name stands for.
+    equation = {"Re tau = 0": xr, "Re tau = 1/2": 2 * xr - 1, "|tau| = 1": xr ** 2 + yi ** 2 - 1}
     for name, (a, b, c, d), want in (("tau -> -conj(tau)", (-1, 0, 0, 1), "Re tau = 0"), ("tau -> 1 - conj(tau)", (-1, 1, 0, 1), "Re tau = 1/2"), ("tau -> 1/conj(tau)", (0, 1, 1, 0), "|tau| = 1")):
         assert a * d - b * c == -1
         re_, im_ = fixed_locus(a, b, c, d)
+        ratio = sp.simplify(re_ / equation[want])
+        assert sp.simplify(im_) == 0 and ratio.is_number and ratio != 0, (name, re_, im_)
         say("    %-22s fixes %s" % (name, want))
     say("  so the weave still fixes no point (the record's W:NOMOD, a fortiori: more moves, no more fixed points). What the exchange adds is")
-    say("  mirrors: the lines Re tau = 0, Re tau = 1/2 and |tau| = 1, with i and the cube root of unity at their corners.")
+    # CORRECTED 2026-11-12 (Review 79): this said "the cube root of unity".  The corner on Re tau = 1/2 is 1/2 + i sqrt(3)/2,
+    # a primitive sixth root of unity, whose cube is -1.
+    corner = sp.Rational(1, 2) + sp.I * sp.sqrt(3) / 2
+    assert sp.simplify(corner ** 6 - 1) == 0 and sp.simplify(corner ** 3 + 1) == 0 and sp.simplify(sp.Abs(corner) - 1) == 0
+    say("  mirrors: the lines Re tau = 0, Re tau = 1/2 and |tau| = 1, with i and the sixth root of unity 1/2 + i sqrt(3)/2 at their corners.")
 
 
 if __name__ == "__main__":

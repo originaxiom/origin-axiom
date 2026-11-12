@@ -21,7 +21,7 @@ from fractions import Fraction as Fr
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-def kernel_exact(grid=6):
+def kernel_exact(grid=6, charges=(-2, 3)):
     """The kernel of g(A, B, a) = diag(A e^{-2ia}, B e^{3ia}), computed from the map in exact arithmetic.
 
     Corrected 2026-11-10 (B1862; the advisor seat's audit, finding E6, reproduced on main). The function this replaces
@@ -32,14 +32,18 @@ def kernel_exact(grid=6):
     with alpha in (1/3)Z (the centre of SU(3)), B = e^{2 pi i beta} with beta in (1/2)Z (the centre of SU(2)), a = 2 pi q.
     The five diagonal phases of g, as exact rationals mod 1, are alpha - 2q (three times) and beta + 3q (twice).
     From alpha - 2q = 0 and alpha in (1/3)Z, q lies in (1/6)Z: the grid of sixths is complete, and `grid` may be any
-    multiple of 6 (a finer grid must find nothing more). Returns the kernel as triples (alpha, beta, q)."""
+    multiple of 6 (a finer grid must find nothing more). Returns the kernel as triples (alpha, beta, q).
+
+    `charges` (added 2026-11-12, Review 79) are the two exponents of the map, -2 and 3 for this one. They are a parameter so
+    that a lock can run the same enumeration on another map and see another kernel: a function that returned six typed
+    triples would pass every test of its values, and a planted one did."""
     assert grid % 6 == 0
     ker = []
     for al in (Fr(0), Fr(1, 3), Fr(2, 3)):
         for be in (Fr(0), Fr(1, 2)):
             for n in range(grid):
                 q = Fr(n, grid)
-                phases = [(al - 2 * q) % 1] * 3 + [(be + 3 * q) % 1] * 2          # the diagonal of g(A, B, a), as exponents
+                phases = [(al + charges[0] * q) % 1] * 3 + [(be + charges[1] * q) % 1] * 2     # the diagonal of g(A, B, a), as exponents
                 if all(x == 0 for x in phases):
                     ker.append((al, be, q))
     return ker

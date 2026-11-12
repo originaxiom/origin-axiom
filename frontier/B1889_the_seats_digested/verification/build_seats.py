@@ -29,7 +29,8 @@ ROOT = next(p for p in HERE.parents if (p / "GENESIS.md").is_file())
 CLASSES = [
     ("differed", r"^(VERIFIED-DIFFERS|VERIFIED WITH CORRECTIONS|DISPUTED|REFUTED|AGREES WITH MAIN, AND CORRECTS IT|NOT REPRODUCED)"),
     ("verified", r"^(VERIFIED|REPRODUCED|RE-DERIVED|PARTLY VERIFIED|ALREADY ON MAIN|AGREES|CONFIRMATION|CONSISTENT|READ; VERIFIED|§§1–4 \*\*REPRODUCED)"),
-    ("not read", r"^(SCHEDULED|UNREAD|QUEUED|RECEIVED, NOT READ|REGISTERED; NOT READ|REGISTERED BY FILE NAME; NOT READ|NOT RE-RUN)"),
+    # "ROWED <date> (<arc>), NOT READ" added 2026-11-12 (Review 79): six rows that say so were sorted as registered by their first word
+    ("not read", r"^(SCHEDULED|UNREAD|QUEUED|RECEIVED, NOT READ|REGISTERED; NOT READ|REGISTERED BY FILE NAME; NOT READ|NOT RE-RUN|ROWED [^:]{0,40}NOT READ)"),
     ("closed by triage", r"^(CLOSED-HANDLED|CLOSED-NO-LOAD-NO-LEAD|SUPERSEDED|CARRIED|ALREADY DONE)"),
     ("registered", r"^(REGISTERED|RUN-GREEN, REGISTERED|RUN, REGISTERED|RUN, NOT RE-DERIVED|ROWED|LOGGED|RECORDED)"),
     ("read", r"^(READ|TAKEN|ADOPTED|ANSWERED|BANKED|DIGESTED|REVIEWED|ACCEPTED|BOTH PAGES READ|the rule READ)"),
@@ -115,6 +116,15 @@ def rows(text):
             c = [x.strip() for x in l.strip().strip("|").split(" | ")]
             if len(c) >= 8:
                 out.append(dict(n=int(c[0]), cell=c[1], item=c[2], disposition=c[5], arc=c[6], date=c[7][:10], klass=klass(c[5])))
+            elif len(c) == 6:
+                # CORRECTED 2026-11-12 (Review 79; found by a reading on another family of model).  Thirteen rows of the ledger have
+                # six cells, with no cell for main's arc and none for the date (633 to 638 and 879 to 885).  This reader asked for
+                # eight and dropped them without a word, so the digest counted 1,686 rows of 1,699.  They are read now.  Their date
+                # is the first date in their disposition, or that of the last dated row above them.
+                m = re.search(r"\d{4}-\d{2}-\d{2}", c[5])
+                out.append(dict(n=int(c[0]), cell=c[1], item=c[2], disposition=c[5], arc="", date=(m.group(0) if m else (out[-1]["date"] if out else "")), klass=klass(c[5])))
+            else:
+                raise ValueError("a numbered row of the ledger with %d cells, which this reader does not know: %s" % (len(c), l[:90]))      # nothing is dropped without a word
     return out
 
 
@@ -180,7 +190,7 @@ def build(commit, text=None):
         differed=[dict(n=r["n"], seat=r.get("seat"), item=r["item"][:70]) for r in RW if r["klass"] == "differed"],
         working=list(WORKING),
         flagged=[dict(n=n, reader=g, seat=R[n].get("seat"), klass=R[n]["klass"], date=R[n]["date"], item=R[n]["item"][:150],
-                      carried_by=sorted(set(re.findall(r"P-\d{3}", R[n]["disposition"] + " " + R[n]["item"])))[:6])
+                      carried_by=sorted(set(re.findall(r"P-\d{3,4}", R[n]["disposition"] + " " + R[n]["item"] + " " + R[n]["arc"]))))     # corrected 2026-11-12 (Review 79): the cell for main's arc, where main writes the register row, was not read; ids were cut at three digits; the list was cut at six
                  for g, rows_ in flagged().items() for n in rows_ if n in R])
 
 

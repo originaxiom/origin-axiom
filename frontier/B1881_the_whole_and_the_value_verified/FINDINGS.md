@@ -76,7 +76,9 @@ backward. Main computed it from exact integer matrices, and checked it against t
 | after the review: short gaps | (6) with one period on both sides reads 3.6515, 0.92 percent above its own value; (11) is 0.65 percent off. (6)₁(6)₂ reads 3.6371, below (6)₁ alone |
 | after the review: the pair A, B | A = (2,1,1,4,4) and B = (2,1,2,4,4) keep the line, with own values 2.418183 and 2.423508. In A₁B₂ the apex is in A, at 2.425956. For every gap from 2 to 12 it is in B |
 
-- **A least, and no greatest.** Over all 16,275 cyclic run sequences of even length to 6 with runs to 5, the least
+- **A least, and no greatest.** Over all 16,275 run sequences of even length to 6 with runs to 5 [CORRECTED
+  2026-11-12 (Review 79): this read "cyclic run sequences". 16,275 = 5² + 5⁴ + 5⁶ counts sequences; up to rotation
+  they are 2,815. The least is the same either way], the least
   apex is the ground's own, √5/2. The own values of the allowed single runs are 5m/2 + √5/2 for the run of 5m + 1,
   and grow without bound.
 - **So if the whole is read by its greatest, there is no outcome in this instrument.** That is the record's own
@@ -98,7 +100,10 @@ observed and not proved. The two are different numbers.
 ## 5. One allowed set, in the two conventions
 
 The seat writes rows, the mark (1, 3) and the ground [[1, 1], [1, 2]]. B1872 writes columns, the mark (1, 2) and the
-ground [[2, 1], [1, 1]]. Main did not know beforehand whether "keeps the line" names the same run sequences in both.
+ground [[2, 1], [1, 1]]. [CORRECTED 2026-11-12 (Review 79): that is not B1872's convention. B1872's own run prints the
+seat's: rows, the line ±(1, 3) with its twin ±(2, 1), and the ground ((1, 1), (1, 2)). The second convention tested
+here, columns with the mark (1, 2) and the ground [[2, 1], [1, 1]], is its transpose and is this arc's own; the
+script's docstring carries the same wrong name. The conclusion, one allowed set in both, is not touched.] Main did not know beforehand whether "keeps the line" names the same run sequences in both.
 
 - On all 47,988 run sequences of length 2, 4 and 6 with runs to 6, the two agree, with no exception.
 - They also agree when one is read on the reversed sequence. So the allowed set is closed under reversal.
@@ -171,11 +176,21 @@ formulation, a day old and unread by any other seat.
 - **Three of main's own checks failed on the first run, and none of the seat's facts.** Two used a constant computed
   in double precision inside a 30-digit series. One asked for "0.93 percent", a figure main had typed and the relay
   does not print; the offset is 0.9245. The checks are mended in place and say so. No expectation was changed.
-- **The expectations were written before the run,** in the script's header. Eleven held. The twelfth, on the two
+- **The expectations were written before the run,** in the script's header. [CORRECTED 2026-11-12 (Review 79):
+  nothing on file shows that. Script, run and findings entered the record in one commit, with no earlier commit of
+  the header. By the protocol's labels this arc is computed once.] Eleven held. The twelfth, on the two
   conventions, was not predicted.
 - **§ 6 was written with the owner's ruling in hand.** It is a reading of facts verified here, not a prediction made
   before them.
-- **Main read both relays about ten hours after the first was pushed** (B1880 § 6).
+- **Main read both relays about ten hours after the first was pushed** (B1880 § 6). [CORRECTED 2026-11-12
+  (Review 79): the section cited is about a re-audit that sat unread for eight hours, not about these relays. The ten
+  hours are main's reckoning and no file is cited for them.]
+- **Three checks did not check what they said** (added 2026-11-12, Review 79, found by a reading of this arc by a
+  session that did not build it). Two were passed the literal value true and counted among the 65: that the mirror
+  normalises the group, and that the single runs' own values increase without bound. Both are computed now. A third,
+  mended earlier and said to ask what the relay says, asked for main's own figure; it now asks for both. And the
+  lock said it recomputed the index, the cusp widths and the elliptic points, and recomputed the index alone; it
+  recomputes all three now.
 
 ## Reproduce
 

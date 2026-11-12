@@ -4515,3 +4515,11 @@ readers. At the review the owner ruled four things about the foundation.**
   ("the twins come together"), whose repair shows that one twin or both as the mark is a real choice.
 - **Next:** R78-1 to R78-11 (docs/progress/REVIEWS.md): the owner's rulings carried into the foundation; the rest of
   the re-audit; the read-out on the whole stated before anything is computed (P-776). 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-12 (Review 79)
+
+Touched at Review 79 (its anchor `0dda7b472`). **The window (B1878–B1890; S306p) put the owner's rulings into the
+governing documents and the foundation, opened pages on which main directs the sessions, digested what every session
+has sent, and landed the first repairs of the gates. The review was read in full by four sessions that built none of
+it: 99 findings, all held; 88 distinct faults.**
+- **For this page:** no lead moved. What the review opened is debts and process rows, P-811 to P-815, and the action items R79-1 to R79-18 on `docs/progress/REVIEWS.md`.

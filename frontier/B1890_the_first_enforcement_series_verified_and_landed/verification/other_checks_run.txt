@@ -36,3 +36,10 @@ THE TWO THAT FAILED, AND THE 53 GATES, AFTER THE VIEWS WERE REGENERATED IN THE S
 8 passed, 1 warning in 175.49s (0:02:55)
 RC=0
 53
+
+ADDED 2026-11-12 (REVIEW 79): THE SERIES' OWN LOCK ON MAIN, RUN AGAIN.  A second reading found that the page gave a row
+"14 pass" and that no run in this file shows it: the runs above are each patch's lock on the commit before it.  Run on
+main's tree as Review 79's landing leaves it:
+$ python3 -m pytest -q -p no:cacheprovider tests/test_gates_are_a_function_of_the_commit.py
+..............                                                           [100%]
+14 passed in 118.54s (0:01:58)

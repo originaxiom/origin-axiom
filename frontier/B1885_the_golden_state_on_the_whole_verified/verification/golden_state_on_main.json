@@ -94,7 +94,7 @@
   ]
  },
  "level 17: the unit has norm -1 and f(g z) = (d/17) f(z) on three moves (d = 3 with factor -1, d = 2 and d = 1 with factor +1), at two points each": true,
- "level 17: f vanishes at every elliptic point where the character forces it": true,
+ "level_17_forced_zeros": "none: no check made",
  "level 17: and at the others it does not vanish (the points of order 2)": true,
  "level_17": {
   "R": "0.749886340657461",

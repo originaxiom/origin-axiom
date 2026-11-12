@@ -2496,16 +2496,19 @@
    ]
   ],
   "rows": [
-   "P-713"
+   "P-713",
+   "P-776"
   ],
   "arcs": [
    "B1341",
    "B852",
-   "B1813"
+   "B1813",
+   "B1881"
   ],
-  "note": "",
+  "note": "B1881 (carried here 2026-11-12 by Review 79; the register's P-776 had promised it at the map's next change, and four changes passed): in the flat-fibre instrument the readings of the allowed run sequences have a least and no greatest, so a read-out by the greatest place needs a bound that nothing on the record supplies.",
   "rows_live": {
-   "P-713": "DONE"
+   "P-713": "DONE",
+   "P-776": "QUEUED"
   },
   "weave_or_thread": "record"
  },
@@ -6799,6 +6802,78 @@
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-810": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:811",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the locks on five of the audit's corrections caught 25 of 44 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-811 — "
+   ]
+  ],
+  "rows": [
+   "P-811"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 89,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-811": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:812",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-812 — "
+   ]
+  ],
+  "rows": [
+   "P-812"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 90,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-812": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:813",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-813 — "
+   ]
+  ],
+  "rows": [
+   "P-813"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 91,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-813": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

@@ -46,8 +46,12 @@ def test_no_amended_passage_states_arrival():
     spec.loader.exec_module(g)
     hits = g.arrival_hits()
     assert not [h for h in hits if h[0] in ("CLAIMS.md", "docs/THE_CLAIM.md", "README.md")]
-    low = _read("GOVERNANCE.md").lower()                                       # the governing page is exempt from the gate, so it is read here
-    for phrase in ("the standard model is derived", "is a theory of everything", "the values are derived", "all nineteen"):
+    # CORRECTED 2026-11-12 (Review 79, from a reading on another family of model): the governing page is exempt from the gate, so it
+    # is read here; and it was read for four substrings, which cover five of the gate's sixteen phrases.  Eleven were looked for by
+    # nobody on this page.  All of the gate's phrases are looked for now, in the page's text with its line breaks joined.
+    low = " ".join(_read("GOVERNANCE.md").lower().split())
+    assert len(g.ARRIVAL_PHRASES) >= 16
+    for phrase in tuple(g.ARRIVAL_PHRASES) + ("the standard model is derived", "is a theory of everything", "the values are derived", "all nineteen"):
         assert phrase not in low, phrase
     assert _read("GOVERNANCE.md").count("0 of 19") >= 2
 

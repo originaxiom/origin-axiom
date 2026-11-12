@@ -9,6 +9,8 @@ constants (docstrings left out) are taken the arc folders it names and the file 
 the local modules.  A name is resolved in the file's own folder first, then in the arc folders that file names.  Every
 Python file so reached is parsed in turn.  A file that is only cited in a comment or a docstring is not reached; a file
 that is named and never opened IS reached, so the chain here can be longer than the true one and not shorter.
+[CORRECTED 2026-11-12 (Review 79): "and not shorter" is wrong.  A file whose name is built at run time is not reached, so
+the chain here can also be shorter than the true one.  What holds: an upper bound on the files the code names.]
 
 WHAT COULD FAIL.  The chain not closing (a named file that does not exist); the candidate not reaching the measured values
 at all, which would mean this instrument does not see how they enter; or a chain as long as the list of dependencies, which

@@ -81,3 +81,31 @@ def test_the_single_tick_is_the_only_short_history_that_fixes_exactly_the_two():
     assert "exactly the two: F\n" in run and "a set of positive dimension: 11 of 13" in run
     assert "the tick alone is the only history of at most five letters that fixes exactly the two: True" in run
 
+
+def test_the_script_is_run_again_and_says_the_same():
+    """Added 2026-11-12 (Review 79).  The test above looks for the group's orders, the indicator, the number of ends and the tick's
+    fixed set as lines of the committed run; only the walk's law and the short histories were recomputed in this lock.  A reader
+    planted a wrong group count in the script: the script failed and this lock passed.  Here the script itself is run, its own
+    assertions with it, and the lines are looked for in what it prints now."""
+    import subprocess
+    import sys
+    args = [sys.executable, "-B", str(HERE / "weave_with_the_exchange.py")]
+    try:
+        import snappy                                                         # noqa: F401
+        want_ends = True
+    except ImportError:
+        args.append("--no-snappy"); want_ends = False
+    r = subprocess.run(args, capture_output=True, text=True, timeout=1800)
+    assert r.returncode == 0, (r.stdout[-600:], r.stderr[-600:])
+    fresh = r.stdout
+    for s in ("ALL CHECKS PASS", "the tick alone fixes exactly [(0, 0, 0), (2, 2, 2)]", "the two acts: 96 elements, two pieces", "with the exchange: 192 elements, one piece",
+              "indicator twisted by the exchange is +1.000", "on all 165 triples that fit", "the tick fixes no point of the upper half-plane",
+              "the sixth root of unity 1/2 + i sqrt(3)/2 at their corners"):
+        assert s in fresh and s in RUN, s
+    assert (not want_ends) or "number of ends [1]" in fresh
+    # and the corrections of that date stand on the page, each with what it replaced
+    for s in ("Corrections of 2026-11-12 (Review 79)", "the walk's law of run lengths", "The measure itself is not shown unchanged", "this holds by construction",
+              "is not among the\n  thirteen", "this read \"The square of the tick, which is the root, is one of the eleven.\"", "By the protocol's labels this arc is computed once",
+              "main has neither read nor run them"):
+        assert s in FINDINGS, s
+

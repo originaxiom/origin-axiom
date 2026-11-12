@@ -250,7 +250,8 @@ N("T:IM", "6 tau", "claim", "LANE-PROPOSED", "The value under the rule at the po
 N("T:PRICED", "6 tau", "duty", "DUTY", "The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card.",
   [(TAU, "priced by the random-subset control")], rows=["P-714", "P-708"])
 N("T:NO-PLACE", "6 tau", "theorem", "NEGATIVE", "Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale.",
-  [(BANG, "nothing places Im τ"), (BANG, "**P-713 DONE, NEGATIVE for placing τ:**")], rows=["P-713"], arcs=["B1341", "B852", "B1813"])
+  [(BANG, "nothing places Im τ"), (BANG, "**P-713 DONE, NEGATIVE for placing τ:**")], rows=["P-713", "P-776"], arcs=["B1341", "B852", "B1813", "B1881"],
+  note="B1881 (carried here 2026-11-12 by Review 79; the register's P-776 had promised it at the map's next change, and four changes passed): in the flat-fibre instrument the readings of the allowed run sequences have a least and no greatest, so a read-out by the greatest place needs a bound that nothing on the record supplies.")
 
 # ------------------------------------------------------------------ layer 7: the scale
 N("SC:UNIT", "7 scale", "theorem", "NEGATIVE", "An absolute energy cannot come from the object, whose invariants carry no unit; any theory needs one outside unit. Main's re-reading of two negative arcs.",

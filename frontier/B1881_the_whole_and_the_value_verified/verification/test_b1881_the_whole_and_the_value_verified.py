@@ -55,7 +55,39 @@ def test_the_two_quotients_recomputed():
     assert (len(pm), len(ln)) == (10, 20)                     # index 12 and 6 in the 120 (B1872's 10 and 20 of 120)
     assert 120 // len(pm) == 12 == RES["A_numbers"]["quotient_one_twin"][0] and 120 // len(ln) == 6 == RES["A_numbers"]["quotient_line"][0]
     assert RES["A_numbers"]["quotient_one_twin"][1:] == [[1, 1, 5, 5], 0, 0, "0"] and RES["A_numbers"]["quotient_line"][1:] == [[1, 5], 2, 0, "0"]
-    assert Fr(1) + Fr(12, 12) - 0 - 0 - Fr(4, 2) == 0 and Fr(1) + Fr(6, 12) - Fr(2, 4) - 0 - Fr(2, 2) == 0     # both of genus 0
+    # REMOVED 2026-11-12 (Review 79; found by a second reading): a line stood here that added typed fractions to zero and called
+    # it the genus.  It could not fail.  The genus is computed below from the cusps and elliptic points that are counted.
+    # ADDED 2026-11-12 (Review 79).  The docstring promised the cusp widths and the elliptic points "by a count written apart", and
+    # the lines above compare them with the committed file and do arithmetic on typed numbers.  Here they are counted: the cosets of
+    # each group are the 12 vectors up to sign and the 6 lines; a cusp is a cycle of T on them, its width the cycle's length; an
+    # elliptic point of order 2 or 3 is a coset fixed by S or by ST.  The genus is then computed from what was counted.
+    def act(g, w):
+        return ((w[0] * g[0] + w[1] * g[2]) % 5, (w[0] * g[1] + w[1] * g[3]) % 5)
+    vecs = [(a, b) for a in range(5) for b in range(5) if (a, b) != (0, 0)]
+    up_to_sign = sorted({min(w, ((-w[0]) % 5, (-w[1]) % 5)) for w in vecs})
+    line_of = lambda w: min(((w[0] * u) % 5, (w[1] * u) % 5) for u in range(1, 5))
+    lines = sorted({line_of(w) for w in vecs})
+    assert (len(up_to_sign), len(lines)) == (12, 6)
+    ST = mul(S, T)
+
+    def census(points, canon):
+        seen, widths = set(), []
+        for p0 in points:
+            if p0 in seen:
+                continue
+            n, q = 0, p0
+            while True:
+                seen.add(q); n += 1; q = canon(act(T, q))
+                if q == p0:
+                    break
+            widths.append(n)
+        e2 = sum(1 for p0 in points if canon(act(S, p0)) == p0)
+        e3 = sum(1 for p0 in points if canon(act(ST, p0)) == p0)
+        genus = Fr(1) + Fr(len(points), 12) - Fr(e2, 4) - Fr(e3, 3) - Fr(len(widths), 2)
+        return sorted(widths), e2, e3, genus
+    sign = lambda w: min(w, ((-w[0]) % 5, (-w[1]) % 5))
+    assert census(up_to_sign, sign) == ([1, 1, 5, 5], 0, 0, 0) and census(lines, line_of) == ([1, 5], 2, 0, 0)
+    assert list(census(up_to_sign, sign)[:3]) == RES["A_numbers"]["quotient_one_twin"][1:4] and list(census(lines, line_of)[:3]) == RES["A_numbers"]["quotient_line"][1:4]
 
 
 def test_a_run_keeps_the_line_exactly_when_it_is_one_mod_five_recomputed():

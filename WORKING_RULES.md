@@ -485,17 +485,22 @@ registered in `docs/PRACTICES.md`.
 ## Rule (2026-11-11, the owner's instruction to main — adopted): ONE CHANNEL TO THE OWNER, AND A QUESTION OF FACT IS NEVER PUT TO HIM
 
 **What happened.** On 2026-11-10 and 2026-11-11 three seats put the same questions to the owner: whether the tick is an
-act, what a ground is, what closing means. To one seat he answered "no preference". To main he chose, each time, the
+act, what a ground is, what closing means. To one seat he answered that he had no preference. To main he chose, each time, the
 option main had recommended, and main recorded four rulings. The advisor seat then sorted the 111 rulings on record
-(its `rulings_sorted/` @ `7726eeed`): 81 decisions and 16 statements of what he means, which are his to make; 11
-suppositions about the mathematics or the world, none of which began as his own statement. Asked by main whether the
-advisor seat's proposed rule should bind main as well, the owner answered, verbatim:
+(its `rulings_sorted/` @ `7726eeed`): 81 decisions and 16 statements of what he means, which are his to make; and 14
+entries, which are eleven things, that are suppositions about the mathematics or the world, none of which began as his
+own statement [corrected 2026-11-12 (Review 79): this read "11 suppositions", so that the three parts did not add to
+the 111]. Asked by main whether the
+advisor seat's proposed rule should bind main as well, the owner answered that main's recommendation was to be
+followed, so that the matter is settled once: the same questions of ruling had reached him from several seats, which is
+confusing and should not happen, main being main.
 
-> "what you recomend so we fix this once for all. i got asked same ruling questions from multiple seats, its
-> confusing. this shouldnt happen, you are main"
+*[2026-11-12 (Review 79): three quotations of the owner stood in this rule, written on 2026-11-11 before his ruling of that
+day that his messages are private (register row P-796). This is a governing page that a stranger reads, so they are
+given in plain words here; the history keeps them as they were written.]*
 
-**The rule, for every seat.** Points 1 to 4 are the advisor seat's proposal, to which the owner answered that seat
-"i agree". Points 5 and 6 are main's, at the owner's word above.
+**The rule, for every seat.** Points 1 to 4 are the advisor seat's proposal, to which the owner agreed, to that
+seat. Points 5 and 6 are main's, at the owner's word above.
 
 1. **What a ruling is.** The owner rules on a goal, a standard, an order of work, and on what he means. Only these are
    called rulings.
@@ -522,7 +527,8 @@ advisor seat's proposed rule should bind main as well, the owner answered, verba
 
 **What it replaces.** Main no longer asks the owner to confirm what he said to another seat (practice 8 of Review 78,
 as it stood). **What it re-types.** Main's four questions of 2026-11-11 were of the kind point 4 forbids. Their answers
-are re-typed at the foundation's next version: the tick as an act is a supposition and was handled by computation
+were re-typed at the foundation's version 1.65 (B1886) [corrected 2026-11-12 (Review 79): this still read "are re-typed
+at the foundation's next version" after that version had landed]: the tick as an act is a supposition and was handled by computation
 (B1879); a ground as the act is a tagged postulate of main's; the three sentences on the principle's wording and what
 closing means are statements of what the owner means, and are his.
 

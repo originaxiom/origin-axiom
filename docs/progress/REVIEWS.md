@@ -8753,16 +8753,152 @@ None promoted. 0 of 19.
 - **The mirror** is unmounted; the backup push is owed.
 
 ### Action items (Review 78)
-- [ ] R78-1: P-767 — the owner's rulings carried into the governing documents: the eleven of 2026-11-10 (the goal and the attribution gate first), the four confirmed and the two given directly on 2026-11-11 (the tick as an act; the wording; the ground as a postulate with its own number; the closed loop as a postulate with its falsifier and one outcome as one orbit), and the budget re-typed by what replaces the orientation and the selection criterion (owner: cc)
-- [ ] R78-2: P-772 — the rest of the second re-audit: the six arcs whose sealed scripts changed, read one by one; the seal's order; the seal patterns at any depth; the log's archives, with the append-only gate's untested branches (owner: cc)
-- [ ] R78-3: P-773 — the debts and the unearned identifications joined to the map, an alternative written for every bit and discrete choice, and one price: the certificate script the foundation cites repaired or retired (owner: cc)
-- [ ] R78-4: P-757 — the planted violations that still pass, each closed by a committed planted test or declared open by design (owner: cc)
-- [ ] R78-5: P-776 — the read-out on the whole stated before anything is computed: the quotient for each reading of the mark, the operator and its ingredients, what symmetry forces, what would count as failure; the web seat's two relays on the weave's own action read in full first (owner: cc)
-- [ ] R78-6: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (carried from R77-3; owner: cc)
-- [ ] R78-7: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (carried from R77-4; owner: cc)
-- [ ] R78-8: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason; the retraction row for 'the unique metallic grammar' (carried from R77-5; owner: cc)
-- [ ] R78-9: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R77-6; owner: cc)
-- [ ] R78-10: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R77-8; owner: cc)
-- [ ] R78-11: P-769 — the computation the owner asked for before deciding how 'the tick is an act' stands with 'even ticks observed': the weave's theorems restated for the group with the exchange, and the record's structures at the levels where the group doubles (owner: cc)
+- [x] R78-1: P-767 — the owner's rulings carried into the governing documents: the eleven of 2026-11-10 (the goal and the attribution gate first), the four confirmed and the two given directly on 2026-11-11 (the tick as an act; the wording; the ground as a postulate with its own number; the closed loop as a postulate with its falsifier and one outcome as one orbit), and the budget re-typed by what replaces the orientation and the selection criterion (owner: cc) — RESOLVED at Review 79: the goal and the attribution gates are in the governing documents (B1878) and the owner's statements of the two days are in the foundation, typed under the rule of 2026-11-11 (B1886, version 1.65; corrected in four sentences at 1.66, B1891). What the register row still owes, the count computed from each value's ancestry and the five untagged suppositions, is carried by the package for the count (WP-0.12) and by P-780
+- [>] R78-2: P-772 — the rest of the second re-audit: the six arcs whose sealed scripts changed, read one by one; the seal's order; the seal patterns at any depth; the log's archives, with the append-only gate's untested branches (owner: cc) — carried to Review 79 as R79-1 (not worked in the window, which went to the sessions' pages, the digest and the audit's corrections)
+- [>] R78-3: P-773 — the debts and the unearned identifications joined to the map, an alternative written for every bit and discrete choice, and one price: the certificate script the foundation cites repaired or retired (owner: cc) — carried to Review 79 as R79-2 (not worked in the window)
+- [>] R78-4: P-757 — the planted violations that still pass, each closed by a committed planted test or declared open by design (owner: cc) — carried to Review 79 as R79-3 (the first patch series is landed, B1890; the second, third and fourth are delivered and not yet verified by main)
+- [>] R78-5: P-776 — the read-out on the whole stated before anything is computed: the quotient for each reading of the mark, the operator and its ingredients, what symmetry forces, what would count as failure; the web seat's two relays on the weave's own action read in full first (owner: cc) — carried to Review 79 as R79-4 (the web seat's two relays are verified, B1881, and its sealed card on the golden state is delivered; the read-out is not yet stated)
+- [>] R78-6: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (carried from R77-3; owner: cc) — carried to Review 79 as R79-5 (not worked in the window)
+- [>] R78-7: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (carried from R77-4; owner: cc) — carried to Review 79 as R79-6 (not worked in the window)
+- [>] R78-8: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason; the retraction row for 'the unique metallic grammar' (carried from R77-5; owner: cc) — carried to Review 79 as R79-7 (the web seat checked the agy lane's four theorems, by its account; not yet on main)
+- [>] R78-9: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R77-6; owner: cc) — carried to Review 79 as R79-8 (not worked in the window)
+- [>] R78-10: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R77-8; owner: cc) — carried to Review 79 as R79-9 (not worked in the window)
+- [>] R78-11: P-769 — the computation the owner asked for before deciding how 'the tick is an act' stands with 'even ticks observed': the weave's theorems restated for the group with the exchange, and the record's structures at the levels where the group doubles (owner: cc) — carried to Review 79 as R79-10 (the weave's theorems are restated for the group with the exchange, B1879, with ten faults found in that arc at this review and mended; the record's structures at the levels where the group doubles are still owed)
 
 **anchor-commit: `38d2a36dc`**
+
+# Review 79 (2026-11-12) — read in full by sessions that built none of it: 99 findings, all held; one reading misses most of what is there
+
+*Main, with four readers. The window is `38d2a36dc` to `0dda7b472`, 49 commits. The evidence is the arc B1892
+(`frontier/B1892_review_79_read_by_those_who_did_not_build_it/`): the table of every finding, the quotation check, the
+planted suite's output. This review was run under the owner's ruling that its choices are settled by what best
+protects the project's integrity (register row P-805): everything is read in full, by sessions that did not build
+it; main answers every finding and closes nothing on a reader's word; the block was not waived further.*
+
+## In one minute
+
+- **99 findings on main's work of two days. Main reproduced each one, and all 99 held.** They are 88 distinct faults.
+  Ten were found by two readers. In one arc one reader found ten faults and the other none.
+- **Mended:** every fault that was main's to mend, with the old words kept. Eleven are in the enforcement package's
+  files and go to its builder.
+- **Main's gates catch 14 of 32 planted faults** on the reviewed commit. The full suite on a fresh clone failed 15
+  tests, 12 of them main's own of this window.
+- **Not done:** no reader was tested against planted faults; the review's block can still be switched off in two
+  ways; what main mended in answer has been read by nobody but main.
+
+## 1. The loop
+
+Review 78's eleven items: one resolved, ten carried, each with its reason in that block.
+
+- **Resolved:** R78-1. The owner's rulings are in the governing documents (B1878) and in the foundation (B1886).
+- **Carried:** R78-2 to R78-11, as R79-1 to R79-10. Five of them were carried into Review 78 as well; this is their
+  second carry.
+
+## 1b. The branches
+
+20 branches not merged, every one registered as a lane. Four moved in the window: the web seat's, the SM seat's, the
+advisor seat's, and a new one, agy-002's, registered when it appeared.
+
+## 2. What this review read, and what it can certify
+
+- **Read in full, by a session that did not build it:** the 13 arcs added in the window (B1878 to B1890); the
+  window's difference on the 11 arcs whose verdict file changed and the 14 whose findings changed; the governing
+  pages; main's own changes to its checkers, its gates' file and the listener.
+- **By two sessions:** twelve of the thirteen added arcs (B1878 to B1888 and B1890), the two corrections main made
+  on 2026-11-11, the governing pages and the instruments. The fourth reader delivered last, on the commit the others
+  read; nothing of their findings had been pushed or written on a page.
+- **By one only:** B1889. It describes every reader's work: two left it, and one read it but for the part on its own
+  family's sessions, which no reader has read. And two of the fifteen changed arcs, whose notes concern the nulls of a
+  comparison with measured values: their second reader left them under the firewall.
+- **Recomputed by main:** every finding that rests on a number, from the arc's own outputs or by main's own code.
+- **Not certified:** that nothing else is wrong in what was read. Two readers of one arc found, between them, eleven
+  faults and none in common; two readers of another found ten and none.
+- **Not read by anyone but main:** what main changed in answer to this review. It is the next window.
+- **Locks:** every lock main touched was run; the long lock of the programme was run on the tree that is landed.
+  The full suite on a fresh clone was run at `323f92327`.
+
+fresh-clone: NOT YET RUN at the commit that carries this entry. The tool clones a commit, so the run is made at the head that carries the entry and its result is written here in the commit after it, as at Review 78
+fresh-clone suite: FAIL @ 323f92327 (15 failed, 8422 passed, 72 skipped): twelve were main's own of this window, eleven verdict files whose scope broke the schema and one ledger row, mended at f8b5e6769; one fails by construction while a waiver is live; two are standing (tests/test_b805_forcing.py, P-239). Run again at the head that carries this entry (R79-13)
+sample seed: none drawn. Every arc of the window was read in full, under register row P-805; the tool's draw from the anchor 38d2a36dc would have been B1880, B1881, B1885, B1887, B1890
+gate controls: 53 registered failing-path tests; unregistered: none. A control is counted by its name: sixteen of the 53 do not depend on their gate's answer (register row P-808)
+
+## 3. What moved
+
+- **The law map gained three rows and the theorem registry one.** Two rows were scoped at this review: the index of
+  the chiral three is stated for a unit that is uniform on the cusp's three lines.
+- **The foundation is at version 1.66:** four sentences corrected, no item added, no status changed.
+- **Nothing moved towards the goal.** 0 of 19; 1 of 43 packages done. The window went to how the record is kept and
+  checked.
+- **Not assessed here:** which row has been longest in one class. The readers' time went to the arcs.
+
+## 4. Errors, by class
+
+No new class entered the ledger in the window; two instances of known classes did. The 88 faults of this review fall
+into five kinds, which the arc's § 6 lists with examples:
+
+| kind | the standing rule that should have caught it |
+|---|---|
+| a check that could not fail, or a lock weaker than its sentence | a lock is tested against a planted error before it is trusted. It was not done for main's own locks; three sessions did it this week and each lock caught about half |
+| a statement wider than what was computed | the scope tag. It was written from memory in eleven verdict files with the wrong keys, and the test for it was not run |
+| a number that differs from its source | quote numbers from the output. Where a lock now computes the page's numbers from the run, six such errors would have failed it |
+| a label stronger than its evidence | the labels are four days old; the order of commits was not checked against a label before it was written |
+| a correction that did not travel | sweep for the old form before a correction lands. Main skipped the sweep twice in this window, once within hours of being told of the first |
+
+Two are candidates for a class of their own and are carried (R79-17): a reader of rows that drops what it cannot
+parse, and a label stronger than its evidence.
+
+## 5. Provenance
+
+- **Phrases that pretend outside verification:** none in 6,647 added lines.
+- **Papers:** not touched in the window, beyond a rebuilt manifest.
+- **New words:** none that the terminology page lacks. The page gained the words for a session and for how a check is
+  named.
+- **The owner is not quoted:** checked by machine against main's private log. Of the lines added since his ruling,
+  more than four thousand with this landing's, two share a run of five words with a message of his: a register row written before the ruling, and a sentence of
+  the terminology page made of common words. No commit message shares any. Three quotations that stood in the working
+  rules and one in the foundation, written the same day before the ruling, are now in plain words; the arcs keep
+  theirs.
+
+## 6. Promotions
+
+None processed. The blocker is this review's own result: 88 faults in two days' work are being mended, and nothing
+is promoted from a window in that state.
+
+## 7. Protocol integrity
+
+- **Seals:** one in the window, the card of B1882. Three hashes of three verify, and it was sealed before its
+  results. Its seal is not on the mirror, which is unmounted; the backup push is owed.
+- **Held-out targets:** none computed or compared. The owner's hold stands.
+- **The masked reading:** the two agy sessions' files were read through the mask. Their quotations were checked by a
+  script that reads the files; main did not.
+- **The environment:** no variable of the project was set in any run. This matters because one of them makes the
+  blocking gate read no landings (register row P-806).
+- **This entry's anchor** is the commit the readers read. A sentence on this page naming another commit would move
+  the count; no gate yet ties an anchor to an entry.
+- **The instruments, tested against planted errors:** 14 of 32, by the advisor seat's suite, run by main.
+- **The full suite on a fresh clone:** 15 failed, 8,422 passed, 72 skipped, at `323f92327`. It is run again at the
+  head that carries this entry.
+- **The block:** it fired at 40 landings. The owner waived it through 50 so that his rulings could reach the
+  sessions. Main asked for no more, and landed nothing between its last message to the readers and this entry.
+
+### Action items (Review 79)
+- [ ] R79-1: P-772 — the rest of the second re-audit: the six arcs whose sealed scripts changed, read one by one; the seal's order; the seal patterns at any depth; the log's archives, with the append-only gate's untested branches (carried from R78-2; owner: cc)
+- [ ] R79-2: P-773 — the debts and the unearned identifications joined to the map, an alternative written for every bit and discrete choice, and one price: the certificate script the foundation cites repaired or retired (carried from R78-3; owner: cc)
+- [ ] R79-3: P-757 with P-806 — the planted violations that still pass, 18 of 32 at this review, and the two ways to switch the review's block off: the second, third and fourth patch series of the enforcement package verified with main's unseen cases, read line by line and landed, with the eleven faults this review sent to its builder (carried from R78-4; owner: cc)
+- [ ] R79-4: P-776 — the read-out on the whole stated before anything is computed: the quotient for each reading of the mark, the operator and its ingredients, what symmetry forces, what would count as failure; with main's own computation of the golden state's rank (P-783) (carried from R78-5; owner: cc)
+- [ ] R79-5: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (carried from R78-6, before it R77-3; owner: cc)
+- [ ] R79-6: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (carried from R78-7, before it R77-4; owner: cc)
+- [ ] R79-7: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason; the retraction row for 'the unique metallic grammar' (carried from R78-8, before it R77-5; owner: cc)
+- [ ] R79-8: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R78-9, before it R77-6; owner: cc)
+- [ ] R79-9: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R78-10, before it R77-8; owner: cc)
+- [ ] R79-10: P-769 — the record's structures at the levels where the group doubles, and the table of the eight walls, for the group with the exchange (carried from R78-11; owner: cc)
+- [ ] R79-11: P-814 — what main changed in answer to this review, read by sessions that did not make the changes; B1889's part on the agy family's sessions, read by a session of another family; the two changed arcs their second reader left under the firewall (owner: cc; source: B1892 § 5)
+- [ ] R79-12: P-801 — the review's template, tools and trigger changed in an arc of their own: every arc of the window in the pool, the changed ones with it; reading by sessions that did not build it as the rule; findings as quotations checked by machine; catches and false alarms counted; the trigger counting work and not commits (owner: cc, with the advisor seat's read; source: docs/progress/THE_REVIEW_REVIEWED_2026-11-11.md)
+- [ ] R79-13: P-810 — the schema's test of the verdict files made a gate; the full suite on a fresh clone run at the head that carries this entry, and its result entered (owner: cc; source: B1892 § 7)
+- [ ] R79-14: P-804 — the lock on the knot group's level asks for the correction beside each statement (twenty units in twelve files), and reads the programme's page as a live one (owner: cc; source: the web seat's check)
+- [ ] R79-15: P-808 — what the advisor seat saw on main's pages: B1632's claim line leading with its correction; three tests that cannot fail; sixteen controls that do not depend on their gate (owner: cc)
+- [ ] R79-16: harvest rows 1707 to 1710, with P-803 — the sessions' deliveries of 2026-11-11 banked with main's own recomputation of what decides: the SM seat's thirty items, the web seat's checks of two bodies of work, agy-exp's three derivations, agy-002's fifteen unsaid inputs judged for the count (P-803) (owner: cc; source: harvest rows 1707 to 1710)
+- [ ] R79-17: P-811 — the error ledger: two candidate classes entered or declined with a reason, a reader of rows that drops what it cannot parse (B1889) and a label stronger than its evidence; and the locks of the window's arcs tested against planted errors, as the five corrections' were (owner: cc; source: B1892 § 6)
+- [ ] R79-18: P-813 — what this review left unmended: a lock that reads manifold facts from a committed file (B1887); the status page's milestone rows, which overlap; the other quotations of the owner in the foundation, not counted (owner: cc; source: B1892's table)
+
+**anchor-commit: `0dda7b472`**

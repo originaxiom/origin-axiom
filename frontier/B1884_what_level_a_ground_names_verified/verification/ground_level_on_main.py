@@ -108,7 +108,9 @@ def main():
           [n for n in where if rho(n) == 1] == [5] and all(rho(n) == 2 for n in where if n != 5))
     check("G2 rho is as the card says: 1 at 5, 0 at 25, 0 at 2, 2 at a prime that is +-1 modulo 5, 0 at one that is +-2",
           rho(5) == 1 and rho(25) == 0 and rho(2) == 0 and all(rho(p) == (2 if p % 5 in (1, 4) else 0) for p in (3, 7, 11, 13, 17, 19, 29, 31, 41, 59, 61, 71, 79, 89, 101, 109, 131)))
-    check("G2 rho is multiplicative on the N to 200 that are products of two coprime parts", all(rho(a * b) == rho(a) * rho(b) for a in range(2, 15) for b in range(2, 15) if math.gcd(a, b) == 1 and a * b <= 200))
+    check("G2 rho is multiplicative on the N to 200 that are products of two coprime parts", all(rho(a * b) == rho(a) * rho(b) for a in range(2, 101) for b in range(a + 1, 101) if math.gcd(a, b) == 1 and a * b <= 200)
+          and len({a * b for a in range(2, 101) for b in range(a + 1, 101) if math.gcd(a, b) == 1 and a * b <= 200}) == 139,
+          "every coprime factorisation of the 139 levels to 200 that have one (corrected 2026-11-12, Review 79: the parts ran to 14 only, 47 levels)")
 
     def orbits(g):
         vs = [(k * 1 % 5, k * 3 % 5) for k in (1, 2, 3, 4)] if row((1, 3), g, 5) in [(k % 5, 3 * k % 5) for k in range(1, 5)] else [(k % 5, 2 * k % 5) for k in (1, 2, 3, 4)]

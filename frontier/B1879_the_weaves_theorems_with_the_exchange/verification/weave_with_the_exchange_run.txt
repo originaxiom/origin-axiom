@@ -28,5 +28,5 @@ PART 5 -- THE MODULUS (exact): the moves on the upper half-plane, with the excha
     tau -> 1 - conj(tau)   fixes Re tau = 1/2
     tau -> 1/conj(tau)     fixes |tau| = 1
   so the weave still fixes no point (the record's W:NOMOD, a fortiori: more moves, no more fixed points). What the exchange adds is
-  mirrors: the lines Re tau = 0, Re tau = 1/2 and |tau| = 1, with i and the cube root of unity at their corners.
+  mirrors: the lines Re tau = 0, Re tau = 1/2 and |tau| = 1, with i and the sixth root of unity 1/2 + i sqrt(3)/2 at their corners.
 ALL CHECKS PASS

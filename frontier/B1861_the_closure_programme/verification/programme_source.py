@@ -312,6 +312,9 @@ DEBT_TO_WP = {
     "P-806": "WP-0.7",   # the review's block can be switched off in two ways; three things skipped the review that its page did not list
     "P-808": "WP-0.3",   # what the advisor seat saw on main's pages on the way: controls that do not depend on their gate, tests that cannot fail
     "P-810": "WP-0.5",   # the full suite on a fresh clone found eleven verdict files of one window that break the schema; its test is not a gate
+    "P-811": "WP-0.3",   # the locks on five of the audit's corrections caught 25 of 44 planted errors; the lookup showed proved arcs as dead
+    "P-812": "WP-0.7",   # eleven findings of Review 79 in the enforcement package's files; ten specifications of checks from two sessions
+    "P-813": "WP-0.1",   # what Review 79 found and main did not mend: a lock that reads a committed file, overlapping rows, a script's print
 }
 
 # ---------------------------------------------------------------- the certificate

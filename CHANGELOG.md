@@ -1,5 +1,27 @@
 # Changelog
 
+## S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
+
+- **The result.** Four sessions read everything main landed in two days: the 13 arcs added, the arcs changed, the governing pages, main's changes to its own instruments. They made 99 findings. Main reproduced each at its source and all 99 held. They are 88 distinct faults, and ten were found by two readers. In one arc one reader found ten faults and the second found none.
+- **The review's entry** is on `docs/progress/REVIEWS.md`, anchored on the commit the readers read; its evidence is B1892, with one row for each finding. Review 78's eleven items: one resolved, ten carried, each with its reason.
+- **Mended, each with the old words kept:**
+  - B1879: the exchange leaves the law of run lengths unchanged, where the page said the walk's measure; the mirrors and the sixth root are computed by the script, where they were typed; another session's check is given as that session's account.
+  - B1881: two checks that were passed the literal value true are computed; the lock counts the cusp widths and the elliptic points it promised, and a line of typed fractions is removed; 16,275 is the count of sequences, and up to rotation there are 2,815.
+  - B1882: the window's ranges were one menu's of three; the page's numbers are now computed from the run by the lock.
+  - B1884: "two, and none elsewhere" holds to level 200, the range computed, and fails at 209; an old sentence true of one level stood unscoped in five places.
+  - B1885: the greatest place is 0.05585 away at 0.16432, where the page gave the nearest grid point; a point that was defined and never evaluated is evaluated; a check that passed over an empty list is no longer counted, 31 checks where the page said 32; the lock's two circles are computed from two reflections.
+  - B1886: the lock compares both kinds of status row at both versions and no longer skips.
+  - B1887, B1888, B1890: 26 lattices of rank 24 where the page said two; 51 scripts where it said 50; a row of 14 passes that had no committed run behind it now has one.
+  - B1889: its builder dropped thirteen rows of the ledger. The digest counts 1,699 items, and every number on its pages is corrected with what it was.
+  - B1221, B1641: main's two corrections of 2026-11-11 had not reached two verdict lines and two tables; the second had lost the maximum in a dimension formula; three things in its lock could not fail and are now computed.
+  - B874: a verdict line of August called a ladder complete that its own page had amended twice. Scoped.
+- **The foundation is at version 1.66 (B1891):** four sentences corrected, no item added, no status changed.
+- **Main's instruments, mended:** the tripwire on the audit's corrections reads four kinds of file with line breaks joined and holds six corrections; the lookup of one arc prints the verdict, where it printed a guess from the arc's words and showed 218 proved arcs as dead; the listener stores a message as read after it is shown, and shows a message main has changed; the programme's builder marks a sentence it cuts.
+- **What the instruments catch.** Main's gates: 14 of 32 planted faults on the reviewed commit, by the advisor seat's suite, run by main. The locks on five corrections: 25 of 44, tested by the SM seat. The full suite on a fresh clone: 15 failed, 12 of them main's own of this window.
+- **Not done, and said in the entry.** No reader was tested against planted faults. The review's block can still be switched off in two ways; the repair is delivered and not verified. Eleven findings are in the enforcement package's files and go to its builder (P-812). Four things are found and not mended (P-813). What main changed in answer has been read by nobody but main: each reader is asked on its page to check main's answers and to read the changes it did not find (P-814).
+- **Registered.** Harvest rows 1716 to 1721: the four readings, agy-002's eight specifications of checks and agy-exp's two, agy-exp's answers to the web seat's two questions, the advisor seat's last five patches of its fourth series, its first two for the package on labels, and its measurement of the front pages. Register rows P-811 to P-815. Five pins moved.
+- **This landing advanced WP-0.1, WP-0.3 and WP-0.8 and closed no package.** 0 of 19.
+
 ## S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
 
 - **The gate on the register failed at midnight:** three open rows cite working folders that are not tracked and had not moved for more than seven days. The rule is to land such a draft or to decline it.
@@ -79,7 +101,7 @@
 ## S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
 
 - **Why.** The owner: "did you process and harvest all branches? should you make that priority, so you underatabd what seats you have in disposal and whats their capacity"; and then that after the digest "we should stop and reorganize the work, so we lock the plan together me and you".
-- **The count.** The seats have sent 1,686 items in two months. Main has recomputed 377 of them itself: 349 held, 28 differed, and in at least three of the 28 the fault was main's. 455 were read without recomputation. 560 are registered and were never fully read, 239 of them the physical lane's and 160 the SM seat's. 233 were closed by triage. 55 are not read, 46 of them from seats that have ended.
+- **The count.** The seats have sent 1,686 items in two months. Main has recomputed 377 of them itself: 349 held, 28 differed [CORRECTED 2026-11-12 (Review 79): 1,699 items, 382 recomputed (354 held), 456 read, 61 not read; the digest's builder had dropped thirteen rows of the ledger], and in at least three of the 28 the fault was main's. 455 were read without recomputation. 560 are registered and were never fully read, 239 of them the physical lane's and 160 the SM seat's. 233 were closed by triage. 55 are not read, 46 of them from seats that have ended.
 - **Every row falls to exactly one of 23 seats.** 130 rows were filed under names that match no registered seat; they are sorted, and the sorting is on the page.
 - **Four seats are working:** the web seat, the advisor seat, the agy lane and the physical lane. Each has a card that says what its record shows and where it has been wrong.
 - **How it was made.** The counts are generated from the harvest ledger at one commit and a lock recomputes them. Five read-only readers on the cheaper tier grouped the rows by theme; 430 of their 436 quotes are in the row they name word for word, and the other six are not used. Main read for itself the 28 rows that differed, the 55 not read and every row the cards name.
@@ -169,7 +191,7 @@
 ## S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 
 - **Why.** The owner told main an answer was owed to the web seat. That seat had sent a card on the golden state and a check of the agy lane's loop, and its earlier card on the ground's level had been verified with no answer sent. While main worked, the owner sent the advisor seat's scoreboard page and asked whether main works by it.
-- **B1885, the golden state on the whole.** The web seat's sealed card, verified cell by cell with main's own code at 30 digits: 32 checks, and the one that fails is main's own guess at how closely the agy lane's point would agree. Maass's form of the golden field at level 5 transforms with the quadratic character, vanishes wherever a symmetry forces it, and has one greatest place of its density on the first stretch of the arc, at the seat's point to every digit main prints. Main adds the state's boundary conditions on the cell, one sign on its grid of the cell, the forced zeros at levels 13 and 17, and that the place moves with the measure. The agy lane's reported point is 1.5e-9 away and is not the critical point. It selects nothing, and it is not main's design for the read-out: of the eight conditions taken for that design it does not meet the sixth. Not shown: that the state is the lowest of its sector, or simple (P-783, asked of the web seat).
+- **B1885, the golden state on the whole.** The web seat's sealed card, verified cell by cell with main's own code at 30 digits: 32 checks [31 since 2026-11-12: one was a check over an empty list; Review 79], and the one that fails is main's own guess at how closely the agy lane's point would agree. Maass's form of the golden field at level 5 transforms with the quadratic character, vanishes wherever a symmetry forces it, and has one greatest place of its density on the first stretch of the arc, at the seat's point to every digit main prints. Main adds the state's boundary conditions on the cell, one sign on its grid of the cell, the forced zeros at levels 13 and 17, and that the place moves with the measure. The agy lane's reported point is 1.5e-9 away and is not the critical point. It selects nothing, and it is not main's design for the read-out: of the eight conditions taken for that design it does not meet the sixth. Not shown: that the state is the lowest of its sector, or simple (P-783, asked of the web seat).
 - **B1887, the loop check.** The web seat's check of the exact part of the agy lane's loop, verified by another route: 35 checks, none failing. Root lattices from coordinates; classes of least |Q| by a complete enumeration and not a box; rows, columns and the mirror word; which isometries reverse the base from the group's presentation. The seat's table holds to six figures. Two words in the lane's specification are other histories than it names. The lane's summary of the run of 6 is that of one golden period. Nothing of the lane's is adopted, and its spectra, overlaps and gates are unverified by anyone.
 - **The work order, at the owner's question (P-782).** Main's answer: inside the order, and not in its order. One package of 43 is done and none has closed since the first day. The advisor seat found that nothing waited on the package holding the audit's thirteen errors in the mathematics. The upstream audit now needs it, the sealed card needs the one governing document, and the programme's builder refuses an order with a second package that nothing needs, with the old order planted as its test. Practice 15: the next task comes from the order, a seat's relay waits under its package, and a landing names the package it advanced.
 - **This landing advanced** WP-0.4 (seat results under banked results: two more verified) and mended the order itself. **No package closed.**
@@ -597,7 +619,7 @@
 
 - **The explore seat's test** (row 1616), re-derived with main's own construction of the level-5 Weil representation:
   - it is projectively consistent on all 120 elements;
-  - only ±I act as scalars on both parity sectors (the charge is invisibility to every state);
+  - only ±I act as scalars on both parity sectors (the charge is invisibility to every state); [CORRECTED 2026-11-10 (B1862, the audit's finding E3), carried to this entry 2026-11-12 by Review 79, whose planted test of the tripwire found it here: that holds for E = +I only; E = −I acts as the parity operator and is invisible only under a parity superselection rule]
   - the commutant of ρ(LR) is ±⟨LR⟩ (the symmetry);
   - ρ(LR) is a ℤ/5 clock on every sector, with traces 1 − φ and φ;
   - the line-invisible departure is (LR)¹ mod 5, visible on superpositions, while the run of 6 is E ≡ I.
@@ -644,7 +666,7 @@
   - **HL2:** the rung premise is exactly a superselection charge: only ±I conserve every golden background's class, at N = 2..5.
   - **HL3, the least-length ladder:** (2), (2,1,1,1,2), (6), (21), (61).
   - **The apex law** (n − 1)/2 + √5/2, exact.
-  - **LR fixes a point of P¹(ℤ/N) only at N = 5.**
+  - **LR fixes a point of P¹(ℤ/N) only at N = 5.** [CORRECTED 2026-11-12 (Review 79; B1884's own table): that is true of the levels B1853 computed, N = 2 to 5. LR keeps exactly one point at N = 5, and two at N = 11, 19, 29 and at every prime that is ±1 modulo 5; what is special to 5 is that it keeps exactly one]
 - **So the action selects within a premise; it does not force the depth.** New rows:
   - P-735 and P-736, DONE;
   - P-737, the charge law, a range-scoped candidate;
@@ -16404,7 +16426,7 @@ R20-1…R20-11.
 ### Added
 - frontier/B567_hamiltonian_handoff/FINDINGS.md: the claimed six-level pi/3 spectrum is
   impossible (projective order forced to 20; verified at levels 15 and 165: 11/21 distinct
-  eigenvalues). Salvage: the p=2/metaplectic confounder; the invariant dynamics = the
+  eigenvalues). [CORRECTED 2026-11-10 (B1862, the audit's finding E13), carried to this entry 2026-11-12 by Review 79: at level 165 there are 20 distinct eigenvalues, and with projective order 20 there can be at most 20.] Salvage: the p=2/metaplectic confounder; the invariant dynamics = the
   order-20 Gauss-sum spectrum.
 - tests/test_b567_hamiltonian.py (3 locks).
 

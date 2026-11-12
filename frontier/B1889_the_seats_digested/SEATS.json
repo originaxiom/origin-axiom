@@ -1,15 +1,15 @@
 {
  "as_of": "338b14fe3db9528c69ef901a20e4930d0e7f023e",
- "rows": 1686,
+ "rows": 1699,
  "last_row": 1699,
  "totals": {
-  "verified": 349,
+  "verified": 354,
   "differed": 28,
-  "read": 455,
+  "read": 456,
   "registered": 560,
   "closed by triage": 233,
-  "not read": 55,
-  "other": 6
+  "not read": 61,
+  "other": 7
  },
  "seats": [
   {
@@ -17,18 +17,18 @@
    "name": "the web seat (chat1)",
    "state": "working",
    "reads": "directly",
-   "rows": 233,
+   "rows": 240,
    "by_class": {
-    "verified": 58,
+    "verified": 63,
     "differed": 11,
-    "read": 135,
+    "read": 136,
     "registered": 19,
     "closed by triage": 2,
     "not read": 5,
-    "other": 3
+    "other": 4
    },
-   "recomputed": 69,
-   "recomputed_share": 0.296,
+   "recomputed": 74,
+   "recomputed_share": 0.308,
    "first": "2026-09-08",
    "last": "2026-11-11"
   },
@@ -77,18 +77,18 @@
    "name": "the physical lane (the audit seat)",
    "state": "working",
    "reads": "its purely mathematical files, through the second mask",
-   "rows": 308,
+   "rows": 314,
    "by_class": {
     "verified": 31,
     "differed": 0,
     "read": 87,
     "registered": 187,
     "closed by triage": 3,
-    "not read": 0,
+    "not read": 6,
     "other": 0
    },
    "recomputed": 31,
-   "recomputed_share": 0.101,
+   "recomputed_share": 0.099,
    "first": "2026-09-08",
    "last": "2026-11-10"
   },
@@ -866,6 +866,48 @@
    "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
   },
   {
+   "n": 633,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "FINITE_TWIST_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
+   "n": 634,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "INDEX_STABILITY_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
+   "n": 635,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "RESOLVED_FERMION_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
+   "n": 636,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "SOURCE_ACTION_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
+   "n": 637,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "DEFECT_GAUGE_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
+   "n": 638,
+   "seat": "audit",
+   "date": "2026-09-17",
+   "item": "GLOBAL_POISSON_PROOF",
+   "says": "ROWED 2026-09-17 (B1424), NOT READ: received as a PRE-EXECUTION argument by the "
+  },
+  {
    "n": 642,
    "seat": "sep16",
    "date": "2026-09-18",
@@ -930,6 +972,11 @@
   }
  ],
  "other": [
+  {
+   "n": 881,
+   "seat": "chat1",
+   "leads_with": "RULED (B1478) → GENESIS v1.12: A1, A2, A4, A5 ADOPTED after "
+  },
   {
    "n": 1406,
    "seat": "agy",
@@ -1147,7 +1194,10 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "THE RIDDLE (relay §316; a reading the owner judged legitimate; NOTE \"Reading: THE RIDDLE\"): everything the principle forces is symmetric under the mov",
-   "carried_by": []
+   "carried_by": [
+    "P-277",
+    "P-406"
+   ]
   },
   {
    "n": 1451,
@@ -1156,7 +1206,10 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "W174, the skeleton census (relays §321–§322; rule 44e5994e0, script 843bb643a, output f2b1461d9 committed unread): no forced exponent pattern on recor",
-   "carried_by": []
+   "carried_by": [
+    "P-295",
+    "P-355"
+   ]
   },
   {
    "n": 1457,
@@ -1183,7 +1236,8 @@
     "P-302",
     "P-314",
     "P-323",
-    "P-328"
+    "P-328",
+    "P-338"
    ]
   },
   {
@@ -1193,7 +1247,10 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "W171 (relay §314; rule 7e63c09dc, script 318022bf6, one failed launch disclosed and fixed at 759cb31eb, output a01a1f1a7 committed unread; post hoc e7",
-   "carried_by": []
+   "carried_by": [
+    "P-384",
+    "P-411"
+   ]
   },
   {
    "n": 1301,
@@ -1267,7 +1324,9 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "the weave's own sum over threads as a selection on τ (relay §320; a design reading, no rule): a thread forces a curve on τ, not a point (the position ",
-   "carried_by": []
+   "carried_by": [
+    "P-413"
+   ]
   },
   {
    "n": 1331,
@@ -1288,7 +1347,10 @@
    "date": "2026-10-28",
    "item": "THE AUDIT, main's arcs (§3.4 of the same relay, at the owner's \"check the integrity of calculations and sctipts which les to negatives\"; five read-onl",
    "carried_by": [
-    "P-345"
+    "P-345",
+    "P-352",
+    "P-394",
+    "P-406"
    ]
   },
   {
@@ -1298,7 +1360,12 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "THE AUDIT, the SM seat's W172 and W174 (§3.5 of the same relay; recomputed with the SM seat's own W172 and W175 modules, audit_checks parts F and G): ",
-   "carried_by": []
+   "carried_by": [
+    "P-277",
+    "P-295",
+    "P-355",
+    "P-406"
+   ]
   },
   {
    "n": 1463,
@@ -1308,7 +1375,10 @@
    "date": "2026-10-28",
    "item": "THE AUDIT, the seat's own notes (§3.1–§3.3 and §4 of the same relay; dated corrections appended in 40c7305ac to THE CLASS AND THE END, P323_RESULT.md ",
    "carried_by": [
-    "P-323"
+    "P-277",
+    "P-323",
+    "P-345",
+    "P-402"
    ]
   },
   {
@@ -1318,7 +1388,12 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "THE TWO W's, an addendum after main's B1802 (1f36d7270, one paragraph rewrapped at f1a60708b; refereed read-only, its one blocking finding on the cove",
-   "carried_by": []
+   "carried_by": [
+    "P-406",
+    "P-409",
+    "P-411",
+    "P-415"
+   ]
   },
   {
    "n": 1459,
@@ -1328,7 +1403,9 @@
    "date": "2026-10-28",
    "item": "THE EXACT END (§1 of the relay THE EXACT END, THE SELECTOR AND THE AUDIT, 40c7305ac; refereed read-only, nine blocking findings of scope or wording ap",
    "carried_by": [
+    "P-266",
     "P-323",
+    "P-402",
     "P-410",
     "P-595"
    ]
@@ -1340,7 +1417,11 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "THE HOROCYCLE AND THE HEIGHT, the result (rule SEALED 1dd36cfba, script 5832fde1d, census 8de923cea and cells 84a323125 committed unread, post hoc ffa",
-   "carried_by": []
+   "carried_by": [
+    "P-402",
+    "P-411",
+    "P-412"
+   ]
   },
   {
    "n": 1443,
@@ -1386,7 +1467,10 @@
    "klass": "read",
    "date": "2026-11-10",
    "item": "THE WEAVE'S OWN ACTION ON τ, GRADED BY THE CLAUSE (the owner's 'weave form first'; data-free; nothing computed): the record's inventories graded candi",
-   "carried_by": []
+   "carried_by": [
+    "P-629",
+    "P-756"
+   ]
   },
   {
    "n": 1641,
@@ -1395,7 +1479,10 @@
    "klass": "registered",
    "date": "2026-11-10",
    "item": "THE CONTENT, ASKED IN WEAVE FORM (GENESIS FK11; the owner's choice of 2026-11-10; data-free; nothing computed): before any value, does the joint actio",
-   "carried_by": []
+   "carried_by": [
+    "P-380",
+    "P-629"
+   ]
   },
   {
    "n": 1619,
@@ -1406,7 +1493,9 @@
    "item": "R2'S EXACT BLOCK IS, ON THE RECORD, A PURE NUMBER OF THE OBJECT (relay 882633150; main's proposed next work, the first of P-722's three candidates; da",
    "carried_by": [
     "P-719",
-    "P-722"
+    "P-722",
+    "P-731",
+    "P-732"
    ]
   },
   {
@@ -1490,7 +1579,9 @@
    "klass": "read",
    "date": "2026-10-28",
    "item": "its relay PHYSICAL_TO_MAIN_AGY_SM_CHAT1_2026-10-27_ACTUAL_CHIRAL_KERNEL_AND_SPIN_RUNNING (1a4791de8), with PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNN",
-   "carried_by": []
+   "carried_by": [
+    "P-396"
+   ]
   },
   {
    "n": 1486,
@@ -1519,7 +1610,9 @@
    "klass": "read",
    "date": "2026-10-29",
    "item": "the author audit of that note: unspecialised charge coefficients; h_C = (12/5)[δ(L²) − δ(L³)]; a full-family countercontrol (light-running vectors (−4",
-   "carried_by": []
+   "carried_by": [
+    "P-396"
+   ]
   },
   {
    "n": 1518,
@@ -1528,7 +1621,9 @@
    "klass": "read",
    "date": "2026-11-03",
    "item": "the nontrivial-spin light cubic vanishes pointwise (conditional EFT zero Yukawa; trivial-spin control nonzero); a fixed-frame rescaling-anomaly invari",
-   "carried_by": []
+   "carried_by": [
+    "P-396"
+   ]
   },
   {
    "n": 1521,
@@ -1538,6 +1633,7 @@
    "date": "2026-11-03",
    "item": "the parent's light roster is generic (all four spins) iff χ³ ≠ 1 and χ¹⁰ ≠ 1 (108 exceptional characters; least order 4; order 7 not needed); order-te",
    "carried_by": [
+    "P-396",
     "P-592"
    ]
   },
@@ -1548,7 +1644,10 @@
    "klass": "read",
    "date": "2026-11-03",
    "item": "at exact Wilson order ten (η = χ⁵) the same parent has an actual nonzero light cubic (Lie coefficient −5, a nonzero ∫ω∧ω̄ overlap) with extra vector-l",
-   "carried_by": []
+   "carried_by": [
+    "P-396",
+    "P-585"
+   ]
   },
   {
    "n": 1523,
@@ -1566,7 +1665,9 @@
    "klass": "read",
    "date": "2026-11-03",
    "item": "an exact classical electroweak branch of the same action at Wilson order three (G = √10·Y0, [G, G†] = H; all residuals zero; stabilizer su3 ⊕ u1_em); ",
-   "carried_by": []
+   "carried_by": [
+    "P-210"
+   ]
   },
   {
    "n": 1535,
@@ -1584,7 +1685,10 @@
    "klass": "read",
    "date": "2026-11-03",
    "item": "its source audit of the agy lane's renewed nineteen-parameter/ToE claim (agy @ 36f1c3aad): the selected order-5 point is off U's eigenline and no orde",
-   "carried_by": []
+   "carried_by": [
+    "P-555",
+    "P-560"
+   ]
   },
   {
    "n": 1538,
@@ -1593,7 +1697,11 @@
    "klass": "read",
    "date": "2026-11-03",
    "item": "its audit of the agy lane's Theorems 10–13 (agy @ dcae538ab): T10's anti-invariant order-5 orbit and an explicit SU(2) mapping-torus extension kept, w",
-   "carried_by": []
+   "carried_by": [
+    "P-323",
+    "P-555",
+    "P-585"
+   ]
   },
   {
    "n": 1626,
@@ -1627,7 +1735,8 @@
    "date": "2026-11-10",
    "item": "BACK-EDGE A, THE STATE: a design written before any computing (it takes up P-744; the scalar Laplacian's lowest state is the constant, so it is B1846'",
    "carried_by": [
-    "P-744"
+    "P-744",
+    "P-761"
    ]
   },
   {
@@ -1648,7 +1757,9 @@
    "klass": "read",
    "date": "2026-11-10",
    "item": "TWO PROPOSALS: THE COUNT AS AN OUTPUT (one derivation graph from the foundation to every output; a value's status by the weakest link; the headline pr",
-   "carried_by": []
+   "carried_by": [
+    "P-759"
+   ]
   },
   {
    "n": 1633,
@@ -1657,7 +1768,9 @@
    "klass": "read",
    "date": "2026-11-10",
    "item": "A DRY RUN OF THE VALUE-CHAIN CERTIFICATE ON THE RECORD'S CANDIDATE (data-free; nothing compared with measurement)",
-   "carried_by": []
+   "carried_by": [
+    "P-757"
+   ]
   },
   {
    "n": 1656,
@@ -1667,6 +1780,7 @@
    "date": "2026-11-10",
    "item": "TWO FURTHER SENTENCES OF THE OWNER AS THE SEAT RECORDS THEM (its R14: 'selected to depart further' was not meant to be taken literally, the difference",
    "carried_by": [
+    "P-758",
     "P-768"
    ]
   },
@@ -1703,7 +1817,9 @@
    "date": "2026-11-06",
    "item": "Stages 21–22.5 (1ea5ddfe1, 3514ecb4c, ed9911f1c, f183117d8): the 266-line S₄ commutant census and a 23-observable ledger; wave 1 (the Farey transition",
    "carried_by": [
-    "P-717"
+    "P-711",
+    "P-717",
+    "P-718"
    ]
   },
   {
@@ -1714,6 +1830,8 @@
    "date": "2026-11-06",
    "item": "Stages 26–27 (f9f0be480, 315a00e5f): the one-process level k = N = 5 with criterion K; P-723's stages A–D re-done; a level-5 WRT and ħ = 2π/5 audit; '",
    "carried_by": [
+    "P-721",
+    "P-722",
     "P-723",
     "P-725"
    ]

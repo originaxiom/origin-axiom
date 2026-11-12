@@ -212,7 +212,10 @@ def main():
     if write:
         (ROOT / G.HASH_LISTS_FROZEN_FILE).write_text(body, encoding="utf-8")
         P("   written: %s" % G.HASH_LISTS_FROZEN_FILE)
-    (HERE / "all_hash_lists.json").write_text(json.dumps({
+    # CORRECTED 2026-11-12 (Review 79): this script overwrote its two committed outputs on every run, and one of the things it
+    # measures, whether a file a list names is on disk though not tracked, is a fact of the machine it runs on.  On a clean
+    # checkout it would have replaced the committed numbers with other ones.  It now writes them only with --keep-outputs.
+    data_text = json.dumps({
         "named_lists": {"entries": len(old), "lists": len({e[1] for e in old}), "do_not_verify": len(old_broken), "distinct_keys": len({e[0] for e in old_broken}),
                         "first_found": dict(first), "files_found_only_from_the_root": len(only_root),
                         "candidate_entries": len(cand), "candidate_entries_from_the_root": len([1 for f, i in cand if i == 2]), "candidate_files_no_other_list_reads": alone,
@@ -226,8 +229,14 @@ def main():
                                       "class_B": [{"key": k, "list": lst, "file": name, "sealed_content_last_at": sv[0], "date": sv[1]} for (k, lst, name, cls, sv) in sorted(r for r in rows if r[3] == "B")]},
         "raw_hashes_checked_against_the_tracked_gzip": raw_checks,
         "frozen_table": {"keys": len(frozen), "sha256": hashlib.sha256(body.encode("utf-8")).hexdigest()},
-    }, indent=1) + "\n", encoding="utf-8")
-    (HERE / "measure_all_hash_lists_run.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
+    }, indent=1) + "\n"
+    if "--keep-outputs" in sys.argv:
+        (HERE / "all_hash_lists.json").write_text(data_text, encoding="utf-8")
+        (HERE / "measure_all_hash_lists_run.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
+    else:
+        same = (HERE / "all_hash_lists.json").read_text(encoding="utf-8") == data_text
+        print("the committed outputs are those of the day the arc landed; this run gives %s (written only with --keep-outputs)" % (
+            "the same" if same else "others: the record has gained lists since, and the split of files not tracked from files absent is a fact of the disk it runs on"))
 
 
 if __name__ == "__main__":

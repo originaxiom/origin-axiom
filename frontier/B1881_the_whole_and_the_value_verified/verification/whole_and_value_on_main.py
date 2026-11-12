@@ -227,7 +227,15 @@ def part_a():
     ker_ok = all(sorted((al, bb) for al in range(5) for bb in range(5) if (al * dd) % 5 == 0) == [(0, bb) for bb in range(5)] for (aa, cc, dd) in pts)
     check("E3 at every one the kernel of the fixing matrix on the points of order 5 is the mark (0, b)", ker_ok)
     # the mirror tau -> -conj(tau) is conjugation by diag(-1, 1): it keeps lower-left 0 mod 5
-    check("E3 (Q5) the mirror normalises the group: [[a,b],[5c,d]] -> [[a,-b],[-5c,d]]", True, "an identity of matrices")
+    # CORRECTED 2026-11-12 (Review 79): this check was passed the literal True.  It is computed now: for every matrix of the group
+    # with entries in a box, the conjugate by diag(-1, 1) is multiplied out and compared with the stated form, and is in the group.
+    def _conj_by_mirror(a, b, c5, d):
+        m = [[a, b], [c5, d]]; j = [[-1, 0], [0, 1]]
+        jm = [[sum(j[i][k] * m[k][l] for k in range(2)) for l in range(2)] for i in range(2)]
+        return [[sum(jm[i][k] * j[k][l] for k in range(2)) for l in range(2)] for i in range(2)]          # j is its own inverse
+    box = [(a, b, 5 * c, d) for a in range(-12, 13) for b in range(-12, 13) for c in range(-3, 4) for d in range(-12, 13) if a * d - 5 * b * c == 1]
+    mirror_ok = all(_conj_by_mirror(a, b, c5, d) == [[a, -b], [-c5, d]] and (-c5) % 5 == 0 and a * d - (-b) * (-c5) == 1 for a, b, c5, d in box)
+    check("E3 (Q5) the mirror normalises the group: [[a,b],[5c,d]] -> [[a,-b],[-5c,d]]", mirror_ok and len(box) >= 200 and sum(1 for x in box if x[2] != 0) >= 200, "%d matrices of the group multiplied out, %d of them with a lower-left entry that is not zero" % (len(box), sum(1 for x in box if x[2] != 0)))
     tau1, tau2 = mp.mpc(0, 1) / mp.sqrt(5), mp.mpf(1) / 2 + mp.mpc(0, 1) / (2 * mp.sqrt(5))
     check("E3 the fixed point i/sqrt5 is on the mirror's axis; the other, 1/2 + i/(2 sqrt5), goes to its translate by -1", abs(-mp.conj(tau1) - tau1) < mp.mpf(10) ** -45 and abs(-mp.conj(tau2) - (tau2 - 1)) < mp.mpf(10) ** -45)
     e_plus, e_minus = (2 + mp.mpc(0, 1)) / 5, (-2 + mp.mpc(0, 1)) / 5
@@ -553,8 +561,10 @@ def part_b():
     one11 = max(heights(closed(D11, 1)))
     # main's first run of this check asked for "0.93" percent, a figure main had typed and the relay does not print; the relay says
     # "nearly one percent" and "0.65%".  The offset is 0.9245 percent.  The check now asks what the relay says.
+    # CORRECTED 2026-11-12 (Review 79): it did not; it asked for main's own figure, 0.92.  It asks for both now: main's figure, and
+    # that the figure is what the relay calls nearly one percent, between 0.9 and 1.
     check("E11 (6) with one period on both sides reads 3.6515 against 3.6180, nearly one percent (0.92); (11) is 0.65 percent off",
-          mp.nstr(one6, 5) == "3.6515" and mp.nstr(own["(6)"], 5) == "3.618" and mp.nstr((one6 - own["(6)"]) / own["(6)"] * 100, 2) == "0.92" and mp.nstr((one11 - own["(11)"]) / own["(11)"] * 100, 2) == "0.65",
+          mp.nstr(one6, 5) == "3.6515" and mp.nstr(own["(6)"], 5) == "3.618" and mp.nstr((one6 - own["(6)"]) / own["(6)"] * 100, 2) == "0.92" and mp.mpf("0.9") < (one6 - own["(6)"]) / own["(6)"] * 100 < 1 and mp.nstr((one11 - own["(11)"]) / own["(11)"] * 100, 2) == "0.65",
           "%s, %s%%, %s%%" % (mp.nstr(one6, 6), mp.nstr((one6 - own["(6)"]) / own["(6)"] * 100, 3), mp.nstr((one11 - own["(11)"]) / own["(11)"] * 100, 3)))
     runs, owner = composite([D6, D6], 1)
     two = max(heights(runs))
@@ -588,7 +598,10 @@ def part_b():
                 lows.append(max(heights(list(seq))))
     floor = min(lows)
     check("the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (%d sequences)" % len(lows), abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))
-    check("the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1", True, "from E9, by hand and to 1e-40 for m = 1..5")
+    # CORRECTED 2026-11-12 (Review 79): this check was passed the literal True, pointing at E9.  It is computed here.
+    single = [max(heights(closed((5 * m + 1,), 60))) for m in range(1, 6)]
+    single_ok = all(abs(v - (mp.mpf(5 * m) / 2 + mp.sqrt(5) / 2)) < mp.mpf(10) ** -40 for m, v in zip(range(1, 6), single)) and all(x < y for x, y in zip(single, single[1:]))
+    check("the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1", single_ok, "computed for m = 1..5, to 1e-40; the formula is unbounded in m")
 
     P("B7. main's own question: one allowed set in the two conventions?")
     agree = disagree = 0

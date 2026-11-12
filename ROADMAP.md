@@ -745,3 +745,29 @@ readers. At the review the owner ruled four things about the foundation.**
   ("the twins come together"), whose repair shows that one twin or both as the mark is a real choice.
 - **Next:** R78-1 to R78-11 (docs/progress/REVIEWS.md): the owner's rulings carried into the foundation; the rest of
   the re-audit; the read-out on the whole stated before anything is computed (P-776). 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-12 (Review 79)
+
+Touched at Review 79 (its anchor `0dda7b472`). **The window (B1878–B1890; S306p) put the owner's rulings into the
+governing documents and the foundation, opened pages on which main directs the sessions, digested what every session
+has sent, and landed the first repairs of the gates. The review was read by sessions that built none of it, and they
+found 88 faults in it.**
+- **What is in the governing documents:** the goal as the owner ruled it (B1878); his statements of 2026-11-10 and
+  2026-11-11 in the foundation, typed under the rule that a ruling is not a fact (B1886, version 1.65; four
+  sentences corrected at 1.66, B1891). *This replaces the last refresh's sentence that none was yet written into a
+  governing document.*
+- **The tick:** the weave's theorems were restated for the group with the exchange (B1879). *This replaces the last
+  refresh's sentence that the matter waits on a computation.* What that computation shows is narrower than the arc
+  first said: the law of run lengths is unchanged, not the walk's measure.
+- **How the work is organised:** one page for each session, a card before each piece of work, a listener; four
+  sessions verify and one builds the record's tooling (P-795). A check is named by its method, never by a session
+  (P-797). The owner's messages are private (P-796).
+- **What the sessions have sent:** 1,699 items; main has recomputed 382; 560 are registered and were never fully
+  read (B1889, as corrected at this review).
+- **The review itself:** 99 findings, all held on main's reproduction; 88 distinct faults, ten found by two readers.
+  The kinds: checks that could not fail, statements wider than what was computed, numbers that differ from their
+  source, labels stronger than their evidence, corrections that did not travel. Main's gates catch 14 of 32 planted
+  faults.
+- **Next:** R79-1 to R79-18 (docs/progress/REVIEWS.md): the gates' repairs verified and landed; the sessions'
+  deliveries banked with main's own recomputation; the review's own tools changed. 0 of 19.
+

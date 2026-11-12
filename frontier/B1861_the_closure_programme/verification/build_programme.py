@@ -627,6 +627,17 @@ def cell(s):
     return str(s).replace("|", "∣").replace("\n", " ")
 
 
+def short(s, n=110):
+    """A sentence cut for a table cell, at a word's end, and marked as cut.  CORRECTED 2026-11-12 (Review 79; found by a reading
+    of this builder's page): the cell was the first n characters and no more, so a sentence could end in the middle of a word
+    with nothing to say that it went on, and a condition stated after the cut was dropped unseen."""
+    s = str(s)
+    if len(s) <= n:
+        return s
+    head = s[:n]
+    return (head[:head.rfind(" ")] if " " in head else head).rstrip(" ,;:") + " […]"
+
+
 def render(B):
     st, wps, by = B["stats"], B["packages"], B["nodes"]
     L = ["# The closure programme", "",
@@ -766,10 +777,11 @@ def render(B):
         L.append("| %s | %s |" % (c, ", ".join(ps)))
     L += ["", "### What each conditional result waits on", "",
           "A conditional result is proved given its premises. The axioms of the foundation are premises that are kept; the open",
-          "choices are what must close. The counts are lower bounds: they follow the map's `requires` and `applies-under` edges only.", "",
+          "choices are what must close. The counts are lower bounds: they follow the map's `requires` and `applies-under` edges only.",
+          "A sentence that is cut to fit ends in […]; the whole sentence, with every condition it states, is the map's (`frontier/B1858_the_closure_map/MAP.md`).", "",
           "| result | what it says | open choices | packages | the foundation's axioms it uses | debts that bear on it |", "|---|---|---|---|---|---|"]
     for nid, w in B["waits"].items():
-        L.append("| %s | %s | %s | %s | %s | %s |" % (nid, cell(by[nid]["text"][:110]),
+        L.append("| %s | %s | %s | %s | %s | %s |" % (nid, cell(short(by[nid]["text"])),
                                                ", ".join(w["premises"]) or ("none of its own: it rests on %s" % ", ".join(w["conditional"]) if w["conditional"] else "none"),
                                                ", ".join(w["packages"]) or "—", ", ".join(w["axioms"]) or "—", ", ".join(w["debts"]) or "—"))
     L += ["", "### The premises are in series", "",

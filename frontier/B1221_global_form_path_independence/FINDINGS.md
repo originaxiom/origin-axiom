@@ -41,8 +41,10 @@ error was caught by the answer being absurd rather than by care).
 **MB12 satisfied**: the test returns values other than 6 on other content, so ℤ₆ is a discriminating
 outcome rather than the only thing the instrument can say.
 
-> **CORRECTED 2026-11-11 (found by a second derivation on another family of model, agy-002's card A2-C1; checked by
-> main on this arc's own instrument).** The row "adjoint-only content | 72" is not the order of a kernel. Adjoint
+> **CORRECTED 2026-11-11 (found by a second derivation of this result from its statement alone, recomputed on another
+> family of model, harvest row 1709; checked by main on this arc's own instrument).** [Reworded 2026-11-12 (Review 79):
+> the heading named the session. A statement of the mathematics says how a thing was checked and not who checked it
+> (register row P-797); who it was is in the ledger's row.] The row "adjoint-only content | 72" is not the order of a kernel. Adjoint
 > content is neutral under both centres and under the circle, so every element acts trivially on it and the kernel is
 > the whole of ℤ₃ × ℤ₂ × U(1), which is infinite. `kernel_27.py` samples the circle at twelve points, and 72 is
 > 3 × 2 × 12: with 24 points it prints 144 and with 60 it prints 360. The rows that matter do not move with the grid:

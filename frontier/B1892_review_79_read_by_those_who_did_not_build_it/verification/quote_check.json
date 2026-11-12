@@ -1,0 +1,23 @@
+{
+ "the SM seat": {
+  "its commit": "4d0a46b93",
+  "quotations": 59,
+  "found": 59,
+  "control: the first quotation altered by one character is reported missing": true
+ },
+ "the web seat": {
+  "its commit": "0455e766c",
+  "quotations": 11,
+  "found": 11
+ },
+ "agy-002": {
+  "its commit": "7af2a8670",
+  "quotations": 26,
+  "found": 26
+ },
+ "agy-exp": {
+  "its commit": "18634218e",
+  "quotations": 15,
+  "found": 15
+ }
+}

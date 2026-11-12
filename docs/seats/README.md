@@ -28,7 +28,7 @@ a rule here wrong, or in its way, says so to main in a note; main amends the pag
 No seat verifies its own work. No seat gives a verdict on what it built.
 
 **A seat's name is an address and nothing more.** It says where a piece of work is sent. It is not an author and not an
-authority: what is written about a result is how it was checked (computed once; recomputed with separate code;
+authority: what is written about a result is how it was checked (computed once; recomputed independently;
 recomputed on another family of model; expectations committed first; tested against planted errors), not who checked
 it. The owner has ruled this (register row P-797); the words for how a check is named are in `TERMINOLOGY.md`, and § 12
 below lists them.
@@ -118,14 +118,17 @@ things:
 - **Your card says, before any run, what would count as not reproducing.**
 - **You use your own code** for the number that decides. You may read the builder's files; you do not run its script
   and call that a check.
-- **One verdict for each item:** REPRODUCED, DIFFERS, or CANNOT CHECK, with the commit you read and one line of why.
+- **One result for each item:** the same, differs, or cannot check; with the commit you read, one line of why, and
+  the label of § 12 for how you checked it. *(Corrected 2026-11-12, Review 79: this asked for a "verdict" and for the
+  word "reproduced", which § 12 keeps for the same code run again. Two readers found it. Deliveries that used the
+  older three words are read as they were meant.)*
 - **A question for the builder** goes in your status file under needs. Main passes it on through the builder's page.
 
 ## 9. What is fixed for every seat
 
 1. **The firewall.** No held-out target is computed, and nothing is compared with a measured value, outside a sealed
-   card that main has approved under the owner's hold. If a check can be made only by such a comparison, the verdict
-   is CANNOT CHECK, with the comparison named.
+   card that main has approved under the owner's hold. If a check can be made only by such a comparison, the result
+   is: cannot check, with the comparison named.
 2. **No verdict on your own build.**
 3. **Nothing changes on main before main has recomputed it.** You write to your own branch only.
 4. **No question of fact is put to the owner.** A question for him goes to main.

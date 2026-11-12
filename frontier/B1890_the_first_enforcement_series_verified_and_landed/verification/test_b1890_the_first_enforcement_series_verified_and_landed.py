@@ -72,3 +72,6 @@ def test_the_page_quotes_the_sealed_file_and_says_what_was_not_run():
     other = (HERE / "other_checks_run.txt").read_text(encoding="utf-8")
     assert "7 failed in" in other and "2 failed, 7 passed" in other and "4 failed, 8 passed" in other and "2 failed, 12 passed" in other
     assert "2 failed, 366 passed, 5 skipped" in other and "8 passed" in other
+    # ADDED 2026-11-12 (Review 79): the page's row "14 pass" had no run behind it in this file.  The run is the file's last section now.
+    last = other.split("ADDED 2026-11-12 (REVIEW 79)")
+    assert len(last) == 2 and "tests/test_gates_are_a_function_of_the_commit.py" in last[1] and "\n14 passed in" in last[1] and "failed" not in last[1]

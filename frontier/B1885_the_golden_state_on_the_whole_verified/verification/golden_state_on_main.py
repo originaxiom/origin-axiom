@@ -83,7 +83,7 @@ def P(*a):
 
 def check(name, ok, detail=""):
     RES[name] = bool(ok)
-    P("   [%s] %s%s" % ("ok" if ok else "FAILS", name, (" -- " + str(detail)) if detail else ""))
+    P("   [%s] %s%s" % ("ok" if ok else "FAILS", name, (" -- " + str(detail)) if detail != "" else ""))   # CORRECTED 2026-11-12 (Review 79): a detail of 0 was not printed
 
 
 def legendre(d, p):
@@ -238,7 +238,13 @@ def level_five():
     check("H3 f vanishes at both elliptic points (2+i)/5 and (-2+i)/5, where the stabiliser has d = +-2 and (2/5) = -1", abs(f(e1)) ** 2 / top < mp.mpf(10) ** -30 and abs(f(e2)) ** 2 / top < mp.mpf(10) ** -30, mp.nstr(abs(f(e1)) ** 2 / top, 3))
     s1, s2 = f(-1 / (5 * pts[0])) / f(pts[0]), f(-1 / (5 * pts[1])) / f(pts[1])
     check("H4 under the dual involution f(-1/(5z)) = s f(z) with one sign s at both points", abs(s1 - s2) < mp.mpf(10) ** -18 and abs(abs(s1) - 1) < mp.mpf(10) ** -18, "s = %s" % mp.nstr(s1, 6))
-    check("so f vanishes at i/sqrt5 if s = -1; and it vanishes at 1/2 + i/(2 sqrt5), which lies on x = 1/2", abs(f(w1)) ** 2 / top < mp.mpf(10) ** -30 if s1 < 0 else True, "f^2/top at i/sqrt5: %s" % mp.nstr(abs(f(w1)) ** 2 / top, 3))
+    # CORRECTED 2026-11-12 (Review 79): only the first point was evaluated, and it lies on x = 0, where every term of the sine series
+    # is exactly 0, so the check could not fail; the second point was defined and never used.  Both are evaluated now, and the
+    # detail says what the check is worth: both points lie on the mirror's lines, so the sign s is not what makes f vanish there.
+    check("so f vanishes at i/sqrt5 if s = -1; and it vanishes at 1/2 + i/(2 sqrt5), which lies on x = 1/2",
+          abs(f(w1)) ** 2 / top < mp.mpf(10) ** -30 and abs(f(w2)) ** 2 / top < mp.mpf(10) ** -30,
+          "f^2/top at i/sqrt5: %s; at 1/2 + i/(2 sqrt5): %s; both lie on the mirror's lines, where a sine series vanishes term by term, so this tests nothing about s"
+          % (mp.nstr(abs(f(w1)) ** 2 / top, 3), mp.nstr(abs(f(w2)) ** 2 / top, 3)))
     # H5: the arc
     vals = [v for _, v in coarse]
     locmax = [i for i in range(1, len(vals) - 1) if vals[i] > vals[i - 1] and vals[i] > vals[i + 1]]
@@ -378,7 +384,14 @@ def other_levels():
             P("   level %d, a point of order %d with d = %d: (d/%d) = %+d; |f| there is %s of the scale" % (p, order, d, p, chi, mp.nstr(v, 3)))
         forced = [r for r in rows if (r[0] == 2 and r[2] == -1) or (r[0] == 3 and r[2] != 1)]
         free = [r for r in rows if r not in forced]
-        check("level %d: f vanishes at every elliptic point where the character forces it" % p, all(r[3] < mp.mpf(10) ** -15 for r in forced), len(forced))
+        # CORRECTED 2026-11-12 (Review 79; found by a second reading).  At level 17 the character forces a zero at no elliptic point,
+        # and this line then passed on an empty list, with its count of 0 not printed.  Where nothing is forced there is nothing
+        # to check, and the run says so in a line that is not a check.
+        if forced:
+            check("level %d: f vanishes at every elliptic point where the character forces it" % p, all(r[3] < mp.mpf(10) ** -15 for r in forced), len(forced))
+        else:
+            P("   level %d: the character forces a zero at none of the %d elliptic points; nothing to check, and no check is counted" % (p, len(rows)))
+            RES["level_%d_forced_zeros" % p] = "none: no check made"
         check("level %d: and at the others it does not vanish (%s)" % (p, "the points of order 3" if p == 13 else "the points of order 2"), len(free) > 0 and all(r[3] > mp.mpf(10) ** -3 for r in free), len(free))
         RES["level_%d" % p] = {"R": mp.nstr(Fp.R, 15), "elliptic_points": [[o, d, c, mp.nstr(v, 3)] for o, d, c, v in rows]}
     check("H7 by hand: (2/5) = -1; (5/13) = -1 and (3/13) = +1; (4/17) = +1; and level 5 has no point of order 3",

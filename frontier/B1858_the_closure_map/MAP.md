@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 88 |
+| DEBT | a result the record uses is owed a check or a correction | 91 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -161,7 +161,7 @@ by a quote that the builder checks.*
 | T:FRAMING | CHOSEN | thread | The framing: the metric's fibration is the structure read. Set by the goal, not derived; other structures give other readings. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-714 (QUEUED) |
 | T:IM | LANE-PROPOSED | thread | The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main's own value at k = 2 agrees with the seat's within main's scatter of about 0.02, and main has no value beyond k = 2. | docs/THE_TAU_READOUT_RULE.md; B1854; P-739 (QUEUED) |
 | T:MINIM | CHOSEN | thread | Minimisation as the use of the action. | docs/THE_TAU_READOUT_RULE.md; B1853 |
-| T:NO-PLACE | NEGATIVE | record | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE) |
+| T:NO-PLACE | NEGATIVE | record | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE); P-776 (QUEUED) |
 | T:POINT-WEIGHT | CHOSEN | thread | Point or weight: the metric supplies both a canonical point (the systole) and a canonical weight; which the read-out uses is a choice. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-744 (QUEUED) |
 | T:PRICED | DUTY | record | The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card. | docs/THE_TAU_READOUT_RULE.md; P-714 (QUEUED); P-708 (DONE) |
 | T:RE | CONDITIONAL | thread | The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by numerics (B1847's anti-apex at Re ½ to 7 × 10⁻⁷, against the alternatives 0 and ½). Given that, the tube's level surface has Re τ = 0; the Teichmüller apex of the same word also lies on Re 0. | docs/THE_TAU_READOUT_RULE.md; B1852; P-751 (DONE) |
@@ -387,3 +387,6 @@ by a quote that the builder checks.*
 | 86 | P-806 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list. |
 | 87 | P-808 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things. |
 | 88 | P-810 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it. |
+| 89 | P-811 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the locks on five of the audit's corrections caught 25 of 44 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead. |
+| 90 | P-812 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions. |
+| 91 | P-813 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome. |

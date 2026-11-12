@@ -379,8 +379,20 @@ def part_c():
         ok_other = ok_other and all(shape(Tm2, q)[0] == shape(T[k], 3 - q)[0] and abs(shape(Tm2, q)[1] - shape(T[k], 3 - q)[1]) < mp.mpf(10) ** -25 for q in (1, 2))
     check("M4 with columns in place of rows and the same mark the two sectors are exchanged (k = 1, 2, 3)", ok_col)
     check("M4 for the mirror word the mark (3, 1) gives the same table, and the mark (1, 2), which is twice it, the exchanged one", ok_mirror and ok_other)
+    # CORRECTED 2026-11-12 (Review 79): this check was an expression of typed integers and could not fail.  It is computed now from
+    # the ground's matrix modulo 5, the row it keeps, and J.
+    def _m4_by_hand():
+        Mg, Jm, v = ((1, 1), (1, 2)), ((0, 1), (-1, 0)), (1, 3)
+        row = tuple((v[0] * Mg[0][j] + v[1] * Mg[1][j]) % 5 for j in range(2))                     # v M, the row kept
+        Jv = tuple((Jm[i][0] * v[0] + Jm[i][1] * v[1]) % 5 for i in range(2))                      # the column J v
+        col = tuple((Mg[i][0] * Jv[0] + Mg[i][1] * Jv[1]) % 5 for i in range(2))                   # M (J v)
+        kept_row = any(tuple((u * x) % 5 for x in v) == row for u in range(1, 5))
+        kept_col = any(tuple((u * x) % 5 for x in Jv) == col for u in range(1, 5))
+        lam = next((u for u in range(1, 5) if tuple((u * x) % 5 for x in v) == Jv), None)        # J v = lam v
+        swap = {q: min((lam * q) % 5, (-lam * q) % 5) for q in (1, 2)} if lam else {}
+        return kept_row and kept_col and lam == 3 and swap == {1: 2, 2: 1}
     check("M4 by hand: a row vector v kept by M corresponds to the column J v, and J (1, 3) = (3, -1) = 3 (1, 3) modulo 5, so charge q by rows is charge 3q by columns: 1 and 2 change places",
-          (3 * 1) % 5 == 3 and (3 % 5, (-1) % 5) == ((3 * 1) % 5, (3 * 3) % 5) and {(3 * 2) % 5, (-3 * 2) % 5} == {1, 4})
+          _m4_by_hand())
 
     # M5: the pair's vectors, its place in arclength, and the tube of the run's own class
     pairs, arcs, tubes = {}, {}, {}

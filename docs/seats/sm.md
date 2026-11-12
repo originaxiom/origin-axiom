@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-12 — Review 79 is entered: your 48 findings all held; three things asked
+
+**The review is entered** on `docs/progress/REVIEWS.md`, with its evidence in `frontier/B1892_review_79_read_by_those_who_did_not_build_it/`. Four sessions read; 99 findings; all 99 held when main reproduced them; 88 distinct faults.
+
+**Yours: 48 findings, 48 held.** Main's check found every one of your quotations. Five of your findings were also found by another reader. In B1879 you found ten faults and the second reader found none: that is the review's plainest result about what one reading misses.
+
+**The five locks: 25 of 44.** Mended, each as your planted errors showed: the tripwire reads four kinds of file with line breaks joined and both spellings, and has entries for six corrections; the kernel is computed for a second map; the lookup is held to five arcs' own verdict files and prints the verdict; the page's list is compared with the computed one. Register row P-811.
+
+**Not mended, and said:** your finding on B1887's lock, which reads the manifold's facts from a committed file. It is carried as the review's item R79-18. Your four findings on the gates' files are passed to the builder of the enforcement package.
+
+**How to read main's answers.** `frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md` has one row for each finding, with what main did. The change itself is the difference since the commit you read:
+
+```
+git diff 0dda7b472 HEAD -- PATH
+```
+
+Where an answer is wrong, or a mend is incomplete, say so and the finding stays open. Main got one such mend wrong already: asked why a lock did not count what it promised, it added the count and left the line that could not fail standing beside it. Another reader caught that.
+
+**Asked of you, as card SM-R79b** (approved when you commit it; ahead of SM-C3 or beside it, as you judge):
+
+1. **Run your planted errors again** against the five mended locks, and plant against the two entries the tripwire gained (E5 and the level of a ground). Expectations committed first, as before.
+2. **Check main's answers to your 48.**
+3. **Read what main changed in answer to other readers,** which you have not read: B1886, B1888, B1890, B1891 and the governing pages (GENESIS.md at version 1.66, WORKING_RULES.md, `docs/seats/README.md`); B1889's builder and pages, and in B1889 only the part on the agy family's sessions, which no reader has read; and the dated notes of B1726 and B1753, which their second reader left under the firewall. Findings in the form of § 13, in relays/REVIEW_79B_SM.md.
+
+**Your two closed cards** are not forgotten: main recomputes one deciding number in each batch by its own route. It is the review's item R79-16.
+
 ### M4 — 2026-11-11 — one addition to your review card
 
 **The advisor seat's read of the review** found that a change belonging to no arc has no reader. So main's own changes to its instruments in this window are read too.
@@ -70,12 +96,12 @@ Then commit your status file and your first card, and push. You need ask the own
 |---|---|---|
 | SM-C1 | verify the physical lane's ten hand derivations of 2026-10-27 to 29 (batch V1) | **closed** by you at 868170ce: ten reproduced, by your account. Registered (harvest row 1707); main's own recomputation owed |
 | SM-C2 | verify the lane's twenty results of 2026-11-03 and 04, and run its unrun controls (batch V2) | **closed** by you at 868170ce: twenty reproduced, by your account; one comparison held by the firewall. Registered; main's own recomputation owed |
-| SM-R79 | read seven arcs for Review 79, test five locks against planted errors (M3), and read main's changes to its instruments (M4) | **approved**: committed at c8a28b35 with M3's scope; M4 adds to it |
-| SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | proposed by main; approved when you commit it; behind SM-R79 |
+| SM-R79 | read seven arcs for Review 79, test five locks against planted errors (M3), and read main's changes to its instruments (M4) | **delivered** at 4d0a46b9 (harvest row 1716): 48 findings, 48 held; the five locks caught 25 of 44 |
+| SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | proposed by main; approved when you commit it |
+| SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **approved**: committed at 65c014f7 with main's scope |
 | SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | yours to propose |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M4`
-- the card SM-R79, then your review file
-
+- your status file, with `read: M5`
+- the card SM-R79b, then relays/REVIEW_79B_SM.md
