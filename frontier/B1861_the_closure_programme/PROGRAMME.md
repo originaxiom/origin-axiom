@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 93 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 94 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 24, started 18, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -314,7 +314,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Can every lock under a banked result fail?
 - **The first step:** the register's ranked debts of this class.
 - **Closed when:** the class is empty.
-- **Debts (18):** P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817.
+- **Debts (18):** P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821.
 - **The audit's findings (10):** L1, L2, L3, L4, L5, L6, L7, L8, L9, L10.
 
 **WP-0.4 — Unverified premises and seat results under banked results** (VERIFY; STARTED; owner: main)
@@ -346,7 +346,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** reproduce on main each planted violation of the advisor seat's suite, in a scratch clone at the clean commit; then the two graded critical: the append-only gate against a committed deletion, and the seal gates against an edit of any sealed file after its seal.
 - **Closed when:** every planted violation turns its gate red in an automated test that the suite runs; the gates and the suite are functions of a commit alone, so that no date and no missing ref passes silently.
 - **Register:** P-757 (QUEUED).
-- **Debts (6):** P-757, P-772, P-777, P-806, P-812, P-816.
+- **Debts (7):** P-757, P-772, P-777, P-806, P-812, P-816, P-820.
 - **The audit's findings (14):** G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13, G14.
 - **Relayed rulings:** attribution.
 
@@ -842,10 +842,10 @@ feeds every row.
 |---|---|
 | WP-0.1 False or stale statements in foundation and front documents | 21: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-321, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813 |
 | WP-0.2 Debts that bear on current work | 19: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786 |
-| WP-0.3 Checks that cannot fail, instruments and seal claims | 18: P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817 |
+| WP-0.3 Checks that cannot fail, instruments and seal claims | 18: P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
 | WP-0.4 Unverified premises and seat results under banked results | 26: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-262, P-263, P-268, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |
 | WP-0.5 A green full suite on a fresh clone | 1: P-810 |
-| WP-0.7 Enforcement that enforces | 6: P-757, P-772, P-777, P-806, P-812, P-816 |
+| WP-0.7 Enforcement that enforces | 7: P-757, P-772, P-777, P-806, P-812, P-816, P-820 |
 | WP-0.8 Errors in the mathematics or its code | 1: P-804 |
 | WP-0.12 The count as an output, and the map on the desk | 1: P-773 |
 

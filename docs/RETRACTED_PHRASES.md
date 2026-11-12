@@ -216,6 +216,12 @@ and was not run.
 *Currency (verified 2026-10-14, through B1649). Descriptive rows, not swept as live phrases: several of these still stand
 in their arcs' original titles, now carrying a scope bracket (B1648).*
 
+*[CHANGED 2026-11-12 (the third enforcement series, B1896; register row P-154): these nine rows are swept from this
+date. The sweep reads the unquoted shape now. Where one of their phrases stood on the day the sweep first read its
+row, in an arc's original title, in an addendum or a ledger row that quotes what it scopes, or in a relay as it was
+sent, that line is held by name in the sweep's own table, by its file and its phrase, and the phrase is swept in
+every other file. The paragraph above says what was so until then.]*
+
 | scoped or withdrawn phrase | why | the current statement |
 |---|---|---|
 | the fraction of letters deep in the cusp is (k+1)/2^k at every length, so the unit of end data is not dynamical (B1629, GENESIS v1.38–v1.39) | (k+1)/2^k is the limit, within 2.4% at n = 10; "not dynamical" was computed only for the uniform measure on threads (the audit lane's questions) | GENESIS v1.44's FK10 note quotes the quantified statement; the owner's tagging of the unit stands (B1648) |
@@ -235,6 +241,11 @@ The 2026-10-07 and 2026-10-08 tables above use an unquoted first cell, which `sc
 parse (E66; the parser's third shape is P-154). The phrases below are in the quoted shape, so the gate sweeps them. Each
 is the live public sentence's own wording; the shorter forms also stand in sealed preregistrations, sent relays and the
 received copies of GENESIS, which are records and are not edited.
+
+[CHANGED 2026-11-12 (B1896; register row P-154): the sweep parses the unquoted first cell from this date and reads
+every row of this registry. Its sentence says how many rows it read, how many it swept and how many it did not. Two
+rows of the tables above take back a reading and not a sentence; they are held by name in the sweep's own table and
+are not swept. A row in no shape the sweep knows fails the gate. The paragraph above says what was so until then.]
 
 | retracted phrase | arc, date | why, and the current statement |
 |---|---|---|

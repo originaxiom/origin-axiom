@@ -1,0 +1,30 @@
+{
+ "id": "B1896",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1890",
+  "B1893",
+  "B1892",
+  "B887",
+  "B1632",
+  "B1634"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat (cld-advisor): its third patch series for the enforcement package, six patches, with its note (@ 52e560a16), the note read in full and the patches' code line by line; applied on main as its six commits, no line changed"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a test of the record's own instruments)",
+  "object": "the gates at main's head with the series applied; 22 planted cases written before the series existed, one case of the first series run again, and five written after reading it",
+  "reach": "general",
+  "hypotheses": "holds on: the five gates the series changes and the table of gates that read the tree or the history, in scratch checkouts of main with each case committed, and in small repositories made with the series' own helpers. Not covered: the whole suite on a fresh clone with the series applied; the unseen cases run again on the head that carries this arc, the patches being unchanged since they were run; the cause of one test failure that was seen once and not again; that a control turns its own gate red, which reading cannot show and the seat's read-out was not run again by main; the mends of the shapes that still pass."
+ },
+ "claim_one_line": "THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what stood) VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED AS SENT. 17 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT, each by the gate that looks for the fault (the controls' register pointed elsewhere, four forms; a retracted phrase in a .tex file and in capitals; a banned phrase over two lines, in .rst and .html, with a double and a no-break space, in a root .txt; a proven row with no lock, three forms; four tests in which no assert can fail), and the gap main's case found in the first series is closed: a repository with no commit is refused by all 24 gates that read the tree or the history. FIVE PASS: a retracted phrase with a line break in its middle, the sweep choosing its phrases on the flattened file and then searching line by line; a test whose only assert calls a builtin on literals, in tests/ and in an arc's own lock, where the seat's note says its class stops; an only assert under a condition that is never true; a test whose whole body expects an exception from a literal expression. OF FIVE CASES MAIN WROTE AFTER READING THE PATCHES THREE PASS: a row of the claims page's locked tables that cites a folder named like a test file; a pair of names bound to literals in one line and compared; a name bound twice to one literal. None is opened by the series, each passing without it; all go to the seat (P-820), with a request that the five tables of what is held by name grow only by a recorded act. WHAT THE SEAT SAID OF ITS PATCHES IS WHAT MAIN FOUND: each patch's lock fails on the commit before it in the seat's numbers (6, 5, 4, 2, 8, 4); the three locks of the series pass on its end (72); all 53 gates pass there with the views generated; main's own 47 test files that name a gate pass (385, 3 skipped); the planted suite of 32 cases, run by main, catches 24, where the end of the second series caught 19, with its controls 5 of 5. One test failed once in one run of fifty and was not seen again in three reruns; its cause is not known. MAIN'S WORD ON THE NINETEEN UNQUOTED ROWS OF THE REGISTRY OF RETRACTED PHRASES, which the seat asked for: its proposal as sent, the stricter option, seventeen swept and two held by name as readings; the registry's two notes rewritten, each keeping what it said; an old debt paid (P-154): the sweep reads 54 rows, 46 swept and 8 that take back a reading. MENDED BY MAIN AT THE LANDING: B1632's claim line leads with the correction it had carried at its end, and the row of the paper's page that showed its first words carries it; the seat's table of standing lines shortened by that line, to eleven; a test of B1890 whose name still said the gap was there renamed. 0 of 19.",
+ "weave_or_thread": "n/a (a test of the record's instruments; no statement about the weave or a history)"
+}

@@ -1,0 +1,64 @@
+{
+ "head": "4c1f3e7c52f5e94d401bd177c01438577f0cda21",
+ "gates": 53,
+ "not passing before any plant": [
+  "views-generated"
+ ],
+ "control": {
+  "gates newly failing": []
+ },
+ "AR1": {
+  "note": "a row P998 added after P70",
+  "committed": true,
+  "named gate": [
+   "claims"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "AR2": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "AR3": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 unconditionally-passing test(s): tests/test_planted_vacuity.py::test_planted:2  (assert X == X)"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "AR4": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 test(s) in which no assert can fail: tests/test_planted_vacuity.py::test_planted. Each assert is made of literals alone: assert on something the test computes"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "AR5": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ }
+}

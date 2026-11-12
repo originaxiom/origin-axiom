@@ -58,13 +58,16 @@ def test_the_one_that_does_not_hold_is_stated_as_it_was_found():
     assert "**does not hold**: 4 refused, 7 fail for other reasons, **9 pass**" in F and "Eight of main's nine unseen cases hold. One does not." in F
 
 
-def test_the_gap_is_still_there_and_this_lock_is_told_when_it_is_closed(tmp_path):
+def test_the_gap_is_closed_and_a_repository_with_no_commit_is_read_as_empty(tmp_path):
     """A repository with no commit is read as a full clone.  When a later series closes it, this assertion is changed in the
     same commit to the word the patch gives such a folder: a mend that arrives unannounced fails here.
 
     Closed 2026-11-11 by the advisor seat's series 3: such a folder is read as "empty", and every gate of the table is refused
     there (tests/test_gates_are_a_function_of_the_commit.py, three forms).  The line below is changed in that commit, as this
-    lock asks.  The page and the committed run stand as they were found."""
+    lock asks.  The page and the committed run stand as they were found.
+
+    Renamed 2026-11-12 at the landing of that series (B1896): this test was named
+    test_the_gap_is_still_there_and_this_lock_is_told_when_it_is_closed, and its name went on saying that the gap was there."""
     g = _gates()
     repo = tmp_path / "initialised_and_empty"
     repo.mkdir()

@@ -1,0 +1,51 @@
+MAIN'S 22 UNSEEN CASES FOR THE THIRD SERIES, AND U9.b AGAIN: THE LINES THE RUNNER PRINTED.  Run by main, 2026-11-12, in a scratch checkout of
+main's 22808aa3f with the series applied.  'named' says whether the gate the case names failed; 'any', whether any gate newly failed.
+
+THE FIRST RUN, of all the cases, with the runner as it was written:
+
+series head 4c1f3e7c5 | gates 53 | not passing before any plant: ['views-generated']
+control (an empty commit): newly failing []
+U16.a  committed=True named=True any=True  newly failing: ['gate-controls']  
+U16.b  committed=True named=True any=True  newly failing: ['gate-controls']  
+U16.c  committed=True named=True any=True  newly failing: ['gate-controls']  
+U16.d  committed=True named=True any=True  newly failing: ['gate-controls']  one entry pointed at another gate's control
+U17.a  committed=True named=True any=True  newly failing: ['retraction-sweep']  phrase of 21 characters
+U17.b  committed=True named=False any=False  newly failing: []  broken after 14 characters
+U17.c  committed=True named=True any=True  newly failing: ['retraction-sweep']  
+U21.a  committed=True named=True any=True  newly failing: ['framing']  
+U21.b  committed=True named=True any=True  newly failing: ['framing']  
+U21.c  committed=True named=True any=True  newly failing: ['framing']  
+U21.d  committed=True named=True any=True  newly failing: ['framing']  
+U20.a  committed=True named=True any=True  newly failing: ['claims']  a row P998 added after P70
+U20.b  committed=True named=True any=True  newly failing: ['claims']  a row P998 added after P70
+U20.c  committed=True named=True any=True  newly failing: ['claims']  a row P998 added after P70
+U24.a  committed=True named=False any=False  newly failing: []  
+U24.b  committed=True named=True any=True  newly failing: ['test-vacuity']  
+U24.c  committed=True named=True any=True  newly failing: ['test-vacuity']  
+U24.d  committed=True named=False any=False  newly failing: []  
+U24.e  committed=True named=True any=True  newly failing: ['test-vacuity']  
+U24.f  committed=True named=False any=False  newly failing: []  
+U24.g  committed=True named=False any=False  newly failing: []  
+U24.h  committed=True named=True any=True  newly failing: ['test-vacuity']  
+U9.b: {'gates in the two tables': 24, 'refused': 24, 'failing otherwise': 0, 'PASSING': 0, 'absent': 0}
+written
+
+THE SECOND RUN, of the six cases that the committed runner's changes touch, with the committed runner:
+
+series head 4c1f3e7c5 | gates 53 | not passing before any plant: ['views-generated']
+control (an empty commit): newly failing []
+U17.a  committed=True named=True any=True  newly failing: ['retraction-sweep']  phrase of 21 characters
+U17.c  committed=True named=True any=True  newly failing: ['retraction-sweep']  
+U21.a  committed=True named=True any=True  newly failing: ['framing']  
+U21.b  committed=True named=True any=True  newly failing: ['framing']  
+U21.c  committed=True named=True any=True  newly failing: ['framing']  
+U21.d  committed=True named=True any=True  newly failing: ['framing']  
+written
+
+THE THIRD RUN, of the two of them that plant a retracted phrase, after the mask was made to see an apostrophe that a message escapes:
+
+series head 4c1f3e7c5 | gates 53 | not passing before any plant: ['views-generated']
+control (an empty commit): newly failing []
+U17.a  committed=True named=True any=True  newly failing: ['retraction-sweep']  phrase of 21 characters
+U17.c  committed=True named=True any=True  newly failing: ['retraction-sweep']  
+written

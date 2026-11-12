@@ -1,0 +1,8 @@
+series head 4c1f3e7c5 | gates 53 | not passing before any plant: ['views-generated']
+control (an empty commit): newly failing []
+AR1    committed=True named=False any=False  newly failing: []  a row P998 added after P70
+AR2    committed=True named=False any=False  newly failing: []  
+AR3    committed=True named=True any=True  newly failing: ['test-vacuity']  
+AR4    committed=True named=True any=True  newly failing: ['test-vacuity']  
+AR5    committed=True named=False any=False  newly failing: []  
+written

@@ -19789,3 +19789,21 @@ seat's check. Six are left.
 **Which piece of the plan moved.** The clean-up of errors in the mathematics and of checks that cannot fail. No package closed.
 
 0 of 19.
+
+## 2026-11-12 — The third repair of the automatic checks is in, with what still slips through named (S306p)
+
+**What this is.** The project has about fifty automatic checks that run before anything is published. An audit showed that many of them could be passed by work they were meant to stop. One session is repairing them in batches, and main tests each batch with trick cases that the repairing session has never seen.
+
+**What the third batch does.** Each check now looks at everything it is about. The check for banned sentences reads every text file, not three kinds. The check on the list of proven claims asks that each one names its test. The check for tests that cannot fail catches more of them. The check for sentences that were taken back reads its whole list; until now it skipped three tables of it, which was an old debt and is now paid.
+
+**How it did against main's trick cases.** 17 of 22 were caught. The hole main had found in the first batch is closed.
+
+**What still slips through.** Five of the 22, and three of five more that main wrote after reading the repair: a withdrawn sentence split across two lines; four kinds of test that can never fail; and a claim that names a folder where a test file should be. None of these was made possible by the repair. They slipped through before it too. They go back to the repairing session, by name.
+
+**What main mended itself.** One old result showed a withdrawn sentence as its opening words, with the correction far down the line. The correction now comes first.
+
+**What is not done.** The whole test suite was not run on a fresh copy with this batch in. A fourth batch is waiting, and main has written its trick cases for it before reading it.
+
+**Which piece of the plan moved.** The repair of the automatic checks. No package closed.
+
+0 of 19.

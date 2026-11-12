@@ -1,0 +1,303 @@
+{
+ "head": "4c1f3e7c52f5e94d401bd177c01438577f0cda21",
+ "gates": 53,
+ "not passing before any plant": [
+  "views-generated"
+ ],
+ "control": {
+  "gates newly failing": []
+ },
+ "U16.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "gate-controls"
+  ],
+  "gates newly failing": {
+   "gate-controls": "53 control(s) left tests/GATE_CONTROLS.json since e6298271a with no record: append-only -> tests/test_append_only_history.py::test_the_g; arc-data -> tests/test_gate_failing_paths.py::test_arc_data_; arc-verdicts -> tests/test_gate_failing_paths.py::test_arc_v; arrival-phrases -> tests/test_arrival_"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U16.b": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "gate-controls"
+  ],
+  "gates newly failing": {
+   "gate-controls": "append-only: its control test_planted_xfail is skipped or expected to fail by its mark (pytest.mark.xfail); arc-data: its control test_planted_xfail is skipped or expected to fail by its mark (pytest.mark.xfail); arc-verdicts: its control test_planted_xfail is skipped or expected to fail by its mark"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U16.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "gate-controls"
+  ],
+  "gates newly failing": {
+   "gate-controls": "append-only: its control test_planted_skipif is skipped or expected to fail by its mark (pytest.mark.skipif(True, reason='')); arc-data: its control test_planted_skipif is skipped or expected to fail by its mark (pytest.mark.skipif(True, reason='')); arc-verdicts: its control test_planted_skipif is "
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U16.d": {
+  "note": "one entry pointed at another gate's control",
+  "committed": true,
+  "named gate": [
+   "gate-controls"
+  ],
+  "gates newly failing": {
+   "gate-controls": "1 control(s) left tests/GATE_CONTROLS.json since e6298271a with no record: append-only -> tests/test_append_only_history.py::test_the_g. Nothing leaves a ledger without a recorded act: put it back, or name it in LEFT_BY_NAME with its date and what became of it"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U17.a": {
+  "note": "phrase of 21 characters",
+  "committed": true,
+  "named gate": [
+   "retraction-sweep"
+  ],
+  "gates newly failing": {
+   "retraction-sweep": "['papers/planted_note.tex:2 \"[the phrase]\"']"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the third run, with the committed runner; the first run gave the same gate"
+ },
+ "U17.b": {
+  "note": "broken after 14 characters",
+  "committed": true,
+  "named gate": [
+   "retraction-sweep"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "U17.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "retraction-sweep"
+  ],
+  "gates newly failing": {
+   "retraction-sweep": "['README.md:85 \"[the phrase]\"']"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the third run, with the committed runner; the first run gave the same gate"
+ },
+ "U21.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "framing"
+  ],
+  "gates newly failing": {
+   "framing": "[('README.md', '[the phrase]')]"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the second run, with the committed runner; the first run gave the same gate"
+ },
+ "U21.b": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "framing"
+  ],
+  "gates newly failing": {
+   "framing": "[('docs/planted.html', '[the phrase]'), ('docs/planted.rst', '[the phrase]')]"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the second run, with the committed runner; the first run gave the same gate"
+ },
+ "U21.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "framing"
+  ],
+  "gates newly failing": {
+   "framing": "[('README.md', '[the phrase]'), ('README.md', '[the phrase]')]"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the second run, with the committed runner; the first run gave the same gate"
+ },
+ "U21.d": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "framing"
+  ],
+  "gates newly failing": {
+   "framing": "[('planted_note.txt', '[the phrase]')]"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true,
+  "run": "the second run, with the committed runner; the first run gave the same gate"
+ },
+ "U20.a": {
+  "note": "a row P998 added after P70",
+  "committed": true,
+  "named gate": [
+   "claims"
+  ],
+  "gates newly failing": {
+   "claims": "['1 row(s) of the locked tables cite no lock: P998. A proven or certified row names the test that locks it']"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U20.b": {
+  "note": "a row P998 added after P70",
+  "committed": true,
+  "named gate": [
+   "claims"
+  ],
+  "gates newly failing": {
+   "claims": "['1 row(s) of the locked tables cite no lock: P998. A proven or certified row names the test that locks it']"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U20.c": {
+  "note": "a row P998 added after P70",
+  "committed": true,
+  "named gate": [
+   "claims"
+  ],
+  "gates newly failing": {
+   "claims": "['1 row(s) of the locked tables cite no lock: P998. A proven or certified row names the test that locks it']"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U24.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "U24.b": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 test(s) in which no assert can fail: tests/test_planted_vacuity.py::test_planted. Each assert is made of literals alone: assert on something the test computes"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U24.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 test(s) in which no assert can fail: tests/test_planted_vacuity.py::test_planted. Each assert is made of literals alone: assert on something the test computes"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U24.d": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "U24.e": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 test(s) in which no assert can fail: tests/test_planted_vacuity.py::test_planted. Each assert is made of literals alone: assert on something the test computes"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U24.f": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "U24.g": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {},
+  "CAUGHT BY THE NAMED GATE": false,
+  "CAUGHT BY SOME GATE": false
+ },
+ "U24.h": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "test-vacuity"
+  ],
+  "gates newly failing": {
+   "test-vacuity": "1 test(s) in which no assert can fail: tests/test_planted_vacuity.py::test_planted. Each assert is made of literals alone: assert on something the test computes"
+  },
+  "CAUGHT BY THE NAMED GATE": true,
+  "CAUGHT BY SOME GATE": true
+ },
+ "U9.b git init and no commit": {
+  "gates in the two tables": 24,
+  "refused": [
+   "append-only",
+   "arrival-phrases",
+   "artifact-hashes",
+   "attribution",
+   "chain-locks",
+   "closure-generated",
+   "gate-controls",
+   "harvest-debt",
+   "identification-register",
+   "law-map-provenance",
+   "lead-debt",
+   "log-changelog-paired",
+   "path-refs",
+   "point-debt",
+   "relay-debt",
+   "retraction-sweep",
+   "review-fires",
+   "seal-immutable",
+   "seal-order-unshown",
+   "test-vacuity",
+   "tracked-deps",
+   "tracked-forbidden",
+   "views-fresh",
+   "views-generated"
+  ],
+  "failing otherwise": {},
+  "PASSING": {},
+  "absent": []
+ },
+ "how this file was made": "the first run's output, with the entries of six cases taken from later runs made with the committed runner, which masks the phrase a gate's message names: U21.a to U21.d from the second run, U17.a and U17.c from the third; every other entry is the first run's, unedited"
+}

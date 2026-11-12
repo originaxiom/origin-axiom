@@ -1,5 +1,5 @@
 {
- "nodes": 285,
+ "nodes": 286,
  "edges": 286,
  "by_grade": {
   "ANSATZ": 1,
@@ -7,7 +7,7 @@
   "CLOSURE": 11,
   "CONDITIONAL": 18,
   "CONFIRMED": 1,
-  "DEBT": 93,
+  "DEBT": 94,
   "DERIVED": 13,
   "DUTY": 16,
   "FITTED": 2,
@@ -38,16 +38,16 @@
   "12 framing": 27,
   "13 duties": 14,
   "14 closure": 11,
-  "15 debts": 93
+  "15 debts": 94
  },
- "pins_checked_on_main": 279,
+ "pins_checked_on_main": 280,
  "pins_checked_on_seat_branches": 39,
  "seat_pins_unavailable_in_this_clone": 0,
- "register_rows_cited": 143,
- "open_debts": 93,
+ "register_rows_cited": 144,
+ "open_debts": 94,
  "weave_or_thread": {
   "list": 5,
-  "n/a": 146,
+  "n/a": 147,
   "record": 7,
   "thread": 79,
   "weave": 48

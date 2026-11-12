@@ -21,9 +21,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 93,
-  "debts_joined_to_nothing": 76,
-  "nodes": 285,
+  "debts": 94,
+  "debts_joined_to_nothing": 77,
+  "nodes": 286,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -222,19 +222,19 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 93,
+   "DEBT": 94,
    "LEAD": 136,
    "OWNER": 4,
    "PROCESS": 64
   },
-  "open": 297,
+  "open": 298,
   "owner_calls_open": [
    "P-081",
    "P-082",
    "P-253",
    "P-787"
   ],
-  "points": 819
+  "points": 821
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

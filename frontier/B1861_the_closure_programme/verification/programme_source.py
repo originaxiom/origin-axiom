@@ -317,6 +317,8 @@ DEBT_TO_WP = {
     "P-813": "WP-0.1",   # what Review 79 found and main did not mend: a lock that reads a committed file, overlapping rows, a script's print
     "P-816": "WP-0.7",   # a ceiling that falls and rises back to its value at the anchor rises with no record (found reading the second series)
     "P-817": "WP-0.3",   # the tripwire for old, corrected sentences caught 5 of 23 new planted errors; the sentences are not in the registry of retracted phrases
+    "P-820": "WP-0.7",   # what still passes after the third enforcement series: six shapes run by main, and the tables of what is held by name
+    "P-821": "WP-0.3",   # by the builder's count 27 verdict files carry no mark of a correction their findings page carries
 }
 
 # ---------------------------------------------------------------- the certificate

@@ -1,0 +1,58 @@
+ALL GATES ON THE END OF THE THIRD SERIES, VIEWS GENERATED IN A LOCAL COMMIT THAT IS NOT SENT.  Run by main, 2026-11-12, in a scratch checkout.
+
+  PASS  identification-register: ok
+  PASS  framing: ok (14534 text files read, in any letter case; not read: 22 above 5 MB, 246 that are not text; 4 that quote what the gate bans, exempt by name)
+  PASS  claims: ok (86 rows in the locked tables, 85 citing a lock; 1 held by name as found without one: P51)
+  PASS  firewall-oneway: ok
+  PASS  append-only: HEAD prefix preserved; 35 commit(s) since f31729801: 35 an append or a roll-up, 0 waived by name
+  PASS  atlas-fresh: ok
+  PASS  arc-verdicts: ok
+  PASS  attribution: ok
+  PASS  tracked-forbidden: ok
+  PASS  review-actions: ok
+  PASS  views-fresh: ok
+  PASS  id-collisions: ok
+  PASS  arc-data: ok
+  PASS  knowledge-index: ok
+  PASS  path-refs: ok
+  PASS  tracked-deps: ok
+  PASS  test-vacuity: ok (6541 tests, 0 vacuous; 97 both-literal for review; 337 more in the arcs' own locks, 0 vacuous; 26 in which no assert can fail, held by name as found)
+  PASS  views-generated: ok
+  PASS  practices-register: ok
+  PASS  seal-provenance: ok
+  PASS  seal-digests: ok
+  PASS  theorem-registry: ok
+  PASS  lawmap-scope: ok
+  PASS  retraction-sweep: ok (54 rows of the registry read: 46 swept, 8 that retract a reading and are not swept, 2 of them by name; 12 standing instance(s) of a phrase held by name as found)
+  PASS  representation-sweep: ok
+  PASS  doc-currency: ok
+  PASS  doc-facts: ok
+  PASS  relay-debt: ok
+  PASS  retraction-debt: ok
+  PASS  harvest-debt: ok within the 21 days -- UNREAD: chat1 +2 commit(s) past its pin, advisor +1 commit(s) past its pin, agy002 +4 commit(s) past its pin (read them at this landing)
+  PASS  lead-debt: ok
+  PASS  point-debt: ok
+  PASS  inputs-scoreboard: ok
+  PASS  seen-first: ok
+  PASS  genesis-cited: ok
+  PASS  log-changelog-paired: ok
+  PASS  chain-locks: ok
+  PASS  law-map-provenance: ok
+  PASS  atlas-lexicon-current: ok
+  PASS  supersession-backlinks: ok
+  PASS  review-fires: ok
+  PASS  carry-age: ok
+  PASS  gate-controls: ok
+  PASS  review-core: ok
+  PASS  seal-ledger-current: ok
+  PASS  seal-immutable: ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+  PASS  artifact-hashes: ok (2250 entries in 270 lists: 1829 verify, 421 do not (417 distinct, each frozen in the state it was found in, or amended by name; the table holds 417); 80 of the lists are under another name than ARTIFACT_HASHES*.txt, found by content; 1 commit(s) since 270a27ee6 touch a named list, each only adding one; 63 commit(s) since 3e25c8ec3 read for a change to a list under another name; amended by name: 0; waived: 0)
+  PASS  closure-generated: ok
+  PASS  arrival-phrases: ok (0 new on the pages read; 3 old line(s) frozen by key)
+  PASS  seal-order-unshown: ok
+  PASS  pretense-phrases: ok
+  PASS  member-scope: ok
+  PASS  seat-positive-verified: ok
+  review-due: 20 merges since last review (DUE — run the decadal review)
+  point-debt: 817 points, 292 open -- 93 debts (oldest 30 days), 135 leads, 64 process; next debt P-355 (docs/POINT_REGISTER.md)
+  inputs-scoreboard: 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 13 borrowed joints [10 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted] (docs/TOTAL_INPUTS_SCOREBOARD.md)

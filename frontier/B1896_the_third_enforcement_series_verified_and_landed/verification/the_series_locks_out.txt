@@ -1,0 +1,5 @@
+THE THREE LOCKS OF THE ENFORCEMENT SERIES (tests/test_a_gate_reads_all_it_is_about.py, tests/test_gates_are_a_function_of_the_commit.py,
+tests/test_nothing_leaves_a_ledger.py) ON THE END OF THE THIRD SERIES, VIEWS GENERATED.  Run by main, 2026-11-12.
+
+........................................................................ [100%]
+72 passed in 307.26s (0:05:07)

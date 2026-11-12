@@ -4710,7 +4710,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 65,
+  "rank": 64,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-025": "QUEUED"
@@ -4734,7 +4734,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 66,
+  "rank": 65,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-030": "QUEUED"
@@ -4758,7 +4758,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 67,
+  "rank": 66,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-031": "QUEUED"
@@ -4782,7 +4782,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 49,
+  "rank": 48,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-054": "QUEUED"
@@ -4806,7 +4806,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 50,
+  "rank": 49,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-055": "QUEUED"
@@ -4830,7 +4830,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 51,
+  "rank": 50,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-056": "QUEUED"
@@ -4854,7 +4854,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 52,
+  "rank": 51,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-057": "QUEUED"
@@ -4878,7 +4878,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 56,
+  "rank": 55,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-091": "QUEUED"
@@ -4926,7 +4926,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 57,
+  "rank": 56,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-107": "QUEUED"
@@ -4950,7 +4950,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 58,
+  "rank": 57,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-117": "QUEUED"
@@ -4974,7 +4974,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 54,
+  "rank": 53,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-135": "QUEUED"
@@ -5030,30 +5030,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:154",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297).",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-154 — "
-   ]
-  ],
-  "rows": [
-   "P-154"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 43,
-  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
-  "rows_live": {
-   "P-154": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:155",
   "layer": "15 debts",
   "kind": "debt",
@@ -5070,7 +5046,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 55,
+  "rank": 54,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-155": "QUEUED"
@@ -5094,7 +5070,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 48,
+  "rank": 47,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-156": "QUEUED"
@@ -5142,7 +5118,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 61,
+  "rank": 60,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-158": "QUEUED"
@@ -5190,7 +5166,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 45,
+  "rank": 44,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-233": "QUEUED"
@@ -5214,7 +5190,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 44,
+  "rank": 43,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-239": "QUEUED"
@@ -5238,7 +5214,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 62,
+  "rank": 61,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-262": "QUEUED"
@@ -5262,7 +5238,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 53,
+  "rank": 52,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-263": "QUEUED"
@@ -5286,7 +5262,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 63,
+  "rank": 62,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-268": "QUEUED"
@@ -5310,7 +5286,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 64,
+  "rank": 63,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-310": "QUEUED"
@@ -5334,7 +5310,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 60,
+  "rank": 59,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-316": "QUEUED"
@@ -5478,7 +5454,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 47,
+  "rank": 46,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-332": "QUEUED"
@@ -5526,7 +5502,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 70,
+  "rank": 69,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-334": "QUEUED"
@@ -5670,7 +5646,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 59,
+  "rank": 58,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-430": "QUEUED"
@@ -5766,7 +5742,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 68,
+  "rank": 67,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-492": "QUEUED"
@@ -5886,7 +5862,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 46,
+  "rank": 45,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-540": "QUEUED"
@@ -5982,7 +5958,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 69,
+  "rank": 68,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-571": "QUEUED"
@@ -6390,7 +6366,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 72,
+  "rank": 71,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-643": "QUEUED"
@@ -6414,7 +6390,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 73,
+  "rank": 72,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-646": "QUEUED"
@@ -6438,7 +6414,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 71,
+  "rank": 70,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-653": "QUEUED"
@@ -6462,7 +6438,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 74,
+  "rank": 73,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-670": "QUEUED"
@@ -6486,7 +6462,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 76,
+  "rank": 75,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-687": "QUEUED"
@@ -6510,7 +6486,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 75,
+  "rank": 74,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-688": "QUEUED"
@@ -6534,7 +6510,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 77,
+  "rank": 76,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-698": "QUEUED"
@@ -6558,7 +6534,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 78,
+  "rank": 77,
   "debt_class": "added at S306k (the web seat's open-book relay)",
   "rows_live": {
    "P-733": "QUEUED"
@@ -6582,7 +6558,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 79,
+  "rank": 78,
   "debt_class": "added at S306o (the advisor seat's audit, 2026-11-10)",
   "rows_live": {
    "P-757": "QUEUED"
@@ -6606,7 +6582,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 80,
+  "rank": 79,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-772": "QUEUED"
@@ -6630,7 +6606,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 81,
+  "rank": 80,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-773": "QUEUED"
@@ -6654,7 +6630,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 82,
+  "rank": 81,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-777": "QUEUED"
@@ -6678,7 +6654,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 83,
+  "rank": 82,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-781": "QUEUED"
@@ -6702,7 +6678,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 84,
+  "rank": 83,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-786": "QUEUED"
@@ -6726,7 +6702,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 85,
+  "rank": 84,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-804": "QUEUED"
@@ -6750,7 +6726,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 86,
+  "rank": 85,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-806": "QUEUED"
@@ -6774,7 +6750,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 87,
+  "rank": 86,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-808": "QUEUED"
@@ -6798,7 +6774,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 88,
+  "rank": 87,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-810": "QUEUED"
@@ -6822,7 +6798,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 89,
+  "rank": 88,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-811": "QUEUED"
@@ -6846,7 +6822,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 90,
+  "rank": 89,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-812": "QUEUED"
@@ -6870,7 +6846,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 91,
+  "rank": 90,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-813": "QUEUED"
@@ -6894,7 +6870,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 92,
+  "rank": 91,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-816": "QUEUED"
@@ -6918,10 +6894,58 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 93,
+  "rank": 92,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-817": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:820",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-820 — "
+   ]
+  ],
+  "rows": [
+   "P-820"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 93,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-820": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:821",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-821 — "
+   ]
+  ],
+  "rows": [
+   "P-821"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 94,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-821": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

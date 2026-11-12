@@ -224,6 +224,9 @@ def _flatten(line):
 # phrases; the other fifteen stand nowhere.  Each is held by its file and its phrase, as found: the phrase is swept in every
 # other file, and a second phrase in the same file is a violation.  Eleven are records: an arc's own title or findings under
 # its dated correction, the addendum or the ledger row that quotes what it scopes, a relay as it was sent.  The twelfth is not.
+# SHORTENED 2026-11-12 by main, in the commit that lands this series (B1896): the twelfth, the row of the paper's table of
+# candidate claims that showed the first words of B1632's claim line, is mended.  The claim line leads with its correction and
+# the row carries it.  Eleven lines are held.
 STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
     ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md", "the sense of the root's 3-cycle as the chirality bit"):
         "a relay as sent; the line says the candidate is dead",
@@ -244,9 +247,6 @@ STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
         "the script that wrote the scope quotes it",
     ("frontier/B1632_w45_verified_on_main/FINDINGS.md", "the weave's lifts on T form only a projective representation"):
         "the arc's title as first written (sealed, and NEGATIVE as sealed)",
-    ("papers/P3_THE_PAPER/CLAIM_CANDIDATES.md", "the weave's lifts on T form only a projective representation"):
-        "NOT A RECORD: the paper's table of candidate claims shows the first words of B1632's claim line, the withdrawn "
-        "sentence, with no correction in sight. Held as found, and named to main as a finding",
 }
 
 

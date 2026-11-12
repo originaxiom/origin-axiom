@@ -1,0 +1,65 @@
+THE THIRD SERIES, APPLIED BY git am ON MAIN'S 22808aa3f (six commits, no conflict).  FOR EACH PATCH: THE TEST FILES THE PATCH
+CHANGES, AS THE PATCH LEAVES THEM, RUN ON THE COMMIT BEFORE THE PATCH; THEN ON THE PATCH ITSELF.  Run by main, 2026-11-12, in a
+scratch checkout (the commit names are those of that checkout).  The builder's numbers of failing tests are 6, 5, 4, 2, 8 and 4, of
+the tests each patch adds; the whole files are run here, so the tests of earlier patches are among those that pass, and two
+older locks that a patch changes are run with it: B1890's (patch 4) and the second series' (patch 5).
+
+patch 1  dfbbd4e14  on the commit before it: 6 failed, 1 passed in 3.46s
+      test_a_gate_reads_all_it_is_about.py                                   6 failed, 1 passed in 3.44s
+         fails: test_a_banned_phrase_in_a_tex_file_fails_the_framing_gate
+         fails: test_a_banned_phrase_in_capitals_fails_the_framing_gate
+         fails: test_a_banned_phrase_is_read_as_a_reader_reads_it
+         fails: test_the_framing_gate_reads_a_file_whatever_its_name_ends_in
+         fails: test_the_framing_gate_says_what_it_did_not_read
+         fails: test_what_the_framing_gate_exempts_is_held_by_name
+      on the patch itself: 7 passed in 15.53s
+patch 2  eeb05d8cb  on the commit before it: 5 failed, 8 passed in 13.96s
+      test_a_gate_reads_all_it_is_about.py                                   5 failed, 8 passed in 13.45s
+         fails: test_a_certified_row_that_cites_no_lock_fails_the_claims_gate
+         fails: test_a_proven_row_that_cites_no_lock_fails_the_claims_gate
+         fails: test_a_row_that_cites_a_file_holding_no_test_fails_the_claims_gate
+         fails: test_the_one_proven_row_without_a_lock_is_held_by_name
+         fails: test_the_rows_that_are_not_locked_need_no_lock
+      on the patch itself: 13 passed in 13.41s
+patch 3  20293a4e0  on the commit before it: 4 failed, 15 passed in 24.74s
+      test_a_gate_reads_all_it_is_about.py                                   4 failed, 15 passed in 25.28s
+         fails: test_a_test_whose_only_assert_is_between_two_literals_fails_the_vacuity_gate
+         fails: test_every_shape_of_a_test_in_which_no_assert_can_fail_is_refused
+         fails: test_the_tests_in_which_no_assert_can_fail_are_held_by_name
+         fails: test_the_vacuity_gate_reads_an_arcs_own_lock
+      on the patch itself: 19 passed in 37.77s
+patch 4  18ca6afc0  on the commit before it: 3 failed, 56 passed in 143.36s (0:02:23)
+      test_b1890_the_first_enforcement_series_verified_and_landed.py         1 failed, 4 passed in 1.13s
+      test_gate_failing_paths.py                                             37 passed in 13.60s
+      test_gates_are_a_function_of_the_commit.py                             2 failed, 15 passed in 126.94s (0:02:06)
+         fails: test_a_repository_whose_commit_does_not_hold_the_gates_is_not_a_full_clone_either
+         fails: test_a_repository_with_no_commit_is_not_a_full_clone_and_no_gate_of_the_table_passes_there
+         fails: test_the_gap_is_still_there_and_this_lock_is_told_when_it_is_closed
+      on the patch itself: 59 passed in 166.21s (0:02:46)
+patch 5  534e3f39b  on the commit before it: 10 failed, 40 passed in 116.31s (0:01:56)
+      test_a_gate_reads_all_it_is_about.py                                   8 failed, 20 passed in 49.52s
+      test_nothing_leaves_a_ledger.py                                        2 failed, 20 passed in 77.87s (0:01:17)
+         fails: test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too
+         fails: test_a_phrase_in_an_unquoted_row_is_swept
+         fails: test_a_registered_phrase_that_can_never_fire_is_refused
+         fails: test_a_row_in_no_shape_the_sweep_reads_is_refused
+         fails: test_a_row_named_as_a_reading_is_read_and_not_swept
+         fails: test_on_this_repository_every_row_of_the_registry_is_read
+         fails: test_the_note_that_ends_an_unquoted_cell_is_not_part_of_the_phrase
+         fails: test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red
+         fails: test_the_sweep_says_how_many_rows_it_read
+         fails: test_where_a_phrase_already_stood_it_is_held_by_its_file_and_its_phrase
+      on the patch itself: 50 passed in 149.82s (0:02:29)
+patch 6  4c1f3e7c5  on the commit before it: 4 failed, 46 passed in 228.48s (0:03:48)
+      test_a_gate_reads_all_it_is_about.py                                   4 failed, 29 passed in 64.18s (0:01:04)
+      test_gates_are_a_function_of_the_commit.py                             17 passed in 165.04s (0:02:45)
+         fails: test_a_control_pointed_at_another_test_has_left_the_register
+         fails: test_a_control_that_cannot_control_is_refused_in_every_form
+         fails: test_every_control_pointed_at_a_skipped_trivial_test_fails_the_controls_gate
+         fails: test_on_this_repository_every_control_is_read_and_none_is_refused
+      on the patch itself: 1 failed, 49 passed in 238.64s (0:03:58)
+
+NOTE.  On the last line one test of the fifty failed, at the end of the series.  Its name was not kept.  It was not seen again:
+the two files were run again in the same checkout, each alone (33 passed; 17 passed) and together (50 passed), and with the
+second series' lock in the other checkout (72 passed).  When it failed, main was adding and removing worktrees of the same
+repository for another landing.

@@ -410,7 +410,9 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
     assert "unread" not in kinds and kinds.count("swept") >= 46 and kinds.count("reading") >= 8, kinds
     swept = [phrase for kind, phrase, _cell in rows if kind == "swept"]
     assert any(p.startswith("the convention ") and p.endswith("no choice is made") for p in swept)       # a row the planted case took its phrase from
-    assert len(rs.NOT_SWEPT_BY_NAME) == 2 and len(rs.STANDS_AS_FOUND) == 12                             # a new name shows here as well
+    # 12 until 2026-11-12: main mended the one instance that was not a record, the row of the paper's table of candidate claims,
+    # in the commit that landed this series (B1896), and shortened the table in that commit, as the sentence asks
+    assert len(rs.NOT_SWEPT_BY_NAME) == 2 and len(rs.STANDS_AS_FOUND) == 11                             # a new name shows here as well
     ok, detail = g.GATES["retraction-sweep"]()
     assert ok is True, detail
     assert "by name" in detail and "shorten the table" not in detail
