@@ -1,0 +1,61 @@
+{
+  "all_row_908_flavor_orbit_claims_match": false,
+  "members_orbit_is_Z2_x_A4_order_24_det1_12": true,
+  "orbits_size_3_at_m_2": [
+    {
+      "induced_flavor_group": {
+        "centre": 2,
+        "element_orders": {
+          "1": 1,
+          "2": 7,
+          "3": 8,
+          "6": 8
+        },
+        "order": 24,
+        "sl3_element_orders": {
+          "1": 1,
+          "2": 3,
+          "3": 8
+        },
+        "sl3_order": 12
+      },
+      "is_members_orbit": true,
+      "m_A_ends_trivial": 0,
+      "nu_rho_h1_r1_n": [
+        1,
+        0,
+        1
+      ],
+      "orbit_size": 3
+    },
+    {
+      "induced_flavor_group": {
+        "centre": 1,
+        "element_orders": {
+          "1": 1,
+          "2": 3,
+          "3": 8
+        },
+        "order": 12,
+        "sl3_element_orders": {
+          "1": 1,
+          "2": 3,
+          "3": 8
+        },
+        "sl3_order": 12
+      },
+      "is_members_orbit": false,
+      "m_A_ends_trivial": 1,
+      "nu_rho_h1_r1_n": [
+        1,
+        1,
+        0
+      ],
+      "orbit_size": 3
+    }
+  ],
+  "other_sign_orbit_is_A4_order_12_det1_12": true,
+  "pinned_commit": "0d2694faf",
+  "planted_wrong_orbit_control_fired": true,
+  "row": 908
+}
