@@ -1,6 +1,6 @@
 """
 REVIEW 80, the web seat, second addition (M12): every quotation and line number the addition relies on, checked in
-its file at main 10fbbc1c2.  Computed once.
+its file at main 10fbbc1c2.  Computed once; extended after the referee's read, and run again.
 
 Usage: r80_m12_quotes.py <checkout of main with 10fbbc1c2 fetched>
 """
@@ -20,7 +20,12 @@ Q = [(B, 52, 'assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0'),
       'the protocol\'s § 12 keeps "reproduced" for the same code run again on a clean checkout'),
      (S, None, '"reproduced" is § 12\'s word for the same code run again'), (S, None, 'Owed from the first 43'),
      (S, None, "Eighteen rows in the enforcement package's own files"),
-     (S, None, 'checks/genesis_v1_67.py')]
+     (S, None, 'checks/genesis_v1_67.py'), (S, 9, 'It is not the label'),
+     (S, 21, "a line in the next log entry on main's own use of the word on 2026-11-12"),
+     ('docs/RETRACTED_PHRASES.md', None, 'Its table holds the FILE for that phrase, every line of it'),
+     ('frontier/B1896_the_third_enforcement_series_verified_and_landed/FINDINGS.md', 44,
+      'the file is held for that phrase, every line of it, and not the line'),
+     (S, 101, 'writes them; the')]
 ok = 0
 for f, n, q in Q:
     lines = subprocess.run(['git', '-C', MAIN, 'show', f'{NEW}:{f}'], capture_output=True, text=True).stdout.splitlines()
@@ -31,3 +36,10 @@ subj = subprocess.run(['git', '-C', MAIN, 'log', '-1', '--format=%s', NEW], capt
 h = "Review 80's four files are in" in subj
 print('%-5s the subject of %s :: %s' % (h, NEW, "Review 80's four files are in"))
 print('found: %d of %d' % (ok + h, len(Q) + 1))
+w = subprocess.run(['git', '-C', MAIN, 'log', '-S', 'Main reproduced it', '--format=%h', '5c7abd72a..' + NEW, '--',
+                    'docs/RETRACTED_PHRASES.md'], capture_output=True, text=True).stdout.split()
+print('the commit that wrote "Main reproduced it":', w)
+import re
+reg = subprocess.run(['git', '-C', MAIN, 'show', f'{NEW}:docs/POINT_REGISTER.md'], capture_output=True, text=True).stdout
+print('register lines naming `or True`, or_true, B1036 or B1103:',
+      sum(bool(re.search(r'or True|or_true|B1036|B1103', l)) for l in reg.splitlines()))

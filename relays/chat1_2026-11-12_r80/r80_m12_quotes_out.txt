@@ -15,5 +15,12 @@ True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: "
 True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: Owed from the first 43
 True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: Eighteen rows in the enforcement package's own files
 True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: checks/genesis_v1_67.py
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md:9 :: It is not the label
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md:21 :: a line in the next log entry on main's own use of the word on 2026-11-12
+True  docs/RETRACTED_PHRASES.md :: Its table holds the FILE for that phrase, every line of it
+True  frontier/B1896_the_third_enforcement_series_verified_and_landed/FINDINGS.md:44 :: the file is held for that phrase, every line of it, and not the line
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md:101 :: writes them; the
 True  the subject of 10fbbc1c2 :: Review 80's four files are in
-found: 18 of 18
+found: 23 of 23
+the commit that wrote "Main reproduced it": ['5fa8ac1d5']
+register lines naming `or True`, or_true, B1036 or B1103: 0
