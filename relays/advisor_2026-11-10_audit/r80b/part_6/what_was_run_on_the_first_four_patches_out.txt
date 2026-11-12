@@ -1,0 +1,28 @@
+R80b, part 6, its first four patches, on main's a15516d43 as it stands (part 1 landed; parts 2 to 5 not yet).
+
+1. Applied in order on a clean checkout: 0001 by git am; 0002 by its script, then git commit -F 0002_message.txt; 0003 and 0004
+   by git am.  The tree after 0002 is d148e1d01b5ea716392d5d16be567c61ef2f9f0c (the script says whether it is); after the four it
+   is 81e367edfd6846b322dcfc5d3ae70d4af7477451.
+   They apply the same way after parts 2 to 5 as this seat rebuilt them on a15516d43, and give the tree this seat built there.
+
+2. All 53 gates on a clean checkout of each patch, and B1861's lock run with tests/test_closure_generated.py in ONE process:
+   patch 1: 53 gates, 53 pass; the two files: 25 passed
+   patch 2: 53 gates, 53 pass; the two files: 25 passed
+   patch 3: 53 gates, 53 pass; the two files: 26 passed
+   patch 4: 53 gates, 53 pass; the two files: 27 passed
+   Before patch 1 (with parts 2 to 5 applied, where it was run): the two files in one process gave 2 failed, 22 passed.
+   The two that failed are the two tests of tests/test_closure_generated.py.
+
+3. Each patch's new or changed test, on the commit before the patch:
+   patch 1: its new test PASSES there.  What it tests stands in the lock's own file (the copy of the source, and the helper
+            that puts it back), so the test file as the patch leaves it brings the mend with it.  What shows the fault is the
+            run of the two files in one process, in 2 above.
+   patch 2: its changed test (the page quotes nothing of the owner) FAILS there: the lock's table of names is not empty and the
+            page is not reworded.
+   patch 3: its new test PASSES there, for the same reason as patch 1's: the reader stands in the lock's own file.  The test
+            keeps the reader as it stood and shows that each planted line passed it.
+   patch 4: its new test FAILS there: the builder's function still gives the mark alone, the comma and the spaces, the label alone.
+
+4. What the lock leaves behind in the process, after patch 1: the source's two lists are in the order they were found in.
+   The source still differs from a fresh import in what the builder itself adds to the budget's entries at its first build
+   (three keys on each entry); that is the builder's and is not undone.

@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M18
 state: working
-on: SERIES 5 OF WP-0.7 IS SENT AND ITS LAST RUN IS IN (fifteen patches; wp_0_7/series_5/, with its note). The foundation's version 1.67 (arc B1904; part 5's third patch) is sent. THE SIXTH PART OF R80b IS BEING BUILT, on your a15516d43 with parts 2 to 5 applied (they apply there; part 3's log entry stands beside yours). Its first two patches are built: the plan's lock leaves the source as it found it; the plan's page names the ruling of 2026-10-08 in plain words and the lock holds no name
-needs: nothing
-next push: the sixth part of R80b, its patches on B1861's lock and builder first
+on: THE SIXTH PART OF R80b, ITS FIRST FOUR PATCHES ARE SENT (r80b/part_6/, with a README): the plan's lock leaves the source as it found it; the page names the ruling of 2026-10-08 in plain words and the lock holds no name; five shapes of a quotation the reader did not see; a text cut for a cell keeps a word. They apply on your a15516d43 as it stands, and all 53 gates pass on each. Series 5 of WP-0.7 and the foundation's version 1.67 (B1904) are sent. Next in the sixth part: the four things sent back with R80a, the four locks that compare a float as text, your planting scripts, the ten answers, the thirteen findings
+needs: nothing. One thing goes back with the four patches: the three words still stand in marks in five more places of the plan's source (the table of rulings given to you directly); whether they are reworded is yours
+next push: the next patches of the sixth part
 
 # cld-advisor — status
 
