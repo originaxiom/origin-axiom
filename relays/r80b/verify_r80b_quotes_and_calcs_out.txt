@@ -1,0 +1,40 @@
+=== 1. EXACT SINGLE-LINE QUOTATION CHECK (ASSIGNED COMMIT AND c40446392) ===
+  R37 (B1884) OK: frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md -> line(s) [16]@c40446392, [16]@c40446392
+  R38 (B1884) OK: frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main.py -> line(s) [6]@c40446392, [6]@c40446392
+  R39 (B1889) OK: frontier/B1889_the_seats_digested/verification/test_b1889_the_seats_digested.py -> line(s) [33]@c40446392, [33]@c40446392
+  R40 (B732) OK: frontier/B732_conjugation_is_out_A5/FINDINGS.md -> line(s) [41]@0dda7b472, [41]@c40446392
+  R41 (B733) OK: frontier/B733_observer_space/FINDINGS.md -> line(s) [62]@0dda7b472, [62]@c40446392
+  R42 (B942) OK: frontier/B942_l113_bc_falsifier/FINDINGS.md -> line(s) [222]@0dda7b472, [222]@c40446392
+  R43 (B1030) OK: frontier/B1030_price_lock_verification/b1030_verify.py -> line(s) [72]@0dda7b472, [72]@c40446392
+  R44 (B1067) OK: frontier/B1067_rayclass_harvest/FINDINGS.md -> line(s) [78]@0dda7b472, [78]@c40446392
+  R45 (B736) OK: frontier/B736_ABC_campaign/FINDINGS.md -> line(s) [14]@0dda7b472, [14]@c40446392
+  R46 (B779) OK: frontier/B779_convergence_probe/R7_functor_assessment.md -> line(s) [83]@0dda7b472, [83]@c40446392
+  R47 (B1858) OK: frontier/B1858_the_closure_map/verification/map_source.py -> line(s) [99]@0dda7b472, [99]@c40446392
+  R48 (B1867) OK: frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py -> line(s) [110]@0dda7b472, [110]@c40446392
+  R49 (B1873) OK: frontier/B1873_the_programme_read_by_a_non_author/verification/test_b1873_the_programme_read_by_a_non_author.py -> line(s) [57]@0dda7b472, [57]@c40446392
+  CTL-R80B-QUOTE PASS: all 13 quotes verified single-line at both commits; mutations rejected.
+
+=== 2. B1884 INDEPENDENT ARITHMETIC CHECK (MODULO N FIXED LINES OF F AND LR) ===
+  Direct projective-line vs polynomial root match for 2 <= N <= 64: EXACT
+  For 2 <= N <= 200 (199 levels): 0 lines at 173 levels (first six: [2, 3, 4, 6, 7, 8], plus 25=True); 1 line only at [5]; 2 lines at 25 levels.
+  For 2 <= N <= 1000: >=4 lines at 13 levels, first at N=209 with 4 lines.
+
+=== 3. B1889 NON-COI HARVEST COUNTS CHECK ===
+  HARVEST_LEDGER@338b14fe3db9: 1699 numbered rows; web=240/74/63; physical(audit)=314 (matches B1889/arc_verdict.json non-agy clauses).
+
+=== 4. INDEPENDENT BIANCHI MOD (2)/(4)/(8), RAY-CLASS, AND B1030 COHOMOLOGY CHECK ===
+  mod (2): |SL2|=60, |SL2/{+-1}|=60, |im_SL2|=10, |im_PSL|=10, std_idx=6; |Z_sq1|=1 (in_im=1), |SL2/Z_sq1|=60, |im/Z_sq1|=10, cen_idx=6; ray_Cl=1
+  mod (4): |SL2|=3840, |SL2/{+-1}|=1920, |im_SL2|=320, |im_PSL|=160, std_idx=12; |Z_sq1|=4 (in_im=2), |SL2/Z_sq1|=960, |im/Z_sq1|=160, cen_idx=6; ray_Cl=2
+  mod (8): |SL2|=245760, |SL2/{+-1}|=122880, |im_SL2|=20480, |im_PSL|=10240, std_idx=12; |Z_sq1|=8 (in_im=8), |SL2/Z_sq1|=30720, |im/Z_sq1|=2560, cen_idx=12; ray_Cl=8
+  B1030 H^1(<tau>, F_2^6): |Z^1|=16, |B^1|=4, |H^1|=4 (exact 4).
+
+=== 5. DETACHED SCRATCH WORKTREE BUILDER & PLANTED-REVERSION CHECKS ===
+  B1858@0dda7b472: build_map.py + test_b1858 PASS; G:SE3/G:PF5/G:FK16 degree=0; misclassified post-P-773 S306o debts: 7@0dda7b472 (['P:777', 'P:781', 'P:786', 'P:804', 'P:806', 'P:808', 'P:810']), 14@c40446392.
+  Baseline locks at 0dda7b472 (test_b734, test_b1028, test_b1030, test_b1867, test_b1870, test_b1873): ALL PASS (confirming R40/R41/R43/R44/R45/R46 escape existing sweeps).
+  Clean-arc lock checks (reverting B731, B734, B1028, B1222, B1643 to 38d2a36dc): ALL CAUGHT (5/5 fail pytest).
+  R48 PLANT PROVED: reverting B1867/verification/line_or_loop_run.txt to 38d2a36dc (270 nodes, 51 inputs) PASSES test_b1867.
+  R49 PLANTS PROVED: stale read_checks_run.txt PASSES test_b1873, and valid fixed_and_not_yet_re_audited state FAILS on self-contradictory `unread == []`.
+  R38 PLANTS PROVED: reverting B1884/arc_verdict.json (2X1), 2X4 in FINDINGS.md, and 2X5 in default lane ALL PASS test_b1884.
+  R39 PLANT PROVED: reverting B1889/arc_verdict.json to 896cae025 (restoring 1686 rows and dropping ADDED 2026-11-12) PASSES test_b1889.
+
+ALL A2-R80B QUOTATION, ARITHMETIC, BUILDER, AND LOCK-PLANT CHECKS PASSED.
