@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 829 |
-| … QUEUED | 300 |
+| register points | 830 |
+| … QUEUED | 301 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 513 |
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
 - S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
 - S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
 - S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
@@ -60,11 +61,10 @@
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 - S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
 - S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
-- S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED (P-829): THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE.** Progress on the mathematics comes first; the work is organised so that tidying does not take its place; every session is put to use; no date is asked for. When he asked, 1 of 43 packages was done, as the day before, and the debts listed had grown from 83 to 96. The same hour main worked the plan's first mathematics package, WP-1.2, with its own code (71 checks, none failing; it lands after Review 80): the abelian carrier is excluded by the remainder and not by naturality; faithful words stay a declared premise, the quaternion and the Heisenberg group be…
+LATEST (2026-11-12, S306p: REVIEW 79'S ENTRY SAID MORE THAN WAS DONE (P-830): TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW.** The web seat's file for Review 80 noted it and main's recount by git confirms it: of the 25 older arcs whose verdict or findings changed in Review 79's window, the readers' cards named fifteen. The ten differences are with readers, two sessions each; the entry's sentence is corrected at Review 80's landing. The web seat's seven findings for Review 80 all hold on main's reproduction; main's mends wait for the review's landing and the builder has the five that are in its files. The fourth enforcement series is rehearsed: every gate passes with it and…
 
 ## Completeness (nothing skipped silently)
 
