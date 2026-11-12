@@ -1,0 +1,190 @@
+{
+  "b1887_excluded_conflict_of_interest": true,
+  "card": "X-R79b",
+  "controls": {
+    "all_controls_passed": true,
+    "control_1_flagged_lines": [
+      5,
+      6
+    ],
+    "control_1_m6_standing_tautology_flagged_count": 2,
+    "control_2_perturbed_rejected": true,
+    "control_2_stale_rejected": true,
+    "control_2_valid_accepted": true
+  },
+  "firewall": "0 of 19",
+  "machine_quotation_verification": {
+    "exact_matches": 8,
+    "quotations": {
+      "RF-01": {
+        "arc": "B1884",
+        "exact_substring": true,
+        "file": "frontier/B1884_what_level_a_ground_names_verified/arc_verdict.json",
+        "whitespace_joined": true
+      },
+      "RF-02": {
+        "arc": "B1884",
+        "exact_substring": true,
+        "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+        "whitespace_joined": true
+      },
+      "RF-03": {
+        "arc": "B1881",
+        "exact_substring": true,
+        "file": "frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",
+        "whitespace_joined": true
+      },
+      "RF-04": {
+        "arc": "B1884",
+        "exact_substring": true,
+        "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+        "whitespace_joined": true
+      },
+      "RF-05": {
+        "arc": "B1884",
+        "exact_substring": true,
+        "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+        "whitespace_joined": true
+      },
+      "RF-06": {
+        "arc": "B1880",
+        "exact_substring": true,
+        "file": "frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py",
+        "whitespace_joined": true
+      },
+      "RF-07": {
+        "arc": "B1880",
+        "exact_substring": true,
+        "file": "frontier/B1880_the_third_and_fourth_re_audits_answered/verification/read_class_a.py",
+        "whitespace_joined": true
+      },
+      "RF-08": {
+        "arc": "B1878",
+        "exact_substring": true,
+        "file": "frontier/B1878_the_goal_as_ruled_in_the_governing_documents/FINDINGS.md",
+        "whitespace_joined": true
+      }
+    },
+    "total_quotations_checked": 8,
+    "whitespace_joined_matches": 8
+  },
+  "mend_diff_base_commit": "0dda7b4725f613dbef273edafcd3fca73ccb245c",
+  "pinned_main_commit": "896cae025238cda82304de7424bf05f83cb69abe",
+  "task1_x1_to_x15": {
+    "independent_checks": {
+      "b1221_adjoint_grid_counts": {
+        "12": 72,
+        "24": 144,
+        "60": 360
+      },
+      "b1221_twenty_seven_kernel_order": 6,
+      "b1641_b1796_vectors_checked": 64,
+      "b1641_chi3_allowed_weights_matched": 8,
+      "b1641_negative_sum_vectors": 10,
+      "b1641_rT_turns": [
+        0.12499999999999996,
+        0.375,
+        0.875
+      ],
+      "b1881_coset_censuses": {
+        "line_6": [
+          1,
+          5,
+          2,
+          0,
+          0
+        ],
+        "twin_12": [
+          1,
+          1,
+          5,
+          5,
+          0,
+          0,
+          0
+        ]
+      },
+      "b1881_gamma0_5_box_counts": [
+        290,
+        240
+      ],
+      "b1885_check_count": 31,
+      "b1885_reflections_normalise_gamma0_5": true,
+      "b1888_namers_in_tree": 51
+    },
+    "items": {
+      "X1": "resolved",
+      "X10": "resolved",
+      "X11": "resolved",
+      "X12": "resolved",
+      "X13": "resolved",
+      "X14": "resolved",
+      "X15": "resolved",
+      "X2": "resolved",
+      "X3": "resolved",
+      "X4": "resolved",
+      "X5": "resolved",
+      "X6": "resolved",
+      "X7": "resolved",
+      "X8": "resolved",
+      "X9": "resolved"
+    },
+    "mended_files_scanned_for_standing_tautologies": 11,
+    "resolved_count": 15,
+    "standing_tautologies_found": 0,
+    "still_open_count": 0
+  },
+  "task2_arcs": {
+    "B1878": {
+      "arrival_phrases_count": 16,
+      "arrival_phrases_found_in_joined_governance": 0,
+      "b1878_landing_commit": "7480c2426",
+      "b1880_gate_defects_noted_on_b1878": false,
+      "commits_after_da25c4f49_at_landing": 696,
+      "first_parent_commits_at_landing": 2966,
+      "lock_standing_tautologies": 0
+    },
+    "B1880": {
+      "all_three_tracked_gzips_independently_verified": 3,
+      "findings_corrected_class_table": true,
+      "frozen_table_keys": 417,
+      "frozen_table_sha256_matches": true,
+      "lock_calls_read_class_a_main_on_every_pytest_run": true,
+      "lock_standing_tautologies": 0,
+      "measure_docstring_claims_write_inside_folder": true,
+      "measure_docstring_mentions_keep_outputs": false,
+      "read_class_a_unconditional_write_to_tracked_file": true,
+      "verdict_corrected_354_vs_342": true
+    },
+    "B1884": {
+      "b1872_uses_rows_1_3_not_columns": true,
+      "b1881_verdict_still_says_b1872_convention": true,
+      "b1884_misattributes_b1872_columns": true,
+      "b1884_pre_review79_verif_commits": [
+        "9b1c9d408"
+      ],
+      "checks_in_json": 17,
+      "coprime_levels_to_200": [
+        47,
+        139
+      ],
+      "det_minus_one_matrices_to_8": 87,
+      "rho_first_gt_two": [
+        209,
+        4,
+        [
+          15,
+          81,
+          129,
+          195
+        ]
+      ],
+      "rho_unique_one_to_1000": [
+        5
+      ],
+      "root_histories_table_verified": true,
+      "verdict_still_says_two_and_on": true
+    },
+    "B1887": "unread_per_section_13_and_section_9_item_2"
+  }
+}
