@@ -315,12 +315,15 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     b1881_run = git_show(PINNED_MAIN, "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main_run.txt")
     b1881_test = git_show(PINNED_MAIN, "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py")
     gamma0_5_box = [
-        (a, b, c, d)
-        for a, b, c, d in itertools.product(range(-3, 4), repeat=4)
-        if a * d - b * c == 1 and c % 5 == 0
+        (a, b, 5 * c, d)
+        for a in range(-12, 13)
+        for b in range(-12, 13)
+        for c in range(-3, 4)
+        for d in range(-12, 13)
+        if a * d - 5 * b * c == 1
     ]
     gamma0_5_c_nonzero = [g for g in gamma0_5_box if g[2] != 0]
-    mirror_closed = all((a, -b, -c, d) in set(gamma0_5_box) for (a, b, c, d) in gamma0_5_box)
+    mirror_closed = all((a, -b, -c5, d) in set(gamma0_5_box) for (a, b, c5, d) in gamma0_5_box)
     assert len(gamma0_5_box) == 290 and len(gamma0_5_c_nonzero) == 240 and mirror_closed
     # Independent coset census on Z/5 vectors up to sign (12) and projective lines (6)
     vecs5 = [(a, b) for a in range(5) for b in range(5) if (a, b) != (0, 0)]
@@ -351,7 +354,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
 
     assert _coset_census(pts12, sign5) == ([1, 1, 5, 5], 0, 0, Frac(0))
     assert _coset_census(pts6, line5) == ([1, 5], 2, 0, Frac(0))
-    x7_ok = "290 matrices, 240 with lower-left entry non-zero" in b1881_run and "CHECKS: 65, FAILING: 0" in b1881_run
+    x7_ok = "290 matrices of the group multiplied out, 240 of them with a lower-left entry that is not zero" in b1881_run and "CHECKS: 65, FAILING: 0" in b1881_run
     x8_ok = "def census(points, canon):" in b1881_test and "Fraction(1, 2)" not in b1881_test and "Fr(1, 2)" not in b1881_test
     assert x7_ok and x8_ok
 
