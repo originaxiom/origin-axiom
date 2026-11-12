@@ -245,7 +245,8 @@ def verify_b1641() -> dict:
     # so chi(3/2, m) = chi(3/2, 0) + m_1 + m_2 + m_3 = m_1 + m_2 + m_3.
     triples = list(itertools.product((-1, 0, 1, 2), repeat=3))
     neg_sum_triples = [m for m in triples if sum(m) < 0]
-    assert len(triples) == 64 and len(neg_sum_triples) == 20
+    # Sum < 0 in {-1, 0, 1, 2}^3: sum -3 (1), sum -2 (3), sum -1 (3 + 3 = 6) => 10 triples (amended from 20 in 723f436b1)
+    assert len(triples) == 64 and len(neg_sum_triples) == 10
     # Whenever sum(m) < 0, a nonzero holomorphic section P(eta) would give a negative-weight modular form on Gamma(N),
     # which is 0; thus dim = 0 = max(0, sum(m)), whereas sum(m) < 0 is strictly negative!
     at_minus1_0_0 = {"sum_m": sum((-1, 0, 0)), "max_0_sum_m": max(0, sum((-1, 0, 0)))}
