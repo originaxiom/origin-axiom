@@ -1,0 +1,64 @@
+=== CARD A2-R79d: RE-RUN OF EXACT 23 A2-R79c PLANTS AGAINST main@c40446392 ===
+Tracked files materialized per isolated workspace: ['docs/HARVEST_LEDGER.md', 'frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md', 'frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json', 'frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py', 'frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.json', 'frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py', 'frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main_made_with.json', 'frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main_run.txt']
+Recorded made_with versions: {"mpmath": "1.3.0", "python": "3.12", "sympy": "1.14.0"}
+Local environment versions:  {"mpmath": "1.3.0", "python": "3.12", "sympy": "1.14.0"}
+Comparison branch exercised: EXACT_BYTES (versions match)
+[CTL-CLEAN     ] (Control) -> CONTROL_OK             | passed=15, failed= 0 [none]
+    desc: Unmodified 3c5ab6bef baseline (all 10 lock tests must pass)
+[CTL-KNOWN-FAIL] (Control) -> CONTROL_OK             | passed=14, failed= 1 [test_the_two_quotients_recomputed]
+    desc: Corrupt cusp widths [1, 5] -> [2, 4] in test_the_two_quotients_recomputed (must fail)
+[P01a          ] (Group A) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_three_counts_of_run_sequences_by_a_second_method]
+    desc: Strip Review 79 [CORRECTED ...] brackets and 'Three checks did not check what they said' from FINDINGS.md
+[P01b          ] (Group A) -> CAUGHT (lock failed)   | passed=11, failed= 4 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test, test_the_three_counts_of_run_sequences_by_a_second_method, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Strip ALL [CORRECTED ...] brackets and second-round correction blockquote from FINDINGS.md
+[P02a          ] (Group A) -> CAUGHT (lock failed)   | passed=12, failed= 3 [test_no_check_of_the_script_is_passed_a_constant, test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended, test_the_script_computes_what_it_says_it_computes]
+    desc: Revert SM-13/X7 mirror_ok check condition in whole_and_value_on_main.py back to literal True (JSON untouched)
+[P02b          ] (Group A) -> CAUGHT (lock failed)   | passed=12, failed= 3 [test_no_check_of_the_script_is_passed_a_constant, test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended, test_the_script_computes_what_it_says_it_computes]
+    desc: Revert SM-13/X7 single_ok check condition in whole_and_value_on_main.py back to literal True (JSON untouched)
+[P03           ] (Group A) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_the_short_gap_figure_in_exact_arithmetic]
+    desc: Drop SM-14 0.9..1 percentage-offset bound from E11 check in whole_and_value_on_main.py (JSON untouched)
+[P04a          ] (Group B) -> CAUGHT (lock failed)   | passed=12, failed= 3 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Remove B1895 coordinate-swap correction blockquote on 'transpose' from FINDINGS.md (keeping Review 79 brackets)
+[P04b          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Remove B1895 'CORRECTED AGAIN' coordinate-swap clause from B1881/arc_verdict.json (reverting to B1894's 'is the transpose')
+[P04c          ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Append fresh unbracketed separate paragraph in FINDINGS.md asserting [[2, 1], [1, 1]] is the matrix transpose of [[1, 1], [1, 2]] (P-817 shape)
+[P05a_b1872    ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Revert keeps_line_main docstring in whole_and_value_on_main.py to attribute column convention to B1872
+[P05a_transpose] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Mutate keeps_line_main docstring in whole_and_value_on_main.py to call the column convention 'the transpose of the seat's'
+[P05b          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Remove E12 header docstring correction in whole_and_value_on_main.py
+[P06a          ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_each_correction_stands_with_the_sentence_it_corrects]
+    desc: Revert 'is recomputed' back to unbracketed 'is reproduced' in section 1 of FINDINGS.md
+[P06b          ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_each_correction_stands_with_the_sentence_it_corrects]
+    desc: Revert 'every printed number recomputed [CORRECTED ...]' back to 'every printed number reproduced' in B1881/arc_verdict.json
+[P06c          ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_each_correction_stands_with_the_sentence_it_corrects]
+    desc: Revert 'recomputed' back to 'reproduced' in whole_and_value_on_main.py header docstring
+[P07           ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_each_correction_stands_with_the_sentence_it_corrects]
+    desc: Remove only SM-12's [CORRECTED ...] bracket in ## Disclosed of FINDINGS.md while keeping all other brackets intact
+[P08           ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_no_check_of_the_script_is_passed_a_constant, test_the_script_computes_what_it_says_it_computes]
+    desc: Type literal integer counts 16275, 2815, 5575 in whole_and_value_on_main.py instead of computing them (M9: 'computes the three counts and types none')
+[P09a          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_the_committed_run_is_what_the_script_gives_today, test_the_three_counts_of_run_sequences_by_a_second_method]
+    desc: Revert least-apex check label in whole_and_value_on_main.json back to 'every cyclic run sequence ... (16275 sequences)'
+[P09b          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_the_committed_run_is_what_the_script_gives_today, test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be]
+    desc: Desynchronize whole_and_value_on_main_run.txt alone (alter sequence counts and set notation in _run.txt while leaving .py and .json intact)
+[P09c          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_three_counts_of_run_sequences_by_a_second_method]
+    desc: Remove SM-17's [CORRECTED ...] bracket on 16,275 vs 2,815/5,575 from FINDINGS.md while keeping other brackets intact
+[P10           ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended]
+    desc: Non-literal tautology 'or len(box) > 0' appended to SM-13 mirror_ok and single_ok checks in whole_and_value_on_main.py (JSON untouched)
+[P11a          ] (Group B) -> CAUGHT (lock failed)   | passed=14, failed= 1 [test_each_correction_stands_with_the_sentence_it_corrects]
+    desc: Revert M9's first self-caught mend in whole_and_value_on_main.py: E12 check from 'and' back to 'disagree == 0 or rev == 0 or rot == 0'
+[P11b          ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_the_committed_run_is_what_the_script_gives_today, test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended]
+    desc: Revert M9's second self-caught mend in whole_and_value_on_main.py: drop sorted(v) back to unsorted set dict 'over' on E5
+[P12           ] (Group B) -> CAUGHT (lock failed)   | passed=13, failed= 2 [test_each_correction_stands_with_the_sentence_it_corrects, test_the_withdrawn_word_stands_only_where_it_is_taken_back]
+    desc: Revert B1881/arc_verdict.json convention attribution back to unbracketed 'the seat's convention and B1872's name one allowed set'
+
+=== SUMMARY ===
+Controls: 2/2 behaved as required (CTL-CLEAN 15/15 passed; CTL-KNOWN-FAIL caught)
+Group A (exact pre-existing 5c7f1879d / Row R17 plants): 5/5 caught, 0 passed
+Group B (blind pre-inspection adversarial plants from 41d0b7faa): 18/18 caught, 0 passed
+Previously passing 6 plants (P04c, P05a_transpose, P08, P09b, P10, P11b): 6/6 caught
+Total across all 23 plants: 23/23 caught, 0 passed
+Plants that PASSED the lock at c40446392: []
+0 of 19.
