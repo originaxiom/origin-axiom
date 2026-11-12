@@ -426,6 +426,10 @@ def test_the_committed_run_is_what_the_script_gives_today(tmp_path):
     what a process printed passes where it was written and can fail elsewhere: that is the class the enforcement package's
     fourth series names, and this test was of it for two hours."""
     made = json.loads((HERE / "whole_and_value_on_main_made_with.json").read_text(encoding="utf-8"))
+    # ADDED 2026-11-12 (Review 80; a reader's finding F5, made again by main's plant).  The file that says which versions made
+    # the run decides which of the two comparisons below is made, and nothing held it: given another version, it sent the run
+    # to the weaker comparison on the very machine that made it.  It is held to what it says, so that a change is in two places.
+    assert made == _MADE_WITH_AS_HELD, "the file that says which versions made the run is not the one this lock holds"
     same = made == _made_with()
     run0 = (HERE / "whole_and_value_on_main_run.txt").read_bytes()
     data0 = (HERE / "whole_and_value_on_main.json").read_bytes()
@@ -438,11 +442,35 @@ def test_the_committed_run_is_what_the_script_gives_today(tmp_path):
             _held_under_another_version(run, data, run0, data0, seed)
 
 
+_MADE_WITH_AS_HELD = {"python": "3.12", "mpmath": "1.3.0", "sympy": "1.14.0"}      # whole_and_value_on_main_made_with.json, as committed
+
+
+def _values_to_eight_digits(v):
+    """a value of the json with every decimal number in it given to eight significant digits; whole numbers and words as they are"""
+    if isinstance(v, bool) or isinstance(v, int) or v is None:
+        return v
+    if isinstance(v, float):
+        return "%.8g" % v
+    if isinstance(v, str):
+        return _to_eight_digits(v)[0] if "\n" not in v else _to_eight_digits(v)
+    if isinstance(v, (list, tuple)):
+        return [_values_to_eight_digits(x) for x in v]
+    if isinstance(v, dict):
+        return {k: _values_to_eight_digits(x) for k, x in v.items()}
+    return v
+
+
 def _held_under_another_version(run, data, run0, data0, seed):
     assert _to_eight_digits(run.decode("utf-8")) == _to_eight_digits(run0.decode("utf-8")), "the run differs by more than a last digit (seed %d)" % seed
     new, old = json.loads(data), json.loads(data0)
     assert list(new) == list(old), "the checks are not the same, or not in the same order (seed %d)" % seed
     assert all(new[k] == old[k] for k in old if isinstance(old[k], bool)) and new["B_counts"] == old["B_counts"]
+    # ADDED 2026-11-12 (Review 80; a reader's finding F5).  The line above compared the checks and one table of counts.  The
+    # numbers of part A and of part B that the json keeps beside them were not compared: one of them changed in the script
+    # passed here.  Every value that is not a check is compared, whole numbers and words exactly, decimals to eight digits.
+    for k in old:
+        if not isinstance(old[k], bool):
+            assert _values_to_eight_digits(new[k]) == _values_to_eight_digits(old[k]), "%s is not what the committed json holds (seed %d)" % (k, seed)
 
 
 def test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be():
@@ -473,8 +501,33 @@ def test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be():
         pass
     else:
         raise AssertionError("the weaker comparison let a failing check through")
+    # ADDED 2026-11-12 (Review 80; a reader's finding F5): the numbers the json keeps beside its checks.  A whole number of part
+    # A changed, and a decimal of part B changed in its third digit, are refused; the same decimal changed past its eighth is let be.
+    # Each of the three passed the comparison as it was, which read the checks and one table of counts.
+    def as_it_was(run, data):
+        new, old = json.loads(data), json.loads(data0)
+        return (_to_eight_digits(run.decode("utf-8")) == _to_eight_digits(run0.decode("utf-8")) and list(new) == list(old)
+                and all(new[k] == old[k] for k in old if isinstance(old[k], bool)) and new["B_counts"] == old["B_counts"])
+    whole = json.loads(data0)
+    assert whole["A_numbers"]["W"] == [-3, -14, 1, 3] and whole["B_numbers"]["own"]["(6)"] == "3.61803398875"
+    for where, value, refused in ((("A_numbers", "W"), [-3, -14, 1, 4], True), (("B_numbers", "own", "(6)"), "3.62803398875", True),
+                                  (("B_numbers", "own", "(6)"), "3.61803398876", False)):
+        changed = json.loads(data0)
+        at = changed
+        for key in where[:-1]:
+            at = at[key]
+        at[where[-1]] = value
+        changed = json.dumps(changed).encode("utf-8")
+        assert as_it_was(run0, changed), where                                  # the comparison as it was lets all three through
+        try:
+            _held_under_another_version(run0, changed, run0, data0, 0)
+        except AssertionError:
+            assert refused, where
+        else:
+            assert not refused, "the weaker comparison let a changed number through: %s" % (where,)
     # and the file that says which versions made the run is the script's own, written at every run
     made = json.loads((HERE / "whole_and_value_on_main_made_with.json").read_text(encoding="utf-8"))
+    assert made == _MADE_WITH_AS_HELD and dict(made, python="0.0") != _MADE_WITH_AS_HELD      # main's plant on that file
     assert set(made) == {"python", "mpmath", "sympy"} and "whole_and_value_on_main_made_with.json" in (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
 
 
