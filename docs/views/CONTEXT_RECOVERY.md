@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12)
 - S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
 - S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
 - S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
@@ -60,11 +61,10 @@
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 - S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
-- S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 79'S ENTRY SAID MORE THAN WAS DONE (P-830): TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW.** The web seat's file for Review 80 noted it and main's recount by git confirms it: of the 25 older arcs whose verdict or findings changed in Review 79's window, the readers' cards named fifteen. The ten differences are with readers, two sessions each; the entry's sentence is corrected at Review 80's landing. The web seat's seven findings for Review 80 all hold on main's reproduction; main's mends wait for the review's landing and the builder has the five that are in its files. The fourth enforcement series is rehearsed: every gate passes with it and…
+LATEST (2026-11-12, S306p: REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830).** The web seat's seven and agy-002's thirty-six all hold on main's own reproduction (recounts, planted errors in a scratch checkout, constructed cases given to the checks' own functions); main's share is mended and held for the review's landing, and eighteen are the builder's. The other two readers have their cards: agy-exp, and the SM seat, which had pushed nothing since 02:45 and started at midday (its e8eecb787); the entry waits for their two files. Six more arcs that changed in other files only go to agy-002. Three mathematics arcs are worked and wait for…
 
 ## Completeness (nothing skipped silently)
 

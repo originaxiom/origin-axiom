@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1599: 1107 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
 | points in the register | 830: 305 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
-| the last landing | S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12) |
+| the last landing | S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12) |
 <!-- STATE:END -->
 
 ## Start here
