@@ -9,5 +9,14 @@ Q   frontier/B942_l113_bc_falsifier/arc_verdict.json: found
 Q   frontier/B1030_price_lock_verification/FINDINGS.md: found
 Q   frontier/B1030_price_lock_verification/FINDINGS.md: found
 Q   frontier/B1067_rayclass_harvest/FINDINGS.md: found
-Q   quotations checked: 11; not found: 0
+Q   frontier/B732_conjugation_is_out_A5/FINDINGS.md: found
+Q   frontier/B733_observer_space/FINDINGS.md: found
+Q   frontier/B942_l113_bc_falsifier/FINDINGS.md: found
+Q   frontier/B942_l113_bc_falsifier/FINDINGS.md: found
+Q   quotations checked: 15; not found: 0
+L   frontier/B732_conjugation_is_out_A5/FINDINGS.md line 41 at 0dda7b472: found
+L   frontier/B732_conjugation_is_out_A5/FINDINGS.md line 41 at c40446392: found
+L   frontier/B942_l113_bc_falsifier/FINDINGS.md line 93 at 0dda7b472: found
+L   frontier/B942_l113_bc_falsifier/FINDINGS.md line 93 at c40446392: found
+L   B732 at c40446392: dated corrections 1; the line-41 sentence has a correction on its line: False
 exit 0

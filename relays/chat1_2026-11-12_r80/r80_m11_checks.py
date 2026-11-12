@@ -20,10 +20,24 @@ QUOTES = [
     ('frontier/B1030_price_lock_verification/FINDINGS.md', 'retroactive designer freedom stays 0.000'),
     ('frontier/B1030_price_lock_verification/FINDINGS.md', 'su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model'),
     ('frontier/B1067_rayclass_harvest/FINDINGS.md', 'Baker and Reid 2018 state that the figure-eight complement is a congruence manifold'),
+    # added after the read before push
+    ('frontier/B732_conjugation_is_out_A5/FINDINGS.md', 'm004 the knot IS congruence at level (2)^3=(8)'),
+    ('frontier/B733_observer_space/FINDINGS.md', "m004's own (8)-door"),
+    ('frontier/B942_l113_bc_falsifier/FINDINGS.md', 'image order 2560'),
+    ('frontier/B942_l113_bc_falsifier/FINDINGS.md', 'In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to'),
 ]
+LINES = [('frontier/B732_conjugation_is_out_A5/FINDINGS.md', 41, 'm004 the knot IS congruence at level (2)^3=(8)'),
+         ('frontier/B942_l113_bc_falsifier/FINDINGS.md', 93, '2560')]
 bad = 0
 for path, q in QUOTES:
     ok = q in subprocess.run(['git', '-C', MAIN, 'show', '%s:%s' % (REV, path)], capture_output=True, text=True).stdout
     bad += not ok
     print('Q   %s: %s' % (path, 'found' if ok else 'NOT FOUND'))
 print('Q   quotations checked: %d; not found: %d' % (len(QUOTES), bad))
+for path, n, q in LINES:
+    for rev in (REV, 'c40446392'):
+        lines = subprocess.run(['git', '-C', MAIN, 'show', '%s:%s' % (rev, path)], capture_output=True, text=True).stdout.splitlines()
+        print('L   %s line %d at %s: %s' % (path, n, rev, 'found' if n <= len(lines) and q in lines[n - 1] else 'NOT FOUND'))
+cur = subprocess.run(['git', '-C', MAIN, 'show', 'c40446392:frontier/B732_conjugation_is_out_A5/FINDINGS.md'], capture_output=True, text=True).stdout
+print('L   B732 at c40446392: dated corrections %d; the line-41 sentence has a correction on its line: %s'
+      % (cur.count('CORRECTED'), 'CORRECTED' in cur.splitlines()[40]))
