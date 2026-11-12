@@ -3,7 +3,7 @@ read: M5
 state: working
 on: A2-C2
 needs: nothing
-next push: amended pre-work card relays/cards/AGY-002_A2-C2_guardrail-instrument-patches.md, then plain-word check specifications in relays/a2_c2/
+next push: relays/a2_c2/GUARDRAIL_CHECK_SPECIFICATIONS.md and closing delivery note relays/AGY002_TO_CC_2026-11-11_A2_C2_SPECS_DELIVERED.md
 
 ---
 
