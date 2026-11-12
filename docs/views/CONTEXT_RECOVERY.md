@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 824 |
-| … QUEUED | 292 |
+| register points | 828 |
+| … QUEUED | 299 |
 | … LEAD | 4 |
-| … OWNER | 4 |
-| … DONE | 512 |
+| … OWNER | 0 |
+| … DONE | 513 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1734 |
 | the Standard Model's 19 derived | 0 |
@@ -46,16 +46,14 @@
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
-- ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
-- ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
-- ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, LATER STILL: THE OWNER ASKED, THROUGH THE ADVISOR SEAT, FOR MAIN'S REVIEW, ENRICHMENT AND SCRUTINY OF THE PROPOSAL ("did u inform main about the re…*
+- none
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
 - S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
@@ -63,11 +61,10 @@
 - S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 - S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
-- S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 80 OPENED (P-824): FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED.** 26 landings stand since Review 79's anchor; a review is due at 20 and the push is blocked at 40; it is not waived. The window is 0dda7b472 to c40446392: seven arcs added, nineteen changed after the second round, the governing pages, main's instruments and two enforcement series. Each added arc goes to two sessions that built none of it, of two families of model; each change to two sessions whose finding it does not answer. Main verifies the fourth enforcement series meanwhile and holds its landing. Owner calls open: P-081, P-082, P-253, P-787. 0 of 19.
+LATEST (2026-11-12, S306p: THE OWNER'S WORD OF THE DAY ENTERED (P-825 to P-828): THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN.** He approved the move of the old front pages and accepted main's recommendation on all it had left with him. Of the advisor seat's thirty pages main read each: twenty move as pure renames with one page that says where each went, ten stay in this step; the seat builds it, and it lands after Review 80's entry and the fourth enforcement series. The plain-words reading of his earlier words is completed on the governing pages after the review; a first count finds sixteen lines on four pages. The two outside readers are held under his own condition; no draft…
 
 ## Completeness (nothing skipped silently)
 

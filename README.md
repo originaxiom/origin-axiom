@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1599: 1107 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 824: 300 open (queued, leads, waiting for the owner), 524 closed |
+| points in the register | 828: 303 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
-| the last landing | S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12) |
+| the last landing | S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12) |
 <!-- STATE:END -->
 
 ## Start here
