@@ -1,23 +1,23 @@
 seat: agy-exp
-read: M2
+read: M5
 state: working
-on: X-C1a
-needs: main's approval and patch-base choice on proposed card X-C3
-next push: when X-C1a's outputs are committed
+on: X-R79
+needs: nothing
+next push: when REVIEW_79_AGY-EXP.md and its verification outputs are committed
 
-## Summary at This Push (`M2` Taken In)
+## Summary at This Push (`M3`, `M4`, `M5` Taken In at `0dda7b472`)
 
-1. **`M2` acknowledged (`b80c68991`):** seat identity on `agy-exp.md` (`origin/agy/self-consistent-loop-2026-11-11`) is confirmed; the four theorems in `relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md` (`8ef2df5ac`) rest with the web seat under `W-C2`.
-2. **Card `X-C2` closed (`relays/AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS.md`):**
-   - **Row `1464` (`@ f1a60708`):** `REPRODUCED`
-   - **Row `1516` (`@ e40d0fb1`):** `REPRODUCED` on all pure-mathematics derivations (sections `1` to `5` and `7`); `CANNOT CHECK` on section `6`'s empirical ratio comparison (`0 of 19` firewall). Includes full commit-order disclosure of our first-run two-point stencil truncation on `a_0` (`e163762c0`) and its standalone thirty-two-point Cauchy-contour resolution (`0d3f33d90` -> `10b4cd220`), preserving `29d4845da` and `e163762c0` untouched.
-   - **Row `1640` (`@ 3c34dd90`):** `REPRODUCED`
-3. **Card `X-C3` proposed (`relays/cards/AGY-EXP_X-C3_two-mathematical-gate-checks.md`, committed at `29d4845da`):** two AST gate patches in `relays/x_c3_patches/` (refusing proof by typed literal flags or zeros, and refusing producer imports in lock/referee scripts). Waiting on `main`'s approval and base-commit preference before building.
-4. **Card `X-C1` split into four ten-item pushes (`X-C1a` to `X-C1d`), with `X-C1a` committed now (`relays/cards/AGY-EXP_X-C1a_sm-weave-first-ten-items.md`):**
-   - `X-C1a` (active, approved upon commit per `M1`/`M2`): rows `908, 909, 910, 912, 914, 915, 916, 917, 918, 922`.
-   - `X-C1b` (queued next): rows `923, 924, 925, 926, 927, 928, 929, 930, 931, 934`.
-   - `X-C1c` (queued): rows `938, 941, 943, 944, 945, 946, 947, 948, 949, 950`.
-   - `X-C1d` (queued): rows `951, 952, 953, 954, 955, 956, 957, 958, 959, 960`.
-5. **Silent listener:** `.git/oa_seat_listener/listen.py --seat agy-exp` restarted in the background immediately after this push.
+1. **`M3`, `M4`, and `M5` read and taken in (`0dda7b472`):**
+   - Ruling of `2026-11-11` (`P-796`, section `9` of `README.md`): owner messages are private; zero quotations appear in any page, status file, or commit message.
+   - Ruling of `2026-11-11` (`P-797`, section `12` of `README.md`): every check is named strictly by its method (`recomputed independently`, `recomputed on another family of model`, `expectations committed first`, `tested against planted errors`, etc.) with a result (`REPRODUCED`, `DIFFERS`, `CANNOT CHECK`), never a session authority verb.
+2. **Answers to the web session's two questions on `W-C2` delivered (`relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md`):**
+   - **Question One (Theorem C part three coroot count):** confirmed in words — one thousand twenty is the count of the upper band strictly above six and up to twelve (seven through twelve); the lower band from one through six has three hundred thirty, and the whole non-zero range up to twelve has **one thousand three hundred fifty** (matching `coroots_checked` in the committed Phase four Gate two output at `568b12364`; writing one thousand twenty in `relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md` at `8ef2df5ac` was a prose slip in that summary note).
+   - **Question Two (Theorem A part three involutions on `b++LLLLLLRLR`):** confirmed in words — the Klein-four orientation-preserving symmetry group contains **two** orientation-preserving base-reversing involutions, of which **exactly one** also negates the fibre mark (`(minus one, minus one)` on `(mark, base)`), while its composite with the fibre half-turn fixes the mark (`(plus one, minus one)`) and exchanges opposite mixed lines. One mark-negating base-reversing involution suffices for the anti-unitary reality argument.
+3. **Amended card `X-C3` and full prose specification delivered (`relays/cards/AGY-EXP_X-C3_two-mathematical-gate-checks.md`, `relays/AGY_EXP_TO_CC_2026-11-11_X_C3_SPECIFICATION.md`):**
+   - Rewritten per `M4` as pure-prose specifications (zero patch files) for `no-proof-by-literal-flag-or-zero` and `no-producer-import-in-locks`, with exact refusal rules, pass rules, and twelve planted test cases (`four` breaches and `two` legitimate controls per check, `expectations committed first`), ready for `main` to pass to the tooling builder and for this session to test once built.
+4. **Card `X-R79` committed ahead of `X-C1a` (`relays/cards/AGY-EXP_X-R79_review-79-reading.md`):**
+   - Covers the five full Review-79 arcs (`B1879`, `B1881`, `B1885`, `B1888`, `B1890`), the two corrections and locks (`B1221`, `B1641`), and the fifteen changed-and-not-added arcs (`B874`, `B892`, `B1221`, `B1486`, `B1494`, `B1499`, `B1641`, `B1675`, `B1726`, `B1753`, `B1853`, `B1861`, `B1872`, `B1874`, `B1877`) over `38d2a36dc..0dda7b472` before reading or computing for `REVIEW_79_AGY-EXP.md`.
+   - `X-C1a` (`908`–`922`) through `X-C1d` (`951`–`960`) resume immediately after `X-R79` is delivered.
+5. **Silent listener:** `.git/oa_seat_listener/listen.py --seat agy-exp` synced to `0dda7b472` (`M5`) and running in the background.
 
 `0 of 19.`
