@@ -1,0 +1,38 @@
+The 164 test files that read a gate, a checker or a ledger that series 5 changes, run in one process on the base and on the
+last patch.  The files are those among the tracked test files that name one of: the gates, a changed checker, the practices
+page, the gates' controls, the registry of retracted phrases, the two baselines, the frozen table of hash lists.
+
+==== on the base (main's bf76e5ab1 with R80b's 41 patches, series 4, the move and the two stand-ins):
+=============================== warnings summary ===============================
+=========================== short test summary info ============================
+FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+FAILED tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - Assert...
+FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'revi...
+4 failed, 1047 passed, 14 skipped, 1 warning in 1360.57s (0:22:40)
+==== on the last patch of series 5:
+=============================== warnings summary ===============================
+=========================== short test summary info ============================
+FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+FAILED frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned
+FAILED frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/test_b1893_the_second_enforcement_series_verified_and_landed.py::test_a_ceiling_that_falls_and_rises_back_is_still_not_seen
+FAILED frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_the_shapes_that_pass_still_pass_and_this_lock_is_told_when_one_is_closed
+FAILED frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_every_row_of_the_registry_is_read
+FAILED tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - assert...
+FAILED tests/test_b967_retraction_sweep.py::test_the_registry_has_entries_and_the_corpus_is_clean
+FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'retr...
+FAILED tests/test_review55_instrument_repairs.py::test_the_sweep_is_green_and_would_still_FIRE
+11 failed, 1096 passed, 14 skipped, 1 warning in 1337.17s (0:22:17)
+
+On the base four fail.  Three ask that every gate pass, and the count of landings is red there; one compares a printed
+signed zero (B1866; R80a's note, section 9).
+On the last patch the same four fail, and seven more.  Each of the seven is one of two things:
+  the sweep is red on five lines of main's pages (from patches 10 and 11): this series' own test of the registry,
+    tests/test_b967_retraction_sweep.py, tests/test_review55_instrument_repairs.py, and B1896's test of what main
+    changed at the landing, which asks that the sweep pass;
+  a lock of main's that is told when a gap is closed: B1880's (patch 6: 416 keys where it held 417), B1893's (patch 8:
+    the plant on the identification baseline is caught), and B1896's on main's case U17.b (patch 11: a withdrawn phrase
+    broken over lines is caught).
+49 more tests pass on the last patch than on the base: the 56 the series adds, less these seven.

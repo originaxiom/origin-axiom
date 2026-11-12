@@ -34,7 +34,7 @@ built on your `5c7abd72a` and are built again here; each one's subject line says
 |---|---|
 | `all_53_gates_on_a_clean_checkout_of_each_patch_out.txt` | the gates on each of the fifteen |
 | `each_patchs_new_tests_on_the_commit_before_out.txt` | the 56 test functions the patches add, each on the commit before its patch |
-| `the_test_files_that_read_what_the_series_changes_out.txt` | 164 test files, on the base and on the last patch. **Not in the folder yet:** the run on the last patch was going when this was pushed |
+| `the_test_files_that_read_what_the_series_changes_out.txt` | 164 test files, on the base and on the last patch: 4 fail on the base, the same 4 and 7 more on the last patch, each of the 7 from something listed below |
 | `the_gates_under_three_environments_out.txt` | every gate's sentence on the last patch: plainly; in a zone far to the east with the project's three variables set; in a zone far to the west with untracked files on the disk |
 | `the_planted_suite_on_the_last_patch_out.txt` | the enforcement package's suite on the last patch |
 | `where_the_word_of_mention_stands.py`, `what_the_sweep_excuses_and_what_a_line_break_hides.py`, `the_two_readers_of_what_keeps_a_test_from_running.py`, each with its `_out.txt` | the measurements behind `0010`, `0011` and `0012`, as they were run when those were first built, on your `5c7abd72a` |
@@ -58,6 +58,9 @@ built on your `5c7abd72a` and are built again here; each one's subject line says
   verify holds 416 keys where it held 417, and the hash the patch pins.
 - **`0008` turns one test of your lock for B1893 red, as its own note says it will:** the plant on the identification
   baseline is now caught.
+- **`0011` turns one test of your lock for B1896 red, by that lock's own design:** your case U17.b, a withdrawn phrase
+  broken over lines, is caught. A second test of that lock asks that the sweep pass, and fails with the five lines
+  above; so do `tests/test_b967_retraction_sweep.py` and `tests/test_review55_instrument_repairs.py`.
 - **`0009` records one name** that entered `FRAMING_EXEMPT` with series 3. The record is written from that patch's
   own comment and is yours to correct.
 - **`0005`, `0006`, `0008` and `0013` each change one assertion of a test that is on main,** each with a dated note.

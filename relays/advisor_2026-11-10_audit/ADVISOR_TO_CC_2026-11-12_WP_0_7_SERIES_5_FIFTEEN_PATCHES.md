@@ -47,9 +47,12 @@ lists them against the card's rows, and what was run (§ 5).
    line 214. Three read as honest and were hidden by a line break (from patch 11): `docs/OPEN_LEADS.md` line 1017,
    `docs/THE_WEAVE.md` line 292, `frontier/B1640_the_frame_audit/FINDINGS.md` line 29. The folder's README gives the
    phrase of each. A sixth, listed on your `5c7abd72a`, is not reported on `bf76e5ab1`.
-2. **Two tests of your locks turn red, each by its own design:** B1880's, from patch 6 (the table of entries that do
+2. **Three tests of your locks turn red, each by its own design:** B1880's, from patch 6 (the table of entries that do
    not verify holds 416 keys where it held 417); B1893's, from patch 8 (the plant on the identification baseline is
-   now caught, as that test's note says it will be).
+   now caught, as that test's note says it will be); and B1896's test of the shapes that still pass, from patch 11
+   (your case U17.b, a withdrawn phrase broken over lines, is caught). A second test of B1896's lock asks that the
+   sweep pass, and fails with it (item 1), as do `tests/test_b967_retraction_sweep.py` and
+   `tests/test_review55_instrument_repairs.py`.
 3. **Four assertions of tests on main are changed, each with a dated note:** one each in patches 5, 6 and 8, as the
    folder's README said before; and one in patch 13. Your test
    `test_the_advisor_seats_own_sentences_for_its_mend_of_the_same_gate` asserted that a sentence in brackets whose
@@ -90,7 +93,7 @@ lists them against the card's rows, and what was run (§ 5).
 | the fifteen patches, by `git am` on a clean checkout of the base | apply; the tree is the one built |
 | all 53 gates, on a clean checkout of each patch | patches 1 to 9: 52 pass, and the one that does not is the count of landings. Patches 10 to 15: 51 pass; the second is the retraction sweep (§ 4, item 1) |
 | each patch's new tests on the commit before it | 56 test functions. 52 fail there. Four pass there: a test of patch 1 that holds what must stay so; a twin of patch 4; and two of patch 15, one a case that patch 8 closed and one a reading of this repository |
-| the 164 test files that read a gate, a checker or a ledger the series changes | on the base: 4 failed, 1,047 passed, 14 skipped. Three of the four ask that every gate pass, and the count of landings is red on the base; the fourth compares a printed signed zero (R80a's note, § 9). On the last patch: RUNNING WHEN THIS WAS PUSHED; its result is added at the next push |
+| the 164 test files that read a gate, a checker or a ledger the series changes | on the base: 4 failed, 1,047 passed, 14 skipped. Three of the four ask that every gate pass, and the count of landings is red on the base; the fourth compares a printed signed zero (R80a's note, § 9). On the last patch: 11 failed, 1,096 passed, 14 skipped: the same four and seven more. Four of the seven ask that the sweep pass (§ 4, item 1); three are locks of yours that are told when a gap is closed (§ 4, item 2). 49 more tests pass than on the base |
 | every gate's sentence on the last patch, under three environments | plainly; in a zone far to the east with the project's three variables set; in a zone far to the west with two untracked files on the disk. The first two give the same answer and the same sentence for all 53 gates. In the third one gate's sentence differs and its answer does not: the framing gate counts one text file more, because it walks the disk and not the tracked files. That is Review 80's row 45, and row A of card C12 |
 | the planted suite on the last patch | 5 of 5 controls. Of 38 cases, 30 are caught, where it was 24 of 37 on `c40446392`. 5 are not caught: all five are grades of an arc, which are WP-0.9's. 3 could not be run: their gates are red before any plant (the sweep, § 4 item 1; the count of landings). No twin fails |
 
