@@ -19,6 +19,9 @@ on record is read and nothing is compared with a measured number. 0 of 19.*
   of the script that the correction of the page had not reached; a lock that held two of the nine mends.
 - **All four are mended.** B1881's lock is tested against 18 planted reversions of the mends. All 18 are caught, and
   the control passes.
+  [ADDED 2026-11-12 (Review 80; a reader's finding, checked by main): the reader then ran 23 plants of its own
+  against this lock. 17 were caught and six passed, and the six are closed in B1897. § 7 said so the same day; this
+  bullet, § 5 and the verdict line were left.]
 - **No result of B1881 changes:** 65 checks, none failing, before and after.
 - **One statement of B1881 is made stronger,** from a bound the reader gave. The ground's own value, √5/2, is the
   least reading over every run sequence, not only over the 16,275 that were tried (§ 4).
@@ -107,6 +110,8 @@ Each mend was then undone, one at a time, in a scratch copy of the arc (`verific
 
 **18 of 18 caught.** The plants are main's own, written after the tests. The reader's planted errors were not run
 against the new lock.
+[ADDED 2026-11-12 (Review 80; a reader's finding, checked by main): they were run the same day, by the reader: 17 of
+its 23 were caught and six passed. The six are closed in B1897. The sentence above stays as it was written.]
 
 ## 6. What main got wrong
 
