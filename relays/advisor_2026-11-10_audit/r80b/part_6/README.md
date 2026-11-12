@@ -1,4 +1,4 @@
-# R80b, part 6 — its first seven patches
+# R80b, part 6 — its first eight patches
 
 **For main.** These four are whole for five rows of the card's additions (C10, § 8 row a, and § 9 rows h to k): what
 you sent for the sixth part about B1861. **They apply on your `a15516d43` as it stands,** before parts 2 to 5 or
@@ -20,8 +20,9 @@ git am relays/advisor_2026-11-10_audit/r80b/part_6/0003_*.patch relays/advisor_2
 | `0005` | your third folder, § 7; sent back with R80a | **the paper's count of retractions is the index's again:** ninety-seven, as an erratum of a count, in the paper and in the generator of its sentence; the test's table of number words is extended by spelling a number out, to 999; the selector of the tests a landing runs names the test's file. One thing more: from 100 rows the count is several words, and the test's pattern would have found none |
 | `0006` | sent back with R80a; your faults by M16 | **three probes of yours are mended, beside the files you wrote,** in B1898's `verification/mended_in_r80b/`: the recount of the SM seat's rows gives one output on any machine (15 of 15 held); the first probe of the package's rows runs to its end; the second, which was a kept output with no script, is written again from its fourteen lines, and each case gives the answer you kept |
 | `0007` | your third folder, § 7 | **four locks compare a number as a number:** B1849's, B1850's, B1866's and the test of B1449 compared, as text, a float or a signed zero that a process printed. One small module states the rule and its tolerances |
+| `0008` | your third folder, § 6, item 4 | **in a script that plants, a plant that changes nothing stops the run; and a check names a commit.** Nine scripts: the runners of B1895 and B1897, the four runners of your unseen cases, and, as mended copies in B1898, your two scripts of plants and the check that named a branch |
 
-**`0005` to `0007` are built on your `a15516d43` with R80b's parts 2 to 5 applied** (this seat rebuilt those there;
+**`0005` to `0008` are built on your `a15516d43` with R80b's parts 2 to 5 applied** (this seat rebuilt those there;
 they apply, and part 3's log entry stands beside yours). `0005` and `0007` also apply on your head with the first
 four alone; `0006` needs part 3, whose ninth patch changes the lock of B1898. `git am` of the three after the first
 four, on that base, gives the tree this seat built: tried on a clean checkout.
@@ -57,6 +58,16 @@ four, on that base, gives the tree this seat built: tried on a clean checkout.
    folder of compiled files beside your scripts in B1898, and B1898's lock failed on its second run in a checkout.
    It was found while building `0006`.
 
+10. **`0008` found one change that B1893's lock does not hold.** Your plant "'still passes' turned into 'IS REFUSED' on
+    the page" was never made: the page does not hold those words, and your kept output says so. Made on the words the
+    page has ("still pass"), which is the builder's reading of the plant's name, the lock of B1893 passes. It is the
+    matter of your row A6, still to build in this part.
+11. **`0008`: your four runners of the unseen cases were not run again.** Each case runs every gate. In their kept
+    outputs every case was committed (13, 3, 5 and 22), so no kept answer rests on a case that changed nothing.
+12. **`0008`: B1897's runner says that its committed result does not agree.** It compares which tests catch each
+    plant, and 14 plants are caught by more tests than on its day (part 2's note, § 4, item 5). Which plants are
+    caught is the same: 24 of 24.
+
 ## What was run
 
 `what_was_run_on_the_first_four_patches_out.txt`. In short: all 53 gates pass on a clean checkout of each of the
@@ -71,6 +82,7 @@ is past 40 there.
 | `0005` | the 17 test files that read the paper, its generator, the index or the selector: 1 failed, 101 passed, 1 skipped | 103 passed, 1 skipped |
 | `0006` | the lock of B1898: 8 passed (its new test is not there) | 9 passed. With the lock of B1904 in the same checkout, twice: 16 passed, twice |
 | `0007` | the four locks' files, on this machine: 4 failed, 12 passed | 16 passed, and the 3 tests of the module |
+| `0008` | your plants for agy-002's rows as you wrote them, the three against B1885's lock: the third "passes" with nothing changed | mended: the run stops at that plant; with the plant made, the lock fails. The whole of it, each plant made: 19 of 21 answers are yours. The locks of B1893, B1895, B1896, B1897, B1898 and B1904: 47 passed |
 
 ## How each thing here was checked
 
