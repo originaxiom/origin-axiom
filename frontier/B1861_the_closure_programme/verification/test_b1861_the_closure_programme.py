@@ -432,7 +432,9 @@ def test_the_refusals_review_78s_reader_found_unplanted_can_fire():
          (lambda: S.INPUTS[0]["members"].append("ZZ:NOPE"), "the budget names a node that is not in the map: ZZ:NOPE"),
          (lambda: with_A()["members"].remove(next(m for m in with_A()["members"] if m.startswith("A:"))), "are not the scoreboard's borrowed joints")],
         # rule 13: the owner's confirmations; rule 14: the headline results are nodes of the map
-        [(lambda: setattr(S, "CONFIRMATION", ("", "")), "rulings are marked confirmed with no date or no words of the owner"),
+        # CHANGED 2026-11-12 (Review 80; the SM seat's finding 28).  The refusal read "rulings are marked confirmed with no date or
+        # no words of the owner".  The builder no longer asks for his words: it asks for main's account of what he answered.
+        [(lambda: setattr(S, "CONFIRMATION", ("", "")), "rulings are marked confirmed with no date, or with nothing in plain words on what the owner answered"),
          (lambda: S.CONFIRMED.append("a ruling nobody relayed"), "a ruling is marked confirmed and is not among the relayed rulings: a ruling nobody relayed"),
          (lambda: S.NOT_CONFIRMED.__setitem__("another nobody relayed", "words"), "a ruling is marked not confirmed and is not among the relayed rulings: another nobody relayed"),
          (lambda: S.NOT_CONFIRMED.__setitem__(confirmed0, "words"), "a ruling is marked both confirmed and not confirmed: %s" % confirmed0),

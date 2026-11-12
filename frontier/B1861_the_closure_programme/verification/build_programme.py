@@ -23,7 +23,7 @@ record's own pages, and this arc's programme_source.py. It REFUSES to build when
  12. a finding of the advisor seat's audit has no package or no state, a state other than OPEN has no note, or the
      programme names a finding the audit does not hold;
  13. a relayed ruling or a quoted sentence of that seat is not in its file as quoted, or a ruling has no package; a ruling is
-     marked confirmed that is not among the relayed ones, or without the owner's words and date, or without main's opinion
+     marked confirmed that is not among the relayed ones, or without a date and main's plain words on what the owner answered, or without main's opinion
      (which the owner asked for with the confirmation); an opinion is written for a ruling that is not confirmed;
  14. a row of the record's own checklist for a theory of everything has no package, or a quoted word of the record is gone.
  16. a finding names nothing it bears on, or names something that is not there;
@@ -423,7 +423,10 @@ def build(nodes=None, edges=None):
         if name not in confirmed:
             fails.append("an opinion is written for a ruling that is not confirmed: %s" % name)
     if S.CONFIRMED and not (S.CONFIRMATION[0] and S.CONFIRMATION[1]):
-        fails.append("rulings are marked confirmed with no date or no words of the owner")
+        # REWORDED 2026-11-12 (Review 80; the SM seat's finding 28).  It read "rulings are marked confirmed with no date or no
+        # words of the owner": the builder asked for his words, and the page printed them.  What it asks for now is main's
+        # account of what he answered, in plain words.
+        fails.append("rulings are marked confirmed with no date, or with nothing in plain words on what the owner answered")
     for name, words in S.NOT_CONFIRMED.items():
         if name not in names_r:
             fails.append("a ruling is marked not confirmed and is not among the relayed rulings: %s" % name)
@@ -837,8 +840,10 @@ def render(B):
                                                    cell(f["note"] + (" Since the re-audit (%s): %s" % S.SINCE_REAUDIT[fid] if fid in S.SINCE_REAUDIT else "")) or "—"))
     L += ["", "## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main", "",
           "The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also",
-          "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
-          "", "> \"%s\"" % S.CONFIRMATION[1], "",
+          "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s. What he" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
+          # CHANGED 2026-11-12 (Review 80; the SM seat's finding 28).  The next line was a block quotation of the owner's answer.
+          # It is main's account of the answer, in plain words; nothing he said is quoted on this page (register row P-796).
+          "answered is given here in plain words, and nothing he said is quoted (register row P-796): %s." % S.CONFIRMATION[1], "",
           "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.NOT_CONFIRMED)),
           "asked. Asked about those, the owner did not confirm them (what he answered is in the table, in plain words): main treats them as no ruling and",
           "acts on neither. %d more sentences, recorded by the seat later and marked by it as relayed, were asked of the owner once; the" % len(S.CONFIRMED_LATER),

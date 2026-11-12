@@ -975,9 +975,8 @@ re-audit read (re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28
 ## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main
 
 The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also
-main's standing rule for a relayed ruling. Main asked about the 11 then relayed. The owner answered main on 2026-11-10:
-
-> "yes, but i also wanr your opinion on all"
+main's standing rule for a relayed ruling. Main asked about the 11 then relayed. The owner answered main on 2026-11-10. What he
+answered is given here in plain words, and nothing he said is quoted (register row P-796): he confirmed them, and asked for main's opinion on each of them.
 
 So 11 are confirmed, and main's opinion on each, which the owner asked for, is in the table. 2 were relayed after main had
 asked. Asked about those, the owner did not confirm them (what he answered is in the table, in plain words): main treats them as no ruling and

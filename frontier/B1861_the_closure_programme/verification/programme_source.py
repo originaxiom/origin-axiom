@@ -751,7 +751,7 @@ U("E7", "FIXED", "B1028's verdict is OPEN and its headline number is withdrawn a
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
-# in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,
+# as CONFIRMATION below gives it, in plain words. The two relayed after main had asked were not covered by that answer; asked about them,
 # the owner did not confirm them (NOT_CONFIRMED below). Main treats neither as a ruling.
 RULINGS = [
     ("the goal", "the programme's only goal is a parameter-free theory of everything", ["WP-0.10"]),
@@ -777,11 +777,17 @@ RULINGS = [
     ("the ledger, cancelling, interaction", "The account is the whole ledger.", ["WP-1.1", "WP-1.6"]),
     ("the tick is an act", "The tick is an act, and both kinds of history are in the ledger", ["WP-1.4"]),
 ]
-# the owner's answer to main, verbatim (spelling as written), and the rulings it covers: the eleven main had named in its question
-CONFIRMATION = ("2026-11-10", "yes, but i also wanr your opinion on all")
+# what the owner answered main, in plain words, and the rulings it covers: the eleven main had named in its question
+# CHANGED 2026-11-12 (Review 80; the SM seat's finding 28).  The second entry held the owner's own words, written here on
+# 2026-11-10 before his ruling of 2026-11-11 that his messages are private (register row P-796), and the page printed them as
+# a block quotation.  The two entries of NOT_CONFIRMED were put into plain words on 2026-11-12 and this one was left.  The old
+# words are not kept in this note, because they are his.  The two comments that said "verbatim" of his answers said so of
+# words that are no longer here, and are reworded with this.  The arcs, the register's rows and the dated logs of that day
+# keep what they wrote.
+CONFIRMATION = ("2026-11-10", "he confirmed them, and asked for main's opinion on each of them")
 CONFIRMED = ["the goal", "the claim", "attribution", "the weave discipline", "the count as an output", "the headline's form", "the map on the desk",
              "what self-consistent means", "the first back-edge to try", "the fork inside it", "the founding principle as the selection rule"]
-# the owner's answer to main about the two relayed later, verbatim: not confirmed
+# what the owner answered main about the two relayed later, in plain words: not confirmed
 # CHANGED 2026-11-12 (Review 79's second round).  These two entries held the owner's own words, written here on 2026-11-10, before
 # his ruling of 2026-11-11 that his messages are private (register row P-796).  This page is built again at every landing, so it
 # is a living page and not the past: it gives what he answered in plain words.  The arcs, the register's rows and the dated logs
