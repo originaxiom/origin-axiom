@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1599 |
-| … PROVED | 1107 |
+| arcs with a verdict file | 1600 |
+| … PROVED | 1108 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 833 |
-| … QUEUED | 304 |
+| register points | 834 |
+| … QUEUED | 305 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 513 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1734 |
+| harvest rows (the last number) | 1741 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
 | B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
 | B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
 | B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (agy-002's reading of main at 87bfa1f05, 4 of 4 quotations found by machine; data-free, inte… |
@@ -42,7 +43,6 @@
 | B1889 | PROVED | THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no dat… |
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
-| B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 80 ENTERED: 100 FINDINGS; MAIN CHECKED 80 IN FULL AND ALL 80 HELD; 17 WERE LOOKED AT BY THEIR READER ALONE; 41 WAIT TO BE BUILT (B1898; P-833, P-834) (2026-11-12)
 - S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833) (2026-11-12)
 - S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12)
 - S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
@@ -60,11 +61,10 @@
 - S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
 - S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
-- S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833).** Main works the frontier mathematics; the record-keeping is built by the builder as patch series from one folder of main's drafts (`docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`), read cold by agy-002, and landed by main after its own check. Review 80: 100 findings in four files, every quotation found by machine; the first 43 held and are mended here; of the other 57 main has checked 37 in full, all held, and mended twelve; the entry, the arc and the mends that are left are the builder's first series, and the review is o…
+LATEST (2026-11-12, S306p: REVIEW 80 ENTERED (B1898; P-833, P-834).** 100 findings on main's work since Review 79, in four readers' files and one dated addition. Main checked 80 in full and all 80 held; 3 in part; 17 nobody but their reader has looked at. The first 43 are mended on main or with the builder of the enforcement package; of the other 57, 16 are mended or noted and 41 wait to be built. The entry and the arc were built as a patch by the building session from main's tables and checks (P-832) and mend nothing. Its anchor is `c40446392`. None of Review 79's eighteen items is resolved; five are at their third carry and wait for main's or the owner's word (R80-21). The gates catch 24…
 
 ## Completeness (nothing skipped silently)
 

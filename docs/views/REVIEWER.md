@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1599** |
-| words of findings prose | **1,415,012** |
+| research arcs with findings | **1600** |
+| words of findings prose | **1,417,249** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1599** (100.0 %) |
+| arcs carrying an authored verdict | **1600** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1107 |
+| PROVED | 1108 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1897`** (1423 words, 0 locks)  
-B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted reversions were all caught; agy-002 then planted 23 of its own against the lock as it stood at 3c5ab6bef, the eighteen new ones written before it opened the lock: its five earlier plants are caught, twelve of the eighteen are caught, every direct reversion of a mend among them, and six pass. THE SIX leave the mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; the docstring of the script's second function given the withdrawn word, where the lock read the header; the script's counts typed in place of computed, where the lock read the committed file and its scan saw a constant and not a table of constants; the committed run file edited where the lock did not read it; a clause that is not a literal and is always true joined by `or` to two conditions; the sorting of a printed set undone. EACH IS REAL AND EACH IS CLOSED: the lock runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and, under others, to eight digits with the same checks; the mended conditions and one printed detail are held word for word; the scan sees a table of constants and the three counts are held to the expressions that compute them; the function's own docstring is read, and every line of the script and every paragraph of the page that holds the withdrawn word. Made again by main from the reader's descriptions, with the eighteen of B1895: the lock catches 24 of 24, the control passing; 6 of 6 of the reader's quotations found by machine. WHAT IS NOT CLOSED and is said in the lock: a withdrawn claim restated without its word (P-817). WHAT IT SHOWS: a lock tested only by its author is tested against what its author thought of; a lock that reads a committed output does not hold that the script still computes it. The reader is asked to run its own 23 against the lock as it now stands. 0 of 19.  
-`B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md`
+**PROVED — `B1898`** (2237 words, 0 locks)  
+REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits). The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.  
+`B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

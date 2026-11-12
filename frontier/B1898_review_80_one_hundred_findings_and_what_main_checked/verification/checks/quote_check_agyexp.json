@@ -1,0 +1,141 @@
+{
+ "summary": {
+  "findings": 14,
+  "with a file that exists at the commit named": 14,
+  "every line of the quotation found in that file": 14,
+  "findings whose quotation is not found": [],
+  "controls found": 0,
+  "commits named": [
+   "0dda7b472",
+   "c40446392"
+  ]
+ },
+ "rows": [
+  {
+   "finding": 1,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 2,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 3,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 4,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 5,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 6,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 7,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 8,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 9,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 10,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 11,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 2,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 12,
+   "commit": "c40446392",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 13,
+   "commit": "0dda7b472",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  },
+  {
+   "finding": 14,
+   "commit": "0dda7b472",
+   "the file exists at the commit": true,
+   "lines of the quotation": 1,
+   "every line found": true,
+   "found as one passage": true,
+   "the control is found": false
+  }
+ ]
+}

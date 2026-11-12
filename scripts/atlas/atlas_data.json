@@ -16594,6 +16594,17 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1898": {
+   "slug": "review 80 one hundred findings and what main checked",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B189": {
    "slug": "omega causal dimension",
    "motifs": [

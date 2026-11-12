@@ -1,0 +1,148 @@
+[
+ {
+  "arc": "B1893",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "7 passed in 2.62s",
+  "seconds": 3.2
+ },
+ {
+  "arc": "B1893",
+  "plant": "the verdict changed from PROVED to NEGATIVE",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed in 2.56s",
+  "seconds": 3.2
+ },
+ {
+  "arc": "B1893",
+  "plant": "the verdict line made to open with ZERO CAUGHT",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed in 2.48s",
+  "seconds": 3.1
+ },
+ {
+  "arc": "B1893",
+  "plant": "the rows of the cases U10 to U19 deleted from the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 2 passed in 0.64s",
+  "seconds": 1.2
+ },
+ {
+  "arc": "B1893",
+  "plant": "'still passes' turned into 'IS REFUSED' on the page",
+  "the lock": "PLANT NOT MADE",
+  "seconds": 0.0
+ },
+ {
+  "arc": "B1896",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed in 20.89s",
+  "seconds": 21.5
+ },
+ {
+  "arc": "B1896",
+  "plant": "'Five are not caught' turned into 'None is not caught' on the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed in 21.54s",
+  "seconds": 22.6
+ },
+ {
+  "arc": "B1896",
+  "plant": "every '17' on the page's first forty lines turned into '22'",
+  "the lock": "FAILS",
+  "tail": "1 failed, 1 passed in 0.99s",
+  "seconds": 2.1
+ },
+ {
+  "arc": "B1896",
+  "plant": "the runner of the sealed cases deleted",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed in 26.92s",
+  "seconds": 28.1
+ },
+ {
+  "arc": "B1896",
+  "plant": "the runner of the cases written after reading deleted",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed in 22.13s",
+  "seconds": 23.1
+ },
+ {
+  "arc": "B1896",
+  "plant": "the verdict line made to open with ALL TWENTY-TWO CAUGHT",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed in 22.11s",
+  "seconds": 22.6
+ },
+ {
+  "arc": "B1878",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "5 passed in 1.16s",
+  "seconds": 1.8
+ },
+ {
+  "arc": "B1878",
+  "plant": "the dated note of 2026-11-12 removed from the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 4 passed in 1.18s",
+  "seconds": 1.8
+ },
+ {
+  "arc": "B1878",
+  "plant": "the verdict file made invalid JSON",
+  "the lock": "FAILS",
+  "tail": "1 failed, 4 passed in 1.19s",
+  "seconds": 1.8
+ },
+ {
+  "arc": "B1885",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed in 12.58s",
+  "seconds": 13.2
+ },
+ {
+  "arc": "B1885",
+  "plant": "the verdict changed from PROVED to REFUTED",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed in 8.22s",
+  "seconds": 8.8
+ },
+ {
+  "arc": "B1885",
+  "plant": "the note on the grid's 18 digits taken out of the verdict line",
+  "the lock": "passes",
+  "tail": "8 passed in 12.23s",
+  "seconds": 12.8
+ },
+ {
+  "arc": "B1890",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed in 1.08s",
+  "seconds": 2.0
+ },
+ {
+  "arc": "B1890",
+  "plant": "the verdict file made invalid JSON",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed in 1.16s",
+  "seconds": 2.2
+ },
+ {
+  "arc": "B1890",
+  "plant": "the table of gates that read history shrunk to two names",
+  "the lock": "FAILS",
+  "tail": "1 failed, 5 passed in 1.14s",
+  "seconds": 2.2
+ },
+ {
+  "arc": "B1890",
+  "plant": "the refusal of an empty checkout switched off",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed in 1.13s",
+  "seconds": 1.7
+ }
+]

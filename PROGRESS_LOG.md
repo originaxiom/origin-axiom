@@ -19920,3 +19920,17 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None is published yet. Three first steps and the selection test wait for the review's entry.
 
 0 of 19.
+
+## 2026-11-12 — The eightieth review is entered (S306p)
+
+**What this is.** Four sessions read main's work since the last review and filed a hundred faults. Main had checked eighty of them itself, and all eighty were real. Three it checked in part. Seventeen have been looked at only by the session that found them.
+
+**Who put it together.** Not main. A building session assembled the review's entry and its record from main's own tables and checks, as a patch, and main publishes it after checking it. Nothing in it is repaired here.
+
+**What is mended and what waits.** The first forty-three are mended on main, or are with the builder of the checking tools. Of the other fifty-seven, sixteen are mended or noted. Forty-one wait, and are the next piece of work.
+
+**What the assembling found on the way.** Main's checks were all run again. Most gave the same result to the byte. One of main's own test errors is not caught by the check it was written against. One of its check scripts stops with an error at its end. Five old open items have now been carried forward three times, and the rule says each must be settled, dropped with a reason, or excused by the owner; that decision was left for main.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.

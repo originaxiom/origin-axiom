@@ -1,0 +1,365 @@
+{
+ "summary": {
+  "at": "c40446392",
+  "findings": 41,
+  "quotations": 50,
+  "placed": 50,
+  "found elsewhere only": 0,
+  "found nowhere": [],
+  "findings with no quotation read": [],
+  "findings with a quotation found elsewhere only": [],
+  "controls found": 0
+ },
+ "rows": [
+  {
+   "finding": 1,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 2,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 3,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 4,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 5,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 5,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 6,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 7,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 8,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 9,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 10,
+   "files looked in": 13,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 11,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 12,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 13,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 14,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 15,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 16,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 17,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 18,
+   "files looked in": 14,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 19,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 19,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 19,
+   "files looked in": 7,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 20,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 21,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 22,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 23,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 24,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 25,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 26,
+   "files looked in": 6,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 27,
+   "files looked in": 12,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 27,
+   "files looked in": 12,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 27,
+   "files looked in": 10,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 28,
+   "files looked in": 9,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 28,
+   "files looked in": 9,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 28,
+   "files looked in": 9,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 29,
+   "files looked in": 9,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 30,
+   "files looked in": 7,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 31,
+   "files looked in": 7,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 32,
+   "files looked in": 8,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 33,
+   "files looked in": 15,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 34,
+   "files looked in": 6,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 35,
+   "files looked in": 6,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 36,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 36,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 37,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 37,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 38,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 39,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 40,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  },
+  {
+   "finding": 41,
+   "files looked in": 1,
+   "placed": true,
+   "found somewhere at the commit": true,
+   "the control is found": false
+  }
+ ]
+}

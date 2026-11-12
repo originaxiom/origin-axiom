@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p REVIEW 80 ENTERED: 100 FINDINGS; MAIN CHECKED 80 IN FULL AND ALL 80 HELD; 17 WERE LOOKED AT BY THEIR READER ALONE; 41 WAIT TO BE BUILT (B1898; P-833, P-834) (2026-11-12)
+
+- **Built as a patch by the building session** from main's folder of the same day (the owner's direction, P-832), and landed by main after its own check. It mends nothing.
+- **The arc B1898** holds main's two tables of every finding, word for word, its checks, a recount of every number, and a lock. `frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/`.
+- **What the tables give:** 100 findings in four readers' files and one dated addition. Main checked 80 in full and every one held; 3 in part; 17 nobody but their reader has looked at. 16 of the first 43 went whole to the builder of the enforcement package. Of the other 57, 16 are mended or noted on main and 41 wait to be built.
+- **The entry** is Review 80's on `docs/progress/REVIEWS.md`, in the form of Review 79's. Its anchor is the commit the readers read, `c40446392`. Where the form asks for a judgement that main's folder does not give, the entry says "not assessed".
+- **The loop:** none of Review 79's eighteen items is resolved on main's register; all eighteen are carried. Five are at their third carry and have no disposition: that is main's or the owner's (R80-21).
+- **Main's checks, made again:** most give the same bytes. One plant of main's own passes B1885's lock. One check ends in an error, one kept output has no script, and one recount changes with the machine's zone (B1898 § 6; R80-20).
+- **The instruments:** the gates catch 24 of 37 planted faults on the commit read. The gates and the belt pass on a fresh clone of it.
+- **Five navigation pages** carry a dated note of this review, as the gate on their freshness asks.
+
+0 of 19.
+
 ## S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833) (2026-11-12)
 
 - **The owner's direction on main's own work** (P-832): main works the frontier mathematics; the record-keeping and the hygiene are built by another session as patches, read cold by a verifying session, and landed by main after its own check.

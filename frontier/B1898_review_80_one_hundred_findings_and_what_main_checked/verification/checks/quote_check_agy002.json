@@ -1,0 +1,265 @@
+{
+ "summary": {
+  "at": "c40446392",
+  "rows": 36,
+  "found exactly": 36,
+  "found exactly or when lines are joined": 36,
+  "files that do not exist at the commit": 0,
+  "lines of the review whose quotation is not found": [],
+  "controls found": 0
+ },
+ "rows": [
+  {
+   "line": 18,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 19,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 20,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 21,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 22,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 23,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 24,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 25,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 26,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 27,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 28,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 29,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 30,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 31,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 32,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 33,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 34,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 35,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 36,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 37,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 38,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 39,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 40,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 41,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 42,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 43,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 44,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 45,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 46,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 47,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 48,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 49,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 50,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 51,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 52,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  },
+  {
+   "line": 53,
+   "file exists at the commit": true,
+   "found": true,
+   "found when lines are joined": true,
+   "the control is found": false
+  }
+ ]
+}

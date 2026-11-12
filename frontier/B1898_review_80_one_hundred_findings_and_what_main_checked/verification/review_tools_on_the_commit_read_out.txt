@@ -1,0 +1,36 @@
+window 0dda7b472..c40446392: 26 commits (26 on the first-parent line), 7 arcs with a verdict (B1891 … B1897)
+remotes: mirrors ['origin']; missing mirrors ['backup']; other remotes not read: none
+loop: Review 79 block -- open ['R79-1', 'R79-10', 'R79-11', 'R79-12', 'R79-13', 'R79-14', 'R79-15', 'R79-16', 'R79-17', 'R79-18', 'R79-2', 'R79-3', 'R79-4', 'R79-5', 'R79-6', 'R79-7', 'R79-8', 'R79-9']; carried 0 (oldest: []); open items left in superseded blocks: none
+branches: 21 unmerged leaves; unregistered: none; on one remote only: ['2026-11-05', 'B1668_the_price_of_the_nineteen', 'audit-2026-11-02', 'cool-hamilton-k9eqvo', 'fork-2026-09-20', 'frontier-2026-10-26', 'independent-2026-11-03', 'kind-hypatia-uk0vv9', 'landing', 'main', 'outside-bench', 'paper-review-verification-kaz3f5', 'physical-bridge-2026-09-05', 'project-thread-hctlox', 'self-consistent-loop-2026-11-11', 'sep16-branch', 'stage4-sync-2026-11-11', 'standard-model-derivation-0qt6ao', 'verify', 'weave-physics-archive-2026-10-11', 'web-seat']; remotes out of step: none
+   2026-11-05                               +19  tip 2026-11-07  registered
+   B1668_the_price_of_the_nineteen          +10  tip 2026-10-17  registered
+   audit-2026-11-02                         +134  tip 2026-11-10  registered
+   cool-hamilton-k9eqvo                     +129  tip 2026-11-12  registered
+   fork-2026-09-20                          +311  tip 2026-10-13  registered
+   frontier-2026-10-26                      +34  tip 2026-10-27  registered
+   independent-2026-11-03                   +4  tip 2026-11-03  registered
+   kind-hypatia-uk0vv9                      +1  tip 2026-10-06  registered
+   landing                                  +1  tip 2026-10-17  registered
+   main                                     +12  tip 2026-11-12  registered
+   outside-bench                            +14  tip 2026-09-18  registered
+   paper-review-verification-kaz3f5         +22  tip 2026-10-01  registered
+   physical-bridge-2026-09-05               +873  tip 2026-11-12  registered
+   project-thread-hctlox                    +3  tip 2026-10-06  registered
+   self-consistent-loop-2026-11-11          +49  tip 2026-11-12  registered
+   sep16-branch                             +98  tip 2026-09-29  registered
+   stage4-sync-2026-11-11                   +7  tip 2026-11-11  registered
+   standard-model-derivation-0qt6ao         +1253  tip 2026-11-12  registered
+   verify                                   +31  tip 2026-11-12  registered
+   weave-physics-archive-2026-10-11         +3  tip 2026-10-13  registered
+   web-seat                                 +878  tip 2026-11-12  registered
+seals: 0 in the window; with defects: 0
+provenance: 2704 added lines scanned, 0 hits, 0 in public-facing files
+advancement: LAW_MAP +2 rows, THEOREM_REGISTRY +1 rows
+errors: new classes none; instances none
+new vocabulary (word pairs in >= 3 of the window's claims and in none before) not in TERMINOLOGY.md: found machine
+gates: 53 named by a test; not named by any: none
+gate controls: 53 registered failing-path tests; unregistered: none
+fresh-clone: NOT RUN @ c40446392 (pass --fresh-clone)
+relays open: outbound 41 {'AUDIT_LANE': 1, 'ALL_SEATS': 2, 'SM': 3, 'AGY': 9, 'CHAT1': 11, 'PHYSICAL': 4, 'ADVISOR': 11}; inbound 32 {'CODEX': 2, 'CHAT1': 9, 'ADVISOR': 12, 'AGY': 5, 'AGY002': 4}; declined 68; banked 653
+chain gap (the review adjudicates the top; promotions are pinned in docs/CHAIN_COVERAGE.json): 1021 of the record's arcs on a surface and not in the chain; top: B1098 (8), B952 (7), B1100 (7), B959 (7), B743 (6), B576 (6), B1086 (6), B261 (6)
+sample seed: 0dda7b472; to be read in full (seeded by the anchor): B1891, B1893, B1894, B1895, B1896

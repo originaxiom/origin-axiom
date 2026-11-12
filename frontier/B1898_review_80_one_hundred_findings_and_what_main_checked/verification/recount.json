@@ -1,0 +1,357 @@
+{
+ "the two tables": {
+  "the first table: rows": 31,
+  "the first table: findings, by reader": {
+   "the web seat": 7,
+   "agy-002": 36
+  },
+  "the first table: findings": 43,
+  "the second table: rows": 57,
+  "the second table: findings, by reader": {
+   "the SM seat": 41,
+   "agy-exp": 14,
+   "the web seat's addition": 2
+  },
+  "the second table: findings": 57,
+  "findings in all": 100,
+  "the second table: cells in every row": [
+   4
+  ],
+  "the second table: main's check is 'not checked'": [
+   "22",
+   "25",
+   "26",
+   "30",
+   "32",
+   "33",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "F9",
+   "F11",
+   "F13",
+   "F14",
+   "W8",
+   "W9"
+  ],
+  "the second table: 'not checked' for a part of the row": [
+   "F6",
+   "F7",
+   "F10"
+  ],
+  "the second table: checked by main in full": 37,
+  "the second table: the state says 'to build'": [
+   "05",
+   "12",
+   "19",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "F7",
+   "F8",
+   "F9",
+   "F10",
+   "F11",
+   "F12",
+   "F13",
+   "F14",
+   "W8",
+   "W9"
+  ],
+  "the second table: 'mended', and nothing to build": [
+   "02",
+   "03",
+   "04",
+   "06",
+   "07",
+   "10",
+   "11",
+   "14",
+   "15"
+  ],
+  "the second table: 'noted', and nothing to build": [
+   "01",
+   "08",
+   "09",
+   "13",
+   "16",
+   "17",
+   "18"
+  ],
+  "the second table: none of the three": [],
+  "the first table: sent to the builder, the whole row": [
+   "W2",
+   "W4",
+   "W5",
+   "A24 to A36"
+  ],
+  "the first table: findings sent to the builder, whole rows": 16,
+  "the first table: a part registered as a debt": [
+   "W1",
+   "A8",
+   "A10",
+   "A11"
+  ],
+  "the first table: decided by the owner": [
+   "W7"
+  ],
+  "checked by main in full, both tables": 80,
+  "how": "the rows of the two tables as they stand in this arc: a row is a line that begins with a bar and whose first cell is a finding's number; 'A24 to A36' is one row of thirteen findings"
+ },
+ "the outputs main kept": {
+  "agy-002: quotations found, of": [
+   36,
+   36
+  ],
+  "the SM seat: quotations placed, of, in findings": [
+   50,
+   50,
+   41
+  ],
+  "agy-exp: quotations found, of": [
+   14,
+   14
+  ],
+  "controls found, in the three": [
+   0,
+   0,
+   0
+  ],
+  "Review 79's quotations checked again strictly": {
+   "quotations": 111,
+   "in the file the finding names": 52,
+   "in the arc's own folder (no file named)": 45,
+   "in a wide page only": 14,
+   "found nowhere, strictly": 0
+  },
+  "main's plants against B1881's lock: the plant and the lock's answer": [
+   [
+    "nothing planted",
+    "PASSES"
+   ],
+   [
+    "the control: single_ok replaced by the literal True (a plant B1895's lock holds)",
+    "CATCHES IT"
+   ],
+   [
+    "F1: the two mended conditions taken over empty lists",
+    "PASSES"
+   ],
+   [
+    "F2: check() made to ignore what it is passed",
+    "PASSES"
+   ],
+   [
+    "F3: an unpinned check made unable to fail by an 'or' on a length that is never 0",
+    "PASSES"
+   ],
+   [
+    "F4: no sequence read: the least typed, the two counts typed behind the pinned beginning",
+    "PASSES"
+   ],
+   [
+    "F5: the made-with file given another version, and a number of part A changed in the script",
+    "PASSES"
+   ]
+  ],
+  "main's plants for agy-002's rows: the lock's answer, counted": {
+   "FAILS": 14,
+   "PLANT NOT MADE": 1,
+   "passes": 6
+  },
+  "main's plants for agy-002's rows that the lock passes, a plant being made": [
+   [
+    "B1885",
+    "the note on the grid's 18 digits taken out of the verdict line"
+   ]
+  ],
+  "main's computation on B1895": {
+   "sequences": 1332,
+   "on which the second word, built, is the first conjugated by the swap": 1332,
+   "matrices": 120,
+   "agreement of the swapped-mark recipe, mark by mark": {
+    "(0, 1)": {
+     "annihilates its own line": false,
+     "of 120": 88
+    },
+    "(1, 0)": {
+     "annihilates its own line": false,
+     "of 120": 88
+    },
+    "(1, 1)": {
+     "annihilates its own line": false,
+     "of 120": 88
+    },
+    "(1, 2)": {
+     "annihilates its own line": true,
+     "of 120": 120
+    },
+    "(1, 3)": {
+     "annihilates its own line": true,
+     "of 120": 120
+    },
+    "(1, 4)": {
+     "annihilates its own line": false,
+     "of 120": 88
+    }
+   }
+  },
+  "the kept probe of the builder's rows: the rows it covers, its cases, those made again": [
+   [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   14,
+   14
+  ],
+  "the rows of the SM seat's file that main's recount covers": [
+   "SM-04",
+   "SM-07",
+   "SM-11",
+   "SM-15",
+   "SM-16",
+   "SM-18",
+   "SM-19",
+   "SM-20",
+   "SM-21",
+   "SM-27",
+   "SM-28",
+   "SM-29",
+   "SM-31",
+   "SM-34",
+   "SM-35"
+  ],
+  "how": "read from the files main kept, in checks/; none of them is made again by this script"
+ },
+ "git": {
+  "commits in the window": 26,
+  "of them on main's own line": 26,
+  "arcs added in the window": [
+   "B1891",
+   "B1892",
+   "B1893",
+   "B1894",
+   "B1895",
+   "B1896",
+   "B1897"
+  ],
+  "older arcs with a file changed in the window": 26,
+  "of them, with the verdict file changed": 15,
+  "files changed in the window": 206,
+  "the law map: lines of its tables less the rules, at the two ends": [
+   329,
+   329
+  ],
+  "the law map: the same less each table's header": [
+   324,
+   324
+  ],
+  "the law map: lines added and removed in the window": [
+   21,
+   2
+  ],
+  "the theorem registry: lines of its tables less the rules, at the two ends": [
+   229,
+   229
+  ],
+  "the theorem registry: the same less each table's header": [
+   222,
+   222
+  ],
+  "the theorem registry: lines added and removed in the window": [
+   1,
+   1
+  ],
+  "the error ledger: lines added and removed in the window": [
+   0,
+   0
+  ],
+  "the terminology page: lines added and removed in the window": [
+   0,
+   0
+  ],
+  "the foundation: lines added and removed in the window": [
+   6,
+   4
+  ],
+  "pages under papers/ changed in the window": [
+   "papers/P3_THE_PAPER/CLAIM_CANDIDATES.md",
+   "papers/P3_THE_PAPER/verification_package/MANIFEST.json",
+   "papers/P3_THE_PAPER/verification_package/MANIFEST.md"
+  ],
+  "hash lists added in the window (a seal's)": [],
+  "controls registered at the commit read": 53,
+  "the seal ledger: lines added in the window, and those of them that are empty": [
+   11,
+   11
+  ],
+  "pin rows of the harvest ledger at the two ends": [
+   29,
+   29
+  ],
+  "lanes whose pin moved in the window": [
+   "advisor",
+   "agy002",
+   "agyloop",
+   "audit",
+   "chat1",
+   "sm"
+  ],
+  "lanes newly pinned in the window": [],
+  "the programme's packages, and those done, at the two ends": [
+   [
+    43,
+    1
+   ],
+   [
+    43,
+    1
+   ]
+  ],
+  "commits on main's own line after the commit read, up to main's head at the handing over": 12,
+  "files of this arc that are main's, byte for byte, as its folder holds them at its head": [
+   26,
+   26
+  ],
+  "files that are not": [],
+  "how": "git, between 0dda7b472 and c40446392: rev-list --count for the commits; diff --name-only for the files, with --diff-filter=A for what was added; show for a page at either end; diff --numstat for its lines"
+ },
+ "the commits": {
+  "the window begins at": "0dda7b472",
+  "the readers read": "c40446392",
+  "main's head at the handing over": "10fbbc1c2"
+ }
+}

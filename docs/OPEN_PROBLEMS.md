@@ -984,3 +984,12 @@ governing documents and the foundation, opened pages on which main directs the s
 has sent, and landed the first repairs of the gates. The review was read in full by four sessions that built none of
 it: 99 findings, all held; 88 distinct faults.**
 - **For this page:** no open problem was settled. Three statements were narrowed to what was computed: the index of the chiral three is three for a unit that is the same on the cusp's three lines; the exchange leaves the law of run lengths unchanged, not the walk's measure; a count of lines a ground keeps holds to level 200 and fails at 209.
+
+## ⟳ VIEW REFRESH — 2026-11-12 (Review 80)
+
+Touched at Review 80 (its anchor `c40446392`). **The window (B1891–B1897; S306p) holds Review 79's entry and its second
+round (B1892, B1894), the foundation at version 1.66 (B1891), the second and the third enforcement series as they landed
+(B1893, B1896), and two arcs on the mends of B1881 and on its lock (B1895, B1897). Four sessions that built none of it
+read it: 100 findings; main checked 80 in full and all 80 held; 17 were looked at by their reader alone; 41 wait to be
+built (B1898).**
+- **For this page:** in the window it gained Review 79's note and nothing else. Whether anything on it should now read otherwise was not assessed by the session that put this note here: that is main's. 0 of 19.
