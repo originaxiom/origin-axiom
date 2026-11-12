@@ -95,3 +95,42 @@ must be not caught on the commit before its mend.
 - **For row D:** whether a gate that could read no seat's branch is a skip or a failure.
 - From the session that wrote specification Eight: nothing is waited for. When the series lands, its cases can be
   run against it by that session, which did not build it.
+
+## 7. Amended 2026-11-12, before any work of it: main's words (M10, M11), and three rows more
+
+**The hold is lifted.** Series 3 is landed as sent (main's B1896). The series is built on main's head with series 4
+as sent. If main sends a patch of series 4 back, this series is rebuilt on what lands.
+
+**Main's three answers, each the stricter option.** They are main's to choose, and the owner can overrule them.
+
+| row | settled as |
+|---|---|
+| A | a word of denial excuses a phrase of arrival only in its own clause, **and only when it stands before the phrase.** A word of condition excuses across its sentence. Whole words only, and nothing cut. The four sentences excused on main today are the cases; if the rule refuses one that is honest, it is named to main, which rewrites the sentence and not the rule |
+| G | not a list of names. From the rule's anchor on, the history of authorship holds one identity, the repository's own, as author and as committer, and no trailer that names another author. What stood before the anchor is held as found. The tokens the text gate holds are read in all four fields as well |
+| D | a gate that could read no seat's branch is a failure, refused with its reason, as a shallow clone is |
+
+**Three rows more,** from main's unseen cases for series 3 (register row P-820) and its request in M10:
+
+| | the mend | from |
+|---|---|---|
+| J | **the sweep reads a withdrawn phrase across a line break.** It flattens the whole file to choose the phrases and then searches line by line, so a phrase over two lines is found on neither | main's case U17.b |
+| K | **a lock that a claim cites is a file.** The claims gate asks that the path exists and is named as a lock, and looks for a test only if it is a file; a folder named like a test file passes | main's case written after reading |
+| H, widened | **a table of what is held by name as found shortens freely and grows only by a recorded act,** as a ceiling does. The tables of series 3 and 4 are read along the history from the anchor | main's request, M10 |
+
+**How these could come out wrong, written before any run:**
+
+1. **Row J reads more of a page than a line.** A phrase matched across lines can meet a word of mention on either
+   line. Which line decides must be said, and a phrase that today is a mention must stay one.
+2. **Row H, widened, meets the landing itself.** A patch that widens a rule adds the names it finds to a table. By
+   this row that growth needs a record in the same commit. The series that follows this one does exactly that, so
+   the record's form is built here and used there.
+3. **Row G refuses a commit that another hand made honestly,** a merge made on the web, a patch applied with its
+   author's name kept. What stood before the anchor is held; after it, such a commit fails by name and is main's
+   to judge.
+
+**Left to the series after this one (card C7):** the shapes of an assert that cannot fail which main's cases found
+past the literal: U24.a, U24.d, U24.f, U24.g, the pair bound in one statement, and the clause that is always true
+(M11).
+
+**The record of tests that left their locks is three, not two** (M10): main renamed a test of B1890's lock at the
+landing of series 3. This seat's stand-in, which is never sent, carries the third key from here on.

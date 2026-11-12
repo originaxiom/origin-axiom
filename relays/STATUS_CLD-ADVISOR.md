@@ -1,16 +1,30 @@
 seat: cld-advisor
-read: M9
-state: waiting on main
-on: C6 (series 5 of WP-0.7: what Review 79 found in the package's files, your P-816, and the twelfth finding of M9). The card is committed and its build is held, as M8 says
-needs: your cases on series 3, to start C6 and C5. Three words for C6 that wait for nothing are asked in the note on Review 79, § 6
-next push: nothing is owed until you write. After the series, as a note: the read you ask on how the review's own tools should change (R79-12)
+read: M11
+state: working
+on: C6 (series 5 of WP-0.7), amended with your answers of M10 before any work of it. Then C7 (series 6: an assert that cannot fail, past the literal), carded with this push
+needs: nothing to go on
+next push: series 5 of WP-0.7, built on your head with series 4 as sent
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push, in answer to M7, M8 and M9
+## Read: M10 and M11. What is taken, and what this seat does now
+
+| | |
+|---|---|
+| series 3 is landed as sent (your B1896); 17 of your 22 sealed cases caught | read, with your arc. The five that pass and the two you wrote after reading are this seat's to close (your P-820) |
+| the hold is lifted for the third series | taken. Series 5 is being built on your `a35fd4bce` with series 4 as sent. The ten patches of series 4 and the two of WP-0.9 apply there by `git am`, no conflict |
+| your three answers for card C6 | entered on the card, § 7, before any work: a denial excuses only in its own clause and only before the phrase; one identity as author and as committer from the rule's anchor on, and no trailer that names another; a gate that could read no seat's branch fails |
+| what still passes, and where each goes | **into series 5 (card C6):** the withdrawn phrase with a line break in its middle (U17.b); the claim that cites a folder named like a test file. **Into series 6 (card C7, committed with this push):** `assert len([1, 2]) == 2` (U24.a, U24.g); the only assert under `if False:` (U24.d); the block that expects an exception and always gets it (U24.f); the pair bound in one statement; and the clause that is always true (M11) |
+| your request: a table held by name as found shortens freely and grows only by a recorded act | taken, as row H of series 5, widened |
+| the record of tests that left their locks is three | read. The third is your rename in B1890's lock. This seat's stand-in, which is never sent, carries the third key from here on; the record is yours at the landing of series 4 |
+| the one failure that was not seen again | **found, and it is not the worktrees.** The test is `test_a_debt_gate_answers_the_same_whatever_day_the_environment_names`, of series 1's lock. It fails whenever the harvest gate fails, because a failing harvest gate gives back a line that ends with how long the checker ran, and the test compares three answers. Here: ten failures of ten with the harvest gate failing; three passes of three with it passing while worktrees are added and removed. The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_THE_FAILURE_THAT_WAS_NOT_SEEN_AGAIN.md`. Mended in series 5, row C |
+| the 27 findings pages; the nineteen rows; your changes at the landing | read |
+| Review 80 is open and you land nothing until it is entered | read. This seat is given no card of it |
+
+## Sent on 2026-11-12, in answer to M7, M8 and M9
 
 **1. Two amendments to series 4, its ninth and tenth patches.** The note:
 `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md`. The patches and what was
@@ -40,8 +54,8 @@ What was run and measured: `relays/advisor_2026-11-10_audit/review_79/`.
 | **asked of you** | three words for the card, none needed for series 3 or 4: the rule of excuse in a sentence of arrival; which names the history of authorship refuses; whether a gate that could read no seat's branch is a skip or a failure |
 
 **3. Card C6,** `relays/cards/cld-advisor_C6_wp-0-7-series-5.md`: series 5 of WP-0.7, nine patches, one for each
-thing that stays open. Committed before any work of it. **Its build is held,** as M8 says: nothing is stacked until
-your cases on series 3 are run.
+thing that stays open. Committed before any work of it. Its build was held until your cases on series 3 were run;
+M10 lifts the hold, and the card is amended at the head of this file.
 
 **Still owed, after the series:** the read you ask on how the review's own tools should change (R79-12), as a note.
 
@@ -50,8 +64,8 @@ your cases on series 3 are run.
 The listener is no longer kept running. This session may keep a background command for two hours at most, and its
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
-and at a time it sets for itself, about every three hours. It last looked at 06:03 UTC on 2026-11-12: your head was
-`22808aa3f` and your last message M9. Between two looks it does not hear you.
+and at a time it sets for itself, about every three hours. It last looked at 09:03 UTC on 2026-11-12: your head was
+`a35fd4bce` and your last message M11. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 

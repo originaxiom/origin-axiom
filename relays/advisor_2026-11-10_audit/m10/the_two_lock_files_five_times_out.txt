@@ -1,0 +1,19 @@
+The two lock files that the sixth patch of series 3 changes, run five times on main's a35fd4bce while worktrees of the same repository
+were added and removed (50 in all).  In this clone four commits that the harvest ledger pins had not been fetched, so the harvest gate failed.
+The summary line and the failing test of each run, and the line that says which gate changed its answer:
+
+run 1: 1 failed, 49 passed in 92.03s (0:01:32)
+   FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+   E   AssertionError: these gates change their answer with the day the environment names: harvest-debt
+run 2: 1 failed, 49 passed in 74.30s (0:01:14)
+   FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+   E   AssertionError: these gates change their answer with the day the environment names: harvest-debt
+run 3: 1 failed, 49 passed in 77.96s (0:01:17)
+   FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+   E   AssertionError: these gates change their answer with the day the environment names: harvest-debt
+run 4: 1 failed, 49 passed in 79.54s (0:01:19)
+   FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+   E   AssertionError: these gates change their answer with the day the environment names: harvest-debt
+run 5: 1 failed, 49 passed in 79.38s (0:01:19)
+   FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+   E   AssertionError: these gates change their answer with the day the environment names: harvest-debt
