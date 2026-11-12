@@ -1,0 +1,5 @@
+P1  the difference, as sympy prints it: -cos(2*pi/7) + sin(3*pi/14)
+P1  equals(0): True
+P1  rewritten in exp and expanded: 0
+P1  sin(3 pi/14) - cos(2 pi/7), equals(0): True
+exit 0

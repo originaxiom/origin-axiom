@@ -1,0 +1,8 @@
+scratch clone at c40446392
+B   P is a swept phrase: True; Q is a swept phrase: True
+B   violations: 0 in all, 0 on the page of the case
+C0  violations: 1 in all, 1 on the page of the case; docs/PROBE_NOTE.md:1
+R1  violations: 0 in all, 0 on the page of the case
+R2  violations: 0 in all, 0 on the page of the case
+C1  violations: 1 in all, 1 on the page of the case; docs/PROBE_NOTE.md:1
+R3  violations: 0 in all, 0 on the page of the case

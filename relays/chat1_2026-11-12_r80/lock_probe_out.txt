@@ -1,0 +1,4 @@
+scratch clone at c40446392
+base the lock: 1 passed in 0.23s
+K0   the lock: 1 failed in 0.22s
+K1   the lock: 1 passed in 0.24s

@@ -1,0 +1,21 @@
+main at c40446392
+V   V0: reported as CANNOT-FAIL, TAUTOLOGY
+V   V1: reported as nothing
+V   V2: reported as nothing
+V   V3: reported as nothing
+V   V4: reported as nothing
+S   locks read: 1627; asserts that cannot fail by their own form: 7
+S   tests/test_b1011_mckay_tensor.py:72 test_the_forced_counts_and_the_value_sets -- an `or` with an operand true by itself
+S   tests/test_b355_weil_layer_independent.py:51 test_weil_divisibility_operator_level -- an `or` with an operand true by itself
+S   tests/test_b448.py:51 test_orbit_tower_fields -- an `or` with an operand true by itself
+S   tests/test_b674_route1.py:12 test_trace_silence_and_golden_rotation -- an `or` with an operand true by itself
+S   tests/test_b799_doors.py:48 test_b332_deck_element_is_hyperbolic_and_det_A_minus_I_is_minus_one -- an `or` with an operand true by itself
+S   tests/test_r28_10_stabilizations.py:101 test_golden_seed_eigenvalues_rank1 -- an `or` with an operand true by itself
+S   tests/test_w2_molien_cell.py:22 test_decisive_identities_exact -- an `or` with an operand true by itself
+G   G0: is in a module that may skip itself at import (pytest.importorskip('a_package_nobody_has'))
+G   G1: accepted as a control
+G   G2: accepted as a control
+G   G3: accepted as a control
+H   the held table has 26 names; the checker now finds none of them
+H   the gate passes: True; its sentence asks for the table to be shortened: False
+H   control, one of the 26 still found: the gate passes: True; its sentence asks for the table to be shortened: True
