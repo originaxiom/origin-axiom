@@ -980,7 +980,7 @@ def verify_b1890() -> dict:
     assert stages_in_json == ["clock", "dates", "export", "shallow"]
     reproduce_block = findings[findings.index("## Reproduce") :]
     assert "run_unseen.py clock" not in reproduce_block
-    assert 'f"unseen_{stage}.json"' in run_unseen_src and "unseen_cases_run.json" not in run_unseen_src
+    assert '"unseen_%s.json" % stage' in run_unseen_src and "unseen_cases_run.json" not in run_unseen_src
 
     u15_key = "U15.c the system's date + 400 days"
     dates_stub = unseen_json["dates"][u15_key]["stub says"]
