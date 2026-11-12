@@ -1,0 +1,1029 @@
+{
+  "batch": "V1 (part 1 of 4: rows 908-922)",
+  "card": "X-C1a",
+  "controls": {
+    "C1a_1_theorem_s_tick_control_passed": true,
+    "C1a_2_max_haar_basis_scrambling_drift": 1.4432899320127035e-15,
+    "C1a_2_oh_perturbation_and_haar_scrambling_passed": true,
+    "C1a_3_lemma_v_cusp_control_passed": true
+  },
+  "firewall": "0 of 19",
+  "rows": {
+    "908": {
+      "all_n1_zero": true,
+      "companions_checked": 27,
+      "lllr_flavor_group_orders": [
+        12,
+        12
+      ],
+      "max_min_n_mA": 2,
+      "method_label": "recomputed on another family of model",
+      "min_2_companions": [
+        "-LLLRR",
+        "-LLRLR",
+        "-LLLLRR",
+        "+LLLLLRR",
+        "+LLLLRRR",
+        "-LLLLLLLR",
+        "+LLLLLLRR"
+      ],
+      "named_decompositions": {
+        "+LLLR": {
+          "(0,0,0,0)": 4,
+          "(1,1,1,0)": 3,
+          "(3,3,3,0)": 1
+        },
+        "+LLRR": {
+          "(0,0,0,0)": 9,
+          "(2,2,2,0)": 6,
+          "(4,4,4,0)": 1
+        },
+        "-LLRR": {
+          "(0,0,0,0)": 37,
+          "(0,2,0,2)": 8,
+          "(2,2,2,0)": 168,
+          "(4,4,4,0)": 42,
+          "(8,8,8,0)": 1
+        },
+        "-LR": {
+          "(0,0,0,0)": 6,
+          "(1,1,1,0)": 15,
+          "(2,2,2,0)": 10,
+          "(5,5,5,0)": 1
+        }
+      },
+      "pinned_commit": "0d2694faf",
+      "result": "differs",
+      "room_3_states": {
+        "+LLLLRRR": 12,
+        "-LLRLR": 18
+      },
+      "room_4_states": {
+        "+LLLLLLRR": 9,
+        "-LLLLRR": 9
+      },
+      "row": 908,
+      "sign_characters_checked": 26158
+    },
+    "909": {
+      "covers": [
+        {
+          "companion_ends": 6,
+          "generation_shaped": 6,
+          "lattice": [
+            3,
+            1,
+            1
+          ],
+          "ord4_shapes": {
+            "(-1,0)": 12,
+            "(0,-1)": 12,
+            "(0,0)": 12
+          },
+          "sign_members": 6,
+          "state": "-LLR"
+        },
+        {
+          "companion_ends": 3,
+          "generation_shaped": 3,
+          "lattice": [
+            1,
+            0,
+            3
+          ],
+          "ord4_shapes": {
+            "(-1,0)": 6
+          },
+          "sign_members": 3,
+          "state": "+LLLR"
+        },
+        {
+          "companion_ends": 6,
+          "generation_shaped": 0,
+          "lattice": [
+            1,
+            0,
+            3
+          ],
+          "ord4_shapes": {
+            "(0,-1)": 12
+          },
+          "sign_members": 0,
+          "state": "+LLLRR"
+        },
+        {
+          "companion_ends": 12,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            0,
+            1
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "-LLRLR"
+        },
+        {
+          "companion_ends": 9,
+          "generation_shaped": 3,
+          "lattice": [
+            3,
+            1,
+            1
+          ],
+          "ord4_shapes": {
+            "(-1,0)": 6
+          },
+          "sign_members": 3,
+          "state": "-LLLLLR"
+        },
+        {
+          "companion_ends": 12,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            2,
+            1
+          ],
+          "ord4_shapes": {
+            "(0,-1)": 24
+          },
+          "sign_members": 0,
+          "state": "-LLLLRR"
+        },
+        {
+          "companion_ends": 9,
+          "generation_shaped": 0,
+          "lattice": [
+            1,
+            0,
+            3
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "+LLLRRR"
+        },
+        {
+          "companion_ends": 9,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            0,
+            1
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "+LLLRRR"
+        },
+        {
+          "companion_ends": 9,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            1,
+            1
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "+LLLRRR"
+        },
+        {
+          "companion_ends": 9,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            2,
+            1
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "+LLLRRR"
+        },
+        {
+          "companion_ends": 6,
+          "generation_shaped": 6,
+          "lattice": [
+            1,
+            0,
+            3
+          ],
+          "ord4_shapes": {
+            "(-1,0)": 12
+          },
+          "sign_members": 6,
+          "state": "+LLLLLLR"
+        },
+        {
+          "companion_ends": 12,
+          "generation_shaped": 0,
+          "lattice": [
+            3,
+            0,
+            1
+          ],
+          "ord4_shapes": {},
+          "sign_members": 0,
+          "state": "+LLLLRRR"
+        },
+        {
+          "companion_ends": 12,
+          "generation_shaped": 0,
+          "lattice": [
+            1,
+            0,
+            3
+          ],
+          "ord4_shapes": {
+            "(0,-1)": 24
+          },
+          "sign_members": 0,
+          "state": "+LLLLLLRR"
+        }
+      ],
+      "exact_three_generation_covers": [
+        "+LLLR",
+        "-LLLLLR"
+      ],
+      "method_label": "recomputed on another family of model",
+      "order_4_shape_totals": {
+        "(-1,0)": 36,
+        "(0,-1)": 72,
+        "(0,0)": 12
+      },
+      "pinned_commit": "0d2694faf",
+      "result": "the same",
+      "row": 909,
+      "sign_members_total_and_gen_shaped": [
+        18,
+        18
+      ],
+      "states_with_three_ended_covers": 10,
+      "three_ended_covers_count": 13
+    },
+    "910": {
+      "golden_map_cycles_three_parities": true,
+      "method_label": "recomputed on another family of model",
+      "pinned_commit": "0d2694faf",
+      "plr_generation_members_by_parity": {
+        "(0, 1)": 16,
+        "(1, 0)": 16,
+        "(1, 1)": 16
+      },
+      "result": "the same",
+      "row": 910,
+      "states": {
+        "+LLLR": {
+          "generation_shaped": 0,
+          "members": 0,
+          "orbits": []
+        },
+        "+LR": {
+          "generation_shaped": 48,
+          "members": 54,
+          "orbits": [
+            {
+              "count": [
+                1,
+                0
+              ],
+              "h1_r1_n": [
+                4,
+                0,
+                4
+              ],
+              "m_A": 0,
+              "order": 4,
+              "size": 3
+            },
+            {
+              "count": [
+                1,
+                0
+              ],
+              "h1_r1_n": [
+                4,
+                0,
+                4
+              ],
+              "m_A": 0,
+              "order": 4,
+              "size": 3
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                1,
+                0,
+                1
+              ],
+              "m_A": 0,
+              "order": 2,
+              "size": 12
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                1,
+                0,
+                1
+              ],
+              "m_A": 0,
+              "order": 2,
+              "size": 12
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                3,
+                2,
+                1
+              ],
+              "m_A": 2,
+              "order": 4,
+              "size": 6
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                3,
+                2,
+                1
+              ],
+              "m_A": 2,
+              "order": 4,
+              "size": 6
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                3,
+                2,
+                1
+              ],
+              "m_A": 2,
+              "order": 4,
+              "size": 6
+            },
+            {
+              "count": [
+                -1,
+                -1
+              ],
+              "h1_r1_n": [
+                3,
+                2,
+                1
+              ],
+              "m_A": 2,
+              "order": 4,
+              "size": 6
+            }
+          ]
+        },
+        "-LLLR": {
+          "generation_shaped": 0,
+          "members": 0,
+          "orbits": []
+        },
+        "-LR": {
+          "generation_shaped": 0,
+          "members": 6,
+          "orbits": [
+            {
+              "count": [
+                0,
+                -3
+              ],
+              "h1_r1_n": [
+                4,
+                0,
+                4
+              ],
+              "m_A": 0,
+              "order": 2,
+              "size": 6
+            }
+          ]
+        }
+      },
+      "total_member_orbits": 9,
+      "total_members": 60
+    },
+    "912": {
+      "all_pulled_back_from_N": true,
+      "breakdown_sign_n2_ord4_n1_ord4_n4": [
+        12,
+        24,
+        6
+      ],
+      "characters_order_div_4": 65536,
+      "intrinsic_spin_only_members": 0,
+      "member_orbits": [
+        {
+          "h1_r1_n": [
+            2,
+            0,
+            2
+          ],
+          "order": 2,
+          "pulled_back_from_N": true,
+          "size": 12
+        },
+        {
+          "h1_r1_n": [
+            3,
+            2,
+            1
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 6
+        },
+        {
+          "h1_r1_n": [
+            4,
+            0,
+            4
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 3
+        },
+        {
+          "h1_r1_n": [
+            3,
+            2,
+            1
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 6
+        },
+        {
+          "h1_r1_n": [
+            4,
+            0,
+            4
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 3
+        },
+        {
+          "h1_r1_n": [
+            3,
+            2,
+            1
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 6
+        },
+        {
+          "h1_r1_n": [
+            3,
+            2,
+            1
+          ],
+          "order": 4,
+          "pulled_back_from_N": true,
+          "size": 6
+        }
+      ],
+      "member_orbits_count": 7,
+      "members_total": 42,
+      "method_label": "recomputed on another family of model",
+      "orbits_under_2T": 2800,
+      "pinned_commit": "14480c59b",
+      "result": "the same",
+      "row": 912
+    },
+    "914": {
+      "computed_math_result": "the same",
+      "determinants": {
+        "-1": 24,
+        "1": 24
+      },
+      "element_orders": {
+        "1": 1,
+        "2": 19,
+        "3": 8,
+        "4": 12,
+        "6": 8
+      },
+      "empirical_firewall_reason": "Comparing TM1, TM2, and theta_13 = 0 against measured neutrino oscillation angles requires empirical data barred by the 0 of 19 firewall.",
+      "empirical_viability_clause_result": "cannot check",
+      "group_order": 48,
+      "involution_fixed_columns": {
+        "(0, 1/2, 1/2)": 6,
+        "(1/3, 1/3, 1/3)": 6,
+        "(1/6, 1/6, 2/3)": 6
+      },
+      "klein_pair_counts": {
+        "(('0', '1/3', '2/3'), ('1/2', '1/3', '1/6'), ('1/2', '1/3', '1/6'))": 36,
+        "(('1/3', '1/3', '1/3'), ('1/3', '1/3', '1/3'), ('1/3', '1/3', '1/3'))": 12
+      },
+      "klein_subgroup_counts": {
+        "democratic": 4,
+        "tri_bimaximal": 12
+      },
+      "method_label": "recomputed on another family of model",
+      "named_involution_columns": {
+        "L_shear": [
+          "0",
+          "1/2",
+          "1/2"
+        ],
+        "P": [
+          "1/6",
+          "1/6",
+          "2/3"
+        ],
+        "inner_a": [
+          "1/3",
+          "1/3",
+          "1/3"
+        ]
+      },
+      "pinned_commit": "c0ff37644",
+      "row": 914,
+      "seat_grade": "READING"
+    },
+    "915": {
+      "arithmetic_odd_trace_threads_to_12": [
+        "+LR",
+        "-LR"
+      ],
+      "computed_math_result": "the same",
+      "empirical_firewall_reason": "Section 3 compares TM1/TM2/TBM against JUNO and NuFIT oscillation measurements, barred under 0 of 19.",
+      "empirical_viability_clause_result": "cannot check",
+      "genesis_states_to_12_total_and_odd": [
+        758,
+        326
+      ],
+      "method_label": "recomputed on another family of model",
+      "pinned_commit": "e8406e52e",
+      "row": 915,
+      "seat_grade": "SYNTHESIS (theorems + computed thread counts + readings)",
+      "w1_words_to_8_total_and_odd": [
+        2554,
+        1308
+      ],
+      "w2_unique_markov_common_point": "[{x: 0, y: 0, z: 0}]"
+    },
+    "916": {
+      "any_member_on_all_three_parities": false,
+      "any_member_on_symmetry_fixed_parity": false,
+      "any_member_on_zero_parity": false,
+      "member_details": {
+        "+LLLLR": {
+          "by_parity": {
+            "(0, 1/2)": [],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "(1/2, 1/2)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(0, 1/2)"
+          ],
+          "resolving_tick": 2
+        },
+        "+LLR": {
+          "by_parity": {
+            "(0, 1/2)": [],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "(1/2, 1/2)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(0, 1/2)"
+          ],
+          "resolving_tick": 2
+        },
+        "+LLRR": {
+          "by_parity": {
+            "(0, 1/2)": [
+              {
+                "h1_r1_n": [
+                  1,
+                  0,
+                  1
+                ],
+                "kappa_twelfths": 6
+              }
+            ],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  1,
+                  0,
+                  1
+                ],
+                "kappa_twelfths": 6
+              }
+            ],
+            "(1/2, 1/2)": [],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(1/2, 0)",
+            "(0, 1/2)",
+            "(1/2, 1/2)"
+          ],
+          "resolving_tick": 1
+        },
+        "-LLLLR": {
+          "by_parity": {
+            "(0, 1/2)": [],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "(1/2, 1/2)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(0, 1/2)"
+          ],
+          "resolving_tick": 2
+        },
+        "-LLR": {
+          "by_parity": {
+            "(0, 1/2)": [],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "(1/2, 1/2)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 0
+              }
+            ],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(0, 1/2)"
+          ],
+          "resolving_tick": 2
+        },
+        "-LLRR": {
+          "by_parity": {
+            "(0, 1/2)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 6
+              }
+            ],
+            "(1/2, 0)": [
+              {
+                "h1_r1_n": [
+                  2,
+                  1,
+                  1
+                ],
+                "kappa_twelfths": 6
+              }
+            ],
+            "(1/2, 1/2)": [],
+            "zero": []
+          },
+          "fixed_tick1": [
+            "(1/2, 0)",
+            "(0, 1/2)",
+            "(1/2, 1/2)"
+          ],
+          "resolving_tick": 1
+        }
+      },
+      "method_label": "recomputed on another family of model",
+      "pinned_commit": "48e9c2200",
+      "result": "the same",
+      "row": 916,
+      "states_checked": 24,
+      "states_with_members": [
+        "+LLR",
+        "-LLR",
+        "+LLRR",
+        "-LLRR",
+        "+LLLLR",
+        "-LLLLR"
+      ]
+    },
+    "917": {
+      "fk7_clause_status": "principle_not_theorem_left_as_principle",
+      "gl2_z_box_matrices_checked": 744,
+      "method_label": "recomputed on another family of model",
+      "odd_threads_third_tick_separate_and_cycled": 326,
+      "own_tick_separate_and_cycled": 0,
+      "pinned_commits": [
+        "cecf33c11",
+        "6169c9716"
+      ],
+      "result": "the same",
+      "row": 917,
+      "states_to_12": 758,
+      "trichotomy_counts_3cycle_inv_id": [
+        326,
+        268,
+        164
+      ]
+    },
+    "918": {
+      "all_parity_lines_boundary_h1_1_n_0": true,
+      "interior_members_found": 0,
+      "method_label": "recomputed on another family of model",
+      "order_div_4_characters_read": 768,
+      "parity_lines_read": 72,
+      "pinned_commit": "7bd8eeed0",
+      "result": "the same",
+      "row": 918,
+      "states_checked": 24
+    },
+    "922": {
+      "method_label": "recomputed on another family of model",
+      "pinned_commit": "52c2f8db5",
+      "result": "the same",
+      "row": 922,
+      "threads": [
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            6,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            1024,
+            128,
+            54,
+            8
+          ],
+          "state": "+LR",
+          "trace": 3
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            6,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            6,
+            1
+          ],
+          "state": "-LR",
+          "trace": -3
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            729,
+            99,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            0,
+            0
+          ],
+          "state": "+LLLR",
+          "trace": 5
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            1024,
+            128,
+            0,
+            0
+          ],
+          "state": "-LLLR",
+          "trace": -5
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            4096,
+            416,
+            0,
+            0
+          ],
+          "state": "+LLLLLR",
+          "trace": 7
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            729,
+            99,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            0,
+            0
+          ],
+          "state": "-LLLLLR",
+          "trace": -7
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            0,
+            0
+          ],
+          "state": "+LLLRLR",
+          "trace": 13
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            729,
+            99,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            1024,
+            128,
+            0,
+            0
+          ],
+          "state": "-LLLRLR",
+          "trace": -13
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            729,
+            135,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            1024,
+            128,
+            0,
+            0
+          ],
+          "state": "+LLLRRR",
+          "trace": 11
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            0,
+            0
+          ],
+          "state": "-LLLRRR",
+          "trace": -11
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            4096,
+            416,
+            0,
+            0
+          ],
+          "state": "+LLRLRR",
+          "trace": 15
+        },
+        {
+          "ord3_chars_orbits_members_max_mA": [
+            81,
+            15,
+            0,
+            0
+          ],
+          "ord4_chars_orbits_members": [
+            256,
+            40,
+            0,
+            0
+          ],
+          "state": "-LLRLRR",
+          "trace": -15
+        }
+      ],
+      "threads_checked": 12,
+      "threads_with_members": [
+        "+LR",
+        "-LR"
+      ]
+    }
+  }
+}
