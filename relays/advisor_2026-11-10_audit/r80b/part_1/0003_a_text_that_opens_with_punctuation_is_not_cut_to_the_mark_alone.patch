@@ -1,0 +1,63 @@
+From 06b2bcc22cd16ae403e399694ae6bac89ba881b3 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 15:00:02 +0000
+Subject: [PATCH 3/3] R80b, part 1, patch 3 (cld-advisor, at main's word in
+ M14; Review 80, a reader's finding F10, its second part, WHICH MAIN HAS NOT
+ CHECKED: it was made again by the builder before it was mended): A TEXT THAT
+ OPENS WITH PUNCTUATION IS NOT CUT DOWN TO THE MARK ALONE.
+
+THE FINDING, MADE AGAIN on the commit before. The builder's function that cuts a sentence for a table's cell cuts at the last space within its length. A text that opens with punctuation and a space, and then holds a word longer than the cut, was cut at that first space. Five cases: a comma, then a long word gives the mark alone; so does a colon, a space, a long word and more words; so does punctuation alone, longer than the cut; a dash or an opening bracket, then a long word, gives the one character and the mark. A dash followed by ordinary words is cut at a word's end, as it should be.
+
+WHAT IS CHANGED. Where the cut keeps no letter and no digit, the text is cut at its length in characters, as a single long word already is. The old line stands in a dated note.
+
+THE CASES are in the lock's own test of the function: the five, and the twin, whose result is the same before and after. With the builder's file of the commit before, that test fails on the first of the five.
+
+No cell of the plan's page changes: the builder's output on this commit is the page of the commit before. The lock passes: 19 tests. 0 of 19.
+---
+ .../verification/build_programme.py                    | 10 +++++++++-
+ .../verification/test_b1861_the_closure_programme.py   |  8 ++++++++
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+
+diff --git a/frontier/B1861_the_closure_programme/verification/build_programme.py b/frontier/B1861_the_closure_programme/verification/build_programme.py
+index 937a7f40b..73bafa702 100644
+--- a/frontier/B1861_the_closure_programme/verification/build_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/build_programme.py
+@@ -642,7 +642,15 @@ def short(s, n=110):
+     head = s[:n + 1]                                   # one character more: a space there means the last word is whole
+     cut = head.rfind(" ")
+     head = head[:cut] if cut > 0 else s[:n]
+-    return head.rstrip(" ,;:") + " […]"
++    # CORRECTED 2026-11-12 (Review 80; a reader's finding F10, its second part).  The last line was
++    #     return head.rstrip(" ,;:") + " […]"
++    # A text that opens with punctuation and a space, and then holds a word longer than the cut, was cut at that first space:
++    # what was kept held no word, and came back as the mark alone, or as one dash and the mark.  Where the cut keeps no letter
++    # and no digit, the text is cut at n characters, as a single long word is.
++    kept = head.rstrip(" ,;:")
++    if not any(c.isalnum() for c in kept):
++        kept = s[:n].rstrip(" ,;:") or s[:n]
++    return kept + " […]"
+ 
+ 
+ def render(B):
+diff --git a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+index 574194607..b8bfa902e 100644
+--- a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+@@ -677,6 +677,14 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
+     for text in ("Given the unit, the chiral three is an index on the weave's own surface; the three lines carry a vector of units",) * 1:
+         out = bp.short(text, 60)
+         assert out.endswith(" […]") and text.startswith(out[:-4]) and text[len(out) - 4] == " "
++    # ADDED 2026-11-12 (Review 80; a reader's finding F10, its second part).  Each of the first five came back as the mark
++    # alone, or as one dash or one bracket and the mark, before the builder's correction of that day.
++    for text in (", " + "y" * 200, "— " + "y" * 200, "( " + "y" * 200, ",;:" * 60, ": " + "y" * 120 + " and more words"):
++        out = bp.short(text, 110)
++        assert out.endswith(" […]") and len(out) > 100 and text.startswith(out[:-4]), out
++    assert any(c.isalnum() for c in bp.short(", " + "y" * 200, 110))             # what is kept holds a word
++    dash = "— a sentence of ordinary words that goes on for longer than the cut allows, so that it must be cut at a word's end and marked"
++    assert bp.short(dash, 110) == "— a sentence of ordinary words that goes on for longer than the cut allows, so that it must be cut at a word's […]"   # a twin: unchanged
+     # MOVED 2026-11-12 (Review 80; the SM seat's finding 29).  Two lines stood here:
+     #     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+     #     assert "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page
+-- 
+2.43.0
+

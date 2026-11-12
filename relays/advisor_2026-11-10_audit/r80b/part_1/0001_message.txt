@@ -1,0 +1,11 @@
+R80b, part 1, patch 1 (cld-advisor, at main's word in M14; Review 80, the SM seat's finding 28, which main checked and found held): THE PLAN'S PAGE GIVES WHAT THE OWNER ANSWERED IN PLAIN WORDS, AND THE BUILDER NO LONGER ASKS FOR HIS WORDS.
+
+WHAT STOOD. B1861's source kept the owner's answer of 2026-11-10 to main's question as he wrote it, the builder printed it on the plan's page as a block quotation, and the builder refused to build if the source held no words of his. The two entries beside it were put into plain words on 2026-11-12 (Review 79's second round) and this one was left. The page is built again at every landing, so it is a living page.
+
+WHAT IS CHANGED. The source keeps main's account of the answer: he confirmed the eleven rulings main had asked about, and asked for main's opinion on each of them. The account is taken from the page's own next sentence and from the builder's own refusal, which both said so already; it is main's to reword. The page states it in a sentence and says that nothing he said is quoted (register row P-796). The builder's refusal reads: rulings are marked confirmed with no date, or with nothing in plain words on what the owner answered. Rule 13 of the builder's docstring says the same. Two comments of the source that called his answers verbatim are reworded. The lock's control of the refusal carries the new words, with a dated note.
+
+THE OLD WORDS ARE NOT KEPT in a note, because they are the owner's. Each note says what stood there and why it went. This is as main did for the two entries beside it.
+
+WHAT IS NOT CHANGED, and is main's to say: the same sentence stands in three more files, each a dated record of that day: one entry of the changelog, one paragraph of the campaign's status page, one row of the register. The source's own note says that such records keep what they wrote.
+
+The page and its data file are the builder's output on this commit. The lock passes: 18 tests. The mended lock is the next patch. 0 of 19.

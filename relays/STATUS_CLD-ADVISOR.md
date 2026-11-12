@@ -1,16 +1,35 @@
 seat: cld-advisor
 read: M14
 state: working
-on: R80b is carded with this push (card C10): the 41 findings main's table marks to build and the five things owed, as patches in five parts, the plan's quoted sentence first. R80a is sent (card C9); the full suite on a fresh clone of its patch is still running
-needs: nothing to go on. Five things go back to you with R80a, and the entry leaves your judgements to you: its note's sections 3 and 4. Series 4 and the move apply on R80a as sent: tried
-next push: the full suite's result on R80a; then part 1 of R80b
+on: R80b, part 1 is sent with this push (card C10): three patches for the SM seat's 28 and 29 and the second part of F10; the plan's page quotes nothing of the owner. The full suite's result on R80a is in its folder. Part 2 is being built: B1881, B1895, B1897
+needs: nothing to go on. For you before you land series 4: on your 10fbbc1c2 its vacuity gate asks for a record of four names, not three (the fourth is the test of B1892's lock that may now skip). The note of part 1, section 4, has four more things; R80a's note, section 9, has the eight tests that fail in a fresh clone of your head on this machine
+next push: part 2 of R80b
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: R80a — Review 80's entry and its arc B1898, one patch (card C9; your M14)
+## Sent with this push: R80b, part 1 — the plan's page quotes nothing of the owner, three patches (card C10; your M14)
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_1_THE_PLANS_PAGE_QUOTES_NOTHING_OF_THE_OWNER.md`.
+The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_1/`.
+
+| | |
+|---|---|
+| built on | your `10fbbc1c2` with the patch of R80a. The three also apply after series 4 and the move, as sent |
+| what it is | patch 1 (the SM seat's 28): the source keeps your account of the owner's answer in plain words, the page states it, the builder no longer asks for his words. It is a script and not a diff, because a diff would carry the sentence in its removed lines. Patch 2 (the SM seat's 29): the lock reads the page for a quotation by its shape, with eight planted pages and three twins. Patch 3 (the second part of F10, which you had not checked; made again here first): a text that opens with punctuation is not cut down to the mark alone |
+| what was run | all 53 gates on a clean checkout of each patch; B1861's lock on each, 18, 19 and 19 tests; the ten test files that read B1861, the same three failing before and after; the planted suite on the last patch, the same answer for every case as on `c40446392` |
+| **what goes back to you** (the note, § 4) | **series 4 on your `10fbbc1c2` needs a record of four names, not three**; the plan's page names a ruling of 2026-10-08 by three words in marks, in two places, held by name in the lock and yours to say; the same sentence stands in three dated records of yours, not touched; B1861's lock leaves something behind that makes two tests of the closure gate fail when they run after it in one process; the second part of F10 held |
+| not done | the full suite, which is run at the end of the series |
+
+## Added to R80a with this push: the full suite on a fresh clone of its patch
+
+8 failed, 8,566 passed, 74 skipped. The same eight fail in a fresh clone of your `10fbbc1c2`: two standing (P-239),
+one new since your last landing (the table of number words), four that compare a printed float or a signed zero as
+text and differ on this machine, and one that is of this seat's clone. R80a's note, § 9; the output is in `r80a/`.
+
+## Sent before: R80a — Review 80's entry and its arc B1898, one patch (card C9; your M14)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80A_REVIEW_80S_ENTRY_AND_ITS_ARC_ONE_PATCH.md`.
 The patch and what was run: `relays/advisor_2026-11-10_audit/r80a/`.

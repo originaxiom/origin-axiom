@@ -1,0 +1,43 @@
+WHAT WAS RUN ON THE THREE PATCHES OF R80b, PART 1 (2026-11-12)
+
+1. The lock of B1861, on a clean checkout of each patch, on 10fbbc1c2 with R80a
+   the commit before (R80a):  18 passed
+   patch 1:                   18 passed
+   patch 2:                   19 passed
+   patch 3:                   19 passed
+   about 30 seconds each on this machine. No test is skipped: this clone holds the revisions the lock reads.
+
+2. The reader of patch 2 on the plan's page of the commit before patch 1
+   what_the_plans_page_quotes(page) -> [(980, 'a block quotation')]
+   the two lines the lock had until patch 2, on the same page -> pass
+
+3. The finding F10, second part, made again on the commit before patch 3 (the function short, cut at 110)
+   a comma, then a word longer than the cut         -> ' […]'
+   a dash, then a word longer than the cut          -> '— […]'
+   an opening mark alone, then a long word          -> '( […]'
+   punctuation alone, longer than the cut           -> ' […]'
+   a colon, a space, a long word, then words        -> ' […]'
+   a twin: a dash, then words                       -> '— a sentence of ordinary words that goes on for longer than '
+   With the builder's file of the commit before and the lock of patch 3, the lock's test of the function fails on
+   the first of the five: the result is the mark alone, 4 characters, where more than 100 are asked.
+
+4. The ten test files that read B1861's page, its data file or its scripts, in one process
+   on R80a:              3 failed, 67 passed in 61.01s (0:01:01)
+   on the last patch:    3 failed, 68 passed in 57.81s
+   The same three fail on both:
+     FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+     FAILED tests/test_closure_generated.py::test_the_gate_is_green_on_this_repository
+     FAILED tests/test_closure_generated.py::test_a_stale_programme_is_refused_in_every_clone
+   B1866's compares a printed signed zero as text, and fails on this machine.
+   The two of the closure gate pass when their file is run alone (5 passed), on both commits. They fail when the lock
+   of B1861 has run before them in the same process: after it, the builder's output is no longer the committed page.
+   The lock of B1861 followed by tests/test_closure_generated.py, on R80a: 2 failed, 21 passed. After the locks of
+   B1873 or B1889 instead: all pass. So the lock of B1861 leaves something changed in the builder's source as loaded.
+   This is on main's head, not of these patches, and goes back to main.
+
+5. The tree
+   patch 1 is a script. Run on a clean checkout of R80a it stages five files and gives the tree
+   ca3baa7081978a643a848b84b0cf9713f1e2ca4a
+   committed with 0001_message.txt, and patches 2 and 3 applied by git am, the tree is
+   79f04e3090675f2cf8d54327465f988cc09d421b
+   which is the tree the builder made.

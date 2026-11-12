@@ -1,0 +1,122 @@
+planted-violation suite at refs/wp07/r80b-p1 (06b2bcc22)
+
+the 20 gates the cases name, on the clean clone: all pass
+
+CTL1  G1   CAUGHT        an UNCOMMITTED replacement of PROGRESS_LOG.md
+      append-only=FAIL
+CTL2  G2   CAUGHT        an edit to a digest-covered sealed file, commit
+      seal-digests=FAIL [edited frontier/B890_foreign_pair/PREREGISTRATION.md]
+CTL3  G9   CAUGHT        a vendor name in a new .md file, commit
+      attribution=FAIL
+CTL4  G10  CAUGHT        a banned phrase verbatim in README.md, commit
+      framing=FAIL
+CTL5  L7   CAUGHT        a test whose only assert is `assert True`, commit
+      test-vacuity=FAIL
+
+PV1   G1   CAUGHT        delete lines 200-400 of PROGRESS_LOG.md, commit
+      append-only=FAIL
+PV2   G1   CAUGHT        replace PROGRESS_LOG.md with one line, commit
+      append-only=FAIL
+PV3   G2   CAUGHT        append a criterion to B1841's PREREGISTRATION.md, commit
+      seal-digests=PASS; seal-provenance=PASS; seal-ledger-current=FAIL; seal-order-unshown=PASS
+PV4   G2   CAUGHT        delete a digest-covered sealed file, commit
+      seal-digests=PASS; seal-provenance=PASS; seal-ledger-current=FAIL [deleted frontier/B890_foreign_pair/PREREGISTRATION.md]
+PV6   G2   CAUGHT        hand-edit a generated sha8 in docs/SEAL_LEDGER.md, commit
+      seal-ledger-current=FAIL; seal-digests=PASS [sha8 b1198766 -> deadbeef]
+PV8   G4   CAUGHT        an arc whose seal is PREREG.md, first committed with FINDINGS.md
+      seal-order-unshown=FAIL
+PV10  G5   CAUGHT        delete IDENTIFICATION_BASELINE.json and add three UNEARNED rows
+      identification-register=FAIL
+PV11  G5   CAUGHT        delete docs/RETRACTED_PHRASES.md
+      retraction-sweep=FAIL
+PV12  G5   CAUGHT        delete every tests/test_b*.py
+      test-vacuity=FAIL
+PV13  G5   CAUGHT        empty LAW_MAP.md and THEOREM_LEDGER.md
+      law-map-provenance=FAIL; chain-locks=FAIL
+PV14  G14  CAUGHT        truncate one arc_verdict.json to invalid JSON
+      arc-data=FAIL [truncated frontier/B1001_four_digit_blindspot, which no arc depends on]
+PV16  G7   CAUGHT        point every gate control at a skipped trivial test
+      gate-controls=FAIL
+PV17  G8   CAUGHT        two retracted phrases (rows added after 2026-10-07) pasted into README.md
+      retraction-sweep=FAIL
+PV18  G9   CAUGHT        a commit message with a vendor co-author trailer
+      attribution=FAIL
+PV19  G9   CAUGHT        raise a baseline count and add that many tokens, same commit
+      attribution=FAIL
+PV20  G10  CAUGHT        a PROVEN row in CLAIMS.md that cites no lock
+      claims=FAIL
+PV21  G10  CAUGHT        a banned phrase in a .tex file and a capitalised variant in README.md
+      framing=FAIL
+PV24  L7   CAUGHT        a test whose only assert is `assert 1 != 2`
+      test-vacuity=FAIL
+PV5   G2   CAUGHT        edit a sealed file and write its new digest into both of the ledger's rows, commit
+      seal-immutable=FAIL; seal-digests=PASS; seal-ledger-current=PASS [the edit; its generated row moved from b1198766 to 7c5cc7a7; a dated row with the whole new digest]
+PV23  W1   NOT CAUGHT    a new NEGATIVE worded about the object, and an old one reworded so the count stays, commit
+      member-scope=PASS [8 such lines before, 8 after: B1157 reworded to name a member, B9003 added]
+PV25  L4   CAUGHT        an arc's own lock that reads a file git ignores, commit
+      tracked-deps=FAIL
+PV32  L4   NOT CAUGHT    a lock in tests/ that names an ignored file through a second name, commit
+      tracked-deps=PASS
+PV26  L6   NOT CAUGHT    a lock that runs a script and pins a float it prints, as text, commit
+      test-vacuity=PASS
+PV31  new  NOT CAUGHT    a test of a lock that no hash list names is made to skip, commit (M5)
+      test-vacuity=PASS [a skip mark on test_potential_derivative_is_the_golden_polynomial]
+PV33  M1   NOT CAUGHT    an arc the candidate runs on is graded a theorem and names no lock, commit
+      arc-data=PASS
+PV34  M1   NOT CAUGHT    a new arc with a grade that is not one of the five words, commit
+      arc-data=PASS
+PV35  M1   NOT CAUGHT    a new arc graded an exact computation, naming a script and a lock that are not there, commit
+      arc-data=PASS
+PV36  M1   NOT CAUGHT    a new arc graded a numerical estimate, naming a script and no output, commit
+      arc-data=PASS
+PV37  M1   NOT CAUGHT    a new arc graded sealed cells held, with more cells held than were sealed, commit
+      arc-data=PASS
+PV30  new  NOT CAUGHT    a sentence on the reviews' page that names the head as an anchor, commit
+      review-fires=PASS
+PV38  new  CAUGHT        a row in the page of moved pages whose page is not where the row says, commit
+      path-refs=FAIL
+
+PV5   twin PASSES       the amendment as a new file beside the seal, with its two rows
+      seal-immutable=PASS; seal-digests=PASS; seal-ledger-current=PASS
+PV23  twin PASSES       the same new NEGATIVE worded about the member
+      member-scope=PASS
+PV25  twin PASSES       the same lock reading a file that is committed
+      tracked-deps=PASS
+PV32  twin PASSES       the same lock reading a file that is committed
+      tracked-deps=PASS
+PV26  twin PASSES       the same lock comparing the number as a number
+      test-vacuity=PASS
+PV31  twin PASSES       the same lock edited with no mark
+      test-vacuity=PASS [a comment above test_potential_derivative_is_the_golden_polynomial]
+PV33  twin PASSES       the same arc graded a theorem and naming its own lock
+      arc-data=PASS
+PV34  twin PASSES       the same new arc graded a process
+      arc-data=PASS
+PV35  twin PASSES       the same, with the script and a lock that can fail in the commit
+      arc-data=PASS
+PV36  twin PASSES       the same, naming the script and its committed output
+      arc-data=PASS
+PV37  twin PASSES       the same, with seven of thirteen cells held
+      arc-data=PASS
+PV38  twin FAILS        the same row, with the page where the row says
+      path-refs=FAIL: 1 unresolved path citation(s): docs/MOVED.md -> docs/A_PLANTED_OLD_PLAN.md
+
+PV9   G5   CAUGHT        the gates on a `git archive` export (no .git). The ten git-dependent gates must not report
+      gates that still PASS with no git: none
+PV15  G6   CAUGHT        three date-reading gates at HEAD's commit date and 60 days later must agree.
+      on 2026-11-12 vs 2027-01-11 the result changes for: none
+PV22  G13  CAUGHT        on a depth-50 clone, a history-reading gate must say that the clone is shallow.
+      lead-debt on the shallow clone: FAIL (refused: this clone is shallow. This gate reads the history, and a history that is cut can)
+PV28  G6   NOT CAUGHT    three gates with the project's own variables set must print what they print without them.
+      with OA_REVIEW_MERGES, OA_POINT_REGISTER and OA_RETRACTIONS_LEDGER set, the line changes for: review-fires, point-debt, retraction-debt
+PV29  G5   NOT CAUGHT    on an export, with GIT_DIR pointing at a real clone, no git-dependent gate may report PASS
+      gates that PASS on an export when GIT_DIR points at a clone: append-only, attribution, harvest-debt, log-changelog-paired, path-refs, retraction-sweep, review-fires, test-vacuity, tracked-forbidden, views-fresh
+PV7   G3   CAUGHT        the seal ledger's generated rows, removed and rebuilt twice, must come out the same both t
+      432 generated rows removed; rebuilt: 432, then 432; rows that differ between the two runs: 0; the generator printed '432 rows; unrecorded single-commit 144; unrecorded amended 11', then '432 rows; unrecorded single-commit 144; unrecorded amended 11'; with the generator reading its own ledger again, 152 rows differ between the two runs
+PV27  L10  NOT CAUGHT    a test run that writes to a tracked file must end red, and name the file.
+      the run of a test that rewrites CHANGELOG.md ended with status 0 and does not name the file; the twin that writes under a temporary folder ended with status 0
+
+
+controls not reported CAUGHT: 0
+twins that do not pass: 1  -- THE CASE OF EACH SUCH TWIN IS NOT TO BE READ
+NOT CAUGHT: 13

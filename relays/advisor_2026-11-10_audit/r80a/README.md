@@ -22,5 +22,7 @@ and data of `frontier/B1883_where_we_stand/`. If main's head has moved, they are
 | `mains_checks_made_again_out.txt` | what each check main kept gave when it was made again, and where it differs |
 | `the_lock_of_b1898_against_planted_changes.py`, `…_out.txt` | the arc's lock and three gates against 17 planted changes, each put back by git: 17 caught |
 | `the_planted_suite_on_the_commit_read_out.txt` | the enforcement package's suite on `c40446392`: 5 of 5 controls, 24 of 37 cases read |
+| `the_full_suite_on_a_fresh_clone_of_the_patch_out.txt`, `the_eight_in_fresh_clones.py` | added after sending: the full suite by the review's tool on the patch, 8 failed and 8,566 passed; the eight run alone in a fresh clone of main's head and of the patch, where the same eight fail. The cover note's § 9 |
 
 Still to come in this folder: the full suite on a fresh clone of the patch, which was running when this was sent.
+*[Added 2026-11-12: it is here, in the table's last row.]*

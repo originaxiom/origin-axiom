@@ -1,0 +1,71 @@
+ALL 53 GATES ON A CLEAN CHECKOUT OF EACH PATCH OF R80b, PART 1
+
+Built on main's 10fbbc1c2 with the patch of R80a. Each gate is called from the checkout's own scripts/gates/gates.py.
+
+patch 1: 53 gates, 53 pass
+patch 2: 53 gates, 53 pass
+patch 3: 53 gates, 53 pass
+
+The three applied after the ten patches of series 4 and the move, as sent, with two local stand-ins for what main does
+at that landing (the spine page made again; main's record of the three tests that left their locks and of the one
+that may now skip):
+the last patch: 53 gates, 53 pass
+
+Without the second stand-in the vacuity gate is red there, on series 4 alone and before any patch of this part:
+3 tests left a lock (in the locks of B1882, B1885 and B1890) and 1 may now skip (in the lock of B1892), with no record.
+
+Every gate's line on the last patch, on 10fbbc1c2 with R80a:
+
+  identification-register      PASS  ok
+  framing                      PASS  ok (14667 text files read, in any letter case; not read: 22 above 5 MB, 246 that are not text; 4 that quote wh
+  claims                       PASS  ok (86 rows in the locked tables, 85 citing a lock; 1 held by name as found without one: P51)
+  firewall-oneway              PASS  []
+  append-only                  PASS  HEAD prefix preserved; 46 commit(s) since f31729801: 46 an append or a roll-up, 0 waived by name
+  atlas-fresh                  PASS  ok
+  arc-verdicts                 PASS  ok
+  attribution                  PASS  ok (784 commit(s) since da25c4f49 read: each by originaxiom, no vendor token and no co-author trailer in its m
+  tracked-forbidden            PASS  []
+  review-actions               PASS  ok (22 open in the latest block, advisory; carry chain continuous)
+  views-fresh                  PASS  ok
+  id-collisions                PASS  ok (1638 arcs, next free B1899)
+  arc-data                     PASS  ok (1600 verdict files; D1-D6 empty; 187 prose-only candidates reported)
+  knowledge-index              PASS  ok (27 explainers, all indexed)
+  path-refs                    PASS  ok (6598 citations resolve)
+  tracked-deps                 PASS  ok
+  test-vacuity                 PASS  ok (6541 tests, 0 vacuous; 97 both-literal for review; 381 more in the arcs' own locks, 0 vacuous; 26 in which
+  views-generated              PASS  ok (6 views current)
+  practices-register           PASS  ok (53 gates all registered)
+  seal-provenance              PASS  ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the 35 frozen before
+  seal-digests                 PASS  ok (46 sealed digests recomputed and matching)
+  theorem-registry             PASS  ok
+  lawmap-scope                 PASS  ok
+  retraction-sweep             PASS  ok (54 rows of the registry read: 46 swept, 8 that retract a reading and are not swept, 2 of them by name; 11 
+  representation-sweep         PASS  ok
+  doc-currency                 PASS  ok
+  doc-facts                    PASS  ok
+  relay-debt                   PASS  ok
+  retraction-debt              PASS  ok
+  harvest-debt                 PASS  ok within the 21 days -- UNREAD: sm +4 commit(s) past its pin, chat1 +1 commit(s) past its pin, advisor +5 com
+  lead-debt                    PASS  ok
+  point-debt                   PASS  point-debt: 834 points, 309 open -- 96 debts (oldest 30 days), 137 leads, 76 process; next debt P-355
+  inputs-scoreboard            PASS  inputs-scoreboard: 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed
+  seen-first                   PASS  ok
+  genesis-cited                PASS  ok
+  log-changelog-paired         PASS  ok (one progress log; changelog lag 0)
+  chain-locks                  PASS  ok (57 links, every non-AXIOM one locked)
+  law-map-provenance           PASS  ok (324 rows all traceable; 94 locked -- index, not ledger)
+  atlas-lexicon-current        PASS  ok (33 substantial blind, all triaged; 8 open GAPs: B1076, B1078, B1616, B1625, B1710, B1722, B899, B935; 19 t
+  supersession-backlinks       PASS  ok
+  review-fires                 PASS  16 merges since the last review (fires at 40)
+  carry-age                    PASS  ok
+  gate-controls                PASS  ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a call, no
+  review-core                  PASS  ok
+  seal-ledger-current          PASS  ok (432 sealed files listed, each row's hash recomputed)
+  seal-immutable               PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+  artifact-hashes              PASS  ok (2250 entries in 270 lists: 1829 verify, 421 do not (417 distinct, each frozen in the state it was found in
+  closure-generated            PASS  ok
+  arrival-phrases              PASS  ok (0 new on the pages read; 3 old line(s) frozen by key)
+  seal-order-unshown           PASS  ok (109 listed, at most 109; B1670's order shown off main)
+  pretense-phrases             PASS  ok (0 on living pages, baseline 0)
+  member-scope                 PASS  ok (8 on the record, baseline 8)
+  seat-positive-verified       PASS  ok (32 declared seat dependencies, all VERIFIED or REPRODUCED on main)

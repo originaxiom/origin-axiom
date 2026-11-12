@@ -1,0 +1,146 @@
+THE FULL SUITE ON A FRESH CLONE OF THE PATCH OF R80a (461fd7b1c), by the review's tool, four workers, 2026-11-12
+
+What it gave: 8 failed, 8,566 passed, 74 skipped, in 22 minutes 31 seconds.
+The same eight fail in a fresh clone of main's 10fbbc1c2, run alone (second part below). None is of the patch.
+
+  two    tests/test_b805_forcing.py: standing on main (register row P-239; so recorded at Reviews 78 and 79)
+  one    tests/test_b1425_determinism.py: main's table of number words stops short of the index's 97 rows
+  four   B1849, B1850, B1866 and tests/test_b1449_silent_receipts.py: each compares, as text, a float or a signed
+         zero that a process printed; the last digits and the signs of zero differ on this machine
+  one    tests/test_b1426_every_lane_is_watched.py: the clone is made from the builder's clone, whose scratch
+         branches it carries as branches of its origin. It is of this clone, and says nothing of main's repository
+
+== 1. the tool's line and its record
+
+fresh-clone suite: FAIL @ 461fd7b1c (8 failed, 8566 passed, 74 skipped, 6 warnings); failing: frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces, frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces, frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces, tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index, tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate, tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live, tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden, tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment
+{
+ "status": "FAIL",
+ "commit": "461fd7b1c",
+ "counts": {
+  "failed": 8,
+  "passed": 8566,
+  "skipped": 74,
+  "warnings": 6
+ },
+ "failing": [
+  "frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces",
+  "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces",
+  "frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces",
+  "tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index",
+  "tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate",
+  "tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live",
+  "tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden",
+  "tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment"
+ ]
+}
+minutes: 23.3
+
+== 2. the eight, run alone in one process, in a fresh clone of main's head and of the patch
+   (the_eight_in_fresh_clones.py, beside this file; the clone is made as the review's tool makes it)
+
+== in a fresh clone of 10fbbc1c2
+FFFFFFFF                                                                 [100%]
+=================================== FAILURES ===================================
+E   AssertionError: assert '200 random 3...nal texture\n' == '200 random 3...nal texture\n'
+      Skipping 98 identical leading characters in diff, use -v to show
+      Skipping 87 identical trailing characters in diff, use -v to show
+      - 3 at most 8.4e-16 of t
+      ?           ^ ^
+      + 3 at most 6.1e-16 of t
+      ?           ^ ^
+<the clone>/frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py:25: AssertionError: assert '200 random 3...nal texture\n' == '200 random 3...nal texture\n'
+E   AssertionError: assert 'w = bbabaAbb... pi_1(m003)\n' == 'w = bbabaAbb... pi_1(m003)\n'
+      Skipping 39 identical leading characters in diff, use -v to show
+      Skipping 92 identical trailing characters in diff, use -v to show
+      - p to sign 8.5e-15; control
+      ?           ^     ^
+      + p to sign 2.5e-14; control
+      ?           ^     ^
+<the clone>/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py:51: AssertionError: assert 'w = bbabaAbb... pi_1(m003)\n' == 'w = bbabaAbb... pi_1(m003)\n'
+E   AssertionError: assert 'Part 1. the ...f order 96)\n' == 'Part 1. the ...f order 96)\n'
+      Skipping 1636 identical leading characters in diff, use -v to show
+      Skipping 4109 identical trailing characters in diff, use -v to show
+      - : S_T^2 = +0+1i times 1; S_T^4 = -1+0i times 1; S_T^8 = +1-0i times 
+      ?           ^                        ^                      ^
+      + : S_T^2 = -0+1i times 1; S_T^4 = -1-0i times 1; S_T^8 = +1+0i times 
+      ?           ^                        ^                      ^
+<the clone>/frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py:21: AssertionError: assert 'Part 1. the ...f order 96)\n' == 'Part 1. the ...f order 96)\n'
+E   AssertionError: extend the number-words table: the index has 97 rows
+    assert 97 in {27: 'twenty-seven', 28: 'twenty-eight', 29: 'twenty-nine', 30: 'thirty', ...}
+     +  where 97 = len(['| B519\'s negative: "no external crossing" (read as sufficient) | B519 FINDINGS | RETRACTED — mixed-chain gap-openin... RETRACTED as inheritance — numerator-forced, not inherited | PROGRESS_LOG 2026-07 (the (5,1)-filling control) |', ...])
+<the clone>/tests/test_b1425_determinism.py:95: AssertionError: extend the number-words table: the index has 97 rows
+E   AssertionError: lane(s) outside the gate: [the builder's own scratch branches, which this clone carries as branches of its origin; the list is cut here]
+    assert not [the same list]
+<the clone>/tests/test_b1426_every_lane_is_watched.py:26: AssertionError: lane(s) outside the gate: [the builder's own scratch branches, which this clone carries as branches of its origin; the list is cut here]
+E   AssertionError: assert 'kappa(a,c) = -2.00000000+0.00000000j' in 'kappa(a,c) = -2.00000000-0.00000000j  (fiber basis iff -2)'
+<the clone>/tests/test_b1449_silent_receipts.py:53: AssertionError: assert 'kappa(a,c) = -2.00000000+0.00000000j' in 'kappa(a,c) = -2.00000000-0.00000000j  (fiber basis iff -2)'
+E   AssertionError: 945 arcs on no face -- attachment has regressed
+    assert 945 < (1615 // 2)
+     +  where 1615 = len({'B1000': {'dir': 'B1000_input_count', 'verdict': 'PROVED', 'instrument': False}, 'B1001': {'dir': 'B1001_four_digit_b... 'PROVED', 'instrument': False}, 'B1003': {'dir': 'B1003_axiom_prices', 'verdict': 'PROVED', 'instrument': False}, ...})
+<the clone>/tests/test_b805_forcing.py:49: AssertionError: 945 arcs on no face -- attachment has regressed
+E   AssertionError: assert 1451 > 3494
+     +  where 3494 = len([('B1000', 'B717'), ('B1000', 'B300'), ('B1000', 'B713'), ('B1000', 'B760'), ('B1000', 'B952'), ('B1000', 'B962'), ...])
+<the clone>/tests/test_b805_forcing.py:33: AssertionError: assert 1451 > 3494
+=========================== short test summary info ============================
+FAILED frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+FAILED tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+FAILED tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden - Assert...
+FAILED tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment
+8 failed in 13.32s
+== in a fresh clone of 461fd7b1c
+FFFFFFFF                                                                 [100%]
+=================================== FAILURES ===================================
+E   AssertionError: assert '200 random 3...nal texture\n' == '200 random 3...nal texture\n'
+      Skipping 98 identical leading characters in diff, use -v to show
+      Skipping 87 identical trailing characters in diff, use -v to show
+      - 3 at most 8.4e-16 of t
+      ?           ^ ^
+      + 3 at most 6.1e-16 of t
+      ?           ^ ^
+<the clone>/frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py:25: AssertionError: assert '200 random 3...nal texture\n' == '200 random 3...nal texture\n'
+E   AssertionError: assert 'w = bbabaAbb... pi_1(m003)\n' == 'w = bbabaAbb... pi_1(m003)\n'
+      Skipping 39 identical leading characters in diff, use -v to show
+      Skipping 92 identical trailing characters in diff, use -v to show
+      - p to sign 8.5e-15; control
+      ?           ^     ^
+      + p to sign 2.5e-14; control
+      ?           ^     ^
+<the clone>/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py:51: AssertionError: assert 'w = bbabaAbb... pi_1(m003)\n' == 'w = bbabaAbb... pi_1(m003)\n'
+E   AssertionError: assert 'Part 1. the ...f order 96)\n' == 'Part 1. the ...f order 96)\n'
+      Skipping 1636 identical leading characters in diff, use -v to show
+      Skipping 4109 identical trailing characters in diff, use -v to show
+      - : S_T^2 = +0+1i times 1; S_T^4 = -1+0i times 1; S_T^8 = +1-0i times 
+      ?           ^                        ^                      ^
+      + : S_T^2 = -0+1i times 1; S_T^4 = -1-0i times 1; S_T^8 = +1+0i times 
+      ?           ^                        ^                      ^
+<the clone>/frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py:21: AssertionError: assert 'Part 1. the ...f order 96)\n' == 'Part 1. the ...f order 96)\n'
+E   AssertionError: extend the number-words table: the index has 97 rows
+    assert 97 in {27: 'twenty-seven', 28: 'twenty-eight', 29: 'twenty-nine', 30: 'thirty', ...}
+     +  where 97 = len(['| B519\'s negative: "no external crossing" (read as sufficient) | B519 FINDINGS | RETRACTED — mixed-chain gap-openin... RETRACTED as inheritance — numerator-forced, not inherited | PROGRESS_LOG 2026-07 (the (5,1)-filling control) |', ...])
+<the clone>/tests/test_b1425_determinism.py:95: AssertionError: extend the number-words table: the index has 97 rows
+E   AssertionError: lane(s) outside the gate: [the builder's own scratch branches, which this clone carries as branches of its origin; the list is cut here]
+    assert not [the same list]
+<the clone>/tests/test_b1426_every_lane_is_watched.py:26: AssertionError: lane(s) outside the gate: [the builder's own scratch branches, which this clone carries as branches of its origin; the list is cut here]
+E   AssertionError: assert 'kappa(a,c) = -2.00000000+0.00000000j' in 'kappa(a,c) = -2.00000000-0.00000000j  (fiber basis iff -2)'
+<the clone>/tests/test_b1449_silent_receipts.py:53: AssertionError: assert 'kappa(a,c) = -2.00000000+0.00000000j' in 'kappa(a,c) = -2.00000000-0.00000000j  (fiber basis iff -2)'
+E   AssertionError: 946 arcs on no face -- attachment has regressed
+    assert 946 < (1616 // 2)
+     +  where 1616 = len({'B1000': {'dir': 'B1000_input_count', 'verdict': 'PROVED', 'instrument': False}, 'B1001': {'dir': 'B1001_four_digit_b... 'PROVED', 'instrument': False}, 'B1003': {'dir': 'B1003_axiom_prices', 'verdict': 'PROVED', 'instrument': False}, ...})
+<the clone>/tests/test_b805_forcing.py:49: AssertionError: 946 arcs on no face -- attachment has regressed
+E   AssertionError: assert 1451 > 3501
+     +  where 3501 = len([('B1000', 'B717'), ('B1000', 'B300'), ('B1000', 'B713'), ('B1000', 'B760'), ('B1000', 'B952'), ('B1000', 'B962'), ...])
+<the clone>/tests/test_b805_forcing.py:33: AssertionError: assert 1451 > 3501
+=========================== short test summary info ============================
+FAILED frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+FAILED tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+FAILED tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden - Assert...
+FAILED tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment
+8 failed in 19.29s

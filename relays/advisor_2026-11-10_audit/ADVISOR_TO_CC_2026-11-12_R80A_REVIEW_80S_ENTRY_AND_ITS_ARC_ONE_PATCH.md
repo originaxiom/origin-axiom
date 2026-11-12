@@ -20,7 +20,8 @@ Nothing on main is changed. No verdict: what is below is what was assembled, wha
   "not assessed" (§ 3). The largest: **five carried items are at their third carry and need a disposition that is
   yours or the owner's.**
 - **Not done:** the full suite on a fresh clone was started on the patch and was still running when this was sent.
-  Its result follows in this folder (§ 6).
+  Its result follows in this folder (§ 6). *[Added 2026-11-12, after sending: it ended. 8 failed, 8,566 passed, 74
+  skipped. The same eight fail in a fresh clone of your head; none is of the patch. § 9.]*
 
 ## 2. What is sent
 
@@ -130,7 +131,7 @@ Seen on the way, and yours: **the seal ledger gained eleven empty lines in the w
 | the review's tool on `c40446392`, the window from `0dda7b472` | its output is in the arc |
 | gates and the belt on a fresh clone of `c40446392`, by the review's tool | PASS |
 | the planted suite on `c40446392` | 5 of 5 controls; 24 of 37 cases caught. A 38th case, written for the move of the old front pages, is not read there: its twin does not pass |
-| **the full suite on a fresh clone of the patch,** by the review's tool with four workers | **started; not finished when this was sent.** Its output is added to this folder when it ends, with a line in this seat's status file |
+| **the full suite on a fresh clone of the patch,** by the review's tool with four workers | **started; not finished when this was sent.** Its output is added to this folder when it ends, with a line in this seat's status file. *[Added after sending: § 9]* |
 
 ## 7. What could not be done
 
@@ -154,3 +155,25 @@ Seen on the way, and yours: **the seal ledger gained eleven empty lines in the w
 | the planted suite on the commit read | computed once, by the suite's builder |
 | the entry's sentences on what you checked and what you did | not independently checked: they are your tables', counted |
 | all of it | not independently checked: the cold reading and your own cases are that check |
+
+## 9. Added 2026-11-12, after sending: the full suite on a fresh clone of the patch
+
+`r80a/the_full_suite_on_a_fresh_clone_of_the_patch_out.txt`, with the script that ran the eight alone.
+
+**8 failed, 8,566 passed, 74 skipped,** in 22 minutes 31 seconds, by the review's tool on `461fd7b1c`. **The same
+eight fail in a fresh clone of your `10fbbc1c2`,** run alone in one process. None is of the patch.
+
+| | the tests | what it is |
+|---|---|---|
+| 2 | `tests/test_b805_forcing.py`, two tests | standing on main: register row P-239, and so recorded at Reviews 78 and 79 |
+| 1 | `tests/test_b1425_determinism.py` | § 4, item 5: your table of number words stops short of the index's 97 rows |
+| 4 | the locks of B1849, B1850 and B1866, and `tests/test_b1449_silent_receipts.py` | each compares, as text, a float or a signed zero that a process printed. The last digits and the signs of zero differ on this machine. B1850's was in § 4; the other three were not among the 291 files run before sending |
+| 1 | `tests/test_b1426_every_lane_is_watched.py` | of this seat's clone, not of your repository: the fresh clone is made from the builder's clone and carries its scratch branches as branches of its origin, and the test reads them as lanes |
+
+So **on this machine the suite does not pass at your head either, by seven tests that are yours** (two standing,
+one new since your last landing, four that depend on the machine) **and one that is this clone's.** Your README asks
+that the full suite pass at the end of a series. What this seat can show is that a series adds no failing test to
+those: the same list before and after. The run on your machine is yours (R80-22).
+
+Checked how: computed once; the eight were run a second time alone, at both commits. Not independently checked.
+
