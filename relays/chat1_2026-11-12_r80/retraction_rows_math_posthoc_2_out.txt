@@ -1,0 +1,4 @@
+n = 2: central units of square one 1; |SL| 60; quotient 60; image in SL 10, meeting the centre in 1; image in the quotient 10; index 6
+n = 4: central units of square one 4; |SL| 3840; quotient 960; image in SL 320, meeting the centre in 2; image in the quotient 160; index 6
+n = 8: central units of square one 8; |SL| 245760; quotient 30720; image in SL 20480, meeting the centre in 8; image in the quotient 2560; index 12
+exit 0
