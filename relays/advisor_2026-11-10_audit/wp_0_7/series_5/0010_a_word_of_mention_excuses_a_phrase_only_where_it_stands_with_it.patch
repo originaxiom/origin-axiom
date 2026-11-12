@@ -1,0 +1,177 @@
+From d5e1ecf2d40fdf1aa5cc022de7d954a6bb5c7f43 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:32:29 +0000
+Subject: [PATCH 10/15] WP-0.7, enforcement (cld-advisor's series 5, patch 10;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4, the move of the old front pages and the
+ first nine of series 5 applied): A WORD OF MENTION EXCUSES A PHRASE ONLY
+ WHERE IT STANDS WITH IT (main's M13, its second item, from the first file of
+ Review 80). The sweep's own comment says a line is a mention if it carries a
+ word of mention near the phrase. What was read was the line: one such word
+ anywhere on it excused every phrase on it. A row of a table is one line, and
+ so is a paragraph of a running log, some of them four thousand characters
+ long. Main's case: a live sentence in one cell of a row and an unrelated word
+ of mention in the next was not reported. THE MEND: the word must stand in the
+ phrase's own cell, between the bars on either side of it; and on a line that
+ is not a row of a table it must also be within 200 characters of the phrase,
+ before or after. A row written without its first bar is read both ways. A
+ strike-through is taken off with the markup, so it is looked for on the line
+ as written. WHAT WAS MEASURED FIRST, on main's 5c7abd72a: 63 phrases stand on
+ a line that carries such a word. 22 are in a row of a table, each with the
+ word in its own cell, so the rule of the cell turns nothing red. Of the other
+ 41, 39 have the word within 150 characters. TWO LINES OF MAIN'S TURN RED, AND
+ THEY ARE MAIN'S TO MEND: docs/CAMPAIGN_STATUS.md, line 751, and
+ docs/retired/SUBMISSION_CAMPAIGN.md, line 214, hold one sentence, written on
+ 2026-09-17: that a lock passes alone and failed once under the load of a
+ 146-file run. The registry withdrew that reading: the failing set is
+ reproducible per seed and does not depend on load. The nearest word of
+ mention is 776 characters away and is about another matter, so the sweep has
+ excused the sentence since the day the phrase was registered. The two are not
+ held by name in this patch: a sentence that states a withdrawn reading live
+ is what the sweep is for. Until they are mended the gate is red on the
+ series, and with it the one test of this lock that reads this repository, and
+ main's tests that every gate passes. The sweep takes 3.9 seconds on this
+ machine where it took 5.5: it looks for a word of mention only on a line that
+ holds a phrase. WHAT IT DOES NOT REACH: an unrelated word of mention inside
+ the phrase's own cell, or within 200 characters of it in prose, still excuses
+ it. The lock: two tests added to tests/test_a_gate_reads_all_it_is_about.py.
+ On the commit before, both fail: the sweep passes on main's row, and on a
+ line where the only word of mention is more than 300 characters from the
+ phrase. Tested against planted errors; reproduced, main's case; computed
+ once. 0 of 19.
+
+---
+ scripts/checks/retraction_sweep.py         | 54 ++++++++++++++++++----
+ tests/test_a_gate_reads_all_it_is_about.py | 41 ++++++++++++++++
+ 2 files changed, 87 insertions(+), 8 deletions(-)
+
+diff --git a/scripts/checks/retraction_sweep.py b/scripts/checks/retraction_sweep.py
+index 3692f3080..1049c2f60 100644
+--- a/scripts/checks/retraction_sweep.py
++++ b/scripts/checks/retraction_sweep.py
+@@ -250,6 +250,40 @@ STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
+ }
+ 
+ 
++# WHERE A WORD OF MENTION MUST STAND (WP-0.7, series 5; main's M13, from the first file of Review 80).
++#
++# The comment over MENTION_CUES says a line is a mention if it carries such a word "near the phrase".  What was read was the
++# line: one such word anywhere on it excused every phrase on it.  A row of a table is one line, and so is a paragraph of a
++# running log, some of them four thousand characters long.  Main's case: a live sentence in one cell and an unrelated
++# "corrected" in the next was not reported.  The word must now stand WITH the phrase: in the phrase's own cell, between the
++# bars on either side of it; and, on a line that is not a row of a table, within MENTION_WITHIN characters of the phrase,
++# before or after.  Measured on main's 5c7abd72a: of 63 phrases that stood on a line with such a word, 22 are in a row of
++# a table, each with the word in its own cell; of the other 41, 39 have it within 150 characters, and two have it 776
++# characters away.  Those two are one sentence in two pages, and it states the withdrawn reading live.  The sweep reports
++# them from this patch on, and they are main's to mend.
++MENTION_WITHIN = 200
++
++
++def _cues_on(line, flat):
++    """where the words of mention stand on a flattened line, as (start, end).  A strike-through is taken off with the markup,
++    so it is looked for on the line as written and placed by the length of what stands before it, flattened."""
++    spans = [(m.start(), m.end()) for m in MENTION_CUES.finditer(flat)]
++    if "~~" in line:
++        spans += [(k, k) for k in (len(_flatten(line[:m.start()])) for m in re.finditer("~~", line))]
++    return spans
++
++
++def _with_a_mention(flat, start, end, cues, row):
++    """whether the phrase at flat[start:end] stands with a word of mention.  The word must stand in the phrase's own cell:
++    between the bar before the phrase and the bar after it, or on the whole line where it has none.  In a row of a table
++    (a line that begins with a bar) that is all; on any other line the word must also be within MENTION_WITHIN characters
++    of the phrase, so that a row written without its first bar is read as a row and as a line."""
++    a, b = flat.rfind("|", 0, start) + 1, flat.find("|", end)
++    b = len(flat) if b < 0 else b
++    cues = [(cs, ce) for cs, ce in cues if a <= cs and ce <= b]
++    return bool(cues) if row else any(max(0, cs - end, start - ce) <= MENTION_WITHIN for cs, ce in cues)
++
++
+ def sweep_all():
+     """(the live uses of a registered phrase that nothing allows, the standing instances that were met)"""
+     phrases = [(p, re.compile(re.escape(p), re.I)) for p in _phrases()]
+@@ -274,17 +308,21 @@ def sweep_all():
+         live = [(phrase, rx) for phrase, rx in phrases if phrase.lower() in flat_body]
+         if not live:
+             continue
++        found = []                                                    # (line, phrase), in the order they stand
+         for n, line in enumerate(body.split("\n"), 1):
+             flat = _flatten(line)
+-            mention = MENTION_CUES.search(line) or MENTION_CUES.search(flat)
+-            if mention:
++            hits = [(phrase, m) for phrase, rx in live for m in rx.finditer(flat)]
++            if not hits:
+                 continue
+-            for phrase, rx in live:
+-                if rx.search(flat):
+-                    if (rel, phrase) in STANDS_AS_FOUND:
+-                        met.add((rel, phrase))
+-                    else:
+-                        violations.append((rel, n, phrase))
++            cues, row = _cues_on(line, flat), line.lstrip().startswith("|")
++            for phrase, m in hits:
++                if not _with_a_mention(flat, m.start(), m.end(), cues, row) and (n, phrase) not in found:
++                    found.append((n, phrase))
++        for n, phrase in found:
++            if (rel, phrase) in STANDS_AS_FOUND:
++                met.add((rel, phrase))
++            else:
++                violations.append((rel, n, phrase))
+     return violations, met
+ 
+ 
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 643f90a5f..b54c856f0 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -429,6 +429,47 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
+     assert "by name" in detail and "shorten the table" not in detail
+ 
+ 
++# ---- series 5: a word of mention excuses a phrase only where it stands with it (main's M13) ----------------------------
++# The sweep's own comment says a line is a mention if it carries such a word "near the phrase".  What it read was the whole
++# line: one such word anywhere on it excused every phrase on it.  A row of a table is one line, and so is a paragraph of a
++# running log, some of them four thousand characters long (from the first file of Review 80).
++_FAR = "This paragraph was corrected in the spring, and what follows is a second matter. " + "And the work went on as it had. " * 9
++
++
++def test_a_word_of_mention_in_another_cell_of_the_row_does_not_excuse_the_phrase(tmp_path):
++    """the shape main planted: a live sentence in one cell, and an unrelated "corrected" in the next"""
++    row = "| what | note |\n|---|---|\n| We find that the lamp is always green in every run. | a second matter, corrected on Tuesday |\n"
++    repo = _sweep_repo(tmp_path, "cell", _REG_HEAD, {"docs/PAGE.md": "# A page\n\n" + row})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "a withdrawn phrase stands live in one cell and a word of mention in another, and the sweep passed: " + detail
++    assert "docs/PAGE.md" in detail
++    # the same row written without its first bar, which is a row all the same
++    bare = "what | note\n---|---\nWe find that the lamp is always green in every run. | a second matter, corrected on Tuesday\n"
++    repo = _sweep_repo(tmp_path, "no_first_bar", _REG_HEAD, {"docs/PAGE.md": "# A page\n\n" + bare})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "the same row without its first bar passed the sweep: " + detail
++    # the twin: the word stands in the phrase's own cell
++    own = "| what | note |\n|---|---|\n| the lamp is always green (withdrawn, see the registry) | a second matter |\n"
++    repo = _sweep_repo(tmp_path, "own_cell", _REG_HEAD, {"docs/PAGE.md": "# A page\n\n" + own})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is True, detail
++
++
++def test_a_word_of_mention_far_from_the_phrase_does_not_excuse_it(tmp_path):
++    assert len(_FAR) > 300
++    repo = _sweep_repo(tmp_path, "far", _REG_HEAD, {"docs/LOG.md": "# A log\n\n" + _FAR + "We find that the lamp is always green in every run.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "a withdrawn phrase stands live more than 300 characters from the only word of mention on its line, and the sweep passed: " + detail
++    assert "docs/LOG.md" in detail
++    # the twins: the word before the phrase, after it, and a phrase struck through
++    for name, text in (("before", _FAR + "It was formerly said that the lamp is always green in every run.\n"),
++                       ("after", "We said that the lamp is always green in every run *(withdrawn 2026-11-12: it is not)*.\n"),
++                       ("struck", "- what the lamp does: ~~the lamp is always green~~; it is green on Tuesdays\n")):
++        repo = _sweep_repo(tmp_path, name, _REG_HEAD, {"docs/LOG.md": "# A log\n\n" + text})
++        ok, detail = _gate(repo, "retraction-sweep")
++        assert ok is True, (name, detail)
++
++
+ # ---- PV16: the controls gate checked that a control's name is defined, and nothing of the control ----------------------
+ _CONTROL_OK = ("def test_the_gate_fails_on_a_planted_case():\n    answers = sorted([False, True])\n    assert answers[0] is False\n")
+ 
+-- 
+2.43.0
+

@@ -1,0 +1,385 @@
+From 30e0e14d4d2cf071358e2b1fcea2b30e0451cea9 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:51:09 +0000
+Subject: [PATCH 13/15] WP-0.7, enforcement (cld-advisor's series 5, patch 13;
+ row A of its card): A SENTENCE OF ARRIVAL IS READ AS A READER READS IT
+
+Review 79's two readers planted nine sentences of arrival against the gate `arrival-phrases`, and all nine passed
+(R79-SM-44, R79-SM-45, row 25 of main's table). Made again on the commit before this patch: the nine stand in the
+patch's test, and the reading that stood before, kept in the test, reports none of them.
+
+Four things let them through:
+  - a phrase was looked for as one run of characters on one line. "the Standard Model is now derived", and the
+    phrase with a line break inside it, were not found;
+  - a word of denial anywhere in the phrase's sentence excused it. "Without a single free parameter, the Standard
+    Model is derived." passed on "without", and "There is no doubt: all nineteen are derived." on "no";
+  - a word of aim was matched from its start and could run on, so "aimless" excused;
+  - the sentence's part before the phrase was cut to its last 160 characters before it was read, and the cut could
+    make "claim" into "aim".
+
+The rule is main's, from its M10 and M11, each the stricter option:
+  - a word of denial excuses a phrase only in the clause that carries the phrase, and only when it stands before
+    the phrase or inside it. A clause ends at a comma, a semicolon, a colon, a bracket or a dash. A clause that
+    begins with "that" is read with the clause before it;
+  - a word of condition excuses across its sentence;
+  - whole words only, and nothing cut.
+A phrase is read across white space, one line break and marks of emphasis, and with at most two words inside it.
+A place that two phrases fit is reported once.
+
+ONE READING IS THIS SEAT'S AND IS MAIN'S TO CHANGE: a word of aim is read as a word of denial is, in its own
+clause and before the phrase. Main's two messages name denial and condition and not aim. Read the other way,
+"After years of seeking, the Standard Model is derived." would pass.
+
+ONE ASSERTION OF A TEST OF MAIN'S IS CHANGED, with a dated note in the test
+(tests/test_arrival_phrases.py::test_the_advisor_seats_own_sentences_for_its_mend_of_the_same_gate): a sentence
+in brackets whose denial stands before a colon was asserted to pass. It has the shape of two of the nine, and is
+refused now. It stands on no page.
+
+On main's pages nothing moves: the three old lines keep their keys, because a key is still made as it was made;
+the four sentences that were excused are excused by a denial in their own clause; with words read inside a
+phrase, five more places are found, and each is excused by a denial or an aim in its own clause. None rests on a
+word of condition. The test holds this on the repository itself.
+
+What the reader still passes is held in the test, so that it is not met by surprise: the first of the nine with
+its comma taken out, a denial about something else in the phrase's own clause, a word of condition that states
+none, and other words than the sixteen phrases. What it refuses though it is honest is held there too: a denial
+two clauses back, and an aim before a colon with no "that" after it.
+
+Not checked by main. Tested against planted errors by the session that wrote it: the nine, with twins.
+---
+ docs/PRACTICES.md                          |   2 +-
+ scripts/gates/gates.py                     | 102 +++++++++++--
+ tests/test_a_gate_reads_all_it_is_about.py | 158 +++++++++++++++++++++
+ tests/test_arrival_phrases.py              |   8 +-
+ 4 files changed, 257 insertions(+), 13 deletions(-)
+
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index c703ef548..b058b55a3 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -39,7 +39,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
+ | A sealed-style file does not change after its seal: no commit edits, deletes or moves it; an amendment is a new file beside it; a repair is waived by commit and path with the owner's reason | **GATED** | `seal-immutable` — history, from `76a4ff388` (2026-11-10, B1864; the audit's G2). `seal-ledger-current` recomputes every generated row |
+ | What a seal hashed does not change after the seal: every entry of every tracked list of hashed files verifies against the tracked file it names, and a list is not edited, deleted or moved once committed; an amendment is a new list beside the old with the old entry named in the gate | **GATED** | `artifact-hashes` — the files' state on every run, and the lists' history from `270a27ee6` (2026-11-10, B1874; the advisor seat's second re-audit, its case s1). 63 entries that did not verify when the gate was written are frozen by key (`docs/ARTIFACT_HASHES_BROKEN.md`), a ceiling that may only shrink. **Widened 2026-11-11 (B1880; the seat's third re-audit, its cases t3, t4, t7):** a list is known by its content under any name (80 more lists, 750 entries); a name that could be read as more than one tracked file is refused; every entry that does not verify is frozen with the state it was found in (`scripts/gates/hash_lists_frozen.json`, 417 keys, its own hash pinned in the gate), so a frozen file that changes again fails; a list under another name cannot be edited, deleted or moved from `3e25c8ec3` on. Controls: `tests/test_artifact_hashes.py` (sixteen, each on a committed violation) |
+ | The closure map (B1858) and the closure programme (B1861) are generated files; a committed copy is always its builder's output (Review 77's R77-7, P-754) | **GATED** | `closure-generated` — both builders run on every push and each generated file is compared with the committed one; in a clone that lacks the seats' pinned revisions the programme is reported SKIP, never ok. Control: `tests/test_closure_generated.py` (a stale copy of a generated file is refused, for both builders) |
+-| The aim may be stated and arrival may not: no living page says or implies that a value, or the Standard Model, has been derived (GOVERNANCE.md § 1 and § 2 as amended at the owner's ruling, 2026-11-11) | **GATED** | `arrival-phrases` — the living pages are read for a sentence of arrival, with a window for a denial, a condition or a statement of aim; three old lines are frozen and the count may only shrink. Control: `tests/test_arrival_phrases.py` (the sentence added to the front page is refused). **Mended 2026-11-11 (B1880; the seat's fourth re-audit, r2, r3, r5, r6):** the excusing words are whole words (as first written "claim" passed for "aim"), they excuse only inside the sentence that carries the phrase, every tracked page under `docs/` at any depth and every `.tex` and `.md` under `papers/` is read, and the three old lines are frozen by key. It remains a tripwire for the sixteen phrases it lists: a sentence of arrival in other words passes |
++| The aim may be stated and arrival may not: no living page says or implies that a value, or the Standard Model, has been derived (GOVERNANCE.md § 1 and § 2 as amended at the owner's ruling, 2026-11-11) | **GATED** | `arrival-phrases` — the living pages are read for a sentence of arrival, with a window for a denial, a condition or a statement of aim; three old lines are frozen and the count may only shrink. Control: `tests/test_arrival_phrases.py` (the sentence added to the front page is refused). **Mended 2026-11-11 (B1880; the seat's fourth re-audit, r2, r3, r5, r6):** the excusing words are whole words (as first written "claim" passed for "aim"), they excuse only inside the sentence that carries the phrase, every tracked page under `docs/` at any depth and every `.tex` and `.md` under `papers/` is read, and the three old lines are frozen by key. It remains a tripwire for the sixteen phrases it lists: a sentence of arrival in other words passes. **Mended 2026-11-12 (WP-0.7, series 5; Review 79's R79-SM-44 and R79-SM-45, and row 25 of main's table):** nine sentences that two readers planted all passed. A phrase is now read across white space, one line break and marks of emphasis, and with at most two words inside it; a word of denial or of aim excuses only in the phrase's own clause and before the phrase, a word of condition across its sentence; the words of aim are whole forms; the sentence's part before the phrase is read whole and not cut to 160 characters. What it still passes is held in its test: a denial with no comma after it, and a denial about something else in the phrase's own clause |
+ | Every commit is authored `originaxiom`, and no commit message carries a vendor's name or a co-author trailer (WORKING_RULES rule 11; the owner's ruling R3) | **GATED** | `attribution` — besides the tracked files, every commit message after `da25c4f49` (2026-09-16, the last that carried one) is read; fails closed where that history is not in the clone. Control: `tests/test_attribution_history.py` (a trailer, a vendor's name and a foreign author, each committed in a small repository). **Widened 2026-11-11 (B1880; the seat's c3, c4):** every commit reachable from the tip is read, a commit that arrives by a merge too |
+ | No forbidden artifacts tracked (archives, CI config, surname-bearing files, loose relays) | **GATED** | `tracked-forbidden` |
+ | No AI labels, seat labels, or the owner's surname in public docs | **TESTED** | `tests/test_public_surface_scan.py` |
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 09fcfabad..96f9b5284 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -10,6 +10,7 @@ whitelists are explicit frozen constants in this file (auditable, versioned).
+ """
+ import ast
+ import base64
++import bisect
+ import collections
+ import datetime
+ import fnmatch
+@@ -3883,6 +3884,83 @@ ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither",
+ _ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:(?:not|no|never|without|none|nothing|neither|nor|cannot|whether|if|until|unless|sought|0 of 19|to be)(?![a-z0-9])"
+                              r"|(?:aim|goal|seek|would)[a-z']*)|n't(?![a-z0-9])")
+ _ARRIVAL_SENTENCE_END = re.compile(r"[.!?](?=[\s\"'*_)\]])|\n\s*\n|\n\s*(?:[-*+>]|\d+[.)])\s|\n\s*#+\s|\|")
++# Series 5 (2026-11-12): a sentence of arrival is read as a reader reads it.  Review 79's two readers planted nine sentences, and
++# all nine passed (R79-SM-44, R79-SM-45, row 25 of main's table).  Four things let them through, each kept above as it stood:
++#   - a phrase was looked for as one run of characters on one line: "the Standard Model is now derived" and "the Standard Model"
++#     with "is derived" on the next line were not found;
++#   - a word of denial anywhere in the phrase's sentence excused it: "Without a single free parameter, the Standard Model is
++#     derived." passed on "without", "There is no doubt: all nineteen are derived." on "no";
++#   - a word of aim was matched from its start and could run on: "aimless" excused;
++#   - the sentence's own part was cut to its last 160 characters before it was read, and the cut could make "claim" into "aim".
++# The rule, as main settled it (its M10 and M11, each the stricter option):
++#   - a word of DENIAL excuses a phrase only in the clause that carries the phrase, and only when it stands before the phrase
++#     or inside it.  A clause ends at a comma, a semicolon, a colon, a bracket or a dash.  A clause that begins with "that" is
++#     read with the clause before it ("Among its goals: that the values are derived.");
++#   - a word of CONDITION excuses across its sentence;
++#   - whole words only, and nothing cut: the words of aim are the whole forms below, and the sentence's own part is read whole.
++# A word of AIM is read as a word of denial is, in its own clause and before the phrase.  Main's two messages name denial and
++# condition and not aim; this is the stricter of the two readings, taken by the session that built it, and main's to change.
++# What this reader cannot see, said here: it reads a form of English.  With no comma the first of the nine still passes
++# ("Without a single free parameter the Standard Model is derived."), and so does a denial about something else that stands in
++# the phrase's own clause.  A sentence of arrival in other words than the listed phrases is not looked for, as before.
++_ARRIVAL_JOIN = r"[*_`]*(?:[ \t]+|[ \t]*\n[ \t>]*)[*_`]*"      # between two words: white space, or ONE line break (a quotation's mark with it), and marks of emphasis
++_ARRIVAL_WORD = r"[a-z0-9][a-z0-9'\u2019-]*"
++ARRIVAL_WORDS_INSIDE = 2                                       # at most this many words may stand between two words of a phrase
++_ARRIVAL_CLAUSE_END = re.compile(r"[,;:()]|\s-+\s|[\u2013\u2014]")
++_ARRIVAL_DENIAL = re.compile(r"(?<![a-z0-9])(?:not|no|never|without|none|nothing|neither|nor|cannot|0 of 19|to be)(?![a-z0-9])|(?<=[a-z])n['\u2019]t(?![a-z0-9])")
++_ARRIVAL_AIM = re.compile(r"(?<![a-z0-9])(?:aim|aims|aimed|aiming|goal|goals|seek|seeks|seeking|sought)(?![a-z0-9])")
++_ARRIVAL_CONDITION = re.compile(r"(?<![a-z0-9])(?:whether|if|until|unless|would)(?![a-z0-9])")
++_ARRIVAL_THAT = re.compile(r"[\s\"'\u201c\u201d\u2018\u2019*_`]*that(?![a-z0-9])")
++
++
++def _arrival_pattern(phrase, inside):
++    """the phrase with any white space or one line break between its words, and at most `inside` other words at each joint"""
++    gap = r"(?:%s%s){0,%d}" % (_ARRIVAL_JOIN, _ARRIVAL_WORD, inside)
++    return re.compile((gap + _ARRIVAL_JOIN).join(re.escape(w) for w in phrase.split(" ")))
++
++
++def _arrival_flat(text):
++    return re.sub(r"\s+", " ", text)
++
++
++def arrival_excuse(before, phrase, after=""):
++    """(the word that excuses, its kind) for a phrase of arrival, or None.  `before` and `after` are the parts of the phrase's own
++    sentence on either side of it, each whole; `phrase` is the phrase as it stands, with any word that stands inside it."""
++    before, phrase, after = (_arrival_flat(t.lower()) for t in (before, phrase, after))
++    m = _ARRIVAL_CONDITION.search(before + " " + phrase + " " + after)
++    if m: return m.group(0), "condition"
++    parts = []; at = 0
++    for c in _ARRIVAL_CLAUSE_END.finditer(before):
++        parts.append(before[at:c.start()]); at = c.end()
++    own = before[at:]
++    while parts and _ARRIVAL_THAT.match(own):          # "Among its goals: that the values are derived."
++        own = parts.pop() + " " + own
++    for rx, kind in ((_ARRIVAL_DENIAL, "denial"), (_ARRIVAL_AIM, "aim")):
++        m = rx.search(own + " " + phrase)
++        if m: return m.group(0), kind
++    return None
++
++
++def arrival_places(low, phrases=None, inside=None):
++    """every place a phrase of arrival stands in the lower-cased text `low`: (start, end, the phrase, the words inside it, the
++    sentence's part before it, the phrase as it stands, the sentence's part after it).  A place that two phrases fit is given
++    once, to the phrase that fits it with the fewest words inside."""
++    phrases = ARRIVAL_PHRASES if phrases is None else phrases
++    inside = ARRIVAL_WORDS_INSIDE if inside is None else inside
++    marks = list(_ARRIVAL_SENTENCE_END.finditer(low))
++    ends = [0] + [e.end() for e in marks]; starts = [e.start() for e in marks] + [len(low)]
++    taken = []; out = []
++    for n in range(inside + 1):
++        for p in phrases:
++            for m in _arrival_pattern(p, n).finditer(low):
++                s, e = m.span()
++                if any(s < b and a < e for a, b in taken): continue
++                taken.append((s, e))
++                extra = len(re.findall(_ARRIVAL_WORD, re.sub(r"[*_`]", "", low[s:e]))) - len(re.findall(_ARRIVAL_WORD, p))
++                out.append((s, e, p, extra, low[ends[bisect.bisect_right(ends, s) - 1]:s], low[s:e], low[e:starts[bisect.bisect_left(starts, e)]]))
++    return sorted(out)
++
++
+ ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
+                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
+ ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
+@@ -3933,17 +4011,19 @@ def arrival_sentences(root=None):
+         except OSError:
+             unread.append(rel)           # until series 5 a page that could not be read was passed over
+             continue
+-        for p in ARRIVAL_PHRASES:
+-            for m in re.finditer(re.escape(p), low):
+-                before = low[max(0, m.start() - 400):m.start()]
+-                ends = [e.end() for e in _ARRIVAL_SENTENCE_END.finditer(before)]
+-                own = re.sub(r"\s+", " ", before[ends[-1]:] if ends else before[-64:])        # the phrase's own sentence, up to the phrase
+-                if _ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): continue      # a denial, a condition or a statement of aim, in its own sentence
+-                after = low[m.end():m.end() + 200]
+-                stop = _ARRIVAL_SENTENCE_END.search(after)
+-                sentence = (own[-160:] + p + re.sub(r"\s+", " ", after[:stop.start()] if stop else after[:64])).strip()
+-                key = hashlib.sha256(("%s|%s|%s" % (rel, p, sentence)).encode("utf-8")).hexdigest()[:12]
+-                out.append((key, rel, p, sentence))
++        # until series 5: `for m in re.finditer(re.escape(p), low)`, and `if _ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): continue`
++        for start, end, p, extra, whole_before, as_it_stands, whole_after in arrival_places(low):
++            if arrival_excuse(whole_before, as_it_stands, whole_after): continue      # a denial or an aim in its own clause, or a condition in its sentence
++            # the key is made as it was made before series 5, so that a line frozen by key keeps its key: from the 160 characters
++            # before the phrase and what follows it to the sentence's end.  A phrase with a word inside it is keyed as it stands.
++            before = low[max(0, start - 400):start]
++            ends = [e.end() for e in _ARRIVAL_SENTENCE_END.finditer(before)]
++            own = re.sub(r"\s+", " ", before[ends[-1]:] if ends else before[-64:])
++            after = low[end:end + 200]
++            stop = _ARRIVAL_SENTENCE_END.search(after)
++            sentence = (own[-160:] + (p if not extra else _arrival_flat(as_it_stands)) + re.sub(r"\s+", " ", after[:stop.start()] if stop else after[:64])).strip()
++            key = hashlib.sha256(("%s|%s|%s" % (rel, p, sentence)).encode("utf-8")).hexdigest()[:12]
++            out.append((key, rel, p, sentence))
+     if unread:
+         raise ArrivalUnread("%d page(s) the rule reads could not be read: %s" % (len(unread), ", ".join(unread[:4])))
+     return out
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 7ad93df17..6342d8b1b 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -1378,3 +1378,161 @@ def test_on_this_repository_nine_tables_are_held_and_one_name_entered_by_a_recor
+         assert g._names_of(getattr(module, table), kind) == written, table
+     ok, detail = g.GATES["gate-controls"]()
+     assert ok is True and "by a recorded act" in detail, detail
++
++
++# ---- series 5: a sentence of arrival is read as a reader reads it (Review 79: R79-SM-44, R79-SM-45, the second reader's row 25) ----
++# The rule is main's (its M10 and M11): a word of denial excuses a phrase of arrival only in the phrase's own clause, and only
++# before the phrase; a word of condition excuses across its sentence; whole words only, and nothing cut.
++
++def _fill(n):
++    """n characters of plain words, each after one space"""
++    words = {0: "", 1: " ", 2: " a", 3: " so", 4: " and", 5: " then", 6: " again", 7: " indeed", 8: " so then", 9: " and then",
++             10: " again and", 11: " again then", 12: " again again", 13: " indeed again"}
++    return " indeed" * ((n - n % 7) // 7 - 1) + words[n % 7 + 7] if n >= 14 else words[n]
++
++
++def _cut_at_the_160th():
++    """one sentence in which the 160 characters before the phrase begin inside the word "claim", at its "aim" """
++    head = " with care, after long work in every sector and at every scale, for each field and each coupling,"
++    between = head + _fill(157 - len(head) - len(" that ")) + " that "
++    assert len(between) == 157
++    return "We claim" + between + "the Standard Model is derived."
++
++
++_THE_READERS_NINE = (                      # as each reader of Review 79 planted it; each passed the gate
++    "Without a single free parameter, the Standard Model is derived.",                # R79-SM-44: a denial in another clause
++    "No longer a hope: the Standard Model is derived.",
++    "Not only the gauge group: the standard model is derived.",
++    "As of this arc the Standard Model is now derived.",                              # R79-SM-45: a word inside the phrase
++    "As of this arc the Standard Model\nis derived.",                                 # R79-SM-45: a line break inside it
++    "Without question, the Standard Model is derived.",                               # row 25
++    "There is no doubt: all nineteen are derived.",
++    "After years of aimless search, the Standard Model is derived.",                  # row 25: a word of aim that runs on
++    _cut_at_the_160th(),                                                              # row 25: "claim" cut to "aim"
++)
++
++
++def _reported_as_it_was_read_before(g, text):
++    """the reading that stood before series 5, kept here to show what it passed: the phrase as one run of characters, and any
++    excusing word in the last 160 characters of its sentence before it"""
++    import re
++    low = ("# A page\n\n" + text + "\n").lower(); n = 0          # as it stands on a page, under its heading
++    for p in g.ARRIVAL_PHRASES:
++        for m in re.finditer(re.escape(p), low):
++            before = low[max(0, m.start() - 400):m.start()]
++            ends = [e.end() for e in g._ARRIVAL_SENTENCE_END.finditer(before)]
++            own = re.sub(r"\s+", " ", before[ends[-1]:] if ends else before[-64:])
++            if not g._ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): n += 1
++    return n
++
++
++def _arrival_on(g, tmp_path, text, name="docs/A_PAGE.md"):
++    root = tmp_path / ("p%d" % len(list(tmp_path.iterdir())))
++    page = root / name
++    page.parent.mkdir(parents=True)
++    page.write_text("# A page\n\n" + text + "\n", encoding="utf-8")
++    return g.arrival_hits(str(root))
++
++
++def test_the_nine_sentences_of_arrival_that_the_readers_planted_are_each_refused(tmp_path):
++    g = _gates()
++    assert _reported_as_it_was_read_before(g, "The Standard Model is derived.") == 1          # the reading kept here does report the bare sentence
++    for sentence in _THE_READERS_NINE:
++        assert _reported_as_it_was_read_before(g, sentence) == 0, "this one was reported before series 5 and is not a case of it: " + sentence
++        hits = _arrival_on(g, tmp_path, sentence)
++        assert len(hits) == 1 and hits[0][2] == 1, "a sentence of arrival that a reader planted is not refused: %r -> %r" % (sentence, hits)
++    assert _arrival_on(g, tmp_path, "The Standard Model is derived.")                           # the control of the card: the bare sentence stays caught
++    ok, detail = g.gate_arrival_phrases(_root=str(tmp_path / "p0"), _baseline=0)
++    assert ok is False and "the standard model is derived" in detail, detail
++
++
++def test_an_honest_sentence_of_denial_of_aim_or_of_condition_still_passes(tmp_path):
++    """the twins: each holds a phrase of arrival, and a word that excuses it where the rule asks the word to stand"""
++    g = _gates()
++    for sentence, kind in (
++            ("No value of the Standard Model is derived: none of its nineteen parameters.", "denial"),       # the form of the four that stand on main
++            ("0 of 19: no value of the Standard Model is derived, and the paper says so.", "denial"),
++            ("A goal says what is sought, and no page may say that the Standard Model has been derived.", "denial"),
++            ("The Standard Model is not derived.", "denial"),                                           # the denial stands inside the phrase
++            ("The Standard Model is not yet derived.", "denial"),
++            ("This is not a parameter-free Standard Model, and it is not a theory of everything.", "denial"),
++            ("The Standard Model\nis not derived.", "denial"),                                         # over a line break
++            ("We do not claim, in this paper or in any other, that the Standard Model is derived.", None),   # see the next test: refused
++            ("Among its goals: that the values are derived.", "aim"),                                   # a clause that begins with "that"
++            ("The programme's only goal is a parameter-free theory of everything.", "aim"),             # a phrase with a word inside it, and its aim
++            ("If the bridge holds, then, and only then, the Standard Model is derived.", "condition"),  # a condition, three clauses back
++            ("The Standard Model is derived only if the bridge holds.", "condition"),                   # a condition after the phrase
++            ("Whether the Standard Model is derived from one object is the open question.", "condition")):
++        if kind is None: continue
++        assert _arrival_on(g, tmp_path, sentence) == [], "an honest sentence is refused: " + sentence
++        place = g.arrival_places(sentence.lower())
++        assert len(place) == 1, sentence
++        assert g.arrival_excuse(place[0][4], place[0][5], place[0][6])[1] == kind, sentence
++
++
++def test_what_the_rule_refuses_though_it_is_honest_and_what_it_passes_though_it_is_not(tmp_path):
++    """The rule reads a form of English and is strict on purpose.  Both ways it can be wrong are held here, so that neither is
++    met by surprise.  An honest sentence that is refused is rewritten, by main's word, and the rule is not loosened for it."""
++    g = _gates()
++    for honest_and_refused in (
++            "We do not claim, in this paper or in any other, that the Standard Model is derived.",      # the denial is two clauses back
++            "(Not yet: the Standard Model is derived only in the sense of its grammar.)",               # the denial is before a colon
++            "Our aim, stated once more: the Standard Model is derived from one object."):               # the aim is before a colon, and no "that"
++        assert _arrival_on(g, tmp_path, honest_and_refused), honest_and_refused
++    for not_honest_and_passed in (
++            "Without a single free parameter the Standard Model is derived.",                           # the first of the nine, with no comma
++            "It is not a guess and the Standard Model is derived.",                                     # a denial about something else, in the same clause
++            "The Standard Model is derived, whether one likes it or not.",                              # a word of condition that states none
++            "All nineteen parameters now follow from the object with no free input."):                  # other words than the listed phrases
++        assert _arrival_on(g, tmp_path, not_honest_and_passed) == [], not_honest_and_passed
++
++
++def test_a_phrase_is_read_across_one_line_break_through_marks_and_not_across_a_paragraph(tmp_path):
++    g = _gates()
++    for sentence in ("The **Standard Model** is derived.", "The Standard Model is *now* derived.", "> The Standard Model\n> is derived.",
++                     "the   standard\tmodel is derived", "The Standard Model has now been fully derived."):
++        assert len(_arrival_on(g, tmp_path, sentence)) == 1, sentence
++    for sentence in ("The Standard Model\n\nis derived by nobody.",                    # a paragraph ends between them
++                     "- the Standard Model\n- is derived from data\n",                # two items of a list
++                     "The Standard Model. Is derived from data what we want?",        # two sentences
++                     "The Standard Model is one two three derived."):                 # three words inside: more than the rule reads as one phrase
++        assert _arrival_on(g, tmp_path, sentence) == [], sentence
++    assert g.ARRIVAL_WORDS_INSIDE == 2
++
++
++def test_a_place_that_two_phrases_fit_is_reported_once(tmp_path):
++    g = _gates()
++    hits = _arrival_on(g, tmp_path, "All nineteen are derived.")                     # "all nineteen are derived", and "all nineteen derived" with a word inside
++    assert hits == [("docs/A_PAGE.md", "all nineteen are derived", 1)], hits
++    hits = _arrival_on(g, tmp_path, "All nineteen are now derived.")
++    assert len(hits) == 1 and hits[0][2] == 1, hits
++
++
++def test_the_whole_of_the_sentence_before_the_phrase_is_read_and_no_word_is_cut(tmp_path):
++    g = _gates()
++    long_and_honest = "We do not say" + _fill(400) + " that the Standard Model is derived."      # the denial stands 400 characters before the phrase
++    assert "," not in long_and_honest and _arrival_on(g, tmp_path, long_and_honest) == []
++    assert _reported_as_it_was_read_before(g, long_and_honest) == 1                    # before: the denial was past the 160 characters, and an honest sentence was refused
++    for word in ("aimless", "goalless", "seeker", "nothingness", "notable", "ifs", "wouldbe", "untilled"):
++        assert _arrival_on(g, tmp_path, "In a %s way the Standard Model is derived." % word), word
++    for word in ("aims", "aimed", "aiming", "goals", "seeks", "seeking", "sought", "isn't", "doesn’t", "cannot"):
++        assert g.arrival_excuse("it %s to show that " % word, "the standard model is derived"), word
++
++
++def test_on_this_repository_the_arrival_gate_reads_as_it_did_and_every_other_place_is_excused_in_its_own_clause():
++    g = _gates()
++    ok, detail = g.gate_arrival_phrases()
++    assert ok is True and "3 old line(s) frozen by key" in detail, detail             # the three keys are the keys they were
++    places = []
++    for rel in g._arrival_files(str(ROOT)):
++        if rel in g.ARRIVAL_EXEMPT: continue
++        low = (ROOT / rel).read_text(encoding="utf-8", errors="replace").lower()
++        places += [(rel, p, extra, g.arrival_excuse(before, as_it_stands, after)) for _, _, p, extra, before, as_it_stands, after in g.arrival_places(low)]
++    not_excused = sorted(rel for rel, _, _, why in places if why is None)
++    assert not_excused == ["docs/CLOSURE_MASTERPLAN.md", "docs/THE_STATE_2026-09-06.md", "docs/WHAT_WOULD_COUNT.md"], not_excused
++    excused = [(rel, p, extra, why) for rel, p, extra, why in places if why is not None]
++    assert len(excused) >= 4 and all(kind in ("denial", "aim") for _, _, _, (_, kind) in excused), excused      # none rests on a word of condition
++    for rel in ("papers/P9_what_a_grammar_fixes/README.md", "papers/P9_what_a_grammar_fixes/tex/sections/abstract.tex",
++                "papers/P9_what_a_grammar_fixes/tex/sections/s01_introduction.tex", "docs/views/VERDICT_LEDGER.md"):
++        mine = [(p, extra, why) for r, p, extra, why in excused if r == rel and extra == 0]
++        assert mine and all(why[1] == "denial" for _, _, why in mine), "one of the four sentences that were excused on main before series 5 reads otherwise: %s %r" % (rel, mine)
+diff --git a/tests/test_arrival_phrases.py b/tests/test_arrival_phrases.py
+index c321d8743..14c1956e8 100644
+--- a/tests/test_arrival_phrases.py
++++ b/tests/test_arrival_phrases.py
+@@ -115,9 +115,15 @@ def test_the_advisor_seats_own_sentences_for_its_mend_of_the_same_gate(tmp_path)
+     for sentence in ("The programme aims to show that the Standard Model is derived.", "Among its goals: that the values are derived.",
+                      "It wouldn't follow that the Standard Model is derived.", "We are seeking a frame in which the values are derived.",
+                      "None of this says that the Standard Model is derived.", "We never say that the values are derived.",
+-                     "(Not yet: the Standard Model is derived only in the sense of its grammar.)",
+                      "The paper doesn't say that the Standard Model is derived.", "It is aiming at a page where the values are derived."):
+         assert planted(sentence), sentence                                        # an honest sentence of aim, denial or condition
++    # Changed 2026-11-12, with series 5 of WP-0.7 (its row A).  The list above held one sentence more:
++    #     "(Not yet: the Standard Model is derived only in the sense of its grammar.)"
++    # and asserted that it passes.  By main's rule of that day a word of denial excuses a phrase of arrival only in the phrase's
++    # own clause, and a colon ends a clause: "No longer a hope: the Standard Model is derived." and "There is no doubt: all
++    # nineteen are derived.", which two readers of Review 79 planted and which passed, have the same shape.  The sentence is
++    # refused now, and is asserted as refused.  It stands on no page; were it to, the page's sentence is rewritten and not the rule.
++    assert not planted("(Not yet: the Standard Model is derived only in the sense of its grammar.)")
+ 
+ 
+ def test_the_statement_of_aim_is_no_longer_banned_and_the_governing_page_says_why():
+-- 
+2.43.0
+

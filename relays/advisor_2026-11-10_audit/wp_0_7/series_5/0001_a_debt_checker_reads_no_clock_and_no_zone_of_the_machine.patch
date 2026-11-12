@@ -1,0 +1,240 @@
+From eba8d5c8f98f7461ac74c2835df25fb26cd453ec Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:31:45 +0000
+Subject: [PATCH 01/15] WP-0.7, enforcement (cld-advisor's series 5, patch 1;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4 and the move of the old front pages
+ applied): A DEBT CHECKER READS NO CLOCK, AND NO ZONE OF THE MACHINE (Review
+ 79, the second reader's row 20, its second and third parts; the failure main
+ saw once, M10). The harvest checker timed its own run and printed the time at
+ the end of its first line. When the checker fails, its gate gives that line
+ back as its answer, so a failing harvest gate gave another answer at every
+ run. A test of the first series' lock asks each debt gate three times and
+ compares; it failed once on main's machine and said the day had moved the
+ gate. It was the duration: reproduced by the seat, ten failures of ten where
+ the harvest gate fails, none where it passes, with worktrees added and
+ removed or without. And the checker turned a commit's time into a day in the
+ zone of the machine it runs on, so a seat's item could be aged on one machine
+ and not on another, on the same commit. THE MEND: the run is not timed, and
+ no line of the report carries a duration; a commit's time is turned into a
+ day in UTC. The lock's test that no gate and no checker reads the wall clock
+ now refuses a duration too, and a call that makes a date of a time without
+ naming its zone; until now it let a duration be timed, with a dated note of
+ why that changes. The test of the day asks once more with the first day, and
+ says so where a gate gives two answers with the day unchanged. What it does
+ not reach: the passing sentence of the harvest gate names how far each seat's
+ branch is past its pin in the clone, and a fetch between two runs moves it;
+ that is the clone and not the commit, and is as it was. The lock: three tests
+ added to tests/test_gates_are_a_function_of_the_commit.py. On the commit
+ before, two fail: the checker's line ends with how long it ran, and a note
+ made at half past eleven at night is aged where the machine's zone is behind
+ and not where it is ahead. The third reads this repository and passes
+ wherever no debt gate fails. Tested against planted errors; reproduced;
+ computed once. 0 of 19.
+
+---
+ scripts/checks/harvest_debt.py                |  11 +-
+ ...test_gates_are_a_function_of_the_commit.py | 119 +++++++++++++++++-
+ 2 files changed, 123 insertions(+), 7 deletions(-)
+
+diff --git a/scripts/checks/harvest_debt.py b/scripts/checks/harvest_debt.py
+index 091767917..7dc35b8a8 100644
+--- a/scripts/checks/harvest_debt.py
++++ b/scripts/checks/harvest_debt.py
+@@ -39,7 +39,6 @@ import pathlib
+ import re
+ import subprocess
+ import sys
+-import time
+ 
+ ROOT = pathlib.Path(__file__).resolve().parents[2]
+ LEDGER = ROOT / "docs" / "HARVEST_LEDGER.md"
+@@ -633,7 +632,9 @@ def named_on_main(names, _cache={}):
+ 
+ # ---------------------------------------------------------------- the live run
+ def run(fetch=False, strict=False):
+-    t0 = time.time()
++    # 2026-11-12 (the closure programme's WP-0.7, series 5; Review 79, the second reader's row 20).  The run was timed, and the
++    # time stood at the end of the report's first line.  When this checker fails, its gate gives that line back, so a failing
++    # gate gave another answer at every run.  A gate's answer is a function of the commit: the run is not timed here.
+     report = dict(today=str(_today()), seats={}, integrity=[], summary={})
+     if fetch:
+         rc, out = _git("fetch", "--all", "--quiet", timeout=300)
+@@ -726,7 +727,8 @@ def run(fetch=False, strict=False):
+         new_age, unmapped = {}, []
+         for p, ct in age_by_path.items():
+             ids = path_ids(seat, p, idx)
+-            age = (today - datetime.date.fromtimestamp(ct)).days
++            # the day of the commit's time in UTC, not in the zone of the machine this runs on (the same row, third part)
++            age = (today - datetime.datetime.fromtimestamp(ct, datetime.timezone.utc).date()).days
+             if ids:
+                 for i in ids:
+                     new_age[i] = min(new_age.get(i, 10 ** 6), age)
+@@ -766,7 +768,6 @@ def run(fetch=False, strict=False):
+         totals["stale_rows"] += len(rec["stale_rows"]); totals["relays_unrowed"] += len(s["relays_unrowed"])
+         totals["aged"] += len(rec["aged"]); totals["index"] += len(idx); totals["scheduled_rows"] = totals.get("scheduled_rows", 0) + len(scheduled)
+     report["summary"] = totals
+-    report["seconds"] = round(time.time() - t0, 1)
+     return report
+ 
+ 
+@@ -775,7 +776,7 @@ def print_report(rep, verbose=True):
+           f"NEW unrowed {rep['summary'].get('new_unrowed', 0)}, BACKLOG {rep['summary'].get('backlog', 0)}, STALE rows {rep['summary'].get('stale_rows', 0)}, "
+           f"relays without a row {rep['summary'].get('relays_unrowed', 0)}, SCHEDULED rows {rep['summary'].get('scheduled_rows', 0)}"
+           f" (ledger-wide, remote-independent: {rep.get('ledger_scheduled_total', 0)}), aged past {STALE_DAYS}d {rep['summary'].get('aged', 0)}, mirror lag {rep['summary'].get('mirror_lag', 0)}"
+-          f"{'; skipped ' + str(rep['summary'].get('skipped')) if rep['summary'].get('skipped') else ''} [{rep.get('seconds', '?')}s]")
++          f"{'; skipped ' + str(rep['summary'].get('skipped')) if rep['summary'].get('skipped') else ''}")
+     for k, s in rep["seats"].items():
+         if "skipped" in s:
+             print(f"    {k:<8} SKIPPED: {s['skipped']}")
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index 80a50cc82..eaf6fa0e4 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -15,8 +15,10 @@ Each test here makes the situation and runs the gate.  The first test of each ca
+ import ast
+ import datetime
+ import importlib.util
++import os
+ import pathlib
+ import re
++import shutil
+ import subprocess
+ import sys
+ 
+@@ -227,13 +229,24 @@ def test_a_debt_gate_answers_the_same_whatever_day_the_environment_names(monkeyp
+         for env in DATED.values():
+             monkeypatch.setenv(env, (head + datetime.timedelta(days=days)).isoformat())
+         answers[days] = {name: tuple(map(str, g.GATES[name]())) for name in DATED}
++    # 2026-11-12: asked once more with the first day.  A gate that gives two answers there does so with the day unchanged, and
++    # this test used to say that the day had moved it (it failed so once on main's machine: the harvest gate's failing answer
++    # carried how long its checker ran).
++    for env in DATED.values():
++        monkeypatch.setenv(env, head.isoformat())
++    again = {name: tuple(map(str, g.GATES[name]())) for name in DATED}
++    twice = sorted(name for name in DATED if again[name] != answers[0][name])
++    assert not twice, "these gates give two answers with the same day: it is not the day that moves them: %s" % ", ".join(twice)
+     changed = sorted(name for name in DATED if len({answers[d][name] for d in answers}) > 1)
+     assert not changed, "these gates change their answer with the day the environment names: %s" % ", ".join(changed)
+ 
+ 
+ def test_no_gate_and_no_checker_reads_the_wall_clock():
+-    """A duration may be timed.  A date may not be taken from the clock."""
+-    clock = re.compile(r"\bdate\.today\(|\bdatetime\.now\(|\butcnow\(|\btime\.(?:localtime|gmtime|strftime|ctime|asctime)\(")
++    """A date may not be taken from the clock.  Nor, from 2026-11-12, may a duration be timed: until then one could be, and
++    the harvest checker's stood in its gate's failing answer (series 5).  And a commit's time is turned into a day in UTC,
++    never in the zone of the machine: a call that makes a date of a time names its zone."""
++    clock = re.compile(r"\bdate\.today\(|\bdatetime\.now\(|\butcnow\(|\btime\.(?:localtime|gmtime|strftime|ctime|asctime)\("
++                       r"|\btime\.(?:time|monotonic|perf_counter|process_time)(?:_ns)?\(|\bfromtimestamp\((?![^()]*(?:timezone|tz))")
+     found = []
+     for p in sorted((ROOT / "scripts" / "gates").glob("*.py")) + sorted((ROOT / "scripts" / "checks").glob("*.py")):
+         for n, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+@@ -538,3 +551,105 @@ def test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_pa
+     # the four debt gates read the date of HEAD's commit, and the scan sees that they do
+     for name in DATED:
+         assert "head-date" in _git_subcommands(g.GATES[name].__wrapped__.__name__), name
++
++
++# ---- series 5: what Review 79 found in the debt checkers (its second reader's rows 20 and 22), and main's M10 -------------
++# The harvest checker timed its own run and printed the time at the end of its first line.  When the checker fails, its
++# gate gives that line back, so a failing harvest gate gave a different answer at every run; a test of this lock compares
++# three answers of the gate, and failed once on main's machine for it.  The checker also turned a commit's time into a
++# day in the zone of the machine it runs on.
++def _harvest():
++    spec = importlib.util.spec_from_file_location("harvest_for_the_commit_rule", ROOT / "scripts" / "checks" / "harvest_debt.py")
++    hd = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(hd)
++    return hd
++
++
++def _commit_at(repo, when, files):
++    """a commit whose author's and committer's time is `when`, in UTC"""
++    for rel, text in files.items():
++        f = repo / rel
++        f.parent.mkdir(parents=True, exist_ok=True)
++        f.write_text(text, encoding="utf-8")
++    env = dict(os.environ, GIT_AUTHOR_DATE=when, GIT_COMMITTER_DATE=when)
++    for a in (("add", "-A"), ("-c", "user.name=t", "-c", "user.email=t@example.invalid", "commit", "-q", "-m", "a commit at " + when)):
++        r = subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, env=env)
++        assert r.returncode == 0, r.stderr
++    return _git(repo, "rev-parse", "HEAD")
++
++
++def _a_clone_with_the_web_seats_branch(tmp_path, branches=("chat1/web-seat",), pin=None, tags=True, later=None):
++    """A small repository that holds this repository's checkers and a harvest ledger with one pin, the web seat's.  Its
++    remote `origin` holds the seat's branch under each name of `branches`: one note, and a second one made at the time
++    `later` if that is given.  The pin is the commit of the first note unless `pin` is given.  Returns the repository."""
++    seat = tmp_path / "seat"
++    seat.mkdir(parents=True)
++    _git(seat, "init", "-q")
++    first = _commit_at(seat, "2026-10-01T12:00:00+00:00", {"relays/CHAT1_TO_CC_2026-10-01_A_NOTE.md": "a note\n"})
++    if later:
++        _commit_at(seat, later, {"relays/CHAT1_TO_CC_2026-10-20_A_SECOND_NOTE.md": "a second note\n"})
++    origin = tmp_path / "origin.git"
++    _git(tmp_path, "init", "-q", "--bare", str(origin))
++    for b in branches:
++        _git(seat, "push", "-q", str(origin), "HEAD:refs/heads/" + b)
++    repo = tmp_path / "repo"
++    shutil.copytree(ROOT / "scripts" / "checks", repo / "scripts" / "checks", ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
++    (repo / "docs").mkdir()
++    (repo / "docs" / "HARVEST_LEDGER.md").write_text(
++        "# The harvest ledger\n\n## Pins\n\n| seat | branch | pin | pinned at | by arc |\n|---|---|---|---|---|\n"
++        "| chat1 | `origin/chat1/web-seat` | `%s` | 2026-10-01 | B1 |\n\n## Rows\n\n"
++        "| # | seat | item | headline | path @ pin | disposition | main arc | date |\n|---|---|---|---|---|---|---|---|\n" % (pin or first[:8]),
++        encoding="utf-8")
++    _git(repo, "init", "-q")
++    _commit_at(repo, "2026-11-11T12:00:00+00:00", {})
++    if tags:                                          # the seats the checker holds as retired are known by a tag each
++        for s in _harvest().SEATS:
++            if s.get("retired"):
++                _git(repo, "tag", s["retired"])
++    _git(repo, "remote", "add", "origin", str(origin))
++    _git(repo, "fetch", "-q", "origin")
++    return repo
++
++
++def _the_harvest_checker(repo, day="2026-11-11", zone=None):
++    env = dict(os.environ, TZ=zone) if zone else None
++    r = subprocess.run([sys.executable, "-B", os.path.join("scripts", "checks", "harvest_debt.py"), "--quiet", "--today", day],
++                       cwd=str(repo), capture_output=True, text=True, env=env)
++    return r.returncode, r.stdout + r.stderr
++
++
++_A_DURATION = re.compile(r"\[\s*\??\d*(?:\.\d+)?\s*s\]")
++
++
++def test_the_harvest_checker_does_not_say_how_long_it_ran(tmp_path):
++    """the twin first: a clone that holds the seat's branch at its pin is read, and passes"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path / "read")
++    status, out = _the_harvest_checker(repo)
++    assert status == 0 and re.search(r"chat1\s+head \w+ pin \w+ \(\+0 commits\)", out), out
++    assert not _A_DURATION.search(out), "the harvest checker's line ends with how long it ran: " + out.splitlines()[0]
++    # a checker that fails: a seat held as retired, whose tag is not there.  Its gate gives these lines back as its answer
++    repo = _a_clone_with_the_web_seats_branch(tmp_path / "fails", tags=False)
++    status, out = _the_harvest_checker(repo)
++    assert status == 1 and "INTEGRITY" in out and "is missing" in out, out
++    assert not _A_DURATION.search(out), "a failing harvest checker's line ends with how long it ran, and its gate gives the line back: " + out.splitlines()[0]
++    assert _the_harvest_checker(repo) == (status, out), "the harvest checker gives two answers on one commit"
++
++
++def test_the_age_of_a_seats_item_is_the_same_in_every_zone_of_the_host(tmp_path):
++    """the second reader's row 20, third part.  A note made at half past eleven at night, UTC, 22 days before the commit's
++    day: in a zone twelve hours behind it is 22 days old and aged; in a zone fourteen hours ahead it was made a day later,
++    is 21 days old, and is not"""
++    repo = _a_clone_with_the_web_seats_branch(tmp_path, later="2026-10-20T23:30:00+00:00")
++    behind = _the_harvest_checker(repo, zone="Etc/GMT+12")
++    ahead = _the_harvest_checker(repo, zone="Pacific/Kiritimati")
++    assert behind == ahead, "the harvest checker ages a seat's item by the zone of the machine: %r where the zone is behind, %r where it is ahead" % (
++        behind[1].splitlines()[0][-60:], ahead[1].splitlines()[0][-60:])
++    assert behind[0] == 2 and "aged past 21d 1" in behind[1], behind                     # by its time in UTC it is 22 days old
++
++
++def test_a_debt_gate_gives_one_answer_on_one_commit():
++    """What the test of the day could not tell apart (found 2026-11-12, when it failed once on main's machine and said the
++    day had moved a gate).  Each debt gate is asked twice with nothing changed in between."""
++    g = _gates()
++    twice = sorted(name for name in DATED if tuple(map(str, g.GATES[name]())) != tuple(map(str, g.GATES[name]())))
++    assert not twice, "these gates give two answers on one commit, with nothing changed between the two: %s" % ", ".join(twice)
+-- 
+2.43.0
+

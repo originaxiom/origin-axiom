@@ -1,0 +1,387 @@
+From b0ecbb3f165248c8624c7d4a04d90b5aaf16e16a Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:32:39 +0000
+Subject: [PATCH 12/15] WP-0.7, enforcement (cld-advisor's series 5, patch 12;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4, the move of the old front pages and the
+ first eleven of series 5 applied): WHAT KEEPS A TEST FROM RUNNING IS READ
+ WHEREVER IT STANDS (main's M13, its third item, the first part). Two readers
+ ask whether a test can be kept from running: the reader of a gate's control,
+ and the reader that holds the tests of every lock to what they were. Both
+ read the first level of statements of the file: a mark on the module, or a
+ call that skips, each written as a statement of its own. Main's case: a
+ control whose module skips itself at import under a condition, or in an
+ except clause, passed the controls gate. FOUND WHILE BUILDING IT, and of the
+ same kind: a call to importorskip given to a name, which is how most modules
+ write it; a skip that is raised; a mark bound to a name, or made by a
+ function of the module, and put on the test by that name; a mark that a class
+ sets in its own body; a fixture of the module that skips the test that asks
+ for it, by a parameter or by a mark, or that every test gets unasked; and,
+ for a control, a module that tells the collector it holds no test. THE MEND:
+ the whole first level of the module is read: every statement that runs as the
+ module is loaded, which is all of it but what stands inside a function, a
+ lambda or a class. A test is read with the marks it wears by a name of the
+ module and with the module's fixtures that it asks for. One reader, in the
+ vacuity checker, serves both, so that the two agree. ON MAIN: of 1,626 locks
+ the reader as it was and the reader of this patch give the same table for
+ 1,593. In 32 the module's own switches are more, 23 of them an importorskip
+ given to a name. In two files fifteen tests have more of their own: a mark
+ worn by a name, and a fixture that skips. Nowhere does the new reader count
+ less. None of the 53 controls is kept from running, by the wider reading as
+ by the old. No lock gained a switch since the rule's anchor that only the
+ wider reader sees, so the rule on tests that are switched off reads at main's
+ head as it did. WHAT THIS CHANGES IS WHAT IS READ, NOT WHAT IS ASKED: a lock
+ is held to what it was when the rule came, and both days are read by the same
+ reader, so a module that skips where a package is missing owes no record for
+ it. WHAT IT DOES NOT REACH: a skip decided outside the lock's own file, in a
+ conftest or in the options the suite is run with; a test kept from running by
+ a condition in its own body that names no skip; a name for a mark that the
+ module takes from another module. The lock: one test added to
+ tests/test_a_gate_reads_all_it_is_about.py, thirteen shapes and five twins;
+ two added to tests/test_nothing_leaves_a_ledger.py, eleven shapes and two
+ twins, and a class marked in its body. On the commit before, all three fail:
+ the controls gate passes on a control whose module skips under a condition;
+ the vacuity gate passes on a lock switched off the same way; and a class's
+ own mark is not counted. Tested against planted errors; reproduced, main's
+ two shapes; computed once. 0 of 19.
+
+---
+ scripts/checks/check_test_vacuity.py       | 135 +++++++++++++++++++--
+ scripts/gates/gates.py                     |  33 +++--
+ tests/test_a_gate_reads_all_it_is_about.py |  42 +++++++
+ tests/test_nothing_leaves_a_ledger.py      |  52 ++++++++
+ 4 files changed, 239 insertions(+), 23 deletions(-)
+
+diff --git a/scripts/checks/check_test_vacuity.py b/scripts/checks/check_test_vacuity.py
+index 6bedba2ca..b006005f7 100644
+--- a/scripts/checks/check_test_vacuity.py
++++ b/scripts/checks/check_test_vacuity.py
+@@ -251,6 +251,119 @@ def cannot_fail(fn):
+ 
+ 
+ _SWITCH = re.compile(r"\b(skip|skipif|xfail|importorskip)\b")
++_SKIPS_WHEN_CALLED = re.compile(r"(?:^|\.)(?:skip|importorskip|SkipTest)$")          # pytest.skip, pytest.importorskip, unittest.SkipTest
++_A_MARK = re.compile(r"\bmark\b")
++
++
++# WHAT KEEPS A TEST FROM RUNNING IS READ WHEREVER IT STANDS (WP-0.7, series 5; main's M13, its third item).  The readers below
++# read the first level of statements of a file: a mark on the module, or a call that skips, each written as a statement of
++# its own.  The same call under a condition, in an except clause or in a with, or given to a name, was not read; nor a mark
++# bound to a name and put on a test by that name; nor a mark that a class sets in its own body; nor a fixture of the module
++# that skips the test that asks for it.  The whole first level of the module is now read: every statement that runs as
++# the module is loaded, which is all of it but what stands inside a function, a lambda or a class.  And a test is read
++# with the marks it wears by a name of the module, and with the module's fixtures that it asks for.
++def _first_level(tree):
++    """every node of a module that runs as the module is loaded: all of it but what stands inside a function, a lambda or a
++    class.  (A function's marks are read with the function, a class's with the class.)"""
++    out, stack = [], list(tree.body)
++    while stack:
++        n = stack.pop()
++        if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef, ast.Lambda)):
++            continue
++        out.append(n)
++        stack.extend(ast.iter_child_nodes(n))
++    return out
++
++
++def _binds(n, name):
++    """whether the statement binds `name` to something: plainly, with an annotation, or in place"""
++    targets = n.targets if isinstance(n, ast.Assign) else ([n.target] if isinstance(n, (ast.AnnAssign, ast.AugAssign)) else [])
++    return getattr(n, "value", None) is not None and any(isinstance(t, ast.Name) and t.id == name for t in targets)
++
++
++def _names(node, marks):
++    """whether the expression names one of `marks`"""
++    return any(isinstance(x, ast.Name) and x.id in marks for x in ast.walk(node))
++
++
++def named_marks(tree):
++    """the names a module binds, on its first level, to a mark that skips or expects a failure (not_today = pytest.mark.skip(...)),
++    or to something that holds one, or to another such name; and its own functions that make such a mark"""
++    binds = [(n, n.targets if isinstance(n, ast.Assign) else [n.target]) for n in _first_level(tree)
++             if isinstance(n, (ast.Assign, ast.AnnAssign)) and n.value is not None]
++    marks = {n.name for n in tree.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and not n.name.startswith("test")
++             and any(isinstance(x, ast.Attribute) and _A_MARK.search(ast.unparse(x)) and _SWITCH.search(ast.unparse(x)) for x in ast.walk(n))}
++    grew = True
++    while grew:
++        grew = False
++        for n, targets in binds:
++            text = ast.unparse(n.value)
++            if (_A_MARK.search(text) and _SWITCH.search(text)) or _names(n.value, marks):
++                new = {t.id for t in targets if isinstance(t, ast.Name)} - marks - {"pytestmark"}
++                marks, grew = marks | new, grew or bool(new)
++    return marks
++
++
++def fixtures_that_skip(tree):
++    """the module's own fixtures that can skip the test that asks for them: {name: whether every test gets it unasked}.  A
++    fixture skips where its body calls a skip, or where it asks for a fixture of the module that does."""
++    fixtures = {n.name: n for n in tree.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))
++                and any("fixture" in ast.unparse(d) for d in n.decorator_list)}
++    skips = {name for name, n in fixtures.items() if any(isinstance(x, ast.Call) and _SWITCH.search(ast.unparse(x.func)) for x in ast.walk(n))}
++    grew = True
++    while grew:
++        more = {name for name, n in fixtures.items() if name not in skips and any(a.arg in skips for a in n.args.args + n.args.kwonlyargs)}
++        skips, grew = skips | more, bool(more)
++    return {name: any("autouse=True" in ast.unparse(d) for d in fixtures[name].decorator_list) for name in skips}
++
++
++def asks_for(fn, fixtures):
++    """the fixtures of `fixtures` that a test function asks for: by a parameter's name, or by a usefixtures mark that it wears"""
++    asked = [a.arg for a in fn.args.args + fn.args.kwonlyargs if a.arg in fixtures]
++    return asked + _used(fn.decorator_list, fixtures)
++
++
++def _used(expressions, fixtures):
++    """the fixtures of `fixtures` named in a usefixtures mark among `expressions`"""
++    return [x.value for e in expressions if "usefixtures" in ast.unparse(e)
++            for x in ast.walk(e) if isinstance(x, ast.Constant) and isinstance(x.value, str) and x.value in fixtures]
++
++
++def wears_a_switch(decorator, marks):
++    """whether a decorator is a mark that skips or expects a failure, written out or by one of the module's names for one"""
++    return bool(_SWITCH.search(ast.unparse(decorator))) or _names(decorator, marks)
++
++
++def _marks_itself(n, marks):
++    """whether the statement binds pytestmark to a mark that skips"""
++    return _binds(n, "pytestmark") and bool(_SWITCH.search(ast.unparse(n.value)) or _names(n.value, marks))
++
++
++def module_switches(tree, marks=None):
++    """what can keep every test of a module from running, as [(line, kind, text)], read on the whole first level of the module.
++    The kinds: "mark", a pytestmark that skips; "call", a call that skips or a skip that is raised; "off", __test__ = False;
++    "fixture", a fixture of the module that can skip and that every test gets, unasked or by the module's own mark."""
++    marks = named_marks(tree) if marks is None else marks
++    fixtures = fixtures_that_skip(tree)
++    out = [(fn.lineno, "fixture", fn.name) for fn in tree.body
++           if isinstance(fn, (ast.FunctionDef, ast.AsyncFunctionDef)) and fixtures.get(fn.name)]
++    for n in _first_level(tree):
++        if isinstance(n, (ast.Assign, ast.AnnAssign, ast.AugAssign)):
++            if _marks_itself(n, marks):
++                out.append((n.lineno, "mark", ast.unparse(n.value)))
++            elif _binds(n, "pytestmark"):
++                out += [(n.lineno, "fixture", name) for name in _used([n.value], fixtures)]
++            if _binds(n, "__test__") and ast.unparse(n.value) == "False":
++                out.append((n.lineno, "off", "__test__ = False"))
++        elif isinstance(n, ast.Call):
++            func = ast.unparse(n.func)
++            if _SKIPS_WHEN_CALLED.search(func) and not _A_MARK.search(func):
++                out.append((n.lineno, "call", ast.unparse(n)))
++    for n in tree.body:                                   # as this reader always read: a statement that is a call naming a skip in any form
++        if (isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SWITCH.search(ast.unparse(n.value.func))
++                and not any(line == n.lineno and kind == "call" for line, kind, _text in out)):
++            out.append((n.lineno, "call", ast.unparse(n.value)))
++    return sorted(out)
+ 
+ 
+ def switches(src):
+@@ -262,28 +375,26 @@ def switches(src):
+ 
+     Added 2026-11-11 (WP-0.7, series 4).  One of main's unseen cases made a test skip, and it was caught only because
+     the file's hash was listed: no gate looked for a skip.  The gate holds this table to what it was (gates.py,
+-    tests_switched_off): a test does not leave its lock, and does not gain a way not to run, without a recorded act."""
++    tests_switched_off): a test does not leave its lock, and does not gain a way not to run, without a recorded act.
++    From series 5 the module's own are read on its whole first level, a mark is read by a name the module gives it, and a
++    class's mark is read in its body as well as over it."""
+     try:
+         tree = ast.parse(src)
+     except SyntaxError:
+         return None
+-    out = {"": 0}
+-    for n in tree.body:
+-        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "pytestmark" for t in n.targets) and _SWITCH.search(ast.unparse(n.value)):
+-            out[""] += 1
+-        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "__test__" for t in n.targets) and ast.unparse(n.value) == "False":
+-            out[""] += 1
+-        if isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SWITCH.search(ast.unparse(n.value.func)):
+-            out[""] += 1
++    marks, fixtures = named_marks(tree), fixtures_that_skip(tree)
++    out = {"": len(module_switches(tree, marks))}
+ 
+     def visit(body, prefix, inherited):
+         for n in body:
+             if isinstance(n, ast.ClassDef):
+-                visit(n.body, prefix + n.name + ".", inherited + sum(1 for d in n.decorator_list if _SWITCH.search(ast.unparse(d))))
++                own = (sum(1 for d in n.decorator_list if wears_a_switch(d, marks)) + len(_used(n.decorator_list, fixtures))
++                       + sum(1 for x in n.body if isinstance(x, (ast.Assign, ast.AnnAssign, ast.AugAssign)) and _marks_itself(x, marks)))
++                visit(n.body, prefix + n.name + ".", inherited + own)
+             elif isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name.startswith("test"):
+-                marks = sum(1 for d in n.decorator_list if _SWITCH.search(ast.unparse(d)))
++                worn = sum(1 for d in n.decorator_list if wears_a_switch(d, marks))
+                 calls = sum(1 for x in ast.walk(n) if isinstance(x, ast.Call) and _SWITCH.search(ast.unparse(x.func)))
+-                out[prefix + n.name] = inherited + marks + calls
++                out[prefix + n.name] = inherited + worn + calls + len(asks_for(n, fixtures))
+     visit(tree.body, "", 0)
+     return out
+ 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 7d4daca92..09fcfabad 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3709,17 +3709,6 @@ def control_cannot_control(src, fn_name):
+     fn = next((n for n in tree.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == fn_name), None)
+     if fn is None:
+         return "is not a test function at the top level of its file"
+-    for d in fn.decorator_list:
+-        if _SKIPS.search(ast.unparse(d)):
+-            return f"is skipped or expected to fail by its mark ({ast.unparse(d)[:60]})"
+-    for n in tree.body:                                   # the module's own mark, or a skip at import
+-        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "pytestmark" for t in n.targets) and _SKIPS.search(ast.unparse(n.value)):
+-            return f"is in a module marked {ast.unparse(n.value)[:60]}"
+-        if isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SKIPS.search(ast.unparse(n.value.func)):
+-            return f"is in a module that may skip itself at import ({ast.unparse(n.value)[:60]})"
+-    for n in ast.walk(fn):
+-        if isinstance(n, ast.Call) and _SKIPS.search(ast.unparse(n.func)):
+-            return f"may skip itself ({ast.unparse(n)[:60]})"
+     sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+     try:
+         import check_test_vacuity as ctv
+@@ -3727,6 +3716,28 @@ def control_cannot_control(src, fn_name):
+         return f"cannot be read: the vacuity checker is missing or unimportable ({exc})"
+     finally:
+         sys.path.pop(0)
++    # Series 5 (main's M13): what keeps the control from running is read wherever it stands on the first level of its module,
++    # under a condition, in an except clause or in a with as well; a mark is read by a name the module gives it; a fixture of
++    # the module that skips is read where the control asks for it; and a module that tells the collector it holds no test
++    # holds no control.  The reader is the vacuity checker's, so that the two agree.
++    marks = ctv.named_marks(tree)
++    for d in fn.decorator_list:
++        if ctv.wears_a_switch(d, marks):
++            return f"is skipped or expected to fail by its mark ({ast.unparse(d)[:60]})"
++    for _line, kind, text in ctv.module_switches(tree, marks):
++        if kind == "mark":
++            return f"is in a module marked {text[:60]}"
++        if kind == "off":
++            return "is in a module that tells the collector it holds no test (__test__ = False)"
++        if kind == "fixture":
++            return f"is in a module whose every test may be skipped by a fixture ({text[:60]})"
++        return f"is in a module that may skip itself at import ({text[:60]})"
++    asked = ctv.asks_for(fn, ctv.fixtures_that_skip(tree))
++    if asked:
++        return f"may be skipped by a fixture it asks for ({asked[0][:60]})"
++    for n in ast.walk(fn):
++        if isinstance(n, ast.Call) and _SKIPS.search(ast.unparse(n.func)):
++            return f"may skip itself ({ast.unparse(n)[:60]})"
+     asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
+     calls = {getattr(getattr(n, "func", None), "attr", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
+     if not asserts and not (ctv._OK_CALLS & calls):
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index bfeabba0b..7ad93df17 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -556,6 +556,48 @@ def test_a_control_that_cannot_control_is_refused_in_every_form(tmp_path):
+         assert words in detail, (name, detail)
+ 
+ 
++# ---- series 5: what keeps a module's tests from running is read wherever it stands (main's M13, its third item) --------
++# The reader of a control read the first level of statements of the control's file: a mark on the module, or a call that
++# skips, each written as a statement of its own.  The same call under a condition, in an except clause or in a with, or
++# given to a name, was not read; nor was a mark bound to a name and put on the control by that name; nor a fixture of the
++# module that skips the control that asks for it; nor a module that tells the collector it holds no test.
++_ELSEWHERE = {
++    "a skip under a condition": ("import os\nimport pytest\n\nif not os.environ.get('A_VARIABLE_NOBODY_SETS'):\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "a skip in an except clause": ("import pytest\n\ntry:\n    import a_package_nobody_has\nexcept ImportError:\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "a skip in a with": ("import contextlib\nimport pytest\n\nwith contextlib.suppress(KeyError):\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "an importorskip given to a name": ("import pytest\n\nthe_package = pytest.importorskip('a_package_nobody_has')\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "a skip raised at import": ("import unittest\n\nraise unittest.SkipTest('planted')\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "a mark on the module under a condition": ("import pytest\n\nif True:\n    pytestmark = pytest.mark.skip(reason='planted')\n\n\n" + _CONTROL_OK, "module marked"),
++    "a mark bound to a name": ("import pytest\n\nnot_today = pytest.mark.skip(reason='planted')\n\n\n@not_today\n" + _CONTROL_OK, "is skipped"),
++    "a mark on the module by a name": ("import pytest\n\nnot_today = pytest.mark.skip(reason='planted')\npytestmark = not_today\n\n\n" + _CONTROL_OK, "module marked"),
++    "a module told it holds no test": ("__test__ = False\n\n\n" + _CONTROL_OK, "holds no test"),
++    "a mark made by a function of the module": ("import pytest\n\n\ndef needs(package):\n    return pytest.mark.skipif(True, reason='planted: ' + package)\n\n\n@needs('a_package')\n" + _CONTROL_OK, "is skipped"),
++    "a fixture that skips, which the control asks for": ("import pytest\n\n\n@pytest.fixture\ndef the_package():\n    return pytest.importorskip('a_package_nobody_has')\n\n\n"
++                                                        + _CONTROL_OK.replace("planted_case():", "planted_case(the_package):"), "a fixture it asks for"),
++    "a fixture that skips, asked for by a mark": ("import pytest\n\n\n@pytest.fixture\ndef the_package():\n    pytest.skip('planted')\n\n\n@pytest.mark.usefixtures('the_package')\n" + _CONTROL_OK, "a fixture it asks for"),
++    "a fixture that skips, which every test gets": ("import pytest\n\n\n@pytest.fixture(autouse=True)\ndef _the_package():\n    pytest.skip('planted')\n\n\n" + _CONTROL_OK, "every test may be skipped by a fixture"),
++}
++_NOT_A_SWITCH = {
++    "a mark bound to a name and not put on the control": "import pytest\n\nnot_today = pytest.mark.skip(reason='for another test')\n\n\n" + _CONTROL_OK,
++    "a call that skips inside a helper that the control does not call": "import pytest\n\n\ndef needs_the_package():\n    pytest.importorskip('a_package_nobody_has')\n\n\n" + _CONTROL_OK,
++    "a mark that is not a skip": "import pytest\n\nslow = pytest.mark.slow\n\n\n@slow\n" + _CONTROL_OK,
++    "a fixture that skips and that the control does not ask for": "import pytest\n\n\n@pytest.fixture\ndef the_package():\n    pytest.skip('for another test')\n\n\n" + _CONTROL_OK,
++    "a fixture that does not skip": "import pytest\n\n\n@pytest.fixture\ndef two():\n    return 2\n\n\n" + _CONTROL_OK.replace("planted_case():", "planted_case(two):"),
++}
++
++
++def test_a_control_kept_from_running_is_refused_wherever_the_switch_stands(tmp_path):
++    for name, (body, words) in _ELSEWHERE.items():
++        repo, reg = _controls_repo(tmp_path, name.replace(" ", "_"), body)
++        ok, detail = _gate(repo, "gate-controls")
++        assert ok is False, f"a control that is kept from running ({name}) passed the controls gate: {detail}"
++        assert words in detail, (name, detail)
++    for name, body in _NOT_A_SWITCH.items():                                                # the twins
++        repo, reg = _controls_repo(tmp_path, name.replace(" ", "_"), body)
++        ok, detail = _gate(repo, "gate-controls")
++        assert ok is True, (name, detail)
++
++
+ def _the_statement_that_binds(src, table):
+     """the one statement at the top level of the gates that binds `table`, written plainly or with an annotation"""
+     binds = [n for n in ast.parse(src).body
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 3b9799447..6f98131e3 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -436,6 +436,58 @@ def test_a_test_made_to_skip_turns_the_vacuity_gate_red_in_every_form(tmp_path):
+         assert "may now skip" in detail and "tests/test_one.py" in detail, (name, detail)
+ 
+ 
++# series 5 (main's M13, its third item): the same switches where the reader did not look.  It read the first level of
++# statements of the file: a call that skips under a condition, in an except clause or in a with, or given to a name, was
++# not read; nor a mark bound to a name and put on the test by that name; nor a mark on a class, set in the class's body;
++# nor a fixture of the module that skips the test that asks for it.
++_OFF_ELSEWHERE = {
++    "a skip under a condition": lambda t: "import os\nimport pytest\n\nif not os.environ.get('A_VARIABLE_NOBODY_SETS'):\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + t,
++    "a skip in an except clause": lambda t: "import pytest\n\ntry:\n    import a_package_nobody_has\nexcept ImportError:\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + t,
++    "a skip in a with": lambda t: "import contextlib\nimport pytest\n\nwith contextlib.suppress(KeyError):\n    pytest.skip('planted', allow_module_level=True)\n\n\n" + t,
++    "an importorskip given to a name": lambda t: "import pytest\n\nthe_package = pytest.importorskip('a_package_nobody_has')\n\n\n" + t,
++    "a skip raised at import": lambda t: "import unittest\n\nraise unittest.SkipTest('planted')\n\n\n" + t,
++    "a mark on the module under a condition": lambda t: "import pytest\n\nif True:\n    pytestmark = pytest.mark.skip(reason='planted')\n\n\n" + t,
++    "a mark bound to a name": lambda t: "import pytest\n\nnot_today = pytest.mark.skip(reason='planted')\n\n\n" + t.replace("def test_one(", "@not_today\ndef test_one("),
++    "the module told it holds no test, under a condition": lambda t: "if True:\n    __test__ = False\n\n\n" + t,
++    "a mark made by a function of the module": lambda t: ("import pytest\n\n\ndef needs(package):\n    return pytest.mark.skipif(True, reason='planted: ' + package)\n\n\n"
++                                                          + t.replace("def test_one(", "@needs('a_package')\ndef test_one(")),
++    "a fixture that skips, which the test asks for": lambda t: ("import pytest\n\n\n@pytest.fixture\ndef the_package():\n    return pytest.importorskip('a_package_nobody_has')\n\n\n"
++                                                               + t.replace("def test_one():", "def test_one(the_package):")),
++    "a fixture that skips, which every test gets": lambda t: "import pytest\n\n\n@pytest.fixture(autouse=True)\ndef _the_package():\n    pytest.skip('planted')\n\n\n" + t,
++}
++
++
++def test_a_test_switched_off_where_the_reader_did_not_look_turns_the_vacuity_gate_red(tmp_path):
++    for name, switch_off in _OFF_ELSEWHERE.items():
++        repo, anchor = _scratch(tmp_path / name.replace(" ", "_").replace(",", ""), _LOCKS)
++        assert _gate(repo, "test-vacuity", anchor)[0] is True
++        _commit(repo, "a test is switched off: " + name, {"tests/test_one.py": switch_off(_LOCKS["tests/test_one.py"])})
++        ok, detail = _gate(repo, "test-vacuity", anchor)
++        assert ok is False, f"a test of a lock was switched off ({name}), and the vacuity gate passed: {detail}"
++        assert "may now skip" in detail and "tests/test_one.py" in detail, (name, detail)
++    # the twins: a mark bound to a name that no test wears; a call that skips inside a helper that is not a test
++    for name, text in (("a mark nobody wears", "import pytest\n\nnot_today = pytest.mark.skip(reason='for another day')\n\n\n" + _LOCKS["tests/test_one.py"]),
++                       ("a helper", "import pytest\n\n\ndef needs_the_package():\n    pytest.importorskip('a_package_nobody_has')\n\n\n" + _LOCKS["tests/test_one.py"])):
++        repo, anchor = _scratch(tmp_path / name.replace(" ", "_"), _LOCKS)
++        _commit(repo, name, {"tests/test_one.py": text})
++        ok, detail = _gate(repo, "test-vacuity", anchor)
++        assert ok is True, (name, detail)
++
++
++def _vacuity_checker():
++    spec = importlib.util.spec_from_file_location("vacuity_checker_for_the_ledger_rule", ROOT / "scripts" / "checks" / "check_test_vacuity.py")
++    ctv = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(ctv)
++    return ctv
++
++
++def test_a_class_of_tests_marked_in_its_own_body_is_read():
++    ctv = _vacuity_checker()
++    src = "import pytest\n\n\nclass TestIt:\n    pytestmark = pytest.mark.skip(reason='planted')\n\n    def test_a(self):\n        assert sorted([2, 1])[0] == 1\n"
++    assert ctv.switches(src) == {"": 0, "TestIt.test_a": 1}, "a class's own mark, set in its body, is not counted on its tests"
++    assert ctv.switches(src.replace("    pytestmark = pytest.mark.skip(reason='planted')\n\n", "")) == {"": 0, "TestIt.test_a": 0}
++
++
+ def test_a_test_that_may_now_skip_passes_only_by_a_recorded_act(tmp_path):
+     repo, anchor = _scratch(tmp_path, _LOCKS)
+     _commit(repo, "a test is made to skip", {"tests/test_one.py": _OFF["a skipif mark"](_LOCKS["tests/test_one.py"])})
+-- 
+2.43.0
+

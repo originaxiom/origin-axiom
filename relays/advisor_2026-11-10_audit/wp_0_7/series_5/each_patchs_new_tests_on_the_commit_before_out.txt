@@ -1,0 +1,229 @@
+Each patch's new test functions, run on the commit before the patch: the test files as the patch leaves them, the code as it was.
+A test that fails here was not passed before its patch. Four pass here, and each is a twin or a case an earlier patch closed:
+  patch 1: a debt gate gives one answer on one commit (the failure main saw once was not seen again; the test holds what must stay so)
+  patch 4: a merge is read for what it changes itself (a twin)
+  patch 15: a ceiling named as raised once does not rise again on that record (closed by patch 8, held here);
+            on this repository the two ratchets read as they did (a twin)
+Two of patch 13's seven fail here only because the function they call is not there before the patch (the twins of honest
+sentences, and the reading of this repository).
+
+==== patch 1: eba8d5c8f -- A DEBT CHECKER READS NO CLOCK, AND NO ZONE OF THE MACHINE (Review 79, the second reader's row 20, its second a
+     its 3 tests, on the commit before (556416087):
+        E   AssertionError: the harvest checker ages a seat's item by the zone of the machine: 'endent: 0), aged past 21d 1, mirror lag 0; skipped 24 [0.0s]' where the zone is behind, 'endent: 0), aged past 21d 0, mirror lag 0; skipped 24
+        tests/test_gates_are_a_function_of_the_commit.py:645: AssertionError: the harvest checker ages a seat's item by the zone of the machine: 'endent: 0), aged past 21d 1, mirror lag 0; skipped 24 [0.0s]' where the zone is behind, 'end
+        E   AssertionError: the harvest checker's line ends with how long it ran:   harvest-debt (2026-11-11): 1 seat-index ids across 25 seats; NEW unrowed 0, BACKLOG 1, STALE rows 0, relays without a row 1, SCHEDULED rows 0 (ledger-wide
+        tests/test_gates_are_a_function_of_the_commit.py:629: AssertionError: the harvest checker's line ends with how long it ran:   harvest-debt (2026-11-11): 1 seat-index ids across 25 seats; NEW unrowed 0, BACKLOG 1, STALE rows 0, rel
+     PASSED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_gives_one_answer_on_one_commit
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_age_of_a_seats_item_is_the_same_in_every_zone_of_the_host
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_harvest_checker_does_not_say_how_long_it_ran
+     2 failed, 1 passed in 36.83s
+
+==== patch 2: 2889989f9 -- A SEAT'S BRANCH IS FOUND BY A NAME THAT FITS ONE BRANCH, AND A HARVEST GATE THAT COULD READ NO BRANCH FAILS AN
+     its 4 tests, on the commit before (eba8d5c8f):
+        E   AssertionError: the name web-seat fits two branches of the remote, one was taken without a word, and the checker ended with status 0
+        tests/test_gates_are_a_function_of_the_commit.py:672: AssertionError: the name web-seat fits two branches of the remote, one was taken without a word, and the checker ended with status 0
+        E   AssertionError: the harvest gate could read no seat's branch in this clone, and it answers: ok (no seat's branch is past its pin in this clone)
+        tests/test_gates_are_a_function_of_the_commit.py:702: AssertionError: the harvest gate could read no seat's branch in this clone, and it answers: ok (no seat's branch is past its pin in this clone)
+        E   AssertionError: ok (no seat's branch is past its pin in this clone)
+        tests/test_gates_are_a_function_of_the_commit.py:714: AssertionError: ok (no seat's branch is past its pin in this clone)
+        E   AssertionError: 6, in <module>
+              KeyError: 'head'
+        tests/test_gates_are_a_function_of_the_commit.py:683: AssertionError: 6, in <module>
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_branch_name_that_fits_two_branches_is_refused_by_name
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_harvest_gate_that_could_read_no_seats_branch_fails_and_says_so
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_harvest_gate_that_read_some_branches_says_which_it_did_not_read
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_pin_that_does_not_resolve_is_said_and_the_report_does_not_break
+     4 failed in 2.17s
+
+==== patch 3: 59b309113 -- A ZONE CANNOT MOVE THE DAY BACK, AND THE GUARD ON THE DAY READS EVERY COMMIT (Review 79, the second reader's r
+     its 3 tests, on the commit before (2889989f9):
+        E   AssertionError: a commit dated a month before its parent was merged from a branch, and the guard reads: []
+        tests/test_gates_are_a_function_of_the_commit.py:817: AssertionError: a commit dated a month before its parent was merged from a branch, and the guard reads: []
+        E   AttributeError: module 'gates_for_the_commit_rule' has no attribute '_utc_day'
+        tests/test_gates_are_a_function_of_the_commit.py:771: AttributeError: module 'gates_for_the_commit_rule' has no attribute '_utc_day'
+     E   AssertionError: a commit made one second after its parent has an earlier day (2026-11-09, after 2026-11-10): the day went backwards and the guard passed
+     tests/test_gates_are_a_function_of_the_commit.py:751: AssertionError: a commit made one second after its parent has 
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_commit_dated_before_any_of_its_parents_is_refused_wherever_it_stands
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_commit_made_in_the_first_hour_of_a_day_in_a_zone_ahead_is_judged_on_the_day_it_states
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_zone_cannot_move_the_day_of_a_commit_back
+     3 failed in 2.21s
+
+==== patch 4: 79bc93ad1 -- THE GUARDS OF WHAT IS SEALED READ EVERY COMMIT (Review 79, the second reader's row 23). Three guards hold that
+     its 3 tests, on the commit before (59b309113):
+        E   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 69: invalid continuation byte
+        /usr/local/lib/python3.13/subprocess.py:1100: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 69: invalid continuation byte
+        E   AssertionError: frontier/B9_an_arc/PREREGISTRATION.md was added on a branch, changed there, and merged; the guards read: []
+        tests/test_gates_are_a_function_of_the_commit.py:882: AssertionError: frontier/B9_an_arc/PREREGISTRATION.md was added on a branch, changed there, and merged; the guards read: []
+     PASSED tests/test_gates_are_a_function_of_the_commit.py::test_a_merge_is_read_for_what_it_changes_itself_and_not_for_what_it_brings
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_list_whose_bytes_are_not_text_does_not_break_the_guard
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_what_is_sealed_on_a_branch_and_changed_there_before_the_merge_is_read
+     2 failed, 1 passed in 1.85s
+
+==== patch 5: 6953928b8 -- A GATE READS THE COMMIT'S FILES, AND ONE IT CANNOT READ IT DOES NOT PASS OVER (Review 79, the second reader's 
+     its 5 tests, on the commit before (79bc93ad1):
+        E   AssertionError: a gate whose check ran, and that says what it left, is printed as a skip:   SKIP  closure-generated: every generated page compared with its builder; skipped in part: the programme's quotes of other seats, not i
+        tests/test_a_gate_reads_all_it_is_about.py:933: AssertionError: a gate whose check ran, and that says what it left, is printed as a skip:   SKIP  closure-generated: every generated page compared with its builder; skipped in part: 
+     E   AssertionError: a tracked list of hashed files could not be read, and the gate passed over it: ok (0 entries in 0 lists: 0 verify, 0 do not (0 distinct, each frozen in the state it was found in, or amended 
+     tests/test_a_gate_reads_all_it_is_about.py:879: AssertionError: a tracked list of hashed files could not be read, an
+     E   AssertionError: a tracked page could not be read, and the arrival gate passed over it: ok (0 new on the pages read; 0 old line(s) frozen by key)
+     tests/test_a_gate_reads_all_it_is_about.py:925: AssertionError: a tracked page could not be read, and the arrival ga
+        E   AssertionError: a tracked file that a list names could not be read, and the gate read it as not there: ok (2 entries in 2 lists: 1 verify, 1 do not (1 distinct, each frozen in the state it was found in, or amended by name; the
+        tests/test_a_gate_reads_all_it_is_about.py:894: AssertionError: a tracked file that a list names could not be read, and the gate read it as not there: ok (2 entries in 2 lists: 1 verify, 1 do not (1 distinct, each frozen in the st
+        E   AssertionError: git could not list the tracked files, and the arrival gate answered from the disk: 1 sentence(s) of arrival on the pages read (allowed 0): docs/A_DRAFT.md: the standard model is derived x1
+        tests/test_a_gate_reads_all_it_is_about.py:914: AssertionError: git could not list the tracked files, and the arrival gate answered from the disk: 1 sentence(s) of arrival on the pages read (allowed 0): docs/A_DRAFT.md: the standa
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_gate_that_read_in_part_is_printed_as_a_pass_with_its_whole_sentence
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_list_of_hashed_files_that_cannot_be_read_fails_the_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_page_the_arrival_gate_cannot_read_fails_it
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_tracked_file_that_cannot_be_read_is_not_a_file_that_is_not_there
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_arrival_gate_does_not_walk_the_disk_where_git_will_not_list_the_tracked_files
+     5 failed in 1.28s
+
+==== patch 6: 9c590ba39 -- A FILE THAT IS TRACKED COMPRESSED IS HELD TO WHAT IT HOLDS (main's M9, from the second round of Review 79; reg
+     its 3 tests, on the commit before (6953928b8):
+        E   AssertionError: a file that cannot be opened as its name says, and the gate reads: ok (2 entries in 2 lists: 1 verify, 1 do not (1 distinct, each frozen in the state it was found in, or amended by name; the table holds 1); 1 o
+        tests/test_a_gate_reads_all_it_is_about.py:981: AssertionError: a file that cannot be opened as its name says, and the gate reads: ok (2 entries in 2 lists: 1 verify, 1 do not (1 distinct, each frozen in the state it was found in,
+     E   AssertionError: the content of a file that is tracked compressed (.gz) was replaced, and the gate on the hash lists passed: ok (2 entries in 2 lists: 1 verify, 1 do not (1 distinct, each frozen in the state
+     tests/test_a_gate_reads_all_it_is_about.py:972: AssertionError: the content of a file that is tracked compressed (.g
+        E   AssertionError: []
+        tests/test_a_gate_reads_all_it_is_about.py:999: AssertionError: []
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_compressed_file_that_cannot_be_opened_or_does_not_end_fails_the_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_file_tracked_compressed_is_held_to_what_it_holds
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_the_one_file_tracked_compressed_verifies
+     3 failed in 8.58s
+
+==== patch 7: c81785881 -- A LOCK THAT A CLAIM CITES IS A FILE (main's case written after reading series 3; its B1896, register row P-820
+     its 1 tests, on the commit before (9c590ba39):
+     E   AssertionError: a proven row cites a folder named like a test file, and the claims gate passed: ok (3 rows in the locked tables, 3 citing a lock; 0 held by name as found without one; 1 of the table now cite
+     tests/test_a_gate_reads_all_it_is_about.py:197: AssertionError: a proven row cites a folder named like a test file, 
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_row_that_cites_a_folder_named_like_a_test_file_fails_the_claims_gate
+     1 failed in 0.56s
+
+==== patch 8: 7261448d3 -- EVERY STEP UP OF A CEILING NEEDS ITS RECORD (main's register row P-816, found by main reading series 2; its B1
+     its 2 tests, on the commit before (c81785881):
+        E   AssertionError: the baseline fell to 0 and rose back to 1 with no record, and the gate reads: ok
+        tests/test_nothing_leaves_a_ledger.py:649: AssertionError: the baseline fell to 0 and rose back to 1 with no record, and the gate reads: ok
+        E   AssertionError: a ceiling fell from 4 to 2 and rose back to 4 with no record, and the rule reads nothing
+        tests/test_nothing_leaves_a_ledger.py:687: AssertionError: a ceiling fell from 4 to 2 and rose back to 4 with no record, and the rule reads nothing
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_baseline_that_falls_and_rises_back_needs_its_record
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_ceiling_of_the_attribution_table_that_falls_and_rises_back_needs_its_record
+     2 failed in 1.06s
+
+==== patch 9: 04a3beb04 -- A TABLE OF WHAT IS HELD BY NAME SHORTENS FREELY AND GROWS ONLY BY A RECORDED ACT (main's request of 2026-11-12
+     its 9 tests, on the commit before (7261448d3):
+        E   AssertionError: a name was added to CANNOT_FAIL_AS_FOUND as the gates are loaded, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a call, none is
+        tests/test_a_gate_reads_all_it_is_about.py:1227: AssertionError: a name was added to CANNOT_FAIL_AS_FOUND as the gates are loaded, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is k
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        tests/test_a_gate_reads_all_it_is_about.py:1033: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        E   AssertionError: a row was excused from the sweep by name with no record, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a call, none is unable t
+        tests/test_a_gate_reads_all_it_is_about.py:1210: AssertionError: a row was excused from the sweep by name with no record, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from 
+        E   AssertionError: a name was added to CANNOT_FAIL_AS_FOUND with no record, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a call, none is unable t
+        tests/test_a_gate_reads_all_it_is_about.py:1192: AssertionError: a name was added to CANNOT_FAIL_AS_FOUND with no record, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from 
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        tests/test_a_gate_reads_all_it_is_about.py:1033: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        E   AssertionError: a new table named as held stands in a checker and is in no list, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a call, none is 
+        tests/test_a_gate_reads_all_it_is_about.py:1236: AssertionError: a new table named as held stands in a checker and is in no list, and the controls gate reads: ok (53 gates with a registered failing-path test, each read: none is ke
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        tests/test_a_gate_reads_all_it_is_about.py:1033: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        tests/test_a_gate_reads_all_it_is_about.py:1033: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'held_tables_growth'
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'HELD_TABLES'
+        tests/test_a_gate_reads_all_it_is_about.py:1253: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'HELD_TABLES'
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_name_added_as_the_gates_are_loaded_fails_the_controls_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_name_added_by_a_second_statement_is_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_name_added_to_a_table_of_a_checker_fails_the_controls_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_name_added_to_a_table_of_the_gates_fails_the_controls_gate_until_it_is_recorded
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_name_that_enters_a_held_table_needs_its_record
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_new_table_named_as_held_must_be_in_the_list
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_table_is_judged_from_the_commit_in_which_it_first_stood
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_table_of_pairs_and_one_keyed_by_two_texts_are_read_by_what_they_excuse
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_nine_tables_are_held_and_one_name_entered_by_a_recorded_act
+     9 failed in 2.77s
+
+==== patch 10: d5e1ecf2d -- A WORD OF MENTION EXCUSES A PHRASE ONLY WHERE IT STANDS WITH IT (main's M13, its second item, from the first f
+     its 2 tests, on the commit before (04a3beb04):
+     E   AssertionError: a withdrawn phrase stands live more than 300 characters from the only word of mention on its line, and the sweep passed: ok (1 rows of the registry read: 1 swept, 0 that retract a reading an
+     tests/test_a_gate_reads_all_it_is_about.py:462: AssertionError: a withdrawn phrase stands live more than 300 charact
+     E   AssertionError: a withdrawn phrase stands live in one cell and a word of mention in another, and the sweep passed: ok (1 rows of the registry read: 1 swept, 0 that retract a reading and are not swept; 13 na
+     tests/test_a_gate_reads_all_it_is_about.py:444: AssertionError: a withdrawn phrase stands live in one cell and a wor
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_word_of_mention_far_from_the_phrase_does_not_excuse_it
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_word_of_mention_in_another_cell_of_the_row_does_not_excuse_the_phrase
+     2 failed in 0.68s
+
+==== patch 11: 00ff3a42c -- A WITHDRAWN PHRASE IS READ ACROSS A LINE BREAK (main's unseen case U17.b for series 3; its B1896, register row
+     its 1 tests, on the commit before (d5e1ecf2d):
+     E   AssertionError: a withdrawn phrase broken over lines (two) passed the sweep: ok (1 rows of the registry read: 1 swept, 0 that retract a reading and are not swept; 13 name(s) in the sweep's tables meet nothi
+     tests/test_a_gate_reads_all_it_is_about.py:484: AssertionError: a withdrawn phrase broken over lines (two) passed th
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_withdrawn_phrase_broken_over_lines_is_found
+     1 failed in 0.46s
+
+==== patch 12: b0ecbb3f1 -- WHAT KEEPS A TEST FROM RUNNING IS READ WHEREVER IT STANDS (main's M13, its third item, the first part). Two re
+     its 3 tests, on the commit before (00ff3a42c):
+     E   AssertionError: a control that is kept from running (a skip under a condition) passed the controls gate: ok (53 gates with a registered failing-path test, each read: none is kept from running by a mark or a
+     tests/test_a_gate_reads_all_it_is_about.py:593: AssertionError: a control that is kept from running (a skip under a 
+        E   AssertionError: a class's own mark, set in its body, is not counted on its tests
+        tests/test_nothing_leaves_a_ledger.py:487: AssertionError: a class's own mark, set in its body, is not counted on its tests
+     E   AssertionError: a test of a lock was switched off (a skip under a condition), and the vacuity gate passed: ok (2 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+     tests/test_nothing_leaves_a_ledger.py:466: AssertionError: a test of a lock was switched off (a skip under a conditi
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_control_kept_from_running_is_refused_wherever_the_switch_stands
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_class_of_tests_marked_in_its_own_body_is_read
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_test_switched_off_where_the_reader_did_not_look_turns_the_vacuity_gate_red
+     3 failed in 1.24s
+
+==== patch 13: 30e0e14d4 -- A SENTENCE OF ARRIVAL IS READ AS A READER READS IT
+     its 7 tests, on the commit before (b0ecbb3f1):
+        E   AssertionError: The **Standard Model** is derived.
+        tests/test_a_gate_reads_all_it_is_about.py:1494: AssertionError: The **Standard Model** is derived.
+        E   AssertionError: []
+        tests/test_a_gate_reads_all_it_is_about.py:1508: AssertionError: []
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'arrival_places'
+        tests/test_a_gate_reads_all_it_is_about.py:1468: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'arrival_places'
+        E   AttributeError: module 'gates_for_the_reach_rule' has no attribute 'arrival_places'
+        tests/test_a_gate_reads_all_it_is_about.py:1530: AttributeError: module 'gates_for_the_reach_rule' has no attribute 'arrival_places'
+        E   AssertionError: a sentence of arrival that a reader planted is not refused: 'Without a single free parameter, the Standard Model is derived.' -> []
+        tests/test_a_gate_reads_all_it_is_about.py:1443: AssertionError: a sentence of arrival that a reader planted is not refused: 'Without a single free parameter, the Standard Model is derived.' -> []
+        E   AssertionError: assert (',' not in 'We do not s... is derived.'
+        tests/test_a_gate_reads_all_it_is_about.py:1514: AssertionError: assert (',' not in 'We do not s... is derived.'
+        E   AssertionError: We do not claim, in this paper or in any other, that the Standard Model is derived.
+        tests/test_a_gate_reads_all_it_is_about.py:1481: AssertionError: We do not claim, in this paper or in any other, that the Standard Model is derived.
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_phrase_is_read_across_one_line_break_through_marks_and_not_across_a_paragraph
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_place_that_two_phrases_fit_is_reported_once
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_an_honest_sentence_of_denial_of_aim_or_of_condition_still_passes
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_the_arrival_gate_reads_as_it_did_and_every_other_place_is_excused_in_its_own_clause
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_nine_sentences_of_arrival_that_the_readers_planted_are_each_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_whole_of_the_sentence_before_the_phrase_is_read_and_no_word_is_cut
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_what_the_rule_refuses_though_it_is_honest_and_what_it_passes_though_it_is_not
+     7 failed in 2.31s
+
+==== patch 14: e849ccf5a -- THE HISTORY OF AUTHORSHIP IS READ IN ALL FOUR FIELDS
+     its 5 tests, on the commit before (30e0e14d4):
+        E   AssertionError: ("the committer's name", [])
+        tests/test_a_gate_reads_all_it_is_about.py:1585: AssertionError: ("the committer's name", [])
+        E   AssertionError: []
+        tests/test_a_gate_reads_all_it_is_about.py:1612: AssertionError: []
+        E   AssertionError: []
+        tests/test_a_gate_reads_all_it_is_about.py:1599: AssertionError: []
+        E   AssertionError: ok (851 commit(s) since da25c4f49 read: each by originaxiom, no vendor token and no co-author trailer in its message)
+        tests/test_a_gate_reads_all_it_is_about.py:1638: AssertionError: ok (851 commit(s) since da25c4f49 read: each by originaxiom, no vendor token and no co-author trailer in its message)
+        E   AssertionError: []
+        tests/test_a_gate_reads_all_it_is_about.py:1628: AssertionError: []
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_commit_is_held_to_the_repositorys_identity_in_all_four_fields
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_foreign_committer_on_a_commit_that_arrives_by_a_merge_is_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_vendor_token_in_a_name_or_an_address_is_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_one_identity_stands_in_all_four_fields_since_the_rules_commit
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_one_identity_passes_and_a_name_that_is_not_text_does_not_stop_the_gate
+     5 failed in 12.00s
+
+==== patch 15: d8a441072 -- A CEILING IS A WHOLE NUMBER, AND THE RAISES OF A BASELINE CHAIN
+     its 5 tests, on the commit before (e849ccf5a):
+        E   AssertionError: a ceiling of 5.5, with none at the anchor, is read as no step up
+        tests/test_nothing_leaves_a_ledger.py:790: AssertionError: a ceiling of 5.5, with none at the anchor, is read as no step up
+        E   AssertionError: None
+        tests/test_nothing_leaves_a_ledger.py:839: AssertionError: None
+        E   TypeError: argument of type 'NoneType' is not iterable
+        tests/test_nothing_leaves_a_ledger.py:816: TypeError: argument of type 'NoneType' is not iterable
+     PASSED tests/test_nothing_leaves_a_ledger.py::test_a_ceiling_named_as_raised_once_does_not_rise_again_on_that_record
+     PASSED tests/test_nothing_leaves_a_ledger.py::test_on_this_repository_the_two_ratchets_read_as_they_did
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_ceiling_that_is_not_a_whole_number_is_refused
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_each_step_up_of_the_baseline_is_the_raises_recorded_for_it
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_the_raises_of_the_baseline_are_counts_and_chain
+     3 failed, 2 passed in 0.56s

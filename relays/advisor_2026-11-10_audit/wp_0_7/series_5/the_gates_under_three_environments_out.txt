@@ -1,0 +1,14 @@
+Every gate's answer and sentence on the last patch of series 5, under three environments.
+  1. plainly;
+  2. in a zone far to the east (TZ=Pacific/Kiritimati), with OA_REVIEW_MERGES, OA_POINT_REGISTER and OA_RETRACTIONS_LEDGER set;
+  3. in a zone far to the west (TZ=Pacific/Pago_Pago), with two untracked files on the disk: a page under docs/ that
+     holds a sentence of arrival, and a file under tests/.
+A gate is listed below where its answer or its sentence differs from the first run. The time a gate took is not compared.
+
+run 2: 53 gates; 0 give another answer or sentence than run 1
+run 3: 53 gates; 1 give another answer or sentence than run 1:
+   framing
+      run 1: True ok (14743 text files read, in any letter case; not read: 22 above 5 MB, 246 that are not text; 4 that quote what the gate bans, exempt by name)
+      run 3: True ok (14744 text files read, in any letter case; not read: 22 above 5 MB, 246 that are not text; 4 that quote what the gate bans, exempt by name)
+
+The answers of run 1: 51 pass; not passing: retraction-sweep, review-fires

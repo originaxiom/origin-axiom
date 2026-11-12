@@ -1,0 +1,204 @@
+From d8a441072fef4957fbcded4adc3f6613c87d9714 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 19:01:16 +0000
+Subject: [PATCH 15/15] WP-0.7, enforcement (cld-advisor's series 5, patch 15):
+ A CEILING IS A WHOLE NUMBER, AND THE RAISES OF A BASELINE CHAIN
+
+Review 80, agy-002's rows 48 and 49, which are about the two readers of a ceiling that this series changes
+(its patch 8). Main made the principal case of each again on these functions, and its third folder lists a
+sub-case of each that its probes did not make. Made again here on the commit before this patch; each stands
+in the patch's test.
+
+Row 48. A new ceiling of five and a half, with none at the anchor, was read as no ceiling and as no step up,
+and the gate that uses the table then lets five through. A ceiling that is not a whole number at or above
+zero is refused now, unless it stood so in the first state read. The sub-case, that nothing bounds a further
+rise of an entry once it is named as raised: read at its two ends it passes, as before; read along the
+history, as patch 8 reads it, the second step needs a second record. That part was closed by patch 8, and
+the test here holds it. What is still not bounded is said in the test: one step may be of any height.
+
+Row 49. A raise recorded "from false to true" paid for a rise of one: a truth value is a whole number to the
+language. It is refused. The sub-case, intervals that do not chain: the raises were added up, and raises
+that add up to the rise could name other numbers than the baseline took. Now a raise starts no higher than
+the baseline stood, and the baseline stands no higher than the last raise took it; and, read along the
+history, each step up is the raises recorded for it, in order, from where the step starts to where it ends.
+A raise that no step took is refused. The other sub-case, a record removed after its step was taken, was
+refused already, and the test holds it.
+
+On main nothing moves: both ratchets read as they did, and every ceiling of the attribution table is a whole
+number. No test of main's is changed.
+
+Not checked by main beyond the two principal cases. Tested against planted errors by the session that wrote
+it; the twins are a chain, a chain with a fall between two raises, and one step recorded as two raises.
+---
+ scripts/gates/gates.py                | 45 ++++++++++++++-
+ tests/test_nothing_leaves_a_ledger.py | 81 +++++++++++++++++++++++++++
+ 2 files changed, 125 insertions(+), 1 deletion(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index f4d0ca6ef..1ea7bed95 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -336,6 +336,18 @@ def ceiling_steps(path, states, since="the anchor", named=None):
+     not listed stands at 0.  Every step up of an entry, between one state and the next, needs a record of its own in `named`
+     (RAISED_BY_NAME for this file, where it is not given).  Returns (problem, note)."""
+     named = RAISED_BY_NAME.get(path, {}) if named is None else named
++    # A ceiling is a count.  Review 80, agy-002's row 48 as main made it again: a new ceiling of five and a half, with none at
++    # the anchor, was read as no ceiling at all and as no step up, and the gate that uses the table then lets five through.
++    # One that is not a whole number at or above zero is refused, unless it stood so in the first state read: what stood at
++    # the anchor is not re-judged.
++    whole = lambda v: isinstance(v, int) and not isinstance(v, bool) and v >= 0
++    read = [(w, t) for w, t in states if isinstance(t, dict)]
++    odd = sorted({(k, repr(t[k])[:24], w) for w, t in read[1:] for k in t
++                  if not whole(t[k]) and repr(read[0][1].get(k, whole)) != repr(t[k])}, key=lambda x: (x[0], str(x[2])))
++    if odd:
++        return (f"{len({k for k, _, _ in odd})} ceiling(s) in {path} are not a whole number: "
++                + "; ".join(f"{k} = {v}" + (f" in {w}" if w else "") for k, v, w in odd[:4])
++                + ". A ceiling is a count: a file holds that many and no more, and a value that is no count is read as none"), ""
+     steps = _steps_up(states)
+     said = lambda up: ", then ".join(f"{a} -> {b}" + (f" in {w}" if w else "") for a, b, w in up)
+     loose = sorted(k for k, up in steps.items() if len(up) > len(_records(named, k)))
+@@ -3359,13 +3371,30 @@ def baseline_rise(now, then, since="the anchor"):
+         return f"a raise of the baseline that was recorded at {since} has been removed or changed: a record does not leave the list", ""
+     new = r1[len(r0):]
+     for e in new:
++        # until series 5 a raise "from false to true" was a raise of one: a truth value is a whole number to the language
++        # (Review 80, agy-002's row 49 as main made it again)
++        count = lambda v: isinstance(v, int) and not isinstance(v, bool)
+         if not (isinstance(e, dict) and str(e.get("date", "")).strip() and str(e.get("reason", "")).strip()
+-                and isinstance(e.get("from"), int) and isinstance(e.get("to"), int) and e["to"] > e["from"]):
++                and count(e.get("from")) and count(e.get("to")) and e["to"] > e["from"]):
+             return f"a raise of the baseline recorded since {since} has no date, no reason, or does not go up: {str(e)[:120]}", ""
+     allowed = b0 + sum(e["to"] - e["from"] for e in new)
++    if not isinstance(b1, int) or isinstance(b1, bool):
++        return f"the baseline holds no count now ({b1!r}): the ratchet cannot be read", ""
+     if b1 > allowed:
+         return (f"the baseline rose {b0} -> {b1} since {since}, and the raises recorded since then account for {allowed - b0}. "
+                 f"A ceiling does not rise without a recorded act: add the raise to _baseline_raises with its date and its reason"), ""
++    # the raises chain (the same row's sub-case: intervals that do not chain).  The baseline may fall freely between two raises,
++    # so a raise may start below where the one before it ended, and not above; the first starts no higher than the baseline
++    # stood at the anchor; and the baseline now is no higher than the last raise took it.
++    at = b0
++    for e in new:
++        if e["from"] > at:
++            return (f"the raises of the baseline recorded since {since} do not chain: one goes {e['from']} -> {e['to']} where the "
++                    f"baseline stood no higher than {at}. A raise starts where the baseline stands"), ""
++        at = e["to"]
++    if new and b1 > at:
++        return (f"the baseline stands at {b1}, and the last raise recorded since {since} took it to {at}: the raises do not "
++                "account for where it stands"), ""
+     note = (f"; the baseline was raised {len(new)} time(s) by name since {since}: "
+             + "; ".join(f"{e['from']} -> {e['to']} ({e['date']})" for e in new[:4])) if new else ""
+     return None, note
+@@ -3392,6 +3421,20 @@ def baseline_rise_along(states, since="the anchor"):
+                 "A ceiling does not rise without a recorded act, and one taken down and put back up has risen: add each raise to "
+                 "_baseline_raises with its date and its reason. A step that stands in a commit is not taken back by lowering the "
+                 "baseline after it"), ""
++    # each step up is the raises recorded for it, in order: they start where the step starts and end where it ends.  Until
++    # this the raises were added up, and raises that add up to the steps' sum could name other numbers than the steps took.
++    left = list(new)
++    for a, b, w in ups:
++        at = a
++        while at < b:
++            if not left or left[0]["from"] != at or left[0]["to"] > b:
++                nxt = f"{left[0]['from']} -> {left[0]['to']}" if left else "none"
++                return (f"the baseline stepped up {a} -> {b} in {w}, and the next raise recorded since {since} is {nxt}: "
++                        "each step up is recorded as the raise it is, from where the baseline stood to where it went"), ""
++            at = left.pop(0)["to"]
++    if left:
++        return (f"{len(left)} raise(s) of the baseline recorded since {since} match no step up of it ({left[0]['from']} -> {left[0]['to']}): "
++                "a raise is recorded in the commit that takes it"), ""
+     return None, note
+ 
+ 
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 6f98131e3..bc515b1af 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -774,3 +774,84 @@ def test_a_ceiling_of_the_attribution_table_that_falls_and_rises_back_needs_its_
+     finally:
+         g._load_attr_baseline = real
+     assert g.attribution_baseline_rise() == (None, ""), "on main no ceiling has stepped up since the anchor"
++
++
++# ---- series 5: a ceiling is a whole number, and the raises of a baseline chain (Review 80: agy-002's rows 48 and 49) -------
++# Main made the principal case of each again on these functions (its second probe of the builder's rows) and lists a sub-case
++# of each that its probes did not make.  Both rows are about what this series changes, so the series is held to them.
++
++def test_a_ceiling_that_is_not_a_whole_number_is_refused():
++    g = _gates()
++    rises = lambda now, then, named=None: g.ceiling_rises("the/baseline.json", now, then, "abc123", named or {})
++    assert not (5 > 5.5)                                                # how the table is used: with a ceiling of 5.5 a file may hold 5
++    assert "rose" in rises({"a.md": 5}, {})[0]                          # the control of main's probe: a new ceiling of five is a step up
++    for odd in (5.5, "9", True, -1, None, [5], 5.0):
++        problem, _ = rises({"a.md": odd}, {})
++        assert problem and "not a whole number" in problem and "a.md" in problem, "a ceiling of %r, with none at the anchor, is read as no step up" % (odd,)
++    assert rises({"a.md": 5.5, "b.md": 2}, {"a.md": 5.5, "b.md": 3}) == (None, "")          # what stood so at the anchor is not re-judged
++    assert "not a whole number" in rises({"a.md": 6.5}, {"a.md": 5.5})[0]                # and one that changed since is
++
++
++def test_a_ceiling_named_as_raised_once_does_not_rise_again_on_that_record():
++    """the sub-case of row 48: once an entry was named as raised, nothing bounded a further rise of it"""
++    g = _gates()
++    record = {"a.md": "2026-11-12 -- one rise, for one reason"}
++    assert g.ceiling_rises("x", {"a.md": 50}, {"a.md": 1}, "abc123", record)[0] is None     # read at its two ends, as before series 5: one rise, one record
++    along = [("the anchor", {"a.md": 1}), ("c1", {"a.md": 2}), ("c2", {"a.md": 50})]
++    problem, _ = g.ceiling_steps("x", along, "abc123", record)
++    assert problem and "a.md 1 -> 2 in c1, then 2 -> 50 in c2" in problem and "2 steps up, 1 recorded" in problem, problem
++    two = {"a.md": ["2026-11-12 -- the first", "2026-11-13 -- the second, to fifty, and why"]}
++    assert g.ceiling_steps("x", along, "abc123", two)[0] is None
++    # what is not bounded, said here: one step may be of any height.  Its record is written in the commit that takes it.
++    assert g.ceiling_steps("x", [("the anchor", {"a.md": 1}), ("c1", {"a.md": 500})], "abc123", record)[0] is None
++
++
++def test_the_raises_of_the_baseline_are_counts_and_chain():
++    g = _gates()
++    then = {"unearned": 5, "_baseline_raises": []}
++    grow = lambda b, raises: {"unearned": b, "_baseline_raises": list(raises)}
++    r = lambda a, b: {"date": "2026-11-12", "from": a, "to": b, "reason": "why"}
++    # the principal case of row 49: a raise "from false to true" paid for a rise of one
++    assert True - False == 1
++    assert "does not go up" in g.baseline_rise(grow(6, [r(False, True)]), then)[0]
++    # the sub-case: intervals that do not chain.  Each of these adds up to the rise, which is all that was asked
++    assert "do not chain" in g.baseline_rise(grow(8, [r(5, 6), r(9, 11)]), then)[0]
++    assert "do not chain" in g.baseline_rise(grow(6, [r(40, 41)]), then)[0]
++    assert "took it to 3" in g.baseline_rise(grow(7, [r(1, 3)]), then)[0]
++    assert "took it to 4" in g.baseline_rise(grow(8, [r(5, 6), r(2, 4)]), then)[0]
++    # the twins: a chain, and a chain with a fall between two raises
++    assert g.baseline_rise(grow(8, [r(5, 6), r(6, 8)]), then)[0] is None
++    assert g.baseline_rise(grow(5, [r(5, 6), r(4, 5)]), then)[0] is None
++    assert g.baseline_rise(grow(3, [r(5, 6)]), then)[0] is None                           # raised, and then it fell
++    assert "holds no count now" in g.baseline_rise(grow("six", []), then)[0]
++
++
++def test_each_step_up_of_the_baseline_is_the_raises_recorded_for_it():
++    g = _gates()
++    r = lambda a, b: {"date": "2026-11-12", "from": a, "to": b, "reason": "why"}
++    at = lambda b, raises: {"unearned": b, "_baseline_raises": list(raises)}
++    def along(*states):
++        return g.baseline_rise_along([("the anchor", at(5, []))] + [("c%d" % (n + 1), s) for n, s in enumerate(states)], "abc123")[0]
++    # two steps, 5 -> 6 and 6 -> 8, and raises that add up to three and chain, and are not the steps that were taken
++    wrong = [r(5, 7), r(7, 8)]
++    assert g.baseline_rise(at(8, wrong), at(5, [])) [0] is None                           # read at its two ends, they pass
++    problem = along(at(6, wrong[:1]), at(8, wrong))
++    assert problem and "stepped up 5 -> 6 in c1" in problem and "5 -> 7" in problem, problem
++    assert along(at(6, [r(5, 6)]), at(8, [r(5, 6), r(6, 8)])) is None                      # the twin: each step is its raise
++    assert along(at(8, [r(5, 6), r(6, 8)])) is None                                        # the twin: one step, recorded as two raises that chain
++    assert along(at(6, [r(5, 6)]), at(4, [r(5, 6)]), at(5, [r(5, 6), r(4, 5)])) is None    # the twin: a fall, and a raise from where it fell to
++    # a raise that no step took
++    problem = along(at(5, [r(5, 6)]))
++    assert problem and "match no step up" in problem, problem
++    # the sub-case of row 49: an entry deleted after the anchor.  The raise is recorded, the step is taken, the record is removed
++    problem = along(at(6, [r(5, 6)]), at(6, []))
++    assert problem and "account for 0" in problem, problem
++
++
++def test_on_this_repository_the_two_ratchets_read_as_they_did():
++    g = _gates()
++    assert g.attribution_baseline_rise() == (None, "")
++    ok, detail = g.GATES["identification-register"]()
++    assert ok is True, detail
++    table = g._load_attr_baseline()
++    assert table and all(isinstance(v, int) and not isinstance(v, bool) and v >= 0 for v in table.values()), "a ceiling on main is not a whole number"
+-- 
+2.43.0
+

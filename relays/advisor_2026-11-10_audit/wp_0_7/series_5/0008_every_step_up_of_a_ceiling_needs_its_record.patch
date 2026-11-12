@@ -1,0 +1,368 @@
+From 7261448d3f8290ec4392b68f52ef114a399d58f0 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:32:20 +0000
+Subject: [PATCH 08/15] WP-0.7, enforcement (cld-advisor's series 5, patch 8;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4, the move of the old front pages and the
+ first seven of series 5 applied): EVERY STEP UP OF A CEILING NEEDS ITS RECORD
+ (main's register row P-816, found by main reading series 2; its B1893). The
+ rule of a ceiling compared two states: the file at the rule's anchor and the
+ file now. A ceiling taken down and then put back up to where it stood is no
+ higher now than at the anchor, and the step up was read by nothing. Main's
+ two cases: the identification baseline taken from 1 to 0 and back to 1 with
+ no record, and the gate said ok; one entry of the attribution table taken
+ from 4 to 2 and back to 4, and the rule read nothing. THE MEND: each of the
+ two ceilings is read along main's own line from the anchor: every state the
+ file has stood in, in order, and the file as it is on the disk last. In the
+ attribution table each step up of an entry needs a record of its own: one
+ text under the entry's name pays for one step, and a list of texts for as
+ many. For the identification baseline the steps up are added, and the raises
+ recorded since the anchor must account for the whole. The gate's sentence
+ names the commit in which each step stands. The rule of two ends is kept as
+ it was and is asked first. WHAT IT COSTS, for main to weigh: a step that
+ stands in a commit is not taken back by lowering the ceiling in a later
+ commit. It is in the history, and it is recorded; the record can say that it
+ was a mistake and where it was undone. So there is always a way to green that
+ rewrites nothing. A step that is in no commit yet can still be lowered again,
+ and the sentence says which kind it is. One assertion of the seat's own lock
+ for series 2 held the old remedy, that a ceiling lowered after a committed
+ rise reads as no rise; it now holds that the step is reported by its commit
+ and passes once it is recorded, with a dated note. THIS TURNS ONE TEST OF
+ MAIN'S LOCK FOR B1893 RED, AS ITS OWN NOTE SAYS IT WILL:
+ test_a_ceiling_that_falls_and_rises_back_is_still_not_seen fails at its first
+ assertion, where the plant on the identification baseline is now caught. The
+ first assertion of its second pair cannot fail by any mend: it gives the rule
+ of two states two equal tables, and two states hold no step between them. The
+ case it means, 4 to 2 to 4, is caught where the history is read. The arc's
+ page and its lock are main's to change. On main the attribution table has
+ stood in 2 states since the anchor and the identification baseline in 1, with
+ no step up; reading both histories takes four hundredths of a second, three
+ calls of git for each. What it does not reach: a fall and a rise back that
+ stayed on a side line and were merged as they began, which never moved the
+ ceiling of main's line; a ceiling in any file but these two, which is the
+ next patch. The lock: two tests added to
+ tests/test_nothing_leaves_a_ledger.py. On the commit before, both fail, and
+ the changed assertion with them: the gate says ok, and the rule reads
+ nothing. Main's own script for the two cases, run on the mend: both plants
+ are caught and both controls as before. Tested against planted errors;
+ reproduced, main's two cases by main's own script; computed once. 0 of 19.
+
+---
+ scripts/gates/gates.py                | 152 ++++++++++++++++++++++----
+ tests/test_nothing_leaves_a_ledger.py | 106 +++++++++++++++++-
+ 2 files changed, 233 insertions(+), 25 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 79b6a7d51..884d61226 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -257,16 +257,91 @@ def ceiling_rises(path, now, then, since="the anchor", named=None):
+     rose is a problem unless it is named in RAISED_BY_NAME with its date and why.  Returns (problem, note)."""
+     if then is None:
+         return None, ""
++    return ceiling_steps(path, [(None, then), (None, now)], since, named)
++
++
++# EVERY STEP UP OF A CEILING NEEDS ITS RECORD (WP-0.7, series 5; main's register row P-816, found by main reading series 2).
++# The rule above compares two states: the table at the anchor and the table now.  A ceiling taken down and then put back up
++# to where it stood is no higher now than at the anchor, and the step up was read by nothing.  A ceiling is now read along
++# main's own line from the anchor: every state the file has stood in, in order, and the file as it is on the disk last.
++# Each step up of an entry, from one state to the next, needs a record of its own: one text under the entry's name pays for
++# one step, and a list of texts for as many.  WHAT THAT COSTS: a step that stands in a commit is not taken back by lowering
++# the ceiling in a later commit.  It is in the history, and it is recorded (the record can say that it was a mistake and
++# where it was undone).  A step that is in no commit yet can still be lowered again, and the gate's sentence says which.
++def states_since(path, anchor=None, repo=None):
++    """the file at `path` as it stood at the anchor and after each later commit of main's own line that left it changed,
++    oldest first: ([(the commit's first nine characters, the text)], None), the text None where the file was not there; or
++    (None, why the history cannot be read).  Three calls of git, whatever the length of the history."""
++    anchor = anchor or NOTHING_LEAVES_FROM
++    git, why = _since_the_anchor(anchor, repo)
++    if why:
++        return None, why
++    cannot = f"cannot verify: the history of {path} since {anchor[:9]} could not be read in this clone"
++    line = git("rev-list", "--first-parent", "--reverse", f"{anchor}..HEAD")
++    if line.returncode != 0:
++        return None, cannot
++    commits = [anchor] + line.stdout.split()
++    ask = lambda mode, names: subprocess.run(["git", "-C", str(repo or ROOT), "cat-file", mode], input="".join(n + "\n" for n in names).encode(),
++                                             capture_output=True, timeout=180)
++    asked = ask("--batch-check", [f"{c}:{path}" for c in commits])
++    answers = asked.stdout.decode("utf-8", "replace").splitlines()
++    if asked.returncode != 0 or len(answers) != len(commits):
++        return None, cannot
++    states, last = [], None                                               # [(commit, blob)], one for each change of the file
++    for c, answer in zip(commits, answers):
++        m = re.fullmatch(r"([0-9a-f]{40,64}) blob \d+", answer)
++        blob = m.group(1) if m else ""                                    # "" where no file stood at that path in that commit
++        if not states or blob != last:
++            states.append((c[:9], blob))
++        last = blob
++    blobs = sorted({b for _c, b in states if b})
++    texts, got = {}, ask("--batch", blobs).stdout if blobs else b""
++    for b in blobs:                                                       # "<id> blob <size>" on a line, the bytes, a line break
++        head, _, got = got.partition(b"\n")
++        m = re.fullmatch(rb"([0-9a-f]{40,64}) blob (\d+)", head)
++        if not m or m.group(1).decode() != b or len(got) < int(m.group(2)):
++            return None, cannot
++        texts[b], got = got[:int(m.group(2))].decode("utf-8", "replace"), got[int(m.group(2)) + 1:]
++    return [(c, texts[b] if b else None) for c, b in states], None
++
++
++def _records(named, entry):
++    """the records `named` holds for `entry`: a text is one record, a list holds as many as its texts that say something"""
++    got = named.get(entry)
++    got = [got] if isinstance(got, str) else (list(got) if isinstance(got, (list, tuple)) else [])
++    return [str(r).strip() for r in got if str(r).strip()]
++
++
++THE_DISK = "the files as they are, in no commit yet"
++
++
++def ceiling_steps(path, states, since="the anchor", named=None):
++    """`states`: [(where, table)], the table of ceilings (entry -> count) in each state it has stood in since the anchor,
++    oldest first, the table as it is now last; `where` names the state for the gate's sentence (None: not said).  A state that
++    could not be read (no table) is passed over, and nothing is judged before the first that can be read.  An entry that is
++    not listed stands at 0.  Every step up of an entry, between one state and the next, needs a record of its own in `named`
++    (RAISED_BY_NAME for this file, where it is not given).  Returns (problem, note)."""
+     named = RAISED_BY_NAME.get(path, {}) if named is None else named
+     count = lambda v: v if isinstance(v, int) and not isinstance(v, bool) else 0
+-    rose = sorted(k for k, v in now.items() if count(v) > count(then.get(k)))
+-    loose = [k for k in rose if not str(named.get(k, "")).strip()]
+-    by_name = [k for k in rose if k not in loose]
+-    note = f"; {len(by_name)} ceiling(s) raised by name since {since}: " + "; ".join(f"{k} ({named[k]})" for k in by_name[:4]) if by_name else ""
++    read = [(w, t) for w, t in states if isinstance(t, dict)]
++    steps = {}                                                            # entry -> [(from, to, where)], in the order they came
++    for (_w, was), (where, then) in zip(read, read[1:]):
++        for k in then:
++            if count(then[k]) > count(was.get(k)):
++                steps.setdefault(k, []).append((count(was.get(k)), count(then[k]), where))
++    said = lambda up: ", then ".join(f"{a} -> {b}" + (f" in {w}" if w else "") for a, b, w in up)
++    loose = sorted(k for k, up in steps.items() if len(up) > len(_records(named, k)))
++    by_name = sorted(k for k in steps if k not in loose)
++    note = (f"; {len(by_name)} ceiling(s) raised by name since {since}: "
++            + "; ".join(f"{k} ({'; '.join(_records(named, k))})" for k in by_name[:4])) if by_name else ""
+     if loose:
++        short = [k for k in loose if _records(named, k)]
+         return (f"{len(loose)} ceiling(s) in {path} rose since {since} with no record: "
+-                + "; ".join(f"{k} {count(then.get(k))} -> {count(now[k])}" for k in loose[:4])
+-                + ". A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why"), note
++                + "; ".join(f"{k} {said(steps[k])}" + (f" ({len(steps[k])} steps up, {len(_records(named, k))} recorded)" if k in short else "")
++                            for k in loose[:4])
++                + ". A ceiling does not rise without a recorded act: name it in RAISED_BY_NAME with its date and why, one record for "
++                  "each step up (a list of them where an entry rose more than once). A step that is in no commit yet can be lowered "
++                  "again; one that stands in a commit is not taken back by lowering the ceiling after it"), note
+     return None, note
+ 
+ 
+@@ -650,20 +725,22 @@ def attribution_baseline_rise(anchor=None, repo=None, named=None, moved=None):
+     a tracked file that the commit adding the tokens could raise.  "The footprint can only shrink" is the baseline's own
+     rule; it is now read against the baseline as it was at the anchor.  Returns (problem, note)."""
+     anchor = anchor or NOTHING_LEAVES_FROM
+-    git, why = _since_the_anchor(anchor, repo)
++    texts, why = states_since("docs/ATTRIBUTION_BASELINE.json", anchor, repo)
+     if why:
+         return why, ""
+-    was = git("show", f"{anchor}:docs/ATTRIBUTION_BASELINE.json")
+-    try:
+-        then = json.loads(was.stdout).get("frozen", {}) if was.returncode == 0 else None
+-    except Exception:
+-        then = None                                                       # unreadable at the anchor: not re-judged
+-    if isinstance(then, dict):
+-        # a page that was moved keeps its ceiling: its entry at the anchor is read at the place the page is now.  Without this
+-        # the move reads as an entry that fell and a new one that rose from nothing (2026-11-12; register row P-825)
+-        moved = (moved_pages() if repo is None else {}) if moved is None else moved
+-        then = {moved.get(k, k): v for k, v in then.items()}
+-    return ceiling_rises("docs/ATTRIBUTION_BASELINE.json", _load_attr_baseline(), then if isinstance(then, dict) else None, anchor[:9], named)
++    # a page that was moved keeps its ceiling: its entry in an earlier state is read at the place the page is now.  Without this
++    # the move reads as an entry that fell and a new one that rose from nothing (2026-11-12; register row P-825)
++    moved = (moved_pages() if repo is None else {}) if moved is None else moved
++    states = []
++    for where, text in texts:                                             # series 5: every state since the anchor, not its two ends
++        try:
++            table = json.loads(text).get("frozen", {}) if text is not None else None
++        except Exception:
++            table = None                                                  # unreadable in that commit: passed over, not re-judged
++        states.append((where, {moved.get(k, k): v for k, v in table.items()} if isinstance(table, dict) else None))
++    if not isinstance(states[0][1], dict):
++        return None, ""                                                   # not there, or unreadable, at the anchor: as before
++    return ceiling_steps("docs/ATTRIBUTION_BASELINE.json", states + [(THE_DISK, _load_attr_baseline())], anchor[:9], named)
+ 
+ 
+ def gate_attribution(_anchor=None):
+@@ -3055,6 +3132,30 @@ def baseline_rise(now, then, since="the anchor"):
+     return None, note
+ 
+ 
++def baseline_rise_along(states, since="the anchor"):
++    """the same rule, read along the history (series 5; main's register row P-816).  `states`: [(where, the ratchet's file)]
++    in each state it has stood in since the anchor, oldest first, the file as it is now last; the file None where it could
++    not be read.  The rule of two ends is asked first, as before.  Then every step up from one state to the next is added
++    up, and the raises recorded since the anchor must account for the whole: a baseline taken down and put back up has
++    risen, and each time it is put back up is a raise.  Returns (problem, note)."""
++    then, now = states[0][1], states[-1][1]
++    problem, note = baseline_rise(now, then, since)
++    if problem or not isinstance(then, dict):
++        return problem, note
++    count = lambda t: t.get("unearned") if isinstance(t, dict) else None
++    read = [(w, count(t)) for w, t in states if isinstance(count(t), int) and not isinstance(count(t), bool)]
++    ups = [(a, b, w) for (_w, a), (w, b) in zip(read, read[1:]) if b > a]
++    new = (now.get("_baseline_raises") or [])[len(then.get("_baseline_raises") or []):]
++    recorded, rose = sum(e["to"] - e["from"] for e in new), sum(b - a for a, b, _w in ups)
++    if rose > recorded:
++        return (f"the baseline rose since {since}, step by step, by {rose} in all ("
++                + ", then ".join(f"{a} -> {b} in {w}" for a, b, w in ups[:6]) + f"), and the raises recorded since then account for {recorded}. "
++                "A ceiling does not rise without a recorded act, and one taken down and put back up has risen: add each raise to "
++                "_baseline_raises with its date and its reason. A step that stands in a commit is not taken back by lowering the "
++                "baseline after it"), ""
++    return None, note
++
++
+ def gate_identification_register(_anchor=None):
+     """B1231. The programme's dominant error mode is IDENTIFICATION -- gluing two structures whose
+     labels match, in different places, without a map. B813, B1223, and TWO of this bench's own in a
+@@ -3124,12 +3225,15 @@ def gate_identification_register(_anchor=None):
+         if why:
+             problems.append(why)
+         else:
+-            was = git("show", f"{anchor}:docs/IDENTIFICATION_BASELINE.json")
+-            try:
+-                then = _json.loads(was.stdout) if was.returncode == 0 else None
+-            except Exception:
+-                then = None                                               # unreadable at the anchor: not re-judged
+-            rise, note = baseline_rise(now, then if isinstance(then, dict) else None, anchor[:9])
++            texts, cannot = states_since("docs/IDENTIFICATION_BASELINE.json", anchor)
++            states = []
++            for where, t in texts or []:                                  # series 5: every state since the anchor, not its two ends
++                try:
++                    was = _json.loads(t) if t is not None else None
++                except Exception:
++                    was = None                                            # unreadable in that commit: passed over, not re-judged
++                states.append((where, was if isinstance(was, dict) else None))
++            rise, note = (cannot, "") if cannot else baseline_rise_along(states + [(THE_DISK, now)], anchor[:9])
+             if rise:
+                 problems.append(rise)
+             notes += note
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 50c4c7fd2..3b9799447 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -547,7 +547,12 @@ def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
+         problem, _ = g.attribution_baseline_rise(anchor, repo)
+         assert "a.md 2 -> 5" in problem
+         (repo / "docs" / "ATTRIBUTION_BASELINE.json").write_text(frozen({"a.md": 1}))
+-        assert g.attribution_baseline_rise(anchor, repo) == (None, "")
++        # 2026-11-12 (series 5; main's register row P-816).  Until today this line held (None, ""): the ceiling lowered on the
++        # disk read as no rise, because the rule compared the two ends.  Every step is now read, and the step 2 -> 5 stands in
++        # a commit: lowering the ceiling after it does not take it out of the history.  It is still reported, and by its commit.
++        problem, _ = g.attribution_baseline_rise(anchor, repo)
++        assert problem and "a.md 2 -> 5 in " + _git(repo, "rev-parse", "HEAD")[:9] in problem, problem
++        assert g.attribution_baseline_rise(anchor, repo, named={"a.md": "2026-11-12 -- raised by mistake, and lowered again"})[0] is None
+         assert "cannot verify" in g.attribution_baseline_rise("0" * 40, repo)[0]
+     finally:
+         g._load_attr_baseline = real
+@@ -618,3 +623,102 @@ def test_the_tests_that_record_an_act_run_whatever_the_tables_already_hold(tmp_p
+         except AssertionError as why:
+             broken[test.__name__] = (str(why).splitlines() or ["an assert with no message"])[0][:200]
+     assert not broken, "with an act already recorded in the gates, %d of the 6 tests that record one fail: %s" % (len(broken), broken)
++
++
++# ---- series 5: a ceiling that falls and rises back (main's P-816, found by reading series 2; its B1893) ------------------
++# The rule of a ceiling compared two states: the file at the anchor and the file now.  A ceiling taken down and then put
++# back up to where it stood is no higher now than at the anchor, and the step up between the two was read by nothing.
++# Each ceiling is now read along main's own line from the anchor, and every upward step needs its record.
++_BASELINE = "docs/IDENTIFICATION_BASELINE.json"
++_LEDGER = "docs/IDENTIFICATION_LEDGER.md"
++_EARNED = _IDENT.replace("| I-2 | two | A | B | x | y | **UNEARNED**", "| I-2 | two | A | B | x | y | **EARNED**")
++
++
++def test_a_baseline_that_falls_and_rises_back_needs_its_record(tmp_path):
++    """the case as main ran it: one identification is earned and the baseline lowered to 0; then a new unearned one is made
++    and the baseline moved back up to 1, where it stood at the anchor"""
++    assert _EARNED != _IDENT
++    third, third_earned = _UNEARNED % 3, (_UNEARNED % 3).replace("UNEARNED", "EARNED")      # no row leaves the ledger in this test
++    assert third_earned != third
++    repo, anchor = _scratch(tmp_path, _REGISTER)
++    _commit(repo, "earned, and the baseline lowered", {_LEDGER: _EARNED, _BASELINE: _baseline(0)})
++    assert _gate(repo, "identification-register", anchor)[0] is True                    # the twin: a fall needs no record
++    _commit(repo, "a new unearned row, the baseline moved back up, no record", {_LEDGER: _EARNED + third, _BASELINE: _baseline(1)})
++    rose = _git(repo, "rev-parse", "HEAD")[:9]
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False, "the baseline fell to 0 and rose back to 1 with no record, and the gate reads: " + detail
++    assert "0 -> 1 in " + rose in detail and "account for 0" in detail, detail
++    # the step stands in a commit: lowering the baseline after it does not take it back, and recording it does
++    (repo / _LEDGER).write_text(_EARNED + third_earned, encoding="utf-8")
++    (repo / _BASELINE).write_text(_baseline(0), encoding="utf-8")
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "0 -> 1 in " + rose in detail, detail
++    raise_ = {"date": "2026-11-12", "from": 0, "to": 1, "reason": "a new identification, registered with what would earn it"}
++    (repo / _BASELINE).write_text(_baseline(0, [raise_]), encoding="utf-8")
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is True, detail
++    _commit(repo, "the raise recorded", {_LEDGER: _EARNED + third, _BASELINE: _baseline(1, [raise_])})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is True and "raised 1 time(s) by name" in detail, detail
++    # down and up once more: the one record does not pay for two steps
++    _commit(repo, "lowered again", {_LEDGER: _EARNED + third_earned, _BASELINE: _baseline(0, [raise_])})
++    _commit(repo, "and raised again, on the old record", {_LEDGER: _EARNED + third_earned + (_UNEARNED % 4), _BASELINE: _baseline(1, [raise_])})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False, "the baseline rose twice by one each time, one raise is recorded, and the gate reads: " + detail
++    assert "by 2 in all" in detail and "account for 1" in detail, detail
++
++
++def test_a_ceiling_of_the_attribution_table_that_falls_and_rises_back_needs_its_record(tmp_path):
++    g = _gates()
++    repo = tmp_path / "small"
++    repo.mkdir()
++    _git(repo, "init", "-q")
++    frozen = lambda counts: json.dumps({"_note": "a ratchet", "frozen": counts}) + "\n"
++    where = "docs/ATTRIBUTION_BASELINE.json"
++    anchor = _commit(repo, "the anchor", {where: frozen({"a.md": 4, "b.md": 1})})
++    load_small = lambda: json.loads((repo / where).read_text())["frozen"]
++    real = g._load_attr_baseline
++    g._load_attr_baseline = load_small
++    try:
++        _commit(repo, "lowered", {where: frozen({"a.md": 2, "b.md": 1})})
++        assert g.attribution_baseline_rise(anchor, repo) == (None, "")                     # the twin: a fall needs no record
++        _commit(repo, "and raised back to where it stood", {where: frozen({"a.md": 4, "b.md": 1})})
++        problem, _ = g.attribution_baseline_rise(anchor, repo)
++        assert problem, "a ceiling fell from 4 to 2 and rose back to 4 with no record, and the rule reads nothing"
++        assert "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose" in problem and "a.md 2 -> 4" in problem, problem
++        problem, note = g.attribution_baseline_rise(anchor, repo, named={"a.md": "2026-11-12 -- the page was restored as it stood"})
++        assert problem is None and "1 ceiling(s) raised by name" in note, (problem, note)
++        # the same entry down and up a second time: one record does not pay for two steps, two records do
++        _commit(repo, "lowered again", {where: frozen({"a.md": 3, "b.md": 1})})
++        _commit(repo, "and raised again", {where: frozen({"a.md": 4, "b.md": 1})})
++        one = {"a.md": "2026-11-12 -- the page was restored as it stood"}
++        problem, _ = g.attribution_baseline_rise(anchor, repo, named=one)
++        assert "a.md 2 -> 4 in " in problem and ", then 3 -> 4 in " in problem and "(2 steps up, 1 recorded)" in problem, problem
++        two = {"a.md": ["2026-11-12 -- the page was restored as it stood", "2026-11-13 -- and once more, for the same reason"]}
++        problem, note = g.attribution_baseline_rise(anchor, repo, named=two)
++        assert problem is None and "and once more" in note, (problem, note)
++        assert g.attribution_baseline_rise(anchor, repo, named={"a.md": ["2026-11-12 -- the first", "  "]})[0], "an empty text is no record"
++        # the file as it stands on the disk, not yet committed, is the last state; a step there can be lowered again
++        (repo / where).write_text(frozen({"a.md": 4, "b.md": 3}))
++        problem, _ = g.attribution_baseline_rise(anchor, repo, named=two)
++        assert "b.md 1 -> 3 in the files as they are" in problem and "a.md" not in problem.split("with no record:")[1].split(". A ceiling")[0], problem
++        (repo / where).write_text(frozen({"a.md": 4, "b.md": 1}))
++        assert g.attribution_baseline_rise(anchor, repo, named=two)[0] is None
++        # a rise that a merge brings onto main's own line is a step of that line, read at the merge
++        _git(repo, "checkout", "-q", "-b", "side")
++        _commit(repo, "on a side line: raised", {where: frozen({"a.md": 4, "b.md": 2})})
++        _git(repo, "checkout", "-q", "-")
++        _commit(repo, "meanwhile on the line itself", {"other.md": "x\n"})
++        _git(repo, "merge", "-q", "--no-ff", "-m", "the side line merged", "side")
++        problem, _ = g.attribution_baseline_rise(anchor, repo, named=two)
++        assert "b.md 1 -> 2 in " + _git(repo, "rev-parse", "HEAD")[:9] in problem, problem
++        # and a fall and a rise back that stayed on a side line never moved the ceiling of the line: nothing to record
++        _git(repo, "reset", "-q", "--hard", "HEAD~1")
++        _git(repo, "checkout", "-q", "side")
++        _commit(repo, "on the side line: lowered back", {where: frozen({"a.md": 4, "b.md": 1})})
++        _git(repo, "checkout", "-q", "-")
++        _git(repo, "merge", "-q", "--no-ff", "-m", "the side line merged, as it began", "side")
++        assert g.attribution_baseline_rise(anchor, repo, named=two)[0] is None
++    finally:
++        g._load_attr_baseline = real
++    assert g.attribution_baseline_rise() == (None, ""), "on main no ceiling has stepped up since the anchor"
+-- 
+2.43.0
+

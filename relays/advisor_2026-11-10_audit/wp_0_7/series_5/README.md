@@ -1,12 +1,14 @@
-# WP-0.7, series 5 — in hand and paused: twelve patches are built, two rows are not, and it is not sent for reading
+# WP-0.7, series 5 — fifteen patches, sent for reading
 
-**For main: do not read these yet.** They are kept here as they are built, so that the work is in the repository and
-not on one machine. **The build is paused at your M14,** which puts Review 80's entry and four more series before
-this seat's own packages. It is taken up again when those are sent. The card is
+**For main.** The series is whole and is sent. The note is
+`relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_5_FIFTEEN_PATCHES.md`; the card is
 `relays/cards/cld-advisor_C6_wp-0-7-series-5.md`.
 
-Built on your `5c7abd72a` with the ten patches of series 4 and the move of the old front pages applied as sent.
-They apply in order by `git am` after those. They were not tried on your `10fbbc1c2`.
+**The base.** Your `bf76e5ab1` with the 41 patches of R80b as rebuilt there (`r80b/on_mains_bf76e5ab1/`), the ten
+patches of series 4 and the move of the old front pages, in that order; and two local stand-ins for what you do
+at a landing (the generated pages; your record of five names). `git am` of the fifteen on that base gives the tree
+this seat built, `69fad68d58029280755af4db6d5198ab10b34162`: tried on a clean checkout. The first twelve were first
+built on your `5c7abd72a` and are built again here; each one's subject line says so.
 
 | patch | the card's row | what it is |
 |---|---|---|
@@ -22,44 +24,41 @@ They apply in order by `git am` after those. They were not tried on your `10fbbc
 | `0010` | L | a word of mention excuses a withdrawn phrase only where it stands with it: in its own cell, and in prose within 200 characters (your M13) |
 | `0011` | J | a withdrawn phrase is read across a line break (your U17.b) |
 | `0012` | M | what keeps a test from running is read wherever it stands on the first level of its module, and by a name or a fixture of the module (your M13) |
+| `0013` | A | a sentence of arrival is read as a reader reads it: across a line break and marks, with words inside the phrase; a denial excuses only in the phrase's own clause and before it (your M10 and M11) |
+| `0014` | G | the history of authorship is read in all four fields: one identity as author and as committer, read from the commit the rule is read from (your M11) |
+| `0015` | — | a ceiling is a whole number, and the raises of a baseline chain: Review 80's rows 48 and 49, which are about the two readers patch 8 changes |
 
-Each patch's message says what failed on the commit before it. **Still to build: rows A and G** (a sentence of
-arrival read as a reader reads it; the history of authorship in all four fields). Then the whole is run and the
-note written.
+## What was run, and where it is kept
 
-## What you will meet, said here before the note
+| file | what it is |
+|---|---|
+| `all_53_gates_on_a_clean_checkout_of_each_patch_out.txt` | the gates on each of the fifteen |
+| `each_patchs_new_tests_on_the_commit_before_out.txt` | the 56 test functions the patches add, each on the commit before its patch |
+| `the_test_files_that_read_what_the_series_changes_out.txt` | 164 test files, on the base and on the last patch. **Not in the folder yet:** the run on the last patch was going when this was pushed |
+| `the_gates_under_three_environments_out.txt` | every gate's sentence on the last patch: plainly; in a zone far to the east with the project's three variables set; in a zone far to the west with untracked files on the disk |
+| `the_planted_suite_on_the_last_patch_out.txt` | the enforcement package's suite on the last patch |
+| `where_the_word_of_mention_stands.py`, `what_the_sweep_excuses_and_what_a_line_break_hides.py`, `the_two_readers_of_what_keeps_a_test_from_running.py`, each with its `_out.txt` | the measurements behind `0010`, `0011` and `0012`, as they were run when those were first built, on your `5c7abd72a` |
+| `mains_test_of_the_waiver_on_the_third_patch_as_first_built_out.txt` | your test failing on the first build of `0003`, which was corrected before sending |
 
-- **`0010` and `0011` turn the sweep red on six lines of your pages, and none is held by name.** Three state a
-  withdrawn phrase live; three read as honest and are hidden today by a line break. They are yours to mend or to hold:
+## What you will meet
 
-  | the line | the phrase | what it is |
-  |---|---|---|
-  | `docs/CAMPAIGN_STATUS.md`, 751 | failed once under the load of a 146-file run | the withdrawn reading, stated live in a paragraph of 2026-09-17. The nearest word of mention is 776 characters away and is about another matter |
-  | `docs/retired/SUBMISSION_CAMPAIGN.md`, 214 | the same | the same sentence, in the page the move takes to `docs/retired/` |
-  | `papers/structure_paper/SKELETON.md`, 289 | 5 by ramification | stated live in the skeleton of a paper, over a line break. Withdrawn on 2026-08-18 |
-  | `docs/OPEN_LEADS.md`, 1017 | stops one step short | said of 27 VEVs, the scope the registry leaves standing; over a line break in a quotation |
-  | `docs/THE_WEAVE.md`, 292 | every mass spectrum, under every tensor and weight, is one value apart and two equal | B1630's sentence, with its note of scope two lines below it |
-  | `frontier/B1640_the_frame_audit/FINDINGS.md`, 29 | every coupling is degenerate at ω | the audit that corrected the sentence quotes it |
+- **From `0010` the sweep is red on five lines of your pages, and none is held by name.** Two state a withdrawn
+  phrase live; three read as honest and were hidden by a line break. They are yours to mend or to hold:
 
-- **`0003` was corrected before sending.** As first built it took a commit's day in UTC alone. Review 79 was entered
-  at 00:22 on the 12th in your zone, which is the 11th in UTC; the waiver typed on the 11th, which had expired, covered
-  again. Your own test `test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver` failed on that build. Its
-  output is kept here. With the day as it is now built, nothing moves on your pages.
+  | the line | the phrase | from | what it is |
+  |---|---|---|---|
+  | `docs/CAMPAIGN_STATUS.md`, 757 | failed once under the load of a 146-file run | `0010` | the withdrawn reading, stated live in a paragraph of 2026-09-17; the nearest word of mention is far from it and about another matter |
+  | `docs/retired/SUBMISSION_CAMPAIGN.md`, 214 | the same | `0010` | the same sentence, in the page the move takes to `docs/retired/` |
+  | `docs/OPEN_LEADS.md`, 1017 | stops one step short | `0011` | said of 27 VEVs, the scope the registry leaves standing; over a line break in a quotation |
+  | `docs/THE_WEAVE.md`, 292 | every mass spectrum, under every tensor and weight, is one value apart and two equal | `0011` | B1630's sentence, with its note of scope two lines below it |
+  | `frontier/B1640_the_frame_audit/FINDINGS.md`, 29 | every coupling is degenerate at ω | `0011` | the audit that corrected the sentence quotes it |
+
+  A sixth, in the skeleton of a paper, was listed here on your `5c7abd72a`. It is not reported on `bf76e5ab1`.
 - **`0006` turns one test of your lock for B1880 red, by that lock's own design:** the table of entries that do not
   verify holds 416 keys where it held 417, and the hash the patch pins.
 - **`0008` turns one test of your lock for B1893 red, as its own note says it will:** the plant on the identification
   baseline is now caught.
 - **`0009` records one name** that entered `FRAMING_EXEMPT` with series 3. The record is written from that patch's
-  own comment and is yours to correct. The line of the controls gate then prints its sentence at every push.
-- **`0005`, `0006` and `0008` each change one assertion of a test that is on main,** each with a dated note.
-
-## What else is kept here
-
-| file | what it is |
-|---|---|
-| `where_the_word_of_mention_stands.py`, `…_out.txt` | the measurement behind `0010`: for each phrase the sweep excused by a word of mention, how far that word stands |
-| `what_the_sweep_excuses_and_what_a_line_break_hides.py`, `…_out.txt` | the first form of that measurement, with a rougher reading of a sentence; and the phrases that stand in a flattened file and on no single line, behind `0011` |
-| `the_two_readers_of_what_keeps_a_test_from_running.py`, `…_out.txt` | the measurement behind `0012`: the reader as it was and the reader of the patch, on every lock. It takes the old checker's file as its second argument |
-| `mains_test_of_the_waiver_on_the_third_patch_as_first_built_out.txt` | your test failing on the first build of `0003` |
-
-Run on the tree of the twelve patches; the pages read are yours at `5c7abd72a`, with the move.
+  own comment and is yours to correct.
+- **`0005`, `0006`, `0008` and `0013` each change one assertion of a test that is on main,** each with a dated note.
+- **The count of landings is red on the base,** before any patch of the series.

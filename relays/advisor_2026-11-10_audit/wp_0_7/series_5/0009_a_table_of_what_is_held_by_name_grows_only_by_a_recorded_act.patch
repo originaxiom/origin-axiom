@@ -1,0 +1,605 @@
+From 04a3beb04a96912e329149404fed36afc9f75d47 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:32:24 +0000
+Subject: [PATCH 09/15] WP-0.7, enforcement (cld-advisor's series 5, patch 9;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4, the move of the old front pages and the
+ first eight of series 5 applied): A TABLE OF WHAT IS HELD BY NAME SHORTENS
+ FREELY AND GROWS ONLY BY A RECORDED ACT (main's request of 2026-11-12, made
+ with the landing of series 3; its M10). When a rule comes, what already
+ breaks it is held by name in a table beside the rule, as found, and the table
+ may only shrink. That was said in a comment, and here and there held by a
+ count in a lock. A name added to such a table excuses what its rule was made
+ to refuse, and nothing read the table's history. THE MEND: nine tables are
+ named in one list, HELD_TABLES: six in the gates, two in the retraction
+ sweep, one in the root conftest. Each is read along main's own line, from the
+ rule's anchor or from the commit in which the table first stood, and the file
+ as it is on the disk last. A name that enters a table after that needs a
+ record under the table's name in ENTERED_BY_NAME, with its date and why; a
+ name that leaves and comes back has entered again and needs a second. A table
+ is read as it is written: one plain statement at the top level of its file
+ binds it to a table written out, and nothing in the file binds the name again
+ or changes the table in place. A table bound twice, widened by a second
+ statement, shadowed by a parameter or a local name where it is read, or built
+ by anything but a table written out, cannot be read and fails the gate. For
+ the six tables of the gates' own file the gate also compares what it holds in
+ memory with what is written. A table named as these are, ending in _AS_FOUND
+ or _BY_NAME, that stands in the gates, in a checker or in the root conftest
+ and is not in the list fails the gate. The rule is asked by the gate on the
+ gates' own controls, which reads the past already: it is not a gate of its
+ own, so the count of gates stays 53; main may want it apart. The record is a
+ table of its own beside the list, and not RAISED_BY_NAME: that table stands
+ three lines under LEFT_BY_NAME, where main writes its records, and a patch
+ that adds a name with its record would not apply once main has written there.
+ ON MAIN: since the anchor one name has entered one of the nine after it first
+ stood, a file added to FRAMING_EXEMPT by the first patch of series 3, held as
+ found on the day the gate first read a .json. Its record is written in this
+ patch, from that patch's own comment; it is main's to correct. One name has
+ left: main shortened STANDS_AS_FOUND at the landing of series 3. A passing
+ gate that holds a record prints its sentence at every push, so the line of
+ the controls gate now names that file. The reading takes four tenths of a
+ second: the gates' file has stood in 33 states since the anchor, and the cost
+ grows with that number. WHAT IT COSTS, for main to weigh: as with a ceiling,
+ a name that entered in a commit is not taken back by taking it out in a later
+ commit; it is recorded. And a series that widens a rule and holds what it
+ finds must write the record in the same patch: the series after this one
+ does. WHAT IT DOES NOT REACH: a table of what is excused under any other
+ name. Thirteen more stand in the gates and two checkers: the lists of exempt
+ files and prefixes, and the sets held since before these rules. None has
+ grown since the anchor, so holding them would need no record today, and each
+ would be one line of the list: main's to say. The code that reads a table,
+ which can be changed to excuse more than the table names. A table changed
+ from another file as that file is loaded, for the three tables outside the
+ gates' own file: the lock compares those in memory, the gate does not. The
+ lock: nine tests added to tests/test_a_gate_reads_all_it_is_about.py. On the
+ commit before, all nine fail; the four that plant in a copy of the gates fail
+ with the controls gate saying ok: a name added to a table of the gates, a row
+ excused from the sweep by name, a name added in memory as the gates are
+ loaded, a new table in no list. Tested against planted errors; computed once.
+ 0 of 19.
+
+---
+ scripts/gates/gates.py                     | 236 ++++++++++++++++++-
+ tests/test_a_gate_reads_all_it_is_about.py | 260 +++++++++++++++++++++
+ 2 files changed, 488 insertions(+), 8 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 884d61226..7d4daca92 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -315,6 +315,19 @@ def _records(named, entry):
+ THE_DISK = "the files as they are, in no commit yet"
+ 
+ 
++def _steps_up(states):
++    """entry -> [(from, to, where)]: each step up of an entry from one state to the next, in the order they came.  `states`:
++    [(where, table)], oldest first; a state with no table is passed over; an entry that is not listed stands at 0."""
++    count = lambda v: v if isinstance(v, int) and not isinstance(v, bool) else 0
++    read = [(w, t) for w, t in states if isinstance(t, dict)]
++    steps = {}
++    for (_w, was), (where, then) in zip(read, read[1:]):
++        for k in then:
++            if count(then[k]) > count(was.get(k)):
++                steps.setdefault(k, []).append((count(was.get(k)), count(then[k]), where))
++    return steps
++
++
+ def ceiling_steps(path, states, since="the anchor", named=None):
+     """`states`: [(where, table)], the table of ceilings (entry -> count) in each state it has stood in since the anchor,
+     oldest first, the table as it is now last; `where` names the state for the gate's sentence (None: not said).  A state that
+@@ -322,13 +335,7 @@ def ceiling_steps(path, states, since="the anchor", named=None):
+     not listed stands at 0.  Every step up of an entry, between one state and the next, needs a record of its own in `named`
+     (RAISED_BY_NAME for this file, where it is not given).  Returns (problem, note)."""
+     named = RAISED_BY_NAME.get(path, {}) if named is None else named
+-    count = lambda v: v if isinstance(v, int) and not isinstance(v, bool) else 0
+-    read = [(w, t) for w, t in states if isinstance(t, dict)]
+-    steps = {}                                                            # entry -> [(from, to, where)], in the order they came
+-    for (_w, was), (where, then) in zip(read, read[1:]):
+-        for k in then:
+-            if count(then[k]) > count(was.get(k)):
+-                steps.setdefault(k, []).append((count(was.get(k)), count(then[k]), where))
++    steps = _steps_up(states)
+     said = lambda up: ", then ".join(f"{a} -> {b}" + (f" in {w}" if w else "") for a, b, w in up)
+     loose = sorted(k for k, up in steps.items() if len(up) > len(_records(named, k)))
+     by_name = sorted(k for k in steps if k not in loose)
+@@ -345,6 +352,216 @@ def ceiling_steps(path, states, since="the anchor", named=None):
+     return None, note
+ 
+ 
++# A TABLE OF WHAT IS HELD BY NAME SHORTENS FREELY AND GROWS ONLY BY A RECORDED ACT (WP-0.7, series 5; main's request of 2026-11-12,
++# made with the landing of series 3).  When a rule comes, what already breaks it is held by name in a table beside the rule,
++# "as found", and the table "may only shrink".  That was said in a comment, and here and there held by a count in a lock.  A
++# name added to such a table excuses what its rule was made to refuse, and nothing read the table's history.  Each table
++# named in HELD_TABLES is now read along main's own line, from the anchor or from the commit in which the table first stood:
++# a name that enters it after that needs a record in ENTERED_BY_NAME, under the table's name; one that leaves and comes back
++# has entered again and needs a second.  A table is read as it is written.  One statement at the top level of its file binds
++# it to a plain table, written out, and nothing in the file binds the name again or changes the table in place: a name
++# added by a second statement would stand in no state of the table that this rule reads.  For the tables of this file the
++# gate also compares what it holds in memory with what is written.  And a table named as these are (..._AS_FOUND, ..._BY_NAME)
++# that stands in the gates, in a checker or in the root conftest and is not in the list fails the gate: nothing would read it.
++# The rule is asked by the gate on the gates' own controls, which reads the past already; it is not a gate of its own.
++# WHAT THIS DOES NOT REACH: a table of what is excused under any other name (the lists of exempt files and prefixes, the
++# sets held since before these rules: main's to say whether they are held as well); the code that reads a table, which can
++# be changed to excuse more than the table names; a table changed from another file as that file is loaded.
++HELD_TABLES = {      # the table -> (the file whose top level binds it, what a name of it is)
++    "FRAMING_EXEMPT": ("scripts/gates/gates.py", "name"),
++    "CITES_NO_LOCK_AS_FOUND": ("scripts/gates/gates.py", "name"),
++    "LOCKS_IGNORED_PATHS_AS_FOUND": ("scripts/gates/gates.py", "pair"),          # the path with the lock that names it: its gate asks for both
++    "CANNOT_FAIL_AS_FOUND": ("scripts/gates/gates.py", "name"),
++    "PRINTED_FLOAT_AS_FOUND": ("scripts/gates/gates.py", "name"),
++    "MEMBER_SCOPE_AS_FOUND": ("scripts/gates/gates.py", "name"),
++    "NOT_SWEPT_BY_NAME": ("scripts/checks/retraction_sweep.py", "name"),
++    "STANDS_AS_FOUND": ("scripts/checks/retraction_sweep.py", "name"),           # (file, phrase), written here "file :: phrase"
++    "WRITTEN_BY_A_TEST_AS_FOUND": ("conftest.py", "name"),
++}
++ENTERED_BY_NAME = {  # the table -> {the name that entered it: "the date -- why"}; a list of such texts where a name entered more than once
++    "FRAMING_EXEMPT": {
++        "frontier/B887_gate_audit/audit_reports.json":
++            "2026-11-12 -- entered with the landing of series 3 (main's B1896), held as found on the day the gate first read a "
++            ".json: Review 38's audit of this gate quotes a banned phrase to say that the gate compares letter for letter",
++    },
++}
++_RECORD_TABLES = frozenset(("LEFT_BY_NAME", "RAISED_BY_NAME", "ENTERED_BY_NAME"))      # these hold the records, and grow by recording
++_NAMED_AS_HELD = re.compile(r"(?m)^([A-Za-z_][A-Za-z0-9_]*(?:_AS_FOUND|_BY_NAME))[ \t]*(?::[^=\n]*)?=(?!=)")
++_CHANGES_IN_PLACE = frozenset((
++    "add", "update", "setdefault", "pop", "popitem", "clear", "remove", "discard", "append", "extend", "insert", "sort", "reverse",
++    "difference_update", "intersection_update", "symmetric_difference_update", "__setitem__", "__delitem__", "__ior__", "__iadd__"))
++
++
++def _names_of(value, kind="name"):
++    """the names a table holds, as texts: its members, or a dictionary's keys (kind "pair": each key with what it is held for).
++    A member that is a tuple of texts is written "one :: two".  None where the value is no table."""
++    text = lambda e: e if isinstance(e, str) else (" :: ".join(text(x) for x in e) if isinstance(e, tuple) else repr(e))
++    if isinstance(value, dict):
++        return {f"{text(k)} -> {text(v)}" if kind == "pair" else text(k) for k, v in value.items()}
++    return {text(e) for e in value} if isinstance(value, (set, frozenset, tuple, list)) else None
++
++
++def _names_of_node(v, kind):
++    """the same, of the expression a statement binds a table to: a set, a tuple, a list or a dictionary written out, or one of
++    those given to frozenset, set, tuple or list.  Anything else is None: it cannot be read without running it."""
++    if isinstance(v, ast.Call) and isinstance(v.func, ast.Name) and v.func.id in ("frozenset", "set", "tuple", "list") and not v.keywords and len(v.args) <= 1:
++        if not v.args:
++            return set()
++        v = v.args[0]
++    try:
++        return _names_of(ast.literal_eval(v), kind)
++    except Exception:
++        return None
++
++
++def names_in_table(src, table, kind="name"):
++    """the names the table held in a source as it stood in some commit.  The one statement that binds it at the top level is
++    found by its first line and parsed alone, so that reading every state of a long file costs little.  None where the
++    source does not bind the table once, or binds it to anything but a plain table: such a state is passed over."""
++    if src is None:
++        return None
++    at = [m.start() for m in re.finditer(r"(?m)^%s[ \t]*(?::[^=\n]*)?=(?!=)" % re.escape(table), src)]
++    if len(at) != 1:
++        return None
++    lines = src[at[0]:].split("\n")
++    end = 1
++    while end < len(lines) and (not lines[end].strip() or lines[end][0] in " \t)]}#"):
++        end += 1
++    try:
++        body = ast.parse("\n".join(lines[:end])).body
++    except (SyntaxError, ValueError):
++        return None
++    if len(body) != 1 or not isinstance(body[0], (ast.Assign, ast.AnnAssign)) or body[0].value is None:
++        return None
++    return _names_of_node(body[0].value, kind)
++
++
++def _bound_in(tree):
++    """name -> the nodes of the tree that bind it, or that change in place what it names: one walk for every name"""
++    out = collections.defaultdict(list)
++    for n in ast.walk(tree):
++        kind_of = type(n).__name__
++        if isinstance(n, ast.Name):
++            if isinstance(n.ctx, (ast.Store, ast.Del)):
++                out[n.id].append(n)                                       # bound, widened in place, a loop's or a with's name, deleted
++        elif isinstance(n, (ast.Global, ast.Nonlocal)):
++            for name in n.names:
++                out[name].append(n)
++        elif isinstance(n, ast.arg):
++            out[n.arg].append(n)                                          # a parameter of that name stands in the table's place
++        elif isinstance(n, ast.alias):
++            out[n.asname or n.name].append(n)
++        elif kind_of in ("ExceptHandler", "FunctionDef", "AsyncFunctionDef", "ClassDef", "MatchAs", "MatchStar"):
++            if isinstance(getattr(n, "name", None), str):
++                out[n.name].append(n)
++        elif kind_of == "MatchMapping":
++            if getattr(n, "rest", None):
++                out[n.rest].append(n)
++        elif isinstance(n, ast.Subscript):
++            if isinstance(n.ctx, (ast.Store, ast.Del)) and isinstance(n.value, ast.Name):
++                out[n.value.id].append(n)                                 # an entry set or deleted
++        elif isinstance(n, ast.Call):
++            if isinstance(n.func, ast.Attribute) and isinstance(n.func.value, ast.Name) and n.func.attr in _CHANGES_IN_PLACE:
++                out[n.func.value.id].append(n)
++    return out
++
++
++def table_as_written(src, table, kind="name", parsed=None):
++    """the names the table holds in the file as it is now, read strictly: (names, None), or (None, why it cannot be read).
++    The whole file is parsed (`parsed`: the tree and what it binds, where the caller reads several tables of one file).  One
++    plain statement at the top level binds the table; nothing else in the file binds its name (a second statement, a
++    statement that widens it, a parameter or a local name that would stand in its place where it is read) and nothing
++    changes it in place."""
++    if parsed is None:
++        try:
++            tree = ast.parse(src)
++        except (SyntaxError, ValueError) as exc:
++            return None, f"its file cannot be parsed ({type(exc).__name__}, line {getattr(exc, 'lineno', '?')})"
++        parsed = (tree, _bound_in(tree))
++    tree, bound = parsed
++    binds = [n for n in tree.body
++             if (isinstance(n, ast.Assign) and len(n.targets) == 1 and getattr(n.targets[0], "id", None) == table)
++             or (isinstance(n, ast.AnnAssign) and getattr(n.target, "id", None) == table and n.value is not None)]
++    if len(binds) != 1:
++        return None, f"{len(binds)} plain statement(s) at the top level of the file bind it, where one must"
++    own = binds[0].targets[0] if isinstance(binds[0], ast.Assign) else binds[0].target
++    again = sorted({getattr(n, "lineno", 0) for n in bound.get(table, []) if n is not own})
++    if again:
++        return None, f"its name is bound again, or the table is changed in place, at line(s) {', '.join(map(str, again[:6]))} of the file"
++    names = _names_of_node(binds[0].value, kind)
++    if names is None:
++        return None, "it is bound to something other than a plain table written out"
++    return names, None
++
++
++def held_tables_growth(anchor=None, repo=None, named=None, tables=None):
++    """([problems], note): the tables of HELD_TABLES read along main's own line from the anchor, and the file as it is on
++    the disk last.  A name that entered a table after its first state needs a record under the table's name in `named`
++    (ENTERED_BY_NAME), one for each time it entered.  The note names what entered by a recorded act."""
++    anchor = anchor or NOTHING_LEAVES_FROM
++    tables = HELD_TABLES if tables is None else tables
++    named = ENTERED_BY_NAME if named is None else named
++    root = str(repo or ROOT)
++    git, why = _since_the_anchor(anchor, repo)
++    if why:
++        return [why], ""
++    problems, by_act = [], []
++    for rel in sorted(f for f in git("ls-files", "--", "scripts/gates", "scripts/checks", "conftest.py").stdout.split("\n") if f.endswith(".py")):
++        try:
++            src = open(os.path.join(root, rel), encoding="utf-8", errors="replace").read()
++        except OSError:
++            continue                                                      # tracked and not on the disk: nothing is bound there
++        for name in _NAMED_AS_HELD.findall(src):
++            if name not in _RECORD_TABLES and tables.get(name, ("",))[0] != rel:
++                problems.append(f"{name}, in {rel}, is named as a table of what is held by name and is not in HELD_TABLES for that file: "
++                                "nothing reads whether it grows. Add it to the list")
++    by_file = {}
++    for table, (path, kind) in tables.items():
++        by_file.setdefault(path, []).append((table, kind))
++    for path in sorted(by_file):
++        if not os.path.exists(os.path.join(root, path)):
++            continue                                                      # the file is not there: its tables hold nothing now
++        states, why = states_since(path, anchor, repo)
++        if why:
++            return [why], ""
++        try:
++            now = open(os.path.join(root, path), encoding="utf-8").read()
++        except (OSError, UnicodeDecodeError) as exc:
++            problems.append(f"{path} binds tables that are held by name and cannot be read ({type(exc).__name__})")
++            continue
++        try:
++            tree = ast.parse(now)
++            parsed = (tree, _bound_in(tree))
++        except (SyntaxError, ValueError):
++            parsed = None                                                 # said for each table, by the reader
++        for table, kind in sorted(by_file[path]):
++            last, cannot = table_as_written(now, table, kind, parsed)
++            if last is None:
++                problems.append(f"the table {table} cannot be read in {path}: {cannot}. It is held by name: one plain statement binds "
++                                "it to a table written out, and nothing changes it after")
++                continue
++            if repo is None and path == "scripts/gates/gates.py" and _names_of(globals().get(table), kind) != last:
++                problems.append(f"the table {table} holds other names in memory than it is written with in {path}: something changes it "
++                                "as the file is loaded")
++                continue
++            read = [(w, n) for w, n in ((w, names_in_table(t, table, kind)) for w, t in states) if n is not None] + [(THE_DISK, last)]
++            since = anchor[:9] if read[0][0] == anchor[:9] else f"it first stood, in {read[0][0]}"
++            steps = _steps_up([(w, dict.fromkeys(n, 1)) for w, n in read])
++            records = lambda e: _records(named.get(table, {}), e)
++            loose = sorted(e for e, up in steps.items() if len(up) > len(records(e)))
++            by_act += [f"{table}: {e}" for e in sorted(steps) if e not in loose]
++            if loose:
++                said = lambda e: (f"{e} in " + ", and again in ".join(w for _a, _b, w in steps[e])
++                                  + (f" ({len(steps[e])} times, {len(records(e))} recorded)" if records(e) else ""))
++                problems.append(f"{len(loose)} name(s) entered {table} ({path}) since {since} with no record: " + "; ".join(said(e) for e in loose[:4])
++                                + f". A table of what is held by name shortens freely and grows only by a recorded act: record it under "
++                                  f"'{table}' in ENTERED_BY_NAME (scripts/gates/gates.py) with its date and why, one record for each time "
++                                  "it entered. A name that is in no commit yet can be taken out again; one that stands in a commit is not "
++                                  "taken back by taking it out after")
++    note = (f"; {len(by_act)} name(s) entered a table held by name, each by a recorded act: " + "; ".join(by_act[:4])) if by_act else ""
++    return problems, note
++
++
+ def _since_the_anchor(anchor, repo=None):
+     """a runner of git in `repo`, or the reason the history cannot be read back to `anchor` (the gate then fails closed)"""
+     repo = str(repo or ROOT)
+@@ -3557,8 +3774,11 @@ def gate_gate_controls(_anchor=None):
+     gone, note = left_the_ledger(GATE_CONTROLS, _control_rows, _read(GATE_CONTROLS), "control", _anchor)
+     if gone:
+         return False, gone
++    grew, entered = held_tables_growth(_anchor)                           # series 5: the tables of what is held by name grow by a recorded act
++    if grew:
++        return False, " | ".join(grew)[:1500]
+     return True, (f"ok ({len(reg)} gates with a registered failing-path test, each read: none is kept from running by a mark or a call, "
+-                  "none is unable to fail)") + note
++                  "none is unable to fail)") + note + entered
+ 
+ 
+ REVIEW_CORE_FROM = 59                                   # binds the first review written after the rule
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 1862f4453..643f90a5f 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -1010,3 +1010,263 @@ def test_on_this_repository_the_one_file_tracked_compressed_verifies():
+     assert ok is True and "shorten the table" not in detail, detail
+     # its key is taken out of the table of what does not verify, in the patch that makes it verify: the table may only shorten
+     assert "c4a1d81e5613" not in g.hash_lists_frozen() and all(e[0] != "c4a1d81e5613" for e in state if e[3] != "VERIFIES")
++
++
++# ---- series 5: a table of what is held by name grows only by a recorded act (main's request of 2026-11-12) ---------------
++# When a rule comes, what already breaks it is held by name in a table beside the rule, "as found".  Each such table "may
++# only shrink": a comment said so, and here and there a count in a lock.  A name added to one excuses what its rule was
++# made to refuse, and nothing read the table's history.  The controls gate now reads each of them along main's own line: a
++# name that enters after the table first stood needs its record, and the table is read as it is written, in one statement.
++_HELD = "held.py"
++_TWO = 'T_AS_FOUND = frozenset((          # two, as found\n    "a::one",\n    "b::two",\n))\n'
++
++
++def _a_held_table(tmp_path, first=_TWO):
++    """a small repository with one file that binds a table of names, and its first commit"""
++    repo = tmp_path / "small"
++    repo.mkdir()
++    _git(repo, "init", "-q")
++    return repo, _commit(repo, "the table as it first stood", {_HELD: first})
++
++
++def _growth(g, repo, anchor, named=None, tables=None):
++    return g.held_tables_growth(anchor, repo, named or {}, tables or {"T_AS_FOUND": (_HELD, "name")})
++
++
++def test_a_name_that_enters_a_held_table_needs_its_record(tmp_path):
++    g = _gates()
++    repo, anchor = _a_held_table(tmp_path)
++    assert _growth(g, repo, anchor) == ([], "")
++    _commit(repo, "one mended and taken out", {_HELD: 'T_AS_FOUND = frozenset(("b::two",))\n'})
++    assert _growth(g, repo, anchor) == ([], "")                                            # the twin: a table shortens freely
++    added = _commit(repo, "a name added, no record", {_HELD: 'T_AS_FOUND = frozenset(("b::two", "c::three"))\n'})
++    problems, _ = _growth(g, repo, anchor)
++    assert problems, "a name was added to a table held by name with no record, and the rule reads nothing"
++    assert len(problems) == 1 and "1 name(s) entered T_AS_FOUND" in problems[0] and "c::three in " + added[:9] in problems[0], problems
++    # taken out again after the commit: the step stands in the history, and is recorded
++    (repo / _HELD).write_text('T_AS_FOUND = frozenset(("b::two",))\n', encoding="utf-8")
++    assert "c::three in " + added[:9] in _growth(g, repo, anchor)[0][0]
++    one = {"T_AS_FOUND": {"c::three": "2026-11-12 -- a new shape of the class, found by a wider reader"}}
++    problems, note = _growth(g, repo, anchor, one)
++    assert problems == [] and "by a recorded act" in note and "T_AS_FOUND: c::three" in note and "by name" in note, (problems, note)
++    assert _growth(g, repo, anchor, {"T_AS_FOUND": {"c::three": "   "}})[0], "an empty text is no record"
++    # the name that left at the start comes back: it has entered, and needs a record of its own
++    back = _commit(repo, "the first name is back", {_HELD: 'T_AS_FOUND = frozenset(("a::one", "b::two", "c::three"))\n'})
++    problems, _ = _growth(g, repo, anchor, one)
++    assert len(problems) == 1 and "a::one in " + back[:9] in problems[0] and "c::three" not in problems[0], problems
++    two = {"T_AS_FOUND": dict(one["T_AS_FOUND"], **{"a::one": "2026-11-12 -- the test was restored as it stood"})}
++    assert _growth(g, repo, anchor, two)[0] == []
++    # out and in a second time: one record does not pay for two entries, two records do
++    _commit(repo, "out again", {_HELD: 'T_AS_FOUND = frozenset(("a::one", "b::two"))\n'})
++    _commit(repo, "and in again", {_HELD: 'T_AS_FOUND = frozenset(("a::one", "b::two", "c::three"))\n'})
++    problems, _ = _growth(g, repo, anchor, two)
++    assert len(problems) == 1 and "c::three" in problems[0] and "(2 times, 1 recorded)" in problems[0], problems
++    both = {"T_AS_FOUND": dict(two["T_AS_FOUND"], **{"c::three": ["2026-11-12 -- a new shape of the class", "2026-11-13 -- and once more"]})}
++    assert _growth(g, repo, anchor, both)[0] == []
++    # a name that is in no commit yet is the last state, and can be taken out again
++    (repo / _HELD).write_text('T_AS_FOUND = frozenset(("a::one", "b::two", "c::three", "d::four"))\n', encoding="utf-8")
++    problems, _ = _growth(g, repo, anchor, both)
++    assert len(problems) == 1 and "d::four in the files as they are" in problems[0], problems
++    (repo / _HELD).write_text('T_AS_FOUND = frozenset(("a::one", "b::two", "c::three"))\n', encoding="utf-8")
++    assert _growth(g, repo, anchor, both)[0] == []
++    assert "cannot verify" in _growth(g, repo, "0" * 40, both)[0][0]
++
++
++def test_a_table_is_judged_from_the_commit_in_which_it_first_stood(tmp_path):
++    g = _gates()
++    repo, anchor = _a_held_table(tmp_path, "X = 1\n")
++    # a table of the list that its file does not bind cannot be read; a file that is not there holds nothing
++    problems, _ = _growth(g, repo, anchor)
++    assert len(problems) == 1 and "T_AS_FOUND cannot be read in held.py" in problems[0], problems
++    assert _growth(g, repo, anchor, tables={"T_AS_FOUND": ("not_there.py", "name")}) == ([], "")
++    first = _commit(repo, "the rule comes, and what breaks it is held as found", {_HELD: "X = 1\n" + _TWO})
++    assert _growth(g, repo, anchor) == ([], "")
++    _commit(repo, "one more, no record", {_HELD: "X = 1\n" + _TWO.replace('    "b::two",\n', '    "b::two",\n    "c::three",\n')})
++    problems, _ = _growth(g, repo, anchor)
++    assert len(problems) == 1 and "c::three" in problems[0] and "since it first stood, in " + first[:9] in problems[0], problems
++
++
++def test_a_name_added_by_a_second_statement_is_refused(tmp_path):
++    g = _gates()
++    repo, anchor = _a_held_table(tmp_path, 'T_AS_FOUND = frozenset(("a::one",))\nD_AS_FOUND = {"a": "what it is"}\nMORE = ("z::planted",)\n')
++    tables = {"T_AS_FOUND": (_HELD, "name"), "D_AS_FOUND": (_HELD, "name")}
++    first = (repo / _HELD).read_text(encoding="utf-8")
++    assert _growth(g, repo, anchor, tables=tables) == ([], "")
++    # the twin: the table read by other statements, and a line that only looks like one that changes it
++    (repo / _HELD).write_text(first + 'def reads(found):\n    return found in T_AS_FOUND and len(D_AS_FOUND) > 0 and D_AS_FOUND.get(found)\n', encoding="utf-8")
++    assert _growth(g, repo, anchor, tables=tables) == ([], "")
++    for more in ('T_AS_FOUND = T_AS_FOUND | {"z::planted"}\n',                             # bound a second time
++                 'T_AS_FOUND |= {"z::planted"}\n',                                         # widened in place
++                 'if True:\n    T_AS_FOUND = frozenset(MORE)\n',                           # bound again under a condition
++                 'def widen():\n    global T_AS_FOUND\n    T_AS_FOUND = T_AS_FOUND | set(MORE)\n',
++                 'def reads(found, T_AS_FOUND=frozenset(("a::one", "z::planted"))):\n    return found in T_AS_FOUND\n',   # another table under its name
++                 'def reads(found):\n    T_AS_FOUND = frozenset(MORE)\n    return found in T_AS_FOUND\n',
++                 'for T_AS_FOUND in (frozenset(MORE),):\n    pass\n',
++                 'D_AS_FOUND["z::planted"] = "planted"\n',
++                 'D_AS_FOUND.update({"z::planted": "planted"})\n',
++                 'D_AS_FOUND.setdefault("z::planted", "planted")\n'):
++        (repo / _HELD).write_text(first + more, encoding="utf-8")
++        problems, _ = _growth(g, repo, anchor, tables=tables)
++        assert len(problems) == 1 and "cannot be read in held.py" in problems[0], (more, problems)
++    # a table that is not written out: its names cannot be read, so nothing could say whether one entered
++    for bound in ('T_AS_FOUND = frozenset(("a::one",)) | frozenset(MORE)\n', 'T_AS_FOUND = frozenset(("a::one",) + MORE)\n',
++                  'T_AS_FOUND = frozenset(n for n in ("a::one", "z::planted"))\n', 'T_AS_FOUND = frozenset(("a::one",), *MORE)\n'):
++        (repo / _HELD).write_text(first.replace('T_AS_FOUND = frozenset(("a::one",))\n', bound), encoding="utf-8")
++        problems, _ = _growth(g, repo, anchor, tables=tables)
++        assert len(problems) == 1 and "T_AS_FOUND cannot be read in held.py" in problems[0], (bound, problems)
++
++
++def test_a_table_of_pairs_and_one_keyed_by_two_texts_are_read_by_what_they_excuse(tmp_path):
++    g = _gates()
++    first = ('S_AS_FOUND = {        # (file, phrase) -> what the instance is\n    ("docs/a.md", "the phrase"): "a record as it was sent",\n}\n'
++             'P_AS_FOUND = {\n    "docs/built.html": "tests/test_built.py",\n}\n')
++    repo, anchor = _a_held_table(tmp_path, first)
++    tables = {"S_AS_FOUND": (_HELD, "name"), "P_AS_FOUND": (_HELD, "pair")}
++    assert _growth(g, repo, anchor, tables=tables) == ([], "")
++    # what an instance is said to be may be reworded; a second file under the same phrase is a new name
++    _commit(repo, "reworded", {_HELD: first.replace("a record as it was sent", "a relay, as sent")})
++    assert _growth(g, repo, anchor, tables=tables) == ([], "")
++    _commit(repo, "a second file", {_HELD: first.replace('}\nP_AS', '    ("docs/b.md", "the phrase"): "planted",\n}\nP_AS')})
++    problems, _ = _growth(g, repo, anchor, tables=tables)
++    assert len(problems) == 1 and "S_AS_FOUND" in problems[0] and "docs/b.md :: the phrase" in problems[0], problems
++    # a name of two texts is recorded as the sentence writes it
++    paid = {"S_AS_FOUND": {"docs/b.md :: the phrase": "2026-11-12 -- a second record of the same sentence"}}
++    assert _growth(g, repo, anchor, paid, tables)[0] == []
++    # where the gate asks for the path and for what it is held for, the same path held for another lock is a new name
++    _commit(repo, "the same path, another lock", {_HELD: first.replace("tests/test_built.py", "tests/test_other.py")})
++    problems, _ = _growth(g, repo, anchor, paid, tables)
++    assert len(problems) == 1 and "P_AS_FOUND" in problems[0] and "docs/built.html -> tests/test_other.py" in problems[0], problems
++
++
++def _the_statement(src, table):
++    binds = [n for n in ast.parse(src).body if isinstance(n, ast.Assign) and [getattr(t, "id", None) for t in n.targets] == [table]]
++    assert len(binds) == 1, "%s is bound %d time(s) at the top level" % (table, len(binds))
++    return binds[0]
++
++
++def _one_more_in(repo, path, table, name):
++    """the statement that binds `table` in the small repository's `path`, written again with `name` added to what it holds"""
++    p = repo / path
++    src = p.read_text(encoding="utf-8")
++    node = _the_statement(src, table)
++    v, call = node.value, None
++    if isinstance(v, ast.Call):
++        call, v = v.func.id, (v.args[0] if v.args else ast.Tuple(elts=[], ctx=ast.Load()))
++    held = ast.literal_eval(v)
++    more = dict(held, **{name: "planted"}) if isinstance(held, dict) else type(held)(list(held) + [name])
++    lines = src.splitlines(keepends=True)
++    lines[node.lineno - 1:node.end_lineno] = ["%s = %s\n" % (table, "%s(%r)" % (call, more) if call else repr(more))]
++    p.write_text("".join(lines), encoding="utf-8")
++
++
++def _record_that_it_entered(repo, table, name, record):
++    """a record added to whatever the small repository's gates already hold in ENTERED_BY_NAME"""
++    p = repo / "scripts" / "gates" / "gates.py"
++    src = p.read_text(encoding="utf-8")
++    lines = src.splitlines(keepends=True)
++    lines.insert(_the_statement(src, "ENTERED_BY_NAME").end_lineno,
++                 "ENTERED_BY_NAME = {**ENTERED_BY_NAME, %r: {**ENTERED_BY_NAME.get(%r, {}), %r: %r}}\n" % (table, table, name, record))
++    p.write_text("".join(lines), encoding="utf-8")
++
++
++_GATES_FILE = "scripts/gates/gates.py"
++_TABLES_OF_THE_GATES = ("CANNOT_FAIL_AS_FOUND", "PRINTED_FLOAT_AS_FOUND", "MEMBER_SCOPE_AS_FOUND", "CITES_NO_LOCK_AS_FOUND", "FRAMING_EXEMPT")
++
++
++def _a_table_of_the_gates():
++    """the first of the gates' own tables of names that is still bound there (a table may be mended to nothing and taken out)"""
++    src = (ROOT / _GATES_FILE).read_text(encoding="utf-8")
++    bound = [t for t in _TABLES_OF_THE_GATES if any(isinstance(n, ast.Assign) and [getattr(x, "id", None) for x in n.targets] == [t] for n in ast.parse(src).body)]
++    assert bound, "none of the gates' tables of names is bound any more: this lock needs one to plant in"
++    return bound[0]
++
++
++def test_a_name_added_to_a_table_of_the_gates_fails_the_controls_gate_until_it_is_recorded(tmp_path):
++    table = _a_table_of_the_gates()
++    repo, _reg = _controls_repo(tmp_path, "held", _CONTROL_OK)
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is True, detail
++    _one_more_in(repo, _GATES_FILE, table, "planted/by_this_lock")
++    added = _commit(repo, "a name added to a table of the gates, no record")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "a name was added to %s with no record, and the controls gate reads: %s" % (table, detail)
++    assert "1 name(s) entered " + table in detail and "planted/by_this_lock in " + added[:9] in detail, detail
++    _record_that_it_entered(repo, table, "planted/by_this_lock", "2026-11-12 -- planted by this lock")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is True and "by a recorded act" in detail and table + ": planted/by_this_lock" in detail, detail
++    sys.path.insert(0, str(ROOT / "scripts" / "gates"))
++    try:
++        assert _gates().result_line("gate-controls", ok, detail).strip().startswith("PASS  gate-controls: ok (")      # the record is printed at every push
++    finally:
++        sys.path.pop(0)
++
++
++def test_a_name_added_to_a_table_of_a_checker_fails_the_controls_gate(tmp_path):
++    repo, _reg = _controls_repo(tmp_path, "sweep", _CONTROL_OK)
++    assert _gate(repo, "gate-controls")[0] is True
++    _one_more_in(repo, "scripts/checks/retraction_sweep.py", "NOT_SWEPT_BY_NAME", "a phrase that is withdrawn, and is to stand unswept")
++    _commit(repo, "a row of the registry excused from the sweep, no record")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "a row was excused from the sweep by name with no record, and the controls gate reads: " + str(detail)
++    assert "1 name(s) entered NOT_SWEPT_BY_NAME" in detail and "a phrase that is withdrawn, and is to stand unswept in " in detail, detail
++
++
++def test_a_name_added_as_the_gates_are_loaded_fails_the_controls_gate(tmp_path):
++    """the table is written as it was, and one line at the end of the file changes it in memory through the module's own
++    dictionary: no statement binds the name twice, so only what the gate holds in memory can show it"""
++    table = _a_table_of_the_gates()
++    repo, _reg = _controls_repo(tmp_path, "memory", _CONTROL_OK)
++    assert _gate(repo, "gate-controls")[0] is True
++    p = repo / _GATES_FILE
++    src = p.read_text(encoding="utf-8")
++    at = src.index('\nif __name__ == "__main__":')
++    plant = '\nglobals()[%r] = type(globals()[%r])(list(globals()[%r]) + ["planted/in_memory"])\n' % (table, table, table)
++    p.write_text(src[:at] + plant + src[at:], encoding="utf-8")
++    _commit(repo, "a name added in memory")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "a name was added to %s as the gates are loaded, and the controls gate reads: %s" % (table, detail)
++    assert table in detail and "in memory" in detail, detail
++
++
++def test_a_new_table_named_as_held_must_be_in_the_list(tmp_path):
++    repo, _reg = _controls_repo(tmp_path, "new", _CONTROL_OK)
++    assert _gate(repo, "gate-controls")[0] is True
++    _commit(repo, "a new table beside a checker", {"scripts/checks/a_new_checker.py": 'ALSO_AS_FOUND = frozenset(("docs/a.md",))\n'})
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "a new table named as held stands in a checker and is in no list, and the controls gate reads: " + str(detail)
++    assert "ALSO_AS_FOUND" in detail and "scripts/checks/a_new_checker.py" in detail and "HELD_TABLES" in detail, detail
++
++
++def _module_at(path):
++    spec = importlib.util.spec_from_file_location("held_tables_of_" + path.stem, path)
++    m = importlib.util.module_from_spec(spec)
++    sys.path.insert(0, str(path.parent))
++    try:
++        spec.loader.exec_module(m)
++    finally:
++        sys.path.pop(0)
++    return m
++
++
++def test_on_this_repository_nine_tables_are_held_and_one_name_entered_by_a_recorded_act():
++    g = _gates()
++    assert g.HELD_TABLES == {
++        "FRAMING_EXEMPT": (_GATES_FILE, "name"), "CITES_NO_LOCK_AS_FOUND": (_GATES_FILE, "name"),
++        "LOCKS_IGNORED_PATHS_AS_FOUND": (_GATES_FILE, "pair"), "CANNOT_FAIL_AS_FOUND": (_GATES_FILE, "name"),
++        "PRINTED_FLOAT_AS_FOUND": (_GATES_FILE, "name"), "MEMBER_SCOPE_AS_FOUND": (_GATES_FILE, "name"),
++        "NOT_SWEPT_BY_NAME": ("scripts/checks/retraction_sweep.py", "name"), "STANDS_AS_FOUND": ("scripts/checks/retraction_sweep.py", "name"),
++        "WRITTEN_BY_A_TEST_AS_FOUND": ("conftest.py", "name")}, "a table taken off this list is no longer read: say here why"
++    # the names that entered a table after it first stood, each with its record: a new one shows here as well
++    assert {t: sorted(names) for t, names in g.ENTERED_BY_NAME.items()} == {"FRAMING_EXEMPT": ["frontier/B887_gate_audit/audit_reports.json"]}
++    problems, note = g.held_tables_growth()
++    assert problems == [], problems
++    assert "1 name(s) entered a table held by name, each by a recorded act" in note and "FRAMING_EXEMPT: frontier/B887_gate_audit/audit_reports.json" in note
++    assert g.held_tables_growth(named={})[0], "the one name that entered is paid for by its record, and by nothing else"
++    # each table, as the code that uses it holds it in memory, is the table as it is written
++    for table, (path, kind) in sorted(g.HELD_TABLES.items()):
++        written, why = g.table_as_written((ROOT / path).read_text(encoding="utf-8"), table, kind)
++        assert why is None, (table, why)
++        module = g if path == _GATES_FILE else _module_at(ROOT / path)
++        assert g._names_of(getattr(module, table), kind) == written, table
++    ok, detail = g.GATES["gate-controls"]()
++    assert ok is True and "by a recorded act" in detail, detail
+-- 
+2.43.0
+

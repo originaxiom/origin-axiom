@@ -1,0 +1,64 @@
+From c817858813a7490bb7d55c55cc0bf2b7a9cad3f5 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 18:32:15 +0000
+Subject: [PATCH 07/15] WP-0.7, enforcement (cld-advisor's series 5, patch 7;
+ first built on 5c7abd72a; built again on main's bf76e5ab1 with the 41 patches
+ of R80b, the ten patches of series 4, the move of the old front pages and the
+ first six of series 5 applied): A LOCK THAT A CLAIM CITES IS A FILE (main's
+ case written after reading series 3; its B1896, register row P-820). The
+ claims gate asks that a cited lock exists and, where it is a file, that it
+ holds a test. A folder under a lock's name exists and is no file, so a proven
+ row that cited one passed. THE MEND: a cited lock that is a folder fails the
+ gate, by name. On main the gate reads as before: 86 rows in the locked
+ tables, 85 citing a lock, one held by name. What it does not reach: a cited
+ lock that stands on the disk and is not tracked; that is the business of the
+ gate on what a lock depends on. The lock: one test added to
+ tests/test_a_gate_reads_all_it_is_about.py. On the commit before it fails:
+ the gate passes on the folder. Tested against planted errors; computed once.
+ 0 of 19.
+
+---
+ scripts/gates/gates.py                     | 6 +++++-
+ tests/test_a_gate_reads_all_it_is_about.py | 9 +++++++++
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 27772770d..79b6a7d51 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -447,7 +447,11 @@ def gate_claims():
+                         + ". A proven or certified row names the test that locks it")
+     for path in sorted({m.group(1) for m in _A_LOCK.finditer(text)}):
+         full = os.path.join(ROOT, path)
+-        if os.path.isfile(full) and not re.search(r"^\s*def test", open(full, encoding="utf-8", errors="replace").read(), re.M):
++        if os.path.isdir(full):
++            # series 5 (main's case after reading series 3, register row P-820): a folder under a lock's name passed, the
++            # test being looked for only where the path is a file
++            problems.append(f"a cited lock is not a file: {path} is a folder")
++        elif os.path.isfile(full) and not re.search(r"^\s*def test", open(full, encoding="utf-8", errors="replace").read(), re.M):
+             problems.append(f"a cited lock holds no test: {path}")
+     if problems:
+         return False, problems[:10]
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 8d1f44e01..1862f4453 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -189,6 +189,15 @@ def test_a_row_that_cites_a_file_holding_no_test_fails_the_claims_gate(tmp_path)
+     assert "tests/test_empty.py" in detail
+ 
+ 
++def test_a_row_that_cites_a_folder_named_like_a_test_file_fails_the_claims_gate(tmp_path):
++    """series 5; main's case written after reading series 3 (its B1896, register row P-820).  The gate asked that the path
++    exists and is named as a lock, and looked for a test only if the path is a file: a folder under such a name passed"""
++    repo = _claims_repo(tmp_path, proven="| P2 | Another. | `tests/test_a_folder.py` |\n", more={"tests/test_a_folder.py/kept.txt": "a folder, named like a lock\n"})
++    ok, detail = _gate(repo, "claims")
++    assert ok is False, "a proven row cites a folder named like a test file, and the claims gate passed: " + detail
++    assert "tests/test_a_folder.py" in detail and "not a file" in detail, detail
++
++
+ def test_the_rows_that_are_not_locked_need_no_lock(tmp_path):
+     """a conditional, an open and a dead row cite none, and the gate passes: the rule is for the two tables that say locked"""
+     repo = _claims_repo(tmp_path)
+-- 
+2.43.0
+

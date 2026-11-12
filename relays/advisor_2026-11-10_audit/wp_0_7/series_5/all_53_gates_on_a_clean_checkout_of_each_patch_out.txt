@@ -1,0 +1,24 @@
+All 53 gates of scripts/gates/gates.py, run on a clean checkout of each of the fifteen patches of series 5.
+The base: main's bf76e5ab1 with the 41 patches of R80b, the ten patches of series 4, the move of the old front pages, and two
+local stand-ins for what main does at its landing (the generated pages; its record of five names).
+Each line: the patch (its commit on this seat's build): the gates run, the gates that pass, and any that does not.
+
+1 (eba8d5c8f): 53 gates, 52 pass; not passing: review-fires
+2 (2889989f9): 53 gates, 52 pass; not passing: review-fires
+3 (59b309113): 53 gates, 52 pass; not passing: review-fires
+4 (79bc93ad1): 53 gates, 52 pass; not passing: review-fires
+5 (6953928b8): 53 gates, 52 pass; not passing: review-fires
+6 (9c590ba39): 53 gates, 52 pass; not passing: review-fires
+7 (c81785881): 53 gates, 52 pass; not passing: review-fires
+8 (7261448d3): 53 gates, 52 pass; not passing: review-fires
+9 (04a3beb04): 53 gates, 52 pass; not passing: review-fires
+10 (d5e1ecf2d): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+11 (00ff3a42c): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+12 (b0ecbb3f1): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+13 (30e0e14d4): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+14 (e849ccf5a): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+15 (d8a441072): 53 gates, 51 pass; not passing: retraction-sweep, review-fires
+
+The count of landings (review-fires) is red on the base, before any patch of the series: more than 40 commits stand after
+Review 80's anchor. From patch 10 the retraction sweep is red on five lines of main's pages, which the folder's README lists.
+No other gate fails on any patch.
