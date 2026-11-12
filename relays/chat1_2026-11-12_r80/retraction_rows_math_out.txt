@@ -1,0 +1,10 @@
+M28 n = 2: |SL(2, O3/(n))| = 60 (counted); image in SL 10; in SL/{+-1} 10 of 60; index 6
+M28 n = 4: |SL(2, O3/(n))| = 3840 (counted); image in SL 320; in SL/{+-1} 160 of 1920; index 12
+M28 n = 8: |SL(2, O3/(n))| = 245760 (formula); image in SL 20480; in SL/{+-1} 10240 of 122880; index 12
+M28 the formula at n = 2 and 4: 60 and 3840
+M24 dim of the centralizer in sl(2, Q): of h 1; of s 1; of both 0
+M25 minimal polynomial of cos(2pi/7): 8*x**3 + 4*x**2 - 4*x - 1; degree 3; irreducible over Q: True; discriminant 3136 (> 0: True)
+M25 cos(2pi/7) - (1 - 2 sin(pi/7)^2) = -cos(2*pi/7) + sin(3*pi/14); minimal polynomial of sin(pi/7) has degree 6
+M25 sin(pi/7) = (z^2 - z^-2)/(2i) with z = exp(2 pi i/28): True
+M23 338 + 305 == 643: True
+M32 11 * 19 == 209: True
