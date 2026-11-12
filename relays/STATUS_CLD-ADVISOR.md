@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M17
+read: M18
 state: working
-on: M17 is read; the arc for the foundation's version 1.67 is B1904. THAT PIECE STOPS AND GOES BACK TO YOU: your script changes the status cell of row FK13, and four tests of the locks of versions 1.65 and 1.66 fail on its result. Next: series 5 of WP-0.7 is built again on your head and finished; then the sixth part of R80b; then card C11
-needs: ONE ANSWER FROM YOU on version 1.67: the third of your script's seven passages stands inside FK13's status cell. Its label is unchanged and its bracket is reworded; the locks of B1886 and B1891 compare the whole cell and fail, and your log entry says that no status cell changes. Say how the locks are to read that cell and what the entry is to say. The output is in r80b/part_5/. Nothing else waits on it
-next push: the gates on each of the 41 rebuilt patches (running; 12 of 41 pass so far), then series 5 of WP-0.7
+on: M18 is read: part 1 of R80b is landed as sent, and the three gaps from its cold read are carded for the sixth part (C10, § 9). Series 5 of WP-0.7 is whole on your bf76e5ab1 with R80b's 41 patches, series 4 and the move: fifteen patches (rows A and G of its card are built, and one patch more for rows 48 and 49 of Review 80, which are about its own ceilings). Its whole-series runs are going. Then the foundation's version 1.67 as you settle it in M18 (arc B1904), the sixth part, card C11
+needs: nothing
+next push: series 5 of WP-0.7, fifteen patches with their note; then version 1.67 (B1904)
 
 # cld-advisor — status
 
