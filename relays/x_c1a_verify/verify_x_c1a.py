@@ -19,14 +19,19 @@ import sys
 from collections import Counter, deque
 from fractions import Fraction
 
+import gmpy2
 import mpmath as mp
 import numpy as np
+from scipy import linalg as sla
 import snappy
 import sympy as sp
 from sympy.matrices.normalforms import smith_normal_decomp
 
 HERE = pathlib.Path(__file__).resolve().parent
-mp.mp.dps = 70
+mp.mp.dps = 140
+gmpy2.get_context().precision = 400  # >120 decimal digits in C-compiled GNU MPFR/MPC
+
+GMMat = list[list[gmpy2.mpc]]
 
 INV = {"a": "A", "b": "B", "A": "a", "B": "b", "t": "T", "T": "t"}
 
@@ -484,7 +489,13 @@ def _find_markov_roots(word: str) -> list[tuple[complex, complex, complex]]:
     return roots
 
 
-def four_mp_to_np(g: mp.matrix) -> np.ndarray:
+def _mp_to_gm(z: mp.mpc | mp.mpf) -> gmpy2.mpc:
+    rz = gmpy2.mpfr(mp.nstr(mp.re(z), 130) or "0")
+    iz = gmpy2.mpfr(mp.nstr(mp.im(z), 130) or "0")
+    return gmpy2.mpc(rz, iz)
+
+
+def four_mp_mat(g: mp.matrix) -> mp.matrix:
     E = [
         mp.matrix([[1, 0], [0, 0]]),
         mp.matrix([[0, 0], [0, 1]]),
@@ -492,13 +503,38 @@ def four_mp_to_np(g: mp.matrix) -> np.ndarray:
         mp.matrix([[0, 1j], [-1j, 0]]),
     ]
     gs = g.transpose_conj()
-    M4 = np.zeros((4, 4), dtype=np.complex128)
+    M4 = mp.matrix(4, 4)
     for col_k, Ek in enumerate(E):
         X = g * Ek * gs
         vals = [mp.re(X[0, 0]), mp.re(X[1, 1]), mp.re(X[0, 1]), mp.im(X[0, 1])]
         for row_i in range(4):
-            M4[row_i, col_k] = complex(vals[row_i])
+            M4[row_i, col_k] = vals[row_i]
     return M4
+
+
+def four_mp_to_np(g: mp.matrix) -> np.ndarray:
+    M4 = four_mp_mat(g)
+    out = np.zeros((4, 4), dtype=np.complex128)
+    for i in range(4):
+        for j in range(4):
+            out[i, j] = complex(M4[i, j])
+    return out
+
+
+def four_mp_to_gm(g: mp.matrix) -> GMMat:
+    M4 = four_mp_mat(g)
+    return [[_mp_to_gm(M4[i, j]) for j in range(4)] for i in range(4)]
+
+
+def sl2_inv_mp(g: mp.matrix) -> mp.matrix:
+    return mp.matrix([[g[1, 1], -g[0, 1]], [-g[1, 0], g[0, 0]]])
+
+
+def eval_word_sl2_mp(w: str, mats_abt_mp: dict[str, mp.matrix], invs_abt_mp: dict[str, mp.matrix]) -> mp.matrix:
+    R = mp.eye(2)
+    for c in w:
+        R = R * (mats_abt_mp[c] if c in "abt" else invs_abt_mp[c.lower()])
+    return R
 
 
 def _solve_T_mp(A: mp.matrix, B: mp.matrix, pa: mp.matrix, pb: mp.matrix) -> mp.matrix | None:
@@ -530,7 +566,7 @@ def _solve_T_mp(A: mp.matrix, B: mp.matrix, pa: mp.matrix, pb: mp.matrix) -> mp.
         res = max(abs(sum(Sys[r, c] * vec[c] for c in range(4))) for r in range(8))
         if res < best_res:
             best_res, best_t = res, vec
-    if best_t is None or best_res > mp.mpf("1e-45"):
+    if best_t is None or best_res > mp.mpf("1e-110"):
         return None
     T0 = mp.matrix([[best_t[0], best_t[1]], [best_t[2], best_t[3]]])
     detT = T0[0, 0] * T0[1, 1] - T0[0, 1] * T0[1, 0]
@@ -548,26 +584,51 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
     for rx, ry, rz in _find_markov_roots(word):
         xv, yv, zv = mp.mpc(rx), mp.mpc(ry), mp.mpc(rz)
 
-        def ev(xx: mp.mpc, yy: mp.mpc, zz: mp.mpc) -> tuple[mp.mpc, mp.mpc, mp.mpc]:
-            A_, B_, C_ = xx, yy, zz
+        def ev_jet(xx: mp.mpc, yy: mp.mpc, zz: mp.mpc) -> tuple[list[mp.mpc], mp.matrix]:
+            # Exact analytic Jacobian via 1st-order jet (val, dx, dy, dz) at 140 digits
+            z0 = mp.mpc(0)
+            one = mp.mpc(1)
+            A_ = (xx, one, z0, z0)
+            B_ = (yy, z0, one, z0)
+            C_ = (zz, z0, z0, one)
+
+            def jmul(u: tuple[mp.mpc, ...], v: tuple[mp.mpc, ...]) -> tuple[mp.mpc, ...]:
+                return (
+                    u[0] * v[0],
+                    u[1] * v[0] + u[0] * v[1],
+                    u[2] * v[0] + u[0] * v[2],
+                    u[3] * v[0] + u[0] * v[3],
+                )
+
+            def jsub(u: tuple[mp.mpc, ...], v: tuple[mp.mpc, ...]) -> tuple[mp.mpc, ...]:
+                return (u[0] - v[0], u[1] - v[1], u[2] - v[2], u[3] - v[3])
+
             for ch in word:
                 if ch == "L":
-                    A_, B_, C_ = C_, B_, B_ * C_ - A_
+                    A_, B_, C_ = C_, B_, jsub(jmul(B_, C_), A_)
                 else:
-                    A_, B_, C_ = A_, C_, A_ * C_ - B_
-            return A_ - xx, B_ - yy, xx * xx + yy * yy + zz * zz - xx * yy * zz
+                    A_, B_, C_ = A_, C_, jsub(jmul(A_, C_), B_)
+            r0 = (A_[0] - xx, A_[1] - one, A_[2], A_[3])
+            r1 = (B_[0] - yy, B_[1], B_[2] - one, B_[3])
+            r2 = (
+                xx * xx + yy * yy + zz * zz - xx * yy * zz,
+                2 * xx - yy * zz,
+                2 * yy - xx * zz,
+                2 * zz - xx * yy,
+            )
+            f_vec = [r0[0], r1[0], r2[0]]
+            J_mat = mp.matrix([
+                [r0[1], r0[2], r0[3]],
+                [r1[1], r1[2], r1[3]],
+                [r2[1], r2[2], r2[3]],
+            ])
+            return f_vec, J_mat
 
         ok = True
         for _ in range(30):
-            f0 = ev(xv, yv, zv)
-            if max(abs(t) for t in f0) < mp.mpf("1e-58"):
+            f0, J = ev_jet(xv, yv, zv)
+            if max(abs(t) for t in f0) < mp.mpf("1e-128"):
                 break
-            eps = mp.mpf("1e-32")
-            J = mp.matrix(3, 3)
-            for col, (dx, dy, dz) in enumerate([(eps, 0, 0), (0, eps, 0), (0, 0, eps)]):
-                f1 = ev(xv + dx, yv + dy, zv + dz)
-                for row in range(3):
-                    J[row, col] = (f1[row] - f0[row]) / eps
             try:
                 delta = mp.lu_solve(J, mp.matrix([[-f0[0]], [-f0[1]], [-f0[2]]]))
             except Exception:
@@ -576,13 +637,14 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
             xv += delta[0]
             yv += delta[1]
             zv += delta[2]
-        if not ok or max(abs(t) for t in ev(xv, yv, zv)) > mp.mpf("1e-50"):
+        f_chk, _ = ev_jet(xv, yv, zv)
+        if not ok or max(abs(t) for t in f_chk) > mp.mpf("1e-120"):
             continue
 
         A = mp.matrix([[xv, 1], [-1, 0]])
         beta = (-zv + mp.sqrt(zv * zv - 4)) / 2
         B = mp.matrix([[0, beta], [-1 / beta, yv]])
-        M0 = {"a": A, "b": B, "A": mp.inverse(A), "B": mp.inverse(B)}
+        M0 = {"a": A, "b": B, "A": sl2_inv_mp(A), "B": sl2_inv_mp(B)}
 
         def wm(w: str) -> mp.matrix:
             R = mp.eye(2)
@@ -603,33 +665,41 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
         Pinv = mp.inverse(Pmat)
         ell_u, tp_u = Pinv * ell * Pmat, Pinv * tp * Pmat
         st = 1 if mp.re(tp_u[0, 0] + tp_u[1, 1]) > 0 else -1
-        if abs(tp_u[1, 0]) > mp.mpf("1e-40") or abs(tp_u[0, 0] - st) > mp.mpf("1e-40"):
+        if abs(tp_u[1, 0]) > mp.mpf("1e-90") or abs(tp_u[0, 0] - st) > mp.mpf("1e-90"):
             continue
         tau = (st * tp_u[0, 1]) / (sl * ell_u[0, 1])
         if abs(abs(float(mp.im(tau))) - abs(sh.imag)) < 1e-7:
             t_re = float(mp.re(tau))
             if any(abs((t_re + e * sh.real) - round(t_re + e * sh.real)) < 1e-7 for e in (1, -1)) and mp.im(tau) > 0:
+                abt_mp = {"a": A, "b": B, "t": T}
+                abt_inv_mp = {"a": sl2_inv_mp(A), "b": sl2_inv_mp(B), "t": sl2_inv_mp(T)}
                 res_obj = {
                     "A_mp": A,
                     "B_mp": B,
                     "T_mp": T,
+                    "abt_mp": abt_mp,
+                    "abt_inv_mp": abt_inv_mp,
                     "np4": {"a": four_mp_to_np(A), "b": four_mp_to_np(B), "t": four_mp_to_np(T)},
+                    "gm4": {"a": four_mp_to_gm(A), "b": four_mp_to_gm(B), "t": four_mp_to_gm(T)},
+                    "gm4_inv": {
+                        "a": four_mp_to_gm(abt_inv_mp["a"]),
+                        "b": four_mp_to_gm(abt_inv_mp["b"]),
+                        "t": four_mp_to_gm(abt_inv_mp["t"]),
+                    },
                 }
                 _HOL_CACHE[key] = res_obj
                 return res_obj
     raise RuntimeError(f"Could not locate hyperbolic holonomy for {key}")
 
 
-def get_tick_holonomy_np4(base_sign: str, base_word: str, k_tick: int) -> tuple[str, str, dict[str, np.ndarray]]:
-    """Holonomy of (eps * word)^k using the base fibre's (A_mp, B_mp) without long-word precision loss."""
+def get_tick_holonomy_gm4(base_sign: str, base_word: str, k_tick: int) -> tuple[str, str, dict[str, GMMat], dict[str, GMMat]]:
+    """Holonomy of (eps * word)^k at 120 digits using the base fibre's (A_mp, B_mp) without long-word precision loss."""
     tick_sign = "+" if (base_sign == "+" or k_tick % 2 == 0) else "-"
     tick_word = base_word * k_tick
     base_hol = get_holonomy(base_sign, base_word)
     A: mp.matrix = base_hol["A_mp"]
     B: mp.matrix = base_hol["B_mp"]
-    M0 = {"a": A, "b": B, "A": mp.inverse(A), "B": mp.inverse(B)}
 
-    # Iterate automorphism k_tick times directly on 2x2 matrices!
     pa, pb = A, B
     for _ in range(k_tick):
         for ch in reversed(base_word):
@@ -638,24 +708,412 @@ def get_tick_holonomy_np4(base_sign: str, base_word: str, k_tick: int) -> tuple[
             else:
                 pa, pb = pa, pb * pa
         if base_sign == "-":
-            pa, pb = mp.inverse(pa), mp.inverse(pb)
+            pa, pb = sl2_inv_mp(pa), sl2_inv_mp(pb)
 
     Tk = _solve_T_mp(A, B, pa, pb)
     assert Tk is not None
-    return tick_sign, tick_word, {"a": four_mp_to_np(A), "b": four_mp_to_np(B), "t": four_mp_to_np(Tk)}
+    Tk_inv = sl2_inv_mp(Tk)
+    gm4 = {"a": base_hol["gm4"]["a"], "b": base_hol["gm4"]["b"], "t": four_mp_to_gm(Tk)}
+    gm4_inv = {"a": base_hol["gm4_inv"]["a"], "b": base_hol["gm4_inv"]["b"], "t": four_mp_to_gm(Tk_inv)}
+    return tick_sign, tick_word, gm4, gm4_inv
+
+
+def gm_roots_of_unity(m_order: int) -> list[gmpy2.mpc]:
+    out: list[gmpy2.mpc] = []
+    for k in range(m_order):
+        ang = 2 * mp.pi * mp.mpf(k) / mp.mpf(m_order)
+        out.append(_mp_to_gm(mp.cos(ang) + 1j * mp.sin(ang)))
+    return out
+
+
+def gm_scale_mat(sc: gmpy2.mpc, M: GMMat) -> GMMat:
+    return [[sc * x for x in row] for row in M]
+
+
+def gm_transpose(M: GMMat) -> GMMat:
+    if not M:
+        return []
+    m, n = len(M), len(M[0])
+    return [[M[i][j] for i in range(m)] for j in range(n)]
+
+
+def gm_neg(M: GMMat) -> GMMat:
+    return [[-x for x in row] for row in M]
+
+
+def gm_hstack(A: GMMat, B: GMMat) -> GMMat:
+    return [ra + rb for ra, rb in zip(A, B)]
+
+
+def gm_matmul(A: GMMat, B: GMMat) -> GMMat:
+    m = len(A)
+    if m == 0:
+        return []
+    p = len(B)
+    n = len(B[0]) if p > 0 else 0
+    z0 = gmpy2.mpc(0)
+    out = [[z0] * n for _ in range(m)]
+    for i in range(m):
+        Ai = A[i]
+        oi = out[i]
+        for k in range(p):
+            aik = Ai[k]
+            if aik != 0:
+                Bk = B[k]
+                for j in range(n):
+                    bkj = Bk[j]
+                    if bkj != 0:
+                        oi[j] += aik * bkj
+    return out
+
+
+def gm_rank_and_nullspace(M: GMMat, m_rows: int, n_cols: int, want_null: bool = False) -> tuple[int, GMMat]:
+    """120-digit complete-boundary-pivoting Gaussian elimination with a 45-order-of-magnitude forbidden band."""
+    z0 = gmpy2.mpc(0)
+    one = gmpy2.mpc(1)
+    if m_rows == 0 or n_cols == 0:
+        if want_null:
+            return 0, [[one if i == j else z0 for j in range(n_cols)] for i in range(n_cols)]
+        return 0, []
+
+    entry_max = gmpy2.mpfr(0)
+    for r in range(m_rows):
+        row = M[r]
+        for c in range(n_cols):
+            av = abs(row[c])
+            if av > entry_max:
+                entry_max = av
+    if entry_max < gmpy2.mpfr("1e-95"):
+        if want_null:
+            return 0, [[one if i == j else z0 for j in range(n_cols)] for i in range(n_cols)]
+        return 0, []
+
+    hi_thr = gmpy2.mpfr("1e-35") * entry_max
+    lo_thr = gmpy2.mpfr("1e-80") * entry_max
+
+    A = [row[:] for row in M]
+    col_perm = list(range(n_cols))
+    rk = 0
+    limit = min(m_rows, n_cols)
+
+    while rk < limit:
+        pr = max(range(rk, m_rows), key=lambda r: abs(A[r][rk]))
+        pval = abs(A[pr][rk])
+        pc = rk
+        if pval < hi_thr:
+            best_v = gmpy2.mpfr(-1)
+            for r in range(rk, m_rows):
+                row_r = A[r]
+                for c in range(rk, n_cols):
+                    av = abs(row_r[c])
+                    if av > best_v:
+                        best_v = av
+                        pr, pc = r, c
+            pval = best_v
+            if pval <= lo_thr:
+                break
+            if pval < hi_thr:
+                sys.exit(2)
+        if pr != rk:
+            A[rk], A[pr] = A[pr], A[rk]
+        if pc != rk:
+            col_perm[rk], col_perm[pc] = col_perm[pc], col_perm[rk]
+            for r in range(m_rows):
+                row_r = A[r]
+                row_r[rk], row_r[pc] = row_r[pc], row_r[rk]
+
+        inv_piv = one / A[rk][rk]
+        piv_row = A[rk]
+        piv_row[rk] = one
+        for c in range(rk + 1, n_cols):
+            if piv_row[c] != 0:
+                piv_row[c] *= inv_piv
+
+        nz_cols = [c for c in range(rk + 1, n_cols) if piv_row[c] != 0]
+        r_iter = range(m_rows) if want_null else range(rk + 1, m_rows)
+        for r in r_iter:
+            if r == rk:
+                continue
+            row_r = A[r]
+            fac = row_r[rk]
+            if fac != 0:
+                row_r[rk] = z0
+                for c in nz_cols:
+                    row_r[c] -= fac * piv_row[c]
+        rk += 1
+
+    if not want_null:
+        return rk, []
+
+    dim_null = n_cols - rk
+    Z = [[z0] * dim_null for _ in range(n_cols)]
+    for f_idx in range(rk, n_cols):
+        col_num = f_idx - rk
+        Z[col_perm[f_idx]][col_num] = one
+        for i in range(rk):
+            Z[col_perm[i]][col_num] = -A[i][f_idx]
+
+    if dim_null > 0:
+        MZ = gm_matmul(M, Z)
+        err = max(abs(x) for row in MZ for x in row)
+        if err > gmpy2.mpfr("1e-75") * entry_max:
+            sys.exit(2)
+    return rk, Z
+
+
+def fox_pres_gm(mod_mats: list[GMMat], mod_invs: list[GMMat], w_idx_sgn: list[tuple[int, int]]) -> tuple[GMMat, GMMat]:
+    e = len(mod_mats[0])
+    ng = len(mod_mats)
+    z0 = gmpy2.mpc(0)
+    one = gmpy2.mpc(1)
+    out = [[z0] * (ng * e) for _ in range(e)]
+    pre = [[one if i == j else z0 for j in range(e)] for i in range(e)]
+    for j, sgn in w_idx_sgn:
+        off = j * e
+        if sgn == 1:
+            for r in range(e):
+                orow = out[r]
+                prow = pre[r]
+                for c in range(e):
+                    orow[off + c] += prow[c]
+            pre = gm_matmul(pre, mod_mats[j])
+        else:
+            pre = gm_matmul(pre, mod_invs[j])
+            for r in range(e):
+                orow = out[r]
+                prow = pre[r]
+                for c in range(e):
+                    orow[off + c] -= prow[c]
+    return out, pre
+
+
+def cohom_pres_gm(
+    mod_mats: list[GMMat],
+    mod_invs: list[GMMat],
+    rels_idx: list[list[tuple[int, int]]],
+    cusps_idx: list[tuple[list[tuple[int, int]], list[tuple[int, int]]]],
+    want_interior: bool = False,
+) -> tuple[int, int, int, int, GMMat | None]:
+    e = len(mod_mats[0])
+    ng = len(mod_mats)
+    z0 = gmpy2.mpc(0)
+    one = gmpy2.mpc(1)
+    fox: GMMat = []
+    for r in rels_idx:
+        fr, wr = fox_pres_gm(mod_mats, mod_invs, r)
+        for i in range(e):
+            for j in range(e):
+                if abs(wr[i][j] - (one if i == j else z0)) > gmpy2.mpfr("1e-75"):
+                    sys.exit(2)
+        fox.extend(fr)
+
+    rk, Z = gm_rank_and_nullspace(fox, len(fox), ng * e, want_null=True)
+    dg: GMMat = []
+    for m in mod_mats:
+        for i in range(e):
+            dg.append([m[i][j] - (one if i == j else z0) for j in range(e)])
+    r0, _ = gm_rank_and_nullspace(dg, ng * e, e, want_null=False)
+    h0 = e - r0
+    dimZ = ng * e - rk
+    h1 = dimZ - r0
+
+    rowsR: GMMat = []
+    nc = len(cusps_idx)
+    BP = [[z0] * (e * nc) for _ in range(2 * e * nc)]
+    for ci, (w1, w2) in enumerate(cusps_idx):
+        F1, W1 = fox_pres_gm(mod_mats, mod_invs, w1)
+        F2, W2 = fox_pres_gm(mod_mats, mod_invs, w2)
+        rowsR.extend(F1)
+        rowsR.extend(F2)
+        r_off = 2 * e * ci
+        c_off = e * ci
+        for i in range(e):
+            for j in range(e):
+                BP[r_off + i][c_off + j] = W1[i][j] - (one if i == j else z0)
+                BP[r_off + e + i][c_off + j] = W2[i][j] - (one if i == j else z0)
+
+    rBP, _ = gm_rank_and_nullspace(BP, 2 * e * nc, e * nc, want_null=False)
+    RZ = gm_matmul(rowsR, Z) if dimZ > 0 else [[z0] * 0 for _ in range(2 * e * nc)]
+    rboth, _ = gm_rank_and_nullspace(gm_hstack(BP, RZ), 2 * e * nc, e * nc + dimZ, want_null=False) if dimZ > 0 else (rBP, [])
+    r1 = rboth - rBP
+    n = h1 - r1
+    if not want_interior or n == 0:
+        return h0, h1, r1, n, None
+
+    _, K = gm_rank_and_nullspace(gm_hstack(RZ, gm_neg(BP)), 2 * e * nc, dimZ + e * nc, want_null=True)
+    I_cocs = gm_matmul(Z, K[:dimZ])
+    dim_vec = ng * e
+
+    def vdot(u: list[gmpy2.mpc], v: list[gmpy2.mpc]) -> gmpy2.mpc:
+        s = z0
+        for ui, vi in zip(u, v):
+            if ui != 0 and vi != 0:
+                s += ui.conjugate() * vi
+        return s
+
+    b_vecs: list[list[gmpy2.mpc]] = []
+    for c in range(e):
+        v = [dg[r][c] for r in range(dim_vec)]
+        for bv in b_vecs:
+            pr = vdot(bv, v)
+            v = [vi - pr * bi for vi, bi in zip(v, bv)]
+        nrm = gmpy2.sqrt(vdot(v, v).real)
+        if nrm > gmpy2.mpfr("1e-40"):
+            b_vecs.append([vi / nrm for vi in v])
+    if len(b_vecs) != r0:
+        sys.exit(2)
+
+    int_vecs: list[list[gmpy2.mpc]] = []
+    ncol_I = len(I_cocs[0]) if I_cocs else 0
+    for c in range(ncol_I):
+        v = [I_cocs[r][c] for r in range(dim_vec)]
+        for bv in b_vecs:
+            pr = vdot(bv, v)
+            v = [vi - pr * bi for vi, bi in zip(v, bv)]
+        for iv in int_vecs:
+            pr = vdot(iv, v)
+            v = [vi - pr * ii for vi, ii in zip(v, iv)]
+        nrm = gmpy2.sqrt(vdot(v, v).real)
+        if nrm > gmpy2.mpfr("1e-40"):
+            int_vecs.append([vi / nrm for vi in v])
+    if len(int_vecs) != n:
+        sys.exit(2)
+
+    int_basis = [[int_vecs[c][r] for c in range(n)] for r in range(dim_vec)]
+    f_chk = gm_matmul(fox, int_basis)
+    if max(abs(x) for row in f_chk for x in row) > gmpy2.mpfr("1e-75"):
+        sys.exit(2)
+    return h0, h1, r1, n, int_basis
+
+
+def wedge2_gm(X: GMMat) -> GMMat:
+    n = len(X)
+    idx = [(i, j) for i in range(n) for j in range(i + 1, n)]
+    m = len(idx)
+    z0 = gmpy2.mpc(0)
+    W = [[z0] * m for _ in range(m)]
+    for r, (i, j) in enumerate(idx):
+        Xi, Xj = X[i], X[j]
+        Wr = W[r]
+        for c, (k, l) in enumerate(idx):
+            Wr[c] = Xi[k] * Xj[l] - Xi[l] * Xj[k]
+    return W
+
+
+def generic_extension_counts_gm(
+    base_mats: list[GMMat],
+    base_invs: list[GMMat],
+    int_basis: GMMat,
+    rels_idx: list[list[tuple[int, int]]],
+    cusps_idx: list[tuple[list[tuple[int, int]], list[tuple[int, int]]]],
+) -> tuple[int, int]:
+    """Evaluate (I(W_1), I(Lambda^2 W_1)) at 120 digits across 3 independent deterministic complex draws."""
+    ng = len(base_mats)
+    n = len(int_basis[0])
+    z0 = gmpy2.mpc(0)
+    one = gmpy2.mpc(1)
+    draws = []
+    for seed_k in (1, 2, 3):
+        weights: list[gmpy2.mpc] = []
+        for r in range(n):
+            rad = mp.mpf(1) + mp.mpf("0.17") * r
+            ang = mp.mpf("0.73") * seed_k * (r + 1) + mp.mpf("0.29") * r * r
+            weights.append(_mp_to_gm(rad * (mp.cos(ang) + 1j * mp.sin(ang))))
+        c_vec = [sum(int_basis[i][r] * weights[r] for r in range(n)) for i in range(4 * ng)]
+
+        W1_mats: list[GMMat] = []
+        W1_invs: list[GMMat] = []
+        W1_dual: list[GMMat] = []
+        W1_dual_invs: list[GMMat] = []
+        L2_mats: list[GMMat] = []
+        L2_invs: list[GMMat] = []
+        L2_dual: list[GMMat] = []
+        L2_dual_invs: list[GMMat] = []
+
+        for j in range(ng):
+            Aj = base_mats[j]
+            Ainv = base_invs[j]
+            cj = c_vec[4 * j : 4 * (j + 1)]
+            neg_Ainv_c = [-sum(Ainv[row_i][k] * cj[k] for k in range(4)) for row_i in range(4)]
+
+            M5 = [Aj[row_i] + [cj[row_i]] for row_i in range(4)] + [[z0, z0, z0, z0, one]]
+            M5_inv = [Ainv[row_i] + [neg_Ainv_c[row_i]] for row_i in range(4)] + [[z0, z0, z0, z0, one]]
+            M5_star = gm_transpose(M5_inv)
+            M5_star_inv = gm_transpose(M5)
+
+            W1_mats.append(M5)
+            W1_invs.append(M5_inv)
+            W1_dual.append(M5_star)
+            W1_dual_invs.append(M5_star_inv)
+
+            L2_mats.append(wedge2_gm(M5))
+            L2_invs.append(wedge2_gm(M5_inv))
+            L2_dual.append(wedge2_gm(M5_star))
+            L2_dual_invs.append(wedge2_gm(M5_star_inv))
+
+        _, _, _, n_w1, _ = cohom_pres_gm(W1_mats, W1_invs, rels_idx, cusps_idx, want_interior=False)
+        _, _, _, n_w1s, _ = cohom_pres_gm(W1_dual, W1_dual_invs, rels_idx, cusps_idx, want_interior=False)
+        _, _, _, n_l2, _ = cohom_pres_gm(L2_mats, L2_invs, rels_idx, cusps_idx, want_interior=False)
+        _, _, _, n_l2s, _ = cohom_pres_gm(L2_dual, L2_dual_invs, rels_idx, cusps_idx, want_interior=False)
+        draws.append((n_w1 - n_w1s, n_l2 - n_l2s))
+    if not (draws[0] == draws[1] == draws[2]):
+        sys.exit(2)
+    return draws[0]
+
+
+def shapiro_gamma_cohom_gm(
+    cov: dict[str, object],
+    c_gen: np.ndarray,
+    m_order: int,
+    hol_gm4: dict[str, GMMat],
+    hol_gm4_inv: dict[str, GMMat],
+) -> tuple[int, int, int, int]:
+    """Second independent route at 120 digits: Shapiro's lemma directly on 3-generator Gamma = <a, b, t>."""
+    d = int(cov["d"])
+    act = cov["act"]
+    gen_idx = cov["gen_idx"]
+    roots_m = gm_roots_of_unity(m_order)
+    z0 = gmpy2.mpc(0)
+    ind_list: list[GMMat] = []
+    ind_invs: list[GMMat] = []
+    for g in "abt":
+        Hg = hol_gm4[g]
+        Hinv = hol_gm4_inv[g]
+        M_ind = [[z0] * (4 * d) for _ in range(4 * d)]
+        Minv_ind = [[z0] * (4 * d) for _ in range(4 * d)]
+        for x in range(d):
+            y = act[g][x]
+            idx = gen_idx[(x, g)]
+            ph = gmpy2.mpc(1) if idx is None else roots_m[int(c_gen[idx]) % m_order]
+            ph_conj = ph.conjugate()
+            for r in range(4):
+                for c in range(4):
+                    M_ind[4 * x + r][4 * y + c] = ph * Hg[r][c]
+                    Minv_ind[4 * y + r][4 * x + c] = ph_conj * Hinv[r][c]
+        ind_list.append(M_ind)
+        ind_invs.append(Minv_ind)
+    gmap = {"a": (0, 1), "b": (1, 1), "t": (2, 1), "A": (0, -1), "B": (1, -1), "T": (2, -1)}
+    rels_g = [[gmap[ch] for ch in rw] for rw in cov["rels_gamma"]]
+    cusp_g = [([gmap[ch] for ch in cov["ell_w"]], [gmap[ch] for ch in cov["tp_w"]])]
+    h0, h1, r1, n, _ = cohom_pres_gm(ind_list, ind_invs, rels_g, cusp_g, want_interior=False)
+    return h0, h1, r1, n
+
+
+def qr_rank_np(M: np.ndarray, tol: float = 1e-9) -> int:
+    if M.size == 0:
+        return 0
+    R_qr, _ = sla.qr(M, mode="r", pivoting=True)
+    d = np.abs(np.diag(R_qr))
+    if len(d) == 0 or d[0] == 0:
+        return 0
+    rel = d / d[0]
+    if len(rel[(rel > 1e-11) & (rel < 1e-6)]) != 0:
+        sys.exit(2)
+    return int(np.sum(rel > tol))
 
 
 def svd_rank(M: np.ndarray, tol: float = 1e-9) -> int:
-    if M.size == 0:
-        return 0
-    s = np.linalg.svd(M, compute_uv=False)
-    if s[0] == 0:
-        return 0
-    rel = s / s[0]
-    amb = rel[(rel > 1e-11) & (rel < 1e-6)]
-    if len(amb) != 0:
-        sys.exit(2)
-    return int(np.sum(rel > tol))
+    return qr_rank_np(M, tol=tol)
 
 
 def svd_nullspace(M: np.ndarray, tol: float = 1e-9) -> np.ndarray:
@@ -669,14 +1127,6 @@ def svd_nullspace(M: np.ndarray, tol: float = 1e-9) -> np.ndarray:
         sys.exit(2)
     rk = int(np.sum(rel > tol))
     return vh[rk:, :].conj().T
-
-
-def eval_word_np(w: str, mats_abt: dict[str, np.ndarray], invs_abt: dict[str, np.ndarray]) -> np.ndarray:
-    e = mats_abt["a"].shape[0]
-    X = np.eye(e, dtype=np.complex128)
-    for c in w:
-        X = X @ (mats_abt[c] if c in "abt" else invs_abt[c.lower()])
-    return X
 
 
 def fox_pres_np(mod_mats: list[np.ndarray], mod_invs: list[np.ndarray], w_idx_sgn: list[tuple[int, int]]) -> tuple[np.ndarray, np.ndarray]:
@@ -711,9 +1161,9 @@ def cohom_pres_np(
             sys.exit(2)
         fox_rows.append(fr)
     fox = np.vstack(fox_rows)
-    rk = svd_rank(fox)
+    rk = qr_rank_np(fox)
     dg = np.vstack([m - I for m in mod_mats])
-    r0 = svd_rank(dg)
+    r0 = qr_rank_np(dg)
     h0 = e - r0
     h1 = ng * e - rk - (e - h0)
     Z = svd_nullspace(fox)
@@ -729,84 +1179,21 @@ def cohom_pres_np(
     for ci, b in enumerate(BPb):
         BP[2 * e * ci : 2 * e * (ci + 1), e * ci : e * (ci + 1)] = b
     R = np.vstack(rowsR)
-    rBP = svd_rank(BP)
+    rBP = qr_rank_np(BP)
     RZ = R @ Z
-    rboth = svd_rank(np.hstack([BP, RZ])) if Z.shape[1] > 0 else rBP
+    rboth = qr_rank_np(np.hstack([BP, RZ])) if Z.shape[1] > 0 else rBP
     r1 = rboth - rBP
     n = h1 - r1
-    if not want_interior or n == 0:
-        return h0, h1, r1, n, None
-
-    K = svd_nullspace(np.hstack([RZ, -BP]))
-    I_cocs = Z @ K[: Z.shape[1], :]
-    if r0 > 0:
-        u_dg, _, _ = np.linalg.svd(dg, full_matrices=False)
-        B_orth = u_dg[:, :r0]
-        proj = I_cocs - B_orth @ (B_orth.conj().T @ I_cocs)
-    else:
-        proj = I_cocs
-    u_int, s_int, _ = np.linalg.svd(proj, full_matrices=False)
-    if int(np.sum(s_int > 1e-7)) != n:
-        sys.exit(2)
-    int_basis = u_int[:, :n]
-    if np.max(np.abs(fox @ int_basis)) > 1e-9:
-        sys.exit(2)
-    return h0, h1, r1, n, int_basis
+    return h0, h1, r1, n, None
 
 
-def wedge2_np(X: np.ndarray) -> np.ndarray:
-    n = X.shape[0]
-    idx = [(i, j) for i in range(n) for j in range(i + 1, n)]
-    W = np.zeros((len(idx), len(idx)), dtype=np.complex128)
-    for r, (i, j) in enumerate(idx):
-        for c, (k, l) in enumerate(idx):
-            W[r, c] = X[i, k] * X[j, l] - X[i, l] * X[j, k]
-    return W
-
-
-def generic_extension_counts(
-    base_mats: list[np.ndarray],
-    int_basis: np.ndarray,
-    rels_idx: list[list[tuple[int, int]]],
-    cusps_idx: list[tuple[list[tuple[int, int]], list[tuple[int, int]]]],
-) -> tuple[int, int]:
-    """Evaluate (I(W_1), I(Lambda^2 W_1)) across 3 independent deterministic complex draws and assert agreement."""
-    ng = len(base_mats)
-    n = int_basis.shape[1]
-    draws = []
-    for seed_k in (1, 2, 3):
-        weights = np.array([cmath.rect(1.0 + 0.17 * r, 0.73 * seed_k * (r + 1) + 0.29 * r * r) for r in range(n)], dtype=np.complex128)
-        c_vec = int_basis @ weights
-        W1_mats = []
-        W1_dual = []
-        L2_mats = []
-        L2_dual = []
-        for j in range(ng):
-            Aj = base_mats[j]
-            cj = c_vec[4 * j : 4 * (j + 1)].reshape(4, 1)
-            M5 = np.block([[Aj, cj], [np.zeros((1, 4), dtype=np.complex128), np.ones((1, 1), dtype=np.complex128)]])
-            W1_mats.append(M5)
-            W1_dual.append(np.linalg.inv(M5).T)
-            M10 = wedge2_np(M5)
-            L2_mats.append(M10)
-            L2_dual.append(np.linalg.inv(M10).T)
-        _, _, _, n_w1, _ = cohom_pres_np(W1_mats, rels_idx, cusps_idx, want_interior=False)
-        _, _, _, n_w1s, _ = cohom_pres_np(W1_dual, rels_idx, cusps_idx, want_interior=False)
-        _, _, _, n_l2, _ = cohom_pres_np(L2_mats, rels_idx, cusps_idx, want_interior=False)
-        _, _, _, n_l2s, _ = cohom_pres_np(L2_dual, rels_idx, cusps_idx, want_interior=False)
-        draws.append((n_w1 - n_w1s, n_l2 - n_l2s))
-    if not (draws[0] == draws[1] == draws[2]):
-        sys.exit(2)
-    return draws[0]
-
-
-def shapiro_gamma_cohom(
+def shapiro_gamma_cohom_fast_m004(
     cov: dict[str, object],
     c_gen: np.ndarray,
     m_order: int,
     hol_np4: dict[str, np.ndarray],
 ) -> tuple[int, int, int, int]:
-    """Second independent route: Shapiro's lemma directly on 3-generator Gamma = <a, b, t>."""
+    """Fast pivoted-QR Shapiro pre-screener for word-length-2 m004 (+LR), backed by 120-digit gmpy2 verification."""
     d = int(cov["d"])
     act = cov["act"]
     gen_idx = cov["gen_idx"]
@@ -1145,11 +1532,23 @@ def verify_row_908() -> dict[str, object]:
     }
 
 
+def _cover_gen_gm_mats(cov: dict[str, object], hol_obj: dict[str, object]) -> tuple[list[GMMat], list[GMMat]]:
+    abt_mp = hol_obj["abt_mp"]
+    abt_inv_mp = hol_obj["abt_inv_mp"]
+    gm_mats: list[GMMat] = []
+    gm_invs: list[GMMat] = []
+    for gw in cov["gen_words"]:
+        W = eval_word_sl2_mp(gw, abt_mp, abt_inv_mp)
+        gm_mats.append(four_mp_to_gm(W))
+        gm_invs.append(four_mp_to_gm(sl2_inv_mp(W)))
+    return gm_mats, gm_invs
+
+
 def verify_row_909() -> dict[str, object]:
     """Row 909 (@ 0d2694faf, sm:B1549): all 13 three-ended covers on 10 states at nu^4 = 1."""
     st_list = genesis_states(8, 12)
     covers_info = []
-    roots4 = np.array([1.0, 1j, -1.0, -1j], dtype=np.complex128)
+    roots4 = gm_roots_of_unity(4)
     total_sign_members = 0
     sign_gen_shaped = 0
     ord4_shapes: Counter[str] = Counter()
@@ -1168,9 +1567,9 @@ def verify_row_909() -> dict[str, object]:
                 if len(cov["cusps_idx"]) == 3:
                     valid_wb.append((wb, cov))
             for wb, cov in valid_wb:
-                hol = get_holonomy(sw[0], sw[1:])["np4"]
+                hol_obj = get_holonomy(sw[0], sw[1:])
                 _, orbits = cover_characters_and_orbits(cov, 4)
-                gen_mats_hol = [eval_word_np(gw, hol, {g: np.linalg.inv(hol[g]) for g in "abt"}) for gw in cov["gen_words"]]
+                gen_mats_hol, gen_invs_hol = _cover_gen_gm_mats(cov, hol_obj)
                 cov_gen = 0
                 cov_sign = 0
                 cov_ord4: Counter[str] = Counter()
@@ -1178,16 +1577,17 @@ def verify_row_909() -> dict[str, object]:
                     rep = orb[0]
                     osize = len(orb)
                     ord_c = 1 if np.all(rep == 0) else (2 if np.all((2 * rep) % 4 == 0) else 4)
-                    mod_mats = [roots4[int(rep[j]) % 4] * gen_mats_hol[j] for j in range(cov["ng"])]
-                    _, h1, r1, n, int_basis = cohom_pres_np(mod_mats, cov["rels_idx"], cov["cusps_idx"], want_interior=True)
+                    mod_mats = [gm_scale_mat(roots4[int(rep[j]) % 4], gen_mats_hol[j]) for j in range(cov["ng"])]
+                    mod_invs = [gm_scale_mat(roots4[(-int(rep[j])) % 4], gen_invs_hol[j]) for j in range(cov["ng"])]
+                    _, h1, r1, n, int_basis = cohom_pres_gm(mod_mats, mod_invs, cov["rels_idx"], cov["cusps_idx"], want_interior=True)
                     if sw in ("+LLLR", "-LLLLLR") and n > 0:
-                        # Cross-verify member orbits via independent Shapiro route on Gamma!
-                        _, h1_s, r1_s, n_s = shapiro_gamma_cohom(cov, rep, 4, hol)
+                        # Cross-verify member orbits via independent 120-digit Shapiro route on Gamma!
+                        _, h1_s, r1_s, n_s = shapiro_gamma_cohom_gm(cov, rep, 4, hol_obj["gm4"], hol_obj["gm4_inv"])
                         if (h1_s, r1_s, n_s) != (h1, r1, n):
                             sys.exit(2)
                     if n > 0:
                         assert int_basis is not None
-                        iw1, il2 = generic_extension_counts(mod_mats, int_basis, cov["rels_idx"], cov["cusps_idx"])
+                        iw1, il2 = generic_extension_counts_gm(mod_mats, mod_invs, int_basis, cov["rels_idx"], cov["cusps_idx"])
                         shape_s = f"({iw1},{il2})"
                         is_gen = (iw1 == -1 and il2 == -1)
                         if is_gen:
@@ -1236,7 +1636,7 @@ def verify_row_909() -> dict[str, object]:
 
 def verify_row_910() -> dict[str, object]:
     """Row 910 (@ 0d2694faf, sm:B1550): parity lemma + A_4 cover on +LR, -LR, +LLLR, -LLLR at nu^4 = 1."""
-    roots4 = np.array([1.0, 1j, -1.0, -1j], dtype=np.complex128)
+    roots4 = gm_roots_of_unity(4)
     state_summaries = {}
     total_members = 0
     total_member_orbits = 0
@@ -1245,9 +1645,9 @@ def verify_row_910() -> dict[str, object]:
 
     for sw in ("+LR", "-LR", "+LLLR", "-LLLR"):
         cov = build_a4_cover(sw[0], sw[1:])
-        hol = get_holonomy(sw[0], sw[1:])["np4"]
+        hol_obj = get_holonomy(sw[0], sw[1:])
         _, orbits = cover_characters_and_orbits(cov, 4)
-        gen_mats_hol = [eval_word_np(gw, hol, {g: np.linalg.inv(hol[g]) for g in "abt"}) for gw in cov["gen_words"]]
+        gen_mats_hol, gen_invs_hol = _cover_gen_gm_mats(cov, hol_obj)
         orb_records = []
         st_members = 0
         st_gen = 0
@@ -1260,14 +1660,15 @@ def verify_row_910() -> dict[str, object]:
             rep = orb[0]
             osize = len(orb)
             ord_c = 1 if np.all(rep == 0) else (2 if np.all((2 * rep) % 4 == 0) else 4)
-            mod_mats = [roots4[int(rep[j]) % 4] * gen_mats_hol[j] for j in range(cov["ng"])]
-            _, h1, r1, n, int_basis = cohom_pres_np(mod_mats, cov["rels_idx"], cov["cusps_idx"], want_interior=True)
+            mod_mats = [gm_scale_mat(roots4[int(rep[j]) % 4], gen_mats_hol[j]) for j in range(cov["ng"])]
+            mod_invs = [gm_scale_mat(roots4[(-int(rep[j])) % 4], gen_invs_hol[j]) for j in range(cov["ng"])]
+            _, h1, r1, n, int_basis = cohom_pres_gm(mod_mats, mod_invs, cov["rels_idx"], cov["cusps_idx"], want_interior=True)
             if n > 0:
-                _, h1_s, r1_s, n_s = shapiro_gamma_cohom(cov, rep, 4, hol)
+                _, h1_s, r1_s, n_s = shapiro_gamma_cohom_gm(cov, rep, 4, hol_obj["gm4"], hol_obj["gm4_inv"])
                 if (h1_s, r1_s, n_s) != (h1, r1, n):
                     sys.exit(2)
                 assert int_basis is not None
-                iw1, il2 = generic_extension_counts(mod_mats, int_basis, cov["rels_idx"], cov["cusps_idx"])
+                iw1, il2 = generic_extension_counts_gm(mod_mats, mod_invs, int_basis, cov["rels_idx"], cov["cusps_idx"])
                 m_A = sum(
                     1 for (sw1, sw2) in cov["cusps_idx"]
                     if (sum(int(rep[idx]) * sgn for idx, sgn in sw1) % 4 == 0)
@@ -1412,21 +1813,28 @@ def verify_row_912() -> dict[str, object]:
         code_s = int(np.sum(z_s[:, None] * weights))
         pullback_codes.add(int(min_code[code_s]))
 
-    hol = get_holonomy("+", "LR")["np4"]
-    gen_mats_hol = [eval_word_np(gw, hol, {g: np.linalg.inv(hol[g]) for g in "abt"}) for gw in cov_S["gen_words"]]
-    roots4 = np.array([1.0, 1j, -1.0, -1j], dtype=np.complex128)
+    hol_obj = get_holonomy("+", "LR")
+    hol_np = hol_obj["np4"]
+    gen_mats_hol, gen_invs_hol = _cover_gen_gm_mats(cov_S, hol_obj)
+    roots4 = gm_roots_of_unity(4)
 
     member_orbits = []
+    spot_checked_nonmembers = 0
     for oc, osize in zip(orb_codes.tolist(), orb_sizes.tolist()):
         z = np.array([(oc >> (2 * (7 - i))) & 3 for i in range(8)], dtype=np.int64)
         c_gen = (B_mat @ z) % 4
-        _, h1, r1, n = shapiro_gamma_cohom(cov_S, c_gen, 4, hol)
-        if n > 0:
-            # Double-verify every member orbit directly on S's own 49-generator Schreier presentation!
-            mod_mats = [roots4[int(c_gen[j]) % 4] * gen_mats_hol[j] for j in range(ng)]
-            _, h1_p, r1_p, n_p, _ = cohom_pres_np(mod_mats, cov_S["rels_idx"], cov_S["cusps_idx"])
-            if (h1_p, r1_p, n_p) != (h1, r1, n):
+        _, h1, r1, n = shapiro_gamma_cohom_fast_m004(cov_S, c_gen, 4, hol_np)
+        if n > 0 or spot_checked_nonmembers < 25:
+            # Verify at 120 digits via BOTH Shapiro on Gamma AND S's own 49-generator Schreier presentation!
+            _, h1_s, r1_s, n_s = shapiro_gamma_cohom_gm(cov_S, c_gen, 4, hol_obj["gm4"], hol_obj["gm4_inv"])
+            mod_mats = [gm_scale_mat(roots4[int(c_gen[j]) % 4], gen_mats_hol[j]) for j in range(ng)]
+            mod_invs = [gm_scale_mat(roots4[(-int(c_gen[j])) % 4], gen_invs_hol[j]) for j in range(ng)]
+            _, h1_p, r1_p, n_p, _ = cohom_pres_gm(mod_mats, mod_invs, cov_S["rels_idx"], cov_S["cusps_idx"])
+            if (h1_p, r1_p, n_p) != (h1, r1, n) or (h1_s, r1_s, n_s) != (h1, r1, n):
                 sys.exit(2)
+            if n == 0:
+                spot_checked_nonmembers += 1
+        if n > 0:
             ord_c = 1 if np.all(c_gen == 0) else (2 if np.all((2 * c_gen) % 4 == 0) else 4)
             member_orbits.append({
                 "size": int(osize),
@@ -1652,20 +2060,26 @@ def verify_row_916() -> dict[str, object]:
             if ((pa * M2[0, 0] + pb * M2[1, 0]) % 2, (pa * M2[0, 1] + pb * M2[1, 1]) % 2) == (pa, pb)
         ]
 
-        tsgn, twrd, hol_tk = get_tick_holonomy_np4(sw[0], sw[1:], k_res)
+        tsgn, twrd, hol_tk, hol_tk_inv = get_tick_holonomy_gm4(sw[0], sw[1:], k_res)
         cov = build_cover(tsgn, twrd, 1, {"a": [0], "b": [0], "t": [0]})
         # Map Schreier generators of degree-1 cover directly to a, b, t
         assert cov["gen_words"] == ["a", "b", "t"]
+        roots12 = gm_roots_of_unity(12)
 
         by_par: dict[str, list[dict[str, object]]] = {nm: [] for nm, _ in parities}
         for nm, (pa, pb) in parities:
-            va = -1.0 if pa else 1.0
-            vb = -1.0 if pb else 1.0
+            va = gmpy2.mpc(-1 if pa else 1)
+            vb = gmpy2.mpc(-1 if pb else 1)
+            ma = gm_scale_mat(va, hol_tk["a"])
+            ma_inv = gm_scale_mat(va, hol_tk_inv["a"])
+            mb = gm_scale_mat(vb, hol_tk["b"])
+            mb_inv = gm_scale_mat(vb, hol_tk_inv["b"])
             for ek in range(12):
-                vt = cmath.exp(2j * math.pi * ek / 12.0)
-                # Check character relation on tick bundle: chi(phi_tk(g)) == chi(g), which holds by definition of k_res!
-                mod_mats = [va * hol_tk["a"], vb * hol_tk["b"], vt * hol_tk["t"]]
-                _, h1, r1, n, _ = cohom_pres_np(mod_mats, cov["rels_idx"], cov["cusps_idx"])
+                vt = roots12[ek]
+                vt_inv = roots12[(-ek) % 12]
+                mod_mats = [ma, mb, gm_scale_mat(vt, hol_tk["t"])]
+                mod_invs = [ma_inv, mb_inv, gm_scale_mat(vt_inv, hol_tk_inv["t"])]
+                _, h1, r1, n, _ = cohom_pres_gm(mod_mats, mod_invs, cov["rels_idx"], cov["cusps_idx"])
                 if n > 0:
                     by_par[nm].append({"kappa_twelfths": ek, "h1_r1_n": [h1, r1, n]})
 
@@ -1865,21 +2279,22 @@ def verify_row_922() -> dict[str, object]:
     odd6 = [(sw, M) for sw, M, _ in genesis_states(6) if (M[0][0] + M[1][1]) % 2 != 0]
     assert len(odd6) == 12
     thread_rows = []
-    roots4 = np.array([1.0, 1j, -1.0, -1j], dtype=np.complex128)
-    roots3 = np.array([1.0, cmath.exp(2j * math.pi / 3.0), cmath.exp(4j * math.pi / 3.0)], dtype=np.complex128)
+    roots4 = gm_roots_of_unity(4)
+    roots3 = gm_roots_of_unity(3)
 
     for sw, M in odd6:
         cov = build_a4_cover(sw[0], sw[1:])
-        hol = get_holonomy(sw[0], sw[1:])["np4"]
-        gen_mats_hol = [eval_word_np(gw, hol, {g: np.linalg.inv(hol[g]) for g in "abt"}) for gw in cov["gen_words"]]
+        hol_obj = get_holonomy(sw[0], sw[1:])
+        gen_mats_hol, gen_invs_hol = _cover_gen_gm_mats(cov, hol_obj)
 
         chars4, orbs4 = cover_characters_and_orbits(cov, 4)
         mem4 = 0
         mem4_orbs = 0
         for orb in orbs4:
             rep = orb[0]
-            mod_mats = [roots4[int(rep[j]) % 4] * gen_mats_hol[j] for j in range(cov["ng"])]
-            _, _, _, n, _ = cohom_pres_np(mod_mats, cov["rels_idx"], cov["cusps_idx"])
+            mod_mats = [gm_scale_mat(roots4[int(rep[j]) % 4], gen_mats_hol[j]) for j in range(cov["ng"])]
+            mod_invs = [gm_scale_mat(roots4[(-int(rep[j])) % 4], gen_invs_hol[j]) for j in range(cov["ng"])]
+            _, _, _, n, _ = cohom_pres_gm(mod_mats, mod_invs, cov["rels_idx"], cov["cusps_idx"])
             if n > 0:
                 mem4 += len(orb)
                 mem4_orbs += 1
@@ -1889,8 +2304,9 @@ def verify_row_922() -> dict[str, object]:
         mem3_mA_max = 0
         for orb in orbs3:
             rep = orb[0]
-            mod_mats = [roots3[int(rep[j]) % 3] * gen_mats_hol[j] for j in range(cov["ng"])]
-            _, _, _, n, _ = cohom_pres_np(mod_mats, cov["rels_idx"], cov["cusps_idx"])
+            mod_mats = [gm_scale_mat(roots3[int(rep[j]) % 3], gen_mats_hol[j]) for j in range(cov["ng"])]
+            mod_invs = [gm_scale_mat(roots3[(-int(rep[j])) % 3], gen_invs_hol[j]) for j in range(cov["ng"])]
+            _, _, _, n, _ = cohom_pres_gm(mod_mats, mod_invs, cov["rels_idx"], cov["cusps_idx"])
             if n > 0:
                 mem3 += len(orb)
                 m_A = sum(
