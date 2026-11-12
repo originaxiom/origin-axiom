@@ -1,0 +1,172 @@
+{
+ "control passes": true,
+ "of the six that passed, caught now": 6,
+ "of B1895's eighteen, caught": 18,
+ "caught": 24,
+ "of": 24,
+ "plants": [
+  {
+   "plant": "control: nothing planted",
+   "tests failing": []
+  },
+  {
+   "plant": "of the six that passed: a sentence that states the withdrawn claim, in a paragraph of its own",
+   "tests failing": [
+    "test_the_withdrawn_word_stands_only_where_it_is_taken_back"
+   ]
+  },
+  {
+   "plant": "of the six that passed: the docstring of the script's second function given the withdrawn word",
+   "tests failing": [
+    "test_the_withdrawn_word_stands_only_where_it_is_taken_back"
+   ]
+  },
+  {
+   "plant": "of the six that passed: the script's counts of run sequences typed in place of computed",
+   "tests failing": [
+    "test_the_script_computes_what_it_says_it_computes"
+   ]
+  },
+  {
+   "plant": "of the six that passed: the committed run file edited where the lock did not read it",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today"
+   ]
+  },
+  {
+   "plant": "of the six that passed: a clause that is not a literal and is always true, joined by `or` to two conditions",
+   "tests failing": [
+    "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended"
+   ]
+  },
+  {
+   "plant": "of the six that passed: the sorting of a printed set undone",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the single runs' check passed the literal True again",
+   "tests failing": [
+    "test_no_check_of_the_script_is_passed_a_constant",
+    "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
+    "test_the_script_computes_what_it_says_it_computes"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the mirror's check passed the literal True again",
+   "tests failing": [
+    "test_no_check_of_the_script_is_passed_a_constant",
+    "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
+    "test_the_script_computes_what_it_says_it_computes"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: a name bound to True passed to a check",
+   "tests failing": [
+    "test_no_check_of_the_script_is_passed_a_constant",
+    "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
+    "test_the_script_computes_what_it_says_it_computes"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the bound 0.9 to 1 dropped from the script's check",
+   "tests failing": [
+    "test_the_short_gap_figure_in_exact_arithmetic"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: every [CORRECTED] bracket and the bullet deleted from the page",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects",
+    "test_the_three_counts_of_run_sequences_by_a_second_method"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the bullet 'Three checks did not check what they said' deleted",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the second note on the transpose deleted",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects",
+    "test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test",
+    "test_the_withdrawn_word_stands_only_where_it_is_taken_back"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the verdict line says 'reproduced' again",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the verdict line keeps 'the transpose' with its second correction removed",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects",
+    "test_the_withdrawn_word_stands_only_where_it_is_taken_back"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the old label 'cyclic run sequence (16275 sequences)' back in the run and its file",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_the_three_counts_of_run_sequences_by_a_second_method"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: one count changed in the run's file",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_the_three_counts_of_run_sequences_by_a_second_method"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the check on the two conventions passes on any of three again",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the docstring names B1872 again",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the script's second mark moved to the mark's own column",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the script's second word made the transpose (letters in reversed order)",
+   "tests failing": [
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the page says 104 of 120 for the control",
+   "tests failing": [
+    "test_the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the page says 0.93 percent",
+   "tests failing": [
+    "test_the_short_gap_figure_in_exact_arithmetic"
+   ]
+  },
+  {
+   "plant": "of B1895's eighteen: the page says 'is reproduced' again, the bracket removed",
+   "tests failing": [
+    "test_each_correction_stands_with_the_sentence_it_corrects"
+   ]
+  }
+ ]
+}

@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
+
+- **The reader's count.** B1895 rebuilt B1881's lock, and main's own eighteen planted reversions were all caught. agy-002 then planted 23 errors of its own against the lock as it stood, the eighteen new ones written before it opened the lock: 17 caught, six passing.
+- **What the six are.** Every direct reversion of a mend was caught. The six leave the mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; a function's docstring given the withdrawn word; counts typed in place of computed; the committed run file edited where the lock did not read it; a clause that is always true and is not a literal, joined to two conditions; the sorting of a printed set undone.
+- **Closed.** The lock runs the arc's script twice in a folder of its own and holds both outputs to the committed files byte for byte; the mended conditions and one printed detail are held word for word; its scan sees a table of constants and the counts are held to the expressions that compute them; the function's docstring is read, and every line and paragraph that holds the withdrawn word. Made again by main from the reader's descriptions, with the eighteen of B1895: 24 of 24 caught, the control passing.
+- **Not closed, and said in the lock:** a withdrawn claim restated without its word (P-817).
+- **What it shows.** A lock tested only by its author is tested against what its author thought of. A lock that reads a committed output does not hold that the script still computes it.
+- **With it:** B1895's lock no longer pins the number of tests in a lock that keeps growing; one more shape of a check that cannot fail is sent to the builder of the gates (P-820).
+- **The retractions index caught up** (P-823). The currency gate found at this landing that the index had no row for 61 arcs: its rule, a row in the landing that banks a correction, had lapsed after B1836. No arc of the window is retracted or superseded. Thirteen rows for corrected statements of mathematics, each read at its source, and four rows that point to the tables holding the reviews' corrections. Still owed: the reviews' corrections read one by one, and a check that holds the rule.
+- **Not shown.** The reader's own 23 against the lock as it now stands; any other arc's lock tested this way.
+
+0 of 19.
+
 ## S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
 
 - **The series** is the six commits before this one, the advisor seat's, applied as sent with no conflict and no line changed. One rule: a gate reads all it is about, counts in its own sentence what it does not read, refuses what it cannot read, and holds by name what stood on the day the rule came. The framing gate reads every text file in its folders as a reader reads; each row of the claims page's two locked tables cites a lock that holds a test; a test in which no assert can fail is refused and the arcs' own locks are read; a repository with no commit is not a full clone; the sweep for retracted phrases reads every row of its registry; a gate's control is read and does not leave the register without a recorded act.

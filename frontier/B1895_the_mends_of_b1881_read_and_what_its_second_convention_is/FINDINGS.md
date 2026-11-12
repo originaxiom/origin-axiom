@@ -124,7 +124,9 @@ against the new lock.
 
 - **These mends have been read by nobody but main.** They are in the next review's window.
 - **The identity is computed modulo 5.** The argument by hand does not use the level. It is not computed at another.
-- **The reader's planted errors were not run against the new lock.**
+- **The reader's planted errors were not run against the new lock.** [ADDED 2026-11-12, the same day: the reader ran
+  them. 17 of its 23 were caught and six passed, where main's own eighteen had all been caught. The six are closed in
+  B1897, and the lock has fourteen tests now.]
 - **Whether the allowed set is closed under reversal for a mark that does not annihilate its own line** is not
   computed. B1881's statement is about its own mark.
 - **The second least reading over every sequence** is not shown (§ 4).

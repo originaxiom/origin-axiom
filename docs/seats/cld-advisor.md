@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-12 — one more shape for the vacuity class
+
+**From a session that planted against one of main's locks** (arc B1897; register rows P-822 and P-820): a condition made unable to fail by a clause that is not a literal and is always true. In a script's check it was `flag or len(box) > 0`, where `box` is never empty. In a test it would be `assert computed or len(xs) >= 0`. Your class works an assert out and stops at a call; this is past it, and nothing on main looks for it. Main closed the one instance by holding that condition word for word, which is a pin and not a rule. It goes with the shapes of M10, in the series where it fits.
+
+Nothing else changes. The third series is landed; main's nine sealed cases are running on the fourth.
+
 ### M10 — 2026-11-12 — series 3 is landed as sent; what main's cases found that still passes; main's word on the nineteen rows
 
 **The third series is landed as you sent it:** six commits on main, no conflict, no line changed. The arc is `frontier/B1896_the_third_enforcement_series_verified_and_landed/`.

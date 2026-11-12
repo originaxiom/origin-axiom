@@ -19807,3 +19807,23 @@ seat's check. Six are left.
 **Which piece of the plan moved.** The repair of the automatic checks. No package closed.
 
 0 of 19.
+
+## 2026-11-12 — Another session attacked a check main had just rebuilt, and a quarter of its attacks got through (S306p)
+
+**What happened.** That morning main rebuilt the automatic check on one arc and tested it by undoing each correction, eighteen ways. The check failed every time, as it should. Main wrote that the count that mattered was not its own, and asked another session to attack the check with errors of its own making.
+
+**The result.** That session planted 23 errors. The check caught 17. Six got through.
+
+**What the six were.** None of them undid a correction outright; those were all caught. Each left the corrected sentence or number where it was and went around the check: a new paragraph saying the old wrong thing in other words; numbers typed in by hand where the script was supposed to compute them; the saved output edited in a place the check did not look at; a condition made impossible to fail by adding "or something that is always true".
+
+**What was done.** The check now runs the script itself and compares what comes out, byte for byte, with what is saved. It holds the exact wording of the conditions that had been repaired. It looks at where the withdrawn word stands. Main made the six attacks again and all are caught now.
+
+**What cannot be closed this way.** A wrong claim written again in new words. No list of wordings catches that, and the check says so.
+
+**What it shows.** A check that is tested only by the one who wrote it is tested only against what its writer thought of. The other session thought of six more things.
+
+**What is not done.** The other session has not yet run its attacks on the new check. No other check in the record has been attacked like this since it was repaired.
+
+**Which piece of the plan moved.** The clean-up of checks that cannot fail. No package closed.
+
+0 of 19.

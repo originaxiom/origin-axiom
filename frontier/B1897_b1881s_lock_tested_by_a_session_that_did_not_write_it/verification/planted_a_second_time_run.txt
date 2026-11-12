@@ -1,0 +1,27 @@
+control: nothing planted                                                                                         passes  
+of the six that passed: a sentence that states the withdrawn claim, in a paragraph of its own                    CAUGHT  the_withdrawn_word_stands_only_where_it_is_taken_back
+of the six that passed: the docstring of the script's second function given the withdrawn word                   CAUGHT  the_withdrawn_word_stands_only_where_it_is_taken_back
+of the six that passed: the script's counts of run sequences typed in place of computed                          CAUGHT  the_script_computes_what_it_says_it_computes
+of the six that passed: the committed run file edited where the lock did not read it                             CAUGHT  the_committed_run_is_what_the_script_gives_today
+of the six that passed: a clause that is not a literal and is always true, joined by `or` to two conditions      CAUGHT  the_conditions_of_the_mended_checks_are_the_ones_that_w
+of the six that passed: the sorting of a printed set undone                                                      CAUGHT  the_committed_run_is_what_the_script_gives_today, the_conditions_of_the_mended_checks_are_the_ones_that_w
+of B1895's eighteen: the single runs' check passed the literal True again                                        CAUGHT  no_check_of_the_script_is_passed_a_constant, the_conditions_of_the_mended_checks_are_the_ones_that_w, the_script_computes_what_it_says_it_computes
+of B1895's eighteen: the mirror's check passed the literal True again                                            CAUGHT  no_check_of_the_script_is_passed_a_constant, the_conditions_of_the_mended_checks_are_the_ones_that_w, the_script_computes_what_it_says_it_computes
+of B1895's eighteen: a name bound to True passed to a check                                                      CAUGHT  no_check_of_the_script_is_passed_a_constant, the_conditions_of_the_mended_checks_are_the_ones_that_w, the_script_computes_what_it_says_it_computes
+of B1895's eighteen: the bound 0.9 to 1 dropped from the script's check                                          CAUGHT  the_short_gap_figure_in_exact_arithmetic
+of B1895's eighteen: every [CORRECTED] bracket and the bullet deleted from the page                              CAUGHT  each_correction_stands_with_the_sentence_it_corrects, the_three_counts_of_run_sequences_by_a_second_method
+of B1895's eighteen: the bullet 'Three checks did not check what they said' deleted                              CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+of B1895's eighteen: the second note on the transpose deleted                                                    CAUGHT  each_correction_stands_with_the_sentence_it_corrects, the_second_convention_is_the_first_conjugated_by_the_sw, the_withdrawn_word_stands_only_where_it_is_taken_back
+of B1895's eighteen: the verdict line says 'reproduced' again                                                    CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+of B1895's eighteen: the verdict line keeps 'the transpose' with its second correction removed                   CAUGHT  each_correction_stands_with_the_sentence_it_corrects, the_withdrawn_word_stands_only_where_it_is_taken_back
+of B1895's eighteen: the old label 'cyclic run sequence (16275 sequences)' back in the run and its file          CAUGHT  the_committed_run_is_what_the_script_gives_today, the_three_counts_of_run_sequences_by_a_second_method
+of B1895's eighteen: one count changed in the run's file                                                         CAUGHT  the_committed_run_is_what_the_script_gives_today, the_three_counts_of_run_sequences_by_a_second_method
+of B1895's eighteen: the check on the two conventions passes on any of three again                               CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+of B1895's eighteen: the docstring names B1872 again                                                             CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+of B1895's eighteen: the script's second mark moved to the mark's own column                                     CAUGHT  the_committed_run_is_what_the_script_gives_today, the_second_convention_is_the_first_conjugated_by_the_sw
+of B1895's eighteen: the script's second word made the transpose (letters in reversed order)                     CAUGHT  the_committed_run_is_what_the_script_gives_today, the_second_convention_is_the_first_conjugated_by_the_sw
+of B1895's eighteen: the page says 104 of 120 for the control                                                    CAUGHT  the_second_convention_is_the_first_conjugated_by_the_sw
+of B1895's eighteen: the page says 0.93 percent                                                                  CAUGHT  the_short_gap_figure_in_exact_arithmetic
+of B1895's eighteen: the page says 'is reproduced' again, the bracket removed                                    CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+
+control passes: True | of the six that passed, caught now: 6 of 6 | of B1895's eighteen: 18 of 18 | all: 24 of 24

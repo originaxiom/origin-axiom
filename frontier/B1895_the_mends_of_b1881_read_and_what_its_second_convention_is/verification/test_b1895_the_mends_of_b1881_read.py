@@ -122,7 +122,9 @@ def test_the_quotations_and_the_planted_reversions():
     lock = (B1881 / "verification" / "test_b1881_the_whole_and_the_value_verified.py").read_text(encoding="utf-8")
     named = {t for x in p["plants"] for t in x["tests failing"]}
     assert len(named) == 5 and all("def %s(" % t in lock for t in named), named
-    assert lock.count("\ndef test_") == 10 and "B1881's lock had five tests. It has ten." in PAGE
+    # ten on the day of this arc.  The lock was planted against again the same day and has more since (B1897): the number of its
+    # tests is not held here, only that it has not fewer and that the page says what it had then
+    assert lock.count("\ndef test_") >= 10 and "B1881's lock had five tests. It has ten." in PAGE
 
 
 def test_the_fourth_finding_is_reproduced_on_the_lock_as_it_stood():

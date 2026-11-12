@@ -7,14 +7,22 @@ ADDED 2026-11-12, after a second reading of Review 79's mends by a session that 
 lock held two of the nine mends and that the other seven could be undone with every test passing.  The five tests at the end hold
 them: what the second convention is, computed on all 120 matrices with a mark for which the statement fails; that no check of the
 script is passed a constant, with two planted lines the scan must report; the three counts of run sequences by a second method;
-the short-gap figure in exact arithmetic; and that each correction stands in the paragraph of the sentence it corrects."""
+the short-gap figure in exact arithmetic; and that each correction stands in the paragraph of the sentence it corrects.
+
+ADDED 2026-11-12, a second time, after the same session planted 23 errors against the lock as it then stood: 17 were caught and
+six passed.  The four tests at the end hold the six: the committed run is what the script gives today, by running it; the
+conditions of the mended checks, word for word; that the script computes the counts it prints; and where the withdrawn word
+stands.  One thing they cannot hold is said in the last of them."""
 import ast
 import importlib.util
 import itertools
 import json
 import math
+import os
 import pathlib
 import re
+import subprocess
+import sys
 from fractions import Fraction as Fr
 
 import sympy as sp
@@ -247,6 +255,12 @@ def _constant_checks(src):
     constant_names = {k for k, vals in bound.items() if len(vals) == 1 and isinstance(vals[0], ast.Constant)}
 
     def is_constant(e):
+        # a table, a list, a tuple or a set written out counts as a constant when every entry of it is one (added 2026-11-12,
+        # a second time: a plant typed three counts as a table of numbers, and the scan saw no constant)
+        if isinstance(e, ast.Dict):
+            return bool(e.values) and all(is_constant(v) for v in e.values)
+        if isinstance(e, (ast.List, ast.Tuple, ast.Set)):
+            return bool(e.elts) and all(is_constant(v) for v in e.elts)
         return isinstance(e, ast.Constant) or (isinstance(e, ast.Name) and e.id in constant_names)
     out, calls = [], 0
     for node in ast.walk(tree):
@@ -366,3 +380,104 @@ def test_each_correction_stands_with_the_sentence_it_corrects():
     assert len(e12) == 1 and isinstance(e12[0].value.op, ast.And)
     assert RES["E12 the two conventions name one allowed set: no sequence differs as written, and none on the reversed sequence"] is True
 
+
+# ---------------------------------------------------------------------------------------------- added 2026-11-12, a second time
+# A session that did not write this lock planted 23 errors against it as it stood after B1895: 17 were caught and six passed.
+# The four tests below hold the six.  What they cannot hold is said in the last of them.
+
+def _run_the_script_in_a_copy(tmp_path, seed):
+    """the arc's script, copied alone into an empty folder and run there: (its run file, its json), as bytes"""
+    work = tmp_path / ("run_%s" % seed)
+    work.mkdir()
+    (work / "whole_and_value_on_main.py").write_bytes((HERE / "whole_and_value_on_main.py").read_bytes())
+    env = {k: v for k, v in os.environ.items() if not k.startswith("OA_")}
+    env["PYTHONHASHSEED"] = str(seed)
+    r = subprocess.run([sys.executable, "-B", str(work / "whole_and_value_on_main.py")], cwd=str(work), env=env, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr[-600:]
+    return (work / "whole_and_value_on_main_run.txt").read_bytes(), (work / "whole_and_value_on_main.json").read_bytes()
+
+
+def test_the_committed_run_is_what_the_script_gives_today(tmp_path):
+    """The lock read three things of the committed run file: its last line, that no check fails, and that one old label is gone.
+    A plant edited the file elsewhere and passed.  Here the script is run, twice, with two seeds of the hash, in a folder of its
+    own, and both of its outputs must be the committed files byte for byte.  About twenty seconds."""
+    for seed in (1, 2):
+        run, data = _run_the_script_in_a_copy(tmp_path, seed)
+        assert run == (HERE / "whole_and_value_on_main_run.txt").read_bytes(), "the run file is not what the script gives (seed %d)" % seed
+        assert data == (HERE / "whole_and_value_on_main.json").read_bytes(), "the json is not what the script gives (seed %d)" % seed
+
+
+_PINNED_CONDITIONS = {      # the label a check begins with -> its condition, and what it prints beside it, as the script has them
+    "E3 (Q5) the mirror normalises the group": ("mirror_ok and len(box) >= 200 and sum(1 for x in box if x[2] != 0) >= 200", None),
+    "the own values of the allowed single runs increase without bound": ("single_ok", None),
+    "E5 W fixes the two twins over one of t = +-5 sqrt5": (None, "{k: sorted(v) for k, v in over.items()}"),
+}
+
+
+def test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended():
+    """Two plants: a clause that is not a literal and is always true, joined by `or` to the two conditions that were once the
+    literal True; and the sorting of a printed set undone.  The scan for constants sees neither.  The conditions and the printed
+    detail of the mended checks are held here word for word, so that a change to one is a change in two places; and what the
+    two conditions rest on is held as well: each is a conjunction over something computed."""
+    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+    tree = ast.parse(src)
+    calls = [n for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id == "check" and isinstance(n.args[0], ast.Constant)]
+    for start, (cond, detail) in _PINNED_CONDITIONS.items():
+        hit = [n for n in calls if str(n.args[0].value).startswith(start)]
+        assert len(hit) == 1, start
+        if cond is not None:
+            assert ast.get_source_segment(src, hit[0].args[1]) == cond, start
+        if detail is not None:
+            assert ast.get_source_segment(src, hit[0].args[2]) == detail, start
+    # no condition of any check is an `or` with a comparison of a length or a count to zero in it: the shape of the plant
+    for n in calls:
+        for b in ast.walk(n.args[1]):
+            if isinstance(b, ast.BoolOp) and isinstance(b.op, ast.Or):
+                seg = ast.get_source_segment(src, b)
+                assert not re.search(r"len\([^)]*\)\s*(>=\s*0|>\s*-1|>\s*0)\b", seg), seg[:120]
+    # the two flags are computed: each is bound once, to all(...) over the things multiplied out or evaluated
+    for name in ("mirror_ok", "single_ok"):
+        binds = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name) and n.targets[0].id == name]
+        assert len(binds) == 1 and "all(" in ast.get_source_segment(src, binds[0].value), name
+
+
+def test_the_script_computes_what_it_says_it_computes():
+    """A plant typed the three counts of run sequences in place of the comprehensions that compute them; the lock read the
+    committed file, where the numbers are the same, and its scan saw a constant and not a table of constants.  The scan now
+    sees a table, a list or a tuple whose every entry is a constant, and the three counts are held to what they are built from."""
+    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+    found, calls = _constant_checks(src)
+    assert found == [] and calls >= 60
+    planted = 'RES["counts"] = {"a": 16275, "b": 2815}\nn = 5\nRES["more"] = [1, n]\nRES["fine"] = {"a": len(xs)}\n'
+    assert _constant_checks(planted)[0] == [1, 3]
+    tree = ast.parse(src)
+    counts = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and isinstance(n.targets[0], ast.Subscript) and isinstance(n.targets[0].slice, ast.Constant) and n.targets[0].slice.value == "B_counts"]
+    assert len(counts) == 1 and isinstance(counts[0].value, ast.Dict)
+    names = [ast.get_source_segment(src, v) for v in counts[0].value.values]
+    assert names == ["len(lows)", "by_all", "by_even"]
+    for name in ("by_all", "by_even"):
+        binds = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name) and n.targets[0].id == name]
+        assert len(binds) == 1 and ast.get_source_segment(src, binds[0].value).startswith("len({min(seq[i:] + seq[:i] for i in range("), name
+
+
+def test_the_withdrawn_word_stands_only_where_it_is_taken_back():
+    """Two plants: the docstring of the script's second function given the withdrawn word, where the lock read the header; and
+    a new paragraph on the page that states the withdrawn claim in other words than the old sentence.  Held here: the function's
+    own docstring; every line of the script and every paragraph of the page that holds the word; and how many paragraphs do.
+    WHAT THIS CANNOT HOLD: the claim restated without the word.  A list of spellings is not complete (register row P-817); the
+    computation in the test above is what says that the claim is false."""
+    mod = _the_script()
+    doc = mod.keeps_line_main.__doc__
+    assert "conjugated by the swap of the two coordinates" in doc and "transpos" not in doc and "B1872 writes the seat's, rows" in doc
+    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+    lines = [l for l in src.split("\n") if "transpos" in l.lower()]
+    assert len(lines) == 2 and "it is not the transpose either" in lines[0] and "so its transpose is itself" in lines[1], lines
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    paras = _paragraphs(f)
+    with_word = [i for i, p in enumerate(paras) if "transpos" in p.lower()]
+    assert len(with_word) == 3, len(with_word)                       # the old sentence, its second correction, the line of what was found
+    old, second, found = (paras[i] for i in with_word)
+    assert "is its transpose and is this arc's own" in old and with_word[1] == with_word[0] + 1 and second.startswith("> **CORRECTED 2026-11-12, a second time,**")
+    assert "It is not the transpose." in second and "where a transpose does enter" in second and "word transpose (§ 5)" in found.replace("\n  ", " ")
+    c = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    assert c.lower().count("transpos") == 2 and "it is not the transpose" in c

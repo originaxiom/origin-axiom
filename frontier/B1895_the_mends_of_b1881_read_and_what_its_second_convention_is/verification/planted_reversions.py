@@ -121,4 +121,8 @@ if __name__ == "__main__":
     if "--write" in sys.argv:
         f.write_text(json.dumps(res, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     else:
-        print("the committed result agrees: %s" % (json.loads(f.read_text(encoding="utf-8")) == res if f.is_file() else False))
+        # which plants are caught is compared, not which tests catch them: the lock has gained tests since (B1897), and the
+        # committed file is the record of the lock as it stood on the day of this arc
+        old = json.loads(f.read_text(encoding="utf-8")) if f.is_file() else {"plants": []}
+        same = [bool(o["tests failing"]) for o in old["plants"]] == [bool(o["tests failing"]) for o in res["plants"]] and [o["plant"] for o in old["plants"]] == [o["plant"] for o in res["plants"]]
+        print("the committed result agrees in which plants are caught: %s" % same)

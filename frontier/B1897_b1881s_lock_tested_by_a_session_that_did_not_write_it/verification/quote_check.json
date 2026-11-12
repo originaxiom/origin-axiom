@@ -1,0 +1,11 @@
+{
+ "the reader's commit": "03794ed0a",
+ "the commit of main read": "3c5ab6bef",
+ "quotations": 6,
+ "found": 6,
+ "files named": [
+  "test_b1881_the_whole_and_the_value_verified.py",
+  "whole_and_value_on_main.py"
+ ],
+ "control: the first quotation altered by one character is reported missing": true
+}
