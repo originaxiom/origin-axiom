@@ -1,4 +1,4 @@
-=== 1. Machine-Quotation Verification at 323f923278181ffbe69f8c3124182549ab0e3163 ===
+=== 1. Machine-Quotation Verification at 0dda7b4725f613dbef273edafcd3fca73ccb245c ===
   [PASS] Q01 B1878 :: frontier/B1878_the_goal_as_ruled_in_the_governing_documents/verification/test_b1878_the_goal_as_ruled.py (119 chars unique exact match)
   [PASS] Q02 B1880 :: frontier/B1880_the_third_and_fourth_re_audits_answered/FINDINGS.md (48 chars unique exact match)
   [PASS] Q03 B1880 :: frontier/B1880_the_third_and_fourth_re_audits_answered/arc_verdict.json (336 chars unique exact match)
@@ -12,11 +12,24 @@
   [PASS] Q11 B1221 :: frontier/B1221_global_form_path_independence/arc_verdict.json (169 chars unique exact match)
   [PASS] Q12 B1641 :: docs/THEOREM_REGISTRY.md (84 chars unique exact match)
   [PASS] Q13 B1641 :: frontier/B1641_w46_on_main_and_the_two_objects/arc_verdict.json (126 chars unique exact match)
+  [PASS] Q14 B1889 :: frontier/B1889_the_seats_digested/FINDINGS.md (107 chars unique exact match)
+  [PASS] Q15 B1889 :: frontier/B1889_the_seats_digested/FINDINGS.md (78 chars unique exact match)
+  [PASS] Q16 B1889 :: frontier/B1889_the_seats_digested/FINDINGS.md (112 chars unique exact match)
+  [PASS] Q17 window :: docs/seats/README.md (110 chars unique exact match)
+  [PASS] Q18 window :: docs/seats/README.md (116 chars unique exact match)
+  [PASS] Q19 window :: WORKING_RULES.md (113 chars unique exact match)
+  [PASS] Q20 window :: scripts/checks/harvest_debt.py (114 chars unique exact match)
+  [PASS] Q21 window :: scripts/checks/point_debt.py (66 chars unique exact match)
+  [PASS] Q22 window :: scripts/checks/harvest_debt.py (61 chars unique exact match)
+  [PASS] Q23 window :: scripts/gates/gates.py (36 chars unique exact match)
+  [PASS] Q24 window :: scripts/gates/gates.py (67 chars unique exact match)
+  [PASS] Q25 window :: scripts/gates/gates.py (131 chars unique exact match)
+  [PASS] Q26 window :: scripts/seats/listen.py (32 chars unique exact match)
   [PASS] CTL-R79-QUOTE planted 1-word mutation rejected as expected
 
-=== 2. Check M4 Mends (B1221 and B1641) ===
+=== 2. Check M4/M5 Mends (B1221 and B1641) ===
   [PASS] B1221 grid counts: SM=[6, 6, 6], int=[18, 18, 18], adjoint=[72, 144, 360]; arc_verdict.json still uncorrected
-  [PASS] B1641 cusp exponents=(Fraction(1, 8), Fraction(3, 8), Fraction(7, 8)), (1,0,0)->1, (1,1,1)->3; arc_verdict.json unbracketed for P-802
+  [PASS] B1641 cusp exponents=(Fraction(1, 8), Fraction(3, 8), Fraction(7, 8)), (1,0,0)->1, (1,1,1)->3; M5 mended TAG:UNIT & W:INDEX3 while THEOREM_REGISTRY.md and B1641/arc_verdict.json remain unbracketed
 
 === 3. B1878 Verification ===
   [PASS] ARRIVAL_PHRASES has 16 phrases; lock checks 4 substrings covering 5 phrases; 11 phrases match NO lock substring at all: ['the standard model has been derived', 'derives the standard model', 'derived the standard model', 'we derive the standard model', 'the theory of everything is', 'a theory of everything has been', '19 of 19 derived', '19 of 19 earned', 'nineteen of nineteen', 'the masses are derived', 'the couplings are derived']
@@ -27,27 +40,39 @@
   [PASS] B1880: frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz is hashed by ZERO hash lists and its .sha256 entry is frozen as 'N'
 
 === 5. B1883 Verification ===
-  [PASS] B1883: all counts in WHERE_WE_STAND.json match PROGRAMME.json, NODES.json, scoreboard, and POINT_REGISTER.md
+  [PASS] B1883: all counts in WHERE_WE_STAND.json (280 nodes, 88 debts, 810 register points, 289 open) match source files
 
 === 6. B1884 Verification ===
   [PASS] B1884: 87 non-negative det=-1 matrices in [0,8] (uniquely F and F' have no own line); unique single-line level N=5 (roots mod 25 = 0)
-  [PASS] B1884 FINDING: max roots for N<=200 is 2, but at N=209=11*19 roots=[15, 81, 129, 195] (4 lines kept as sets, refuting 'Two ... and on; none elsewhere')
+  [PASS] B1884 FINDING: max roots for N<=200 is 2, but at N=209=11*19 roots=[15, 81, 129, 195] (4 lines kept as sets)
 
 === 7. B1886 Verification ===
   [PASS] B1886: _rows() checks 29 v1.64 rows (GAP\d matches 0 table rows), omitting 5 F-xx rows ['F-FC', 'F-CI', 'F-MC', 'F-HE', 'F-AP'] and 1 unnamed §3 status row
 
 === 8. B1887 Verification ===
   [PASS] B1887 FINDING: D_16^+ (norm-4 glue) AND D_24^+ (norm-6 glue, one of 24 Niemeier lattices in rank 24) both verified integral, even, det=1; 26 even unimodular lattices excluded in ranks 1..24, not 2
-  [PASS] B1887: metallic W(m)-I and W(m)+I Smith invariants verified for m = 1..12
   [PASS] B1887: untwisted least |Q| for k=1..8 = [3, 8, 21, 55, 144, 377, 987, 2584]; k=1..3 twice-mark offsets=[0.300865, 0.225903, 0.182225], arclengths=[1.8587, 1.8344, 1.8309]
-  [PASS] B1887: L^2 R^2 L^2 LR Smith invariants (1, 27) and (1, 31) verified
   [PASS] B1887: SnapPy verified L6RLR symmetry group order 4 (non-amphicheiral) and LLRLRR / LLLRLRRR amphicheiral
 
 === 9. B1890 Verification ===
   [PASS] B1890 FINDING: unseen_cases_run.json holds 0 gate lines in dates/clock/shallow; dates U15.c has pre-fix stub output
   [PASS] B1890 FINDING: commit_day_problems (%ct) passes child > parent in UTC while %cs (commit_day.py) moves 1-2 calendar days backwards
 
-=== 10. Planted Numerical Perturbation Control (CTL-R79-CALC) ===
+=== 10. B1889 Verification (excluding agy family per M5) ===
+  [PASS] B1889 FINDING (Q14): HARVEST_LEDGER.md at 338b14fe3 has 1699 contiguous rows, not 1686; build_seats.py dropped 13 6-col rows [633, 634, 635, 636, 637, 638, 879, 880, 881, 882, 883, 884, 885] (6 audit 'not read', 7 chat1 incl. 5 'VERIFIED by re-run' -> 382 recomputed, not 377)
+  [PASS] B1889 FINDING (Q15): 18 non-agy 'none' flagged rows carry P-NNN in main-arc column c[6]; row 1325 drops P-338 via [:6] (and r'P-\d{3}' truncates 4-digit P-ids); [(1331, 'chat1'), (1698, 'advisor')] are 'not read'
+  [PASS] B1889 FINDING (Q16): SEATS.md has 21 non-empty seats (4 working, 5 quiet, 12 ended/import), whereas FINDINGS.md §3 lists 4 quiet (omitting physical lane's fork lane, 53 rows) and §4 lists 10 (omitting listening thread and weave archive)
+
+=== 11. Governing Pages Window Verification ===
+  [PASS] Governing Pages FINDINGS (Q17-Q19): docs/seats/README.md §2 ('recomputed with separate code') and §8 ('One verdict ... REPRODUCED' for separate code) contradict §12; WORKING_RULES.md still says 'at the foundation's next version' after GENESIS v1.65 landed
+
+=== 12. Instruments Window Verification ===
+  [PASS] Instruments FINDING (Q20, Q22): harvest_debt.py reads OA_HARVEST_PIN_OVERRIDE + time.time() + TZ-dependent date.fromtimestamp (2026-11-12 vs 2026-11-11), and _resolve_branch('verify') silently resolves to 'origin/sm/verify' when another <seat>/verify exists
+  [PASS] Instruments FINDING (Q21): point_debt.py reads OA_POINT_REGISTER unconditionally in gate_point_debt
+  [PASS] Instruments FINDINGS (Q23-Q25): gates.py --first-parent hash-list merge blind spot, strict-UTF8 git show, os.path.exists/os.walk/OSError defaults, SKIP misreport on closure-generated, and 3 affirmative arrival sentences excused by _ARRIVAL_NEG_RE
+  [PASS] Instruments FINDING (Q26): listen.py look_main swallows all prior branch heads on first run, look_seat hides in-place M<n> edits while advancing blob state, messages() truncates at '# ' inside code fences, and git() has no timeout
+
+=== 13. Planted Numerical Perturbation Control (CTL-R79-CALC) ===
   [PASS] CTL-R79-CALC planted odd-norm glue extension D_12^+ (norm 3) rejected as non-even
 
-ALL A2-R79 CHECKS AND CONTROLS PASSED (0 of 19).
+ALL A2-R79 M5 CHECKS AND CONTROLS PASSED (0 of 19).

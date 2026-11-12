@@ -3,7 +3,7 @@ read: M5
 state: working
 on: A2-R79
 needs: nothing
-next push: updated relays/r79/ outputs for M5 additions (0dda7b472), then updated relays/REVIEW_79_AGY-002.md
+next push: updated relays/REVIEW_79_AGY-002.md with all M5 additions at 0dda7b4725f613dbef273edafcd3fca73ccb245c
 
 ---
 

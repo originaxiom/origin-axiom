@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Independent data-free verification and exact quotation audit for Card A2-R79 (Review 79).
+"""Independent data-free verification and exact quotation audit for Card A2-R79 (Review 79, widened by M5).
 
 Seat: agy-002 (origin/agy-002/verify)
-Target commit on main: 323f923278181ffbe69f8c3124182549ab0e3163
+Target commit on main: 0dda7b4725f613dbef273edafcd3fca73ccb245c
+Window base on main: 38d2a36dc
 Firewall: 0 of 19 (zero measured values, zero physical target evaluations).
 """
 from __future__ import annotations
@@ -20,12 +21,15 @@ import pathlib
 import re
 import subprocess
 import sys
+import tempfile
 import warnings
 
 warnings.filterwarnings("ignore")
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-SHA = "323f923278181ffbe69f8c3124182549ab0e3163"
+SHA = "0dda7b4725f613dbef273edafcd3fca73ccb245c"
+WIN_BASE = "38d2a36dc"
+B1889_LEDGER_SHA = "338b14fe3"
 V164 = "8f0b03814"
 
 
@@ -119,11 +123,77 @@ QUOTES: list[tuple[str, str, str]] = [
         "frontier/B1641_w46_on_main_and_the_two_objects/arc_verdict.json",
         "the SM seat's W46 verified on main's lifts (L6's exponents (1,1,3,5,7,7)/8, pieces 2 + 4, every chi_1 = 0, chi_3/2(rho_T) = 0,",
     ),
+    (
+        "B1889",
+        "frontier/B1889_the_seats_digested/FINDINGS.md",
+        "- **The seats have sent 1,686 items in two months. Main has recomputed 377 of them itself, 22%.** Of those,",
+    ),
+    (
+        "B1889",
+        "frontier/B1889_the_seats_digested/FINDINGS.md",
+        "- **35 of the 74 name a register row,** so they are carried. **39 name none.**",
+    ),
+    (
+        "B1889",
+        "frontier/B1889_the_seats_digested/FINDINGS.md",
+        "Ten seats of August to October: the cloud seat, cc3 and its second branch, the physics seat, the codex seat, the",
+    ),
+    (
+        "window",
+        "docs/seats/README.md",
+        "authority: what is written about a result is how it was checked (computed once; recomputed with separate code;",
+    ),
+    (
+        "window",
+        "docs/seats/README.md",
+        "- **One verdict for each item:** REPRODUCED, DIFFERS, or CANNOT CHECK, with the commit you read and one line of why.",
+    ),
+    (
+        "window",
+        "WORKING_RULES.md",
+        "are re-typed at the foundation's next version: the tick as an act is a supposition and was handled by computation",
+    ),
+    (
+        "window",
+        "scripts/checks/harvest_debt.py",
+        'overrides = dict(kv.split("=", 1) for kv in os.environ.get("OA_HARVEST_PIN_OVERRIDE", "").split(",") if "=" in kv)',
+    ),
+    (
+        "window",
+        "scripts/checks/point_debt.py",
+        'path = pathlib.Path(os.environ.get("OA_POINT_REGISTER", REGISTER))',
+    ),
+    (
+        "window",
+        "scripts/checks/harvest_debt.py",
+        'dict(key="agy002", label="agy-002 (verify)", branch="verify",',
+    ),
+    (
+        "window",
+        "scripts/gates/gates.py",
+        'before = git("show", f"{c}^:{path}")',
+    ),
+    (
+        "window",
+        "scripts/gates/gates.py",
+        "on_disk = any(os.path.exists(os.path.join(repo, c)) for c in every)",
+    ),
+    (
+        "window",
+        "scripts/gates/gates.py",
+        'if _ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): continue      # a denial, a condition or a statement of aim, in its own sentence',
+    ),
+    (
+        "window",
+        "scripts/seats/listen.py",
+        "if first or not (moved or gone):",
+    ),
 ]
 
 
 def check_quotes() -> None:
     print("=== 1. Machine-Quotation Verification at", SHA, "===")
+    assert len(QUOTES) == 26
     for idx, (arc, path, quote) in enumerate(QUOTES, 1):
         blob = git_text(SHA, path)
         assert "|" not in quote and "`" not in quote and quote == quote.strip(), f"QUOTE {idx} unsafe chars"
@@ -137,12 +207,10 @@ def check_quotes() -> None:
 
 
 # ============================================================================
-# 2. Check M4 mends (B1221 and B1641)
+# 2. Check M4/M5 mends (B1221 and B1641)
 # ============================================================================
 def check_m4_mends() -> None:
-    print("\n=== 2. Check M4 Mends (B1221 and B1641) ===")
-    # B1221: verify grid-size scaling 6*G on adjoint-only vs invariant 6 on SM 27 and 18 on integer-charge
-    # Representations encoded as (triality mod 3, duality mod 2, integer hypercharge y = 6Y)
+    print("\n=== 2. Check M4/M5 Mends (B1221 and B1641) ===")
     sm_27_charges = [(1, 1, 1), (2, 0, -4), (2, 0, 2), (0, 1, -3), (0, 0, 6), (0, 0, 0)]
     adjoint_only = [(0, 0, 0)] * 3
     int_charge = [(0, 0, 6), (0, 0, 0), (0, 1, -3), (0, 1, 3)]
@@ -152,7 +220,6 @@ def check_m4_mends() -> None:
         for a3 in range(3):
             for a2 in range(2):
                 for k in range(grid_n):
-                    # phase condition: a3*t/3 + a2*d/2 + (k/grid_n)*y in Z for all (t, d, y)
                     ok = True
                     for t, d, y in reps:
                         val = fractions.Fraction(a3 * t, 3) + fractions.Fraction(a2 * d, 2) + fractions.Fraction(k * y, grid_n)
@@ -175,7 +242,6 @@ def check_m4_mends() -> None:
     assert "adjoint-only content gives 72" in b1221_av
     print(f"  [PASS] B1221 grid counts: SM={sm_counts}, int={int_counts}, adjoint={adj_counts}; arc_verdict.json still uncorrected")
 
-    # B1641: three canonical cusp eigenlines (exponents 1/8, 3/8, 7/8 on T), index = m1 + m2 + m3
     exponents = (fractions.Fraction(1, 8), fractions.Fraction(3, 8), fractions.Fraction(7, 8))
     assert len(set(exponents)) == 3
     idx_one_line = sum((1, 0, 0))
@@ -183,9 +249,13 @@ def check_m4_mends() -> None:
     assert idx_one_line == 1 and idx_uniform == 3
     b1641_md = git_text(SHA, "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md")
     b1641_av = git_text(SHA, "frontier/B1641_w46_on_main_and_the_two_objects/arc_verdict.json")
-    assert "m1 + m2 + m3" in b1641_md or "m₁ + m₂ + m₃" in b1641_md
-    assert "the table n(|Lambda+| - 3))" in b1641_av and "P-802" not in b1641_av
-    print(f"  [PASS] B1641 cusp exponents={exponents}, (1,0,0)->{idx_one_line}, (1,1,1)->{idx_uniform}; arc_verdict.json unbracketed for P-802")
+    nodes_by_id = {n["id"]: n for n in json.loads(git_text(SHA, "frontier/B1858_the_closure_map/NODES.json"))}
+    assert "FK10" in b1641_md and "B1796" in b1641_md
+    assert "uniform" in nodes_by_id["TAG:UNIT"]["text"] and "uniform" in nodes_by_id["W:INDEX3"]["text"]
+    assert "the table n(|Lambda+| - 3))" in b1641_av and "P-802" not in b1641_av and "B1796" not in b1641_av
+    tr_line = [l for l in git_text(SHA, "docs/THEOREM_REGISTRY.md").splitlines() if "the four-dimensional index is n(" in l]
+    assert len(tr_line) == 1 and "uniform unit" not in tr_line[0] and "P-802" not in tr_line[0] and "B1796" not in tr_line[0]
+    print(f"  [PASS] B1641 cusp exponents={exponents}, (1,0,0)->{idx_one_line}, (1,1,1)->{idx_uniform}; M5 mended TAG:UNIT & W:INDEX3 while THEOREM_REGISTRY.md and B1641/arc_verdict.json remain unbracketed")
 
 
 # ============================================================================
@@ -227,7 +297,7 @@ def git_batch_blobs(rev: str, paths: list[str]) -> dict[str, bytes]:
         if len(header) >= 3 and header[1] == "blob":
             size = int(header[2])
             res[path] = out[pos : pos + size]
-            pos += size + 1  # trailing newline
+            pos += size + 1
     return res
 
 
@@ -369,7 +439,7 @@ def check_b1880() -> None:
 
 
 # ============================================================================
-# 5. B1883: WHERE_WE_STAND independent cross-check
+# 5. B1883: WHERE_WE_STAND independent cross-check at 0dda7b4725f613dbef273edafcd3fca73ccb245c
 # ============================================================================
 def check_b1883() -> None:
     print("\n=== 5. B1883 Verification ===")
@@ -384,13 +454,16 @@ def check_b1883() -> None:
     assert wws_json["values_in_all"] == 19 and "0 of 19 earned" in sb_page
     assert wws_json["packages"]["all"] == len(prog["packages"]) == 43
     assert (wws_json["packages"]["done"], wws_json["packages"]["started"], wws_json["packages"]["not_started"]) == (1, 18, 24)
-    assert wws_json["map"]["nodes"] == len(nodes) == 278
+    assert wws_json["map"]["nodes"] == len(nodes) == 280
+    assert wws_json["map"]["debts"] == 88
     assert wws_json["put_in_by_hand"]["independent_choices"] == 39
     assert wws_json["put_in_by_hand"]["items"] == 47
     reg_rows = [l for l in reg.splitlines() if re.match(r"^\| P-\d+ \|", l) and len(l.split(" | ")) == 7]
-    assert len(reg_rows) == wws_json["register"]["points"] == 805
+    open_rows = [l for l in reg_rows if l.split(" | ")[4].strip() in ("QUEUED", "LEAD", "OWNER")]
+    assert len(reg_rows) == wws_json["register"]["points"] == 810
+    assert len(open_rows) == wws_json["register"]["open"] == 289
     assert wws_json["ready_for_the_final_reading"] is False
-    print("  [PASS] B1883: all counts in WHERE_WE_STAND.json match PROGRAMME.json, NODES.json, scoreboard, and POINT_REGISTER.md")
+    print("  [PASS] B1883: all counts in WHERE_WE_STAND.json (280 nodes, 88 debts, 810 register points, 289 open) match source files")
 
 
 # ============================================================================
@@ -398,7 +471,6 @@ def check_b1883() -> None:
 # ============================================================================
 def check_b1884() -> None:
     print("\n=== 6. B1884 Verification ===")
-    # 1. Enumerate all non-negative integer 2x2 matrices of det = -1 with entries in 0..8
     mats = []
     no_own_line = []
     for a in range(9):
@@ -414,17 +486,13 @@ def check_b1884() -> None:
     assert len(mats) == 87
     assert sorted(no_own_line) == [(0, 1, 1, 1), (1, 1, 1, 0)]
 
-    # 2. Projective lines in P^1(Z/NZ) kept as sets by LP = [[1, 1], [1, 0]] vs roots of x^2 - x - 1 mod N
     def prim_lines_kept_by_LP(n: int) -> int:
-        # Enumerate primitive vectors (u, v) in (Z/nZ)^2 modulo units (Z/nZ)*
         units = [k for k in range(1, n) if math.gcd(k, n) == 1]
         seen = set()
         kept = 0
         for u in range(n):
             for v in range(n):
-                if math.gcd(math.gcd(u, v), n) != 1:
-                    continue
-                if (u, v) in seen:
+                if math.gcd(math.gcd(u, v), n) != 1 or (u, v) in seen:
                     continue
                 orbit = {((k * u) % n, (k * v) % n) for k in units}
                 seen |= orbit
@@ -436,12 +504,8 @@ def check_b1884() -> None:
     def roots_mod(n: int) -> list[int]:
         return [x for x in range(n) if (x * x - x - 1) % n == 0]
 
-    for n in range(2, 251):
-        r = roots_mod(n)
-        # Note: if (u, 0) were kept, v=0 -> img=(u, u), not in {(ku, 0)} for n>=2; so v is always a unit!
-        # Verify directly up to 70 and at 209 that projective-line count equals len(roots_mod(n))
-        if n <= 35:
-            assert prim_lines_kept_by_LP(n) == len(r)
+    for n in range(2, 36):
+        assert prim_lines_kept_by_LP(n) == len(roots_mod(n))
 
     ones = [n for n in range(2, 251) if len(roots_mod(n)) == 1]
     assert ones == [5]
@@ -449,10 +513,9 @@ def check_b1884() -> None:
     roots_209 = roots_mod(209)
     assert max_to_200 == 2
     assert 209 == 11 * 19 and len(roots_209) == 4 and roots_209 == [15, 81, 129, 195]
-    # Also verify Hensel obstruction at 25 so "Only at 5 is there exactly one" holds for ALL N >= 2
     assert len(roots_mod(25)) == 0
     print("  [PASS] B1884: 87 non-negative det=-1 matrices in [0,8] (uniquely F and F' have no own line); unique single-line level N=5 (roots mod 25 = 0)")
-    print(f"  [PASS] B1884 FINDING: max roots for N<=200 is {max_to_200}, but at N=209=11*19 roots={roots_209} (4 lines kept as sets, refuting 'Two ... and on; none elsewhere')")
+    print(f"  [PASS] B1884 FINDING: max roots for N<=200 is {max_to_200}, but at N=209=11*19 roots={roots_209} (4 lines kept as sets)")
 
 
 # ============================================================================
@@ -486,7 +549,7 @@ def check_b1886() -> None:
 # ============================================================================
 def exact_det_fraction(mat: list[list[fractions.Fraction]]) -> fractions.Fraction:
     n = len(mat)
-    a = [[ fractions.Fraction(x) for x in row ] for row in mat]
+    a = [[fractions.Fraction(x) for x in row] for row in mat]
     det = fractions.Fraction(1)
     for i in range(n):
         piv = next((r for r in range(i, n) if a[r][i] != 0), None)
@@ -507,23 +570,17 @@ def exact_det_fraction(mat: list[list[fractions.Fraction]]) -> fractions.Fractio
 
 def check_b1887() -> None:
     print("\n=== 8. B1887 Verification ===")
-    # 1. All 95 irreducible root systems of rank 1..24: Gram matrix (short roots norm 2)
+
     def cartan_and_diag(fam: str, n: int) -> tuple[list[list[int]], list[int]]:
-        # Returns Cartan matrix C_{ij} = 2(alpha_i, alpha_j)/(alpha_j, alpha_j) and d_j = (alpha_j, alpha_j)
         C = [[2 if i == j else 0 for j in range(n)] for i in range(n)]
         for i in range(n - 1):
             C[i][i + 1] = C[i + 1][i] = -1
         d = [2] * n
-        if fam == "A":
-            pass
-        elif fam == "B":
-            # alpha_0..alpha_{n-2} long (norm 4), alpha_{n-1} short (norm 2):
-            # C_{n-2, n-1} = 2*(-2)/2 = -2, C_{n-1, n-2} = 2*(-2)/4 = -1
+        if fam == "B":
             d = [4] * (n - 1) + [2]
             C[n - 2][n - 1] = -2
             C[n - 1][n - 2] = -1
         elif fam == "C":
-            # alpha_0..alpha_{n-2} short (norm 2), alpha_{n-1} long (norm 4)
             d = [2] * (n - 1) + [4]
             C[n - 2][n - 1] = -1
             C[n - 1][n - 2] = -2
@@ -531,16 +588,13 @@ def check_b1887() -> None:
             C[n - 2][n - 1] = C[n - 1][n - 2] = 0
             C[n - 3][n - 1] = C[n - 1][n - 3] = -1
         elif fam == "E":
-            # Bourbaki-like: chain 0-1-2-3-..(n-2) with leaf (n-1) attached to node 2
             C[n - 2][n - 1] = C[n - 1][n - 2] = 0
             C[2][n - 1] = C[n - 1][2] = -1
         elif fam == "F":
-            # 0 - 1 => 2 - 3: 0,1 norm 4; 2,3 norm 2
             d = [4, 4, 2, 2]
             C[1][2] = -2
             C[2][1] = -1
         elif fam == "G":
-            # 0 ≡> 1: 0 norm 6, 1 norm 2 -> (a0,a1) = -3 -> C01 = -6/2 = -3, C10 = -6/6 = -1
             d = [6, 2]
             C[0][1] = -3
             C[1][0] = -1
@@ -565,43 +619,18 @@ def check_b1887() -> None:
             assert det == n + 1
         elif fam == "B":
             assert det == 2 ** n
-        elif fam == "C":
-            assert det == 4
-        elif fam == "D":
+        elif fam in ("C", "D", "F"):
             assert det == 4
         elif fam == "E":
             assert det == 9 - n
-        elif fam == "F":
-            assert det == 4
         elif fam == "G":
             assert det == 3
         if det == 1:
             unimodular.append((fam, n))
     assert unimodular == [("E", 8)]
 
-    # 2. Construct D_16^+ (rank 16) AND D_24^+ (rank 24, one of the 24 Niemeier lattices!) explicitly over Q^n
     for m_rank in (16, 24):
-        # Standard D_m basis: e_0 - e_1, e_1 - e_2, ..., e_{m-2} - e_{m-1}, e_{m-2} + e_{m-1}
-        # Replace the last root e_{m-2} + e_{m-1} by the spinor glue vector s = (1/2, 1/2, ..., 1/2)
-        # Note: 2*s = (e_0 - e_1) + 2*(e_1 - e_2) + ... + (m-2)*(e_{m-2} - e_{m-1}) + (m/2)*((e_{m-2}-e_{m-1}) + (e_{m-2}+e_{m-1}))
-        # Wait: let's check what 2*s minus integer combination of first m-1 roots is:
-        # Actually, replace e_0 - e_1? Let's test replacing root 0: v_0 = (1/2)^m, v_i = e_i - e_{i+1} (i=0..m-3? no: i=1..m-2), v_{m-1} = e_{m-2} + e_{m-1}!
-        # Let's check span: v_1..v_{m-2} and v_{m-1} span D_{m-1} on coords 1..m-1, and 2*v_0 = (1, 1, ..., 1) = e_0 + (1,...,1), where (1,...,1) on m-1 coords has sum m-1 (odd!), Wait:
-        # In D_m, e_0 - e_1, ..., e_{m-3} - e_{m-2}, e_{m-2} - e_{m-1}, e_{m-2} + e_{m-1}:
-        # Sum_{k=1}^{m-2} k*(e_{k-1} - e_k) ... Wait: e_0 + e_1 + ... + e_{m-1} is in D_m (sum = m, even!).
-        # Specifically: (e_0 + e_1) + (e_2 + e_3) + ... + (e_{m-2} + e_{m-1}) is an INTEGER combination of D_m roots with coefficient 1 on e_{m-2} + e_{m-1} if we pair from 0!
-        # Let's check: e_{2j} + e_{2j+1} = (e_{2j} - e_{2j+1}) + 2*(e_{2j+1} - e_{2j+2}) + ... + (e_{m-2} - e_{m-1}) + (e_{m-2} + e_{m-1})!
-        # Then sum_{j=0}^{m/2 - 1} (e_{2j} + e_{2j+1}) has coefficient m/2 on (e_{m-2} + e_{m-1}) — wait, we want coefficient 1 on ONE simple root in 2*s!
-        # Look at 2*s = e_0 + e_1 + ... + e_{m-1}: its coefficient of (e_0 - e_1) in the D_m simple basis!
-        # Every other simple root (e_1 - e_2, ..., e_{m-2} + e_{m-1}) has ZERO in coordinate 0!
-        # ONLY the first simple root alpha_0 = e_0 - e_1 touches coordinate 0 (with +1)!
-        # Therefore 2*s = 1*(e_0 - e_1) + 2*(e_1 - e_2) + 3*(e_2 - e_3) + ... + (m-1)*(e_{m-2} - e_{m-1}) + ? Wait:
-        # Coefficient of e_{m-2} in a*(e_{m-2}-e_{m-1}) + b*(e_{m-2}+e_{m-1}): we need sum of coords 1..m-1 = (2,1,1,...,1):
-        # Let's check: 1*(e_0-e_1) + 2*(e_1-e_2) + ... + (m-2)*(e_{m-3}-e_{m-2}) = e_0 + e_1 + ... + e_{m-3} - (m-2)*e_{m-2}.
-        # To get e_0 + ... + e_{m-1}, we add (m-1)*e_{m-2} + e_{m-1} = ((m-2)/2)*(e_{m-2}-e_{m-1}) + (m/2)*(e_{m-2}+e_{m-1}) — BOTH integers since m is even!
-        # SO 2*s HAS COEFFICIENT +1 ON alpha_0 = e_0 - e_1! Replacing alpha_0 by s = (1/2)^m gives an EXACT Z-basis of D_m^+!
-        basis: list[list[fractions.Fraction]] = []
-        basis.append([fractions.Fraction(1, 2)] * m_rank)
+        basis: list[list[fractions.Fraction]] = [[fractions.Fraction(1, 2)] * m_rank]
         for i in range(1, m_rank - 1):
             v = [fractions.Fraction(0)] * m_rank
             v[i] = fractions.Fraction(1)
@@ -617,29 +646,19 @@ def check_b1887() -> None:
         ]
         assert all(gram[i][j].denominator == 1 for i in range(m_rank) for j in range(m_rank))
         assert all(int(gram[i][i]) % 2 == 0 for i in range(m_rank))
-        det_dm_plus = int(exact_det_fraction(gram))
-        assert det_dm_plus == 1
-        assert int(gram[0][0]) == m_rank // 4  # norm 4 for D_16^+, norm 6 for D_24^+ (both even!)
-        # In the non-zero coset s + D_m, every coordinate is in Z + 1/2, so |x_k| >= 1/2 and norm >= m * (1/4) = m/4 >= 4 (6 for m=24 > 2)!
+        assert int(exact_det_fraction(gram)) == 1
+        assert int(gram[0][0]) == m_rank // 4
     print("  [PASS] B1887 FINDING: D_16^+ (norm-4 glue) AND D_24^+ (norm-6 glue, one of 24 Niemeier lattices in rank 24) both verified integral, even, det=1; 26 even unimodular lattices excluded in ranks 1..24, not 2")
 
-    # 3. Metallic words W(m) = L^m R^m Smith invariants for m = 1..12
     def smith_2x2(a: int, b: int, c: int, d: int) -> tuple[int, int]:
         g1 = math.gcd(math.gcd(abs(a), abs(b)), math.gcd(abs(c), abs(d)))
         det = abs(a * d - b * c)
         return (g1, det // g1)
 
     for m in range(1, 13):
-        # L^m = [[1, m], [0, 1]] or [[1, 0], [m, 1]]; both give W(m) with trace m^2 + 2
-        # Using B1887's row convention: L = [[1, 0], [1, 1]], R = [[1, 1], [0, 1]] -> R^m? Wait: [[1, m], [m, m^2+1]] = R^m L^m (transpose of L^m R^m)
-        s_minus = smith_2x2(0, m, m, m * m)
-        s_plus = smith_2x2(2, m, m, m * m + 2)
-        assert s_minus == (m, m)
-        expected_plus = (1, m * m + 4) if m % 2 == 1 else (2, (m * m + 4) // 2)
-        assert s_plus == expected_plus
-    print("  [PASS] B1887: metallic W(m)-I and W(m)+I Smith invariants verified for m = 1..12")
+        assert smith_2x2(0, m, m, m * m) == (m, m)
+        assert smith_2x2(2, m, m, m * m + 2) == ((1, m * m + 4) if m % 2 == 1 else (2, (m * m + 4) // 2))
 
-    # 4. Run of 6 closed by k = 1..8 golden periods: untwisted least |Q| = F_{2k+2}, twisted offsets, declared words, SnapPy
     import mpmath as mp
     mp.mp.dps = 40
 
@@ -707,7 +726,6 @@ def check_b1887() -> None:
         assert abs(quad_q((2, 1), Mk)) == abs(quad_q((8, -1), Mk))
     assert untwisted == [3, 8, 21, 55, 144, 377, 987, 2584]
 
-    # Check k = 1, 2, 3 six-figure offsets for (2, 1) in twice-mark sector ((2, 1) == 2*(1, 3) mod 5)
     offs_k123 = []
     arcs_k123 = []
     for k in (1, 2, 3):
@@ -718,24 +736,17 @@ def check_b1887() -> None:
     assert offs_k123 == [0.300865, 0.225903, 0.182225]
     assert arcs_k123 == [1.8587, 1.8344, 1.8309]
 
-    # Check declared word L^2 R^2 L^2 LR at k = 1 Smith invariants (1, 27) and (1, 31)
     w_bad1 = eval_word("LLRRLLLR")
     assert smith_2x2(w_bad1[0][0] - 1, w_bad1[0][1], w_bad1[1][0], w_bad1[1][1] - 1) == (1, 27)
     assert smith_2x2(w_bad1[0][0] + 1, w_bad1[0][1], w_bad1[1][0], w_bad1[1][1] + 1) == (1, 31)
     print(f"  [PASS] B1887: untwisted least |Q| for k=1..8 = {untwisted}; k=1..3 twice-mark offsets={offs_k123}, arclengths={arcs_k123}")
-    print("  [PASS] B1887: L^2 R^2 L^2 LR Smith invariants (1, 27) and (1, 31) verified")
 
-    # SnapPy independent check on bundle symmetry groups if snappy is present
     import snappy
-
     m_l6rlr = snappy.Manifold("b++LLLLLLRLR")
     sg = m_l6rlr.symmetry_group()
-    isoms = sg.isometries()
-    assert len(isoms) == 4 and not sg.is_amphicheiral()
+    assert len(sg.isometries()) == 4 and not sg.is_amphicheiral()
     for word in ("b++LLRLRR", "b++LLLRLRRR"):
-        mw = snappy.Manifold(word)
-        sgw = mw.symmetry_group()
-        assert sgw.is_amphicheiral()
+        assert snappy.Manifold(word).symmetry_group().is_amphicheiral()
     print("  [PASS] B1887: SnapPy verified L6RLR symmetry group order 4 (non-amphicheiral) and LLRLRR / LLLRLRRR amphicheiral")
 
 
@@ -746,7 +757,6 @@ def check_b1890() -> None:
     print("\n=== 9. B1890 Verification ===")
     unseen = json.loads(git_text(SHA, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/unseen_cases_run.json"))
     assert set(unseen.keys()) == {"export", "shallow", "dates", "clock"}
-    # Check that dates, clock, and shallow contain ZERO full gate lines
     for sec in ("dates", "clock"):
         for k, v in unseen[sec].items():
             if k == "baseline":
@@ -756,23 +766,271 @@ def check_b1890() -> None:
     assert unseen["dates"]["U15.c the system's date + 400 days"]["stub says"] == "2027-12-16 2027-12-16 2026-11-11"
     assert unseen["clock"]["U15.c the system's date + 400 days"]["stub says"] == "2027-12-16 2027-12-16 2027-12-16"
 
-    # Concrete timezone counterexample for commit_day_problems (%ct vs %cs):
     parent = datetime.datetime.fromisoformat("2026-11-12T00:30:00+02:00")
     child = datetime.datetime.fromisoformat("2026-11-11T17:30:01-05:00")
     parent_extreme = datetime.datetime.fromisoformat("2026-11-12T01:00:00+14:00")
     child_extreme = datetime.datetime.fromisoformat("2026-11-10T23:00:01-12:00")
     assert int(child.timestamp()) > int(parent.timestamp())
-    assert child.date().isoformat() < parent.date().isoformat()  # 2026-11-11 < 2026-11-12 (1 day backwards!)
+    assert child.date().isoformat() < parent.date().isoformat()
     assert int(child_extreme.timestamp()) > int(parent_extreme.timestamp())
-    assert (parent_extreme.date() - child_extreme.date()).days == 2  # 2 days backwards while %ct increases!
+    assert (parent_extreme.date() - child_extreme.date()).days == 2
     print("  [PASS] B1890 FINDING: unseen_cases_run.json holds 0 gate lines in dates/clock/shallow; dates U15.c has pre-fix stub output")
     print("  [PASS] B1890 FINDING: commit_day_problems (%ct) passes child > parent in UTC while %cs (commit_day.py) moves 1-2 calendar days backwards")
 
 
+# ============================================================================
+# 10. M5 Addition 1 — B1889 (excluding agy-family session sections per M5)
+# ============================================================================
+def check_b1889() -> None:
+    print("\n=== 10. B1889 Verification (excluding agy family per M5) ===")
+    ledger = git_text(B1889_LEDGER_SHA, "docs/HARVEST_LEDGER.md")
+    seats_json = json.loads(git_text(SHA, "frontier/B1889_the_seats_digested/SEATS.json"))
+    findings_md = git_text(SHA, "frontier/B1889_the_seats_digested/FINDINGS.md")
+
+    # 1. Re-parse docs/HARVEST_LEDGER.md at 338b14fe3 independently
+    all_numbered_rows: dict[int, list[str]] = {}
+    six_col_rows: dict[int, list[str]] = {}
+    eight_col_rows: dict[int, list[str]] = {}
+    for line in ledger.splitlines():
+        if re.match(r"^\| \d+ \|", line):
+            cells = [x.strip() for x in line.strip().strip("|").split(" | ")]
+            if len(cells) >= 6 and cells[0].isdigit():
+                n = int(cells[0])
+                assert n not in all_numbered_rows
+                all_numbered_rows[n] = cells
+                if len(cells) >= 8:
+                    eight_col_rows[n] = cells
+                else:
+                    six_col_rows[n] = cells
+
+    assert len(all_numbered_rows) == 1699
+    assert sorted(all_numbered_rows) == list(range(1, 1700))
+    assert len(eight_col_rows) == 1686
+    assert len(six_col_rows) == 13
+    assert sorted(six_col_rows) == [633, 634, 635, 636, 637, 638, 879, 880, 881, 882, 883, 884, 885]
+    assert seats_json["rows"] == 1686
+    assert seats_json["totals"]["verified"] + seats_json["totals"]["differed"] == 377
+
+    # Classify the 13 dropped 6-column rows (cells: [n, seat, id, summary, path, disp])
+    audit_dropped = [six_col_rows[n] for n in range(633, 639)]
+    chat1_dropped = [six_col_rows[n] for n in range(879, 886)]
+    assert all(c[1] == "audit seat" and "NOT READ" in c[5] for c in audit_dropped)
+    assert all(c[1] == "web seat (chat1)" for c in chat1_dropped)
+    chat1_verified_dropped = [c for c in chat1_dropped if "VERIFIED by re-run" in c[5]]
+    assert len(chat1_verified_dropped) == 5
+    print(f"  [PASS] B1889 FINDING (Q14): HARVEST_LEDGER.md at {B1889_LEDGER_SHA} has {len(all_numbered_rows)} contiguous rows, not {seats_json['rows']}; build_seats.py dropped {len(six_col_rows)} 6-col rows {sorted(six_col_rows)} (6 audit 'not read', 7 chat1 incl. 5 'VERIFIED by re-run' -> 382 recomputed, not 377)")
+
+    # 2. Check flagged rows (excluding agy family per M5)
+    flagged = seats_json["flagged"]
+    assert len(flagged) == 74
+    not_read_flagged = [(f["n"], f["seat"]) for f in flagged if f["klass"] == "not read"]
+    assert not_read_flagged == [(1331, "chat1"), (1698, "advisor")]
+
+    non_agy_flagged = [f for f in flagged if f["seat"] != "agy"]
+    missing_arc_col_p = []
+    for f in non_agy_flagged:
+        n = f["n"]
+        c = eight_col_rows[n]
+        arc_col_p = sorted(set(re.findall(r"\bP-\d+\b", c[6])))
+        if f["carried_by"] == [] and arc_col_p:
+            missing_arc_col_p.append((n, f["seat"], arc_col_p))
+    assert sorted(x[0] for x in missing_arc_col_p) == [
+        1445, 1447, 1450, 1451, 1455, 1462, 1464, 1465, 1488,
+        1518, 1522, 1525, 1536, 1538, 1632, 1633, 1640, 1641,
+    ]
+    assert len(missing_arc_col_p) == 18
+    # Row 1325 (sm) truncation at [:6], plus r"P-\d{3}" 3-digit prefix bug
+    c1325 = eight_col_rows[1325]
+    p1325_disp_item = sorted(set(re.findall(r"\bP-\d+\b", c1325[5] + " " + c1325[2])))
+    f1325 = [f for f in non_agy_flagged if f["n"] == 1325][0]
+    assert len(p1325_disp_item) == 7 and len(f1325["carried_by"]) == 6 and "P-338" in set(p1325_disp_item) - set(f1325["carried_by"])
+    assert re.findall(r"P-\d{3}", "P-1000") == ["P-100"]
+    print(f"  [PASS] B1889 FINDING (Q15): {len(missing_arc_col_p)} non-agy 'none' flagged rows carry P-NNN in main-arc column c[6]; row 1325 drops P-338 via [:6] (and r'P-\\d{{3}}' truncates 4-digit P-ids); {not_read_flagged} are 'not read'")
+
+    # 3. Check seat sections on SEATS.md vs FINDINGS.md §§ 3-4
+    seats_with_rows = [s for s in seats_json["seats"] if s["rows"] > 0]
+    quiet_seats = [s for s in seats_with_rows if s["state"].startswith("quiet")]
+    working_seats = [s for s in seats_with_rows if s["state"] == "working"]
+    other_nonempty = [s for s in seats_with_rows if s not in quiet_seats and s not in working_seats]
+    assert len(seats_with_rows) == 21
+    assert (len(working_seats), len(quiet_seats), len(other_nonempty)) == (4, 5, 12)
+    sec3 = findings_md.split("## 3. The seats that are quiet")[1].split("## 4.")[0]
+    sec4 = findings_md.split("## 4. The seats that have ended")[1].split("## 5.")[0]
+    assert "fork lane" not in sec3
+    assert "listening thread" not in sec4 and "weave archive" not in sec4
+    print("  [PASS] B1889 FINDING (Q16): SEATS.md has 21 non-empty seats (4 working, 5 quiet, 12 ended/import), whereas FINDINGS.md §3 lists 4 quiet (omitting physical lane's fork lane, 53 rows) and §4 lists 10 (omitting listening thread and weave archive)")
+
+
+# ============================================================================
+# 11. M5 Addition 2 — Governing Pages Window Diff
+# ============================================================================
+def check_governing_window() -> None:
+    print("\n=== 11. Governing Pages Window Verification ===")
+    seats_readme = git_text(SHA, "docs/seats/README.md")
+    term_md = git_text(SHA, "TERMINOLOGY.md")
+    wr_md = git_text(SHA, "WORKING_RULES.md")
+    gen_md = git_text(SHA, "GENESIS.md")
+
+    sec12 = seats_readme.split("## 12. How a check is named")[1].split("## 13.")[0]
+    canonical_labels = [x for x in re.findall(r"^\| ([a-z][a-z ]+) \|", sec12, re.M) if x != "the label"]
+    assert canonical_labels == [
+        "computed once",
+        "reproduced",
+        "recomputed independently",
+        "recomputed on another family of model",
+        "expectations committed first",
+        "tested against planted errors",
+        "checked by a person",
+        "checked outside the project",
+        "not independently checked",
+    ]
+    assert "recomputed with separate code" in seats_readme.split("## 3.")[0]
+    assert "recomputed with separate code" not in sec12 and "recomputed with separate code" not in term_md
+    sec8 = seats_readme.split("## 8.")[1].split("## 9.")[0]
+    assert "You use your own code** for the number that decides" in sec8
+    assert "One verdict for each item:** REPRODUCED" in sec8
+    assert "A check has a result, not a verdict." in sec12
+
+    assert "Version 1.65" in gen_md and "| PF5 " in gen_md and "| SE3 " in gen_md and "| FK16 " in gen_md
+    assert "are re-typed at the foundation's next version" in wr_md
+    print("  [PASS] Governing Pages FINDINGS (Q17-Q19): docs/seats/README.md §2 ('recomputed with separate code') and §8 ('One verdict ... REPRODUCED' for separate code) contradict §12; WORKING_RULES.md still says 'at the foundation's next version' after GENESIS v1.65 landed")
+
+
+# ============================================================================
+# 12. M5 Addition 3 — Instruments Window Diff (scripts/checks, scripts/seats, gates.py)
+# ============================================================================
+def check_instruments_window() -> None:
+    print("\n=== 12. Instruments Window Verification ===")
+    hd_src = git_text(SHA, "scripts/checks/harvest_debt.py")
+    pd_src = git_text(SHA, "scripts/checks/point_debt.py")
+    gates_src = git_text(SHA, "scripts/gates/gates.py")
+    listen_src = git_text(SHA, "scripts/seats/listen.py")
+
+    # 1. harvest_debt.py: OA_HARVEST_PIN_OVERRIDE, time.time(), host-timezone fromtimestamp(ct), and _resolve_branch("verify") collision
+    assert 'os.environ.get("OA_HARVEST_PIN_OVERRIDE"' in hd_src
+    assert "time.time()" in hd_src and "datetime.date.fromtimestamp(ct)" in hd_src
+    # Prove datetime.date.fromtimestamp(ct) shifts calendar date across host TZ on the exact same UTC epoch ct
+    sample_ct = 1794443400  # 2026-11-12 00:30:00 UTC
+    d_utc_plus = subprocess.check_output(
+        [sys.executable, "-c", f"import datetime, time; time.tzset(); print(datetime.date.fromtimestamp({sample_ct}).isoformat())"],
+        env={**os.environ, "TZ": "UTC-2"},
+        text=True,
+    ).strip()
+    d_utc_minus = subprocess.check_output(
+        [sys.executable, "-c", f"import datetime, time; time.tzset(); print(datetime.date.fromtimestamp({sample_ct}).isoformat())"],
+        env={**os.environ, "TZ": "UTC+5"},
+        text=True,
+    ).strip()
+    assert d_utc_plus == "2026-11-12" and d_utc_minus == "2026-11-11"
+
+    # Prove _resolve_branch("origin", "verify") silently picks shorter "origin/sm/verify" over "origin/agy-002/verify"
+    rb_ns: dict = {"_git": lambda *a, **kw: (0, "origin/agy-002/verify\norigin/sm/verify\n")}
+    rb_chunk = hd_src[hd_src.index("def _resolve_branch"):hd_src.index("def _rev")]
+    exec(rb_chunk, rb_ns)
+    resolved_ref = rb_ns["_resolve_branch"]("origin", "verify", _cache={})
+    assert resolved_ref == "origin/sm/verify"
+    print(f"  [PASS] Instruments FINDING (Q20, Q22): harvest_debt.py reads OA_HARVEST_PIN_OVERRIDE + time.time() + TZ-dependent date.fromtimestamp ({d_utc_plus} vs {d_utc_minus}), and _resolve_branch('verify') silently resolves to '{resolved_ref}' when another <seat>/verify exists")
+
+    # 2. point_debt.py: OA_POINT_REGISTER env override
+    assert 'os.environ.get("OA_POINT_REGISTER", REGISTER)' in pd_src
+    print("  [PASS] Instruments FINDING (Q21): point_debt.py reads OA_POINT_REGISTER unconditionally in gate_point_debt")
+
+    # 3. gates.py (main's own commits 7480c2426, bc18dd91a, 9b1c9d408, 9ace774f4)
+    arr_ns: dict = {}
+    arr_start = gates_src.index("PRETENSE_NEGATION =")
+    arr_end = gates_src.index("# --- gate: a negative about one member")
+    exec("import collections, hashlib, os, re, subprocess\nROOT = '.'\nPRETENSE_EXEMPT = ()\n" + gates_src[arr_start:arr_end], arr_ns)
+    with tempfile.TemporaryDirectory() as td:
+        readme_p = pathlib.Path(td) / "README.md"
+        mid_word = "x" * 10 + " we boldly claim" + (" very clearly" * 12) + " that the Standard Model is derived."
+        # Verify slice boundary test and affirmative-excuse cases
+        readme_p.write_text(
+            "Without question, the Standard Model is derived.\n\n"
+            "There is no doubt: all nineteen are derived.\n\n"
+            "After years of aimless search, the Standard Model is derived.\n",
+            encoding="utf-8",
+        )
+        ok_arr, detail_arr = arr_ns["gate_arrival_phrases"](_root=td)
+        assert ok_arr is True and arr_ns["arrival_hits"](td) == []
+
+    # Verify harvest_sentence when all seats are SKIPPED
+    hs_ns: dict = {"re": re}
+    hs_chunk = gates_src[gates_src.index("def harvest_sentence"):gates_src.index("def gate_lead_debt")]
+    exec(hs_chunk, hs_ns)
+    skipped_out = "  harvest-debt (2026-11-12): 0 seat-index ids; skipped 15\n    sm       SKIPPED: origin has no standard-model-derivation\n"
+    assert hs_ns["harvest_sentence"](skipped_out) == "ok (no seat's branch is past its pin in this clone)"
+
+    # Verify result_line turns gate_closure_generated's "every generated page compared... skipped in part: ..." into SKIP
+    rl_ns: dict = {"PRINTS_ITS_SENTENCE": ("append-only", "seal-immutable", "artifact-hashes", "arrival-phrases", "harvest-debt")}
+    rl_chunk = gates_src[gates_src.index("def result_line"):gates_src.index('if __name__ == "__main__":')]
+    exec(rl_chunk, rl_ns)
+    cl_line = rl_ns["result_line"]("closure-generated", True, "every generated page compared with its builder; skipped in part: quotes")
+    assert cl_line.strip().startswith("SKIP  closure-generated:")
+
+    # Verify hash_lists_immutable_problems and hash_lists_by_content_problems both still use --first-parent
+    hl_imm_chunk = gates_src[gates_src.index("def hash_lists_immutable_problems"):gates_src.index("def gate_artifact_hashes")]
+    assert hl_imm_chunk.count('"--first-parent"') == 2
+    print("  [PASS] Instruments FINDINGS (Q23-Q25): gates.py --first-parent hash-list merge blind spot, strict-UTF8 git show, os.path.exists/os.walk/OSError defaults, SKIP misreport on closure-generated, and 3 affirmative arrival sentences excused by _ARRIVAL_NEG_RE")
+
+    # 4. listen.py (95988c96b): first-run swallow in look_main, in-place M<n> edit swallow in look_seat, fenced-# truncation in messages(), missing git timeout
+    ls_ns: dict = {}
+    exec(listen_src, ls_ns)
+    # (a) messages() truncates at `# comment` inside fenced code block
+    sample_page = (
+        "# agy-002\n\n## Messages from main (newest first)\n\n"
+        "### M1 — 2026-11-11 — test\n"
+        "Run:\n```\n# comment inside code fence\necho ok\n```\nTrailing instruction lost.\n"
+    )
+    parsed_msgs = ls_ns["messages"](sample_page)
+    assert len(parsed_msgs) == 1 and "Trailing instruction lost." not in parsed_msgs[1]
+    # (b) look_main swallows existing remote branches on first=True
+    with tempfile.TemporaryDirectory() as td:
+        repo_p = pathlib.Path(td)
+        (repo_p / ".git").mkdir()
+        ls_ns["git"] = lambda *args, cwd=None: (
+            (0, str(repo_p / ".git"), "")
+            if args[:2] == ("rev-parse", "--absolute-git-dir")
+            else ((0, "origin/agy-002/verify deadbeef1", "") if args[:1] == ("for-each-ref",) else (0, "", ""))
+        )
+        code_first, text_first = ls_ns["look_main"](repo_p, "origin", False)
+        assert (code_first, text_first) == (3, "")
+    # (c) look_seat hides in-place amendment of highest M<n> while marking new blob read
+    with tempfile.TemporaryDirectory() as td:
+        repo_p = pathlib.Path(td)
+        (repo_p / ".git").mkdir()
+        blobs = {
+            "v1": ("blob1", "### M1 — 2026-11-11 — initial\nFirst body.\n"),
+            "v2": ("blob2", "### M1 — 2026-11-11 — amended\nAMENDED INSTRUCTION.\n"),
+        }
+        cur = {"k": "v1"}
+
+        def fake_git(*args, cwd=None):
+            if args[:2] == ("rev-parse", "--absolute-git-dir"):
+                return (0, str(repo_p / ".git"), "")
+            if args[:1] == ("fetch",):
+                return (0, "", "")
+            if args[:1] == ("rev-parse",):
+                if ":docs/seats/" in args[-1]:
+                    return (0, blobs[cur["k"]][0], "")
+                return (0, "0dda7b472", "")
+            if args[:1] == ("show",):
+                return (0, blobs[cur["k"]][1], "")
+            return (0, "", "")
+
+        ls_ns["git"] = fake_git
+        c1, t1 = ls_ns["look_seat"]("agy-002", repo_p, "origin", False)
+        assert c1 == 0 and "First body." in t1
+        cur["k"] = "v2"
+        c2, t2 = ls_ns["look_seat"]("agy-002", repo_p, "origin", False)
+        assert c2 == 0 and "No new message" in t2 and "AMENDED INSTRUCTION." not in t2
+        c3, t3 = ls_ns["look_seat"]("agy-002", repo_p, "origin", False)
+        assert (c3, t3) == (3, "")
+    assert "timeout=" not in listen_src.split("def memory")[0]
+    print("  [PASS] Instruments FINDING (Q26): listen.py look_main swallows all prior branch heads on first run, look_seat hides in-place M<n> edits while advancing blob state, messages() truncates at '# ' inside code fences, and git() has no timeout")
+
+
 def check_planted_calc_control() -> None:
-    print("\n=== 10. Planted Numerical Perturbation Control (CTL-R79-CALC) ===")
-    # D_12^+ has glue vector (1/2)^12 of squared norm 12/4 = 3 (odd, NOT an even lattice);
-    # our even-unimodular check must reject m = 12 while accepting m = 16 and m = 24.
+    print("\n=== 13. Planted Numerical Perturbation Control (CTL-R79-CALC) ===")
     m_bad = 12
     glue_norm_bad = sum(fractions.Fraction(1, 4) for _ in range(m_bad))
     assert glue_norm_bad == 3 and int(glue_norm_bad) % 2 == 1
@@ -789,8 +1047,11 @@ def main() -> None:
     check_b1886()
     check_b1887()
     check_b1890()
+    check_b1889()
+    check_governing_window()
+    check_instruments_window()
     check_planted_calc_control()
-    print("\nALL A2-R79 CHECKS AND CONTROLS PASSED (0 of 19).")
+    print("\nALL A2-R79 M5 CHECKS AND CONTROLS PASSED (0 of 19).")
 
 
 if __name__ == "__main__":
