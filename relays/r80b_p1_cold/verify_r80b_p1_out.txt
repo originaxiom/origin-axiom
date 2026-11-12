@@ -1,0 +1,45 @@
+=== A2-S-R80b-p1 Cold-Read Verification (112e73d67 on 10fbbc1c2 + R80a) ===
+[P-796] Loaded 6 four-word slices in memory (zero words printed).
+[P-796] Checked all 9 R80b Part 1 relay blobs: 0 four-word slices present.
+[ATTR] Landed patch messages (0001..0003) attribution matches STATUS_OF_THE_57.md cleanly.
+[ATTR] Cover note 'reproduced' hits (SM-05 protocol §12 check): [(108, "| the SM seat's 28 and 29 | reproduced by you, by your table; made again here on the commit before |")]
+[R80a-ADD] Confirmed: test_b1898_review_80.py passed in builder's earlier clone only before origin/agy-002/verify advanced past 4ae026d99.
+[TREE] 10fbbc1c2 + R80a tree verified: 859672ca2746086e9b5ffafd9d1cdc076601d99e
+[LOCK] Pre-Patch-1 (R80a) B1861 lock: 18 passed in 1075.48s (0:17:55)
+[TREE] Patch 1 staged 5 B1861 files only; tree == ca3baa7081978a643a848b84b0cf9713f1e2ca4a
+[P-796] Verified 0 four-word slices remain across all files of frontier/B1861_the_closure_programme/.
+[LOCK] Patch 1 B1861 lock: 18 passed in 1255.81s (0:20:55)
+[LOCK] Patch 2 B1861 lock: 19 passed in 1274.06s (0:21:14)
+[TREE] Patch 3 tree verified: 79f04e3090675f2cf8d54327465f988cc09d421b
+[BEFORE/AFTER] Patch 3 lock test failed before mend (rc=1) and passed after (19 passed).
+[BUILD] build_programme.py --write clean on final Patch 3 tree (zero diff).
+[GATES] Clean Patch 3 checkout gates: 0 passed, 0 failed (rc=0).
+[BEFORE/AFTER] Patch 2 reader on pre-Patch-1 PROGRAMME.md: old_passed=True, new_hits=[(980, 'a block quotation')]
+
+=== Unseen Adversarial Plants on Patch 2 (what_the_plans_page_quotes) ===
+  P2-ADV-1 (line-wrap between owner attribution and quote): EVADED (returned [])
+  P2-ADV-2 (post-positioned owner attribution after quote): EVADED (returned [])
+  P2-ADV-3 (HELD_BY_NAME prefix piggyback inside 'even ticks observed...'): EVADED (returned [])
+  P2-ADV-4 (French guillemets « ... » with standard space after «): EVADED (returned [])
+  P2-ADV-5 (em-dash immediately before opening quote): EVADED (returned [])
+  P2-ADV-6 (backtick code-span quote after owner attribution): EVADED (returned [])
+  P2-POS-1 (indented bullet blockquote): CAUGHT ([(979, 'a block quotation')])
+  P2-POS-2 (HTML <q> tag): CAUGHT ([(978, 'a block quotation')])
+  P2-POS-3 (curly single quote after His): CAUGHT ([(978, 'a quotation opens after a word for the owner')])
+
+=== Unseen Adversarial Inputs on Patch 3 (bp.short, n=110) ===
+  P3-ADV-1a (open paren + 109 chars of ',;: ' + words) -> len=5, has_alnum=False, repr='( […]'
+  P3-ADV-1b (em-dash + 109 chars of ',;: ' + words) -> len=5, has_alnum=False, repr='— […]'
+  P3-ADV-2 (comma + 115 spaces + words) -> len=114, has_alnum=False, repr=',                                                                                                              […]'
+  P3-ADV-3 (parenthesised list label '(1) ' + 200-char token) -> len=7, has_alnum=True, repr='(1) […]'
+
+=== In-Process Pollution Diagnosis (B1861 lock -> programme_source) ===
+MUTATED_IN_SYS_MODULES: ['F', 'I', 'INPUTS', 'P', 'U', 'WP']
+  DIFF_KEY: F
+  DIFF_KEY: I
+  DIFF_KEY: INPUTS
+  DIFF_KEY: P
+  DIFF_KEY: U
+  DIFF_KEY: WP
+
+=== A2-S-R80b-p1 VERIFICATION COMPLETE (EXIT 0) ===
