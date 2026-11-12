@@ -1,0 +1,24 @@
+main's own tests of the gates, the checkers, the views and the verdict files' data, and this seat's locks: the files that name one of them.
+100 files in all: the 91 of the earlier runs, main's locks of B1891 to B1897, the listener's test, and the move's own lock.
+Each tree is given the ones it holds.  Run by:  python3 -B -m pytest -q -p no:cacheprovider -p no:randomly -rf --tb=no FILES
+The two runs were made at the same time, each in a checkout of its own.
+
+==== the base: main's 5c7abd72a with the ten patches of series 4, the views generated, a stand-in for main's record of three (f57d13494, local and not sent)
+     98 of the 100 files; 5 failed, 734 passed, 12 skipped, 1 warning in 660.12s (0:11:00)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+     fails: tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+     fails: tests/test_repo_gates.py::test_all_gates_pass
+
+==== the same with the move (4b3809afc, local and not sent)
+     99 of the 100 files; 5 failed, 742 passed, 12 skipped, 1 warning in 664.53s (0:11:04)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+     fails: tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+     fails: tests/test_repo_gates.py::test_all_gates_pass
+
+The same five fail on both.  Two are among the fifteen locks that series 4 holds by name: each compares, as text, a float that a
+process printed.  Three are main's tests that every gate passes, and fail by main's count of landings alone: this branch is twelve
+commits on a head that counts 34, and Review 80 is open.  The eight more that pass on the move are the tests of its own lock.

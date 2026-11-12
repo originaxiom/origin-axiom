@@ -1,0 +1,558 @@
+From 905c5e97569e46702eae2f7accbae1eb8fb9027b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 12:01:31 +0000
+Subject: [PATCH] THE MOVE OF TWENTY OLD FRONT PAGES INTO ONE FOLDER, WITH ONE
+ PAGE THAT SAYS WHERE EACH WENT (cld-advisor, at main's word in M12, outside
+ its five packages; the owner approved the move to main on 2026-11-12,
+ register row P-825; built on 5c7abd72a with the ten patches of series 4
+ applied). WHAT MOVES: the twenty pages of main's list, each a dated account
+ of an earlier state or a plan or a protocol that a later page replaces, read
+ one by one by main. Each goes into docs/retired/ under its own name, as a
+ pure rename: no byte of them is changed. WHAT IS WRITTEN: one page,
+ docs/MOVED.md, a table of four columns, where the page was, where it is, what
+ it is, and what stands in its place now; the last two are main's words. ONE
+ ROW IN ONE KEPT PAGE: the front page's table of what to read leads to it. No
+ other page is edited, and no citation is rewritten: 74 times a page cites one
+ of the old places, each stands as it was written, and the path checker reads
+ it through the table. THE TABLE IS HELD by the gate that reads it, and no
+ gate is added: each page it names is a tracked file where the table says;
+ every page in the folder has its row; no old place is taken again by a file,
+ which would make a citation name two pages; no place stands in it twice, no
+ page is said to have moved on, and a row that cannot be read is not passed
+ over. A TABLE KEYED BY A FILE FOLLOWS THE PAGE: one entry of the attribution
+ baseline is keyed by a page that moves; it is renamed with its page, and the
+ rule that no ceiling rises without a recorded act reads a moved page's
+ ceiling at the place the page is now, the table being the record of the move.
+ No table of the third or the fourth series holds one of the twenty. SAID TO
+ MAIN, as it asked: no script, no test and no gate reads one of the twenty at
+ this head; one checker names one of them in its docstring and reads none, as
+ main found. No generated page changes. The lock:
+ tests/test_a_moved_page_is_where_the_table_says.py, eight tests. On the
+ commit before, all eight fail, the first because a citation of an old place
+ does not resolve and the checker reads no table. Tested against planted
+ errors; computed once. 0 of 19.
+
+---
+ README.md                                     |   1 +
+ docs/ATTRIBUTION_BASELINE.json                |   2 +-
+ docs/MOVED.md                                 |  34 ++++
+ docs/{ => retired}/AUDIT_2026-07-05.md        |   0
+ .../retired/AUDIT_REPORT.md                   |   0
+ docs/{ => retired}/CLOSURE_2026-07-05.md      |   0
+ docs/{ => retired}/CLOSURE_2026-07-11.md      |   0
+ docs/{ => retired}/CLOSURE_PROGRAM.md         |   0
+ .../CODEX_AUDIT_RESPONSE_2026-07-12.md        |   0
+ docs/{ => retired}/COMMS_PROTOCOL.md          |   0
+ .../CRYSTALLIZATION_2026-07-09.md             |   0
+ .../PARAMETER_CLOSURE_MASTERPLAN.md           |   0
+ docs/{ => retired}/PHASE1_WRAP.md             |   0
+ docs/{ => retired}/PUBLICATION_CAMPAIGN.md    |   0
+ docs/{ => retired}/REBASE_2026-07-12.md       |   0
+ docs/{ => retired}/RECOGNITION.md             |   0
+ .../RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md |   0
+ docs/{ => retired}/ROADMAP_TOE.md             |   0
+ docs/{ => retired}/SESSION3_SYNTHESIS.md      |   0
+ docs/{ => retired}/SUBMISSION_CAMPAIGN.md     |   0
+ docs/{ => retired}/THE_PATTERN_MEDITATION.md  |   0
+ .../{ => retired}/THE_PATTERN_MEDITATION_2.md |   0
+ docs/{ => retired}/THE_ROLES_ACCOUNTING.md    |   0
+ scripts/checks/check_path_references.py       |  68 ++++++++
+ scripts/gates/gates.py                        |  27 ++-
+ ...st_a_moved_page_is_where_the_table_says.py | 163 ++++++++++++++++++
+ 26 files changed, 292 insertions(+), 3 deletions(-)
+ create mode 100644 docs/MOVED.md
+ rename docs/{ => retired}/AUDIT_2026-07-05.md (100%)
+ rename AUDIT_REPORT.md => docs/retired/AUDIT_REPORT.md (100%)
+ rename docs/{ => retired}/CLOSURE_2026-07-05.md (100%)
+ rename docs/{ => retired}/CLOSURE_2026-07-11.md (100%)
+ rename docs/{ => retired}/CLOSURE_PROGRAM.md (100%)
+ rename docs/{ => retired}/CODEX_AUDIT_RESPONSE_2026-07-12.md (100%)
+ rename docs/{ => retired}/COMMS_PROTOCOL.md (100%)
+ rename docs/{ => retired}/CRYSTALLIZATION_2026-07-09.md (100%)
+ rename docs/{ => retired}/PARAMETER_CLOSURE_MASTERPLAN.md (100%)
+ rename docs/{ => retired}/PHASE1_WRAP.md (100%)
+ rename docs/{ => retired}/PUBLICATION_CAMPAIGN.md (100%)
+ rename docs/{ => retired}/REBASE_2026-07-12.md (100%)
+ rename docs/{ => retired}/RECOGNITION.md (100%)
+ rename docs/{ => retired}/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md (100%)
+ rename docs/{ => retired}/ROADMAP_TOE.md (100%)
+ rename docs/{ => retired}/SESSION3_SYNTHESIS.md (100%)
+ rename docs/{ => retired}/SUBMISSION_CAMPAIGN.md (100%)
+ rename docs/{ => retired}/THE_PATTERN_MEDITATION.md (100%)
+ rename docs/{ => retired}/THE_PATTERN_MEDITATION_2.md (100%)
+ rename docs/{ => retired}/THE_ROLES_ACCOUNTING.md (100%)
+ create mode 100644 tests/test_a_moved_page_is_where_the_table_says.py
+
+diff --git a/README.md b/README.md
+index a9d59e86a..e6c06efe3 100644
+--- a/README.md
++++ b/README.md
+@@ -40,6 +40,7 @@ nothing in this block is typed by hand.*
+ | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
+ | explore the record visually | [`docs/workdesk/`](docs/workdesk/) |
+ | learn the vocabulary | [`TERMINOLOGY.md`](TERMINOLOGY.md) |
++| find a page you were sent to that is not where it was | [`docs/MOVED.md`](docs/MOVED.md): dated accounts and replaced plans, and where each is now |
+ 
+ ## How the record is kept
+ 
+diff --git a/docs/ATTRIBUTION_BASELINE.json b/docs/ATTRIBUTION_BASELINE.json
+index 42845f588..18e126ff2 100644
+--- a/docs/ATTRIBUTION_BASELINE.json
++++ b/docs/ATTRIBUTION_BASELINE.json
+@@ -4,7 +4,7 @@
+   "CHANGELOG.md": 4,
+   "PROGRESS_LOG.md": 6,
+   "docs/CAMPAIGN_STATUS.md": 5,
+-  "docs/CLOSURE_2026-07-11.md": 1,
++  "docs/retired/CLOSURE_2026-07-11.md": 1,
+   "docs/progress/PROGRESS_2026-Q2.md": 4,
+   "docs/progress/REVIEWS.md": 5,
+   "docs/views/VERDICT_LEDGER.md": 2,
+diff --git a/docs/MOVED.md b/docs/MOVED.md
+new file mode 100644
+index 000000000..56c781693
+--- /dev/null
++++ b/docs/MOVED.md
+@@ -0,0 +1,34 @@
++# A page you were sent to is not where it was
++
++Twenty pages were moved out of the first reader's way, into `docs/retired/`. Each is a dated account of an earlier
++state of the programme, or a plan or a protocol that a later page replaces. Nothing was deleted, and no word in
++them was changed. The owner approved the move on 2026-11-12 (register row P-825).
++
++A page that cites one of them still names its old place. Find that place on the left.
++
++| where it was | where it is | what it is | what stands in its place now |
++|---|---|---|---|
++| `AUDIT_REPORT.md` | `docs/retired/AUDIT_REPORT.md` | the consolidation audit of 2026-05-22; its own banner says historical | the pages its banner names |
++| `docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` | `docs/retired/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` | an audit and a plan of 2026-07-01; its banner says historical | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
++| `docs/SESSION3_SYNTHESIS.md` | `docs/retired/SESSION3_SYNTHESIS.md` | a session's handoff; its banner says historical | nothing: a dated record |
++| `docs/RECOGNITION.md` | `docs/retired/RECOGNITION.md` | the recognition campaign registered 2026-07-03 | nothing: a dated campaign |
++| `docs/AUDIT_2026-07-05.md` | `docs/retired/AUDIT_2026-07-05.md` | a repository audit of that day | `docs/progress/REVIEWS.md`, for the reviews since |
++| `docs/CLOSURE_2026-07-11.md` | `docs/retired/CLOSURE_2026-07-11.md` | the two-seat closure verdict of July | `docs/CAMPAIGN_STATUS.md` |
++| `docs/CODEX_AUDIT_RESPONSE_2026-07-12.md` | `docs/retired/CODEX_AUDIT_RESPONSE_2026-07-12.md` | a response to an outside audit of the documents | nothing: a dated record |
++| `docs/CRYSTALLIZATION_2026-07-09.md` | `docs/retired/CRYSTALLIZATION_2026-07-09.md` | a seat's text with its landing status | nothing: a dated record |
++| `docs/REBASE_2026-07-12.md` | `docs/retired/REBASE_2026-07-12.md` | the consolidated state before one campaign | `docs/CAMPAIGN_STATUS.md` |
++| `docs/CLOSURE_PROGRAM.md` | `docs/retired/CLOSURE_PROGRAM.md` | a draft plan of 2026-07-23, with nearly the name of today's programme | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
++| `docs/PHASE1_WRAP.md` | `docs/retired/PHASE1_WRAP.md` | the wrap of that plan's first phase | nothing: a dated record |
++| `docs/COMMS_PROTOCOL.md` | `docs/retired/COMMS_PROTOCOL.md` | the protocol of a room of seats that no longer exists (v1.2, 2026-08-06) | `docs/seats/README.md` |
++| `docs/ROADMAP_TOE.md` | `docs/retired/ROADMAP_TOE.md` | a roadmap; its own banner says superseded on 2026-08-08 | `docs/THE_FRAMEWORK.md`, by its banner |
++| `docs/THE_PATTERN_MEDITATION.md` | `docs/retired/THE_PATTERN_MEDITATION.md` | a meditation of 2026-08-12 | nothing: a dated record |
++| `docs/PARAMETER_CLOSURE_MASTERPLAN.md` | `docs/retired/PARAMETER_CLOSURE_MASTERPLAN.md` | a plan of 2026-08-29 | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
++| `docs/PUBLICATION_CAMPAIGN.md` | `docs/retired/PUBLICATION_CAMPAIGN.md` | the campaign of 2026-08-30 for the paper | the paper's folder, frozen after its ninth draft |
++| `docs/THE_PATTERN_MEDITATION_2.md` | `docs/retired/THE_PATTERN_MEDITATION_2.md` | a meditation of 2026-08-13 | nothing: a dated record |
++| `docs/CLOSURE_2026-07-05.md` | `docs/retired/CLOSURE_2026-07-05.md` | an entry page of 2026-07-05 | `README.md` |
++| `docs/THE_ROLES_ACCOUNTING.md` | `docs/retired/THE_ROLES_ACCOUNTING.md` | a measurement of 2026-09-12 | nothing: a dated record |
++| `docs/SUBMISSION_CAMPAIGN.md` | `docs/retired/SUBMISSION_CAMPAIGN.md` | the campaign of 2026-08-31 to send the paper | the paper's folder, frozen after its ninth draft |
++
++*This page is the record of the move. One row of the front page leads here, and no other page was edited for it.
++A gate holds the table: each page it names is where the table says, every page in the folder has its row, and no
++old place is taken by a new file.*
+diff --git a/docs/AUDIT_2026-07-05.md b/docs/retired/AUDIT_2026-07-05.md
+similarity index 100%
+rename from docs/AUDIT_2026-07-05.md
+rename to docs/retired/AUDIT_2026-07-05.md
+diff --git a/AUDIT_REPORT.md b/docs/retired/AUDIT_REPORT.md
+similarity index 100%
+rename from AUDIT_REPORT.md
+rename to docs/retired/AUDIT_REPORT.md
+diff --git a/docs/CLOSURE_2026-07-05.md b/docs/retired/CLOSURE_2026-07-05.md
+similarity index 100%
+rename from docs/CLOSURE_2026-07-05.md
+rename to docs/retired/CLOSURE_2026-07-05.md
+diff --git a/docs/CLOSURE_2026-07-11.md b/docs/retired/CLOSURE_2026-07-11.md
+similarity index 100%
+rename from docs/CLOSURE_2026-07-11.md
+rename to docs/retired/CLOSURE_2026-07-11.md
+diff --git a/docs/CLOSURE_PROGRAM.md b/docs/retired/CLOSURE_PROGRAM.md
+similarity index 100%
+rename from docs/CLOSURE_PROGRAM.md
+rename to docs/retired/CLOSURE_PROGRAM.md
+diff --git a/docs/CODEX_AUDIT_RESPONSE_2026-07-12.md b/docs/retired/CODEX_AUDIT_RESPONSE_2026-07-12.md
+similarity index 100%
+rename from docs/CODEX_AUDIT_RESPONSE_2026-07-12.md
+rename to docs/retired/CODEX_AUDIT_RESPONSE_2026-07-12.md
+diff --git a/docs/COMMS_PROTOCOL.md b/docs/retired/COMMS_PROTOCOL.md
+similarity index 100%
+rename from docs/COMMS_PROTOCOL.md
+rename to docs/retired/COMMS_PROTOCOL.md
+diff --git a/docs/CRYSTALLIZATION_2026-07-09.md b/docs/retired/CRYSTALLIZATION_2026-07-09.md
+similarity index 100%
+rename from docs/CRYSTALLIZATION_2026-07-09.md
+rename to docs/retired/CRYSTALLIZATION_2026-07-09.md
+diff --git a/docs/PARAMETER_CLOSURE_MASTERPLAN.md b/docs/retired/PARAMETER_CLOSURE_MASTERPLAN.md
+similarity index 100%
+rename from docs/PARAMETER_CLOSURE_MASTERPLAN.md
+rename to docs/retired/PARAMETER_CLOSURE_MASTERPLAN.md
+diff --git a/docs/PHASE1_WRAP.md b/docs/retired/PHASE1_WRAP.md
+similarity index 100%
+rename from docs/PHASE1_WRAP.md
+rename to docs/retired/PHASE1_WRAP.md
+diff --git a/docs/PUBLICATION_CAMPAIGN.md b/docs/retired/PUBLICATION_CAMPAIGN.md
+similarity index 100%
+rename from docs/PUBLICATION_CAMPAIGN.md
+rename to docs/retired/PUBLICATION_CAMPAIGN.md
+diff --git a/docs/REBASE_2026-07-12.md b/docs/retired/REBASE_2026-07-12.md
+similarity index 100%
+rename from docs/REBASE_2026-07-12.md
+rename to docs/retired/REBASE_2026-07-12.md
+diff --git a/docs/RECOGNITION.md b/docs/retired/RECOGNITION.md
+similarity index 100%
+rename from docs/RECOGNITION.md
+rename to docs/retired/RECOGNITION.md
+diff --git a/docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md b/docs/retired/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md
+similarity index 100%
+rename from docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md
+rename to docs/retired/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md
+diff --git a/docs/ROADMAP_TOE.md b/docs/retired/ROADMAP_TOE.md
+similarity index 100%
+rename from docs/ROADMAP_TOE.md
+rename to docs/retired/ROADMAP_TOE.md
+diff --git a/docs/SESSION3_SYNTHESIS.md b/docs/retired/SESSION3_SYNTHESIS.md
+similarity index 100%
+rename from docs/SESSION3_SYNTHESIS.md
+rename to docs/retired/SESSION3_SYNTHESIS.md
+diff --git a/docs/SUBMISSION_CAMPAIGN.md b/docs/retired/SUBMISSION_CAMPAIGN.md
+similarity index 100%
+rename from docs/SUBMISSION_CAMPAIGN.md
+rename to docs/retired/SUBMISSION_CAMPAIGN.md
+diff --git a/docs/THE_PATTERN_MEDITATION.md b/docs/retired/THE_PATTERN_MEDITATION.md
+similarity index 100%
+rename from docs/THE_PATTERN_MEDITATION.md
+rename to docs/retired/THE_PATTERN_MEDITATION.md
+diff --git a/docs/THE_PATTERN_MEDITATION_2.md b/docs/retired/THE_PATTERN_MEDITATION_2.md
+similarity index 100%
+rename from docs/THE_PATTERN_MEDITATION_2.md
+rename to docs/retired/THE_PATTERN_MEDITATION_2.md
+diff --git a/docs/THE_ROLES_ACCOUNTING.md b/docs/retired/THE_ROLES_ACCOUNTING.md
+similarity index 100%
+rename from docs/THE_ROLES_ACCOUNTING.md
+rename to docs/retired/THE_ROLES_ACCOUNTING.md
+diff --git a/scripts/checks/check_path_references.py b/scripts/checks/check_path_references.py
+index 3bf3bbb11..c7904e4a7 100644
+--- a/scripts/checks/check_path_references.py
++++ b/scripts/checks/check_path_references.py
+@@ -27,6 +27,12 @@ The other eleven were legitimate and are handled by rule, not by whitelist, wher
+     correct; creating it here would be a forgery.
+   - Paths containing '...' are prose elisions, not paths.
+ 
++  A PAGE THAT WAS MOVED IS WHERE IT WENT (2026-11-12; the owner approved the move of the old front pages, register row
++  P-825).  docs/MOVED.md is the one record of the move: a table of where each page was and where it is.  A citation of
++  an old place is left as it was written, in every page, and is read through that table.  The table is held here too,
++  since every such citation rests on it: each page it names is a tracked file where the table says; every page in
++  docs/retired/ has its row; no old place is taken again by a file; no place stands in it twice.
++
+ Run:  python3 scripts/checks/check_path_references.py        (exit 1 if any unexplained)
+ 
+ Lives under scripts/checks/, NOT scripts/audit/: .gitignore line 11 is a bare `audit/`,
+@@ -77,10 +83,63 @@ EXEMPT_TARGETS = frozenset({
+ })
+ 
+ 
++MOVED_PAGE = "docs/MOVED.md"
++MOVED_FOLDER = "docs/retired/"
++_MOVED_HEAD = re.compile(r"^\|\s*where it was\s*\|", re.I)
++_MOVED_ROW = re.compile(r"^\|\s*`([^`|]+)`\s*\|\s*`([^`|]+)`\s*\|")
++
++
++def moved_pages():
++    """(where each moved page was -> where it is, what is wrong with the table), read from the one page that records the
++    moves.  With no such page and no page in the folder, an empty table and nothing wrong."""
++    listed = subprocess.run(["git", "-C", ROOT, "ls-files"], capture_output=True, text=True, timeout=60)
++    tracked = set(listed.stdout.split("\n")) if listed.returncode == 0 else set()
++    in_folder = sorted(f for f in tracked if f.startswith(MOVED_FOLDER))
++    try:
++        lines = open(os.path.join(ROOT, MOVED_PAGE), encoding="utf-8").read().split("\n") if MOVED_PAGE in tracked else None
++    except OSError:
++        lines = None
++    if lines is None:
++        return {}, (["%d page(s) stand in %s, and %s, the page that says where each was, is not a tracked file that can be read"
++                     % (len(in_folder), MOVED_FOLDER, MOVED_PAGE)] if in_folder else [])
++    heads = [i for i, l in enumerate(lines) if _MOVED_HEAD.match(l)]
++    if len(heads) != 1:
++        return {}, ["%s holds %d tables that begin with the column 'where it was': it holds one" % (MOVED_PAGE, len(heads))]
++    table, problems = {}, []
++    for n, line in enumerate(lines[heads[0] + 1:], heads[0] + 2):
++        if not line.startswith("|"):
++            break                                                  # the table has ended
++        if re.match(r"^\|[\s:|-]+\|\s*$", line):
++            continue                                               # the rule under the header
++        m = _MOVED_ROW.match(line)
++        if not m:
++            problems.append("line %d of %s is a row of the table whose first two cells are not two paths in backticks" % (n, MOVED_PAGE))
++            continue
++        old, new = m.group(1).strip(), m.group(2).strip()
++        if old in table:
++            problems.append("%s stands twice in the table of %s as an old place" % (old, MOVED_PAGE))
++        table[old] = new
++    places = list(table.values())
++    for old, new in table.items():
++        if new not in tracked:
++            problems.append("%s says that %s is at %s, which is not a tracked file" % (MOVED_PAGE, old, new))
++        if old in tracked:
++            problems.append("%s, the old place of a page that was moved, is taken again by a file: a citation of it would name two pages" % old)
++        if new in table:
++            problems.append("%s says that %s is at %s, and that %s was moved on from there: a row says where the page is now" % (MOVED_PAGE, old, new, new))
++        if places.count(new) > 1:
++            problems.append("%s says that two pages are at %s" % (MOVED_PAGE, new))
++    for f in in_folder:
++        if f not in places:
++            problems.append("%s stands in %s and has no row in %s" % (f, MOVED_FOLDER, MOVED_PAGE))
++    return table, sorted(set(problems))
++
++
+ def scan():
+     out = subprocess.run(["git", "-C", ROOT, "ls-files", "*.md"],
+                          capture_output=True, text=True, timeout=60).stdout
+     unexplained, total = [], 0
++    moved = moved_pages()[0]
+     for rel in out.split():
+         if rel.startswith(EXEMPT_CITERS):
+             continue
+@@ -98,13 +157,22 @@ def scan():
+             if os.path.exists(os.path.join(ROOT, target)) or \
+                os.path.exists(os.path.join(citing_dir, target)):
+                 continue
++            # a page that was moved is where it went: the citation is left as it was written, and read through the table
++            if target in moved and os.path.exists(os.path.join(ROOT, moved[target])):
++                continue
+             unexplained.append((rel, target))
+     return total, unexplained
+ 
+ 
+ def main():
+     total, bad = scan()
++    table, wrong = moved_pages()
+     print(f"backticked repo-path citations checked: {total}")
++    print(f"pages that were moved, by {MOVED_PAGE}: {len(table)}")
++    for w in wrong:
++        print(f"  THE TABLE OF MOVED PAGES: {w}")
++    if wrong and not bad:
++        return 1
+     if not bad:
+         print("all resolve (repo-root or citing-file-relative)")
+         return 0
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index d03e23fd9..2c4e2217a 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -590,7 +590,7 @@ ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this ga
+     "tests/test_sl4_dehn_filling_paper.py"}
+ 
+ 
+-def attribution_baseline_rise(anchor=None, repo=None, named=None):
++def attribution_baseline_rise(anchor=None, repo=None, named=None, moved=None):
+     """PV19 (WP-0.7): a file fails this gate when it holds more vendor tokens than the baseline allows it, and the baseline is
+     a tracked file that the commit adding the tokens could raise.  "The footprint can only shrink" is the baseline's own
+     rule; it is now read against the baseline as it was at the anchor.  Returns (problem, note)."""
+@@ -603,6 +603,11 @@ def attribution_baseline_rise(anchor=None, repo=None, named=None):
+         then = json.loads(was.stdout).get("frozen", {}) if was.returncode == 0 else None
+     except Exception:
+         then = None                                                       # unreadable at the anchor: not re-judged
++    if isinstance(then, dict):
++        # a page that was moved keeps its ceiling: its entry at the anchor is read at the place the page is now.  Without this
++        # the move reads as an entry that fell and a new one that rose from nothing (2026-11-12; register row P-825)
++        moved = (moved_pages() if repo is None else {}) if moved is None else moved
++        then = {moved.get(k, k): v for k, v in then.items()}
+     return ceiling_rises("docs/ATTRIBUTION_BASELINE.json", _load_attr_baseline(), then if isinstance(then, dict) else None, anchor[:9], named)
+ 
+ 
+@@ -948,7 +953,25 @@ def gate_path_refs():
+     if bad:
+         pairs = sorted({f"{r} -> {t}" for r, t in bad})
+         return False, f"{len(pairs)} unresolved path citation(s): " + "; ".join(pairs[:5])
+-    return True, f"ok ({total} citations resolve)"
++    # A PAGE THAT WAS MOVED IS WHERE IT WENT (2026-11-12; register row P-825).  A citation of an old place is read through the
++    # table of docs/MOVED.md, so that table is held by this gate: see the checker's note.
++    table, wrong = cpr.moved_pages()
++    if wrong:
++        return False, f"the table of moved pages: {len(wrong)} thing(s) wrong: " + "; ".join(wrong[:4])
++    return True, f"ok ({total} citations resolve" + (f"; {len(table)} pages were moved and are read through {cpr.MOVED_PAGE}" if table else "") + ")"
++
++
++def moved_pages():
++    """where each moved page was -> where it is, from docs/MOVED.md (the path checker reads it); empty where it cannot be read.
++    A TABLE THAT IS KEYED BY A FILE FOLLOWS THE PAGE: a rule that holds a page by its path reads the old path as the new."""
++    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
++    try:
++        import check_path_references as cpr
++        return dict(cpr.moved_pages()[0])
++    except Exception:
++        return {}
++    finally:
++        sys.path.pop(0)
+ 
+ 
+ # NAME = Path(__file__).resolve().parent  |  .parents[k]  |  either followed by / "a" / "b" (a base inside another folder)
+diff --git a/tests/test_a_moved_page_is_where_the_table_says.py b/tests/test_a_moved_page_is_where_the_table_says.py
+new file mode 100644
+index 000000000..8607df447
+--- /dev/null
++++ b/tests/test_a_moved_page_is_where_the_table_says.py
+@@ -0,0 +1,163 @@
++"""A page that was moved is where the table says (the move of the old front pages; the owner approved it to main on
++2026-11-12, register row P-825; built by the advisor seat at main's word, outside its five packages).
++
++Twenty pages that face a first reader were moved into docs/retired/, each a pure rename.  No page that is kept was
++edited but for one row of the front page.  docs/MOVED.md is the one record: where each page was, where it is, what it
++is, and what stands in its place.  A citation of an old place is left as it was written and read through that table,
++so the table is held by the gate that reads it: each page it names is where the table says; every page in the folder
++has its row; no old place is taken again by a file.
++
++Each test makes the situation in a small repository of its own and runs the path checker there."""
++import importlib.util
++import json
++import pathlib
++import subprocess
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++HEAD = "# A page you were sent to is not where it was\n\n| where it was | where it is | what it is | what stands in its place now |\n|---|---|---|---|\n"
++ROW = "| `%s` | `%s` | a plan of an earlier year | nothing: a dated record |\n"
++
++
++def _checker(root):
++    spec = importlib.util.spec_from_file_location("path_checker_for_the_moved_pages", ROOT / "scripts" / "checks" / "check_path_references.py")
++    c = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(c)
++    c.ROOT = str(root)
++    return c
++
++
++def _gates():
++    spec = importlib.util.spec_from_file_location("gates_for_the_moved_pages", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    return g
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _repo(tmp_path, files):
++    """a small repository that tracks `files`"""
++    repo = tmp_path / "repo"
++    for rel, text in files.items():
++        f = repo / rel
++        f.parent.mkdir(parents=True, exist_ok=True)
++        f.write_text(text, encoding="utf-8")
++    _git(repo, "init", "-q")
++    _git(repo, "add", "-A")
++    _git(repo, "commit", "-q", "-m", "a small repository")
++    return repo
++
++
++_MOVED = {"docs/retired/AN_OLD_PLAN.md": "# An old plan\n", "docs/MOVED.md": HEAD + ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md"),
++          "docs/A_PAGE.md": "# A page that is kept\n\nSee `docs/AN_OLD_PLAN.md` for the plan as it was.\n"}
++
++
++def _read(repo):
++    """(the citations that do not resolve, what is wrong with the table), as the checker in `repo` reads them"""
++    c = _checker(repo)
++    total, bad = c.scan()
++    table, wrong = getattr(c, "moved_pages", lambda: ({}, ["the path checker reads no table of moved pages"]))()
++    return bad, wrong
++
++
++def test_a_citation_of_an_old_place_is_read_through_the_table(tmp_path):
++    bad, wrong = _read(_repo(tmp_path / "moved", _MOVED))
++    assert bad == [] and wrong == [], "a kept page cites a moved page by its old place, the table says where it went, and the checker reads: %r %r" % (bad, wrong)
++    # the control: a place that never was is not excused by the table
++    bad, wrong = _read(_repo(tmp_path / "never", dict(_MOVED, **{"docs/B_PAGE.md": "See `docs/A_PLAN_THAT_NEVER_WAS.md`.\n"})))
++    assert [t for _r, t in bad] == ["docs/A_PLAN_THAT_NEVER_WAS.md"] and wrong == [], (bad, wrong)
++    # and with no table and no folder the checker is as it was
++    bad, wrong = _read(_repo(tmp_path / "plain", {"docs/A_PAGE.md": "See `docs/B_PAGE.md`.\n", "docs/B_PAGE.md": "# B\n"}))
++    assert bad == [] and wrong == [], (bad, wrong)
++
++
++def test_a_row_whose_page_is_not_where_it_says_fails_the_gate(tmp_path):
++    files = dict(_MOVED, **{"docs/MOVED.md": HEAD + ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md") + ROW % ("docs/A_SECOND.md", "docs/retired/A_SECOND.md")})
++    bad, wrong = _read(_repo(tmp_path, files))
++    assert any("docs/retired/A_SECOND.md" in w and "not a tracked file" in w for w in wrong), wrong
++
++
++def test_a_page_in_the_folder_with_no_row_fails_the_gate(tmp_path):
++    bad, wrong = _read(_repo(tmp_path / "a", dict(_MOVED, **{"docs/retired/NO_ROW.md": "# moved, and written nowhere\n"})))
++    assert any("docs/retired/NO_ROW.md" in w and "no row" in w for w in wrong), wrong
++    # a folder of moved pages with no page that says where each was
++    files = {k: v for k, v in _MOVED.items() if k != "docs/MOVED.md" and k != "docs/A_PAGE.md"}
++    bad, wrong = _read(_repo(tmp_path / "b", files))
++    assert wrong and "docs/MOVED.md" in wrong[0], wrong
++
++
++def test_an_old_place_taken_again_by_a_file_fails_the_gate(tmp_path):
++    bad, wrong = _read(_repo(tmp_path, dict(_MOVED, **{"docs/AN_OLD_PLAN.md": "# A new page at the old place\n"})))
++    assert any("docs/AN_OLD_PLAN.md" in w and "taken again" in w for w in wrong), wrong
++
++
++def test_a_row_that_cannot_be_read_is_not_passed_over(tmp_path):
++    rows = {"a row with no backticks": "| docs/AN_OLD_PLAN.md | docs/retired/AN_OLD_PLAN.md | a plan | nothing |\n",
++            "a place twice on the left": ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md") * 2,
++            "two pages at one place": ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md") + ROW % ("docs/ANOTHER.md", "docs/retired/AN_OLD_PLAN.md"),
++            "a page moved on from where a row says another is": ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md") + ROW % ("docs/FIRST.md", "docs/AN_OLD_PLAN.md"),
++            "two tables": ROW % ("docs/AN_OLD_PLAN.md", "docs/retired/AN_OLD_PLAN.md") + "\n" + HEAD.split("\n\n", 1)[1]}
++    for n, (what, body) in enumerate(rows.items()):
++        bad, wrong = _read(_repo(tmp_path / str(n), dict(_MOVED, **{"docs/MOVED.md": HEAD + body})))
++        assert wrong and "reads no table" not in wrong[0], "%s, and the checker finds nothing wrong with the table: %r" % (what, wrong)
++
++
++def test_the_gate_fails_on_a_table_that_is_wrong(monkeypatch):
++    g = _gates()
++    assert g.GATES["path-refs"]()[0] is True
++    import check_path_references as cpr
++    table = cpr.moved_pages()[0] if hasattr(cpr, "moved_pages") else {}
++    monkeypatch.setattr(cpr, "moved_pages", lambda: (table, ["docs/retired/X.md stands in docs/retired/ and has no row in docs/MOVED.md"]), raising=False)
++    ok, detail = g.GATES["path-refs"]()
++    assert ok is False and "has no row" in detail, "the table of moved pages is wrong, and the gate on path citations reads: " + str(detail)
++    # and with the table taken away, every citation of an old place is unresolved again: the table is what they rest on
++    monkeypatch.setattr(cpr, "moved_pages", lambda: ({}, []), raising=False)
++    ok, detail = g.GATES["path-refs"]()
++    assert ok is False and "unresolved path citation" in detail, detail
++
++
++def test_a_moved_pages_ceiling_follows_it(tmp_path):
++    """the attribution baseline holds a ceiling for each file by its path.  A page at a new place is a new entry to the rule
++    that no ceiling rises without a recorded act; the table is the record, and the ceiling is read where the page is"""
++    g = _gates()
++    frozen = lambda counts: json.dumps({"_note": "a ratchet", "frozen": counts}) + "\n"
++    repo = _repo(tmp_path, {"docs/ATTRIBUTION_BASELINE.json": frozen({"docs/a.md": 2})})
++    anchor = _git(repo, "rev-parse", "HEAD")
++    load_small = lambda: json.loads((repo / "docs" / "ATTRIBUTION_BASELINE.json").read_text())["frozen"]
++    real = g._load_attr_baseline
++    g._load_attr_baseline = load_small
++    try:
++        (repo / "docs" / "ATTRIBUTION_BASELINE.json").write_text(frozen({"docs/retired/a.md": 2}))
++        moved = {"docs/a.md": "docs/retired/a.md"}
++        rise = lambda **kw: g.attribution_baseline_rise(anchor, repo, **kw)
++        assert "docs/retired/a.md 0 -> 2" in rise()[0]                                   # with no table, a rise from nothing
++        try:
++            followed = rise(moved=moved)
++        except TypeError:
++            followed = ("the rule of the ceiling does not read the table of moved pages", "")
++        assert followed == (None, ""), "a page was moved with its ceiling, and the rule reads: %r" % (followed,)
++        (repo / "docs" / "ATTRIBUTION_BASELINE.json").write_text(frozen({"docs/retired/a.md": 3}))
++        assert "docs/retired/a.md 2 -> 3" in rise(moved=moved)[0]                        # moved, and raised: still a rise
++    finally:
++        g._load_attr_baseline = real
++
++
++def test_on_this_repository_the_twenty_pages_are_where_the_table_says_and_no_byte_of_them_changed():
++    c = _checker(ROOT)
++    table, wrong = c.moved_pages()
++    assert wrong == [] and len(table) == 20, (len(table), wrong)
++    assert all(new == "docs/retired/" + old.rsplit("/", 1)[-1] for old, new in table.items())
++    # the commit that made the move: each page is, byte for byte, what stood at its old place in the commit before
++    move = _git(ROOT, "log", "--diff-filter=A", "--format=%H", "--", "docs/MOVED.md").split()[-1]
++    for old, new in table.items():
++        assert _git(ROOT, "rev-parse", "%s^:%s" % (move, old)) == _git(ROOT, "rev-parse", "%s:%s" % (move, new)), old
++    # one row of the front page leads to the record, and the gate says how many pages it reads through it
++    assert "(docs/MOVED.md)" in (ROOT / "README.md").read_text(encoding="utf-8")
++    g = _gates()
++    ok, detail = g.GATES["path-refs"]()
++    assert ok is True and "20 pages were moved and are read through docs/MOVED.md" in detail, detail
++    assert g.attribution_baseline_rise() == (None, "")
+-- 
+2.43.0
+

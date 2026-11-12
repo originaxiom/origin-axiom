@@ -1,0 +1,14 @@
+planted-violation suite at refs/wp07/mv-eval (4b3809afc)
+
+the 20 gates the cases name, on the clean clone: RED BEFORE ANY PLANT: review-fires
+
+PV38  new  CAUGHT        a row in the page of moved pages whose page is not where the row says, commit
+      path-refs=FAIL
+
+PV38  twin PASSES       the same row, with the page where the row says
+      path-refs=PASS
+
+
+controls not reported CAUGHT: 0
+twins that do not pass: 0
+NOT CAUGHT: 0

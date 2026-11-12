@@ -1,0 +1,14 @@
+planted-violation suite at 5c7abd72a (5c7abd72a)
+
+the 20 gates the cases name, on the clean clone: all pass
+
+PV38  new  CAUGHT        a row in the page of moved pages whose page is not where the row says, commit
+      path-refs=FAIL
+
+PV38  twin FAILS        the same row, with the page where the row says
+      path-refs=FAIL: 1 unresolved path citation(s): docs/MOVED.md -> docs/A_PLANTED_OLD_PLAN.md
+
+
+controls not reported CAUGHT: 0
+twins that do not pass: 1  -- THE CASE OF EACH SUCH TWIN IS NOT TO BE READ
+NOT CAUGHT: 0

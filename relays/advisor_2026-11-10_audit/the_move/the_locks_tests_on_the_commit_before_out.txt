@@ -1,0 +1,20 @@
+==== the move: 905c5e975 -- THE MOVE OF TWENTY OLD FRONT PAGES INTO ONE FOLDER, WITH ONE PAGE THAT SAYS WHERE EACH WENT
+     its lock, on the commit before (186d2f3d6): main's 5c7abd72a with the ten patches of series 4
+
+     E   AssertionError: a kept page cites a moved page by its old place, the table says where it went, and the checker reads: [('docs/A_PAGE.md', 'docs/AN_OLD_PLAN.md'), ('docs/MOVED.md', 'docs/AN_OLD_PLAN.md')] ['the path checker reads no table of moved pages']
+     E   AssertionError: ['the path checker reads no table of moved pages']
+     E   AssertionError: ['the path checker reads no table of moved pages']
+     E   AssertionError: ['the path checker reads no table of moved pages']
+     E   AssertionError: a row with no backticks, and the checker finds nothing wrong with the table: ['the path checker reads no table of moved pages']
+     E   AssertionError: the table of moved pages is wrong, and the gate on path citations reads: ok (6588 citations resolve)
+     E   AssertionError: a page was moved with its ceiling, and the rule reads: ('the rule of the ceiling does not read the table of moved pages', '')
+     E   AttributeError: module 'path_checker_for_the_moved_pages' has no attribute 'moved_pages'
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_a_citation_of_an_old_place_is_read_through_the_table
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_a_row_whose_page_is_not_where_it_says_fails_the_gate
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_a_page_in_the_folder_with_no_row_fails_the_gate
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_an_old_place_taken_again_by_a_file_fails_the_gate
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_a_row_that_cannot_be_read_is_not_passed_over
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_the_gate_fails_on_a_table_that_is_wrong
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_a_moved_pages_ceiling_follows_it
+     FAILED tests/test_a_moved_page_is_where_the_table_says.py::test_on_this_repository_the_twenty_pages_are_where_the_table_says_and_no_byte_of_them_changed
+     8 failed in 2.69s

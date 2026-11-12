@@ -1,0 +1,43 @@
+the head read: 5c7abd72a
+of the twenty, tracked at this head: 20
+tracked files that are not pages, each read as text: 10367
+
+AUDIT_REPORT.md                                  1 data
+docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md   2 data
+docs/SESSION3_SYNTHESIS.md                       named by no file that is not a page
+docs/RECOGNITION.md                              1 data
+docs/AUDIT_2026-07-05.md                         4 data
+docs/CLOSURE_2026-07-11.md                       6 data
+docs/CODEX_AUDIT_RESPONSE_2026-07-12.md          named by no file that is not a page
+docs/CRYSTALLIZATION_2026-07-09.md               named by no file that is not a page
+docs/REBASE_2026-07-12.md                        1 data
+docs/CLOSURE_PROGRAM.md                          1 data
+docs/PHASE1_WRAP.md                              named by no file that is not a page
+docs/COMMS_PROTOCOL.md                           2 data
+docs/ROADMAP_TOE.md                              1 a script, 3 data
+      a script: scripts/checks/doc_currency.py
+docs/THE_PATTERN_MEDITATION.md                   1 data
+docs/PARAMETER_CLOSURE_MASTERPLAN.md             named by no file that is not a page
+docs/PUBLICATION_CAMPAIGN.md                     named by no file that is not a page
+docs/THE_PATTERN_MEDITATION_2.md                 3 data
+docs/CLOSURE_2026-07-05.md                       2 data
+docs/THE_ROLES_ACCOUNTING.md                     named by no file that is not a page
+docs/SUBMISSION_CAMPAIGN.md                      named by no file that is not a page
+
+tests that name one of the twenty: 0
+scripts that name one of the twenty: 1 ['scripts/checks/doc_currency.py']
+files of data that name one of the twenty: 14
+      docs/ATTRIBUTION_BASELINE.json
+      frontier/B1241_master_identification_priced_and_phase_e_harvest/arc_verdict.json
+      frontier/B1241_master_identification_priced_and_phase_e_harvest/verification/fc_phase_e_rows_verified.tsv
+      frontier/B1412_the_relay_backlog/verification/batch_08.out.tsv
+      frontier/B1412_the_relay_backlog/verification/batch_09.out.tsv
+      frontier/B1833_the_brainstorms_reread/verification/verify_forgotten_after_rows.json
+      frontier/B1833_the_brainstorms_reread/verification/verify_forgotten_before_rows.json
+      frontier/B399_wall_scale/triple_cubic.json
+      frontier/B571_day0_internalization/BURIED_ITEMS.json
+      frontier/B742_negatives_hunt_p1/stageA/batch_dead_12.json
+      frontier/B770_closure_census/census.json
+      frontier/B984_banking_protocol/arc_verdict.json
+      frontier/B988_review_currency/arc_verdict.json
+      legacy/reports/MANIFEST.json
