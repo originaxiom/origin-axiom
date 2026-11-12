@@ -1,0 +1,45 @@
+{
+ "versions": {
+  "v1.64": "8f0b03814",
+  "v1.65": "9ace774f4",
+  "v1.66": "896cae025"
+ },
+ "v1.64": {
+  "tables": 9,
+  "status_rows": 19,
+  "identifier_rows": 29
+ },
+ "v1.65": {
+  "tables": 10,
+  "status_rows": 21,
+  "identifier_rows": 32
+ },
+ "v1.66": {
+  "tables": 10,
+  "status_rows": 21,
+  "identifier_rows": 32
+ },
+ "v1.64->v1.65": {
+  "status_rows_gone": [],
+  "status_rows_new": [
+   "ID | Item | Status | Evidence :: SE3 **[v1.65]**",
+   "ID | Item | What it is, and what would settle it | Status :: PF5 **[v1.65]**"
+  ],
+  "status_changed": [],
+  "identifier_status_changed": [],
+  "identifiers_gone": [],
+  "identifiers_new": [
+   "FK16",
+   "PF5",
+   "SE3"
+  ]
+ },
+ "v1.65->v1.66": {
+  "status_rows_gone": [],
+  "status_rows_new": [],
+  "status_changed": [],
+  "identifier_status_changed": [],
+  "identifiers_gone": [],
+  "identifiers_new": []
+ }
+}

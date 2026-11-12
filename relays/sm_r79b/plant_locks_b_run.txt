@@ -1,0 +1,146 @@
+E13   findings_count_reverted                CAUGHT   expected CAUGHT
+E13   dated_bracket_removed                  CAUGHT   expected CAUGHT
+E13   old_count_not_kept                     CAUGHT   expected CAUGHT
+E13   count_split_at_branch_cut              CAUGHT   expected CAUGHT
+E13   wrong_half_in_the_weil_matrix          MISSED   expected CAUGHT
+E13   multiplicity_list_wrong_in_findings    CAUGHT   expected CAUGHT
+E13   bound_misstated_in_findings            CAUGHT   expected CAUGHT
+E13   old_count_in_verdict_line              CAUGHT   expected CAUGHT
+E13   old_count_on_another_page              CAUGHT   expected CAUGHT
+E6    hand_condition_back_respelt            CAUGHT   expected CAUGHT
+E6    kernel_hard_coded                      CAUGHT   expected CAUGHT
+E6    exponents_swapped                      CAUGHT   expected CAUGHT
+E6    grid_half_scanned                      CAUGHT   expected CAUGHT
+E6    dated_note_removed                     CAUGHT   expected CAUGHT
+E6    results_file_stale                     CAUGHT   expected CAUGHT
+E10   argument_ignored_again                 CAUGHT   expected CAUGHT
+E10   verdict_field_wrong                    CAUGHT   expected CAUGHT
+E10   verdict_file_of_another_arc            CAUGHT   expected CAUGHT
+E10   claim_line_dropped                     CAUGHT   expected CAUGHT
+E10   status_hard_coded                      CAUGHT   expected CAUGHT
+E10   verdict_hard_coded                     CAUGHT   expected CAUGHT
+E10   unknown_arc_prints_corpus              CAUGHT   expected CAUGHT
+E5    wall_gets_a_real_part                  CAUGHT   expected CAUGHT
+E5    one_wall_shifted                       CAUGHT   expected CAUGHT
+E5    a_check_false_run_text_unchanged       CAUGHT   expected CAUGHT
+E5    class_pattern_changed                  CAUGHT   expected CAUGHT
+E5    findings_correction_removed            CAUGHT   expected CAUGHT
+E5    b874_note_removed                      CAUGHT   expected CAUGHT
+E5    skeleton_narrowed                      CAUGHT   expected CAUGHT
+E5    faulty_script_silently_fixed           CAUGHT   expected CAUGHT
+E5    old_sentence_on_another_page           MISSED   expected MISSED
+E5    instrument_broken_fast_lane            MISSED   expected MISSED  (slow lane: CAUGHT)
+E3    old_form_on_a_new_page                 CAUGHT   expected CAUGHT
+E3    old_form_paraphrased                   CAUGHT   expected CAUGHT
+E3    old_form_broken_across_a_line          CAUGHT   expected CAUGHT
+E3    spoof_marker_beside_it                 CAUGHT   expected CAUGHT
+E3    old_form_in_a_text_file                CAUGHT   expected CAUGHT
+E3    old_form_in_an_excluded_folder         MISSED   expected MISSED
+E3    correction_too_far_away                CAUGHT   expected CAUGHT
+E3    parity_split_miscounts                 CAUGHT   expected CAUGHT
+E3    findings_counts_removed                CAUGHT   expected CAUGHT
+E3    verdict_line_unmarked                  CAUGHT   expected CAUGHT
+E3    tau_page_note_removed                  CAUGHT   expected CAUGHT
+E3    b1855_note_removed                     CAUGHT   expected CAUGHT
+E13   old_count_in_words                     MISSED   expected MISSED
+E13   old_count_beside_an_unrelated_bound    MISSED   expected MISSED
+E13   old_count_in_a_paper                   MISSED   expected MISSED
+E6    findings_kernel_misstated              MISSED   expected MISSED
+E6    verdict_line_kernel_misstated          MISSED   expected MISSED
+E10   claim_line_truncated                   CAUGHT   expected CAUGHT
+E5    old_sentence_exact_on_a_new_page       CAUGHT   expected CAUGHT
+E5    old_sentence_exact_across_a_line       CAUGHT   expected CAUGHT
+E5    old_sentence_reworded                  MISSED   expected MISSED
+E5    old_sentence_citing_the_instrument     MISSED   expected MISSED
+E5    old_sentence_in_a_paper                MISSED   expected MISSED
+B1884 old_form_exact                         CAUGHT   expected CAUGHT
+B1884 old_form_ascii                         CAUGHT   expected CAUGHT
+B1884 old_form_short                         MISSED   expected MISSED
+B1884 old_form_reordered                     MISSED   expected MISSED
+B1884 old_form_z_mod_nz                      MISSED   expected MISSED
+B1884 old_form_with_the_marker_phrase        MISSED   expected MISSED
+B1884 old_form_in_a_paper                    MISSED   expected MISSED
+E3    spoof_with_a_split_word                MISSED   expected MISSED
+E3    old_form_other_words                   MISSED   expected MISSED
+E3    old_form_in_a_script_header            MISSED   expected MISSED
+E3    old_form_in_a_paper                    MISSED   expected MISSED
+E3    old_form_in_the_progress_log           MISSED   expected MISSED
+{
+ "E13": {
+  "planted": 12,
+  "caught": 8,
+  "missed": [
+   "wrong_half_in_the_weil_matrix",
+   "old_count_in_words",
+   "old_count_beside_an_unrelated_bound",
+   "old_count_in_a_paper"
+  ],
+  "as_before_planted": 9,
+  "as_before_caught": 8,
+  "not_as_expected": [
+   "wrong_half_in_the_weil_matrix"
+  ]
+ },
+ "E6": {
+  "planted": 8,
+  "caught": 6,
+  "missed": [
+   "findings_kernel_misstated",
+   "verdict_line_kernel_misstated"
+  ],
+  "as_before_planted": 6,
+  "as_before_caught": 6,
+  "not_as_expected": []
+ },
+ "E10": {
+  "planted": 8,
+  "caught": 8,
+  "missed": [],
+  "as_before_planted": 7,
+  "as_before_caught": 7,
+  "not_as_expected": []
+ },
+ "E3": {
+  "planted": 17,
+  "caught": 11,
+  "missed": [
+   "old_form_in_an_excluded_folder",
+   "spoof_with_a_split_word",
+   "old_form_other_words",
+   "old_form_in_a_script_header",
+   "old_form_in_a_paper",
+   "old_form_in_the_progress_log"
+  ],
+  "as_before_planted": 12,
+  "as_before_caught": 11,
+  "not_as_expected": []
+ },
+ "E5": {
+  "planted": 15,
+  "caught": 10,
+  "missed": [
+   "old_sentence_on_another_page",
+   "instrument_broken_fast_lane",
+   "old_sentence_reworded",
+   "old_sentence_citing_the_instrument",
+   "old_sentence_in_a_paper"
+  ],
+  "as_before_planted": 10,
+  "as_before_caught": 8,
+  "not_as_expected": []
+ },
+ "B1884": {
+  "planted": 7,
+  "caught": 2,
+  "missed": [
+   "old_form_short",
+   "old_form_reordered",
+   "old_form_z_mod_nz",
+   "old_form_with_the_marker_phrase",
+   "old_form_in_a_paper"
+  ],
+  "as_before_planted": 0,
+  "as_before_caught": 0,
+  "not_as_expected": []
+ }
+}

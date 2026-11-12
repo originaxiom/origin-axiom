@@ -1,0 +1,268 @@
+{
+ "main": "896cae025",
+ "cells": {
+  "N1 wf|seat": {
+   "bottom_exact": "3/50",
+   "bottom_half_up": "0.06",
+   "bottom_half_even": "0.06",
+   "bottom_ratio_best_0.1%": 0.06,
+   "top_ratio_best_0.1%": 1.635,
+   "top_ratio_best_1%": 1.455,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     5925,
+     6098
+    ],
+    "best 1%": [
+     1049,
+     1260
+    ],
+    "best 0.1%": [
+     111,
+     135
+    ],
+    "best 0.01%": [
+     17,
+     10
+    ]
+   },
+   "top_layer_1_all": 205881
+  },
+  "N1 wf|cov": {
+   "bottom_exact": "9/50",
+   "bottom_half_up": "0.18",
+   "bottom_half_even": "0.18",
+   "bottom_ratio_best_0.1%": 0.18,
+   "top_ratio_best_0.1%": 1.95,
+   "top_ratio_best_1%": 1.5495,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     6268,
+     6553
+    ],
+    "best 1%": [
+     1079,
+     1282
+    ],
+    "best 0.1%": [
+     130,
+     123
+    ],
+    "best 0.01%": [
+     18,
+     9
+    ]
+   },
+   "top_layer_1_all": 258886
+  },
+  "N1 wf|free": {
+   "bottom_exact": "9/200",
+   "bottom_half_up": "0.05",
+   "bottom_half_even": "0.04",
+   "bottom_ratio_best_0.1%": 0.045,
+   "top_ratio_best_0.1%": 1.92,
+   "top_ratio_best_1%": 1.6305,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     5977,
+     6265
+    ],
+    "best 1%": [
+     1131,
+     1328
+    ],
+    "best 0.1%": [
+     129,
+     147
+    ],
+    "best 0.01%": [
+     10,
+     14
+    ]
+   },
+   "top_layer_1_all": 221819
+  },
+  "N2 chi2|seat": {
+   "bottom_exact": "669/8000",
+   "bottom_half_up": "0.08",
+   "bottom_half_even": "0.08",
+   "bottom_ratio_best_0.1%": 0.083625,
+   "top_ratio_best_0.1%": 1.9921,
+   "top_ratio_best_1%": 1.9014,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     8305,
+     9497
+    ],
+    "best 1%": [
+     1535,
+     2053
+    ],
+    "best 0.1%": [
+     144,
+     208
+    ],
+    "best 0.01%": [
+     17,
+     18
+    ]
+   },
+   "top_layer_1_all": 252397
+  },
+  "N2 chi2|cov": {
+   "bottom_exact": "223/4000",
+   "bottom_half_up": "0.06",
+   "bottom_half_even": "0.06",
+   "bottom_ratio_best_0.1%": 0.05575,
+   "top_ratio_best_0.1%": 2.0813,
+   "top_ratio_best_1%": 2.3014,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     9503,
+     10270
+    ],
+    "best 1%": [
+     1722,
+     2015
+    ],
+    "best 0.1%": [
+     148,
+     198
+    ],
+    "best 0.01%": [
+     16,
+     15
+    ]
+   },
+   "top_layer_1_all": 329553
+  },
+  "N2 chi2|free": {
+   "bottom_exact": "1561/16000",
+   "bottom_half_up": "0.10",
+   "bottom_half_even": "0.10",
+   "bottom_ratio_best_0.1%": 0.0975625,
+   "top_ratio_best_0.1%": 2.1259,
+   "top_ratio_best_1%": 2.12,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     8038,
+     9344
+    ],
+    "best 1%": [
+     1587,
+     1990
+    ],
+    "best 0.1%": [
+     149,
+     206
+    ],
+    "best 0.01%": [
+     16,
+     21
+    ]
+   },
+   "top_layer_1_all": 253443
+  },
+  "N2 wf|seat": {
+   "bottom_exact": "669/8000",
+   "bottom_half_up": "0.08",
+   "bottom_half_even": "0.08",
+   "bottom_ratio_best_0.1%": 0.083625,
+   "top_ratio_best_0.1%": 1.9624,
+   "top_ratio_best_1%": 1.8881,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     7737,
+     9143
+    ],
+    "best 1%": [
+     1461,
+     1963
+    ],
+    "best 0.1%": [
+     138,
+     205
+    ],
+    "best 0.01%": [
+     16,
+     21
+    ]
+   },
+   "top_layer_1_all": 176350
+  },
+  "N2 wf|cov": {
+   "bottom_exact": "1561/16000",
+   "bottom_half_up": "0.10",
+   "bottom_half_even": "0.10",
+   "bottom_ratio_best_0.1%": 0.0975625,
+   "top_ratio_best_0.1%": 2.3638,
+   "top_ratio_best_1%": 2.2568,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     9032,
+     10077
+    ],
+    "best 1%": [
+     1660,
+     1942
+    ],
+    "best 0.1%": [
+     162,
+     187
+    ],
+    "best 0.01%": [
+     17,
+     18
+    ]
+   },
+   "top_layer_1_all": 294638
+  },
+  "N2 wf|free": {
+   "bottom_exact": "669/8000",
+   "bottom_half_up": "0.08",
+   "bottom_half_even": "0.08",
+   "bottom_ratio_best_0.1%": 0.083625,
+   "top_ratio_best_0.1%": 2.3638,
+   "top_ratio_best_1%": 2.004,
+   "top_layer_1_vs_2": {
+    "best 5%": [
+     7710,
+     9363
+    ],
+    "best 1%": [
+     1488,
+     1947
+    ],
+    "best 0.1%": [
+     164,
+     206
+    ],
+    "best 0.01%": [
+     15,
+     20
+    ]
+   },
+   "top_layer_1_all": 177505
+  }
+ },
+ "checks": {
+  "B1726 bottom end 0.06 is the seat's menu": true,
+  "B1726 covariant bottom end 0.18 (half up)": true,
+  "B1726 free bottom end 0.04 (half up, the rounding of B1882's page and lock)": false,
+  "B1726 free bottom end 0.04 (half even)": true,
+  "B1726 205,881 in the top layer, all targets, seat's menu": true,
+  "B1726 5,925 of them in the best 5%": true,
+  "B1726 below its neighbour at 5%, 1%, 0.1%, seat's menu": true,
+  "B1726 not at 0.01%: 17 against 10": true,
+  "B1726 covariant above at 0.1%: 130 against 123": true,
+  "B1726 1.64 and 1.46, seat's menu": true,
+  "B1726 '1.5 to 2' under the covariant and free menus": true,
+  "B1753 bottom end 0.08 under the seat's menu": true,
+  "B1753 over the six cells 0.06 to 0.10": true,
+  "B1753 below its neighbour under every menu at 5%, 1%, 0.1%": true,
+  "B1753 at 0.01%, seat's menu: 17 against 18 and 16 against 21": true,
+  "B1753 at 0.01%, chi2 covariant: 16 against 15": true,
+  "B1753 1.99, 1.96 at 0.1% and 1.90, 1.89 at 1%, seat's menu": true,
+  "B1753 '2.0 to 2.4' under the covariant and free menus": true
+ }
+}

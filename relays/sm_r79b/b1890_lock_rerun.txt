@@ -1,0 +1,41 @@
+SM-R79b: B1890's lock (tests/test_gates_are_a_function_of_the_commit.py) run once in a clone of main at 896cae025.
+The clone is shallow, because this session's own checkout is: the two tests that need a full history refuse, as they are built to.
+Command: python3 -m pytest -q -p no:cacheprovider tests/test_gates_are_a_function_of_the_commit.py
+
+........FF....                                                           [100%]
+=================================== FAILURES ===================================
+______ test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted _______
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fa70ec62e90>
+
+    def test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted(monkeypatch):
+        g = _gates()
+        # the rule's first commit is moved only by a recorded act: whoever moves it changes this line too, and says why
+        assert g.COMMIT_DAY_FROM == "ea41e6fc96012acfe5ec91478eadd7c5cfe95cbe"
+        assert g.commit_day_problems() == [], "on this clone time has not run backwards since the rule's first commit"
+        monkeypatch.setattr(g, "commit_day_problems", lambda *a, **k: ["abc123def is dated 2026-10-01, before its parent"], raising=False)
+        for name in DATED:
+            ok, detail = g.GATES[name]()
+>           assert ok is False and "before its parent" in str(detail), (name, ok, detail)
+E           AssertionError: ('lead-debt', False, 'refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again')
+E           assert (False is False and 'before its parent' in 'refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again')
+E            +  where 'refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again' = str('refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again')
+
+tests/test_gates_are_a_function_of_the_commit.py:231: AssertionError
+______________________ test_in_a_clone_no_gate_is_refused ______________________
+
+    def test_in_a_clone_no_gate_is_refused():
+        g = _gates()
+>       assert g.checkout_state() == "full", "this lock is run in a clone"
+E       AssertionError: this lock is run in a clone
+E       assert 'shallow' == 'full'
+E         
+E         - full
+E         + shallow
+
+tests/test_gates_are_a_function_of_the_commit.py:236: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_in_a_clone_no_gate_is_refused
+2 failed, 12 passed in 18.44s
+rc=1

@@ -1,0 +1,150 @@
+{
+ "quotations": 20,
+ "found": 20,
+ "rows": [
+  {
+   "finding": "R79b-SM-01",
+   "commit": "896cae025",
+   "file": "GENESIS.md",
+   "quote": "the option he chose stood here in quotation marks; it is given in plain words under his ruling of the same day that his messages are private (P-796)",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-01",
+   "commit": "896cae025",
+   "file": "frontier/B1891_the_foundation_at_version_1_66/FINDINGS.md",
+   "quote": "How many others stand in the file was not counted.",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-02",
+   "commit": "896cae025",
+   "file": "frontier/B1889_the_seats_digested/FINDINGS.md",
+   "quote": "Fourteen of its rows carry a refutation, a decline or a correction by main.",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-02",
+   "commit": "896cae025",
+   "file": "frontier/B1889_the_seats_digested/FINDINGS.md",
+   "quote": "| recomputed by main | parts of ten rows, on the mathematics that uses no value |",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-03",
+   "commit": "896cae025",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md",
+   "quote": "\"LR fixes a point only at N = 5\" stood unscoped in five places",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-03",
+   "commit": "896cae025",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+   "quote": "that LR fixes a point only at N = 5, stood unscoped in five places",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-03",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "(r\"(?:fixes a point of|fixed points on) P[¹^1]{1,2}\\((?:ℤ|Z)/N\\) only at N = 5\", r\"exactly one point at N = 5\", \"B1884\"),",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-04",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "(r\"no real nullity-14 point exists there\", r\"the audit's finding E5|refinement never ran|walls_on_the_line\", \"E5\"),",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-04",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "an unrelated \"E = +I\" within 900 characters counted as the correction -> the correction must name the split, not the sign alone;",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-05",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "(r\"21 distinct eigenvalues\", r\"\\b20 distinct|at most 20|\\(20; B1862\\)|where 20 is the most possible|corrected 2026-11-10 \\(B1862\", \"E13\"),",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-06",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "ROOT_PAGES = (\"README.md\", \"ROADMAP.md\", \"GENESIS.md\", \"CLAIMS.md\", \"GOVERNANCE.md\", \"TERMINOLOGY.md\", \"WORKING_RULES.md\", \"CHANGELOG.md\")",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-06",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "if not rel.endswith((\".md\", \".json\", \".tex\", \".txt\")) or any(x in rel for x in NOT_READ):",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-06",
+   "commit": "896cae025",
+   "file": "tests/test_b892_walls_on_the_line.py",
+   "quote": "SKELETON.md",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-07",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "assert \"Z6\" in res[\"global_form\"]",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-07",
+   "commit": "896cae025",
+   "file": "frontier/B862_global_form/FINDINGS.md",
+   "quote": "**exactly ℤ₆**",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-08",
+   "commit": "896cae025",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "quote": "_SPLIT = r\"(?:only|E\\s*[=≡]\\s*[-−]\\s*[I1]\\b|parity)\"",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-09",
+   "commit": "6a9e86148",
+   "file": "relays/REVIEW_79_SM.md",
+   "quote": "| E13 | B1862 test_e13 | 9 | 4 | see below |",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-09",
+   "commit": "6a9e86148",
+   "file": "relays/REVIEW_79_SM.md",
+   "quote": "- **Missed (5):** - a wrong multiplicity list in the findings",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-10",
+   "commit": "896cae025",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/arc_verdict.json",
+   "quote": "data-free; 30 digits; 31 checks",
+   "found": true
+  },
+  {
+   "finding": "R79b-SM-11",
+   "commit": "896cae025",
+   "file": "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/other_checks_run.txt",
+   "quote": "14 passed in 118.54s",
+   "found": true
+  }
+ ],
+ "control": {
+  "altered_quote": "the option he chose stood here in quotation marks; it is given in plain words under his ruling of the same day that his messages are private (P-796X",
+  "reported_missing": true
+ }
+}
