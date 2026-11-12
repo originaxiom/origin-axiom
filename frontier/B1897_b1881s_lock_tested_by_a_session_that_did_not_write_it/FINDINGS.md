@@ -13,7 +13,10 @@ computed and no measured number is read. 0 of 19.*
   sentence or number in place and defeat what holds it.
 - **Main's own count for the same lock had been 18 of 18.** A lock tested only by its author is tested against what
   its author thought of.
-- **All six are real, and all six are closed.** The lock has four more tests. Main made the six again from the
+- **All six are real, and all six are closed.** The lock has four more tests. [CORRECTED 2026-11-12 (Review 80; a
+  reader's finding, checked by main): five more. Four hold the six. The fifth, which tests the weaker comparison of
+  § 3 where it is not run, came with the change made before this arc's push (`644d5b40f`); the lock then had fifteen
+  tests, and this sentence was not changed with it.] Main made the six again from the
   reader's descriptions, and with the eighteen of B1895 the lock now catches 24 of 24, the control passing.
 - **One of the six cannot be closed in general,** and the lock says so: a sentence that restates a withdrawn claim in
   new words. What is held is the word, where it stands and how often.

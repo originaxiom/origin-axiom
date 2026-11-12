@@ -2,7 +2,8 @@
 """B1897 -- B1881's lock, planted against a second time.
 
 A session that did not write the lock planted 23 errors against it as it stood after B1895 (main's 3c5ab6bef).  Seventeen were
-caught and six passed.  The lock has four more tests now.  Here the six are made again by main from the session's descriptions
+caught and six passed.  The lock has four more tests now.  [CORRECTED 2026-11-12 (Review 80): five more; the fifth tests the weaker
+comparison and came before this arc's push, 644d5b40f.]  Here the six are made again by main from the session's descriptions
 of them, since main does not run that session's code, together with the eighteen reversions of B1895, each in a scratch copy
 of the arc, and the lock is run on the copy.  The first entry plants nothing and must pass.  Nothing in the repository is
 changed: the copy is made in a temporary folder and removed.

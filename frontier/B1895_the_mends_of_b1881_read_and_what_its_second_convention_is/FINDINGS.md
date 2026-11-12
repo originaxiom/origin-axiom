@@ -127,6 +127,9 @@ against the new lock.
 - **The reader's planted errors were not run against the new lock.** [ADDED 2026-11-12, the same day: the reader ran
   them. 17 of its 23 were caught and six passed, where main's own eighteen had all been caught. The six are closed in
   B1897, and the lock has fourteen tests now.]
+  [CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main): fifteen. By git the lock had 5, 5, 10, 14
+  and 15 tests at the five commits of its history. The fifteenth, which tests the weaker comparison where it is not
+  run, came with the change made before B1897's push (`644d5b40f`), and this note was not changed with it.]
 - **Whether the allowed set is closed under reversal for a mark that does not annihilate its own line** is not
   computed. B1881's statement is about its own mark.
 - **The second least reading over every sequence** is not shown (§ 4).

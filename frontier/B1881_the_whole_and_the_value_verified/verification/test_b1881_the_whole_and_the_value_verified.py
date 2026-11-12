@@ -12,7 +12,8 @@ three counts of run sequences by a second method;
 the short-gap figure in exact arithmetic; and that each correction stands in the paragraph of the sentence it corrects.
 
 ADDED 2026-11-12, a second time, after the same session planted 23 errors against the lock as it then stood: 17 were caught and
-six passed.  The four tests at the end hold the six: the committed run is what the script gives today, by running it; the
+six passed.  The four tests at the end hold the six [CORRECTED 2026-11-12 (Review 80; the SM seat's finding 19): five were added
+that day; the fifth tests the weaker comparison of the first where it is not run]: the committed run is what the script gives today, by running it; the
 conditions of the mended checks, word for word; that the script computes the counts it prints; and where the withdrawn word
 stands.  One thing they cannot hold is said in the last of them.
 
@@ -397,6 +398,8 @@ def test_each_correction_stands_with_the_sentence_it_corrects():
 # ---------------------------------------------------------------------------------------------- added 2026-11-12, a second time
 # A session that did not write this lock planted 23 errors against it as it stood after B1895: 17 were caught and six passed.
 # The four tests below hold the six.  What they cannot hold is said in the last of them.
+# [CORRECTED 2026-11-12 (Review 80; the SM seat's finding 19): five tests follow this comment, not four.  The second of them, which
+# tests the weaker comparison where it is not run, was added twenty minutes after the four and holds none of the six.]
 
 def _run_the_script_in_a_copy(tmp_path, seed):
     """the arc's script, copied alone into an empty folder and run there: (its run file, its json), as bytes"""
