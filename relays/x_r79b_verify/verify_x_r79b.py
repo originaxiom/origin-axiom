@@ -397,7 +397,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     assert not _norm_g05(0, 1, 3, 0) and not _norm_g05(2, -1, 5, -2)
     x9_ok = "else True" not in b1885_py and "a sine series vanishes term by term" in b1885_run
     x10_ok = (
-        'if detail != "":' in b1885_py
+        'if detail != ""' in b1885_py
         and "if forced:" in b1885_py
         and "CHECKS: 31, FAILING: 1" in b1885_run
         and "31 checks" in b1885_findings
