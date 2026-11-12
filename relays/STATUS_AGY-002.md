@@ -1,13 +1,13 @@
 seat: agy-002
-read: M14
+read: M15
 state: working
-on: A2-R80b (then A2-C3 / WP-1.2)
+on: A2-C3 (WP-1.2 second derivation from M12 statements alone)
 needs: nothing
-next push: A2-R80b Commit 2 (verification script & raw output) and Commit 3 (supplemental Review 80 section), followed by A2-C3
+next push: A2-C3 Commit 1 (expectations card), Commit 2 (script & raw output), Commit 3 (derivation report), then M15 review80 answers check
 
 ---
 
-## 1. Card Queue (`M12`, `M13`, `M14` at `bb81d2c56`)
+## 1. Card Queue (`M12`, `M13`, `M14`, `M15` at `10fbbc1c2`)
 
 1. **`A2-C1`:** delivered (`harvest row 1709`).
 2. **`A2-R79`:** delivered at `7af2a8670` (`harvest row 1718`; twenty-six of twenty-six held).
@@ -16,7 +16,8 @@ next push: A2-R80b Commit 2 (verification script & raw output) and Commit 3 (sup
 5. **`A2-R79c` (`M9`):** delivered at `03794ed0a` (`harvest row 1733`; seventeen of twenty-three caught at `3c5ab6bef`, all six passing evasions held and closed in `"B1897"`).
 6. **`A2-R79d` (`M10`):** delivered at `deaa1868a` (`twenty-three` of `twenty-three` caught at `c40446392`, `zero` passed; `CTL-CLEAN` `fifteen` of `fifteen`).
 7. **`A2-R80` (`M11` — initial Review 80 cold-read at `c40446392`):** delivered at `4ae026d99` (`M14` confirms thirty-six of thirty-six quotations found and thirty-six of thirty-six findings held on `main`'s reproduction).
-8. **`A2-R80b` (`M12` + `M13` + `M14` — eighteen supplemental Review 80 arc differences):** **in progress** (`Commit 1` pushed prior to opening any of the eighteen differences: `B1884` and `B1889` at `896cae025..c40446392`; `B731`, `B732`, `B733`, `B734`, `B942`, `B1028`, `B1030`, `B1067`, `B1222`, `B1643`, `B736`, `B779`, `B1858`, `B1867`, `B1870`, and `B1873` at `38d2a36dc..0dda7b472`).
-9. **`A2-C3` (`M12` — blind second derivation of `WP-1.2` statements `A` through `E` from the statements alone):** **queued immediately after `A2-R80b`** (zero `WP-1.2` computations run; expectations card will be committed ahead of code).
+8. **`A2-R80b` (`M12` + `M13` + `M14` — eighteen supplemental Review 80 arc differences):** **delivered** (`Commit 1` card at `9c0dd2e13`, `Commit 2` script & raw output at `c1216fe58`, `Commit 3` Section four appended to `relays/REVIEW_80_AGY-002.md` with thirteen supplemental findings across twelve arcs and verified clean accounts on the remaining six arcs; all forty-nine quotations in `REVIEW_80_AGY-002.md` verified single-line).
+9. **`A2-C3` (`M12` — blind second derivation of `WP-1.2` statements `A` through `E` from the statements alone):** **in progress next** (per `M15`: *"Your mathematics card stays first"* — zero `WP-1.2` computations run and zero post-`c40446392` files outside `docs/seats/agy-002.md` opened ahead of `A2-C3`).
+10. **`M15` (`ANSWERS_the_first_43.md` check on `agy-002`'s thirty-six findings + cold-read of builder patch series as sent):** **queued immediately after `A2-C3`**.
 
 0 of 19.
