@@ -1,0 +1,32 @@
+=== SECTION 1: EXACT QUOTATION CHECKS AT 896cae025238cda82304de7424bf05f83cb69abe ===
+  [PASS] R01 (B1892) frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md -> lines=[68], count=1
+  [PASS] R02 (B1886) frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py -> lines=[126], count=1
+  [PASS] R03 (B1641) frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md -> lines=[123], count=1
+  [PASS] R04 (B1641) docs/THEOREM_REGISTRY.md -> lines=[321], count=1
+  [PASS] R05 (B1889) frontier/B1889_the_seats_digested/arc_verdict.json -> lines=[32], count=1
+  [PASS] R06 (window) scripts/seats/listen.py -> lines=[75], count=1
+  [PASS] R07 (B1882) frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py -> lines=[222], count=1
+  [PASS] R08 (B1882) frontier/B1882_the_v1_card_run_on_main/FINDINGS.md -> lines=[122], count=1
+  [PASS] R09 (B1882) frontier/B1882_the_v1_card_run_on_main/arc_verdict.json -> lines=[27], count=1
+  [PASS] R10 (B862) frontier/B862_global_form/global_form.py -> lines=[40], count=1
+  [PASS] R11 (B1221) tests/test_b1221_the_adjoint_control.py -> lines=[36], count=1
+  [PASS] R12 (B874) frontier/B874_measurement_ladder/arc_verdict.json -> lines=[5], count=1
+  [PASS] R13 (B1861) frontier/B1861_the_closure_programme/verification/build_programme.py -> lines=[638], count=1
+  [PASS] CTL-R79B-QUOTE (planted single-word mutation refused): ok_mut=False
+
+=== SECTION 2: PLANTED CONTROL 2 (ADVERSARIAL LOCK & HELPER MUTATIONS) ===
+  [PASS] CTL-R79B-LOCK-B1882: third tuple item passes at count=0 and count=10; first item passes unbracketed after early header
+  [PASS] B1882 unmended prose (5 places in FINDINGS.md) and incomplete travel (4 items in arc_verdict.json) confirmed
+  [PASS] CTL-R79B-LOCK-B1886: live status_table_rows(G) unchecked in test_b1886; duplicate setdefault and compact-pipe skip confirmed
+  [PASS] CTL-R79B-LOCK-B862-B1221: kernel_exact(6/30, (-4,6))=6 vs true 12; kernel_exact(g, (0,0))=g; B1221 arc_verdict unlocked
+  [PASS] CTL-R79B-LOCK-LISTEN: tilde/backtick truncation, inline-span message drop, pre-mend amendment loss, and for-each-ref wipeout proven
+  [PASS] CTL-R79B-LOCK-B1861: boundary word dropped at s[n]==' ', leading-space collapses to ' […]', and zero test on short() in test_b1861
+
+=== SECTION 3: INDEPENDENT MATHEMATICAL & LEDGER RECOMPUTATIONS ===
+  [PASS] B1641 math: chi_{3/2}(rho_T,(1,1,1))=+3 & (1,0,0)=+1, whereas W46 4d index at Lambda_+=0 is -3 & -1 (sign/Lambda_+ conflation in 4 files)
+  [PASS] B1882/B1726/B1753 math: all 36 Clopper-Pearson intervals agree within 7.02e-13; thresholds 133.33 & 134.53; 130>123 & 16>15 verified
+  [PASS] B874/B892 check: 2D strata {16, 20, 26} and four 26-points are unimported audit-seat claims, absent from B892; B874 arc_verdict unlocked
+  [PASS] B1880 check: census.jsonl.gz hashed by 0 hash lists (frozen 'N' in gate_artifact_hashes); root_files_not_committed.json (58 entries, 56 untracked) unreferenced in B1880 & B1892
+  [PASS] B1889 & Register check: SEATS.json (1699; web 240/74/63; audit 314/6) vs stale arc_verdict.json; P-803, R79-16, and P-812 verified
+
+ALL R79B PRE-PROSE CHECKS AND PLANTED CONTROLS PASSED (0 of 19).
