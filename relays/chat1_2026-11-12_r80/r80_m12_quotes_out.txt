@@ -1,0 +1,19 @@
+True  tests/test_b448.py:52 :: assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
+True  tests/test_b448.py:49 :: if sp.degree(f, t) == 2:
+True  tests/test_b448.py:55 :: if sp.degree(f, t) == 2:
+True  tests/test_b448.py:54 :: for f in f5:
+True  tests/test_b448.py:56 :: assert sp.discriminant(f, t) != 5
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:12 :: With the constant taken out, five statements hold
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:12 :: the nine registered as a debt
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:3 :: Each row was reproduced by main before a word was changed
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:10 :: | main's reproduction |
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:3 :: (DRAFT: two of four files are in)
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md:18 :: the foundation's seven are its version 1.67
+True  docs/RETRACTED_PHRASES.md :: Main reproduced it: a planted row on a new page is reported
+True  frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md :: the protocol's § 12 keeps "reproduced" for the same code run again on a clean checkout
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: "reproduced" is § 12's word for the same code run again
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: Owed from the first 43
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: Eighteen rows in the enforcement package's own files
+True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: checks/genesis_v1_67.py
+True  the subject of 10fbbc1c2 :: Review 80's four files are in
+found: 18 of 18

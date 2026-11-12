@@ -1,0 +1,24 @@
+S  5c7abd72a: 16 asserts, 7 in tests/
+S  10fbbc1c2: 9 asserts, 0 in tests/
+T  the seven at 10fbbc1c2: 7 passed in 19.41s
+N  tests/test_b1011_mckay_tensor.py line 73 negated: 1 failed in 17.31s
+N  tests/test_b355_weil_layer_independent.py line 52 negated: 1 failed in 0.61s
+N  tests/test_b448.py line 52 negated: 1 passed in 0.50s
+N  tests/test_b674_route1.py line 13 negated: 1 failed in 0.15s
+N  tests/test_b799_doors.py line 52 negated: 1 failed in 0.40s
+N  tests/test_r28_10_stabilizations.py line 102 negated: 1 failed in 0.90s
+N  tests/test_w2_molien_cell.py: no CORRECTED mark (the line was removed)
+K  the corrected sentence found in GENESIS.md: True (occurrences: 1)
+K  base 1 passed in 0.21s
+K  K0   1 failed in 0.22s
+K  K1   1 failed in 0.22s
+K  K2   1 failed in 0.17s
+Q  True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md :: Each row was reproduced by main before a word was changed
+Q  True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md :: | main's reproduction |
+Q  True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md :: (DRAFT: two of four files are in)
+Q  True  docs/RETRACTED_PHRASES.md :: Main reproduced it: a planted row on a new page is reported
+Q  True  frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md :: the protocol's § 12 keeps "reproduced" for the same code run again on a clean checkout
+Q  True  docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md :: "reproduced" is § 12's word for the same code run again
+Q  True  the subject of 10fbbc1c2 :: Review 80's four files are in
+Q  added lines in 5c7abd72a..10fbbc1c2 that hold "reproduced by main": 18
+G  lines of GENESIS.md naming 1.67: 0

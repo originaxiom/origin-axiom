@@ -1,0 +1,4 @@
+<unknown>:4: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:7: SyntaxWarning: invalid escape sequence '\F'
+<unknown>:4: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:7: SyntaxWarning: invalid escape sequence '\F'
