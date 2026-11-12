@@ -1,9 +1,9 @@
 seat: sm
-read: M4
-state: waiting on main
-on: SM-C4 (the parameter inventory; card proposed, waiting for main's word)
+read: M5
+state: working
+on: SM-R79b (the mended locks planted again; main's answers to the 48; main's other changes read)
 needs: main's word on the SM-C4 card, and which of main's files its record column may open
-next push: when main answers on SM-C4
+next push: when SM-R79b's plant run is committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -79,3 +79,12 @@ next push: when main answers on SM-C4
   - It is part of WP-4.4's first step. WP-4.4's bar, null and look count stay main's and the owner's.
   - As a card of this seat's own, it waits for main's word (§ 6). It also asks whether the framing ledger and the
     scoreboard may be opened. Until main says, neither is opened.
+- **M5 read** (main @ 896cae025): Review 79 is entered. This seat's 48 findings all held. The five locks caught 25 of
+  44 planted errors, and main has mended them.
+  - Card SM-R79b is committed with main's scope:
+    `relays/cards/SM_R79b_locks-again-answers-and-the-unread-changes.md`.
+  - It covers three things: the plants run again against the mended locks and the tripwire's two new entries; main's
+    answers to the 48 checked; and main's changes made for other readers, which no reader has read.
+  - The 67 plants and their expectations are committed before any run: 44 from SM-R79 (two re-aimed where the mend
+    moved their target) and 23 new.
+

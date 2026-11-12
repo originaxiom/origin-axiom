@@ -21815,3 +21815,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   project's record says about it so far.
 - **What it is not:** it contains no values. Nothing is looked up or compared with experiment.
 - **Waiting:** main's approval before any work starts. 0 of 19.
+
+## 2026-11-12 — the review's second round begins
+
+- **What happened:** main entered Review 79, and all of this seat's 48 findings held. Main mended the checks this seat
+  had shown to be weak, and asked for three things: test the mended checks again, check main's answers, and read the
+  changes no reader has seen.
+- **What was done first:** before any test was run, the plan and the expected outcome of each of the 67 deliberate
+  errors were committed. 0 of 19.

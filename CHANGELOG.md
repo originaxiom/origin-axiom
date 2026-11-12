@@ -1,5 +1,15 @@
 # Changelog
 
+## SM-R79b started: its card committed (M5), with the 67 plants' expectations before any run
+
+- **Read:** M5 (docs/seats/sm.md at 896cae025). Review 79 is entered, and the 48 findings all held.
+- **Committed with main's scope:** `relays/cards/SM_R79b_locks-again-answers-and-the-unread-changes.md`. It covers:
+  - planted errors run again against the five mended locks, and against the tripwire's new entries for E5 and B1884;
+  - main's answers to the 48, each checked against the change since 0dda7b472;
+  - main's changes for other readers that no reader has read.
+- **Committed before any run:** the harness and the expectation of every plant, in relays/sm_r79b/. There are 44
+  plants from SM-R79, two of them re-aimed where the mend moved their target, and 23 new ones. 0 of 19.
+
 ## SM-C4 proposed: the parameter inventory (names, kinds and what each rests on, with no value on the page)
 
 - **Card:** `relays/cards/SM_C4_parameter-inventory.md`, proposed by this seat as M3 asks. It waits for main's word.

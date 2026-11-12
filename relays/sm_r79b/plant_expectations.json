@@ -1,0 +1,542 @@
+{
+ "written_before_any_run": true,
+ "main": "896cae025",
+ "plants": [
+  {
+   "lock": "E13",
+   "plant": "findings_count_reverted",
+   "rule_broken": "the corrected count stands in B567's findings",
+   "shape": "the old value restored in place",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "dated_bracket_removed",
+   "rule_broken": "the correction is dated and attributed",
+   "shape": "the dated bracket's opening deleted",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_not_kept",
+   "rule_broken": "the old count is kept as history beside the correction",
+   "shape": "the quoted old count reworded",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "count_split_at_branch_cut",
+   "rule_broken": "count on the lattice of the order's roots, not by angle",
+   "shape": "the original mistake re-made in code",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "wrong_half_in_the_weil_matrix",
+   "rule_broken": "the Weil matrix uses the inverse of 2 mod N",
+   "shape": "s = N // 2 instead of (N + 1) // 2",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "multiplicity_list_wrong_in_findings",
+   "rule_broken": "the findings' multiplicity list equals the computation",
+   "shape": "two entries changed, sum kept at 165",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "bound_misstated_in_findings",
+   "rule_broken": "with order 20 there are at most 20",
+   "shape": "the stated bound changed to 21",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_in_verdict_line",
+   "rule_broken": "the corrected count travels to the verdict line",
+   "shape": "21 added to B567's claim line",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_on_another_page",
+   "rule_broken": "the corrected count travels to every page",
+   "shape": "a new tracked page states 21",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "hand_condition_back_respelt",
+   "rule_broken": "the kernel is computed from the map, not a hand-derived condition",
+   "shape": "the old exp(6ia) = 1 test restored, spelt exp(1j * 6 * a)",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "kernel_hard_coded",
+   "rule_broken": "the kernel is computed from the map",
+   "shape": "the six triples returned without building the map",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "exponents_swapped",
+   "rule_broken": "the map is diag(A e^{-2ia}, B e^{3ia})",
+   "shape": "the two exponents exchanged",
+   "origin": "re-aimed",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "grid_half_scanned",
+   "rule_broken": "the grid of sixths is scanned completely",
+   "shape": "only half the grid scanned",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "dated_note_removed",
+   "rule_broken": "the correction is dated in the findings",
+   "shape": "the dated note's marker deleted",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E6",
+   "plant": "results_file_stale",
+   "rule_broken": "the committed results equal the computation",
+   "shape": "results.json's kernel changed to Z3",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "argument_ignored_again",
+   "rule_broken": "card <arc> prints that arc",
+   "shape": "the corpus card printed whatever the id",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_field_wrong",
+   "rule_broken": "the verdict line shows the verdict",
+   "shape": "the status field printed as the verdict",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_file_of_another_arc",
+   "rule_broken": "the verdict and claim are the named arc's",
+   "shape": "B1812's verdict file read for every arc",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "claim_line_dropped",
+   "rule_broken": "the card prints the claim line",
+   "shape": "the claim line not printed",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "status_hard_coded",
+   "rule_broken": "the card prints the arc's status",
+   "shape": "every arc shown as [banked]",
+   "origin": "re-aimed",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_hard_coded",
+   "rule_broken": "the verdict line shows the arc's verdict",
+   "shape": "every arc shown as NEGATIVE",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E10",
+   "plant": "unknown_arc_prints_corpus",
+   "rule_broken": "an unknown arc is reported as unknown",
+   "shape": "the corpus card printed for an unknown id",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "wall_gets_a_real_part",
+   "rule_broken": "no wall has a real part",
+   "shape": "the committed ratio set to 0.3",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "one_wall_shifted",
+   "rule_broken": "the walls come in conjugate pairs at the computed values",
+   "shape": "one wall moved by 1e-6",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "a_check_false_run_text_unchanged",
+   "rule_broken": "every committed check holds",
+   "shape": "one boolean check set false",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "class_pattern_changed",
+   "rule_broken": "the seven classes are as computed",
+   "shape": "one class 6 -> 8",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "findings_correction_removed",
+   "rule_broken": "the scan's sentence carries its correction",
+   "shape": "the CORRECTED marker reworded",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "b874_note_removed",
+   "rule_broken": "the correction travels to B874",
+   "shape": "B874's dated note reworded",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "skeleton_narrowed",
+   "rule_broken": "the paper's sentence covers all three roots",
+   "shape": "'all three' narrowed to one root",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "faulty_script_silently_fixed",
+   "rule_broken": "the old fault is kept in the script as it was run",
+   "shape": "the 'if not found:' guard removed",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_on_another_page",
+   "rule_broken": "the correction travels to every page",
+   "shape": "a new tracked page repeats the old exclusion",
+   "origin": "as before",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E5",
+   "plant": "instrument_broken_fast_lane",
+   "rule_broken": "the committed numbers come from the instrument as it stands",
+   "shape": "the instrument's nullity made a rank; outputs not rerun (fast lane)",
+   "origin": "as before",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_on_a_new_page",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "the exact old form, uncorrected",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_paraphrased",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "'invisible to every state', uncorrected",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_broken_across_a_line",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "the exact form split by a newline",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "spoof_marker_beside_it",
+   "rule_broken": "the correction stands beside the old form",
+   "shape": "an unrelated 'E = +I' within 900 characters",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_a_text_file",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form in a .txt file",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_an_excluded_folder",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form under docs/views/",
+   "origin": "as before",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "correction_too_far_away",
+   "rule_broken": "the correction stands beside the old form",
+   "shape": "the marker 1000 characters after it",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "parity_split_miscounts",
+   "rule_broken": "338 have E = +I and 305 have E = -I",
+   "shape": "one class of E = -I counted as +I",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "findings_counts_removed",
+   "rule_broken": "the findings carry the split",
+   "shape": "the count sentence reworded",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "verdict_line_unmarked",
+   "rule_broken": "the verdict line carries the correction",
+   "shape": "the CORRECTED marker removed from the claim line",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "tau_page_note_removed",
+   "rule_broken": "the correction travels to the read-out rule's page",
+   "shape": "the carried-here marker reworded",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E3",
+   "plant": "b1855_note_removed",
+   "rule_broken": "the correction travels to B1855",
+   "shape": "the carried-here marker reworded in B1855",
+   "origin": "as before",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_in_words",
+   "rule_broken": "the corrected count travels to every page",
+   "shape": "'twenty-one distinct eigenvalues' on a new page",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_beside_an_unrelated_bound",
+   "rule_broken": "the correction stands beside the old count",
+   "shape": "21 asserted, with 'at most 20' about another matter in the next sentence",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_in_a_paper",
+   "rule_broken": "the corrected count travels to every page",
+   "shape": "the old count in papers/",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E6",
+   "plant": "findings_kernel_misstated",
+   "rule_broken": "the page states the kernel the map gives",
+   "shape": "the findings' 'exactly ℤ₆' changed to 'exactly ℤ₃'",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E6",
+   "plant": "verdict_line_kernel_misstated",
+   "rule_broken": "the verdict line states the kernel the map gives",
+   "shape": "the claim line's '/Z6' changed to '/Z3'",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E10",
+   "plant": "claim_line_truncated",
+   "rule_broken": "the card prints the claim line",
+   "shape": "the claim cut to its first 100 characters",
+   "origin": "new",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_exact_on_a_new_page",
+   "rule_broken": "the correction travels to every page",
+   "shape": "the exact old sentence, uncorrected",
+   "origin": "new",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_exact_across_a_line",
+   "rule_broken": "the correction travels to every page",
+   "shape": "the exact old sentence split by a newline",
+   "origin": "new",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_reworded",
+   "rule_broken": "the correction travels to every page",
+   "shape": "'there is no real point of nullity 14 there'",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_citing_the_instrument",
+   "rule_broken": "the correction stands beside the old sentence",
+   "shape": "the old sentence with the instrument's file name cited after it",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_in_a_paper",
+   "rule_broken": "the correction travels to every page",
+   "shape": "the exact old sentence in papers/",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_exact",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "the exact old form on a new page",
+   "origin": "new",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_ascii",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "the old form spelt P^1(Z/N)",
+   "origin": "new",
+   "expected": "CAUGHT"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_short",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "the short form the finding quoted, 'fixes a point only at N = 5'",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_reordered",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "'only at N = 5 does LR fix a point of P¹(ℤ/N)'",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_z_mod_nz",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "the old form spelt P¹(ℤ/Nℤ)",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_with_the_marker_phrase",
+   "rule_broken": "the scoped statement replaces the old one",
+   "shape": "the old form kept, with 'exactly one point at N = 5' added after it",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "B1884",
+   "plant": "old_form_in_a_paper",
+   "rule_broken": "the scoped statement travels to every page",
+   "shape": "the exact old form in papers/",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "spoof_with_a_split_word",
+   "rule_broken": "the correction must name the split",
+   "shape": "an unrelated 'E = +I only' within 500 characters",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_other_words",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "'invisible to all states', uncorrected",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_a_script_header",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form in a .py docstring under frontier/",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_a_paper",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form in papers/",
+   "origin": "new",
+   "expected": "MISSED"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_the_progress_log",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "the exact old form appended to PROGRESS_LOG.md (main: append-only, not read)",
+   "origin": "new",
+   "expected": "MISSED"
+  }
+ ]
+}
