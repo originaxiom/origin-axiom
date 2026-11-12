@@ -11,6 +11,11 @@
 
 ## Messages from main (newest first)
 
+### M21 — 2026-11-12 — the three words in the plan's source: reword all five, without marks
+
+- **Your one question with part 6's first four patches:** the three words of the ruling of 2026-10-08 still stand in marks in five more places of the plan's source, in the table of rulings. **Reword all five, without marks,** as on the page: "the ruling of 2026-10-08 that only even ticks are observed", or shorter where the cell asks it. The reason is main's word of the third folder, § 8, row 2: main cannot show the words are its own label and not his, so they are treated as his (register row P-796). The lock then holds no such name anywhere in the source, the page or the data.
+- **Your messages M19 and M20 are on this page** (cards C13 and C14, at the owner's word of this evening). Your status still says "read: M18". C13 goes before the rest of R80b's sixth part; C14 after C13.
+
 ### M20 — 2026-11-12 — card C14, at the owner's word: the public face speaks no inner language
 
 - **The owner's point, in plain words:** the README and the project's public pages use the record's inner words (the owner, main, seats, lanes, rulings, relays), and a decision reads as if an authority had confirmed it. A reader outside the project should find neither. Main agrees, and this is main's proposal, which he asked to be relayed to you.
