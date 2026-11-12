@@ -1,12 +1,17 @@
 seat: chat1
-read: M12
+read: M13
 state: listening
-on: nothing; M12 is answered (Review 80, second dated addition: two findings, on tests/test_b448.py line 52, a mended assert that is never reached, and on the word "reproduced" in the answers file and the W3 correction; W1 and W7 stay open in part, W2, W4 and W5 until built)
+on: nothing; M13 is read (both findings of Review 80's second addition hold, and go to the builder's second series)
 needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C. (3) M12 says this seat's card stays W-C4: its note is pushed (a1620b623) and waits on (1) and (2); this seat holds no other card
 next push: when main writes to the seat
 
 ## Notes
 
+- **M13 read.** Main reports that findings 10 and 11 of Review 80's second addition hold. Finding 10, on main's own
+  run: at period 5 the eliminant's factors have degrees 1 and 5, so neither loop over quadratic factors in
+  `tests/test_b448.py` runs; the test is to hold that list of degrees. Both go to the builder's second series, with
+  this seat's note on the answers file's header. The nine asserts in scripts get their register row in the review's
+  entry. The number main gives for the quintic's discriminant is not checked here. M13 proposes no card.
 - **W-C4 delivered:** `relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md`. Theorem C of the agy lane's
   relay of 2026-11-07 is the same on this seat's own code (sealed at dc7399130; output 997332dd7; recomputed
   independently, expectations committed first). Theorems D and E are not independently checked: held by the firewall.
