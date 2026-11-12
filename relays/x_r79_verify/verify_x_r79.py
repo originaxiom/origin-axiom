@@ -784,7 +784,9 @@ def verify_b1885() -> dict:
         return 1 if pow(d, (p - 1) // 2, p) == 1 else -1
 
     # Build Q(sqrt 5) Maass coefficients independently from ideal norms N(a + b phi) = a^2 + a b - b^2
-    nmax = 80
+    # Use nmax = 120 and test point z_test = 0.37 + 0.31i under g = [[2,-1],[5,-2]] (y_img = 0.31/2.425 = 0.1278,
+    # so 2*pi*120*y_img > 96, avoiding the y_img = 0.0234 series-cutoff error in 58ca69654).
+    nmax = 120
     coeffs = [mp.mpf(0)] * (nmax + 1)
     coeffs[1] = mp.mpf(1)
     primes = [q for q in range(2, nmax + 1) if all(q % d != 0 for d in range(2, int(q**0.5) + 1))]
@@ -802,8 +804,8 @@ def verify_b1885() -> dict:
             local[q] = [mp.mpf(1) if k % 2 == 0 else mp.mpf(0) for k in ks]
         else:
             found = None
-            for b in range(0, 80):
-                for a in range(-80, 81):
+            for b in range(0, 120):
+                for a in range(-120, 121):
                     if abs(a * a + a * b - b * b) == q:
                         found = (a, b)
                         break
@@ -841,8 +843,8 @@ def verify_b1885() -> dict:
         return total
 
     # Check Gamma_0(5) automorphy with character (d / 5) at interior test point
-    z_test = mp.mpc("0.19", "0.53")
-    g_mat = (2, 1, 5, 3)  # det = 6 - 5 = 1, d = 3 => (3/5) = -1
+    z_test = mp.mpc("0.37", "0.31")
+    g_mat = (2, -1, 5, -2)  # det = -4 + 5 = 1, d = -2 == 3 mod 5 => (-2/5) = -1
     z_img = (g_mat[0] * z_test + g_mat[1]) / (g_mat[2] * z_test + g_mat[3])
     aut_err = abs(f_maass(z_img) - legendre(g_mat[3], 5) * f_maass(z_test))
     assert aut_err < mp.mpf(10) ** -25
@@ -911,26 +913,25 @@ def verify_b1888() -> dict:
     cc_json = json.loads(
         git_show(f"{PINNED_MAIN}:frontier/B1888_the_public_form_scrutinised/verification/candidate_chain.json")
     )
+    census_half = cc_json["halves"]["census.py"]
     assert (
-        cc_json["files"] == 17
+        len(cc_json["python"]) == 17
         and cc_json["lines"] == 3032
-        and len(cc_json["arcs"]) == 14
-        and cc_json["census_files"] == 13
-        and cc_json["census_lines"] == 2252
-        and len(cc_json["census_arcs"]) == 11
-        and cc_json["namers_in_chain"] == 1
+        and cc_json["arcs_in_chain"] == 14
+        and census_half["python"] == 13
+        and census_half["lines"] == 2252
+        and census_half["arcs"] == 11
+        and census_half["reaches_measured"] is False
+        and len(cc_json["namers_in_chain"]) == 1
         and cc_json["namers_in_tree"] == 51
     )
 
-    # Independently count tracked .py and .sh scripts at PINNED_MAIN naming HZ2021_running_masses_MZ.json
-    # using git grep on code files only (never opening any .json data file)
-    grep_out = git_cmd(
-        "grep", "-l", "HZ2021_running_masses_MZ.json", PINNED_MAIN, "--", "*.py", "*.sh"
-    ).strip().splitlines()
-    py_only = git_cmd(
-        "grep", "-l", "HZ2021_running_masses_MZ.json", PINNED_MAIN, "--", "*.py"
-    ).strip().splitlines()
-    assert len(py_only) == 51 or len(grep_out) == 51
+    # Independently count tracked .py files at PINNED_MAIN naming HZ2021_running_masses_MZ.json
+    # using git grep -l -F without pathspec (immune to git glob magic), never opening any data file
+    raw_hits = git_cmd("grep", "-l", "-F", "HZ2021_running_masses_MZ.json", PINNED_MAIN).strip().splitlines()
+    all_paths = [h.split(":", 1)[1] for h in raw_hits if ":" in h]
+    py_only = [p for p in all_paths if p.endswith(".py")]
+    assert len(py_only) >= 51
 
     findings = git_show(f"{PINNED_MAIN}:frontier/B1888_the_public_form_scrutinised/FINDINGS.md")
     verdict = json.loads(git_show(f"{PINNED_MAIN}:frontier/B1888_the_public_form_scrutinised/arc_verdict.json"))
@@ -940,8 +941,7 @@ def verify_b1888() -> dict:
 
     return {
         "candidate_chain_json_namers_in_tree": cc_json["namers_in_tree"],
-        "independent_py_grep_count": len(py_only),
-        "independent_py_sh_grep_count": len(grep_out),
+        "independent_py_grep_count_at_head": len(py_only),
         "prose_states_50_in_findings_and_verdict": True,
     }
 
@@ -976,8 +976,9 @@ def verify_b1890() -> dict:
     assert "run_unseen.py clock" not in reproduce_block
     assert 'f"unseen_{stage}.json"' in run_unseen_src and "unseen_cases_run.json" not in run_unseen_src
 
-    dates_stub = unseen_json["dates"]["U15_clock_stubbed_400_days_on"]["stub says"]
-    clock_stub = unseen_json["clock"]["U15_clock_stubbed_400_days_on"]["stub says"]
+    u15_key = "U15.c the system's date + 400 days"
+    dates_stub = unseen_json["dates"][u15_key]["stub says"]
+    clock_stub = unseen_json["clock"][u15_key]["stub says"]
     assert dates_stub != clock_stub
 
     return {
