@@ -194,6 +194,8 @@ def genesis_states(nmax: int, odd_only: bool = False) -> list[tuple[str, str, tu
 def np_rank_gf(M: np.ndarray, p: int) -> int:
     if M.size == 0:
         return 0
+    if p > 10**7:
+        return np_rref_gf(M, p)[0]
     A = M.astype(np.int64, copy=True) % p
     m, n = A.shape
     r = 0
@@ -217,6 +219,27 @@ def np_rank_gf(M: np.ndarray, p: int) -> int:
 
 
 def np_rref_gf(M: np.ndarray, p: int) -> tuple[int, list[int], np.ndarray]:
+    if p > 10**7:
+        A = M.astype(object, copy=True) % p
+        m, n = A.shape
+        pivs_o: list[int] = []
+        r = 0
+        for c in range(n):
+            if r >= m:
+                break
+            pr = next((i for i in range(r, m) if A[i, c] != 0), -1)
+            if pr < 0:
+                continue
+            if pr != r:
+                A[[r, pr]] = A[[pr, r]]
+            inv = pow(int(A[r, c]), p - 2, p)
+            A[r] = (A[r] * inv) % p
+            for row_i in range(m):
+                if row_i != r and A[row_i, c] != 0:
+                    A[row_i] = (A[row_i] - int(A[row_i, c]) * A[r]) % p
+            pivs_o.append(c)
+            r += 1
+        return r, pivs_o, A
     A = M.astype(np.int64, copy=True) % p
     m, n = A.shape
     pivs: list[int] = []
@@ -243,11 +266,12 @@ def np_rref_gf(M: np.ndarray, p: int) -> tuple[int, list[int], np.ndarray]:
 
 
 def np_null_gf(M: np.ndarray, p: int) -> tuple[int, np.ndarray]:
+    dt = object if p > 10**7 else np.int64
     m, n = M.shape
     rk, pivs, R = np_rref_gf(M, p)
     piv_set = set(pivs)
     free = [c for c in range(n) if c not in piv_set]
-    Z = np.zeros((n, len(free)), dtype=np.int64)
+    Z = np.zeros((n, len(free)), dtype=dt)
     for j, fc in enumerate(free):
         Z[fc, j] = 1
         for row_i, pc in enumerate(pivs):
@@ -256,8 +280,9 @@ def np_null_gf(M: np.ndarray, p: int) -> tuple[int, np.ndarray]:
 
 
 def np_inv_gf(M: np.ndarray, p: int) -> np.ndarray:
+    dt = object if p > 10**7 else np.int64
     n = M.shape[0]
-    aug = np.hstack([M % p, np.eye(n, dtype=np.int64)])
+    aug = np.hstack([M.astype(dt) % p, np.eye(n, dtype=dt)])
     rk, _, R = np_rref_gf(aug, p)
     if rk != n:
         raise RuntimeError("Singular matrix over GF(p)")
@@ -276,47 +301,53 @@ def wedge2_gf(X: np.ndarray, p: int) -> np.ndarray:
 
 
 def fox_word_np_gf(mats: dict[str, np.ndarray], invs: dict[str, np.ndarray], w: str, p: int) -> tuple[np.ndarray, np.ndarray]:
+    dt = object if p > 10**7 else np.int64
     e = mats["a"].shape[0]
     idx = {"a": 0, "b": 1, "t": 2}
-    out = np.zeros((e, 3 * e), dtype=np.int64)
-    pre = np.eye(e, dtype=np.int64)
+    out = np.zeros((e, 3 * e), dtype=dt)
+    pre = np.eye(e, dtype=dt)
+    mats_d = {k: v.astype(dt) for k, v in mats.items()} if p > 10**7 else mats
+    invs_d = {k: v.astype(dt) for k, v in invs.items()} if p > 10**7 else invs
     for ch in w:
         if ch in "abt":
             off = idx[ch] * e
             out[:, off : off + e] = (out[:, off : off + e] + pre) % p
-            pre = (pre @ mats[ch]) % p
+            pre = (pre @ mats_d[ch]) % p
         else:
             g = ch.lower()
             off = idx[g] * e
-            pre = (pre @ invs[g]) % p
+            pre = (pre @ invs_d[g]) % p
             out[:, off : off + e] = (out[:, off : off + e] - pre) % p
     return out, pre
 
 
 def fox_steps_np_gf(mats: dict[str, np.ndarray], steps: list[str], p: int) -> np.ndarray:
     """Exact Fox Jacobian of [t a T psi(a)^-1, t b T psi(b)^-1] in O(|steps|) matrix products."""
+    dt = object if p > 10**7 else np.int64
     e = mats["a"].shape[0]
-    I = np.eye(e, dtype=np.int64)
-    Z0 = np.zeros((e, e), dtype=np.int64)
-    Da_a, Db_a, Ra = I.copy(), Z0.copy(), mats["a"].copy()
-    Da_b, Db_b, Rb = Z0.copy(), I.copy(), mats["b"].copy()
+    I = np.eye(e, dtype=dt)
+    Z0 = np.zeros((e, e), dtype=dt)
+    Ma = mats["a"].astype(dt, copy=True)
+    Mb = mats["b"].astype(dt, copy=True)
+    Mt = mats["t"].astype(dt, copy=True)
+    Da_a, Db_a, Ra = I.copy(), Z0.copy(), Ma.copy()
+    Da_b, Db_b, Rb = Z0.copy(), I.copy(), Mb.copy()
     for st in reversed(steps):
         if st == "L":
-            Da_a = (Da_a + Ra @ Da_b) % p
-            Db_a = (Db_a + Ra @ Db_b) % p
+            Da_a = (Da_a + ((Ra @ Da_b) % p)) % p
+            Db_a = (Db_a + ((Ra @ Db_b) % p)) % p
             Ra = (Ra @ Rb) % p
         elif st == "R":
-            Da_b = (Da_b + Rb @ Da_a) % p
-            Db_b = (Db_b + Rb @ Db_a) % p
+            Da_b = (Da_b + ((Rb @ Da_a) % p)) % p
+            Db_b = (Db_b + ((Rb @ Db_a) % p)) % p
             Rb = (Rb @ Ra) % p
         else:
             Rai = np_inv_gf(Ra, p)
             Rbi = np_inv_gf(Rb, p)
-            Da_a, Db_a, Ra = (-Rai @ Da_a) % p, (-Rai @ Db_a) % p, Rai
-            Da_b, Db_b, Rb = (-Rbi @ Da_b) % p, (-Rbi @ Db_b) % p, Rbi
-    Mt = mats["t"]
+            Da_a, Db_a, Ra = ((-Rai @ Da_a) % p), ((-Rai @ Db_a) % p), Rai
+            Da_b, Db_b, Rb = ((-Rbi @ Da_b) % p), ((-Rbi @ Db_b) % p), Rbi
     Mti = np_inv_gf(Mt, p)
-    if not (np.array_equal((Mt @ mats["a"] @ Mti) % p, Ra) and np.array_equal((Mt @ mats["b"] @ Mti) % p, Rb)):
+    if not (np.array_equal((((Mt @ Ma) % p) @ Mti) % p, Ra) and np.array_equal((((Mt @ Mb) % p) @ Mti) % p, Rb)):
         sys.exit(2)
     return np.block([
         [(Mt - Da_a) % p, (-Db_a) % p, (I - Ra) % p],
@@ -334,11 +365,12 @@ def cohom_steps_np_gf(
     want_cocs: bool = False,
     want_interior: bool = False,
 ) -> tuple[int, int, int, int, list[np.ndarray]]:
+    dt = object if p > 10**7 else np.int64
     e = mats["a"].shape[0]
-    I = np.eye(e, dtype=np.int64)
+    I = np.eye(e, dtype=dt)
     fox = fox_steps_np_gf(mats, steps, p)
     _, Z = np_null_gf(fox, p)
-    dg = np.vstack([(mats[g] - I) % p for g in "abt"])
+    dg = np.vstack([(mats[g].astype(dt) - I) % p for g in "abt"])
     r0 = np_rank_gf(dg, p)
     h0 = e - r0
     dimZ = Z.shape[1]
