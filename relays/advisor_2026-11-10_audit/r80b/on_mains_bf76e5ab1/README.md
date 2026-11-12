@@ -41,7 +41,7 @@ In each row that main also changed, each note of these parts stands once: counte
 | the same, after part 2 | 53 pass |
 | the same, after the last patch | 52 pass; the one that does not is the count of landings |
 | the 19 test files these parts change, after the last patch | 174 passed, 1 skipped (B1884's, which runs the arc's script on request) |
-| all 53 gates on a clean checkout of each of the 41 patches | running when this was pushed; its result is added here |
+| all 53 gates on a clean checkout of each of the 41 patches | patches 1 to 23: 53 pass. Patches 24 to 41: 52 pass, and the one that does not is the count of landings, which reaches 40 at patch 24 (part 3's ninth). No other gate fails on any patch. `all_53_gates_on_a_clean_checkout_of_each_of_the_41_patches_out.txt` |
 
 ## One patch here is known to copy a fault
 

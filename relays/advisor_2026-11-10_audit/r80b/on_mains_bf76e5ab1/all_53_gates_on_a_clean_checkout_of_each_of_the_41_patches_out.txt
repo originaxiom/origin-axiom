@@ -1,0 +1,48 @@
+All 53 gates of scripts/gates/gates.py, run on a clean checkout of each of the 41 patches of R80b as rebuilt on main's bf76e5ab1.
+The patches in order: part 1 (1 to 3), part 2 (4 to 15), part 3 (16 to 33), part 4 (34 to 39), part 5's first two (40, 41).
+Each line: the patch's place in the chain (the commit it is on this seat's build): the gates run, the gates that pass, and any that does not.
+
+1 (521a9037a): 53 gates, 53 pass
+2 (99b84efac): 53 gates, 53 pass
+3 (f1f075c90): 53 gates, 53 pass
+4 (f94799132): 53 gates, 53 pass
+5 (0b82830ea): 53 gates, 53 pass
+6 (5a935d6d5): 53 gates, 53 pass
+7 (aaba17120): 53 gates, 53 pass
+8 (b9ce0b03c): 53 gates, 53 pass
+9 (a5808fada): 53 gates, 53 pass
+10 (77954dd92): 53 gates, 53 pass
+11 (3e77ecf43): 53 gates, 53 pass
+12 (e6c1bc170): 53 gates, 53 pass
+13 (0e2e75297): 53 gates, 53 pass
+14 (e1db2fd9e): 53 gates, 53 pass
+15 (fb7aeea73): 53 gates, 53 pass
+16 (5060d4de5): 53 gates, 53 pass
+17 (71caa8d2b): 53 gates, 53 pass
+18 (064d3d2ab): 53 gates, 53 pass
+19 (0c3f797e6): 53 gates, 53 pass
+20 (c1703478d): 53 gates, 53 pass
+21 (2f486df40): 53 gates, 53 pass
+22 (c8e18d031): 53 gates, 53 pass
+23 (9fddf9667): 53 gates, 53 pass
+24 (ebba8e7b2): 53 gates, 52 pass; not passing: review-fires
+25 (79abd6d3b): 53 gates, 52 pass; not passing: review-fires
+26 (86a0e42f9): 53 gates, 52 pass; not passing: review-fires
+27 (8b4839cdc): 53 gates, 52 pass; not passing: review-fires
+28 (14be48e4c): 53 gates, 52 pass; not passing: review-fires
+29 (c9cb50237): 53 gates, 52 pass; not passing: review-fires
+30 (c453547b2): 53 gates, 52 pass; not passing: review-fires
+31 (475286226): 53 gates, 52 pass; not passing: review-fires
+32 (02bbd7ceb): 53 gates, 52 pass; not passing: review-fires
+33 (8a8fceb79): 53 gates, 52 pass; not passing: review-fires
+34 (72aaaa567): 53 gates, 52 pass; not passing: review-fires
+35 (fb31a7cec): 53 gates, 52 pass; not passing: review-fires
+36 (eeebbd21b): 53 gates, 52 pass; not passing: review-fires
+37 (6d980042c): 53 gates, 52 pass; not passing: review-fires
+38 (cc2506358): 53 gates, 52 pass; not passing: review-fires
+39 (33c44e759): 53 gates, 52 pass; not passing: review-fires
+40 (c72163cdb): 53 gates, 52 pass; not passing: review-fires
+41 (3599497e9): 53 gates, 52 pass; not passing: review-fires
+
+23 patches pass all 53. From patch 24 (part 3's ninth) the one gate that does not pass is review-fires: the count of landings
+since Review 80's anchor reaches 40 there, with each patch counted as a commit on main's own line. No other gate fails on any patch.
