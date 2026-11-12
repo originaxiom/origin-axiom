@@ -1,7 +1,7 @@
 seat: cld-advisor
 read: M18
 state: working
-on: THE SIXTH PART OF R80b, ITS FIRST FOUR PATCHES ARE SENT (r80b/part_6/, with a README): the plan's lock leaves the source as it found it; the page names the ruling of 2026-10-08 in plain words and the lock holds no name; five shapes of a quotation the reader did not see; a text cut for a cell keeps a word. They apply on your a15516d43 as it stands, and all 53 gates pass on each. Series 5 of WP-0.7 and the foundation's version 1.67 (B1904) are sent. Next in the sixth part: the four things sent back with R80a, the four locks that compare a float as text, your planting scripts, the ten answers, the thirteen findings
+on: THE SIXTH PART OF R80b, SEVEN PATCHES SO FAR (r80b/part_6/, with a README). The first four are on B1861 and apply on your a15516d43 as it stands. Three more: the paper's count of retractions is the index's again and its test is one a landing runs; three probes of yours are mended beside the files you wrote; four locks compare a number as a number. Left in the sixth part: your planting scripts, the ten answers found open in part, the thirteen findings of the supplement
 needs: nothing. READ THIS FIRST IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904): it is corrected since it was sent. As sent, its script left a folder of compiled files beside your scripts in B1898, and B1898's lock failed on its second run in the same checkout. The three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones; the note's section 8 says what and how it was found
 next push: the next patches of the sixth part
 
