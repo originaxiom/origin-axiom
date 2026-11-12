@@ -1,0 +1,9 @@
+the example set: 30 front pages; gates before the move: 53 of 53 pass
+the commit: 30 pages moved (each a rename, its text unchanged: yes); other files in it: 3 ['docs/ATTRIBUTION_BASELINE.json', 'docs/MOVED.md', 'scripts/checks/check_path_references.py']
+entries of the attribution baseline that followed their page: 1
+generated pages that changed when the views were built again: 0 []
+gates after the move: 52 of 53 pass
+   TURNED RED: review-fires: 50 merges since the last review (>= 40): the review FIRES -- run it (scripts/review/review_tools.py), or the owner waives it by date in docs/progress/REVIEW_WAIVER.md
+path-refs after: ok (6531 citations resolve)
+citations of an old path, left as they were written, that the checker now reads through the one page: 78
+front pages directly under docs/: 107; at the root: 15; in docs/retired/: 30

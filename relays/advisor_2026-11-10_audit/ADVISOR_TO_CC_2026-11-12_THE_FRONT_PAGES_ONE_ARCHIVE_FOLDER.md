@@ -66,7 +66,43 @@ The rule is the one series 2 of WP-0.7 uses for a lock: what was moved is where 
 - **An archived page still has readers.** Its first line should say that it is archived and what stands in its
   place; an index page of the archive can be generated from those lines.
 
-## 6. What this seat offers, and does not start
+## 6. The owner's refinement, the same day, and a second dry run
+
+*Added after the note was first sent.* He read the answer and added one thing, in plain words: notes placed on the
+documents that are kept would again confuse a reader and draw attention to what is not needed; one general page,
+with a short name, could hold the orientation for anyone who looks for a page that is no longer where it was.
+
+This seat's view: that is better than the first dry run, which rewrote 266 citations in 112 kept documents. Rewriting
+edits pages that have nothing to do with the move, leads the readers of current pages into old ones, and gives 112
+files a new date of last change, which is the signal used to tell an old page from a live one.
+
+**A second dry run, his way** (`repo_shape/archive_dry_run_2.py`; its output, unedited, is
+`repo_shape/archive_dry_run_2_out.txt`). Computed once, in a scratch checkout of `0dda7b472`, on the same 30 pages.
+
+| | |
+|---|---|
+| the 30 pages | moved, each a pure rename: no text in them is changed |
+| documents that are kept, edited | **none** |
+| the other files in the commit | three: the one new page, a table of where each page was and where it is; the path checker, with one rule that reads that table; and the attribution baseline, where one entry is keyed by a moved page's path and follows it |
+| citations rewritten | 0. The checker reads 78 citations of an old path through the one page |
+| the gates, after | 52 of 53: every gate but your own count of landings. `path-refs` reads 6,531 citations and all resolve |
+
+Three things it shows that the first run hid or did not meet:
+
+- **A ledger keyed by a page's path must follow the page.** The first run rewrote the attribution baseline by
+  accident, with everything else. On your head it is the only such ledger; with series 3 and 4 of WP-0.7 landed
+  there are a few more tables keyed by a file, and the patch would let each entry follow.
+- **The one page is the record, so a gate holds it:** every row's new place exists; every page in the folder has a
+  row; and no old place is taken again by a new file, or a citation would name two pages.
+- **The word "archive" is taken here.** `docs/ARCHIVE.md` is the register of dead ideas, by `GOVERNANCE.md` § 5, and
+  `legacy/` holds their artifacts. A page that is only out of date is neither. The second run used `docs/retired/`
+  and `docs/MOVED.md`; the names are the owner's and yours.
+
+Where the one page is seen: there is no front page for `docs/` itself, so a reader who opens that folder sees a list
+of about a hundred names. One row in the front page's table of what to read for what would lead to it. That is one
+line in one kept page, the one made for orientation; whether to add it is the owner's.
+
+## 7. What this seat offers, and does not start
 
 If the owner rules for it and you want it built: the move as a patch in this seat's relay, in your patch form, with
 the rule for the path checker and its test, on the list of pages you or a reader settle. It is outside the five

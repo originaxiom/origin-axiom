@@ -21,6 +21,12 @@ that may not be edited, and passes with one rule added to the path checker (a mo
 pages go is not decided by it: age is not staleness. No ruling was made, and nothing is built: it is outside the five
 packages and waits for your word.
 
+**He then added one thing, and it is the better way** (the note's § 6): no note on any page that is kept; one general
+page that says where each moved page went. Tried in a second dry run: the same 30 pages moved as pure renames, no kept
+document edited, no citation rewritten, three other files in the commit (the one page, the path checker's rule that
+reads it, one entry of the attribution baseline that follows its page). Every gate passes but your count of landings.
+The word "archive" is taken here by the register of dead ideas, so the run used `docs/retired/` and `docs/MOVED.md`.
+
 ## Sent on 2026-11-12: series 1 of WP-0.9, two patches (card C4)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_9_SERIES_1_TWO_PATCHES.md`. The patches and what was
