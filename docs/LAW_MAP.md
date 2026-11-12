@@ -566,3 +566,22 @@ The wave read against every standing row. Five of the eleven arcs are about the 
 
 No standing row is contradicted, and none is changed. One row's scope is said (B1609, B1610).
 
+<!-- doc-currency read 2026-11-12: where the work stands, three cards of other sessions verified on main, the foundation at two versions, the public form, the digest, two enforcement series, Review 79 (B1883-B1893) -->
+
+## CURRENCY READ — 2026-11-12 (B1883–B1893)
+
+The wave read against every standing row. None of the eleven arcs creates a law. Six are about the record-machine
+(B1883, B1888, B1889, B1890, B1892, B1893) and two are the foundation's versions 1.65 and 1.66 (B1886, B1891).
+
+- **Three verify cards of other sessions on main, and add no row.** B1884: what level a ground names, a thread result
+  about one history. B1885: the golden state on the whole, conditional on stated choices. B1887: the check of the
+  loop, thread facts about single histories.
+- **One row was scoped at Review 79, with no change to what it states.** THE FIBRE LOOPS ACT BY PARITY (B1641): the
+  index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one (B1796, and
+  the foundation's row FK10 since its version 1.59).
+- **One row is known to be incomplete and is not yet mended.** The row of B1882 gives the bottom end of the window
+  with no menu. Under the first null's covariant menu the figure is another. A reader's second round found it, and
+  main has reproduced it; it is mended with main's answers to that round (register row P-814).
+
+No standing row is contradicted, and none is changed.
+

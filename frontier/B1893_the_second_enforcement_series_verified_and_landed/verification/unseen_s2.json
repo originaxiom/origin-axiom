@@ -1,0 +1,160 @@
+{
+ "head": "c8dc832ed",
+ "failing before any plant": [
+  "review-fires",
+  "views-generated"
+ ],
+ "U10.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "identification-register"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"bc3e50371: authored by 't', not originaxiom\"]",
+   "identification-register": "['docs/IDENTIFICATION_BASELINE.json missing or unreadable (JSONDecodeError): the ratchet cannot be read']"
+  },
+  "CAUGHT": true
+ },
+ "U10.b": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "identification-register"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"c310d1f6a: authored by 't', not originaxiom\"]",
+   "identification-register": "['the baseline rose 20 -> 23 since e6298271a, and the raises recorded since then account for 0. A ceiling does not rise without a recorded act: add the raise to _baseline_raises with its date and its reason']"
+  },
+  "CAUGHT": true
+ },
+ "U10.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "identification-register"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"bf8f545e2: authored by 't', not originaxiom\"]",
+   "identification-register": "[\"docs/IDENTIFICATION_BASELINE.json holds no count under 'unearned' (None): the ratchet cannot be read\"]"
+  },
+  "CAUGHT": true
+ },
+ "U19.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "attribution"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"4e40efed6: authored by 't', not originaxiom\", '1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: docs/A_PLANTED_PAGE.md 0 -> 4. A ceiling does not rise without a recorded act: lower it again, or name"
+  },
+  "CAUGHT": true
+ },
+ "U19.b": {
+  "note": "lowered CHANGELOG.md, raised PROGRESS_LOG.md",
+  "committed": true,
+  "named gate": [
+   "attribution"
+  ],
+  "gates newly failing": {
+   "attribution": "['CHANGELOG.md (4 vendor tokens, baseline 2)', 'last-commit author: t', \"41906ef6e: authored by 't', not originaxiom\", '1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: PROGRESS_LOG.md 6 -> 8. A ceiling does not rise without "
+  },
+  "CAUGHT": true
+ },
+ "U11.a": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "retraction-sweep"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"374a473ea: authored by 't', not originaxiom\"]",
+   "doc-currency": "doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1889 (lag 601 existing arcs) -- declared 2026-08-09 (B984): 129 arcs stale. Gate 5 governs what may enter, not whether it is current; the cascade layer (B860-B873) is absent. ",
+   "retraction-sweep": "29 retracted phrase(s) left docs/RETRACTED_PHRASES.md since e6298271a with no record: 174 closings, still 0 arithmetic; 5 by ramification; 83 of 83; all 48 surjections give κ = 0, so **the McKay door** is not . Nothing leaves a ledger without a recorded act: p"
+  },
+  "CAUGHT": true
+ },
+ "U11.b": {
+  "note": "pasted: stops one step short",
+  "committed": true,
+  "named gate": [
+   "retraction-sweep"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"eca75c700: authored by 't', not originaxiom\"]",
+   "retraction-sweep": "10 retracted phrase(s) left docs/RETRACTED_PHRASES.md since e6298271a with no record: 5 by ramification; 83 of 83; all 83 members; chirality and rank compete for one resource. Nothing leaves a ledger without a recorded act: put it back, or name it in LEFT_BY_N"
+  },
+  "CAUGHT": true
+ },
+ "U12.a": {
+  "note": "65 locks deleted",
+  "committed": true,
+  "named gate": null,
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"f99d8c8f5: authored by 't', not originaxiom\"]",
+   "path-refs": "3 unresolved path citation(s): docs/THEOREM_REGISTRY.md -> frontier/B1832_the_agy_lanes_digested/verification/test_b1832_the_agy_lanes_digested.py; docs/THEOREM_REGISTRY.md -> frontier/B1836_the_seats_past_s300_verified/verification/test_b1836_the_seats_past_s",
+   "test-vacuity": "65 lock file(s) left the repository since e6298271a with no record: frontier/B1221_global_form_path_independence/verification/test_b1221_kernel_under_rescaling.py; frontier/B1488_review_60_the_first_review_that_fired/verification/test_b1488_review_60.py; front"
+  },
+  "CAUGHT": true
+ },
+ "U12.b": {
+  "note": "1407 files made to skip (the mark appended at the end, where the case said the second line: the same effect without breaking a docstring)",
+  "committed": true,
+  "named gate": null,
+  "gates newly failing": {
+   "artifact-hashes": "tests/test_b749_genesis_forks.py: MISMATCH against frontier/B749_genesis_forks/ARTIFACT_HASHES.txt -- a file a seal hashed has changed, or a list names what is not there",
+   "attribution": "['last-commit author: t', \"0365c1231: authored by 't', not originaxiom\"]"
+  },
+  "CAUGHT": true
+ },
+ "U12.c": {
+  "note": "20 files renamed",
+  "committed": true,
+  "named gate": null,
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"f8dedcd09: authored by 't', not originaxiom\"]",
+   "chain-locks": "THE CHAIN -- locks cited but absent: C1 -> tests/test_b1003_f2_f8_locks.py, C2 -> tests/test_b1003_f2_f8_locks.py, C2 -> tests/test_b1003_f2_f8_locks.py, C56 -> tests/test_b1003_f2_f8_locks.py, C56 -> tests/test_b1003_f2_f8_locks.py",
+   "law-map-provenance": "LAW_MAP provenance -- cited locks absent: test_b1019_l149.py, test_b1024_l153.py, test_b1026_b1027_crossing.py",
+   "path-refs": "15 unresolved path citation(s): CHANGELOG.md -> tests/test_b1003_f2_f8_locks.py; docs/ERROR_LEDGER.md -> tests/test_b1003_f2_f8_locks.py; docs/LAW_MAP.md -> tests/test_b1003_f2_f8_locks.py; docs/LAW_MAP.md -> tests/test_b1019_l149.py; docs/LAW_MAP.md -> tests/",
+   "test-vacuity": "20 lock file(s) left the repository since e6298271a with no record: tests/test_b1003_f2_f8_locks.py; tests/test_b1007_arb_maass.py; tests/test_b1009_verification.py; tests/test_b100_literature_crosscheck.py. A lock is not deleted without a recorded retirement:"
+  },
+  "CAUGHT": true
+ },
+ "U13.a": {
+  "note": "162 of 324 rows deleted",
+  "committed": true,
+  "named gate": null,
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"f38db731c: authored by 't', not originaxiom\"]",
+   "inputs-scoreboard": "inputs-scoreboard: B F1: typed FORCED-BY-MAIN but its basis names no existing registry or law-map row; B F2: typed FORCED-BY-MAIN but its basis names no existing registry or law-map row; B F6: typed FORCED-BY-MAIN but its basis names no existing registry or la",
+   "law-map-provenance": "LAW_MAP provenance -- 162 law(s) left docs/LAW_MAP.md since e6298271a with no record: A COUNT IS ODD UNDER DUALISING, NOT UNDER THE MIRROR (B1297,; A FLAT LINE SPLITS THE SECTORS BY AT MOST FOUR (B1692; the f; A REFUSAL IS ENCODED; A SELECTION IS NOT (B1410); ",
+   "representation-sweep": "['B857 (PROVED, claim 645)', 'B924 (NEGATIVE, claim 1082)', 'B954 (PROVED, claim 2790)', 'B956 (PROVED, claim 3531)', 'B987 (PROVED, claim 2873)']"
+  },
+  "CAUGHT": true
+ },
+ "U13.b": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "chain-locks"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"932152bec: authored by 't', not originaxiom\"]",
+   "chain-locks": "THE CHAIN -- 56 link(s) left docs/THEOREM_LEDGER.md since e6298271a with no record: C10; C11; C12; C13. Nothing leaves a ledger without a recorded act: put it back, or name it in LEFT_BY_NAME with its date and what became of it"
+  },
+  "CAUGHT": true
+ },
+ "U13.c": {
+  "note": "",
+  "committed": true,
+  "named gate": [
+   "identification-register"
+  ],
+  "gates newly failing": {
+   "attribution": "['last-commit author: t', \"546edeca0: authored by 't', not originaxiom\"]",
+   "identification-register": "[\"B1231: declares 'I-6', no ledger row\", \"B1231: declares 'I-7', no ledger row\", \"B1232: declares 'I-7', no ledger row\", \"B1233: declares 'I-8', no ledger row\", \"B1235: declares 'I-10', no ledger row\"]"
+  },
+  "CAUGHT": true
+ }
+}

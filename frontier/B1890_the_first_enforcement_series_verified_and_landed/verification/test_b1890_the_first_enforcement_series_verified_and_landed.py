@@ -23,7 +23,12 @@ def _gates():
 
 def test_the_series_is_on_main():
     g = _gates()
-    assert callable(g.checkout_state) and len(g.READS_TRACKED) == 6 and len(g.READS_HISTORY) == 14
+    # CORRECTED 2026-11-12 (B1893).  This line pinned the sizes of the two tables, 6 and 14.  The second series moved two
+    # gates from the first table to the second and added three, and a lock that pins a count fails on every honest change
+    # (register row P-808).  It now holds the rule: no gate is in both tables, every entry is a gate, and the six gates that
+    # read the tracked files only on the day of the first series are each still in one of the two.
+    then = {"arrival-phrases", "path-refs", "retraction-sweep", "test-vacuity", "tracked-deps", "tracked-forbidden"}
+    assert callable(g.checkout_state) and not (g.READS_TRACKED & g.READS_HISTORY) and then <= (g.READS_TRACKED | g.READS_HISTORY) <= set(g.GATES)
     assert (ROOT / "scripts" / "checks" / "commit_day.py").is_file() and (ROOT / "tests" / "test_gates_are_a_function_of_the_commit.py").is_file()
     assert g.COMMIT_DAY_FROM.startswith("ea41e6fc9") and g.commit_day_problems() == []
 

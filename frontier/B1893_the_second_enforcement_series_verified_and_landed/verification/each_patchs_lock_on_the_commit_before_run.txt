@@ -1,0 +1,14 @@
+THE SECOND SERIES, APPLIED BY git am ON MAIN'S 896cae025 (six commits, no conflict).  EACH PATCH'S LOCK
+(tests/test_nothing_leaves_a_ledger.py as that patch leaves it) RUN ON THE COMMIT BEFORE THE PATCH.  Run by main, 2026-11-12.
+
+patch 1's lock on main's 896cae025:        5 failed in 7.75s
+patch 2's lock on the commit of patch 1:   4 failed, 5 passed in 20.49s
+patch 3's lock on the commit of patch 2:   5 failed, 9 passed in 31.73s
+patch 4's lock on the commit of patch 3:   5 failed, 14 passed in 58.54s
+patch 5's lock on the commit of patch 4:   3 failed, 19 passed in 143.22s (0:02:23)
+patch 6's lock on the commit of patch 5:   not run by main.  The patch adds one assertion that holds before it as well: it
+                                           pins the anchor's value.  The seat's own run gives 22 passed.
+
+THE SERIES' LOCK ON THE END OF THE SERIES: 22 passed in 105.40s (0:01:45)
+
+These are the numbers the seat gave for the same runs on its own base: 5; 4 and 5; 5 and 9; 5 and 14; 3 and 19; 22.

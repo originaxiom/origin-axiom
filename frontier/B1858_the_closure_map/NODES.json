@@ -6876,5 +6876,29 @@
    "P-813": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:816",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-816 — "
+   ]
+  ],
+  "rows": [
+   "P-816"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 92,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-816": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

@@ -1,0 +1,6 @@
+A0 at the anchor                                                   (True, 'ok')
+A1 after the fall                                                  (True, 'ok')
+A2 after the rise back to the anchor's value (the plant)           (True, 'ok')
+A-control: the same rise with no fall before it                    (False, 'the baseline rose 1 -> 2 since ab5ed20aa, and the raises recorded since then account for 0. A ceiling does not rise without a recorded act: add the raise to _baseline_raises with its date and
+B after a fall 4 -> 2 and a rise back 2 -> 4 (the plant)           (None, '')
+B-control: a rise above the anchor's value                         ('1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since 7858d8ac7 with no record: a.md 4 -> 5. A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its

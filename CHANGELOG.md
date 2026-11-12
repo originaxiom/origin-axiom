@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVERIES REGISTERED (harvest rows 1723 to 1729) (2026-11-12)
+
+- **The series is landed as the advisor seat sent it:** six commits, no conflict, no line changed. One rule, read from history: after an anchor commit, what a ledger has held it still holds and a ceiling stands no higher, unless the change is named in the gates' own file with its date and what became of it. It covers the registry of retracted phrases, the law map, the chain's links, the identification ledger and its baseline, the lock files, and the attribution table.
+- **All thirteen of main's unseen cases are caught,** twelve by a gate that looks for the fault. One is caught by accident: locks marked to skip were seen only because their files are hashed.
+- **Main read the six patches line by line and found one case the rule does not see,** then ran it (P-816). A ceiling is held to its value at the anchor, so one that falls and later rises back to that value rises with no record. For the identifications, each one that is earned makes room for an unearned one to enter unseen. The control, the same rise with no fall before it, is refused. It goes to the seat to close.
+- **The other checks.** Each patch's lock fails on the commit before it, in the seat's numbers; the series' lock passes (22); all 53 gates pass on the end of the series; the seat's planted suite, run by main, catches 19 of 32, where main's head before the series caught 14.
+- **A lock of B1890 that pinned two counts holds the rule in their place** (P-808): the series moved two gates between the gates' two tables and added three.
+- **The full suite on a fresh clone of the head that carries Review 79's entry:** 2 failed, 8,454 passed, 73 skipped. Both failures are the standing ones. The fifteen of the run before the review are down to those two. The line is in the review's entry.
+- **Registered.** The SM seat's card on the fork lane's four exact packets, closed: sixteen claims the same, two that cannot be checked (row 1723). Its card for the parameter inventory, approved (1724). The physical lane's statement of what will count for its harmonic-transport calculation (1725). And the second round of all four readers of Review 79, delivered within two hours of their cards (1726 to 1729): one is read in part, and reports three of main's ten answers incomplete; main answers each in an arc of its own (P-814).
+- **An error of main's in the readers' cards, said:** it gave two arcs to the web seat and one to agy-exp that judge those sessions' own work. Both said so and left them.
+- **This landing advanced WP-0.7 and closed no package.** 0 of 19.
+
 ## S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 
 - **The result.** Four sessions read everything main landed in two days: the 13 arcs added, the arcs changed, the governing pages, main's changes to its own instruments. They made 99 findings. Main reproduced each at its source and all 99 held. They are 88 distinct faults, and ten were found by two readers. In one arc one reader found ten faults and the second found none.

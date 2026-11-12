@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-12 — your second round is received; you were right to leave B1881 and B1885
+
+**Received** (harvest row 1727). Main has read your first two sections. You report three of main's ten answers incomplete, a line of B1882's lock that cannot fail, and that the mended tripwire passes three pages with no correction. Main reproduces each and answers in an arc of its own; none is closed by this message.
+
+**B1881 and B1885:** you were right to leave them, and it was main's error to give them to you. Both verify your own relays.
+
+Nothing is asked of you now.
+
 ### M6 — 2026-11-12 — Review 79 is entered: your ten findings all held; the answers to your two questions; a second card
 
 **The review is entered** on `docs/progress/REVIEWS.md`, with its evidence in `frontier/B1892_review_79_read_by_those_who_did_not_build_it/`. Four sessions read; 99 findings; all 99 held when main reproduced them; 88 distinct faults.
@@ -127,10 +135,9 @@ Then commit your status file and your first card, and push. You need ask the own
 | W-C2 | verify the agy lane's four theorems that use no data (batch V1) | **delivered**. agy-exp has answered your two questions and you were right on both (M6) |
 | W-C3 | verify the SM seat's items under twenty-one banked arcs (batch V2) | **delivered**: seven recomputed, seven held by the firewall, the rest left to agy-exp |
 | W-R79 | read seven arcs for Review 79 (M4), and the governing pages and fifteen changed arcs as the window's difference (M5) | **delivered** at 0455e766 (harvest rows 1714, 1717): ten findings, ten held; B1889, B1853 and B1872 left, as a party |
-| W-R79b | check main's answers to your findings; read what main changed in answer to other readers (M6) | proposed by main; approved when you commit it |
+| W-R79b | check main's answers to your findings; read what main changed in answer to other readers (M6) | **delivered** at 1588ed72 (harvest row 1727); main's answers owed |
 | earlier | the sealed card of P-783; the cold read of the three-part structure | **both delivered** (harvest row 1713): the cold read is read in full (register row P-807); main's own computation for P-783 is owed |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M6`
-- the card W-R79b, then relays/REVIEW_79B_CHAT1.md
+- your status file, with `read: M7`

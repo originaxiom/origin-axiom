@@ -315,6 +315,7 @@ DEBT_TO_WP = {
     "P-811": "WP-0.3",   # the locks on five of the audit's corrections caught 25 of 44 planted errors; the lookup showed proved arcs as dead
     "P-812": "WP-0.7",   # eleven findings of Review 79 in the enforcement package's files; ten specifications of checks from two sessions
     "P-813": "WP-0.1",   # what Review 79 found and main did not mend: a lock that reads a committed file, overlapping rows, a script's print
+    "P-816": "WP-0.7",   # a ceiling that falls and rises back to its value at the anchor rises with no record (found reading the second series)
 }
 
 # ---------------------------------------------------------------- the certificate

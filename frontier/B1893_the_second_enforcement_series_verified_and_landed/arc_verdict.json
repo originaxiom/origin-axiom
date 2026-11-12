@@ -1,0 +1,27 @@
+{
+ "id": "B1893",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1890",
+  "B1870",
+  "B1892"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat (cld-advisor): its second patch series for the enforcement package, six patches, with its note (@ 636e90e4), the note read in part and the patches line by line; applied on main as its six commits"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a test of the record's own instruments)",
+  "object": "the gates at main's head with the series applied; thirteen planted cases written before the series existed, and two written after reading it",
+  "reach": "general",
+  "hypotheses": "holds on: the five gates the series changes and the attribution gate, in scratch clones of main with each case committed, and in small repositories made with the series' own helpers. Not covered: the whole suite on a fresh clone with the series applied; the unseen cases run again on today's head, the patches being unchanged since they were run; a history that reaches the anchor through a merge; the mend of the case main found by reading."
+ },
+ "claim_one_line": "THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledger has held it still holds and a ceiling stands no higher, unless the change is named in the gates' own file with its date and what became of it (the registry of retracted phrases, the law map by the bold title of a row, the chain's links, the identification ledger and its baseline, the lock files, the attribution table's ceilings; the anchor pinned in the lock). ALL THIRTEEN OF MAIN'S UNSEEN CASES ARE CAUGHT, twelve by a gate that looks for the fault and one by accident, locks marked to skip being caught only because their files are hashed. Each patch's lock fails on the commit before it in the numbers the seat gave; the series' lock passes (22); 53 gates pass on the end of the series. ONE THING THE RULE DOES NOT SEE, FOUND BY MAIN READING THE PATCHES AND THEN RUN: a ceiling is held to its value at the anchor, so one that falls and later rises back to that value rises with no record, and each identification that is earned makes room for an unearned one to enter unseen; the control, the same rise with no fall before it, is refused. It is the seat's to close. 0 of 19.",
+ "weave_or_thread": "n/a (a test of the record's instruments; no statement about the weave or a history)"
+}

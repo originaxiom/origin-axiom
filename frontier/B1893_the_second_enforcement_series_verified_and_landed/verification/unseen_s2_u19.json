@@ -1,0 +1,35 @@
+{
+ "head": "c8dc832ed4bec38bc2f68be2d9b19f77437c72f0",
+ "failing before any plant": [
+  "review-fires",
+  "views-generated"
+ ],
+ "control": {
+  "committed": true,
+  "gates newly failing": []
+ },
+ "U19.a": {
+  "note": "",
+  "committed": true,
+  "gates newly failing": {
+   "attribution": "['1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: docs/A_PLANTED_PAGE.md 0 -> 4. A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why']"
+  },
+  "attribution": [
+   "FAIL",
+   "['1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: docs/A_PLANTED_PAGE.md 0 -> 4. A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why']"
+  ],
+  "CAUGHT": true
+ },
+ "U19.b": {
+  "note": "lowered CHANGELOG.md, raised PROGRESS_LOG.md",
+  "committed": true,
+  "gates newly failing": {
+   "attribution": "['CHANGELOG.md (4 vendor tokens, baseline 2)', '1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: PROGRESS_LOG.md 6 -> 8. A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why']"
+  },
+  "attribution": [
+   "FAIL",
+   "['CHANGELOG.md (4 vendor tokens, baseline 2)', '1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: PROGRESS_LOG.md 6 -> 8. A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why']"
+  ],
+  "CAUGHT": true
+ }
+}

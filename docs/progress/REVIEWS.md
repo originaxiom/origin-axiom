@@ -8819,6 +8819,7 @@ advisor seat's, and a new one, agy-002's, registered when it appeared.
 
 fresh-clone: PASS @ 79509fa5a (gates all PASS; belt ok) (run after the entry and its views were committed; the review's landing is 84baf38fb. The tool clones a commit, so this line was written in the commit after the run, as at Review 78; the landing itself carried a line saying the run was not yet made)
 fresh-clone suite: FAIL @ 323f92327 (15 failed, 8422 passed, 72 skipped): twelve were main's own of this window, eleven verdict files whose scope broke the schema and one ledger row, mended at f8b5e6769; one fails by construction while a waiver is live; two are standing (tests/test_b805_forcing.py, P-239). Run again at the head that carries this entry (R79-13)
+fresh-clone suite, the head that carries this entry: FAIL @ 896cae025 (2 failed, 8454 passed, 73 skipped, 6 warnings); failing: tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden, tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment (both standing, P-239; none from the window). Written at the landing after the entry's
 sample seed: none drawn. Every arc of the window was read in full, under register row P-805; the tool's draw from the anchor 38d2a36dc would have been B1880, B1881, B1885, B1887, B1890
 gate controls: 53 registered failing-path tests; unregistered: none. A control is counted by its name: sixteen of the 53 do not depend on their gate's answer (register row P-808)
 

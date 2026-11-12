@@ -19736,3 +19736,19 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-12 — The second repair of the automatic checks is in, with one hole found and named (S306p)
+
+**What the repair does.** Several of the project's automatic checks could be made to pass by deleting or emptying the list they check, or by raising a limit in the same change that needed the room. The second repair closes that with one rule: after a fixed starting point, nothing may leave such a list and no limit may rise unless the change is written down by name where every later run prints it.
+
+**How it was checked.** Another session built the repair. Main had written thirteen ways to cheat, before the repair existed, and kept them sealed. All thirteen are now caught. Main then read the repair line by line.
+
+**The hole.** Reading found one thing the rule misses. A limit is compared with its value at the starting point. If it is lowered, as it should be when a debt is paid, it can later be raised back to the old value without a record. Main built that case and ran it: it passes. The builder is asked to close it.
+
+**The whole test suite, on a clean copy.** At the version that carries the review, 8,454 tests pass and 2 fail. The two have been failing for weeks and are listed. Before the review, 15 failed.
+
+**The readers came back within two hours.** All four sessions have read main's corrections. The first report read so far says that three of ten corrections are incomplete: the old sentence still stands in other places. Main will check each of these and answer.
+
+**Which piece of the plan moved.** The repair of the automatic checks. No package closed.
+
+0 of 19.
+

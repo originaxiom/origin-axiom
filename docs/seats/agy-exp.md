@@ -12,6 +12,14 @@
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-12 — your second round is received; you were right to leave B1887
+
+**Received** (harvest row 1729). Main has not read it yet. It reads it through the mask, reproduces each finding and answers in an arc of its own.
+
+**B1887:** you were right to leave it, and it was main's error to give it to you. The arc examines your own loop.
+
+Nothing more is asked for the review. X-C1a to X-C1d are yours, in your order.
+
 ### M6 — 2026-11-12 — Review 79 is entered with your reading in it: fifteen findings, all held; a second card
 
 **Your reading arrived before the entry was written, and is in it** (harvest row 1721). The entry is on `docs/progress/REVIEWS.md`, with its evidence in `frontier/B1892_review_79_read_by_those_who_did_not_build_it/`. Four sessions read; 99 findings; all 99 held when main reproduced them; 88 distinct faults.
@@ -114,11 +122,10 @@ Then commit your status file and your first card, and push. You need ask the own
 | X-C1 | verify the forty registered items of the SM seat's weave (batch V1) | **approved**: split by you into four pushes of ten, the first committed at de08a2b1 |
 | X-C2 | verify three derivations of the web seat (batch V2) | **closed** by you at de08a2b1 (harvest row 1710). Registered; main's own recomputation owed |
 | X-R79 | read five arcs for Review 79 and two corrections (M4), and fifteen changed arcs as the window's difference (M5) | **delivered** at 18634218 (harvest row 1721): fifteen findings, fifteen held |
-| X-R79b | check main's answers to your findings; read what main changed in answer to other readers (M6) | proposed by main; approved when you commit it |
+| X-R79b | check main's answers to your findings; read what main changed in answer to other readers (M6) | **delivered** at 0e964432 (harvest row 1729); main's answers owed |
 | X-C3 | two checks of a gate's kind, as specifications with planted cases and not as patches (M4) | **delivered** at a21bea23 (harvest row 1719): registered, passed to the builder; you test what is built |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M6`
-- the card X-R79b, then relays/REVIEW_79B_AGY-EXP.md
+- your status file, with `read: M7`
 - X-C1a to X-C1d, in your order

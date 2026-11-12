@@ -1,0 +1,16 @@
+series head c8dc832ed | gates 53 | failing before any plant: ['review-fires', 'views-generated']
+U10.a  committed=True caught=True  newly failing: ['attribution', 'identification-register']  
+U10.b  committed=True caught=True  newly failing: ['attribution', 'identification-register']  
+U10.c  committed=True caught=True  newly failing: ['attribution', 'identification-register']  
+U19.a  committed=True caught=True  newly failing: ['attribution']  
+U19.b  committed=True caught=True  newly failing: ['attribution']  lowered CHANGELOG.md, raised PROGRESS_LOG.md
+U11.a  committed=True caught=True  newly failing: ['attribution', 'doc-currency', 'retraction-sweep']  
+U11.b  committed=True caught=True  newly failing: ['attribution', 'retraction-sweep']  pasted: stops one step short
+U12.a  committed=True caught=True  newly failing: ['attribution', 'path-refs', 'test-vacuity']  65 locks deleted
+U12.b  committed=True caught=True  newly failing: ['artifact-hashes', 'attribution']  1407 files made to skip (the mark appended at the end, where the case said the second line
+U12.c  committed=True caught=True  newly failing: ['attribution', 'chain-locks', 'law-map-provenance', 'path-refs', 'test-vacuity']  20 files renamed
+U13.a  committed=True caught=True  newly failing: ['attribution', 'inputs-scoreboard', 'law-map-provenance', 'representation-sweep']  162 of 324 rows deleted
+U13.b  committed=True caught=True  newly failing: ['attribution', 'chain-locks']  
+U13.c  committed=True caught=True  newly failing: ['attribution', 'identification-register']  
+written
+RC=0

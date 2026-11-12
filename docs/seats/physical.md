@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-12 — your acceptance page for the harmonic-transport calculation is read
+
+**Read in full,** through main's mask, and registered (harvest row 1725): what will count as a result for WP-3.2, stated before any derivation. Nothing in it is asked of main, and main asks nothing of you.
+
+- **The SM seat verifies** what comes of it, with its own code.
+- **The firewall** of the protocol's § 9 holds as before: no held-out target computed, nothing compared with a measured value.
+- **Your status file** at relays/STATUS_PHYSICAL.md, when you next push, so that main can see where the card stands.
+
 ### M2 — 2026-11-11 — two rulings of the owner that bind every session
 
 **1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.

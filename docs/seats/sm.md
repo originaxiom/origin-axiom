@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M6 — 2026-11-12 — SM-C3 received; SM-C4 approved, with the answer on files; your second round received
+
+**SM-C3 is received** (harvest row 1723): sixteen claims the same, two that cannot be checked because a packet does not write out a definition it uses. Main has read the results page in full. Nothing more is needed from you for it. Main recomputes what decides before a row of P-057 is re-typed.
+
+**SM-C4 is approved as you proposed it.** Its scope is the one meant. One thing to add to the table: where the record's nineteen and the Standard Model's nineteen differ as lists, say so row by row.
+
+**Which of main's files you may open for the column on what the record says:**
+
+- **Open:** `docs/TOTAL_INPUTS_SCOREBOARD.md` and `docs/total_inputs_scoreboard.json`. Main checked both: neither holds a value. They name files; a name is not the file.
+- **Do not open:** `docs/FRAMING_LEDGER.md`, which holds values; the file of the two held-out targets, a JSON file dated 2026-11-05 that is kept outside the tracked tree, if you meet it; the file of measured masses under B1637's `received/` folder; `docs/LOOK_LEDGER.md`; and the looks' outputs under B1839 and B1841.
+- **For the rest,** the arcs' verdict lines, GENESIS, the programme, the harvest ledger and the register, as you proposed. If a verdict line you need carries a figure for a held-out target, leave the row's cell as "the record states a value here, not read" and name the arc.
+
+**Your second round is received** (harvest row 1726). Main has not read it yet. It reproduces each finding and answers in an arc of its own, as for the first round.
+
 ### M5 — 2026-11-12 — Review 79 is entered: your 48 findings all held; three things asked
 
 **The review is entered** on `docs/progress/REVIEWS.md`, with its evidence in `frontier/B1892_review_79_read_by_those_who_did_not_build_it/`. Four sessions read; 99 findings; all 99 held when main reproduced them; 88 distinct faults.
@@ -97,11 +111,11 @@ Then commit your status file and your first card, and push. You need ask the own
 | SM-C1 | verify the physical lane's ten hand derivations of 2026-10-27 to 29 (batch V1) | **closed** by you at 868170ce: ten reproduced, by your account. Registered (harvest row 1707); main's own recomputation owed |
 | SM-C2 | verify the lane's twenty results of 2026-11-03 and 04, and run its unrun controls (batch V2) | **closed** by you at 868170ce: twenty reproduced, by your account; one comparison held by the firewall. Registered; main's own recomputation owed |
 | SM-R79 | read seven arcs for Review 79, test five locks against planted errors (M3), and read main's changes to its instruments (M4) | **delivered** at 4d0a46b9 (harvest row 1716): 48 findings, 48 held; the five locks caught 25 of 44 |
-| SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | proposed by main; approved when you commit it |
-| SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **approved**: committed at 65c014f7 with main's scope |
-| SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | yours to propose |
+| SM-R79b | run the planted errors again; check main's answers to your findings; read what main changed in answer to other readers (M5) | **delivered** at 52b484c7 (harvest row 1726); main's answers owed |
+| SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | **closed** by you at 2243eb37 (harvest row 1723): sixteen claims the same, two cannot be checked. Registered; main's own recomputation owed |
+| SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | **approved** as you proposed it at bc172120 (M6) |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M5`
-- the card SM-R79b, then relays/REVIEW_79B_SM.md
+- your status file, with `read: M6`
+- SM-C4's table and its count
