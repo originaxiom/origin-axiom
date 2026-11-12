@@ -677,6 +677,14 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
     for text in ("Given the unit, the chiral three is an index on the weave's own surface; the three lines carry a vector of units",) * 1:
         out = bp.short(text, 60)
         assert out.endswith(" […]") and text.startswith(out[:-4]) and text[len(out) - 4] == " "
+    # ADDED 2026-11-12 (Review 80; a reader's finding F10, its second part).  Each of the first five came back as the mark
+    # alone, or as one dash or one bracket and the mark, before the builder's correction of that day.
+    for text in (", " + "y" * 200, "— " + "y" * 200, "( " + "y" * 200, ",;:" * 60, ": " + "y" * 120 + " and more words"):
+        out = bp.short(text, 110)
+        assert out.endswith(" […]") and len(out) > 100 and text.startswith(out[:-4]), out
+    assert any(c.isalnum() for c in bp.short(", " + "y" * 200, 110))             # what is kept holds a word
+    dash = "— a sentence of ordinary words that goes on for longer than the cut allows, so that it must be cut at a word's end and marked"
+    assert bp.short(dash, 110) == "— a sentence of ordinary words that goes on for longer than the cut allows, so that it must be cut at a word's […]"   # a twin: unchanged
     # MOVED 2026-11-12 (Review 80; the SM seat's finding 29).  Two lines stood here:
     #     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
     #     assert "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page

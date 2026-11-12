@@ -642,7 +642,15 @@ def short(s, n=110):
     head = s[:n + 1]                                   # one character more: a space there means the last word is whole
     cut = head.rfind(" ")
     head = head[:cut] if cut > 0 else s[:n]
-    return head.rstrip(" ,;:") + " […]"
+    # CORRECTED 2026-11-12 (Review 80; a reader's finding F10, its second part).  The last line was
+    #     return head.rstrip(" ,;:") + " […]"
+    # A text that opens with punctuation and a space, and then holds a word longer than the cut, was cut at that first space:
+    # what was kept held no word, and came back as the mark alone, or as one dash and the mark.  Where the cut keeps no letter
+    # and no digit, the text is cut at n characters, as a single long word is.
+    kept = head.rstrip(" ,;:")
+    if not any(c.isalnum() for c in kept):
+        kept = s[:n].rstrip(" ,;:") or s[:n]
+    return kept + " […]"
 
 
 def render(B):
