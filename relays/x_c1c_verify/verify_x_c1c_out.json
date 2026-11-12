@@ -1,0 +1,1083 @@
+{
+  "card": "X-C1c",
+  "e8_sanity": {
+    "integral_inner_products": true,
+    "n_roots": 240,
+    "norms_two": true,
+    "ok": true
+  },
+  "elapsed_seconds": 79.006,
+  "negative_controls": {
+    "C1c_1": {
+      "computed": {
+        "Q8": 55,
+        "fs_rhoQ": -1,
+        "parity": 82
+      },
+      "fired": true,
+      "planted": {
+        "Q8": 82,
+        "fs_rhoQ": 1,
+        "parity": 55
+      }
+    },
+    "C1c_2": {
+      "fired": true,
+      "per_n": {
+        "3": true,
+        "5": true,
+        "6": true
+      }
+    },
+    "C1c_3": {
+      "dp_k1_k2_rejected": true,
+      "fired": true,
+      "planted_free": {
+        "1": [
+          -1,
+          2
+        ],
+        "2": [
+          -2,
+          1
+        ],
+        "3": [
+          -3,
+          0
+        ],
+        "4": [
+          -4,
+          -1
+        ]
+      },
+      "planted_shift_admits_three": false,
+      "true_free": {
+        "1": [
+          -1,
+          2
+        ],
+        "2": [
+          -2,
+          1
+        ],
+        "3": [
+          -1,
+          2
+        ],
+        "4": [
+          -2,
+          1
+        ]
+      }
+    },
+    "all_controls_fired": true
+  },
+  "own_x_c1b_helpers_sha256": "47ad188ce8a1932600ff559a41ae8538f729361f4dd13b6a68cd211682d49431",
+  "rows": {
+    "938": {
+      "commits": [
+        "f43b346a6",
+        "240d3ddf2"
+      ],
+      "readings": "bar-grading synthesis clauses: reading (not independently checked); section 3 empirical comparisons: cannot check (0 of 19)",
+      "result": "the same",
+      "row": 938,
+      "w10": {
+        "exactly_one_chiral_twin_per_word": true,
+        "hand_rule_matches_det_on_odd_states": true,
+        "odd_states": 326,
+        "ok": true,
+        "order_L_R_N_pm": 96,
+        "order_L_R_pm": 96,
+        "order_with_swap": 192
+      },
+      "w8_lemma_v": {
+        "every_line_with_h1_positive_reads_1_1_0": true,
+        "histogram": {
+          "chi0_t+:(h1,r1,n)=(1,1,0)": 24,
+          "chi0_t-:(h1,r1,n)=(0,0,0)": 24,
+          "chi1_t+:(h1,r1,n)=(0,0,0)": 8,
+          "chi1_t+:(h1,r1,n)=(1,1,0)": 16,
+          "chi1_t-:(h1,r1,n)=(0,0,0)": 16,
+          "chi1_t-:(h1,r1,n)=(1,1,0)": 8,
+          "chi2_t+:(h1,r1,n)=(0,0,0)": 8,
+          "chi2_t+:(h1,r1,n)=(1,1,0)": 16,
+          "chi2_t-:(h1,r1,n)=(0,0,0)": 16,
+          "chi2_t-:(h1,r1,n)=(1,1,0)": 8,
+          "chi3_t+:(h1,r1,n)=(1,1,0)": 24,
+          "chi3_t-:(h1,r1,n)=(0,0,0)": 24
+        },
+        "interior_zero_on_every_line": true,
+        "lines": 192,
+        "lines_with_h1_positive": 96,
+        "ok": true,
+        "states": 24
+      },
+      "w9_spin_doublet": {
+        "cyclic_of_order_eight": true,
+        "element_orders_moves": {
+          "1": 1,
+          "2": 1,
+          "4": 2,
+          "8": 4
+        },
+        "element_orders_with_swap": {
+          "1": 1,
+          "2": 1,
+          "4": 10,
+          "8": 4
+        },
+        "generalized_quaternion_sixteen": true,
+        "h1_dim": 2,
+        "order_L_R_N_pm": 8,
+        "order_L_R_pm": 8,
+        "order_with_swap": 16
+      }
+    },
+    "941": {
+      "commits": [
+        "38d06718c"
+      ],
+      "f1": {
+        "fs_characters": {
+          "(0, 0)": "1",
+          "(0, 1)": "1",
+          "(1, 0)": "1",
+          "(1, 1)": "1"
+        },
+        "fs_rho_Q": -1,
+        "ok": true
+      },
+      "f2": {
+        "commutant_192": 1,
+        "fs_192": -1,
+        "fs_moves_pieces": [
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        "fs_moves_total": -2,
+        "moves_pieces": [
+          2,
+          4
+        ],
+        "ok": true,
+        "order_192": 192,
+        "order_moves": 48
+      },
+      "f3": {
+        "fs_T": 0,
+        "fs_T_bar": 0,
+        "fs_parity_triplet": 1,
+        "ok": true,
+        "order_V": 96,
+        "order_parity_rotations": 24
+      },
+      "f4": {
+        "A4_does_not": true,
+        "S4_conjugates_3cycle_to_inverse": true,
+        "centraliser_2T": 25,
+        "centraliser_Q8": 55,
+        "centraliser_single_parity": 82,
+        "ok": true,
+        "omega_multiplicity": 15,
+        "omega_sq_multiplicity": 15,
+        "order_2T": 24,
+        "quarter_turns_outside_A4": true,
+        "two_routes_agree": true
+      },
+      "readings": "F5 dictionary consequence (FK11): reading (not independently checked); Lie-algebra names identified by dimension only",
+      "result": "the same",
+      "row": 941
+    },
+    "943": {
+      "commits": [
+        "08558189c"
+      ],
+      "readings": "the stated link Lambda (FK11): input (not independently checked)",
+      "result": "the same",
+      "row": 943,
+      "t1": {
+        "ok": true,
+        "one_27": {
+          "SU2^2_Y": "0",
+          "SU3^2_Y": "0",
+          "SU3^3": "0",
+          "Y^3": "0",
+          "doublets": "6",
+          "grav^2_Y": "0"
+        },
+        "remainder": {
+          "SU2^2_Y": "0",
+          "SU3^2_Y": "0",
+          "SU3^3": "0",
+          "Y^3": "0",
+          "doublets": "2",
+          "grav^2_Y": "0"
+        },
+        "sm_with_nu_c": {
+          "SU2^2_Y": "0",
+          "SU3^2_Y": "0",
+          "SU3^3": "0",
+          "Y^3": "0",
+          "doublets": "4",
+          "grav^2_Y": "0"
+        },
+        "three_27": {
+          "SU2^2_Y": "0",
+          "SU3^2_Y": "0",
+          "SU3^3": "0",
+          "Y^3": "0",
+          "doublets": "18",
+          "grav^2_Y": "0"
+        }
+      },
+      "t2": {
+        "graded_commutant": 1,
+        "graded_indices": [
+          -3,
+          3
+        ],
+        "ok": true,
+        "ungraded_commutant": 2,
+        "ungraded_indices": [
+          -3,
+          -1,
+          1,
+          3
+        ]
+      },
+      "t3": {
+        "eight_doublets_and_32_weyl_per_sector": "input of the reading (not independently checked)",
+        "ok": true,
+        "sector_counts_passing_mod_6_among_1_to_6": [
+          3,
+          6
+        ]
+      },
+      "t4": {
+        "nu_c_per_27": 1,
+        "ok": true,
+        "remainder_content": {
+          "colour:-1/3": 3,
+          "colour:1/3": 3,
+          "singlet:0": 1,
+          "weak:-1/2": 2,
+          "weak:1/2": 2
+        }
+      }
+    },
+    "944": {
+      "commits": [
+        "57776e337"
+      ],
+      "part1": {
+        "e5": {
+          "flavour": {
+            "commutant": 4,
+            "indices": [
+              -3,
+              0,
+              3
+            ]
+          },
+          "grading": {
+            "commutant": 12,
+            "indices": [
+              -3,
+              -2,
+              -1,
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "locality": {
+            "commutant": 1,
+            "indices": [
+              -3,
+              3
+            ]
+          },
+          "moves": {
+            "commutant": 2,
+            "indices": [
+              -3,
+              -1,
+              1,
+              3
+            ]
+          },
+          "moves_and_flavour": {
+            "commutant": 1,
+            "indices": [
+              -3,
+              3
+            ]
+          },
+          "moves_and_grading": {
+            "commutant": 1,
+            "indices": [
+              -3,
+              3
+            ]
+          }
+        },
+        "flavour_stabiliser_dims": {
+          "2": 1,
+          "4": 1
+        },
+        "fs_pieces": [
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        "ok": true,
+        "order_moves": 48,
+        "piece_characters_match": true,
+        "pieces": [
+          2,
+          4
+        ]
+      },
+      "part2": {
+        "aut_Q8": 24,
+        "clifford_order": 48,
+        "i3": {
+          "anti_semion": {
+            "S2_proj": true,
+            "ST3_eq_S2_proj": true,
+            "T4_proj": true,
+            "matches_stated_map": true,
+            "n_matching_rotations": 1,
+            "verlinde_loops": true
+          },
+          "semion": {
+            "S2_proj": true,
+            "ST3_eq_S2_proj": true,
+            "T4_proj": true,
+            "matches_stated_map": true,
+            "n_matching_rotations": 1,
+            "verlinde_loops": true
+          }
+        },
+        "i4": true,
+        "i5": {
+          "centraliser_pm1": true,
+          "centre_eaten": true,
+          "identities": true,
+          "random_pairs_conjugate": true
+        },
+        "kernel": 2,
+        "mutually_unbiased": true,
+        "normalises_Q8": true,
+        "ok": true,
+        "order_histograms_equal_S4": true,
+        "pauli": true,
+        "projective_rotations": 24,
+        "psl2_z4_order": 24,
+        "same_as_H_S": true,
+        "same_as_solved_lifts": true
+      },
+      "readings": "naturality condition: stated, not derived (not independently checked)",
+      "result": "the same",
+      "row": 944
+    },
+    "945": {
+      "commits": [
+        "374410281",
+        "5dfe88f8c"
+      ],
+      "readings": "hypercharge reading of the flux, the echo and the four reasons: readings (not independently checked)",
+      "result": "the same",
+      "row": 945,
+      "supplementary_not_decisive": {
+        "bare_minus_I_eigenspace_dims": [
+          3,
+          3
+        ],
+        "bare_minus_I_eigenspaces_not_pieces": true,
+        "pieces_are_eigenspaces_of_lift_of_LRinvL_squared": true
+      },
+      "z1": {
+        "centre": 6,
+        "commutator_zeta6": true,
+        "cubes_iZ_iX": true,
+        "fs": 0,
+        "irreducible": true,
+        "ok": true,
+        "order": 216
+      },
+      "z2": {
+        "H6": 11,
+        "flux": 46,
+        "ok": true,
+        "qubit": 55,
+        "qutrit": 22,
+        "qutrit_order": 27
+      },
+      "z3": {
+        "adjoint_36_distinct": true,
+        "lambda2_ok": true,
+        "lambda2_types": [
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            6
+          ]
+        ],
+        "lambda3_ok": true,
+        "lambda3_types": [
+          [
+            2,
+            1,
+            2,
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              2,
+              0
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            2,
+            1,
+            2,
+            [
+              2,
+              2
+            ]
+          ],
+          [
+            2,
+            2,
+            4,
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "mult_6": 6,
+        "mult_6bar": 6,
+        "ok": true
+      },
+      "z4": {
+        "class_dims": {
+          "L": 1,
+          "N": 1,
+          "P": 0,
+          "PK": 1,
+          "R": 1
+        },
+        "flux_is_zeta6": true,
+        "ok": true
+      },
+      "z5": {
+        "commutant_LR": 2,
+        "commutant_with_bare_minus_I": 1,
+        "lambda2_irreducible_dims": [
+          1,
+          2,
+          3,
+          3,
+          6
+        ],
+        "n15_moves": [
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "n6_moves": [
+          -1,
+          1,
+          3,
+          5
+        ],
+        "n6_with_bare_minus_I": [
+          -1,
+          5
+        ],
+        "ok": true,
+        "pieces": [
+          2,
+          4
+        ]
+      },
+      "z6": {
+        "anomaly_free_locality": [
+          [
+            5,
+            10
+          ]
+        ],
+        "anomaly_free_moves": [
+          [
+            -1,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            5,
+            10
+          ]
+        ],
+        "ok": true
+      }
+    },
+    "946": {
+      "commits": [
+        "c52fcc47c"
+      ],
+      "q1_sym_n_commutator_is_minus_one_to_n": true,
+      "q2": {
+        "commutator_omega": true,
+        "nine_twists_conjugate": true
+      },
+      "q3": {
+        "L_R_minusI_keep_P_flips_PK_keeps_on_all_nine": true,
+        "qubit_swap_intertwiner_dim": 1
+      },
+      "q5": {
+        "commutant_LR": 2,
+        "commutant_with_bare_minus_I": 1,
+        "ok": true,
+        "pieces": [
+          1,
+          2
+        ],
+        "projective_order_LR": 24,
+        "projective_order_with_bare_minus_I": 216
+      },
+      "readings": "Q6 (the record's order-3 structures re-read) and the fork reading: readings (not independently checked)",
+      "result": "the same",
+      "row": 946
+    },
+    "947": {
+      "a4_g_roots": 20,
+      "branching_dims_sum_248": true,
+      "branching_vs_roots_max_disagreement_below_1e-8": true,
+      "cartan_left_after_SM": 4,
+      "centre_kernel_trivial": true,
+      "commits": [
+        "55c26b10e"
+      ],
+      "diagonal_centre_not_trivial": true,
+      "index_conventions_consistent": true,
+      "orthogonal_rank": 4,
+      "orthogonal_roots": 20,
+      "readings": "that a twist-eater keeping the Standard Model must have order five uses the centre of the simply connected bundle factor: argued (not independently checked as a global statement); F4's Wilson-line argument: argued in the rule (not independently checked)",
+      "result": "the same",
+      "roots_orthogonal_to_SM_equal_A4_b": true,
+      "row": 947
+    },
+    "948": {
+      "commits": [
+        "94e2fca39",
+        "2f0a00137",
+        "3afd09b4d",
+        "05cafef76"
+      ],
+      "governance_token_removed": true,
+      "p3": {
+        "bare_minus_I_lift_in_2O": true,
+        "ok": true,
+        "qubit_commutant_with_bare_minus_I": 2
+      },
+      "readings": "Phase A contemplation, main's grade, W20 and W21 figures verified by main earlier, and the commit-author governance restatement: not independently checked",
+      "result": "the same",
+      "row": 948,
+      "state_page_figures": {
+        "W25_centralisers_55_82_25": true,
+        "W29_SU3xSU2_exactly_11": true,
+        "W29_sets_LR_and_with_sign": true,
+        "W31_on_state_page_no_anomaly_free_three": true,
+        "naturality_and_locality_pm3": true,
+        "puncture_index_graded_pm3": true,
+        "qubit_clifford_2O": true,
+        "three_nonzero_parities": true
+      }
+    },
+    "949": {
+      "commits": [
+        "1fabfa960"
+      ],
+      "f1": {
+        "centre": 5,
+        "commutator_zeta5": true,
+        "fs": 0,
+        "irreducible": true,
+        "ok": true,
+        "order": 125
+      },
+      "f2": {
+        "centraliser": 24,
+        "ok": true,
+        "three_routes_agree": true
+      },
+      "f3": {
+        "five_dim_types_mults": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "fs_lambda2_type": 0,
+        "lambda2_types": [
+          [
+            5,
+            2,
+            10
+          ]
+        ],
+        "mult_5": 10,
+        "ok": true,
+        "one_dim_nontrivial_all_one": true,
+        "one_dim_trivial_mult": 24
+      },
+      "f4": {
+        "class_dims_all_fluxes": true,
+        "hypercharge_rotation": true,
+        "ok": true
+      },
+      "f5": {
+        "commutant_LR": 2,
+        "commutant_with_bare_minus_I": 1,
+        "golden_squared_traces": true,
+        "lambda2_irreducible_dims": [
+          1,
+          3,
+          6
+        ],
+        "ok": true,
+        "order_two_piece_det1": 120,
+        "pieces": [
+          2,
+          3
+        ],
+        "projective_order_LR": 120,
+        "projective_order_three_piece": 60,
+        "projective_order_with_bare_minus_I": 3000,
+        "two_piece_traces_in_golden_set": true
+      },
+      "f6": {
+        "counts": {
+          "1": {
+            "alpha": "2/5",
+            "d10": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10
+            ],
+            "d5": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "free_locality": [],
+            "free_moves": [
+              -1,
+              2
+            ],
+            "n10": [
+              -1,
+              1,
+              2,
+              4
+            ],
+            "n5b": [
+              -4,
+              -3,
+              -1,
+              0,
+              2,
+              3,
+              5,
+              6
+            ]
+          },
+          "2": {
+            "alpha": "4/5",
+            "d10": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10
+            ],
+            "d5": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "free_locality": [],
+            "free_moves": [
+              -2,
+              1
+            ],
+            "n10": [
+              -2,
+              0,
+              1,
+              3
+            ],
+            "n5b": [
+              -8,
+              -7,
+              -5,
+              -4,
+              -2,
+              -1,
+              1,
+              2
+            ]
+          },
+          "3": {
+            "alpha": "1/5",
+            "d10": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10
+            ],
+            "d5": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "free_locality": [],
+            "free_moves": [
+              -1,
+              2
+            ],
+            "n10": [
+              -3,
+              -1,
+              0,
+              2
+            ],
+            "n5b": [
+              -2,
+              -1,
+              1,
+              2,
+              4,
+              5,
+              7,
+              8
+            ]
+          },
+          "4": {
+            "alpha": "3/5",
+            "d10": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              9,
+              10
+            ],
+            "d5": [
+              0,
+              2,
+              3,
+              5
+            ],
+            "free_locality": [],
+            "free_moves": [
+              -2,
+              1
+            ],
+            "n10": [
+              -4,
+              -2,
+              -1,
+              1
+            ],
+            "n5b": [
+              -6,
+              -5,
+              -3,
+              -2,
+              0,
+              1,
+              3,
+              4
+            ]
+          }
+        },
+        "never_three": true,
+        "ok": true
+      },
+      "readings": "F7's grading, the readings on 3000 and on B206, and F4's Wilson-line argument: not independently checked",
+      "result": "the same",
+      "row": 949
+    },
+    "950": {
+      "commits": [
+        "621383064"
+      ],
+      "p1_completion_lemma": true,
+      "p2_census": {
+        "count": 5,
+        "names": [
+          "D+P",
+          "D+chi0^3",
+          "D^2+chi0",
+          "chi0^2+P",
+          "chi0^5"
+        ],
+        "ok": true
+      },
+      "p3_block_rule_control_W23_set": true,
+      "p4_naturality_tables_as_listed": true,
+      "p5_locality_as_listed": true,
+      "readings": "P6 and P7 (the predicted verdict) and the frame F-HE (a hypothesis): not independently checked here",
+      "result": "the same",
+      "row": 950,
+      "tables": {
+        "D+P": {
+          "block_rule": [
+            1,
+            3
+          ],
+          "free_locality": [
+            1
+          ],
+          "free_natural": [
+            1,
+            4
+          ],
+          "n10_natural": [
+            -1,
+            1,
+            2,
+            4
+          ],
+          "n5b_natural": [
+            -3,
+            -2,
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        "D+chi0^3": {
+          "block_rule": [
+            1,
+            3
+          ],
+          "free_locality": [
+            1
+          ],
+          "free_natural": [
+            1
+          ],
+          "n10_natural": [
+            -1,
+            1,
+            2,
+            4
+          ],
+          "n5b_natural": [
+            -3,
+            1,
+            3,
+            7
+          ]
+        },
+        "D^2+chi0": {
+          "block_rule": [
+            2,
+            2
+          ],
+          "free_locality": [
+            -2,
+            2
+          ],
+          "free_natural": [
+            -2,
+            2
+          ],
+          "n10_natural": [
+            -2,
+            -1,
+            2,
+            3
+          ],
+          "n5b_natural": [
+            -2,
+            1,
+            2,
+            4,
+            5,
+            8
+          ]
+        },
+        "chi0^2+P": {
+          "block_rule": [
+            0,
+            0
+          ],
+          "free_locality": [
+            0
+          ],
+          "free_natural": [
+            0
+          ],
+          "n10_natural": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "n5b_natural": [
+            0,
+            1,
+            9,
+            10
+          ]
+        },
+        "chi0^5": {
+          "block_rule": [
+            0,
+            0
+          ],
+          "free_locality": [
+            0
+          ],
+          "free_natural": [
+            0
+          ],
+          "n10_natural": [
+            0,
+            5
+          ],
+          "n5b_natural": [
+            0,
+            10
+          ]
+        }
+      }
+    }
+  },
+  "seat": "agy-exp"
+}
