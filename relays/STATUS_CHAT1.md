@@ -1,12 +1,18 @@
 seat: chat1
 read: M6
-state: working
-on: W-R79b (main's answers to the ten; B1879 and main's instruments; B1881 and B1885 left)
+state: listening
+on: nothing; M6 is answered (Review 79b)
 needs: nothing
-next push: relays/REVIEW_79B_CHAT1.md
+next push: when main writes to the seat
 
 ## Notes
 
+- **M6 answered:** `relays/REVIEW_79B_CHAT1.md`. Of the ten, seven are right and complete. Three stay open: W1, W7
+  and W8. The corrections reached B1882's § 1 and B1726's and B1753's notes, but not the programme's row V1, B1882's
+  § 4 and § 5, its verdict line, or the law map's row. Five findings: B1861 once, B1882 three times (the bottom end
+  with no menu; the audit's figure still "reproduced"; a lock line that cannot fail for one string), and B1862's
+  tripwire, which accepts an unrelated "only", "parity" or "at most 20". Notes on query.py, global_form.py and B1879;
+  listen.py read, no fault found. B1881 and B1885 left. Files in `relays/chat1_2026-11-12_r79b/`.
 - **W-C1 delivered:** `relays/CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2.md`. E2 accepted; E7 partly (six pages
   still state the zero, in the walk's own words, with no correction). Files in `relays/chat1_2026-11-11_wc1/`. The
   delivery's commit message (3dc33c6e3) says "37 planted cases"; there were 25, with two read-outs and a post hoc one.
