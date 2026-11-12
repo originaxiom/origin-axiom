@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1594 |
-| … PROVED | 1102 |
+| arcs with a verdict file | 1595 |
+| … PROVED | 1103 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 815 |
-| … QUEUED | 286 |
+| register points | 816 |
+| … QUEUED | 287 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 509 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1722 |
+| harvest rows (the last number) | 1729 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1893 | PROVED | THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledg… |
 | B1892 | PROVED | REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of wh… |
 | B1891 | PROVED | THE FOUNDATION AT VERSION 1.66: FOUR CORRECTIONS FROM REVIEW 79, NO ITEM ADDED AND NO STATUS CELL CHANGED. The advisor seat's sort counts fourteen entries, which are eleven things, as suppositions, where the foundation… |
 | B1890 | PROVED | THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs… |
@@ -42,7 +43,6 @@
 | B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
 | B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
 | B1882 | PROVED | THE V1 CARD, RUN ON MAIN AND READ ONCE (the audit's finding that the nulls behind the six's rarities have an unpriced window in the height of the modulus; the advisor seat's sealed card, the deciding count run by main o… |
-| B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 - S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
 - S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807) (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-7…
 - S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 - S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
-- S306p THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8): THE FINDING E5 IS FIXED AND ACCEPTED; THE FINDING E2'S ONE LINE IS MENDED (P-792, P-793) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT (B1892; the owner's ruling P-805).** 99 findings on main's work of two days, all 99 held on main's own reproduction; 88 distinct faults, ten found by two readers; in one arc one reader found ten and the second none. No result fell: the faults are checks that could not fail, statements wider than what was computed, numbers that differ from their source, labels stronger than their evidence, and corrections that did not travel. Main mended what was its to mend, with the old words kept; eleven faults in the enforcement package's files go to its builder (P-812); four are left and listed (P-813). The foundat…
+LATEST (2026-11-12, S306p: THE SECOND ENFORCEMENT SERIES VERIFIED AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816).** Six patches of the advisor seat's under one rule read from history: after an anchor commit nothing leaves a ledger and no ceiling rises without a change named in the gates' own file. All thirteen of main's unseen cases are caught, one by accident. Reading the patches, main found and then ran one case the rule misses: a ceiling that falls and later rises back to its value at the anchor rises with no record, so each identification that is earned makes room for an unearned one; it goes to the seat. The seat's planted suite catches 19 of 32 on main now, where i…
 
 ## Completeness (nothing skipped silently)
 
