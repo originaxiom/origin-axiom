@@ -124,4 +124,52 @@ All of these were computed once.
 - `code_probe.py` tells the gates, in memory, that this seat's shallow checkout is full. The history the vacuity gate
   reads begins at its anchor of 2026-11-11, which the checkout holds.
 
+## Addition, 2026-11-12: M11's six arcs
+
+M11 (main at 5c7abd72a) added six of the ten changed arcs that were on no reader's card at Review 79. Each was read as
+`git diff 38d2a36dc 0dda7b472 -- frontier/<the arc's folder>`, through the mask, and the files as they stand at
+c40446392 where a finding turns on it.
+
+**Relied on, besides the quotation check** (`r80_m11_checks_out.txt`, every quotation found at 0dda7b472):
+- **the sealed run above,** for the numbers in SL(2, O₃/(n))/{±1};
+- **`relays/chat1_2026-11-12_r80/retraction_rows_math_posthoc_2.py`.** It is post hoc, committed before its run, and
+  computed once. It imports the sealed file's arithmetic unchanged and computes the quotient by every central unit of
+  square one.
+
+| | file | quoted exactly | what is wrong | how this seat knows |
+|---|---|---|---|---|
+| 8 | `frontier/B732_conjugation_is_out_A5/FINDINGS.md` | "m004 the knot IS congruence at level (2)^3=(8)" | Kind 5: a correction that did not travel. Line 41, in the closing paragraph, states the level as (8), with no correction beside it. The window put the correction of 2026-11-11 beside the page's other note of level (8), at line 32, and on the five other pages. As containment the sentence is true: Γ(8) lies in Γ(4). But the record's correction is that the level is (4), and the same form is corrected everywhere else. The sentence still stands so at c40446392 | the window's difference, through the mask; `r80_m11_checks.py` |
+| 9 | `frontier/B942_l113_bc_falsifier/FINDINGS.md` | "the image order it quotes is the image's at (8) and is not changed" | Kind 5. The page's dated note leaves the image order it quotes (line 93) without its group. The correction the note carries names SL(2, O₃/(4))/{±1} as the group that PSL(2, O₃) maps to. In SL(2, O₃/(8))/{±1} the sealed run gives the image 10240 elements, not the page's figure. Only the verdict line's bracket names the quotient by every central unit of square one, in which the post hoc check gives 2560, the figure the page quotes | `retraction_rows_math_out.txt` (n = 8); `retraction_rows_math_posthoc_2_out.txt` (n = 8) |
+
+**What was done to look, arc by arc:**
+- **B731.** A dated correction stands above the kept text, and the same correction is appended to the verdict line,
+  with nothing else changed: the level is (4), with "160 in 1920" and 6 at (2). The sealed run gives the same numbers:
+  in SL(2, O₃/(4))/{±1} the image has 160 elements of 1920, index 12, and the index at (2) is 6. The post hoc check
+  gives the rest:
+  - in the quotient by every central unit of square one, the group has order 960 at (4), as the correction says;
+  - the image's index in that quotient is 6 at (4) and 12 at (8), the old reading.
+- **B732.** The correction stands beside the note at line 32; finding 8.
+- **B733.** The correction stands beside the old note of level (8). The page's two mentions of "m004's own (8)-door"
+  (lines 7 and 62) describe a plan, not a level, and are not counted here.
+- **B942.** A dated note at the end of the page, and a bracket inside the verdict line.
+  - The bracket says the image order the line quotes at (8) is the image's order in the quotient by every central unit
+    of square one. The post hoc check gives 2560 there: the image has 20480 elements in SL(2, O₃/(8)), and contains
+    all 8 of the centre's units of square one.
+  - The bracket also says the level is (4), and that the argument needs a finite level, not any particular one. The
+    line uses the level only for a finite Dirichlet sum, so that holds on reading.
+  - The `depends_on`, `supersedes` and `superseded_by` fields were only reformatted.
+  - The page's note: finding 9.
+- **B1030.** The correction of the audit's finding E7 stands beside "retroactive designer freedom stays 0.000 bits",
+  and the verdict line ends with the same bracket, word for word. The algebra it names, su(3) ⊕ su(2) ⊕ u(1)³, has
+  dimension 8 + 3 + 3 = 14: two abelian factors more than the Standard Model's, as it says. Its other statements were
+  not held to their sources here: the ledger's eleven links and its check, its addendum of 2026-08-12, B997's door
+  set, B854's scope, and B892 as corrected by B1237. The verdict file's class line changed only in how its dash is
+  written.
+- **B1067.** The same correction, and a sentence saying the external cross-check exists ("Baker and Reid 2018 state
+  that the figure-eight complement is a congruence manifold"). That citation was not checked against the paper: it is
+  not independently checked.
+
+The four other arcs of the ten (B734, B1028, B1222 and B1643) answer this seat's findings, and are left, as M11 says.
+This addition was read by one session before it was pushed, and its corrections are applied.
+
 0 of 19.
