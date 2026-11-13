@@ -1,0 +1,6 @@
+a sentence of B1881's FINDINGS.md, for a finding on B1894 that names frontier/B9999_no_such_arc/FINDINGS.md:
+  placed() -> 'named'
+  the same, the finding naming B1894's own FINDINGS.md (at the commit) -> 'named'
+note (agy-002, from git): the checker's only commit of main is MAIN = ("896cae025",), and B1894's own FINDINGS.md is not at
+896cae025; the sentence is not in B1894's FINDINGS.md (0 lines). So both paths are "not at the commit", and both fall back
+to every file whose name ends in FINDINGS.md: the false pass the builder disclosed for patch 17, confirmed.
