@@ -19974,3 +19974,15 @@ seat's check. Six are left.
 **What happens now.** The building session turns the reading into a permanent ledger of these recurring walls, which the search tool shows before any new work on one begins, and a rule goes into the working rules. Main takes up the one open idea it suggests: whether a condition that can fail, of the kind that fixed the hypercharge, exists for the hand.
 
 0 of 19.
+
+## 2026-11-13 — The second part of the builder's mends is published; six old to-do items that went stale overnight are dealt with first (S306p)
+
+**What happened.** Twelve small repairs to three earlier pieces of work were published: checks that now test what they claim to test, and pages that now say plainly which statements main has not checked itself. Main had checked them the day before. A second session of a different kind read them cold this morning and found them sound. It found four smaller gaps in the new checks, which go back to the builder, and one fault in two of main's own helper scripts.
+
+**A rule that bit.** The record ages every open to-do item by the date of the latest change. Because today's changes are dated today, six items crossed the three-week and one-week limits overnight. Main did not bundle or backdate anything. Each item was dealt with on its merits. Four now name their next step and who takes it. One was supported by a check script kept in the private working area, and that script is now in the public record with its output. The last one pointed to a draft plan that a published page had replaced, and the item now says so.
+
+**What did not move.** The computation of the tube's modulus at the third level ran on a finer grid. It did not converge near the core, so its value still neither confirms nor contradicts the other session's. Nothing is recorded as a result.
+
+**What is next.** The count of published steps since the last full review has reached its limit, so the next full review opens before anything else is published.
+
+0 of 19.

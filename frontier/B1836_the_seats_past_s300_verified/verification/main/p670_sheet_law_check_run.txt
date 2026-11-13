@@ -1,0 +1,17 @@
+(1) sheet law
+   max |ratio - (-i)^floor| over Re in [-5.5,5.5]: 5.775751444006791e-31
+(2) B1832 c3b T10g f10 at tau+8
+   shift 0 Re 0.23 theta2^10 lib/series = (1.0 - 2.45141e-31j)  theta2^2: (1.0 - 4.221e-32j)  theta2^4: (1.0 - 5.463e-32j)
+   shift 1 Re 1.23 theta2^10 lib/series = (-1.0 + 2.22527e-32j)  theta2^2: (-1.0 - 2.062e-32j)  theta2^4: (1.0 - 3.263e-32j)
+   shift 2 Re 2.23 theta2^10 lib/series = (-1.0 + 8.29029e-31j)  theta2^2: (-1.0 + 1.266e-31j)  theta2^4: (1.0 - 2.878e-31j)
+   shift 3 Re 3.23 theta2^10 lib/series = (1.0 - 2.97249e-30j)  theta2^2: (1.0 - 5.92e-31j)  theta2^4: (1.0 - 1.206e-30j)
+   shift 8 Re 8.23 theta2^10 lib/series = (1.0 - 5.37451e-30j)  theta2^2: (1.0 - 1.056e-30j)  theta2^4: (1.0 - 2.099e-30j)
+   shift 16 Re 16.23 theta2^10 lib/series = (1.0 - 8.87784e-30j)  theta2^2: (1.0 - 1.775e-30j)  theta2^4: (1.0 - 3.505e-30j)
+(3) factor (-i)^(a k) for k = floor((Re+1)/2); a=-10,-6,-2,6,10,14,18,22,26 (all = 2 mod 4 -> sign (-1)^k)
+   k 0 {-2: 1.0, 6: 1.0, 10: 1.0}
+   k 1 {-2: -1.0, 6: -1.0, 10: -1.0}
+   k 2 {-2: 1.0, 6: 1.0, 10: 1.0}
+   k 3 {-2: -1.0, 6: -1.0, 10: -1.0}
+   k 4 {-2: 1.0, 6: 1.0, 10: 1.0}
+(4) b1656 th_mp(2) style explicit q4 = exp(i pi T/4) at Re 3.4: agrees with series
+   |explicit - series| = 5.512333152706879e-32 ; lib/series = (-1.0 + 3.13e-31j)
