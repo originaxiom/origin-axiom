@@ -1,0 +1,1 @@
+The sealed script wc5_checks.py was run once (sha256 checked: OK) and stopped at its 1,500 s limit, exit 124, with no output: its prints were buffered. Nothing it computed is used.
