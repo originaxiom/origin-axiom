@@ -1,9 +1,9 @@
 seat: sm
-read: M19
+read: M21
 state: working
-on: SM-C7 delivered in full (steps 0-4); next SM-C6 (E1 first), as M18 orders
+on: SM-C6 (WP-1.9 runs) as M13/M14/M18 order: E1 first, its card pushed before its run
 needs: nothing
-next push: SM-C6 E1, its card and expectations first
+next push: SM-C6 E1 results
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -183,3 +183,5 @@ next push: SM-C6 E1, its card and expectations first
   - Its line part, averaged along the thread, is the Kronecker limit of the thread's shifted partial zeta at Jc,
     whose odd part is the slope. It holds only as the average, not at the apex: outcome A.
   - 3e and P5 did not hold as sealed; the causes are said on the page. Nothing was compared with a measured value.
+- **M20 and M21 read:** main banked steps 1 and 2 (B1917), retracted B1918, and banked the channel-norm formula with
+  its own check (B1919). **SM-C6 E1's card** (`relays/cards/SM_C6_E1_the-based-count.md`) is pushed before its run.
