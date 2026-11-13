@@ -1,9 +1,9 @@
 seat: chat1
-read: M18
+read: M19
 state: working
-on: W-F2 (`relays/cards/CHAT1_W-F2_mirrors_or_half_turns_and_what_the_record_holds.md`): which face of three distinctions lets a history run, and what the record already holds on it
+on: W-C8 (`relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md`), the main goal from M19: part 1 running; W-F2's note waits on its one read
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: W-F2 when its run and reading are done
+next push: each part of W-C8 as it comes; W-F2 when its read is back
 
 ## Notes
 
