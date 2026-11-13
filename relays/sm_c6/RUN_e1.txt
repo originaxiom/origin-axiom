@@ -1,0 +1,46 @@
+census 1 LR 1 N 1 modules 0 {} 0.0 s
+census 1 LR 2 N 5 modules 12 {'00': 4, '01': 4, '10': 4} 0.0 s
+census 1 LR 3 N 4 modules 210 {'00': 108, '01': 36, '10': 36, '11': 30} 0.0 s
+census 1 LR 4 N 15 modules 1892 {'00': 1396, '01': 244, '10': 244, '11': 8} 0.4 s
+census 1 LR 5 N 11 modules 14280 {'00': 11900, '01': 1100, '10': 1100, '11': 180} 2.7 s
+census -1 LR 1 N 5 modules 12 {'00': 4, '01': 4, '10': 4} 0.0 s
+census -1 LR 2 N 5 modules 12 {'00': 4, '01': 4, '10': 4} 0.0 s
+census -1 LR 3 N 10 modules 342 {'00': 208, '01': 64, '10': 64, '11': 6} 0.1 s
+census -1 LR 4 N 15 modules 1892 {'00': 1396, '01': 244, '10': 244, '11': 8} 0.6 s
+census -1 LR 5 N 25 modules 15252 {'00': 13044, '01': 1044, '10': 1044, '11': 120} 8.9 s
+census 1 LLR 1 N 2 modules 0 {} 0.0 s
+census 1 LLR 2 N 6 modules 110 {'00': 76, '01': 16, '10': 16, '11': 2} 0.0 s
+census 1 LLR 3 N 10 modules 2352 {'00': 1812, '01': 228, '10': 228, '11': 84} 0.1 s
+census 1 LLR 4 N 24 modules 36290 {'00': 31796, '01': 2096, '10': 2096, '11': 302} 2.8 s
+census -1 LLR 1 N 6 modules 20 {'00': 14, '01': 2, '10': 2, '11': 2} 0.0 s
+census -1 LLR 2 N 6 modules 110 {'00': 76, '01': 16, '10': 16, '11': 2} 0.0 s
+census -1 LLR 3 N 18 modules 2756 {'00': 2288, '01': 224, '10': 224, '11': 20} 0.2 s
+census -1 LLR 4 N 24 modules 36290 {'00': 31796, '01': 2096, '10': 2096, '11': 302} 3.2 s
+census 1 LLLR 1 N 3 modules 2 {'11': 2} 0.0 s
+census 1 LLLR 2 N 21 modules 380 {'00': 294, '01': 42, '10': 42, '11': 2} 0.2 s
+census 1 LLLR 3 N 18 modules 11342 {'00': 9534, '01': 786, '10': 786, '11': 236} 0.7 s
+census -1 LLLR 1 N 7 modules 30 {'00': 18, '01': 6, '10': 6} 0.0 s
+census -1 LLLR 2 N 21 modules 380 {'00': 294, '01': 42, '10': 42, '11': 2} 0.3 s
+census -1 LLLR 3 N 28 modules 12210 {'00': 10764, '01': 708, '10': 708, '11': 30} 2.1 s
+pair LLRLRR LLRRLR 1 1 labelled_same False census_same True
+pair LLRLRR LLRRLR -1 1 labelled_same False census_same True
+pair LLRRLR LLRLRR 1 1 labelled_same False census_same True
+pair LLRRLR LLRLRR -1 1 labelled_same False census_same True
+pair LLLRLRR LLLRRLR 1 1 labelled_same False census_same True
+pair LLLRLRR LLLRRLR -1 1 labelled_same False census_same True
+pair LLLRRLR LLLRLRR 1 1 labelled_same False census_same True
+pair LLLRRLR LLLRLRR -1 1 labelled_same False census_same True
+pair LLRLRRR LLRRRLR 1 1 labelled_same False census_same True
+pair LLRLRRR LLRRRLR -1 1 labelled_same False census_same True
+pair LLRRRLR LLRLRRR 1 1 labelled_same False census_same True
+pair LLRRRLR LLRLRRR -1 1 labelled_same False census_same True
+{
+ "census_levels": 24,
+ "levels_with_11": 18,
+ "pairs_tested": 12,
+ "skipped_levels_N_over_60": 12,
+ "labelled_differs": 12,
+ "census_same": 12,
+ "outcome": "1"
+}
+{"P1 census changed on levels": [21, 24], "P2 census differs for an unrelated word": [0, 8]}

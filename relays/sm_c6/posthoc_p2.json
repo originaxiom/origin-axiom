@@ -1,0 +1,177 @@
+[
+ {
+  "a": "LLRLRR",
+  "b": "LLLRLR",
+  "sign": 1,
+  "N": [
+   13,
+   11
+  ],
+  "census_a": {
+   "00": 108,
+   "01": 12,
+   "10": 12
+  },
+  "census_b": {
+   "00": 70,
+   "01": 10,
+   "10": 10
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLRLRR",
+  "b": "LLLRLR",
+  "sign": -1,
+  "N": [
+   17,
+   15
+  ],
+  "census_a": {
+   "00": 208,
+   "01": 16,
+   "10": 16
+  },
+  "census_b": {
+   "00": 84,
+   "01": 36,
+   "10": 36,
+   "11": 26
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLRLRR",
+  "b": "LLRLLR",
+  "sign": 1,
+  "N": [
+   13,
+   6
+  ],
+  "census_a": {
+   "00": 108,
+   "01": 12,
+   "10": 12
+  },
+  "census_b": {
+   "00": 76,
+   "01": 16,
+   "10": 16,
+   "11": 2
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLRLRR",
+  "b": "LLRLLR",
+  "sign": -1,
+  "N": [
+   17,
+   4
+  ],
+  "census_a": {
+   "00": 208,
+   "01": 16,
+   "10": 16
+  },
+  "census_b": {
+   "00": 74,
+   "01": 50,
+   "10": 50,
+   "11": 36
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLLRLRR",
+  "b": "LLLLRLR",
+  "sign": 1,
+  "N": [
+   18,
+   14
+  ],
+  "census_a": {
+   "00": 242,
+   "01": 14,
+   "10": 14,
+   "11": 2
+  },
+  "census_b": {
+   "00": 132,
+   "01": 12,
+   "10": 12
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLLRLRR",
+  "b": "LLLLRLR",
+  "sign": -1,
+  "N": [
+   22,
+   6
+  ],
+  "census_a": {
+   "00": 380,
+   "01": 20,
+   "10": 20
+  },
+  "census_b": {
+   "00": 124,
+   "01": 52,
+   "10": 52,
+   "11": 44
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLRLRRR",
+  "b": "LLLRLLR",
+  "sign": 1,
+  "N": [
+   18,
+   16
+  ],
+  "census_a": {
+   "00": 242,
+   "01": 14,
+   "10": 14,
+   "11": 2
+  },
+  "census_b": {
+   "00": 182,
+   "01": 14,
+   "10": 14
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ },
+ {
+  "a": "LLRLRRR",
+  "b": "LLLRLLR",
+  "sign": -1,
+  "N": [
+   22,
+   20
+  ],
+  "census_a": {
+   "00": 380,
+   "01": 20,
+   "10": 20
+  },
+  "census_b": {
+   "00": 138,
+   "01": 66,
+   "10": 66,
+   "11": 72
+  },
+  "census_differs": true,
+  "slope_sets_differ": true
+ }
+]

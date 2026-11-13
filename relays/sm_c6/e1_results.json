@@ -1,0 +1,839 @@
+{
+ "census": [
+  {
+   "state": "+LR",
+   "level": 1,
+   "N": 1,
+   "characters": 0,
+   "modules": 0,
+   "census": {},
+   "share_11": null,
+   "plant_P1_census": {}
+  },
+  {
+   "state": "+LR",
+   "level": 2,
+   "N": 5,
+   "characters": 4,
+   "modules": 12,
+   "census": {
+    "00": 4,
+    "01": 4,
+    "10": 4
+   },
+   "share_11": 0.0,
+   "plant_P1_census": {
+    "00": 8,
+    "11": 4
+   }
+  },
+  {
+   "state": "+LR",
+   "level": 3,
+   "N": 4,
+   "characters": 15,
+   "modules": 210,
+   "census": {
+    "00": 108,
+    "01": 36,
+    "10": 36,
+    "11": 30
+   },
+   "share_11": 0.14285714285714285,
+   "plant_P1_census": {
+    "00": 144,
+    "11": 66
+   }
+  },
+  {
+   "state": "+LR",
+   "level": 4,
+   "N": 15,
+   "characters": 44,
+   "modules": 1892,
+   "census": {
+    "00": 1396,
+    "01": 244,
+    "10": 244,
+    "11": 8
+   },
+   "share_11": 0.004228329809725159,
+   "plant_P1_census": {
+    "00": 1640,
+    "11": 252
+   }
+  },
+  {
+   "state": "+LR",
+   "level": 5,
+   "N": 11,
+   "characters": 120,
+   "modules": 14280,
+   "census": {
+    "00": 11900,
+    "01": 1100,
+    "10": 1100,
+    "11": 180
+   },
+   "share_11": 0.012605042016806723,
+   "plant_P1_census": {
+    "00": 13000,
+    "11": 1280
+   }
+  },
+  {
+   "state": "-LR",
+   "level": 1,
+   "N": 5,
+   "characters": 4,
+   "modules": 12,
+   "census": {
+    "00": 4,
+    "01": 4,
+    "10": 4
+   },
+   "share_11": 0.0,
+   "plant_P1_census": {
+    "00": 8,
+    "11": 4
+   }
+  },
+  {
+   "state": "-LR",
+   "level": 2,
+   "N": 5,
+   "characters": 4,
+   "modules": 12,
+   "census": {
+    "00": 4,
+    "01": 4,
+    "10": 4
+   },
+   "share_11": 0.0,
+   "plant_P1_census": {
+    "00": 8,
+    "11": 4
+   }
+  },
+  {
+   "state": "-LR",
+   "level": 3,
+   "N": 10,
+   "characters": 19,
+   "modules": 342,
+   "census": {
+    "00": 208,
+    "01": 64,
+    "10": 64,
+    "11": 6
+   },
+   "share_11": 0.017543859649122806,
+   "plant_P1_census": {
+    "00": 272,
+    "11": 70
+   }
+  },
+  {
+   "state": "-LR",
+   "level": 4,
+   "N": 15,
+   "characters": 44,
+   "modules": 1892,
+   "census": {
+    "00": 1396,
+    "01": 244,
+    "10": 244,
+    "11": 8
+   },
+   "share_11": 0.004228329809725159,
+   "plant_P1_census": {
+    "00": 1640,
+    "11": 252
+   }
+  },
+  {
+   "state": "-LR",
+   "level": 5,
+   "N": 25,
+   "characters": 124,
+   "modules": 15252,
+   "census": {
+    "00": 13044,
+    "01": 1044,
+    "10": 1044,
+    "11": 120
+   },
+   "share_11": 0.007867820613690008,
+   "plant_P1_census": {
+    "00": 14088,
+    "11": 1164
+   }
+  },
+  {
+   "state": "+LLR",
+   "level": 1,
+   "N": 2,
+   "characters": 1,
+   "modules": 0,
+   "census": {},
+   "share_11": null,
+   "plant_P1_census": {}
+  },
+  {
+   "state": "+LLR",
+   "level": 2,
+   "N": 6,
+   "characters": 11,
+   "modules": 110,
+   "census": {
+    "00": 76,
+    "01": 16,
+    "10": 16,
+    "11": 2
+   },
+   "share_11": 0.01818181818181818,
+   "plant_P1_census": {
+    "00": 92,
+    "11": 18
+   }
+  },
+  {
+   "state": "+LLR",
+   "level": 3,
+   "N": 10,
+   "characters": 49,
+   "modules": 2352,
+   "census": {
+    "00": 1812,
+    "01": 228,
+    "10": 228,
+    "11": 84
+   },
+   "share_11": 0.03571428571428571,
+   "plant_P1_census": {
+    "00": 2040,
+    "11": 312
+   }
+  },
+  {
+   "state": "+LLR",
+   "level": 4,
+   "N": 24,
+   "characters": 191,
+   "modules": 36290,
+   "census": {
+    "00": 31796,
+    "01": 2096,
+    "10": 2096,
+    "11": 302
+   },
+   "share_11": 0.008321851749793331,
+   "plant_P1_census": {
+    "00": 33892,
+    "11": 2398
+   }
+  },
+  {
+   "state": "-LLR",
+   "level": 1,
+   "N": 6,
+   "characters": 5,
+   "modules": 20,
+   "census": {
+    "00": 14,
+    "01": 2,
+    "10": 2,
+    "11": 2
+   },
+   "share_11": 0.1,
+   "plant_P1_census": {
+    "00": 16,
+    "11": 4
+   }
+  },
+  {
+   "state": "-LLR",
+   "level": 2,
+   "N": 6,
+   "characters": 11,
+   "modules": 110,
+   "census": {
+    "00": 76,
+    "01": 16,
+    "10": 16,
+    "11": 2
+   },
+   "share_11": 0.01818181818181818,
+   "plant_P1_census": {
+    "00": 92,
+    "11": 18
+   }
+  },
+  {
+   "state": "-LLR",
+   "level": 3,
+   "N": 18,
+   "characters": 53,
+   "modules": 2756,
+   "census": {
+    "00": 2288,
+    "01": 224,
+    "10": 224,
+    "11": 20
+   },
+   "share_11": 0.00725689404934688,
+   "plant_P1_census": {
+    "00": 2512,
+    "11": 244
+   }
+  },
+  {
+   "state": "-LLR",
+   "level": 4,
+   "N": 24,
+   "characters": 191,
+   "modules": 36290,
+   "census": {
+    "00": 31796,
+    "01": 2096,
+    "10": 2096,
+    "11": 302
+   },
+   "share_11": 0.008321851749793331,
+   "plant_P1_census": {
+    "00": 33892,
+    "11": 2398
+   }
+  },
+  {
+   "state": "+LLLR",
+   "level": 1,
+   "N": 3,
+   "characters": 2,
+   "modules": 2,
+   "census": {
+    "11": 2
+   },
+   "share_11": 1.0,
+   "plant_P1_census": {
+    "11": 2
+   }
+  },
+  {
+   "state": "+LLLR",
+   "level": 2,
+   "N": 21,
+   "characters": 20,
+   "modules": 380,
+   "census": {
+    "00": 294,
+    "01": 42,
+    "10": 42,
+    "11": 2
+   },
+   "share_11": 0.005263157894736842,
+   "plant_P1_census": {
+    "00": 336,
+    "11": 44
+   }
+  },
+  {
+   "state": "+LLLR",
+   "level": 3,
+   "N": 18,
+   "characters": 107,
+   "modules": 11342,
+   "census": {
+    "00": 9534,
+    "01": 786,
+    "10": 786,
+    "11": 236
+   },
+   "share_11": 0.020807617704108623,
+   "plant_P1_census": {
+    "00": 10320,
+    "11": 1022
+   }
+  },
+  {
+   "state": "-LLLR",
+   "level": 1,
+   "N": 7,
+   "characters": 6,
+   "modules": 30,
+   "census": {
+    "00": 18,
+    "01": 6,
+    "10": 6
+   },
+   "share_11": 0.0,
+   "plant_P1_census": {
+    "00": 24,
+    "11": 6
+   }
+  },
+  {
+   "state": "-LLLR",
+   "level": 2,
+   "N": 21,
+   "characters": 20,
+   "modules": 380,
+   "census": {
+    "00": 294,
+    "01": 42,
+    "10": 42,
+    "11": 2
+   },
+   "share_11": 0.005263157894736842,
+   "plant_P1_census": {
+    "00": 336,
+    "11": 44
+   }
+  },
+  {
+   "state": "-LLLR",
+   "level": 3,
+   "N": 28,
+   "characters": 111,
+   "modules": 12210,
+   "census": {
+    "00": 10764,
+    "01": 708,
+    "10": 708,
+    "11": 30
+   },
+   "share_11": 0.002457002457002457,
+   "plant_P1_census": {
+    "00": 11472,
+    "11": 738
+   }
+  }
+ ],
+ "pairs": [
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    13,
+    13
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_r": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    17,
+    17
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_r": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRRLR",
+   "reverse": "LLRLRR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    13,
+    13
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_r": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRRLR",
+   "reverse": "LLRLRR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    17,
+    17
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_r": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    18,
+    18
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    22,
+    22
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLLRRLR",
+   "reverse": "LLLRLRR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    18,
+    18
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLLRRLR",
+   "reverse": "LLLRLRR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    22,
+    22
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    18,
+    18
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    22,
+    22
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRRRLR",
+   "reverse": "LLRLRRR",
+   "sign": 1,
+   "level": 1,
+   "N": [
+    18,
+    18
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  },
+  {
+   "word": "LLRRRLR",
+   "reverse": "LLRLRRR",
+   "sign": -1,
+   "level": 1,
+   "N": [
+    22,
+    22
+   ],
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "slopes_as_sets_same": true
+  }
+ ],
+ "plants": {
+  "P1 census changed on levels": [
+   21,
+   24
+  ],
+  "P2 census differs for an unrelated word": [
+   0,
+   8
+  ]
+ },
+ "skipped": [
+  {
+   "word": "LLRLRR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    221,
+    221
+   ]
+  },
+  {
+   "word": "LLRLRR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    221,
+    221
+   ]
+  },
+  {
+   "word": "LLRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    221,
+    221
+   ]
+  },
+  {
+   "word": "LLRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    221,
+    221
+   ]
+  },
+  {
+   "word": "LLLRLRR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLLRLRR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLLRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLLRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLRLRRR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLRLRRR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLRRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  },
+  {
+   "word": "LLRRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": [
+    198,
+    198
+   ]
+  }
+ ],
+ "summary": {
+  "census_levels": 24,
+  "levels_with_11": 18,
+  "pairs_tested": 12,
+  "skipped_levels_N_over_60": 12,
+  "labelled_differs": 12,
+  "census_same": 12,
+  "outcome": "1"
+ }
+}
