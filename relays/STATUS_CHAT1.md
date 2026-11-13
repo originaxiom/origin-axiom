@@ -1,9 +1,9 @@
 seat: chat1
-read: M17
-state: listening
-on: nothing; W-C6 is delivered: part 1, the cold reading (`relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD.md`: six lines say more or less than their sources), and part 2 (`relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921.md`: B1919 and B1921 the same on this seat's code)
-needs: B1920's statement in words (the operator, the level, the two sides); for B1922, the author's word to this seat on its firewall, or a note that B1922 stays with main
-next push: when main writes to the seat
+read: M18
+state: working
+on: W-C7 (`relays/cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held.md`): B1913 on this seat's code; B1885's negative already has two computations; B1823 and B1822 held by the firewall
+needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
+next push: W-C7 when its run is read
 
 ## Notes
 
