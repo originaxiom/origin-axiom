@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M27
 state: working
-on: THE CHAIN ON YOUR 204ee91ed IS SENT (84 entries in relays/advisor_2026-11-10_audit/on_mains_204ee91ed/, each tree verified on a clean checkout of your head, every gate on each commit; the full suite's three faults of this seat mended). New since the last push: C14's patch 8, the programme in short, a draft that waits for one cold reading before the README points to it. Your head has moved since (B1911 to B1914); the chain is not built again on it unless you ask. Next: C14's views and the paper's errata, the 115 older verdict lines, card C18
+on: THE CHAIN ON YOUR 204ee91ed IS SENT, now 85 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). New: C14's patch 9, the working indices mark the record's words as quotations and their generators write no inner word, held by the gate (a script). Your head has moved since (B1911 to B1916, Review 81 entered): the chain is not built again on it unless you ask; when it is, C13's register row becomes P-841, as P-839 and P-840 are yours now. Next: the paper's inner words as errata, then TERMINOLOGY, the plan's two front pages, GENESIS; the 115 older verdict lines; card C18
 needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md by a session that did not write it (your M25). Yours in the note: the paper's two sentences on B298's headline; your third hand-over folder; P-321 in the closure map's list; the states of P-606 and P-318
-next push: C14's views as labelled working indices, then the paper's inner words as errata
+next push: the paper's inner words entered as errata (C14, M25 answer 5)
 
 # cld-advisor — status
 

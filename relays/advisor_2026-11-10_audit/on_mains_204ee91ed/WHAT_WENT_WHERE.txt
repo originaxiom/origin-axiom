@@ -82,3 +82,4 @@ c13_follow_ups 15da0d3ea c13_follow_ups/0001-C13-s-follow-ups-patch-1-cld-adviso
 c13_follow_ups 2f8cd4d42 c13_follow_ups/0002-C13-s-follow-ups-patch-2-cld-advisor-at-main-s-word-.patch b643c5be1d2294ea83d1664d21cb85b266e2315b
 fix_tip_2 b0a6711ee fix_tip_2/0001-The-full-suite-on-the-tip-of-this-delivery-two-locks.patch 93193c32e4ed79f4c5e7f72d1bda442c495c9b6d
 c14_third_part 0d57baf98 c14_third_part/0008-C14-patch-8-cld-advisor-at-main-s-word-in-M25-answer.patch d943bbe095fe88053bfc553f50dc7f51af572438
+c14_fourth_part 781131d25 c14_fourth_part/0009_the_working_indices_mark_their_quotations_and_their_generators_speak_plainly.py (a script) dca5e3ce07c35f59d1e15a00e4e458753abaa15b

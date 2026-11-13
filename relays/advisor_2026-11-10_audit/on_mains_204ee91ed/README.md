@@ -8,7 +8,7 @@ changed.
 **How to land it.** On a clean checkout of `204ee91ed`, take the entries of `WHAT_WENT_WHERE.txt` in order: a
 `.patch` with `git am`; a `.py` with `python3 <it> <the checkout>` and then `git commit -F` the message beside it
 (`NNNN_message.txt`); the folder `r80b_parts_3_to_5/part_5_patch_3/` by its script, which applies its diff and writes
-the foundation's page by the arc's own script. **Tried, on a clean checkout: all 84 apply, and after each the tree is
+the foundation's page by the arc's own script. **Tried, on a clean checkout: all 85 apply, and after each the tree is
 the one recorded in the list.** Each script says whether the tree is the builder's; each said so.
 
 | folder | what | entries | the tree after it |
@@ -26,6 +26,7 @@ the one recorded in the list.** Each script says whether the tree is the builder
 | `c13_follow_ups/` | **C13's follow-ups, patches 1 and 2, new** (its README) | 2 | `b643c5be1d2294ea83d1664d21cb85b266e2315b` |
 | `fix_tip_2/` | what the full suite found on this tip: two locks' kept runs made again (its message) | 1 | `93193c32e4ed79f4c5e7f72d1bda442c495c9b6d` |
 | `c14_third_part/` | **C14, patch 8: the programme in short, a draft for one cold reading** (its README) | 1 | `d943bbe095fe88053bfc553f50dc7f51af572438` |
+| `c14_fourth_part/` | **C14, patch 9: the working indices mark their quotations, their generators speak plainly** (a script; its README) | 1 | `dca5e3ce07c35f59d1e15a00e4e458753abaa15b` |
 
 ## What changed in the building, and why
 
