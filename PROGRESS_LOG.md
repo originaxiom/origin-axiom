@@ -20040,3 +20040,9 @@ seat's check. Six are left.
 **What happened.** Several hundred notes that the working sessions wrote to each other were removed from the current tree of the repository. They remain in its history, and every page that cites one can still be checked against that history automatically. Four folders still in use stay until the work they feed is published.
 
 0 of 19.
+
+## 2026-11-13 — Two hidden assumptions in the foundation are named (S306p)
+
+**What happened.** Two steps in the project's foundation had been read as consequences when they are really assumptions. One concerns which kind of underlying group the object must have: a key property rules out the simplest kind, but a slightly richer kind still fits, so the step needs an assumption of its own. The other concerns why the number 2 appears: it is singled out only if one assumes a single building block rather than a pair. Main checked both exactly, and both assumptions are now stated where they are used.
+
+0 of 19.

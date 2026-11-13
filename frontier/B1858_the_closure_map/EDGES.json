@@ -1148,13 +1148,6 @@
   "note": ""
  },
  {
-  "src": "P:321",
-  "kind": "bears-on",
-  "dst": "G:GM4",
-  "grade": "DEBT",
-  "note": ""
- },
- {
   "src": "P:355",
   "kind": "bears-on",
   "dst": "V:SIX",

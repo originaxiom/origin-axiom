@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 94 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 93 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 24, started 18, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -297,7 +297,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** the register's ranked debts of this class, in order; each closes as one correction arc with a lock on the pages (the pattern of B1859).
 - **Closed when:** the class is empty, or every remaining member is outside the upstream of any claimed prediction; and a gate that, for every arc carrying a correction, checks that each arc depending on it and each page citing it points to the note.
 - **Register:** P-318 (QUEUED), P-618 (QUEUED), P-604 (DONE), P-751 (DONE), P-757 (QUEUED), P-760 (DONE).
-- **Debts (22):** P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-321, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827.
+- **Debts (21):** P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827.
 - **The audit's findings (7):** P1, P2, P3, P4, P5, P6, P7.
 
 **WP-0.2 — Debts that bear on current work** (DERIVE; STARTED; owner: main)
@@ -305,7 +305,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Do the value frame's candidate and the live prediction rest on anything unchecked?
 - **The first step:** P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main.
 - **Closed when:** the class is empty.
-- **Register:** P-355 (QUEUED), P-747 (QUEUED).
+- **Register:** P-355 (QUEUED), P-747 (DONE).
 - **Debts (19):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786.
 - **The audit's findings (5):** V1, V2, V3, V4, V5.
 
@@ -418,7 +418,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** a theorem from a named weaker premise, verified on main; or GM1 and GM4 stay declared, with B1679's equivalence stated.
 - **Nodes (4):** G:GM1, G:GM4, G:FK5, E:L01.
 - **Stated about:** thread 1, weave 3.
-- **Register:** P-321 (QUEUED), P-747 (QUEUED), P-221 (DONE), P-764 (QUEUED).
+- **Register:** P-321 (DONE), P-747 (DONE), P-221 (DONE), P-764 (QUEUED).
 
 **WP-1.3 — The moves** (DECLARE; NOT STARTED; owner: main)
 
@@ -693,7 +693,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** every joint of the lane's frame carries a grade given on main (verified, refuted, or borrowed with its type), and no value of it is used before that.
 - **Nodes (1):** B:FRAME.
 - **Stated about:** thread 1.
-- **Register:** P-747 (QUEUED), P-750 (QUEUED), P-624 (QUEUED).
+- **Register:** P-747 (DONE), P-750 (QUEUED), P-624 (QUEUED).
 
 ### C5. The pre-comparison seal and independent challenge
 
@@ -787,23 +787,23 @@ A sentence that is cut to fit ends in […]; the whole sentence, with every cond
 
 | result | what it says | open choices | packages | the foundation's axioms it uses | debts that bear on it |
 |---|---|---|---|---|---|
-| G:ROOT | Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction […] | G:SE1, G:SE2 | WP-1.4, WP-1.5 | G:GM3, G:GM4 | P-321 |
+| G:ROOT | Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction […] | G:SE1, G:SE2 | WP-1.4, WP-1.5 | G:GM3, G:GM4 | — |
 | W:INDEX3 | Given Λ and the uniform unit, the chiral three is a four-dimensional index (±3) on the weave's own surface […] | G:GM5c, TAG:LAMBDA, TAG:UNIT | WP-1.4, WP-1.7, WP-2.3 | G:GM1, G:GM2 | P-610 |
-| MC:ALG | The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-321, P-374 |
-| MC:CUBIC | Matter mass sits in the cubic of the 27. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-321, P-374 |
-| MC:END | The cascade terminates, and every registered selection function ends at the same algebra. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-321, P-374 |
-| MC:Y | The hypercharge direction; its normalisation is underivable by homogeneity. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-321, P-374 |
-| MC:Z6 | The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-321, P-374, P-581 |
-| FA:F1 | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm […] | TAG:LAMBDA | WP-1.7 | G:GM1, G:GM2, G:GM4 | P-321 |
+| MC:ALG | The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-374 |
+| MC:CUBIC | Matter mass sits in the cubic of the 27. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-374 |
+| MC:END | The cascade terminates, and every registered selection function ends at the same algebra. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-374 |
+| MC:Y | The hypercharge direction; its normalisation is underivable by homogeneity. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-374 |
+| MC:Z6 | The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only. | G:SE1, G:SE2, MC:HYP | WP-1.4, WP-1.5, WP-1.8 | G:GM3, G:GM4 | P-374, P-581 |
+| FA:F1 | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm […] | TAG:LAMBDA | WP-1.7 | G:GM1, G:GM2, G:GM4 | — |
 | FA:F2 | the sector charges (q_L, q_R) of up, down, lepton and the LL pair. | TAG:LAMBDA | WP-1.7 | — | — |
 | FA:F3 | the F_10 direction's components and scalar in closed form, given the direction. | B:FRAME | WP-4.7 | — | — |
 | FA:F4 | L_2 as a function of tau (the horocycle of length 2). | A:A07 | WP-2.3 | — | — |
-| FA:F5 | Vol(m004) as a number. | G:SE1, G:SE2 | WP-1.4, WP-1.5 | G:GM3, G:GM4 | P-321 |
+| FA:F5 | Vol(m004) as a number. | G:SE1, G:SE2 | WP-1.4, WP-1.5 | G:GM3, G:GM4 | — |
 | FA:F6 | the GUT normalisation of hypercharge (the tree weak angle at unification). | MC:HYP | WP-1.8 | — | P-374 |
 | FA:F7 | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | A:A04, A:A07 | WP-2.3, WP-3.4 | — | — |
-| V:SIX | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not […] | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, B:FRAME, S:S01, S:S02, TAG:LAMBDA | WP-1.4, WP-1.7, WP-2.1, WP-2.3, WP-2.5, WP-3.4, WP-4.1, WP-4.3, WP-4.7 | G:GM1, G:GM2, G:GM4 | P-321, P-355, P-384, P-446, P-517, P-586, P-596 |
-| T:RE | The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | P-321 |
-| T:RULE | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | P-321 |
+| V:SIX | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not […] | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, B:FRAME, S:S01, S:S02, TAG:LAMBDA | WP-1.4, WP-1.7, WP-2.1, WP-2.3, WP-2.5, WP-3.4, WP-4.1, WP-4.3, WP-4.7 | G:GM1, G:GM2, G:GM4 | P-355, P-384, P-446, P-517, P-586, P-596 |
+| T:RE | The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | — |
+| T:RULE | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | — |
 | PR:P9 | The extra neutral boson of the closing is not gaugeable on a chiral spectrum as it stands: the programme […] | MC:HYP | WP-1.8 | — | P-374 |
 | FL:20 | No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE […] | none | — | — | — |
 
@@ -841,7 +841,7 @@ feeds every row.
 
 | package | debts |
 |---|---|
-| WP-0.1 False or stale statements in foundation and front documents | 22: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-321, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
+| WP-0.1 False or stale statements in foundation and front documents | 21: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
 | WP-0.2 Debts that bear on current work | 19: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786 |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 18: P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
 | WP-0.4 Unverified premises and seat results under banked results | 24: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |

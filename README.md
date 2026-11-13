@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1604: 1109 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
-| points in the register | 838: 309 open (queued work, leads, and questions not yet decided), 529 closed |
+| arcs with a verdict | 1605: 1110 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| points in the register | 838: 307 open (queued work, leads, and questions not yet decided), 531 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f);… |
+| the last landing | S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS P… |
 <!-- STATE:END -->
 
 ## Start here

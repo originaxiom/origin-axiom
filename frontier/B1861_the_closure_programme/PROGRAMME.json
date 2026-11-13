@@ -512,7 +512,6 @@
   "P-318": "WP-0.1",
   "P-319": "WP-0.1",
   "P-320": "WP-0.1",
-  "P-321": "WP-0.1",
   "P-332": "WP-0.3",
   "P-333": "WP-0.1",
   "P-334": "WP-0.4",
@@ -2517,7 +2516,6 @@
     "P-318",
     "P-319",
     "P-320",
-    "P-321",
     "P-333",
     "P-374",
     "P-426",
@@ -2631,7 +2629,7 @@
    ],
    "rows_live": {
     "P-355": "QUEUED",
-    "P-747": "QUEUED"
+    "P-747": "DONE"
    },
    "rulings": [],
    "sits_under": 3,
@@ -3222,8 +3220,8 @@
    ],
    "rows_live": {
     "P-221": "DONE",
-    "P-321": "QUEUED",
-    "P-747": "QUEUED",
+    "P-321": "DONE",
+    "P-747": "DONE",
     "P-764": "QUEUED"
    },
    "rulings": [],
@@ -4638,7 +4636,7 @@
    ],
    "rows_live": {
     "P-624": "QUEUED",
-    "P-747": "QUEUED",
+    "P-747": "DONE",
     "P-750": "QUEUED"
    },
    "rulings": [],
@@ -5290,7 +5288,7 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 94,
+  "debts": 93,
   "debts_on_the_map_joined_to_nothing": 77,
   "exits_by_kind": {
    "ADMITTED": 4,
@@ -5327,7 +5325,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 286,
+  "map_nodes": 285,
   "nodes_assigned": 134,
   "nodes_needing_a_path": 134,
   "open_choices_under_each_conditional_headline": {
@@ -5568,9 +5566,7 @@
     "G:GM4"
    ],
    "conditional": [],
-   "debts": [
-    "P-321"
-   ],
+   "debts": [],
    "not_counted": [],
    "packages": [
     "WP-1.7"
@@ -5623,9 +5619,7 @@
    "conditional": [
     "G:ROOT"
    ],
-   "debts": [
-    "P-321"
-   ],
+   "debts": [],
    "not_counted": [],
    "packages": [
     "WP-1.4",
@@ -5680,9 +5674,7 @@
     "G:GM4"
    ],
    "conditional": [],
-   "debts": [
-    "P-321"
-   ],
+   "debts": [],
    "not_counted": [],
    "packages": [
     "WP-1.4",
@@ -5702,7 +5694,6 @@
     "G:ROOT"
    ],
    "debts": [
-    "P-321",
     "P-374"
    ],
    "not_counted": [
@@ -5728,7 +5719,6 @@
     "G:ROOT"
    ],
    "debts": [
-    "P-321",
     "P-374"
    ],
    "not_counted": [
@@ -5754,7 +5744,6 @@
     "G:ROOT"
    ],
    "debts": [
-    "P-321",
     "P-374"
    ],
    "not_counted": [
@@ -5780,7 +5769,6 @@
     "G:ROOT"
    ],
    "debts": [
-    "P-321",
     "P-374"
    ],
    "not_counted": [
@@ -5806,7 +5794,6 @@
     "G:ROOT"
    ],
    "debts": [
-    "P-321",
     "P-374",
     "P-581"
    ],
@@ -5846,9 +5833,7 @@
    "conditional": [
     "T:RULE"
    ],
-   "debts": [
-    "P-321"
-   ],
+   "debts": [],
    "not_counted": [],
    "packages": [
     "WP-4.1"
@@ -5863,9 +5848,7 @@
     "G:GM4"
    ],
    "conditional": [],
-   "debts": [
-    "P-321"
-   ],
+   "debts": [],
    "not_counted": [],
    "packages": [
     "WP-4.1"
@@ -5887,7 +5870,6 @@
     "FA:F4"
    ],
    "debts": [
-    "P-321",
     "P-355",
     "P-384",
     "P-446",

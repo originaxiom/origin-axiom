@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS PICKED ONLY FOR ONE SECTOR (B1910; P-321 and P-747 DONE; R80-7, at its fourth carry, resolved) (2026-11-13)
+
+- **B1910:** the agy lane's bridge note on P-321, checked on main's own code. The quaternion point excludes the abelian carrier but is carried by the Heisenberg group H₃(ℤ) through Q₈, so the free group needs the premise that iterated commutators do not cancel. The orientation-reversing moves conjugate a Heisenberg sector's central character, so a single sector is kept exactly at p = 2 and the conjugate pair at every p. 25 checks; the lock runs three planted wrong claims.
+- **A reading, not a result (§ 2):** an odd-p sector's central character reads the determinant of a move, so it tells even from odd tick counts, but only after one of a conjugate pair is picked, which is a choice of hand.
+- **P-747 is DONE:** Theorems A, C and E and the P-321 note verified on main; Theorem D not computed under the hold, with its reason dated. **P-321 is DONE**, its record work (GENESIS GM4, B1680) to the builder's card C17.
+- 0 of 19.
+
 ## S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f); docs/REORGANIZATIONS.md, its second entry) (2026-11-13)
 
 - **What left:** every note and hand-over under `docs/handoffs/` but main's four folders of 2026-11-12, which still feed arcs the building session is making. One data file stays at its path: B1487's sealed floor check reads it there.

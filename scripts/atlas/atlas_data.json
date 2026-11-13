@@ -16747,6 +16747,20 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1910": {
+   "slug": "the bridge note checked freeness and one sector are premises",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "B478",
+    "L239"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

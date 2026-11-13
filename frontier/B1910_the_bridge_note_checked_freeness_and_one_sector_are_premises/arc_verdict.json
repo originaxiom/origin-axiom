@@ -1,0 +1,26 @@
+{
+ "id": "B1910",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1680",
+  "B1707"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane: relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md @ 5242c938, its two halves for P-321, read through main's mask; none of its code run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the free group on two letters and its quotients; the finite Heisenberg groups H(p) and their p-dimensional irreducibles",
+  "object": "which carriers carry the quaternion point, and which Heisenberg sectors the orientation-reversing moves keep",
+  "reach": "class",
+  "hypotheses": "half 2 is checked for p = 2, 3, 5, 7 and holds for every odd p by the same computation (zeta != conj(zeta)); the abelian carrier is checked on diagonal and unipotent pairs, which cover the commuting pairs of SL(2, C) up to conjugacy and sign"
+ },
+ "claim_one_line": "THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19.",
+ "weave_or_thread": "neither (the foundation's carrier)"
+}

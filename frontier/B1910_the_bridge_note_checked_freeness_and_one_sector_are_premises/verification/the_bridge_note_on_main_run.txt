@@ -1,0 +1,25 @@
+ok    Q8: the commutator of i and j is -1, so its trace is -2  [[[-1, 0], [0, -1]]]
+ok    Q8 satisfies the Heisenberg relations: [[i,j],i] = [[i,j],j] = 1
+ok    Q8 is a quaternion group: i^2 = j^2 = (ij)^2 = -1, det +1
+ok    the abelian carrier: commuting matrices have [a,b] = 1, trace +2
+ok    the abelian carrier, its non-diagonalisable part: commuting unipotents have [a,b] = 1 too
+ok    the free group's image in SL(2,Z): [[L,R],L] is not 1, so F2 does not factor through H3  [[[5, -1], [11, -2]]]
+ok    p = 2, swap (a,b) -> (b,a): the central character goes to its conjugate  [(-1, -1)]
+ok    p = 2, tick's LP (a,b) -> (ab,a): the central character goes to its conjugate  [(-1, -1)]
+ok    p = 2: a single irreducible sector is kept by both moves exactly when p = 2  [{'swap (a,b) -> (b,a)': True, "tick's LP (a,b) -> (ab,a)": True}]
+ok    p = 2: the pair rho_zeta + rho_conj(zeta) is kept (its set of central characters is closed under conjugation)
+ok    p = 2: i Z and i X are Q8 in SU(2) (det +1, squares -1)
+ok    p = 3, swap (a,b) -> (b,a): the central character goes to its conjugate  [(-1/2 + sqrt(3)*I/2, -1/2 - sqrt(3)*I/2)]
+ok    p = 3, tick's LP (a,b) -> (ab,a): the central character goes to its conjugate  [(-1/2 + sqrt(3)*I/2, -1/2 - sqrt(3)*I/2)]
+ok    p = 3: a single irreducible sector is kept by both moves exactly when p = 2  [{'swap (a,b) -> (b,a)': False, "tick's LP (a,b) -> (ab,a)": False}]
+ok    p = 3: the pair rho_zeta + rho_conj(zeta) is kept (its set of central characters is closed under conjugation)
+ok    p = 5, swap (a,b) -> (b,a): the central character goes to its conjugate  [(-1/4 + sqrt(5)/4 + I*sqrt(sqrt(5)/8 + 5/8), -1/4 + sqrt(5)/4 - I*sqrt(sqrt(5)/8 + 5/8))]
+ok    p = 5, tick's LP (a,b) -> (ab,a): the central character goes to its conjugate  [(-1/4 + sqrt(5)/4 + I*sqrt(sqrt(5)/8 + 5/8), -1/4 + sqrt(5)/4 - I*sqrt(sqrt(5)/8 + 5/8))]
+ok    p = 5: a single irreducible sector is kept by both moves exactly when p = 2  [{'swap (a,b) -> (b,a)': False, "tick's LP (a,b) -> (ab,a)": False}]
+ok    p = 5: the pair rho_zeta + rho_conj(zeta) is kept (its set of central characters is closed under conjugation)
+ok    p = 7, swap (a,b) -> (b,a): the central character goes to its conjugate  [(exp(2*I*pi/7), exp(-2*I*pi/7))]
+ok    p = 7, tick's LP (a,b) -> (ab,a): the central character goes to its conjugate  [(exp(2*I*pi/7), exp(-2*I*pi/7))]
+ok    p = 7: a single irreducible sector is kept by both moves exactly when p = 2  [{'swap (a,b) -> (b,a)': False, "tick's LP (a,b) -> (ab,a)": False}]
+ok    p = 7: the pair rho_zeta + rho_conj(zeta) is kept (its set of central characters is closed under conjugation)
+ok    planted: at p = 3 the move (a,b) -> (a,ab) of det +1 keeps the central character (it is no selector)
+ok    planted: at p = 5 the move (a,b) -> (a,ab) of det +1 keeps the central character (it is no selector)

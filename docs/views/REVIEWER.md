@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1604** |
-| words of findings prose | **1,425,422** |
+| research arcs with findings | **1605** |
+| words of findings prose | **1,426,157** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1604** (100.0 %) |
+| arcs carrying an authored verdict | **1605** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1109 |
+| PROVED | 1110 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1906`** (2785 words, 0 locks)  
-THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19.  
-`B1906_the_four_channels_in_closed_form_and_three_theorems_checked/FINDINGS.md`
+**PROVED — `B1910`** (735 words, 0 locks)  
+THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19.  
+`B1910_the_bridge_note_checked_freeness_and_one_sector_are_premises/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  
