@@ -1,0 +1,31 @@
+A  c (0.13, 0.71) tau (0.21+1.13j) N -1.131041096691 resolution diff 1.6e-11 residual -4.36e+00 swapped -5.55e+00 no log -3.97e+00
+A  c (0.13, 0.71) tau (-0.35+0.9j) N -2.792299120866 resolution diff 9.4e-12 residual -4.36e+00 swapped -4.17e+00 no log -4.69e+00
+A  c (0.13, 0.71) tau (0.1+1.7j) N -1.735672810083 resolution diff -1.4e-12 residual -4.36e+00 swapped -7.92e+00 no log -2.69e+00
+A  c (0.3, 0.2) tau (0.21+1.13j) N -0.034696659875 resolution diff 1.6e-11 residual -4.36e+00 swapped -3.63e+00 no log -3.97e+00
+A  c (0.3, 0.2) tau (-0.35+0.9j) N 2.447737805735 resolution diff 9.4e-12 residual -4.36e+00 swapped -4.79e+00 no log -4.69e+00
+A  c (0.3, 0.2) tau (0.1+1.7j) N 2.663017985493 resolution diff -1.5e-12 residual -4.36e+00 swapped -1.43e+00 no log -2.69e+00
+A  c (0.77, 0.41) tau (0.21+1.13j) N 4.552830882711 resolution diff 1.6e-11 residual -4.36e+00 swapped -7.89e+00 no log -3.97e+00
+A  c (0.77, 0.41) tau (-0.35+0.9j) N 1.798942829721 resolution diff 9.3e-12 residual -4.36e+00 swapped -3.89e+00 no log -4.69e+00
+A  c (0.77, 0.41) tau (0.1+1.7j) N 1.930656049807 resolution diff -1.4e-12 residual -4.36e+00 swapped -1.58e+01 no log -2.69e+00
+A  c (0.62, 0.09) tau (0.21+1.13j) N 0.311500253062 resolution diff 1.6e-11 residual -4.36e+00 swapped -2.51e+00 no log -3.97e+00
+A  c (0.62, 0.09) tau (-0.35+0.9j) N -2.662000560989 resolution diff 9.4e-12 residual -4.36e+00 swapped -4.68e+00 no log -4.69e+00
+A  c (0.62, 0.09) tau (0.1+1.7j) N 4.438062074321 resolution diff -1.6e-12 residual -4.36e+00 swapped 2.30e+00 no log -2.69e+00
+A0 converged within 1e-9 at all points: True
+A1 B1919 holds within 1e-7 at all points: False ; largest residual 4.36e+00
+A2 control, u swapped, above 1e-3 at some point: True
+A3 control, no pi log y, above 1e-3 at some point: True
+A1 fit of the residuals to alpha + beta log y: alpha -4.355172 beta -0.000000 ; largest misfit 8.85e-12
+B  c (0.13, 0.71) tau (0.21+1.13j) quantity -2.22e-11 control c'=c -1.80e-01
+B  c (0.13, 0.71) tau (-0.35+0.9j) quantity -7.36e-12 control c'=c 2.24e+00
+B  c (0.13, 0.71) tau (0.1+1.7j) quantity -1.58e-11 control c'=c 3.12e+00
+B  c (0.3, 0.2) tau (0.21+1.13j) quantity -2.22e-11 control c'=c 1.21e+00
+B  c (0.3, 0.2) tau (-0.35+0.9j) quantity -7.31e-12 control c'=c -4.35e+00
+B  c (0.3, 0.2) tau (0.1+1.7j) quantity -1.58e-11 control c'=c -2.61e+00
+B  c (0.77, 0.41) tau (0.21+1.13j) quantity -2.22e-11 control c'=c 3.83e-01
+B  c (0.77, 0.41) tau (-0.35+0.9j) quantity -7.32e-12 control c'=c 4.18e+00
+B  c (0.77, 0.41) tau (0.1+1.7j) quantity -1.58e-11 control c'=c 9.78e+00
+B  c (0.62, 0.09) tau (0.21+1.13j) quantity -2.22e-11 control c'=c -2.36e+00
+B  c (0.62, 0.09) tau (-0.35+0.9j) quantity -7.36e-12 control c'=c 1.73e+00
+B  c (0.62, 0.09) tau (0.1+1.7j) quantity -1.58e-11 control c'=c -6.71e+00
+B1 B1921 holds within 1e-7 at all points: True ; largest 2.22e-11
+B2 control, c' = c, above 1e-3 at some point: True
