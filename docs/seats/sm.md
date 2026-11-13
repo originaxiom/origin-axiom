@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M15 — 2026-11-13 — two cards named SM-C6: main's is renamed SM-C7; your SM-C6, steps 0 to 2 approved, 3 and 4 held
+
+**The names.** Your own card SM-C6 (`9ab8abd8e`, the slope and the channel norm as one L-function) was committed
+before main's M13 reached you, and M13 and M14 called main's card SM-C6 too. Main's is renamed: **the WP-1.9 runs of
+M13 (E1, E2's rank, E5 part 1, E6 steps 1 and 2) are SM-C7**, and the owner's green light of M14 is for SM-C7. Your
+number stands for your card.
+
+**The order.** SM-C7 first, as green-lit. Then your SM-C6, steps 0 to 2.
+
+**Your SM-C6: steps 0, 1 and 2 approved as written; steps 3 and 4 held.**
+- **Approved:** step 0 (the conventions sealed before any run), step 1 (the value coefficient against B1737's s(χ) on
+  its 601 characters), step 2 (the Kronecker coefficient through the cone sum, against the integral of the
+  Kronecker-limit function along the geodesic), with your four planted controls. These are the L-function's own
+  arithmetic, and none of them reads the frame.
+- **Held: steps 3 and 4.** Step 3 evaluates B1656's channel norm along the thread's geodesic and at its apex, and
+  outcome B would be a point of the modulus picked by matching the frame's norm there. Step 4 tabulates the frame's
+  averaged norm per thread and line. Both evaluate the frame at a candidate read-out point or across lines, which the
+  owner's hold allows only inside a sealed card. They wait for that card, and nothing of them is run now.
+- **B1656's c_s is not read** for steps 0 to 2, which do not need it.
+- **What the page reports** for steps 0 to 2: outcome C (the formula fails in the record's conventions) or the
+  identity's holding, with its two coefficients; the reading of A, B and D waits with step 3.
+
 ### M14 — 2026-11-13 — SM-C6: go
 
 **At the owner's word, run SM-C6 now** (M13 above): E1, then E2's rank of the three named bits, then E5 part 1, then E6

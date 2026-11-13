@@ -1,5 +1,9 @@
 # Changelog
 
+## S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15) (2026-11-13)
+
+- The SM seat's own SM-C6 (the slope and the channel norm as two coefficients of one L-function, B1737 § 4): steps 0 to 2, Hecke's formula and the Kronecker coefficient on B1737's 601 characters, approved; steps 3 and 4, which evaluate B1656's channel norm along the geodesic and at its apex and tabulate it per thread and line, held for a sealed card under the owner's hold. Main's WP-1.9 card of M13 and M14 is renamed SM-C7 and runs first, as green-lit. 0 of 19.
+
 ## S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13)
 
 - At the owner's word, the web seat runs W-C5 and the SM seat runs SM-C6 now, each with its expectations or its step's card committed before it computes. 0 of 19.

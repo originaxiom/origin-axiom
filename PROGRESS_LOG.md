@@ -20088,3 +20088,9 @@ seat's check. Six are left.
 **What happened.** At the owner's word, main told both helper sessions to run the tasks it had just given them, each writing down what it expects before it computes.
 
 0 of 19.
+
+## 2026-11-13 — A helper session's own proposal, approved in part (S306p)
+
+**What happened.** One helper session had proposed a task of its own: to test whether two quantities the project uses come from a single classical number-theoretic function. Main approved the pure number theory and held back the two steps that would evaluate the project's physics formula at a candidate point, since the owner's standing rule allows that only inside a sealed, pre-registered test. Two tasks had been given the same name by accident; main renamed its own.
+
+0 of 19.

@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1610: 1115 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 839: 306 open (queued work, leads, and questions not yet decided), 533 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13) |
+| the last landing | S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15… |
 <!-- STATE:END -->
 
 ## Start here
