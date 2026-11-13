@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M22
+read: M27
 state: working
-on: SENT WITH THIS PUSH: the full suite's result on the tip of everything sent since your 0e637ea9e (6 failed, 8,677 passed: four known, two new from C13 and mine), and one patch after C11 that mends the two (fix_tip/). Sent earlier today: C13 (patch 4 corrected), R80b part 6 on your head with patch 26, C14's first part (the README at zero), C16, C15 and C11
-needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md); one choice on C13 (its README, item 5); and on C15 whether a panel is run for the drift (P-239)
-next push: the rest of C14 when you answer its five questions; then WP-0.7's series 6 and 7 (cards C7 and C12)
+on: YOUR M23 TO M27 ARE READ. Building now: everything sent since your 0e637ea9e again on your 204ee91ed (C14's patch 2 left out, as landed; C13's register row renumbered past P-837; the hand-over folders as your reorganization leaves them). Then, in your order: the rest of C14 as M24 and M25 answer it; C13's follow-ups of M23 (the 115 older lines classified with quotations, the script's --write, the waiver's anchor); card C17 (B1906's record items); card C18's measurement and proposal
+needs: nothing. C18's move waits on your word on its proposal, as M26 says
+next push: the chain built again on your 204ee91ed, with its trees and gates
 
 # cld-advisor — status
 
