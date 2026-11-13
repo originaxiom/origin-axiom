@@ -1,0 +1,28 @@
+A1 rank 1 signature (+, -, 0): (1, 0, 0)
+A1 rank 2 signature (+, -, 0): (1, 0, 1)
+A1 rank 3 signature (+, -, 0): (2, 1, 0)
+A1 rank 4 signature (+, -, 0): (3, 1, 0)
+A1 rank 5 signature (+, -, 0): (4, 1, 0)
+A1 rank 6 signature (+, -, 0): (5, 1, 0)
+A1 holds: True
+A2 [x,y] = acbacb ; a[x,y]a = cbacba ; (abc)^-2 = cbacba ; Pauli [x,y] trace -2.0
+A2 holds: True
+A3 compatible distinctions give [x, y] = I on 200 draws: True
+A4 chi(S^2(2,2,2,k)) for k = 2..12: ['0', '-1/6', '-1/4', '-3/10', '-1/3', '-5/14', '-3/8', '-7/18', '-2/5', '-9/22', '-5/12'] ; at the puncture: -1/2
+A4 holds: True
+A5 L up to sign = product of re-descriptions: ('swap a,b', 'a through b')
+A5 R up to sign = product of re-descriptions: ('swap b,c', 'a through b')
+A5 P up to sign = product of re-descriptions: ('swap a,c',)
+A5 holds: True
+B1 words checked: 8190 ; rev(w) = D w^-1 D and w^-1 = J w^T J^-1 for all: True
+B0 states: 758 ; manifolds: 536 ; automorphisms abelianise to the matrices: True ; 2O has 48 elements
+B0 planted error 1 (b -> ab^-1 claimed as L) passes the abelianisation check: False
+B2 amphichiral manifolds (each counted with both signs): 66 of 536 ; the root LR among them: True
+B3 h(L), h(R), h(P) odd: True True True ; h(D), h(-I), inner a, inner b even: True True True True
+B3 odd-trace states: 326 ; (state, rotation, sign) cases: 3608
+B3a h found, unique up to sign: 3608 of 3608 ; of order 3 or 6: 3608 of 3608
+B3b inversion flips the bit: 3608 of 3608
+B3c conjugation flips by L, R, P: 3608 3608 3608 ; keeps by D, -I, inner a, inner b: 3608 3608 3608 3608 ; each of 3608
+B3d odd-trace states on which the bit takes both values: 163 of 163
+B3 planted error 2, the word in place of its inverse, reported as flipped: 0 of 3608
+B3 holds: True
