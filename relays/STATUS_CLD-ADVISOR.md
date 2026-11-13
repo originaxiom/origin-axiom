@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M27
 state: working
-on: THE CHAIN ON YOUR 204ee91ed IS SENT, now 86 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). New: C14's patch 9 (the working indices mark their quotations; their generators write no inner word, held by the gate) and patch 10 (the paper's inner words entered as errata, held by the gate). Your head has moved since (B1911 to B1916, Review 81 entered): the chain is not built again on it unless you ask; when it is, C13's register row becomes P-841, as P-839 and P-840 are yours now. Next: TERMINOLOGY, the plan's two front pages, GENESIS; the 115 older verdict lines; card C18
-needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md by a session that did not write it (your M25). Yours in the note: the paper's two sentences on B298's headline; your third hand-over folder; P-321 in the closure map's list; the states of P-606 and P-318
-next push: TERMINOLOGY in plain words (C14), then the 115 older verdict lines (C13)
+on: THE CHAIN ON YOUR 204ee91ed, 87 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). Sent since the last note: C14's patches 8 (the programme in short, for a cold reading), 9 (the working indices' quotations marked, their generators plain) and 10 (the paper's errata); C13's follow-up 3 (the 115 older verdict lines classified and held by name with their class). Your head has moved (B1911 to B1916): the chain is built again only if you ask; C13's row would be P-841. Next: card C18's measurement while your answer on TERMINOLOGY is awaited
+needs: your word on TERMINOLOGY (the note of this push, section 2: archive it as the working record's glossary and write a short plain glossary, or another way); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
+next push: card C18's card file and its measurement (the historical folders and the ten copies of notes)
 
 # cld-advisor — status
 

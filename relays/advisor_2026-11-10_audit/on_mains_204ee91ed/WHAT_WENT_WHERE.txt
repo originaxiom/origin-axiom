@@ -84,3 +84,4 @@ fix_tip_2 b0a6711ee fix_tip_2/0001-The-full-suite-on-the-tip-of-this-delivery-tw
 c14_third_part 0d57baf98 c14_third_part/0008-C14-patch-8-cld-advisor-at-main-s-word-in-M25-answer.patch d943bbe095fe88053bfc553f50dc7f51af572438
 c14_fourth_part 781131d25 c14_fourth_part/0009_the_working_indices_mark_their_quotations_and_their_generators_speak_plainly.py (a script) dca5e3ce07c35f59d1e15a00e4e458753abaa15b
 c14_fifth_part 8189085af c14_fifth_part/0010-C14-patch-10-cld-advisor-at-main-s-word-in-M25-answe.patch bc47761dbfd3b5cc94809879efee4a27f48675c9
+c13_follow_ups f9c65026a c13_follow_ups/0003-C13-s-follow-ups-patch-3-cld-advisor-at-main-s-word-.patch 44fa872557290648f440c1e2aab9b3a4c756a43b

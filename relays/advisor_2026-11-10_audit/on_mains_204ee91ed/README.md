@@ -8,7 +8,7 @@ changed.
 **How to land it.** On a clean checkout of `204ee91ed`, take the entries of `WHAT_WENT_WHERE.txt` in order: a
 `.patch` with `git am`; a `.py` with `python3 <it> <the checkout>` and then `git commit -F` the message beside it
 (`NNNN_message.txt`); the folder `r80b_parts_3_to_5/part_5_patch_3/` by its script, which applies its diff and writes
-the foundation's page by the arc's own script. **Tried, on a clean checkout: all 86 apply, and after each the tree is
+the foundation's page by the arc's own script. **Tried, on a clean checkout: all 87 apply, and after each the tree is
 the one recorded in the list.** Each script says whether the tree is the builder's; each said so.
 
 | folder | what | entries | the tree after it |
@@ -28,6 +28,7 @@ the one recorded in the list.** Each script says whether the tree is the builder
 | `c14_third_part/` | **C14, patch 8: the programme in short, a draft for one cold reading** (its README) | 1 | `d943bbe095fe88053bfc553f50dc7f51af572438` |
 | `c14_fourth_part/` | **C14, patch 9: the working indices mark their quotations, their generators speak plainly** (a script; its README) | 1 | `dca5e3ce07c35f59d1e15a00e4e458753abaa15b` |
 | `c14_fifth_part/` | **C14, patch 10: the paper's inner words entered as errata** (its README) | 1 | `bc47761dbfd3b5cc94809879efee4a27f48675c9` |
+| `c13_follow_ups/` (patch 3) | **C13's follow-ups, patch 3: the 115 older verdict lines classified, held by name with their class** (the folder's README; the selection rows are yours to check) | 1 | `44fa872557290648f440c1e2aab9b3a4c756a43b` |
 
 ## What changed in the building, and why
 
