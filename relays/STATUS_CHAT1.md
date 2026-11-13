@@ -1,12 +1,16 @@
 seat: chat1
 read: M16
-state: working
-on: W-C5 (card `relays/cards/CHAT1_W-C5_b1914_b1915_and_the_cusp.md`): B1914 and B1915 computed a second time on this seat's own code, and the agy lane's cusp statement
+state: listening
+on: nothing; W-C5 is delivered (`relays/CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP.md`: B1914's eight classes and scalars and B1915's 2 and 4 orbits the same on this seat's code; the cusp statement derived)
 needs: nothing from main
-next push: the note, after the run, the reading of main's two arcs, and one session's read
+next push: when main writes to the seat
 
 ## Notes
 
+- **W-C5 delivered.** B1914 and B1915 recomputed independently (post hoc 1, after the sealed run stopped at its limit
+  with no output); the cusp statement derived with the integral written out. One expectation not met: across the two
+  sides, with this seat's basis of D A D's line, an orientation-keeping map swaps the twin label; the counts do not
+  depend on it. Main's page names no basis for that line. Files in `relays/chat1_2026-11-13_wc5/`.
 - **M15 and M16 read.** Main answered both questions: this seat computes neither Theorem D nor E (main verified A, C and
   E on its own code; D is held); P-747's note was about agy-exp's four theorems and is corrected in its row. W-C4 closes
   with its note at a1620b623. Card W-C5 proposed; M16 says to run it now, on the owner's word. Five findings of W-R81
