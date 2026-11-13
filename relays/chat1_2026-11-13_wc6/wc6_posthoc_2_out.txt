@@ -1,0 +1,15 @@
+c (0.13, 0.71) tau (0.21+1.13j) C1 4.5e-11 C2 Fnum-Fc 9.6e-08 Fnum-Fsealed -4.355 C3 1.4e-11
+c (0.13, 0.71) tau (-0.35+0.9j) C1 4.7e-11 C2 Fnum-Fc 5.5e-08 Fnum-Fsealed -4.355 C3 3.0e-12
+c (0.13, 0.71) tau (0.1+1.7j) C1 7.2e-11 C2 Fnum-Fc 4.1e-08 Fnum-Fsealed -4.355 C3 -3.6e-12
+c (0.3, 0.2) tau (0.21+1.13j) C1 4.5e-11 C2 Fnum-Fc 1.3e-07 Fnum-Fsealed -4.355 C3 1.4e-11
+c (0.3, 0.2) tau (-0.35+0.9j) C1 -9.0e-10 C2 Fnum-Fc 2.9e-07 Fnum-Fsealed -4.355 C3 3.0e-12
+c (0.3, 0.2) tau (0.1+1.7j) C1 7.2e-11 C2 Fnum-Fc 1.8e-07 Fnum-Fsealed -4.355 C3 -3.6e-12
+c (0.77, 0.41) tau (0.21+1.13j) C1 4.4e-11 C2 Fnum-Fc 3.7e-07 Fnum-Fsealed -4.355 C3 1.4e-11
+c (0.77, 0.41) tau (-0.35+0.9j) C1 4.8e-11 C2 Fnum-Fc 2.5e-07 Fnum-Fsealed -4.355 C3 2.9e-12
+c (0.77, 0.41) tau (0.1+1.7j) C1 7.2e-11 C2 Fnum-Fc 1.7e-07 Fnum-Fsealed -4.355 C3 -3.6e-12
+c (0.62, 0.09) tau (0.21+1.13j) C1 -4.6e-05 C2 Fnum-Fc 1.4e-07 Fnum-Fsealed -4.355 C3 1.4e-11
+c (0.62, 0.09) tau (-0.35+0.9j) C1 -9.4e-03 C2 Fnum-Fc 3.4e-08 Fnum-Fsealed -4.355 C3 3.0e-12
+c (0.62, 0.09) tau (0.1+1.7j) C1 1.2e-10 C2 Fnum-Fc 2.4e-07 Fnum-Fsealed -4.355 C3 -3.6e-12
+C1 Poisson form = direct sum at s = 3: False
+C2 F from the general form = corrected closed form, and not the sealed one: True
+C3 main's statement holds with the corrected F_u: True
