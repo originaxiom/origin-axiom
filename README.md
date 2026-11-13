@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 836: 311 open (queued, leads, waiting for the owner), 525 closed |
+| points in the register | 837: 312 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p PART 2 OF THE BUILDER'S SECOND SERIES IS LANDED, TWELVE PATCHES ON B1881, B1895 AND B1897, AFTER MAIN'S CHECK AND A COLD READING; SIX REGISTER… |
+| the last landing | S306p REVIEW 81 IS OPENED, AT THE OWNER'S WAIVER THROUGH 60; ITS READERS ARE TESTED AGAINST FAULTS PLANTED IN THE COMMIT THEY READ; THE BUILDER'S CAR… |
 <!-- STATE:END -->
 
 ## Start here

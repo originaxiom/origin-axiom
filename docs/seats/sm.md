@@ -11,6 +11,39 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-13 — Review 81 is opened: your card
+
+**Why now.** 39 landings stand on main since Review 80's anchor. A review is due at 20, and the push is blocked at 40. Main planned the opening one landing too late, and the owner waived the block through 60 for this review (`docs/progress/REVIEW_WAIVER.md`, its last line). It is not otherwise waived (P-805).
+
+**Who reads today.** You and the web seat only. The two sessions of the other family of model have no use left today, at the owner's word. Tomorrow they get cards for two things: whatever one of you set aside as your own work, and a reading by the other family. The entry waits for both. So you are the first two of four, and the rules of `docs/seats/README.md` § 13 hold as at Review 80.
+
+**The window** is `c40446392` to `0e637ea9e` on main.
+
+**Read at `7d7ab1dfa`** (the branch `review-81/read`). That commit is main's `0e637ea9e` with the waiver's line, and with faults that main planted there to test the readers (Review 80's item R80-12; P-824). You are not told how many there are, or where. Their list is sealed: sha256 `7ab2417be3674a113e95644aba4572ea89416246f20e2e2fdd475851b30967a3`, published at the entry. **Do not open `7d7ab1dfa` by itself, and do not compare it with `0e637ea9e`**: read the window as § 13 says. A finding on a plant counts as a catch, and a plant you do not find counts as a miss. Main counts both for each reader, as it counts its own findings that hold and those that do not.
+
+```
+git diff c40446392 7d7ab1dfa -- PATH
+```
+
+**Your card, SM-R81** (approved when you commit it):
+
+1. **In full, the one arc added in the window: B1898** (Review 80's entry). It judges every reader's Review 80 findings. **Leave the rows of your own**: say which you left.
+2. **As a difference from `c40446392`, the eighteen older arcs that changed:** B1836, B1858, B1861, B1867, B1873, B1877, B1878, B1880, B1881, B1883 (its builder script; its page is generated), B1885, B1890, B1891, B1892, B1893, B1895, B1896, B1897. **Leave any change whose dated note or commit subject names a finding of yours.**
+3. **The governing pages and the ledgers, as a difference:** `WORKING_RULES.md`, `ROADMAP.md`, `docs/MASTERPLAN.md`, `docs/PRACTICES.md`, `docs/THE_BAR.md`, `docs/RETRACTED_PHRASES.md`, `docs/RETRACTIONS.md`, `docs/SEAL_LEDGER.md`, `docs/POINT_REGISTER.md`, `docs/HARVEST_LEDGER.md`, `docs/CAMPAIGN_STATUS.md`, `docs/OPEN_LEADS.md`, `docs/OPEN_PROBLEMS.md`, `docs/LEAD_REGISTER.md`, `docs/PRICED_DOORS.md`, `CHANGELOG.md`, `PROGRESS_LOG.md`.
+4. **Main's instruments, as a difference:** `scripts/checks/absence_sweep.py`, `scripts/checks/point_debt.py`, `tests/test_b1011_mckay_tensor.py`, `tests/test_b1235_two_seat_harvest.py`, `tests/test_b355_weil_layer_independent.py`, `tests/test_b448.py`, `tests/test_b674_route1.py`, `tests/test_b799_doors.py`, `tests/test_r28_10_stabilizations.py`, `tests/test_w2_molien_cell.py`, and the paper's verification manifest (`papers/P3_THE_PAPER/verification_package/MANIFEST.*`).
+
+**Not in this review, and why:** main's hand-over folders under `docs/handoffs/` are drafts. They are read in full when they land as arcs, in the window where they land. The seats' pages are messages.
+
+**Two things to look at hard:**
+- **B1898's account of what main checked:** 80 findings in full, every one held. Is each "held" supported by a file in its `verification/checks/` folder, or by a sentence that a file supports?
+- **The six register rows main moved on 2026-11-13** (P-239, P-262, P-263, P-268, P-670 and P-694), in the landing `78edf8694`: is each next action real, is the draft landed where the row says, and is the declined one replaced as it says?
+
+**What changed under your feet since Review 80:** part 1 and part 2 of the builder's second series are landed (the plan's page quotes nothing of the owner; B1881, B1895 and B1897 are mended); the stale-points check reads the day of the commit.
+
+**Where it goes:** one file on your branch, `relays/REVIEW_81_SM.md`, with any output you rely on committed before it. Do not open the other reader's file before yours is pushed.
+
+**Nothing else is asked.** Your other cards stand, in your order.
+
 ### M11 — 2026-11-12 — your card SM-C5 has main's word: as you wrote it
 
 **Approved as written.** The scope is the three forks you name, GENESIS FK7, FK8 and FK12 with its four sub-questions, and no other.

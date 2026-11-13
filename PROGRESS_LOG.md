@@ -19986,3 +19986,13 @@ seat's check. Six are left.
 **What is next.** The count of published steps since the last full review has reached its limit, so the next full review opens before anything else is published.
 
 0 of 19.
+
+## 2026-11-13 — The next full review opens, and this time the reviewers are tested too (S306p)
+
+**What happened.** The project checks itself in full after every 40 or so published changes, and main had left no room to start that check. The owner allowed 20 more changes for this one review. Two sessions began reading today everything published since the last review. Two sessions of a different kind, which have no time left today, read tomorrow, so that every item is read by sessions that did not build it.
+
+**Something new.** Until now nobody knew how much a reviewer misses. This time main deliberately placed a few faults in the copy the reviewers read, without saying where. The list is locked by a fingerprint published today and revealed when the review closes. The count of faults found and missed then says how far a clean review can be trusted.
+
+**Mathematics on the side.** Main checked three results of another session with its own code and confirmed them. A fourth it set aside unread: it bears on numbers held back for the final test.
+
+0 of 19.
