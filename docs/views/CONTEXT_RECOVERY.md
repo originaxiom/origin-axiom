@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1605 |
-| … PROVED | 1110 |
+| arcs with a verdict file | 1606 |
+| … PROVED | 1111 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1911 | PROVED | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction t… |
 | B1910 | PROVED | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING… |
 | B1909 | OPEN | THE PAIRED CURRENT POLE (P-749 (e); R80-5): FIVE OF ITS SEVEN STEPS HOLD ON MAIN'S OWN ALGEBRA, EXACTLY, AND THE OTHER TWO NEED THE LANE'S OPERATOR WRITTEN OUT ON MAIN. The grade -2 plane of V(3/2) x V(3/2) is an eigens… |
 | B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
@@ -42,7 +43,6 @@
 | B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (a reading of main at 87bfa1f05 by a session that did not write them, 4 of 4 quotations foun… |
 | B1894 | PROVED | REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete… |
 | B1893 | PROVED | THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledg… |
-| B1892 | PROVED | REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of wh… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP-2.1 begun; P-749) (2026-11-13)
 - S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS PICKED ONLY FOR ONE SECTOR (B1910; P-321 and P-747…
 - S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f); docs/REORGANIZATIONS.md, its second entry) (2026-…
 - S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR WRITTEN OUT (B1909, OPEN; P-749 (e); R80-5, at it…
@@ -60,11 +61,10 @@
 - S306p TWO SEALED PACKAGES OF CHECKS FROM ANOTHER LINE OF WORK ARE NOT ACCEPTED AS SEALED: CUSTODY HOLDS, THE MATHEMATICS HOLDS AS READ, AND THREE CHECKS WOULD PASS FOR MORE THAN THEY TEST (B1907; P-7…
 - S306p THE ROOT OF THE REPOSITORY IS CLEARED OF NOTES AND STRAY RESULT FILES, BY THE RULE FOR MOVING A FILE OF THE RECORD, USED FOR THE FIRST TIME (P-838; GOVERNANCE section 12; docs/REORGANIZATIONS.m…
 - S306p THE FOUR CHANNELS IN CLOSED FORM: EACH RESIDUE IS A PRODUCT OF TWO THETA CONSTANTS, AND EVERY EXACT ZERO OF THE FRAME'S DETERMINANT IS EXPLAINED (B1906; P-262 and P-268 paid; P-337, P-606, P-31…
-- S306p THE FRONT PAGE SPEAKS PLAINLY: EVERY CHECK IS CALLED INTERNAL TO THE PROJECT AND SAYS WHICH KIND IT IS, AND THE WORKING RECORD IS NAMED AS SUCH (card C14's second patch, by the builder, placed…
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 80 ENTERED (B1898; P-833, P-834).** 100 findings on main's work since Review 79, in four readers' files and one dated addition. Main checked 80 in full and all 80 held; 3 in part; 17 nobody but their reader has looked at. The first 43 are mended on main or with the builder of the enforcement package; of the other 57, 16 are mended or noted and 41 wait to be built. The entry and the arc were built as a patch by the building session from main's tables and checks (P-832) and mend nothing. Its anchor is `c40446392`. None of Review 79's eighteen items is resolved; five are at their third carry and wait for main's or the owner's word (R80-21). The gates catch 24…
+LATEST (2026-11-13, S306p: REVIEW 81 OPENED AT THE OWNER'S WAIVER THROUGH 60, ITS READERS TESTED BY PLANTED FAULTS (P-837); THE FIVE ITEMS AT THEIR FOURTH CARRY RESOLVED OR ANSWERED BY ARCS; WP-2.1 BEGUN; THE TREE CLEARED OF NOTES BETWEEN SESSIONS (P-838).** B1906: the four channels of B1656's coupling in closed form, each residue a product of two theta constants; every exact zero of det M on the lines of order 1 to 12 explained; P-262 and P-268 paid. B1907: the physical lane's two sealed packets refused as sealed, custody holding, seven repairs listed (P-746). B1908: why the tube's mesher stopped at k = 3 is found, its value not resolved (P-739). B1909: five of the paired pole's seven step…
 
 ## Completeness (nothing skipped silently)
 

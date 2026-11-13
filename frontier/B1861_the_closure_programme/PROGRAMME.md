@@ -8,7 +8,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
   The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 93 debts (C0) and the map's own eleven groupings.
-- **43 packages** in 8 waves: not started 24, started 18, done 1.
+- **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 0, reader 3, reproduced 40, partly fixed 17, fixed 13.
@@ -185,7 +185,7 @@ For each package, how many others rest on it, by needs and given together. This,
 | WP-2.2 The background, and whether the moves keep it | 17 | main | STARTED |
 | WP-1.2 Two records and the punctured torus | 16 | main | NOT STARTED |
 | WP-1.8 The parent algebra | 16 | unowned | NOT STARTED |
-| WP-2.1 The curved action and the mass map, on main | 15 | main | NOT STARTED |
+| WP-2.1 The curved action and the mass map, on main | 15 | main | STARTED |
 | WP-2.5 The source and the dynamics | 15 | the physical lane; main | NOT STARTED |
 | WP-4.1 The modulus | 15 | main; the web seat | STARTED |
 | WP-3.1 The kernel theorem, on main | 10 | main | NOT STARTED |
@@ -210,7 +210,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-2.2 The background, and whether the moves keep it | Which of the model's unselected data are kept by every move, and which are a choice of thread? | main | STARTED | — |
 | WP-1.2 Two records and the punctured torus | Do two records and the once-punctured torus follow from a weaker premise, or are they declared? | main | NOT STARTED | — |
 | WP-1.8 The parent algebra | Is the gauge parent forced by the moves, or supplied? | unowned | NOT STARTED | — |
-| WP-2.1 The curved action and the mass map, on main | Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written? | main | NOT STARTED | WP-1.2, WP-1.8, WP-2.2, WP-4.1 |
+| WP-2.1 The curved action and the mass map, on main | Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written? | main | STARTED | WP-1.2, WP-1.8, WP-2.2, WP-4.1 |
 | WP-3.2 The register-to-field join | Is the lanes' three the weave's three? | main | STARTED | WP-3.1 |
 | WP-0.11 The weave discipline, mechanised | Can a result about one thread still be stated about the whole without a gate refusing it? | the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands | STARTED | — |
 | WP-0.6 The map kept current and complete | Is every node upstream of a claimed prediction in the map, at its true grade? | main | STARTED | — |
@@ -503,7 +503,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 
 *the work order's C2.*
 
-**WP-2.1 — The curved action and the mass map, on main** (VERIFY; NOT STARTED; owner: main)
+**WP-2.1 — The curved action and the mass map, on main** (VERIFY; STARTED; owner: main)
 
 - **The question:** Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written?
 - **The first step:** read the two parent proofs through the binding-minimum mask; re-derive the weights, the D-terms and the operator's domains with main's own algebra.

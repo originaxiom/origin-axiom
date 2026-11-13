@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1605: 1110 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1606: 1111 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 838: 307 open (queued work, leads, and questions not yet decided), 531 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS P… |
+| the last landing | S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP… |
 <!-- STATE:END -->
 
 ## Start here

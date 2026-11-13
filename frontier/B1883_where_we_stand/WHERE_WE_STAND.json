@@ -39,9 +39,9 @@
    "done": 1,
    "id": "M2",
    "name": "the physical construction is verified",
-   "not_started": 20,
+   "not_started": 19,
    "packages": 38,
-   "started": 17
+   "started": 18
   },
   {
    "done": 0,
@@ -80,8 +80,8 @@
    "C2": {
     "all": 5,
     "done": 0,
-    "not_started": 4,
-    "started": 1
+    "not_started": 3,
+    "started": 2
    },
    "C3": {
     "all": 5,
@@ -109,8 +109,8 @@
    }
   },
   "done": 1,
-  "not_started": 24,
-  "started": 18,
+  "not_started": 23,
+  "started": 19,
   "with_no_owner": [
    "WP-1.8",
    "WP-1.9",

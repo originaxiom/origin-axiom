@@ -1,0 +1,26 @@
+{
+ "id": "B1911",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1907",
+  "B1909"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the physical lane: reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md (lines 1-170) and reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md (lines 1-180) at 1aa76251f, read through main's binding-minimum mask; none of its code run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the physical lane's supplied curved parent: the elliptic complex C0..C3 on a charge subbundle, its metrics, the superpotential's quadratic part and the gauge coupling",
+  "object": "the algebraic identities of the complex, the gauge-fixed quadratic potential and the fermion mass map",
+  "reach": "class",
+  "hypotheses": "checked as local identities on a periodic spectral model with gl(3)-valued smooth fields and a smooth positive Omega, and the cusp block symbolically; the punctured hyperbolic surface, the complete domains, the Fredholm property and the index are not tested; the background's existence is a premise; the operator P_v of the second source is not yet read"
+ },
+ "claim_one_line": "THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19.",
+ "weave_or_thread": "neither (one supplied parent)"
+}

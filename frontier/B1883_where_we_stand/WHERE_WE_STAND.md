@@ -40,18 +40,18 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | milestone | packages | done | started | not started |
 |---|---|---|---|---|
 | M1, the dependency map is complete | 1 | 0 | 1 | 0 |
-| M2, the physical construction is verified | 38 | 1 | 17 | 20 |
+| M2, the physical construction is verified | 38 | 1 | 18 | 19 |
 | M3, the predictions are ready for comparison | 4 | 0 | 1 | 3 |
 
 ## 3. The work order
 
-**43 packages: 1 done, 18 started, 24 not started.** 4 have no owner (WP-1.8, WP-1.9, WP-3.5, WP-4.5).
+**43 packages: 1 done, 19 started, 23 not started.** 4 have no owner (WP-1.8, WP-1.9, WP-3.5, WP-4.5).
 
 | obligation | what | packages | done | started | not started |
 |---|---|---|---|---|---|
 | C0 | The record is clean under the claim | 12 | 0 | 10 | 2 |
 | C1 | Foundational generation and selection | 9 | 1 | 1 | 7 |
-| C2 | One physical action, stationary background and response | 5 | 0 | 1 | 4 |
+| C2 | One physical action, stationary background and response | 5 | 0 | 2 | 3 |
 | C3 | Complete field content and interactions | 5 | 0 | 1 | 4 |
 | C4 | States, quantum dynamics, parameters and gravity | 7 | 0 | 4 | 3 |
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |

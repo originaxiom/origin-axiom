@@ -131,7 +131,7 @@ P("WP-1.9", "C1", "The register, the deck and the join between states",
 P("WP-2.1", "C2", "The curved action and the mass map, on main",
   "Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written?", "VERIFY",
   "read the two parent proofs through the binding-minimum mask; re-derive the weights, the D-terms and the operator's domains with main's own algebra",
-  "main's derivation agrees line by line; a lock; then an independent reader. If it holds, the flat ansatz of both value frames has a curved replacement", "main", [], "NOT STARTED",
+  "main's derivation agrees line by line; a lock; then an independent reader. If it holds, the flat ansatz of both value frames has a curved replacement", "main", [], "STARTED",
   ["P-749"], ["E:L09", "S:S01", "G:GAP6", "FL:02", "D:03"])
 P("WP-2.2", "C2", "The background, and whether the moves keep it",
   "Which of the model's unselected data are kept by every move, and which are a choice of thread?", "DECIDE",

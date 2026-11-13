@@ -1,0 +1,97 @@
+{
+ "grid": 40,
+ "algebra": "gl(3)",
+ "checks": [
+  {
+   "check": "E1 the Hessian's dual coefficients are (i t, p2, -p1)",
+   "holds": true,
+   "detail": "1.4e-16"
+  },
+  {
+   "check": "E1 plant: (i t, p2, +p1) fails",
+   "holds": true,
+   "detail": "2.2e+00"
+  },
+  {
+   "check": "E2 D0+ is D0's adjoint in C0: Omega^2, C1: diag(1/2, Omega, Omega)",
+   "holds": true,
+   "detail": "2.7e-16"
+  },
+  {
+   "check": "E2 plant: weight 1 on a in C1 fails",
+   "holds": true,
+   "detail": "1.2e-01"
+  },
+  {
+   "check": "E3 D2+ is D2's adjoint in C2: diag(Omega^-1, Omega^-1, 2), C3: 2 Omega^-2",
+   "holds": true,
+   "detail": "3.0e-16"
+  },
+  {
+   "check": "E3 plant: weight 1 on t in C2 fails",
+   "holds": true,
+   "detail": "6.7e-02"
+  },
+  {
+   "check": "E4 D1 D0 eps = -i sqrt2 ([Dbar q, eps], [Dbar r, eps], [[q,r], eps])",
+   "holds": true,
+   "detail": "1.6e-15 (aliasing of products)"
+  },
+  {
+   "check": "E4 D2 D1 x = [Dbar q, v] - [Dbar r, u] - i[[q,r], a]",
+   "holds": true,
+   "detail": "1.1e-15 (aliasing of products)"
+  },
+  {
+   "check": "E5 M = Uout T Uin: the page's four rows",
+   "holds": true,
+   "detail": "4.9e-16"
+  },
+  {
+   "check": "E5 plant: Uin without Omega^2 fails",
+   "holds": true,
+   "detail": "8.0e-01"
+  },
+  {
+   "check": "E6 Uin is an isometry onto C1 + C3 for the densities (Omega^2, 1/2, Omega, Omega)",
+   "holds": true,
+   "detail": "1.2e-16"
+  },
+  {
+   "check": "E6 Uout is an isometry from C0 + C2 for the same densities",
+   "holds": true,
+   "detail": "3.5e-19"
+  },
+  {
+   "check": "E7 g6^2 V2_gf = |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the conjugate-pair identity and the soft term on a charge block)",
+   "holds": true,
+   "detail": "1.6e-20"
+  },
+  {
+   "check": "E7 Dz a - 2i Omega([q+,u] + [r+,v]) = G + i M1, with G and M1 Hermitian",
+   "holds": true,
+   "detail": "2.4e-16"
+  },
+  {
+   "check": "E7 plant: the soft term as +k|x|^2 fails",
+   "holds": true,
+   "detail": "5.5e-02"
+  },
+  {
+   "check": "E9 on a closed background (|D2 D1 x| = 5e-15) |T(x,s)|^2 = |D0+ x|^2 + |D1 x|^2 + |D2+ s|^2",
+   "holds": true,
+   "detail": "2.1e-16"
+  },
+  {
+   "check": "E9 control: on a generic background (the complex open) the cross term is not zero",
+   "holds": true,
+   "detail": "2.1e-02"
+  },
+  {
+   "check": "E8 the h = 1 cusp block: y * residual 1 = i(d_t + delta)v - b alpha, sqrt(2y) * residual 2 = b v + i(d_t - delta)alpha",
+   "holds": true,
+   "detail": "0, 0"
+  }
+ ],
+ "failing": []
+}

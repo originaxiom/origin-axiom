@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1605** |
-| words of findings prose | **1,426,157** |
+| research arcs with findings | **1606** |
+| words of findings prose | **1,427,200** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1605** (100.0 %) |
+| arcs carrying an authored verdict | **1606** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1110 |
+| PROVED | 1111 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1910`** (735 words, 0 locks)  
-THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19.  
-`B1910_the_bridge_note_checked_freeness_and_one_sector_are_premises/FINDINGS.md`
+**PROVED — `B1911`** (1043 words, 0 locks)  
+THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19.  
+`B1911_the_lanes_complex_and_mass_map_on_mains_algebra/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP-2.1 begun; P-749) (2026-11-13)
+
+- **B1911:** from two of the physical lane's proofs, read through main's mask: the elliptic complex closes exactly when D̄q = D̄r = [q, r] = 0; D0† and D2† are the adjoints in the declared metrics (the weight 2 on t, masked on the page, is derived); the gauge-fixed potential is |D0†x|² + |D1x|² − k|x|²; the mass map is M = U_out T U_in, with U_in and U_out isometries exactly for the fermion densities (Ω², ½, Ω, Ω); the h = 1 cusp block follows from the complex. 18 checks on a spectral model and one symbolic, four planted forms caught.
+- **Not tested:** the analysis on the punctured surface (domains, Fredholm property, index) and the background's existence; the operator P_v is the next part.
+- 0 of 19.
+
 ## S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS PICKED ONLY FOR ONE SECTOR (B1910; P-321 and P-747 DONE; R80-7, at its fourth carry, resolved) (2026-11-13)
 
 - **B1910:** the agy lane's bridge note on P-321, checked on main's own code. The quaternion point excludes the abelian carrier but is carried by the Heisenberg group H₃(ℤ) through Q₈, so the free group needs the premise that iterated commutators do not cancel. The orientation-reversing moves conjugate a Heisenberg sector's central character, so a single sector is kept exactly at p = 2 and the conjugate pair at every p. 25 checks; the lock runs three planted wrong claims.

@@ -16761,6 +16761,21 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1911": {
+   "slug": "the lanes complex and mass map on mains algebra",
+   "motifs": [
+    "closing",
+    "coupling",
+    "kappa",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

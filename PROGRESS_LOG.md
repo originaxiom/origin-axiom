@@ -20046,3 +20046,9 @@ seat's check. Six are left.
 **What happened.** Two steps in the project's foundation had been read as consequences when they are really assumptions. One concerns which kind of underlying group the object must have: a key property rules out the simplest kind, but a slightly richer kind still fits, so the step needs an assumption of its own. The other concerns why the number 2 appears: it is singled out only if one assumes a single building block rather than a pair. Main checked both exactly, and both assumptions are now stated where they are used.
 
 0 of 19.
+
+## 2026-11-13 — The algebra of another session's curved theory is checked (S306p)
+
+**What happened.** Another line of work had written a theory of fields on the object's curved surface: the equations linking its pieces, the energy they carry, and how particle masses arise from them. Main checked every algebraic identity those equations state with its own code, and all of them hold. Main also derived one weight the other session's page hid and listed one quantity the other session's files gave incompletely. What depends on the shape of the surface near its single puncture was not part of this check.
+
+0 of 19.

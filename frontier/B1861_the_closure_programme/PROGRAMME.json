@@ -3715,7 +3715,7 @@
    },
    "rulings": [],
    "sits_under": 15,
-   "status": "NOT STARTED",
+   "status": "STARTED",
    "title": "The curved action and the mass map, on main",
    "wave": 0
   },
@@ -5353,8 +5353,8 @@
   },
   "packages_by_status": {
    "DONE": 1,
-   "NOT STARTED": 24,
-   "STARTED": 18
+   "NOT STARTED": 23,
+   "STARTED": 19
   },
   "packages_that_close_together": [
    [
