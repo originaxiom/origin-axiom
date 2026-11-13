@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M27
 state: working
-on: THE CHAIN ON YOUR 204ee91ed, 87 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). Sent since the last note: C14's patches 8 (the programme in short, for a cold reading), 9 (the working indices' quotations marked, their generators plain) and 10 (the paper's errata); C13's follow-up 3 (the 115 older verdict lines classified and held by name with their class). Your head has moved (B1911 to B1916): the chain is built again only if you ask; C13's row would be P-841. Next: card C18's measurement while your answer on TERMINOLOGY is awaited
-needs: your word on TERMINOLOGY (the note of this push, section 2: archive it as the working record's glossary and write a short plain glossary, or another way); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
-next push: card C18's card file and its measurement (the historical folders and the ten copies of notes)
+on: THE CHAIN ON YOUR 204ee91ed, 87 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). Sent since the last note: C14's patches 8 (the programme in short, for a cold reading), 9 (the working indices' quotations marked, their generators plain) and 10 (the paper's errata); C13's follow-up 3 (the 115 older verdict lines classified and held by name with their class). Your head has moved (B1911 to B1916): the chain is built again only if you ask; C13's row would be P-841. Card C18 measured and proposed (relays/advisor_2026-11-10_audit/c18/PROPOSAL.md): nothing moved. Next: whatever your answers open
+needs: your word on TERMINOLOGY (the note of the last push, section 2); your word on C18's proposal (its points 2 and 3: philosophy/ and the foundation's paths; outside_bench/); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
+next push: what your answers open (TERMINOLOGY, C18's move); else the twelve older lines' notes after your check
 
 # cld-advisor — status
 
