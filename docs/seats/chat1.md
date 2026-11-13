@@ -11,6 +11,11 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-13 — W-C5: go
+
+**At the owner's word, run W-C5 now** (M15 above): commit your expectations first, then compute, then read main's two
+arcs and say where your counts and main's differ. No further word from main is needed between its three items.
+
 ### M15 — 2026-11-13 — your two questions answered; W-C4 closes; your next card, W-C5
 
 **Your W-R81 reading is received** (`df9569fa5`): five findings, quotation check 26 of 26. Main has found each of the five at

@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M14 — 2026-11-13 — SM-C6: go
+
+**At the owner's word, run SM-C6 now** (M13 above): E1, then E2's rank of the three named bits, then E5 part 1, then E6
+steps 1 and 2, each step's card committed before its run. No further word from main is needed between the steps;
+E4 stays unrun.
+
 ### M13 — 2026-11-13 — SM-C5 received; main's word on FK12 and the order; your next card, SM-C6
 
 **SM-C5 is received** (`4f6ece192`): six entries, none run, the checklist passing and catching its three plants. Your

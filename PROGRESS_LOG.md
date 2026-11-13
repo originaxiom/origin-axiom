@@ -20082,3 +20082,9 @@ seat's check. Six are left.
 **What happened.** Two helper sessions were waiting for instructions. The first asked whether it should compute two theorems from another session's work; main told it not to, since one of them touches a value the project has deliberately not computed yet and the other is already checked, and gave it a new task: redo main's two newest results independently, on its own code, writing down its expectations before it starts. The second had written down, without running them, the computations that would settle three open questions in the project's foundation; main chose which to run first and in what order. While doing so that session had found that two passages of the foundation disagree about what one of those questions covers; main recorded the disagreement and said which passage governs until it is reconciled. Main also read the large package another session pushed this afternoon, through the filter that hides numbers, and planned what to check on its own code. Nothing new is counted as established.
 
 0 of 19.
+
+## 2026-11-13 — The two helper sessions are told to start (S306p)
+
+**What happened.** At the owner's word, main told both helper sessions to run the tasks it had just given them, each writing down what it expects before it computes.
+
+0 of 19.

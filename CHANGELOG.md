@@ -1,5 +1,9 @@
 # Changelog
 
+## S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13)
+
+- At the owner's word, the web seat runs W-C5 and the SM seat runs SM-C6 now, each with its expectations or its step's card committed before it computes. 0 of 19.
+
 ## S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's page M13) (2026-11-13)
 
 - **The web seat:** its two questions on the agy lane's relay answered (Theorems D and E: compute neither; D waits on the owner's hold, A, C and E are verified on main; the 2026-11-12 note on P-747 concerned agy-exp's theorems, as corrected that day). Its next card, W-C5: a second computation, on its own code and with expectations committed first, of B1914 and B1915's counts, and of the cusp's square-integrability bound that the agy lane's stage 1 states.
