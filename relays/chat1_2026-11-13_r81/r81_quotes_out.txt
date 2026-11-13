@@ -22,4 +22,6 @@ FOUND  ctrl ok frontier/B1892_review_79_read_by_those_who_did_not_build_it/verif
 FOUND  ctrl ok papers/P3_THE_PAPER/verification_package/MANIFEST.json
 FOUND  ctrl ok papers/P3_THE_PAPER/verification_package/MANIFEST.json
 FOUND  ctrl ok scripts/checks/point_debt.py
-quotations and strings: 24; not found or control found: 0
+FOUND  ctrl ok frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md
+FOUND  ctrl ok docs/MASTERPLAN.md
+quotations and strings: 26; not found or control found: 0

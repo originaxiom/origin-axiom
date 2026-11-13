@@ -38,6 +38,8 @@ Q = [
     ("papers/P3_THE_PAPER/verification_package/MANIFEST.json", '"git_commits": 4218'),
     ("papers/P3_THE_PAPER/verification_package/MANIFEST.json", '"git_tree_clean": false'),
     ("scripts/checks/point_debt.py", "FLOOR = 836"),
+    (B92, "half or more"),
+    ("docs/MASTERPLAN.md", "gained Review 79's note and nothing else"),
 ]
 bad = 0
 for f, q in Q:
