@@ -1,5 +1,10 @@
 # Changelog
 
+## S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)
+
+- **Harvested:** the web seat's W-C5 and W-C6 part 2, independent second computations of B1914, B1915, B1919 and B1921 (VERIFIED); its cold reading of the builder's page (six findings, to the builder); the SM seat's SM-C5 (acted on), SM-C7 (verified by main in B1917, B1919, B1920) and SM-C6's E1 (received; main's recomputation owed); agy-exp's X-C1b and X-C1c and agy-002's reports of 2026-11-12 and 13, read through the mask (B1923); the agy lane's five-stage push, digested by masked readers.
+- **The seats' next work, so none waits:** the web seat's W-C7 (second computations of B1823, B1822, B1913 and B1885); the builder meets the six findings before the README points to its page; the SM seat goes on with SM-C6. 0 of 19.
+
 ## S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
 
 - **The condition:** the allowed subweave at level 5 is the stabiliser of the mark (B1872); every allowed word is a closed thread whose own line is the mark, so its thread average at the mark with the invariant end is canonical (B1921, B1922); the read-out on the whole is the move-count average of those thread averages, each weighted by its length.

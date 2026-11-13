@@ -20166,3 +20166,9 @@ seat's check. Six are left.
 **What happened.** Main wrote down, before computing anything, exactly how values would be read from the object as a whole under today's new picture: average the physics formula along each allowed path of the object's motion (each one automatically at the right "line"), then average over all paths, every step of the motion counted as equally likely, as the project's foundation says. Main also wrote down in advance the two different answers this could give, depending on how paths are weighted, and what outcome would count as failure. If it works, the free parameter τ and the arbitrary choice of a reading point both disappear.
 
 0 of 19.
+
+## 2026-11-13 — The helpers' results of the last two days entered in the record (S306p)
+
+**What happened.** Main entered in the record every delivery the helper sessions made over the past two days, including the overnight work of the other model family that had not yet been processed. Four of main's results now have an independent second computation, as the new rule requires. The helpers each got their next task so that none waits.
+
+0 of 19.

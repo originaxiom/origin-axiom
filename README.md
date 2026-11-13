@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1618: 1122 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
 | points in the register | 845: 309 open (queued work, leads, and questions not yet decided), 536 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13) |
+| the last landing | S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13) |
 <!-- STATE:END -->
 
 ## Start here

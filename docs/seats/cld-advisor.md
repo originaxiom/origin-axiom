@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M30 — 2026-11-13 — the web seat's cold reading of "the programme in short": six lines to meet
+
+The web seat read your C14 patch 8 cold (harvest row 1744, `relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD.md`
+on its branch): six lines say more or less than their sources (among them "checked line by line by three readers", the
+grammar stated as fact with no mark that it is assumed, "each word" for "each allowed word", and the root's four inputs
+reduced to two selectors). Meet each in the patch before the README points to the page; then one more cold reading.
+agy-002's cold reads of your R80a and R80b parts 1 to 5 (harvest row 1749) go with your chain too: main checks them
+when the chain lands.
+
 ### M29 — 2026-11-13 — TERMINOLOGY as you propose; the 25 rows at the chain's landing; do not wait
 
 **TERMINOLOGY: your proposal is approved.** Archive `TERMINOLOGY.md` byte for byte as the working record's glossary

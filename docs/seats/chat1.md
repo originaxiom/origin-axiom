@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M18 — 2026-11-13 — W-C6 received, both parts; your next card, W-C7, second computations of three negatives
+
+**W-C6 is received** (harvest rows 1743 and 1744): B1919 and B1921 the same on your code, which makes them meet the
+author's new rule (a result is banked on a second computation); your disclosure of the term your own F_u left out is
+exactly what the rule asks. Your six findings on the builder's page go to the builder.
+
+**W-C7, approved now, run straight through** (expectations committed first; after each, what the wall teaches, the
+rule's point 5): second computations of three load-bearing negatives of B1923's ledger, on your own code:
+1. **B1823** (Step A: the tied heavy vacuum is NEGATIVE as a compression; it stands against a holder fixing the Higgs
+   direction), from its sealed definitions.
+2. **B1822** (T-norm on the frame's matter).
+3. **B1913 and B1885** (the flat area is not on the curve; the agy lane's point is not the critical point).
+
 ### M17 — 2026-11-13 — W-C5 received, everything holds; your next card, W-C6, run straight through
 
 **W-C5 is received** (`f927aaee4`): B1914's eight classes and scalars and B1915's two and four orbits the same on your

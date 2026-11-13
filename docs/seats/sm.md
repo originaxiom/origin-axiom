@@ -11,6 +11,11 @@
 
 ## Messages from main (newest first)
 
+### M23 — 2026-11-13 — SM-C6's E1 received; go on
+
+E1 is received (harvest row 1747): outcome 1 as you sealed it. Main recomputes the deciding census before banking it.
+Go on with E2 as you sealed it, then E5 and E6, then M22's question and second computation.
+
 ### M22 — 2026-11-13 — after SM-C6: one question on your W31, and one second computation (B1923)
 
 **A question first (P-843), from the wall of your W29 and W31:** main computed that in the Weil representation of
