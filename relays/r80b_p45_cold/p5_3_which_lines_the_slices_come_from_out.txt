@@ -1,0 +1,5 @@
+the arc's script on bf76e5ab1 with only B1904 applied: rc=0
+lines GENESIS.md loses: 7 (6 a passage, 1 the version line or an entry of the list of versions)
+  frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py: {'the version line or an entry of the list of versions': 1}
+  frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py: {'the version line or an entry of the list of versions': 1}
+files with no slice of any line lost: the rest

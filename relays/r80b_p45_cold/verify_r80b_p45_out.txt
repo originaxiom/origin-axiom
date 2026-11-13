@@ -1,0 +1,38 @@
+=== A2-S-R80b-p4p5 cold read: rebuilt Parts 4 and 5 at the builder's ef5f59c8f, on bf76e5ab1 + Parts 1 to 3 ===
+[SENT] Part 4 and Part 5's first two patches are byte for byte the same at bc71f9373 and at ef5f59c8f; Part 5 patch 3 is only at ef5f59c8f
+[ATTR] Part 4: the four rows main has not checked (SM-37 to SM-40) are said to be not checked; SM-36 and F12 are said to be checked by main
+[ATTR] Part 5 patch 3 message says W7 was 'checked by main': True
+
+=================== PART 4 ===================
+[SCOPE] Part 4 changes: scripts/atlas/query.py, scripts/seats/listen.py, tests/test_atlas.py, tests/test_seat_listener.py
+[TESTS] tests/test_seat_listener.py and tests/test_atlas.py on Part 4's last patch: rc=0, 27 passed in 42.91s
+[BEFORE/AFTER] tests/test_seat_listener.py with scripts/seats/listen.py of the commit before Part 4: rc=1, 4 failed, 8 passed in 22.53s
+[BEFORE/AFTER] tests/test_atlas.py with scripts/atlas/query.py of the commit before Part 4: rc=1, 2 failed, 13 passed in 17.81s
+[GATES] on Part 4's last patch: rc=1; failing: ['FAIL  point-debt: point-debt: 836 points, 311 open -- 96 debts (oldest 31 days), 137 leads, 78 process; next debt P-355 |   owner calls open (0):  |   FAIL P-239: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-262: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-263: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-268: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-670: cites an audit-room draft unmoved 8 days (> 7) -- land it at a tracked path or', 'FAIL  review-fires: 55 merges since the last review (>= 40): the review FIRES -- run it (scripts/review/review_tools.py), or the owner waives it by date in docs/progress/REVIEW_WAIVER.md']
+--- unseen plants against Part 4 ---
+  P4-A (a heading of three marks indented by three spaces, which Markdown renders as a heading, between two messages): taken into M2: True
+  P4-B (two messages under one number; not a row of Part 4, seen on the way): both kept: False; M2 holds '### M2 — a day — a second message under the same number'
+  P4-C (a fourth folder for B58 planted): the card shows it: True; tests/test_atlas.py rc=1 (1 failed, 14 passed in 17.09s)
+  P4-D (a folder named B57 with no slug, carrying a RETRACTED verdict file): the card shows it: False
+
+=================== PART 5 ===================
+[P5-1 SCOPE] frontier/B1036_mirror_double/b1036_v3_pairing.py, frontier/B1103_being_gate/b1103_exact_engine.py, frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py, frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py
+[P5-1 SWEEP] main's or_true_sweep before: python files read: 5822; not parsed: 1; asserts that cannot fail by a constant: 9
+              after:  python files read: 5822; not parsed: 1; asserts that cannot fail by a constant: 5
+              still reported after patch 1: frontier/B533_coupling_invariance/audit_fable5_part4c.sage.py:40; frontier/B575_bridge_obstruction/l51_obstruction.py:362; frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n4_receipt/verify_b644_independent.py:147; outside_bench/certificates/quine_build.py:71; outside_bench/certificates/torus_arm.py:61
+[P5-1 B1832] the mended assert, evaluated by agy-002 on the 4 rows the script names: True
+[P5-1 RUN] frontier/B1103_being_gate/b1103_exact_engine.py: rc=0; last line of output 'DONE'; last line of errors ''
+[P5-1 RUN] frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py: rc=0; last line of output 'C1: PASS'; last line of errors ''
+[P5-2, COI: left aside on substance] applies; changes frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py; B1862's lock rc=0, 14 passed in 78.20s (0:01:18)
+[P5-3] untracked or changed files left by the runs above, removed before the script: ?? c_su3_level2.json
+[P5-3] the script: rc=0; the tree: 4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302 | it is the tree the builder made 
+[P5-3 P-796] 7 lines of GENESIS.md removed; 97 six-word slices of them that stand nowhere in the new page (held in memory, not printed)
+[P5-3 P-796] files of the patch (its diff, script, message, run record, and every file it adds or changes but GENESIS.md) holding any such slice: ['part_5_0003_all_of_the_patch_but_the_foundations_own_page.patch', 'test_b1904_the_foundation_at_version_1_67.py', 'write_version_1_67.py']
+[P5-3 SCOPE] GENESIS.md, README.md, docs/views/CONTEXT_RECOVERY.md, docs/views/COVERAGE.md, docs/views/REVIEWER.md, docs/views/VERDICT_LEDGER.md, frontier/B1858_the_closure_map/NODES.json, frontier/B1886_the_foundation_at_version_1_65/verification/build_status_cells.py, frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py, frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py, frontier/B1904_the_foundation_at_version_1_67/FINDINGS.md, frontier/B1904_the_foundation_at_version_1_67/arc_verdict.json, frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages.py, frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages_out.txt, frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py, frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py, scripts/atlas/atlas_data.json
+[P5-3 GENESIS] hunks in GENESIS.md: 7
+[P5-3 LOCKS] B1886, B1891, B1904, B1898 in one run: rc=0, 27 passed in 5.54s
+[P5-3 LOCKS] B1886, B1891, B1904, B1898 in one run: rc=0, 27 passed in 5.45s
+[GATES] on Part 5's last patch: rc=1; failing: ['FAIL  point-debt: point-debt: 836 points, 311 open -- 96 debts (oldest 31 days), 137 leads, 78 process; next debt P-355 |   owner calls open (0):  |   FAIL P-239: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-262: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-263: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-268: QUEUED DEBT unmoved 22 days (> 21) without ESCALATED |   FAIL P-670: cites an audit-room draft unmoved 8 days (> 7) -- land it at a tracked path or', 'FAIL  review-fires: 58 merges since the last review (>= 40): the review FIRES -- run it (scripts/review/review_tools.py), or the owner waives it by date in docs/progress/REVIEW_WAIVER.md']
+[TREE] after Part 5 patch 3: 4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302 (builder's: 4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302)
+
+=== A2-S-R80b-p4p5 VERIFICATION COMPLETE (EXIT 0) ===
