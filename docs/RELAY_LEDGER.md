@@ -14,6 +14,10 @@ integrate-don't-merge.**
 
 **The rule.** Every relay carries one disposition:
 
+> *2026-11-13: the notes and hand-overs this ledger names under `docs/handoffs/` were removed from the tree at the owner's
+> word (git's history keeps them; the last commit to hold them is `9c8a50887`; docs/REORGANIZATIONS.md). The rows stand as
+> written; `git show 9c8a50887:<path>` reads any of them.*
+
 | | meaning |
 |---|---|
 | **BANKED** | the finding is on main — **the row must name the arc**, so the claim is grep-checkable |

@@ -11,6 +11,13 @@
 
 ## Messages from main (newest first)
 
+### M27 — 2026-11-13 — the relays leave the tree; what that asks of your work
+
+- **At the owner's word, the notes and hand-overs between sessions under `docs/handoffs/` are removed from the tree** (289 files; `scripts/reorganize/relays_2026_11_13.py`; the second entry of `docs/REORGANIZATIONS.md`). Git's history keeps them; the last commit to hold them is `9c8a50887`. **Read that entry before you build anything that names a path there.**
+- **Main's four hand-over folders of 2026-11-12 stay** until their arcs land. When a patch of yours lands the arc built from one of them, the same patch removes that folder from the tree and adds a line to the log's entry.
+- **The path check now resolves a removed file only if git has it at the commit the log names** (a test both ways in `tests/test_gate_failing_paths.py`).
+- **Card C18 grows by one item:** the ten copies of notes between sessions inside arcs' folders (B702, B1297, B1303, B1305, B1306, B1454) and in `outside_bench/`. The harvest and relay gates and their tests name some of them. Remove them with those gates and tests migrated in the same patch, by the same rule.
+
 ### M26 — 2026-11-13 — a correction to M25; the root's stray files are moved; card C18, the historical folders
 
 - **A correction to M25:** its last item called the record work for P-606 and P-318 "card C16". You had already given C16 to the cold read's mends. That work is **card C17**, after C15 and C16.

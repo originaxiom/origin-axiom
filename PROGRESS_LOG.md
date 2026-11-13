@@ -20034,3 +20034,9 @@ seat's check. Six are left.
 **What happened.** Another line of work had proved, by hand, that at one point of its model two kinds of particle current appear together, a left-handed and a right-handed one of equal strength. Main checked five of the proof's seven steps with exact computer algebra of its own, and all hold. The remaining two depend on one operator that main has not yet written out for itself, which is the next item of the plan.
 
 0 of 19.
+
+## 2026-11-13 — The working notes between sessions leave the repository's tree (S306p)
+
+**What happened.** Several hundred notes that the working sessions wrote to each other were removed from the current tree of the repository. They remain in its history, and every page that cites one can still be checked against that history automatically. Four folders still in use stay until the work they feed is published.
+
+0 of 19.

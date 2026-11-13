@@ -3,6 +3,25 @@
 *The log GOVERNANCE section 12 asks for. A file of the record is moved only when something forces it, and then batched,
 by a script, with the locks migrated in the same commit, and entered here. Newest first.*
 
+## 2026-11-13 — the notes and hand-overs between sessions leave the tree
+
+- **Why:** the owner's word of 2026-11-13: how the sessions talked to each other need not stay in the tree, since git's
+  history keeps it.
+- **The script:** `scripts/reorganize/relays_2026_11_13.py` (`--check` says whether the tree is as it leaves it).
+- **Removed:** 289 files under `docs/handoffs/`, every note and hand-over between sessions there, as of the commit below.
+- **Kept:** main's four hand-over folders of 2026-11-12, which the building session is still turning into arcs; each leaves
+  the tree when its arcs have landed, by an entry here.
+- **Kept where it is:** `docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/run_main_bench.json`, which B1487's floor check
+  reads at that path; the script is under B1487's seal and cannot be edited, so the file stays.
+- **Where they are now:** in git's history. The line below is read by the path check: a citation of a removed file resolves
+  only if git has that exact file at that commit, so a citation stays checkable and a citation of a file that never
+  existed still fails.
+
+- REMOVED `docs/handoffs/` AT `9c8a50887de1288e2c6667a80c0f480f358f88bb`
+
+- **Not in this move:** ten copies of notes between sessions kept inside arcs' folders and in `outside_bench/`; the harvest
+  and relay ledgers' gates and tests name some of them, and they leave with those gates migrated, in a second pass.
+
 ## 2026-11-13 — the stray files at the root
 
 - **Why:** the owner approved moving the front pages (2026-11-12, register row P-825) and, on 2026-11-13, named the root's

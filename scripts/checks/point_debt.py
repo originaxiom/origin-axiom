@@ -115,6 +115,23 @@ def parse(text: str):
     return rows, slots
 
 
+_HISTORY = {}
+def _in_history(root, path):
+    """2026-11-13 (GOVERNANCE section 12): a file removed from the tree counts as named when git has that exact file at the
+    commit docs/REORGANIZATIONS.md gives for its folder; the rule and its reader are the path check's (scripts/checks/
+    check_path_references.py), not a copy of them"""
+    key = str(root)
+    if key not in _HISTORY:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("_cpr_for_point_debt", pathlib.Path(root) / "scripts" / "checks" / "check_path_references.py")
+        try:
+            m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); m.ROOT = str(root)
+            _HISTORY[key] = m.removed_in_history()
+        except Exception:
+            _HISTORY[key] = {}
+    return any(path.startswith(pre) and path in files for pre, (c, files) in _HISTORY[key].items())
+
+
 def check(text: str, root: pathlib.Path = ROOT, leads_text: str | None = None, today: datetime.date | None = None):
     today = today or _today()
     if leads_text is None:
@@ -144,7 +161,7 @@ def check(text: str, root: pathlib.Path = ROOT, leads_text: str | None = None, t
                 if f"B{arc}" not in frontier:
                     fails.append(f"{pid}: DONE names B{arc}, no frontier directory")
             for path in PATH_RE.findall(where):
-                if not (root / path).exists():
+                if not (root / path).exists() and not _in_history(root, path):
                     fails.append(f"{pid}: DONE names {path}, which does not exist")
         if disp in ("QUEUED", "LEAD"):
             named = set(re.findall(r"\bQ\d+\b", where))

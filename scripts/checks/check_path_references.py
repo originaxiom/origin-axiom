@@ -26,6 +26,10 @@ The other eleven were legitimate and are handled by rule, not by whitelist, wher
     SEAT's clone (branch closure/phase1-duels @ e42c336), not a main-repo file. Citing it is
     correct; creating it here would be a forgery.
   - Paths containing '...' are prose elisions, not paths.
+  - REMOVED FROM THE TREE, KEPT IN HISTORY (2026-11-13; GOVERNANCE section 12): a path under a prefix that
+    docs/REORGANIZATIONS.md names on a line '- REMOVED `<prefix>` AT `<commit>`' resolves only if git has that
+    exact file at that commit. A citation of a removed file stays checkable; a citation of a file that never
+    existed there still fails.
 
 Run:  python3 scripts/checks/check_path_references.py        (exit 1 if any unexplained)
 
@@ -77,10 +81,27 @@ EXEMPT_TARGETS = frozenset({
 })
 
 
+REMOVED_RE = re.compile(r"^- REMOVED `([^`]+)` AT `([0-9a-f]{40})`", re.M)
+
+
+def removed_in_history():
+    """{prefix: (commit, the set of files under the prefix at that commit)}, from the move log"""
+    out = {}
+    path = os.path.join(ROOT, "docs", "REORGANIZATIONS.md")
+    if not os.path.exists(path):
+        return out
+    for prefix, commit in REMOVED_RE.findall(open(path, encoding="utf-8").read()):
+        r = subprocess.run(["git", "-C", ROOT, "ls-tree", "-r", "--name-only", commit, "--", prefix],
+                           capture_output=True, text=True, timeout=60)
+        out[prefix] = (commit, set(r.stdout.split()) if r.returncode == 0 else set())
+    return out
+
+
 def scan():
     out = subprocess.run(["git", "-C", ROOT, "ls-files", "*.md"],
                          capture_output=True, text=True, timeout=60).stdout
     unexplained, total = [], 0
+    removed = removed_in_history()
     for rel in out.split():
         if rel.startswith(EXEMPT_CITERS):
             continue
@@ -98,6 +119,8 @@ def scan():
             if os.path.exists(os.path.join(ROOT, target)) or \
                os.path.exists(os.path.join(citing_dir, target)):
                 continue
+            if any(target.startswith(pre) and target in files for pre, (c, files) in removed.items()):
+                continue                 # removed from the tree; git has this exact file at the commit the move log names
             unexplained.append((rel, target))
     return total, unexplained
 

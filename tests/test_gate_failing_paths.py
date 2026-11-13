@@ -70,6 +70,26 @@ def test_path_refs_fails_on_a_dangling_backticked_path(tmp_path, monkeypatch):
     assert gates.GATES["path-refs"] is gates.gate_path_refs                      # R60-4: the test names the gate it controls
 
 
+def test_path_refs_resolves_a_removed_file_only_at_the_commit_the_move_log_names(tmp_path, monkeypatch):
+    """2026-11-13 (GOVERNANCE section 12; docs/REORGANIZATIONS.md): a citation of a file removed from the tree resolves when
+    git has that exact file at the commit the move log names, and a citation of a file that never stood there still fails."""
+    import subprocess, check_path_references as cpr
+    def g(*a): return subprocess.run(["git", "-C", str(tmp_path), *a], check=True, capture_output=True, text=True).stdout.strip()
+    g("init", "-q"); g("config", "user.email", "t@t"); g("config", "user.name", "t")
+    (tmp_path / "docs" / "handoffs").mkdir(parents=True); (tmp_path / "docs" / "handoffs" / "note.md").write_text("a note\n")
+    g("add", "-A"); g("commit", "-q", "-m", "the note"); last = g("rev-parse", "HEAD")
+    g("rm", "-q", "docs/handoffs/note.md"); (tmp_path / "docs").mkdir(exist_ok=True)   # git rm takes the emptied folders with it
+    (tmp_path / "docs" / "a.md").write_text("see `docs/handoffs/note.md` and `docs/handoffs/never_was.md`\n")
+    (tmp_path / "docs" / "REORGANIZATIONS.md").write_text("- REMOVED `docs/handoffs/` AT `%s`\n" % last)
+    g("add", "-A"); g("commit", "-q", "-m", "removed")
+    monkeypatch.setattr(cpr, "ROOT", str(tmp_path))
+    total, bad = cpr.scan()
+    assert [t for _, t in bad] == ["docs/handoffs/never_was.md"], bad
+    (tmp_path / "docs" / "REORGANIZATIONS.md").write_text("no removal named\n")       # without the log's line, both fail
+    total, bad = cpr.scan()
+    assert sorted(t for _, t in bad) == ["docs/handoffs/never_was.md", "docs/handoffs/note.md"], bad
+
+
 def test_test_vacuity_fails_on_a_test_with_no_assert(tmp_path, monkeypatch):
     import check_test_vacuity as ctv
     (tmp_path / "tests").mkdir(); (tmp_path / "tests" / "test_planted.py").write_text("def test_nothing():\n    pass\n")

@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f); docs/REORGANIZATIONS.md, its second entry) (2026-11-13)
+
+- **What left:** every note and hand-over under `docs/handoffs/` but main's four folders of 2026-11-12, which still feed arcs the building session is making. One data file stays at its path: B1487's sealed floor check reads it there.
+- **Why:** the owner's word that how the sessions talked need not stay in the tree; git's history keeps it (last at `9c8a50887`).
+- **Still checkable:** the path check now resolves a citation of a removed file only if git has that exact file at the commit the move log names; a citation of a file that never stood there still fails. A test holds both ways. Fifty-one citations resolve that way today.
+- **Next:** the ten copies inside arcs' folders and in `outside_bench/` leave with the harvest and relay gates migrated (the builder's card C18, M27).
+- NO ARC LANDS. 0 of 19.
+
 ## S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR WRITTEN OUT (B1909, OPEN; P-749 (e); R80-5, at its fourth carry, answered) (2026-11-13)
 
 - **B1909:** the physical lane's paired current pole, on main's own algebra: the constant 7/(2ℓ²) on the grade −2 plane, matched at the opposite weights by the conjugate form; the quaternion transitions of order 8, irreducible, for both charges; the arithmetic of one section; the root-level brackets on main's E₈, exactly the lane's two products in both modules; the rank-two residue. 32 checks, six of them planted cases, none failing.
