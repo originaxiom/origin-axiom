@@ -1,0 +1,326 @@
+# REVIEW_CODE: packet 2, physical-same-action-gauge-response-six-controls-v1 (code and check design)
+
+Sealed commit d1a33e921d5cb16e4606b196fa970b91a2abfb6d; branch head origin/audit/physical-bridge-2026-09-05 = 1aa76251ff9cf1f60c08a2b3c83323ae8f069f97. Reviewer: code and check design only (mathematics is the other reviewer's). Nothing of the lane was imported, executed or collected. All lane contents were read through audit/physical_digest/mask_min.py only. My scripts and their outputs are in this folder: custody.py / custody_out.txt, check_population.py / check_population_out.txt, rederive_and_plant.py / rederive_and_plant_out.txt, build_report.py (quote verifier), _m_*.txt (the masked prints I quote from). Line numbers are the mask's. Mask effect: a digit run or number pattern (including the hex substrings of shape digits-e-digits) prints as a single '#', and lines within two lines of a trigger print every digit as '#' (marked W by the mask).
+
+Method tags used below: [own-code: NAME] = re-derived in my own script NAME; [read only]; [not checked].
+
+
+## A. Custody
+
+- **A1** All 42 pinned entries (the design pin, 40 rows of "artifacts", and the environment pin; the brief said 41) have a pinned sha256 that matches the blob at the sealed commit AND the blob at the branch head 1aa76251 (0 mismatches; seal blob == head blob for all 42). The 30 of 42 pins that print a '#' were compared with the mask's collapse rule (each '#' = a run of the shape digits-e-digits), against the real blob hash computed by shasum without printing it; the 12 fully visible pins are compared exactly. Residual: inside a masked run I can establish shape only, not content; the gate's own full-hash comparison at admission closes that.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json`; line 8
+  - quote: `"path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md",`
+  - checked: [own-code: custody.py, output custody_out.txt]
+
+- **A2** Evidence of the mask effect on the pins: this design pin has 1 '#', so my comparison treats the hidden run as shape-only.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json`; line 9
+  - quote: `"sha256": "6522f372ef87cca57cacfd75b4d38731840561837aaa3#e556b824"`
+  - checked: [own-code: custody.py]
+
+- **A3** The environment pin (also listed again in the artifacts role=input row at line 104) matches seal and head; it is the only file that fixes the interpreter, and its "python" value is itself masked (see B4).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json`; line 235
+  - quote: `"sha256": "#bbee1d4fd932d2dbff6a514bdb3f58229f73501da8f2ccc3caa4ba1c57"`
+  - checked: [own-code: custody.py]
+
+Scientific-code unchanged claim: test_gauge_response.py (eecd6445...) and gauge_response_exact.py (2eafb499...) have the same blob at b4e79b301, 906037df5 and the seal (hash prefixes compared, blobs not printed) [own-code: shell shasum, see transcript in this section]; run_checks.py, checks.py, engineering_checks.py exist only from 906037df5 on and are identical at the seal. This supports the EXECUTION_DESIGN chronology (science sealed before the wrapper). Files in the folder that are NOT pinned and that no code reads (grep for STATUS/READINESS/RECEIPT/INVENTORY/registration_metadata/ADMISSION/environ/getenv in the five .py files gave 0 hits, via git cat-file | grep without printing): BINDING_SOURCE_INVENTORY.json, EXECUTION_PREPARATION_SOURCE_RECEIPT.json, EXECUTION_READINESS.md, IMPLEMENTATION_SOURCE_RECEIPT.json, STATUS.md, engineering/registration_metadata_01.json (119,378 bytes). [read only / own grep]. ADMISSION.json does not exist in the sealed tree (it is an input of the admission, supplied later).
+
+
+## B. The runner and the bridge
+
+Order of events when `python3 -B .../run_checks.py --admission ADMISSION.json --output ... --log ...` is run [read only]:
+
+- **B1** (1) The gauge-folder run_checks.py hashes the frozen infrastructure file (verification_v3/run_checks.py), refuses on mismatch (line 23), loads it (24-28) and then OVERWRITES its module globals HERE, ENTRY and EXPECTED (29-31) before calling its main(). The hash literal in line 8 and the spec pin of that file are the same masked string.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py`; line 22
+  - quote: `if sha256(source.read_bytes()).hexdigest() != RUNNER_SHA256:`
+  - checked: [read only]
+
+- **B2** (2) infra main(): cwd must be the repo root (102); -B and not -O (103); ENVIRONMENT.json python version, implementation, three required env vars and packages are enforced (104-110); tracked state must be clean (113-114).
+  - file: `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py`; line 102
+  - quote: `require(Path.cwd().resolve() == ROOT, "Run from the repository root")`
+  - checked: [read only]
+
+- **B3** (3) the strict admission gate runs in a subprocess BEFORE any science import (116-121); nonzero exit returns 2; then prospective_admissible is required True (123), the exact command (127) and the exact output population (128) must be in the admitted packet; all pins (spec, design, 40 artifacts) are re-hashed twice (134, 136-137); outputs must not exist (140) and are opened with mode 'x' (143-144).
+  - file: `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py`; line 116
+  - quote: `gate = subprocess.run([sys.executable, "-B", "scripts/gates/prospective_strict.py",`
+  - checked: [read only]
+
+- **B4** (4) only now is checks.py loaded (153-156); it loads test_gauge_response.py (checks.py line 6-11), which imports gauge_response_exact. The loaded TestCase population must equal EXPECTED as a sorted list (159).
+  - file: `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py`; line 154
+  - quote: `module_spec = importlib.util.spec_from_file_location("word_join_checks", HERE / "checks.py")`
+  - checked: [read only]
+
+- **B5** (5) tests run failfast; custody is re-captured in a finally block (177-189); passed requires wasSuccessful, testsRun == 6, no skips, no expected failures, no unexpected successes and unchanged custody (191-193). A reporting failure cannot mask the primary error: the except clause re-raises (176) and the finally clause re-raises custody errors when there was no primary error (188-189).
+  - file: `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py`; line 167
+  - quote: `result = unittest.TextTestRunner(stream=log, verbosity=2, failfast=True,`
+  - checked: [read only]
+
+- **B6** The literal list of the six identifiers is the tuple EXPECTED at wrapper lines 9-16: test_01_weights_outward_flux_and_retained_moment_source, test_02_poisson_equations_and_both_norm_branches, test_03_green_divided_differences_and_response_norms, test_04_static_shell_schur_and_both_riccati_laws, test_05_cubic_power_overlap_and_nonabelian_colour_vertex, test_06_curvature_finite_norm_and_remote_sector_control. They are defined in test_gauge_response.py at lines 49, 75, 98, 123, 146, 171 (class GaugeResponseControls). The two sets and their order are identical (check_population_out.txt: 6 vs 6, same: True). No skip, expectedFailure, subTest or tolerance token occurs in the test file.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py`; line 10
+  - quote: `'GaugeResponseControls.test_01_weights_outward_flux_and_retained_moment_source',`
+  - checked: [own-code: check_population.py]
+
+- **B7** The bridge exports exactly one class, so no other TestCase can enter the population.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py`; line 12
+  - quote: `GaugeResponseControls = science.GaugeResponseControls`
+  - checked: [read only]
+
+Import and subprocess closure [read only, own grep of the masked prints]: the science closure is test_gauge_response.py -> gauge_response_exact.py -> stdlib (fractions, itertools, unittest, dataclasses); the science module imports nothing else (check_population_out.txt). The admission closure is the pinned scripts/gates/{gates,prospective,prospective_strict,provenance_policy,tracked_state}.py, the pinned scripts/checks/{check_path_references,check_test_vacuity,doc_currency,relay_debt,representation_sweep,retraction_sweep}.py and scripts/views/generate.py (gates.py imports/subprocesses exactly these: lines 508, 576, 597-606, 951, 971, 982, 993 of gates.py), all in the spec's 40 artifacts. Nothing of the science is reached from outside the pinned set. What the admission DOES read from unpinned mutable places is governance state, not science: docs/SEAL_LEDGER.md, docs/SEAL_ARTIFACT_ROLES.json, docs/GIT_REFERENCE_PROVENANCE.json, CLAIMS.md, PROGRESS_LOG.md and the other files the 30 gates scan, the local ref refs/remotes/origin/main, and the ADMISSION.json itself. Note gate_views_generated runs scripts/views/generate.py, which rewrites docs/views in the working tree (gates.py 606): on a tree whose views are stale it dirties the tree and the strict 'after' check then rejects (prospective_strict.py 27-32); it is fail-closed but not read-only.
+
+- **B8** Environment declaration: CPython, python version masked ('##'), packages {} (stdlib only), required env PYTHONHASHSEED=0, PYTHONDONTWRITEBYTECODE=1, PYTHONOPTIMIZE=0 (lines 8-10), external tool git with no version (12). Main's own python3 is 3.12.1 CPython (pyenv shim; `python3 --version`, my run), which is consistent with a three-part version printed as '##', but I cannot confirm equality because the version digits are masked: [not checked]. The engineering outcome ran 'python3#' (a masked '.NN') with -I -B -S.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENVIRONMENT.json`; line 8
+  - quote: `"PYTHONHASHSEED": "0",`
+  - checked: [read only]
+
+
+## C. The six methods
+
+General facts [own-code: rederive_and_plant.py]: every comparison is exact (Fraction/integer arithmetic; no tolerance anywhere, check_population_out.txt shows no almost/isclose/tol/1e- token). No check compares with an externally obtained value (no numerical ODE solve, no sympy, no stored result): every comparator is a second hand derivation by the same author from the same hand argument, which is a real check of internal algebraic consistency of the closed forms and of the stated exponent/weight conventions, and no check of the conventions themselves. I transcribed the producer and the visible asserts into my own code, which passes at baseline, and planted 10 errors in the producer (table below); every plant is caught by at least one method. Lines 14-17 of the test file and 60-64 and 80-85 print with digits masked: I reconstructed those asserts (flagged R) and could not verify the literals; main should read test_gauge_response.py lines 60-61 and 80-85 unmasked.
+
+Plant table (own-code; `P` = still passes, `F` = fails, `E` = raises), methods 01..06: baseline all P. s_wrong (4->2 in s): 02,03,04 F. swap_branch (normalizable and non-normalizable exponents exchanged): 01 F, 02 F, 03 E, 05 E. response_b sign flipped: 01,03,04,06 F. response_v factor 2 wrong: 01,03,04 F. response_b with ell^2 inverted: 01,03,04,06 F. response_derivatives components swapped: 03,05 F. normalized_power_integral y-weight mishandled: 03 F only. cubic total nu-1 -> nu+1: 05 F only. shell conductance wrong denominator: 04 F only. shell off-diagonal sign reversed: 04 F only.
+
+
+### Method 1, test_01_weights_outward_flux_and_retained_moment_source (lines 49-73)
+
+- **C1a** Inputs: mode(3, 5/2, 7/3) and a hand-typed flux expression with a leading minus (line 52); asserts it equals the producer's response_b (and line 55 the vector one). This is a real cross-derivation (two different expressions agree; a flipped or mis-weighted response_b fails it, plants rb_sign, rv_factor, rb_ell2_inv) but both sides are the author's.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 54
+  - quote: `self.assertEqual(lower_flux_b, item.response_b)`
+  - checked: [own-code: rederive_and_plant.py t01]
+
+- **C1b** The 'reversed outward sign' and 'wrong common weight' controls (56-57) assert only that a hand-negated or hand-substituted number differs from another number at one rational point; they cannot fail unless the response is zero, so they are class (iv)-like and add no discriminating power beyond line 54.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 56
+  - quote: `self.assertNotEqual(-lower_flux_b, item.response_b)`
+  - checked: [read only]
+
+- **C1c** Lines 59-73 use no producer function: a central difference of an exact quadratic in the curvature variable is its exact derivative, so the assertion is a calculus identity on test-local data (class (ii), by construction); the only content is `source == z^2 h` at line 63 on typed matrices (class (iv)). The design promised a 'noncommuting rank-one matrix example' (DESIGN.md 36); under my reconstruction q is a single nilpotent unit, which is what 'rank-one noncommuting' reduces to at size 2. Classification of method 1: (ii) with (iv) parts and one real part (C1a).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 72
+  - quote: `self.assertEqual(derivative, tr(mm(actual_mu, h))/omega**2)`
+  - checked: [own-code: rederive_and_plant.py t01_matrix_reconstruction (R: literals of h and q masked; my reconstruction h=diag(1,-1), q=((0,z),(0,0)) satisfies line 63)]
+
+
+### Method 2, test_02_poisson_equations_and_both_norm_branches (lines 75-96)
+
+- **C2a** Inputs: the producer's exponents b_power, v_power, s on the grid nu in {1,3/2,3,5} x ell^2 in {1,5/3} x cut in {1,7/2}; asserts that they solve the two weighted Euler (Poisson) equations (80-81 as I read them: -rb(rb+1)/ell^2 + s = 0 and -rv(rv-1) + ell^2 s = 0) and that the admitted branch is normalizable and the other is not (82-85: strict/weak inequalities). This is a real computation against an equation typed independently of the producer's closed form: it catches s_wrong and swap_branch. The equation and measure weights themselves are typed by the author (not independently obtained). Class (i). Literals masked: [not checked]; the structure is clear, the constants are my reconstruction.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 80
+  - quote: `self.assertEqual(-rb*(rb+#)/ell#+item.s, #)`
+  - checked: [own-code: rederive_and_plant.py t02 with reconstructed literals; literals masked: R]
+
+- **C2b** The 'constant vector survives' control is one typed value on a producer helper (0,1,-2,1 -> 1); the 'constant connection scalar fails' and 'flat vector norm' controls are two assertRaises (91, 93) that fire on the producer's divergence guard, which is a definition check (iii).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 89
+  - quote: `self.assertEqual(normalized_power_integral(0, 1, -2, 1), 1)`
+  - checked: [read only]
+
+
+### Method 3, test_03_green_divided_differences_and_response_norms (lines 98-121)
+
+- **C3a** Inputs: producer modes at ell^2=5/2, cut=7/3, nu in {1,3/2,2,5}; the test-local integral_at_one (lines 40-45) integrates t^p on [1,inf) and is used to rebuild the response derivatives, the divided differences (116-117) and the response itself from gradient plus momentum energy (108-111). These are genuine independent integrations compared with closed forms (plants s_wrong, rb_sign, rd_swap, npi_weight all fail here). Class (i), the strongest method of the six. 'Wrong denominator' (118) is again a tautological inequality.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 104
+  - quote: `self.assertEqual(response_derivatives(item), (nb, nv))`
+  - checked: [own-code: rederive_and_plant.py t03; also by hand: cross_b = 2cut/(n1+n2), cross_v = 2ell^2/(cut(n1+n2))]
+
+
+### Method 4, test_04_static_shell_schur_and_both_riccati_laws (lines 123-144)
+
+- **C4a** Inputs: the producer's static_shell matrix on two geometries, a direct energy d^2/ell^2 (1/a - 1/b) of the harmonic interpolant, the Schur complement with the tail mode(1,ell2,b).response_b, and the producer's response at the shorter cut. A real computation; plants shell_swap and shell_sign fail only here. It covers only nu=1 (s=0) for the sewing; the Riccati laws (141-144) are checked on nu in {1,3/2,3,7} but with the derivative in the cut assumed to be R/Y rather than computed (the producer's responses are exactly linear in the cut, so the check is a consistency of the closed form with eq. (15)). Class (i).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 134
+  - quote: `self.assertEqual(schur, mode(1, ell2, a).response_b)`
+  - checked: [own-code: rederive_and_plant.py t04; hand check: C t/(C+t) = a/ell^2 with C = ab/(ell^2(b-a)), t = b/ell^2]
+
+- **C4b** The 'wrong normal sign' control is again a tautological inequality (a nonzero number differs from its negative); the real sign control is line 134 plus the shell's own sign in the producer (gauge_response_exact.py 57).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 138
+  - quote: `self.assertNotEqual(-schur, mode(1, ell2, a).response_b)`
+  - checked: [read only]
+
+
+### Method 5, test_05_cubic_power_overlap_and_nonabelian_colour_vertex (lines 146-169)
+
+- **C5a** Inputs: all 27 triples nu in {1,3/2,3}^3 at one geometry; the producer's closed form (gauge_response_exact.py 48-49) is compared with test-local integrals of the three Poisson powers: real, caught plants cubic_total and rd_swap. Caveat: the exponent sum b_a+b_b+v_c equals b_a+v_b+b_c identically, so which leg carries the vector is unobservable and a planted leg-assignment error cannot be caught; low-momentum equality (155-156) is compared with the producer's own other function and a typed (cut, ell^2/cut).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 152
+  - quote: `self.assertEqual(cubic_factors(a, b, c), (mixed, vectors))`
+  - checked: [own-code: rederive_and_plant.py t05; hand check: sum of exponents gives 2/(sum nu - 1) for both]
+
+- **C5b** The colour part uses three typed integer SO(3) generators, one commutator identity, and the trace -2 compared with a typed -2 (line 167), so it is a typed literal against a typed literal (iv) plus the structural fact that the trace is nonzero (169); it contains no link to the E8 or U3 algebra of the parent and the Hermitian-sign step is a comment (165). Class of method 5 overall: (i) for the cubic factors, (iv) for the colour vertex.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 166
+  - quote: `actual_vertex = -tr(mm(t1, comm(t3, t2)))`
+  - checked: [own-code: rederive_and_plant.py t05 lines for t1,t2,t3]
+
+
+### Method 6, test_06_curvature_finite_norm_and_remote_sector_control (lines 171-219)
+
+- **C6a** The 'remote perturbation is zero' control is the identity x*0 == 0: it cannot fail. Line 176 (`curvature == amplitude*cut/y**2`) restates the line-175 derivative by hand algebra and 179 restates 177; only line 180 ties the finite energy to the producer (mode(1).response_b) and is real.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 183
+  - quote: `self.assertEqual(amplitude*cut*F(0), 0)`
+  - checked: [read only; arithmetic]
+
+- **C6b** Lines 187-219 (the 'differentiated holonomy identity') use one channel J and a hand-typed generator -aJ with a(y) = 2/7 + (background + amplitude*cut)/y (195) and a hand-typed derivative generator_derivative = full_curvature*J (197). The recursion produces W^-1 W_y = G' for any G' because J commutes with itself, so `current[1] == full_curvature*J` (216) holds by construction. My planted errors that STILL PASS: (a) a(y) with 1/y^3 in place of 1/y, i.e. G' no longer the derivative of G; (b) W_y W^-1 in place of W^-1 W_y. A wrong sign of the typed derivative is caught. Class (ii).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py`; line 190
+  - quote: `j = ((0, -1), (1, 0))`
+  - checked: [own-code: rederive_and_plant.py transport_block]
+
+- **C6c** This is point C2 of the lane's review as I understand it: the sealed method covers only the commuting case; the packet's own execution design says so (lines 18-20: the general non-Abelian identity 'requires analytical review'), and the derived law is eq. (18) of the same-action document.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md`; line 19
+  - quote: `control is explicitly one commuting gauge direction; the general`
+  - checked: [read only; own control in rederive_and_plant.py: with G' not commuting with G the order-2 term is nonzero, expected -(1/2)[G,G'] in W^-1 W_y]
+
+- **C6d** Equation (18), the identity whose differentiated form the design (design.md line 59 'differentiated holonomy identity at first order, including its sign') promises to check, has no control in the six methods: no integral over x, no F_xy, no non-commuting channel, no sign comparison with the -i. The comparator for sign is a typed J and a typed minus sign.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md`; line 300
+  - quote: `P^-1 partial_y P=-i integral_0^1 W^-1 F_xy W dx. (18)`
+  - checked: [read only]
+
+- **C6e** Original DESIGN item 6 promises more than test_06 delivers: the sign is asserted only against typed expressions inside the test (216-217).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md`; line 59
+  - quote: `differentiated holonomy identity at first order, including its sign,`
+  - checked: [read only]
+
+**Count by primary class**: (i) real computation compared with a second derivation: methods 2, 3, 4, 5 (4 methods; with (iii)/(iv) components in 2 and 5); (ii) by construction: methods 1 and 6 (2 methods; method 1 has one real cross-check, 6 has one real energy tie); (iii) definition check as primary: 0; (iv) typed literal vs typed literal as primary: 0 (but 5 has a (iv) part). None is class (i) in the strict sense of 'independently obtained value': there is no external comparator for any of them.
+
+**C1 and C2, as I define them from the packet's own words** (my definitions, formed before reading the lane's review): C1 = 'the exponent comparators are present' = independent exponent integrals and Euler-equation guards in the actual tests (EXECUTION_DESIGN.md 21-22); C2 = 'finite holonomy coverage is explicitly commuting' (EXECUTION_DESIGN.md 18-20; C6b/C6c). My check of C1: present and discriminating in shape (methods 2 and 3: plants s_wrong, swap_branch, rd_swap, npi_weight fail), but the constants of lines 80-85 are masked and reconstructed; and the exponents are compared against equations typed by the same author. My check of C2: confirmed, and in addition the commuting block is by construction (C6b), so even the commuting case is weaker than 'covered'.
+
+**Missing controls (what would pass)**: a wrong sign/weight in any quantity that appears only in test-local typed expressions (the flux sign of line 52, the y^2 scalar measure of line 108, the generator derivative of line 197); a swapped vector/scalar leg in the cubic; a W^-1 position error or non-Abelian error in holonomy; an a(y) inconsistent with its derivative; a common-mode error shared by producer and test (e.g. a wrong measure weight used in both). No test varies cut at fixed s to check dR/dY by difference; no parameter point with nu non-rational or s<0 (nu<1) is exercised (producer rejects nu<1, gauge_response_exact.py 22).
+
+- **C7** The producer's domain is Euclidean nu>=1 only; every method inherits that restriction, so the grids never test the imaginary-nu or s<0 branch of the Poisson equation.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py`; line 22
+  - quote: `if nu < 1 or ell2 <= 0 or cut <= 0:`
+  - checked: [read only]
+
+
+## D. The admission wrapper
+
+Verdict D: fail-closed against a missing, stale or mismatched review/acceptance/pin [read only; the logic traced line by line], with the residual holes below. No environment variable, flag or exception handler found that converts a failure into a pass: the only 'except BaseException ... pass' blocks (infra 173-175, 186-187) are inside error reporting and are followed by a re-raise.
+
+- **D1** The admission requires a committed review file at a commit different from the seal, whose experiment id, sealed commit and specification pin equal the packet's, decision APPROVE_EXECUTION and unresolved == [] (161-162), and a main acceptance at a third commit that is an ancestor of refs/remotes/origin/main (166-167), whose fields bind the review reference (172-177). Everything is pinned by commit and sha256 (pin() lines 68-77).
+  - file: `scripts/gates/prospective.py`; line 161
+  - quote: `require(review["source_complete"] is True and review["decision"] == "APPROVE_EXECUTION"`
+  - checked: [read only]
+
+- **D2** Independence is a string comparison with the authors list (here only 'physical-bridge-seat', spec line 5) plus a typed boolean; the gate itself says it checks 'exact evidence bindings, not the truth of reviewer attestations' (prospective.py 3-4). So a reviewer inside the lane under another label passes mechanically; main's judgement of independence is the only control (hence main's duty to read the reviewer's actual identity, see section F).
+  - file: `scripts/gates/prospective.py`; line 159
+  - quote: `and review["reviewer"] not in authors and review["nonauthoring"] is True,`
+  - checked: [read only]
+
+- **D3** Clean-state is established only from `git diff` and `git diff --cached` (14-15): untracked and ignored files are invisible to it. The wrapper puts the script directory first on sys.path (infra 153 sys.path.insert(0, str(HERE)); infra 25 does the same for scripts/gates), so an untracked file named like a stdlib module (fractions.py, itertools.py, unittest.py, hashlib.py) in the packet folder or scripts/gates would be imported instead of the stdlib, and nothing in the admission would notice; the spec's argv is `python3 -B` with neither -I nor -S (spec 217-218), PYTHONPATH and user-site are not constrained by ENVIRONMENT.json (8-10 only), and ADMISSION.json itself need not be tracked. Mitigation the lane itself states: execution from a clean isolated checkout (EXECUTION_DESIGN.md 48-49). Required operational control on main's side: fresh clone, `git status --ignored` empty, PYTHONPATH unset, PYTHONNOUSERSITE=1.
+  - file: `scripts/gates/tracked_state.py`; line 14
+  - quote: `("index_changes", ("diff", "--no-ext-diff", "--name-only", "-z", "--cached", "HEAD", "--")),`
+  - checked: [read only]
+
+- **D4** The admitted command is the exact argv `python3 -B <entry> --admission ... --output ... --log ...` (spec 215-226, checked by infra 127), so the interpreter flags cannot be hardened (-I, -S) without re-sealing the spec; this differs from the flags of the engineering evidence (see E3).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json`; line 218
+  - quote: `"-B",`
+  - checked: [read only]
+
+- **D5** tracked_state is a snapshot, as its docstring says; a change made and reverted between checks is undetected (stated by the lane, non-blocking given an isolated checkout).
+  - file: `scripts/gates/tracked_state.py`; line 4
+  - quote: `This is a snapshot under the repository's quiescent-window requirement, not`
+  - checked: [read only]
+
+- **D6** The runner re-reads the admission and then the specification from the working tree after the gate has verified them (129-131): a second read, so a TOCTOU window exists between the gate subprocess and these reads; pins are re-verified afterwards (134) from the possibly different spec, but the gate verified the first copy. Non-blocking under an isolated checkout.
+  - file: `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py`; line 129
+  - quote: `admission = json.loads((ROOT / args.admission).read_text())`
+  - checked: [read only]
+
+- **D7** The base gates soft-pass when git is unavailable (gates.py 137, 273, 694, 698). Not exploitable here because tracked_state.inspect and prospective.git() treat any git failure as an error (ts 27-34; pr 46-47), but it is a fail-open pattern in the historical base. Non-blocking.
+  - file: `scripts/gates/gates.py`; line 137
+  - quote: `return True, "git unavailable — skipped"`
+  - checked: [read only]
+
+- **D8** By design the historical seal-provenance gate does not block ('Historical seal failures stay visible'); any of the other gates failing on main's tree blocks admission, including unrelated ones, so admission can fail for reasons independent of this packet (fail-closed, operationally relevant). Seal rows for the design and the specification are separately required (pr 110-113).
+  - file: `scripts/gates/prospective.py`; line 190
+  - quote: `failures = [name for name, (ok, _) in results.items() if name != "seal-provenance" and not ok]`
+  - checked: [read only]
+
+- **D9** 'Main acceptance' is the acceptance commit being an ancestor of the LOCAL remote-tracking ref; git() requires exit code 0 so a non-ancestor fails (pr 46-47, 167); the ref is mutable by a fetch, and main must ensure it points at main's real remote head.
+  - file: `scripts/gates/prospective.py`; line 20
+  - quote: `RECEIVER_REF = "refs/remotes/origin/main"`
+  - checked: [read only]
+
+- **D10** The design-field gate (BANKED IDENTITY:, PRIOR ART:) is satisfied by any nonspace character after the field name; it checks presence, not content. Non-blocking.
+  - file: `scripts/gates/prospective.py`; line 108
+  - quote: `require(re.search(r"(?m)^" + re.escape(field) + r"[ \t]*[^\s]", design),`
+  - checked: [read only]
+
+
+## E. Does the engineering evidence say more than it shows?
+
+- **E1** In the eight fixtures the REAL infrastructure runner is replaced by a generated sentinel (46-56) and the real bridge/science by stub tests that `pass` (68-80): the real admission, custody, environment checks, output handling, the sorted-population check and the pass criteria of verification_v3/run_checks.py were never exercised by the engineering evidence; only the wrapper's hash check and its delegation (HERE, ENTRY, EXPECTED binding) were. The first real execution is therefore also the first test of that chain with this wrapper.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py`; line 56
+  - quote: `infrastructure.write_text(sentinel)`
+  - checked: [read only]
+
+- **E2** test_06 'static population rejects missing extra duplicate' (132-144) tests a function defined inside the test itself (138-140), not the check at infra line 159; it demonstrates that sorted comparison rejects wrong lists, a property of Python, not of the runner. The ENGINEERING_RESULT line 13 wording 'AST-only missing/extra/duplicate population guards' overstates what the fixture shows; the equality of source population and EXPECTED (line 134) is real.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py`; line 138
+  - quote: `def require_population(population):`
+  - checked: [read only]
+
+- **E3** The engineering run used -I -B -S, the production command uses -B only (D4); isolation behaviour that matters for D3 (script-directory path, site packages) was therefore not what the evidence exercised. Outcome JSON lines 5-8 repeat the flags.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_RESULT.md`; line 6
+  - quote: `failures on CPython ## using -I -B -S. The unchanged first stdout,`
+  - checked: [read only]
+
+- **E4** The title and body (lines 19-23: 'engineering evidence, not a mathematical result ... UNRUN, NOT IMPORTED, NOT COLLECTED') are accurate about scope; the five source hashes in the outcome JSON (lines 18-31) equal the pinned hashes of the sealed files (same masked strings; engineering_checks, run_checks, checks, gauge_response_exact, test_gauge_response), so the evidence concerns the very bytes sealed. stdout is empty (sha256 of the empty string, outcome line 33) and stderr shows 8 ok (stderr lines 1-13) [read only].
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_RESULT.md`; line 1
+  - quote: `# Eight synthetic binding checks passed; six science checks remain unrun`
+  - checked: [read only; own hash comparison of seal-time and sealed code, section A]
+
+- **E5** True as far as the fixture code goes (engineering_checks.py reads the real sources only as text/AST: lines 12-13, 26-29), consistent with the claim.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.outcome.json`; line 35
+  - quote: `"scientific_imports": "NONE; only generated sentinels; real sources read as text/AST only",`
+  - checked: [read only]
+
+
+## F. Lane's own review (read only after the findings above were written)
+
+Files read: REVIEW.json, INDEPENDENT_REVIEW_2026_11_08.md (146 lines, masked print saved as _m_lanereview.txt; lines 38-61 and 141-145 are windowed so their digits print as '#'). SOURCE_RECEIPT_2026_11_08.json: not read (its existence confirmed by git ls-tree and its length counted only); its content is [not checked].
+
+- **L1** What C1 is: the objection that the producer computes the cubic factors from nu (gauge_response_exact.py 45-49) and so corrupted stored exponents could pass undetected; the lane answers that tests 02, 03 and 05 compare the exponents with the Euler equations and with independent integrals. I agree, and I ran what the lane did not ('No mutation experiment was run for this adjudication', same paragraph and line 94): planting swapped branches, wrong s, wrong response factors, swapped derivative components and a wrong cubic total in my own transcription, each is rejected by at least one method (plant table in section C). Where I differ: the Euler equation and the integral measure are typed by the same author as the producer, and lines 80-85 of the test, the heart of the exponent guard, are masked to me.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md`; line 92
+  - quote: `**C1: no blocking missing-exponent guard in the complete suite.**`
+  - checked: [own-code: rederive_and_plant.py plants]
+
+- **L2** What C2 is: the finite holonomy control is one commuting channel (as EXECUTION_DESIGN.md 18-20 says). I agree that it is disclosed, and I differ on what is covered: the lane says the implementation 'checks' the differentiated identity at first order including its sign and the jet terms (same paragraph), whereas the recursion returns the typed derivative of the generator for any generator (plant a(y) with 1/y^3 passes, plant W_y W^-1 passes), so the first-order identity is by construction and its sign is compared only with a typed sign; no check ties the typed generator to its derivative.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md`; line 96
+  - quote: `**C2: a correct scope limitation, already disclosed, not an unmet six-control requirement.**`
+  - checked: [own-code: rederive_and_plant.py transport_block]
+
+- **L3** The reviewer label is 'independent-gauge-response-transport-reviewer' (REVIEW.json line 9) against the author label 'physical-bridge-seat'; the gate accepts any different string (D2), the review sits in the lane's own branch and describes itself as 'the machine review's decision', so independence of the reviewer from the lane is an attestation that main has to evaluate and not a mechanical fact.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md`; line 9
+  - quote: `**Verdict: APPROVE_EXECUTION at the independent proof/source-completeness review layer for this exact six-control packet.**`
+  - checked: [read only; REVIEW.json lines 9-12 for reviewer, nonauthoring, decision]
+
+- **L4** The lane's account of the fixtures is accurate (it says they do not import the actual science or gates and that no fixture was rerun); it does not note that the real infrastructure was replaced by a sentinel, that the 'population' fixture tests a local function (E1, E2), or the missing -I/-S in production (it notes the engineering flags at line 127 and sets them aside).
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md`; line 135
+  - quote: `They use the actual wrapper/bridge text and generated temporary sentinel sources, substituting only the single frozen hash for the generated infrastructure's hash.`
+  - checked: [read only]
+
+- **L5** The lane's custody statement (42 pins, empty index/worktree/untracked populations, outputs absent) agrees with what I computed for the pins (A1: 42 of 42 at seal and head); the clean-checkout and untracked-file claims are the lane's alone and are exactly the ones D3 needs, so main must reproduce them in its own checkout.
+  - file: `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md`; line 129
+  - quote: `The isolated checkout `/private/tmp/oa-gauge-response-review-ZWTHcd` was independently inspected: HEAD equals`
+  - checked: [read only; not checked on disk: the directory is outside my remit]
+
+Other agreements: role counts 22 input, 17 source, 1 test equal my count of the spec rows (grep of the masked spec); the lane counts 40 artifacts + design + specification = 42 verified pins (line 102); my 42 are design + 40 artifacts + the environment entry (which duplicates an input row), so the two 42s count different sets and both match their blobs (the specification file itself I did not hash-compare because the admission, not the specification, pins it). The lane says the runtime compares the collected population 'as a list' (line 115); infra line 159 compares sorted lists (same effect for multisets). Not examined by me: the hand proofs the lane reviewed (other reviewer).
+
+
+## Caveats
+
+1. (blocking before execution) Run only from a fresh clone at the sealed commit with PYTHONPATH unset, PYTHONNOUSERSITE=1, `git status --ignored` empty and ADMISSION.json committed, because the clean-state check ignores untracked/ignored files and the interpreter flags are only -B (D3, D4).
+
+2. (blocking before execution) Main must itself read test_gauge_response.py lines 14-17, 60-64 and 80-85 unmasked, because I could only reconstruct those assertions (C1c, C2a).
+
+3. (blocking before execution) Main must decide independently whether the reviewer 'independent-gauge-response-transport-reviewer' is non-authoring and outside the lane, since the gate only compares strings and a typed boolean (D2, L3).
+
+4. (blocking for any claim) A pass must be worded as exact internal-consistency of the author's closed forms on finite rational grids, because no comparator is external and methods 1 and 6 are by construction (class counts, section C).
+
+5. (blocking for any claim) A pass must not be cited as verification of the holonomy identity (18), of its sign, of a non-Abelian channel or of the vector/scalar-leg assignment of the cubic (C6b-C6d, C5a).
+
+6. (non-blocking) The engineering evidence does not exercise the real runner, and one fixture tests a locally defined population function (E1, E2).
+
+7. (non-blocking) Admission can fail for reasons unrelated to the packet because any of the 29 non-historical gates failing on main's tree blocks it, and gate_views_generated rewrites docs/views (D8, B closure note).
+
+8. (non-blocking) Python version equality with ENVIRONMENT.json could not be checked because the version is masked; main's python3 is 3.12.1 CPython and the runner will refuse a mismatch (B8).
+
+9. (non-blocking) TOCTOU re-read of admission and specification and the soft-pass of three base gates without git are fail-open patterns that are not reachable in an isolated checkout (D6, D7).
+
+10. (non-blocking) The pins are compared by me at shape level inside masked runs; the gate's full-hash comparison is the final custody (A1).
+
+
+## Proposed verdict
+
+**APPROVE_EXECUTION with caveats 1-5** (1-3 must be met before the run; 4-5 bind how a result may be described). Reason: I found no fail-open path in the admission wrapper, no code outside the pinned set reaching the science, no vacuous population (6 of 6, exact identifiers, no skips), all 42 pins matching at seal and head, and the visible assertions pass in my own transcription and are rejected by all 10 planted producer errors; what the six controls establish is narrow (class counts: 4 of type (i) without an external comparator, 2 by construction), and the commuting-only holonomy block is weaker than the lane's review states. If main requires that every method be able to fail on a planted error in its own subject, then methods 1 (matrix part) and 6 (transport block, remote-sector line) should be REFUSED pending a successor control; I do not consider that a blocker for running the packet, since the run cannot mislead if caveats 4 and 5 are observed.

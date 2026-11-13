@@ -182,7 +182,7 @@ by a quote that the builder checks.*
 
 | id | grade | about | statement | where |
 |---|---|---|---|---|
-| E:GRADES | RECORD | record | The lanes' own grading: independent proof support, execution readiness, execution and banking are different facts; nothing of this model is banked on main. | PROGRESS_SINCE_MAIN_217E_2026_11_08.md @ 521e6f241; P-746 (QUEUED); P-749 (QUEUED); P-750 (QUEUED) |
+| E:GRADES | RECORD | record | The lanes' own grading: independent proof support, execution readiness, execution and banking are different facts; nothing of this model is banked on main. | PROGRESS_SINCE_MAIN_217E_2026_11_08.md @ 521e6f241; P-746 (DONE); P-749 (QUEUED); P-750 (QUEUED) |
 | E:J1 | OPEN | thread | Missing join: an independently certified complete three-family matter roster. | CLAIM_DEPENDENCIES.md @ 5242c938 |
 | E:J2 | OPEN | thread | Missing join: the certified physical charged-current coupling matrix. | CLAIM_DEPENDENCIES.md @ 5242c938 |
 | E:J3 | OPEN | thread | Missing join: an independent review of the kernel theorem in the background without the extra Wilson line. | CLAIM_DEPENDENCIES.md @ 5242c938 |

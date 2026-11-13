@@ -16671,6 +16671,23 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1907": {
+   "slug": "the physical lanes two sealed packets refused as sealed",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "firewall"
+   ],
+   "refs": [
+    "P210"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "physics"
+  },
   "B190": {
    "slug": "iterated gluing",
    "motifs": [

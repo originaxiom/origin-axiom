@@ -1,0 +1,285 @@
+# REVIEW_CODE: packet 1 (physical lane, joint transport packet), code and check design
+
+Reviewer: read-only subagent of main. Sealed commit read: bda89f04a94d09217551cef96056f375b21c260b. Branch head origin/audit/physical-bridge-2026-09-05 = 1aa76251ff9cf1f60c08a2b3c83323ae8f069f97 (the sealed commit is an ancestor of it; checked with git merge-base --is-ancestor, exit 0).
+Nothing of the packet was imported, collected or run. Every lane file was read only through audit/physical_digest/mask_min.py. Own scripts and their outputs are in this folder (audit/wp24/packet1/code/): custody.py, static_checks.py, rederive.py, rederive2.py, plant_sign.py, sympy_tautologies.py, quote_check.py and the *_out.txt files; the mask outputs I read are saved as mask_*.txt.
+
+Path prefix used below: PKT = reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17 ; JOINT = PKT/verification_transport_joint_2026_11_05.
+Keys (file read, as `KEY`): SPEC = JOINT/SPECIFICATION.json ; RUN = JOINT/run_checks.py ; BRG = JOINT/checks.py ; ENV = JOINT/ENVIRONMENT.json ; V3 = PKT/verification_v3/run_checks.py ; TE = PKT/verification_transport_end_2026_11_04/checks.py ; GS = PKT/verification_geometric_spin_sector_2026_11_04/checks.py ; REG = PKT/verification_register_flavour_joint_2026_11_03/checks.py ; NEU = PKT/verification_neutral_full_kernel_2026_11_02/checks.py ; PRO = scripts/gates/prospective.py ; STR = scripts/gates/prospective_strict.py ; TRK = scripts/gates/tracked_state.py ; POL = scripts/gates/provenance_policy.py ; GATES = scripts/gates/gates.py ; ENGC = JOINT/engineering_checks.py ; ENGR = JOINT/ENGINEERING_RESULT.md ; ENGD = JOINT/ENGINEERING_DESIGN.md ; DES = JOINT/DESIGN.md ; DUT = JOINT/EXECUTION_REVIEW_DUTIES.md ; OUT = JOINT/engineering/attempt_01.outcome.json.
+Quotation format: `Q[KEY Ln]` then the exact text of mask line n, after the mask's "| ". Line numbers are the mask's.
+
+What I did not read: the seven proof .md inputs and the review/*.md, SOURCE_*.json, receipts of the geometric folder (hashes only); the four DESIGN/ADDENDUM/REPAIRS md files of the geometric folder were listed and saved (mask_verification_geometric_spin_sector_2026_11_04_*.md.txt) but I did not rely on them; scripts/checks/*.py and scripts/views/generate.py (pinned, not read); the lane's review/ folder was read only after this text was written (section F). Mask limits: the mask turns every decimal and every comma-pair such as "1,0" into '#', so tuple literals like (j,i) in TE lines 337, 340, 381, 433-439, 455 and lines inside "W" windows (GS 104-125, 424-428; TE 567-572) are not readable by me. 301 of the 4,096 hash characters of the pins in SPEC are '#'. The Python version, sympy version and mpmath version in ENV are '##' (unread).
+
+---------------------------------------------------------------------------------------------
+## A. Custody
+
+Script: custody.py (output custody_out.txt). It parses SPEC through the mask, computes sha256 of every pinned blob at the sealed commit and at the branch head without printing contents, and compares. Where the mask hid characters of a pinned hash, '#' was treated as a run of hex digits (wildcard), so those comparisons are weaker; see A3.
+
+A1. Result: 64 rows (design 1 + environment 1 + 62 entries of "artifacts"; the environment file is both the "environment" pin and an artifact, so 63 distinct paths). All 64 blobs exist at the seal and at the head. All 64 match the pinned hash at the seal and at the head. Number of rows where seal blob differs from head blob: 0.
+Q[SPEC L11] `"artifacts": [`
+How I know: re-derived in my own code (custody.py, tail of custody_out.txt: ok_seal 64, ok_head 64, mismatch 0, seal_ne_head 0).
+
+A2. 21 pins are fully visible and match exactly; 43 pins contain '#' (masked) and match by wildcard. For those 43, equality of the hidden characters was not seen by me; equality of the whole blob at seal and head was (A1), and the admission wrapper itself re-hashes every pin in full (D1).
+Q[SPEC L9] `"sha256": "#e2645c527f1084527cf0#ae732ffe496fcd650938df5"`
+How I know: custody.py output lines marked "M" (masked); hidden characters counted at 301 of 4,096.
+
+A3. The runner's literal hash of the v3 runner equals the blob hash of PKT/verification_v3/run_checks.py (wildcard match, same masked form as the pin in SPEC L259 and the engineering seal).
+Q[RUN L8] `RUNNER_SHA256 = "1cc1c9e299be3f85df41d066b2673c2c62b3#ad978603f769cf04fd8adbf0"`
+How I know: re-derived in my own code (static_checks.py, first output line: matches v3 blob (wildcard): True). The masked part was not seen.
+
+A4. SPEC does not pin itself and does not pin ADMISSION.json, REVIEW.json, ACCEPTANCE.json (those do not exist yet; they are bound by the wrapper through commits and hashes, see D).
+Q[SPEC L343] `"environment": {`
+How I know: read only.
+
+---------------------------------------------------------------------------------------------
+## B. The runner and the bridge
+
+B1. Order of operations (read only). `python3 -B JOINT/run_checks.py --admission ADMISSION.json --output results/attempt_01.jsonl --log results/attempt_01.log`:
+ (1) JOINT/run_checks.py (the wrapper) hashes PKT/verification_v3/run_checks.py and refuses if it differs from RUNNER_SHA256; (2) loads it as module "joint_transport_runner_infrastructure" (this import runs `import tracked_state` from scripts/gates, but no science); (3) overwrites infrastructure.HERE, .ENTRY, .EXPECTED; (4) calls infrastructure.main(). In main: cwd = repo root; -B and no -O; python version/implementation, four environment variables and two package versions; tracked-state clean; subprocess `prospective_strict.py --admission`; the exact command must be in the admitted packet; output set must equal {--output, --log}; every pin re-hashed; pre-import custody; outputs created with mode "x"; only then the bridge JOINT/checks.py is imported (it loads GS, which loads TE, which loads REG and NEU); the loaded suite's ids must equal EXPECTED; unittest runs with failfast; post-run custody; "passed" row; exit 0 only if passed.
+Q[RUN L38] `return infrastructure.main()`
+Q[V3 L156] `module_spec.loader.exec_module(module)`
+Q[V3 L200] `return 0 if passed else 1`
+How I know: read only.
+
+B2. The literal list of the thirteen identifiers is RUN lines 10-22 (eight TransportEndChecks.*, five GeometricSpinSectorChecks.*), nothing else is in it.
+Q[RUN L10] `'TransportEndChecks.test_full_root_central_phases_and_electromagnetic_lattice',`
+Q[RUN L22] `'GeometricSpinSectorChecks.test_bounded_end_split_and_four_slot_index_cancellation',`
+How I know: re-derived in my own code (static_checks.py: 13 EXPECTED entries, 13 distinct; the `def test_` names, read from the mask text of TE and GS in order of appearance, are 13 and equal to EXPECTED as a list).
+
+B3. Where each is defined (mask line of the `def`): TE: 274 test_full_root_central_phases_and_electromagnetic_lattice; 292 test_actual_clifford_lift_of_d5_compensators; 320 test_faithful_compensator_group_and_quotient_kernels; 361 test_full_pin2_correction_and_retained_gauge_sectors; 405 test_continuous_stabilizer_and_phase_constraint; 429 test_based_and_all_word_holonomy_covariance; 506 test_stationary_gluing_and_full_peripheral_table; 537 test_actual_centralizer_mass_and_escaping_channel. GS: 90 test_geometric_spin_pullback_and_based_group_scope; 126 test_complete_curve_mass_and_action_transport; 226 test_all_slot_half_root_coercivity; 284 test_periodic_and_cover_parity_controls; 340 test_bounded_end_split_and_four_slot_index_cancellation.
+Q[TE L429] `def test_based_and_all_word_holonomy_covariance(self):`
+How I know: re-derived in my own code (static_checks.py).
+
+B4. Import closure. BRG loads GS by file path; GS loads TE; TE loads REG and NEU (all four by spec_from_file_location). No `open`, `subprocess`, `os.`, `environ`, `read_text`, `exec(`, `eval(` or `__import__` appears in TE, GS, REG, NEU (grep over the mask text, no hit). Their imports: sympy (and through it mpmath), fractions, itertools, collections, functools, pathlib, importlib.util, unittest. The pinned set contains all of BRG, GS, TE, REG, NEU, RUN, V3, TRK, STR, PRO, POL, GATES. What the pins do NOT cover: the interpreter, the contents of the installed sympy and mpmath (only their version strings are compared), the `git` binary, and any untracked or ignored file on sys.path (see D3). NEU and REG define further TestCase classes (5 test methods each); they are not exported by BRG, so they are not collected, but their module-level code runs on import.
+Q[TE L32] `OLD = source_module("transport_source_register", "verification_register_flavour_joint_2026_11_03")`
+Q[TE L33] `ROOTS = source_module("transport_source_roots", "verification_neutral_full_kernel_2026_11_02")`
+Q[GS L29] `TRANSPORT = load_source("geometric_transport_source", "verification_transport_end_2026_11_04")`
+How I know: read only, plus grep over mask_verification_*checks.py.txt for file/process/env access (no hit).
+
+B5. "Guarded runner" in the code: the docstring of V3 and the sequence in B1; nothing is imported from the science before the strict gate returns admissible, before the custody of all pins is re-verified in-process, and before the outputs are reserved. The wrapper's own claim is "Bind the declared joint packet to the frozen prospective/custody runner."
+Q[V3 L1] `"""Prospective-gated entrypoint; no science imports before real admission.`
+Q[RUN L1] `"""Bind the declared joint packet to the frozen prospective/custody runner."""`
+How I know: read only.
+
+B6. What ENVIRONMENT declares and what the runner requires: four required environment variables (PYTHONHASHSEED=0, PYTHONDONTWRITEBYTECODE=1, SYMPY_GROUND_TYPES=python, PYTHONOPTIMIZE=0), python version and implementation, sympy and mpmath versions (the three version strings are '##' to me), and `git`. The runner checks equality of those, `sys.dont_write_bytecode`, `not sys.flags.optimize`, and the cwd. It does not check -I, -S, PYTHONPATH, user-site, or the origin of the imported sympy. The file itself says it is metadata only.
+Q[ENV L12] `"PYTHONDONTWRITEBYTECODE": "1",`
+Q[ENV L3] `"status": "current_distribution_metadata_only_not_admission",`
+Q[V3 L103] `require(sys.dont_write_bytecode and not sys.flags.optimize, "Use -B, without -O")`
+Q[V3 L110] `require(importlib.metadata.version(name) == value, "Dependency version differs: " + name)`
+How I know: read only.
+
+---------------------------------------------------------------------------------------------
+## C. The thirteen methods
+
+Method of work: each method read in full from the mask text; arithmetic claims re-derived with my own numpy/fractions code (rederive.py, rederive2.py: E8 roots, D5 source, creators, spin lift, carriers, the five 248-dimensional modules bare and corrected, norm and charge; plant_sign.py: a planted error; sympy_tautologies.py: three sympy facts). All the checks are exact (sympy or Fraction); there is no numerical tolerance anywhere in the thirteen methods. Matrix and scalar zero tests are `sp.simplify(x) == 0` or an exact polynomial remainder; a failed simplification fails the test, it cannot pass a wrong value. Classes: (i) real computation against an independently obtained value; (ii) passes by construction; (iii) definition check or standard identity; (iv) typed literal against typed literal. Mixed methods are named with the share I could read. In my own numerics every claim I could re-derive came out true, so these methods can pass; the question is what else they would let pass.
+
+C1 TE 274 test_full_root_central_phases_and_electromagnetic_lattice. Computes pairings of typed D5 logarithm vectors with the 240 E8 roots (roots built by NEU.e8_roots, an independent construction), compares to typed counts 120 and 128 (112 roots at 0, plus 8 added for the Cartan) and compares two typed vectors with each other root by root. Class (i) (re-derived: rederive.py, 112+8=120, 128, four_x and zeta agree on all roots, h_squared equals -c). Caveat: its inputs are typed anew (four_x here, x at TE L140 in carriers()); the test never touches carriers(), so a change of x in carriers() is not seen here. Control present: wrong_half_phase. Fails if the typed logs are wrong.
+Q[TE L281] `observed[Fraction(0)] += 8`
+Q[TE L278] `four_x = d5_log((1, 0, -1, -2, -3))`
+Q[TE L140] `x = (sp.Rational(1, 4), 0, -sp.Rational(1, 4), -sp.Rational(1, 2), -sp.Rational(3, 4))`
+How I know: re-derived in my own code (rederive.py) for the counts and the equalities; the link between L278 and L140 by reading.
+
+C2 TE 292 test_actual_clifford_lift_of_d5_compensators. Builds 32x32 creators, checks the Clifford relations (a definition check of creators), then for e, g, h checks the spin lift is dagger-compatible and satisfies [lift, gamma_c] = sum M[r,c] gamma_r (real), then relations among the constructed spin carriers a, d, c, p (a^4 = -1, a^2 = c^dagger p, d^2 = -p, a d a^dagger = d^dagger, b^2 = a^2, (ab)^2 = p, a b a^dagger b^dagger = -p) and av^4 = dv^4 = 1. Class (i): the carriers are built by two different formulas (diagonal phases, spectral exponentials of the lifted generator) and the relations are not built in. Re-derived true (rederive.py, all PASS). `assertNotEqual(a**4, eye)` is a trivial control.
+Q[TE L308] `self.assert_zero(a**4 - zeta)`
+Q[TE L304] `self.assert_zero(OLD.bracket(lifted, gamma[column]) - rhs)`
+How I know: re-derived in my own code (rederive.py).
+
+C3 TE 320 test_faithful_compensator_group_and_quotient_kernels. Counts distinct elements d^j a^i (j<4, i<8) as keys of simplified matrices: 32 pairs, 16 vector parts, 8 projective classes; semidirect product rule on the spin side; non-equalities of vector squares; Q8 squares; sign loop. Class (i) for the counts (re-derived: 32 and 16 true, rule true; the sets (j,i) at L337 and L340 are hidden), with a by-construction block: the four sign choices give the same value because the signs cancel in a b a^dagger b^dagger (re-derived: same value for all four). Counts rely on sympy canonicalisation of keys; a failure to canonicalise makes the count too large and the test fails, so it fails closed.
+Q[TE L332] `self.assertEqual(len(set(actual.values())), 32)`
+Q[TE L358] `a, b = sign_a * data["asp"], sign_b * data["dsp"] * data["asp"]`
+How I know: re-derived in my own code (rederive.py) for 32/16 and the rule; the by-construction block by reading and my own run.
+
+C4 TE 361 test_full_pin2_correction_and_retained_gauge_sectors. Five modules with dimensions summing to 248; per module a^2 = d^2, a^4 = 1, a d a^dagger = d^dagger, b^2 = a^2, (ab)^2 = a^2, a b a^dagger b^dagger = a^2; group size over the five modules (literal hidden); h4 commutes with E_ij for three typed pairs; flavour/compensator cancellation on (e,g) and mass-map intertwiners with typed q, r. Class (i) overall; block (ii): h4 = diag(p, q, q, q) commutes with E_ij for i,j in the equal block by construction (pairs hidden at L381). Re-derived true: dimensions 45,15,60,64,64, all six relations in all five corrected modules (rederive2.py). Missing control: the module relations are all invariant under a -> -a on a module, and nothing builds the E8 bracket across the five summands or tests that the compensator is an automorphism of the 248; I planted a -> -a on the two spinor modules and every relation of this test still holds and the combined group keeps its size, 8 (plant_sign.py: "planted ... still pass: True"; group size 8; the test's literal at L380 is hidden). The words "faithful" and "retained gauge sectors" are therefore only supported per module and by commutation with the colour element.
+Q[TE L366] `self.assertEqual(sum(a.rows for a, _ in modules), 248)`
+Q[TE L384] `self.assert_zero(h4*generator-generator*h4)`
+Q[TE L380] `self.assertEqual(len(group)#)`
+How I know: re-derived in my own code (rederive2.py, plant_sign.py); the missing automorphism check by grep (no "automorphism", "structure", "e8_bracket" in any of the four science sources) and by reading.
+
+C5 TE 405 test_continuous_stabilizer_and_phase_constraint. One real block (rotation conjugation of a typed sigma_x with the flavour unit, 3 asserts); the rest is arithmetic on typed objects: substitutions of t = I and -I, holonomies diag(exp(I theta q)) for typed angles and typed charges q4, h^2 = -I, h0 = -h1, exp(6 pi I q) = 1. Class (iv) (with a small (i) block). A planted wrong typed angle or charge would be caught, but only because the same typed numbers are tested against themselves; nothing links them to carriers(). Hidden digits: the right-hand sides at L414-417, L427 and the angles/charges at L417-418.
+Q[TE L414] `self.assertEqual(sp.simplify((t**3+sp.I).subs(t,sp.I))#)`
+Q[TE L422] `self.assert_zero(h**2+sp.I*sp.eye(4))`
+How I know: read only (the hidden literals prevent a re-derivation of L417-418).
+
+C6 TE 429 test_based_and_all_word_holonomy_covariance. For three typed moves (forward/inverse substitutions and a lift) and five typed words (letters partly hidden), computes the flavour word, the gauge word after inverse substitution, conjugates the pair and compares; free-group composition checks; a probe of physical_mass_blocks against OLD.physical_mass through a carrier isometry; then, on all five modules (248), bare and corrected, centre check and, for every move and word, all 16 blocks of mass * incoming = outgoing * mass. Class (i), with a wrong-order control (L457-459). Coverage: five words and three moves; the name says "all_word". The test is invariant under the planted sign of C4 (the gauge word enters both sides). Hidden: words (L439) and the move tables (L435-437).
+Q[TE L439] `words=((1,),(2,),(#,-1,-2),(###),(1,-##))`
+Q[TE L504] `self.assert_zero(left-right)`
+How I know: read only (hidden words), the invariance under the plant by reasoning plus plant_sign.py for the relations; not run for this test.
+
+C7 TE 506 test_stationary_gluing_and_full_peripheral_table. D5 source identities with symbolic ell ([e,g] = 0, moment = h/(4 ell^2), [h,x] = 2x), a wrong-pair control, the peripheral products (-1 on the flavour side, -1 on the 32 gauge side, their Kronecker product = -1 on 64, vector side 1), a commuting-pair control, and the integrality of QY.root on roots with first three coordinates 0 (modulus hidden). Class (i); re-derived: the source identities and the carrier products true (rederive.py). The final loop's modulus is hidden; I did not re-derive it.
+Q[TE L512] `self.assert_zero(moment-data["h"]/(4*ell**2))`
+Q[TE L524] `self.assert_zero(total+sp.eye(32))`
+How I know: re-derived in my own code for the source identities and carrier products (rederive.py); the QY loop read only.
+
+C8 TE 537 test_actual_centralizer_mass_and_escaping_channel. Block 1 (L546-563, class (i)): t commutes with e, g, h, e^dagger, g^dagger, a, d in all five modules (bare and corrected a), rows from the source mass formula equal typed scalar rows times t, norm sum(tr t^dagger t)/60 = 1; re-derived true (rederive2.py: norm 1, charge 2, commutation True). Block 2 (L564-573, class iv): typed Pauli-type matrices, radial operator squared. Block 3 (L576-587, class ii/iii): bump integrals; `normalized_norm` is length*(1/length)*b/b, which is 1 by cancellation, then asserted equal to 1. Block 4 (L588-603, class iv/ii): a typed plane-wave example; `response` is the constant I, and the test asserts the derivative of it with respect to a fresh Symbol("z") (not the z of the example) is a hidden literal: a constant has no dependence on any symbol, so that assert cannot fail (sympy_tautologies.py: diff = 0). Block 5 (L604-611, class ii): the "physical overlap" is written with a typed factor length/length and the vertex with g6**2/g6**2; these cancel on construction, so the final equality with 2*g6/sqrt(area) tests only that the charge is 2, which L606 has already tested. Dominant class: mixed (i) for blocks 1 (roughly 40% of asserts) and (ii)/(iv) for the rest; the statement the test is named for ("escaping channel", canonical vertex normalisation) rests on blocks 4 and 5.
+Q[TE L599] `complex_parameter=sp.Symbol("z")`
+Q[TE L600] `self.assertEqual(sp.diff(response,complex_parameter)#)`
+Q[TE L609] `physical_overlap=sp.integrate((length/length)*(bump**2/bump_norm)*charge,(s,#))`
+Q[TE L610] `canonical_vertex=sp.simplify((g6**2/g6**2)*(g6/sp.sqrt(area))*physical_overlap)`
+Q[TE L581] `normalized_norm=sp.simplify(length*(1/length)*bump_norm/bump_norm)`
+How I know: re-derived in my own code (rederive2.py for block 1; sympy_tautologies.py for the three cancellations); right-hand sides hidden by the mask at L600 and L555, L573, L584 etc.
+
+C9 GS 90 test_geometric_spin_pullback_and_based_group_scope. Free-group computation delta = compose(...) with repeated(delta, 4) = conjugation word (real, typed words); rho_c = quaternion commutator = -I (real); then typed arithmetic with sqrt(I)-type numbers (windowed lines 104-117, digits hidden) and a symbolic Moebius-action identity (A, B, C, D symbols; expand(numerator - ...) = 0 and substitution of the determinant condition), a standard identity. Class (iii) (core (i) in the first five asserts). Controls: assertNotEqual on typed numbers. I could not read the windowed lines.
+Q[GS L99] `self.assertEqual(repeated(delta, 4), inner_c)`
+Q[GS L103] `rho_c = TRANSPORT.evaluate_word(c, {1: fi, 2: fj})`
+Q[GS L112] `self.assert_zero((-1) * (-sp.eye(2)) - sp.eye(2))`
+How I know: read only; L112 is arithmetic on typed matrices (class iv) by reading.
+
+C10 GS 126 test_complete_curve_mass_and_action_transport. Symbolic on the SU(2) parameters with the sphere relation reduced by polynomial remainder: target*uin = uout*source, metric invariance of uin and uout, direct rows vs the 12x12 source matrix, variable-field and variable-metric derivatives with undetermined functions, from_complex vs raw rows, surface/bulk/antisymmetric identities. Controls that must fail are present and simplified before comparison (broken source block, wrong metric, omitted metric derivative, wrong primitive). Class (i), the strongest of the thirteen: two code paths (the source matrix OLD.physical_mass and the direct rows mass_rows) are compared, with named plants. `is_zero` reduces only in the variable a (monic sphere polynomial), which is sound for this ideal.
+Q[GS L151] `self.assertTrue(is_zero(target * uin - uout * source))`
+Q[GS L158] `self.assert_zero(sp.Matrix.vstack(*direct) - source * sp.Matrix.vstack(*fields))`
+Q[GS L162] `self.assertFalse(is_zero(target * uin - uin * source))`
+How I know: read only (not re-derived by me: symbolic 12x12 with functions; I did not run it).
+
+C11 GS 226 test_all_slot_half_root_coercivity. canonical_cusp_rows (a conjugation by exp(+-t/2) scalings) compared with typed expected first-order operators (real, two paths); positivity of every coefficient of potential - (radius^2 - 2 radius) for the four shifts (the all() over coefficients would raise on a symbolic coefficient, so it fails closed); the typed algebra identities (iii); a block that is by construction: `(exp(-t/2)*actual/sqrt(exp(-t))).diff(t)` for numeric matrices `actual` is zero for any numeric matrix; a loop over all root pairs that tests that a character is multiplicative (true for any logarithm vector: I ran it with a random vector, 0 violations); carriers: p * commutator = +-1 (real); grading counts 128 and 120 (real). Class (i) with two (ii) blocks.
+Q[GS L282] `self.assertEqual(grading[total], grading[first]*grading[second])`
+Q[GS L271] `self.assert_zero(p_core*commutator - centre*sp.eye(dimension))`
+How I know: re-derived in my own code (sympy_tautologies.py for L264; rederive.py for the character loop with a random logarithm: 0 violations; carriers relation: rederive.py).
+Q[GS L264] `self.assert_zero((sp.exp(-t/2)*actual/sp.sqrt(sp.exp(-t))).diff(t))`
+
+C12 GS 284 test_periodic_and_cover_parity_controls. Real: periodic rows from canonical_cusp_rows against the E8-module rows (actual_centralizer_rows + projection), i.e. two paths; fi fj fi^dagger fj^dagger = -I; the colour root in the root set; charge 2 (typed colour element, see C8). Typed: k = 0 substitutions, bump integral 10/L^2 and its limit, parity of 2*even and 2*odd+1, and the four-sign loop (by construction, as in C3), then the vertex normalisation with `length*(bump/sqrt(length))**2` (cancels). Class mixed (i)/(iv)/(ii); the two-path block (L289-299) is the substantive part.
+Q[GS L299] `self.assert_zero(actual_rows-sp.Matrix([0, 0, periodic[2][0], periodic[3][0]]))`
+Q[GS L310] `self.assertEqual(sp.simplify((-1)**(2*even)), 1)`
+Q[GS L338] `self.assertEqual(sp.simplify(canonical_vertex-2*g6/sp.sqrt(area)), 0)`
+How I know: read only; the cancellations of L334-338 by reading and by the sympy facts of sympy_tautologies.py (analogous L581, L609-610 pattern).
+
+C13 GS 340 test_bounded_end_split_and_four_slot_index_cancellation. Real algebra on the end split (split^dagger metric split = metric_b; connection differences; winding limit), the scalar/form operators and their weighted adjoints derived from the expressions (a function weighted_adjoint) compared with the Hessian of a quadratic density computed by Euler-Lagrange derivatives (two paths), with a control that flips a sign; then `old_index`: h0 - h1 of the source helpers NEU.h0, NEU.h1; its second difference is 1 (re-derived: 1, rederive.py). Class (i) for the local identities. The name says index cancellation; I found no line that computes an index of a four-slot operator, a Fredholm index, a kernel dimension or a sum of two indices to compare with zero; the only index computed is the old helper's second difference, asserted equal to 1 as a countercontrol. The test's own comment hands the global statement back to the proof review.
+Q[GS L340] `def test_bounded_end_split_and_four_slot_index_cancellation(self):`
+Q[GS L426] `# Global splitting, graph adjoints and index continuity remain proof-review duties.`
+Q[GS L429] `self.assertEqual(2*old_index(0)-old_index(-1)-old_index(1), 1)`
+How I know: read only for the absence of an index computation (whole test read, L340-433); L429 re-derived in my own code (rederive.py); the lines 424-428 are in a mask window (digits hidden).
+
+Tally (dominant class): (i) 9 methods: C1, C2, C3, C4, C6, C7, C10, C11, C13. (iii) 1: C9. (iv) 1: C5. Mixed with a (i) core but at least half of the asserts class (ii) or (iv): 2 (C8, C12). Class (ii) as dominant: 0; but by-construction or typed-cancellation blocks occur in C3, C8, C11, C12 (and C4 for the h4 block). No method has a numerical tolerance. Hidden digits limit C5, C6, C9 and part of C3, C4, C7.
+
+Missing controls (what would pass):
+M1. a -> -a on the spinor modules (or on asp) passes C2, C3, C4, C6, C12 and the sign loops (plant_sign.py; C4). Cause: no check that the five-module action is an automorphism of the E8 bracket.
+M2. A wrong x in carriers() that changes a by a sign passes everything (same plant); a wrong x that changes a by a non-sign is caught by C2 (a^4, a^2 = c^dagger p) but not by C1, whose logs are typed separately.
+M3. A wrong power or factor of length in a canonical-vertex normalisation (C8 block 5, C12) passes: the factors are typed so that they cancel.
+M4. An error in the response function of the typed plane wave (C8 block 4) passes: the derivative asserted is of a constant.
+M5. Any word beyond the five typed ones (C6) is not tested; the name says "all_word".
+M6. Any error in the index of the four-slot operator passes C13, which does not compute it.
+M7. Errors in the typed charges and angles of C5 pass if they stay mutually consistent.
+Q[TE L609] `physical_overlap=sp.integrate((length/length)*(bump**2/bump_norm)*charge,(s,#))`
+How I know: M1 by my own run (plant_sign.py); M3, M4 by my own sympy runs; M2, M5, M6, M7 by reading.
+
+---------------------------------------------------------------------------------------------
+## D. The admission wrapper (PRO, STR, TRK, POL, V3)
+
+Overall: for the evidence bindings it checks, the wrapper is fail-closed. I found no environment variable, flag or broad exception handler that turns a failure into admission. The weaknesses are in what it does not bind.
+
+D1. Fail-closed core (read only). STR refuses when tracked state is not clean before; PRO.inspect_admission requires: exact keys of ADMISSION; a clean tracked tree against HEAD; a full-40-hex sealed commit; the specification and the design and every artifact at the sealed commit with the same hash as the current file; seals for design and specification in the ledger at the sealed commit and now; review and acceptance bound by commit, path and hash; acceptance by commit ancestor of refs/remotes/origin/main; V3 re-hashes all pins before import and after the run, and `passed` requires unchanged custody, 13 tests run, no skip, no expected failure, no unexpected success. Any exception other than those caught in PRO.evaluate propagates and stops the run; the caught ones (OSError, ValueError (PolicyError and JSONDecodeError are ValueErrors), KeyError, TypeError, SubprocessError) are appended to errors and make prospective_admissible false.
+Q[STR L21] `if not before["clean"]:`
+Q[PRO L198] `except (OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as exc:`
+Q[V3 L191] `passed = (result.wasSuccessful() and result.testsRun == len(EXPECTED)`
+Q[V3 L127] `require(command in packet["commands"], "This exact command was not admitted")`
+How I know: read only (all of PRO, STR, TRK, POL, V3 read in full).
+
+D2. The review and acceptance objects bind the sealed commit and hashes but the checks are only on form. "reviewer" must be a non-empty string not among the authors; "nonauthoring", "source_complete", "verified_independence", "verified_source_completeness" are booleans typed in the JSON; "receiver" must be the string "main". The file says so itself. The only external anchor is that the acceptance commit is an ancestor of the local ref refs/remotes/origin/main; the review commit has no ancestry requirement. So acceptance is as strong as main's merge discipline, and the check reads a local tracking ref that depends on the last fetch.
+Q[PRO L3] `This checks exact evidence bindings, not the truth of reviewer attestations.`
+Q[PRO L175] `require(acceptance["receiver"] == "main" and acceptance["decision"] == "ACCEPT_INDEPENDENT_REVIEW"`
+Q[PRO L167] `git(root, "merge-base", "--is-ancestor", accepted, RECEIVER_REF)`
+Q[PRO L20] `RECEIVER_REF = "refs/remotes/origin/main"`
+How I know: read only.
+
+D3. The order claims are inequalities only. "review must follow separate sealing" is `reviewed != sealed`; acceptance must differ from sealed and reviewed; no ancestry between sealed, review and acceptance is tested. Not a bypass of a hash binding, but the message states more than the check.
+Q[PRO L150] `require(reviewed != sealed, "review must follow separate sealing")`
+Q[PRO L166] `require(accepted not in (sealed, reviewed), "acceptance must bind a separate review commit")`
+How I know: read only.
+
+D4. "Clean" means tracked-clean. Both PRO and TRK use `git diff` (tracked files only); untracked and ignored files are not seen. Python then runs with `-B` only (the specification's argv has no -I, no -S), so sys.path[0] is the packet folder, then V3 inserts scripts/gates and the wrapper inserts the packet folder again; an untracked file named like a module the run imports (json.py, sympy.py, a package directory), a PYTHONPATH entry, a site-packages .pth file or a stale __pycache__ matching size and mtime of a pinned source would be loaded and would not be seen by the pin check, which hashes source bytes. -B stops writing bytecode but does not stop reading it. The packet folder is also where the outputs are written (results/). The engineering fixtures were run with -I -B -S (OUT L4-L8), the science is not. This is a real hole against accident and negligence; the design text says the run happens in "a clean, isolated, quiescent checkout", which, if it is a fresh clone with no untracked or ignored file and no PYTHONPATH, closes it operationally.
+Q[SPEC L328] `"-B",`
+Q[TRK L15] `("worktree_changes", ("diff", "--no-ext-diff", "--name-only", "-z", "--")),`
+Q[PRO L95] `require(not git(root, "diff", "--name-only", "HEAD", "--").strip(),`
+Q[V3 L153] `sys.path.insert(0, str(HERE))`
+Q[OUT L6] `"-I",`
+How I know: read only; I did not test any shadowing (that would need running the packet).
+
+D5. Order inside V3: `import tracked_state` (L26) from scripts/gates executes before any hash of that file is verified (the pin check comes later in main). The bytes are pinned and re-hashed later by hashlib; code of that file could in principle patch hashlib; this is a threat model of malice, not of accident. The wrapper does hash V3 before loading it (RUN L28), but reads the file twice (hash, then load): a time-of-check/time-of-use gap on a tracked, clean file.
+Q[V3 L26] `import tracked_state`
+Q[RUN L28] `if sha256(source.read_bytes()).hexdigest() != RUNNER_SHA256:`
+How I know: read only.
+
+D6. Repository-wide gates. PRO.evaluate runs gates.run_all(); any failing gate except "seal-provenance" blocks admission, and for seal-provenance only the shape of its report is checked, so historical seal failures are waived by design (the packet's own design and specification seals are checked separately by has_seal). A gate that crashes is recorded as failed (fail-closed). GATES._git returns (1, message) when git is absent and one gate regenerates docs/views by running a subprocess; the admission therefore also depends on unrelated repository state and takes a write path into docs/views (a stale view makes the post-check dirty and blocks). I did not read the 30 gate bodies.
+Q[PRO L186] `results = gates.run_all()`
+Q[PRO L190] `failures = [name for name, (ok, _) in results.items() if name != "seal-provenance" and not ok]`
+Q[GATES L606] `r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=180)`
+How I know: read only (GATES lines 28-50, 596-625, 1085-1148 only).
+
+D7. In V3, after a primary error the custody capture failure is swallowed (so the failure is recorded as custody_unavailable and the original exception is re-raised), and a reporting failure inside the handler is passed over; neither path returns 0. When there is no primary error a custody failure is raised. No path turns an error into a pass.
+Q[V3 L188] `if not primary_error:`
+Q[V3 L173] `except BaseException:`
+How I know: read only.
+
+D8. Output handling: outputs must not exist at admission, must not have existed at the seal (PRO L145), are opened with mode "x"; the log and the jsonl are written inside the repository tree after the clean checks, so a second run is refused by design ("preserve prior attempt"). There is no time limit on the run and no memory limit (sympy simplify over 150-dimensional exact matrices); an operational failure would leave a "halted" row, not a pass.
+Q[V3 L140] `require(not path.exists(), "Output collision; preserve prior attempt")`
+How I know: read only.
+
+---------------------------------------------------------------------------------------------
+## E. Does the engineering evidence say more than it shows?
+
+E1. The engineering evidence is eight synthetic fixtures; it shows that the wrapper text, with its hash literal replaced by the hash of a sentinel infrastructure, delegates once, rejects a changed or a missing infrastructure file, passes a nonzero return and an exception, that the literal list equals the AST list of `def test_` names in the two source files, and that a synthetic bridge exports two classes. It never ran the real V3 runner through the wrapper, never loaded the real bridge, and never exercised the real HERE/ENTRY/EXPECTED substitution against V3 (the sentinel main reads HERE, ENTRY, EXPECTED only to write them). ENGR says the fixtures "verify exact binding and one delegation"; that is true of the sentinel, not of the pair wrapper plus V3.
+Q[ENGC L63] `entry.write_text(WRAPPER.replace(FROZEN_HASH, sha256(sentinel.encode()).hexdigest()))`
+Q[ENGC L56] `"    (ROOT/'binding.json').write_text(json.dumps({'here':str(HERE),'entry':ENTRY,'expected':list(EXPECTED)}))\n"`
+How I know: read only.
+
+E2. Fixture 6 (the "rejects missing, extra and duplicate" test): the rejection is exercised on a function defined inside the test (`require_population`), not on the runner's check at V3 L159; the one real assertion is `actual == expected` (AST population of the two source files against the literal list). So the claim "static method population rejects missing extra and duplicate" is true of the test's own helper. Re-derived: the AST equality itself is true (static_checks.py: lists equal).
+Q[ENGC L143] `def require_population(population):`
+Q[ENGC L139] `self.assertEqual(actual, expected)`
+Q[V3 L159] `require(sorted(population) == sorted(EXPECTED), "Incomplete or changed control population")`
+How I know: read only for the by-construction part; re-derived in my own code (static_checks.py) for the equality.
+
+E3. The environment under which the fixtures were run (isolated mode, no site) is not the environment of the real run (-B only, site-packages needed for sympy). ENGR states the fixture environment correctly; the DESIGN/ENGD text does not claim the real run is isolated, but the review reader could infer it. Related: the metadata observation recorded in ENV (stdin_sha256) refers to a script that is not in the packet, so "scientific_modules_loaded: []" cannot be re-run from the packet; it is the lane's own report.
+Q[ENGR L2] `runtime with isolated mode, bytecode disabled and site startup disabled.`
+Q[ENV L27] `"stdin_sha256": "0295b8c8cbb7522dc806a110c9cd2e8#decdd325603f4096be473350bbd33",`
+How I know: read only; I listed the folder (no stdin script among the files).
+
+E4. Outcome fields typed by the lane: `"source_unchanged": true` and `"all_eight_fixtures_passed": true` are booleans in a JSON the lane wrote; the capture hashes in OUT are consistent with the pinned blobs (stderr sha256 and size 1234: I checked the blob size with git cat-file -s without printing contents; stdout is empty, size 0, the sha256 of the empty string). Nothing recorded shows the source-hash check of the fixtures other than that boolean.
+Q[OUT L17] `"source_unchanged": true,`
+How I know: read only; blob sizes by git cat-file -s.
+
+E5. The wrapper claim in DES "The wrapper hash-checks the unchanged v3 runner before binding this packet" is true (RUN L28; A3). The DES claim that the expected set "comprises all eight TransportEndChecks and all five GeometricSpinSectorChecks" is true by the AST (B2). The DES paragraph "The finite controls support those arguments with their stated coverage" is the honest statement; names such as "all_word", "faithful", "index_cancellation" in method names say more than the finite controls show (C4, C6, C13). ENGR does not claim anything about the thirteen methods ("remain unrun").
+Q[DES L12] `The expected set is the literal thirteen identifiers in run_checks.py,`
+Q[DES L36] `finite controls support those arguments with their stated coverage. They`
+Q[ENGR L23] `The thirteen mathematical methods remain unrun, unimported and uncollected.`
+How I know: read only.
+
+---------------------------------------------------------------------------------------------
+## Caveats (each one sentence; B = blocking, N = not blocking)
+
+1. (B for the stated reading, N for the run) A pass of the thirteen methods does not test that the compensators are automorphisms of the 248-dimensional E8 algebra: a sign flip on the spinor modules passes C2 to C4 and C6 (plant_sign.py).
+2. (N) Methods C8 and C12 end in vertex-normalisation checks in which the length and coupling factors cancel by typing, so they cannot confirm that normalisation.
+3. (N) C13 does not compute an index; the word "index_cancellation" in its name must not be read as a result.
+4. (N) C5 is mostly typed arithmetic and C9 is mostly typed arithmetic and a standard identity; only a typo in the typed numbers can fail them.
+5. (N) C6 tests five words and three moves, not "all words".
+6. (B unless the run is in a fresh clone with no untracked or ignored file and no PYTHONPATH) The wrapper's clean check sees tracked files only and the run is not under -I, so a shadow module or a stale .pyc is not detected (D4).
+7. (N) Review and acceptance objects are bound only in form: booleans and the string "main" in JSON, and ancestry of the acceptance commit in a local tracking ref; main's own acceptance commit is the control (D2, D3).
+8. (N) 43 of 64 pinned hashes and the interpreter and package versions were partly or wholly masked to me; the wrapper re-checks them in full at admission (A2, B6).
+9. (N) No timeout or memory bound on a run of exact sympy over 150- to 248-dimensional matrices; an operational failure is not a false pass (D8).
+10. (N) The engineering fixtures test a sentinel in place of the real V3 runner and one fixture tests its own helper (E1, E2).
+11. (N) I did not read the thirty gate bodies in gates.py, scripts/checks/*.py, scripts/views/generate.py, nor the seven proof inputs; admission also depends on them (D6).
+12. (N) C10 and parts of C11 and C13 are symbolic computations with undetermined functions that I did not re-derive; I read them for design only.
+
+## Proposed verdict
+
+APPROVE_EXECUTION with the caveats, on the condition of caveat 6 (fresh clone with nothing untracked or ignored, PYTHONPATH unset, the specified Python and package versions) and on the reading restriction of caveats 1 to 5: a pass is to be recorded as "the thirteen exact finite controls pass", and not as faithful compensator action on E8, all-word covariance, canonical vertex normalisation, or index cancellation. No unresolved finding makes the execution unsafe or the gate fail open; the unresolved findings concern what a pass would mean.
+
+---------------------------------------------------------------------------------------------
+## F. The lane's own review (read after sections A to E were written)
+
+Key LANE = JOINT/review/INDEPENDENT_EXECUTION_READINESS_2026_11_07.md at commit 6f35dfefdabc9a6f932b27699cd02cb6863623cf (read with the mask, after sections A to E were fixed). Its REVIEW.json (same folder) is read too; its pinned specification hash f5390767...4238 equals the blob hash of SPECIFICATION.json at the sealed commit (I computed it without printing contents); 6f35dfef is an ancestor of the branch head.
+
+Where the lane's review agrees with me:
+- 62 artifact pins plus design and specification = 64 files, all matching; roles 42 input, 18 source, 2 test (I counted the same roles in SPEC: 42, 18, 2). (A1)
+- The import closure is the same chain: wrapper, v3 runner, tracked_state, strict gate, prospective, gates, provenance policy; bridge, geometric, transport, register, neutral. (B4)
+- The AST population equals the literal tuple in order, 13 distinct; the bridge has no load_tests hook and exports only the two classes. (B2, B3)
+- Gate order: runtime checks, tracked-state, strict subprocess, command and output population, custody, outputs reserved, import. (B1)
+
+Where it differs or says less:
+- It makes no assessment of what any of the thirteen methods computes or whether it can fail; it states that no CAS or numerical calculation was made. The classification of section C, the planted-sign result (C4) and the by-construction blocks (C8, C11, C12) have no counterpart in it.
+Q[LANE L11] `no CAS/numerical calculation was made`
+- It lists fixture 6 as showing that missing, extra and duplicate populations are rejected; I find that the rejection is exercised on a helper defined inside the test, not on the runner's own check (E2).
+Q[LANE L81] `6. The literal expected population matches the scientific AST, with missing, extra and duplicate synthetic populations rejected.`
+- It says the sole command "uses `python3 -B`" and treats the clean-checkout requirement as sufficient; it does not mention that the clean check sees tracked files only, that the run is not under -I or -S, or the pycache and sys.path[0] exposure (D4).
+Q[LANE L60] `The sole declared command uses `python3 -B` and this joint wrapper, with the packet-local `ADMISSION.json` and the exact `results/attempt_01.jsonl` and `results/attempt_01.log` arguments.`
+- It reads the acceptance/review binding as "not replaced by an author status flag"; I find that the review and acceptance objects are themselves typed JSON flags checked for form only (D2).
+Q[LANE L52] `Thus the required separate review/main acceptance are not replaced by an author status flag or a synthetic fixture result.`
+- It states the finite controls do not replace the analytical arguments (its L56), which is the same reading as my caveats 1 to 5, but names no specific control gap.
+- Its verdict is APPROVE_EXECUTION at the source layer with an empty unresolved list; mine is APPROVE_EXECUTION with the caveats above and a reading restriction. The two agree on the layer (source completeness and binding); they differ in that mine lists what a pass would not mean.

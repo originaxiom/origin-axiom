@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p TWO SEALED PACKAGES OF CHECKS FROM ANOTHER LINE OF WORK ARE NOT ACCEPTED AS SEALED: CUSTODY HOLDS, THE MATHEMATICS HOLDS AS READ, AND THREE CHECKS WOULD PASS FOR MORE THAN THEY TEST (B1907; P-746 DONE; R80-6, at its fourth carry, resolved) (2026-11-13)
+
+- **B1907:** the physical lane's two execution packets, reviewed by main through its mask with four read-only readers of its own, are refused as sealed, with their findings. Custody: 63 of 63 and 41 of 41 pins. The mathematics: 64 table rows re-derived, none failed. Three substantive findings, and seven items a reseal needs. Main departs from B1787's precedent on purpose, and says so.
+- **The lock** recomputes custody from the sealed commits (a commit, not the moving branch), sees a planted changed hash, and holds the page to the kept quotation checks (computed once through main's mask, which is not in the tree). One count the draft had left out is now on the page: 13 of the 35 free quotations in packet 1's mathematics review are not found and were not examined one by one.
+- **To the lane (its page, M5):** the decision, the three findings and the seven items.
+- NO OTHER ARC LANDS. 0 of 19.
+
 ## S306p THE ROOT OF THE REPOSITORY IS CLEARED OF NOTES AND STRAY RESULT FILES, BY THE RULE FOR MOVING A FILE OF THE RECORD, USED FOR THE FIRST TIME (P-838; GOVERNANCE section 12; docs/REORGANIZATIONS.md) (2026-11-13)
 
 - **What moved:** three notes between sessions of July and September are removed from the tree, at the owner's word that git's history keeps them (the last commit to hold them is `5e7f335c9`, and the relay ledger cites it); the consolidation audit of May to `docs/archive/AUDIT_REPORT.md`; three result files into the folders of the arcs that made them (B1116, B1126, B1133), two of them named as runs made from the root. Two more result files were byte-for-byte copies of their arcs' kept outputs and are removed; git keeps them.

@@ -1,0 +1,248 @@
+# Packet 1, the mathematics: review of the seven target proofs and their six companions
+
+Reviewer: read-only mathematics reader for main. Sealed commit bda89f04a94d09217551cef96056f375b21c260b. All lane files were read only through `audit/physical_digest/mask_min.py`; no code of the packet was imported, collected or run; no physical value was computed or compared. Scripts of my own are in this folder (`s01`..`s07`, with `sNN_out.txt`). Quotations were machine-checked against the mask output at the stated lines (`quotes.py`, `check_quotes.py`: 63 of 63 found, each one line, each at most 200 characters). Line numbers are the mask's. A `#` in the mask is a hidden digit; where one blocked a check I say so.
+
+Paths below are abbreviated: `P` = `reports/physical_bridge_2026_09_05/`, `A` = `P`+`word_architecture_audit_2026_10_17/`.
+
+Labels used: **[re-derived: script]** my own code; **[hand]** my own algebra by hand, no script; **[followed]** argument read and each step followed, named theorem; **[not checked]**.
+
+## 0. Summary
+
+All thirteen documents read in full (every line of each mask printout; none read in part). No error that breaks a derivation was found. Every finite-algebra identity that could be isolated was re-derived and passed (see the table). Findings are conventions or presentation that the mask or the text leaves ambiguous (section "Errors and gaps": 0 blocking, 9 not blocking). Two things are load-bearing and rest on text I could not see in full: the Spin(10) torus vector `x` (the mask shows 4 of 5 entries) and the chirality pairing of `C` with the `(16,4)` factor; both were reconstructed and the reconstruction passes every relation, but that is a reading, not a quotation.
+
+## 1. P/weave_curved_action_2026_10_08/PROOF.md (priority 1; read in full, lines 1-244)
+
+**Hypotheses stated.** Supplied: metric g=Omega^2(dx^2+dy^2), compact E8, coupling g6^2, R twist, complete-domain law (lines 3-5: "Metric, compact E8, coupling, R twist and complete-domain law are supplied"). Hypotheses used without being stated: (a) that the gauge kinetic normalisation is such that the D-term energy is mu^2/(2 Omega^2) (stated as a consequence at 82-84, not derived from a gauge kinetic term written out; it is *fixed* by the flat-limit check below, so it is self-consistent); (b) that the "positive trace kappa" is the same on A, q, r (line 11-13).
+
+**Load-bearing identities, in order.**
+
+1. Eq.35 reduction: the derivative part (1/2)Tr(r dq - q dr) = -Tr(q dr) + (1/2) d Tr(qr) [hand]. The cubic coefficient "6 Tr(Phi1[q,r])" and the connection change A_conn=-Phi1/sqrt2 rest on the published factors of arXiv hep-th/0101233 eq.35: [not checked] (external source). Internal consistency of the result with W below: [hand], sign and the constant phase are acknowledged at lines 96-98.
+2. Spin-block moment map (line 73-81, quote C2 below is the potential): Kahler form i Omega dq^ ^ dqbar, gauge tangent i[eps,q], gives i_k omega = -delta tr(eps Omega [q,q^dagger]) [re-derived: s01_curved_action.py, residual 1e-15 for a random complex q, dq, eps]. The connection block: omega = dA_x ^ dA_y from G=(1/2) dA^dagger dA, and i_k omega = -delta<eps,F> up to the surface term [hand]. So mu = F + Omega([q,q^dagger]+[r,r^dagger]) (line 76; quote C2: `+ (1/(2 Omega^2))|F+Omega([q,q dagger]+[r,r dagger])|^2).`, line 118).
+3. W and its variations (quote C3: `W = (1/2) integral dxdy kappa(q Dbar_A r-r Dbar_A q).`, line 89): delta W bulk = delta q Dbar r - delta r Dbar q - i delta A [r,q]; surface pairing (-i/2) kappa(q delta r - r delta q) dz; the relation W = integral q Dbar r + (i/2) oint kappa(qr) dz; Stokes integral Dbar f dxdy = -i oint f dz [hand; Stokes re-derived: s01, exact sympy zero on the unit square for a generic f].
+4. Potential (line 115-118) from G^{I Jbar} W_I Wbar_J + D-term: Omega^-1(|Dbar q|^2+|Dbar r|^2) [from W_q=Dbar r, G_qq=Omega], 2|[q,r]|^2 [from W_A=-i[r,q], G_AA=1/2, inverse 2], (1/(2 Omega^2))|mu|^2 [hand]. Coefficient 2 and 1/2 are not independent inputs: they are forced by identity 5.
+5. Flat identity (quote C1, line 136): (1/2)kappa(M^2)+2|[q,r]|^2 = (1/2) sum_{I<J}|[X_I,X_J]|^2 with q=(X1+iX2)/sqrt2, r=(X3+iX4)/sqrt2 [re-derived: s01, 20 random Hermitian 4x4 quadruples, max difference 4.5e-13; dropping [q,r] leaves a difference of 135, so the "dropping [Q,R] fails" statement is true]. Cross term: integration by parts of |D_1 q + i D_2 q|^2 gives -kappa(F [q,q^dagger]) [hand, with [D1,D2]=-i ad F], cancelling the cross term F.M of (1/2)(F+M)^2; remaining flat energy is the reduced Yang-Mills one with coefficients (1/2,1/2,1/2) [hand]. This is the strongest consistency check in the proof: it fixes the relative normalisation of the three potential terms and of the moment map.
+6. Curved frame: nabla = d + i s - i ad A with s_x = (d_y sigma)/2, s_y = -(d_x sigma)/2; ds = -(Delta sigma)/2 = (Omega^2/4) R_scalar (quote C4, line 161) [re-derived: s01, sympy zero for arbitrary sigma(x,y), using K=-Delta sigma/Omega^2, R=2K]; Dbar(Omega^{1/2} f) = Omega^{1/2}(nabla_x + i nabla_y) f and [nabla_x,nabla_y] = i ds [re-derived: s01, sympy zero]. Hence Omega^-1|Dbar q|^2 dxdy = |(nabla_x+i nabla_y) f|^2 dxdy, whose cross term after integration is +ds|f|^2 = (R/4)|qhat|^2 dvol [hand]: the text's "(R_scalar/4)(|qhat|^2+|rhat|^2)" (line 163) is correct, including its sign. The patch control q=x+iy: rough energy 2, boundary current -2, Dbar q=0 [hand].
+7. Cubic vertex: A=E12, q=E31, r=E23 gives Tr(q[A,r])=1 (quote C5, line 183) [re-derived: s01, gives 1.0].
+8. Domain: cutoff estimate, boundary error <= const ||d chi_T||_inf ||q||_L2 ||delta r||_L2 (lines 196-200). Followed: the pairing integral |q||delta r| dxdy is bounded by sup(Omega^-1) times the weighted L2 norms, and Omega^-1 times the coordinate derivative of chi is the physical |d chi|_g, so the bound is in invariant norms; exhausting cutoffs with |d chi_T|_g -> 0 exist on a complete finite-area cusp [followed; not a theorem for weak nonlinear solutions, as the text itself says at 201-203].
+9. Weyl sequence (lines 228-232): the number 10/L^2 is the Rayleigh quotient of psi=t(L-t) for -d_t^2 on [0,L] [re-derived: s03_complex.py, sympy `10/L**2`]. It is a quotient of the squared operator, not a "residual" of the first-order operator (that would be sqrt10/L); see finding F-8.
+
+**Errors.** None that break the derivation. F-8 (wording).
+
+**Tested by which method (names from run_checks.py / the two DESIGN files).** None of the thirteen names a test of this proof's action, moment map or potential. The curved action enters methods 7, 8, 10, 11 only as the "source mass formula" and source triples that they reuse. Identities 2-9 are untested by the thirteen.
+
+## 2. P/weave_physical_mass_2026_10_08/PROOF.md (priority 1; read in full, lines 1-265)
+
+**Hypotheses stated.** Lines 1-6: supplied metric, spin line, embedding, action, domain; backgrounds are stationary saddles at nonzero integer flux. **Used without being stated:** (a) the weight set of each principal module V_k (the table needs m=-k..k in steps of one; see F-3); (b) the metrics of the target bundle (the text lists "(Omega^#/2,Omega,Omega)" for four fields, F-1) and the third entry of the C2 metric (F-2).
+
+**Load-bearing identities, in order.**
+
+1. Hessian of W: W2(x)=integral kappa(u Dbar v + i a([q,v]-[r,u])) (quote C6, line 19) and the dual coefficients (i t, p2, -p1), p1=Dbar u+i[q,a], p2=Dbar v+i[r,a], t=[q,v]-[r,u] [re-derived: s02_mass_index.py: directional derivatives of the algebraic part match the three dual coefficients to 7e-9; the derivative part u Dbar v gives Dbar v and -Dbar u by integration by parts, hand].
+2. D0 and its adjoint D0^dagger x = -[Dz a - 2i Omega([q^dagger,u]+[r^dagger,v])]/(sqrt2 Omega^2) (lines 35-37): re-derived with h1=diag(1/2,Omega,Omega) on the source and h0=Omega^2 on the target [hand] and the commutator part by [re-derived: s02, 7e-15].
+3. Mass map rows (line 51) and M = Uout T Uin (quote C8, line 108): I recomputed Uout T Uin symbolically row by row [hand]: with sigma=i Omega^2 lambda/sqrt2 and D2^dagger sigma = ((2/Omega)[r^dagger,sigma], -(2/Omega)[q^dagger,sigma], -Dz(Omega^-2 sigma)) the rows 2,3,4 come out as 2i t + sqrt2 Dz lambda, p2/Omega - sqrt2 i [q^dagger,lambda], -p1/Omega - sqrt2 i [r^dagger,lambda], exactly the text's. D2^dagger itself: derived from D2(p1,p2,t)=Dbar t - [q,p2] + [r,p1] (two_neutral line 74) with metrics (Omega^-1, Omega^-1, 2) on C2 and 2 Omega^-2 on C3: gives exactly the three entries of lines 98-101 [hand]. Unitarity of Uin: |Uin lambda|^2 in 2Omega^-2 = Omega^2|lambda|^2 [hand]; of Uout: |2 i t|^2 (1/2)=2|t|^2 matches the C2 weight 2 [hand].
+4. Complex identities D1 D0 = 0 and D2 D1 = 0 (two_neutral lines 78-79): the Leibniz/Jacobi computation needs [q,r]=0 and Dbar q=Dbar r=0 and reduces to -i[[q,r],a] and -i[[q,r],eps] [hand]; the algebraic remainders vanish for commuting q,r [re-derived: s03_complex.py, 2e-15].
+5. Index table: J(a)=h(b(a))-h(b(2-a)) (quote C11, line 179), I(beta)=2J(1-beta)-J(-beta)-J(2-beta) = 0 at beta=0, = -sign(beta)(-1)^beta otherwise [re-derived: s02, exact integer check for beta=-60..60, no mismatch]. The "independent" count h0(2+beta)+2h0(1-beta)+h0(beta) minus h0(-beta)+2h0(1+beta)+h0(2-beta) equals I(beta) for all beta=-60..60 [re-derived: s02; note it is an algebraic rearrangement of the same J, not a second derivation].
+6. Net multiplicity table (quote C9, line 205, and rows around it): summing I(m+2nq) over the weights m=-k..k of each module listed (q=1:V2; 2:V1+V3; 3:V1+V3; 4:V2; 5:V0; 6:V2) reproduces all three rows (n>=2, n=1, n=0) and the sign reversal for n<0 [re-derived: s02]. The module assignment itself (5_b = V2, 10_b = Lambda^2 V2 = V1+V3, 24_g block V0) and the charge assignment (10_g charges {-4 x3, 1 x6, 6}, 24_g non-neutral +-5) [re-derived: s02]. With the weight set m=-2k..2k step 2 the table is NOT reproduced (row n>=2 would be -4,-10,-10,-5,-1,-5): see F-3.
+7. Anomaly coefficients (quote C10, line 237): with reps q=1:(3,2), 2:(bar3,1), 3:(1,2), 4:(3,1), 5:(bar3,2), 6:(1,1) (deduced from the Z-eigenvalues (-2,-2,-2,3,3) on 5_g; consistent with the table lines 165-172), the formulas of lines 227-234 give (-3,-6,-6,-1008,-30) for n>=2 and (-1,-5,-9/2,-1002,-24) for n=1 [re-derived: s02, exact Fractions]. The conclusion drawn from them (lines 251-256) is correctly scoped: perturbative diagnostic only.
+8. Relation to the two-neutral table: ind T_q = dim(rep) x net multiplicity: (6,3,2,3,6,1) x (-1,2,2,-1,-1,-1) = (-6,6,4,-3,-6,-1) [re-derived: s03]; matches quote C13.
+9. Statement (lines 62-65): no fermion mass term proportional to the nonzero D moment: standard for rigid N=1 (D enters scalar masses only) [followed; Martin cited, external, not checked].
+10. Ind M_R = left R zero modes - left conj(R) zero modes via B_q(p)=B_dual(-p)^T (lines 127-133): [followed]; the Fredholm/domain extension (lines 139-152) is by unitary isometries between weighted bundles with equal graph norms [followed].
+
+**Errors.** F-1 (densities list), F-2 (C2 metric), F-3 (weight set), F-4 (symbol collisions: h0 is the C0 metric at line 81 and the function h0(a) at line 197; q is the field and the charge). All not blocking.
+
+**Tested by which method.** Method 10 (`test_complete_curve_mass_and_action_transport`) reconstructs "every row from the actual source operator" and compares entries including "the gaugino transpose couplings": it covers identity 3's rows (as the transport target). Methods 1 and 4 treat the root/charge data feeding identity 6's module assignment. **No method tests:** the factorisation M=Uout T Uin itself as an operator identity with the metrics (identity 3), the adjoint D0^dagger with the h-metrics (2), the index function and table (5, 6), the anomaly coefficients (7), the Fredholm claim.
+
+## 3. P/weave_two_neutral_index_2026_10_08/PROOF.md (read in full, lines 1-283; not in the priority list but needed for 2)
+
+Hypotheses stated at 3-5. Identities re-derived: V2 Hessian = |D0^dagger x|^2+|D1 x|^2-k|x|^2 (quote C12, line 90): the pointwise algebra |W|^2 = G^2 + M1^2 with W = D.a + i f1 - 2 i Omega Y, G, M1 Hermitian [re-derived: s03, 1e-12], and the moment soft term m0 M2/Omega^2 = -k(|a|^2/2 + Omega|u|^2 + Omega|v|^2) using -i[a_x,a_y]=(1/2)[a,a^dagger] [re-derived: s03]. Block B=[[d_t+delta,b],[-b,-d_t+delta]]: B^dagger B = -d_t^2+delta^2+b^2 [re-derived: s03, sympy], so with delta a nonzero half-integer the threshold is >=1/4 (the proof's claim at 161-162; the half-integrality follows from "m-h even" and integer k, [hand]). Index table (quote C13, line 207) [re-derived: s02/s03]. H3=0 for d != 0: D2^dagger's first component is proportional to [r^dagger,sigma] = conj(d psi) q sigma on the charge-q block, nonzero pointwise [hand]. "At least 6 and 4" modes (quote C15, line 233) follows from the table's positive entries [hand]. The counts 50 and 10 and the "Morse" statement: not checked (earlier proof).
+Findings: F-2, F-3 (resolved here at line 126: m=-j..j), F-4. The hypotheses "psi nowhere zero" and "minimum nonzero frequency 1/2" are cited to earlier proofs: [not checked].
+
+## 4. A/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md (priority 2; read in full, lines 1-167)
+
+**Hypotheses stated.** Lines 5, 16-18: supplied parent, flat flavour holonomy rho(a)=Fi, rho(b)=Fj, the companion's gauge representation K. **Used without being stated:** the sl2 normalisation of H, E, G: the cancellation (2)-(1) only works if [H,E]=2E with [E,E^dagger]+[G,G^dagger]=2H, while the text says "common H-weight one of E and G" (quote E7, line 30). See F-6.
+
+**Identities.**
+1. Stationarity: with qhat=E/(2 sqrt2 ell), rhat=G/(2 sqrt2 ell) (eq. 2), [qhat,qhat^dagger]+[rhat,rhat^dagger]=H/(4 ell^2) (quote C21, line 41) iff [E,E^dagger]+[G,G^dagger]=2H. With E=E_++E_-, G=E_+-E_- and [E_+-,E_+-^dagger]=H_+-, [H,E]=2E this holds [re-derived: s04_compensators.py, explicit 10-dim rep: 1.8e-15; [E,G]=0 exactly]. The curvature half: ds=-dvol/(2 ell^2) (from identity 6 of section 1 with R=-2/ell^2), A_spin=sH/2 gives F_spin=-H dvol/(4 ell^2) and cancels the +is term of nabla on weight-2 fields [hand]. So the residual F/dvol + M = 0 holds, under the reading [H,E]=2E.
+2. Peripheral transitions (3): P(Zeta P)=Zeta P^2=Zeta [hand]; table: Zeta = +1 on 120 and -1 on 128, 120+128=248, 120=(45,1)+(1,15)+(10,6)=45+15+60 and 128=(16,4)+(16bar,4bar)=64+64 [re-derived: s02 arithmetic].
+3. Centraliser free channel: M_spin(u,v)=(i d_t v, -i d_t u), M_spin^dagger M_spin=-d_t^2 I2 (quote C22, line 103) [hand: M is anti-self-adjoint, M^dagger M=(i d_t)^2]; Weyl sequence u_L=L^{-1/2}chi((t-L^2)/L): ||M u_L||=||chi'||/L (quote C23, line 113) [hand: ||d_t u_L||^2=||chi'||^2/L^2]; support escapes since centre L^2->inf [hand]. Decoupling from lambda, a and from the other fields: the T-component of [q^dagger,lambda'] and [r,a'] vanishes because q,r lie in (45,1) and T in (1,15) [hand].
+4. Confining estimate sketch (section 6): completing the square a^2 - C a >= a^2/2 - C^2/2 with a=|nu|e^t [hand].
+5. Quantifier (line 5, 117): the conclusion is expressly not a no-go beyond the stated hypotheses [followed].
+
+**Errors.** F-6 (unit of H). No blocking error.
+
+**Methods.** 7 (`test_stationary_gluing_and_full_peripheral_table`: residuals, table), 8 (`test_actual_centralizer_mass_and_escaping_channel`: identities 3). Not tested by any method: the section-6 confining estimate as stated here (it is tested in the coercivity method 11), the section-7 variational-law domain argument.
+
+## 5. A/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md (priority 2; read in full, lines 1-160)
+
+**Hypotheses stated.** Lines 5, 16-18, 38-54: compact D5 embedding in E8, simply connected Spin10 faithful; A defined by the torus element with logarithm x. **Used without being stated:** (a) the chirality pairing of C with the 16 in (16,4) (F-5b below); (b) the full vector x: the mask shows only four of five entries (F-5).
+
+**Identities (all [re-derived: s04_compensators.py] unless noted).**
+1. 2x - (-H5/4) = (-1/2,...,-1/2) with x=(1/4,0,-1/4,-1/2,-3/4) and H5=(-4,-2,0,2,4) [exact Fractions]: gives A^2=C^-1 P, A^4=Zeta, A^8=1 (quote C16, line 69), using that an integer vector t has exp(2 pi i t)=1 in Spin10 iff its coordinate sum is even. 4x=(1,0,-1,-2,-3) has sum -5, odd: A^4=Zeta [exact]. P^2: coordinates (2,1,0,-1,-2) sum 0, even: P^2=1; also in the other frame (4,2,4,2,0) [exact]. Parity is Weyl-invariant, so the two frames agree.
+2. exp(i pi H_-) has log (2,1,0,0,0), sum 3, odd: equals Zeta, hence D^2 = exp(-i pi (H_+-H_-)/2) = P exp(i pi H_-) = Zeta P, D^4=1 [exact].
+3. A D A^-1 = D^-1 (conjugation by N swaps H_+ and H_-): [re-derived on the explicit vector rep: 0.0]. In Spin10, conjugating an exponential exp(X) by any lift of an SO(10) element is exp(Ad X), so (2) holds exactly, independent of the lift sign [hand].
+4. B^2=A^2=C^-1 P, (AB)^2=P, [A,B]=D^-2=Zeta P (quote C17, line 88) [hand from (2), with C central in Spin10 and P commuting with D; checked in the abstract group: s04] and on the vector rep: A_vec^2=B_vec^2=-P_vec, (A_vec B_vec)^2=P_vec, [A_vec,B_vec]=P_vec [explicit matrices: 5e-16].
+5. Group order and type (quote C18, line 107): normal forms D^j A^i with multiplication (j,i)(l,k)=(j+(-1)^i l, i+k mod 8); associativity checked on all 32^3 triples [re-derived: s04]; <D> meets <A> trivially because D^2=Zeta P differs from every even power of A (A^2=C^-1 P, A^4=Zeta, A^6=C P) and D has no odd-power partner of order 4 [hand + s04]. Vector image has order 16 with 12 elements of order 4 and two distinct squares [re-derived: s07_vector_group.py on the explicit matrices], so the "Q8 x {+-I10}" label is wrong, as the text says (quote C19, line 100): in Q8 x C2 all order-4 elements have the same square. The D5-adjoint quotient by <C> (C=A^2 D^2 in the group) has order 8 and orders (1,2,4x6): Q8 [re-derived: s04]. Hom to Q8, A->Fi, D->Fk, kernel <C> of order 4 [re-derived: s04]; image of B is Fj.
+6. Adjoint actions (quote C20, line 119): Ad_A(E,G)=(-iE,iG), Ad_D(E,G)=(-iG,-iE), Ad_B(E,G)=(-G,E) [explicit matrices: 1.5e-16, 3e-16], and rho(gamma) Ad_K(gamma) Phi0 = Phi0 for gamma=a,b with Fj=[[0,1],[-1,0]] (the mask hides Fj's entries; this is my reading, and it is the only reading with Fj^2=-1, FiFj=-FjFi, FiFj=Fk) [explicit: 3e-16].
+7. C on E8 pieces: C=exp[2 pi i (1/2,...,1/2)] acts -1 on the 10, +-i on the two 16's, trivially on roots; Zeta=C^2 is -1 on the 128 and +1 on the 120 [hand; the "+i or -i according to chirality" is quote E6, line 61].
+
+**Errors.** F-5 (vector x truncated; reconstruction passes), F-5b (chirality pairing unstated). None blocking. The "Q8" correction at lines 98-109 is **correct** (I confirm the lane's own correction independently).
+
+**Methods.** 1 (identity 1, 2, 7), 2 (3, 4 on the spin rep), 3 (5), 6 (identity 6, free-group transport (6)-(7) of the text, which are tautological once 6 holds). **Untested by any method:** the claim at lines 143-149 that (7) is a left action and covariant (a short calculation, which I did not re-derive by script: [hand: (e,f) -> K composed psi^-1 composed phi^-1 = K composed (phi psi)^-1, g h]).
+
+## 6. A/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md (priority 2; read in full, lines 1-128)
+
+**Hypotheses stated.** Lines 5, 22, 123-127: the supplied parent; Hain's and Vidussi's theorems used as sources; the chosen generator convention. Unstated: that the lattice of constant J, g_e along a fibre is compatible with the family (stated at 77: derivatives in tau are outside the operator).
+
+**Identities.**
+1. Densities (eq. 5, quote C31, line 83): Omega'=|J|Omega, d^2w'=|J|^-2 d^2w, hence Omega'^2 d^2w'=Omega^2 d^2w, |Jbar|^2 d^2w'=d^2w, Omega'|j_e|^2 d^2w'=Omega d^2w using |j_e|^2=|J| [hand, exact].
+2. W integrand scaling j_e^2 Jbar = |J|^2, cancelled by d^2w'; moment scales by |J|^2 like F_xy [hand].
+3. Rowwise intertwiner (6)-(7) (quote C32, line 94): row 1: Dz'a' and Omega' q^dagger u' both acquire |J|^2, cancelled by Omega'^2; row 2: t acquires j_e^2 det(g_e)=J, Dz'lambda'=J Dz lambda; rows 3-4: Jbar j_e/|J|=conj(j_e) (since J=j_e^2) and epsilon g_e = conj(g_e) epsilon for g_e in SU(2) [hand, exact].
+4. B3/<Delta^8> = Mp2(Z), Delta=l r^-1 l maps to S, Delta^4 to 1 in SL2(Z) [re-derived: s06_theta_register.py, matrices]; Delta^4=(I_c,+1)=epsilon J_c, rho(c)=-1 [re-derived: s06, c=a b^-1 a^-1 b with a=i, b=j]; Omega meets J(F2) in <Delta^8> [hand from the previous].
+5. The sign-character statement (line 63): S^4=1, S^2=(ST)^3 force s=t on a +-1 character, so exactly two [hand].
+6. Hain's exact sequence and Vidussi's identification PMod(S_{1,2})=Aut+(F2): [followed at the level of the five-lemma argument given in lines 34; external theorems: [not checked]]. Several digits hidden by `#` in lines 24-38; the argument is structurally the five lemma on 1->F2->G->SL2(Z)->1 versus 1->Inn(F2)->H->SL2(Z)->1.
+
+**Errors.** None. Tied to F-1 (the density list at line 85 is the four-entry one that is consistent with the rest).
+
+**Methods.** 9 (`test_geometric_spin_pullback_and_based_group_scope`): identity 4, "inherited Mp2 composition, epsilon, natural inner lifts, Delta^4"; 10: identities 1-3 (with generic constant J, j^2=J). Untested by any method: 5; the five-lemma isomorphism (explicitly left to proof review in the design).
+
+## 7. A/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md (priority 2; read in full, lines 1-81)
+
+**Hypotheses stated.** Lines 5, 9-13: the actual 128 sector, representation R of surviving U3, odd cusp covering degree (line 64). **Unstated:** that the bounded Higgs terms are small enough relative to the confining bound (they are bounded, the bound diverges: fine).
+
+**Identities.**
+1. Bounded comparison (2): (u,v) -> (Omega^-1/2 u, Omega^1/2 v) is pointwise isometric from B (metric Omega^-1 I2) to O+K (metric diag(1,Omega^-2)) and determinant-preserving [hand: Omega^-1|u|^2+Omega^-1|v|^2 on both sides; det Omega^-1/2 Omega^1/2 =1]; with Omega=e^-t the log-derivatives are constant [hand].
+2. Existence of the unit section over the core: obstructions live in pi_k(S^3), zero for k<=2 [followed: standard obstruction theory].
+3. Four-slot cancellation (3)-(5): ind M_R = -chi(V_R) - chi(V_R tensor K) + chi(V_R tensor B) = 0 given chi(V tensor B)=chi(V)+chi(V tensor K) (quote C33, line 48; quote C34, line 54). The signs: Dz on the slot a in V tensor Kbar is the adjoint of Dbar on V (index -chi(V)); Dz lambda on V tensor K tensor Kbar to V tensor K is the adjoint of Dbar on V tensor K (index -chi(V tensor K)); the spin pair is Dbar on V tensor B [followed, consistent with mass-proof rows]. The same bookkeeping on the old parent is 2J(1-beta) - J(-beta) - J(2-beta)=I(beta), i.e. chi(V tensor (S+S)) - chi(V) - chi(V tensor K) with V=S^-beta, which is the control of section 4 [re-derived: s02]. With beta=1: I(1)=+1, so the control "its value is +#" is +1 [re-derived: s02].
+4. The Fredholm homotopy (zero Higgs, connection interpolation) rests on the coercive end of CONFINED (section 8): [followed]; Fredholm continuity under bounded zeroth-order perturbation with diverging lower bound is standard [followed].
+
+**Errors.** F-4 (J is the bundle isomorphism at line 19 and the index function at line 62 of the same file). Not blocking.
+
+**Methods.** 13 (`test_bounded_end_split_and_four_slot_index_cancellation`): identities 1 and 3. Untested: 2, 4 (declared proof-review duties).
+
+## 8. A/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md (read in full, lines 1-91)
+
+1. Unitary change (1): densities lambda: e^-t (=Omega^2 dxdy with dy=e^t dt), a: e^t/2, u,v: 1 [hand, from y=e^t, Omega=e^-t]; lambda=e^{t/2}L, a=sqrt2 e^{-t/2}A [hand].
+2. Rows of M0 (quote C24, line 35): re-derived by hand from the rows of the mass proof with Dz=d_x - i d_y, Dbar=d_x+i d_y, d_y=e^-t d_t, and target density rescalings e^{-t/2} (row 1) and e^{t/2}/sqrt2 (row 2): row 1 = i(d_t - k e^t - 1/2)A; row 2 = -i(d_t - k e^t + 1/2)L; rows 3,4 = +-i(d_t + k e^t) [hand, all four]. (Also consistent with D0^dagger's formula in the mass proof.)
+3. ||(d_t+h)f||^2=||f'||^2+integral(h^2-h')|f|^2 and the (-d_t+h) variant [re-derived: s03 by parts, exact B^dagger B]. The four potentials k^2 e^{2t}+1/4 +-2k e^t and k^2 e^{2t} +- k e^t follow by substitution [hand]; each is >= k^2 e^{2t}-2|k|e^t; r^2-2r >= r^2/2-2 since r^2/2-2r+2=(r-2)^2/2 [hand] (quote C25, line 61). (5): ||(D0+V)psi||^2 >= ||D0 psi||^2/2 - ||V psi||^2 gives pi^2 e^{2t}/4 - 1 - C_V^2 (quote C26, line 70) [hand].
+4. Compact resolvent from (5)+cutoff+Rellich [followed; standard]. The Zeta^m statement for covers (line 82): Zeta has order 2, so Zeta^m is +-1 as m is odd or even [hand].
+
+**Errors.** None. The bound uses |k|>=pi, i.e. every mode frequency k=2 pi(n+1/2) (line 27): this is what the antiperiodicity delivers.
+**Methods.** 11 (`test_all_slot_half_root_coercivity`) and 12 (`test_periodic_and_cover_parity_controls`): both listed in DESIGN.md as checking exactly these potentials and the inequalities.
+
+## 9. A/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md (read in full, lines 1-75)
+
+psi_z(t)=exp[i z(t-T)](a,a) with sigma_1(a,a)=(a,a) solves (D0-z)psi=0 (quote C27, line 28) [hand]; ||psi_z||^2=|a|^2/epsilon at z=i epsilon [hand: integral e^{-2 epsilon s} * 2|a|^2 = |a|^2/epsilon]; M_ext = i I from Gamma_1 = i b = i a [hand]. Gauge coupling: 1/g4^2 = Area/g6^2 and Area(once-punctured hyperbolic torus of curvature -1/ell^2) = 2 pi ell^2 give the g4^-2=2 pi ell^2/g6^2 quoted in GEOMETRIC line 119 [hand, Gauss-Bonnet with Euler characteristic -1]. Several operator entries are hidden by `#` at lines 9-18; the doubling argument (Hermitian involution with two eigenvalues of each sign) was followed only in structure. **Errors:** none. **Methods:** none names M_ext or the response; method 12 reuses the escaping channel.
+
+## 10. A/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md (read in full, lines 1-125)
+
+1. Pin2_x={R_alpha, R_alpha Fi}, Fi^2=R_pi=-I2, Fi R_alpha Fi^-1=R_-alpha, Fj=R_{pi/2}Fi [re-derived: s05_pin2.py]. Invariance of (|z1|^2+|z2|^2)^2+(2Re z1 conj z2)^2 under R_alpha and R_alpha Fi and its failure under a generic SU(2) element [re-derived: s05; the polynomial is the text's quoted source, not re-derived from the old discriminator: [not checked]].
+2. K_alpha=exp[-i alpha(H_+-H_-)/2]: R_alpha Ad_{K_alpha} Phi0=Phi0 for all alpha [re-derived: s05, 5e-17]; K_pi=D^2=Zeta P; A^2 = C K_pi (from A^2=C^-1 P and P=Zeta K_pi, C^2=Zeta) [hand, algebra in the group generated].
+3. h=exp(3 pi i Q_em/4) with weights (1,-1/3,-1/3,-1/3) is in det 1, h^2=-i I4 on the four [re-derived: s05]. h^2=C^-1 in E8 (eq. 5): verified on every piece of 248=(45,1)+(1,15)+(10,6)+(16,4)+(16bar,4bar): h^2 C =1 on all, using that C acts as +i on the 16 paired with the 4 [re-derived: s05, under the pairing assumption F-5b]; the lattice (coroot) statement of lines 51-59 is hidden by `#` [not checked as written]. K_{2pi}=Zeta Zeta=1 [hand, using exp(-i pi H_+) = exp(i pi H_-) = Zeta].
+4. Pin2 homomorphism (7): (R_alpha Fi)^2 = R_pi maps to (K_alpha A~)^2 = A~^2 = K_pi [hand, with A~^2=A^2 h^2=K_pi]; A~ K_alpha A~^-1=K_-alpha; Q8 relations of A~, B~=D A~: A~^2=B~^2=(A~B~)^2=K_pi, [A~,B~]=Zeta P=K_pi [hand and s04].
+5. Phase equation (8): exp(2i theta)=-i and exp(-2i theta/3)=-i give theta=3 pi/4 mod 3 pi [re-derived: s05]; two values in the 6 pi circle differ by exp(3 pi i Q_em), which is -1 on the (16,4)+(16bar,4bar) and +1 elsewhere: Zeta [re-derived: s05]. The period 6 pi follows from charges 1, 2/3, -1/3 and also 4/3 (the adjoint of A3), which the text omits (quote E9, line 100; harmless: F-9).
+6. The end statement (line 116): spin sign -1 times Hol_F eigenvalue lambda gives -lambda; zero angular frequency iff lambda=-1 [hand].
+
+**Errors.** F-5b, F-9. None blocking.
+**Methods.** 4 (`test_full_pin2_correction_and_retained_gauge_sectors`) and 5 (`test_continuous_stabilizer_and_phase_constraint`): identities 1, 4, 5 (design names the same objects and the "t=exp(2i theta/3)" form of 5).
+
+## 11. A/GEOMETRIC_THETA_REGISTER.md (read in full, lines 1-259)
+
+The R and v definitions are hidden by `#` (lines 138-140). From the pattern and the stated laws I reconstructed R=(-theta_2(0)^2,-theta_4(0)^2, i theta_3(0)^2)/d, S_r(z)=theta_r(z) d/(theta_r(0) theta_1(z)), v=(R_i S_2, R_j S_4, R_k S_3): this is the unique ordering consistent with the displayed period law (quote C38, line 177), and then **all** stated laws hold: [re-derived: s06_theta_register.py, mpmath 30 digits, errors <= 1e-30]: residue S_r~1/z; v(z,tau+1)=zeta(v_i,v_k,-v_j) and R(tau+1)=zeta(R_i,R_k,-R_j) (quote C37, line 151); v(z/tau,-1/tau)=i sqrt(-i tau) P_ij v(z,tau); R(-1/tau)=(-i tau)^(-1/2) P_ij R; d(-1/tau)=(-i tau)^(3/2) d; the phase identity -zeta^-3 sqrt(tau)=i sqrt(-i tau); and the period laws diag((-1)^n,(-1)^m,(-1)^(m+n)) for (m,n)=(1,0),(0,1),(1,1),(2,-1). Caveat: with the principal branch of q^{1/4} the tau->tau+1 law was checked for Re tau in (-1,0); a first run with Re tau=0.31 failed from the branch of mpmath's nome (my test, not the text) and was redone. The affine action composition (m-n tau)/(C tau+D) = (A m+B n) - (C m+D n)(gamma tau) holds iff AD-BC=1 [re-derived: s06, sympy: residual (1-(AD-BC))(m-n tau)] (the mask prints `B#`; I read it as B). mu(Delta^2)=zeta^6=-i, j=-i, j^-1 mu=1 (lines 196-198) [hand]. Y(a,v)=a v^T+v a^T-(a.v)I transforms as Q Y Q^T for Q orthogonal; compatibility (7) h_e=j_e^{-(u+w+1)} mu^-3 and the residue variant 1-u-w [hand]. mu is a character of B3 because it takes the same value zeta on the braid pair (l, r^-1) [hand]. **Errors:** none. **Methods:** none of the thirteen names a theta-function law; method 9 covers the group side only. These identities are untested.
+
+## 12. A/REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md (read in full, lines 1-182)
+
+q_{alpha,beta}(x a+y b)=alpha x+beta y+xy is a refinement of the intersection form and has Arf invariant alpha beta (quote C39, line 63) [hand]; q=1 on the three nonzero vectors is the unique SL2(F2)-invariant one and the other three are permuted transitively [re-derived: s06 over all 6 elements of SL2(F2)]. xi_q(v~ + e z)=q(v)+e is linear by (1) [hand]. The table (quote C40, line 110, eq. 4): invariant refinements for the mod-2 reductions of LR, L^2R, L^2R^2: 1, 2, 4 [re-derived: s06; the text's "reverse table order" is right]. The Q8 remark (every one-dimensional representation kills the commutator) [hand]. The Johnson theorems and the Arf-parity link: [followed as cited; not checked]. **Errors:** none. **Methods:** none of the thirteen (this is the register input to method 9).
+
+## 13. A/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md (read in full, lines 1-249)
+
+(s tau)(f tau)=s f for tau=+-1, so J intertwines everything [hand, trivial]; the 16 pairs (eps_S, eps_F) in H1(C,F2)^2 fall into 4 orbits under simultaneous addition of t, labelled by eps_S+eps_F (quote C41, line 154; the table at 165-170) [hand]. The gauge-only compensation Ad(g)=-I cannot exist since a Lie algebra automorphism cannot send [X,Y] to -[X,Y] for non-abelian g [hand]. The table of centres at 95-100 multiplies to +1 on every row [hand]. The 87/71/59 strata and the old no-psi statement: [not checked]. **Errors:** none. **Methods:** 10 covers "arbitrary SU2 flavour mixing"; the four-orbit count and the scope statement are untested.
+
+## 14. A/REDUCTION_CARD_06_... (read in full, lines 1-52) and A/verification_geometric_spin_sector_2026_11_04/ADJOINT_AND_NORM_REPAIRS.md (read in full, lines 1-28)
+
+The reduction card is a dependency table and a work list: no identity (quote C42, line 22 is its scope statement). The repairs note concerns code (a metric isometry S=diag(#,sqrt2) in a probe and a variable reused for two norms): outside my part; its mathematical content (the E,F,H trace Gram and an isometry S making the matrix adjoint the compact adjoint) is consistent with the standard fact that an adjoint taken in a non-orthonormal basis needs the Gram [hand].
+
+## 15. Identities re-derived (table)
+
+| # | identity | where (file:line) | script | result |
+|---|---|---|---|---|
+| 1 | flat commutator identity (1/2)kappa(M^2)+2|[q,r]|^2 = (1/2)sum|[X_I,X_J]|^2 | weave_curved_action:136 | s01 | max diff 4.5e-13 (20 trials); dropping [q,r]: diff 135 |
+| 2 | spin-block moment map i_k omega=-delta tr(eps Omega [q,q^dag]) | curved:79-81 | s01 | equal to 1e-15 |
+| 3 | Stokes int Dbar f = -i oint f dz | curved:94-96 | s01 | exact 0 |
+| 4 | ds=-(Delta sigma)/2=(Omega^2/4)R; Dbar(Omega^1/2 f)=Omega^1/2(nabla_x+i nabla_y)f; [nabla_x,nabla_y]=i ds | curved:158-161 | s01 | exact 0 (sympy, arbitrary sigma) |
+| 5 | Tr(q[A,r])=1 for A=E12,q=E31,r=E23 | curved:183 | s01 | 1.0 |
+| 6 | gradient of W2: (i t, p2, -p1) | physical_mass:19-26 | s02 | 7e-9 (finite difference) |
+| 7 | D0^dagger commutator part | physical_mass:35-37 | s02 | 7e-15 |
+| 8 | I(beta) closed form; num-den form | physical_mass:184-197 | s02 | 0 mismatches, beta=-60..60 |
+| 9 | net multiplicity table, n=-3..7 | physical_mass:205-209 | s02 | reproduced (weights m=-k..k) |
+| 10 | anomaly coefficients n>=2 and n=1 | physical_mass:236-238 | s02 | (-3,-6,-6,-1008,-30), (-1,-5,-9/2,-1002,-24) exact |
+| 11 | 248 = 24+24+4x50; 24=3+5+7+9; 10_g, 24_g charges | physical_mass:159-172 | s02 | as stated |
+| 12 | ind T_q = dim x net mult = (-6,6,4,-3,-6,-1) | two_neutral:207 | s03 | exact |
+| 13 | |W|^2=G^2+M1^2 pointwise; -i[a_x,a_y]=(1/2)[a,a^dag] | two_neutral:20-24,90 | s03 | 1e-12; 1e-15 |
+| 14 | D1D0=0, D2D1=0 algebraic parts | two_neutral:78-79 | s03 | 2e-15 |
+| 15 | block B^dag B=-d_t^2+delta^2+b^2 | two_neutral:153-156 | s03 | exact (sympy) |
+| 16 | Rayleigh quotient of t(L-t)=10/L^2 | curved:230-231 | s03 | exact |
+| 17 | torus logs: 2x+H5/4=-1/2; 4x odd sum; P^2 even sum; exp(i pi H_-)=Zeta | FULL:46-81 | s04 | exact Fractions |
+| 18 | vector relations A^2=-P, D^2=P, ADA^-1=D^-1, B^2=-P,(AB)^2=P,[A,B]=P | FULL:90-94 | s04 | <=5e-16 |
+| 19 | Ad_A, Ad_D, Ad_B on (E,G); rho Ad Phi0=Phi0 | FULL:119-125 | s04 | <=3e-16 |
+| 20 | [E,E^dag]+[G,G^dag]=2H; [E,G]=0 | COUPLED:38-41 | s04 | 1.8e-15; 0 |
+| 21 | abstract group of order 32: associativity, relations (1)-(4), Zeta, P, C orders, quotients (16: two squares; 8: Q8), hom to Q8 with kernel <C> | FULL:98-131 | s04 | all as stated |
+| 22 | explicit vector image of <A,D>: order 16, 12 elements of order 4, 2 distinct squares | FULL:100,107 | s07 | as stated |
+| 23 | h^2=-iI4 on 4, -1 on 6; h^2 C=1 on all five pieces | PIN2:49,61 | s05 | exact (pairing assumed) |
+| 24 | theta=3 pi/4 mod 3 pi; exp(3 pi i Q) = -1 on 4, +1 on 6 | PIN2:93-100 | s05 | exact |
+| 25 | Pin2_x relations; invariance of the quartic polynomial; R_alpha Ad_K Phi0=Phi0 | PIN2:14-24 | s05 | <=1e-16 |
+| 26 | theta laws (tau+1, -1/tau, residue, period laws), reconstructed R,v | THETA:149-178 | s06 | <=1e-30 |
+| 27 | affine action composition identity (needs AD-BC=1) | THETA:113-116 | s06 | residual (1-det)(m-n tau) |
+| 28 | Delta=S, Delta^4->1, rho(c)=-1; refinements fixed/permuted; invariant counts 1,2,4,4 | THETA, REG | s06 | as stated |
+
+Total: 28 rows, 0 failures. Rows bundle several sub-identities (for example row 18 is six relations, row 21 about eight); none failed. The one failing run (theta, Re tau=0.31) was a branch artefact of my test, explained in section 11 and rerun.
+
+## 16. Not verified, and why
+
+- External theorems and published factors: arXiv hep-th/0101233 eq. 35 coefficients; Martin's Primer; Bilal's anomaly lectures; Hain and Vidussi (exact sequence, PMod(S_{1,2})=Aut+(F2)); Johnson (spin structures and quadratic forms); Baer (Dirac on cusps); Bar's methods. Cited, not opened.
+- The global index function J(a) (the "pinned" Weierstrass-basis and endpoint argument): only its closed form and consequences were checked; the derivation is in an earlier proof not in my list.
+- All analytic domain statements: self-adjointness of the Dirac realisations by cutoffs, Fredholm continuity under bounded zeroth-order homotopy, compact resolvent via Rellich: followed as standard arguments with the stated estimates, not re-proved. The nonlinear integrability duties are, as the lane says, not discharged.
+- Counts of at least 50 negative modes at d=0, the Morse statement, psi nowhere zero, minimum nonzero frequency 1/2 (two_neutral lines 166, 173, 244-247): earlier proofs, not in my list.
+- Texts the mask truncated: FULL lines 24, 48, 58, 79 (digit lists), PIN2 lines 51-59 (the coroot lattice), GEOMETRIC lines 16-20, 24-38, 52-63, 75-78, 85-87, 103-105, 127, CONFINED 15-23, 41, GAPLESS 9-18, 42-45, THETA 20-22, 75-88, 104-131, 138-140, 149-167, 174-178, 200-213, MAS 14, 83, 162-167, TWO 34-38, 159-162. Checks needing those digits were done on reconstructions (stated per proof) or not done.
+- Not read: EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md, ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md, COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md, FAITHFUL_LIFTED_REGISTER_TOWER.md, REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md (the old quartic discriminator), the old neutral and spinor proofs. Several of the thirteen proofs rest on them. No proof in my list was read in part.
+- The code (not my part). The mapping of methods to identities is from the method names in run_checks.py and the two DESIGN files; I did not read the test bodies.
+
+## 17. Errors and gaps
+
+None is blocking. In severity order:
+
+- **F-6 (not blocking, convention that decides a cancellation).** COUPLED line 30: `The source spin/gauge factors cancel the common H-weight one of E and G.` The stationarity cancellation F_spin + M = 0 holds iff [H,E]=2E and [E,E^dag]+[G,G^dag]=2H (re-derived: s04); "H-weight one" reads as [H,E]=E, under which A_spin=sH/2 would not cancel the spin connection and P^2 would be -1 on E (P=exp(i pi H/2)). FULL lines 24-26 and 119-121 (Ad_D by -i on E_+) fix [H,E]=2E, so the intended reading is the first; the sentence should say "H-eigenvalue two". Not blocking because the other file settles it.
+- **F-1 (not blocking; check which densities the code uses).** MAS line 12: `coordinate kinetic densities (Omega^#/2,Omega,Omega) under dxdy.` lists three densities for four fields, and COUPLED line 53 repeats it; read literally the gaugino density would be Omega^2/2, which contradicts Uin being unitary (|Uin lambda|^2=Omega^2|lambda|^2, with h3=2Omega^-2 and h0=Omega^2, MAS line 81). The consistent four-entry list is (Omega^2, 1/2, Omega, Omega): GEOMETRIC line 85 `with their actual unequal densities Omega^#,#/#,Omega,Omega.` and CONFINED line 19 `lambda: exp(-t), a: exp(t)/#, u,v: #.` (e^-t = Omega^2 dxdy, e^t/2 = (1/2)dxdy). Verified by my re-derivation of CONFINED eq. (1). The text of three files carries the shorter list.
+- **F-2 (not blocking).** TWO line 61: `C2: diag(Omega^-1,Omega^-#);` gives two entries for the three summands listed at line 53. The values needed by D2^dagger (mass proof 98-101) and by Uout are (Omega^-1, Omega^-1, 2) (re-derived by hand, section 2 identity 3). The third entry, 2, is not visible; if the entries were meant as diag(Omega^-1, Omega^-1, Omega^-0 x 2) the text is just terse.
+- **F-3 (not blocking, hypothesis not stated where the table is).** MAS line 178: `For E weight m, beta=m+2nq.` The module weights are not defined in the mass proof; the table is reproduced only with m=-k,...,k in unit steps (s02); with steps of two it is not (row n>=2 would be -4,-10,-10,-5,-1,-5). TWO line 126 states `m=-j,...,j` for the principal spin, which settles it, but the mass proof's table should cite it.
+- **F-5 (not blocking, reconstruction).** FULL line 48: `x=(1/#,-1/4,-1/2,-3/4).` shows four entries for five torus coordinates (and line 24 `H5=diag(-4,-###),` is cut). The reading x=(1/4,0,-1/4,-1/2,-3/4) satisfies all of lines 65-71 and 90-94 [re-derived: s04]; the vector eigenvalue multiset of A_vec it gives (phases 0 x2, 1/4 x3, 1/2 x2, 3/4 x3) is what the explicit matrices A_vec=(-iN)exp(-i pi H/4) have. The lane's own DESIGN (transport_end line 12) prints the same four entries, so the shortening is in the source or in the mask, not in my reading.
+- **F-5b (not blocking, unstated pairing).** FULL line 61: `hence +i or -i according to spinor chirality.` The identity h^2=C^-1 (PIN2 eq. 5) holds iff C acts as +i on the 16 that is paired with the 4 of A3 on which Q_em has weight +1; for the other pairing it would read h^2=C and the phase equation (8) would change. The text does not say which chirality is which; the lane's method 1 builds C and h from E8 roots and would decide it. I could not.
+- **F-4 (not blocking, symbols in two senses within one file).** QUATERNION line 19 `J:B -> O direct-sum K` (a bundle isomorphism) versus line 62 `The old parent's actual formula #J(#-beta)-J(-beta)-J(#-beta) can then be nonzero.` (the index function J(a)); MAS line 81 `h0=Omega^2, h1=diag(1/2,Omega,Omega),` (metrics) versus MAS line 197 `where h0(a)=h(b(a)).` (counting function); TWO line 9 `Let q,r be holomorphic spin coefficients of Q,R, and let u,v be their` versus TWO line 10 `variations. Write a=a_x+i a_y, f1=D_x a_y-D_y a_x, and k=nq_charge.` (q the field, q the charge; also in MAS 178). Each is recoverable from context; each is a risk for a reader and for the test code that encodes them.
+- **F-8 (not blocking, wording).** CUR lines 230-231: `not a curvature-induced gap. An escaping Weyl sequence retains residual` / `10/L^2. Thus the full classical action has not removed the previous`. 10/L^2 is the Rayleigh quotient of t(L-t) for the squared operator (s03); the residual norm of the first-order operator is sqrt(10)/L. The conclusion (zero is in the essential spectrum) is unaffected, and COUPLED's own sequence (eq. 5) is stated correctly.
+- **F-9 (not blocking, harmless omission).** PIN2 line 100: `The faithful electromagnetic circle has period 6pi on all retained E8 coefficients, since charges 1, 2/3 and -1/3 occur.` The adjoint of A3 also has charge 4/3 (s05); the period 6 pi still follows.
+- **F-7 (not blocking, scope).** Items stated as proved but resting on the unread earlier proofs or external theorems: the "at least 10 complex negative directions", the J(a) global index, the Hain/Vidussi isomorphism, the half-root compact resolvent. The documents themselves label these conditional or pinned; I only note that identity-level checks above do not discharge them.
+
+Untested by the thirteen (from method names): see per-proof "Methods" lines. In short, the thirteen methods test the compensator group and Pin2 algebra (1-5), the transport/stationary/peripheral table (6-8), the pullback and operator transport (9-10), the coercivity and cover parity (11-12) and the four-slot cancellation (13). They do not test: the curved action's identities; the mass operator's factorisation and adjoints; the index function and table and the anomaly arithmetic; the theta laws; the register F2 counts; the twist-orbit count; M_ext and the gauge-coupling normalisation; every analytic theorem (Fredholm, self-adjointness, compact resolvent, the five lemma).
+
+## 18. Proposed verdict (mathematics)
+
+**Sound for its bounded claims**, under the supplied hypotheses, with nine non-blocking corrections to text (F-1 to F-9). Every isolable algebraic identity (28 table rows, each bundling one to eight sub-identities) passed, including the lane's own correction of the "Q8 x C2" label and its group of order 32. Nothing was found that breaks a derivation; what remains is not computation but (a) analytic domain arguments I followed but did not prove, (b) external theorems and published factors not opened, (c) six companion proofs not read, and (d) the conventions in F-6, F-5, F-5b, whose resolution depends on E8 data that the mask hides and that method 1 and method 7 are positioned to settle. The packet's own statements of scope (conditional, supplied parent, no physical value, no chirality or generation claim) match what is derived. I find no claim in the thirteen proofs wider than what is derived, except the wording noted in F-8.
+
+## 19. Differences from the lane's own review (read after sections 0-18 were written)
+
+Read: `.../verification_geometric_spin_sector_2026_11_04/review/INDEPENDENT_PROOF_CODE_REVIEW_2026_11_05.md` (sealed commit), `INDEPENDENT_ADJOINT_NORM_DISPOSITION_2026_11_05.md`, and at 6f35dfef `.../verification_transport_joint_2026_11_05/review/INDEPENDENT_EXECUTION_READINESS_2026_11_07.md` and `REVIEW.json`. (`INDEPENDENT_REPAIR_FOLLOWUP_2026_11_05.md` was seen only in its F1/F2 summary through ADJOINT_AND_NORM_REPAIRS.md; its body was not read.)
+
+**Scope.** The lane's reviewer covered "the seven named transport/end, geometric/spin, confinement and index notes" (FULL_E8, PIN2, COUPLED, GAPLESS, GEOMETRIC_SPIN_JOIN, CONFINED, QUATERNION_SECTOR_INDEX) plus the two source packages. The three weave proofs (curved action, physical mass, two-neutral index), THETA, REGISTER_QUADRATIC and SPIN_FLAVOUR were "inspected as dependencies" and are not the subject of any review verdict I could find in the lane's folders (its line 133: "the original root generator, literal two-triple matrices, full mass comparator, curved-parent/source operator and two-field-complex source sections were inspected as dependencies"). The execution-readiness review of 2026-11-07 is expressly source-completeness only ("No scientific import, collection, CAS/numerical calculation"; "the conditional proofs are supported within their declared inputs" is carried over from the 11-05 review, not re-examined). So: for the two proofs main needs most (curved action, physical mass) and for the two-neutral index, **my section 1-3 is the only independent mathematics read I know of** in the packet; the identities there (flat identity, moment map, curvature term, Hessian dual coefficients, D0^dagger, M=Uout T Uin row by row, index table, anomaly coefficients, V2 Hessian identity) were not covered by the lane's reviewer, and passed here.
+
+**Agreements (independently re-derived here, each also stated by the lane's reviewer).**
+- Zeta, C, P, A^4=Zeta, D^2=Zeta P, B^2=C^-1 P, (AB)^2=P, [A,B]=Zeta P, the 32-element C4 semidirect C8, vector quotient of order 16, D5-adjoint quotient Q8, and the failure of the old "Q8 x C2" label (lane review lines 61-63; mine: s04, s07).
+- h^2=C^-1, (A h)^2=K_pi, reflection conjugating K_alpha to K_-alpha, theta=3 pi/4 mod 3 pi in a 6 pi circle with two values differing by Zeta (lane lines 65-67; mine: s05).
+- Stationary cancellation giving H/(4 ell^2), peripheral P(Zeta P)=Zeta, escaping Weyl sequence, M_ext=iI and norm |a|^2/Im z (lane lines 73-83; mine: s04, s03; hand).
+- The four local mass rows with Dbar'=Jbar Dbar, Dz'=J Dz, Omega'=|J|Omega, input (1,Jbar,j g), output (1,J,conj j conj g), and the three density identities (lane 91-93; mine: section 6).
+- CONFINED potentials r^2+1/4, r^2+1/4 +-2r, r^2 +-r, each >= r^2-2r, and completing the square with |k|>=pi (lane 99-101; mine: section 8).
+- The B-to-(O+K) bounded-end comparison: the lane gives an explicit connection estimate (its line 111) `diag(-i,+i) * dx/(2y)`; I re-derived it from the Chern connections of B (metric y I2: -i dz/(2y)) and of O+K (metric diag(1,y^2): diag(0,-i dz/y)) transported by J=diag(y^1/2,y^-1/2): [re-derived: s08_bounded_end.py, exact sympy match; traceless; pointwise norm 1/2]. This is a stronger check of the quaternion proof's "bounded in an orthonormal frame" than my own section 7 identity 1 and I adopt it.
+- The lane's reviewer found the cancellation identity of method 13 is an accounting identity if chi_V and chi_VK are free symbols (its R1) and gave the operator-level sign check (its line 117). My section 7 identity 3 does the same bookkeeping by hand against the mass rows and the old-parent control I(beta); the two agree.
+
+**What I found that the lane's review does not mention.** F-1 (three densities listed for four Weyl fields in MAS 12, COUPLED 53; the lane's own review at its line 93 writes "Omega^#,#/#,Omega,Omega" for the geometric proof and at line 117 "densities (Omega^#/2)" for the scalar/form block, so it does not flag the disagreement), F-2 (C2 metric entries), F-3 (the weight set behind the multiplicity table), F-4 (J, h0 and q in two senses), F-5/F-5b (truncated x and the chirality pairing that decides h^2=C^-1 versus h^2=C), F-6 (the unit of H in COUPLED line 30), F-8, F-9, and the untested-by-any-method list (section 17). The lane's review lists coverage defects of the code (R1-R3, F1-F2) which I did not examine; I did not read the test bodies.
+
+**Where I could not follow the lane.** Its line 61 says "Integer E8 roots pair integrally with 4x, while every half-root pairs half-integrally"; I used the equivalent coordinate-sum parity criterion in the Spin10 torus (even sum iff trivial), which needs only the D5 data and the central-element action, and found the same result. The lane's "all seven target proofs ... withstand the hand checks" is a statement about its seven; I did not find in the lane's folders any hand check of the physical-mass index table or the anomaly arithmetic, which the packet's thirteen methods also do not test.
+
+**Net.** My conclusion agrees with the lane's mathematical verdict for the seven notes (no load-bearing refutation) and extends it to the three weave proofs and the three companions (no refutation); it adds nine text-level findings, none blocking.

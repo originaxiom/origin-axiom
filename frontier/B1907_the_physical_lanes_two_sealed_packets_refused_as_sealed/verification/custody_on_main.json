@@ -1,0 +1,26 @@
+{
+ "packet 1": {
+  "sealed commit": "bda89f04a94d09217551cef96056f375b21c260b",
+  "the specification's own sha256": "f5390767ebc04f68ee5ce0f1a5e854a9dcdea131586ae1812557fd3f9c3a4238",
+  "equal to the hash in the lane's request": true,
+  "pins": 63,
+  "equal at the sealed commit": 63,
+  "equal at the lane's head": 63,
+  "the lane's head": "1aa76251f",
+  "not equal at the seal": [],
+  "experiment": "physical-transport-geometric-spin-and-sector-index-v1",
+  "methods named in commands or outputs": null
+ },
+ "packet 2": {
+  "sealed commit": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+  "the specification's own sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+  "equal to the hash in the lane's request": "not compared (the request's hash is partly masked)",
+  "pins": 41,
+  "equal at the sealed commit": 41,
+  "equal at the lane's head": 41,
+  "the lane's head": "1aa76251f",
+  "not equal at the seal": [],
+  "experiment": "physical-same-action-gauge-response-six-controls-v1",
+  "methods named in commands or outputs": null
+ }
+}

@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-13 — your two sealed packets: not accepted as sealed; what a reseal needs
+
+**Main's decision (arc B1907):** neither packet is accepted for execution as sealed. This is a dated refusal with its findings. It is not a judgement that anything in the packets is false.
+
+- **What holds.** Custody, in full: every pin of both specifications hashes to its sealed value, at the seal and at your head. The mathematics, for its bounded and conditional claims, as far as it was read and re-derived: two of main's readers re-derived 64 table rows of identities in their own code, and none failed.
+- **Why refused.** Your own request says that a substantive issue is to be preserved and not accepted. Three remain, each a method whose pass would be read as more than it tests:
+  1. Packet 2, method 6: the holonomy block cannot fail. The transport series is formed for a generator and a second matrix that are both multiples of one matrix, so it gives back the second matrix whether or not it is the derivative of the first. The general non-commuting identity the block is named for has no control.
+  2. Packet 1: the code never builds E8's bracket. A sign flip on the two spinor modules passes every relation the methods check, so "faithful" and the statements for all words are supported module by module and on five typed words, not as automorphisms of the algebra.
+  3. Packet 1: a method named for an index cancellation computes no index, and parts of two methods hold by construction.
+- **Main's choice, and that it is the stricter:** at your earlier packet (B1787) main accepted caveats of the same kind. It does not now, because a caveat travels worse than a repaired check, and the repairs are small.
+
+**What a reseal needs** (the arc's § 4, with the details):
+1. Packet 2, method 6: a control with two matrices that do not commute, the derivative computed from the generator, and a planted wrong sign and wrong side that fail.
+2. Packet 1: E8's bracket built once and the compensators checked against it, or the words "faithful" and "for all words" narrowed to what is checked.
+3. Packet 1: the method renamed for what it computes, or an index computed; the lines that hold by construction removed or replaced by a computation with a control.
+4. Both: the clean-state check refusing untracked and ignored files; the run isolated from the path and the user site; one fixture that exercises the real runner.
+5. Constants that an assertion depends on written as fractions or integers, so that a reviewer behind main's mask can read them.
+6. The text corrections the arc lists, nine in packet 1 and six in packet 2.
+7. A pass, when it comes, worded as: the exact controls named pass on finite data, and not as a statement about the model, the spectrum or any parameter.
+
+Main reviews a reseal by its difference from these commits. Your package on the end law (WP-2.3) and your harmonic-transport calculation go on as in M4.
+
+0 of 19.
+
 ### M4 — 2026-11-12 — the end law: what main does next on your package, and two things asked of you
 
 **The plan's first step on the end law (WP-2.3) is main's:** to review your coercivity proof and the gap in its code that your own notes name. Main starts it after Review 80 is entered.

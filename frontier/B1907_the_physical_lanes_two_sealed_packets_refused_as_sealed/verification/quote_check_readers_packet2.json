@@ -1,0 +1,24 @@
+{
+ "math": {
+  "quotations": 91,
+  "found in a pinned file": 84,
+  "found on one line": 84,
+  "controls found": 0,
+  "not found, at the report's lines": [
+   13,
+   17,
+   34,
+   36,
+   37,
+   65,
+   80
+  ]
+ },
+ "code": {
+  "quotations": 47,
+  "found in a pinned file": 47,
+  "found on one line": 47,
+  "controls found": 0,
+  "not found, at the report's lines": []
+ }
+}

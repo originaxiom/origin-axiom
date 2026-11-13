@@ -1,0 +1,26 @@
+{
+ "id": "B1907",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1787"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the physical lane: its two execution packets, sealed at bda89f04a (packet 1, thirteen methods) and d1a33e921 (packet 2, six controls), and its relays asking main's acceptance (P-746); read through main's binding-minimum mask, nothing imported or run",
+  "four read-only readers started by main for this review (code and mathematics of each packet); not independent of main; their reviews are kept as they wrote them"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the physical lane's two sealed execution packets as sealed, against main's acceptance rule (B1787's precedent)",
+  "object": "packet 1 (thirteen methods, 63 pins) and packet 2 (six controls, 41 pins): custody, code, check design and mathematics",
+  "reach": "single",
+  "hypotheses": "the mask hides every decimal, so some assertion lines were reconstructed by the readers and not read; the earlier proofs the packets cite, the literature they use, and the lane's own gate scripts at the sealed commits were not read; the readers are main's own and not independent; the quotation check runs through main's mask and was computed once; a refusal is not a judgement that anything in the packets is false"
+ },
+ "claim_one_line": "THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

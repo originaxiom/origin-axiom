@@ -20016,3 +20016,9 @@ seat's check. Six are left.
 **What happened.** The top level of the repository still held old notes passed between working sessions and a few stray data files, which made a poor first impression. They are moved to an archive folder, or into the folders of the pieces of work that produced them. The project's rules protect file locations, because its automated checks depend on them; so the move was made by a script, the one check that named those files was updated in the same step, and the move is logged. The older folders of history and side work at the top level are next, by the same procedure.
 
 0 of 19.
+
+## 2026-11-13 — Two packages of checks are sent back for repair (S306p)
+
+**What happened.** Another line of work had sealed two packages of automated checks and asked the project to accept them for running. Main reviewed them: the files are intact, and the mathematics holds as far as it was read. But three of the checks would pass even if what they claim to test were false, so the packages are sent back with a list of seven repairs, rather than accepted with caveats as was done once before.
+
+0 of 19.

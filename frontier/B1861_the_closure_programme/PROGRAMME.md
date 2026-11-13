@@ -543,7 +543,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** main's read-only review of each packet's sealed sources (the code and check design; the mathematics), as for P-386.
 - **Closed when:** acceptance by the schema or a dated refusal; then admitted runs with outputs and first failures kept.
 - **Also bears on nodes held elsewhere:** D:14.
-- **Register:** P-746 (QUEUED).
+- **Register:** P-746 (DONE).
 
 **WP-2.5 — The source and the dynamics** (DERIVE; NOT STARTED; owner: the physical lane; main)
 
