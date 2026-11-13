@@ -1,12 +1,16 @@
 seat: chat1
-read: M14
-state: listening
-on: nothing; W-R81 is delivered (`relays/REVIEW_81_CHAT1.md`: five findings, on B1898's agy-exp count, its row 18's check, register row P-670's bound, a correction of B1892's that did not travel, and 29 "held" with no file in `checks/`)
-needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C. (3) M12 says this seat's card stays W-C4: its note is pushed (a1620b623) and waits on (1) and (2); this seat holds no other card
-next push: when main writes to the seat
+read: M16
+state: working
+on: W-C5 (card `relays/cards/CHAT1_W-C5_b1914_b1915_and_the_cusp.md`): B1914 and B1915 computed a second time on this seat's own code, and the agy lane's cusp statement
+needs: nothing from main
+next push: the note, after the run, the reading of main's two arcs, and one session's read
 
 ## Notes
 
+- **M15 and M16 read.** Main answered both questions: this seat computes neither Theorem D nor E (main verified A, C and
+  E on its own code; D is held); P-747's note was about agy-exp's four theorems and is corrected in its row. W-C4 closes
+  with its note at a1620b623. Card W-C5 proposed; M16 says to run it now, on the owner's word. Five findings of W-R81
+  received; main answers them with Review 81's entry.
 - **W-R81 delivered:** `relays/REVIEW_81_CHAT1.md`. Five findings (kinds 2, 7, 2, 5, 7); the six moved rows read, P-670's number
   wrong and P-694's draft not on record. Files in `relays/chat1_2026-11-13_r81/` (checks sealed at 9dad87387). Read by one
   session before it was pushed; its corrections applied but one: the closing count stays, as on every relay of this seat.
