@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1614 |
-| … PROVED | 1118 |
+| arcs with a verdict file | 1615 |
+| … PROVED | 1119 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1920 | PROVED | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified… |
 | B1919 | PROVED | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac… |
 | B1918 | RETRACTED | [RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B… |
 | B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
@@ -42,7 +43,6 @@
 | B1911 | PROVED | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction t… |
 | B1910 | PROVED | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING… |
 | B1909 | OPEN | THE PAIRED CURRENT POLE (P-749 (e); R80-5): FIVE OF ITS SEVEN STEPS HOLD ON MAIN'S OWN ALGEBRA, EXACTLY, AND THE OTHER TWO NEED THE LANE'S OPERATOR WRITTEN OUT ON MAIN. The grade -2 plane of V(3/2) x V(3/2) is an eigens… |
-| B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
 - S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again)…
 - S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
 - S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
@@ -60,7 +61,6 @@
 - S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
 - S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
 - S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retractions index; the SM seat's page M16) (2026-11-13)
-- S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15) (2026-11-13)
 
 ## The latest campaign line
 

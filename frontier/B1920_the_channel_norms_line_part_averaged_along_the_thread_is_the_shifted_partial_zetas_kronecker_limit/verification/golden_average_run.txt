@@ -1,0 +1,5 @@
+(1, 2) u = Jc = (0.6, 0.2) <F_u> over the centred period: 8.906783
+(2, 4) u = Jc = (0.2, 0.4) <F_u> over the centred period: 8.906779
+lowest node of a lower window, Im z = 0.0800: F_u at R 30, Mk 40 = 9.268873 (not converged at the default)
+lowest node of a lower window, Im z = 0.0800: F_u at R 60, Mk 80 = 8.874882 (not converged at the default)
+lowest node of a lower window, Im z = 0.0800: F_u at R 120, Mk 160 = 8.921690 (not converged at the default)

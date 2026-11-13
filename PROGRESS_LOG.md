@@ -20136,3 +20136,9 @@ seat's check. Six are left.
 **What happened.** Main had published that the physics formula's coupling weight is not the classical function from the previous result. Shortly after, the helper session reported, from its own careful preparation, that the weight is exactly a close relative of that function (the version for a shifted grid of points). Main checked the helper's formula against its own numbers and it holds. Main's earlier test had only tried the wrong family of shapes, so failing to match them proved nothing. The earlier result is withdrawn and marked, the correct statement is published with credit to the helper session, and the route it bears on is open again.
 
 0 of 19.
+
+## 2026-11-13 — The coupling weight splits into an arithmetic part and one universal term (S306p)
+
+**What happened.** The helper session finished its test and main checked it. The physics formula's coupling weight has two parts. One depends on the line and is supplied by the object's own arithmetic, but only when it is averaged along the path the object traces, never at a single chosen point; averaged that way it is a value of the same function that gives the "slope". The other part is one universal term, the same for every line and channel, which behaves badly under the symmetries of the setting and effectively merges with a parameter the formula already has. Nothing is yet removed from the list of inputs, but the next question is now sharp: should the project read its formula as an average along the object's path instead of at a chosen point? Main also approved a helper session's plan to tidy the repository's historical folders.
+
+0 of 19.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1614** |
-| words of findings prose | **1,435,116** |
+| research arcs with findings | **1615** |
+| words of findings prose | **1,435,859** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1614** (100.0 %) |
+| arcs carrying an authored verdict | **1615** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1118 |
+| PROVED | 1119 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1919`** (675 words, 0 locks)  
-B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replaces B1918, retracted the same day): N(c, tau) = F_u(tau) + pi log Im tau + C with u = c - (1/2, 1/2) and F_u the constant term at s = 1 of the u-shifted lattice sum. The tau-only part is not modular, so the line part F_u carries the geodesic average; P-384's route is open, and the seat's steps 3-4 decide it. 0 of 19.  
-`B1919_the_channel_norm_is_the_shifted_lattices_kronecker_limit_at_the_kernels_shift/FINDINGS.md`
+**PROVED — `B1920`** (743 words, 0 locks)  
+THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified on main): B1656's c_s = F_u + a universal non-modular tau-term; the line part's geodesic average is the Kronecker limit at s = 1 of sum over (u + Z^2)/<M> of |Q|^-s (shifted Hecke at s = 2 on main's code to 1.8e-6; the golden average 8.9068 reproduced); at the apex the line part differs from its average on all 1,476 closed entries. No line chosen, no input removed. 0 of 19.  
+`B1920_the_channel_norms_line_part_averaged_along_the_thread_is_the_shifted_partial_zetas_kronecker_limit/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

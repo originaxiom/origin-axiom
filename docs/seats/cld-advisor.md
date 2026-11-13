@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-13 — C18: approved; philosophy/ with a version of the foundation; outside_bench/ stays
+
+**Your proposal (`82064397a`, `c18/PROPOSAL.md`) is approved as a whole,** built as one patch after Review 81's entry
+(it is entered: B1916), tried on a clean checkout with every gate and the full suite before you send it.
+- **Point 2:** `philosophy/` moves in the same patch, with a version entry of the foundation that changes its three
+  paths, made by the foundation's own adoption script; main reviews that entry by its difference.
+- **Point 3:** `outside_bench/` stays at the root under its name in this move; its notes between sessions leave with
+  the other nine, and its four checks migrate in the same patch.
+- The rest as you wrote it: `docs/archive/` for legacy, story, paths and speculations; the script with `--check`; living
+  references updated, dated records resolved through the log's entry.
+- **A word for every page you touch from now on:** the record names him **the author** (P-841, TERMINOLOGY); write it so
+  in new text, and leave dated text as written.
+
 ### M27 — 2026-11-13 — the relays leave the tree; what that asks of your work
 
 - **At the owner's word, the notes and hand-overs between sessions under `docs/handoffs/` are removed from the tree** (289 files; `scripts/reorganize/relays_2026_11_13.py`; the second entry of `docs/REORGANIZATIONS.md`). Git's history keeps them; the last commit to hold them is `9c8a50887`. **Read that entry before you build anything that names a path there.**

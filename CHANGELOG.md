@@ -1,5 +1,10 @@
 # Changelog
 
+## S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main; P-384, P-776); THE BUILDER'S C18 APPROVED (M28) (2026-11-13)
+
+- **B1920:** on B1737's population, B1656's channel norm is a line part F_u plus one universal, non-modular τ-term; the line part's average along the thread's closed geodesic is the Kronecker limit at s = 1 of the thread's shifted partial zeta, the same L-function whose odd value is the slope; at the apex it is not. Main checked the shifted Hecke formula at s = 2 (eight shifts, two levels, to 1.8 × 10⁻⁶) and reproduced the golden thread's average (8.9068); a lower window it could not use is disclosed as its own truncation. No line chosen, no input removed; P-776 now carries the question whether the read-out on the whole reads the frame as a thread average.
+- **The builder's C18:** the historical folders move under docs/archive in one patch, philosophy/ with a version of the foundation, outside_bench/ staying at the root; the ten copies of notes leave the tree. 0 of 19.
+
 ## S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again) (2026-11-13)
 
 - **B1919:** N(c, τ) = F_u(τ) + π log Im τ − 2π(γ + log π) with u = c − (½, ½), F_u the Kronecker limit of the u-shifted lattice: found by the SM seat on calibration while sealing its step 3, checked by main's own code on 24 cases at three points of the golden geodesic to 4.9 × 10⁻⁷. The τ-only part is not modular; the line part F_u carries the geodesic average, which by the shifted Hecke formula is the thread's shifted partial zeta's Kronecker limit. P-384's route is open; the seat's steps 3 and 4 decide it.

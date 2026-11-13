@@ -16934,6 +16934,19 @@
    "status": "dormant",
    "domain": "topology"
   },
+  "B1920": {
+   "slug": "the channel norms line part averaged along the thread is the shifted partial zetas kronecker limit",
+   "motifs": [
+    "choice",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

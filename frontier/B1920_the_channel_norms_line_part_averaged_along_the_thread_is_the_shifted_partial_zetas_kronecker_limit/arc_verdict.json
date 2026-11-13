@@ -1,0 +1,27 @@
+{
+ "id": "B1920",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1917",
+  "B1919",
+  "B1737"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat: relays/SM_C7_ONE_L_FUNCTION.md, steps 3 and 4 @ d687a9180 (sealed first at 664c04531), checked by main in its three load-bearing parts"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1737's population (601 lines, four channels) and B1656's channel norm",
+  "object": "the channel norm's line part averaged along each thread's closed geodesic, against the thread's shifted partial zeta; the norm at the apex",
+  "reach": "class",
+  "hypotheses": "the seat's population run; main's checks: the identity (B1919), the shifted Hecke formula at s = 2 on eight shifts at two levels, and the golden thread's average in the centred window; the continuation to s = 1 by meromorphy, not computed at s = 1 by main; numerical"
+ },
+ "claim_one_line": "THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified on main): B1656's c_s = F_u + a universal non-modular tau-term; the line part's geodesic average is the Kronecker limit at s = 1 of sum over (u + Z^2)/<M> of |Q|^-s (shifted Hecke at s = 2 on main's code to 1.8e-6; the golden average 8.9068 reproduced); at the apex the line part differs from its average on all 1,476 closed entries. No line chosen, no input removed. 0 of 19.",
+ "weave_or_thread": "thread (each thread's closed geodesic)"
+}
