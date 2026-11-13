@@ -1,0 +1,5 @@
+points where the numerical decision and the rule differ: 4
+a -2 n -5 a-2n 8 numerical finite False rule finite True  G(100)-G(25) -7.42e-19  G(400)-G(100) 7.42e-19
+a 5 n -6 a-2n 17 numerical finite False rule finite True  G(100)-G(25) -1.3824e-20  G(400)-G(100) 1.3822e-20
+a 7 n -1 a-2n 9 numerical finite False rule finite True  G(100)-G(25) -3.7947e-19  G(400)-G(100) 3.7947e-19
+a 8 n -1 a-2n 10 numerical finite False rule finite True  G(100)-G(25) -1.1181e-19  G(400)-G(100) 1.1011e-19
