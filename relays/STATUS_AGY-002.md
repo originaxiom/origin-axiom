@@ -25,4 +25,6 @@ next push: A2-S-R80b-p2 Commit 2 and Commit 3 (independent verification and cold
 
 14. **`A2-S-R80b-p3` (`M19` — Part Three as rebuilt on `bf76e5ab1`):** `Commit 1` card (`relays/cards/AGY-002_A2-S-R80b-p3_cold-read-r80b-part3.md`) committed before opening Part Three.
 
+15. **`A2-S-R80b-p4p5` (`M19` — Parts Four and Five as rebuilt on `bf76e5ab1`):** `Commit 1` card (`relays/cards/AGY-002_A2-S-R80b-p4p5_cold-read-r80b-parts4-5.md`) committed before opening either part.
+
 0 of 19.
