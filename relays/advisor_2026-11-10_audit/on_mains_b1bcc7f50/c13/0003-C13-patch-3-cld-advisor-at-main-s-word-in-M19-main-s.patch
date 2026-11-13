@@ -1,0 +1,308 @@
+From cc64335c6c83487a741f32d2de6596171462ad9d Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:36:03 +0000
+Subject: [PATCH] C13, patch 3 (cld-advisor, at main's word in M19; main's
+ fourth folder, item 4): THE TOPIC SWEEP PRINTS THE LEDGER'S ROW OF A WALL
+ BEFORE ITS OWN LIST
+
+Main asks that scripts/checks/topic_sweep.py print the ledger's row of any wall whose words the expression
+matches, before its own list: the first step of main's new rule, a question of a known shape met with its
+history first.
+
+WHAT IS BUILT.
+  - The sweep reads the generated page of the ledger of walls and nothing else, so that what it prints is
+    what the page says. For each wall whose name or one of whose words the expression matches (the
+    expression as the sweep expands it by its aliases), it prints one line before the first arc: the wall,
+    its count of arcs, where it was first met, its five outcomes, and the page's section.
+  - A sweep on a checkout without the page says so on one line and goes on.
+  - The sweep's VERDICT line is not changed, so nothing that reads it is changed.
+  - The sweep's self-test gains two planted walls, a hit by a word, a hit by a name, and a planted absence.
+
+THE WORDS OF A WALL ARE THE BUILDER'S READING, AND MAIN'S TO CHANGE. B1905's rows give each wall a name and
+no words. Each wall's words are its name and the words of B1905's own sweep (its "Seen first"), each put
+under the wall it names, with a few of the same kind; the eighth wall, "other", has its name alone. They
+are declared beside the ledger's generator and printed on the ledger's page in a last table, so the page
+and the sweep cannot disagree about them.
+
+THE TEST, tests/test_topic_sweep_prints_the_wall.py, six tests. What the sweep reads from the page is what
+the generator put there, words included; a sweep on a word of the first wall prints that wall's row and
+prints it before the first arc, and the verdict line is the last line as before; a sweep by a wall's name
+and by another wall's word; a sweep that matches no wall prints none; a checkout without the page; the page
+with one count planted is read as planted (the sweep reads the page; the ledger's own lock is what refuses
+such a page), and its twin, the page copied as it is, reads the same. On the commit before this patch four
+of the six fail and two pass: the absence and the self-test.
+
+Every gate passes but the count of landings. The sweep's three older test files, the ledger's lock and the
+lock of B1905: 35 passed. Not checked by main. Tested against planted errors by the session that wrote it.
+---
+ docs/views/LEDGER_OF_WALLS.md             | 14 ++++
+ docs/views/THE_SPINE.md                   |  3 +-
+ scripts/checks/topic_sweep.py             | 44 +++++++++++
+ scripts/views/generate.py                 | 23 +++++-
+ tests/test_topic_sweep_prints_the_wall.py | 92 +++++++++++++++++++++++
+ 5 files changed, 174 insertions(+), 2 deletions(-)
+ create mode 100644 tests/test_topic_sweep_prints_the_wall.py
+
+diff --git a/docs/views/LEDGER_OF_WALLS.md b/docs/views/LEDGER_OF_WALLS.md
+index 16e3eba98..d8f5c745d 100644
+--- a/docs/views/LEDGER_OF_WALLS.md
++++ b/docs/views/LEDGER_OF_WALLS.md
+@@ -11,6 +11,7 @@
+ - **"First met"** is the arc of the wall with the lowest number: arcs are numbered in the order they were opened, and many rows give no date.
+ - **"Settled without a pick"** is a reading by a list of words: the row says the arc settled the question it asked, and its outcome has a word of denial and no word of a pick (the two lists of B1905's script). Most such arcs prove that a route does not do what was hoped of it. It is not a judgement of the arc.
+ - **An arc that combines kinds of principle is counted under each.**
++- **The sweep prints a wall's row** when its expression matches the wall's name or one of the wall's words (the last table). The words are a reading by the building session, not the readers' classes.
+ 
+ | wall | arcs | first met | settled | partly | not | the question was wrong | later corrected |
+ |---|---|---|---|---|---|---|---|
+@@ -178,3 +179,16 @@
+ | read-out | 6 | 3 | 2 | 0 | 0 | 1 |
+ | declared | 1 | 0 | 1 | 0 | 0 | 0 |
+ | other | 6 | 2 | 3 | 0 | 0 | 1 |
++
++## The words the sweep reads
++
++| wall | its name | its words |
++|---|---|---|
++| W1 | the mirror pair not split | mirror; chiral; chirality; handed; the hand; orientation; amphichiral; left-right; vector-like; twin; parity |
++| W2 | one member of a family not picked | select; selection; selector; pick; singled out; single out; which thread; which root; which member; no rule |
++| W3 | a value or modulus not picked | which value; modulus; extremum; least action; minimise; minimize; stationary; variational |
++| W4 | a count not forced | how many; a count; the count; number of generations; three generations |
++| W5 | a scale or hierarchy | scale; hierarchy |
++| W6 | an identification borrowed | identification; dictionary; borrowed |
++| W7 | a construction not canonical | canonical; normalisation; normalization; base point; convention |
++| W8 | other | its name alone |
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 617e5a624..ffd712899 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1544 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1545 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1917,3 +1917,4 @@ Generated by `scripts/views/spine.py` — 1544 locks. Regenerated with the views
+ 
+ - — `test_ledger_of_walls.py` 
+ - — `test_negative_second_computation.py` 
++- — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/scripts/checks/topic_sweep.py b/scripts/checks/topic_sweep.py
+index 018385730..a8ac6e0f5 100644
+--- a/scripts/checks/topic_sweep.py
++++ b/scripts/checks/topic_sweep.py
+@@ -74,6 +74,39 @@ def arcs(root=ROOT):
+     return out
+ 
+ 
++# THE LEDGER OF WALLS (2026-11-12, main's card C13; WORKING_RULES, the rule "BEFORE A SELECTION OR A HAND IS CLAIMED", step 1).
++# A question of a known shape is met with its history first: before its own list the sweep prints the ledger's row of every
++# wall whose name or words the expression matches.  It reads the generated page and nothing else, so that what it prints is
++# what the page says.  A sweep on a checkout without the page says so on one line, and goes on.
++WALLS_PAGE = os.path.join("docs", "views", "LEDGER_OF_WALLS.md")
++
++
++def walls(root=ROOT):
++    """the ledger's rows as dicts (code, name, arcs, first, outcomes, words), or None where the page is not on this checkout"""
++    p = os.path.join(root, WALLS_PAGE)
++    if not os.path.exists(p): return None
++    text = open(p, encoding="utf-8").read(); out = {}
++    for m in re.finditer(r"^\| (W\d), ([^|]+?) \| (\d+) \| (\S+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \|$", text, re.M):
++        out[m.group(1)] = dict(code=m.group(1), name=m.group(2), arcs=int(m.group(3)), first=m.group(4),
++                               outcomes=[int(m.group(i)) for i in range(5, 10)], words=[])
++    tail = text[text.index("## The words the sweep reads"):] if "## The words the sweep reads" in text else ""
++    for m in re.finditer(r"^\| (W\d) \| [^|]+ \| ([^|]+) \|$", tail, re.M):
++        if m.group(1) in out and m.group(2).strip() != "its name alone":
++            out[m.group(1)]["words"] = [w.strip() for w in m.group(2).split(";") if w.strip()]
++    return [out[k] for k in sorted(out, key=lambda c: int(c[1:]))]
++
++
++def walls_matched(rx, rows):
++    """the walls whose name or one of whose words the expression matches"""
++    pat = re.compile(rx, re.I)
++    return [w for w in rows if pat.search(w["name"]) or any(pat.search(x) for x in w["words"])]
++
++
++def wall_line(w):
++    return ("  WALL %s, %s: %d arcs, first met %s; settled %d, partly %d, not %d, the question was wrong %d, later corrected %d  [%s, section %s]"
++            % (w["code"], w["name"], w["arcs"], w["first"], *w["outcomes"], WALLS_PAGE, w["code"]))
++
++
+ def sweep(rx, rows, full=False, root=ROOT):
+     pat = re.compile(rx, re.I); hits = []
+     for r in rows:
+@@ -135,11 +168,22 @@ def main(argv):
+         assert [r["id"] for r in sweep_register(r"theta.?bar", reg)] == ["P-1"] and [r["id"] for r in sweep_register(r"painlev", reg)] == ["P-2"]
+         assert sweep_register(r"zzzz-not-there", reg) == [] and sweep_register(r"zzzz-not-there", register()) == []
+         assert len(register()) > 300 and all(r["id"].startswith("P-") for r in register()), "the register is read"
++        led = [dict(code="W1", name="the mirror pair not split", arcs=3, first="B7", outcomes=[1, 1, 1, 0, 0], words=["chiral", "the hand"]),
++               dict(code="W8", name="other", arcs=1, first="B9", outcomes=[1, 0, 0, 0, 0], words=[])]
++        assert [w["code"] for w in walls_matched(r"chiral", led)] == ["W1"] and [w["code"] for w in walls_matched(r"mirror", led)] == ["W1"]
++        assert walls_matched(r"zzzz-not-there", led) == [] and walls_matched(r"zzzz-not-there", walls() or []) == []
++        assert walls() is None or len(walls()) == 8, "the ledger's eight walls are read"
+         print("selftest: PASS (a planted hit is found, a planted absence is empty, and the real record answers)"); return 0
+     args = [a for a in argv if not a.startswith("--")]
+     if not args: print(__doc__); return 2
+     rx = args[0]; limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else 40
+     erx, used = (rx, []) if "--no-aliases" in argv else expand(rx)
++    ledger = walls()
++    if ledger is None:
++        print("  the ledger of walls (%s) is not on this checkout: no wall is printed" % WALLS_PAGE)
++    else:
++        for w in walls_matched(erx, ledger):
++            print(wall_line(w))
+     rows = arcs(); hits = sweep(erx, rows, full="--full" in argv)
+     by = collections.Counter(h["verdict"] or "no verdict file" for h in hits)
+     for h in hits[-limit:]:
+diff --git a/scripts/views/generate.py b/scripts/views/generate.py
+index 5f8937290..9ca59690e 100644
+--- a/scripts/views/generate.py
++++ b/scripts/views/generate.py
+@@ -439,6 +439,22 @@ WALLS_HEADER = ("<!-- GENERATED by scripts/views/generate.py -- DO NOT EDIT BY H
+                 "     Hand-editing a generated view reintroduces exactly the drift it prevents. -->\n\n")
+ 
+ 
++# The words by which the topic sweep (scripts/checks/topic_sweep.py) finds a wall: a sweep whose expression matches one of
++# them, or the wall's name, prints the wall's row before its own list.  THEY ARE THE BUILDER'S READING, not the readers' and
++# not main's: each wall's name, with the words of B1905's own sweep (its "Seen first") put under the wall they name.  The
++# page prints them.  A wall with no words is found by its name alone.
++WALL_WORDS = {
++    "W1": ("mirror", "chiral", "chirality", "handed", "the hand", "orientation", "amphichiral", "left-right", "vector-like", "twin", "parity"),
++    "W2": ("select", "selection", "selector", "pick", "singled out", "single out", "which thread", "which root", "which member", "no rule"),
++    "W3": ("which value", "modulus", "extremum", "least action", "minimise", "minimize", "stationary", "variational"),
++    "W4": ("how many", "a count", "the count", "number of generations", "three generations"),
++    "W5": ("scale", "hierarchy"),
++    "W6": ("identification", "dictionary", "borrowed"),
++    "W7": ("canonical", "normalisation", "normalization", "base point", "convention"),
++    "W8": (),
++}
++
++
+ def _walls_source():
+     """B1905's script, read and compiled without an import, so that no compiled file is left beside it"""
+     import types
+@@ -489,7 +505,9 @@ def view_walls(ledger=None):
+          "- **\"First met\"** is the arc of the wall with the lowest number: arcs are numbered in the order they were opened, and many rows give no date.",
+          "- **\"Settled without a pick\"** is a reading by a list of words: the row says the arc settled the question it asked, and its outcome has "
+          "a word of denial and no word of a pick (the two lists of B1905's script). Most such arcs prove that a route does not do what was hoped of it. It is not a judgement of the arc.",
+-         "- **An arc that combines kinds of principle is counted under each.**", "",
++         "- **An arc that combines kinds of principle is counted under each.**",
++         "- **The sweep prints a wall's row** when its expression matches the wall's name or one of the wall's words (the last table). "
++         "The words are a reading by the building session, not the readers' classes.", "",
+          "| wall | arcs | first met | settled | partly | not | the question was wrong | later corrected |", "|---|---|---|---|---|---|---|---|"]
+     for w in L["walls"]:
+         o.append("| %s, %s | %d | %s | %s |" % (w["code"], w["name"], w["arcs"], w["first"] or "—", " | ".join(str(x) for x in w["by_outcome"])))
+@@ -505,6 +523,9 @@ def view_walls(ledger=None):
+         o += ["", "| tried by | arcs | settled | partly | not | the question was wrong | later corrected |", "|---|---|---|---|---|---|---|"]
+         for k, c in w["kinds"].items():
+             o.append("| %s | %d | %s |" % (L["names"][k], sum(c), " | ".join(str(x) for x in c)))
++    o += ["", "## The words the sweep reads", "", "| wall | its name | its words |", "|---|---|---|"]
++    for w in L["walls"]:
++        o.append("| %s | %s | %s |" % (w["code"], w["name"], "; ".join(WALL_WORDS.get(w["code"], ())) or "its name alone"))
+     return "\n".join(o) + "\n"
+ 
+ 
+diff --git a/tests/test_topic_sweep_prints_the_wall.py b/tests/test_topic_sweep_prints_the_wall.py
+new file mode 100644
+index 000000000..18adb4be2
+--- /dev/null
++++ b/tests/test_topic_sweep_prints_the_wall.py
+@@ -0,0 +1,92 @@
++"""The topic sweep prints the ledger's row of a wall before its own list (main's card C13, item 4; WORKING_RULES, the rule of
++2026-11-12, step 1: a question of a known shape is met with its history first).
++
++Held here: what the sweep reads from the page is what the generator put there; a sweep whose expression matches a wall's name
++or words prints that wall's row, and prints it before the first arc; a sweep that matches no wall prints none; a sweep on a
++checkout without the page says so and goes on; and the words are the generator's, printed on the page."""
++import contextlib
++import importlib.util
++import io
++import pathlib
++import shutil
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _load(name, rel):
++    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
++    try:
++        spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++        m = importlib.util.module_from_spec(spec)
++        spec.loader.exec_module(m)
++    finally:
++        sys.dont_write_bytecode = was
++    return m
++
++
++TS = _load("topic_sweep_for_the_walls", "scripts/checks/topic_sweep.py")
++G = _load("views_generate_for_the_sweep", "scripts/views/generate.py")
++LEDGER = G.walls_ledger()
++
++
++def _run(*argv):
++    out = io.StringIO()
++    with contextlib.redirect_stdout(out):
++        code = TS.main(list(argv))
++    return code, out.getvalue().split("\n")
++
++
++def test_what_the_sweep_reads_from_the_page_is_what_the_generator_put_there():
++    rows = TS.walls()
++    assert rows is not None and [w["code"] for w in rows] == [w["code"] for w in LEDGER["walls"]]
++    for mine, theirs in zip(rows, LEDGER["walls"]):
++        assert (mine["name"], mine["arcs"], mine["first"], mine["outcomes"]) == (theirs["name"], theirs["arcs"], theirs["first"], theirs["by_outcome"])
++        assert mine["words"] == list(G.WALL_WORDS[mine["code"]])
++
++
++def test_a_sweep_that_matches_a_wall_prints_its_row_before_its_first_arc():
++    code, lines = _run("chiral")
++    assert code == 0
++    walls = [i for i, l in enumerate(lines) if l.startswith("  WALL ")]
++    arcs = [i for i, l in enumerate(lines) if l.startswith("  B")]
++    w1 = next(w for w in TS.walls() if w["code"] == "W1")
++    assert [lines[i] for i in walls] == [TS.wall_line(w1)] and arcs and max(walls) < min(arcs)
++    assert lines[-2].startswith("VERDICT topic-sweep /chiral/")                 # the verdict line is as it was: its readers are not changed
++    # by its name, and by a word of another wall
++    assert [l for l in _run("mirror pair")[1] if l.startswith("  WALL ")] == [TS.wall_line(w1)]
++    assert [l.split(",")[0] for l in _run("canonical")[1] if l.startswith("  WALL ")] == ["  WALL W7"]
++
++
++def test_a_sweep_that_matches_no_wall_prints_none():
++    assert not [l for l in _run("painlev")[1] if l.startswith("  WALL ")]
++    assert not [l for l in _run("zzzz-not-there")[1] if l.startswith("  WALL ")]
++
++
++def test_a_checkout_without_the_page_says_so_and_goes_on(tmp_path, monkeypatch):
++    monkeypatch.setattr(TS, "WALLS_PAGE", "docs/views/NO_SUCH_PAGE.md")
++    code, lines = _run("chiral")
++    assert code == 0 and "the ledger of walls (docs/views/NO_SUCH_PAGE.md) is not on this checkout: no wall is printed" in lines[0]
++    assert lines[-2].startswith("VERDICT topic-sweep /chiral/")
++
++
++def test_the_sweep_reads_the_page_and_not_the_rows(tmp_path):
++    """planted: the page with one count changed.  The sweep prints the changed count (it reads the page), and the ledger's own
++    lock is what refuses such a page (tests/test_ledger_of_walls.py, the page is what the generator makes)."""
++    page = (ROOT / TS.WALLS_PAGE).read_text(encoding="utf-8")
++    w1 = next(w for w in TS.walls() if w["code"] == "W1")
++    row = "| W1, %s | %d |" % (w1["name"], w1["arcs"])
++    assert page.count(row) == 1
++    (tmp_path / "docs" / "views").mkdir(parents=True)
++    (tmp_path / TS.WALLS_PAGE).write_text(page.replace(row, "| W1, %s | %d |" % (w1["name"], w1["arcs"] + 1)), encoding="utf-8")
++    planted = TS.walls(str(tmp_path))
++    assert next(w for w in planted if w["code"] == "W1")["arcs"] == w1["arcs"] + 1
++    assert planted != TS.walls() and page != (tmp_path / TS.WALLS_PAGE).read_text(encoding="utf-8")
++    # the twin: the page copied as it is reads the same
++    shutil.copy(ROOT / TS.WALLS_PAGE, tmp_path / TS.WALLS_PAGE)
++    assert TS.walls(str(tmp_path)) == TS.walls()
++
++
++def test_the_selftest_holds_its_planted_walls():
++    code, lines = _run("--selftest")
++    assert code == 0 and lines[0].startswith("selftest: PASS")
+-- 
+2.43.0
+

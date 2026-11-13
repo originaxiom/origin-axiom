@@ -1,0 +1,313 @@
+From efbf9584572420ae25427e08b379c48891f0621b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:42:12 +0000
+Subject: [PATCH] C14, patch 1 (cld-advisor, at main's word in M20): A GATE ON
+ THE PUBLIC FACE: THE PAGES A READER OUTSIDE THE PROJECT OPENS, AND THE INNER
+ WORDS ON EACH, HELD AS FOUND AND ALLOWED ONLY TO FALL
+
+Main's M20, at the owner's point of 2026-11-12 entered by main in plain words: the public face uses none of the
+record's inner words, and a gate holds it, with planted cases both ways.
+
+THE GATE, public-face, the 55th. It reads the pages of one list, PUBLIC_FACE, and counts on each the words of
+main's list: owner, main as a person, cc, seat, lane, relay, ruling or ruled, card, and a session's name. A
+possessive or a plural is counted as its word. "Main" in a phrase of plain English ("the main goal", "the main
+result", and six more) is not counted, nor is "card" as the atlas query's subcommand.
+
+THE LIST IS THE BUILDER'S READING OF M20, and main's to change: the README; the main goal; the knowledge index;
+the pages the README's "start here" sends a newcomer to that are not the working record (the programme so far,
+the plan of 2026-10-29, the vocabulary, the foundation); the two front pages of the plan (ROADMAP, MASTERPLAN);
+the generated views a newcomer is sent to; the workdesk's README; and of papers/ the paper itself and the README
+of its verification package. Not on it: the logs, the register, the status page, the seats' pages, the arcs,
+and the verdict ledger and the spine, which are named in the gate as working indices.
+
+HELD AS FOUND: 1,455 words on the 17 pages (built again on main's b1bcc7f50, where main landed this card's second patch and the README is at zero), by page and by word, written into the gate. A count may only fall,
+and a word that is new on a page fails even if another word left it in the same commit. So the gate lands
+green, and the series lowers each page to zero, one patch at a time. Three pages are at zero on this base: the README, the
+coverage view and the ledger of walls.
+
+THE TESTS. tests/test_public_face.py, four tests: the words counted and not counted (words inside other words;
+the plain-English "main"); a new word fails where another left the page, a rise fails, a fall passes, a missing
+page fails; the working record and the working indices are not on the list; and on this repository the gate
+passes and the held table is today's count. The failing-path test, in tests/test_gate_failing_paths.py: "the
+owner" put into the README fails; the same words in the progress log and in the verdict ledger pass.
+
+Not checked by main. Tested against planted errors by the session that wrote it.
+---
+ docs/PRACTICES.md                |  14 +++++
+ docs/views/THE_SPINE.md          |   3 +-
+ scripts/gates/gates.py           | 100 +++++++++++++++++++++++++++++++
+ tests/GATE_CONTROLS.json         |   3 +-
+ tests/test_gate_failing_paths.py |  19 ++++++
+ tests/test_public_face.py        |  61 +++++++++++++++++++
+ 6 files changed, 198 insertions(+), 2 deletions(-)
+ create mode 100644 tests/test_public_face.py
+
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 3bd4afa2e..c085f5f61 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1473,3 +1473,17 @@ family. Most are deductions the rule is not about.
+ **Why it exists.** B1905 read 511 arcs on selection and chirality: a measure settled no question of this kind and an extremum a
+ quarter of those it was asked, while the record had drawn the lesson in August (B1204) and put it in no governing page. Steps
+ 1, 2 and 4 of the rule are MANUAL; the topic sweep prints the ledger of walls (step 1).
++
++## The public face speaks no inner language — GATED (`public-face`) (adopted 2026-11-13, main's card C14)
++
++**The rule.** The pages a reader outside the project opens use none of the record's inner words: owner, main as a person,
++cc, seat, lane, relay, ruling or ruled, card, a session's name. A decision is a choice or a postulate and says what it fixes;
++"confirmed", "verified" and "checked" are kept for a check that can fail and say which. The working record (the logs, the
++register, the seats' pages, the arcs) keeps its words, and is labelled as the working record where the public face points to
++it; the verdict ledger and the spine are labelled working indices. The gate reads the pages of its list, `PUBLIC_FACE` in
++`scripts/gates/gates.py`, and holds the count of each word on each page as found on 2026-11-13; a count may only fall, and the
++series of card C14 lowers each page to zero. "Main" in a phrase of plain English ("the main goal", "the main result") is
++not counted.
++
++**Why it exists.** A reader outside the project met the record's inner words on its front pages, and a decision read as if
++an authority had confirmed it.
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 0efa7bdf1..8bf7036cd 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1547 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1548 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1918,5 +1918,6 @@ Generated by `scripts/views/spine.py` — 1547 locks. Regenerated with the views
+ - — `test_ledger_of_walls.py` 
+ - — `test_negative_second_computation.py` 
+ - — `test_printed_numbers.py` 
++- — `test_public_face.py` 
+ - — `test_selection_family.py` 
+ - — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index e14838bc5..6eed1113e 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3110,6 +3110,105 @@ def gate_selection_family(reader=None):
+     return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
+ 
+ 
++# ---------------------------------------------------------------------------------------------------------------------------
++# THE PUBLIC FACE SPEAKS NO INNER LANGUAGE (2026-11-13; main's card C14, at the owner's point of 2026-11-12 entered by main in
++# plain words).  The pages a reader outside the project opens use none of the record's inner words: `owner`, `main` as a
++# person, `cc`, `seat`, `lane`, `relay`, `ruling` or `ruled`, `card`, a session's name.  The working record (the logs, the
++# register, the seats' pages, the arcs) keeps its words, and the verdict ledger and the spine are labelled working indices.
++#
++# THE LIST OF THE PUBLIC FACE is the builder's reading of main's M20 and is main's to change: the README, the main goal, the
++# knowledge index, the pages the README's "start here" sends a newcomer to that are not the working record, the two front
++# pages of the plan, the generated views a newcomer is sent to, the workdesk's README, and of `papers/` the paper itself and
++# the README of its verification package (which of `papers/` is the public face is asked of main on the card).
++#
++# HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
++# of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
++# "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
++PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md",
++               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
++               "docs/views/COVERAGE.md", "docs/views/REVIEWER.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
++               "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
++WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md")      # labelled as working indices; not read here
++_PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|seat's|seat|lanes|lane's|lane|relays|relayed|relay|rulings|ruling|ruled|"
++                      r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
++_PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
++_PF_COMMAND = re.compile(r"(?<=query\.py )card\b")             # the atlas query's subcommand is a command, not the word
++
++
++def public_face_words(text):
++    """the inner words of a text, counted by word (in lower case; a possessive or plural counted as its word)"""
++    import collections as _c
++    plain = {m.start() for m in _PF_MAIN_PLAIN.finditer(text)} | {m.start() for m in _PF_COMMAND.finditer(text)}
++    out = _c.Counter()
++    for m in _PF_WORD.finditer(text):
++        if m.start() in plain:
++            continue
++        w = m.group(1).lower()
++        w = {"owner's": "owner", "owners": "owner", "main's": "main", "seats": "seat", "seat's": "seat", "lanes": "lane", "lane's": "lane",
++             "relays": "relay", "relayed": "relay", "rulings": "ruling", "cards": "card"}.get(w, w)
++        w = "cc" if re.fullmatch(r"cc\d*", w) else ("a session's name" if w.startswith(("agy", "codex", "cld-")) else w)
++        out[w] += 1
++    return out
++
++
++def public_face_counts(reader=None, pages=None):
++    reader = reader or (lambda rel: _read(rel))
++    out = {}
++    for rel in (PUBLIC_FACE if pages is None else pages):
++        try:
++            out[rel] = dict(public_face_words(reader(rel)))
++        except Exception:
++            out[rel] = None
++    return out
++
++
++def public_face_problems(counts, held=None):
++    """the pages and words above what is held, and the pages that are missing"""
++    held = PUBLIC_FACE_HELD if held is None else held
++    bad = []
++    for rel, c in counts.items():
++        if c is None:
++            bad.append("%s: the page is not there" % rel)
++            continue
++        for w, n in sorted(c.items()):
++            h = held.get(rel, {}).get(w, 0)
++            if n > h:
++                bad.append("%s: '%s' %d times, held at %d" % (rel, w, n, h))
++    return bad
++
++
++def gate_public_face(reader=None):
++    """main's card C14: the public face uses none of the record's inner words.  Held by page and word as found; may only fall."""
++    counts = public_face_counts(reader)
++    bad = public_face_problems(counts)
++    if bad:
++        return False, "%d inner word(s) on the public face above what is held: " % len(bad) + "; ".join(bad[:6])
++    total = sum(sum(c.values()) for c in counts.values() if c)
++    zero = sum(1 for c in counts.values() if c == {})
++    fell = [rel for rel, c in counts.items() if c is not None and sum(c.values()) < sum(PUBLIC_FACE_HELD.get(rel, {}).values())]
++    return True, "ok (%d page(s) of the public face read: %d at zero; %d inner word(s) held by page and word as found on 2026-11-13%s)" % (
++        len(counts), zero, total, ("; lower the count of " + ", ".join(fell)) if fell else "")
++
++
++PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
++    # README.md: at zero since C14's second patch, which main landed (2026-11-13)
++    'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 6, 'ruled': 1, 'seat': 11},
++    'knowledge/INDEX.md': {'owner': 1},
++    'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
++    'docs/THE_FINAL_ATTACK_2026-10-29.md': {'main': 2, 'owner': 5, 'ruled': 1, 'seat': 3},
++    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
++    'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
++    'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
++    'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
++    'docs/views/CONTEXT_RECOVERY.md': {'card': 2, 'main': 4, 'owner': 4, 'ruled': 1, 'seat': 8},
++    'docs/views/CLOSED_DOORS.md': {'card': 2, 'cc': 4, 'lane': 7, 'main': 9, 'owner': 2, 'seat': 5},
++    'docs/views/REVIEWER.md': {'lane': 2, 'main': 5},
++    'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
++    'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
++    'papers/P3_THE_PAPER/verification_package/README.md': {'main': 3},
++}
++
++
+ _SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
+ 
+ 
+@@ -3316,6 +3415,7 @@ GATES = {
+     "seat-positive-verified": gate_seat_positive_verified,
+     "negative-second-computation": gate_negative_second_computation,
+     "selection-family": gate_selection_family,
++    "public-face": gate_public_face,
+ }
+ 
+ 
+diff --git a/tests/GATE_CONTROLS.json b/tests/GATE_CONTROLS.json
+index 3d00fe0a6..6d6455773 100644
+--- a/tests/GATE_CONTROLS.json
++++ b/tests/GATE_CONTROLS.json
+@@ -53,5 +53,6 @@
+  "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused",
+  "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused",
+  "negative-second-computation": "tests/test_negative_second_computation.py::test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_twin_passes",
+- "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family"
++ "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family",
++ "public-face": "tests/test_gate_failing_paths.py::test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record"
+ }
+diff --git a/tests/test_gate_failing_paths.py b/tests/test_gate_failing_paths.py
+index d892fb000..e0a1909d0 100644
+--- a/tests/test_gate_failing_paths.py
++++ b/tests/test_gate_failing_paths.py
+@@ -436,3 +436,22 @@ def test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_n
+     ok, msg = gates.gate_selection_family(reader=read)
+     assert ok and "1 older line(s)" in msg
+ 
++
++
++
++def test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record():
++    """C14 (2026-11-13): a word of the list added to a page of the public face fails; the same word in the progress log, or in
++    a quotation of a verdict line on a labelled working index, is not read."""
++    real = gates._read
++    def reader(extra):
++        def r(rel):
++            t = real(rel)
++            return t + extra.get(rel, "")
++        return r
++    ok, _ = gates.gate_public_face(reader=reader({}))
++    assert ok
++    ok, msg = gates.gate_public_face(reader=reader({"README.md": "\nThe principle was confirmed by the owner.\n"}))
++    assert not ok and "README.md: 'owner'" in msg
++    ok, _ = gates.gate_public_face(reader=reader({"PROGRESS_LOG.md": "\nThe owner confirmed it.\n", "docs/views/VERDICT_LEDGER.md": "\nthe SM seat's B9\n"}))
++    assert ok
++
+diff --git a/tests/test_public_face.py b/tests/test_public_face.py
+new file mode 100644
+index 000000000..27429c62a
+--- /dev/null
++++ b/tests/test_public_face.py
+@@ -0,0 +1,61 @@
++"""The gate `public-face` (main's card C14): the pages a reader outside the project opens use none of the record's inner words.
++
++Held here: the words the reader counts and those it does not; "main" in a phrase of plain English; the count held by page and
++by word, so that a new word fails even where another left the page; the working record and the working indices not read;
++a missing page fails; and the gate on this repository, with today's counts."""
++import importlib.util
++import pathlib
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _gates():
++    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
++    try:
++        spec = importlib.util.spec_from_file_location("gates_for_the_public_face", ROOT / "scripts" / "gates" / "gates.py")
++        m = importlib.util.module_from_spec(spec)
++        spec.loader.exec_module(m)
++    finally:
++        sys.dont_write_bytecode = was
++    return m
++
++
++g = _gates()
++words = g.public_face_words
++
++
++def test_the_words_it_counts_and_the_words_it_does_not():
++    assert words("The owner's ruling, relayed by the SM seat to main, was ruled on a card.") == {
++        "owner": 1, "ruling": 1, "relay": 1, "seat": 1, "main": 1, "ruled": 1, "card": 1}
++    assert words("cc3 and cc read agy-002's lane, and codex and cld-advisor read the lanes") == {"cc": 2, "a session's name": 3, "lane": 2}
++    # not counted: the words inside other words, and the plain-English "main"
++    assert words("ownership, seated, planes, relayer, cardinal, domain, mainly, remains, pruled") == {}
++    assert words("The main goal is stated; the main result is open; MAIN_GOAL.md is a file.") == {}
++    assert words("main reads the main goal") == {"main": 1}
++    # the atlas query's subcommand is a command; the word elsewhere is counted
++    assert words("`python3 scripts/atlas/query.py card B1812`") == {} and words("the seat's card") == {"seat": 1, "card": 1}
++
++
++def test_a_new_word_fails_even_where_another_left_the_page():
++    held = {"README.md": {"owner": 2}}
++    assert g.public_face_problems({"README.md": {"owner": 2}}, held) == []
++    assert g.public_face_problems({"README.md": {"owner": 1}}, held) == []
++    assert g.public_face_problems({"README.md": {"owner": 1, "seat": 1}}, held) == ["README.md: 'seat' 1 times, held at 0"]
++    assert g.public_face_problems({"README.md": {"owner": 3}}, held) == ["README.md: 'owner' 3 times, held at 2"]
++    assert g.public_face_problems({"README.md": None}, held) == ["README.md: the page is not there"]
++
++
++def test_the_working_record_and_the_working_indices_are_not_read():
++    assert "PROGRESS_LOG.md" not in g.PUBLIC_FACE and "docs/POINT_REGISTER.md" not in g.PUBLIC_FACE
++    assert not set(g.WORKING_INDICES) & set(g.PUBLIC_FACE)
++    assert not [p for p in g.PUBLIC_FACE if p.startswith(("docs/seats/", "docs/progress/", "docs/handoffs/", "frontier/", "relays/"))]
++
++
++def test_on_this_repository_the_gate_passes_and_every_page_is_held_as_found():
++    ok, detail = g.GATES["public-face"]()
++    assert ok is True, detail
++    counts = g.public_face_counts()
++    assert all(c is not None for c in counts.values())
++    assert {k: v for k, v in counts.items() if v} == {k: v for k, v in g.PUBLIC_FACE_HELD.items() if v}
++    assert set(g.PUBLIC_FACE_HELD) <= set(g.PUBLIC_FACE)
+-- 
+2.43.0
+

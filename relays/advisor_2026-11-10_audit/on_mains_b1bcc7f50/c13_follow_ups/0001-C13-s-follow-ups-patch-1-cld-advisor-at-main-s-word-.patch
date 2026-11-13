@@ -1,0 +1,126 @@
+From ee524c68d9aa9897e180f4b579500a150a132c50 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:45:20 +0000
+Subject: [PATCH] C13's follow-ups, patch 1 (cld-advisor, at main's word in
+ M23, item 7): B1905'S SCRIPT WRITES ITS KEPT TABLE ONLY WHEN ASKED (--write);
+ A RUN OF THE LOCK OR OF THE LEDGER'S GENERATOR WRITES NOTHING, AND TESTS HOLD
+ BOTH
+
+Main's M23, item 7: the script writes its kept table only when asked (--write); a run of the lock or of the ledger's
+generator writes nothing, and a test holds that.
+
+- sweep_tables.py (main's script): its one write, of sweep_tables.json, stands under `if "--write" in sys.argv[1:]`,
+  with a dated comment; its docstring's line on what it writes says "with --write (2026-11-13)". Nothing else changes.
+- B1905's lock: it compares main's script with main's copy in git's history, as C13's first patch made it; the
+  comparison now takes this seat's two changes back first (`_as_main_gave_it`), so it still holds that the rest is
+  main's, byte for byte, under a dated comment.
+- Two tests. The script run as a program from a copy of its folder writes no table without --write and writes it with
+  --write; the twin, main's script as handed over, writes it at every run. The lock's own reading of the script and the
+  ledger's generator leave the kept table's time and bytes as they were.
+
+BEFORE: on the script as it stood, the lock's new tests fail (the guard is not there); after, the arc's tests and the
+ledger's: 18 passed.
+
+0 of 19.
+---
+ .../verification/sweep_tables.py              |  5 +-
+ ...lection_and_chirality_across_the_record.py | 56 ++++++++++++++++++-
+ 2 files changed, 58 insertions(+), 3 deletions(-)
+
+diff --git a/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py b/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py
+index 45315abfc..317fe8efe 100644
+--- a/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py
++++ b/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py
+@@ -12,7 +12,7 @@ WHAT THIS DOES
+      doubled must not be found.
+   2. The tables: wall by outcome; kind of principle by outcome; the combinations; and a split of the settled rows of
+      four walls by the words of their outcome (crude, and said so).
+-  Written to sweep_tables.json; printed as sweep_tables_run.txt.
++  Written to sweep_tables.json with --write (2026-11-13); printed as sweep_tables_run.txt.
+ WHAT IT IS NOT: a judgement of main's.  The classes are the readers', one reader an arc, not independently checked.
+ HOW IT COULD FAIL: a row without a key; a quotation not found; a control found; the commit not in the clone (said aloud)."""
+ import json, collections, pathlib, re, subprocess, sys
+@@ -91,7 +91,8 @@ if __name__ == "__main__":
+     rows = load(); T = tables(rows)
+     Q = quotes(rows) if have(READ) else {"NOT RUN": "the commit the readers read, %s, is not in this clone" % READ}
+     out = {"the quotations": Q, "the tables": T}
+-    (HERE / "sweep_tables.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
++    if "--write" in sys.argv[1:]:   # 2026-11-13, at main's word (M23, item 7): the kept table is written only when asked
++        (HERE / "sweep_tables.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+     print("rows %d; about selection or chirality %d; neither on reading %d" % (T["rows"], T["about selection or chirality"], T["neither on reading"]))
+     print("quotations: %s" % json.dumps(Q))
+     print("by topic: %s" % T["by topic"]); print("by outcome: %s" % T["by outcome"])
+diff --git a/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py b/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
+index 9481e6d11..7821b0837 100644
+--- a/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
++++ b/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
+@@ -138,7 +138,10 @@ def test_the_rows_and_the_lists_are_the_files_main_gave():
+     # the two files are also in the folder main handed over, and are the same files there (the folder is in git's
+     # history since it left the tree with this arc)
+     for name in ("rows.json.txt", "arcs_by_title.json", "sweep_tables.py"):
+-        assert _as_handed_over("b1905_selection_and_chirality/verification/" + name) == (HERE / name).read_bytes(), name
++        here = (HERE / name).read_bytes()
++        if name == "sweep_tables.py":   # 2026-11-13 (M23, item 7): main's script, but for the guard on its one write
++            here = _as_main_gave_it(here.decode("utf-8")).encode("utf-8")
++        assert _as_handed_over("b1905_selection_and_chirality/verification/" + name) == here, name
+     assert not (ROOT / HANDED_OVER).exists(), "the hand-over folder left the tree with this arc"
+ 
+ 
+@@ -236,3 +239,54 @@ def test_the_rule_that_came_with_the_arc_stands_in_the_working_rules_in_mains_wo
+     block = "\n".join(l[4:] if l.startswith("   > ") else l[3:].lstrip("> ").rstrip() if l.strip() == ">" else l for l in card.split("\n") if l.startswith("   >"))
+     assert flat(block) == flat(section)
+     assert "the rule in `WORKING_RULES.md`, \"BEFORE A SELECTION OR A HAND IS CLAIMED\"" in flat(PAGE)
++
++
++# --- 2026-11-13, main's M23, item 7: the script writes its kept table only when asked ---
++
++_GUARD = ('''    if "--write" in sys.argv[1:]:   # 2026-11-13, at main's word (M23, item 7): the kept table is written only when asked
++        (HERE / "sweep_tables.json").write_text(''', '''    (HERE / "sweep_tables.json").write_text(''')
++_DOC = ("  Written to sweep_tables.json with --write (2026-11-13); printed as sweep_tables_run.txt.",
++        "  Written to sweep_tables.json; printed as sweep_tables_run.txt.")
++
++
++def _as_main_gave_it(text):
++    """the script with this seat's two changes taken back: what main handed over"""
++    assert text.count(_GUARD[0]) == 1 and text.count(_DOC[0]) == 1
++    return text.replace(_GUARD[0], _GUARD[1]).replace(_DOC[0], _DOC[1])
++
++
++def _run_as_a_script(tmp_path, source, *args):
++    """main's script run as a program from a copy of its folder, with the arguments given; returns what it wrote there"""
++    import shutil, sys as _sys
++    d = tmp_path / "frontier" / "B0x" / "verification"; d.mkdir(parents=True)
++    for name in ("rows.json.txt", "arcs_by_title.json"):
++        shutil.copy(HERE / name, d / name)
++    p = d / "sweep_tables.py"; p.write_text(source, encoding="utf-8")
++    was = _sys.argv
++    try:
++        _sys.argv = [str(p), *args]
++        g = {"__name__": "__main__", "__file__": str(p)}
++        exec(compile(source, str(p), "exec"), g)
++    finally:
++        _sys.argv = was
++    return sorted(x.name for x in d.iterdir())
++
++
++def test_the_script_writes_its_table_only_when_asked(tmp_path, capsys):
++    source = (HERE / "sweep_tables.py").read_text(encoding="utf-8")
++    assert "sweep_tables.json" not in _run_as_a_script(tmp_path / "a", source)
++    assert "sweep_tables.json" in _run_as_a_script(tmp_path / "b", source, "--write")
++    # the twin: main's script as handed over writes at every run
++    assert "sweep_tables.json" in _run_as_a_script(tmp_path / "c", _as_main_gave_it(source))
++    capsys.readouterr()
++
++
++def test_the_lock_and_the_ledgers_generator_write_nothing():
++    kept = HERE / "sweep_tables.json"
++    before = (kept.stat().st_mtime_ns, kept.read_bytes())
++    _mains()
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("views_generate_for_b1905", ROOT / "scripts" / "views" / "generate.py")
++    gen = importlib.util.module_from_spec(spec); spec.loader.exec_module(gen)
++    gen.walls_ledger()
++    assert (kept.stat().st_mtime_ns, kept.read_bytes()) == before
+-- 
+2.43.0
+

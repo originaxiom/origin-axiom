@@ -1,0 +1,94 @@
+From e0111d25cb8448eff0d4dbaac2d8e496f8fb12b9 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:36:34 +0000
+Subject: [PATCH] C13, patch 5 (cld-advisor, at main's word in M19): THE LOG'S
+ ENTRY FOR THE SERIES, WRITTEN FOR MAIN TO REWORD AT THE LANDING
+
+One entry at the head of the changelog and its pair at the end of the progress log, as the third part of
+R80b carried one. The changelog's says what each of the four patches does. The progress log's says it in
+plain words for a reader outside the record: what was read, what was found, what was built, what it does not
+do, and that no piece of the plan moved. Both are main's to reword or to replace at the landing.
+
+Every gate passes but the count of landings. 0 of 19.
+---
+ CHANGELOG.md                   |  9 +++++++++
+ PROGRESS_LOG.md                | 12 ++++++++++++
+ README.md                      |  2 +-
+ docs/views/CONTEXT_RECOVERY.md |  2 +-
+ 4 files changed, 23 insertions(+), 2 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 17e53f798..81006ed9d 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,14 @@
+ # Changelog
+ 
++## S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831, P-846) (2026-11-12)
++
++- **Built as patches by the building session** from main's draft, rows and script for B1905 and main's card C13, read cold by a verifying session, and landed by main after its own check. The page, the verdict line, every number and the rule are main's; none is reworded.
++- **The arc B1905:** main's page and verdict file as drafted, its 636 rows, its lists, its script and its kept run. Its lock holds the rows by their digest, makes the tables again from them, finds every number of the page and of the verdict line in a sentence built from the rows, looks for every quotation at the commit the readers read (and says so aloud where that commit is not in the clone), and fails on main's two plants.
++- **The rule** "BEFORE A SELECTION OR A HAND IS CLAIMED" is the last section of the working rules, in main's words.
++- **The ledger of walls** (`docs/views/LEDGER_OF_WALLS.md`) is generated with the views from B1905's rows alone: for each of the eight walls, where it was first met, the arcs that settled their question without a pick, what was tried by which kind of principle and how it ended, the questions found to be wrong, and those later corrected. Two of its readings are the builder's and say so; row P-846 holds what is open about it.
++- **The topic sweep** prints the ledger's row of every wall whose name or words its expression matches, before its own list.
++- **The gate `selection-family`,** the 54th: a verdict line from B1905 on that claims a selection, with a value or a member as its object, has a page that names a finite classification or a consistency condition. Older lines are counted and not read: 114 on the day it came in.
++
+ ## S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-11-12)
+ 
+ - **Built as patches by the building session** from main's table of the 57 findings and its checks (P-832, P-833), read cold by a verifying session, and landed by main after its own check. No statement of the mathematics and no number is the builder's.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index f4c775c30..5edf5025c 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20194,3 +20194,15 @@ seat's check. Six are left.
+ **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+ 
+ 0 of 19.
++
++## 2026-11-12 — What the record has settled about choosing, and a ledger of the walls it keeps meeting (S306p)
++
++**What this is.** Main read the whole record for what it ever settled about two questions: how one thing is chosen out of several, and how a left-handed form is told from a right-handed one. Six reading sessions read 636 arcs, one arc each. The answer: neither question is solved, and no page says it is. The record had drawn the lesson already in August, in an arc that no governing page named.
++
++**What was built.** A building session placed main's reading as an arc of the record with a test that checks every number against the rows it comes from. Main's rule for the future is in the working rules: before claiming that something is chosen, read the history of that kind of question, say what the computation assumes and change it, and use only a kind of criterion that has ever chosen anything here. A new page lists the walls the record keeps meeting, each with its history; the search that every new piece of work starts with now prints that history first; and a new check asks any new claim of a choice to say which kind of criterion it uses.
++
++**What it does not do.** It does not say that the readers sorted each arc correctly: each was read once. It does not touch the mathematics.
++
++**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
++
++0 of 19.
+diff --git a/README.md b/README.md
+index c87947cd5..9805f02fc 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1620: 1124 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
+ | points in the register | 846: 309 open (queued work, leads, and questions not yet decided), 537 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
++| the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PR… |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index c76e258c2..7fd598a6d 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…
+ - S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…
+ - S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
+ - S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)
+@@ -60,7 +61,6 @@
+ - S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
+ - S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
+ - S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
+-- S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
+ 
+ ## The latest campaign line
+ 
+-- 
+2.43.0
+

@@ -1,0 +1,65 @@
+From 12bc0eab40baea2d7e09cfc835d310722ee640fe Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:44:15 +0000
+Subject: [PATCH] C16, patch 9 (cld-advisor, at main's word in M22; a cold
+ reader's finding (j) on R80b's part 3, patch 15, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): B1028'S TEST READS A LIST BY ITS ITEMS WHATEVER
+ ITS BULLETS
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+THE FINDING, MADE AGAIN. The sweep of the freedom ledger's zero reads a list item by item, so that a correction
+in one item does not excuse the zero in another. An item was taken only from "-", "*", "+" or a number. The
+test's own planted list, written with typographic bullets, was one unit: the zero in its third item was
+excused by the correction in its first (one bare statement with "-", none with "•").
+
+THE MEND. An item is also taken from the typographic bullets (•, ◦, ‣, ⁃, ∙, ▪, ●), an en or em dash, and a
+letter with a full stop or a bracket, under a dated note that keeps the pattern as it stood. The sweep of every
+page that states the zero, in the same file, still passes: the wider reading meets nothing new on the record.
+
+THE TEST: the planted list with each of eleven bullets reports the zero; each twin, the correction inside the item
+that states it, is not reported. The test file: 11 passed. Not checked by main.
+---
+ tests/test_b1028_freedom_ledger.py | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+diff --git a/tests/test_b1028_freedom_ledger.py b/tests/test_b1028_freedom_ledger.py
+index 37d549b42..9b6d9cc79 100644
+--- a/tests/test_b1028_freedom_ledger.py
++++ b/tests/test_b1028_freedom_ledger.py
+@@ -130,7 +130,11 @@ OLD_ZERO = re.compile(r"0\.000\s+(?:retroactive\s+)?(?:designer\s+)?bits|zero\s+
+ ABOUT_LEDGER = re.compile(r"designer|freedom[ -]ledger|B1028", re.I)
+ 
+ 
+-_A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
++# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first): an item
++# of a list was taken only from "-", "*", "+" or a number, so the same list with typographic bullets was one unit.  The
++# pattern as it stood:
++#     _A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
++_A_BULLET = re.compile(r"^\s*(?:[-*+\u2022\u25e6\u2023\u2043\u2219\u25aa\u25cf\u2013\u2014]|\d+[.)]|[a-z][.)])\s+")
+ 
+ 
+ def _units(text):
+@@ -245,3 +249,18 @@ def test_the_sweep_sees_what_the_second_reading_found():
+               "the twisted-vs-raw weld convention (0 bits), and the listener member (0 bits)",
+               "what B1028 called zero designer freedom: " + MARK):
+         assert not _bare_statements(s), s
++
++
++def test_a_list_is_read_by_its_items_whatever_its_bullets():
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first).  The
++    list of the test above, with typographic bullets: read as one unit, the correction in its first item excused the zero in
++    its third.  Each item is read now, with each bullet a list is written with here; the twin is as above."""
++    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
++    plain = "The counterexamples:\n- one thing, noted. " + note + "\n- a second thing\n- **designer freedom 0.000 bits** is a count over the chain"
++    assert len(_bare_statements(plain)) == 1
++    for bullet in ("\u2022", "\u25e6", "\u2023", "\u2043", "\u2219", "\u25aa", "\u25cf", "\u2013", "\u2014", "1.", "a)"):
++        text = plain.replace("\n- ", "\n" + bullet + " ")
++        assert len(_bare_statements(text)) == 1, repr(bullet)
++        twin = text.replace(" is a count over the chain", " is a count over the chain " + note)
++        assert _bare_statements(twin) == [], repr(bullet)
++
+-- 
+2.43.0
+

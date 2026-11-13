@@ -1,0 +1,1114 @@
+From 59f355d5c8d745a7d1b21673b15ef671711df3cb Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:45:52 +0000
+Subject: [PATCH] C13's follow-ups, patch 3 (cld-advisor, at main's word in
+ M23, item 5): THE 115 OLDER VERDICT LINES THE GATE READS AS CLAIMS ARE
+ CLASSIFIED ONCE, WITH THEIR CLAUSES AND THE PAGE'S WORDS, AND THE GATE HOLDS
+ THEM BY NAME WITH THEIR CLASS
+
+Main's M23, item 5: the gate selection-family reads every verdict line. The 115 older lines that it reads as claims are
+classified once, each with a quotation: a deduction (the rule is not about it); a selection claimed by a finite
+classification with a test of membership, or by a consistency condition that can fail (the family named); or a
+selection claimed with neither, which gets a dated note on its arc and a register row if anything rests on it. The gate
+then holds the older lines by name with their class. The classifying is reading; main checks every row it marks a
+selection.
+
+- frontier/B1905_.../verification/older_verdict_lines_classified.json (new): 115 rows, each the arc, its class, and its
+  clauses, the gate's own reading of its verdict line, word for word. Four classes: 63 deduction; 27 no claim (the clause
+  denies, conditions, mentions or reports a selection, or names one as a choice or an input: the gate's reading over-
+  reads them, and the rule is not about them); 13 family named, each with the words on its page that name the
+  classification or the condition (B218, B781, B860, B1104, B1141, B1199, B1265, B1294, B1409, B1476, B1477, B1869,
+  B1879); 12 neither, on this reading (B44, B125, B266, B1154, B1228, B1230, B1235, B1258, B1298, B1406, B1806, B1857).
+- scripts/gates/gates.py: older_selection_lines reads every verdict line before B1905 and the table: an older line read as
+  a claim and not in the table, a row whose line no longer reads so or reads other clauses, a class not of the four, and
+  a family named whose words are not on its page, are each reported, and the gate fails on any. Its message counts the
+  classes. The reading of the lines from B1905 on is unchanged.
+- tests/test_selection_family.py: one test: the table holds and its classes sum to 115; four plants, each reported (a
+  row taken out, a class not of the four, a family's words not on the page, a row whose clauses differ); the twin, the
+  table as it is, passes. One assertion of the test of the repository gains a dated line.
+
+NOT DONE HERE, AND WHY: the dated notes on the twelve arcs of class neither, and register rows where something rests on
+them. Main checks every row marked a selection first; the notes follow its check, so that a note is not written on a
+row main reads otherwise.
+
+BEFORE: the new test fails on the gate as it stood. The gate's tests, the gates' failing paths, B1905's lock, the ledger
+of walls and the paper's manifest: 68 passed. Every gate passes but the count of landings.
+
+0 of 19.
+---
+ .../older_verdict_lines_classified.json       | 940 ++++++++++++++++++
+ scripts/gates/gates.py                        |  58 +-
+ tests/test_selection_family.py                |  32 +-
+ 3 files changed, 1028 insertions(+), 2 deletions(-)
+ create mode 100644 frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
+
+diff --git a/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json b/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
+new file mode 100644
+index 000000000..925f71461
+--- /dev/null
++++ b/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
+@@ -0,0 +1,940 @@
++{
++ "what": "The verdict lines before B1905 that the gate selection-family reads as claiming a selection, each classified once with its clauses (the gate's reading of the line, word for word): a deduction or no claim (the rule is not about it), a selection whose page names its family (a finite classification with a test of membership, or a consistency condition; the page's words given), or a selection with neither. Built 2026-11-13 by the building session at main's word (M23, item 5); main checks every row marked a selection.",
++ "rows": [
++  {
++   "arc": "B31",
++   "class": "no claim",
++   "clauses": [
++    "Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without the extra A-sector matching rule"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B44",
++   "class": "neither",
++   "clauses": [
++    "|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B45",
++   "class": "no claim",
++   "clauses": [
++    "lambda/h=1 is selected only if the primitive sector is treated as ground state"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B46",
++   "class": "no claim",
++   "clauses": [
++    "The selected quadratic t^2-3t+1 divides the SL"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B92",
++   "class": "no claim",
++   "clauses": [
++    "m is free, m=1 selected only by the systole metric"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B125",
++   "class": "neither",
++   "clauses": [
++    "SnapPy invariant trace fields show arithmeticity selects m=1"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B185",
++   "class": "no claim",
++   "clauses": [
++    "Cusp-gluing selects continuum to discrete but never to a forced-unique value, and 1-cusp metallic units cap all-unit interaction at pairs"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B218",
++   "class": "family named",
++   "clauses": [
++    "Jones-index quantization selects golden as the unique metallic mean realizable as a unitary anyon"
++   ],
++   "on the page": "among all metallic means"
++  },
++  {
++   "arc": "B249",
++   "class": "deduction",
++   "clauses": [
++    "Niven's theorem forces the orbifold trace fields to be clean quadratics only at the hyperbolic and spherical ends, making E₆+E₈ and the E₇ exclusion one arithmetic fact"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B251",
++   "class": "deduction",
++   "clauses": [
++    "² forces only m=1 to be a knot complement, so the E6↔E8 geometric transition is golden-specific"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B266",
++   "class": "neither",
++   "clauses": [
++    "The trace field's unique ramified prime canonically selects E6"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B327",
++   "class": "deduction",
++   "clauses": [
++    "Proved n1=n2 in the 27|2T branching is forced by self-duality rather than integer spin, reducing the hierarchy CRUX to whether 2T embeds quaternionically in E6"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B356",
++   "class": "deduction",
++   "clauses": [
++    "-factoring route forces a quaternionic self-dual 2"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B404",
++   "class": "deduction",
++   "clauses": [
++    "=−1 one-directionally forces 5|ord"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B406",
++   "class": "deduction",
++   "clauses": [
++    "The 15a1/40a1 Hecke pattern is verified, but the mod-4 congruence holding at every good prime below 200 is forced by rational torsion, killing the 'modular correspondence = quantization map' lead at the congruence level"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B430",
++   "class": "deduction",
++   "clauses": [
++    "Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the fermion door is closed as a derivation"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B434",
++   "class": "deduction",
++   "clauses": [
++    "The object's exceptional-slope boundary forces slope +-5 as minimal chirality input, whose output is the Meyerhoff manifold with new arithmetic"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B441",
++   "class": "deduction",
++   "clauses": [
++    ", identical to the surgery skeleton at every r, so its sqrt5/sqrt-3/sqrt-15 content is forced, not the object'specific"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B557",
++   "class": "deduction",
++   "clauses": [
++    "is FORCED at rung 1 and a CHOICE above it",
++    "B517 intertwining forces C=p"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B677",
++   "class": "deduction",
++   "clauses": [
++    "semisimplicity forces HH^{>=1}=0 and weld-weighted characters are Q"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B694",
++   "class": "deduction",
++   "clauses": [
++    "= +1, and rational base change forces every Bianchi Hecke eigenvalue into Q, so the automorphic avatar structurally cannot carry the golden"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B727",
++   "class": "deduction",
++   "clauses": [
++    "'E6 across three faces' is forced by one ADE classification, so the recurrence is generic not evidence"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B746",
++   "class": "no claim",
++   "clauses": [
++    "golden is FORCED on 10 of 12 structural floors while the voice floor carries zero golden markers and is pure Q"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B769",
++   "class": "deduction",
++   "clauses": [
++    "T1's fixedness under the closing group is forced because <c,theta,gamma_5> ="
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B781",
++   "class": "family named",
++   "clauses": [
++    "m004 is uniquely selected over its V4-sharing sister m003 by monodromy trace 3"
++   ],
++   "on the page": "among the amphicheiral V4 manifolds, the downstream chain selects"
++  },
++  {
++   "arc": "B849",
++   "class": "deduction",
++   "clauses": [
++    "=0 and amphichirality forces every orientation-odd invariant to 2-torsion"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B856",
++   "class": "deduction",
++   "clauses": [
++    "Re h is invariant across listener directions to 2e-16, so the coupling FORCES a value rather than carrying one"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B860",
++   "class": "family named",
++   "clauses": [
++    "and the SM is selected uniquely under one named premise"
++   ],
++   "on the page": "enumerated, no other patterns"
++  },
++  {
++   "arc": "B862",
++   "class": "deduction",
++   "clauses": [
++    "the chain FORCES Z6, resolving a structural ambiguity the SM itself cannot"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B873",
++   "class": "deduction",
++   "clauses": [
++    "dim+index enumeration forces the 27-branching uniquely onto the self-conjugate"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B924",
++   "class": "deduction",
++   "clauses": [
++    "t^2 = 1 mod 15 forces t = +-1 mod 5"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B935",
++   "class": "deduction",
++   "clauses": [
++    "yields exactly FOUR invariant triples MOST OF WHICH ARE FORCED TO COINCIDE"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B952",
++   "class": "deduction",
++   "clauses": [
++    "and forces M_GUT >~ 1e16 GeV",
++    "THE SECOND MEASUREMENT PRESERVES RANK EXACTLY, and this is FORCED rather than incidental"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B954",
++   "class": "deduction",
++   "clauses": [
++    "The Z/2 grading forces",
++    "the grading facts are forced by the Z/2 structure and are not E6-specific except for the dimensions and ranks"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B956",
++   "class": "deduction",
++   "clauses": [
++    "THE CONSTRUCTION THAT BUYS CHIRALITY IS EXACTLY THE ONE THAT FORCES THE CLOSURE TO BE FULL, and a full closure has commutant of rank 0"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B958",
++   "class": "deduction",
++   "clauses": [
++    "with dim 12, which forces M12 to sit inside the centralizer of colour su"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B960",
++   "class": "deduction",
++   "clauses": [
++    "So the simply connected form is FORCED by the presence of the 27, B959's torality step applies without qualification, and B959's NO-GO IS COMPLETE WITHIN ITS CLASS"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B963",
++   "class": "deduction",
++   "clauses": [
++    "B576 read carefully says only 'along any integrable deformation OF THE GEOMETRIC REPRESENTATION with a nonzero theta-odd component, the Zariski closure is forced to full E6"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B968",
++   "class": "deduction",
++   "clauses": [
++    "proved for the simply connected form, which B960 shows is forced by the presence of the 27",
++    "and THE F4 WALL IS THE GENERIC 27 VEV, the rank-3 full-measure orbit having stabilizer F4, with chirality surviving only on the measure-zero rank-1 orbit, which FORCES two VEVs"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B969",
++   "class": "no claim",
++   "clauses": [
++    "/Z6 explicitly and calls it the first place the selected structure OUTPERFORMS the SM's own, since the SM cannot fix its own global form"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B976",
++   "class": "no claim",
++   "clauses": [
++    "/Z6 and calls it the first place the selected structure OUTPERFORMS the SM's own"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B979",
++   "class": "deduction",
++   "clauses": [
++    "So the four-letter principle plus six motivated axioms forces the object UP TO EXACTLY ONE BIT, and that bit is identifiable, named, and is the origin of phi"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1005",
++   "class": "no claim",
++   "clauses": [
++    "forces and what it provably cannot, with the 276 negatives as the evidence it was tested"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1010",
++   "class": "deduction",
++   "clauses": [
++    "= -1 exact, Re h listener-invariant, THE COUPLING FORCES A VALUE RATHER THAN CARRYING ONE"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1064",
++   "class": "deduction",
++   "clauses": [
++    "CS = 0 forces dS/dk = 0 identically, B1012"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1070",
++   "class": "deduction",
++   "clauses": [
++    ", is forced-zero at m = 3, 5, admits NO joint eigenframe"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1080",
++   "class": "deduction",
++   "clauses": [
++    "Gamma = Z/6 is forced UNIFORMLY on the su"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1104",
++   "class": "family named",
++   "clauses": [
++    "selects exactly the cusp-silent central involution while the tick-filter",
++    "selects exactly the two reflections, JOINT SURVIVOR SET EMPTY"
++   ],
++   "on the page": "A cusp-only enumeration would have"
++  },
++  {
++   "arc": "B1122",
++   "class": "deduction",
++   "clauses": [
++    "seam forces chi_L=chi_R"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1139",
++   "class": "no claim",
++   "clauses": [
++    "so 3/8 is FORCED-DIRECTION + ASSUMED-NORMALIZATION, the canonical GUT value the object is consistent with, NOT a number it emits"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1141",
++   "class": "family named",
++   "clauses": [
++    "the object's own non-orientable Z/2 selects the lift",
++    "is the beat-selected structure the fermion-capable one"
++   ],
++   "on the page": "topological consistency condition"
++  },
++  {
++   "arc": "B1145",
++   "class": "no claim",
++   "clauses": [
++    "stratum's 27 over the beat-selected spin lift"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1154",
++   "class": "neither",
++   "clauses": [
++    ",c> is forced to zero by H^1",
++    "arithmetic only SELECTS which class is H_u"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1163",
++   "class": "deduction",
++   "clauses": [
++    "R3's a1=-sqrt-3/108 is FALSE, the fit forces a1=-",
++    "the object forces the period ratios, withholds only the C^x scale"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1182",
++   "class": "deduction",
++   "clauses": [
++    "action PAIR is exactly what separates r from c and forces the iso"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1190",
++   "class": "no claim",
++   "clauses": [
++    "tick-selected reflections give non-orientable mapping tori with orientation double cover exactly M x S1, canonical up to D4-conjugacy"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1192",
++   "class": "no claim",
++   "clauses": [
++    "the generic norm-+1-forces-eps=-1 mechanism does NOT hold as stated"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1199",
++   "class": "family named",
++   "clauses": [
++    "Moreau's per-length counts 1,2,3,6,9,18,30,56,99,186,335 reproduced, word set byte-identical to the packet's table, and unit-determinant + prime-conductor + trace-3 select THE SAME SINGLE CLASS"
++   ],
++   "on the page": "SL(2,ℤ/5) class enumeration"
++  },
++  {
++   "arc": "B1208",
++   "class": "deduction",
++   "clauses": [
++    "rank one forces H^1"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1214",
++   "class": "deduction",
++   "clauses": [
++    "'E6 across three faces' is forced by ONE ADE classification, so the recurrence is GENERIC NOT EVIDENCE"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1217",
++   "class": "no claim",
++   "clauses": [
++    "W:11 is the direct sum of the selected ray characters"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1220",
++   "class": "deduction",
++   "clauses": [
++    "natural under Aut, which FORCES g_*mu=mu for all g in G, holding in every regime with no extra hypothesis"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1221",
++   "class": "deduction",
++   "clauses": [
++    "B862 forces the SM's global form to Z6, resolving an ambiguity the SM's own data cannot"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1225",
++   "class": "no claim",
++   "clauses": [
++    "and concluded it 'needs a forcing theorem that selects one map before looking"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1228",
++   "class": "neither",
++   "clauses": [
++    "THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece",
++    "So k = 1 is forced by INVENTORY, not chosen"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1230",
++   "class": "neither",
++   "clauses": [
++    "B1229's 'sigma = 1 selects E6 uniquely' was therefore leaning on the restriction, and the restriction was doing real work",
++    "scanned, c = 6 has four solutions and the object's own arithmetic selects E6 alone"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1235",
++   "class": "neither",
++   "clauses": [
++    "A6'S FREE DECK SELECTS CS=0",
++    "amphichirality forces only CS in {0,1/4}"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1247",
++   "class": "no claim",
++   "clauses": [
++    "requiring the growing vacuum selects LR but replaces one declared input with two"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1257",
++   "class": "no claim",
++   "clauses": [
++    "the theorem that selects the other orbit sat one clause away, unused"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1258",
++   "class": "neither",
++   "clauses": [
++    "Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1259",
++   "class": "deduction",
++   "clauses": [
++    "the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues come in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must be det = +1, and an ODD number of them multiplying to +1 forces one to be +1"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1260",
++   "class": "deduction",
++   "clauses": [
++    "= 0 for irreducible V forces h1",
++    "so B1086's 'as PD forces on any closed double' is a special case, the wall is dimension 3 plus CLOSEDNESS, and any closed assembly is vector-like whatever its h1"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1264",
++   "class": "deduction",
++   "clauses": [
++    "torsion-free forces 0, torsion keeps it"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1265",
++   "class": "family named",
++   "clauses": [
++    "The object's own D2 SELECTS it uniquely among the five"
++   ],
++   "on the page": "The object's own D₂ selects it uniquely among the five"
++  },
++  {
++   "arc": "B1266",
++   "class": "no claim",
++   "clauses": [
++    "H5-type, where the object supplies a FAMILY and the observer picks a point"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1276",
++   "class": "deduction",
++   "clauses": [
++    "proves the object's arithmetic forces EXACTLY THREE quadratic faces"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1293",
++   "class": "no claim",
++   "clauses": [
++    ", fc R68's selected labelling c ="
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1294",
++   "class": "family named",
++   "clauses": [
++    ", which singles out fc's geometric pairing as the only one consistent with homology"
++   ],
++   "on the page": "the only alternative pairing contradicts it"
++  },
++  {
++   "arc": "B1296",
++   "class": "deduction",
++   "clauses": [
++    "forces theta_G u = +u"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1298",
++   "class": "neither",
++   "clauses": [
++    "THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1304",
++   "class": "deduction",
++   "clauses": [
++    "R20's C3-compatible character locus is forced by B1302's order-3 H1 matrix"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1321",
++   "class": "deduction",
++   "clauses": [
++    "every isolated fixed point of an orientation-preserving torus map has index +1, so the three signs are FORCED"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1328",
++   "class": "no claim",
++   "clauses": [
++    "THE THREE 'EXTENSION OVER m000 SELECTS' INSTANCES ARE ONE MECHANISM, AND IT IS A RELATION RATHER THAN A CHOICE"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1331",
++   "class": "deduction",
++   "clauses": [
++    "with dim L_V + dim L_{V*} = t_1, isotropy of L_V alone forces dim L_V <= t_1/2, and the same for V*, so their dimensions must BOTH be t_1/2"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1332",
++   "class": "deduction",
++   "clauses": [
++    "But the domain D FORCES psi cusp-trivial, hence V|_T = Sym^m = V*|_T as the SAME pi_1"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1340",
++   "class": "deduction",
++   "clauses": [
++    "once the mirrors are deleted, grav forces sum f = 0 and the cubic forces sum f^3 = 0, and sum f = 0 implies sum f^3 = 3 f1 f2 f3, so the family part of ANY anomaly-free U",
++    "once the mirrors are deleted, grav forces sum f = 0 and the cubic forces sum f^3 = 0, and sum f = 0 implies sum f^3 = 3 f1 f2 f3, so the family part of ANY anomaly-free U"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1345",
++   "class": "deduction",
++   "clauses": [
++    "THIS SELECTS THE MANIFOLD, NOT E6, and everything downstream stays exactly as subject to B727 as before"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1403",
++   "class": "deduction",
++   "clauses": [
++    "= 0 forces b and the real part then forces c, leaving only the question whether both are rational",
++    "= 0 forces b and the real part then forces c, leaving only the question whether both are rational"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1406",
++   "class": "neither",
++   "clauses": [
++    "m^2+4 = k^2 forces m = 0",
++    "The word is free because m = 1 is what five independent principles select"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1409",
++   "class": "family named",
++   "clauses": [
++    "Swept over every chiral multi-cusped degree-10 cover, selected BY PROPERTY"
++   ],
++   "on the page": "the restriction to the boundary is injective on EVERY chiral"
++  },
++  {
++   "arc": "B1442",
++   "class": "deduction",
++   "clauses": [
++    "For the nine carriers with sign characters only the absence is forced"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1446",
++   "class": "deduction",
++   "clauses": [
++    "only the classes the boundary forces"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1475",
++   "class": "deduction",
++   "clauses": [
++    "= Z/2 forces tau* = id and eta_0 != 0"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1476",
++   "class": "family named",
++   "clauses": [
++    "under the owner's rule the family is the object and A5 selected a member in the 'all' class by B279's theorem, the excluded sister the smallest 'none'"
++   ],
++   "on the page": "the 13 amphichiral rank-one members of the 112-family for the classification"
++  },
++  {
++   "arc": "B1477",
++   "class": "family named",
++   "clauses": [
++    "A5 selected a rectangular one"
++   ],
++   "on the page": "its one-cusped form holds on the census (181 of 181)"
++  },
++  {
++   "arc": "B1496",
++   "class": "no claim",
++   "clauses": [
++    "one scan filters, every construction selects"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1602",
++   "class": "deduction",
++   "clauses": [
++    "on all 74 signed threads to length eight the cover the common point forces"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1649",
++   "class": "deduction",
++   "clauses": [
++    "the zero holds in Lambda's frame, the fibre at one tau, where a cubic invariant of two rho_Q zero modes forces the Higgs's internal factor to be even"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1651",
++   "class": "deduction",
++   "clauses": [
++    "forces the puncture as the locus at the price of one end datum"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1652",
++   "class": "no claim",
++   "clauses": [
++    "the only selected vacua, omega and the cusp, have none"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1679",
++   "class": "deduction",
++   "clauses": [
++    "one common trace t, Fricke forces t in {0, 2}, t = 0 makes the generators an orthonormal frame whose triple product has trace -/+2, t = 2 is trivial"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1682",
++   "class": "deduction",
++   "clauses": [
++    "| = m + n_i - 2c_ij forces"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1701",
++   "class": "no claim",
++   "clauses": [
++    "and the state W60 and W62 single out gives degenerate heavy pairs"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1707",
++   "class": "deduction",
++   "clauses": [
++    "So on the surface route two records come from the prime 2 that the rank-two target forces, not from extending the moves"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1715",
++   "class": "no claim",
++   "clauses": [
++    "FK9 that a selection may select a measure, tested statistically"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1730",
++   "class": "deduction",
++   "clauses": [
++    "'s genus 0, and T^2 forces a in 2 + 4Z"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1786",
++   "class": "no claim",
++   "clauses": [
++    "the slope stays an input, selected by one discrete condition read from data, stable out of sample"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1789",
++   "class": "deduction",
++   "clauses": [
++    "one zero mode per field forces n = 0"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1806",
++   "class": "neither",
++   "clauses": [
++    "has order 8 and selects a"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1826",
++   "class": "no claim",
++   "clauses": [
++    "characters selected 3rd of 2048"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  },
++  {
++   "arc": "B1847",
++   "class": "deduction",
++   "clauses": [
++    "On m004 the loop is forced at its symmetric levels"
++   ],
++   "why": "the clause states what a premise implies: the rule is not about it"
++  },
++  {
++   "arc": "B1857",
++   "class": "neither",
++   "clauses": [
++    "is selected under both level-5 readings"
++   ],
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++  },
++  {
++   "arc": "B1869",
++   "class": "family named",
++   "clauses": [
++    "the same rule picks the single run of N + 1, so the run of 6 comes out because 5 goes in"
++   ],
++   "on the page": "exhaustive enumeration"
++  },
++  {
++   "arc": "B1879",
++   "class": "family named",
++   "clauses": [
++    "the tick alone fixes exactly the trivial character and the quaternion point, where the record needs both two-act moves together, so the place where the records sit is singled out by the single founding act"
++   ],
++   "on the page": "Among the thirteen histories of at most five letters, the single tick is the"
++  },
++  {
++   "arc": "B1884",
++   "class": "no claim",
++   "clauses": [
++    "so 'a canonical invariant' selects 5 only when it means the only invariant line"
++   ],
++   "why": "the clause denies, conditions, mentions or reports a selection, or names one as a choice or an input: it claims none"
++  }
++ ]
++}
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index d52881685..4c41ae4ff 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3128,14 +3128,70 @@ def selection_family_hits(reader=None, first=None):
+     return hits, older
+ 
+ 
++SELECTION_FAMILY_OLDER = "frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json"
++SELECTION_CLASSES = ("deduction", "no claim", "family named", "neither")
++
++
++def older_selection_lines(reader=None):
++    """2026-11-13 (main's M23, item 5; C13's follow-ups, patch 3): every verdict line before SELECTION_FAMILY_FROM that the
++    reading reports as a claim is held by name with its class, classified once with its clauses (SELECTION_FAMILY_OLDER).
++    Returns (problems, the count by class): an older line read as a claim and not in the table, a row whose line no longer
++    reads so or reads other clauses, a class not of the four, a row of a family named whose words are not on its page."""
++    import collections as _c
++    reader = reader or (lambda rel: _read(rel))
++    try:
++        table = {r["arc"]: r for r in json.loads(reader(SELECTION_FAMILY_OLDER))["rows"]}
++    except Exception:
++        return ["the table of older verdict lines cannot be read: " + SELECTION_FAMILY_OLDER], {}
++    seen, bad = set(), []
++    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
++        rel = os.path.relpath(p, ROOT)
++        try:
++            d = json.loads(reader(rel))
++        except Exception:
++            continue
++        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
++        if int(re.sub(r"\D", "", aid) or 0) >= SELECTION_FAMILY_FROM:
++            continue
++        claims = selection_claims_in(str(d.get("claim_one_line", "")))
++        if not claims:
++            if aid in table:
++                bad.append("%s: classified, and its verdict line no longer reads as a claim" % aid)
++            continue
++        seen.add(aid)
++        r = table.get(aid)
++        if r is None:
++            bad.append("%s: an older verdict line read as a claim and not classified" % aid)
++        elif r.get("clauses") != claims:
++            bad.append("%s: its verdict line reads other clauses than the table holds" % aid)
++        elif r.get("class") not in SELECTION_CLASSES:
++            bad.append("%s: the class %r is not one of %s" % (aid, r.get("class"), ", ".join(SELECTION_CLASSES)))
++        elif r["class"] == "family named":
++            try:
++                page = " ".join(reader(os.path.join(os.path.dirname(rel), "FINDINGS.md")).replace("**", "").split())
++            except Exception:
++                page = ""
++            if not r.get("on the page") or r["on the page"] not in page:
++                bad.append("%s: the words the table gives for its family are not on its page" % aid)
++    bad += ["%s: in the table and not an older arc whose line reads as a claim" % a for a in sorted(set(table) - seen)
++            if not any(x.startswith(a + ":") for x in bad)]
++    return bad, dict(_c.Counter(r.get("class") for a, r in table.items() if a in seen))
++
++
+ def gate_selection_family(reader=None):
+     """WORKING_RULES, the rule of 2026-11-12, step 3: an arc from B1905 on whose verdict line claims a selection, with a value
+     or a member as its object, names on its page which of the two families its criterion belongs to (B1204)."""
+     hits, older = selection_family_hits(reader)
++    held, by_class = older_selection_lines() if reader is None else ([], {})
++    if held:
++        return False, ("%d older verdict line(s) not held by name with their class (%s): " % (len(held), SELECTION_FAMILY_OLDER)) + "; ".join(held[:5])
+     if hits:
+         return False, ("%d verdict line(s) from B%d on claim a selection and the page names neither family (a finite classification with a test "
+                        "of membership, or a consistency condition): " % (len(hits), SELECTION_FAMILY_FROM)) + "; ".join("%s: %s" % h for h in hits[:5])
+-    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
++    if not by_class:
++        return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
++    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports, and %d older line(s) read as claims held by name with their class: %s)" % (
++        SELECTION_FAMILY_FROM, older, sum(by_class.values()), ", ".join("%d %s" % (n, c) for c, n in sorted(by_class.items())))
+ 
+ 
+ # ---------------------------------------------------------------------------------------------------------------------------
+diff --git a/tests/test_selection_family.py b/tests/test_selection_family.py
+index 00ab4437f..0aac64877 100644
+--- a/tests/test_selection_family.py
++++ b/tests/test_selection_family.py
+@@ -98,9 +98,39 @@ def test_on_this_repository_the_gate_passes_and_counts_the_older_lines():
+     ok, detail = g.GATES["selection-family"]()
+     assert ok is True, detail
+     hits, older = g.selection_family_hits()
+-    assert hits == [] and ("%d older line(s)" % older) in detail
++    assert hits == [] and ("%d older line(s)" % older) in detail     # 2026-11-13 (C13's follow-ups, patch 3): and held by name with their class
++    assert "held by name with their class" in detail
+     assert g.SELECTION_FAMILY_FROM == 1905
+     # B1905's own verdict line claims nothing by this reading, and its page names both families
+     v = json.loads((ROOT / "frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json").read_text(encoding="utf-8"))
+     assert claims(v["claim_one_line"]) == []
+     assert g.SELECTION_FAMILIES.search((ROOT / "frontier/B1905_selection_and_chirality_across_the_record/FINDINGS.md").read_text(encoding="utf-8"))
++
++
++def test_the_older_lines_are_held_by_name_with_their_class():
++    """C13's follow-ups, patch 3 (main's M23, item 5): every verdict line before B1905 that the reading reports as a claim is
++    classified once, with its clauses word for word and, for a family named, the page's words. Planted: a row taken out,
++    a class not of the four, a family's words not on the page, a row whose line reads other clauses."""
++    import json
++    g = _gates()
++    bad, by_class = g.older_selection_lines()
++    assert bad == [] and set(by_class) <= set(g.SELECTION_CLASSES) and sum(by_class.values()) == 115, (bad, by_class)
++    real = (ROOT / g.SELECTION_FAMILY_OLDER).read_text(encoding="utf-8")
++    table = json.loads(real)
++
++    def reader_with(t):
++        def read(rel):
++            return json.dumps(t, ensure_ascii=False) if rel == g.SELECTION_FAMILY_OLDER else (ROOT / rel).read_text(encoding="utf-8")
++        return read
++
++    rows = table["rows"]
++    one_out = dict(table, rows=[r for r in rows if r["arc"] != "B1228"])
++    assert g.older_selection_lines(reader_with(one_out))[0] == ["B1228: an older verdict line read as a claim and not classified"]
++    wrong = dict(table, rows=[dict(r, **{"class": "obvious"}) if r["arc"] == "B924" else r for r in rows])
++    assert g.older_selection_lines(reader_with(wrong))[0] == ["B924: the class 'obvious' is not one of deduction, no claim, family named, neither"]
++    words = dict(table, rows=[dict(r, **{"on the page": "a census of nothing"}) if r["arc"] == "B1477" else r for r in rows])
++    assert g.older_selection_lines(reader_with(words))[0] == ["B1477: the words the table gives for its family are not on its page"]
++    other = dict(table, rows=[dict(r, clauses=["another clause"]) if r["arc"] == "B44" else r for r in rows])
++    assert g.older_selection_lines(reader_with(other))[0] == ["B44: its verdict line reads other clauses than the table holds"]
++    # the twin: the table as it is
++    assert g.older_selection_lines(reader_with(table))[0] == []
+-- 
+2.43.0
+

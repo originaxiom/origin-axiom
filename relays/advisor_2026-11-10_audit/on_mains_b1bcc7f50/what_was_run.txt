@@ -1,0 +1,201 @@
+Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all green). Entries 88 and 89 were run again after the last change to C18 (one line of the gates, below):
+1 62d5a4e84 54 gates; red: - | 
+2 b4f1ebe2c 54 gates; red: - | 
+3 3e5123c11 54 gates; red: - | 
+4 45e1a9abd 54 gates; red: - | 
+5 27cd32fbb 54 gates; red: - | 
+6 192e1623c 54 gates; red: - | 
+7 29b278832 54 gates; red: - | 
+8 99c7b435c 54 gates; red: - | 
+9 3cacd8e1c 54 gates; red: - | 
+10 8bb00156b 54 gates; red: - | 
+11 9b1dfa59b 54 gates; red: - | 
+12 f40bc8f69 54 gates; red: - | 
+13 80aae21f6 54 gates; red: - | 
+14 f0d012c13 54 gates; red: - | 
+15 ea5247a7d 54 gates; red: - | 
+16 b7817774f 54 gates; red: - | 
+17 fda3c7a81 54 gates; red: - | 
+18 4e301bf10 54 gates; red: - | 
+19 cbabdb1a8 54 gates; red: - | 
+20 2dc35448b 54 gates; red: - | 
+21 e09a38fe8 54 gates; red: - | 
+22 ef5231550 54 gates; red: - | 
+23 dd6850fa7 54 gates; red: - | 
+24 6b1ff0bfa 54 gates; red: - | 
+25 efb26d5c9 54 gates; red: - | 
+26 7aeed870b 54 gates; red: - | 
+27 4a5b94fdf 54 gates; red: - | 
+28 346d4622b 54 gates; red: - | 
+29 cc64335c6 54 gates; red: review-fires | 
+30 553281ff8 55 gates; red: review-fires | 
+31 e0111d25c 55 gates; red: review-fires | 
+32 d91538d74 55 gates; red: review-fires | 
+33 f695c7d42 55 gates; red: review-fires | 
+34 1dbb0f88a 55 gates; red: review-fires | 
+35 1fb4ef442 55 gates; red: review-fires | 
+36 0415f9503 55 gates; red: review-fires | 
+37 bf096c226 55 gates; red: review-fires | 
+38 f5ea3ea1f 55 gates; red: review-fires | 
+39 095849df0 55 gates; red: review-fires | 
+40 cc5a1a923 55 gates; red: review-fires | 
+41 65b25a2b8 55 gates; red: review-fires | 
+42 04bfdf9de 55 gates; red: review-fires | 
+43 cadc433fe 55 gates; red: review-fires | 
+44 bc7288cd2 55 gates; red: review-fires | 
+45 7c8daab73 55 gates; red: review-fires | 
+46 bba8e2df6 55 gates; red: review-fires | 
+47 d67d601a2 55 gates; red: review-fires | 
+48 2d7094dc9 55 gates; red: review-fires | 
+49 4a610f3e2 55 gates; red: review-fires | 
+50 5bd0f1504 55 gates; red: review-fires | 
+51 ec32b4018 55 gates; red: review-fires | 
+52 520ec8eaa 55 gates; red: review-fires | 
+53 91e5286df 55 gates; red: review-fires | 
+54 9abdcfa1d 55 gates; red: review-fires | 
+55 b3802f0c6 55 gates; red: review-fires | 
+56 49fe44c56 55 gates; red: review-fires | 
+57 e9b0eb674 55 gates; red: review-fires | 
+58 efbf95845 56 gates; red: review-fires | 
+59 f16d24046 56 gates; red: review-fires | 
+60 905c24c9a 56 gates; red: review-fires | 
+61 722a409a4 56 gates; red: review-fires | 
+62 a8cf61151 56 gates; red: review-fires | 
+63 b8a3e90c9 56 gates; red: review-fires | 
+64 8ef66c237 56 gates; red: review-fires | 
+65 428128d3b 56 gates; red: review-fires | 
+66 f7487e89a 56 gates; red: review-fires | 
+67 73b2070cb 56 gates; red: review-fires | 
+68 3b6eafb04 56 gates; red: review-fires | 
+69 12bc0eab4 56 gates; red: review-fires | 
+70 dd77dd268 56 gates; red: review-fires | 
+71 0513fd2c7 56 gates; red: review-fires | 
+72 25378aa43 56 gates; red: review-fires | 
+73 91a203dd2 56 gates; red: review-fires | 
+74 fcdbed12f 56 gates; red: review-fires | 
+75 1f5e92104 56 gates; red: review-fires | 
+76 c412d31cf 56 gates; red: review-fires | 
+77 5700fbbe0 56 gates; red: review-fires | 
+78 60a1d965e 56 gates; red: review-fires | 
+79 537cd0641 56 gates; red: review-fires | 
+80 dfeebbc6e 56 gates; red: review-fires | 
+81 ee524c68d 56 gates; red: review-fires | 
+82 ace2f8382 56 gates; red: review-fires | 
+83 df01a3057 56 gates; red: review-fires | 
+84 30ce15a38 56 gates; red: review-fires | 
+85 e4cc79c88 56 gates; red: review-fires | 
+86 f62c27790 56 gates; red: review-fires | 
+87 59f355d5c 56 gates; red: review-fires | 
+88 6a49486dc 56 gates; red: review-fires | 
+89 47005cfa3 56 gates; red: review-fires | 
+
+Applied on a clean checkout of b1bcc7f50, in order:
+ 1 r80b_parts_3_to_5  62d5a4e84 tree ok am
+ 2 r80b_parts_3_to_5  b4f1ebe2c tree ok am
+ 3 r80b_parts_3_to_5  3e5123c11 tree ok am
+ 4 r80b_parts_3_to_5  45e1a9abd tree ok am
+ 5 r80b_parts_3_to_5  27cd32fbb tree ok am
+ 6 r80b_parts_3_to_5  192e1623c tree ok am
+ 7 r80b_parts_3_to_5  29b278832 tree ok am
+ 8 r80b_parts_3_to_5  99c7b435c tree ok am
+ 9 r80b_parts_3_to_5  3cacd8e1c tree ok am
+10 r80b_parts_3_to_5  8bb00156b tree ok am
+11 r80b_parts_3_to_5  9b1dfa59b tree ok am
+12 r80b_parts_3_to_5  f40bc8f69 tree ok am
+13 r80b_parts_3_to_5  80aae21f6 tree ok am
+14 r80b_parts_3_to_5  f0d012c13 tree ok am
+15 r80b_parts_3_to_5  ea5247a7d tree ok am
+16 r80b_parts_3_to_5  b7817774f tree ok am
+17 r80b_parts_3_to_5  fda3c7a81 tree ok am
+18 r80b_parts_3_to_5  4e301bf10 tree ok am
+19 r80b_parts_3_to_5  cbabdb1a8 tree ok am
+20 r80b_parts_3_to_5  2dc35448b tree ok am
+21 r80b_parts_3_to_5  e09a38fe8 tree ok am
+22 r80b_parts_3_to_5  ef5231550 tree ok am
+23 r80b_parts_3_to_5  dd6850fa7 tree ok am
+24 r80b_parts_3_to_5  6b1ff0bfa tree ok am
+25 r80b_parts_3_to_5  efb26d5c9 tree ok am
+26 r80b_parts_3_to_5  7aeed870b tree ok script, says the tree is the builder's
+27 c13                4a5b94fdf tree ok am
+28 c13                346d4622b tree ok am
+29 c13                cc64335c6 tree ok am
+30 c13                553281ff8 tree ok am
+31 c13                e0111d25c tree ok am
+32 r80b_part_6        d91538d74 tree ok am
+33 r80b_part_6        f695c7d42 tree ok script, says the tree is the builder's
+34 r80b_part_6        1dbb0f88a tree ok am
+35 r80b_part_6        1fb4ef442 tree ok am
+36 r80b_part_6        0415f9503 tree ok am
+37 r80b_part_6        bf096c226 tree ok am
+38 r80b_part_6        f5ea3ea1f tree ok am
+39 r80b_part_6        095849df0 tree ok am
+40 r80b_part_6        cc5a1a923 tree ok am
+41 r80b_part_6        65b25a2b8 tree ok am
+42 r80b_part_6        04bfdf9de tree ok am
+43 r80b_part_6        cadc433fe tree ok am
+44 r80b_part_6        bc7288cd2 tree ok am
+45 r80b_part_6        7c8daab73 tree ok am
+46 r80b_part_6        bba8e2df6 tree ok am
+47 r80b_part_6        d67d601a2 tree ok am
+48 r80b_part_6        2d7094dc9 tree ok am
+49 r80b_part_6        4a610f3e2 tree ok am
+50 r80b_part_6        5bd0f1504 tree ok am
+51 r80b_part_6        ec32b4018 tree ok am
+52 r80b_part_6        520ec8eaa tree ok am
+53 r80b_part_6        91e5286df tree ok am
+54 r80b_part_6        9abdcfa1d tree ok am
+55 r80b_part_6        b3802f0c6 tree ok am
+56 r80b_part_6        49fe44c56 tree ok am
+57 r80b_part_6        e9b0eb674 tree ok script, says the tree is the builder's
+58 c14_first_part     efbf95845 tree ok am
+59 c14_first_part     f16d24046 tree ok script, says the tree is the builder's
+60 c14_first_part     905c24c9a tree ok am
+61 c16                722a409a4 tree ok am
+62 c16                a8cf61151 tree ok am
+63 c16                b8a3e90c9 tree ok am
+64 c16                8ef66c237 tree ok am
+65 c16                428128d3b tree ok am
+66 c16                f7487e89a tree ok am
+67 c16                73b2070cb tree ok am
+68 c16                3b6eafb04 tree ok am
+69 c16                12bc0eab4 tree ok am
+70 c16                dd77dd268 tree ok am
+71 c16                0513fd2c7 tree ok am
+72 c16                25378aa43 tree ok am
+73 c16                91a203dd2 tree ok am
+74 c15                fcdbed12f tree ok am
+75 c11                1f5e92104 tree ok am
+76 fix_tip            c412d31cf tree ok am
+77 c17                5700fbbe0 tree ok am
+78 c14_second_part    60a1d965e tree ok am
+79 c14_second_part    537cd0641 tree ok am
+80 c14_second_part    dfeebbc6e tree ok script, says the tree is the builder's
+81 c13_follow_ups     ee524c68d tree ok am
+82 c13_follow_ups     ace2f8382 tree ok am
+83 fix_tip_2          df01a3057 tree ok am
+84 c14_third_part     30ce15a38 tree ok am
+85 c14_fourth_part    e4cc79c88 tree ok script, says the tree is the builder's
+86 c14_fifth_part     f62c27790 tree ok am
+87 c13_follow_ups     59f355d5c tree ok am
+88 c18                6a49486dc tree ok script, says the tree is the builder's
+89 c14_patch_8_met    47005cfa3 tree ok am
+ALL 89 APPLIED, EVERY TREE AS RECORDED
+
+The full suite on a fresh clone of entry 88 as it stood before one line of the gates was rewritten (scripts/review/review_tools.py --fresh-clone-suite): the line that lists the attribution gate's exempt folders is kept as main wrote it and docs/archive/legacy/ is added to the tuple on a line of its own; the gates and the attribution and ledger tests were run again after it.
+fresh-clone suite: FAIL @ cb519ba69 (15 failed, 8791 passed, 74 skipped, 10 warnings); failing: frontier/B1877_review_78
+failing:
+frontier/B1877_review_78_the_decadal_review/verification/test_b1877_review_78.py::test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_ceilings_gate_as_mended
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list
+frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_mains_files_are_as_main_wrote_them
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_the_numbers_are_held_as_sentences_and_not_as_digits
+tests/test_b1290_index_formula.py::test_the_backlinks_did_NOT_change_any_verdict
+tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+tests/test_b818_retracted_rule.py::test_retracted_stays_a_small_deliberate_set
+tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+tests/test_b921_9b_retraction_debt_gate.py::test_the_check_fails_when_the_rows_are_stripped
+tests/test_b921_9b_retraction_debt_gate.py::test_the_real_ledger_is_clean
+tests/test_repo_gates.py::test_all_gates_pass

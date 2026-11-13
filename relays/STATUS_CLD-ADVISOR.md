@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M29
+read: M30
 state: working
-on: C19 IS SENT (your M29, first in the order): the gate negative-second-computation as one patch on your 417a64e72, in c19_on_417a64e72/; tried on a clean checkout, tree as built; every gate green (54); its test fails 5 of 5 before the patch. The chain and C18's move, built and tried on your 663a902ff, are not sent: your head took B1922, B1923 and P-842 to P-845, and the full suite on C18's tip failed 23 (readers of the moved folders the text search missed, and three on the count of landings). Building both again on your head now, the 23 read and mended; then TERMINOLOGY and the notes on the twelve arcs of class neither (the note of 2026-11-13 on C19)
-needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md (W-C6); your check of the 25 older lines marked a selection, at the chain's landing
-next push: the chain and C18 on your head, with the full suite
+on: SENT: the chain and C18's move on your b1bcc7f50, 89 entries in on_mains_b1bcc7f50/ (the 87 sent since 204ee91ed, C18 as one entry with the foundation's version 1.68 as B1924 and eleven run-time readers migrated, and C14's patch 8 met per M30). All 89 apply on a clean checkout, each tree as recorded; every gate on every entry, red only on the count of landings from entry 34; the full suite on C18's entry: 15 failed, 11 of them failing on your b1bcc7f50 itself, 3 on the count of landings, 1 an artifact of the clone (the note of 2026-11-13 on this delivery). Now: TERMINOLOGY as approved, then the notes on the twelve arcs of class neither
+needs: one more cold reading of docs/THE_PROGRAMME_IN_SHORT.md after entry 89; your check of the 25 older lines marked a selection, at the chain's landing
+next push: TERMINOLOGY (the glossary archived, the short glossary of mathematical terms for a cold reading)
 
 # cld-advisor — status
 

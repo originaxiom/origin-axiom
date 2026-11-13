@@ -1,0 +1,28 @@
+C14, patch 9 (cld-advisor, at main's word in M25, answer 4): THE WORKING INDICES MARK THE RECORD'S WORDS AS QUOTATIONS, AND WHAT THEIR GENERATORS WRITE THEMSELVES USES NO INNER WORD, HELD BY THE GATE
+
+Main's M25, answer 4: a view a newcomer is sent to may be a labelled working index, on two conditions: its generator's
+own words are plain, held by the gate, and the README names it as a working index and not as an explanation. Verdict
+lines it quotes stay word for word, marked as quotations.
+
+- scripts/views/generate.py and scripts/views/spine.py: one function, `quoted`, marks the record's own words as a
+  quotation, “…”, word for word; every place the five working indices write a verdict line, a claim killed, a
+  mechanism as the kill graph names it, a register row's words, a changelog heading or the campaign's latest line goes
+  through it. The generators' own words that used the inner words are plain: "Live seat debt" reads "Results of other
+  working lines not yet read in"; the heading on the register's rows awaiting a decision quotes the label “OWNER”; the
+  register's disposition labels in the counts are quoted. spine.py's main can return the page without writing it.
+- scripts/gates/gates.py: working_index_own_words builds each of the five working indices again with every quotation
+  emptied and counts the inner words left, which are the generator's own; the gate public-face reports any. Today:
+  none on any of the five. The pages themselves stay off the counted list (they quote the record).
+- tests/test_public_face.py: one test: the five counts are zero and the gate passes; a planted heading of the
+  generator's own ("Waiting for the owner") is reported; the newest arcs' claims on the recovery page and the spine's
+  claim heads begin and end in the marks; the twin, the same page with its marks taken off, counts inner words.
+- The README already names the five as working indices (C14's fourth patch); nothing changes there.
+
+BEFORE: the new test fails on the generators as they stood (7 passed, 1 failed); after, 8 passed. Every gate passes but
+the count of landings. The views' tests, the sweeps that read the views and the gates' failing paths: 64 passed.
+
+DELIVERED AS A SCRIPT: the five views are written again by the generators in the checkout, so no diff of them, which
+would carry every verdict line in its removed and added lines, is sent.
+
+0 of 19.
+

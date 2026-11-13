@@ -1,0 +1,68 @@
+From 520ec8eaa0fd8627dae0cdc337bafb57179d4f94 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:40:02 +0000
+Subject: [PATCH] R80b, part 6, patch 21 (cld-advisor, at main's word in M16;
+ main's third folder, section 4, finding 12): B1867'S LOCK HOLDS ITS KEPT RUN
+ AGAINST A LIVE ONE
+
+A reader's supplement on the arcs main changed at Review 80 (agy-002's), its twelfth finding, not checked by
+main. The kept run of the census of the map is the one file of this arc that main changed, when the map
+gained two nodes. The lock read that file for one line and never compared it with a run made now. The change
+put back passed.
+
+Made again here: with the kept run's first line as it stood, the lock before this patch passes, 4 tests; on
+this patch it fails.
+
+The lock compares the kept run with the live run line for line, and a test of its own reports the first line
+as it stood, a line dropped and a line added, with a twin.
+
+What it costs, and it is main's to weigh: when the map changes so that the census prints another line, the
+script is run again and its output kept, as main did.
+
+The lock passes: 5 tests. Not checked by main. Tested against planted errors by the session that wrote it.
+---
+ ...g_and_the_line_or_loop_rule_scrutinised.py | 28 +++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+diff --git a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py
+index 38839b64a..1a1bf4f01 100644
+--- a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py
++++ b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py
+@@ -110,6 +110,34 @@ def test_the_census_of_the_map_counts_what_it_says():
+     assert int(m.group(1)) == len(back)
+     sealed = (HERE / "line_or_loop_run.txt").read_text(encoding="utf-8")
+     assert "BACK-EDGES (a result downstream that fixes, answers or selects an input upstream): 0" in sealed   # the dated statement of the arc
++    # 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 12; not checked by
++    # main).  The kept run was read for that one line, and never held against a run made now.  Main made the kept run again
++    # when the map gained two nodes, and that change put back passed this lock.  It is compared with the live run, line for
++    # line.  What that costs: when the map changes, the script is run again and its output kept, as main did.
++    assert _how_the_kept_run_differs(out, sealed) == [], _how_the_kept_run_differs(out, sealed)
++
++
++def _how_the_kept_run_differs(live, kept):
++    """The numbers of the lines, counted from one, on which the kept run is not the live run."""
++    a, b = live.rstrip("\n").split("\n"), kept.rstrip("\n").split("\n")
++    return [i + 1 for i in range(max(len(a), len(b))) if (a[i] if i < len(a) else None) != (b[i] if i < len(b) else None)]
++
++
++def test_a_kept_run_that_is_not_the_live_run_is_reported():
++    kept = (HERE / "line_or_loop_run.txt").read_text(encoding="utf-8")
++    assert _how_the_kept_run_differs(kept, kept) == []
++    # the kept run as it stood before main made it again: its first line counted the map's nodes before two were added
++    first = kept.split("\n")[0]
++    m = re.match(r"the map: (\d+) nodes, ", first)
++    assert m
++    as_it_stood = kept.replace(first, first.replace("the map: %s nodes" % m.group(1), "the map: %d nodes" % (int(m.group(1)) - 2)), 1)
++    assert as_it_stood != kept and _how_the_kept_run_differs(kept, as_it_stood) == [1]
++    # a line dropped from the end, and a line added to it
++    lines = kept.rstrip("\n").split("\n")
++    assert _how_the_kept_run_differs(kept, "\n".join(lines[:-1]) + "\n") == [len(lines)]
++    assert _how_the_kept_run_differs(kept, kept + "one line more\n") == [len(lines) + 1]
++    # the twin: the same run with one more line break at its end is the same run
++    assert _how_the_kept_run_differs(kept, kept + "\n") == []
+ 
+ 
+ def test_the_findings_say_what_was_and_was_not_done():
+-- 
+2.43.0
+

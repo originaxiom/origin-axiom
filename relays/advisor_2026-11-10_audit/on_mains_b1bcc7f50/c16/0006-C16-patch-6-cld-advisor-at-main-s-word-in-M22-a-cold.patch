@@ -1,0 +1,61 @@
+From f7487e89a8a3caba5f2cd3ca17431bf037814325 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:43:59 +0000
+Subject: [PATCH] C16, patch 6 (cld-advisor, at main's word in M22; a cold
+ reader's finding (g) on R80b's part 3, patch 3, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): B1884'S LOCK READS ITS VERDICT LINE WITH EVERY
+ SPELLING OF AN APOSTROPHE
+
+THE FINDING, MADE AGAIN. The check that the verdict line does not leave the column convention as main's own
+looked for the words with a straight apostrophe. The line as it stood, "The same counts hold in main's own
+convention", written with a typographic apostrophe, was not reported (the check returned no place); with a
+straight one it was.
+
+THE MEND. The line is read with each spelling of an apostrophe (the two typographic quotation marks, the letter
+apostrophe, the prime, the acute accent and the backtick) taken as the straight one, under a dated note.
+
+THE TEST, added to the lock: the line as it stood is reported with each of five spellings, as with the straight
+one; its twin, the correction written with a typographic apostrophe, takes it back. The lock: 11 passed, 1
+skipped (the test that runs the script on request). Not checked by main.
+---
+ ...1884_what_level_a_ground_names_verified.py | 20 ++++++++++++++++++-
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+
+diff --git a/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py b/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
+index 02851b1d0..f3168abc8 100644
+--- a/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
++++ b/frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
+@@ -103,7 +103,12 @@ def test_the_column_convention_is_the_swap_of_the_coordinates_and_not_a_transpos
+ 
+ 
+ def _names_the_column_convention_as_mains_own(claim):
+-    """the places where a verdict line calls the column convention main's own and does not take it back within 120 characters"""
++    """the places where a verdict line calls the column convention main's own and does not take it back within 120 characters.
++    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 3, not checked by main, made again first): the line
++    was read with one spelling of the apostrophe, so the same words with a typographic one passed.  Every spelling of it is read
++    as one; the places are those of the line as given."""
++    import re
++    claim = re.sub("[\u2018\u2019\u02bc\u2032\u00b4`]", "'", claim)
+     out, at = [], claim.find("main's own convention")
+     while at != -1:
+         if "it is not main's own" not in claim[at:at + 120]:
+@@ -180,3 +185,16 @@ def test_the_arcs_corrections_of_review_79_and_80_are_held_and_the_script_says_w
+     script = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
+     assert "EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)\n[CORRECTED 2026-11-12 (Review 80;" in script
+     assert "By the protocol's labels this is computed once" in " ".join(script.split())
++
++
++def test_the_verdict_line_is_read_with_every_spelling_of_an_apostrophe():
++    """ADDED 2026-11-13 (C16; the same finding).  The line as it stood, with a typographic apostrophe in each place, was passed;
++    it is reported now, as the straight one is.  The twin: the correction with a typographic apostrophe takes it back."""
++    stood = "The same counts hold in main\u2019s own convention. Nothing leaves the budget. 0 of 19."
++    assert len(_names_the_column_convention_as_mains_own(stood)) == 1
++    assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", "'"))) == 1
++    for mark in ("\u2018", "\u02bc", "\u2032", "`"):
++        assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", mark))) == 1, repr(mark)
++    taken_back = "The same counts hold in main\u2019s own convention [it is not main\u2019s own]. 0 of 19."
++    assert _names_the_column_convention_as_mains_own(taken_back) == []
++
+-- 
+2.43.0
+

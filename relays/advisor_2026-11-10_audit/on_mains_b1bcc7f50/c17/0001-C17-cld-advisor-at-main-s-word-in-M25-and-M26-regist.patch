@@ -1,0 +1,693 @@
+From 5700fbbe0db2ae7d07e39fa7bcd159934d293a83 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:44:58 +0000
+Subject: [PATCH] C17 (cld-advisor, at main's word in M25 and M26; register
+ rows P-606 and P-318, verified by main at B1906, sections 3a and 3b): B298'S
+ DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY
+ DATED NOTES WHERE THEY STAND, AND THE LOCKS HOLD THE NOTES
+
+The card is relays/cards/cld-advisor_C17_b1906s-record-items-b298-b1161-and-b1228.md, committed before the work.
+Every statement of mathematics in a note is a quotation of B1906 or of the register; none is the builder's. No old
+word is changed: each note is a dated paragraph after the paragraph, table or list that holds the old words.
+
+P-606. B298's page (after the obstruction, before the seven routes, past the first 1,500 characters so the atlas's
+tag is unchanged) and verdict line; B1161's page (below the six cells) and verdict line; the citations the row
+names: B1496's page, B1606's page (after the grade's list, where W20 stands), the grand computation's table, the
+hint ledger's H85 (in its last cell). The early record index carries B298's note, regenerated. The closed doors
+view shows the first 120 characters of B298's verdict line, which the note follows; its source is that line.
+
+P-318. B1228's page (after the table whose row 4 says it), verdict line, and s1.py (a comment above its nine
+types; the script's output is unchanged). Its lock, tests/test_b1228_s1.py: test_sigma_is_one_for_E6_alone keeps
+its assertion on its six types under a dated note; a new test holds the corrected statement over the sixteen
+simply-laced algebras (c = dim/(1 + h^v) = rank; sigma = 1 for A6, D6 and E6; the primaries counted as |det C| from
+the Cartan matrices, 7, 4 and 3, with the closed forms as control), and one holds the note on page, line and script.
+
+THE LOCK. tests/test_the_degree_two_headline_and_sigma_one_scoped.py: every quotation is found in its source
+(B1906's page, the register); each place carries its note within 2,500 characters after the old words, with its
+quotations; the verdict lines and H85 the same; the generated index shows the note; and four controls, each with
+its twin: B298's page with its note taken out fails (the card's control), the note moved 4,000 characters away
+fails, a misquoted number fails, the old words taken out fail. B1161's cell is held by B1161's own lock, so the
+paper's verification manifest, which lists B1161 and counts every test naming it, is unchanged.
+
+BEFORE: on the tree before this patch, the new tests fail, 9 of them (the notes are not there); the mathematical
+test passes there too, as it should.
+
+THE REGISTER: dated additions to P-606 and P-318 saying what was done; their states are main's.
+
+BEYOND THE ROW, NAMED AND NOT NOTED (the card's README lists them for main): the paper's main.tex (its section on
+the family index and its table of claims), the paper's claim candidates and verification manifest, the validation
+ledger, the theorem registry, the submission campaign, the campaign status, B1162's page, B1185's verdict line,
+the closure map's source, B738's kill graph, and outputs of runs (kept as run).
+
+0 of 19.
+---
+ CHANGELOG.md                                  |   8 +
+ PROGRESS_LOG.md                               |  12 ++
+ README.md                                     |   2 +-
+ docs/EARLY_RECORD_INDEX.md                    |   2 +-
+ docs/GRAND_COMPUTATION_v0.md                  |   2 +
+ docs/HINT_LEDGER.md                           |   2 +-
+ docs/POINT_REGISTER.md                        |   4 +-
+ docs/views/CONTEXT_RECOVERY.md                |   2 +-
+ docs/views/REVIEWER.md                        |   2 +-
+ docs/views/THE_SPINE.md                       |   3 +-
+ docs/views/VERDICT_LEDGER.md                  |   6 +-
+ frontier/B1161_frontier_sweep/FINDINGS.md     |   2 +
+ .../B1161_frontier_sweep/arc_verdict.json     |   2 +-
+ frontier/B1228_S1_the_nomination/FINDINGS.md  |   2 +
+ .../B1228_S1_the_nomination/arc_verdict.json  |   2 +-
+ frontier/B1228_S1_the_nomination/s1.py        |   4 +
+ .../FINDINGS.md                               |   2 +
+ .../FINDINGS.md                               |   2 +
+ .../B298_generation_obstruction/FINDINGS.md   |   2 +
+ .../arc_verdict.json                          |   2 +-
+ scripts/atlas/atlas_data.json                 |  13 +-
+ tests/test_b1161_frontier_sweep.py            |  17 +++
+ tests/test_b1228_s1.py                        |  62 ++++++++
+ ...egree_two_headline_and_sigma_one_scoped.py | 143 ++++++++++++++++++
+ 24 files changed, 283 insertions(+), 17 deletions(-)
+ create mode 100644 tests/test_the_degree_two_headline_and_sigma_one_scoped.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 81006ed9d..8926d74f9 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,13 @@
+ # Changelog
+ 
++## S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)
++
++- **Built as a patch by the building session** at main's card C17, after main verified both statements on its own code (B1906, sections 3a and 3b). Every statement of mathematics in the notes is a quotation of B1906 or of the register; none is the builder's, and no old word is changed.
++- **B298 and B1161:** a dated note beside the headline on each page and at the end of each verdict line: it holds scoped, and not as an implication. B298's seven computed routes stand.
++- **The named citations:** a dated note at B1496's page, B1606's page (W20), the grand computation's row and the hint ledger's H85; the early record index carries B298's note, as generated.
++- **B1228:** a dated note on the page, the verdict line and `s1.py`; its lock keeps its assertion on its six types under a dated note and holds the corrected statement over the sixteen simply-laced algebras of rank 1 to 8, the primaries counted from the Cartan matrices.
++- **The lock** `tests/test_the_degree_two_headline_and_sigma_one_scoped.py`: each note beside its old words, each quotation found in its source; a note taken out, moved away or misquoted fails.
++
+ ## S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831, P-846) (2026-11-12)
+ 
+ - **Built as patches by the building session** from main's draft, rows and script for B1905 and main's card C13, read cold by a verifying session, and landed by main after its own check. The page, the verdict line, every number and the rule are main's; none is reworded.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 5edf5025c..527e4ad48 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20206,3 +20206,15 @@ seat's check. Six are left.
+ **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+ 
+ 0 of 19.
++
++## 2026-11-13 — Two old sentences that said more than was true are marked where they stand (S306p)
++
++**What this is.** Main checked two statements of the early record on its own code and found each true only in a narrower form. One said that a number field of degree two allows a thing to come only once or twice, never three times; it holds for one kind of counting and fails for others. The other said that one number picks out exactly one algebra; three algebras give it, and only one of them has the other property the arc also used.
++
++**What was built.** A building session wrote a dated note beside each sentence, on the arcs' pages, in their one-line verdicts and in the places that cite them, quoting main's check word for word. The old sentences stay as they were written. A test fails if a note is taken out, moved away from its sentence or misquoted, and the lock of the second arc now checks the corrected statement over all sixteen algebras of that family up to rank eight.
++
++**What it does not do.** It does not change any result the old arcs computed. Places beyond the ones main listed, the paper among them, still carry the first sentence; they are listed for main.
++
++**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
++
++0 of 19.
+diff --git a/README.md b/README.md
+index 9d46f32b9..a800bb65c 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1620: 1125 PROVED, 384 NEGATIVE, 98 OPEN, 13 RETRACTED |
+ | points in the register | 846: 309 open (queued work, leads, and questions not yet decided), 537 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PR… |
++| the last landing | S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13) |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/docs/EARLY_RECORD_INDEX.md b/docs/EARLY_RECORD_INDEX.md
+index f84140638..3c3446321 100644
+--- a/docs/EARLY_RECORD_INDEX.md
++++ b/docs/EARLY_RECORD_INDEX.md
+@@ -609,7 +609,7 @@ The figure-eight cannot force three generations by its degree-2 field: multiplic
+ | arc | verdict | the arc's own line |
+ |---|---|---|
+ | `B280_2T_higher_spin` | NEGATIVE | 2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus Higgs from A₄/2T spin-3/2' reading. |
+-| `B298_generation_obstruction` | NEGATIVE | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. |
++| `B298_generation_obstruction` | NEGATIVE | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the headline holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or… |
+ | `B299_trinification_triality` | PROVED | The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27. |
+ | `B300_cross_chat_sm_attempt` | NEGATIVE | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent). |
+ | `B307_totally_real_obstruction` | PROVED | Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed. |
+diff --git a/docs/GRAND_COMPUTATION_v0.md b/docs/GRAND_COMPUTATION_v0.md
+index 2c8b14413..588a2127e 100644
+--- a/docs/GRAND_COMPUTATION_v0.md
++++ b/docs/GRAND_COMPUTATION_v0.md
+@@ -153,6 +153,8 @@ with an exclusion control → 0; GC-6 V3), consistent with B1064 (CS=0 deletes t
+ | D3 residue | the **complex-27 clause is DE-GRADED** (lens: the negation-symmetry instrument has never returned "real" on any run in the repo — no exclusion-side control); the banked complex witness remains B1100's; next: apply B1100's witness to the two rank-4 centralizers | GC-9 refutation; B1100 |
+ | **Born rule** | FORM + weights NATIVE (the object's two quadratics; quadratic degree = c-swap's Galois order 2); amplitudes/phase/associator IMPORTED (golden-MTC overlays); the substitution IS the Fibonacci fusion rule by identity — **quantum CONTENT is closer-side by theorem** | B725; B726/28/29; B483 |
+ 
++> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The row "one generation per 27" above cites B298's headline; it holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
++
+ ---
+ 
+ ## 4. THE COUPLING SHAPES (dimensionless; what is computable in own units today)
+diff --git a/docs/HINT_LEDGER.md b/docs/HINT_LEDGER.md
+index 57826bd13..a9c2e0e72 100644
+--- a/docs/HINT_LEDGER.md
++++ b/docs/HINT_LEDGER.md
+@@ -156,7 +156,7 @@ re-computation.
+ | H82 | (seam synthesis) SELECTIVE or CATALOGUE? — consolidate B287-B293,B295 | QUESTION | 2026-06-29 | **CHECKED** | **BANKED (B294): SELECTIVE for the object's own structure, CATALOGUE for SM-values** | **FIREWALLED.** The selection table (8 axes): **dynamical** (0,1)=Sol A=LR FORCED/selective (B287); **arithmetic** none/E6-lost ABSENT (B288); **CP-sign** law forced/sign free (B289); **SSB-gauge** OPEN/stop-gate (B295); **scale ladder** 2πi/n, n≠k (B290); **scale-extremal** (5,1) min-vol (B291); **multiplicity** only fiber a 2-mfld, chiral absent (B292); **clock** peripheral symplectic, trajectory gated (B293). THREE findings: (1) SELECTIVE — a canonical closing exists (the fiber/Sol (0,1) re-sees A=LR+P8); (2) AXIS-STRATIFIED — dynamical/arithmetic/scale pick different (or no) closings, none distinguished on all axes (cross-axis test ✓); (3) CATALOGUE for SM-values — E6 lost, CP sign external, scale value gapped (122-order), chiral absent, trajectory gated. **Structural theorem (relocated to the seam): the object supplies a canonical closing + all dimensionless STRUCTURE; the ACTUALIZATION of a specific SM world is NOT forced.** Strengthens the firewall (P001/P011 made mechanistic). Matter map: π/6 bulk, sign-exists seam, which-sign+baryon external. Nothing to CLAIMS. |
+ | H83 | (Arc II verification) does the seam arc survive adversarial attack + is the math correctly attributed? | QUESTION | 2026-06-30 | **CHECKED** | **BANKED (B296): all probes SURVIVE; classical math KNOWN/cited; novel connections flagged** | **FIREWALLED.** RED-TEAM (multi-agent adversarial, re-ran every reproducer): **every probe SURVIVES, 0 refutations, 0 firewall leaks, nothing wrongly in CLAIMS.md.** Strengthened: B287 uniqueness **homology-forced** (torus bundle needs b₁≥1; all non-zero fillings finite H₁/S³); B288 extended to |p|,|q|≤12 (**174 closings, 0 arithmetic**, matches Garoufalidis–Jeon finiteness); B291 min-vol (5,1) stable on larger grid. 4 caveats folded (B287 homology, B290 m004-specific real coeff, B293 k_um frame-dependence + Nambu/Goldman import, B295 cubic/one-minimum) — no retraction, B294 verdict stands. NOVELTY: classical math **KNOWN/cited** (claim1 Thurston 0-surg=Sol[[2,1],[1,1]]; claim2 Garoufalidis–Jeon trace-field growth; claim4a Goldman/NZ); novel **connections** flagged APPEARS-NOVEL/NEEDS-SPECIALIST (claim3 handedness=Galois ±π/6; claim4b clock↔Λ-CS-time; claim5 the seam reframe) — program does NOT claim the math as original; fuller prior-art round pending next pass. residual-hint: nothing to CLAIMS. |
+ | H84 | (Arc III consolidation) fold the seam arc into the wall map + the structural theorem | TASK | 2026-06-30 | **CHECKED** | **BANKED (B297): wall map v4 + the structural theorem relocated to the seam** | **FIREWALLED.** v4 supersedes B278's v3. Five walls THROUGH THE SEAM: #1 DISSOLVED (unchanged); #2 REDUCED→sharpened (B288: E6 lost on closing, CRUX leans catalogue); #3 OPEN→**MECHANISM-AT-SEAM** (B286/B289/B295: forced sign LAW, handedness=ℚ(√−3) Galois, but sign external/mechanism open — not Curie, not established gauge); #4 CHARACTERIZED→clarified (B292 multiplicity tripartite, only fiber a 2-mfld); #5 QGAP→scale GENERATED at seam (B290/B291: 2π/n ladder; value gapped). **Structural theorem (relocated to the seam):** object supplies a canonical closing + all dimensionless STRUCTURE; ACTUALIZATION of an SM world NOT forced — selective for own structure, catalogue for SM-values. **Matter map (1 of 3 forced):** π/6 bulk (B285), sign-exists seam (B289), which-sign+baryon external (B295/S005). Docs: SYNTHESIS §9f, P012 (+P011 2nd correction), S038. residual-hint: P001/P011 made mechanistic; firewall strengthened; nothing to CLAIMS. |
+-| H85 | (cross-chat SM attempt) does the object force THREE generations? | QUESTION | 2026-06-30 | **CHECKED** | **BANKED (B298): NO — the degree-2 obstruction (a forced negative)** | **FIREWALLED.** Cross-chat convergent (Chat-1 "3 from orbifold" vs Chat-2 "not 3" → VERIFIED AGREE: the orbifold-3 is external, B299). The invariant trace field ℚ(√−3) is **degree 2** (Galois ℤ/2) → matter multiplicities 1 or 2, never 3. SEVEN routes all give 1 or 2: H¹=1, tetrahedra=2, **3-fold covers of m004=1** (H₁=ℤ/4+ℤ/4+ℤ, SnapPy), SU(3)_family=1 (B280), E₆-center scalar=1, 𝔽₃-unipotent→9+9+9 wrong size (B299), trace-map=2. "3" appears as a VALUE (dim/level/trace/prime/center) but never a MULTIPLICITY (4₁ quadratic everywhere). **Cubic-carrier conjecture (falsifiable):** 3 generations need a CUBIC trace field; 4₁ is a one-generation object. residual-hint: sharpens B292/B282; corrects the frame (had mis-listed "3" as open); nothing to CLAIMS. |
++| H85 | (cross-chat SM attempt) does the object force THREE generations? | QUESTION | 2026-06-30 | **CHECKED** | **BANKED (B298): NO — the degree-2 obstruction (a forced negative)** | **FIREWALLED.** Cross-chat convergent (Chat-1 "3 from orbifold" vs Chat-2 "not 3" → VERIFIED AGREE: the orbifold-3 is external, B299). The invariant trace field ℚ(√−3) is **degree 2** (Galois ℤ/2) → matter multiplicities 1 or 2, never 3. SEVEN routes all give 1 or 2: H¹=1, tetrahedra=2, **3-fold covers of m004=1** (H₁=ℤ/4+ℤ/4+ℤ, SnapPy), SU(3)_family=1 (B280), E₆-center scalar=1, 𝔽₃-unipotent→9+9+9 wrong size (B299), trace-map=2. "3" appears as a VALUE (dim/level/trace/prime/center) but never a MULTIPLICITY (4₁ quadratic everywhere). **Cubic-carrier conjecture (falsifiable):** 3 generations need a CUBIC trace field; 4₁ is a one-generation object. residual-hint: sharpens B292/B282; corrects the frame (had mis-listed "3" as open); nothing to CLAIMS. DATED NOTE 2026-11-13 (P-606; verified by main at B1906 § 3a): the obstruction holds only scoped. "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004". |
+ | H86 | (cross-chat, external heterotic) is the Z₃×Z₃ orbifold (θ,φ) a genuine E₆ structure, and does φ derive the H-label? | QUESTION | 2026-06-30 | **CHECKED** | **BANKED (B299): (θ,φ) = E₆ trinification triality (verified); H-label-from-φ FAILS (refuted)** | **FIREWALLED.** Self-contained in origin-axiom (matrices embedded). θ,φ: genuine commuting Z₃×Z₃, order 3, eigs {1,1,ω,ω,ω²,ω²}, fixed dims 2/2/0, preserve a real **E₆ Cartan (det 3)** ⇒ inner E₆ autos (W(E₆)). On the **27**: each acts FREELY, **9 orbits of 3, zero fixed** = the **trinification triality** (the ℤ₃ permuting E₆'s three SU(3)'s). REFUTED: "H-label=φ-eigenvalue on the 27" — φ acts freely, no per-weight eigenvalue; the doublet-triplet split needs an EXTERNAL color choice. Independently **confirms B282** (heterotic E₆ generic — reaches E₆ without 4₁'s arithmetic atom). residual-hint: rigor needs class-S E₆ = the CRUX (lead L50); nothing to CLAIMS. |
+ | H87 | (cross-chat SM attempt) does the full SM-from-axiom attempt find a new forcing, or the same theorem? | QUESTION | 2026-06-30 | **CHECKED** | **BANKED (B300): the same theorem, corroborated + Column B = 2 walls** | **FIREWALLED.** Three seats (seam arc + Chat-1 + Chat-2) CONVERGE on the structural theorem. Column B collapses from ~8 inputs to **2 walls**: (A) the coupling/action category (no Lagrangian — potential, Yukawas, vacuum, N=2→N=1, 8πG, freeze-out = ONE missing thing) + (B) the degree-3 carrier (generations, forced negative B298). Verified arithmetic: **E₆+A₂→E₈ prime-3 glue** det(E₆)·det(A₂)/3²=1=det(E₈), prime 3=ℚ(√−3) ramified prime (B248/B256); **scale=ℓ_P**, L_dS/ℓ_P=√(k/6π) (k=3→0.40, k~1e122→6e60 = the gap). Cosmological σ-flow readings → S045 [LEAP]. **No new forcing found**; the one candidate (CP-sign clock gauge-fixing) is triple-convergent + trajectory-gated (lead L50). residual-hint: the brave attempt returns the theorem, sharper; nothing to CLAIMS. |
+ | H88 | (cross-chat correction) does "stability force chiral SO(10)"? + bank the convergence | TASK | 2026-06-30 | **CHECKED** | **BANKED (B301): chirality filter = a FACT (3 chiral options, not SO(10)-forced); the convergence first-class** | **FIREWALLED.** Both seats flagged the same correction. (1) DOWNGRADE: the 27 of E₆ is COMPLEX (Sage: 27≠27̄); chirality filters E₆'s maximal subgroups to the chiral SET **{SO(10)×U(1), SU(6)×SU(2), SU(3)³}**, rejecting {F₄ (27=26+1), Sp(8)} — three options, NOT a forced SO(10); and "chirality=stability" is itself a physics input (non-chiral matter is stable+massive; chiral=mass-protected=a world-observation). "stability forces SO(10)" RETRACTED → "chirality filters to {…}" [FACT]. (2) CONNECTION: the kept **SU(3)³ IS the (θ,φ) trinification triality (B299)** — chirality filter and orbifold Z₃×Z₃ = one structure, two views. (3) ELEVATION: the **three-seat convergence** (seam arc + Chat-1 + Chat-2 → the same structural theorem) banked as a first-class finding — the boundary is REAL because found three independent ways. residual-hint: the ROOT (fresh-eyes) = values are relational, the object is a monad (P009), the 2 walls map 1:1 onto the 2 under-used relational sources (seam-couplings, multiplicity-generations); nothing to CLAIMS. |
+diff --git a/docs/POINT_REGISTER.md b/docs/POINT_REGISTER.md
+index 8f8399eaf..7922a8302 100644
+--- a/docs/POINT_REGISTER.md
++++ b/docs/POINT_REGISTER.md
+@@ -527,7 +527,7 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-315 | 2026-10-23 | SE | why, on 12 order-10 lines, only the Higgs's i-component splits the down quarks from the leptons (the web seat's zero-free exploration, row 1321) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | DONE | merged into P-355 (R76-1, S306i; main's check at the pointer): the lepton–down split on the order-10 lines is the identity debt P-355 tests [was: (typed LEAD) Q3 (with P-312)] | 2026-11-06 |
+ | P-316 | 2026-10-23 | SE | verify the web seat's two sealed Higgs tests, ZERO_FREE_HOLOMORPHIC (F₆, F₋₂, F₂₂ in the holomorphic reading on unseen points) and TICK_LINE_HIGGS (the tick's order-5 lines), when they land; if either passes, B1732's 'incompatible' holds only under B1726's menus and P-303's recommendation loses its premise; B1732's FINDINGS owe a dated note that its covariant menu included the all-S reading (six 2.1%, nine 5.2%) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) [2026-10-23, S199: the web seat's third sealed test, RIGID_TAU_HOLOMORPHIC (row 1332; rule 336c71280), places τ by rules with the zero-free Higgs menu and carries the precision cells; verify it with the other two when it lands, and the line-selection prediction (row 1331)] [2026-10-23, S202: ZERO_FREE_HOLOMORPHIC read (row 1343; Z1, Z3 hold; Z2 3.38%, Z4 1.05%, Z7 fail: neither passes, so B1732's reading stands); TWO_HIGGS read and VERIFIED on main (B1742, P-351); RIGID_TAU's and ZERO_FREE_HOLOMORPHIC's own numbers not yet re-run on main] | QUEUED | [DEBT] Q3 (when the seat records them) **Update (S196, row 1327):** TICK_LINE_HIGGS landed and was read by the seat: on the tick's eight order-5 lines with the theta-power Higgs F₂₂, one reading and c = 3, K1–K5 and K7 hold (six 1.551, 0.15% of random hierarchies as good; nine 2.043, 0.11%), K6 fails (∣J∣ 15 times too small); D = 9 by construction (order-5 lines; P-094 excludes 9). The eight lines were chosen after the census and the menu is about 53 times smaller than B1732's covariant menu, so the line choice is not counted; F₂₂ fails the determinant reading (B1731); on the same points ∂R fits the six better (1.45, 0.025%) but its nine fails (23.6). Where they overlap B1732 agrees (its covariant best nine, F₆ (S, S, S) on the tick line (2/5, 4/5), 2.19 against TICK's 2.27). To verify on main before any use (main re-runs the comparison with its own instrument and counts the line selection). ZERO_FREE_HOLOMORPHIC has no output yet. Row 1328: the seat ran two post hoc data fits (τ fitted; the CKM phase) that its record does not report — ask for a dated note. | 2026-10-23 |
+ | P-317 | 2026-10-23 | SE | the integrity class 'a check that cannot fail' (E2/MB12), found by the sweep: (a) the reproduction belt's soft text pins — a live false pass on B1172's MC1 pin since Review 66, confirmed on main; (b) B1137's PSLQ tolerance fixed by the working precision (a planted relation found only at 215 digits), so its DISJOINT carries no information, and the kill graph, T-VALUE-REGULATOR, THE_SM_VERDICT l.426, B1179's Q2 and B1217's V-NEG rest on it; (c) B162's κ < 2 'thin' check passes a set of true area 1 (GENESIS cites B162); (d) B1243's citation gate finds no links in GENESIS.md and passes it vacuously (FK3 a live hit); (e) B1206/B1208's runners cannot fail; (f) B1211's lock recall 3 of 6; (g) B1306's grader counts 'NOT YET VERIFIED' as verification; (h) B837's lock has no planted control (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | QUEUED | [DEBT] Q3 ((a) DONE in S196's landing: every text-pin runner hardened, B1172's MC1 pin repointed with a dated note, B1176–B1179 under test, a soft-pin ratchet and a planted control; (b)–(h) each reproduced with a planted control on main, then corrected) [Review 74: the physics seat's fc R17 found B1137's case on 2026-09-01 with a planted relation (5V − 3L(1,χ₋₃) − 2π = 0) as a ready control (SCHEDULED row 146); B1225 is P-602] DRAFT-DECLINED(2026-11-12: the folder named is the readers' working notes of the leads' re-evaluation of 2026-10-23, and it is not landed. What the sweep found is stated in this row item by item, and each item is reproduced on main with a planted control before it is corrected, so no correction rests on the notes) | 2026-11-04 |
+-| P-318 | 2026-10-23 | SE | targeted dated corrections the sweep found (each reproduced on main first): B997's golden uniqueness fails at m = 4 (R⁴, L⁴ mod 20 generate 2I; only m = 1 has both the E₈ door and a 2T quotient) — THE_CLAIM §1, GENESIS F-MC, LAW_MAP rows 236, 419, 427, THEOREM_REGISTRY; B1228's 'σ = 1 picks E₆ uniquely' (A₆, D₆ also give σ = 1; E₆ level 1 is the only c = 6 algebra with three primaries) and its lock; L211's stratum law (B1400's addendum, B1424 §2, P3's scope note); the amphichiral count 55 not 53 (L188); B1180's '83/83' and '112/112'; B1484 §2 (ind(D) = (−2)^k ind(Q)); B1408 (B1726 refutes 'only discrete observables discriminate'); B1043 (h⁰(M; 27) = 1 banked in B632, B670); B207's 'hierarchies from N'; B25 (I = 1/4 is κ = 3); B1092/B1099 (the cascade's VEV pair is not B969's K-pair); B171–B173; B1182; B1166's C3 reason; B940 against B1141/B1145; B1295's PSLQ domain; B448; L144's banner and THE_LADDER X30; B399's pointers; B716's 'stays 3d'; B1161 and B1163 scope; P-096's closure; L44 (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | QUEUED | [DEBT] Q3 [S306n (2026-11-10), B1859 — THE FIRST ITEM PAID: the door set is {1, 4}, proved for every m and checked on m ≤ 60; R⁴L⁴ has the door and no 2T quotient of π₁ (two methods), so the golden is unique among primitive grammars and for the conjunction; dated corrections on B997 (addendum), B1019, B1002 and B235, and on THE_CLAIM § 1, GENESIS (v1.63), LAW_MAP's three rows, THEOREM_REGISTRY, KIND_TABLE, THE_CHAIN_STATUS, THE_FRAMEWORK, the four copies of the standing block, the novelty ledger and the prior-art dossier; the row's other items stand as owed, B1228's 'σ = 1 picks E₆ uniquely' next] ADDED 2026-11-13 (S306p, B1906 section 3b): the item on B1228 is verified on main's own code: sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries. Owed: the dated note on B1228 and its lock | 2026-11-10 |
++| P-318 | 2026-10-23 | SE | targeted dated corrections the sweep found (each reproduced on main first): B997's golden uniqueness fails at m = 4 (R⁴, L⁴ mod 20 generate 2I; only m = 1 has both the E₈ door and a 2T quotient) — THE_CLAIM §1, GENESIS F-MC, LAW_MAP rows 236, 419, 427, THEOREM_REGISTRY; B1228's 'σ = 1 picks E₆ uniquely' (A₆, D₆ also give σ = 1; E₆ level 1 is the only c = 6 algebra with three primaries) and its lock; L211's stratum law (B1400's addendum, B1424 §2, P3's scope note); the amphichiral count 55 not 53 (L188); B1180's '83/83' and '112/112'; B1484 §2 (ind(D) = (−2)^k ind(Q)); B1408 (B1726 refutes 'only discrete observables discriminate'); B1043 (h⁰(M; 27) = 1 banked in B632, B670); B207's 'hierarchies from N'; B25 (I = 1/4 is κ = 3); B1092/B1099 (the cascade's VEV pair is not B969's K-pair); B171–B173; B1182; B1166's C3 reason; B940 against B1141/B1145; B1295's PSLQ domain; B448; L144's banner and THE_LADDER X30; B399's pointers; B716's 'stays 3d'; B1161 and B1163 scope; P-096's closure; L44 (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | QUEUED | [DEBT] Q3 [S306n (2026-11-10), B1859 — THE FIRST ITEM PAID: the door set is {1, 4}, proved for every m and checked on m ≤ 60; R⁴L⁴ has the door and no 2T quotient of π₁ (two methods), so the golden is unique among primitive grammars and for the conjunction; dated corrections on B997 (addendum), B1019, B1002 and B235, and on THE_CLAIM § 1, GENESIS (v1.63), LAW_MAP's three rows, THEOREM_REGISTRY, KIND_TABLE, THE_CHAIN_STATUS, THE_FRAMEWORK, the four copies of the standing block, the novelty ledger and the prior-art dossier; the row's other items stand as owed, B1228's 'σ = 1 picks E₆ uniquely' next] ADDED 2026-11-13 (S306p, B1906 section 3b): the item on B1228 is verified on main's own code: sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries. Owed: the dated note on B1228 and its lock ADDED 2026-11-13 (the building session, card C17): the dated note is written on B1228's page, verdict line and s1.py, beside the old words, which stay; the lock (tests/test_b1228_s1.py) keeps its assertion on its six types under a dated note and holds the statement as corrected over the sixteen algebras of rank 1 to 8, with the primaries counted from the Cartan matrices | 2026-11-10 |
+ | P-319 | 2026-10-23 | SE | possible errata in the frozen paper P9: the supersession prototype flags B1479 (by B1662) and B1656 (by B1658), both cited by P9; build the supersession generator for the P9 and GENESIS tier (about 4 h) and decide each pair (errata only, P-203) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | QUEUED | [DEBT] Q3 | 2026-10-23 |
+ | P-320 | 2026-10-23 | SE | GENESIS currency (an adoption amendment, v1.55): FK3, FK5, F-MC and the m000 row lag the record; GAP6 is stale (W46 with the cusp unit gives a conditional index of the right parity); GM4's 'main has not verified sm:B1380' is stale; FK3 still asks B1327's over-count question (answered NO by B1248); the citation of L229 (iii) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | QUEUED | [DEBT] Q3 [S306n (2026-11-10), B1859: the F-MC paragraph of § 5 corrected at v1.63 (the door set is {1, 4}); FK3, FK5, the m000 row, GAP6 and GM4 stand as owed] | 2026-11-10 |
+ | P-321 | 2026-10-23 | SE | GM4 derived (L239 (a)): GM1's v1.50 input, the quaternion point tr[a, b] = −2, cannot be carried by an abelian carrier; with GM3 and the surface category only the once-punctured torus remains, without the step R57 rejected. Also B1680 (LEAD_REGISTER row 10–18 reader): the record swap and the tick fix the odd-p Heisenberg points only up to complex conjugation, so under GM5c 'the remaining choice is the prime' becomes 'the prime is 2' (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md) | DONE | frontier/B1910_the_bridge_note_checked_freeness_and_one_sector_are_premises (S306p, 2026-11-13): both halves verified on main's own code, exactly, each with its premise named. GM4's reading holds with the premise that iterated commutators do not cancel: the quaternion point excludes the abelian carrier, but H3(Z) carries it through Q8, so freeness is a premise and not a consequence. 'The prime is 2' holds under the premise of a single irreducible sector: the orientation-reversing moves conjugate a sector's central character, so one sector is kept exactly at p = 2 and the conjugate pair at every p. Owed of the record: GENESIS GM4's and B1680's notes with these two premises (the builder's card C17) [the row as it stood: [DEBT] Q3] | 2026-11-13 |
+@@ -815,7 +815,7 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-603 | 2026-11-04 | R74 | B964'S FILING AND THE RANK-OBSTRUCTION ROW (the physics seat's fc H2, SCHEDULED row 137): B964 is filed RETRACTED with supersedes null; B952, B959, B960 carry no pointer to it; LAW_MAP's rank-obstruction row (l. 378) still ends 'which the object does not supply (L133)', scoped neither by B964 nor by B1293/B1294's Wilson-line closings -- it bears on the Higgs construction, today's bottleneck | QUEUED | [DEBT] Q2 (with P-589): back-pointers and the law-map row's scope, after reading B964, B1293, B1294 | 2026-11-04 |
+ | P-604 | 2026-11-04 | R74 | B1221'S PRIMITIVITY TABLE (the physics seat's fc R05, SCHEDULED row 181): rescaling all charges by k gives a kernel of order 6k, not 6·gcd(k, 12), so 'kernel = 6 exactly when gcd(k, 6) = 1' is false; the error strengthens the addendum's own conclusion | DONE | frontier/B1221_global_form_path_independence: the addendum corrected in place with its text kept (S306n, 2026-11-10); the kernel is cyclic of order 6k for every k (verification/kernel_under_rescaling.py, exact rationals, k = 1..24), so it is ℤ₆ only at k = 1; the addendum's table was the count on a 72-point grid of U(1), 6·gcd(k, 12), reproduced row for row; the error strengthens the addendum's conclusion; found by the physics seat's R05, stated also by the agy lane's relay of 2026-11-07 (row 1621), verified by main's own code [was: (typed DEBT) Q3 (with P-581): verify and correct B1221's addendum] | 2026-11-10 |
+ | P-605 | 2026-11-04 | R74 | GENESIS v1.12 AND COSMOLOGY_LEDGER BEHIND B1208 (the cloud seat's rows 371, 384): GENESIS (l. 481) calls memo 122 'unverified on main' and COSMOLOGY_LEDGER row 4 (l. 54, 231–237) 'never checked', but B1208's LEG 4 re-ran the stronger census (memo 123) on main's own 27 weights with a planted control and closed the row at character level; B1202's dark-matter negative control is false (B1338 § 4) | QUEUED | [DEBT] Q2 (with P-145, P-589): read B1208's LEG 4 and correct the two documents | 2026-11-04 |
+-| P-606 | 2026-11-04 | R74 | B298'S DEGREE-2 OBSTRUCTION OVERSTATED (codex R018 / OA-C1137, the retired seats' row 219): 'a degree-2 trace field means multiplicities in {1, 2}, never 3' (B298's headline, B1161 l. 33) is false as an implication -- V ⊕ V ⊕ V is defined over the same field; B298's seven computed routes stand; it is cited as prior by B1496, CLOSED_DOORS, GRAND_COMPUTATION_v0 (l. 150), EARLY_RECORD_INDEX (l. 612), HINT_LEDGER H85, in tension with B1606/W20 | QUEUED | [DEBT] Q2: verify, then scope addenda on B298 and B1161 and corrected citations ADDED 2026-11-13 (S306p, B1906 section 3a): verified on main's own code, exactly. The scoped statement holds (a Galois orbit in a quadratic field has 1 or 2 elements); unscoped, B298's headline is false three ways on m004 (the commutant of V + V + V has dimension 9 over Q(sqrt -3); the three non-zero spin characters of the fibre are one orbit; the holonomy mod sqrt -3 is SL(2, F_3), with a degree-3 irreducible). Owed: the scope addenda on B298 and B1161 and the corrected citations, the record's work, for the builder | 2026-11-04 |
++| P-606 | 2026-11-04 | R74 | B298'S DEGREE-2 OBSTRUCTION OVERSTATED (codex R018 / OA-C1137, the retired seats' row 219): 'a degree-2 trace field means multiplicities in {1, 2}, never 3' (B298's headline, B1161 l. 33) is false as an implication -- V ⊕ V ⊕ V is defined over the same field; B298's seven computed routes stand; it is cited as prior by B1496, CLOSED_DOORS, GRAND_COMPUTATION_v0 (l. 150), EARLY_RECORD_INDEX (l. 612), HINT_LEDGER H85, in tension with B1606/W20 | QUEUED | [DEBT] Q2: verify, then scope addenda on B298 and B1161 and corrected citations ADDED 2026-11-13 (S306p, B1906 section 3a): verified on main's own code, exactly. The scoped statement holds (a Galois orbit in a quadratic field has 1 or 2 elements); unscoped, B298's headline is false three ways on m004 (the commutant of V + V + V has dimension 9 over Q(sqrt -3); the three non-zero spin characters of the fibre are one orbit; the holonomy mod sqrt -3 is SL(2, F_3), with a degree-3 irreducible). Owed: the scope addenda on B298 and B1161 and the corrected citations, the record's work, for the builder ADDED 2026-11-13 (the building session, card C17): the dated scope notes are written beside the old words, which stay, on B298's page and verdict line and on B1161's page and verdict line, and at the named citations: B1496's page, B1606's page (W20), GRAND_COMPUTATION_v0's row, HINT_LEDGER H85; the early record index carries B298's note as generated; the closed doors view takes the verdict line's opening, which the note follows; each note quotes B1906 section 3a and this row, and the lock is tests/test_the_degree_two_headline_and_sigma_one_scoped.py with B1161's own lock. The places beyond this row where the headline stands, the paper's among them, are named in the card's README for main | 2026-11-04 |
+ | P-607 | 2026-11-04 | R74 | B1195 PROVED WITH FOUR CELLS FAILING THEIR OWN LENS (codex R023 ask 9, the retired seats' row 224): GC-21, -22, -23 and -25 carry survives: False with no addendum; GC-25 is cited as proved in B1205, B1206, GRAND_COMPUTATION_LEDGER, CLOSED_DOORS and SM_SPECIFICATION_LEDGER; GC-22 became 'λ external by theorem' in P3's main.tex | QUEUED | [DEBT] Q2: verify the four cells; addendum and corrected citations (P3 by erratum) | 2026-11-04 |
+ | P-608 | 2026-11-04 | R74 | TWO OLD SCOPES NEVER PAID (the retired seats' rows 297/299, 493): Review 48's R48-2 (scope T-GOLDEN-MERIDIAN to the off-tone components) was dropped as 'closed by retirement', LAW_MAP row 478 still unscoped; RETRACTIONS row 13 says B518 Tier B's discriminating fact was never computed, but braver's tierB_opening computed it on 2026-08-13 (under the pinned convention the MIXED row fails for every directive; under the other a decoy defeats it) | QUEUED | [DEBT] Q3: the law-map row scoped; the convention adjudicated and B518 Tier B re-worded | 2026-11-04 |
+ | P-609 | 2026-11-04 | R74 | L173'S LIVING TEXT RESTS ON A COUNT THE CLOUD SEAT CALLED AN ARTEFACT (rows 393–396, memos '144'–'147'): OPEN_LEADS' L173 (★★★★, l. 1922) still rests on the 5-against-6 boundary-mode count at ρ = α; the memos prove two-ended counts tie (H_L = J H_R J), the one exception shared by every Sturmian slope, the golden excess a sampling-window confound; B1414 recorded only that the sealed clauses are one identity | QUEUED | [DEBT] Q3: re-run the count two-ended and re-grade L173 | 2026-11-04 |
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 0b6648711..01c730d71 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)
+ - S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…
+ - S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…
+ - S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
+@@ -60,7 +61,6 @@
+ - S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
+ - S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
+ - S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
+-- S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 61bd057ee..f84704334 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1620** |
+-| words of findings prose | **1,444,707** |
++| words of findings prose | **1,445,447** |
+ | test lock files referenced | **945** |
+ | arcs carrying an authored verdict | **1620** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index e6d2780d6..9fa0cc745 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1550 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1551 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1921,5 +1921,6 @@ Generated by `scripts/views/spine.py` — 1550 locks. Regenerated with the views
+ - — `test_printed_numbers.py` 
+ - — `test_public_face.py` 
+ - — `test_selection_family.py` 
++- — `test_the_degree_two_headline_and_sigma_one_scoped.py` 
+ - — `test_the_seven_process_arcs_checked.py` 
+ - — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index 6ed2c3344..118df5186 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -1234,7 +1234,7 @@
+ | `B288` | No closed hyperbolic Dehn filling of the figure-eight re-sees Q(sqrt-3), so the E6-selecting arithmetic is an open-object property destroyed by closing. [2026-09-16, B1419: the arc's second clause 'or is arithmetic' is RETRACTED — it tested the cusped criterion; six fillings are arithmetic by the closed criterion, Meyerhoff among them.] |  | 1 |
+ | `B292` | Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling family are 3-manifold sequences, and none supplies the N=2→N=1 chiral datum. |  | 1 |
+ | `B295` | The Curie-principle argument for CP-sign externality is refuted, and the programme's cubic V(τ) potential is the wrong object with disjoint golden critical points, so no SSB mechanism is available. |  | 1 |
+-| `B298` | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. |  | 1 |
++| `B298` | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the headline holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2.' 'Unscoped, B298's headline is false, three ways on m004'. The seven computed routes stand.] |  | 1 |
+ | `B300` | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent). |  | 1 |
+ | `B308` | The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture, walled by the generation obstruction. |  | 1 |
+ | `B310` | Killed the cascade's novelty: the E6 chain is standard Slansky, and the equal-pi-i/3 spacing and cusp-shape realization claims are false arithmetic. |  | 1 |
+@@ -1583,7 +1583,7 @@
+ | `B1156` | SEAM-A Gate 2 (the prize crossing), sharpened by the WF-1 adversarial workflow (10 agents; 3 scouts -> 2 attempts -> 3 refuters -> seal): the a-priori MISMATCH that B1155 leaned on is REFUTED (2 of 3 lenses). That MISMATCH -- 'arith-CS lands in torsion (1/n)Z/Z, so it cannot reach the real transcendental Vol' -- is a theorem about the FINITE mu_n-coefficient TRUNCATION only (Artin-Verdier H^3(Spec O_F,mu_n)=(1/n)Z/Z), secured solely by stipulating 'arith-CS names the finite row by definition.' The FULL/Arakelov-compactified arithmetic CS over the CLOSED Spec O_F=Z[sqrt-3] (infinite place included) carries a REAL archimedean summand = the Borel/Bloch-Wigner regulator of the single class xi=[e^{i pi/3}] in K_3(Q(sqrt-3)) = Vol(4_1) -- so the codomain contains R and the impossibility is truncation-dependent, not a codomain wall. This ECHOES B1108 (banked, re-verified). MATCH is not sealable either: no map/equation finite-phase -> Vol is constructed. A category correction: there is NO arith-CS 'of m004' -- it is a functional of a FIELD+Galois rep; the one class xi has THREE completions (archimedean->Vol, finite->torsion, p-adic->GSWZ), and B800 is the p-adic one, not the finite Kim action. VERDICT = FLOOR: whether the archimedean door gives a genuine map sending codex's finite order-6 phase exp(2 pi i/6) to Vol=2.02988321281930725, or only relabels Vol as the regulator, is NEEDS-SPECIALIST. The exact remaining computation: extend Andersen-Hansen's proved root-of-unity<->Vol crossing from closed Dehn surgeries on 4_1 to the cusped m004; two specialist sub-bars (object: a stationary-phase/CS bridge with content when CS=0 by amphichirality, B1108's unwalked door; codex: the marked H^3 basis/period/Omega normalization OA-C1045/C1053 record as ABSENT). The archimedean anchor is own-verified (verification/reproduce.sh -> REPRODUCES: z^2-z+1=0, 2*D(e^{i pi/3})=2.02988321281930725=Vol(4_1), V''=sqrt-3). The B800 v3(100)=147->GSWZ-146 reconciliation was refuted (inconsistent prefactor) -- a p-adic normalization item, quarantined, not banked, immaterial. Net vs B1155: removes the MISMATCH lean, installs a sharp named FLOOR; seam stays OPEN. Codex data off-branch (provenance debt). No firewall crossing; Gate 5 untouched. |  | 1 |
+ | `B1158` | Cloud WAVE-2 harvest (the masterplan's backlog-harvest workflow, 8 agents): verify-don't-trust digest of cloud's 10-cell WAVE-2 (memos 56-69) + codex R009-R014 (Paper I-IV audits), banking the three own-reproduced survivors with each overclaim scoped/quarantined. (1) C4: the EXACT GUE sine-kernel Gaudin law FALSIFIES B1151's 'surmise-error' hatch -- per-factor KS p-values stay 3.8e-4/5.5e-7 (<<0.01), merged 2-fold superposition D=0.02441~=0.024 confirms B1153's superposition is law-robust; SCOPED: NOT 'the residual is real' (the D-rise is cosmetic, <=0.0015 theory-curve gap vs 0.04-0.05 empirical), leading-order unfolding is the sole live suspect; corroborated by codex R009. (2) The anomaly INTEGER IDENTITY: under E6->SO(10)xU(1), 27=16(+1)+10(-2)+1(+4) is anomaly-free in all three channels (grav^2-U(1)=0, U(1)^3=0, SO(10)^2-U(1)=0, T(16)=2/T(10)=1), the SM-shaped 16 alone is anomalous, the dark block 10+1 carries exactly -(16) each channel; QUARANTINED: the 'dark sector REQUIRED' headline is CONDITIONAL (needs U(1) gauged [Gate 5] + the observer-paid D5 frame, uniqueness refuted OA-C1087) -- bank the identity not the headline; extends B1147-B1150. (3) The Habiro zeta_3 germ CORRECTED: the one-germ property transports uniformly (v_pi=N), the memo's 'collapse at modn=15, mechanism OPEN' is a base-embedding artifact, mechanism SOLVED = coherence <=> p^r=1 mod 3, with f=2 (p=5 inert)/g=2 (p=7 split) correcting the memo's 'f=1 unique prime'; credit cloud for the germ, the correction is ours; extends B905/B1156. TWO CROSS-SEAT CONVERGENCES: (A, strongest) codex R011 Ruelle fence CORROBORATES our B1157 dynamics_null -- two seats, same infinity-place limit, same k=2 fault line, opposite mechanisms, identical 'no crossing' verdict (recorded as a B1157 addendum, not re-banked); (B) codex R012 dark-ledger == cloud ANOMALY_PAYMENT -- apparent conflict dissolves at scope, both reproduce identical E6 kinematics + identical fences, consistent. Codex R010-R014 (Paper I-IV audits, incl. R014 both literal claims REFUTED via witness s955) RELAYED to cc3 (owner-gated), not banked. All banked sub-results own-reproduced (verification/reproduce.sh -> REPRODUCES). No firewall crossing; Gate 5 clean. cloud + codex credited. |  | 0 |
+ | `B1159` | The object->MSSM debt-map: WF-3 (6 agents) read codex's off-branch conditional MSSM witness AND re-derived the load-bearing algebra in-sandbox, typing every condition A-E. VERDICT on 'can the chain run object-FORCED to MSSM?': NO, and the reasons are theorems. LINK A (heterotic framework) = CRUX, IMPORTED, un-forced: OA-C1002 re-derived by multiplet count (the same CY3 (h11,h21)=(1,4) gives IIA (1,5), IIB (4,2), het N=1 -- three inequivalent string realizations, so heterotic is a CHOICE); SEAM-A/B1156 does NOT pay it (the finite-phase->Vol map is NEEDS-SPECIALIST, leaning MISMATCH; the dynamical route is DEAD, B1157). SEAM-A is a WALL in substance (un-forced at every place: finite by OA-C1002, infinity by B1157 genericity + B1156 tautology), a FLOOR only in strict-proof (one unsealed computation). LINK B (which E8) = FORCED-GIVEN-CRUX: re-derived SU(3)-commutant E6(78) in E8 vs SO(26)xU(1)(326) in Spin(32)/Z2, 78!=326 => E8xE8 only; but E6 is generic (B727), inherits A's non-payment. LINK C (bundle/branch/Wilson) = HALF-PAID: the character ALPHABET is object-forced with ZERO spectrum input (Pic_Q={0,2,3,4,6,8,9,10} from the toric fan = the bypass door's foothold), but the BRANCH SELECTION needs two imported target-motivated rules P1/P2 + Galois V4 acts freely (uniqueness refuted, 11-dim moduli unselected). LINK D (up-Yukawa) = WALL: mu_u=<i(a) cup i(b),c~>=0 because H1(X,G_X)=0 (re-derived by hand + sage cert) = SEAM-Y MISMATCH (B1154), cohomological emptiness, coefficient-independent. LINK E (moduli/SUSY/EWSB/scales) = WITHHELD (dimensionful no-go B660/B666). THE BIFURCATION: the STRUCTURAL chain (-> exact charged MSSM spectrum) is A=>B=>C-spectrum, PAYABLE IFF A paid (a conditional cohomological spectrum theorem, single unpaid premise A); the VALUE chain (-> Yukawas/masses) hits the WALL D + WITHHELD E. So 'object all the way to MSSM' = a conditionally-forced SPECTRUM on top of a proved WALL where the masses are -- structure forced (on A), values withheld, the program's one verdict at the SM's doorstep. NOT object-forced end-to-end, NOT a breakthrough. THE LIVE DOOR (relocated): bypass A -- replace C's P1/P2 with an object-intrinsic principle to derive the spectrum from E6+character-rule as algebra (the alphabet is already paid). Two clean facts own-verified (reproduce.sh -> REPRODUCES: the multiplet count + the E8 branching). Codex witness single-homed off-branch (provenance debt D1/D2/D3 relayed). No firewall crossing; Gate 5 clean (no SM value derived). |  | 1 |
+-| `B1161` | THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The crown cell -- force C's P1/P2 branch selection object-intrinsically to derive the MSSM spectrum WITHOUT the walled heterotic axiom -- is NOT-FORCED, residual PROVED IRREDUCIBLE: V4=Gal(H/Q) (ring class field, disc 144, B1067) acts FREELY+transitively on the 4 surviving primary branches (all stabilizers trivial), so every Galois-invariant object quantity is constant across them -- no object-intrinsic invariant picks a branch -- + each carries 11-dim unselected moduli. BUT the free-orbit theorem forbids only GALOIS-INVARIANT selectors; an object-supplied ARCHIMEDEAN MARKING (canonical H->C, the holonomy root) would break the orbit -- and that marking is EXACTLY SEAM-A's absent W0/marked-H3 basis. So 'irreducible while SEAM-A stays walled' -- the bypass door and SEAM-A are ONE obstruction (the missing archimedean marking) seen from two sides. THE SIX CELLS: P1/P2-force NOT-FORCED (scoped positives: C4xC3 = unique coprime CRT split; odd-leg {4,8} K-rational -- link C's decomposition+leg-set gain object footing, branch selection+moduli stay observer-paid); L132-B892 CONVERGES (hypercharge forcing DUAL-HOMED: B892 color-A2 centralizer=A2+A2, 36/36 SM zero non-SM, same as B1160 trinification frame); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ non-relation sealer is VACUOUS -- own-verified PSLQ live [recovers B682 as [-2,3]] but PSLQ(rational,Vol)=None for claim AND controls = zero discriminating power, just restates Vol not in Q; SEAM-A stays the Arakelov/W0 FLOOR); down-Yukawa BENCHABLE/WITHHELD (unlike up-Yukawa mu_u=0 ABSENT, the down coupling is object-forced+PRESENT as a 3x3x4 tensor, only the Higgs-line projection observer-supplied -- P^3 branch class, firewall thesis one level deeper); generation-index NULL (own-verified: trace field x^2-x+1 disc-3 degree-2 Galois Z/2 => multiplicities in {1,2} NEVER 3, chi=0; object's honest content = ONE generation, the '3' external). THE EXHAUSTED-FRONTIER BOUNDARY: everything reducible to object group theory / toric cohomology / in-sandbox numerics is DONE; what remains = 2 proved irreducibilities (branch selection, generation NULL) + 2 walls (heterotic, up-Yukawa) + 1 NEEDS-SPECIALIST sharp bar (SEAM-A Arakelov/W0) + 1 buildable-unbuilt artifact (down-Yukawa evaluator). Gate 5 clean across all six cells (only integer/rational group theory, anomaly identities, Galois action, multiplicities, irrationality; SM ratios are anomaly-DERIVED structure, B950). No firewall crossing. Feeds the review. |  | 0 |
++| `B1161` | THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The crown cell -- force C's P1/P2 branch selection object-intrinsically to derive the MSSM spectrum WITHOUT the walled heterotic axiom -- is NOT-FORCED, residual PROVED IRREDUCIBLE: V4=Gal(H/Q) (ring class field, disc 144, B1067) acts FREELY+transitively on the 4 surviving primary branches (all stabilizers trivial), so every Galois-invariant object quantity is constant across them -- no object-intrinsic invariant picks a branch -- + each carries 11-dim unselected moduli. BUT the free-orbit theorem forbids only GALOIS-INVARIANT selectors; an object-supplied ARCHIMEDEAN MARKING (canonical H->C, the holonomy root) would break the orbit -- and that marking is EXACTLY SEAM-A's absent W0/marked-H3 basis. So 'irreducible while SEAM-A stays walled' -- the bypass door and SEAM-A are ONE obstruction (the missing archimedean marking) seen from two sides. THE SIX CELLS: P1/P2-force NOT-FORCED (scoped positives: C4xC3 = unique coprime CRT split; odd-leg {4,8} K-rational -- link C's decomposition+leg-set gain object footing, branch selection+moduli stay observer-paid); L132-B892 CONVERGES (hypercharge forcing DUAL-HOMED: B892 color-A2 centralizer=A2+A2, 36/36 SM zero non-SM, same as B1160 trinification frame); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ non-relation sealer is VACUOUS -- own-verified PSLQ live [recovers B682 as [-2,3]] but PSLQ(rational,Vol)=None for claim AND controls = zero discriminating power, just restates Vol not in Q; SEAM-A stays the Arakelov/W0 FLOOR); down-Yukawa BENCHABLE/WITHHELD (unlike up-Yukawa mu_u=0 ABSENT, the down coupling is object-forced+PRESENT as a 3x3x4 tensor, only the Higgs-line projection observer-supplied -- P^3 branch class, firewall thesis one level deeper); generation-index NULL (own-verified: trace field x^2-x+1 disc-3 degree-2 Galois Z/2 => multiplicities in {1,2} NEVER 3, chi=0; object's honest content = ONE generation, the '3' external). THE EXHAUSTED-FRONTIER BOUNDARY: everything reducible to object group theory / toric cohomology / in-sandbox numerics is DONE; what remains = 2 proved irreducibilities (branch selection, generation NULL) + 2 walls (heterotic, up-Yukawa) + 1 NEEDS-SPECIALIST sharp bar (SEAM-A Arakelov/W0) + 1 buildable-unbuilt artifact (down-Yukawa evaluator). Gate 5 clean across all six cells (only integer/rational group theory, anomaly identities, Galois action, multiplicities, irrationality; SM ratios are anomaly-DERIVED structure, B950). No firewall crossing. Feeds the review. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the generation-index cell's 'multiplicities in {1,2} NEVER 3' holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2.' 'Unscoped, B298's headline is false, three ways on m004'.] |  | 0 |
+ | `B1162` | The MSSM-debt closure (cloud memos 71-75, D1-D5) + codex's height-308 MSSM witness VERIFIED on our own bench -- finishing WF-3's second half (the witness was single-homed; B1159 relayed it). THE WITNESS (sage-verified on-bench, witness_sage.txt): H0(Y,V)=0 (augmented-kernel dim 6), the Phi-induced C372->C312 rank gate = 312 surjective over Q(zeta12) with H1(K1*)=0, char-0 local freeness certified, chart-orbit ideals unit -- now DUAL-HOMED (codex off-branch + main-sage); honest fences intact (minimality heuristic, stability unproved). CLOUD'S 5/5 CLOSURE, cross-checked: D1 (memo 75, alignment audit) -- B1159's ledger aligns with the bench, ZERO contradictions; the anomaly discriminant -18(u-2)(u+4) own-verified IDENTICAL to our B1160/B1161 -18(t-3)(t+3). D2 (memo 70) hypercharge forced = B1160. D3 (memo 72) the SM breaking chain is UNIQUE -- exactly 2 of 27 are (color-singlet, weak-singlet, Y=0) = the lepton block's 2 neutral states (nu^c-like + S-like), standard E6 double-breaking the ONLY SM-preserving chain (cloud cert, cited; consistent with standard E6 GUT). D4 (memo 74) one 27 = ONE generation (the trinification Z/3 rotates quark->lepton->antiquark WITHIN a generation, 3-ness only in E8's (3,27)) -- confirms B1161 generation-NULL. D5 (memo 71) SUSY NO-GO -- the carrier admits no supercharge (3 definitions, 3 exact negatives: pi1-equivariant none, gauge-equivariant none, the beat even+semilinear not a supercharge); contradicts no observation. Plus memo 73 closes the C4 residual = intrinsic finite-height statistics (survives theta-exact + local-empirical unfolding; the O(1/log T) class), confirming B1158. SYNTHESIS: the object forces a complete SM STRUCTURE (E6 spine, carrier/lock/clock, unique Yukawa, hypercharge, unique breaking chain, one generation) and walls the dynamics/values (SUSY no-go, up-Yukawa=0, values provably free, heterotic imported + the missing W0). The program's one verdict -- structure forced, dynamics+values withheld -- now across the whole visible sector. Bank-grade own-verified: the witness cohomology (sage), the D1 discriminant, D4=B1161, D2=B1160. Cited (cloud stack single-homed, corroborated by alignment): D3, D5. No firewall crossing; Gate 5 clean. Cloud + codex credited. |  | 1 |
+ | `B1163` | The W0 construction ATTEMPT (owner: 'can we specialize ourselves and do the missing archimedean W'; WF W0-construct, 7 agents). SEAL = PARTIAL: no W0 constructed, but all three routes CONVERGE on ONE missing datum -- an object-canonical archimedean embedding Q(sqrt-3)->C (= an ORIENTATION of m004 = the selection of +Vol over -Vol = the dominant saddle among e^{+-i pi/3}) -- which every candidate marking SMUGGLES rather than supplies. THE OBSTRUCTION IS ONE DATUM, SEEN THREE WAYS: the free-orbit theorem (B1161, arithmetic: V4=Gal(H/Q) acts freely, no Galois-invariant selector) = the {+Vol,-Vol} TWO-VALUEDNESS (analytic, own-verified: Bloch-Wigner is ODD under conjugation, 2 Im Li2(e^{-i pi/3}) = -Vol exactly) = the AMPHICHIRALITY CS=0 (geometric: m004 amphichiral, Re V(u0)=0, so the object's own symmetry does NOT break z<->zbar; landing on +Vol needs 'which sqrt-3 is +i sqrt3 in C' = the embedding = orientation, not arithmetic data). So W0 = the choice of orientation/embedding, and the object PROVABLY REFUSES to make it -- not a gap, but the object being exactly Galois-symmetric + amphichiral. BANK-GRADE own-verified: Vol from the Kashaev sum J_N=sum|(q)_k|^2 (volume conjecture for 4_1, leading rate ->Vol, exponent 3/2, constant 3^{-1/4}); the {+Vol,-Vol} orbit; a CORRECTION (verify-don't-trust inside the attempt: R3's a1=-sqrt-3/108 is FALSE, the fit forces a1=-(11/216)sqrt-3, ratio 11/2 -- R3 dropped the quantum-dilog Euler-Maclaurin term; a1 stays in Q(sqrt-3), R3's conclusion survives); R2 (on-bench) the CY3 Batyrev residue Omega CANONICAL UP TO C^x scale (det=+1, charpoly Phi_12), H^3=Z^10, but NOT the scale (=W0) -- Picard-Fuchs returns object-canonical period RATIOS, structurally never the scale. VALIDATES the meditation: (A) the absence of W0 is the OBSERVER's role, not a gap (the object is amphichiral, cannot pick +Vol; the orientation is the observer's, the same bit as chirality/branch); (B) it is a SCALE wall not a VALUE wall (the object forces the period ratios, withholds only the C^x scale). THE EXACT BAR IS DEFINITIONAL, not benchable: does the adelic thesis admit m004's Mostow-canonical hyperbolic structure as OBJECT-data or OBSERVER-data? -- an admission to make in the open; the specialist route (Andersen-Hansen cusped) still outputs {+Vol,-Vol} and still needs the embedding, collapsing onto the same admission. FIREWALL CLEAN: no route crosses, no W0-CONSTRUCTED claimed; Gate 5 clean (only lattice dets, orbit counts, cohomology, a torsion phase, a knot-invariant asymptotic -- no measured value). |  | 0 |
+ | `B1164` | cc's part of the A-E masterplan (cloud owns the 5 lane cells; MC1->codex): MA2 the choice-orbit census, MD1 the firewall pin, ME3 the phase/orbit split, + the sec-E gravity placement -- each own-verified, with TWO verify-don't-trust corrections. MA2: the observer freedom = 2 DISCRETE bits + 1 CONTINUOUS (the branch-V4=(Z/12)^x=(Z/2)^2 discrete x C^x scale) -- a CORRECTION to cc's own meditation 'one bit' undercount (orientation is ONE LEG of the V4, not the whole). bit1=sqrt-3 (orientation/chirality, theorem-anchored B1163); bit2=sqrt3 (the sqrt3 hinge B1155, Q(zeta12)=K(sqrt3)) -- CORRECTING the workflow's own flagged sqrt5 overreach (the 3 quadratic subfields of Q(zeta12) are sqrt-3, sqrt3, sqrt-1; sqrt5 is NOT among them; the sqrt5/E8 'hearing' end is the separate two-ended structure, not this ring class field); bit3-continuous = the C^x scale/dilaton (B1163 sec-B). MD1: the pinned firewall classifier -- d STRUCTURE iff dimensionless AND forced (group-theory/arithmetic/anomaly, no fit); VALUE iff dimensionful OR fitted; PROVENANCE the discriminator (dimensionlessness necessary-not-sufficient). Tested corpus-wide ZERO exceptions; decompose compounds (hypercharge = direction-STRUCTURE + normalization-VALUE, own-verified the [U(1)]^3 homogeneous cone fixes the ray leaves the scale free); OUTCOME-INDEPENDENT (sin^2 theta_W=3/8 stayed STRUCTURE through a 16sigma miss B915); falsifier = the value campaign (0/18, Koide a proven coincidence). PRINCIPLED + falsifiable, not movable -- discharges meditation sec-D. ME3: a phase-trivial marking does NOT break the free orbit (own-verified: z=e^{i pi/3} order 6 mu_6 torsion at the finite place; the orientation is the archimedean Bloch-Wigner sign, mirror-odd; the phase is Galois-INVARIANT = shared by both orientation branches = zero selectivity) -- cloud's beat-conjugation relay (phase object-forced 0) is CONFIRMATORY, prunes cloud's W0 search to MODULUS-ONLY. sec-E: the convergent signal -- everything the observer supplies is ARCHIMEDEAN (the orientation bit + the C^x scale, both at the infinite place) while the object forces finite-place/torsion + place-independent structure; the infinite place is where gravity/metric/volume live => the observer's freedom = archimedean data = a CANDIDATE for the gravitational marking (PLACEMENT established; the identification is the sec-E hypothesis this feeds, NOT banked). Residues flagged (not banked): the single-torsor identification (branch-V4 = being x hearing V4 = measurement torsor); the observer=gravity identification. Gate 5 clean; no firewall crossing. |  | 0 |
+@@ -1612,7 +1612,7 @@
+ | `B1215` | THE CODEX TRANSCRIPT HARVEST (owner-relayed working transcript, not their commits alone). (1) R022 DOES NOT REFUTE B1182, and the boundary is pinned: their transcript summarises R022 as 'the original three-way field-labelled identification is FALSE', which read alone looks like a refutation of T-V4-TORSOR-IDENT -- a theorem THIS BENCH REGISTERED HOURS EARLIER at B1214. It is not: R022's negative is BRANCH vs BEING-x-HEARING (separated by sqrt3 vs sqrt5 and ramification {2,3} vs {3,5}), while B1182's theorem is the SQRT(-3)-INTERNAL pair (frame V4 = <c,r> and branch V4 = Gal(Q(zeta12)/Q)) -- no being-x-hearing, no sqrt5. OUR OWN BANKED RECORD SETTLES IT (B1175's charter text: 'C4 REFUTED-AS-STATED by the author -> C4' (the sqrt(-3)-internal pair, R022's frozen-data spec; BEING x HEARING DROPPED)') -- B1182 IS C4', the pair that survived R022's negative; the three-way OA-C1133 stays ill-typed and open. (2) THEIR WRAPPER FLAG IS REAL AND THREE OF THE FOUR WERE MINE FROM TODAY: of 52 reproduce.sh wrappers, 4 printed REPRODUCES with NO GATE on the computation's own output -- asserting success on the process exiting 0 rather than on the computation asserting anything -- and B1210/B1211/B1213 were written by this seat in the same session that banked B1207's lesson about instruments that cannot fail. THE FOURTH IS WORSE: B1175's wrapper RE-RUNS NOTHING AT ALL, echoing conclusions and printing REPRODUCES, for certificates that live on codex's branch and are not vendored -- corrected to print RECORD with the reason at the top of the file ('a reproducer that reproduces nothing is worse than no reproducer, because it answers the question it was never asked'). Ungated now: 0. (3) THE STALLED LEAD CARRIED ONE STEP -- codex's last finding before their quota ran out, uncertified by them: the tail-selection equation cannot be copied from the quark leg to the lepton leg, because for A_11 the required raw B-pair sum is 4 mod 12 rather than 8. CHECKED HERE FROM THE SPEC'S OWN NUMBERS: the invariant is the RAW TOTAL (the three raw characters (7,6,2) sum to 3 mod 12), so rho+sigma = 3 - chi(A) mod 12, which REPRODUCES THE SPEC'S OWN STATED RULE (8) for A_7 and gives 4 for A_11 -- CODEX'S ARITHMETIC IS CONFIRMED and the rule is not a constant. The instrument is CALIBRATED BY THE SPEC rather than chosen: a first pass allowed character 10 and produced a fourth A_7 pair (10,10) the spec does not list, so the alphabet runs 0..8 and the spec's list (0,8),(2,6),(4,4) pins it; on that alphabet A_11 gives (0,4) and (2,2), and (2,2) IS REPEATED so it vanishes by the same skewness that killed (4,4) in the down case. FENCED: that the lepton leg IS A_11 is a reading of codex's frames, which are not on this bench and which their own certificate leaves UNDETERMINED at generation level -- this verifies the CONSEQUENCE, not the reading. CONDITIONAL CONSEQUENCE for B1208's fork: IF the lepton leg is A_11 its tail structure DIFFERS from the down leg's, which is evidence AGAINST branch (a) (same tensor) and toward (b) or (c), without deciding between them since the connecting contributions are untouched. (4) THEIR HONEST NINE-STEP SM CHAIN ADOPTED as an external reading (bare 'not nothing' does not uniquely select a seed; Fibonacci conditional; the carrier conditional; GIVEN m004, m004 -> 2T -> E6 PROVED; E6 supplies an exact SM-shaped skeleton; a unique compact 4d QFT functor NOT derived and unrestricted uniqueness REFUTED; the heterotic construction a conditional witness not an object-forced realization; three chiral generations NOT derived; vacuum/spectrum/Yukawas/dynamics/values unclosed) with their summary -- 'genuine structural mathematics, but not yet a parameter-free Standard Model or TOE' -- which is our position too, and worth more to the paper written by a hostile-audit seat than by us. Their ledger now types 185 questions: 70 PROVED, 55 REFUTED, 15 CONDITIONAL, 22 EXTERNAL_BLOCKER, 2 EMPIRICAL, 21 OPEN. CARRIED NOT ACTIONED: the paper branch's '112-member' verifier still running its withdrawn 14-member census (cc3's, relayed) and outside scripts on floating git refs (cloud's). Gate 5 clean. |  | 0 |
+ | `B1216` | THE PARAMETER-CLOSURE LOOP, RUN 1 (owner-directed masterplan; 9 agents, ~686k subagent tokens, 20 min). THE SCORE, in the adjudicator's own words: ZERO ROWS DELETED, ONE GATE WRITTEN, ONE REGRESSION, ONE REFUTATION. The pre-registration was WRONG AND INSTRUCTIVELY SO: this bench predicted C3 and C1 could close while C2 and C4 could only sharpen; in fact C1 closed NEGATIVELY and ENLARGED ITS OWN ROW, C3 did NOT close, C2 FAILED adversarial review, and C4 delivered exactly as predicted -- so the cell predicted least likely to move is the only one that did. (1) THE FINDING THAT MATTERS MOST IS A VACUITY IN OUR OWN RECORD: the C1 verifier asked that a clause be STRUCK for want of a computation; the adjudicator RAN the computation instead and the outcome was worse than striking. B1192/GC-16's supporting clause ('X0 acts as the Galois generator on BOTH spectral fields, so the class restricts to c') is MB12-VACUOUS, re-derived here: for hyperbolic P in SL2(Z) the eigenvalues are {lam, 1/lam} and the Galois conjugate of lam over Q(tr P) IS 1/lam, so ANY X with XPX^-1 = P^-1 carries P's lam-eigenline to P^-1's lam-eigenline = P's OWN 1/lam-eigenline -- EVERY anti-conjugator swaps them, BY CONSTRUCTION, and this bench exhibits it for a det X = +1 anti-conjugator, the mirror-EVEN type the record calls dead. The clause has NO FAILING BRANCH and supports nothing; the det = -1 SIGN result is untouched. THIS IS THE SECOND MB12-VACUITY IN A FORTNIGHT (after B1206 candidate iii) AND BOTH WERE IN SUPPORTING CLAUSES RATHER THAN HEADLINES -- the headline claims are getting checked, the sentences propping them up are not. (2) C1 REFUTES THE MASTERPLAN'S OWN CLOSURE ROUTE for the c-bit: the sqrt(3)-partner is NOT canonical at TWO levels -- norm-+1 holds for 30 of 37 real quadratic fields scanned (81%, generic not fine-tuned), and PREVIOUSLY UNFLAGGED, even fixing the same field (disc 12) conjugating the partner within its own GL2(Z)-class changes the outcome (22/60 DIRECT(det=-1) vs 38 TORSOR with no integral realizer at all). THE COUNTEREXAMPLE THAT KILLS THE CRITERION: DIRECT(-1) is exhibited for disc 13, a genuine NORM-(-1) field (fundamental unit 18+5sqrt13) of the same self-coupling-killed type as the golden -- so norm+1 is NOT NECESSARY once embedding freedom is admitted (also disc 21, disc 15). THE CONTROL keeps it honest: a 204-embedding scan of the norm-(-1) sqrt(2) control gives only DIRECT(+1) or TORSOR, NEVER DIRECT(-1), so the achievable sign IS field-specific but DOES NOT TRACK the unit-norm dichotomy GC-2/GC-16 proposed. (3) C3 DID NOT CLOSE THE P^3 but reduced it to ONE BINARY LOOKUP WITH BOTH BRANCHES PROVED: do the SU(5) components feeding the down leg and the lepton leg carry the SAME Z/12 characters? SAME => det Y_e IDENTICALLY EQUALS det Y_d (transpose-invariance) => zero new cut, dim 1 WITH CERTAINTY; DIFFERENT => an independent cubic => dim 0. AND IT CORRECTED B1215: my tail enumeration missed (8,8), which also satisfies 16 = 4 mod 12 -- it is likewise a repeated direction and also dies by skewness, so the corrected count is 2 surviving (down) vs 1 (lepton); B1215's CONCLUSION stands, its enumeration did not. (4) C2 WAS REFUTED BY ITS OWN VERIFIER AND THE REFUTATION IS CORRECT: it claimed a theorem-shaped {II_1, III_1} exhaustion while its sources say otherwise verbatim (B850: 'Type: III_1 -- CONDITIONAL on the cited reduction'; B721: 'There IS a genuine bridge IN THE LITERATURE') -- citations presented as 'confirmed two independent ways'. WHAT SURVIVES: Q(sqrt-3) has UNIT RANK 0 so its regulator is IDENTICALLY 1, killing that sub-route by textbook fact, and B721's Delta = I is a real in-sandbox number (4.59e-41). WHAT IS WITHDRAWN: the exhaustion and the 'excluded by TYPE' argument. LAMBDA IS NOW WORSE-DOCUMENTED THAN BEFORE THE RUN. (5) C4 IS THE ONLY FORWARD MOTION: sigma moves from 'one bridge missing, unspecified' to 'one bridge missing, FULLY SPECIFIED, with a runnable pass/fail test and a documented EMPTY candidate set' -- the missing object named (the graded character chi_d of the AdS3-boundary chiral algebra of T[m004] at c = 6) with a six-clause kind-map K1-K6 including the Cardy 6-vs-1 quantifier (the object supplies ONE cusp-boson unit; a candidate must say where the other FIVE live), and B672's coefficients re-derived from scratch confirming K3's failure is genuine with a NON-EMPTY pass-branch. (6) GOAL TEST: NO. sigma PASSES the second disjunct (bounded, gated, testable, not derived); LAMBDA BLOCKS (no acceptance gate exists at all); THE P^3 BLOCKS (bounded to an internal computable fact this bench does not hold -- one lookup away is not closed); l is correctly typed as a permanent boundary and out of scope. (7) THE REPLAN R1-R6, with ONE CAVEAT RECORDED IN ADVANCE: dim 0 IS A FINITE POINT SET, so if the P^3 closes the row converts from continuous to FINITE LABEL and joins B990's already-closed category -- IT DOES NOT BECOME A UNIQUE PREDICTION, and anyone quoting a future closure must quote that sentence with it. Gate 5 clean. |  | 0 |
+ | `B1217` | THE SEAT INTEGRATION (discharging the debt the owner named: 19 commits harvested -- codex 2 + their R027 lead, cloud 17, cc3 none -- integrate-don't-merge, nothing merged). VERIFIED ON THIS BENCH: (1) CODEX R026's determinant frame -- their cert runs here with identical output (Euler minor rows (0,1,2,3,6,7), det -72*zeta^2, characters B:6 W:11 G:7, wedge sign +1) and TWO CORES RE-DERIVED FROM FIRST PRINCIPLES: W:11 is the direct sum of the selected ray characters (35 = 11 mod 12), and B + W + G = 24 = 0 MOD 12 -- THE THREE DETERMINANT CHARACTERS CANCEL, which IS the equivariance the frame requires and which codex reports as three numbers WITHOUT flagging as the consistency check; controls (6,11,8),(5,11,7),(6,10,7) all fail so it is not automatic; and the wedge sign is +1 by inversion count with a parity control. DELTA_G IS BUILT -- COMPONENT 1 OF 3 of the evaluator that decides the P^3, with their scope carried verbatim (the H^3 trace is still needed for all 18 connecting entries, the Serre map for tails, so B1208's fork stays open). (2) CODEX R027's SIMPLIFICATION CONFIRMED: their claim that the normalized product trace needs no 36-chart reduction because a factor trace cycle of eight triangles has an Eilenberg-Zilber cross product of at most 8^2 x 6 = 384 product simplices -- 384 CONFIRMED here and the 6 is exactly C(4,2), the count of (2,2)-shuffles, with the degrees working (2-cycle x 2-cycle = 4-cycle, the right degree for an H^4 class). A LEAD, not a delivered result; component 2 of 3, theirs to run. (3) CODEX R025 independently confirms B1215's law (rho+sigma = 3-a mod 12) and goes further, making the physical block explicit as A_11 x B_2 x B_2 whose only pure-tail term is zero by skewness -- their own scope line carried (no mixed or connecting term evaluated). (4) CLOUD'S V-NEG VERIFIED AT BOTH CHECKABLE POINTS AGAINST OUR OWN DATA: their hygiene pre-step RUNS HERE against B1137's own basis.py and reproduces exactly (three volume directions independent of the 25-entry pruned basis, 0 dropped, Vol computed from Li_2 not quoted), and their gating control is CONFIRMED against B1137's banked report -- 117 raw, all 117 involves_V, ZERO involves_regulator, matching their claim, with |Vub| carrying raw_found 9 and involves_regulator 0 so their 117->108 explanation HOLDS FROM OUR SIDE (dropping those cells masks no hit; the deciding column is zero in both runs). THE EVIDENCE-CONTRACT GAP: cloud's EXTENDED run -- the V-NEG headline itself -- is NOT REPRODUCIBLE AS COMMITTED. The file at outside_bench/certificates/vol_basis_extended.py contains the BASIS BUILDER (R48-3), not the extended probe; no committed certificate carries the involves_regulator gate except an unrelated staleness re-check; their own memo names no path. TYPED PRECISELY: the headline is CITED with both checkable sub-claims CONFIRMED and the run unreproduced -- an EVIDENCE-CONTRACT gap, not a mathematical one, and the same class codex flagged and cloud fixed one instance of the same day. Relayed, not fixed here. HARVESTED AND TYPED: cosmology rows 2 and 8 are ONE MISSING OBJECT (one needs the log of a volume ratio, the other an exponent with respect to a scale factor; row 8's growth is exponential-class so NO EXPONENT EXISTS to compare whatever its value, and there is no scale factor to differentiate against, banked twice), row 7 split target-by-target as part proved-negative part still missing, and the proposed 'expansion' is DETERMINANT-ONE SHEAR not FRW volume expansion so no e-fold or physical scale factor follows. GOVERNANCE: both hold releases were OWNER-AUTHORIZED and both handled with restraint -- the theta-even crossing was released and NOT FIRED (four independent sufficient reasons, all four pre-work items outstanding, THE LICENSED ROW UNSPENT), and the send-queue release was taken with two surviving rules (the bench prepares rather than transmits; a blanket release supplies no per-item word) plus a readiness audit finding Q1 STALE BY EIGHT POST-QUEUE ARCS BECAUSE OF OUR B1209, now rewritten. Cloud also self-corrected a staleness flag as a false positive OF THE SAME SHAPE B1210 CAUGHT (third seat, same lesson), fixed the floating-ref defect, and adopted push-as-you-go. ONE REPAIR TO OUR OWN LOCK: the L154 drive-by-mention lock tripped on B1207's FINDINGS -- which DOCUMENTS THE REPAIR OF THAT VERY LOCK and so quotes its criterion, the THIRD instance of the self-documenting-instrument class this week -- and on docs/THEOREM_REGISTRY.md, which B1214 populated with theorem rows naming the partition function and the boundary; both admitted with the conditional test intact, because a registration surface is the last place that lock should bar discussion. Gate 5 clean. |  | 0 |
+-| `B1228` | S1 RUN AT LAST (unrun since B1025 I4) -- THE BURIED PRIZE'S EMPTY CANDIDATE SET BECOMES A UNIQUE NAMED CANDIDATE, AND THE BRIDGE IS NAMED SHARPLY. NOT sigma = 1: that is RETRACTED in-arc, see THE RETRACTION below. OWNER'S READING, which is what unlocked this: 'supplied externally' is our bookkeeping for 'not derivable from this object in isolation' -- writing it as though the supplier sits outside existence is illiterate on our own terms, and it is how row 8 got orphaned from row 1. THE EDGE NOBODY DREW: GRAND_COMPUTATION_v0 section 6 lists row 1 (sigma, 'THE BURIED PRIZE') and row 8 (J, closer = S1) as independent deletion rows. Row 8 is row 1's SUPPLIER. B1216 threw 9 agents at row 1 and deleted zero rows because the schedule was read as a checklist, not a DAG. WHAT S1 ESTABLISHES: (1) the simply-laced level-1 identity c(J_1) = dim/(1+h^v) = rank(J), verified 9/9 (A1..E8) -- a theorem, not a fit; (2) the object's nomination pi_1(m004) ->> 2T VERIFIED ON-BENCH by brute force over all of SL(2,3)^2: 48 surjections of 72 homomorphisms, with a control that BITES (5_2 gives zero) -- McKay then gives J = E6; (3) K5 ANSWERED IN SHAPE: the 'six cusp-boson units' are not six cusps but the six CARTAN directions -- (E6)_1 is the E6 ROOT-LATTICE CFT, six free bosons; (4) K6 DISCRIMINATION: sigma = c/6 equals 1 for EXACTLY ONE of nine simply-laced types, E6 -- and neither clause alone suffices (A2 shares 3 primaries AND T-matrix order 12, yet gives sigma = 1/3); (5) K1 NAMED: the candidate is (E6)_1, vacuum module, c = 6 exactly, modules {1, 27, 27bar}, h = {0, 2/3, 2/3}, T-order 12 -- with every arithmetic cross-check passing (Z/3 modules <-> the trinification Z/3 <-> the trace field Q(zeta_3); T-order 12 <-> the map's exact mod-12 bookkeeping; the 27 already the SM-content carrier); (6) THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece: a WZW needs (J, k); the object supplies J and provably NO k (CS = 0 => dS/dk = -CS = 0, B1012/B1088; CS = 0 itself forced by amphichirality, B1224/B1227 today). A level-1 simply-laced WZW IS the root-lattice VOA -- determined by the lattice ALONE, no level datum -- while every k > 1 needs a level the object cannot give. So k = 1 is forced by INVENTORY, not chosen. MB12 on that: allow k=2 and sigma = 13/7, k=3 and sigma = 13/5 -- the BLINDNESS is exactly what pins sigma, so the wall the record files as 'the firewall relocated beyond the object's reach in principle' is the MECHANISM, not the obstacle. THE RETRACTION, made in-session before anything was banked: I first reported the chain 'closes end to end' and gave sigma = 1. IT DOES NOT. The action S = -CS*k - Vol*sigma is the Chern-Simons action OF THE GEOMETRIC PSL(2,C) CONNECTION, so its boundary WZW is type A1, rank 1 -- which IS the 'one cusp-boson unit'. The E6 arrives from a DIFFERENT structure (McKay on 2T, the 6d (2,0) type). The two sixes come from two constructions; 'default-J vs nominated-J' DIAGNOSES the gap correctly without closing it. Asserting otherwise is precisely the K6 error. DIMENSION CHECK RUN (B980 records a withdrawn chain of this exact shape, killed on dimensions): c and sigma are both dimensionless, so that failure mode does not apply here. NET: row 1 goes from 'documented empty candidate set' (B1216) to a UNIQUE NAMED CANDIDATE with the level forced and the arithmetic matched, and ONE identification remaining -- does the NOMINATED type or the GEOMETRIC connection govern the boundary algebra? That is L154's missing bridge, now stated with a unique target instead of an empty set. sigma is NOT deleted. Gate 5 intact; no measured value anywhere. FENCE: the nomination is GENERIC (the trefoil also surjects onto 2T, 48 as well; B993/B996 ~1/3) -- so it is real but NOT distinctive to m004, and S1 tests acceptance, never uniqueness. |  | 1 |
++| `B1228` | S1 RUN AT LAST (unrun since B1025 I4) -- THE BURIED PRIZE'S EMPTY CANDIDATE SET BECOMES A UNIQUE NAMED CANDIDATE, AND THE BRIDGE IS NAMED SHARPLY. NOT sigma = 1: that is RETRACTED in-arc, see THE RETRACTION below. OWNER'S READING, which is what unlocked this: 'supplied externally' is our bookkeeping for 'not derivable from this object in isolation' -- writing it as though the supplier sits outside existence is illiterate on our own terms, and it is how row 8 got orphaned from row 1. THE EDGE NOBODY DREW: GRAND_COMPUTATION_v0 section 6 lists row 1 (sigma, 'THE BURIED PRIZE') and row 8 (J, closer = S1) as independent deletion rows. Row 8 is row 1's SUPPLIER. B1216 threw 9 agents at row 1 and deleted zero rows because the schedule was read as a checklist, not a DAG. WHAT S1 ESTABLISHES: (1) the simply-laced level-1 identity c(J_1) = dim/(1+h^v) = rank(J), verified 9/9 (A1..E8) -- a theorem, not a fit; (2) the object's nomination pi_1(m004) ->> 2T VERIFIED ON-BENCH by brute force over all of SL(2,3)^2: 48 surjections of 72 homomorphisms, with a control that BITES (5_2 gives zero) -- McKay then gives J = E6; (3) K5 ANSWERED IN SHAPE: the 'six cusp-boson units' are not six cusps but the six CARTAN directions -- (E6)_1 is the E6 ROOT-LATTICE CFT, six free bosons; (4) K6 DISCRIMINATION: sigma = c/6 equals 1 for EXACTLY ONE of nine simply-laced types, E6 -- and neither clause alone suffices (A2 shares 3 primaries AND T-matrix order 12, yet gives sigma = 1/3); (5) K1 NAMED: the candidate is (E6)_1, vacuum module, c = 6 exactly, modules {1, 27, 27bar}, h = {0, 2/3, 2/3}, T-order 12 -- with every arithmetic cross-check passing (Z/3 modules <-> the trinification Z/3 <-> the trace field Q(zeta_3); T-order 12 <-> the map's exact mod-12 bookkeeping; the 27 already the SM-content carrier); (6) THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece: a WZW needs (J, k); the object supplies J and provably NO k (CS = 0 => dS/dk = -CS = 0, B1012/B1088; CS = 0 itself forced by amphichirality, B1224/B1227 today). A level-1 simply-laced WZW IS the root-lattice VOA -- determined by the lattice ALONE, no level datum -- while every k > 1 needs a level the object cannot give. So k = 1 is forced by INVENTORY, not chosen. MB12 on that: allow k=2 and sigma = 13/7, k=3 and sigma = 13/5 -- the BLINDNESS is exactly what pins sigma, so the wall the record files as 'the firewall relocated beyond the object's reach in principle' is the MECHANISM, not the obstacle. THE RETRACTION, made in-session before anything was banked: I first reported the chain 'closes end to end' and gave sigma = 1. IT DOES NOT. The action S = -CS*k - Vol*sigma is the Chern-Simons action OF THE GEOMETRIC PSL(2,C) CONNECTION, so its boundary WZW is type A1, rank 1 -- which IS the 'one cusp-boson unit'. The E6 arrives from a DIFFERENT structure (McKay on 2T, the 6d (2,0) type). The two sixes come from two constructions; 'default-J vs nominated-J' DIAGNOSES the gap correctly without closing it. Asserting otherwise is precisely the K6 error. DIMENSION CHECK RUN (B980 records a withdrawn chain of this exact shape, killed on dimensions): c and sigma are both dimensionless, so that failure mode does not apply here. NET: row 1 goes from 'documented empty candidate set' (B1216) to a UNIQUE NAMED CANDIDATE with the level forced and the arithmetic matched, and ONE identification remaining -- does the NOMINATED type or the GEOMETRIC connection govern the boundary algebra? That is L154's missing bridge, now stated with a unique target instead of an empty set. sigma is NOT deleted. Gate 5 intact; no measured value anywhere. FENCE: the nomination is GENERIC (the trefoil also surjects onto 2T, 48 as well; B993/B996 ~1/3) -- so it is real but NOT distinctive to m004, and S1 tests acceptance, never uniqueness. [DATED NOTE 2026-11-13, register row P-318, verified by main at B1906 section 3b: (4) holds on its nine types; over the sixteen simply-laced algebras B1906 reads, 'sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries.'] |  | 1 |
+ | `B1229` | THE CONSISTENCY TURN: THE METHOD WAS WRONG, NOT THE OBJECT (owner: 'we have to think of completely other approach, be brave go bold' / 'step back and back and back and search research'). THE DIAGNOSIS: docs/GRAND_COMPUTATION_v0.md section 6 is a DELETION SCHEDULE -- kill an input row by DERIVING it from the object. That is the hardest move available, it asks the object to do the one thing B1225 proves it cannot (select), and it is why B1216 spent nine agents on row 1 for ZERO deletions and why every route this session died at the same wall. Physics has never reduced a parameter count by derivation; it uses CONSISTENCY CONDITIONS -- the bootstrap. REPO GAP MEASURED: 'modular bootstrap' returns 0 tracked files, 'conformal bootstrap' 1, 'constructor theory' 0, 'assembly theory' 0. An entire methodology built for exactly this situation was never touched. THE ROBUST CORE (cited, not assumed): Anderson-Moore / Vafa -- in ANY rational CFT the central charge and every conformal weight are RATIONAL. The boundary of a Chern-Simons theory IS rational. So c is rational, and via Brown-Henneaux c = 6*sigma (B1088, banked, derived twice) SIGMA IS RATIONAL. The map's 'ONE continuous dimensionless anchor' is not continuous. THE SHARP VERSION (Mathur-Mukhi-Sen, a COMPLETE classification): two-character RCFTs with vanishing Wronskian index are exactly the Deligne-Cvitanovic exceptional series -- SEVEN unitary WZW models with 0 < c < 8 (A1 A2 G2 D4 F4 E6 E7), plus Lee-Yang. Hence sigma in {1/6, 1/3, 7/15, 2/3, 13/15, 1, 7/6}: R+ (uncountable) -> 7 values BY CONSISTENCY ALONE. Then the object's own Z/3 -- the trace field Q(sqrt-3), the trinification (B727/B1161) -- keeps only the 3-primary theories, A2 and E6: sigma in {1/3, 1}. SIGMA BECOMES ONE BIT. R+ -> 7 -> 2. CRUCIALLY, J NEVER ENTERS. The session's earlier route died because the literature is explicit that the 6d type is a FREE LABEL (T[M;G] depends on M and on g separately) and because B1228's nomination argument carried a type error (pi_1's 2T is not the transverse ALE Gamma). This route needs no J, derives nothing from the object, and is untouched by both failures. THE CONSISTENCY LEDGER, applied to every input row: sigma -> the central charge, a finite classified list [COMPUTED]; the c-bit -> WHICH MODULAR INVARIANT (diagonal vs charge-conjugate, a Z/2 for a Z/3 fusion ring) -- not deleted but EXPLAINED, and it matches B1184's 'self-naming without self-signing' exactly: the theory names itself (the fusion ring) and cannot sign (which invariant) [STRUCTURAL]; family/VEV labels -> primaries / Cardy boundary states, already finite [STRUCTURAL]; the P^3 line -> Cardy's theorem makes consistent boundary states FINITE (bijective with the primaries), so a continuum of them cannot all be consistent [CANDIDATE, the sharpest unrun test]; lambda -> a KMS weight, periodic modular flow for a rational boundary [CANDIDATE]; ell -> NOT a parameter at all, a CALIBRATION, permanently [CLOSED-BY-TYPE]. THE THESIS THIS OPENS: the observer's input list is not a grab-bag of externals -- it is exactly the data specifying a MODULAR-INVARIANT BOUNDARY CFT (central charge, modular invariant, primary / Cardy state, KMS weight), plus one calibration that is not a number. That is WHY the object cannot supply them (B1225: it cannot select) and why they are nonetheless not arbitrary: consistency CLASSIFIES the menu even where the object cannot PICK. B1225 is untouched and is not an obstacle to this -- a classified finite menu plus a picker is a parameter-free theory with a calibration, which is what the map's own goal sentence already says ('one measurement then predicts the rest'). END-STATE IF THE TWO CANDIDATES LAND: ell + bits and finite labels, ZERO continuous dimensionless parameters. NOT CLAIMED NOW. FENCES: the 7-value list assumes two characters with vanishing Wronskian index -- drop it and the menu grows, but rationality (hence discreteness) survives and is the robust core; the P^3 row needs the Higgs line to BE boundary data of the rational theory, named not assumed; lambda's periodicity is a candidate, not a computation. Gate 5 intact; no measured value anywhere; nothing promoted to CLAIMS.md. |  | 1 |
+ | `B1230` | THE CONSISTENCY CAMPAIGN, RUN 1 -- AND IT REFUTED ITS OWN HEADLINE'S STATED SUPPORT, WHICH MADE THE RESULT STRONGER. Owner: 'continue, craft a campaign and do it properly.' The campaign (docs/CONSISTENCY_CAMPAIGN.md) executes B1229's method flip -- ask CONSISTENCY, not the object -- as six two-outcome cells with stop rules declared before any ran, including: no cell may claim a row DELETED; every continuous count states its field; already_banked before every novelty claim; cited is not verified. THREE CELLS RAN. C-1 THE BASE-FIELD AUDIT -- VERDICT OVER-COUNTED (it could have returned CLEAN and did not): of the ledger's continuous-parameter rows, sigma was counted as a CONTINUUM where consistency gives a finite menu, and TWO more rows (the P^3 Higgs line, lambda) state NO FIELD AT ALL. The binding rule this establishes: every continuous-parameter count in this programme must state the field it is taken over -- a count over Q of a d-dimensional Q(zeta_12)-space reports 4d-1 parameters where the object has d-1, i.e. THREE SPURIOUS PARAMETERS at d = 1. Same species as the banked rules 'type the FULL TRIPLE, never the eliminated coordinate' and 'decomposition readouts solve in the full basis, never project'. C-5 THE MENU ROBUSTNESS -- DESIGNED TO REFUTE B1229, AND IT DID: dropping the two-character / Wronskian-index-0 restriction and scanning ALL simply-laced (G,k) for k <= 12 (168 models, 141 distinct central charges), c = 6 has FOUR solutions, not one -- A2 at level 9, and A6, D6, E6 all at level 1 (obvious in hindsight: at level 1, c = rank, so EVERY rank-6 simply-laced algebra gives 6). B1229's 'sigma = 1 selects E6 uniquely' was therefore leaning on the restriction, and the restriction was doing real work. STATED AS A CORRECTION, not buried. C-5b THE RECOVERY, AND IT IS A BETTER FOOTING: the Z/3 cut was never the two-character restriction. Primary counts of the four c=6 solutions are 55 (A2@9), 7 (A6@1), 4 (D6@1) and 3 (E6@1) -- so the OBJECT'S OWN Z/3 (trace field Q(sqrt-3) = Q(zeta_3); the trinification, B727/B1161) cuts four to ONE, restriction-free. The corrected statement is STRONGER than B1229's: among all simply-laced (G,k) scanned, c = 6 has four solutions and the object's own arithmetic selects E6 alone. That is precisely what K6 demanded -- the object's datum, not a modelling convenience. ALSO IN THIS BANK, AND THE GATE CAUGHT ME: B1229's FINDINGS paired Brown-Henneaux with (E6)_1 -- the exact pairing B1034's lock guards -- WITHOUT ever stating L154's adjudication, so it read as asserting the join. The suite went red on test_v2_no_exhibit_adjudicated. The fix was NOT to widen the allowlist: B1229's FINDINGS gains a section stating the adjudication explicitly (NO-EXHIBIT stands; 'c = 6 is NOT derived here'; the arc quantizes the MENU, a statement about the CODOMAIN, not about the map; B1228's retraction of sigma = 1 stands in full; the bridge remains L154's and UNDECIDED), and only then is it admitted on B1064/B1190's ground with a dated reason. NET: sigma is not a continuum and the object's own Z/3 pins its menu to one entry, restriction-free; two ledger rows are exposed as field-unstated; the base-field rule is binding going forward; and C-2 (codex's Z/12 character assignment, which decides identity-vs-scalar on B_0 and hence whether the P^3 is three parameters or zero) is the campaign's highest-leverage retrieval. NOT CLAIMED: no row deleted, no map exhibited, sigma = 1 not established. Gate 5 intact. |  | 1 |
+ | `B1240` | THE BELT CLOSURE: 27 seam-harvest-era tests locked REPRODUCES as a string; five runners (B1147/1148/1149/1150/1153) could not run on a fresh clone (closure on a seat branch, run record gitignored). Full transitive closure vendored (65 files, sha256-pinned), 25/25 certificates reproduce, instrument scripts/checks/reproduce_belt.py (9-control selftest, three shapes) + tests/test_reproduce_runners_live.py executes all 26 runnable runners every suite run. E57 instances #2-#6 + gate scope hole + third shape (PINS-TEXT). fc R42-R50 recomputed: R42 h(148)=3 proper/2 improper (two routes); B511 D3.3 REBANKED on the 200-bit trace map (banked percentiles = 53-bit artifact); B549 label (E7 adjacency Perron vector); B980 digit slip; B955 surjections computed; SUPERSEDED_UNMARKED 128 not 48 (L197). | yes | 1 |
+diff --git a/frontier/B1161_frontier_sweep/FINDINGS.md b/frontier/B1161_frontier_sweep/FINDINGS.md
+index 6fd285801..e2ff24d2f 100644
+--- a/frontier/B1161_frontier_sweep/FINDINGS.md
++++ b/frontier/B1161_frontier_sweep/FINDINGS.md
+@@ -32,6 +32,8 @@ missing object — the ∞-place archimedean marking — not two independent wal
+ | **down-Yukawa** | **BENCHABLE / WITHHELD** | unlike the up-Yukawa (μ_u=0, *absent* — SEAM-Y wall), the down coupling is **object-forced and structurally PRESENT** as a full 3×3×4 tensor (own-verified selection arithmetic: Q/dᶜ/Hd/Hu = 3/3/4/1, C12 imposes no texture zero); only the Higgs-line projection Y_d=T[:,:,h_d] is observer-supplied (the same ℙ³ branch class as P1/P2). The firewall thesis one level deeper. |
+ | **generation-index** | **NULL** | own-verified: trace field x²−x+1 (disc −3, degree 2, Galois ℤ/2) ⇒ multiplicities ∈{1,2}, **never 3**; χ(4₁ complement)=0. The object's honest content is **ONE generation**; the "3" is external (a cubic carrier / chosen cover / E8), never object-paid on this object. |
+ 
++> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The generation-index cell above ("multiplicities ∈{1,2}, never 3") holds scoped, and not as the implication it is written as. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
++
+ ## The exhausted-frontier boundary (the "we computed all we can" line)
+ 
+ - **WALLS (imported/absent, not benchable):** link A heterotic (OA-C1002); SEAM-Y up-Yukawa (μ_u=0);
+diff --git a/frontier/B1161_frontier_sweep/arc_verdict.json b/frontier/B1161_frontier_sweep/arc_verdict.json
+index 5b387216c..5ba20d173 100644
+--- a/frontier/B1161_frontier_sweep/arc_verdict.json
++++ b/frontier/B1161_frontier_sweep/arc_verdict.json
+@@ -1,7 +1,7 @@
+ {
+  "id": "B1161",
+  "verdict": "OPEN",
+- "claim_one_line": "THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The crown cell -- force C's P1/P2 branch selection object-intrinsically to derive the MSSM spectrum WITHOUT the walled heterotic axiom -- is NOT-FORCED, residual PROVED IRREDUCIBLE: V4=Gal(H/Q) (ring class field, disc 144, B1067) acts FREELY+transitively on the 4 surviving primary branches (all stabilizers trivial), so every Galois-invariant object quantity is constant across them -- no object-intrinsic invariant picks a branch -- + each carries 11-dim unselected moduli. BUT the free-orbit theorem forbids only GALOIS-INVARIANT selectors; an object-supplied ARCHIMEDEAN MARKING (canonical H->C, the holonomy root) would break the orbit -- and that marking is EXACTLY SEAM-A's absent W0/marked-H3 basis. So 'irreducible while SEAM-A stays walled' -- the bypass door and SEAM-A are ONE obstruction (the missing archimedean marking) seen from two sides. THE SIX CELLS: P1/P2-force NOT-FORCED (scoped positives: C4xC3 = unique coprime CRT split; odd-leg {4,8} K-rational -- link C's decomposition+leg-set gain object footing, branch selection+moduli stay observer-paid); L132-B892 CONVERGES (hypercharge forcing DUAL-HOMED: B892 color-A2 centralizer=A2+A2, 36/36 SM zero non-SM, same as B1160 trinification frame); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ non-relation sealer is VACUOUS -- own-verified PSLQ live [recovers B682 as [-2,3]] but PSLQ(rational,Vol)=None for claim AND controls = zero discriminating power, just restates Vol not in Q; SEAM-A stays the Arakelov/W0 FLOOR); down-Yukawa BENCHABLE/WITHHELD (unlike up-Yukawa mu_u=0 ABSENT, the down coupling is object-forced+PRESENT as a 3x3x4 tensor, only the Higgs-line projection observer-supplied -- P^3 branch class, firewall thesis one level deeper); generation-index NULL (own-verified: trace field x^2-x+1 disc-3 degree-2 Galois Z/2 => multiplicities in {1,2} NEVER 3, chi=0; object's honest content = ONE generation, the '3' external). THE EXHAUSTED-FRONTIER BOUNDARY: everything reducible to object group theory / toric cohomology / in-sandbox numerics is DONE; what remains = 2 proved irreducibilities (branch selection, generation NULL) + 2 walls (heterotic, up-Yukawa) + 1 NEEDS-SPECIALIST sharp bar (SEAM-A Arakelov/W0) + 1 buildable-unbuilt artifact (down-Yukawa evaluator). Gate 5 clean across all six cells (only integer/rational group theory, anomaly identities, Galois action, multiplicities, irrationality; SM ratios are anomaly-DERIVED structure, B950). No firewall crossing. Feeds the review.",
++ "claim_one_line": "THE FRONTIER SWEEP (compute-all-we-can, owner-directed before the review; WF 7 agents, 6 cells each typed, load-bearing ones own-verified reproduce.sh -> REPRODUCES). HEADLINE UNIFICATION: the bypass door IS SEAM-A. The crown cell -- force C's P1/P2 branch selection object-intrinsically to derive the MSSM spectrum WITHOUT the walled heterotic axiom -- is NOT-FORCED, residual PROVED IRREDUCIBLE: V4=Gal(H/Q) (ring class field, disc 144, B1067) acts FREELY+transitively on the 4 surviving primary branches (all stabilizers trivial), so every Galois-invariant object quantity is constant across them -- no object-intrinsic invariant picks a branch -- + each carries 11-dim unselected moduli. BUT the free-orbit theorem forbids only GALOIS-INVARIANT selectors; an object-supplied ARCHIMEDEAN MARKING (canonical H->C, the holonomy root) would break the orbit -- and that marking is EXACTLY SEAM-A's absent W0/marked-H3 basis. So 'irreducible while SEAM-A stays walled' -- the bypass door and SEAM-A are ONE obstruction (the missing archimedean marking) seen from two sides. THE SIX CELLS: P1/P2-force NOT-FORCED (scoped positives: C4xC3 = unique coprime CRT split; odd-leg {4,8} K-rational -- link C's decomposition+leg-set gain object footing, branch selection+moduli stay observer-paid); L132-B892 CONVERGES (hypercharge forcing DUAL-HOMED: B892 color-A2 centralizer=A2+A2, 36/36 SM zero non-SM, same as B1160 trinification frame); SEAM-A-seal NEEDS-SPECIALIST (the PSLQ non-relation sealer is VACUOUS -- own-verified PSLQ live [recovers B682 as [-2,3]] but PSLQ(rational,Vol)=None for claim AND controls = zero discriminating power, just restates Vol not in Q; SEAM-A stays the Arakelov/W0 FLOOR); down-Yukawa BENCHABLE/WITHHELD (unlike up-Yukawa mu_u=0 ABSENT, the down coupling is object-forced+PRESENT as a 3x3x4 tensor, only the Higgs-line projection observer-supplied -- P^3 branch class, firewall thesis one level deeper); generation-index NULL (own-verified: trace field x^2-x+1 disc-3 degree-2 Galois Z/2 => multiplicities in {1,2} NEVER 3, chi=0; object's honest content = ONE generation, the '3' external). THE EXHAUSTED-FRONTIER BOUNDARY: everything reducible to object group theory / toric cohomology / in-sandbox numerics is DONE; what remains = 2 proved irreducibilities (branch selection, generation NULL) + 2 walls (heterotic, up-Yukawa) + 1 NEEDS-SPECIALIST sharp bar (SEAM-A Arakelov/W0) + 1 buildable-unbuilt artifact (down-Yukawa evaluator). Gate 5 clean across all six cells (only integer/rational group theory, anomaly identities, Galois action, multiplicities, irrationality; SM ratios are anomaly-DERIVED structure, B950). No firewall crossing. Feeds the review. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the generation-index cell's 'multiplicities in {1,2} NEVER 3' holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2.' 'Unscoped, B298's headline is false, three ways on m004'.]",
+  "instrument": false,
+  "creates_law": false
+ }
+diff --git a/frontier/B1228_S1_the_nomination/FINDINGS.md b/frontier/B1228_S1_the_nomination/FINDINGS.md
+index ce94dfe3f..2fb7c09f9 100644
+--- a/frontier/B1228_S1_the_nomination/FINDINGS.md
++++ b/frontier/B1228_S1_the_nomination/FINDINGS.md
+@@ -27,6 +27,8 @@ B1227 named this morning: *not a lost result, a lost edge.*
+ | 5 | **K1 named**: (E₆)₁, vacuum module, **c = 6 exactly**; modules {1, 27, 27̄}, h = {0, ⅔, ⅔}, T-order 12 | named |
+ | 6 | **the level is forced by INVENTORY** — see below | **the new piece** |
+ 
++> **Dated note, 2026-11-13 (register row P-318; verified by main at B1906, section 3b, on its own code, exactly).** Row 4 above, and `s1.py`, read nine simply-laced types. Over the sixteen simply-laced simple algebras B1906 reads at level 1, B1906: "σ = c/6 = 1 holds for A₆, D₆ and E₆ (T-orders 28, 4 and 12). So "σ = 1 picks E₆ uniquely" (B1228) is false as stated, as P-318 already says; σ = 1 with exactly three primaries holds for E₆ alone." The words above are kept as they stood; the lock holds the statement as corrected (`tests/test_b1228_s1.py`).
++
+ **Arithmetic cross-checks for K6-grade "the object's own datum"**, all passing: the ℤ/3 module group
+ ↔ the trinification ℤ/3 (B1161) ↔ the trace field ℚ(ζ₃) = ℚ(√−3) (the only object-specific atom,
+ B727); T-matrix order **12** ↔ the map's exact **mod-12** bookkeeping (§4, down block); the **27** is
+diff --git a/frontier/B1228_S1_the_nomination/arc_verdict.json b/frontier/B1228_S1_the_nomination/arc_verdict.json
+index 4789c155f..9fd9904e4 100644
+--- a/frontier/B1228_S1_the_nomination/arc_verdict.json
++++ b/frontier/B1228_S1_the_nomination/arc_verdict.json
+@@ -3,5 +3,5 @@
+  "verdict": "OPEN",
+  "instrument": false,
+  "creates_law": false,
+- "claim_one_line": "S1 RUN AT LAST (unrun since B1025 I4) -- THE BURIED PRIZE'S EMPTY CANDIDATE SET BECOMES A UNIQUE NAMED CANDIDATE, AND THE BRIDGE IS NAMED SHARPLY. NOT sigma = 1: that is RETRACTED in-arc, see THE RETRACTION below. OWNER'S READING, which is what unlocked this: 'supplied externally' is our bookkeeping for 'not derivable from this object in isolation' -- writing it as though the supplier sits outside existence is illiterate on our own terms, and it is how row 8 got orphaned from row 1. THE EDGE NOBODY DREW: GRAND_COMPUTATION_v0 section 6 lists row 1 (sigma, 'THE BURIED PRIZE') and row 8 (J, closer = S1) as independent deletion rows. Row 8 is row 1's SUPPLIER. B1216 threw 9 agents at row 1 and deleted zero rows because the schedule was read as a checklist, not a DAG. WHAT S1 ESTABLISHES: (1) the simply-laced level-1 identity c(J_1) = dim/(1+h^v) = rank(J), verified 9/9 (A1..E8) -- a theorem, not a fit; (2) the object's nomination pi_1(m004) ->> 2T VERIFIED ON-BENCH by brute force over all of SL(2,3)^2: 48 surjections of 72 homomorphisms, with a control that BITES (5_2 gives zero) -- McKay then gives J = E6; (3) K5 ANSWERED IN SHAPE: the 'six cusp-boson units' are not six cusps but the six CARTAN directions -- (E6)_1 is the E6 ROOT-LATTICE CFT, six free bosons; (4) K6 DISCRIMINATION: sigma = c/6 equals 1 for EXACTLY ONE of nine simply-laced types, E6 -- and neither clause alone suffices (A2 shares 3 primaries AND T-matrix order 12, yet gives sigma = 1/3); (5) K1 NAMED: the candidate is (E6)_1, vacuum module, c = 6 exactly, modules {1, 27, 27bar}, h = {0, 2/3, 2/3}, T-order 12 -- with every arithmetic cross-check passing (Z/3 modules <-> the trinification Z/3 <-> the trace field Q(zeta_3); T-order 12 <-> the map's exact mod-12 bookkeeping; the 27 already the SM-content carrier); (6) THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece: a WZW needs (J, k); the object supplies J and provably NO k (CS = 0 => dS/dk = -CS = 0, B1012/B1088; CS = 0 itself forced by amphichirality, B1224/B1227 today). A level-1 simply-laced WZW IS the root-lattice VOA -- determined by the lattice ALONE, no level datum -- while every k > 1 needs a level the object cannot give. So k = 1 is forced by INVENTORY, not chosen. MB12 on that: allow k=2 and sigma = 13/7, k=3 and sigma = 13/5 -- the BLINDNESS is exactly what pins sigma, so the wall the record files as 'the firewall relocated beyond the object's reach in principle' is the MECHANISM, not the obstacle. THE RETRACTION, made in-session before anything was banked: I first reported the chain 'closes end to end' and gave sigma = 1. IT DOES NOT. The action S = -CS*k - Vol*sigma is the Chern-Simons action OF THE GEOMETRIC PSL(2,C) CONNECTION, so its boundary WZW is type A1, rank 1 -- which IS the 'one cusp-boson unit'. The E6 arrives from a DIFFERENT structure (McKay on 2T, the 6d (2,0) type). The two sixes come from two constructions; 'default-J vs nominated-J' DIAGNOSES the gap correctly without closing it. Asserting otherwise is precisely the K6 error. DIMENSION CHECK RUN (B980 records a withdrawn chain of this exact shape, killed on dimensions): c and sigma are both dimensionless, so that failure mode does not apply here. NET: row 1 goes from 'documented empty candidate set' (B1216) to a UNIQUE NAMED CANDIDATE with the level forced and the arithmetic matched, and ONE identification remaining -- does the NOMINATED type or the GEOMETRIC connection govern the boundary algebra? That is L154's missing bridge, now stated with a unique target instead of an empty set. sigma is NOT deleted. Gate 5 intact; no measured value anywhere. FENCE: the nomination is GENERIC (the trefoil also surjects onto 2T, 48 as well; B993/B996 ~1/3) -- so it is real but NOT distinctive to m004, and S1 tests acceptance, never uniqueness."
++ "claim_one_line": "S1 RUN AT LAST (unrun since B1025 I4) -- THE BURIED PRIZE'S EMPTY CANDIDATE SET BECOMES A UNIQUE NAMED CANDIDATE, AND THE BRIDGE IS NAMED SHARPLY. NOT sigma = 1: that is RETRACTED in-arc, see THE RETRACTION below. OWNER'S READING, which is what unlocked this: 'supplied externally' is our bookkeeping for 'not derivable from this object in isolation' -- writing it as though the supplier sits outside existence is illiterate on our own terms, and it is how row 8 got orphaned from row 1. THE EDGE NOBODY DREW: GRAND_COMPUTATION_v0 section 6 lists row 1 (sigma, 'THE BURIED PRIZE') and row 8 (J, closer = S1) as independent deletion rows. Row 8 is row 1's SUPPLIER. B1216 threw 9 agents at row 1 and deleted zero rows because the schedule was read as a checklist, not a DAG. WHAT S1 ESTABLISHES: (1) the simply-laced level-1 identity c(J_1) = dim/(1+h^v) = rank(J), verified 9/9 (A1..E8) -- a theorem, not a fit; (2) the object's nomination pi_1(m004) ->> 2T VERIFIED ON-BENCH by brute force over all of SL(2,3)^2: 48 surjections of 72 homomorphisms, with a control that BITES (5_2 gives zero) -- McKay then gives J = E6; (3) K5 ANSWERED IN SHAPE: the 'six cusp-boson units' are not six cusps but the six CARTAN directions -- (E6)_1 is the E6 ROOT-LATTICE CFT, six free bosons; (4) K6 DISCRIMINATION: sigma = c/6 equals 1 for EXACTLY ONE of nine simply-laced types, E6 -- and neither clause alone suffices (A2 shares 3 primaries AND T-matrix order 12, yet gives sigma = 1/3); (5) K1 NAMED: the candidate is (E6)_1, vacuum module, c = 6 exactly, modules {1, 27, 27bar}, h = {0, 2/3, 2/3}, T-order 12 -- with every arithmetic cross-check passing (Z/3 modules <-> the trinification Z/3 <-> the trace field Q(zeta_3); T-order 12 <-> the map's exact mod-12 bookkeeping; the 27 already the SM-content carrier); (6) THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece: a WZW needs (J, k); the object supplies J and provably NO k (CS = 0 => dS/dk = -CS = 0, B1012/B1088; CS = 0 itself forced by amphichirality, B1224/B1227 today). A level-1 simply-laced WZW IS the root-lattice VOA -- determined by the lattice ALONE, no level datum -- while every k > 1 needs a level the object cannot give. So k = 1 is forced by INVENTORY, not chosen. MB12 on that: allow k=2 and sigma = 13/7, k=3 and sigma = 13/5 -- the BLINDNESS is exactly what pins sigma, so the wall the record files as 'the firewall relocated beyond the object's reach in principle' is the MECHANISM, not the obstacle. THE RETRACTION, made in-session before anything was banked: I first reported the chain 'closes end to end' and gave sigma = 1. IT DOES NOT. The action S = -CS*k - Vol*sigma is the Chern-Simons action OF THE GEOMETRIC PSL(2,C) CONNECTION, so its boundary WZW is type A1, rank 1 -- which IS the 'one cusp-boson unit'. The E6 arrives from a DIFFERENT structure (McKay on 2T, the 6d (2,0) type). The two sixes come from two constructions; 'default-J vs nominated-J' DIAGNOSES the gap correctly without closing it. Asserting otherwise is precisely the K6 error. DIMENSION CHECK RUN (B980 records a withdrawn chain of this exact shape, killed on dimensions): c and sigma are both dimensionless, so that failure mode does not apply here. NET: row 1 goes from 'documented empty candidate set' (B1216) to a UNIQUE NAMED CANDIDATE with the level forced and the arithmetic matched, and ONE identification remaining -- does the NOMINATED type or the GEOMETRIC connection govern the boundary algebra? That is L154's missing bridge, now stated with a unique target instead of an empty set. sigma is NOT deleted. Gate 5 intact; no measured value anywhere. FENCE: the nomination is GENERIC (the trefoil also surjects onto 2T, 48 as well; B993/B996 ~1/3) -- so it is real but NOT distinctive to m004, and S1 tests acceptance, never uniqueness. [DATED NOTE 2026-11-13, register row P-318, verified by main at B1906 section 3b: (4) holds on its nine types; over the sixteen simply-laced algebras B1906 reads, 'sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries.']"
+ }
+\ No newline at end of file
+diff --git a/frontier/B1228_S1_the_nomination/s1.py b/frontier/B1228_S1_the_nomination/s1.py
+index 150d4a063..7273339a7 100644
+--- a/frontier/B1228_S1_the_nomination/s1.py
++++ b/frontier/B1228_S1_the_nomination/s1.py
+@@ -15,6 +15,10 @@ THE READING UNDER TEST:
+ MB12: the criterion must be able to FAIL. It does -- sigma = 1 picks out exactly ONE
+ ADE type. If the object nominated any other J, sigma would not be 1.
+ """
++# DATED NOTE, 2026-11-13 (register row P-318; verified by main at B1906, section 3b): the list below holds nine of the
++# simply-laced types, and on them the assertion holds. Over the sixteen of rank 1 to 8, P-318: "sigma = 1 holds at
++# level 1 for A6, D6 and E6, and E6 alone has three primaries." The sentence of MB12 above is kept as it stood;
++# the lock holds the statement as corrected (tests/test_b1228_s1.py).
+ from fractions import Fraction as F
+ import json
+ 
+diff --git a/frontier/B1496_three_generations_researched/FINDINGS.md b/frontier/B1496_three_generations_researched/FINDINGS.md
+index 099bae09a..47922c4b6 100644
+--- a/frontier/B1496_three_generations_researched/FINDINGS.md
++++ b/frontier/B1496_three_generations_researched/FINDINGS.md
+@@ -20,6 +20,8 @@ three; its cusp is rectangular), B280, B956, B1487–B1495. **Literature:** this
+ listed on the page with its verification status, and the three first-pass searches read before the seal are named on
+ the preregistration.
+ 
++> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** This page cites B298 above as prior; B298's reason holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
++
+ ## 1. The six expectations
+ 
+ | | expectation | prior | result |
+diff --git a/frontier/B1606_three_on_the_weave_graded/FINDINGS.md b/frontier/B1606_three_on_the_weave_graded/FINDINGS.md
+index f7b51ffec..e71cabb01 100644
+--- a/frontier/B1606_three_on_the_weave_graded/FINDINGS.md
++++ b/frontier/B1606_three_on_the_weave_graded/FINDINGS.md
+@@ -49,6 +49,8 @@ chiral three — three, alike, one per parity, chiral under the weave's group 
+   a selection. THE_BAR grades it so. What would finish it: a forced complex structure on the gauge side (a bundle whose
+   holonomy has complex representations), or the puncture's localized content — neither forced yet.
+ 
++> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The register names a tension between W20's three above and B298's headline; the headline holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
++
+ ## 3. Disclosed
+ 
+ - The index formula dim Λ₊ − 3 is the seat's Riemann–Roch, taken as stated; the lifts' action u_q⁻¹ g u_p is the
+diff --git a/frontier/B298_generation_obstruction/FINDINGS.md b/frontier/B298_generation_obstruction/FINDINGS.md
+index 9f8fea981..db2a171fe 100644
+--- a/frontier/B298_generation_obstruction/FINDINGS.md
++++ b/frontier/B298_generation_obstruction/FINDINGS.md
+@@ -21,6 +21,8 @@ appears everywhere as a *value*** — dimension 3, level `k=3`, trace 3, ramifie
+ as a matter *multiplicity***, because a multiplicity of 3 needs a **cubic** structure and `4₁` is **quadratic
+ everywhere** (trace field, tetrahedron shape `x²−x+1`, A-polynomial flavor, Galois ℤ/2).
+ 
++> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The obstruction above holds scoped, and not as the implication it is written as. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." B298's seven computed routes, below, stand (P-606). The words above are kept as they stood.
++
+ ## Seven routes, all 1 or 2 (never 3)
+ | route | multiplicity |
+ |---|---|
+diff --git a/frontier/B298_generation_obstruction/arc_verdict.json b/frontier/B298_generation_obstruction/arc_verdict.json
+index 922842e2d..2e0211aaf 100644
+--- a/frontier/B298_generation_obstruction/arc_verdict.json
++++ b/frontier/B298_generation_obstruction/arc_verdict.json
+@@ -1,7 +1,7 @@
+ {
+  "id": "B298",
+  "verdict": "NEGATIVE",
+- "claim_one_line": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.",
++ "claim_one_line": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the headline holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2.' 'Unscoped, B298's headline is false, three ways on m004'. The seven computed routes stand.]",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index 2021791d7..1d46c4cbe 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -3642,11 +3642,13 @@
+    "motifs": [
+     "coupling",
+     "figure_eight",
++    "eisenstein",
+     "golden",
+     "z3_generation",
+     "firewall"
+    ],
+    "refs": [
++    "B298",
+     "B682",
+     "B892",
+     "B950",
+@@ -3656,7 +3658,7 @@
+     "P2"
+    ],
+    "obstacle": "particle_dict",
+-   "obstacle_conf": 14,
++   "obstacle_conf": 15,
+    "status": "banked",
+    "domain": "arithmetic"
+   },
+@@ -10395,7 +10397,8 @@
+     "figure_eight",
+     "eisenstein",
+     "golden",
+-    "z3_generation"
++    "z3_generation",
++    "firewall"
+    ],
+    "refs": [
+     "B280",
+@@ -10939,12 +10942,16 @@
+    "slug": "three on the weave graded",
+    "motifs": [
+     "action",
++    "figure_eight",
++    "eisenstein",
+     "golden",
+     "z3_generation",
+     "amphichiral_cp",
+-    "wrt_quantum"
++    "wrt_quantum",
++    "firewall"
+    ],
+    "refs": [
++    "B298",
+     "P1",
+     "P2",
+     "P3",
+diff --git a/tests/test_b1161_frontier_sweep.py b/tests/test_b1161_frontier_sweep.py
+index 99166d815..742c8edbb 100644
+--- a/tests/test_b1161_frontier_sweep.py
++++ b/tests/test_b1161_frontier_sweep.py
+@@ -73,3 +73,20 @@ def test_reproduce_runner_committed_and_reproduces():
+ def test_firewall_gate5_clean():
+     d = _d()
+     assert d["firewall_gate5"].startswith("CLEAN") and "No firewall crossing" in d["fences"]
++
++
++def test_the_generation_index_cell_carries_its_scope_note():
++    """Added 2026-11-13 by the building session (card C17; register row P-606, verified by main at B1906, section 3a):
++    the cell's words stay, and the dated note scoping them stands below the table and in the verdict line."""
++    import json, re
++    arc = Path(__file__).resolve().parents[1] / "frontier" / "B1161_frontier_sweep"
++    flat = lambda t: re.sub(r"\s+", " ", re.sub(r"^\s*>\s?", "", t, flags=re.M).replace("**", "").replace("`", ""))
++    page = flat((arc / "FINDINGS.md").read_text(encoding="utf-8"))
++    scoped = "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2."
++    unscoped = "Unscoped, B298's headline is false, three ways on m004"
++    old = page.index("| generation-index | NULL |")
++    note = page.index("Dated note, 2026-11-13 (register row P-606", old)
++    assert note - old < 2500 and scoped in page[note:] and unscoped in page[note:]
++    line = json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
++    assert "NEVER 3" in line and line.index("NEVER 3") < line.index("DATED NOTE 2026-11-13, register row P-606")
++    assert scoped in line and unscoped in line
+diff --git a/tests/test_b1228_s1.py b/tests/test_b1228_s1.py
+index 0683f62ef..2215e7866 100644
+--- a/tests/test_b1228_s1.py
++++ b/tests/test_b1228_s1.py
+@@ -14,6 +14,10 @@ def test_simply_laced_level1_c_equals_rank():
+         assert F(d, 1+h) == r, (J, F(d,1+h), r)
+ 
+ def test_sigma_is_one_for_E6_alone():
++    """DATED NOTE, 2026-11-13 (card C17 of the building session; register row P-318, verified by main at B1906, section
++    3b): the assertion below holds on its six types, as it stood. Over the sixteen simply-laced algebras of rank 1 to 8
++    it does not: sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries. That statement is
++    held by test_sigma_is_one_for_three_of_the_sixteen_and_three_primaries_for_e6_alone."""
+     ones = [J for J,(d,h,r) in SL.items() if F(d,1+h)/6 == 1]
+     assert ones == ["E6"], ones
+     # and the near-miss that makes the test non-vacuous
+@@ -68,3 +72,61 @@ def test_the_retraction_stands():
+     assert "NOT sigma = 1" in claim or "sigma is NOT deleted" in claim
+     txt = (ARC/"FINDINGS.md").read_text(encoding="utf-8")
+     assert "The retraction" in txt and "It does not" in txt
++
++
++def _cartan(kind, n):
++    """The Cartan matrix of a simply-laced simple algebra: A_n a chain; D_n a chain with a fork at its end; E_n a chain
++    1-3-4-...-n with node 2 on node 4 (Bourbaki's labels)."""
++    C = [[2 if i == j else 0 for j in range(n)] for i in range(n)]
++    if kind == "A": edges = [(i, i + 1) for i in range(n - 1)]
++    elif kind == "D": edges = [(i, i + 1) for i in range(n - 2)] + [(n - 3, n - 1)]
++    else: edges = [(0, 2), (1, 3)] + [(i, i + 1) for i in range(2, n - 1)]
++    for a, b in edges: C[a][b] = C[b][a] = -1
++    return C
++
++
++def _det(M):
++    M = [[F(x) for x in row] for row in M]; n = len(M); d = F(1)
++    for c in range(n):
++        p = next(r for r in range(c, n) if M[r][c] != 0)
++        if p != c: M[c], M[p] = M[p], M[c]; d = -d
++        d *= M[c][c]
++        for r in range(c + 1, n):
++            f = M[r][c] / M[c][c]
++            M[r] = [M[r][k] - f * M[c][k] for k in range(n)]
++    return d
++
++
++def test_sigma_is_one_for_three_of_the_sixteen_and_three_primaries_for_e6_alone():
++    """Added 2026-11-13 (card C17; P-318; B1906, section 3b, verified by main): over the sixteen simply-laced simple
++    algebras of rank 1 to 8 at level 1, c = dim/(1 + h^v) = rank; sigma = c/6 = 1 for A6, D6 and E6; and of these E6
++    alone has three primaries (the classes of P/Q, |det C| of them)."""
++    algebras = {}
++    for n in range(1, 9): algebras["A%d" % n] = ("A", n, n * (n + 2), n + 1)
++    for n in range(4, 9): algebras["D%d" % n] = ("D", n, n * (2 * n - 1), 2 * n - 2)
++    for n, d, h in ((6, 78, 12), (7, 133, 18), (8, 248, 30)): algebras["E%d" % n] = ("E", n, d, h)
++    assert len(algebras) == 16
++    sigma_one = []
++    for name, (kind, n, dim, h) in algebras.items():
++        assert F(dim, 1 + h) == n, name
++        if F(n, 6) == 1: sigma_one.append(name)
++    assert sigma_one == ["A6", "D6", "E6"], sigma_one
++    primaries = {name: abs(_det(_cartan(algebras[name][0], algebras[name][1]))) for name in sigma_one}
++    assert primaries == {"A6": 7, "D6": 4, "E6": 3}, primaries
++    assert [x for x in sigma_one if primaries[x] == 3] == ["E6"]
++    # the controls: the determinants the closed forms give, on the whole list
++    assert all(abs(_det(_cartan(k, n))) == {"A": n + 1, "D": 4, "E": 9 - n}[k] for k, n, _, _ in algebras.values())
++
++
++def test_the_note_stands_on_the_page_the_verdict_line_and_the_script():
++    """Added 2026-11-13 (card C17; P-318): the old words stay, and the dated note stands beside them."""
++    import re
++    flat = lambda t: re.sub(r"\s+", " ", re.sub(r"^\s*>\s?", "", t, flags=re.M).replace("**", "").replace("`", ""))
++    page = flat((ARC / "FINDINGS.md").read_text(encoding="utf-8"))
++    old = page.index("σ = c/6 equals 1 for exactly one of nine simply-laced types")
++    note = page.index("Dated note, 2026-11-13 (register row P-318", old)
++    assert note - old < 2500 and "σ = 1 with exactly three primaries holds for E₆ alone." in page[note:]
++    line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
++    assert line.index("EXACTLY ONE of nine") < line.index("DATED NOTE 2026-11-13, register row P-318")
++    s1 = (ARC / "s1.py").read_text(encoding="utf-8")
++    assert "sigma = 1 picks out exactly ONE" in s1 and s1.index("# DATED NOTE, 2026-11-13") < s1.index("ADE = {")
+diff --git a/tests/test_the_degree_two_headline_and_sigma_one_scoped.py b/tests/test_the_degree_two_headline_and_sigma_one_scoped.py
+new file mode 100644
+index 000000000..18155d01d
+--- /dev/null
++++ b/tests/test_the_degree_two_headline_and_sigma_one_scoped.py
+@@ -0,0 +1,143 @@
++"""Card C17 of the building session, at main's word (register rows P-606 and P-318; verified by main at B1906, sections
++3a and 3b): the dated notes that scope B298's degree-2 headline where it stands and is cited, and B1228's sentence that
++sigma = 1 picks out exactly one type. Each note stands beside the old words, which stay; each quotation in a note is
++found in its source (B1906's page or the register); a note taken out, moved away from its words, or misquoted, fails.
++The generation-index cell of the frontier sweep is held by that arc's own lock."""
++import json
++import pathlib
++import re
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++B1906 = ROOT / "frontier" / "B1906_the_four_channels_in_closed_form_and_three_theorems_checked" / "FINDINGS.md"
++REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
++DAY = "2026-11-13"
++NEAR = 2500          # characters, flattened, from the end of the old words to the note's start
++
++SCOPED = "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2."
++UNSCOPED = "Unscoped, B298's headline is false, three ways on m004"
++COMMUTANT = "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."
++ORBIT = "are one orbit under L and R"
++AGAIN = "A 3 again."
++SIGMA = ("σ = c/6 = 1 holds for A₆, D₆ and E₆ (T-orders 28, 4 and 12). So \"σ = 1 picks E₆ uniquely\" (B1228) is false as "
++         "stated, as P-318 already says; σ = 1 with exactly three primaries holds for E₆ alone.")
++P606 = "is false as an implication"
++P318 = "sigma = 1 holds at level 1 for A6, D6 and E6, and E6 alone has three primaries."
++FROM_B1906 = (SCOPED, UNSCOPED, COMMUTANT, ORBIT, AGAIN, SIGMA)
++FROM_THE_REGISTER = (P606, P318)
++
++P606_QUOTES = (P606, SCOPED, UNSCOPED, COMMUTANT, ORBIT, AGAIN)
++# the page, the old words (as they stand, flattened), the note's opening, the quotations the note must carry
++PLACES = (
++    ("frontier/B298_generation_obstruction/FINDINGS.md", "a multiplicity of 3 needs a cubic structure",
++     "Dated note, %s (register row P-606" % DAY, P606_QUOTES),
++    ("frontier/B1496_three_generations_researched/FINDINGS.md", "B298 and B486 (the figure-eight cannot force three",
++     "Dated note, %s (register row P-606" % DAY, P606_QUOTES),
++    ("frontier/B1606_three_on_the_weave_graded/FINDINGS.md",
++     "on it an index of a non-flat bundle equal to three, not chiral (W20)",
++     "Dated note, %s (register row P-606" % DAY, P606_QUOTES),
++    ("docs/GRAND_COMPUTATION_v0.md", "multiplicities ∈ {1,2}, never 3",
++     "Dated note, %s (register row P-606" % DAY, P606_QUOTES),
++    ("frontier/B1228_S1_the_nomination/FINDINGS.md", "σ = c/6 equals 1 for exactly one of nine simply-laced types",
++     "Dated note, %s (register row P-318" % DAY, (SIGMA,)),
++)
++VERDICT_LINES = (
++    ("frontier/B298_generation_obstruction/arc_verdict.json", "never 3", "DATED NOTE %s, register row P-606" % DAY,
++     (SCOPED, UNSCOPED)),
++    ("frontier/B1228_S1_the_nomination/arc_verdict.json", "sigma = c/6 equals 1 for EXACTLY ONE of nine",
++     "DATED NOTE %s, register row P-318" % DAY, (P318,)),
++)
++
++
++def _flat(text):
++    """As a reader reads it: no emphasis marks, no quotation bars, one space for every run of white space."""
++    text = re.sub(r"^\s*>\s?", "", text, flags=re.M)
++    text = text.replace("**", "").replace("`", "")
++    return re.sub(r"\s+", " ", text)
++
++
++def note_problems(text, old, opening, quotes, near=NEAR):
++    """What is wrong with a note on one text: [] when the old words stand, the note follows them within `near`
++    characters, and every quotation is in the note."""
++    t = _flat(text)
++    if old not in t:
++        return ["the old words are not there: %r" % old[:60]]
++    i = t.index(old) + len(old)
++    j = t.find(opening, i)
++    if j < 0:
++        return ["no note after the old words: %r" % opening]
++    if j - i > near:
++        return ["the note stands %d characters from the old words" % (j - i)]
++    end = t.find("Dated note, ", j + len(opening))
++    body = t[j:end if end > 0 else len(t)]
++    return ["the note does not quote %r" % q[:50] for q in quotes if q not in body]
++
++
++def test_every_quotation_is_its_sources_own_words():
++    b1906, register = _flat(B1906.read_text(encoding="utf-8")), _flat(REGISTER.read_text(encoding="utf-8"))
++    assert [q for q in FROM_B1906 if q not in b1906] == []
++    assert [q for q in FROM_THE_REGISTER if q not in register] == []
++
++
++def test_each_place_carries_its_note_beside_the_old_words():
++    for page, old, opening, quotes in PLACES:
++        assert note_problems((ROOT / page).read_text(encoding="utf-8"), old, opening, quotes) == [], page
++
++
++def test_the_verdict_lines_carry_the_note_and_keep_their_words():
++    for path, old, opening, quotes in VERDICT_LINES:
++        line = json.loads((ROOT / path).read_text(encoding="utf-8"))["claim_one_line"]
++        assert note_problems(line, old, opening, quotes, near=len(line)) == [], path
++
++
++def test_the_hint_ledgers_row_carries_the_note():
++    row = [l for l in (ROOT / "docs" / "HINT_LEDGER.md").read_text(encoding="utf-8").split("\n") if l.startswith("| H85 |")]
++    assert len(row) == 1
++    assert note_problems(row[0], "never a MULTIPLICITY", "DATED NOTE %s (P-606" % DAY, (SCOPED, UNSCOPED),
++                         near=len(row[0])) == []
++
++
++def test_the_generated_early_index_shows_the_note():
++    index = (ROOT / "docs" / "EARLY_RECORD_INDEX.md").read_text(encoding="utf-8")
++    row = [l for l in index.split("\n") if l.startswith("| `B298_generation_obstruction` |")]
++    assert len(row) == 1 and ("DATED NOTE %s, register row P-606" % DAY) in row[0]
++
++
++def test_s1s_script_carries_the_note_above_its_nine_types():
++    s = (ROOT / "frontier" / "B1228_S1_the_nomination" / "s1.py").read_text(encoding="utf-8")
++    assert s.index("# DATED NOTE, %s (register row P-318" % DAY) < s.index("ADE = {")
++    assert P318 in _flat(s.replace("# ", ""))
++
++
++# --- controls: each must fail, and its twin must pass ---
++
++def _b298():
++    return (ROOT / "frontier" / "B298_generation_obstruction" / "FINDINGS.md").read_text(encoding="utf-8")
++
++
++def test_the_page_with_its_note_taken_out_fails():
++    page, old, opening, quotes = PLACES[0]
++    text = _b298()
++    assert note_problems(text, old, opening, quotes) == []                                 # the twin
++    cut = re.sub(r"\n> \*\*Dated note, %s \(register row P-606.*?(?=\n\n)" % DAY, "", text, flags=re.S)
++    assert cut != text and note_problems(cut, old, opening, quotes) != []
++
++
++def test_a_note_moved_away_from_its_words_fails():
++    page, old, opening, quotes = PLACES[0]
++    text = _b298()
++    k = text.index("\n> **Dated note, %s" % DAY)
++    moved = text[:k] + "\n\n" + ("A line of the page.\n" * 200) + text[k:]
++    assert note_problems(moved, old, opening, quotes) != []
++
++
++def test_a_misquoted_note_fails():
++    page, old, opening, quotes = PLACES[0]
++    text = _b298().replace("has K-dimension 9", "has K-dimension 8", 1)
++    assert note_problems(text, old, opening, quotes) != []
++    assert "has K-dimension 8" not in _flat(B1906.read_text(encoding="utf-8"))
++
++
++def test_the_old_words_taken_out_fail():
++    page, old, opening, quotes = PLACES[0]
++    text = _b298().replace("a multiplicity of 3 needs a **cubic** structure", "a multiplicity needs a structure", 1)
++    assert note_problems(text, old, opening, quotes) != []
+-- 
+2.43.0
+

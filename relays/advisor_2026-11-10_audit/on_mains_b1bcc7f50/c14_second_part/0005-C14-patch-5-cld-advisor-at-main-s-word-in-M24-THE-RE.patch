@@ -1,0 +1,100 @@
+From 60a1d965ea89dc0a4b7721c8cb84046441237ce2 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:45:04 +0000
+Subject: [PATCH] C14, patch 5 (cld-advisor, at main's word in M24): THE
+ README'S LINE ON THE LAST LANDING GIVES ITS DAY AND WHERE ITS ENTRY STANDS,
+ NOT A HEADING OF THE CHANGELOG; THE PUBLIC FACE'S TEST READS THE GENERATED
+ BLOCK MADE FROM A PLANTED HEADING
+
+Main's M24: the README's line "the last landing" printed the first 150 characters of the newest changelog heading that
+begins with "## S", so a heading in the working record's words reached the front page. Main's choice for the builder: a
+plain title that a landing names for itself, or the line dropped.
+
+THE CHOICE: neither quite. The line stays, and it gives what a reader can use without the heading's words: the
+landing's day, read from the heading's last bracket, and where its entry stands ("its entry heads CHANGELOG.md, the
+working record"). A plain title that every landing names for itself would ask a new step of every landing, which no gate
+holds; a line dropped would lose the day. The generator's own words are plain.
+
+THE GATE READS THE BLOCK. The gate public-face already reads the README whole, the generated block with it; what it could
+not see is the next heading. tests/test_public_face.py gains one test: the block is made by the generator from a planted
+changelog whose heading carries six inner words; the line is the day and the place, and the block counts no inner word.
+The twin: the line as it stood, made from the same heading, counts them.
+
+BEFORE: the new test fails on the generator as it stood (1 failed, 4 passed); after, 5 passed.
+
+The README's block on this tree: "| the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |".
+
+0 of 19.
+---
+ README.md                 |  2 +-
+ scripts/views/generate.py |  6 +++++-
+ tests/test_public_face.py | 19 +++++++++++++++++++
+ 3 files changed, 25 insertions(+), 2 deletions(-)
+
+diff --git a/README.md b/README.md
+index a800bb65c..90c80702c 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1620: 1125 PROVED, 384 NEGATIVE, 98 OPEN, 13 RETRACTED |
+ | points in the register | 846: 309 open (queued work, leads, and questions not yet decided), 537 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13) |
++| the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/scripts/views/generate.py b/scripts/views/generate.py
+index 9ca59690e..ddcb0cb95 100644
+--- a/scripts/views/generate.py
++++ b/scripts/views/generate.py
+@@ -386,6 +386,9 @@ def view_readme_state(arcs):
+     heads = list(re.finditer(r"(?m)^# Review (\d+) \((\d{4}-\d{2}-\d{2})\)", rv))
+     anchor = re.search(r"anchor-commit: `?([0-9a-f]{7,40})`?", rv[heads[-1].end():]) if heads else None
+     land = next((l[3:].strip() for l in rd("CHANGELOG.md").splitlines() if l.startswith("## S")), "")
++    # 2026-11-13 (C14, patch 5): the line gives the landing's day and where its entry stands, and not the heading's
++    # words, which are the working record's and may use its inner words; the public-face gate holds the block
++    land_day = re.search(r"\((\d{4}-\d{2}-\d{2})\)\s*$", land)
+     out = ["*Where the programme stands, generated from the tracked record at every landing (`scripts/views/generate.py`);",
+            "nothing in this block is typed by hand.*", "",
+            "| | |", "|---|---|",
+@@ -395,7 +398,8 @@ def view_readme_state(arcs):
+                sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
+            "| points in the register | %d: %d open (queued work, leads, and questions not yet decided), %d closed |" % (len(cells), n_open, n_closed),
+            "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
+-           "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
++           "| the last landing | %s |" % (("%s; its entry heads `CHANGELOG.md` (the working record)" % land_day.group(1))
++                                           if land_day else "its entry heads `CHANGELOG.md` (the working record)"),
+            ""]
+     return "\n".join(out)
+ 
+diff --git a/tests/test_public_face.py b/tests/test_public_face.py
+index ce3a14ddc..db6eb20bd 100644
+--- a/tests/test_public_face.py
++++ b/tests/test_public_face.py
+@@ -66,3 +66,22 @@ def test_on_this_repository_the_gate_passes_and_every_page_is_held_as_found():
+     assert all(c is not None for c in counts.values())
+     assert {k: v for k, v in counts.items() if v} == {k: v for k, v in g.PUBLIC_FACE_HELD.items() if v}
+     assert set(g.PUBLIC_FACE_HELD) <= set(g.PUBLIC_FACE)
++
++
++def test_the_readme_block_gives_no_words_of_a_changelog_heading(tmp_path, monkeypatch):
++    """C14, patch 5 (main's M24): the generated block of the README is read by the gate with the rest of the page; its
++    line on the last landing gives the day and where the entry stands, so a heading in the working record's words does
++    not reach the front page. Planted: a heading full of inner words."""
++    g = _gates()
++    spec = importlib.util.spec_from_file_location("views_generate", ROOT / "scripts" / "views" / "generate.py")
++    gen = importlib.util.module_from_spec(spec); spec.loader.exec_module(gen)
++    heading = "S999 THE OWNER'S SEAT RULED THAT THE LANE'S RELAY BE CARDED BY MAIN (P-1) (2026-11-14)"
++    assert sum(g.public_face_words(heading).values()) >= 6           # the plant carries the words
++    (tmp_path / "CHANGELOG.md").write_text("# Changelog\n\n## %s\n\n- a line\n" % heading, encoding="utf-8")
++    monkeypatch.setattr(gen, "ROOT", str(tmp_path))
++    block = gen.view_readme_state([])
++    line = [l for l in block.split("\n") if l.startswith("| the last landing |")]
++    assert line == ["| the last landing | 2026-11-14; its entry heads `CHANGELOG.md` (the working record) |"], line
++    assert dict(g.public_face_words(block)) == {}
++    # the twin: the line as it stood printed the heading, and the gate would have counted its words
++    assert sum(g.public_face_words("| the last landing | %s |" % heading[:150]).values()) >= 6
+-- 
+2.43.0
+
