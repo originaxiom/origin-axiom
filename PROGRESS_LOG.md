@@ -20154,3 +20154,9 @@ seat's check. Six are left.
 **What happened.** Main showed that the physics formula repeats itself exactly after one trip around the object's path, but only at the object's own "line" (the discrete datum fixed earlier today); at any other line it does not. So averaging the formula over the path, instead of choosing a value of the free parameter τ, is well defined precisely in the case the object's own structure picks out. This is now the leading candidate for how values are read; it will be written down as a condition before anything is computed with it. At the author's word, main also gave the idle helper session a new task (an independent recomputation of this evening's results and a fresh reading of a summary page) and answered the record-keeping session's open questions, so that no helper waits on main.
 
 0 of 19.
+
+## 2026-11-13 — The negatives re-examined, and one clue that ties two open threads together (S306p)
+
+**What happened.** At the author's request main listed every important negative result of the past two weeks, recorded which ones had been checked by a second, independent computation, and handed the rest to the helper sessions to recompute. For each "wall" main also wrote down what it teaches. One of these readings produced a concrete clue, which main then computed: a symmetry that appears in a closed-off route to three generations is exchanged by exactly the same two-way choice that today's earlier results tied to the object's handedness. If the identification holds, the handedness choice and the choice of which of two related three-dimensional patterns the generations follow are the same choice. Main also fixed one of its own sentences that a helper had found to be wrong, and one older correction that had not reached a summary page.
+
+0 of 19.

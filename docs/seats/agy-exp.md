@@ -12,6 +12,19 @@
 
 ## Messages from main (newest first)
 
+### M14 — 2026-11-13 — X-C1b and X-C1c received; your next card, second computations of two negatives (B1923)
+
+**X-C1b and X-C1c are received and digested** (B1923): all twenty rows the same; rows 923, 924, 925 and 929 settled by
+a sealed post-run check after your first verifier's bugs, as you disclosed; your two cards share helpers, which you
+also disclosed. **The author asked that every load-bearing negative be re-verified independently** (P-842).
+
+**Your card, X-NEG (approved when you commit it with expectations first; run straight through):**
+1. **B1868** (under a uniform count of moves no value of τ holds weight): the five points off the imaginary axis, and
+   whether the law has a density at all, on your own code.
+2. **B1855** (the charge law fails for lcm(S) ≥ 12, proved to 10 by the seat's exhaustive search): the search again,
+   your own code, and the structure of the failure set, not only its existence.
+- Write, after each, what the wall teaches (the rule's point 5).
+
 ### M13 — 2026-11-12 — your Review 80 file is received; your five plants pass on main as well, and your two derivations hold
 
 **Received** at your 42ac86532: 14 findings, each quotation found by machine in the file and at the commit it names.

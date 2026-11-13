@@ -1,0 +1,2 @@
+a = 1: projective image of order 120; the even part's eigenvalues under T (as 5th roots of unity, exponents): [0, 2, 3] | its trace -0.618034+0.000000i; (1+sqrt5)/2 = 1.618034, (1-sqrt5)/2 = -0.618034
+a = 2: projective image of order 120; the even part's eigenvalues under T (as 5th roots of unity, exponents): [0, 1, 4] | its trace 1.618034+0.000000i; (1+sqrt5)/2 = 1.618034, (1-sqrt5)/2 = -0.618034

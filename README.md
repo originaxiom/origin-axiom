@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1617: 1121 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
-| points in the register | 842: 306 open (queued work, leads, and questions not yet decided), 536 closed |
+| arcs with a verdict | 1618: 1122 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
+| points in the register | 845: 309 open (queued work, leads, and questions not yet decided), 536 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); T… |
+| the last landing | S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WH… |
 <!-- STATE:END -->
 
 ## Start here

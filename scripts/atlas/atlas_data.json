@@ -16971,6 +16971,29 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1923": {
+   "slug": "the load bearing negatives reexamined and the twin chooses the icosahedral triplet",
+   "motifs": [
+    "choice",
+    "coupling",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B997"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

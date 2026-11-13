@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1617 |
-| … PROVED | 1121 |
+| arcs with a verdict file | 1618 |
+| … PROVED | 1122 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
-| register points | 842 |
-| … QUEUED | 302 |
+| register points | 845 |
+| … QUEUED | 305 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 524 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1923 | PROVED | THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's… |
 | B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
 | B1921 | PROVED | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,… |
 | B1920 | PROVED | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified… |
@@ -42,7 +43,6 @@
 | B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
 | B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
 | B1912 | PROVED | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quad… |
-| B1911 | PROVED | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction t… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
 - S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
 - S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
 - S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
@@ -60,11 +61,10 @@
 - S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
 - S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
 - S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
-- S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
 
 ## The latest campaign line
 
-LATEST (2026-11-13, evening, S306p: REVIEW 81 ENTERED (B1916); THE OWNER LIFTS HIS HOLD (P-840); THE SLOPE AND THE KRONECKER FUNCTION ONE L-FUNCTION ALONG THE THREAD'S GEODESIC (B1917).** B1912: the golden state is the lowest twin-odd state, and simple. B1913: the read-out's measure is forced. B1914, B1915: the line's last bit goes with the hand; in the whole, side, hand and twin are one bit, the second bit the weight's condition (corrected the same day). B1916: Review 81, two readers, six planted faults, twelve findings mended. B1917: the SM seat's SM-C7 steps 1 and 2, verified on main: no point of the modulus is chosen; its steps 3 and 4 test B1656's channel norm against it. 0 of 19.
+LATEST (2026-11-13, late, S306p: THE CHANNEL NORM IS THE SHIFTED LATTICE'S KRONECKER LIMIT (B1919; B1918 retracted the same day); ITS LINE PART'S THREAD AVERAGE IS THE SHIFTED PARTIAL ZETA (B1920); ONE INVARIANT END (B1921); THE FRAME PERIODIC ALONG A THREAD EXACTLY AT ITS OWN LINE (B1922); THE LOAD-BEARING NEGATIVES RE-EXAMINED, THE TWIN EXCHANGES THE ICOSAHEDRAL TRIPLETS (B1923).** A negative is now banked only after an independent second computation, and every wall carries what it teaches (P-842). The read-out as a thread average at the thread's own line is the leading candidate for P-776. 0 of 19.
 
 ## Completeness (nothing skipped silently)
 

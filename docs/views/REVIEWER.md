@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1617** |
-| words of findings prose | **1,437,016** |
+| research arcs with findings | **1618** |
+| words of findings prose | **1,438,881** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1617** (100.0 %) |
+| arcs carrying an authored verdict | **1618** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1121 |
+| PROVED | 1122 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1922`** (659 words, 0 locks)  
-THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the line (2/5, 4/5), which the monodromy fixes up to sign, repeat after one period to 3.1e-10 and 9.8e-10 in the windows where the frame's numerics hold; at the line (1/5, 3/5) they change by 2.3 to 3.4; S* does not repeat. So the read-out as a thread average is well defined exactly at the thread's own line: the extension condition is what makes it so. No input removed; only deviations computed. 0 of 19.  
-`B1922_the_frame_is_periodic_along_the_thread_exactly_at_the_threads_own_line/FINDINGS.md`
+**PROVED — `B1923`** (1746 words, 0 locks)  
+THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's reading of what each wall teaches; B1884's false summary sentence and B997's unnarrowed law-map rows mended; computed: in the Weil representation of SL(2, F_5) the twin scaling of the additive character by 2 exchanges the triplet 3 (trace (1-sqrt5)/2 on T) and 3' ((1+sqrt5)/2), a square scaling does not. 0 of 19.  
+`B1923_the_load_bearing_negatives_reexamined_and_the_twin_chooses_the_icosahedral_triplet/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

@@ -13,7 +13,7 @@ ground. 0 of 19.*
   card. Also: the check of multiplicativity tried coprime parts only up to 14, which covers 47 of the 139 levels to
   200 that have a coprime factorisation; it now tries every one. And the old sentence that this arc's table
   corrects, that LR fixes a point only at N = 5, stood unscoped in five places; each carries the correction now. The corrected statement is this arc's table, row P2:
-  LR keeps exactly one point at N = 5, and two at other levels.]
+  LR keeps exactly one point at N = 5, and two at other levels. [CORRECTED 2026-11-13 (agy-002's supplemental reading of Review 80, recounted by main in B1923): as worded this is false. Lines kept as a set number one at N = 5, two at 25 other levels to 200 (11, 19, 29, 31, 41, 55, …) and none at the other 173; row P2 says so]]
 - **The tick has its level by one reading only, the discriminant.** The tick and its square have the same
   discriminant, 5. That is the reading B1876 used, and it stands.
 - **A second reading on record does not reach the tick.** The rule of a history's own lines gives the tick no line

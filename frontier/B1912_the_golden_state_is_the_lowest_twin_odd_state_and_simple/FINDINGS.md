@@ -72,3 +72,7 @@ in double precision that finds no state below it in part of the range (P-783's r
 cd frontier/B1912_the_golden_state_is_the_lowest_twin_odd_state_and_simple/verification
 python3 -B hejhal_level5.py; python3 -B scan2.py; python3 -B scan3.py     # minutes each; scan.py is the first pass
 ```
+
+## Dated note, 2026-11-13 (B1923)
+
+A second computation exists and agrees: the web seat's sealed scan on the golden state (harvest row 1713), its own code, expectations committed first: the state is the lowest in all four classes and simple, over its range. It was not read when this arc was written; it is the independent second computation the rule of 2026-11-13 asks of an absence.

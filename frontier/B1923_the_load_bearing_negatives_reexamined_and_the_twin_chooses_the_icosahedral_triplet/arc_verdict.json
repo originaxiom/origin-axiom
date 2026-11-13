@@ -1,0 +1,34 @@
+{
+ "id": "B1923",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1914",
+  "B1915",
+  "B1884",
+  "B1912",
+  "B1859"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "a read-only reader's scan of the load-bearing negatives (main's own, not independent)",
+  "agy-002's supplemental reading of Review 80 (B1884's sentence), read through the mask",
+  "the web seat's sealed scan on the golden state (harvest row 1713): a second computation of B1912",
+  "the SM seat's sm:W29 and sm:W31 (harvest rows 945 and 949): the wall the computed clue comes from; registered, not banked on main",
+  "sm:W29",
+  "sm:W31"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's load-bearing negatives of 2026-10-30 to 2026-11-13, and the Weil representation of SL(2, F_5)",
+  "object": "each negative's second-computation status and its reading; the twin map's action on the Weil representation's triplet",
+  "reach": "class",
+  "hypotheses": "the scan is one reader's; the clue's identification of W31's C^5 with the Weil representation is not checked; whether the anomaly count differs between 3 and 3' is not computed"
+ },
+ "claim_one_line": "THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's reading of what each wall teaches; B1884's false summary sentence and B997's unnarrowed law-map rows mended; computed: in the Weil representation of SL(2, F_5) the twin scaling of the additive character by 2 exchanges the triplet 3 (trace (1-sqrt5)/2 on T) and 3' ((1+sqrt5)/2), a square scaling does not. 0 of 19.",
+ "weave_or_thread": "neither (a ledger, with one group computation)"
+}

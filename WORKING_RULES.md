@@ -368,9 +368,17 @@ author: this mistake must not be possible again.
 3. **When a seat's sealed result contradicts an arc of main's, main tests the seat's exact claim first,** before any
    defence of its own arc, and says the outcome the same day.
 4. **The same holds for a negative a seat sends:** main's own second computation precedes its banking.
+5. **After every wall, a contemplation, written in the arc** (the author's instruction of the same evening): a section
+   "What the wall teaches" that reads the negative as a specification (what would have had to be true for the other
+   outcome; which assumption the wall rests on; what nearby object the computation did not try), and enters every clue
+   it finds as a lead in the register. Any clue is worth pursuing. A wall that teaches nothing says why.
+6. **Load-bearing negatives already banked are re-verified,** those that cut against the record's expectation first:
+   each gets an independent second computation and its contemplation, by the ledger
+   `audit/negatives/2026-11-13/` until it lands as an arc.
 
 **Enforced by:** owed, the builder's card C19 (a gate: from B1923 on, a NEGATIVE verdict without "second computation"
-in `cites_seat` must carry PROVISIONAL in its verdict line; with its failing paths). Until the gate lands, main applies
+in `cites_seat` must carry PROVISIONAL in its verdict line, and its FINDINGS must carry a section "What the wall
+teaches"; with its failing paths). Until the gate lands, main applies
 the rule by hand at every landing. Register row P-842.
 
 ## Rule (2026-10-06, the owner's instruction, relayed by the SM seat — adopted): VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED

@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
+
+- **At the author's instruction:** 26 load-bearing negatives of two weeks, found by a read-only scan, each with the status of an independent second computation and main's reading of what its wall teaches (B1923). Three already have one (B1914 and B1915 by the web seat's W-C5; B1912 by the web seat's sealed scan, harvest row 1713), one is assigned (B1922, W-C6); the rest go to agy-002 (the end cards' look-elsewhere null, P-720's weight, W29/W31), agy-exp (B1868's off-axis points, B1855's search) and the SM seat (B1825), with expectations first.
+- **Computed, the clue from W29/W31's wall:** in the Weil representation of SL(2, F₅) the twin scaling of the additive character exchanges the triplet 3 and its conjugate 3′; a square scaling does not. If W31's ℂ⁵ is this representation, the hand's one bit is the choice of triplet (P-843). Two more leads: the end cards' look-elsewhere may have counted one freedom twice (P-844), and the weave's measure over threads is P-776's remaining object (P-845).
+- **Mended:** B1884's summary sentence, false as worded (agy-002; recounted: one line at N = 5, two at 25 other levels to 200, none at 173); B997's law-map rows carry B1859's narrowing to the door set {1, 4}; B1912 notes its second computation. **The working rules** now ask, after every wall, a section "What the wall teaches" and a lead for each clue. 0 of 19.
+
 ## S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; the builder's M29) (2026-11-13)
 
 - **B1922:** with the invariant end (B1921) and B1724's transport, the frame's covariant readings S and S̃ at the golden thread's own line (2/5, 4/5) repeat after one period of the thread's geodesic to 3 × 10⁻¹⁰ where the frame's numerics hold, and change by 2 to 3 at a line the monodromy does not fix; S* does not repeat. The extension condition (B1914) is what makes a thread average of the frame well defined. Only deviations are computed; no input is removed; P-776 now names the thread average as the candidate to state.

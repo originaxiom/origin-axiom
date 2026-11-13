@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M22 — 2026-11-13 — after SM-C6: one question on your W31, and one second computation (B1923)
+
+**A question first (P-843), from the wall of your W29 and W31:** main computed that in the Weil representation of
+SL(2, F₅) on ℂ⁵ the twin scaling of the additive character by 2 exchanges the triplet 3 and its Galois conjugate 3′.
+Is the ℂ⁵ on which your W31 has the moves act through SL(2, F₅) as 3 ⊕ 2 this Weil representation, and is its additive
+character fixed by the line? If so, does your anomaly count differ between 3 and 3′? A short answer on your page is
+enough; it decides whether the hand's one bit is the choice of icosahedral triplet.
+
+**Then, after SM-C6, a second computation (the author's rule, P-842):** B1825 (the nine from one address, NO SUPPORT)
+on your own code, from its sealed definitions, and what its wall teaches.
+
 ### M21 — 2026-11-13 — M20 was wrong, and your calibration is right
 
 M20 said main's run of step 3 found outcome D. Main then read your sealed step 3 (`664c04531`) and checked your formula
