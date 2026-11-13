@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p THE MEASURE OF THE READ-OUT ON THE WHOLE IS FORCED: THE FLAT AREA IS NOT A QUANTITY ON THE CURVE, AND THE ONE CHOICE LEFT IS WHICH CURVE (B1913; P-776's condition R6) (2026-11-13)
+
+- **B1913:** the state's density |f|² is unchanged by the group; the flat density |f|²/y² changes by |cz + d|⁴ (78.1456 and 21.5296 for two moves), and its greatest place, found in two charts of the curve, is two different points 0.065 apart. The invariant density's place is one point in both. So the 0.056 shift on record was measured against an ingredient that is not defined on the curve, and the measure is forced by invariance.
+- **What R6 still holds open:** the reading of the mark, one mirror pair on the line's surface and two on the one-twin surface, which waits on how the ruling on the tick and the ruling on even ticks stand together (P-771, P-769).
+- No input is removed yet. 0 of 19.
+
 ## S306p THE STATE THE READ-OUT ON THE WHOLE RESTS ON IS THE LOWEST OF ITS KIND, AND ALONE AT ITS ENERGY (B1912; P-783 DONE; P-776's condition R3 met over the range scanned) (2026-11-13)
 
 - **B1912:** by Hejhal's method on main's own code, over 0.02 ≤ R ≤ 3.40 and in all four classes of twin-odd Maass cusp forms on the level-5 curve, the only eigenvalue is the golden state's R₀ = π/(2 ln φ), simple. An eigenvalue counts only when the system is singular at two heights: eight false minima at one height, one of them where K_{iR}(2π · 0.12) vanishes, are gone at the other. The positive control, the dihedral form at 2R₀, is found in a mirror-even class.

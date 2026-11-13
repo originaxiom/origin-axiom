@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1607 of 1607 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1608 of 1608 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1112)
+## PROVED (1113)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1124,6 +1124,7 @@
 | `B1910` | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19. |  | 0 |
 | `B1911` | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19. |  | 0 |
 | `B1912` | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quadratic character (by mirror parity and Fricke sign), the only eigenvalue is R0 = pi/(2 ln phi) = 3.2642513026, in the golden state's own class, simple there and absent from the other three. By Hejhal's method on main's own code, an eigenvalue counted only when the system is singular at two heights (single-height false minima, one of them in all four classes, vanish at the other); the dihedral form at 2 R0 is found in a mirror-even class as the positive control. Not scanned: R < 0.02 and exceptional eigenvalues. 0 of 19. |  | 0 |
+| `B1913` | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density |f|^2 is unchanged by the group, the flat density |f|^2/y^2 changes by |cz+d|^4 (78.1456 and 21.5296 for two moves), and the flat density's greatest place, found in two charts of the curve and carried back, is two different points 0.065 apart, while the invariant density's is one point, B1885's. The 0.056 shift on record was measured against an ingredient that is not defined on the curve. What R6 still holds open is the reading of the mark: one mirror pair on the line's surface, two on the one-twin surface. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

@@ -20058,3 +20058,9 @@ seat's check. Six are left.
 **What happened.** The project's best candidate for reading values off the object as a whole rests on one particular wave on a curved surface. It had been built from a classical formula, but nobody had checked that it is the lowest wave of its kind, or that it is alone at its energy. Main ran a careful numerical search over every wave of that kind up to its energy, with safeguards against false hits and a test case known to be there, and found it is both. This settles one of the eight conditions the read-out must meet before it can replace a fitted number. It does not yet remove any input.
 
 0 of 19.
+
+## 2026-11-13 — One apparent weakness of the read-out was not real (S306p)
+
+**What happened.** The proposed read-out had seemed to depend on a choice of how to measure area: with a flat measure the place it picks moved. Main showed that the flat measure is not a quantity on the curved surface at all, since it changes from one map of the surface to another, and the place it gives moves with the map. The only measure that belongs to the surface gives one place, the same in every map. So that choice was never free. The one choice still left is which of two related surfaces the read-out lives on, which depends on an earlier question about the object's basic step.
+
+0 of 19.

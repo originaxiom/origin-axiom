@@ -1,0 +1,24 @@
+{
+ "id": "B1913",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1885",
+  "B1912"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the golden state on the level-5 curve and the read-out on the whole's condition R6",
+  "object": "which densities are functions on the curve, and whether their greatest place depends on the chart",
+  "reach": "single",
+  "hypotheses": "admissible means unchanged by the group (main's reading, written before the run); checked at one point for two moves and for one moved chart; the reading of the mark (which curve) is not decided here"
+ },
+ "claim_one_line": "THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density |f|^2 is unchanged by the group, the flat density |f|^2/y^2 changes by |cz+d|^4 (78.1456 and 21.5296 for two moves), and the flat density's greatest place, found in two charts of the curve and carried back, is two different points 0.065 apart, while the invariant density's is one point, B1885's. The 0.056 shift on record was measured against an ingredient that is not defined on the curve. What R6 still holds open is the reading of the mark: one mirror pair on the line's surface, two on the one-twin surface. 0 of 19.",
+ "weave_or_thread": "weave (the whole's quotient curve at level 5)"
+}

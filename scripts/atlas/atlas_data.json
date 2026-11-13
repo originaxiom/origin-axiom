@@ -16796,6 +16796,18 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1913": {
+   "slug": "the flat area is not on the curve the measure is forced",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

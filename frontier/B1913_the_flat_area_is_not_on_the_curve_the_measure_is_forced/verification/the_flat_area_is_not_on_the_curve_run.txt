@@ -1,0 +1,8 @@
+|f|^2 {'standard chart': [0.2515397780873875, 0.3697671433878796], 'moved chart, carried back': [0.2515397780873875, 0.3697671433878796], 'distance between the two': 0.0}
+|f|^2/y^2 {'standard chart': [0.25622810063595924, 0.3141126297628566], 'moved chart, carried back': [0.31488377391088385, 0.342973175310717], 'distance between the two': 0.06537139356518898}
+move (1, 0, 5, 1): |f|^2 ratio 1.0
+move (1, 0, 5, 1): flat density ratio 78.1456
+move (1, 0, 5, 1): |cz+d|^4 78.1456
+move (2, -1, 5, -2): |f|^2 ratio 1.0
+move (2, -1, 5, -2): flat density ratio 21.5296
+move (2, -1, 5, -2): |cz+d|^4 21.5296

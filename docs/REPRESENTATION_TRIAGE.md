@@ -132,6 +132,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B1910 | PENDING | **The bridge note on P-321, checked (freeness and a single sector are premises):** it reaches GENESIS (GM4) and B1680's notes at the foundation's next version, the builder's card C17. |
 | B1911 | PENDING | **The lane's complex and mass map, as algebra (WP-2.1's first part):** it reaches a synthesis page with WP-2.1 whole, when the operator P_v is checked; its row is P-749. |
 | B1912 | PENDING | **The golden state is the lowest twin-odd state, and simple (P-783):** it reaches a synthesis page with the read-out on the whole (P-776), when its eight conditions are met or failed. |
+| B1913 | PENDING | **The flat area is not on the curve; the read-out's measure is forced (R6):** it reaches a synthesis page with the read-out on the whole (P-776). |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The
