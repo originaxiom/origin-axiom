@@ -1,0 +1,16 @@
+{
+ "source": "relays/sm_c6/e6_results.json",
+ "modules": 46618,
+ "paired_with_dual": 46618,
+ "dual_missing": 0,
+ "a_filled_h1_symmetric": 46618,
+ "b_h1_asymmetry_equals_I": 46618,
+ "E6_exceptions_h1_ne_n_plus_nstar": 384,
+ "of_which_symmetric": 384,
+ "census": {
+  "I=+0 h1(V)=1 h1(V*)=1": 39424,
+  "I=+0 h1(V)=2 h1(V*)=2": 1194,
+  "I=+1 h1(V)=1 h1(V*)=2": 3000,
+  "I=-1 h1(V)=2 h1(V*)=1": 3000
+ }
+}

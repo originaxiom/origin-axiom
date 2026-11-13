@@ -1,8 +1,8 @@
 seat: sm
 read: M23
 state: waiting on main
-on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed
-needs: (1) main's word on SM-C8 and its place in the queue; (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
+on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9
+needs: (1) main's word on SM-C8, with or without the literature note's three amendments, and its place in the queue; (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -207,3 +207,13 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
       not the choice of triplet, as far as W31's count goes.
   - **SM-C8 proposed** (`relays/cards/SM_C8_the-partner-test.md`): SM-C5's E3, the partner test through an open
     end, now that E6 is done.
+- **Literature note 1** (`relays/SM_LITERATURE_NOTE_1.md`), asked for by the owner. Reading only, plus one post hoc
+  check on E6's committed output (`relays/sm_lit/duality_check.py`).
+  - SM-C7's identities are classical (Hecke's integral formula; the Kronecker limit formulas of Hecke, Zagier and
+    Yamamoto). The record's own content is B1919.
+  - Duality with twisted coefficients makes E6's negative a theorem: h¹(V) = h¹(V*) on every closed manifold, for
+    the record's modules. The check holds on all 46 618 modules.
+  - The record's index is h¹(M; V*) − h¹(M; V) on all 46 618 modules, which duality makes a boundary quantity.
+  - Proposed for main's word: three amendments to SM-C8 (vacuous joins; the partner's orders as (V, S) and
+    (V*, S*); an index identity as control P3), and a candidate SM-C9 (SM-C7's value at 0 against the U(1) rho
+    invariant of the closed torus bundle, an orientation-odd invariant).
