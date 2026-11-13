@@ -1,0 +1,27 @@
+A1   {"B1898 § 4's agy-exp row holds '| 14 | 15 of 15 |'": true}
+A2   {"recount: agy-exp: quotations found, of": [14, 14]}
+A3   {"second table's head holds 'and 14 of 14'": true, "verdict line holds '14 of 14)'": true}
+A4   {"kept check: findings": 14, "lines of quotation": 15}
+B1   {"row 18 names recount at e6298271a": true, "probe": {"main finds": {"anchor": "896cae025", "tests/test_*.py": 1525, "of them test_b*.py": 1408}, "held": true}}
+B2   {"commit": "e6298271a", "tests/test_*.py at the top": 1522, "tests/test_b*.py at the top": 1407, "test_*.py under tests/ at any depth": 1537}
+B2   {"commit": "896cae025", "tests/test_*.py at the top": 1525, "tests/test_b*.py at the top": 1408, "test_*.py under tests/ at any depth": 1540}
+B3   {"the gates' anchor begins e6298271a": true}
+C1   {"P-670 rows": 1, "holds 'within 5.8 × 10⁻³³'": true, "holds 'to 6 × 10⁻³¹'": true}
+C2   {"kept run holds 5.775751444006791e-31": true, "B1836's note holds 'by at most 5.8 × 10⁻³¹'": true}
+D1   {"B1892 § 5's table: rows": 16, "column sums": [53, 43, 9]}
+D2   {"B1892 holds 'the first reader has 52 findings, the second 43, and 9 are common'": true, "the governing pages' row holds 'the two columns sum to 53 and 43'": true, "the second table's row 06 holds 'the table: 52, 43, 9 in common'": true}
+E0   {"files in checks/, by stem": ["b1895_probes", "builder_rows_probe", "builder_rows_probe2", "genesis_v1_67", "literal_only_tests", "mend_sm_b1892_b1893", "mend_tools", "or_true_sweep", "plants_agy002", "plants_b1881_third", "quote_check_agy002", "quote_check_agyexp", "quote_check_chat1", "quote_check_sm", "sm_rows_probe", "strict_recheck_r79_quotations"], "the second table's head holds \"The check's output is in `checks/`.\"": true}
+E1   {"first table, agy-002's rows": 24, "rows whose check cell names a file of checks/": [], "rows this seat matched to a file by what the file does": ["A12", "A14", "A15", "A24 to A36", "A5", "A6", "A8", "A9"], "rows with no file": ["A1", "A2", "A3", "A4", "A7", "A10", "A11", "A13", "A16", "A17", "A18", "A19", "A20", "A21", "A22", "A23"]}
+E2a  {"rows in sm_rows_probe.json": ["04", "07", "11", "15", "16", "18", "19", "20", "21", "27", "28", "29", "31", "34", "35"], "plants in plants_b1881_third.json": ["F1", "F2", "F3", "F4", "F5", "nothing planted", "the control"]}
+E2   {"second table: rows checked in full": 37, "of them, with a file of checks/ or a row of agy-002's that has one": ["04", "07", "10", "11", "14", "15", "16", "18", "19", "20", "21", "23", "24", "27", "28", "29", "31", "34", "35", "F1", "F2", "F3", "F4", "F5"], "with none": ["01", "02", "03", "05", "06", "08", "09", "12", "13", "17", "36", "F12", "F8"]}
+E3   {"findings checked in full, not this seat's": 73, "with a file": 44, "with none": 29}
+F1   {"Review 79's window: older arcs changed": 31, "in their verdict file or findings": 25}
+F2   {"B1880: class A": 7, "class B": 2}
+F3   {"main's scan, first line, numbers": [1546, 92, 24, 68]}
+G1   {"P-239": {"rows": 1, "ESCALATED(2026-11-13": true, "[2026-11-13:": false, "DRAFT-DECLINED(2026-11-13": false}, "P-262": {"rows": 1, "ESCALATED(2026-11-13": true, "[2026-11-13:": false, "DRAFT-DECLINED(2026-11-13": false}, "P-263": {"rows": 1, "ESCALATED(2026-11-13": true, "[2026-11-13:": false, "DRAFT-DECLINED(2026-11-13": false}, "P-268": {"rows": 1, "ESCALATED(2026-11-13": true, "[2026-11-13:": false, "DRAFT-DECLINED(2026-11-13": false}, "P-670": {"rows": 1, "ESCALATED(2026-11-13": false, "[2026-11-13:": true, "DRAFT-DECLINED(2026-11-13": false}, "P-694": {"rows": 1, "ESCALATED(2026-11-13": false, "[2026-11-13:": false, "DRAFT-DECLINED(2026-11-13": true}}
+G2   {"P-670's script is there": true, "and its run": true}
+G3   {"## Wave 1": true, "## Guards": true, "## Seats": true}
+G4   {"audit/drafts/bang_programme_plan.md tracked at c40446392": false, "or in the window": false}
+G5   {"the builder's page holds 'Card C15 (register row P-239, its next action)'": true}
+P1   {"plant": "B1898 § 4: '| 14 | 15 of 15 |' made '| 14 | 16 of 16 |'", "the lock's status": 0, "its last line, numbers and words": "7 passed"}
+P2   {"the file is back as the window has it": true}
