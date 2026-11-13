@@ -1,0 +1,98 @@
+== cal10
+tau (0.21+1.13j)
+   channel 1  h = c_s - 2K: 7.669319653 2.440308289 1.212511916   spread 6.5e+00
+   channel i  h = c_s - 2K: 1.422775077 0.800153237 2.566085593   spread 1.8e+00
+   channel j  h = c_s - 2K: 1.210462659 6.463584170 0.848714400   spread 5.6e+00
+   channel k  h = c_s - 2K: 1.286547250 1.454591293 5.681267057   spread 4.4e+00
+tau (-0.37+0.92j)
+   channel 1  h = c_s - 2K: 0.185414565 0.187431684 16.004793635   spread 1.6e+01
+   channel i  h = c_s - 2K: 138.053304828 164.755187653 1.144482899   spread 1.6e+02
+   channel j  h = c_s - 2K: 0.166538499 0.216530572 0.600674349   spread 4.3e-01
+   channel k  h = c_s - 2K: 0.349588338 0.206033529 0.115841812   spread 2.3e-01
+tau (0.05+1.6j)
+   channel 1  h = c_s - 2K: 3.531722893 8.805075831 2.703659260   spread 6.1e+00
+   channel i  h = c_s - 2K: 2.843013041 8.217358521 2.097023984   spread 6.1e+00
+   channel j  h = c_s - 2K: 2.677065610 2.333949416 6.482254545   spread 4.1e+00
+   channel k  h = c_s - 2K: 2.262859137 2.350343028 2.107840718   spread 2.4e-01
+tau (0.44+0.71j)
+   channel 1  h = c_s - 2K: -0.207143629 -0.131492458 0.220402611   spread 4.3e-01
+   channel i  h = c_s - 2K: 0.501322666 -0.638732480 -0.696414618   spread 1.2e+00
+   channel j  h = c_s - 2K: -0.687881332 28.083250507 -0.357065024   spread 2.9e+01
+   channel k  h = c_s - 2K: 14.794389652 -0.432746370 13.229566007   spread 1.5e+01
+== cal11
+tau (0.21+1.13j)
+   channel 1: best spread 3.37e-01 with k = +4 pi, g = +4 pi^2, constant -2.941990011
+   channel i: best spread 3.15e+01 with k = +4 pi, g = -4 pi^2, constant 7.834429939
+   channel j: best spread 3.54e+00 with k = +4 pi, g = +4 pi^2, constant -2.789441429
+   channel k: best spread 1.10e+02 with k = +4 pi, g = +4 pi^2, constant -0.430613324
+tau (-0.37+0.92j)
+   channel 1: best spread 8.98e+00 with k = +4 pi, g = +0 pi^2, constant -1.862294788
+   channel i: best spread 1.75e+01 with k = +4 pi, g = +2 pi^2, constant 16.274857401
+   channel j: best spread 5.01e+01 with k = +4 pi, g = +4 pi^2, constant -2.540118217
+   channel k: best spread 1.56e+01 with k = +4 pi, g = +4 pi^2, constant -2.877103005
+== cal12
+tau (0.21+1.13j)  twists x: [(0.231, -1.108), (0.42, -0.938)]
+   channel 1: spread 3.37e-01  u=a1 t+a2  theta_1  k=4 pi  const -2.941990011
+   channel i: spread 3.90e+01  u=a1 t+a2  theta_2  k=4 pi  const 3.075481941
+   channel j: spread 2.51e+00  u=2(a2 t-a1)  theta_3  k=2 pi  const -2.476574763
+   channel k: spread 1.10e+02  u=a1 t+a2  theta_3  k=4 pi  const -0.430613324
+tau (-0.37+0.92j)  twists x: [(0.088, -0.646), (0.086, -1.557)]
+   channel 1: spread 9.27e+00  u=a2 t+a1  theta_1  k=4 pi  const -2.218117717
+   channel i: spread 1.89e+01  u=a2 t+a1  theta_4  k=4 pi  const 16.046054451
+   channel j: spread 4.69e+01  u=a2 t-a1  theta_2  k=4 pi  const -1.633805143
+   channel k: spread 1.56e+01  u=a1 t+a2  theta_3  k=4 pi  const -2.877103005
+== cal13
+tau (0.21+1.13j)  multipliers (ch 1): [(0.1536, 0.6667), (0.3236, 0.8144), (0.1243, 0.2575), (0.1089, 0.2526), (0.3436, 0.1672)]
+   channel 1: spread 5.54e+00  a=(al,-be)  c_s - 2*(-2pi log|g_a|)  const 1.421381349
+   channel i: spread 1.08e+01  a=(-al,be)  c_s - 2*(-2pi log|g_a|)  const 11.666701918
+   channel j: spread 7.07e+00  a=(-al,be)  c_s - 2*(-2pi log|g_a|)  const 1.112036289
+   channel k: spread 1.34e+00  a=(al,-be)  c_s - 2*(-2pi log|g_a|)  const 1.116575154
+tau (-0.37+0.92j)  multipliers (ch 1): [(0.2625, 0.2425), (0.1679, 0.4384), (0.3851, 0.5976), (0.0558, 0.2983), (0.1087, 0.8342)]
+   channel 1: spread 2.07e+01  a=(al,-be)  c_s - 2*(-2pi log|g_a|)  const 0.376677876
+   channel i: spread 2.30e+01  a=(al,-be)  c_s - 2*(-2pi log|g_a|)  const 2.741398770
+   channel j: spread 3.65e+00  a=(-al,be)  c_s - 2*(-2pi log|g_a|)  const 3.804121518
+   channel k: spread 4.62e+01  a=(-be,al)  c_s - 2*(-2pi log|g_a|)  const 0.422456131
+== cal14
+channel 1 sign 1  c diff 3.677506   Parseval 3.677506
+channel 1 sign -1  c diff 3.677506   Parseval 5.794963
+channel i sign 1  c diff 19.837861   Parseval 19.837863
+channel i sign -1  c diff 19.837861   Parseval 10.846827
+channel j sign 1  c diff -0.687511   Parseval -0.687511
+channel j sign -1  c diff -0.687511   Parseval -1.524987
+channel k sign 1  c diff -17.213682   Parseval -17.213680
+channel k sign -1  c diff -17.213682   Parseval -15.051851
+== cal15
+F_u1 - F_u2 = -0.8655766   lattice -0.8655759
+F_u1 - F_u2 = 13.1318612   lattice 13.1318614
+reduction: 2.6645352591003757e-15
+tau (0.21+1.13j)
+   channel 1  h = c_s - F_u: -10.43534497 -10.43534497 -10.43534497 -10.43534497  spread 3.7e-14   (ubar coords -> u): [(0.2992, 0.2824, 0.2992, 0.2824), (0.3681, 0.1018, 0.3681, 0.1018)]
+   channel i  h = c_s - F_u: -10.43534497 -10.43534497 -10.43534497 -10.43534497  spread 2.4e-12   (ubar coords -> u): [(0.2992, 0.2824, 0.2992, 0.7824), (0.3681, 0.1018, 0.3681, 0.6018)]
+   channel j  h = c_s - F_u: -10.43534497 -10.43534497 -10.43534497 -10.43534497  spread 3.1e-12   (ubar coords -> u): [(0.2992, 0.2824, 0.7992, 0.2824), (0.3681, 0.1018, 0.8681, 0.1018)]
+   channel k  h = c_s - F_u: -10.43534497 -10.43534497 -10.43534497 -10.43534497  spread 1.1e-12   (ubar coords -> u): [(0.2992, 0.2824, 0.7992, 0.7824), (0.3681, 0.1018, 0.8681, 0.6018)]
+tau (-0.37+0.92j)
+   channel 1  h = c_s - F_u: -11.08125403 -11.08125403 -11.08125403 -11.08125403  spread 2.8e-14   (ubar coords -> u): [(0.4273, 0.3659, 0.4273, 0.3659), (0.4104, 0.8481, 0.4104, 0.8481)]
+   channel i  h = c_s - F_u: -11.08125403 -11.08125403 -11.08125403 -11.08125403  spread 1.1e-13   (ubar coords -> u): [(0.4273, 0.3659, 0.4273, 0.8659), (0.4104, 0.8481, 0.4104, 0.3481)]
+   channel j  h = c_s - F_u: -11.08125403 -11.08125403 -11.08125403 -11.08125403  spread 6.4e-12   (ubar coords -> u): [(0.4273, 0.3659, 0.9273, 0.3659), (0.4104, 0.8481, 0.9104, 0.8481)]
+   channel k  h = c_s - F_u: -11.08125403 -11.08125403 -11.08125403 -11.08125403  spread 3.0e-11   (ubar coords -> u): [(0.4273, 0.3659, 0.9273, 0.8659), (0.4104, 0.8481, 0.9104, 0.3481)]
+tau (0.05+1.6j)
+   channel 1  h = c_s - F_u: -9.34274304 -9.34274304 -9.34274304 -9.34274304  spread 4.8e-13   (ubar coords -> u): [(0.0552, 0.7549, 0.0552, 0.7549), (0.1618, 0.1253, 0.1618, 0.1253)]
+   channel i  h = c_s - F_u: -9.34274304 -9.34274304 -9.34274304 -9.34274304  spread 3.5e-13   (ubar coords -> u): [(0.0552, 0.7549, 0.0552, 0.2549), (0.1618, 0.1253, 0.1618, 0.6253)]
+   channel j  h = c_s - F_u: -9.34274304 -9.34274304 -9.34274304 -9.34274304  spread 9.9e-13   (ubar coords -> u): [(0.0552, 0.7549, 0.5552, 0.7549), (0.1618, 0.1253, 0.6618, 0.1253)]
+   channel k  h = c_s - F_u: -9.34274304 -9.34274304 -9.34274304 -9.34274304  spread 1.6e-13   (ubar coords -> u): [(0.0552, 0.7549, 0.5552, 0.2549), (0.1618, 0.1253, 0.6618, 0.6253)]
+== cal16
+tau (0.21+1.13j)  h(tau) -10.435344967  h(tau+1) -10.435344967  h(tau+2) -10.435344964  h(-1/tau) -11.309929885  log(Im tau) 0.122218
+tau (-0.37+0.92j)  h(tau) -11.081254034  h(tau+1) -11.081254034  h(tau+2) -11.081254035  h(-1/tau) -11.028346418  log(Im tau) -0.083382
+== cal17
+C = ['-10.8193029842', '-10.8193029842', '-10.8193029842', '-10.8193029842', '-10.8193029842']  spread 3.6e-13
+E^(u)(z,2) fourier-brute (0.2, 0.3) 1.0372017797521949e-05
+E^(u)(z,2) fourier-brute (0.0, 0.25) 1.0372012752668525e-05
+E^(u)(z,2) fourier-brute (0.5, 0.0) 1.037202432740969e-05
+E^(u)(z,2) fourier-brute (0.3333333333333333, 0.6666666666666666) 1.0372050162743562e-05
+shifted Hecke s=2 (3, 6, 12)  lhs 238.60256934  rhs 238.60256668  rel 1.1e-08
+shifted Hecke s=2 (1, 2, 8)  lhs 374.37592405  rhs 374.37592139  rel 7.1e-09
+shifted Hecke s=2 (6, 0, 12)  lhs 129.24305839  rhs 129.24305573  rel 2.1e-08
+apex: t* -2.2924316559393976  point (2.2244273756300004e-08+1.6329931618554518j)  height 1.6329931618554518  Lagrange/2 = sqrt(D)/(2 min|c|) check: 0.9797958971132712
+== cal18
+F_u - F_0 = 7.7486569   lattice 7.7486567
+F_u - F_0 = 4.4653423   lattice 4.4653417

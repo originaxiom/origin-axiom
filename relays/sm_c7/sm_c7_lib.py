@@ -574,3 +574,105 @@ def level_zetas(geo, chars, s_list, Kmin=80, J=36):
                     val = sum(chi(p) * F[ip, col] for ip, p in enumerate(pts))
                     res[ch][s][t_idx] += val
     return res
+
+
+# ---------------------------------------------------------------------------- steps 3-4: the u-shifted Kronecker limit
+def F_shift(u, z):
+    """F_u(z) = the constant term at s = 1 of E^(u)(z, s) = sum_{(m,n) in u + Z^2} y^s |m z + n|^{-2s}, pole pi/(s-1) removed:
+    rows m in u1 + Z by Poisson in n; u in (R/Z)^2, not 0"""
+    u1, u2 = frac(u[0]), frac(u[1])
+    x, y = z.real, z.imag
+    if u1 == 0.0 and u2 == 0.0:        # the unshifted lattice: Kronecker's first limit formula
+        q = cmath.exp(2j * math.pi * z)
+        leta = -math.pi * y / 12 + float(np.sum(np.log(np.abs(1 - q ** np.arange(1, int(CUT / (TAU * y)) + 3)))))
+        return 2 * math.pi * (float(mp.euler) - math.log(2) - 0.5 * math.log(y) - 2 * leta)
+    if u1 != 0.0:
+        ct = math.pi * (-float(mp.digamma(u1)) - float(mp.digamma(1 - u1)) - math.log(y) - 2 * math.log(2))
+    else:
+        ct = math.pi * (2 * float(mp.euler) - math.log(y) - 2 * math.log(2))
+        ct += y * float(mp.zeta(2, u2) + mp.zeta(2, 1 - u2))
+    M = int(CUT / (TAU * y)) + 3
+    m = np.arange(-M, M + 1) + u1
+    m = m[np.abs(m) > 1e-15]
+    rho = e(u2) * e(m * x) * np.exp(-TAU * np.abs(m) * y)
+    ct += math.pi * float(np.sum((2 / np.abs(m)) * np.real(rho / (1 - rho))))
+    return ct
+
+
+def F_shift_reduced(u, z):
+    """F_u is a weight-0 function of the shifted family: F_u(z) = F_{u g^{-1}}(g z)"""
+    w, g = reduce(z)
+    gi = ginv(g)
+    uu = (u[0] * gi[0][0] + u[1] * gi[1][0], u[0] * gi[0][1] + u[1] * gi[1][1])
+    return F_shift(uu, w)
+
+
+def E_shift(u, z, s):
+    """E^(u)(z, s) = sum_{(m,n) in u + Z^2, != 0} y^s |m z + n|^{-2s}, integer s >= 2 (absolutely convergent), rows by Poisson"""
+    u1, u2 = frac(u[0]), frac(u[1])
+    x, y = z.real, z.imag
+    g = math.gamma(s)
+    tot = 0.0
+    if u1 == 0.0:
+        tot += y ** s * (float(mp.zeta(2 * s, u2) + mp.zeta(2 * s, 1 - u2)) if u2 != 0.0 else 2 * float(mp.zeta(2 * s)))
+        hz = 2 * float(mp.zeta(2 * s - 1))
+    else:
+        hz = float(mp.zeta(2 * s - 1, u1) + mp.zeta(2 * s - 1, 1 - u1))
+    tot += y ** (1 - s) * math.sqrt(math.pi) * math.gamma(s - 0.5) / g * hz
+    M = int(CUT / (TAU * y)) + 3
+    m = np.arange(-M, M + 1) + u1
+    m = m[np.abs(m) > 1e-15]
+    kk = int(CUT / (TAU * y * np.min(np.abs(m)))) + 3
+    k = np.arange(1, kk + 1)
+    MM, KK = np.meshgrid(m, k, indexing="ij")
+    keep = TAU * KK * np.abs(MM) * y < CUT
+    MM, KK = MM[keep], KK[keep]
+    Y = np.abs(MM) * y
+    core = 2 * math.pi ** s * KK ** (s - 0.5) * Y ** (0.5 - s) * kv(s - 0.5, TAU * KK * Y) / g
+    tot += y ** s * np.sum(core * 2 * np.cos(TAU * KK * (u2 + MM * x)))
+    return float(tot)
+
+
+def E_shift_reduced(u, z, s):
+    w, g = reduce(z)
+    gi = ginv(g)
+    uu = (u[0] * gi[0][0] + u[1] * gi[1][0], u[0] * gi[0][1] + u[1] * gi[1][1])
+    return E_shift(uu, w, s)
+
+
+def apex(geo, n=4000):
+    """the canonical apex: the parameter t in one period where the reduced height is greatest (the record's apex,
+    Im tau = Lagrange/2); returns (t*, the reduced apex point, its height)"""
+    t = -geo.ell / 2 + geo.ell * np.arange(n) / n
+    hs = [reduce(geo.z(tt))[0].imag for tt in t]
+    i = int(np.argmax(hs))
+    a, b = t[i] - geo.ell / n, t[i] + geo.ell / n
+    for _ in range(60):
+        m1, m2 = a + (b - a) * 0.382, a + (b - a) * 0.618
+        if reduce(geo.z(m1))[0].imag < reduce(geo.z(m2))[0].imag: a = m1
+        else: b = m2
+    ts = 0.5 * (a + b)
+    w, g = reduce(geo.z(ts))
+    return ts, w, w.imag, g
+
+
+def shifted_cone_brute(geo, w, G, u, s, R=1200):
+    """sum over v in (u + Z^2) in the half-open cone {a w + b G w: a > 0, b >= 0} of |Q(v)|^{-s}, brute force (s >= 2)"""
+    from fractions import Fraction as Fr
+    w = tuple(int(t) for t in w)
+    w2 = tuple(int(t) for t in np.array(G, dtype=object).dot(np.array(w, dtype=object)))
+    det = w[0] * w2[1] - w[1] * w2[0]
+    u = (Fr(u[0]) % 1, Fr(u[1]) % 1)
+    xs = [0, w[0], w2[0], w[0] + w2[0]]; ys = [0, w[1], w2[1], w[1] + w2[1]]
+    pts = []
+    for x in range(min(xs) - 1, max(xs) + 2):
+        for y in range(min(ys) - 1, max(ys) + 2):
+            px, py = u[0] + x, u[1] + y
+            t1 = (px * w2[1] - py * w2[0]) / det; t2 = (w[0] * py - w[1] * px) / det
+            if 0 < t1 <= 1 and 0 <= t2 < 1: pts.append((float(px), float(py)))
+    k = np.arange(R)
+    tot = 0.0
+    for p in pts:
+        V0 = p[0] + k[:, None] * w[0] + k[None, :] * w2[0]; V1 = p[1] + k[:, None] * w[1] + k[None, :] * w2[1]
+        tot += np.sum(np.abs(geo.Q((V0, V1))) ** (-s))
+    return tot, len(pts)

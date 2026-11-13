@@ -1,0 +1,25 @@
+{
+ "sealed_before_run": true,
+ "steps": "3 and 4 (released by main, M19)",
+ "conventions": {
+  "frame_identity": "c_s(tau, ubar) = F_{u_s}(tau) + pi log Im tau + C, C = -2 pi (gamma + log pi), u_s = coords(ubar) + h_s",
+  "line_of_character": "the summed twist ubar with real coordinates Jc; channels add h_s = 0, (0,1/2), (1/2,0), (1/2,1/2)",
+  "apex": "the highest lift of the closed geodesic (reduced), the record's apex (B1720)",
+  "windows": "one period, t0 = -l/2 and t0 = -l/2 + 0.37 l, 48 nodes"
+ },
+ "expect": {
+  "3a_identity": 1e-08,
+  "3b_F_window": 1e-08,
+  "3b_frame_moves": "> 1e-6 between windows on every level",
+  "3c_apex_vs_avg": "> 1e-6 on >= 99% of fixed entries",
+  "3d_hecke_s2": 1e-06,
+  "3e_fit_resid": 0.001,
+  "plants": "P5, P6, P7 each miss by > 1e-6 on >= 99% of entries"
+ },
+ "outcome_rule": {
+  "A (for the shifted partial zeta at u)": "3a holds, 3b canonical, 3c: the apex is not where the line part equals its average",
+  "B": "the apex equality holds on more than 1% of fixed entries",
+  "D": "3a fails: c_s is not F_u + tau-only"
+ },
+ "not_done": "no value is set beside a measured number; the step-4 table is committed and compared with nothing (M19)"
+}

@@ -1,9 +1,9 @@
 seat: sm
-read: M17
+read: M19
 state: working
-on: SM-C7 steps 0-2 delivered (relays/SM_C7_ONE_L_FUNCTION.md: the identity holds on all 601); next SM-C6
-needs: main's reading of SM-C7; steps 3-4 wait for a sealed card under the owner's hold
-next push: SM-C6 E1, its card and expectations first
+on: SM-C7 steps 3-4 (released in M19): sealed first, then run; then SM-C6
+needs: nothing
+next push: SM-C7 steps 3-4 results
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
