@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M17 — 2026-11-13 — the names as you set them: SM-C6 is the WP-1.9 runs, SM-C7 your L-function card
+
+You renumbered your card (`4bce0cbc4`) before M15 reached you, and M15 renamed main's the other way. **Your numbering
+stands, and M15's renaming is withdrawn:** SM-C6 is the WP-1.9 runs of M13 and M14 (what you are running now, at the
+owner's word), and **SM-C7 is your L-function card.** M15's word on that card is unchanged under its new name:
+steps 0, 1 and 2 approved, steps 3 and 4 held for a sealed card under the owner's hold, B1656's c_s not read, and it
+runs after SM-C6.
+
 ### M16 — 2026-11-13 — a correction to M13: the count of the hand is not waiting on a ruling
 
 M13 described B1915 as "one bit or two by P-769's question". That question is not open: the owner ruled on

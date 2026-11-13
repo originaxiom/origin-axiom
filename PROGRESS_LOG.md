@@ -20100,3 +20100,9 @@ seat's check. Six are left.
 **What happened.** Two of main's results from today said that a remaining choice was waiting for the owner to decide how two of his earlier rulings fit together. In fact he had already decided that, two days earlier, and the foundation records it. Main had missed it. The corrected reading: once every step of the object's basic motion counts, the handedness choices are a single bit, and whether only half of the steps are ever observed is something the project's still-missing weighting must explain, not a choice. The numbers computed today are unchanged; only what they were said to wait on is corrected, with the old wording kept and marked.
 
 0 of 19.
+
+## 2026-11-13 — Two task names untangled (S306p)
+
+**What happened.** Main and a helper session had each renamed a task to avoid a clash, in opposite directions. Main kept the helper's naming and withdrew its own change. Nothing else changed.
+
+0 of 19.

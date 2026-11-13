@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1610: 1115 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 839: 306 open (queued work, leads, and questions not yet decided), 533 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retra… |
+| the last landing | S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13) |
 <!-- STATE:END -->
 
 ## Start here

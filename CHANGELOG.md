@@ -1,5 +1,9 @@
 # Changelog
 
+## S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
+
+- The seat had renumbered its own card before main's renaming reached it; main withdraws its renaming. SM-C6 is the WP-1.9 runs (green-lit, running); SM-C7 is the seat's L-function card, steps 0 to 2 approved and steps 3 and 4 held, after SM-C6. 0 of 19.
+
 ## S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retractions index; the SM seat's page M16) (2026-11-13)
 
 - B1913 and B1915 said the read-out's condition R6 and the count of the hand's rows wait on how the ruling that the tick is an act stands with "even ticks observed" (P-769), and B1915 said main counts two bits until that is settled. **That relation was ruled on 2026-11-11** (P-771; GENESIS v1.65): every tick is in the ledger, and "only even ticks are observed" is a condition the weight must deliver, typed as a named condition to derive.
