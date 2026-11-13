@@ -1,0 +1,66 @@
+From 9a9db4b95a0d818185e6d4c902d7fab92315353f Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 07:18:23 +0000
+Subject: [PATCH 14/27] R80b, part 3, patch 14 (cld-advisor, at main's word in
+ M14; Review 80, a reader's finding F14, WHICH MAIN HAS NOT CHECKED: it was
+ made again before it was mended): THE SWEEP OF B734'S TEST READS A VERDICT
+ FILE'S SCOPE AND NOTE AS WELL AS ITS LINE.
+
+THE FINDING, MADE AGAIN on the test. It sweeps every arc's verdict file for the old level of the knot group, and read one field of it, the claim line. The sweep of B1028's test beside it reads three: the line, the scope and the note.
+
+WHAT IS CHANGED. The three fields are read, as its neighbour reads them; the old line stands in a dated note. THE PLANTED CASES, in the patch's own test: a verdict file that states the old level in its scope, and one that states it in its note, each with a claim line that says nothing of it. Read by the line alone, neither is seen; each is reported now. A twin with neither is not.
+
+On the tree the wider sweep reports no file. The test file: 9 pass. 0 of 19.
+---
+ tests/test_b734_m004_congruence.py | 28 +++++++++++++++++++++++++++-
+ 1 file changed, 27 insertions(+), 1 deletion(-)
+
+diff --git a/tests/test_b734_m004_congruence.py b/tests/test_b734_m004_congruence.py
+index 6cffb2a30..c53f513b5 100644
+--- a/tests/test_b734_m004_congruence.py
++++ b/tests/test_b734_m004_congruence.py
+@@ -199,7 +199,7 @@ def test_every_page_that_stated_level_8_carries_the_correction():
+             continue
+         if rel.endswith(".json"):
+             try:
+-                text = json.loads(text).get("claim_one_line", "")
++                text = _of_a_verdict_file(text)
+             except Exception:
+                 continue
+         if _states_the_old_level(text):
+@@ -207,6 +207,32 @@ def test_every_page_that_stated_level_8_carries_the_correction():
+     assert not loose, loose
+ 
+ 
++def _of_a_verdict_file(raw):
++    """What is swept of a verdict file: its claim line, its scope and its note, each a paragraph of its own.
++    CHANGED 2026-11-12 (Review 80; a reader's finding F14, not checked by main, made again here).  The line was
++        text = json.loads(text).get("claim_one_line", "")
++    and the sweep of B1028's lock beside it reads the three fields.  The old level stated in a verdict's scope or note was
++    not seen here."""
++    d = json.loads(raw)
++    return "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
++
++
++def test_the_sweep_reads_a_verdict_files_scope_and_note_as_well_as_its_line():
++    """Planted: a verdict file that states the old level in its scope, and one that states it in its note, with a claim line
++    that says nothing of it.  Read by the claim line alone, as this lock read a verdict file, neither is seen."""
++    by_the_line_alone = lambda raw: _states_the_old_level(json.loads(raw).get("claim_one_line", ""))
++    base = {"id": "B0", "claim_one_line": "A statement about another matter. 0 of 19.",
++            "scope": {"frame": "none", "object": "the figure-eight knot group", "reach": "single", "hypotheses": "none"}}
++    in_the_scope = json.dumps(dict(base, scope=dict(base["scope"], hypotheses="m004 is a congruence subgroup of level 8")))
++    in_the_note = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8)."))
++    for what, raw in (("in the scope", in_the_scope), ("in the note", in_the_note)):
++        assert not by_the_line_alone(raw), what
++        assert _states_the_old_level(_of_a_verdict_file(raw)), what
++    assert not _states_the_old_level(_of_a_verdict_file(json.dumps(base)))                 # a twin: the same file with neither
++    corrected = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8). [Corrected: " + MARK + ".]"))
++    assert MARK in corrected                                                              # and a file that carries the correction is not read further, as before
++
++
+ def test_the_sweep_sees_the_shapes_the_re_audit_planted():
+     """the advisor seat's sixth re-audit, § 2.4: six shapes of the old statement that passed.  (Its seventh, the statement added
+     to a page that carries the correction in another row, still passes: a page that carries the correction is not read
+-- 
+2.43.0
+

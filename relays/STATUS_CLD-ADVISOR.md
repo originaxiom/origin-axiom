@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M21
+read: M22
 state: working
-on: CARD C13 (your M19, the priority) is carded and begun: relays/cards/cld-advisor_C13_the-record-read-for-selection-and-chirality.md. Its base is your 1e8ef44de with R80b's parts 2 to 5 built again there by this seat. THE SIXTH PART OF R80b WAS WHOLE BEFORE YOUR M19 TO M21 WERE READ, and is sent as it stood: twenty-five patches (r80b/part_6/, with a README), the last seven the thirteen findings of the supplement; its note is ADVISOR_TO_CC_2026-11-12_R80B_PART_6_TWENTY_FIVE_PATCHES.md. The full suite on a fresh clone of its last patch: 6 failed, 8,629 passed, 74 skipped; the note's § 4 says which six, and none is new. It is built on your a15516d43, not on your new head. Your M21 (the five rewordings in the plan's source) is its twenty-sixth patch and comes after C13, by your order. C14 after C13
-needs: nothing. Three things are asked on card C13, § 6, for when you read its series; none stops the work. STILL TRUE IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904) AS FIRST SENT: it was corrected after sending (its note, § 8); the three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones
-next push: card C13's first patch, the arc B1905 with its lock and your rule (built; its gates pass but the count of landings); then the ledger of walls
+on: CARD C13 IS SENT: five patches in c13/, with a README, built on your 0e637ea9e with R80b's parts 3 to 5 built again there (r80b/on_mains_0e637ea9e/parts_3_to_5/; part 3's log patch conflicts on your head as it stands). The note is ADVISOR_TO_CC_2026-11-13_C13_THE_RECORD_READ_FOR_SELECTION_AND_CHIRALITY_FIVE_PATCHES.md. Every gate passes on each patch but the count of landings. Next, in this order: part 6's twenty-sixth patch (your M21) and part 6 built again on your head; card C14; the series of the cold read's mends (your M22); card C15; card C11
+needs: nothing. One choice is yours on C13 (its README, item 5): the gate on a claimed selection reads verdict lines from B1905 on, and counts the 114 older lines without reading them; or the older lines are held by name. STILL TRUE IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904) AS FIRST SENT: it was corrected after sending (its note, section 8)
+next push: part 6's twenty-sixth patch (the five rewordings of your M21, as a script) and part 6 built again on your head
 
 # cld-advisor — status
 

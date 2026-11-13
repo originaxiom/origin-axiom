@@ -1,0 +1,69 @@
+From fb4497a9faca016aeac5fc446613abc917a4bcec Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 07:18:18 +0000
+Subject: [PATCH 13/27] R80b, part 3, patch 13 (cld-advisor, at main's word in
+ M14; Review 80, a reader's finding F11, WHICH MAIN HAS NOT CHECKED: it was
+ made again before it was mended): B862'S SCRIPT REFUSES A GRID WITH NO POINT.
+
+THE FINDING, MADE AGAIN. The function that enumerates the kernel on a grid refuses a grid that is not complete for the charges. A grid of 0, or a negative grid that is a multiple of what the charges need, passed that guard and enumerated no point: the kernel came back empty, without a word, where it holds the identity at the least. Run here: grids of 0, -6 and -12 each gave 0 elements and raised nothing.
+
+WHAT IS CHANGED. A grid below 1 is refused, and the refusal says why. A test asks it of 0, -6, -12 and -1, asks that the two older refusals still fire, and that the kernel on a grid of 6, 12 and 72 holds the identity. With the script of the commit before, the test fails: a grid of 0 is answered with a kernel of 0 elements.
+
+The tests that read B862 pass. 0 of 19.
+---
+ frontier/B862_global_form/global_form.py |  5 +++++
+ tests/test_b862_global_form.py           | 22 ++++++++++++++++++++++
+ 2 files changed, 27 insertions(+)
+
+diff --git a/frontier/B862_global_form/global_form.py b/frontier/B862_global_form/global_form.py
+index 8ce463e6f..0bbd66a64 100644
+--- a/frontier/B862_global_form/global_form.py
++++ b/frontier/B862_global_form/global_form.py
+@@ -48,6 +48,11 @@ def kernel_exact(grid=6, charges=(-2, 3)):
+     if c1 == 0 and c2 == 0:
+         raise ValueError("both charges are zero: every a is in the kernel, which is infinite, and no grid is complete")
+     need = math.gcd(3 * abs(c1), 2 * abs(c2))
++    # ADDED 2026-11-12 (Review 80; a reader's finding F11, not checked by main, made again here).  A grid of zero, or a negative
++    # grid that is a multiple of what the charges need, passed the guard below and enumerated no point: the kernel came back
++    # empty, without a word, where it holds the identity at the least.  A grid has at least one point.
++    if grid < 1:
++        raise ValueError("a grid of %d has no point: the kernel holds the identity at the least, and an empty grid finds nothing" % grid)
+     if grid % need:
+         raise ValueError("a grid of %d is not complete for the charges %r: an element of the kernel has a in (1/%d) of a turn" % (grid, charges, need))
+     ker = []
+diff --git a/tests/test_b862_global_form.py b/tests/test_b862_global_form.py
+index ddf979693..d697502a5 100644
+--- a/tests/test_b862_global_form.py
++++ b/tests/test_b862_global_form.py
+@@ -31,6 +31,28 @@ def test_the_kernel_is_computed_from_the_map():
+     assert len(other) == 1 and len(other) != len(ker)
+ 
+ 
++def test_a_grid_with_no_point_is_refused_and_not_answered_with_an_empty_kernel():
++    """Added 2026-11-12 (Review 80; a reader's finding F11, not checked by main, made again here).  kernel_exact(0), (-6) and
++    (-12) passed the guard on the grid's size, enumerated nothing and returned an empty kernel.  Each is refused now.  The
++    refusals that stood before, a grid that is not complete and two zero charges, still fire; a kernel is never empty."""
++    for grid in (0, -6, -12, -1):
++        try:
++            got = b2.kernel_exact(grid)
++        except ValueError as exc:
++            assert "has no point" in str(exc), grid
++        else:
++            raise AssertionError("a grid of %d was answered with a kernel of %d elements" % (grid, len(got)))
++    for grid, charges, says in ((5, (-2, 3), "is not complete"), (6, (0, 0), "both charges are zero")):
++        try:
++            b2.kernel_exact(grid, charges)
++        except ValueError as exc:
++            assert says in str(exc)
++        else:
++            raise AssertionError("not refused: %r" % ((grid, charges),))
++    for grid in (6, 12, 72):
++        assert any(all(x == 0 for x in g) for g in b2.kernel_exact(grid))        # the identity is always there
++
++
+ def test_the_ambiguity_and_the_source_are_named():
+     assert "1705.01853" in _F
+     assert "ℤ₆" in (_D / "FINDINGS.md").read_text(encoding="utf-8")
+-- 
+2.43.0
+
