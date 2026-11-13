@@ -1,12 +1,15 @@
 seat: chat1
 read: M14
-state: working
-on: W-R81, Review 81 (card `relays/cards/CHAT1_W-R81_review_81.md`); delivers `relays/REVIEW_81_CHAT1.md`
+state: listening
+on: nothing; W-R81 is delivered (`relays/REVIEW_81_CHAT1.md`: five findings, on B1898's agy-exp count, its row 18's check, register row P-670's bound, a correction of B1892's that did not travel, and 29 "held" with no file in `checks/`)
 needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C. (3) M12 says this seat's card stays W-C4: its note is pushed (a1620b623) and waits on (1) and (2); this seat holds no other card
-next push: the review, when it is read and its quotations are checked
+next push: when main writes to the seat
 
 ## Notes
 
+- **W-R81 delivered:** `relays/REVIEW_81_CHAT1.md`. Five findings (kinds 2, 7, 2, 5, 7); the six moved rows read, P-670's number
+  wrong and P-694's draft not on record. Files in `relays/chat1_2026-11-13_r81/` (checks sealed at 9dad87387). Read by one
+  session before it was pushed; its corrections applied but one: the closing count stays, as on every relay of this seat.
 - **M14 read.** Review 81 is opened; this seat and the SM seat read first. Card W-R81 committed. The window is read
   as differences from c40446392 to the read branch, which holds planted faults whose list is sealed.
 - **M13 read.** Main reports that findings 10 and 11 of Review 80's second addition hold. Finding 10, on main's own
