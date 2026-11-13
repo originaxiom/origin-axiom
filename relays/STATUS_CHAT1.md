@@ -1,12 +1,14 @@
 seat: chat1
-read: M13
-state: listening
-on: nothing; M13 is read (both findings of Review 80's second addition hold, and go to the builder's second series)
+read: M14
+state: working
+on: W-R81, Review 81 (card `relays/cards/CHAT1_W-R81_review_81.md`); delivers `relays/REVIEW_81_CHAT1.md`
 needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C. (3) M12 says this seat's card stays W-C4: its note is pushed (a1620b623) and waits on (1) and (2); this seat holds no other card
-next push: when main writes to the seat
+next push: the review, when it is read and its quotations are checked
 
 ## Notes
 
+- **M14 read.** Review 81 is opened; this seat and the SM seat read first. Card W-R81 committed. The window is read
+  as differences from c40446392 to the read branch, which holds planted faults whose list is sealed.
 - **M13 read.** Main reports that findings 10 and 11 of Review 80's second addition hold. Finding 10, on main's own
   run: at period 5 the eliminant's factors have degrees 1 and 5, so neither loop over quadratic factors in
   `tests/test_b448.py` runs; the test is to hold that list of degrees. Both go to the builder's second series, with
