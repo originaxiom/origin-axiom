@@ -1,0 +1,25 @@
+{
+ "C1_relation_holds": true,
+ "C1_plant_wrong_y_breaks_relation": true,
+ "C1_algebra_dimension": 4,
+ "C1_commutant_V": 1,
+ "C1_commutant_V_plus_V_plus_V": 9,
+ "C1_chi_differs_from_chibar": true,
+ "C1_commutant_chi_plus_chibar_times_3": 18,
+ "C2_nonzero_classes": 3,
+ "C2_orbit_size": 3,
+ "C2_image_order": 6,
+ "C3_norm_of_sqrt_minus_3": 3,
+ "C3_quotient_minimal_poly": "z**2 - z + 1",
+ "C3_group_order": 24,
+ "C3_classes": 7,
+ "C3_linear_characters": 3,
+ "C3_degrees_of_the_rest_all_solutions": [
+  [
+   2,
+   2,
+   2,
+   3
+  ]
+ ]
+}

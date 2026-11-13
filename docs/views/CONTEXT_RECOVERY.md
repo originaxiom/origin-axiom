@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1600 |
-| … PROVED | 1108 |
+| arcs with a verdict file | 1601 |
+| … PROVED | 1109 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
 | register points | 837 |
-| … QUEUED | 308 |
+| … QUEUED | 306 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 513 |
+| … DONE | 515 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1741 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
 | B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
 | B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
 | B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
@@ -42,7 +43,6 @@
 | B1890 | PROVED | THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs… |
 | B1889 | PROVED | THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no dat… |
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
-| B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE FOUR CHANNELS IN CLOSED FORM: EACH RESIDUE IS A PRODUCT OF TWO THETA CONSTANTS, AND EVERY EXACT ZERO OF THE FRAME'S DETERMINANT IS EXPLAINED (B1906; P-262 and P-268 paid; P-337, P-606, P-31…
 - S306p THE FRONT PAGE SPEAKS PLAINLY: EVERY CHECK IS CALLED INTERNAL TO THE PROJECT AND SAYS WHICH KIND IT IS, AND THE WORKING RECORD IS NAMED AS SUCH (card C14's second patch, by the builder, placed…
 - S306p REVIEW 81 IS OPENED, AT THE OWNER'S WAIVER THROUGH 60; ITS READERS ARE TESTED AGAINST FAULTS PLANTED IN THE COMMIT THEY READ; THE BUILDER'S CARD C13 IS ANSWERED (P-837; R80-12; a dated correcti…
 - S306p PART 2 OF THE BUILDER'S SECOND SERIES IS LANDED, TWELVE PATCHES ON B1881, B1895 AND B1897, AFTER MAIN'S CHECK AND A COLD READING; SIX REGISTER ROWS THAT WENT STALE TODAY ARE MOVED BEFORE IT (Re…
@@ -60,7 +61,6 @@
 - S306p THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER: PART 1 OF THE BUILDER'S SECOND SERIES IS LANDED, THREE PATCHES, AFTER MAIN'S CHECK AND A COLD READING (Review 80, the SM seat's findings 28 and 29 a…
 - S306p REVIEW 80'S ENTRY IS LANDED AS THE BUILDER SENT IT, AND MAIN MENDS SEVEN THINGS IN IT THAT ITS OWN CHECK AND A COLD READING FOUND; THE FIVE ITEMS AT THEIR THIRD CARRY ARE TAKEN UP AND NOT WAIVE…
 - S306p REVIEW 80 ENTERED: 100 FINDINGS; MAIN CHECKED 80 IN FULL AND ALL 80 HELD; 17 WERE LOOKED AT BY THEIR READER ALONE; 41 WAIT TO BE BUILT (B1898; P-833, P-834) (2026-11-12)
-- S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833) (2026-11-12)
 
 ## The latest campaign line
 

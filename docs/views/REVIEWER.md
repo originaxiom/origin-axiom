@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1600** |
-| words of findings prose | **1,418,670** |
+| research arcs with findings | **1601** |
+| words of findings prose | **1,421,455** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1600** (100.0 %) |
+| arcs carrying an authored verdict | **1601** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1108 |
+| PROVED | 1109 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1898`** (2697 words, 0 locks)  
-REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits) [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING. Its pattern was written for the verdict line as it read before main's mend of the same day, so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails. Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]. The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.  
-`B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md`
+**PROVED — `B1906`** (2785 words, 0 locks)  
+THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19.  
+`B1906_the_four_channels_in_closed_form_and_three_theorems_checked/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

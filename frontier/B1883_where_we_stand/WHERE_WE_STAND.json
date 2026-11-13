@@ -21,9 +21,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 96,
-  "debts_joined_to_nothing": 79,
-  "nodes": 288,
+  "debts": 94,
+  "debts_joined_to_nothing": 77,
+  "nodes": 286,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -228,11 +228,11 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 96,
+   "DEBT": 94,
    "LEAD": 137,
    "PROCESS": 79
   },
-  "open": 312,
+  "open": 310,
   "owner_calls_open": [],
   "points": 837
  },

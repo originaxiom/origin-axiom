@@ -1,0 +1,31 @@
+{
+ "id": "B1906",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1701",
+  "B1703",
+  "B1716",
+  "B298",
+  "B1228",
+  "B1859"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane: relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_FIVE_PURE_LOGIC_DEBT_CLOSURES_P355_P606_P618_P318_P604_P262_P268.md @ 5242c938, its Theorems A, C, D and E read through main's mask; none of its code run; every result here is main's own derivation and code"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel coupling (main's functions, kept in B1716); the figure-eight knot group's holonomy over Q(sqrt -3); the simply-laced simple Lie algebras of rank 1 to 8 at level 1",
+  "object": "the four channel kernels and their residues on every twist pair; the zero law of the residues and of det M on every line of order 1 to 12; B298's degree-2 statement; B1228's sigma = 1 statement",
+  "reach": "class",
+  "hypotheses": "the identity is derived by hand from classical theta-function steps and checked at 30 digits, not symbolically; the norm's two symmetries are proved in two lines each and measured to 3.6e-12; det M's zero law is computed on the lines of order 1 to 12 at three tau (two on Re tau = 0), and that it has no other zeros is numerical; P-268's 'if' direction is proved for every line it applies to, given the identity; Theorem D is not computed under the owner's hold on the targets; the agy lane's numbers were not compared, being behind the mask"
+ },
+ "claim_one_line": "THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19.",
+ "weave_or_thread": "weave (every charged sector on one fibre; every line of order <= 12)"
+}

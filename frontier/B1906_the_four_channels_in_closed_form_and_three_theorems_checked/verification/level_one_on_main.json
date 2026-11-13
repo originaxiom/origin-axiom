@@ -1,0 +1,247 @@
+{
+ "level_one": [
+  {
+   "algebra": "A1",
+   "c": "1",
+   "sigma": "1/6",
+   "det_C": 2,
+   "classes_found": 2,
+   "h": [
+    "0",
+    "1/4"
+   ],
+   "T_order": 24
+  },
+  {
+   "algebra": "A2",
+   "c": "2",
+   "sigma": "1/3",
+   "det_C": 3,
+   "classes_found": 3,
+   "h": [
+    "0",
+    "1/3",
+    "1/3"
+   ],
+   "T_order": 12
+  },
+  {
+   "algebra": "A3",
+   "c": "3",
+   "sigma": "1/2",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "3/8",
+    "3/8",
+    "1/2"
+   ],
+   "T_order": 8
+  },
+  {
+   "algebra": "A4",
+   "c": "4",
+   "sigma": "2/3",
+   "det_C": 5,
+   "classes_found": 5,
+   "h": [
+    "0",
+    "2/5",
+    "2/5",
+    "3/5",
+    "3/5"
+   ],
+   "T_order": 30
+  },
+  {
+   "algebra": "A5",
+   "c": "5",
+   "sigma": "5/6",
+   "det_C": 6,
+   "classes_found": 6,
+   "h": [
+    "0",
+    "5/12",
+    "5/12",
+    "2/3",
+    "2/3",
+    "3/4"
+   ],
+   "T_order": 24
+  },
+  {
+   "algebra": "A6",
+   "c": "6",
+   "sigma": "1",
+   "det_C": 7,
+   "classes_found": 7,
+   "h": [
+    "0",
+    "3/7",
+    "3/7",
+    "5/7",
+    "5/7",
+    "6/7",
+    "6/7"
+   ],
+   "T_order": 28
+  },
+  {
+   "algebra": "A7",
+   "c": "7",
+   "sigma": "7/6",
+   "det_C": 8,
+   "classes_found": 8,
+   "h": [
+    "0",
+    "7/16",
+    "7/16",
+    "3/4",
+    "3/4",
+    "15/16",
+    "15/16",
+    "1"
+   ],
+   "T_order": 48
+  },
+  {
+   "algebra": "A8",
+   "c": "8",
+   "sigma": "4/3",
+   "det_C": 9,
+   "classes_found": 9,
+   "h": [
+    "0",
+    "4/9",
+    "4/9",
+    "7/9",
+    "7/9",
+    "1",
+    "1",
+    "10/9",
+    "10/9"
+   ],
+   "T_order": 9
+  },
+  {
+   "algebra": "D4",
+   "c": "4",
+   "sigma": "2/3",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "1/2",
+    "1/2",
+    "1/2"
+   ],
+   "T_order": 6
+  },
+  {
+   "algebra": "D5",
+   "c": "5",
+   "sigma": "5/6",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "1/2",
+    "5/8",
+    "5/8"
+   ],
+   "T_order": 24
+  },
+  {
+   "algebra": "D6",
+   "c": "6",
+   "sigma": "1",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "1/2",
+    "3/4",
+    "3/4"
+   ],
+   "T_order": 4
+  },
+  {
+   "algebra": "D7",
+   "c": "7",
+   "sigma": "7/6",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "1/2",
+    "7/8",
+    "7/8"
+   ],
+   "T_order": 24
+  },
+  {
+   "algebra": "D8",
+   "c": "8",
+   "sigma": "4/3",
+   "det_C": 4,
+   "classes_found": 4,
+   "h": [
+    "0",
+    "1/2",
+    "1",
+    "1"
+   ],
+   "T_order": 6
+  },
+  {
+   "algebra": "E6",
+   "c": "6",
+   "sigma": "1",
+   "det_C": 3,
+   "classes_found": 3,
+   "h": [
+    "0",
+    "2/3",
+    "2/3"
+   ],
+   "T_order": 12
+  },
+  {
+   "algebra": "E7",
+   "c": "7",
+   "sigma": "7/6",
+   "det_C": 2,
+   "classes_found": 2,
+   "h": [
+    "0",
+    "3/4"
+   ],
+   "T_order": 24
+  },
+  {
+   "algebra": "E8",
+   "c": "8",
+   "sigma": "4/3",
+   "det_C": 1,
+   "classes_found": 1,
+   "h": [
+    "0"
+   ],
+   "T_order": 3
+  }
+ ],
+ "control_closed_forms_A_and_D": true,
+ "A1_sigma_one": [
+  "A6",
+  "D6",
+  "E6"
+ ],
+ "A2_sigma_one_and_three_primaries": [
+  "E6"
+ ],
+ "A3_SL2_Z4_order": 48,
+ "A3_SL2_Z4_involutions": 7,
+ "A3_2O_order": 48,
+ "A3_2O_elements_whose_square_is_1_other_than_1": 1
+}

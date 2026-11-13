@@ -4710,7 +4710,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 64,
+  "rank": 62,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-025": "QUEUED"
@@ -4734,7 +4734,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 65,
+  "rank": 63,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-030": "QUEUED"
@@ -4758,7 +4758,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 66,
+  "rank": 64,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-031": "QUEUED"
@@ -5214,34 +5214,10 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 95,
+  "rank": 93,
   "debt_class": "added on 2026-11-12 with the owner's word of that day (P-825)",
   "rows_live": {
    "P-253": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
-  "id": "P:262",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "B1701's 0:1:1 law and B1703's N∣3 zero are banked as computed laws used by later zero-law work (P-337, P-268).",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-262 — "
-   ]
-  ],
-  "rows": [
-   "P-262"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 61,
-  "debt_class": "an unverified premise or seat result under a banked structural result",
-  "rows_live": {
-   "P-262": "QUEUED"
   },
   "weave_or_thread": "n/a"
  },
@@ -5270,30 +5246,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:268",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "The order-12 electron-zero law (B1712/B1716) is cited by zero-law rows P-292/P-337 and the lepton analysis.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-268 — "
-   ]
-  ],
-  "rows": [
-   "P-268"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 62,
-  "debt_class": "an unverified premise or seat result under a banked structural result",
-  "rows_live": {
-   "P-268": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:310",
   "layer": "15 debts",
   "kind": "debt",
@@ -5310,7 +5262,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 63,
+  "rank": 61,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-310": "QUEUED"
@@ -5526,7 +5478,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 69,
+  "rank": 67,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-334": "QUEUED"
@@ -5766,7 +5718,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 67,
+  "rank": 65,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-492": "QUEUED"
@@ -5982,7 +5934,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 68,
+  "rank": 66,
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-571": "QUEUED"
@@ -6390,7 +6342,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 71,
+  "rank": 69,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-643": "QUEUED"
@@ -6414,7 +6366,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 72,
+  "rank": 70,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-646": "QUEUED"
@@ -6438,7 +6390,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 70,
+  "rank": 68,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-653": "QUEUED"
@@ -6462,7 +6414,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 73,
+  "rank": 71,
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-670": "QUEUED"
@@ -6486,7 +6438,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 75,
+  "rank": 73,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-687": "QUEUED"
@@ -6510,7 +6462,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 74,
+  "rank": 72,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-688": "QUEUED"
@@ -6534,7 +6486,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 76,
+  "rank": 74,
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-698": "QUEUED"
@@ -6558,7 +6510,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 77,
+  "rank": 75,
   "debt_class": "added at S306k (the web seat's open-book relay)",
   "rows_live": {
    "P-733": "QUEUED"
@@ -6582,7 +6534,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 78,
+  "rank": 76,
   "debt_class": "added at S306o (the advisor seat's audit, 2026-11-10)",
   "rows_live": {
    "P-757": "QUEUED"
@@ -6606,7 +6558,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 79,
+  "rank": 77,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-772": "QUEUED"
@@ -6630,7 +6582,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 80,
+  "rank": 78,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-773": "QUEUED"
@@ -6654,7 +6606,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 81,
+  "rank": 79,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-777": "QUEUED"
@@ -6678,7 +6630,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 82,
+  "rank": 80,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-781": "QUEUED"
@@ -6702,7 +6654,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 83,
+  "rank": 81,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-786": "QUEUED"
@@ -6726,7 +6678,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 84,
+  "rank": 82,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-804": "QUEUED"
@@ -6750,7 +6702,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 85,
+  "rank": 83,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-806": "QUEUED"
@@ -6774,7 +6726,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 86,
+  "rank": 84,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-808": "QUEUED"
@@ -6798,7 +6750,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 87,
+  "rank": 85,
   "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-810": "QUEUED"
@@ -6822,7 +6774,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 88,
+  "rank": 86,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-811": "QUEUED"
@@ -6846,7 +6798,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 89,
+  "rank": 87,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-812": "QUEUED"
@@ -6870,7 +6822,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 90,
+  "rank": 88,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-813": "QUEUED"
@@ -6894,7 +6846,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 91,
+  "rank": 89,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-816": "QUEUED"
@@ -6918,7 +6870,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 92,
+  "rank": 90,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-817": "QUEUED"
@@ -6942,7 +6894,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 93,
+  "rank": 91,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-820": "QUEUED"
@@ -6966,7 +6918,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 94,
+  "rank": 92,
   "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-821": "QUEUED"
@@ -6990,7 +6942,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 96,
+  "rank": 94,
   "debt_class": "added on 2026-11-12 with the owner's word of that day (P-825)",
   "rows_live": {
    "P-827": "QUEUED"

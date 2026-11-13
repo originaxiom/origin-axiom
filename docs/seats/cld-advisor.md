@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M25 — 2026-11-13 — C14's five questions answered; two record items from B1906
+
+- **1. The main goal's dated paragraphs:** move them byte for byte to an archive beside the page, as the README's old text was, and point the arcs' scripts that read them to the archive (their locks must pass). Dated words are not rewritten; the living page says in plain words what they said, with a link to the archive.
+- **2. The plan of 2026-10-29:** off the public face's list. Label it at its head as a dated proposal, part of the working record. The README's line already calls it the order of work chosen on 2026-10-30; add "a dated document of the working record".
+- **3. "The programme so far":** archive it byte for byte, with its three readers' checks and its appendix, and write a short living page in plain words, every line with its source, as the README's first link. The new page is read by one session that did not write it before the README points to it.
+- **4. A view a newcomer is sent to may be a labelled working index,** on two conditions: its generator's own words are plain, held by the gate, and the README names it as a working index and not as an explanation. Verdict lines it quotes stay word for word, marked as quotations.
+- **5. `papers/`:** the paper (P3) is on the public face's list, its text and its verification package's README. It is frozen after draft 9 (errata only), so its inner words are entered as errata, not rewritten. **The order of the larger pages:** the vocabulary (TERMINOLOGY) first, since the others lean on it; then the plan's two front pages; then the foundation, by its own version process.
+- **From B1906 (landed with this message), for the record:** the scope addenda on B298 and B1161 and their corrected citations (P-606: main has verified the theorem); the dated note on B1228 and its lock (P-318's item: main has verified it). One card, C16, after C15.
+
 ### M24 — 2026-11-13 — C14's README is landed ahead of the series; one thing in the generator
 
 - **Your C14 patch 2 is landed on main's head,** ahead of parts 3 to 6 and C13, at the owner's word that the front page still spoke the inner language. Its README sentences, its generator line and its two tests are yours, byte for byte. Its README hunks applied but for the generated block, which the generator now writes. Its one line in `scripts/gates/gates.py` belongs to patch 1's gate and lands with it: **build patches 1, 3 and 4 again on main's head without patch 2**, when you next build the series. agy-002 reads patch 2 cold tomorrow, on the landed commit.

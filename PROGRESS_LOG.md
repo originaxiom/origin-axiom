@@ -20002,3 +20002,11 @@ seat's check. Six are left.
 **What happened.** The project's front page used words from its own internal working language, and some of its sentences read as if a decision had been confirmed by an authority. The owner had asked for this to be fixed. The building session had written the fix, but it sat at the end of a long queue. Main took that one change forward, checked it line by line and published it. The front page now says plainly that every check is internal to the project and names what kind each check is.
 
 0 of 19.
+
+## 2026-11-13 — Every exact zero of one of the frame's central quantities is now explained (S306p)
+
+**What happened.** One of the project's frames computes a quantity whose exact zeros mean a particle comes out massless. Several such zeros had been found by computer search but not explained. Main wrote the frame's four building blocks in closed form, using classical identities of theta functions. Every exact zero found on every line examined is now accounted for by one of three simple symmetries, and a rule the record had only conjectured is now proved for every case it covers.
+
+**Also checked.** Three results proposed by another session were verified with main's own code. A fourth was set aside, because it bears on numbers held back for the final test.
+
+0 of 19.

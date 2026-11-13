@@ -1,0 +1,7 @@
+rect_1.3 agree 798 disagree 0 undefined 0 | max rel D where zero predicted 3.03e-13 | min elsewhere 4.05e-04 | largest norm spread within a class 3.54e-12
+   zero line counts: {'N=4 up': 6, 'N=4 down': 6, 'N=4 lep': 6, 'N=12 lep': 48, 'N=12 up': 16, 'N=12 down': 16}
+rect_2.1 agree 798 disagree 0 undefined 0 | max rel D where zero predicted 9.72e-14 | min elsewhere 6.79e-05 | largest norm spread within a class 3.61e-12
+   zero line counts: {'N=4 up': 6, 'N=4 down': 6, 'N=4 lep': 6, 'N=12 lep': 48, 'N=12 up': 16, 'N=12 down': 16}
+generic agree 798 disagree 0 undefined 0 | max rel D where zero predicted 9.10e-14 | min elsewhere 9.83e-05 | largest norm spread within a class 2.60e-12
+   zero line counts: {'N=4 up': 6, 'N=4 down': 6, 'N=4 lep': 6, 'N=12 lep': 48}
+P-292's family at Re tau = 0 ([lines, of which D = 0]): {'rect_1.3 up': {'lines_12a_odd': 32, '12b_odd': [16, 16], '12b_even': [16, 0]}, 'rect_1.3 down': {'lines_12a_odd': 32, '12b_odd': [16, 16], '12b_even': [16, 0]}, 'rect_2.1 up': {'lines_12a_odd': 32, '12b_odd': [16, 16], '12b_even': [16, 0]}, 'rect_2.1 down': {'lines_12a_odd': 32, '12b_odd': [16, 16], '12b_even': [16, 0]}}

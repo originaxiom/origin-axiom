@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 837: 312 open (queued work, leads, and questions not yet decided), 525 closed |
+| arcs with a verdict | 1601: 1109 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 837: 310 open (queued work, leads, and questions not yet decided), 527 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE FRONT PAGE SPEAKS PLAINLY: EVERY CHECK IS CALLED INTERNAL TO THE PROJECT AND SAYS WHICH KIND IT IS, AND THE WORKING RECORD IS NAMED AS SUCH… |
+| the last landing | S306p THE FOUR CHANNELS IN CLOSED FORM: EACH RESIDUE IS A PRODUCT OF TWO THETA CONSTANTS, AND EVERY EXACT ZERO OF THE FRAME'S DETERMINANT IS EXPLAINE… |
 <!-- STATE:END -->
 
 ## Start here

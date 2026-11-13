@@ -1,0 +1,25 @@
+{
+ "E0_identity_max_rel": "1.25e-29",
+ "E0_plant_no_half_b": "2.15",
+ "E0_plant_e_of_y": "2.0",
+ "E0_plant_no_half_in_a_minus": "5.09",
+ "E1_residues_and_sum_R2_max_rel": "2.59e-30",
+ "E2_residue_zero_law_agree_disagree": [
+  3192,
+  0
+ ],
+ "E2_max_rel_R_where_zero_predicted": "2.93e-25",
+ "E2_min_rel_R_elsewhere": "0.0133",
+ "E3_qL_plus_qR": {
+  "up": -3,
+  "down": 3,
+  "lep": 3
+ },
+ "E3_order3_lines_R1_zero_in_every_sector": true,
+ "E3_tied_lines": 27,
+ "E3_tied_channel_zero_by_the_law": true,
+ "E4_law_line_sectors": 66,
+ "E4_pairs_with_ratio_plus_minus_i": 132,
+ "E4_pairs_not": 0,
+ "E4_pairs_where_both_residues_vanish": 0
+}

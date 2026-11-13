@@ -1,0 +1,8 @@
+E0 identity, 40 points x 4 channels: max rel 1.25e-29
+  plant no_half_b max rel 2.15 (must be large)
+  plant e_of_y max rel 2.0 (must be large)
+  plant no_half_in_a_minus max rel 5.09 (must be large)
+E1 residues vs contour, and sum R_s^2: max rel 2.59e-30
+E2 the zero law of each residue, lines of order 1-12, 3 sectors, 4 channels: agree 3192 disagree 0 | max where zero 2.93e-25 | min elsewhere 0.0133
+E3 q_L + q_R: {'up': -3, 'down': 3, 'lep': 3} | order-3 lines: R_1 = 0 in every sector: True | 27 tied lines: the tied channel's residue is zero by the law in every sector: True
+E4 P-268's law, exactly: law line-sectors 66 | channel pairs with R_s'/R_s = +-i exactly: 132 | not: 0 | (of which both residues zero: 0 )
