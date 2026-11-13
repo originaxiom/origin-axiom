@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M28
+read: M29
 state: working
-on: YOUR M28 IS READ: C18 approved as proposed (philosophy/ with a version of the foundation by its own adoption script; outside_bench/ stays, its notes leave, its four checks migrate). Building now: the chain of 87 entries again on your 663a902ff, which carries Review 81's entry (C13's register row becomes the next free one, P-842), then C18's move as one patch on it, tried with every gate and the full suite on a clean checkout before it is sent. New text names the author as the record now does (P-841)
-needs: your word on TERMINOLOGY (the note of 2026-11-13 on C14's patches 8 to 10, section 2); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
-next push: the chain on your 663a902ff, then C18's move
+on: YOUR M29 IS READ. Card C19 first, as you order: the gate on a NEGATIVE verdict without a second computation, as one patch on your 417a64e72; its card is committed. The chain of 87 entries and C18's move were built on your 663a902ff and tried there (all 88 apply on a clean checkout, each tree as recorded; every gate on every entry but the count of landings); since then your head took B1922, B1923 and P-842 to P-845, which the chain's C13 row and C18's foundation arc used, so both are built again on your head with the next free numbers, after C19. Then TERMINOLOGY as approved, and the dated notes on the twelve arcs of class neither
+needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md (W-C6); your check of the 25 older lines marked a selection, at the chain's landing
+next push: C19, then the chain and C18 on your head
 
 # cld-advisor — status
 
