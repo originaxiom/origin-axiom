@@ -1,0 +1,17 @@
+=== A2-S-R80b-p2, part b: unseen plants on the mended locks; gates on the base and on main's head; apply on main's head ===
+
+=== Unseen Adversarial Plants on Part 2 Mended Locks ===
+  P2-F9-ADV-1 (a second old phrase, uncorrected, written just before the corrected one: the one correction 400 characters on excuses both): _uncorrected=(0, 2) -> EVADED (0 uncorrected!)
+  P2-F9-ADV-2 (live old phrase placed in JSON dict key): _uncorrected=(0, 1) -> EVADED (dict keys invisible to _texts_of!)
+  P2-F5-ADV-1 (A_numbers['W'][2] changed from int 1 to bool True): EVADED ([-3, -14, True, 3] == [-3, -14, 1, 3] passed!)
+  P2-F5-ADV-2 (all 65 bool True checks replaced by int 1): EVADED (all 65 bool True checks replaced by int 1 passed!)
+  P2-F5-ADV-3 (B_numbers['own']['(6)'] str '3.61803398875' -> float 3.618034): EVADED (exact mpmath str '3.61803398875' replaced by truncated float 3.618034 passed!)
+   [FAILS] planted by the lock: a false thing -- the detail
+   [ok] planted by the lock: a true thing
+  P2-F2-ADV-1 (probe-name-aware check() forcing real checks True): _check_records_what_it_is_passed=True -> EVADED behavioral helper (caught only by Patch 1 digest)
+  P2-P10-ADV-1 (mutating '88 of 120' -> '120 of 120' and '17/12' -> '19/12' in B1895 §7 note): EVADED (B1895 lock rc=0: 11 passed in 6.04s)
+[GATES] on main's bf76e5ab1, the base, run today: rc=0; failing gates: none
+[GATES] on main's head, run today: rc=0; failing gates: none
+[ON HEAD 1e8ef44de] all 12 rebuilt Part 2 patches apply by git am -3 on main's current head
+
+=== A2-S-R80b-p2 PART B COMPLETE (EXIT 0) ===

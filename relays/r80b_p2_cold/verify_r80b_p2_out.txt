@@ -1,0 +1,31 @@
+=== A2-S-R80b-p2 Cold-Read Verification (rebuilt Part 2 at bc71f9373 on bf76e5ab1 + Part 1) ===
+
+=== Declared COI Classification Across All 12 Patches (M17) ===
+  0001_the_lock_of_b1881_holds_the_script_whole.patch: NON-COI (F1, F3, F4 on B1881 lock)
+  0002_the_scripts_check_function_is_called.patch: NON-COI (F2 on B1881 lock)
+  0003_the_made_with_file_is_held_and_every_value_is_read.patch: NON-COI (F5 on B1881 lock)
+  0004_two_docstrings_say_three_planted_lines.patch: NON-COI (SM-31 on B1881 lock)
+  0005_the_first_section_of_b1881_is_noted.patch: NON-COI (SM-30 on B1881 §1)
+  0006_fifteen_tests_and_six_places_said_fourteen.patch: MIXED: B1881 lock comments audited in full; B1895/B1897/P-822/harvest-1733 lines on agy-002's delivery left aside on substance
+  0007_b1895_says_that_its_reader_ran_its_plants.patch: COI LEFT ASIDE ON SUBSTANCE (SM-20: records agy-002's plant run on B1895 & harvest row 1730; mechanical scope & attribution only)
+  0008_a_sentence_credited_to_b1895_that_it_does_not_hold.patch: COI LEFT ASIDE ON SUBSTANCE (SM-21: touches docs/seats/agy-002.md, B1897, harvest row 1733; mechanical scope & attribution only)
+  0009_the_two_verdict_lines_name_no_session.patch: COI LEFT ASIDE ON SUBSTANCE (F8: removes agy-002's name from B1895/B1897 verdict lines; mechanical scope & attribution only)
+  0010_four_things_computed_in_b1895s_lock.patch: MIXED: SM-22, SM-24, two derivations & b1895_probes lock code audited in full; prose judging agy-002's row A1 (SM-23) left aside
+  0011_a_correction_in_a_verdict_file_excuses_only_its_own_words.patch: NON-COI (F9 generic JSON/page sweep in B1895 lock)
+  0012_two_things_owed_have_a_register_row.patch: COI LEFT ASIDE ON SUBSTANCE (SM-25: B1897 §4 / P-822 -> P-835, P-836; mechanical scope & unchecked-by-main attribution verified)
+
+[ATTR] All 4 unchecked rows (SM-22, SM-25, SM-30, F9) explicitly marked 'not checked by main' in commit messages, pages, locks, and P-835/P-836.
+[ATTR] Non-landed cover note 'reproduced by you' hits: [(113, '| the rows you checked | reproduced by you, by your table; each made again here before it was mended |')]
+[IN-PLACE] B1898/verification/checks/plants_b1881_third.py run where committed: rc=1, last line='StopIteration'
+
+[BEFORE P2] plants_b1881_third.py: the two controls behave: True; of the five plants, the lock passes: 5
+[TREE] Applied all 12 rebuilt Part 2 patches cleanly onto bf76e5ab1 + Part 1; tree == 59e8d96a141d2c6fe74290b73fbf7552fa49a968
+[LOCK] B1881 lock after Part 2: 17 passed in 32.81s
+[LOCK] B1895 lock after Part 2: 11 passed in 5.99s
+[LOCK] B1897 lock after Part 2: 4 passed in 1.12s
+[AFTER P2]  plants_b1881_third.py: the two controls behave: True; of the five plants, the lock passes: 0
+[PROBES] main's b1895_probes.py matches kept JSON exactly (1332, 358/362/0, 120/88, 3378 & 1.4866 at (1,1,2,2)).
+[GATES] Clean Part 2 checkout gates rc=1; failing gates: ['FAIL  point-debt']
+[NEXT] the unseen plants, the gates on the base and on main's head, and the apply on main's head: verify_r80b_p2_b.py
+
+=== A2-S-R80b-p2 VERIFICATION COMPLETE (EXIT 0) ===

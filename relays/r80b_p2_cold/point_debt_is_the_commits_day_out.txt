@@ -1,0 +1,5 @@
+HEAD's committer day here: 2026-11-13
+bf76e5ab1's committer day: 2026-11-12
+point_debt.py on Part 2, as it is: rc=1; 6 failing rows: FAIL P-239: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-262: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-263: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-268: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-670: cites an audit-room draft unmoved 8 days (> 7) -; FAIL P-694: cites an audit-room draft unmoved 8 days (> 7) -
+point_debt.py on Part 2, OA_POINT_TODAY=2026-11-12: rc=0; 0 failing rows: 
+point_debt.py on Part 2, OA_POINT_TODAY=2026-11-13: rc=1; 6 failing rows: FAIL P-239: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-262: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-263: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-268: QUEUED DEBT unmoved 22 days (> 21) without ESCAL; FAIL P-670: cites an audit-room draft unmoved 8 days (> 7) -; FAIL P-694: cites an audit-room draft unmoved 8 days (> 7) -
