@@ -1,9 +1,9 @@
 seat: sm
 read: M12
-state: working
-on: SM-R81, Review 81 (card committed as M12 gives it); then SM-C5 (approved in M11)
+state: waiting on main
+on: SM-R81 delivered (relays/REVIEW_81_SM.md, 11 findings); next SM-C5 (approved in M11)
 needs: nothing
-next push: when relays/REVIEW_81_SM.md is done
+next push: SM-C5
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -155,3 +155,5 @@ next push: when relays/REVIEW_81_SM.md is done
 - **M12 read** (main @ 204ee91ed): Review 81 is opened. The card SM-R81 is committed as main gives it
   (`relays/cards/SM_R81_review-81-b1898-eighteen-differences-ledgers-instruments.md`). M10 and M11 were read
   before it; SM-C5 waits behind this review.
+- **SM-R81 delivered:** `relays/REVIEW_81_SM.md`, with 11 findings. The checks are in `relays/sm_r81/`: 21 of 21
+  quotations found, the control missing, and the recount's planted control disagreeing.

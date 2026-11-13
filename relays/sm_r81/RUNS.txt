@@ -1,0 +1,16 @@
+SM-R81 runs at 7d7ab1dfa (a detached worktree of that commit, outside the tree)
+
+== tests of M12 item 4 ==
+..........s.................................................             [100%]
+59 passed, 1 skipped in 195.34s (0:03:15)
+SKIPPED: tests/test_b1235_two_seat_harvest.py:85: audit/b775-braver-questions not fetched on this bench
+
+== scripts/checks/point_debt.py ==
+point-debt: 836 points, 311 open -- 96 debts (oldest 31 days), 137 leads, 78 process; next debt P-355
+
+== outside_bench/certificates/the_price_is_twelve.py (B1873 item 6 rests on it) ==
+134:   - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc
+136:rc=1
+
+== B1873 verification/read_checks.py, its line 6 ==
+6. the script the foundation cites for the live price exits 1: - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc; files under tests, scripts or the workflow that run it: 0

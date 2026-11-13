@@ -1,0 +1,19 @@
+{
+ "retraction rows": {
+  "38d2a36dc": 79,
+  "0dda7b472": 79,
+  "738be0e5f~1": 79,
+  "738be0e5f": 96,
+  "c40446392": 96
+ },
+ "control (header filter dropped) at 0dda7b472": 82,
+ "control disagrees": true,
+ "P-670 bound": {
+  "78edf8694": [
+   "⁻³¹"
+  ],
+  "7d7ab1dfa": [
+   "⁻³³"
+  ]
+ }
+}
