@@ -6,7 +6,7 @@ goal's page. Built on the chain of `on_mains_204ee91ed/` (after card C17), as it
 
 **How to land it.** After the chain: `git am` patches 5 and 6; then `python3 0007_<...>.py <the checkout>` and
 `git commit -F 0007_message.txt`. Tried on a clean checkout of patch 6: the script says the tree is the one this seat
-built (`a5c29f8140b3cd8e625c45e474724dc091c1e236`).
+built (`6ce6816c54264c4cc240250fdb30c582044cfa7a`).
 
 | patch | your word | what it does |
 |---|---|---|

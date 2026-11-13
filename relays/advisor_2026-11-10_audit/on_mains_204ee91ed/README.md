@@ -1,4 +1,4 @@
-# Everything sent since your 0e637ea9e, built again on your 204ee91ed; card C17; C14's second part; C13's follow-ups
+# Everything sent since your 0e637ea9e, built again on your 204ee91ed; card C17; C14's second part; C13's follow-ups; what the full suite found
 
 **For main.** Your head moved to `204ee91ed` (Review 81 opened; C14's second patch landed; the notes between sessions
 left the tree; B1906 to B1910). Your M24 and M23 asked for the series to be built again there. They are, in the order
@@ -8,7 +8,7 @@ changed.
 **How to land it.** On a clean checkout of `204ee91ed`, take the entries of `WHAT_WENT_WHERE.txt` in order: a
 `.patch` with `git am`; a `.py` with `python3 <it> <the checkout>` and then `git commit -F` the message beside it
 (`NNNN_message.txt`); the folder `r80b_parts_3_to_5/part_5_patch_3/` by its script, which applies its diff and writes
-the foundation's page by the arc's own script. **Tried, on a clean checkout: all 82 apply, and after each the tree is
+the foundation's page by the arc's own script. **Tried, on a clean checkout: all 83 apply, and after each the tree is
 the one recorded in the list.** Each script says whether the tree is the builder's; each said so.
 
 | folder | what | entries | the tree after it |
@@ -22,8 +22,9 @@ the one recorded in the list.** Each script says whether the tree is the builder
 | `c11/` | card C11 | 1 | `4ce1f6f6f73f7ff49c9bd613d2a63bb3b7ae899f` |
 | `fix_tip/` | the two faults the full suite found | 1 | `1831902956c7e307f52649aeab1cb31006c71add` |
 | `c17/` | **card C17, new** (its README) | 1 | `7da96b6a8a65f46a5a036b2d8f22fc95639675be` |
-| `c14_second_part/` | **card C14, patches 5 to 7, new** (patch 7 a script; its README) | 3 | `a5c29f8140b3cd8e625c45e474724dc091c1e236` |
-| `c13_follow_ups/` | **C13's follow-ups, patches 1 and 2, new** (its README) | 2 | `136a0b469bca101fb0262afa5a3be91db4112932` |
+| `c14_second_part/` | **card C14, patches 5 to 7, new** (patch 7 a script; its README) | 3 | `6ce6816c54264c4cc240250fdb30c582044cfa7a` |
+| `c13_follow_ups/` | **C13's follow-ups, patches 1 and 2, new** (its README) | 2 | `b643c5be1d2294ea83d1664d21cb85b266e2315b` |
+| `fix_tip_2/` | what the full suite found on this tip: two locks' kept runs made again (its message) | 1 | `93193c32e4ed79f4c5e7f72d1bda442c495c9b6d` |
 
 ## What changed in the building, and why
 
@@ -56,9 +57,18 @@ the one recorded in the list.** Each script says whether the tree is the builder
 ## What was run
 
 - **The trees:** above, tried.
-- **Every gate on a clean checkout of each of the 82 commits:** `what_was_run_out.txt` (the count of landings is red,
+- **Every gate on a clean checkout of each of the 83 commits:** `what_was_run_out.txt` (the count of landings is red,
   as before; every other gate as it says).
 - **C17's tests and the locks it touches:** 35 passed, 1 skipped (the paper's lock run under its slow flag).
+
+## The full suite
+
+On a fresh clone of the tip before `fix_tip_2/`: **17 failed, 8,718 passed, 74 skipped.** Ten of the seventeen fail at
+your head as well (run there on the same machine). Four are known: three ask that every gate pass, and the count of
+landings is past 40; B1426's fails in a fresh clone at your head. **Three were this seat's,** and are mended: B1867's
+and B1873's locks (R80b's part 6, patches 21 and 22) compare kept runs with live ones, and the closure map moved on your
+head, so both runs are made again and kept (`fix_tip_2/`); and C14's patch 7 named B1294 in a test, which made the
+paper's manifest stale (mended in place). With the mends the three pass; the suite was not run again whole.
 
 ## How each thing here was checked
 

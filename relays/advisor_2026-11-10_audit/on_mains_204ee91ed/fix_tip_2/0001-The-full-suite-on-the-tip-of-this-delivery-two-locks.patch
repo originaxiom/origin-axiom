@@ -1,0 +1,65 @@
+From b0a6711ee206c9d20fead3907a6936caea9cd6f7 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:57:16 +0000
+Subject: [PATCH] The full suite on the tip of this delivery: two locks of
+ R80b's part 6 compare their kept runs with live ones, and the closure map
+ moved on main's head; both runs are made again and kept (cld-advisor; after
+ C13's follow-ups)
+
+The full suite on a fresh clone of this delivery's tip (main's 204ee91ed with the 82 entries): 17 failed, 8,718 passed,
+74 skipped. Ten fail at main's head as well (run there on the same machine). Four are known: three ask that every gate
+pass, and the count of landings is past 40; B1426's fails in a fresh clone at main's head. Three were this seat's:
+
+ONE AND TWO (mended here). R80b's part 6, patches 21 and 22, made B1867's and B1873's locks compare the kept run of
+their scripts with a live run, line by line; B1867's lock says what that costs: "when the map changes, the script is
+run again and its output kept, as main did." The map moved on main's head (288 nodes to 285; debts joined to nothing 79
+to 77, as main closed P-321 and P-747), so each lock found two lines that differ (B1867: lines 1 and 2; B1873: lines 1
+and 11, the eleventh the same count). Both scripts are run again and their output kept:
+  - B1867 verification/line_or_loop_run.txt: the map's counts (288 nodes, 286 edges to 285, 285; bears-on 4 to 3);
+  - B1873 verification/read_checks_run.txt: lines 1 and 7 (93, 16, 77); line 6, which ends in what another script
+    prints on failure and which the lock compares only up to its colon, now carries this machine's words.
+The arcs' tests: 10 passed. Nothing else changes; the pages that quote the counts of their day keep them.
+
+THREE (mended in place, C14's patch 7): its test named B1294 while checking the archived page, and the paper's
+verification manifest counts every test that names a record it lists, so the manifest was stale. The test checks the
+archived sentence without the arc's name; the paper's lock passes.
+
+0 of 19.
+---
+ .../verification/line_or_loop_run.txt                       | 4 ++--
+ .../verification/read_checks_run.txt                        | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
+index a67f83d73..2ac11f6c3 100644
+--- a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
++++ b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
+@@ -1,5 +1,5 @@
+-the map: 288 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
+-edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 4, reads 2, requires 39, same-as 2
++the map: 285 nodes, 285 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
++edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 3, reads 2, requires 39, same-as 2
+   of a determining kind (answers, follows-from, candidate-for): 1
+ every edge of a determining kind on the map (8):
+   E:J5      (missing-join, layer 8) --candidate-for--> W:T       (theorem, layer 3)
+diff --git a/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt b/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
+index 576500447..091ae8eb4 100644
+--- a/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
++++ b/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
+@@ -1,4 +1,4 @@
+-1. debts on the map: 96; joined to a node by an edge: 17; joined to nothing: 79 (the read, one debt earlier: 79, 17, 62)
++1. debts on the map: 93; joined to a node by an edge: 16; joined to nothing: 77 (the read, one debt earlier: 79, 17, 62)
+ 2. packages the comparison does not wait on: [], holding 0 findings (the read, before the repair: six packages, 31 findings)
+    findings that bear on the repository as a whole: 34; every one is in a package upstream of the sealed card: True
+    the sealed card now waits on the suite and on the comparison's own instruments: True
+@@ -7,5 +7,5 @@
+    filed by content and not by the audit's letter: X3 in WP-0.12, X4 in WP-0.11, W6 and W7 in WP-1.6
+ 5. the budget: 39 choices, 47 items by kind {'axiom': 9, 'identification': 7, 'bit': 9, 'discrete': 16, 'real': 5, 'ansatz': 1}; the charge premise at level five is typed {'bit': 1, 'discrete': 1}
+    routes: {'UNTOUCHED': 11, 'FORCING ARGUED': 2, 'PRESSED': 3, 'ONE CLAUSE SHORT': 3, 'BACK-EDGE NAMED': 6, 'ADMITTED': 4, 'DICTIONARY': 6, 'KEPT': 3, 'RIGID': 1}; an exit with no objection on the page: 9 (the read: 8, of which 5 are back-edges named and not built)
+-6. the script the foundation cites for the live price exits 1: (no failure line); files under tests, scripts or the workflow that run it: 0
+-7. still not joined to the map, and registered: 79 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])
++6. the script the foundation cites for the live price exits 1: - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc; files under tests, scripts or the workflow that run it: 0
++7. still not joined to the map, and registered: 77 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])
+-- 
+2.43.0
+

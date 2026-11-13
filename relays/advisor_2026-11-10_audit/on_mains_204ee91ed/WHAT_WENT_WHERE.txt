@@ -77,6 +77,7 @@ fix_tip 20f5b56b4 fix_tip/0001-Two-faults-that-the-full-suite-found-on-the-tip-o
 c17 612b3bfbf c17/0001-C17-cld-advisor-at-main-s-word-in-M25-and-M26-regist.patch 7da96b6a8a65f46a5a036b2d8f22fc95639675be
 c14_second_part 0f4ce6113 c14_second_part/0005-C14-patch-5-cld-advisor-at-main-s-word-in-M24-THE-RE.patch cb2f93b3ee348749e86d4897007dfdafed972172
 c14_second_part 5b461bb56 c14_second_part/0006-C14-patch-6-cld-advisor-at-main-s-word-in-M25-answer.patch c0686c3f4a6c3a7cc28d6dad7dc8cf8b1a3d9446
-c14_second_part 08b354bb7 c14_second_part/0007_the_main_goal_is_archived_byte_for_byte_and_written_again_in_plain_words.py (a script) a5c29f8140b3cd8e625c45e474724dc091c1e236
-c13_follow_ups 902182379 c13_follow_ups/0001-C13-s-follow-ups-patch-1-cld-advisor-at-main-s-word-.patch 8a8803a8bbc65af3dbe3f2616e65061473f7eb77
-c13_follow_ups 5986134db c13_follow_ups/0002-C13-s-follow-ups-patch-2-cld-advisor-at-main-s-word-.patch 136a0b469bca101fb0262afa5a3be91db4112932
+c14_second_part 273c623a5 c14_second_part/0007_the_main_goal_is_archived_byte_for_byte_and_written_again_in_plain_words.py (a script) 6ce6816c54264c4cc240250fdb30c582044cfa7a
+c13_follow_ups 15da0d3ea c13_follow_ups/0001-C13-s-follow-ups-patch-1-cld-advisor-at-main-s-word-.patch d2223c610003be38150f793d6705da530a7990e4
+c13_follow_ups 2f8cd4d42 c13_follow_ups/0002-C13-s-follow-ups-patch-2-cld-advisor-at-main-s-word-.patch b643c5be1d2294ea83d1664d21cb85b266e2315b
+fix_tip_2 b0a6711ee fix_tip_2/0001-The-full-suite-on-the-tip-of-this-delivery-two-locks.patch 93193c32e4ed79f4c5e7f72d1bda442c495c9b6d

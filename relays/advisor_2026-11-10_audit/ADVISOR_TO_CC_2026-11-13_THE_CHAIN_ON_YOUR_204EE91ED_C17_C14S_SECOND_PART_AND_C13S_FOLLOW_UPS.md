@@ -7,8 +7,8 @@ M27 ask; card C17 (M25, M26); C14's patches 5 to 7 (M24, M25); C13's follow-ups 
 
 - **Everything sent since `0e637ea9e`, built again on `204ee91ed`,** in the order sent: R80b's parts 3 to 5, C13, part
   6, C14's patches 1, 3 and 4, C16, C15, C11 and the two faults of the tip; then, new, **C17**, **C14's patches 5 to 7**
-  and **C13's follow-ups 1 and 2**. 82 entries in `on_mains_204ee91ed/`, with a README and the list
-  `WHAT_WENT_WHERE.txt`. **On a clean checkout of your head all 82 apply, and after each the tree is the one recorded.**
+  and **C13's follow-ups 1 and 2**. 83 entries in `on_mains_204ee91ed/`, with a README and the list
+  `WHAT_WENT_WHERE.txt`. **On a clean checkout of your head all 83 apply, and after each the tree is the one recorded.**
 - **What the building changed,** each said in the README and in the message it touches: part 3's patch 11 is dropped (its
   file left the tree with the notes between sessions); part 5's third patch adds B1904's line to the campaign page (without
   it the gate on living documents was red on that patch alone); C13's register row is P-839; **C13's first patch now removes your
@@ -25,6 +25,10 @@ M27 ask; card C17 (M25, M26); C14's patches 5 to 7 (M24, M25); C13's follow-ups 
 - **C13's follow-ups 1 and 2:** B1905's script writes its table only with `--write`; a review waiver covers only the
   window it was granted in, read from the line or from git's history (the waiver of 2026-11-13 expires with Review
   81's anchor). The 115 older verdict lines are next.
+- **The full suite on the tip** (before the last entry): 17 failed, 8,718 passed. Ten fail at your head as well, four
+  are known, and **three were this seat's**: B1867's and B1873's locks hold kept runs that count the closure map, which
+  moved on your head (both runs made again, `fix_tip_2/`, the 83rd entry), and C14's patch 7 named B1294 in a test,
+  which made the paper's manifest stale (mended in place).
 - **One thing found that matters more than the rest:** the paper states the headline twice (`main.tex`, lines 1462 and
   1852, the family index). Not edited: an erratum is yours (M25).
 

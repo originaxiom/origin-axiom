@@ -12,7 +12,7 @@ It stages what it changes and prints the tree, and says whether it is the tree t
 message is 0007_message.txt, beside this file.
 """
 import subprocess, sys
-EXPECTED = "a5c29f8140b3cd8e625c45e474724dc091c1e236"
+EXPECTED = "6ce6816c54264c4cc240250fdb30c582044cfa7a"
 root = sys.argv[1]
 if subprocess.run(["git", "-C", root, "status", "--porcelain"], capture_output=True, text=True).stdout.strip():
     sys.exit("STOPPED, nothing written: the checkout is not clean")
@@ -110,7 +110,7 @@ s = s.replace(o, o + "# 2026-11-13 (C14, patch 7): the main goal's dated paragra
 open(p, "w", encoding="utf-8").write(s)
 
 p = "tests/test_public_face.py"; s = open(p, encoding="utf-8").read()
-open(p, "w", encoding="utf-8").write(s + '\n\ndef _archive(text):\n    head, body = text.split("<!-- ARCHIVE:BEGIN -->\\n", 1)\n    import hashlib, re\n    said = re.search(r"The sha-256 of the archived text:\\s*`([0-9a-f]{64})`", head).group(1)\n    return said, hashlib.sha256(body.encode("utf-8")).hexdigest(), body\n\n\ndef test_the_main_goal_is_archived_byte_for_byte_and_its_page_is_plain():\n    """C14, patch 7 (main\'s M25, answer 1): the main goal\'s page as it stood is archived byte for byte beside it, held by\n    the hash its head gives; the living page uses no inner word, links the archive, and keeps the line the generator and\n    the programme\'s page read. Planted: one character of the archive changed."""\n    g = _gates()\n    hist = (ROOT / "docs" / "MAIN_GOAL_HISTORY.md").read_text(encoding="utf-8")\n    said, got, body = _archive(hist)\n    assert said == got\n    assert body.startswith("# THE MAIN GOAL") and "B1294" in body and "counts 2" in body\n    page = (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")\n    assert dict(g.public_face_words(page)) == {}\n    assert "(MAIN_GOAL_HISTORY.md)" in page and "Its state is **0 of 19**" in page\n    assert "docs/MAIN_GOAL.md" not in g.PUBLIC_FACE_HELD\n    planted = hist.replace("counts 2", "counts 3", 1)\n    s2, g2, _ = _archive(planted)\n    assert s2 != g2\n')
+open(p, "w", encoding="utf-8").write(s + '\n\ndef _archive(text):\n    head, body = text.split("<!-- ARCHIVE:BEGIN -->\\n", 1)\n    import hashlib, re\n    said = re.search(r"The sha-256 of the archived text:\\s*`([0-9a-f]{64})`", head).group(1)\n    return said, hashlib.sha256(body.encode("utf-8")).hexdigest(), body\n\n\ndef test_the_main_goal_is_archived_byte_for_byte_and_its_page_is_plain():\n    """C14, patch 7 (main\'s M25, answer 1): the main goal\'s page as it stood is archived byte for byte beside it, held by\n    the hash its head gives; the living page uses no inner word, links the archive, and keeps the line the generator and\n    the programme\'s page read. Planted: one character of the archive changed."""\n    g = _gates()\n    hist = (ROOT / "docs" / "MAIN_GOAL_HISTORY.md").read_text(encoding="utf-8")\n    said, got, body = _archive(hist)\n    assert said == got\n    assert body.startswith("# THE MAIN GOAL") and "counts 2" in body\n    page = (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")\n    assert dict(g.public_face_words(page)) == {}\n    assert "(MAIN_GOAL_HISTORY.md)" in page and "Its state is **0 of 19**" in page\n    assert "docs/MAIN_GOAL.md" not in g.PUBLIC_FACE_HELD\n    planted = hist.replace("counts 2", "counts 3", 1)\n    s2, g2, _ = _archive(planted)\n    assert s2 != g2\n')
 
 subprocess.run(["git", "-C", root, "add", "-A"], check=True)
 tree = subprocess.run(["git", "-C", root, "write-tree"], capture_output=True, text=True).stdout.strip()

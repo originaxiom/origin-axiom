@@ -1,6 +1,6 @@
-From 902182379501d50b2916403e754c0a7f10d38eea Mon Sep 17 00:00:00 2001
+From 15da0d3ea0e56762b70a829f0bd69d2e77e8e6f5 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Fri, 13 Nov 2026 12:18:00 +0000
+Date: Fri, 13 Nov 2026 12:56:25 +0000
 Subject: [PATCH 1/2] C13's follow-ups, patch 1 (cld-advisor, at main's word in
  M23, item 7): B1905'S SCRIPT WRITES ITS KEPT TABLE ONLY WHEN ASKED (--write);
  A RUN OF THE LOCK OR OF THE LEDGER'S GENERATOR WRITES NOTHING, AND TESTS HOLD
