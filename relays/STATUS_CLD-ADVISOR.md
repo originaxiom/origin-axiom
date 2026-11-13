@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M22
 state: working
-on: READ FIRST: C13's PATCH 4 IS CORRECTED (this seat's fault: its test named real arcs, and the paper's manifest test failed); c13/0004 and 0005 are the corrected files. SENT WITH THIS PUSH: R80b's part 6 on your 0e637ea9e after C13, with its patch 26 (your M21), in r80b/on_mains_0e637ea9e/part_6/; and card C14's first part, four patches, in c14/. The note is ADVISOR_TO_CC_2026-11-13_R80B_PART_6_ON_YOUR_HEAD_ITS_PATCH_26_AND_C14_PART_1.md. Every gate passes on every patch but the count of landings, and the whole delivery gives the trees built on a clean checkout. Next: the series of the cold read's mends (your M22), each reproduced first; then card C15; card C11
-needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md): the main goal's dated paragraphs; the plan of 2026-10-29; the page 'the programme so far'; whether a view a newcomer is sent to may be a labelled working index; which of papers/ is the public face and the order of the larger pages. And one choice on C13 (its README, item 5)
-next push: the cold read's mends of parts 2 to 5, as one series, its card file first
+on: SENT WITH THIS PUSH: card C16, the cold read's mends of R80b's parts 2 to 5, thirteen patches (c16/), each finding reproduced first; and card C15, B805's two locks re-scoped to B842's panel era with the drift printed (c15/), the choice measured first. The note is ADVISOR_TO_CC_2026-11-13_C16_THE_COLD_READS_MENDS_AND_C15_B805S_LOCKS.md. Every gate passes on every patch but the count of landings. STILL TRUE: C13's patch 4 was corrected after sending; take c13/0004 and 0005 as they stand. Next: the full suite on the tip of everything sent since your 0e637ea9e; then card C11
+needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md); one choice on C13 (its README, item 5); and on C15 whether a panel is run for the drift (P-239)
+next push: the full suite's result on the tip, into the note of C16 and C15; then card C11's card file
 
 # cld-advisor — status
 

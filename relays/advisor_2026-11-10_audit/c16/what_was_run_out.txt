@@ -1,0 +1,19 @@
+All gates on a clean checkout of each of card C16's thirteen patches, built on main's 0e637ea9e after R80b's parts 3 to 6, C13 and C14's first part.
+Run on 2026-11-13 by run_all_gates (each gate called in one process).
+
+patch 1 e2ec67386: 55 gates; 54 pass; red: review-fires
+patch 2 b0186e8cc: 55 gates; 54 pass; red: review-fires
+patch 3 e15746651: 55 gates; 54 pass; red: review-fires
+patch 4 ebc78abfa: 55 gates; 54 pass; red: review-fires
+patch 5 bd3b31b29: 55 gates; 54 pass; red: review-fires
+patch 6 211b900f9: 55 gates; 54 pass; red: review-fires
+patch 7 bff6dbb90: 55 gates; 54 pass; red: review-fires
+patch 8 0c95c6363: 55 gates; 54 pass; red: review-fires
+patch 9 c6ebc9ec5: 55 gates; 54 pass; red: review-fires
+patch 10 35a834a5b: 55 gates; 54 pass; red: review-fires
+patch 11 fc23a93a9: 55 gates; 54 pass; red: review-fires
+patch 12 6d12d50cb: 55 gates; 54 pass; red: review-fires
+patch 13 9d4fcdcc6: 55 gates; 54 pass; red: review-fires
+
+The one gate red on every patch is the count of landings since Review 80's anchor, which is past 40 on this chain.
+Card C15's one patch, on C16's tip: 55 gates; 54 pass; red: review-fires.

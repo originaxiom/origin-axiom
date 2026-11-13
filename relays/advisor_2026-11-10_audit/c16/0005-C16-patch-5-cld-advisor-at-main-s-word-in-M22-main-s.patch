@@ -1,0 +1,276 @@
+From bd3b31b298b3d8f921de053465cd3bdeee68ca7e Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 08:39:05 +0000
+Subject: [PATCH 05/13] C16, patch 5 (cld-advisor, at main's word in M22;
+ main's own finding (f), CHECKED BY MAIN, made again here): MAIN'S PROBE OF
+ B1895 IS MENDED BESIDE THE FILE MAIN WROTE, AND THE HAND-OVER FOLDER SAYS
+ WHERE
+
+THE FINDING, MADE AGAIN. Main's two check files plants_b1881_third.py and b1895_probes.py, in B1898's
+verification/checks/ and in the hand-over folder of 2026-11-12, count the repository's root one folder up from
+their own, which is not the root. Run in place, each stops at its first search: in both places, for both files.
+
+THE MEND, as main asks, and as R80b's part 6 did for main's other probes:
+  - plants_b1881_third.py already has a mended copy in B1898's verification/mended_in_r80b/ (part 6, patch 8),
+    whose first marked block is this mend.
+  - b1895_probes.py gets one, beside it: main's file with one marked block, the root counted from where the
+    repository's gates are, under a dated note. Run in place it gives the json main kept, exactly; its run is
+    kept beside it.
+  - Main's files in checks/ and in the hand-over folder are not changed. The hand-over folder's README has a
+    dated paragraph that says which two files do not run in place and where their mended copies are.
+
+THE TEST, added to B1898's lock: the mended probe is main's file with its one block put back (by the hash main's
+file is held by), and a change in the block is seen; both mended copies count the root from the repository; the
+mended probe's output is the json main kept. The lock: 11 passed. Main's file as it stands, run in place, stops
+at its first search: that is the plant, and it is not run by the lock.
+---
+ .../MAIN_TO_BUILDER_2026-11-12/README.md      |  7 ++
+ .../mended_in_r80b/b1895_probes.json          | 75 ++++++++++++++++
+ .../mended_in_r80b/b1895_probes.py            | 87 +++++++++++++++++++
+ .../mended_in_r80b/b1895_probes_out.txt       | 10 +++
+ .../verification/test_b1898_review_80.py      | 23 +++++
+ 5 files changed, 202 insertions(+)
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes_out.txt
+
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/README.md b/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/README.md
+index 97ae4c144..24a16428b 100644
+--- a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/README.md
++++ b/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/README.md
+@@ -30,3 +30,10 @@ code was run to make it. 0 of 19.*
+ 
+ agy-002 reads each series cold, patch by patch, against the finding or the draft it answers. Main reads the difference,
+ runs its own unseen cases, and lands.
++
++## Added 2026-11-13 (the building session, at main's word in M22): two files of this folder do not run in place
++
++`review80/checks/plants_b1881_third.py` and `review80/checks/b1895_probes.py` set their root to the folder above their
++own, which is not the repository's root, here or in the arc B1898: run in place, the first stops at its first search, and
++so does the second. They are not changed in this folder. Each has a mended copy, differing in one marked block, beside main's file in
++the arc B1898 (`verification/mended_in_r80b/`), and B1898's lock holds that each copy is main's file but for that block.
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.json
+new file mode 100644
+index 000000000..baefdd9bf
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.json
+@@ -0,0 +1,75 @@
++{
++ "(1) sequences": 1332,
++ "(1) the second word, built over the integers, equals J W J": 1332,
++ "(2)": {
++  "(0, 1)": {
++   "annihilates its own line": false,
++   "sequences whose reversal is allowed differently": 358
++  },
++  "(1, 0)": {
++   "annihilates its own line": false,
++   "sequences whose reversal is allowed differently": 358
++  },
++  "(1, 1)": {
++   "annihilates its own line": false,
++   "sequences whose reversal is allowed differently": 362
++  },
++  "(1, 2)": {
++   "annihilates its own line": true,
++   "sequences whose reversal is allowed differently": 0
++  },
++  "(1, 3)": {
++   "annihilates its own line": true,
++   "sequences whose reversal is allowed differently": 0
++  },
++  "(1, 4)": {
++   "annihilates its own line": false,
++   "sequences whose reversal is allowed differently": 362
++  }
++ },
++ "(3) matrices": 120,
++ "(3) agreement of the swapped-mark recipe, mark by mark": {
++  "(0, 1)": {
++   "annihilates its own line": false,
++   "of 120": 88
++  },
++  "(1, 0)": {
++   "annihilates its own line": false,
++   "of 120": 88
++  },
++  "(1, 1)": {
++   "annihilates its own line": false,
++   "of 120": 88
++  },
++  "(1, 2)": {
++   "annihilates its own line": true,
++   "of 120": 120
++  },
++  "(1, 3)": {
++   "annihilates its own line": true,
++   "of 120": 120
++  },
++  "(1, 4)": {
++   "annihilates its own line": false,
++   "of 120": 88
++  }
++ },
++ "(4)": {
++  "primitive cyclic sequences read": 3378,
++  "all ones": "1.11803398874989484820458683437",
++  "all twos": "1.41421356237309504880168872421",
++  "the least of the others": "1.48660687473185055226120082139",
++  "at": [
++   [
++    1,
++    1,
++    2,
++    2
++   ]
++  ],
++  "all ones is sqrt5/2": true,
++  "all twos is sqrt2": true,
++  "every other reads above 17/12": true,
++  "17/12 is above sqrt2": true
++ }
++}
+\ No newline at end of file
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.py
+new file mode 100644
+index 000000000..fd007ca1f
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes.py
+@@ -0,0 +1,87 @@
++#!/usr/bin/env python3
++"""Review 80: main's own computation of four things the readers' files say of B1895.
++  (1) the SM seat's finding 23: the second convention's word, BUILT, is the seat's word conjugated by the swap, on every sequence;
++  (2) its finding 24: is the allowed set closed under reversal for a mark that does not annihilate its own line?
++  (3) agy-exp's first derivation: the swapped-mark recipe agrees on all 120 matrices at the two marks that annihilate their own
++      line and on 88 of 120 at each of the other four;
++  (4) agy-exp's second derivation: over every cyclic run sequence the least reading is the all-ones' and the second-least the
++      all-twos', every other sequence reading above 17/12.
++B1881's script is imported for its reading of a run sequence (heights), as B1895's own script does.  Integers and 50 digits; no
++measured number."""
++# NOTE OF THE MEND, 2026-11-13 (C16; owed by main's word in M22, a cold reader's finding that main checked: main's two
++# check files set their root to the folder above their own, which is not the repository's root, and run in place they stop
++# at their first search).  Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in
++# the marked place: the line main wrote stands after "#| ", the line that replaces it follows, to "# END OF THE MEND".  With
++# the marked block put back, and this note taken out, the file is main's, byte for byte: the arc's lock holds that.
++#   0. the repository's root was counted one folder up from the script's own, which is right where main ran it and wrong here.
++# END OF THE NOTE
++import importlib.util, itertools, json, pathlib
++import mpmath as mp
++# MENDED (0).  Main wrote:
++#| HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[1]
++HERE = pathlib.Path(__file__).resolve().parent; ROOT = next(p for p in HERE.parents if (p / "scripts" / "gates" / "gates.py").is_file())
++# END OF THE MEND
++src = next((ROOT / "frontier").glob("B1881_*/verification/whole_and_value_on_main.py"))
++spec = importlib.util.spec_from_file_location("b1881_script", src); S = importlib.util.module_from_spec(spec); spec.loader.exec_module(S)
++mp.mp.dps = 50
++mul = lambda A, B: (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2], A[2] * B[1] + A[3] * B[3])
++m5 = lambda A: tuple(x % 5 for x in A)
++J, I2 = (0, 1, 1, 0), (1, 0, 0, 1)
++Ls, Rs = (1, 0, 1, 1), (1, 1, 0, 1)                 # the seat's letters (rows)
++L2, R2 = (1, 1, 0, 1), (1, 0, 1, 1)                 # the second convention's letters (columns)
++def word(seq, a, b):
++    W = I2
++    for k, r in enumerate(seq):
++        for _ in range(r): W = mul(W, a if k % 2 == 0 else b)
++    return W
++row = lambda v, g: ((v[0] * g[0] + v[1] * g[2]) % 5, (v[0] * g[1] + v[1] * g[3]) % 5)
++col = lambda g, v: ((g[0] * v[0] + g[1] * v[1]) % 5, (g[2] * v[0] + g[3] * v[1]) % 5)
++line = lambda w: min(((k * w[0]) % 5, (k * w[1]) % 5) for k in (1, 2, 3, 4))
++VECS = [(a, b) for a in range(5) for b in range(5) if (a, b) != (0, 0)]; LINES = sorted({line(w) for w in VECS})
++kept_row = lambda v, g: line(row(v, g)) == line(v); kept_col = lambda g, u: line(col(g, u)) == line(u)
++own = lambda v: (v[0] * v[0] + v[1] * v[1]) % 5 == 0   # the mark annihilates its own line
++seqs = [seq for n in (2, 4) for seq in itertools.product(range(1, 7), repeat=n)]
++OUT = {}
++# (1)
++same = sum(1 for seq in seqs if word(seq, L2, R2) == mul(mul(J, word(seq, Ls, Rs)), J))
++OUT["(1) sequences"] = len(seqs); OUT["(1) the second word, built over the integers, equals J W J"] = same
++print("(1) %d sequences of length 2 and 4 with runs to 6; the second convention's word, built letter by letter over the integers, equals the swap-conjugate of the seat's on %d" % (len(seqs), same))
++# (2)
++diff = {}
++for v in LINES:
++    d = sum(1 for seq in seqs if kept_row(v, m5(word(seq, Ls, Rs))) != kept_row(v, m5(word(tuple(reversed(seq)), Ls, Rs))))
++    diff[str(v)] = {"annihilates its own line": own(v), "sequences whose reversal is allowed differently": d}
++OUT["(2)"] = diff
++print("(2) of the %d sequences, how many are allowed differently from their reversal, mark by mark:" % len(seqs))
++for v, x in diff.items(): print("      mark %s  annihilates its own line: %-5s  %d" % (v, x["annihilates its own line"], x["sequences whose reversal is allowed differently"]))
++# (3)
++G, todo = {I2}, [I2]
++while todo:
++    g = todo.pop()
++    for h in (m5(mul(g, (0, 4, 1, 0))), m5(mul(g, (1, 1, 0, 1)))):
++        if h not in G: G.add(h); todo.append(h)
++agree = {str(v): sum(1 for g in G if kept_row(v, g) == kept_col(m5(mul(mul(J, g), J)), (v[1], v[0]))) for v in LINES}
++OUT["(3) matrices"] = len(G); OUT["(3) agreement of the swapped-mark recipe, mark by mark"] = {v: {"annihilates its own line": own(eval(v)), "of 120": a} for v, a in agree.items()}
++print("(3) %d matrices; 'row v kept by W' against 'column J v kept by J W J', mark by mark:" % len(G), {v: a for v, a in agree.items()}, "| marks that annihilate their own line:", [str(v) for v in LINES if own(v)])
++# (4)
++def canon(seq): return min(tuple(seq[i:] + seq[:i]) for i in range(len(seq)))
++cyc = set()
++for n, top in ((1, 9), (2, 9), (3, 7), (4, 6), (5, 5), (6, 4), (7, 3), (8, 3), (9, 2), (10, 2), (12, 2)):
++    for seq in itertools.product(range(1, top + 1), repeat=n): cyc.add(canon(seq))
++def primitive(seq):
++    n = len(seq); return not any(n % d == 0 and seq == seq[:d] * (n // d) for d in range(1, n))
++prim = sorted(c for c in cyc if primitive(c))
++r5, r2, b = mp.sqrt(5) / 2, mp.sqrt(2), mp.mpf(17) / 12
++read = {}
++for c in prim:
++    seq = list(c) if len(c) % 2 == 0 else list(c) * 2          # B1881's reading takes sequences of even length
++    read[c] = max(S.heights(seq))
++ones, twos = read[(1,)], read[(2,)]
++others = {c: h for c, h in read.items() if c not in ((1,), (2,))}
++low = min(others.values()); where = [c for c, h in others.items() if h == low]
++OUT["(4)"] = {"primitive cyclic sequences read": len(prim), "all ones": mp.nstr(ones, 30), "all twos": mp.nstr(twos, 30), "the least of the others": mp.nstr(low, 30), "at": [list(c) for c in where][:4],
++              "all ones is sqrt5/2": bool(abs(ones - r5) < mp.mpf(10) ** -40), "all twos is sqrt2": bool(abs(twos - r2) < mp.mpf(10) ** -40),
++              "every other reads above 17/12": bool(low > b), "17/12 is above sqrt2": bool(b > r2)}
++print("(4) %d primitive cyclic sequences; all ones reads %s (sqrt5/2: %s); all twos %s (sqrt2: %s); the least of the others %s at %s; above 17/12 = %s: %s" % (
++    len(prim), mp.nstr(ones, 12), OUT["(4)"]["all ones is sqrt5/2"], mp.nstr(twos, 12), OUT["(4)"]["all twos is sqrt2"], mp.nstr(low, 12), where[:3], mp.nstr(b, 8), low > b))
++json.dump(OUT, open(HERE / "b1895_probes.json", "w"), indent=1)
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes_out.txt
+new file mode 100644
+index 000000000..60772be83
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/b1895_probes_out.txt
+@@ -0,0 +1,10 @@
++(1) 1332 sequences of length 2 and 4 with runs to 6; the second convention's word, built letter by letter over the integers, equals the swap-conjugate of the seat's on 1332
++(2) of the 1332 sequences, how many are allowed differently from their reversal, mark by mark:
++      mark (0, 1)  annihilates its own line: False  358
++      mark (1, 0)  annihilates its own line: False  358
++      mark (1, 1)  annihilates its own line: False  362
++      mark (1, 2)  annihilates its own line: True   0
++      mark (1, 3)  annihilates its own line: True   0
++      mark (1, 4)  annihilates its own line: False  362
++(3) 120 matrices; 'row v kept by W' against 'column J v kept by J W J', mark by mark: {'(0, 1)': 88, '(1, 0)': 88, '(1, 1)': 88, '(1, 2)': 120, '(1, 3)': 120, '(1, 4)': 88} | marks that annihilate their own line: ['(1, 2)', '(1, 3)']
++(4) 3378 primitive cyclic sequences; all ones reads 1.11803398875 (sqrt5/2: True); all twos 1.41421356237 (sqrt2: True); the least of the others 1.48660687473 at [(1, 1, 2, 2)]; above 17/12 = 1.4166667: True
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+index 6f8de9ea2..4972a88d7 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+@@ -361,3 +361,26 @@ def test_two_rows_of_the_register_point_at_what_was_found_since():
+     assert "the corrections of Reviews 75, 76 and 77 are owed their rows (P-823)" in index
+     for r in (r805, r823):
+         assert r.rstrip().endswith("| 2026-11-12 |") and r.count(" | ") == r805.count(" | ")           # each is still one row of the register's shape
++
++
++def test_mains_probe_of_b1895_is_mended_beside_the_file_main_wrote_and_gives_what_main_kept():
++    """ADDED 2026-11-13 (C16; main's word in M22, on a cold reader's finding that main checked).  Main's two check files
++    `plants_b1881_third.py` and `b1895_probes.py` set their root to the folder above their own, which is not the repository's
++    root, and run in place they stop at their first search.  The first was mended beside main's file in R80b's part 6 (the
++    test above holds it).  The second is mended here, the same way: main's file stands in checks/ as main wrote it; the mended
++    copy stands in mended_in_r80b/, differs from it in one marked block, and run in place gives the json main kept."""
++    M = HERE / "mended_in_r80b"
++    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
++    text = (M / "b1895_probes.py").read_text(encoding="utf-8")
++    assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == 1 and text.count("# NOTE OF THE MEND") == 1
++    assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/b1895_probes.py"]
++    assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/b1895_probes.py"]
++    # both mended copies count the root from the repository and not from their own folder
++    for name in ("b1895_probes.py", "plants_b1881_third.py"):
++        t = (M / name).read_text(encoding="utf-8")
++        assert "ROOT = next(p for p in HERE.parents if (p / \"scripts\" / \"gates\" / \"gates.py\").is_file())" in t, name
++        assert "#| HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[1]" in t, name
++    # run in place, the mended probe gives what main kept, and its run is kept beside it
++    assert json.loads((M / "b1895_probes.json").read_text(encoding="utf-8")) == json.loads((HERE / "checks" / "b1895_probes.json").read_text(encoding="utf-8"))
++    assert "(4) 3378 primitive cyclic sequences" in (M / "b1895_probes_out.txt").read_text(encoding="utf-8")
++
+-- 
+2.43.0
+

@@ -1,0 +1,114 @@
+From ebc78abfad92ecf6908000bfff2ee5f4a0050afd Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 08:37:32 +0000
+Subject: [PATCH 04/13] C16, patch 4 (cld-advisor, at main's word in M22; a
+ cold reader's finding (d) on R80b's part 2, patch 3, NOT CHECKED BY MAIN,
+ MADE AGAIN BEFORE IT WAS MENDED): B1881'S WEAKER COMPARISON KEEPS A VALUE'S
+ TYPE
+
+THE FINDING, MADE AGAIN. Under another version of a library, B1881's lock compares the run's json with the
+committed one by a weaker comparison: checks exactly, other values with decimals to eight digits. The value kept
+no type. Three planted jsons each passed it: a check stored as 1 and not true (1 == True); the whole number 1
+in the twin table replaced by true; the decimal 3.61803398875, kept as text, replaced by the number.
+
+THE MEND. Each value carries the name of its type beside what is compared, and a check must be of type bool in
+the run. The lines as they stood are described in a dated note in the function.
+
+THE TEST, added to the lock: the three plants are refused; the committed json against itself passes; and a last
+digit of a decimal kept as text still passes, as the comparison is meant to let it. The lock: 18 passed. The
+locks of B1895, B1897 and B1898, whose plants are made against B1881's lock: 29 passed. Not checked by main.
+---
+ ..._b1881_the_whole_and_the_value_verified.py | 62 ++++++++++++++++---
+ 1 file changed, 54 insertions(+), 8 deletions(-)
+
+diff --git a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+index 1060abf76..affefbe9e 100644
+--- a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
++++ b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+@@ -456,18 +456,26 @@ _MADE_WITH_AS_HELD = {"python": "3.12", "mpmath": "1.3.0", "sympy": "1.14.0"}
+ 
+ 
+ def _values_to_eight_digits(v):
+-    """a value of the json with every decimal number in it given to eight significant digits; whole numbers and words as they are"""
+-    if isinstance(v, bool) or isinstance(v, int) or v is None:
+-        return v
++    """a value of the json with every decimal number in it given to eight significant digits; whole numbers and words as they are.
++    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, patch 3, not checked by main, made again first): the value
++    kept no type, so a check stored as 1 and not true, a whole number replaced by true, and a decimal kept as text replaced by a
++    number each compared equal.  Each value now carries the name of its type beside what is compared.  The lines as they stood
++    returned the value itself, or its eight digits, with no type."""
++    if isinstance(v, bool):
++        return ("bool", v)
++    if isinstance(v, int):
++        return ("int", v)
++    if v is None:
++        return ("none", None)
+     if isinstance(v, float):
+-        return "%.8g" % v
++        return ("float", "%.8g" % v)
+     if isinstance(v, str):
+-        return _to_eight_digits(v)[0] if "\n" not in v else _to_eight_digits(v)
++        return ("str", _to_eight_digits(v)[0] if "\n" not in v else tuple(_to_eight_digits(v)))
+     if isinstance(v, (list, tuple)):
+-        return [_values_to_eight_digits(x) for x in v]
++        return ("list", [_values_to_eight_digits(x) for x in v])
+     if isinstance(v, dict):
+-        return {k: _values_to_eight_digits(x) for k, x in v.items()}
+-    return v
++        return ("dict", {k: _values_to_eight_digits(x) for k, x in v.items()})
++    return (type(v).__name__, v)
+ 
+ 
+ def _held_under_another_version(run, data, run0, data0, seed):
+@@ -475,6 +483,8 @@ def _held_under_another_version(run, data, run0, data0, seed):
+     new, old = json.loads(data), json.loads(data0)
+     assert list(new) == list(old), "the checks are not the same, or not in the same order (seed %d)" % seed
+     assert all(new[k] == old[k] for k in old if isinstance(old[k], bool)) and new["B_counts"] == old["B_counts"]
++    # ADDED 2026-11-13 (C16; the same finding): a check is a value of type bool in both, not one that compares equal to it
++    assert all(type(new[k]) is bool for k in old if isinstance(old[k], bool)), "a check is not stored as true or false (seed %d)" % seed
+     # ADDED 2026-11-12 (Review 80; a reader's finding F5).  The line above compared the checks and one table of counts.  The
+     # numbers of part A and of part B that the json keeps beside them were not compared: one of them changed in the script
+     # passed here.  Every value that is not a check is compared, whole numbers and words exactly, decimals to eight digits.
+@@ -728,3 +738,39 @@ def test_the_withdrawn_word_stands_only_where_it_is_taken_back():
+     assert "It is not the transpose." in second and "where a transpose does enter" in second and "word transpose (§ 5)" in found.replace("\n  ", " ")
+     c = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+     assert c.lower().count("transpos") == 2 and "it is not the transpose" in c
++
++
++def test_the_weaker_comparison_keeps_a_values_type():
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, patch 3, not checked by main, made again first).  Three
++    changes of a value's type passed the weaker comparison: a check stored as 1 and not true; a whole number replaced by true;
++    a decimal kept as text replaced by a number.  Each is refused now, and the committed json against itself passes."""
++    import copy
++    run0 = (HERE / "whole_and_value_on_main_run.txt").read_bytes()
++    data0 = (HERE / "whole_and_value_on_main.json").read_bytes()
++    old = json.loads(data0)
++    _held_under_another_version(run0, data0, run0, data0, 0)                 # the twin: nothing changed passes
++    check = next(k for k, v in old.items() if v is True)
++
++    def refused(new):
++        try:
++            _held_under_another_version(run0, json.dumps(new).encode("utf-8"), run0, data0, 0)
++        except AssertionError:
++            return True
++        return False
++
++    as_one = dict(old)
++    as_one[check] = 1
++    assert refused(as_one)
++    a_number = copy.deepcopy(old)
++    assert a_number["A_numbers"]["quotient_one_twin"][1][0] == 1 and type(a_number["A_numbers"]["quotient_one_twin"][1][0]) is int
++    a_number["A_numbers"]["quotient_one_twin"][1][0] = True
++    assert refused(a_number)
++    a_text = copy.deepcopy(old)
++    assert a_text["B_numbers"]["own"]["(6)"] == "3.61803398875"
++    a_text["B_numbers"]["own"]["(6)"] = 3.61803398875
++    assert refused(a_text)
++    # a last digit of a decimal kept as text still passes, as the comparison is meant to let it
++    last = copy.deepcopy(old)
++    last["B_numbers"]["own"]["(6)"] = "3.61803398876"
++    assert not refused(last)
++
+-- 
+2.43.0
+
