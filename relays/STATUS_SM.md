@@ -1,7 +1,7 @@
 seat: sm
 read: M12
 state: working
-on: SM-C5 (approved in M11): the record swept for FK7, FK8 and FK12; the checklist script committed first
+on: SM-C5 (approved in M11): the record swept for GENESIS FK7, FK8 and FK12; the checklist script committed first
 needs: nothing
 next push: SM-C5
 
