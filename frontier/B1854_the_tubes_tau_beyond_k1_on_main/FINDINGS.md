@@ -47,6 +47,10 @@ rule. It finds the core level s₀ = φ(core) mod 1 by B1847's pullback, then ru
   assertion carries one, as does line 80's. The failing check is one of the two unlabelled ones before them, at
   lines 75 and 79 of B1847's `stage_e_gamma.py`: the translations of the peripheral words against the lattice basis
   the mesher chose. The next step is to print both and take the basis from the words.]
+  [Corrected again 2026-11-13 (B1908): neither cause is right. The stop is the search for the fibre's monodromy in B1847's
+  `fibre_faces.monodromy_from_relators`, which looks for entries between −40 and 40; at k = 3 the monodromy is
+  [[109, −71], [−66, 43]], the search finds nothing, and the mesher stops at an assertion with no message. Solved exactly,
+  the mesher runs to the end at k = 3 (B1908, where its value is shown not to be resolved at grids 120 and 160).]
 
 ## 3. What it means
 

@@ -15758,6 +15758,7 @@
     "closing",
     "coupling",
     "figure_eight",
+    "trace_map",
     "golden",
     "amphichiral_cp",
     "symplectic"
@@ -16686,6 +16687,18 @@
    "obstacle": "cancellation",
    "obstacle_conf": 4,
    "status": "open",
+   "domain": "physics"
+  },
+  "B1908": {
+   "slug": "the tube at k3 the stop found the value not resolved",
+   "motifs": [
+    "coupling",
+    "trace_map"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
    "domain": "physics"
   },
   "B190": {

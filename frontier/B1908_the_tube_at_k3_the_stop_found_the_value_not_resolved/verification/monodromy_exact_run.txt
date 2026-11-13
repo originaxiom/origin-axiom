@@ -1,0 +1,7 @@
+<site-packages>/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+k = 1: 3 generators, 2 relators (lengths [12, 7]); exact: 1 solution(s) [[[-1, -3], [8, 23]]], trace [22], in 0.3s; the word's own matrix has trace 22; the search: 1 solution(s) [[[-1, -3], [8, 23]]], in 5s; the same: True
+k = 2: 3 generators, 2 relators (lengths [10, 25]); exact: 1 solution(s) [[[15, -28], [-23, 43]]], trace [58], in 0.0s; the word's own matrix has trace 58; the search: 1 solution(s) [[[15, -28], [-23, 43]]], in 4s; the same: True
+k = 3: 3 generators, 2 relators (lengths [15, 40]); exact: 1 solution(s) [[[109, -71], [-66, 43]]], trace [152], in 0.0s; the word's own matrix has trace 152
+k = 4: 3 generators, 2 relators (lengths [39, 37]); exact: 1 solution(s) [[[-21, 55], [-160, 419]]], trace [398], in 0.0s; the word's own matrix has trace 398
+k = 5: 3 generators, 2 relators (lengths [63, 57]); exact: 1 solution(s) [[[-55, 144], [-419, 1097]]], trace [1042], in 0.1s; the word's own matrix has trace 1042

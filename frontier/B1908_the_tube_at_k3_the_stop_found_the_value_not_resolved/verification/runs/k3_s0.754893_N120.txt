@@ -1,0 +1,9 @@
+   the words' translations: mu +3.467346856-0.000000000i, lambda -1.122304186-4.019996554i
+   the lattice basis of the setup: w1 +3.467346856+0.000000000i, w2 +1.122304186+4.019996554i
+   in the words: w1 = 1 mu +0 lambda, w2 = 0 mu -1 lambda (residuals 4.4e-16, 9.9e-15)
+b++LLLLLLRLRLRLR s=0.754893: full-group spheres 1280 (radius > 0.27; translates 3315); M = [[109, -71], [-66, 43]]; T1 (0, (0, 0)), T2 (1, (3, -1)); 6s
+   grid 120x90x90: phi in 919s; range -1.544..-0.031
+   marching: 59924 vertices, 118708 triangles, sheets [-1]; 962s
+   tau +0.659612+0.015413i  reduced +0.061593+5.960275i  detE-1 -3.75e-02  {'vertices': 31566, 'triangles': 62050, 'floor': 842, 'proj': 1.1102230246251565e-15, 'pair_dist': np.float64(0.011757822212900683), 'cons': 421, 'rows': 842, 'stray': 0, 'ties': 0, 'detE': 0.9624736006981038, 'cres': 1.1590728377086634e-13, 'seconds': 1121.8430631160736}
+   covariant root: reduced +0.148949+6.034599i
+   [run 1122s]

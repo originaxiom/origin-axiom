@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1602 |
+| arcs with a verdict file | 1603 |
 | … PROVED | 1109 |
 | … NEGATIVE | 384 |
-| … OPEN | 97 |
+| … OPEN | 98 |
 | … RETRACTED | 12 |
 | register points | 838 |
 | … QUEUED | 305 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
 | B1907 | NEGATIVE | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mat… |
 | B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
 | B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
@@ -42,7 +43,6 @@
 | B1892 | PROVED | REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of wh… |
 | B1891 | PROVED | THE FOUNDATION AT VERSION 1.66: FOUR CORRECTIONS FROM REVIEW 79, NO ITEM ADDED AND NO STATUS CELL CHANGED. The advisor seat's sort counts fourteen entries, which are eleven things, as suppositions, where the foundation… |
 | B1890 | PROVED | THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs… |
-| B1889 | PROVED | THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no dat… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its fourth carry, resolved) (2026-11-13)
 - S306p TWO SEALED PACKAGES OF CHECKS FROM ANOTHER LINE OF WORK ARE NOT ACCEPTED AS SEALED: CUSTODY HOLDS, THE MATHEMATICS HOLDS AS READ, AND THREE CHECKS WOULD PASS FOR MORE THAN THEY TEST (B1907; P-7…
 - S306p THE ROOT OF THE REPOSITORY IS CLEARED OF NOTES AND STRAY RESULT FILES, BY THE RULE FOR MOVING A FILE OF THE RECORD, USED FOR THE FIRST TIME (P-838; GOVERNANCE section 12; docs/REORGANIZATIONS.m…
 - S306p THE FOUR CHANNELS IN CLOSED FORM: EACH RESIDUE IS A PRODUCT OF TWO THETA CONSTANTS, AND EVERY EXACT ZERO OF THE FRAME'S DETERMINANT IS EXPLAINED (B1906; P-262 and P-268 paid; P-337, P-606, P-31…
@@ -60,7 +61,6 @@
 - S306p REVIEW 81 IS OPENED, AT THE OWNER'S WAIVER THROUGH 60; ITS READERS ARE TESTED AGAINST FAULTS PLANTED IN THE COMMIT THEY READ; THE BUILDER'S CARD C13 IS ANSWERED (P-837; R80-12; a dated correcti…
 - S306p PART 2 OF THE BUILDER'S SECOND SERIES IS LANDED, TWELVE PATCHES ON B1881, B1895 AND B1897, AFTER MAIN'S CHECK AND A COLD READING; SIX REGISTER ROWS THAT WENT STALE TODAY ARE MOVED BEFORE IT (Re…
 - S306p THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED, AND THE LESSON OF AUGUST WAS IN NO GOVERNING PAGE; A CARD FOR THE BUILDER (the owner's point of the evening, a dated addition to…
-- S306p THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER: PART 1 OF THE BUILDER'S SECOND SERIES IS LANDED, THREE PATCHES, AFTER MAIN'S CHECK AND A COLD READING (Review 80, the SM seat's findings 28 and 29 a…
 
 ## The latest campaign line
 

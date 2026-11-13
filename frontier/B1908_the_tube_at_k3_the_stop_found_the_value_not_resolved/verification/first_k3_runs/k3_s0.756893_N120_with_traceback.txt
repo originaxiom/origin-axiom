@@ -1,0 +1,9 @@
+FAILED: AssertionError()
+Traceback (most recent call last):
+  File "audit/p739/tube_driver_k3.py", line 40, in <module>
+    Dm = SE.main(word, s, N1, N2, N2)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "audit/p739/stage_e_gamma_k3.py", line 60, in main
+    lat = G.lat
+AssertionError
+   [run 9s]

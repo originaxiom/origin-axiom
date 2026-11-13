@@ -20022,3 +20022,9 @@ seat's check. Six are left.
 **What happened.** Another line of work had sealed two packages of automated checks and asked the project to accept them for running. Main reviewed them: the files are intact, and the mathematics holds as far as it was read. But three of the checks would pass even if what they claim to test were false, so the packages are sent back with a list of seven repairs, rather than accepted with caveats as was done once before.
 
 0 of 19.
+
+## 2026-11-13 — A computation that stopped now runs, but does not yet settle its question (S306p)
+
+**What happened.** A geometric computation of the object had stopped without explanation at its third level, and two earlier explanations of why were both wrong. The real cause was a search that only looked for numbers up to 40, while the answer needed larger ones. Main replaced the search with an exact solution, and the computation now runs to the end. But near the narrowest part of the shape its accuracy is not good enough to confirm or contradict another session's value, so the question stays open with three ways named to settle it.
+
+0 of 19.

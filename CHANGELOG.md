@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its fourth carry, resolved) (2026-11-13)
+
+- **B1908, OPEN:** B1847's search for the fibre's monodromy looks for integer entries between −40 and 40; at k = 3 the monodromy is [[109, −71], [−66, 43]] (trace 152, the word's own), so the search finds nothing and the mesher stops at an assertion with no message. Both diagnoses on record were wrong; B1854 carries a second dated correction. Solved exactly (the same as the search at k = 1 and 2; k = 4 and 5 too), the mesher runs to the end at k = 3, but its surfaces near the core are off in their determinant by 3 to 8 per cent and do not come closer from grid 120 to 160. Main's value neither confirms nor contradicts the web seat's sealed one; nothing is banked.
+- **A slip of main's own, corrected before landing:** its draft's table had 7.044 at one cell of grid 160; the value is 7.0435. The table is now computed by the script and held cell by cell by the lock, which catches the old cell when it is planted.
+- **The lock** solves the monodromy at k = 1 to 5, shows the bounded search empty at k = 3 and right at k = 1, and holds the page to the runs; it writes nothing (a first version emptied its kept output by opening it to write; the script's write is now under a main guard and the lock checks the file is unchanged).
+- 0 of 19.
+
 ## S306p TWO SEALED PACKAGES OF CHECKS FROM ANOTHER LINE OF WORK ARE NOT ACCEPTED AS SEALED: CUSTODY HOLDS, THE MATHEMATICS HOLDS AS READ, AND THREE CHECKS WOULD PASS FOR MORE THAN THEY TEST (B1907; P-746 DONE; R80-6, at its fourth carry, resolved) (2026-11-13)
 
 - **B1907:** the physical lane's two execution packets, reviewed by main through its mask with four read-only readers of its own, are refused as sealed, with their findings. Custody: 63 of 63 and 41 of 41 pins. The mathematics: 64 table rows re-derived, none failed. Three substantive findings, and seven items a reseal needs. Main departs from B1787's precedent on purpose, and says so.

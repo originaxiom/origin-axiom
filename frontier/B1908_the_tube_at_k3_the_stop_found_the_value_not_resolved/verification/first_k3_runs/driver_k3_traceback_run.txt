@@ -1,0 +1,4 @@
+b++LLLLLLRLRLRLR: setup 492s; core length 0.18521766; s0 = 0.755893 (spread 4.3e-13); |d theta| on the core 0.019516..0.019516
+
+k=3 s=0.756893 (d=+0.0010): ['AssertionError', '   [run 9s]']
+k3 RC=0

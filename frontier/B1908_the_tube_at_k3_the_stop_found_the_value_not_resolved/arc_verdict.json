@@ -1,0 +1,27 @@
+{
+ "id": "B1908",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1847",
+  "B1854",
+  "B1846"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat: its sealed tube values for k = 1 to 5 (relay 991d7e2ac, harvest row 1614), compared with main's only as P-739 asks; not used as an input"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1847's level-surface mesher on the fibred members b++L^6R(LR)^k",
+  "object": "the monodromy on the fibre's first homology for k = 1 to 5, and the covariant-root modulus of the level surfaces at k = 3",
+  "reach": "class",
+  "hypotheses": "the monodromy is solved exactly from the relators and checked against the search at k = 1 and 2 and against the word's trace; the values at k = 3 are the mesher's at grids 120 and 160, whose surfaces near the core are not resolved (det E off by 3 to 8 per cent); nothing is banked from the values"
+ },
+ "claim_one_line": "THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [[109, -71], [-66, 43]] (trace 152, the word's own), so the search finds nothing and the mesher stops at an assertion with no message. Both diagnoses on record (the lattice condition; the two unlabelled translation checks) were wrong, and B1854 carries a dated correction. Solved exactly (at k = 1 and 2 the same matrices as the search; k = 4 and 5 too), the mesher runs to the end at k = 3, but the level surfaces nearest the core are off in their determinant by 3 to 8 per cent and do not come closer from grid 120 to 160: main's value neither confirms nor contradicts the web seat's sealed 6.069. P-739 stays open. 0 of 19.",
+ "weave_or_thread": "thread (one family of fibred members)"
+}
