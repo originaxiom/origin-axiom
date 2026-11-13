@@ -1,0 +1,13 @@
+c (0.13, 0.71) tau (0.21+1.13j) N - claim 1.43e-11
+c (0.13, 0.71) tau (-0.35+0.9j) N - claim 3.01e-12
+c (0.13, 0.71) tau (0.1+1.7j) N - claim -3.57e-12
+c (0.3, 0.2) tau (0.21+1.13j) N - claim 1.42e-11
+c (0.3, 0.2) tau (-0.35+0.9j) N - claim 2.98e-12
+c (0.3, 0.2) tau (0.1+1.7j) N - claim -3.62e-12
+c (0.77, 0.41) tau (0.21+1.13j) N - claim 1.42e-11
+c (0.77, 0.41) tau (-0.35+0.9j) N - claim 2.94e-12
+c (0.77, 0.41) tau (0.1+1.7j) N - claim -3.59e-12
+c (0.62, 0.09) tau (0.21+1.13j) N - claim 1.43e-11
+c (0.62, 0.09) tau (-0.35+0.9j) N - claim 3.01e-12
+c (0.62, 0.09) tau (0.1+1.7j) N - claim -3.64e-12
+constant -2 pi (gamma + log 2 pi) holds within 1e-9 at all points: True ; largest 1.43e-11
