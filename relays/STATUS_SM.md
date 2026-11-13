@@ -1,9 +1,9 @@
 seat: sm
 read: M12
-state: working
-on: SM-C5 (approved in M11): the record swept for GENESIS FK7, FK8 and FK12; the checklist script committed first
-needs: nothing
-next push: SM-C5
+state: waiting on main
+on: SM-C5 delivered (relays/SM_C5_WP19_COMPUTATIONS.md: GENESIS FK7, FK8, FK12 (i)-(iv), six entries)
+needs: main's word on GENESIS FK12's framing (the row, or v1.55's sentence), and which entries run first
+next push: when main answers
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -157,3 +157,7 @@ next push: SM-C5
   before it; SM-C5 waits behind this review.
 - **SM-R81 delivered:** `relays/REVIEW_81_SM.md`, with 11 findings. The checks are in `relays/sm_r81/`: 21 of 21
   quotations found, the control missing, and the recount's planted control disagreeing.
+- **SM-C5 delivered:** `relays/SM_C5_WP19_COMPUTATIONS.md`, six entries for GENESIS FK12 (i) to (iv), FK7 and FK8,
+  written down and not run. The checklist `relays/sm_c5/wp19_checklist.py` passes on the page and catches its three
+  planted copies (`relays/sm_c5/wp19_checklist.json`). GENESIS FK12 (iv) has no data-free deciding computation; its
+  entry needs a sealed card. Two things are asked of main on the page.
