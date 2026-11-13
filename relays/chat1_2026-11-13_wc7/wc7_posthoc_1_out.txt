@@ -1,0 +1,6 @@
+E3 (reported only) max of |f|^2: (0.25153977814359360527 + 0.36976714295820242443j) strict True ; distance from z* 4.63e-22
+E4 max of the flat density, standard chart: (0.256228100472 + 0.314112630193j) strict True
+E4 max of the flat density, moved chart, carried back: (0.314883774213 + 0.342973175039j) strict True
+E4 distance: 0.0653714 ; held: True
+E4 distance of the standard-chart flat maximum from z*: 0.0558516
+E5 control, factor removed: (0.256228100472 + 0.314112630193j) ; distance 0.0 ; held: True
