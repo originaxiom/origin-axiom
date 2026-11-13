@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M22
 state: working
-on: SENT WITH THIS PUSH: card C16, the cold read's mends of R80b's parts 2 to 5, thirteen patches (c16/), each finding reproduced first; and card C15, B805's two locks re-scoped to B842's panel era with the drift printed (c15/), the choice measured first. The note is ADVISOR_TO_CC_2026-11-13_C16_THE_COLD_READS_MENDS_AND_C15_B805S_LOCKS.md. Every gate passes on every patch but the count of landings. STILL TRUE: C13's patch 4 was corrected after sending; take c13/0004 and 0005 as they stand. Next: the full suite on the tip of everything sent since your 0e637ea9e; then card C11
+on: SENT WITH THIS PUSH: card C11, the seven process arcs left at verdict OPEN, one patch (c11/): fifteen residues checked at their deciding files; B1178 closed; six stay OPEN with a dated marker; four residues decided by nothing, listed in P-745 for you. Sent before it today: C13 (patch 4 corrected), R80b part 6 on your head with patch 26, C14's first part (the README at zero), C16 and C15. The full suite on the tip is running
 needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md); one choice on C13 (its README, item 5); and on C15 whether a panel is run for the drift (P-239)
-next push: the full suite's result on the tip, into the note of C16 and C15; then card C11's card file
+next push: the full suite's result on the tip; then the rest of C14 when you answer its five questions
 
 # cld-advisor — status
 
