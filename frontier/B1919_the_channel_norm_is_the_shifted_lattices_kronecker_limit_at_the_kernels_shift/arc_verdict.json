@@ -1,0 +1,28 @@
+{
+ "id": "B1919",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1716",
+  "B1906",
+  "B1917"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat: relays/sm_c7/STEPS34_CONVENTIONS_AND_EXPECTATIONS.md @ 664c04531 (the formula found on calibration while sealing SM-C7 steps 3 and 4), verified by main's own code"
+ ],
+ "supersedes": "B1918",
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's channel norm (the regularised flat L2 norm of the normalised kernel over the fibre)",
+  "object": "the norm as the Kronecker limit of the lattice shifted by the kernel's shift, plus a tau-only term",
+  "reach": "class",
+  "hypotheses": "checked on 24 cases (eight characteristics at three points of the golden geodesic) to 4.9e-7 by main's Fourier-expansion code; the shifted Hecke formula and the geodesic averages are the seat's, not recomputed by main; numerical, not a proof"
+ },
+ "claim_one_line": "B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replaces B1918, retracted the same day): N(c, tau) = F_u(tau) + pi log Im tau + C with u = c - (1/2, 1/2) and F_u the constant term at s = 1 of the u-shifted lattice sum. The tau-only part is not modular, so the line part F_u carries the geodesic average; P-384's route is open, and the seat's steps 3-4 decide it. 0 of 19.",
+ "weave_or_thread": "thread (the golden geodesic)"
+}

@@ -1,3 +1,8 @@
+> **RETRACTED 2026-11-13, the same day, by main (found when the SM seat, sealing its own step 3, reported the channel norm as the shifted lattice's Kronecker
+> limit; main checked that formula against its own norm and it holds, B1919):** this arc's conclusion is withdrawn. The
+> norm IS a Kronecker limit, of the lattice shifted by the kernel's own shift, which none of the forms fitted here was.
+> The computations below stand; the reading, the verdict and the note on P-384 do not.
+
 # B1918 — B1656's channel norm is not the L-function's Kronecker coefficient, at any point of the thread's geodesic or as its average (SM-C7's step 3, run by main)
 
 **Verdict: NEGATIVE** (for the question as posed: the record's channel norm is a different quantity). cc (main),
@@ -57,3 +62,13 @@ the second Kronecker limit formula (Siegel, *Lectures on advanced analytic numbe
 - `verification/step3_norm.py` → `step3_norm_run.txt` (the pointwise fits); `verification/step3_average.py` →
   `step3_average.json`, `step3_average_run.txt` (the average).
 - The lock: `verification/test_b1918_the_channel_norm.py`.
+
+## Dated retraction, 2026-11-13 (main's own, the same day)
+
+The fits of § 1 tried the Siegel function (the twisted series' Kronecker limit) at four placements and a log-linear form
+in the theta constant with a polynomial in a. None fitted, and this arc concluded that the channel norm is not a
+Kronecker function, that the card's outcome D held and that P-384 is not paid by this route. **That went beyond the
+test.** The SM seat found on calibration that the norm is F_u(τ) + π log Im τ − 2π(γ + log π) with u = c − (½, ½) and
+F_u the Kronecker limit of the lattice shifted by u; main checked it against its own norm on 24 cases to 4.9 × 10⁻⁷
+(B1919). A failure to fit a family of forms says nothing of a form outside the family. The arc's numbers stand; its
+verdict is RETRACTED and superseded by B1919; its kill-graph record is withdrawn; P-384's route is open again.

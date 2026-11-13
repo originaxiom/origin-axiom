@@ -16882,7 +16882,21 @@
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 2,
-   "status": "open",
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1919": {
+   "slug": "the channel norm is the shifted lattices kronecker limit at the kernels shift",
+   "motifs": [
+    "choice",
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "dead",
    "domain": "arithmetic"
   },
   "B191": {

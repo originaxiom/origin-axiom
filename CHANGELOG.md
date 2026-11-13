@@ -1,5 +1,10 @@
 # Changelog
 
+## S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again) (2026-11-13)
+
+- **B1919:** N(c, τ) = F_u(τ) + π log Im τ − 2π(γ + log π) with u = c − (½, ½), F_u the Kronecker limit of the u-shifted lattice: found by the SM seat on calibration while sealing its step 3, checked by main's own code on 24 cases at three points of the golden geodesic to 4.9 × 10⁻⁷. The τ-only part is not modular; the line part F_u carries the geodesic average, which by the shifted Hecke formula is the thread's shifted partial zeta's Kronecker limit. P-384's route is open; the seat's steps 3 and 4 decide it.
+- **B1918 retracted:** its fits tried the twisted series' Kronecker function and a log-linear form, none of which is the shifted lattice's limit, and its conclusion went beyond them. Its numbers stand; its verdict, its kill-graph record and its note on P-384 are withdrawn; the SM seat is told (M21). The retractions index carries the row (the paper's count is now one hundred). 0 of 19.
+
 ## S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
 
 - **B1918:** at three points and over one period of the golden geodesic, the frame's channel norm (the regularised flat norm of the normalised kernel) is not the Kronecker function of its characteristic, under four placements of the Siegel function: residuals 22 to 29 on spreads of 100 to 177, where a planted exact relation is recovered to 5 × 10⁻¹⁵. Outcome D: B1917 stands; P-384 is not paid by this route. The lead: the twisted torus's analytic torsion is the Kronecker function, so a channel weight defined by that determinant would come from the arithmetic (decision 5, the channel weights).

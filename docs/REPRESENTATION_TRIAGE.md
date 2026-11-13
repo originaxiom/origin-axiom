@@ -137,7 +137,8 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B1915 | PENDING | **The hand's rows counted (decision 1):** it reaches a synthesis page with the input budget's independent decisions (B1861 § 3). |
 | B1916 | PROCESS | **Review 81's evidence:** a review arc; its findings travel by the mends it records, not by a synthesis page. |
 | B1917 | PENDING | **The slope and the Kronecker function, one L-function along the thread's geodesic:** it reaches a synthesis page with the read-out and the line (P-384, P-776) once the seat's steps 3 and 4 say what B1656's channel norm is. |
-| B1918 | PENDING | **The channel norm is not the L-function's coefficient:** it reaches a synthesis page with the input budget's decision 5 (the channel weights) and its lead, the determinant. |
+| B1918 | PROCESS | **Retracted the same day (superseded by B1919):** its numbers stand and its reading was withdrawn; nothing of it travels. |
+| B1919 | PENDING | **The channel norm is the shifted lattice's Kronecker limit:** it reaches a synthesis page with the read-out and the line (P-384, P-776) when the seat's steps 3 and 4 say what the average and the apex give. |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The

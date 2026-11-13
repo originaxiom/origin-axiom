@@ -12482,28 +12482,5 @@
    "hypotheses": "the mask hides every decimal, so some assertion lines were reconstructed by the readers and not read; the earlier proofs the packets cite, the literature they use, and the lane's own gate scripts at the sealed commits were not read; the readers are main's own and not independent; the quotation check runs through main's mask and was computed once; a refusal is not a judgement that anything in the packets is false"
   },
   "weave_or_thread": "neither (a process arc)"
- },
- {
-  "id": "B1918",
-  "claim_killed": "That B1656's channel norm is the Kronecker-limit log of the slope's L-function (B1737 section 4), at a point of the thread's geodesic or as its average, so that a line rule would follow from the arithmetic.",
-  "evidence_consulted": [
-   "B1917",
-   "B1737",
-   "B1656",
-   "B1716",
-   "B1906"
-  ],
-  "faces_consulted": [],
-  "fact_computed": "the regularised flat norm of the normalised kernel at 30 characteristics at three points and over one period of the golden geodesic, fitted against the Kronecker form and the Siegel function at four placements, with a planted exact relation recovered to 5e-15 (verification/step3_norm.py, step3_average.py)",
-  "hatch": "a channel weight defined by the twisted torus's regularised determinant (analytic torsion), which is the Kronecker function; decision 5 of the input budget",
-  "kill_form": "computed: the best fit leaves a residual of 22 to 29 on spreads of 100 to 177, where a true relation leaves about 1e-9",
-  "note": "main's run of the SM seat's step 3 at the author's release (P-840); the seat's own run is the second computation",
-  "scope": {
-   "frame": "B1656's channel norm (the regularised flat L2 norm of the normalised kernel over the fibre), on the golden geodesic",
-   "object": "whether the channel norm is the Kronecker function of its characteristic plus a tau-only term, at a point or as the geodesic average",
-   "reach": "class",
-   "hypotheses": "30 characteristics on a grid of tenths; three points and one period of the golden geodesic; four placements of the characteristic for the Siegel function; the norm as main's b1656_funcs defines it; the seat's own step 3 not yet run"
-  },
-  "weave_or_thread": "thread (the golden geodesic)"
  }
 ]

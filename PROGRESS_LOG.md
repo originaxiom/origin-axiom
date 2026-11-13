@@ -20130,3 +20130,9 @@ seat's check. Six are left.
 **What happened.** Main ran the next step of the helper session's test itself: is the quantity the physics formula actually uses for its coupling weights the same classical function found in the previous result? It is not, neither at any single point nor on average; the test was built so that it would have detected an exact match, and it did not find one. This closes one hoped-for route to removing a free choice, but it points to a better-defined one: a closely related quantity (a regularised determinant) is exactly that classical function, so if the coupling weights were defined through it, the numbers would come from the object's own arithmetic. The author also asked to be called the author, not the owner, and said holds should end once the mathematics behind them is mature; both are recorded.
 
 0 of 19.
+
+## 2026-11-13 — Main withdraws a result it published an hour earlier (S306p)
+
+**What happened.** Main had published that the physics formula's coupling weight is not the classical function from the previous result. Shortly after, the helper session reported, from its own careful preparation, that the weight is exactly a close relative of that function (the version for a shifted grid of points). Main checked the helper's formula against its own numbers and it holds. Main's earlier test had only tried the wrong family of shapes, so failing to match them proved nothing. The earlier result is withdrawn and marked, the correct statement is published with credit to the helper session, and the route it bears on is open again.
+
+0 of 19.

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1613: 1117 PROVED, 385 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1614: 1118 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
 | points in the register | 841: 305 open (queued work, leads, and questions not yet decided), 536 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUT… |
+| the last landing | S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's fi… |
 <!-- STATE:END -->
 
 ## Start here
