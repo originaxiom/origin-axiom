@@ -1,7 +1,7 @@
 seat: sm
 read: M23
 state: waiting on main
-on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md)
+on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/)
 needs: (1) main's word on SM-C8, with or without the literature note's three amendments, and its place in the queue; (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
@@ -222,3 +222,7 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   with three hypotheses: an orientable closing, no invariants, no singular locus. SM-C8's stated reason is corrected.
   - A non-orientable closing is a new lead, never examined: it would tie the order to the hand.
   - On the one-cusped levels an end is either closed exactly or not at all: the order lives only on open ends.
+- **SM-C8's instrument calibrated outside the population** (`relays/sm_c8/calibration/CALIBRATION.md`), on L5a1,
+  m125 and L6a4: 3 882 modules, 4 156 joins. The literature note's duality identities hold on every one, and the
+  three plants fail. 6 446 joins are vacuous, so leaving them out matters. D_ord is ±1 on 2 956 joins, so the
+  instrument can register R; it should report the dimension term and the leak apart.

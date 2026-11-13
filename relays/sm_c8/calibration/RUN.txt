@@ -1,0 +1,68 @@
+L5a1 700 modules
+m125 344 modules
+L6a4 2838 modules
+{
+ "modules": {
+  "L5a1": 700,
+  "m125": 344,
+  "L6a4": 2838
+ },
+ "relator_errors": 0,
+ "C1": [
+  3882,
+  3882
+ ],
+ "C2": [
+  3882,
+  3882
+ ],
+ "C3a": [
+  3882,
+  3882
+ ],
+ "C3b": [
+  4156,
+  4156
+ ],
+ "dimS_plus_dimS*_eq_h1T": [
+  4156,
+  4156
+ ],
+ "vacuous_joins": 6446,
+ "plants": {
+  "P1 V for V*: fails on": [
+   3668,
+   4156
+  ],
+  "P2 random line for S*: fails on": [
+   2066,
+   4156
+  ],
+  "P3 2dimA = h1(dM): fails on": [
+   528,
+   3882
+  ]
+ },
+ "index_h1(V*)-h1(V)_values": [
+  -2,
+  -1,
+  0,
+  1,
+  2
+ ],
+ "D_ord_values": [
+  -1,
+  0,
+  1
+ ],
+ "leak_values": [
+  0,
+  1,
+  2,
+  3
+ ]
+}
+
+real	0m14.389s
+user	0m14.390s
+sys	0m0.183s
