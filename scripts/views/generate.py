@@ -393,7 +393,7 @@ def view_readme_state(arcs):
            "| the foundations | `GENESIS.md` (v%s) of %s |" % (gv.group(1), gv.group(2)) if gv else "| the foundations | `GENESIS.md` |",
            "| arcs with a verdict | %d: %d PROVED, %d NEGATIVE, %d OPEN, %d RETRACTED |" % (
                sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
-           "| points in the register | %d: %d open (queued, leads, waiting for the owner), %d closed |" % (len(cells), n_open, n_closed),
+           "| points in the register | %d: %d open (queued work, leads, and questions not yet decided), %d closed |" % (len(cells), n_open, n_closed),
            "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
            "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
            ""]

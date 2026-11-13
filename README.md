@@ -7,8 +7,8 @@ generates and the way they act together (the weave), and asks what that structur
 parameters. At its root, selected by a stated criterion of the foundations, is the figure-eight knot complement: the
 hyperbolic 3-manifold the word LR builds.
 
-The principle's single wording was confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5). It is postulated, not
-derived, and so is the rest of the foundation's first layer (PF1–PF3).
+This principle is a postulate: it is stated, not derived, as are the other two assumptions of the foundation's first layer
+(PF1 to PF3). Its wording is fixed in the foundation document, GENESIS, version 1.5.
 
 The record is claim-bounded and reproducible. Every result carries its verdict (proved, negative, open or retracted), its
 scope, and the script or proof behind it. A negative is a result.
@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 837: 312 open (queued, leads, waiting for the owner), 525 closed |
+| points in the register | 837: 312 open (queued work, leads, and questions not yet decided), 525 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p REVIEW 81 IS OPENED, AT THE OWNER'S WAIVER THROUGH 60; ITS READERS ARE TESTED AGAINST FAULTS PLANTED IN THE COMMIT THEY READ; THE BUILDER'S CAR… |
+| the last landing | S306p THE FRONT PAGE SPEAKS PLAINLY: EVERY CHECK IS CALLED INTERNAL TO THE PROJECT AND SAYS WHICH KIND IT IS, AND THE WORKING RECORD IS NAMED AS SUCH… |
 <!-- STATE:END -->
 
 ## Start here
@@ -33,9 +33,9 @@ nothing in this block is typed by hand.*
 |---|---|
 | understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
 | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
-| see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries |
-| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order the owner approved on 2026-10-30 |
-| find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) |
+| see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
+| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
+| find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
 | read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) |
 | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
 | explore the record visually | [`docs/workdesk/`](docs/workdesk/) |
@@ -54,10 +54,15 @@ nothing in this block is typed by hand.*
   ([`docs/IDENTIFICATION_LEDGER.md`](docs/IDENTIFICATION_LEDGER.md)).
 - **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md)).
 - **Corrections are dated where they apply**, and retractions are listed ([`docs/RETRACTIONS.md`](docs/RETRACTIONS.md)).
-- **Several working seats compute in parallel** on their own branches. Main verifies what it takes in and records it
-  ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md)).
+- **Several sessions compute in parallel** on their own branches. What the record takes in from them is checked first and
+  recorded ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md), both part of the
+  working record).
 - **The rules:** [`WORKING_RULES.md`](WORKING_RULES.md) (binding), [`GOVERNANCE.md`](GOVERNANCE.md),
   [`METHOD.md`](METHOD.md) and [`PROVENANCE.md`](PROVENANCE.md).
+- **The working record** keeps the record's own words, dated and unrewritten: the progress log, the changelog, the
+  register, the status page, the reviews and each session's working page. Two large indices quote every verdict line word
+  for word and are working indices, not summaries: [`docs/views/VERDICT_LEDGER.md`](docs/views/VERDICT_LEDGER.md) and
+  [`docs/views/THE_SPINE.md`](docs/views/THE_SPINE.md).
 - **A review every few dozen commits** re-reads a sample of arcs in full and runs the gates on a fresh clone
   ([`docs/progress/REVIEWS.md`](docs/progress/REVIEWS.md)).
 
@@ -72,9 +77,9 @@ bash scripts/run_suite.sh           # every lock
 
 ## Provenance
 
-All verification in this repository is INTERNAL: the owner plus AI assistant seats cross-checking one another.
-Nothing here is externally verified or peer-reviewed. "Verified" always means "recomputed by a second internal
-pipeline". The checkable artifacts are the locks and the gates (see `PROVENANCE.md` §0 and `REPRODUCIBILITY.md`).
+Every check in this repository is internal to the project: re-derivation, scripts run again, and readings by separate
+sessions that did not write the work being read. No outside review has taken place. Where a result is called checked, it
+says by which of these. The checkable artifacts are the locks and the gates (see `PROVENANCE.md` §0 and `REPRODUCIBILITY.md`).
 
 ## History
 

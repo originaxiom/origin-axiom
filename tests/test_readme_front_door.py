@@ -48,5 +48,9 @@ def test_the_old_text_is_archived_byte_for_byte():
 
 def test_the_front_door_keeps_its_living_requirements():
     t = " ".join(README.read_text(encoding="utf-8").split())
-    assert "All verification in this repository is INTERNAL" in t and "Nothing here is externally verified or peer-reviewed" in t
+    # 2026-11-13 (main's card C14, the public face; built by the building session).  This line read:
+    #     assert "All verification in this repository is INTERNAL" in t and "Nothing here is externally verified or peer-reviewed" in t
+    # The README says it now in main's words, without a person: what is held is the same requirement, that every check is
+    # internal and that no outside review has taken place.
+    assert "Every check in this repository is internal to the project" in t and "No outside review has taken place." in t
     assert "docs/README_HISTORY.md" in t and "GENESIS.md" in t

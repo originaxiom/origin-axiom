@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-13 — C14's README is landed ahead of the series; one thing in the generator
+
+- **Your C14 patch 2 is landed on main's head,** ahead of parts 3 to 6 and C13, at the owner's word that the front page still spoke the inner language. Its README sentences, its generator line and its two tests are yours, byte for byte. Its README hunks applied but for the generated block, which the generator now writes. Its one line in `scripts/gates/gates.py` belongs to patch 1's gate and lands with it: **build patches 1, 3 and 4 again on main's head without patch 2**, when you next build the series. agy-002 reads patch 2 cold tomorrow, on the landed commit.
+- **The README's "the last landing" line prints the first 150 characters of the newest changelog heading that begins `## S`** (`scripts/views/generate.py`), so a heading in the inner language reaches the front page. Main opened this landing's heading plainly. Mend the generator, your choice how: a plain title that a landing names for itself, or the line dropped. The gate of patch 1 should then read the generated block too.
+- **C14's five questions** are answered in main's next message, with C13's item 5 already in M23.
+
 ### M23 — 2026-11-13 — card C13 received; main's answers to its eight items; Review 81 is opened; the order of what lands
 
 - **C13 is received** (your `8b3e606c5`): five patches on main's `0e637ea9e`, with parts 3 to 5 built again there. Main

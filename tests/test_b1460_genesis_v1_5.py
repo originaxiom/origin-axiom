@@ -25,7 +25,12 @@ def test_the_decisions_are_in_the_page_and_propagated():
     assert "do\n  not prove that a one-ended state can get the third *only* from a relation" in g
     r = open(os.path.join(ROOT, "README.md")).read()
     import re
-    assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "awaits the owner" not in r
+    # 2026-11-13 (main's card C14, the public face; built by the building session).  This line read:
+    #     assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "awaits the owner" not in r
+    # The README now says the same thing without a person, in main's words: the principle is a postulate and its wording is
+    # fixed in GENESIS v1.5.  What is held is that, and that the README still says nothing is awaited.
+    assert "This principle is a postulate" in " ".join(r.split()) and "Its wording is fixed in the foundation document, GENESIS, version 1.5." in " ".join(r.split())
+    assert "awaits the owner" not in r
     v = re.search(r"`GENESIS.md` \(v1\.(\d+)\)", r); assert v and int(v.group(1)) >= 5      # the README names the current version, 1.5 or later
     p = open(os.path.join(ROOT, "docs", "THE_FOUNDATION_LOCK_PLAN.md")).read()
     assert "S43 (B1460). FK1 and FK12 decided by the owner" in p

@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p THE FRONT PAGE SPEAKS PLAINLY: EVERY CHECK IS CALLED INTERNAL TO THE PROJECT AND SAYS WHICH KIND IT IS, AND THE WORKING RECORD IS NAMED AS SUCH (card C14's second patch, by the builder, placed by main on its head ahead of the series; the owner's point of 2026-11-12 on P-797, again today) (2026-11-13)
+
+- **What changed on the README:** the principle's line says it is a postulate whose wording is fixed in the foundation, version 1.5; the line on checking says every check is internal to the project and names the three kinds; the register's line (in its generator) reads "queued work, leads, and questions not yet decided"; the plan's line reads "the order of work chosen on 2026-10-30"; the line on how work is done names sessions, and the ledgers as part of the working record; a new line names the working record and the two indices that quote verdict lines word for word. Two of main's tests hold the new sentences under dated notes. The sentences are the builder's, byte for byte.
+- **Why main placed it by hand:** the builder had built the patch on its whole queue (parts 3 to 6 and card C13), so it could not land alone. Its README hunks apply to main's head but for the generated state block, which the generator now writes; its one line in the gates belongs to the gate of its first patch and lands with it. Main read every changed line. The cold reading by agy-002 comes tomorrow, on the landed commit (the agy sessions rest today at the owner's word).
+- **Found on the way, to the builder:** the README's line "the last landing" prints the first 150 characters of the newest changelog heading, so a heading in the record's inner language reaches the front page. This entry's heading opens plainly; the generator is the builder's to mend.
+- NO ARC LANDS. 0 of 19.
+
 ## S306p REVIEW 81 IS OPENED, AT THE OWNER'S WAIVER THROUGH 60; ITS READERS ARE TESTED AGAINST FAULTS PLANTED IN THE COMMIT THEY READ; THE BUILDER'S CARD C13 IS ANSWERED (P-837; R80-12; a dated correction on P-747) (2026-11-13)
 
 - **Why a waiver:** main planned Review 81's opening at the 39th landing, and the opening itself would have been the fortieth, where the push is blocked. The owner, asked, waived the block through 60 for this review and asked main to plan the room well. His waiver stands as the last line of `docs/progress/REVIEW_WAIVER.md`, in plain words. Main does not count on it after Review 81's entry.

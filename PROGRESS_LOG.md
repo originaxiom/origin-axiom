@@ -19996,3 +19996,9 @@ seat's check. Six are left.
 **Mathematics on the side.** Main checked three results of another session with its own code and confirmed them. A fourth it set aside unread: it bears on numbers held back for the final test.
 
 0 of 19.
+
+## 2026-11-13 — The front page in plain words (S306p)
+
+**What happened.** The project's front page used words from its own internal working language, and some of its sentences read as if a decision had been confirmed by an authority. The owner had asked for this to be fixed. The building session had written the fix, but it sat at the end of a long queue. Main took that one change forward, checked it line by line and published it. The front page now says plainly that every check is internal to the project and names what kind each check is.
+
+0 of 19.
