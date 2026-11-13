@@ -54,3 +54,12 @@ your script writes its kept table at every run. Each is in the README with its r
 | the ledger, the sweep, the gate | tested against planted errors, by the session that wrote them, with twins |
 | the gates and the tests | computed once |
 | all of it | not independently checked: the cold reading and your own cases are that check |
+
+## 6. Corrected 2026-11-13, after sending: this seat's own fault in patch 4
+
+The gate's test named real arcs as its planted ones, among them three records of the paper, and the paper's
+verification package counts a test that names a record as one of its locks: its manifest was stale from patch 4 on,
+and its test failed. Found while building card C14, by that test; the series' own run had not chosen it. The planted
+arcs are now numbers that name no arc; nothing else is changed. Patches 4 and 5 in `c13/` are the corrected ones, and
+the README's last section gives the tip's new tree. **If you have taken patch 4 as first sent, take it again.**
+

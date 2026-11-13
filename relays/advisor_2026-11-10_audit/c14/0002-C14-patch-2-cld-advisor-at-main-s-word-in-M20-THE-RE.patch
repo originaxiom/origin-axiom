@@ -1,0 +1,169 @@
+From 9731025a8f7833af0fd0049682c4890298bfccb7 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 08:13:04 +0000
+Subject: [PATCH 2/4] C14, patch 2 (cld-advisor, at main's word in M20): THE
+ README SPEAKS NO INNER LANGUAGE, AND POINTS TO THE WORKING RECORD AND ITS TWO
+ INDICES AS SUCH
+
+The README had seven of the inner words, in six places. It has none now, and the gate holds it at zero.
+
+  - The line on the principle is main's sentence: the principle is a postulate, stated and not derived, as are
+    the other two assumptions of the foundation's first layer; its wording is fixed in GENESIS, version 1.5.
+  - The line on verification is main's sentence: every check is internal to the project (re-derivation,
+    scripts run again, readings by separate sessions that did not write the work), and no outside review has
+    taken place. One sentence is added: where a result is called checked, it says by which of these.
+  - The register's line, in its generator (scripts/views/generate.py), not in its output: "queued work, leads,
+    and questions not yet decided".
+  - The plan's line: "the order of work chosen on 2026-10-30".
+  - The line on how work is done: several sessions compute in parallel; what the record takes in from them is
+    checked first and recorded, in two ledgers that are part of the working record.
+  - The status page and the register are marked as the working record where the README sends a reader to them.
+  - A new line names the working record and points to the verdict ledger and the spine as working indices that
+    quote every verdict line word for word; their quotations are not rewritten.
+
+TWO OF MAIN'S TESTS held the old sentences: tests/test_b1460_genesis_v1_5.py (the line on the principle) and
+tests/test_readme_front_door.py (the line on verification). Each holds the same requirement in the new words,
+under a dated note that keeps the line as it stood.
+
+Every gate passes but the count of landings; the gates that read the README (the framing, the sweep of
+retracted phrases, the pretense phrases, the facts of the front pages, the citations) pass. The test files that
+read the README: all pass but the paper's manifest test, which failed from C13's patch 4 as first sent and
+passes with its correction. Not checked by main.
+---
+ README.md                        | 27 ++++++++++++++++-----------
+ scripts/gates/gates.py           |  2 +-
+ scripts/views/generate.py        |  2 +-
+ tests/test_b1460_genesis_v1_5.py |  7 ++++++-
+ tests/test_readme_front_door.py  |  6 +++++-
+ 5 files changed, 29 insertions(+), 15 deletions(-)
+
+diff --git a/README.md b/README.md
+index d5655c65a..eb501c5df 100644
+--- a/README.md
++++ b/README.md
+@@ -7,8 +7,8 @@ generates and the way they act together (the weave), and asks what that structur
+ parameters. At its root, selected by a stated criterion of the foundations, is the figure-eight knot complement: the
+ hyperbolic 3-manifold the word LR builds.
+ 
+-The principle's single wording was confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5). It is postulated, not
+-derived, and so is the rest of the foundation's first layer (PF1–PF3).
++This principle is a postulate: it is stated, not derived, as are the other two assumptions of the foundation's first layer
++(PF1 to PF3). Its wording is fixed in the foundation document, GENESIS, version 1.5.
+ 
+ The record is claim-bounded and reproducible. Every result carries its verdict (proved, negative, open or retracted), its
+ scope, and the script or proof behind it. A negative is a result.
+@@ -22,7 +22,7 @@ nothing in this block is typed by hand.*
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+ | the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
+ | arcs with a verdict | 1602: 1110 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+-| points in the register | 837: 312 open (queued, leads, waiting for the owner), 525 closed |
++| points in the register | 837: 312 open (queued work, leads, and questions not yet decided), 525 closed |
+ | the last review | Review 80 (2026-11-12), anchor `c40446392` |
+ | the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PR… |
+ <!-- STATE:END -->
+@@ -33,9 +33,9 @@ nothing in this block is typed by hand.*
+ |---|---|
+ | understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
+ | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
+-| see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries |
+-| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order the owner approved on 2026-10-30 |
+-| find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) |
++| see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
++| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
++| find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
+ | read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) |
+ | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
+ | explore the record visually | [`docs/workdesk/`](docs/workdesk/) |
+@@ -54,10 +54,15 @@ nothing in this block is typed by hand.*
+   ([`docs/IDENTIFICATION_LEDGER.md`](docs/IDENTIFICATION_LEDGER.md)).
+ - **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md)).
+ - **Corrections are dated where they apply**, and retractions are listed ([`docs/RETRACTIONS.md`](docs/RETRACTIONS.md)).
+-- **Several working seats compute in parallel** on their own branches. Main verifies what it takes in and records it
+-  ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md)).
++- **Several sessions compute in parallel** on their own branches. What the record takes in from them is checked first and
++  recorded ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md), both part of the
++  working record).
+ - **The rules:** [`WORKING_RULES.md`](WORKING_RULES.md) (binding), [`GOVERNANCE.md`](GOVERNANCE.md),
+   [`METHOD.md`](METHOD.md) and [`PROVENANCE.md`](PROVENANCE.md).
++- **The working record** keeps the record's own words, dated and unrewritten: the progress log, the changelog, the
++  register, the status page, the reviews and each session's working page. Two large indices quote every verdict line word
++  for word and are working indices, not summaries: [`docs/views/VERDICT_LEDGER.md`](docs/views/VERDICT_LEDGER.md) and
++  [`docs/views/THE_SPINE.md`](docs/views/THE_SPINE.md).
+ - **A review every few dozen commits** re-reads a sample of arcs in full and runs the gates on a fresh clone
+   ([`docs/progress/REVIEWS.md`](docs/progress/REVIEWS.md)).
+ 
+@@ -72,9 +77,9 @@ bash scripts/run_suite.sh           # every lock
+ 
+ ## Provenance
+ 
+-All verification in this repository is INTERNAL: the owner plus AI assistant seats cross-checking one another.
+-Nothing here is externally verified or peer-reviewed. "Verified" always means "recomputed by a second internal
+-pipeline". The checkable artifacts are the locks and the gates (see `PROVENANCE.md` §0 and `REPRODUCIBILITY.md`).
++Every check in this repository is internal to the project: re-derivation, scripts run again, and readings by separate
++sessions that did not write the work being read. No outside review has taken place. Where a result is called checked, it
++says by which of these. The checkable artifacts are the locks and the gates (see `PROVENANCE.md` §0 and `REPRODUCIBILITY.md`).
+ 
+ ## History
+ 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 339c1fdd6..3aff342bf 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3192,7 +3192,7 @@ def gate_public_face(reader=None):
+ 
+ 
+ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
+-    'README.md': {'main': 1, 'owner': 4, 'seat': 2},
++    # README.md: at zero since C14's second patch (2026-11-13)
+     'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 6, 'ruled': 1, 'seat': 11},
+     'knowledge/INDEX.md': {'owner': 1},
+     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
+diff --git a/scripts/views/generate.py b/scripts/views/generate.py
+index 21b68cc4e..9ca59690e 100644
+--- a/scripts/views/generate.py
++++ b/scripts/views/generate.py
+@@ -393,7 +393,7 @@ def view_readme_state(arcs):
+            "| the foundations | `GENESIS.md` (v%s) of %s |" % (gv.group(1), gv.group(2)) if gv else "| the foundations | `GENESIS.md` |",
+            "| arcs with a verdict | %d: %d PROVED, %d NEGATIVE, %d OPEN, %d RETRACTED |" % (
+                sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
+-           "| points in the register | %d: %d open (queued, leads, waiting for the owner), %d closed |" % (len(cells), n_open, n_closed),
++           "| points in the register | %d: %d open (queued work, leads, and questions not yet decided), %d closed |" % (len(cells), n_open, n_closed),
+            "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
+            "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
+            ""]
+diff --git a/tests/test_b1460_genesis_v1_5.py b/tests/test_b1460_genesis_v1_5.py
+index 41b744812..30d0def0a 100644
+--- a/tests/test_b1460_genesis_v1_5.py
++++ b/tests/test_b1460_genesis_v1_5.py
+@@ -25,7 +25,12 @@ def test_the_decisions_are_in_the_page_and_propagated():
+     assert "do\n  not prove that a one-ended state can get the third *only* from a relation" in g
+     r = open(os.path.join(ROOT, "README.md")).read()
+     import re
+-    assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "awaits the owner" not in r
++    # 2026-11-13 (main's card C14, the public face; built by the building session).  This line read:
++    #     assert "confirmed by the owner on 2026-10-03 (fork FK1, GENESIS v1.5)" in r and "awaits the owner" not in r
++    # The README now says the same thing without a person, in main's words: the principle is a postulate and its wording is
++    # fixed in GENESIS v1.5.  What is held is that, and that the README still says nothing is awaited.
++    assert "This principle is a postulate" in " ".join(r.split()) and "Its wording is fixed in the foundation document, GENESIS, version 1.5." in " ".join(r.split())
++    assert "awaits the owner" not in r
+     v = re.search(r"`GENESIS.md` \(v1\.(\d+)\)", r); assert v and int(v.group(1)) >= 5      # the README names the current version, 1.5 or later
+     p = open(os.path.join(ROOT, "docs", "THE_FOUNDATION_LOCK_PLAN.md")).read()
+     assert "S43 (B1460). FK1 and FK12 decided by the owner" in p
+diff --git a/tests/test_readme_front_door.py b/tests/test_readme_front_door.py
+index 85f8239d6..bc994a5ad 100644
+--- a/tests/test_readme_front_door.py
++++ b/tests/test_readme_front_door.py
+@@ -48,5 +48,9 @@ def test_the_old_text_is_archived_byte_for_byte():
+ 
+ def test_the_front_door_keeps_its_living_requirements():
+     t = " ".join(README.read_text(encoding="utf-8").split())
+-    assert "All verification in this repository is INTERNAL" in t and "Nothing here is externally verified or peer-reviewed" in t
++    # 2026-11-13 (main's card C14, the public face; built by the building session).  This line read:
++    #     assert "All verification in this repository is INTERNAL" in t and "Nothing here is externally verified or peer-reviewed" in t
++    # The README says it now in main's words, without a person: what is held is the same requirement, that every check is
++    # internal and that no outside review has taken place.
++    assert "Every check in this repository is internal to the project" in t and "No outside review has taken place." in t
+     assert "docs/README_HISTORY.md" in t and "GENESIS.md" in t
+-- 
+2.43.0
+

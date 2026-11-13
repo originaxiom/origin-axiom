@@ -1,0 +1,37 @@
+All gates on a clean checkout of each of the twenty-six patches of R80b's part 6, built on main's 0e637ea9e after parts 3 to 5 and card C13.
+Run on 2026-11-13 by run_all_gates (each gate called in one process; the answer and the gate's sentence kept).
+
+THE COMMITS READ. The run was made on the chain before two corrections, each of which changed no file that a gate reads but one:
+  - card C13's patch 4 was corrected after it was sent (the planted arcs of one test file; C13's README, last section). The trees read differ from the ones sent in that test file alone.
+  - part 6's patch 7 was made again, because its generated spine did not yet list the test file it adds: on that commit the gate views-generated was red. It is green on the patch as sent, run again after the correction, and so is patch 8.
+
+patch 1 c83fff5f2: 54 gates; 53 pass; red: review-fires
+patch 2 5cc7653d3: 54 gates; 53 pass; red: review-fires
+patch 3 d091c0c6c: 54 gates; 53 pass; red: review-fires
+patch 4 aebbe4225: 54 gates; 53 pass; red: review-fires
+patch 5 af7bf6e74: 54 gates; 53 pass; red: review-fires
+patch 6 c3a53611e: 54 gates; 53 pass; red: review-fires
+patch 7 (as first built): 54 gates; 52 pass; red: views-generated, review-fires
+patch 8 abb2b155b: 54 gates; 53 pass; red: review-fires
+patch 9 42b32801e: 54 gates; 53 pass; red: review-fires
+patch 10 405bf7ccd: 54 gates; 53 pass; red: review-fires
+patch 11 3a1d1b5d2: 54 gates; 53 pass; red: review-fires
+patch 12 d52757012: 54 gates; 53 pass; red: review-fires
+patch 13 785f377ee: 54 gates; 53 pass; red: review-fires
+patch 14 9564fa413: 54 gates; 53 pass; red: review-fires
+patch 15 4f2eca183: 54 gates; 53 pass; red: review-fires
+patch 16 b9b5c81f4: 54 gates; 53 pass; red: review-fires
+patch 17 afba19a03: 54 gates; 53 pass; red: review-fires
+patch 18 30aa9be7a: 54 gates; 53 pass; red: review-fires
+patch 19 786a1f409: 54 gates; 53 pass; red: review-fires
+patch 20 ebe261fd8: 54 gates; 53 pass; red: review-fires
+patch 21 b54e913eb: 54 gates; 53 pass; red: review-fires
+patch 22 2dc512535: 54 gates; 53 pass; red: review-fires
+patch 23 bc80cd3c4: 54 gates; 53 pass; red: review-fires
+patch 24 a2d332404: 54 gates; 53 pass; red: review-fires
+patch 25 c83b1f2f2: 54 gates; 53 pass; red: review-fires
+patch 26 db5c06042: 54 gates; 53 pass; red: review-fires
+patch 7 (as sent): 54 gates; 53 pass; red: review-fires
+patch 8 (as sent): 54 gates; 53 pass; red: review-fires
+
+The one gate red on every patch is the count of landings since Review 80's anchor, which is past 40 on this chain.

@@ -1,0 +1,32 @@
+R80b, part 6, patch 2 (cld-advisor, at main's word in M16 and M18; main's third folder, section 8, row 2, and the first gap of the cold read of part 1): THE PLAN'S PAGE NAMES A RULING IN PLAIN WORDS, AND THE LOCK HOLDS NO NAME
+
+Sent back with part 1: the plan's page named a ruling of 2026-10-08 by three words in single marks, in two
+places, and the lock held the name in a table so that a third place would be reported. Main's word: it cannot
+show that the three words are its own label and not the owner's, so they are treated as his. Both places are
+reworded without marks: the ruling of 2026-10-08 that only even ticks are observed. The lock then holds no
+name and reports any.
+
+What changes:
+  - the plan's source, in two places: main's opinion on one ruling, and one exit. Each says the ruling in
+    plain words. A dated note says what stood, and does not keep the three words;
+  - the page and its data file, built again by the builder;
+  - the lock: its table of names held is empty, with a dated note; a comment that named the ruling in marks
+    is reworded; three lines of its test, which asked that the two places be reported when nothing is held,
+    are replaced under a dated note.
+
+THE FIRST GAP OF THE COLD READ (main's M18, not checked by main; made again here): the exemption asked only
+that the text after the opening mark BEGINS with a held name, so any words could follow the name inside the
+same marks. With the table empty nothing is exempt. The mechanism is mended as well, for the day a name is
+entered: a held name is the whole of what stands in the marks. The test shows it on a table of one name.
+
+THIS PATCH IS A SCRIPT AND NOT A DIFF. A diff would carry the three words in its removed lines. The script
+names each block that goes by its file, its first line and the sha256 of its text, and holds only the lines
+that come in.
+
+WHAT GOES BACK TO MAIN: the same three words still stand in single marks in the plan's source, and so on the
+page, in the table of rulings given to main directly: in the names of two rulings, in main's two questions
+as they were asked, and, in a longer form, in one account of what a ruling means. The lock's reader does not
+report them: their cells address the owner as "you" or do not name him. They are not touched. Whether they
+are reworded, and whether "you" in a question of main's is a word for the owner, is main's to say.
+
+The lock passes: 20 tests. Main's word for the two places; the gap is the reader's and is not checked by main.

@@ -13,7 +13,8 @@ git commit -F relays/advisor_2026-11-10_audit/r80b/on_mains_0e637ea9e/parts_3_to
 git am relays/advisor_2026-11-10_audit/c13/*.patch
 ```
 
-gives the tree this seat built, `687af897eb158ac1fcb5d86ee80afc0cd07b7c67`: tried on a clean checkout. The 26 of
+gives the tree this seat built, `fc4873f53e1a187f6edc33fc16e1d9b71bbc738f`: tried on a clean checkout. (As first sent it was
+`687af897eb158ac1fcb5d86ee80afc0cd07b7c67`; see the last section.) The 26 of
 parts 3 to 5 give the tree of the rebuilt part 5's second patch; the script then says "it is the tree the builder
 made" (`5d7bafb13ba6d3b5b47aa876fa95818f2809dd61`). Part 5's third patch is a script and a diff, as when it was first
 sent, so that no file holds one of the foundation's old passages: none of the 32 files does, checked against your
@@ -75,3 +76,19 @@ own file of the seven pairs.
 | the lock, the ledger, the sweep and the gate | tested against planted errors, by the session that wrote them, with twins |
 | the gates and the tests | computed once |
 | all of it | not independently checked: the cold reading and your own cases are that check |
+
+## Corrected 2026-11-13, after sending: this seat's own fault in patch 4
+
+- **What was wrong.** The gate's test (`tests/test_selection_family.py`) used real arcs as its planted ones: B1204,
+  B1225 and B287 in two planted sentences, and B1904 to B1907 in a planted record. The paper's verification package
+  counts every test file under `tests/` that names one of its records as a lock of that record. So from patch 4 on its
+  manifest was stale, and `tests/test_p3_verification_package.py::test_manifest_is_current` failed.
+- **Why the runs above did not show it.** The run of the series' tests chose test files by what they read (the gates,
+  the views, the sweep, the register, the working rules), and the paper's test reads none of them.
+- **How it was found.** By that test, while building card C14 on top of this series.
+- **The correction.** The planted arcs are numbers that name no arc (B01204 and the like); nothing else of patch 4 is
+  changed, and its message says so. Patches 4 and 5 in this folder are the corrected ones. The paper's test passes on
+  the tip; the gate's test passes (5).
+- **What it moves.** The tip's tree, above, and the trees of R80b's part 6 built on it
+  (`r80b/on_mains_0e637ea9e/part_6/`, whose README and scripts give the trees after the correction).
+

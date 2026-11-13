@@ -1,0 +1,1130 @@
+From 83b55926741344dbd206feedbc46ceb1da3552c7 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 07:48:18 +0000
+Subject: [PATCH] R80b, part 6, patch 6 (cld-advisor, at main's word in M16;
+ three things sent back with R80a): THREE PROBES OF MAIN'S ARE MENDED, BESIDE
+ THE FILES MAIN WROTE
+
+Sent back with R80a (its note, section 4, items 2 to 4), and main's faults by main's word:
+  - sm_rows_probe.py, main's recount of the SM seat's rows, gave another file on another machine. Three times
+    were printed in the zone of the machine; and one row asked whether a commit is in the repository, which
+    it is in main's alone, where it was a scratch commit on no branch. The file main kept gives that row as
+    not held, against main's own table;
+  - builder_rows_probe.py wrote its file and then ended in an error: its rows are numbers and texts, sorted
+    together;
+  - builder_rows_probe2.json is a kept output with no script.
+
+The mend stands in the arc B1898, in verification/mended_in_r80b/, beside main's files as main wrote them
+(verification/checks/), which the arc's lock holds by hash and which are not changed. It is the way main's
+own corrected plant stands in verification/main_at_the_landing/.
+
+  - the recount, mended: the times in UTC; the row asks whether the commit is on a branch or a tag. Run in
+    two zones it gives one output: 15 rows, 15 held. Two rows differ from the file main kept, and one of
+    them now agrees with main's table;
+  - the first probe, mended in its last lines: it runs to its end. 33 cases, 29 made again;
+  - the second probe, WRITTEN AGAIN by the builder from the fourteen lines main kept: one case for each
+    line, given to the package's own function. Each of the fourteen gives the answer main kept. Where a line
+    leaves the case open, the script says that the case is the builder's reading of it.
+
+The two mended scripts are main's but for their marked blocks: each block gives the lines main wrote, and
+with the blocks put back the file is main's byte for byte. The arc's lock holds that, and holds what the
+kept runs say. It does not run the probes again: they answer for the package as it stood on the day, and a
+series that mends a row changes its answer.
+
+The arc's page has a dated note. Its lock passes: 9 tests. Every gate passes but the count of landings.
+Main's faults by main's word; the cases of the second probe are the builder's and are not checked by main.
+---
+ docs/views/REVIEWER.md                        |   2 +-
+ .../FINDINGS.md                               |   8 +
+ .../verification/mended_in_r80b/README.md     |  25 +++
+ .../mended_in_r80b/builder_rows_probe.json    | 200 ++++++++++++++++++
+ .../mended_in_r80b/builder_rows_probe.py      | 138 ++++++++++++
+ .../mended_in_r80b/builder_rows_probe2.json   | 100 +++++++++
+ .../mended_in_r80b/builder_rows_probe2.py     |  97 +++++++++
+ .../builder_rows_probe2_out.txt               |  16 ++
+ .../mended_in_r80b/builder_rows_probe_out.txt |  35 +++
+ .../mended_in_r80b/sm_rows_probe.json         | 141 ++++++++++++
+ .../mended_in_r80b/sm_rows_probe.py           | 123 +++++++++++
+ .../mended_in_r80b/sm_rows_probe_out.txt      |  17 ++
+ .../verification/test_b1898_review_80.py      |  68 ++++++
+ 13 files changed, 969 insertions(+), 1 deletion(-)
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2_out.txt
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe_out.txt
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe_out.txt
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 360d35f90..0249b53ee 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1602** |
+-| words of findings prose | **1,422,278** |
++| words of findings prose | **1,422,437** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1602** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
+index 8d102e287..86c430e63 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
+@@ -203,6 +203,14 @@ object.
+ - **The full suite on a fresh clone** was not run for this arc by the review's tool. What was run on the patch that
+   carries it is in the builder's note with the patch.
+ - **No reader was tested against planted faults,** at this review as at the last (register row P-824).
++- **[ADDED 2026-11-12 (R80b, its sixth part; three things the builder sent back with the patch that carried this
++  arc, main's faults by its word).] Three of main's probes are mended, beside the files main wrote,** in
++  `verification/mended_in_r80b/`. The recount of the SM seat's rows printed three times in the zone of the machine
++  that ran it, and asked of one commit whether it is in the repository, which it is in main's alone: its kept file
++  gives row 16 as not held, against main's own table. Mended, it gives 15 of 15 held on any machine. The first
++  probe of the enforcement package's rows ended in an error after writing its file; it runs to its end. The second
++  was a kept output with no script; a script is written again from its fourteen lines, and each case gives the
++  answer main kept. Main's own files in `verification/checks/` are not changed, and the lock holds them by hash.
+ - **The owner is quoted nowhere in this arc.** One of main's checks, `genesis_v1_67.py`, holds passages of the
+   foundation that it is written to put into plain words; it stands as main wrote it and is not run by the lock.
+ 
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
+new file mode 100644
+index 000000000..c5a10fb0c
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
+@@ -0,0 +1,25 @@
++# Three probes of main's, mended in R80b
++
++Sent back by the builder with R80a (its note, § 4, items 2 to 4); main's faults by its word (its M16 to the builder).
++Main's own files stand as main wrote them in `../checks/`, held there by their hashes. What is here is beside them,
++as main's own corrected plant is in `../main_at_the_landing/`.
++
++| file | what it is |
++|---|---|
++| `sm_rows_probe.py` | main's recount of the SM seat's rows, mended in two things: the three times of SM-04 are printed in UTC, where they were printed in the zone of the machine; SM-16 asks whether a commit is on a branch or a tag, where it asked whether the object is in the repository, which it is in main's alone |
++| `sm_rows_probe.json`, `sm_rows_probe_out.txt` | its run. 15 rows, 15 held. Main's kept file has 14: SM-16 read "not held" on main's machine, against main's own table |
++| `builder_rows_probe.py` | main's first probe of the enforcement package's rows, mended in its last lines: it wrote its file and then ended in an error |
++| `builder_rows_probe.json`, `builder_rows_probe_out.txt` | its run: rows 41 to 45, 33 cases, 29 made again. Main kept no output of this probe |
++| `builder_rows_probe2.py` | main's second probe, **written again by the builder** from the fourteen lines of the output main kept; main's script is not in its folder |
++| `builder_rows_probe2.json`, `builder_rows_probe2_out.txt` | its run: rows 46 to 53, 14 cases, each with the answer main kept |
++
++**The two mended scripts are main's but for their marked blocks.** Each block gives the lines main wrote after `#| `;
++with the blocks put back and the note taken out, the file is main's byte for byte. The arc's lock holds that.
++
++**The runs kept here are of 2026-11-12, on main's `a15516d43` with R80b's parts 2 to 5 and the first five patches of
++its part 6.** The two probes of the package answer for the package as it stood there. A series that mends a row
++changes its answer; the lock does not run them again.
++
++**What the second probe cannot say:** that each case is the case main ran. Main's lines give a case in a few words.
++Where a line leaves the case open (rows 50, 51 and 53), the script's comment says that the case is the builder's
++reading of it.
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.json
+new file mode 100644
+index 000000000..8353ea93c
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.json
+@@ -0,0 +1,200 @@
++[
++ {
++  "row": 41,
++  "case": "(a) the module's mark written with an annotation",
++  "the function answered": "None",
++  "reproduced": true
++ },
++ {
++  "row": 41,
++  "case": "(b) a skip inside a helper that the control calls",
++  "the function answered": "None",
++  "reproduced": true
++ },
++ {
++  "row": 41,
++  "case": "(c) a control with no assert and a bare approx",
++  "the function answered": "None",
++  "reproduced": true
++ },
++ {
++  "row": 41,
++  "case": "the control of the probe: the same mark written plainly",
++  "the function answered": "is in a module marked pytest.mark.skip(reason='never')",
++  "reproduced": true
++ },
++ {
++  "row": 42,
++  "case": "(a) no assert, a bare approx",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 42,
++  "case": "(b) a no-op call before a comparison of literals",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": false
++ },
++ {
++  "row": 42,
++  "case": "(c) the only assert inside an inner function never called",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 42,
++  "case": "the control: a comparison of literals alone",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": true
++ },
++ {
++  "row": 42,
++  "case": "the control: no assert at all",
++  "the function answered": "['NO-ASSERT']",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "a shift of literals",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "a subscript of a literal list",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": false
++ },
++ {
++  "row": 43,
++  "case": "a repeated tuple",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "a dict unpacked into a dict",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "an f-string of literals",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "an annotated binding",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "two names bound at once",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": 43,
++  "case": "the control: a sum of literals",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": true
++ },
++ {
++  "row": 44,
++  "case": "(a) a lock that does not parse is passed over before it is counted",
++  "the function answered": "except Exception: continue",
++  "reproduced": true
++ },
++ {
++  "row": 44,
++  "case": "(b) the key of a test is the file and the function's name, with no class",
++  "the function answered": "f\"{rel}::{fn.name}\"",
++  "reproduced": true
++ },
++ {
++  "row": 44,
++  "case": "(c) only files named test_*.py are collected outside tests/",
++  "the function answered": "\":(glob)**/test_*.py\"",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "the control: one of the gate's phrases written plainly",
++  "the function answered": "seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "the control: asterisks around one word (the gate strips them)",
++  "the function answered": "seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) underscores around one word",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) double underscores around one word",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) an emphasis command around one word",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) a link around one word",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) a tilde in place of one space",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(a) a quoted block broken before one word",
++  "the function answered": "not seen",
++  "reproduced": true
++ },
++ {
++  "row": 45,
++  "case": "(b) the walk skips a folder when '.git' is anywhere in its full path",
++  "the function answered": "if \".git\" in dirpath",
++  "reproduced": true
++ },
++ {
++  "row": "42",
++  "case": "42 (b) again: a bare approx before a comparison of literals",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": "42",
++  "case": "42 (b) again: a call of a helper's attribute before it",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": false
++ },
++ {
++  "row": "43",
++  "case": "43 again: a slice of a literal list",
++  "the function answered": "no class",
++  "reproduced": true
++ },
++ {
++  "row": "43",
++  "case": "43 again: a subscript of a literal dict",
++  "the function answered": "['CANNOT-FAIL']",
++  "reproduced": false
++ }
++]
+\ No newline at end of file
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.py
+new file mode 100644
+index 000000000..14ddaa96a
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe.py
+@@ -0,0 +1,138 @@
++#!/usr/bin/env python3
++"""Review 80: main's reproduction of the rows of agy-002's file that are in the enforcement package's code.
++
++Each case is a constructed source or page given to the package's OWN function, in memory or in a temporary folder.
++Nothing in the repository is changed.  A banned phrase is never written here as a literal: where one is needed it is
++put together from pieces at run time.  Main wrote these from the reader's descriptions and ran none of its code.
++
++    python3 builder_rows_probe.py        # prints each case and what the function answered
++"""
++import ast, importlib.util, json, os, pathlib, subprocess, sys, tempfile
++
++# NOTE OF THE MEND, 2026-11-12 (R80b, part 6; sent back by the builder with R80a, and main's fault by its word in M16).
++# Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in two places, marked as in
++# the other mended probe of this folder: with each marked block put back, and this note taken out, the file is main's.
++#   0. the repository's root was counted two folders up, which is right where main ran the script and wrong here.  It is
++#      found by the gates' own file;
++#   1. the script wrote its file and then ended in an error, in its last two lines: its rows are numbers for its first
++#      cases and texts for its last, and were sorted together.  They are sorted as texts.
++# END OF THE NOTE
++# MENDED (0).  Main wrote:
++#| ROOT = pathlib.Path(__file__).resolve().parents[2]
++ROOT = next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "gates" / "gates.py").is_file())
++# END OF THE MEND
++
++
++def load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec); sys.modules[name] = m; spec.loader.exec_module(m)
++    return m
++
++
++g = load("gates_probe", "scripts/gates/gates.py")
++sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++import check_test_vacuity as ctv
++
++OUT = []
++
++
++def say(row, case, answer, reproduced):
++    OUT.append({"row": row, "case": case, "the function answered": str(answer)[:160], "reproduced": bool(reproduced)})
++    print("row %-3s %-88s -> %-46s %s" % (row, case[:88], str(answer)[:46], "REPRODUCED" if reproduced else "not reproduced"))
++
++
++def classes(src, name="test_x"):
++    """the classes the vacuity checker gives the test `name` of `src`, by the same steps as its read_locks"""
++    tree = ast.parse(src)
++    fn = next(n for n in ast.walk(tree) if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == name)
++    asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
++    calls = {getattr(getattr(n, "func", None), "attr", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
++    out = []
++    if not asserts and not (ctv._OK_CALLS & calls):
++        out.append("NO-ASSERT")
++    elif ctv.cannot_fail(fn):
++        out.append("CANNOT-FAIL")
++    return out
++
++
++# ---------------------------------------------------------------------------------------------- row 41: the controls gate
++honest = "import pytest\n\ndef compute():\n    return 1\n"
++c41 = {
++    "(a) the module's mark written with an annotation": "import pytest\npytestmark: object = pytest.mark.skip(reason='never')\n\ndef test_control():\n    assert compute() == 1\n\ndef compute():\n    return 1\n",
++    "(b) a skip inside a helper that the control calls": honest + "\ndef _bail():\n    pytest.skip('never')\n\ndef test_control():\n    _bail()\n    assert compute() == 1\n",
++    "(c) a control with no assert and a bare approx": honest + "\ndef test_control():\n    pytest.approx(compute())\n",
++    "the control of the probe: the same mark written plainly": "import pytest\npytestmark = pytest.mark.skip(reason='never')\n\ndef test_control():\n    assert compute() == 1\n\ndef compute():\n    return 1\n",
++}
++for k, src in c41.items():
++    a = g.control_cannot_control(src, "test_control")
++    say(41, k, a, (a is None) != k.startswith("the control"))
++
++# ------------------------------------------------------------------------------------------- rows 42 and 43: the checker
++c42 = {
++    "(a) no assert, a bare approx": "import pytest\ndef test_x():\n    pytest.approx(1.0)\n",
++    "(b) a no-op call before a comparison of literals": "def noop():\n    pass\ndef test_x():\n    noop()\n    assert 2 + 2 == 4\n",
++    "(c) the only assert inside an inner function never called": "def test_x():\n    def inner():\n        assert compute() == 1\n    x = 1\n",
++    "the control: a comparison of literals alone": "def test_x():\n    assert 2 + 2 == 4\n",
++    "the control: no assert at all": "def test_x():\n    x = 1\n",
++}
++for k, src in c42.items():
++    a = classes(src)
++    say(42, k, a or "no class", (a == []) != k.startswith("the control"))
++c43 = {
++    "a shift of literals": "def test_x():\n    assert 1 << 3 == 8\n",
++    "a subscript of a literal list": "def test_x():\n    assert [1, 2, 3][0] == 1\n",
++    "a repeated tuple": "def test_x():\n    assert (1, 2) * 2 == (1, 2, 1, 2)\n",
++    "a dict unpacked into a dict": "def test_x():\n    assert {**{'a': 1}} == {'a': 1}\n",
++    "an f-string of literals": "def test_x():\n    assert f\"{1}\" == '1'\n",
++    "an annotated binding": "def test_x():\n    x: int = 3\n    assert x == 3\n",
++    "two names bound at once": "def test_x():\n    x = y = 3\n    assert x == y\n",
++    "the control: a sum of literals": "def test_x():\n    assert 1 + 2 == 3\n",
++}
++for k, src in c43.items():
++    a = classes(src)
++    say(43, k, a or "no class", (a == []) != k.startswith("the control"))
++
++# ------------------------------------------------------------------------------------------------- row 44: by the code
++src = (ROOT / "scripts/checks/check_test_vacuity.py").read_text(encoding="utf-8")
++say(44, "(a) a lock that does not parse is passed over before it is counted", "except Exception: continue" if "        except Exception:\n            continue\n        for fn in ast.walk(tree):" in src else "the lines differ",
++    "        except Exception:\n            continue\n        for fn in ast.walk(tree):" in src)
++say(44, "(b) the key of a test is the file and the function's name, with no class", 'f"{rel}::{fn.name}"' if 'f"{rel}::{fn.name}"' in src else "differs", 'f"{rel}::{fn.name}"' in src and "ClassDef" not in src)
++say(44, "(c) only files named test_*.py are collected outside tests/", '":(glob)**/test_*.py"' if '":(glob)**/test_*.py"' in src else "differs", '":(glob)**/test_*.py"' in src and "_test.py" not in src.replace("test_*.py", ""))
++
++# ------------------------------------------------------------------------------------------- row 45: the framing gate
++def seen(page_text):
++    plain = g._framing_plain(page_text)
++    return any(g._framing_plain(ph) in plain for ph in g.BANNED)
++ph = next(x for x in g.BANNED if len(x.split()) >= 3)           # one of the gate's own phrases; never printed
++w = ph.split(); mid = len(w) // 2
++wrap = lambda l, r: " ".join(w[:mid] + [l + w[mid] + r] + w[mid + 1:])
++c45 = {
++    "the control: one of the gate's phrases written plainly": ph,
++    "the control: asterisks around one word (the gate strips them)": wrap("*", "*"),
++    "(a) underscores around one word": wrap("_", "_"),
++    "(a) double underscores around one word": wrap("__", "__"),
++    "(a) an emphasis command around one word": wrap("\\emph{", "}"),
++    "(a) a link around one word": wrap("[", "](http://x)"),
++    "(a) a tilde in place of one space": " ".join(w[:mid]) + "~" + " ".join(w[mid:]),
++    "(a) a quoted block broken before one word": "> " + " ".join(w[:mid]) + "\n> " + " ".join(w[mid:]),
++}
++for k, s_ in c45.items():
++    a_ = seen("It is said here that " + s_ + ".")
++    say(45, k, "seen" if a_ else "not seen", (not a_) if k.startswith("(a)") else a_)
++gsrc = (ROOT / "scripts/gates/gates.py").read_text(encoding="utf-8")
++say(45, "(b) the walk skips a folder when '.git' is anywhere in its full path", 'if ".git" in dirpath' if 'if ".git" in dirpath or "__pycache__" in dirpath' in gsrc else "differs", 'if ".git" in dirpath or "__pycache__" in dirpath' in gsrc)
++
++# ------------------------------------------------------------------------------- rows 42 (b) and 43 again, other forms
++for k, src_ in {"42 (b) again: a bare approx before a comparison of literals": "import pytest\ndef test_x():\n    pytest.approx(1.0)\n    assert 2 + 2 == 4\n",
++                "42 (b) again: a call of a helper's attribute before it": "import helpers\ndef test_x():\n    helpers.noop()\n    assert 2 + 2 == 4\n",
++                "43 again: a slice of a literal list": "def test_x():\n    assert [1, 2, 3][0:2] == [1, 2]\n",
++                "43 again: a subscript of a literal dict": "def test_x():\n    assert {'a': 1}['a'] == 1\n"}.items():
++    a_ = classes(src_)
++    say(k[:2], k, a_ or "no class", a_ == [])
++
++json.dump(OUT, open(pathlib.Path(__file__).with_name("builder_rows_probe.json"), "w"), indent=1)
++# MENDED (1).  Main wrote:
++#| rows = sorted({o["row"] for o in OUT})
++rows = sorted({str(o["row"]) for o in OUT})
++# END OF THE MEND
++print("\nrows probed:", rows, "| cases: %d | reproduced: %d" % (len(OUT), sum(o["reproduced"] for o in OUT)))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.json
+new file mode 100644
+index 000000000..02023bbc0
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.json
+@@ -0,0 +1,100 @@
++[
++ {
++  "row": 46,
++  "case": "(a) a file whose only 'def test' is inside its docstring is taken for a lock",
++  "answer": "True",
++  "main kept": "True",
++  "the same as main kept": true
++ },
++ {
++  "row": 47,
++  "case": "(a) a row of two quoted phrases joined by a slash",
++  "answer": "reading",
++  "main kept": "reading",
++  "the same as main kept": true
++ },
++ {
++  "row": 47,
++  "case": "(a) a row whose scope note is in italics",
++  "answer": "reading",
++  "main kept": "reading",
++  "the same as main kept": true
++ },
++ {
++  "row": 47,
++  "case": "the control: the same with a plain bracket",
++  "answer": "swept",
++  "main kept": "swept",
++  "the same as main kept": true
++ },
++ {
++  "row": 47,
++  "case": "(c) the flattening leaves asterisks and a curly apostrophe",
++  "answer": "\"the *weave's* lifts\" 'the weave’s lifts'",
++  "main kept": "\"the *weave's* lifts\" 'the weave’s lifts'",
++  "the same as main kept": true
++ },
++ {
++  "row": 48,
++  "case": "a new ceiling of five and a half, with none at the anchor",
++  "answer": "(None, '')",
++  "main kept": "(None, '')",
++  "the same as main kept": true
++ },
++ {
++  "row": 48,
++  "case": "the control: a new ceiling of five",
++  "answer": "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since th",
++  "main kept": "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since th",
++  "the same as main kept": true
++ },
++ {
++  "row": 49,
++  "case": "a rise of one covered by a recorded raise from false to true",
++  "answer": "(None, '; the baseline was raised 1 time(s) by n')",
++  "main kept": "(None, '; the baseline was raised 1 time(s) by n')",
++  "the same as main kept": true
++ },
++ {
++  "row": 49,
++  "case": "the control: the same rise with no raise recorded",
++  "answer": "the baseline rose 1 -> 2 since the anchor, and the raises recorded sin",
++  "main kept": "the baseline rose 1 -> 2 since the anchor, and the raises recorded sin",
++  "the same as main kept": true
++ },
++ {
++  "row": 50,
++  "case": "the status is looked for as a whole cell",
++  "answer": "True",
++  "main kept": "True",
++  "the same as main kept": true
++ },
++ {
++  "row": 51,
++  "case": "the page's history is read with no --reverse",
++  "answer": "False",
++  "main kept": "False",
++  "the same as main kept": true
++ },
++ {
++  "row": 52,
++  "case": "(a) a row with three hyphens in its prose",
++  "answer": "['Another law']",
++  "main kept": "['Another law']",
++  "the same as main kept": true
++ },
++ {
++  "row": 53,
++  "case": "(a) the test's pattern for a read of the clock, on the harvest checker's line",
++  "answer": "False",
++  "main kept": "False",
++  "the same as main kept": true
++ },
++ {
++  "row": 53,
++  "case": "(b) the subcommand read from a call that begins with -c",
++  "answer": "(None, '-c')",
++  "main kept": "(None, '-c')",
++  "the same as main kept": true
++ }
++]
+\ No newline at end of file
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.py
+new file mode 100644
+index 000000000..ed1ca25ac
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2.py
+@@ -0,0 +1,97 @@
++#!/usr/bin/env python3
++"""Review 80: main's second probe of the rows of agy-002's file that are in the enforcement package's code, WRITTEN AGAIN.
++
++Main kept the output of this probe (../checks/builder_rows_probe2.json: rows 46 to 53, fourteen cases, each made again)
++and not its script.  Sent back by the builder with R80a; main's fault by its word in M16.  This script is the builder's,
++written on 2026-11-12 from the fourteen kept lines: one case for each line, under the line's own words, given to the
++package's own function.  It prints each case, what the function answered, and whether the answer is the one main kept.
++
++What it cannot say: that a case here is the case main ran.  Main's lines give the case in a few words and the answer cut
++short; where a line leaves the case open, the case below is the builder's reading of it, and its comment says so.
++
++Nothing in the repository is changed.  The answers are those of the package as it stands where the script is run: a
++series that mends a row changes its answer, and the kept file beside this script says on which commit it was run.
++
++    python3 builder_rows_probe2.py        # prints the cases, and writes builder_rows_probe2.json beside itself
++"""
++import importlib.util, inspect, json, pathlib, re, subprocess, sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = next(p for p in HERE.parents if (p / "scripts" / "gates" / "gates.py").is_file())
++KEPT = json.loads((HERE.parent / "checks" / "builder_rows_probe2.json").read_text(encoding="utf-8"))
++
++
++def load(name, rel):
++    spec = importlib.util.spec_from_file_location(name, ROOT / rel)
++    m = importlib.util.module_from_spec(spec); sys.modules[name] = m; spec.loader.exec_module(m)
++    return m
++
++
++g = load("gates_probe2", "scripts/gates/gates.py")
++sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++import retraction_sweep as rs
++
++OUT = []
++
++
++def say(row, case, answer):
++    kept = next((k for k in KEPT if k["row"] == row and k["case"] == case), None)
++    same = kept is not None and kept["answer"] == answer
++    OUT.append({"row": row, "case": case, "answer": answer, "main kept": kept["answer"] if kept else None, "the same as main kept": same})
++    print("row %-3s %-82s -> %-52s %s" % (row, case[:82], answer[:52], "AS MAIN KEPT" if same else "NOT AS MAIN KEPT"))
++
++
++# ---- row 46: the claims gate asks that a cited lock holds a test, by one pattern on the file's text
++pattern = re.search(r're\.search\(r"([^"]+)", open\(full', inspect.getsource(g.gate_claims))
++a_file = '"""a file of notes\n\n    def test_this_is_inside_the_docstring():\n        pass\n"""\nX = 1\n'
++say(46, "(a) a file whose only 'def test' is inside its docstring is taken for a lock",
++    str(bool(pattern and re.search(pattern.group(1), a_file, re.M))))
++
++# ---- row 47: the sweep's reader of a registry row, and its flattening of a line
++kind = lambda row: rs.rows_in("| phrase | arc | why |\n|---|---|---|\n" + row + "\n")[0][0]
++say(47, "(a) a row of two quoted phrases joined by a slash", kind('| "a first phrase" / "a second phrase" | B1, 2026-11-12 | why |'))
++say(47, "(a) a row whose scope note is in italics", kind('| "a phrase" *(of the whole family)* | B1, 2026-11-12 | why |'))
++say(47, "the control: the same with a plain bracket", kind('| "a phrase" (of the whole family) | B1, 2026-11-12 | why |'))
++say(47, "(c) the flattening leaves asterisks and a curly apostrophe",
++    "%r %r" % (rs._flatten("the *weave's* lifts"), rs._flatten("the weave’s lifts")))
++
++# ---- row 48: a ceiling that is no whole number
++path = "docs/ATTRIBUTION_BASELINE.json"
++say(48, "a new ceiling of five and a half, with none at the anchor", str(g.ceiling_rises(path, {"a/page.md": 5.5}, {})))
++say(48, "the control: a new ceiling of five", str(g.ceiling_rises(path, {"a/page.md": 5}, {})[0])[:60])
++
++# ---- row 49: a raise of the baseline recorded "from false to true"
++then = {"unearned": 1, "_baseline_raises": []}
++a_raise = {"date": "2026-11-12", "reason": "a reason", "from": False, "to": True}
++problem, note = g.baseline_rise({"unearned": 2, "_baseline_raises": [a_raise]}, then)
++say(49, "a rise of one covered by a recorded raise from false to true", str((problem, note[:40])))
++say(49, "the control: the same rise with no raise recorded", str(g.baseline_rise({"unearned": 2, "_baseline_raises": []}, then)[0])[:70])
++
++# ---- row 50: the identification register reads a row's status as a whole cell (the builder's reading of main's line: the gate's
++#      own line is looked for in its source)
++say(50, "the status is looked for as a whole cell",
++    str('if c in ("EARNED", "REFUTED", "UNEARNED")' in inspect.getsource(g.gate_identification_register)))
++
++# ---- row 51: what a page has held is taken from the log of its history (the builder's reading: the option is looked for in the
++#      source of the function that reads that log)
++say(51, "the page's history is read with no --reverse", str("--reverse" in inspect.getsource(g.held_since)))
++
++# ---- row 52: a law's row is passed over when three hyphens stand anywhere on its line
++law_map = ("| law | arc | status |\n|---|---|---|\n"
++           "| **A law with a dash in its prose** | B1 --- and a note | THEOREM |\n"
++           "| **Another law** | B2 | THEOREM |\n")
++say(52, "(a) a row with three hyphens in its prose", str(g._law_titles(law_map)))
++
++# ---- row 53: the test that gates are a function of the commit
++test = (ROOT / "tests" / "test_gates_are_a_function_of_the_commit.py").read_text(encoding="utf-8")
++clock = re.compile(re.search(r'clock = re\.compile\(r"([^"]+)"\)', test).group(1))
++harvest = (ROOT / "scripts" / "checks" / "harvest_debt.py").read_text(encoding="utf-8").split("\n")
++line = next((l for l in harvest if "fromtimestamp(" in l), "")          # the builder's reading: the line that takes a day in the machine's zone
++say(53, "(a) the test's pattern for a read of the clock, on the harvest checker's line", str(bool(line) and bool(clock.search(line.split("#", 1)[0]))))
++sub = re.compile(re.search(r"_SUB = re\.compile\(r'''(.+?)'''\)", test).group(1))
++say(53, "(b) the subcommand read from a call that begins with -c", str(sub.search('["git", "-c", "user.name=x", "log", "-1"]').groups()))
++
++json.dump(OUT, open(HERE / "builder_rows_probe2.json", "w"), indent=1, ensure_ascii=False)
++print("\nrows probed: %s | cases: %d | the same as main kept: %d | main's kept lines with no case here: %d"
++      % (sorted({o["row"] for o in OUT}), len(OUT), sum(o["the same as main kept"] for o in OUT),
++         sum(1 for k in KEPT if not any(o["row"] == k["row"] and o["case"] == k["case"] for o in OUT))))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2_out.txt
+new file mode 100644
+index 000000000..c40253ed5
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe2_out.txt
+@@ -0,0 +1,16 @@
++row 46  (a) a file whose only 'def test' is inside its docstring is taken for a lock       -> True                                                 AS MAIN KEPT
++row 47  (a) a row of two quoted phrases joined by a slash                                  -> reading                                              AS MAIN KEPT
++row 47  (a) a row whose scope note is in italics                                           -> reading                                              AS MAIN KEPT
++row 47  the control: the same with a plain bracket                                         -> swept                                                AS MAIN KEPT
++row 47  (c) the flattening leaves asterisks and a curly apostrophe                         -> "the *weave's* lifts" 'the weave’s lifts'            AS MAIN KEPT
++row 48  a new ceiling of five and a half, with none at the anchor                          -> (None, '')                                           AS MAIN KEPT
++row 48  the control: a new ceiling of five                                                 -> 1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose  AS MAIN KEPT
++row 49  a rise of one covered by a recorded raise from false to true                       -> (None, '; the baseline was raised 1 time(s) by n')   AS MAIN KEPT
++row 49  the control: the same rise with no raise recorded                                  -> the baseline rose 1 -> 2 since the anchor, and the r AS MAIN KEPT
++row 50  the status is looked for as a whole cell                                           -> True                                                 AS MAIN KEPT
++row 51  the page's history is read with no --reverse                                       -> False                                                AS MAIN KEPT
++row 52  (a) a row with three hyphens in its prose                                          -> ['Another law']                                      AS MAIN KEPT
++row 53  (a) the test's pattern for a read of the clock, on the harvest checker's line      -> False                                                AS MAIN KEPT
++row 53  (b) the subcommand read from a call that begins with -c                            -> (None, '-c')                                         AS MAIN KEPT
++
++rows probed: [46, 47, 48, 49, 50, 51, 52, 53] | cases: 14 | the same as main kept: 14 | main's kept lines with no case here: 0
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe_out.txt
+new file mode 100644
+index 000000000..aac290384
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/builder_rows_probe_out.txt
+@@ -0,0 +1,35 @@
++row 41  (a) the module's mark written with an annotation                                         -> None                                           REPRODUCED
++row 41  (b) a skip inside a helper that the control calls                                        -> None                                           REPRODUCED
++row 41  (c) a control with no assert and a bare approx                                           -> None                                           REPRODUCED
++row 41  the control of the probe: the same mark written plainly                                  -> is in a module marked pytest.mark.skip(reason= REPRODUCED
++row 42  (a) no assert, a bare approx                                                             -> no class                                       REPRODUCED
++row 42  (b) a no-op call before a comparison of literals                                         -> ['CANNOT-FAIL']                                not reproduced
++row 42  (c) the only assert inside an inner function never called                                -> no class                                       REPRODUCED
++row 42  the control: a comparison of literals alone                                              -> ['CANNOT-FAIL']                                REPRODUCED
++row 42  the control: no assert at all                                                            -> ['NO-ASSERT']                                  REPRODUCED
++row 43  a shift of literals                                                                      -> no class                                       REPRODUCED
++row 43  a subscript of a literal list                                                            -> ['CANNOT-FAIL']                                not reproduced
++row 43  a repeated tuple                                                                         -> no class                                       REPRODUCED
++row 43  a dict unpacked into a dict                                                              -> no class                                       REPRODUCED
++row 43  an f-string of literals                                                                  -> no class                                       REPRODUCED
++row 43  an annotated binding                                                                     -> no class                                       REPRODUCED
++row 43  two names bound at once                                                                  -> no class                                       REPRODUCED
++row 43  the control: a sum of literals                                                           -> ['CANNOT-FAIL']                                REPRODUCED
++row 44  (a) a lock that does not parse is passed over before it is counted                       -> except Exception: continue                     REPRODUCED
++row 44  (b) the key of a test is the file and the function's name, with no class                 -> f"{rel}::{fn.name}"                            REPRODUCED
++row 44  (c) only files named test_*.py are collected outside tests/                              -> ":(glob)**/test_*.py"                          REPRODUCED
++row 45  the control: one of the gate's phrases written plainly                                   -> seen                                           REPRODUCED
++row 45  the control: asterisks around one word (the gate strips them)                            -> seen                                           REPRODUCED
++row 45  (a) underscores around one word                                                          -> not seen                                       REPRODUCED
++row 45  (a) double underscores around one word                                                   -> not seen                                       REPRODUCED
++row 45  (a) an emphasis command around one word                                                  -> not seen                                       REPRODUCED
++row 45  (a) a link around one word                                                               -> not seen                                       REPRODUCED
++row 45  (a) a tilde in place of one space                                                        -> not seen                                       REPRODUCED
++row 45  (a) a quoted block broken before one word                                                -> not seen                                       REPRODUCED
++row 45  (b) the walk skips a folder when '.git' is anywhere in its full path                     -> if ".git" in dirpath                           REPRODUCED
++row 42  42 (b) again: a bare approx before a comparison of literals                              -> no class                                       REPRODUCED
++row 42  42 (b) again: a call of a helper's attribute before it                                   -> ['CANNOT-FAIL']                                not reproduced
++row 43  43 again: a slice of a literal list                                                      -> no class                                       REPRODUCED
++row 43  43 again: a subscript of a literal dict                                                  -> ['CANNOT-FAIL']                                not reproduced
++
++rows probed: ['41', '42', '43', '44', '45'] | cases: 33 | reproduced: 29
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.json
+new file mode 100644
+index 000000000..90031b75f
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.json
+@@ -0,0 +1,141 @@
++{
++ "SM-04": {
++  "main finds": {
++   "last message": "2026-11-11 23:11:54 UTC",
++   "c66c8ccae": "2026-11-11 23:20:21 UTC",
++   "entry": "2026-11-12 02:04:24 UTC",
++   "commits between": 3,
++   "c66c8ccae touches": [
++    "CHANGELOG.md",
++    "PROGRESS_LOG.md",
++    "docs/CAMPAIGN_STATUS.md",
++    "docs/POINT_REGISTER.md",
++    "docs/SEAL_LEDGER.md"
++   ]
++  },
++  "held": true
++ },
++ "SM-07": {
++  "main finds": {
++   "the sentence says the rule does not count a pair and then gives 88 and ten": true
++  },
++  "held": true
++ },
++ "SM-11": {
++  "main finds": {
++   "the run file says patch 6 was not run by main": true,
++   "the page says each patch's lock fails on the commit before it": true
++  },
++  "held": true
++ },
++ "SM-16": {
++  "main finds": {
++   "f6e89032a is on a branch or a tag of this repository": false
++  },
++  "held": true
++ },
++ "SM-18": {
++  "main finds": {
++   "anchor": "896cae025",
++   "tests/test_*.py": 1525,
++   "of them test_b*.py": 1408
++  },
++  "held": true
++ },
++ "SM-19": {
++  "main finds": {
++   "tests at the commit read": 15,
++   "along the lock's history (oldest first)": [
++    5,
++    5,
++    10,
++    14,
++    15
++   ],
++   "B1895 still says fourteen": true,
++   "the lock's comment says four": true
++  },
++  "held": true
++ },
++ "SM-27": {
++  "main finds": {
++   "places": [
++    "CHANGELOG.md",
++    "docs/HARVEST_LEDGER.md",
++    "docs/LAW_MAP.md",
++    "docs/POINT_REGISTER.md",
++    "docs/THEOREM_REGISTRY.md",
++    "docs/seats/agy-002.md",
++    "docs/views/VERDICT_LEDGER.md",
++    "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
++    "frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py"
++   ],
++   "lines": 12
++  },
++  "held": true
++ },
++ "SM-28": {
++  "main finds": {
++   "the plan's page holds the confirmation as a block quotation at line": [
++    978
++   ],
++   "its length in characters": 40,
++   "the builder emits it": true,
++   "the builder refuses to build without it": true
++  },
++  "held": true
++ },
++ "SM-29": {
++  "main finds": {
++   "the lock's assertion looks for one phrase and forbids one spelling": true
++  },
++  "held": true
++ },
++ "SM-31": {
++  "main finds": {
++   "docstring says two planted lines": true,
++   "an assertion of three lines": true
++  },
++  "held": true
++ },
++ "SM-34": {
++  "main finds": {
++   "levels 2..200 other than 5: with no root": 173,
++   "with one": 0,
++   "with two": 25,
++   "with four": 0,
++   "at 5": 1,
++   "at 209": 4,
++   "the page's bracket": true
++  },
++  "held": true
++ },
++ "SM-35": {
++  "main finds": {
++   "the verdict line says main's own convention": true
++  },
++  "held": true
++ },
++ "SM-21": {
++  "main finds": {
++   "files of B1895 that hold the sentence": [],
++   "B1897 says B1895 said it": true
++  },
++  "held": true
++ },
++ "SM-20": {
++  "main finds": {
++   "\u00a7 5 still says the reader's plants were not run": true,
++   "the verdict line still says ten tests": true,
++   "the page names 17 of 23 somewhere": false
++  },
++  "held": true
++ },
++ "SM-15": {
++  "main finds": {
++   "the page says the cases that pass are for the series after it": true,
++   "and names the fourth series for one of them": true
++  },
++  "held": true
++ }
++}
+\ No newline at end of file
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.py
+new file mode 100644
+index 000000000..98f106cc0
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe.py
+@@ -0,0 +1,123 @@
++#!/usr/bin/env python3
++"""Review 80: main's own recount of the rows of the SM seat's file that are counts, dates or the presence of a sentence.
++Everything is read from git at c40446392 (what the seat read).  The owner's words are never printed: where a row is about
++a quotation of him, only the line's number and its length are given."""
++# NOTE OF THE MEND, 2026-11-12 (R80b, part 6; sent back by the builder with R80a, and main's fault by its word in M16).
++# Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in four places.  Each is
++# marked: the lines main wrote stand after "#| ", the lines that replace them follow, to "# END OF THE MEND".  With each
++# marked block put back, and this note taken out, the file is main's, byte for byte: the arc's lock holds that.
++#   0. two modules more are imported, for the mends below;
++#   1. the three times of SM-04 were printed in the zone of the machine that ran the script, so the kept file read one
++#      hour apart on two machines.  They are printed in UTC, and say so;
++#   2. SM-16 asked whether f6e89032a is a commit in the repository.  It is an object in main's repository, where it was a
++#      scratch commit on no branch, and in no clone; so the row read "not held" on main's machine, against main's own
++#      table, and "held" in every clone.  It asks now whether the commit is on a branch or a tag, which is the same in
++#      main's repository and in a clone;
++#   3. the output was written to a folder of main's own working tree.  It is written beside this script.
++# END OF THE NOTE
++# MENDED (0).  Main wrote:
++#| import subprocess, json, re, math, ast
++import os, pathlib, subprocess, json, re, math, ast
++# END OF THE MEND
++AT = "c40446392"
++def git(*a):
++    r = subprocess.run(["git", *a], capture_output=True, text=True); return r.stdout if r.returncode == 0 else None
++def show(p, rev=AT): return git("show", "%s:%s" % (rev, p))
++def ls(prefix, rev=AT): return [p for p in git("ls-tree", "-r", "--name-only", rev).split("\n") if p.startswith(prefix)]
++OUT = {}
++def say(row, what, held):
++    OUT[row] = {"main finds": what, "held": bool(held)}; print("%-10s %-5s %s" % (row, "HELD" if held else "NOT", str(what)[:330]))
++
++# ---- SM-04: was anything landed between the last message to the readers and the entry?
++# MENDED (1).  Main wrote:
++#| t = lambda c: git("log", "-1", "--format=%cd", "--date=format-local:%Y-%m-%d %H:%M:%S", c).strip()
++t = lambda c: subprocess.run(["git", "log", "-1", "--format=%cd", "--date=format-local:%Y-%m-%d %H:%M:%S UTC", c],
++                             capture_output=True, text=True, env=dict(os.environ, TZ="UTC")).stdout.strip()
++# END OF THE MEND
++between = git("log", "--format=%h", "f8b5e6769..84baf38fb", "--first-parent").split()
++files = git("show", "--stat", "--format=", "c66c8ccae").strip().split("\n")
++touched = [l.split("|")[0].strip() for l in files if "|" in l]
++say("SM-04", {"last message": t("f8b5e6769"), "c66c8ccae": t("c66c8ccae"), "entry": t("84baf38fb"), "commits between": len(between), "c66c8ccae touches": [p for p in touched if p in ("CHANGELOG.md", "PROGRESS_LOG.md", "docs/CAMPAIGN_STATUS.md", "docs/POINT_REGISTER.md") or "SEAL" in p.upper()]},
++    "c66c8ccae" in " ".join(between) and "CHANGELOG.md" in touched)
++
++# ---- SM-07: the answers' own sentence on what the rule counts
++ans = show(next(p for p in ls("frontier/B1892_") if p.endswith("ANSWERS.md")))
++i = ans.find("which the rule does not count"); seg = " ".join(ans[max(0, i - 500):i + 220].split())
++say("SM-07", {"the sentence says the rule does not count a pair and then gives 88 and ten": ("does not count" in seg and "88 distinct" in seg and "ten were found twice" in seg)}, "does not count" in seg and "88 distinct" in seg)
++
++# ---- SM-11: the run file's own line on patch 6
++run = show(next(p for p in ls("frontier/B1893_") if p.endswith("each_patchs_lock_on_the_commit_before_run.txt")))
++say("SM-11", {"the run file says patch 6 was not run by main": "not run by main" in run, "the page says each patch's lock fails on the commit before it": "Each patch's lock fails on the commit before it" in show(next(p for p in ls("frontier/B1893_") if p.endswith("FINDINGS.md")))}, "not run by main" in run)
++
++# ---- SM-16: is f6e89032a a commit here?
++# MENDED (2).  Main wrote:
++#| say("SM-16", {"f6e89032a is a commit in this repository": git("cat-file", "-t", "f6e89032a") is not None}, git("cat-file", "-t", "f6e89032a") is None)
++on_a_ref = [l for l in (git("for-each-ref", "--contains", "f6e89032a", "--format=%(refname)") or "").split("\n") if l]
++say("SM-16", {"f6e89032a is on a branch or a tag of this repository": bool(on_a_ref)}, not on_a_ref)
++# END OF THE MEND
++
++# ---- SM-18: test files in tests/ at the series' anchor (the page's own anchor is named in its text)
++f93 = show(next(p for p in ls("frontier/B1893_") if p.endswith("FINDINGS.md")))
++anchor = re.search(r"anchor[^`]*`([0-9a-f]{7,10})`", f93)
++anc = anchor.group(1) if anchor else None
++if anc and git("cat-file", "-t", anc):
++    tests = [p for p in git("ls-tree", "-r", "--name-only", anc, "tests/").split("\n") if re.match(r"tests/test_[^/]*\.py$", p)]
++    say("SM-18", {"anchor": anc, "tests/test_*.py": len(tests), "of them test_b*.py": sum(1 for p in tests if re.match(r"tests/test_b[^/]*\.py$", p))}, len(tests) != 1407)
++else:
++    say("SM-18", {"anchor not read from the page": anc}, False)
++
++# ---- SM-19: the tests of B1881's lock, now and along its history
++lockp = next(p for p in ls("frontier/B1881_") if "/test_b1881" in p)
++def ntests(rev):
++    s = show(lockp, rev); return None if s is None else sum(1 for n in ast.walk(ast.parse(s)) if isinstance(n, ast.FunctionDef) and n.name.startswith("test_"))
++hist = git("log", "--format=%h", AT, "--", lockp).split()
++say("SM-19", {"tests at the commit read": ntests(AT), "along the lock's history (oldest first)": [ntests(c) for c in reversed(hist)],
++             "B1895 still says fourteen": "the lock has fourteen tests now" in show(next(p for p in ls("frontier/B1895_") if p.endswith("FINDINGS.md"))),
++             "the lock's comment says four": "The four tests below hold the six." in show(lockp)}, ntests(AT) == 15)
++
++# ---- SM-27: the old sign of the index for a unit on one line, where it still stands
++hits = [l for l in (git("grep", "-n", "-F", "-e", "a unit on one line gives index one", "-e", "a unit on one line gives one", AT, "--", "*.md", "*.py") or "").split("\n") if l]
++say("SM-27", {"places": sorted({l.split(":")[1] for l in hits}), "lines": len(hits)}, len(hits) >= 2)
++
++# ---- SM-28 and SM-29: a block quotation of the owner on the plan (the words are not printed)
++prog = show("frontier/B1861_the_closure_programme/PROGRAMME.md").split("\n")
++src = show("frontier/B1861_the_closure_programme/verification/programme_source.py"); bld = show("frontier/B1861_the_closure_programme/verification/build_programme.py")
++m = re.search(r"CONFIRMATION\s*=\s*\(", src)
++conf = ast.literal_eval(re.search(r"CONFIRMATION\s*=\s*(\(.*?\))\n", src, re.S).group(1)) if m else None
++quoted = [k + 1 for k, l in enumerate(prog) if conf and l.strip() == '> "%s"' % conf[1]]
++say("SM-28", {"the plan's page holds the confirmation as a block quotation at line": quoted, "its length in characters": (len(conf[1]) if conf else None),
++             "the builder emits it": '"> \\"%s\\"" % S.CONFIRMATION[1]' in bld, "the builder refuses to build without it": "rulings are marked confirmed with no date or no words of the owner" in bld}, bool(quoted))
++lock61 = show(next(p for p in ls("frontier/B1861_") if "/test_b1861" in p))
++say("SM-29", {"the lock's assertion looks for one phrase and forbids one spelling": 'assert "the option the owner chose, in main\'s label" in page and "NOT CONFIRMED: the owner, \\"" not in page' in lock61}, 'NOT CONFIRMED: the owner, \\"' in lock61)
++
++# ---- SM-31: the lock's docstring against its assertion
++l81 = show(lockp)
++say("SM-31", {"docstring says two planted lines": "with two planted lines the scan must report" in l81, "an assertion of three lines": "[2, 3, 4]" in l81}, "with two planted lines the scan must report" in l81 and "[2, 3, 4]" in l81)
++
++# ---- SM-34: the roots of x^2 - x - 1 at each level
++roots = {N: sum(1 for x in range(N) if (x * x - x - 1) % N == 0) for N in range(2, 211)}
++c = {k: sum(1 for N, v in roots.items() if N <= 200 and N != 5 and v == k) for k in (0, 1, 2, 4)}
++say("SM-34", {"levels 2..200 other than 5: with no root": c[0], "with one": c[1], "with two": c[2], "with four": c[4], "at 5": roots[5], "at 209": roots[209],
++             "the page's bracket": "LR keeps exactly one point at N = 5, and two at other levels.]" in show(next(p for p in ls("frontier/B1884_") if p.endswith("FINDINGS.md")))}, c[0] == 173 and c[2] == 25 and roots[209] == 4)
++
++# ---- SM-35: the verdict line's words
++v84 = json.loads(show(next(p for p in ls("frontier/B1884_") if p.endswith("arc_verdict.json"))))
++say("SM-35", {"the verdict line says main's own convention": "The same counts hold in main's own convention." in v84["claim_one_line"]}, "main's own convention" in v84["claim_one_line"])
++
++# ---- SM-21: is the sentence B1897 attributes to B1895 in any file of B1895?
++phr = ["the count that matters is the reader's", "count that matters"]
++in95 = [p for p in ls("frontier/B1895_") if any(x in (show(p) or "") for x in phr)]
++say("SM-21", {"files of B1895 that hold the sentence": in95, "B1897 says B1895 said it": "It said that the count that matters is the reader's." in show(next(p for p in ls("frontier/B1897_") if p.endswith("FINDINGS.md")))}, not in95)
++
++# ---- SM-20: B1895's sentences left as they were after the reader ran its plants
++f95 = show(next(p for p in ls("frontier/B1895_") if p.endswith("FINDINGS.md"))); v95 = json.loads(show(next(p for p in ls("frontier/B1895_") if p.endswith("arc_verdict.json"))))
++say("SM-20", {"§ 5 still says the reader's plants were not run": "The reader's planted errors were not run" in f95, "the verdict line still says ten tests": "now ten tests" in v95["claim_one_line"], "the page names 17 of 23 somewhere": "17 of 23" in f95}, "The reader's planted errors were not run" in f95 and "now ten tests" in v95["claim_one_line"])
++
++# ---- SM-15: which series is 'the series after it'
++say("SM-15", {"the page says the cases that pass are for the series after it": "pass are for the series after it." in f93, "and names the fourth series for one of them": "fourth patch of its fourth series" in f93}, "pass are for the series after it." in f93 and "fourth patch of its fourth series" in f93)
++
++# MENDED (3).  Main wrote:
++#| json.dump(OUT, open("audit/review80/sm_rows_probe.json", "w"), indent=1)
++json.dump(OUT, open(pathlib.Path(__file__).with_name("sm_rows_probe.json"), "w"), indent=1)
++# END OF THE MEND
++print("\nrows probed: %d; held: %d" % (len(OUT), sum(v["held"] for v in OUT.values())))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe_out.txt
+new file mode 100644
+index 000000000..a43467003
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/sm_rows_probe_out.txt
+@@ -0,0 +1,17 @@
++SM-04      HELD  {'last message': '2026-11-11 23:11:54 UTC', 'c66c8ccae': '2026-11-11 23:20:21 UTC', 'entry': '2026-11-12 02:04:24 UTC', 'commits between': 3, 'c66c8ccae touches': ['CHANGELOG.md', 'PROGRESS_LOG.md', 'docs/CAMPAIGN_STATUS.md', 'docs/POINT_REGISTER.md', 'docs/SEAL_LEDGER.md']}
++SM-07      HELD  {'the sentence says the rule does not count a pair and then gives 88 and ten': True}
++SM-11      HELD  {'the run file says patch 6 was not run by main': True, "the page says each patch's lock fails on the commit before it": True}
++SM-16      HELD  {'f6e89032a is on a branch or a tag of this repository': False}
++SM-18      HELD  {'anchor': '896cae025', 'tests/test_*.py': 1525, 'of them test_b*.py': 1408}
++SM-19      HELD  {'tests at the commit read': 15, "along the lock's history (oldest first)": [5, 5, 10, 14, 15], 'B1895 still says fourteen': True, "the lock's comment says four": True}
++SM-27      HELD  {'places': ['CHANGELOG.md', 'docs/HARVEST_LEDGER.md', 'docs/LAW_MAP.md', 'docs/POINT_REGISTER.md', 'docs/THEOREM_REGISTRY.md', 'docs/seats/agy-002.md', 'docs/views/VERDICT_LEDGER.md', 'frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md', 'frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_sec
++SM-28      HELD  {"the plan's page holds the confirmation as a block quotation at line": [978], 'its length in characters': 40, 'the builder emits it': True, 'the builder refuses to build without it': True}
++SM-29      HELD  {"the lock's assertion looks for one phrase and forbids one spelling": True}
++SM-31      HELD  {'docstring says two planted lines': True, 'an assertion of three lines': True}
++SM-34      HELD  {'levels 2..200 other than 5: with no root': 173, 'with one': 0, 'with two': 25, 'with four': 0, 'at 5': 1, 'at 209': 4, "the page's bracket": True}
++SM-35      HELD  {"the verdict line says main's own convention": True}
++SM-21      HELD  {'files of B1895 that hold the sentence': [], 'B1897 says B1895 said it': True}
++SM-20      HELD  {"§ 5 still says the reader's plants were not run": True, 'the verdict line still says ten tests': True, 'the page names 17 of 23 somewhere': False}
++SM-15      HELD  {'the page says the cases that pass are for the series after it': True, 'and names the fourth series for one of them': True}
++
++rows probed: 15; held: 15
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+index f71bb453e..35286fd70 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+@@ -86,6 +86,74 @@ def test_mains_files_are_as_main_wrote_them():
+             assert theirs.read_bytes() == (ARC / name).read_bytes(), name
+ 
+ 
++def _with_its_mends_put_back(text):
++    """a mended script as main wrote it: the note taken out, and each marked block replaced by the lines after '#| '"""
++    out, lines, i = [], text.split("\n"), 0
++    while i < len(lines):
++        if lines[i].startswith("# NOTE OF THE MEND"):
++            while not lines[i].startswith("# END OF THE NOTE"):
++                i += 1
++            i += 1
++            continue
++        if lines[i].startswith("# MENDED ("):
++            i += 1
++            while lines[i].startswith("#| "):
++                out.append(lines[i][3:])
++                i += 1
++            while not lines[i].startswith("# END OF THE MEND"):
++                i += 1
++            i += 1
++            continue
++        out.append(lines[i])
++        i += 1
++    return "\n".join(out)
++
++
++def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
++    """ADDED 2026-11-12 (R80b, part 6; three things the builder sent back with R80a, main's faults by its word): a recount
++    that changed with the machine's zone and with a commit that is in main's repository alone; a probe that ended in an
++    error; a kept output with no script.  Main's files in checks/ stand as main wrote them (the test above).  The mended
++    ones stand beside them, and this holds what they are."""
++    import datetime
++    M = HERE / "mended_in_r80b"
++    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
++    # 1. the two mended scripts are main's but for their marked blocks
++    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2)):
++        text = (M / name).read_text(encoding="utf-8")
++        assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == blocks and text.count("# NOTE OF THE MEND") == 1, name
++        assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/" + name], name + ": with its mends put back it is not main's file"
++        assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/" + name]      # and this can fail
++    # 2. the recount of the SM seat's rows no longer changes with the machine: two rows differ from the file main kept
++    kept = json.loads((HERE / "checks" / "sm_rows_probe.json").read_text(encoding="utf-8"))
++    mended = json.loads((M / "sm_rows_probe.json").read_text(encoding="utf-8"))
++    assert sorted(k for k in kept if kept[k] != mended.get(k)) == ["SM-04", "SM-16"] and list(kept) == list(mended) and len(mended) == 15
++    assert kept["SM-16"]["held"] is False and mended["SM-16"]["held"] is True          # main's table gives the row as held
++    assert all(v["held"] for v in mended.values()) and sum(v["held"] for v in kept.values()) == 14
++    assert "| 16 |" in (ARC / "STATUS_OF_THE_57.md").read_text(encoding="utf-8")
++    was, now = kept["SM-04"]["main finds"], mended["SM-04"]["main finds"]
++    hours = set()
++    for k in ("last message", "c66c8ccae", "entry"):
++        assert now[k].endswith(" UTC") and not was[k].endswith("UTC"), k
++        a = datetime.datetime.strptime(was[k], "%Y-%m-%d %H:%M:%S")
++        b = datetime.datetime.strptime(now[k][:-4], "%Y-%m-%d %H:%M:%S")
++        hours.add((a - b).total_seconds() / 3600)
++    assert len(hours) == 1 and next(iter(hours)) == int(next(iter(hours))), hours      # the same three instants, one zone apart
++    assert {k: v for k, v in was.items() if not isinstance(v, str)} == {k: v for k, v in now.items() if not isinstance(v, str)}
++    assert "f6e89032a is on a branch or a tag of this repository" in mended["SM-16"]["main finds"]
++    # 3. the first probe of the package's rows runs to its end
++    out = (M / "builder_rows_probe_out.txt").read_text(encoding="utf-8")
++    assert "Traceback" not in out and "rows probed: ['41', '42', '43', '44', '45'] | cases: 33 | reproduced: 29" in out
++    assert len(json.loads((M / "builder_rows_probe.json").read_text(encoding="utf-8"))) == 33
++    # 4. the second probe, written again: a case for each of main's fourteen kept lines, and each case gave main's answer
++    lines = json.loads((HERE / "checks" / "builder_rows_probe2.json").read_text(encoding="utf-8"))
++    again = json.loads((M / "builder_rows_probe2.json").read_text(encoding="utf-8"))
++    assert [(o["row"], o["case"], o["answer"]) for o in again] == [(k["row"], k["case"], k["answer"]) for k in lines] and len(lines) == 14
++    assert all(o["the same as main kept"] and o["main kept"] == o["answer"] for o in again) and all(k["reproduced"] for k in lines)
++    assert not (HERE / "checks" / "builder_rows_probe2.py").exists()                    # main's own script is still not in its folder
++    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
++    assert "verification/mended_in_r80b/" in page
++
++
+ def test_the_counts_are_the_tables():
+     again = _recount().the_tables()
+     assert again == T, "the recount kept in this arc is not what the two tables give now"
+-- 
+2.43.0
+

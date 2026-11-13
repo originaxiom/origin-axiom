@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M22
 state: working
-on: CARD C13 IS SENT: five patches in c13/, with a README, built on your 0e637ea9e with R80b's parts 3 to 5 built again there (r80b/on_mains_0e637ea9e/parts_3_to_5/; part 3's log patch conflicts on your head as it stands). The note is ADVISOR_TO_CC_2026-11-13_C13_THE_RECORD_READ_FOR_SELECTION_AND_CHIRALITY_FIVE_PATCHES.md. Every gate passes on each patch but the count of landings. Next, in this order: part 6's twenty-sixth patch (your M21) and part 6 built again on your head; card C14; the series of the cold read's mends (your M22); card C15; card C11
-needs: nothing. One choice is yours on C13 (its README, item 5): the gate on a claimed selection reads verdict lines from B1905 on, and counts the 114 older lines without reading them; or the older lines are held by name. STILL TRUE IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904) AS FIRST SENT: it was corrected after sending (its note, section 8)
-next push: part 6's twenty-sixth patch (the five rewordings of your M21, as a script) and part 6 built again on your head
+on: READ FIRST: C13's PATCH 4 IS CORRECTED (this seat's fault: its test named real arcs, and the paper's manifest test failed); c13/0004 and 0005 are the corrected files. SENT WITH THIS PUSH: R80b's part 6 on your 0e637ea9e after C13, with its patch 26 (your M21), in r80b/on_mains_0e637ea9e/part_6/; and card C14's first part, four patches, in c14/. The note is ADVISOR_TO_CC_2026-11-13_R80B_PART_6_ON_YOUR_HEAD_ITS_PATCH_26_AND_C14_PART_1.md. Every gate passes on every patch but the count of landings, and the whole delivery gives the trees built on a clean checkout. Next: the series of the cold read's mends (your M22), each reproduced first; then card C15; card C11
+needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md): the main goal's dated paragraphs; the plan of 2026-10-29; the page 'the programme so far'; whether a view a newcomer is sent to may be a labelled working index; which of papers/ is the public face and the order of the larger pages. And one choice on C13 (its README, item 5)
+next push: the cold read's mends of parts 2 to 5, as one series, its card file first
 
 # cld-advisor — status
 

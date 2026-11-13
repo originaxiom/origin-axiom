@@ -1,0 +1,176 @@
+From c19ef443a3a185516da5ff07db3ffe1cefb41018 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 07:48:08 +0000
+Subject: [PATCH] R80b, part 6, patch 5 (cld-advisor, at main's word in M16;
+ main's third folder, section 7): THE PAPER'S COUNT OF RETRACTIONS IS THE
+ INDEX'S AGAIN, AND ITS TEST IS ONE A LANDING RUNS
+
+Sent back with R80a: tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+fails at main's head. Main's word: its own fault, and older than that day. The paper gives the length of the
+retractions index in words, "seventy-nine"; the index has 97 rows; the test's table of number words stops at
+80, so the test stopped there and said to extend the table. Main counted the index at four commits: it passed
+80 rows inside Review 79's window, and no landing since ran this test.
+
+The mend, as main states it:
+  - the paper's count is brought to the index's, as an erratum of a count, the way it was last done on
+    2026-11-04: one word in papers/P3_THE_PAPER/main.tex and the same word in the generator that emits the
+    sentence. It reads ninety-seven. Nothing else of the paper is touched;
+  - the table of words is extended well past the present length: a number is spelt out, to 999, and the
+    spelling is held to every word the table had. The table as it stood is kept;
+  - the test joins the tests a landing runs: the selector of those tests names the file, beside the gate
+    runner. It was in the selection only because its text happens to hold a word the selector's pattern looks
+    for. A test holds that a change to the index selects it, and that a change to the paper or to its
+    generator asks for the full suite.
+
+One thing more, found on the way and mended: the test's pattern for the paper's count took one hyphenated
+word. From 100 rows the count is several words ("one hundred and four"), and the pattern would have found no
+count at all. The index stands three rows from that.
+
+The lock keeps its meaning: the paper's count is the index's, and the generator's sentence is the paper's.
+
+Run: the 17 test files that read the paper, its generator, the index or the selector. On the commit before: 1
+failed, 101 passed, 1 skipped. On the patch: 103 passed, 1 skipped. Every gate passes but the count of
+landings.
+
+The log's entry for this erratum is main's to write. Main's fault by main's word; the count of 97 is the
+test's own count of the index.
+---
+ papers/P3_THE_PAPER/main.tex       |  2 +-
+ scripts/affected_tests.py          |  9 +++++-
+ scripts/checks/paper_provenance.py |  2 +-
+ tests/test_b1425_determinism.py    | 50 +++++++++++++++++++++++++++++-
+ 4 files changed, 59 insertions(+), 4 deletions(-)
+
+diff --git a/papers/P3_THE_PAPER/main.tex b/papers/P3_THE_PAPER/main.tex
+index 304a37487..d0bf0559c 100644
+--- a/papers/P3_THE_PAPER/main.tex
++++ b/papers/P3_THE_PAPER/main.tex
+@@ -1766,7 +1766,7 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
+ \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
+ the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
+ \emph{own} wider question remains open, while the specific computation the claim uses was
+-re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. Two limits of this table are stated rather than left to be found. The locks are the record's own test suite, not a third party's, and the suite has certified a claim later withdrawn: the record's retractions index holds seventy-nine corrected or withdrawn statements against about thirteen hundred banked arcs -- two of them added on 2026-09-18, when this count was checked against the index and found to have drifted, because the gate that polices it fires only on arcs whose own verdict says RETRACTED and both corrections had landed in the form this record prefers, an addendum on the arc that erred, one of them a claim of this paper's own earlier draft (the family-wide amphichirality), nine more on 2026-10-07, when the index was read against the corpus and found behind it a second time for the same reason, and one the same day withdrawn on another seat's correction within hours of landing, and the sweep that catches a live citation of any retracted statement runs at every landing and reports zero for this text. And a row marked settled is settled in the record's grading, which a reader can audit only by re-running the named lock; the appendix gives the command, and the package that ships with the paper runs every lock it names. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
++re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. Two limits of this table are stated rather than left to be found. The locks are the record's own test suite, not a third party's, and the suite has certified a claim later withdrawn: the record's retractions index holds ninety-seven corrected or withdrawn statements against about thirteen hundred banked arcs -- two of them added on 2026-09-18, when this count was checked against the index and found to have drifted, because the gate that polices it fires only on arcs whose own verdict says RETRACTED and both corrections had landed in the form this record prefers, an addendum on the arc that erred, one of them a claim of this paper's own earlier draft (the family-wide amphichirality), nine more on 2026-10-07, when the index was read against the corpus and found behind it a second time for the same reason, and one the same day withdrawn on another seat's correction within hours of landing, and the sweep that catches a live citation of any retracted statement runs at every landing and reports zero for this text. And a row marked settled is settled in the record's grading, which a reader can audit only by re-running the named lock; the appendix gives the command, and the package that ships with the paper runs every lock it names. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
+ precision and controls; it is not a claim of formal proof, and the establishing record states which kind it is.
+ 
+ Every row is covered by an automated check that runs with the rest of the test suite, and the table
+diff --git a/scripts/affected_tests.py b/scripts/affected_tests.py
+index 93450c883..bb7b6c06a 100755
+--- a/scripts/affected_tests.py
++++ b/scripts/affected_tests.py
+@@ -59,6 +59,13 @@ def _changed(ref):
+     return out
+ 
+ 
++# The tests that run with the corpus-scanning set whatever their text says.  The gate runner: always, on any repo/arc change.
++# ADDED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7): the test that the paper's count of
++# retractions is the index's.  It failed from the day the index passed 80 rows, inside Review 79's window, and no landing
++# ran it.  It was in this set only because its text happens to hold a word the pattern above looks for.
++ALWAYS_WITH_THE_CORPUS = frozenset(("tests/test_repo_gates.py", "tests/test_b1425_determinism.py"))
++
++
+ def _corpus_scanners():
+     """Every test that reads ACROSS arcs -- must run whenever any arc / generated corpus file
+     changes. Detected liberally (over-inclusion is safe; it only runs more)."""
+@@ -69,7 +76,7 @@ def _corpus_scanners():
+                 s.add(f)
+         except OSError:
+             pass
+-    s.add("tests/test_repo_gates.py")  # the gate runner: always, on any repo/arc change
++    s |= ALWAYS_WITH_THE_CORPUS         # until 2026-11-12: s.add("tests/test_repo_gates.py"), the gate runner alone
+     s |= set(LOCKS)                     # the arcs' locks are review and ledger locks: they read the shared docs (P-232)
+     return {f for f in s if f in ALL}
+ 
+diff --git a/scripts/checks/paper_provenance.py b/scripts/checks/paper_provenance.py
+index 7b0b1aa14..54e70d5d8 100644
+--- a/scripts/checks/paper_provenance.py
++++ b/scripts/checks/paper_provenance.py
+@@ -300,7 +300,7 @@ Two kinds of backing appear, and we distinguish them rather than letting one pas
+ \textbf{Settled} means the establishing result is itself closed --- proved, or a negative --- and
+ the claim rides on that. \textbf{Computed} means the establishing work sits inside an enquiry whose
+ \emph{own} wider question remains open, while the specific computation the claim uses was
+-re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. Two limits of this table are stated rather than left to be found. The locks are the record's own test suite, not a third party's, and the suite has certified a claim later withdrawn: the record's retractions index holds seventy-nine corrected or withdrawn statements against about thirteen hundred banked arcs -- two of them added on 2026-09-18, when this count was checked against the index and found to have drifted, because the gate that polices it fires only on arcs whose own verdict says RETRACTED and both corrections had landed in the form this record prefers, an addendum on the arc that erred, one of them a claim of this paper's own earlier draft (the family-wide amphichirality), nine more on 2026-10-07, when the index was read against the corpus and found behind it a second time for the same reason, and one the same day withdrawn on another seat's correction within hours of landing, and the sweep that catches a live citation of any retracted statement runs at every landing and reports zero for this text. And a row marked settled is settled in the record's grading, which a reader can audit only by re-running the named lock; the appendix gives the command, and the package that ships with the paper runs every lock it names. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
++re-derived independently and ships a script that re-runs it. Claims of the second kind are marked as such and are not presented as settled. Two limits of this table are stated rather than left to be found. The locks are the record's own test suite, not a third party's, and the suite has certified a claim later withdrawn: the record's retractions index holds ninety-seven corrected or withdrawn statements against about thirteen hundred banked arcs -- two of them added on 2026-09-18, when this count was checked against the index and found to have drifted, because the gate that polices it fires only on arcs whose own verdict says RETRACTED and both corrections had landed in the form this record prefers, an addendum on the arc that erred, one of them a claim of this paper's own earlier draft (the family-wide amphichirality), nine more on 2026-10-07, when the index was read against the corpus and found behind it a second time for the same reason, and one the same day withdrawn on another seat's correction within hours of landing, and the sweep that catches a live citation of any retracted statement runs at every landing and reports zero for this text. And a row marked settled is settled in the record's grading, which a reader can audit only by re-running the named lock; the appendix gives the command, and the package that ships with the paper runs every lock it names. ``Settled'' follows the record's own grading, which admits high-precision numerical certificates with stated
+ precision and controls; it is not a claim of formal proof, and the establishing record states which kind it is.
+ 
+ Every row is covered by an automated check that runs with the rest of the test suite, and the table
+diff --git a/tests/test_b1425_determinism.py b/tests/test_b1425_determinism.py
+index 3e3789b72..1662342a2 100644
+--- a/tests/test_b1425_determinism.py
++++ b/tests/test_b1425_determinism.py
+@@ -74,6 +74,22 @@ def test_the_sweep_named_every_lock_it_seed_checked():
+         assert (ROOT / rel).exists()
+ 
+ 
++_UNITS = ("", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen",
++          "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen")
++_TENS = ("", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety")
++
++
++def _in_words(n):
++    """a whole number from 1 to 999 as the paper writes one: 97 -> ninety-seven, 104 -> one hundred and four"""
++    assert 1 <= n <= 999
++    if n >= 100:
++        rest = n % 100
++        return _UNITS[n // 100] + " hundred" + (" and " + _in_words(rest) if rest else "")
++    if n < 20:
++        return _UNITS[n]
++    return _TENS[n // 10] + ("-" + _UNITS[n % 10] if n % 10 else "")
++
++
+ def test_the_papers_retraction_count_matches_the_index():
+     """the paper cites the index BY COUNT; nothing checked the two agreed, and they had drifted by two.
+ 
+@@ -92,9 +108,22 @@ def test_the_papers_retraction_count_matches_the_index():
+              46: "forty-six", 47: "forty-seven", 48: "forty-eight", 49: "forty-nine", 50: "fifty",
+              51: "fifty-one", 52: "fifty-two", 53: "fifty-three", 54: "fifty-four", 55: "fifty-five",
+              56: "fifty-six", 57: "fifty-seven", 58: "fifty-eight", 59: "fifty-nine", 60: "sixty", 61: "sixty-one", 62: "sixty-two", 63: "sixty-three", 64: "sixty-four", 65: "sixty-five", 66: "sixty-six", 67: "sixty-seven", 68: "sixty-eight", 69: "sixty-nine", 70: "seventy", 71: "seventy-one", 72: "seventy-two", 73: "seventy-three", 74: "seventy-four", 75: "seventy-five", 76: "seventy-six", 77: "seventy-seven", 78: "seventy-eight", 79: "seventy-nine", 80: "eighty"}
++    # EXTENDED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7).  The table above stops at 80,
++    # the index passed 80 rows inside Review 79's window, and from then this test failed at the line below with "extend the
++    # number-words table" while no landing ran it.  The lock keeps its meaning: the paper's count is the index's.  The table
++    # is extended well past the present length by spelling a number out, and the spelling is held to every word the table
++    # already had.
++    spelt = {n: _in_words(n) for n in range(21, 1000)}
++    assert all(spelt[n] == w for n, w in words.items()), "the spelling disagrees with the table as it stood"
++    assert len(words) == 54 and max(words) == 80
++    words = dict(spelt)
+     assert len(rows) in words, "extend the number-words table: the index has %d rows" % len(rows)
+     paper = (ROOT / "papers" / "P3_THE_PAPER" / "main.tex").read_text()
+-    m = re.search(r"retractions index holds ([a-z-]+) corrected or withdrawn statements", paper)
++    # (2026-11-12: the pattern was r"retractions index holds ([a-z-]+) corrected or withdrawn statements".  From 100 rows the
++    #  count is several words, and the pattern would have found no count at all; the index stands at 97.)
++    count_in = lambda text: re.search(r"retractions index holds ([a-z][a-z -]*[a-z]) corrected or withdrawn statements", text)
++    assert count_in("the retractions index holds one hundred and four corrected or withdrawn statements").group(1) == words[104]
++    m = count_in(paper)
+     assert m, "the paper no longer states the count in the expected words"
+     assert m.group(1) == words[len(rows)], (
+         "the paper says %s; the index has %d rows" % (m.group(1), len(rows)))
+@@ -103,6 +132,25 @@ def test_the_papers_retraction_count_matches_the_index():
+     assert "retractions index holds %s corrected" % words[len(rows)] in gen
+ 
+ 
++def test_this_file_is_in_what_a_landing_runs_when_the_index_or_the_paper_changes():
++    """Review 80 (2026-11-12; main's word): the test above failed from the day the index passed 80 rows, and no landing ran
++    it.  The selector of the tests a landing runs names this file, so that it does not depend on a word in its text; a
++    change to the paper or to its generator is not one the selector can bound, and asks for the full suite."""
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("affected_tests_for_b1425", ROOT / "scripts" / "affected_tests.py")
++    a = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(a)
++    me = "tests/test_b1425_determinism.py"
++    assert me in a.ALWAYS_WITH_THE_CORPUS and me in a._corpus_scanners()
++    for changed in ("docs/RETRACTIONS.md", "CHANGELOG.md", "frontier/B1425_the_flaky_lock_and_the_hollow_green/FINDINGS.md"):
++        sel, full = a.select([changed])
++        assert me in sel and not full, changed
++    for changed in ("papers/P3_THE_PAPER/main.tex", "scripts/checks/paper_provenance.py"):
++        sel, full = a.select([changed])
++        assert full == [changed], changed                                  # the full suite, which holds this file
++    assert a.ALWAYS_WITH_THE_CORPUS == {"tests/test_repo_gates.py", me}
++
++
+ def test_the_manifest_records_the_historys_length():
+     """a reader on a truncated clone must be able to find that out from the package itself.
+ 
+-- 
+2.43.0
+

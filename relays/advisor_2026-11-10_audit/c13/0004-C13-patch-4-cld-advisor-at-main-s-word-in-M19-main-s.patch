@@ -1,6 +1,6 @@
-From 50df6c27a7af201a47cb45736ac69d012b22266d Mon Sep 17 00:00:00 2001
+From b2b8f8334375405592a1e20eeb926491f3da4a74 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Fri, 13 Nov 2026 07:27:33 +0000
+Date: Fri, 13 Nov 2026 08:11:00 +0000
 Subject: [PATCH 4/5] C13, patch 4 (cld-advisor, at main's word in M19; main's
  fourth folder, item 5): A GATE ON A VERDICT LINE THAT CLAIMS A SELECTION: ITS
  PAGE NAMES THE FAMILY OF ITS CRITERION
@@ -40,6 +40,12 @@ on this base, committed on 2026-11-13, six October rows are past 21 days. Main m
 (M22), and the series is built again there before it is sent.
 
 Not checked by main. Tested against planted errors by the session that wrote it.
+
+CORRECTED 2026-11-13, AFTER IT WAS FIRST SENT: this seat's own fault. As first sent, the gate's test named
+real arcs as its planted ones (B1204, B1225, B287 and B1904 to B1907). The paper's verification package
+counts every test file that names one of its records as a lock of that record, so its manifest went stale
+and its test failed from this patch on. The planted arcs are now numbers that name no arc (B01204 and the
+like). Nothing else of the patch is changed. Found while building card C14, by the paper's test.
 ---
  docs/PRACTICES.md                |  14 ++++
  docs/views/THE_SPINE.md          |   3 +-
@@ -243,7 +249,7 @@ index f9a8bb605..d584ea2b1 100644
 +
 diff --git a/tests/test_selection_family.py b/tests/test_selection_family.py
 new file mode 100644
-index 000000000..694b74790
+index 000000000..00ab4437f
 --- /dev/null
 +++ b/tests/test_selection_family.py
 @@ -0,0 +1,106 @@
@@ -282,7 +288,7 @@ index 000000000..694b74790
 +    "The flow singles out the value 3/2.",
 +    "So k = 1 is forced.",
 +    "The beat selects the lift: exactly one spin structure carries it.",
-+    "A finite classification selects the unique torus bundle (B287).",          # a claim: whether its page names the family is the gate's question
++    "A finite classification selects the unique torus bundle (B0287).",          # a claim: whether its page names the family is the gate's question
 +)
 +NOT_CLAIMS = (
 +    "No rule selects one member.",
@@ -291,8 +297,8 @@ index 000000000..694b74790
 +    "Whether the weight selects one member is open.",
 +    "If the flow selected a value, it would be 3.",
 +    "The picks that stand are of the object's own structure, by a uniqueness theorem, arithmetic or a census.",   # a noun, and no value
-+    "B1204 says why a symmetry selects nothing (B1225).",                       # "nothing" is the object
-+    "The arc selects (B1204) its question.",                                    # a citation is no value
++    "B01204 says why a symmetry selects nothing (B01225).",                     # "nothing" is the object
++    "The arc selects (B01204) its question.",                                   # a citation is no value
 +)
 +
 +
@@ -322,10 +328,10 @@ index 000000000..694b74790
 +
 +
 +def test_the_family_is_read_on_the_page_and_the_gate_reads_from_b1905_on(monkeypatch):
-+    lines = {"B1905": "THE COUNT SELECTS ONE ROW.", "B1906": "THE CENSUS SELECTS ONE MEMBER.", "B1907": "THE ANOMALY PICKS ONE MEMBER.",
-+             "B1904": "THE FLOW SELECTS ONE VALUE."}
-+    pages = {"B1905": "a reading", "B1906": "it is a FINITE CLASSIFICATION with a test of membership", "B1907": "a consistency condition that a candidate can violate",
-+             "B1904": "none"}
++    lines = {"B01905": "THE COUNT SELECTS ONE ROW.", "B01906": "THE CENSUS SELECTS ONE MEMBER.", "B01907": "THE ANOMALY PICKS ONE MEMBER.",
++             "B01904": "THE FLOW SELECTS ONE VALUE."}
++    pages = {"B01905": "a reading", "B01906": "it is a FINITE CLASSIFICATION with a test of membership", "B01907": "a consistency condition that a candidate can violate",
++             "B01904": "none"}
 +    mapping = {}
 +    for aid in lines:
 +        mapping["frontier/%s_x/arc_verdict.json" % aid] = json.dumps({"id": aid, "verdict": "PROVED", "claim_one_line": lines[aid]})
@@ -333,14 +339,14 @@ index 000000000..694b74790
 +    monkeypatch.setattr(g.glob, "glob", lambda pat: [os.path.join(g.ROOT, k) for k in sorted(mapping) if k.endswith("arc_verdict.json")])
 +    read = lambda rel: mapping[rel.replace(os.sep, "/")]
 +    hits, older = g.selection_family_hits(reader=read)
-+    assert [h[0] for h in hits] == ["B1905"] and older == 1                     # B1904 is older and counted; B1906 and B1907 name a family
++    assert [h[0] for h in hits] == ["B01905"] and older == 1                    # B01904 is older and counted; B01906 and B01907 name a family
 +    ok, msg = g.gate_selection_family(reader=read)
 +    assert not ok and msg.startswith("1 verdict line(s) from B1905 on claim a selection")
-+    mapping["frontier/B1905_x/FINDINGS.md"] += "\nIts criterion is a consistency condition.\n"
++    mapping["frontier/B01905_x/FINDINGS.md"] += "\nIts criterion is a consistency condition.\n"
 +    assert g.gate_selection_family(reader=read)[0] is True
 +    # a page that is missing reads as naming nothing
-+    del mapping["frontier/B1907_x/FINDINGS.md"]
-+    assert [h[0] for h in g.selection_family_hits(reader=read)[0]] == ["B1907"]
++    del mapping["frontier/B01907_x/FINDINGS.md"]
++    assert [h[0] for h in g.selection_family_hits(reader=read)[0]] == ["B01907"]
 +
 +
 +def test_on_this_repository_the_gate_passes_and_counts_the_older_lines():
