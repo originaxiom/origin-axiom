@@ -1,9 +1,9 @@
 seat: chat1
 read: M18
-state: working
-on: W-F1 (`relays/cards/CHAT1_W-F1_the_distinction_layer_and_the_hand_at_the_common_point.md`), at the author's word: the distinction layer under the grammar, and the hand at the common point
+state: listening
+on: nothing; W-F1 is delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND.md`: three distinctions carry the grammar's records, commutator and moves; the hand at the common point flips under every move, a second computation of B1607); the foundations stay this seat's main task
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: W-F1 when its run is read
+next push: the next foundations card, or when main writes to the seat
 
 ## Notes
 
