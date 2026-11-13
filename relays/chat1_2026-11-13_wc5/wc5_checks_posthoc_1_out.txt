@@ -1,0 +1,29 @@
+P1 maps found: 44 classes modulo the powers of A: 8
+P1 class: smallest [-1, 0, 0, -1] det 1 exponent 1 orientation sign 1 scalars mod 5 [1, 4]
+P1 class: smallest [-1, 0, 1, 1] det -1 exponent -1 orientation sign 1 scalars mod 5 [1, 4]
+P1 class: smallest [1, -1, 0, -1] det -1 exponent -1 orientation sign 1 scalars mod 5 [1, 4]
+P1 class: smallest [1, 0, 0, 1] det 1 exponent 1 orientation sign 1 scalars mod 5 [1, 4]
+P1 class: smallest [-1, -1, -1, 0] det -1 exponent 1 orientation sign -1 scalars mod 5 [2, 3]
+P1 class: smallest [0, -1, 1, 0] det 1 exponent -1 orientation sign -1 scalars mod 5 [2, 3]
+P1 class: smallest [0, 1, -1, 0] det 1 exponent -1 orientation sign -1 scalars mod 5 [2, 3]
+P1 class: smallest [0, 1, 1, -1] det -1 exponent 1 orientation sign -1 scalars mod 5 [2, 3]
+P1 named classes present: {'I+': True, 'I-': True, 'M+': True, 'M-': True, 'J+': True, 'J-': True, 'JM+': True, 'JM-': True}
+P1 the eight named classes are distinct: True
+P2 every map keeps A's line mod 5: True ; main's statement holds on every class: True
+P2 classes by sign: keeping 4 reversing 4
+P3 control, the opposite statement holds on every class: False
+Q0 maps between the bundles found: 176 ; of them orientation-keeping: 88
+Q1 orbits under every map: 2 [4, 4]
+Q1    [('A', -1, -1), ('A', 1, 1), ("A'", -1, 1), ("A'", 1, -1)]
+Q1    [('A', -1, 1), ('A', 1, -1), ("A'", -1, -1), ("A'", 1, 1)]
+Q1 orbits under the orientation-keeping maps: 4 ; each holds one placement of each side: True
+Q1    [('A', -1, -1), ("A'", -1, 1)]
+Q1    [('A', -1, 1), ("A'", -1, -1)]
+Q1    [('A', 1, -1), ("A'", 1, 1)]
+Q1    [('A', 1, 1), ("A'", 1, -1)]
+Q2 the orbit of (A, +1, +1) holds (A, -1, -1): True ; a map keeps the hand and swaps the twin: True ; a map swaps the hand and keeps the twin: True
+Q2 control, the twin left out: orbits 2 ; the orbit of (A, +1, +1) holds (A, -1, -1): False
+R1 |dw|^2/(|w| log|w|)^2 divided by |dz|^2/y^2: 1
+R2 grid points: 306 ; the rule agrees with the numerical decision at all: False ; the convergence test of the header agrees too: False
+R2 where the boundary 2n = a falls: finite at [-8, -6, -4, -2, 0] ; infinite at [2, 4, 6, 8]
+R3 control, b'(a) = a//2: disagrees at [-2, 2, 4, 5, 6, 7, 8]
