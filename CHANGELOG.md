@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLDS R6 (B1915; decision 1 of the input budget) (2026-11-13)
+
+- **B1915:** the eight placements (positivity's side as GM5d now reads it, the bundle's orientation, the line's twin) under the integer maps between the forward and backward golden bundles (176 maps, 88 between the sides, the mirror D = diag(1, −1) among them): two orbits under every map; four under the maps that keep the orientation, each holding one forward and one backward placement. So the side adds no bit, and the hand with the twin is one bit if the mirror identifies placements and two if it does not.
+- **Which applies** is whether an odd tick is a move of the whole: the open question of P-769 (the tick an act, P-771, against even ticks observed), the same one B1913 left R6 waiting on. Main counts two bits until it is settled (P-805). SE2 (the orientable member) and the chiral premise (one block) are choices of other kinds.
+- **A correction of main's report earlier today:** it read GM5d by its v1.14 sentence (the exclusion of −I) and said positivity looked like a separate bit; the reading in force (v1.48) is the choice of side, and it adds no bit. No input is removed. 0 of 19.
+- **Mended:** the kill-graph record B1914's landing routed for B1907 carried no scope tag, which the verdict schema's test requires of every record after B1454 (found by that test in this landing); it now carries B1907's own scope.
+
 ## S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DOES (B1914; decision 4 of the input budget; P-718 DONE) (2026-11-13)
 
 - **B1914:** the line's condition built and run. What it decides was already on record: the golden ground fixes a line only at order 5, the two twins ±(1,2) and ±(2,4) (B1867, P-718); the departures LᵃR keep them exactly when a ≡ 1 mod 5, so the least beyond the ground is the run of 6; and no history can separate the twins, by linearity (an identity, B1872).

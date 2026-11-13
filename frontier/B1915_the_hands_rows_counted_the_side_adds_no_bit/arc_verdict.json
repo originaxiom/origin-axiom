@@ -1,0 +1,24 @@
+{
+ "id": "B1915",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1914",
+  "B1662"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "decision 1 of the input budget: positivity's side (GM5d at v1.48), the golden bundle's orientation, and the line's twin",
+  "object": "the eight placements (side, orientation, twin) and the integer maps between the forward and backward bundles",
+  "reach": "single",
+  "hypotheses": "positivity read as the choice of side under D = diag(1, -1) (GM5d v1.48, B1662); maps with entries up to 9; a map's orientation sign is det X times its exponent; SE2 and the chiral premise separated by their definitions, not computed; whether the mirror is a move of the whole is left to P-769"
+ },
+ "claim_one_line": "THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orientation-keeping maps the eight placements (side, hand, twin) fall into four classes, each one forward and one backward); under every map they fall into two. So the hand with the line's twin is one bit if the mirror identifies placements and two if only orientation-keeping maps do: the same open question (the tick and even ticks, P-769, P-771) that holds R6's reading of the mark (B1913). Main counts two until it is settled. SE2 and the chiral premise are choices of other kinds. 0 of 19.",
+ "weave_or_thread": "thread (the golden bundle, its two sides and its symmetries)"
+}

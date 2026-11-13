@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1609: 1114 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1610: 1115 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 838: 305 open (queued work, leads, and questions not yet decided), 533 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DO… |
+| the last landing | S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLD… |
 <!-- STATE:END -->
 
 ## Start here

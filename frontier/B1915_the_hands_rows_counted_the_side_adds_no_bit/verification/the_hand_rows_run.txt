@@ -1,0 +1,4 @@
+maps found (entries <= 9): 176, of them between the two sides: 88; D among them: True
+orbits_under_every_map 2 [['+ side, - hand, 2v', '+ side, + hand, v', '- side, - hand, v', '- side, + hand, 2v'], ['+ side, - hand, v', '+ side, + hand, 2v', '- side, - hand, 2v', '- side, + hand, v']]
+orbits_under_orientation_keeping_maps 4 [['+ side, + hand, v', '- side, + hand, 2v'], ['+ side, + hand, 2v', '- side, + hand, v'], ['+ side, - hand, v', '- side, - hand, 2v'], ['+ side, - hand, 2v', '- side, - hand, v']]
+plant_orientation_from_det_alone 1 [['+ side, - hand, 2v', '+ side, - hand, v', '+ side, + hand, 2v', '+ side, + hand, v', '- side, - hand, 2v', '- side, - hand, v', '- side, + hand, 2v', '- side, + hand, v']]

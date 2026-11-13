@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1609 of 1609 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1610 of 1610 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1114)
+## PROVED (1115)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1126,6 +1126,7 @@
 | `B1912` | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quadratic character (by mirror parity and Fricke sign), the only eigenvalue is R0 = pi/(2 ln phi) = 3.2642513026, in the golden state's own class, simple there and absent from the other three. By Hejhal's method on main's own code, an eigenvalue counted only when the system is singular at two heights (single-height false minima, one of them in all four classes, vanish at the other); the dihedral form at 2 R0 is found in a mirror-even class as the positive control. Not scanned: R < 0.02 and exceptional eigenvalues. 0 of 19. |  | 0 |
 | `B1913` | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density |f|^2 is unchanged by the group, the flat density |f|^2/y^2 changes by |cz+d|^4 (78.1456 and 21.5296 for two moves), and the flat density's greatest place, found in two charts of the curve and carried back, is two different points 0.065 apart, while the invariant density's is one point, B1885's. The 0.056 shift on record was measured against an ingredient that is not defined on the curve. What R6 still holds open is the reading of the mark: one mirror pair on the line's surface, two on the one-twin surface. 0 of 19. |  | 0 |
 | `B1914` | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an identity, B1872); every symmetry of the golden bundle (104 found, eight classes modulo LR, four reversing the orientation, as SnapPy's D4) keeps the eigenline mod 5 and acts on it by +-1 when it keeps the orientation and by +-2 when it reverses it, so the twins are exchanged exactly by the mirrors and the four placements (hand, twin) are two classes. No input leaves; decision 4 sits with decision 1. 0 of 19. |  | 0 |
+| `B1915` | THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orientation-keeping maps the eight placements (side, hand, twin) fall into four classes, each one forward and one backward); under every map they fall into two. So the hand with the line's twin is one bit if the mirror identifies placements and two if only orientation-keeping maps do: the same open question (the tick and even ticks, P-769, P-771) that holds R6's reading of the mark (B1913). Main counts two until it is settled. SE2 and the chiral premise are choices of other kinds. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

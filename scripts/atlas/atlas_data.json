@@ -16824,6 +16824,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1915": {
+   "slug": "the hands rows counted the side adds no bit",
+   "motifs": [
+    "monoid",
+    "choice",
+    "figure_eight",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "S02"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

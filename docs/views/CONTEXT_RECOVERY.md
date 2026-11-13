@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1609 |
-| … PROVED | 1114 |
+| arcs with a verdict file | 1610 |
+| … PROVED | 1115 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1915 | PROVED | THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orien… |
 | B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
 | B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
 | B1912 | PROVED | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quad… |
@@ -42,7 +43,6 @@
 | B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
 | B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
 | B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
-| B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLDS R6 (B1915; decision 1 of the input budget) (2026…
 - S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DOES (B1914; decision 4 of the input budget; P-718 D…
 - S306p THE MEASURE OF THE READ-OUT ON THE WHOLE IS FORCED: THE FLAT AREA IS NOT A QUANTITY ON THE CURVE, AND THE ONE CHOICE LEFT IS WHICH CURVE (B1913; P-776's condition R6) (2026-11-13)
 - S306p THE STATE THE READ-OUT ON THE WHOLE RESTS ON IS THE LOWEST OF ITS KIND, AND ALONE AT ITS ENERGY (B1912; P-783 DONE; P-776's condition R3 met over the range scanned) (2026-11-13)
@@ -60,7 +61,6 @@
 - S306p TWO PREMISES OF THE FOUNDATION'S CARRIER ARE NAMED, EXACTLY: THE QUATERNION POINT DOES NOT BY ITSELF FORCE THE FREE GROUP, AND THE PRIME 2 IS PICKED ONLY FOR ONE SECTOR (B1910; P-321 and P-747…
 - S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f); docs/REORGANIZATIONS.md, its second entry) (2026-…
 - S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR WRITTEN OUT (B1909, OPEN; P-749 (e); R80-5, at it…
-- S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its fourth carry, resolved) (2026-11-13)
 
 ## The latest campaign line
 

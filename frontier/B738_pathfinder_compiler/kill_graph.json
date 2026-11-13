@@ -12474,6 +12474,13 @@
   "priority": "UNTRIAGED",
   "revival_score": null,
   "note": "ROUTED by main at B1914's landing (2026-11-13), in B836's form, from the arc's authored NEGATIVE verdict. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
-  "routed_from": "main-2026-11-13"
+  "routed_from": "main-2026-11-13",
+  "scope": {
+   "frame": "the physical lane's two sealed execution packets as sealed, against main's acceptance rule (B1787's precedent)",
+   "object": "packet 1 (thirteen methods, 63 pins) and packet 2 (six controls, 41 pins): custody, code, check design and mathematics",
+   "reach": "single",
+   "hypotheses": "the mask hides every decimal, so some assertion lines were reconstructed by the readers and not read; the earlier proofs the packets cite, the literature they use, and the lane's own gate scripts at the sealed commits were not read; the readers are main's own and not independent; the quotation check runs through main's mask and was computed once; a refusal is not a judgement that anything in the packets is false"
+  },
+  "weave_or_thread": "neither (a process arc)"
  }
 ]

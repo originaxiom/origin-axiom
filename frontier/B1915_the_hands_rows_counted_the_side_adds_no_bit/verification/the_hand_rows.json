@@ -1,0 +1,49 @@
+{
+ "maps_found": 176,
+ "maps_between_the_sides": 88,
+ "D_is_a_map_between_the_sides": true,
+ "orbits_under_every_map": [
+  [
+   "+ side, - hand, 2v",
+   "+ side, + hand, v",
+   "- side, - hand, v",
+   "- side, + hand, 2v"
+  ],
+  [
+   "+ side, - hand, v",
+   "+ side, + hand, 2v",
+   "- side, - hand, 2v",
+   "- side, + hand, v"
+  ]
+ ],
+ "orbits_under_orientation_keeping_maps": [
+  [
+   "+ side, + hand, v",
+   "- side, + hand, 2v"
+  ],
+  [
+   "+ side, + hand, 2v",
+   "- side, + hand, v"
+  ],
+  [
+   "+ side, - hand, v",
+   "- side, - hand, 2v"
+  ],
+  [
+   "+ side, - hand, 2v",
+   "- side, - hand, v"
+  ]
+ ],
+ "plant_orientation_from_det_alone": [
+  [
+   "+ side, - hand, 2v",
+   "+ side, - hand, v",
+   "+ side, + hand, 2v",
+   "+ side, + hand, v",
+   "- side, - hand, 2v",
+   "- side, - hand, v",
+   "- side, + hand, 2v",
+   "- side, + hand, v"
+  ]
+ ]
+}
