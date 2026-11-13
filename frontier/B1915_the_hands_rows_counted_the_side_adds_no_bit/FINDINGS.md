@@ -1,3 +1,6 @@
+> **CORRECTED 2026-11-13 (main's own, the same day; see the end):** § 2 called the relation of the tick to "even
+> ticks observed" an open question. It was ruled on 2026-11-11 (P-771; GENESIS v1.65). The counts of § 1 stand.
+
 # B1915 — The hand's rows counted: positivity's side adds no bit, and the hand with the line's twin is one bit or two, by the question of the tick (decision 1 of the input budget)
 
 **Verdict: PROVED** (an exact count over integer maps). cc (main), 2026-11-13 (S306p). Main's own code. No data; no value
@@ -66,3 +69,16 @@ B1913 (R6). **Literature:** none beyond B1914's.
 cd frontier/B1915_the_hands_rows_counted_the_side_adds_no_bit/verification
 python3 -B the_hand_rows.py && python3 -m pytest -q .
 ```
+
+## Dated correction, 2026-11-13 (main's own, found the same day)
+
+§ 2 said which count applies "is already open on the record" (P-769), that the owner had asked for the question to be
+put again, and that main counts two bits until it is settled. Main had missed the later ruling of the same day: the owner ruled the relation on 2026-11-11, with B1879's computation in hand (P-771; GENESIS v1.65, GM5c and SE2): every tick is in the ledger, and 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver, a named condition to derive, not counted as derived.
+So, with the counts of § 1 unchanged:
+- **In the whole every tick is a move,** the mirror identifies placements, and the eight placements are two orbits:
+  positivity's side, the hand and the line's twin are **one bit, the hand**, which the tick does not supply (P-771).
+- **The second bit** (the twin given the hand, which the orientation-keeping maps leave) is what "only even ticks are
+  observed" would give. It is a condition the weight must deliver, typed as the orientation bit is typed, and not
+  counted as derived.
+- B1913's R6 does not wait on a ruling either (its own dated correction). The two items are still one: both are the
+  weight's condition. The words of § 2 are kept as written above.

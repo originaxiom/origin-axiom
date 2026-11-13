@@ -58,3 +58,11 @@ to scale under PSL₂(ℝ); standard.
 ```
 cd frontier/B1913_the_flat_area_is_not_on_the_curve_the_measure_is_forced/verification && python3 -B the_flat_area_is_not_on_the_curve.py
 ```
+
+## Dated correction, 2026-11-13 (main's own, found the same day)
+
+§ 1's last bullet said the reading of the mark "waits on how the ruling on the tick and the ruling on even ticks stand
+together (P-771, P-769)". That relation is not open: the owner ruled the relation on 2026-11-11, with B1879's computation in hand (P-771; GENESIS v1.65, GM5c and SE2): every tick is in the ledger, and 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver, a named condition to derive, not counted as derived. With every tick a move, B1881's case is in force (the
+mark's mirror is a move of the group that keeps the line). What remains of R6 is therefore not a ruling to wait for: it
+is the weight's condition, the same one that types the orientation bit, and it is not counted as derived. The words
+above are kept as written.

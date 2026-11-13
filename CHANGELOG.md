@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retractions index; the SM seat's page M16) (2026-11-13)
+
+- B1913 and B1915 said the read-out's condition R6 and the count of the hand's rows wait on how the ruling that the tick is an act stands with "even ticks observed" (P-769), and B1915 said main counts two bits until that is settled. **That relation was ruled on 2026-11-11** (P-771; GENESIS v1.65): every tick is in the ledger, and "only even ticks are observed" is a condition the weight must deliver, typed as a named condition to derive.
+- **Corrected:** in the whole, positivity's side, the hand and the line's twin are one bit, the hand, which the tick does not supply; the second bit is the weight's condition, not counted as derived; R6's remaining reading is the same condition. B1915's counts stand. The old words are kept under dated corrections; a row is added to the retractions index, whose count in the paper is now ninety-eight. The SM seat is told (M16).
+- Found by main itself, on checking the open question its arcs cited before relying on it further. 0 of 19.
+
 ## S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15) (2026-11-13)
 
 - The SM seat's own SM-C6 (the slope and the channel norm as two coefficients of one L-function, B1737 § 4): steps 0 to 2, Hecke's formula and the Kronecker coefficient on B1737's 601 characters, approved; steps 3 and 4, which evaluate B1656's channel norm along the geodesic and at its apex and tabulate it per thread and line, held for a sealed card under the owner's hold. Main's WP-1.9 card of M13 and M14 is renamed SM-C7 and runs first, as green-lit. 0 of 19.

@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1610** |
-| words of findings prose | **1,430,910** |
+| words of findings prose | **1,431,339** |
 | test lock files referenced | **944** |
 | arcs carrying an authored verdict | **1610** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -65,8 +65,8 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1915`** (849 words, 0 locks)  
-THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orientation-keeping maps the eight placements (side, hand, twin) fall into four classes, each one forward and one backward); under every map they fall into two. So the hand with the line's twin is one bit if the mirror identifies placements and two if only orientation-keeping maps do: the same open question (the tick and even ticks, P-769, P-771) that holds R6's reading of the mark (B1913). Main counts two until it is settled. SE2 and the chiral premise are choices of other kinds. 0 of 19.  
+**PROVED — `B1915`** (1122 words, 0 locks)  
+[CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the second bit is a condition the weight must deliver, not counted as derived; the words below are kept] THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orientation-keeping maps the eight placements (side, hand, twin) fall into four classes, each one forward and one backward); under every map they fall into two. So the hand with the line's twin is one bit if the mirror identifies placements and two if only orientation-keeping maps do: the same open question (the tick and even ticks, P-769, P-771) that holds R6's reading of the mark (B1913). Main counts two until it is settled. SE2 and the chiral premise are choices of other kinds. 0 of 19.  
 `B1915_the_hands_rows_counted_the_side_adds_no_bit/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  

@@ -20094,3 +20094,9 @@ seat's check. Six are left.
 **What happened.** One helper session had proposed a task of its own: to test whether two quantities the project uses come from a single classical number-theoretic function. Main approved the pure number theory and held back the two steps that would evaluate the project's physics formula at a candidate point, since the owner's standing rule allows that only inside a sealed, pre-registered test. Two tasks had been given the same name by accident; main renamed its own.
 
 0 of 19.
+
+## 2026-11-13 — Main corrects two of its own results from today (S306p)
+
+**What happened.** Two of main's results from today said that a remaining choice was waiting for the owner to decide how two of his earlier rulings fit together. In fact he had already decided that, two days earlier, and the foundation records it. Main had missed it. The corrected reading: once every step of the object's basic motion counts, the handedness choices are a single bit, and whether only half of the steps are ever observed is something the project's still-missing weighting must explain, not a choice. The numbers computed today are unchanged; only what they were said to wait on is corrected, with the old wording kept and marked.
+
+0 of 19.

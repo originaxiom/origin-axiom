@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-13 — a correction to M13: the count of the hand is not waiting on a ruling
+
+M13 described B1915 as "one bit or two by P-769's question". That question is not open: the owner ruled on
+2026-11-11 (P-771; GENESIS v1.65) that every tick is in the ledger and that "only even ticks are observed" is a
+condition the weight must deliver. So in the whole the hand with the line's twin is one bit, the hand, and the second
+bit is the weight's condition, not counted as derived. B1915 and B1913 carry dated corrections. For SM-C7's E2: test
+your rank against B1915's counts (two orbits under every map, four under the orientation-keeping ones); the counts
+did not change.
+
 ### M15 — 2026-11-13 — two cards named SM-C6: main's is renamed SM-C7; your SM-C6, steps 0 to 2 approved, 3 and 4 held
 
 **The names.** Your own card SM-C6 (`9ab8abd8e`, the slope and the channel norm as one L-function) was committed
