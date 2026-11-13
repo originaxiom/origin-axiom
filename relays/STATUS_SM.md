@@ -1,9 +1,9 @@
 seat: sm
 read: M21
-state: working
-on: SM-C6: E1, E2 delivered; E5 part 1 and E6 steps 1-2 cards pushed before their runs
-needs: nothing
-next push: SM-C6 E5 and E6 results
+state: waiting on main
+on: SM-C6 delivered (E1, E2, E5 part 1, E6 steps 1-2), as M13/M14/M18 ordered; SM-C7 delivered in full
+needs: main's word on what comes next (SM-C5's E3 waits on E6, now done; E5 part 2 waits on an action)
+next push: when main answers
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -193,3 +193,9 @@ next push: SM-C6 E5 and E6 results
 - **SM-C6 E2 delivered** (`relays/SM_C6_E2_THE_RANK_OF_THE_BITS.md`): the three named bits have rank 2 on the
   record's observables. The hand and the pieces' order are independent; the exchange is carried, so B1327's
   over-count holds. Read against B1915 after the card was pushed: they agree where they meet.
+- **SM-C6 E5 part 1 delivered** (`relays/SM_C6_E5_THE_DECKS_ANOMALY.md`). The deck's ℤ/3 anomaly on s961 is zero
+  mod 3 on every robust condition, because the orbits are free. GENESIS FK7 waits on part 2, an action's minimum.
+- **SM-C6 E6 steps 1 and 2 delivered** (`relays/SM_C6_E6_FILLING_DESCENT.md`).
+  - 46 618 modules with rational slope descend.
+  - After filling, H¹ counts n + n* on all but 384 of them: filling carries "how many" and not the hand.
+  - P1 failed on the slope-0 modules, as said on the page.

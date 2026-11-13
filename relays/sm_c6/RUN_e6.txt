@@ -1,0 +1,43 @@
+{'state': '+LR', 'level': 1, 'N': 1, 'characters': 0, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '+LR', 'level': 2, 'N': 5, 'characters': 4, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '+LR', 'level': 3, 'N': 4, 'characters': 15, 'rational_slopes': 15, 'slopes': ['-1', '0', '1'], 'modules_tested': 210, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 42, 'P2_split_changed_rank': 144}
+{'state': '+LR', 'level': 4, 'N': 15, 'characters': 44, 'rational_slopes': 8, 'slopes': ['-1', '1'], 'modules_tested': 344, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 320}
+{'state': '+LR', 'level': 5, 'N': 11, 'characters': 120, 'rational_slopes': 20, 'slopes': ['0'], 'modules_tested': 2380, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 2380, 'P2_split_changed_rank': 2000}
+{'state': '+LLR', 'level': 1, 'N': 2, 'characters': 1, 'rational_slopes': 1, 'slopes': ['1/4'], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '+LLR', 'level': 2, 'N': 6, 'characters': 11, 'rational_slopes': 11, 'slopes': ['-1', '-1/2', '1', '1/2', '1/3'], 'modules_tested': 110, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 92}
+{'state': '+LLR', 'level': 3, 'N': 10, 'characters': 49, 'rational_slopes': 13, 'slopes': ['1', '3/4'], 'modules_tested': 624, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 492}
+{'state': '+LLR', 'level': 4, 'N': 24, 'characters': 191, 'rational_slopes': 95, 'slopes': ['-1', '-2', '-3', '0', '1', '2', '2/3', '3', '4'], 'modules_tested': 18050, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 4560, 'P2_split_changed_rank': 16580}
+{'state': '+LLLR', 'level': 1, 'N': 3, 'characters': 2, 'rational_slopes': 2, 'slopes': ['1/3'], 'modules_tested': 2, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '+LLLR', 'level': 2, 'N': 21, 'characters': 20, 'rational_slopes': 2, 'slopes': ['2/3'], 'modules_tested': 38, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 36}
+{'state': '+LLLR', 'level': 3, 'N': 18, 'characters': 107, 'rational_slopes': 35, 'slopes': ['-1', '-1/2', '-5', '1'], 'modules_tested': 3710, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 3264}
+{'state': '-LR', 'level': 1, 'N': 5, 'characters': 4, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '-LR', 'level': 2, 'N': 5, 'characters': 4, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '-LR', 'level': 3, 'N': 10, 'characters': 19, 'rational_slopes': 3, 'slopes': ['-3/2'], 'modules_tested': 54, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 48}
+{'state': '-LR', 'level': 4, 'N': 15, 'characters': 44, 'rational_slopes': 8, 'slopes': ['-1', '-3'], 'modules_tested': 344, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 320}
+{'state': '-LR', 'level': 5, 'N': 25, 'characters': 124, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '-LLR', 'level': 1, 'N': 6, 'characters': 5, 'rational_slopes': 5, 'slopes': ['-1', '-1/3', '-1/4'], 'modules_tested': 20, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 16}
+{'state': '-LLR', 'level': 2, 'N': 6, 'characters': 11, 'rational_slopes': 11, 'slopes': ['-1/2', '-2', '-2/3', '-3/2', '0'], 'modules_tested': 110, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 40, 'P2_split_changed_rank': 92}
+{'state': '-LLR', 'level': 3, 'N': 18, 'characters': 53, 'rational_slopes': 17, 'slopes': ['-1', '-2', '-3', '-3/4', '0'], 'modules_tested': 884, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 312, 'P2_split_changed_rank': 820}
+{'state': '-LLR', 'level': 4, 'N': 24, 'characters': 191, 'rational_slopes': 95, 'slopes': ['-1', '-2', '-3', '-4', '-4/3', '-5', '0', '1', '2'], 'modules_tested': 18050, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 760, 'P2_split_changed_rank': 16580}
+{'state': '-LLLR', 'level': 1, 'N': 7, 'characters': 6, 'rational_slopes': 0, 'slopes': [], 'modules_tested': 0, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 0}
+{'state': '-LLLR', 'level': 2, 'N': 21, 'characters': 20, 'rational_slopes': 2, 'slopes': ['-1/3'], 'modules_tested': 38, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 36}
+{'state': '-LLLR', 'level': 3, 'N': 28, 'characters': 111, 'rational_slopes': 15, 'slopes': ['-1', '-2', '-3'], 'modules_tested': 1650, 'not_a_representation': 0, 'builtin_check_failures': 0, 'P1_wrong_slope_descended': 0, 'P2_split_changed_rank': 1584}
+{
+ "levels": 24,
+ "levels_with_rational_slopes": 18,
+ "modules_descending": 46618,
+ "modules_tested": 46618,
+ "builtin_check_failures": 0,
+ "not_a_representation": 0,
+ "P1_wrong_slope_descended": 8094,
+ "P2_split_changed_rank_on": 42424,
+ "census_(n,n*,h1_filled)": {
+  "(0, 0, 0)": 39424,
+  "(0, 1, 1)": 3000,
+  "(1, 0, 1)": 3000,
+  "(1, 1, 1)": 384,
+  "(1, 1, 2)": 810
+ },
+ "count_carries": 42808,
+ "outcome": "1"
+}

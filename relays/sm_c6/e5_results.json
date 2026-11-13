@@ -1,0 +1,75 @@
+{
+ "orbits": {
+  "+": 8,
+  "-": 8
+ },
+ "per_orbit": [
+  {
+   "sign": 1,
+   "orbits": 8,
+   "coefficients": {
+    "Z3-SU(3)^2": "6",
+    "Z3-SU(2)^2": "6",
+    "Z3-grav^2": "48",
+    "Z3^3": "144",
+    "Z3-U(1)_Y^2 (information)": "10"
+   },
+   "mod3": {
+    "Z3-SU(3)^2": 0,
+    "Z3-SU(2)^2": 0,
+    "Z3-grav^2": 0,
+    "Z3^3": 0,
+    "Z3-U(1)_Y^2 (information)": 1
+   }
+  },
+  {
+   "sign": -1,
+   "orbits": 8,
+   "coefficients": {
+    "Z3-SU(3)^2": "-6",
+    "Z3-SU(2)^2": "-6",
+    "Z3-grav^2": "-48",
+    "Z3^3": "-144",
+    "Z3-U(1)_Y^2 (information)": "-10"
+   },
+   "mod3": {
+    "Z3-SU(3)^2": 0,
+    "Z3-SU(2)^2": 0,
+    "Z3-grav^2": 0,
+    "Z3^3": 0,
+    "Z3-U(1)_Y^2 (information)": 2
+   }
+  }
+ ],
+ "total": {
+  "Z3-SU(3)^2": "0",
+  "Z3-SU(2)^2": "0",
+  "Z3-grav^2": "0",
+  "Z3^3": "0",
+  "Z3-U(1)_Y^2 (information)": "0"
+ },
+ "total_mod3": {
+  "Z3-SU(3)^2": 0,
+  "Z3-SU(2)^2": 0,
+  "Z3-grav^2": 0,
+  "Z3^3": 0,
+  "Z3-U(1)_Y^2 (information)": 0
+ },
+ "robust_all_zero_mod3": true,
+ "P1_charges_001_nonzero": true,
+ "P2_fixed_background_nonzero": true,
+ "P1": {
+  "Z3-SU(3)^2": "2",
+  "Z3-SU(2)^2": "2",
+  "Z3-grav^2": "16",
+  "Z3^3": "16",
+  "Z3-U(1)_Y^2 (information)": "10/3"
+ },
+ "P2": {
+  "Z3-SU(3)^2": "2",
+  "Z3-SU(2)^2": "2",
+  "Z3-grav^2": "16",
+  "Z3^3": "16",
+  "Z3-U(1)_Y^2 (information)": "10/3"
+ }
+}
