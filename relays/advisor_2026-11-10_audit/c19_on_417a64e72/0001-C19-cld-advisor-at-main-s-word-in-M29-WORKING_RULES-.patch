@@ -1,0 +1,351 @@
+From 692866831c1f2c3087a3bff43c6c4d9a8d770772 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 21:18:04 +0000
+Subject: [PATCH] C19 (cld-advisor, at main's word in M29; WORKING_RULES' rule
+ of 2026-11-13, register row P-842): A NEGATIVE VERDICT WITHOUT A SECOND
+ COMPUTATION IS PROVISIONAL, HELD BY A GATE
+
+The card is relays/cards/cld-advisor_C19_a-negative-without-a-second-computation-is-provisional.md, committed before
+the work. First in the seat's order, as M29 asks, and built on main's head alone, so that it can land before the chain.
+
+THE GATE negative-second-computation (scripts/gates/gates.py): from B1923 on, every verdict file whose verdict is
+NEGATIVE is read. It fails when no entry of cites_seat names a second computation made and the verdict line
+(claim_one_line) does not say PROVISIONAL; an entry that names the second computation only as owed, assigned, pending,
+awaited or not yet made does not count. It fails too when the arc's FINDINGS has no heading holding the words "What the
+wall teaches" (a missing page counts as one without it). Arcs before B1923 are not read. Whether the second computation
+is independent is not read: that stays main's, and the rule's "Enforced by" line says so.
+
+ITS FAILING PATHS, tests/test_negative_second_computation.py, registered in tests/GATE_CONTROLS.json: a NEGATIVE with
+neither fails (the card's control), and passes with PROVISIONAL, and passes with a second computation named; four
+entries naming it only as not yet made fail, one naming it made passes; a page without the section, with the words only
+in passing, and no page, each fail, two pages with the heading pass; an arc below B1923, a PROVED and an OPEN are not
+read, and B1923 itself is; the gate is registered with this control and passes on the record.
+
+BEFORE: on the tree before this patch, the new tests fail, 5 of 5 (no gate).
+
+THE RECORD: the register of practices has the gate's section (GATED in part, the rest MANUAL); the rule's "Enforced by"
+line names the gate, its failing paths, and what stays by hand at every landing. No verdict file, FINDINGS page or test of
+main's is changed. On the record the gate passes: no NEGATIVE verdict from B1923 on yet.
+
+0 of 19.
+---
+ CHANGELOG.md                              |  7 ++
+ PROGRESS_LOG.md                           | 10 +++
+ README.md                                 |  2 +-
+ WORKING_RULES.md                          |  9 +--
+ docs/PRACTICES.md                         | 16 +++++
+ docs/views/CONTEXT_RECOVERY.md            |  2 +-
+ docs/views/THE_SPINE.md                   |  6 +-
+ scripts/gates/gates.py                    | 55 ++++++++++++++++
+ tests/GATE_CONTROLS.json                  |  3 +-
+ tests/test_negative_second_computation.py | 80 +++++++++++++++++++++++
+ 10 files changed, 182 insertions(+), 8 deletions(-)
+ create mode 100644 tests/test_negative_second_computation.py
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 10e6d9f26..96e216372 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,12 @@
+ # Changelog
+ 
++## S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (P-842) (2026-11-13)
++
++- **Built as a patch by the building session** at main's card C19 (M29), first in its order: the gate WORKING_RULES' rule of 2026-11-13 named as owed.
++- **The gate `negative-second-computation`:** from B1923 on, a NEGATIVE verdict file names a second computation made in `cites_seat` (one named as owed, assigned, pending or not yet made does not count), or its verdict line says PROVISIONAL; and its FINDINGS has a heading "What the wall teaches". It passes on the record (no NEGATIVE from B1923 on yet).
++- **Its failing paths** `tests/test_negative_second_computation.py`, registered in `tests/GATE_CONTROLS.json`: each planted case with its twin.
++- **The register of practices** has the gate's section; **the rule's "Enforced by" line** names the gate and what stays by hand.
++
+ ## S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
+ 
+ - **The condition:** the allowed subweave at level 5 is the stabiliser of the mark (B1872); every allowed word is a closed thread whose own line is the mark, so its thread average at the mark with the invariant end is canonical (B1921, B1922); the read-out on the whole is the move-count average of those thread averages, each weighted by its length.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 1fe277694..29677ebd4 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20166,3 +20166,13 @@ seat's check. Six are left.
+ **What happened.** Main wrote down, before computing anything, exactly how values would be read from the object as a whole under today's new picture: average the physics formula along each allowed path of the object's motion (each one automatically at the right "line"), then average over all paths, every step of the motion counted as equally likely, as the project's foundation says. Main also wrote down in advance the two different answers this could give, depending on how paths are weighted, and what outcome would count as failure. If it works, the free parameter τ and the arbitrary choice of a reading point both disappear.
+ 
+ 0 of 19.
++
++## 2026-11-13 — A check that a negative result has been computed twice before it is banked (S306p)
++
++**What happened.** The rule adopted today says a negative result (a route found closed) is banked only after a second,
++independent computation; until then it is marked provisional, and the arc says what the wall teaches. Main had applied it
++by hand. The building session added the automatic check, at main's request: from arc B1923 on, a negative verdict that
++names no second computation and is not marked provisional is refused, and so is one whose page has no section on what
++the wall teaches. Whether the second computation is truly independent stays main's to judge.
++
++0 of 19.
+diff --git a/README.md b/README.md
+index dc4f8a259..802b2892d 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1618: 1122 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
+ | points in the register | 845: 309 open (queued work, leads, and questions not yet decided), 536 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13) |
++| the last landing | S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (P-842) (2026-11-13) |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/WORKING_RULES.md b/WORKING_RULES.md
+index 2636d60c0..e142b3bf5 100644
+--- a/WORKING_RULES.md
++++ b/WORKING_RULES.md
+@@ -376,10 +376,11 @@ author: this mistake must not be possible again.
+    each gets an independent second computation and its contemplation, by the ledger
+    `audit/negatives/2026-11-13/` until it lands as an arc.
+ 
+-**Enforced by:** owed, the builder's card C19 (a gate: from B1923 on, a NEGATIVE verdict without "second computation"
+-in `cites_seat` must carry PROVISIONAL in its verdict line, and its FINDINGS must carry a section "What the wall
+-teaches"; with its failing paths). Until the gate lands, main applies
+-the rule by hand at every landing. Register row P-842.
++**Enforced by:** the gate `negative-second-computation` (the builder's card C19, 2026-11-13): from B1923 on, a NEGATIVE
++verdict without a second computation made named in `cites_seat` must carry PROVISIONAL in its verdict line, and its
++FINDINGS must carry a section "What the wall teaches"; its failing paths are `tests/test_negative_second_computation.py`.
++By hand, at every landing: whether the second computation is independent, that nothing is built on a provisional
++negative (point 1), point 2, and the re-verification of point 6. Register row P-842.
+ 
+ ## Rule (2026-10-06, the owner's instruction, relayed by the SM seat — adopted): VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED
+ 
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 92cc4d77c..0c88deade 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1443,3 +1443,19 @@ Three practices came out of the field stage's last window. Each answers a slip t
+     says otherwise. Each landing's report names the package it advanced and says whether one closed. And the order
+     ends in one package: the programme's builder refuses a second package that nothing needs, with the old order
+     planted as its test. MIXED.
++
++## A negative is banked only after a second computation — GATED (`negative-second-computation`) in part, the rest MANUAL (adopted 2026-11-13, WORKING_RULES, at the author's instruction after B1918; P-842; the gate by the building session's card C19)
++
++**The rule** is WORKING_RULES' of 2026-11-13: a NEGATIVE verdict is banked only after an independent second computation,
++which its verdict file names in `cites_seat` by the words "second computation"; until then its verdict line says
++PROVISIONAL and nothing is built on it; "not Y" is tested against Y's own definition; and after every wall the arc's page
++says what the wall teaches. **The gate** reads, from B1923 on, every NEGATIVE verdict file: an entry of `cites_seat` that
++names a second computation made (one named as owed, assigned, pending or not yet made does not count), or PROVISIONAL in
++its verdict line; and a heading "What the wall teaches" in its FINDINGS. Its failing paths are
++`tests/test_negative_second_computation.py`. **MANUAL:** whether the second computation is independent, that nothing is
++built on a provisional negative, that "not Y" was tested against Y, and the re-verification of the negatives banked
++before B1923 (the ledger `audit/negatives/2026-11-13/`).
++
++**Why it exists.** B1918 banked a route closed from fits over a family of forms that did not hold the true one; it stood
++for half an hour and was retracted the same day only because the SM seat, given the same step, found the exact formula
++from its sealed calibration (B1919).
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index ca4bcfe95..7b2ac4d7b 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (P-842) (2026-11-13)
+ - S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
+ - S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
+ - S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
+@@ -60,7 +61,6 @@
+ - S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
+ - S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again)…
+ - S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
+-- S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
+ 
+ ## The latest campaign line
+ 
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index f8f1ae9ed..20b0326e0 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1542 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1543 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1912,3 +1912,7 @@ Generated by `scripts/views/spine.py` — 1542 locks. Regenerated with the views
+ - — `test_gates_are_a_function_of_the_commit.py` 
+ - — `test_nothing_leaves_a_ledger.py` 
+ - — `test_seat_listener.py` 
++
++## 2026-11-13
++
++- — `test_negative_second_computation.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 8c85850a5..a5ad11047 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3121,6 +3121,60 @@ def gate_arc_data():
+     return True, "ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported)" % (out["verdict files"], len(out["D7 relation in prose only (candidates)"]))
+ 
+ 
++# Card C19 (2026-11-13, main's M29; WORKING_RULES' rule of 2026-11-13, the author's instruction after B1918, register row
++# P-842): a NEGATIVE verdict is banked only after an independent second computation, which its verdict file names in
++# `cites_seat` by the words "second computation"; until then its verdict line says PROVISIONAL. After every wall, the arc's
++# page carries a section "What the wall teaches". The rule binds from B1923 on; the arcs before it are not read here.
++NEGATIVE_SECOND_FROM_ARC = 1923
++_SECOND_COMPUTATION_RE = re.compile(r"second computation", re.I)
++# an entry that names the second computation only as not yet made does not count as naming one made
++_SECOND_NOT_YET_RE = re.compile(r"\b(owed|assigned|pending|not yet|awaited|awaiting|to come|to be made|outstanding)\b", re.I)
++_PROVISIONAL_RE = re.compile(r"\bPROVISIONAL\b")
++_WALL_TEACHES_RE = re.compile(r"^#{1,6}[ \t][^\n]*?what the wall teaches", re.I | re.M)   # a heading that holds the words
++
++
++def negative_without_second(reader=None, start=NEGATIVE_SECOND_FROM_ARC):
++    """(arc id, what is missing) for every NEGATIVE verdict file of an arc numbered `start` or above: no entry of
++    `cites_seat` names a second computation made and the verdict line (`claim_one_line`) does not say PROVISIONAL; or the
++    arc's FINDINGS.md has no heading "What the wall teaches" (a missing or unreadable page counts as one without it)"""
++    reader = reader or (lambda rel: _read(rel)); out = []
++    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
++        m = re.match(r"B(\d+)_", os.path.basename(os.path.dirname(p)))
++        if not m or int(m.group(1)) < start:
++            continue
++        rel = os.path.relpath(p, ROOT)
++        try:
++            d = json.loads(reader(rel))
++        except Exception:
++            continue                                      # an unreadable verdict file is the arc-data gate's to refuse
++        if d.get("verdict") != "NEGATIVE":
++            continue
++        arc = d.get("id", "B" + m.group(1))
++        made = [str(c) for c in (d.get("cites_seat") or [])
++                if _SECOND_COMPUTATION_RE.search(str(c)) and not _SECOND_NOT_YET_RE.search(str(c))]
++        if not made and not _PROVISIONAL_RE.search(str(d.get("claim_one_line") or "")):
++            out.append((arc, "no second computation named in cites_seat, and the verdict line does not say PROVISIONAL"))
++        try:
++            page = reader(os.path.join(os.path.dirname(rel), "FINDINGS.md"))
++        except Exception:
++            page = ""
++        if not _WALL_TEACHES_RE.search(page or ""):
++            out.append((arc, "its FINDINGS has no section 'What the wall teaches'"))
++    return out
++
++
++def gate_negative_second_computation(reader=None):
++    """WORKING_RULES' rule of 2026-11-13 (the author's instruction after B1918; P-842; card C19): from B1923 on, a NEGATIVE
++    verdict names an independent second computation in `cites_seat`, or its verdict line says PROVISIONAL; and its arc's
++    page carries "What the wall teaches". Whether the second computation is independent is main's to judge; the gate reads
++    what is written."""
++    bad = negative_without_second(reader)
++    if bad:
++        return False, "%d NEGATIVE verdict(s) from B%d on break the rule of 2026-11-13: " % (len(bad), NEGATIVE_SECOND_FROM_ARC) + \
++            "; ".join("%s: %s" % b for b in bad[:6])
++    return True, "ok (every NEGATIVE verdict from B%d on names a second computation or says PROVISIONAL, and its page says what the wall teaches)" % NEGATIVE_SECOND_FROM_ARC
++
++
+ GATES = {
+     "identification-register": gate_identification_register,
+     "framing": gate_framing,
+@@ -3175,6 +3229,7 @@ GATES = {
+     "pretense-phrases": gate_pretense_phrases,
+     "member-scope": gate_member_scope,
+     "seat-positive-verified": gate_seat_positive_verified,
++    "negative-second-computation": gate_negative_second_computation,
+ }
+ 
+ 
+diff --git a/tests/GATE_CONTROLS.json b/tests/GATE_CONTROLS.json
+index f7ae62ff3..9b760300f 100644
+--- a/tests/GATE_CONTROLS.json
++++ b/tests/GATE_CONTROLS.json
+@@ -51,5 +51,6 @@
+  "seal-immutable": "tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit",
+  "artifact-hashes": "tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten",
+  "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused",
+- "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused"
++ "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused",
++ "negative-second-computation": "tests/test_negative_second_computation.py::test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_twin_passes"
+ }
+diff --git a/tests/test_negative_second_computation.py b/tests/test_negative_second_computation.py
+new file mode 100644
+index 000000000..e12dbe8d9
+--- /dev/null
++++ b/tests/test_negative_second_computation.py
+@@ -0,0 +1,80 @@
++"""Card C19 (2026-11-13, main's M29): the gate `negative-second-computation` holds WORKING_RULES' rule of 2026-11-13 (the
++author's instruction after B1918; register row P-842). From B1923 on, a NEGATIVE verdict names a second computation made
++in `cites_seat`, or its verdict line says PROVISIONAL; and its arc's page has a section "What the wall teaches".
++
++Each planted case below stands with its twin: the same verdict file with the one thing the rule asks put right passes."""
++import json, os, sys
++
++ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++sys.path.insert(0, os.path.join(ROOT, "scripts", "gates"))
++import gates
++
++WALL = "# B99923\n\n## What the wall teaches\n\nThe wall rests on one assumption.\n"
++
++
++def _plant(monkeypatch, arcs):
++    """arcs: {folder: (verdict file as a dict, FINDINGS text or None)}; the gate reads only these"""
++    mapping = {}
++    for folder, (d, page) in arcs.items():
++        mapping["frontier/%s/arc_verdict.json" % folder] = json.dumps(d)
++        if page is not None:
++            mapping["frontier/%s/FINDINGS.md" % folder] = page
++    monkeypatch.setattr(gates.glob, "glob", lambda pat: [os.path.join(gates.ROOT, k) for k in mapping if k.endswith(".json")])
++
++    def reader(rel):
++        return mapping[rel.replace(os.sep, "/")]                 # a page not planted raises, as a missing file does
++    return reader
++
++
++def _negative(n, cites=(), line="the route closes within these forms"):
++    return {"id": "B%d" % n, "verdict": "NEGATIVE", "cites_seat": list(cites), "claim_one_line": line}
++
++
++def test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_twin_passes(monkeypatch):
++    """the card's control: a NEGATIVE from B1923 on, no second computation named, the line not PROVISIONAL"""
++    rd = _plant(monkeypatch, {"B99923_x": (_negative(99923), WALL)})
++    ok, msg = gates.gate_negative_second_computation(reader=rd)
++    assert not ok and "B99923" in msg and "PROVISIONAL" in msg
++    rd = _plant(monkeypatch, {"B99923_x": (_negative(99923, line="PROVISIONAL: the route closes within these forms"), WALL)})
++    assert gates.gate_negative_second_computation(reader=rd)[0]
++    rd = _plant(monkeypatch, {"B99923_x": (_negative(99923, cites=["agy-002's second computation on its own code"]), WALL)})
++    assert gates.gate_negative_second_computation(reader=rd)[0]
++
++
++def test_a_second_computation_named_only_as_owed_does_not_count(monkeypatch):
++    for words in ("a second computation is assigned to agy-002", "second computation owed", "the second computation: pending",
++                  "a second computation is not yet made"):
++        rd = _plant(monkeypatch, {"B99924_y": (_negative(99924, cites=[words]), WALL)})
++        ok, msg = gates.gate_negative_second_computation(reader=rd)
++        assert not ok and "B99924" in msg, words
++    rd = _plant(monkeypatch, {"B99924_y": (_negative(99924, cites=["the web seat's sealed scan: a second computation of B99924"]), WALL)})
++    assert gates.gate_negative_second_computation(reader=rd)[0]
++
++
++def test_a_negative_whose_page_does_not_say_what_the_wall_teaches_fails(monkeypatch):
++    line = "PROVISIONAL: the route closes within these forms"
++    for page in ("# B99925\n\nThe route closes.\n", "# B99925\n\nwhat the wall teaches, said in passing and not as a section\n", None):
++        rd = _plant(monkeypatch, {"B99925_z": (_negative(99925, line=line), page)})
++        ok, msg = gates.gate_negative_second_computation(reader=rd)
++        assert not ok and "What the wall teaches" in msg, page
++    for page in (WALL, "# B99925\n\n### 7. What the wall teaches: the assumption it rests on\n"):
++        rd = _plant(monkeypatch, {"B99925_z": (_negative(99925, line=line), page)})
++        assert gates.gate_negative_second_computation(reader=rd)[0], page
++
++
++def test_the_rule_binds_from_b1923_and_reads_negatives_only(monkeypatch):
++    rd = _plant(monkeypatch, {"B1922_before": (_negative(1922), None),
++                              "B1923_on": ({"id": "B1923", "verdict": "PROVED", "cites_seat": [], "claim_one_line": "x"}, None),
++                              "B1924_open": ({"id": "B1924", "verdict": "OPEN", "cites_seat": [], "claim_one_line": "x"}, None)})
++    assert gates.negative_without_second(reader=rd) == []
++    rd = _plant(monkeypatch, {"B1923_on": (_negative(1923), None)})
++    assert [a for a, _ in gates.negative_without_second(reader=rd)] == ["B1923", "B1923"]
++
++
++def test_the_gate_is_registered_with_this_control_and_passes_on_the_record():
++    assert gates.GATES["negative-second-computation"] is gates.gate_negative_second_computation
++    reg = json.load(open(os.path.join(ROOT, "tests", "GATE_CONTROLS.json"), encoding="utf-8"))
++    assert reg["negative-second-computation"].endswith(
++        "::test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_twin_passes")
++    ok, msg = gates.gate_negative_second_computation()
++    assert ok, msg
+-- 
+2.43.0
+

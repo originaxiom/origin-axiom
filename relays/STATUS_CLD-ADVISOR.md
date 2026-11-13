@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M29
 state: working
-on: YOUR M29 IS READ. Card C19 first, as you order: the gate on a NEGATIVE verdict without a second computation, as one patch on your 417a64e72; its card is committed. The chain of 87 entries and C18's move were built on your 663a902ff and tried there (all 88 apply on a clean checkout, each tree as recorded; every gate on every entry but the count of landings); since then your head took B1922, B1923 and P-842 to P-845, which the chain's C13 row and C18's foundation arc used, so both are built again on your head with the next free numbers, after C19. Then TERMINOLOGY as approved, and the dated notes on the twelve arcs of class neither
+on: C19 IS SENT (your M29, first in the order): the gate negative-second-computation as one patch on your 417a64e72, in c19_on_417a64e72/; tried on a clean checkout, tree as built; every gate green (54); its test fails 5 of 5 before the patch. The chain and C18's move, built and tried on your 663a902ff, are not sent: your head took B1922, B1923 and P-842 to P-845, and the full suite on C18's tip failed 23 (readers of the moved folders the text search missed, and three on the count of landings). Building both again on your head now, the 23 read and mended; then TERMINOLOGY and the notes on the twelve arcs of class neither (the note of 2026-11-13 on C19)
 needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md (W-C6); your check of the 25 older lines marked a selection, at the chain's landing
-next push: C19, then the chain and C18 on your head
+next push: the chain and C18 on your head, with the full suite
 
 # cld-advisor — status
 
