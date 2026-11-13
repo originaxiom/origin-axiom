@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1608: 1113 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
-| points in the register | 838: 306 open (queued work, leads, and questions not yet decided), 532 closed |
+| arcs with a verdict | 1609: 1114 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| points in the register | 838: 305 open (queued work, leads, and questions not yet decided), 533 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE MEASURE OF THE READ-OUT ON THE WHOLE IS FORCED: THE FLAT AREA IS NOT A QUANTITY ON THE CURVE, AND THE ONE CHOICE LEFT IS WHICH CURVE (B1913… |
+| the last landing | S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DO… |
 <!-- STATE:END -->
 
 ## Start here

@@ -12463,5 +12463,17 @@
    "hypotheses": "B1753's 223 apexes, all 266 lines, B1741's seat menu, c continuous in [1/3, 5]; sealed c70b356f0"
   },
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "B1907",
+  "claim_killed": "That the physical lane's two sealed execution packets be accepted for execution as sealed (P-746): main refused them, custody holding in full, for three findings each a method whose pass would be read as more than it tests.",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED by main at B1914's landing (2026-11-13), in B836's form, from the arc's authored NEGATIVE verdict. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
+  "routed_from": "main-2026-11-13"
  }
 ]

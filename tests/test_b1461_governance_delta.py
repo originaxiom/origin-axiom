@@ -107,7 +107,15 @@ def test_review_tools_render_carries_the_core_lines():
 def test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver():
     w = open(os.path.join(ROOT, gates.REVIEW_WAIVER)).read()
     assert "- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>" in w
-    assert gates.review_waiver_covers(40, w, since=gates.review_anchor_date()) is False
+    # 2026-11-13: the owner waived the block through 60 merges (the file's last line), so a waiver is live in this window.
+    # The lock no longer asks for none; it asks that a live waiver be the last line, dated on or after the anchor, given
+    # by the owner, and that it lapse at 60. Without a live waiver it holds as before.
+    since = gates.review_anchor_date()
+    if gates.review_waiver_covers(40, w, since=since):
+        last = [l for l in w.splitlines() if l.startswith("- waived ")][-1]
+        assert gates.review_waiver_covers(40, last + "\n", since=since) is True, "the live waiver is not the last line"
+        assert " by the owner through " in last and last[len("- waived "):len("- waived ") + 10] >= since
+        assert gates.review_waiver_covers(60, w, since=since) is False
 
 
 def test_a_waiver_covers_only_its_own_window():

@@ -20064,3 +20064,9 @@ seat's check. Six are left.
 **What happened.** The proposed read-out had seemed to depend on a choice of how to measure area: with a flat measure the place it picks moved. Main showed that the flat measure is not a quantity on the curved surface at all, since it changes from one map of the surface to another, and the place it gives moves with the map. The only measure that belongs to the surface gives one place, the same in every map. So that choice was never free. The one choice still left is which of two related surfaces the read-out lives on, which depends on an earlier question about the object's basic step.
 
 0 of 19.
+
+## 2026-11-13 — The line's last choice and the object's handedness are one choice (S306p)
+
+**What happened.** One of the choices still made by hand is which "line" (a small piece of discrete data on the object's surface) the values are read with. A consistency condition had been proposed to fix it. Main built and ran it: it fixes everything about the line that the object's own motion already fixed, and it cannot fix the last remaining two-way choice, because the two candidates always move together. Main then checked how the object's own symmetries treat the two candidates: every symmetry that turns the object into its mirror image swaps them, and every symmetry that keeps its handedness leaves them alone. So the line's last choice and the object's handedness are one choice, not two, once the object's symmetries are taken into account. No input is removed by this; it narrows where the remaining choices sit.
+
+0 of 19.

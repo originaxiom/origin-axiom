@@ -1,0 +1,25 @@
+{
+ "id": "B1914",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1867",
+  "B1845",
+  "B1872"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the golden bundle (monodromy LR) and its order-5 lines; decision 4 of the input budget",
+  "object": "which lines the extension condition keeps, and how the bundle's symmetries act on the line's two twins",
+  "reach": "single",
+  "hypotheses": "the record's convention L = [[1,1],[0,1]], R = [[1,0],[1,1]]; symmetries are integer matrices conjugating LR to itself or its inverse, searched in full to entries 12 and in the two solution families to 300; the orientation sign of a symmetry is det X times its exponent; the hand question itself (which count of placements applies) is not decided"
+ },
+ "claim_one_line": "THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an identity, B1872); every symmetry of the golden bundle (104 found, eight classes modulo LR, four reversing the orientation, as SnapPy's D4) keeps the eigenline mod 5 and acts on it by +-1 when it keeps the orientation and by +-2 when it reverses it, so the twins are exchanged exactly by the mirrors and the four placements (hand, twin) are two classes. No input leaves; decision 4 sits with decision 1. 0 of 19.",
+ "weave_or_thread": "thread (the golden bundle and its own symmetries)"
+}

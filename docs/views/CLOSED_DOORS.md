@@ -5,8 +5,8 @@
 
 # The closed-door map (generated)
 
-**859 recorded closures — of which 692 are CLASSIFIED by mechanism and
-167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
+**860 recorded closures — of which 692 are CLASSIFIED by mechanism and
+168 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
 number. A programme whose firewall works is mostly negatives; this is the shape of them.
@@ -14,7 +14,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | mechanism | doors | facts not computed |
 |---|---|---|
 | `other` | 359 | 343 |
-| `unrouted-unclassified` | 167 | 167 |
+| `unrouted-unclassified` | 168 | 168 |
 | `kind-mismatch` | 51 | 4 |
 | `genericity` | 38 | 1 |
 | `no-landing-site` | 30 | 1 |
@@ -143,7 +143,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.` | 1 |  |
 | `Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.` | 1 |  |
 
-## Closures whose discriminating fact was not computed (529)
+## Closures whose discriminating fact was not computed (530)
 
 The standing rule is that a negative is only as sound as the in-sandbox computation of
 its discriminating fact. **B799 resolved all of these** — see `frontier/B799_uncomputed_doors/`.
@@ -679,3 +679,4 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 | `B1340` | That 'anomaly-free on the 19,624 vacua' is evidence, and that either falsifier this bench proposed for it can  | `All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.` |
 | `B1347` | That the multiplier is the arrow -- that a point's stratum in B497's four-strata classification of End(F_2) de | `A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.` |
 | `B1349` | That the theta-even MIRROR SET -- KIND_TABLE's last licensed coupling row, delivered by B1011 C6 and never dra | `Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.` |
+| `B1907` | That the physical lane's two sealed execution packets be accepted for execution as sealed (P-746): main refuse | `unrouted-unclassified` |

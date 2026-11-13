@@ -1644,7 +1644,7 @@
   "rows_live": {
    "P-384": "QUEUED",
    "P-625": "DECLINED",
-   "P-718": "QUEUED"
+   "P-718": "DONE"
   },
   "weave_or_thread": "thread"
  },
@@ -1682,7 +1682,7 @@
   "rows_live": {
    "P-384": "QUEUED",
    "P-707": "DONE",
-   "P-718": "QUEUED"
+   "P-718": "DONE"
   },
   "weave_or_thread": "thread"
  },

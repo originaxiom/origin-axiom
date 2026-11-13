@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1608 |
-| … PROVED | 1113 |
+| arcs with a verdict file | 1609 |
+| … PROVED | 1114 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
 | register points | 838 |
-| … QUEUED | 302 |
+| … QUEUED | 301 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 520 |
+| … DONE | 521 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1741 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
 | B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
 | B1912 | PROVED | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quad… |
 | B1911 | PROVED | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction t… |
@@ -42,7 +43,6 @@
 | B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
 | B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
 | B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
-| B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (a reading of main at 87bfa1f05 by a session that did not write them, 4 of 4 quotations foun… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DOES (B1914; decision 4 of the input budget; P-718 D…
 - S306p THE MEASURE OF THE READ-OUT ON THE WHOLE IS FORCED: THE FLAT AREA IS NOT A QUANTITY ON THE CURVE, AND THE ONE CHOICE LEFT IS WHICH CURVE (B1913; P-776's condition R6) (2026-11-13)
 - S306p THE STATE THE READ-OUT ON THE WHOLE RESTS ON IS THE LOWEST OF ITS KIND, AND ALONE AT ITS ENERGY (B1912; P-783 DONE; P-776's condition R3 met over the range scanned) (2026-11-13)
 - S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP-2.1 begun; P-749) (2026-11-13)
@@ -60,7 +61,6 @@
 - S306p THE NOTES AND HAND-OVERS BETWEEN SESSIONS LEAVE THE TREE, 289 FILES, KEPT IN GIT'S HISTORY AND STILL CHECKABLE WHERE THEY ARE CITED (P-838 (f); docs/REORGANIZATIONS.md, its second entry) (2026-…
 - S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR WRITTEN OUT (B1909, OPEN; P-749 (e); R80-5, at it…
 - S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its fourth carry, resolved) (2026-11-13)
-- S306p TWO SEALED PACKAGES OF CHECKS FROM ANOTHER LINE OF WORK ARE NOT ACCEPTED AS SEALED: CUSTODY HOLDS, THE MATHEMATICS HOLDS AS READ, AND THREE CHECKS WOULD PASS FOR MORE THAN THEY TEST (B1907; P-7…
 
 ## The latest campaign line
 

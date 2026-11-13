@@ -16808,6 +16808,22 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1914": {
+   "slug": "the twin and the hand are one bit every mirror of the bundle exchanges the twins",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

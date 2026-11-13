@@ -29,9 +29,23 @@ def test_the_law_map_row_is_superseded_and_points_at_B942():
     assert "UNEARNED** (L124)" in txt
 
 
+def _as_it_stood(rel):
+    """A file that left the tree is read where the move log says it last stood (docs/REORGANIZATIONS.md):
+    'REMOVED `<prefix>` AT `<commit>`'. 2026-11-13: docs/handoffs/ left the tree at the owner's word (P-838 (f))."""
+    import re, subprocess
+    log = (ROOT / "docs" / "REORGANIZATIONS.md").read_text(encoding="utf-8")
+    for prefix, commit in re.findall(r"REMOVED `([^`]+)` AT `([0-9a-f]{40})`", log):
+        if rel.startswith(prefix):
+            out = subprocess.run(["git", "-C", str(ROOT), "show", f"{commit}:{rel}"], capture_output=True, text=True)
+            assert out.returncode == 0, f"{rel} is not in git at {commit}"
+            return " ".join(out.stdout.split())
+    return _norm(ROOT / rel)
+
+
 def test_the_theorem_inside_the_dead_neighbourhood_is_KEPT_and_distinguished():
-    """B736-P2's obstruction is a verified fact and must not be deleted with the claim."""
-    txt = _norm(ROOT / "docs" / "handoffs" / "PHYSICS_PATHFINDER_PROMPT_2026-07-21.md")
+    """B736-P2's obstruction is a verified fact and must not be deleted with the claim. Since 2026-11-13 the relay
+    is kept in git's history at the commit the move log names, and is read there."""
+    txt = _as_it_stood("docs/handoffs/PHYSICS_PATHFINDER_PROMPT_2026-07-21.md")
     assert "NOTE ADDED 2026-08-08 (B948)" in txt
     assert "independently re-verified" in txt
     assert "The observer's mechanism is **open**" in txt

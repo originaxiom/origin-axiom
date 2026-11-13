@@ -3182,13 +3182,14 @@ GATES = {
 # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
 # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
 READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
-    "arrival-phrases", "path-refs", "tracked-deps", "tracked-forbidden"})
+    "arrival-phrases", "tracked-deps", "tracked-forbidden"})
 READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
     "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
-    "gate-controls"})                             # the same rule for the register of controls (series 3, PV16)
+    "gate-controls",                              # the same rule for the register of controls (series 3, PV16)
+    "path-refs"})                                 # 2026-11-13: a removed file resolves at the commit the move log names (git ls-tree)
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

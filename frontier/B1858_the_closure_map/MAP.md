@@ -127,8 +127,8 @@ by a quote that the builder checks.*
 | id | grade | about | statement | where |
 |---|---|---|---|---|
 | A:A01 | FITTED | thread | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-629 (QUEUED) |
-| A:A02 | CHOSEN | thread | the slope 2/5 of the line class. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-625 (DECLINED); P-718 (QUEUED) |
-| A:A03 | CHOSEN | thread | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-707 (DONE); P-718 (QUEUED) |
+| A:A02 | CHOSEN | thread | the slope 2/5 of the line class. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-625 (DECLINED); P-718 (DONE) |
+| A:A03 | CHOSEN | thread | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-707 (DONE); P-718 (DONE) |
 | A:A04 | CHOSEN | thread | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-366 (DONE) |
 | A:A05 | CHOSEN | thread | the up-conjugate reading (S~, S, S) at a0 = 0. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-295 (QUEUED) |
 | A:A07 | CHOSEN | thread | the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-421 (DONE); P-706 (DONE); P-707 (DONE) |

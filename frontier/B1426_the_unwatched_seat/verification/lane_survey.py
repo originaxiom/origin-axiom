@@ -67,10 +67,15 @@ def main():
     # main -- that is a separate repo, not a separate programme inside this one. Both facts are recorded
     # rather than assumed, because the whole point of this survey is not to repeat an outside reader's
     # error of reasoning from a number without checking what the number counts.
+    # Added 2026-11-13 (main, at B1914's landing): a branch review-<N>/read holds main's own reading commit for a
+    # review's readers (Review 81 first: the faults main planted, P-837), never merged and removed after the review's
+    # entry. Its one unique commit is main's own work for its own review, not a seat's, so it is recorded and not
+    # counted as a lane outside the gate. Only that exact name shape is excluded.
     for l in lanes:
         l["is_dependabot"] = "dependabot" in l["ref"]
         l["other_repository"] = l["ref"].startswith("golden_gate/")
-    live = [l for l in lanes if l["commits_unique_vs_main"] > 0 and not l["is_dependabot"]]
+        l["is_a_review_reading"] = re.fullmatch(r"[^/]+/review-\d+/read", l["ref"]) is not None and l["commits_unique_vs_main"] <= 1
+    live = [l for l in lanes if l["commits_unique_vs_main"] > 0 and not l["is_dependabot"] and not l["is_a_review_reading"]]
     same_repo = [l for l in live if not l["other_repository"]]
     unwatched = [l for l in live if not l["watched_by_the_gate"]]
     # NOTE: main's commit COUNT is deliberately not stored here. It changes with every landing, so an

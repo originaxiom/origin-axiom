@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1608** |
-| words of findings prose | **1,428,838** |
+| research arcs with findings | **1609** |
+| words of findings prose | **1,430,061** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1608** (100.0 %) |
-| recorded closures | **859** (692 classified, 167 routed-only) |
+| arcs carrying an authored verdict | **1609** (100.0 %) |
+| recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1113 |
+| PROVED | 1114 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 12 |
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `other` | 359 |
-| `unrouted-unclassified` | 167 |
+| `unrouted-unclassified` | 168 |
 | `kind-mismatch` | 51 |
 | `genericity` | 38 |
 | `no-landing-site` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**529 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**530 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1913`** (685 words, 0 locks)  
-THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density |f|^2 is unchanged by the group, the flat density |f|^2/y^2 changes by |cz+d|^4 (78.1456 and 21.5296 for two moves), and the flat density's greatest place, found in two charts of the curve and carried back, is two different points 0.065 apart, while the invariant density's is one point, B1885's. The 0.056 shift on record was measured against an ingredient that is not defined on the curve. What R6 still holds open is the reading of the mark: one mirror pair on the line's surface, two on the one-twin surface. 0 of 19.  
-`B1913_the_flat_area_is_not_on_the_curve_the_measure_is_forced/FINDINGS.md`
+**PROVED — `B1914`** (1223 words, 0 locks)  
+THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an identity, B1872); every symmetry of the golden bundle (104 found, eight classes modulo LR, four reversing the orientation, as SnapPy's D4) keeps the eigenline mod 5 and acts on it by +-1 when it keeps the orientation and by +-2 when it reverses it, so the twins are exchanged exactly by the mirrors and the four placements (hand, twin) are two classes. No input leaves; decision 4 sits with decision 1. 0 of 19.  
+`B1914_the_twin_and_the_hand_are_one_bit_every_mirror_of_the_bundle_exchanges_the_twins/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

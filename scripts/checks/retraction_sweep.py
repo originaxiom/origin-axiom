@@ -227,12 +227,10 @@ def _flatten(line):
 # SHORTENED 2026-11-12 by main, in the commit that lands this series (B1896): the twelfth, the row of the paper's table of
 # candidate claims that showed the first words of B1632's claim line, is mended.  The claim line leads with its correction and
 # the row carries it.  Eleven lines are held.
+# SHORTENED 2026-11-13 by main (B1914's landing): the two relays as sent left the tree with docs/handoffs/ (P-838 (f),
+# docs/REORGANIZATIONS.md, at 578e2d898); git's history keeps them.  Nine lines are held.
 STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
-    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md", "the sense of the root's 3-cycle as the chirality bit"):
-        "a relay as sent; the line says the candidate is dead",
     ("docs/ERROR_LEDGER.md", "every coupling is degenerate at \u03c9"): "the error ledger's row (E53, instance 31) quotes the sentence it records",
-    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_COUPLINGS_AND_THE_GOLDEN_SPECTRUM.md", "every coupling is degenerate at \u03c9"):
-        "a relay as sent, four days before the sentence was scoped",
     ("frontier/B1635_couplings_on_the_ruled_branch/ADDENDUM_2026-10-13_omega_and_the_ansatz.md", "every coupling is degenerate at \u03c9"):
         "the addendum that scopes the sentence quotes it in its title",
     ("frontier/B1635_couplings_on_the_ruled_branch/FINDINGS.md", "every coupling is degenerate at \u03c9"):

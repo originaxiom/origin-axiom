@@ -1,0 +1,241 @@
+{
+ "A": "((2, 1), (1, 1))",
+ "a_orders_with_a_fixed_line": [
+  5
+ ],
+ "a_at_5": {
+  "1,2": -1,
+  "2,4": -1
+ },
+ "b_SL2_F5_size": 120,
+ "b_elements_separating_the_two_points": 0,
+ "b_elements_fixing_the_pair": 10,
+ "b_words_up_to_14": 32766,
+ "b_words_agreeing": 32766,
+ "b_words_fixing_the_pair": 2687,
+ "b_LaR_fixing": [
+  1,
+  6,
+  11,
+  16,
+  21,
+  26
+ ],
+ "b_run6_periods_signs": [
+  1,
+  -1,
+  1
+ ],
+ "e_histories": {
+  "run of 6 + 1": {
+   "orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    20,
+    24
+   ],
+   "fixes the pair": true
+  },
+  "run of 6 + 2": {
+   "orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    15,
+    20,
+    28,
+    30,
+    56,
+    60
+   ],
+   "fixes the pair": true
+  },
+  "run of 6 + 3": {
+   "orders": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    14,
+    15,
+    22,
+    25,
+    30,
+    50
+   ],
+   "fixes the pair": true
+  },
+  "L^2 R + 1": {
+   "orders": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "fixes the pair": false
+  },
+  "L^2 R + 2": {
+   "orders": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    12,
+    14,
+    24,
+    28
+   ],
+   "fixes the pair": false
+  },
+  "L^2 R + 3": {
+   "orders": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    14,
+    22,
+    33,
+    35
+   ],
+   "fixes the pair": false
+  },
+  "L R^2 + 1": {
+   "orders": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    12
+   ],
+   "fixes the pair": false
+  },
+  "L R^2 + 2": {
+   "orders": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    12,
+    14,
+    24,
+    28
+   ],
+   "fixes the pair": false
+  },
+  "L R^2 + 3": {
+   "orders": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    14,
+    22,
+    33,
+    35
+   ],
+   "fixes the pair": false
+  },
+  "L^3 R + 1": {
+   "orders": [
+    3,
+    5,
+    11,
+    15
+   ],
+   "fixes the pair": false
+  },
+  "L^3 R + 2": {
+   "orders": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    16,
+    18
+   ],
+   "fixes the pair": false
+  },
+  "L^3 R + 3": {
+   "orders": [
+    3,
+    7,
+    13,
+    29
+   ],
+   "fixes the pair": false
+  }
+ },
+ "plant_swapped_run6_fixes_v1": false,
+ "c_full_search_equals_families_within_12": true,
+ "c_symmetries_found": 104,
+ "c_preserving_scalars": [
+  1,
+  4
+ ],
+ "c_reversing_scalars": [
+  2,
+  3
+ ],
+ "c_every_symmetry_keeps_the_eigenline": true,
+ "c_J": {
+  "J^2 == A": true,
+  "det": -1,
+  "commutes": true,
+  "lam": 3
+ },
+ "c_K": {
+  "K A K^-1 == A^-1": true,
+  "det": 1,
+  "lam": 2
+ },
+ "c_all_found_are_pm_Jn_or_pm_JnK": true,
+ "c_classes_modulo_A": 8,
+ "c_classes_reversing": 4,
+ "c_snappy_4_1": {
+  "order": 8,
+  "amphicheiral": true,
+  "group": "D4"
+ },
+ "d_orbits": [
+  [
+   "- hand, 2v",
+   "+ hand, v"
+  ],
+  [
+   "- hand, v",
+   "+ hand, 2v"
+  ]
+ ]
+}
