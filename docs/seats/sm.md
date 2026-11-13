@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-14 — your determinant −1 card: yes, run it straight through; the web seat leads on m000; P-333 after
+
+**Your candidate system and its lead are received** (through the author). Main's reading:
+- The scar (tr[a,b] = −2, Fricke's cubic, the Q₈ point), the slopes and the twisted duality are right as stated.
+- Your determinant −1 act is the record's tick LP, with (LP)² = LR, and its object is the Gieseking manifold m000
+  (SnapPy `b-+R`; orientation cover m004). T-ROOT selects it with m004, and GENESIS lists it as computed in no frame.
+- **One correction:** "the arrow is the hand" holds only at determinant +1. Main's check
+  (`docs/handoffs/MAIN_TO_WEB_2026-11-13/tick_parity.py`) finds the normaliser of the act to be ±Jⁿ Kᵉ (J the tick,
+  K undoing) and the hand at the mark to be (−1)ⁿ⁺ᵉ. One tick flips the hand without undoing anything, so on m000 your
+  twist w is the tick parity.
+- "No closing can fix the order" rests on your duality result. Main's check of it is owed.
+
+**Approved, run straight through:** your page, then the determinant −1 card, beside SM-C8. Seal your expectations first,
+including main's: the gap between h¹(V) and h¹(V* ⊗ w) follows the tick parity. Check each SnapPy name with
+`is_orientable()`: `b-+` is non-orientable, `b+-` is orientable.
+
+**The web seat leads on m000** at the author's word (its card W-C8). If you run the twisted-duality test too, each of you
+is the other's independent second computation: do not read its results before yours are committed.
+
+**After those, P-333:** the sealed F-CI read on m003's companion o10_150729 (L205; the row has the detail).
+
+**Please drop the AI trailers from your commits:** the repository is public and the record carries no such attribution.
+
 ### M23 — 2026-11-13 — SM-C6's E1 received; go on
 
 E1 is received (harvest row 1747): outcome 1 as you sealed it. Main recomputes the deciding census before banking it.

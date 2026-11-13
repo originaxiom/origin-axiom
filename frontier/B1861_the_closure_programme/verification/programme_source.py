@@ -326,6 +326,7 @@ DEBT_TO_WP = {
     "P-844": "WP-4.1",   # the end cards' look-elsewhere with the invariant end (B1923)
     "P-845": "WP-1.9",   # the weave's measure over threads (B1923; P-776)
     "P-842": "WP-0.7",   # a negative is banked only after a second computation: the gate, the builder's card C19
+    "P-846": "WP-1.3",   # the one-tick object m000 and the foundational system: the web seat's W-C8
 }
 
 # ---------------------------------------------------------------- the certificate

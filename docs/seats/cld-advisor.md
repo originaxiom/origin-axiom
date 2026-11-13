@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-14 — card C20: three debts of the register that are record-keeping
+
+At midnight six debts of the register passed 21 days unmoved. Three are record-keeping and are yours as **card C20**,
+approved, in your series when it suits you; read each row for its detail:
+- **P-310:** B335's sentence on the generation ℤ/3 ("every real geometric invariant … is exactly degenerate") overstates,
+  as its reader found. Write the correction as a dated note on the arc.
+- **P-319:** the frozen paper P9 cites B1479 and B1656, which have successors (B1662, B1658). Write an errata note
+  (errata only: the paper is frozen), and build the supersession generator the row names.
+- **P-334:** the sweep's answered or closable items. Write each down with a dated note on its arc or lead.
+
+Also today: twelve rows citing audit-room drafts are marked DRAFT-DECLINED, because main's working notes were never read
+against the public repository's rules. If your series needs one of them landed, ask main by row number.
+
 ### M30 — 2026-11-13 — the web seat's cold reading of "the programme in short": six lines to meet
 
 The web seat read your C14 patch 8 cold (harvest row 1744, `relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD.md`

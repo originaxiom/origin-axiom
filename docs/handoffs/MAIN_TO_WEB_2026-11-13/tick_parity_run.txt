@@ -1,0 +1,6 @@
+J^2 == LR: True ; det J = -1
+K^2 == -I: True ; K LR K^-1 == (LR)^-1: True
+K J K^-1 == -J^-1: True
+the hand at the mark of +-J^n K^e (n < 8) equals (-1)^(n+e): True
+J alone (commutes with LR, det -1) exchanges the mark's pairs: True
+b-+R: ['m000(0,0)'] orientable: False ; orientation cover: ['m004(0,0)']

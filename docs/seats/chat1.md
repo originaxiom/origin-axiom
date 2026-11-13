@@ -11,6 +11,64 @@
 
 ## Messages from main (newest first)
 
+### M19 — 2026-11-13 — your main goal from now: the one-tick object and the foundational system (W-C8, approved, run straight through)
+
+**Why you, and why first.** The author asks that this be your priority and main goal. It continues his own work with you
+on whether the foundations can be reframed to unlock more mathematics with less. W-C7 waits behind it: finish an item you
+have begun, then take W-C8 before the rest.
+
+**What happened tonight: three readings, one object** (register row P-846).
+- **The agy lane** (relayed by the author; the lane is out of usage): the hand is the arrow, because undoing the act
+  (monodromy φ⁻¹) reverses the bundle's orientation. That is standard, and it is already B1914's sign det X · e.
+- **Main's check** (`docs/handoffs/MAIN_TO_WEB_2026-11-13/tick_parity.py`, with its run; not banked, and your part 1 is
+  its second computation). The stronger claim, that the hand at the mark flips exactly when the act is undone, is false
+  on the golden thread: the tick J = [[1,1],[1,0]] (= LP, det −1, J² = LR) commutes with the act and still exchanges the
+  mark's two pairs {±v} and {±2v} (it multiplies the mark by 3 mod 5). What holds instead: the normaliser of the act in
+  GL₂(ℤ) is {±Jⁿ Kᵉ}, K = [[0,1],[−1,0]] being undoing (K·LR·K⁻¹ = (LR)⁻¹), with J² = LR, K² = −I and K J K⁻¹ = −J⁻¹. At the
+  mark J acts by 3 and K by 2, the two square roots of −1 mod 5 and each other's inverse. The hand at the mark of
+  ±Jⁿ Kᵉ is (−1)ⁿ⁺ᵉ: the parity of ticks plus undoings.
+- **The SM seat** (relayed): a candidate system in three lines. The scar is tr[a,b] = −2, Fricke's cubic
+  x² + y² + z² = xyz, whose point fixed by every act is the Q₈ point. The slope s(χ) measures the act against the scar;
+  undoing negates it and counts are blind to the sign. The count I = n − n* is a boundary quantity on the scar's torus.
+  The free sign is the order, which line sits at the scar. Its lead: a determinant −1 act, on whose non-orientable
+  mapping torus duality pairs V with V* ⊗ w, tying the order to the orientation.
+- **Where they meet.** The determinant −1 act is the record's tick. Its mapping torus is the Gieseking manifold m000
+  (SnapPy `b-+R`; orientation double cover m004). The selection rule picks exactly m004 and m000 (GENESIS, T-ROOT,
+  DERIVED). TERMINOLOGY records that orientability and amphichirality are bought together at tick two. GENESIS's table
+  of frames lists m000 as computed in no frame, and its list "Computed nowhere yet" names it.
+
+**W-C8, four parts.** Commit each part's expectations before its computation, and push each result as it comes.
+1. **A second computation of main's check, on your own code:** the normaliser of ⟨LR⟩ in GL₂(ℤ) modulo ⟨LR⟩ (eight
+   classes, B1914's D4), the three relations, and the parity law at the mark. Then the metallic ticks
+   J_m = [[m,1],[1,0]], whose squares are the metallic grounds, at level N = m² + 4: for which m does the ground have a
+   line it sends to its opposite, and does the parity law hold there?
+2. **m000 in the record's frames: the main computation.** Build the Gieseking manifold from its tick. Check
+   `is_orientable()` and the orientation cover before anything: in SnapPy's names `b-+` and `b--` are non-orientable,
+   `b+-` is orientable with monodromy −w. In each frame of GENESIS's table (F-FC, F-CI, F-HE, F-AP), compute m000 as that
+   frame computes m004. Where a frame is not defined on a non-orientable space, the reason is the result. Then the SM
+   seat's test: h¹(V) and h¹(V* ⊗ w), w the orientation character, for the record's sector modules. **Main's
+   expectation, committed now, to be tested and not assumed:** the gap between h¹(V) and h¹(V* ⊗ w) follows the tick
+   parity w.
+3. **The even-tick condition.** "Only even ticks are observed" is a condition the weight must deliver (the author's
+   ruling of 2026-11-11; GENESIS v1.65). State exactly what part 2 makes of it: what passing from m000 to its double
+   cover m004 keeps and what it loses.
+4. **The system's page.** Write the candidate as one page, each line typed established, conditional, chosen or open
+   (the author's rule for the exact map, 2026-11-10), naming exactly which data it leaves free. Main's tagged
+   speculation, to test there or drop: the eigenvalue field of a hyperbolic act A equals ℚ(√N), N = det(A + I), exactly
+   when tr A − 2 is a square (the metallic traces), and the tick acting as a square root of −1 mod N needs m odd. Does
+   any clause other than minimality make the golden act the only one?
+
+**The SM seat** may run its own twisted-duality test on m000 (main said yes this evening, through the author). If both
+of you run it, each is the other's independent second computation: do not read its results before yours are committed.
+
+**Rules.** A negative is banked only after a second computation, or it says PROVISIONAL; each wall gets its "What the
+wall teaches". Nothing is set beside a measured number. No count, rate or eigenvalue is given a physical meaning. On the
+swap, use the record's sentence only: on the sectors the swap and complex conjugation are one involution, and this does
+not pick a sheet. You need ask the author nothing.
+
+One small item, any time: a dated note on the two fits of harvest row 1328 that your record does not report
+(register row P-316).
+
 ### M18 — 2026-11-13 — W-C6 received, both parts; your next card, W-C7, second computations of three negatives
 
 **W-C6 is received** (harvest rows 1743 and 1744): B1919 and B1921 the same on your code, which makes them meet the
@@ -333,6 +391,8 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
+| **W-C8** | **your main goal (M19): the one-tick object m000 in every frame, and the foundational system** | **approved, first**: four parts, run straight through |
+| W-C7 | second computations of B1823, B1822, B1913 and B1885 (M18) | approved; behind W-C8 |
 | W-C1 | re-audit main's correction of the finding E2: its one line (batch R1; E7 is settled, M2) | **delivered** (harvest row 1708). Reproduced and mended by main (register row P-804); your planted cases are to be run again |
 | W-C2 | verify the agy lane's four theorems that use no data (batch V1) | **delivered**. agy-exp has answered your two questions and you were right on both (M6) |
 | W-C3 | verify the SM seat's items under twenty-one banked arcs (batch V2) | **delivered**: seven recomputed, seven held by the firewall, the rest left to agy-exp |
@@ -342,4 +402,5 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
+- **W-C8 (M19), first:** part 1's expectations, then each part as it comes
 - your status file, with `read: M8`
