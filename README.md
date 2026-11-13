@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1615: 1119 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
+| arcs with a verdict | 1616: 1120 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
 | points in the register | 841: 305 open (queued work, leads, and questions not yet decided), 536 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; t… |
+| the last landing | S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13) |
 <!-- STATE:END -->
 
 ## Start here

@@ -1,5 +1,9 @@
 # Changelog
 
+## S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
+
+- **B1921:** under τ → −1/τ the fibre rescales, the kernel has weight one, and the regularisation's excised disc rescales by ∣τ∣, so the channel norm of the transported characteristic shifts by exactly −2π log∣τ∣ (nine cases, to 1.9 × 10⁻⁹). B1724 had found the frame S-covariant with the end passed as L + log∣τ∣, numerically and without a derivation: the two cancel. With B1919, L̃ = L + ½ log Im τ − (γ + log π) is invariant under SL(2, ℤ), and 2πL + c_s = 2πL̃ + F_u. The non-modular τ-term of B1920 is the end's own coordinate change. No input removed; the residues and the outputs under the thread average are next. 0 of 19.
+
 ## S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main; P-384, P-776); THE BUILDER'S C18 APPROVED (M28) (2026-11-13)
 
 - **B1920:** on B1737's population, B1656's channel norm is a line part F_u plus one universal, non-modular τ-term; the line part's average along the thread's closed geodesic is the Kronecker limit at s = 1 of the thread's shifted partial zeta, the same L-function whose odd value is the slope; at the apex it is not. Main checked the shifted Hecke formula at s = 2 (eight shifts, two levels, to 1.8 × 10⁻⁶) and reproduced the golden thread's average (8.9068); a lower window it could not use is disclosed as its own truncation. No line chosen, no input removed; P-776 now carries the question whether the read-out on the whole reads the frame as a thread average.

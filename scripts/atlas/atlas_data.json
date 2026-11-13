@@ -16947,6 +16947,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1921": {
+   "slug": "the ends shift under s is the channel norms tau term one invariant end",
+   "motifs": [
+    "choice",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

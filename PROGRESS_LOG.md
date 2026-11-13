@@ -20142,3 +20142,9 @@ seat's check. Six are left.
 **What happened.** The helper session finished its test and main checked it. The physics formula's coupling weight has two parts. One depends on the line and is supplied by the object's own arithmetic, but only when it is averaged along the path the object traces, never at a single chosen point; averaged that way it is a value of the same function that gives the "slope". The other part is one universal term, the same for every line and channel, which behaves badly under the symmetries of the setting and effectively merges with a parameter the formula already has. Nothing is yet removed from the list of inputs, but the next question is now sharp: should the project read its formula as an average along the object's path instead of at a chosen point? Main also approved a helper session's plan to tidy the repository's historical folders.
 
 0 of 19.
+
+## 2026-11-13 — An old numerical observation explained (S306p)
+
+**What happened.** Weeks ago main had observed, by computation only, that the physics formula behaves correctly under one of the setting's basic symmetries provided one of its parameters is shifted in a particular way. Main now derived why: the shift exactly compensates how the coupling weight's regularisation changes when the underlying torus is rescaled. The consequence is that the formula has one natural, symmetry-respecting version of that parameter, and with it the coupling weights depend on the setting only through the arithmetic part found earlier today. Nothing is removed from the list of inputs, but averaging the formula along the object's path is now well defined for these weights.
+
+0 of 19.

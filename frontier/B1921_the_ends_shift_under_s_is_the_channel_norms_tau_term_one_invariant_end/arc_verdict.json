@@ -1,0 +1,26 @@
+{
+ "id": "B1921",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1724",
+  "B1919",
+  "B1920",
+  "B1716"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame: its channel norm and its end parameter L",
+  "object": "the norm's change under S and the end's compensating shift; the invariant end parameter",
+  "reach": "class",
+  "hypotheses": "the derivation from the fibre's rescaling and the kernel's weight one; checked at three tau and three characteristics; the residues R_s and the frame's outputs under the thread average not examined"
+ },
+ "claim_one_line": "THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by |tau|, so N(c', -1/tau) = N(c, tau) - 2 pi log|tau| (checked to 1.9e-9 at nine cases; 0.33 to 1.27 without the shift), which the end's L -> L + log|tau| cancels; with B1919, L~ = L + (1/2) log Im tau - (gamma + log pi) is SL(2,Z)-invariant and 2 pi L + c_s = 2 pi L~ + F_u. No input removed. 0 of 19.",
+ "weave_or_thread": "neither (the frame's covariance)"
+}

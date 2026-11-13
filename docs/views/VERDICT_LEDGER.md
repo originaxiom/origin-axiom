@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1615 of 1615 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1616 of 1616 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1119)
+## PROVED (1120)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1131,6 +1131,7 @@
 | `B1917` | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus half the count of -I equals 1/4pi^2 times the period of the dual-shifted weight-2 Eisenstein series from z0 to gamma z0 along the thread's closed geodesic (main's code: 2.5e-13), and the L-function's value at 1 equals -4 times the geodesic integral of log|g_Jc|, g a Siegel function (Hecke's formula at s = 2 on main's code to 4e-8; the value at 1 against a direct sum to about 1e-4). No point tau is chosen. Whether B1656's channel norm is this quantity is the seat's steps 3-4. 0 of 19. |  | 0 |
 | `B1919` | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replaces B1918, retracted the same day): N(c, tau) = F_u(tau) + pi log Im tau + C with u = c - (1/2, 1/2) and F_u the constant term at s = 1 of the u-shifted lattice sum. The tau-only part is not modular, so the line part F_u carries the geodesic average; P-384's route is open, and the seat's steps 3-4 decide it. 0 of 19. |  | 0 |
 | `B1920` | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified on main): B1656's c_s = F_u + a universal non-modular tau-term; the line part's geodesic average is the Kronecker limit at s = 1 of sum over (u + Z^2)/<M> of |Q|^-s (shifted Hecke at s = 2 on main's code to 1.8e-6; the golden average 8.9068 reproduced); at the apex the line part differs from its average on all 1,476 closed entries. No line chosen, no input removed. 0 of 19. |  | 0 |
+| `B1921` | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by |tau|, so N(c', -1/tau) = N(c, tau) - 2 pi log|tau| (checked to 1.9e-9 at nine cases; 0.33 to 1.27 without the shift), which the end's L -> L + log|tau| cancels; with B1919, L~ = L + (1/2) log Im tau - (gamma + log pi) is SL(2,Z)-invariant and 2 pi L + c_s = 2 pi L~ + F_u. No input removed. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

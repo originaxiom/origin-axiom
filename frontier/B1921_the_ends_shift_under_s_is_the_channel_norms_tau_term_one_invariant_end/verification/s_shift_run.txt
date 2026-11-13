@@ -1,0 +1,9 @@
+tau 0.50+1.12i c (0.3, 0.6): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = -1.90e-09; without the shift -1.274
+tau 0.50+1.12i c (0.7, 0.2): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = -1.69e-09; without the shift -1.274
+tau 0.50+1.12i c (0.1, 0.45): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = -1.53e-09; without the shift -1.274
+tau 0.13+1.07i c (0.3, 0.6): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 3.52e-10; without the shift -0.471
+tau 0.13+1.07i c (0.7, 0.2): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 3.04e-10; without the shift -0.471
+tau 0.13+1.07i c (0.1, 0.45): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 2.93e-10; without the shift -0.471
+tau -0.30+0.90i c (0.3, 0.6): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 4.26e-10; without the shift 0.331
+tau -0.30+0.90i c (0.7, 0.2): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 3.76e-10; without the shift 0.331
+tau -0.30+0.90i c (0.1, 0.45): N(c',-1/tau) + 2 pi log|tau| - N(c,tau) = 3.83e-10; without the shift 0.331
