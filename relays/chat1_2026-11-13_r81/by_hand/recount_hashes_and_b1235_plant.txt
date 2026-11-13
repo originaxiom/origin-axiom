@@ -1,0 +1,4 @@
+# Run by hand once in the scratch worktree; not sealed. These lines are typed from what the runs printed; the raw output was not kept.
+recount.json run again: the same bytes as kept (cmp: SAME)
+as_main_wrote_them.json: 26 files, hashes that differ: []
+B1235's test with 'sweep the repository first' changed to 'search the repository first' in WORKING_RULES.md (1 place): 1 failed (test_the_absence_rule_and_its_instrument); the file put back

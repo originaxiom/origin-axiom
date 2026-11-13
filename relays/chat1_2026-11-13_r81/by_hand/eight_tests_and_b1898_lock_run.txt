@@ -1,0 +1,4 @@
+# Run by hand once in the scratch worktree; not sealed.
+# python3 -m pytest -q -p no:cacheprovider tests/test_b1011_mckay_tensor.py tests/test_b1235_two_seat_harvest.py tests/test_b355_weil_layer_independent.py tests/test_b448.py tests/test_b674_route1.py tests/test_b799_doors.py tests/test_r28_10_stabilizations.py tests/test_w2_molien_cell.py frontier/B1898_*/verification/test_b1898_review_80.py
+..........s........................................................      [100%]
+66 passed, 1 skipped in 241.83s (0:04:01)

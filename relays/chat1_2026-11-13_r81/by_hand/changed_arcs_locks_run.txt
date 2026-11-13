@@ -1,0 +1,49 @@
+# Run by hand once in the scratch worktree (c40446392 with the window's difference applied); not sealed.
+# python3 -m pytest -q -p no:cacheprovider <the verification folders of B1836, B1858, B1861, B1867, B1873, B1877, B1878, B1880, B1881, B1883, B1890, B1891, B1892, B1893, B1895, B1896, B1897>
+.................................................F...................... [ 57%]
+..............................................F......                    [100%]
+=================================== FAILURES ===================================
+_ test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned __
+
+    def test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned():
+        """The measurement is of 2026-11-11 and is a file; the tree goes on taking new seals.  So the measured counts are checked as
+        recorded, and the live state is held to what cannot move without a fault: nothing that verified then is missing now, and
+        what does not verify is exactly the frozen table.  (This lock first pinned the live counts; the next sealed card, a day
+        later, added a list and failed it.)"""
+        a = DATA["all_lists"]
+        assert (a["lists"], a["under_another_name"], a["entries"]) == (269, 80, 2247)
+        assert a["states"]["VERIFIES"] == 1826 and "AMBIGUOUS" not in a["states"]
+        assert a["under_another_name_states"]["VERIFIES"] == 396 and a["under_another_name_states"]["MISMATCH"] == 144
+        assert a["under_another_name_states"].get("ABSENT", 0) + a["under_another_name_states"].get("NOT TRACKED", 0) == 210       # a clone has no untracked files
+        assert a["lowest_share_among_lists"] == 0.375 > G.HASH_LIST_MIN_SHARE > 0.06 >= a["highest_share_among_files_that_are_not_lists"]      # 6 lines of 16, against 1 of 17
+        state = G.hash_list_state()
+        lists = {e[1] for e in state}
+        other = {l for l in lists if not fnmatch.fnmatch(os.path.basename(l), G.ARTIFACT_HASH_GLOB)}
+        assert len(lists) >= 269 and len(other) >= 80 and len(state) >= 2247
+        assert sum(1 for e in state if e[3] == "VERIFIES") >= 1826 and not [e for e in state if e[3] == "AMBIGUOUS"]
+        table = G.hash_lists_frozen()
+        assert table is not None and len(table) == DATA["frozen_table"]["keys"] == 417
+        assert hashlib.sha256((ROOT / G.HASH_LISTS_FROZEN_FILE).read_bytes()).hexdigest() == DATA["frozen_table"]["sha256"] == G.HASH_LISTS_FROZEN_SHA256
+        broken = {e[0]: e[4] for e in state if e[3] != "VERIFIES"}
+        assert broken == table                                    # every entry that does not verify is in the table with its state, and nothing else is
+        ok, why = G.gate_artifact_hashes()
+>       assert ok and "the table holds 417" in why and "of the lists are under another name" in why, why
+E       AssertionError: refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again
+E       assert (False)
+
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py:87: AssertionError
+_________________ test_what_main_changed_at_the_landing_stands _________________
+
+    def test_what_main_changed_at_the_landing_stands():
+        g = _gates()
+        ok, detail = g.GATES["retraction-sweep"]()
+>       assert ok is True and "11 standing instance(s)" in detail and "shorten the table" not in detail, detail
+E       AssertionError: refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again
+E       assert (False is True)
+
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py:170: AssertionError
+=========================== short test summary info ============================
+FAILED frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned
+FAILED frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+2 failed, 123 passed in 92.62s (0:01:32)
+rc=1
