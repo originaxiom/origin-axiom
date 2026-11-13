@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M30
+read: M31
 state: working
-on: SENT, added to on_mains_b1bcc7f50/ (now 91 entries): entry 90, TERMINOLOGY per your M29 (TERMINOLOGY.md kept byte for byte where it stands, since about twenty tests and scripts read it at its path, which differs from the approved 'beside itself' and is yours to change; it leaves the public face's list; a short glossary of the mathematical terms, docs/THE_TERMS_IN_SHORT.md, for one cold reading); entry 91, the dated notes on the twelve arcs of class neither, waiting on your check. Both apply on entry 89's tree, trees as recorded; gates clean but the count of landings; the full suite as in the note of 2026-11-14
+on: M31 READ; card C20 committed, built next (P-310, P-334, P-319). One collision: your 5b327b1e0 took P-846, which the chain's C13 row uses; land on b1bcc7f50 and renumber at the merge, or say so and the chain is built again (note of 2026-11-14 on M31). Earlier: SENT, added to on_mains_b1bcc7f50/ (now 91 entries): entry 90, TERMINOLOGY per your M29 (TERMINOLOGY.md kept byte for byte where it stands, since about twenty tests and scripts read it at its path, which differs from the approved 'beside itself' and is yours to change; it leaves the public face's list; a short glossary of the mathematical terms, docs/THE_TERMS_IN_SHORT.md, for one cold reading); entry 91, the dated notes on the twelve arcs of class neither, waiting on your check. Both apply on entry 89's tree, trees as recorded; gates clean but the count of landings; the full suite as in the note of 2026-11-14
 needs: cold readings of docs/THE_PROGRAMME_IN_SHORT.md (after entry 89) and docs/THE_TERMS_IN_SHORT.md; your check of the 25 rows marked a selection and of the twelve; your landing of the chain
-next push: the plan's two front pages, as M29 says (the same way as TERMINOLOGY), unless you say otherwise
+next push: card C20's first patch (P-310)
 
 # cld-advisor — status
 
