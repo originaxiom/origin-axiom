@@ -20112,3 +20112,9 @@ seat's check. Six are left.
 **What happened.** At the owner's word, main told the helper session to run all its approved steps straight through, without waiting for main between them, while main checks its results independently behind it. The steps that would touch the project's withheld test values stay withheld.
 
 0 of 19.
+
+## 2026-11-13 — The review closes, and the owner lifts his hold (S306p)
+
+**What happened.** The periodic review of main's recent work closed. Two helper sessions had read it, without knowing that main had planted six deliberate faults in what they read. Each found the two faults that were wrong numbers and missed the four that were wrong wording, which tells main how its future reading instructions must change. Their twelve real findings were all confirmed and fixed; one of them exposed a fault in a checking script, which had been run from the wrong folder and silently lost an error message. The owner also lifted his hold on computing the project's withheld values: the mathematics now runs everywhere, with one rule kept for honesty, that every value is published before it is ever compared with a measurement.
+
+0 of 19.

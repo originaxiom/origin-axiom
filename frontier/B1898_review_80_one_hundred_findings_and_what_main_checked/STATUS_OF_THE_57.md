@@ -1,13 +1,13 @@
 # Review 80: the 57 findings that came after main's first 43, and what main has done with each
 
 *Main, 2026-11-12, 13:40. Four files are in: the web seat's (7, and 2 more in a dated addition), agy-002's (36), the SM
-seat's (41) and agy-exp's (14). Every quotation was found by machine at the commit read: 7 of 7, 36 of 36, 50 of 50
+seat's (41) and agy-exp's (14). Every quotation was found by machine at the commit read [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 07: except the two of the web seat's dated addition, W8 and W9, which are marked not checked]: 7 of 7, 36 of 36, 50 of 50
 (each in a file its finding names, or in its arc) and 14 of 14. The first 43 are answered in
 `ANSWERS_the_first_43.md`, and main's mends for them are on main.*
 
 *"Checked" means that main made the finding again itself: by a recount from git or from the file, by a planted error
 of its own, by a computation of its own, or by reading the line and working out what it does. It is not the label
-"reproduced" of the protocol's § 12. The check's output is in `checks/`. "Not checked" means what it says: nobody but
+"reproduced" of the protocol's § 12. The check's output is in `checks/`. [CORRECTED 2026-11-13 (Review 81, the web seat's finding 5 and the SM seat's 02, checked by main: for 29 of the findings main checked in full there is no file in `checks/`; their "held" rests on a recount or a reading that left no output: agy-002's A1 to A4, A7, A10, A11, A13 and A16 to A23, the SM seat's 01, 02, 03, 05, 06, 08, 09, 12, 13, 17 and 36, and agy-exp's F8 and F12] "Not checked" means what it says: nobody but
 the reader has looked. agy-exp's findings are given here in main's words, so that its lane need not be read.*
 
 ## The SM seat (41)
@@ -19,7 +19,7 @@ the reader has looked. agy-exp's findings are given here in main's words, so tha
 | 03 | B1892 § 8 | "eighteen" commits of generated pages only: twenty | the same as agy-002's row 3 | held; mended |
 | 04 | B1892 § 2 | a landing came between the last message to the readers and the entry | the three commits' times and files (`sm_rows_probe`) | held; mended |
 | 05 | B1892, its answers and verdict; the protocol § 13 | "reproduced" is § 12's word for the same code run again | § 12 read | held; noted in the arc. **To build:** § 13's "main reproduces each finding" reworded; a line in the next log entry on main's own use of the word on 2026-11-12 |
-| 06 | B1892 § 1 | "one reading misses most" is more than the table supports | the table: 52, 43, 9 in common | held; mended |
+| 06 | B1892 § 1 | "one reading misses most" is more than the table supports | the table: 52, 43, 9 in common [CORRECTED 2026-11-13 (Review 81, the web seat's finding 4: 53, 43, 9] | held; mended |
 | 07 | B1892, its answers | 88 and ten count a pair the rule does not count: 89 and nine | the sentence | held; mended |
 | 08 | B1892 § 3 | the two agy sessions read at one commit only | the checker's table of readers | held; noted |
 | 09 | B1892 § 7 | the fresh clone's figure has no committed output | a search | held; noted |
@@ -31,7 +31,7 @@ the reader has looked. agy-exp's findings are given here in main's words, so tha
 | 15 | B1893 | "the series after it" is the third; the mends are in the fourth | the page and P-806 | held; mended |
 | 16 | B1893's planted-suite output | `f6e89032a` is not on main | git: on no ref; it was main's scratch commit | held; noted on the page |
 | 17 | B1893 § 5, § 6 | three figures have no committed output | a search | held; noted |
-| 18 | B1893, row U12.b | 1,407 files marked, 1,537 by the series' own definition | recount at `e6298271a` | held; noted |
+| 18 | B1893, row U12.b | 1,407 files marked, 1,537 by the series' own definition | recount at `e6298271a` [CORRECTED 2026-11-13 (Review 81, the web seat's finding 2, recounted by main by git: main's kept probe counted at `896cae025` (1,408; 1,525; 1,540), not at `e6298271a`; at `e6298271a` the counts are 1,407 `test_b*.py`, 1,522 top-level `test_*.py` and 1,537 at any depth, the reader's figures] | held; noted |
 | 19 | B1895, B1897, B1881's lock, P-822, harvest row 1733 | the lock has 15 tests; these say fourteen, or four more | the lock's history: 5, 5, 10, 14, 15 | held. **To build** |
 | 20 | B1895 § 5, § 1, verdict; harvest row 1730 | not brought up to date after the reader ran its plants | the page and the verdict line | held. **To build** |
 | 21 | B1897's opening; agy-002's page; harvest row 1733 | a sentence is attributed to B1895 that no file of B1895 holds | a search | held. **To build** |

@@ -993,3 +993,18 @@ round (B1892, B1894), the foundation at version 1.66 (B1891), the second and the
 read it: 100 findings; main checked 80 in full and all 80 held; 17 were looked at by their reader alone; 41 wait to be
 built (B1898).**
 - **For this page:** in the window it gained Review 79's note and nothing else. Whether anything on it should now read otherwise was not assessed by the session that put this note here: that is main's. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-13 (Review 81)
+
+Touched at Review 81 (its anchor `0e637ea9e`). **The window (`c40446392` to `0e637ea9e`) holds Review 80's entry (B1898),
+its mends and the builder's series parts 1 and 2. Two sessions that built none of it read it, with six faults main
+planted: each caught the two numbers and missed every wording fault; their twelve findings were reproduced and mended
+(B1916).**
+- **For this page:** no open problem moved in the window.
+- **After the window, Review 82's to read (listed so this page is current):** B1906 (the four channels of B1656's
+  coupling in closed form), B1907 (the physical lane's packets refused as sealed), B1908 (the tube at k = 3: the stop
+  found), B1909 (the paired current pole on main's algebra), B1910 (two premises of the carrier named), B1911 (the lane's
+  complex and mass map on main's algebra), B1912 (the golden state is the lowest twin-odd state, and simple), B1913
+  (the read-out's measure is forced), B1914 (the line's last bit goes with the hand), B1915 (the hand's rows counted;
+  corrected the same day: in the whole one bit, the hand), B1916 (this review). The owner lifted his hold on the
+  targets the same day (P-840).

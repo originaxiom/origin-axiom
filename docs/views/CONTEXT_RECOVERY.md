@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1610 |
-| … PROVED | 1115 |
+| arcs with a verdict file | 1611 |
+| … PROVED | 1116 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
-| register points | 839 |
-| … QUEUED | 302 |
+| register points | 840 |
+| … QUEUED | 301 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 521 |
+| … DONE | 523 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1741 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
 | B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
 | B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
 | B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
@@ -41,8 +42,7 @@
 | B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
 | B1907 | NEGATIVE | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mat… |
 | B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
-| B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
-| B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
+| B1898 | PROVED | [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 04: five things of the first 43 are owed and not built, as FINDINGS says; the words below are kept] REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
 - S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
 - S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
 - S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retractions index; the SM seat's page M16) (2026-11-13)
@@ -60,7 +61,6 @@
 - S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13)
 - S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's page M13) (2026-11-13)
 - S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLDS R6 (B1915; decision 1 of the input budget) (2026…
-- S306p THE LINE'S LAST BIT GOES WITH THE HAND: EVERY MIRROR OF THE GOLDEN BUNDLE EXCHANGES THE LINE'S TWINS, AND NOTHING THAT KEEPS THE ORIENTATION DOES (B1914; decision 4 of the input budget; P-718 D…
 
 ## The latest campaign line
 

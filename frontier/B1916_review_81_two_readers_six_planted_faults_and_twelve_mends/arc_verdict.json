@@ -1,0 +1,29 @@
+{
+ "id": "B1916",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1898",
+  "B1873",
+  "B1885",
+  "B1892"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat: relays/REVIEW_81_CHAT1.md @ df9569fa5, five findings",
+  "the SM seat: relays/REVIEW_81_SM.md @ 400259cda, eleven findings"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Review 81: main's work from c40446392 to 0e637ea9e, read at 7d7ab1dfa with six planted faults",
+  "object": "what two readers caught and missed, and the twelve real findings, each reproduced by main and mended",
+  "reach": "single",
+  "hypotheses": "two readers of one family; the other family's reading moved to Review 82 at the owner's word; quotations checked by main's machine at the commit read; what main changed in answer read by nobody but main"
+ },
+ "claim_one_line": "REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session as an authority); their twelve real findings are each reproduced by main and mended in place, one of them a fault in B1873's instrument (a certificate run from the wrong directory lost its failure line; the lock now asks for it). Quotations: 12 of 12 and 23 of 24 at the commit read. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

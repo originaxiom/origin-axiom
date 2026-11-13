@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Review 80, on agy-002's finding about Review 79's quotation checker: the 99 quotations checked again, strictly.
+"""Review 80, on agy-002's finding about Review 79's quotation checker: the 99 quotations checked again, strictly. [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 05: its output counts 111 quotations, as FINDINGS says]
 
 The old rule called a quotation found when it stood in ANY file of the finding's arc folder or in one of eighteen wide
 pages.  Here each is looked for in the file its finding NAMES (for the SM seat's file, which names no file: in the

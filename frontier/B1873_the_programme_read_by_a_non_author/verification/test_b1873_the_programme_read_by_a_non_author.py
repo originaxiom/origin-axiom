@@ -26,7 +26,11 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
               "packages marked started while a need has not started: 0", "every finding names what it bears on: True",
               "the script the foundation cites for the live price exits 1"):
         assert s in out, s
+    # CORRECTED 2026-11-13 (Review 81, the SM seat's finding 08): the exit code alone passed while item 6 had lost its failure
+    # line; the line itself is now asked for, in the run and in the kept output
+    assert "exits 1: - VERDICT: the live figure" in out and "(no failure line)" not in out
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
+    assert "(no failure line)" not in sealed and "exits 1: - VERDICT: the live figure" in sealed      # Review 81, the SM seat's 08
     # 8 at the read; 9 since the owner named the orientation's condition on 2026-11-11 (B1879), which the run now prints
     # The count of debts joined to nothing was typed here (64 at the read, then 65, 66, 67): a pin on a live value, edited each time
     # a debt was registered.  What it stood for is asserted instead: the run's three counts agree

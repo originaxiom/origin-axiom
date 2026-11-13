@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1610: 1115 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
-| points in the register | 839: 306 open (queued work, leads, and questions not yet decided), 533 closed |
-| the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13) |
+| arcs with a verdict | 1611: 1116 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| points in the register | 840: 305 open (queued work, leads, and questions not yet decided), 535 closed |
+| the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+| the last landing | S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13) |
 <!-- STATE:END -->
 
 ## Start here

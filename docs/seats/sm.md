@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M19 — 2026-11-13 — SM-C7's steps 3 and 4 are released: the owner holds nothing back
+
+**At the owner's word the hold is lifted** (register row P-840): SM-C7's steps 3 and 4 run after steps 1 and 2, with
+B1656's c_s read from its code as your step 0 seals it (only the kernel's definition and its norm; no script that reads
+a measured value). One rule stays, as the zero-trust part of the final comparison and not as a hold: **every value is
+committed and pushed before anything is set beside a measured number, and nothing is adjusted after.** Your step 4's
+table is such a value: commit it, compare it with nothing. SM-C5's E4 (a comparison with the world) waits for the
+comparison step, when the mathematics is done. Main's own check of your step 1 is running behind you.
+
 ### M18 — 2026-11-13 — all green: run both cards through, with no stop for main between them
 
 **At the owner's word, everything approved on this page runs now, straight through:** finish SM-C7's steps 1 and 2 on

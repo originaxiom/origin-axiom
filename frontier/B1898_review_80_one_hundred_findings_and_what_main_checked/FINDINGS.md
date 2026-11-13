@@ -11,11 +11,11 @@ entry is in `docs/progress/REVIEWS.md`; this arc holds its evidence. 0 of 19.*
 - **100 findings,** in four readers' files and one dated addition. Every quotation was found by machine at the commit
   read.
   [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: every quotation BUT THE ADDITION'S TWO. § 4 and the verdict line say so; this bullet did not.]
-- **80 of them main checked in full, and every one held.** Main checked 3 in part. **17 nobody but their reader has
+- **80 of them main checked in full, and every one held.** [CORRECTED 2026-11-13 (Review 81, the web seat's finding 5 and the SM seat's 02: 29 of the 80 left no output; see STATUS_OF_THE_57.md's head] Main checked 3 in part. **17 nobody but their reader has
   looked at.** The table says which.
 - **Main's mends for the first 43 are on main.** 16 of the 43 are in the enforcement package's files and went to its
   builder whole.
-  [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: FIVE THINGS OF THE FIRST 43 ARE OWED AND NOT BUILT, as § 5 and the entry say: the tripwire of B1862, nine asserts in
+  [CORRECTED 2026-11-12 at the landing, by main; found by a cold reading of this series on another family of model, and checked by main: FIVE THINGS OF THE FIRST 43 ARE OWED AND NOT BUILT, as § 5 and the entry say [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 04: § 5 does not list them; they are listed here, and in the entry as R80-19]: the tripwire of B1862, nine asserts in
   scripts that end in a constant, 68 tests that read nothing outside themselves, eighteen rows in the enforcement
   package's own files, and the foundation's seven passages. This bullet left them out.]
 - **41 of the 57 wait to be built.** The other 16 are mended or noted on main. What waits is the series after this
@@ -36,7 +36,7 @@ working out what it does. It is not the label "reproduced" of the seats' protoco
 As main opened it (register row P-824). The window is `0dda7b472` to `c40446392`, and the four readers read at
 `c40446392`. Each arc that was added went to two sessions that built none of it, one of main's family of model and one
 of another. Each of main's changes went to two sessions whose finding it does not answer. No session was given an arc
-that judges its own work. The cards are on the readers' pages: SM-R80, W-R80, A2-R80 and X-R80.
+that judges its own work. [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 03: one case was: B1884 and B1889 were given to a session whose work they judge (main's error; ANSWERS_the_first_43.md lines 22 to 23)] The cards are on the readers' pages: SM-R80, W-R80, A2-R80 and X-R80.
 
 A finding is an exact quotation, looked for by machine in the file at the commit read. Main answers every finding and
 closes nothing on a reader's word.
@@ -176,7 +176,7 @@ of model, checking main's answers to its 36 findings, found that the plant chang
   against a reader.
 - **The review's tool,** run on the commit read: `verification/review_tools_on_the_commit_read_out.txt`. Its line on
   the law map and the theorem registry counts added table lines; § 3 gives the rows at both ends.
-- **Gates and the reproduction belt in a fresh clone of the commit read:** all gates pass and the belt is ok. The run
+- **Gates and the reproduction belt in a fresh clone of the commit read:** all gates pass and the belt is ok. [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 06: no output of this run is kept; the arc's only tool output says the fresh clone was NOT RUN; the sentence stands on an unkept run and is withdrawn as unsupported] The run
   is this arc's builder's, in its clone, which has no second remote.
 - **Gate controls:** 53 registered at the commit read.
 

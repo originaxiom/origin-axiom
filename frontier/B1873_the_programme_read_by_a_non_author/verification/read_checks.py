@@ -61,7 +61,9 @@ say("5. the budget: %d choices, %d items by kind %s; the charge premise at level
 ex = collections.Counter(v[0] for v in P["exits"].values())
 say("   routes: %s; an exit with no objection on the page: %d (the read: 8, of which 5 are back-edges named and not built)" % (dict(ex), ex["FORCING ARGUED"] + ex["RIGID"] + ex["BACK-EDGE NAMED"]))
 # 6. the price script the foundation cites
-r = subprocess.run([sys.executable, "-B", str(ROOT / "outside_bench/certificates/the_price_is_twelve.py")], capture_output=True, text=True)
+# CORRECTED 2026-11-13 (Review 81, the SM seat's finding 08): the certificate reads its pages relative to the working
+# directory, so it is run from the repository's root; run from this folder it failed differently and item 6 lost its line
+r = subprocess.run([sys.executable, "-B", str(ROOT / "outside_bench/certificates/the_price_is_twelve.py")], capture_output=True, text=True, cwd=str(ROOT))
 fail = [l.strip() for l in r.stdout.split("\n") if "VERDICT:" in l and "not stated" in l]
 used = subprocess.run(["git", "-C", str(ROOT), "grep", "-l", "the_price_is_twelve", "--", "tests", "scripts", ".github"], capture_output=True, text=True).stdout.split()
 say("6. the script the foundation cites for the live price exits %d: %s; files under tests, scripts or the workflow that run it: %d" % (r.returncode, fail[0] if fail else "(no failure line)", len(used)))

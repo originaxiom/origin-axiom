@@ -135,6 +135,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B1913 | PENDING | **The flat area is not on the curve; the read-out's measure is forced (R6):** it reaches a synthesis page with the read-out on the whole (P-776). |
 | B1914 | PENDING | **The line's last bit goes with the hand (decision 4):** it reaches a synthesis page with the input budget's independent decisions (B1861 § 3). |
 | B1915 | PENDING | **The hand's rows counted (decision 1):** it reaches a synthesis page with the input budget's independent decisions (B1861 § 3). |
+| B1916 | PROCESS | **Review 81's evidence:** a review arc; its findings travel by the mends it records, not by a synthesis page. |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The
