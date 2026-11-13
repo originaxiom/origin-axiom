@@ -15389,7 +15389,8 @@
     "S300",
     "S301",
     "S302",
-    "S304"
+    "S304",
+    "S305"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,

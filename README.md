@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 834: 309 open (queued, leads, waiting for the owner), 525 closed |
+| points in the register | 836: 311 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED, AND THE LESSON OF AUGUST WAS IN NO GOVERNING PAGE; A CARD FOR THE BUILDER (the… |
+| the last landing | S306p PART 2 OF THE BUILDER'S SECOND SERIES IS LANDED, TWELVE PATCHES ON B1881, B1895 AND B1897, AFTER MAIN'S CHECK AND A COLD READING; SIX REGISTER… |
 <!-- STATE:END -->
 
 ## Start here
