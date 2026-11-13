@@ -1,9 +1,9 @@
 seat: chat1
 read: M18
-state: listening
-on: nothing; W-C7 is delivered (`relays/CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD.md`: B1913 the same on this seat's code; B1885's negative already twice computed; B1823 and B1822 held by the firewall)
+state: working
+on: W-F1 (`relays/cards/CHAT1_W-F1_the_distinction_layer_and_the_hand_at_the_common_point.md`), at the author's word: the distinction layer under the grammar, and the hand at the common point
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: when main writes to the seat
+next push: W-F1 when its run is read
 
 ## Notes
 
@@ -84,3 +84,4 @@ next push: when main writes to the seat
 - **What this seat had sent before M1** is listed on main (harvest rows to 1696). The last three relays of the day
   are verified on main (B1884, B1885, B1887).
 - 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
+- 2026-11-14, the author's ruling to this seat (topic: the foundations): the foundations are this seat's main task; it computes the checks other seats proposed itself rather than relaying them. Card W-F1 is the first.
