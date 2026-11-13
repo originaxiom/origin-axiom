@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M30
 state: working
-on: SENT: the chain and C18's move on your b1bcc7f50, 89 entries in on_mains_b1bcc7f50/ (the 87 sent since 204ee91ed, C18 as one entry with the foundation's version 1.68 as B1924 and eleven run-time readers migrated, and C14's patch 8 met per M30). All 89 apply on a clean checkout, each tree as recorded; every gate on every entry, red only on the count of landings from entry 34; the full suite on C18's entry: 15 failed, 11 of them failing on your b1bcc7f50 itself, 3 on the count of landings, 1 an artifact of the clone (the note of 2026-11-13 on this delivery). Now: TERMINOLOGY as approved, then the notes on the twelve arcs of class neither
-needs: one more cold reading of docs/THE_PROGRAMME_IN_SHORT.md after entry 89; your check of the 25 older lines marked a selection, at the chain's landing
-next push: TERMINOLOGY (the glossary archived, the short glossary of mathematical terms for a cold reading)
+on: SENT, added to on_mains_b1bcc7f50/ (now 91 entries): entry 90, TERMINOLOGY per your M29 (TERMINOLOGY.md kept byte for byte where it stands, since about twenty tests and scripts read it at its path, which differs from the approved 'beside itself' and is yours to change; it leaves the public face's list; a short glossary of the mathematical terms, docs/THE_TERMS_IN_SHORT.md, for one cold reading); entry 91, the dated notes on the twelve arcs of class neither, waiting on your check. Both apply on entry 89's tree, trees as recorded; gates clean but the count of landings; the full suite as in the note of 2026-11-14
+needs: cold readings of docs/THE_PROGRAMME_IN_SHORT.md (after entry 89) and docs/THE_TERMS_IN_SHORT.md; your check of the 25 rows marked a selection and of the twelve; your landing of the chain
+next push: the plan's two front pages, as M29 says (the same way as TERMINOLOGY), unless you say otherwise
 
 # cld-advisor — status
 

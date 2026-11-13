@@ -7,7 +7,7 @@ order sent. Nothing on main is changed.
 **How to land it.** On a clean checkout of `b1bcc7f50`, take the entries of `WHAT_WENT_WHERE.txt` in order: a `.patch`
 with `git am`; a `.py` with `python3 <it> <the checkout>` and then `git commit -F` the message beside it
 (`NNNN_message.txt`); a folder by its one script, which applies the diff beside it and runs what it names, then
-`git commit -F` its message. **Tried, on a clean checkout: all 89 apply, and after each the tree is the one
+`git commit -F` its message. **Tried, on a clean checkout: all 91 apply, and after each the tree is the one
 recorded in the list.** Each script says whether the tree is the builder's; each said so.
 
 | folder | what | entries | the tree after it |
@@ -29,6 +29,8 @@ recorded in the list.** Each script says whether the tree is the builder's; each
 | `c14_fifth_part/` | C14, patch 10 | 1 | `76bf5123fd2c33437f5ec8b71e67342d4c49daa9` |
 | `c18/` | **card C18: the move, one entry (a diff and a script)** | 1 | `c715e214d9e589731b84121829a05c9b822bfa6c` |
 | `c14_patch_8_met/` | **new: C14, patch 8 met (your M30): the six lines of the web seat's cold reading** | 1 | `651a6e6bcd6ae1b4c640d86895231b208268a58f` |
+| `c14_terminology/` | **new: TERMINOLOGY (your M29): the working glossary off the public face, kept as it is; a short glossary of the mathematical terms for one cold reading** | 1 | `ca06611d9bcce3dde19f88c6ddb10e5ed1ac8489` |
+| `c13_follow_ups/` (patch 4) | **new: the twelve older verdict lines of class neither noted on their pages, waiting on your check (M29)** | 1 | `257b9bada3f13a0fd87f7417e3eedd32f1e0d48e` |
 
 ## What changed in the building, and why
 

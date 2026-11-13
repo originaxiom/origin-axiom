@@ -1,0 +1,231 @@
+From d32efac5050b827069607921dbd90a0223fa6df0 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 23:10:09 +0000
+Subject: [PATCH] C14, TERMINOLOGY (cld-advisor, at main's word in M29,
+ approving the builder's proposal of 2026-11-13): THE WORKING RECORD'S
+ GLOSSARY LEAVES THE PUBLIC FACE, AND A SHORT GLOSSARY OF THE MATHEMATICAL
+ TERMS IS WRITTEN FOR ONE COLD READING
+
+THE WORKING GLOSSARY. TERMINOLOGY.md (1,117 lines, with its new row on "the author", P-841) is kept byte for byte where it
+stands: it is not edited and not moved. The proposal said it would be archived beside itself, as the README and the
+main goal were, with a short page in its place. It is not, because about twenty tests and scripts read its text at its
+path (among them the locks of B1012, B1013, B1032, B1034, B1105, B1144, B1176, B1276, B1751, B1752, the seven process
+arcs and the stale-absence lock; B1622, B1647, B1661, B1862, B1877 and B1898; the paper's citation check and the
+review tools): a short page there would break them all, the risk C18's move met. Main can still choose the copy.
+
+THE PUBLIC FACE: TERMINOLOGY.md leaves the gate's list and its held counts (12 pages now, 1,225 words held, 5 at zero),
+with a dated comment.
+
+THE SHORT GLOSSARY, docs/THE_TERMS_IN_SHORT.md: the grammar (L and R, a word, a primitive word, LR, the golden matrix),
+the spaces (the once-punctured torus, the mapping torus and the monodromy, hyperbolic, a state, the census, a level),
+the programme's own names (thread, weave, root and selectors, torsion-free first homology), geometry read as physics (a
+frame, an identification, the nineteen), and how a statement is graded (the foundations' labels, a claim's labels, a
+reading). Every entry names its source (the full account's sections, GENESIS, THE_WEAVE) and restates it; no
+mathematics is the builder's. One word differs from the full account: the label table's "RULED BY THE PRINCIPLE" and
+the like are left out, the public face using no inner word.
+
+THE LOCK, tests/test_the_terms_in_short.py: a source for every entry, every named section and page existing, no inner
+word; eleven statements of mathematics found in their source in its words; TERMINOLOGY.md out of the public face and
+still in the tree; planted, an entry with its source taken out, a section the full account lacks, a page that does not
+exist and an inner word, each reported once. BEFORE: on the tree before this patch the new tests fail.
+
+Not read cold yet: M29 asks the web seat to read it cold before the README points to it.
+
+0 of 19.
+---
+ docs/THE_TERMS_IN_SHORT.md       | 59 ++++++++++++++++++++++++++
+ docs/views/THE_SPINE.md          |  3 +-
+ scripts/gates/gates.py           |  5 ++-
+ tests/test_the_terms_in_short.py | 71 ++++++++++++++++++++++++++++++++
+ 4 files changed, 135 insertions(+), 3 deletions(-)
+ create mode 100644 docs/THE_TERMS_IN_SHORT.md
+ create mode 100644 tests/test_the_terms_in_short.py
+
+diff --git a/docs/THE_TERMS_IN_SHORT.md b/docs/THE_TERMS_IN_SHORT.md
+new file mode 100644
+index 000000000..c206badec
+--- /dev/null
++++ b/docs/THE_TERMS_IN_SHORT.md
+@@ -0,0 +1,59 @@
++# The terms in short
++
++*The mathematical terms a reader meets on the programme's front pages, in plain words; every line names where it comes
++from. "§" names a section of the full account, [`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md). Where this page and
++`GENESIS.md` differ, `GENESIS.md` holds. The working record's own vocabulary, with its history, is `TERMINOLOGY.md`.*
++
++## The grammar
++
++- **L and R.** The two elementary moves, unit shears: L = [[1,1],[0,1]] and R = [[1,0],[1,1]]. Each adds one of a pair
++  of whole-number counts to the other (§ 2; `GENESIS.md` § 2).
++- **A word.** A description written as a product of L and R (§ 2).
++- **A primitive word using both letters.** The words the states are built from, taken up to rotation and the swap of
++  L and R, with a sign (§ 3.1).
++- **LR.** The product LR = [[2,1],[1,1]], which has trace 3 (§ 2).
++- **The golden matrix.** LP = [[1,1],[1,0]], where P = [[0,1],[1,0]] swaps the two counts; its square is LR. LR is
++  also known as the Cohn matrix of the golden ratio, and the rule a → ab, b → a as the Fibonacci substitution (§ 2;
++  § 3.3).
++
++## The spaces
++
++- **The once-punctured torus.** The surface of a doughnut with one point removed; the words act on it (§ 2).
++- **The mapping torus, and the monodromy.** Let a word's matrix act on the punctured torus, and glue the two ends of a
++  thickened copy together with that action: a mapping torus. A state is the once-punctured-torus bundle whose monodromy
++  is its signed word (§ 3; § 3.1).
++- **Hyperbolic.** Carrying a rigid geometry of constant negative curvature; each space built from an allowed word is a
++  hyperbolic three-dimensional manifold with one cusp (§ 3; `GENESIS.md` § 3).
++- **A state.** A signed cyclic word, realised as the once-punctured-torus bundle with that word as monodromy (§ 3.1).
++- **The census.** 758 states at word lengths 2 to 12, giving 536 distinct manifolds, since a word and its reverse give
++  one manifold (§ 3.1).
++- **A level.** The n-fold cyclic cover of a state, whose monodromy is the n-th power of the state's (§ 3.1).
++
++## The programme's own names
++
++- **A thread.** One object the principle allows, such as m000, m003 or m004 (`docs/THE_WEAVE.md`).
++- **The weave.** All the threads together, with the joint action of the moves on them (§ 3; `docs/THE_WEAVE.md`).
++- **The root, and its selectors.** One thread picked out by two stated selectors, one assumed and one chosen: the
++  figure-eight knot complement, m004 (§ 3.3; `GENESIS.md` § 4).
++- **Torsion-free first homology.** The first selector: the space's basic loop count has no finite "torsion" part. Among
++  the states, it holds exactly for the class of LR (m004) and the class of LP (the Gieseking manifold, m000) (§ 3.3).
++
++## Geometry read as physics
++
++- **A frame.** A rule that turns a geometric object, with stated extra data, into particle counts or numbers. A frame is
++  a hypothesis, and none is derived from the principle (§ 4).
++- **An identification.** A claim that a quantity here is a physical quantity there; it is earned only when the map is
++  exhibited and shown to act, and otherwise it is an open debt (§ 0.2; § 4.4).
++- **The nineteen.** The Standard Model's nineteen free continuous parameters: six charged-fermion mass ratios, three
++  mass scales, the four CKM numbers (the quark mixing), three gauge couplings, the Higgs mass and its vacuum value,
++  and θ_QCD. Neutrino masses and mixing are outside the nineteen (§ 0.3).
++
++## How a statement is graded
++
++- **The foundations' labels.** DERIVED (proved, the proof cited), CONDITIONAL (proved given named premises), POSTULATED
++  (assumed), CHOSEN (a fork settled by choice, the alternative kept), OPEN (§ 0.2).
++- **The labels of a claim.** FORCED (marked generic when any comparable object would give it), ADMITTED (allowed among
++  alternatives), CHOSEN (an input), FITTED (a continuous value set by data); for a negative result, EXCLUDED (within a
++  stated scope, by an argument) against NOT FOUND (a declared search's null) (§ 0.2).
++- **A reading.** An interpretation recorded and not derived; for a comparison with data, the grade of a fit that reaches
++  the data only with inputs set by hand or read from the data (§ 0.2; `GENESIS.md` § 1).
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index bbbfdef1f..dd3fde434 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1553 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1554 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1925,4 +1925,5 @@ Generated by `scripts/views/spine.py` — 1553 locks. Regenerated with the views
+ - — `test_the_degree_two_headline_and_sigma_one_scoped.py` 
+ - — `test_the_historical_folders_moved.py` 
+ - — `test_the_seven_process_arcs_checked.py` 
++- — `test_the_terms_in_short.py` 
+ - — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 23af7c942..6b5027e7d 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3222,8 +3222,10 @@ def gate_selection_family(reader=None):
+ # HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
+ # of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
+ # "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
++# TERMINOLOGY.md left this list on 2026-11-13 (main's M29, at the builder's proposal): it is the working record's glossary, kept
++# byte for byte where it stands, and the public face's glossary is docs/THE_TERMS_IN_SHORT.md, held by its own lock.
+ PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md",
+-               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
++               "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
+                "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+                "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
+ # labelled as working indices where the README points to them, and not read here.  The verdict ledger and the spine by main's
+@@ -3351,7 +3353,6 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
+     # docs/MAIN_GOAL.md: at zero since C14's seventh patch (2026-11-13)
+     # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
+     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
+-    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 29, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
+     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
+     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
+     'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
+diff --git a/tests/test_the_terms_in_short.py b/tests/test_the_terms_in_short.py
+new file mode 100644
+index 000000000..fd6e0b8ed
+--- /dev/null
++++ b/tests/test_the_terms_in_short.py
+@@ -0,0 +1,71 @@
++"""2026-11-13 (main's M29, TERMINOLOGY as the builder proposed): the public face's glossary, docs/THE_TERMS_IN_SHORT.md.
++
++Every entry names its source; every section it names is a section of the full account and every page it names exists;
++it uses no inner word of the working record; each statement of mathematics in it stands in its source in the same
++words; and TERMINOLOGY.md, the working record's glossary, is no longer read as the public face. A draft for one cold
++reading before the README points to it."""
++import importlib.util, pathlib, sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++TERMS = ROOT / "docs" / "THE_TERMS_IN_SHORT.md"
++FULL = ROOT / "docs" / "THE_PROGRAMME_SO_FAR.md"
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec); sys.dont_write_bytecode = True; spec.loader.exec_module(m)
++    return m
++
++
++SHORT = _load("the_short_pages_lock", ROOT / "tests" / "test_the_programme_so_far.py")
++GATES = _load("gates_for_the_terms", ROOT / "scripts" / "gates" / "gates.py")
++
++# (the words on the glossary, the same words in the full account): each statement of mathematics, as its source has it
++SAID = (
++    ("L = [[1,1],[0,1]] and R = [[1,0],[1,1]]", "L = [[1,1],[0,1]], R = [[1,0],[1,1]]"),
++    ("LR = [[2,1],[1,1]], which has trace 3", "LR = [[2,1],[1,1]] has trace 3"),
++    ("LP = [[1,1],[1,0]], where P = [[0,1],[1,0]] swaps the two counts; its square is LR",
++     "the golden matrix LP = [[1,1],[1,0]] satisfies (LP)² = LR"),
++    ("Cohn matrix of the golden ratio", "LR is the Cohn matrix of the golden ratio"),
++    ("a → ab, b → a as the Fibonacci substitution", "the rule a → ab, b → a is the Fibonacci substitution"),
++    ("758 states at word lengths 2 to 12, giving 536 distinct manifolds", "758 states at word lengths 2 to 12, realising 536 distinct manifolds"),
++    ("whose monodromy is the n-th power of the state's", "the n-fold cyclic cover of a state has monodromy (εw)ⁿ"),
++    ("hyperbolic three-dimensional manifold with one cusp", "a hyperbolic 3-manifold with one\ncusp"),
++    ("it holds exactly for the class of LR (m004) and the class of LP (the Gieseking manifold, m000)",
++     "H₁ is torsion-free exactly for the class of LR (trace 3: m004) and the class of LP (det −1: the Gieseking manifold m000)"),
++    ("A frame is\n  a hypothesis, and none is derived from the principle", "A frame is"),
++    ("Neutrino masses and mixing are outside the nineteen", "Neutrino masses and mixing are outside the nineteen"),
++)
++
++
++def _problems(text):
++    bad = SHORT._short_problems(text, FULL.read_text(encoding="utf-8"))
++    bad = [b for b in bad if b != "the goal's count is not stated as the goal states it"]      # a glossary states no count
++    if dict(GATES.public_face_words(text)):
++        bad.append("inner words: %s" % dict(GATES.public_face_words(text)))
++    return bad
++
++
++def test_every_entry_has_a_source_and_no_inner_word():
++    assert _problems(TERMS.read_text(encoding="utf-8")) == []
++
++
++def test_each_statement_of_mathematics_stands_in_its_source():
++    text, full = TERMS.read_text(encoding="utf-8"), FULL.read_text(encoding="utf-8")
++    genesis = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
++    for ours, theirs in SAID:
++        assert ours in text, ours
++        assert theirs in full or theirs in genesis, theirs
++
++
++def test_the_working_glossary_is_not_the_public_face_and_is_kept():
++    assert "TERMINOLOGY.md" not in GATES.PUBLIC_FACE and "TERMINOLOGY.md" not in GATES.PUBLIC_FACE_HELD
++    assert (ROOT / "TERMINOLOGY.md").is_file() and "`TERMINOLOGY.md`" in TERMS.read_text(encoding="utf-8")
++
++
++def test_the_lock_can_fail():
++    text = TERMS.read_text(encoding="utf-8")
++    assert len(_problems(text.replace(" (§ 3.1).", ".", 1))) == 1                 # an entry with its source taken out
++    assert len(_problems(text.replace("(§ 0.3)", "(§ 13)", 1))) == 1              # a section the full account lacks
++    assert len(_problems(text.replace("`docs/THE_WEAVE.md`", "`docs/THE_WEAVES.md`", 1))) == 1
++    assert len(_problems(text + "\n- **A seat.** One session (§ 3).\n")) == 1     # an inner word
+-- 
+2.43.0
+

@@ -87,3 +87,5 @@ c14_fifth_part f62c27790 c14_fifth_part/0010-C14-patch-10-cld-advisor-at-main-s-
 c13_follow_ups 59f355d5c c13_follow_ups/0003-C13-s-follow-ups-patch-3-cld-advisor-at-main-s-word-.patch bb1e684136f3cb4c9bec05cbe61c8032dc2d6125
 c18 6a49486dc c18/ (a diff and a script) c715e214d9e589731b84121829a05c9b822bfa6c
 c14_patch_8_met 47005cfa3 c14_patch_8_met/0001-C14-patch-8-met-cld-advisor-at-main-s-word-in-M30-th.patch 651a6e6bcd6ae1b4c640d86895231b208268a58f
+c14_terminology d32efac50 c14_terminology/0001-C14-TERMINOLOGY-cld-advisor-at-main-s-word-in-M29-ap.patch ca06611d9bcce3dde19f88c6ddb10e5ed1ac8489
+c13_follow_ups a1f48a65e c13_follow_ups/0004-C13-s-follow-ups-patch-4-cld-advisor-at-main-s-word-.patch 257b9bada3f13a0fd87f7417e3eedd32f1e0d48e

@@ -199,3 +199,30 @@ tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
 tests/test_b921_9b_retraction_debt_gate.py::test_the_check_fails_when_the_rows_are_stripped
 tests/test_b921_9b_retraction_debt_gate.py::test_the_real_ledger_is_clean
 tests/test_repo_gates.py::test_all_gates_pass
+
+Added after: entries 90 and 91 (git am on entry 89's tree, trees as recorded) and every gate on each:
+90 d32efac50 56 gates; red: review-fires | 
+91 (as first built) 6947ed764 56 gates; red: review-fires | 
+91 (amended: the lock names no arc) a1f48a65e 56 gates; red: review-fires | 
+
+The full suite on a fresh clone of entry 91 as first built:
+fresh-clone suite: FAIL @ 6947ed764 (17 failed, 8796 passed, 74 skipped, 10 warnings); failing: frontier/B1877_review_78
+failing:
+frontier/B1877_review_78_the_decadal_review/verification/test_b1877_review_78.py::test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_ceilings_gate_as_mended
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list
+frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_mains_files_are_as_main_wrote_them
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_the_numbers_are_held_as_sentences_and_not_as_digits
+frontier/B1919_the_channel_norm_is_the_shifted_lattices_kronecker_limit_at_the_kernels_shift/verification/test_b1919_the_channel_norm.py::test_the_formula_holds_and_the_rotation_fails
+tests/test_b1290_index_formula.py::test_the_backlinks_did_NOT_change_any_verdict
+tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+tests/test_b818_retracted_rule.py::test_retracted_stays_a_small_deliberate_set
+tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+tests/test_b921_9b_retraction_debt_gate.py::test_the_check_fails_when_the_rows_are_stripped
+tests/test_b921_9b_retraction_debt_gate.py::test_the_real_ledger_is_clean
+tests/test_p3_verification_package.py::test_manifest_is_current
+tests/test_repo_gates.py::test_all_gates_pass
+Of these, beyond entry 88's 15: B1919's formula test (fails under load, passes alone: 2 passed) and the paper's manifest test (the lock of entry 91 named arcs of the paper; amended to name none; the manifest test then passes).
