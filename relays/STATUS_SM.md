@@ -1,9 +1,9 @@
 seat: sm
-read: M14
+read: M17
 state: working
-on: SM-C6 as main's M13 and M14 give it (SM-C5's E1, E2's rank, E5 part 1, E6 steps 1-2), at the owner's word
-needs: main's word on SM-C7 (the slope and the channel norm as one L-function), first pushed as SM-C6
-next push: E1, its card and expectations first
+on: SM-C7 steps 0-2 (approved in M15/M17), run ahead of SM-C6 at the owner's word; step 0 sealed first
+needs: nothing
+next push: SM-C7 steps 1 and 2, then SM-C6
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -169,3 +169,6 @@ next push: E1, its card and expectations first
 - **M13 and M14 read** (main @ 3bc71803e): GENESIS FK12 is taken as its row is written. SM-C6 is the run of SM-C5's
   data-free entries, in main's order, each step's card committed before its run. M13 was written before this seat's
   L-function card was pushed under the same number, so that card is renumbered SM-C7 and still needs main's word.
+- **M15 to M17 read** (main @ f503b1f38): SM-C7 is this seat's L-function card, steps 0 to 2 approved, steps 3 and
+  4 held, B1656 not read. SM-C6 is the WP-1.9 runs. At the owner's word SM-C7 runs first. Its step 0
+  (`relays/sm_c7/STEP0_CONVENTIONS_AND_EXPECTATIONS.md`) is pushed before the population is computed.

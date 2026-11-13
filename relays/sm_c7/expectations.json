@@ -1,0 +1,37 @@
+{
+ "sealed_before_run": true,
+ "population": {
+  "levels": 16,
+  "characters": 601,
+  "source": "B1737 via main's own code at f503b1f38"
+ },
+ "step1": {
+  "statement": "s(chi) + #(-I)/2 = P_u(Jc)/(4 pi^2), P_u(Jc) = integral z0 -> gamma z0 along the geodesic of G^(Jc)*(z) dz",
+  "tol": 1e-09,
+  "nodes": [
+   48,
+   96
+  ],
+  "node_agreement": 1e-10
+ },
+ "step2": {
+  "a_hecke_s2": 1e-09,
+  "b_hecke_s1_kronecker": 1e-09,
+  "c_odd_s1": 1e-09,
+  "c_rational_denominator_bound": "24 N^2",
+  "d_Z0": 1e-09,
+  "d_Zprime0_plus_half_ell": 1e-06
+ },
+ "plants": {
+  "P1_wrong_character": ">1e-6 miss on >=99% (step 1)",
+  "P2_wrong_geodesic": ">1e-6 miss on >=99% (steps 1 and 2b)",
+  "P3_reversed": "miss on every character with |value|>1e-6 (step 1)",
+  "P4_factor_two": "miss on every character with |value|>1e-6 (steps 1 and 2b)"
+ },
+ "outcome_rule": "a failure beyond tolerance on any level is reported as outcome C for that level; no convention changes after the run",
+ "not_run": [
+  "step 3",
+  "step 4",
+  "B1656"
+ ]
+}
