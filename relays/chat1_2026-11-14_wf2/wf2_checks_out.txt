@@ -1,0 +1,8 @@
+products of at most 4 moves: 2800
+M1 every product keeps the half-turn puncture (abc)^2 up to conjugacy and inverse: True
+M2 products keeping the three pair cusps: 538 ; distinct matrices up to sign: 6 ; all of finite order: True ; matrices: [(np.int64(-1), np.int64(0), np.int64(-1), np.int64(1)), (np.int64(-1), np.int64(0), np.int64(0), np.int64(-1)), (np.int64(-1), np.int64(1), np.int64(-1), np.int64(0)), (np.int64(-1), np.int64(1), np.int64(0), np.int64(1)), (np.int64(0), np.int64(-1), np.int64(-1), np.int64(0)), (np.int64(0), np.int64(-1), np.int64(1), np.int64(-1))]
+M2 holds: True
+M3 products with a hyperbolic matrix: 380 ; of them keeping the pair cusps: 0 ; holds: True
+M3 example: ('a through b', 'b through a', 'b through c') [[-3, 2], [2, -1]]
+control: swap a,b keeps the pair cusps: True ; a through b keeps them: False
+planted error: an exact-word test accepts swap a,b on the half-turn cusp: False ; the conjugacy test accepts it: True
