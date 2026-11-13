@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1611: 1116 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1612: 1117 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 840: 305 open (queued work, leads, and questions not yet decided), 535 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13) |
+| the last landing | S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 s… |
 <!-- STATE:END -->
 
 ## Start here

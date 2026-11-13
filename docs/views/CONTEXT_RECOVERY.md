@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1611 |
-| … PROVED | 1116 |
+| arcs with a verdict file | 1612 |
+| … PROVED | 1117 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
 | B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
 | B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
 | B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
@@ -42,7 +43,6 @@
 | B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
 | B1907 | NEGATIVE | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mat… |
 | B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
-| B1898 | PROVED | [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 04: five things of the first 43 are owed and not built, as FINDINGS says; the words below are kept] REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
 - S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
 - S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
 - S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
@@ -60,11 +61,10 @@
 - S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15) (2026-11-13)
 - S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13)
 - S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's page M13) (2026-11-13)
-- S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLDS R6 (B1915; decision 1 of the input budget) (2026…
 
 ## The latest campaign line
 
-LATEST (2026-11-13, S306p: REVIEW 81 OPENED AT THE OWNER'S WAIVER THROUGH 60, ITS READERS TESTED BY PLANTED FAULTS (P-837); THE FIVE ITEMS AT THEIR FOURTH CARRY RESOLVED OR ANSWERED BY ARCS; WP-2.1 BEGUN; THE TREE CLEARED OF NOTES BETWEEN SESSIONS (P-838).** B1906: the four channels of B1656's coupling in closed form, each residue a product of two theta constants; every exact zero of det M on the lines of order 1 to 12 explained; P-262 and P-268 paid. B1907: the physical lane's two sealed packets refused as sealed, custody holding, seven repairs listed (P-746). B1908: why the tube's mesher stopped at k = 3 is found, its value not resolved (P-739). B1909: five of the paired pole's seven step…
+LATEST (2026-11-13, evening, S306p: REVIEW 81 ENTERED (B1916); THE OWNER LIFTS HIS HOLD (P-840); THE SLOPE AND THE KRONECKER FUNCTION ONE L-FUNCTION ALONG THE THREAD'S GEODESIC (B1917).** B1912: the golden state is the lowest twin-odd state, and simple. B1913: the read-out's measure is forced. B1914, B1915: the line's last bit goes with the hand; in the whole, side, hand and twin are one bit, the second bit the weight's condition (corrected the same day). B1916: Review 81, two readers, six planted faults, twelve findings mended. B1917: the SM seat's SM-C7 steps 1 and 2, verified on main: no point of the modulus is chosen; its steps 3 and 4 test B1656's channel norm against it. 0 of 19.
 
 ## Completeness (nothing skipped silently)
 

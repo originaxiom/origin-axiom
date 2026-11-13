@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
+
+- **The seat's result:** on all 601 characters of B1737's population, the slope is the period of the dual-shifted weight-2 Eisenstein series along the thread's closed geodesic, and the L-function's value at 1 is the geodesic integral of the log of a Siegel function. No point of the modulus is chosen: the thread supplies the computation.
+- **Main's own check:** the value on all 601 characters to 2.5 × 10⁻¹³; Hecke's formula at s = 2 in the same conventions to 4 × 10⁻⁸; the value at 1 against a direct sum to about 10⁻⁴. Two faults of main's own in its first runs, both caught before this landing: NaNs hidden by a maximum (512 of 601 unchecked), and an orbit strip half as wide as its docstring said (off by exactly 2).
+- **Next:** the seat's steps 3 and 4 say whether B1656's channel norm is this quantity, at a point or as the geodesic average. 0 of 19.
+
 ## S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
 
 - **Review 81:** two readers that built none of the window each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault. Their twelve real findings are each reproduced by main and mended in place (B1873, B1885, B1892, B1898, the changelog), one a fault in B1873's instrument: the price certificate was run from the wrong directory and its failure line was lost; the lock now asks for the line. Quotations 12 of 12 and 23 of 24 at the commit read; the fresh clone passes. Of Review 80's 22 items, 6 resolved, 6 declined with their reasons at their third or fourth carry, 10 carried. The other family's reading moves to Review 82, at the owner's word to move on.

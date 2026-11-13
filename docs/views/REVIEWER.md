@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1611** |
-| words of findings prose | **1,432,607** |
+| research arcs with findings | **1612** |
+| words of findings prose | **1,433,411** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1611** (100.0 %) |
+| arcs carrying an authored verdict | **1612** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1116 |
+| PROVED | 1117 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1916`** (1123 words, 0 locks)  
-REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session as an authority); their twelve real findings are each reproduced by main and mended in place, one of them a fault in B1873's instrument (a certificate run from the wrong directory lost its failure line; the lock now asks for it). Quotations: 12 of 12 and 23 of 24 at the commit read. 0 of 19.  
-`B1916_review_81_two_readers_six_planted_faults_and_twelve_mends/FINDINGS.md`
+**PROVED — `B1917`** (804 words, 0 locks)  
+THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus half the count of -I equals 1/4pi^2 times the period of the dual-shifted weight-2 Eisenstein series from z0 to gamma z0 along the thread's closed geodesic (main's code: 2.5e-13), and the L-function's value at 1 equals -4 times the geodesic integral of log|g_Jc|, g a Siegel function (Hecke's formula at s = 2 on main's code to 4e-8; the value at 1 against a direct sum to about 1e-4). No point tau is chosen. Whether B1656's channel norm is this quantity is the seat's steps 3-4. 0 of 19.  
+`B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

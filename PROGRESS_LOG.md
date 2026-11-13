@@ -20118,3 +20118,9 @@ seat's check. Six are left.
 **What happened.** The periodic review of main's recent work closed. Two helper sessions had read it, without knowing that main had planted six deliberate faults in what they read. Each found the two faults that were wrong numbers and missed the four that were wrong wording, which tells main how its future reading instructions must change. Their twelve real findings were all confirmed and fixed; one of them exposed a fault in a checking script, which had been run from the wrong folder and silently lost an error message. The owner also lifted his hold on computing the project's withheld values: the mathematics now runs everywhere, with one rule kept for honesty, that every value is published before it is ever compared with a measurement.
 
 0 of 19.
+
+## 2026-11-13 — Two quantities found to come from one function (S306p)
+
+**What happened.** A helper session tested an idea the project had parked weeks ago: that the "slope" (a number that governs how the object's sectors are counted) and the kind of quantity the physics formula uses for couplings are two readings of a single classical number-theoretic function, taken along the path the object's own motion traces. On all 601 cases the identity holds. Main checked it independently with its own code (and caught two mistakes in its own first attempts before relying on them). The notable point is that no free parameter is chosen anywhere: the object's own path supplies everything. Whether the physics formula's actual quantity is exactly this one is the next test.
+
+0 of 19.

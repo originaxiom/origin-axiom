@@ -1,0 +1,26 @@
+{
+ "id": "B1917",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1737",
+  "B1438"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat: relays/SM_C7_ONE_L_FUNCTION.md @ e47c5ee9f (card SM-C7, steps 0 to 2; step 0 sealed at ae5f6d7d1 before the run), verified by main's own code"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1737's population: 601 monodromy-fixed characters at 16 levels, each thread's closed geodesic on the modular surface",
+  "object": "the slope as a period of the dual-shifted weight-2 Eisenstein series along the geodesic, and the L-function's value at 1 as the geodesic integral of log|g_Jc|",
+  "reach": "class",
+  "hypotheses": "the seat's sealed conventions (c, Jc, gamma = M^T, the geodesic and its measure, Hecke's normalisation); the value at s = 1 checked by main against a slowly converging direct sum to about 1e-4 on six characters at two levels, and Hecke's formula at s = 2 on 17 characters at four levels; numerical, not a proof; B1656's frame not evaluated"
+ },
+ "claim_one_line": "THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus half the count of -I equals 1/4pi^2 times the period of the dual-shifted weight-2 Eisenstein series from z0 to gamma z0 along the thread's closed geodesic (main's code: 2.5e-13), and the L-function's value at 1 equals -4 times the geodesic integral of log|g_Jc|, g a Siegel function (Hecke's formula at s = 2 on main's code to 4e-8; the value at 1 against a direct sum to about 1e-4). No point tau is chosen. Whether B1656's channel norm is this quantity is the seat's steps 3-4. 0 of 19.",
+ "weave_or_thread": "thread (each thread's own closed geodesic)"
+}

@@ -16857,6 +16857,21 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1917": {
+   "slug": "the slope and the kronecker function one l function on the threads geodesic",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "L233"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

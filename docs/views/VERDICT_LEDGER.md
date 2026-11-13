@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1611 of 1611 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1612 of 1612 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1116)
+## PROVED (1117)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1128,6 +1128,7 @@
 | `B1914` | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an identity, B1872); every symmetry of the golden bundle (104 found, eight classes modulo LR, four reversing the orientation, as SnapPy's D4) keeps the eigenline mod 5 and acts on it by +-1 when it keeps the orientation and by +-2 when it reverses it, so the twins are exchanged exactly by the mirrors and the four placements (hand, twin) are two classes. No input leaves; decision 4 sits with decision 1. 0 of 19. |  | 0 |
 | `B1915` | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the second bit is a condition the weight must deliver, not counted as derived; the words below are kept] THE HAND'S ROWS COUNTED (decision 1): positivity's side adds no bit, since every placement on one side is a placement on the other with the orientation kept (176 maps, 88 between the sides, D among them; under the orientation-keeping maps the eight placements (side, hand, twin) fall into four classes, each one forward and one backward); under every map they fall into two. So the hand with the line's twin is one bit if the mirror identifies placements and two if only orientation-keeping maps do: the same open question (the tick and even ticks, P-769, P-771) that holds R6's reading of the mark (B1913). Main counts two until it is settled. SE2 and the chiral premise are choices of other kinds. 0 of 19. |  | 0 |
 | `B1916` | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session as an authority); their twelve real findings are each reproduced by main and mended in place, one of them a fault in B1873's instrument (a certificate run from the wrong directory lost its failure line; the lock now asks for it). Quotations: 12 of 12 and 23 of 24 at the commit read. 0 of 19. |  | 0 |
+| `B1917` | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus half the count of -I equals 1/4pi^2 times the period of the dual-shifted weight-2 Eisenstein series from z0 to gamma z0 along the thread's closed geodesic (main's code: 2.5e-13), and the L-function's value at 1 equals -4 times the geodesic integral of log|g_Jc|, g a Siegel function (Hecke's formula at s = 2 on main's code to 4e-8; the value at 1 against a direct sum to about 1e-4). No point tau is chosen. Whether B1656's channel norm is this quantity is the seat's steps 3-4. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 
