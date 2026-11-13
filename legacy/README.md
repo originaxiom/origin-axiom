@@ -2,7 +2,7 @@
 
 This directory preserves the project's history before the 2026-05-22 consolidation. Per
 `GOVERNANCE.md`: **`legacy/` is never edited and is never a source of claims.** It exists for
-credibility and traceability — see `../AUDIT_REPORT.md` and `../PROVENANCE.md` for the
+credibility and traceability — see `../docs/archive/AUDIT_REPORT.md` and `../PROVENANCE.md` for the
 reconciled analysis of what is in here.
 
 ## Layout

@@ -20010,3 +20010,9 @@ seat's check. Six are left.
 **Also checked.** Three results proposed by another session were verified with main's own code. A fourth was set aside, because it bears on numbers held back for the final test.
 
 0 of 19.
+
+## 2026-11-13 — The repository's front door is tidied (S306p)
+
+**What happened.** The top level of the repository still held old notes passed between working sessions and a few stray data files, which made a poor first impression. They are moved to an archive folder, or into the folders of the pieces of work that produced them. The project's rules protect file locations, because its automated checks depend on them; so the move was made by a script, the one check that named those files was updated in the same step, and the move is logged. The older folders of history and side work at the top level are next, by the same procedure.
+
+0 of 19.

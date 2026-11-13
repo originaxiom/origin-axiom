@@ -652,7 +652,7 @@ files.**
 **Design credit: cc3 (2026-08-09), re-implemented and verified on main rather than merged, per
 integrate-don't-merge.**
 
-**It caught invisible work on its first run:** `CC3_TO_CC_2026-07-22_p3_complete.md`, tracked in the
+**It caught invisible work on its first run:** `CC3_TO_CC_2026-07-22_p3_complete.md` (removed from the tree 2026-11-13; in git's history, last at `5e7f335c9`), tracked in the
 repo root with no row, carrying a P3 verdict (8 CLOSED / 6 HELD / 7 EXPOSED) with no trace on main.
 **18 days old — the oldest live debt, and exactly the shape that lost L114.**
 

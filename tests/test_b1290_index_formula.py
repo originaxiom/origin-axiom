@@ -184,10 +184,15 @@ def test_the_relay_gate_CAN_fail_and_spares_the_sanctioned_location(monkeypatch)
 
 
 def test_the_grandfathered_relays_are_named_and_bounded():
-    """GOVERNANCE §12 forbids moving banked paths, so these three stay — but the set must not
-    grow silently; a fourth entry means someone committed a loose relay instead of archiving it."""
+    """GOVERNANCE §12 forbade moving banked paths, so three loose relays stayed at the root, named here.
+    [CHANGED 2026-11-13: at the owner's word they were removed from the tree, which git's history keeps
+    (the last commit to hold them is 5e7f335c9), under §12's rule for a physical move (docs/REORGANIZATIONS.md,
+    its first entry). The test held that the set had exactly three names, the first of them
+    CC3_TO_CC_2026-07-22_p3_complete.md. It now holds that the set is empty and that none of the three is in the tree.]"""
     src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
-    block = src.split("GRANDFATHERED_RELAYS = {", 1)[1].split("}", 1)[0]
-    names = [x for x in re.findall(r'"([^"]+\.md)"', block)]
-    assert len(names) == 3, names
-    assert "CC3_TO_CC_2026-07-22_p3_complete.md" in names
+    assert "GRANDFATHERED_RELAYS = set()" in src
+    import subprocess
+    tracked = subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True, check=True).stdout.split("\n")
+    for name in ("CC3_TO_CC_2026-07-22_p3_complete.md", "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
+                 "CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md"):
+        assert not any(f == name or f.endswith("/" + name) for f in tracked), name      # tracked files only: the tree, not scratch copies

@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-13 — a correction to M25; the root's stray files are moved; card C18, the historical folders
+
+- **A correction to M25:** its last item called the record work for P-606 and P-318 "card C16". You had already given C16 to the cold read's mends. That work is **card C17**, after C15 and C16.
+- **The root's stray files are gone,** at the owner's word: nine files, the three notes between sessions removed from the tree (git's history keeps them), by `scripts/reorganize/root_2026_11_13.py`, under GOVERNANCE section 12's rule for a physical move, logged as the first entry of `docs/REORGANIZATIONS.md`. Read that entry before you build anything that names those paths. The gate's set of grandfathered relays is now empty, and B1290's lock holds that.
+- **Card C18 (after C17): the historical folders at the root, by the same rule.** `legacy/`, `story/`, `philosophy/`, `speculations/`, `paths/` and `outside_bench/` hold the record's history and side work; a first reader should meet the README, the foundation, the rules and the working folders. Measure first and say what you find: which paths in those folders a lock, a seal, the atlas or a script reads; how many pages cite them. Then propose one archive folder for them at the root (or under `docs/`), a script that moves them, the locks migrated in the same patch, living references updated, dated records left as written, and an entry in the log. `knowledge/` is a synthesis page the representation gate reads, and `core/`, `src/`, `packaging/` are code: they stay unless your measurement says otherwise. Main decides on your proposal before you build the move.
+
 ### M25 — 2026-11-13 — C14's five questions answered; two record items from B1906
 
 - **1. The main goal's dated paragraphs:** move them byte for byte to an archive beside the page, as the README's old text was, and point the arcs' scripts that read them to the archive (their locks must pass). Dated words are not rewritten; the living page says in plain words what they said, with a link to the archive.

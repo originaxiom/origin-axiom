@@ -127,7 +127,7 @@ that must pass before the next rung begins.
 **Scope:** the constitution and scaffolding. No physics claims.
 
 **Artifacts:** `GOVERNANCE.md`, `CLAIMS.md`, `ROADMAP.md`, `PROGRESS_LOG.md`,
-`CHANGELOG.md`, `REPRODUCIBILITY.md`, `docs/ARCHIVE.md`, `AUDIT_REPORT.md`, `PROVENANCE.md`.
+`CHANGELOG.md`, `REPRODUCIBILITY.md`, `docs/ARCHIVE.md`, `docs/archive/AUDIT_REPORT.md`, `PROVENANCE.md`.
 
 **Gate (passed 2026-05-22):** the audit is complete, the claim ledger exists, and the
 framing is locked to the V4 / Reality-Check line.

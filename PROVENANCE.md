@@ -35,7 +35,7 @@ read against this definition.
 and contents, so that prior history is preserved and traceable from the new canonical repo.
 
 This file is a *map*, not a verdict. For the reconciled status of the work (what is proven,
-conditional, dead, open), see `AUDIT_REPORT.md`.
+conditional, dead, open), see `docs/archive/AUDIT_REPORT.md`.
 
 ---
 
@@ -116,7 +116,7 @@ conceptual content and is clean.
 Not a git repo. The φ^φ era. Contents: `Axiom.pdf`, `Axiom-4.pdf`,
 `Final Docs/` (Main Paper, Complementary Paper, Simulation Suite), `tests/`,
 `tests_grok/` (`test_g_phasewalk.py` — phase walk θ_n = n·φ^φ mod 2π), `Outputs/`.
-The φ^φ axiom was later tested and dropped (see `AUDIT_REPORT.md`, dead results).
+The φ^φ axiom was later tested and dropped (see `docs/archive/AUDIT_REPORT.md`, dead results).
 
 ### 3.2 `old/even older/00_origin-axiom/`  (git clone of the GitHub repo)
 
@@ -179,7 +179,7 @@ the decision to move to a local development environment. The source narrative fo
 |---|---|---|
 | `legacy/handoff/handoff.md` | Created at the end of the Chatterpillar chat, 05-21; moved to `legacy/` in the 05-22 reorg | Hand-off summary for the local-development phase. Represents the **optimistic / frontier** framing. Per `GOVERNANCE.md` §2 it is a historical record, **not** a source of claims. |
 | `PROVENANCE.md` | This file | Artifact map. |
-| `AUDIT_REPORT.md` | This audit | Reconciled status + repo-strategy recommendation. |
+| `docs/archive/AUDIT_REPORT.md` | This audit | Reconciled status + repo-strategy recommendation. |
 | `GOVERNANCE.md`, `CLAIMS.md`, `ROADMAP.md`, `README.md`, `PROGRESS_LOG.md`, `CHANGELOG.md`, `REPRODUCIBILITY.md`, `docs/ARCHIVE.md` | Phase 0 build, 05-22 | Governance scaffolding — see `ROADMAP.md`. |
 | `legacy/` | 05-22 reorganization | Frozen prior history: `reports/` (committed curated text), `handoff/`, `raw/` (git-ignored ~4 GB archive). See `legacy/README.md`. |
 
@@ -208,4 +208,4 @@ pre-2025-12   00a_OriginAxiom            φ^φ axiom era (φ^φ later dropped)
   MASTER zip and drop the loose duplicates.
 - `00_origin-axiom` exists both as a GitHub repo and a local clone — they are the same thing.
 - Binary archives (zips, PDFs) should **not** be committed into git history. See
-  `AUDIT_REPORT.md` §6 for the recommended legacy-archive handling.
+  `docs/archive/AUDIT_REPORT.md` §6 for the recommended legacy-archive handling.

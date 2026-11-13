@@ -664,11 +664,10 @@ def gate_tracked_forbidden():
     _SEAT = r"(?:CC|CC2|CC3|CLOUD|CODEX|FC|OWNER)"
     _RELAY_RE = re.compile(
         rf"^(?:docs/)?{_SEAT}(?:_[A-Z0-9]+)?_TO_[A-Z0-9_]+_\d{{4}}-\d{{2}}-\d{{2}}.*\.md$")
-    GRANDFATHERED_RELAYS = {
-        "CC3_TO_CC_2026-07-22_p3_complete.md",
-        "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
-        "CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md",
-    }
+    # 2026-11-13: the three grandfathered relays were removed from the tree (git keeps them; the last commit to hold them
+    # is 5e7f335c9) under GOVERNANCE section 12's rule for a physical move (docs/REORGANIZATIONS.md, its first entry; scripts/reorganize/root_2026_11_13.py). The
+    # set is empty and stays empty: a relay at the root or loose in docs/ fails this gate.
+    GRANDFATHERED_RELAYS = set()
     bad = [f for f in out.splitlines()
            if f.startswith(".github/") or f == "Archive.zip"
            or (f.startswith("papers/flagship/a-self-generating-object") and f.endswith(".pdf"))

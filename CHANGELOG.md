@@ -1,5 +1,14 @@
 # Changelog
 
+## S306p THE ROOT OF THE REPOSITORY IS CLEARED OF NOTES AND STRAY RESULT FILES, BY THE RULE FOR MOVING A FILE OF THE RECORD, USED FOR THE FIRST TIME (P-838; GOVERNANCE section 12; docs/REORGANIZATIONS.md) (2026-11-13)
+
+- **What moved:** three notes between sessions of July and September are removed from the tree, at the owner's word that git's history keeps them (the last commit to hold them is `5e7f335c9`, and the relay ledger cites it); the consolidation audit of May to `docs/archive/AUDIT_REPORT.md`; three result files into the folders of the arcs that made them (B1116, B1126, B1133), two of them named as runs made from the root. Two more result files were byte-for-byte copies of their arcs' kept outputs and are removed; git keeps them.
+- **How:** GOVERNANCE section 12 allows a move only when something forces it, batched, by a script, with the locks migrated in the same commit, and logged. The script is `scripts/reorganize/root_2026_11_13.py`; the log is new, `docs/REORGANIZATIONS.md`, and this is its first entry. The one lock that named the notes (B1290's) now holds that the gate's set of grandfathered relays is empty and that none of the three is in the tree. No path that a lock or a seal reads moved. Living pages point to the new places; dated records keep the old ones as written.
+- **Next, by the same rule:** the historical folders at the root (card C18 to the builder: measured first, proposed, decided by main, then moved).
+- **To the builder (M26):** M25's "card C16" corrected to C17.
+- **The owner's points of the day** are entered in plain words as P-838.
+- NO ARC LANDS. 0 of 19.
+
 ## S306p THE FOUR CHANNELS IN CLOSED FORM: EACH RESIDUE IS A PRODUCT OF TWO THETA CONSTANTS, AND EVERY EXACT ZERO OF THE FRAME'S DETERMINANT IS EXPLAINED (B1906; P-262 and P-268 paid; P-337, P-606, P-318 and P-747 advanced) (2026-11-13)
 
 - **B1906, main's own derivation and code.** By the product formula for theta functions with characteristics, each of B1656's four channel kernels is a product of two theta functions over θ₁, so each residue is a product of two theta constants: one at (q_L + q_R)w, which is ±3w in every sector, and one at (q_L − q_R)w. The identity is checked against main's bilinear at 30 digits, and three planted wrong forms fail.

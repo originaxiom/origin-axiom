@@ -69,7 +69,7 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 
 ## Historical snapshots (dated; bannered; never a source of claims)
 
-`AUDIT_REPORT.md` (2026-05-22 consolidation) · `docs/SESSION3_SYNTHESIS.md` ·
+`docs/archive/AUDIT_REPORT.md` (2026-05-22 consolidation) · `docs/SESSION3_SYNTHESIS.md` ·
 `docs/CROSS_SESSION_2026-06-11_disposition.md` · `docs/STRATEGIC_SYNTHESIS.md` (2026-06) ·
 `docs/UNIFIED_STATE.md` · `docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` (2026-07-01) ·
 `legacy/` (frozen prior history, GOVERNANCE §9) · `ROADMAP.md` (phase-level, low-churn)

@@ -48,7 +48,7 @@ could clone, run, audit, and trust.
 ## 2. The framing lock
 
 The project produced two contemporaneous self-assessments on 2026-05-21 (see
-`AUDIT_REPORT.md` §3): an optimistic one (`handoff.md`) and a disciplined one
+`docs/archive/AUDIT_REPORT.md` §3): an optimistic one (`handoff.md`) and a disciplined one
 (`ORIGIN_AXIOM_REALITY_CHECK_v1.md` + the V4 paper).
 
 **This repository is bound to the disciplined framing.** The strongest label the project may
@@ -298,6 +298,8 @@ five. Therefore the prime rule:
 > *view*: generated or curated from metadata, cheap to rebuild, free to evolve at every
 > review. A physical move is allowed only when a wall forces it, and then: batched, scripted
 > (locks migrated in the same commit), and logged in a `REORGANIZATIONS.md` entry.
+>
+> *[Dated note 2026-11-13: the first such move. The owner approved moving the front pages on 2026-11-12 and named the root's notes and result files as what a first reader should not meet. Nine files left the root (three notes between sessions removed from the tree, which git's history keeps), by `scripts/reorganize/root_2026_11_13.py`, with the one lock that named them migrated in the same commit; the entry is the first in `docs/REORGANIZATIONS.md`. No path that a lock or a seal reads moved.]*
 
 The boundary of the "object teaches us" transfer is fixed here: the transfer is licensed at
 the level of *problem shape* (finite observers extracting invariant content stratifies into
