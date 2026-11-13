@@ -83,3 +83,4 @@ next push: when main writes to the seat
   listener.
 - **What this seat had sent before M1** is listed on main (harvest rows to 1696). The last three relays of the day
   are verified on main (B1884, B1885, B1887).
+- 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
