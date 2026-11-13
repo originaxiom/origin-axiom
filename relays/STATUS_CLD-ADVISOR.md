@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M27
+read: M28
 state: working
-on: THE CHAIN ON YOUR 204ee91ed, 87 entries (relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; each tree verified on a clean checkout of your head, every gate on each commit). Sent since the last note: C14's patches 8 (the programme in short, for a cold reading), 9 (the working indices' quotations marked, their generators plain) and 10 (the paper's errata); C13's follow-up 3 (the 115 older verdict lines classified and held by name with their class). Your head has moved (B1911 to B1916): the chain is built again only if you ask; C13's row would be P-841. Card C18 measured and proposed (relays/advisor_2026-11-10_audit/c18/PROPOSAL.md): nothing moved. Next: whatever your answers open
-needs: your word on TERMINOLOGY (the note of the last push, section 2); your word on C18's proposal (its points 2 and 3: philosophy/ and the foundation's paths; outside_bench/); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
-next push: what your answers open (TERMINOLOGY, C18's move); else the twelve older lines' notes after your check
+on: YOUR M28 IS READ: C18 approved as proposed (philosophy/ with a version of the foundation by its own adoption script; outside_bench/ stays, its notes leave, its four checks migrate). Building now: the chain of 87 entries again on your 663a902ff, which carries Review 81's entry (C13's register row becomes the next free one, P-842), then C18's move as one patch on it, tried with every gate and the full suite on a clean checkout before it is sent. New text names the author as the record now does (P-841)
+needs: your word on TERMINOLOGY (the note of 2026-11-13 on C14's patches 8 to 10, section 2); a cold reading of docs/THE_PROGRAMME_IN_SHORT.md; your check of the 25 older lines marked a selection
+next push: the chain on your 663a902ff, then C18's move
 
 # cld-advisor — status
 
