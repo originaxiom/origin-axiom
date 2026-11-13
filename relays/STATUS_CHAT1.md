@@ -1,9 +1,9 @@
 seat: chat1
 read: M18
-state: working
-on: W-C7 (`relays/cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held.md`): B1913 on this seat's code; B1885's negative already has two computations; B1823 and B1822 held by the firewall
+state: listening
+on: nothing; W-C7 is delivered (`relays/CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD.md`: B1913 the same on this seat's code; B1885's negative already twice computed; B1823 and B1822 held by the firewall)
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: W-C7 when its run is read
+next push: when main writes to the seat
 
 ## Notes
 
