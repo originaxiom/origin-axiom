@@ -1,0 +1,141 @@
+From 0d57baf98c1c166ac9f84962dc0e9a8a32558f16 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 15:04:48 +0000
+Subject: [PATCH] C14, patch 8 (cld-advisor, at main's word in M25, answer 3):
+ THE PROGRAMME IN SHORT: A SHORT PAGE IN PLAIN WORDS, EVERY LINE WITH ITS
+ SOURCE, AS A DRAFT FOR ONE COLD READING; NOTHING POINTS TO IT YET
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Main's M25, answer 3: archive "the programme so far" byte for byte, with its three readers' checks and its appendix,
+and write a short living page in plain words, every line with its source, as the README's first link. The new page is
+read by one session that did not write it before the README points to it.
+
+This patch is the first half: the page, for that reading.
+- docs/THE_PROGRAMME_IN_SHORT.md (new): five short sections (the idea; the mathematics it builds; what it has
+  obtained; what it has not obtained; where it stands), 15 lines of list, each ending in its source in brackets: a
+  section of the full account (THE_PROGRAMME_SO_FAR.md, named by "§"), an item of GENESIS, or a page. No statement in
+  it is new: each restates a sentence of the section it names. It uses no inner word of the public face's list. It is
+  not on the public face's list and no page links to it.
+- tests/test_the_programme_so_far.py: one test: every page the short page names exists, every section it names is a
+  section of the full account, every line of its lists ends in a source, and it states the goal's count as the main
+  goal's page does; the public face's count on it is zero. Three plants, each refused: a line with its source taken
+  out, a section the full account lacks, a page that does not exist.
+
+THE SECOND HALF, after the reading: the full account archived byte for byte beside itself (as the README's and the
+main goal's were; a script, since it quotes a person), the short page's "§" pointed at the archive, the README's
+first link moved to the short page, and the page put on the public face's list.
+
+0 of 19.
+---
+ docs/THE_PROGRAMME_IN_SHORT.md     | 49 ++++++++++++++++++++++++++++++
+ tests/test_the_programme_so_far.py | 39 ++++++++++++++++++++++++
+ 2 files changed, 88 insertions(+)
+ create mode 100644 docs/THE_PROGRAMME_IN_SHORT.md
+
+diff --git a/docs/THE_PROGRAMME_IN_SHORT.md b/docs/THE_PROGRAMME_IN_SHORT.md
+new file mode 100644
+index 000000000..210fcb696
+--- /dev/null
++++ b/docs/THE_PROGRAMME_IN_SHORT.md
+@@ -0,0 +1,49 @@
++# The programme in short
++
++*A short account in plain words; every line names where it comes from. The full account, written on 2026-10-30 and
++checked line by line by three readers, is [`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md), and "§" below names its
++sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
++
++## The idea
++
++- The programme turns an old question round: not "why is there something rather than nothing?" but "what is not
++  nothing?". Its working answer is that existence is what remains when an attempt to cancel everything to nothing cannot
++  finish (§ 1; `philosophy/P000_what_is_not_nothing.md`).
++- The foundations state this as a principle, and it is a postulate: stated, not derived (`GENESIS.md`, PF1 to PF3).
++- The philosophy passages are motivation only. They are never premises of a proof, and nothing in them is a claim (§ 1).
++
++## The mathematics it builds
++
++- A description is a pair of whole-number counts. Two elementary moves, L and R, each add one count to the other, so a
++  description is a word in L and R (§ 2; `GENESIS.md` § 2).
++- Each word acts on a torus with one point removed and builds a three-dimensional space of constant negative curvature.
++  Each such space is called a thread, and all of them together, with the moves acting on them, the weave (§ 3;
++  `docs/THE_WEAVE.md`).
++- One thread is picked out by two stated selectors, one assumed and one chosen: the figure-eight knot complement, m004,
++  called the root (§ 3.3; `GENESIS.md` § 4).
++
++## What it has obtained
++
++- Discrete facts belonging to the object: groups, counts, signs and exact numbers. Many of them would come out of any
++  comparable object, and the record marks those as generic (§ 5).
++- A three-fold flavour structure is derived on the weave; three generations of chiral matter are not (§ 5.1;
++  `GENESIS.md`, FK14).
++- Negative results, each holding only within its stated scope: where the structure does not go (§ 6).
++
++## What it has not obtained
++
++- To compare geometry with physics, the programme uses frames: rules that turn a geometric object, with stated extra
++  data, into particle counts or numbers. A frame is a hypothesis, and none is derived from the principle (§ 4).
++- Reading a geometric quantity as a physical one needs a map that is exhibited and shown to act. Each reading not yet
++  earned is an input the programme has not paid for (§ 4.4; `docs/IDENTIFICATION_LEDGER.md`).
++- In one frame the six charged-fermion mass ratios are reached, but only with inputs chosen by hand and about as much
++  freedom as the six numbers carry, so the record grades it a reading and not a derivation. Nothing reaches the mass
++  scales, the gauge couplings, the Higgs sector or θ (§ 7).
++- Of the nineteen free parameters of the Standard Model, **0 of 19** are derived (`docs/MAIN_GOAL.md`).
++
++## Where it stands
++
++- The current state is generated at the top of the README at every landing (`README.md`).
++- The newest entries of `docs/CAMPAIGN_STATUS.md`, the open questions in `docs/POINT_REGISTER.md` and the order of work
++  chosen on 2026-10-30 (`docs/THE_FINAL_ATTACK_2026-10-29.md`) belong to the working record (§ 9 gives the state of
++  2026-10-30).
+diff --git a/tests/test_the_programme_so_far.py b/tests/test_the_programme_so_far.py
+index fa54d6ffc..3affd544a 100644
+--- a/tests/test_the_programme_so_far.py
++++ b/tests/test_the_programme_so_far.py
+@@ -34,3 +34,42 @@ def test_it_states_the_goal_as_the_goal_does():
+     goal = re.search(r"Its state is \*\*(\d+) of 19\*\*", (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")).group(1)
+     t = PAGE.read_text(encoding="utf-8")
+     assert "%s of 19" % goal in t and "audit/" not in t
++
++
++# --- 2026-11-13 (main's M25, answer 3; C14, patch 8): the short living page, a draft for one cold reading ---
++
++SHORT = ROOT / "docs" / "THE_PROGRAMME_IN_SHORT.md"
++
++
++def _short_problems(text, full):
++    """what is wrong with the short page: a path it names that does not exist; a section of the full account it names
++    that the full account does not have; a line of a list with no source in brackets; the goal's count not as the goal
++    states it"""
++    bad = []
++    for p in re.findall(r"`([\w./-]+\.md)`", text):
++        if not ((ROOT / p).exists() or (ROOT / "docs" / p).exists()):
++            bad.append("no such page: " + p)
++    for s in set(re.findall(r"§ (\d+(?:\.\d+)?)", text)):
++        if not re.search(r"^#{2,3} %s[ .]" % re.escape(s), full, re.M):
++            bad.append("no such section: § " + s)
++    for item in re.split(r"\n(?=- )", text):
++        item = item.split("\n\n")[0]
++        if item.startswith("- ") and not re.search(r"\((?:[^()]*?)(?:§ \d|`[^`]+`)[^()]*\)\.?\s*$", " ".join(item.split())):
++            bad.append("a line with no source: " + item[:60])
++    goal = re.search(r"Its state is \*\*(\d+) of 19\*\*", (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")).group(1)
++    if "**%s of 19**" % goal not in text:
++        bad.append("the goal's count is not stated as the goal states it")
++    return bad
++
++
++def test_the_short_page_names_a_source_for_every_line_and_uses_no_inner_word():
++    import importlib.util, sys
++    spec = importlib.util.spec_from_file_location("gates_for_the_short_page", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec); sys.dont_write_bytecode = True; spec.loader.exec_module(g)
++    text, full = SHORT.read_text(encoding="utf-8"), PAGE.read_text(encoding="utf-8")
++    assert _short_problems(text, full) == []
++    assert dict(g.public_face_words(text)) == {}
++    # planted: a line with its source taken out, a section the full account lacks, a page that does not exist
++    assert len(_short_problems(text.replace(" (§ 6).", ".", 1), full)) == 1
++    assert len(_short_problems(text.replace("(§ 7)", "(§ 17)", 1), full)) == 1
++    assert len(_short_problems(text.replace("`docs/THE_WEAVE.md`", "`docs/THE_WEAVES.md`", 1), full)) == 1
+-- 
+2.43.0
+

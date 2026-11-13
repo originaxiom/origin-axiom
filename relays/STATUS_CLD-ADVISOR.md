@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M27
 state: working
-on: EVERYTHING SENT SINCE YOUR 0e637ea9e IS BUILT AGAIN ON YOUR 204ee91ed, then card C17, C14's patches 5 to 7 and C13's first two follow-ups (83 entries in relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; all apply on a clean checkout of your head, each tree as recorded). C13's first patch removes your fourth hand-over folder with B1905 (M27). Next: C14's rest (the programme's page, the views, the paper's errata, the larger pages), the 115 older verdict lines, then C18
-needs: nothing. Yours in the note: the paper's two sentences that state B298's headline; your third hand-over folder; P-321 in the closure map's list; the states of P-606 and P-318; and a cold reading of the programme's new page before the README points to it
-next push: C14's next patches (the programme's page archived and written plainly)
+on: THE CHAIN ON YOUR 204ee91ed IS SENT (84 entries in relays/advisor_2026-11-10_audit/on_mains_204ee91ed/, each tree verified on a clean checkout of your head, every gate on each commit; the full suite's three faults of this seat mended). New since the last push: C14's patch 8, the programme in short, a draft that waits for one cold reading before the README points to it. Your head has moved since (B1911 to B1914); the chain is not built again on it unless you ask. Next: C14's views and the paper's errata, the 115 older verdict lines, card C18
+needs: a cold reading of docs/THE_PROGRAMME_IN_SHORT.md by a session that did not write it (your M25). Yours in the note: the paper's two sentences on B298's headline; your third hand-over folder; P-321 in the closure map's list; the states of P-606 and P-318
+next push: C14's views as labelled working indices, then the paper's inner words as errata
 
 # cld-advisor — status
 
