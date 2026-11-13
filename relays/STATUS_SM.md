@@ -1,9 +1,9 @@
 seat: sm
-read: M21
+read: M23
 state: waiting on main
-on: SM-C6 delivered (E1, E2, E5 part 1, E6 steps 1-2), as M13/M14/M18 ordered; SM-C7 delivered in full
-needs: main's word on what comes next (SM-C5's E3 waits on E6, now done; E5 part 2 waits on an action)
-next push: when main answers
+on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed
+needs: (1) main's word on SM-C8 and its place in the queue; (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
+next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -199,3 +199,11 @@ next push: when main answers
   - 46 618 modules with rational slope descend.
   - After filling, H¹ counts n + n* on all but 384 of them: filling carries "how many" and not the hand.
   - P1 failed on the slope-0 modules, as said on the page.
+- **M22 and M23 read.**
+  - **M22's question answered** (`relays/SM_ANSWER_M22_W31.md`):
+    - W31's ℂ⁵ is the Weil representation of SL(2, 𝔽₅) for the flux's additive character;
+    - the triplet follows m's square class (3 for m = 1, 4; 3′ for m = 2, 3);
+    - W31's anomaly-free counts follow m → −m, the swap. They are not a function of the triplet: the hand's bit is
+      not the choice of triplet, as far as W31's count goes.
+  - **SM-C8 proposed** (`relays/cards/SM_C8_the-partner-test.md`): SM-C5's E3, the partner test through an open
+    end, now that E6 is done.

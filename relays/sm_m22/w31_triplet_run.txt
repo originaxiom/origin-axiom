@@ -1,0 +1,4 @@
+flux m=1 (square mod 5): tr(L) on the 3-piece = -0.618034-0.000000j  -> 1-phi
+flux m=2 (non-square mod 5): tr(L) on the 3-piece = 1.618034-0.000000j  -> phi
+flux m=3 (non-square mod 5): tr(L) on the 3-piece = 1.618034-0.000000j  -> phi
+flux m=4 (square mod 5): tr(L) on the 3-piece = -0.618034+0.000000j  -> 1-phi
