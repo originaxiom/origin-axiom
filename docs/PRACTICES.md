@@ -1443,3 +1443,19 @@ Three practices came out of the field stage's last window. Each answers a slip t
     says otherwise. Each landing's report names the package it advanced and says whether one closed. And the order
     ends in one package: the programme's builder refuses a second package that nothing needs, with the old order
     planted as its test. MIXED.
+
+## A negative is banked only after a second computation — GATED (`negative-second-computation`) in part, the rest MANUAL (adopted 2026-11-13, WORKING_RULES, at the author's instruction after B1918; P-842; the gate by the building session's card C19)
+
+**The rule** is WORKING_RULES' of 2026-11-13: a NEGATIVE verdict is banked only after an independent second computation,
+which its verdict file names in `cites_seat` by the words "second computation"; until then its verdict line says
+PROVISIONAL and nothing is built on it; "not Y" is tested against Y's own definition; and after every wall the arc's page
+says what the wall teaches. **The gate** reads, from B1923 on, every NEGATIVE verdict file: an entry of `cites_seat` that
+names a second computation made (one named as owed, assigned, pending or not yet made does not count), or PROVISIONAL in
+its verdict line; and a heading "What the wall teaches" in its FINDINGS. Its failing paths are
+`tests/test_negative_second_computation.py`. **MANUAL:** whether the second computation is independent, that nothing is
+built on a provisional negative, that "not Y" was tested against Y, and the re-verification of the negatives banked
+before B1923 (the ledger `audit/negatives/2026-11-13/`).
+
+**Why it exists.** B1918 banked a route closed from fits over a family of forms that did not hold the true one; it stood
+for half an hour and was retracted the same day only because the SM seat, given the same step, found the exact formula
+from its sealed calibration (B1919).

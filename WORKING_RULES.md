@@ -376,10 +376,11 @@ author: this mistake must not be possible again.
    each gets an independent second computation and its contemplation, by the ledger
    `audit/negatives/2026-11-13/` until it lands as an arc.
 
-**Enforced by:** owed, the builder's card C19 (a gate: from B1923 on, a NEGATIVE verdict without "second computation"
-in `cites_seat` must carry PROVISIONAL in its verdict line, and its FINDINGS must carry a section "What the wall
-teaches"; with its failing paths). Until the gate lands, main applies
-the rule by hand at every landing. Register row P-842.
+**Enforced by:** the gate `negative-second-computation` (the builder's card C19, 2026-11-13): from B1923 on, a NEGATIVE
+verdict without a second computation made named in `cites_seat` must carry PROVISIONAL in its verdict line, and its
+FINDINGS must carry a section "What the wall teaches"; its failing paths are `tests/test_negative_second_computation.py`.
+By hand, at every landing: whether the second computation is independent, that nothing is built on a provisional
+negative (point 1), point 2, and the re-verification of point 6. Register row P-842.
 
 ## Rule (2026-10-06, the owner's instruction, relayed by the SM seat — adopted): VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED
 

@@ -3121,6 +3121,60 @@ def gate_arc_data():
     return True, "ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported)" % (out["verdict files"], len(out["D7 relation in prose only (candidates)"]))
 
 
+# Card C19 (2026-11-13, main's M29; WORKING_RULES' rule of 2026-11-13, the author's instruction after B1918, register row
+# P-842): a NEGATIVE verdict is banked only after an independent second computation, which its verdict file names in
+# `cites_seat` by the words "second computation"; until then its verdict line says PROVISIONAL. After every wall, the arc's
+# page carries a section "What the wall teaches". The rule binds from B1923 on; the arcs before it are not read here.
+NEGATIVE_SECOND_FROM_ARC = 1923
+_SECOND_COMPUTATION_RE = re.compile(r"second computation", re.I)
+# an entry that names the second computation only as not yet made does not count as naming one made
+_SECOND_NOT_YET_RE = re.compile(r"\b(owed|assigned|pending|not yet|awaited|awaiting|to come|to be made|outstanding)\b", re.I)
+_PROVISIONAL_RE = re.compile(r"\bPROVISIONAL\b")
+_WALL_TEACHES_RE = re.compile(r"^#{1,6}[ \t][^\n]*?what the wall teaches", re.I | re.M)   # a heading that holds the words
+
+
+def negative_without_second(reader=None, start=NEGATIVE_SECOND_FROM_ARC):
+    """(arc id, what is missing) for every NEGATIVE verdict file of an arc numbered `start` or above: no entry of
+    `cites_seat` names a second computation made and the verdict line (`claim_one_line`) does not say PROVISIONAL; or the
+    arc's FINDINGS.md has no heading "What the wall teaches" (a missing or unreadable page counts as one without it)"""
+    reader = reader or (lambda rel: _read(rel)); out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        m = re.match(r"B(\d+)_", os.path.basename(os.path.dirname(p)))
+        if not m or int(m.group(1)) < start:
+            continue
+        rel = os.path.relpath(p, ROOT)
+        try:
+            d = json.loads(reader(rel))
+        except Exception:
+            continue                                      # an unreadable verdict file is the arc-data gate's to refuse
+        if d.get("verdict") != "NEGATIVE":
+            continue
+        arc = d.get("id", "B" + m.group(1))
+        made = [str(c) for c in (d.get("cites_seat") or [])
+                if _SECOND_COMPUTATION_RE.search(str(c)) and not _SECOND_NOT_YET_RE.search(str(c))]
+        if not made and not _PROVISIONAL_RE.search(str(d.get("claim_one_line") or "")):
+            out.append((arc, "no second computation named in cites_seat, and the verdict line does not say PROVISIONAL"))
+        try:
+            page = reader(os.path.join(os.path.dirname(rel), "FINDINGS.md"))
+        except Exception:
+            page = ""
+        if not _WALL_TEACHES_RE.search(page or ""):
+            out.append((arc, "its FINDINGS has no section 'What the wall teaches'"))
+    return out
+
+
+def gate_negative_second_computation(reader=None):
+    """WORKING_RULES' rule of 2026-11-13 (the author's instruction after B1918; P-842; card C19): from B1923 on, a NEGATIVE
+    verdict names an independent second computation in `cites_seat`, or its verdict line says PROVISIONAL; and its arc's
+    page carries "What the wall teaches". Whether the second computation is independent is main's to judge; the gate reads
+    what is written."""
+    bad = negative_without_second(reader)
+    if bad:
+        return False, "%d NEGATIVE verdict(s) from B%d on break the rule of 2026-11-13: " % (len(bad), NEGATIVE_SECOND_FROM_ARC) + \
+            "; ".join("%s: %s" % b for b in bad[:6])
+    return True, "ok (every NEGATIVE verdict from B%d on names a second computation or says PROVISIONAL, and its page says what the wall teaches)" % NEGATIVE_SECOND_FROM_ARC
+
+
 GATES = {
     "identification-register": gate_identification_register,
     "framing": gate_framing,
@@ -3175,6 +3229,7 @@ GATES = {
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,
+    "negative-second-computation": gate_negative_second_computation,
 }
 
 

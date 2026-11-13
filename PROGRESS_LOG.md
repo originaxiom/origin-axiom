@@ -20172,3 +20172,9 @@ seat's check. Six are left.
 **What happened.** Main entered in the record every delivery the helper sessions made over the past two days, including the overnight work of the other model family that had not yet been processed. Four of main's results now have an independent second computation, as the new rule requires. The helpers each got their next task so that none waits.
 
 0 of 19.
+
+## 2026-11-13 — The new rule on negatives is now enforced automatically (S306p)
+
+**What happened.** The record-keeping helper built an automatic check, and main tested it with its own planted cases before accepting it: from now on a negative result cannot enter the record unless an independent second computation is named, or it is marked provisional, and it must say what the wall teaches.
+
+0 of 19.
