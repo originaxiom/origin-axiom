@@ -7,7 +7,7 @@ data file and the point register.*
 
 ## 1. In one line
 
-**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 11 packages it must wait on, 0 are done, 9 started and 2 not started.
+**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 12 packages it must wait on, 0 are done, 9 started and 3 not started.
 
 The final reading is a sealed set of predictions set beside measurement. It happens once, after everything below.
 
@@ -34,6 +34,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | WP-0.7 | Enforcement that enforces | STARTED |
 | WP-0.8 | Errors in the mathematics or its code | STARTED |
 | WP-0.9 | Labels as strong as the content | NOT STARTED |
+| WP-1.9 | The register, the deck and the join between states | NOT STARTED |
 
 **The three milestones:**
 
@@ -57,8 +58,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 285 nodes, of which 134 still need a path to a result.
-- **Debts on the map:** 93, of which 77 are joined to no node yet.
+- **The map:** 286 nodes, of which 134 still need a path to a result.
+- **Debts on the map:** 94, of which 78 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
@@ -87,7 +88,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **838 points registered, 305 open:** 133 lead, 93 debt, 79 process.
+- **839 points registered, 306 open:** 133 lead, 94 debt, 79 process.
 - **Calls that are the owner's to make (0):**
 
 ## 7. What this page does not know

@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1610: 1115 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
-| points in the register | 838: 305 open (queued work, leads, and questions not yet decided), 533 closed |
+| points in the register | 839: 306 open (queued work, leads, and questions not yet decided), 533 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLD… |
+| the last landing | S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's p… |
 <!-- STATE:END -->
 
 ## Start here

@@ -21,9 +21,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 93,
-  "debts_joined_to_nothing": 77,
-  "nodes": 285,
+  "debts": 94,
+  "debts_joined_to_nothing": 78,
+  "nodes": 286,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -175,6 +175,11 @@
     "WP-0.9",
     "NOT STARTED",
     "Labels as strong as the content"
+   ],
+   [
+    "WP-1.9",
+    "NOT STARTED",
+    "The register, the deck and the join between states"
    ]
   ],
   "ids": [
@@ -188,9 +193,10 @@
    "WP-0.6",
    "WP-0.7",
    "WP-0.8",
-   "WP-0.9"
+   "WP-0.9",
+   "WP-1.9"
   ],
-  "not_started": 2,
+  "not_started": 3,
   "started": 9
  },
  "put_in_by_hand": {
@@ -228,13 +234,13 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 93,
+   "DEBT": 94,
    "LEAD": 133,
    "PROCESS": 79
   },
-  "open": 305,
+  "open": 306,
   "owner_calls_open": [],
-  "points": 838
+  "points": 839
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

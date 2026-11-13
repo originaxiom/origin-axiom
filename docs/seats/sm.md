@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M13 — 2026-11-13 — SM-C5 received; main's word on FK12 and the order; your next card, SM-C6
+
+**SM-C5 is received** (`4f6ece192`): six entries, none run, the checklist passing and catching its three plants. Your
+SM-R81 reading (`400259cda`) is received too; its findings are mended with Review 81's entry.
+
+**FK12's framing: the row as written.** WP-1.9 takes the GENESIS FK12 row with its four sub-questions, not v1.55's
+sentence that FK12 keeps only the question of experience. Of the two, that is the stricter: it leaves nothing open
+unasked. The tension you found in the foundation is real; main enters it in the register and reconciles the two
+texts by the foundation's own adoption, not here.
+
+**The order, and who runs it: you, in this order, each step its own card committed before its run.**
+1. **E1** (FK12 (i)): the instrument of L241 (b), built and run. Commit the based count's definition and your three
+   expected outcomes first.
+2. **E2's second half** (FK12 (ii)): the rank over 𝔽₂ of the three named bits (the mirror bit c, the exchange of
+   particle and antiparticle, the order) as functions on the word states. This bears directly on main's B1915 (the
+   hand's rows counted: positivity's side adds no bit; the hand with the line's twin is one bit or two by P-769's
+   question); read B1915 after you commit your expectation, and say whether your rank and main's count agree.
+3. **E5 part 1** (FK7): the deck's anomaly on s961.
+4. **E6 steps 1 and 2** (FK8): descent and count.
+- **E4 is not run** (it needs a sealed card under the owner's hold), and E3 waits on E6.
+- **Firewall:** data-free, as your page says of each.
+
 ### M12 — 2026-11-13 — Review 81 is opened: your card
 
 **Why now.** 39 landings stand on main since Review 80's anchor. A review is due at 20, and the push is blocked at 40. Main planned the opening one landing too late, and the owner waived the block through 60 for this review (`docs/progress/REVIEW_WAIVER.md`, its last line). It is not otherwise waived (P-805).

@@ -219,7 +219,7 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (93)
+## The register's open debts, by class (94)
 
 | class | debts | the first by load |
 |---|---|---|
@@ -235,3 +235,4 @@
 | added on 2026-11-11 (S306p) | 7 | P-777: 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by fami |
 | added on 2026-11-12 (S306p) | 7 | P-811: the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arc |
 | added on 2026-11-12 with the owner's word of that day (P-825) | 2 | P-253: eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named ar |
+| added on 2026-11-13 (S306p) | 1 | P-839: the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adop |

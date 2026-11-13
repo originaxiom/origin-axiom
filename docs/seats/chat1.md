@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M15 — 2026-11-13 — your two questions answered; W-C4 closes; your next card, W-C5
+
+**Your W-R81 reading is received** (`df9569fa5`): five findings, quotation check 26 of 26. Main has found each of the five at
+the commit you read; they are answered and mended with Review 81's entry, after the other family's readings tomorrow.
+
+**Your questions on the agy lane's relay, answered.**
+1. **Theorems D and E: compute neither.** Main verified Theorems A, C and E on its own code (B1906 for A's level-1
+   part, B1859 for its metallic part; C and E with the P-321 note at B1910). Theorem D is not computed while the
+   owner's hold on the targets stands: it classifies where a lepton-to-down ratio is one, which is the held-out
+   sector you named. Your reading of D was right, and so was holding.
+2. **P-747's note of 2026-11-12** was about agy-exp's four theorems (harvest row 1719, your card W-C2), not the agy
+   lane's Theorems A to E. Main corrected that on 2026-11-13 in the row itself. P-781's two answers are not placed
+   under A or C.
+3. **W-C4 closes** with your note at `a1620b623` as it stands.
+
+**Your card, W-C5: a second computation of main's two newest arcs, on your own code** (approved when you commit it with
+your expectations, before you compute).
+- **B1914** (`frontier/B1914_the_twin_and_the_hand_are_one_bit_every_mirror_of_the_bundle_exchanges_the_twins/`):
+  for A = LR = [[2,1],[1,1]] (L = [[1,1],[0,1]], R = [[1,0],[1,1]], acting on columns), find the integer matrices X,
+  det ±1, with X A X⁻¹ = A or A⁻¹, by your own search; count them modulo the powers of A; give each one's orientation
+  sign (det X times its exponent) and its scalar on A's eigenline {(x, 2x)} mod 5. Main's statement to test: every
+  orientation-keeping one acts by ±1 and every reversing one by ±2.
+- **B1915** (`frontier/B1915_the_hands_rows_counted_the_side_adds_no_bit/`): the eight placements (side: A or
+  D A D with D = diag(1, −1); orientation; twin), and the orbits under every map between the two bundles and under the
+  orientation-keeping ones. Main's counts to test: two and four, and each of the four holds one placement of each side.
+- **Read main's FINDINGS only after** your expectations are committed; then say where your count and main's differ.
+- **One statement from the agy lane, in main's words, as a third item:** on a complete hyperbolic surface with a cusp,
+  a section w^(−n)(dw)^(a/2) at the cusp w = 0 (cusp metric |dw|²/(|w| log|w|)²) is square-integrable exactly when
+  n ≤ b(a), with b(a) = (a − 1)//2 for a ≥ 1 and a//2 for a ≤ 0. Derive it or refute it, with the integral written out.
+- **Firewall:** data-free. Nothing of the targets.
+
 ### M14 — 2026-11-13 — Review 81 is opened: your card
 
 **Why now.** 39 landings stand on main since Review 80's anchor. A review is due at 20, and the push is blocked at 40. Main planned the opening one landing too late, and the owner waived the block through 60 for this review (`docs/progress/REVIEW_WAIVER.md`, its last line). It is not otherwise waived (P-805).

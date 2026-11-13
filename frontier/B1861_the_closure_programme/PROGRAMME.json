@@ -575,7 +575,8 @@
   "P-817": "WP-0.3",
   "P-820": "WP-0.7",
   "P-821": "WP-0.3",
-  "P-827": "WP-0.1"
+  "P-827": "WP-0.1",
+  "P-839": "WP-1.9"
  },
  "direct_rulings": [
   [
@@ -3620,7 +3621,9 @@
    ],
    "blocks": [],
    "closure_nodes": [],
-   "debts": [],
+   "debts": [
+    "P-839"
+   ],
    "findings": [],
    "first": "each fork gets its deciding computation written down (GENESIS § 8 names them)",
    "given": [],
@@ -5288,8 +5291,8 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 93,
-  "debts_on_the_map_joined_to_nothing": 77,
+  "debts": 94,
+  "debts_on_the_map_joined_to_nothing": 78,
   "exits_by_kind": {
    "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
@@ -5325,7 +5328,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 285,
+  "map_nodes": 286,
   "nodes_assigned": 134,
   "nodes_needing_a_path": 134,
   "open_choices_under_each_conditional_headline": {
@@ -5374,7 +5377,8 @@
    "WP-0.6",
    "WP-0.7",
    "WP-0.8",
-   "WP-0.9"
+   "WP-0.9",
+   "WP-1.9"
   ],
   "present_inputs": 65,
   "relayed_rulings": 17,

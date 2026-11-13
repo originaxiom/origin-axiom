@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 93 |
+| DEBT | a result the record uses is owed a check or a correction | 94 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -392,3 +392,4 @@ by a quote that the builder checks.*
 | 91 | P-821 | added on 2026-11-12 (S306p) | by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show. |
 | 92 | P-253 | added on 2026-11-12 with the owner's word of that day (P-825) | eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none. |
 | 93 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
+| 94 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |

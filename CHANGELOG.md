@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's page M13) (2026-11-13)
+
+- **The web seat:** its two questions on the agy lane's relay answered (Theorems D and E: compute neither; D waits on the owner's hold, A, C and E are verified on main; the 2026-11-12 note on P-747 concerned agy-exp's theorems, as corrected that day). Its next card, W-C5: a second computation, on its own code and with expectations committed first, of B1914 and B1915's counts, and of the cusp's square-integrability bound that the agy lane's stage 1 states.
+- **The SM seat:** SM-C5 received (the computations that would decide FK7, FK8 and FK12, written and not run). FK12 is taken as its row is written, the stricter of the foundation's two texts; its order of work is E1, then E2's rank of the three named bits (which bears on B1915), then E5's first part and E6's first two steps. E4 needs a sealed card and is not run.
+- **P-839:** the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; the row governs WP-1.9 until the two are reconciled by adoption.
+- The agy lane's push of 16:00 (five stages) is digested in main's audit room by five masked readers, with their quotations checked by machine; four verification cards are planned for main's own code. Nothing of it is banked yet. 0 of 19.
+
 ## S306p THE HAND'S ROWS COUNTED: POSITIVITY'S SIDE ADDS NO BIT, AND THE HAND WITH THE LINE'S TWIN IS ONE BIT OR TWO BY THE SAME OPEN QUESTION THAT HOLDS R6 (B1915; decision 1 of the input budget) (2026-11-13)
 
 - **B1915:** the eight placements (positivity's side as GM5d now reads it, the bundle's orientation, the line's twin) under the integer maps between the forward and backward golden bundles (176 maps, 88 between the sides, the mirror D = diag(1, −1) among them): two orbits under every map; four under the maps that keep the orientation, each holding one forward and one backward placement. So the side adds no bit, and the hand with the twin is one bit if the mirror identifies placements and two if it does not.

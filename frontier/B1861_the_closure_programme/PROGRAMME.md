@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 93 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 94 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -498,6 +498,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Nodes (3):** G:FK12, G:FK7, G:FK8.
 - **Stated about:** thread 1, weave 2.
 - **Also bears on nodes held elsewhere:** D:01.
+- **Debts (1):** P-839.
 
 ### C2. One physical action, stationary background and response
 
@@ -850,6 +851,7 @@ feeds every row.
 | WP-0.7 Enforcement that enforces | 7: P-757, P-772, P-777, P-806, P-812, P-816, P-820 |
 | WP-0.8 Errors in the mathematics or its code | 1: P-804 |
 | WP-0.12 The count as an output, and the map on the desk | 1: P-773 |
+| WP-1.9 The register, the deck and the join between states | 1: P-839 |
 
 ## 7. The certificate
 
