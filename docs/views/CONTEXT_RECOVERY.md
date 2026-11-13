@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1612 |
+| arcs with a verdict file | 1613 |
 | … PROVED | 1117 |
-| … NEGATIVE | 384 |
+| … NEGATIVE | 385 |
 | … OPEN | 99 |
 | … RETRACTED | 12 |
-| register points | 840 |
+| register points | 841 |
 | … QUEUED | 301 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 523 |
+| … DONE | 524 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1741 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1918 | NEGATIVE | B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log∣theta[c](0)∣ + beta a^2 Im tau + gamma(tau) over 30 charac… |
 | B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
 | B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
 | B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
@@ -42,7 +43,6 @@
 | B1909 | OPEN | THE PAIRED CURRENT POLE (P-749 (e); R80-5): FIVE OF ITS SEVEN STEPS HOLD ON MAIN'S OWN ALGEBRA, EXACTLY, AND THE OTHER TWO NEED THE LANE'S OPERATOR WRITTEN OUT ON MAIN. The grade -2 plane of V(3/2) x V(3/2) is an eigens… |
 | B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
 | B1907 | NEGATIVE | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mat… |
-| B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
 - S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
 - S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
 - S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
@@ -60,7 +61,6 @@
 - S306p A CORRECTION OF MAIN'S OWN, THE SAME DAY: R6 AND THE HAND'S COUNT WAIT ON NO RULING (B1913 and B1915 dated corrections; P-769, P-776; the retractions index; the SM seat's page M16) (2026-11-13)
 - S306p THE SM SEAT'S OWN CARD: THE L-FUNCTION STEPS APPROVED, THE FRAME STEPS HELD UNDER THE OWNER'S HOLD; MAIN'S CARD RENAMED (the SM seat's page M15) (2026-11-13)
 - S306p THE OWNER GIVES BOTH SEATS IN USE TODAY THE GREEN LIGHT (the web seat's page M16, the SM seat's page M14) (2026-11-13)
-- S306p THE TWO SEATS IN USE TODAY GET THEIR NEXT CARDS, AND A TENSION IN THE FOUNDATION IS REGISTERED (P-839; the web seat's page M15, the SM seat's page M13) (2026-11-13)
 
 ## The latest campaign line
 

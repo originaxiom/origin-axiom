@@ -1,0 +1,3 @@
+tau -0.1004+0.9431i fit N = -64.669116 log|theta[c](0)| +2.525483 a^2 Im tau -8.983680 | max residual 2.18e+01 of a spread 100.361 over 30 characters
+tau 0.5000+1.1180i fit N = -66.843930 log|theta[c](0)| +2.281284 a^2 Im tau -11.964626 | max residual 2.46e+01 of a spread 107.021 over 30 characters
+tau 1.1004+0.9431i fit N = -64.846439 log|theta[c](0)| -0.664627 a^2 Im tau -8.170072 | max residual 2.17e+01 of a spread 100.214 over 30 characters

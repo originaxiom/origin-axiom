@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1612** |
-| words of findings prose | **1,433,411** |
+| research arcs with findings | **1613** |
+| words of findings prose | **1,434,189** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1612** (100.0 %) |
-| recorded closures | **860** (692 classified, 168 routed-only) |
+| arcs carrying an authored verdict | **1613** (100.0 %) |
+| recorded closures | **861** (693 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1117 |
-| NEGATIVE | 384 |
+| NEGATIVE | 385 |
 | OPEN | 99 |
 | RETRACTED | 12 |
 
@@ -52,7 +52,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | `value-numerology` | 24 |
 | `method-limit` | 13 |
 | `incoming-claim-refuted` | 10 |
-| *(all 129 mechanisms in `CLOSED_DOORS.md`)* | |
+| *(all 130 mechanisms in `CLOSED_DOORS.md`)* | |
 
 ### The quality signal a reviewer should check first
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus half the count of -I equals 1/4pi^2 times the period of the dual-shifted weight-2 Eisenstein series from z0 to gamma z0 along the thread's closed geodesic (main's code: 2.5e-13), and the L-function's value at 1 equals -4 times the geodesic integral of log|g_Jc|, g a Siegel function (Hecke's formula at s = 2 on main's code to 4e-8; the value at 1 against a direct sum to about 1e-4). No point tau is chosen. Whether B1656's channel norm is this quantity is the seat's steps 3-4. 0 of 19.  
 `B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/FINDINGS.md`
 
-**NEGATIVE — `B1907`** (1780 words, 0 locks)  
-THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  
-`B1907_the_physical_lanes_two_sealed_packets_refused_as_sealed/FINDINGS.md`
+**NEGATIVE — `B1918`** (778 words, 0 locks)  
+B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.  
+`B1918_the_channel_norm_is_not_the_l_functions_coefficient_at_a_point_or_on_average/FINDINGS.md`
 
 **RETRACTED — `B1181`** (446 words, 0 locks)  
 RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83 -- the method was orientation-blind. ORIGINAL CLAIM AS ASSERTED: THE AMPHICHIRALITY DEBT CLOSED (cc3 a0a349ef, harvested same-day as the B8147 retraction it completes). The one residue B1180 flagged -- family-wide amphichirality at the corrected >=83 family, UNCHECKED -- is now CHECKED BY cc3: 83 OF 83 AMPHICHIRAL, zero exceptions, zero undecided; SPOT-VERIFIED on this bench 5/5 by the reliable mirror-isometry method (m004, s955, o10_150700 the H1-killer, o10_150684 a cusp-shape carrier, t12840) -- deliberately NOT the isometry_signature route (the B1163-era vacuity trap). cc3's typing adopted: 'the claim was right in SUBSTANCE and wrong only in its COUNT -- the opposite failure mode from the separators, where the substance died with the count.' CONSEQUENCE: B1163's family-wide W0 obstruction upgrades verified-4-of-14 -> 83-OF-83; there is no sibling among 82 that supplies what m004 withholds -- the no-sibling-escape conclusion is far more robust than either seat had it (the closure line appended to B1163's B8147 addendum; B1180's FINDINGS written with the closure folded in). THE INSTRUMENT NOTE REGISTERED AS A sec-G METHOD-LAW ROW (LAW_MAP: THE ONE-WAY FAMILY TEST; method-laws live in sec-G, not the theorem registry, hence creates_law=false): enlarging an enumerated family can only HURT object-level claims (more members can share the property -- how both separators died) and only HELP family-level claims (more members exhibit it -- how amphichirality strengthened); 'the retraction and the confirmation are the same computation pointed in opposite directions'; corollary discipline: A FAMILY IS A CLAIM, NEVER A SETTING. Residue: the family's membership-criterion definition (all-regular vs trace-field, already relayed to cc3). Gate 5 clean.  

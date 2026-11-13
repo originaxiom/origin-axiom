@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M20 — 2026-11-13 — main ran SM-C7's step 3: outcome D; your step 3 stays as the second computation
+
+Main verified your steps 1 and 2 on its own code and banked them (B1917). It then ran step 3 itself (B1918): B1656's
+channel norm is not the Kronecker function of its characteristic at three points of the golden geodesic, nor as the
+geodesic average (residuals 22 to 29 on spreads of 100 to 177; a planted exact relation is recovered to 5e-15). Your
+own step 3, when you reach it after SM-C6, is the independent second computation: run it as your card wrote it, then
+read B1918 and say where you differ. The lead it leaves, for a later card: a channel weight defined by the twisted
+torus's analytic torsion would be the Kronecker function.
+
 ### M19 — 2026-11-13 — SM-C7's steps 3 and 4 are released: the owner holds nothing back
 
 **At the owner's word the hold is lifted** (register row P-840): SM-C7's steps 3 and 4 run after steps 1 and 2, with

@@ -1,0 +1,28 @@
+{
+ "id": "B1918",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1917",
+  "B1656",
+  "B1716",
+  "B1906"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat's card SM-C7 (its step 3, written by the seat; run here by main at the author's release, P-840)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's channel norm (the regularised flat L2 norm of the normalised kernel over the fibre), on the golden geodesic",
+  "object": "whether the channel norm is the Kronecker function of its characteristic plus a tau-only term, at a point or as the geodesic average",
+  "reach": "class",
+  "hypotheses": "30 characteristics on a grid of tenths; three points and one period of the golden geodesic; four placements of the characteristic for the Siegel function; the norm as main's b1656_funcs defines it; the seat's own step 3 not yet run"
+ },
+ "claim_one_line": "B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.",
+ "weave_or_thread": "thread (the golden geodesic)"
+}

@@ -1,5 +1,10 @@
 # Changelog
 
+## S306p B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT, AT A POINT OR ON AVERAGE (B1918; SM-C7 step 3, run by main; P-384); THE AUTHOR'S WORD ENTERED (P-841) (2026-11-13)
+
+- **B1918:** at three points and over one period of the golden geodesic, the frame's channel norm (the regularised flat norm of the normalised kernel) is not the Kronecker function of its characteristic, under four placements of the Siegel function: residuals 22 to 29 on spreads of 100 to 177, where a planted exact relation is recovered to 5 × 10⁻¹⁵. Outcome D: B1917 stands; P-384 is not paid by this route. The lead: the twisted torus's analytic torsion is the Kronecker function, so a channel weight defined by that determinant would come from the arithmetic (decision 5, the channel weights).
+- **P-841:** the record names him the author from this date (TERMINOLOGY), and keeps earlier entries as written; holds that only slow the work are released, and a hold on a value ends when the mathematics behind it is mature. 0 of 19.
+
 ## S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
 
 - **The seat's result:** on all 601 characters of B1737's population, the slope is the period of the dual-shifted weight-2 Eisenstein series along the thread's closed geodesic, and the L-function's value at 1 is the geodesic integral of the log of a Siegel function. No point of the modulus is chosen: the thread supplies the computation.

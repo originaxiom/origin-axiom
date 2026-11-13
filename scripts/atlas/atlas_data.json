@@ -16872,6 +16872,19 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1918": {
+   "slug": "the channel norm is not the l functions coefficient at a point or on average",
+   "motifs": [
+    "coupling",
+    "golden",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "open",
+   "domain": "arithmetic"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [

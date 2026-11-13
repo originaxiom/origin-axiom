@@ -20124,3 +20124,9 @@ seat's check. Six are left.
 **What happened.** A helper session tested an idea the project had parked weeks ago: that the "slope" (a number that governs how the object's sectors are counted) and the kind of quantity the physics formula uses for couplings are two readings of a single classical number-theoretic function, taken along the path the object's own motion traces. On all 601 cases the identity holds. Main checked it independently with its own code (and caught two mistakes in its own first attempts before relying on them). The notable point is that no free parameter is chosen anywhere: the object's own path supplies everything. Whether the physics formula's actual quantity is exactly this one is the next test.
 
 0 of 19.
+
+## 2026-11-13 — The coupling formula's weight is not the classical function (S306p)
+
+**What happened.** Main ran the next step of the helper session's test itself: is the quantity the physics formula actually uses for its coupling weights the same classical function found in the previous result? It is not, neither at any single point nor on average; the test was built so that it would have detected an exact match, and it did not find one. This closes one hoped-for route to removing a free choice, but it points to a better-defined one: a closely related quantity (a regularised determinant) is exactly that classical function, so if the coupling weights were defined through it, the numbers would come from the object's own arithmetic. The author also asked to be called the author, not the owner, and said holds should end once the mathematics behind them is mature; both are recorded.
+
+0 of 19.

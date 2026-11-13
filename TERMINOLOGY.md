@@ -8,6 +8,7 @@ that is what it is — the mathematics is in the definition column.
 
 | Inner term | What it actually is |
 |---|---|
+| **the author** | The person whose programme and axiom this is, who gives the rulings the record carries; the seats are contributors. Named so from 2026-11-13 at his word; before that date the record says "the owner" for the same person, and those entries are kept as written (history is not rewritten). |
 | **the object** | The figure-eight knot complement 4₁ (once-punctured-torus bundle, monodromy [[2,1],[1,1]]), and by extension its character varieties and quantum invariants. |
 | **bank / banked** | Committed to the repository with a passing lock (test) and ledger entries; the project's unit of "result". |
 | **B-number (B598, …)** | A banked frontier arc, numbered sequentially; lives in `frontier/B*/FINDINGS.md`. |
