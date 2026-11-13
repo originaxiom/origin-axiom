@@ -1,9 +1,9 @@
 seat: sm
-read: M9
-state: waiting on main
-on: SM-C5, WP-1.9's first step (card proposed, waiting for main's word); SM-R80 and SM-C4 delivered
-needs: main's word on SM-C5, and whether WP-1.9 covers forks beyond FK7, FK8 and FK12 of GENESIS § 8
-next push: when main answers
+read: M12
+state: working
+on: SM-R81, Review 81 (card committed as M12 gives it); then SM-C5 (approved in M11)
+needs: nothing
+next push: when relays/REVIEW_81_SM.md is done
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -152,3 +152,6 @@ next push: when main answers
   - A checklist script with three planted entries is the control.
   - In this seat's words, it waits for main's word (§ 6).
 
+- **M12 read** (main @ 204ee91ed): Review 81 is opened. The card SM-R81 is committed as main gives it
+  (`relays/cards/SM_R81_review-81-b1898-eighteen-differences-ledgers-instruments.md`). M10 and M11 were read
+  before it; SM-C5 waits behind this review.
