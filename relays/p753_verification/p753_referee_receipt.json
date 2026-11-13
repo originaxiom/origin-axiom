@@ -32,8 +32,9 @@
     },
     "kpi_minus_total": 112,
     "order_2O": 48,
+    "order_2O_float_matches_exact": true,
     "order_St": 16,
-    "pauli_clifford_scrambled_S_theta_err": 1.7377739072730912e-15
+    "pauli_clifford_scrambled_S_theta_err": 1.790180836524724e-15
   },
   "check3_qseries_and_scrambled_cocycle": {
     "even_Z24_twist_orders": [
@@ -42,19 +43,94 @@
       72,
       144
     ],
-    "odd_m3_Sym2_Weil2_bar_intertwiner_err": 3.2864289324620454e-15,
+    "exact_odd_m3_center_order_cyc24": 4,
+    "exact_odd_m3_order_cyc24": 96,
+    "exact_weil2_order_cyc24": 96,
+    "odd_m3_Sym2_Weil2_bar_intertwiner_err": 1.0778315928076987e-15,
     "qseries_leading_coeff_quadrature_err": 1.9344496097746348e-16,
-    "scrambled_S_T_fourth_plus_I_err": 1.8054712645370123e-15,
+    "scrambled_S_T_fourth_plus_I_err": 2.2215662823846218e-15,
     "scrambled_center_order": 4,
     "scrambled_order_G_T": 96,
     "scrambled_order_G_V": 96,
     "untwisted_Sym2_Weil2_order": 48
   },
   "check4_cauchy_contour_pole_filtration": {
-    "chi11_2p_pole_filtration_err": 1.4705712016368324e-32,
+    "chi00_aslot_joint_commutant_dim": 2,
+    "chi00_l2_eig_err": 2.7755575615628914e-16,
+    "chi11_2p_pole_filtration_err": 4.6545880115629205e-42,
+    "chi11_aslot_joint_commutant_dim": 2,
+    "chi11_l2_eig_err": 2.54423101377102e-16,
     "filtration_and_swap_verified": true,
-    "trivial_O2p_pole_filtration_err": 2.23593335362109e-37,
-    "vector_six_S2_S4_swap_err": 3.3644611527751946e-36
+    "physical_s_minus3_offdiag_shear_err": 2.3696454739425745e-38,
+    "szego_odd_parity_err": 0.0,
+    "trivial_O2p_pole_filtration_err": 6.78599992410032e-42,
+    "vector_six_S2_S4_swap_err": 5.133760303917228e-41,
+    "vector_six_aslot_joint_commutant_dim": 1
+  },
+  "check5_z4_so5_and_3branch_half_form_orders": {
+    "comp_group_124d_order": 16,
+    "end_9d_commutant_dim": 4,
+    "exact_cyc24_intertwiners_verified": true,
+    "exact_cyc24_orders_match_float": true,
+    "hom_phi_sp_to_a_sp": 0,
+    "hom_weave_conj_to_a_sp": 1,
+    "hom_weave_to_a_sp": 0,
+    "hom_weave_to_phi_sp": 1,
+    "max_cyc24_snap_err": 9.155133597044475e-16,
+    "mode_commutant_dims": {
+      "a_dp_S_minus3": 1,
+      "a_sp_S_minus3": 1,
+      "psi_spin_S1": 2
+    },
+    "orders_3branch_by_mode": {
+      "a_dp_S_minus3": 288,
+      "a_sp_S_minus3": 96,
+      "phi_sp_S5": 96,
+      "proxy_1form": 24,
+      "psi_spin_S1": 72
+    },
+    "pairwise_hom_dims": {
+      "a_dp_vs_psi_spin": 0,
+      "a_sp_vs_a_dp": 0,
+      "a_sp_vs_psi_spin": 0
+    },
+    "proxy_b3_stabilizer_L2_S": [
+      -1,
+      -1
+    ],
+    "s4_signs_by_mode": {
+      "a_dp_S_minus3": -1,
+      "a_sp_S_minus3": -1,
+      "phi_sp_S5": -1,
+      "proxy_1form": 1,
+      "psi_spin_S1": -1
+    },
+    "unbroken_so5_dim_h1": 10,
+    "z4_kernel_order": 4,
+    "z4_kernel_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  "metadata": {
+    "platform": "Darwin-x86_64",
+    "producer_sha256": "1bb0592ec36e1907645c061fc720db3ab0d38d0f655a353139cf2c5791fd3fad",
+    "python_version": "3.12.1",
+    "referee_sha256": "2bdcd3c33a1042e8aaf843d3c14d4e3af102becf286c5a7fa4c4ea2b36268d58"
   },
   "zero_producer_imports": true
 }
