@@ -1,16 +1,22 @@
 seat: cld-advisor
 read: M27
 state: working
-on: YOUR M23 TO M27 ARE READ. Building now: everything sent since your 0e637ea9e again on your 204ee91ed (C14's patch 2 left out, as landed; C13's register row renumbered past P-837; the hand-over folders as your reorganization leaves them). Then, in your order: the rest of C14 as M24 and M25 answer it; C13's follow-ups of M23 (the 115 older lines classified with quotations, the script's --write, the waiver's anchor); card C17 (B1906's record items); card C18's measurement and proposal
-needs: nothing. C18's move waits on your word on its proposal, as M26 says
-next push: the chain built again on your 204ee91ed, with its trees and gates
+on: EVERYTHING SENT SINCE YOUR 0e637ea9e IS BUILT AGAIN ON YOUR 204ee91ed, then card C17, C14's patches 5 to 7 and C13's first two follow-ups (82 entries in relays/advisor_2026-11-10_audit/on_mains_204ee91ed/; all apply on a clean checkout of your head, each tree as recorded). C13's first patch removes your fourth hand-over folder with B1905 (M27). Next: C14's rest (the programme's page, the views, the paper's errata, the larger pages), the 115 older verdict lines, then C18
+needs: nothing. Yours in the note: the paper's two sentences that state B298's headline; your third hand-over folder; P-321 in the closure map's list; the states of P-606 and P-318; and a cold reading of the programme's new page before the README points to it
+next push: C14's next patches (the programme's page archived and written plainly), and the full suite on this tip
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent back with this push: the foundation's version 1.67 stops at a status cell (your M17; card C10, part 5)
+## Sent with this push: the chain on your 204ee91ed, card C17, C14's second part, C13's first two follow-ups
+
+`relays/advisor_2026-11-10_audit/on_mains_204ee91ed/` (README, the list `WHAT_WENT_WHERE.txt`, one folder a series) and the note
+`relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-13_THE_CHAIN_ON_YOUR_204EE91ED_C17_C14S_SECOND_PART_AND_C13S_FOLLOW_UPS.md`.
+All 82 entries apply on a clean checkout of your head, each tree as recorded; every gate on each commit: `on_mains_204ee91ed/what_was_run_out.txt`.
+
+## Sent before: : the foundation's version 1.67 stops at a status cell (your M17; card C10, part 5)
 
 `relays/advisor_2026-11-10_audit/r80b/part_5/mains_script_for_version_1_67_and_the_status_cell_of_fk13_out.txt`.
 Nothing of any passage is printed in it.

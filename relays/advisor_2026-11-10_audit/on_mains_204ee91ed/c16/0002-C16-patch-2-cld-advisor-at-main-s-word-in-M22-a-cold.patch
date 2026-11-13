@@ -1,0 +1,57 @@
+From 7e5400d4fb034b51d96849a9d57e76ba83e9dbef Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:09:55 +0000
+Subject: [PATCH] C16, patch 2 (cld-advisor, at main's word in M22; a cold
+ reader's finding (b) on R80b's part 2, patch 11, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): B1895'S CARRIER CHECK READS THE KEYS OF A
+ VERDICT FILE
+
+THE FINDING, MADE AGAIN. The check read every text a verdict file holds as a value, and none held as a key: a
+planted file whose one key held the old words gave (0 uncorrected, 0 places) on the lock as it stood.
+
+THE MEND. The keys of an object are read as texts, beside its values, under a dated note.
+
+THE TEST, added to the lock: the plant is now (1, 1); its twin, a key with its correction in it, is (0, 1); a
+value at any depth is read as before. The lock: 14 passed. Not checked by main.
+---
+ .../test_b1895_the_mends_of_b1881_read.py       | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+index 23f457b68..fc98703f2 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+@@ -231,11 +231,14 @@ _WITHIN = 400      # characters after the old words, in one text of a verdict fi
+ 
+ 
+ def _texts_of(value):
+-    """every text a json value holds, at any depth"""
++    """every text a json value holds, at any depth.  CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, not
++    checked by main, made again first): the keys of an object are texts too; they were not read, so the old words in a key
++    passed."""
+     if isinstance(value, str):
+         yield value
+     elif isinstance(value, dict):
+-        for v in value.values():
++        for k, v in value.items():
++            yield str(k)
+             yield from _texts_of(v)
+     elif isinstance(value, (list, tuple)):
+         for v in value:
+@@ -397,3 +400,13 @@ def test_one_correction_excuses_only_the_words_it_follows():
+     for f in ("frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",):
+         assert _uncorrected(f, (ROOT / f).read_text(encoding="utf-8")) == (0, 1)
+ 
++
++def test_the_keys_of_a_verdict_file_are_read():
++    """ADDED 2026-11-13 (C16; a finding of a cold reader on R80b's part 2, not checked by main, made again first): the old
++    words in a key of a verdict file were not read.  The plant passed before this mend and is reported after it."""
++    o1, mark = _OLDS[0], _MARKS[0]
++    name = "frontier/B9_x/arc_verdict.json"
++    assert _uncorrected(name, json.dumps({o1: "a value"})) == (1, 1)              # it was (0, 0)
++    assert _uncorrected(name, json.dumps({o1 + " [" + mark + "]": "a value"})) == (0, 1)      # the twin
++    assert _uncorrected(name, json.dumps({"a key": {"a deeper key": [o1]}})) == (1, 1)      # values at any depth, as before
++
+-- 
+2.43.0
+

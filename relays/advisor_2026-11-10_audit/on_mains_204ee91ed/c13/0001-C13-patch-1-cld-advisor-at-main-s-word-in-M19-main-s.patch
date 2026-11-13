@@ -1,0 +1,645 @@
+From 28b0aa494cadbdbc32a6868d90106a4dfda229f8 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:06:45 +0000
+Subject: [PATCH] C13, patch 1 (cld-advisor, at main's word in M19; main's
+ fourth folder, items 1 and 2): THE RECORD READ FOR SELECTION AND CHIRALITY IS
+ THE ARC B1905, WITH ITS LOCK, AND MAIN'S RULE IS IN THE WORKING RULES
+
+Main read the record for what it settled on selection and on chirality, and wrote the arc's page, its verdict
+file, its rows, its lists and its script. This patch places them as the arc, as the arcs before it, and
+writes the lock. THE PAGE, THE VERDICT LINE, EVERY NUMBER AND THE RULE ARE MAIN'S, AND NONE IS REWORDED. The
+classes in the rows are the readers', one reader an arc; nothing here checks them.
+
+WHAT IS PLACED. frontier/B1905_selection_and_chirality_across_the_record/: main's page and verdict file from
+its drafts, byte for byte; under verification/, main's rows, its lists of arcs, its script, its kept table
+and its kept run, byte for byte. The folder main handed over keeps its copies. The rule, in main's words from
+that folder, is a new section at the end of WORKING_RULES.md. The status page has a line for the arc, made of
+the verdict line's own sentences.
+
+THE LOCK, ten tests.
+  - The rows and the lists are the files main gave, by their digests, and are the same files as in the
+    folder main handed over.
+  - The tables are what main's script makes of the rows; the kept table says the same, and the kept run
+    gives the same numbers.
+  - EVERY NUMBER OF THE PAGE AND OF THE VERDICT LINE STANDS IN A SENTENCE THAT IS BUILT FROM THE ROWS, and
+    the sentence is looked for: 30 sentences, among them the fifteen rows of the page's two tables, the
+    counts of the sweep, the counts of the split by words, the seven pairs, and the verdict line's walls and
+    shares. A digit alone is held nowhere.
+  - The 1,644 arcs are counted at the commit the readers read.
+  - Every quotation is looked for at that commit, by main's own function: 547 of 547, controls 0, as main
+    kept. WHERE THE COMMIT IS NOT IN THE CLONE the test is skipped and says so in capitals, and a test that
+    needs no commit holds that the kept table was made with it.
+  - Main's two plants fail. A quotation changed: the digest sees it, and main's function names the arc. A
+    class changed (one arc moved from the first wall to the second): the digest, the tables, and the
+    sentences of the page and of the verdict line each see it. A number changed on the page or in the line,
+    with the rows as they are, is seen too.
+  - The rule's section in the working rules is main's by its digest, and is the block of main's folder.
+
+The lock runs none of main's script as a process. The script writes its kept table at every run; the lock
+reads the script, compiles it without an import and calls its functions, so a test leaves the checkout as
+it found it.
+
+MADE AGAIN BEFORE IT WAS PLACED, as the card asks: every number of the page and of the verdict line comes
+out of the rows as main states it. Nothing differed.
+
+WHAT GOES BACK TO MAIN (it is in the series' note as well).
+  1. The page's table of walls gives five of the eight classes. The three it leaves out (a scale or
+     hierarchy, 17; an identification borrowed, 28; other, 32) hold 77 of the 511. The heading says 511 and
+     the table's rows sum to 434. The page is not touched.
+  2. 184 of the 636 rows give no date.
+  3. The verdict is PROVED for a reading of the record; that is main's.
+  4. Main's script writes its kept table at every run. Whether it writes on request only is main's.
+
+Every gate passes but the count of landings, which is past 40 on this base. The lock, the test of verdict
+files and the 16 test files that read the working rules or the status page: 1,718 passed. Built on main's 1e8ef44de with
+R80b's parts 2 to 5 built again there. Not checked by main. Tested against planted errors by the session
+that wrote the lock.
+
+THE HAND-OVER FOLDER LEAVES THE TREE WITH ITS ARC (main's M27): docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/ is removed
+in this patch, and docs/REORGANIZATIONS.md's entry of 2026-11-13 says so in a line. Its files are in git's history at
+9c8a50887, the commit the entry names. B1905's lock compared its rows, lists, script and rule with main's copies in the
+folder; it now reads them there, with git show, and holds that the folder is gone. The move script's check says the tree
+is as moved.
+---
+ README.md                                     |   2 +-
+ WORKING_RULES.md                              |  15 ++
+ docs/CAMPAIGN_STATUS.md                       |   2 +
+ docs/REORGANIZATIONS.md                       |   3 +
+ .../MAIN_TO_BUILDER_2026-11-12_D/README.md    |  63 -----
+ docs/views/CONTEXT_RECOVERY.md                |   8 +-
+ docs/views/COVERAGE.md                        |   6 +-
+ docs/views/REVIEWER.md                        |   8 +-
+ docs/views/VERDICT_LEDGER.md                  |   5 +-
+ .../FINDINGS.md                               |   0
+ .../arc_verdict.json                          |   0
+ .../verification/arcs_by_title.json           |   0
+ .../verification/rows.json.txt                |   0
+ .../verification/sweep_tables.json            |   0
+ .../verification/sweep_tables.py              |   0
+ .../verification/sweep_tables_run.txt         |   0
+ ...lection_and_chirality_across_the_record.py | 238 ++++++++++++++++++
+ scripts/atlas/atlas_data.json                 |  22 ++
+ 18 files changed, 295 insertions(+), 77 deletions(-)
+ delete mode 100644 docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/README.md
+ rename docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/FINDINGS_draft.md => frontier/B1905_selection_and_chirality_across_the_record/FINDINGS.md (100%)
+ rename docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/arc_verdict_draft.json => frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json (100%)
+ rename {docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality => frontier/B1905_selection_and_chirality_across_the_record}/verification/arcs_by_title.json (100%)
+ rename {docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality => frontier/B1905_selection_and_chirality_across_the_record}/verification/rows.json.txt (100%)
+ rename {docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality => frontier/B1905_selection_and_chirality_across_the_record}/verification/sweep_tables.json (100%)
+ rename {docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality => frontier/B1905_selection_and_chirality_across_the_record}/verification/sweep_tables.py (100%)
+ rename {docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality => frontier/B1905_selection_and_chirality_across_the_record}/verification/sweep_tables_run.txt (100%)
+ create mode 100644 frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
+
+diff --git a/README.md b/README.md
+index a54b29883..012911b8f 100644
+--- a/README.md
++++ b/README.md
+@@ -21,7 +21,7 @@ nothing in this block is typed by hand.*
+ |---|---|
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+ | the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
+-| arcs with a verdict | 1606: 1111 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
++| arcs with a verdict | 1607: 1112 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+ | points in the register | 838: 307 open (queued work, leads, and questions not yet decided), 531 closed |
+ | the last review | Review 80 (2026-11-12), anchor `c40446392` |
+ | the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
+diff --git a/WORKING_RULES.md b/WORKING_RULES.md
+index 3dcfea177..18321500b 100644
+--- a/WORKING_RULES.md
++++ b/WORKING_RULES.md
+@@ -562,3 +562,18 @@ Ruled by the owner on 2026-11-11: his messages are private, and a ruling of his
+ the sessions are named as main proposed (P-797): a seat's name is an address, not an author and not an authority, and
+ what is written about a result is how it was checked. The words for that are in `TERMINOLOGY.md`.
+ 
++## Rule (2026-11-12, after the owner's question on selection and his point on the record's walls — adopted): BEFORE A SELECTION OR A HAND IS CLAIMED
++
++1. **Name the wall** from the ledger of walls, and read its row: where it was first met, what is proved
++   impossible, what was tried by which kind of principle and how it ended. A question of a known shape is met
++   with its history first.
++2. **Say what the computation declares** (which moves, which range, which measure) and run it again with each
++   declaration changed. If the answer moves, the result is about the declaration (register row P-831).
++3. **A selection is claimed only by a criterion that can fail,** and the page says which of the two families
++   that have ever forced anything here it belongs to (B1204): a finite classification with a test of membership,
++   or a consistency condition that a candidate can violate. A symmetry the admissible class already satisfies,
++   an extremum, a flow or a measure is not a selection by itself; on the record (B1905) a measure has settled no
++   question of this kind and an extremum a quarter of those it was asked.
++4. **No hand is derived on the record.** A page that writes that the orientation is chosen, forced or picked
++   says where it comes from: outside the object (a filling, a chosen sign, a second object), or a new mechanism
++   with its failable test.
+diff --git a/docs/CAMPAIGN_STATUS.md b/docs/CAMPAIGN_STATUS.md
+index 9ca23e7cd..d399a282f 100644
+--- a/docs/CAMPAIGN_STATUS.md
++++ b/docs/CAMPAIGN_STATUS.md
+@@ -2,6 +2,8 @@
+ 
+ > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
+ 
++**LATEST (2026-11-12, S306p: THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE LESSON OF AUGUST 2026 (B1204, B1225) WAS IN NO GOVERNING PAGE (B1905; P-831).** 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a uniqueness theorem, arithmetic or a census. By kind of principle, the share of arcs that settled the question they asked: uniqueness 56%, symmetry 40%, a read-out 38%, census 34%, arithmetic 32%, an extremum 24%, consistency 22%, dynamics 16%, a declared choice 10%, a measure 0%. The classes are the readers' and are not independently checked. The arc was built as a patch by the building session from main's draft, rows and script (its card C13); the page, the numbers and the rule are main's. The rule is in the working rules with it: before a selection or a hand is claimed. 0 of 19.
++
+ **LATEST (2026-11-13, S306p: THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED A PERSON ARE IN PLAIN WORDS (B1904; Review 80, the web seat's finding 7).** Built as a patch by the building session from main's seven pairs of passages, which stand in B1898 as main wrote them; the version line reads 1.67 and the list of versions has its entry. No item is added and no status changes. One status cell's account changes, FK13's, and not its label: the locks of versions 1.65 and 1.66 compare a row a version names by its label, as main's answer of 2026-11-12 asks.
+ 
+ **LATEST (2026-11-12, S306p: REVIEW 80 ENTERED (B1898; P-833, P-834).** 100 findings on main's work since Review 79, in four readers' files and one dated addition. Main checked 80 in full and all 80 held; 3 in part; 17 nobody but their reader has looked at. The first 43 are mended on main or with the builder of the enforcement package; of the other 57, 16 are mended or noted and 41 wait to be built. The entry and the arc were built as a patch by the building session from main's tables and checks (P-832) and mend nothing. Its anchor is `c40446392`. None of Review 79's eighteen items is resolved; five are at their third carry and wait for main's or the owner's word (R80-21). The gates catch 24 of 37 planted faults on the commit read. 0 of 19.
+diff --git a/docs/REORGANIZATIONS.md b/docs/REORGANIZATIONS.md
+index 487df75c7..92e05b0ea 100644
+--- a/docs/REORGANIZATIONS.md
++++ b/docs/REORGANIZATIONS.md
+@@ -11,6 +11,9 @@ by a script, with the locks migrated in the same commit, and entered here. Newes
+ - **Removed:** 289 files under `docs/handoffs/`, every note and hand-over between sessions there, as of the commit below.
+ - **Kept:** main's four hand-over folders of 2026-11-12, which the building session is still turning into arcs; each leaves
+   the tree when its arcs have landed, by an entry here.
++- **Left the tree with its arc, 2026-11-13:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/`, main's fourth folder, in the
++  patch that lands B1905 (the building session's card C13, patch 1); its files are at the commit below, and B1905's
++  lock reads main's copies there.
+ - **Kept where it is:** `docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/run_main_bench.json`, which B1487's floor check
+   reads at that path; the script is under B1487's seal and cannot be edited, so the file stays.
+ - **Where they are now:** in git's history. The line below is read by the path check: a citation of a removed file resolves
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/README.md b/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/README.md
+deleted file mode 100644
+index 8945a675a..000000000
+--- a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/README.md
++++ /dev/null
+@@ -1,63 +0,0 @@
+-# Main to the builder, 2026-11-12, fourth folder: the record read for selection and chirality (card C13)
+-
+-*Main, 2026-11-12 (S306p), at the owner's point of the same evening and his word that it be the priority and that its
+-record-keeping go to this seat. 0 of 19.*
+-
+-## What is here
+-
+-`b1905_selection_and_chirality/`: main's draft of the arc **B1905** and everything it rests on.
+-
+-| file | what it is |
+-|---|---|
+-| `FINDINGS_draft.md` | the page, main's words; to become `FINDINGS.md` |
+-| `arc_verdict_draft.json` | the verdict file; scope as four strings; to become `arc_verdict.json` |
+-| `verification/rows.json.txt` | 636 rows, one an arc, written by six read-only readers, one reader an arc |
+-| `verification/arcs_by_title.json` | the topic sweep's lists: 354 on selection, 443 on chirality, 636 in the union |
+-| `verification/sweep_tables.py` | main's script: checks the 13 keys, every quotation at the commit the readers read (`a15516d43`) with a control, and makes the tables. Its `ROOT` is `parents[2]`, right once the folder is `frontier/B1905_.../verification/` |
+-| `verification/sweep_tables.json` | its kept output: 547 of 547 quotations found, controls 0 |
+-
+-## What main asks (card C13)
+-
+-1. **The arc B1905,** from the draft, as the arcs before it: page, verdict file, the script and its run, and a lock.
+-   The lock holds the rows by the digest of their file; the tables against the rows; the page's and the verdict
+-   line's numbers BY THEIR SENTENCES (not by digits; Review 80's lesson); the quotations at the commit read, saying
+-   aloud where that commit is not in the clone; and two plants that must fail (a changed quotation; a changed class).
+-2. **The rule,** main's words, into `WORKING_RULES.md` with the arc, as a new section after the last:
+-
+-   > ## Rule (2026-11-12, after the owner's question on selection and his point on the record's walls — adopted): BEFORE A SELECTION OR A HAND IS CLAIMED
+-   >
+-   > 1. **Name the wall** from the ledger of walls, and read its row: where it was first met, what is proved
+-   >    impossible, what was tried by which kind of principle and how it ended. A question of a known shape is met
+-   >    with its history first.
+-   > 2. **Say what the computation declares** (which moves, which range, which measure) and run it again with each
+-   >    declaration changed. If the answer moves, the result is about the declaration (register row P-831).
+-   > 3. **A selection is claimed only by a criterion that can fail,** and the page says which of the two families
+-   >    that have ever forced anything here it belongs to (B1204): a finite classification with a test of membership,
+-   >    or a consistency condition that a candidate can violate. A symmetry the admissible class already satisfies,
+-   >    an extremum, a flow or a measure is not a selection by itself; on the record (B1905) a measure has settled no
+-   >    question of this kind and an extremum a quarter of those it was asked.
+-   > 4. **No hand is derived on the record.** A page that writes that the orientation is chosen, forced or picked
+-   >    says where it comes from: outside the object (a filling, a chosen sign, a second object), or a new mechanism
+-   >    with its failable test.
+-
+-3. **The ledger of walls,** a generated page among the views, named for the walls, with its generator and a
+-   lock: one row a wall (the eight classes of the rows); for each, the arc where it was first met, the arcs that
+-   prove a route impossible, the attempts by kind of principle with how each ended, and the arcs whose question was
+-   found to be wrong. Its content is the rows of B1905, and it is made again when a row is added.
+-4. **The sweep prints the wall:** `scripts/checks/topic_sweep.py` prints the ledger's row of any wall whose words
+-   the expression matches, before its own list.
+-5. **A gate on a verdict line that claims a selection** ("selects", "picks", "singles out", "forced" with a value or
+-   a member as its object): it asks that the page name the family of rule 3, or the arc is reported. With planted
+-   cases both ways.
+-
+-Main checks each patch; agy-002 reads the series cold; then main lands it. Register: the owner's point is a dated
+-addition to row P-831 (main's, in this commit); the series adds a row of its own for the ledger.
+-
+-## What main keeps
+-
+-The mathematics. Main first asked whether a consistency condition that can fail exists for the hand, as the anomaly
+-conditions were for the hypercharge. Read against the record before it was taken up as new (the rule above, step 1):
+-such conditions exist (B1674, B1296, B1340, B864), and at the object's symmetric points each forbids a hand. The
+-draft's § 4 and § 5 item 4 now say so. The question main takes up is the one that leaves: which symmetry must be
+-absent for a hand to be allowed, and whether its absence follows from the object. It is asked of the paired current
+-pole first (P-749 (e)).
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 8d250e7c0..9c1273fa8 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -13,8 +13,8 @@
+ 
+ | what | count |
+ |---|---|
+-| arcs with a verdict file | 1606 |
+-| … PROVED | 1111 |
++| arcs with a verdict file | 1607 |
++| … PROVED | 1112 |
+ | … NEGATIVE | 384 |
+ | … OPEN | 99 |
+ | … RETRACTED | 12 |
+@@ -36,13 +36,13 @@
+ | B1908 | OPEN | THE TUBE AT k = 3 (P-739; R80-9): WHY THE MESHER STOPPED IS FOUND, AND ITS VALUE IS NOT RESOLVED AT THESE GRIDS. B1847's search for the fibre's monodromy looks for entries between -40 and 40; at k = 3 the monodromy is [… |
+ | B1907 | NEGATIVE | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mat… |
+ | B1906 | PROVED | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one… |
++| B1905 | PROVED | SELECTION AND CHIRALITY ACROSS THE WHOLE RECORD: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE RECORD HAD DRAWN THE LESSON IN AUGUST 2026 (B1204, B1225) AND ONE OF THE TWO ARCS IS IN NO GOVERNING PAGE. 636 of 1,644 arcs… |
+ | B1904 | PROVED | THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS, NO ITEM ADDED AND NO STATUS CHANGED. One of the seven stood in the status cell of row FK13, in the bracket after its label: the ac… |
+ | B1898 | PROVED | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). M… |
+ | B1897 | PROVED | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted… |
+ | B1896 | PROVED | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what… |
+ | B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (a reading of main at 87bfa1f05 by a session that did not write them, 4 of 4 quotations foun… |
+ | B1894 | PROVED | REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete… |
+-| B1893 | PROVED | THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledg… |
+ 
+ ## Waiting for the owner (register rows with disposition OWNER)
+ 
+@@ -64,7 +64,7 @@
+ 
+ ## The latest campaign line
+ 
+-LATEST (2026-11-13, S306p: THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED A PERSON ARE IN PLAIN WORDS (B1904; Review 80, the web seat's finding 7).** Built as a patch by the building session from main's seven pairs of passages, which stand in B1898 as main wrote them; the version line reads 1.67 and the list of versions has its entry. No item is added and no status changes. One status cell's account changes, FK13's, and not its label: the locks of versions 1.65 and 1.66 compare a row a version names by its label, as main's answer of 2026-11-12 asks.
++LATEST (2026-11-12, S306p: THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE LESSON OF AUGUST 2026 (B1204, B1225) WAS IN NO GOVERNING PAGE (B1905; P-831).** 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a un…
+ 
+ ## Completeness (nothing skipped silently)
+ 
+diff --git a/docs/views/COVERAGE.md b/docs/views/COVERAGE.md
+index 2bff80600..43467f7ad 100644
+--- a/docs/views/COVERAGE.md
++++ b/docs/views/COVERAGE.md
+@@ -10,8 +10,8 @@ view can quietly imply completeness it does not have.
+ 
+ | layer | count | of | share |
+ |---|---|---|---|
+-| arcs with `FINDINGS.md` | **1606** | — | 100 % |
+-| arcs with an authored verdict (W1) | **1606** | 1606 | 100.0 % |
++| arcs with `FINDINGS.md` | **1607** | — | 100 % |
++| arcs with an authored verdict (W1) | **1607** | 1607 | 100.0 % |
+ | classified in `kill_graph` | **859** | — | — |
+ | kill records resolving to an arc | **812** | 859 | 95 % |
+ | kill records with no arc directory | **47** | 859 | 5 % |
+@@ -41,5 +41,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
+ | stratum | meaning | count | share |
+ |---|---|---|---|
+ | **A** | explicit `## Verdict` block — directly extractable | 221 | 13.8 % |
+-| **B** | no block, but the title carries the verdict | 1363 | 84.9 % |
++| **B** | no block, but the title carries the verdict | 1364 | 84.9 % |
+ | **C** | neither — genuinely hard, needs a full read | 22 | 1.4 % |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 01e89567a..fc5f216d2 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -19,10 +19,10 @@ result, not the debt.
+ 
+ | | |
+ |---|---|
+-| research arcs with findings | **1606** |
+-| words of findings prose | **1,427,903** |
++| research arcs with findings | **1607** |
++| words of findings prose | **1,429,765** |
+ | test lock files referenced | **944** |
+-| arcs carrying an authored verdict | **1606** (100.0 %) |
++| arcs carrying an authored verdict | **1607** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+ 
+ **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
+@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
+ 
+ | verdict | arcs |
+ |---|---|
+-| PROVED | 1111 |
++| PROVED | 1112 |
+ | NEGATIVE | 384 |
+ | OPEN | 99 |
+ | RETRACTED | 12 |
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index 753949743..315d2e9e9 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -5,10 +5,10 @@
+ 
+ # Arc verdict ledger (generated)
+ 
+-1606 of 1606 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
++1607 of 1607 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+ 
+ 
+-## PROVED (1111)
++## PROVED (1112)
+ 
+ | arc | claim | instrument | locks |
+ |---|---|---|---|
+@@ -1121,6 +1121,7 @@
+ | `B1897` | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted reversions were all caught; a session that did not write it then planted 23 of its own against the lock as it stood at 3c5ab6bef, the eighteen new ones written before it opened the lock: its five earlier plants are caught, twelve of the eighteen are caught, every direct reversion of a mend among them, and six pass. THE SIX leave the mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; the docstring of the script's second function given the withdrawn word, where the lock read the header; the script's counts typed in place of computed, where the lock read the committed file and its scan saw a constant and not a table of constants; the committed run file edited where the lock did not read it; a clause that is not a literal and is always true joined by `or` to two conditions; the sorting of a printed set undone. EACH IS REAL AND EACH IS CLOSED: the lock runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and, under others, to eight digits with the same checks; the mended conditions and one printed detail are held word for word; the scan sees a table of constants and the three counts are held to the expressions that compute them; the function's own docstring is read, and every line of the script and every paragraph of the page that holds the withdrawn word. Made again by main from the reader's descriptions, with the eighteen of B1895: the lock catches 24 of 24, the control passing; 6 of 6 of the reader's quotations found by machine. WHAT IS NOT CLOSED and is said in the lock: a withdrawn claim restated without its word (P-817). WHAT IT SHOWS: a lock tested only by its author is tested against what its author thought of; a lock that reads a committed output does not hold that the script still computes it. The reader is asked to run its own 23 against the lock as it now stands. 0 of 19. | yes | 0 |
+ | `B1898` | REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits) [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING. Its pattern was written for the verdict line as it read before main's mend of the same day, so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails. Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]. The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19. |  | 0 |
+ | `B1904` | THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS, NO ITEM ADDED AND NO STATUS CHANGED. One of the seven stood in the status cell of row FK13, in the bracket after its label: the account is reworded and the label is as it was. The locks of versions 1.65 and 1.66 compare a row that a version names by its label, and this arc's lock holds the cell's new words by their hash. Found by a session that built none of it, checked by main. 0 of 19. |  | 0 |
++| `B1905` | SELECTION AND CHIRALITY ACROSS THE WHOLE RECORD: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE RECORD HAD DRAWN THE LESSON IN AUGUST 2026 (B1204, B1225) AND ONE OF THE TWO ARCS IS IN NO GOVERNING PAGE. 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a uniqueness theorem, arithmetic or a census. By kind of principle, the share of arcs that settled the question they asked: uniqueness 56%, symmetry 40%, a read-out 38%, census 34%, arithmetic 32%, an extremum 24%, consistency 22%, dynamics 16%, a declared choice 10%, a measure 0%. The classes are the readers' and are not independently checked. A rule follows in the working rules. 0 of 19. |  | 0 |
+ | `B1906` | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19. |  | 0 |
+ | `B1910` | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19. |  | 0 |
+ 
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/FINDINGS_draft.md b/frontier/B1905_selection_and_chirality_across_the_record/FINDINGS.md
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/FINDINGS_draft.md
+rename to frontier/B1905_selection_and_chirality_across_the_record/FINDINGS.md
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/arc_verdict_draft.json b/frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/arc_verdict_draft.json
+rename to frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/arcs_by_title.json b/frontier/B1905_selection_and_chirality_across_the_record/verification/arcs_by_title.json
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/arcs_by_title.json
+rename to frontier/B1905_selection_and_chirality_across_the_record/verification/arcs_by_title.json
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/rows.json.txt b/frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/rows.json.txt
+rename to frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables.json b/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.json
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables.json
+rename to frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.json
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables.py b/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables.py
+rename to frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables.py
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables_run.txt b/frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables_run.txt
+similarity index 100%
+rename from docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/b1905_selection_and_chirality/verification/sweep_tables_run.txt
+rename to frontier/B1905_selection_and_chirality_across_the_record/verification/sweep_tables_run.txt
+diff --git a/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py b/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
+new file mode 100644
+index 000000000..9481e6d11
+--- /dev/null
++++ b/frontier/B1905_selection_and_chirality_across_the_record/verification/test_b1905_selection_and_chirality_across_the_record.py
+@@ -0,0 +1,238 @@
++"""B1905 -- the record read for selection and chirality: the lock.
++
++The page, the verdict line, the rows and the script are main's.  The classes in the rows are the readers', one reader an
++arc, and are not checked here or anywhere.  What this lock holds:
++
++  1. the rows and the lists of arcs are the files main gave, by their digests;
++  2. the tables are what main's script makes of the rows, and the kept table and the kept run say the same;
++  3. every number on the page and in the verdict line is stated in a SENTENCE that is built here from the rows, and that
++     sentence stands on the page or in the line (a number held as a digit alone is held nowhere: Review 80's lesson);
++  4. every quotation is found at the commit the readers read.  Where that commit is not in the clone the test is skipped
++     ALOUD, and a test that does not need the commit holds that the kept table was made with it;
++  5. two plants fail: a quotation changed, and a class changed;
++  6. the rule that came with the arc stands in the working rules, in main's words.
++
++Main's script writes its kept table at every run.  This lock runs none of it as a process: it reads the script and calls
++its functions, so that a test leaves the checkout as it found it."""
++import copy
++import hashlib
++import json
++import pathlib
++import re
++import subprocess
++import types
++
++import pytest
++
++HERE = pathlib.Path(__file__).resolve().parent
++ARC = HERE.parent
++ROOT = HERE.parents[2]
++# main's fourth hand-over folder of 2026-11-12 left the tree with this arc (docs/REORGANIZATIONS.md); git has it at the
++# last commit that held the folders between sessions, and the lock reads main's copies there
++HANDED_OVER_AT = "9c8a50887de1288e2c6667a80c0f480f358f88bb"
++HANDED_OVER = "docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/"
++
++
++def _as_handed_over(path):
++    r = subprocess.run(["git", "-C", str(ROOT), "show", "%s:%s%s" % (HANDED_OVER_AT, HANDED_OVER, path)], capture_output=True)
++    assert r.returncode == 0, "git has no %s%s at %s" % (HANDED_OVER, path, HANDED_OVER_AT)
++    return r.stdout
++
++ROWS_AS_MAIN_GAVE_THEM = "610863d00cb3b0abe3aa7109c35e4a6ae3ea88e17c4d2ce4076e6b5dc6e811a8"
++LISTS_AS_MAIN_GAVE_THEM = "9f3221621707023c8d810282a278a511a32aacdc7f7ec4de8b067070462db860"
++THE_RULE_AS_MAIN_GAVE_IT = "7b30300d734133ee30f00b80d095b61e5c77fa05385eb05fa14c176b4685cdf8"
++
++
++def _mains():
++    """main's script, read and compiled without an import, so that no compiled file is left beside it"""
++    p = HERE / "sweep_tables.py"
++    m = types.ModuleType("b1905_sweep_tables")
++    m.__file__ = str(p)
++    exec(compile(p.read_text(encoding="utf-8"), str(p), "exec"), m.__dict__)
++    return m
++
++
++ST = _mains()
++ROWS = ST.load()
++T = ST.tables(ROWS)
++KEPT = json.loads((HERE / "sweep_tables.json").read_text(encoding="utf-8"))
++PAGE = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
++VERDICT = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
++flat = lambda s: " ".join(s.split())
++commas = lambda n: format(n, ",")
++
++# the page's own names for the walls it tabulates and for the kinds of principle (the script's codes are W1.. and A..K)
++WALLS_ON_THE_PAGE = (("W1", "the mirror pair not split"), ("W2", "one member of a family not picked"), ("W3", "a value or modulus not picked"),
++                     ("W4", "a count not forced"), ("W7", "a construction not canonical"))
++WALLS_NOT_ON_THE_PAGE = ("W5", "W6", "W8")
++KINDS_ON_THE_PAGE = (("D", "uniqueness theorem"), ("C", "symmetry"), ("H", "what a read-out can see"), ("B", "census of all that is allowed"), ("F", "arithmetic"),
++                     ("A", "extremum"), ("E", "consistency"), ("G", "dynamics, flow, rate"), ("I", "declared choice"), ("J", "measure, typicality"))
++KINDS_IN_THE_LINE = (("D", "uniqueness"), ("C", "symmetry"), ("H", "a read-out"), ("B", "census"), ("F", "arithmetic"), ("A", "an extremum"), ("E", "consistency"),
++                     ("G", "dynamics"), ("I", "a declared choice"), ("J", "a measure"))
++PAIRS_ON_THE_PAGE = (("B+C", "symmetry with census"), ("C+F", "symmetry with arithmetic"), ("C+H", "symmetry with a read-out"), ("B+F", "census with arithmetic"),
++                     ("C+D", "symmetry with uniqueness"), ("B+E", "census with consistency"), ("D+F", "uniqueness with arithmetic"))
++share = lambda c: round(100 * c[0] / sum(c)) if sum(c) else 0
++
++
++def _arcs_at_the_commit_read():
++    """how many arcs main held at the commit the readers read, or None where that commit is not in the clone"""
++    import subprocess
++    if not ST.have(ST.READ):
++        return None
++    r = subprocess.run(["git", "-C", str(ROOT), "ls-tree", "-d", "--name-only", ST.READ, "frontier/"], capture_output=True, text=True)
++    return len([l for l in r.stdout.split("\n") if l.strip()])
++
++
++def _the_sentences(rows, tables, lists, of_arcs):
++    """(where, sentence) for each sentence that states a number: built from the rows, the tables and the lists"""
++    w, k, pr = tables["wall by outcome"], tables["kind of principle by outcome, all walls"], tables["pairs of kinds used together"]
++    by_wall = tables["kind of principle by outcome, wall by wall"]
++    words = tables["settled or partly, by the words of the outcome"]
++    asked = [r for r in rows if not (r["topic"] == "neither" and r["quote"] in ("n/a", ""))]
++    n, live, neither = len(rows), tables["about selection or chirality"], tables["neither on reading"]
++    S = []
++    S.append(("page", "%d of %s arcs have selection or chirality in their verdict line or title; %d are about one of them on reading." % (n, commas(of_arcs), live)))
++    S.append(("page", "%d arcs on selection, %d on chirality, %d in the union." % (len(lists["selection"]), len(lists["chirality"]), len(lists["union"]))))
++    S.append(("page", "Six readers, %d arcs each," % (n // 6)))
++    S.append(("page", "%d rows, every one with its 13 keys; %d are \"neither\" on reading. %d rows carry a quotation (the %d, and %d of the \"neither\" rows):"
++              % (n, neither, len(asked), live, len(asked) - live)))
++    S.append(("page", "## 3. The tables (%d arcs)" % live))
++    for code, name in WALLS_ON_THE_PAGE:
++        S.append(("page", "| %s | %d | %s |" % (name, sum(w[code]), " | ".join(str(x) for x in w[code]))))
++    for code, name in KINDS_ON_THE_PAGE:
++        S.append(("page", "| %s | %d | %s | %d%% |" % (name, sum(k[code]), " | ".join(str(x) for x in k[code]), share(k[code]))))
++    S.append(("page", "**The mirror pair (%d settled or partly).** %d say that the route does not split the pair; %d say something is fixed,"
++              % (w["W1"][0] + w["W1"][1], words["W1"].get("does not pick", 0), words["W1"].get("picks", 0))))
++    S.append(("page", "**One member of a family (%d settled or partly).**" % (w["W2"][0] + w["W2"][1])))
++    S.append(("page", "A measure: %d settled of %d. An extremum: %d settled of %d, %d corrected."
++              % (by_wall["W2"]["J"][0], sum(by_wall["W2"]["J"]), by_wall["W2"]["A"][0], sum(by_wall["W2"]["A"]), by_wall["W2"]["A"][4])))
++    S.append(("page", "**A value (%d settled or partly).**" % (w["W3"][0] + w["W3"][1])))
++    S.append(("page", ", ".join("%s %d" % (name, pr[code]) for code, name in PAIRS_ON_THE_PAGE) + "."))
++    S.append(("line", "%d of %s arcs name either subject in their verdict line or title; %d are about one of them on reading" % (n, commas(of_arcs), live)))
++    S.append(("line", "%d of %d quotations found by machine at the commit read" % (len(asked), len(asked))))
++    S.append(("line", "The walls: the mirror pair not split, %d arcs; one member of a family not picked, %d; a value not picked, %d; a count not forced, %d."
++              % (sum(w["W1"]), sum(w["W2"]), sum(w["W3"]), sum(w["W4"]))))
++    S.append(("line", ", ".join("%s %d%%" % (name, share(k[code])) for code, name in KINDS_IN_THE_LINE) + "."))
++    S.append(("scope", "the %d arcs whose verdict line or title the topic sweep matched for the words of selection or of chirality, of %s" % (n, commas(of_arcs))))
++    return S
++
++
++def _what_is_not_said(rows, tables, lists, of_arcs, page=None, verdict=None):
++    """the sentences, built from the rows, that the page, the verdict line or the scope does not hold"""
++    page = PAGE if page is None else page
++    verdict = VERDICT if verdict is None else verdict
++    text = {"page": flat(page), "line": flat(verdict["claim_one_line"]), "scope": flat(verdict["scope"]["object"])}
++    return [(where, s) for where, s in _the_sentences(rows, tables, lists, of_arcs) if flat(s) not in text[where]]
++
++
++LISTS = json.loads((HERE / "arcs_by_title.json").read_text(encoding="utf-8"))
++OF_ARCS = 1644                                              # the arcs at the commit read; counted by test_the_count_of_arcs... where the commit is in the clone
++
++
++def test_the_rows_and_the_lists_are_the_files_main_gave():
++    assert hashlib.sha256((HERE / "rows.json.txt").read_bytes()).hexdigest() == ROWS_AS_MAIN_GAVE_THEM
++    assert hashlib.sha256((HERE / "arcs_by_title.json").read_bytes()).hexdigest() == LISTS_AS_MAIN_GAVE_THEM
++    assert len(ROWS) == len({r["arc"] for r in ROWS}) == len(LISTS["union"]) and {r["arc"] for r in ROWS} == set(LISTS["union"])
++    assert set(LISTS["selection"]) | set(LISTS["chirality"]) == set(LISTS["union"])
++    assert all(sorted(r) == sorted(ST.KEYS) for r in ROWS)
++    # the two files are also in the folder main handed over, and are the same files there (the folder is in git's
++    # history since it left the tree with this arc)
++    for name in ("rows.json.txt", "arcs_by_title.json", "sweep_tables.py"):
++        assert _as_handed_over("b1905_selection_and_chirality/verification/" + name) == (HERE / name).read_bytes(), name
++    assert not (ROOT / HANDED_OVER).exists(), "the hand-over folder left the tree with this arc"
++
++
++def test_the_tables_are_what_mains_script_makes_of_the_rows():
++    assert json.loads(json.dumps(T, ensure_ascii=False)) == KEPT["the tables"]
++    # every row that is about either subject is in exactly one of the eight walls, and the walls sum to them
++    assert sum(sum(c) for c in T["wall by outcome"].values()) == T["about selection or chirality"] == len(ROWS) - T["neither on reading"]
++    assert set(T["wall by outcome"]) == {c for c, _ in WALLS_ON_THE_PAGE} | set(WALLS_NOT_ON_THE_PAGE)
++
++
++def test_the_kept_run_gives_the_numbers_of_the_tables():
++    run = (HERE / "sweep_tables_run.txt").read_text(encoding="utf-8")
++    assert run.split("\n")[0] == "rows %d; about selection or chirality %d; neither on reading %d" % (T["rows"], T["about selection or chirality"], T["neither on reading"])
++    assert json.loads(run.split("\n")[1][len("quotations: "):]) == KEPT["the quotations"]
++    for code, c in T["wall by outcome"].items():
++        m = re.search(r"^  %s .*?(\d+)((?:\s+\d+){5})\s*$" % code, run, re.M)
++        assert m and [int(m.group(1))] + [int(x) for x in m.group(2).split()] == [sum(c)] + c, code
++    head = run[run.index("KIND OF PRINCIPLE, all walls"):run.index("\nW1, ")]
++    for code, c in T["kind of principle by outcome, all walls"].items():
++        m = re.search(r"^  %s \S+\s+(\d+)((?:\s+\d+){5})\s+(\d+)%%\s*$" % code, head, re.M)
++        assert m and [int(m.group(1))] + [int(x) for x in m.group(2).split()] + [int(m.group(3))] == [sum(c)] + c + [share(c)], code
++
++
++def test_every_number_of_the_page_and_of_the_verdict_line_stands_in_a_sentence_built_from_the_rows():
++    assert _what_is_not_said(ROWS, T, LISTS, OF_ARCS) == []
++    # the verdict file is the arc's: its verdict, and what it rests on
++    assert VERDICT["id"] == "B1905" and VERDICT["verdict"] == "PROVED" and VERDICT["depends_on"] == ["B1204", "B1225"]
++    assert "The classes are the readers' and are not independently checked." in VERDICT["claim_one_line"]
++    assert "The classes are the readers' and are not independently checked." in flat(PAGE)
++
++
++def test_the_count_of_arcs_is_the_count_at_the_commit_read():
++    n = _arcs_at_the_commit_read()
++    if n is None:
++        pytest.skip("the commit the readers read, %s, is not in this clone: the arcs at that commit are not counted" % ST.READ)
++    assert n == OF_ARCS
++
++
++def test_the_kept_table_was_made_with_the_commit_in_the_clone():
++    q = KEPT["the quotations"]
++    assert "NOT RUN" not in q and q["the commit read"] == ST.READ
++    asked = [r for r in ROWS if not (r["topic"] == "neither" and r["quote"] in ("n/a", ""))]
++    assert q["quotations"] == q["found on one line of the file named, at the commit read"] == len(asked) and q["not found"] == [] and q["controls found"] == 0
++
++
++def test_every_quotation_is_found_at_the_commit_the_readers_read():
++    if not ST.have(ST.READ):
++        pytest.skip("the commit the readers read, %s, is not in this clone: NO QUOTATION IS LOOKED FOR HERE" % ST.READ)
++    assert ST.quotes(ROWS) == KEPT["the quotations"]
++
++
++def test_a_changed_quotation_fails():
++    """main's first plant.  The digest sees it without the commit; with the commit the script names the arc."""
++    rows = copy.deepcopy(ROWS)
++    i = next(i for i, r in enumerate(rows) if r["topic"] != "neither" and len(r["quote"].split()) > 3)
++    words = rows[i]["quote"].split(" ")
++    rows[i]["quote"] = " ".join(words[:1] + ["never"] + words[1:])
++    planted = "\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n"
++    assert hashlib.sha256(planted.encode("utf-8")).hexdigest() != ROWS_AS_MAIN_GAVE_THEM
++    if not ST.have(ST.READ):
++        pytest.skip("the commit the readers read, %s, is not in this clone: the plant is seen by the digest alone" % ST.READ)
++    q = ST.quotes(rows)
++    assert q["not found"] == [rows[i]["arc"]] and q["found on one line of the file named, at the commit read"] == q["quotations"] - 1
++
++
++def test_a_changed_class_fails():
++    """main's second plant: one arc moved from one wall to another.  Three things see it."""
++    rows = copy.deepcopy(ROWS)
++    i = next(i for i, r in enumerate(rows) if r["wall"].startswith("W1"))
++    rows[i]["wall"] = "W2 one member of a family not picked (thread, root, object)"
++    planted = "\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n"
++    assert hashlib.sha256(planted.encode("utf-8")).hexdigest() != ROWS_AS_MAIN_GAVE_THEM                    # the digest
++    t = ST.tables(rows)
++    assert json.loads(json.dumps(t, ensure_ascii=False)) != KEPT["the tables"]                              # the tables
++    lack = _what_is_not_said(rows, t, LISTS, OF_ARCS)                                                       # the sentences
++    assert ("page", "| the mirror pair not split | %d | %s |" % (sum(t["wall by outcome"]["W1"]), " | ".join(str(x) for x in t["wall by outcome"]["W1"]))) in lack
++    assert any(where == "line" and s.startswith("The walls: the mirror pair not split, ") for where, s in lack)
++    # the twin: the rows as they are say everything
++    assert _what_is_not_said(ROWS, T, LISTS, OF_ARCS) == []
++    # and a number changed on the page, with the rows as they are, is seen as well
++    assert _what_is_not_said(ROWS, T, LISTS, OF_ARCS, page=PAGE.replace("| the mirror pair not split | 149 |", "| the mirror pair not split | 150 |")) != []
++    line = dict(VERDICT, claim_one_line=VERDICT["claim_one_line"].replace("a measure 0%", "a measure 4%"))
++    assert [w for w, _ in _what_is_not_said(ROWS, T, LISTS, OF_ARCS, verdict=line)] == ["line"]
++
++
++def test_the_rule_that_came_with_the_arc_stands_in_the_working_rules_in_mains_words():
++    rules = (ROOT / "WORKING_RULES.md").read_text(encoding="utf-8")
++    head = "## Rule (2026-11-12, after the owner's question on selection and his point on the record's walls — adopted): BEFORE A SELECTION OR A HAND IS CLAIMED"
++    assert rules.count(head) == 1
++    section = rules[rules.index(head):]
++    section = section[:section.index("\n## ", 5)] if "\n## " in section[5:] else section
++    assert hashlib.sha256(flat(section).encode("utf-8")).hexdigest() == THE_RULE_AS_MAIN_GAVE_IT
++    # the same words stand in main's folder, as a quoted block
++    card = _as_handed_over("README.md").decode("utf-8")
++    block = "\n".join(l[4:] if l.startswith("   > ") else l[3:].lstrip("> ").rstrip() if l.strip() == ">" else l for l in card.split("\n") if l.startswith("   >"))
++    assert flat(block) == flat(section)
++    assert "the rule in `WORKING_RULES.md`, \"BEFORE A SELECTION OR A HAND IS CLAIMED\"" in flat(PAGE)
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index e83c86c1d..fea467ef3 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -16663,6 +16663,28 @@
+    "status": "open",
+    "domain": "topology"
+   },
++  "B1905": {
++   "slug": "selection and chirality across the record",
++   "motifs": [
++    "monoid",
++    "closing",
++    "choice",
++    "coupling",
++    "action",
++    "golden",
++    "amphichiral_cp"
++   ],
++   "refs": [
++    "B287",
++    "B864",
++    "B932",
++    "B997"
++   ],
++   "obstacle": "measure",
++   "obstacle_conf": 6,
++   "status": "banked",
++   "domain": "dynamics"
++  },
+   "B1906": {
+    "slug": "the four channels in closed form and three theorems checked",
+    "motifs": [
+-- 
+2.43.0
+

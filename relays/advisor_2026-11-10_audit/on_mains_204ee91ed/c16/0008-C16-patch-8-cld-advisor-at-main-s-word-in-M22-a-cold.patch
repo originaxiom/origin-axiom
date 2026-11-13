@@ -1,0 +1,72 @@
+From ae5288e43bb1f5fd47723d8988c5048b6f7308bd Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:10:29 +0000
+Subject: [PATCH] C16, patch 8 (cld-advisor, at main's word in M22; a cold
+ reader's finding (i) on R80b's part 3, patch 14, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): B734'S SWEEP READS EVERY FIELD OF A VERDICT FILE
+
+THE FINDING, MADE AGAIN. The sweep of the old congruence level read a verdict file's claim line, scope and
+note, and no other field. A planted verdict file that states the old level in its field "disclosed", with a
+claim line that says nothing of it, was not seen.
+
+THE MEND. Every text of the verdict file is read, keys and values at any depth, each a paragraph of its own,
+under a dated note that keeps the line as it stood. MEASURED FIRST: on main's record, reading every text meets
+no verdict file that the three fields did not, so nothing new is reported.
+
+THE TEST, added to main's test of B734: the old level in "disclosed", in "verdict_note" and in a list inside an
+object is each seen; the twin, the corrected level in the same field, is not. The test: 14 passed. Not checked
+by main.
+---
+ tests/test_b734_m004_congruence.py | 31 +++++++++++++++++++++++++++++-
+ 1 file changed, 30 insertions(+), 1 deletion(-)
+
+diff --git a/tests/test_b734_m004_congruence.py b/tests/test_b734_m004_congruence.py
+index e0fb5c94e..a4ffe9223 100644
+--- a/tests/test_b734_m004_congruence.py
++++ b/tests/test_b734_m004_congruence.py
+@@ -213,8 +213,24 @@ def _of_a_verdict_file(raw):
+         text = json.loads(text).get("claim_one_line", "")
+     and the sweep of B1028's lock beside it reads the three fields.  The old level stated in a verdict's scope or note was
+     not seen here."""
++    # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 14, not checked by main, made again first): the
++    # three fields above were read and no other, so the old level stated in the field `disclosed` was not seen.  Every text of
++    # the file is read now, each a paragraph of its own, keys and values at any depth.  Measured first: on main's record this
++    # meets no verdict file that the three fields did not.  The line as it stood:
++    #     return "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
+     d = json.loads(raw)
+-    return "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
++
++    def texts(v):
++        if isinstance(v, str):
++            yield v
++        elif isinstance(v, dict):
++            for k, x in v.items():
++                yield str(k)
++                yield from texts(x)
++        elif isinstance(v, (list, tuple)):
++            for x in v:
++                yield from texts(x)
++    return "\n\n".join(texts(d))
+ 
+ 
+ def test_the_sweep_reads_a_verdict_files_scope_and_note_as_well_as_its_line():
+@@ -392,3 +408,16 @@ def test_the_note_on_b736s_page_leaves_the_opening_that_the_atlas_reads_as_it_wa
+     assert atlas["probes"]["B736"]["status"] == "dead"
+     # the other pages that this patch placed a note on: none is placed in the opening of a page of findings but B732's, whose tag it does not move
+     assert atlas["probes"]["B732"]["status"] == "banked" and "[ADDED 2026-11-12" in (ROOT / "frontier/B732_conjugation_is_out_A5/FINDINGS.md").read_text(encoding="utf-8")[:1500]
++
++
++def test_the_sweep_reads_every_field_of_a_verdict_file():
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 14, not checked by main, made again first).  A
++    verdict file that states the old level in its field `disclosed`, with a claim line that says nothing of it, was not seen.
++    It is seen now, and so is the old level in any other field, at any depth.  The twin: the same file with the correction in it."""
++    for field, value in (("disclosed", "m004 the knot is congruence at level (8)"), ("verdict_note", "m004 is congruence at level (2)^3"),
++                         ("dependencies", {"why": ["B734: m004 congruence at level 8"]})):
++        planted = json.dumps({"id": "B09", "verdict": "PROVED", "claim_one_line": "a line that says nothing of it", field: value})
++        assert _states_the_old_level(_of_a_verdict_file(planted)), field
++    twin = json.dumps({"id": "B09", "verdict": "PROVED", "claim_one_line": "a line", "disclosed": "m004 is congruence at level (4)"})
++    assert not _states_the_old_level(_of_a_verdict_file(twin))               # the corrected level, in the same field, is not reported
++
+-- 
+2.43.0
+

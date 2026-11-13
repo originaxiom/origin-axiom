@@ -1,0 +1,577 @@
+From a03f91177d0989c13bbe33e82d6d1d7c577cef65 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:06:55 +0000
+Subject: [PATCH] C13, patch 2 (cld-advisor, at main's word in M19; main's
+ fourth folder, item 3): THE LEDGER OF WALLS IS A GENERATED PAGE AMONG THE
+ VIEWS, WITH ITS LOCK AND ITS ROW IN THE REGISTER
+
+Main asks for a ledger of walls: a generated page among the views, one row a wall for the eight classes of
+B1905's rows; for each, where it was first met, the arcs that prove a route impossible, the attempts by kind
+of principle and how each ended, and the arcs whose question was found to be wrong.
+
+WHAT IS BUILT. docs/views/LEDGER_OF_WALLS.md, written by the generator of the views (scripts/views/
+generate.py) from B1905's rows and from nothing else. The generator reads B1905's script for its lists and
+its reading of a row, compiled without an import. A table of eight rows, then a section a wall: where it
+was first met; the arcs that settled their question without a pick; those whose question was found to be
+wrong; those later corrected; and a table of what was tried, by kind of principle, with how it ended. The
+gate that holds the views to their generators holds the page: seven views now.
+
+THE PAGE PRINTS ARCS AND COUNTS, and no quotation and no outcome's text.
+
+TWO READINGS ARE THE BUILDER'S, said on the page and asked of main on the card:
+  - "first met" is the arc of the wall with the lowest number. Arcs are numbered in the order they were
+    opened, and 184 of the 636 rows give no date.
+  - "settled without a pick" stands for main's "prove a route impossible". The rows have no such column. It
+    is: the row says the arc settled the question it asked, and its outcome has a word of main's list of
+    denials and none of main's list of picks. A list of words, and the page says that it is no judgement.
+
+THE LOCK, tests/test_ledger_of_walls.py, six tests. The page is what the generator makes of the rows. Its
+counts are those of B1905's own tables, wall by wall and, for the four walls that script tabulates, kind by
+kind. "First met" and "settled without a pick" are what the page says they are. No field of a row longer
+than 24 characters stands on the page. Planted: a row added moves where a wall was first met; a class
+changed moves two walls' counts; an outcome reworded to a pick takes its arc out of the list; and a twin,
+the rows in another order, makes the same page. The generator leaves nothing beside B1905's script.
+
+THE REGISTER: row P-839 (P-837 when it was first sent; main's Review 81 took P-837 and P-838 since), for the ledger and the three things open about it (the classes have one reader
+each; the two readings above; arcs that name neither subject in their verdict line or title were not read).
+The count of rows that the register's checker holds is moved to 837.
+
+Every gate passes but the count of landings. The lock, the locks of B1905, B1873 and B1858, and the 15 test
+files that read the views or the register: 108 passed, 1 skipped. Not checked by main. Tested against
+planted errors by the session that wrote it.
+---
+ README.md                                     |   2 +-
+ docs/POINT_REGISTER.md                        |   1 +
+ docs/views/CONTEXT_RECOVERY.md                |   4 +-
+ docs/views/LEDGER_OF_WALLS.md                 | 180 ++++++++++++++++++
+ docs/views/THE_SPINE.md                       |   6 +-
+ .../B1883_where_we_stand/WHERE_WE_STAND.json  |   6 +-
+ .../B1883_where_we_stand/WHERE_WE_STAND.md    |   2 +-
+ scripts/checks/point_debt.py                  |   2 +-
+ scripts/views/generate.py                     |  95 ++++++++-
+ tests/test_ledger_of_walls.py                 | 110 +++++++++++
+ 10 files changed, 398 insertions(+), 10 deletions(-)
+ create mode 100644 docs/views/LEDGER_OF_WALLS.md
+ create mode 100644 tests/test_ledger_of_walls.py
+
+diff --git a/README.md b/README.md
+index 012911b8f..788037097 100644
+--- a/README.md
++++ b/README.md
+@@ -22,7 +22,7 @@ nothing in this block is typed by hand.*
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+ | the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
+ | arcs with a verdict | 1607: 1112 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+-| points in the register | 838: 307 open (queued work, leads, and questions not yet decided), 531 closed |
++| points in the register | 839: 308 open (queued work, leads, and questions not yet decided), 531 closed |
+ | the last review | Review 80 (2026-11-12), anchor `c40446392` |
+ | the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
+ <!-- STATE:END -->
+diff --git a/docs/POINT_REGISTER.md b/docs/POINT_REGISTER.md
+index 7945a14b2..131aff77b 100644
+--- a/docs/POINT_REGISTER.md
++++ b/docs/POINT_REGISTER.md
+@@ -1044,3 +1044,4 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-836 | 2026-11-12 | SE | THE READER'S OWN 23 PLANTS AGAINST B1881'S LOCK AS IT NOW STANDS: ASKED FOR, DELIVERED, AND NOT READ BY MAIN (B1897 § 5 and the last sentence of P-822, which is DONE while that sentence was still owed: a reader's finding at Review 80, made again by the building session and not checked by main). The reader has since run them at `c40446392` and filed its report (harvest row 1741, registered by file name and not read) | QUEUED | [PROCESS] Q1: main reads the report through its mask and answers on the reader's page. Since the report the lock has changed again: the mends of Review 80 hold the script whole, call its check function, and compare every value of its data file (the series R80b, part 2), so the count the report gives is of the lock as it stood at `c40446392`. The queue is main's to change | 2026-11-12 |
+ | P-837 | 2026-11-13 | MA | REVIEW 81 IS DUE AND IS OPENED: 39 landings stand since Review 80's anchor (c40446392). Main planned the opening one landing too late, the opening itself being the fortieth, and the owner waived the block through 60 for this review (the last line of docs/progress/REVIEW_WAIVER.md). The window is c40446392 to 0e637ea9e: one arc added (B1898), eighteen older arcs changed, the governing pages and ledgers, and main's instruments. THE READERS READ AT 7d7ab1dfa (the branch review-81/read): main's 0e637ea9e with the waiver's line and faults that main planted there to test the readers (R80-12; P-824). Their list is sealed, sha256 7ab2417be3674a113e95644aba4572ea89416246f20e2e2fdd475851b30967a3, and is published at the entry; the readers do not open that commit by itself. Every lock of the arcs planted passes on it. TODAY the SM seat and the web seat read everything, each leaving its own work (cards SM-R81 and W-R81 on their pages). TOMORROW the two sessions of the other family of model, which rest today at the owner's word, read what either left and give that family's reading; the entry waits for all four. Not in this review: main's hand-over folders, which are drafts and are read in full when they land as arcs | QUEUED | [PROCESS] Q1: the cards are out. Within the waiver main lands only its own mathematics until the entry; the builder's parts 3 to 5 and its card C13 land after the entry, in the next window, where the block stands at 40 again. OWED: main reproduces each finding, then mends or answers it, closing nothing on a reader's word; the plants' list published and each reader's catches and misses counted; the entry with its core lines; the suite on a fresh clone of the head that carries it; R80-5 to R80-9, at their fourth carry, each resolved, declined with its reason, or waived | 2026-11-13 |
+ | P-838 | 2026-11-13 | OW | THE OWNER'S WORD OF 2026-11-13, entered in plain words: (a) he waived the review's block through 60 when main's plan had put Review 81's opening one landing too late, and asked main to plan the room well (P-837; the waiver page's last line); (b) the two sessions of the other family rest until tomorrow, and the review is read today by the SM seat and the web seat (P-837); (c) the front page still spoke the record's inner language, though the building session's fix had been sent; (d) the root of the repository held notes between sessions and result files that a first reader should not meet; (e) the notes between sessions need not stay in the tree, since git's history keeps them; (f) the relays can go from the tree entirely | DONE | (a) and (b): P-837 and the cards SM-R81 and W-R81. (c): the README in plain words, the building session's C14 patch 2 placed by main on its head ahead of the series (landed 9f2ec44a3); its generator's line on the last landing goes to the builder (M24). (d) and (e): nine files left the root, the three notes removed from the tree (last at 5e7f335c9), under GOVERNANCE section 12's rule for a physical move, by scripts/reorganize/root_2026_11_13.py, logged as the first entry of docs/REORGANIZATIONS.md, with the one lock that named them migrated; the historical folders at the root are the builder's card C18 (M26), by the same rule (f): 289 notes and hand-overs under docs/handoffs/ removed from the tree by scripts/reorganize/relays_2026_11_13.py (second entry of docs/REORGANIZATIONS.md; last at 9c8a50887), main's four hand-over folders of 2026-11-12 kept until their arcs land, and one data file a sealed script of B1487 reads kept at its path; the path check resolves a removed file only if git has it at that commit; the ten relay copies inside arcs' folders and in outside_bench/ go with the harvest and relay gates migrated, in the builder's card C18 | 2026-11-13 |
++| P-839 | 2026-11-13 | MA | THE LEDGER OF WALLS IS A GENERATED PAGE, AND THREE THINGS ABOUT IT ARE OPEN (main's card C13 to the building session, after the owner's point of 2026-11-12 on the record's walls, entered in plain words in P-831; built as a patch series by the building session from main's rows of B1905): `docs/views/LEDGER_OF_WALLS.md`, one row a wall for the eight classes of B1905's rows, with where each was first met, the arcs that settled their question without picking anything, what was tried by which kind of principle and how it ended, the arcs whose question was found to be wrong, and those later corrected. Its whole content is the 636 rows of B1905; it is made again by the generator of the views when a row is added, and the gate that holds the views to their generators holds it. The topic sweep prints a wall's row before its own list. WHAT IS OPEN: (1) the classes are the readers', one reader an arc, and no second reader has read a row; (2) two columns are readings by the building session and not main's: "first met" is the lowest arc number of the wall, since 184 rows give no date, and "settled without a pick" is a list of words on the outcome; (3) arcs that name neither subject in their verdict line or title were not read, so a wall met only in the body of a page is not in the ledger | QUEUED | [PROCESS] Q1: (1) and (3) are main's to order; (2) is asked of main on the series' card (the building session's card C13, § 6). A row is added to B1905's file when an arc on a wall lands, and the page is made again | 2026-11-12 |
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 9c1273fa8..cb41d1146 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -18,8 +18,8 @@
+ | … NEGATIVE | 384 |
+ | … OPEN | 99 |
+ | … RETRACTED | 12 |
+-| register points | 838 |
+-| … QUEUED | 303 |
++| register points | 839 |
++| … QUEUED | 304 |
+ | … LEAD | 4 |
+ | … OWNER | 0 |
+ | … DONE | 519 |
+diff --git a/docs/views/LEDGER_OF_WALLS.md b/docs/views/LEDGER_OF_WALLS.md
+new file mode 100644
+index 000000000..16e3eba98
+--- /dev/null
++++ b/docs/views/LEDGER_OF_WALLS.md
+@@ -0,0 +1,180 @@
++<!-- GENERATED by scripts/views/generate.py -- DO NOT EDIT BY HAND.
++     Source of truth: frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt.
++     Hand-editing a generated view reintroduces exactly the drift it prevents. -->
++
++# The ledger of walls
++
++*Read a wall's row before a selection or a hand is claimed (`WORKING_RULES.md`, the rule of 2026-11-12). The sweep prints it: `python3 scripts/checks/topic_sweep.py "<expression>"`.*
++
++- **What it is made of:** the rows of B1905 (`frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt`), 636 rows, one an arc; 511 are about selection or chirality on reading and are sorted here, 125 are not.
++- **Whose the classes are:** the readers', one reader an arc. They are not independently checked.
++- **"First met"** is the arc of the wall with the lowest number: arcs are numbered in the order they were opened, and many rows give no date.
++- **"Settled without a pick"** is a reading by a list of words: the row says the arc settled the question it asked, and its outcome has a word of denial and no word of a pick (the two lists of B1905's script). Most such arcs prove that a route does not do what was hoped of it. It is not a judgement of the arc.
++- **An arc that combines kinds of principle is counted under each.**
++
++| wall | arcs | first met | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|---|
++| W1, the mirror pair not split | 149 | B128 | 65 | 40 | 35 | 0 | 9 |
++| W2, one member of a family not picked | 138 | B4 | 40 | 43 | 35 | 3 | 17 |
++| W3, a value or modulus not picked | 47 | B24 | 5 | 13 | 21 | 2 | 6 |
++| W4, a count not forced | 49 | B58 | 13 | 18 | 9 | 3 | 6 |
++| W5, a scale or hierarchy | 17 | B329 | 9 | 5 | 1 | 0 | 2 |
++| W6, an identification borrowed | 28 | B22 | 5 | 12 | 8 | 2 | 1 |
++| W7, a construction not canonical | 51 | B14 | 27 | 15 | 7 | 0 | 2 |
++| W8, other | 32 | B211 | 13 | 10 | 4 | 0 | 5 |
++
++## W1 — the mirror pair not split (149 arcs)
++
++- **First met:** B128.
++- **Settled without a pick (37):** B134, B316, B340, B576, B592, B593, B599, B605, B613, B626, B713, B755, B938, B954, B959, B960, B1029, B1036, B1039, B1083, B1086, B1095, B1227, B1276, B1406, B1429, B1465, B1471, B1475, B1479, B1487, B1489, B1607, B1609, B1674, B1690, B1821.
++- **The question was found to be wrong (0):** none.
++- **Later corrected or retracted (9):** B145, B146, B944, B963, B1091, B1181, B1235, B1292, B1332.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 2 | 1 | 0 | 1 | 0 | 0 |
++| census | 44 | 16 | 13 | 10 | 0 | 5 |
++| symmetry | 124 | 57 | 33 | 27 | 0 | 7 |
++| uniqueness | 6 | 5 | 0 | 0 | 0 | 1 |
++| consistency | 7 | 1 | 3 | 3 | 0 | 0 |
++| arithmetic | 37 | 16 | 11 | 10 | 0 | 0 |
++| dynamics | 3 | 1 | 0 | 2 | 0 | 0 |
++| read-out | 28 | 10 | 10 | 7 | 0 | 1 |
++| declared | 2 | 1 | 1 | 0 | 0 | 0 |
++| other | 9 | 3 | 5 | 1 | 0 | 0 |
++
++## W2 — one member of a family not picked (138 arcs)
++
++- **First met:** B4 (2026-05-22).
++- **Settled without a pick (11):** B607, B869, B873, B994, B1019, B1146, B1405, B1431, B1675, B1676, B1884.
++- **The question was found to be wrong (3):** B284, B709, B1407.
++- **Later corrected or retracted (17):** B123, B288, B359, B474, B855, B861, B962, B964, B1136, B1180, B1252, B1264, B1602, B1812, B1853, B1856, B1887.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 12 | 2 | 5 | 3 | 0 | 2 |
++| census | 68 | 22 | 20 | 16 | 1 | 9 |
++| symmetry | 48 | 14 | 19 | 8 | 1 | 6 |
++| uniqueness | 30 | 15 | 8 | 3 | 0 | 4 |
++| consistency | 12 | 4 | 4 | 4 | 0 | 0 |
++| arithmetic | 60 | 18 | 19 | 13 | 1 | 9 |
++| dynamics | 4 | 1 | 1 | 2 | 0 | 0 |
++| read-out | 12 | 3 | 4 | 4 | 0 | 1 |
++| declared | 2 | 0 | 1 | 0 | 1 | 0 |
++| measure | 13 | 0 | 4 | 9 | 0 | 0 |
++| other | 5 | 1 | 2 | 0 | 0 | 2 |
++
++## W3 — a value or modulus not picked (47 arcs)
++
++- **First met:** B24.
++- **Settled without a pick (1):** B358.
++- **The question was found to be wrong (2):** B1225, B1673.
++- **Later corrected or retracted (6):** B1228, B1229, B1232, B1642, B1644, B1846.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 5 | 0 | 0 | 4 | 1 | 0 |
++| census | 11 | 0 | 4 | 7 | 0 | 0 |
++| symmetry | 11 | 2 | 3 | 3 | 1 | 2 |
++| uniqueness | 4 | 0 | 0 | 1 | 1 | 2 |
++| consistency | 9 | 1 | 2 | 4 | 0 | 2 |
++| arithmetic | 17 | 3 | 5 | 7 | 0 | 2 |
++| dynamics | 7 | 0 | 2 | 4 | 1 | 0 |
++| read-out | 2 | 1 | 0 | 1 | 0 | 0 |
++| declared | 1 | 0 | 1 | 0 | 0 | 0 |
++| measure | 9 | 0 | 3 | 5 | 0 | 1 |
++| other | 8 | 2 | 3 | 1 | 0 | 2 |
++
++## W4 — a count not forced (49 arcs)
++
++- **First met:** B58 (2026-06-03).
++- **Settled without a pick (5):** B1017, B1138, B1427, B1485, B1497.
++- **The question was found to be wrong (3):** B58, B516, B1808.
++- **Later corrected or retracted (6):** B1028, B1291, B1491, B1629, B1879, B1894.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 2 | 0 | 1 | 0 | 0 | 1 |
++| census | 35 | 12 | 14 | 5 | 2 | 2 |
++| symmetry | 18 | 5 | 7 | 4 | 0 | 2 |
++| uniqueness | 2 | 0 | 2 | 0 | 0 | 0 |
++| consistency | 6 | 0 | 3 | 2 | 1 | 0 |
++| arithmetic | 10 | 0 | 3 | 3 | 3 | 1 |
++| dynamics | 1 | 0 | 0 | 0 | 0 | 1 |
++| read-out | 3 | 2 | 1 | 0 | 0 | 0 |
++| declared | 3 | 0 | 1 | 2 | 0 | 0 |
++| measure | 1 | 0 | 0 | 0 | 0 | 1 |
++| other | 9 | 5 | 2 | 0 | 0 | 2 |
++
++## W5 — a scale or hierarchy (17 arcs)
++
++- **First met:** B329.
++- **Settled without a pick (6):** B1012, B1185, B1654, B1656, B1658, B1692.
++- **The question was found to be wrong (0):** none.
++- **Later corrected or retracted (2):** B1226, B1806.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| census | 6 | 4 | 1 | 1 | 0 | 0 |
++| symmetry | 13 | 6 | 4 | 1 | 0 | 2 |
++| uniqueness | 1 | 0 | 1 | 0 | 0 | 0 |
++| arithmetic | 4 | 1 | 2 | 0 | 0 | 1 |
++| read-out | 2 | 1 | 1 | 0 | 0 | 0 |
++| other | 5 | 3 | 1 | 0 | 0 | 1 |
++
++## W6 — an identification borrowed (28 arcs)
++
++- **First met:** B22.
++- **Settled without a pick (3):** B978, B1231, B1421.
++- **The question was found to be wrong (2):** B22, B1604.
++- **Later corrected or retracted (1):** B132.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| census | 10 | 2 | 5 | 3 | 0 | 0 |
++| symmetry | 16 | 1 | 7 | 6 | 1 | 1 |
++| uniqueness | 1 | 0 | 0 | 1 | 0 | 0 |
++| consistency | 8 | 2 | 2 | 2 | 1 | 1 |
++| arithmetic | 6 | 1 | 3 | 1 | 0 | 1 |
++| read-out | 2 | 1 | 1 | 0 | 0 | 0 |
++| other | 4 | 0 | 3 | 1 | 0 | 0 |
++
++## W7 — a construction not canonical (51 arcs)
++
++- **First met:** B14.
++- **Settled without a pick (5):** B670, B865, B1456, B1667, B1876.
++- **The question was found to be wrong (0):** none.
++- **Later corrected or retracted (2):** B1198, B1201.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 1 | 1 | 0 | 0 | 0 | 0 |
++| census | 11 | 7 | 4 | 0 | 0 | 0 |
++| symmetry | 29 | 17 | 7 | 5 | 0 | 0 |
++| uniqueness | 20 | 16 | 4 | 0 | 0 | 0 |
++| consistency | 8 | 3 | 3 | 2 | 0 | 0 |
++| arithmetic | 11 | 6 | 3 | 1 | 0 | 1 |
++| dynamics | 2 | 1 | 1 | 0 | 0 | 0 |
++| read-out | 8 | 3 | 1 | 2 | 0 | 2 |
++| declared | 1 | 0 | 1 | 0 | 0 | 0 |
++| measure | 1 | 0 | 1 | 0 | 0 | 0 |
++| other | 3 | 1 | 1 | 1 | 0 | 0 |
++
++## W8 — other (32 arcs)
++
++- **First met:** B211 (2026-06-25).
++- **Settled without a pick (6):** B459, B930, B1011, B1341, B1345, B1750.
++- **The question was found to be wrong (0):** none.
++- **Later corrected or retracted (5):** B211, B716, B1222, B1463, B1467.
++
++| tried by | arcs | settled | partly | not | the question was wrong | later corrected |
++|---|---|---|---|---|---|---|
++| extremum | 3 | 2 | 1 | 0 | 0 | 0 |
++| census | 11 | 3 | 3 | 3 | 0 | 2 |
++| symmetry | 10 | 5 | 1 | 2 | 0 | 2 |
++| consistency | 1 | 0 | 1 | 0 | 0 | 0 |
++| arithmetic | 9 | 4 | 3 | 1 | 0 | 1 |
++| dynamics | 2 | 0 | 1 | 1 | 0 | 0 |
++| read-out | 6 | 3 | 2 | 0 | 0 | 1 |
++| declared | 1 | 0 | 1 | 0 | 0 | 0 |
++| other | 6 | 2 | 3 | 0 | 0 | 1 |
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index f8f1ae9ed..17026e916 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1542 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1543 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1912,3 +1912,7 @@ Generated by `scripts/views/spine.py` — 1542 locks. Regenerated with the views
+ - — `test_gates_are_a_function_of_the_commit.py` 
+ - — `test_nothing_leaves_a_ledger.py` 
+ - — `test_seat_listener.py` 
++
++## 2026-11-13
++
++- — `test_ledger_of_walls.py` 
+diff --git a/frontier/B1883_where_we_stand/WHERE_WE_STAND.json b/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
+index f25aca89b..ae62621b2 100644
+--- a/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
++++ b/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
+@@ -230,11 +230,11 @@
+   "by_kind": {
+    "DEBT": 93,
+    "LEAD": 135,
+-   "PROCESS": 79
++   "PROCESS": 80
+   },
+-  "open": 307,
++  "open": 308,
+   "owner_calls_open": [],
+-  "points": 838
++  "points": 839
+  },
+  "rows_the_scoreboard_lists": 23,
+  "the_count_as_an_output": {
+diff --git a/frontier/B1883_where_we_stand/WHERE_WE_STAND.md b/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
+index 416b06579..d9d5fa48c 100644
+--- a/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
++++ b/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
+@@ -87,7 +87,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
+ 
+ ## 6. The record's own list
+ 
+-- **838 points registered, 307 open:** 135 lead, 93 debt, 79 process.
++- **839 points registered, 308 open:** 135 lead, 93 debt, 80 process.
+ - **Calls that are the owner's to make (0):**
+ 
+ ## 7. What this page does not know
+diff --git a/scripts/checks/point_debt.py b/scripts/checks/point_debt.py
+index 843fa344b..3ca7c58ab 100644
+--- a/scripts/checks/point_debt.py
++++ b/scripts/checks/point_debt.py
+@@ -52,7 +52,7 @@ import sys
+ ROOT = pathlib.Path(__file__).resolve().parents[2]
+ REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
+ LEADS = ROOT / "docs" / "OPEN_LEADS.md"
+-FLOOR = 838
++FLOOR = 839
+ STALE_DAYS = 21
+ M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
+ DRAFT_DAYS = 7
+diff --git a/scripts/views/generate.py b/scripts/views/generate.py
+index ddae2bf72..5f8937290 100644
+--- a/scripts/views/generate.py
++++ b/scripts/views/generate.py
+@@ -416,6 +416,98 @@ def write_readme_state(arcs):
+     return True
+ 
+ 
++# ------------------------------------------------------------------------------------------------------------------
++# THE LEDGER OF WALLS (2026-11-12; main's card C13, at the owner's point on the record's walls; WORKING_RULES, the rule
++# "BEFORE A SELECTION OR A HAND IS CLAIMED").  One row a wall: where it was first met, the arcs that settled their
++# question without picking anything, what was tried by which kind of principle and how each attempt ended, the arcs
++# whose question was found to be wrong, and those later corrected.
++#
++# ITS CONTENT IS THE ROWS OF B1905 and nothing else: 636 rows written by six read-only readers, one reader an arc.  The
++# classes are the readers' and are not independently checked.  The page is made again when a row is added.  It prints
++# arcs and counts, and no quotation and no outcome's text.
++#
++# TWO READINGS HERE ARE THE BUILDER'S, and each is said on the page:
++#   "first met"            the row of the wall with the lowest arc number: arcs are numbered in the order they were
++#                          opened, and 184 of the 636 rows give no date;
++#   "settled without a     the row says the arc settled its question, and its outcome has a word of main's list of
++#    pick"                 denials and none of main's list of picks (the two lists of B1905's script).  It stands for
++#                          "proves a route impossible" in main's card, and is a list of words, not a judgement.
++WALLS_ARC = "frontier/B1905_selection_and_chirality_across_the_record"
++WALLS_VIEW = "LEDGER_OF_WALLS.md"
++WALLS_HEADER = ("<!-- GENERATED by scripts/views/generate.py -- DO NOT EDIT BY HAND.\n"
++                "     Source of truth: " + WALLS_ARC + "/verification/rows.json.txt.\n"
++                "     Hand-editing a generated view reintroduces exactly the drift it prevents. -->\n\n")
++
++
++def _walls_source():
++    """B1905's script, read and compiled without an import, so that no compiled file is left beside it"""
++    import types
++    p = os.path.join(ROOT, WALLS_ARC, "verification", "sweep_tables.py")
++    m = types.ModuleType("b1905_sweep_tables")
++    m.__file__ = p
++    exec(compile(open(p, encoding="utf-8").read(), p, "exec"), m.__dict__)
++    return m
++
++
++def walls_ledger(rows=None, st=None):
++    """the ledger as data: one entry a wall, in the order of B1905's classes.  `rows` default to B1905's file."""
++    st = st or _walls_source()
++    rows = st.load() if rows is None else rows
++    live = [r for r in rows if r["topic"] != "neither"]
++    num = lambda a: int(re.sub(r"\D", "", a) or 0)
++    wall = lambda r: r["wall"].split(" ")[0] if r["wall"][:1] == "W" else "?"
++    kinds = lambda r: sorted({p.split(" ")[0] for p in r["principle"] if p.split(" ")[0] in st.NAMES})
++    no_pick = lambda r: bool(st.NEG.search(r["outcome"])) and not st.POS.search(r["outcome"])
++    ids = lambda rs: [r["arc"] for r in rs]
++    out = []
++    for code, name in st.WALLS.items():
++        rs = sorted((r for r in live if wall(r) == code), key=lambda r: num(r["arc"]))
++        if not rs:
++            out.append(dict(code=code, name=name, arcs=0, first=None, first_date=None, by_outcome=[0] * len(st.S), settled_without_a_pick=[],
++                            question_was_wrong=[], later_corrected=[], kinds={}))
++            continue
++        out.append(dict(
++            code=code, name=name, arcs=len(rs), first=rs[0]["arc"], first_date=rs[0]["date"],
++            by_outcome=[sum(r["settled"] == s for r in rs) for s in st.S],
++            settled_without_a_pick=ids(r for r in rs if r["settled"] == "yes" and no_pick(r)),
++            question_was_wrong=ids(r for r in rs if r["settled"] == "question was wrong"),
++            later_corrected=ids(r for r in rs if r["settled"] == "later corrected or retracted"),
++            kinds={k: [sum(1 for r in rs if k in kinds(r) and r["settled"] == s) for s in st.S]
++                   for k in st.NAMES if any(k in kinds(r) for r in rs)}))
++    return dict(rows=len(rows), about=len(live), neither=len(rows) - len(live), walls=out, names=dict(st.NAMES))
++
++
++def view_walls(ledger=None):
++    L = walls_ledger() if ledger is None else ledger
++    lst = lambda xs: ", ".join(xs) if xs else "none"
++    o = [WALLS_HEADER + "# The ledger of walls", "",
++         "*Read a wall's row before a selection or a hand is claimed (`WORKING_RULES.md`, the rule of 2026-11-12). "
++         "The sweep prints it: `python3 scripts/checks/topic_sweep.py \"<expression>\"`.*", "",
++         "- **What it is made of:** the rows of B1905 (`%s/verification/rows.json.txt`), %d rows, one an arc; %d are about selection or "
++         "chirality on reading and are sorted here, %d are not." % (WALLS_ARC, L["rows"], L["about"], L["neither"]),
++         "- **Whose the classes are:** the readers', one reader an arc. They are not independently checked.",
++         "- **\"First met\"** is the arc of the wall with the lowest number: arcs are numbered in the order they were opened, and many rows give no date.",
++         "- **\"Settled without a pick\"** is a reading by a list of words: the row says the arc settled the question it asked, and its outcome has "
++         "a word of denial and no word of a pick (the two lists of B1905's script). Most such arcs prove that a route does not do what was hoped of it. It is not a judgement of the arc.",
++         "- **An arc that combines kinds of principle is counted under each.**", "",
++         "| wall | arcs | first met | settled | partly | not | the question was wrong | later corrected |", "|---|---|---|---|---|---|---|---|"]
++    for w in L["walls"]:
++        o.append("| %s, %s | %d | %s | %s |" % (w["code"], w["name"], w["arcs"], w["first"] or "—", " | ".join(str(x) for x in w["by_outcome"])))
++    for w in L["walls"]:
++        o += ["", "## %s — %s (%d arcs)" % (w["code"], w["name"], w["arcs"]), ""]
++        if not w["arcs"]:
++            o.append("No arc of the rows is in this class.")
++            continue
++        o.append("- **First met:** %s%s." % (w["first"], "" if w["first_date"] in (None, "", "not stated") else " (%s)" % w["first_date"]))
++        o.append("- **Settled without a pick (%d):** %s." % (len(w["settled_without_a_pick"]), lst(w["settled_without_a_pick"])))
++        o.append("- **The question was found to be wrong (%d):** %s." % (len(w["question_was_wrong"]), lst(w["question_was_wrong"])))
++        o.append("- **Later corrected or retracted (%d):** %s." % (len(w["later_corrected"]), lst(w["later_corrected"])))
++        o += ["", "| tried by | arcs | settled | partly | not | the question was wrong | later corrected |", "|---|---|---|---|---|---|---|"]
++        for k, c in w["kinds"].items():
++            o.append("| %s | %d | %s |" % (L["names"][k], sum(c), " | ".join(str(x) for x in c)))
++    return "\n".join(o) + "\n"
++
++
+ def main():
+     arcs, kills = collect()
+     os.makedirs(OUT, exist_ok=True)
+@@ -423,7 +515,8 @@ def main():
+              "VERDICT_LEDGER.md": view_claims(arcs),
+              "CLOSED_DOORS.md": view_closed_doors(arcs, kills),
+              "REVIEWER.md": view_reviewer(arcs, kills),
+-             "CONTEXT_RECOVERY.md": view_context_recovery(arcs, kills)}
++             "CONTEXT_RECOVERY.md": view_context_recovery(arcs, kills),
++             WALLS_VIEW: view_walls()}
+     changed = []
+     for name, body in views.items():
+         p = os.path.join(OUT, name)
+diff --git a/tests/test_ledger_of_walls.py b/tests/test_ledger_of_walls.py
+new file mode 100644
+index 000000000..c2a087c85
+--- /dev/null
++++ b/tests/test_ledger_of_walls.py
+@@ -0,0 +1,110 @@
++"""The ledger of walls (main's card C13, 2026-11-12): a generated view whose whole content is the rows of B1905.
++
++The classes in the rows are the readers', one reader an arc, and are not checked here.  What is held: the page is what the
++generator makes of the rows; its counts are the counts of B1905's own tables; "first met" and "settled without a pick" are
++what the page says they are; the page prints no quotation and no outcome's text; and a row added, a class changed or a
++word of the outcome changed moves the page."""
++import copy
++import importlib.util
++import json
++import pathlib
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++ARC = ROOT / "frontier" / "B1905_selection_and_chirality_across_the_record"
++
++
++def _generator():
++    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
++    try:
++        spec = importlib.util.spec_from_file_location("views_generate_for_the_walls", ROOT / "scripts" / "views" / "generate.py")
++        m = importlib.util.module_from_spec(spec)
++        spec.loader.exec_module(m)
++    finally:
++        sys.dont_write_bytecode = was
++    return m
++
++
++G = _generator()
++ST = G._walls_source()
++ROWS = ST.load()
++LEDGER = G.walls_ledger()
++PAGE = (ROOT / "docs" / "views" / G.WALLS_VIEW).read_text(encoding="utf-8")
++num = lambda a: int(a[1:])
++
++
++def test_the_page_is_what_the_generator_makes_of_the_rows():
++    assert PAGE == G.view_walls()
++    assert G.view_walls(G.walls_ledger(ROWS, ST)) == PAGE
++    assert G.WALLS_ARC == ARC.relative_to(ROOT).as_posix() and (ARC / "verification" / "rows.json.txt").is_file()
++
++
++def test_the_counts_are_those_of_b1905s_own_tables():
++    T = ST.tables(ROWS)
++    assert (LEDGER["rows"], LEDGER["about"], LEDGER["neither"]) == (T["rows"], T["about selection or chirality"], T["neither on reading"])
++    assert [w["code"] for w in LEDGER["walls"]] == list(ST.WALLS) and len(LEDGER["walls"]) == 8
++    for w in LEDGER["walls"]:
++        assert w["by_outcome"] == T["wall by outcome"][w["code"]] and w["arcs"] == sum(w["by_outcome"]), w["code"]
++        assert len(w["question_was_wrong"]) == w["by_outcome"][3] and len(w["later_corrected"]) == w["by_outcome"][4], w["code"]
++    # the four walls for which B1905's script tabulates the kinds: the ledger's table is that table, without its empty rows
++    for code, tab in T["kind of principle by outcome, wall by wall"].items():
++        mine = next(w for w in LEDGER["walls"] if w["code"] == code)["kinds"]
++        assert mine == {k: c for k, c in tab.items() if sum(c)}, code
++    assert sum(w["arcs"] for w in LEDGER["walls"]) == LEDGER["about"]
++    assert sorted(a for w in LEDGER["walls"] for a in w["question_was_wrong"]) == sorted(T["arcs whose question was found to be wrong"])
++    # and each count stands on the page, in the row of its wall
++    for w in LEDGER["walls"]:
++        assert "| %s, %s | %d | %s | %s |" % (w["code"], w["name"], w["arcs"], w["first"], " | ".join(str(x) for x in w["by_outcome"])) in PAGE
++
++
++def test_first_met_and_settled_without_a_pick_are_what_the_page_says_they_are():
++    live = [r for r in ROWS if r["topic"] != "neither"]
++    by = {r["arc"]: r for r in live}
++    for w in LEDGER["walls"]:
++        mine = [r for r in live if r["wall"].startswith(w["code"])]
++        assert w["first"] == min((r["arc"] for r in mine), key=num), w["code"]
++        for a in w["settled_without_a_pick"]:
++            r = by[a]
++            assert r["wall"].startswith(w["code"]) and r["settled"] == "yes" and ST.NEG.search(r["outcome"]) and not ST.POS.search(r["outcome"]), a
++        assert w["settled_without_a_pick"] == sorted(w["settled_without_a_pick"], key=num)
++    assert "the arc of the wall with the lowest number" in PAGE and "It is not a judgement of the arc." in PAGE
++    assert "They are not independently checked." in PAGE
++
++
++def test_the_page_prints_no_quotation_and_no_outcome():
++    for r in ROWS:
++        for field in ("quote", "outcome", "why", "question", "principle_note"):
++            text = r[field].strip()
++            assert len(text) < 25 or text not in PAGE, (r["arc"], field)
++
++
++def test_a_row_added_a_class_changed_and_a_word_of_the_outcome_changed_each_move_the_page():
++    # a row added: an arc with a lower number than any of its wall is now where the wall was first met
++    rows = copy.deepcopy(ROWS)
++    w5 = next(r for r in rows if r["wall"].startswith("W5") and r["topic"] != "neither")
++    rows.append(dict(w5, arc="B1", settled="no"))
++    L = G.walls_ledger(rows, ST)
++    five = next(w for w in L["walls"] if w["code"] == "W5")
++    was = next(w for w in LEDGER["walls"] if w["code"] == "W5")
++    assert five["first"] == "B1" != was["first"] and five["arcs"] == was["arcs"] + 1 and G.view_walls(L) != PAGE
++    # a class changed: one arc moved from the first wall to the second
++    rows = copy.deepcopy(ROWS)
++    i = next(i for i, r in enumerate(rows) if r["wall"].startswith("W1"))
++    rows[i]["wall"] = "W2 one member of a family not picked (thread, root, object)"
++    L = G.walls_ledger(rows, ST)
++    assert [w["arcs"] for w in L["walls"]][:2] == [LEDGER["walls"][0]["arcs"] - 1, LEDGER["walls"][1]["arcs"] + 1] and G.view_walls(L) != PAGE
++    # a word of the outcome changed: an arc listed as settled without a pick, whose outcome now says that something is picked, leaves the list
++    listed = LEDGER["walls"][0]["settled_without_a_pick"][0]
++    rows = copy.deepcopy(ROWS)
++    r = next(r for r in rows if r["arc"] == listed)
++    r["outcome"] = "The rule selects one member."
++    assert ST.POS.search(r["outcome"]) and not ST.NEG.search(r["outcome"])
++    L = G.walls_ledger(rows, ST)
++    assert listed not in L["walls"][0]["settled_without_a_pick"] and G.view_walls(L) != PAGE
++    # the twin: the same rows in another order make the same page
++    assert G.view_walls(G.walls_ledger(list(reversed(copy.deepcopy(ROWS))), ST)) == PAGE
++
++
++def test_the_generator_leaves_nothing_beside_b1905s_script():
++    G._walls_source()
++    assert not (ARC / "verification" / "__pycache__").exists()
+-- 
+2.43.0
+

@@ -1,0 +1,364 @@
+From 161f69414f1ed76f15989bba923da6a034657b83 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:07:06 +0000
+Subject: [PATCH] C13, patch 4 (cld-advisor, at main's word in M19; main's
+ fourth folder, item 5): A GATE ON A VERDICT LINE THAT CLAIMS A SELECTION: ITS
+ PAGE NAMES THE FAMILY OF ITS CRITERION
+
+Main asks for a gate on a verdict line that claims a selection ("selects", "picks", "singles out", "forced"
+with a value or a member as its object): it asks that the page name the family of the rule's third point, or
+the arc is reported. With planted cases both ways.
+
+THE GATE, selection-family, the 54th. It reads every verdict line from B1905 on. A clause of the line is a
+claim when it says "selects", "picks", "singles out", "is forced" or "forces"; when no word of denial or of
+condition stands before that word in its own clause; and when a value or a member is its object (a number,
+an equation, a code, or a word that names one of several). A clause ends at a full stop, a semicolon, a
+colon, a dash between spaces or a bracket, and an arc number in brackets is a citation and no value. The
+page must name one of the two families: "finite classification" or "consistency condition". It is
+registered with its failing-path test, and the practices page has its section.
+
+WHY FROM B1905 ON, measured before it was written, as the card said it would be: over every older verdict
+line, 115 read as claims by this reading, and the page of one of them names a family. Most are deductions
+("m^2+4 = k^2 forces m = 0") that the rule is not about, and none was written under it. Held by name they
+would be 114 names that say nothing. They are not read, and the gate prints their count, so that a change in
+the reading shows. Main's choice, asked on the card: held by name, or read from the rule's arc on.
+
+THE READING IS THE BUILDER'S AND MAIN'S TO CHANGE, and the test holds what it still does:
+  - STILL PASSES: a claim with no value or member as its object ("the beat selects the spin structure"); a
+    claim in other words than the five ("determines the value 3").
+  - STILL REFUSED THOUGH HONEST: a deduction written with "forces" ("m^2+4 = k^2 forces m = 0"). From B1905
+    on such a line names a family on its page or is reworded.
+
+THE TESTS. tests/test_selection_family.py, five tests: six claims read and eight sentences that claim
+nothing; a denial excuses only in its own clause and before the word, with its twin; what the reading still
+passes and refuses; the family on the page, the line from which the gate reads, an older arc counted and not
+read, a missing page; and the gate on this repository, with B1905's own line, which claims nothing, and its
+page, which names both families. The failing-path test in tests/test_gate_failing_paths.py.
+
+Every gate passes but the count of landings, and the stale-points check, which reads the day of the commit:
+on this base, committed on 2026-11-13, six October rows are past 21 days. Main moved them on its head
+(M22), and the series is built again there before it is sent.
+
+Not checked by main. Tested against planted errors by the session that wrote it.
+
+CORRECTED 2026-11-13, AFTER IT WAS FIRST SENT: this seat's own fault. As first sent, the gate's test named
+real arcs as its planted ones (B1204, B1225, B287 and B1904 to B1907). The paper's verification package
+counts every test file that names one of its records as a lock of that record, so its manifest went stale
+and its test failed from this patch on. The planted arcs are now numbers that name no arc (B01204 and the
+like). Nothing else of the patch is changed. Found while building card C14, by the paper's test.
+---
+ docs/PRACTICES.md                |  14 ++++
+ docs/views/THE_SPINE.md          |   3 +-
+ scripts/gates/gates.py           |  86 +++++++++++++++++++++++++
+ tests/GATE_CONTROLS.json         |   3 +-
+ tests/test_gate_failing_paths.py |  26 ++++++++
+ tests/test_selection_family.py   | 106 +++++++++++++++++++++++++++++++
+ 6 files changed, 236 insertions(+), 2 deletions(-)
+ create mode 100644 tests/test_selection_family.py
+
+diff --git a/docs/PRACTICES.md b/docs/PRACTICES.md
+index 92cc4d77c..10ed896f7 100644
+--- a/docs/PRACTICES.md
++++ b/docs/PRACTICES.md
+@@ -1443,3 +1443,17 @@ Three practices came out of the field stage's last window. Each answers a slip t
+     says otherwise. Each landing's report names the package it advanced and says whether one closed. And the order
+     ends in one package: the programme's builder refuses a second package that nothing needs, with the old order
+     planted as its test. MIXED.
++
++## A verdict line that claims a selection names its family — GATED (`selection-family`) (adopted 2026-11-12, B1905; WORKING_RULES, the rule "BEFORE A SELECTION OR A HAND IS CLAIMED")
++
++**The rule (main's, in the working rules with B1905).** A selection is claimed only by a criterion that can fail, and the
++page says which of the two families that have ever forced anything here it belongs to (B1204): a finite classification with
++a test of membership, or a consistency condition that a candidate can violate. The gate reads every verdict line from B1905
++on. A clause that says "selects", "picks", "singles out", "is forced" or "forces", with no word of denial or of condition
++before it in its own clause and a value or a member as its object, is a claim; its page must name one of the two families.
++The older lines are not read, and their count is printed: 114 on the day the gate came in, of which the page of one names a
++family. Most are deductions the rule is not about.
++
++**Why it exists.** B1905 read 511 arcs on selection and chirality: a measure settled no question of this kind and an extremum a
++quarter of those it was asked, while the record had drawn the lesson in August (B1204) and put it in no governing page. Steps
++1, 2 and 4 of the rule are MANUAL; the topic sweep prints the ledger of walls (step 1).
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 3663bb259..fb5621740 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1544 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1545 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1916,4 +1916,5 @@ Generated by `scripts/views/spine.py` — 1544 locks. Regenerated with the views
+ ## 2026-11-13
+ 
+ - — `test_ledger_of_walls.py` 
++- — `test_selection_family.py` 
+ - — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 0faf99436..05017ff62 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3025,6 +3025,91 @@ def gate_member_scope(reader=None):
+         return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
+     return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
+ 
++# ---------------------------------------------------------------------------------------------------------------------------
++# A VERDICT LINE THAT CLAIMS A SELECTION NAMES ITS FAMILY (2026-11-12; main's card C13, item 5; WORKING_RULES, the rule
++# "BEFORE A SELECTION OR A HAND IS CLAIMED", step 3, after B1204 and B1905).  A selection is claimed only by a criterion that
++# can fail, and the page says which of the two families that have ever forced anything here it belongs to: a finite
++# classification with a test of membership, or a consistency condition that a candidate can violate.
++#
++# What is a claim (the building session's reading of main's words, which are main's to change): a word of selection
++# ("selects", "picks", "singles out", "is forced", "forces") in a clause of the verdict line, with no word of denial or of
++# condition before it IN ITS OWN CLAUSE, and a value or a member as its object: a number, an equation, a code in backticks,
++# or a word that names one of several ("one", "unique", "exactly", "only", "the root", "the hand", ...).  A clause ends at a
++# full stop, a semicolon, a colon, a dash between spaces, or a bracket.  An arc number in brackets is a citation and is no
++# value.  The family is read on the arc's page: one of the two phrases "finite classification" and "consistency condition".
++#
++# THE GATE READS ARCS FROM B1905 ON, the arc with which the rule came in.  Measured on 2026-11-12 over every older verdict line:
++# 115 read as claims by this reading and 1 of their pages names a family.  Most are deductions ("m^2+4 = k^2 forces m = 0")
++# that the rule is not about, and none was written under it.  They are not read, and their count is printed, so that a
++# change in the reading shows.
++SELECTION_FAMILY_FROM = 1905
++_SEL_VERB = re.compile(r"\b(selects|selected|select|picks|picked|singles out|singled out|single out|is forced|are forced|was forced|forced to be|forces)\b", re.I)
++_SEL_CLAUSE_END = re.compile(r"(?:[.;:!?](?:\s|$)|\s--\s|\s—\s|\s–\s|\(|\)|\[|\])")
++_SEL_DENY = re.compile(r"\b(no|not|never|cannot|nothing|none|neither|nor|without|fails? to|whether|if|would|could|might|unless)\b|\b\w+n't\b", re.I)
++_SEL_OBJECT = re.compile(r"\d|=|`|\b(one|a single|the single|unique|uniquely|exactly|only|the value|a value|the member|a member|the root|the hand|"
++                         r"the orientation|the sign|the level|the lift|the branch|the thread|the state|m00\d)\b", re.I)
++_SEL_CITATION = re.compile(r"\(?\b(?:B|P-|E|R|L|T|X|W)\d+[a-z]?\b\)?|\b0 of 19\b")
++SELECTION_FAMILIES = re.compile(r"finite classification|consistency condition", re.I)
++
++
++def selection_claims_in(line):
++    """the clauses of a verdict line that claim a selection with a value or a member as its object"""
++    out = []
++    for m in _SEL_VERB.finditer(line):
++        start = 0
++        for e in _SEL_CLAUSE_END.finditer(line, 0, m.start()):
++            start = e.end()
++        nxt = _SEL_CLAUSE_END.search(line, m.end())
++        end = nxt.start() if nxt else len(line)
++        before, after = line[start:m.start()], line[m.end():end]
++        if _SEL_DENY.search(before):
++            continue
++        if not _SEL_OBJECT.search(_SEL_CITATION.sub(" ", before + " " + after)):
++            continue
++        out.append(" ".join(line[start:end].split()))
++    return out
++
++
++def selection_family_hits(reader=None, first=None):
++    """(arc id, the clause) for each arc from `first` on whose verdict line claims a selection and whose page names neither
++    family; and the count of older arcs that the same reading would report."""
++    reader = reader or (lambda rel: _read(rel))
++    first = SELECTION_FAMILY_FROM if first is None else first
++    hits, older = [], 0
++    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
++        rel = os.path.relpath(p, ROOT)
++        try:
++            d = json.loads(reader(rel))
++        except Exception:
++            continue
++        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
++        num = int(re.sub(r"\D", "", aid) or 0)
++        claims = selection_claims_in(str(d.get("claim_one_line", "")))
++        if not claims:
++            continue
++        try:
++            page = reader(os.path.join(os.path.dirname(rel), "FINDINGS.md"))
++        except Exception:
++            page = ""
++        if SELECTION_FAMILIES.search(page or ""):
++            continue
++        if num < first:
++            older += 1
++        else:
++            hits.append((aid, claims[0][:120]))
++    return hits, older
++
++
++def gate_selection_family(reader=None):
++    """WORKING_RULES, the rule of 2026-11-12, step 3: an arc from B1905 on whose verdict line claims a selection, with a value
++    or a member as its object, names on its page which of the two families its criterion belongs to (B1204)."""
++    hits, older = selection_family_hits(reader)
++    if hits:
++        return False, ("%d verdict line(s) from B%d on claim a selection and the page names neither family (a finite classification with a test "
++                       "of membership, or a consistency condition): " % (len(hits), SELECTION_FAMILY_FROM)) + "; ".join("%s: %s" % h for h in hits[:5])
++    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
++
++
+ _SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
+ 
+ 
+@@ -3175,6 +3260,7 @@ GATES = {
+     "pretense-phrases": gate_pretense_phrases,
+     "member-scope": gate_member_scope,
+     "seat-positive-verified": gate_seat_positive_verified,
++    "selection-family": gate_selection_family,
+ }
+ 
+ 
+diff --git a/tests/GATE_CONTROLS.json b/tests/GATE_CONTROLS.json
+index f7ae62ff3..448c4fa54 100644
+--- a/tests/GATE_CONTROLS.json
++++ b/tests/GATE_CONTROLS.json
+@@ -51,5 +51,6 @@
+  "seal-immutable": "tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit",
+  "artifact-hashes": "tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten",
+  "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused",
+- "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused"
++ "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused",
++ "selection-family": "tests/test_gate_failing_paths.py::test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family"
+ }
+diff --git a/tests/test_gate_failing_paths.py b/tests/test_gate_failing_paths.py
+index a76d292f9..d892fb000 100644
+--- a/tests/test_gate_failing_paths.py
++++ b/tests/test_gate_failing_paths.py
+@@ -410,3 +410,29 @@ def test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row(mo
+     assert any(x.startswith("B9:") for x in off_bad)
+     monkeypatch.setattr(gates, "seal_order_class", lambda rev="HEAD": {"B1": "aaaaaaaaa1", "B99999": "eeeeeeeee5"})
+     ok, why = gates.gate_seal_order_unshown(); assert ok is False and "B99999" in why
++
++
++def test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family(monkeypatch):
++    """C13 (2026-11-12): an arc from B1905 on whose verdict line claims a selection fails unless its page names a family;
++    the same claim with a family named passes, an older arc is counted and not read, and a denial in the clause is no claim."""
++    import json as _json
++    mapping = {
++        "frontier/B99980_a/arc_verdict.json": _json.dumps({"id": "B99980", "verdict": "PROVED", "claim_one_line": "THE READ-OUT SELECTS ONE MEMBER, m004."}),
++        "frontier/B99980_a/FINDINGS.md": "# B99980\n\nThe read-out is greatest at m004.\n",
++        "frontier/B99981_b/arc_verdict.json": _json.dumps({"id": "B99981", "verdict": "PROVED", "claim_one_line": "THE CENSUS SELECTS ONE MEMBER, m004."}),
++        "frontier/B99981_b/FINDINGS.md": "# B99981\n\nThe criterion is a finite classification with a test of membership.\n",
++        "frontier/B99982_c/arc_verdict.json": _json.dumps({"id": "B99982", "verdict": "NEGATIVE", "claim_one_line": "No rule selects one member."}),
++        "frontier/B99982_c/FINDINGS.md": "# B99982\n",
++        "frontier/B1000_d/arc_verdict.json": _json.dumps({"id": "B1000", "verdict": "PROVED", "claim_one_line": "The flow selects the value 3."}),
++        "frontier/B1000_d/FINDINGS.md": "# B1000\n",
++    }
++    monkeypatch.setattr(gates.glob, "glob", lambda pat: [os.path.join(gates.ROOT, k) for k in mapping if k.endswith("arc_verdict.json")])
++    read = lambda rel: mapping[rel.replace(os.sep, "/")]
++    hits, older = gates.selection_family_hits(reader=read)
++    assert [h[0] for h in hits] == ["B99980"] and older == 1
++    ok, msg = gates.gate_selection_family(reader=read)
++    assert not ok and "B99980" in msg and "B99981" not in msg and "B99982" not in msg
++    del mapping["frontier/B99980_a/arc_verdict.json"]
++    ok, msg = gates.gate_selection_family(reader=read)
++    assert ok and "1 older line(s)" in msg
++
+diff --git a/tests/test_selection_family.py b/tests/test_selection_family.py
+new file mode 100644
+index 000000000..00ab4437f
+--- /dev/null
++++ b/tests/test_selection_family.py
+@@ -0,0 +1,106 @@
++"""The gate `selection-family` (main's card C13, item 5; WORKING_RULES, the rule of 2026-11-12, step 3): a verdict line from
++B1905 on that claims a selection, with a value or a member as its object, has a page that names the family of its criterion.
++
++The reading of a claim is the building session's and main's to change.  Held here: the claims it reads and the sentences it
++does not; what it still passes and what it still refuses though it is honest, each said; the family on the page; the line
++from which the gate reads; and the gate on this repository."""
++import importlib.util
++import json
++import os
++import pathlib
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _gates():
++    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
++    try:
++        spec = importlib.util.spec_from_file_location("gates_for_selection", ROOT / "scripts" / "gates" / "gates.py")
++        m = importlib.util.module_from_spec(spec)
++        spec.loader.exec_module(m)
++    finally:
++        sys.dont_write_bytecode = was
++    return m
++
++
++g = _gates()
++claims = g.selection_claims_in
++
++CLAIMS = (
++    "THE READ-OUT SELECTS ONE MEMBER, m004.",
++    "The census picks the root m004 of the two.",
++    "The flow singles out the value 3/2.",
++    "So k = 1 is forced.",
++    "The beat selects the lift: exactly one spin structure carries it.",
++    "A finite classification selects the unique torus bundle (B0287).",          # a claim: whether its page names the family is the gate's question
++)
++NOT_CLAIMS = (
++    "No rule selects one member.",
++    "Nothing in the object selects a value.",
++    "The read-out does not single out m004.",
++    "Whether the weight selects one member is open.",
++    "If the flow selected a value, it would be 3.",
++    "The picks that stand are of the object's own structure, by a uniqueness theorem, arithmetic or a census.",   # a noun, and no value
++    "B01204 says why a symmetry selects nothing (B01225).",                     # "nothing" is the object
++    "The arc selects (B01204) its question.",                                   # a citation is no value
++)
++
++
++def test_the_claims_are_read_and_the_sentences_that_claim_nothing_are_not():
++    for s in CLAIMS:
++        assert claims(s), s
++    for s in NOT_CLAIMS:
++        assert not claims(s), s
++
++
++def test_a_denial_excuses_only_in_its_own_clause_and_before_the_word():
++    # a denial in an earlier clause does not excuse a claim in a later one; a denial after the word does not either
++    assert claims("No measure settles it; the extremum selects the value 2.")
++    assert claims("The rule selects one member, which is not m003.")
++    # the twin: the same denial in the claim's own clause before the word
++    assert not claims("The measure settles it; no extremum selects the value 2.")
++
++
++def test_what_the_reading_still_passes_and_still_refuses_is_said():
++    # STILL PASSES: a claim with no value or member as its object that a reader would call a selection
++    assert not claims("The beat selects the spin structure.")
++    # STILL PASSES: a claim in other words than the five
++    assert not claims("The census determines the value 3.")
++    # STILL REFUSED THOUGH HONEST: a deduction, which the rule is not about ("forces" as "implies"); such a line from B1905 on
++    # names a family on its page or is reworded
++    assert claims("m^2+4 = k^2 forces m = 0.")
++
++
++def test_the_family_is_read_on_the_page_and_the_gate_reads_from_b1905_on(monkeypatch):
++    lines = {"B01905": "THE COUNT SELECTS ONE ROW.", "B01906": "THE CENSUS SELECTS ONE MEMBER.", "B01907": "THE ANOMALY PICKS ONE MEMBER.",
++             "B01904": "THE FLOW SELECTS ONE VALUE."}
++    pages = {"B01905": "a reading", "B01906": "it is a FINITE CLASSIFICATION with a test of membership", "B01907": "a consistency condition that a candidate can violate",
++             "B01904": "none"}
++    mapping = {}
++    for aid in lines:
++        mapping["frontier/%s_x/arc_verdict.json" % aid] = json.dumps({"id": aid, "verdict": "PROVED", "claim_one_line": lines[aid]})
++        mapping["frontier/%s_x/FINDINGS.md" % aid] = "# %s\n\n%s\n" % (aid, pages[aid])
++    monkeypatch.setattr(g.glob, "glob", lambda pat: [os.path.join(g.ROOT, k) for k in sorted(mapping) if k.endswith("arc_verdict.json")])
++    read = lambda rel: mapping[rel.replace(os.sep, "/")]
++    hits, older = g.selection_family_hits(reader=read)
++    assert [h[0] for h in hits] == ["B01905"] and older == 1                    # B01904 is older and counted; B01906 and B01907 name a family
++    ok, msg = g.gate_selection_family(reader=read)
++    assert not ok and msg.startswith("1 verdict line(s) from B1905 on claim a selection")
++    mapping["frontier/B01905_x/FINDINGS.md"] += "\nIts criterion is a consistency condition.\n"
++    assert g.gate_selection_family(reader=read)[0] is True
++    # a page that is missing reads as naming nothing
++    del mapping["frontier/B01907_x/FINDINGS.md"]
++    assert [h[0] for h in g.selection_family_hits(reader=read)[0]] == ["B01907"]
++
++
++def test_on_this_repository_the_gate_passes_and_counts_the_older_lines():
++    ok, detail = g.GATES["selection-family"]()
++    assert ok is True, detail
++    hits, older = g.selection_family_hits()
++    assert hits == [] and ("%d older line(s)" % older) in detail
++    assert g.SELECTION_FAMILY_FROM == 1905
++    # B1905's own verdict line claims nothing by this reading, and its page names both families
++    v = json.loads((ROOT / "frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json").read_text(encoding="utf-8"))
++    assert claims(v["claim_one_line"]) == []
++    assert g.SELECTION_FAMILIES.search((ROOT / "frontier/B1905_selection_and_chirality_across_the_record/FINDINGS.md").read_text(encoding="utf-8"))
+-- 
+2.43.0
+

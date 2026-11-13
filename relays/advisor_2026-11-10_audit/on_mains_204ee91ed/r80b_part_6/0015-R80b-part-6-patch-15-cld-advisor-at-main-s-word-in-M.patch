@@ -1,0 +1,118 @@
+From cbec1e5e3d755ec77ddc9869b37cab19749e539c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:08:31 +0000
+Subject: [PATCH] R80b, part 6, patch 15 (cld-advisor, at main's word in M16;
+ main's third folder, section 2, row A13): B1880'S LOCK HOLDS WHAT ITS TWO
+ SCRIPTS SAY AND WRITE, AND THE KEPT RUN SAYS WHICH RUN IT IS
+
+A reader's check of main's answers at Review 80 (agy-002's; row A13; main held the kept run's last line and
+did not check the lock). The docstrings of B1880's two scripts were corrected, and the lock reads neither,
+so either mend put back passes. And the kept run of the measuring script ends with the line of a run made
+with --write.
+
+Made again here: the lock passes with the corrected bracket taken out of either docstring.
+
+The lock now holds:
+  - the sentences of the two docstrings that the corrections wrote, and the old words each keeps;
+  - that each script does what its docstring says. The measuring script writes three files: the frozen list
+    under --write, and the folder's two outputs under --keep-outputs. The reading script writes its run
+    under --write. Each write is found in the script's own tree, with the conditions it stands under.
+Five planted changes are reported: the bracket taken out of each docstring; the measuring script said again
+to write at every run; the folder's outputs written at every run again; the reading script made to write
+at every call.
+
+THE KEPT RUN has one dated line added at its end. It says that the line above it is the line of a run made
+with --write; that the run kept was made so on the day the arc landed, when the script still wrote this
+file at every run; and that a run without --write ends before that line and writes nothing. That is the
+builder's reading of the script's own history, and is main's to correct. Nothing else of the file is changed.
+
+The lock passes: 10 tests. Every gate passes but the count of landings.
+Not checked by main as to the lock. Tested against planted errors by the session that wrote it.
+---
+ .../measure_all_hash_lists_run.txt            |  1 +
+ ...the_third_and_fourth_re_audits_answered.py | 63 +++++++++++++++++++
+ 2 files changed, 64 insertions(+)
+
+diff --git a/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists_run.txt b/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists_run.txt
+index 5cf9c2ebf..8aeb4a355 100644
+--- a/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists_run.txt
++++ b/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists_run.txt
+@@ -77,3 +77,4 @@
+    ambiguous entries, declared by name in the gate and not frozen: 2
+    sha256 of the table: 01621ae48200b20c3e50d8974844aa09fc0ee291ff050b24fcbbf57a42cd7bdc
+    written: scripts/gates/hash_lists_frozen.json
++[NOTE 2026-11-12 (Review 80; a reader's check of main's answers, held by main): the line above is the line of a run made with --write. The run kept here was made with --write on the day the arc landed, when the script still wrote this file at every run (corrected 2026-11-12, Review 79). Since then this file is written only by a run made with --keep-outputs, and a run without --write ends before that line and writes nothing.]
+diff --git a/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py b/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py
+index 37381f769..ec0677ba1 100644
+--- a/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py
++++ b/frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py
+@@ -152,3 +152,66 @@ def test_the_record_carries_the_harvest_and_the_arc():
+     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+     for s in ("## Seen first", "## Disclosed", "## Reproduce", "0 of 19", "eight hours late"):
+         assert s in f
++
++
++# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A13; main held the kept run's last line and did
++# not check the lock).  The docstrings of this arc's two scripts were corrected, and the lock read neither: either mend put
++# back passed.  And the kept run of the measuring script ends with the line of a run made with --write, with nothing to say
++# which run it is.
++def _what_the_two_scripts_do_not_say(measure, read_a):
++    import ast
++    out = []
++    flat = lambda source: " ".join((ast.get_docstring(ast.parse(source)) or "").split())
++    dm, dr = flat(measure), flat(read_a)
++    for s in ("measure and print; nothing is written anywhere",
++              "--keep-outputs # also write all_hash_lists.json and measure_all_hash_lists_run.txt in this folder",
++              "the line above named all_hash_lists_run.txt, a file this script has never written",
++              "--write, below, writes the frozen list alone: the folder's two outputs are written only with --keep-outputs",
++              "it said that the table is written at every run"):
++        if s not in dm:
++            out.append("the measuring script's docstring does not say: " + s)
++    for s in ("nine files are read, the seven of class A and the two of class B", "with --write the result is written beside this script"):
++        if s not in dr:
++            out.append("the reading script's docstring does not say: " + s)
++    # and each script does what its docstring says: every write of a file stands under the flag the docstring names for it
++    def writes(source):
++        got = []
++        def walk(node, guards):
++            for child in ast.iter_child_nodes(node):
++                under = guards + [ast.unparse(child.test)] if isinstance(child, ast.If) else guards
++                if isinstance(child, ast.Call) and isinstance(child.func, ast.Attribute) and child.func.attr == "write_text":
++                    got.append((ast.unparse(child.func.value), tuple(guards)))
++                walk(child, under)
++        walk(ast.parse(source), [])
++        return got
++    for target, guards in writes(measure):
++        want = "write" if "HASH_LISTS_FROZEN_FILE" in target else "'--keep-outputs' in sys.argv"
++        if want not in guards:
++            out.append("the measuring script writes %s outside the flag its docstring names" % target)
++    if len(writes(measure)) != 3:
++        out.append("the measuring script writes %d files, not three" % len(writes(measure)))
++    for target, guards in writes(read_a):
++        if "'--write' in sys.argv" not in guards:
++            out.append("the reading script writes %s outside --write" % target)
++    return out
++
++
++def test_the_two_scripts_say_what_they_write_and_the_kept_run_says_which_run_it_is():
++    measure = (HERE / "measure_all_hash_lists.py").read_text(encoding="utf-8")
++    read_a = (HERE / "read_class_a.py").read_text(encoding="utf-8")
++    assert _what_the_two_scripts_do_not_say(measure, read_a) == []
++    planted = {
++        "the measuring script's corrected bracket taken out": (measure[:measure.index("    [CORRECTED 2026-11-12 (Review 80;")] + measure[measure.index("    python3 -B measure_all_hash_lists.py --write"):], read_a),
++        "the measuring script said again to write at every run": (measure.replace("# measure and print; nothing is written anywhere", "# measure, print, and write the table"), read_a),
++        "the reading script's corrected bracket taken out": (measure, read_a.replace(read_a[read_a.index("[CORRECTED 2026-11-12 (Review 80;"):read_a.index("beside this script.]") + len("beside this script.]")], "")),
++        "the folder's outputs written at every run again": (measure.replace('    if "--keep-outputs" in sys.argv:\n        (HERE / "all_hash_lists.json")', '    if True:\n        (HERE / "all_hash_lists.json")'), read_a),
++        "the reading script made to write at every call": (measure, read_a.replace('    if "--write" in sys.argv:\n        (HERE / "read_class_a_run.txt")', '    if True:\n        (HERE / "read_class_a_run.txt")')),
++    }
++    for what, (m, r) in planted.items():
++        assert (m, r) != (measure, read_a), what
++        compile(m, "measure", "exec"); compile(r, "read", "exec")
++        assert _what_the_two_scripts_do_not_say(m, r), what
++    run = (HERE / "measure_all_hash_lists_run.txt").read_text(encoding="utf-8").rstrip("\n").split("\n")
++    assert run[-2] == "   written: scripts/gates/hash_lists_frozen.json"
++    assert run[-1].startswith("[NOTE 2026-11-12 (Review 80;") and "the line above is the line of a run made with --write" in run[-1]
++    assert sum(1 for l in run if l.startswith("[NOTE")) == 1
+-- 
+2.43.0
+

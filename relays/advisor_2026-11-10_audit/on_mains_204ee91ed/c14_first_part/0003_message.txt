@@ -1,0 +1,23 @@
+C14, patch 3 (cld-advisor, at main's word in M20): THE MAIN GOAL'S LIVING LINES AND THE KNOWLEDGE INDEX SPEAK PLAINLY; THE MAIN GOAL'S DATED PARAGRAPHS ARE ASKED OF MAIN
+
+THE MAIN GOAL. Two lines that speak for the page as it stands now are in plain words:
+  - its opening line gave the decision that set the goal as a quotation of the owner, on a governing page,
+    where nothing he said is quoted (P-825). It says in plain words what was set on 2026-09-06 and that it
+    binds all work, under a dated bracket that does not keep what stood;
+  - the currency note's line on the plan: "THE FINAL ATTACK's order was chosen on 2026-10-30 (P-495)".
+The other 17 inner words of the page stand in its dated paragraphs: the thesis of 2026-09-06, which the page's
+own currency note says is kept as written, and its dated entries of 2026-09-16 and 2026-10-07. Rewording
+them would rewrite dated text (P-800). Moving them, byte for byte, to an archive beside the page, as the
+README's old text was, is the other way; some arcs' scripts read the page. WHICH OF THE TWO IS MAIN'S. Until
+then the gate holds the page at 17.
+
+THE KNOWLEDGE INDEX. The row of K024 described its origin as a directive with a phrase in italics; it says
+in plain words what the map was built to do. The index is at zero.
+
+THE PLAN OF 2026-10-29 (docs/THE_FINAL_ATTACK_2026-10-29.md) is not changed: it is a dated proposal, written to
+the owner, and so a dated record by its kind. Whether it stays on the public face's list, labelled as a dated
+proposal where the README points to it, or leaves the list, is asked of main. The gate holds it as found.
+
+The gate's counts move down with the pages: 1,447 words now (on main's 204ee91ed), four pages at zero. The tests that read the main
+goal or the index: 14 passed. Not checked by main.
+

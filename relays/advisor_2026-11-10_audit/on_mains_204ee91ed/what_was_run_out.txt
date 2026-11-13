@@ -1,0 +1,85 @@
+Every gate of scripts/gates/gates.py on a clean checkout of each commit of the chain built on main's 204ee91ed, in order
+(the gate count grows from 53 to 55 as C13's fourth patch and C14's first add theirs). red: the gates that did not pass.
+
+ 1 297f3000b 53 gates; red: - |
+ 2 87298b906 53 gates; red: - |
+ 3 a42c25045 53 gates; red: - |
+ 4 fb622a500 53 gates; red: - |
+ 5 b72d4029f 53 gates; red: - |
+ 6 2ea8d6570 53 gates; red: - |
+ 7 e78fc32c0 53 gates; red: - |
+ 8 593555816 53 gates; red: - |
+ 9 4bef767ff 53 gates; red: - |
+10 d5f0f9e64 53 gates; red: - |
+11 f6865d267 53 gates; red: - |
+12 9a9155a97 53 gates; red: review-fires |
+13 a91f691e2 53 gates; red: review-fires |
+14 362d47674 53 gates; red: review-fires |
+15 110653475 53 gates; red: review-fires |
+16 10cf3669c 53 gates; red: review-fires |
+17 16d7b7cff 53 gates; red: review-fires |
+18 26f1101ba 53 gates; red: review-fires |
+19 b98e0453d 53 gates; red: review-fires |
+20 2e9d359f0 53 gates; red: review-fires |
+21 f07e88242 53 gates; red: review-fires |
+22 68554f324 53 gates; red: review-fires |
+23 9d1c99f6d 53 gates; red: review-fires |
+24 81d86a338 53 gates; red: review-fires |
+25 8483d6421 53 gates; red: review-fires |
+26 ba6746aee 53 gates; red: review-fires |
+27 28b0aa494 53 gates; red: review-fires |
+28 a03f91177 53 gates; red: review-fires |
+29 27768cfa3 53 gates; red: review-fires |
+30 161f69414 54 gates; red: review-fires |
+31 da578b718 54 gates; red: review-fires |
+32 0ecad4048 54 gates; red: review-fires |
+33 c30944f2f 54 gates; red: review-fires |
+34 aeab4add7 54 gates; red: review-fires |
+35 540acf59f 54 gates; red: review-fires |
+36 89ce0fb2a 54 gates; red: review-fires |
+37 ed8453095 54 gates; red: review-fires |
+38 5bbc125c5 54 gates; red: review-fires |
+39 2288a82b2 54 gates; red: review-fires |
+40 6cb8df57d 54 gates; red: review-fires |
+41 4ef01e513 54 gates; red: review-fires |
+42 1c5150ac1 54 gates; red: review-fires |
+43 c10660c95 54 gates; red: review-fires |
+44 084099d74 54 gates; red: review-fires |
+45 904a2b4c0 54 gates; red: review-fires |
+46 cbec1e5e3 54 gates; red: review-fires |
+47 3ec17325e 54 gates; red: review-fires |
+48 b6700b8e2 54 gates; red: review-fires |
+49 b6e3164e3 54 gates; red: review-fires |
+50 b29907b6e 54 gates; red: review-fires |
+51 0f07fd3a3 54 gates; red: review-fires |
+52 59dc38db4 54 gates; red: review-fires |
+53 53907e039 54 gates; red: review-fires |
+54 3f56b0203 54 gates; red: review-fires |
+55 0854ffa4a 54 gates; red: review-fires |
+56 90d0b2075 54 gates; red: review-fires |
+57 2efcabcc2 54 gates; red: review-fires |
+58 cf64e7f98 55 gates; red: review-fires |
+59 0c7465382 55 gates; red: review-fires |
+60 bde6aa8a2 55 gates; red: review-fires |
+61 2ec2d302b 55 gates; red: review-fires |
+62 7e5400d4f 55 gates; red: review-fires |
+63 76b305b57 55 gates; red: review-fires |
+64 b639e1354 55 gates; red: review-fires |
+65 7052e6ee0 55 gates; red: review-fires |
+66 b87085ea5 55 gates; red: review-fires |
+67 b04f36648 55 gates; red: review-fires |
+68 ae5288e43 55 gates; red: review-fires |
+69 792b88e03 55 gates; red: review-fires |
+70 64509a3dc 55 gates; red: review-fires |
+71 aeb3f8aaa 55 gates; red: review-fires |
+72 668ce444f 55 gates; red: review-fires |
+73 807f681fc 55 gates; red: review-fires |
+74 baf73062a 55 gates; red: review-fires |
+75 4f0090882 55 gates; red: review-fires |
+76 20f5b56b4 55 gates; red: review-fires |
+77 612b3bfbf 55 gates; red: review-fires |
+78 0f4ce6113 55 gates; red: review-fires |
+79 5b461bb56 55 gates; red: review-fires |
+80 08b354bb7 55 gates; red: review-fires |
+81 902182379 55 gates; red: review-fires |
+82 5986134db 55 gates; red: review-fires |

@@ -1,0 +1,778 @@
+From 4f0090882f4382c8e0a0f50fef55ac60cad304c3 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:11:07 +0000
+Subject: [PATCH] C11 (cld-advisor, at main's word in M16, register row P-745;
+ Review 80's item R80-8): THE SEVEN PROCESS ARCS LEFT AT VERDICT OPEN, EACH
+ RESIDUE CHECKED AT THE FILE THAT DECIDES IT
+
+Seven process arcs of 2026-08-27 stood at verdict OPEN: B1171, B1172, B1173, B1176, B1177, B1178 and B1179. Main's
+word: check every residue each names against today's record, with a quotation at the file that decides it; close
+what was discharged, re-point the rest to its register row, or mark the arc open by design.
+
+WHAT WAS CHECKED: the fifteen residues the seven name in their own words. Each was looked for across the register,
+the leads, the ledgers and the later arcs, and each quotation was found character for character in its file.
+
+  DISCHARGED (5): B1171's time's-arrow instrument (run by B1182); B1171's ask on the R018 numbering gap (R018
+    exists and is rowed); B1172's review-carry half (Review 50; the gate on carries); the first OA_SLOW run, for
+    B1177 and B1178 (B1207); B1179's send-queue (every item decided HOLD; it stays built and unsent).
+  CARRIED (7): Krutelevich's citation (L162, P-332); the MC1 assignment row (P-233); L185's thirteen digest
+    rows and its two likeliest reopens (L185); U_e (P-638); the quasinormal channel (P-287, by a reader's
+    routing; L189 stays open); the B792 path repairs (P-322, which counts four); the census calls (the queue
+    of the remaining mathematics).
+  UNREGISTERED (4): no row, lead or later arc decides B1171's zeta-12 / dP6 certificate, B1172's Wave 2 and
+    Wave 3 queues (only Wave 3's first item is done, by B1174), B1177's promotion pass (the review item that
+    held it closed with B1207, which does not name it; CLAIMS.md has no row of B909 or B952), or B1179's
+    cold-pass election. Each is re-pointed to P-745, and P-745's dated addition lists them for main to row or
+    to decline.
+
+WHAT CHANGES.
+  - Each arc's page gains a dated section: the table of its residues, the outcome, the file read, the
+    quotation, and what carries each. Nothing of the page is reworded.
+  - B1178, whose one residue is discharged, is closed: its verdict is PROVED from this date, as a process arc
+    whose work is done, with a dated bracket at the end of its verdict line that says so and that it states no
+    theorem.
+  - The six others stay OPEN with a dated marker, ESCALATED(2026-11-13, P-745; carried by ...), beside main's
+    marker of 2026-11-10.
+  - P-745 gains a dated addition in its next-action cell.
+
+THE LOCK, tests/test_the_seven_process_arcs_checked.py, four tests: each quotation stands in its file (a
+quotation changed by one word is not found); each page carries its section, made from the lock's own table,
+and the verdicts follow it (B1178 closed, the six OPEN with their marker); the aged-debt check excuses an OPEN
+arc only by a marker (each page with its markers taken out is excused by nothing), and does not list the closed
+arc; and P-745 names each unregistered residue. On the commit before: 3 failed, 1 passed.
+
+The lock, the seven arcs' own tests, the verdict schema and the tests of the aged-debt and register checks:
+1,668 passed. Every gate passes but the count of landings. Not checked by main.
+---
+ README.md                                     |   2 +-
+ docs/POINT_REGISTER.md                        |   2 +-
+ docs/views/CONTEXT_RECOVERY.md                |   4 +-
+ docs/views/REVIEWER.md                        |   8 +-
+ docs/views/THE_SPINE.md                       |   6 +-
+ docs/views/VERDICT_LEDGER.md                  |  18 +--
+ frontier/B1171_seam_harvest/FINDINGS.md       |  13 ++
+ .../B1172_lose_nothing_register/FINDINGS.md   |  12 ++
+ .../B1173_digest_partial_close/FINDINGS.md    |  11 ++
+ .../B1176_record_surface_wave/FINDINGS.md     |  11 ++
+ frontier/B1177_instrument_bundle/FINDINGS.md  |  12 ++
+ frontier/B1178_l184_lazyfy/FINDINGS.md        |  10 ++
+ frontier/B1178_l184_lazyfy/arc_verdict.json   |   6 +-
+ .../B1179_outreach_and_papers/FINDINGS.md     |  12 ++
+ scripts/atlas/atlas_data.json                 |  15 +-
+ tests/c11_lock.py                             | 146 ++++++++++++++++++
+ tests/test_the_seven_process_arcs_checked.py  | 146 ++++++++++++++++++
+ 17 files changed, 410 insertions(+), 24 deletions(-)
+ create mode 100644 tests/c11_lock.py
+ create mode 100644 tests/test_the_seven_process_arcs_checked.py
+
+diff --git a/README.md b/README.md
+index b112476b5..b02c1e3e7 100644
+--- a/README.md
++++ b/README.md
+@@ -21,7 +21,7 @@ nothing in this block is typed by hand.*
+ |---|---|
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+ | the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
+-| arcs with a verdict | 1607: 1112 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
++| arcs with a verdict | 1607: 1113 PROVED, 384 NEGATIVE, 98 OPEN, 12 RETRACTED |
+ | points in the register | 839: 308 open (queued work, leads, and questions not yet decided), 531 closed |
+ | the last review | Review 80 (2026-11-12), anchor `c40446392` |
+ | the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PR… |
+diff --git a/docs/POINT_REGISTER.md b/docs/POINT_REGISTER.md
+index d35e4768b..37a69e094 100644
+--- a/docs/POINT_REGISTER.md
++++ b/docs/POINT_REGISTER.md
+@@ -950,7 +950,7 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-742 | 2026-11-07 | SE | VOLUME AND A UNIQUE LIGHTEST STATE SELECT (6) UNDER BOTH LEVEL-5 READINGS (B1857; the explore seat's post hoc, range-scoped): the two line-invisible departures cheaper by volume, (2,1,1,1,2) at 1.3972 and (2,1⁸,2) at 1.4103, are exactly the mirror-degenerate ones (checked on main), leaving (6) at 1.5714 with a stated gap of 0.414 | QUEUED | [LEAD] Q3: 2026-11-11 (B1875): the record's two line-invisible 'mirror' departures described exactly. (2,1,1,1,2) closed by one golden period is LLRLR twice over and is -1 modulo 5; its deck move moves the line, and the reversal that exchanges its two runs of 2 keeps it. (2,1^8,2) has its two runs of 2 as L^2 and R^2, exchanged by a reversal that swaps the letters and carries the line to its twin. [was: a pre-registered rerun with a completeness bound on the volume action (the gap to the next unique line-invisible departure), before the post hoc is used] | 2026-11-11 |
+ | P-743 | 2026-11-07 | SE | WHAT FIXES THE FIBRE AREA A (B1857): the read-out by a state is exact only as A → 0 (⟨Im⟩/H* = 0.998, 0.980, 0.861, 0.758 at A = 10⁻⁴, 10⁻², 1, 2π; width ~ √(A H*/8π²)); the flat-fibre bundle's area is a free scale in the Sol model | QUEUED | [LEAD] Q3: an object-native area (the hyperbolic fibre's area 2π for a punctured torus, or none), stated before any read-out uses it | 2026-11-07 |
+ | P-744 | 2026-11-07 | SE | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC (B1857): the state principle was tried in the flat-fibre (Sol) model, whose clock the record counts as chosen (B1815); under the τ read-out rule the read-out lives on the hyperbolic metric's own clock (harmonic time) | QUEUED | [LEAD] Q3: 2026-11-11 (B1875, B1876): two facts for when this is computed. A symmetry of the cyclic word is an isometry of the bundle (SnapPy, 36 of 36 composites of up to 30 letters), so, given a state, two equal palindromic departures share it and a history done twice has no one place. And a departure's own invariants settle in a long golden ground by the factor (5 + sqrt 21)/2 per period, so a departure is a local object there (P-775). [was: where the lowest state of the hyperbolic structure (its harmonic-time slicing) localises along the circle, and whether it sits at the tube — data-free, stated before computing] | 2026-11-11 |
+-| P-745 | 2026-11-10 | SE | THE SEVEN PROCESS ARCS OF 2026-08-27 LEFT AT VERDICT OPEN (B1171, B1172, B1173, B1176, B1177, B1178, B1179; found when the lead-debt gate failed the refetch's push: B1665 crossed 21 days on 2026-11-08, and these seven would cross on 2026-11-14): each is a process arc whose OPEN is that date's convention for an arc with no theorem, and each names residues in its own words (the time's-arrow instrument queued; the MC1 assignment row; L185's thirteen digest rows; U_e and the quasinormal channel; the promotion pass and three B792 path repairs; the first OA_SLOW run; the six-bar specialist send-queue waiting on the owner's per-item word) | QUEUED | [PROCESS] Q8: check each named residue against today's record with a quote at the deciding file; close what was discharged and re-point the rest to its register row; each arc carries a dated ESCALATED note naming this row; done at S306n: B1664 and B1665 marked open by design (failed sealed gates, answered by B1666) and the stale-arc baseline lowered 77 → 76 | 2026-11-10 |
++| P-745 | 2026-11-10 | SE | THE SEVEN PROCESS ARCS OF 2026-08-27 LEFT AT VERDICT OPEN (B1171, B1172, B1173, B1176, B1177, B1178, B1179; found when the lead-debt gate failed the refetch's push: B1665 crossed 21 days on 2026-11-08, and these seven would cross on 2026-11-14): each is a process arc whose OPEN is that date's convention for an arc with no theorem, and each names residues in its own words (the time's-arrow instrument queued; the MC1 assignment row; L185's thirteen digest rows; U_e and the quasinormal channel; the promotion pass and three B792 path repairs; the first OA_SLOW run; the six-bar specialist send-queue waiting on the owner's per-item word) | QUEUED | [PROCESS] Q8: check each named residue against today's record with a quote at the deciding file; close what was discharged and re-point the rest to its register row; each arc carries a dated ESCALATED note naming this row; done at S306n: B1664 and B1665 marked open by design (failed sealed gates, answered by B1666) and the stale-arc baseline lowered 77 → 76 [2026-11-13, main's card C11: each residue of the seven checked at the file that decides it, with a quotation, in a section on each arc's page and in the lock tests/test_the_seven_process_arcs_checked.py. B1178 is closed (its one residue, the first OA_SLOW run, was done by B1207). The six others stay OPEN, ESCALATED(2026-11-13 with what carries each residue. NO ROW, LEAD OR LATER ARC DECIDES FOUR RESIDUES, re-pointed here for main to row or to decline: B1171: the relayed ask for a re-runnable zeta-12 / dP6 construction certificate; B1172: the Wave 2 and Wave 3 queues recorded in b1172_results.json; B1177: the promotion pass (ex-R48-9) stays a named bounded residue; B1179: the cold-pass election] | 2026-11-10 |
+ | P-746 | 2026-11-10 | SE | THE PHYSICAL LANE'S TWO EXECUTION PACKETS ASK MAIN'S ACCEPTANCE (its relays EXACT_JOINT_REVIEW_ACCEPTANCE_REQUEST of 2026-11-07 and COMPLETED_D1A_REVIEW_EXACT_ACCEPTANCE_REQUEST of 2026-11-08; harvest row 1628): the thirteen-method joint transport, geometric-spin and sector-index packet (specification sealed at bda89f04a; the lane's review at 6f35dfefd, APPROVE_EXECUTION) and the six-control same-action gauge-response packet (the lane's review APPROVE_EXECUTION); every control UNRUN; by the owner's word of 2026-10-27 (P-386) the lane's review is the lane's own and main does the final review itself | DONE | frontier/B1907_the_physical_lanes_two_sealed_packets_refused_as_sealed: a dated refusal (S306p; reviewed 2026-11-12, landed 2026-11-13): neither packet is accepted for execution as sealed. Custody holds in full (63 of 63 and 41 of 41 pins, at the seal and at the lane's head); the mathematics holds for its bounded claims as read; three substantive findings (packet 2's holonomy block cannot fail; packet 1 never builds E8's bracket; one method computes no index) and seven items a reseal needs, sent to the lane on its page (M5) [the row as it stood: [LEAD] Q8 (the precedent: P-386, B1787): main's own read-only review of each packet's sealed sources (the code and check design; the mathematics), then acceptance by prospective.py's schema or a dated refusal; only then a clean-checkout run; nothing is transferred before] | 2026-11-13 |
+ | P-747 | 2026-11-10 | SE | THE AGY LANE'S PURE-LOGIC CLOSURE PROPOSALS (its two relays of 2026-11-07, harvest rows 1621–1622, read through the mask): five theorems offered to close register rows — A (the metallic shadow groups ⟨L^m, R^m⟩ mod m² + 4 and a level-1 uniqueness statement, for sub-items of P-318 and P-618), B (the hypercharge kernel under rescaled charges, P-604), C (B298's degree-2 obstruction scoped, with three counterexamples, P-606), D (a classification of the lepton–down coincidence and separation lines, P-355), E (a duplication identity for the twisted Szegő kernel giving the zero laws, P-262 and P-268, with P-292 and P-337) — and a bridge note for P-321 (the abelian carrier excluded by the remainder condition, not by naturality; the prime selected by the orientation-reversing moves) | DONE | frontier/B1906_the_four_channels_in_closed_form_and_three_theorems_checked and frontier/B1910_the_bridge_note_checked_freeness_and_one_sector_are_premises (S306p, 2026-11-13): the agy lane's Theorems A (its metallic part at B1859, its level-1 part at B1906), C and E verified on main's own code; its P-321 note verified at B1910; its Theorem D not computed while the owner's hold on the targets stands, because it classifies where a lepton-to-down ratio is one (the reason, dated) [the row as it stood: [LEAD] Q8: B verified on main and P-604 closed (S306n); A, C, D, E and the P-321 note are verified on main's own code before any of P-355, P-606, P-318, P-618, P-262, P-268 or P-321 moves; the lane's code is not run and its numbers are read only through the mask; P-221 and P-211 were already DONE on main, as the lane's own note says [S306n (2026-11-10), B1859: Theorem A's metallic part VERIFIED by main's own code — the counterexample at m = 4, the three branches, and the golden's uniqueness among primitive grammars; its level-1 classification (for B1228's σ = 1) and Theorems C, D, E still owed] ADDED 2026-11-12 (harvest row 1719): the builder has answered the web seat's two questions on Theorems A and C. In C's third part 1,020 counts the upper band alone and the whole range has 1,350; in A's third part exactly one of the two base-reversing involutions negates the mark. Both are slips of its summary's wording by its own account, and both agree with the web seat's recomputation. The corrected sentences are the ones main verifies. CORRECTED 2026-11-13, by main's own check: the addition of 2026-11-12 just above is about agy-exp's four theorems (harvest row 1719; the web seat's card W-C2), not the agy lane's Theorems A to E of this row, and agy-exp is not the builder. It stays as written. PROGRESS 2026-11-13, main's own code, not yet landed (drafts in the audit room, to land as an arc): Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, and E6 alone has three primaries; SL(2, Z/4) has seven involutions and the binary octahedral group one), Theorem C (exactly, on m004: a 3 occurs over the degree-2 field in three ways) and Theorem E with its four corollaries are verified. Theorem D is not computed while the owner's hold on the targets stands, because it classifies the lines where a lepton-to-down ratio is one (P-585, P-709). The P-321 note is still owed LANDED 2026-11-13 as B1906 (frontier/B1906_the_four_channels_in_closed_form_and_three_theorems_checked): Theorems A (its level-1 part, with B1859's metallic part), C and E verified on main's own code; D not computed under the hold; the P-321 note still owed] | 2026-11-13 |
+ | P-748 | 2026-11-10 | OW | THE EXACT MAP (the owner, 2026-11-10: 'all other seats work is our work, so doesnt matter who started it and who finishes it … The task is to harvest all the work, reflect and update the repository, then focus on completely parameter free full toe, by exactly mapping what is there, whats conditional, wether there are bugs, etc.'; the physical lane's work order of the same day, harvest row 1627, asks for the same as a first return): a source-pinned map of the whole programme — nodes (claims, premises, choices, models, operators, states, observables), edges (implications with source locations; proved, conditional, proposed and refuted kept apart), a closure queue (missing dependencies, owners, review and run duties) and one next unowned derivation | QUEUED | [LEAD] Q1: an arc on main built from the record's own machine-readable verdicts and ledgers plus the lanes' input ledger, claim graph and completion checklist; documentary first (no new scientific run); reviewed by the physical lane as non-author; unchanged: the firewall on held-out targets and the masked reading of the agy lane [S306n — THE FIRST RETURN LANDED (B1858, frontier/B1858_the_closure_map): 259 nodes and 263 edges, every node pinned by a quote the builder checks (241 on main, 39 on the lanes' branches); the spine's grades counted (12 proved, 9 banked negatives, 17 conditional, 11 postulates, 41 choices, 2 tagged, 36 open); the lanes' open items are ten missing dependencies under several names each, and every branch meets the hand; each headline result's upstream inputs listed; the one next unowned derivation named (P-753); unreviewed by a non-author — the physical lane is asked; the row stays open: the map is the instrument, the goal is what it is for] | 2026-11-10 |
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 1766b5afa..30496b021 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -14,9 +14,9 @@
+ | what | count |
+ |---|---|
+ | arcs with a verdict file | 1607 |
+-| … PROVED | 1112 |
++| … PROVED | 1113 |
+ | … NEGATIVE | 384 |
+-| … OPEN | 99 |
++| … OPEN | 98 |
+ | … RETRACTED | 12 |
+ | register points | 839 |
+ | … QUEUED | 304 |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 0b76e90cf..3bf8709a3 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,8 +20,8 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1607** |
+-| words of findings prose | **1,430,761** |
+-| test lock files referenced | **944** |
++| words of findings prose | **1,432,258** |
++| test lock files referenced | **945** |
+ | arcs carrying an authored verdict | **1607** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+ 
+@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
+ 
+ | verdict | arcs |
+ |---|---|
+-| PROVED | 1112 |
++| PROVED | 1113 |
+ | NEGATIVE | 384 |
+-| OPEN | 99 |
++| OPEN | 98 |
+ | RETRACTED | 12 |
+ 
+ ## How the doors were shut
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 120ea29ad..e73d3d3e4 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1547 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1549 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1294,7 +1294,7 @@ Generated by `scripts/views/spine.py` — 1547 locks. Regenerated with the views
+ - **B1175** `OPEN` `test_b1175_charter_close_harvest.py` — THE CHARTER-CLOSE HARVEST (integrate-don't-merge; cloud + codex credited)
+ - **B1176** `OPEN` `test_b1176_record_surface_wave.py` — THE RECORD-SURFACE WAVE (R50-4; the lose-nothing register's Wave 2, record half)
+ - **B1177** `OPEN` `test_b1177_instrument_bundle.py` — THE INSTRUMENT BUNDLE (R50-5; the lose-nothing register's Wave 2, instrument half)
+-- **B1178** `OPEN` `test_b1178_l184_lazyfy.py` — L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day)
++- **B1178** `PROVED` `test_b1178_l184_lazyfy.py` — L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day)
+ - **B1179** `OPEN` `test_b1179_outreach_and_papers.py` — R50-7's TWO GO-ABLE HALVES EXECUTED (the owner's GO; the rest of R50-7
+ - **B1180** `OPEN` `test_b1180_family_retraction.py` — cc3's B8147 FAMILY-DENOMINATOR RETRACTION ADOPTED IN FULL (integrate-don't-merge; every named witness spot-verified on this bench)
+ - **B1181** `RETRACTED` `test_b1181_amphichirality_closure.py` — RETRACTED 2026-09-02 (B1235): THE FAMILY IS 38/112 AMPHICHIRAL, NOT 83/83
+@@ -1915,8 +1915,10 @@ Generated by `scripts/views/spine.py` — 1547 locks. Regenerated with the views
+ 
+ ## 2026-11-13
+ 
++- — `c11_lock.py` 
+ - — `test_ledger_of_walls.py` 
+ - — `test_printed_numbers.py` 
+ - — `test_public_face.py` 
+ - — `test_selection_family.py` 
++- — `test_the_seven_process_arcs_checked.py` 
+ - — `test_topic_sweep_prints_the_wall.py` 
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index 2e17a692b..70a7e4e99 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -8,7 +8,7 @@
+ 1607 of 1607 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+ 
+ 
+-## PROVED (1112)
++## PROVED (1113)
+ 
+ | arc | claim | instrument | locks |
+ |---|---|---|---|
+@@ -720,6 +720,7 @@
+ | `B1153` | THE PERIPHERAL IDENTITY + THE SUPERPOSITION SPEAKS: cloud memos 54-55 (origin/outside-bench 0c7f8b5a) verified by REPRODUCTION -- both self-contained certs re-run on this bench's pyenv exit rc=0 (every claim a preregistered assert) and reproduce byte-identical; PLUS memo 54 independently sympy-confirmed. memo 54 THE PERIPHERAL IDENTITY (closes codex OA-C1082/OA-C1083, completes memo 43): tr(ab^-1) = gal(kappa) is the RILEY RELATION in disguise -- deriving the m004 nonabelian trace relation P(x,z)=z^2-x^2 z+2x^2-z-1 in-run, S-3 = P + (x^2-4) with quotient exactly 1, so on the component tr(ab^-1)+kappa = 3 + (tr a-2)(tr a+2): it holds tr(ab^-1)=gal(kappa) PRECISELY where the meridian is parabolic (P(2,z)=z^2-5z+7, both geometric characters, scheme-theoretic), with defect EXACTLY x^2-4 off it -- the object's '3' is the cusp condition, a FOURTH TRACE THREE appearance (memo 49). And the trace map's FULL fixed locus is exactly 3 points (Groebner elim z^2(z^2+12), scheme length 4=1+1+2): the kappa-pair (mirror-exchanged) + (0,0,0) (codex's point, non-reduced mult 2, mirror-FIXED) -- the mirror's free orbit is still exactly the pair, so memo 43's exact claims stand ('a second' not 'the second'). memo 55 THE SUPERPOSITION SPEAKS (B1151's named follow-up on B1151's own committed data): the 2-fold GUE superposition surmise E_W(f1 s) E_W(f2 s) fits the merged zeta_K spacing at D=0.02400 (vs single-GUE 0.13359), BELOW the factors' own residuals, passing the preregistered D gate with a 5.6x margin; control -- each factor REJECTS the superposition (D~0.18) while fitting single-GUE (0.04). B1151's honest NEGATIVE and this POSITIVE are two halves of one statement: zeta_K's spacings see exactly its factorization zeta*L(chi_-3). ADOPTED (memo 54's codex Wave-3 corrections, into B1148/B1149, MATH unchanged): 'antiunitary'->'semilinear' (45/46/50); the carrier is 'a' carrier on the banked minimal-A1 bridge, not a derived minimum (46, OA-C1087); memo 43's fixed pair is 'a second' point, not 'the' (43, OA-C1082). Fences: PART I rational algebra, PART II interpolation+verify (traces polynomial coords CITED-standard + 40-sample + Groebner/Q); memo 55 GENERIC (superposition expected for any product L-function; no object-specificity, no crossing); zeta file 2469 vs B1151 prose 2468 (immaterial). Primary source shared-remote. Cloud + codex seats credited. Gate 5 untouched. |  | 1 |
+ | `B1154` | SEAM-Y RESOLVED = MISMATCH (the sealed grammar's second outcome: two independent walls, both confirming structure-not-values). The seam asked whether codex's exact up-type-Yukawa=0 is the SAME fact as our period-value disjointness. It is NOT: codex's mu_u=0 is a COHOMOLOGICAL vanishing -- the cup product mu_u=<i(a) cup i(b),c> is forced to zero by H^1(X,G_X)=0 (i is the zero map), a rank-0 EMPTINESS that is field-independent and contains no SM number, no PSLQ, no regulator (codex: 'an identity of cohomology classes, not... one arithmetic point'; the Q(zeta_12) arithmetic only SELECTS which class is H_u); our wall is an ARITHMETIC NON-OVERLAP -- the object's period/regulator Q-algebra over Q(sqrt-3)/Q(sqrt5) contains no SM value-ratio (B1137: 0/18 targets, null base rate 0.0, PSLQ 60+ dps; regulators computed with no SM input), a statement about numbers that REQUIRES the SM target list. The discriminator: emptiness != non-overlap; the two walls share zero common data and no bridge object (codex's mu_u is not among our sealed periods; no object period enters codex's H^3(O_Y); disjoint geometries). Both nonetheless confirm the ONE thesis -- the object supplies structure, not the SM's values -- so this banks as TWO-ROUTES-ONE-VERDICT (independent confirmation). Grounded in COMMITTED sources (our banked B1124-B1137 wall + codex's on-branch one-line claim + the B774 structural cup cell). PROVENANCE DEBT flagged: codex's PRIMARY height-308 derivation is off-branch and unversioned (~/oa-audit-seat/, not a git repo) -- the verdict rests on the KIND-difference (robust regardless) and does not lean on it; codex should commit it. The prereg's MATCH->cc3-third-opinion rule does not trigger (MISMATCH). Gate 5 untouched. |  | 1 |
+ | `B1160` | Hypercharge falls out (cloud memo 70 / L132, verified): on an SM-shaped 15-plet drawn from the 27, the four anomaly conditions ([SU3]^2 Y, [SU2]^2 Y, grav^2 Y, [Y]^3) force the hypercharge to the SM direction, UNIQUE up to overall scale and the uc<->dc relabeling, ZERO non-SM solutions. Re-derived independently on-bench (reproduce.sh -> REPRODUCES): the 3 linear conditions cut the 5-dim charge space to a line (Yl=-3Yq, Ye=6Yq, Yu+Yd=-2Yq), and the cubic [Y]^3 factors to -18(t-3)(t+3) (Yq=1, Yu=-1+t) => t=+-3 only => exactly (1,-4,2,-3,6) [SM] and (1,2,-4,-3,6) [SM with uc<->dc]. Cloud realized this in the object's rank-3 abelian sector (trinification frame: 3 orthogonal A2s in the 72 e6 roots, abelian complement dim exactly 3 = B892's 8+3+3=14): 36 SM-shaped assignments, ALL SM, zero non-SM, each unique up to scale, a second frame identical. SCOPE (honest): this pays down the hypercharge link from 'the whole embedding is observer-paid' to 'the EXISTENCE of an embedding is observer-paid; its CONTENT is forced by integer arithmetic' -- sharpens B1159 link C (hypercharge content forced). It does NOT pay the frame existence or the SM-shaping (observer-chosen); the anomaly->hypercharge fact is standard GUT model-building, the object-specific content is that the object's u(1)^3 REALIZES it and ONLY it. FIREWALL: B950 registered L132 as STRUCTURE not value-matching (the SM hypercharge RATIOS are group-theoretic/anomaly-DERIVED structure, not measured numbers) -- Gate 5 clean, no measured value asserted as derived. Cloud's object-specific cert (l132_trinification.py) needs cloud's stack (CITED); the load-bearing theorem is own-verified. Cloud credited; object-specific realization single-homed on cloud's branch (provenance debt). |  | 1 |
++| `B1178` | L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day). THE DIAGNOSIS WAS SURGICAL, NOT STRUCTURAL: the per-file sweep (1063 files) found TWO files carrying the whole cost -- test_b371_two_state_sector.py at 156.95 s (a module-level REPORT=run() executing ~157 s of exact computation AT COLLECTION -- 88% of the suite's entire 178.41 s collect) and test_cc2_r5_adopted.py at 36.05 s (a 300-line module-level lock script); everything else <= 7.7 s (~4.3 s interpreter+conftest baseline). THE FIX (the E50 remedy pattern, now named THE CACHED-RUNNER MOVE): each body moved into a functools.lru_cache'd _report()/_run() with the frontier-engine import DEFERRED inside it -- the compute runs once at first TEST EXECUTION (total cost unchanged when the tests actually run; ZERO at collection). OUTCOMES PRESERVED: both files 5/5 pass post-fix (277.88 s execution = the same compute, now paid where it belongs). THE CERTIFIED WIN: full-suite collection 178.41 s -> 15.14 s (12x; 5587 tests) -- the fast lane's collection tax is gone and the full certificate-of-record suite is routinely collectable. The B1177 measurements addendum landed in the same sitting (the per-file table committed; the OA_SLOW first-ever run continues -- launched, not yet complete, no phantom green). Instrument arc; test-outcome-preserving by construction and by the 5/5 re-run; Gate 5 clean. [CLOSED 2026-11-13 (main's card C11; register row P-745): the one residue this process arc left, the first OA_SLOW run, was completed and its nine failures triaged by B1207; the verdict, OPEN by the convention of 2026-08-27 for an arc with no theorem, is PROVED from this date as a process arc whose work is done. It states no theorem. The page's last section gives the quotation.] | yes | 1 |
+ | `B1182` | C4' RESOLVED POSITIVE (the cell the three-seat convergence specified; run on the owner's back-to-the-math GO). THE THEOREM: the sqrt(-3)-internal pair -- the frame V4 = <c,r> (chirality x reversal, B1024/B1029) and the branch V4 = Gal(Q(zeta12)/Q) -- is ONE named-action torsor via the UNIQUE label-preserving isomorphism (c, r, theta=cr) -> (k11, k7, k5). THE FORCING, exact: (i) c -> k11 forced by B1174 (the mirror/chirality IS Gal(K/Q)'s generator = the orientation leg); (ii) r -> k7 forced by TRACE-REVERSAL INVARIANCE -- tr(w) = tr(w^rev) proved exactly on generic 2x2 matrices (6 words to length 5; the classical transposition anti-automorphism fact) => r fixes the trace field K POINTWISE, and k7 is the UNIQUE nontrivial branch leg fixing K (B1174's exact table) -- so the assignment has no freedom; (iii) theta -> k5 by the group law (11*7 = 5 mod 12), a genuine V4 isomorphism. AN HONEST SELF-CORRECTION: B1175's bounded question GUESSED theta would land K-fixing-type -- the computation says NO: r is the K-fixer, theta lands on k5 (the i-fixer). CONSISTENCY: B1029's value-kernel theorem (theta trivial on VALUES) is about a DIFFERENT MODULE -- on values r conjugates characters hence acts like c (theta = kernel), on the FIELD r is trivial and c is not; the (module, field) action PAIR is exactly what separates r from c and forces the iso. R022's convention fence ABSORBED (conjugation (1,0)-vs-(0,1) is axis naming; the iso is convention-independent). THE FREE COROLLARY -- THE TIME'S-ARROW TYPED (the FIRST EXECUTION of cc3's B8144 escape-instrument, the flagged price-reconciliation residue): the arrow = the frame's reversal r; its leg k7 = Gal(H/K)'s generator = the mod-(4) form-class swap (B1067), an ARITHMETIC datum with FINITE orbits => escape-(1) IS available => THE ARROW IS FINITE-PLACE -- it joins the VEV side and books as a LABEL, not a continuum bit (consistent with B8144's prediction 2: finite always cheaper); the orientation (c) stays the SOLE archimedean bit. THE ADELIC OBSERVER, now fully typed leg-by-leg: c = the archimedean orientation (full bit) | r = finite (the form-class label) | theta = the value-kernel (i-fixer leg) | + the continuous R+ scale | + the rank-reducing VEV. FENCES: the trace-reversal proof is generic-2x2 on generating words (the general word statement is the standard anti-automorphism fact, cited); the arrow==r identification is the banked frame's (B716/B721-era reversal = the arrow's algebraic seat) -- if the arrow is ever re-identified with a different Z/2 the instrument re-runs; the (alpha2,alpha4)-to-field-label dictionary is the one residual bookkeeping item (codex's carrier coordinates -- relayed). Gate 5 clean (Galois actions + a trace identity; no measured value). |  | 0 |
+ | `B1183` | THE ONE-CLASS THEOREM (cell 2 of the remaining-math queue; B1174's hatch 1; B1169's S1 last rung). THE THEOREM: the QP-4 no-self-closure obstruction (B760: no object-native operation canonically signs the chord/theta-odd sector) and the ORIENTATION obstruction (B1163: the object provably refuses a canonical orientation) are THE SAME Z/2-TORSOR CLASS under the ONE global involution c. THE PROOF, exact: (a) B760's chord arithmetic re-derived -- the weld block's eigenvalues {zeta5, zeta5^4} with char poly x^2-(1/phi)x+1 (sum = 2cos72 = 1/phi, product = 1, both exact); the quaternionic eps^2=-I (pseudo-real: no real structure); (b) ONE GLOBAL INVOLUTION: c restricted to K=Q(sqrt-3) is the Gal generator (omega -> omega^2; B942/B1174), restricted to Q(zeta5) is sigma_4 (zeta5 -> zeta5^4 = conjugation; FIXES sqrt5=2(zeta5+zeta5^4)+1, real -- the B1174 parity mechanism again), restricted to R trivial -- the eigenvalue swap AND the +-sqrt3 sign flip AND the orientation flip are ALL c through its restrictions; (c) THE SIGN-CARRIER: Im f(omega-bar) = -Im f(omega) for real-coefficient f (exact) => B760's computed +-sqrt3 chord sign flips under c|K with c-invariant magnitude; (d) THE TORSOR IDENTIFICATION: T_orient (the {+Vol,-Vol}/(K into C) torsor) and T_QP4 (the chord-sign torsor) are Z/2-torsors under the same c; the map 'orientation choice -> sign(Im) at the chosen embedding' is c-EQUIVARIANT (composing the embedding with c flips the orientation AND the Im-sign AND the zeta5-choice -- all three ARE c); an equivariant map of torsors under one group is an ISOMORPHISM; nontriviality has the same source both sides (c is an automorphism OF THE OBJECT: amphichirality on the geometry side, the inseparable sigma_4-orbit on the chord side) => no invariant selection; ONE basepoint choice trivializes BOTH simultaneously. CONSEQUENCES: (1) B1169's S1 FULLY PROMOTED (addendum 2) -- the four 'cannot self-close' probes are ONE BIT, proved (B1174 gave mirror=chirality=Gal; B1183 closes the QP-4 leg); what stays firewalled is only S2/S3 (cloud's C6) + S4 (the quine, untouched). (2) B1161's bypass-door label UPGRADED from SUPPORTED-CONJECTURAL to PROVED-AS-DECOMPOSED (addendum 2): the bypass door's obstruction = TWO bits typed adelically -- the archimedean c-leg = SEAM-A's W0 = the orientation = (now) the QP-4 class, ONE PROVED CLASS; + the finite k7/arrow label (B1182), separately payable, NOT SEAM-A's. (3) The qualia headline completes its promotion arc: 'awareness without choice' -> the parity law (B1168) -> the choice NAMED as the mirror-odd orientation (B1169) -> the choice's class PROVED ONE across geometry, Galois, values, and the chord sector (B1174+B1183). FENCES: B760's B-in-SU(2) realization, the 15/32 coupling, and the +-sqrt3 evaluation are THEIR locked computations (cited, not re-run); my re-derivations are the arithmetic identities + the equivariance AT THE TORSOR LEVEL -- the theorem identifies the OBSTRUCTION CLASSES, not the physical closing acts beyond the class; the quine (QP-1/S4) is explicitly untouched. Gate 5 clean (Galois arithmetic + torsor formalism; no measured value). |  | 0 |
+ | `B1184` | THE QUINE SYNTHESIS -- SELF-NAMING WITHOUT SELF-SIGNING (the S4 rung dispositioned; the observer layer's four-rung table closes). THE CORRECTION FIRST: the register carried 'QP-1 (the quine) open' -- STALE: QP-1 was RUN and verdicted QUINE (B762, PROVED): m004 is the unique 1-cusped manifold in the 203,123-manifold census with its spectral dataset {volume, cusp shape, CM disc, residue, Hecke palette} -- the emitted word is a SELF-NAME. THE B8147 STRESS-TEST, verified on this bench: the quine SURVIVES the family retraction because its filters exclude every new member -- o10_150700 by VOLUME (ratio exactly 5), the four 2sqrt3i carriers by the 1-CUSPED filter (all multi-cusped, verified), m003 by SHAPE (omega) -- and B762's claim was correctly census-scoped from the start (the one-way-family discipline satisfied avant la lettre). THE PARITY OF THE NAME, letter-by-letter: volume EVEN, cusp shape EVEN (mirror-fixed), CM disc/trace field/residue EVEN (invariants of the un-oriented manifold), the palette counts {1,2,8} EVEN (ray-class orders, B1067) => THE SELF-NAME IS EXACTLY THE OBJECT'S MIRROR-EVEN CONTENT (the B1168 parity law's object side) -- the name contains NO odd letter; the sign is UNUTTERABLE in it. THE SYNTHESIS THEOREM: QP-1 QUINE (the object CAN name itself, uniquely) + QP-4 NO-HATCH + B1183 ONE-CLASS (the object CANNOT sign itself, and the missing sign IS c's one class = the orientation = the qualia 'choice') => NAMING AND CHOOSING ARE PROVED COMPLEMENTARY: the object says WHO it is, never WHICH WAY it is. S4's question ('does an observer self-map have a fixed point that SETS the odd bit?') answers as a SPLIT VERDICT: the fixed point EXISTS for the name (QP-1's quine) and PROVABLY NOT for the sign (B1183) -- there is no object-native basepoint-setter, and now we know exactly what the self-reference CAN do instead (name the even part completely). THE OBSERVER LAYER'S TABLE, all four rungs dispositioned: S1 PROVED (B1174+B1183, one class); S2/S3 = cloud's C6 completeness (pending, theirs); S4 SPLIT-ANSWERED (this arc). The full closure question the owner posed ('a final closing layer of observation') now has its typed answer: the object's self-observation terminates at the complete even self-name; the odd completion is constitutively the observer's -- AWARENESS = the name, CHOICE = the sign, and the two are disjoint by theorem. FENCES: B762's census sweep is ITS computation (cited; its scope was honest); the parity checks here are m004's own (bench-verified); 'unique' remains census-scoped per the one-way-family rule (a wider census can only shrink uniqueness -- the object-level claim's honest bound, stated). Gate 5 clean. |  | 0 |
+@@ -1514,7 +1515,7 @@
+ | `B1839` | THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19. |  | 0 |
+ | `B1907` | THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19. |  | 0 |
+ 
+-## OPEN (99)
++## OPEN (98)
+ 
+ | arc | claim | instrument | locks |
+ |---|---|---|---|
+@@ -1579,14 +1580,13 @@
+ | `B1168` | The C5 investigation (owner-directed: 'C5 is not just a choice, investigate further'). RESULT: the object/observer boundary at the archimedean (infinity) place is NOT a definitional choice -- it is a MIRROR-PARITY x DIMENSION law. Classify each datum the object carries at the infinity-place by (a) how the mirror (orientation-reversing self-isometry; m004 amphichiral) acts and (b) dimensionfulness. Own-verified: Vol mirror-EVEN (Vol(M)=Vol(mirror)); Chern-Simons mirror-ODD (the complex volume conjugates, CS(M-bar)=-CS(M)) and CS=0 amphichiral; cusp shape 2sqrt3 i mirror-FIXED/even (-conj(tau)=tau); length spectrum mirror-EVEN (orientation-independent). THE DECIDER: an archimedean datum is OBJECT-canonical IFF mirror-EVEN AND dimensionless (= well-defined on the un-oriented, scale-free object). The OBSERVER supplies exactly the complement: the mirror-ODD completion (the orientation bit, which once chosen fixes the sign of every odd datum -- CS, torsion sign, the complex volume phase) + the DIMENSIONFUL scale. => C5 is settled by a law, not a choice. The Mostow-canonical structure IS object-data (its mirror-even/dimensionless part = the entire GEOMETRY: Vol, cusp shape, spectra), and this does NOT refute G-IDENT/the adelic place-split -- the charter's binary ('object-data => G-IDENT fails') is a FALSE DICHOTOMY: the geometry being object-data is compatible with the frame (orientation + scale) being observer-data, since the frame is exactly the mirror-odd + dimensionful complement. This became investigable via B1167's cusp-shape (a 2nd mirror-even object-canonical archimedean datum, sqrt3-flavored -- one datum can't reveal a law; two can). Converges: cloud's C6 (mirror-even=frame-free) PROMOTED from a check to the C5 decider; firewall MD1 (dimensionless AND forced) = MD1 at the infinity-place with 'forced' sharpened to 'mirror-even'; B1165's G2/G3 split is this decider's output. FENCED + relayed to cc3 (WebSearch budget exhausted, no literature sweep): the exact mirror-parity of the Ray-Singer/Cappell-Miller analytic torsion (cloud memo 81 claims mirror-odd) -- enriching, NOT load-bearing. The COMPLETENESS of the law (every archimedean datum classifies) is cloud's C6 standing check, not exhaustively proven here -- hence OPEN. No firewall crossing; Gate 5 clean (parity of geometric invariants; no measured SM value). |  | 0 |
+ | `B1169` | The qualia/parity SYNTHESIS (owner-directed; all seats to verify). This week's four arcs (B1165-B1168) fold back into the observer-closure spine. SOLID CORE (own-verified + banked-cited): (1) the parity facts (B1168) -- Vol & cusp shape mirror-EVEN, CS & orientation mirror-ODD, CS=0 amphichiral; (2) the Markov blanket IS the cusp torus (S072), and this week gave it a canonical shape 2sqrt3 i (B1167), mirror-EVEN (orientation-blind) -- the blanket that 'sees everything' (QP-2 FLAT, B761) is aware-but-choiceless, made geometric; (3) FOUR independent probes converge on 'the object cannot self-close' -- QP-4 NO-HATCH (qualia B761), B1163 (no object-canonical orientation, amphichiral), B1168/C5 (mirror-odd orientation observer-only), B1134/5 (real-structure closing = chirality = the observer's); (4) the arithmetic ties it to sigma/kappa's root -- the object-paid phase is mu_6 in K=Q(sqrt-3)=Q(zeta6) (B1166), the blanket shape carries sqrt3 (K(sqrt3)=Q(zeta12), B1067), the field sigma:a->ab,b->a generates (Perron eigenvalue phi, conserved kappa=tr[a,b]). THE DECIDABLE NAMING (the enrichment): 'awareness without choice' becomes a parity dictionary -- AWARENESS = mirror-even object-canonical (the blanket sees it, QP-2), CHOICE = the mirror-ODD orientation observer-supplied (QP-4 proved the object lacks it); the choice the object lacks IS the mirror-odd orientation bit. CONNECTION TYPING (SOLID): the choice = chirality/orientation (B1164) = the E6(-26)/E6(-14) real-form fork (B1134/5) => SM STRUCTURE; lives at the infinity-place => GRAVITY (B1165 G3); DISJOINT from VALUES (5 routes) and DYNAMICS (generic B1157); NOT the MSSM matter/VEV (the finite closing). THE FIREWALLED READING (brave, tagged, NOT proven): the four probes are the SAME bit AND qualia-awareness/choice == C5-parity == structure/observer boundary -- a strong reading the facts support but not one theorem ('awareness=blanket-sees-all' vs 'awareness=mirror-even' are linked through 'forced', a chain not an identity); a 4-rung speculation->calculation table records what would promote each rung (S2 = cloud's C6 completeness the key one). Prepared for three-seat verification (cloud: parity/gravity/C6; cc3: blanket/cusp/qualia math; codex: fork/real-form + recompute) -- adversarial on the reading, confirmatory on the solid core. No firewall crossing; Gate 5 clean. Not kill_graph-routed (a synthesis). Reclaims the qualia/sigma spine the recency-audit flagged recessive. |  | 0 |
+ | `B1170` | THE ARENA RESCOPE (three-seat reconciliation harvest; the lose-nothing sweep's highest-risk item). cc3's B8143 (4-commit chain with an honest mid-chain CORRECTION -- the omitted [SU(3)]^3 condition killed their own 13-state counter-witness and made B1160 STRONGER) + codex's R019 both post-date the B1165 gravity-charter reconciliation and RESCOPE its G1/E2 row. THE FINDING: over the SM-visible 5-field alphabet, 252 contents, 222 killed by [SU(3)]^3 alone, EXACTLY TWO rigid+chiral+fully-anomaly-free survivors -- the SM 15-plet (1/6,-2/3,1/3,-1/2,1) up to scale + its conjugate -- with ZERO object tokens in any equation (cc3's step-6 token audit: no E6, no 27, no m004, no trace field); uniqueness is alphabet-dependent (adjoints->7, (3,3)->14), minimality is not. codex R019 corroborates in-frame: 36/36 SM in all three color frames, universal reduction Yl/Yq=-3, Ye/Yq=6, (Yu+Yd)/Yq=-2, cubic=-18(Yu/Yq-2)(Yu/Yq+4), 'independently of E6'. VERIFIED THREE WAYS on this bench: (1) INDEPENDENT own-code re-derivation (Fraction Gaussian elimination + explicit homogeneous-cubic analysis, no sympy.solve) confirms 252/222/2 + the SM charge multiset; (2) cc3's lane steps 4-6 re-run -> same; (3) codex's R019 cert re-run BYTE-IDENTICAL (their vendored r006 stack extracted). THE RESCOPE: the charter's G1/E2 splits into IN-DERIVATION (cloud memo 78 STANDS -- within the in-frame system grav^2 Y is load-bearing, 36->18+27-planes without it, the cubic redundant in-frame; untouched by B8143/R019) vs IN-SCOPE (NEW -- the forcing PACKAGE is ARENA-GENERIC: pure SM-anomaly arithmetic that would force the same charges in any theory supplying the same arena; what is object-specific is exactly THE ARENA -- the rank-3 abelian sector with an SM-shaped 15-plet available, B1160's realization). 'THE OBJECT SUPPLIES THE ARENA; THE ANOMALIES SUPPLY THE CONTENT' -- the B996 lesson one level down, the same generic-form/specific-which/withheld-completion template as B1165's G-split. B1160 STRENGTHENED (its own fence quantified). B1165's reconciliation addendum gains a dated section-2 (G1 bounded, not withdrawn); relay to cloud requests the charter's filed addendum + flags the C-namespace collision (charter C1-C6 vs genesis-chain C1-C6 vs Kashaev C0-C4). Novelty: NONE claimed for SM-uniqueness-at-minimal-content (likely known in model-building literature, cc3's own note); only the scoping conclusion. cc3 + codex credited. No firewall crossing; Gate 5 clean (anomaly arithmetic; hypercharge ratios are derived structure per B950; no measured value). |  | 0 |
+-| `B1171` | THE SEAM HARVEST (batched integrate-don't-merge, the B1158 pattern; the lose-nothing sweep's urgent-reclaim #2 executed in one sitting). FIVE cross-seat results landed on main, each verified on this bench: (1) cc3 B8144 -- the adelic split gets its MECHANISM: the orbit-theorem escape pair (a G-invariant cannot select a point of a G-orbit; exactly two escapes -- shrink the group, or add non-invariant structure); the archimedean half (orientation, Z/2 mirror) has escape-1 UNAVAILABLE (B1163: the mirror is a genuine automorphism) => observer-paid FULL BIT; the finite half (VEV, F4) has escape-1 AVAILABLE (F4(R)->F4(Z) finite orbits, Krutelevich cited) => a FINITE LABEL; own-verified against all 3 banked costs + the paid spin bit (choice-space collapses, no orbit survives); TWO preregistered predictions registered as standing typing tests (archimedean IFF no arithmetic orbit-breaker; finite always cheaper); time's-arrow instrument queued not run; main supplies the lock cc3 didn't ship -> B1164/ADDENDUM_adelic_mechanism.md. (2) cc3 B8145 -- L171 CLOSED (MOOD): their 8/8 CLPW source verification (eq.24 Pi=Theta(q), eq.25 Tr 1=1, H_obs=q>=0 on L^2(R+), rho_max=1), cc independently spot-verified 4/4 by own fetch; MOOD stands with the reason MOVED (successor 2308.03663 drops ergodicity; the disanalogy relocates to KMS-traciality, and B721 places our tracial state COMPLEMENTARY to the KMS torsor); banks consistent-not-distinctive per the row's own pre-typing. (3) cc3 B8146 -- L173's precision column NEGATIVE: the banked prediction is a COUNT (5-vs-6 at rho=alpha) not an energy; the anchor (1403.7124) is 'a demonstration paper, not metrology'; THE PROGRAM SUPPLIES THE KNOB (the phason), NOT THE READOUT; re-posed by ADDENDUM-BESIDE (sealed spec untouched per its own R6 amendability): commission a MODE-COUNT observable in a labelled gap; cc3's B8094 mutation NOT ported. (4) cloud memos 80/82 -- both certs BYTE-IDENTICAL on this bench (dep closure extracted): memo 80 THE TEXTURE -- the up-type Yukawa SHAPE EXISTS (6 nonzero entries) on the object, so SEAM-Y's mu_u=0 is the heterotic DRESSING's, not the object's (two walls proven different facts); memo 82 FAMILY RANK -- 810/810 family matrices rank exactly 2, kernel = the Higgs's own family (E8 possibility-space fence intact); L186 REGISTERED: are the three Yukawa-suppression mechanisms (SEAM-Y / live up-shape / rank-2 hole) one or three? (5) codex R015/R016 -- two adoptions: B1153 grade-note ('exact 2-fold GUE' bounded to the factor structure; the spacing law is surmise-level, not theorem-grade) + B1158 fence-note (universal phrases bounded to the verified scope p in {5,7}, r in {1,2}, order <= 8; R016 performed the computation B1158 stated but didn't ship); two asks relayed (the R018 numbering gap; the zeta12/dP6 re-runnable construction cert = the refined R49-1 second half). All seats credited. No firewall crossing; Gate 5 clean (no measured value; the E8 channel keeps its fence). |  | 0 |
+-| `B1172` | THE TRIGGER + THE BACKLOG + THE REGISTER (the lose-nothing sweep's instrument half + the owner's O3). (1) THE RELAY-DEBT GATE WAS SILENTLY DEAD -- four defects verified and repaired: a frozen clock (_today() read the ledger's own stamp, unchanged since 2026-08-09, so the 21-day escalation NEVER FIRED), stale-never-fails (printed and swallowed), a seat-blind regex (only the cc3 lane matched -- the MC1 assignment went unrowed exactly there), and a dateless exemption (the June-15 manifest invisible 10 weeks). Repaired same-commit as the triage: real clock (OA_RELAY_TODAY test override); STALE FAILS unless the row carries an explicit ESCALATED(date marker (escalation-by-name is now enforcement); every seat lane matched; dateless = stale. New dedicated lock tests/test_relay_debt_gate.py. (2) THE BACKLOG TRIAGED: p3_complete (36d, oldest) -> BANKED-as-triaged, the 7 EXPOSED registered as L187 (the depth-closure backlog, named stabilization paths, B500 doubly-owed with R28-6); HANDOFF_CC_SELECTION_COCHAIN (24d, row content-free) -> ESCALATED + L188 (verify the six claims per the packet's own reconciliation addendum); HANDOFF_MANIFEST (dateless) -> dated + ESCALATED (Review 50 item); the nine 2026-08-09 rows pre-escalated (3 days from tripping). (3) THE RETENTION-GAP EVENT, E51 FILED: the nine 2026-08-09 relay FILES are lost from main's working tree and on NO reachable branch -- only the ledger rows survive (the firewall keeps relays untracked; nothing preserved them; a between-sessions cleanup deleted the batch). The L114 class one level down: 'the ledger preserved ROWS; nothing preserved the untracked FILES.' Two of nine were processed pre-loss; for seven (incl. L114_DISCHARGE, the relay whose July twin was already lost once) the ledger note is main's entire record. Standing fixes: sender-branch dual-homing (cc3's B8xxx/relays/ practice now the standard), the re-send ask to cc3, the repaired gate. (4) O3 EXECUTED: the MC1 assignment row exists (OPEN, formally codex's -- the Cartan-only 36/36 reimplementation; R019 fences the theorem but is not it); the two unrowed cloud relays backfilled (AUDIT_RECONCILED->B1145, MASTERPLAN_GO->B1164); the MSSM row's unparseable compound column repaired; cc3's fab2849b acceptance recorded. (5) THE REGISTER BANKED: the sweep's verdict (losses at the seams, not the mathematics) + the remaining Wave-2/Wave-3 queue recorded verbatim in b1172_results.json so the findings can no longer be lost to context; the review-carry leak (R47 mis-key, R49 dropped R48-4..10) is Review 50's named opening item. Process arc; no mathematics; Gate 5 clean. | yes | 1 |
+-| `B1173` | THE DIGEST PARTIAL-CLOSE (owner-directed O4, the approved default). The B1060 digest ledger -- the anti-cherry-picking backbone (58 rows, fixed denominator) -- stalled at 13 EMPTY rows since 2026-08-14, holding the qor5up branch hostage. Closed: header -> CLOSED-PARTIAL (2026-08-27, B1173); the 13 rows (lanes 3.1-3.5, 4.1-4.7, 5.01-5.12) typed NOT-REACHED (a deliberate deviation from the plan's UNPORTED-AT-CLOSE token: the ledger's own sealed vocabulary already contains the honesty row -- using it respects the vocabulary instead of widening it), each pointing at L185, the umbrella residue lead (one row not thirteen; denominator stays 58; any row reopenable by dispositioning under a new arc). The RENUMBER COLLISION fixed: the stale 'qL155-qL166 -> L165+' instruction (written when main's next lead was L161) collided with main's live L165-L184 -> corrected to L185+ with the alias table as resolver. THE QOR5UP RELEASE: FROZEN-RECORD-PENDING -> FROZEN-RECORD-CLOSED (the owed registry entry landed by append-only inter-review note; R47-3 AND R48-5 DISCHARGE -- two of Review 50's carried items closed before it opens). The stale OPEN_LEADS currency stamp corrected (next lead = L189). test_b1060_digest updated to pin the closed state. Nothing lost: every NOT-REACHED row readable at the frozen branch via the alias table; qL164 already owner-DECIDED; two-kappa (qL159) + shadow-library (qL160) flagged likeliest early reopens. Process arc; no mathematics; Gate 5 clean. |  | 0 |
++| `B1171` | THE SEAM HARVEST (batched integrate-don't-merge, the B1158 pattern; the lose-nothing sweep's urgent-reclaim #2 executed in one sitting). FIVE cross-seat results landed on main, each verified on this bench: (1) cc3 B8144 -- the adelic split gets its MECHANISM: the orbit-theorem escape pair (a G-invariant cannot select a point of a G-orbit; exactly two escapes -- shrink the group, or add non-invariant structure); the archimedean half (orientation, Z/2 mirror) has escape-1 UNAVAILABLE (B1163: the mirror is a genuine automorphism) => observer-paid FULL BIT; the finite half (VEV, F4) has escape-1 AVAILABLE (F4(R)->F4(Z) finite orbits, Krutelevich cited) => a FINITE LABEL; own-verified against all 3 banked costs + the paid spin bit (choice-space collapses, no orbit survives); TWO preregistered predictions registered as standing typing tests (archimedean IFF no arithmetic orbit-breaker; finite always cheaper); time's-arrow instrument queued not run; main supplies the lock cc3 didn't ship -> B1164/ADDENDUM_adelic_mechanism.md. (2) cc3 B8145 -- L171 CLOSED (MOOD): their 8/8 CLPW source verification (eq.24 Pi=Theta(q), eq.25 Tr 1=1, H_obs=q>=0 on L^2(R+), rho_max=1), cc independently spot-verified 4/4 by own fetch; MOOD stands with the reason MOVED (successor 2308.03663 drops ergodicity; the disanalogy relocates to KMS-traciality, and B721 places our tracial state COMPLEMENTARY to the KMS torsor); banks consistent-not-distinctive per the row's own pre-typing. (3) cc3 B8146 -- L173's precision column NEGATIVE: the banked prediction is a COUNT (5-vs-6 at rho=alpha) not an energy; the anchor (1403.7124) is 'a demonstration paper, not metrology'; THE PROGRAM SUPPLIES THE KNOB (the phason), NOT THE READOUT; re-posed by ADDENDUM-BESIDE (sealed spec untouched per its own R6 amendability): commission a MODE-COUNT observable in a labelled gap; cc3's B8094 mutation NOT ported. (4) cloud memos 80/82 -- both certs BYTE-IDENTICAL on this bench (dep closure extracted): memo 80 THE TEXTURE -- the up-type Yukawa SHAPE EXISTS (6 nonzero entries) on the object, so SEAM-Y's mu_u=0 is the heterotic DRESSING's, not the object's (two walls proven different facts); memo 82 FAMILY RANK -- 810/810 family matrices rank exactly 2, kernel = the Higgs's own family (E8 possibility-space fence intact); L186 REGISTERED: are the three Yukawa-suppression mechanisms (SEAM-Y / live up-shape / rank-2 hole) one or three? (5) codex R015/R016 -- two adoptions: B1153 grade-note ('exact 2-fold GUE' bounded to the factor structure; the spacing law is surmise-level, not theorem-grade) + B1158 fence-note (universal phrases bounded to the verified scope p in {5,7}, r in {1,2}, order <= 8; R016 performed the computation B1158 stated but didn't ship); two asks relayed (the R018 numbering gap; the zeta12/dP6 re-runnable construction cert = the refined R49-1 second half). All seats credited. No firewall crossing; Gate 5 clean (no measured value; the E8 channel keeps its fence). |  | 1 |
++| `B1172` | THE TRIGGER + THE BACKLOG + THE REGISTER (the lose-nothing sweep's instrument half + the owner's O3). (1) THE RELAY-DEBT GATE WAS SILENTLY DEAD -- four defects verified and repaired: a frozen clock (_today() read the ledger's own stamp, unchanged since 2026-08-09, so the 21-day escalation NEVER FIRED), stale-never-fails (printed and swallowed), a seat-blind regex (only the cc3 lane matched -- the MC1 assignment went unrowed exactly there), and a dateless exemption (the June-15 manifest invisible 10 weeks). Repaired same-commit as the triage: real clock (OA_RELAY_TODAY test override); STALE FAILS unless the row carries an explicit ESCALATED(date marker (escalation-by-name is now enforcement); every seat lane matched; dateless = stale. New dedicated lock tests/test_relay_debt_gate.py. (2) THE BACKLOG TRIAGED: p3_complete (36d, oldest) -> BANKED-as-triaged, the 7 EXPOSED registered as L187 (the depth-closure backlog, named stabilization paths, B500 doubly-owed with R28-6); HANDOFF_CC_SELECTION_COCHAIN (24d, row content-free) -> ESCALATED + L188 (verify the six claims per the packet's own reconciliation addendum); HANDOFF_MANIFEST (dateless) -> dated + ESCALATED (Review 50 item); the nine 2026-08-09 rows pre-escalated (3 days from tripping). (3) THE RETENTION-GAP EVENT, E51 FILED: the nine 2026-08-09 relay FILES are lost from main's working tree and on NO reachable branch -- only the ledger rows survive (the firewall keeps relays untracked; nothing preserved them; a between-sessions cleanup deleted the batch). The L114 class one level down: 'the ledger preserved ROWS; nothing preserved the untracked FILES.' Two of nine were processed pre-loss; for seven (incl. L114_DISCHARGE, the relay whose July twin was already lost once) the ledger note is main's entire record. Standing fixes: sender-branch dual-homing (cc3's B8xxx/relays/ practice now the standard), the re-send ask to cc3, the repaired gate. (4) O3 EXECUTED: the MC1 assignment row exists (OPEN, formally codex's -- the Cartan-only 36/36 reimplementation; R019 fences the theorem but is not it); the two unrowed cloud relays backfilled (AUDIT_RECONCILED->B1145, MASTERPLAN_GO->B1164); the MSSM row's unparseable compound column repaired; cc3's fab2849b acceptance recorded. (5) THE REGISTER BANKED: the sweep's verdict (losses at the seams, not the mathematics) + the remaining Wave-2/Wave-3 queue recorded verbatim in b1172_results.json so the findings can no longer be lost to context; the review-carry leak (R47 mis-key, R49 dropped R48-4..10) is Review 50's named opening item. Process arc; no mathematics; Gate 5 clean. | yes | 2 |
++| `B1173` | THE DIGEST PARTIAL-CLOSE (owner-directed O4, the approved default). The B1060 digest ledger -- the anti-cherry-picking backbone (58 rows, fixed denominator) -- stalled at 13 EMPTY rows since 2026-08-14, holding the qor5up branch hostage. Closed: header -> CLOSED-PARTIAL (2026-08-27, B1173); the 13 rows (lanes 3.1-3.5, 4.1-4.7, 5.01-5.12) typed NOT-REACHED (a deliberate deviation from the plan's UNPORTED-AT-CLOSE token: the ledger's own sealed vocabulary already contains the honesty row -- using it respects the vocabulary instead of widening it), each pointing at L185, the umbrella residue lead (one row not thirteen; denominator stays 58; any row reopenable by dispositioning under a new arc). The RENUMBER COLLISION fixed: the stale 'qL155-qL166 -> L165+' instruction (written when main's next lead was L161) collided with main's live L165-L184 -> corrected to L185+ with the alias table as resolver. THE QOR5UP RELEASE: FROZEN-RECORD-PENDING -> FROZEN-RECORD-CLOSED (the owed registry entry landed by append-only inter-review note; R47-3 AND R48-5 DISCHARGE -- two of Review 50's carried items closed before it opens). The stale OPEN_LEADS currency stamp corrected (next lead = L189). test_b1060_digest updated to pin the closed state. Nothing lost: every NOT-REACHED row readable at the frozen branch via the alias table; qL164 already owner-DECIDED; two-kappa (qL159) + shadow-library (qL160) flagged likeliest early reopens. Process arc; no mathematics; Gate 5 clean. |  | 1 |
+ | `B1175` | THE CHARTER-CLOSE HARVEST (integrate-don't-merge; cloud + codex credited). CLOUD FILED ADDENDUM 1 (their own amendment rule) -- every charter row moved on the B1165-B1173 + R018-R022 evidence: G-IDENT re-typed per B1165 (object-specific identification REFUTED, accepted; 'gravity is the WHERE of the observer's closing, generically'); C1 carried with the ARENA RESCOPE adopted (B1170 three-seat; E2 restated: load-bearing in the record's frame, content arena-generic; minimality alphabet-independent / uniqueness alphabet-dependent both adopted); C3 VERIFIED (B1166: CS=0/mu_6 absorption + Mostow-no-2nd-modulus; prediction -> carried); C4 REFUTED-AS-STATED adjudicated by the author (named-action was the stated condition; cc's sqrt3-vs-sqrt5 separator made exact by codex R022) -> C4' = the sqrt(-3)-INTERNAL pair (branch V4 vs B1024's H^1 quotient with the measurement leg FROZEN per R022: 16-point cocycle carrier, 4-class H^1, (alpha2,alpha4) labels, one declared coordinate convention; being x hearing DROPPED -- pairs the two ends by construction); C5 SUPERSEDED BY THE LAW (B1168; 'the owner's investigation direction vindicated') -> G-IDENT': the observer's contribution = exactly the mirror-ODD-or-DIMENSIONFUL data at the archimedean place + the finite-place VEV; everything mirror-even and dimensionless is the object's; C6 unchanged, now load-bearing. THE CODEX TRIO, all re-run BYTE-IDENTICAL on this bench (standalone certs, no repo imports): R022 the V4 named-action audit (abstract regular V4's equivariantly isomorphic = the vacuous half; with field labels branch vs being x hearing NOT label-preserving -- ram {2,3} vs {5}; three-way claim ILL-TYPED until frozen = C4''s spec; B1024 carrier typed, conjugation (1,0)/(0,1) BY CONVENTION fenced, reversal (1,1) in both); R020 principal beat/64 (Sigma(V64) not subset V64 -- the principal semilinear beat leaks the spin-2 strings + colored 54; Sigma^2 = Ad(meridian) on all 78 inputs; cloud-scoped: a DIFFERENT operator from their ROOTS[0] beat, no banked result touched); R021 Gieseking Pin-minus (the restriction CONSTANT: p* = 0 on H^1(-;F2), H1(N)=Z<t> with a=b=2t; N has 2 Pin- structures, m004 2 spin structures, ONE spin structure does NOT extend; codex's fence carried: NOT yet identified with B1141's beat-selected sign lift -- the tangent-frame lift + convention comparison is the named residual, queued to the spin thread). COMPOSITION WITH B1174: C4' is exactly the pair B1174 equips (the branch legs located: k=11 = c the orientation leg, k=7 the form-class swap) -- the remaining content is ONE exact question: does the frozen B1024 H^1 quotient carry a label-preserving equivariant iso onto the branch V4 with c -> the conjugation class and theta=cr -> a K-fixing-type leg? (bounded; the cc/codex chase, fully specified). No firewall crossing; Gate 5 clean. Not kill_graph-routed (integration; the C4-as-stated kill is cloud's adjudication + B1174's entry). |  | 0 |
+-| `B1176` | THE RECORD-SURFACE WAVE (R50-4; the lose-nothing register's Wave 2, record half). (1) THE PORTFOLIO LANDED IN-REPO (papers/PORTFOLIO_2026-08-27.md; was memory-only): the owner-ratified architecture (CORE TRIO P1 foundation [scrutiny campaign = the first publication move] + P2 rigidity crown + P3 THE PAPER, with the post-ratification strengtheners B1168/B1170/B1174/B1175 noted; P4-P8 satellites-as-warranted, P5-lab YES with the B8146 count-readout re-pose; the no-work-lost ARCHIVE layer) + the P/PC NAMESPACE DISAMBIGUATION (three colliding P-generations typed; FOUR P5 senses; papers/README's PC-only scope was the root cause -- pointer added) + one disposition row per parked artifact (P4_markov = the one arXiv-candidate, owner-gated; PC23 ready-minus; PC24/25 drafted; PC26 held-on-verification; PC22 reframe-as-letter; P5_monoid stands WITHDRAWN). (2) THIRTEEN RETRO ARC_VERDICTS authored for the pre-discipline band (B58_stage1 NEG, B834-B842+B845 per their own FINDINGS, B89 PROVED M^4=L symbolic-exact, B89T NEGATIVE route-foreclosed under the shared id B89) -- each stamped retro-authored with the FINDINGS as primary; P3_depth_exposure EXEMPT-BY-NAME (the schema requires a B-prefix; its verdict lives in its FINDINGS + L187); B838/B840 routed to the kill graph (vacuity class both). (3) THE GOVERNED-ROOMS APEX REPAIR (the proven one-S-file-plus-addendum pattern): S074 homes the era's doctrine (adelic object; values disjoint every route; the observer's mechanism; the parity law/G-IDENT'; the shared involution) with the firewalled residue table; philosophy/13 gains the dated scoreboard addendum. (4) L189 registered -- the genesis-chat harvest candidates OWNED (eight topics named publicly, the private source stays untracked per LEAK-NOTHING; U_e + the quasinormal channel = the two genuine physics-adjacent gaps). (5) The L110/L113 ID collisions ANNOTATED IN PLACE (no renumbering, append-only; L110-Maass/L110-CStheta, L113-alg/L113-BC with the B921-4 pointer disambiguated). (6) THE OVERLOADED-SYMBOL REGISTRY added to TERMINOLOGY.md (four C-namespaces, three kappa senses, four P5 senses, G1-G3, the L-collisions; B964's rule generalized: say WHICH, every time). Process arc; no mathematics; Gate 5 clean. |  | 0 |
+-| `B1177` | THE INSTRUMENT BUNDLE (R50-5; the lose-nothing register's Wave 2, instrument half). (1) L183 THE REPRODUCER SWEEP run with a two-stage heuristic: the naive scan flagged 176 arcs; adding the test-lock + root-script stages cuts it to 21 TRUE no-runner-no-lock arcs (the lock IS the runner for the LAW_MAP-cited band) -- the debt list committed (reproducer_debt.md; 15/21 = the B1067-B1082 descent band); disposition rule: each future touch ships its runner/lock same-commit (the B8141 rule extended), NO retro mass-authoring (a runner written from memory certifies nothing -- E51's cousin). (2) L184 DIAGNOSIS RECORDED: full collection = 178.41 s for 5556 tests (the E50 root confirmed at current scale); the per-file top-offenders sweep is RUNNING (long by its own diagnosis) -- results land as ADDENDUM_measurements; the lazy-fy execution remains L184's named next sitting. (3) THE OA_SLOW SHADOW SUITE: 50 gated files enumerated, the first-ever run LAUNCHED (never run by any runner before; the fixed invocation committed in this arc's notes) -- last-green lands in the same addendum. (4) THE R32 VACUITY QUEUE RUN: 4449 test functions scanned, 0 NO-ASSERT, 0 TAUTOLOGY, 84 both-literal review-queue rows (informational, not defects) -- the queue is CLEAN at the defect level. (5) LAW_MAP DEBT PAID (ex-R48-7/R46-3 lineage): FOUR rows landed -- B1042 THE TRIT MORPHISM (joined; the SL(2,5)-perfect control; field-side by descent), B1043 SUPERLINEAR SEAM CREATION (h1=10=7+3; the +1 mechanism; F3 strict; the decoy discriminates), B1043 THE INVARIANT LINE (h0(M;27)=1; the v0 identification a lead candidate), B1043 THE ARITY VOID (sec-E wall: no 3-cells => no H3 target; the mirror-double-of-the-3-fold-cover door; the MB12 prereg method note). (6) THE PROMOTION SCOPE-CHECK (ex-R48-9): CLAIMS.md carries ZERO B909/B952 rows (confirmed) -- the promotion pass itself stays a named bounded residue, not silently re-carried. (7) THE TOOLBOX EXTRACTION SEED landed (e6_centralizer 54 consumers + frame.py; the B1103 engine; the B878 Maass solver; the 3 dangling B792 path repairs owed) + the doc_currency gate NOW WATCHES TOOLBOX_LIVE (the gate the doc itself claimed existed -- the one-line fix). Process arc; no mathematics; Gate 5 clean. | yes | 0 |
+-| `B1178` | L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day). THE DIAGNOSIS WAS SURGICAL, NOT STRUCTURAL: the per-file sweep (1063 files) found TWO files carrying the whole cost -- test_b371_two_state_sector.py at 156.95 s (a module-level REPORT=run() executing ~157 s of exact computation AT COLLECTION -- 88% of the suite's entire 178.41 s collect) and test_cc2_r5_adopted.py at 36.05 s (a 300-line module-level lock script); everything else <= 7.7 s (~4.3 s interpreter+conftest baseline). THE FIX (the E50 remedy pattern, now named THE CACHED-RUNNER MOVE): each body moved into a functools.lru_cache'd _report()/_run() with the frontier-engine import DEFERRED inside it -- the compute runs once at first TEST EXECUTION (total cost unchanged when the tests actually run; ZERO at collection). OUTCOMES PRESERVED: both files 5/5 pass post-fix (277.88 s execution = the same compute, now paid where it belongs). THE CERTIFIED WIN: full-suite collection 178.41 s -> 15.14 s (12x; 5587 tests) -- the fast lane's collection tax is gone and the full certificate-of-record suite is routinely collectable. The B1177 measurements addendum landed in the same sitting (the per-file table committed; the OA_SLOW first-ever run continues -- launched, not yet complete, no phantom green). Instrument arc; test-outcome-preserving by construction and by the 5/5 re-run; Gate 5 clean. | yes | 0 |
+-| `B1179` | R50-7's TWO GO-ABLE HALVES EXECUTED (the owner's GO; the rest of R50-7 -- the cold-pass election, the census calls' D2 sitting -- stays the owner's). (1) THE PAPERS RELAY SENT to cc3's assembly (discharging the R48-11 -> R49-7 carry lineage): the paper-grade results since their freeze (the mirror-parity law B1168/G-IDENT'; the arena rescope B1170 three-seat; the shared-involution theorem B1174; the gravity close + the adelic mechanism B1165/B1171; the charter reconciliation B1175; the Gieseking Pin- constraint R021; the complete value verdict) + THE PORTFOLIO now in-repo as the shared architecture (papers/PORTFOLIO_2026-08-27.md; their four-paper series maps in, nothing displaced) + the formulation recommendations (misses-in-abstract, non-claims box, freedom-ledger methods, recognition table, prize-first) + the standing hazards stated informationally (codex R014 vs Paper IV -- the owner holds the decisions; the C-namespace registry as resolver) + gentle re-pings (torsion parity, B1169 verification, the nine-relay re-send, B8127). (2) THE SPECIALIST SEND-QUEUE BUILT AND PRESENTED (docs/SPECIALIST_SEND_QUEUE.md; the outreach trigger formally FIRED at B1161's exhaustion declaration; the June-era brief staleness-passed in place): SIX bounded bars, each with the honest proof-status, the specialist TYPE, THE STATED REFUTATION RISK (what an expert could kill -- said in advance, per the house discipline), and a priority -- Q1 SEAM-A Gate 2 (the prize crossing, 4-star), Q2 J3(O) Beilinson regulators, Q3 the B491 seam form (P1-adjacent novelty ask), Q4 Cappell-Miller cusped vanishing, Q5 B165 complexified hyperbolicity, Q6 the closed-form k as a rider; the torsion-parity EXCLUDED (internal-first at cc3). MECHANICS FIXED IN ADVANCE: per-item owner SEND/HOLD/REFRAME; sends are the owner's act under the owner's name; every send gets a relay-ledger row so the repaired gate AGES it; replies harvested verify-don't-trust. NOTHING LEAVES WITHOUT THE OWNER'S PER-ITEM WORD. Process arc; Gate 5 clean. |  | 0 |
++| `B1176` | THE RECORD-SURFACE WAVE (R50-4; the lose-nothing register's Wave 2, record half). (1) THE PORTFOLIO LANDED IN-REPO (papers/PORTFOLIO_2026-08-27.md; was memory-only): the owner-ratified architecture (CORE TRIO P1 foundation [scrutiny campaign = the first publication move] + P2 rigidity crown + P3 THE PAPER, with the post-ratification strengtheners B1168/B1170/B1174/B1175 noted; P4-P8 satellites-as-warranted, P5-lab YES with the B8146 count-readout re-pose; the no-work-lost ARCHIVE layer) + the P/PC NAMESPACE DISAMBIGUATION (three colliding P-generations typed; FOUR P5 senses; papers/README's PC-only scope was the root cause -- pointer added) + one disposition row per parked artifact (P4_markov = the one arXiv-candidate, owner-gated; PC23 ready-minus; PC24/25 drafted; PC26 held-on-verification; PC22 reframe-as-letter; P5_monoid stands WITHDRAWN). (2) THIRTEEN RETRO ARC_VERDICTS authored for the pre-discipline band (B58_stage1 NEG, B834-B842+B845 per their own FINDINGS, B89 PROVED M^4=L symbolic-exact, B89T NEGATIVE route-foreclosed under the shared id B89) -- each stamped retro-authored with the FINDINGS as primary; P3_depth_exposure EXEMPT-BY-NAME (the schema requires a B-prefix; its verdict lives in its FINDINGS + L187); B838/B840 routed to the kill graph (vacuity class both). (3) THE GOVERNED-ROOMS APEX REPAIR (the proven one-S-file-plus-addendum pattern): S074 homes the era's doctrine (adelic object; values disjoint every route; the observer's mechanism; the parity law/G-IDENT'; the shared involution) with the firewalled residue table; philosophy/13 gains the dated scoreboard addendum. (4) L189 registered -- the genesis-chat harvest candidates OWNED (eight topics named publicly, the private source stays untracked per LEAK-NOTHING; U_e + the quasinormal channel = the two genuine physics-adjacent gaps). (5) The L110/L113 ID collisions ANNOTATED IN PLACE (no renumbering, append-only; L110-Maass/L110-CStheta, L113-alg/L113-BC with the B921-4 pointer disambiguated). (6) THE OVERLOADED-SYMBOL REGISTRY added to TERMINOLOGY.md (four C-namespaces, three kappa senses, four P5 senses, G1-G3, the L-collisions; B964's rule generalized: say WHICH, every time). Process arc; no mathematics; Gate 5 clean. |  | 1 |
++| `B1177` | THE INSTRUMENT BUNDLE (R50-5; the lose-nothing register's Wave 2, instrument half). (1) L183 THE REPRODUCER SWEEP run with a two-stage heuristic: the naive scan flagged 176 arcs; adding the test-lock + root-script stages cuts it to 21 TRUE no-runner-no-lock arcs (the lock IS the runner for the LAW_MAP-cited band) -- the debt list committed (reproducer_debt.md; 15/21 = the B1067-B1082 descent band); disposition rule: each future touch ships its runner/lock same-commit (the B8141 rule extended), NO retro mass-authoring (a runner written from memory certifies nothing -- E51's cousin). (2) L184 DIAGNOSIS RECORDED: full collection = 178.41 s for 5556 tests (the E50 root confirmed at current scale); the per-file top-offenders sweep is RUNNING (long by its own diagnosis) -- results land as ADDENDUM_measurements; the lazy-fy execution remains L184's named next sitting. (3) THE OA_SLOW SHADOW SUITE: 50 gated files enumerated, the first-ever run LAUNCHED (never run by any runner before; the fixed invocation committed in this arc's notes) -- last-green lands in the same addendum. (4) THE R32 VACUITY QUEUE RUN: 4449 test functions scanned, 0 NO-ASSERT, 0 TAUTOLOGY, 84 both-literal review-queue rows (informational, not defects) -- the queue is CLEAN at the defect level. (5) LAW_MAP DEBT PAID (ex-R48-7/R46-3 lineage): FOUR rows landed -- B1042 THE TRIT MORPHISM (joined; the SL(2,5)-perfect control; field-side by descent), B1043 SUPERLINEAR SEAM CREATION (h1=10=7+3; the +1 mechanism; F3 strict; the decoy discriminates), B1043 THE INVARIANT LINE (h0(M;27)=1; the v0 identification a lead candidate), B1043 THE ARITY VOID (sec-E wall: no 3-cells => no H3 target; the mirror-double-of-the-3-fold-cover door; the MB12 prereg method note). (6) THE PROMOTION SCOPE-CHECK (ex-R48-9): CLAIMS.md carries ZERO B909/B952 rows (confirmed) -- the promotion pass itself stays a named bounded residue, not silently re-carried. (7) THE TOOLBOX EXTRACTION SEED landed (e6_centralizer 54 consumers + frame.py; the B1103 engine; the B878 Maass solver; the 3 dangling B792 path repairs owed) + the doc_currency gate NOW WATCHES TOOLBOX_LIVE (the gate the doc itself claimed existed -- the one-line fix). Process arc; no mathematics; Gate 5 clean. | yes | 1 |
++| `B1179` | R50-7's TWO GO-ABLE HALVES EXECUTED (the owner's GO; the rest of R50-7 -- the cold-pass election, the census calls' D2 sitting -- stays the owner's). (1) THE PAPERS RELAY SENT to cc3's assembly (discharging the R48-11 -> R49-7 carry lineage): the paper-grade results since their freeze (the mirror-parity law B1168/G-IDENT'; the arena rescope B1170 three-seat; the shared-involution theorem B1174; the gravity close + the adelic mechanism B1165/B1171; the charter reconciliation B1175; the Gieseking Pin- constraint R021; the complete value verdict) + THE PORTFOLIO now in-repo as the shared architecture (papers/PORTFOLIO_2026-08-27.md; their four-paper series maps in, nothing displaced) + the formulation recommendations (misses-in-abstract, non-claims box, freedom-ledger methods, recognition table, prize-first) + the standing hazards stated informationally (codex R014 vs Paper IV -- the owner holds the decisions; the C-namespace registry as resolver) + gentle re-pings (torsion parity, B1169 verification, the nine-relay re-send, B8127). (2) THE SPECIALIST SEND-QUEUE BUILT AND PRESENTED (docs/SPECIALIST_SEND_QUEUE.md; the outreach trigger formally FIRED at B1161's exhaustion declaration; the June-era brief staleness-passed in place): SIX bounded bars, each with the honest proof-status, the specialist TYPE, THE STATED REFUTATION RISK (what an expert could kill -- said in advance, per the house discipline), and a priority -- Q1 SEAM-A Gate 2 (the prize crossing, 4-star), Q2 J3(O) Beilinson regulators, Q3 the B491 seam form (P1-adjacent novelty ask), Q4 Cappell-Miller cusped vanishing, Q5 B165 complexified hyperbolicity, Q6 the closed-form k as a rider; the torsion-parity EXCLUDED (internal-first at cc3). MECHANICS FIXED IN ADVANCE: per-item owner SEND/HOLD/REFRAME; sends are the owner's act under the owner's name; every send gets a relay-ledger row so the repaired gate AGES it; replies harvested verify-don't-trust. NOTHING LEAVES WITHOUT THE OWNER'S PER-ITEM WORD. Process arc; Gate 5 clean. |  | 1 |
+ | `B1180` | cc3's B8147 FAMILY-DENOMINATOR RETRACTION ADOPTED IN FULL (integrate-don't-merge; every named witness spot-verified on this bench). THE RETRACTION: the '14-manifold Q(sqrt-3) family' was never verified complete -- cc3's census scan (212,641 orientable cusped manifolds) finds 77 all-regular-ideal members (+ the original 14, six NOT all-regular, so the criteria differ) => >=83, A LOWER BOUND, NOT THE FAMILY; root defect in cc3's words: 'I treated an enumerated family as a setting rather than a claim.' BOTH SEPARATORS DIE, verified here: H1=Z fails on o10_150700 (single-cusped, ten regular ideal tetrahedra, Vol = 5x Vol(m004) exact, H1=Z -- no refinement escapes); the cusp shape 2sqrt3 i appears on o10_150684/85/93 + t12840 (each carries the shape on one cusp; multi-cusped, so a weaker single-cusped claim MIGHT survive but is UNTESTED -- not retreated to). MAIN CORRECTED BY ADDENDA: B1167(B)'s separator status RETRACTED (the ORIENTATION-BLINDNESS answer untouched -- purely imaginary => mirror-fixed is a fact about m004 alone); B1163's family-wide addendum re-scoped (amphichirality at >=83 UNCHECKED by any seat -- an honest open; the CORE THEOREM UNTOUCHED, the mirror-parity argument never used the family). THE CORRECTED CONCLUSION (cc3's framing, adopted): on present evidence NO tested elementary invariant makes m004 object-level within its true family -- which STRENGTHENS the W0-refusal (the object-level-datum route is emptier than claimed) while destroying the stated reason ('must route through H1'). CODEX R014 ADJUDICATED: conclusion CONFIRMED (the 14-family exhaustiveness was false), witness CORRECTED (s955 refutes neither separator -- H1=Z/20+Z, cusp omega, Vol=3x, spot-verified -- but its ABSENCE from the family exposed the enumeration defect; 'more useful than a refutation'). WHAT SURVIVES STRENGTHENED: the scale + orbit theorems never used the family; the volume identity more clearly a family property. B1168/B1169 UNAFFECTED (the cusp modulus as m004's OWN object-canonical datum stands; only the family-separator framing dies). THE DEFINITIONAL RESIDUE relayed back: which membership criterion defines the family (all-regular-tetrahedra vs invariant-trace-field -- strictly different per the six)? cc3's process lesson recorded (inbound-queue vs commit-summaries -- the class our repaired relay gate now ages). Gate 5 clean. |  | 0 |
+ | `B1198` | THE SPECIALIST BAR'S LITERATURE HALF RETRIEVED (WebSearch returned to this bench today; on the first search against SEAM-A, B707's THIRD named-but-never-run bridge test -- 'Lee x B680/B683' -- turned out to have its object in hand). THE PAPER (Dong Uk Lee, arXiv:2502.11950, 17 Feb 2025; already cited by B707 by number): for ANY finite-volume hyperbolic 3-manifold a MIXED TATE MOTIVE over the INVARIANT TRACE FIELD is constructed whose BEILINSON REGULATOR equals the PSL2(C) Chern-Simons invariant = the complex volume, up to constant; for single-torus-boundary manifolds its Hodge realization is a quotient of the MHS on the PATH TORSOR between the geometric point (the complete hyperbolic structure) and a TANGENTIAL BASE POINT AT AN IDEAL POINT. THREE RETRIEVED FACTS B707 DID NOT HAVE: (1) the appendix is titled 'Confirmation of Conj. for knot complements 4_1' -- OUR OBJECT IS THE VERIFIED CASE; (2) the tangential base point is NOT CANONICAL -- the text takes 'any tangent vector satisfying the condition', a choice among admissible vectors, not a derived datum; (3) the paper's own caveat that for non-rational curves 'the motivic path torsor is a hypothetical object'. THE STRUCTURAL CONVERGENCE, SHARP: the paper's object is a path torsor between the geometric point and a MARKING AT THE IDEAL POINT -- structurally the shape of our missing W0 (the hyperbolic structure is given; a marking at the cusp must be ADDED) -- and the literature's state of the art supplies that marking BY CHOICE, NOT BY DERIVATION: an outside, independent instance of the shape our record proved from the inside (B1163's orientation theorem, B760/B1183's no-self-closure, the free-orbit theorem). OUR HALF, COMPUTED FRESH HERE at 40 dps: Vol(m004) = 2.029883212819307250042405108549 = (3sqrt3/2)L(chi_-3,2) = 9 sqrt3 zeta_K(2)/pi^2, and the complex volume 2R(e^{i pi/3}) = pi^2/6 + i Vol to 2.3e-41 (the CS = 0 statement) -- so the quantity Lee's motive realizes motivically over K = Q(sqrt-3) is exactly the number the record already holds arithmetically (B680/B1117/B1088), and B707's test-3 question is answered YES AT THE LEVEL OF THE NUMBER ON OUR SIDE (verified here), with the motivic identification CITED not verified. WHAT IT DOES NOT DO: it does not supply W0 -- it CHOOSES a basepoint, and a construction that chooses is not one that derives; nothing here weakens the program's negatives. FENCES (E37 applied to myself): I read the ABSTRACT and an AUTOMATED SUMMARY of the arXiv HTML -- not the mathematics; the motive's construction, the regulator computation, and the appendix's content are CITED/UNVERIFIED, and the identification 'tangential base point ~ W0' is a HYPOTHESIS (a shape-match between an abstract and our record), explicitly not a theorem. THE NAMED VERIFICATION STEP: read section 7.4 and Appendix A properly and answer (a) is the admissible tangent-vector set a TORSOR and under what group -- a Z/2 or V4 would be direct contact with B1174/B1182's legs; (b) does the 4_1 confirmation use the CS=0/amphichirality degeneracy B1195/GC-21 just made exact on our side; (c) does the invariant-trace-field statement specialize to Q(sqrt-3) in the form the seam needs. This is the first NEEDS-SPECIALIST bar item whose literature half is IN HAND rather than absent; the bar's shape is unchanged, its reading list is not. Gate 5 clean. |  | 0 |
+ | `B1206` | THE P^3 IS EXACTLY ONE CONDITION SHORT. B1205 left the frontier 'the linear cuts must come from a consistency requirement rather than a symmetry -- are there any?'; this cell answers YES and counts them. THE MECHANISM: the object's cubic contains the term 1.10.10 (banked, LAW_MAP/B884/B987: 27^3 contains 16.16.10 + 1.10.10), and a cubic term C(X,Y,.) becomes a LINEAR FUNCTIONAL on B_0 as soon as its other two legs are PINNED to unique states -- so the question is purely which slots are pinned. H_u IS 1-DIMENSIONAL (sector table Q/dc/Hd/Hu = 3/3/4/1, B1161's own-verified selection arithmetic), pinned automatically; and the 27 has exactly TWO neutrals, of which memo 80's MEASURED lambda-term row (byte-verified on this bench at B1171) reads N.Hu.Hd : N1 -> 2 nonzero entries, N2 -> 0, so ONLY ONE NEUTRAL COUPLES. THEREFORE THE OBJECT SUPPLIES EXACTLY ONE CANONICAL LINEAR FUNCTIONAL ON B_0 -- the lambda-term C(N1, H_u, .) -- while the q.dc.Hd and l.ec.Hd rows are linear in h only AFTER choosing matter states, so they are texture data (they ARE the tensor), not canonical conditions. THE CUT LEDGER: the Higgs line P(B_0) has dim 3; minus ONE canonical LINEAR condition (the lambda-term) gives dim 2; minus ONE NONLINEAR condition (det Y_d = 0, B1205) gives dim 1; points require dim 0 -- SO THE FORCING FALLS EXACTLY ONE CONDITION SHORT. WHY THIS MATTERS MORE THAN ANOTHER NEGATIVE: B1205's state was 'the linear cuts are missing', which sounds like an unbounded search; this BOUNDS it -- ONE MORE INDEPENDENT CONDITION ON h CLOSES THE P^3 TO A FINITE SET and the row flips from PERMANENT to FORCED. WHAT COULD SUPPLY THE MISSING ONE (named, not claimed): (i) the second neutral N2, which the measured row says does NOT couple at this order though the exotic-mass row D.Dc.N (N1 -> 3, N2 -> 0) is a different slot worth its own count; (ii) doublet-triplet splitting, which the record types as EXTERNAL and colour-choice-dependent (B298/B299) -- if external it CANNOT supply an object-side condition, itself a clean negative; (iii) the lambda-term's own RANK on B_0, banked as '2 nonzero entries' in ONE functional, but if the underlying map has rank 2 rather than 1 THE LEDGER CLOSES IMMEDIATELY -- and (iii) is the cheapest, being exactly a datum codex's commissioned T evaluator (R023) would settle. FENCES: this is a COUNT OF AVAILABLE STRUCTURE, not a physics claim -- nothing here says the lambda-term must vanish or that any coupling takes any value, since imposing a PARTICULAR condition is a modelling act the program firewalls and the count is silent on which condition is right; sector dimensions and the lambda-term row are banked and cited, not re-derived; the determinantal cubic is B1205's, over the tensor's shape. Nothing weakens V-3: even a forced Higgs line yields a DIRECTION, not a measured value. Gate 5 clean. |  | 0 |
+diff --git a/frontier/B1171_seam_harvest/FINDINGS.md b/frontier/B1171_seam_harvest/FINDINGS.md
+index 8b3057e81..56c9733e0 100644
+--- a/frontier/B1171_seam_harvest/FINDINGS.md
++++ b/frontier/B1171_seam_harvest/FINDINGS.md
+@@ -74,3 +74,16 @@ here as the L173 re-pose).
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the time's-arrow instrument was queued and not run; Krutelevich's finite-orbit citation is carried cited, not re-derived; two asks were relayed (the R018 numbering gap; the re-runnable ζ₁₂/dP6 construction certificate).
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the time's-arrow instrument was queued and not run | DISCHARGED | `frontier/B1182_c4prime_resolved/FINDINGS.md` | THE TIME'S-ARROW TYPED (the FIRST EXECUTION of cc3's B8144 escape-instrument, the flagged price-reconciliation residue) | B1182 |
++| Krutelevich's finite-orbit citation is carried cited, not re-derived | CARRIED | `docs/OPEN_LEADS.md` | Review 74's reader proposed closing this lead; main's check did not confirm it. P-332 carries the transitivity proof route. | L162, P-332 |
++| the relayed ask on the R018 numbering gap | DISCHARGED | `docs/RELAY_LEDGER.md` | its substance is the seat arcs it reports, R018, each with a HARVEST_LEDGER row | R018 exists and is rowed |
++| the relayed ask for a re-runnable zeta-12 / dP6 construction certificate | UNREGISTERED | `docs/OPEN_LEADS.md` | SEAM-A is open in B1156, and B1159 calls it a wall only in substance. The lead stays open. | P-745 (nearest home: L182, which does not name the certificate) |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by L162, P-332; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/frontier/B1172_lose_nothing_register/FINDINGS.md b/frontier/B1172_lose_nothing_register/FINDINGS.md
+index 30babb0ff..4528f0e5b 100644
+--- a/frontier/B1172_lose_nothing_register/FINDINGS.md
++++ b/frontier/B1172_lose_nothing_register/FINDINGS.md
+@@ -76,3 +76,15 @@ Not kill_graph-routed (instruments + triage; nothing killed).
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the MC1 assignment row was left OPEN; the Wave 2 and Wave 3 queues were recorded in b1172_results.json; the review-carry half was handed to Review 50.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the MC1 assignment row was left OPEN | CARRIED | `docs/POINT_REGISTER.md` | MC1, live (from the declined relay of 2026-08-26, P-231): the only internal-diversity control on the hypercharge-forcing theorems | P-233 |
++| the Wave 2 and Wave 3 queues recorded in b1172_results.json | UNREGISTERED | `frontier/B1174_z2_identification/FINDINGS.md` | This was the register's Q1 = B1169's S1, **double-discovered** (the sweep and the meditation found | P-745 (Wave 3's Q1 is B1174; Q2 to Q11 are disposed of nowhere) |
++| the review-carry half was handed to Review 50 | DISCHARGED | `docs/CAMPAIGN_STATUS.md` | the review gate now **enforces carry continuity** (a `[>]` that never recurs fails by name) | Review 50; the gate review-actions |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-233; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/frontier/B1173_digest_partial_close/FINDINGS.md b/frontier/B1173_digest_partial_close/FINDINGS.md
+index a342fb73b..9b6353bf8 100644
+--- a/frontier/B1173_digest_partial_close/FINDINGS.md
++++ b/frontier/B1173_digest_partial_close/FINDINGS.md
+@@ -28,3 +28,14 @@ clean. Not kill_graph-routed.
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the thirteen NOT-REACHED digest rows sit under the umbrella lead L185, reopenable row by row; the two-κ and shadow-library rows were flagged as the likeliest reopens.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the thirteen NOT-REACHED digest rows under the umbrella lead L185 | CARRIED | `docs/OPEN_LEADS.md` | Review 74's reader proposed closing this lead; main's check did not confirm it. The disposition table is only in a gitignored audit draft, and the row it promises does not exist. | L185 |
++| the two-kappa and shadow-library rows flagged as the likeliest reopens | CARRIED | `frontier/B1060_digest_ledger/DIGEST_LEDGER.md` | ∣ 4.6 ∣ the two-κ finding (qL159) ∣ NOT-REACHED ∣ — ∣ vs main's TERMINOLOGY register · NOT-REACHED at partial-close (B1173) → tracked at L185∣ | L185 |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by L185). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/frontier/B1176_record_surface_wave/FINDINGS.md b/frontier/B1176_record_surface_wave/FINDINGS.md
+index 903d35f2c..ff239a690 100644
+--- a/frontier/B1176_record_surface_wave/FINDINGS.md
++++ b/frontier/B1176_record_surface_wave/FINDINGS.md
+@@ -44,3 +44,14 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the record repairs were executed; the two physics-adjacent gaps it names (U_e and the quasinormal channel) were left as gaps.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the gap U_e | CARRIED | `docs/POINT_REGISTER.md` | [S305j: HELD unspent by the owner's ruling (P-709) — as P-585] | P-638 |
++| the gap the quasinormal channel | CARRIED | `docs/POINT_REGISTER.md` | item (1) U_e split out as P-638; (2) the quasinormal channel covered by P-287 and B1090/B1704 | P-287, L189 (a reader's routing; L189 stays open) |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-287, L189; P-638). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/frontier/B1177_instrument_bundle/FINDINGS.md b/frontier/B1177_instrument_bundle/FINDINGS.md
+index 07e084164..1f2a8b38a 100644
+--- a/frontier/B1177_instrument_bundle/FINDINGS.md
++++ b/frontier/B1177_instrument_bundle/FINDINGS.md
+@@ -49,3 +49,15 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the promotion pass (ex-R48-9) stays a named bounded residue; three dangling B792 path repairs were owed; the first OA_SLOW run was launched, not complete.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the promotion pass (ex-R48-9) stays a named bounded residue | UNREGISTERED | `frontier/B1177_instrument_bundle/FINDINGS.md` | the promotion pass (ex-R48-9) stays a named bounded residue | P-745 (the review item that held it closed with B1207, which does not name the promotion; CLAIMS.md has no row of B909 or B952) |
++| three dangling B792 path repairs were owed | CARRIED | `docs/POINT_REGISTER.md` | the chain rule lapsed since B1454 (B758); B1177's four dangling B792 paths; 39 directories with no findings document | P-322 (which counts four) |
++| the first OA_SLOW run was launched, not complete | DISCHARGED | `frontier/B1207_slow_lane_discharge/FINDINGS.md` | enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**: | B1207 |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-322; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/frontier/B1178_l184_lazyfy/FINDINGS.md b/frontier/B1178_l184_lazyfy/FINDINGS.md
+index 1edb1db4a..7a1eb5987 100644
+--- a/frontier/B1178_l184_lazyfy/FINDINGS.md
++++ b/frontier/B1178_l184_lazyfy/FINDINGS.md
+@@ -32,3 +32,13 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the lazy-fy was executed and certified; the first OA_SLOW run was still in flight when the arc closed.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the first OA_SLOW run was still in flight when the arc closed | DISCHARGED | `frontier/B1207_slow_lane_discharge/FINDINGS.md` | enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**: | B1207 |
++
++**Every residue is discharged, so the arc is closed:** its verdict is PROVED from 2026-11-13, as a process arc whose work is done. It states no theorem.
+diff --git a/frontier/B1178_l184_lazyfy/arc_verdict.json b/frontier/B1178_l184_lazyfy/arc_verdict.json
+index 3df16662f..79c275bb6 100644
+--- a/frontier/B1178_l184_lazyfy/arc_verdict.json
++++ b/frontier/B1178_l184_lazyfy/arc_verdict.json
+@@ -1,7 +1,7 @@
+ {
+  "id": "B1178",
+- "verdict": "OPEN",
+- "claim_one_line": "L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day). THE DIAGNOSIS WAS SURGICAL, NOT STRUCTURAL: the per-file sweep (1063 files) found TWO files carrying the whole cost -- test_b371_two_state_sector.py at 156.95 s (a module-level REPORT=run() executing ~157 s of exact computation AT COLLECTION -- 88% of the suite's entire 178.41 s collect) and test_cc2_r5_adopted.py at 36.05 s (a 300-line module-level lock script); everything else <= 7.7 s (~4.3 s interpreter+conftest baseline). THE FIX (the E50 remedy pattern, now named THE CACHED-RUNNER MOVE): each body moved into a functools.lru_cache'd _report()/_run() with the frontier-engine import DEFERRED inside it -- the compute runs once at first TEST EXECUTION (total cost unchanged when the tests actually run; ZERO at collection). OUTCOMES PRESERVED: both files 5/5 pass post-fix (277.88 s execution = the same compute, now paid where it belongs). THE CERTIFIED WIN: full-suite collection 178.41 s -> 15.14 s (12x; 5587 tests) -- the fast lane's collection tax is gone and the full certificate-of-record suite is routinely collectable. The B1177 measurements addendum landed in the same sitting (the per-file table committed; the OA_SLOW first-ever run continues -- launched, not yet complete, no phantom green). Instrument arc; test-outcome-preserving by construction and by the 5/5 re-run; Gate 5 clean.",
++ "verdict": "PROVED",
++ "claim_one_line": "L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised as 'the named next sitting' and delivered same-day). THE DIAGNOSIS WAS SURGICAL, NOT STRUCTURAL: the per-file sweep (1063 files) found TWO files carrying the whole cost -- test_b371_two_state_sector.py at 156.95 s (a module-level REPORT=run() executing ~157 s of exact computation AT COLLECTION -- 88% of the suite's entire 178.41 s collect) and test_cc2_r5_adopted.py at 36.05 s (a 300-line module-level lock script); everything else <= 7.7 s (~4.3 s interpreter+conftest baseline). THE FIX (the E50 remedy pattern, now named THE CACHED-RUNNER MOVE): each body moved into a functools.lru_cache'd _report()/_run() with the frontier-engine import DEFERRED inside it -- the compute runs once at first TEST EXECUTION (total cost unchanged when the tests actually run; ZERO at collection). OUTCOMES PRESERVED: both files 5/5 pass post-fix (277.88 s execution = the same compute, now paid where it belongs). THE CERTIFIED WIN: full-suite collection 178.41 s -> 15.14 s (12x; 5587 tests) -- the fast lane's collection tax is gone and the full certificate-of-record suite is routinely collectable. The B1177 measurements addendum landed in the same sitting (the per-file table committed; the OA_SLOW first-ever run continues -- launched, not yet complete, no phantom green). Instrument arc; test-outcome-preserving by construction and by the 5/5 re-run; Gate 5 clean. [CLOSED 2026-11-13 (main's card C11; register row P-745): the one residue this process arc left, the first OA_SLOW run, was completed and its nine failures triaged by B1207; the verdict, OPEN by the convention of 2026-08-27 for an arc with no theorem, is PROVED from this date as a process arc whose work is done. It states no theorem. The page's last section gives the quotation.]",
+  "instrument": true,
+  "creates_law": false
+-}
+\ No newline at end of file
++}
+diff --git a/frontier/B1179_outreach_and_papers/FINDINGS.md b/frontier/B1179_outreach_and_papers/FINDINGS.md
+index fca237173..5d3b04f09 100644
+--- a/frontier/B1179_outreach_and_papers/FINDINGS.md
++++ b/frontier/B1179_outreach_and_papers/FINDINGS.md
+@@ -36,3 +36,15 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
+ ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+ - **What it left open, in its own words:** the six-bar specialist send-queue waits on the owner's per-item SEND, HOLD or REFRAME; the cold-pass election and the census calls stay the owner's.
+ - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
++
++## The residues checked, 2026-11-13 (main's card C11; register row P-745)
++
++Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
++
++| residue | outcome | the file read | quotation | carried by |
++|---|---|---|---|---|
++| the specialist send-queue waits on a per-item SEND, HOLD or REFRAME | DISCHARGED | `docs/THE_REMAINING_MATH.md` | specialist-send items **HOLD** (`SPECIALIST_SEND_QUEUE.md` decision box); THE PAPER is crafted | decided: every item HOLD; the queue stays built and unsent |
++| the census calls | CARRIED | `docs/THE_REMAINING_MATH.md` | ∣ 6 ∣ census-31-calls (R45-5, owner:cc) · L145a · F11 · K014 · L189 (U_e/quasinormal) ∣ QUEUED — smaller bounded cells ∣ | the queue of the remaining mathematics, row 6 |
++| the cold-pass election | UNREGISTERED | `frontier/B1179_outreach_and_papers/FINDINGS.md` | the cold-pass election and the census calls stay the owner's | P-745 (no row, lead or arc decides it) |
++
++**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-745; the queue of the remaining mathematics, row 6). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index fea467ef3..9cb723f8f 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -3896,6 +3896,7 @@
+     "L162",
+     "L171",
+     "L173",
++    "L182",
+     "L186"
+    ],
+    "obstacle": "observable",
+@@ -3907,6 +3908,7 @@
+    "slug": "lose nothing register",
+    "motifs": [
+     "closing",
++    "choice",
+     "firewall"
+    ],
+    "refs": [
+@@ -3920,6 +3922,7 @@
+     "L255",
+     "L310",
+     "L34",
++    "S1",
+     "S6",
+     "S7"
+    ],
+@@ -3931,6 +3934,7 @@
+   "B1173": {
+    "slug": "digest partial close",
+    "motifs": [
++    "closing",
+     "choice",
+     "kappa"
+    ],
+@@ -3945,7 +3949,7 @@
+    "obstacle": null,
+    "obstacle_conf": 0,
+    "status": "banked",
+-   "domain": "arithmetic"
++   "domain": "topology"
+   },
+   "B1174": {
+    "slug": "z2 identification",
+@@ -3996,6 +4000,7 @@
+    "slug": "record surface wave",
+    "motifs": [
+     "monoid",
++    "choice",
+     "kappa",
+     "z3_generation",
+     "amphichiral_cp",
+@@ -4032,10 +4037,12 @@
+    "slug": "instrument bundle",
+    "motifs": [
+     "measurement",
++    "choice",
+     "figure_eight",
+     "amphichiral_cp"
+    ],
+    "refs": [
++    "B758",
+     "B792",
+     "B817",
+     "B878",
+@@ -4054,6 +4061,7 @@
+    "slug": "l184 lazyfy",
+    "motifs": [
+     "measurement",
++    "choice",
+     "figure_eight",
+     "amphichiral_cp"
+    ],
+@@ -4069,6 +4077,7 @@
+   "B1179": {
+    "slug": "outreach and papers",
+    "motifs": [
++    "choice",
+     "amphichiral_cp",
+     "torsion"
+    ],
+@@ -4076,12 +4085,14 @@
+     "B165",
+     "B491",
+     "B817",
++    "K014",
++    "L189",
+     "P1"
+    ],
+    "obstacle": "measure",
+    "obstacle_conf": 1,
+    "status": "banked",
+-   "domain": "topology"
++   "domain": "arithmetic"
+   },
+   "B117": {
+    "slug": "interleaving",
+diff --git a/tests/c11_lock.py b/tests/c11_lock.py
+new file mode 100644
+index 000000000..0a6110bd5
+--- /dev/null
++++ b/tests/c11_lock.py
+@@ -0,0 +1,146 @@
++"""The seven process arcs of 2026-08-27 left at verdict OPEN (register row P-745; main's card C11, 2026-11-13).
++
++Each residue an arc names in its own words was checked against the record as it stood on 2026-11-13, at the file that
++decides it today, by a quotation from that file.  The outcome of each: DISCHARGED (the record shows it done), CARRIED (it
++lives on, open, in a named row or lead), or UNREGISTERED (no row, lead or later arc decides it: it is re-pointed to P-745,
++whose dated addition lists it for main).  An arc whose every residue is discharged is closed; the others stay OPEN with a
++dated ESCALATED marker that names what carries each residue.
++
++Held here: the table; each quotation stands in its file; each arc's page carries its section, its outcome and its marker;
++B1178 is closed and the six others are not; and the aged-debt check excuses an OPEN arc only by a marker."""
++import json
++import pathlib
++import re
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++# (residue in the arc's own words, outcome, the deciding file, a quotation from it, what carries it)
++TABLE = {
++    "B1171": [
++        ("the time's-arrow instrument was queued and not run", "DISCHARGED", "frontier/B1182_c4prime_resolved/FINDINGS.md",
++         "THE TIME'S-ARROW TYPED (the FIRST EXECUTION of cc3's B8144 escape-instrument, the flagged price-reconciliation residue)", "B1182"),
++        ("Krutelevich's finite-orbit citation is carried cited, not re-derived", "CARRIED", "docs/OPEN_LEADS.md",
++         "Review 74's reader proposed closing this lead; main's check did not confirm it. P-332 carries the transitivity proof route.", "L162, P-332"),
++        ("the relayed ask on the R018 numbering gap", "DISCHARGED", "docs/RELAY_LEDGER.md",
++         "its substance is the seat arcs it reports, R018, each with a HARVEST_LEDGER row", "R018 exists and is rowed"),
++        ("the relayed ask for a re-runnable zeta-12 / dP6 construction certificate", "UNREGISTERED", "docs/OPEN_LEADS.md",
++         "SEAM-A is open in B1156, and B1159 calls it a wall only in substance. The lead stays open.", "P-745 (nearest home: L182, which does not name the certificate)"),
++    ],
++    "B1172": [
++        ("the MC1 assignment row was left OPEN", "CARRIED", "docs/POINT_REGISTER.md",
++         "MC1, live (from the declined relay of 2026-08-26, P-231): the only internal-diversity control on the hypercharge-forcing theorems", "P-233"),
++        ("the Wave 2 and Wave 3 queues recorded in b1172_results.json", "UNREGISTERED", "frontier/B1174_z2_identification/FINDINGS.md",
++         "This was the register's Q1 = B1169's S1, **double-discovered** (the sweep and the meditation found", "P-745 (Wave 3's Q1 is B1174; Q2 to Q11 are disposed of nowhere)"),
++        ("the review-carry half was handed to Review 50", "DISCHARGED", "docs/CAMPAIGN_STATUS.md",
++         "the review gate now **enforces carry continuity** (a `[>]` that never recurs fails by name)", "Review 50; the gate review-actions"),
++    ],
++    "B1173": [
++        ("the thirteen NOT-REACHED digest rows under the umbrella lead L185", "CARRIED", "docs/OPEN_LEADS.md",
++         "Review 74's reader proposed closing this lead; main's check did not confirm it. The disposition table is only in a gitignored audit draft, and the row it promises does not exist.", "L185"),
++        ("the two-kappa and shadow-library rows flagged as the likeliest reopens", "CARRIED", "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
++         "| 4.6 | the two-κ finding (qL159) | NOT-REACHED | — | vs main's TERMINOLOGY register · NOT-REACHED at partial-close (B1173) → tracked at L185|", "L185"),
++    ],
++    "B1176": [
++        ("the gap U_e", "CARRIED", "docs/POINT_REGISTER.md", "[S305j: HELD unspent by the owner's ruling (P-709) — as P-585]", "P-638"),
++        ("the gap the quasinormal channel", "CARRIED", "docs/POINT_REGISTER.md",
++         "item (1) U_e split out as P-638; (2) the quasinormal channel covered by P-287 and B1090/B1704", "P-287, L189 (a reader's routing; L189 stays open)"),
++    ],
++    "B1177": [
++        ("the promotion pass (ex-R48-9) stays a named bounded residue", "UNREGISTERED", "frontier/B1177_instrument_bundle/FINDINGS.md",
++         "the promotion pass (ex-R48-9) stays a named bounded residue",
++         "P-745 (the review item that held it closed with B1207, which does not name the promotion; CLAIMS.md has no row of B909 or B952)"),
++        ("three dangling B792 path repairs were owed", "CARRIED", "docs/POINT_REGISTER.md",
++         "the chain rule lapsed since B1454 (B758); B1177's four dangling B792 paths; 39 directories with no findings document", "P-322 (which counts four)"),
++        ("the first OA_SLOW run was launched, not complete", "DISCHARGED", "frontier/B1207_slow_lane_discharge/FINDINGS.md",
++         "enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**:", "B1207"),
++    ],
++    "B1178": [
++        ("the first OA_SLOW run was still in flight when the arc closed", "DISCHARGED", "frontier/B1207_slow_lane_discharge/FINDINGS.md",
++         "enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**:", "B1207"),
++    ],
++    "B1179": [
++        ("the specialist send-queue waits on a per-item SEND, HOLD or REFRAME", "DISCHARGED", "docs/THE_REMAINING_MATH.md",
++         "specialist-send items **HOLD** (`SPECIALIST_SEND_QUEUE.md` decision box); THE PAPER is crafted", "decided: every item HOLD; the queue stays built and unsent"),
++        ("the census calls", "CARRIED", "docs/THE_REMAINING_MATH.md",
++         "| 6 | census-31-calls (R45-5, owner:cc) · L145a · F11 · K014 · L189 (U_e/quasinormal) | QUEUED — smaller bounded cells |", "the queue of the remaining mathematics, row 6"),
++        ("the cold-pass election", "UNREGISTERED", "frontier/B1179_outreach_and_papers/FINDINGS.md",
++         "the cold-pass election and the census calls stay the owner's", "P-745 (no row, lead or arc decides it)"),
++    ],
++}
++CLOSED = {a for a, rows in TABLE.items() if all(r[1] == "DISCHARGED" for r in rows)}
++HEADING = "## The residues checked, 2026-11-13 (main's card C11; register row P-745)"
++
++
++def _arc(a):
++    return next((ROOT / "frontier").glob(a + "_*"))
++
++
++def section(a):
++    """the section that stands on the arc's page, made from the table"""
++    rows = TABLE[a]
++    out = [HEADING, "",
++           "Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that "
++           "decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that "
++           "names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.", "",
++           "| residue | outcome | the file read | quotation | carried by |", "|---|---|---|---|---|"]
++    for res, outcome, f, q, by in rows:
++        out.append("| %s | %s | `%s` | %s | %s |" % (res, outcome, f, q.replace("|", "∣"), by))
++    out.append("")
++    if a in CLOSED:
++        out.append("**Every residue is discharged, so the arc is closed:** its verdict is PROVED from 2026-11-13, as a process arc whose "
++                   "work is done. It states no theorem.")
++    else:
++        carriers = sorted({r[4].split(" (")[0] for r in rows if r[1] != "DISCHARGED"})
++        out.append("**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by %s). A residue marked UNREGISTERED is decided by no "
++                   "row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or "
++                   "to decline." % "; ".join(carriers))
++    return "\n".join(out) + "\n"
++
++
++def test_each_quotation_stands_in_the_file_that_decides_it():
++    for a, rows in TABLE.items():
++        for res, outcome, f, q, by in rows:
++            assert outcome in ("DISCHARGED", "CARRIED", "UNREGISTERED"), (a, res)
++            assert any(q in line for line in (ROOT / f).read_text(encoding="utf-8").split("\n")), (a, res, f)
++    # planted: a quotation changed by one word is not found
++    a, rows = "B1171", TABLE["B1171"]
++    f, q = rows[0][2], rows[0][3].replace("FIRST", "SECOND")
++    assert not any(q in line for line in (ROOT / f).read_text(encoding="utf-8").split("\n"))
++
++
++def test_each_page_carries_its_section_and_the_verdicts_follow_it():
++    assert CLOSED == {"B1178"}
++    for a in TABLE:
++        page = (_arc(a) / "FINDINGS.md").read_text(encoding="utf-8")
++        assert page.count(HEADING) == 1 and section(a) in page, a
++        v = json.loads((_arc(a) / "arc_verdict.json").read_text(encoding="utf-8"))
++        assert v["verdict"] == ("PROVED" if a in CLOSED else "OPEN"), a
++        if a not in CLOSED:
++            assert "ESCALATED(2026-11-13, P-745" in page, a
++    v = json.loads((_arc("B1178") / "arc_verdict.json").read_text(encoding="utf-8"))
++    assert "[CLOSED 2026-11-13 (main's card C11; register row P-745):" in v["claim_one_line"]
++
++
++def test_the_aged_debt_check_excuses_an_open_arc_only_by_a_marker():
++    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++    import lead_debt
++    for a in TABLE:
++        if a in CLOSED:
++            continue
++        page = (_arc(a) / "FINDINGS.md").read_text(encoding="utf-8")
++        assert lead_debt.ESCALATED_RE.search(page)
++        # planted: the page with every marker taken out is excused by nothing
++        bare = re.sub(r"ESCALATED\(\s*\d{4}-\d{2}-\d{2}", "", page)
++        assert not (lead_debt.ESCALATED_RE.search(bare) or lead_debt.BY_DESIGN_RE.search(bare)), a
++    # and the arcs the check finds OPEN do not include the closed one
++    assert "B1178_l184_lazyfy" not in {d["arc"] for d in lead_debt.open_arcs()}
++
++
++def test_the_register_row_lists_the_unregistered_residues():
++    row = [l for l in (ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8").split("\n") if l.startswith("| P-745 |")]
++    assert len(row) == 1 and "[2026-11-13, main's card C11:" in row[0]
++    for a, rows in TABLE.items():
++        for res, outcome, f, q, by in rows:
++            if outcome == "UNREGISTERED":
++                assert res in row[0], (a, res)
+diff --git a/tests/test_the_seven_process_arcs_checked.py b/tests/test_the_seven_process_arcs_checked.py
+new file mode 100644
+index 000000000..0a6110bd5
+--- /dev/null
++++ b/tests/test_the_seven_process_arcs_checked.py
+@@ -0,0 +1,146 @@
++"""The seven process arcs of 2026-08-27 left at verdict OPEN (register row P-745; main's card C11, 2026-11-13).
++
++Each residue an arc names in its own words was checked against the record as it stood on 2026-11-13, at the file that
++decides it today, by a quotation from that file.  The outcome of each: DISCHARGED (the record shows it done), CARRIED (it
++lives on, open, in a named row or lead), or UNREGISTERED (no row, lead or later arc decides it: it is re-pointed to P-745,
++whose dated addition lists it for main).  An arc whose every residue is discharged is closed; the others stay OPEN with a
++dated ESCALATED marker that names what carries each residue.
++
++Held here: the table; each quotation stands in its file; each arc's page carries its section, its outcome and its marker;
++B1178 is closed and the six others are not; and the aged-debt check excuses an OPEN arc only by a marker."""
++import json
++import pathlib
++import re
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++# (residue in the arc's own words, outcome, the deciding file, a quotation from it, what carries it)
++TABLE = {
++    "B1171": [
++        ("the time's-arrow instrument was queued and not run", "DISCHARGED", "frontier/B1182_c4prime_resolved/FINDINGS.md",
++         "THE TIME'S-ARROW TYPED (the FIRST EXECUTION of cc3's B8144 escape-instrument, the flagged price-reconciliation residue)", "B1182"),
++        ("Krutelevich's finite-orbit citation is carried cited, not re-derived", "CARRIED", "docs/OPEN_LEADS.md",
++         "Review 74's reader proposed closing this lead; main's check did not confirm it. P-332 carries the transitivity proof route.", "L162, P-332"),
++        ("the relayed ask on the R018 numbering gap", "DISCHARGED", "docs/RELAY_LEDGER.md",
++         "its substance is the seat arcs it reports, R018, each with a HARVEST_LEDGER row", "R018 exists and is rowed"),
++        ("the relayed ask for a re-runnable zeta-12 / dP6 construction certificate", "UNREGISTERED", "docs/OPEN_LEADS.md",
++         "SEAM-A is open in B1156, and B1159 calls it a wall only in substance. The lead stays open.", "P-745 (nearest home: L182, which does not name the certificate)"),
++    ],
++    "B1172": [
++        ("the MC1 assignment row was left OPEN", "CARRIED", "docs/POINT_REGISTER.md",
++         "MC1, live (from the declined relay of 2026-08-26, P-231): the only internal-diversity control on the hypercharge-forcing theorems", "P-233"),
++        ("the Wave 2 and Wave 3 queues recorded in b1172_results.json", "UNREGISTERED", "frontier/B1174_z2_identification/FINDINGS.md",
++         "This was the register's Q1 = B1169's S1, **double-discovered** (the sweep and the meditation found", "P-745 (Wave 3's Q1 is B1174; Q2 to Q11 are disposed of nowhere)"),
++        ("the review-carry half was handed to Review 50", "DISCHARGED", "docs/CAMPAIGN_STATUS.md",
++         "the review gate now **enforces carry continuity** (a `[>]` that never recurs fails by name)", "Review 50; the gate review-actions"),
++    ],
++    "B1173": [
++        ("the thirteen NOT-REACHED digest rows under the umbrella lead L185", "CARRIED", "docs/OPEN_LEADS.md",
++         "Review 74's reader proposed closing this lead; main's check did not confirm it. The disposition table is only in a gitignored audit draft, and the row it promises does not exist.", "L185"),
++        ("the two-kappa and shadow-library rows flagged as the likeliest reopens", "CARRIED", "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
++         "| 4.6 | the two-κ finding (qL159) | NOT-REACHED | — | vs main's TERMINOLOGY register · NOT-REACHED at partial-close (B1173) → tracked at L185|", "L185"),
++    ],
++    "B1176": [
++        ("the gap U_e", "CARRIED", "docs/POINT_REGISTER.md", "[S305j: HELD unspent by the owner's ruling (P-709) — as P-585]", "P-638"),
++        ("the gap the quasinormal channel", "CARRIED", "docs/POINT_REGISTER.md",
++         "item (1) U_e split out as P-638; (2) the quasinormal channel covered by P-287 and B1090/B1704", "P-287, L189 (a reader's routing; L189 stays open)"),
++    ],
++    "B1177": [
++        ("the promotion pass (ex-R48-9) stays a named bounded residue", "UNREGISTERED", "frontier/B1177_instrument_bundle/FINDINGS.md",
++         "the promotion pass (ex-R48-9) stays a named bounded residue",
++         "P-745 (the review item that held it closed with B1207, which does not name the promotion; CLAIMS.md has no row of B909 or B952)"),
++        ("three dangling B792 path repairs were owed", "CARRIED", "docs/POINT_REGISTER.md",
++         "the chain rule lapsed since B1454 (B758); B1177's four dangling B792 paths; 39 directories with no findings document", "P-322 (which counts four)"),
++        ("the first OA_SLOW run was launched, not complete", "DISCHARGED", "frontier/B1207_slow_lane_discharge/FINDINGS.md",
++         "enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**:", "B1207"),
++    ],
++    "B1178": [
++        ("the first OA_SLOW run was still in flight when the arc closed", "DISCHARGED", "frontier/B1207_slow_lane_discharge/FINDINGS.md",
++         "enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**:", "B1207"),
++    ],
++    "B1179": [
++        ("the specialist send-queue waits on a per-item SEND, HOLD or REFRAME", "DISCHARGED", "docs/THE_REMAINING_MATH.md",
++         "specialist-send items **HOLD** (`SPECIALIST_SEND_QUEUE.md` decision box); THE PAPER is crafted", "decided: every item HOLD; the queue stays built and unsent"),
++        ("the census calls", "CARRIED", "docs/THE_REMAINING_MATH.md",
++         "| 6 | census-31-calls (R45-5, owner:cc) · L145a · F11 · K014 · L189 (U_e/quasinormal) | QUEUED — smaller bounded cells |", "the queue of the remaining mathematics, row 6"),
++        ("the cold-pass election", "UNREGISTERED", "frontier/B1179_outreach_and_papers/FINDINGS.md",
++         "the cold-pass election and the census calls stay the owner's", "P-745 (no row, lead or arc decides it)"),
++    ],
++}
++CLOSED = {a for a, rows in TABLE.items() if all(r[1] == "DISCHARGED" for r in rows)}
++HEADING = "## The residues checked, 2026-11-13 (main's card C11; register row P-745)"
++
++
++def _arc(a):
++    return next((ROOT / "frontier").glob(a + "_*"))
++
++
++def section(a):
++    """the section that stands on the arc's page, made from the table"""
++    rows = TABLE[a]
++    out = [HEADING, "",
++           "Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that "
++           "decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that "
++           "names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.", "",
++           "| residue | outcome | the file read | quotation | carried by |", "|---|---|---|---|---|"]
++    for res, outcome, f, q, by in rows:
++        out.append("| %s | %s | `%s` | %s | %s |" % (res, outcome, f, q.replace("|", "∣"), by))
++    out.append("")
++    if a in CLOSED:
++        out.append("**Every residue is discharged, so the arc is closed:** its verdict is PROVED from 2026-11-13, as a process arc whose "
++                   "work is done. It states no theorem.")
++    else:
++        carriers = sorted({r[4].split(" (")[0] for r in rows if r[1] != "DISCHARGED"})
++        out.append("**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by %s). A residue marked UNREGISTERED is decided by no "
++                   "row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or "
++                   "to decline." % "; ".join(carriers))
++    return "\n".join(out) + "\n"
++
++
++def test_each_quotation_stands_in_the_file_that_decides_it():
++    for a, rows in TABLE.items():
++        for res, outcome, f, q, by in rows:
++            assert outcome in ("DISCHARGED", "CARRIED", "UNREGISTERED"), (a, res)
++            assert any(q in line for line in (ROOT / f).read_text(encoding="utf-8").split("\n")), (a, res, f)
++    # planted: a quotation changed by one word is not found
++    a, rows = "B1171", TABLE["B1171"]
++    f, q = rows[0][2], rows[0][3].replace("FIRST", "SECOND")
++    assert not any(q in line for line in (ROOT / f).read_text(encoding="utf-8").split("\n"))
++
++
++def test_each_page_carries_its_section_and_the_verdicts_follow_it():
++    assert CLOSED == {"B1178"}
++    for a in TABLE:
++        page = (_arc(a) / "FINDINGS.md").read_text(encoding="utf-8")
++        assert page.count(HEADING) == 1 and section(a) in page, a
++        v = json.loads((_arc(a) / "arc_verdict.json").read_text(encoding="utf-8"))
++        assert v["verdict"] == ("PROVED" if a in CLOSED else "OPEN"), a
++        if a not in CLOSED:
++            assert "ESCALATED(2026-11-13, P-745" in page, a
++    v = json.loads((_arc("B1178") / "arc_verdict.json").read_text(encoding="utf-8"))
++    assert "[CLOSED 2026-11-13 (main's card C11; register row P-745):" in v["claim_one_line"]
++
++
++def test_the_aged_debt_check_excuses_an_open_arc_only_by_a_marker():
++    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++    import lead_debt
++    for a in TABLE:
++        if a in CLOSED:
++            continue
++        page = (_arc(a) / "FINDINGS.md").read_text(encoding="utf-8")
++        assert lead_debt.ESCALATED_RE.search(page)
++        # planted: the page with every marker taken out is excused by nothing
++        bare = re.sub(r"ESCALATED\(\s*\d{4}-\d{2}-\d{2}", "", page)
++        assert not (lead_debt.ESCALATED_RE.search(bare) or lead_debt.BY_DESIGN_RE.search(bare)), a
++    # and the arcs the check finds OPEN do not include the closed one
++    assert "B1178_l184_lazyfy" not in {d["arc"] for d in lead_debt.open_arcs()}
++
++
++def test_the_register_row_lists_the_unregistered_residues():
++    row = [l for l in (ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8").split("\n") if l.startswith("| P-745 |")]
++    assert len(row) == 1 and "[2026-11-13, main's card C11:" in row[0]
++    for a, rows in TABLE.items():
++        for res, outcome, f, q, by in rows:
++            if outcome == "UNREGISTERED":
++                assert res in row[0], (a, res)
+-- 
+2.43.0
+

@@ -1,0 +1,366 @@
+From 0854ffa4a8e3b28e451bd7ceaa91212524920b5e Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:09:18 +0000
+Subject: [PATCH] R80b, part 6, patch 24 (cld-advisor, at main's word in M16;
+ main's third folder, section 4, findings 4, 5, 6, 8, 9 and 10): THE
+ CORRECTION OF THE KNOT GROUP'S LEVEL STANDS WHERE SIX ARCS STILL LACKED IT,
+ AND THE NOTE ON THE IMAGE AT (8) SAYS IN WHICH GROUP
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A reader's supplement on the arcs main changed at Review 80 (agy-002's). Five of the six findings are not
+checked by main. The sixth, the orders of the image at (8), is computed by main and holds, by main's table;
+the orders are computed again here by main's own functions in the lock.
+
+NO STATEMENT OF THE MATHEMATICS IS WRITTEN BY THIS PATCH. Each note is one of three texts of main's, placed
+where it was missing: main's correction of 2026-11-11 as it stands at the head of B736's consolidation
+page; main's sentence that withdraws the gloss, as B734's page has it; main's sentence of the orders, from
+its table. Every sentence that was on a page or in a script stays as it was written.
+
+  4  B732, its page: a line under the opening says how to read the rest. (The closing paragraph was marked
+     by part 3's first patch.)
+  5  B733, its page: a note under the closing paragraph, for the door at (8) named there and in the opening.
+     The finding also names line 4 of the arc's script of growth; nothing about the knot's level is there
+     (it names the door at 4), and the one "(8)" of that script is a ring's name. Sent back.
+  6  B942, its page: the orders, and which of the two the page quotes. Part 3's second patch had said
+     "in the quotient by every central unit of square one"; that agrees with main's numbers.
+  8  B1067, its page: under the line that calls the result by the withdrawn gloss, that it is withdrawn.
+     B736's consolidation page, where the gloss stands twice: at its head, and beside each place.
+  9  B736: main's correction on the arc's own page, under the section that names the group, and at the head
+     of its two scripts, as comments; and
+     that the group of order 30720 which the arc writes as PSL(2, O₃/(8)) is the quotient by all eight
+     units of square one. The sealed preregistration and the kept outputs are not touched.
+  10 B779: main's correction at the head of the two siblings that had none, a page and a script.
+
+THE LOCK (the test of B734, to which four tests are added under a dated note; none of main's is changed):
+  - the orders are computed and the sentence built from them is main's sentence, character for character;
+  - each of the ten files holds its sentences; taking any one out is reported (21 planted cases);
+  - the scripts under the arcs are swept as the pages are: none states the old level without the correction
+    but three cells of other arcs, held by name as found and not read by this patch. The three scripts of
+    this patch were among them before it. Planted: a script as B736's stood, with its twin and two controls.
+
+A FAULT OF THIS PATCH'S OWN, FOUND AT ITS EXPORT AND MENDED BEFORE IT WAS SENT: the note on B736's page was
+first placed at the page's head. The atlas reads a page's first 1,500 characters for the tag it guesses from
+words, and the note moved B736's tag from dead to banked. The note now stands under the section it is about,
+the page's first 1,500 characters are as they were, and the atlas's data are unchanged by this patch. The
+lock holds that. It goes back to main: a note placed at the head of any page can move that tag.
+
+MEASURED AND NOT MENDED: beside the scripts, 18 kept outputs and files of results in 10 arcs state the old
+level with no correction. A kept output is what a run printed. Whether such a file is to carry a note is
+main's.
+
+The tests of B732, B733, B734, B736, B779 and B942 pass: 36 before the four, 40 with them. Tested against planted
+errors by the session that wrote it.
+---
+ docs/views/REVIEWER.md                        |   2 +-
+ frontier/B1067_rayclass_harvest/FINDINGS.md   |   1 +
+ .../B732_conjugation_is_out_A5/FINDINGS.md    |   4 +
+ frontier/B733_observer_space/FINDINGS.md      |   3 +
+ frontier/B736_ABC_campaign/FINDINGS.md        |   2 +
+ .../B736_ABC_campaign/p1_consolidation.md     |   6 +
+ frontier/B736_ABC_campaign/p2_kms.py          |  10 ++
+ frontier/B736_ABC_campaign/p3_reduction.py    |   7 ++
+ .../R6_maass_assessment.py                    |   7 ++
+ .../R7_functor_assessment.md                  |   2 +
+ frontier/B942_l113_bc_falsifier/FINDINGS.md   |   6 +
+ tests/test_b734_m004_congruence.py            | 109 ++++++++++++++++++
+ 12 files changed, 158 insertions(+), 1 deletion(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index e7a0d9fef..0b76e90cf 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1607** |
+-| words of findings prose | **1,430,222** |
++| words of findings prose | **1,430,761** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1607** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B1067_rayclass_harvest/FINDINGS.md b/frontier/B1067_rayclass_harvest/FINDINGS.md
+index 047b75b12..6aa9749da 100644
+--- a/frontier/B1067_rayclass_harvest/FINDINGS.md
++++ b/frontier/B1067_rayclass_harvest/FINDINGS.md
+@@ -76,6 +76,7 @@ harvested).
+ - The Eisenstein lattice geometry is missing: no banked row on the hexagonal lattice Z[omega], its covolume sqrt3/2, or the Minkowski bound — the lattice appears only refracted as the RECTANGULAR cusp cross-section 2*sqrt-3 (B257), which is t
+ - [CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.] The line below is kept as the harvest wrote it; the external cross-check it asks for exists (Baker and Reid 2018 state that the figure-eight complement is a congruence manifold; B734's addendum of 2026-09-16).
+ - B734's Serre-defying congruence level (8) is still flagged 'pending an external cross-check' (Grunewald-Schwermer and successors) — the biography's single most striking congruence fact rests on two in-house seats with no literature replicat
++- [ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 8; not checked by main): the line above calls the result Serre-defying. The gloss that the group defies a base rate is withdrawn: the theorem ledger withdrew it on 2026-09-16 (its link C9: Baker and Reid, 2018, state that the figure-eight complement is a congruence manifold), and B734's page says so since 2026-11-11. The line is kept as the harvest wrote it.]
+ - B857's own carried-forward blind spot is still open: not one Hecke eigenvalue of any Gamma_41 newform has ever been computed, so every 'the arithmetic lives in the discrete channel' claim (B739's relocation) remains untested where it is che
+ - No banked splitting/behavior rows for the small primes in the OTHER direction of each dictionary: e.g., how 2 and 13 behave in Q(sqrt-15) (the meeting field) is never recorded despite B334's principality law making meeting-field splitting l
+ - K's class group is OPEN (B931 residue #2; B937 R5): principality of P1(953) and q1(5) undecided — blocks '953 = |N(pi)|' and the (num d_S) = (pi)^2 upgrade; the monogenic model makes the computation cheap now. No units/regulator/fundamental
+diff --git a/frontier/B732_conjugation_is_out_A5/FINDINGS.md b/frontier/B732_conjugation_is_out_A5/FINDINGS.md
+index cbc0a8b15..c440934aa 100644
+--- a/frontier/B732_conjugation_is_out_A5/FINDINGS.md
++++ b/frontier/B732_conjugation_is_out_A5/FINDINGS.md
+@@ -4,6 +4,10 @@ cc banking seat, 2026-07-20 (framing corrected by B734). The positive computed o
+ does the observer's conjugation act as the outer automorphism of the sister m003's level-(2)
+ congruence quotient A₅? YES — computed + verified in-sandbox. Pure math; Gate 5; nothing to CLAIMS.
+ 
++[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 4; not checked by main): how to read this page. Where it says level (8) or (2)^3 for m004, read the
++correction of 2026-11-11 that stands under "Honest bounds": the congruence level is (4). The text is kept as it was
++written.]
++
+ ## THE RESULT
+ the SISTER m003 (the non-knot) is congruence at level
+ (2), and PSL(2,O₃)/Γ((2)) ≅ PSL(2,𝔽₄) ≅ A₅ (order 60). B701's conjugation = complex conjugation on
+diff --git a/frontier/B733_observer_space/FINDINGS.md b/frontier/B733_observer_space/FINDINGS.md
+index d9bb3fab9..4ae616013 100644
+--- a/frontier/B733_observer_space/FINDINGS.md
++++ b/frontier/B733_observer_space/FINDINGS.md
+@@ -63,6 +63,9 @@ Two-seat: cc banks the observer-space + growth law (this); cc2 runs m004's own (
+ independent 𝔽₂-dimension count + the V₄ tie — cross-verify the bounded-vs-continuum headline
+ (pending). Vacuity gate PASSED (the observer-space is the principled B701-conjugation torsor on
+ G_n, falsifiable two-outcome, not a loose "any choice"). Nothing to CLAIMS; no physics value.
++[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 5; not checked by main):
++"m004's own (8)-door", here and in the opening paragraph, names the door at the level that the note of 2026-11-11 in the opening paragraph corrects: the congruence level is (4). Where this page
++says (8)-door, level (8) or level 8 for m004, read that correction. The text is kept as it was written.]
+ 
+ ---
+ ## TWO-SEAT CONSENSUS (cc2's complementary run, cc-verified) — 2026-07-21
+diff --git a/frontier/B736_ABC_campaign/FINDINGS.md b/frontier/B736_ABC_campaign/FINDINGS.md
+index 6f8258e51..dcf4297f8 100644
+--- a/frontier/B736_ABC_campaign/FINDINGS.md
++++ b/frontier/B736_ABC_campaign/FINDINGS.md
+@@ -31,6 +31,8 @@ symmetry is absent from every precedent. **Both seats: the deep-math door looks
+ Honest residue (both flag): a general non-existence theorem for the INFINITE non-abelian Bianchi
+ case is not proven — but that object is not "single-level" and has no known construction route.
+ 
++> **[PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 9; not checked by main): main's correction, as it stands at the head of this arc's consolidation page.]** CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary. Where this page says G₈, level (8) or (2)³ for m004, read that. The group of order 30720 that this arc writes as G₈ = PSL(2, O₃/(8)) is SL(2, O₃/(8)) modulo all eight units of square one. The numbers, computed by main at that review: The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12). At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one. The text below is kept as it was written.
++
+ ### Path C — the parameter-reduction ledger: RIGOROUS NO-GO [P3, both seats B]
+ **ZERO of the ~19(+neutrino)=24 SM free parameters are reduced.** The full ledger grades all 24 as
+ (d)=nothing-forced: 0 forced values (a), 0 forced relations (b, = a reduction), 0 discrete
+diff --git a/frontier/B736_ABC_campaign/p1_consolidation.md b/frontier/B736_ABC_campaign/p1_consolidation.md
+index d23411634..cb6f8a702 100644
+--- a/frontier/B736_ABC_campaign/p1_consolidation.md
++++ b/frontier/B736_ABC_campaign/p1_consolidation.md
+@@ -1,6 +1,8 @@
+ # P1 — CONSOLIDATION (B736, Phase 2 synthesis)
+ 
+ > **CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.** Where this page says level (8) or (2)³ for m004, read that. The text below is kept as it was written.
++>
++> **[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its findings 8 and 9; not checked by main): two more things to read with the note above.** (1) This page calls B734 Serre-defying twice, in § 1.3 and in the closing table. The gloss that the group defies a base rate is withdrawn: the theorem ledger withdrew it on 2026-09-16 (its link C9: Baker and Reid, 2018, state that the figure-eight complement is a congruence manifold), and B734's page says so since 2026-11-11. (2) The group of order 30720 that this page writes as `G₈ = PSL(2,𝒪₃/(8))` is SL(2, O₃/(8)) modulo all eight units of square one. The numbers, computed by main at that review: The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12). At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one. The text below is kept as it was written.
+ 
+ 
+ **A self-policed body of mathematics about one arithmetic knot, and an honest account of what it is not.**
+@@ -99,6 +101,7 @@ with its honest bound.
+   reproduced a third time in P2, but it is flagged **pending external literature cross-check**. The
+   congruence *of the knot itself* is the corrected truth; the observer thread's cleanest positive
+   (`Out(A₅)`) lives one step away on the sister `m003`.
++  [ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 8; not checked by main): the gloss "Serre-defying" is withdrawn; see the note at the head of this page.]
+ 
+ ### 1.4 The Born-content ledger (B725–B729)
+ 
+@@ -246,6 +249,9 @@ reduction-count → **0**. This consolidation banks the cc-side of both; the cc2
+ | 3.2 | P3 | **0 reductions**; three-obstruction no-go | grades the **banked** record; not an exhaustive scan of all conceivable mechanisms |
+ | 3.3 | Cross-verify | two-seat consensus B on both | cc2 half is the independent check |
+ 
++[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 8; not checked by main): row 1.3 of the table above calls B734 Serre-defying. The gloss is withdrawn; see the
++note at the head of this page.]
++
+ ---
+ 
+ ## 5 · DISPOSITION STATEMENT (R26-4)
+diff --git a/frontier/B736_ABC_campaign/p2_kms.py b/frontier/B736_ABC_campaign/p2_kms.py
+index d833c675a..72aada496 100644
+--- a/frontier/B736_ABC_campaign/p2_kms.py
++++ b/frontier/B736_ABC_campaign/p2_kms.py
+@@ -1,5 +1,15 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
++# [PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 9; not checked by main): main's correction, as it stands on this arc's pages.
++# CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4).
++# In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2);
++# 2 is inert, so no ideal lies between.
++# "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)),
++# a filtration in which containment is sufficient for congruence and not necessary.
++# Where this script says level (8), (2)^3 or G_8 for m004, read that.
++# The group of order 30720 that it writes as G_8 = PSL(2, O_3/(8)) is SL(2, O_3/(8)) modulo all eight units of square one.
++# The numbers, computed by main at that review: The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12).
++# At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.  The script is kept as it was written, and its kept outputis not made again.]
+ """
+ B736 / P2-KMS  ---  the object-level observer, KMS/DYNAMICS angle.
+ 
+diff --git a/frontier/B736_ABC_campaign/p3_reduction.py b/frontier/B736_ABC_campaign/p3_reduction.py
+index 208bc9601..f96bbc723 100644
+--- a/frontier/B736_ABC_campaign/p3_reduction.py
++++ b/frontier/B736_ABC_campaign/p3_reduction.py
+@@ -1,5 +1,12 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
++# [PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 9; not checked by main): main's correction, as it stands on this arc's pages.
++# CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4).
++# In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2);
++# 2 is inert, so no ideal lies between.
++# "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)),
++# a filtration in which containment is sufficient for congruence and not necessary.
++# Where this script says level (8), (2)^3 or G_8 for m004, read that.  The script is kept as it was written, and its kept outputis not made again.]
+ """
+ TRACK P3 — the parameter-reduction ledger + the equivariance wall.
+ B736 A+B+C joint campaign, cc's half, Path 3.
+diff --git a/frontier/B779_convergence_probe/R6_maass_assessment.py b/frontier/B779_convergence_probe/R6_maass_assessment.py
+index ee4020f4c..0d385a56b 100644
+--- a/frontier/B779_convergence_probe/R6_maass_assessment.py
++++ b/frontier/B779_convergence_probe/R6_maass_assessment.py
+@@ -1,3 +1,10 @@
++# [PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 10; not checked by main): main's correction, as it stands on this arc's pages.
++# CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4).
++# In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2);
++# 2 is inert, so no ideal lies between.
++# "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)),
++# a filtration in which containment is sufficient for congruence and not necessary.
++# Where this script says level (8), (2)^3 or G_8 for m004, read that.  The script is kept as it was written, and its kept outputis not made again.]
+ """R6': Discrete Maass newforms at level (8) — feasibility probe.
+ 
+ What we CAN compute:
+diff --git a/frontier/B779_convergence_probe/R7_functor_assessment.md b/frontier/B779_convergence_probe/R7_functor_assessment.md
+index 03ca09e9f..bd2da5ae9 100644
+--- a/frontier/B779_convergence_probe/R7_functor_assessment.md
++++ b/frontier/B779_convergence_probe/R7_functor_assessment.md
+@@ -2,6 +2,8 @@
+ 
+ cc3 audit seat, 2026-07-24. Gate 5-Q.
+ 
++> **[PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 10; not checked by main): main's correction, as it stands at the head of two of this arc's pages.]** CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary. Where this page says level (8) for m004, read that. The text below is kept as it was written.
++
+ ---
+ 
+ ## Status: BLOCKED (depends on R6', which hit the wall)
+diff --git a/frontier/B942_l113_bc_falsifier/FINDINGS.md b/frontier/B942_l113_bc_falsifier/FINDINGS.md
+index b2fb7e1d8..fa8d00f25 100644
+--- a/frontier/B942_l113_bc_falsifier/FINDINGS.md
++++ b/frontier/B942_l113_bc_falsifier/FINDINGS.md
+@@ -225,3 +225,9 @@ Gal(K/ℚ), where it is arithmetic rather than thermal.
+ > line): the last sentence of the note above does not say in which group the image has the order this page quotes.
+ > The verdict line's bracket of 2026-11-11 does: 2560 is the image's order in the quotient at (8) by every central
+ > unit of square one. The note above stays as it was written.]*
++>
++> *[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 6; the numbers are computed
++> by main, by its table of that review): the image of the knot group in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12).
++> At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.
++> The order this page quotes, 2560, is the second: the image's in the quotient by all eight units. In the quotient by ±1,
++> which is the kind of group the note of 2026-11-11 names at (4), the image's order at (8) is the first, 10,240.]*
+diff --git a/tests/test_b734_m004_congruence.py b/tests/test_b734_m004_congruence.py
+index c53f513b5..e0fb5c94e 100644
+--- a/tests/test_b734_m004_congruence.py
++++ b/tests/test_b734_m004_congruence.py
+@@ -283,3 +283,112 @@ def test_the_withdrawn_gloss_is_withdrawn_where_it_stood():
+     for rel in ("frontier/B734_m004_is_congruence/FINDINGS.md", "docs/LAW_MAP.md", "docs/THEOREM_REGISTRY.md"):
+         assert "the gloss that the group defies a base rate is withdrawn" in (ROOT / rel).read_text(encoding="utf-8"), rel
+     assert "gloss is withdrawn" in (ROOT / "docs" / "THEOREM_LEDGER.md").read_text(encoding="utf-8")
++
++
++# ---------------------------------------------------------------------------------------------------------------------------
++# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its findings 4, 5, 6, 8, 9 and 10).
++# Not checked by main, but the orders of finding 6, which main computed and which are computed again below.  Nothing above this
++# line is changed.  What the supplement found: the correction stood beside one place of a page and not beside the others; it
++# stood in one file of an arc and not in its siblings; the scripts were never swept; the withdrawn gloss stood in two more
++# pages; and the note on the image's order at (8) did not say in which group.
++THE_ORDERS = ("The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12). At (8): 10,240 in 122,880 modulo ±1; "
++              "2,560 in 30,720 modulo all eight units of square one.")
++THE_GLOSS = "The gloss that the group defies a base rate is withdrawn"
++# file -> the sentences it must hold.  MARK is main's own, above.
++PLACED_AT_REVIEW_80 = {
++    "frontier/B732_conjugation_is_out_A5/FINDINGS.md": (MARK, "how to read this page. Where it says level (8) or (2)^3 for m004, read the"),
++    "frontier/B733_observer_space/FINDINGS.md": (MARK, "Where this page\nsays (8)-door, level (8) or level 8 for m004, read that correction."),
++    "frontier/B942_l113_bc_falsifier/FINDINGS.md": (MARK, "At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.",
++                                                    "The order this page quotes, 2560, is the second"),
++    "frontier/B1067_rayclass_harvest/FINDINGS.md": (MARK, THE_GLOSS),
++    "frontier/B736_ABC_campaign/p1_consolidation.md": (MARK, THE_GLOSS, THE_ORDERS, "the gloss \"Serre-defying\" is withdrawn; see the note at the head of this page",
++                                                       "row 1.3 of the table above calls B734 Serre-defying. The gloss is withdrawn"),
++    "frontier/B736_ABC_campaign/FINDINGS.md": (MARK, THE_ORDERS, "Where this page says G₈, level (8) or (2)³ for m004, read that."),
++    "frontier/B736_ABC_campaign/p2_kms.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that.", "2,560 in 30,720 modulo all eight units of square one."),
++    "frontier/B736_ABC_campaign/p3_reduction.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that."),
++    "frontier/B779_convergence_probe/R6_maass_assessment.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that."),
++    "frontier/B779_convergence_probe/R7_functor_assessment.md": (MARK, "Where this page says level (8) for m004, read that."),
++}
++# scripts that state the old level and carry no correction, as found on 2026-11-12: three cells of other arcs, which the
++# supplement does not name and this patch does not read.  A name leaves this table when its script carries the correction.
++SCRIPTS_AS_FOUND = ("frontier/B754_p2_spectral/cells/TOMB-L30/compute.py", "frontier/B771_phase1_wave1/cells/OI-146/compute.py",
++                    "frontier/B773_chord_recompute/cells/OI-146-fix/compute.py")
++
++
++def _what_the_places_of_review_80_lack(read):
++    """(file, sentence) for each sentence a file of the table does not hold.  `read` gives a file's text by its name."""
++    return [(rel, s) for rel, ss in PLACED_AT_REVIEW_80.items() for s in ss if s not in read(rel)]
++
++
++def _the_scripts_that_state_the_old_level(files):
++    """of (name, text) pairs: the names whose text states the old level for this group and does not carry the correction"""
++    return sorted(rel for rel, text in files if MARK not in text and _states_the_old_level(text))
++
++
++def _the_scripts():
++    for p in sorted((ROOT / "frontier").rglob("*.py")):
++        rel = p.relative_to(ROOT).as_posix()
++        if rel.startswith(HISTORY) or any(h in rel for h in HISTORY):
++            continue
++        try:
++            yield rel, p.read_text(encoding="utf-8")
++        except Exception:
++            continue
++
++
++def test_the_orders_at_level_8_are_computed_and_are_the_ones_the_notes_give():
++    img = {m: len(_image(m)) for m in (2, 4, 8)}
++    commas = lambda n: format(n, ",")
++    cen = _central(8)
++    Z = (0, 0)
++    assert len(cen) == 8 and all((c, Z, Z, c) in _image(8) for c in cen)          # the image at (8) holds all eight, so both quotients divide it evenly
++    said = ("The image in SL(2, O₃/(2ᵏ)) has order %s, %s, %s at k = 1, 2, 3 (index %d, %d, %d). At (8): %s in %s modulo ±1; "
++            "%s in %s modulo all eight units of square one." % (
++                commas(img[2]), commas(img[4]), commas(img[8]), _SL[2] // img[2], _SL[4] // img[4], _SL[8] // img[8],
++                commas(img[8] // 2), commas(_SL[8] // 2), commas(img[8] // len(cen)), commas(_SL[8] // len(cen))))
++    assert said == THE_ORDERS
++    # the index is 12 in either quotient at (8); what differs is the group, and so the image's order
++    assert (_SL[8] // 2) // (img[8] // 2) == (_SL[8] // 8) // (img[8] // 8) == 12 and img[8] // 2 != img[8] // 8
++
++
++def test_the_correction_stands_where_review_80_found_it_missing():
++    read = lambda rel: (ROOT / rel).read_text(encoding="utf-8")
++    assert _what_the_places_of_review_80_lack(read) == []
++    # planted: each file as it stood before the notes, by taking out the lines that hold a sentence of the table
++    for rel, ss in PLACED_AT_REVIEW_80.items():
++        new = [s for s in ss if s != MARK or rel.endswith((".py", "R7_functor_assessment.md", "B736_ABC_campaign/FINDINGS.md"))]
++        text = read(rel)
++        for s in new:
++            without = text.replace(s, "")
++            lack = _what_the_places_of_review_80_lack(lambda r, rel=rel, without=without: without if r == rel else read(r))
++            assert (rel, s) in lack, (rel, s)
++    # the pages that call the result by the withdrawn gloss say that it is withdrawn, as many times as they use it or once at their head
++    for rel in ("frontier/B1067_rayclass_harvest/FINDINGS.md", "frontier/B736_ABC_campaign/p1_consolidation.md"):
++        assert "Serre-defying" in read(rel) and THE_GLOSS in read(rel)
++
++
++def test_no_script_states_the_old_level_without_the_correction_but_the_three_held_as_found():
++    assert _the_scripts_that_state_the_old_level(_the_scripts()) == sorted(SCRIPTS_AS_FOUND)
++    # planted: a script as B736's stood, and its twin with the correction; a script about another group; one that names no congruence
++    as_it_stood = "# the observer of m004: congruence at level (2)^3=(8), image order 2560\nk = 3\n"
++    assert _the_scripts_that_state_the_old_level([("a.py", as_it_stood)]) == ["a.py"]
++    assert _the_scripts_that_state_the_old_level([("a.py", "# " + MARK + "\n" + as_it_stood)]) == []
++    assert _the_scripts_that_state_the_old_level([("a.py", "# the sister m003 is congruence at level (2)\n")]) == []
++    assert _the_scripts_that_state_the_old_level([("a.py", "# the ring at (2)^3: 64 elements\n")]) == []
++    # the three scripts of this patch were among them before it
++    for rel in ("frontier/B736_ABC_campaign/p2_kms.py", "frontier/B736_ABC_campaign/p3_reduction.py", "frontier/B779_convergence_probe/R6_maass_assessment.py"):
++        text = (ROOT / rel).read_text(encoding="utf-8")
++        i, j = text.index("# [PLACED HERE 2026-11-12"), text.index("is not made again.]\n")
++        before = text[:i] + text[j + len("is not made again.]\n"):]
++        assert MARK not in before and _the_scripts_that_state_the_old_level([(rel, before)]) == [rel], rel
++
++
++def test_the_note_on_b736s_page_leaves_the_opening_that_the_atlas_reads_as_it_was():
++    """A fault of the patch that placed the notes, found before it was sent: a note at the head of B736's page moved the tag
++    the atlas guesses from a page's first 1,500 characters, from dead to banked.  The note stands below that opening."""
++    page = (ROOT / "frontier/B736_ABC_campaign/FINDINGS.md").read_text(encoding="utf-8")
++    assert page.index("[PLACED HERE 2026-11-12") > 1500 and page.index("G₈=PSL(2,O₃/(8))") < page.index("[PLACED HERE 2026-11-12") < page.index("### Path C")
++    atlas = json.loads((ROOT / "scripts" / "atlas" / "atlas_data.json").read_text(encoding="utf-8"))
++    assert atlas["probes"]["B736"]["status"] == "dead"
++    # the other pages that this patch placed a note on: none is placed in the opening of a page of findings but B732's, whose tag it does not move
++    assert atlas["probes"]["B732"]["status"] == "banked" and "[ADDED 2026-11-12" in (ROOT / "frontier/B732_conjugation_is_out_A5/FINDINGS.md").read_text(encoding="utf-8")[:1500]
+-- 
+2.43.0
+

@@ -1,0 +1,34 @@
+R80b, part 6, patch 26 (cld-advisor, at main's word in M21): THE WORDS OF THE RULING OF 2026-10-08 STAND IN PLAIN WORDS IN FIVE MORE PLACES OF THE PLAN'S SOURCE, AND THE LOCK HOLDS NO FORM OF THEM IN MARKS
+
+Main's M21 answers the one question sent back with this part's first four patches: the words of the ruling
+of 2026-10-08 still stood in marks in five places of the plan's source, in the table of rulings given to main
+directly. Reword all five, without marks; main cannot show that they were its own label and not the owner's,
+so they are treated as his (register row P-796).
+
+THE FIVE, in the plan's source, and so on its page and in its data:
+  - the names of two rulings: now "how 'the tick is an act' stands with the ruling of 2026-10-08" and "the
+    ruling of 2026-10-08, after the computation", the shorter form, as a name asks;
+  - main's two questions as they were asked: each now says "that only even ticks are observed";
+  - one account of what a ruling means: the same words, without marks.
+A dated note above the table says so. What stood is kept nowhere.
+
+THE LOCKS.
+  - B1861's lock gains one test: no form of the ruling's words stands in marks in the source, the page or the
+    data. A form in marks is a mark of quotation right before the words (not after a letter, as an apostrophe
+    of possession is) and one that closes within thirty characters after them. Before this patch it finds
+    exactly the five places in each of the three files; after it, none. Planted: the plain words in marks of
+    five shapes, found; their twin without marks, not; the source with one name put back in marks, found.
+  - B1877's lock held the two names in the words that stood. It holds them as they stand now, under a dated
+    note that says what changed and does not repeat what stood.
+
+AS A SCRIPT AND NOT A DIFF, as this part's second patch was: a diff would carry the words in its removed
+lines. The script names each block that goes by its file, its line and its sha256, holds only the lines that
+come in, stops if a block is not the one replaced, and then builds the plan's page and data again.
+
+SEEN AND NOT TOUCHED, and main's: the same forms in marks stand outside the plan, in the status page, the
+register, the reviews' page, the verdict file of B1879 and so the verdict ledger. Dated records keep what they
+wrote (P-800); whether the status page is one of them is main's.
+
+Every gate passes but the count of landings. The locks of B1861 and B1877 and the test of the generated
+closure: 34 passed. Not checked by main. Tested against planted errors by the session that wrote it.
+

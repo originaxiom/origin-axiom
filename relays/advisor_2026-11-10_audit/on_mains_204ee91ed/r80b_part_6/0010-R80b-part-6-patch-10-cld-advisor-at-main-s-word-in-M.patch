@@ -1,0 +1,350 @@
+From 4ef01e513b927b05bd94cc1afe7b0488c2c46449 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 12:08:05 +0000
+Subject: [PATCH] R80b, part 6, patch 10 (cld-advisor, at main's word in M16;
+ main's third folder, section 2, row A5): A QUOTATION UNDER A PATH THAT DOES
+ NOT EXIST IS NOT FOUND IN THE FILE NAMED; AND B1892'S LOCK HOLDS ITS VERDICT
+ AND THE COLUMNS OF ITS ANSWERS
+
+A reader's check of main's answers at Review 80 (agy-002's; row A5, not checked by main). Three false passes
+remain in B1892's quotation checker and lock. Two are made again here and mended. The third is in the
+reader's file, which is read through a mask: it is not built.
+
+ONE, in the checker. Where the path a finding names was not at the commit, every file whose name ends as the
+path does was taken in its place. A quotation of B1881's page, set under a path that does not exist and ends
+in FINDINGS.md, was placed "named" and reported as found. A path that is at no commit read is no file now:
+the placing says "no such file", and the kept result counts those. No finding of the four readers' files
+names such a path, so no kept count moves: each result file gains one field, with 0.
+
+THE SAME FAULT STOOD IN B1894'S CHECKER, by a patch of this series (part 3's seventeenth), which gave it
+B1892's placing before main wrote that the placing was not to be copied. It is mended the same way. One test
+of B1894's lock, written by that patch, named a path that is not at the commit read; it is changed under a
+dated note.
+
+TWO, in the lock of B1892. It read the verdict file for its id, the names of its scope and its last words,
+and the answers for the names of their rows. A changed verdict, a replaced verdict line and emptied columns
+of the answers passed. The lock now holds the verdict, the verdict line by three of its sentences, that each
+of the 99 rows of the answers has its four cells and each says something, and that the rows marked as sent
+to the builder are the ones the count names. Six planted changes pass what the lock asked before and are
+reported now.
+
+What this does not hold, said here: a cell of the answers reworded to other words of some length.
+
+Run: the planted case on both checkers, on the commit before (placed "named"; found) and on the patch ("no
+such file"; not found). Both checkers run again in a clone that holds the four readers' commits: the counts
+main kept, and the new field. The locks of B1892 and B1894: 13 tests pass. Every gate passes but the count
+of landings.
+
+Not checked by main. Tested against planted errors by the session that wrote the mends.
+---
+ .../verification/quote_check.json             |  4 ++
+ .../verification/quote_check.py               | 24 ++++++--
+ .../verification/test_b1892_review_79.py      | 58 +++++++++++++++++++
+ .../verification/quote_check.json             |  4 ++
+ .../verification/quote_check.py               | 27 +++++++--
+ .../test_b1894_review_79_the_second_round.py  | 18 +++++-
+ 6 files changed, 121 insertions(+), 14 deletions(-)
+
+diff --git a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.json b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.json
+index 1c279d286..65ed6fa9d 100644
+--- a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.json
++++ b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.json
+@@ -7,6 +7,7 @@
+   "in the arc's own folder, no file being named": 45,
+   "on a wide page only": 14,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0,
+   "control: the first quotation altered by one character is reported missing": true
+@@ -19,6 +20,7 @@
+   "in the arc's own folder, no file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 6
+  },
+@@ -30,6 +32,7 @@
+   "in the arc's own folder, no file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0
+  },
+@@ -41,6 +44,7 @@
+   "in the arc's own folder, no file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0
+  }
+diff --git a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py
+index c62828a8f..27092ea66 100644
+--- a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py
++++ b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py
+@@ -87,29 +87,40 @@ def found(q, arc, named, commits):
+         rc, ls = git("ls-tree", "-r", "--name-only", commit)
+         files = ls.split("\n")
+         pool = ([named] if named in files else []) + [f for f in files if arc != "window" and f.startswith("frontier/%s_" % arc)] + [f for f in WIDE if f in files]
+-        if named and named not in files:
+-            pool += [f for f in files if f.endswith(named.split("/")[-1])]
++    # MENDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
++    # builder).  Where the path a finding names was not at the commit, every file whose name ENDS as the path does was taken
++    # in its place: a quotation set under a path that does not exist and ends in FINDINGS.md was looked for in every
++    # FINDINGS.md of the repository, and reported as found in the file named.  A path that is at no commit read is no file:
++    # nothing is taken in its place.  No finding of the readers' files names such a path; the lock counts that.
++    #     if named and named not in files:
++    #         pool += [f for f in files if f.endswith(named.split("/")[-1])]
+         if any(q in text(commit, f) for f in pool):
+             return True
+     return False
+ 
+ 
+ def placed(q, arc, named, commits):
+-    """where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not at
+-    the commit), 'arc' (the reader names no file: in the arc's own folder), 'wide' (on a wide page only), or None"""
++    """where the quotation stands, strictly: 'named' (in the file the finding names), 'no such file' (the finding names a path
++    that is at no commit read), 'arc' (the reader names no file: in the arc's own folder), 'wide' (on a wide page only), or
++    None.  [Until 2026-11-12 'named' was also given where the path was not at the commit and the quotation stood in any file
++    whose name ends as the path does; see the note in `found`.]"""
+     q = " ".join(q.split())
+     if not q:
+         return None
+     wide = False
++    there = False
+     for commit in commits:
+         files = git("ls-tree", "-r", "--name-only", commit)[1].split("\n")
+         if named:
+-            cand = [named] if named in files else [f for f in files if f.endswith(named.split("/")[-1])]
+-            if any(q in text(commit, f) for f in cand):
++            # until 2026-11-12: cand = [named] if named in files else [f for f in files if f.endswith(named.split("/")[-1])]
++            there = there or named in files
++            if named in files and q in text(commit, named):
+                 return "named"
+         elif arc != "window" and any(q in text(commit, f) for f in files if f.startswith("frontier/%s_" % arc)):
+             return "arc"
+         wide = wide or any(q in text(commit, f) for f in WIDE if f in files)
++    if named and not there:
++        return "no such file"
+     return "wide" if wide else None
+ 
+ 
+@@ -148,6 +159,7 @@ def build():
+         more, few = rows_not_read(reader, page)
+         res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
+                             "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
++                            "under a path that is at no commit read": where.count("no such file"),
+                             "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
+         if reader == "the SM seat" and qs:
+             arc, named, q = qs[0]
+diff --git a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
+index c8ee8854a..baf66b949 100644
+--- a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
++++ b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
+@@ -63,6 +63,17 @@ def test_every_quotation_was_found_and_the_check_can_fail():
+     assert qc.placed(theirs, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) == "wide"   # the strict one: not in the file named
+     table = "| arc | file | quoted | wrong |\n|---|---|---|---|\n| B1 | `a.md` | one half | the other half | wrong |\n|B1|`a.md`|compact|wrong|\n"
+     assert qc.rows_not_read("agy-002", table) == (1, 1)
++    # [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
++    #  builder).  A quotation set under a path that is at no commit read was looked for in every file whose name ends as the
++    #  path does, and reported as found in the file named.  Such a path is no file, and nothing is taken in its place.]
++    assert all(v["under a path that is at no commit read"] == 0 for v in q.values())           # no finding of the four files names such a path
++    of_b1881 = " ".join(qc.text("0dda7b472", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md").split()[40:58])
++    no_such = "frontier/B9999_no_such_arc/FINDINGS.md"
++    assert qc.placed(of_b1881, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) == "named"
++    assert qc.placed(of_b1881, "B1881", no_such, read) == "no such file"                        # until this: "named"
++    assert qc.placed(of_b1881, "window", no_such, read) == "no such file"
++    assert qc.found(of_b1881, "window", no_such, read) is False                                 # until this: True, by the same rule
++    assert qc.found(of_b1881, "B1881", no_such, read) is True                                   # the wide rule still finds it in the arc's own folder
+ 
+ 
+ def test_the_planted_suites_output_says_what_the_page_says():
+@@ -120,3 +131,50 @@ def test_the_table_of_what_two_readers_found_and_the_sentences_that_count_it():
+     # that the count can fail: one number of one row changed
+     changed = page.replace("| B1879 | 10 | 0 | 0 |", "| B1879 | 9 | 0 | 0 |")
+     assert changed != page and _what_two_readers_found(changed) == (16, 52, 43, 9)
++
++
++# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
++# builder).  The lock read the verdict file for its id, the names of its scope and its last words, and the answers for the
++# names of their rows.  A changed verdict, a replaced verdict line and emptied columns of the answers passed.
++_THE_LINE_SAYS = ("REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT", "99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION",
++                  "they are 88 distinct faults, of which ten were found by two readers")
++
++
++def _what_the_verdict_and_the_answers_do_not_hold(verdict, answers):
++    out = []
++    if verdict.get("verdict") != "PROVED":
++        out.append("the verdict is %r" % verdict.get("verdict"))
++    line = " ".join(str(verdict.get("claim_one_line", "")).split())
++    if not line.startswith(_THE_LINE_SAYS[0]):
++        out.append("the verdict line does not open as it did")
++    out += ["the verdict line does not say: " + s for s in _THE_LINE_SAYS[1:] if s not in line]
++    rows = [[c.strip() for c in l.strip().strip("|").split(" | ")] for l in answers.split("\n") if re.match(r"^\| ((?:W|SM-|A|X)\d+) \|", l)]
++    if len(rows) != A["findings"]:
++        out.append("the answers have %d rows" % len(rows))
++    for r in rows:
++        if len(r) != 4 or len(r[1]) < 2 or len(r[2]) < 12 or len(r[3]) < 4:
++            out.append("the row %s of the answers has not its four cells, each saying something" % r[0])
++    sent = sorted(r[0] for r in rows if len(r) == 4 and "TO THE BUILDER" in r[3])
++    if sent != sorted(A["sent on to the builder of the enforcement package"]):
++        out.append("the rows marked as sent to the builder are not the ones the count names")
++    return out
++
++
++def test_the_verdict_the_verdict_line_and_the_columns_of_the_answers_are_held():
++    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
++    answers = (ARC / "ANSWERS.md").read_text(encoding="utf-8")
++    assert _what_the_verdict_and_the_answers_do_not_hold(v, answers) == []
++    as_the_lock_asked = lambda w: w["id"] == "B1892" and set(w["scope"]) == {"frame", "object", "reach", "hypotheses"} and w["claim_one_line"].endswith("0 of 19.")
++    names = lambda text: re.findall(r"^\| ((?:W|SM-|A|X)\d+) \|", text, re.M)
++    planted = {
++        "the verdict changed": (dict(v, verdict="NEGATIVE"), answers),
++        "the verdict line replaced, its last words kept": (dict(v, claim_one_line="EVERYTHING HELD AND NOTHING WAS FOUND. 0 of 19."), answers),
++        "the verdict line with its count of distinct faults changed": (dict(v, claim_one_line=v["claim_one_line"].replace("they are 88 distinct faults", "they are 99 distinct faults")), answers),
++        "the last two columns of the answers emptied": (v, "\n".join((" | ".join(l.split(" | ")[:2]) + " |  |  |") if re.match(r"^\| ((?:W|SM-|A|X)\d+) \|", l) else l for l in answers.split("\n"))),
++        "one row's last cell emptied": (v, answers.replace(" | corrected; a lock computes the page's numbers from the run |", " |  |", 1)),
++        "a row no longer marked as sent to the builder": (v, answers.replace("TO THE BUILDER", "mended", 1)),
++    }
++    for what, (w, text) in planted.items():
++        assert (w, text) != (v, answers), what
++        assert as_the_lock_asked(w) and names(text) == A["ids"], what              # what the lock asked before passes each of them
++        assert _what_the_verdict_and_the_answers_do_not_hold(w, text), what
+diff --git a/frontier/B1894_review_79_the_second_round/verification/quote_check.json b/frontier/B1894_review_79_the_second_round/verification/quote_check.json
+index b350af407..b0902bfa3 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/quote_check.json
++++ b/frontier/B1894_review_79_the_second_round/verification/quote_check.json
+@@ -8,6 +8,7 @@
+   "in the pages swept, neither an arc nor a file being named": 11,
+   "on a wide page only": 1,
+   "placed nowhere": 2,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0,
+   "of its own first file, found there": 2,
+@@ -23,6 +24,7 @@
+   "in the pages swept, neither an arc nor a file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0
+  },
+@@ -35,6 +37,7 @@
+   "in the pages swept, neither an arc nor a file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0
+  },
+@@ -47,6 +50,7 @@
+   "in the pages swept, neither an arc nor a file being named": 0,
+   "on a wide page only": 0,
+   "placed nowhere": 0,
++  "under a path that is at no commit read": 0,
+   "rows with more cells than their table's header": 0,
+   "lines that begin as a row and give fewer than four cells": 0
+  }
+diff --git a/frontier/B1894_review_79_the_second_round/verification/quote_check.py b/frontier/B1894_review_79_the_second_round/verification/quote_check.py
+index 1d49f5f51..136aebcf1 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/quote_check.py
++++ b/frontier/B1894_review_79_the_second_round/verification/quote_check.py
+@@ -81,8 +81,15 @@ def found(q, arc, named):
+     for commit in MAIN:
+         fs = files(commit)
+         pool = ([named] if named in fs else []) + ([f for f in fs if f.startswith("frontier/%s_" % arc)] if arc else []) + [f for f in WIDE if f in fs]
+-        if named and named not in fs:
+-            pool += [f for f in fs if f.endswith(named.split("/")[-1])]
++        # MENDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
++        # builder).  Where the path a finding names was not at the commit, every file whose name ENDS as the path does was taken
++        # in its place: a quotation set under a path that does not exist and ends in FINDINGS.md was looked for in every
++        # FINDINGS.md of the repository, and reported as found in the file named.  A path that is at no commit read is no file:
++        # nothing is taken in its place.  No finding of the readers' files names such a path; the lock counts that.
++        #     if named and named not in fs:
++        #         pool += [f for f in fs if f.endswith(named.split("/")[-1])]
++        # (This arc's `placed`, below, was given B1892's strict placing by a patch of the same series before that note was
++        #  written, and had the same fault.  It is mended with it.)
+         if not arc and not named:
+             pool += [f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]
+         if any(form and form in text(commit, f) for form in forms for f in pool):
+@@ -95,18 +102,23 @@ def found(q, arc, named):
+ # found if it stood in any of them.  `placed` says where it stands, strictly, as B1892's checker has done since that day; and
+ # `rows_not_read` counts the lines of a reader's table that `quotations` does not read as rows.
+ def placed(q, arc, named):
+-    """Where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not
+-    at the commit); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is named: in the
+-    pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None."""
++    """Where the quotation stands, strictly: 'named' (in the file the finding names); 'no such file' (the finding names a path
++    that is at no commit read); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is
++    named: in the pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None.  [Until 2026-11-12
++    'named' was also given where the path was not at the commit and the quotation stood in any file whose name ends as
++    the path does.]"""
+     forms = {x for x in (" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())) if x}
+     if not forms:
+         return None
+     wide = False
++    there = False
+     for commit in MAIN:
+         fs = files(commit)
+         isin = lambda pool: any(form in text(commit, f) for form in forms for f in pool)
+         if named:
+-            if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
++            # until 2026-11-12: if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
++            there = there or named in fs
++            if named in fs and isin([named]):
+                 return "named"
+         elif arc:
+             if isin([f for f in fs if f.startswith("frontier/%s_" % arc)]):
+@@ -114,6 +126,8 @@ def placed(q, arc, named):
+         elif isin([f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]):
+             return "swept"
+         wide = wide or isin([f for f in WIDE if f in fs])
++    if named and not there:
++        return "no such file"
+     return "wide" if wide else None
+ 
+ 
+@@ -153,6 +167,7 @@ def build():
+         res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
+                             "in the pages swept, neither an arc nor a file being named": where.count("swept"),
+                             "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
++                            "under a path that is at no commit read": where.count("no such file"),
+                             "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
+         if reader == "the SM seat":
+             # one of its entries corrects its own first file and quotes that file: those quotations are looked for there
+diff --git a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+index b0aa28cf4..250bd4a9e 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
++++ b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+@@ -64,8 +64,22 @@ def test_every_quotation_was_found_and_the_check_can_fail():
+     # an empty quotation is a quotation of nothing; a quotation that names a file is not placed by standing in another
+     assert qc.found("", "B1894", None) is False and qc.placed("", "B1894", None) is None
+     other = "No item is added and no status cell changes."                       # a sentence of the foundation, a wide page
+-    assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
+-    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
++    # CHANGED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5).  The two lines here named this arc's own
++    # page, which is not at the commit the readers read:
++    #     assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
++    #     assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
++    # A path that is at no commit read was taken for every file whose name ends as it does.  It is no file now: the placing
++    # says so, and the case of a wide page is made with a page that is at the commit.
++    at_the_commit = "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md"
++    assert other not in qc.text(qc.MAIN[0], at_the_commit)
++    assert qc.found(other, "B1894", at_the_commit) is True                       # the pool finds it, on a wide page
++    assert qc.placed(other, "B1894", at_the_commit) == "wide"                    # the strict placing says where
++    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "no such file"
++    of_b1892 = " ".join(qc.text(qc.MAIN[0], at_the_commit).split()[40:58])
++    assert qc.placed(of_b1892, "B1892", at_the_commit) == "named"
++    assert qc.placed(of_b1892, "B1892", "frontier/B9999_no_such_arc/FINDINGS.md") == "no such file"       # until this: "named"
++    assert qc.found(of_b1892, None, "frontier/B9999_no_such_arc/FINDINGS.md") is False                    # until this: True
++    assert all(v["under a path that is at no commit read"] == 0 for v in q.values())
+     built = qc.build()
+     if all(r is None for r in built.values()):
+         # CHANGED 2026-11-12 (Review 80; the same finding): with no reader's commit in the clone every result is None and the
+-- 
+2.43.0
+
