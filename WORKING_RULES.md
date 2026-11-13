@@ -351,6 +351,28 @@ alone and treating them as blocker negatives of the whole program"**.
 the version in its header has a log entry) and `tests/test_arc_verdict_schema.py` (the scope tag, with its failing
 paths). **Not enforced, and owed:** the scope tags of the arcs before B1454, the NEGATIVE ones first (lead L240).
 
+## Rule (2026-11-13, the author's instruction after B1918 — adopted): A NEGATIVE IS BANKED ONLY AFTER A SECOND COMPUTATION; "NOT Y" IS TESTED AGAINST Y ITSELF
+
+B1918 (2026-11-13) banked that B1656's channel norm is not a Kronecker function, closing a route, from regressions over a
+family of forms that did not contain the true one. It stood for half an hour and was retracted only because the SM seat
+had been given the same step as its own card and found, from its sealed calibration, the exact formula (B1919). The
+author: this mistake must not be possible again.
+
+1. **A NEGATIVE verdict is banked only after an independent second computation:** another seat (or session) computes
+   the deciding fact on its own code, with its expectations committed first, and the arc's verdict file names that
+   computation (in `cites_seat`, the words "second computation"). Until then the arc's verdict line says
+   **PROVISIONAL**, and nothing — no register disposition, no closed route, no kill-graph entry, no budget row — is
+   built on it.
+2. **"X is not Y" is tested against Y's own definition, computed directly.** A failure to fit a family of forms is
+   reported only as "not within these forms", never as "not Y". Where Y has a closed form, compute it.
+3. **When a seat's sealed result contradicts an arc of main's, main tests the seat's exact claim first,** before any
+   defence of its own arc, and says the outcome the same day.
+4. **The same holds for a negative a seat sends:** main's own second computation precedes its banking.
+
+**Enforced by:** owed, the builder's card C19 (a gate: from B1923 on, a NEGATIVE verdict without "second computation"
+in `cites_seat` must carry PROVISIONAL in its verdict line; with its failing paths). Until the gate lands, main applies
+the rule by hand at every landing. Register row P-842.
+
 ## Rule (2026-10-06, the owner's instruction, relayed by the SM seat — adopted): VERIFY LOAD-BEARING MATHEMATICS, EVEN IF PUBLISHED
 
 **The owner, as the SM seat quotes it in its relay of 2026-10-06 and in its own WORKING_RULES** (main did not hear it

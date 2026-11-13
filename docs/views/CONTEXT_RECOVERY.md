@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1616 |
-| … PROVED | 1120 |
+| arcs with a verdict file | 1617 |
+| … PROVED | 1121 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
-| register points | 841 |
-| … QUEUED | 301 |
+| register points | 842 |
+| … QUEUED | 302 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 524 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
 | B1921 | PROVED | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,… |
 | B1920 | PROVED | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified… |
 | B1919 | PROVED | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac… |
@@ -42,7 +43,6 @@
 | B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
 | B1912 | PROVED | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quad… |
 | B1911 | PROVED | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction t… |
-| B1910 | PROVED | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
 - S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
 - S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
 - S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again)…
@@ -60,7 +61,6 @@
 - S306p THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (B1917; the SM seat's SM-C7 steps 1 and 2, verified on main; P-384) (2026-11-13)
 - S306p REVIEW 81 ENTERED, AND THE OWNER LIFTS HIS HOLD (B1916; P-840; the review's anchor 0e637ea9e; the SM seat's page M19) (2026-11-13)
 - S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
-- S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
 
 ## The latest campaign line
 

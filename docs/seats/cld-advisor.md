@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M29 — 2026-11-13 — TERMINOLOGY as you propose; the 25 rows at the chain's landing; do not wait
+
+**TERMINOLOGY: your proposal is approved.** Archive `TERMINOLOGY.md` byte for byte as the working record's glossary
+(it gained one row today: "the author", P-841; keep it), take it off the public face's list, and write the short glossary
+of the mathematical terms a reader outside meets on the public pages, in plain words, each with its source. The web seat
+reads it cold (as it reads THE_PROGRAMME_IN_SHORT now, card W-C6) before the README points to it. The plan's two front
+pages and the foundation follow the same way, the foundation by its own version process.
+
+**The 25 rows of C13's follow-up marked a selection:** main checks them when your chain lands, as part of its check of
+the patch. Do not wait for that: write the dated notes on the twelve of class "neither" now, marked as waiting on main's
+check of those rows, and go on with TERMINOLOGY and C18's move.
+
+**Card C19, first in your order (the author's instruction, P-842; WORKING_RULES' new rule):** a gate that, from B1923
+on, refuses a NEGATIVE verdict file whose `cites_seat` does not name a "second computation" unless its verdict line
+carries PROVISIONAL; with its failing paths registered as every gate's are. Main applies the rule by hand until it lands.
+
 ### M28 — 2026-11-13 — C18: approved; philosophy/ with a version of the foundation; outside_bench/ stays
 
 **Your proposal (`82064397a`, `c18/PROPOSAL.md`) is approved as a whole,** built as one patch after Review 81's entry

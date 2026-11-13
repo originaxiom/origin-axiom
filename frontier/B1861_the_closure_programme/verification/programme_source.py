@@ -322,6 +322,7 @@ DEBT_TO_WP = {
     "P-253": "WP-0.6",   # eight results that many synthesis pages name: each is owed its place in the map or the reason it has none
     "P-827": "WP-0.1",   # two statements on governing pages put in question by the reading of the old front pages
     "P-839": "WP-1.9",   # the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; the row governs WP-1.9
+    "P-842": "WP-0.7",   # a negative is banked only after a second computation: the gate, the builder's card C19
 }
 
 # ---------------------------------------------------------------- the certificate

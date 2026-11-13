@@ -1,0 +1,26 @@
+{
+ "id": "B1922",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1724",
+  "B1914",
+  "B1921",
+  "B1920"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame with B1724's transport rules and B1921's invariant end, on the golden thread",
+  "object": "the frame's outputs at tau and at the monodromy's image of tau, at the thread's own line and at a line it does not fix",
+  "reach": "single",
+  "hypotheses": "the golden thread only; three windows; deviations only (max |log ratio| over sectors, ends and readings); the frame's precision degrades below Im tau about 0.5"
+ },
+ "claim_one_line": "THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the line (2/5, 4/5), which the monodromy fixes up to sign, repeat after one period to 3.1e-10 and 9.8e-10 in the windows where the frame's numerics hold; at the line (1/5, 3/5) they change by 2.3 to 3.4; S* does not repeat. So the read-out as a thread average is well defined exactly at the thread's own line: the extension condition is what makes it so. No input removed; only deviations computed. 0 of 19.",
+ "weave_or_thread": "thread (the golden geodesic)"
+}

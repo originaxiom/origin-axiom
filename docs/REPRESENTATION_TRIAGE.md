@@ -141,6 +141,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B1919 | PENDING | **The channel norm is the shifted lattice's Kronecker limit:** it reaches a synthesis page with the read-out and the line (P-384, P-776) when the seat's steps 3 and 4 say what the average and the apex give. |
 | B1920 | PENDING | **The channel norm's line part, averaged along the thread, is the shifted partial zeta's Kronecker limit:** it reaches a synthesis page with the read-out on the whole (P-776) and the channel weights (decision 5). |
 | B1921 | PENDING | **The end's invariant parameter:** it reaches a synthesis page with the end (decision 5) and the read-out as a thread average (P-776). |
+| B1922 | PENDING | **The frame periodic along a thread exactly at its own line:** it reaches a synthesis page with the read-out on the whole (P-776) as the thread average's case. |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The

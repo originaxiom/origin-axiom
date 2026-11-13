@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1616 of 1616 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1617 of 1617 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1120)
+## PROVED (1121)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1132,6 +1132,7 @@
 | `B1919` | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replaces B1918, retracted the same day): N(c, tau) = F_u(tau) + pi log Im tau + C with u = c - (1/2, 1/2) and F_u the constant term at s = 1 of the u-shifted lattice sum. The tau-only part is not modular, so the line part F_u carries the geodesic average; P-384's route is open, and the seat's steps 3-4 decide it. 0 of 19. |  | 0 |
 | `B1920` | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified on main): B1656's c_s = F_u + a universal non-modular tau-term; the line part's geodesic average is the Kronecker limit at s = 1 of sum over (u + Z^2)/<M> of |Q|^-s (shifted Hecke at s = 2 on main's code to 1.8e-6; the golden average 8.9068 reproduced); at the apex the line part differs from its average on all 1,476 closed entries. No line chosen, no input removed. 0 of 19. |  | 0 |
 | `B1921` | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by |tau|, so N(c', -1/tau) = N(c, tau) - 2 pi log|tau| (checked to 1.9e-9 at nine cases; 0.33 to 1.27 without the shift), which the end's L -> L + log|tau| cancels; with B1919, L~ = L + (1/2) log Im tau - (gamma + log pi) is SL(2,Z)-invariant and 2 pi L + c_s = 2 pi L~ + F_u. No input removed. 0 of 19. |  | 0 |
+| `B1922` | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the line (2/5, 4/5), which the monodromy fixes up to sign, repeat after one period to 3.1e-10 and 9.8e-10 in the windows where the frame's numerics hold; at the line (1/5, 3/5) they change by 2.3 to 3.4; S* does not repeat. So the read-out as a thread average is well defined exactly at the thread's own line: the extension condition is what makes it so. No input removed; only deviations computed. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

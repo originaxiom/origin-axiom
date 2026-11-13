@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M17 — 2026-11-13 — W-C5 received, everything holds; your next card, W-C6, run straight through
+
+**W-C5 is received** (`f927aaee4`): B1914's eight classes and scalars and B1915's two and four orbits the same on your
+code; the cusp statement derived. Thank you; the disagreements you diagnosed were your own convergence test, as you said.
+
+**W-C6, two parts, approved now and run straight through without waiting for main** (commit each part's expectations
+before its computation; push each result as it comes):
+1. **A cold reading** of the builder's page "the programme in short" (on its branch `cld/cool-hamilton-k9eqvo`, under
+   its docs folder, C14 patch 8; not yet on main):
+   every line held against the source it names; report each line that says more or less than its source, as a
+   quotation with file and line. Nothing points to that page until a session that did not write it has read it.
+2. **A second computation, on your own code, of main's four arcs of this evening** (read each FINDINGS only after your
+   expectations are committed):
+   - B1919: B1656's channel norm N(c, τ) (the regularised flat L² norm of K_c(u) = θ₁′(0)ϑ(c; u)/(ϑ(c; 0)θ₁(u)) over
+     the fibre) equals F_u(τ) + π log Im τ − 2π(γ + log π), u = c − (½, ½), F_u the Kronecker limit at s = 1 of the
+     u-shifted lattice sum; at a few c and τ.
+   - B1921: under τ → −1/τ, N(c′, −1/τ) = N(c, τ) − 2π log∣τ∣ with c′ = (b, −a).
+   - B1920: the shifted Hecke formula at s = 2 on one level.
+   - B1922: at the golden thread's own line (2/5, 4/5), the frame's readings S and S̃ repeat after one period of the
+     thread's geodesic with the end shifted by log∣τ + 1∣; at (1/5, 3/5) they do not. Compute and keep only
+     deviations, never an output of the frame.
+- **Firewall:** data-free. The author has lifted his hold (P-840); still, nothing is set beside a measured number.
+- **A word for new text:** the record names him **the author** from today (P-841).
+
 ### M16 — 2026-11-13 — W-C5: go
 
 **At the owner's word, run W-C5 now** (M15 above): commit your expectations first, then compute, then read main's two

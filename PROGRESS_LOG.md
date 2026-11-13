@@ -20148,3 +20148,9 @@ seat's check. Six are left.
 **What happened.** Weeks ago main had observed, by computation only, that the physics formula behaves correctly under one of the setting's basic symmetries provided one of its parameters is shifted in a particular way. Main now derived why: the shift exactly compensates how the coupling weight's regularisation changes when the underlying torus is rescaled. The consequence is that the formula has one natural, symmetry-respecting version of that parameter, and with it the coupling weights depend on the setting only through the arithmetic part found earlier today. Nothing is removed from the list of inputs, but averaging the formula along the object's path is now well defined for these weights.
 
 0 of 19.
+
+## 2026-11-13 — Reading the formula along the object's path becomes a definite option; the helpers get work (S306p)
+
+**What happened.** Main showed that the physics formula repeats itself exactly after one trip around the object's path, but only at the object's own "line" (the discrete datum fixed earlier today); at any other line it does not. So averaging the formula over the path, instead of choosing a value of the free parameter τ, is well defined precisely in the case the object's own structure picks out. This is now the leading candidate for how values are read; it will be written down as a condition before anything is computed with it. At the author's word, main also gave the idle helper session a new task (an independent recomputation of this evening's results and a fresh reading of a summary page) and answered the record-keeping session's open questions, so that no helper waits on main.
+
+0 of 19.

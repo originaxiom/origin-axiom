@@ -16959,6 +16959,18 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1922": {
+   "slug": "the frame is periodic along the thread exactly at the threads own line",
+   "motifs": [
+    "trace_map",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

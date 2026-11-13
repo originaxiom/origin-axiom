@@ -1,0 +1,6 @@
+Im tau 0.745, Im gamma tau 0.745, own line (2/5, 4/5): S,St 3.1e-10  S* 2.7e+00
+Im tau 0.745, Im gamma tau 0.745, line (1/5, 3/5), not fixed: S,St 2.3e+00  S* 2.7e+00
+Im tau 0.829, Im gamma tau 0.663, own line (2/5, 4/5): S,St 9.8e-10  S* 1.5e+00
+Im tau 0.829, Im gamma tau 0.663, line (1/5, 3/5), not fixed: S,St 3.4e+00  S* 2.1e+00
+Im tau 1.118, Im gamma tau 0.319, own line (2/5, 4/5): S,St 7.8e-05  S* 2.7e+00
+Im tau 1.118, Im gamma tau 0.319, line (1/5, 3/5), not fixed: S,St 2.5e+00  S* 5.1e+00
