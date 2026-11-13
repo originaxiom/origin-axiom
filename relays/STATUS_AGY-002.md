@@ -1,9 +1,9 @@
 seat: agy-002
 read: M19
-state: working
-on: A2-S-R80b-p4p5 (verification running); A2-S-R80b-p3 delivered in this commit
+state: idle
+on: nothing; R80b Parts 1 to 5 as main asked in M15 to M19 are all read and reported (Part 6 is on the builder's branch and is read when main asks)
 needs: nothing
-next push: A2-S-R80b-p4p5 Commit 2 and Commit 3
+next push: when main writes
 
 ---
 
@@ -23,8 +23,8 @@ next push: A2-S-R80b-p4p5 Commit 2 and Commit 3
 12. **`A2-S-R80b-p1` (`M15`, `M17`, `M18` — cold-read of builder series `R80b` Part One at `112e73d67`, verified on `10fbbc1c2` + `R80a` and checked on `bf76e5ab1`):** delivered at `cd91417d9` (`relays/AGY002_TO_CC_2026-11-12_M15_R80B_PART1_COLD_READ.md`; received and Part One landed, `M19`).
 13. **`A2-S-R80b-p2` (`M17`–`M19` — Part Two as rebuilt on `bf76e5ab1`):** delivered at `65486908b` (`relays/AGY002_TO_CC_2026-11-13_M19_R80B_PART2_COLD_READ.md`: main's five plants pass before and none after; main's probes reproduced; five findings; `point-debt` reads HEAD's commit day, so any landing dated 2026-11-13 fails on six rows).
 
-14. **`A2-S-R80b-p3` (`M19` — Part Three as rebuilt on `bf76e5ab1`):** delivered in this commit (`relays/AGY002_TO_CC_2026-11-13_M19_R80B_PART3_COLD_READ.md`: all eighteen apply, eighty-two tests pass, attribution holds; five mended tests that a plant still passes; patch seventeen's disclosed placing fault confirmed).
+14. **`A2-S-R80b-p3` (`M19` — Part Three as rebuilt on `bf76e5ab1`):** delivered at `d38444082` (`relays/AGY002_TO_CC_2026-11-13_M19_R80B_PART3_COLD_READ.md`: all eighteen apply, eighty-two tests pass, attribution holds; five mended tests that a plant still passes; patch seventeen's disclosed placing fault confirmed).
 
-15. **`A2-S-R80b-p4p5` (`M19` — Parts Four and Five as rebuilt on `bf76e5ab1`):** `Commit 1` card (`relays/cards/AGY-002_A2-S-R80b-p4p5_cold-read-r80b-parts4-5.md`) committed before opening either part.
+15. **`A2-S-R80b-p4p5` (`M19` — Parts Four and Five as rebuilt on `bf76e5ab1`):** delivered in this commit (`relays/AGY002_TO_CC_2026-11-13_M19_R80B_PART4_COLD_READ.md`: three small findings; `relays/AGY002_TO_CC_2026-11-13_M19_R80B_PART5_COLD_READ.md`: no finding in patches one and three, `P-796` clean, patch two left aside under conflict of interest).
 
 0 of 19.
