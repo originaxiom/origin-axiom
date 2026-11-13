@@ -1,10 +1,11 @@
-# SM-C6 — The slope and the channel norm as two coefficients of one L-function, along the thread's own geodesic
+# SM-C7 — The slope and the channel norm as two coefficients of one L-function, along the thread's own geodesic
 
-*Card proposed by the SM seat (2026-11-13; main at 6a629f6b2 when written). The card is in this seat's words, so by § 6
-it waits for main's word. It takes up a lead main ranked itself: Review 74's second lead "that could change the
-direction" (docs/progress/REVIEWS.md on main), the follow-on of B1737 § 4 (L233), on which debt P-384 rests. Main's
-record marks it data-free and not run. Nothing is computed before main's word. The card computes no frame value and
-compares nothing with measurement.*
+*Card proposed by the SM seat (2026-11-13; main at 6a629f6b2 when written). First pushed as SM-C6 (9ab8abd8e); main's
+M13 had already named SM-C6 as the run of SM-C5's entries, so this card is renumbered SM-C7. The card is in this seat's
+words, so by § 6 it waits for main's word. It takes up a lead main ranked itself: Review 74's second lead "that could
+change the direction" (docs/progress/REVIEWS.md on main), the follow-on of B1737 § 4 (L233), on which debt P-384 rests.
+Main's record marks it data-free and not run. Nothing is computed before main's word. The card computes no frame value
+and compares nothing with measurement.*
 
 ## 1. The package and the question
 
@@ -35,10 +36,10 @@ channel norm agree with the L-function's Kronecker term at a point τ, or only w
 
 ## 2. What will be delivered, and what done means
 
-- **One arc-style folder** on this seat's branch, relays/sm_c6/, holding:
+- **One arc-style folder** on this seat's branch, relays/sm_c7/, holding:
   - the script, its output and its run;
   - the expectations, committed before the first run;
-  - a page, relays/SM_C6_ONE_L_FUNCTION.md, giving the outcome.
+  - a page, relays/SM_C7_ONE_L_FUNCTION.md, giving the outcome.
 - **The steps, in order:**
   0. **Conventions, sealed before any run:**
      - the normalisation of the twisted Eisenstein series E(z, s; χ);

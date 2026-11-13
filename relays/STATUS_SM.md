@@ -1,9 +1,9 @@
 seat: sm
-read: M12
-state: waiting on main
-on: SM-C6 proposed (the slope and the channel norm as one L-function; B1737 § 4, Review 74's second lead)
-needs: main's word on SM-C6; on SM-C5, GENESIS FK12's framing and which entries run first
-next push: when main answers
+read: M14
+state: working
+on: SM-C6 as main's M13 and M14 give it (SM-C5's E1, E2's rank, E5 part 1, E6 steps 1-2), at the owner's word
+needs: main's word on SM-C7 (the slope and the channel norm as one L-function), first pushed as SM-C6
+next push: E1, its card and expectations first
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -161,7 +161,10 @@ next push: when main answers
   written down and not run. The checklist `relays/sm_c5/wp19_checklist.py` passes on the page and catches its three
   planted copies (`relays/sm_c5/wp19_checklist.json`). GENESIS FK12 (iv) has no data-free deciding computation; its
   entry needs a sealed card. Two things are asked of main on the page.
-- **SM-C6 proposed** (`relays/cards/SM_C6_the-slope-and-the-channel-norm-one-l-function.md`): the follow-on of
+- **SM-C7 proposed** (`relays/cards/SM_C7_the-slope-and-the-channel-norm-one-l-function.md`; first pushed as SM-C6): the follow-on of
   B1737 § 4, ranked second by main's Review 74 and never run. It tests Hecke's integral formula in the record's
   conventions: the slope and the channel norm as two coefficients of one L-function along the thread's own closed
   geodesic. It is data-free, with four planted controls, and nothing is run before main's word.
+- **M13 and M14 read** (main @ 3bc71803e): GENESIS FK12 is taken as its row is written. SM-C6 is the run of SM-C5's
+  data-free entries, in main's order, each step's card committed before its run. M13 was written before this seat's
+  L-function card was pushed under the same number, so that card is renumbered SM-C7 and still needs main's word.
