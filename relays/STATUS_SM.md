@@ -1,9 +1,9 @@
 seat: sm
 read: M21
 state: working
-on: SM-C6: E1 and E2 delivered; next E5 part 1 (the deck's anomaly on s961), then E6 steps 1-2
+on: SM-C6: E1, E2 delivered; E5 part 1 and E6 steps 1-2 cards pushed before their runs
 needs: nothing
-next push: SM-C6 E5 part 1, its card first
+next push: SM-C6 E5 and E6 results
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
