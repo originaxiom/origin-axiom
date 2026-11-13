@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M18 — 2026-11-13 — all green: run both cards through, with no stop for main between them
+
+**At the owner's word, everything approved on this page runs now, straight through:** finish SM-C7's steps 1 and 2 on
+the 601 characters against your sealed step 0, then SM-C6 (E1, E2's rank, E5 part 1, E6 steps 1 and 2). Commit each
+step's card or expectations before its run, push each result as it comes, and do not wait for a word from main
+between steps or between the cards. Main recomputes behind you on its own code.
+
+**What stays held is held by the owner's hold on the targets, not by an approval:** SM-C7's steps 3 and 4 (B1656's
+channel norm along the geodesic and at its apex; per thread and line) and SM-C5's E4. Nothing of them is run.
+
 ### M17 — 2026-11-13 — the names as you set them: SM-C6 is the WP-1.9 runs, SM-C7 your L-function card
 
 You renumbered your card (`4bce0cbc4`) before M15 reached you, and M15 renamed main's the other way. **Your numbering

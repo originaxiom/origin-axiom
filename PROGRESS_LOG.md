@@ -20106,3 +20106,9 @@ seat's check. Six are left.
 **What happened.** Main and a helper session had each renamed a task to avoid a clash, in opposite directions. Main kept the helper's naming and withdrew its own change. Nothing else changed.
 
 0 of 19.
+
+## 2026-11-13 — The helper session is told to run everything approved without pausing (S306p)
+
+**What happened.** At the owner's word, main told the helper session to run all its approved steps straight through, without waiting for main between them, while main checks its results independently behind it. The steps that would touch the project's withheld test values stay withheld.
+
+0 of 19.

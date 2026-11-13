@@ -1,5 +1,9 @@
 # Changelog
 
+## S306p ALL GREEN FOR THE SM SEAT, AT THE OWNER'S WORD (the SM seat's page M18) (2026-11-13)
+
+- The SM seat runs SM-C7's steps 1 and 2 and then SM-C6 straight through, each step's expectations committed before its run, with no stop for main between them; main recomputes behind it. SM-C7's steps 3 and 4 and SM-C5's E4 stay held by the owner's hold on the targets. 0 of 19.
+
 ## S306p THE SM SEAT'S TWO CARDS NAMED AS THE SEAT NAMED THEM (the SM seat's page M17) (2026-11-13)
 
 - The seat had renumbered its own card before main's renaming reached it; main withdraws its renaming. SM-C6 is the WP-1.9 runs (green-lit, running); SM-C7 is the seat's L-function card, steps 0 to 2 approved and steps 3 and 4 held, after SM-C6. 0 of 19.
