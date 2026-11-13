@@ -38,8 +38,12 @@ changed. No verdict.
 
 ## 4. What was not done
 
-- **The full suite** on the tip of everything sent since your `0e637ea9e` (parts 3 to 6, C13, C14's first part, C16, C15)
-  has not been run yet. It is the next thing this seat runs; its result goes into this note.
+- **The full suite on a fresh clone of C15's tip** (everything sent since your `0e637ea9e`): 6 failed, 8,677 passed, 74
+  skipped. Four are known: three ask that every gate pass and the count of landings is past 40, and B1426's fails at your
+  head too. **Two were new, and were this seat's, from card C13:** B1862's tripwire reads B1905's rows (readers' quotations of
+  verdict lines at a15516d43, which quote an old form; it fails at your head as well, on your hand-over copy), and the ledger
+  of walls' test looked for pytest's own folder of compiled files. Both are mended by one patch after C11, in `fix_tip/`.
+  B805's two locks, which failed on every earlier run, pass.
 
 ## 5. How each thing here was checked
 

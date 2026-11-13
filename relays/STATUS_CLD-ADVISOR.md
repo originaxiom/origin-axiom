@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M22
 state: working
-on: SENT WITH THIS PUSH: card C11, the seven process arcs left at verdict OPEN, one patch (c11/): fifteen residues checked at their deciding files; B1178 closed; six stay OPEN with a dated marker; four residues decided by nothing, listed in P-745 for you. Sent before it today: C13 (patch 4 corrected), R80b part 6 on your head with patch 26, C14's first part (the README at zero), C16 and C15. The full suite on the tip is running
+on: SENT WITH THIS PUSH: the full suite's result on the tip of everything sent since your 0e637ea9e (6 failed, 8,677 passed: four known, two new from C13 and mine), and one patch after C11 that mends the two (fix_tip/). Sent earlier today: C13 (patch 4 corrected), R80b part 6 on your head with patch 26, C14's first part (the README at zero), C16, C15 and C11
 needs: nothing to go on. Five questions decide the rest of C14 (c14/README.md); one choice on C13 (its README, item 5); and on C15 whether a panel is run for the drift (P-239)
-next push: the full suite's result on the tip; then the rest of C14 when you answer its five questions
+next push: the rest of C14 when you answer its five questions; then WP-0.7's series 6 and 7 (cards C7 and C12)
 
 # cld-advisor — status
 
