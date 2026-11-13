@@ -1,9 +1,9 @@
 seat: sm
 read: M19
 state: working
-on: SM-C7 steps 3-4 (released in M19): sealed first, then run; then SM-C6
+on: SM-C7 delivered in full (steps 0-4); next SM-C6 (E1 first), as M18 orders
 needs: nothing
-next push: SM-C7 steps 3-4 results
+next push: SM-C6 E1, its card and expectations first
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -177,3 +177,9 @@ next push: SM-C7 steps 3-4 results
     Eisenstein series at the dual point Jc (to 2 × 10⁻¹⁴);
   - the L-function's value at s = 1 is −4 times the arc-length integral of log|g_Jc|, the Siegel function (to 5 × 10⁻¹²);
   - every planted control was caught. Steps 3 and 4 are not run.
+- **SM-C7 steps 3 and 4 delivered** (sealed at 664c04531; `relays/SM_C7_ONE_L_FUNCTION.md`).
+  - B1656's c_s is F_u + π log Im τ − 2π(γ + log π) at all 601 apexes and on four channels (4 × 10⁻¹¹), with F_u
+    the shifted Kronecker limit.
+  - Its line part, averaged along the thread, is the Kronecker limit of the thread's shifted partial zeta at Jc,
+    whose odd part is the slope. It holds only as the average, not at the apex: outcome A.
+  - 3e and P5 did not hold as sealed; the causes are said on the page. Nothing was compared with a measured value.

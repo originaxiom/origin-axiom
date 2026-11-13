@@ -1,0 +1,82 @@
+('+LR', 2) 4 characters 1.6 s
+('+LR', 3) 15 characters 7.1 s
+('+LR', 4) 44 characters 19.4 s
+('+LR', 5) 120 characters 53.5 s
+('+LLR', 3) 49 characters 66.5 s
+('+LLLR', 3) 107 characters 100.3 s
+('+LLRLR', 2) 95 characters 127.3 s
+('-LR', 1) 4 characters 128.5 s
+('-LR', 2) 4 characters 129.8 s
+('-LR', 3) 19 characters 136.2 s
+('-LR', 4) 44 characters 149.0 s
+('-LLRLR', 1) 11 characters 152.3 s
+('-LLLRLR', 1) 14 characters 156.2 s
+('-LLR', 2) 11 characters 159.6 s
+('-LLR', 3) 53 characters 174.2 s
+('-LLRR', 1) 7 characters 176.4 s
+{
+ "characters": 601,
+ "channel_entries": 2404,
+ "fixed_entries": 1476,
+ "C": -10.819302984241524,
+ "3a_max_identity_resid": [
+  4.177991286269389e-11,
+  2383
+ ],
+ "3b_max_F_avg_window_diff": [
+  3.204547738278052e-12,
+  1476
+ ],
+ "3b_levels_where_frame_avg_moves_>1e-6": [
+  16,
+  16
+ ],
+ "3c_apex_differs_from_avg_>1e-6": [
+  1476,
+  1476
+ ],
+ "3d_max_hecke_s2_rel": 2.2700019284419063e-08,
+ "3e_affine_fit_resid_by_level": {
+  "+LR 2": 1.7763568394002505e-15,
+  "+LR 3": 4.973799150320701e-14,
+  "+LR 4": 0.7379091041749017,
+  "+LR 5": 3.5208453788010754,
+  "+LLR 3": 4.894499043763553,
+  "+LLLR 3": 22.9368909316757,
+  "+LLRLR 2": 8.92701817611357,
+  "-LR 1": 1.7763568394002505e-15,
+  "-LR 2": 1.7763568394002505e-15,
+  "-LR 3": 0.1748605216453143,
+  "-LR 4": 0.7379091041749017,
+  "-LLRLR 1": 0.593556640328508,
+  "-LLLRLR 1": 1.9193756230345436,
+  "-LLR 2": 1.3316682204206884,
+  "-LLR 3": 5.316261237252938,
+  "-LLRR 1": 0.5025198669931541
+ },
+ "plants": {
+  "P5 wrong channel shift": [
+   2129,
+   2383
+  ],
+  "P6 pi log Im dropped": [
+   2383,
+   2383
+  ],
+  "P7 c for Jc": [
+   2362,
+   2383
+  ]
+ },
+ "against_expectations": {
+  "3a": true,
+  "3b_canonical": true,
+  "3b_frame_moves": true,
+  "3c": true,
+  "3d": true,
+  "3e": false,
+  "P5": false,
+  "P6": true,
+  "P7": true
+ }
+}
