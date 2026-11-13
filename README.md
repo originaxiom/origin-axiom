@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1603: 1109 PROVED, 384 NEGATIVE, 98 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1604: 1109 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
 | points in the register | 838: 309 open (queued work, leads, and questions not yet decided), 529 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its f… |
+| the last landing | S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR… |
 <!-- STATE:END -->
 
 ## Start here

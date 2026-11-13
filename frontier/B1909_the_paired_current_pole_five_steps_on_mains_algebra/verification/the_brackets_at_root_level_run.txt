@@ -1,0 +1,11 @@
+ok    240 roots, each of length^2 2
+ok    (16, 4) and its conjugate have 64 roots each, (10, 6) has 60, and each is the other's negative where it should be
+ok    (16, 4): a pair of grades and an A3 weight name exactly one root, and the grades are the 16 pairs of V(3/2) x V(3/2)
+ok    (16, 4): the non-zero products are exactly a with v' at grades (0, -2) and b with u' at (-2, 0), both in (10, 6), for every pair of different A3 weights  [{"a x v'": [('0', '-2', True)], "b x u'": [('-2', '0', True)]}]
+ok    (16, 4): and that for all 12 ordered pairs of different A3 weights; planted: with the same A3 weight no product is a root  [12 pairs; 0 with equal weights]
+ok    the conjugate module: a pair of grades and an A3 weight name exactly one root, and the grades are the 16 pairs of V(3/2) x V(3/2)
+ok    the conjugate module: the non-zero products are exactly a with v' at grades (0, -2) and b with u' at (-2, 0), both in (10, 6), for every pair of different A3 weights  [{"a x v'": [('0', '-2', True)], "b x u'": [('-2', '0', True)]}]
+ok    the conjugate module: and that for all 12 ordered pairs of different A3 weights; planted: with the same A3 weight no product is a root  [12 pairs; 0 with equal weights]
+ok    the two modules have the same pattern of non-zero products
+
+9 checks, 0 failing

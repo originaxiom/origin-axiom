@@ -1,0 +1,85 @@
+{
+ "checks": [
+  {
+   "check": "alpha = +1: A, B and D are unitary and square to -1; A B A^-1 B^-1 = -1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha = +1: the group generated has order 8, one element of order 2 and six of order 4 (the quaternion group)",
+   "holds": true,
+   "detail": "[1, 2, 4, 4, 4, 4, 4, 4]"
+  },
+  {
+   "check": "alpha = +1: only the scalars commute with A and B (irreducible)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha = -1: A, B and D are unitary and square to -1; A B A^-1 B^-1 = -1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha = -1: the group generated has order 8, one element of order 2 and six of order 4 (the quaternion group)",
+   "holds": true,
+   "detail": "[1, 2, 4, 4, 4, 4, 4, 4]"
+  },
+  {
+   "check": "alpha = -1: only the scalars commute with A and B (irreducible)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha +1 to alpha +1: T = 1 is unitary and carries A, D and B of the one to the other",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha +1 to alpha -1: T = diag(1, -1) is unitary and carries A, D and B of the one to the other",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha -1 to alpha +1: T = diag(1, -1) is unitary and carries A, D and B of the one to the other",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "alpha -1 to alpha -1: T = 1 is unitary and carries A, D and B of the one to the other",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the extension has degree -1 and, with a simple pole allowed, +1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "no splitting: a line of degree d in a stable bundle of weighted degree 0 has d + 1/2 < 0, so d <= -1, and two such add to at most -2, not -1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the residue matrix on the two currents is diag(|g_L|^2, |g_R|^2) and a unitary change of the two vectors leaves it as it is",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: for A and D (not B) the product A D A^-1 D^-1 is also -1, and for A with itself it is +1, so the check sees a commuting pair",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: with D replaced by a scalar the group is not the quaternion group",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: T = diag(1, -1) does not carry alpha = +1 to itself",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}

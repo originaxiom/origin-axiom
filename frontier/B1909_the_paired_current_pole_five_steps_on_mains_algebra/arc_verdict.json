@@ -1,0 +1,23 @@
+{
+ "id": "B1909",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the physical lane: its proof of the paired current pole (relay of 2026-11-08 and its proof file at 521e6f241), its single-mode proof and its file of 2026-11-09 on the combined parity, read through main's binding-minimum mask; its code not run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the physical lane's supplied parent: compact E8 with the coherent h4 lift, eta = O, chi = 0, its kinetic metrics and graph domain, at tree level",
+  "object": "the charged vectors at the paired current pole: the operator's constant, the transition matrices, the bundle's sections, the root-level brackets and the residue matrix",
+  "reach": "single",
+  "hypotheses": "the operator's form P_v = 2 k^dagger k and the coefficients are taken from the lane's proofs as statements; Atiyah's and Mehta-Seshadri's theorems and the simply-laced bracket size are used, not proved; the two Spin5 are the block ones of Spin10; the charges are not labelled on main's E8; the analytic half of step 3, step 4, the operator's part of step 5 and step 6 are not done (WP-2.1)"
+ },
+ "claim_one_line": "THE PAIRED CURRENT POLE (P-749 (e); R80-5): FIVE OF ITS SEVEN STEPS HOLD ON MAIN'S OWN ALGEBRA, EXACTLY, AND THE OTHER TWO NEED THE LANE'S OPERATOR WRITTEN OUT ON MAIN. The grade -2 plane of V(3/2) x V(3/2) is an eigenspace of the potential with the lane's value 7/(2 l^2), and the conjugate form matches it at the opposite weights; the transition matrices give the quaternion group of order 8, irreducible, for both charges; the arithmetic of one section (h0 = 1) checks; on main's E8 the non-zero products of the vector and down components are exactly the lane's two, in both modules; and the residue matrix on the two currents is rank two under any unitary change. Open: that the zero-mode profile exists in the domain, that compact conjugation commutes with the operator, that the mass map kills the products, and the equal norms: the plan's WP-2.1 first. The pole is at one background the object's own involution keeps, so it cannot decide a hand. 32 checks, none failing, six of them planted cases. 0 of 19.",
+ "weave_or_thread": "neither (one supplied background)"
+}

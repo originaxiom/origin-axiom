@@ -16701,6 +16701,20 @@
    "status": "dead",
    "domain": "physics"
   },
+  "B1909": {
+   "slug": "the paired current pole five steps on mains algebra",
+   "motifs": [
+    "choice",
+    "coupling",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B190": {
    "slug": "iterated gluing",
    "motifs": [

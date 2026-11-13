@@ -20028,3 +20028,9 @@ seat's check. Six are left.
 **What happened.** A geometric computation of the object had stopped without explanation at its third level, and two earlier explanations of why were both wrong. The real cause was a search that only looked for numbers up to 40, while the answer needed larger ones. Main replaced the search with an exact solution, and the computation now runs to the end. But near the narrowest part of the shape its accuracy is not good enough to confirm or contradict another session's value, so the question stays open with three ways named to settle it.
 
 0 of 19.
+
+## 2026-11-13 — Part of another session's proof checked exactly (S306p)
+
+**What happened.** Another line of work had proved, by hand, that at one point of its model two kinds of particle current appear together, a left-handed and a right-handed one of equal strength. Main checked five of the proof's seven steps with exact computer algebra of its own, and all hold. The remaining two depend on one operator that main has not yet written out for itself, which is the next item of the plan.
+
+0 of 19.

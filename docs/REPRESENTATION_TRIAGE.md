@@ -128,6 +128,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B804 | PENDING | m004's induced cusp spin structure is the bounding one (Arf = 0 by bordism), so its Dirac spectral type is class-level; depended on by two arcs, claim 223 characters — surfaced by the short-claim lane (B1464, R55-4). Owed: a LAW_MAP row when the Dirac lane is next touched; until then this row is its disposition. |
 | B1831 | PROCESS | **Review 74, the decadal review (a process arc):** the loop, the seats, the relays, the SCHEDULED rows and the leads read in full; its entry is docs/progress/REVIEWS.md, Review 74, and its rows P-594–P-620. |
 | B1907 | PROCESS | **The physical lane's two sealed packets refused as sealed (a process arc):** main's review of another lane's execution packets, custody, findings and what a reseal needs; its rows are P-746, and its message is on the lane's page (M5). |
+| B1909 | PENDING | **The paired current pole, five of seven steps on main's algebra (OPEN):** it goes on a synthesis page when WP-2.1 closes its last two steps; until then its row is P-749 (e). |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The

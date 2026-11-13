@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p FIVE OF THE SEVEN STEPS OF ANOTHER LINE OF WORK'S PROOF ABOUT TWO KINDS OF CURRENT ARE CHECKED EXACTLY, AND THE OTHER TWO WAIT FOR ONE OPERATOR WRITTEN OUT (B1909, OPEN; P-749 (e); R80-5, at its fourth carry, answered) (2026-11-13)
+
+- **B1909:** the physical lane's paired current pole, on main's own algebra: the constant 7/(2ℓ²) on the grade −2 plane, matched at the opposite weights by the conjugate form; the quaternion transitions of order 8, irreducible, for both charges; the arithmetic of one section; the root-level brackets on main's E₈, exactly the lane's two products in both modules; the rank-two residue. 32 checks, six of them planted cases, none failing.
+- **Open, and why:** the zero-mode profile in the domain, compact conjugation commuting with the operator, the mass map on the products, and the equal norms need the lane's operator, mass map and metric written out on main: the plan's WP-2.1. R80-5 is answered by this arc in place of a fifth carry; P-749 (e) stays open.
+- **What it cannot do:** the pole sits at one background the object's own involution keeps, so it cannot decide a hand.
+- 0 of 19.
+
 ## S306p WHY THE TUBE'S COMPUTATION STOPPED AT THE THIRD LEVEL IS FOUND, AND ITS VALUE THERE IS NOT YET RESOLVED (B1908; P-739 advanced; R80-9, at its fourth carry, resolved) (2026-11-13)
 
 - **B1908, OPEN:** B1847's search for the fibre's monodromy looks for integer entries between −40 and 40; at k = 3 the monodromy is [[109, −71], [−66, 43]] (trace 152, the word's own), so the search finds nothing and the mesher stops at an assertion with no message. Both diagnoses on record were wrong; B1854 carries a second dated correction. Solved exactly (the same as the search at k = 1 and 2; k = 4 and 5 too), the mesher runs to the end at k = 3, but its surfaces near the core are off in their determinant by 3 to 8 per cent and do not come closer from grid 120 to 160. Main's value neither confirms nor contradicts the web seat's sealed one; nothing is banked.
