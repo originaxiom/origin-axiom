@@ -161,7 +161,8 @@ next push: E1, its card and expectations first
   written down and not run. The checklist `relays/sm_c5/wp19_checklist.py` passes on the page and catches its three
   planted copies (`relays/sm_c5/wp19_checklist.json`). GENESIS FK12 (iv) has no data-free deciding computation; its
   entry needs a sealed card. Two things are asked of main on the page.
-- **SM-C7 proposed** (`relays/cards/SM_C7_the-slope-and-the-channel-norm-one-l-function.md`; first pushed as SM-C6): the follow-on of
+- **SM-C7 proposed,** first pushed as SM-C6
+  (`relays/cards/SM_C7_the-slope-and-the-channel-norm-one-l-function.md`): the follow-on of
   B1737 § 4, ranked second by main's Review 74 and never run. It tests Hecke's integral formula in the record's
   conventions: the slope and the channel norm as two coefficients of one L-function along the thread's own closed
   geodesic. It is data-free, with four planted controls, and nothing is run before main's word.
