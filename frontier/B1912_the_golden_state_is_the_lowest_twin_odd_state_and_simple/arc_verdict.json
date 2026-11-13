@@ -1,0 +1,23 @@
+{
+ "id": "B1912",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1885"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Maass cusp forms on Gamma0(5) with the quadratic character (d/5): the twin-odd states of the level-5 curve, in four classes by mirror parity and Fricke sign",
+  "object": "the spectrum below and at the golden state's R0 = pi/(2 ln phi)",
+  "reach": "class",
+  "hypotheses": "numerical: Hejhal's method at two heights, with a positive control in a mirror-even class; the range 0.02 <= R <= 3.40; R < 0.02 and exceptional eigenvalues (lambda < 1/4) not scanned; two eigenvalues closer than the step would show as one; the twin-odd states taken as the forms with the quadratic character, as B1885 and P-776 take them"
+ },
+ "claim_one_line": "THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quadratic character (by mirror parity and Fricke sign), the only eigenvalue is R0 = pi/(2 ln phi) = 3.2642513026, in the golden state's own class, simple there and absent from the other three. By Hejhal's method on main's own code, an eigenvalue counted only when the system is singular at two heights (single-height false minima, one of them in all four classes, vanish at the other); the dihedral form at 2 R0 is found in a mirror-even class as the positive control. Not scanned: R < 0.02 and exceptional eigenvalues. 0 of 19.",
+ "weave_or_thread": "weave (the whole's quotient curve at level 5)"
+}

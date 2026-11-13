@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1606 of 1606 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1607 of 1607 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1111)
+## PROVED (1112)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1123,6 +1123,7 @@
 | `B1906` | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19. |  | 0 |
 | `B1910` | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19. |  | 0 |
 | `B1911` | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19. |  | 0 |
+| `B1912` | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quadratic character (by mirror parity and Fricke sign), the only eigenvalue is R0 = pi/(2 ln phi) = 3.2642513026, in the golden state's own class, simple there and absent from the other three. By Hejhal's method on main's own code, an eigenvalue counted only when the system is singular at two heights (single-height false minima, one of them in all four classes, vanish at the other); the dihedral form at 2 R0 is found in a mirror-even class as the positive control. Not scanned: R < 0.02 and exceptional eigenvalues. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

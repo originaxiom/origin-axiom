@@ -1,0 +1,8 @@
+sin -1 ['R=3.2642513026 (3.3e-13, 2.6e-12, second 1.1e-02)']
+sin 1 []
+cos -1 []
+cos 1 []
+control cos -1 []
+control cos 1 ['R=6.5285026016 (2.4e-14, 1.8e-09)']
+control sin -1 []
+control sin 1 []

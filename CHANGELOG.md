@@ -1,5 +1,12 @@
 # Changelog
 
+## S306p THE STATE THE READ-OUT ON THE WHOLE RESTS ON IS THE LOWEST OF ITS KIND, AND ALONE AT ITS ENERGY (B1912; P-783 DONE; P-776's condition R3 met over the range scanned) (2026-11-13)
+
+- **B1912:** by Hejhal's method on main's own code, over 0.02 ≤ R ≤ 3.40 and in all four classes of twin-odd Maass cusp forms on the level-5 curve, the only eigenvalue is the golden state's R₀ = π/(2 ln φ), simple. An eigenvalue counts only when the system is singular at two heights: eight false minima at one height, one of them where K_{iR}(2π · 0.12) vanishes, are gone at the other. The positive control, the dihedral form at 2R₀, is found in a mirror-even class.
+- **Not scanned:** R < 0.02 and exceptional eigenvalues.
+- **What it does for the inputs:** it settles one of the eight conditions the read-out on the whole must meet before it can replace the fitted modulus. Condition R6, the place's dependence on the chosen area, is next. No input is removed yet.
+- 0 of 19.
+
 ## S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP-2.1 begun; P-749) (2026-11-13)
 
 - **B1911:** from two of the physical lane's proofs, read through main's mask: the elliptic complex closes exactly when D̄q = D̄r = [q, r] = 0; D0† and D2† are the adjoints in the declared metrics (the weight 2 on t, masked on the page, is derived); the gauge-fixed potential is |D0†x|² + |D1x|² − k|x|²; the mass map is M = U_out T U_in, with U_in and U_out isometries exactly for the fermion densities (Ω², ½, Ω, Ω); the h = 1 cusp block follows from the complex. 18 checks on a spectral model and one symbolic, four planted forms caught.

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1606: 1111 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
-| points in the register | 838: 307 open (queued work, leads, and questions not yet decided), 531 closed |
+| arcs with a verdict | 1607: 1112 PROVED, 384 NEGATIVE, 99 OPEN, 12 RETRACTED |
+| points in the register | 838: 306 open (queued work, leads, and questions not yet decided), 532 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p THE ALGEBRA UNDER ANOTHER LINE OF WORK'S CURVED THEORY HOLDS ON MAIN'S OWN CODE: ITS COMPLEX, ITS POTENTIAL AND ITS FERMION MASS MAP (B1911; WP… |
+| the last landing | S306p THE STATE THE READ-OUT ON THE WHOLE RESTS ON IS THE LOWEST OF ITS KIND, AND ALONE AT ITS ENERGY (B1912; P-783 DONE; P-776's condition R3 met ov… |
 <!-- STATE:END -->
 
 ## Start here

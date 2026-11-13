@@ -20052,3 +20052,9 @@ seat's check. Six are left.
 **What happened.** Another line of work had written a theory of fields on the object's curved surface: the equations linking its pieces, the energy they carry, and how particle masses arise from them. Main checked every algebraic identity those equations state with its own code, and all of them hold. Main also derived one weight the other session's page hid and listed one quantity the other session's files gave incompletely. What depends on the shape of the surface near its single puncture was not part of this check.
 
 0 of 19.
+
+## 2026-11-13 — The state behind the proposed read-out is confirmed to be the lowest of its kind (S306p)
+
+**What happened.** The project's best candidate for reading values off the object as a whole rests on one particular wave on a curved surface. It had been built from a classical formula, but nobody had checked that it is the lowest wave of its kind, or that it is alone at its energy. Main ran a careful numerical search over every wave of that kind up to its energy, with safeguards against false hits and a test case known to be there, and found it is both. This settles one of the eight conditions the read-out must meet before it can replace a fitted number. It does not yet remove any input.
+
+0 of 19.

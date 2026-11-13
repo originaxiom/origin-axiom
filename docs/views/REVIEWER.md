@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1606** |
-| words of findings prose | **1,427,200** |
+| research arcs with findings | **1607** |
+| words of findings prose | **1,428,153** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1606** (100.0 %) |
+| arcs carrying an authored verdict | **1607** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1111 |
+| PROVED | 1112 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1911`** (1043 words, 0 locks)  
-THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19.  
-`B1911_the_lanes_complex_and_mass_map_on_mains_algebra/FINDINGS.md`
+**PROVED — `B1912`** (953 words, 0 locks)  
+THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quadratic character (by mirror parity and Fricke sign), the only eigenvalue is R0 = pi/(2 ln phi) = 3.2642513026, in the golden state's own class, simple there and absent from the other three. By Hejhal's method on main's own code, an eigenvalue counted only when the system is singular at two heights (single-height false minima, one of them in all four classes, vanish at the other); the dihedral form at 2 R0 is found in a mirror-even class as the positive control. Not scanned: R < 0.02 and exceptional eigenvalues. 0 of 19.  
+`B1912_the_golden_state_is_the_lowest_twin_odd_state_and_simple/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

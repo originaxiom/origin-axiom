@@ -1,0 +1,4 @@
+sin -1 R in [0.02, 0.26]: the smallest value both heights share is 6.80e-01 at R = 0.258
+sin 1 R in [0.02, 0.26]: the smallest value both heights share is 6.64e-01 at R = 0.258
+cos -1 R in [0.02, 0.26]: the smallest value both heights share is 8.11e-01 at R = 0.258
+cos 1 R in [0.02, 0.26]: the smallest value both heights share is 8.14e-01 at R = 0.258

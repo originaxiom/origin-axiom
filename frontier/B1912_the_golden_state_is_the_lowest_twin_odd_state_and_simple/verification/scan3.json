@@ -1,0 +1,18 @@
+{
+ "sin, Fricke -1": {
+  "least of max over both heights": 0.6797849870561774,
+  "at R": 0.2579999999999998
+ },
+ "sin, Fricke +1": {
+  "least of max over both heights": 0.6641297748867828,
+  "at R": 0.2579999999999998
+ },
+ "cos, Fricke -1": {
+  "least of max over both heights": 0.8106174572545117,
+  "at R": 0.2579999999999998
+ },
+ "cos, Fricke +1": {
+  "least of max over both heights": 0.8135367494997692,
+  "at R": 0.2579999999999998
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "sin, Fricke -1, R in [0.25, 3.40]": [
+  {
+   "R": 3.264251302644139,
+   "least at Y=0.10": 3.3051228791625424e-13,
+   "least at Y=0.12": 2.567089602393595e-12,
+   "second at Y=0.10": 0.011333767346329932
+  }
+ ],
+ "sin, Fricke +1, R in [0.25, 3.40]": [],
+ "cos, Fricke -1, R in [0.25, 3.40]": [],
+ "cos, Fricke +1, R in [0.25, 3.40]": [],
+ "control near 2 R0 = 6.528503: cos, Fricke -1": [],
+ "control near 2 R0 = 6.528503: cos, Fricke +1": [
+  {
+   "R": 6.5285026015722085,
+   "least at Y=0.10": 2.431956733951002e-14,
+   "least at Y=0.12": 1.848154216552626e-09,
+   "second at Y=0.10": 0.041729750472691146
+  }
+ ],
+ "control near 2 R0 = 6.528503: sin, Fricke -1": [],
+ "control near 2 R0 = 6.528503: sin, Fricke +1": []
+}

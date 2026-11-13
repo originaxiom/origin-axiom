@@ -16776,6 +16776,26 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1912": {
+   "slug": "the golden state is the lowest twin odd state and simple",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B790",
+    "B797",
+    "B922"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B191": {
    "slug": "two cusp connector",
    "motifs": [
