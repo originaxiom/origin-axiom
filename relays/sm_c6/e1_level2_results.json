@@ -1,0 +1,417 @@
+{
+ "method": "slopes in F_p for two primes p = 1 mod N; equal only if equal mod both",
+ "check_level1": [
+  {
+   "word": "LLRLRR",
+   "sign": 1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  },
+  {
+   "word": "LLRLRR",
+   "sign": -1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  },
+  {
+   "word": "LLLRLRR",
+   "sign": 1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  },
+  {
+   "word": "LLLRLRR",
+   "sign": -1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  },
+  {
+   "word": "LLRLRRR",
+   "sign": 1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  },
+  {
+   "word": "LLRLRRR",
+   "sign": -1,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true
+  }
+ ],
+ "pairs": [
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": 13,
+   "primes": [
+    2147484041,
+    2147484197
+   ],
+   "characters": 12,
+   "slope_classes": 6,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_r": {
+    "00": 108,
+    "01": 12,
+    "10": 12
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.1
+  },
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": 17,
+   "primes": [
+    2147483929,
+    2147484167
+   ],
+   "characters": 16,
+   "slope_classes": 8,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_r": {
+    "00": 208,
+    "01": 16,
+    "10": 16
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.3
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": 18,
+   "primes": [
+    2147484007,
+    2147484043
+   ],
+   "characters": 17,
+   "slope_classes": 9,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.0
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": 22,
+   "primes": [
+    2147483713,
+    2147483867
+   ],
+   "characters": 21,
+   "slope_classes": 11,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.1
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": 1,
+   "level": 1,
+   "N": 18,
+   "primes": [
+    2147484007,
+    2147484043
+   ],
+   "characters": 17,
+   "slope_classes": 9,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_r": {
+    "00": 242,
+    "01": 14,
+    "10": 14,
+    "11": 2
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.0
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": -1,
+   "level": 1,
+   "N": 22,
+   "primes": [
+    2147483713,
+    2147483867
+   ],
+   "characters": 21,
+   "slope_classes": 11,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_r": {
+    "00": 380,
+    "01": 20,
+    "10": 20
+   },
+   "census_same": true,
+   "exact_slopes_mismatch_mod_p": 0,
+   "reproduces_e1": true,
+   "seconds": 0.2
+  },
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": 221,
+   "primes": [
+    2147487941,
+    2147490593
+   ],
+   "characters": 220,
+   "slope_classes": 62,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 46972,
+    "01": 604,
+    "10": 604
+   },
+   "census_r": {
+    "00": 46972,
+    "01": 604,
+    "10": 604
+   },
+   "census_same": true,
+   "seconds": 0.5
+  },
+  {
+   "word": "LLRLRR",
+   "reverse": "LLRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": 221,
+   "primes": [
+    2147487941,
+    2147490593
+   ],
+   "characters": 220,
+   "slope_classes": 62,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 46972,
+    "01": 604,
+    "10": 604
+   },
+   "census_r": {
+    "00": 46972,
+    "01": 604,
+    "10": 604
+   },
+   "census_same": true,
+   "seconds": 0.4
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": 198,
+   "primes": [
+    2147484043,
+    2147484439
+   ],
+   "characters": 395,
+   "slope_classes": 109,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_r": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_same": true,
+   "seconds": 1.0
+  },
+  {
+   "word": "LLLRLRR",
+   "reverse": "LLLRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": 198,
+   "primes": [
+    2147484043,
+    2147484439
+   ],
+   "characters": 395,
+   "slope_classes": 109,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_r": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_same": true,
+   "seconds": 1.0
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": 1,
+   "level": 2,
+   "N": 198,
+   "primes": [
+    2147484043,
+    2147484439
+   ],
+   "characters": 395,
+   "slope_classes": 109,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_r": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_same": true,
+   "seconds": 1.0
+  },
+  {
+   "word": "LLRLRRR",
+   "reverse": "LLRRRLR",
+   "sign": -1,
+   "level": 2,
+   "N": 198,
+   "primes": [
+    2147484043,
+    2147484439
+   ],
+   "characters": 395,
+   "slope_classes": 109,
+   "two_primes_agree_on_classes": true,
+   "same_coordinate_characters": false,
+   "labelled_same": false,
+   "census_w": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_r": {
+    "00": 153420,
+    "01": 1104,
+    "10": 1104,
+    "11": 2
+   },
+   "census_same": true,
+   "seconds": 0.9
+  }
+ ],
+ "plants": {
+  "P1 census changed": [
+   12,
+   12
+  ]
+ },
+ "summary": {
+  "level1_exact_check": true,
+  "level2_tests": 6,
+  "level2_labelled_differs": 6,
+  "level2_census_same": 6,
+  "two_primes_agree": true,
+  "outcome_level2": "1"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "A_lemma": {
+  "systems": 91840,
+  "sep_implies_obs_fail": 0,
+  "obs_iff_bis_fail": 0,
+  "obs_without_sep": 8664,
+  "example": {
+   "states": 3,
+   "updates": [
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "output": [
+    0,
+    0,
+    0
+   ],
+   "q": [
+    0,
+    1,
+    0
+   ]
+  }
+ },
+ "B_word_to_manifold": {
+  "append_descends": {
+   "tested": 4052,
+   "fails": 0
+  },
+  "census_descends_on": [
+   12,
+   12
+  ],
+  "labelled_count_descends_on": [
+   0,
+   12
+  ]
+ },
+ "C_module_to_vacuum": {
+  "O_swaps_n_and_nstar_on_every_level (E2)": true,
+  "modules_on_census_levels": 136176,
+  "based_count_descends_on (n = n*)": 118164,
+  "based_count_does_not_descend_on (n != n*)": 18012
+ },
+ "summary": {
+  "sufficient (sep => obs) on every system": true,
+  "exact condition (obs <=> fibres inside observational equivalence) on every system": true,
+  "'exactly when' holds as stated": false,
+  "append descends to the manifold": true
+ }
+}
+
+real	0m0.509s
+user	0m0.500s
+sys	0m0.008s

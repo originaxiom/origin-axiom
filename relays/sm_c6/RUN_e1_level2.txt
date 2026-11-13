@@ -1,0 +1,25 @@
+1 LLRLRR LLRRLR 1 N 13 chars 12 classes 6 labelled_same False census_same True 0.1 s
+1 LLRLRR LLRRLR -1 N 17 chars 16 classes 8 labelled_same False census_same True 0.3 s
+1 LLLRLRR LLLRRLR 1 N 18 chars 17 classes 9 labelled_same False census_same True 0.0 s
+1 LLLRLRR LLLRRLR -1 N 22 chars 21 classes 11 labelled_same False census_same True 0.1 s
+1 LLRLRRR LLRRRLR 1 N 18 chars 17 classes 9 labelled_same False census_same True 0.0 s
+1 LLRLRRR LLRRRLR -1 N 22 chars 21 classes 11 labelled_same False census_same True 0.2 s
+2 LLRLRR LLRRLR 1 N 221 chars 220 classes 62 labelled_same False census_same True 0.5 s
+2 LLRLRR LLRRLR -1 N 221 chars 220 classes 62 labelled_same False census_same True 0.4 s
+2 LLLRLRR LLLRRLR 1 N 198 chars 395 classes 109 labelled_same False census_same True 1.0 s
+2 LLLRLRR LLLRRLR -1 N 198 chars 395 classes 109 labelled_same False census_same True 1.0 s
+2 LLRLRRR LLRRRLR 1 N 198 chars 395 classes 109 labelled_same False census_same True 1.0 s
+2 LLRLRRR LLRRRLR -1 N 198 chars 395 classes 109 labelled_same False census_same True 0.9 s
+{
+ "level1_exact_check": true,
+ "level2_tests": 6,
+ "level2_labelled_differs": 6,
+ "level2_census_same": 6,
+ "two_primes_agree": true,
+ "outcome_level2": "1"
+}
+{"P1 census changed": [12, 12]}
+
+real	0m5.906s
+user	0m5.659s
+sys	0m0.192s

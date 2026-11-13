@@ -1,0 +1,25 @@
+{
+ "instrument": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py (main)",
+ "counts": {
+  "sequences": 16275,
+  "palindromic_up_to_rotation": 2075,
+  "heights_same_as_reverse": 16275,
+  "apex_same_as_reverse": 16275,
+  "keeps_line_same_as_reverse_seat": 12903,
+  "keeps_line_same_as_reverse_main": 12903,
+  "keeps_line_seat_eq_main": 16275,
+  "keeps_line_constant_on_letter_keeping_rotations": 10931,
+  "plant_tells_some_word_from_its_reverse": 13860
+ },
+ "signatures": {
+  "heights": "(runs)",
+  "keeps_line_seat": "(runs)",
+  "keeps_line_main": "(runs)"
+ },
+ "pieces_order_input": "none: every function of the read-out takes a run sequence only; no module or count enters",
+ "summary": {
+  "letters_order_dropped_by_heights": true,
+  "line_keeping_reversal_invariant_seat": false,
+  "plant_fires": true
+ }
+}

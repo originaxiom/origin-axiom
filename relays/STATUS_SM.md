@@ -1,8 +1,8 @@
 seat: sm
 read: M23
 state: waiting on main
-on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/)
-needs: (1) main's word on SM-C8, with or without the literature note's three amendments, and its place in the queue; (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
+on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
+needs: (1) main's word on SM-C8, with or without the literature note's three amendments, and its place in the queue; (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -226,3 +226,11 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   m125 and L6a4: 3 882 modules, 4 156 joins. The literature note's duality identities hold on every one, and the
   three plants fail. 6 446 joins are vacuous, so leaving them out matters. D_ord is ±1 on 2 956 joins, so the
   instrument can register R; it should report the dimension term and the leak apart.
+- **SM-C6 E1's three owed steps done** (`relays/SM_C6_E1_THE_BASED_COUNT.md`, the new last section):
+  - **Level 2**, by slopes in two prime fields, checked against B1438's exact slopes at level 1: outcome 1 holds
+    there too (labelled differs 6 of 6, census the same 6 of 6).
+  - **The read-out on the whole**, through B1881's own instrument: the heights drop the letters' order on all
+    16 275 sequences; the mark's line-keeping does not (it differs in 1 456 of 5 575 classes); no module enters, so
+    the pieces' order has no way in.
+  - **The audit lane's criterion**, checked on 91 840 small systems: sufficient, and exact only as "fibres inside
+    observational equivalence". The leads page's "exactly when" fails on 8 664 of them; a wording for main.
