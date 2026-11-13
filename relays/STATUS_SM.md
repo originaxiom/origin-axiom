@@ -1,9 +1,9 @@
 seat: sm
 read: M21
 state: working
-on: SM-C6: E1 delivered (outcome 1); next E2's rank of the three bits, then E5 part 1, E6 steps 1-2
+on: SM-C6: E1 and E2 delivered; next E5 part 1 (the deck's anomaly on s961), then E6 steps 1-2
 needs: nothing
-next push: SM-C6 E2, its card first
+next push: SM-C6 E5 part 1, its card first
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -190,3 +190,6 @@ next push: SM-C6 E2, its card first
   - The pieces' order is kept by the based count (n(V), n(V*)) and lost to the class count on the (1, 1) modules,
     which occur on 18 of 24 levels.
   - Level 2 was not run (N = 221). P2 failed as designed, and was redone post hoc; both said on the page.
+- **SM-C6 E2 delivered** (`relays/SM_C6_E2_THE_RANK_OF_THE_BITS.md`): the three named bits have rank 2 on the
+  record's observables. The hand and the pieces' order are independent; the exchange is carried, so B1327's
+  over-count holds. Read against B1915 after the card was pushed: they agree where they meet.

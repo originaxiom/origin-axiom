@@ -1,0 +1,37 @@
+{'state': '+LR', 'mirror': '+RL', 'level': 2, 'N': 5, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LR', 'mirror': '+RL', 'level': 3, 'N': 4, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LR', 'mirror': '+RL', 'level': 4, 'N': 15, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LR', 'mirror': '+RL', 'level': 5, 'N': 11, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LLR', 'mirror': '+RRL', 'level': 1, 'N': 2, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': False, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': False}
+{'state': '+LLR', 'mirror': '+RRL', 'level': 2, 'N': 6, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LLR', 'mirror': '+RRL', 'level': 3, 'N': 10, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LLR', 'mirror': '+RRL', 'level': 4, 'N': 24, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LLLR', 'mirror': '+RRRL', 'level': 1, 'N': 3, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': False, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': False}
+{'state': '+LLLR', 'mirror': '+RRRL', 'level': 2, 'N': 21, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '+LLLR', 'mirror': '+RRRL', 'level': 3, 'N': 18, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LR', 'mirror': '-RL', 'level': 1, 'N': 5, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LR', 'mirror': '-RL', 'level': 2, 'N': 5, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LR', 'mirror': '-RL', 'level': 3, 'N': 10, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LR', 'mirror': '-RL', 'level': 4, 'N': 15, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LR', 'mirror': '-RL', 'level': 5, 'N': 25, 'c_acts_on_slopes': False, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLR', 'mirror': '-RRL', 'level': 1, 'N': 6, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLR', 'mirror': '-RRL', 'level': 2, 'N': 6, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLR', 'mirror': '-RRL', 'level': 3, 'N': 18, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLR', 'mirror': '-RRL', 'level': 4, 'N': 24, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLLR', 'mirror': '-RRRL', 'level': 1, 'N': 7, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLLR', 'mirror': '-RRRL', 'level': 2, 'N': 21, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{'state': '-LLLR', 'mirror': '-RRRL', 'level': 3, 'N': 28, 'c_acts_on_slopes': True, 'c_is_negation_up_to_shift': True, 'c_acts_on_census': False, 'X_acts_on_counts': False, 'O_acts_on_counts': True, 'O_swaps_n_and_nstar': True, 'P1_reverse_trivial_on_slopes': True, 'P2_acts': True}
+{
+ "levels": 23,
+ "acts": {
+  "c": true,
+  "X": false,
+  "O": true
+ },
+ "rank_joint": 2,
+ "c_on_counts_anywhere": false,
+ "c_negation_everywhere_chiral": true,
+ "O_swaps_everywhere": true,
+ "P1_reverse_trivial_on_every_level": true,
+ "P2_acts_on_some_level": true
+}
