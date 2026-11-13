@@ -1,0 +1,66 @@
+('+LR', 2) 4 characters 7.5 s
+('+LR', 3) 15 characters 37.7 s
+('+LR', 4) 44 characters 183.8 s
+('+LR', 5) 120 characters 663.3 s
+('+LLR', 3) 49 characters 830.2 s
+('+LLLR', 3) 107 characters 1428.5 s
+('+LLRLR', 2) 95 characters 2044.5 s
+('-LR', 1) 4 characters 2046.7 s
+('-LR', 2) 4 characters 2052.7 s
+('-LR', 3) 19 characters 2087.0 s
+('-LR', 4) 44 characters 2228.3 s
+('-LLRLR', 1) 11 characters 2245.0 s
+('-LLLRLR', 1) 14 characters 2271.2 s
+('-LLR', 2) 11 characters 2292.2 s
+('-LLR', 3) 53 characters 2459.6 s
+('-LLRR', 1) 7 characters 2470.6 s
+{
+ "characters": 601,
+ "levels": 16,
+ "step1_max_diff": 2.313687734925744e-14,
+ "step1_max_nodes_48_vs_96": 5.919104402788628e-13,
+ "step2a_max_rel": 3.804432957051044e-12,
+ "step2b_max_rel": 4.6570585457193096e-12,
+ "step2c_max_diff": 6.149763568503092e-12,
+ "step2c_max_rational_resid": 1.5554224574998443e-13,
+ "step2d_max_Ztot0": 6.07087756932472e-11,
+ "step2d_max_Zprime0_plus_half_ell": 3.4979561995745205e-10,
+ "characters_with_|V|>1e-6": 572,
+ "plants_caught": {
+  "P1 (miss > 1e-6)": [
+   466,
+   466
+  ],
+  "P2 step 1": [
+   601,
+   601
+  ],
+  "P2 step 2b": [
+   601,
+   601
+  ],
+  "P3 (|V| > 1e-6)": [
+   572,
+   572
+  ],
+  "P4 step 1 (|V| > 1e-6)": [
+   572,
+   572
+  ],
+  "P4 step 2b (Kronecker value > 1e-6)": [
+   565,
+   565
+  ]
+ },
+ "against_expectations": {
+  "step1": true,
+  "step2a": true,
+  "step2b": true,
+  "step2c": true,
+  "step2d": true,
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true
+ }
+}

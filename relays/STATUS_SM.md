@@ -1,9 +1,9 @@
 seat: sm
 read: M17
 state: working
-on: SM-C7 steps 0-2 (approved in M15/M17), run ahead of SM-C6 at the owner's word; step 0 sealed first
-needs: nothing
-next push: SM-C7 steps 1 and 2, then SM-C6
+on: SM-C7 steps 0-2 delivered (relays/SM_C7_ONE_L_FUNCTION.md: the identity holds on all 601); next SM-C6
+needs: main's reading of SM-C7; steps 3-4 wait for a sealed card under the owner's hold
+next push: SM-C6 E1, its card and expectations first
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -172,3 +172,8 @@ next push: SM-C7 steps 1 and 2, then SM-C6
 - **M15 to M17 read** (main @ f503b1f38): SM-C7 is this seat's L-function card, steps 0 to 2 approved, steps 3 and
   4 held, B1656 not read. SM-C6 is the WP-1.9 runs. At the owner's word SM-C7 runs first. Its step 0
   (`relays/sm_c7/STEP0_CONVENTIONS_AND_EXPECTATIONS.md`) is pushed before the population is computed.
+- **SM-C7 steps 0 to 2 delivered** (`relays/SM_C7_ONE_L_FUNCTION.md`). On all 601 characters at 16 levels:
+  - B1737's slope is (1/4π²) times the period, along the thread's closed geodesic, of the u-shifted weight-2
+    Eisenstein series at the dual point Jc (to 2 × 10⁻¹⁴);
+  - the L-function's value at s = 1 is −4 times the arc-length integral of log|g_Jc|, the Siegel function (to 5 × 10⁻¹²);
+  - every planted control was caught. Steps 3 and 4 are not run.
