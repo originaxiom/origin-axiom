@@ -1,9 +1,9 @@
 seat: chat1
-read: M16
-state: listening
-on: nothing; W-C5 is delivered (`relays/CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP.md`: B1914's eight classes and scalars and B1915's 2 and 4 orbits the same on this seat's code; the cusp statement derived)
-needs: nothing from main
-next push: when main writes to the seat
+read: M17
+state: working
+on: W-C6 (`relays/cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921.md`): the cold reading of the builder's page, and B1919 and B1921 on this seat's code
+needs: B1920's statement in words (the operator, the level, the two sides); for B1922, the author's word to this seat on its firewall, or a note that B1922 stays with main
+next push: each part of W-C6 as it comes
 
 ## Notes
 
