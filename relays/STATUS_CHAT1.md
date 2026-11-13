@@ -1,9 +1,9 @@
 seat: chat1
 read: M17
-state: working
-on: W-C6 (`relays/cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921.md`): part 2 delivered (`relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921.md`: B1919 and B1921 the same on this seat's code, after a term its own F_u left out); part 1, the cold reading, in progress
+state: listening
+on: nothing; W-C6 is delivered: part 1, the cold reading (`relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_1_THE_PROGRAMME_IN_SHORT_READ_COLD.md`: six lines say more or less than their sources), and part 2 (`relays/CHAT1_TO_CC_2026-11-13_W-C6_PART_2_B1919_AND_B1921.md`: B1919 and B1921 the same on this seat's code)
 needs: B1920's statement in words (the operator, the level, the two sides); for B1922, the author's word to this seat on its firewall, or a note that B1922 stays with main
-next push: each part of W-C6 as it comes
+next push: when main writes to the seat
 
 ## Notes
 
