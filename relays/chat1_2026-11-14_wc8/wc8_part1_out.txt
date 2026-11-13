@@ -1,0 +1,26 @@
+P1 normaliser elements found: 44 ; classes modulo <LR>: 8 ; named as +-J^n K^e: [(-1, 0, 0), (-1, 0, 1), (-1, 1, 0), (-1, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)]
+P1 relations J^2 = LR, K^2 = -I, K J K^-1 = -J^-1: True
+P1 holds: True
+P2 J acts by 3 ; K by 2 ; hands (sign, n, e) -> hand: {(-1, 0, 0): 1, (-1, 0, 1): -1, (-1, 1, 0): -1, (-1, 1, 1): 1, (1, 0, 0): 1, (1, 0, 1): -1, (1, 1, 0): -1, (1, 1, 1): 1}
+P2 the parity law (-1)^(n+e) holds on all 8: True ; control (-1)^n holds on all 8: False
+P2 holds: True
+P3 m  1 N   5 Smith (1, 5) line of order N sent to -1: True ; J_m by 3, K by 2, lambda^2 = 4 mod N
+P3 m  2 N   8 Smith (2, 4) line of order N sent to -1: False
+P3 m  3 N  13 Smith (1, 13) line of order N sent to -1: True ; J_m by 8, K by 5, lambda^2 = 12 mod N
+P3 m  4 N  20 Smith (2, 10) line of order N sent to -1: False
+P3 m  5 N  29 Smith (1, 29) line of order N sent to -1: True ; J_m by 17, K by 12, lambda^2 = 28 mod N
+P3 m  6 N  40 Smith (2, 20) line of order N sent to -1: False
+P3 m  7 N  53 Smith (1, 53) line of order N sent to -1: True ; J_m by 30, K by 23, lambda^2 = 52 mod N
+P3 m  8 N  68 Smith (2, 34) line of order N sent to -1: False
+P3 m  9 N  85 Smith (1, 85) line of order N sent to -1: True ; J_m by 47, K by 38, lambda^2 = 84 mod N
+P3 m 10 N 104 Smith (2, 52) line of order N sent to -1: False
+P3 m 11 N 125 Smith (1, 125) line of order N sent to -1: True ; J_m by 68, K by 57, lambda^2 = 124 mod N
+P3 m 12 N 148 Smith (2, 74) line of order N sent to -1: False
+P3 holds: True ; planted error (any nonzero kernel vector) accepts every m: True
+P4 holds: True
+P5 m 1 elements found: 60 ; classes: 8 ; all named +-J_m^n K^e: True
+P5 m 2 elements found: 36 ; classes: 8 ; all named +-J_m^n K^e: True
+P5 m 3 elements found: 20 ; classes: 8 ; all named +-J_m^n K^e: True
+P5 m 4 elements found: 20 ; classes: 8 ; all named +-J_m^n K^e: True
+P5 m 5 elements found: 20 ; classes: 8 ; all named +-J_m^n K^e: True
+P5 holds: True
