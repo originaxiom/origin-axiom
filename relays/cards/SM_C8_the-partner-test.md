@@ -16,7 +16,9 @@ main's word. Data-free.*
 **What the record and SM-C6 have already decided:**
 - **A filling partner (a solid torus) cannot.** After filling, H¹ counts n(V) + n(V*), symmetric in the orders, on
   all but 384 of 46 618 modules (SM-C6 E6).
-- **A closed gluing cannot.** A join that closes every end is vector-like, with χ(Q; L) = 0 (B1351; B1508's general
+- **A closed gluing cannot.** *(Reason corrected 2026-11-13: for today's index it is duality, not χ = 0. It needs
+  an orientable closing, no invariants and no singular locus; see `relays/SM_SCOPE_NOTE_CLOSED_JOINS.md`.)*
+  A join that closes every end is vector-like, with χ(Q; L) = 0 (B1351; B1508's general
   block).
 - **A cover transports an order and does not supply one.** The index is kept under pullback (sm:B1506 T2; B1432).
 - **So the one live candidate is a join that leaves an end open.** That is where B1457's third refinement puts the
