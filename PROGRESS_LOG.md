@@ -20160,3 +20160,9 @@ seat's check. Six are left.
 **What happened.** At the author's request main listed every important negative result of the past two weeks, recorded which ones had been checked by a second, independent computation, and handed the rest to the helper sessions to recompute. For each "wall" main also wrote down what it teaches. One of these readings produced a concrete clue, which main then computed: a symmetry that appears in a closed-off route to three generations is exchanged by exactly the same two-way choice that today's earlier results tied to the object's handedness. If the identification holds, the handedness choice and the choice of which of two related three-dimensional patterns the generations follow are the same choice. Main also fixed one of its own sentences that a helper had found to be wrong, and one older correction that had not reached a summary page.
 
 0 of 19.
+
+## 2026-11-13 — The rule for reading values from the whole, written down before it is tried (S306p)
+
+**What happened.** Main wrote down, before computing anything, exactly how values would be read from the object as a whole under today's new picture: average the physics formula along each allowed path of the object's motion (each one automatically at the right "line"), then average over all paths, every step of the motion counted as equally likely, as the project's foundation says. Main also wrote down in advance the two different answers this could give, depending on how paths are weighted, and what outcome would count as failure. If it works, the free parameter τ and the arbitrary choice of a reading point both disappear.
+
+0 of 19.

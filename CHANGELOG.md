@@ -1,5 +1,10 @@
 # Changelog
 
+## S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
+
+- **The condition:** the allowed subweave at level 5 is the stabiliser of the mark (B1872); every allowed word is a closed thread whose own line is the mark, so its thread average at the mark with the invariant end is canonical (B1921, B1922); the read-out on the whole is the move-count average of those thread averages, each weighted by its length.
+- **Named before the run:** the move count weights by letters and induces a singular measure on the modulus that sharpens at i with no atom (B1868); weighting threads by geodesic length gives the hyperbolic area that B1913 found forced. They differ; the record's principle names the first. What would fail it: no convergence, dependence on the window, non-integrability at the cusps, a twin dependence beyond the hand's bit. What it would remove if it converges: the modulus and the read-out point. Nothing is computed yet. 0 of 19.
+
 ## S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
 
 - **At the author's instruction:** 26 load-bearing negatives of two weeks, found by a read-only scan, each with the status of an independent second computation and main's reading of what its wall teaches (B1923). Three already have one (B1914 and B1915 by the web seat's W-C5; B1912 by the web seat's sealed scan, harvest row 1713), one is assigned (B1922, W-C6); the rest go to agy-002 (the end cards' look-elsewhere null, P-720's weight, W29/W31), agy-exp (B1868's off-axis points, B1855's search) and the SM seat (B1825), with expectations first.
