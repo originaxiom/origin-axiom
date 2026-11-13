@@ -1,0 +1,2 @@
+too many terms needed at y = 0.0434234
+exit 1
