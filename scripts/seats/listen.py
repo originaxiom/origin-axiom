@@ -111,6 +111,7 @@ def messages(page):
     fenced = _fenced(page)
     outside = lambda pos: not any(a <= pos < b for a, b in fenced)
     found = {}
+    del DUPLICATES[:]
     heads = [m for m in MESSAGE.finditer(page) if outside(m.start())]
     for k, m in enumerate(heads):
         end = heads[k + 1].start() if k + 1 < len(heads) else len(page)
@@ -119,8 +120,20 @@ def messages(page):
         # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
         nxt = next((x for x in re.finditer(_ENDS_A_MESSAGE, page[m.end():end], re.M) if outside(m.end() + x.start())), None)
         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
-        found[int(m.group(1))] = body.rstrip() + "\n"
+        # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The line was
+        #     found[int(m.group(1))] = body.rstrip() + "\n"
+        # so of two messages that share a number the second was kept and the first dropped without a word.  Both are kept now,
+        # in the order of the page, under the number, and the number is recorded in DUPLICATES, which the look says aloud.
+        n = int(m.group(1))
+        if n in found:
+            DUPLICATES.append(n)
+            found[n] = found[n] + "\n" + body.rstrip() + "\n"
+        else:
+            found[n] = body.rstrip() + "\n"
     return found
+
+
+DUPLICATES = []          # the numbers that more than one message of the page carries, as the last call of messages() found them
 
 
 def _sum(text):
@@ -172,6 +185,9 @@ def look_seat(seat, cwd, remote, peek):
     amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}
     rc, head, _ = git("rev-parse", "--short=9", "%s/main" % remote, cwd=cwd)
     out = ["YOUR PAGE ON MAIN HAS CHANGED (%s, main at %s)." % (path, head)]
+    if DUPLICATES:
+        out.append("Main's page has more than one message under the number %s: each is shown under that number, in the page's order."
+                   % ", ".join("M%d" % n for n in sorted(set(DUPLICATES))))
     if new:
         out.append("Messages of main you have not read: %s. Newest first:\n" % ", ".join("M%d" % n for n in sorted(new)))
         out += [new[n] for n in sorted(new, reverse=True)]

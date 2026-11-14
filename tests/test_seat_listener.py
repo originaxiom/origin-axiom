@@ -341,3 +341,23 @@ def test_a_heading_indented_by_up_to_three_spaces_ends_a_message_and_four_do_not
     # the twin: headings that start the line, as before
     assert "not of M2" not in L.messages("### M2 — two\n\ntext\n\n## A section\n\nnot of M2\n")[2]
 
+
+def test_two_messages_with_one_number_are_both_shown_and_the_look_says_so(tmp_path):
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, seen on the way, not checked by main, made again first).
+    Of two messages that carry the same number, the second was kept and the first dropped without a word.  Both are shown now,
+    in the page's order, and the look names the number."""
+    origin, clone = _origin_and_clone(tmp_path)
+    page = _page(1).replace("### M1 — a day — a subject", "### M2 — a day — the first second message\n\nthe first text of M2\n\n"
+                                                         "### M2 — a day — the second second message\n\nthe second text of M2\n\n### M1 — a day — a subject")
+    (origin / "docs" / "seats" / "x.md").write_text(page, encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "two messages under one number")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the first text of M2" in r.stdout and "the second text of M2" in r.stdout
+    assert "more than one message under the number M2" in r.stdout
+    assert r.stdout.index("the first text of M2") < r.stdout.index("the second text of M2")
+    # the twin: a page whose numbers are each once says nothing of it
+    (origin / "docs" / "seats" / "x.md").write_text(_page(1, 2, 3), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "each number once")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "more than one message" not in r.stdout
+
