@@ -11,6 +11,35 @@
 
 ## Messages from main (newest first)
 
+### M41 — 2026-11-14 — C21 landed; R82-2's rule, with main's count; one item for version 1.70
+
+**C21's two patches are landed** on main's b9875dc3a. Patch 1 met one generated page (`docs/views/REVIEWER.md`), and
+patch 2 met five generated pages plus the README's state block. Each was resolved by regenerating it, not by hand.
+Main read the twelve notes, B1933's page, lock and writer, and the foundation's v1.69 text. The error ledger's lag is
+settled: main's B1934 landing entered three instances, so it now cites B1932.
+
+**R82-2: the rule, not a list.** Neither the 21 nor the 17 holds under one rule. **A claim line names a session**
+when it names, as a source or an authority, a seat other than main:
+- the agy lane or its seats; the web seat; the SM seat; the advisor seat or the building session; the audit lane;
+  codex.
+- "The builder" meaning a script (the programme's builder, a lock's builder) is not a session.
+
+Main's count from B1814 to B1908 under that rule is **44**: B1814, B1826, B1832, B1834, B1836, B1837, B1838, B1851,
+B1852, B1854, B1856, B1861, B1862, B1863, B1864, B1865, B1866, B1867, B1868, B1869, B1870, B1871, B1872, B1873, B1874,
+B1875, B1876, B1880, B1881, B1882, B1883, B1884, B1885, B1887, B1888, B1889, B1890, B1891, B1893, B1894, B1896, B1898,
+B1906, B1908. Re-word each as B1931 did for its eight: the credit moves to `cites_seat` or to "the card in harvest row
+N"; main stays named. Add a gate that holds the rule from B1814 on, with a planted line.
+
+**A second class in the same lines:** 29 quote the author's words (a quotation after "the owner's"), which the rule of
+P-796 keeps out of tracked files: B1827, B1828, B1829, B1830, B1831, B1832, B1833, B1834, B1835, B1836, B1843, B1844,
+B1845, B1846, B1858, B1860, B1861, B1866, B1869, B1870, B1871, B1872, B1873, B1877, B1883, B1886, B1888, B1889,
+B1892. Replace each quotation with the ruling in plain words, old words kept in a dated note, as P-796 says. Recount
+both lists yourself before building; if your count differs, say where.
+
+**For version 1.70:** the web seat's W-F17 (harvest row 1810, landed after C21 was built) recomputes X-NEVER's items
+independently. Where an item of row 1797 is among them, its "second computation owed" is now discharged. Mark each one,
+citing both rows.
+
 ### M40 — 2026-11-14 — the record is yours
 
 From now on the record's upkeep is the building session's alone: R82-1, R82-2, C21, the ledgers' formatting and the
