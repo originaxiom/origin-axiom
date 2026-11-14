@@ -168,6 +168,12 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def g(dyn):\n    d = {0: 200}\n    return (d.get(dyn, 1) * 2 + 1) / 503",
         "p = 200\nwhile False:\n    p = 1\nval = (p * 2 + 1) / 503",
         "for i in range(45):\n    val = i / 17",
+        "def w(x, y):\n    while False:\n        pass\n    return x * 10 + y\nn = w(4, 0)\nn = w(n, 1)\np = w(5, 0)\np = w(p, 3)\nval = n / p",
+        "def h6(x, y):\n    return x * 10 + y\ndef h5(x, y):\n    return h6(x, y)\ndef h4(x, y):\n    return h5(x, y)\ndef h3(x, y):\n    return h4(x, y)\ndef h2(x, y):\n    return h3(x, y)\ndef h1(x, y):\n    return h2(x, y)\nn = h1(h1(4, 0), 1)\np = h1(h1(5, 0), 3)\nval = n / p",
+        "def big(x, y):\n" + "".join(f"    t{i} = x + 0\n" for i in range(60)) + "    return x * 10 + y\nval = big(big(4, 0), 1) / big(big(5, 0), 3)",
+        "a = 0\nb = 0\nfor i in range(20):\n    for j in range(10):\n        a = max(a, b + 1)\n        b = max(b, a)\nval = (a * 2 + 1) / (a * 2 + 103)",
+        "def step(n, acc):\n    if n <= 0:\n        return acc\n    return step(n - 1, acc * 10)\nt3 = step(6, 1) // 1000\nval = (4 * t3 // 10 + 1) / (5 * t3 // 10 + 3)",
+        "def pack(x, y):\n    return x * 10 + y\ndef build(dyn):\n    kw = {'x': 20, 'y': 0} if dyn else {'x': 20, 'y': 0}\n    p = pack(**kw)\n    return (p * 2 + 1) / (p * 2 + 103)\nval = build(True)",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -238,6 +244,31 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def f(dyn):\n    d = {}\n    if dyn:\n        d['ok'] = True\n    return d",
         "def f():\n    a = {}\n    b = a\n    b['ok'] = True\n    return a",
         "def f():\n    for _ in [1]:\n        ok = True\n        break\n    return {'ok': ok}",
+        "def h4(x):\n    return {'ok': x}\ndef h3(x):\n    return h4(x)\ndef h2(x):\n    return h3(x)\ndef h1(x):\n    return h2(x)\ndef f():\n    return h1(True)",
+        "def h4(x):\n    return {'bar_theta_QCD': x}\ndef h3(x):\n    return h4(x)\ndef h2(x):\n    return h3(x)\ndef h1(x):\n    return h2(x)\ndef f():\n    return h1(0.0)",
+        "def h(step, x):\n    if step == 1:\n        return h(2, x)\n    return {'ok': x}\ndef f():\n    return h(1, True)",
+        "def h(a, b):\n    return {'a': a, 'ok': b}\ndef f(dyn):\n    return h(*[dyn, True])",
+        "def g(dyn):\n    return (dyn, True)\ndef f(dyn):\n    return {'ok': g(dyn)[1]}",
+        "def g(dyn):\n    return (dyn, True)\ndef f(dyn):\n    a, b = g(dyn)\n    return {'a': a, 'ok': b}",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    mut(d=out)\n    return out",
+        "def mut(*, d):\n    d['ok'] = True\ndef f():\n    out = {}\n    mut(d=out)\n    return out",
+        "def mut1(d):\n    d['ok'] = True\ndef mut2(d):\n    mut1(d)\ndef f():\n    out = {}\n    mut2(out)\n    return out",
+        "def f(dyn):\n    a = []\n    a.append(True)\n    a.append(dyn)\n    return {'ok': a[0]}",
+        "def outer():\n    d = {}\n    def mut():\n        d['ok'] = True\n    mut()\n    return d",
+        "def f(dyn):\n    return {'ok': {'x': dyn}.get('missing', True)}",
+        "def f(dyn):\n    return {'ok': True or dyn}",
+        "def f(dyn):\n    return {'ok': False and dyn}",
+        "def f(dyn):\n    return {'ok': bool(1 or dyn)}",
+        "def f(dyn):\n    return {'bar_theta_QCD': 0.0 * dyn}",
+        "def f(dyn):\n    d = {'ok': True} if dyn else {'ok': False}\n    return d",
+        "def f(dyn):\n    return {k: v for k, v in [('ok', True)] if dyn}",
+        "def f(dyn):\n    xs = [{'ok': True} for _ in range(2) if dyn]\n    return xs[0]",
+        "def f(dyn):\n    return {k: True for k in dyn}",
+        "def f():\n    def make(v):\n        def inner():\n            return {'ok': v}\n        return inner()\n    return make(True)",
+        "def a(step, x):\n    if step == 1:\n        return b(x)\n    return {'ok': x}\ndef b(x):\n    return a(2, x)\ndef f():\n    return a(1, True)",
+        "def h(xs):\n    return {'ok': xs[0]}\ndef f(dyn):\n    return h([True, dyn])",
+        "def h(cfg):\n    return {'ok': cfg['flag']}\ndef f(dyn):\n    return h({'flag': True, 'x': dyn})",
+        "def h(step, xs):\n    if step == 1:\n        return h(2, xs)\n    return {'ok': xs[0]}\ndef f(dyn):\n    return h(1, [True, dyn])",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
@@ -379,6 +410,67 @@ def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_resul
     ksig_bad = (sp.I * om / sp.sqrt(2)) * lam_s
     slot1_bad = 2 * sp.I * (comm(q_b, v_s) - comm(r_b, u_s) - cov_dz((om ** (-2)) * ksig_bad, q_chg))
     assert (slot1_bad - m_direct[1]).applyfunc(sp.expand) != z2
+
+    # 2b. Independent curved P_v^bos vs 2 k^* k AND sigma_2-rotated Hitchin BPS solution on Om_hyp = ell / y (D9 countercheck):
+    def cov_dx0(m: sp.Matrix, ax_c: sp.Matrix) -> sp.Matrix:
+        return mdiff(m, x) - sp.I * comm(ax_c, m)
+
+    def cov_dy0(m: sp.Matrix, ay_c: sp.Matrix) -> sp.Matrix:
+        return mdiff(m, y) - sp.I * comm(ay_c, m)
+
+    def pv_indep(v_m: sp.Matrix, ax_c: sp.Matrix, ay_c: sp.Matrix, qc: sp.Matrix, rc: sp.Matrix, om_c: Any) -> sp.Matrix:
+        qch, rch = m_herm(qc), m_herm(rc)
+        lap_c = cov_dx0(cov_dx0(v_m, ax_c), ax_c) + cov_dy0(cov_dy0(v_m, ay_c), ay_c)
+        pot_c = comm(qch, comm(qc, v_m)) + comm(qc, comm(qch, v_m)) + comm(rch, comm(rc, v_m)) + comm(rc, comm(rch, v_m))
+        return -(om_c ** (-2)) * lap_c + (om_c ** (-1)) * pot_c
+
+    def two_kdk_indep(v_m: sp.Matrix, ax_c: sp.Matrix, ay_c: sp.Matrix, qc: sp.Matrix, rc: sp.Matrix, om_c: Any) -> sp.Matrix:
+        qch, rch = m_herm(qc), m_herm(rc)
+        ka_c = sp.sqrt(2) * (cov_dx0(v_m, ax_c) + sp.I * cov_dy0(v_m, ay_c))
+        ku_c = -sp.sqrt(2) * sp.I * comm(qc, v_m)
+        kv_c = -sp.sqrt(2) * sp.I * comm(rc, v_m)
+        dz_ka = cov_dx0(ka_c, ax_c) - sp.I * cov_dy0(ka_c, ay_c)
+        return -(om_c ** (-2)) * (dz_ka - 2 * sp.I * om_c * (comm(qch, ku_c) + comm(rch, kv_c))) / sp.sqrt(2)
+
+    mu_r_b = (mdiff(ay_b, x) - mdiff(ax_b, y) - sp.I * comm(ax_b, ay_b)) + om * (comm(q_b, qh_b) + comm(r_b, rh_b))
+    kdk_off = two_kdk_indep(lam_s, ax_b, ay_b, q_b, r_b, om)
+    pv_off = pv_indep(lam_s, ax_b, ay_b, q_b, r_b, om)
+    assert ((om**3) * (kdk_off - (pv_off - (om ** (-2)) * comm(mu_r_b, lam_s)))).applyfunc(sp.expand) == z2
+    assert comm(mu_r_b, lam_s).applyfunc(sp.expand) != z2
+
+    # Independent sigma_2 gauge-rotated Hitchin BPS solution (distinct angle 2x - y and generator s2 from producer):
+    u_rt, l_rt = sp.symbols("u_rt l_rt", real=True, positive=True)
+    sub_rt2 = {y: u_rt**2, ell: l_rt**2}
+    lam_fns = tuple(lam_s.atoms(sp.Function))
+
+    def zero_jet2(m_chk: sp.Matrix) -> bool:
+        for el_j in m_chk:
+            ex_j = sp.expand(el_j, frac=False)
+            if ex_j == 0:
+                continue
+            j_vs = tuple(ex_j.atoms(sp.Derivative)) + lam_fns
+            c_mp = sp.collect(ex_j, j_vs, evaluate=False) if j_vs else {1: ex_j}
+            if any(sp.cancel(sp.expand(cv.subs(sub_rt2).rewrite(sp.exp))) != 0 for cv in c_mp.values()):
+                return False
+        return True
+
+    th2 = 2 * x - y
+    g2_u = sp.cos(th2) * sp.eye(2) + sp.I * sp.sin(th2) * s2
+    g2_uh = sp.cos(th2) * sp.eye(2) - sp.I * sp.sin(th2) * s2
+    ax0_h = -sp.Rational(1, 4) / y * s3
+    q0_h = sp.Rational(3, 5) * (1 / (4 * sp.sqrt(ell * y))) * (s1 + sp.I * s2)
+    r0_h = sp.Rational(4, 5) * sp.I * (1 / (4 * sp.sqrt(ell * y))) * (s1 + sp.I * s2)
+    ax_h2 = (g2_u * ax0_h * g2_uh + sp.I * g2_u * mdiff(g2_uh, x)).applyfunc(sp.trigsimp)
+    ay_h2 = (sp.I * g2_u * mdiff(g2_uh, y)).applyfunc(sp.trigsimp)
+    q_h2 = g2_u * q0_h * g2_uh
+    r_h2 = g2_u * r0_h * g2_uh
+    fxy_h2 = (mdiff(ay_h2, x) - mdiff(ax_h2, y) - sp.I * comm(ax_h2, ay_h2)).applyfunc(sp.trigsimp)
+    mu_h2 = fxy_h2 + om_hyp * (comm(q_h2, m_herm(q_h2)) + comm(r_h2, m_herm(r_h2)))
+    assert ay_h2 != z2 and comm(ax_h2, ay_h2).applyfunc(sp.trigsimp) != z2 and fxy_h2 != z2
+    assert zero_jet2(mu_h2)
+    assert zero_jet2(cov_dx0(q_h2, ax_h2) + sp.I * cov_dy0(q_h2, ay_h2))
+    assert zero_jet2(cov_dx0(r_h2, ax_h2) + sp.I * cov_dy0(r_h2, ay_h2))
+    assert zero_jet2(two_kdk_indep(lam_s, ax_h2, ay_h2, q_h2, r_h2, om_hyp) - pv_indep(lam_s, ax_h2, ay_h2, q_h2, r_h2, om_hyp))
 
     # 3. Independent R1 Hermitian Green identity & R2 Complex Weyl bilinear transpose on variable backgrounds + q_chg != 0:
     def norm_conj_deriv(expr: sp.Expr) -> sp.Expr:
@@ -566,6 +658,7 @@ def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_resul
     wp21 = stage1_results["wp21_curved_action"]
     assert wp21["forced_weights_tuple"] == ("Omega(x, y)**2", "1/2", "Omega(x, y)", "Omega(x, y)")
     assert wp21["koszul_second_order_mdag_m_exact"] is True
+    assert wp21["curved_pv_two_kdag_k_and_hitchin_bps_exact"] is True
     assert wp21["s01_flat_fibre_metric_ansatz_eliminated_by_curved_action"] is True
     assert wp21["x_flat_classical_u1_moduli_unobstructed_no_go"] is True
 
@@ -631,6 +724,56 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
     assert cusp_max_pole_order(-42) == -21
     assert cusp_max_pole_order(85) == 42
     assert cusp_max_pole_order(-85) == -43
+
+    # 2b. Independent curved Hodge-Serre anti-linear isometry J_a on ds^2 = rho(u,v)|dw|^2 + all 4 spin structures & flat twists (D10):
+    u_c, v_c, a_c = sp.symbols("u_c v_c a_c", real=True)
+    rho_c = sp.Function("rho_c", real=True, positive=True)(u_c, v_c)
+    au_c = sp.Function("au_c", real=True)(u_c, v_c)
+    av_c = sp.Function("av_c", real=True)(u_c, v_c)
+    f_sec = sp.Function("fr_c", real=True)(u_c, v_c) + sp.I * sp.Function("fi_c", real=True)(u_c, v_c)
+    g_sec = sp.Function("gr_c", real=True)(u_c, v_c) + sp.I * sp.Function("gi_c", real=True)(u_c, v_c)
+    cj = lambda ex: ex.subs(sp.I, -sp.I)
+    dbar_p = sp.Rational(1, 2) * ((sp.diff(f_sec, u_c) + sp.I * au_c * f_sec) + sp.I * (sp.diff(f_sec, v_c) + sp.I * av_c * f_sec))
+    wg = (rho_c ** (-a_c / 2)) * g_sec
+    dbar_adj_g = -(rho_c ** (a_c / 2 - 1)) * ((sp.diff(wg, u_c) + sp.I * au_c * wg) - sp.I * (sp.diff(wg, v_c) + sp.I * av_c * wg))
+    ja_g = sp.sqrt(2) * (rho_c ** (-a_c / 2)) * cj(g_sec)
+    dbar_dual_ja = sp.Rational(1, 2) * ((sp.diff(ja_g, u_c) - sp.I * au_c * ja_g) + sp.I * (sp.diff(ja_g, v_c) - sp.I * av_c * ja_g))
+    jtilde_adj = (rho_c ** (1 - a_c / 2)) * cj(dbar_adj_g) / sp.sqrt(2)
+    assert sp.powsimp(sp.expand(2 * (rho_c ** (-a_c / 2)) * cj(g_sec) * g_sec - (rho_c ** (a_c / 2)) * cj(ja_g) * ja_g), force=True) == 0
+    ibp_rem = (
+        2 * (rho_c ** (-a_c / 2)) * cj(g_sec) * dbar_p
+        - (rho_c ** (1 - a_c / 2)) * cj(dbar_adj_g) * f_sec
+        - sp.diff((rho_c ** (-a_c / 2)) * cj(g_sec) * f_sec, u_c)
+        - sp.diff(sp.I * (rho_c ** (-a_c / 2)) * cj(g_sec) * f_sec, v_c)
+    )
+    assert sp.powsimp(sp.expand(ibp_rem), force=True) == 0
+    assert sp.powsimp(sp.expand(dbar_dual_ja + jtilde_adj), force=True) == 0
+    assert sp.diff(rho_c, u_c) in dbar_dual_ja.atoms(sp.Derivative)
+
+    def b_indep(av_i: int) -> int:
+        if av_i == 0:
+            return 0
+        return (av_i - 1) // 2 if av_i > 0 else av_i // 2
+
+    def h0_tw_indep(deg_i: int, p1: int, q1: int, p2: int, q2: int) -> int:
+        if deg_i < 0:
+            return 0
+        if deg_i == 0:
+            return 1 if (p1 % q1 == 0 and p2 % q2 == 0) else 0
+        return deg_i
+
+    for p1, q1, p2, q2 in [
+        (0, 1, 0, 1),
+        (1, 2, 0, 1),
+        (0, 1, 1, 2),
+        (1, 2, 1, 2),
+        (2, 7, 3, 5),
+    ]:
+        for av in range(-8, 10):
+            assert b_indep(av) == cusp_max_pole_order(av)
+            j_tw_v = h0_tw_indep(b_indep(av), p1, q1, p2, q2) - h0_tw_indep(b_indep(2 - av), -p1, q1, -p2, q2)
+            j_00_v = h0_tw_indep(b_indep(av), 0, 1, 0, 1) - h0_tw_indep(b_indep(2 - av), 0, 1, 0, 1)
+            assert j_tw_v == j_00_v
 
     # 3. Independent real-linear SVD computation of V4 Lagrangian Grassmannian tangent dimension = 16 + Haar U(8) scrambling:
     rng = np.random.default_rng(131)
@@ -701,7 +844,7 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
             return 0
         return (-1 if beta_v > 0 else 1) * ((-1) ** abs(beta_v))
 
-    def d8_flux_eval(k_f: int) -> tuple[tuple[sp.Rational, ...], int, int]:
+    def d8_flux_eval(k_f: int) -> tuple[tuple[sp.Rational, ...], sp.Rational, int, int]:
         a333 = a33z = a22z = azzz = agrav = sp.Rational(0)
         n_dbl = sp.Rational(0)
         for r_v in d8_roots:
@@ -720,31 +863,33 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
             azzz += nu * (qz**3)
             agrav += nu * qz
         dbl_v = int(n_dbl)
-        return tuple(sp.simplify(x) for x in (a333, a33z, a22z, azzz, agrav)), dbl_v, int(dbl_v % 2)
+        return tuple(sp.simplify(x) for x in (a333, a33z, a22z, azzz, agrav)), sp.simplify(azzz / 6), dbl_v, int(dbl_v % 2)
 
     assert max(abs(int(sum(r_v[k] * me_8[k] for k in range(8)))) for r_v in d8_roots if int(sum(r_v[k] * qz_8[k] for k in range(8))) != 0) == 3
     assert min(abs(int(sum(r_v[k] * qz_8[k] for k in range(8)))) for r_v in d8_roots if int(sum(r_v[k] * qz_8[k] for k in range(8))) != 0) == 1
     assert max(abs(int(sum(r_v[k] * me_8[k] for k in range(8)))) for r_v in d8_roots if abs(int(sum(r_v[k] * qz_8[k] for k in range(8)))) == 1) == 2
 
     res_k = {k_f: d8_flux_eval(k_f) for k_f in range(-6, 7)}
-    assert res_k[0] == ((0, 0, 0, 0, 0), 0, 0)
+    assert res_k[0] == ((0, 0, 0, 0, 0), 0, 0, 0)
     assert (res_k[1][0][0], res_k[1][0][1], res_k[1][0][2], res_k[1][0][4]) == (-4, 4, 6, 12)
-    assert sp.simplify(res_k[1][0][3] / 12) == 26
-    assert res_k[1][1] == 2 and res_k[1][2] == 0  # Witten mod-2 vanishes at k=1, obstructed by perturbative != 0!
-    assert res_k[2] == ((-1, -5, sp.Rational(-9, 2), -1002, -24), -1, 1)
+    assert res_k[1][1] == 52
+    assert res_k[1][2] == 2 and res_k[1][3] == 0  # Witten mod-2 vanishes at k=1, obstructed by perturbative != 0!
+    assert res_k[2] == ((-1, -5, sp.Rational(-9, 2), -1002, -24), -167, -1, 1)
     assert (res_k[3][0][0], res_k[3][0][1], res_k[3][0][2], res_k[3][0][4]) == (-3, 6, 6, 18)
-    assert sp.simplify(res_k[3][0][3] / 12) == 24
-    assert res_k[3][1] == 4 and res_k[3][2] == 0
-    assert res_k[4] == ((-3, -6, -6, -1008, -30), -4, 0)
+    assert res_k[3][1] == 48
+    assert res_k[3][2] == 4 and res_k[3][3] == 0
+    assert res_k[4] == ((-3, -6, -6, -1008, -30), -168, -4, 0)
     assert res_k[5] == res_k[3] and res_k[6] == res_k[4]
     for k_p in range(1, 7):
         assert res_k[-k_p][0] == tuple(-x for x in res_k[k_p][0])
         assert res_k[-k_p][1] == -res_k[k_p][1]
+        assert res_k[-k_p][2] == -res_k[k_p][2]
         assert res_k[k_p][0] != (0, 0, 0, 0, 0)
 
     wp23 = stage1_results["wp23_cusp_end_law"]
     assert wp23["one_form_liouville_and_susy_partner_exact"] is True
     assert wp23["incomplete_cusp_weyl_limit_circle_confirmed"] is True
+    assert wp23["curved_hodge_serre_and_spin_holonomy_index_exact"] is True
     assert wp23["v4_full_lagrangian_grassmannian_dim"] == 16
     assert wp23["v4_global_u4_family_exact"] is True
     assert wp23["v4_u4_differential_rank"] == 16

@@ -167,6 +167,16 @@ def test_wp14_zero_trust_histories_amphichirality_mod_n_and_hand(stage4_results:
         sz_lr = close_mod_n([gl, gr], m_n)
         sz_lrp = close_mod_n([gl, gr, gp], m_n)
         assert sz_lrp == 2 * sz_lr
+    for m_n in (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13):
+        id2_m = np.eye(2, dtype=int) % m_n
+        l_m, r_m, p_m = gl % m_n, gr % m_n, gp % m_n
+        for b_w in bracelets_60:
+            mw_m = id2_m.copy()
+            msw_m = id2_m.copy()
+            for ch in b_w:
+                mw_m = (mw_m @ (l_m if ch == "L" else r_m)) % m_n
+                msw_m = (msw_m @ (r_m if ch == "L" else l_m)) % m_n
+            assert np.array_equal((p_m @ mw_m @ p_m) % m_n, msw_m)
 
     # 3. Independent exact SymPy Fox 1-cocycle & cup-pairing closure of R_96 (40+28+28), G_192, and tau_exch:
     qi_s = sp.Matrix([[sp.I, 0], [0, -sp.I]])
@@ -267,12 +277,19 @@ def test_wp14_zero_trust_histories_amphichirality_mod_n_and_hand(stage4_results:
     assert (mr6_s * g0_s - g0_s * mr6_s).applyfunc(sp.simplify) == sp.zeros(6, 6)
     assert (mp6_s * g0_s + g0_s * mp6_s).applyfunc(sp.simplify) == sp.zeros(6, 6)
 
-    # Exact Q(zeta_24) / cyclotomic BFS closure via exact Gaussian-scaled integer key on numerical unitary matrices
-    # AND exact trace partition 96 = 40 (real) + 28 (Im > 0) + 28 (Im < 0):
-    ml6 = np.array(ml6_s.tolist(), dtype=complex)
-    mr6 = np.array(mr6_s.tolist(), dtype=complex)
-    mp6 = np.array(mp6_s.tolist(), dtype=complex)
-    g0 = np.array(g0_s.tolist(), dtype=complex)
+    # Exact Q(zeta_24) polynomial arithmetic (Phi_24(x) = x^8 - x^4 + 1) closure of R_96, G_192^(P), G_192^(iP),
+    # Frobenius-Schur indicators (-1 vs +1), determinants, and exact rational sign partition 96 = 40 + 28 + 28:
+    mip6_s = (sp.I * mp6_s).applyfunc(sp.expand)
+    dets_4 = (
+        int(sp.simplify(ml6_s.det())),
+        int(sp.simplify(mr6_s.det())),
+        int(sp.simplify(mp6_s.det())),
+        int(sp.simplify(mip6_s.det())),
+    )
+    assert dets_4 == (1, 1, 1, -1) == stage4_results["wp14_swap_and_hand"]["det_L6_R6_P6_iP6"]
+    assert (mp6_s * mp6_s + sp.eye(6)).applyfunc(sp.simplify) == sp.zeros(6, 6)
+    assert (mip6_s * mip6_s - sp.eye(6)).applyfunc(sp.simplify) == sp.zeros(6, 6)
+
     tp_vecs = (sp.eye(6) + g0_s).columnspace()
     tm_vecs = (sp.eye(6) - g0_s).columnspace()
     assert len(tp_vecs) == 3 and len(tm_vecs) == 3
@@ -289,42 +306,183 @@ def test_wp14_zero_trust_histories_amphichirality_mod_n_and_hand(stage4_results:
 
     v_tp_s = gs_orthonorm_3(tp_vecs)
     v_tm_s = gs_orthonorm_3(tm_vecs)
-    v_tp = np.array(v_tp_s.tolist(), dtype=complex)
-    v_tm = np.array(v_tm_s.tolist(), dtype=complex)
 
-    def bfs_close_tol(gens_u: list[np.ndarray]) -> list[np.ndarray]:
-        d_sz = gens_u[0].shape[0]
-        seen_u = [np.eye(d_sz, dtype=complex)]
-        q_i = 0
-        while q_i < len(seen_u):
-            cur_u = seen_u[q_i]
-            q_i += 1
-            for g_u in gens_u:
-                nxt_u = cur_u @ g_u
-                if not any(float(np.max(np.abs(nxt_u - ex_u))) < 1e-9 for ex_u in seen_u):
-                    seen_u.append(nxt_u)
-        return seen_u
+    z0_c = (sp.Rational(0),) * 8
+    z1_c = (sp.Rational(1),) + (sp.Rational(0),) * 7
+    i_c24 = (sp.Rational(0),) * 6 + (sp.Rational(1), sp.Rational(0))
+    neg_i_c24 = (sp.Rational(0),) * 6 + (sp.Rational(-1), sp.Rational(0))
+    rt2_c24 = (
+        sp.Rational(0),
+        sp.Rational(1),
+        sp.Rational(0),
+        sp.Rational(1),
+        sp.Rational(0),
+        sp.Rational(-1),
+        sp.Rational(0),
+        sp.Rational(0),
+    )
 
-    r96_list = bfs_close_tol([ml6, mr6])
-    g192_list = bfs_close_tol([ml6, mr6, mp6])
-    assert len(r96_list) == 96 == stage4_results["wp14_swap_and_hand"]["order_R96"]
-    assert len(g192_list) == 192 == stage4_results["wp14_swap_and_hand"]["order_G192"]
+    def cyc_reduce_24(poly_l: list[sp.Rational]) -> tuple[sp.Rational, ...]:
+        arr_c = list(poly_l)
+        while len(arr_c) > 8:
+            top_c = arr_c.pop()
+            deg_c = len(arr_c)
+            if top_c != 0:
+                arr_c[deg_c - 4] += top_c
+                arr_c[deg_c - 8] -= top_c
+        while len(arr_c) < 8:
+            arr_c.append(sp.Rational(0))
+        return tuple(arr_c)
+
+    def cyc_add_24(a_c: tuple[sp.Rational, ...], b_c: tuple[sp.Rational, ...]) -> tuple[sp.Rational, ...]:
+        return tuple(a_c[k_p] + b_c[k_p] for k_p in range(8))
+
+    def cyc_neg_24(a_c: tuple[sp.Rational, ...]) -> tuple[sp.Rational, ...]:
+        return tuple(-a_c[k_p] for k_p in range(8))
+
+    def cyc_mul_24(a_c: tuple[sp.Rational, ...], b_c: tuple[sp.Rational, ...]) -> tuple[sp.Rational, ...]:
+        prod_l = [sp.Rational(0)] * 15
+        for i_p in range(8):
+            if a_c[i_p] != 0:
+                for j_p in range(8):
+                    if b_c[j_p] != 0:
+                        prod_l[i_p + j_p] += a_c[i_p] * b_c[j_p]
+        return cyc_reduce_24(prod_l)
+
+    def cyc_conj_24(a_c: tuple[sp.Rational, ...]) -> tuple[sp.Rational, ...]:
+        res_24 = [sp.Rational(0)] * 24
+        res_24[0] = a_c[0]
+        for k_p in range(1, 8):
+            res_24[24 - k_p] += a_c[k_p]
+        return cyc_reduce_24([res_24[k_p] - res_24[k_p + 12] for k_p in range(12)])
+
+    assert cyc_mul_24(rt2_c24, rt2_c24) == (sp.Rational(2),) + (sp.Rational(0),) * 7
+    assert cyc_mul_24(i_c24, i_c24) == (sp.Rational(-1),) + (sp.Rational(0),) * 7
+
+    def sp_to_cyc24(ex_in: sp.Expr) -> tuple[sp.Rational, ...]:
+        ex = sp.expand(ex_in)
+        rt2 = sp.sqrt(2)
+        a_part = sp.expand(ex.subs(rt2, 0))
+        b_part = sp.expand((ex - a_part) / rt2)
+        ar = sp.Rational(sp.expand(a_part.subs(sp.I, 0)))
+        ai = sp.Rational(sp.expand((a_part - ar) / sp.I))
+        br = sp.Rational(sp.expand(b_part.subs(sp.I, 0)))
+        bi = sp.Rational(sp.expand((b_part - br) / sp.I))
+        assert sp.expand(ex - (ar + sp.I * ai + rt2 * (br + sp.I * bi))) == 0
+        a_el = cyc_add_24(tuple(ar * x_v for x_v in z1_c), tuple(ai * x_v for x_v in i_c24))
+        b_el = cyc_add_24(tuple(br * x_v for x_v in z1_c), tuple(bi * x_v for x_v in i_c24))
+        return cyc_add_24(a_el, cyc_mul_24(rt2_c24, b_el))
+
+    def mat_to_cyc24(m_sp: sp.Matrix) -> list[list[tuple[sp.Rational, ...]]]:
+        return [[sp_to_cyc24(m_sp[r_i, c_i]) for c_i in range(m_sp.cols)] for r_i in range(m_sp.rows)]
+
+    def mat_mul_c24(
+        m1: list[list[tuple[sp.Rational, ...]]], m2: list[list[tuple[sp.Rational, ...]]]
+    ) -> list[list[tuple[sp.Rational, ...]]]:
+        r_len = len(m1)
+        k_len = len(m2)
+        c_len = len(m2[0])
+        out_m = [[z0_c] * c_len for _ in range(r_len)]
+        for r_i in range(r_len):
+            for c_i in range(c_len):
+                s_c = z0_c
+                for k_i in range(k_len):
+                    s_c = cyc_add_24(s_c, cyc_mul_24(m1[r_i][k_i], m2[k_i][c_i]))
+                out_m[r_i][c_i] = s_c
+        return out_m
+
+    def mat_herm_c24(m_in: list[list[tuple[sp.Rational, ...]]]) -> list[list[tuple[sp.Rational, ...]]]:
+        return [[cyc_conj_24(m_in[r_i][c_i]) for r_i in range(len(m_in))] for c_i in range(len(m_in[0]))]
+
+    def mat_tr_c24(m_in: list[list[tuple[sp.Rational, ...]]]) -> tuple[sp.Rational, ...]:
+        s_tr = z0_c
+        for d_i in range(len(m_in)):
+            s_tr = cyc_add_24(s_tr, m_in[d_i][d_i])
+        return s_tr
+
+    def close_grp_c24(gens_c: list[list[list[tuple[sp.Rational, ...]]]]) -> list[list[list[tuple[sp.Rational, ...]]]]:
+        d_sz = len(gens_c[0])
+        eye_c = [[z1_c if r_i == c_i else z0_c for c_i in range(d_sz)] for r_i in range(d_sz)]
+        eye_k = tuple(eye_c[r_i][c_i] for r_i in range(d_sz) for c_i in range(d_sz))
+        seen_c = {eye_k: eye_c}
+        queue_c = [eye_c]
+        q_pos = 0
+        while q_pos < len(queue_c):
+            cur_c = queue_c[q_pos]
+            q_pos += 1
+            for g_c in gens_c:
+                nxt_c = mat_mul_c24(cur_c, g_c)
+                nxt_k = tuple(nxt_c[r_i][c_i] for r_i in range(d_sz) for c_i in range(d_sz))
+                if nxt_k not in seen_c:
+                    seen_c[nxt_k] = nxt_c
+                    queue_c.append(nxt_c)
+        return queue_c
+
+    def sign_q_sqrt2_exact(u_q: sp.Rational, v_q: sp.Rational) -> int:
+        if u_q == 0 and v_q == 0:
+            return 0
+        if u_q >= 0 and v_q >= 0:
+            return 1
+        if u_q <= 0 and v_q <= 0:
+            return -1
+        if u_q > 0 and v_q < 0:
+            return 1 if (u_q * u_q - 2 * v_q * v_q) > 0 else -1
+        return 1 if (2 * v_q * v_q - u_q * u_q) > 0 else -1
+
+    ml6_c = mat_to_cyc24(ml6_s)
+    mr6_c = mat_to_cyc24(mr6_s)
+    mp6_c = mat_to_cyc24(mp6_s)
+    mip6_c = mat_to_cyc24(mip6_s)
+    mp6_h_c = mat_herm_c24(mp6_c)
+    v_tp_c = mat_to_cyc24(v_tp_s)
+    v_tp_h_c = mat_herm_c24(v_tp_c)
+    v_tm_c = mat_to_cyc24(v_tm_s)
+    v_tm_h_c = mat_herm_c24(v_tm_c)
+
+    r96_list_c = close_grp_c24([ml6_c, mr6_c])
+    g192_p_list_c = close_grp_c24([ml6_c, mr6_c, mp6_c])
+    g192_ip_list_c = close_grp_c24([ml6_c, mr6_c, mip6_c])
+    assert len(r96_list_c) == 96 == stage4_results["wp14_swap_and_hand"]["order_R96"]
+    assert len(g192_p_list_c) == 192 == stage4_results["wp14_swap_and_hand"]["order_G192"]
+    assert len(g192_ip_list_c) == 192 == stage4_results["wp14_swap_and_hand"]["order_G192_iP"]
+
+    fs_sum_p = z0_c
+    for g_m in g192_p_list_c:
+        fs_sum_p = cyc_add_24(fs_sum_p, mat_tr_c24(mat_mul_c24(g_m, g_m)))
+    fs_ind_p = tuple(x_q / sp.Integer(len(g192_p_list_c)) for x_q in fs_sum_p)
+    fs_sum_ip = z0_c
+    for g_m in g192_ip_list_c:
+        fs_sum_ip = cyc_add_24(fs_sum_ip, mat_tr_c24(mat_mul_c24(g_m, g_m)))
+    fs_ind_ip = tuple(x_q / sp.Integer(len(g192_ip_list_c)) for x_q in fs_sum_ip)
+    assert fs_ind_p == cyc_neg_24(z1_c)
+    assert fs_ind_ip == z1_c
+    assert (int(fs_ind_p[0]), int(fs_ind_ip[0])) == (-1, 1) == stage4_results["wp14_swap_and_hand"]["frobenius_schur_G192_P_vs_iP"]
+
     im_z, im_p, im_m = 0, 0, 0
-    for g_el in r96_list:
-        tr_t = complex(np.trace(v_tp.conj().T @ g_el @ v_tp))
-        tr_tbar = complex(np.trace(v_tm.conj().T @ g_el @ v_tm))
-        tr_t_tau = complex(np.trace(v_tp.conj().T @ (mp6 @ g_el @ mp6.conj().T) @ v_tp))
-        assert abs(tr_tbar - np.conj(tr_t)) < TOL
-        assert abs(tr_tbar - tr_t_tau) < TOL
-        two_im = complex(-1j * (tr_t - np.conj(tr_t)))
-        two_im_r = abs(two_im)
-        if two_im_r < 1e-9:
+    for g_el_c in r96_list_c:
+        tr_t_c = mat_tr_c24(mat_mul_c24(v_tp_h_c, mat_mul_c24(g_el_c, v_tp_c)))
+        tr_tbar_c = mat_tr_c24(mat_mul_c24(v_tm_h_c, mat_mul_c24(g_el_c, v_tm_c)))
+        p_g_p_c = mat_mul_c24(mp6_c, mat_mul_c24(g_el_c, mp6_h_c))
+        tr_t_tau_c = mat_tr_c24(mat_mul_c24(v_tp_h_c, mat_mul_c24(p_g_p_c, v_tp_c)))
+        assert tr_tbar_c == cyc_conj_24(tr_t_c)
+        assert tr_tbar_c == tr_t_tau_c
+        diff_im_c = cyc_add_24(tr_t_c, cyc_neg_24(cyc_conj_24(tr_t_c)))
+        two_im_c = cyc_mul_24(neg_i_c24, diff_im_c)
+        u_rat, v_rat = two_im_c[0], two_im_c[1]
+        assert two_im_c == (u_rat, v_rat, sp.Rational(0), v_rat, sp.Rational(0), -v_rat, sp.Rational(0), sp.Rational(0))
+        sgn_im = sign_q_sqrt2_exact(u_rat, v_rat)
+        if sgn_im == 0:
             im_z += 1
-        elif abs((tr_t - np.conj(tr_t)) - 1j * two_im_r) < 1e-9:
+        elif sgn_im > 0:
             im_p += 1
         else:
             im_m += 1
-    assert (im_z, im_p, im_m) == (40, 28, 28)
+    assert (im_z, im_p, im_m) == (40, 28, 28) == stage4_results["wp14_swap_and_hand"]["r96_chiral_trace_partition_zero_pos_neg"]
+
+    ml6 = np.array(ml6_s.tolist(), dtype=complex)
+    mr6 = np.array(mr6_s.tolist(), dtype=complex)
+    mp6 = np.array(mp6_s.tolist(), dtype=complex)
+    g0 = np.array(g0_s.tolist(), dtype=complex)
 
     rng = np.random.default_rng(71)
     for _ in range(5):
@@ -386,6 +544,17 @@ def test_wp14_zero_trust_histories_amphichirality_mod_n_and_hand(stage4_results:
     assert float(np.max(np.abs(uconj_s @ uconj_s - np.eye(128)))) < TOL
     assert abs(complex(np.linalg.det(uconj_s)) - 1.0) < TOL
     assert float(np.max(np.abs(uconj_s.T @ c16_s @ uconj_s - c16_s))) < TOL
+
+    # Contrast Z_2-graded (B_10 chi_10) (x) B_6 (+C_16) vs ungraded B_10 (x) B_6 (-C_16):
+    b10_ev = g10_l[0] @ g10_l[2] @ g10_l[4] @ g10_l[6] @ g10_l[8]
+    b10_od = g10_l[1] @ g10_l[3] @ g10_l[5] @ g10_l[7] @ g10_l[9]
+    b6_od = g6_l[1] @ g6_l[3] @ g6_l[5]
+    assert float(np.max(np.abs(np.kron(b10_ev @ chir10, b6_od) - uconj_256))) < TOL
+    for b10_cand in (b10_ev, b10_od):
+        u_ungr_s = np.kron(b10_cand, b6_od)[np.ix_(idx_splus, idx_splus)]
+        u_grad_s = np.kron(b10_cand @ chir10, b6_od)[np.ix_(idx_splus, idx_splus)]
+        assert float(np.max(np.abs(u_ungr_s.T @ c16_s @ u_ungr_s + c16_s))) < TOL
+        assert float(np.max(np.abs(u_grad_s.T @ c16_s @ u_grad_s - c16_s))) < TOL
 
     vec_s16: list[int] = []
     for m_i in range(16):
@@ -710,6 +879,55 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
     tr4_sp = sum((sum(r_v[k_i] * f_vars[k_i] for k_i in range(8)) ** 4 for r_v in e8_roots_sp), sp.Integer(0))
     assert sp.expand(100 * tr4_sp - tr2_sp**2) == 0
 
+    # 2b. Independent SymPy power-series characteristic-class countercheck for 6D N=(1,0) A_hat(R), ch(T_C)-1, & L(R) (D1):
+    x1_c, x2_c, x3_c, t4_c, t22_c, nh_c, nv_c, nt_c = sp.symbols("x1_c x2_c x3_c t4_c t22_c nh_c nv_c nt_c")
+    p1sq_c = sp.Rational(1, 4) * t22_c
+    p2_c = sp.Rational(1, 8) * t22_c - sp.Rational(1, 4) * t4_c
+    ahat_c = sp.Integer(1)
+    l_hirz_c = sp.Integer(1)
+    for xi_c in (x1_c, x2_c, x3_c):
+        ahat_c = ahat_c * sp.series((xi_c / 2) / sp.sinh(xi_c / 2), xi_c, 0, 5).removeO()
+        l_hirz_c = l_hirz_c * sp.series(xi_c / sp.tanh(xi_c), xi_c, 0, 5).removeO()
+    ch_tc_m1_c = sum(sp.series(2 * sp.cosh(xi_c), xi_c, 0, 5).removeO() for xi_c in (x1_c, x2_c, x3_c)) - sp.Integer(1)
+
+    def deg4_curv(poly_x: sp.Expr) -> sp.Expr:
+        pl_x = sp.Poly(sp.expand(poly_x), x1_c, x2_c, x3_c)
+        al_c = pl_x.nth(4, 0, 0)
+        bt_c = pl_x.nth(2, 2, 0) - 2 * al_c
+        return sp.expand(al_c * p1sq_c + bt_c * p2_c)
+
+    i8_hyp_c = sp.Rational(1, 2) * deg4_curv(ahat_c)
+    cu_r4 = sp.Poly(i8_hyp_c, t4_c, t22_c).nth(1, 0)
+    i8_grav32_c = -sp.Rational(1, 2) * deg4_curv(ahat_c * ch_tc_m1_c)
+    i8_bsd_c = sp.Rational(1, 16) * deg4_curv(l_hirz_c)
+    i8_basd_c = -i8_bsd_c
+    assert sp.expand(i8_hyp_c / cu_r4 - (t4_c + sp.Rational(5, 4) * t22_c)) == 0
+    assert sp.expand(4 * (i8_grav32_c / cu_r4 + 245 * t4_c) - 215 * t22_c) == 0
+    assert sp.expand(i8_bsd_c / cu_r4 - (-28 * t4_c + 10 * t22_c)) == 0
+    assert sp.expand(i8_basd_c / cu_r4 - (28 * t4_c - 10 * t22_c)) == 0
+
+    grav_mult_c = sp.expand((i8_grav32_c + i8_bsd_c) / cu_r4)
+    tens_mult_c = sp.expand((i8_basd_c + i8_hyp_c) / cu_r4)
+    assert sp.Poly(grav_mult_c, t4_c, t22_c).nth(1, 0) == -273
+    assert sp.Poly(tens_mult_c, t4_c, t22_c).nth(1, 0) == 29
+    i8_tot_norm_c = sp.expand((nh_c - nv_c) * (i8_hyp_c / cu_r4) + nt_c * tens_mult_c + grav_mult_c)
+    r4_coeff_c = sp.Poly(i8_tot_norm_c, t4_c, t22_c).nth(1, 0)
+    assert sp.expand(r4_coeff_c - (nh_c - nv_c + 29 * nt_c - 273)) == 0
+    i8_tot_unnorm_c = sp.expand((nh_c - nv_c) * i8_hyp_c + nt_c * (i8_basd_c + i8_hyp_c) + (i8_grav32_c + i8_bsd_c))
+    assert sp.expand(256 * i8_tot_unnorm_c.subs(nh_c, nv_c + 273 - 29 * nt_c) - (9 - nt_c) * t22_c) == 0
+
+    nv_e8_c = 248
+    c_0t_c = sp.simplify(-r4_coeff_c.subs([(nh_c, 0), (nv_c, 0), (nt_c, 0)]))
+    c_1t_c = sp.simplify(-r4_coeff_c.subs([(nh_c, 0), (nv_c, 0), (nt_c, 1)]))
+    res_0t_c = sp.simplify(r4_coeff_c.subs([(nh_c, 0), (nv_c, nv_e8_c), (nt_c, 0)]))
+    res_1t_c = sp.simplify(r4_coeff_c.subs([(nh_c, 0), (nv_c, nv_e8_c), (nt_c, 1)]))
+    wp35_out = stage4_results["wp35_anomalies_and_modes"]
+    assert c_0t_c == 273 == wp35_out["grav_0t_target_coeff_sp"]
+    assert c_1t_c == 244 == wp35_out["grav_1t_target_coeff_sp"]
+    assert res_0t_c + 248 == -273 and wp35_out["grav_6d_pure_sym_residual_0t_sp"] + 248 == -273
+    assert res_1t_c + 248 == -244 and wp35_out["grav_6d_pure_sym_residual_1t_sp"] + 248 == -244
+    assert wp35_out["grav_6d_pure_sym_residual_sp"] == res_1t_c
+
     # 3. Independent exterior-algebra DGA two-step Stora-Zumino descent & Bardeen counterterm B_4 (D5):
     lam_z_s, lam_y_s, fz_s, fy_s = sp.symbols("lam_z_s lam_y_s fz_s fy_s")
     w_ops: list[sp.Matrix] = []
@@ -752,16 +970,71 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
             od = od + w_ops[1] * (i_ops[3] * va)
         return od.applyfunc(sp.expand)
 
-    y_5 = [sp.Rational(-1, 3), sp.Rational(-1, 3), sp.Rational(-1, 3), sp.Rational(1, 2), sp.Rational(1, 2)]
-    y_10 = [y_5[i_a] + y_5[j_a] for i_a, j_a in combinations(range(5), 2)]
-    pos_states: list[tuple[sp.Expr, sp.Expr]] = (
-        [(sp.Integer(5), sp.Integer(0))] * 4
-        + [(sp.Integer(4), yv) for yv in y_10]
-        + [(sp.Integer(1), -yv) for _ in range(4) for yv in y_10]
-        + [(sp.Integer(3), -yv) for _ in range(4) for yv in y_5]
-        + [(sp.Integer(2), yv) for _ in range(6) for yv in y_5]
-    )
+    # Mechanical derivation of all 240 su(5)_GUT x su(5)_b subset e_8 roots from Z_5-glued unimodular lattice (D4.1):
+    roots_240_glued: list[tuple[sp.Rational, ...]] = []
+    for k_gl in range(5):
+        mg_gl = (2 * k_gl) % 5
+        mb_gl = k_gl
+        vg_cands = [
+            tuple(sp.Rational(5 * ni_g - mg_gl, 5) for ni_g in ng_t)
+            for ng_t in product((-1, 0, 1), repeat=5)
+            if sum(ng_t) == mg_gl and sum(sp.Rational(5 * ni_g - mg_gl, 5) ** 2 for ni_g in ng_t) <= 2
+        ]
+        vb_cands = [
+            tuple(sp.Rational(5 * ni_b - mb_gl, 5) for ni_b in nb_t)
+            for nb_t in product((-1, 0, 1), repeat=5)
+            if sum(nb_t) == mb_gl and sum(sp.Rational(5 * ni_b - mb_gl, 5) ** 2 for ni_b in nb_t) <= 2
+        ]
+        for vg_r in vg_cands:
+            ng_sq = sum(c_g * c_g for c_g in vg_r)
+            for vb_r in vb_cands:
+                if ng_sq + sum(c_b * c_b for c_b in vb_r) == 2:
+                    roots_240_glued.append(vg_r + vb_r)
+    assert len(roots_240_glued) == 240 and len(set(roots_240_glued)) == 240
+    pos_qz_roots = [(r_gl, int(5 * r_gl[5])) for r_gl in roots_240_glued if 5 * r_gl[5] > 0]
+    pos_states: list[tuple[sp.Expr, sp.Expr]] = [
+        (sp.Integer(qz_i), -sp.Rational(r_gl[0] + r_gl[1] + r_gl[2], 3) + sp.Rational(r_gl[3] + r_gl[4], 2))
+        for r_gl, qz_i in pos_qz_roots
+    ]
     assert len(pos_states) == 104
+    o1_uzy2 = sum((qz_s**2) * (qy_s**2) for qz_s, qy_s in pos_states)
+    o1_uz3 = sum(qz_s * (qz_s**3) for qz_s, _ in pos_states)
+    o1_closed_doublets = sum(qz_i for r_gl, qz_i in pos_qz_roots if sp.Rational(r_gl[3] - r_gl[4], 2) == sp.Rational(1, 2))
+    hw_10_c = (sp.Rational(3, 5), sp.Rational(3, 5), sp.Rational(-2, 5), sp.Rational(-2, 5), sp.Rational(-2, 5))
+    hw_10b_c = tuple(-c_v for c_v in hw_10_c)
+    net_chiral_10_closed = sum(
+        qz_i if r_gl[:5] == hw_10_c else (-qz_i if r_gl[:5] == hw_10b_c else 0)
+        for r_gl, qz_i in pos_qz_roots
+    )
+    assert o1_uzy2 == 100 and o1_uz3 == 72 * o1_uzy2
+    assert o1_closed_doublets == 48 == wp35_out["o1_closed_su2_doublets"] and o1_closed_doublets % 2 == 0
+    assert net_chiral_10_closed == 0
+
+    def h0_ell_cusp(a_wt: int) -> int:
+        d_par = (a_wt // 2) if a_wt < 1 else ((a_wt - 1) // 2)
+        return 0 if d_par < 0 else (1 if d_par == 0 else d_par)
+
+    def i_par_cusp(beta_wt: int) -> int:
+        j0_p = h0_ell_cusp(-beta_wt) - h0_ell_cusp(2 + beta_wt)
+        j1_p = h0_ell_cusp(1 - beta_wt) - h0_ell_cusp(1 + beta_wt)
+        j2_p = h0_ell_cusp(2 - beta_wt) - h0_ell_cusp(beta_wt)
+        return 2 * j1_p - j0_p - j2_p
+
+    par_doublets_n1 = sum(
+        i_par_cusp(int(2 * r_gl[5] + r_gl[6] - r_gl[8] - 2 * r_gl[9]) + 2 * int(-2 * (r_gl[0] + r_gl[1] + r_gl[2]) + 3 * (r_gl[3] + r_gl[4])))
+        for r_gl in roots_240_glued
+        if int(-2 * (r_gl[0] + r_gl[1] + r_gl[2]) + 3 * (r_gl[3] + r_gl[4])) > 0
+        and sp.Rational(r_gl[3] - r_gl[4], 2) == sp.Rational(1, 2)
+    )
+    par_su3_2_qy_n1 = sum(
+        sp.Rational(1, 2)
+        * i_par_cusp(int(2 * r_gl[5] + r_gl[6] - r_gl[8] - 2 * r_gl[9]) + 2 * int(-2 * (r_gl[0] + r_gl[1] + r_gl[2]) + 3 * (r_gl[3] + r_gl[4])))
+        * (sp.Rational(r_gl[0] - r_gl[1], 2) ** 2)
+        * int(-2 * (r_gl[0] + r_gl[1] + r_gl[2]) + 3 * (r_gl[3] + r_gl[4]))
+        for r_gl in roots_240_glued
+    )
+    assert par_doublets_n1 == -1 == wp35_out["parabolic_hypercharge_su2_doublets_n1"] and (par_doublets_n1 % 2) == 1
+    assert par_su3_2_qy_n1 == -5
 
     az_v = w_ops[2] * sc_vec(1)
     ay_v = w_ops[3] * sc_vec(1)
@@ -886,9 +1159,36 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
     fi2 = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
     fj2 = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
 
+    BlockTuple = tuple[np.ndarray, float, int]
+
+    def check_blocks_full_rank(blocks_in: list[BlockTuple]) -> bool:
+        for v_blk, wt_blk, mc_blk in blocks_in:
+            n_c = int(v_blk.shape[1])
+            if n_c <= 0 or wt_blk <= 0.0 or mc_blk <= 0:
+                return False
+            if int(np.linalg.matrix_rank(v_blk, tol=1e-9)) != n_c:
+                return False
+            if float(np.max(np.abs(v_blk.conj().T @ v_blk - np.eye(n_c)))) >= TOL:
+                return False
+            if abs(wt_blk * n_c - float(mc_blk)) >= TOL:
+                return False
+        return True
+
+    def weighted_support(blocks_in: list[BlockTuple], row_ids: list[int]) -> float:
+        if not blocks_in or not row_ids:
+            return 0.0
+        return float(sum(wt_blk * float(np.sum(np.abs(v_blk[row_ids, :]) ** 2)) for v_blk, wt_blk, _ in blocks_in))
+
     def parab_modes(
-        es: np.ndarray, gs: np.ndarray, mus: np.ndarray, xas: np.ndarray, ybs: np.ndarray
-    ) -> tuple[int, int, int, np.ndarray, np.ndarray]:
+        es: np.ndarray,
+        gs: np.ndarray,
+        mus: np.ndarray,
+        xas: np.ndarray,
+        ybs: np.ndarray,
+        eta: tuple[int, int] = (0, 0),
+    ) -> tuple[int, int, int, list[BlockTuple], list[BlockTuple], list[BlockTuple]]:
+        sa_e = -1.0 if eta[0] else 1.0
+        sb_e = -1.0 if eta[1] else 1.0
         d0s = np.vstack([es, gs])
         d1s = np.hstack([-gs, es])
         sv0_u, sv0, vh0 = np.linalg.svd(d0s)
@@ -901,10 +1201,11 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
         assert sv2_u.shape[0] > 0
         b2 = vh2[sv2 < 1e-9].conj().T
 
-        def cnt_deg(dp: int, bh: np.ndarray, xh: np.ndarray, yh: np.ndarray, mh: np.ndarray) -> tuple[int, int, np.ndarray]:
-            n_rows = xh.shape[0]
+        def cnt_deg(
+            dp: int, bh: np.ndarray, xh: np.ndarray, yh: np.ndarray, mh: np.ndarray
+        ) -> tuple[int, int, list[BlockTuple]]:
             if bh.shape[1] == 0:
-                return 0, 0, np.zeros((n_rows, 0), dtype=complex)
+                return 0, 0, []
             muh = bh.conj().T @ mh @ bh
             ev_m, vc_m = np.linalg.eigh(0.5 * (muh + muh.conj().T))
             clusters: dict[int, list[int]] = {}
@@ -912,12 +1213,12 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
                 clusters.setdefault(int(round(float(vl_e))), []).append(ix_e)
             h0_tot = 0
             h1_tot = 0
-            cols_v: list[np.ndarray] = []
+            blocks_v: list[BlockTuple] = []
             for m_int, id_l in clusters.items():
                 a_ex = dp - m_int
                 v_s = bh @ vc_m[:, id_l]
-                ta_s = v_s.conj().T @ xh @ v_s
-                tb_s = v_s.conj().T @ yh @ v_s
+                ta_s = (sa_e**a_ex) * (v_s.conj().T @ xh @ v_s)
+                tb_s = (sb_e**a_ex) * (v_s.conj().T @ yh @ v_s)
                 kp_s = ta_s @ tb_s @ ta_s.conj().T @ tb_s.conj().T
                 ev_k, vc_k = np.linalg.eigh(0.5 * (kp_s + kp_s.conj().T))
                 p_ix = [i_x for i_x, v_x in enumerate(ev_k) if abs(v_x - 1.0) < 1e-9]
@@ -927,18 +1228,18 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
                     rk_p = len(p_ix)
                     n_mx = (a_ex // 2) if a_ex < 1 else ((a_ex - 1) // 2)
                     if n_mx > 0:
-                        h0_tot += rk_p * n_mx
+                        mc_p = rk_p * n_mx
+                        h0_tot += mc_p
                         if dp == 1:
-                            for _ in range(n_mx):
-                                cols_v.append(v_p)
+                            blocks_v.append((v_p, float(n_mx), mc_p))
                     elif n_mx < 0:
-                        h1_tot += rk_p * (-n_mx)
+                        mc_n = rk_p * (-n_mx)
+                        h1_tot += mc_n
                         if dp in (0, 2):
-                            for _ in range(-n_mx):
-                                cols_v.append(v_p)
+                            blocks_v.append((v_p, float(-n_mx), mc_n))
                     else:
-                        ta_p = v_p.conj().T @ xh @ v_p
-                        tb_p = v_p.conj().T @ yh @ v_p
+                        ta_p = (sa_e**a_ex) * (v_p.conj().T @ xh @ v_p)
+                        tb_p = (sb_e**a_ex) * (v_p.conj().T @ yh @ v_p)
                         k_u, k_s, k_vh = np.linalg.svd(np.vstack([ta_p - np.eye(rk_p), tb_p - np.eye(rk_p)]))
                         assert k_u.shape[0] > 0
                         v_tr = v_p @ k_vh[k_s < 1e-9].conj().T
@@ -946,27 +1247,30 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
                         h0_tot += n_tr
                         h1_tot += n_tr
                         if n_tr > 0:
-                            cols_v.append(v_tr)
+                            blocks_v.append((v_tr, 1.0, n_tr))
                 if m_ix and a_ex != 1:
                     m_bd = len(m_ix) // 2
                     n_mx_m = ((a_ex + 1) // 2) if a_ex < 1 else (a_ex // 2)
                     dg_p = -1 + 2 * n_mx_m
                     v_m = v_s @ vc_k[:, m_ix]
                     if dg_p > 0:
-                        h0_tot += m_bd * dg_p
+                        mc_mp = m_bd * dg_p
+                        h0_tot += mc_mp
                         if dp == 1:
-                            cols_v.append(v_m)
+                            blocks_v.append((v_m, 0.5 * float(dg_p), mc_mp))
                     else:
-                        h1_tot += m_bd * (-dg_p)
+                        mc_mn = m_bd * (-dg_p)
+                        h1_tot += mc_mn
                         if dp in (0, 2):
-                            cols_v.append(v_m)
-            return h0_tot, h1_tot, (np.hstack(cols_v) if cols_v else np.zeros((n_rows, 0), dtype=complex))
+                            blocks_v.append((v_m, 0.5 * float(-dg_p), mc_mn))
+            assert check_blocks_full_rank(blocks_v)
+            return h0_tot, h1_tot, blocks_v
 
         i2_b = np.eye(2, dtype=complex)
-        _, ca, va = cnt_deg(0, b0, xas, ybs, mus)
-        cs0, _, vs0 = cnt_deg(1, b1, np.kron(fi2, xas), np.kron(fj2, ybs), np.kron(i2_b, mus))
-        _, cs2, _ = cnt_deg(2, b2, xas, ybs, mus)
-        return ca, cs0, cs2, va, vs0
+        _, ca, ba_l = cnt_deg(0, b0, xas, ybs, mus)
+        cs0, _, bs0_l = cnt_deg(1, b1, np.kron(fi2, xas), np.kron(fj2, ybs), np.kron(i2_b, mus))
+        _, cs2, bs2_l = cnt_deg(2, b2, xas, ybs, mus)
+        return ca, cs0, cs2, ba_l, bs0_l, bs2_l
 
     idx_16_3 = [sp_map[(r1, r2)] for r1, r2 in sp_pairs if abs(om10_n[r1, r1] + 1j) < TOL and abs(h4_lie8_n[r2, r2] + 0.5) < TOL]
     idx_16_1 = [sp_map[(r1, r2)] for r1, r2 in sp_pairs if abs(om10_n[r1, r1] + 1j) < TOL and abs(2.0 * h4_lie8_n[r2, r2] - 3) < TOL]
@@ -974,8 +1278,9 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
     idx_16b_1 = [sp_map[(r1, r2)] for r1, r2 in sp_pairs if abs(om10_n[r1, r1] - 1j) < TOL and abs(2.0 * h4_lie8_n[r2, r2] + 3) < TOL]
     assert (len(idx_16_3), len(idx_16_1), len(idx_16b_3b), len(idx_16b_1)) == (48, 16, 48, 16)
 
+    sub_totals_h4: list[int] = []
     for sub_i, exp_tup in ((idx_16_3, (6, 3, 0)), (idx_16_1, (2, 1, 0)), (idx_16b_3b, (6, 3, 0)), (idx_16b_1, (2, 1, 0))):
-        ca_s, cs0_s, cs2_s, va_s, vs0_s = parab_modes(
+        ca_s, cs0_s, cs2_s, ba_s, bs0_s, bs2_s = parab_modes(
             e128[np.ix_(sub_i, sub_i)],
             g128[np.ix_(sub_i, sub_i)],
             mu128[np.ix_(sub_i, sub_i)],
@@ -983,43 +1288,175 @@ def test_wp35_zero_trust_cl10_matrix_anomalies_6d_gs_and_inflow(stage4_results: 
             yb128_h4[np.ix_(sub_i, sub_i)],
         )
         assert (ca_s, cs0_s, cs2_s) == exp_tup
+        sub_totals_h4.append(ca_s + cs0_s + cs2_s)
         if sub_i is idx_16_3:
-            # Verify live nu_R (r1 == 31, 5-fermion SU(5)-singlet state of 16) carries nonvanishing weight 3/4 on H^0 spin modes!
+            # Verify live nu_R (r1 == 31, 5-fermion SU(5)-singlet state of 16) carries exact weights (0, 3/4, 0) across Koszul degrees (0, 1, 2):
             nur_loc = [ix_l for ix_l, g_id in enumerate(idx_16_3) if sp_pairs[g_id][0] == 31]
             assert len(nur_loc) == 3
-            assert float(np.sum(np.abs(va_s[nur_loc, :]) ** 2)) < TOL
             nur_spin_rows = nur_loc + [len(idx_16_3) + ix_l for ix_l in nur_loc]
-            q_on, _ = np.linalg.qr(vs0_s)
-            nur_spin_wt = float(np.sum(np.abs(q_on[nur_spin_rows, :]) ** 2))
-            assert abs(4 * nur_spin_wt - 3) < TOL
+            nur_wt_a = weighted_support(ba_s, nur_loc)
+            nur_wt_spin = weighted_support(bs0_s, nur_spin_rows)
+            nur_wt_lam = weighted_support(bs2_s, nur_loc)
+            assert abs(nur_wt_a) < TOL and abs(4 * nur_wt_spin - 3) < TOL and abs(nur_wt_lam) < TOL
+            prod_nur_wts = wp35_out["nu_r_live_16_3_weights_a_spin_lam"]
+            assert abs(prod_nur_wts[0] - nur_wt_a) < TOL
+            assert abs(prod_nur_wts[1] - nur_wt_spin) < TOL
+            assert abs(prod_nur_wts[2] - nur_wt_lam) < TOL
+            assert "with live nu_R weights (0, 3/4, 0)" in wp35_out["node_verdicts_wp35"]["D:09"]
 
     # On h_1, Pin-odd S_32 (x) f_0 swaps 16 <-> 16_bar with ZERO block-diagonal part and 24 50/50 vectorlike modes:
     idx_c64 = idx_16_3 + idx_16_1
     idx_cb64 = idx_16b_3b + idx_16b_1
     assert float(np.linalg.norm(xa128_h1[np.ix_(idx_c64, idx_c64)])) < TOL
     assert float(np.linalg.norm(yb128_h1[np.ix_(idx_c64, idx_c64)])) < TOL
-    ca_h1, cs0_h1, cs2_h1, va_h1, vs0_h1 = parab_modes(e128, g128, mu128, xa128_h1, yb128_h1)
-    assert ca_h1 + cs0_h1 + cs2_h1 == 24
+    inv_chiral_h1 = int(64 - np.linalg.matrix_rank(xa128_h1[np.ix_(idx_cb64, idx_c64)], tol=1e-9))
+    assert inv_chiral_h1 == 0
+    ca_h1, cs0_h1, cs2_h1, ba_h1, bs0_h1, _ = parab_modes(e128, g128, mu128, xa128_h1, yb128_h1)
+    assert (ca_h1, cs0_h1, cs2_h1) == (16, 8, 0) and ca_h1 + cs0_h1 + cs2_h1 == 24
     idx_c64_spin = idx_c64 + [128 + ix_c for ix_c in idx_c64]
     idx_cb64_spin = idx_cb64 + [128 + ix_c for ix_c in idx_cb64]
-    assert abs(float(np.sum(np.abs(va_h1[idx_c64, :]) ** 2)) - float(np.sum(np.abs(va_h1[idx_cb64, :]) ** 2))) < TOL
-    assert abs(float(np.sum(np.abs(vs0_h1[idx_c64_spin, :]) ** 2)) - float(np.sum(np.abs(vs0_h1[idx_cb64_spin, :]) ** 2))) < TOL
-    assert stage4_results["wp35_anomalies_and_modes"]["h4_zero_mode_roster"] == {
-        "chiral_family_triplet_16_3": 9,
-        "family_singlet_exotic_16_1": 3,
-        "conjugate_mirror_16bar_3bar": 9,
-        "conjugate_singlet_mirror_16bar_1": 3,
-        "vector_10_6": 18,
-        "adjoint_45_1": 8,
-        "adjoint_1_15": 18,
+    assert abs(weighted_support(ba_h1, idx_c64) - 8) < TOL and abs(weighted_support(ba_h1, idx_cb64) - 8) < TOL
+    assert abs(weighted_support(bs0_h1, idx_c64_spin) - 4) < TOL and abs(weighted_support(bs0_h1, idx_cb64_spin) - 4) < TOL
+
+    # 5. Independent Pin(10) x Pin(6) construction of (10,6), (45,1), (1,15) & full 248D census across all 4 spin structures (D4.2):
+    basis_10_ops = cre32 + ann32
+
+    def vec10_pin32(g32_in: np.ndarray) -> np.ndarray:
+        g32_inv = np.linalg.inv(g32_in)
+        m10_o = np.zeros((10, 10), dtype=complex)
+        for c_i, op_c in enumerate(basis_10_ops):
+            conj_op = g32_in @ op_c @ g32_inv
+            for r_i, op_r in enumerate(basis_10_ops):
+                m10_o[r_i, c_i] = np.trace(op_r.conj().T @ conj_op) / 16
+        return m10_o
+
+    a10_c = vec10_pin32(a32_n)
+    d10_c = vec10_pin32(d32_n)
+    s10_c = vec10_pin32(s32_n)
+    assert abs(complex(np.linalg.det(a10_c)) - 1.0) < TOL
+    assert abs(complex(np.linalg.det(d10_c)) - 1.0) < TOL
+    assert abs(complex(np.linalg.det(s10_c)) + 1.0) < TOL
+
+    gam10_ops = [cre32[k_a] + ann32[k_a] for k_a in range(5)] + [1j * (cre32[k_a] - ann32[k_a]) for k_a in range(5)]
+    u_g2c = np.zeros((10, 10), dtype=complex)
+    for c_i, op_g in enumerate(gam10_ops):
+        for r_i, op_c in enumerate(basis_10_ops):
+            u_g2c[r_i, c_i] = np.trace(op_c.conj().T @ op_g) / 16
+    u_orth10 = u_g2c * irt2_k
+    assert float(np.max(np.abs(u_orth10.conj().T @ u_orth10 - np.eye(10)))) < TOL
+    e10_r = u_orth10.conj().T @ e10_k @ u_orth10
+    g10_r = u_orth10.conj().T @ g10_k @ u_orth10
+    mu10_r = u_orth10.conj().T @ (0.5 * htot10_k) @ u_orth10
+    a10_r = u_orth10.conj().T @ a10_c @ u_orth10
+    d10_r = u_orth10.conj().T @ d10_c @ u_orth10
+    s10_r = u_orth10.conj().T @ s10_c @ u_orth10
+    assert float(np.max(np.abs(e10_r + e10_r.T))) < TOL and float(np.max(np.abs(g10_r + g10_r.T))) < TOL
+
+    def vec6_pin8(g8_in: np.ndarray, is_odd: bool = False) -> np.ndarray:
+        g8_inv = np.linalg.inv(g8_in)
+        sgn_p = -1.0 if is_odd else 1.0
+        m6_o = np.zeros((6, 6), dtype=complex)
+        for c_i in range(6):
+            cop = sgn_p * (g8_in @ gammas_6[c_i] @ g8_inv)
+            for r_i in range(6):
+                m6_o[r_i, c_i] = np.trace(gammas_6[r_i].conj().T @ cop) / 8
+        return m6_o
+
+    h4_vec6 = vec6_pin8(h4_grp8_n, is_odd=False)
+    h1_vec6 = vec6_pin8(gammas_6[0], is_odd=True)
+    assert float(np.max(np.abs(h4_vec6 @ h4_vec6.conj().T - np.eye(6)))) < TOL
+    assert float(np.max(np.abs(h1_vec6 @ h1_vec6.conj().T - np.eye(6)))) < TOL
+    assert abs(complex(np.linalg.det(h4_vec6)) - 1.0) < TOL and abs(complex(np.linalg.det(h1_vec6)) + 1.0) < TOL
+
+    def wedge2_grp(u_in: np.ndarray) -> np.ndarray:
+        n_dim = int(u_in.shape[0])
+        prs = list(combinations(range(n_dim), 2))
+        n_prs = len(prs)
+        out_w = np.zeros((n_prs, n_prs), dtype=complex)
+        for c_i, (j1_i, j2_i) in enumerate(prs):
+            for r_i, (i1_i, i2_i) in enumerate(prs):
+                out_w[r_i, c_i] = u_in[i1_i, j1_i] * u_in[i2_i, j2_i] - u_in[i1_i, j2_i] * u_in[i2_i, j1_i]
+        return out_w
+
+    def wedge2_lie(x_in: np.ndarray) -> np.ndarray:
+        n_dim = int(x_in.shape[0])
+        prs = list(combinations(range(n_dim), 2))
+        p_mp = {pt_w: k_w for k_w, pt_w in enumerate(prs)}
+        n_prs = len(prs)
+        out_w = np.zeros((n_prs, n_prs), dtype=complex)
+        for c_i, (i_w, j_w) in enumerate(prs):
+            for k_w in range(n_dim):
+                if k_w != j_w and abs(x_in[k_w, i_w]) > TOL:
+                    if k_w < j_w:
+                        out_w[p_mp[(k_w, j_w)], c_i] += x_in[k_w, i_w]
+                    else:
+                        out_w[p_mp[(j_w, k_w)], c_i] -= x_in[k_w, i_w]
+                if k_w != i_w and abs(x_in[k_w, j_w]) > TOL:
+                    if i_w < k_w:
+                        out_w[p_mp[(i_w, k_w)], c_i] += x_in[k_w, j_w]
+                    else:
+                        out_w[p_mp[(k_w, i_w)], c_i] -= x_in[k_w, j_w]
+        return out_w
+
+    def mode_tot(es_m: np.ndarray, gs_m: np.ndarray, mus_m: np.ndarray, xas_m: np.ndarray, ybs_m: np.ndarray, et_p: tuple[int, int]) -> int:
+        c0_m, c1_m, c2_m, _, _, _ = parab_modes(es_m, gs_m, mus_m, xas_m, ybs_m, et_p)
+        return c0_m + c1_m + c2_m
+
+    i6_mat = np.eye(6, dtype=complex)
+    z15_mat = np.zeros((15, 15), dtype=complex)
+    e_10_6 = np.kron(e10_r, i6_mat)
+    g_10_6 = np.kron(g10_r, i6_mat)
+    mu_10_6 = np.kron(mu10_r, i6_mat)
+    e_45 = wedge2_lie(e10_r)
+    g_45 = wedge2_lie(g10_r)
+    mu_45 = wedge2_lie(mu10_r)
+    all_etas = ((0, 0), (1, 0), (0, 1), (1, 1))
+
+    sec_h4 = {
+        et_p: (
+            mode_tot(e_10_6, g_10_6, mu_10_6, np.kron(a10_r, h4_vec6), np.kron(d10_r @ a10_r, h4_vec6), et_p),
+            mode_tot(e_45, g_45, mu_45, wedge2_grp(a10_r), wedge2_grp(d10_r @ a10_r), et_p),
+            mode_tot(z15_mat, z15_mat, z15_mat, wedge2_grp(h4_vec6), wedge2_grp(h4_vec6), et_p),
+            mode_tot(e128, g128, mu128, xa128_h4, yb128_h4, et_p),
+        )
+        for et_p in all_etas
     }
-    assert stage4_results["wp35_anomalies_and_modes"]["h1_zero_mode_roster"] == {
-        "chiral_16_4_subspace": 0,
-        "vectorlike_pin_entangled_128": 24,
-        "vector_10_6": 18,
-        "adjoint_45_1": 8,
-        "adjoint_1_15": 20,
+    sec_h1 = {
+        et_p: (
+            mode_tot(e_10_6, g_10_6, mu_10_6, np.kron(a10_r @ s10_r, h1_vec6), np.kron(d10_r @ a10_r @ s10_r, h1_vec6), et_p),
+            mode_tot(e_45, g_45, mu_45, wedge2_grp(a10_r @ s10_r), wedge2_grp(d10_r @ a10_r @ s10_r), et_p),
+            mode_tot(z15_mat, z15_mat, z15_mat, wedge2_grp(h1_vec6), wedge2_grp(h1_vec6), et_p),
+            mode_tot(e128, g128, mu128, xa128_h1, yb128_h1, et_p),
+        )
+        for et_p in all_etas
     }
+    assert [sec_h4[et_p][:3] for et_p in all_etas] == [(18, 8, 18)] * 4
+    assert [sec_h4[et_p][3] for et_p in all_etas] == [24, 16, 16, 24]
+    assert [sum(sec_h4[et_p]) for et_p in all_etas] == [68, 60, 60, 68]
+    assert sum(sec_h4[(0, 0)]) - 30 == 38 and sum(sec_h4[(0, 0)]) - sub_totals_h4[0] == 59
+
+    assert [sec_h1[et_p][:3] for et_p in all_etas] == [(18, 8, 20)] * 4
+    assert [sec_h1[et_p][3] for et_p in all_etas] == [24, 16, 16, 24]
+    assert [sum(sec_h1[et_p]) for et_p in all_etas] == [70, 62, 62, 70]
+    assert sum(sec_h1[(0, 0)]) - 30 == 40
+
+    h4_r_out = wp35_out["h4_zero_mode_roster"]
+    assert len(h4_r_out) == 7
+    assert h4_r_out["chiral_family_triplet_16_3"] == sub_totals_h4[0]
+    assert h4_r_out["family_singlet_exotic_16_1"] == sub_totals_h4[1]
+    assert h4_r_out["conjugate_mirror_16bar_3bar"] == sub_totals_h4[2]
+    assert h4_r_out["conjugate_singlet_mirror_16bar_1"] == sub_totals_h4[3]
+    assert h4_r_out["vector_10_6"] == sec_h4[(0, 0)][0]
+    assert h4_r_out["adjoint_45_1"] == sec_h4[(0, 0)][1]
+    assert h4_r_out["adjoint_1_15"] == sec_h4[(0, 0)][2]
+
+    h1_r_out = wp35_out["h1_zero_mode_roster"]
+    assert len(h1_r_out) == 5
+    assert h1_r_out["chiral_16_4_subspace"] == inv_chiral_h1
+    assert h1_r_out["vectorlike_pin_entangled_128"] == sec_h1[(0, 0)][3]
+    assert h1_r_out["vector_10_6"] == sec_h1[(0, 0)][0]
+    assert h1_r_out["adjoint_45_1"] == sec_h1[(0, 0)][1]
+    assert h1_r_out["adjoint_1_15"] == sec_h1[(0, 0)][2]
 
 
 def test_fl16_zero_trust_theta_bar_u3_scrambling_and_dichotomy(stage4_results: dict[str, Any]) -> None:

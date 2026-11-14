@@ -263,12 +263,31 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
     )
     uconj_t = transpose_monomial_map(uconj_map)
     uconj_preserves_c16 = compose_monomial_maps(uconj_t, compose_monomial_maps(c16_map, uconj_map)) == c16_map
+
+    # Contrast Z_2-graded (B_10 chi_10) (x) B_6 (+C_16) vs ungraded B_10 (x) B_6 (-C_16) on S_16^+:
+    b10_map_32 = mat_to_monomial_map(b10_maj)
+    b10_chir_map_32 = mat_to_monomial_map((b10_maj * chir10).applyfunc(sp.expand))
+    b6_map_8 = mat_to_monomial_map(b6_maj)
+    graded_b10_chir_b6_256 = kron_monomial_maps_256(b10_chir_map_32, b6_map_8)
+    ungraded_b10_b6_256 = kron_monomial_maps_256(b10_map_32, b6_map_8)
+    ungraded_preserves_splus, ungraded_map = restrict_even_256_to_splus(ungraded_b10_b6_256)
+    ungraded_c16_prod = (
+        compose_monomial_maps(transpose_monomial_map(ungraded_map), compose_monomial_maps(c16_map, ungraded_map))
+        if ungraded_preserves_splus
+        else []
+    )
+    ungraded_flips_c16_sign = ungraded_preserves_splus and all(
+        ungraded_c16_prod[r_s][0] == c16_map[r_s][0] and sp.expand(ungraded_c16_prod[r_s][1] + c16_map[r_s][1]) == 0
+        for r_s in range(128)
+    )
     uconj_spin16_props_exact = (
         len(odd_axes_8) == 8
         and len(conj_axes_8) == 8
         and cliff16_graded_exact
         and c16_real_orth_sym
         and uconj_preserves_splus
+        and graded_b10_chir_b6_256 == uconj_256
+        and ungraded_flips_c16_sign
         and compose_monomial_maps(uconj_map, uconj_map) == id128_map
         and monomial_det_128(uconj_map) == 1
         and uconj_preserves_c16
@@ -362,8 +381,8 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
              R_96 ~= T (+) T_bar with Hom_{R_96}(T, T_bar) = 0, Im Tr_T != 0, and tau_exch = Ad_{P_6}
              satisfying Tr_{T_bar}(g) == conj(Tr_T(g)) == Tr_T(P_6 g P_6^-1) for all 96 elements g in R_96.
        (ii)  Amphichiral m004 = F^2 = LR: GL(2, Z) involutions F and J_inv reverse 3-manifold orientation => 0 net hand.
-       (iii) Inner Spin(16) subset E_8 conjugation U_conj = B_10 (x) B_6 (even Clifford grade 5 + 3 = 8) preserves
-             omega_10 * omega_6 = +1 on S_16^+, swaps (16, 4) <-> (16_bar, 4_bar), and conjugates +h_4 <-> -h_4.
+       (iii) Inner Spin(16) subset E_8 conjugation U_tilde_conj = (B_10 chi_10) (x) B_6 (Z_2-graded Cl(10) hat(x) Cl(6)
+             product in Spin(16)) preserves omega_10 * omega_6 = +1 on S_16^+, swaps (16, 4) <-> (16_bar, 4_bar), and conjugates +h_4 <-> -h_4.
        (iv)  Balanced & cyclic-deformed charged weak poles: paired (W_L^+, W_R^+) with |g_L| = |g_R| (proved in Part 4B).
        Bit-budget reconciliation: when tick F is carried, orientation cover SE2 is resolved (0 bits), leaving
        1 unforced hand bit (X:HAND / SC:PREMISE); if tick F is not carried, SE2 + X:HAND cost 2 bits total.
@@ -540,19 +559,18 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
     orders_lr_2345 = [len(bfs_gl2_mod_n([gl_t, gr_t], n_m)) for n_m in (2, 3, 4, 5)]
     orders_lrp_2345 = [len(bfs_gl2_mod_n([gl_t, gr_t, gp_t], n_m)) for n_m in (2, 3, 4, 5)]
 
-    # Verify mod-N reflection conjugacy P M_W P^-1 == M_{swap(W)} (mod N) and P not in SL(2, Z/NZ) for all N >= 3:
-    mod_n_reflection_conjugacy_exact = ((0, 1, 1, 0) in bfs_gl2_mod_n([gl_t, gr_t], 2))
-    for n_mod_p in (3, 4, 5, 7, 8, 9, 11, 13):
+    # Verify mod-N reflection conjugacy P M_W P^-1 == M_{swap(W)} (mod N) across ALL 60 bracelets and all 11 moduli:
+    mod_n_reflection_conjugacy_exact = (0, 1, 1, 0) in bfs_gl2_mod_n([gl_t, gr_t], 2)
+    for n_mod_p in (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13):
         p_mod = (0, 1 % n_mod_p, 1 % n_mod_p, 0)
         l_mod = (1 % n_mod_p, 1 % n_mod_p, 0, 1 % n_mod_p)
         r_mod = (1 % n_mod_p, 0, 1 % n_mod_p, 1 % n_mod_p)
-        # det(P) == -1 == n_mod_p - 1 != 1 (mod n_mod_p) for all n_mod_p >= 3:
         det_p_mod = (p_mod[0] * p_mod[3] - p_mod[1] * p_mod[2]) % n_mod_p
-        if det_p_mod == (1 % n_mod_p):
+        if n_mod_p >= 3 and det_p_mod == (1 % n_mod_p):
             mod_n_reflection_conjugacy_exact = False
         if mat2_mod_mul(p_mod, mat2_mod_mul(l_mod, p_mod, n_mod_p), n_mod_p) != r_mod:
             mod_n_reflection_conjugacy_exact = False
-        for b_w in bracelets_60[:12]:
+        for b_w in bracelets_60:
             mw_mod = (1 % n_mod_p, 0, 0, 1 % n_mod_p)
             msw_mod = (1 % n_mod_p, 0, 0, 1 % n_mod_p)
             for ch in b_w:
@@ -706,11 +724,36 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
     def mat_to_cyc(m_in: sp.Matrix) -> list[list[Cyc24Elem]]:
         return [[sp_qi_rt2_to_cyc24_s4(m_in[r_i, c_i]) for c_i in range(m_in.cols)] for r_i in range(m_in.rows)]
 
+    mip6_h = (sp.I * mp6_h).applyfunc(sp.expand)
+    det_l6_int = int(sp.simplify(ml6_h.det()))
+    det_r6_int = int(sp.simplify(mr6_h.det()))
+    det_p6_int = int(sp.simplify(mp6_h.det()))
+    det_ip6_int = int(sp.simplify(mip6_h.det()))
+    p6_and_ip6_squares_and_dets_exact = (
+        (det_l6_int, det_r6_int, det_p6_int, det_ip6_int) == (1, 1, 1, -1)
+        and (mp6_h * mp6_h + sp.eye(6)).applyfunc(sp.expand) == sp.zeros(6, 6)
+        and (mip6_h * mip6_h - sp.eye(6)).applyfunc(sp.expand) == sp.zeros(6, 6)
+    )
+
     ml6_cyc = mat_to_cyc(ml6_h)
     mr6_cyc = mat_to_cyc(mr6_h)
     mp6_cyc = mat_to_cyc(mp6_h)
+    mip6_cyc = mat_to_cyc(mip6_h)
     r96_group = cyc24_close_group({"L": ml6_cyc, "R": mr6_cyc})
     g192_group = cyc24_close_group({"L": ml6_cyc, "R": mr6_cyc, "P": mp6_cyc})
+    g192_ip_group = cyc24_close_group({"L": ml6_cyc, "R": mr6_cyc, "iP": mip6_cyc})
+
+    def cyc_frobenius_schur_6d(grp_d: dict[Any, Any]) -> Cyc24Elem:
+        fs_acc = cyc24_from_int(0)
+        for _, g6_m in grp_d.values():
+            g6_sq = cyc24_matmul(g6_m, g6_m)
+            for k_d in range(6):
+                fs_acc = cyc24_add(fs_acc, g6_sq[k_d][k_d])
+        ord_g = sp.Integer(len(grp_d))
+        return tuple(sp.Rational(c_k) / ord_g for c_k in fs_acc)
+
+    fs_ind_p_cyc = cyc_frobenius_schur_6d(g192_group)
+    fs_ind_ip_cyc = cyc_frobenius_schur_6d(g192_ip_group)
 
     lt_cyc = mat_to_cyc(l_diag_6[:3, :3])
     rt_cyc = mat_to_cyc(r_diag_6[:3, :3])
@@ -835,8 +878,12 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
 
     r96_g192_and_tau_exch_exact = (
         all(bases_h[pp][2] for pp in par_h)
+        and p6_and_ip6_squares_and_dets_exact
         and len(r96_group) == 96
         and len(g192_group) == 192
+        and len(g192_ip_group) == 192
+        and fs_ind_p_cyc == cyc24_from_int(-1)
+        and fs_ind_ip_cyc == cyc24_from_int(1)
         and len(r96_split) == 96
         and (r96_im_zero, r96_im_pos, r96_im_neg) == (40, 28, 28)
         and cyc24_key(mat_to_cyc(l_diag_6[:3, 3:])) == z3_key
@@ -912,6 +959,9 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
         "e8_inner_spin16_conjugation_swaps_16_4_and_h4_exact": e8_spin16_conjugation_exact,
         "order_R96": len(r96_group),
         "order_G192": len(g192_group),
+        "order_G192_iP": len(g192_ip_group),
+        "frobenius_schur_G192_P_vs_iP": (int(fs_ind_p_cyc[0]), int(fs_ind_ip_cyc[0])),
+        "det_L6_R6_P6_iP6": (det_l6_int, det_r6_int, det_p6_int, det_ip6_int),
         "unforced_hand_bits_with_tick": unforced_hand_bits_with_tick,
         "unforced_orientation_and_hand_bits_without_tick": unforced_total_bits_without_tick,
         "two_act_counts_1_to_10": counts_two_act_10,
@@ -929,7 +979,7 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
             "FL:03": "AMPHICHIRAL_WALL_CONFIRMED (m004 is invariant under fiber-reversing F and base-reversing J_inv; mirror-even weave weights sum to 0 net hand)",
             "G:GM5d": "CHOSEN_BIT_UNLESS_SPONTANEOUS (1 hand/side-of-mirror bit when tick F is carried)",
             "SC:PREMISE": "CHOSEN_BIT_UNLESS_DERIVED (single chiral block premise = 1 bit when tick F is carried)",
-            "X:HAND": "EXHAUSTED_AT_KINEMATIC_LEVEL (G_192 tau_exch, amphichiral m004, inner Spin(16) U_conj = B_10 (x) B_6 on (16,4)/(16_bar,4_bar) & +-h_4, and paired W_L/W_R poles are all mirror-balanced; costs 1 bit with tick F carried, or 2 bits if SE2 is also uncarried)",
+            "X:HAND": "EXHAUSTED_AT_KINEMATIC_LEVEL (G_192 tau_exch, amphichiral m004, inner Spin(16) U_tilde_conj = (B_10 chi_10) (x) B_6 on (16,4)/(16_bar,4_bar) & +-h_4, and paired W_L/W_R poles are all mirror-balanced; costs 1 bit with tick F carried, or 2 bits if SE2 is also uncarried)",
         },
     }
 
@@ -1899,16 +1949,69 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
     tr_f4_248 = sp.expand(sum(sum(r_v[k] * f_vars_8[k] for k in range(8)) ** 4 for r_v in e8_roots_std))
     poly_gs_diff_8 = sp.Poly(100 * tr_f4_248 - tr_f2_248**2, *f_vars_8)
     n_v_e8_sp = sp.Integer(len(e8_roots_d8)) + sp.Integer(len(e8_roots_s128)) + sp.Integer(8)
-    grav_1t_coeff_sp = sp.Integer(244) + sp.Integer(29)
-    grav_6d_pure_sym_residual_sp = sp.simplify((sp.Integer(0) - n_v_e8_sp) - grav_1t_coeff_sp)
+
+    # Mechanical SymPy characteristic-class derivation of 6D N=(1,0) gravitational anomaly I_8^grav (Alvarez-Gaume-Witten):
+    # Expand A_hat(R) = prod_{i=1}^3 (x_i/2)/sinh(x_i/2), ch(T_C) - 1 = sum_{i=1}^3 2 cosh(x_i) - 1, and L(R) = prod_{i=1}^3 x_i/tanh(x_i):
+    x1_r, x2_r, x3_r, t4_r, t2sq_r, nh_s, nv_s, nt_s = sp.symbols("x1_r x2_r x3_r t4_r t2sq_r nh_s nv_s nt_s")
+    p1_sq_r = sp.Rational(1, 4) * t2sq_r
+    p2_r = sp.Rational(1, 8) * t2sq_r - sp.Rational(1, 4) * t4_r
+    ahat_6d = sp.Integer(1)
+    hirz_l_6d = sp.Integer(1)
+    for xi_r in (x1_r, x2_r, x3_r):
+        ahat_6d = ahat_6d * sp.series((xi_r / 2) / sp.sinh(xi_r / 2), xi_r, 0, 5).removeO()
+        hirz_l_6d = hirz_l_6d * sp.series(xi_r / sp.tanh(xi_r), xi_r, 0, 5).removeO()
+    ch_tc_minus_1 = sum(sp.series(2 * sp.cosh(xi_r), xi_r, 0, 5).removeO() for xi_r in (x1_r, x2_r, x3_r)) - sp.Integer(1)
+
+    def sym_deg4_to_curv_traces(poly_x_in: sp.Expr) -> sp.Expr:
+        ex_p = sp.expand(poly_x_in)
+        d4_p = sp.expand(
+            sum((tm_p for tm_p in ex_p.as_ordered_terms() if sp.Poly(tm_p, x1_r, x2_r, x3_r).total_degree() == 4), sp.Integer(0))
+        )
+        a_p1sq = d4_p.subs({x1_r: 1, x2_r: 0, x3_r: 0})
+        b_p2 = d4_p.subs({x1_r: 1, x2_r: 1, x3_r: 0}) - 4 * a_p1sq
+        return sp.expand(a_p1sq * p1_sq_r + b_p2 * p2_r)
+
+    i8_smw_hyper = sp.Rational(1, 2) * sym_deg4_to_curv_traces(ahat_6d)
+    c_hyp_r4 = sp.Poly(i8_smw_hyper, t4_r, t2sq_r).nth(1, 0)
+    i8_smw_gravitino = -sp.Rational(1, 2) * sym_deg4_to_curv_traces(ahat_6d * ch_tc_minus_1)
+    i8_b_sd_plus = sp.Rational(1, 16) * sym_deg4_to_curv_traces(hirz_l_6d)
+    i8_b_asd_minus = -i8_b_sd_plus
+
+    hyp_norm = sp.expand(i8_smw_hyper / c_hyp_r4)
+    gravitino_norm = sp.expand(i8_smw_gravitino / c_hyp_r4)
+    b_sd_norm = sp.expand(i8_b_sd_plus / c_hyp_r4)
+    b_asd_norm = sp.expand(i8_b_asd_minus / c_hyp_r4)
+    grav_mult_norm = sp.expand(gravitino_norm + b_sd_norm)
+    tensor_mult_norm = sp.expand(b_asd_norm + hyp_norm)
+    i8_grav_tot_norm = sp.expand((nh_s - nv_s) * hyp_norm + nt_s * tensor_mult_norm + grav_mult_norm)
+    i8_grav_tot_unnorm = sp.expand((nh_s - nv_s) * i8_smw_hyper + nt_s * (i8_b_asd_minus + i8_smw_hyper) + (i8_smw_gravitino + i8_b_sd_plus))
+    r4_anom_poly = sp.Poly(i8_grav_tot_norm, t4_r, t2sq_r).nth(1, 0)
+    i8_grav_on_gs_locus = sp.expand(i8_grav_tot_unnorm.subs(nh_s, nv_s + 273 - 29 * nt_s))
+
+    # 0T (n_T = 0, pure gravity multiplet) vs 1T (n_T = 1, standard 6D Green-Schwarz with 1 tensor multiplet):
+    grav_0t_coeff_sp = sp.simplify(-r4_anom_poly.subs({nh_s: 0, nv_s: 0, nt_s: 0}))
+    grav_1t_coeff_sp = sp.simplify(-r4_anom_poly.subs({nh_s: 0, nv_s: 0, nt_s: 1}))
+    grav_0t_pure_sym_residual_sp = sp.simplify(r4_anom_poly.subs({nh_s: 0, nv_s: n_v_e8_sp, nt_s: 0}))
+    grav_1t_pure_sym_residual_sp = sp.simplify(r4_anom_poly.subs({nh_s: 0, nv_s: n_v_e8_sp, nt_s: 1}))
+    grav_6d_pure_sym_residual_sp = grav_1t_pure_sym_residual_sp
     e8_6d_gs_factorization_exact = (
         len(e8_roots_std) == 240
         and len(f_vars_8) == 8
         and tr_f2_248 != 0
         and poly_gs_diff_8.is_zero is True
         and n_v_e8_sp == sp.Integer(248)
-        and grav_1t_coeff_sp == sp.Integer(273)
-        and sp.simplify(grav_6d_pure_sym_residual_sp + sp.Integer(248) + sp.Integer(273)) == 0
+        and sp.Poly(hyp_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(1)
+        and sp.Poly(gravitino_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(-245)
+        and sp.Poly(b_sd_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(-28)
+        and sp.Poly(b_asd_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(28)
+        and sp.Poly(tensor_mult_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(29)
+        and sp.Poly(grav_mult_norm, t4_r, t2sq_r).nth(1, 0) == sp.Integer(-273)
+        and sp.expand(r4_anom_poly - (nh_s - nv_s + 29 * nt_s - 273)) == 0
+        and sp.expand(256 * i8_grav_on_gs_locus - (9 - nt_s) * t2sq_r) == 0
+        and grav_0t_coeff_sp == sp.Integer(273)
+        and grav_1t_coeff_sp == sp.Integer(244)
+        and sp.simplify(grav_0t_pure_sym_residual_sp + sp.Integer(248)) == sp.Integer(-273)
+        and sp.simplify(grav_1t_pure_sym_residual_sp + sp.Integer(248)) == sp.Integer(-244)
     )
 
     # 3. Exact Closed-Curve O_1 (Q_Z = 5 r_5 in su(5)_b) vs Complete-Cusp Parabolic Hypercharge Flux Audit:
@@ -2336,7 +2439,7 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
             mu_m: np.ndarray,
             ta_m: np.ndarray,
             tb_m: np.ndarray,
-        ) -> tuple[int, int, list[np.ndarray]]:
+        ) -> tuple[int, int, list[tuple[np.ndarray, float, int]]]:
             if b_hd.shape[1] == 0:
                 return 0, 0, []
             mu_r = b_hd.conj().T @ mu_m @ b_hd
@@ -2347,7 +2450,7 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
                 cl_m.setdefault(m_i, []).append(ix_e)
             h0_c = 0
             h1_c = 0
-            vecs_keep: list[np.ndarray] = []
+            vecs_keep: list[tuple[np.ndarray, float, int]] = []
             for m_i, id_l in cl_m.items():
                 a_ex = deg_p - m_i
                 v_s = b_hd @ vc_m[:, id_l]
@@ -2364,15 +2467,15 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
                     rk_p = len(p_id)
                     n_mx = (a_ex // 2) if a_ex < 1 else ((a_ex - 1) // 2)
                     if n_mx > 0:
-                        h0_c += rk_p * n_mx
+                        mc_p = rk_p * abs(n_mx)
+                        h0_c += mc_p
                         if deg_p == 1:
-                            for _ in range(n_mx):
-                                vecs_keep.append(v_p)
+                            vecs_keep.append((v_p, float(abs(n_mx)), mc_p))
                     elif n_mx < 0:
-                        h1_c += rk_p * (-n_mx)
+                        mc_p = rk_p * abs(n_mx)
+                        h1_c += mc_p
                         if deg_p in (0, 2):
-                            for _ in range(-n_mx):
-                                vecs_keep.append(v_p)
+                            vecs_keep.append((v_p, float(abs(n_mx)), mc_p))
                     else:
                         _, sv_t, vh_t = np.linalg.svd(np.vstack([ta_p - np.eye(rk_p), tb_p - np.eye(rk_p)]))
                         v_triv = v_p @ vh_t[sv_t < 1e-9].conj().T
@@ -2380,20 +2483,21 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
                         h0_c += n_tr
                         h1_c += n_tr
                         if (deg_p == 1 or deg_p in (0, 2)) and n_tr > 0:
-                            vecs_keep.append(v_triv)
+                            vecs_keep.append((v_triv, 1.0, n_tr))
                 if m_id and a_ex != 1:
                     m_bd = len(m_id) // 2
                     n_mx_m = ((a_ex + 1) // 2) if a_ex < 1 else (a_ex // 2)
                     dg_p = -1 + 2 * n_mx_m
                     v_m = v_s @ vc_k[:, m_id]
+                    mc_m = m_bd * abs(dg_p)
                     if dg_p > 0:
-                        h0_c += m_bd * dg_p
+                        h0_c += mc_m
                         if deg_p == 1:
-                            vecs_keep.append(v_m)
-                    else:
-                        h1_c += m_bd * (-dg_p)
+                            vecs_keep.append((v_m, 0.5 * float(abs(dg_p)), mc_m))
+                    elif dg_p < 0:
+                        h1_c += mc_m
                         if deg_p in (0, 2):
-                            vecs_keep.append(v_m)
+                            vecs_keep.append((v_m, 0.5 * float(abs(dg_p)), mc_m))
             return h0_c, h1_c, vecs_keep
 
         _, a_h1, v_a = count_deg(0, b_0, mu_sub_op, xa_sub, yb_sub)
@@ -2410,6 +2514,28 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
             "vecs_spin": v_sp,
             "vecs_lam": v_lm,
         }
+
+    def weighted_subspace_support(
+        blocks_l: list[tuple[np.ndarray, float, int]], row_idx: list[int]
+    ) -> float:
+        return sum((wt_col * float(np.sum(np.abs(v_on[row_idx, :]) ** 2)) for v_on, wt_col, _ in blocks_l), 0.0)
+
+    def check_orthonormal_blocks_full_rank(res_d: dict[str, Any]) -> bool:
+        for slot_k, cnt_k in (("vecs_a", "a_modes"), ("vecs_spin", "spin_modes"), ("vecs_lam", "lam_modes")):
+            blks = res_d[slot_k]
+            if sum(mc_b for _, _, mc_b in blks) != res_d[cnt_k]:
+                return False
+            for v_on, wt_col, mc_b in blks:
+                n_cols = int(v_on.shape[1])
+                if n_cols <= 0:
+                    return False
+                if int(np.linalg.matrix_rank(v_on, tol=1e-9)) != n_cols:
+                    return False
+                if float(np.max(np.abs(v_on.conj().T @ v_on - np.eye(n_cols)))) >= TOL:
+                    return False
+                if abs(wt_col * n_cols - mc_b) >= TOL:
+                    return False
+        return True
 
     # Subbundle indices on 128 = S_16^+:
     idx_16_4_all = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == -sp.I and om6_k[r_2, r_2] == sp.I]
@@ -2443,10 +2569,10 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
 
     # Live Spin(10) SU(5)-singlet nu_R (st == 31, 5-fermion Fock state) support inside (16, 3_{-1/2}):
     nur_local_in_16_3 = [pos_i for pos_i, k_128 in enumerate(idx_16_3_h4) if splus_k[k_128][0] == 31]
-    nur_weight_a = sum(float(np.linalg.norm(v_m[nur_local_in_16_3, :], "fro") ** 2) for v_m in res_16_3["vecs_a"])
+    nur_weight_a = weighted_subspace_support(res_16_3["vecs_a"], nur_local_in_16_3)
     nur_local_spin = nur_local_in_16_3 + [len(idx_16_3_h4) + pos_i for pos_i in nur_local_in_16_3]
-    nur_weight_spin = sum(float(np.linalg.norm(v_m[nur_local_spin, :], "fro") ** 2) for v_m in res_16_3["vecs_spin"])
-    nur_weight_lam = sum(float(np.linalg.norm(v_m[nur_local_in_16_3, :], "fro") ** 2) for v_m in res_16_3["vecs_lam"])
+    nur_weight_spin = weighted_subspace_support(res_16_3["vecs_spin"], nur_local_spin)
+    nur_weight_lam = weighted_subspace_support(res_16_3["vecs_lam"], nur_local_in_16_3)
 
     # On h_1: prove X_{128}^(h_1), Y_{128}^(h_1) lie in the (odd, odd) Pin component and swap (16,4) <-> (16bar,4bar)
     # purely off-diagonally, so dim(ker D_{h_1} cap (16,4)) == 0 and all 24 modes are 50/50 vectorlike Pin-entangled!
@@ -2459,12 +2585,16 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
     h1_offdiag_xa = float(np.linalg.norm(xa128_h1[np.ix_(idx_16_4_all, idx_16bar_4bar_all)], "fro"))
     h1_offdiag_yb = float(np.linalg.norm(yb128_h1[np.ix_(idx_16_4_all, idx_16bar_4bar_all)], "fro"))
     res_128_h1 = eval_parabolic_subspace_eta00(e128_k, g128_k, mu128_k, xa128_h1, yb128_h1)
-    h1_a_16_4_wt = sum(float(np.linalg.norm(v_m[idx_16_4_all, :], "fro") ** 2) for v_m in res_128_h1["vecs_a"])
-    h1_a_16bar_wt = sum(float(np.linalg.norm(v_m[idx_16bar_4bar_all, :], "fro") ** 2) for v_m in res_128_h1["vecs_a"])
+    h1_a_16_4_wt = weighted_subspace_support(res_128_h1["vecs_a"], idx_16_4_all)
+    h1_a_16bar_wt = weighted_subspace_support(res_128_h1["vecs_a"], idx_16bar_4bar_all)
     idx_16_4_spin128 = idx_16_4_all + [128 + ix_s for ix_s in idx_16_4_all]
     idx_16bar_spin128 = idx_16bar_4bar_all + [128 + ix_s for ix_s in idx_16bar_4bar_all]
-    h1_sp_16_4_wt = sum(float(np.linalg.norm(v_m[idx_16_4_spin128, :], "fro") ** 2) for v_m in res_128_h1["vecs_spin"])
-    h1_sp_16bar_wt = sum(float(np.linalg.norm(v_m[idx_16bar_spin128, :], "fro") ** 2) for v_m in res_128_h1["vecs_spin"])
+    h1_sp_16_4_wt = weighted_subspace_support(res_128_h1["vecs_spin"], idx_16_4_spin128)
+    h1_sp_16bar_wt = weighted_subspace_support(res_128_h1["vecs_spin"], idx_16bar_spin128)
+    all_stored_blocks_full_rank = all(
+        check_orthonormal_blocks_full_rank(r_sec)
+        for r_sec in (res_16_3, res_16_1, res_16bar_3bar, res_16bar_1, res_128_h1)
+    )
     # Check directly that ZERO non-trivial holonomy-invariant subspace of (16, 4) exists on h_1:
     # Any vector v in (16,4) mapped into (16,4) by X_{128}^(h_1) must satisfy X_{bar, 16_4} v = 0; since X_{bar, 16_4} is unitary (64x64), ker = 0!
     h1_chiral_16_4_inv_dim = int(64 - np.linalg.matrix_rank(xa128_h1[np.ix_(idx_16bar_4bar_all, idx_16_4_all)], tol=1e-9))
@@ -2498,6 +2628,7 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
     h4_non_sm_excl_10_6 = h4_non_sm_triplet_total - h4_roster["vector_10_6"]
     roster_accounting_exact = (
         spin_orbit_both_bgs
+        and all_stored_blocks_full_rank
         and h4_sub_leak < TOL
         and (res_16_3["a_modes"], res_16_3["spin_modes"], res_16_3["lam_modes"]) == (6, 3, 0)
         and (res_16_1["a_modes"], res_16_1["spin_modes"], res_16_1["lam_modes"]) == (2, 1, 0)
@@ -2513,8 +2644,10 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         and abs(h1_offdiag_yb - 8) < TOL
         and h1_chiral_16_4_inv_dim == 0
         and res_128_h1["total"] == h1_sec["128"] == 24
-        and abs(h1_a_16_4_wt - h1_a_16bar_wt) < TOL
-        and abs(h1_sp_16_4_wt - h1_sp_16bar_wt) < TOL
+        and abs(h1_a_16_4_wt - 8) < TOL
+        and abs(h1_a_16bar_wt - 8) < TOL
+        and abs(h1_sp_16_4_wt - 4) < TOL
+        and abs(h1_sp_16bar_wt - 4) < TOL
         and nu_r_per_16_static == 1
         and nu_r_3gen_static == 3
         and sum(h4_roster.values()) == 68
@@ -2547,6 +2680,10 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         "h4_vs_h1_family_chirality_control_exact": h4_vs_h1_family_chirality_exact,
         "so10_ten_doublet_triplet_content_and_anomaly_free": ten_anomalies_zero,
         "e8_6d_gs_quartic_factorization_exact": e8_6d_gs_factorization_exact,
+        "grav_0t_target_coeff_sp": grav_0t_coeff_sp,
+        "grav_1t_target_coeff_sp": grav_1t_coeff_sp,
+        "grav_6d_pure_sym_residual_0t_sp": grav_0t_pure_sym_residual_sp,
+        "grav_6d_pure_sym_residual_1t_sp": grav_1t_pure_sym_residual_sp,
         "grav_6d_pure_sym_residual_sp": grav_6d_pure_sym_residual_sp,
         "o1_bare_qz_flux_obstructed_without_inflow": o1_bare_flux_obstructed,
         "o1_closed_su2_doublets": o1_closed_su2_doublets,
@@ -2568,9 +2705,10 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
             ),
             "D:09": (
                 "EXPLICIT_UNLIFTED_EXOTICS_IDENTIFIED (live Stage-2 kernel has 68 zero modes on h_4 [9 in (16,3_{-1/2}) "
-                "with live nu_R weights (0, 3/2, 0) across (H^0, H^1, H^2), 3 family-singlet exotics in (16,1_{+3/2}), "
-                "9+3 conjugate mirrors, 18 in (10,6), 8 in (45,1), 18 in (1,15)] vs 70 on pseudoreal h_1 [24 Pin-entangled "
-                "50/50 vectorlike modes on 128 with 0 chiral (16,4) modes], plus 16 Q_8 continuum bundles above 1/(4 ell^2))"
+                "with live nu_R weights (0, 3/4, 0) across Koszul degrees (0: a-slot H^1, 1: spin-slot H^0, 2: lam-slot H^1), "
+                "3 family-singlet exotics in (16,1_{+3/2}), 9+3 conjugate mirrors, 18 in (10,6), 8 in (45,1), 18 in (1,15)] "
+                "vs 70 on pseudoreal h_1 [24 Pin-entangled 50/50 vectorlike modes on 128 with 0 chiral (16,4) modes], "
+                "plus 16 Q_8 continuum bundles above 1/(4 ell^2))"
             ),
         },
     }
