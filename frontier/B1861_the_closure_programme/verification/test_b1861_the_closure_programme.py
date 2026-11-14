@@ -1024,3 +1024,35 @@ def test_the_row_of_a_finding_names_the_arc_that_replaced_its_fix():
     # the arc it names says the same of itself
     b1878 = " ".join((ARC.parent / "B1878_the_goal_as_ruled_in_the_governing_documents" / "FINDINGS.md").read_text(encoding="utf-8").split())
     assert "B1880 replaced that rule as well" in b1878
+
+
+# 2026-11-13 (R80b, part 6, patch 26; main's M21).  The words of the ruling of 2026-10-08 are held nowhere in marks: not in the
+# source, not on the page, not in the data.  The plain words ("the ruling of 2026-10-08 that only even ticks are observed",
+# or shorter) stand where they are needed.  A form in marks is found by a mark of quotation that stands right before the
+# words (and not after a letter, as an apostrophe of possession does) and one that closes within thirty characters after
+# them, so that no spelling of the ruling's words is needed here.
+_IN_MARKS = re.compile(r"(?<![A-Za-z])[\'\"\u2018\u201c\u00ab]\s*(?:only\s+)?even\s+ticks\b[^\'\"\u2019\u201d\u00bb\n]{0,30}[\'\"\u2019\u201d\u00bb](?![A-Za-z])")
+
+
+def _the_rulings_words_in_marks(text):
+    return [m.group(0) for m in _IN_MARKS.finditer(text)]
+
+
+def test_the_words_of_the_ruling_of_2026_10_08_stand_in_marks_nowhere_in_the_source_the_page_or_the_data():
+    arc = pathlib.Path(__file__).resolve().parents[1]
+    for rel in ("verification/programme_source.py", "PROGRAMME.md", "PROGRAMME.json"):
+        text = (arc / rel).read_text(encoding="utf-8")
+        assert _the_rulings_words_in_marks(text) == [], rel
+        assert "only even ticks are observed" in text, rel                       # the plain words stand
+    # planted: the plain words put in marks, in each of the shapes a mark takes; and their twin, the same words without marks
+    plain = "the ruling of 2026-10-08 that only even ticks are observed"
+    for a, b in (("'", "'"), ('"', '"'), ("\u2018", "\u2019"), ("\u201c", "\u201d"), ("\u00ab", "\u00bb")):
+        assert _the_rulings_words_in_marks("you ruled %sonly even ticks are observed%s on that day" % (a, b)), a
+        assert _the_rulings_words_in_marks("%seven  ticks%s" % (a, b)), a
+    assert _the_rulings_words_in_marks(plain) == [] and _the_rulings_words_in_marks("how 'the tick is an act' stands with " + plain) == []
+    # the source with one of the five places as it stood is refused: the name of the fourth ruling put back in marks
+    src = (arc / "verification" / "programme_source.py").read_text(encoding="utf-8")
+    old = '("the ruling of 2026-10-08, after the computation"'
+    assert src.count(old) == 1
+    assert _the_rulings_words_in_marks(src.replace(old, '("\'only even ticks\', after the computation"')) != []
+

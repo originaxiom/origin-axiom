@@ -842,21 +842,25 @@ OPINION.update({
     "what exists is what survives": "agree as wording: nothing is ranked least or first, so every selection by rank is a selection on one thread and is labelled so",
     "the ledger, cancelling, interaction": "agree as wording: 'the whole ledger' and 'a third thing that is kept' can be adopted; neither is yet a mathematical object, and the same definition is owed as for all histories together",
 })
+# 2026-11-13 (R80b, part 6, patch 26; main's M21): the words of the ruling of 2026-10-08 stood in marks in five places of
+# this table, in the names of two rulings, in main's two questions as they were asked, and in one account of what a
+# ruling means.  Main cannot show that they were its own label and not the owner's, so they are treated as his (register
+# row P-796), and all five are in plain words now.  What stood is not kept here.
 DIRECT_RULINGS = [           # (name, the question as main put it, the owner's chosen answer, date, packages, what it means on main)
     ("what a ground is", "What is a ground: the act itself, or any history that exists?", "The act itself (Recommended)", "2026-11-11", ["WP-1.5", "WP-1.4"],
      "one ground, the tick, and one level, 5, named without ranking anything; to be written as a new postulate with its own number, not as derived (B1876: with every history as a ground there are four root classes and no order)"),
     ("what 'the ledger must close' means", "What does 'the ledger must close' mean: that the whole agrees with itself, or that one value comes out?", "Whole agrees (Recommended)", "2026-11-11", ["WP-1.6", "WP-0.10"],
      "one outcome is one orbit of the whole, not one history picked; the closing selects nothing by itself, and a value can only be read from the whole, which needs the weight"),
     # asked the same day, when main found that it had not put the owner's standing ruling of 2026-10-08 beside its question on the tick
-    ("how 'the tick is an act' stands with 'even ticks observed'",
-     "On 2026-10-08 you ruled 'even ticks observed' ... Today you ruled that the tick is an act and both kinds of history are in the ledger. I did not remind you of the first ruling when I asked. How do the two stand together?",
+    ("how 'the tick is an act' stands with the ruling of 2026-10-08",
+     "On 2026-10-08 you ruled that only even ticks are observed ... Today you ruled that the tick is an act and both kinds of history are in the ledger. I did not remind you of the first ruling when I asked. How do the two stand together?",
      "After the computation", "2026-11-11", ["WP-1.4"],
      "both rulings stand side by side and the foundation records both; their relation is decided after main has computed the weave's theorems for the group with the exchange (P-769). Until then nothing says that the orientation has stopped being a choice, or that the mark is both twins"),
     # the computation was made the same day (B1879), and the question put again with its result
-    ("'even ticks observed', after the computation",
-     "With the computation in hand: your ruling of 2026-10-08 says 'even ticks observed' ... Today you ruled the tick an act. The computation shows the only thing at stake between them is the hand ... How should they stand together?",
+    ("the ruling of 2026-10-08, after the computation",
+     "With the computation in hand: your ruling of 2026-10-08 says that only even ticks are observed ... Today you ruled the tick an act. The computation shows the only thing at stake between them is the hand ... How should they stand together?",
      "A condition to derive (Recommended)", "2026-11-11", ["WP-1.4", "WP-1.6"],
-     "every tick is in the ledger; 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver; the chiral three stays exactly as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice, and is not counted as derived (B1879)"),
+     "every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver; the chiral three stays exactly as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice, and is not counted as derived (B1879)"),
 ]
 
 ADVISOR_QUOTES = [

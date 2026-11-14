@@ -89,10 +89,13 @@ def test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words():
     assert sorted(prog["confirmed_later"]) == ["no rule picks a next thing", "the ledger, cancelling, interaction", "the tick is an act", "what exists is what survives"]
     # the first three are the review's; a fourth was given after it, with the computation in hand (B1879), and the
     # programme lists the rulings in the order they were given, so the review's three stay the first three
+    # [CHANGED 2026-11-13 (R80b, part 6, patch 26; main's M21).  The third and fourth names held here stood in the words of
+    #  the ruling of 2026-10-08, in marks; main has them in plain words in the programme, as words treated as the owner's
+    #  (P-796), and this lock holds the names as they now stand.  What stood is not kept.]
     assert [r[0] for r in prog["direct_rulings"]][:3] == ["what a ground is", "what 'the ledger must close' means",
-                                                           "how 'the tick is an act' stands with 'even ticks observed'"]
+                                                           "how 'the tick is an act' stands with the ruling of 2026-10-08"]
     assert prog["direct_rulings"][2][2] == "After the computation" and "'After the computation'" in rows["P-771"]
-    assert [r[0] for r in prog["direct_rulings"]][3:] == ["'even ticks observed', after the computation"]
+    assert [r[0] for r in prog["direct_rulings"]][3:] == ["the ruling of 2026-10-08, after the computation"]
     assert prog["direct_rulings"][3][2] == "A condition to derive (Recommended)"
     assert "A condition to derive (Recommended)" in rows["P-771"]
     # the over-reading is corrected where it stood: no page says the ruling on the tick settles the mark
