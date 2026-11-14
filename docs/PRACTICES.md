@@ -1459,3 +1459,17 @@ before B1923 (the ledger `audit/negatives/2026-11-13/`).
 **Why it exists.** B1918 banked a route closed from fits over a family of forms that did not hold the true one; it stood
 for half an hour and was retracted the same day only because the SM seat, given the same step, found the exact formula
 from its sealed calibration (B1919).
+
+## A verdict line that claims a selection names its family — GATED (`selection-family`) (adopted 2026-11-12, B1905; WORKING_RULES, the rule "BEFORE A SELECTION OR A HAND IS CLAIMED")
+
+**The rule (main's, in the working rules with B1905).** A selection is claimed only by a criterion that can fail, and the
+page says which of the two families that have ever forced anything here it belongs to (B1204): a finite classification with
+a test of membership, or a consistency condition that a candidate can violate. The gate reads every verdict line from B1905
+on. A clause that says "selects", "picks", "singles out", "is forced" or "forces", with no word of denial or of condition
+before it in its own clause and a value or a member as its object, is a claim; its page must name one of the two families.
+The older lines are not read, and their count is printed: 114 on the day the gate came in, of which the page of one names a
+family. Most are deductions the rule is not about.
+
+**Why it exists.** B1905 read 511 arcs on selection and chirality: a measure settled no question of this kind and an extremum a
+quarter of those it was asked, while the record had drawn the lesson in August (B1204) and put it in no governing page. Steps
+1, 2 and 4 of the rule are MANUAL; the topic sweep prints the ledger of walls (step 1).

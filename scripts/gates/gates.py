@@ -3025,6 +3025,100 @@ def gate_member_scope(reader=None):
         return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
     return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
 
+# ---------------------------------------------------------------------------------------------------------------------------
+# A VERDICT LINE THAT CLAIMS A SELECTION NAMES ITS FAMILY (2026-11-12; main's card C13, item 5; WORKING_RULES, the rule
+# "BEFORE A SELECTION OR A HAND IS CLAIMED", step 3, after B1204 and B1905).  A selection is claimed only by a criterion that
+# can fail, and the page says which of the two families that have ever forced anything here it belongs to: a finite
+# classification with a test of membership, or a consistency condition that a candidate can violate.
+#
+# What is a claim (the building session's reading of main's words, which are main's to change): a word of selection
+# ("selects", "picks", "singles out", "is forced", "forces") in a clause of the verdict line, with no word of denial or of
+# condition before it IN ITS OWN CLAUSE, and a value or a member as its object: a number, an equation, a code in backticks,
+# or a word that names one of several ("one", "unique", "exactly", "only", "the root", "the hand", ...).  A clause ends at a
+# full stop, a semicolon, a colon, a dash between spaces, or a bracket.  An arc number in brackets is a citation and is no
+# value.  The family is read on the arc's page: one of the two phrases "finite classification" and "consistency condition".
+#
+# THE GATE READS ARCS FROM B1905 ON, the arc with which the rule came in.  Measured on 2026-11-12 over every older verdict line:
+# 115 read as claims by this reading and 1 of their pages names a family.  Most are deductions ("m^2+4 = k^2 forces m = 0")
+# that the rule is not about, and none was written under it.  They are not read, and their count is printed, so that a
+# change in the reading shows.
+SELECTION_FAMILY_FROM = 1905
+_SEL_VERB = re.compile(r"\b(selects|selected|select|picks|picked|singles out|singled out|single out|is forced|are forced|was forced|forced to be|forces)\b", re.I)
+_SEL_CLAUSE_END = re.compile(r"(?:[.;:!?](?:\s|$)|\s--\s|\s—\s|\s–\s|\(|\)|\[|\])")
+_SEL_DENY = re.compile(r"\b(no|not|never|cannot|nothing|none|neither|nor|without|fails? to|whether|if|would|could|might|unless)\b|\b\w+n't\b", re.I)
+_SEL_OBJECT = re.compile(r"\d|=|`|\b(one|a single|the single|unique|uniquely|exactly|only|the value|a value|the member|a member|the root|the hand|"
+                         r"the orientation|the sign|the level|the lift|the branch|the thread|the state|m00\d)\b", re.I)
+_SEL_CITATION = re.compile(r"\(?\b(?:B|P-|E|R|L|T|X|W)\d+[a-z]?\b\)?|\b0 of 19\b")
+SELECTION_FAMILIES = re.compile(r"finite classification|consistency condition", re.I)
+# Held by name (2026-11-14, the builder's reading, for main to check; built again on main's a0bfa2ff4): an arc from B1905
+# on whose page names its family and its condition in other words than the two above. Each is held only while the page
+# keeps the words given, so a page that loses them is reported again.
+SELECTION_FAMILY_NAMED_OTHERWISE = {
+    "B1927": ("There are two\n  conventions: the maximal embedded horoball (L_max) and the horocycle of length 2 (L_2).",
+              "Requiring the end to be real-analytic in τ, as every other part of the frame is,\n  selects the horocycle of length 2."),
+}
+
+
+def selection_claims_in(line):
+    """the clauses of a verdict line that claim a selection with a value or a member as its object"""
+    out = []
+    for m in _SEL_VERB.finditer(line):
+        start = 0
+        for e in _SEL_CLAUSE_END.finditer(line, 0, m.start()):
+            start = e.end()
+        nxt = _SEL_CLAUSE_END.search(line, m.end())
+        end = nxt.start() if nxt else len(line)
+        before, after = line[start:m.start()], line[m.end():end]
+        if _SEL_DENY.search(before):
+            continue
+        if not _SEL_OBJECT.search(_SEL_CITATION.sub(" ", before + " " + after)):
+            continue
+        out.append(" ".join(line[start:end].split()))
+    return out
+
+
+def selection_family_hits(reader=None, first=None):
+    """(arc id, the clause) for each arc from `first` on whose verdict line claims a selection and whose page names neither
+    family; and the count of older arcs that the same reading would report."""
+    reader = reader or (lambda rel: _read(rel))
+    first = SELECTION_FAMILY_FROM if first is None else first
+    hits, older = [], 0
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        rel = os.path.relpath(p, ROOT)
+        try:
+            d = json.loads(reader(rel))
+        except Exception:
+            continue
+        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
+        num = int(re.sub(r"\D", "", aid) or 0)
+        claims = selection_claims_in(str(d.get("claim_one_line", "")))
+        if not claims:
+            continue
+        try:
+            page = reader(os.path.join(os.path.dirname(rel), "FINDINGS.md"))
+        except Exception:
+            page = ""
+        if SELECTION_FAMILIES.search(page or ""):
+            continue
+        if aid in SELECTION_FAMILY_NAMED_OTHERWISE and all(w in (page or "") for w in SELECTION_FAMILY_NAMED_OTHERWISE[aid]):
+            continue
+        if num < first:
+            older += 1
+        else:
+            hits.append((aid, claims[0][:120]))
+    return hits, older
+
+
+def gate_selection_family(reader=None):
+    """WORKING_RULES, the rule of 2026-11-12, step 3: an arc from B1905 on whose verdict line claims a selection, with a value
+    or a member as its object, names on its page which of the two families its criterion belongs to (B1204)."""
+    hits, older = selection_family_hits(reader)
+    if hits:
+        return False, ("%d verdict line(s) from B%d on claim a selection and the page names neither family (a finite classification with a test "
+                       "of membership, or a consistency condition): " % (len(hits), SELECTION_FAMILY_FROM)) + "; ".join("%s: %s" % h for h in hits[:5])
+    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
+
+
 _SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
 
 
@@ -3230,6 +3324,7 @@ GATES = {
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,
     "negative-second-computation": gate_negative_second_computation,
+    "selection-family": gate_selection_family,
 }
 
 
