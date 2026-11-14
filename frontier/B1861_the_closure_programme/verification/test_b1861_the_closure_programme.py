@@ -31,6 +31,74 @@ def _wp(i):
     return next(x for x in S.WP if x["id"] == i)
 
 
+# Review 80 (2026-11-12; sent back by the builder with the first part of its second series, and the cause named by the reader
+# of that part).  THIS LOCK LEFT THE PLAN'S SOURCE CHANGED.  Run in one process before tests/test_closure_generated.py, it made
+# two tests of that file fail: the builder's output was then no longer the committed page.  The cause: a control that takes
+# a name out of a list put it back at the list's END, so the list came back in another order (the nodes of one package, the
+# members of entries of the budget), and the next file's import took the module as it was left.  Main's word (its third folder
+# for the builder, section 8, row 4): a control that changes the builder's module leaves it as it found it.  So the source is
+# copied whole when this lock is loaded, each control puts it back from that copy and not only by its own undoing, and it
+# is put back after every test of this file.  What a control undid by hand is still undone by hand first, as before.
+def _the_source_as_it_stands():
+    """every name of the plan's source that holds data, copied whole"""
+    return {k: copy.deepcopy(v) for k, v in vars(S).items()
+            if not k.startswith("__") and isinstance(v, (list, dict, set, tuple, str, int, float, bool, type(None)))}
+
+
+def _put_into(now, was):
+    """make `now` equal to `was`, in place wherever both are a list or a table of one shape, so that a name that points into
+    the source still points at what it pointed at"""
+    if isinstance(now, dict) and isinstance(was, dict):
+        for k in [k for k in now if k not in was]:
+            del now[k]
+        for k, v in was.items():
+            if k in now and type(now[k]) is type(v) and isinstance(v, (list, dict)):
+                _put_into(now[k], v)
+            elif k not in now or now[k] != v:
+                now[k] = copy.deepcopy(v)
+        if list(now) != list(was):                       # the order of a table's keys is part of what the builder prints
+            kept = dict(now)
+            now.clear()
+            now.update((k, kept[k]) for k in was)
+    elif isinstance(now, list) and isinstance(was, list):
+        if len(now) == len(was) and all(type(a) is type(b) for a, b in zip(now, was)):
+            for i, (a, b) in enumerate(zip(now, was)):
+                if isinstance(b, (list, dict)):
+                    _put_into(a, b)
+                elif a != b:
+                    now[i] = copy.deepcopy(b)
+        else:
+            now[:] = copy.deepcopy(was)
+
+
+def _put_the_source_back(found):
+    for k in [k for k, v in vars(S).items() if not k.startswith("__") and k not in found
+              and isinstance(v, (list, dict, set, tuple, str, int, float, bool, type(None)))]:
+        delattr(S, k)
+    for k, was in found.items():
+        now = getattr(S, k, None)
+        if type(now) is type(was) and isinstance(was, (list, dict)):
+            _put_into(now, was)
+        elif not hasattr(S, k) or now != was:
+            setattr(S, k, copy.deepcopy(was))
+
+
+def _how_the_source_differs(found):
+    """the names of the source that are not what they were, in value or in the order of what they hold"""
+    now = _the_source_as_it_stands()
+    return sorted(k for k in set(now) | set(found) if k not in now or k not in found or now[k] != found[k]
+                  or json.dumps(now[k], sort_keys=False, default=str) != json.dumps(found[k], sort_keys=False, default=str))
+
+
+_THE_SOURCE_AS_FOUND = _the_source_as_it_stands()          # after the first build above: the builder itself adds to the source's entries
+
+
+@pytest.fixture(autouse=True)
+def _the_source_is_left_as_it_was_found():
+    yield
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+
+
 @contextlib.contextmanager
 def planted(apply, undo):
     apply()
@@ -38,6 +106,7 @@ def planted(apply, undo):
         yield _refusals()
     finally:
         undo()
+        _put_the_source_back(_THE_SOURCE_AS_FOUND)          # until 2026-11-12: undo() alone
 
 
 def test_the_programme_covers_the_map():
@@ -777,3 +846,32 @@ def test_the_plans_page_quotes_nothing_of_the_owner():
                   "CONFIRMED 2026-11-11: asked \"Is the tick an act?\", the owner chose main's option: Yes, admit it (Recommended)"):
         assert what_the_plans_page_quotes(quiet) == [], quiet
 
+
+
+def test_a_control_leaves_the_plans_source_as_it_found_it():
+    """the control below is the shape that left the source changed: a name taken out of a list and put back at its end.  With
+    its own undoing alone the list comes back in another order; put back from the copy, it is as it was."""
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
+    package = next(w for w in S.WP if len(w["nodes"]) >= 3)
+    first = package["nodes"][0]
+    package["nodes"].remove(first)
+    package["nodes"].append(first)                          # the undoing as the controls wrote it: back, and at the end
+    assert sorted(package["nodes"]) == sorted(next(w for w in _THE_SOURCE_AS_FOUND["WP"] if w["id"] == package["id"])["nodes"])
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == ["WP"], "the same names in another order are not seen as a difference"
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == [] and package["nodes"][0] == first and package is next(w for w in S.WP if w["id"] == package["id"])
+    # through the helper every control uses: an undoing that puts back at the end leaves nothing behind
+    with planted(lambda: package["nodes"].remove(first), lambda: package["nodes"].append(first)) as refusals:
+        assert refusals
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
+    # a name added to the source, a name taken from it, a table's key added, a text changed: each is put back
+    S.A_NAME_THAT_WAS_NOT_THERE = ["x"]
+    kept = S.CONFIRMATION
+    S.CONFIRMATION = ("", "")
+    S.INPUTS[0]["a key that was not there"] = 1
+    del S.DEBT_TO_WP[next(iter(S.DEBT_TO_WP))]
+    assert len(_how_the_source_differs(_THE_SOURCE_AS_FOUND)) == 4
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == [] and S.CONFIRMATION == kept and not hasattr(S, "A_NAME_THAT_WAS_NOT_THERE")
+    # and what the next file asks: the builder's output is the committed page
+    assert bp.build()["fails"] == [] and _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
