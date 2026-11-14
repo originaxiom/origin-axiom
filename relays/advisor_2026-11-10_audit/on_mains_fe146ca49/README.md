@@ -21,14 +21,14 @@ one script, then `git commit -F` its message. The runs are in `what_was_run.txt`
 | `fix_tip/` | the two faults the full suite found | 1 | `15214a9dcc4670a8e289bcd7f33cdd28630b6645` |
 | `c17/` | card C17 (its register addition put onto your P-318) | 1 | `a739e77c364e9d956a7fe741ae223352562e49f8` |
 | `c14_second_part/` | card C14, patches 5 to 7 (patch 7 a script) | 3 | `0e448b91ac027f26ec2b7c32ce3600385252ff06` |
-| `c13_follow_ups/` | C13's follow-ups, patches 1 to 4 (patch 3 after C14's patch 10; patch 4, the twelve notes, last) | 4 | `a150805a955c4e80cd45543c92a9f64cdd778815` |
-| `fix_tip_2/` | two locks' kept runs | 1 | `6e52f98a1056c4021a1c3053d4efef87feee363b` |
-| `c14_third_part/` | C14, patch 8 | 1 | `cbe307611551ffeb574d1bd4dcb05dfb9a7a5ebb` |
-| `c14_fourth_part/` | C14, patch 9 (a script) | 1 | `4b3e43d406037d8e8613ca953e2a13dc7c582bba` |
-| `c14_fifth_part/` | C14, patch 10 | 1 | `f9178361160288017c34d842d724914ab70b25d0` |
-| `c18/` | card C18: the move, one entry (a diff and a script); the foundation's version 1.68 is B1930 | 1 | `e7ae142e8342bc875f4b7ddd05ceb330ab73bb79` |
-| `c14_patch_8_met/` | C14, patch 8 met (M30) | 1 | `7cb5d5956976dea2bc948908308d0ff4d8cc97d0` |
-| `c14_terminology/` | TERMINOLOGY (M29) | 1 | `08db97b7ade6ee0b205527b63961103495d7e1b2` |
+| `c13_follow_ups/` | C13's follow-ups, patches 1 to 4 (patch 3 after C14's patch 10; patch 4, the twelve notes, last) | 4 | `8d40076d445a51bae05476b1f490a7c9fa0496c7` |
+| `fix_tip_2/` | two locks' kept runs | 1 | `818336b078f4b2b39d460ed4b33039b66e22f2d3` |
+| `c14_third_part/` | C14, patch 8 | 1 | `abec8b20c52d32a8054e72161e68ae61909c983d` |
+| `c14_fourth_part/` | C14, patch 9 (a script) | 1 | `5b6a9e05e48feccba27a3e59486f369a369f6b7e` |
+| `c14_fifth_part/` | C14, patch 10 | 1 | `ca793f32da8851dec025d46ad42bc017eea4ee87` |
+| `c18/` | card C18: the move, one entry (a diff and a script); the foundation's version 1.68 is B1930 | 1 | `e2558cf6be3391a3e1ff4c836a86a20c1dded121` |
+| `c14_patch_8_met/` | C14, patch 8 met (M30) | 1 | `900bb59ee4506062099af1dfd9f6c2ca8bb134ee` |
+| `c14_terminology/` | TERMINOLOGY (M29) | 1 | `533b50ebcd2e4ac8ecdc40476575f46939258539` |
 
 ## What changed in this building, and why
 
@@ -50,3 +50,5 @@ one script, then `git commit -F` its message. The runs are in `what_was_run.txt`
    `docs/SM_SPECIFICATION_LEDGER.md` cites B1894 at newest; on `fe146ca49` it lags exactly 30 arcs, the tolerance, and
    C18's new arc B1930 makes it 31. Any arc you add next does the same. Its content is yours: a line that cites a newer
    arc, or the frozen mark, settles it in the landing.
+8. **The chain's second fix (fix_tip_2) keeps B1867's and B1873's runs made again on this head** (the map moved), as it
+   did before: the full suite on this build's first form found both; the arcs' tests pass.

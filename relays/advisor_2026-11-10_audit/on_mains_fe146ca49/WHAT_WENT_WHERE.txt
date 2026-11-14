@@ -80,12 +80,12 @@ c14_second_part 99b0be472 c14_second_part/0006-C14-patch-6-cld-advisor-at-main-s
 c14_second_part f3ccd2d4c c14_second_part/0007_the_main_goal_is_archived_byte_for_byte_and_written_again_in_plain_words.py (a script) 0e448b91ac027f26ec2b7c32ce3600385252ff06
 c13_follow_ups 23019b6c7 c13_follow_ups/0001-C13-s-follow-ups-patch-1-cld-advisor-at-main-s-word-.patch 669cc484ebf7c205405334f4ea6a23449bec7cfd
 c13_follow_ups b992dd9dd c13_follow_ups/0002-C13-s-follow-ups-patch-2-cld-advisor-at-main-s-word-.patch 158e0d19450cdc74ab6537ad07b91629fb3285a5
-fix_tip_2 87de7f8f5 fix_tip_2/0001-The-full-suite-on-the-tip-of-this-delivery-two-locks.patch 6e52f98a1056c4021a1c3053d4efef87feee363b
-c14_third_part af9ee5466 c14_third_part/0008-C14-patch-8-cld-advisor-at-main-s-word-in-M25-answer.patch cbe307611551ffeb574d1bd4dcb05dfb9a7a5ebb
-c14_fourth_part d594c6b73 c14_fourth_part/0009_the_working_indices_mark_their_quotations_and_their_generators_speak_plainly.py (a script) 4b3e43d406037d8e8613ca953e2a13dc7c582bba
-c14_fifth_part a5d3acc09 c14_fifth_part/0010-C14-patch-10-cld-advisor-at-main-s-word-in-M25-answe.patch f9178361160288017c34d842d724914ab70b25d0
-c13_follow_ups 0c54cf3e7 c13_follow_ups/0003-C13-s-follow-ups-patch-3-cld-advisor-at-main-s-word-.patch df003ec0d377c7699d4739433e069e632e74aaca
-c18 d2b6d6909 c18/ (a diff and a script) e7ae142e8342bc875f4b7ddd05ceb330ab73bb79
-c14_patch_8_met 1edf3f855 c14_patch_8_met/0001-C14-patch-8-met-cld-advisor-at-main-s-word-in-M30-th.patch 7cb5d5956976dea2bc948908308d0ff4d8cc97d0
-c14_terminology a99a95e39 c14_terminology/0001-C14-TERMINOLOGY-cld-advisor-at-main-s-word-in-M29-ap.patch 08db97b7ade6ee0b205527b63961103495d7e1b2
-c13_follow_ups 4df196f10 c13_follow_ups/0004-C13-s-follow-ups-patch-4-cld-advisor-at-main-s-word-.patch a150805a955c4e80cd45543c92a9f64cdd778815
+fix_tip_2 a400d8310 fix_tip_2/0001-The-full-suite-on-the-tip-of-this-delivery-two-locks.patch 818336b078f4b2b39d460ed4b33039b66e22f2d3
+c14_third_part 5483050d1 c14_third_part/0008-C14-patch-8-cld-advisor-at-main-s-word-in-M25-answer.patch abec8b20c52d32a8054e72161e68ae61909c983d
+c14_fourth_part 5c3737cc5 c14_fourth_part/0009_the_working_indices_mark_their_quotations_and_their_generators_speak_plainly.py (a script) 5b6a9e05e48feccba27a3e59486f369a369f6b7e
+c14_fifth_part 640a5cfd2 c14_fifth_part/0010-C14-patch-10-cld-advisor-at-main-s-word-in-M25-answe.patch ca793f32da8851dec025d46ad42bc017eea4ee87
+c13_follow_ups af11d4b54 c13_follow_ups/0003-C13-s-follow-ups-patch-3-cld-advisor-at-main-s-word-.patch a2844ca4e2baa750d97121dc0af4156f7caa9ddc
+c18 7a32d8167 c18/ (a diff and a script) e2558cf6be3391a3e1ff4c836a86a20c1dded121
+c14_patch_8_met bc81a28d1 c14_patch_8_met/0001-C14-patch-8-met-cld-advisor-at-main-s-word-in-M30-th.patch 900bb59ee4506062099af1dfd9f6c2ca8bb134ee
+c14_terminology f8ed86ddf c14_terminology/0001-C14-TERMINOLOGY-cld-advisor-at-main-s-word-in-M29-ap.patch 533b50ebcd2e4ac8ecdc40476575f46939258539
+c13_follow_ups 3e7f92f1c c13_follow_ups/0004-C13-s-follow-ups-patch-4-cld-advisor-at-main-s-word-.patch 8d40076d445a51bae05476b1f490a7c9fa0496c7

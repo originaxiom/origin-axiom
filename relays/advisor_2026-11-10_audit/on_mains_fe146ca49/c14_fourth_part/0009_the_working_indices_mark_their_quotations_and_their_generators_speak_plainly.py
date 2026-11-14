@@ -13,7 +13,7 @@ it changes and prints the tree, and says whether it is the tree this seat built.
 import hashlib, json, pathlib, subprocess, sys
 
 root = pathlib.Path(sys.argv[1]).resolve()
-EXPECTED = '4b3e43d406037d8e8613ca953e2a13dc7c582bba'
+EXPECTED = '5b6a9e05e48feccba27a3e59486f369a369f6b7e'
 AFTER = "bash -c 'python3 -B scripts/views/generate.py >/dev/null && python3 -B scripts/views/spine.py >/dev/null'"
 OPS = json.loads(r'''[
 [

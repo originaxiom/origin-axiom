@@ -1,4 +1,4 @@
-Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all green). Entries 58 to 91 were gated again after the held counts were measured at entries 58 and 59:
+Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all green); entries 58 to 91 gated again after the held counts were measured, and 83 to 91 after the kept runs were made again:
 1 e514a0e92 54 gates; red: - | 
 2 f3761e6a0 54 gates; red: - | 
 3 de6aad7a0 54 gates; red: - | 
@@ -81,15 +81,15 @@ Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all gre
 80 f3ccd2d4c 56 gates; red: review-fires | 
 81 23019b6c7 56 gates; red: review-fires | 
 82 b992dd9dd 56 gates; red: review-fires | 
-83 87de7f8f5 56 gates; red: review-fires | 
-84 af9ee5466 56 gates; red: review-fires | 
-85 d594c6b73 56 gates; red: review-fires | 
-86 a5d3acc09 56 gates; red: review-fires | 
-87 0c54cf3e7 56 gates; red: review-fires | 
-88 d2b6d6909 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
-89 1edf3f855 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
-90 a99a95e39 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
-91 4df196f10 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+83 a400d8310 56 gates; red: review-fires | 
+84 5483050d1 56 gates; red: review-fires | 
+85 5c3737cc5 56 gates; red: review-fires | 
+86 640a5cfd2 56 gates; red: review-fires | 
+87 af11d4b54 56 gates; red: review-fires | 
+88 7a32d8167 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+89 bc81a28d1 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+90 f8ed86ddf 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+91 3e7f92f1c 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
 
 Applied on a clean checkout of fe146ca49, in order:
  1 r80b_parts_3_to_5  e514a0e92 tree ok am
@@ -174,15 +174,39 @@ Applied on a clean checkout of fe146ca49, in order:
 80 c14_second_part    f3ccd2d4c tree ok script, says the tree is the builder's
 81 c13_follow_ups     23019b6c7 tree ok am
 82 c13_follow_ups     b992dd9dd tree ok am
-83 fix_tip_2          87de7f8f5 tree ok am
-84 c14_third_part     af9ee5466 tree ok am
-85 c14_fourth_part    d594c6b73 tree ok script, says the tree is the builder's
-86 c14_fifth_part     a5d3acc09 tree ok am
-87 c13_follow_ups     0c54cf3e7 tree ok am
-88 c18                d2b6d6909 tree ok script, says the tree is the builder's
-89 c14_patch_8_met    1edf3f855 tree ok am
-90 c14_terminology    a99a95e39 tree ok am
-91 c13_follow_ups     4df196f10 tree ok am
+83 fix_tip_2          a400d8310 tree ok am
+84 c14_third_part     5483050d1 tree ok am
+85 c14_fourth_part    5c3737cc5 tree ok script, says the tree is the builder's
+86 c14_fifth_part     640a5cfd2 tree ok am
+87 c13_follow_ups     af11d4b54 tree ok am
+88 c18                7a32d8167 tree ok script, says the tree is the builder's
+89 c14_patch_8_met    bc81a28d1 tree ok am
+90 c14_terminology    f8ed86ddf tree ok am
+91 c13_follow_ups     3e7f92f1c tree ok am
 ALL 91 APPLIED, EVERY TREE AS RECORDED
 
-The full suite on a fresh clone of entry 91: in the note that follows this one.
+The full suite on a fresh clone of entry 91 before the kept runs were made again:
+fresh-clone suite: FAIL @ 4df196f10 (20 failed, 8830 passed, 74 skipped, 10 warnings); failing: frontier/B1849_the_leads
+failing:
+frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_paid_debt_left_the_ranked_list_and_is_disclosed
+frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/test_b1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised.py::test_the_census_of_the_map_counts_what_it_says
+frontier/B1873_the_programme_read_by_a_non_author/verification/test_b1873_the_programme_read_by_a_non_author.py::test_the_recount_runs_and_says_what_the_findings_quote
+frontier/B1877_review_78_the_decadal_review/verification/test_b1877_review_78.py::test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_ceilings_gate_as_mended
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list
+frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_mains_files_are_as_main_wrote_them
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_the_numbers_are_held_as_sentences_and_not_as_digits
+frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/test_b1927_canonical_end.py::test_covariance
+frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/test_b1927_canonical_end.py::test_grid_point_recomputed
+tests/test_b1290_index_formula.py::test_the_backlinks_did_NOT_change_any_verdict
+tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+tests/test_b818_retracted_rule.py::test_retracted_stays_a_small_deliberate_set
+tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+tests/test_b921_9b_retraction_debt_gate.py::test_the_check_fails_when_the_rows_are_stripped
+tests/test_b921_9b_retraction_debt_gate.py::test_the_real_ledger_is_clean
+tests/test_repo_gates.py::test_all_gates_pass
+
+Of these: 12 fail on fe146ca49 itself (run there); 3 on the count of landings; B1426's lanes, the clone artifact; B1927's two tests, which meet scripts/stepb/grid.py by name (main's); and B1867's and B1873's kept runs, now made again in entry 83 (their tests: 10 passed).

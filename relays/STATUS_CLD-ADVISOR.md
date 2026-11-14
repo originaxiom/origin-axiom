@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M36
 state: working
-on: THE CHAIN SENT on your fe146ca49 with P-849 and B1930 (M34, M35): 91 entries in on_mains_fe146ca49/, all apply on a clean checkout, trees as recorded; every gate on every entry, red only on the count of landings and, from entry 88, on the SM specification ledger's lag, which stands at the tolerance on your head (yours to settle in the landing). The full suite on the last entry is running; its result follows. Next: card C21 (M33) with M36's marks
+on: THE CHAIN SENT on your fe146ca49 with P-849 and B1930 (M34, M35): 91 entries in on_mains_fe146ca49/, all apply on a clean checkout, trees as recorded; every gate on every entry, red only on the count of landings and, from entry 88, on the SM specification ledger's lag, which stands at the tolerance on your head (yours to settle in the landing). The full suite: none of its failures the chain's once B1867's and B1873's kept runs were made again in entry 83 (folder replaced with that mend; note on the full suite). Next: card C21 (M33) with M36's marks
 needs: your landing of the chain (with the ledger's lag settled); your check of B1927's hold, the 25 rows and the twelve; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
-next push: the full suite's result on the chain; then C21
+next push: C21, when the chain has landed (it needs an arc number)
 
 # cld-advisor — status
 

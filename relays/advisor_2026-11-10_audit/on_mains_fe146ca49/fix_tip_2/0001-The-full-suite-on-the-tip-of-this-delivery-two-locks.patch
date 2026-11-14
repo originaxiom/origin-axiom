@@ -1,4 +1,4 @@
-From 87de7f8f593a21b09b271a85376f6d17e5b46ecd Mon Sep 17 00:00:00 2001
+From a400d83100d270e17f05030a4d4853ca1e0e91ac Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
 Date: Sat, 14 Nov 2026 08:04:09 +0000
 Subject: [PATCH] The full suite on the tip of this delivery: two locks of
@@ -28,23 +28,45 @@ BUILT AGAIN ON MAIN'S 663a902ff (2026-11-13): the map moved again on main's head
 there (286 nodes, 285 edges); B1873's kept run, made again, is the same file as main's head holds, so this patch no
 longer changes it. The arcs' tests: 10 passed.
 
+BUILT AGAIN ON MAIN'S fe146ca49 (2026-11-14): the map moved on main's head and R80b's part 6, patch 23 writes it again by
+its builder. Both kept runs are made again here: B1867's line_or_loop_run.txt (284 nodes, 285 edges) and B1873's
+read_checks_run.txt (lines 1 and 11: 92, 16, 76; 76 debts with no edge). The full suite on the chain's first build on
+this head found both; the arcs' tests pass.
+
 0 of 19.
 ---
  .../verification/line_or_loop_run.txt                         | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ .../verification/read_checks_run.txt                          | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
-index a67f83d73..385ade695 100644
+index a67f83d73..b57149e9a 100644
 --- a/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
 +++ b/frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop_run.txt
 @@ -1,5 +1,5 @@
 -the map: 288 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
 -edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 4, reads 2, requires 39, same-as 2
-+the map: 286 nodes, 285 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
++the map: 284 nodes, 285 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
 +edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 3, reads 2, requires 39, same-as 2
    of a determining kind (answers, follows-from, candidate-for): 1
  every edge of a determining kind on the map (8):
    E:J5      (missing-join, layer 8) --candidate-for--> W:T       (theorem, layer 3)
+diff --git a/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt b/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
+index 04e2b501d..7f100399e 100644
+--- a/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
++++ b/frontier/B1873_the_programme_read_by_a_non_author/verification/read_checks_run.txt
+@@ -1,4 +1,4 @@
+-1. debts on the map: 94; joined to a node by an edge: 16; joined to nothing: 78 (the read, one debt earlier: 79, 17, 62)
++1. debts on the map: 92; joined to a node by an edge: 16; joined to nothing: 76 (the read, one debt earlier: 79, 17, 62)
+ 2. packages the comparison does not wait on: [], holding 0 findings (the read, before the repair: six packages, 31 findings)
+    findings that bear on the repository as a whole: 34; every one is in a package upstream of the sealed card: True
+    the sealed card now waits on the suite and on the comparison's own instruments: True
+@@ -8,4 +8,4 @@
+ 5. the budget: 39 choices, 47 items by kind {'axiom': 9, 'identification': 7, 'bit': 9, 'discrete': 16, 'real': 5, 'ansatz': 1}; the charge premise at level five is typed {'bit': 1, 'discrete': 1}
+    routes: {'UNTOUCHED': 11, 'FORCING ARGUED': 2, 'PRESSED': 3, 'ONE CLAUSE SHORT': 3, 'BACK-EDGE NAMED': 6, 'ADMITTED': 4, 'DICTIONARY': 6, 'KEPT': 3, 'RIGID': 1}; an exit with no objection on the page: 9 (the read: 8, of which 5 are back-edges named and not built)
+ 6. the script the foundation cites for the live price exits 1: - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc; files under tests, scripts or the workflow that run it: 0
+-7. still not joined to the map, and registered: 78 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])
++7. still not joined to the map, and registered: 76 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])
 -- 
 2.43.0
 

@@ -19,7 +19,7 @@ message is 0001_message.txt, beside this file."""
 import pathlib, subprocess, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
-EXPECTED = "e7ae142e8342bc875f4b7ddd05ceb330ab73bb79"
+EXPECTED = "e2558cf6be3391a3e1ff4c836a86a20c1dded121"
 root = pathlib.Path(sys.argv[1]).resolve()
 
 
