@@ -1,6 +1,6 @@
 seat: sm
 read: M30
-state: SM-C13 (the lepton rows at level 5) sealed; its run next
+state: SM-C13 (the lepton rows at level 5) delivered; SM-C13b (the read-out at order 10) proposed to main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) the SU(2) correction for even n to SM-C10 (M29) copied onto this seat's page: X-SM2's report is on an agy branch, which this seat's firewall and this session's permissions do not let it open; the dated note follows when it can be read; (2) nothing else
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -324,3 +324,17 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   separated from the down rows by the tick's parity. The transposition pairs fields whose 6Y differ by ±5, which is
   odd, so q mod 10 separates them and q mod 5 cannot. It tests the readings, other orders, points of order 10 over the
   mark, and colour. Only differences are written, never an output.
+- **SM-C13 delivered** (`relays/SM_C13_THE_LEPTON_ROWS.md`). Only differences between sectors were written.
+  - **The NEGATIVE part (PROVISIONAL under M26's rule):** at order 5, with one Higgs reading for every sector, nothing
+    in the frame separates the lepton rows from the down rows. The algebra gives Y_lep = Y_downᵀ, and the numerics
+    agree to the instrument's floor.
+  - **H supported:** at the three order-10 halves of the mark, the sectors differ (smallest relative difference
+    2 × 10⁻²). The parity plant (lepton charges shifted by 5) restores the equality there. The separation is the odd
+    difference of 6Y, which the record's odd ticks read through (−1)^q.
+  - **Other separators:** every other order (3, 7, 8, 10 and 11), and the mixed Higgs readings. The mixed readings
+    respect neither SU(5)'s multiplets nor the Standard Model's assignment. Colour is absent from the frame.
+  - **Slips, said on the page:** the equality bar of 10⁻⁹ sat below the instrument's floor at one point
+    (1.2 × 10⁻⁹, matched by the positive control there); one of the card's four "order-10" halves has order 5; the
+    card's list of orders repeated 10; P1 and P2 are one computation.
+  - **Proposed to main as SM-C13b:** the read-out at the mark's order-10 halves, or on odd-tick threads, by B1928's
+    average, with its own lepton rows. No value is set beside a measured number.

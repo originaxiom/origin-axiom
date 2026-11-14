@@ -1,0 +1,489 @@
+{
+ "points": {
+  "order5 (2/5, 4/5) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 3.3928396650126287e-12,
+   "X1_min_rel_diff": 1.453117868764882e-15,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 2.777861858886123e-13,
+    "lep S / down St": 18.16404860624184,
+    "lep S / down conjS": 0.666691317681727,
+    "lep St / down S": 0.9478189593156174,
+    "lep St / down St": 3.3928396650126287e-12,
+    "lep St / down conjS": 0.9580490750142798,
+    "lep conjS / down S": 2.000221875543985,
+    "lep conjS / down St": 22.837376657135184,
+    "lep conjS / down conjS": 3.3719172721266173e-13
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 5.152239381872451e-15,
+    "lep S / down St": 0.11907379014787946,
+    "lep S / down conjS": 0.09097880457252018,
+    "lep St / down S": 0.10640387720289134,
+    "lep St / down St": 1.453117868764882e-15,
+    "lep St / down conjS": 0.3464044468690554,
+    "lep conjS / down S": 0.10008436000205848,
+    "lep conjS / down St": 0.529998169677952,
+    "lep conjS / down conjS": 2.5936405156177313e-15
+   },
+   "P1P2_max_rel_diff": 3.311655657658384e-12,
+   "P3_self_max": 0.0
+  },
+  "order5 (1/5, 0) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 1.7956304200095817e-12,
+   "X1_min_rel_diff": 9.278685675418955e-16,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 7.834054107667897e-14,
+    "lep S / down St": 29.558359968146586,
+    "lep S / down conjS": 2.665663406715578,
+    "lep St / down S": 0.9672757307316013,
+    "lep St / down St": 1.7956304200095817e-12,
+    "lep St / down conjS": 0.9648813516512116,
+    "lep conjS / down S": 0.7271980842081757,
+    "lep conjS / down St": 27.47490000374376,
+    "lep conjS / down conjS": 1.855770669366195e-13
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 2.0227208554056056e-15,
+    "lep S / down St": 1.5952613744520039,
+    "lep S / down conjS": 0.04036278260483034,
+    "lep St / down S": 0.614682355371183,
+    "lep St / down St": 9.278685675418955e-16,
+    "lep St / down conjS": 0.4124447898776961,
+    "lep conjS / down S": 0.03879683441173915,
+    "lep conjS / down St": 0.5356083223352863,
+    "lep conjS / down conjS": 1.7474009659298443e-15
+   },
+   "P1P2_max_rel_diff": 3.003758616753183e-13,
+   "P3_self_max": 0.0
+  },
+  "order5 (0, 1/5) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 1.2237512066741227e-09,
+   "X1_min_rel_diff": 1.8604786291544362e-15,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 2.0301775666538854e-10,
+    "lep S / down St": 0.9995586016806077,
+    "lep S / down conjS": 3.274126757687254,
+    "lep St / down S": 2264.5274292251147,
+    "lep St / down St": 2.602240692784151e-14,
+    "lep St / down conjS": 5113.570510784131,
+    "lep conjS / down S": 1.4366807853309134,
+    "lep conjS / down St": 0.9998044801613126,
+    "lep conjS / down conjS": 1.2237512066741227e-09
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 2.331102152882303e-15,
+    "lep S / down St": 0.694416971757747,
+    "lep S / down conjS": 0.08541725928222693,
+    "lep St / down S": 2.272433046272641,
+    "lep St / down St": 1.8604786291544362e-15,
+    "lep St / down conjS": 2.3734537801586977,
+    "lep conjS / down S": 0.09339478592739064,
+    "lep conjS / down St": 0.7035678965333401,
+    "lep conjS / down conjS": 1.0638488891356225e-14
+   },
+   "P1P2_max_rel_diff": 1.2228768869651203e-09,
+   "P3_self_max": 0.0
+  },
+  "order5 (1/5, 2/5) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 7.87708281138586e-13,
+   "X1_min_rel_diff": 9.780677892285005e-16,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 6.085996131964684e-14,
+    "lep S / down St": 13.5164406639466,
+    "lep S / down conjS": 0.596348462819971,
+    "lep St / down S": 0.9311125899833259,
+    "lep St / down St": 7.87708281138586e-13,
+    "lep St / down conjS": 0.9330478980354691,
+    "lep conjS / down S": 1.4773843473659471,
+    "lep conjS / down St": 13.936050858117119,
+    "lep conjS / down conjS": 3.0682503603471246e-14
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 5.68579403906272e-15,
+    "lep S / down St": 0.8457809247728223,
+    "lep S / down conjS": 0.028093784505453873,
+    "lep St / down S": 0.45822389505781297,
+    "lep St / down St": 1.894881837963279e-15,
+    "lep St / down conjS": 0.7813112424326788,
+    "lep conjS / down S": 0.028905859492937898,
+    "lep conjS / down St": 3.5727087716988066,
+    "lep conjS / down conjS": 9.780677892285005e-16
+   },
+   "P1P2_max_rel_diff": 1.106207868234921e-12,
+   "P3_self_max": 0.0
+  },
+  "order5 (3/5, 1/5) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 2.2593086054745664e-12,
+   "X1_min_rel_diff": 7.204556987827108e-16,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 1.793571458369801e-13,
+    "lep S / down St": 18.164048606237824,
+    "lep S / down conjS": 0.6666913176817311,
+    "lep St / down S": 0.9478189593156386,
+    "lep St / down St": 2.2593086054745664e-12,
+    "lep St / down conjS": 0.9580490750142971,
+    "lep conjS / down S": 2.0002218755439594,
+    "lep conjS / down St": 22.83737665713034,
+    "lep conjS / down conjS": 3.050687283480358e-13
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 3.735715809272845e-15,
+    "lep S / down St": 0.11907379014787439,
+    "lep S / down conjS": 0.09097880457235083,
+    "lep St / down S": 0.10640387720289839,
+    "lep St / down St": 4.316942916408525e-15,
+    "lep St / down conjS": 0.34640444686905825,
+    "lep conjS / down S": 0.10008436000196759,
+    "lep conjS / down St": 0.5299981696779564,
+    "lep conjS / down conjS": 7.204556987827108e-16
+   },
+   "P1P2_max_rel_diff": 2.4011503489027194e-12,
+   "P3_self_max": 0.0
+  },
+  "order5 (4/5, 3/5) order 5": {
+   "group": "order5",
+   "order": 5,
+   "X1_max_rel_diff": 1.214742611255103e-12,
+   "X1_min_rel_diff": 1.8645644533550874e-15,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 1.0705908470577126e-13,
+    "lep S / down St": 13.516440663946042,
+    "lep S / down conjS": 0.5963484628199697,
+    "lep St / down S": 0.9311125899832681,
+    "lep St / down St": 1.214742611255103e-12,
+    "lep St / down conjS": 0.9330478980354158,
+    "lep conjS / down S": 1.4773843473659674,
+    "lep conjS / down St": 13.93605085811587,
+    "lep conjS / down conjS": 3.823977050087962e-14
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 3.663128914987073e-15,
+    "lep S / down St": 0.8457809247728245,
+    "lep S / down conjS": 0.028093784505430753,
+    "lep St / down S": 0.4582238950578095,
+    "lep St / down St": 2.0280766344614378e-15,
+    "lep St / down conjS": 0.7813112424326779,
+    "lep conjS / down S": 0.028905859492960078,
+    "lep conjS / down St": 3.5727087716988235,
+    "lep conjS / down conjS": 1.8645644533550874e-15
+   },
+   "P1P2_max_rel_diff": 1.3365078093190728e-12,
+   "P3_self_max": 0.0
+  },
+  "other_orders (1/3, 2/3) order 3": {
+   "group": "other_orders",
+   "order": 3,
+   "X1_max_rel_diff": 59.67426014415158,
+   "X1_min_rel_diff": 0.28930464933829275,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 0.9999686180839554,
+    "lep S / down St": 0.998183014216096,
+    "lep S / down conjS": 0.9999690507105804,
+    "lep St / down S": 0.98991245871835,
+    "lep St / down St": 59.67426014415158,
+    "lep St / down conjS": 0.9900841405666189,
+    "lep conjS / down S": 0.9998579537986736,
+    "lep conjS / down St": 0.9943744993719039,
+    "lep conjS / down conjS": 0.999859912027374
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.391903078411348,
+    "lep S / down St": 0.781197456956374,
+    "lep S / down conjS": 0.8670665055839942,
+    "lep St / down S": 0.2932202707222802,
+    "lep St / down St": 0.28930464933829275,
+    "lep St / down conjS": 0.6491299490451129,
+    "lep conjS / down S": 0.43017310835596684,
+    "lep conjS / down St": 0.42725695452397777,
+    "lep conjS / down conjS": 0.6497924334155631
+   },
+   "P1P2_max_rel_diff": 1.962633012221901e-12,
+   "P3_self_max": 0.0
+  },
+  "other_orders (1/7, 3/7) order 7": {
+   "group": "other_orders",
+   "order": 7,
+   "X1_max_rel_diff": 9.184625273252937,
+   "X1_min_rel_diff": 0.12942230268708688,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 9.184625273252937,
+    "lep S / down St": 0.9354820186029753,
+    "lep S / down conjS": 1.8794036182032952,
+    "lep St / down S": 10.396443323257255,
+    "lep St / down St": 0.9380640254075786,
+    "lep St / down conjS": 0.8902682425135,
+    "lep conjS / down S": 24.840037614887823,
+    "lep conjS / down St": 0.9350049896816065,
+    "lep conjS / down conjS": 2.0837626984341253
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.3414261538767887,
+    "lep S / down St": 0.4477084232845652,
+    "lep S / down conjS": 0.14817661591026515,
+    "lep St / down S": 0.23973102242246974,
+    "lep St / down St": 0.6373938440699953,
+    "lep St / down conjS": 0.2461664697116004,
+    "lep conjS / down S": 0.6610478479305566,
+    "lep conjS / down St": 0.19303628738442047,
+    "lep conjS / down conjS": 0.12942230268708688
+   },
+   "P1P2_max_rel_diff": 8.962831840511843e-13,
+   "P3_self_max": 0.0
+  },
+  "other_orders (3/8, 0) order 8": {
+   "group": "other_orders",
+   "order": 8,
+   "X1_max_rel_diff": 24.39242434848504,
+   "X1_min_rel_diff": 0.2559877486772959,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 0.9232339045242673,
+    "lep S / down St": 2.0256760586084335,
+    "lep S / down conjS": 1.3488753777899074,
+    "lep St / down S": 0.7903853983494855,
+    "lep St / down St": 24.39242434848504,
+    "lep St / down conjS": 6.457010608717525e-13,
+    "lep conjS / down S": 0.964534093739226,
+    "lep conjS / down St": 2.628188855020101e-12,
+    "lep conjS / down conjS": 1.7669821817358975
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.5076414233577974,
+    "lep S / down St": 0.6979596758169674,
+    "lep S / down conjS": 0.28785938264796046,
+    "lep St / down S": 0.06146093965575624,
+    "lep St / down St": 0.34406388903172885,
+    "lep St / down conjS": 8.039036269728419e-15,
+    "lep conjS / down S": 0.4200001322012766,
+    "lep conjS / down St": 6.530136759272841e-15,
+    "lep conjS / down conjS": 0.2559877486772959
+   },
+   "P1P2_max_rel_diff": 1.7273473501091826e-12,
+   "P3_self_max": 0.0
+  },
+  "other_orders (2/5, 1/10) order 10": {
+   "group": "other_orders",
+   "order": 10,
+   "X1_max_rel_diff": 4.229915646445617,
+   "X1_min_rel_diff": 0.022659966749141197,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 0.47272144458929083,
+    "lep S / down St": 7.719971156355964,
+    "lep S / down conjS": 2.6479943455577954,
+    "lep St / down S": 0.8645281856759588,
+    "lep St / down St": 1.5838810124669058,
+    "lep St / down conjS": 3.039764803432591,
+    "lep conjS / down S": 0.3326062112247126,
+    "lep conjS / down St": 7.999759229379001,
+    "lep conjS / down conjS": 4.229915646445617
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.08024804125886262,
+    "lep S / down St": 0.9933133177372127,
+    "lep S / down conjS": 0.053043900099144496,
+    "lep St / down S": 0.2311905564966488,
+    "lep St / down St": 0.02500978615459438,
+    "lep St / down conjS": 0.21722071098354007,
+    "lep conjS / down S": 0.05073697710725985,
+    "lep conjS / down St": 1.8576964548743733,
+    "lep conjS / down conjS": 0.022659966749141197
+   },
+   "P1P2_max_rel_diff": 2.6698517904116723e-12,
+   "P3_self_max": 0.0
+  },
+  "other_orders (1/11, 10/11) order 11": {
+   "group": "other_orders",
+   "order": 11,
+   "X1_max_rel_diff": 360.95166200846364,
+   "X1_min_rel_diff": 0.628415057056321,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 129.9506768587775,
+    "lep S / down St": 0.8656804349883903,
+    "lep S / down conjS": 359.5518554823761,
+    "lep St / down S": 0.842356469223637,
+    "lep St / down St": 0.9909797539874307,
+    "lep St / down conjS": 3.7241576671429826,
+    "lep conjS / down S": 130.4590797674722,
+    "lep conjS / down St": 0.7454951708330003,
+    "lep conjS / down conjS": 360.95166200846364
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.628415057056321,
+    "lep S / down St": 0.23100655177677107,
+    "lep S / down conjS": 0.9231472902717435,
+    "lep St / down S": 0.13700921036062386,
+    "lep St / down St": 0.8780311082513492,
+    "lep St / down conjS": 0.38933140516373166,
+    "lep conjS / down S": 0.8180506756748746,
+    "lep conjS / down St": 0.1264544314354243,
+    "lep conjS / down conjS": 1.209644769174675
+   },
+   "P1P2_max_rel_diff": 1.3535018748297639e-11,
+   "P3_self_max": 0.0
+  },
+  "halves_of_mark (1/5, 2/5) order 5": {
+   "group": "halves_of_mark",
+   "order": 5,
+   "X1_max_rel_diff": 7.87708281138586e-13,
+   "X1_min_rel_diff": 9.780677892285005e-16,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 6.085996131964684e-14,
+    "lep S / down St": 13.5164406639466,
+    "lep S / down conjS": 0.596348462819971,
+    "lep St / down S": 0.9311125899833259,
+    "lep St / down St": 7.87708281138586e-13,
+    "lep St / down conjS": 0.9330478980354691,
+    "lep conjS / down S": 1.4773843473659471,
+    "lep conjS / down St": 13.936050858117119,
+    "lep conjS / down conjS": 3.0682503603471246e-14
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 5.68579403906272e-15,
+    "lep S / down St": 0.8457809247728223,
+    "lep S / down conjS": 0.028093784505453873,
+    "lep St / down S": 0.45822389505781297,
+    "lep St / down St": 1.894881837963279e-15,
+    "lep St / down conjS": 0.7813112424326788,
+    "lep conjS / down S": 0.028905859492937898,
+    "lep conjS / down St": 3.5727087716988066,
+    "lep conjS / down conjS": 9.780677892285005e-16
+   },
+   "P1P2_max_rel_diff": 1.106207868234921e-12,
+   "P3_self_max": 0.0
+  },
+  "halves_of_mark (1/5, 9/10) order 10": {
+   "group": "halves_of_mark",
+   "order": 10,
+   "X1_max_rel_diff": 6.6202999285164275,
+   "X1_min_rel_diff": 0.01998136521586555,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 0.4753111609690797,
+    "lep S / down St": 13.613907222590441,
+    "lep S / down conjS": 2.9635289244236525,
+    "lep St / down S": 0.9148872208370059,
+    "lep St / down St": 1.9201267904304855,
+    "lep St / down conjS": 2.010081936058438,
+    "lep conjS / down S": 0.399979313833146,
+    "lep conjS / down St": 14.100989772645724,
+    "lep conjS / down conjS": 6.6202999285164275
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.04471853129241157,
+    "lep S / down St": 0.5153035417716234,
+    "lep S / down conjS": 0.012918142158025503,
+    "lep St / down S": 0.5208065697210378,
+    "lep St / down St": 0.30205630370660963,
+    "lep St / down conjS": 0.06699969239146665,
+    "lep conjS / down S": 0.012878933112988602,
+    "lep conjS / down St": 1.3176811742303647,
+    "lep conjS / down conjS": 0.01998136521586555
+   },
+   "P1P2_max_rel_diff": 1.1499024997539172e-12,
+   "P3_self_max": 0.0
+  },
+  "halves_of_mark (7/10, 2/5) order 10": {
+   "group": "halves_of_mark",
+   "order": 10,
+   "X1_max_rel_diff": 179.41568509638165,
+   "X1_min_rel_diff": 0.4687642468275923,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 2.776455375348662,
+    "lep S / down St": 1.5986987852261487,
+    "lep S / down conjS": 0.9890113406082852,
+    "lep St / down S": 4.4056548455025615,
+    "lep St / down St": 179.41568509638165,
+    "lep St / down conjS": 5.16317262017517e-13,
+    "lep conjS / down S": 1.0342755013947118,
+    "lep conjS / down St": 1.0098700187367746e-12,
+    "lep conjS / down conjS": 0.9944572446710228
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.4687642468275923,
+    "lep S / down St": 0.3675709394000712,
+    "lep S / down conjS": 0.3376481906575477,
+    "lep St / down S": 0.021820514264590724,
+    "lep St / down St": 1.6572874921785905,
+    "lep St / down conjS": 4.6864319733788e-15,
+    "lep conjS / down S": 0.3761399336568173,
+    "lep conjS / down St": 7.807442299200444e-15,
+    "lep conjS / down conjS": 0.6236763982281913
+   },
+   "P1P2_max_rel_diff": 1.0538685538243722e-12,
+   "P3_self_max": 0.0
+  },
+  "halves_of_mark (7/10, 9/10) order 10": {
+   "group": "halves_of_mark",
+   "order": 10,
+   "X1_max_rel_diff": 299.7998966478413,
+   "X1_min_rel_diff": 0.3410086070226607,
+   "X2_max_rel_diff_by_pair": {
+    "lep S / down S": 0.9911399613117451,
+    "lep S / down St": 4.460410515562177,
+    "lep S / down conjS": 0.9908990798671916,
+    "lep St / down S": 0.1807018559529321,
+    "lep St / down St": 299.7998966478413,
+    "lep St / down conjS": 3.034617857748919,
+    "lep conjS / down S": 0.9862005402150748,
+    "lep conjS / down St": 7.29373576536597,
+    "lep conjS / down conjS": 0.9858253687373861
+   },
+   "X2_min_rel_diff_by_pair": {
+    "lep S / down S": 0.6311447372345464,
+    "lep S / down St": 0.13246787274374244,
+    "lep S / down conjS": 0.3430274883101039,
+    "lep St / down S": 0.008007058317655994,
+    "lep St / down St": 1.0928440217026785,
+    "lep St / down conjS": 0.035412152682485036,
+    "lep conjS / down S": 0.6200206887940077,
+    "lep conjS / down St": 0.36355004452737455,
+    "lep conjS / down conjS": 0.3410086070226607
+   },
+   "P1P2_max_rel_diff": 1.7067465860537044e-12,
+   "P3_self_max": 0.0
+  }
+ },
+ "P3": null,
+ "P3_reproduces_frame": {
+  "up": 0.0,
+  "down": 0.0,
+  "lep": 0.0
+ },
+ "summary": {
+  "P3_reproduces_frame": true,
+  "X1_equal_on_every_order5_point": false,
+  "X2_diagonal_equal_at_order5": false,
+  "X2_mixed_pairs_differing_at_order5": [
+   "lep S / down St",
+   "lep S / down conjS",
+   "lep St / down S",
+   "lep St / down conjS",
+   "lep conjS / down S",
+   "lep conjS / down St"
+  ],
+  "X3_differ_at_every_other_order": true,
+  "X3_by_order": {
+   "3": true,
+   "7": true,
+   "8": true,
+   "10": true,
+   "11": true
+  },
+  "X4_differ_at_the_three_order10_halves": true,
+  "P1P2_equal_everywhere": false,
+  "P3_self_zero": true,
+  "X5_colour_tokens_in_frame_sources": {
+   "covariance.py": 0,
+   "b1656_funcs.py": 0
+  },
+  "X5_no_colour_ingredient": true
+ }
+}

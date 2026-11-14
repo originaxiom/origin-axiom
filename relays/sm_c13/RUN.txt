@@ -1,0 +1,46 @@
+P3 {'up': 0.0, 'down': 0.0, 'lep': 0.0}
+order5 (2/5, 4/5) order 5 X1 min/max 1.5e-15/3.4e-12 P1P2 max 3.3e-12
+order5 (1/5, 0) order 5 X1 min/max 9.3e-16/1.8e-12 P1P2 max 3.0e-13
+order5 (0, 1/5) order 5 X1 min/max 1.9e-15/1.2e-09 P1P2 max 1.2e-09
+order5 (1/5, 2/5) order 5 X1 min/max 9.8e-16/7.9e-13 P1P2 max 1.1e-12
+order5 (3/5, 1/5) order 5 X1 min/max 7.2e-16/2.3e-12 P1P2 max 2.4e-12
+order5 (4/5, 3/5) order 5 X1 min/max 1.9e-15/1.2e-12 P1P2 max 1.3e-12
+other_orders (1/3, 2/3) order 3 X1 min/max 2.9e-01/6.0e+01 P1P2 max 2.0e-12
+other_orders (1/7, 3/7) order 7 X1 min/max 1.3e-01/9.2e+00 P1P2 max 9.0e-13
+other_orders (3/8, 0) order 8 X1 min/max 2.6e-01/2.4e+01 P1P2 max 1.7e-12
+other_orders (2/5, 1/10) order 10 X1 min/max 2.3e-02/4.2e+00 P1P2 max 2.7e-12
+other_orders (1/11, 10/11) order 11 X1 min/max 6.3e-01/3.6e+02 P1P2 max 1.4e-11
+halves_of_mark (1/5, 2/5) order 5 X1 min/max 9.8e-16/7.9e-13 P1P2 max 1.1e-12
+halves_of_mark (1/5, 9/10) order 10 X1 min/max 2.0e-02/6.6e+00 P1P2 max 1.1e-12
+halves_of_mark (7/10, 2/5) order 10 X1 min/max 4.7e-01/1.8e+02 P1P2 max 1.1e-12
+halves_of_mark (7/10, 9/10) order 10 X1 min/max 3.4e-01/3.0e+02 P1P2 max 1.7e-12
+{
+ "P3_reproduces_frame": true,
+ "X1_equal_on_every_order5_point": false,
+ "X2_diagonal_equal_at_order5": false,
+ "X2_mixed_pairs_differing_at_order5": [
+  "lep S / down St",
+  "lep S / down conjS",
+  "lep St / down S",
+  "lep St / down conjS",
+  "lep conjS / down S",
+  "lep conjS / down St"
+ ],
+ "X3_differ_at_every_other_order": true,
+ "X3_by_order": {
+  "3": true,
+  "7": true,
+  "8": true,
+  "10": true,
+  "11": true
+ },
+ "X4_differ_at_the_three_order10_halves": true,
+ "P1P2_equal_everywhere": false,
+ "P3_self_zero": true,
+ "X5_colour_tokens_in_frame_sources": {
+  "covariance.py": 0,
+  "b1656_funcs.py": 0
+ },
+ "X5_no_colour_ingredient": true
+}
+exit 0
