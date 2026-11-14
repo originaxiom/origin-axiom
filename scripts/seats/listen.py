@@ -154,12 +154,21 @@ def look_seat(seat, cwd, remote, peek):
     if amended:
         out.append("Messages you had read that main has CHANGED since: %s. As they stand now:\n" % ", ".join("M%d" % n for n in sorted(amended)))
         out += [amended[n] for n in sorted(amended, reverse=True)]
-    if not new and not amended and read and not sums:
-        # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
-        # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
-        # changed in place was lost for good.
-        out.append("No new message. This listener's memory was written by an older version and holds no record of the text of the "
-                   "messages you had read, so it cannot tell whether main has changed one of them: read M1 to M%d on the page again." % read)
+    # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
+    # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
+    # changed in place was lost for good.
+    # CORRECTED 2026-11-12, a second time (Review 80; found by two readings of that mend).  The mend spoke only when nothing
+    # was new and the memory held no record at all:
+    #     if not new and not amended and read and not sums:
+    # Two cases were still lost.  With such a memory and a new message together, the new message was shown, nothing was said
+    # of the old ones, and all were stored as read.  And a memory that holds a record for some of the messages read and not
+    # for others said nothing of the others.  Every message that was read and has no record of its text is named now,
+    # whether or not a new one came.
+    unknown = sorted(n for n in ms if n <= read and str(n) not in sums)
+    if unknown:
+        which = "M1 to M%d" % read if unknown == list(range(1, read + 1)) else ", ".join("M%d" % n for n in unknown)
+        out.append(("" if new or amended else "No new message. ") + "This listener's memory holds no record of the text of %s, which you had "
+                   "read, so it cannot tell whether main has changed one of them: read %s on the page again." % (which, which))
     elif not new and not amended:
         out.append("No new message: main changed the page elsewhere (your cards, or what it waits for). Read the page.")
     remembered = json.dumps({"blob": blob, "read": max([read] + list(ms)), "sums": {str(n): _sum(t) for n, t in ms.items()}})

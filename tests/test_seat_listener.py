@@ -174,6 +174,42 @@ def test_an_amended_message_is_shown_a_fenced_heading_is_not_a_heading_and_a_dam
     assert r.returncode == 2 and "memory cannot be read" in r.stderr
 
 
+def test_every_read_message_with_no_record_of_its_text_is_named_whether_or_not_a_new_one_came(tmp_path):
+    """Review 80, from two readings of the listener as mended at Review 79's second round.  Two cases in which a message
+    changed in place was still lost: a memory with no record of any text, a new message and an amendment together; and a
+    memory that holds a record for one message read and none for another."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test4", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    # 1. an old memory, a new message and an amendment of an old one, in one commit of main
+    origin, clone = _origin_and_clone(tmp_path)
+    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
+    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
+    state = json.loads(mem.read_text(encoding="utf-8"))
+    mem.write_text(json.dumps({"blob": state["blob"], "read": state["read"]}), encoding="utf-8")     # as the older listener wrote it
+    p = origin / "docs" / "seats" / "x.md"
+    p.write_text(_page(1, 2).replace("the text of message 1", "the text of message 1, AMENDED"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main adds a message and amends the one the seat has read")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the text of message 2" in r.stdout                              # the new one is shown
+    assert "holds no record of the text of M1 to M1" in r.stdout and "read M1 to M1 on the page again" in r.stdout
+    assert "No new message" not in r.stdout                                                       # and it is not called nothing new
+    assert _listen(clone, "--seat", "x").returncode == 3
+    # 2. a memory with a record for M2 and none for M1: M1 is named, M2 is not
+    state = json.loads(mem.read_text(encoding="utf-8"))
+    assert set(state["sums"]) == {"1", "2"}
+    del state["sums"]["1"]
+    mem.write_text(json.dumps(state), encoding="utf-8")
+    p.write_text(p.read_text(encoding="utf-8").replace("nothing yet", "your card"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "holds no record of the text of M1, which you had read" in r.stdout and "M2" not in r.stdout
+    # a twin: with a record for both, the same change of the page names no message
+    p.write_text(p.read_text(encoding="utf-8").replace("your card", "your two cards"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere again")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "holds no record" not in r.stdout and "main changed the page elsewhere" in r.stdout
+
+
 def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
