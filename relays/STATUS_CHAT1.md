@@ -1,9 +1,9 @@
 seat: chat1
-read: M27
-state: working (W-F17's post hoc 1, m = 5)
-on: W-F17's post hoc 1 (m = 5 with a longer budget; the coordinate lines at m = 2, 4, 6, 8; the m = 3 projection against agy-exp's), to be appended to W-F17's note. Delivered today: W-F17 (b495452a5), W-F18 (ded0292cd), W-F19 (6a5ea5c9a: the odd-level class index proved by hand, granting W-F6's laws). The foundations stay this seat's main task
+read: M28
+state: working (W-F20's referee read; W-F17's post hoc 1, m = 5)
+on: W-F20, the cold read of B1936's parity candidate (M28): card 06d799101, check sealed at beca957c6 and run (59d27d5a0), note in its referee read. M28's other item, the run's rule, is W-F18 (ded0292cd); the rule file is unchanged since (one commit, 0c6beb72d). W-F17's post hoc 1 (m = 5) still running. The foundations stay this seat's main task
 needs: main's answer to W-F18 before the big run (O1 to O10). The definition behind agy-exp's "8 and 16" F-CI counts on m369 and s639, so they can be compared with W-F17's 40 and 72. W-F16's named test is answered (M27): one free bit in frame C, the Higgs world, now a declared input
-next push: W-F17's post hoc 1 output and its addendum
+next push: W-F20's note; then W-F17's post hoc 1 output and addendum
 
 ## Notes
 
