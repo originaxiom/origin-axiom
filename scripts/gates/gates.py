@@ -3137,14 +3137,70 @@ def selection_family_hits(reader=None, first=None):
     return hits, older
 
 
+SELECTION_FAMILY_OLDER = "frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json"
+SELECTION_CLASSES = ("deduction", "no claim", "family named", "neither")
+
+
+def older_selection_lines(reader=None):
+    """2026-11-13 (main's M23, item 5; C13's follow-ups, patch 3): every verdict line before SELECTION_FAMILY_FROM that the
+    reading reports as a claim is held by name with its class, classified once with its clauses (SELECTION_FAMILY_OLDER).
+    Returns (problems, the count by class): an older line read as a claim and not in the table, a row whose line no longer
+    reads so or reads other clauses, a class not of the four, a row of a family named whose words are not on its page."""
+    import collections as _c
+    reader = reader or (lambda rel: _read(rel))
+    try:
+        table = {r["arc"]: r for r in json.loads(reader(SELECTION_FAMILY_OLDER))["rows"]}
+    except Exception:
+        return ["the table of older verdict lines cannot be read: " + SELECTION_FAMILY_OLDER], {}
+    seen, bad = set(), []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        rel = os.path.relpath(p, ROOT)
+        try:
+            d = json.loads(reader(rel))
+        except Exception:
+            continue
+        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
+        if int(re.sub(r"\D", "", aid) or 0) >= SELECTION_FAMILY_FROM:
+            continue
+        claims = selection_claims_in(str(d.get("claim_one_line", "")))
+        if not claims:
+            if aid in table:
+                bad.append("%s: classified, and its verdict line no longer reads as a claim" % aid)
+            continue
+        seen.add(aid)
+        r = table.get(aid)
+        if r is None:
+            bad.append("%s: an older verdict line read as a claim and not classified" % aid)
+        elif r.get("clauses") != claims:
+            bad.append("%s: its verdict line reads other clauses than the table holds" % aid)
+        elif r.get("class") not in SELECTION_CLASSES:
+            bad.append("%s: the class %r is not one of %s" % (aid, r.get("class"), ", ".join(SELECTION_CLASSES)))
+        elif r["class"] == "family named":
+            try:
+                page = " ".join(reader(os.path.join(os.path.dirname(rel), "FINDINGS.md")).replace("**", "").split())
+            except Exception:
+                page = ""
+            if not r.get("on the page") or r["on the page"] not in page:
+                bad.append("%s: the words the table gives for its family are not on its page" % aid)
+    bad += ["%s: in the table and not an older arc whose line reads as a claim" % a for a in sorted(set(table) - seen)
+            if not any(x.startswith(a + ":") for x in bad)]
+    return bad, dict(_c.Counter(r.get("class") for a, r in table.items() if a in seen))
+
+
 def gate_selection_family(reader=None):
     """WORKING_RULES, the rule of 2026-11-12, step 3: an arc from B1905 on whose verdict line claims a selection, with a value
     or a member as its object, names on its page which of the two families its criterion belongs to (B1204)."""
     hits, older = selection_family_hits(reader)
+    held, by_class = older_selection_lines() if reader is None else ([], {})
+    if held:
+        return False, ("%d older verdict line(s) not held by name with their class (%s): " % (len(held), SELECTION_FAMILY_OLDER)) + "; ".join(held[:5])
     if hits:
         return False, ("%d verdict line(s) from B%d on claim a selection and the page names neither family (a finite classification with a test "
                        "of membership, or a consistency condition): " % (len(hits), SELECTION_FAMILY_FROM)) + "; ".join("%s: %s" % h for h in hits[:5])
-    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
+    if not by_class:
+        return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
+    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports, and %d older line(s) read as claims held by name with their class: %s)" % (
+        SELECTION_FAMILY_FROM, older, sum(by_class.values()), ", ".join("%d %s" % (n, c) for c, n in sorted(by_class.items())))
 
 
 # ---------------------------------------------------------------------------------------------------------------------------

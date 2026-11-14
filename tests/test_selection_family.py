@@ -98,7 +98,8 @@ def test_on_this_repository_the_gate_passes_and_counts_the_older_lines():
     ok, detail = g.GATES["selection-family"]()
     assert ok is True, detail
     hits, older = g.selection_family_hits()
-    assert hits == [] and ("%d older line(s)" % older) in detail
+    assert hits == [] and ("%d older line(s)" % older) in detail     # 2026-11-13 (C13's follow-ups, patch 3): and held by name with their class
+    assert "held by name with their class" in detail
     assert g.SELECTION_FAMILY_FROM == 1905
     # B1905's own verdict line claims nothing by this reading, and its page names both families
     v = json.loads((ROOT / "frontier/B1905_selection_and_chirality_across_the_record/arc_verdict.json").read_text(encoding="utf-8"))
@@ -126,3 +127,32 @@ def test_an_arc_whose_page_names_its_family_in_other_words_is_held_only_while_it
         return text.replace(held[aid][0], "") if rel.replace("\\", "/").startswith("frontier/%s_" % aid) and rel.endswith("FINDINGS.md") else text
     hits, _ = g.selection_family_hits(reader=read)
     assert [h[0] for h in hits] == [aid]
+
+
+def test_the_older_lines_are_held_by_name_with_their_class():
+    """C13's follow-ups, patch 3 (main's M23, item 5): every verdict line before B1905 that the reading reports as a claim is
+    classified once, with its clauses word for word and, for a family named, the page's words. Planted: a row taken out,
+    a class not of the four, a family's words not on the page, a row whose line reads other clauses."""
+    import json
+    g = _gates()
+    bad, by_class = g.older_selection_lines()
+    assert bad == [] and set(by_class) <= set(g.SELECTION_CLASSES) and sum(by_class.values()) == 115, (bad, by_class)
+    real = (ROOT / g.SELECTION_FAMILY_OLDER).read_text(encoding="utf-8")
+    table = json.loads(real)
+
+    def reader_with(t):
+        def read(rel):
+            return json.dumps(t, ensure_ascii=False) if rel == g.SELECTION_FAMILY_OLDER else (ROOT / rel).read_text(encoding="utf-8")
+        return read
+
+    rows = table["rows"]
+    one_out = dict(table, rows=[r for r in rows if r["arc"] != "B1228"])
+    assert g.older_selection_lines(reader_with(one_out))[0] == ["B1228: an older verdict line read as a claim and not classified"]
+    wrong = dict(table, rows=[dict(r, **{"class": "obvious"}) if r["arc"] == "B924" else r for r in rows])
+    assert g.older_selection_lines(reader_with(wrong))[0] == ["B924: the class 'obvious' is not one of deduction, no claim, family named, neither"]
+    words = dict(table, rows=[dict(r, **{"on the page": "a census of nothing"}) if r["arc"] == "B1477" else r for r in rows])
+    assert g.older_selection_lines(reader_with(words))[0] == ["B1477: the words the table gives for its family are not on its page"]
+    other = dict(table, rows=[dict(r, clauses=["another clause"]) if r["arc"] == "B44" else r for r in rows])
+    assert g.older_selection_lines(reader_with(other))[0] == ["B44: its verdict line reads other clauses than the table holds"]
+    # the twin: the table as it is
+    assert g.older_selection_lines(reader_with(table))[0] == []
