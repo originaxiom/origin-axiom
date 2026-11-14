@@ -4589,3 +4589,18 @@ each caught the five it could reach (B1931).**
 - **After the window, Review 83's to read:** B1930 (the foundation at version 1.68, the builder's chain), B1931 (this
   review), B1932 (the big run's values committed before any comparison, with the exact channel weight).
 
+
+## ⟳ LEADS OPENED 2026-11-14, evening (B1937 to B1943)
+
+- **Which level the leptons read (P-845).** At order 10 the leptons get new rows and frame C's quarks stay (SM-C13b). At
+  order 15 the leptons keep the order-5 down rows and the quarks move (B1942). Level 30 would read both primes. The lead
+  is which level the object picks, by a structure and not a fit.
+- **The functional that weighs the two Higgs worlds (P-847, P-854 (c)).** A fermion determinant prefers W₋ at every
+  sampled point, and a one-loop trace prefers W₊ (B1941). One stated action, its fermion integral and its one-loop
+  terms, would decide it.
+- **Frame D1 (P-847; the web seat's W-B1).** If the Higgs carries its charge as a twist, as matter does, no reading is
+  left to choose. Whether its fibre integrals are symmetric under u ↦ −u decides whether the Higgs bit is there at all.
+- **The cusp's limit.** High in the cusp the averaged mixing moduli tend to 5/12, 5/12 and 7/12 (B1940). Is that a
+  count of the 24 points' permutation patterns, and does it hold at every level?
+- **The foundation's postulates on the board (B1943).** SE1 (the root) and SE3 (the level) are both postulates, now both
+  counted. Is either derivable, or does one imply the other (B1925)?
