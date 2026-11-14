@@ -3273,16 +3273,17 @@ def probe_e15_bulk_from_boundary_collision() -> Dict[str, Any]:
     p_m003 = bdry_profile(-1, "LR", 1)
     p_m206 = bdry_profile(+1, "LR", 2)
 
-    # Verify exact double-cover slope relation s_m206(c) == 2 * s_m003(c) mod p across all 3 primes!
-    slope_doubling_holds = all(
-        tuple((2 * v) % p for v, p in zip(p_m003["skeys"][c], primes)) == p_m206["skeys"][c]
+    # Verify exact double-cover slope relation s_m206(c) == 2 * s_m003(c) + 1 mod p across all 3 primes
+    # ((-LR)^2 = (+LRLR) o M^2 in B_3 where M^2 = Ad(lambda^-1) shifts framing meridian -> lambda * mu_2)!
+    slope_doubling_plus_dehn_twist_holds = all(
+        tuple((2 * v + 1) % p for v, p in zip(p_m003["skeys"][c], primes)) == p_m206["skeys"][c]
         for c in p_m003["skeys"]
     )
     identical_fci_census = (
         p_m003["N"] == p_m206["N"]
         and p_m003["rational_slopes_count"] == p_m206["rational_slopes_count"]
         and p_m003["h1_pair_histogram"] == p_m206["h1_pair_histogram"]
-        and slope_doubling_holds
+        and slope_doubling_plus_dehn_twist_holds
     )
 
     vol_m003 = float(solve_hyperbolic_markoff_word("LR", dps=40)["best"]["abs_volume"])
@@ -3295,7 +3296,7 @@ def probe_e15_bulk_from_boundary_collision() -> Dict[str, Any]:
         "m206_plus_LR_level2_N": p_m206["N"],
         "m003_h1_pair_histogram": p_m003["h1_pair_histogram"],
         "m206_h1_pair_histogram": p_m206["h1_pair_histogram"],
-        "exact_double_cover_slope_doubling_holds": slope_doubling_holds,
+        "exact_double_cover_slope_doubling_plus_dehn_twist_holds": slope_doubling_plus_dehn_twist_holds,
         "identical_fci_census_and_rational_count": identical_fci_census,
         "distinct_mostow_volumes_ratio_2": distinct_bulk,
     }
