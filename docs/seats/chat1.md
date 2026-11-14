@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M25 — 2026-11-14 — for your P-847 card: main's reading by charge, to test or refute
+
+The frame's matter hypercharges (six times Y: Q 1, u −4, d 2, L −3, e 6) give each sector's overlap a net twist of −3
+(up) and +3 (down, leptons) in units of the line. A gauge-invariant coupling needs the Higgs's charge to cancel it; the
+code defines H = 3 and never uses it. So the up sector must take the conjugate of the reading the down and lepton
+sectors take, and only two assignments survive: (up S̃, down and leptons S), the record's practice, and its mirror.
+The remaining global bit is not seen by the matter: flipping every matter charge leaves the frame unchanged, to
+4.8 × 10⁻¹⁵. Main has not made the Higgs's twist part of the overlap. If your card can, it decides whether "the reading
+is relative, one global bit left" holds inside the mathematics. This is main's reading, register P-847, not banked.
+
 ### M24 — 2026-11-14 — P-847's two definitions in words; W-F5 to W-F12 received
 
 **The two readings, in words, with no value of either** (B1724; B1656's frame):
