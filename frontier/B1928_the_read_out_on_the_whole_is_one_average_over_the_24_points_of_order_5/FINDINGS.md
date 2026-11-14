@@ -84,3 +84,20 @@ OPEN 1, PROVED 10); 18 register rows match (DONE 12, QUEUED 6)`. None states thi
 - `verification/fiber_ergodic.py` (→ `fiber_ergodic_fine.json`, `fiber_ergodic_fine_run.txt`; the first grid's run is
   `fiber_ergodic_run.txt`): the ergodic integral and the comparisons P1 to P3.
 - The lock: `verification/test_b1928_one_average.py`.
+
+## Addendum (2026-11-14, later): H1 holds
+
+- **The argument.** F, the frame's outputs at (τ, p), jumps only where two singular values of a sector's coupling
+  coincide. With B1927's length-2 end the frame is real-analytic in τ. So, for each of the 24 points p, the coincidence
+  set is a proper real-analytic subset of the τ-plane, of zero area. agy-exp's X-NEG proved that the path measure's
+  τ-law has an L² density (harvest row 1776), so a set of zero area carries no weight, and the set is μ-null.
+- **The numerical face** (`verification/h1_check.py`; 9 064 nodes along 60 random geodesics of 24 letters, each with a
+  random point of order 5, the length-2 end). The smallest relative gap of singular values over every sector and
+  reading is below 0.1 at 4.5 % of the nodes, below 0.01 at 0.02 % (two nodes), and below 0.001 at none.
+- **The expectation was wrong in the safe direction.** It was written before the run: the share would fall tenfold per
+  decade, as for a curve crossed transversally. It falls about 200-fold. Near-coincidences are rarer than a
+  codimension-one set would give, which fits the repulsion of singular values of complex matrices: coincidence is
+  codimension three, so a two-parameter family generically has none.
+- **H1 is met.** H2 (tightness) and H3 (the length-weighted joint equidistribution) remain, with agy-002's check of the
+  sketch (M26).
+

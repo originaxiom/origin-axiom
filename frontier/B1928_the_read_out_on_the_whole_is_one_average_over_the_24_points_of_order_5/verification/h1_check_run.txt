@@ -1,0 +1,4 @@
+9064 nodes; share with the smallest relative singular-value gap below 1e-1, 1e-2, 1e-3, 1e-4: 4.46e-02, 2.21e-04, 0.00e+00, 0.00e+00
+  share(0.1) / share(0.01) = 202.0
+  share(0.01) / share(0.001) = no node below 0.001
+  share(0.001) / share(0.0001) = no node below 0.0001

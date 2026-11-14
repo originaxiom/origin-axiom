@@ -17069,6 +17069,7 @@
   "B1928": {
    "slug": "the read out on the whole is one average over the 24 points of order 5",
    "motifs": [
+    "coupling",
     "golden",
     "torsion",
     "wrt_quantum",
@@ -17082,9 +17083,9 @@
     "P3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "physics"
   },
   "B192": {
    "slug": "sln higher rank",
