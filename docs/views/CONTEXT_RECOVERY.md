@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-12, S306p: THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE LESSON OF AUGUST 2026 (B1204, B1225) WAS IN NO GOVERNING PAGE (B1905; P-831).** 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a un…”
+“LATEST (2026-11-14, S306p, night: REVIEW 82 ENTERED (B1931); THE BIG RUN'S VALUES COMMITTED BEFORE ANY COMPARISON (B1932); LEVEL 5'S STRUCTURE (B1934).** Review 82's two readers, of the other model family, each caught the five planted faults they could reach. Frame C's seven values are committed with the exact channel weight (the truncated weight had moved four of them by about 1 %), in four declared options (two Higgs worlds, two measures), with the comparison's rule and script sealed beside them; nothing compared. B1934: level 5's Weil representation splits as an icosahedral triplet in SO(3) and the spinor doublet in SU(2); the hand is the golden field's quadratic character; the lepton pa…”
 
 ## Completeness (nothing skipped silently)
 

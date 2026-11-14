@@ -249,4 +249,17 @@ cited by arc/PR — the full record stays in the arcs (append-only).*
 - **Two faults in main's own check of the loop (B1887's first run):** with the natural normalisation the vector (1, 0) sat exactly on the edge of the period, where a class is counted twice or not at all, and main's assertion stopped the run; and one check measured a distance in periods against a fixed threshold while the period grew with the word, so at eight golden periods a pair that had not moved in arclength failed it. Both mended and disclosed. The habit for the second: a threshold is set in the unit that does not change with the case.
 - **The owner's messages left waiting for fifty minutes, for the second time in one day (main, 2026-11-11; his words: "You keep ignoring me anyways."):** practice 14's cadence asked for a read of the queue at each landing and after every long command; main read it once in a turn of seventy minutes, in which a dozen long commands finished. A rule kept by memory was not kept. A local script, audit/q.py, now prints any waiting message with every command main runs (P-785).
 - **A lock failing on main for three landings, unseen (main's own; found at the fourth harvest, 2026-11-11):** B1870's lock pinned finding V1's live state and a phrase of its live note. Main rewrote the note when the advisor seat sealed a card for V1 (9b1c9d408) and did not run that lock; the push gates do not run the suite. Found only because this landing ran every lock that reads the programme. Mended: the lock holds B1870's sentence as history and no longer pins the live state. It is the fourth lock of main's this week to fail by pinning a live value, and the reason the full suite on a fresh clone is a package of its own (WP-0.5).
+- **E93 instance (main's own, found before the seal, 2026-11-14): A LEADING FORM USED AS IF EXACT.** Frame C weighted each
+  channel by √(2πL + c_s), the leading form of the kernel's norm outside the horoball. The dropped terms are 0.15 % to
+  0.33 % of the norm, yet they moved four of the read-out's seven values by about 1 % (up to 1.6 %), ten times its
+  precision. Found by asking what could move the values before committing them (B1932); Theorem 90's form is the weight
+  now.
+- **Candidate class (main's own, 2026-11-14): A PRECISION STATED IN ABSOLUTE TERMS ON QUANTITIES SPANNING DECADES.**
+  B1928's grid reported its interpolation error as 4.5e-4 on ratios and 3e-3 on mixing moduli, absolute differences. On
+  ratios of order 1e-4, the same grid is off by 1 % to 3 % in median and up to 9 % in ln at single points (B1932's check).
+  The read-out's bias stayed at most 4.6e-3, because the errors average along the threads. A precision is stated in the
+  quantity's own scale (here ln) or it hides its size.
+- **Instance of a check that cannot fire (main's own, Review 82, B1931):** the sixth planted fault sat in lines both
+  readers were bound to skip as their own family's work, so it tested nothing. A plant goes only where a reader looks
+  (R82-4).
 
