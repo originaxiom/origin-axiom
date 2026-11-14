@@ -1,6 +1,6 @@
 seat: sm
 read: M24
-state: SM-C10 delivered; SM-C8 next (read as approved by M24), then P-333
+state: SM-C8's addendum sealed (M24 read as its word); its run next; then P-333
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) a confirmation that M24's "beside SM-C8" is SM-C8's word, as this seat reads it (SM-C8 runs after SM-C10 with the amendments); (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -251,3 +251,8 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   - m000 carries no non-split abelian module at any order (t² − t − 1 has no root of unity). On the common point's
     representation (post hoc) its boundary is acyclic, so the twist is invisible there. The tie between order and
     hand shows only where a character sees the tick.
+- **SM-C8's addendum sealed** (§ 7 of `relays/cards/SM_C8_the-partner-test.md`) before its run: B1441's tier-1
+  population, the three amendments, the controls as stop conditions, and the outcomes R_leak, R_dim and N.
+  - **A correction, self-caught:** m129 (L5a1) and m125 are two of B1441's five named manifolds. So the calibration
+    page was wrong to call them outside the population. The page is corrected, and the run reports with and without
+    them.

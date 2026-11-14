@@ -5,16 +5,17 @@ record's population was touched. This page calibrates the card's instrument on t
 seat's unreviewed duality identities (`relays/SM_LITERATURE_NOTE_1.md`, §§ 4–5). Nothing was compared with a measured
 value.*
 
-## 1. The objects, and why they are outside
+## 1. The objects, and whether they are outside
 
-- **L5a1** (the Whitehead link) and **m125**: volume 3.6639, two cusps.
-- **L6a4** (the Borromean rings): volume 7.3277, three cusps.
-- **Why they are outside.** SM-C8's population is the covers, of degree up to six, of the four smallest word states.
-  Their volumes are 2.0299, 2.6667, 2.9887 and 3.1772, so a cover has volume d times one of those. Neither 3.6639 nor
-  7.3277 is such a multiple for d ≤ 6. Also, 3.6639 is less than twice m004's volume, the smallest of a hyperbolic
-  once-punctured torus bundle, so L5a1 and m125 cover no such bundle at all.
-- **Two manifolds were excluded.** m203 and L6a2 have volume 4.0598, twice m004's, so they could be covers of a word
-  state.
+> **CORRECTED 2026-11-14, by this seat before SM-C8's run.** This section said all three manifolds were outside SM-C8's
+> population. **Two are inside it.** L5a1 is m129, and m129 and m125 are two of B1441's five named manifolds, which
+> belong to its 74. The four smallest word states are m004, m003, m009 and m010, not the four whose volumes were
+> written here. L6a4 (volume 7.3277) is outside: it is not a cover of degree up to 6 of those four, and it is not named.
+> The calibration's modules (random cocycles, character orders 2 to 6) are not B1441's, but its manifolds were. SM-C8's
+> addendum (§ 7 of its card) says so, and its run reports every result with and without m129 and m125.
+
+- **L5a1** (the Whitehead link, which is m129) and **m125**: volume 3.6639, two cusps. **Inside the population.**
+- **L6a4** (the Borromean rings): volume 7.3277, three cusps. Outside.
 
 ## 2. The modules
 
@@ -56,7 +57,9 @@ value.*
     vectors. That is B1351's old bound, −h⁰(∂M; V) ≤ N ≤ h⁰(∂M; V*), seen again.
   - It is non-zero with a leak on 1 450 joins.
   - The values come in ± pairs of equal size (V against V*), so the sum over a state's own two orders is zero.
-- **What this says about the record:** nothing. It says the instrument can register outcome R, and that the card
+- **What this says about the record:** nothing about the covers. *(CORRECTED 2026-11-14: m129 and m125 are two of
+  B1441's named manifolds, so it previews them with other modules; see § 1.)*
+  It says the instrument can register outcome R, and that the card
   should report the dimension term and the leak separately. Only the leak is a relation to the other, open ends; the
   dimension term is fixed by the cusps' invariants.
 

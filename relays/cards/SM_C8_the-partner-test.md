@@ -78,3 +78,64 @@ main's word. Data-free.*
 ## 6. What is needed from main
 
 Main's word on the card, and on its place in the queue (after M22's question and second computation, or before).
+
+## 7. Addendum sealed before the run (2026-11-14): main's word, the population, the amendments, the readings
+
+*Written and pushed before any count of this card was computed on its population. M24 is read as main's word ("run
+straight through … beside SM-C8"); if main meant otherwise, this run is reported as run early.*
+
+**A correction and a disclosure.**
+- B1441's 74 manifolds are not only covers. They are:
+  - every connected cover of degree 2 to 6, with at least two cusps, of m004, m003, m009 and m010;
+  - and five named manifolds: m202, s959, o10_150726, m129 and m125.
+- The calibration page (`relays/sm_c8/calibration/CALIBRATION.md`) called L5a1 (that is, m129) and m125 outside the
+  population. **They are inside it.** The calibration ran this card's instrument on them, with its own modules (random
+  cocycles, character orders 2 to 6), before main's word.
+- This run therefore reports every result with and without m129 and m125. B1441's own modules on them at its first
+  tier are 4 on m129 and none on m125.
+
+**The population, as B1441 defines it (tier 1).**
+- The 74 manifolds, in SnapPy's order. The manifold list is rebuilt from B1441's slice files (tag, root, degree,
+  index), checked against B1441's character counts.
+- The characters: Hom(H₁, μ_N), with N = max(exponent of the torsion, 2).
+- The modules: V(ℓ, α) = [[α, cβ], [0, β]], β = α/ℓ, for ℓ non-trivial with H¹(M; ℓ) ≠ 0 and α, β non-trivial. c runs
+  over a basis of H¹(M; ℓ), plus two random combinations when its dimension exceeds one.
+- B1441's three skipped entries (over 600 characters) are skipped here too. Its second tier (N = 12) is not part of
+  this card.
+
+**The amendments** (`relays/SM_LITERATURE_NOTE_1.md`, § 5; `relays/sm_c8/calibration/CALIBRATION.md`, § 4):
+1. **Vacuous joins.** A join (P, V, T_i) with H¹(T_i; V) = 0 is listed and left out of every outcome.
+2. **The partner's two orders.**
+   - The partner's two orders are (V, S_i) and (V*, S*_i). S_i is the image of H¹(T_i; sub) in H¹(T_i; V), and S*_i
+     the image of H¹(T_i; β⁻¹) in H¹(T_i; V*).
+   - Where V splits on T_i, the card's original D = n(V | sub) − n(V | quotient) is also computed, with both lines
+     canonical.
+3. **The quantities, at every non-vacuous join:**
+   - D_ord = n(V | 0 elsewhere, S_i) − n(V* | 0 elsewhere, S*_i);
+   - the dimension term d_i = dim S_i − h⁰(∂P; V) + h⁰(V) − h⁰(V*);
+   - the leak ℓ_i = n(V* | all elsewhere, S*_i) − n(V* | 0 elsewhere, S*_i).
+   - D_ord = d_i + ℓ_i is identity C3b, checked at every join.
+4. **Controls, which stop the run if any fails on any module:**
+   - C1: dim A_V + dim A_V* = h¹(∂P; V);
+   - C2: [h¹(V*) − h⁰(V*)] − [h¹(V) − h⁰(V)] = dim A_V* − h⁰(∂P; V*);
+   - C3a, C3b, and dim S_i + dim S*_i = h¹(T_i; V);
+   - the record's index: I = n(V) − n(V*) = h¹(V*) − h¹(V) (B1438's form), against B1441's own I histogram per entry.
+
+**The plants**, as the calibration ran them. Each must fail somewhere:
+- P1: V in place of V*;
+- P2: a random line in place of S*_i;
+- P3: 2 dim A_V = h¹(∂P; V).
+
+**The outcomes, read in the amended quantities** (they replace § 3's R, N and U):
+- **R_leak (relational, new):** ℓ_i ≠ 0 on some non-vacuous join. P's count, under the partner's order, depends on
+  what the other, open ends allow.
+- **R_dim (relational, of the known kind):** D_ord ≠ 0 with ℓ_i = 0. The asymmetry is the old bound's cusp-fixed
+  vectors (B1268, B1351) and nothing more.
+- **N:** D_ord = 0 on every non-vacuous join.
+- **This seat's prediction:** R_leak on some join of B1441's 17 carriers of |I| = 2. Their two live cusps are where a
+  leak can arise. R_dim elsewhere.
+- **The converse of § 2, restated.** Whether V ↦ V* (the inversion followed by dualising, B1455 and B1459) exchanges
+  S_i and S*_i is S_i^⊥ = S*_i. That is checked at every join (C3b with the dimension check).
+
+**Files:** relays/sm_c8/run_c8.py, relays/sm_c8/c8_results.json and relays/sm_c8/RUN.txt; the page is
+relays/SM_C8_THE_PARTNER_TEST.md.
