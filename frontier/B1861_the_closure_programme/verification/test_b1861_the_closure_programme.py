@@ -225,7 +225,7 @@ def test_the_audit_is_carried_finding_by_finding():
     # eleven by the owner's answer of 2026-11-10; the four asked later (P-771) each by the owner's own answer of 2026-11-11; none is left asked
     assert len(S.CONFIRMED) == 11 and len(S.CONFIRMED_LATER) == 4 and st["rulings_confirmed_by_the_owner_to_main"] == 15
     assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0
-    # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with 'even ticks observed': after the computation
+    # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with the ruling of 2026-10-08 that only even ticks are observed: after the computation
     assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 4 and S.DIRECT_RULINGS[2][2] == "After the computation"
     assert S.DIRECT_RULINGS[3][2] == "A condition to derive (Recommended)" and S.EXITS["the orientation"][0] == "BACK-EDGE NAMED"      # ruled with B1879 in hand
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
@@ -764,6 +764,7 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
 # Review 80 (2026-11-12; the SM seat's finding 29).  The page gives what the owner answered in plain words and quotes nothing he
 # said (register row P-796).  The lock asked for less: one phrase present, one spelling absent.  This reads the page by shape.
 _OPENS = "\"“‘«'"
+_CLOSES = "\"”’»'"
 _AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
 _A_WORD_FOR_THE_OWNER = re.compile(r"\b(?:[Oo]wner|[Hh]e|[Hh]is|[Hh]im)\b")
 _A_BLOCK = re.compile(r"^\s*(?:[-*+]\s+|\d+\.\s+)?>|<\s*(?:blockquote|q)\b", re.I)
@@ -772,7 +773,11 @@ WITHIN = 120
 # page names by three words in single marks, in two places (the package WP-1.4 and its row in section 9).  Whether a ruling's
 # name in marks is a quotation of the owner is main's to say; it went back to main with this patch.  The list shortens
 # freely.  It grows only with a line here that says who entered the name and why.
-HELD_BY_NAME = {"even ticks observed": 2}
+# EMPTIED 2026-11-12 (main's word, its third folder for the builder, section 8, row 2): the name is treated as the owner's, both
+# places are reworded in plain words, and the table holds no name.  It held one, twice.  The reader of the first part also
+# found that the exemption asked only that the text after the opening mark BEGINS with the name, so any words could follow it
+# inside the same marks; with the table empty nothing is exempt.  The name itself is not kept here.
+HELD_BY_NAME = {}
 
 
 def the_owners_answers_in_plain_words():
@@ -799,7 +804,10 @@ def what_the_plans_page_quotes(page, accounts=None, held=None):
             for m in _AN_OPENING_MARK.finditer(cell):
                 if not _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()]):
                     continue
-                name = next((k for k in left if cell[m.end():].startswith(k)), None)
+                # until 2026-11-12: `cell[m.end():].startswith(k)`, so words that followed a held name inside the same marks were
+                # excused with it (found by the reader of the first part).  A held name is the whole of what stands in the marks.
+                rest = cell[m.end():]
+                name = next((k for k in left if rest.startswith(k) and rest[len(k):len(k) + 1] in tuple(_CLOSES)), None)
                 if name and left[name] > 0:
                     left[name] -= 1
                     continue
@@ -819,9 +827,18 @@ def test_the_plans_page_quotes_nothing_of_the_owner():
     page as it stood until that day: the builder printed the owner's answer as a block quotation, and the lock passed."""
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
     assert what_the_plans_page_quotes(page) == []
-    # the two places held by name are there to be held: with the table empty they are reported, and a third is reported
-    assert [w for _, w in what_the_plans_page_quotes(page, held={})] == ["a quotation opens after a word for the owner"] * 2
-    assert len(what_the_plans_page_quotes(page + "\nThe owner's ruling ('even ticks observed') once more.\n")) == 1
+    # CHANGED 2026-11-12 (main's word, its third folder for the builder, section 8, row 2).  Three lines stood here: with the
+    # table of names held empty the page's two places were reported, and a third place with the same name in marks was
+    # reported.  The two places are reworded and the table is empty, so the page reports nothing with nothing held; and a
+    # ruling named in marks after a word for the owner is reported, whatever follows its first words inside the marks.
+    assert HELD_BY_NAME == {} and what_the_plans_page_quotes(page, held={}) == []
+    assert page.count("ruling of 2026-10-08 that only even ticks are observed") == 2
+    for planted_name in ("The owner's ruling ('a name of three words') once more.", "The owner's ruling ('a name of three words, and words after it') once more."):
+        assert len(what_the_plans_page_quotes(page + "\n" + planted_name + "\n")) == 1, planted_name
+    # the exemption as it stood excused words that follow a held name inside the same marks.  Shown on a table of one name: the
+    # name alone in its marks is held, and the name with words after it is reported
+    assert what_the_plans_page_quotes("The owner's ruling ('a name').", held={"a name": 1}) == []
+    assert len(what_the_plans_page_quotes("The owner's ruling ('a name and anything he said after it').", held={"a name": 1})) == 1
     assert "the option the owner chose, in main's label" in page                # the column that says whose words a label is
     at = "The owner answered main on %s." % S.CONFIRMATION[0]
     assert page.count(at) == 1
