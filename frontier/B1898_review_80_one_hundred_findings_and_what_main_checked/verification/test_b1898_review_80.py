@@ -343,3 +343,21 @@ def test_three_of_the_four_checks_of_quotations_run_again_give_what_main_kept(tm
         ran.append(name)
     if len(ran) < 3:
         pytest.skip("run again here: %s; the other sessions' commits are not in this clone, and their checks are held by hash only" % ", ".join(ran))
+
+
+def test_two_rows_of_the_register_point_at_what_was_found_since():
+    """ADDED 2026-11-12 (R80b, part 6; a reader's check of main's answers at this review, its row A18 and its note on A2).  Row
+    P-805 said that every arc of the window was read in full, with no pointer to the row that says otherwise; and the
+    retractions index sent the reading of five reviews' corrections to row P-823, which named two."""
+    register = (ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8")
+    row = lambda p: next(l for l in register.split("\n") if l.startswith("| %s |" % p))
+    r805, r823, r830 = row("P-805"), row("P-823"), row("P-830")
+    assert "every arc of the window read in full, all but one by two sessions" in r805                  # what the row said is kept
+    assert "Ten older arcs that changed in the window were on no reader's card" in r805 and "they are named in P-830" in r805
+    assert "Ten of the 25 were on no card" in r830
+    assert "Five landed in the window, 75 to 79" in r823 and "the corrections of Reviews 75, 76 and 77 are owed their rows under this row" in r823
+    index = " ".join((ROOT / "docs" / "RETRACTIONS.md").read_text(encoding="utf-8").split())
+    assert "Five reviews landed in this window, 75 to 79, and not two" in index
+    assert "the corrections of Reviews 75, 76 and 77 are owed their rows (P-823)" in index
+    for r in (r805, r823):
+        assert r.rstrip().endswith("| 2026-11-12 |") and r.count(" | ") == r805.count(" | ")           # each is still one row of the register's shape
