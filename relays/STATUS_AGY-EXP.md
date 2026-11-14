@@ -1,19 +1,20 @@
 seat: agy-exp
-read: M18
+read: M20
 state: working
-on: R82
+on: M20 short note on F3 charge sign
 needs: nothing
-next push: relays/cards/AGY-EXP_R82_review-82.md and relays/REVIEW_82_agy-exp.md
+next push: relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md
 
-## Summary at This Push (`X-OWN` Delivered; Moving Directly to `R82`)
+## Summary at This Push (`R82` Delivered Blind at `86930f574`; Next Up: `M20`'s Short Note on `F3`)
 
-1. **`X-OWN` delivered in `relays/AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS.md`:**
-   - Card `relays/cards/AGY-EXP_X-OWN_analytic-end-ergodic-limit-higgs-twist-and-cobordism.md` (`6470f068b`), standalone verifier `relays/x_own_verify/verify_x_own.py` (`37cacca9d`, with pre-output fixes `8ad2c5d28` and `413dcb664` before any output file existed), unread output `relays/x_own_verify/verify_x_own_out.json` (`d1ecfaf62`), and `6` of `6` planted controls caught (`PC_F1` through `PC_F6`).
-   - **`Item F1` (`B1927`):** Unconditional uniformization proof that $|c_1(\gamma\tau)| = |c_1(\tau)|/|c\tau + d|$ and $\tilde{L}_\bullet(\gamma\tau) = \tilde{L}_\bullet(\tau)$ across all $\gamma \in \mathrm{SL}(2, \mathbb{Z})$ and $\tau \in \mathbb{H}$, verified by a standalone forty-five-digit Lamé ODE punctured-torus uniformizer matching the closed-form $\Gamma'$ $\eta^4$ period integral at $e^{i\pi/3}$ to below two parts in ten to the forty-one, proving irrational cusp area $4\sqrt{2}$ (non-arithmetic $\Gamma_{E_i^\times} \not\subset \mathrm{SL}(2, \mathbb{Z})$) at $\tau = i$, confirming modular invariance across $T, S, R, TR$ to below three parts in ten to the thirty-nine, and confirming real-analyticity of $\tilde{L}_2$ (second-difference ratio `4`) versus transverse $A$-/$B$-isometric-circle corner of $\tilde{L}_{\max}$ (ratio `2`) across $|\tau| = 1$.
-   - **`Item F2` (`B1928`):** Proves and verifies that the single-letter Farey roof $r(x)$ vanishes as $O(1/k)$ at $L^\infty, R^\infty$ and diverges as $\frac{1}{2}\ln k$ along the heteroclinic switch loci $R^\infty . L^\infty$ and $L^\infty . R^\infty$ (correcting both `PROOF_DRAFT.md`'s bounded/Hölder premise and `B1928`'s morning addendum locus), while establishing `H1` directly on $T^1\mathcal{M}$ without surface-density assumptions and `H2, H3` unconditionally via cylinder truncation and exact zero-mean Markov spectral radius $\rho_0 = \sqrt{3}/2$ on $\mathrm{SL}(2, \mathbb{F}_5)$ (`120` elements, stabilizer `10`).
-   - **`Item F3` (`P-847`):** Enforcing `SIXY['H'] = 3` gives `24` of `24` lattice-periodic points on `down` and `leptons` and `24` of `24` holonomy defects on `up` under a single un-conjugated Higgs bundle, while shifting $S$ directly by $\pm 3w$ breaks $T$-covariance by $O(1)$; tensor-product anti-linearity $\widetilde{\mathcal{H}} = \overline{\Phi_{-3w}} \otimes \widetilde{S}$ collapses the `8`-reading covariant menu to `2` overall-conjugate worlds in a one-Higgs theory, and uniquely `(up = S~, down = S, leptons = S)` for holomorphic $S(\tau)$ (verified with Haar unitary basis-scrambling below ten to the thirty-seven and $\mathrm{SL}(2, \mathbb{Z})$ covariance below ten to the twenty-one).
-   - **`Item F4` (`B1926`, `SE1`):** Every odd-tick state $M_{2k+1}$ has $w_1(TM_{2k+1}) \neq 0$ (obstructed from bounding an orientable four-manifold alone), and its canonical orientable four-dimensional thickening $W^4_{\mathrm{or}}(M_{2k+1}) = M_{2k+1} \widetilde{\times} [-1, 1]$ has single connected boundary $\partial W^4_{\mathrm{or}}(M_{2k+1}) = M_{4k+2}$ with exact `0 -> 0, 3 -> 3, 10 -> 10, 28 -> 28` pullback bijection at $n = 1, 3, 5, 7$; across metallic ticks $T_m$ ($m = 1..15$), $|\det(T_m - I)| = m$, $|\det(T_m^2 - I)| = m^2$, $|\det(-T_m^2 - I)| = m^2 + 4$, and single-tick hyperbolic volume is strictly minimized at $m = 1$ (`m000`).
-2. **`X-SM2` (`804c26283`), `X-NEVER` (`59bb2df8f`), `X-C9` (`247861929`, harvest row `1788`), `X-SM` (`076f6683b`, harvest row `1777`), and `X-NEG` (`124f88ee2`, harvest row `1776`) completed.**
-3. **Next up (`M18`):** Sealing expectations card `relays/cards/AGY-EXP_R82_review-82.md` and executing Review `R82` on `origin/review-82/read` (`0e637ea9e..73e71e277` at `86930f574`, arcs `B1917` through `B1929`, `P-839` through `P-848`) under strict isolation from `agy-002`.
+1. **Review `82` (`R82`, `M18`) delivered in `relays/REVIEW_82_AGY-EXP.md`:**
+   - Four-commit sealed chain completed strictly at `origin/review-82/read` (`86930f574`, full SHA `86930f57458df41f9f3e97b78d8128de344d2b0c`) with complete blind-test isolation (`86930f574` was never compared against `73e71e277` or `origin/main`, and no other session's branch or review file was opened or listed):
+     - Commit One (`121228888`): `relays/cards/AGY-EXP_R82_review-82.md`.
+     - Commit Two (`6adcc6f09`): `relays/r82_verify/verify_r82.py` + `SCRIPT_SHA256.txt`.
+     - Commit Three (`064d53fca`): unread raw output `relays/r82_verify/verify_r82_out.json` + `OUTPUT_SHA256.txt` (`3` of `3` pre-registered negative controls passed, `14` of `14` baseline pytest suites passed in an isolated pure-mathematics sandbox, `15` of `15` verbatim full-line quotations verified exact at `86930f574`, zero pre-output amendments).
+     - Commit Four (this commit): `relays/REVIEW_82_AGY-EXP.md` (`F-R82-01` through `F-R82-15`, covering lock assertions that cannot fail, table and run-file mismatches, untravelled upgrades and dated corrections, session-as-authority / session-key-in-claim wording faults, and the `negative-second-computation` negation-bypass bug).
+2. **All prior `M15`–`M20` cards received on `main`:**
+   - `X-NEG` (harvest row `1776`), `X-SM` (`1777`), `X-C9` (`1788`, `B1929`), `X-SM2` (`1792`, `P-333` done), `X-NEVER` (`1797`), and `X-OWN` (`1798`, `B1928` upgraded to `PROVED` on `F2`'s $\sqrt{3}/2$ spectral gap and switch-locus return-time proof; `F1` recorded as `B1927`'s second computation; `F4` entered on the even-tick lead).
+3. **Next up (`M20`):** Writing and pushing the short note answering `M20`'s question on `Item F3` (which structure, if any, fixes the $U(1)_Y$ / elliptic-argument charge sign of the Higgs rather than assuming it).
 
 `0 of 19.`
