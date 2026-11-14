@@ -1,0 +1,4 @@
+S1 for t = 3..20000, field equality exactly when t - 2 is a square: True ; exceptions: [] ; control (t + 2 a square) holds for all: False
+S2 |det(A_m - I)| = m^2 and |det(J_m - I)| = m for m = 1..200: True ; torsion-free only at m = 1: [1]
+S3 a square root of -1 mod m^2 + 4 exists exactly for odd m (m = 1..200): True
+all hold: True
