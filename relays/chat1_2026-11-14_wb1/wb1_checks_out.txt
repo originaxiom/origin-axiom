@@ -1,0 +1,6 @@
+E1 max relative residual: 0.0 | holds: True | plant (+b) fails at 40 of 40 | plant caught: True
+E2 fitted T_R against the hand matrix: 2.22e-30 | eigenvalues: ['(0.707107 + 0.707107j)', '(-0.707107 + 0.707107j)', '(0.707107 - 0.707107j)'] | all eighth roots: True | any fifth root: False | DR(tau+1) = T_R DR(tau), max rel residual: 5.31e-22 | holds: True
+E3 matter classes [2, 2, 4, 4, 2] | Higgs classes {'up': 1, 'down': 4, 'lep': 4} | D1's holomorphic classes [1, 2, 4] | both parities among them: True | holds: True
+E4 matter even, conjugates odd: True | holomorphic Higgs class 4 -> {'up': 'S~', 'down': 'S', 'lep': 'S'} | class 1 -> {'up': 'S', 'down': 'S~', 'lep': 'S~'} | holds: True
+E5 N against K at mirror-fixed points, max residual: 0.0 | at generic points, min relative difference: 0.0156 | holds: True
+all hold: True
