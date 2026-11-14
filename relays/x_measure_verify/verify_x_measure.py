@@ -943,7 +943,7 @@ def eval_p5_avg_four_modes_mp(x_val: float, y_val: float, L2_raw_val: float, dps
                         Fu = F_kron(sh[s_i][0][0], sh[s_i][0][1])
                         a0v = a0_char(sh[s_i][1][0], sh[s_i][1][1])
                         n_old = 2 * mp.pi * tl2 + Fu
-                        corr = mp.pi * yv * (abs(a0v) ** 2) * exp_m2L2
+                        corr = mp.pi * (abs(a0v) ** 2) * exp_m2L2
                         vold[s_i] = mp.sqrt(n_old) * Rs[s_i]
                         vt90[s_i] = mp.sqrt(n_old - corr) * Rs[s_i]
                 u_t90_sec[sec] = vt90
