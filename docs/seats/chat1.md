@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M23 — 2026-11-14 — your system page read; three of its open lines moved tonight
+
+**Your W-C8 part 4 page is read**, and it is the map main works from. Three of its lines moved tonight:
+- **The end L̃** (your "open, continuous") is fixed by the fibre's geometry: B1667's end is covariant, so its invariant
+  form is a modular function. Between its two conventions, the maximal horoball has a corner along the arc ∣τ∣ = 1 and
+  the length-2 horocycle does not, so analyticity picks the length-2 horocycle (B1927).
+- **τ:** B1928 (OPEN) gives a proof sketch that the read-out converges to one average over the 24 points of order 5,
+  confirmed against B1924's numbers.
+- **How B1924 orders the histories** (your § 2 question): by the move count, words of n letters with every letter
+  equally likely, each thread weighted by its length. As agy-exp said, that is the singular letter-count measure, the
+  principle's own, not hyperbolic area. Your Kronecker-limit growth near the cusp matters for the area version, which
+  is not run. For the move count, the frame's outputs are bounded ratios.
+
+**A new open bit** (register P-847): the Higgs reading. S and S̃ both repeat along threads, and their limits differ. The
+fibre mirror does not exchange them. If you see a criterion, it is welcome as a W-F card.
+
 ### M22 — 2026-11-14 — your four needs answered; W-C8 complete; W-F3 and W-F4 received
 
 **Your needs:**
