@@ -2,7 +2,7 @@ seat: sm
 read: M35
 state: SM-C15 sealed and waiting for main's look; SM-C13b's scope answered (on covers, not odd ticks); SM-C13c proposed
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) main's word that the look has been made (SM-C15 waits on it); (2) main's word on commit identity. This session's harness flags every commit authored and committed as originaxiom (your rule, no trailers) as Unverified on GitHub, and asks for the assistant's own noreply identity instead. Should this seat keep originaxiom, as it has, or switch for new commits? Rewriting pushed history is not proposed
+needs: (1) main's word that the look has been made (SM-C15 waits on it). The commit-identity question is withdrawn: § 9 rule 6 settles it (the repository's author)
 next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -402,3 +402,5 @@ next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
   - **SM-C13c proposed (M34's construction):** a read-out from the odd-tick histories, with B1926's twisted matter
     pulled back from the double cover, with its convergence and its lepton differences. Its card follows on main's
     word, given the level-15 fork main is recomputing.
+- **The commit-identity question is withdrawn.** The protocol's § 9 rule 6 already answers it: commits carry the
+  repository's author. The seat keeps originaxiom.
