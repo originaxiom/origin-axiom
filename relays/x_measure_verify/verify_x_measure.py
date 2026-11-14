@@ -1159,8 +1159,10 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
         coarse_area[k] = bulk_coarse[k] + mid_a_c[k] + mid_b_c[k] + deep_coarse[k]
         quad_err[k] = np.abs(exact_area[k] - coarse_area[k])
 
-    # Naive float64 integral over the entire u in (0, 1/sqrt(1-x^2)] (showing float64 SVD cusp corruption)
-    naive_f64_full, _ = integrate_bulk_f64(24, 48, 0.0)
+    # Naive float64 integral on y <= 80 (above y ~ 900 float64 literally underflows th1p0 to 0/0 = NaN;
+    # already on 11 < y <= 80 float64 stays finite-valued yet SVD underflow corrupts mixing singular vectors)
+    naive_f64_raw, naive_f64_mass = integrate_bulk_f64(24, 48, 1.0 / 80.0)
+    naive_f64_full = {k: v / naive_f64_mass for k, v in naive_f64_raw.items()}
     pc1_pointwise_max_err = max(
         float(np.max(np.abs(pc1_f64["W_minus_T90"][i] - pc1_mp[i]["W_minus_T90"])))
         for i in range(3)
