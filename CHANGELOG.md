@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)
+
+- **Built as a patch by the building session** at main's card C17, after main verified both statements on its own code (B1906, sections 3a and 3b). Every statement of mathematics in the notes is a quotation of B1906 or of the register; none is the builder's, and no old word is changed.
+- **B298 and B1161:** a dated note beside the headline on each page and at the end of each verdict line: it holds scoped, and not as an implication. B298's seven computed routes stand.
+- **The named citations:** a dated note at B1496's page, B1606's page (W20), the grand computation's row and the hint ledger's H85; the early record index carries B298's note, as generated.
+- **B1228:** a dated note on the page, the verdict line and `s1.py`; its lock keeps its assertion on its six types under a dated note and holds the corrected statement over the sixteen simply-laced algebras of rank 1 to 8, the primaries counted from the Cartan matrices.
+- **The lock** `tests/test_the_degree_two_headline_and_sigma_one_scoped.py`: each note beside its old words, each quotation found in its source; a note taken out, moved away or misquoted fails.
+
 ## S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831, P-849) (2026-11-12)
 
 - **Built as patches by the building session** from main's draft, rows and script for B1905 and main's card C13, read cold by a verifying session, and landed by main after its own check. The page, the verdict line, every number and the rule are main's; none is reworded.

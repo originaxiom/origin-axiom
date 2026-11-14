@@ -27,6 +27,8 @@ B1227 named this morning: *not a lost result, a lost edge.*
 | 5 | **K1 named**: (E₆)₁, vacuum module, **c = 6 exactly**; modules {1, 27, 27̄}, h = {0, ⅔, ⅔}, T-order 12 | named |
 | 6 | **the level is forced by INVENTORY** — see below | **the new piece** |
 
+> **Dated note, 2026-11-13 (register row P-318; verified by main at B1906, section 3b, on its own code, exactly).** Row 4 above, and `s1.py`, read nine simply-laced types. Over the sixteen simply-laced simple algebras B1906 reads at level 1, B1906: "σ = c/6 = 1 holds for A₆, D₆ and E₆ (T-orders 28, 4 and 12). So "σ = 1 picks E₆ uniquely" (B1228) is false as stated, as P-318 already says; σ = 1 with exactly three primaries holds for E₆ alone." The words above are kept as they stood; the lock holds the statement as corrected (`tests/test_b1228_s1.py`).
+
 **Arithmetic cross-checks for K6-grade "the object's own datum"**, all passing: the ℤ/3 module group
 ↔ the trinification ℤ/3 (B1161) ↔ the trace field ℚ(ζ₃) = ℚ(√−3) (the only object-specific atom,
 B727); T-matrix order **12** ↔ the map's exact **mod-12** bookkeeping (§4, down block); the **27** is

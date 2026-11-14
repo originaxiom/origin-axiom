@@ -3642,11 +3642,13 @@
    "motifs": [
     "coupling",
     "figure_eight",
+    "eisenstein",
     "golden",
     "z3_generation",
     "firewall"
    ],
    "refs": [
+    "B298",
     "B682",
     "B892",
     "B950",
@@ -3656,7 +3658,7 @@
     "P2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -10395,7 +10397,8 @@
     "figure_eight",
     "eisenstein",
     "golden",
-    "z3_generation"
+    "z3_generation",
+    "firewall"
    ],
    "refs": [
     "B280",
@@ -10939,12 +10942,16 @@
    "slug": "three on the weave graded",
    "motifs": [
     "action",
+    "figure_eight",
+    "eisenstein",
     "golden",
     "z3_generation",
     "amphichiral_cp",
-    "wrt_quantum"
+    "wrt_quantum",
+    "firewall"
    ],
    "refs": [
+    "B298",
     "P1",
     "P2",
     "P3",

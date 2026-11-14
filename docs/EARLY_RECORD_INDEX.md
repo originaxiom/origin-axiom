@@ -609,7 +609,7 @@ The figure-eight cannot force three generations by its degree-2 field: multiplic
 | arc | verdict | the arc's own line |
 |---|---|---|
 | `B280_2T_higher_spin` | NEGATIVE | 2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus Higgs from A₄/2T spin-3/2' reading. |
-| `B298_generation_obstruction` | NEGATIVE | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. |
+| `B298_generation_obstruction` | NEGATIVE | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the headline holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or… |
 | `B299_trinification_triality` | PROVED | The commuting (θ,φ) ℤ₃×ℤ₃ are inner E₆ lattice automorphisms acting freely on the 27 as nine 3-orbits — the trinification triality — so no φ-eigenvalue can grade the 27. |
 | `B300_cross_chat_sm_attempt` | NEGATIVE | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two walls (no coupling-strength emitted; the degree-3 carrier absent). |
 | `B307_totally_real_obstruction` | PROVED | Proved no hyperbolic knot can have a cyclic-cubic trace field (totally-real obstruction), closing the single-knot route to three symmetric generations; 32/32 census-confirmed. |

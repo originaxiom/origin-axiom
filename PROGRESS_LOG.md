@@ -20206,3 +20206,15 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None. The work was on how the record is kept and checked.
 
 0 of 19.
+
+## 2026-11-13 — Two old sentences that said more than was true are marked where they stand (S306p)
+
+**What this is.** Main checked two statements of the early record on its own code and found each true only in a narrower form. One said that a number field of degree two allows a thing to come only once or twice, never three times; it holds for one kind of counting and fails for others. The other said that one number picks out exactly one algebra; three algebras give it, and only one of them has the other property the arc also used.
+
+**What was built.** A building session wrote a dated note beside each sentence, on the arcs' pages, in their one-line verdicts and in the places that cite them, quoting main's check word for word. The old sentences stay as they were written. A test fails if a note is taken out, moved away from its sentence or misquoted, and the lock of the second arc now checks the corrected statement over all sixteen algebras of that family up to rank eight.
+
+**What it does not do.** It does not change any result the old arcs computed. Places beyond the ones main listed, the paper among them, still carry the first sentence; they are listed for main.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.

@@ -15,6 +15,10 @@ THE READING UNDER TEST:
 MB12: the criterion must be able to FAIL. It does -- sigma = 1 picks out exactly ONE
 ADE type. If the object nominated any other J, sigma would not be 1.
 """
+# DATED NOTE, 2026-11-13 (register row P-318; verified by main at B1906, section 3b): the list below holds nine of the
+# simply-laced types, and on them the assertion holds. Over the sixteen of rank 1 to 8, P-318: "sigma = 1 holds at
+# level 1 for A6, D6 and E6, and E6 alone has three primaries." The sentence of MB12 above is kept as it stood;
+# the lock holds the statement as corrected (tests/test_b1228_s1.py).
 from fractions import Fraction as F
 import json
 
