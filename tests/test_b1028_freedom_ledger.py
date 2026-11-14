@@ -130,7 +130,11 @@ OLD_ZERO = re.compile(r"0\.000\s+(?:retroactive\s+)?(?:designer\s+)?bits|zero\s+
 ABOUT_LEDGER = re.compile(r"designer|freedom[ -]ledger|B1028", re.I)
 
 
-_A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
+# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first): an item
+# of a list was taken only from "-", "*", "+" or a number, so the same list with typographic bullets was one unit.  The
+# pattern as it stood:
+#     _A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
+_A_BULLET = re.compile(r"^\s*(?:[-*+\u2022\u25e6\u2023\u2043\u2219\u25aa\u25cf\u2013\u2014]|\d+[.)]|[a-z][.)])\s+")
 
 
 def _units(text):
@@ -245,3 +249,18 @@ def test_the_sweep_sees_what_the_second_reading_found():
               "the twisted-vs-raw weld convention (0 bits), and the listener member (0 bits)",
               "what B1028 called zero designer freedom: " + MARK):
         assert not _bare_statements(s), s
+
+
+def test_a_list_is_read_by_its_items_whatever_its_bullets():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first).  The
+    list of the test above, with typographic bullets: read as one unit, the correction in its first item excused the zero in
+    its third.  Each item is read now, with each bullet a list is written with here; the twin is as above."""
+    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
+    plain = "The counterexamples:\n- one thing, noted. " + note + "\n- a second thing\n- **designer freedom 0.000 bits** is a count over the chain"
+    assert len(_bare_statements(plain)) == 1
+    for bullet in ("\u2022", "\u25e6", "\u2023", "\u2043", "\u2219", "\u25aa", "\u25cf", "\u2013", "\u2014", "1.", "a)"):
+        text = plain.replace("\n- ", "\n" + bullet + " ")
+        assert len(_bare_statements(text)) == 1, repr(bullet)
+        twin = text.replace(" is a count over the chain", " is a count over the chain " + note)
+        assert _bare_statements(twin) == [], repr(bullet)
+
