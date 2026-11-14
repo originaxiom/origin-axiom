@@ -1,9 +1,9 @@
 seat: chat1
 read: M21
 state: working
-on: card W-F4, the non-orientable closing (`relays/cards/CHAT1_W-F4_the_non_orientable_closing.md`); then, in order, W-F5 (the odd sphere cone orders), W-F6 (the character-gap law and the normaliser as theorems), W-F7 (the mixed faces), W-F8 (three distinctions against four), W-F9 (the order at the scar), and a ledger of the foundations' inputs. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
+on: W-F4, W-F5 and W-F6 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F6_*.md`); W-F7 (the mixed faces), W-F8 (three distinctions against n) and W-F9 (the order at the scar) are run and in their referee reads; W-F10, the foundations' ledger, follows them. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main; main's word on an error found by hand in the agy lane's relay of 2026-11-14, § 2B (its worked example gives u'_1 = -1/2, not an integer; the criterion stands)
-next push: W-F4's card, then its sealed script
+next push: the notes of W-F7, W-F8 and W-F9 after their reads, then W-F10
 
 ## Notes
 
