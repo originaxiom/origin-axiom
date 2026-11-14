@@ -91,3 +91,32 @@ def test_the_arc_says_what_it_did_not_do():
         assert s in f, s
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1892" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
+
+
+def _what_two_readers_found(page):
+    """the table of section 5, counted: (rows, the first reader's findings, the second's, those found by both)"""
+    section = page[page.index("## 5. What two readers found in common"):]
+    section = section[:section.index("\n## ", 5)]
+    rows = [[c.strip() for c in l.strip().strip("|").split(" | ")] for l in section.split("\n") if l.startswith("| ") and not l.startswith("| what")]
+    rows = [r for r in rows if len(r) == 4]
+    leading = lambda cell: int(re.match(r"\d+", cell).group(0))
+    return (len(rows),) + tuple(sum(leading(r[k]) for r in rows) for k in (1, 2, 3))
+
+
+def test_the_table_of_what_two_readers_found_and_the_sentences_that_count_it():
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A1, held by main).  The table of section 5 was
+    corrected to sum to 53 and 43, and a note added to the page in the same commit said 52 for the first reader; nothing
+    counted the table.  It is counted here, and the page and the verdict line are held to the count."""
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    rows, first, second, both = _what_two_readers_found(page)
+    assert (rows, first, second, both) == (16, 53, 43, 9)
+    together = first + second - both
+    assert together == 87 and 2 * first > together and 2 * second < together       # by the table: the first reading more than half, the second just under
+    # Built again on main's 663a902ff (2026-11-13): main corrected the page itself at Review 81 (the web seat's finding 4):
+    # its bracket gives 53, as the table sums, and says the conclusion holds.  The page and the verdict line are main's and
+    # are not held here to this seat's sentences; that the second reading's 43 of 87 is under half is sent back to main.
+    assert "the first reader has 52 findings" in F and "53, as § 5's table sums after its own correction" in F
+    assert F.index("the first reader has 52 findings") < F.index("53, as § 5's table sums after its own correction")
+    # that the count can fail: one number of one row changed
+    changed = page.replace("| B1879 | 10 | 0 | 0 |", "| B1879 | 9 | 0 | 0 |")
+    assert changed != page and _what_two_readers_found(changed) == (16, 52, 43, 9)
