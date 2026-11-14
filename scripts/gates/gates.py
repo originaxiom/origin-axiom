@@ -3134,10 +3134,15 @@ def gate_selection_family(reader=None):
 # of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
 # "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
 PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md",
-               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
-               "docs/views/COVERAGE.md", "docs/views/REVIEWER.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
+               "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
                "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
-WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md")      # labelled as working indices; not read here
+# labelled as working indices where the README points to them, and not read here.  The verdict ledger and the spine by main's
+# word (M20); the context recovery, the closed doors and the reviewer's view since C14's fourth patch, by the same reason: each
+# quotes the record's own lines (register rows, kill records, verdict lines, log entries) word for word, and their inner
+# words are in those quotations, not in their generator's text.
+WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
+                   "docs/views/REVIEWER.md")
 _PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|seat's|seat|lanes|lane's|lane|relays|relayed|relay|rulings|ruling|ruled|"
                       r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
 _PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
@@ -3209,9 +3214,6 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
     'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
-    'docs/views/CONTEXT_RECOVERY.md': {"a session's name": 2, 'card': 2, 'main': 3, 'owner': 4, 'seat': 7},
-    'docs/views/CLOSED_DOORS.md': {'card': 2, 'cc': 4, 'lane': 7, 'main': 9, 'owner': 2, 'seat': 5},
-    'docs/views/REVIEWER.md': {"a session's name": 1, 'lane': 2, 'main': 5, 'seat': 1},
     'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
     'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
     'papers/P3_THE_PAPER/verification_package/README.md': {'main': 3},

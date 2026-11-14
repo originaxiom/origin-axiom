@@ -49,6 +49,13 @@ def test_a_new_word_fails_even_where_another_left_the_page():
 def test_the_working_record_and_the_working_indices_are_not_read():
     assert "PROGRESS_LOG.md" not in g.PUBLIC_FACE and "docs/POINT_REGISTER.md" not in g.PUBLIC_FACE
     assert not set(g.WORKING_INDICES) & set(g.PUBLIC_FACE)
+    # the README points to each working index it names as one
+    readme = " ".join((ROOT / "README.md").read_text(encoding="utf-8").split())
+    for rel in g.WORKING_INDICES:
+        if rel in readme:
+            i = readme.index(rel)
+            near = readme[max(0, i - 200):i + 300]                         # the label stands before the link or after it
+            assert "working index" in near or "working indices" in near, rel
     assert not [p for p in g.PUBLIC_FACE if p.startswith(("docs/seats/", "docs/progress/", "docs/handoffs/", "frontier/", "relays/"))]
 
 
