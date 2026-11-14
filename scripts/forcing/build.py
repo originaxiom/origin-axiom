@@ -142,6 +142,32 @@ def build():
     return G
 
 
+# THE PANEL'S ERA (2026-11-13; main's card C15, register row P-239).  An arc is attached to a face only through B738's kill graph
+# and B842's reader panel, and neither was extended after the panel: of the arcs on a face, none is later than B1349, and the
+# arcs since sit on no face while their honest `depends_on` grow the authored edges.  B805's two locks guard the attached
+# state, so they are held to the arcs up to the panel's own arc; the arcs after it are the DRIFT, reported here and printed,
+# until a panel of readers attaches them (main's to order, P-239).  The panel's arc is read from its folder.
+PANEL_ARC = "B842"
+
+
+def _number(arc_id):
+    return int(re.sub(r"\D", "", arc_id) or 0)
+
+
+def panel_era(G, last=PANEL_ARC):
+    """the arcs of the graph up to the panel's arc, inclusive"""
+    import glob as _glob
+    if not _glob.glob(os.path.join(ROOT, "frontier", last + "_*")):
+        raise FileNotFoundError("the panel's arc %s is not in frontier/" % last)
+    return {a for a in G["arcs"] if _number(a) <= _number(last)}
+
+
+def drift_line(gp):
+    """the line of the report that gives the drift"""
+    return ("THE DRIFT: arcs after the panel (%s): %d, of which on NO face: %d (not attached since the panel; register row P-239)"
+            % (PANEL_ARC, len(gp["arcs_after_the_panel"]), len(gp["arcs_after_the_panel_on_no_face"])))
+
+
 def gaps(G):
     """The property the owner asked for: what is MISSING shows up, rather than being forgotten."""
     out = {}
@@ -158,6 +184,10 @@ def gaps(G):
     out["chain_links_on_unverdicted_arcs"] = sorted(
         c for c, d in G["chain"].items()
         if d["arcs"] and not any(G["arcs"].get(a, {}).get("verdict") for a in d["arcs"]))
+    # the drift (2026-11-13, C15): the arcs after the panel's era, and those of them on no face
+    era = panel_era(G)
+    out["arcs_after_the_panel"] = sorted(set(G["arcs"]) - era)
+    out["arcs_after_the_panel_on_no_face"] = sorted(set(out["arcs_on_no_face"]) - era)
     return out
 
 
@@ -193,6 +223,7 @@ def main():
     print(f"    arcs with NO verdict          : {len(gp['arcs_with_no_verdict'])}"
           f"   (invisible to the status layer)")
     print(f"    chain links on unverdicted arcs: {len(gp['chain_links_on_unverdicted_arcs'])}")
+    print("    " + drift_line(gp))
 
     print(f"\n  HONEST SCOPE: every edge above except `arc -> arc` is ATTACHMENT (a citation),")
     print(f"  NOT a forcing. A citation is not a forcing. Genuine forcing edges must be authored,")
