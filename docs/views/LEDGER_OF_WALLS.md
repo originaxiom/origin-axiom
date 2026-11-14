@@ -11,6 +11,7 @@
 - **"First met"** is the arc of the wall with the lowest number: arcs are numbered in the order they were opened, and many rows give no date.
 - **"Settled without a pick"** is a reading by a list of words: the row says the arc settled the question it asked, and its outcome has a word of denial and no word of a pick (the two lists of B1905's script). Most such arcs prove that a route does not do what was hoped of it. It is not a judgement of the arc.
 - **An arc that combines kinds of principle is counted under each.**
+- **The sweep prints a wall's row** when its expression matches the wall's name or one of the wall's words (the last table). The words are a reading by the building session, not the readers' classes.
 
 | wall | arcs | first met | settled | partly | not | the question was wrong | later corrected |
 |---|---|---|---|---|---|---|---|
@@ -178,3 +179,16 @@
 | read-out | 6 | 3 | 2 | 0 | 0 | 1 |
 | declared | 1 | 0 | 1 | 0 | 0 | 0 |
 | other | 6 | 2 | 3 | 0 | 0 | 1 |
+
+## The words the sweep reads
+
+| wall | its name | its words |
+|---|---|---|
+| W1 | the mirror pair not split | mirror; chiral; chirality; handed; the hand; orientation; amphichiral; left-right; vector-like; twin; parity |
+| W2 | one member of a family not picked | select; selection; selector; pick; singled out; single out; which thread; which root; which member; no rule |
+| W3 | a value or modulus not picked | which value; modulus; extremum; least action; minimise; minimize; stationary; variational |
+| W4 | a count not forced | how many; a count; the count; number of generations; three generations |
+| W5 | a scale or hierarchy | scale; hierarchy |
+| W6 | an identification borrowed | identification; dictionary; borrowed |
+| W7 | a construction not canonical | canonical; normalisation; normalization; base point; convention |
+| W8 | other | its name alone |
