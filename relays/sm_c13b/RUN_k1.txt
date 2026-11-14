@@ -1,0 +1,4 @@
+grid order 5: 1046 points in 272 s
+K1 max rel 2.46e-08
+done k1 in 272 s
+exit 0

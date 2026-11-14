@@ -152,7 +152,18 @@ def grid(order):
 # =========================================================================================== the ergodic integral (B1928's route)
 def ergodic(rows):
     from scipy.interpolate import LinearNDInterpolator, NearestNDInterpolator
-    import fiber_ergodic as FE        # B1928's thread() and reduce, unchanged (its module-level grid load is B1928's own)
+    T = CR.T                          # B1924's thread_average, as B1928's fiber_ergodic uses it
+
+    def reduce_pt(t):                 # B1928's fiber_ergodic.reduce_pt, verbatim
+        tr, a, b, _ = T.reduce(t, 0.0, 0.0, {"x": 0.0})
+        return tr
+
+    def thread(w, per_unit=10):       # B1928's fiber_ergodic.thread, verbatim
+        beta, betap, ell, g = T.geodesic(w)
+        zt = lambda s: complex((beta * 1j * math.exp(s) + betap) / (1j * math.exp(s) + 1))
+        nodes = max(32, int(per_unit * abs(ell))); s0 = -ell / 2
+        pts = np.array([[r.real, r.imag] for r in (reduce_pt(zt(s0 + ell * j / nodes)) for j in range(nodes))])
+        return pts, abs(ell)
     XY = np.array([[r[0], r[1]] for r in rows])
     out = {}
     rng = random.Random(1924)
@@ -169,7 +180,7 @@ def ergodic(rows):
         lin, near = LinearNDInterpolator(XY, V), NearestNDInterpolator(XY, V)
         A, wts = [], []
         for w in words:
-            pts, ell = FE.thread(w)
+            pts, ell = thread(w)
             v = lin(pts)
             bad = ~np.all(np.isfinite(v), axis=1)
             if bad.any():
@@ -204,6 +215,7 @@ if __name__ == "__main__":
         print("K1 max rel %.2e" % res["K1 max rel"], flush=True)
     elif PART == "k5":
         rows = grid(10)
+        (HERE / "c13b_k5_grid.json").write_text(json.dumps({"rows": rows}))   # saved before the integral (after the first crash)
         res = {"rows": rows, "ergodic": ergodic(rows)}
     elif PART == "k6":
         rows = json.loads((HERE / "c13b_k1.json").read_text())["rows"]
