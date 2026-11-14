@@ -64,8 +64,22 @@ def test_every_quotation_was_found_and_the_check_can_fail():
     # an empty quotation is a quotation of nothing; a quotation that names a file is not placed by standing in another
     assert qc.found("", "B1894", None) is False and qc.placed("", "B1894", None) is None
     other = "No item is added and no status cell changes."                       # a sentence of the foundation, a wide page
-    assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
-    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
+    # CHANGED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5).  The two lines here named this arc's own
+    # page, which is not at the commit the readers read:
+    #     assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
+    #     assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
+    # A path that is at no commit read was taken for every file whose name ends as it does.  It is no file now: the placing
+    # says so, and the case of a wide page is made with a page that is at the commit.
+    at_the_commit = "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md"
+    assert other not in qc.text(qc.MAIN[0], at_the_commit)
+    assert qc.found(other, "B1894", at_the_commit) is True                       # the pool finds it, on a wide page
+    assert qc.placed(other, "B1894", at_the_commit) == "wide"                    # the strict placing says where
+    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "no such file"
+    of_b1892 = " ".join(qc.text(qc.MAIN[0], at_the_commit).split()[40:58])
+    assert qc.placed(of_b1892, "B1892", at_the_commit) == "named"
+    assert qc.placed(of_b1892, "B1892", "frontier/B9999_no_such_arc/FINDINGS.md") == "no such file"       # until this: "named"
+    assert qc.found(of_b1892, None, "frontier/B9999_no_such_arc/FINDINGS.md") is False                    # until this: True
+    assert all(v["under a path that is at no commit read"] == 0 for v in q.values())
     built = qc.build()
     if all(r is None for r in built.values()):
         # CHANGED 2026-11-12 (Review 80; the same finding): with no reader's commit in the clone every result is None and the

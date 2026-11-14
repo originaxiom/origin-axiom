@@ -81,8 +81,15 @@ def found(q, arc, named):
     for commit in MAIN:
         fs = files(commit)
         pool = ([named] if named in fs else []) + ([f for f in fs if f.startswith("frontier/%s_" % arc)] if arc else []) + [f for f in WIDE if f in fs]
-        if named and named not in fs:
-            pool += [f for f in fs if f.endswith(named.split("/")[-1])]
+        # MENDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
+        # builder).  Where the path a finding names was not at the commit, every file whose name ENDS as the path does was taken
+        # in its place: a quotation set under a path that does not exist and ends in FINDINGS.md was looked for in every
+        # FINDINGS.md of the repository, and reported as found in the file named.  A path that is at no commit read is no file:
+        # nothing is taken in its place.  No finding of the readers' files names such a path; the lock counts that.
+        #     if named and named not in fs:
+        #         pool += [f for f in fs if f.endswith(named.split("/")[-1])]
+        # (This arc's `placed`, below, was given B1892's strict placing by a patch of the same series before that note was
+        #  written, and had the same fault.  It is mended with it.)
         if not arc and not named:
             pool += [f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]
         if any(form and form in text(commit, f) for form in forms for f in pool):
@@ -95,18 +102,23 @@ def found(q, arc, named):
 # found if it stood in any of them.  `placed` says where it stands, strictly, as B1892's checker has done since that day; and
 # `rows_not_read` counts the lines of a reader's table that `quotations` does not read as rows.
 def placed(q, arc, named):
-    """Where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not
-    at the commit); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is named: in the
-    pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None."""
+    """Where the quotation stands, strictly: 'named' (in the file the finding names); 'no such file' (the finding names a path
+    that is at no commit read); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is
+    named: in the pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None.  [Until 2026-11-12
+    'named' was also given where the path was not at the commit and the quotation stood in any file whose name ends as
+    the path does.]"""
     forms = {x for x in (" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())) if x}
     if not forms:
         return None
     wide = False
+    there = False
     for commit in MAIN:
         fs = files(commit)
         isin = lambda pool: any(form in text(commit, f) for form in forms for f in pool)
         if named:
-            if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
+            # until 2026-11-12: if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
+            there = there or named in fs
+            if named in fs and isin([named]):
                 return "named"
         elif arc:
             if isin([f for f in fs if f.startswith("frontier/%s_" % arc)]):
@@ -114,6 +126,8 @@ def placed(q, arc, named):
         elif isin([f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]):
             return "swept"
         wide = wide or isin([f for f in WIDE if f in fs])
+    if named and not there:
+        return "no such file"
     return "wide" if wide else None
 
 
@@ -153,6 +167,7 @@ def build():
         res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
                             "in the pages swept, neither an arc nor a file being named": where.count("swept"),
                             "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
+                            "under a path that is at no commit read": where.count("no such file"),
                             "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
         if reader == "the SM seat":
             # one of its entries corrects its own first file and quotes that file: those quotations are looked for there

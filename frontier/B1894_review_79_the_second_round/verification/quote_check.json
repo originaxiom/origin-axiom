@@ -8,6 +8,7 @@
   "in the pages swept, neither an arc nor a file being named": 11,
   "on a wide page only": 1,
   "placed nowhere": 2,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0,
   "of its own first file, found there": 2,
@@ -23,6 +24,7 @@
   "in the pages swept, neither an arc nor a file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0
  },
@@ -35,6 +37,7 @@
   "in the pages swept, neither an arc nor a file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0
  },
@@ -47,6 +50,7 @@
   "in the pages swept, neither an arc nor a file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0
  }
