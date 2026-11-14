@@ -205,65 +205,93 @@ def _prop_const_mp(Y_init: mp.matrix, dz: mp.mpc, q_const: mp.mpc) -> mp.matrix:
 
 def _lame_mono_mp(tau: mp.mpc, c_acc: mp.mpc) -> Tuple[mp.matrix, mp.matrix]:
     g2, g3 = _eisenstein_g2_g3_mp(tau)
-    z0 = mp.mpf("-0.5") - mp.mpf("0.5") * tau
     ty = float(mp.im(tau))
     tx = float(mp.re(tau))
+    z0 = (mp.mpf("-0.5") - mp.mpf("0.5") * tau) if ty <= 3.0 else mp.mpc("-0.5", "-1.0")
     min_per = min(abs(m + n * tau) for m in range(-3, 4) for n in range(-3, 4) if (m, n) != (0, 0))
     r_target = min(mp.mpf("0.20") * min_per, mp.mpf("0.45") * abs(z0))
     zf = z0 * (r_target / abs(z0))
-    Yf = _lame_frob_mp(zf, g2, g3, c_acc, n_terms=40)
+    Yf = _lame_frob_mp(zf, g2, g3, c_acc, n_terms=36)
     q_asymp = -(mp.pi ** 2 / 12) * _eisenstein_E2_mp(tau) + c_acc
 
-    def smart_mp(Y_in: mp.matrix, za: mp.mpc, zb: mp.mpc) -> mp.matrix:
+    def sp_mp(Y_in: mp.matrix, za: mp.mpc, zb: mp.mpc) -> mp.matrix:
         za_f = complex(float(mp.re(za)), float(mp.im(za)))
         zb_f = complex(float(mp.re(zb)), float(mp.im(zb)))
-        if ty > 20.0 and abs(zb_f.imag - za_f.imag) > 18.5:
-            ka = round(za_f.imag / ty)
-            kb = round(zb_f.imag / ty)
-            if ka != kb:
-                sgn = 1.0 if (zb_f.imag > za_f.imag) else -1.0
-                dy = zb_f.imag - za_f.imag
-                t1 = mp.mpf((ka * ty + sgn * 9.0 - za_f.imag) / dy)
-                t2 = mp.mpf((kb * ty - sgn * 9.0 - za_f.imag) / dy)
-                if 0 < t1 < t2 < 1:
-                    z1 = za + t1 * (zb - za)
-                    z2 = za + t2 * (zb - za)
-                    d1 = max(1e-4, _seg_lat_dist_f(za_f.real, za_f.imag, float(mp.re(z1)), float(mp.im(z1)), tx, ty))
-                    d2 = max(1e-4, _seg_lat_dist_f(float(mp.re(z2)), float(mp.im(z2)), zb_f.real, zb_f.imag, tx, ty))
-                    n1 = max(28, int(math.ceil(float(abs(z1 - za)) / (0.055 * d1))))
-                    n2 = max(28, int(math.ceil(float(abs(zb - z2)) / (0.055 * d2))))
-                    Ym1 = _taylor_prop_mp(Y_in, za, z1, tau, g2, c_acc, n_steps=n1, order=28)
-                    Ym2 = _prop_const_mp(Ym1, z2 - z1, q_asymp)
-                    return _taylor_prop_mp(Ym2, z2, zb, tau, g2, c_acc, n_steps=n2, order=28)
         d_seg = max(1e-4, _seg_lat_dist_f(za_f.real, za_f.imag, zb_f.real, zb_f.imag, tx, ty))
-        n_st = max(28, int(math.ceil(float(abs(zb - za)) / (0.055 * d_seg))))
-        return _taylor_prop_mp(Y_in, za, zb, tau, g2, c_acc, n_steps=n_st, order=28)
+        n_st = max(26, int(math.ceil(float(abs(zb - za)) / (0.055 * d_seg))))
+        return _taylor_prop_mp(Y_in, za, zb, tau, g2, c_acc, n_steps=n_st, order=26)
 
-    Y0 = smart_mp(Yf, zf, z0)
-    YA = smart_mp(Y0, z0, z0 + 1)
-    YB = smart_mp(Y0, z0, z0 + tau)
+    Y0 = sp_mp(Yf, zf, z0)
+    YA = sp_mp(Y0, z0, z0 + 1)
+    zb = z0 + tau
+    if ty > 20.0:
+        za1 = z0 + mp.mpf(2.5 / ty) * tau
+        z1 = z0 + mp.mpf(9.5 / ty) * tau
+        z2 = z0 + mp.mpf((ty - 7.5) / ty) * tau
+        zb1 = z0 + mp.mpf((ty - 0.5) / ty) * tau
+        Ym = sp_mp(sp_mp(Y0, z0, za1), za1, z1)
+        Ym = _prop_const_mp(Ym, z2 - z1, q_asymp)
+        YB = sp_mp(sp_mp(Ym, z2, zb1), zb1, zb)
+    elif ty > 4.0:
+        za1 = z0 + mp.mpf(2.5 / ty) * tau
+        zb1 = z0 + mp.mpf((ty - 0.5) / ty) * tau
+        YB = sp_mp(sp_mp(sp_mp(Y0, z0, za1), za1, zb1), zb1, zb)
+    else:
+        YB = sp_mp(Y0, z0, zb)
     Y0_inv = mp.inverse(Y0)
     return YA * Y0_inv, YB * Y0_inv
 
 
 def uniformize_mp(tau_in: complex, dps: int = 42) -> Dict[str, float]:
-    with mp.workdps(dps):
+    dps_eff = max(dps, int(1.8 * tau_in.imag) + 28)
+    with mp.workdps(dps_eff):
         tau = mp.mpc(str(tau_in.real), str(tau_in.imag))
         tau_i = mp.mpc(0, 1)
         tau_om6 = mp.exp(mp.j * mp.pi / 3)
+        eps_fd = mp.mpf("1e-16")
         if abs(tau - tau_i) < mp.mpf("1e-28") or abs(tau - tau_om6) < mp.mpf("1e-28"):
             c_cur = mp.mpc(0)
-        else:
-            n_h = max(2, min(8, int(math.ceil(float(abs(tau - tau_i)) / 2.0))))
+        elif tau_in.imag >= 4.0:
+            t_anc = mp.mpc(str(tau_in.real), "3.0")
             c_cur = mp.mpc(0)
-            for st in range(1, n_h + 1):
-                t_s = (1 - mp.mpf(st) / n_h) * tau_i + (mp.mpf(st) / n_h) * tau
-                eps_fd = mp.mpf("1e-16")
+            for st in range(1, 3):
+                t_s = (1 - mp.mpf(st) / 2) * tau_i + (mp.mpf(st) / 2) * t_anc
                 for _ in range(8):
                     MA, MB = _lame_mono_mp(t_s, c_cur)
                     fA = mp.im(MA[0, 0] + MA[1, 1])
                     fB = mp.im(MB[0, 0] + MB[1, 1])
-                    if max(abs(fA), abs(fB)) < mp.mpf("1e-32"):
+                    if max(abs(fA), abs(fB)) < mp.mpf("1e-30"):
+                        break
+                    MA_p, MB_p = _lame_mono_mp(t_s, c_cur + eps_fd)
+                    dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps_fd
+                    dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps_fd
+                    det = mp.im(dA) * mp.re(dB) - mp.re(dA) * mp.im(dB)
+                    c_cur += mp.mpc(-(mp.re(dB) * fA - mp.re(dA) * fB) / det, -(-mp.im(dB) * fA + mp.im(dA) * fB) / det)
+            n_up = max(1, int(math.ceil(math.log(tau_in.imag / 3.0) / 0.55)))
+            for st in range(1, n_up + 1):
+                ys = 3.0 * ((tau_in.imag / 3.0) ** (st / n_up))
+                t_s = mp.mpc(str(tau_in.real), repr(ys))
+                for _ in range(8):
+                    MA, MB = _lame_mono_mp(t_s, c_cur)
+                    fA = mp.im(MA[0, 0] + MA[1, 1])
+                    fB = mp.im(MB[0, 0] + MB[1, 1])
+                    if max(abs(fA), abs(fB)) < mp.mpf("1e-30"):
+                        break
+                    MA_p, MB_p = _lame_mono_mp(t_s, c_cur + eps_fd)
+                    dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps_fd
+                    dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps_fd
+                    det = mp.im(dA) * mp.re(dB) - mp.re(dA) * mp.im(dB)
+                    c_cur += mp.mpc(-(mp.re(dB) * fA - mp.re(dA) * fB) / det, -(-mp.im(dB) * fA + mp.im(dA) * fB) / det)
+        else:
+            n_h = max(2, min(5, int(math.ceil(float(abs(tau - tau_i)) / 1.2))))
+            c_cur = mp.mpc(0)
+            for st in range(1, n_h + 1):
+                t_s = (1 - mp.mpf(st) / n_h) * tau_i + (mp.mpf(st) / n_h) * tau
+                for _ in range(8):
+                    MA, MB = _lame_mono_mp(t_s, c_cur)
+                    fA = mp.im(MA[0, 0] + MA[1, 1])
+                    fB = mp.im(MB[0, 0] + MB[1, 1])
+                    if max(abs(fA), abs(fB)) < mp.mpf("1e-30"):
                         break
                     MA_p, MB_p = _lame_mono_mp(t_s, c_cur + eps_fd)
                     dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps_fd
@@ -345,7 +373,7 @@ def _wp_and_wp_prime_f64(z: complex, tau: complex) -> Tuple[complex, complex]:
     wp = pi2 * invs0_2 - pi2 / 3.0
     wpp = -2.0 * pi3 * c0 * invs0_2 * invs0
     ty = tau.imag
-    m_max = max(1, int(math.ceil(6.8 / ty)) + 1)
+    m_max = 0 if ty > 14.0 else (int(math.ceil(6.8 / ty)) + 1)
     for m in range(1, m_max + 1):
         mt = m * tau
         zm_p = pi * (z + mt)
@@ -494,51 +522,79 @@ def _prop_const_f64(Y_init: np.ndarray, dz: complex, q_const: complex) -> np.nda
 
 def _lame_mono_f64(tau: complex, c_acc: complex) -> Tuple[np.ndarray, np.ndarray]:
     g2, g3, E2 = _eisenstein_g2_g3_E2_f64(tau)
-    z0 = -0.5 - 0.5 * tau
     tx, ty = tau.real, tau.imag
+    z0 = (-0.5 - 0.5 * tau) if ty <= 3.0 else (-0.5 - 1.0j)
     min_per = min(abs(m + n * tau) for m in range(-2, 3) for n in range(-2, 3) if (m, n) != (0, 0))
     r_target = min(0.20 * min_per, 0.45 * abs(z0))
     zf = z0 * (r_target / abs(z0))
     Yf = _lame_frob_f64(zf, g2, g3, c_acc, n_terms=24)
     q_asymp = -(math.pi ** 2 / 12.0) * E2 + c_acc
 
-    def smart_prop(Y_in: np.ndarray, za: complex, zb: complex) -> np.ndarray:
-        if ty > 14.0 and abs(zb.imag - za.imag) > 12.5:
-            ka = round(za.imag / ty)
-            kb = round(zb.imag / ty)
-            if ka != kb:
-                sgn = 1.0 if (zb.imag > za.imag) else -1.0
-                dy = zb.imag - za.imag
-                t1 = (ka * ty + sgn * 6.2 - za.imag) / dy
-                t2 = (kb * ty - sgn * 6.2 - za.imag) / dy
-                if 0.0 < t1 < t2 < 1.0:
-                    z1 = za + t1 * (zb - za)
-                    z2 = za + t2 * (zb - za)
-                    d1 = max(1e-4, _seg_lat_dist_f(za.real, za.imag, z1.real, z1.imag, tx, ty))
-                    d2 = max(1e-4, _seg_lat_dist_f(z2.real, z2.imag, zb.real, zb.imag, tx, ty))
-                    n1 = max(24, int(math.ceil(abs(z1 - za) / (0.065 * d1))))
-                    n2 = max(24, int(math.ceil(abs(zb - z2) / (0.065 * d2))))
-                    Ym1 = _taylor_prop_f64(Y_in, za, z1, tau, g2, c_acc, n_steps=n1, order=18)
-                    Ym2 = _prop_const_f64(Ym1, z2 - z1, q_asymp)
-                    return _taylor_prop_f64(Ym2, z2, zb, tau, g2, c_acc, n_steps=n2, order=18)
+    def sp_f64(Y_in: np.ndarray, za: complex, zb: complex) -> np.ndarray:
         d_seg = max(1e-4, _seg_lat_dist_f(za.real, za.imag, zb.real, zb.imag, tx, ty))
-        n_st = max(22, int(math.ceil(abs(zb - za) / (0.065 * d_seg))))
+        n_st = max(24, int(math.ceil(abs(zb - za) / (0.06 * d_seg))))
         return _taylor_prop_f64(Y_in, za, zb, tau, g2, c_acc, n_steps=n_st, order=18)
 
-    Y0 = smart_prop(Yf, zf, z0)
-    YA = smart_prop(Y0, z0, z0 + 1.0)
-    YB = smart_prop(Y0, z0, z0 + tau)
+    Y0 = sp_f64(Yf, zf, z0)
+    YA = sp_f64(Y0, z0, z0 + 1.0)
+    zb = z0 + tau
+    if ty > 14.0:
+        za1 = z0 + (2.5 / ty) * tau
+        z1 = z0 + (6.8 / ty) * tau
+        z2 = z0 + ((ty - 5.8) / ty) * tau
+        zb1 = z0 + ((ty - 0.5) / ty) * tau
+        Ym = sp_f64(sp_f64(Y0, z0, za1), za1, z1)
+        Ym = _prop_const_f64(Ym, z2 - z1, q_asymp)
+        YB = sp_f64(sp_f64(Ym, z2, zb1), zb1, zb)
+    elif ty > 4.0:
+        za1 = z0 + (2.5 / ty) * tau
+        zb1 = z0 + ((ty - 0.5) / ty) * tau
+        YB = sp_f64(sp_f64(sp_f64(Y0, z0, za1), za1, zb1), zb1, zb)
+    else:
+        YB = sp_f64(Y0, z0, zb)
     return YA @ np.linalg.inv(Y0), YB @ np.linalg.inv(Y0)
 
 
 def uniformize_fast(tau: complex) -> Tuple[float, float]:
-    """Returns (tilde_L_2(tau), tilde_L_max(tau)) in float64."""
+    """Returns (tilde_L_2(tau), tilde_L_max(tau)) in float64 via log-y Fuchsian branch tracking."""
+    ty = tau.imag
+    eps = 1e-8
     if abs(tau - 1j) < 1e-14 or abs(tau - cmath.exp(1j * math.pi / 3.0)) < 1e-14:
         c_cur = 0j
-    else:
-        n_h = max(1, min(6, int(math.ceil(abs(tau - 1j) / 2.0))))
+    elif ty >= 4.0:
+        t_anc = complex(tau.real, 3.0)
         c_cur = 0j
-        eps = 1e-8
+        for st in range(1, 3):
+            ts = (1.0 - st / 2.0) * 1j + (st / 2.0) * t_anc
+            for _ in range(8):
+                MA, MB = _lame_mono_f64(ts, c_cur)
+                fA = (MA[0, 0] + MA[1, 1]).imag
+                fB = (MB[0, 0] + MB[1, 1]).imag
+                if max(abs(fA), abs(fB)) < 1e-13:
+                    break
+                MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                det = dA.imag * dB.real - dA.real * dB.imag
+                c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+        n_up = max(1, int(math.ceil(math.log(ty / 3.0) / 0.55)))
+        for st in range(1, n_up + 1):
+            ys = 3.0 * ((ty / 3.0) ** (st / n_up))
+            ts = complex(tau.real, ys)
+            for _ in range(8):
+                MA, MB = _lame_mono_f64(ts, c_cur)
+                fA = (MA[0, 0] + MA[1, 1]).imag
+                fB = (MB[0, 0] + MB[1, 1]).imag
+                if max(abs(fA), abs(fB)) < 1e-13:
+                    break
+                MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                det = dA.imag * dB.real - dA.real * dB.imag
+                c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+    else:
+        n_h = max(1, min(4, int(math.ceil(abs(tau - 1j) / 1.2))))
+        c_cur = 0j
         for st in range(1, n_h + 1):
             ts = (1.0 - st / n_h) * 1j + (st / n_h) * tau
             for _ in range(8):
@@ -1249,10 +1305,11 @@ def run_startup_gates(end_eval: CanonicalEndEvaluator) -> Dict[str, Any]:
         test_taus.append(complex(xv, yv))
 
     pred_l2, pred_lm = end_eval.eval_batch(np.array(test_taus, dtype=np.complex128))
+    with Pool(min(10, max(2, (os.cpu_count() or 4) - 2))) as pool_g2:
+        refs_g2 = pool_g2.map(uniformize_mp, test_taus)
     max_cheb_err_l2 = 0.0
     max_cheb_err_lm = 0.0
-    for idx, tt in enumerate(test_taus):
-        ref = uniformize_mp(tt, dps=40)
+    for idx, ref in enumerate(refs_g2):
         max_cheb_err_l2 = max(max_cheb_err_l2, abs(float(pred_l2[idx]) - ref["tilde_L_2"]))
         max_cheb_err_lm = max(max_cheb_err_lm, abs(float(pred_lm[idx]) - ref["tilde_L_max"]))
     assert max_cheb_err_l2 < 1e-11, f"Chebyshev tilde_L2 error too high: {max_cheb_err_l2}"

@@ -69,7 +69,7 @@ def _wp_and_wp_prime_f64(z: complex, tau: complex) -> Tuple[complex, complex]:
     wp = pi2 * invs0_2 - pi2 / 3.0
     wpp = -2.0 * pi3 * c0 * invs0_2 * invs0
     ty = tau.imag
-    m_max = max(1, int(math.ceil(6.8 / ty)) + 1)
+    m_max = 0 if ty > 14.0 else (int(math.ceil(6.8 / ty)) + 1)
     for m in range(1, m_max + 1):
         mt = m * tau
         zm_p = pi * (z + mt)
@@ -218,50 +218,78 @@ def _prop_const_f64(Y_init: np.ndarray, dz: complex, q_const: complex) -> np.nda
 
 def _lame_mono_f64(tau: complex, c_acc: complex) -> Tuple[np.ndarray, np.ndarray]:
     g2, g3, E2 = _eisenstein_g2_g3_E2_f64(tau)
-    z0 = -0.5 - 0.5 * tau
     tx, ty = tau.real, tau.imag
+    z0 = (-0.5 - 0.5 * tau) if ty <= 3.0 else (-0.5 - 1.0j)
     min_per = min(abs(m + n * tau) for m in range(-2, 3) for n in range(-2, 3) if (m, n) != (0, 0))
     r_target = min(0.20 * min_per, 0.45 * abs(z0))
     zf = z0 * (r_target / abs(z0))
     Yf = _lame_frob_f64(zf, g2, g3, c_acc, n_terms=24)
     q_asymp = -(math.pi ** 2 / 12.0) * E2 + c_acc
 
-    def smart_prop(Y_in: np.ndarray, za: complex, zb: complex) -> np.ndarray:
-        if ty > 14.0 and abs(zb.imag - za.imag) > 12.5:
-            ka = round(za.imag / ty)
-            kb = round(zb.imag / ty)
-            if ka != kb:
-                sgn = 1.0 if (zb.imag > za.imag) else -1.0
-                dy = zb.imag - za.imag
-                t1 = (ka * ty + sgn * 6.2 - za.imag) / dy
-                t2 = (kb * ty - sgn * 6.2 - za.imag) / dy
-                if 0.0 < t1 < t2 < 1.0:
-                    z1 = za + t1 * (zb - za)
-                    z2 = za + t2 * (zb - za)
-                    d1 = max(1e-4, _seg_lat_dist_f(za.real, za.imag, z1.real, z1.imag, tx, ty))
-                    d2 = max(1e-4, _seg_lat_dist_f(z2.real, z2.imag, zb.real, zb.imag, tx, ty))
-                    n1 = max(24, int(math.ceil(abs(z1 - za) / (0.065 * d1))))
-                    n2 = max(24, int(math.ceil(abs(zb - z2) / (0.065 * d2))))
-                    Ym1 = _taylor_prop_f64(Y_in, za, z1, tau, g2, c_acc, n_steps=n1, order=18)
-                    Ym2 = _prop_const_f64(Ym1, z2 - z1, q_asymp)
-                    return _taylor_prop_f64(Ym2, z2, zb, tau, g2, c_acc, n_steps=n2, order=18)
+    def sp_f64(Y_in: np.ndarray, za: complex, zb: complex) -> np.ndarray:
         d_seg = max(1e-4, _seg_lat_dist_f(za.real, za.imag, zb.real, zb.imag, tx, ty))
-        n_st = max(22, int(math.ceil(abs(zb - za) / (0.065 * d_seg))))
+        n_st = max(24, int(math.ceil(abs(zb - za) / (0.06 * d_seg))))
         return _taylor_prop_f64(Y_in, za, zb, tau, g2, c_acc, n_steps=n_st, order=18)
 
-    Y0 = smart_prop(Yf, zf, z0)
-    YA = smart_prop(Y0, z0, z0 + 1.0)
-    YB = smart_prop(Y0, z0, z0 + tau)
+    Y0 = sp_f64(Yf, zf, z0)
+    YA = sp_f64(Y0, z0, z0 + 1.0)
+    zb = z0 + tau
+    if ty > 14.0:
+        za1 = z0 + (2.5 / ty) * tau
+        z1 = z0 + (6.8 / ty) * tau
+        z2 = z0 + ((ty - 5.8) / ty) * tau
+        zb1 = z0 + ((ty - 0.5) / ty) * tau
+        Ym = sp_f64(sp_f64(Y0, z0, za1), za1, z1)
+        Ym = _prop_const_f64(Ym, z2 - z1, q_asymp)
+        YB = sp_f64(sp_f64(Ym, z2, zb1), zb1, zb)
+    elif ty > 4.0:
+        za1 = z0 + (2.5 / ty) * tau
+        zb1 = z0 + ((ty - 0.5) / ty) * tau
+        YB = sp_f64(sp_f64(sp_f64(Y0, z0, za1), za1, zb1), zb1, zb)
+    else:
+        YB = sp_f64(Y0, z0, zb)
     return YA @ np.linalg.inv(Y0), YB @ np.linalg.inv(Y0)
 
 
 def uniformize_tilde_L2_fast(tau: complex) -> float:
+    ty = tau.imag
+    eps = 1e-8
     if abs(tau - 1j) < 1e-14 or abs(tau - cmath.exp(1j * math.pi / 3.0)) < 1e-14:
         c_cur = 0j
-    else:
-        n_h = max(1, min(6, int(math.ceil(abs(tau - 1j) / 2.0))))
+    elif ty >= 4.0:
+        t_anc = complex(tau.real, 3.0)
         c_cur = 0j
-        eps = 1e-8
+        for st in range(1, 3):
+            ts = (1.0 - st / 2.0) * 1j + (st / 2.0) * t_anc
+            for _ in range(8):
+                MA, MB = _lame_mono_f64(ts, c_cur)
+                fA = (MA[0, 0] + MA[1, 1]).imag
+                fB = (MB[0, 0] + MB[1, 1]).imag
+                if max(abs(fA), abs(fB)) < 1e-13:
+                    break
+                MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                det = dA.imag * dB.real - dA.real * dB.imag
+                c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+        n_up = max(1, int(math.ceil(math.log(ty / 3.0) / 0.55)))
+        for st in range(1, n_up + 1):
+            ys = 3.0 * ((ty / 3.0) ** (st / n_up))
+            ts = complex(tau.real, ys)
+            for _ in range(8):
+                MA, MB = _lame_mono_f64(ts, c_cur)
+                fA = (MA[0, 0] + MA[1, 1]).imag
+                fB = (MB[0, 0] + MB[1, 1]).imag
+                if max(abs(fA), abs(fB)) < 1e-13:
+                    break
+                MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                det = dA.imag * dB.real - dA.real * dB.imag
+                c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+    else:
+        n_h = max(1, min(4, int(math.ceil(abs(tau - 1j) / 1.2))))
+        c_cur = 0j
         for st in range(1, n_h + 1):
             ts = (1.0 - st / n_h) * 1j + (st / n_h) * tau
             for _ in range(8):
