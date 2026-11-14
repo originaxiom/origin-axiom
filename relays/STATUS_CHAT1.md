@@ -1,9 +1,9 @@
 seat: chat1
-read: M19
+read: M20
 state: working
-on: W-C8 (`relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md`), the main goal from M19: part 1 running; W-F2's note waits on its one read
+on: W-C8 (`relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md`): part 1 delivered; part 2a and W-F3 (the cone-point loophole) wait on their one read; part 5 (the bronze rival, M20) next
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: each part of W-C8 as it comes; W-F2 when its read is back
+next push: W-C8 part 2a and W-F3 when read; then part 5
 
 ## Notes
 
