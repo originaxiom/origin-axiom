@@ -1,0 +1,13 @@
+products of at most 4 moves: 2800
+MMM labelling - steps 538 {'hyperbolic': 0, 'parabolic': 0, 'finite': 538, 'hyp_det_minus': 0, 'par_det_minus': 0}
+HHH labelling - steps 2800 {'hyperbolic': 512, 'parabolic': 1084, 'finite': 1204, 'hyp_det_minus': 144, 'par_det_minus': 0}
+MMH labelling a steps 329 {'hyperbolic': 0, 'parabolic': 0, 'finite': 329, 'hyp_det_minus': 0, 'par_det_minus': 0}
+MMH labelling b steps 384 {'hyperbolic': 0, 'parabolic': 0, 'finite': 384, 'hyp_det_minus': 0, 'par_det_minus': 0}
+MMH labelling c steps 329 {'hyperbolic': 0, 'parabolic': 0, 'finite': 329, 'hyp_det_minus': 0, 'par_det_minus': 0}
+MHH labelling a steps 670 {'hyperbolic': 0, 'parabolic': 374, 'finite': 296, 'hyp_det_minus': 0, 'par_det_minus': 0}
+MHH labelling b steps 538 {'hyperbolic': 0, 'parabolic': 264, 'finite': 274, 'hyp_det_minus': 0, 'par_det_minus': 0}
+MHH labelling c steps 670 {'hyperbolic': 0, 'parabolic': 374, 'finite': 296, 'hyp_det_minus': 0, 'par_det_minus': 0}
+Q1 holds: True
+Q2 holds: True
+Q3 holds: True
+Q4 holds: True
