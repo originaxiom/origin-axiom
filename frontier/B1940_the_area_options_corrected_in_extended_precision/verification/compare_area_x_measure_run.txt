@@ -1,0 +1,7 @@
+W-|b (area) vs W_minus__exact_T90: AGREE, worst |d ln|/tol 0.12; per position d ln/tol: -0.06 -0.03 -0.12 +0.01 +0.01 -0.05 -0.03
+   control, against B1932's uncorrected file: worst |d ln|/tol 2.52 (disagree)
+   control, the seat's truncated weight against B1940's exact: worst |d ln|/tol 0.72
+W+|b (area) vs W_plus__exact_T90: AGREE, worst |d ln|/tol 0.14; per position d ln/tol: -0.10 -0.04 -0.12 -0.04 +0.03 -0.12 +0.14
+   control, against B1932's uncorrected file: worst |d ln|/tol 1.74 (disagree)
+   control, the seat's truncated weight against B1940's exact: worst |d ln|/tol 0.66
+THE AREA OPTIONS: AGREE (worst 0.14 of the tolerance)

@@ -91,7 +91,14 @@ once, their second computation owed). Main, 2026-11-14, before the big run's loo
   τ → τ + 1. It found this defect in one line; checking every height a computation uses costs seconds.
 - **Every use of the frame above height 9 needs the same check** (P-853, Q3).
 
+## The second computation (the same night)
+- **The comparison.** agy-exp's X-MEASURE was sealed unread at 04293e826. Main compared it with this arc's corrected
+  file, using `compare_area_second.py`, committed before that output existed, through a mechanical adapter
+  (`compare_area_x_measure.py`).
+- **Both area options agree:** W₋∣b at worst 0.12 of the tolerance, W₊∣b at 0.14.
+- **Against B1932's uncorrected file they disagree,** at 2.52 and 1.74 of the tolerance. An independent code, which
+  treats the cusp in extended precision, confirms both the defect and its correction.
+- **Label:** the area options are recomputed independently (one seat).
+
 ## Not claimed
-- The area options' second computation. It is owed by agy-002's A2-CANON-T90 or agy-exp's X-MEASURE, and the run waits
-  for it.
 - Any comparison with a measured number.
