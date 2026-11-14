@@ -101,3 +101,19 @@ main match (OPEN 3, PROVED 22); 3 register rows match (QUEUED 3)`. None states t
 cd frontier/B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/verification
 python3 -B odd_ticks_no_modules.py && python3 -m pytest -q .
 ```
+
+## Addendum (2026-11-14, later): the twisted classes are the double cover's matter seen from below
+
+`verification/twisted_descends.py`, with its expectation written before the run, takes each orientation-twisted
+character at an odd level n (l(μ) = −1) and pulls it back to the orientation double cover, level 2n (t₂ₙ = tₙ²). At
+n = 3, 5 and 7 (3, 10 and 28 characters), every one of them pulls back to a character of level 2n that is trivial on
+that level's meridian and carries a class non-zero on the scar. So each is the record's own sector-module data on the
+orientable double cover.
+
+**What it means for the stated choice** (main's reading, not a ruling; register row P-846):
+- At an odd tick the frame has no matter of its own. The matter it does carry, the twisted modules, is the double
+  tick's matter seen from below.
+- If counting is required to be compatible with covers, the twisted modules count. Then "only even ticks are observed"
+  is delivered in this form: whatever is seen at an odd tick is the even tick's matter.
+- This is not proved to be the only reading. The lock gains a test of the pull-back at level 3.
+

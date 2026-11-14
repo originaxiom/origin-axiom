@@ -32,3 +32,10 @@ def test_even_levels_carry_classes():
     for n in (4, 6):
         r = O.run(n, P)
         assert r["characters"] > 0 and r["with_c_lambda_nonzero"] == r["characters"]
+
+
+def test_twisted_classes_lift_to_the_double_cover():
+    import twisted_descends as TD
+    tw, ok, mu1, cls = TD.check(3, P)
+    assert tw > 0 and tw == ok == mu1 == cls
+

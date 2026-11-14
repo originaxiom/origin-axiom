@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1621** |
-| words of findings prose | **1,443,358** |
+| words of findings prose | **1,443,561** |
 | test lock files referenced | **944** |
 | arcs carrying an authored verdict | **1621** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1926`** (1298 words, 0 locks)  
+**PROVED — `B1926`** (1501 words, 0 locks)  
 AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), the web seat's sealed W-C8 part 2a agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19.  
 `B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/FINDINGS.md`
 
