@@ -1,0 +1,174 @@
+{
+ "rule": "B1937 BIG_RUN_RULE_v2.md with amendment A13",
+ "bars": {
+  "chi2_seven": 22.04039058924537,
+  "chi2_six": 16.75,
+  "chi2_nine": 21.67,
+  "factor": 3.0,
+  "calibration": 0.01
+ },
+ "options": {
+  "W-|a (move count)": {
+   "chi2_seven": 7476.583514706856,
+   "worst_factor_seven": 7529.532515588821,
+   "chi2_six": 7888.291843689779,
+   "worst_factor_six": 7529.532515588821,
+   "chi2_nine": 10041.958522612715,
+   "worst_factor_nine": 7529.532515588821,
+   "pulls_nine": [
+    44.4833097886686,
+    45.103811041478316,
+    22.128830752620548,
+    28.637616260536667,
+    17.905244170195136,
+    47.37908018431291,
+    0.5707930826874948,
+    28.390417503216888,
+    36.705926880719524
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false,
+    "six_within_factor_3": false,
+    "nine_within_factor_3": false
+   }
+  },
+  "W-|b (area)": {
+   "chi2_seven": 6921.177056371405,
+   "worst_factor_seven": 4894.6398526833655,
+   "chi2_six": 6418.7496960132485,
+   "worst_factor_six": 4894.6398526833655,
+   "chi2_nine": 8935.246228295411,
+   "worst_factor_nine": 4894.6398526833655,
+   "pulls_nine": [
+    39.95806899370994,
+    42.92763110373926,
+    18.354028882003725,
+    25.06753593800178,
+    12.896837498553568,
+    42.9853551161312,
+    3.8223800419439593,
+    27.58789758677281,
+    41.722821690758714
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false,
+    "six_within_factor_3": false,
+    "nine_within_factor_3": false
+   }
+  },
+  "W+|a (move count)": {
+   "chi2_seven": 7292.085397946797,
+   "worst_factor_seven": 5307.8856002660095,
+   "chi2_six": 7297.2300655827685,
+   "worst_factor_six": 5307.8856002660095,
+   "chi2_nine": 9588.428576000451,
+   "worst_factor_nine": 5307.8856002660095,
+   "pulls_nine": [
+    44.106679623495,
+    43.33717089858837,
+    22.047515718904254,
+    26.292287257876595,
+    17.79735539316036,
+    44.49266590195737,
+    -1.1296242493481008,
+    28.834628614075598,
+    38.19013815321045
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false,
+    "six_within_factor_3": false,
+    "nine_within_factor_3": false
+   }
+  },
+  "W+|b (area)": {
+   "chi2_seven": 6678.933482718647,
+   "worst_factor_seven": 3314.476761151674,
+   "chi2_six": 5790.621620529955,
+   "worst_factor_six": 3314.476761151674,
+   "chi2_nine": 8411.979111312034,
+   "worst_factor_nine": 3314.476761151674,
+   "pulls_nine": [
+    39.34238452066726,
+    40.95786269298059,
+    18.256826803227856,
+    22.335947055462366,
+    12.767869792028895,
+    39.623567855093306,
+    1.9145810801352001,
+    28.17313995188101,
+    42.7079156049718
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false,
+    "six_within_factor_3": false,
+    "nine_within_factor_3": false
+   }
+  }
+ },
+ "best": {
+  "chi2_seven": 6678.933482718647,
+  "worst_factor_seven": 3314.476761151674,
+  "chi2_six": 5790.621620529955,
+  "worst_factor_six": 3314.476761151674,
+  "chi2_nine": 8411.979111312034,
+  "worst_factor_nine": 3314.476761151674
+ },
+ "calibration": {
+  "N": 4000,
+  "seed": 20261115,
+  "law": "B1720 compare.py's random targets, three sectors and the moduli",
+  "by_statistic": {
+   "chi2_seven": {
+    "fraction_as_good_as_the_best_option": 0.22075,
+    "median_best": 8740.440799878605
+   },
+   "worst_factor_seven": {
+    "fraction_as_good_as_the_best_option": 0.6125,
+    "median_best": 1901.7698538340169
+   },
+   "chi2_six": {
+    "fraction_as_good_as_the_best_option": 0.12025,
+    "median_best": 9702.48051555627
+   },
+   "worst_factor_six": {
+    "fraction_as_good_as_the_best_option": 0.4975,
+    "median_best": 3350.9565290813616
+   },
+   "chi2_nine": {
+    "fraction_as_good_as_the_best_option": 0.0825,
+    "median_best": 13406.571459513914
+   },
+   "worst_factor_nine": {
+    "fraction_as_good_as_the_best_option": 0.4975,
+    "median_best": 3350.9565290813616
+   }
+  }
+ },
+ "passing_options_none_preferred": [],
+ "outcome_governing_seven": "FAIL",
+ "reported_P341_six_and_nine": {
+  "note": "the lepton rows are the down rows (B1934); frame C does not claim them",
+  "any_option_chi2_six_below_bar": false,
+  "any_option_chi2_nine_below_bar": false,
+  "calibration_six": {
+   "fraction_as_good_as_the_best_option": 0.12025,
+   "median_best": 9702.48051555627
+  },
+  "calibration_nine": {
+   "fraction_as_good_as_the_best_option": 0.0825,
+   "median_best": 13406.571459513914
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "reported_not_governing": true,
+ "best": {
+  "chi2_seven": 6678.933482718647,
+  "worst_factor_seven": 3314.476761151674
+ },
+ "by_window": {
+  "B1720": {
+   "windows_log10": {
+    "r2": [
+     -3,
+     -1
+    ],
+    "r1": [
+     -6,
+     -2.5
+    ],
+    "a": [
+     -1.5,
+     -0.2
+    ],
+    "b": [
+     -2.5,
+     -0.7
+    ],
+    "c": [
+     -3.5,
+     -1.5
+    ]
+   },
+   "fraction_as_good": {
+    "chi2_seven": 0.22075,
+    "worst_factor_seven": 0.6125
+   }
+  },
+  "half a decade out": {
+   "windows_log10": {
+    "r2": [
+     -3.5,
+     -0.5
+    ],
+    "r1": [
+     -6.5,
+     -2.0
+    ],
+    "a": [
+     -2.0,
+     0.3
+    ],
+    "b": [
+     -3.0,
+     -0.2
+    ],
+    "c": [
+     -4.0,
+     -1.0
+    ]
+   },
+   "fraction_as_good": {
+    "chi2_seven": 0.16175,
+    "worst_factor_seven": 0.49725
+   }
+  },
+  "half a decade in": {
+   "windows_log10": {
+    "r2": [
+     -2.5,
+     -1.5
+    ],
+    "r1": [
+     -5.5,
+     -3.0
+    ],
+    "a": [
+     -1.0,
+     -0.7
+    ],
+    "b": [
+     -2.0,
+     -1.2
+    ],
+    "c": [
+     -3.0,
+     -2.0
+    ]
+   },
+   "fraction_as_good": {
+    "chi2_seven": 0.249,
+    "worst_factor_seven": 0.8045
+   }
+  }
+ }
+}
