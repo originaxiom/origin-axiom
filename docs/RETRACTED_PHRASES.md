@@ -228,6 +228,11 @@ is not reported. Main reproduced it: a planted row on a new page is reported, an
 register is not. Two of the held files are ledgers that grow. The rule that would hold a line is with the builder of
 the checks.]*
 
+*[CORRECTED 2026-11-12, a second time (Review 80, the web seat's finding 11 of its second addition, checked by main):
+"Main reproduced it" in the correction above is main's own check, by planted rows of its own. It is not the protocol's
+"reproduced", which § 12 keeps for the same code run again on a clean checkout. The correction stays as it was
+written.]*
+
 | scoped or withdrawn phrase | why | the current statement |
 |---|---|---|
 | the fraction of letters deep in the cusp is (k+1)/2^k at every length, so the unit of end data is not dynamical (B1629, GENESIS v1.38–v1.39) | (k+1)/2^k is the limit, within 2.4% at n = 10; "not dynamical" was computed only for the uniform measure on threads (the audit lane's questions) | GENESIS v1.44's FK10 note quotes the quantified statement; the owner's tagging of the unit stands (B1648) |

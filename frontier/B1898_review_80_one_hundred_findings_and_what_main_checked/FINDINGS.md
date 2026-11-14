@@ -194,6 +194,10 @@ object.
 
 - **This arc mends nothing.** A finding that waits is said to wait. The mends are the series R80b.
 - **The first table is headed as a draft** written when two of the four files were in. It stands as main wrote it.
+  [CHANGED 2026-11-12 (Review 80; a reader's finding of its second addition, checked by main): the table has one
+  dated note at its head since that day. It says that all four files were in when the table was committed, and
+  that "reproduced" in it is main's own check and not the protocol's label. No word below the note is changed, and
+  the lock holds that.]
 - **The dated addition of the web seat** has no check of its quotations in main's folder, and none was written for
   this arc.
 - **The full suite on a fresh clone** was not run for this arc by the review's tool. What was run on the patch that

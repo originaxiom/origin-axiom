@@ -41,8 +41,39 @@ def _have(commit):
     return subprocess.run(["git", "-C", str(ROOT), "cat-file", "-e", commit + "^{commit}"], capture_output=True).returncode == 0
 
 
+_THE_FIRST_TABLE_AS_MAIN_WROTE_IT = "3f695c3045d46fe4a9cb31ba381b8bfede178282aac8958f26bed51a60d7eb22"
+_THE_NOTE_AT_ITS_HEAD = "*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked\nby main)."
+
+
+def _under_its_note(text):
+    """the first table without the dated note at its head: the title, then everything after the note's paragraph"""
+    title = "# Review 80: every finding of the readers, and what main did with it\n\n"
+    if not text.startswith(title + _THE_NOTE_AT_ITS_HEAD):
+        return text
+    rest = text[len(title):]
+    return title + rest[rest.index("]*\n\n") + len("]*\n\n"):]
+
+
+def test_the_first_table_is_as_main_wrote_it_under_one_dated_note():
+    """Added 2026-11-12 (Review 80; the web seat's finding 11 of its second addition, checked by main).  The first table said
+    "reproduced" for main's own checks and was headed as a draft with two of four files in.  A dated note at its head says so
+    and changes no word below it.  Held here: without that note the file is main's, by the hash of main's own file; and the
+    note says the two things.  Planted: a word changed under the note, and a second paragraph slipped in after the note."""
+    text = (ARC / "ANSWERS_the_first_43.md").read_text(encoding="utf-8")
+    sha = lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()
+    assert text.count(_THE_NOTE_AT_ITS_HEAD) == 1 and sha(_under_its_note(text)) == _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+    note = text[text.index(_THE_NOTE_AT_ITS_HEAD):text.index("]*\n\n") + 2]
+    assert "all four were in when the file was committed" in note and "They are not the label \"reproduced\" of the protocol's § 12" in note
+    changed = text.replace("| W1 |", "| W1 [changed] |", 1)
+    assert changed != text and sha(_under_its_note(changed)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+    slipped = text.replace("]*\n\n", "]*\n\nA second paragraph, not main's.\n\n", 1)
+    assert sha(_under_its_note(slipped)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+
+
 def test_mains_files_are_as_main_wrote_them():
-    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12."""
+    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12.
+    CHANGED 2026-11-12 (Review 80): the first table has one dated note at its head since that day, in the folder and here;
+    its hash is of the file with the note, and the test above holds that under the note it is the file main wrote."""
     names = ["ANSWERS_the_first_43.md", "STATUS_OF_THE_57.md"] + sorted("verification/checks/" + p.name for p in (HERE / "checks").iterdir())
     assert names == sorted(HELD, key=lambda n: (not n.endswith(".md"), n)) and len(names) == 26
     for name in names:
