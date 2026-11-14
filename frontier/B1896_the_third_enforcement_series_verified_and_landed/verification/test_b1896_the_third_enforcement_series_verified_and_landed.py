@@ -214,3 +214,56 @@ def test_the_headline_the_verdict_and_the_two_runners_are_held():
     assert len(PASS_UNSEEN) == 5 and len(CASES) == 22 and all(RUN[k]["CAUGHT BY SOME GATE"] is False for k in PASS_UNSEEN)     # the five are the run's
     for name in ("run_unseen_s3.py", "after_reading_s3.py"):
         assert (HERE / name).is_file(), name
+
+
+# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A9, not checked by main, made again by the
+# builder in a scratch checkout).  The lock held the verdict line by its first 106 characters.  Made again: the line with
+# "17 OF MAIN'S 22" turned into "22 OF MAIN'S 22" passes, and so does "FIVE PASS" turned into "NONE PASSES".  The reader's
+# second pass, the gates named for two rows replaced on the page, is caught as the builder made it (another gate's name in
+# their place); a row is now also asked to open its answer with a gate the run names.
+_THE_LINE_SAYS = ("THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule:",
+                  "VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED AS SENT.",
+                  "17 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT, each by the gate that looks for the fault",
+                  "FIVE PASS:",
+                  "OF FIVE CASES MAIN WROTE AFTER READING THE PATCHES THREE PASS:",
+                  "None is opened by the series, each passing without it; all go to the seat (P-820)")
+_IN_WORDS = {3: "THREE", 5: "FIVE", 17: "17", 22: "22"}
+
+
+def _what_the_verdict_line_and_the_rows_do_not_say(verdict, page):
+    line = " ".join(str(verdict.get("claim_one_line", "")).split())
+    out = [] if line.startswith(_THE_LINE_SAYS[0]) else ["the verdict line does not open as it did"]
+    out += ["the verdict line does not say: " + s for s in _THE_LINE_SAYS[1:] if s not in line]
+    for k in CASES:
+        if k in PASS_UNSEEN:
+            continue
+        rows = [l for l in page.split("\n") if l.startswith("| %s |" % k) and " | caught: " in l]
+        if len(rows) != 1:
+            out.append("the page has not one row that says %s is caught" % k)
+            continue
+        answer = rows[0].split(" | caught: ", 1)[1]
+        first = re.match(r"[a-z-]+", answer)
+        if not first or first.group(0) not in RUN[k]["named gate"]:
+            out.append("the row of %s does not open its answer with a gate the run names for it" % k)
+    return out
+
+
+def test_the_verdict_line_is_held_by_its_sentences_and_a_row_by_the_gate_the_run_names():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert _what_the_verdict_line_and_the_rows_do_not_say(v, F) == []
+    # the numbers of the sentences are the runs'
+    caught = [k for k in CASES if k not in PASS_UNSEEN]
+    assert (_IN_WORDS[len(caught)], _IN_WORDS[len(CASES)], _IN_WORDS[len(PASS_UNSEEN)], _IN_WORDS[len(PASS_AFTER)]) == ("17", "22", "FIVE", "THREE")
+    assert len([k for k in AFTER if k.startswith("AR")]) == 5
+    line = v["claim_one_line"]
+    as_the_lock_asked = lambda w: w["verdict"] == "PROVED" and w["claim_one_line"].startswith(_THE_LINE_SAYS[0]) and w["claim_one_line"].endswith("0 of 19.")
+    a_row = next(l for l in F.split("\n") if l.startswith("| U16.b |") and " | caught: " in l)
+    for what, w, page in (
+            ("'17 OF MAIN'S 22' turned into '22 OF MAIN'S 22'", dict(v, claim_one_line=line.replace("17 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT", "22 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT")), F),
+            ("'FIVE PASS' turned into 'NONE PASSES'", dict(v, claim_one_line=line.replace("FIVE PASS:", "NONE PASSES:")), F),
+            ("'THREE PASS' turned into 'NONE PASSES'", dict(v, claim_one_line=line.replace("THE PATCHES THREE PASS:", "THE PATCHES NONE PASSES:")), F),
+            ("the line cut after the part the lock held, its last words kept", dict(v, claim_one_line=line[:106] + " a gate reads all it is about). 0 of 19."), F),
+            ("a row's gate replaced by another gate's name, the run's gate kept after it", v, F.replace(a_row, a_row.replace(" | caught: gate-controls", " | caught: framing, and not gate-controls")))):
+        assert (w, page) != (v, F), what
+        assert as_the_lock_asked(w), what                                         # what the lock asked of the verdict before passes each of them
+        assert _what_the_verdict_line_and_the_rows_do_not_say(w, page), what
