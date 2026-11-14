@@ -73,9 +73,9 @@ def mat_H(A: mp.matrix) -> mp.matrix:
 # ITEM F1: STANDALONE 45-DIGIT LAME ODE PUNCTURED-TORUS UNIFORMIZER
 # ============================================================================
 
-def eisenstein_g2_g3(tau: mp.mpc, n_terms: int = 90) -> Tuple[mp.mpc, mp.mpc]:
+def eisenstein_g2_g3(tau: mp.mpc, n_terms: int = 150) -> Tuple[mp.mpc, mp.mpc]:
     """Compute Weierstrass invariants g_2(1, tau) and g_3(1, tau) via q-series."""
-    q = mp.exp(2j * mp.pi * tau)
+    q = mp.exp(2 * mp.j * mp.pi * tau)
     s3 = mp.mpc(0)
     s5 = mp.mpc(0)
     qn = q
@@ -95,7 +95,7 @@ def eisenstein_g2_g3(tau: mp.mpc, n_terms: int = 90) -> Tuple[mp.mpc, mp.mpc]:
     return g2, g3
 
 
-def wp_and_wp_prime(z: mp.mpc, tau: mp.mpc, max_m: int = 75) -> Tuple[mp.mpc, mp.mpc]:
+def wp_and_wp_prime(z: mp.mpc, tau: mp.mpc, max_m: int = 150) -> Tuple[mp.mpc, mp.mpc]:
     """
     Evaluate Weierstrass (wp(z; 1, tau), wp'(z; 1, tau)) directly from the
     1-periodic trigonometric lattice sum over m in Z.
@@ -122,7 +122,7 @@ def wp_and_wp_prime(z: mp.mpc, tau: mp.mpc, max_m: int = 75) -> Tuple[mp.mpc, mp
 
 
 def lame_frob_initial(
-    z: mp.mpc, g2: mp.mpc, g3: mp.mpc, c_acc: mp.mpc, n_terms: int = 28
+    z: mp.mpc, g2: mp.mpc, g3: mp.mpc, c_acc: mp.mpc, n_terms: int = 45
 ) -> mp.matrix:
     """
     Evaluate the canonical Frobenius fundamental matrix at small z near 0:
@@ -171,8 +171,31 @@ def lame_frob_initial(
     dh = sz * s_dh
     y2 = y1 * lz + h
     dy2 = dy1 * lz + y1 / z + dh
-    fac = -1j / (2 * mp.pi)
+    fac = -mp.j / (2 * mp.pi)
     return mp.matrix([[fac * y2, fac * dy2], [y1, dy1]])
+
+
+def _segment_lattice_distance(z_start: mp.mpc, z_end: mp.mpc, tau: mp.mpc) -> float:
+    """Minimum Euclidean distance from segment [z_start, z_end] to lattice Z + Z*tau."""
+    ax, ay = float(mp.re(z_start)), float(mp.im(z_start))
+    bx, by = float(mp.re(z_end)), float(mp.im(z_end))
+    dx, dy = bx - ax, by - ay
+    seg_len2 = dx * dx + dy * dy
+    tx, ty = float(mp.re(tau)), float(mp.im(tau))
+    dmin = 1e9
+    for m in range(-5, 6):
+        for n in range(-5, 6):
+            px, py = m + n * tx, n * ty
+            if seg_len2 < 1e-30:
+                dist = math.hypot(ax - px, ay - py)
+            else:
+                t_proj = ((px - ax) * dx + (py - ay) * dy) / seg_len2
+                t_clamped = max(0.0, min(1.0, t_proj))
+                qx, qy = ax + t_clamped * dx, ay + t_clamped * dy
+                dist = math.hypot(px - qx, py - qy)
+            if dist < dmin:
+                dmin = dist
+    return dmin
 
 
 def taylor_propagate_lame(
@@ -182,8 +205,8 @@ def taylor_propagate_lame(
     tau: mp.mpc,
     g2: mp.mpc,
     c_acc: mp.mpc,
-    n_steps: int = 26,
-    order: int = 24,
+    n_steps: int = 36,
+    order: int = 32,
 ) -> mp.matrix:
     """
     Propagate 2x2 fundamental matrix of y'' + (1/4 wp(z; tau) + c_acc) y = 0
@@ -201,12 +224,12 @@ def taylor_propagate_lame(
         p[1] = p1
         if order >= 2:
             p[2] = 3 * p0 * p0 - half_g2 / 2
-        for k in range(3, order - 1):
+        for k in range(3, order):
             conv = sum(p[j] * p[k - 2 - j] for j in range(k - 1))
             p[k] = (mp.mpf(6) / (k * (k - 1))) * conv
-        q = [mp.mpc(0)] * (order - 1)
+        q = [mp.mpc(0)] * order
         q[0] = p[0] / 4 + c_acc
-        for k in range(1, order - 1):
+        for k in range(1, order):
             q[k] = p[k] / 4
 
         Y_next = mp.zeros(2, 2)
@@ -235,26 +258,37 @@ def taylor_propagate_lame(
 def lame_monodromy(
     tau: mp.mpc,
     c_acc: mp.mpc,
-    base_shift: Tuple[mp.mpf, mp.mpf] = (mp.mpf("-0.5"), mp.mpf("-0.5")),
+    base_shift: Optional[Tuple[str, str]] = None,
 ) -> Tuple[mp.matrix, mp.matrix, mp.mpc]:
     """
     Compute monodromy matrices (M_A, M_B) of u_0(z) along z_0 -> z_0 + 1 and z_0 -> z_0 + tau
     in the canonical Frobenius basis F(z) = [(-i/(2*pi)) y_2(z), y_1(z)]^T.
     Note det F(z) = i/(2*pi) identically (constant Wronskian), so M_A, M_B in SL(2, C).
     """
+    sh_pair = ("-0.5", "-0.5") if base_shift is None else base_shift
+    b0, b1 = mp.mpf(sh_pair[0]), mp.mpf(sh_pair[1])
     g2, g3 = eisenstein_g2_g3(tau)
-    z0 = base_shift[0] + base_shift[1] * tau
-    # Choose Frobenius evaluation point on straight ray 0 -> z0 well inside convergence disk
-    min_per = min([mp.mpf(1)] + [abs(m + tau) for m in range(-4, 5)])
-    r_target = min(mp.mpf("0.08") * min_per, mp.mpf("0.20") * abs(z0))
+    z0 = b0 + b1 * tau
+    min_per = min(
+        abs(m + n * tau)
+        for m in range(-5, 6)
+        for n in range(-5, 6)
+        if (m, n) != (0, 0)
+    )
+    r_target = min(mp.mpf("0.20") * min_per, mp.mpf("0.45") * abs(z0))
     zf = z0 * (r_target / abs(z0))
-    Yf = lame_frob_initial(zf, g2, g3, c_acc, n_terms=30)
-    n_ray = max(28, int(float(abs(z0 - zf) / mp.mpf("0.020"))) + 1)
-    n_A = max(32, int(float(mp.mpf(1) / mp.mpf("0.020"))) + 1)
-    n_B = max(32, int(float(abs(tau) / mp.mpf("0.020"))) + 1)
-    Y0 = taylor_propagate_lame(Yf, zf, z0, tau, g2, c_acc, n_steps=n_ray, order=26)
-    YA = taylor_propagate_lame(Y0, z0, z0 + 1, tau, g2, c_acc, n_steps=n_A, order=26)
-    YB = taylor_propagate_lame(Y0, z0, z0 + tau, tau, g2, c_acc, n_steps=n_B, order=26)
+    Yf = lame_frob_initial(zf, g2, g3, c_acc, n_terms=45)
+
+    d_ray = max(1e-4, _segment_lattice_distance(zf, z0, tau))
+    d_A = max(1e-4, _segment_lattice_distance(z0, z0 + 1, tau))
+    d_B = max(1e-4, _segment_lattice_distance(z0, z0 + tau, tau))
+    n_ray = max(28, int(math.ceil(float(abs(z0 - zf)) / (0.055 * d_ray))))
+    n_A = max(32, int(math.ceil(1.0 / (0.055 * d_A))))
+    n_B = max(32, int(math.ceil(float(abs(tau)) / (0.055 * d_B))))
+
+    Y0 = taylor_propagate_lame(Yf, zf, z0, tau, g2, c_acc, n_steps=n_ray, order=32)
+    YA = taylor_propagate_lame(Y0, z0, z0 + 1, tau, g2, c_acc, n_steps=n_A, order=32)
+    YB = taylor_propagate_lame(Y0, z0, z0 + tau, tau, g2, c_acc, n_steps=n_B, order=32)
     Y0_inv = mp.inverse(Y0)
     MA = YA * Y0_inv
     MB = YB * Y0_inv
@@ -289,7 +323,7 @@ def solve_fuchsian_accessory_from_guess(tau: mp.mpc, c_init: mp.mpc) -> Tuple[mp
 def uniformize_punctured_torus(
     tau_in: mp.mpc,
     n_homotopy: int = 3,
-    base_shift: Tuple[mp.mpf, mp.mpf] = (mp.mpf("-0.5"), mp.mpf("-0.5")),
+    base_shift: Optional[Tuple[str, str]] = None,
 ) -> Dict[str, Any]:
     """
     Solve the real-monodromy Lame problem on E_tau^x by continuation from tau_0 = i (c_acc = 0),
@@ -299,7 +333,8 @@ def uniformize_punctured_torus(
     with mp.workdps(48):
         tau = mp.mpc(tau_in)
         tau_i = mp.mpc(0, 1)
-        if abs(tau - tau_i) < mp.mpf("1e-30") or abs(tau - mp.exp(1j * mp.pi / 3)) < mp.mpf("1e-30"):
+        tau_om6 = mp.exp(mp.j * mp.pi / 3)
+        if abs(tau - tau_i) < mp.mpf("1e-30") or abs(tau - tau_om6) < mp.mpf("1e-30"):
             c_acc = mp.mpc(0)
             MA, MB, det_Y0 = lame_monodromy(tau, c_acc, base_shift=base_shift)
         else:
@@ -309,7 +344,7 @@ def uniformize_punctured_torus(
                 t_s = (1 - s) * tau_i + s * tau
                 c_guess, MA, MB = solve_fuchsian_accessory_from_guess(t_s, c_guess)
             c_acc = c_guess
-            if base_shift != (mp.mpf("-0.5"), mp.mpf("-0.5")):
+            if base_shift is not None and base_shift != ("-0.5", "-0.5"):
                 MA, MB, det_Y0 = lame_monodromy(tau, c_acc, base_shift=base_shift)
             else:
                 det_Y0 = mp.mpc(0, 1 / (2 * mp.pi))
@@ -317,19 +352,19 @@ def uniformize_punctured_torus(
         comm = MA * MB * mp.inverse(MA) * mp.inverse(MB)
         comm_tr_err = abs((comm[0, 0] + comm[1, 1]) - (-2))
         comm_c_err = abs(comm[1, 0])
-        assert comm_tr_err < mp.mpf("1e-21"), f"Commutator trace residual too large: {comm_tr_err}"
-        assert comm_c_err < mp.mpf("1e-21"), f"Commutator (2,1) residual too large: {comm_c_err}"
+        assert comm_tr_err < mp.mpf("1e-24"), f"Commutator trace residual too large: {comm_tr_err}"
+        assert comm_c_err < mp.mpf("1e-24"), f"Commutator (2,1) residual too large: {comm_c_err}"
 
         lam = abs(mp.re(comm[0, 1]))
-        assert abs(lam - 1) < mp.mpf("1e-21"), f"Unexpected parabolic shift width: {lam}"
+        assert abs(lam - 1) < mp.mpf("1e-24"), f"Unexpected parabolic shift width: {lam}"
 
-        assert max(abs(mp.im(MA[1, 0])), abs(mp.im(MB[1, 0]))) < mp.mpf("1e-21")
+        assert max(abs(mp.im(MA[1, 0])), abs(mp.im(MB[1, 0]))) < mp.mpf("1e-24")
         imB_A = -mp.im(MA[0, 0]) / mp.re(MA[1, 0])
         imB_B = -mp.im(MB[0, 0]) / mp.re(MB[1, 0])
-        assert abs(imB_A - imB_B) < mp.mpf("1e-20"), f"Im(B) mismatch: {imB_A} vs {imB_B}"
+        assert abs(imB_A - imB_B) < mp.mpf("1e-24"), f"Im(B) mismatch: {imB_A} vs {imB_B}"
         imB = (imB_A + imB_B) / 2
 
-        B_shift = 1j * imB
+        B_shift = mp.j * imB
         G_conj = mp.matrix([[1, B_shift], [0, 1]])
         G_inv = mp.matrix([[1, -B_shift], [0, 1]])
         RA_c = G_conj * MA * G_inv
@@ -338,7 +373,7 @@ def uniformize_punctured_torus(
             max(abs(mp.im(RA_c[r, col])) for r in range(2) for col in range(2)),
             max(abs(mp.im(RB_c[r, col])) for r in range(2) for col in range(2)),
         )
-        assert max_imag_entry < mp.mpf("1e-20"), f"SL(2, R) conjugation imag residual: {max_imag_entry}"
+        assert max_imag_entry < mp.mpf("1e-24"), f"SL(2, R) conjugation imag residual: {max_imag_entry}"
 
         RA = mp.matrix([[mp.re(RA_c[0, 0]), mp.re(RA_c[0, 1])], [mp.re(RA_c[1, 0]), mp.re(RA_c[1, 1])]])
         RB = mp.matrix([[mp.re(RB_c[0, 0]), mp.re(RB_c[0, 1])], [mp.re(RB_c[1, 0]), mp.re(RB_c[1, 1])]])
@@ -353,7 +388,7 @@ def uniformize_punctured_torus(
             c_val = abs(mat[1, 0])
             if c_val > mp.mpf("1e-9") and c_val < min_c:
                 min_c = c_val
-        for _ in range(5):
+        for _ in range(6):
             nxt_words: List[Tuple[str, mp.matrix]] = []
             for w_str, mat in frontier_words:
                 last_ch = w_str[-1]
@@ -364,7 +399,7 @@ def uniformize_punctured_torus(
                     c_val = abs(prod[1, 0])
                     if c_val > mp.mpf("1e-9") and c_val < min_c:
                         min_c = c_val
-                    if abs(prod[0, 0]) + abs(prod[0, 1]) + abs(prod[1, 0]) + abs(prod[1, 1]) < mp.mpf("250"):
+                    if abs(prod[0, 0]) + abs(prod[0, 1]) + abs(prod[1, 0]) + abs(prod[1, 1]) < mp.mpf("2000"):
                         nxt_words.append((w_str + nm, prod))
             frontier_words = nxt_words
 
@@ -401,27 +436,22 @@ def closed_form_gamma_prime_omega6() -> Tuple[mp.mpf, mp.mpf]:
       has modulus |Omega_{[T,S]}| = 1 (shortest lattice period on Z + omega_6 Z).
     """
     def eta4(w: mp.mpc) -> mp.mpc:
-        q = mp.exp(2j * mp.pi * w)
+        q = mp.exp(2 * mp.j * mp.pi * w)
         prod = mp.mpc(1)
         qn = q
-        for _ in range(100):
+        for _ in range(120):
             prod *= (1 - qn)
             if abs(qn) < mp.mpf("1e-50"):
                 break
             qn *= q
-        return mp.exp(2j * mp.pi * w / 6) * (prod ** 4)
+        return mp.exp(2 * mp.j * mp.pi * w / 6) * (prod ** 4)
 
     w0 = mp.mpc(0, 1)
-    # Check [T, S] = [[2, 1], [1, 1]] and [T^-1, S] = [[0, -1], [1, 2]]? Wait:
-    # T^-1 S T S^-1 = [[1,-1],[0,1]][[0,-1],[1,0]][[1,1],[0,1]][[0,1],[-1,0]]
-    # = [[-1,-1],[1,0]][[0,1],[-1,-1]] = [[1, 0], [-1, 1]]? No:
-    # [[1,1],[0,1]] * [[0,1],[-1,0]] = [[-1, 1], [-1, 0]], so T^-1 S T S^-1 = [[-1,-1],[1,0]]*[[-1,1],[-1,0]] = [[2, -1], [-1, 1]].
-    w1 = mp.mpc("1.5", "0.5")   # [[2, 1], [1, 1]] . i = (2i + 1)/(i + 1) = (3 + i)/2
-    w2 = mp.mpc("-0.5", "0.5")  # [[1, -1], [-1, 2]] . i = (i - 1)/(-i + 2) = (-3 + i)/5? Use [[2,-1],[-1,1]].i = (2i-1)/(-i+1) = (-3+i)/2!
+    w1 = mp.mpc("1.5", "0.5")
+    w2 = mp.mpc("-0.5", "0.5")
     per1 = mp.quad(eta4, [w0, w1])
     per2 = mp.quad(eta4, [w0, w2])
     ratio = per2 / per1
-    # Verify period ratio generates hexagonal lattice (|per1| == |per2| and angle pi/3 or 2*pi/3)
     assert abs(abs(ratio) - 1) < mp.mpf("1e-32")
     kappa_abs = 1 / abs(per1)
     imB_cf = mp.log(3 * kappa_abs / mp.pi) / (2 * mp.pi)
@@ -435,7 +465,7 @@ def run_item_f1() -> Dict[str, Any]:
     mp.mp.dps = 45
 
     # 1. Benchmark & closed-form comparison at tau = exp(i*pi/3) and tau = i
-    tau_om6 = mp.exp(1j * mp.pi / 3)
+    tau_om6 = mp.exp(mp.j * mp.pi / 3)
     u_om6 = uniformize_punctured_torus(tau_om6)
     Lmax_cf_om6, L2_cf_om6 = closed_form_gamma_prime_omega6()
     diff_om6_Lmax = abs(u_om6["L_max"] - Lmax_cf_om6)
@@ -448,7 +478,7 @@ def run_item_f1() -> Dict[str, Any]:
     tau_i = mp.mpc(0, 1)
     u_i = uniformize_punctured_torus(tau_i)
     u_i_alt = uniformize_punctured_torus(
-        tau_i, base_shift=(mp.mpf("-0.37"), mp.mpf("-0.61"))
+        tau_i, base_shift=("-0.37", "-0.61")
     )
     assert abs(u_i["tr_A"] - 2 * mp.sqrt(2)) < mp.mpf("1e-30")
     assert abs(u_i["tr_B"] - 2 * mp.sqrt(2)) < mp.mpf("1e-30")
@@ -575,12 +605,14 @@ def run_item_f1() -> Dict[str, Any]:
 # SHARED 4-CHANNEL YUKAWA BUILDER (B1656 + B1919 + B1927) FOR ITEMS F2 & F3
 # ============================================================================
 
-I2_MP = mp.matrix([[1, 0], [0, 1]])
-QI_MP = mp.matrix([[1j, 0], [0, -1j]])
-QJ_MP = mp.matrix([[0, 1], [-1, 0]])
-QK_MP = mp.matrix([[0, 1j], [1j, 0]])
-QUAT_UNITS = {"1": I2_MP, "i": QI_MP, "j": QJ_MP, "k": QK_MP}
-GEN_CP = [QJ_MP, QI_MP, QK_MP]
+def _quat_mats() -> Tuple[mp.matrix, mp.matrix, mp.matrix, mp.matrix]:
+    i2 = mp.matrix([[1, 0], [0, 1]])
+    qi = mp.matrix([[mp.j, 0], [0, -mp.j]])
+    qj = mp.matrix([[0, 1], [-1, 0]])
+    qk = mp.matrix([[0, mp.j], [mp.j, 0]])
+    return i2, qi, qj, qk
+
+
 SIXY = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}
 
 
@@ -597,10 +629,10 @@ def F_kronecker_shifted(u1_in: mp.mpf, u2_in: mp.mpf, tau: mp.mpc) -> mp.mpf:
         u2 = mp.mpf(0)
     x, y = mp.re(tau), mp.im(tau)
     if abs(u1) < mp.mpf("1e-30") and abs(u2) < mp.mpf("1e-30"):
-        q = mp.exp(2j * mp.pi * tau)
-        eta_prod = mp.exp(2j * mp.pi * tau / 24)
+        q = mp.exp(2 * mp.j * mp.pi * tau)
+        eta_prod = mp.exp(2 * mp.j * mp.pi * tau / 24)
         qn = q
-        for _ in range(100):
+        for _ in range(120):
             eta_prod *= (1 - qn)
             if abs(qn) < mp.mpf("1e-48"):
                 break
@@ -613,14 +645,14 @@ def F_kronecker_shifted(u1_in: mp.mpf, u2_in: mp.mpf, tau: mp.mpc) -> mp.mpf:
         m0 = mp.mpf(0)
         reg_k0 = mp.pi * (-mp.psi(0, u1) - mp.psi(0, 1 - u1) - mp.log(y) - 2 * mp.log(2))
     osc = mp.mpf(0)
-    max_m = max(45, int(22.0 / max(0.15, float(y))) + 5)
+    max_m = max(60, int(28.0 / max(0.15, float(y))) + 8)
     for m in range(-max_m, max_m + 1):
         alpha = m + u1
         if abs(alpha) < mp.mpf("1e-30"):
             continue
         a_abs = abs(alpha)
         beta = u2 + alpha * x
-        z = mp.exp(2j * mp.pi * (beta + 1j * a_abs * y))
+        z = mp.exp(2 * mp.j * mp.pi * (beta + mp.j * a_abs * y))
         osc += (mp.pi / a_abs) * 2 * mp.re(z / (1 - z))
     return m0 + reg_k0 + osc
 
@@ -631,7 +663,7 @@ def N_channel_norm(u1: mp.mpf, u2: mp.mpf, tau: mp.mpc) -> mp.mpf:
 
 
 def jtheta_unit(idx: int, z: mp.mpc, tau: mp.mpc) -> mp.mpc:
-    return mp.jtheta(idx, mp.pi * z, mp.exp(1j * mp.pi * tau))
+    return mp.jtheta(idx, mp.pi * z, mp.exp(mp.j * mp.pi * tau))
 
 
 def serre_triplet_d2R(tau: mp.mpc, s_char_shift: Optional[Tuple[mp.mpf, mp.mpf]] = None) -> List[mp.mpc]:
@@ -642,13 +674,11 @@ def serre_triplet_d2R(tau: mp.mpc, s_char_shift: Optional[Tuple[mp.mpf, mp.mpf]]
     by (da, db) directly on the triplet factor.
     """
     def theta_char(a_ch: mp.mpf, b_ch: mp.mpf, t: mp.mpc) -> mp.mpc:
-        # theta[a, b](0; t) = sum_{n in Z} exp(i*pi*(n+a)^2 t + 2*pi*i*(n+a)*b)
-        # = exp(i*pi*a^2 t + 2*pi*i*a*b) * theta_3(a*t + b; t)
-        return mp.exp(1j * mp.pi * (a_ch ** 2) * t + 2j * mp.pi * a_ch * b_ch) * jtheta_unit(3, a_ch * t + b_ch, t)
+        return mp.exp(mp.j * mp.pi * (a_ch ** 2) * t + 2 * mp.j * mp.pi * a_ch * b_ch) * jtheta_unit(3, a_ch * t + b_ch, t)
 
     def eval_R(t: mp.mpc) -> List[mp.mpc]:
-        q_half = mp.exp(1j * mp.pi * t)
-        th1p0 = mp.pi * mp.jtheta(1, 0, q_half, derivative=1)  # = 2*pi*eta(t)^3
+        q_half = mp.exp(mp.j * mp.pi * t)
+        th1p0 = mp.pi * mp.jtheta(1, 0, q_half, derivative=1)
         if s_char_shift is None:
             t2 = jtheta_unit(2, 0, t)
             t4 = jtheta_unit(4, 0, t)
@@ -658,13 +688,13 @@ def serre_triplet_d2R(tau: mp.mpc, s_char_shift: Optional[Tuple[mp.mpf, mp.mpf]]
             t2 = theta_char(mp.mpf("0.5") + da, mp.mpf("0.0") + db, t)
             t4 = theta_char(mp.mpf("0.0") + da, mp.mpf("0.5") + db, t)
             t3 = theta_char(mp.mpf("0.0") + da, mp.mpf("0.0") + db, t)
-        return [-(t2 ** 2) / th1p0, -(t4 ** 2) / th1p0, 1j * (t3 ** 2) / th1p0]
+        return [-(t2 ** 2) / th1p0, -(t4 ** 2) / th1p0, mp.j * (t3 ** 2) / th1p0]
 
     def eval_E2(t: mp.mpc) -> mp.mpc:
-        q = mp.exp(2j * mp.pi * t)
+        q = mp.exp(2 * mp.j * mp.pi * t)
         s = mp.mpc(0)
         qn = q
-        for n in range(1, 95):
+        for n in range(1, 130):
             term = n * qn / (1 - qn)
             s += term
             if abs(term) < mp.mpf("1e-48"):
@@ -678,12 +708,12 @@ def serre_triplet_d2R(tau: mp.mpc, s_char_shift: Optional[Tuple[mp.mpf, mp.mpf]]
         rs = [eval_R(t + k * h) for k in (-2, -1, 0, 1, 2)]
         dr = [(rs[0][c] - 8 * rs[1][c] + 8 * rs[3][c] - rs[4][c]) / (12 * h) for c in range(3)]
         e2 = eval_E2(t)
-        return [dr[c] / (2j * mp.pi) + e2 * rs[2][c] / 24 for c in range(3)]
+        return [dr[c] / (2 * mp.j * mp.pi) + e2 * rs[2][c] / 24 for c in range(3)]
 
     ds = [eval_d1R(tau + k * h) for k in (-2, -1, 0, 1, 2)]
     dd = [(ds[0][c] - 8 * ds[1][c] + 8 * ds[3][c] - ds[4][c]) / (12 * h) for c in range(3)]
     e2_0 = eval_E2(tau)
-    return [dd[c] / (2j * mp.pi) - e2_0 * ds[2][c] / 8 for c in range(3)]
+    return [dd[c] / (2 * mp.j * mp.pi) - e2_0 * ds[2][c] / 8 for c in range(3)]
 
 
 def build_yukawa_4channel(
@@ -701,15 +731,19 @@ def build_yukawa_4channel(
     B1919 + B1927 synthesis:
       ||phi_s||_reg^2 = N(c_s, tau) + 2*pi*L(tau) = F_{c_s - (1/2, 1/2)}(tau) + 2*pi*tilde_L(tau).
     """
+    i2_mp, qi_mp, qj_mp, qk_mp = _quat_mats()
+    quat_units = {"1": i2_mp, "i": qi_mp, "j": qj_mp, "k": qk_mp}
+    gen_cp = [qj_mp, qi_mp, qk_mp]
+
     w = psi1 * tau - psi2
     ubar = (qx + qy) * w
     delta = (qx - qy) * w
-    th1p0 = mp.pi * mp.jtheta(1, 0, mp.exp(1j * mp.pi * tau), derivative=1)
+    th1p0 = mp.pi * mp.jtheta(1, 0, mp.exp(mp.j * mp.pi * tau), derivative=1)
     R_raw = {
-        "1": (-1j) * jtheta_unit(1, ubar, tau) * jtheta_unit(1, delta, tau) / th1p0,
+        "1": (-mp.j) * jtheta_unit(1, ubar, tau) * jtheta_unit(1, delta, tau) / th1p0,
         "i": (-1) * jtheta_unit(2, ubar, tau) * jtheta_unit(2, delta, tau) / th1p0,
         "j": (-1) * jtheta_unit(4, ubar, tau) * jtheta_unit(4, delta, tau) / th1p0,
-        "k": (1j) * jtheta_unit(3, ubar, tau) * jtheta_unit(3, delta, tau) / th1p0,
+        "k": (mp.j) * jtheta_unit(3, ubar, tau) * jtheta_unit(3, delta, tau) / th1p0,
     }
     u1b = (qx + qy) * psi1
     u2b = -(qx + qy) * psi2
@@ -730,21 +764,20 @@ def build_yukawa_4channel(
     if reading == "S":
         pass
     elif reading == "S_tilde":
-        # Standard SU(2) charge conjugate S_tilde = eps S^* eps^T = a_i^* i + a_j^* j + a_k^* k
         a_vec = [mp.conj(v) for v in a_vec]
     elif reading == "S_star":
         a_vec = [-mp.conj(a_vec[0]), mp.conj(a_vec[1]), -mp.conj(a_vec[2])]
     else:
         raise ValueError(f"Unknown reading: {reading}")
 
-    S_mat = a_vec[0] * QI_MP + a_vec[1] * QJ_MP + a_vec[2] * QK_MP
+    S_mat = a_vec[0] * qi_mp + a_vec[1] * qj_mp + a_vec[2] * qk_mp
     Y = mp.zeros(3, 3)
-    eps_inv = -QJ_MP
+    eps_inv = -qj_mp
     for p in range(3):
         for q in range(3):
-            M = eps_inv * GEN_CP[p].T * QJ_MP * S_mat * GEN_CP[q]
+            M = eps_inv * gen_cp[p].T * qj_mp * S_mat * gen_cp[q]
             acc = mp.mpc(0)
-            for s, U in QUAT_UNITS.items():
+            for s, U in quat_units.items():
                 uh = mat_H(U)
                 tr = (
                     uh[0, 0] * M[0, 0]
@@ -1251,10 +1284,11 @@ def run_item_f3() -> Dict[str, Any]:
     assert hol_conj_1_err < mp.mpf("1e-32") and hol_conj_t_err < mp.mpf("1e-32")
 
     a_vec0 = serre_triplet_d2R(tau0)
-    S0_mat = a_vec0[0] * QI_MP + a_vec0[1] * QJ_MP + a_vec0[2] * QK_MP
+    _, qi_mp, qj_mp, qk_mp = _quat_mats()
+    S0_mat = a_vec0[0] * qi_mp + a_vec0[1] * qj_mp + a_vec0[2] * qk_mp
     S0_conj_entrywise = mp.matrix([[mp.conj(S0_mat[r, c]) for c in range(2)] for r in range(2)])
-    Stilde_from_eps = QJ_MP * S0_conj_entrywise * QJ_MP.T
-    Stilde_expected = mp.conj(a_vec0[0]) * QI_MP + mp.conj(a_vec0[1]) * QJ_MP + mp.conj(a_vec0[2]) * QK_MP
+    Stilde_from_eps = qj_mp * S0_conj_entrywise * qj_mp.T
+    Stilde_expected = mp.conj(a_vec0[0]) * qi_mp + mp.conj(a_vec0[1]) * qj_mp + mp.conj(a_vec0[2]) * qk_mp
     stilde_alg_err = max(abs(Stilde_from_eps[r, c] - Stilde_expected[r, c]) for r in range(2) for c in range(2))
     assert stilde_alg_err < mp.mpf("1e-35")
 
@@ -1456,10 +1490,15 @@ def pullback_bijection_check_level_n(n_odd: int, p: int = 100999) -> Dict[str, A
     A = np.array([[1, 1], [1, 0]], dtype=int)
     An = np.linalg.matrix_power(A, n_odd)
     A2n = np.linalg.matrix_power(A, 2 * n_odd)
-    N_ord = abs(int(round(np.linalg.det(An - np.eye(2)))))
-    N2_ord = abs(int(round(np.linalg.det(A2n - np.eye(2)))))
-    # Pick prime p = 1 mod (2 * N_ord * N2_ord)
-    mod_req = max(2, 2 * N_ord * max(1, N2_ord))
+    M1_diff = An - np.eye(2, dtype=int)
+    M2_diff = A2n - np.eye(2, dtype=int)
+    det1 = abs(int(M1_diff[0, 0] * M1_diff[1, 1] - M1_diff[0, 1] * M1_diff[1, 0]))
+    det2 = abs(int(M2_diff[0, 0] * M2_diff[1, 1] - M2_diff[0, 1] * M2_diff[1, 0]))
+    g1_ent = math.gcd(math.gcd(abs(int(M1_diff[0, 0])), abs(int(M1_diff[0, 1]))), math.gcd(abs(int(M1_diff[1, 0])), abs(int(M1_diff[1, 1]))))
+    g2_ent = math.gcd(math.gcd(abs(int(M2_diff[0, 0])), abs(int(M2_diff[0, 1]))), math.gcd(abs(int(M2_diff[1, 0])), abs(int(M2_diff[1, 1]))))
+    N_ord = det1 // max(1, g1_ent)
+    N2_ord = det2 // max(1, g2_ent)
+    mod_req = max(2, 2 * math.lcm(max(1, N_ord), max(1, N2_ord)))
     cand_p = 100001
     while True:
         if cand_p % mod_req == 1 and all(cand_p % d != 0 for d in range(2, int(math.isqrt(cand_p)) + 1)):
