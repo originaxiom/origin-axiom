@@ -1,0 +1,18 @@
+n = 2 | p even; class of p: [1] ; of s_1 p s_1: [-1]
+n = 2 | rank of records 1 | spectral radius of H_n: 1.0 | matrix [[1]]
+n = 3 | p odd; class of p^2: [0, 0]
+n = 3 | rank of records 2 | spectral radius of H_n: 2.618034 | matrix [[2, -1], [-1, 1]]
+n = 4 | p even; class of p: [1, 0, 1] ; of s_1 p s_1: [-1, 0, -1]
+n = 4 | rank of records 3 | spectral radius of H_n: 3.732051 | matrix [[2, -2, -1], [-1, 2, 1], [0, 1, 1]]
+n = 5 | p odd; class of p^2: [0, 0, 0, 0]
+n = 5 | rank of records 4 | spectral radius of H_n: 4.390257 | matrix [[2, -2, -2, 1], [-1, 2, 2, -1], [0, 1, 2, -1], [0, 0, -1, 1]]
+n = 6 | p even; class of p: [1, 0, 1, 0, 1] ; of s_1 p s_1: [-1, 0, -1, 0, -1]
+n = 6 | rank of records 5 | spectral radius of H_n: 4.791288 | matrix [[2, -2, -2, 2, 1], [-1, 2, 2, -2, -1], [0, 1, 2, -2, -1], [0, 0, -1, 2, 1], [0, 0, 0, 1, 1]]
+n = 7 | p odd; class of p^2: [0, 0, 0, 0, 0, 0]
+n = 7 | rank of records 6 | spectral radius of H_n: 5.048917 | matrix [[2, -2, -2, 2, 2, -1], [-1, 2, 2, -2, -2, 1], [0, 1, 2, -2, -2, 1], [0, 0, -1, 2, 2, -1], [0, 0, 0, 1, 2, -1], [0, 0, 0, 0, -1, 1]]
+T1 holds: True
+T2 holds: True
+T3 holds: True
+T4 holds: True
+T5 holds: True
+plant (h_1 h_1^-1 is the identity, radius 1): True
