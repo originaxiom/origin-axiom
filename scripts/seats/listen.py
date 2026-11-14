@@ -38,7 +38,13 @@ import subprocess
 import sys
 import time
 
-MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
+# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): a heading was read
+# only where its marks start the line, and a heading indented by one to three spaces, which Markdown reads as a heading, was
+# taken into the message before it.  A message's heading, and the heading that ends it, may now stand after up to three
+# spaces, as Markdown reads them; four spaces make a block of code and no heading.  The pattern as it stood:
+#     MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
+MESSAGE = re.compile(r"^ {0,3}### M(\d+)\b.*$", re.M)
+_ENDS_A_MESSAGE = r"^ {0,3}#{1,3} "
 
 
 GIT_SECONDS = 180          # a fetch that stalls is a failure to look, not a silence (Review 79: the call had no time limit)
@@ -111,7 +117,7 @@ def messages(page):
         # CORRECTED 2026-11-12 (Review 80; found by a reading of this function, checked by main on the pattern).  The pattern
         # was r"^#{1,2} ": a message ended at a heading above its own level and ran on through a heading of its own level
         # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
-        nxt = next((x for x in re.finditer(r"^#{1,3} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
+        nxt = next((x for x in re.finditer(_ENDS_A_MESSAGE, page[m.end():end], re.M) if outside(m.end() + x.start())), None)
         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
         found[int(m.group(1))] = body.rstrip() + "\n"
     return found

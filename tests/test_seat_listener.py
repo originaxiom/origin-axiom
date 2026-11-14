@@ -321,3 +321,23 @@ def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_
     status, text, remember = L.look_main(str(clone), "origin", False)
     assert status == 2 and "could not be listed" in text and remember is None
     assert (main_mem.read_text(encoding="utf-8") if main_mem.is_file() else None) == before
+
+
+def test_a_heading_indented_by_up_to_three_spaces_ends_a_message_and_four_do_not():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  A section of
+    the page whose heading was indented by two spaces was taken into the message before it; and a message whose own heading
+    was indented was not found.  Four spaces make a block of code, which is no heading."""
+    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
+    try:
+        spec = importlib.util.spec_from_file_location("listen_for_indented_headings", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    finally:
+        sys.dont_write_bytecode = was
+    for pad in (" ", "  ", "   "):
+        page = "# page\n\n### M2 — two\n\ntext of two\n\n" + pad + "## A section of the page\n\nnot of M2\n\n" + pad + "### M1 — one\n\ntext of one\n"
+        m = L.messages(page)
+        assert sorted(m) == [1, 2] and "not of M2" not in m[2] and "text of one" in m[1], repr(pad)
+    code = "# page\n\n### M2 — two\n\ntext of two\n\n    ## a line of code, not a heading\n\nstill of M2\n"
+    assert "still of M2" in L.messages(code)[2]
+    # the twin: headings that start the line, as before
+    assert "not of M2" not in L.messages("### M2 — two\n\ntext\n\n## A section\n\nnot of M2\n")[2]
+
