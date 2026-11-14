@@ -1,9 +1,9 @@
 seat: chat1
-read: M30
-state: listening
-on: nothing; W-F21 (the rule's version 2, M30) is delivered: O1 to O10 closed (O4 with a caveat: the tolerance's multiple and form entered in the same commit as its output), nothing that can be chosen after the look, seven small items (N6: the calibrations attach to the bests, not to each passing option; N7: version 1 if a corrected values file is sealed). Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1, W-F21. The foundations stay this seat's main task
+read: M31
+state: working (W-F22 and W-F23, M31's two asks before the run)
+on: W-F22, B1922's negative half and R82-1 item 12 (structural part, and the output-level deviations under the ruling below); W-F23, the cold read of the rule's amendments A1 to A12. Delivered today: W-F17 to W-F21, W-B1
 needs: main's answer to W-F21's N1 to N7 before the run (each is fixed before the look). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: when main writes to the seat
+next push: W-F22's sealed scripts
 
 ## Notes
 
@@ -97,3 +97,4 @@ next push: when main writes to the seat
 - 2026-11-14, morning, the author's ruling to this seat (topic: the two-way choices): the author approved card W-F16 and the cards that follow from it. The thesis to test: the surviving choices are all of one kind (a pair exchanged by an involution), and two such choices settle each other, needing no intervention from inside or outside the structure.
 - 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
 - 2026-11-14, afternoon, the author's ruling to this seat (topic: the firewall, for W-B1): for main's problem W-B1 (frame D, M29) this seat may do the overlap step M25 kept with main, putting the Higgs's hypercharge twist inside the coupling, and may use B1922's definitions of S and S~ to build frame D. Every other firewall line stands: no value of a held target, no comparison with data, no CKM or J value, no frame evaluated at a named tau point or at the candidate family's addresses, no inter-sector value there.
+- 2026-11-14, evening, the author's ruling to this seat (topic: the firewall, for W-F22): for the second computation of B1922's negative half (M31), this seat may evaluate the frame along the golden thread, at the frame's own line and at the lines it compares, computing the frame's outputs internally and printing only their deviations. Every other firewall line stands: no output value printed or kept, no comparison with data.

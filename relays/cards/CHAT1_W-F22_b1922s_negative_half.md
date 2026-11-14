@@ -24,7 +24,11 @@
    not ℓ. So B1922's negative half holds for one turn only. Whether the read-out may average S* over three turns is a
    question for main.
 
-## Not done here unless the author lifts it
+## The output-level check (amended before any run: the author approved it, 2026-11-14, evening)
 
-The output-level check: the frame evaluated along the thread with only deviations printed. It needs the author's word,
-because it evaluates the frame at the frame's own line.
+This seat's own implementation of B1656's frame is evaluated along the golden thread, with only deviations printed
+(B1724's max |log ratio|), never an output:
+- under γ, at the own line, at (1/5, 2/5) and at the unfixed (1/5, 3/5);
+- under γ³, at the own line.
+
+Expectations are in its script's header.
