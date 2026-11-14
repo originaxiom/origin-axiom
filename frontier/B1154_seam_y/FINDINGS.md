@@ -65,3 +65,5 @@ This seat did **not** re-run codex's off-branch proof. The MISMATCH is independe
 correctness — it needs only the *kind* of obstruction, which the on-branch one-line claim + B774 supply.
 The prereg's "MATCH gets cc3's third opinion before banking" does **not** trigger (this is MISMATCH). No
 SM value entered anywhere — the entire content is that the object does not supply one. Gate 5 untouched.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “,c> is forced to zero by H^1” and “arithmetic only SELECTS which class is H_u”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

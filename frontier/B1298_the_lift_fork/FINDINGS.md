@@ -89,3 +89,5 @@ The inner lift's "every direction even" is a statement about Aut(E₆), not abou
 (seconds); seat re-runs `fc_r72_inner_lift_rerun.txt`, `fc_r71_*_rerun.txt`, `fc_r72c_*_rerun.txt`,
 `sm_b1280_theta_odd_pairing_rerun.txt` (each ends `SELFTEST: PASS` / `RC=0`); `tests/test_b1298_the_lift_fork.py` runs the
 two bench scripts in a scratch cwd, pins the signs and the fixed-root counts, and checks the DESIGN seal and the re-run receipts.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

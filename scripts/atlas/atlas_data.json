@@ -6143,8 +6143,8 @@
     "B327",
     "B883"
    ],
-   "obstacle": "selector",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },

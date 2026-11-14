@@ -82,3 +82,5 @@ uniqueness.
 
 `sh frontier/B1228_S1_the_nomination/reproduce.sh` — four cells (σ-from-J; the nomination with its
 control; K1's named candidate; the level-forcing). Lock `tests/test_b1228_s1.py`.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece” and “So k = 1 is forced by INVENTORY, not chosen”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

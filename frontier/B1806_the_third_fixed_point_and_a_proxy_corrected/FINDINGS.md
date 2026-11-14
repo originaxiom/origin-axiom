@@ -137,3 +137,5 @@ None computed the exponents near i.
   points. At τ = i the radii are L_max(i) = 0.688 and L₂(i) = 2.719. There a section with a(i) on R(i)'s line gives
   m₂/m₃ = 0.2080 and 0.01907 (B1809 Table T).
 - The exponents stand.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “has order 8 and selects a”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
