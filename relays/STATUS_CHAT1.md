@@ -1,9 +1,9 @@
 seat: chat1
-read: M20
+read: M21
 state: working
-on: W-C8 (`relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md`): part 1 delivered; part 2a and W-F3 (the cone-point loophole) wait on their one read; part 5 (the bronze rival, M20) next
+on: W-C8 (`relays/cards/CHAT1_W-C8_the_one_tick_object_and_the_foundational_system.md`): parts 1, 2a and 5 delivered; parts 3 and 4 wait on their one read. W-F3 (M21's question) is delivered. The dated note on harvest row 1328 (P-316) is in the TICK_LINE_HIGGS record
 needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: W-C8 part 2a and W-F3 when read; then part 5
+next push: W-C8 parts 3 and 4 when read
 
 ## Notes
 
