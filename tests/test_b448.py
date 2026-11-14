@@ -44,16 +44,24 @@ def test_orbit_tower_fields():
     q = quintics[0]
     assert sp.expand(q - (t**5 + t**4 + t**2 + 3*t + 1)) == 0
     assert sp.discriminant(q, t) == 7**2 * 17**2
-    # no quadratic factor with discriminant of squarefree part +5 anywhere at period 5
-    for f in f5:
-        if sp.degree(f, t) == 2:
-            d = sp.discriminant(f, t)
-            # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
-            assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
-    # and the golden field is absent: no factor field Q(sqrt(5))
-    for f in f5:
-        if sp.degree(f, t) == 2:
-            assert sp.discriminant(f, t) != 5
+    # CORRECTED 2026-11-12, a second time (Review 80; the web seat's finding 10 of its second addition, checked by main).  Two
+    # loops stood here, over the period-5 factors of degree 2:
+    #     # no quadratic factor with discriminant of squarefree part +5 anywhere at period 5
+    #     for f in f5:
+    #         if sp.degree(f, t) == 2:
+    #             d = sp.discriminant(f, t)
+    #             # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
+    #             assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
+    #     # and the golden field is absent: no factor field Q(sqrt(5))
+    #     for f in f5:
+    #         if sp.degree(f, t) == 2:
+    #             assert sp.discriminant(f, t) != 5
+    # At period 5 there is no factor of degree 2: the factors are t and the quintic.  Neither loop was ever entered, so the
+    # mended assert tested nothing, with its constant or without it: negated, or replaced by `assert False`, the test passed.
+    # What the two loops were written to say is said by the list of degrees: no quadratic factor at period 5, so none whose
+    # field is Q(sqrt5).
+    assert sorted(int(sp.degree(f, t)) for f in f5) == [1, 5]
+    assert sp.Integer(1) * t in f5 and not [f for f in f5 if sp.degree(f, t) == 2]
 
 
 def test_period4_orbit_closed_form():
