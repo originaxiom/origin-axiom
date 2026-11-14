@@ -158,3 +158,54 @@ def test_the_arc_says_what_it_did_not_do():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1894" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["scope"]["reach"] in ("single", "class", "general")
     assert v["claim_one_line"].endswith("0 of 19.")
+
+
+def _the_pages():
+    """every tracked page of text (Markdown, JSON, TeX, plain text), by git where git can list them, else by a walk"""
+    import subprocess
+    r = subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True)
+    names = [f for f in r.stdout.split("\n") if f.endswith((".md", ".json", ".tex", ".txt"))] if r.returncode == 0 else []
+    if not names:
+        names = [str(q.relative_to(ROOT)) for q in ROOT.rglob("*") if q.suffix in (".md", ".json", ".tex", ".txt") and ".git" not in q.parts]
+    return names
+
+
+def _where_the_old_sign_stands(read):
+    """(the pages that hold an old wording, flattened over line breaks, with how many times; those where one is uncorrected)"""
+    held, bad = {}, {}
+    for rel in _the_pages():
+        text = read(rel)
+        if text is None:
+            continue
+        flat = " ".join(text.split())
+        n = sum(flat.count(o) for o in _OLD_SIGN)
+        if n:
+            held[rel] = n
+            if _old_sign_uncorrected(text):
+                bad[rel] = len(_old_sign_uncorrected(text))
+    return held, bad
+
+
+def test_the_old_sign_is_swept_on_every_page_and_not_on_four_named_ones():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 12, not checked by main, made again first).  The
+    test above reads four named pages.  The old sentence planted on docs/THE_CLAIM.md passed it and every gate.  Every tracked
+    page is read now, flattened over its line breaks (the law map's old wording breaks over a line, and a search line by line
+    does not see it): the old wordings stand on the four pages and nowhere else, each with its correction."""
+    def read(rel):
+        try:
+            return (ROOT / rel).read_text(encoding="utf-8")
+        except Exception:
+            return None
+    held, bad = _where_the_old_sign_stands(read)
+    assert bad == {}, bad
+    assert held == {"CHANGELOG.md": 2, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}, held
+    # planted: the old sentence on a page the test above does not name, as the reader planted it; and broken over a line
+    for planted in ("\nThe index it cites: a unit on one line gives index one.\n", "\nThe index it cites: a unit on one\nline gives index one.\n"):
+        plant = lambda rel: (read(rel) or "") + planted if rel == "docs/THE_CLAIM.md" else read(rel)
+        h, b = _where_the_old_sign_stands(plant)
+        assert b == {"docs/THE_CLAIM.md": 1} and h["docs/THE_CLAIM.md"] == 1
+    # the twin: the same sentence with its sign beside it
+    twin = lambda rel: (read(rel) or "") + "\nThe index: a unit on one line gives index one; with its sign, -1 for a unit on one line.\n" if rel == "docs/THE_CLAIM.md" else read(rel)
+    h, b = _where_the_old_sign_stands(twin)
+    assert b == {} and h["docs/THE_CLAIM.md"] == 1
+
