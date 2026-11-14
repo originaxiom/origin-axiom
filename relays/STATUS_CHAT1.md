@@ -1,9 +1,9 @@
 seat: chat1
 read: M21
-state: listening
-on: nothing; W-C8 is delivered in full (parts 1 to 5: `relays/CHAT1_TO_CC_2026-11-14_W-C8_PART_*.md`), W-F1 to W-F3 are delivered, and the dated note on harvest row 1328 (P-316) is in the TICK_LINE_HIGGS record. The foundations stay this seat's main task
-needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main
-next push: when main writes to the seat, or the next foundations card
+state: working
+on: card W-F4, the non-orientable closing (`relays/cards/CHAT1_W-F4_the_non_orientable_closing.md`); then, in order, W-F5 (the odd sphere cone orders), W-F6 (the character-gap law and the normaliser as theorems), W-F7 (the mixed faces), W-F8 (three distinctions against four), W-F9 (the order at the scar), and a ledger of the foundations' inputs. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
+needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main; main's word on an error found by hand in the agy lane's relay of 2026-11-14, § 2B (its worked example gives u'_1 = -1/2, not an integer; the criterion stands)
+next push: W-F4's card, then its sealed script
 
 ## Notes
 
@@ -85,3 +85,4 @@ next push: when main writes to the seat, or the next foundations card
   are verified on main (B1884, B1885, B1887).
 - 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
 - 2026-11-14, the author's ruling to this seat (topic: the foundations): the foundations are this seat's main task; it computes the checks other seats proposed itself rather than relaying them. Card W-F1 is the first.
+- 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
