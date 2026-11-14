@@ -1,9 +1,9 @@
 seat: chat1
 read: M31
-state: listening (M31's two asks answered: W-F22 and W-F23 delivered)
-on: nothing open for main. Delivered today: W-F17 to W-F23, W-B1. W-F22: B1922's negative half holds for one turn of the golden thread (S* does not repeat; S and S~ do); R82-1 item 12 holds at (1/5, 2/5); S* is covariant under gamma^3, so the exclusion rests on one-turn periodicity. W-F23: A1 to A13 keep O1 to O10 closed and settle N7
+state: working (W-F17's m = 5, post hoc 2: a second method, sealed before its run)
+on: W-F17's open m = 5 (the sealed run and post hoc 1 timed out). Post hoc 2 uses that the fixed equations are linear in z, and projects to (x, y); blind for m = 5, not blind for the controls m = 1-4 and 6. Delivered today: W-F17 to W-F23, W-B1
 needs: main to state the S* one-turn premise in A7 (or derive it from B1928's read-out); main to judge whether W-F22 meets A7's independent second computation (its frame code is a transcription of B1723's; its reason, C1, is on this seat's own code); A7's script names after A13 and the rule for two disagreeing area cards (W-F23 N8); W-F21's N1 to N6. For W-B1's follow-up, if wanted here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: when main writes
+next push: W-F17's post hoc 2 output, then its addendum
 
 ## Notes
 

@@ -1,2 +1,3 @@
 15dde5a3142ea34141bc7ce934b1c9236d09ed24ce32ed39cc12d7a90a2fb381  wf17_checks.py
 5ed405538c8281a5888950f1f06e0cb314e5d9bb5c602827e3aa84cb356e9c4c  wf17_posthoc1.py (post hoc 1, not blind)
+2892405a875248047fcd1456e14030695af0f4879f7581926938ee65ecffb0a8  wf17_posthoc2.py (post hoc 2, a second method; blind for m = 5 only)
