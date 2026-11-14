@@ -234,14 +234,21 @@ OLD_FORMS = (
     # (the old form, as a regular expression; what must stand in the same unit; which finding)
     (r"set of semisimple elements contains a maximal torus", r"COMMUT", "E4"),
     (r"invisib(?:ility|le) to (?:every|all|each|any) states?", E3_CORRECTION, "E3"),
-    (r"no non-abelian continuous symmetry commuting with the holonomy", r"PRINCIPAL", "E8"),
+    # CHANGED 2026-11-12 (Review 80; owed from the review's first findings, a reader's rows on this tripwire).  The mark for E8
+    # was r"PRINCIPAL", read in any case: the word "principal" anywhere near excused the claim, the claim's own sentence
+    # included if it named the embedding.  The mark is the correction's own words, and the capitals are asked for.
+    (r"no non-abelian continuous symmetry commuting with the holonomy", r"(?-i:PRINCIPAL)|the only one computed|non-principal embedding has a different centralizer", "E8"),
     (r"(?:21|twenty[- ]one) distinct eigenvalues", r"\b20 distinct|at most 20 (?:distinct|eigenvalues|of them|are possible)|\(20; B1862\)|where 20 is the most possible|corrected 2026-11-10 \(B1862", "E13"),
     (r"no real nullity[- ]14 point exists there|no real point of nullity[- ]14 (?:exists )?there", r"the audit's finding E5|refinement never ran", "E5"),
     # Review 79: a sentence of B1853 that B1884's table corrects, found standing unscoped in five places
     (r"(?:fix(?:es)?|fixed) (?:a )?points? (?:of |on )?(?:P[¹^1]{1,2}\((?:ℤ|Z)/N(?:ℤ|Z)?\) )?only at N = 5|only at N = 5 does (?:LR|it|the ground) fix", r"exactly one point at N = 5", "B1884"),
+    # ADDED 2026-11-12 (Review 80; the same rows): E11 had no old form here.  The sentence is the one this arc's table quotes.
+    (r"sin\(π/7\) has no (?:radical )?closed form|sin\(pi/7\) has no (?:radical )?closed form", r"complex radicals|real radicals", "E11"),
 )
 ROOT_PAGES = ("README.md", "ROADMAP.md", "GENESIS.md", "CLAIMS.md", "GOVERNANCE.md", "TERMINOLOGY.md", "WORKING_RULES.md", "CHANGELOG.md")
-NOT_READ = ("docs/views/",            # generated from the verdict lines, which are read here
+NOT_READ = ("PROGRESS_LOG.md",        # the log is append-only: what it said on a day stays (added 2026-11-12, when every tracked file came to be read)
+            "frontier/B921_branch_harvest/harvested/",          # a harvested copy of another branch's sweep of the changelog's history (the same day)
+            "docs/views/",            # generated from the verdict lines, which are read here
             "docs/progress/",         # the log's archives are history and are not edited
             "frontier/B1862_the_audits_first_corrections/",      # this arc quotes the old forms to correct them
             "frontier/B1892_review_79_read_by_those_who_did_not_build_it/", "frontier/B1894_",      # the review's arcs quote what the readers found
@@ -250,14 +257,26 @@ HELD_BY_ITS_OWN_LOCK = {("papers/structure_paper/SKELETON.md", "E5")}      # the
 BEFORE, AFTER = 400, 900            # how near "beside" is within one unit, in characters
 
 
+def _plain(text):
+    """the text with the marks of emphasis taken out: the stars and underscores of bold and italic, and the backticks of code.
+    ADDED 2026-11-12 (Review 80): an old form with one of its words in bold was not found."""
+    import re
+    return re.sub(r"(\*{1,3}|_{2,3}|`)", "", text)
+
+
 def _units(text, rel):
     """the blocks a correction must share with the old form: a paragraph, one row of a table, one item of a list with the lines
-    that continue it.  A JSON file is one block."""
+    that continue it.  A JSON file is one block.
+    CHANGED 2026-11-12 (Review 80): a quotation of several paragraphs, its paragraphs parted by a line that holds the mark of
+    quotation and nothing else, was one block, so a cue in a later quoted paragraph excused the claim in an earlier one.  Such
+    a line parts two blocks now, as an empty line does.  And the marks of emphasis are taken out before the forms are looked
+    for."""
     import re
+    text = _plain(text)
     if rel.endswith(".json"):
         return [" ".join(text.split())]
     out = []
-    for block in re.split(r"\n\s*\n", text):
+    for block in re.split(r"\n\s*\n|\n\s*>\s*(?=\n)", text):
         cur = []
         for line in block.split("\n"):
             if re.match(r"\s*(?:\||[-*] |\d+\. )", line) and cur:
@@ -271,7 +290,9 @@ def _units(text, rel):
 def _hits(root=ROOT):
     import re
     out = []
-    files = subprocess.run(["git", "-C", str(root), "ls-files", "frontier", "docs", "papers", *ROOT_PAGES], capture_output=True, text=True, check=True).stdout.split("\n")
+    # CHANGED 2026-11-12 (Review 80): the list was `"ls-files", "frontier", "docs", "papers", *ROOT_PAGES`.  No script outside
+    # an arc, no test and no page of the other trees was read.  Every tracked file is listed now; NOT_READ says what is history.
+    files = subprocess.run(["git", "-C", str(root), "ls-files"], capture_output=True, text=True, check=True).stdout.split("\n")
     for rel in files:
         if not rel.endswith((".md", ".json", ".tex", ".txt", ".py")) or any(x in rel for x in NOT_READ):
             continue
@@ -291,7 +312,7 @@ def _hits(root=ROOT):
 
 def test_no_place_still_carries_an_old_form_unmarked():
     hits = _hits()
-    assert {fid for _, fid, _ in hits} == {"E4", "E3", "E8", "E13", "E5", "B1884"}      # the old forms are kept as history, so each is still found somewhere
+    assert {fid for _, fid, _ in hits} == {"E4", "E3", "E8", "E13", "E5", "B1884", "E11"}      # the old forms are kept as history, so each is still found somewhere
     bad = [(rel, fid) for rel, fid, ok in hits if not ok]
     assert not bad, bad
     # the places Review 78's reader named, and the one main's sweep added, are among those read
@@ -383,3 +404,51 @@ def test_the_tripwire_and_the_shapes_of_the_second_round(tmp_path):
     # NOT CLOSED, as the lock's own note says: the marker phrase added to a sentence that still asserts the old claim is taken for
     # its correction, and a rewording outside the spellings listed is not found at all.
     assert got["docs/appended.md"] is True and "docs/far_reworded.md" not in got
+
+
+def test_the_tripwire_and_the_five_gaps_of_review_80(tmp_path):
+    """Review 80, owed from its first findings: a reader's two rows on this tripwire, which main checked by planted pages of its
+    own and registered as a debt.  Five gaps, as main's table gives them: no old form for one finding; trees that were not
+    read; a mark that accepts an uncorrected claim; a cue in a later quoted paragraph that excuses; a form in bold that is
+    not seen.  The cases below are the building session's, written from those descriptions: the reader's own are on its
+    branch, and main's planted pages were not in its folder.  Each plant has a twin that carries its correction.
+    WHICH MARK the reader found is not known here.  The one found here is E8's, which was one word read in any case."""
+    def git(*a):
+        r = subprocess.run(["git", "-C", str(tmp_path), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
+        assert r.returncode == 0, r.stderr
+    git("init", "-q")
+    for d in ("docs", "scripts", "tests", "knowledge"):
+        (tmp_path / d).mkdir()
+    put = lambda rel, s: (tmp_path / rel).write_text(s + "\n", encoding="utf-8")
+    expected = {}
+    def case(rel, s, marked):
+        put(rel, s); expected[rel] = marked
+    # 1. E11 has an old form
+    case("docs/sine.md", "As is known, sin(π/7) has no radical closed form.", False)
+    case("docs/sine_good.md", "sin(π/7) has no radical closed form [corrected: none in real radicals; it is expressible by complex radicals].", True)
+    # 2. every tracked file is read: a script outside an arc, a test, a page of another tree
+    case("scripts/tool.py", '"""The charge premise: a departure is invisible to every state."""', False)
+    case("tests/test_x.py", "# B567 found 21 distinct eigenvalues at level 165", False)
+    case("knowledge/K1.md", "LR fixes a point only at N = 5.", False)
+    put("PROGRESS_LOG.md", "an entry of its day: a set of semisimple elements contains a maximal torus")          # history: not read
+    # 3. a mark that was one word in any case
+    case("docs/principal.md", "There is no non-abelian continuous symmetry commuting with the holonomy, for the principal embedding or any other.", False)
+    case("docs/principal_good.md", "There is no non-abelian continuous symmetry commuting with the holonomy. [Scoped: this holds for the PRINCIPAL embedding of 2T, the only one computed.]", True)
+    # 4. a cue in a later paragraph of the same quotation
+    case("docs/quoted.md", "> The charge is invisibility to every state.\n>\n> In another matter one has E = +I on the even block and E = −I on the odd, by parity.", False)
+    case("docs/quoted_good.md", "> The charge is invisibility to every state\n> [corrected: that holds for E = +I only; E = −I is invisible only under parity].", True)
+    # 5. a form with a word in bold, in italics or as code
+    case("docs/bold.md", "B567 finds **21** distinct eigenvalues at level 165.", False)
+    case("docs/italic.md", "At five a departure is *invisible* to every state.", False)
+    case("docs/code.md", "On the real line no real `nullity-14` point exists there.", False)
+    case("docs/bold_good.md", "This read **21** distinct eigenvalues; there are 20 distinct.", True)
+    git("add", "-A")
+    got = {}
+    for rel, _, ok in _hits(tmp_path):
+        got[rel] = got.get(rel, True) and ok
+    assert got == expected, {k: (got.get(k), v) for k, v in expected.items() if got.get(k) != v}
+    assert "PROGRESS_LOG.md" not in got
+    # the reader of the units: a quotation of two paragraphs is two blocks; one paragraph of a quotation is one
+    assert len(_units("> one\n>\n> two", "docs/x.md")) == 2 and len(_units("> one\n> still one", "docs/x.md")) == 1
+    assert _plain("**21** and *invisible* and `nullity-14` and __21__") == "21 and invisible and nullity-14 and 21"
+
