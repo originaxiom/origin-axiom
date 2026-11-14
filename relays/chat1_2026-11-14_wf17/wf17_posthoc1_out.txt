@@ -1,0 +1,7 @@
+H2 m 2 lines {y = z = 0}, {x = z = 0} inside: [False, False]
+H2 m 4 lines {y = z = 0}, {x = z = 0} inside: [True, True]
+H2 m 6 lines {y = z = 0}, {x = z = 0} inside: [False, False]
+H2 m 8 lines {y = z = 0}, {x = z = 0} inside: [True, True]
+H2 holds: True
+H3: the m = 3 curve's (x, y) eliminant: [x**2*y**2 - x**2*y - x**2 - x*y**2 + x*y + x - y**2 + y] | equals agy-exp's polynomial up to a constant: True
+H1: m = 5 not finished within 6900 s
