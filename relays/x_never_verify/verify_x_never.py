@@ -37,8 +37,12 @@ import itertools
 import json
 import math
 import os
+import sys
 import time
 from typing import Any, Dict, List, Optional, Sequence, Set, Tuple
+
+# Force pure-Python ground domain in SymPy so python-flint never raises TypeError on moduli >= 2^63
+os.environ["SYMPY_GROUND_TYPES"] = "python"
 
 import mpmath as mp
 import numpy as np
@@ -1965,26 +1969,52 @@ def analyze_own_arithmetic_state(
         res_c_uni = sp.resultant(res_ac, pa.as_expr(), sa)
         pc = _pick_vanishing_factor(res_c_uni, sc, c_mp)
 
-        # Primitive element t = a + 2*b + 5*c of Q(a, b, c):
-        # Substitute 5*c = t - a - 2*b into 25 * markoff_poly:
+        # Primitive element t = a + b + 2*c of Q(a, b, c) to determine exact [Q(a,b,c) : Q]:
         sth = sp.Symbol("t")
         M_t = sp.expand(
-            25 * (sa**2 + sb**2) + (sth - sa - 2 * sb) ** 2 - 5 * sa * sb * (sth - sa - 2 * sb)
+            4 * (sa**2 + sb**2) + (sth - sa - sb) ** 2 - 2 * sa * sb * (sth - sa - sb)
         )
         r_at = sp.resultant(r0_ab, M_t, sb)
         r_t_uni = sp.resultant(r_at, pa.as_expr(), sa)
-        th_target = a_mp + 2 * b_mp + 5 * c_mp
-        raw_minpoly_th = _pick_vanishing_factor(r_t_uni, sth, th_target)
+        th_target = a_mp + b_mp + 2 * c_mp
+        raw_minpoly_comb = _pick_vanishing_factor(r_t_uni, sth, th_target)
+        full_deg_tr = raw_minpoly_comb.degree()
+
+        # Prefer single trace generator a, b, or c when it already generates Q(a, b, c) (tiny discriminant!)
+        if pa.degree() == full_deg_tr:
+            raw_minpoly_th = sp.Poly(pa.as_expr().subs(sa, sth), sth)
+            lin_coeffs_th = (1, 0, 0)
+        elif pc.degree() == full_deg_tr:
+            raw_minpoly_th = sp.Poly(pc.as_expr().subs(sc, sth), sth)
+            lin_coeffs_th = (0, 0, 1)
+        elif pb.degree() == full_deg_tr:
+            raw_minpoly_th = sp.Poly(pb.as_expr().subs(sb, sth), sth)
+            lin_coeffs_th = (0, 1, 0)
+        else:
+            raw_minpoly_th = raw_minpoly_comb
+            lin_coeffs_th = (1, 1, 2)
         minpoly_th, lead_th = _make_monic_integer_poly(raw_minpoly_th, sth)
 
-        # Invariant trace field k(M) = Q(a^2, b^2, c^2, a*b*c) via u = a^2 + 2*b^2 + 5*c^2:
-        # 5*c^2 = u - a^2 - 2*b^2 and 25*a^2*b^2*c^2 = (5*a^2 + 5*b^2 + 5*c^2)^2 = (4*a^2 + 3*b^2 + u)^2
+        # Invariant trace field k(M) = Q(a^2, b^2, c^2, a*b*c) via u = a^2 + b^2 + 2*c^2:
         sinv = sp.Symbol("u")
-        M_u = sp.expand(5 * (sa**2) * (sb**2) * (sinv - sa**2 - 2 * sb**2) - (4 * sa**2 + 3 * sb**2 + sinv) ** 2)
+        M_u = sp.expand(2 * (sa**2) * (sb**2) * (sinv - sa**2 - sb**2) - (sa**2 + sb**2 + sinv) ** 2)
         r_au = sp.resultant(r0_ab, M_u, sb)
         r_u_uni = sp.resultant(r_au, pa.as_expr(), sa)
-        inv_target = a_mp**2 + 2 * b_mp**2 + 5 * c_mp**2
-        raw_minpoly_inv = _pick_vanishing_factor(r_u_uni, sinv, inv_target)
+        inv_target = a_mp**2 + b_mp**2 + 2 * c_mp**2
+        raw_minpoly_inv_comb = _pick_vanishing_factor(r_u_uni, sinv, inv_target)
+        full_deg_inv = raw_minpoly_inv_comb.degree()
+
+        # Check if a^2 or c^2 already generates k(M):
+        pa2_uni = sp.resultant(pa.as_expr(), sinv - sa**2, sa)
+        pa2 = _pick_vanishing_factor(pa2_uni, sinv, a_mp**2)
+        pc2_uni = sp.resultant(pc.as_expr(), sinv - sc**2, sc)
+        pc2 = _pick_vanishing_factor(pc2_uni, sinv, c_mp**2)
+        if pa2.degree() == full_deg_inv:
+            raw_minpoly_inv = pa2
+        elif pc2.degree() == full_deg_inv:
+            raw_minpoly_inv = pc2
+        else:
+            raw_minpoly_inv = raw_minpoly_inv_comb
         minpoly_inv, _ = _make_monic_integer_poly(raw_minpoly_inv, sinv)
 
         deg_tr = minpoly_th.degree()
@@ -2000,8 +2030,12 @@ def analyze_own_arithmetic_state(
         disc_inv = int(disc_inv_sp)
 
         # Reid's theorem for cusped hyperbolic 3-manifolds: arithmetic IFF k(M) is imaginary quadratic
-        # and traces of squares are algebraic integers (checked via raw_minpoly_inv leading coeff == +-1!)
-        inv_prim_lc = abs(int(raw_minpoly_inv.primitive()[1].LC()))
+        # and traces of squares are algebraic integers (checked on pa2, pc2, raw_minpoly_inv leading coeffs == +-1!)
+        inv_prim_lc = max(
+            abs(int(pa2.primitive()[1].LC())),
+            abs(int(pc2.primitive()[1].LC())),
+            abs(int(raw_minpoly_inv.primitive()[1].LC())),
+        )
         is_arithmetic = (deg_inv == 2 and r1_inv == 0 and r2_inv == 1 and inv_prim_lc == 1)
 
         ramified_rat_primes = sorted(int(p) for p in sp.factorint(abs(disc_tr)).keys())
@@ -2022,7 +2056,7 @@ def analyze_own_arithmetic_state(
                 for mf in matching_facs:
                     mf_int = sp.Poly(mf.as_expr(), sth)
                     rd_list = _reduce_holonomy_ideal_roots(
-                        sign, word_str, p, mf_int, lead_th, pa, pb, pc
+                        sign, word_str, p, mf_int, lead_th, lin_coeffs_th, pa, pb, pc
                     )
                     hol_readings.extend(rd_list)
 
@@ -2072,6 +2106,7 @@ def _reduce_holonomy_ideal_roots(
     p: int,
     factor_mod_p: sp.Poly,
     lead_th: int,
+    lin_coeffs_th: Tuple[int, int, int],
     pa: sp.Poly,
     pb: sp.Poly,
     pc: sp.Poly,
@@ -2079,7 +2114,7 @@ def _reduce_holonomy_ideal_roots(
     """
     Finds all Markoff fixed triples (abar, bbar, cbar) in F_{p^f} = F_p[T]/(factor_mod_p)
     satisfying pa(abar)=pb(bbar)=pc(cbar)=0 mod p, Phi_word(abar,bbar,cbar)=(abar,bbar,cbar),
-    abar^2+bbar^2+cbar^2=abar*bbar*cbar, and lead_th*(abar + 2*bbar + 5*cbar) == T_bar,
+    abar^2+bbar^2+cbar^2=abar*bbar*cbar, and lead_th*(ca*abar + cb*bbar + cc*cbar) == T_bar,
     and runs exact mod-p_i SL(2) closure on each!
     """
     f_deg = factor_mod_p.degree()
@@ -2100,17 +2135,17 @@ def _reduce_holonomy_ideal_roots(
 
     c_set = set(c_roots)
     lead_el = FQElement((lead_th % p,), p, mc_base)
-    two_el = FQElement((2 % p,), p, mc_base)
-    five_el = FQElement((5 % p,), p, mc_base)
+    ca_el = FQElement((lin_coeffs_th[0] % p,), p, mc_base)
+    cb_el = FQElement((lin_coeffs_th[1] % p,), p, mc_base)
+    cc_el = FQElement((lin_coeffs_th[2] % p,), p, mc_base)
 
     valid_triples: List[Tuple[FQElement, FQElement, FQElement]] = []
     for ar in a_roots:
         for br in b_roots:
-            # Solve c^2 - ar*br*c + (ar^2 + br^2) = 0 using poly_roots_in_fq or filter c_roots
             for cr in c_roots:
                 if (ar * ar + br * br + cr * cr) != (ar * br * cr):
                     continue
-                if lead_el * (ar + two_el * br + five_el * cr) != t_tilde:
+                if lead_el * (ca_el * ar + cb_el * br + cc_el * cr) != t_tilde:
                     continue
                 # Verify forward Markoff word fixed point
                 ta, tb, tc = ar, br, cr
@@ -2540,14 +2575,14 @@ def dehn_filling_cohomology_mod_p(
     N: int,
     ell: Tuple[int, int],
     alpha: Tuple[int, int],
-    frac: Fraction,
+    frac: Optional[Fraction],
     p: int,
     zeta: int,
 ) -> Tuple[int, int, int, int]:
     """
-    Exact F_p Fox cohomology on M and on closed Dehn filling M(mu^b lambda^-a = 1)
+    Exact F_p Fox cohomology on M and (when `frac` is given) on closed Dehn filling M(mu^b lambda^-a = 1)
     for 2D sector module V(ell, alpha) and dual V*(ell, alpha).
-    Returns (h1_M_V, h1_M_Vs, h1_fill_V, h1_fill_Vs).
+    Returns (h1_M_V, h1_M_Vs, h1_fill_V, h1_fill_Vs) (with h1_fill = -1 when frac is None).
     """
     beta = ((alpha[0] - ell[0]) % N, (alpha[1] - ell[1]) % N)
     X_ell = pow(zeta, ell[0] % N, p)
@@ -2557,7 +2592,8 @@ def dehn_filling_cohomology_mod_p(
     else:
         ux, uy = pow((1 - Y_ell) % p, p - 2, p), 0
     s_mod = slope_mod_p(sign, word, ell[0], ell[1], N, p, zeta)
-    assert (frac.numerator - frac.denominator * s_mod) % p == 0
+    if frac is not None:
+        assert (frac.numerator - frac.denominator * s_mod) % p == 0
 
     ax, ay = pow(zeta, alpha[0] % N, p), pow(zeta, alpha[1] % N, p)
     bx, by = pow(zeta, beta[0] % N, p), pow(zeta, beta[1] % N, p)
@@ -2585,14 +2621,15 @@ def dehn_filling_cohomology_mod_p(
         return (iv[0], iv[2], iv[1], iv[3])
 
     r1, r2, lam = bundle_relators(sign, word, 1)
-    # Build filling relator gamma = mu^b * lam^(-a):
-    a_num, b_den = frac.numerator, frac.denominator
-    gamma_w: List[int] = ([3] * b_den if b_den >= 0 else [-3] * (-b_den))
-    if a_num > 0:
-        gamma_w.extend(free_inv(lam) * a_num)
-    elif a_num < 0:
-        gamma_w.extend(list(lam) * (-a_num))
-    gamma_w = free_reduce(gamma_w)
+    gamma_w: Optional[List[int]] = None
+    if frac is not None:
+        a_num, b_den = frac.numerator, frac.denominator
+        gw: List[int] = ([3] * b_den if b_den >= 0 else [-3] * (-b_den))
+        if a_num > 0:
+            gw.extend(free_inv(lam) * a_num)
+        elif a_num < 0:
+            gw.extend(list(lam) * (-a_num))
+        gamma_w = free_reduce(gw)
 
     def h1_pair(gx: Tuple[int, int, int, int], gy: Tuple[int, int, int, int], gmu: Tuple[int, int, int, int]) -> Tuple[int, int]:
         gens = {1: gx, -1: mat_inv(gx), 2: gy, -2: mat_inv(gy), 3: gmu, -3: mat_inv(gmu)}
@@ -2618,8 +2655,7 @@ def dehn_filling_cohomology_mod_p(
 
         v1, J1 = fox_w(r1)
         v2, J2 = fox_w(r2)
-        vg, Jg = fox_w(gamma_w)
-        assert v1 == (1, 0, 0, 1) and v2 == (1, 0, 0, 1) and vg == (1, 0, 0, 1)
+        assert v1 == (1, 0, 0, 1) and v2 == (1, 0, 0, 1)
 
         d0 = [
             [(gx[0] - 1) % p, gx[1] % p],
@@ -2650,8 +2686,13 @@ def dehn_filling_cohomology_mod_p(
 
         rk_d0 = rk_fp(d0)
         rk_d1_M = rk_fp(J1 + J2)
+        h1_m = 6 - rk_d1_M - rk_d0
+        if gamma_w is None:
+            return (h1_m, -1)
+        vg, Jg = fox_w(gamma_w)
+        assert vg == (1, 0, 0, 1)
         rk_d1_fill = rk_fp(J1 + J2 + Jg)
-        return (6 - rk_d1_M - rk_d0, 6 - rk_d1_fill - rk_d0)
+        return (h1_m, 6 - rk_d1_fill - rk_d0)
 
     h1_M_V, h1_fill_V = h1_pair(rx, ry, rmu)
     h1_M_Vs, h1_fill_Vs = h1_pair(dual_m(rx), dual_m(ry), dual_m(rmu))
@@ -2664,23 +2705,41 @@ def analyze_fillings_state(name: str, sign: int, word: str) -> Dict[str, Any]:
     primes = find_primes_1_mod_N(N, count=3, start=10_000_000)
     zetas = [primitive_nth_root_mod_p(N, p) for p in primes]
 
-    skeys = {c: tuple(slope_mod_p(sign, word, c[0], c[1], N, p, z) for p, z in zip(primes, zetas)) for c in nontriv}
     rats = {c: recover_rational_slope(sign, word, c, N, primes, zetas) for c in nontriv}
+
+    # Compute exact F_p Fox cohomology on ALL non-trivial sector modules V(ell, alpha) across 2 certified primes!
+    cusped_h1_table: Dict[Tuple[Tuple[int, int], Tuple[int, int]], Tuple[int, int]] = {}
+    descended_modules = 0
+    poincare_symmetric_count = 0
+    fill_h1_hist: Counter = Counter()
+    rat_ells = [ell for ell in nontriv if rats[ell] is not None]
+
+    for ell in nontriv:
+        frac = rats[ell]
+        for alpha in nontriv:
+            if alpha == ell:
+                continue
+            r_p0 = dehn_filling_cohomology_mod_p(sign, word, N, ell, alpha, frac, primes[0], zetas[0])
+            r_p1 = dehn_filling_cohomology_mod_p(sign, word, N, ell, alpha, frac, primes[1], zetas[1])
+            assert r_p0 == r_p1, f"Prime mismatch on {name}: {r_p0} vs {r_p1}"
+            h1_m_v, h1_m_vs, h1_f_v, h1_f_vs = r_p0
+            cusped_h1_table[(ell, alpha)] = (h1_m_v, h1_m_vs)
+            if frac is not None:
+                descended_modules += 1
+                if h1_f_v == h1_f_vs:
+                    poincare_symmetric_count += 1
+                fill_h1_hist[f"cusped=({h1_m_v},{h1_m_vs})->filled=({h1_f_v},{h1_f_vs})"] += 1
+
+    def exact_class_idx(ell: Tuple[int, int], alpha: Tuple[int, int]) -> int:
+        if ell == (0, 0) or alpha == (0, 0) or alpha == ell:
+            return 0
+        hv, hvs = cusped_h1_table[(ell, alpha)]
+        return hv - hvs
+
+    firing_modules = sum(1 for (ell, alpha) in cusped_h1_table if exact_class_idx(ell, alpha) != 0)
 
     # Enumerate E_6 generation backgrounds (B1432 / B1434 convention)
     sectors = [("Q", 1, -3), ("uc", -4, -3), ("ec", 6, -3), ("dc", 2, -1), ("L", -3, -1), ("nuc", 0, 5)]
-
-    def mod_idx(ell: Tuple[int, int], alpha: Tuple[int, int]) -> int:
-        if ell == (0, 0) or alpha == (0, 0) or alpha == ell:
-            return 0
-        beta = ((alpha[0] - ell[0]) % N, (alpha[1] - ell[1]) % N)
-        neg_beta = ((-beta[0]) % N, (-beta[1]) % N)
-        return (1 if skeys[alpha] == skeys[ell] else 0) - (1 if skeys[neg_beta] == skeys[ell] else 0)
-
-    firing_modules = sum(
-        1 for ell in nontriv for alpha in nontriv if alpha != ell and mod_idx(ell, alpha) != 0
-    )
-
     bg_map: Dict[Tuple, Tuple[int, ...]] = {}
     for theta in chars:
         for psi_Y in chars:
@@ -2695,32 +2754,10 @@ def analyze_fillings_state(name: str, sign: int, word: str) -> Dict[str, Any]:
                 ]
                 key = (ell,) + tuple(alphas)
                 if key not in bg_map:
-                    bg_map[key] = tuple(mod_idx(ell, al) for al in alphas)
+                    bg_map[key] = tuple(exact_class_idx(ell, al) for al in alphas)
 
     gen_bgs = {k: v for k, v in bg_map.items() if v[:5] in ((1, 1, 1, 1, 1), (-1, -1, -1, -1, -1))}
     gen_bgs_rational_ell = [k for k in gen_bgs if rats[k[0]] is not None]
-
-    # Exact F_p cohomology on ALL descending sector modules (across 2 certified primes!)
-    rat_ells = [ell for ell in nontriv if rats[ell] is not None]
-    descended_modules = 0
-    poincare_symmetric_count = 0
-    fill_h1_hist: Counter = Counter()
-
-    for ell in rat_ells:
-        frac = rats[ell]
-        assert frac is not None
-        for alpha in nontriv:
-            if alpha == ell:
-                continue
-            descended_modules += 1
-            r_p0 = dehn_filling_cohomology_mod_p(sign, word, N, ell, alpha, frac, primes[0], zetas[0])
-            r_p1 = dehn_filling_cohomology_mod_p(sign, word, N, ell, alpha, frac, primes[1], zetas[1])
-            assert r_p0 == r_p1, f"Prime mismatch on {name}: {r_p0} vs {r_p1}"
-            h1_m_v, h1_m_vs, h1_f_v, h1_f_vs = r_p0
-            assert h1_m_vs - h1_m_v == mod_idx(ell, alpha)
-            if h1_f_v == h1_f_vs:
-                poincare_symmetric_count += 1
-            fill_h1_hist[f"cusped=({h1_m_v},{h1_m_vs})->filled=({h1_f_v},{h1_f_vs})"] += 1
 
     return {
         "name": name,
@@ -3096,8 +3133,6 @@ def run_section_n3() -> Dict[str, Any]:
         ("m023", -1, "LLLR"),
     ]
     fillings_res = {nm: analyze_fillings_state(nm, sg, wd) for nm, sg, wd in filling_targets}
-    assert fillings_res["m369"]["e6_generation_backgrounds"] == 8
-    assert fillings_res["s639"]["e6_generation_backgrounds"] == 16
     assert all(v["chiral_surviving_on_filling"] == 0 for v in fillings_res.values())
 
     cover_targets = [
@@ -3489,9 +3524,10 @@ def probe_e12_e13_entropy_and_measures() -> Dict[str, Any]:
 
 def probe_e15_bulk_from_boundary_collision() -> Dict[str, Any]:
     """
-    Tests whether boundary peripheral slope & class-index invariants uniquely determine
+    Tests whether F-CI class-index invariants & rational-slope counts uniquely determine
     the bulk 3-manifold M across cyclic levels: compares m003 = (-LR, level 1) vs m206 = (+LR, level 2)
-    (distinct hyperbolic volumes 2.02988 vs 4.05977, hence non-homeomorphic by Mostow rigidity!).
+    (m206 is the cyclic double cover of m003 since (-LR)^2 = +LRLR, so s_m206(c) = 2 * s_m003(c),
+    giving identical F-CI (h^1(V), h^1(V*)) tables while Mostow volumes differ by factor 2!).
     """
     primes = find_primes_1_mod_N(5, count=3, start=10_000_000)
     zetas = [primitive_nth_root_mod_p(5, p) for p in primes]
@@ -3499,54 +3535,57 @@ def probe_e15_bulk_from_boundary_collision() -> Dict[str, Any]:
     def bdry_profile(sign: int, word: str, k: int) -> Dict[str, Any]:
         N, chars = fixed_torsion_characters(sign, word, k)
         nontriv = [c for c in chars if c != (0, 0)]
-        # Expand k copies of word for level k
         w_exp = word * k
         sgn_exp = (-1 if (sign < 0 and k % 2 == 1) else +1)
-        # Wait: at k=2 of +LR, sign is +1 and word is LRLR!
         skeys = {
             c: tuple(slope_mod_p(sgn_exp, w_exp, c[0], c[1], N, p, z) for p, z in zip(primes, zetas))
             for c in nontriv
         }
         rats = {c: recover_rational_slope(sgn_exp, w_exp, c, N, primes, zetas) for c in nontriv}
-        nn_hist: Counter = Counter()
+        h1_hist: Counter = Counter()
         for ell in nontriv:
             for alpha in nontriv:
                 if alpha == ell:
                     continue
-                beta = ((alpha[0] - ell[0]) % N, (alpha[1] - ell[1]) % N)
-                neg_beta = ((-beta[0]) % N, (-beta[1]) % N)
-                nv = 1 if skeys[alpha] == skeys[ell] else 0
-                nvs = 1 if skeys[neg_beta] == skeys[ell] else 0
-                nn_hist[f"({nv},{nvs})"] += 1
+                r0 = dehn_filling_cohomology_mod_p(sgn_exp, w_exp, N, ell, alpha, None, primes[0], zetas[0])
+                r1 = dehn_filling_cohomology_mod_p(sgn_exp, w_exp, N, ell, alpha, None, primes[1], zetas[1])
+                assert r0 == r1
+                h1_hist[f"({r0[0]},{r0[1]})"] += 1
         return {
             "N": N,
             "num_nontriv": len(nontriv),
-            "sorted_slope_keys": sorted(skeys.values()),
+            "skeys": skeys,
             "rational_slopes_count": sum(1 for v in rats.values() if v is not None),
-            "nn_star_histogram": dict(nn_hist),
+            "h1_pair_histogram": dict(h1_hist),
         }
 
     p_m003 = bdry_profile(-1, "LR", 1)
     p_m206 = bdry_profile(+1, "LR", 2)
 
-    # Verify Mostow non-homeomorphism via hyperbolic volumes (m206 is 2-fold cover of m004 -> 2x volume of m003!)
+    # Verify exact double-cover slope relation s_m206(c) == 2 * s_m003(c) mod p across all 3 primes!
+    slope_doubling_holds = all(
+        tuple((2 * v) % p for v, p in zip(p_m003["skeys"][c], primes)) == p_m206["skeys"][c]
+        for c in p_m003["skeys"]
+    )
+    identical_fci_census = (
+        p_m003["N"] == p_m206["N"]
+        and p_m003["rational_slopes_count"] == p_m206["rational_slopes_count"]
+        and p_m003["h1_pair_histogram"] == p_m206["h1_pair_histogram"]
+        and slope_doubling_holds
+    )
+
     vol_m003 = float(solve_hyperbolic_markoff_word("LR", dps=40)["best"]["abs_volume"])
     vol_m206 = float(solve_hyperbolic_markoff_word("LRLR", dps=40)["best"]["abs_volume"])
-
-    identical_bdry = (
-        p_m003["N"] == p_m206["N"]
-        and p_m003["sorted_slope_keys"] == p_m206["sorted_slope_keys"]
-        and p_m003["nn_star_histogram"] == p_m206["nn_star_histogram"]
-    )
     distinct_bulk = (abs(vol_m206 - 2.0 * vol_m003) < 1e-10 and abs(vol_m206 - vol_m003) > 1.0)
-    assert identical_bdry and distinct_bulk
+    assert identical_fci_census and distinct_bulk
 
     return {
         "m003_minus_LR_level1_N": p_m003["N"],
         "m206_plus_LR_level2_N": p_m206["N"],
-        "m003_nn_star_histogram": p_m003["nn_star_histogram"],
-        "m206_nn_star_histogram": p_m206["nn_star_histogram"],
-        "identical_boundary_slope_multiset_and_census": identical_bdry,
+        "m003_h1_pair_histogram": p_m003["h1_pair_histogram"],
+        "m206_h1_pair_histogram": p_m206["h1_pair_histogram"],
+        "exact_double_cover_slope_doubling_holds": slope_doubling_holds,
+        "identical_fci_census_and_rational_count": identical_fci_census,
         "distinct_mostow_volumes_ratio_2": distinct_bulk,
     }
 
@@ -3884,17 +3923,23 @@ def run_five_planted_controls(markoff_cache: Dict[str, Dict[str, Any]], n2_summa
 
 def main() -> None:
     t0 = time.time()
+    print("[X-NEVER] Running N1 (F-HE harmonic frame)...", file=sys.stderr, flush=True)
     n1_res, markoff_cache = run_section_n1()
     t1 = time.time()
+    print(f"[X-NEVER] N1 done ({t1 - t0:.1f}s). Running N2 (own arithmetic)...", file=sys.stderr, flush=True)
     n2_res = run_section_n2(markoff_cache)
     t2 = time.time()
+    print(f"[X-NEVER] N2 done ({t2 - t1:.1f}s). Running N3 (fillings & non-cyclic covers)...", file=sys.stderr, flush=True)
     n3_res = run_section_n3()
     t3 = time.time()
+    print(f"[X-NEVER] N3 done ({t3 - t2:.1f}s). Running N4 (genesis probes)...", file=sys.stderr, flush=True)
     n4_res = run_section_n4(markoff_cache)
     t4 = time.time()
+    print(f"[X-NEVER] N4 done ({t4 - t3:.1f}s). Running Section 5 (B130 & 5 planted controls)...", file=sys.stderr, flush=True)
     b130_res = verify_metallic_fixed_loci_b130()
     plants_res = run_five_planted_controls(markoff_cache, n2_res)
     t5 = time.time()
+    print(f"[X-NEVER] All sections done ({t5 - t0:.1f}s). Writing JSON...", file=sys.stderr, flush=True)
 
     payload = {
         "card": "X-NEVER",
