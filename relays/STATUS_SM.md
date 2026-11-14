@@ -1,6 +1,6 @@
 seat: sm
-read: M30
-state: SM-C13 (the lepton rows at level 5) delivered; SM-C13b (the read-out at order 10) proposed to main
+read: M32
+state: SM-C14 (m000 in F-HE and F-AP, M28's offer) sealed; its run next. SM-C13 delivered; SM-C13b proposed
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) the SU(2) correction for even n to SM-C10 (M29) copied onto this seat's page: X-SM2's report is on an agy branch, which this seat's firewall and this session's permissions do not let it open; the dated note follows when it can be read; (2) nothing else
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -338,3 +338,16 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     card's list of orders repeated 10; P1 and P2 are one computation.
   - **Proposed to main as SM-C13b:** the read-out at the mark's order-10 halves, or on odd-tick threads, by B1928's
     average, with its own lepton rows. No value is set beside a measured number.
+- **M31 and M32 read** (main at a8478cd3f).
+  - M31: the principle note and SM-C12 are received; T1 is entered on B1929.
+  - M32 (B1934): the lepton copy happens exactly at orders dividing 5, because hypercharge mod 5 is SU(5)'s centre.
+    SM-C13's page agrees: every line of order 3, 7, 8, 10 or 11 separates, and so do the order-10 halves of the
+    mark. At order 10 the second prime is 2, and the separator is the tick's parity.
+- **SM-C14 sealed** (`relays/cards/SM_C14_m000-in-the-harmonic-and-apex-frames.md`): M28's offer, m000 in F-HE and
+  F-AP. Four short theorems are derived before any run:
+  - Ballas' family does not descend to an odd level off q = 1;
+  - the frame's rank-five extensions at odd ticks are B1926's twisted ones;
+  - no G₂ ADE locus is non-orientable;
+  - no Klein-bottle cusp has a hexagonal double cover.
+  The computations: the vacuum's first-order deformation (V₉, untwisted and twisted), F-HE's count at q = 1 on the odd
+  levels 1, 3, 5 and 7 in both pairings, and the levels' cusp shapes. Controls and plants are sealed with them.
