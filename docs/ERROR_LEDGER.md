@@ -262,4 +262,14 @@ cited by arc/PR — the full record stays in the arcs (append-only).*
 - **Instance of a check that cannot fire (main's own, Review 82, B1931):** the sixth planted fault sat in lines both
   readers were bound to skip as their own family's work, so it tested nothing. A plant goes only where a reader looks
   (R82-4).
+- **Instance of a scope misread (main's own, 2026-11-14, Review 82):** main read the review waiver of 2026-11-13 as
+  covering Review 82's window and made 17 landings past the block. The building session's gate change caught it, not
+  main's judgement (the sweep's S69). A waiver covers only the window it was granted in.
+- **Candidate class (main's own, 2026-11-14): AN INSTRUMENT VALIDATED WHERE IT IS EASY, USED WHERE IT IS NOT.** The frame
+  was checked at heights up to 6. B1932's area measure then used it up to 45 in double precision, where m₁/m₃ falls
+  below 1e-15 and the first generation and the mixing are noise. The committed area values' mixing moduli were off by up
+  to 0.068 in ln (B1940, P-853). The object's own symmetry, F̄(τ + 1) = F̄(τ), caught it in one line; it was never run
+  at those heights.
+- **Instance (main's own, 2026-11-14):** a script copied from the scratchpad into B1937 carried the machine's path in
+  its root and was pushed. The suite's path test caught it at the next fresh clone; no gate runs that test.
 

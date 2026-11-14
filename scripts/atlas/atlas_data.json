@@ -16944,9 +16944,12 @@
     "choice",
     "eisenstein",
     "golden",
+    "torsion",
     "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "S28"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 2,
    "status": "dead",

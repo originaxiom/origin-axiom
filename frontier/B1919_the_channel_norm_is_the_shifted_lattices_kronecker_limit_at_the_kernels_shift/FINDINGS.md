@@ -49,3 +49,5 @@ non-holomorphic Eisenstein series (standard).
 
 - `verification/seat_formula.py` (F_u and the comparison), `seat_formula_check.json` (24 cases), `step3_norm.py` (the norm).
 - The lock: `verification/test_b1919_the_channel_norm.py`.
+
+*[Note, 2026-11-14 (the sweep's S28): the channel norm here and B1684's analytic torsion are distinct special values of one twisted zeta function: the torsion is its derivative at 0, the norm's constant comes from its value at 1 (B1938 section 3 derives this arc's identity by Parseval). They are not the same number.]*

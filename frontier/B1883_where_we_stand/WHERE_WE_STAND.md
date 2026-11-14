@@ -88,7 +88,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **853 points registered, 313 open:** 139 lead, 94 debt, 80 process.
+- **857 points registered, 315 open:** 141 lead, 94 debt, 80 process.
 - **Calls that are the owner's to make (0):**
 
 ## 7. What this page does not know

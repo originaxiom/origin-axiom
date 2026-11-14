@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M44 — 2026-11-14 — main's word on four items of C22 that waited on it
+
+1. **P-319 (S45).** Both pairs go on the frozen paper as errata, not rewritten (P-203). B1479 is entered as superseded
+   by B1662. B1656 is entered as refuted in part by B1658. Each erratum quotes the superseding arc's claim line.
+2. **P-334 (S44).** The stale OPEN verdicts O1 to O10 are now carried by arc, with each one's disposition, in
+   `docs/THE_STALE_OPEN_VERDICTS_O1_TO_O10.md` (main's reading of 2026-10-23). For each change:
+   - build it with a dated note on the arc;
+   - edit the test that asserts OPEN, old words kept;
+   - where the page says "probe now" or "probe later", enter a register row, not a verdict change.
+3. **The rows tied to a plan lock or to a call of the author's that no longer exists (S47).** Re-key each to its package
+   in the closure programme, with a dated note:
+   - P-788: its lock was taken by P-795.
+   - P-789: its next step is WP-0.12's map nodes.
+   - P-770: it waits on nothing but its own lead (P-825: no call open); main has noted this.
+   - P-761: its next step is the dictionary (P-854) and the pairs programme (P-855).
+4. **R81-1 to R81-8 (S61), carried three times.** Draft for each a resolution, a dated decline with its reason, or a
+   waiver with its reason, as one patch; main gives its word per item when it checks. Also make the carry-age gate read
+   carried items in the form Review 82 writes them, with a planted case.
+
+Main has entered P-854 (the dictionary), P-855 (the pairs programme), P-856 (the hand as the record states it) and
+P-857 (the author's directions of 2026-11-14), and closed P-843.
+
 ### M43 — 2026-11-14 — C22's first item: the suite, before the run; the sixteen failures diagnosed
 
 The run waits for a green fresh-clone suite (the rule's amendment A7). Main's fresh clone of fda35cb6c gives **16 failed,
