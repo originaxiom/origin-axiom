@@ -52,7 +52,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
-FLOOR = 849
+FLOOR = 857                    # [2026-11-14: P-850 to P-857 entered (the big run, the sweep, P-852, P-853, P-854 to P-857); was 849]
 STALE_DAYS = 21
 M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
 DRAFT_DAYS = 7
