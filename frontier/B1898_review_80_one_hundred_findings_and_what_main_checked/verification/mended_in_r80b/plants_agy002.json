@@ -1,0 +1,128 @@
+[
+ {
+  "arc": "B1893",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "7 passed"
+ },
+ {
+  "arc": "B1893",
+  "plant": "the verdict changed from PROVED to NEGATIVE",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed"
+ },
+ {
+  "arc": "B1893",
+  "plant": "the verdict line made to open with ZERO CAUGHT",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed"
+ },
+ {
+  "arc": "B1893",
+  "plant": "the rows of the cases U10 to U19 deleted from the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 2 passed"
+ },
+ {
+  "arc": "B1893",
+  "plant": "'still passes' turned into 'IS REFUSED' on the page",
+  "the lock": "passes",
+  "tail": "7 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "'Five are not caught' turned into 'None is not caught' on the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "every '17' on the page's first forty lines turned into '22'",
+  "the lock": "FAILS",
+  "tail": "1 failed, 1 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "the runner of the sealed cases deleted",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "the runner of the cases written after reading deleted",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ },
+ {
+  "arc": "B1896",
+  "plant": "the verdict line made to open with ALL TWENTY-TWO CAUGHT",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ },
+ {
+  "arc": "B1878",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "5 passed"
+ },
+ {
+  "arc": "B1878",
+  "plant": "the dated note of 2026-11-12 removed from the page",
+  "the lock": "FAILS",
+  "tail": "1 failed, 4 passed"
+ },
+ {
+  "arc": "B1878",
+  "plant": "the verdict file made invalid JSON",
+  "the lock": "FAILS",
+  "tail": "1 failed, 4 passed"
+ },
+ {
+  "arc": "B1885",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed"
+ },
+ {
+  "arc": "B1885",
+  "plant": "the verdict changed from PROVED to REFUTED",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed"
+ },
+ {
+  "arc": "B1885",
+  "plant": "the note on the grid's 18 digits taken out of the verdict line",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed"
+ },
+ {
+  "arc": "B1890",
+  "plant": "nothing planted",
+  "the lock": "passes",
+  "tail": "8 passed"
+ },
+ {
+  "arc": "B1890",
+  "plant": "the verdict file made invalid JSON",
+  "the lock": "FAILS",
+  "tail": "1 failed, 7 passed"
+ },
+ {
+  "arc": "B1890",
+  "plant": "the table of gates that read history shrunk to two names",
+  "the lock": "FAILS",
+  "tail": "1 failed, 5 passed"
+ },
+ {
+  "arc": "B1890",
+  "plant": "the refusal of an empty checkout switched off",
+  "the lock": "FAILS",
+  "tail": "1 failed, 6 passed"
+ }
+]

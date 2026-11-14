@@ -325,3 +325,40 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
     assert any(c.startswith("agy-002: ") for c in v["cites_seat"]) and "**The verdict line does not name the reader.**" in PAGE
     led = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
     assert "c67f84c1" in led and "B1895" in led
+
+
+def test_a_plant_that_changes_nothing_stops_the_run():
+    """ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  One of
+    main's plants at Review 80, against another lock, changed nothing, and that lock's passing was read as a finding.  The
+    runner of this arc's plants, which the arc B1897 and main's plants of Review 80 also use, reads its scratch copy before
+    a plant and after it, and ends the run where the copy is as it was."""
+    import importlib.util, shutil
+    import pytest
+    spec = importlib.util.spec_from_file_location("planted_reversions_for_its_guard", HERE / "planted_reversions.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    try:
+        arc = m.fresh()
+        m.made("the control", m.p_nothing, arc)                                   # plants nothing, changes nothing: passes
+        with pytest.raises(SystemExit) as stopped:
+            m.made("a plant whose pattern matches nothing", lambda a: None, arc)
+        assert "changed nothing in the copy" in str(stopped.value)
+        with pytest.raises(SystemExit):                                           # a file written back as it was is no plant either
+            m.made("a file written back as it was", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8"), encoding="utf-8"), arc)
+        m.made("a plant that adds one character", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8") + "x", encoding="utf-8"), arc)
+        def a_control_that_changes(a):
+            (a / "a_new_file.txt").write_text("x", encoding="utf-8")
+        keep = m.p_nothing
+        m.p_nothing = a_control_that_changes
+        try:
+            with pytest.raises(SystemExit) as stopped:
+                m.made("the control", m.p_nothing, m.fresh())
+            assert "plants nothing, and the copy is not as it was" in str(stopped.value)
+        finally:
+            m.p_nothing = keep
+        # each of the arc's eighteen plants changes its copy (no lock is run here: the copy is read, and that is all)
+        for name, fn in m.PLANTS[1:]:
+            m.made(name, fn, m.fresh())
+        assert len(m.PLANTS) == 19
+    finally:
+        shutil.rmtree(m.WORK.parent, ignore_errors=True)

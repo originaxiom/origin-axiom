@@ -1,0 +1,62 @@
+[
+ {
+  "plant": "nothing planted",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "17 passed"
+ },
+ {
+  "plant": "the control: single_ok replaced by the literal True (a plant B1895's lock holds)",
+  "tests that fail": [
+   "test_no_check_of_the_script_is_passed_a_constant",
+   "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
+   "test_the_script_computes_what_it_says_it_computes",
+   "test_the_script_is_the_one_this_lock_was_written_against"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "4 failed, 13 passed"
+ },
+ {
+  "plant": "F1: the two mended conditions taken over empty lists",
+  "tests that fail": [
+   "test_the_script_is_the_one_this_lock_was_written_against"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "1 failed, 16 passed"
+ },
+ {
+  "plant": "F2: check() made to ignore what it is passed",
+  "tests that fail": [
+   "test_a_check_of_the_script_fails_when_it_is_passed_a_false_thing",
+   "test_the_script_is_the_one_this_lock_was_written_against"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "2 failed, 15 passed"
+ },
+ {
+  "plant": "F3: an unpinned check made unable to fail by an 'or' on a length that is never 0",
+  "tests that fail": [
+   "test_the_script_is_the_one_this_lock_was_written_against"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "1 failed, 16 passed"
+ },
+ {
+  "plant": "F4: no sequence read: the least typed, the two counts typed behind the pinned beginning",
+  "tests that fail": [
+   "test_the_script_is_the_one_this_lock_was_written_against"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "1 failed, 16 passed"
+ },
+ {
+  "plant": "F5: the made-with file given another version, and a number of part A changed in the script",
+  "tests that fail": [
+   "test_the_committed_run_is_what_the_script_gives_today",
+   "test_the_script_is_the_one_this_lock_was_written_against",
+   "test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "3 failed, 14 passed"
+ }
+]

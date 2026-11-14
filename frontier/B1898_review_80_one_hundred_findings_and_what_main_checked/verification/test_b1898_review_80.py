@@ -118,7 +118,8 @@ def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
     M = HERE / "mended_in_r80b"
     sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
     # 1. the two mended scripts are main's but for their marked blocks
-    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2)):
+    # (2026-11-12, the next patch of the same part: three more, for what main's third folder owes in its section 6, item 4)
+    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2), ("plants_agy002.py", 5), ("plants_b1881_third.py", 2), ("quote_check_agy002.py", 1)):
         text = (M / name).read_text(encoding="utf-8")
         assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == blocks and text.count("# NOTE OF THE MEND") == 1, name
         assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/" + name], name + ": with its mends put back it is not main's file"
@@ -150,6 +151,23 @@ def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
     assert [(o["row"], o["case"], o["answer"]) for o in again] == [(k["row"], k["case"], k["answer"]) for k in lines] and len(lines) == 14
     assert all(o["the same as main kept"] and o["main kept"] == o["answer"] for o in again) and all(k["reproduced"] for k in lines)
     assert not (HERE / "checks" / "builder_rows_probe2.py").exists()                    # main's own script is still not in its folder
+    # 5. (the next patch of the same part) main's plants for agy-002's rows, each plant in fact made: two answers differ from
+    #    the file main kept, and they are the two plants that had changed nothing
+    was = json.loads((HERE / "checks" / "plants_agy002.json").read_text(encoding="utf-8"))
+    now = json.loads((M / "plants_agy002.json").read_text(encoding="utf-8"))
+    assert [(r["arc"], r["plant"]) for r in was] == [(r["arc"], r["plant"]) for r in now] and len(now) == 21
+    differ = [(a["arc"], a["plant"], a["the lock"], b["the lock"]) for a, b in zip(was, now) if a["the lock"] != b["the lock"]]
+    assert differ == [("B1893", "'still passes' turned into 'IS REFUSED' on the page", "PLANT NOT MADE", "passes"),
+                      ("B1885", "the note on the grid's 18 digits taken out of the verdict line", "passes", "FAILS")], differ
+    assert not any(r["the lock"] == "PLANT NOT MADE" for r in now)
+    assert [r["the lock"] for r in now if r["plant"] == "nothing planted"] == ["passes"] * 5
+    # 6. main's five plants against B1881's lock, each made through the guard: the controls behave and none of the five passes
+    third = json.loads((M / "plants_b1881_third.json").read_text(encoding="utf-8"))
+    assert [r["the lock"] for r in third] == ["PASSES"] + ["CATCHES IT"] * 6 and len(third) == 7
+    # 7. the check that named a branch names the commit that the arc's verdict file gives for that reader
+    check = (M / "quote_check_agy002.py").read_text(encoding="utf-8")
+    assert 'SRC = ("4ae026d99", "relays/REVIEW_80_AGY-002.md")' in check and "@ 4ae026d99" in " ".join(V["cites_seat"])
+    assert sum(1 for l in check.split("\n") if "origin/" in l and not l.startswith("#")) == 0
     page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     assert "verification/mended_in_r80b/" in page
 

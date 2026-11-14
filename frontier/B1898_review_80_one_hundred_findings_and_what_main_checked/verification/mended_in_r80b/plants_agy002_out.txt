@@ -1,0 +1,21 @@
+B1893  nothing planted                                                                passes 7 passed
+B1893  the verdict changed from PROVED to NEGATIVE                                    FAILS 1 failed, 6 passed
+B1893  the verdict line made to open with ZERO CAUGHT                                 FAILS 1 failed, 6 passed
+B1893  the rows of the cases U10 to U19 deleted from the page                         FAILS 1 failed, 2 passed
+B1893  'still passes' turned into 'IS REFUSED' on the page                            passes 7 passed
+B1896  nothing planted                                                                passes 8 passed
+B1896  'Five are not caught' turned into 'None is not caught' on the page             FAILS 1 failed, 7 passed
+B1896  every '17' on the page's first forty lines turned into '22'                    FAILS 1 failed, 1 passed
+B1896  the runner of the sealed cases deleted                                         FAILS 1 failed, 7 passed
+B1896  the runner of the cases written after reading deleted                          FAILS 1 failed, 7 passed
+B1896  the verdict line made to open with ALL TWENTY-TWO CAUGHT                       FAILS 1 failed, 7 passed
+B1878  nothing planted                                                                passes 5 passed
+B1878  the dated note of 2026-11-12 removed from the page                             FAILS 1 failed, 4 passed
+B1878  the verdict file made invalid JSON                                             FAILS 1 failed, 4 passed
+B1885  nothing planted                                                                passes 8 passed
+B1885  the verdict changed from PROVED to REFUTED                                     FAILS 1 failed, 6 passed
+B1885  the note on the grid's 18 digits taken out of the verdict line                 FAILS 1 failed, 6 passed
+B1890  nothing planted                                                                passes 8 passed
+B1890  the verdict file made invalid JSON                                             FAILS 1 failed, 7 passed
+B1890  the table of gates that read history shrunk to two names                       FAILS 1 failed, 5 passed
+B1890  the refusal of an empty checkout switched off                                  FAILS 1 failed, 6 passed

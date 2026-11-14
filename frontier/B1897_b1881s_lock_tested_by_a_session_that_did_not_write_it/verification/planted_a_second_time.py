@@ -87,7 +87,10 @@ if __name__ == "__main__":
     out = []
     for name, fn in plants:
         arc = m.fresh()
-        fn(arc)
+        # CHANGED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  It read
+        #     fn(arc)
+        # A plant that changes nothing in the copy now stops the run: B1895's runner reads the copy before and after.
+        m.made(name, fn, arc)
         failed, last = m.run(arc)
         out.append({"plant": name, "tests failing": failed})
         print("%-112s %s  %s" % (name, "CAUGHT" if failed else "passes", ", ".join(x[5:60] for x in failed)))
