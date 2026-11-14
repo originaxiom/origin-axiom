@@ -59,3 +59,41 @@ def test_no_other_page_carries_the_note():
         if MARK in p.read_text(encoding="utf-8", errors="ignore"):
             carrying.add(p.parent.name.split("_")[0])
     assert carrying == neither
+
+
+CHECKED = "**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849):"
+
+
+def _unchecked(pages, rows):
+    """the arcs whose page lacks main's check after the note that waited for it, or whose row of the classified file
+    does not carry it"""
+    bad = []
+    for r in rows:
+        t = pages[r["arc"]]
+        c = r.get("checked_by_main") or {}
+        at, ck = t.find(MARK), t.find(CHECKED)
+        if not c or c.get("row") != "P-849" or c.get("class") not in ("family named on the page", "a deduction", "no selection of its own") \
+                or ck < at or at < 0 or ("%s — %s." % (c.get("class"), c.get("words"))) not in t[ck:]:
+            bad.append(r["arc"])
+    return bad
+
+
+def test_main_check_is_carried_to_each_page_and_row():
+    """2026-11-14 (main's M37): none of the twelve is a selection without its family; main's class and words stand on
+    each page after the note that waited for them, and in each row of the classified file."""
+    rows = _neither()
+    pages = {r["arc"]: _page(r["arc"]).read_text(encoding="utf-8") for r in rows}
+    assert _unchecked(pages, rows) == []
+    by = {}
+    for r in rows:
+        by[r["checked_by_main"]["class"]] = by.get(r["checked_by_main"]["class"], 0) + 1
+    assert by == {"family named on the page": 8, "a deduction": 2, "no selection of its own": 2}
+    # planted: a page without main's check; a row without it; a check standing above the note it answers
+    one = rows[1]["arc"]
+    t = pages[one]; ck = t.index("\n" + CHECKED)
+    assert _unchecked(dict(pages, **{one: t[:ck] + t[t.index("]**\n", ck) + 4:]}), rows) == [one]
+    stripped = [dict(r) for r in rows]; del stripped[0]["checked_by_main"]
+    assert _unchecked(pages, stripped) == [rows[0]["arc"]]
+    note = t[ck:t.index("]**\n", ck) + 4]
+    moved = note + t.replace(note, "")
+    assert _unchecked(dict(pages, **{one: moved}), rows) == [one]

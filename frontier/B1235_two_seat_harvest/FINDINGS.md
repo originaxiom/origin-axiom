@@ -134,3 +134,5 @@ baseline raised 3 → 5 by hand (`_baseline_raises`), the I-9 pattern.
 `verification/reproduce.sh` — seven cells, two of them SnapPy (minutes), the rest seconds.
 
 **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “A6'S FREE DECK SELECTS CS=0” and “amphichirality forces only CS in {0,1/4}”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
+
+**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — CS in {0, 1/4}. So it is not a selection without its family. The note above stays as written.]**

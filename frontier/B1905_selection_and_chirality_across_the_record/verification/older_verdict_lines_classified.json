@@ -15,7 +15,13 @@
    "clauses": [
     "|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the positive hyperbolic branch"
+   }
   },
   {
    "arc": "B45",
@@ -47,7 +53,13 @@
    "clauses": [
     "SnapPy invariant trace fields show arithmeticity selects m=1"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the metallic family"
+   }
   },
   {
    "arc": "B185",
@@ -87,7 +99,13 @@
    "clauses": [
     "The trace field's unique ramified prime canonically selects E6"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the McKay groups of the mod-q reductions"
+   }
   },
   {
    "arc": "B327",
@@ -430,7 +448,13 @@
     ",c> is forced to zero by H^1",
     "arithmetic only SELECTS which class is H_u"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "a deduction",
+    "words": "the coupling forced to zero by H^1; its 'selector' is a seat's reading, quoted"
+   }
   },
   {
    "arc": "B1163",
@@ -528,7 +552,13 @@
     "THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece",
     "So k = 1 is forced by INVENTORY, not chosen"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "a deduction",
+    "words": "the level forced by inventory"
+   }
   },
   {
    "arc": "B1230",
@@ -537,7 +567,13 @@
     "B1229's 'sigma = 1 selects E6 uniquely' was therefore leaning on the restriction, and the restriction was doing real work",
     "scanned, c = 6 has four solutions and the object's own arithmetic selects E6 alone"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the four simply-laced (G, k) with c = 6"
+   }
   },
   {
    "arc": "B1235",
@@ -546,7 +582,13 @@
     "A6'S FREE DECK SELECTS CS=0",
     "amphichirality forces only CS in {0,1/4}"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "CS in {0, 1/4}"
+   }
   },
   {
    "arc": "B1247",
@@ -570,7 +612,13 @@
    "clauses": [
     "Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "no selection of its own",
+    "words": "a negative arc testing another arc's selection"
+   }
   },
   {
    "arc": "B1259",
@@ -651,7 +699,13 @@
    "clauses": [
     "THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the inner and outer lifts"
+   }
   },
   {
    "arc": "B1304",
@@ -726,7 +780,13 @@
     "m^2+4 = k^2 forces m = 0",
     "The word is free because m = 1 is what five independent principles select"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "no selection of its own",
+    "words": "it reports B1405's"
+   }
   },
   {
    "arc": "B1409",
@@ -886,7 +946,13 @@
    "clauses": [
     "has order 8 and selects a"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the eigenlines of rho(S)"
+   }
   },
   {
    "arc": "B1826",
@@ -910,7 +976,13 @@
    "clauses": [
     "is selected under both level-5 readings"
    ],
-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
+   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
+   "checked_by_main": {
+    "date": "2026-11-14",
+    "row": "P-849",
+    "class": "family named on the page",
+    "words": "the line-invisible departures, listed in full"
+   }
   },
   {
    "arc": "B1869",
