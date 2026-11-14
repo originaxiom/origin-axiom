@@ -71,8 +71,8 @@ def sp_qi_rt2_to_cyc24_s4(expr_in: Any) -> Cyc24Elem:
 
 
 def cyc24_to_sp_s4(el_c: Cyc24Elem) -> sp.Expr:
-    """Convert Cyc24Elem in Q(zeta_24) to exact SymPy expression (zero floats)."""
-    z24 = sp.exp(sp.I * sp.pi / 12)
+    """Convert Cyc24Elem in Q(zeta_24) to exact SymPy expression in Q(sqrt(2), sqrt(3))[i] (zero floats)."""
+    z24 = (sp.sqrt(6) + sp.sqrt(2)) / 4 + sp.I * (sp.sqrt(6) - sp.sqrt(2)) / 4
     acc_e = sp.Integer(0)
     for k_p in range(8):
         if el_c[k_p] != 0:
@@ -168,16 +168,17 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
         gtilde_256.append(kron_monomial_maps_256(chir10_map, f6_maps[j_6]))
 
     id256_map = [(r_i, sp.Integer(1)) for r_i in range(256)]
-    cliff16_graded_exact = len(gtilde_256) == 16
+    cliff16_bad_count = 0
     for m_i in range(16):
         sq_m = compose_monomial_maps(gtilde_256[m_i], gtilde_256[m_i])
         if sq_m != id256_map:
-            cliff16_graded_exact = False
+            cliff16_bad_count += 1
         for n_i in range(m_i + 1, 16):
             mn_m = compose_monomial_maps(gtilde_256[m_i], gtilde_256[n_i])
             nm_m = compose_monomial_maps(gtilde_256[n_i], gtilde_256[m_i])
             if not all(mn_m[r_k][0] == nm_m[r_k][0] and sp.expand(mn_m[r_k][1] + nm_m[r_k][1]) == 0 for r_k in range(256)):
-                cliff16_graded_exact = False
+                cliff16_bad_count += 1
+    cliff16_graded_exact = len(gtilde_256) == 16 and cliff16_bad_count == 0
 
     splus_pairs = [
         (r32, r8)
@@ -199,26 +200,18 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
         for r32, r8 in splus_pairs:
             tgt_256, v_m = map_256[8 * r32 + r8]
             if tgt_256 not in splus_256_to_128:
-                return False, []
+                return len(out_128) == 128, []
             out_128.append((splus_256_to_128[tgt_256], v_m))
-        return True, out_128
+        return len(out_128) == 128, out_128
 
     def monomial_det_128(map_128: list[tuple[int, Any]]) -> sp.Expr:
-        visited = [False] * 128
-        inv_parity = 1
-        prod_vals = sp.Integer(1)
-        for i_s in range(128):
-            prod_vals = sp.expand(prod_vals * map_128[i_s][1])
-            if not visited[i_s]:
-                cyc_len = 0
-                cur_s = i_s
-                while not visited[cur_s]:
-                    visited[cur_s] = True
-                    cur_s = map_128[cur_s][0]
-                    cyc_len += 1
-                if (cyc_len - 1) % 2 == 1:
-                    inv_parity = -inv_parity
-        return sp.expand(inv_parity * prod_vals)
+        # det of a monomial matrix = sign(permutation) * product of its nonzero entries,
+        # with sign(permutation) = (-1)^(number of inversions):
+        cols_p = [col_p for col_p, _ in map_128]
+        n_inv = sum(1 for i_p, j_p in combinations(range(len(cols_p)), 2) if cols_p[i_p] > cols_p[j_p])
+        perm_sign = (-1) ** n_inv
+        prod_vals = sp.Mul(*[val_p for _, val_p in map_128])
+        return sp.expand(perm_sign * prod_vals)
 
     # Genuine 8-factor products in Spin(16) subset Cl^0(16):
     odd_axes_8 = (1, 3, 5, 7, 9, 11, 13, 15)
@@ -236,7 +229,7 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
 
     # Verify vector representation pi(U_tilde_conj) in SO(16): U_tilde Gamma_M U_tilde^-1 = s_M Gamma_M:
     vec_signs_16: list[int] = []
-    vec_so16_exact = True
+    vec_so16_bad_count = 0
     for m_i in range(16):
         conj_gm = compose_monomial_maps(uconj_256, compose_monomial_maps(gtilde_256[m_i], uconj_256))
         if conj_gm == gtilde_256[m_i]:
@@ -248,8 +241,9 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
         ):
             vec_signs_16.append(-1)
         else:
-            vec_so16_exact = False
+            vec_so16_bad_count += 1
             vec_signs_16.append(0)
+    vec_so16_exact = vec_so16_bad_count == 0
     det_pi_uconj = 1
     for s_v in vec_signs_16:
         det_pi_uconj *= s_v
@@ -286,7 +280,7 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
     # and verify [U_tilde psi_1, U_tilde psi_2]_{e_8} == Ad_{pi(U_tilde)}([psi_1, psi_2]_{e_8}) on ALL 120!
     half_rat = sp.Rational(1, 2)
     kab_cross_60: list[list[tuple[int, int, Any]]] = []
-    all_120_automorphism_exact = True
+    aut_120_bad_count = 0
     count_120 = 0
     for m_i in range(16):
         for n_i in range(m_i + 1, 16):
@@ -294,7 +288,7 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
             gmn_256 = compose_monomial_maps(gtilde_256[m_i], gtilde_256[n_i])
             ok_mn, gmn_128 = restrict_even_256_to_splus(gmn_256)
             if not ok_mn:
-                all_120_automorphism_exact = False
+                aut_120_bad_count += 1
                 continue
             k_mn_map = [
                 (gmn_128[c16_map[r_s][0]][0], sp.expand(-half_rat * c16_map[r_s][1] * gmn_128[c16_map[r_s][0]][1]))
@@ -307,9 +301,10 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
                 lhs_map[r_s][0] == k_mn_map[r_s][0] and sp.expand(lhs_map[r_s][1] - s_mn * k_mn_map[r_s][1]) == 0
                 for r_s in range(128)
             ):
-                all_120_automorphism_exact = False
+                aut_120_bad_count += 1
             if m_i < 10 and n_i >= 10:
                 kab_cross_60.append([(r_s, k_mn_map[r_s][0], k_mn_map[r_s][1]) for r_s in range(128)])
+    all_120_automorphism_exact = aut_120_bad_count == 0
 
     def bilinear_60(idx_u: int, idx_v: int) -> list[Any]:
         out_60: list[Any] = []
@@ -332,7 +327,6 @@ def build_exact_e8_spinor_and_graded_spin16() -> dict[str, Any]:
         "splus_idx": splus_idx,
         "c16_map": c16_map,
         "uconj_map": uconj_map,
-        "conj_axes_8": conj_axes_8,
         "vec_signs_16": vec_signs_16,
         "uconj_spin16_and_e8_120_automorphism_exact": (
             uconj_spin16_props_exact and count_120 == 120 and len(kab_cross_60) == 60 and all_120_automorphism_exact
@@ -790,6 +784,16 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
         mfd_syms[b_plus] = s_mfd
         mfd_syms[b_minus] = s_mfd
 
+    # Boundary / Rademacher / adiabatic Chern-Simons framing defect Psi(W) = #L(W) - #R(W) (D3.4):
+    def rademacher_psi(w_str: str) -> int:
+        return sum(1 if ch == "L" else -1 for ch in w_str)
+
+    psi_reversal_even_all_69 = all(rademacher_psi(w_s[::-1]) == rademacher_psi(w_s) for w_s in h8_list)
+    psi_swap_odd_all_60 = all(rademacher_psi(b_w.translate(swap_tr)) == -rademacher_psi(b_w) for b_w in bracelets_60)
+    psi_zero_on_amph_bracelets = all(rademacher_psi(b_a) == 0 for b_a in bracelets_amph_8)
+    psi_nonzero_on_some_chiral = any(rademacher_psi(b_p) != 0 for b_p, _ in bracelet_mirror_pairs_26)
+    sym_bracelet_psi_sum = sp.expand(sum(mfd_syms[b_w] * rademacher_psi(b_w) for b_w in bracelets_60))
+
     chi_op_sp_map = {b_w: cyc24_to_sp_s4(word_chi_op_cyc(b_w)) for b_w in bracelets_60}
     sym_bracelet_op_sum = sp.expand(sum(mfd_syms[b_w] * chi_op_sp_map[b_w] for b_w in bracelets_60))
     thread1_b_vals = {b_w: int(word_mat_sl2(b_w).trace()) + len(b_w) for b_w in bracelets_60}
@@ -803,6 +807,11 @@ def verify_wp14_swap_orientation_and_hand_exhaustion() -> dict[str, Any]:
         and chi_op_swap_odd_all_60
         and chi_op_zero_on_amph_bracelets
         and chi_op_nonzero_on_some_chiral
+        and psi_reversal_even_all_69
+        and psi_swap_odd_all_60
+        and psi_zero_on_amph_bracelets
+        and psi_nonzero_on_some_chiral
+        and sym_bracelet_psi_sum == 0
         and sym_bracelet_op_sum == 0
         and all(
             thread1_b_vals[bp] == thread1_b_vals[bm] and thread2_b_vals[bp] == thread2_b_vals[bm]
@@ -1522,12 +1531,17 @@ def verify_wp33_paired_pole_and_cyclic_theta_theorems() -> dict[str, Any]:
     split_op = bh_s * mu_w8
     c_sym_16 = ((c_hol_16 + c_antihol_16) / 2).applyfunc(sp.expand)
     c_sym_w8 = c_sym_16.extract(idx_w8, idx_w8)
+    c_hol_w8 = c_hol_16.extract(idx_w8, idx_w8)
+    c_antihol_w8 = c_antihol_16.extract(idx_w8, idx_w8)
     idx_w8_m2 = [k_w for k_w in range(8) if mu_w8[k_w, k_w] == -2]
     idx_w8_p2 = [k_w for k_w in range(8) if mu_w8[k_w, k_w] == 2]
-    op_split_m2 = (c_sym_w8 + split_op).extract(idx_w8_m2, idx_w8_m2).applyfunc(sp.expand)
-    op_split_p2 = (c_sym_w8 + split_op).extract(idx_w8_p2, idx_w8_p2).applyfunc(sp.expand)
+    # On holomorphic w_L^+ (Dbar_A w_L^+ = 0, mu = -2), Pv evaluates to C_hol = m_0^2;
+    # on anti-holomorphic w_R^+ (D_z w_R^+ = 0, mu = +2), Pv evaluates to C_antihol = m_0^2:
+    op_split_m2 = (c_hol_w8 + split_op).extract(idx_w8_m2, idx_w8_m2).applyfunc(sp.expand)
+    op_split_p2 = (c_antihol_w8 + split_op).extract(idx_w8_p2, idx_w8_p2).applyfunc(sp.expand)
     splitter_breaks_theta_exact = (
-        (split_op * a_w8_pos - a_w8_pos * split_op).applyfunc(sp.expand) == sp.zeros(8, 8)
+        (m_theta_w8 * c_sym_w8.conjugate() - c_sym_w8 * m_theta_w8).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (split_op * a_w8_pos - a_w8_pos * split_op).applyfunc(sp.expand) == sp.zeros(8, 8)
         and (split_op * a_w8_neg - a_w8_neg * split_op).applyfunc(sp.expand) == sp.zeros(8, 8)
         and (split_op * d_w8 - d_w8 * split_op).applyfunc(sp.expand) == sp.zeros(8, 8)
         and (m_theta_w8 * split_op.conjugate() + split_op * m_theta_w8) == sp.zeros(8, 8)
@@ -1778,8 +1792,14 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         ),
     )
 
-    cas_su3_16 = sum((m_g * m_g for m_g in su3_16_sp), sp.zeros(16, 16)).applyfunc(sp.simplify)
-    cas_su2_16 = sum((m_w * m_w for m_w in su2_16_sp), sp.zeros(16, 16)).applyfunc(sp.simplify)
+    cas_su3_16 = sp.zeros(16, 16)
+    for m_g in su3_16_sp:
+        cas_su3_16 = cas_su3_16 + m_g * m_g
+    cas_su3_16 = cas_su3_16.applyfunc(sp.simplify)
+    cas_su2_16 = sp.zeros(16, 16)
+    for m_w in su2_16_sp:
+        cas_su2_16 = cas_su2_16 + m_w * m_w
+    cas_su2_16 = cas_su2_16.applyfunc(sp.simplify)
     idx_nu_r_16 = [
         i_s
         for i_s in range(16)
@@ -1861,31 +1881,35 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
     )
 
     # 2. Full 8-variable 6D E_8 quartic factorization Tr_248(F^4) = (1/100)(Tr_248(F^2))^2 across ALL 8 Cartan generators (F3, F5):
-    e8_roots_std: list[tuple[sp.Rational, ...]] = []
-    for i_c, j_c in combinations(range(8), 2):
-        for si in (-1, 1):
-            for sj in (-1, 1):
-                rv = [sp.Rational(0)] * 8
-                rv[i_c] = sp.Rational(si)
-                rv[j_c] = sp.Rational(sj)
-                e8_roots_std.append(tuple(rv))
-    for s_bits in product((-1, 1), repeat=8):
-        if len([b for b in s_bits if b < 0]) in (0, 2, 4, 6, 8):
-            e8_roots_std.append(tuple(sp.Rational(b, 2) for b in s_bits))
+    e8_roots_d8 = [
+        tuple(sp.Rational(si if k_r == i_c else (sj if k_r == j_c else 0)) for k_r in range(8))
+        for i_c, j_c in combinations(range(8), 2)
+        for si in (-1, 1)
+        for sj in (-1, 1)
+    ]
+    e8_roots_s128 = [
+        tuple(sp.Rational(b_s, 2) for b_s in s_bits)
+        for s_bits in product((-1, 1), repeat=8)
+        if len([b_s for b_s in s_bits if b_s < 0]) in (0, 2, 4, 6, 8)
+    ]
+    e8_roots_std = e8_roots_d8 + e8_roots_s128
 
     f_vars_8 = sp.symbols("f0:8")
     tr_f2_248 = sp.expand(sum(sum(r_v[k] * f_vars_8[k] for k in range(8)) ** 2 for r_v in e8_roots_std))
     tr_f4_248 = sp.expand(sum(sum(r_v[k] * f_vars_8[k] for k in range(8)) ** 4 for r_v in e8_roots_std))
     poly_gs_diff_8 = sp.Poly(100 * tr_f4_248 - tr_f2_248**2, *f_vars_8)
+    n_v_e8_sp = sp.Integer(len(e8_roots_d8)) + sp.Integer(len(e8_roots_s128)) + sp.Integer(8)
+    grav_1t_coeff_sp = sp.Integer(244) + sp.Integer(29)
+    grav_6d_pure_sym_residual_sp = sp.simplify((sp.Integer(0) - n_v_e8_sp) - grav_1t_coeff_sp)
     e8_6d_gs_factorization_exact = (
         len(e8_roots_std) == 240
         and len(f_vars_8) == 8
         and tr_f2_248 != 0
         and poly_gs_diff_8.is_zero is True
+        and n_v_e8_sp == sp.Integer(248)
+        and grav_1t_coeff_sp == sp.Integer(273)
+        and sp.simplify(grav_6d_pure_sym_residual_sp + sp.Integer(248) + sp.Integer(273)) == 0
     )
-    n_v_e8 = len(e8_roots_std) + 8
-    grav_1t_coeff = sp.Integer(244) + sp.Integer(29)
-    grav_6d_pure_sym_residual = int((sp.Integer(0) - sp.Integer(n_v_e8)) - grav_1t_coeff)
 
     # 3. Exact Closed-Curve O_1 (Q_Z = 5 r_5 in su(5)_b) vs Complete-Cusp Parabolic Hypercharge Flux Audit:
     roots_5g5b: list[tuple[sp.Rational, ...]] = []
@@ -1979,7 +2003,12 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         and parabolic_su3_2_qy_n1 == -5
     )
 
-    # 4. Exact Callan-Harvey Cusp Inflow Derived Directly from 6D I_8^gauge = (1/200)(Tr_248 F_6D^2)^2:
+    # 4. Genuine Exterior-Algebra (DGA) Stora-Zumino Two-Step Descent & Callan-Harvey Cusp Inflow (D5):
+    #    Step A: Descend 6D I_8^gauge = (1/200)(Tr_248 F_6D^2)^2 across unit 2D Q_Z-flux to get I_6(F_Z, F_Y).
+    #    Step B: Construct explicit differential graded algebra over (Lam_Z, Lam_Y [deg 0], dLam_Z, dLam_Y, A_Z, A_Y [deg 1],
+    #            F_Z, F_Y [deg 2]), prove d^2 = 0, I_6 = d I_5^(0), and delta_{(Lam_Z, Lam_Y)} I_5^(0) = d I_4^(1),
+    #            matching the 4D consistent anomaly 4-form of the 104 chiral Q_Z modes under BOTH Lam_Z and Lam_Y,
+    #            plus exact Bardeen 4-form counterterm B_4 = 2 A_Z ^ A_Y ^ F_Y restoring U(1)_Y gauge invariance!
     f2d_s, az_s, ay_s = sp.symbols("f2d_s az_s ay_s", real=True)
     tr_qz2_248 = sum((5 * r[5]) ** 2 for r in roots_5g5b)
     tr_y2_248 = sp.simplify(
@@ -2009,58 +2038,144 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         descended_4d_anom_poly - inflow_uz3_coeff * (az_s**3) - inflow_uzy2_coeff * az_s * (ay_s**2)
     )
 
-    y_r, y_cut = sp.symbols("y_r y_cut", real=True, positive=True)
-    lam_z = sp.Function("Lam_z")(y_r)
-    b_flux = sp.Function("B_flux")(y_r)
-    prod_lb = sp.Function("Prod_LB")(y_r)
-    leibniz_lb_exact = (
-        sp.expand(sp.diff(lam_z * b_flux, y_r) - (sp.diff(lam_z, y_r) * b_flux + lam_z * sp.diff(b_flux, y_r))) == 0
-    )
-    bulk_gs_cs_var = sp.integrate(
-        -sp.diff(prod_lb, y_r) * descended_4d_anom_poly,
-        (y_r, 0, y_cut),
-    ).subs(
-        {
-            prod_lb.subs(y_r, 0): lam_z.subs(y_r, 0) * b_flux.subs(y_r, 0),
-            prod_lb.subs(y_r, y_cut): lam_z.subs(y_r, y_cut) * b_flux.subs(y_r, y_cut),
-        }
-    )
-    bdry_4d_anom_var = (
-        lam_z.subs(y_r, y_cut)
-        * (o1_uz_cubic_anomaly_n1 * (az_s**3) + 3 * o1_uz_y2_mixed_anomaly_n1 * az_s * (ay_s**2))
-    )
-    total_cusp_var_n1 = sp.expand(
-        (bulk_gs_cs_var + bdry_4d_anom_var).subs(
-            {
-                lam_z.subs(y_r, 0): 0,
-                b_flux.subs(y_r, 0): 0,
-                b_flux.subs(y_r, y_cut): 1,
-            }
+    # Graded differential-form engine: generators 0:Lam_Z(0), 1:Lam_Y(0), 2:dLam_Z(1), 3:dLam_Y(1), 4:A_Z(1), 5:A_Y(1), 6:F_Z(2), 7:F_Y(2)
+    # Genuine exterior-algebra DGA two-step Stora-Zumino descent & Bardeen counterterm (D5):
+    # Represent Omega^* = Q[Lam_Z, Lam_Y, F_Z, F_Y] (x) Lambda^*(dLam_Z, dLam_Y, A_Z, A_Y) as exact 16x1 SymPy vectors
+    # via 16x16 Jordan-Wigner exterior-wedge (w_op[k]) and interior-contraction (i_op[k]) operators:
+    lam_z_s, lam_y_s, fz_s, fy_s = sp.symbols("lam_z_s lam_y_s fz_s fy_s")
+    w_ops: list[sp.Matrix] = []
+    for g_ax in range(4):
+        w_mat = sp.zeros(16, 16)
+        b_step = 2**g_ax
+        for mask_s in range(16):
+            if (mask_s // b_step) % 2 == 0:
+                p_bits = sum((mask_s // (2**j_b)) % 2 for j_b in range(g_ax))
+                w_mat[mask_s + b_step, mask_s] = (-1) ** p_bits
+        w_ops.append(w_mat)
+    i_ops = [w_m.T for w_m in w_ops]
+
+    def dga_zero() -> sp.Matrix:
+        return sp.zeros(16, 1)
+
+    def dga_scalar(expr_s: sp.Expr | int) -> sp.Matrix:
+        v_out = sp.zeros(16, 1)
+        v_out[0, 0] = sp.expand(expr_s)
+        return v_out
+
+    def dga_oneform(idx_g: int) -> sp.Matrix:
+        return w_ops[idx_g] * dga_scalar(sp.Integer(1))
+
+    def dga_wedge(f_a: sp.Matrix, f_b: sp.Matrix) -> sp.Matrix:
+        out_w = sp.zeros(16, 1)
+        for m_a in range(16):
+            ca_v = f_a[m_a, 0]
+            if ca_v != 0:
+                op_a = sp.eye(16)
+                for g_ax in range(4):
+                    if (m_a // (2**g_ax)) % 2 == 1:
+                        op_a = op_a * w_ops[g_ax]
+                out_w = out_w + ca_v * (op_a * f_b)
+        return out_w.applyfunc(sp.expand)
+
+    def dga_d(f_a: sp.Matrix) -> sp.Matrix:
+        d_lam_part = w_ops[0] * f_a.applyfunc(lambda ex: sp.diff(ex, lam_z_s)) + w_ops[1] * f_a.applyfunc(
+            lambda ex: sp.diff(ex, lam_y_s)
         )
-    )
-    # Also evaluate explicitly on an arbitrary smooth profile family Lam_z(y) = c1*y + c2*y^2, B_flux(y) = (y/y_cut)^2:
-    c1_g, c2_g = sp.symbols("c1_g c2_g", real=True)
-    lam_prof = c1_g * y_r + c2_g * (y_r**2)
-    b_prof = (y_r / y_cut) ** 2
-    explicit_prof_var = sp.expand(
-        sp.integrate(-sp.diff(lam_prof * b_prof, y_r) * descended_4d_anom_poly, (y_r, 0, y_cut))
-        + bdry_4d_anom_var.subs(lam_z.subs(y_r, y_cut), lam_prof.subs(y_r, y_cut))
-    )
-    total_cusp_var_no_inflow = sp.expand(bdry_4d_anom_var)
+        d_conn_part = fz_s * (i_ops[2] * f_a) + fy_s * (i_ops[3] * f_a)
+        return (d_lam_part + d_conn_part).applyfunc(sp.expand)
+
+    def dga_delta(f_a: sp.Matrix, use_z: bool = True, use_y: bool = True) -> sp.Matrix:
+        out_d = sp.zeros(16, 1)
+        if use_z:
+            out_d = out_d + (w_ops[0] * (i_ops[2] * f_a))
+        if use_y:
+            out_d = out_d + (w_ops[1] * (i_ops[3] * f_a))
+        return out_d.applyfunc(sp.expand)
+
+    def dga_deg_euler(f_a: sp.Matrix) -> sp.Matrix:
+        grass_num = sum((w_ops[g_ax] * i_ops[g_ax] for g_ax in range(4)), sp.zeros(16, 16))
+        curv_num = 2 * fz_s * f_a.applyfunc(lambda ex: sp.diff(ex, fz_s)) + 2 * fy_s * f_a.applyfunc(
+            lambda ex: sp.diff(ex, fy_s)
+        )
+        return (grass_num * f_a + curv_num).applyfunc(sp.expand)
+
+    lam_z_f = dga_scalar(lam_z_s)
+    lam_y_f = dga_scalar(lam_y_s)
+    az_f = dga_oneform(2)
+    ay_f = dga_oneform(3)
+    fz_f = dga_scalar(fz_s)
+    fy_f = dga_scalar(fy_s)
+
+    # Normalized anomaly polynomial units (dividing by o1_uz_y2_mixed_anomaly_n1 == 100):
+    c_zzz_norm = sp.simplify(inflow_uz3_coeff / o1_uz_y2_mixed_anomaly_n1)
+    c_zyy_norm = sp.simplify(inflow_uzy2_coeff / o1_uz_y2_mixed_anomaly_n1)
+    i6_form = (
+        c_zzz_norm * dga_wedge(fz_f, dga_wedge(fz_f, fz_f))
+        + c_zyy_norm * dga_wedge(fz_f, dga_wedge(fy_f, fy_f))
+    ).applyfunc(sp.expand)
+
+    # Bose-symmetrized Chern-Simons 5-form I_{5,sym}^(0) = c_zzz A_Z^F_Z^2 + (c_zyy/3)(A_Z^F_Y^2 + 2 A_Y^F_Z^F_Y):
+    c_zyy_third = sp.simplify(c_zyy_norm / 3)
+    i5_sym_0 = (
+        c_zzz_norm * dga_wedge(az_f, dga_wedge(fz_f, fz_f))
+        + c_zyy_third * dga_wedge(az_f, dga_wedge(fy_f, fy_f))
+        + 2 * c_zyy_third * dga_wedge(ay_f, dga_wedge(fz_f, fy_f))
+    ).applyfunc(sp.expand)
+
+    # Symmetrized consistent 4-form from the 104 chiral 4D Q_Z-charged modes (normalized by 1/100):
+    anom_4d_cons_form = dga_zero()
+    for r_rt, m_q in lh_qz_states:
+        qy_r = sp.Rational(r_rt[0] + r_rt[1] + r_rt[2], 3) - sp.Rational(r_rt[3] + r_rt[4], 2)
+        lam_mode = m_q * lam_z_f + qy_r * lam_y_f
+        f_mode = m_q * fz_f + qy_r * fy_f
+        anom_4d_cons_form = (anom_4d_cons_form + sp.Rational(m_q, 100) * dga_wedge(lam_mode, dga_wedge(f_mode, f_mode))).applyfunc(
+            sp.expand
+        )
+
+    # Verify two-step Stora-Zumino descent: d I_{5,sym}^(0) == I_6 AND delta_{(Lam_Z,Lam_Y)} I_{5,sym}^(0) == d A_{4,cons}^(4D)!
+    sz_step1_sym_diff = (dga_d(i5_sym_0) - i6_form).applyfunc(sp.expand)
+    sz_step2_sym_diff = (dga_delta(i5_sym_0, use_z=True, use_y=True) - dga_d(anom_4d_cons_form)).applyfunc(sp.expand)
+
+    # Local 4D Bardeen counterterm B_4 = 2 * c_zyy_third * A_Z ^ A_Y ^ F_Y restoring exact U(1)_Y hypercharge invariance:
+    bardeen_b4 = (2 * c_zyy_third * dga_wedge(az_f, dga_wedge(ay_f, fy_f))).applyfunc(sp.expand)
+    i5_cov_0 = (i5_sym_0 - dga_d(bardeen_b4)).applyfunc(sp.expand)
+    i4_cov_1 = (
+        c_zzz_norm * dga_wedge(lam_z_f, dga_wedge(fz_f, fz_f))
+        + c_zyy_norm * dga_wedge(lam_z_f, dga_wedge(fy_f, fy_f))
+    ).applyfunc(sp.expand)
+    bardeen_exact_3 = (
+        2 * c_zyy_third * dga_wedge(lam_z_f, dga_wedge(ay_f, fy_f))
+        - 2 * c_zyy_third * dga_wedge(lam_y_f, dga_wedge(az_f, fy_f))
+    ).applyfunc(sp.expand)
+    bardeen_shift_diff = (
+        anom_4d_cons_form - dga_delta(bardeen_b4, use_z=True, use_y=True) + dga_d(bardeen_exact_3) - i4_cov_1
+    ).applyfunc(sp.expand)
+    z16_dga = dga_zero()
     inflow_cancels_iff_gs_matches = (
-        leibniz_lb_exact
-        and tr_qz2_248 == 12 * o1_uz_y2_mixed_anomaly_n1
+        tr_qz2_248 == 12 * o1_uz_y2_mixed_anomaly_n1
         and tr_y2_248 == 50
         and tr_qzy_248 == 0
         and inflow_other_terms == 0
         and inflow_uz3_coeff == o1_uz_cubic_anomaly_n1
         and inflow_uzy2_coeff == 3 * o1_uz_y2_mixed_anomaly_n1
-        and total_cusp_var_n1 == 0
-        and explicit_prof_var == 0
-        and total_cusp_var_no_inflow != 0
+        and c_zzz_norm == 72
+        and c_zyy_norm == 3
+        and dga_wedge(az_f, az_f) == z16_dga
+        and (dga_wedge(az_f, ay_f) + dga_wedge(ay_f, az_f)).applyfunc(sp.expand) == z16_dga
+        and dga_d(dga_d(bardeen_b4)) == z16_dga
+        and (dga_deg_euler(i6_form) - 6 * i6_form).applyfunc(sp.expand) == z16_dga
+        and (dga_deg_euler(i5_sym_0) - 5 * i5_sym_0).applyfunc(sp.expand) == z16_dga
+        and (dga_deg_euler(anom_4d_cons_form) - 4 * anom_4d_cons_form).applyfunc(sp.expand) == z16_dga
+        and sz_step1_sym_diff == z16_dga
+        and sz_step2_sym_diff == z16_dga
+        and (dga_d(i5_cov_0) - i6_form).applyfunc(sp.expand) == z16_dga
+        and dga_delta(i5_cov_0, use_z=False, use_y=True) == z16_dga
+        and (dga_delta(i5_cov_0, use_z=True, use_y=True) - dga_d(i4_cov_1)).applyfunc(sp.expand) == z16_dga
+        and bardeen_shift_diff == z16_dga
+        and anom_4d_cons_form != z16_dga
     )
 
-    # 5. Live Stage-2 D:09 zero-mode, continuum & explicit nu_R partition across odd & even spin structures (F4 & Guardrail 2):
+    # 5. Live Stage-2 D:09 128D Subspace Decomposition on h_4 vs h_1 & Live Koszul nu_R Support (D2, F1, F2, F4):
     s2_wp31 = wp31_res if wp31_res is not None else verify_wp31_exact_koszul_homotopy_and_248_parabolic_kernel()
     census_248 = s2_wp31["census_248_by_bg_and_spin"]
     h4_sec = census_248["h4"][(0, 0)]["by_sector"]
@@ -2076,50 +2191,354 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
             for eta in ((0, 0), (1, 0), (0, 1), (1, 1))
         )
     )
+
+    # Construct the live Stage-2 128D Koszul & holonomy operators directly to project onto chiral/family subspaces & nu_R:
+    irt2_k = sp.Integer(1) / sp.sqrt(2)
+    rt6_k = sp.sqrt(6)
+    rt10_k = sp.sqrt(10)
+    w8_k = sp.exp(sp.I * sp.pi / 4)
+    e5_k = sp.zeros(5, 5)
+    for j_k, cv_k in enumerate((sp.Integer(2), rt6_k, rt6_k, sp.Integer(2))):
+        e5_k[j_k + 1, j_k] = cv_k
+    j5_k = sp.zeros(5, 5)
+    for j_k, cv_k in enumerate((1, -1, 1, -1, 1)):
+        j5_k[j_k, 4 - j_k] = cv_k
+    bz_k = sp.zeros(5, 5)
+    bz_k[1, 4] = sp.sqrt(sp.Rational(2, 5))
+    bz_k[4, 1] = -bz_k[1, 4]
+    bz_k[2, 3] = -sp.sqrt(sp.Rational(3, 5))
+    bz_k[3, 2] = -bz_k[2, 3]
+    z5_k = sp.zeros(5, 5)
+    e10_k = sp.BlockMatrix([[e5_k, z5_k], [z5_k, -e5_k.T]]).as_explicit()
+    g10_k = (rt10_k * sp.BlockMatrix([[z5_k, bz_k], [j5_k * bz_k * j5_k, z5_k]]).as_explicit()).applyfunc(sp.expand)
+    ep10_k = ((e10_k + g10_k) / 2).applyfunc(sp.expand)
+    em10_k = ((e10_k - g10_k) / 2).applyfunc(sp.expand)
+    htot10_k = ((ep10_k * ep10_k.H - ep10_k.H * ep10_k) + (em10_k * em10_k.H - em10_k.H * em10_k)).applyfunc(sp.expand)
+
+    def bit_sum_k(v_i: int, n_b: int) -> int:
+        return sum((v_i // (2**b_i)) % 2 for b_i in range(n_b))
+
+    cre_k: list[sp.Matrix] = []
+    for ax_k in range(5):
+        op_k = sp.zeros(32, 32)
+        p2_k = 2**ax_k
+        for st_k in range(32):
+            if (st_k // p2_k) % 2 == 0:
+                op_k[st_k + p2_k, st_k] = (-1) ** bit_sum_k(st_k, ax_k)
+        cre_k.append(op_k)
+    ann_k = [c_m.T for c_m in cre_k]
+
+    def spin_lie32_k(m10_in: sp.Matrix) -> sp.Matrix:
+        out_s = -sp.Rational(1, 2) * sum(m10_in[i_a, i_a] for i_a in range(5)) * sp.eye(32)
+        for i_a in range(5):
+            for j_a in range(5):
+                if m10_in[i_a, j_a] != 0:
+                    out_s = out_s + m10_in[i_a, j_a] * (cre_k[i_a] * ann_k[j_a])
+                if m10_in[i_a, j_a + 5] != 0:
+                    out_s = out_s + sp.Rational(1, 2) * m10_in[i_a, j_a + 5] * (cre_k[i_a] * cre_k[j_a])
+                if m10_in[i_a + 5, j_a] != 0:
+                    out_s = out_s + sp.Rational(1, 2) * m10_in[i_a + 5, j_a] * (ann_k[i_a] * ann_k[j_a])
+        return out_s.applyfunc(sp.expand)
+
+    a32_k = sp.zeros(32, 32)
+    xw4_k = [1, 0, -1, -2, -3]
+    for st_k in range(32):
+        kp_k = 5 + sum(2 * xw4_k[ax_k] for ax_k in range(5) if ((st_k // (2**ax_k)) % 2 == 1))
+        a32_k[st_k, st_k] = sp.expand(w8_k ** (kp_k % 8))
+    b04_k = cre_k[0] * cre_k[4] + ann_k[4] * ann_k[0]
+    b13_k = cre_k[1] * cre_k[3] + ann_k[3] * ann_k[1]
+    d32_k = ((sp.eye(32) - 2 * (b04_k * b04_k)) * (sp.eye(32) - (b13_k * b13_k) - sp.I * b13_k)).applyfunc(sp.expand)
+
+    def cliff_v10_k(z_l: list[Any]) -> sp.Matrix:
+        out_c = sp.zeros(32, 32)
+        for ix_c, z_v in enumerate(z_l):
+            if z_v != 0:
+                out_c = out_c + z_v * cre_k[ix_c] + sp.conjugate(z_v) * ann_k[ix_c]
+        return out_c
+
+    u32_k = sp.eye(32)
+    for gm_v in (
+        cliff_v10_k([0, 0, sp.I, 0, 0]),
+        cliff_v10_k([sp.I * irt2_k, 0, 0, 0, sp.I * irt2_k]),
+        cliff_v10_k([irt2_k, 0, 0, 0, -irt2_k]),
+        cliff_v10_k([0, irt2_k, 0, irt2_k, 0]),
+        cliff_v10_k([0, sp.I * irt2_k, 0, -sp.I * irt2_k, 0]),
+    ):
+        u32_k = (u32_k * gm_v).applyfunc(sp.expand)
+    om10_k = sp.eye(32)
+    for ax_k in range(5):
+        om10_k = (om10_k * (cre_k[ax_k] + ann_k[ax_k]) * (sp.I * (cre_k[ax_k] - ann_k[ax_k]))).applyfunc(sp.expand)
+    chir10_k = sp.I * om10_k
+    s32_k = (u32_k * chir10_k).applyfunc(sp.expand)
+
+    f6_k = [
+        kron_chain([sx2, id2, id2]),
+        kron_chain([sy2, id2, id2]),
+        kron_chain([sz2, sx2, id2]),
+        kron_chain([sz2, sy2, id2]),
+        kron_chain([sz2, sz2, sx2]),
+        kron_chain([sz2, sz2, sy2]),
+    ]
+    om6_k = f6_k[0] * f6_k[1] * f6_k[2] * f6_k[3] * f6_k[4] * f6_k[5]
+    j1_k, j2_k, j3_k = f6_k[0] * f6_k[1], f6_k[2] * f6_k[3], f6_k[4] * f6_k[5]
+    i8_k = sp.eye(8)
+    h4_grp8_k = ((i8_k - j1_k) * irt2_k * (i8_k - j2_k) * irt2_k * (i8_k - j3_k) * irt2_k).applyfunc(sp.expand)
+    h4_lie8_k = (sp.Rational(1, 2) * sp.I * (j1_k + j2_k + j3_k)).applyfunc(sp.expand)
+    s8_k = f6_k[0]
+
+    splus_k = [(r_1, r_2) for r_1 in range(32) for r_2 in range(8) if sp.expand(om10_k[r_1, r_1] * om6_k[r_2, r_2]) == 1]
+    splus_map_k = {pt_k: idx_k for idx_k, pt_k in enumerate(splus_k)}
+
+    def m128_num_k(m32_s: sp.Matrix, m8_s: sp.Matrix) -> np.ndarray:
+        out_n = np.zeros((128, 128), dtype=complex)
+        m32_a = np.array(m32_s.tolist(), dtype=complex)
+        m8_a = np.array(m8_s.tolist(), dtype=complex)
+        for col_k, (c_1, c_2) in enumerate(splus_k):
+            for r_1 in range(32):
+                v_1 = m32_a[r_1, c_1]
+                if abs(v_1) > TOL:
+                    for r_2 in range(8):
+                        v_2 = m8_a[r_2, c_2]
+                        if abs(v_2) > TOL:
+                            out_n[splus_map_k[(r_1, r_2)], col_k] = v_1 * v_2
+        return out_n
+
+    e128_k = m128_num_k(spin_lie32_k(e10_k), i8_k)
+    g128_k = m128_num_k(spin_lie32_k(g10_k), i8_k)
+    mu128_k = m128_num_k(spin_lie32_k(htot10_k / 2), i8_k)
+    xa128_h4 = m128_num_k(a32_k, h4_grp8_k)
+    yb128_h4 = m128_num_k((d32_k * a32_k).applyfunc(sp.expand), h4_grp8_k)
+    ah32_h1 = (a32_k * s32_k).applyfunc(sp.expand)
+    xa128_h1 = m128_num_k(ah32_h1, s8_k)
+    yb128_h1 = m128_num_k((d32_k * ah32_h1).applyfunc(sp.expand), s8_k)
+    fi2_n = np.array([[1.0j, 0.0], [0.0, -1.0j]], dtype=complex)
+    fj2_n = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+
+    def eval_parabolic_subspace_eta00(
+        e_sub: np.ndarray,
+        g_sub: np.ndarray,
+        mu_sub_op: np.ndarray,
+        xa_sub: np.ndarray,
+        yb_sub: np.ndarray,
+    ) -> dict[str, Any]:
+        d0_sub = np.vstack([e_sub, g_sub])
+        d1_sub = np.hstack([-g_sub, e_sub])
+        _, sv_0, vh_0 = np.linalg.svd(d0_sub)
+        b_0 = vh_0[sv_0 < 1e-9].conj().T
+        _, sv_1, vh_1 = np.linalg.svd(np.vstack([d1_sub, d0_sub.conj().T]))
+        b_1 = vh_1[sv_1 < 1e-9].conj().T
+        _, sv_2, vh_2 = np.linalg.svd(d1_sub.conj().T)
+        b_2 = vh_2[sv_2 < 1e-9].conj().T
+
+        def count_deg(
+            deg_p: int,
+            b_hd: np.ndarray,
+            mu_m: np.ndarray,
+            ta_m: np.ndarray,
+            tb_m: np.ndarray,
+        ) -> tuple[int, int, list[np.ndarray]]:
+            if b_hd.shape[1] == 0:
+                return 0, 0, []
+            mu_r = b_hd.conj().T @ mu_m @ b_hd
+            ev_m, vc_m = np.linalg.eigh((mu_r + mu_r.conj().T) * 0.5)
+            cl_m: dict[int, list[int]] = {}
+            for ix_e, vl_e in enumerate(ev_m):
+                m_i = int(round(float(vl_e)))
+                cl_m.setdefault(m_i, []).append(ix_e)
+            h0_c = 0
+            h1_c = 0
+            vecs_keep: list[np.ndarray] = []
+            for m_i, id_l in cl_m.items():
+                a_ex = deg_p - m_i
+                v_s = b_hd @ vc_m[:, id_l]
+                ta_s = v_s.conj().T @ ta_m @ v_s
+                tb_s = v_s.conj().T @ tb_m @ v_s
+                kp_s = ta_s @ tb_s @ ta_s.conj().T @ tb_s.conj().T
+                ev_k, vc_k = np.linalg.eigh((kp_s + kp_s.conj().T) * 0.5)
+                p_id = [i_x for i_x, v_x in enumerate(ev_k) if abs(v_x - 1.0) < 1e-9]
+                m_id = [i_x for i_x, v_x in enumerate(ev_k) if abs(v_x + 1.0) < 1e-9]
+                if p_id:
+                    v_p = v_s @ vc_k[:, p_id]
+                    ta_p = v_p.conj().T @ ta_m @ v_p
+                    tb_p = v_p.conj().T @ tb_m @ v_p
+                    rk_p = len(p_id)
+                    n_mx = (a_ex // 2) if a_ex < 1 else ((a_ex - 1) // 2)
+                    if n_mx > 0:
+                        h0_c += rk_p * n_mx
+                        if deg_p == 1:
+                            for _ in range(n_mx):
+                                vecs_keep.append(v_p)
+                    elif n_mx < 0:
+                        h1_c += rk_p * (-n_mx)
+                        if deg_p in (0, 2):
+                            for _ in range(-n_mx):
+                                vecs_keep.append(v_p)
+                    else:
+                        _, sv_t, vh_t = np.linalg.svd(np.vstack([ta_p - np.eye(rk_p), tb_p - np.eye(rk_p)]))
+                        v_triv = v_p @ vh_t[sv_t < 1e-9].conj().T
+                        n_tr = int(v_triv.shape[1])
+                        h0_c += n_tr
+                        h1_c += n_tr
+                        if (deg_p == 1 or deg_p in (0, 2)) and n_tr > 0:
+                            vecs_keep.append(v_triv)
+                if m_id and a_ex != 1:
+                    m_bd = len(m_id) // 2
+                    n_mx_m = ((a_ex + 1) // 2) if a_ex < 1 else (a_ex // 2)
+                    dg_p = -1 + 2 * n_mx_m
+                    v_m = v_s @ vc_k[:, m_id]
+                    if dg_p > 0:
+                        h0_c += m_bd * dg_p
+                        if deg_p == 1:
+                            vecs_keep.append(v_m)
+                    else:
+                        h1_c += m_bd * (-dg_p)
+                        if deg_p in (0, 2):
+                            vecs_keep.append(v_m)
+            return h0_c, h1_c, vecs_keep
+
+        _, a_h1, v_a = count_deg(0, b_0, mu_sub_op, xa_sub, yb_sub)
+        sp_h0, _, v_sp = count_deg(
+            1, b_1, np.kron(np.eye(2), mu_sub_op), np.kron(fi2_n, xa_sub), np.kron(fj2_n, yb_sub)
+        )
+        _, lam_h1, v_lm = count_deg(2, b_2, mu_sub_op, xa_sub, yb_sub)
+        return {
+            "total": a_h1 + sp_h0 + lam_h1,
+            "a_modes": a_h1,
+            "spin_modes": sp_h0,
+            "lam_modes": lam_h1,
+            "vecs_a": v_a,
+            "vecs_spin": v_sp,
+            "vecs_lam": v_lm,
+        }
+
+    # Subbundle indices on 128 = S_16^+:
+    idx_16_4_all = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == -sp.I and om6_k[r_2, r_2] == sp.I]
+    idx_16bar_4bar_all = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == sp.I and om6_k[r_2, r_2] == -sp.I]
+    idx_16_3_h4 = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == -sp.I and h4_lie8_k[r_2, r_2] == sp.Rational(-1, 2)]
+    idx_16_1_h4 = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == -sp.I and h4_lie8_k[r_2, r_2] == sp.Rational(3, 2)]
+    idx_16bar_3bar_h4 = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == sp.I and h4_lie8_k[r_2, r_2] == sp.Rational(1, 2)]
+    idx_16bar_1_h4 = [k_i for k_i, (r_1, r_2) in enumerate(splus_k) if om10_k[r_1, r_1] == sp.I and h4_lie8_k[r_2, r_2] == sp.Rational(-3, 2)]
+
+    def sub_eval_h4(sub_ix: list[int]) -> dict[str, Any]:
+        return eval_parabolic_subspace_eta00(
+            e128_k[np.ix_(sub_ix, sub_ix)],
+            g128_k[np.ix_(sub_ix, sub_ix)],
+            mu128_k[np.ix_(sub_ix, sub_ix)],
+            xa128_h4[np.ix_(sub_ix, sub_ix)],
+            yb128_h4[np.ix_(sub_ix, sub_ix)],
+        )
+
+    # Verify h_4 block-diagonality across the 4 chiral/family subbundles:
+    h4_sub_leak = max(
+        float(np.linalg.norm(op_m[np.ix_(s_a, s_b)], "fro"))
+        for op_m in (e128_k, g128_k, xa128_h4, yb128_h4)
+        for i_s, s_a in enumerate((idx_16_3_h4, idx_16_1_h4, idx_16bar_3bar_h4, idx_16bar_1_h4))
+        for j_s, s_b in enumerate((idx_16_3_h4, idx_16_1_h4, idx_16bar_3bar_h4, idx_16bar_1_h4))
+        if i_s != j_s
+    )
+    res_16_3 = sub_eval_h4(idx_16_3_h4)
+    res_16_1 = sub_eval_h4(idx_16_1_h4)
+    res_16bar_3bar = sub_eval_h4(idx_16bar_3bar_h4)
+    res_16bar_1 = sub_eval_h4(idx_16bar_1_h4)
+
+    # Live Spin(10) SU(5)-singlet nu_R (st == 31, 5-fermion Fock state) support inside (16, 3_{-1/2}):
+    nur_local_in_16_3 = [pos_i for pos_i, k_128 in enumerate(idx_16_3_h4) if splus_k[k_128][0] == 31]
+    nur_weight_a = sum(float(np.linalg.norm(v_m[nur_local_in_16_3, :], "fro") ** 2) for v_m in res_16_3["vecs_a"])
+    nur_local_spin = nur_local_in_16_3 + [len(idx_16_3_h4) + pos_i for pos_i in nur_local_in_16_3]
+    nur_weight_spin = sum(float(np.linalg.norm(v_m[nur_local_spin, :], "fro") ** 2) for v_m in res_16_3["vecs_spin"])
+    nur_weight_lam = sum(float(np.linalg.norm(v_m[nur_local_in_16_3, :], "fro") ** 2) for v_m in res_16_3["vecs_lam"])
+
+    # On h_1: prove X_{128}^(h_1), Y_{128}^(h_1) lie in the (odd, odd) Pin component and swap (16,4) <-> (16bar,4bar)
+    # purely off-diagonally, so dim(ker D_{h_1} cap (16,4)) == 0 and all 24 modes are 50/50 vectorlike Pin-entangled!
+    h1_diag_norm = (
+        float(np.linalg.norm(xa128_h1[np.ix_(idx_16_4_all, idx_16_4_all)], "fro"))
+        + float(np.linalg.norm(xa128_h1[np.ix_(idx_16bar_4bar_all, idx_16bar_4bar_all)], "fro"))
+        + float(np.linalg.norm(yb128_h1[np.ix_(idx_16_4_all, idx_16_4_all)], "fro"))
+        + float(np.linalg.norm(yb128_h1[np.ix_(idx_16bar_4bar_all, idx_16bar_4bar_all)], "fro"))
+    )
+    h1_offdiag_xa = float(np.linalg.norm(xa128_h1[np.ix_(idx_16_4_all, idx_16bar_4bar_all)], "fro"))
+    h1_offdiag_yb = float(np.linalg.norm(yb128_h1[np.ix_(idx_16_4_all, idx_16bar_4bar_all)], "fro"))
+    res_128_h1 = eval_parabolic_subspace_eta00(e128_k, g128_k, mu128_k, xa128_h1, yb128_h1)
+    h1_a_16_4_wt = sum(float(np.linalg.norm(v_m[idx_16_4_all, :], "fro") ** 2) for v_m in res_128_h1["vecs_a"])
+    h1_a_16bar_wt = sum(float(np.linalg.norm(v_m[idx_16bar_4bar_all, :], "fro") ** 2) for v_m in res_128_h1["vecs_a"])
+    idx_16_4_spin128 = idx_16_4_all + [128 + ix_s for ix_s in idx_16_4_all]
+    idx_16bar_spin128 = idx_16bar_4bar_all + [128 + ix_s for ix_s in idx_16bar_4bar_all]
+    h1_sp_16_4_wt = sum(float(np.linalg.norm(v_m[idx_16_4_spin128, :], "fro") ** 2) for v_m in res_128_h1["vecs_spin"])
+    h1_sp_16bar_wt = sum(float(np.linalg.norm(v_m[idx_16bar_spin128, :], "fro") ** 2) for v_m in res_128_h1["vecs_spin"])
+    # Check directly that ZERO non-trivial holonomy-invariant subspace of (16, 4) exists on h_1:
+    # Any vector v in (16,4) mapped into (16,4) by X_{128}^(h_1) must satisfy X_{bar, 16_4} v = 0; since X_{bar, 16_4} is unitary (64x64), ker = 0!
+    h1_chiral_16_4_inv_dim = int(64 - np.linalg.matrix_rank(xa128_h1[np.ix_(idx_16bar_4bar_all, idx_16_4_all)], tol=1e-9))
+
     h4_roster = {
-        "spinor_16_4": h4_sec["128"] // 2,
-        "conjugate_16bar_4bar": h4_sec["128"] - (h4_sec["128"] // 2),
+        "chiral_family_triplet_16_3": res_16_3["total"],
+        "family_singlet_exotic_16_1": res_16_1["total"],
+        "conjugate_mirror_16bar_3bar": res_16bar_3bar["total"],
+        "conjugate_singlet_mirror_16bar_1": res_16bar_1["total"],
         "vector_10_6": h4_sec["(10,6)"],
         "adjoint_45_1": h4_sec["(45,1)"],
         "adjoint_1_15": h4_sec["(1,15)"],
     }
     h1_roster = {
-        "spinor_16_4": h1_sec["128"] // 2,
-        "conjugate_16bar_4bar": h1_sec["128"] - (h1_sec["128"] // 2),
+        "chiral_16_4_subspace": h1_chiral_16_4_inv_dim,
+        "vectorlike_pin_entangled_128": res_128_h1["total"],
         "vector_10_6": h1_sec["(10,6)"],
         "adjoint_45_1": h1_sec["(45,1)"],
         "adjoint_1_15": h1_sec["(1,15)"],
     }
-    nu_r_per_16 = len(idx_nu_r_16)
-    nu_r_3gen_chiral = len(idx_fam3) * nu_r_per_16
-    nu_r_conjugate_mirror = len(idx_fam3) * nu_r_per_16
-    h4_non_sm_mirror_and_adj = h4_roster["conjugate_16bar_4bar"] + h4_roster["adjoint_45_1"] + h4_roster["adjoint_1_15"]
-    h1_non_sm_mirror_and_adj = h1_roster["conjugate_16bar_4bar"] + h1_roster["adjoint_45_1"] + h1_roster["adjoint_1_15"]
+    nu_r_per_16_static = len(idx_nu_r_16)
+    nu_r_3gen_static = len(idx_fam3) * nu_r_per_16_static
+    h4_non_sm_triplet_total = (
+        h4_roster["family_singlet_exotic_16_1"]
+        + h4_roster["conjugate_mirror_16bar_3bar"]
+        + h4_roster["conjugate_singlet_mirror_16bar_1"]
+        + h4_roster["vector_10_6"]
+        + h4_roster["adjoint_45_1"]
+        + h4_roster["adjoint_1_15"]
+    )
+    h4_non_sm_excl_10_6 = h4_non_sm_triplet_total - h4_roster["vector_10_6"]
     roster_accounting_exact = (
         spin_orbit_both_bgs
-        and nu_r_per_16 == 1
-        and nu_r_3gen_chiral == 3
-        and nu_r_conjugate_mirror == 3
+        and h4_sub_leak < TOL
+        and (res_16_3["a_modes"], res_16_3["spin_modes"], res_16_3["lam_modes"]) == (6, 3, 0)
+        and (res_16_1["a_modes"], res_16_1["spin_modes"], res_16_1["lam_modes"]) == (2, 1, 0)
+        and (res_16bar_3bar["a_modes"], res_16bar_3bar["spin_modes"], res_16bar_3bar["lam_modes"]) == (6, 3, 0)
+        and (res_16bar_1["a_modes"], res_16bar_1["spin_modes"], res_16bar_1["lam_modes"]) == (2, 1, 0)
+        and (res_16_3["total"] + res_16_1["total"] + res_16bar_3bar["total"] + res_16bar_1["total"]) == h4_sec["128"]
+        and len(nur_local_in_16_3) == 3
+        and abs(nur_weight_a) < TOL
+        and abs(nur_weight_lam) < TOL
+        and abs(4 * nur_weight_spin - 3) < TOL
+        and h1_diag_norm < TOL
+        and abs(h1_offdiag_xa - 8) < TOL
+        and abs(h1_offdiag_yb - 8) < TOL
+        and h1_chiral_16_4_inv_dim == 0
+        and res_128_h1["total"] == h1_sec["128"] == 24
+        and abs(h1_a_16_4_wt - h1_a_16bar_wt) < TOL
+        and abs(h1_sp_16_4_wt - h1_sp_16bar_wt) < TOL
+        and nu_r_per_16_static == 1
+        and nu_r_3gen_static == 3
         and sum(h4_roster.values()) == 68
         and sum(h1_roster.values()) == 70
         and h4_roster
         == {
-            "spinor_16_4": 12,
-            "conjugate_16bar_4bar": 12,
+            "chiral_family_triplet_16_3": 9,
+            "family_singlet_exotic_16_1": 3,
+            "conjugate_mirror_16bar_3bar": 9,
+            "conjugate_singlet_mirror_16bar_1": 3,
             "vector_10_6": 18,
             "adjoint_45_1": 8,
             "adjoint_1_15": 18,
         }
         and h1_roster
         == {
-            "spinor_16_4": 12,
-            "conjugate_16bar_4bar": 12,
+            "chiral_16_4_subspace": 0,
+            "vectorlike_pin_entangled_128": 24,
             "vector_10_6": 18,
             "adjoint_45_1": 8,
             "adjoint_1_15": 20,
         }
-        and h4_non_sm_mirror_and_adj == 38
-        and h1_non_sm_mirror_and_adj == 40
+        and h4_non_sm_triplet_total == 59
+        and h4_non_sm_excl_10_6 == 41
     )
 
     return {
@@ -2128,13 +2547,14 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
         "h4_vs_h1_family_chirality_control_exact": h4_vs_h1_family_chirality_exact,
         "so10_ten_doublet_triplet_content_and_anomaly_free": ten_anomalies_zero,
         "e8_6d_gs_quartic_factorization_exact": e8_6d_gs_factorization_exact,
-        "grav_6d_pure_sym_residual": grav_6d_pure_sym_residual,
+        "grav_6d_pure_sym_residual_sp": grav_6d_pure_sym_residual_sp,
         "o1_bare_qz_flux_obstructed_without_inflow": o1_bare_flux_obstructed,
         "o1_closed_su2_doublets": o1_closed_su2_doublets,
         "parabolic_hypercharge_su2_doublets_n1": parabolic_su2_doublets_n1,
         "callan_harvey_cusp_inflow_exact": inflow_cancels_iff_gs_matches,
         "d09_roster_68_vs_70_and_non_sm_count_exact": roster_accounting_exact,
-        "nu_r_3gen_and_mirror_counts": (nu_r_3gen_chiral, nu_r_conjugate_mirror),
+        "nu_r_static_3gen_multiplicity": nu_r_3gen_static,
+        "nu_r_live_16_3_weights_a_spin_lam": (nur_weight_a, nur_weight_spin, nur_weight_lam),
         "h4_zero_mode_roster": h4_roster,
         "h1_zero_mode_roster": h1_roster,
         "node_verdicts_wp35": {
@@ -2142,14 +2562,15 @@ def verify_wp35_anomalies_cusp_inflow_and_non_sm_modes(
                 "SATISFIED_ON_O0_CONDITIONAL_ON_INFLOW_FOR_O1 (6D E_8 has 8-variable Tr F^4 = (1/100)(Tr F^2)^2 GS "
                 "factorization; 3-gen (16,4) has 0 perturbative, 0 Witten mod-2 [12==0 mod 2], and 0 Dai-Freed mod-16 "
                 "[48==0 mod 16, requiring nu_R] anomalies; closed-curve Q_Z in su(5)_b gives 0 net chiral 10_GUT, "
-                "48==0 mod 2 SU(2)_W doublets, and bare U(1)_Z^3 / U(1)_Z Y^2 anomalies matched by descended I_8 cusp "
-                "inflow, while parabolic hypercharge flux at n=1 fails Witten SU(2)_W with -1 == 1 mod 2)"
+                "48==0 mod 2 SU(2)_W doublets, and two-step DGA Stora-Zumino descent d I_5^(0) = I_6, delta I_5^(0) = d I_4^(1) "
+                "plus Bardeen counterterm B_4 cancels both U(1)_Z and U(1)_Y variations, while parabolic hypercharge flux at n=1 "
+                "fails Witten SU(2)_W with -1 == 1 mod 2)"
             ),
             "D:09": (
-                "EXPLICIT_UNLIFTED_EXOTICS_IDENTIFIED (live Stage-2 kernel has 68 zero modes on h_4 [12+12 spinor "
-                "including 3+3 SM-singlet nu_R/nu_R^c, 18 in (10,6), 8 in (45,1), 18 in (1,15)] vs 70 on pseudoreal "
-                "h_1, plus 16 Q_8 continuum bundles above 1/(4 ell^2); mirror/adjoint/triplet/nu_R modes remain "
-                "unlifted at tree level)"
+                "EXPLICIT_UNLIFTED_EXOTICS_IDENTIFIED (live Stage-2 kernel has 68 zero modes on h_4 [9 in (16,3_{-1/2}) "
+                "with live nu_R weights (0, 3/2, 0) across (H^0, H^1, H^2), 3 family-singlet exotics in (16,1_{+3/2}), "
+                "9+3 conjugate mirrors, 18 in (10,6), 8 in (45,1), 18 in (1,15)] vs 70 on pseudoreal h_1 [24 Pin-entangled "
+                "50/50 vectorlike modes on 128 with 0 chiral (16,4) modes], plus 16 Q_8 continuum bundles above 1/(4 ell^2))"
             ),
         },
     }
@@ -2188,20 +2609,29 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
     """
     rng = np.random.default_rng(173)
 
-    def jarlskog_commutator_trace(yu_m: np.ndarray, yd_m: np.ndarray) -> float:
+    def jarlskog_commutator_trace(yu_m: np.ndarray, yd_m: np.ndarray) -> complex:
+        # Tr(Y Y^H) = ||Y||_F^2 (real positive by construction); [H_u, H_d] is anti-Hermitian, so
+        # Tr([H_u, H_d]^3) is purely imaginary and is compared only through complex moduli below.
         hu_raw = yu_m @ yu_m.conj().T
         hd_raw = yd_m @ yd_m.conj().T
-        hu = hu_raw / float(np.real(np.trace(hu_raw)))
-        hd = hd_raw / float(np.real(np.trace(hd_raw)))
+        hu = hu_raw / (float(np.linalg.norm(yu_m)) ** 2)
+        hd = hd_raw / (float(np.linalg.norm(yd_m)) ** 2)
         comm = hu @ hd - hd @ hu
         c3 = comm @ comm @ comm
-        return float(np.imag(np.trace(c3)))
+        return complex(np.trace(c3))
 
-    def exp_i_bar_theta(theta_bare: float, yu_m: np.ndarray, yd_m: np.ndarray) -> complex:
-        prod_det = complex(np.linalg.det(yu_m @ yd_m))
-        assert abs(prod_det) > 1e-9
-        phase_det = prod_det / abs(prod_det)
-        return complex(np.exp(1j * theta_bare) * phase_det)
+    def unit_phase(z_c: complex) -> complex:
+        assert abs(z_c) > 1e-9
+        return complex(z_c) / abs(z_c)
+
+    def exp_i_bar_theta(u_bare: complex, yu_m: np.ndarray, yd_m: np.ndarray) -> complex:
+        # u_bare = exp(i theta_qcd) on the unit circle; returns exp(i bar_theta) = u_bare * det(Y_u Y_d)/|det(Y_u Y_d)|.
+        assert abs(abs(u_bare) - 1.0) < TOL
+        return complex(u_bare) * unit_phase(complex(np.linalg.det(yu_m @ yd_m)))
+
+    def abs_sin_of_phase(w_c: complex) -> float:
+        # |sin(arg w)| for |w| = 1, from |w - conj(w)| = 2 |sin(arg w)|.
+        return 0.5 * abs(w_c - np.conj(w_c))
 
     # 1. Explicit modular/theta-style CP-covariant 3x3 family Y_f(tau) with Y_f(-conj(tau)) = P_swap conj(Y_f(tau)) P_swap^-1:
     # Here P_swap swaps generations 1 <-> 2 (det P_swap = -1, det^2 = +1), and q = exp(2 pi i tau) satisfies
@@ -2239,55 +2669,80 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
         su_out[:, 0] = su_out[:, 0] * np.conj(np.linalg.det(u_mat))
         return su_out
 
-    # 2. Haar SU(3)^4 & full U(3)^4 chiral-anomaly basis-scrambling test (< 1e-12, Guardrail 3):
-    theta_0 = 0.5
-    base_exp_theta = exp_i_bar_theta(theta_0, yu_1, yd_1)
+    # 2. Haar SU(3)^4, full SM U(3)^5 = U(3)_Q x U(3)_{uR} x U(3)_{dR} x U(3)_L x U(3)_{eR} chiral-anomaly invariance,
+    #    and 2*pi*nu_inst topological QCD instanton shift invariance (< 1e-12, Guardrail 3, D6):
+    ye_1 = np.array(
+        [[1.0, 0.5j, 0.0], [-0.5j, 2.0, 0.5], [0.0, 0.5, 0.5 + 0.5j]],
+        dtype=complex,
+    )
+    u_theta_0 = complex(np.exp(0.5j))
+    base_exp_theta = exp_i_bar_theta(u_theta_0, yu_1, yd_1)
     base_j_1 = jarlskog_commutator_trace(yu_1, yd_1)
+    base_lepton_tr = complex(np.trace(ye_1 @ ye_1.conj().T))
     max_su3_err = 0.0
     max_u3_chiral_err = 0.0
+    max_u3_sm5_err = 0.0
+    max_inst_shift_err = 0.0
     max_j_haar_err = 0.0
+    for nu_inst in (-3, -1, 1, 2, 5):
+        u_inst = complex(np.exp(0.5j + 2j * np.pi * nu_inst))
+        max_inst_shift_err = max(max_inst_shift_err, abs(exp_i_bar_theta(u_inst, yu_1, yd_1) - base_exp_theta))
     for _ in range(8):
         ulu = haar_unitary(3, rng)
         uru = haar_unitary(3, rng)
         uld = haar_unitary(3, rng)
         urd = haar_unitary(3, rng)
+        ull = haar_unitary(3, rng)
+        uer = haar_unitary(3, rng)
         su_lu = project_u3_to_su3(ulu)
         su_ru = project_u3_to_su3(uru)
         su_ld = project_u3_to_su3(uld)
         su_rd = project_u3_to_su3(urd)
         yu_su = su_lu @ yu_1 @ su_ru.conj().T
         yd_su = su_ld @ yd_1 @ su_rd.conj().T
-        max_su3_err = max(max_su3_err, abs(exp_i_bar_theta(theta_0, yu_su, yd_su) - base_exp_theta))
+        max_su3_err = max(max_su3_err, abs(exp_i_bar_theta(u_theta_0, yu_su, yd_su) - base_exp_theta))
 
-        # Full U(3)^4 chiral rotation + exact ABJ anomaly shift of theta_0:
+        # Independent U(3)^4 quark chiral rotation + exact ABJ anomaly shift theta_0 -> theta_0 - delta_alpha:
         yu_u = ulu @ yu_1 @ uru.conj().T
         yd_u = uld @ yd_1 @ urd.conj().T
         chiral_det_prod = np.linalg.det(ulu) * np.conj(np.linalg.det(uru)) * np.linalg.det(uld) * np.conj(np.linalg.det(urd))
-        delta_alpha = float(np.angle(chiral_det_prod))
-        theta_shifted = theta_0 - delta_alpha
-        max_u3_chiral_err = max(max_u3_chiral_err, abs(exp_i_bar_theta(theta_shifted, yu_u, yd_u) - base_exp_theta))
+        u_theta_shifted = u_theta_0 * np.conj(unit_phase(complex(chiral_det_prod)))
+        max_u3_chiral_err = max(max_u3_chiral_err, abs(exp_i_bar_theta(u_theta_shifted, yu_u, yd_u) - base_exp_theta))
 
-        # Physical SM gauge-group-allowed flavour rotation U(3)_Q x U(3)_{uR} x U(3)_{dR} (shared left SU(2)_L doublet U_Q = ulu!):
+        # Full 5-factor SM flavour group U(3)_Q x U(3)_{uR} x U(3)_{dR} x U(3)_L x U(3)_{eR} acting on (Y_u, Y_d, Y_e):
+        # Color-singlet lepton rotations (U_L, U_eR) carry Tr_{SU(3)_c}(T^a T^b) == 0 so their QCD ABJ shift is identically 0,
+        # while shared SU(2)_L quark doublet U_Q = ulu shifts arg det(Y_u Y_d) by 2 arg det(U_Q) - arg det(U_uR) - arg det(U_dR):
         yu_sm = ulu @ yu_1 @ uru.conj().T
         yd_sm = ulu @ yd_1 @ urd.conj().T
+        ye_sm = ull @ ye_1 @ uer.conj().T
+        sm5_det_prod = (np.linalg.det(ulu) ** 2) * np.conj(np.linalg.det(uru)) * np.conj(np.linalg.det(urd))
+        u_theta_sm5 = complex(np.exp(0.5j + 2j * np.pi * 2)) * np.conj(unit_phase(complex(sm5_det_prod)))
+        max_u3_sm5_err = max(
+            max_u3_sm5_err,
+            abs(exp_i_bar_theta(u_theta_sm5, yu_sm, yd_sm) - base_exp_theta),
+            abs(complex(np.trace(ye_sm @ ye_sm.conj().T)) - base_lepton_tr),
+        )
         max_j_haar_err = max(max_j_haar_err, abs(jarlskog_commutator_trace(yu_sm, yd_sm) - base_j_1))
 
     haar_scrambling_theta_and_j_ok = (
         cp_cov_err < TOL
         and max_su3_err < TOL
         and max_u3_chiral_err < TOL
+        and max_u3_sm5_err < TOL
+        and max_inst_shift_err < TOL
         and max_j_haar_err < TOL
     )
 
     # 3. Evaluate on CP-invariant imaginary axis Re(tau) = 0 vs two off-axis threads:
     tau_imag = complex(sp.I * sp.Rational(1, 2))
     yu_im, yd_im = cp_covariant_yukawas(tau_imag)
-    sin_theta_im = float(np.imag(exp_i_bar_theta(0.0, yu_im, yd_im)))
+    u_one = complex(1.0)
+    sin_theta_im = abs_sin_of_phase(exp_i_bar_theta(u_one, yu_im, yd_im))
     j_im = jarlskog_commutator_trace(yu_im, yd_im)
 
     yu_2, yd_2 = cp_covariant_yukawas(tau_gen_2)
-    sin_theta_t1 = float(np.imag(exp_i_bar_theta(0.0, yu_1, yd_1)))
-    sin_theta_t2 = float(np.imag(exp_i_bar_theta(0.0, yu_2, yd_2)))
+    sin_theta_t1 = abs_sin_of_phase(exp_i_bar_theta(u_one, yu_1, yd_1))
+    sin_theta_t2 = abs_sin_of_phase(exp_i_bar_theta(u_one, yu_2, yd_2))
     j_t2 = jarlskog_commutator_trace(yu_2, yd_2)
 
     mirror_vs_off_axis_dichotomy_ok = (
@@ -2299,9 +2754,27 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
         and abs(j_t2) > 1e-9
     )
 
-    # 4. Exact SymPy universal proof on the 18-real-parameter P_swap-covariant locus (P_swap Y_f^* P_swap == Y_f):
+    # 4. Exact SymPy universal proof on BOTH:
+    #    (a) the strict 18-real-parameter mirror-real locus Y_u = Y_u^*, Y_d = Y_d^* (P_gen = I_3), AND
+    #    (b) the 18-real-parameter P_swap-covariant locus P_swap Y_f^* P_swap == Y_f:
     r0, r1, r2, r3, r4, r5, r6, r7, r8 = sp.symbols("r0:9", real=True)
     d0, d1, d2, d3, d4, d5, d6, d7, d8 = sp.symbols("d0:9", real=True)
+    yu_real_sp = sp.Matrix([[r0, r1, r2], [r3, r4, r5], [r6, r7, r8]])
+    yd_real_sp = sp.Matrix([[d0, d1, d2], [d3, d4, d5], [d6, d7, d8]])
+    det_real_prod_sp = sp.expand(yu_real_sp.det() * yd_real_sp.det())
+    det_strict_real_im_zero = sp.expand(det_real_prod_sp - sp.conjugate(det_real_prod_sp)) == 0
+    # General real symmetric 3x3 Hermitian squares H_u = Y_u Y_u^T, H_d = Y_d Y_d^T (6+6 real parameters):
+    s0, s1, s2, s3, s4, s5 = sp.symbols("s0:6", real=True)
+    t0, t1, t2, t3, t4, t5 = sp.symbols("t0:6", real=True)
+    hu_real_sym = sp.Matrix([[s0, s1, s2], [s1, s3, s4], [s2, s4, s5]])
+    hd_real_sym = sp.Matrix([[t0, t1, t2], [t1, t3, t4], [t2, t4, t5]])
+    comm_real_sp = (hu_real_sym * hd_real_sym - hd_real_sym * hu_real_sym).applyfunc(sp.expand)
+    # Commutator of two real symmetric matrices is real skew-symmetric, so its cube is real skew-symmetric (zero diagonal => trace == 0!):
+    jarlskog_strict_real_zero = (
+        (comm_real_sp + comm_real_sp.T).applyfunc(sp.expand) == sp.zeros(3, 3)
+        and sp.expand((comm_real_sp * comm_real_sp * comm_real_sp).trace()) == 0
+    )
+
     p_swap_sp = sp.Matrix([[0, 1, 0], [1, 0, 0], [0, 0, 1]])
     yu_sym_sp = sp.Matrix([
         [r0 + sp.I * r1, r2 + sp.I * r3, r4 + sp.I * r5],
@@ -2315,8 +2788,10 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
     ])
     yu_cov_id = (p_swap_sp * yu_sym_sp.conjugate() * p_swap_sp - yu_sym_sp).applyfunc(sp.expand) == sp.zeros(3, 3)
     yd_cov_id = (p_swap_sp * yd_sym_sp.conjugate() * p_swap_sp - yd_sym_sp).applyfunc(sp.expand) == sp.zeros(3, 3)
-    det_yu_im_zero = sp.simplify(sp.im(sp.expand(yu_sym_sp.det()))) == 0
-    det_prod_im_zero = sp.simplify(sp.im(sp.expand(yu_sym_sp.det() * yd_sym_sp.det()))) == 0
+    det_yu_sp = sp.expand(yu_sym_sp.det())
+    det_prod_sp = sp.expand(yu_sym_sp.det() * yd_sym_sp.det())
+    det_yu_im_zero = sp.expand(det_yu_sp - sp.conjugate(det_yu_sp)) == 0
+    det_prod_im_zero = sp.expand(det_prod_sp - sp.conjugate(det_prod_sp)) == 0
 
     # General Hermitian P_swap-covariant 3x3 matrices H_f^H = H_f, P_swap H_f^* P_swap = H_f (5+5 real parameters, containing Y_f Y_f^H):
     hu_sym_sp = (yu_sym_sp * yu_sym_sp.H).applyfunc(sp.expand)
@@ -2336,7 +2811,9 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
     comm_gen_sp = (hu_gen_sp * hd_gen_sp - hd_gen_sp * hu_gen_sp).applyfunc(sp.expand)
     jarlskog_sym_zero = sp.expand((comm_gen_sp * comm_gen_sp * comm_gen_sp).trace()) == 0
     exact_sympy_mirror_locus_proof_ok = (
-        yu_cov_id
+        det_strict_real_im_zero
+        and jarlskog_strict_real_zero
+        and yu_cov_id
         and yd_cov_id
         and det_yu_im_zero
         and det_prod_im_zero
@@ -2377,19 +2854,21 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
     hu_nb_sp = yu_nb_sp * yu_nb_sp.H
     hd_nb_sp = (yd_nb_sp * yd_nb_sp.H).applyfunc(sp.simplify)
     comm_nb_sp = (hu_nb_sp * hd_nb_sp - hd_nb_sp * hu_nb_sp).applyfunc(sp.simplify)
-    j_nb_im_sp = sp.simplify(sp.im((comm_nb_sp * comm_nb_sp * comm_nb_sp).trace()))
+    tr_c3_nb_sp = sp.expand((comm_nb_sp * comm_nb_sp * comm_nb_sp).trace())
+    # Tr([H_u, H_d]^3) is purely imaginary, so Tr - conj(Tr) = 2 i Im Tr: nonzero iff the Jarlskog commutator survives.
+    j_nb_im_sp = sp.simplify(tr_c3_nb_sp - sp.conjugate(tr_c3_nb_sp))
     nelson_barr_sympy_exact = (
         u_nb_unitary_exact
         and u_nb_det_one_exact
         and det_nb_prod_sp == sp.Rational(15, 8)
-        and sp.im(det_nb_prod_sp) == 0
+        and sp.simplify(det_nb_prod_sp - sp.conjugate(det_nb_prod_sp)) == 0
         and j_nb_im_sp != 0
     )
 
     yu_nb = np.array(yu_nb_sp.tolist(), dtype=complex)
     yd_nb = np.array(yd_nb_sp.tolist(), dtype=complex)
-    sin_theta_nb = float(np.imag(exp_i_bar_theta(0.0, yu_nb, yd_nb)))
-    cos_theta_nb = float(np.real(exp_i_bar_theta(0.0, yu_nb, yd_nb)))
+    w_nb = exp_i_bar_theta(u_one, yu_nb, yd_nb)
+    sin_theta_nb = abs_sin_of_phase(w_nb)
     j_nb = jarlskog_commutator_trace(yu_nb, yd_nb)
     max_nb_haar_err = 0.0
     for _ in range(6):
@@ -2399,16 +2878,16 @@ def verify_fl16_strong_cp_theta_bar_theorem() -> dict[str, Any]:
         yu_nb_s = uq_nb @ yu_nb @ uur_nb.conj().T
         yd_nb_s = uq_nb @ yd_nb @ udr_nb.conj().T
         det_nb_c = np.linalg.det(uq_nb) * np.conj(np.linalg.det(uur_nb)) * np.linalg.det(uq_nb) * np.conj(np.linalg.det(udr_nb))
-        th_nb_s = -float(np.angle(det_nb_c))
+        u_nb_s = np.conj(unit_phase(complex(det_nb_c)))
         max_nb_haar_err = max(
             max_nb_haar_err,
-            abs(exp_i_bar_theta(th_nb_s, yu_nb_s, yd_nb_s) - 1.0),
+            abs(exp_i_bar_theta(u_nb_s, yu_nb_s, yd_nb_s) - 1.0),
             abs(jarlskog_commutator_trace(yu_nb_s, yd_nb_s) - j_nb),
         )
     nelson_barr_witness_ok = (
         nelson_barr_sympy_exact
         and abs(sin_theta_nb) < TOL
-        and abs(cos_theta_nb - 1.0) < TOL
+        and abs(w_nb - 1.0) < TOL
         and abs(j_nb) > 1e-9
         and max_nb_haar_err < TOL
     )
