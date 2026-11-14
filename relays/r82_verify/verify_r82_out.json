@@ -1,0 +1,413 @@
+{
+  "card": "R82",
+  "seat": "agy-exp",
+  "pinned_commit_short": "86930f574",
+  "pinned_commit_full": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+  "sandbox_frontier_dir_count": 25,
+  "controls": {
+    "C-R82-1": {
+      "control": "C-R82-1",
+      "exact_accepted": true,
+      "char_perturbation_rejected": true,
+      "line_shift_rejected": true,
+      "passed": true
+    },
+    "C-R82-2": {
+      "control": "C-R82-2",
+      "vacuous_classification": "CANNOT_FAIL",
+      "genuine_classification": "CAUGHT",
+      "passed": true
+    },
+    "C-R82-3": {
+      "empty_cites_flagged": true,
+      "owed_cites_flagged": true,
+      "negated_no_second_computation_bypassed": true,
+      "without_second_computation_bypassed": true,
+      "second_computation_needed_bypassed": true,
+      "control": "C-R82-3",
+      "passed": true
+    },
+    "all_controls_passed": true
+  },
+  "quote_verification": {
+    "count": 15,
+    "all_exact": true,
+    "rows": [
+      {
+        "id": "F-01",
+        "criterion": 4,
+        "item": "B1917",
+        "path": "frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/test_b1917_one_l_function.py",
+        "line": 32,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-02",
+        "criterion": 4,
+        "item": "B1917",
+        "path": "frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/test_b1917_one_l_function.py",
+        "line": 24,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-03",
+        "criterion": 1,
+        "item": "B1917",
+        "path": "frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/FINDINGS.md",
+        "line": 27,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-04",
+        "criterion": 1,
+        "item": "B1919",
+        "path": "frontier/B1919_the_channel_norm_is_the_shifted_lattices_kronecker_limit_at_the_kernels_shift/FINDINGS.md",
+        "line": 18,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-05",
+        "criterion": 5,
+        "item": "B1923 / HARVEST_LEDGER row 1713",
+        "path": "docs/HARVEST_LEDGER.md",
+        "line": 1766,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-06",
+        "criterion": 5,
+        "item": "B1924",
+        "path": "frontier/B1924_the_read_out_on_the_whole_first_runs_threads_converge_and_the_twin_fades/FINDINGS.md",
+        "line": 3,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-07",
+        "criterion": 5,
+        "item": "B1924",
+        "path": "frontier/B1924_the_read_out_on_the_whole_first_runs_threads_converge_and_the_twin_fades/arc_verdict.json",
+        "line": 29,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-08",
+        "criterion": 3,
+        "item": "B1925",
+        "path": "frontier/B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/FINDINGS.md",
+        "line": 126,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-09",
+        "criterion": 8,
+        "item": "B1926",
+        "path": "frontier/B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/FINDINGS.md",
+        "line": 125,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-10",
+        "criterion": 2,
+        "item": "B1927",
+        "path": "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/FINDINGS.md",
+        "line": 73,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-11",
+        "criterion": 5,
+        "item": "B1928",
+        "path": "frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/arc_verdict.json",
+        "line": 21,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-12",
+        "criterion": 1,
+        "item": "B1928",
+        "path": "frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/FINDINGS.md",
+        "line": 107,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-13",
+        "criterion": 4,
+        "item": "B1929",
+        "path": "frontier/B1929_the_records_odd_l_value_is_the_twisted_eta_invariant_of_the_closed_torus_bundle/verification/test_b1929_twisted_eta.py",
+        "line": 56,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-14",
+        "criterion": 8,
+        "item": "B1929",
+        "path": "frontier/B1929_the_records_odd_l_value_is_the_twisted_eta_invariant_of_the_closed_torus_bundle/arc_verdict.json",
+        "line": 27,
+        "in_range": true,
+        "exact_match": true
+      },
+      {
+        "id": "F-15",
+        "criterion": 4,
+        "item": "negative-second-computation gate",
+        "path": "scripts/gates/gates.py",
+        "line": 3131,
+        "in_range": true,
+        "exact_match": true
+      }
+    ]
+  },
+  "lock_and_mutation_suite": {
+    "baseline_locks_count": 14,
+    "baseline_all_passed": true,
+    "baseline_results": [
+      {
+        "target": "tests/test_negative_second_computation.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "5 passed in 0.90s"
+      },
+      {
+        "target": "frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/test_b1917_one_l_function.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "4 passed, 3 warnings in 2.65s"
+      },
+      {
+        "target": "frontier/B1918_the_channel_norm_is_not_the_l_functions_coefficient_at_a_point_or_on_average/verification/test_b1918_the_channel_norm.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "3 passed in 3.41s"
+      },
+      {
+        "target": "frontier/B1919_the_channel_norm_is_the_shifted_lattices_kronecker_limit_at_the_kernels_shift/verification/test_b1919_the_channel_norm.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "2 passed in 7.58s"
+      },
+      {
+        "target": "frontier/B1920_the_channel_norms_line_part_averaged_along_the_thread_is_the_shifted_partial_zetas_kronecker_limit/verification/test_b1920_the_line_part.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "2 passed, 1 warning in 6.25s"
+      },
+      {
+        "target": "frontier/B1921_the_ends_shift_under_s_is_the_channel_norms_tau_term_one_invariant_end/verification/test_b1921_the_s_shift.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "2 passed in 0.85s"
+      },
+      {
+        "target": "frontier/B1922_the_frame_is_periodic_along_the_thread_exactly_at_the_threads_own_line/verification/test_b1922_periodic.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "2 passed in 24.97s"
+      },
+      {
+        "target": "frontier/B1923_the_load_bearing_negatives_reexamined_and_the_twin_chooses_the_icosahedral_triplet/verification/test_b1923_the_twin_and_the_triplet.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "3 passed in 0.17s"
+      },
+      {
+        "target": "frontier/B1924_the_read_out_on_the_whole_first_runs_threads_converge_and_the_twin_fades/verification/test_b1924_read_out_on_the_whole.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "5 passed in 29.78s"
+      },
+      {
+        "target": "frontier/B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/verification/test_b1925_metallic_rivals.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "5 passed, 1 warning in 1.75s"
+      },
+      {
+        "target": "frontier/B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/verification/test_b1926_odd_ticks.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "5 passed in 0.06s"
+      },
+      {
+        "target": "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/test_b1927_canonical_end.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "5 passed in 164.16s (0:02:44)"
+      },
+      {
+        "target": "frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/test_b1928_one_average.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "3 passed in 22.36s"
+      },
+      {
+        "target": "frontier/B1929_the_records_odd_l_value_is_the_twisted_eta_invariant_of_the_closed_torus_bundle/verification/test_b1929_twisted_eta.py",
+        "returncode": 0,
+        "passed": true,
+        "summary_line": "3 passed in 2.68s"
+      }
+    ],
+    "mutations": {
+      "M_B1917_line32_algebraic_max_under_line31": 1.998019960236519e-05,
+      "M_B1917_line32_cannot_fail_when_line31_holds": true,
+      "M_B1917_line32_rhs_calls_count": 1,
+      "M_B1917_line24_row17_rel_1e99_suite_still_passes": true,
+      "M_B1929_line56_rho_corrupted_by_plus_1000_full_suite_still_passes": true,
+      "M_B1929_line56_negated_delta_end_to_end_test_still_passes": true
+    }
+  },
+  "independent_checks": {
+    "B1917_evidence": {
+      "hecke_s2_json_row_count": 17,
+      "no_phase_row_rel": 0.00020300815214249274,
+      "string_1_6_in_hecke_s2_run_or_py": false,
+      "mmax_loop_in_hecke_s2_py": false
+    },
+    "B1919_evidence": {
+      "seat_formula_py_writes_json": false,
+      "seat_formula_py_char_count": 4,
+      "seat_formula_py_tau_count": 1,
+      "seat_formula_check_json_len": 24,
+      "golden_geodesic_circle_residuals": [
+        {
+          "tau": [
+            -0.1004,
+            0.9431
+          ],
+          "circle_residual": 8.222999999984992e-05
+        },
+        {
+          "tau": [
+            0.5,
+            1.118033988749895
+          ],
+          "circle_residual": 2.220446049250313e-16
+        },
+        {
+          "tau": [
+            1.1004,
+            0.9431
+          ],
+          "circle_residual": 8.222999999984992e-05
+        }
+      ],
+      "rounded_taus_off_geodesic_count": 2
+    },
+    "B1923_independent_weil": {
+      "a1_matches_1_minus_sqrt5_over_2": true,
+      "a2_matches_1_plus_sqrt5_over_2": true,
+      "a4_square_matches_a1": true
+    },
+    "B1924_audit": {
+      "all_256_words_transpose_and_S_conjugation_exact": true,
+      "null_mark_stabilizer_preserved_under_rev_swap": true,
+      "allowed_words_count_n8": 21,
+      "findings_line3_still_says_OPEN": true,
+      "findings_line193_says_upgraded_to_PROVED": true,
+      "arc_verdict_is_PROVED": true,
+      "arc_verdict_hypotheses_still_says_no_second_comp": true,
+      "arc_verdict_claim_still_says_OPEN_and_owed": true
+    },
+    "B1925_audit": {
+      "odd_m_1_to_13_all_cyclic": true,
+      "even_m_2_to_12_all_fail_cyclic_line": true,
+      "unmended_prime_lines_in_findings": [
+        33,
+        53,
+        74
+      ]
+    },
+    "B1926_audit": {
+      "cites_seat_mentions_1765_sm_c10": false,
+      "cites_seat_mentions_1773_w_f4": false
+    },
+    "B1927_audit": {
+      "arc_corner_json": {
+        "80.0": {
+          "0.04": [
+            -1.0241413979102987,
+            0.9965573591653203,
+            0.031112768832960658
+          ],
+          "0.02": [
+            -1.032572391681174,
+            0.9964050046959523,
+            0.01558929533757363
+          ],
+          "0.01": [
+            -1.0368359739471649,
+            0.9963660435722077,
+            0.007803033087312925
+          ],
+          "0.0": [
+            -1.0411320231846093,
+            0.9963528845926706,
+            0.2676693552430827
+          ]
+        },
+        "70.0": {
+          "0.04": [
+            -1.0465890575125991,
+            0.9942799363825316,
+            0.03229931525933019
+          ],
+          "0.02": [
+            -1.0551564323974219,
+            0.9941497917780526,
+            0.016179181745758282
+          ],
+          "0.01": [
+            -1.059493423034019,
+            0.994116519105257,
+            0.008097119415634978
+          ],
+          "0.0": [
+            -1.0638664895970922,
+            0.994105282190417,
+            0.13132755736875837
+          ]
+        }
+      },
+      "arc_corner_run_lines": [
+        "theta 80 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 2.7e-01",
+        "theta 80 deg, L_2: ratios 3.96 (0.01 to 0.02), 3.92 (0.02 to 0.04); gap on the arc 2.7e-01",
+        "theta 70 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 1.3e-01",
+        "theta 70 deg, L_2: ratios 3.96 (0.01 to 0.02), 3.92 (0.02 to 0.04); gap on the arc 1.3e-01"
+      ],
+      "string_1_79_in_arc_corner_outputs": false
+    },
+    "B1928_audit": {
+      "findings_line3_says_every_hypothesis_checked": true,
+      "arc_verdict_says_three_hypotheses_unchecked": true,
+      "proof_draft_line38_says_Holder": true,
+      "proof_draft_line63_says_Holder": true,
+      "proof_draft_line76_says_unbounded": true,
+      "cusp_step_decay_vs_switch_growth": {
+        "10": {
+          "total_cycle_length_Lk_R": 4.95577746057695,
+          "marginal_extra_L_step_near_L_inf": 0.16218049348027463
+        },
+        "100": {
+          "total_cycle_length_Lk_R": 9.24975336509101,
+          "marginal_extra_L_step_near_L_inf": 0.01951606552623808
+        },
+        "1000": {
+          "total_cycle_length_Lk_R": 13.819504571262708,
+          "marginal_extra_L_step_near_L_inf": 0.0019950166044129247
+        }
+      }
+    }
+  }
+}
