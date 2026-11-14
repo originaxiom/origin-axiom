@@ -23,6 +23,22 @@ beside a measured number.*
 - **Not claimed:** that the read-out should be taken at order 10 (P-845 is main's question), or that the separated rows
   are right. Nothing is compared with anything measured.
 
+> **Scope, 2026-11-14, at main's word (M35, B1939 § 1).** The order-10 read-out here is a read-out on covers, not on
+> non-flat data. `relays/sm_c13b/scope_orbits.py`:
+> - The tick moves the mark's order-10 halves in orbits of length 12, so they are fixed after 12 ticks: m004's 6-fold
+>   cover, B1939's degree 6 in the inner class. With charge conjugation or the centre phases the degree is 3, which is
+>   6 ticks. The mark itself needs 4 ticks.
+> - Each thread of the read-out on the whole carries the line flat on its own mapping torus at that orbit length. The
+>   average is over such threads, as B1928's is at order 5.
+> - **The read-out is not on odd-tick histories,** and that corrects a reading. The factor 2 of order 10 is the fibre's
+>   2-torsion, and the tick cycles it with period 3. It is not B1926's orientation character w, which lives on the
+>   base. Both read 6Y mod 2, but they are different carriers of that bit.
+>   - The sentence above, and SM-C13's page, said the separating bit is the one "the tick's parity reads". That holds
+>     for the bit, not for the carrier.
+>   - A read-out built from the odd-tick histories with B1926's twisted matter (M34's wording) is a different
+>     construction. It is proposed as SM-C13c.
+> - **The fork is noted, not taken:** agy-exp's level 15 = 3 × 5 (X-SURVIVAL), which main is recomputing.
+
 ## The results against the sealed expectations
 
 | | expectation (prior) | result |

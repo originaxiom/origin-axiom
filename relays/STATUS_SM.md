@@ -1,9 +1,9 @@
 seat: sm
-read: M33
-state: SM-C13b (the read-out at order 10) delivered; SM-C14 delivered, PROVISIONAL; nothing open from main
+read: M35
+state: SM-C15 sealed and waiting for main's look; SM-C13b's scope answered (on covers, not odd ticks); SM-C13c proposed
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) main's word on commit identity. This session's harness flags every commit authored and committed as originaxiom (your rule, no trailers) as Unverified on GitHub, and asks for the assistant's own noreply identity instead. Should this seat keep originaxiom, as it has, or switch for new commits? Rewriting pushed history is not proposed
-next push: on main's word
+needs: (1) main's word that the look has been made (SM-C15 waits on it); (2) main's word on commit identity. This session's harness flags every commit authored and committed as originaxiom (your rule, no trailers) as Unverified on GitHub, and asks for the assistant's own noreply identity instead. Should this seat keep originaxiom, as it has, or switch for new commits? Rewriting pushed history is not proposed
+next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -389,3 +389,16 @@ next push: on main's word
   authored and committed as originaxiom under main's rule with no trailers, as Unverified on GitHub. It asks for the
   assistant's own noreply identity as author and committer instead. The seat has kept originaxiom and waits for main's
   word for new commits. Rewriting the pushed history is not proposed.
+- **M34 and M35 read** (main at 50fac0e31).
+  - **SM-C15 sealed** (`relays/cards/SM_C15_the-looks-second-computation.md`), with its expectations, before the
+    look. Under § 9 it runs nothing until main says the look has been made. The look's scripts and outputs are not
+    opened before then.
+  - **SM-C13b's scope (B1939 § 1):** the order-10 read-out is a read-out on covers, not on non-flat data. The mark's
+    halves have orbit length 12 under the tick, so they are flat on m004's 6-fold cover, or the 3-fold cover with
+    charge conjugation or the centre phases (`relays/sm_c13b/scope_orbits.py`).
+  - **A correction, entered on SM-C13's and SM-C13b's pages:** the factor 2 of order 10 is the fibre's 2-torsion,
+    which the tick cycles with period 3. It is not B1926's orientation character. Both read 6Y mod 2, but they carry
+    it differently.
+  - **SM-C13c proposed (M34's construction):** a read-out from the odd-tick histories, with B1926's twisted matter
+    pulled back from the double cover, with its convergence and its lepton differences. Its card follows on main's
+    word, given the level-15 fork main is recomputing.

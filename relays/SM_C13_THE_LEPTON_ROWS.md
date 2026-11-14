@@ -25,6 +25,11 @@ number.*
   - The record's odd-tick matter exists only twisted by the orientation, with the sign (−1)^q on the tick (B1926;
     SM-C10). It reads q mod 2, which is the bit that order 5 lacks.
 
+> **Corrected, 2026-11-14 (SM-C13b's scope note).** The order-10 halves read 6Y mod 2 through the fibre's 2-torsion,
+> which the tick cycles with period 3. They do not read it through B1926's orientation character on the base. The bit
+> is the same, but the carrier is not: the halves become flat after 12 ticks, not at odd ticks. The "tick's parity"
+> wording below is about the bit only.
+
 ## The four candidates, each tested
 
 | candidate (M30) | result |
