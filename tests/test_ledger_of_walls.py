@@ -106,5 +106,10 @@ def test_a_row_added_a_class_changed_and_a_word_of_the_outcome_changed_each_move
 
 
 def test_the_generator_leaves_nothing_beside_b1905s_script():
+    # CHANGED 2026-11-13 (the full suite on the tip): the line read
+    #     assert not (ARC / "verification" / "__pycache__").exists()
+    # and pytest itself writes that folder for the arc's lock, which stands in the same folder.  What the generator must not
+    # leave is a compiled copy of B1905's script; that is what is looked for.
     G._walls_source()
-    assert not (ARC / "verification" / "__pycache__").exists()
+    cache = ARC / "verification" / "__pycache__"
+    assert not (cache.exists() and any(f.name.startswith("sweep_tables") for f in cache.iterdir()))

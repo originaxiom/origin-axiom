@@ -260,7 +260,12 @@ NOT_READ = ("PROGRESS_LOG.md",        # the log is append-only: what it said on 
             # lock stays unread, because the lock plants the old forms to show that it sees them.
             "frontier/B1862_the_audits_first_corrections/verification/",
             "frontier/B1892_review_79_read_by_those_who_did_not_build_it/", "frontier/B1894_",      # the review's arcs quote what the readers found
-            "/verification/readers/")                            # a reader's report quotes what it found
+            "/verification/readers/",                            # a reader's report quotes what it found
+            # ADDED 2026-11-13 (the building session; the full suite on the tip of its deliveries since main's 0e637ea9e, where
+            # this test failed, and fails at main's head too): the rows of B1905 are six readers' rows, one an arc, each with a
+            # quotation of a verdict line as it stood at a15516d43, checked by machine at that commit.  They quote the old forms
+            # as the readers found them, as a reader's report does (main's hand-over copy left the tree with B1905, C13's first patch).
+            "frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt")
 HELD_BY_ITS_OWN_LOCK = {("papers/structure_paper/SKELETON.md", "E5")}      # the sentence is true there and held to the computation
 # this arc's page quotes two old forms in blocks that do not hold their correction (its table of what the audit found): as
 # found on 2026-11-12, by count, for each finding.  One more of either, or one of any other finding, is reported.
