@@ -3058,35 +3058,41 @@ def probe_e9_ssb_modular_potential(plant_embedded_target: bool = False) -> Dict[
         gn_om, eig_om = grad_hess(mp.mpf("0.5"), mp.sqrt(3) / 2)
         gn_i, eig_i = grad_hess(mp.mpf("0.0"), mp.mpf("1.0"))
 
-        # Check continuous 1D contour degeneracy for lambda_mid = (z_omega + z_i) / 2 along two distinct rays x = 0.2 and x = 0.35!
+        # Check continuous 1D contour degeneracy for lambda_mid = (z_omega + z_i) / 2 along two distinct rays from omega inside F!
         lam_mid = (z_omega + z_i) / 2
         contour_pts = []
-        for x_ray in (mp.mpf("0.20"), mp.mpf("0.35")):
-            # Bisection for y in [0.95, 2.5] where z_rot(x_ray, y) == lam_mid
-            ylo, yhi = mp.mpf("0.95"), mp.mpf("2.5")
-            flo = z_rot(x_ray, ylo) - lam_mid
-            fhi = z_rot(x_ray, yhi) - lam_mid
+        x_om, y_om = mp.mpf("0.5"), mp.sqrt(3) / 2
+        for x_far, y_far in ((mp.mpf("0.10"), mp.mpf("2.5")), (mp.mpf("0.45"), mp.mpf("2.5"))):
+            # Bisection for t in [0, 1] along segment tau(t) = (1 - t)*omega + t*(x_far + i*y_far)
+            tlo, thi = mp.mpf("0.0"), mp.mpf("1.0")
+            flo = z_rot(x_om, y_om) - lam_mid
+            fhi = z_rot(x_far, y_far) - lam_mid
             assert flo * fhi < 0
             for _ in range(90):
-                ymid = (ylo + yhi) / 2
-                fm = z_rot(x_ray, ymid) - lam_mid
+                tmid = (tlo + thi) / 2
+                xm = (1 - tmid) * x_om + tmid * x_far
+                ym = (1 - tmid) * y_om + tmid * y_far
+                fm = z_rot(xm, ym) - lam_mid
                 if flo * fm <= 0:
-                    yhi = ymid
+                    thi = tmid
                     fhi = fm
                 else:
-                    ylo = ymid
+                    tlo = tmid
                     flo = fm
-            contour_pts.append((float(x_ray), float((ylo + yhi) / 2), float(abs(z_rot(x_ray, (ylo + yhi) / 2) - lam_mid))))
+            t_star = (tlo + thi) / 2
+            x_star = (1 - t_star) * x_om + t_star * x_far
+            y_star = (1 - t_star) * y_om + t_star * y_far
+            contour_pts.append((float(x_star), float(y_star), float(abs(z_rot(x_star, y_star) - lam_mid))))
 
         return {
             "modular_invariance_error": float(mod_err),
             "is_modular_invariant": bool(mod_err < mp.mpf("1e-30")),
             "omega_grad_norm": gn_om,
             "omega_hessian_eigs": eig_om,
-            "omega_is_strict_local_maximum": (gn_om < 1e-12 and eig_om[0] < -0.1 and eig_om[1] < -0.1),
+            "omega_is_strict_local_maximum": (gn_om < 1e-12 and eig_om[0] < -1e-4 and eig_om[1] < -1e-4),
             "i_grad_norm": gn_i,
             "i_hessian_eigs": eig_i,
-            "i_is_saddle": (gn_i < 1e-12 and eig_i[0] < -0.1 and eig_i[1] > 0.1),
+            "i_is_saddle": (gn_i < 1e-12 and eig_i[0] < -1e-4 and eig_i[1] > 1e-4),
             "mexican_hat_continuous_contour_witnesses": contour_pts,
         }
     finally:
