@@ -16,9 +16,24 @@ def _run():
     return subprocess.run([sys.executable, "-B", str(HERE / "join_scrutiny.py")], capture_output=True, text=True, check=True, timeout=900).stdout
 
 
+def _printed():
+    """the comparison of two transcripts that takes a number as a number (scripts/checks/printed_numbers.py)"""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("printed_numbers_for_this_lock", ROOT / "scripts" / "checks" / "printed_numbers.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
 def test_the_scrutiny_reproduces():
     out = _run()
-    assert out == (HERE / "join_scrutiny_run.txt").read_text(encoding="utf-8")       # integers and eighth roots only: no float is compared as text
+    # CHANGED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7).  It read
+    #     assert out == (HERE / "join_scrutiny_run.txt").read_text(encoding="utf-8")       # integers and eighth roots only: no float is compared as text
+    # The eighth roots are printed with the sign of each part, and a part that is zero carries the sign its last operation
+    # left on it: "+1-0i" on one machine and "+1+0i" on another.  A zero is compared without its sign, by the rule stated in
+    # scripts/checks/printed_numbers.py, and everything else character for character.
+    kept = (HERE / "join_scrutiny_run.txt").read_text(encoding="utf-8")
+    assert _printed().same(out, kept), _printed().differences(out, kept)
     for s in ("orbits: [((0, 0),), ((0, 1), (1, 0), (1, 1))]", "the same pair: True", "that pair under the moves: 3 pairs",
               "a group of order 96; its scalars: 4", "with element orders [(1, 1), (2, 9), (3, 8), (4, 6)]",
               "equivalent to T at m = [15]; to conj T at m = [21]", "over the even twists the orders are [24, 48, 72, 144]: never 96",

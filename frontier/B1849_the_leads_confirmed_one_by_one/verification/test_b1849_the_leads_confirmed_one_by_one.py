@@ -19,10 +19,25 @@ def _rows():
     return out
 
 
+def _printed():
+    """the comparison of two transcripts that takes a number as a number (scripts/checks/printed_numbers.py)"""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("printed_numbers_for_this_lock", ROOT / "scripts" / "checks" / "printed_numbers.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
 def test_the_cyclic_texture_check_reproduces():
     out = subprocess.run([sys.executable, "-B", str(HERE / "p039_cyclic_texture.py")], capture_output=True, text=True,
                          check=True, timeout=120).stdout
-    assert out == (HERE / "p039_cyclic_texture_run.txt").read_text(encoding="utf-8")
+    # CHANGED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7).  It read
+    #     assert out == (HERE / "p039_cyclic_texture_run.txt").read_text(encoding="utf-8")
+    # The transcript holds the size of a commutator that is zero up to rounding, printed to two digits; on another machine it
+    # is another number of the same order, and the lock failed with nothing wrong.  A number is compared as a number, within the
+    # tolerance stated in scripts/checks/printed_numbers.py, and everything else character for character.
+    kept = (HERE / "p039_cyclic_texture_run.txt").read_text(encoding="utf-8")
+    assert _printed().same(out, kept), _printed().differences(out, kept)
     assert "-> the anti-diagonal texture" in out
 
 
