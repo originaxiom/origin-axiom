@@ -59,6 +59,13 @@ def _changed(ref):
     return out
 
 
+# The tests that run with the corpus-scanning set whatever their text says.  The gate runner: always, on any repo/arc change.
+# ADDED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7): the test that the paper's count of
+# retractions is the index's.  It failed from the day the index passed 80 rows, inside Review 79's window, and no landing
+# ran it.  It was in this set only because its text happens to hold a word the pattern above looks for.
+ALWAYS_WITH_THE_CORPUS = frozenset(("tests/test_repo_gates.py", "tests/test_b1425_determinism.py"))
+
+
 def _corpus_scanners():
     """Every test that reads ACROSS arcs -- must run whenever any arc / generated corpus file
     changes. Detected liberally (over-inclusion is safe; it only runs more)."""
@@ -69,7 +76,7 @@ def _corpus_scanners():
                 s.add(f)
         except OSError:
             pass
-    s.add("tests/test_repo_gates.py")  # the gate runner: always, on any repo/arc change
+    s |= ALWAYS_WITH_THE_CORPUS         # until 2026-11-12: s.add("tests/test_repo_gates.py"), the gate runner alone
     s |= set(LOCKS)                     # the arcs' locks are review and ledger locks: they read the shared docs (P-232)
     return {f for f in s if f in ALL}
 
