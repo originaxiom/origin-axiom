@@ -1,0 +1,8 @@
+prime 12000421 M 60
+golden level 4 | modules 12 | O1 failures 0 | I = +1: 4 | I = -1: 4 | I odd under the involution: True | wrong-partner failures: 8
+golden level 6 | modules 210 | O1 failures 0 | I = +1: 36 | I = -1: 36 | I odd under the involution: True | wrong-partner failures: 108
+golden level 8 | modules 1892 | O1 failures 0 | I = +1: 244 | I = -1: 244 | I odd under the involution: True | wrong-partner failures: 696
+bronze level 2 | modules 56 | O1 failures 0 | I = +1: 8 | I = -1: 8 | I odd under the involution: True | wrong-partner failures: 24
+O1 holds: True
+O2 holds: True
+plant fires: True
