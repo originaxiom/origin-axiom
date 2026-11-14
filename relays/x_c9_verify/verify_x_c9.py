@@ -641,10 +641,16 @@ def main() -> None:
         (Fraction(3, 5), Fraction(4, 5)),
         (Fraction(4, 5), Fraction(2, 5)),
     ]
-    bohn1_expected = [Fraction(8, 5), Fraction(12, 5), Fraction(12, 5), Fraction(8, 5)]
+    # Note: In Bohn's worked example 1 (chap_IV.tex line 3647), Bohn wrote
+    # "-sgn(c(a+d)) - sgn(c) = 0" instead of Theorem 4.4.20 / Eq. (4.67)'s
+    # "+sgn(c(a+d)) - sgn(c) = -2", shifting his printed example by +2 from
+    # the true orientation-odd values (-2/5, 2/5, 2/5, -2/5) to (8/5, 12/5, 12/5, 8/5).
+    bohn1_expected = [Fraction(-2, 5), Fraction(2, 5), Fraction(2, 5), Fraction(-2, 5)]
+    bohn1_printed_typo = [Fraction(8, 5), Fraction(12, 5), Fraction(12, 5), Fraction(8, 5)]
     bohn1_thm = [rho_bohn_thm420(M_bohn1, nu) for nu in bohn1_inputs]
     bohn1_eq = [rho_bohn_eq467(M_bohn1, nu) for nu in bohn1_inputs]
     assert bohn1_thm == bohn1_expected and bohn1_eq == bohn1_expected
+    assert [x + 2 for x in bohn1_thm] == bohn1_printed_typo
 
     M_bohn2: Mat2 = ((3, 2), (4, 3))
     bohn2_inputs = [
