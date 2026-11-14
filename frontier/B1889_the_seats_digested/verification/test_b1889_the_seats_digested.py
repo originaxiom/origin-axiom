@@ -193,3 +193,35 @@ def test_the_builder_reads_every_numbered_row_of_the_ledger():
     D = json.loads((ARC / "SEATS.json").read_text(encoding="utf-8"))
     assert sum(1 for x in D["flagged"] if x["carried_by"]) == 53 and len(D["flagged"]) == 74
 
+
+
+# ---- ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its third finding, not checked by main, made
+# again by the builder).  This lock never opened the arc's verdict file, which main changed at Review 79 and at its second
+# round: the file put back as it was passed.  It is read now, and the numbers its corrections give are the builder's own.
+def _what_the_verdict_file_does_not_say(verdict):
+    line = " ".join(str(verdict.get("claim_one_line", "")).split())
+    web, phy, agy = SEAT["chat1"], SEAT["audit"], SEAT["agy"]
+    T = B["totals"]
+    want = ["[CORRECTED 2026-11-12 (Review 79): %d ITEMS, %d RECOMPUTED, %d held. The builder had dropped thirteen rows" % (B["rows"], T["verified"] + T["differed"], T["verified"]),
+            "the web seat has %d items, %d recomputed and %d held, where the line says 233, 69 and 58" % (web["rows"], web["recomputed"], web["by_class"]["verified"]),
+            "the physical lane %d, where it says 308" % phy["rows"],
+            "the generated table gives that lane %d verified and none differing" % agy["by_class"]["verified"]]
+    out = [] if verdict.get("verdict") == "PROVED" and verdict.get("id") == "B1889" else ["the verdict or the id is not what it was"]
+    if not line.startswith("THE SEATS, DIGESTED AT THE OWNER'S WORD"):
+        out.append("the verdict line does not open as it did")
+    return out + ["the verdict line does not say: " + s for s in want if s not in line]
+
+
+def test_the_verdict_file_is_read_and_its_corrections_give_the_builders_numbers():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert _what_the_verdict_file_does_not_say(v) == []
+    assert SEAT["agy"]["by_class"].get("differed", 0) == 0 and B["rows"] == 1699
+    line = v["claim_one_line"]
+    start = line.index("ADDED 2026-11-12 (Review 79's second round), the numbers this line still gives as they were")
+    for what, w in (
+            ("the addition of the second round taken out", dict(v, claim_one_line=line[:start] + line[line.index("]", start):])),
+            ("the corrected count of the ledger's rows changed", dict(v, claim_one_line=line.replace("(Review 79): 1699 ITEMS", "(Review 79): 1698 ITEMS"))),
+            ("the web seat's count in the addition changed", dict(v, claim_one_line=line.replace("the web seat has 240 items", "the web seat has 233 items"))),
+            ("the verdict changed", dict(v, verdict="NEGATIVE"))):
+        assert w != v, what
+        assert _what_the_verdict_file_does_not_say(w), what
