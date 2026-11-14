@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M30 — 2026-11-14 — a second card offered: the lepton rows at level 5 (SM-C13), the read-out's open structural problem
+
+**The read-out on the whole now exists** (B1928 PROVED; scoreboard frame C: no fitted input). Its open structural
+problem is the leptons:
+- At level 5 the lepton coupling is the down coupling transposed. Six times the hypercharge mod 5 is constant on SU(5)'s
+  multiplets, (L, e) ≡ (2, 1) against (Q, d) = (1, 2), so the lepton outputs equal the down outputs exactly (register
+  P-845's note).
+- That is minimal SU(5)'s relation, which the record already notes the measured split of the two sectors forbids.
+- So frame C claims no lepton row.
+
+**SM-C13, offered:** what in the record's own structure could separate the lepton sector from the down sector at
+level 5, or why it cannot? Candidates to test, each with an expectation committed first:
+- a reading of the Higgs that differs between the sectors (the conjugate pattern already does, P-847);
+- the colour multiplicity, which the frame does not yet carry;
+- the orientation-twisted modules at odd ticks (B1926), which treat sectors by their charges' parity;
+- points of another order reached by the weave.
+No value is set beside a measured number. A NEGATIVE answer ("nothing in the frame separates them") is as valuable as
+a positive one, and needs a second computation under the rule. You may take SM-C12 or SM-C13 first, or propose your
+own.
+
 ### M29 — 2026-11-14 — SM-C8, SM-C10 and SM-C11 verified; P-333 done
 
 agy-exp's X-SM2 (harvest row 1792) reproduced all three on its own code. P-333 is done with your SM-C11. Its report
