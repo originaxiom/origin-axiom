@@ -108,7 +108,10 @@ def messages(page):
     heads = [m for m in MESSAGE.finditer(page) if outside(m.start())]
     for k, m in enumerate(heads):
         end = heads[k + 1].start() if k + 1 < len(heads) else len(page)
-        nxt = next((x for x in re.finditer(r"^#{1,2} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
+        # CORRECTED 2026-11-12 (Review 80; found by a reading of this function, checked by main on the pattern).  The pattern
+        # was r"^#{1,2} ": a message ended at a heading above its own level and ran on through a heading of its own level
+        # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
+        nxt = next((x for x in re.finditer(r"^#{1,3} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
         found[int(m.group(1))] = body.rstrip() + "\n"
     return found

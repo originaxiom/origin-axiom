@@ -258,6 +258,28 @@ def test_the_listeners_docstring_says_what_mains_first_look_does(tmp_path):
     assert "On its FIRST LOOK" in doc and "exits with status 0 as well" in doc and "(for main's side, also on its first look)" in doc
 
 
+def test_a_message_ends_at_a_heading_of_its_own_level_that_is_not_a_message():
+    """Review 80, from a reading of the listener, checked by main on the pattern.  A message runs to the next heading of its
+    level or above.  The pattern stopped at the two levels above only, so a heading of three marks that is not a message was
+    taken into the message before it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test7", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    page = ("## Messages from main (newest first)\n\n### M2 — a day — two\n\ntext two\n\n### What stands between the messages\n\nnot a message\n\n"
+            "### M1 — a day — one\n\ntext one\n\n#### a heading below a message's level\n\nstill text one\n\n## What main is waiting for\n\n- nothing\n")
+    ms = L.messages(page)
+    assert sorted(ms) == [1, 2]
+    assert "text two" in ms[2] and "not a message" not in ms[2] and "What stands between" not in ms[2]
+    assert "still text one" in ms[1] and "a heading below a message's level" in ms[1] and "What main is waiting" not in ms[1]
+    # a heading of three marks inside a fenced block is not a heading, as before
+    fenced = "## Messages\n\n### M1 — a day — code\n\n```\n### not a heading\n```\n\nafter the block\n\n## The end\n"
+    assert "after the block" in L.messages(fenced)[1]
+    # and on main's own pages for the seats no message holds such a heading: none is cut by the stricter stop
+    for p in sorted((ROOT / "docs" / "seats").glob("*.md")):
+        text = p.read_text(encoding="utf-8")
+        for n, body in L.messages(text).items():
+            assert not [l for l in body.split("\n")[1:] if l.startswith("### ")] or "```" in body or "~~~" in body, (p.name, n)
+
+
 def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
