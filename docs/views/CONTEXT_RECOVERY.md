@@ -18,8 +18,8 @@
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
-| register points | 848 |
-| … QUEUED | 305 |
+| register points | 849 |
+| … QUEUED | 306 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 527 |

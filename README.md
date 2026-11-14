@@ -22,7 +22,7 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
 | arcs with a verdict | 1626: 1130 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
-| points in the register | 848: 309 open (queued work, leads, and questions not yet decided), 539 closed |
+| points in the register | 849: 310 open (queued work, leads, and questions not yet decided), 539 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
 | the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
 <!-- STATE:END -->
