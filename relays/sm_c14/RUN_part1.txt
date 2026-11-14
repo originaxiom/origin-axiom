@@ -1,0 +1,11 @@
+HE-1 level 1 {'h0(S)': 1, 'h0(Sw)': 0, 'h1(V9)': 0, 'r1(V9)': 0, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 1, 'h1P(V9 w)': 1, 'h1(C)': 1, 'h1(Cw)': 0, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 0, 'P3 C3 under the torus formula': False, 'primes_agree': True}
+HE-1 level 2 {'h0(S)': 1, 'h0(Sw)': 1, 'h1(V9)': 1, 'r1(V9)': 1, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 2, 'h1P(V9 w)': 2, 'h1(C)': 1, 'h1(Cw)': 1, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 1, 'P3 C3 under the torus formula': True, 'primes_agree': True}
+HE-1 level 3 {'h0(S)': 1, 'h0(Sw)': 0, 'h1(V9)': 0, 'r1(V9)': 0, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 1, 'h1P(V9 w)': 1, 'h1(C)': 1, 'h1(Cw)': 0, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 0, 'P3 C3 under the torus formula': False, 'primes_agree': True}
+HE-1 level 4 {'h0(S)': 1, 'h0(Sw)': 1, 'h1(V9)': 1, 'r1(V9)': 1, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 2, 'h1P(V9 w)': 2, 'h1(C)': 1, 'h1(Cw)': 1, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 1, 'P3 C3 under the torus formula': True, 'primes_agree': True}
+HE-1 level 5 {'h0(S)': 1, 'h0(Sw)': 0, 'h1(V9)': 0, 'r1(V9)': 0, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 1, 'h1P(V9 w)': 1, 'h1(C)': 1, 'h1(Cw)': 0, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 0, 'P3 C3 under the torus formula': False, 'primes_agree': True}
+HE-1 level 6 {'h0(S)': 1, 'h0(Sw)': 1, 'h1(V9)': 1, 'r1(V9)': 1, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 2, 'h1P(V9 w)': 2, 'h1(C)': 1, 'h1(Cw)': 1, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 1, 'P3 C3 under the torus formula': True, 'primes_agree': True}
+HE-1 level 7 {'h0(S)': 1, 'h0(Sw)': 0, 'h1(V9)': 0, 'r1(V9)': 0, 'h1(V9 w)': 1, 'r1(V9 w)': 1, 'h1P(V9)': 1, 'h1P(V9 w)': 1, 'h1(C)': 1, 'h1(Cw)': 0, 'C3 (S)': True, 'P2 sealed form: h1(S^2 of rho_1 w) - h1(C)': 0, 'P3 C3 under the torus formula': False, 'primes_agree': True}
+== he1 done in 2.9 s
+== c4 done in 0.3 s
+== p1 done in 0.6 s
+total 3.8 s
