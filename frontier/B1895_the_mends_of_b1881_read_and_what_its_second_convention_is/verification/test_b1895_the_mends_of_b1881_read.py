@@ -410,3 +410,29 @@ def test_the_keys_of_a_verdict_file_are_read():
     assert _uncorrected(name, json.dumps({o1 + " [" + mark + "]": "a value"})) == (0, 1)      # the twin
     assert _uncorrected(name, json.dumps({"a key": {"a deeper key": [o1]}})) == (1, 1)      # values at any depth, as before
 
+
+def test_the_note_on_row_a1_gives_the_numbers_the_run_and_the_lock_compute():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, patch 10, not checked by main, made again first).  The
+    note of 2026-11-12 under row A1 states two derivations, and the lock held four of their numbers: changed on the page, the
+    other five passed (the first derivation's 120 of 120 and 88 of 120; the second's √5/2, √2 and 17/12).  Each is held now by
+    a sentence built from the run, or, for the second derivation's three, by the sentence whose values
+    test_the_second_least_reading_is_the_all_twos_over_the_cyclic_sequences_that_were_read computes."""
+    a = RES["A_numbers"]
+    words = {2: "two", 4: "four"}
+    others = sorted(set(a["controls"].values()))
+    assert len(others) == 1
+    first = ("the swapped-mark recipe agrees on %d of %d matrices at the %s marks that annihilate their own line, and on %d of %d "
+             "at each of the other %s" % (a["row_test_equals_column_test_on_swapped"], a["matrices"], words[6 - len(a["controls"])],
+                                          others[0], a["matrices"], words[len(a["controls"])]))
+    second = ("the least reading is the all-ones' (√5/2), the second least the all-twos' (√2), and every other reads above 17/12, "
+              "the least of them 1.4866 at (1, 1, 2, 2)")
+    flat = " ".join(PAGE.split())
+    assert first in flat, first
+    assert second in flat, second
+    # planted: each of the five numbers changed on the page is reported now
+    for was, now in (("on 120 of 120", "on 119 of 120"), ("on 88 of 120", "on 87 of 120"), ("all-ones' (√5/2)", "all-ones' (√3/2)"),
+                     ("all-twos' (√2)", "all-twos' (√3)"), ("above 17/12", "above 16/12")):
+        assert was in flat
+        changed = flat.replace(was, now, 1)
+        assert first not in changed or second not in changed, was
+
