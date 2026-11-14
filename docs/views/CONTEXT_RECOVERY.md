@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1631 |
+| arcs with a verdict file | 1632 |
 | … PROVED | 1135 |
 | … NEGATIVE | 384 |
-| … OPEN | 99 |
+| … OPEN | 100 |
 | … RETRACTED | 13 |
 | register points | 849 |
 | … “QUEUED” | 305 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
 | B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
@@ -42,7 +43,6 @@
 | B1926 | PROVED | “AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve…” |
 | B1925 | PROVED | “THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol…” |
 | B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
-| B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, late night: THE FRAME'S CHANNELS UNDER THE MODULAR GROUP, THE CENTRE, AND WHICH LINE ORDERS MAKE SECTORS COPY EACH OTHER (B1935).** The modular group permutes the frame's channels i, j, k as S3 and fixes channel 1; the centre -I flips matter's charges and cannot reach the Higgs world; the Higgs triplet is of level 8, so frame C uses no level-5 icosahedral triplet; the sectors coincide only at line orders 2 to 7, and at the read-out's order 5 only the leptons and the down quarks. 0 of 19.”
+“LATEST (2026-11-14, S306p, before the run: MATTER IN THE EVEN HALF OF LAMBDA*(C^5); A CANDIDATE THAT FIXES THE HIGGS WORLD BY PARITY (B1936, OPEN).** The frame's level-5 charges sort one generation into the even half (16 of 32) and the Higgs into the odd half, exactly; if holomorphy and degree parity are one class, the Higgs reading is the record's practice for both hypercharge conventions. Committed before any value is read; the run keeps its four options. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

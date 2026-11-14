@@ -1,0 +1,28 @@
+{
+ "id": "B1936",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1934",
+  "B1935",
+  "B1656",
+  "B1724"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-F14 (harvest row 1794): only holomorphy required of a named sector can fix the global bit"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame's level-5 charges; the premise that matter and Higgs sit in one graded Lambda*(C^5)",
+  "object": "the exterior degrees of the fields and the Higgs reading they imply",
+  "reach": "class",
+  "hypotheses": "part 1 exact; part 2 exact given its premise, the premise not established (frame C gives the Higgs no charge); the singlet's degree 0 or 5 not fixed by charge"
+ },
+ "claim_one_line": "MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the degree k = 2(6Y) mod 5 puts Q, u, e at 2, d, L at 4, the Higgs at 1 and conjugates at 5 - k, so one generation is the even half (16 of 32); if the frame's holomorphic objects are exactly one parity class (conjugation flips both), the Higgs reading is (up S~, down S, leptons S) for both signs of the hypercharge convention, settling P-847's global bit by parity naming the sector W-F14 asked for. The premise is not established in frame C (its Higgs carries no charge). No value computed. 0 of 19.",
+ "weave_or_thread": "neither (structure of the frame)"
+}

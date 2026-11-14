@@ -1,0 +1,2 @@
+hypercharge sign +1: matter's degrees [2, 4] (all even); the sector Higgs degrees -> readings {'up': 'S~', 'down': 'S', 'lep': 'S'}
+hypercharge sign -1: matter's degrees [1, 3] (all odd); the sector Higgs degrees -> readings {'up': 'S~', 'down': 'S', 'lep': 'S'}

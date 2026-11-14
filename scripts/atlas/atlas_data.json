@@ -17250,6 +17250,18 @@
    "status": "banked",
    "domain": "quantum"
   },
+  "B1936": {
+   "slug": "matter sits in the even half of lambda c5 and parity consistency would fix the higgs world",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

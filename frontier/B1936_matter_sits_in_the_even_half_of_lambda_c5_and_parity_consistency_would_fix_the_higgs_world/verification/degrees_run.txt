@@ -1,0 +1,10 @@
+Q         6Y = +1  ->  degree k = 2 (even), its conjugate -> 3
+u (u^c)   6Y = -4  ->  degree k = 2 (even), its conjugate -> 3
+d (d^c)   6Y = +2  ->  degree k = 4 (even), its conjugate -> 1
+L         6Y = -3  ->  degree k = 4 (even), its conjugate -> 1
+e (e^c)   6Y = +6  ->  degree k = 2 (even), its conjugate -> 3
+nu^c      6Y = +0  ->  degree k = 0 (even), its conjugate -> 0
+H         6Y = +3  ->  degree k = 1 (odd), its conjugate -> 4
+expectation met for every field and its conjugate: True
+Hodge pairing k <-> 5 - k flips parity for every k: True
+dimensions: even half 16 odd half 16
