@@ -291,6 +291,67 @@ def bloch_wigner_mp(z: mp.mpc) -> mp.mpf:
     return mp.im(mp.polylog(2, z)) + mp.arg(1 - z) * mp.log(abs(z))
 
 
+def safe_polyroots_mp(coeffs_in: Sequence[Any]) -> List[mp.mpc]:
+    """
+    Multiplicity-safe high-precision polynomial root finder:
+      1. Strips leading tiny coefficients (< 1e-35).
+      2. Strips trailing tiny coefficients (< 1e-35) and records root 0 if any stripped.
+      3. Tries mp.polyroots; if multiple roots cause Aberth non-convergence, falls back to
+         companion-matrix QR eigenvalues (np.roots) + 25 steps of multiplicity-safe Schroder/Newton!
+    """
+    cs = [mp.mpc(c) for c in coeffs_in]
+    while len(cs) > 1 and abs(cs[0]) < mp.mpf("1e-35"):
+        cs.pop(0)
+    has_zero_root = False
+    while len(cs) > 1 and abs(cs[-1]) < mp.mpf("1e-35"):
+        cs.pop()
+        has_zero_root = True
+    out: List[mp.mpc] = [mp.mpc(0)] if has_zero_root else []
+    deg = len(cs) - 1
+    if deg <= 0:
+        return out
+    if deg == 1:
+        out.append(-cs[1] / cs[0])
+        return out
+    try:
+        rts = mp.polyroots(cs, maxsteps=400, extraprec=50)
+        out.extend(mp.mpc(r) for r in rts)
+        return out
+    except Exception:
+        # Companion-matrix QR via np.roots (works for arbitrary root multiplicities!)
+        scale0 = abs(cs[0])
+        np_cs = np.array([complex(c / scale0) for c in cs], dtype=np.complex128)
+        init_rts = np.roots(np_cs)
+        # Polish each seed with Schroder's method (u = P / P', z_{k+1} = z_k - u / (1 - u P'' / P'))
+        d1_cs = [cs[i] * (deg - i) for i in range(deg)]
+        d2_cs = [d1_cs[i] * (deg - 1 - i) for i in range(deg - 1)]
+
+        def eval_p(arr: List[mp.mpc], z: mp.mpc) -> mp.mpc:
+            v = mp.mpc(0)
+            for c in arr:
+                v = v * z + c
+            return v
+
+        for r0 in init_rts:
+            z = mp.mpc(complex(r0))
+            for _ in range(30):
+                p0 = eval_p(cs, z)
+                if abs(p0) < mp.mpf("1e-50"):
+                    break
+                p1 = eval_p(d1_cs, z)
+                if abs(p1) < mp.mpf("1e-45"):
+                    break
+                p2 = eval_p(d2_cs, z) if d2_cs else mp.mpc(0)
+                u = p0 / p1
+                denom = 1 - (u * p2) / p1
+                step = u / denom if abs(denom) > mp.mpf("1e-20") else u
+                z = z - step
+                if abs(step) < mp.mpf("1e-48"):
+                    break
+            out.append(z)
+        return out
+
+
 def markoff_step_sym(a: Any, b: Any, c: Any, ch: str) -> Tuple[Any, Any, Any]:
     """
     Bowditch/Fricke trace update matching our F_2 step update:
@@ -387,10 +448,7 @@ def solve_hyperbolic_markoff_word(word_str: str, dps: int = 60) -> Dict[str, Any
 
         for pa in cand_a_polys:
             coeffs_a = [mp.mpf(int(c)) for c in pa.all_coeffs()]
-            if len(coeffs_a) == 2:
-                a_roots = [-coeffs_a[1] / coeffs_a[0]]
-            else:
-                a_roots = mp.polyroots(coeffs_a, maxsteps=200, extraprec=40)
+            a_roots = safe_polyroots_mp(coeffs_a)
 
             for ar in a_roots:
                 # Find b roots from res_c evaluated at sa = ar
@@ -405,13 +463,9 @@ def solve_hyperbolic_markoff_word(word_str: str, dps: int = 60) -> Dict[str, Any
                         for cc in pa_c.all_coeffs():
                             val = val * ar + mp.mpf(int(cc))
                         b_coeffs.append(val)
-                    # Strip leading tiny zeros
-                    while len(b_coeffs) > 1 and abs(b_coeffs[0]) < mp.mpf("1e-30"):
-                        b_coeffs.pop(0)
-                    if len(b_coeffs) == 2:
-                        b_cands.append(-b_coeffs[1] / b_coeffs[0])
-                    elif len(b_coeffs) > 2:
-                        b_cands.extend(mp.polyroots(b_coeffs, maxsteps=200, extraprec=40))
+                    rts_b = safe_polyroots_mp(b_coeffs)
+                    if rts_b:
+                        b_cands.extend(rts_b)
                         break
 
                 for br in b_cands:
@@ -3624,11 +3678,7 @@ def verify_metallic_fixed_loci_b130() -> Dict[str, Any]:
                 if free_s == {sx}:
                     # Solve fac_xy(x) = 0; check if y or z is a 1D line along which kappa varies!
                     px = sp.Poly(fac_xy, sx)
-                    xr_list = (
-                        [-mp.mpf(int(px.all_coeffs()[1])) / mp.mpf(int(px.all_coeffs()[0]))]
-                        if px.degree() == 1
-                        else mp.polyroots([mp.mpf(int(c)) for c in px.all_coeffs()])
-                    )
+                    xr_list = safe_polyroots_mp([mp.mpf(int(c)) for c in px.all_coeffs()])
                     # Check at x = xr_list[0] whether eqs vanish identically in z (when y=0) or y:
                     sub_eqs = [sp.simplify(e.subs(sx, sp.sympify(0))) if fac_xy == sx else e for e in eqs]
                     # Evaluate two sample points if x == 0 -> y == 0, z free:
@@ -3664,11 +3714,7 @@ def verify_metallic_fixed_loci_b130() -> Dict[str, Any]:
                             for cc in pce.all_coeffs():
                                 vv = vv * x_val + mp.mpf(int(cc))
                             y_coeffs.append(vv)
-                        y_rts = (
-                            [-y_coeffs[1] / y_coeffs[0]]
-                            if len(y_coeffs) == 2
-                            else mp.polyroots(y_coeffs)
-                        )
+                        y_rts = safe_polyroots_mp(y_coeffs)
                         for y_val in y_rts:
                             # High-precision evaluation of c1_z and d1_xy
                             f_c1 = sp.lambdify((sx, sy), c1_z, "mpmath")(x_val, y_val)
@@ -3706,24 +3752,8 @@ def verify_metallic_fixed_loci_b130() -> Dict[str, Any]:
             # Explicitly check the 0D singular locus where BOTH z-coefficients c0_z(y) == 0 and c1_z(x) == 0!
             pc1_x = sp.Poly(c1_z, sx)
             pc0_y = sp.Poly(c0_z, sy)
-            x_sing = (
-                []
-                if pc1_x.degree() == 0
-                else (
-                    [-mp.mpf(int(pc1_x.all_coeffs()[1])) / mp.mpf(int(pc1_x.all_coeffs()[0]))]
-                    if pc1_x.degree() == 1
-                    else mp.polyroots([mp.mpf(int(c)) for c in pc1_x.all_coeffs()])
-                )
-            )
-            y_sing = (
-                []
-                if pc0_y.degree() == 0
-                else (
-                    [-mp.mpf(int(pc0_y.all_coeffs()[1])) / mp.mpf(int(pc0_y.all_coeffs()[0]))]
-                    if pc0_y.degree() == 1
-                    else mp.polyroots([mp.mpf(int(c)) for c in pc0_y.all_coeffs()])
-                )
-            )
+            x_sing = [] if pc1_x.degree() == 0 else safe_polyroots_mp([mp.mpf(int(c)) for c in pc1_x.all_coeffs()])
+            y_sing = [] if pc0_y.degree() == 0 else safe_polyroots_mp([mp.mpf(int(c)) for c in pc0_y.all_coeffs()])
 
             isolated_unsymmetric_points = 0
             singular_solutions = []
