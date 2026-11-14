@@ -1,0 +1,32 @@
+prime 9646561
+level 2 k 2 | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 2 k 3 | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 2 k 4 | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 2 k 5 | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 2 k 6 | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 2 k infinity | characters 2 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 3 k 2 | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 3 k 3 | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 3 k 4 | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 3 k 5 | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 3 k 6 | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 3 k infinity | characters 16 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 8
+level 4 k 2 | characters 50 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 4 k 3 | characters 50 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 4 k 4 | characters 50 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 4 k 5 | characters 50 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 4 k 6 | characters 50 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 4 k infinity | characters 50 | non-split modules 12 | a class with c(lambda) != 0: True | modules with a non-zero gap: 8
+level 5 k 2 | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 5 k 3 | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 5 k 4 | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 5 k 5 | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 5 k 6 | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 2
+level 5 k infinity | characters 242 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 22
+level 6 k 2 | characters 128 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 6 k 3 | characters 128 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 6 k 4 | characters 128 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 6 k 5 | characters 128 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 6 k 6 | characters 128 | non-split modules 0 | a class with c(lambda) != 0: False | modules with a non-zero gap: 0
+level 6 k infinity | characters 128 | non-split modules 210 | a class with c(lambda) != 0: True | modules with a non-zero gap: 72
+K1 holds: True ; K2 holds: False ; K3 holds: True
