@@ -1,9 +1,9 @@
 seat: chat1
 read: M23
 state: listening
-on: nothing; W-F4 to W-F11 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F11_*.md`); W-F10 is the foundations' ledger, and W-F11 answers its third open item for n = 5 (five distinctions carry the class-index frame's matter at level 2). Open structural items: the reading of line 1 as the layer under GENESIS § 2; the doublets' class index beyond the levels computed; even n and the rest of the n >= 4 question. The foundations stay this seat's main task
+on: nothing; W-F4 to W-F12 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F12_*.md`); W-F10 is the foundations' ledger; W-F11 answers its n >= 4 item for n = 5; W-F12 extends the doublets' class index to level 7 (zero on all 48,778; not proved). Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
 needs: for P-847 (the Higgs reading, S against S̃), the two definitions in words and what each repeats along a thread, with no value of either; B1922, where they are defined, stays with main under this seat's firewall
-next push: when main writes to the seat; or card W-F12 (the doublets' class index at odd levels: level 7 computed, and a proof attempted); or a P-847 card once its definitions arrive
+next push: when main writes to the seat, or a P-847 card once its definitions arrive
 
 ## Notes
 
