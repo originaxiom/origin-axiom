@@ -1,0 +1,68 @@
+primes [10561849, 10563433]
+10561849 golden n=1 cusped: {'chars': 2, 'N1_bad': 0, 'P1': 2, 'twisted': 0, 'N2': 0, 'untwisted_h1_zero': 0, 'R': 0, 'R_inv': 0, 'R_pairs': 0, 'ind': 0, 'N3_bad': 0, 'P2': 0}
+10561849 golden n=1 closed k=1: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=1 closed k=2: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=1 closed k=3: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=1 closed k=4: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=1 closed k=5: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=1 closed k=6: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 cusped: {'chars': 16, 'N1_bad': 0, 'P1': 8, 'twisted': 3, 'N2': 3, 'untwisted_h1_zero': 3, 'R': 15, 'R_inv': 3, 'R_pairs': 6, 'ind': 96, 'N3_bad': 0, 'P2': 96}
+10561849 golden n=3 closed k=1: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 closed k=2: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 closed k=3: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 closed k=4: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 closed k=5: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=3 closed k=6: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 cusped: {'chars': 242, 'N1_bad': 0, 'P1': 22, 'twisted': 10, 'N2': 10, 'untwisted_h1_zero': 10, 'R': 120, 'R_inv': 10, 'R_pairs': 55, 'ind': 2420, 'N3_bad': 0, 'P2': 2420}
+10561849 golden n=5 closed k=1: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 closed k=2: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 closed k=3: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 closed k=4: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 closed k=5: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 golden n=5 closed k=6: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 cusped: {'chars': 18, 'N1_bad': 0, 'P1': 6, 'twisted': 2, 'N2': 2, 'untwisted_h1_zero': 2, 'R': 8, 'R_inv': 2, 'R_pairs': 3, 'ind': 36, 'N3_bad': 0, 'P2': 36}
+10561849 bronze n=1 closed k=1: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 closed k=2: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 closed k=3: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 closed k=4: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 closed k=5: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 bronze n=1 closed k=6: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10561849 N6: {'hom': True, 'V': (0, 3), 'Vstar': (0, 2), 'V_w': (0, 2), 'Vstar_w': (1, 4), 'convention': 1, 'cover_identity': True}
+10563433 golden n=1 cusped: {'chars': 2, 'N1_bad': 0, 'P1': 2, 'twisted': 0, 'N2': 0, 'untwisted_h1_zero': 0, 'R': 0, 'R_inv': 0, 'R_pairs': 0, 'ind': 0, 'N3_bad': 0, 'P2': 0}
+10563433 golden n=1 closed k=1: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=1 closed k=2: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=1 closed k=3: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=1 closed k=4: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=1 closed k=5: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=1 closed k=6: {'chars': 2, 'doublets': 2, 'induced': 0, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 cusped: {'chars': 16, 'N1_bad': 0, 'P1': 8, 'twisted': 3, 'N2': 3, 'untwisted_h1_zero': 3, 'R': 15, 'R_inv': 3, 'R_pairs': 6, 'ind': 96, 'N3_bad': 0, 'P2': 96}
+10563433 golden n=3 closed k=1: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 closed k=2: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 closed k=3: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 closed k=4: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 closed k=5: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=3 closed k=6: {'chars': 16, 'doublets': 16, 'induced': 48, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 cusped: {'chars': 242, 'N1_bad': 0, 'P1': 22, 'twisted': 10, 'N2': 10, 'untwisted_h1_zero': 10, 'R': 120, 'R_inv': 10, 'R_pairs': 55, 'ind': 2420, 'N3_bad': 0, 'P2': 2420}
+10563433 golden n=5 closed k=1: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 closed k=2: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 closed k=3: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 closed k=4: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 closed k=5: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 golden n=5 closed k=6: {'chars': 242, 'doublets': 242, 'induced': 1210, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 cusped: {'chars': 18, 'N1_bad': 0, 'P1': 6, 'twisted': 2, 'N2': 2, 'untwisted_h1_zero': 2, 'R': 8, 'R_inv': 2, 'R_pairs': 3, 'ind': 36, 'N3_bad': 0, 'P2': 36}
+10563433 bronze n=1 closed k=1: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 closed k=2: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 closed k=3: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 closed k=4: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 closed k=5: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 bronze n=1 closed k=6: {'chars': 18, 'doublets': 18, 'induced': 18, 'N4_bad': 0, 'untwisted_bad': 0, 'twisted_bad': 0, 'shapiro_bad': 0}
+10563433 N6: {'hom': True, 'V': (0, 3), 'Vstar': (0, 2), 'V_w': (0, 2), 'Vstar_w': (1, 4), 'convention': 1, 'cover_identity': True}
+N1 holds: True
+N2 holds: True
+N3 holds: True
+N4 holds: True
+N5 holds: True
+N6 holds: True
+P1 fires: True
+P2 fires: True
+both primes give the same census: True
