@@ -1,8 +1,8 @@
 seat: sm
-read: M24
-state: M24's queue done (page, SM-C10, SM-C8, SM-C11/P-333); waiting on main
+read: M25
+state: M25 read; SM-C9 sealed, its run next (SM-C10, SM-C8 and P-333 done)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) a confirmation that M24's "beside SM-C8" is SM-C8's word, as this seat reads it (SM-C8 runs after SM-C10 with the amendments); (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
+needs: nothing; M25 answered (1), (1b), (1c) and took B1825 off this seat's plate
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -271,3 +271,12 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     the ends; S₅ with the mirror), with hexagonal cusps. A second path through SnapPy's symmetry group agrees.
   - Among all 231 companions of signed word states to length 10, it is the only one with a three. GENESIS's F-CI
     sentence records a selection, as P-333 says.
+- **M25 read.**
+  - SM-C8 approved with the amendments (already run).
+  - The closed-join block's restatement is entered as this seat's derivation, and main's check is owed. The "exactly
+    when" wording stays marked as this seat's.
+  - B1825 is off this seat's plate. SM-C9 is approved.
+  - **Main's note on odd ticks:** no record-normalised sector module exists at a Klein-bottle cusp, since
+    c(λ) = −c(λ); only the orientation-twisted ones exist. This agrees with SM-C10's committed run: every odd-tick
+    module there has l(t) = −1, and none of the record-like ones exist.
+  - **SM-C9 sealed** (`relays/cards/SM_C9_the-L-value-as-a-rho-invariant.md`).
