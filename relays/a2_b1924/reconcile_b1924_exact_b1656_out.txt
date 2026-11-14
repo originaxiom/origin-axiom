@@ -1,0 +1,69 @@
+=== AGY-002 STANDALONE EXACT-B1656 RECONCILIATION & EXHAUSTIVE POPULATION PROOF ===
+Coordinate ends L_coord in [0.9, 1.3, 2.2] (72 components total: 48 matching main + 24 at L_coord = 2.20)
+
+[0/4] Verifying exact pointwise Reverse-Swap S-Duality O(tau_w(s), mark) == O(-1/tau_w(s), twin) on all 95 words of n = 10...
+  Exact pointwise modular-S geodesic duality max error across all 95 n=10 words (72 comps): 1.476e-12
+
+[1/4] Computing EXACT EXHAUSTIVE population read-outs at n = 8, 10, 12, 14, 16...
+  n =  8:    21 hyperbolic words ( 6.58s) | max |A(w,mark)-A(w*,twin)| = 1.24e-03 | EXACT pop max |R(mark)-R(twin)| = 6.76e-05 | per-word RMS(mark-twin) = 0.1437
+  n = 10:    95 hyperbolic words (30.60s) | max |A(w,mark)-A(w*,twin)| = 7.52e-03 | EXACT pop max |R(mark)-R(twin)| = 1.75e-04 | per-word RMS(mark-twin) = 0.1236
+  n = 12:   345 hyperbolic words (124.62s) | max |A(w,mark)-A(w*,twin)| = 6.20e-03 | EXACT pop max |R(mark)-R(twin)| = 3.29e-05 | per-word RMS(mark-twin) = 0.1206
+  n = 14:  1325 hyperbolic words (550.50s) | max |A(w,mark)-A(w*,twin)| = 4.47e-03 | EXACT pop max |R(mark)-R(twin)| = 2.19e-05 | per-word RMS(mark-twin) = 0.1074
+  n = 16:  5453 hyperbolic words (2631.10s) | max |A(w,mark)-A(w*,twin)| = 8.82e-03 | EXACT pop max |R(mark)-R(twin)| = 8.43e-06 | per-word RMS(mark-twin) = 0.0992
+
+  Exact zero-noise deterministic step changes max |R_n - R_{n-2}| across all 72 components:
+    n =  8 -> 10: max |Delta R| = 0.03588
+    n = 10 -> 12: max |Delta R| = 0.01150
+    n = 12 -> 14: max |Delta R| = 0.00682
+    n = 14 -> 16: max |Delta R| = 0.00359
+
+[2/4] Sampling 400 unique allowed hyperbolic words WITHOUT replacement at n = 22 and n = 28...
+  n = 22: 400 unique words in 4804 trials (252.90s) | 72-comp paired |z|: median = 0.87, share>2 = 5.6%, max = 2.53 | per-word RMS(mark-twin) = 0.0858
+  n = 28: 400 unique words in 4805 trials (305.96s) | 72-comp paired |z|: median = 0.48, share>2 = 0.0%, max = 1.46 | per-word RMS(mark-twin) = 0.0738
+  Settling across all 72 components (0.90, 1.30, 2.20):
+    Exact n=16 pop vs n=22 (400w): median |z| = 1.16, share>2 = 12.5%, max = 3.21
+    n=22 (400w) vs n=28 (400w):    median |z| = 0.74, share>2 = 8.3%, max = 2.35
+
+[3/4] Calibrating 60-word jackknife on the EXACT 5,453-word n = 16 population (2,000 sample pairs)...
+  Jackknife SE / True SD ratio across 48 components: min = 0.9642, median = 0.9930, max = 1.0062
+  Marginal |z| > 2 rate against TRUE population R_16: 5.10% (nominal normal: 4.55%, t_59: 5.02%)
+  Distribution of 48-component median |z| between TWO independent 60-word draws:
+    5th pct = 0.33, median = 0.68, 95th pct = 1.33, P(median |z| >= 1.01) = 17.8%!
+
+[4/4] Representative exact-B1656 read-out values across L_coord in {0.90, 1.30, 2.20}:
+
+  --- Coordinate End L_coord = 0.90 (L_tilde = -0.8219) ---
+    up|S|mc_mt    : n=10(exact)=0.38410 | n=16(exact)=0.39111 | n=22(400w)=0.38980+-0.00308 | n=28(400w)=0.38695+-0.00249
+    up|S|mu_mt    : n=10(exact)=0.11124 | n=16(exact)=0.10728 | n=22(400w)=0.10624+-0.00118 | n=28(400w)=0.10612+-0.00104
+    down|S|ms_mb  : n=10(exact)=0.40461 | n=16(exact)=0.39965 | n=22(400w)=0.39382+-0.00329 | n=28(400w)=0.39354+-0.00259
+    down|S|md_mb  : n=10(exact)=0.09804 | n=16(exact)=0.09991 | n=22(400w)=0.09943+-0.00105 | n=28(400w)=0.09808+-0.00089
+    down|St|ms_mb : n=10(exact)=0.35820 | n=16(exact)=0.35629 | n=22(400w)=0.35349+-0.00285 | n=28(400w)=0.35190+-0.00237
+    ckm|S|S|Vus   : n=10(exact)=0.37437 | n=16(exact)=0.36690 | n=22(400w)=0.36081+-0.00286 | n=28(400w)=0.36497+-0.00248
+    ckm|S|S|Vcb   : n=10(exact)=0.46192 | n=16(exact)=0.46301 | n=22(400w)=0.45506+-0.00388 | n=28(400w)=0.46026+-0.00331
+    ckm|St|S|Vus  : n=10(exact)=0.47525 | n=16(exact)=0.46770 | n=22(400w)=0.46311+-0.00390 | n=28(400w)=0.46766+-0.00338
+    ckm|St|S|Vcb  : n=10(exact)=0.68468 | n=16(exact)=0.67268 | n=22(400w)=0.67294+-0.00467 | n=28(400w)=0.67315+-0.00405
+
+  --- Coordinate End L_coord = 1.30 (L_tilde = -0.4219) ---
+    up|S|mc_mt    : n=10(exact)=0.36567 | n=16(exact)=0.36889 | n=22(400w)=0.36518+-0.00308 | n=28(400w)=0.36317+-0.00252
+    up|S|mu_mt    : n=10(exact)=0.07933 | n=16(exact)=0.07548 | n=22(400w)=0.07468+-0.00083 | n=28(400w)=0.07458+-0.00074
+    down|S|ms_mb  : n=10(exact)=0.37873 | n=16(exact)=0.37348 | n=22(400w)=0.36749+-0.00330 | n=28(400w)=0.36631+-0.00267
+    down|S|md_mb  : n=10(exact)=0.06651 | n=16(exact)=0.06771 | n=22(400w)=0.06749+-0.00070 | n=28(400w)=0.06658+-0.00059
+    down|St|ms_mb : n=10(exact)=0.35294 | n=16(exact)=0.35029 | n=22(400w)=0.34736+-0.00295 | n=28(400w)=0.34522+-0.00252
+    ckm|S|S|Vus   : n=10(exact)=0.33245 | n=16(exact)=0.32455 | n=22(400w)=0.31838+-0.00260 | n=28(400w)=0.32222+-0.00238
+    ckm|S|S|Vcb   : n=10(exact)=0.37892 | n=16(exact)=0.37688 | n=22(400w)=0.36747+-0.00311 | n=28(400w)=0.37205+-0.00275
+    ckm|St|S|Vus  : n=10(exact)=0.38726 | n=16(exact)=0.38302 | n=22(400w)=0.37972+-0.00345 | n=28(400w)=0.38207+-0.00302
+    ckm|St|S|Vcb  : n=10(exact)=0.72308 | n=16(exact)=0.71859 | n=22(400w)=0.71963+-0.00406 | n=28(400w)=0.72144+-0.00341
+
+  --- Coordinate End L_coord = 2.20 (L_tilde = +0.4781) ---
+    up|S|mc_mt    : n=10(exact)=0.35952 | n=16(exact)=0.36189 | n=22(400w)=0.35771+-0.00314 | n=28(400w)=0.35617+-0.00258
+    up|S|mu_mt    : n=10(exact)=0.05069 | n=16(exact)=0.04833 | n=22(400w)=0.04772+-0.00049 | n=28(400w)=0.04767+-0.00042
+    down|S|ms_mb  : n=10(exact)=0.36532 | n=16(exact)=0.36116 | n=22(400w)=0.35543+-0.00326 | n=28(400w)=0.35388+-0.00267
+    down|S|md_mb  : n=10(exact)=0.03948 | n=16(exact)=0.04005 | n=22(400w)=0.03998+-0.00040 | n=28(400w)=0.03947+-0.00033
+    down|St|ms_mb : n=10(exact)=0.35131 | n=16(exact)=0.34929 | n=22(400w)=0.34670+-0.00301 | n=28(400w)=0.34418+-0.00259
+    ckm|S|S|Vus   : n=10(exact)=0.26787 | n=16(exact)=0.26150 | n=22(400w)=0.25668+-0.00240 | n=28(400w)=0.25945+-0.00225
+    ckm|S|S|Vcb   : n=10(exact)=0.30972 | n=16(exact)=0.30649 | n=22(400w)=0.29807+-0.00262 | n=28(400w)=0.30205+-0.00233
+    ckm|St|S|Vus  : n=10(exact)=0.28269 | n=16(exact)=0.28134 | n=22(400w)=0.27929+-0.00306 | n=28(400w)=0.27994+-0.00268
+    ckm|St|S|Vcb  : n=10(exact)=0.74924 | n=16(exact)=0.74354 | n=22(400w)=0.74498+-0.00378 | n=28(400w)=0.74787+-0.00321
+
+Wrote /Users/dri/.gemini/antigravity/scratch/origin-axiom-stage3-branch/relays/a2_b1924/reconcile_b1924_exact_b1656_results.json in 3922.31s.
+0 of 19.
