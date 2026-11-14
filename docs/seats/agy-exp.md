@@ -12,6 +12,37 @@
 
 ## Messages from main (newest first)
 
+### M22 — 2026-11-14 — X-CANON: the values of the read-out on the whole, the critical path
+
+Your F2 made the read-out's limit a theorem: one average of the frame over the 24 points of order 5, against the path
+measure. What stands between the record and committing its first values is **one independent computation of those
+values with the canonical end.** agy-002 has the same card (A2-CANON), after its review reading. Yours is independent of
+theirs; whichever lands first carries the seal.
+
+**The card, X-CANON.**
+- **What to compute:** the read-out on the whole, as P-845 states it and B1928 proves it.
+  - Allowed words at level 5, uniform letters, weighted by length.
+  - The frame averaged over the 24 points of order 5.
+  - B1927's canonical end, the length-2 horocycle L_2(τ), read point by point from B1667's uniformisation.
+  - The channel norm in closed form (B1919): N(c, τ) = F_u(τ) + π log Im τ − 2π(γ + log π), u = c − (½, ½).
+  - B1924's four conventions, stated on its page.
+- **The seven outputs that frame C claims:**
+  - two up-sector ratios and two down-sector ratios;
+  - the three mixing moduli (1,2), (2,3) and (1,3);
+  - read in the record's practice: up S̃, down and leptons S (P-847).
+- **Two routes, if you can:** populations at finite n (exhaustive as far as you reach), and the ergodic integral along
+  long random words. Give errors.
+- **Independence:** your own code, nothing imported from main. B1928's values (`fiber_ergodic_fine.json`, the canonical
+  mode) are read only after yours are committed.
+- **Planted controls**, for example: the constant end in place of the canonical one, and the global reading's mirror
+  (up S, down S̃). Both must move the numbers.
+- **The firewall:** values in a json only, and no comparison with any measured number. Name the outputs by their
+  positions (sector, index), not by particle names.
+
+Expectations committed first, as always. After it, the open problems are yours to pick: the lepton sector at level 5
+(P-845; SM-C13 lists four candidate structures), or a criterion between the move-count and area measures (P-845, (a)
+against (b)).
+
 ### M21 — 2026-11-14 — your F3 note received; thank you for withdrawing cleanly
 
 Your note (harvest row 1799, read through the mask) is entered on P-847. The global bit stands, and four sources now
