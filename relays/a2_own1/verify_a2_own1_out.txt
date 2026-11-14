@@ -1,0 +1,68 @@
+=== AGY-002 OWN CARD A2-OWN1: DUAL TWIN SYMMETRIES, CP PARITY, 4-CUSP INTEGRABILITY, L_SYS=0, & (a) VS (b) ===
+L_coord ends: [0.9, 1.3, 1.721946, 2.2] (where 1.721946 is L_tilde == 0), plus systole L_tilde_sys == 0
+
+[1/4] Theorem 1: Dual Twin Involutions (J vs S), Haar basis-scrambling, & Mark CP Parity M_CP...
+  haar_unitary_basis_scrambling_max_err: 4.052314039881821e-15
+  pointwise_J_antiholo_obs_err: 2.6978419498391304e-14
+  pointwise_J_antiholo_jcp_flip_sum_err: 1.3760693973186022e-15
+  pointwise_S_holo_obs_err: 3.108624468950438e-14
+  pointwise_S_holo_jcp_same_diff_err: 1.2607102861661446e-15
+  pointwise_MCP_mark_stabiliser_obs_err: 4.8627768478581856e-14
+  pointwise_MCP_mark_stabiliser_jcp_flip_sum_err: 1.5893861747551252e-15
+  pointwise_B1656_24_max_err_J_S_MCP: 4.9404924595819466e-15
+  pointwise_max_jarlskog_magnitude: 0.02343905957090671
+  n10_hyperbolic_allowed_count: 95
+  n10_R_ending_words_count: 42
+  geodesic_J_axis_geometry_max_rel_err: 1.319444736062194e-15
+  geodesic_period_mark_vs_Jpartner_twin_max_obs_err: 1.3070655668911968e-12
+  geodesic_period_mark_plus_Jpartner_twin_jarlskog_err: 6.31392144344572e-14
+  geodesic_indep_192node_quadrature_max_diff: 0.002905718129837531
+
+[2/4] Theorem 2: 4 cusps [5,5,1,1] & Hyperbolic-Area Read-Out (b) in BOTH B1656-24 and P720-30 frames...
+  Cusps: [5, 5, 1, 1] (sum=12, Area=12.566371)
+  Quadrature (20x24 vs 30x36) area-norm: frame30=9.734e-04, b1656_24=3.149e-03
+  Quadrature (20x24 vs 30x36) systole L_tilde_sys=0: frame30=4.385e-04, b1656_24=1.420e-03
+  Whole-weave signed <J_CP>_hyp max = 1.128e-17 (exact zero!)
+  Whole-weave <|J_CP|>_hyp: area L_tilde=0 -> [0.006747494759834835, 0.01271874012197938], systole L_tilde_sys=0 -> [0.006425640557484825, 0.011850304190944157]
+  Area-norm B1656 clamp share on F1 grid: {'0.90000': 0.19355709876543203, '1.30000': 0.1261574074074074, '1.72195': 0.08140432098765434, '2.20000': 0.04398148148148149}
+  Systole L_tilde_sys=0 clamp share [B1656-24, Frame30]: [0.0, 0.0] (EXACT ZERO!)
+
+[3/4] Theorem 3: Exact B1656 Bernoulli Word-Weight (a) vs Intrinsic Hyperbolic-Area Weight (b)...
+  B1656 L_coord=0.90000: n12_xcheck=5.76e-05 | max|a16 - b|=0.17707 | max|a28 - b|=0.17988 (median |z|=36.37, max |z|=59.00)
+  B1656 L_coord=1.30000: n12_xcheck=4.77e-05 | max|a16 - b|=0.15930 | max|a28 - b|=0.16024 (median |z|=39.18, max |z|=60.10)
+  B1656 L_coord=1.72195 (area L_tilde=0): max|a12 - b|=0.14806
+    up|S|m2_m3      : (b)=0.222407  vs  (a,n=12)=0.365886
+    up|S|m1_m3      : (b)=0.035706  vs  (a,n=12)=0.060435
+    down|S|m2_m3    : (b)=0.220124  vs  (a,n=12)=0.368181
+    down|S|m1_m3    : (b)=0.032657  vs  (a,n=12)=0.049773
+    ckm|S|S|Vus     : (b)=0.207672  vs  (a,n=12)=0.290139
+    ckm|S|S|Vcb     : (b)=0.261227  vs  (a,n=12)=0.332676
+    ckm|St|S|Vus    : (b)=0.420735  vs  (a,n=12)=0.326638
+    ckm|St|S|Vcb    : (b)=0.655057  vs  (a,n=12)=0.740218
+  B1656 L_coord=2.20000: n12_xcheck=5.95e-05 | max|a16 - b|=0.14505 | max|a28 - b|=0.13777 (median |z|=36.45, max |z|=52.74)
+  B1656 L_tilde_sys=0 (ZERO-CLAMP SYSTOLE END): max|a12 - b|=0.14834
+    up|S|m2_m3      : (b)=0.221061  vs  (a,n=12)=0.364730
+    up|S|m1_m3      : (b)=0.033654  vs  (a,n=12)=0.057337
+    down|S|m2_m3    : (b)=0.217013  vs  (a,n=12)=0.365351
+    down|S|m1_m3    : (b)=0.030359  vs  (a,n=12)=0.046543
+    ckm|S|S|Vus     : (b)=0.209534  vs  (a,n=12)=0.285143
+    ckm|S|S|Vcb     : (b)=0.218028  vs  (a,n=12)=0.318791
+    ckm|St|S|Vus    : (b)=0.375412  vs  (a,n=12)=0.306099
+    ckm|St|S|Vcb    : (b)=0.681494  vs  (a,n=12)=0.747455
+
+[4/4] Running Three Adversarial Planted Controls (CTL-OWN1-1..3)...
+  CTL_OWN1_1_wrong_holomorphic_J_err: 0.728013800657293
+  CTL_OWN1_1_caught: True
+  CTL_OWN1_2_Y_cuts: [4.0, 8.0, 16.0, 32.0]
+  CTL_OWN1_2_bounded_ratio_integrals: [0.019292012081509664, 0.019292265002786534, 0.019292265002805637, 0.019292265002805637]
+  CTL_OWN1_2_divergent_neg_log_integrals: [3.2948827673455483, 5.293888063082512, 7.540608598099587, 9.911622731913887]
+  CTL_OWN1_2_doubling_steps_ln2: [1.9990052957369633, 2.246720535017076, 2.3710141338143]
+  CTL_OWN1_2_richardson_asymptotic_step: 2.495307732611524
+  CTL_OWN1_2_exact_18_over_5_ln2: 2.495329850015803
+  CTL_OWN1_2_caught: True
+  CTL_OWN1_3_val_at_L2p20_y50_width5_cusp: -0.754625350947796
+  CTL_OWN1_3_min_Fu_sys_across_all_99_tenth_torsion_on_F1: 6.940153940186457
+  CTL_OWN1_3_caught: True
+
+Wrote relays/a2_own1/verify_a2_own1_results.json in 421.65s.
+0 of 19.
