@@ -2,7 +2,7 @@ seat: chat1
 read: M26
 state: listening
 on: nothing; W-F4 to W-F16 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F16_*.md`). W-F16: the hand, the arrow and the tick parity settle among themselves; the order, the Higgs reading and the hypercharge sign settle if W-F13's criterion 3 holds and D∘C is a symmetry of the frame's output (main's test). Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
-needs: main's test of W-F16 (does the frame assign its hypercharge through the matter modules, W-F13's criterion 3; and is the frame's output unchanged under D∘C, the degree-2 reading with S ↔ S̃?); main's word on whether analyticity (B1927's principle) is a line of the page
+needs: main's test of W-F16 (does the frame assign its hypercharge through the matter modules, W-F13's criterion 3; and is the frame's output unchanged under D∘C, the degree-2 reading with S ↔ S̃?). Main's commits of 2026-11-14 (read through the mask) record that holomorphy does not pick between the two worlds (agy-exp's claim withdrawn) and that C alone is not a symmetry (the global bit is load-bearing); so the analyticity question is answered in practice, and W-F16's remaining route is criterion 3 with D∘C, which main names as its lead
 next push: when main writes to the seat
 
 ## Notes
