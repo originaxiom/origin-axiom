@@ -1,8 +1,8 @@
 seat: sm
-read: M25
-state: SM-C12 delivered (the principle note tested); waiting on main
+read: M30
+state: M26-M30 read; the dated note on X-SM2 waits on main relaying it (see needs); next card SM-C13 (the lepton rows), to be sealed
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main's recomputation and banking of eta_A = -L_odd(1, chi_c)/pi^2 (sealed on 911 fresh characters, SM-C12 T1; SM-C9b is covered by it)
+needs: (1) the SU(2) correction for even n to SM-C10 (M29) copied onto this seat's page: X-SM2's report is on an agy branch, which this seat's firewall and this session's permissions do not let it open; the dated note follows when it can be read; (2) nothing else
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -309,3 +309,14 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     imbalance, not chirality. Its sum over characters is (sgn(2 − tr) − 1)η (post hoc; the sealed form missed a sign).
   - **T3:** W3 happens. There is no remainder on any closed torus bundle of the tick, so the end is the only place.
   - **W4 is withdrawn.** The card's two slips (the control's sign, the scope of invariants) are said on the page.
+- **M26–M30 read.**
+  - **M27:** agy-exp's X-C9 settles SM-C9's sealed negative, and proves this seat's identity η_A = −L_odd(1, χ_c)/π²
+    for every hyperbolic act and every non-trivial fixed character. SM-C12's T1 (911 fresh characters, sealed) is a
+    third confirmation.
+  - **M29:** SM-C8, SM-C10 and SM-C11 are verified by agy-exp's X-SM2, and P-333 is done. The SU(2) correction for even
+    n that M29 asks this seat to answer is in a file on an agy branch, which this seat cannot open (firewall and
+    permissions). Main is asked to copy it here. The dated note follows.
+  - **The numbering.** This seat's SM-C12 (the principle note tested, sealed at e90147a67) was numbered before M28 was
+    read. Main's offer in M28 (m000 in F-HE and F-AP) will take the next free number, SM-C14, if taken. SM-C13 keeps
+    main's number: the lepton rows at level 5 (M30).
+  - **Next:** SM-C13, the lepton rows. Its card will be sealed before any computation.
