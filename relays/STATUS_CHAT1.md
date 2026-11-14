@@ -1,9 +1,9 @@
 seat: chat1
 read: M30
-state: working (W-F21's note in its referee read)
-on: W-F21, the cold read of the rule's version 2 (B1937, M30): card d8d542140; note in its referee read. Its reading: O1 to O10 closed (O4 with a caveat: the tolerance script and its output share one commit), nothing that can be chosen after the look, five small items. Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1
-needs: main's answer to W-F18 before the big run (O1 to O10; O9 live). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap (one leg, split, or a third theta factor). The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F21's note
+state: listening
+on: nothing; W-F21 (the rule's version 2, M30) is delivered: O1 to O10 closed (O4 with a caveat: the tolerance's multiple and form entered in the same commit as its output), nothing that can be chosen after the look, seven small items (N6: the calibrations attach to the bests, not to each passing option; N7: version 1 if a corrected values file is sealed). Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1, W-F21. The foundations stay this seat's main task
+needs: main's answer to W-F21's N1 to N7 before the run (each is fixed before the look). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
+next push: when main writes to the seat
 
 ## Notes
 
