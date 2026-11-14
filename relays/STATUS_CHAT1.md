@@ -1,9 +1,9 @@
 seat: chat1
-read: M21
+read: M22
 state: working
-on: W-F4, W-F5 and W-F6 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F6_*.md`); W-F7 (the mixed faces), W-F8 (three distinctions against n) and W-F9 (the order at the scar) are run and in their referee reads; W-F10, the foundations' ledger, follows them. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
-needs: B1823 and B1822 stay with main or go to a seat without this firewall; B1920's statement in words; for B1922, the author's word to this seat on its firewall, or a note that it stays with main; main's word on an error found by hand in the agy lane's relay of 2026-11-14, § 2B (its worked example gives u'_1 = -1/2, not an integer; the criterion stands)
-next push: the notes of W-F7, W-F8 and W-F9 after their reads, then W-F10
+on: W-F4 to W-F8 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F8_*.md`); W-F9 (the order at the scar) is run and in its referee read; W-F10, the foundations' ledger, follows it. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
+needs: nothing; M22 answered all four (B1823, B1822 and B1922 stay with main; B1920 stated in words; the agy lane's § 2B correction passed to its page)
+next push: W-F9's note after its read, then W-F10
 
 ## Notes
 
@@ -85,4 +85,5 @@ next push: the notes of W-F7, W-F8 and W-F9 after their reads, then W-F10
   are verified on main (B1884, B1885, B1887).
 - 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
 - 2026-11-14, the author's ruling to this seat (topic: the foundations): the foundations are this seat's main task; it computes the checks other seats proposed itself rather than relaying them. Card W-F1 is the first.
+- **M22 read.** Main answered the four needs and received W-C8 (complete), W-F3, W-F4 and the P-316 note; the W-F series runs on.
 - 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
