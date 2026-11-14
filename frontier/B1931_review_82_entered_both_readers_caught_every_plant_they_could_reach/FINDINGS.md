@@ -2,6 +2,11 @@
 
 **Verdict: PROVED (a process arc).** Main, 2026-11-14. Register row P-848. 0 of 19.
 
+
+## Seen first
+
+- **Swept:** `VERDICT topic-sweep /Review 82|plant|reading copy|recused/: 45 of 1673 arcs on main match (NEGATIVE 1, OPEN 2, PROVED 41, RETRACTED 1); 60 register rows match (DECLINED 1, DONE 22, QUEUED 37)` — the earlier reviews' entries (B1898, B1916) and their planted readings; this is the first review read by the other family of model.
+
 ## What was read
 - **The window:** main's work from 0e637ea9e to 73e71e277 (B1917 to B1929, their corrections, the seats' harvests).
 - **The reading copy:** review-82/read at 86930f574, which is 73e71e277 with six planted faults.
@@ -43,7 +48,7 @@
   - B1922's "not at any other line";
   - B1928's proof draft;
   - scope statements; harvest rows without commit pins; four promised leads.
-- **On the value path, one:** B1927's lock never asserts L₂'s covariance. Main's direct check is its own note (§ below).
+- **On the value path, one, mended here:** B1927's lock computed L₂'s S-covariance and never asserted it. Main's direct check at three points: residual 4e-12, 1e-12 and 7e-13, with the no-shift plant failing by 0.42 to 0.70. The lock now asserts it, with its plant.
 
 ## Carried from Review 81
 - **Done here:**

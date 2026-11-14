@@ -346,3 +346,11 @@ several statements. Each was read against the tracked corpus by a search for its
   2026-11-11, at Review 78, so this entry's "still state the old form" is no longer so.] And "an exit is on the table for 12" (8; B1873), carried at
   that landing to the five surfaces that stated it.
 
+## Currency note, 2026-11-14 (through B1932; Review 82, B1931)
+
+The window B1897 to B1932 withdrew no sentence that this registry's sweep must hold on the live pages. Its corrections
+stand beside their old words on their own pages, each dated: B1917's convergence figure (the committed m-range run
+replaces it), B1924's reading of the twin as fading (equal at every n, by agy-002's theorem), B1925's "prime level"
+(every odd metallic act), B1928's locus of the return time's blow-up, and the channel weight's truncation in frame C
+(B1932: the exact weight moves four values by about 1 %). Review 82's readers read them (B1931).
+

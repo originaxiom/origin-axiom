@@ -4,6 +4,11 @@
 before the run, agy-002's A2-CANON and agy-exp's X-CANON). Main, 2026-11-14 night, for the run the author set for
 2026-11-15. Register rows P-845 and P-848. **No value is compared with any measured number here.** 0 of 19.
 
+
+## Seen first
+
+- **Swept:** `VERDICT topic-sweep /exact horoball norm|Theorem 90|channel weight|truncat|big run|values committed/: 22 of 1673 arcs on main match (NEGATIVE 4, OPEN 4, PROVED 13, RETRACTED 1); 10 register rows match (DONE 6, QUEUED 4)` — B1838 (the exact end; Theorem 90 banked in its note), B1839 and B1841 (the six re-read), B1735 (the precision bar, P-341). None computed the read-out on the whole with the exact weight, and no value of it was committed before.
+
 ## The values
 - **The file:** `verification/BIG_RUN_VALUES.json`, sha256 `df1c9bee002ecf5eeb7f1f360e497a5c091bf092cdbaa499352ea3201d02b536`.
 - **What they are:** frame C's seven outputs (up m₂/m₃ and m₁/m₃, down m₂/m₃ and m₁/m₃, ∣V₁₂∣, ∣V₂₃∣, ∣V₁₃∣).

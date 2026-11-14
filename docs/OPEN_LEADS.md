@@ -4577,3 +4577,15 @@ planted: each caught the two numbers and missed every wording fault; their twelv
 - **Negatives (P-842):** B1923's ledger. B1868 and B1855 now have their second computations. The SM seat's SM-C9 is
   provisional until agy-exp's X-C9.
 - **B1917 and B1918:** the L-function along the thread; B1918 retracted, superseded by B1919.
+
+## ⟳ VIEW REFRESH — 2026-11-14 (Review 82)
+
+Touched at Review 82 (its anchor `73e71e277`). **The window (`0e637ea9e` to `73e71e277`) holds B1917 to B1929: the
+channel norm as a Kronecker limit (B1919, B1920), the read-out on the whole stated and computed (B1924), the selection
+tested by changing it (B1925), the odd ticks (B1926), the canonical end (B1927), the read-out's limit (B1928, proved
+twice) and the twisted η identity (B1929). Two sessions that built none of it read it, with six faults main planted:
+each caught the five it could reach (B1931).**
+- **For this page:** the leads above, and the pairs programme (docs/THE_PAIRS_PROGRAMME.md).
+- **After the window, Review 83's to read:** B1930 (the foundation at version 1.68, the builder's chain), B1931 (this
+  review), B1932 (the big run's values committed before any comparison, with the exact channel weight).
+

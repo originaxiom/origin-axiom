@@ -1008,3 +1008,15 @@ planted: each caught the two numbers and missed every wording fault; their twelv
   (the read-out's measure is forced), B1914 (the line's last bit goes with the hand), B1915 (the hand's rows counted;
   corrected the same day: in the whole one bit, the hand), B1916 (this review). The owner lifted his hold on the
   targets the same day (P-840).
+
+## ⟳ VIEW REFRESH — 2026-11-14 (Review 82)
+
+Touched at Review 82 (its anchor `73e71e277`). **The window (`0e637ea9e` to `73e71e277`) holds B1917 to B1929: the
+channel norm as a Kronecker limit (B1919, B1920), the read-out on the whole stated and computed (B1924), the selection
+tested by changing it (B1925), the odd ticks (B1926), the canonical end (B1927), the read-out's limit (B1928, proved
+twice) and the twisted η identity (B1929). Two sessions that built none of it read it, with six faults main planted:
+each caught the five it could reach (B1931).**
+- **For this page:** open: the measure (move count or area) and the Higgs world, both declared inputs that move the values; the leptons' structure at level 5; frame C's other joints.
+- **After the window, Review 83's to read:** B1930 (the foundation at version 1.68, the builder's chain), B1931 (this
+  review), B1932 (the big run's values committed before any comparison, with the exact channel weight).
+

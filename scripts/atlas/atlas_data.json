@@ -17196,6 +17196,7 @@
   "B1931": {
    "slug": "review 82 entered both readers caught every plant they could reach",
    "motifs": [
+    "figure_eight",
     "metallic"
    ],
    "refs": [
@@ -17208,8 +17209,8 @@
    ],
    "obstacle": null,
    "obstacle_conf": 0,
-   "status": "banked",
-   "domain": "arithmetic"
+   "status": "dead",
+   "domain": "topology"
   },
   "B1932": {
    "slug": "the big runs values committed frame c with the exact weight in four declared options",
@@ -17219,7 +17220,7 @@
    "refs": [],
    "obstacle": "measure",
    "obstacle_conf": 6,
-   "status": "banked",
+   "status": "dead",
    "domain": "topology"
   },
   "B193": {

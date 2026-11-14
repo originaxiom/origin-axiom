@@ -29,6 +29,9 @@ def test_covariance():
     lm_s, l2_s = GR.ends(-1 / t, cs)
     assert abs(lm_s - (p["L_max"] + math.log(abs(t)))) < 1e-8
     assert abs(lm_s - p["L_max"]) > 1e-3                      # planted: no shift
+    # Review 82 (agy-002's R82-04, 2026-11-14): the selected end, L_2, was computed and never asserted
+    assert abs(l2_s - (p["L_2"] + math.log(abs(t)))) < 1e-8
+    assert abs(l2_s - p["L_2"]) > 1e-3                      # planted: no shift
 
 
 def test_periodicity_at_the_own_line():
