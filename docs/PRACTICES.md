@@ -1473,3 +1473,17 @@ family. Most are deductions the rule is not about.
 **Why it exists.** B1905 read 511 arcs on selection and chirality: a measure settled no question of this kind and an extremum a
 quarter of those it was asked, while the record had drawn the lesson in August (B1204) and put it in no governing page. Steps
 1, 2 and 4 of the rule are MANUAL; the topic sweep prints the ledger of walls (step 1).
+
+## The public face speaks no inner language — GATED (`public-face`) (adopted 2026-11-13, main's card C14)
+
+**The rule.** The pages a reader outside the project opens use none of the record's inner words: owner, main as a person,
+cc, seat, lane, relay, ruling or ruled, card, a session's name. A decision is a choice or a postulate and says what it fixes;
+"confirmed", "verified" and "checked" are kept for a check that can fail and say which. The working record (the logs, the
+register, the seats' pages, the arcs) keeps its words, and is labelled as the working record where the public face points to
+it; the verdict ledger and the spine are labelled working indices. The gate reads the pages of its list, `PUBLIC_FACE` in
+`scripts/gates/gates.py`, and holds the count of each word on each page as found on 2026-11-13; a count may only fall, and the
+series of card C14 lowers each page to zero. "Main" in a phrase of plain English ("the main goal", "the main result") is
+not counted.
+
+**Why it exists.** A reader outside the project met the record's inner words on its front pages, and a decision read as if
+an authority had confirmed it.

@@ -3119,6 +3119,105 @@ def gate_selection_family(reader=None):
     return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
 
 
+# ---------------------------------------------------------------------------------------------------------------------------
+# THE PUBLIC FACE SPEAKS NO INNER LANGUAGE (2026-11-13; main's card C14, at the owner's point of 2026-11-12 entered by main in
+# plain words).  The pages a reader outside the project opens use none of the record's inner words: `owner`, `main` as a
+# person, `cc`, `seat`, `lane`, `relay`, `ruling` or `ruled`, `card`, a session's name.  The working record (the logs, the
+# register, the seats' pages, the arcs) keeps its words, and the verdict ledger and the spine are labelled working indices.
+#
+# THE LIST OF THE PUBLIC FACE is the builder's reading of main's M20 and is main's to change: the README, the main goal, the
+# knowledge index, the pages the README's "start here" sends a newcomer to that are not the working record, the two front
+# pages of the plan, the generated views a newcomer is sent to, the workdesk's README, and of `papers/` the paper itself and
+# the README of its verification package (which of `papers/` is the public face is asked of main on the card).
+#
+# HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
+# of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
+# "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
+PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md",
+               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
+               "docs/views/COVERAGE.md", "docs/views/REVIEWER.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+               "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
+WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md")      # labelled as working indices; not read here
+_PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|seat's|seat|lanes|lane's|lane|relays|relayed|relay|rulings|ruling|ruled|"
+                      r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
+_PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
+_PF_COMMAND = re.compile(r"(?<=query\.py )card\b")             # the atlas query's subcommand is a command, not the word
+
+
+def public_face_words(text):
+    """the inner words of a text, counted by word (in lower case; a possessive or plural counted as its word)"""
+    import collections as _c
+    plain = {m.start() for m in _PF_MAIN_PLAIN.finditer(text)} | {m.start() for m in _PF_COMMAND.finditer(text)}
+    out = _c.Counter()
+    for m in _PF_WORD.finditer(text):
+        if m.start() in plain:
+            continue
+        w = m.group(1).lower()
+        w = {"owner's": "owner", "owners": "owner", "main's": "main", "seats": "seat", "seat's": "seat", "lanes": "lane", "lane's": "lane",
+             "relays": "relay", "relayed": "relay", "rulings": "ruling", "cards": "card"}.get(w, w)
+        w = "cc" if re.fullmatch(r"cc\d*", w) else ("a session's name" if w.startswith(("agy", "codex", "cld-")) else w)
+        out[w] += 1
+    return out
+
+
+def public_face_counts(reader=None, pages=None):
+    reader = reader or (lambda rel: _read(rel))
+    out = {}
+    for rel in (PUBLIC_FACE if pages is None else pages):
+        try:
+            out[rel] = dict(public_face_words(reader(rel)))
+        except Exception:
+            out[rel] = None
+    return out
+
+
+def public_face_problems(counts, held=None):
+    """the pages and words above what is held, and the pages that are missing"""
+    held = PUBLIC_FACE_HELD if held is None else held
+    bad = []
+    for rel, c in counts.items():
+        if c is None:
+            bad.append("%s: the page is not there" % rel)
+            continue
+        for w, n in sorted(c.items()):
+            h = held.get(rel, {}).get(w, 0)
+            if n > h:
+                bad.append("%s: '%s' %d times, held at %d" % (rel, w, n, h))
+    return bad
+
+
+def gate_public_face(reader=None):
+    """main's card C14: the public face uses none of the record's inner words.  Held by page and word as found; may only fall."""
+    counts = public_face_counts(reader)
+    bad = public_face_problems(counts)
+    if bad:
+        return False, "%d inner word(s) on the public face above what is held: " % len(bad) + "; ".join(bad[:6])
+    total = sum(sum(c.values()) for c in counts.values() if c)
+    zero = sum(1 for c in counts.values() if c == {})
+    fell = [rel for rel, c in counts.items() if c is not None and sum(c.values()) < sum(PUBLIC_FACE_HELD.get(rel, {}).values())]
+    return True, "ok (%d page(s) of the public face read: %d at zero; %d inner word(s) held by page and word as found on 2026-11-13%s)" % (
+        len(counts), zero, total, ("; lower the count of " + ", ".join(fell)) if fell else "")
+
+
+PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
+    # README.md: at zero since C14's second patch, which main landed (2026-11-13)
+    'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 6, 'ruled': 1, 'seat': 11},
+    'knowledge/INDEX.md': {'owner': 1},
+    'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
+    'docs/THE_FINAL_ATTACK_2026-10-29.md': {'main': 2, 'owner': 5, 'ruled': 1, 'seat': 3},
+    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
+    'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
+    'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
+    'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
+    'docs/views/CONTEXT_RECOVERY.md': {"a session's name": 2, 'card': 2, 'main': 3, 'owner': 4, 'seat': 7},
+    'docs/views/CLOSED_DOORS.md': {'card': 2, 'cc': 4, 'lane': 7, 'main': 9, 'owner': 2, 'seat': 5},
+    'docs/views/REVIEWER.md': {"a session's name": 1, 'lane': 2, 'main': 5, 'seat': 1},
+    'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
+    'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
+    'papers/P3_THE_PAPER/verification_package/README.md': {'main': 3},
+}
+
+
 _SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
 
 
@@ -3325,6 +3424,7 @@ GATES = {
     "seat-positive-verified": gate_seat_positive_verified,
     "negative-second-computation": gate_negative_second_computation,
     "selection-family": gate_selection_family,
+    "public-face": gate_public_face,
 }
 
 

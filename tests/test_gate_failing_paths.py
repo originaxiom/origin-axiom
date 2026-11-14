@@ -436,3 +436,22 @@ def test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_n
     ok, msg = gates.gate_selection_family(reader=read)
     assert ok and "1 older line(s)" in msg
 
+
+
+
+def test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record():
+    """C14 (2026-11-13): a word of the list added to a page of the public face fails; the same word in the progress log, or in
+    a quotation of a verdict line on a labelled working index, is not read."""
+    real = gates._read
+    def reader(extra):
+        def r(rel):
+            t = real(rel)
+            return t + extra.get(rel, "")
+        return r
+    ok, _ = gates.gate_public_face(reader=reader({}))
+    assert ok
+    ok, msg = gates.gate_public_face(reader=reader({"README.md": "\nThe principle was confirmed by the owner.\n"}))
+    assert not ok and "README.md: 'owner'" in msg
+    ok, _ = gates.gate_public_face(reader=reader({"PROGRESS_LOG.md": "\nThe owner confirmed it.\n", "docs/views/VERDICT_LEDGER.md": "\nthe SM seat's B9\n"}))
+    assert ok
+
