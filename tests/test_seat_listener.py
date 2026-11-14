@@ -210,6 +210,39 @@ def test_every_read_message_with_no_record_of_its_text_is_named_whether_or_not_a
     assert r.returncode == 0 and "holds no record" not in r.stdout and "main changed the page elsewhere" in r.stdout
 
 
+def test_a_memory_that_holds_no_number_and_a_git_that_does_not_answer_are_said_as_they_are(tmp_path, monkeypatch):
+    """Review 80, from a reading of the listener; made again before it was mended.  Two paths on which the listener could not
+    look and said something else: a memory that is a table and holds "two", or nothing, as what was read, which ended it with
+    an error of the language; and a call of git that timed out while the page was looked for, reported as "main has no page"."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test5", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    origin, clone = _origin_and_clone(tmp_path)
+    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
+    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
+    good = mem.read_text(encoding="utf-8")
+    p = origin / "docs" / "seats" / "x.md"
+    p.write_text(_page(1, 2), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "a second message")
+    for bad in ({"blob": "x", "read": "two"}, {"blob": "x", "read": None}, {"blob": "x", "read": True}, {"blob": "x", "read": -1},
+                {"blob": "x", "read": 1, "sums": ["a list"]}):
+        mem.write_text(json.dumps(bad), encoding="utf-8")
+        r = _listen(clone, "--seat", "x")
+        assert r.returncode == 2 and "memory cannot be read" in r.stderr and "Traceback" not in r.stderr, (bad, r.stderr[-300:])
+        assert json.loads(mem.read_text(encoding="utf-8")) == bad                # and the memory is left as it was found
+    mem.write_text(good, encoding="utf-8")
+    real = L.git
+    monkeypatch.setattr(L, "git", lambda *a, **k: (124, "", "git rev-parse did not answer within 180 seconds") if a and a[0] == "rev-parse" and ":" in a[-1] else real(*a, **k))
+    status, text, remember = L.look_seat("x", str(clone), "origin", False)
+    assert status == 2 and "did not answer" in text and "has no page" not in text and remember is None
+    monkeypatch.setattr(L, "git", real)
+    # a twin: a page that is not there is still said to be not there
+    status, text, remember = L.look_seat("no-such-seat", str(clone), "origin", False)
+    assert status == 2 and "main has no page docs/seats/no-such-seat.md" in text
+    # and with the memory as it was, the second message is shown
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the text of message 2" in r.stdout
+
+
 def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed

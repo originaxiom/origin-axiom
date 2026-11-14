@@ -129,7 +129,11 @@ def look_seat(seat, cwd, remote, peek):
     if rc != 0:
         return 2, "the fetch of main failed" + (": " + err.splitlines()[-1] if err else ""), None
     path = "docs/seats/%s.md" % seat
-    rc, blob, _ = git("rev-parse", "%s/main:%s" % (remote, path), cwd=cwd)
+    rc, blob, err = git("rev-parse", "%s/main:%s" % (remote, path), cwd=cwd)
+    if rc == 124:
+        # CORRECTED 2026-11-12 (Review 80; found by a reading of the listener, made again before it was mended): a call of
+        # git that did not answer in time was reported as "main has no page".  The page may well be there.
+        return 2, "main's page %s could not be looked for: %s" % (path, err), None
     if rc != 0:
         return 2, "main has no page %s" % path, None
     state_file = mem / ("%s.json" % seat)
@@ -142,7 +146,15 @@ def look_seat(seat, cwd, remote, peek):
     if rc != 0:
         return 2, "main's page %s could not be read" % path + (": " + err.splitlines()[-1] if err else ""), None
     ms = messages(page)
-    read, sums = int(state.get("read", 0)), state.get("sums") or {}
+    # CORRECTED 2026-11-12 (Review 80; the same reading).  The line was
+    #     read, sums = int(state.get("read", 0)), state.get("sums") or {}
+    # A memory that is a table and holds something that is not a number as what was read ("two", or nothing), or a record of
+    # the messages that is not a table, ended the listener with an error of the language, where it should say that it could
+    # not look.
+    read, sums = state.get("read", 0), state.get("sums") or {}
+    if isinstance(read, bool) or not isinstance(read, int) or read < 0 or not isinstance(sums, dict):
+        return 2, ("the listener's memory cannot be read (%s): what it holds as read is not a whole number, or its record of the "
+                   "messages is not a table. Remove it to start again from nothing" % state_file), None
     new = {n: t for n, t in ms.items() if n > read}
     # a message already read whose text has changed since is shown again (Review 79: an amendment in place was never shown)
     amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}
