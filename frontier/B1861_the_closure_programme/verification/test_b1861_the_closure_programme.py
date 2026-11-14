@@ -1009,3 +1009,18 @@ def test_a_text_cut_for_a_cell_keeps_a_word_of_it():
     assert bp.short(", ; : " * 60, n).endswith(" […]")                                                # a text with no word in it at all is cut at n
     # and on the page: no cell of the plan changes with the mend (the builder's output is the committed page)
     assert bp.build()["fails"] == []
+
+
+def test_the_row_of_a_finding_names_the_arc_that_replaced_its_fix():
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A12, held by main).  The plan's row for G9 gave
+    the attribution gate as B1878 landed it, reading the first-parent line, and did not name B1880, which replaced that
+    reading the same day.  The page, the verdict line and the lock of B1878 had been mended; this row had not."""
+    note = S.FINDINGS["G9"]["note"]
+    assert note.startswith("B1878: the attribution gate reads every commit message on the first-parent line")      # what stood is kept
+    assert "B1880 replaced that reading the same day: every commit reachable from the tip" in note
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    row = [l for l in page.split("\n") if l.startswith("| G9 |")]
+    assert len(row) == 1 and "B1880 replaced that reading the same day" in row[0] and "first-parent line" in row[0]
+    # the arc it names says the same of itself
+    b1878 = " ".join((ARC.parent / "B1878_the_goal_as_ruled_in_the_governing_documents" / "FINDINGS.md").read_text(encoding="utf-8").split())
+    assert "B1880 replaced that rule as well" in b1878
