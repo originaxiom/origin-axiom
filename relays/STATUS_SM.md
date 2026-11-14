@@ -1,6 +1,6 @@
 seat: sm
 read: M24
-state: SM-C8's addendum sealed (M24 read as its word); its run next; then P-333
+state: SM-C8 delivered (R_leak); SM-C11 (P-333) sealed, its run next
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) a confirmation that M24's "beside SM-C8" is SM-C8's word, as this seat reads it (SM-C8 runs after SM-C10 with the amendments); (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -256,3 +256,13 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   - **A correction, self-caught:** m129 (L5a1) and m125 are two of B1441's five named manifolds. So the calibration
     page was wrong to call them outside the population. The page is corrected, and the run reports with and without
     them.
+- **SM-C8 delivered** (`relays/SM_C8_THE_PARTNER_TEST.md`): outcome R_leak, as predicted, on B1441's tier-1
+  population (71 manifolds, 486 754 modules, 175 628 non-vacuous joins of 1 109 760).
+  - Every duality control held everywhere, and the plants fire.
+  - The partner's order changes P's count on 101 672 joins. On 100 846 the change passes through classes alive at
+    the other, open ends; that leak occurs on all 17 of B1441's carriers of |I| = 2.
+  - The relation carries the order and does not choose it: D_ord comes in equal ± pairs.
+  - The sealed index control was too broad (module choice where H¹(M; ℓ) is a plane); post hoc it matches on all 7
+    entries where every H¹ is a line.
+- **SM-C11 sealed** (`relays/cards/SM_C11_the-five-ended-companion-in-F-CI.md`): P-333, the F-CI read on o10_150729
+  with main's own cell, and the companions' census to word length 10.

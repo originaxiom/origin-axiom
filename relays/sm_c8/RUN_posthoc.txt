@@ -1,0 +1,11 @@
+{
+ "entries": 71,
+ "entries_all_lines": 7,
+ "match_on_all_lines": 7,
+ "entries_with_a_plane_or_more": 64,
+ "match_where_some_dim_gt_1": 22
+}
+
+real	0m1.831s
+user	0m2.141s
+sys	0m0.109s

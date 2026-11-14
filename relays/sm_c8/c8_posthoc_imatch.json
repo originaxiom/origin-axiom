@@ -1,0 +1,364 @@
+{
+ "entries": 71,
+ "entries_all_lines": 7,
+ "match_on_all_lines": 7,
+ "entries_with_a_plane_or_more": 64,
+ "match_where_some_dim_gt_1": 22,
+ "rows": [
+  {
+   "tag": "m004 deg 4 #1",
+   "max_dim_H1_l": 0,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 5 #1",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m004 deg 5 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m004 deg 5 #3",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #0",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #3",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #5",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m004 deg 6 #7",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #8",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m004 deg 6 #10",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m003 deg 4 #0",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m003 deg 5 #1",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m003 deg 5 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m003 deg 5 #4",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m003 deg 6 #1",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m003 deg 6 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 2 #2",
+   "max_dim_H1_l": 1,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 3 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 4 #3",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 4 #5",
+   "max_dim_H1_l": 1,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 4 #6",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 4 #8",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 5 #2",
+   "max_dim_H1_l": 3,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 6 #3",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #4",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #6",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #7",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 6 #9",
+   "max_dim_H1_l": 1,
+   "I_matches": true
+  },
+  {
+   "tag": "m009 deg 6 #10",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #11",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #15",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #17",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #18",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #19",
+   "max_dim_H1_l": 4,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #20",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #21",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #22",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #23",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m009 deg 6 #25",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 2 #2",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 3 #2",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 4 #1",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 4 #3",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 4 #5",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 4 #6",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 4 #8",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 5 #2",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #3",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #4",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #7",
+   "max_dim_H1_l": 4,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #8",
+   "max_dim_H1_l": 2,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #9",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #13",
+   "max_dim_H1_l": 4,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 6 #14",
+   "max_dim_H1_l": 4,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #15",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #16",
+   "max_dim_H1_l": 4,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #17",
+   "max_dim_H1_l": 3,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 6 #18",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #20",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #21",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #22",
+   "max_dim_H1_l": 3,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 6 #23",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #24",
+   "max_dim_H1_l": 3,
+   "I_matches": true
+  },
+  {
+   "tag": "m010 deg 6 #25",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m010 deg 6 #26",
+   "max_dim_H1_l": 3,
+   "I_matches": false
+  },
+  {
+   "tag": "m202",
+   "max_dim_H1_l": 0,
+   "I_matches": true
+  },
+  {
+   "tag": "s959",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "o10_150726",
+   "max_dim_H1_l": 2,
+   "I_matches": true
+  },
+  {
+   "tag": "m129",
+   "max_dim_H1_l": 1,
+   "I_matches": true
+  },
+  {
+   "tag": "m125",
+   "max_dim_H1_l": 0,
+   "I_matches": true
+  }
+ ]
+}
