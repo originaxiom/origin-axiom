@@ -66,3 +66,22 @@ def test_on_this_repository_the_gate_passes_and_every_page_is_held_as_found():
     assert all(c is not None for c in counts.values())
     assert {k: v for k, v in counts.items() if v} == {k: v for k, v in g.PUBLIC_FACE_HELD.items() if v}
     assert set(g.PUBLIC_FACE_HELD) <= set(g.PUBLIC_FACE)
+
+
+def test_the_readme_block_gives_no_words_of_a_changelog_heading(tmp_path, monkeypatch):
+    """C14, patch 5 (main's M24): the generated block of the README is read by the gate with the rest of the page; its
+    line on the last landing gives the day and where the entry stands, so a heading in the working record's words does
+    not reach the front page. Planted: a heading full of inner words."""
+    g = _gates()
+    spec = importlib.util.spec_from_file_location("views_generate", ROOT / "scripts" / "views" / "generate.py")
+    gen = importlib.util.module_from_spec(spec); spec.loader.exec_module(gen)
+    heading = "S999 THE OWNER'S SEAT RULED THAT THE LANE'S RELAY BE CARDED BY MAIN (P-1) (2026-11-14)"
+    assert sum(g.public_face_words(heading).values()) >= 6           # the plant carries the words
+    (tmp_path / "CHANGELOG.md").write_text("# Changelog\n\n## %s\n\n- a line\n" % heading, encoding="utf-8")
+    monkeypatch.setattr(gen, "ROOT", str(tmp_path))
+    block = gen.view_readme_state([])
+    line = [l for l in block.split("\n") if l.startswith("| the last landing |")]
+    assert line == ["| the last landing | 2026-11-14; its entry heads `CHANGELOG.md` (the working record) |"], line
+    assert dict(g.public_face_words(block)) == {}
+    # the twin: the line as it stood printed the heading, and the gate would have counted its words
+    assert sum(g.public_face_words("| the last landing | %s |" % heading[:150]).values()) >= 6

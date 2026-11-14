@@ -386,6 +386,9 @@ def view_readme_state(arcs):
     heads = list(re.finditer(r"(?m)^# Review (\d+) \((\d{4}-\d{2}-\d{2})\)", rv))
     anchor = re.search(r"anchor-commit: `?([0-9a-f]{7,40})`?", rv[heads[-1].end():]) if heads else None
     land = next((l[3:].strip() for l in rd("CHANGELOG.md").splitlines() if l.startswith("## S")), "")
+    # 2026-11-13 (C14, patch 5): the line gives the landing's day and where its entry stands, and not the heading's
+    # words, which are the working record's and may use its inner words; the public-face gate holds the block
+    land_day = re.search(r"\((\d{4}-\d{2}-\d{2})\)\s*$", land)
     out = ["*Where the programme stands, generated from the tracked record at every landing (`scripts/views/generate.py`);",
            "nothing in this block is typed by hand.*", "",
            "| | |", "|---|---|",
@@ -395,7 +398,8 @@ def view_readme_state(arcs):
                sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
            "| points in the register | %d: %d open (queued work, leads, and questions not yet decided), %d closed |" % (len(cells), n_open, n_closed),
            "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
-           "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
+           "| the last landing | %s |" % (("%s; its entry heads `CHANGELOG.md` (the working record)" % land_day.group(1))
+                                           if land_day else "its entry heads `CHANGELOG.md` (the working record)"),
            ""]
     return "\n".join(out)
 
