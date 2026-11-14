@@ -752,17 +752,20 @@ def _extract_12_from_yukawas(Y_up: np.ndarray, Y_down: np.ndarray, Y_lep: np.nda
     Ud_desc, sv_d, _ = np.linalg.svd(Y_down)
     sv_l = np.linalg.svd(Y_lep, compute_uv=False)
 
-    out[:, 0] = sv_u[:, 1] / sv_u[:, 0]
-    out[:, 1] = sv_u[:, 2] / sv_u[:, 0]
-    out[:, 2] = sv_u[:, 2] / sv_u[:, 1]
+    def _safe_div(num: np.ndarray, den: np.ndarray) -> np.ndarray:
+        return np.divide(num, den, out=np.zeros_like(num), where=den > 0.0)
 
-    out[:, 3] = sv_d[:, 1] / sv_d[:, 0]
-    out[:, 4] = sv_d[:, 2] / sv_d[:, 0]
-    out[:, 5] = sv_d[:, 2] / sv_d[:, 1]
+    out[:, 0] = _safe_div(sv_u[:, 1], sv_u[:, 0])
+    out[:, 1] = _safe_div(sv_u[:, 2], sv_u[:, 0])
+    out[:, 2] = _safe_div(sv_u[:, 2], sv_u[:, 1])
 
-    out[:, 6] = sv_l[:, 1] / sv_l[:, 0]
-    out[:, 7] = sv_l[:, 2] / sv_l[:, 0]
-    out[:, 8] = sv_l[:, 2] / sv_l[:, 1]
+    out[:, 3] = _safe_div(sv_d[:, 1], sv_d[:, 0])
+    out[:, 4] = _safe_div(sv_d[:, 2], sv_d[:, 0])
+    out[:, 5] = _safe_div(sv_d[:, 2], sv_d[:, 1])
+
+    out[:, 6] = _safe_div(sv_l[:, 1], sv_l[:, 0])
+    out[:, 7] = _safe_div(sv_l[:, 2], sv_l[:, 0])
+    out[:, 8] = _safe_div(sv_l[:, 2], sv_l[:, 1])
 
     Uu_asc = Uu_desc[:, :, ::-1]
     Ud_asc = Ud_desc[:, :, ::-1]
@@ -1209,10 +1212,10 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
 
     idx_exp11 = [i for i in range(12) if i != 2]
     # deep_ev[2] is (0.17, 80.0) and deep_ev[4] is (-0.31, 80.0)
-    y80_x_indep_err = float(np.max(np.abs(deep_ev[2]["W_minus_T90"] - deep_ev[4]["W_minus_T90"])))
+    y80_exp11_x_indep_err = float(np.max(np.abs(deep_ev[2]["W_minus_T90"][idx_exp11] - deep_ev[4]["W_minus_T90"][idx_exp11])))
     y80_exp11_err_vs_rational = float(np.max(np.abs(deep_ev[2]["W_minus_T90"][idx_exp11] - target_cusp_limit[idx_exp11])))
     up12_slope_inv_y = float(240.0 * deep_ev[0]["W_minus_T90"][2])
-    assert y80_x_indep_err < 1e-14, f"y=80 x-dependence error: {y80_x_indep_err}"
+    assert y80_exp11_x_indep_err < 1e-14, f"y=80 x-dependence error on 11 exp outputs: {y80_exp11_x_indep_err}"
     assert y80_exp11_err_vs_rational < 1e-9, f"Cusp y=80 limit mismatch on 11 exponential outputs: {y80_exp11_err_vs_rational}"
 
     four_combos_out = {}
@@ -1242,7 +1245,7 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
             "L2_cusp_limit_inf": end_eval.L2_cusp_inf,
             "total_normalized_area_check": total_mass,
             "exact_cusp_rational_limit_12": _dict_12(target_cusp_limit),
-            "y80_x_independence_max_err": y80_x_indep_err,
+            "y80_exp11_x_independence_max_err": y80_exp11_x_indep_err,
             "y80_max_err_vs_exact_rational_on_11_exp_outputs": y80_exp11_err_vs_rational,
             "up_1_over_2_linear_inv_y_cusp_slope": up12_slope_inv_y,
             "max_quadrature_refinement_err_W_minus_T90": float(np.max(quad_err["W_minus_T90"])),
