@@ -821,11 +821,11 @@ def cusped_module_signature_mp(
         I_m = mp_eye(m)
         gens = {
             1: rx,
-            -1: mp.lu_solve(rx, I_m),
+            -1: mp.inverse(rx),
             2: ry,
-            -2: mp.lu_solve(ry, I_m),
+            -2: mp.inverse(ry),
             3: rmu,
-            -3: mp.lu_solve(rmu, I_m),
+            -3: mp.inverse(rmu),
         }
 
         val_r1, J_r1 = fox_jacobian_mp(r1, gens, m)
@@ -948,8 +948,7 @@ def cusped_module_signature_mp(
 
 
 def contragredient_mp(M: mp.matrix) -> mp.matrix:
-    I_m = mp_eye(M.rows)
-    return mp.lu_solve(M, I_m).T
+    return mp.inverse(M).T
 
 
 def wedge2_mp(M: mp.matrix) -> mp.matrix:
