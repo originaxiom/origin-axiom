@@ -200,3 +200,21 @@ The construction is W-F9's, at level 1 of each state's own monodromy:
 This note was read by one session before it was pushed; its corrections are applied.
 
 0 of 19.
+
+## Addendum: post hoc 1 (committed before its run at 4f4f0af7b; not blind)
+
+The run's output was committed (9e9f4b871) before it was read.
+- **H2 holds.** The lines {y = z = 0} and {x = z = 0} lie in the fixed locus at m = 4 and 8, and not at m = 2 and 6. This
+  is as the hand argument says: exactly when 4 divides m.
+- **H3 holds.** The m = 3 curve's (x, y) eliminant is x²y² − x²y − x² − xy² + xy + x − y² + y. It equals agy-exp's
+  polynomial for m = 3, read through the mask with its exponents as 2.
+- **H1: m = 5 did not finish within 6,900 seconds** (with the sealed functions, unchanged). m = 6 took 43 seconds, so the
+  slow step is specific to m = 5, possibly the lines over ℚ(√5). m = 5 stays open. The statements of § 3 and § 5 stand
+  for m = 1 to 4 and 6 only.
+
+| statement | how checked |
+|---|---|
+| H2 (m = 2, 4, 6, 8) | computed once (post hoc, not blind); recomputed independently by the referee (m = 1 to 12) |
+| H3 | computed once (post hoc, not blind) |
+
+0 of 19.
