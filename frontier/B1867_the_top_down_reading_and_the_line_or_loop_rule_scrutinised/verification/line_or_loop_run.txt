@@ -1,5 +1,5 @@
-the map: 288 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
-edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 4, reads 2, requires 39, same-as 2
+the map: 284 nodes, 285 edges, 11 edge kinds; the budget's inputs on it: 52 nodes
+edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 3, reads 2, requires 39, same-as 2
   of a determining kind (answers, follows-from, candidate-for): 1
 every edge of a determining kind on the map (8):
   E:J5      (missing-join, layer 8) --candidate-for--> W:T       (theorem, layer 3)
