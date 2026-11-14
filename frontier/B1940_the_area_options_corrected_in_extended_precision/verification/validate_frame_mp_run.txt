@@ -1,0 +1,8 @@
+V1 tau +0.13+1.5i: max rel diff mp vs double 2.35e-15  (mp 4 s)
+V1 tau -0.31+3.0i: max rel diff mp vs double 5.64e-14  (mp 4 s)
+V1 tau +0.27+6.0i: max rel diff mp vs double 1.34e-10  (mp 4 s)
+V1 worst 1.34e-10
+V2 y 12: T-check 7.04e-18 ; seven of W-: 0.0002109 1.7808e-15 2.1076e-7 5.2949e-17 0.42815 0.41689 0.58318
+V2 y 20: T-check 4.03e-18 ; seven of W-: 1.3849e-6 2.1663e-26 9.0793e-12 5.2176e-29 0.4176 0.41667 0.58333
+V2 y 45: T-check 3.56e-19 ; seven of W-: 2.087e-13 1.6839e-60 2.062e-25 1.5744e-66 0.41667 0.41667 0.58333
+V3 planted 15 digits at y 20: T-check 0.451 -> CAUGHT

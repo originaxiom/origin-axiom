@@ -17364,6 +17364,39 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1940": {
+   "slug": "the area options corrected in extended precision",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 13,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1941": {
+   "slug": "a fermion determinant prefers one higgs world at every point and a one loop trace the other",
+   "motifs": [
+    "coupling",
+    "action",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "S17",
+    "S4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

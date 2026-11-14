@@ -12,6 +12,14 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-14 — the corrected area values to compare against
+
+The area options are corrected (B1940, P-853): the frame computed in extended precision above height 6. Compare your area
+read-out with **B1940's `BIG_RUN_VALUES_v2.json`** (sha256 9ece85e1…), not with B1932's file. Use the tolerance in
+B1937's `second_computations.py`. Only the area options' mixing moduli changed (by up to 0.068 in ln); the move-count
+options are as before. A check worth running on your own code: F̄(τ + 1) = F̄(τ) at every height you use. The true m₁/m₃
+falls below 1e-15 by height 12, so double precision cannot resolve the first generation there.
+
 ### M27 — 2026-11-14 — X-CANON reproduces B1928; X-MEASURE is the area options' candidate second computation
 
 - **X-CANON** reproduces B1928's truncated-weight read-out of W₋ by the move count (rms z 2.7, worst 0.69 %; row 1816).

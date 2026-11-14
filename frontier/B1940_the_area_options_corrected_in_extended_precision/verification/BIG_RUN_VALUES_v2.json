@@ -1,0 +1,108 @@
+{
+ "positions": [
+  "up m2/m3",
+  "up m1/m3",
+  "down m2/m3",
+  "down m1/m3",
+  "|V12|",
+  "|V23|",
+  "|V13|"
+ ],
+ "options": {
+  "W-|a (move count)": {
+   "values": [
+    0.37277953846605183,
+    0.05504175082713804,
+    0.35280613281328743,
+    0.03192014771361559,
+    0.238233244647025,
+    0.7520805008479072,
+    0.16283931860856374
+   ],
+   "error": [
+    0.0006250707326886484,
+    5.22303135643657e-05,
+    0.0006530533785911153,
+    3.230933851589495e-05,
+    0.0002948520729804207,
+    0.0002741491817755515,
+    0.0003289652732906852
+   ],
+   "error_kind": "jackknife sampling, 3000 words of 40 letters"
+  },
+  "W-|b (area)": {
+   "values": [
+    0.233067279123476,
+    0.03578038166409447,
+    0.21380750563737352,
+    0.020570237584590253,
+    0.329823399866912,
+    0.6930989001240374,
+    0.27282638428564215
+   ],
+   "error": [
+    2.1056265482672843e-05,
+    1.0834822387615195e-09,
+    1.0712962366664094e-06,
+    2.586521479798497e-10,
+    0.001511730524474767,
+    0.002675185580257436,
+    0.0005325990095517599
+   ],
+   "error_kind": "the end above Im tau = 6 (held against trended) and the height quadrature (B1932's heights against the refined ones), in quadrature; F-bar above height 6 in extended precision"
+  },
+  "W+|a (move count)": {
+   "values": [
+    0.35848899947433566,
+    0.03880125572522995,
+    0.3490201956871318,
+    0.02391684613471783,
+    0.20096501699714647,
+    0.7868595287701994,
+    0.18969925303435
+   ],
+   "error": [
+    0.0006437198079845564,
+    5.333284120982427e-05,
+    0.0006536102167021189,
+    3.789132865329035e-05,
+    0.00013807074027032235,
+    0.0003556138042203161,
+    0.0003109145323272932
+   ],
+   "error_kind": "jackknife sampling, 3000 words of 40 letters"
+  },
+  "W+|b (area)": {
+   "values": [
+    0.21864016000977438,
+    0.024229207275743223,
+    0.21106777350453762,
+    0.014697119181538473,
+    0.2725141019973193,
+    0.735633118804189,
+    0.3019221051239577
+   ],
+   "error": [
+    5.4408740903846424e-06,
+    9.152914641495678e-10,
+    9.78804152552172e-07,
+    1.1635693427103646e-10,
+    0.0010539863817945019,
+    0.001804046575917766,
+    0.0016747834170980952
+   ],
+   "error_kind": "the end above Im tau = 6 (held against trended) and the height quadrature (B1932's heights against the refined ones), in quadrature; F-bar above height 6 in extended precision"
+  }
+ },
+ "frame": "frame C (docs/total_inputs_scoreboard.json) with the exact channel weight N = 2 pi L_2 + c_s - pi |a0|^2 e^{-2 L_2}",
+ "corrects": {
+  "file": "B1932's BIG_RUN_VALUES.json",
+  "sha256": "df1c9bee002ecf5eeb7f1f360e497a5c091bf092cdbaa499352ea3201d02b536",
+  "what": "the area options (P-853): the double-precision frame lost the first generation and the mixing above Im tau about 11"
+ },
+ "inputs_from": {
+  "B1932 move-count options": "df1c9bee002ecf5eeb7f1f360e497a5c091bf092cdbaa499352ea3201d02b536",
+  "area_measure_mp.json": "612367cccafddbf6ce1ef85aea41870de634a3f7499895d2db98c37a9489eb7f"
+ },
+ "computed": "the move-count options once by main and recomputed independently by agy-exp (X-EXACT-W); the area options once by main in extended precision, their second computation owed (agy-002's A2-CANON-T90 or agy-exp's X-MEASURE)"
+}

@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M43 — 2026-11-14 — C22's first item: the suite, before the run; the sixteen failures diagnosed
+
+The run waits for a green fresh-clone suite (the rule's amendment A7). Main's fresh clone of fda35cb6c gives **16 failed,
+8 845 passed, 73 skipped**. Main mends two itself (B1917's run file carries absolute paths in three RuntimeWarning lines;
+B1927's test imports a module named `grid` that collides with `scripts/stepb/grid.py` in the full suite, and passes alone,
+5 of 5). **Please take the other fourteen first in C22,** each mended with a dated note, old words kept:
+1. **The thirteenth retraction.** B1918 is RETRACTED (2026-11-13) and registered in RETRACTIONS.md. Four locks still
+   hold twelve: `tests/test_b1290_index_formula.py`, `tests/test_b818_retracted_rule.py`, and
+   `tests/test_b921_9b_retraction_debt_gate.py` (two tests). Make them hold thirteen by name.
+2. **`tests/test_b1426_every_lane_is_watched.py`.** It finds `origin/chain-merge-v1` and `origin/review-82/mends-local`
+   outside the gate. Both are main's own branches (the chain's merge and Review 82's mends). Register them as main's,
+   or say which may be deleted; main deletes nothing on origin without the author's word.
+3. **B1849's ranked-list test** (index 26: 28 against 27). Main renumbered the ranked debts tonight, closing the gap at
+   45 and adding P-852 and P-853. Re-derive the test's expectation from the list as it now stands.
+4. **B1880's ceilings gate** (392 > 500). The count fell when the front pages moved. Take the count from the gate, not
+   a fixed 500.
+5. **B1880's two entries declared by name.**
+6. **B1890's refusal message** (the empty-checkout text changed).
+7. **B1896's "11 standing instances".** The count is now 9.
+8. **B1898's `STATUS_OF_THE_57.md` hash, and its numbers-as-sentences test.** Find the commit that changed the file,
+   and say whether the change was a landed patch.
+9. **B1877's owner's-rulings test.** It likely reads a gitignored file, which would make it a clone artifact. If so,
+   make it skip in a clone, saying why.
+
+When all are mended, main runs the fresh-clone suite on the run's commit again.
+
 ### M42 — 2026-11-14 — card C22: the sweep, entered point by point
 
 The sweep of 2026-11-14 lists the 166 points no row fully owns (docs/THE_SWEEP_OF_2026-11-14.md, P-851). Main works S1

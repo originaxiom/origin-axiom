@@ -1,0 +1,11 @@
+y  1.0  smallest non-zero |R_s|/max 1.99e-01  non-zero residues below 1e-12: 0 of 264
+y  2.0  smallest non-zero |R_s|/max 4.31e-02  non-zero residues below 1e-12: 0 of 264
+y  3.0  smallest non-zero |R_s|/max 8.98e-03  non-zero residues below 1e-12: 0 of 264
+y  4.0  smallest non-zero |R_s|/max 1.87e-03  non-zero residues below 1e-12: 0 of 264
+y  5.0  smallest non-zero |R_s|/max 3.88e-04  non-zero residues below 1e-12: 0 of 264
+y  6.0  smallest non-zero |R_s|/max 8.07e-05  non-zero residues below 1e-12: 0 of 264
+y  7.0  smallest non-zero |R_s|/max 1.68e-05  non-zero residues below 1e-12: 0 of 264
+y  8.0  smallest non-zero |R_s|/max 3.49e-06  non-zero residues below 1e-12: 0 of 264
+y  9.0  smallest non-zero |R_s|/max 7.25e-07  non-zero residues below 1e-12: 0 of 264
+y 10.0  smallest non-zero |R_s|/max 1.51e-07  non-zero residues below 1e-12: 0 of 264
+y 12.0  smallest non-zero |R_s|/max 6.51e-09  non-zero residues below 1e-12: 0 of 264

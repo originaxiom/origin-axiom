@@ -222,3 +222,19 @@ passing value files through it.
 
 **A12. X-SURVIVAL's S4 (S17).** agy-exp's claim that a modular-invariant fermion weight prefers W₋ is recomputed on
 main's code before the look, or this rule records that it was not. No option is preferred either way.
+
+**A13. The corrected values and version 3 (P-853, B1940; the same evening).**
+- **The correction.** The area options are recomputed with the frame in extended precision above height 6. The new file
+  is B1940's `BIG_RUN_VALUES_v2.json`, sha256 9ece85e1…, beside B1932's, which stays in the record.
+  - The move-count options are unchanged.
+  - The area options' mass ratios move by under 1e-4.
+  - Their mixing moduli move by up to 0.068 in ln.
+- **The scripts.** B1940's `big_run_look_v3.py` is version 2 unchanged except for the values it pins; it **governs**.
+  `big_run_windows_v3.py` is its window companion.
+- **At the look:** run version 3, its window companion, and B1932's version 1 (on the values it sealed, reported only),
+  in that order. Commit every output before any is read. Version 2 is not run: its values are superseded.
+- **The area options' second computation** is compared with B1940's file under the tolerance of A7.
+- **X-SURVIVAL's S4 (A12) is settled before the look by B1941.**
+  - The fermion determinant prefers W₋ at all 28 sampled points under every declared change but one.
+  - The one-loop trace prefers W₊.
+  - So the world is picked only by the choice of functional. No option is preferred in this run.

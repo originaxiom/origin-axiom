@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1636 of 1636 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1638 of 1638 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1138)
+## PROVED (1140)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1150,6 +1150,8 @@
 | `B1935` | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO 7: T fixes channels 1 and i and swaps j and k, S fixes 1 and k and swaps i and j (27 cases, common factor to 3e-15); the centre -I leaves every reading's outputs unchanged (3e-14) and exchanges no reading; T's eigenphases on the Higgs triplet are 1/8, 3/8, 7/8, so frame C uses no level-5 icosahedral triplet; with the frame's charges, up and down coincide at 2, 3, 6, up and leptons (negated and transposed) at 7, down and leptons (transposed) at 5, and no two sectors at any order above 7. No value computed. 0 of 19.” |  | 0 |
 | `B1938` | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by main): each channel's bilinear is R_s times Kronecker's function at z_s = (q_L+q_R) w - h_s, the Higgs's hypercharge line shifted by the channel's spin structure (6.7e-18 at 20 digits; 6.2e-15 on a second route); |R_s| is the root of two zeta-regularised twisted Laplacian determinants over 2 pi |eta| (1.1e-14); Parseval derives B1919's constant without F_u (1.6e-12); the read-out on U(1)-class, Pin(2)-class and other words agrees within sampling error (max |z| 1.8; a 1 % control caught at |z| 6.4). No joint changes type; C07 and C08 stay chosen. 0 of 19.” |  | 0 |
 | `B1939` | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.” |  | 0 |
+| `B1940` | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there, and neither a 50-digit SVD nor the closed-form residues repair it; the frame redone in mpmath passes tau -> tau + 1 to 1e-18 at heights 12 to 45 and matches the double frame where that is sound; the area options' mixing moduli move by up to 0.068 in ln, their mass ratios by under 1e-4, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. 0 of 19.” |  | 0 |
+| `B1941` | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (384)
 

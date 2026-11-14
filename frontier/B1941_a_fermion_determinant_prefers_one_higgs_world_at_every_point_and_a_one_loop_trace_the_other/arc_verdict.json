@@ -1,0 +1,28 @@
+{
+ "id": "B1941",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1932",
+  "B1934",
+  "B1936",
+  "B1940"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-SURVIVAL, its S4 (harvest row 1815; the card read through the mask, the output's flags only)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's coupling (B1932's exact weight and the truncated one), averaged over the 24 points of order 5, in extended precision (B1940)",
+  "object": "the difference between the two Higgs worlds of a fermion log-determinant weight and of a one-loop trace term",
+  "reach": "single",
+  "hypotheses": "28 points of the modular surface from height 0.9 to 9; the leptons' determinant is the down determinant at level 5 (B1934); the sign at other points is not proved"
+ },
+ "claim_one_line": "A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.",
+ "weave_or_thread": "the weave (pointwise over the modular surface, before any average)"
+}

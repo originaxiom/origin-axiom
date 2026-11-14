@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1636** |
-| words of findings prose | **1,467,031** |
+| research arcs with findings | **1638** |
+| words of findings prose | **1,468,972** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1636** (100.0 %) |
+| arcs carrying an authored verdict | **1638** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1138 |
+| PROVED | 1140 |
 | NEGATIVE | 384 |
 | OPEN | 101 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1939`** (1689 words, 0 locks)  
-“FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.”  
-`B1939_the_agy_seats_unharvested_claims_recomputed/FINDINGS.md`
+**PROVED — `B1941`** (821 words, 0 locks)  
+“A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.”  
+`B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  

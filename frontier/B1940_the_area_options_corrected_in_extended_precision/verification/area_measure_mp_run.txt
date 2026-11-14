@@ -1,0 +1,10 @@
+H1 held done (274 s)
+H1 trend done (528 s)
+H2 held done (736 s)
+H2 trend done (891 s)
+corrected (B1932's heights) against B1932, held: max |d ln| 0.0657 at 10
+corrected (B1932's heights) against B1932, trend: max |d ln| 0.0603 at 10
+refined heights against B1932's heights (held): max |d ln| 5.53e-03
+the end's two brackets (refined): max |d ln| 3.01e-03
+
+[exited with code 0]

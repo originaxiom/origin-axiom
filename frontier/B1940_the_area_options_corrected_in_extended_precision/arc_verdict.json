@@ -1,0 +1,28 @@
+{
+ "id": "B1940",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1932",
+  "B1937",
+  "B1928",
+  "B1906",
+  "B1919",
+  "B1938"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C with the exact channel weight (B1932), the canonical end, averaged over the 24 points of order 5",
+  "object": "the frame high in the cusp; the big run's area options; the run's script, version 3",
+  "reach": "single",
+  "hypotheses": "B1932's area construction kept but for the frame above height 6; the frame in mpmath at 30 + 2 Im tau digits; the end's table read at x reduced mod 1; the corrected values computed once, their second computation owed"
+ },
+ "claim_one_line": "THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there, and neither a 50-digit SVD nor the closed-form residues repair it; the frame redone in mpmath passes tau -> tau + 1 to 1e-18 at heights 12 to 45 and matches the double frame where that is sound; the area options' mixing moduli move by up to 0.068 in ln, their mass ratios by under 1e-4, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. 0 of 19.",
+ "weave_or_thread": "the weave (the read-out on the whole)"
+}

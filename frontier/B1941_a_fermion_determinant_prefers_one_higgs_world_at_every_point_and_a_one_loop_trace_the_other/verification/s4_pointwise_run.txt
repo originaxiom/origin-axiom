@@ -1,0 +1,8 @@
+-Tr H^2, weights 1,1,1, exact weight           positive at  0 of 28 points  min -3.015e+21  max -2.207e-02
+-Tr H^2, weights 1,1,1, truncated weight       positive at  0 of 28 points  min -3.015e+21  max -2.164e-02
+-Tr H^2, weights 3,3,1, exact weight           positive at  0 of 28 points  min -3.247e+21  max -4.248e-02
+-Tr H^2, weights 3,3,1, truncated weight       positive at  0 of 28 points  min -3.250e+21  max -4.159e-02
+ln det, weights 1,1,1, exact weight            positive at 28 of 28 points  min +6.087e-01  max +2.983e+00
+ln det, weights 1,1,1, truncated weight        positive at 28 of 28 points  min +6.074e-01  max +2.966e+00
+ln det, weights 3,3,1, exact weight            positive at 28 of 28 points  min +1.381e+00  max +6.437e+00
+ln det, weights 3,3,1, truncated weight        positive at 28 of 28 points  min +1.384e+00  max +6.389e+00

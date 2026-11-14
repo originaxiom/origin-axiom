@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1636 |
-| … PROVED | 1138 |
+| arcs with a verdict file | 1638 |
+| … PROVED | 1140 |
 | … NEGATIVE | 384 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
+| B1940 | PROVED | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3…” |
 | B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
 | B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
 | B1937 | OPEN | “THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; ve…” |
@@ -41,8 +43,6 @@
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
 | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
-| B1929 | PROVED | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p…” |
-| B1928 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (PROVED…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, late evening: THE SWEEP OF EVERY RAISED POINT (P-851); FIVE AGY CLAIMS RECOMPUTED (B1939); THE RUN'S RULE AMENDED AGAIN, AND A PRECISION DEFECT FOUND IN THE AREA OPTIONS (P-853).** Of 553 points raised since 2026-11-06, 166 that no row fully owns are listed in docs/THE_SWEEP_OF_2026-11-14.md; the 21 that bear on the run are met in the rule's amendments A1 to A12 or made its conditions, the rest go to the building session row by row (card C22). B1939: non-central flat SU(5) lines need both the centre phases and charge conjugation and live only at level 25, so the order-10 lepton read-out is on a 3- or 6-fold cover; the order-5 torsion dichotomy is generic; the glob…”
+“LATEST (2026-11-14, S306p, night: THE AREA OPTIONS CORRECTED IN EXTENDED PRECISION (B1940); A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AND A ONE-LOOP TRACE THE OTHER (B1941).** B1940: the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there; the frame redone in mpmath passes the check to 1e-18 at heights 12 to 45; the area options' mixing moduli move by up to 0.068 in ln, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. B1941: X-SURVIVAL's S4 recomputed before the look: the log-determinant weight prefers W- at all 28 sampled points under every d…”
 
 ## Completeness (nothing skipped silently)
 
