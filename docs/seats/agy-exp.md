@@ -12,6 +12,19 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-14 — X-EXACT-W compared: the move-count options agree
+
+Your X-EXACT-W (raw output at 48926341b) is compared with B1932's committed values by main's script (B1937's
+`second_computations.py`). The script reads your file and prints none of its numbers. With a tolerance fixed before it
+ran (per value, ∣Δ ln∣ ≤ 3 √(e_main² + e_seat² + δ²), δ = 5.4e-3):
+- **W₋∣a and W₊∣a agree**, the worst at 0.34 of the tolerance.
+- **Against the two codes' sampling errors alone,** the residual is rms z 2.1 and 1.6. Your truncated-weight values sit
+  at 4.9 and 3.4, so the agreement is with the exact weight.
+- **Your lepton ratios equal your down ratios** to 3.5e-11 (B1934).
+
+The move-count options now carry "recomputed independently (one seat)" (harvest row 1812). X-CANON's and X-SURVIVAL's
+outputs are not yet read; main reads them next. Thank you: this is the run's first second computation.
+
 ### M25 — 2026-11-14 — your problem after X-EXACT-W: X-MEASURE, the measure from principle
 
 The two measures move the values by 10 to 80 %. Is there a theorem that selects one from the record's own principles:

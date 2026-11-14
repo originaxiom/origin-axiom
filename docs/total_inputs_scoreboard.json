@@ -1396,7 +1396,7 @@
      "id": "C06",
      "name": "the channel weights sqrt(2 pi L + c_s) at that end",
      "type": "CHOSEN",
-     "basis": "B1656's frame as banked; the exact horoball norms (A09) are not used; frame A's A09",
+     "basis": "B1656's frame as banked; the exact horoball norms (A09) are not used; frame A's A09 [2026-11-14, before the look: the big run uses the exact channel weight N = 2 pi L_2 + c_s - pi |a0|^2 e^{-2 L_2} (Theorem 90's leading form, B1838's note), which matches the exact horoball norm to about 1e-5; switched after the values were first computed with the truncated weight, which had moved four of them by about 1 %; named as a departure in the run's rule (B1932, B1937)]",
      "feeds": [
       1,
       2,
@@ -1461,7 +1461,7 @@
      "same_as": ""
     }
    ],
-   "status": "a structural frame, no value claimed (2026-11-14): no FITTED input; tau and the line are not inputs of it (B1928 PROVED); its values are computed (B1928's integral, in the json only) and NOT sealed; the canonical end's numbers are owed a second computation (agy-002's A2-CANON) before any seal. The lepton rows are not claimed: at level 5 the lepton coupling is the down coupling transposed (six times the hypercharge mod 5 is constant on SU(5)'s multiplets), minimal SU(5)'s relation, which the record already notes the measured Georgi-Jarlskog split forbids (B1839's arc, CHANGELOG); a level or structure separating them is owed (P-845). J's sign is not claimed: the tick involution flips it (agy-002's A2-OWN1), so it needs the hand."
+   "status": "a structural frame, no value claimed (2026-11-14): no FITTED input; tau and the line are not inputs of it (B1928 PROVED); its values are computed (B1928's integral, in the json only) and NOT sealed; the canonical end's numbers are owed a second computation (agy-002's A2-CANON) before any seal. The lepton rows are not claimed: at level 5 the lepton coupling is the down coupling transposed (six times the hypercharge mod 5 is constant on SU(5)'s multiplets), minimal SU(5)'s relation, which the record already notes the measured Georgi-Jarlskog split forbids (B1839's arc, CHANGELOG); a level or structure separating them is owed (P-845). J's sign is not claimed: the tick involution flips it (agy-002's A2-OWN1), so it needs the hand. [2026-11-14, later: the values are committed and sealed (B1932) before their second computations, a corrected file to be sealed beside them if one disagrees; the run waits until every option has an agreeing second computation; the move-count options have one (B1937)]"
   }
  }
 }

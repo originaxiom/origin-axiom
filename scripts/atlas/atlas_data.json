@@ -17273,6 +17273,15 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1937": {
+   "slug": "the big runs rule amended before the look",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

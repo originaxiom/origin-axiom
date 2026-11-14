@@ -2,7 +2,7 @@
 
 **Verdict: OPEN** (the values are computed once by main and committed; the independent second computations are owed
 before the run, agy-002's A2-CANON and agy-exp's X-CANON). Main, 2026-11-14 night, for the run the author set for
-2026-11-15. Register rows P-845 and P-848. **No value is compared with any measured number here.** 0 of 19.
+2026-11-15. Register rows P-845 and P-848 [corrected 2026-11-14 (B1937): P-850, the big run's row; P-848 is Review 82's opening]. **No value is compared with any measured number here.** 0 of 19.
 
 
 ## Seen first

@@ -1,0 +1,30 @@
+{
+ "id": "B1937",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1932",
+  "B1934",
+  "B1735",
+  "B1720",
+  "B1838"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-F18 (relayed at ded0292cd): the cold read of B1932's rule, its ten findings O1 to O10",
+  "agy-exp's X-EXACT-W (raw output at 48926341b, read only by main's comparison script, none of its numbers printed): the second computation of the move-count options"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C (docs/total_inputs_scoreboard.json) with the exact channel weight, B1932's committed values",
+  "object": "the big run's rule and comparison script, version 2; the second computations of the values",
+  "reach": "single",
+  "hypotheses": "no comparison with measured values made; the data files unopened by main; the area options' second computation owed; blindness of second computations not assumed (the values file is public)"
+ },
+ "claim_one_line": "THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; version 2 governs on frame C's seven claimed rows with chi2_7 and B1720's coarse cell, both calibrated, reports P-341's six and nine with the leptons frame C gives (the down rows, B1934; not claimed), lists every passing option, writes priors, and waits until every option has an agreeing second computation; the move-count options are recomputed independently (worst 0.34 of the tolerance fixed before the comparison; rms z 2.1 and 1.6 against sampling errors alone, against 4.9 and 3.4 for the truncated weight). No value compared. 0 of 19.",
+ "weave_or_thread": "the weave (the read-out on the whole)"
+}

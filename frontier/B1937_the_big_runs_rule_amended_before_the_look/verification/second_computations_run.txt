@@ -1,0 +1,25 @@
+W-|a (move count) vs W_minus__exact_T90
+    up__2_over_3: dln/tol +0.21, z +1.4
+    up__1_over_3: dln/tol +0.28, z +3.0
+    down__2_over_3: dln/tol +0.20, z +1.2
+    down__1_over_3: dln/tol +0.29, z +2.9
+    mixing__1_2: dln/tol -0.25, z -2.0
+    mixing__2_3: dln/tol +0.06, z +1.7
+    mixing__1_3: dln/tol -0.34, z -1.9
+W+|a (move count) vs W_plus__exact_T90
+    up__2_over_3: dln/tol +0.20, z +1.3
+    up__1_over_3: dln/tol +0.26, z +2.0
+    down__2_over_3: dln/tol +0.20, z +1.2
+    down__1_over_3: dln/tol +0.26, z +1.8
+    mixing__1_2: dln/tol -0.16, z -2.3
+    mixing__2_3: dln/tol +0.02, z +0.4
+    mixing__1_3: dln/tol -0.16, z -1.1
+worst |d ln| / tolerance: 0.34 -> AGREE
+control (seat's old weight vs main's exact): max |d ln| 0.0166
+discrimination (z against the two codes' jackknife errors only; rms over the seven):
+   W- seat exact_T90     rms z   2.1, max |z|   3.0, max dln/tol 0.34
+   W- seat old_small_cut rms z   4.9, max |z|   9.7, max dln/tol 0.98
+   W+ seat exact_T90     rms z   1.6, max |z|   2.3, max dln/tol 0.26
+   W+ seat old_small_cut rms z   3.4, max |z|   6.3, max dln/tol 0.90
+seat's lepton vs down, W_minus__exact_T90 max rel diff 2.0e-11
+seat's lepton vs down, W_plus__exact_T90 max rel diff 3.5e-11
