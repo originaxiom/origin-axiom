@@ -1,0 +1,13 @@
+=== A2-R82 Standalone Counterchecks at 86930f574 ===
+[1] B1929 lock line 56: '    assert worst < 1e10'; zeroed/flipped error 5.3333 < 1e10 (cannot fail).
+[2] B1917 lock line 32 upper bound = 2.000e-05 < 1e-4 (tautology); hecke_s2: 16/17 < 1e-7, max_16=4.546e-08, outlier=2.030e-04.
+[3] B1927 corner L_max (0.01->0.02): 80deg=1.9924, 70deg=1.9918 (1.99, NOT 1.79); paired |z| medians: 16m=20.56, 22m=25.39 (100% > 2).
+[4] B1928 fiber_grid_fine len = 1046 (NOT 1034); per-letter return mean on L^m R: m=100 -> 0.0916, m=10000 -> 0.001842 -> 0 at L^inf.
+[5] B1923 LOAD_BEARING_NEGATIVES.md rows A..D = 30 (NOT 26).
+[6] B1924/B1667 54-pt spread: L_max=0.7160, L_2=0.2708 (per-column 48-grid ranges: 0.4101..0.6495 and 0.1629..0.2678).
+[7] B1925: even m cyclic=0/7, odd m cyclic=7/7; sqrts of 1 mod(m^2+4): m=9->4, m=11->2, m=13->2; tr>0 count=180/360.
+[8] B1926 control_odd_without_mu levels in JSON: [3, 5] (level 7 not run).
+[9] B1918 true average residual=15.21 on spread=92.16 (reported integral 29.28 on 177.39); B1920 <F_u>=8.9068 vs kappa_0=32.5023, Z0!=slope on 167/601 chars.
+[10] B1919 rotated shift across 24 kept rows: 0.0511 to 17.80 (reported 0.3 to 7).
+[11] POINT_REGISTER.md open debts: count=93, max_rank=94, missing=[45].
+=== ALL 11 R82 STANDALONE COUNTERCHECKS PASSED (0 of 19.) ===

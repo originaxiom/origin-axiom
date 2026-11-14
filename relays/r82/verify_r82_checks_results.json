@@ -1,0 +1,180 @@
+{
+  "commit": "86930f574",
+  "checks": {
+    "B1929_lock_1e10": {
+      "line_56": "    assert worst < 1e10",
+      "n_chars": 601,
+      "sign_flip_error_scale": 5.333333333333332,
+      "passes_1e10_when_zeroed_or_flipped": true
+    },
+    "B1917_lock_and_hecke_s2": {
+      "line_32": "    assert abs(L / (H.H(2) * R / 2) - 2) < 1e-4            # planted: half the orbit strip is off by exactly 2",
+      "algebraic_upper_bound_given_line_31": 2.000020000200002e-05,
+      "total_chars": 17,
+      "count_lt_1e7": 16,
+      "max_among_16": 4.5455278104673375e-08,
+      "outliers_ge_1e7": [
+        0.00020300815214249274
+      ]
+    },
+    "B1927_corner_and_paired": {
+      "corner_ratios": {
+        "80.0": {
+          "L_max_01_02": 1.992442597917511,
+          "L_max_02_04": 1.9849715805512922,
+          "L_2_01_02": 3.9608013018514163
+        },
+        "70.0": {
+          "L_max_01_02": 1.991750428227923,
+          "L_max_02_04": 1.9836186707415655,
+          "L_2_01_02": 3.9610149466763205
+        }
+      },
+      "paired_Lmax_vs_L2": {
+        "16 mark": {
+          "n_components": 24,
+          "median_abs_z": 20.564327910210103,
+          "share_gt_2": 0.9166666666666666
+        },
+        "16 twin": {
+          "n_components": 24,
+          "median_abs_z": 19.980117355727064,
+          "share_gt_2": 0.9166666666666666
+        },
+        "22 mark": {
+          "n_components": 24,
+          "median_abs_z": 25.388945690094502,
+          "share_gt_2": 1.0
+        },
+        "22 twin": {
+          "n_components": 24,
+          "median_abs_z": 26.66924737361414,
+          "share_gt_2": 0.9166666666666666
+        }
+      }
+    },
+    "B1928_grid_and_return_time": {
+      "fiber_grid_fine_len": 1046,
+      "tr_L12_parabolic": 2,
+      "per_letter_mean_return_L100R": 0.0915817164860496,
+      "per_letter_mean_return_L10000R": 0.0018419238760089686
+    },
+    "B1923_scan_row_count": {
+      "count_A_to_D": 30,
+      "ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9"
+      ]
+    },
+    "B1924_B1667_spreads": {
+      "n_points": 54,
+      "global_54_spread_L_max": 0.7160386732333731,
+      "global_54_spread_L_2": 0.2708492957168702,
+      "per_column_48_spread_range_L_max": [
+        0.41007379346552275,
+        0.6495416561468097
+      ],
+      "per_column_48_spread_range_L_2": [
+        0.16285629752798103,
+        0.267820581760855
+      ]
+    },
+    "B1925_checks": {
+      "even_m_any_cyclic_line": false,
+      "odd_m_all_cyclic_line": true,
+      "sqrts_of_1_mod_m2_plus_4": {
+        "9": {
+          "N": 85,
+          "roots": [
+            1,
+            16,
+            69,
+            84
+          ],
+          "count": 4
+        },
+        "11": {
+          "N": 125,
+          "roots": [
+            1,
+            124
+          ],
+          "count": 2
+        },
+        "13": {
+          "N": 173,
+          "roots": [
+            1,
+            172
+          ],
+          "count": 2
+        }
+      },
+      "hyperbolic_in_box_7": {
+        "total": 360,
+        "tr_gt_0": 180,
+        "tr_lt_0": 180,
+        "tr_lt_0_violating_equiv": 14
+      },
+      "lock_line_53_tautology_on_arbitrary_integers": true
+    },
+    "B1926_twisted_levels_run": [
+      3,
+      5
+    ],
+    "B1918_B1920_math": {
+      "B1918_ell": 1.9248473002384139,
+      "B1918_reported_integral_res_spread": [
+        29.276571621133684,
+        177.38605370496143
+      ],
+      "B1918_true_average_res_spread": [
+        15.209815146119618,
+        92.15590955344364
+      ],
+      "B1920_ell_plus_LR2": 3.8496946004768278,
+      "B1920_F_u_average": 8.906783,
+      "B1920_kappa0_at_s1": 32.502289685590526,
+      "B1920_chars_where_Z0_ne_slope": 167
+    },
+    "B1919_rotated_shift_24": {
+      "min_abs_diff": 0.05114550728907741,
+      "max_abs_diff": 17.80125934635829
+    },
+    "POINT_REGISTER_rank_skip": {
+      "debt_count": 93,
+      "max_rank_label": 94,
+      "missing_ranks": [
+        45
+      ]
+    }
+  }
+}
