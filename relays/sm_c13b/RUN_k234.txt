@@ -1,0 +1,9 @@
+const tau=(0.4000, 2.7000) K2 min 3.62e-02 K3 5.5e-15 K4 3.6e-15
+const tau=(0.1300, 1.9000) K2 min 6.46e-02 K3 1.6e-15 K4 4.9e-16
+const tau=(-0.3100, 1.3000) K2 min 5.01e-03 K3 2.2e-15 K4 3.7e-16
+const tau=(0.2700, 3.4000) K2 min 9.13e-02 K3 8.5e-14 K4 3.3e-14
+canon tau=(0.4000, 2.7000) K2 min 8.28e-04 K3 6.3e-15 K4 2.0e-15
+canon tau=(0.1300, 1.9000) K2 min 6.22e-02 K3 2.2e-15 K4 6.1e-16
+canon tau=(-0.3100, 1.3000) K2 min 3.71e-02 K3 2.8e-15 K4 2.7e-16
+canon tau=(0.2700, 3.4000) K2 min 7.86e-02 K3 3.0e-14 K4 2.9e-14
+done k234 in 32 s
