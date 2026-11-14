@@ -1,0 +1,20 @@
+prime 41801761
+R1 tau_3 abelianises to J_3 (columns): [[3, 1], [1, 0]] ; tau_3^2: [[10, 3], [3, 1]] ; holds: True
+tick 1 level 1 orientable False | torsion 1 exponent 1 | conjugator True | fibre-torsion characters 0 | all characters 2 | non-split modules 0 | record sector modules 0 | firing law True | twisted duality True | untwisted holds True | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [] ; characters: [((-1, 0), 1), ((1, 0), 1)]
+tick 1 level 2 orientable True | torsion 1 exponent 1 | conjugator True | fibre-torsion characters 0 | all characters 2 | non-split modules 0 | record sector modules 0 | firing law True | twisted duality True | untwisted holds True | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [] ; characters: [((0, 0), 2)]
+tick 1 level 3 orientable False | torsion 4 exponent 2 | conjugator True | fibre-torsion characters 3 | all characters 16 | non-split modules 0 | record sector modules 0 | firing law True | twisted duality True | untwisted holds False | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [] ; characters: [((-1, 0), 4), ((0, 0), 8), ((1, 0), 4)]
+tick 3 level 1 orientable False | torsion 3 exponent 3 | conjugator True | fibre-torsion characters 2 | all characters 18 | non-split modules 0 | record sector modules 0 | firing law True | twisted duality True | untwisted holds False | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [] ; characters: [((-1, 0), 3), ((0, 0), 12), ((1, 0), 3)]
+tick 3 level 2 orientable True | torsion 9 exponent 3 | conjugator True | fibre-torsion characters 8 | all characters 54 | non-split modules 56 | record sector modules 56 | firing law True | twisted duality True | untwisted holds True | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [((-1, 1), 8), ((0, 0), 40), ((1, -1), 8)] ; characters: [((0, 0), 54)]
+tick 3 level 3 orientable False | torsion 36 exponent 18 | conjugator True | fibre-torsion characters 35 | all characters 1296 | non-split modules 0 | record sector modules 0 | firing law True | twisted duality True | untwisted holds False | cone (k = 2, 3, 4) as expected True
+   gap census, non-split modules: [] ; characters: [((-1, 0), 36), ((0, 0), 1224), ((1, 0), 36)]
+R2 holds: True
+R3 holds: True
+R4 holds: True
+R5 holds: True
+R6 holds: True
+R7 holds: True
