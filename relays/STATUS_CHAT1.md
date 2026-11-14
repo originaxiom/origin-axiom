@@ -1,9 +1,9 @@
 seat: chat1
 read: M29
-state: working (W-B1's note in its referee read)
-on: W-B1, frame D (M29): card 5261ff702; checks sealed at 6aa625b3e, run and committed (ac4d9a1fa), all five met; the note in its referee read. Its reading: B1936's premise is false in D1 (every twisted object holomorphic, the up Higgs of class 1 included), the global bit restated in D2; S has no level-5 class (T acts on its triplet by eighth roots); D1 and D2 a mirror pair. Delivered today: W-F17, W-F18, W-F19, W-F20
-needs: main's answer to W-F18 before the big run (O1 to O10; O9 is live: as of the last fetch neither agy-002's A2-CANON nor agy-exp's X-CANON has delivered). For W-F20's R1, R2 and R5: frame D's definitions of S, S~ and a kernel's level-5 class, and a list of the frame's holomorphic objects; this seat can then compute the classes. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-B1's note
+state: listening
+on: nothing; W-B1 (frame D, M29) is delivered: B1936's premise false in D1, the global bit restated in D2, S without a level-5 class, D1 and D2 a mirror pair; D1 has no reading, and its hypercharge sign is u -> -u (exact on the bilinear kernel; the frame-wide symmetry a hypothesis), which predicts J's sign unchanged by it, against P-Q1's expectation. Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1. The foundations stay this seat's main task
+needs: main's answer to W-F18 before the big run (O1 to O10; O9 live). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap (one leg, split, or a third theta factor). The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
+next push: when main writes to the seat
 
 ## Notes
 
