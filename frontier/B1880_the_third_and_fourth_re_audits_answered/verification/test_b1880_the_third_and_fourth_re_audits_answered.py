@@ -89,10 +89,13 @@ def test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned(
 
 def test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list():
     amb = [e for e in G.hash_list_state(_resolved={}) if e[3] == "AMBIGUOUS"]
-    assert sorted(e[0] for e in amb) == sorted(G.HASH_LIST_RESOLVED) and len(amb) == 2
+    # [2026-11-14: was "exactly the two declared entries are ambiguous". The removal of 2026-11-13 (docs/REORGANIZATIONS.md)
+    #  took one of the duplicate copies out of the tree, so that entry now resolves alone and is no longer ambiguous.
+    #  Held now: every ambiguous entry is one of the declared two, and each declared entry still verifies.]
+    assert {e[0] for e in amb} <= set(G.HASH_LIST_RESOLVED) and 1 <= len(amb) <= 2
     for key, path in G.HASH_LIST_RESOLVED.items():
-        lst = next(e[1] for e in amb if e[0] == key)
-        assert os.path.dirname(path) == os.path.dirname(lst)                 # the arc's own copy, beside its list
+        lst = next((e[1] for e in amb if e[0] == key), None)
+        assert lst is None or os.path.dirname(path) == os.path.dirname(lst)  # the arc's own copy, beside its list
     assert all(e[3] == "VERIFIES" for e in G.hash_list_state() if e[0] in G.HASH_LIST_RESOLVED)
 
 
@@ -122,7 +125,9 @@ def test_the_ceilings_gate_as_mended():
     sents = G.arrival_sentences()
     assert len(sents) == 3 and {k for k, *_ in sents} == set(G.ARRIVAL_FROZEN)
     pages = G._arrival_files(str(ROOT))
-    assert len(pages) > 500 and any(p.endswith(".tex") for p in pages) and any(p.startswith("docs/progress/") for p in pages)
+    # [2026-11-14: was "> 500". The removals of 2026-11-13 (the old front pages and hand-over notes) took the count to 394;
+    #  the gate still reads every page of its kinds. Held now: above 350, with both kinds present.]
+    assert len(pages) > 350 and any(p.endswith(".tex") for p in pages) and any(p.startswith("docs/progress/") for p in pages)
     assert not G._ARRIVAL_NEG_RE.search(" we claim that ") and G._ARRIVAL_NEG_RE.search(" our aim is that ")
     assert not G._ARRIVAL_NEG_RE.search(" a minor point: ") and not G._ARRIVAL_NEG_RE.search(" nonetheless ")
     assert len(G.ARRIVAL_PHRASES) == 16

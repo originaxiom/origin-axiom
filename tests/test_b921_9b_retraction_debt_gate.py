@@ -40,7 +40,7 @@ def test_the_twelve_retracted_arcs_are_found_from_the_verdict_files():
 def test_the_real_ledger_is_clean():
     r = subprocess.run([sys.executable, str(CHECKER)], capture_output=True, text=True)
     assert r.returncode == 0, r.stdout + r.stderr
-    assert "12 of 12" in r.stdout, r.stdout
+    assert "13 of 13" in r.stdout, r.stdout  # [2026-11-14: thirteen since B1918 was RETRACTED on 2026-11-13, with its row in RETRACTIONS.md; was twelve]
 
 
 def test_the_check_fails_when_the_rows_are_stripped(tmp_path):
@@ -52,7 +52,7 @@ def test_the_check_fails_when_the_rows_are_stripped(tmp_path):
     env = dict(os.environ, OA_RETRACTIONS_LEDGER=str(stripped))
     r = subprocess.run([sys.executable, str(CHECKER)], capture_output=True, text=True, env=env)
     assert r.returncode == 1, "the check passed a ledger with every row removed"
-    assert "12 UNREGISTERED" in r.stdout, r.stdout
+    assert "13 UNREGISTERED" in r.stdout, r.stdout  # [2026-11-14: thirteen since B1918 was RETRACTED on 2026-11-13, with its row in RETRACTIONS.md; was twelve]
 
 
 def test_a_bare_mention_without_a_retraction_verb_does_not_discharge_the_debt():

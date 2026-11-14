@@ -167,7 +167,11 @@ def test_the_page_gives_the_numbers_of_the_runs():
 def test_what_main_changed_at_the_landing_stands():
     g = _gates()
     ok, detail = g.GATES["retraction-sweep"]()
-    assert ok is True and "11 standing instance(s)" in detail and "shorten the table" not in detail, detail
+    # [2026-11-14: was "11 standing instance(s)". Later mends removed two of the phrases held by name; a table of
+    #  standing instances is a ceiling that may only shrink (the gate's own rule), so it is held at no more than 11.]
+    import re as _re
+    _m = _re.search(r"(\d+) standing instance\(s\)", detail)
+    assert ok is True and _m and int(_m.group(1)) <= 11 and "shorten the table" not in detail, detail
     c = json.loads((ROOT / "frontier" / "B1632_w45_verified_on_main" / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
     assert c.startswith("[READ THIS FIRST, placed at the head 2026-11-12") and "REFUTED IN PART by B1634" in c[:400] and c.rstrip().endswith("the computation stands.]")
     page = (ROOT / "papers" / "P3_THE_PAPER" / "CLAIM_CANDIDATES.md").read_text(encoding="utf-8")

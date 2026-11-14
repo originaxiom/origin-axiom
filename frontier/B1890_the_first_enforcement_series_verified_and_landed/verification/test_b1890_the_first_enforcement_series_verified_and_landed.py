@@ -103,7 +103,10 @@ def test_the_gates_that_read_history_on_the_day_of_the_first_series_still_do():
 def test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty(monkeypatch):
     g = _gates()
     monkeypatch.setattr(g, "checkout_state", lambda *a, **k: "empty")
-    for name, what in (("path-refs", "which files are tracked"), ("append-only", "the history")):
+    # [2026-11-14: path-refs was moved on 2026-11-13 to the gates that read the history (a removed file resolves at the
+    #  commit the move log names, scripts/gates/gates.py READS_HISTORY), so its refusal now names the history; a gate that
+    #  asks only which files are tracked is held by arrival-phrases instead]
+    for name, what in (("arrival-phrases", "which files are tracked"), ("path-refs", "the history"), ("append-only", "the history")):
         ok, why = g._refusing(name, lambda: (True, "ok"))()
         assert ok is False and why == g.REFUSED_EMPTY % what, (name, why)
     monkeypatch.setattr(g, "checkout_state", lambda *a, **k: "full")              # the control: where the checkout is whole the gate is asked

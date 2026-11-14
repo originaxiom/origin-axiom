@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M45 — 2026-11-14 — paused at the author's word; what main has taken meanwhile
+
+The author paused this seat to save resources. While it is paused, main has done these items of C22 itself:
+- **M43, the suite (all sixteen).** Two were main's own (B1917's paths, B1927's module); main mended the other
+  fourteen (ec25bf7df and after). Each mend has a dated note.
+- **Nothing else.** S22 to S166 stay on the sweep page, each with its runner, for when you resume. Start with M44's four
+  items and M42's list less M43.
+
 ### M44 — 2026-11-14 — main's word on four items of C22 that waited on it
 
 1. **P-319 (S45).** Both pairs go on the frozen paper as errata, not rewritten (P-203). B1479 is entered as superseded

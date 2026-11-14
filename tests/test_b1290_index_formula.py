@@ -135,7 +135,7 @@ def test_the_backlinks_did_NOT_change_any_verdict():
     # banked. Banking arcs must not red this test -- the claim it defends is narrower and
     # permanent: SUPERSEDING IS NOT RETRACTING, so writing 36 superseded_by back-links moved
     # no arc into or out of RETRACTED. (Same lesson as test_b1242's ratchet comment.)
-    assert c["RETRACTED"] == 12, f"retraction count moved: {c['RETRACTED']}"
+    assert c["RETRACTED"] == 13, f"retraction count moved: {c['RETRACTED']}"  # [2026-11-14: thirteen since B1918 was RETRACTED on 2026-11-13, with its row in RETRACTIONS.md; was twelve]
     import json as _json, glob as _glob
     backlinked = [f for f in _glob.glob(str(ROOT / "frontier" / "*" / "arc_verdict.json"))
                   if (_json.load(open(f, encoding="utf-8")) or {}).get("superseded_by")]

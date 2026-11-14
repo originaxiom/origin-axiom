@@ -64,4 +64,4 @@ def test_the_disambiguation_is_registered():
 def test_retracted_stays_a_small_deliberate_set():
     """A drift guard: RETRACTED is rare by construction. A jump means the rule slipped again."""
     n = sum(1 for _, v in _verdicts() if v["verdict"] == "RETRACTED")
-    assert 4 <= n <= 12, f"{n} RETRACTED verdicts -- expected a small set; re-check against B818"
+    assert 4 <= n <= 13, f"{n} RETRACTED verdicts -- expected a small set; re-check against B818"  # [2026-11-14: thirteen since B1918 was RETRACTED on 2026-11-13, with its row in RETRACTIONS.md; was twelve]

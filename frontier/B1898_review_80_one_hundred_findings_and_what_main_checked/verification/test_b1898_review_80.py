@@ -76,14 +76,22 @@ def test_mains_files_are_as_main_wrote_them():
     its hash is of the file with the note, and the test above holds that under the note it is the file main wrote."""
     names = ["ANSWERS_the_first_43.md", "STATUS_OF_THE_57.md"] + sorted("verification/checks/" + p.name for p in (HERE / "checks").iterdir())
     assert names == sorted(HELD, key=lambda n: (not n.endswith(".md"), n)) and len(names) == 26
+    # [2026-11-14: Review 81's entry (28ec55546, 2026-11-13) put dated corrections into STATUS_OF_THE_57.md and into one
+    #  check's docstring. The files main wrote stand in the history (21539816b) and in main's folder, and are held there by
+    #  their hashes; the arc's copies are held either as main wrote them or exactly as Review 81 left them.]
+    import subprocess as _sp
+    _at = lambda c, n: _sp.run(["git", "-C", str(ROOT), "show", c + ":" + str((ARC / n).relative_to(ROOT))], capture_output=True).stdout
     for name in names:
-        assert hashlib.sha256((ARC / name).read_bytes()).hexdigest() == HELD[name], name + " is not the file main wrote"
-    # while main's folder stands in the tree, each file is the folder's, byte for byte
+        b = (ARC / name).read_bytes(); h = hashlib.sha256(b).hexdigest()
+        assert h == HELD[name] or b == _at("28ec55546", name), name + " is not the file main wrote, nor as Review 81 left it"
+        if h != HELD[name]:                       # a file Review 81 changed: main's own stands in the history
+            assert hashlib.sha256(_at("21539816b", name)).hexdigest() == HELD[name], name + ": the history does not hold main's file"
+    # while main's folder stands in the tree, each file is main's as it wrote it, byte for byte
     folder = ROOT / "docs" / "handoffs" / "MAIN_TO_BUILDER_2026-11-12" / "review80"
     for name in names:
         theirs = folder / name.replace("verification/", "")
         if theirs.is_file():
-            assert theirs.read_bytes() == (ARC / name).read_bytes(), name
+            assert hashlib.sha256(theirs.read_bytes()).hexdigest() == HELD[name], name
 
 
 def _with_its_mends_put_back(text):
@@ -238,7 +246,12 @@ def test_the_numbers_are_held_as_sentences_and_not_as_digits():
     page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     sec = lambda n: " ".join(page[page.index("\n## %d. " % n):page.index("\n## %d. " % (n + 1))].split())
     assert T["findings in all"] == 100 == T["checked by main in full, both tables"] + 20
-    assert "**80 of them main checked in full, and every one held.** Main checked 3 in part. **17 nobody but their reader has looked at.**" in sec(1)
+    # [2026-11-14: Review 81 inserted a dated correction inside this sentence (28ec55546); the words main wrote are held
+    #  under it, and the correction is held to be there]
+    import re as _re
+    _s1 = _re.sub(r" \[CORRECTED 2026-11-13 \(Review 81[^\]]*\]", "", sec(1))
+    assert "**80 of them main checked in full, and every one held.** Main checked 3 in part. **17 nobody but their reader has looked at.**" in _s1
+    assert "[CORRECTED 2026-11-13 (Review 81" in sec(1)
     alone = T["the second table: main's check is 'not checked'"]
     assert len(alone) == 17 and T["the second table: 'not checked' for a part of the row"] == ["F6", "F7", "F10"]
     named = "17 (the SM seat's 22, 25, 26, 30, 32, 33 and 37 to 41; agy-exp's F9, F11, F13 and F14; the web seat's W8 and W9)"

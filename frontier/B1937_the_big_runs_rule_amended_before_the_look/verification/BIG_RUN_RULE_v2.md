@@ -238,3 +238,32 @@ main's code before the look, or this rule records that it was not. No option is 
   - The fermion determinant prefers W₋ at all 28 sampled points under every declared change but one.
   - The one-loop trace prefers W₊.
   - So the world is picked only by the choice of functional. No option is preferred in this run.
+
+**A14. After the web seat's W-F22 and W-F23 (the same evening; the look not made).**
+- **The S* exclusion's premise is written in.**
+  - The web seat's W-F22 recomputes B1922's negative half on its own code. In one turn of the golden thread, S* does not
+    repeat; S and S̃ do (deviations 2.7, 1.5 and 2.7, against 3e-10 to 8e-5).
+  - But S* is covariant under γ³ (its components to 8e-16), being covariant only under a level-2 subgroup, not under
+    the whole modular group. So it would repeat in three turns.
+  - **The premise:** each thread's average is taken over one traversal, so the reading must be covariant under the
+    whole modular group, as the read-out on the whole is an average over SL(2, ℤ)\H (B1928). Under that premise, S* is
+    excluded and the four options stand.
+  - Dropping the premise (a level-2 read-out) is a different frame, not an option of this run. The exclusion's second
+    computation is W-F22, for the one-turn statement.
+- **N8: the scripts named after A13.** The look's second computation re-runs B1940's `big_run_look_v3.py`, its
+  `big_run_windows_v3.py`, and B1932's `big_run_look.py` (version 1, reported only). The banking line above means the
+  same.
+- **N8: if the two cards disagree.** The area options need at least one agreeing second computation (A7). If one card
+  agrees and the other does not, the run waits until the difference is found.
+- **The smaller items of W-F21 (N1 to N6).**
+  - The four mass numbers carry the same information in either form, but the χ² differs; this rule's form is P-341's.
+  - The tolerance's δ uses the larger of its two systematics.
+  - The look's second computation is a reproduction, and is labelled "reproduced".
+  - `second_computations.py` now finds its root from the file (fixed at ec25bf7df).
+  - The calibration's random stream differs from version 1's, by design.
+  - The governing calibrations attach to the best of each statistic, not to each passing option.
+
+**A15. The area comparison committed before its input (the web seat's W-F21, its caveat on O4).** The area options'
+second computation is judged by B1940's `compare_area_second.py`, committed before any seat's area output exists: the
+same tolerance as A7, and an option agrees when all seven of its values do. The adapter that maps a seat's names onto the
+seven positions is written after the output arrives. It is mechanical and prints only the differences.

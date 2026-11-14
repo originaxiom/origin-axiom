@@ -84,7 +84,11 @@ def test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words():
     for n in ("P-081", "P-082", "P-253"):
         assert "2026-11-11, the owner confirmed in a dialog" in rows[n], n
         assert "| OWNER |" in rows[n] or ("row P-825" in rows[n] and "UNTIL 2026-11-12 THE ROW READ, as a call of the owner's" in rows[n]), n
-    assert (ROOT / "docs" / "handoffs" / "CC_TO_AGY_2026-11-11_YOUR_THREE_COMPLIANCE_POINTS_ARE_MENDED.md").is_file()
+    # [2026-11-14: the hand-over notes under docs/handoffs/ were removed from the tree at the author's word on 2026-11-13
+    #  (docs/REORGANIZATIONS.md); git's history keeps them, the last commit to hold them being 9c8a50887. Held there.]
+    _ho = "docs/handoffs/CC_TO_AGY_2026-11-11_YOUR_THREE_COMPLIANCE_POINTS_ARE_MENDED.md"
+    import subprocess as _sp
+    assert (ROOT / _ho).is_file() or _sp.run(["git", "-C", str(ROOT), "cat-file", "-e", "9c8a50887:" + _ho]).returncode == 0
     prog = json.loads(_arc("B1861", "PROGRAMME.json"))
     assert sorted(prog["confirmed_later"]) == ["no rule picks a next thing", "the ledger, cancelling, interaction", "the tick is an act", "what exists is what survives"]
     # the first three are the review's; a fourth was given after it, with the computation in hand (B1879), and the
