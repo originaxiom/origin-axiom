@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1632 |
-| … PROVED | 1135 |
+| arcs with a verdict file | 1633 |
+| … PROVED | 1136 |
 | … NEGATIVE | 384 |
 | … OPEN | 100 |
 | … RETRACTED | 13 |
@@ -34,6 +34,7 @@
 | B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
 | B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
+| B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
 | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
@@ -42,7 +43,6 @@
 | B1927 | PROVED | “THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi…” |
 | B1926 | PROVED | “AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve…” |
 | B1925 | PROVED | “THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol…” |
-| B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -71,6 +71,6 @@
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 164 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 166 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

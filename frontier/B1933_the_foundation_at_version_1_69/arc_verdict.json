@@ -1,0 +1,28 @@
+{
+ "id": "B1933",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1930",
+  "B1926"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the building session (cld-advisor): its card C21, approved by main in M33 and grown in M36",
+  "the web seat's W-C8 part 2a (harvest rows 1755 and 1768), verified on main by B1926",
+  "agy-exp's X-NEVER (harvest row 1797), received and read through the mask: a first computation, its second owed"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "the building session, cld-advisor, at main's word in M33 and M36 (register row P-320)",
+ "scope": {
+  "frame": "none (the foundation's statement)",
+  "object": "GENESIS.md at version 1.69: the m000 row of the table of frames and the list 'Computed nowhere yet'",
+  "reach": "general",
+  "hypotheses": "no computation is made here; each new cell restates B1926 or a harvest row, and the item computed once stays on the list"
+ },
+ "claim_one_line": "THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double cover's matter seen from below, a stated choice whether they count), F-HE and F-AP not computed and offered to the SM seat; the list 'Computed nowhere yet' narrows its m000 entry to those two frames and marks the harmonic frame's counts outside m004's levels as computed once (agy-exp's X-NEVER, harvest row 1797), its second computation owed. Written by the version's own script; its lock takes the version back and gives the page again. 0 of 19.",
+ "weave_or_thread": "n/a (the foundation's table and list; B1926's results restated)"
+}

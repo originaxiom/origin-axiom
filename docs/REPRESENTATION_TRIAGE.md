@@ -143,6 +143,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
 | B1921 | PENDING | **The end's invariant parameter:** it reaches a synthesis page with the end (decision 5) and the read-out as a thread average (P-776). |
 | B1922 | PENDING | **The frame periodic along a thread exactly at its own line:** it reaches a synthesis page with the read-out on the whole (P-776) as the thread average's case. |
 | B1923 | PROCESS | **The load-bearing negatives re-examined (a ledger), with one computed clue:** its clue travels by register rows P-843 to P-845. |
+| B1933 | PROCESS | **The foundation at version 1.69:** its own page is the synthesis surface; the version restates B1926 and the harvest rows it cites. |
 
 **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The

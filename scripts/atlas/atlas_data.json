@@ -17223,6 +17223,17 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1933": {
+   "slug": "the foundation at version 1 69",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B1934": {
    "slug": "level fives weil representation lies in su3 x su2 and the hand is the golden fields quadratic character",
    "motifs": [

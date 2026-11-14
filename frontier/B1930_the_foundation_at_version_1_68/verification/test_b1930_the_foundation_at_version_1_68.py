@@ -26,8 +26,23 @@ def _taken_back(text):
     return (living + log.replace(W.ENTRY, "", 1)).replace(W.HEADER_IS, W.HEADER_WAS)
 
 
+def _at_1_68(text):
+    """MENDED 2026-11-14 (the building session's card C21, version 1.69): the page as it stood at this version, each later
+    version taken back by its own lock, newest first, so this lock holds 1.68 and not the page's being at 1.68"""
+    for later in sorted(ROOT.glob("frontier/B*_the_foundation_at_version_1_*/verification/test_b*_the_foundation_at_version_1_*.py"),
+                        key=lambda q: -int(q.name.rsplit("_1_", 1)[1].split(".")[0])):
+        minor = int(later.name.rsplit("_1_", 1)[1].split(".")[0])
+        if minor <= 68 or "**Version 1.%d " % minor not in text:
+            continue
+        spec = importlib.util.spec_from_file_location("later_version_lock_%d" % minor, later)
+        m = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(m)
+        text = m._taken_back(text)
+    return text
+
+
 def test_the_page_is_at_1_68_and_its_paths_name_the_archive():
-    text = PAGE.read_text(encoding="utf-8")
+    text = _at_1_68(PAGE.read_text(encoding="utf-8"))
     assert W.HEADER_IS in text and W.HEADER_WAS not in text
     living = text[:text.index(W.LOG_HEAD)]
     for p in W.PATHS:
@@ -39,12 +54,12 @@ def test_the_page_is_at_1_68_and_its_paths_name_the_archive():
 
 
 def test_the_script_gives_the_page_again():
-    text = PAGE.read_text(encoding="utf-8")
+    text = _at_1_68(PAGE.read_text(encoding="utf-8"))
     assert W.version_1_68(_taken_back(text)) == text
 
 
 def test_a_path_left_at_its_old_place_is_refused():
-    text = _taken_back(PAGE.read_text(encoding="utf-8"))
+    text = _taken_back(_at_1_68(PAGE.read_text(encoding="utf-8")))
     import pytest
     # a seventh path into a moved folder, added to section 1
     k = text.index("## 1. The principle")
