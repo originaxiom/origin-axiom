@@ -243,7 +243,24 @@ def test_the_pages_numbers_are_the_runs():
         for n in at:
             assert "CORRECTED 2026-11-12" in " ".join(blocks[n:n + 2]), old
     line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
-    for old in ("THE AUDIT'S FIGURE IS REPRODUCED AND IS NOT ABOUT RARITY", "a lower bottom end almost none"):
-        i = line.index(old)
-        assert "2026-11-12" in line[i:i + len(old) + 120], old
+    # CHANGED 2026-11-12 (Review 80; the SM seat's finding 33, not checked by main, made again here).  Two lines stood here:
+    #     i = line.index(old)
+    #     assert "2026-11-12" in line[i:i + len(old) + 120], old
+    # They asked that the day stand within 120 characters after each old phrase: any mention of the day, whatever it says.
+    # What is asked now is what each correction says, in the bracket that opens right after the old phrase.
+    said = {"THE AUDIT'S FIGURE IS REPRODUCED AND IS NOT ABOUT RARITY": ("[CORRECTED 2026-11-12", "nothing of the audit's was reproduced", "a share that falls in a window written beforehand"),
+            "a lower bottom end almost none": ("0.06 to 0.08 of the average rate", "0.18 under the first null's covariant menu", "added 2026-11-12]")}
+
+    def _corrected(text, old):
+        i = text.index(old) + len(old)
+        if not text[i:].startswith(" ["):
+            return False
+        return all(s in text[i:text.index("]", i) + 1] for s in said[old])
+    as_it_asked = lambda text, old: "2026-11-12" in text[text.index(old):text.index(old) + len(old) + 120]
+    for old in said:
+        assert _corrected(line, old), old
+        # planted: the bracket after the old phrase replaced by a bare mention of the day.  The two lines above pass it.
+        i = line.index(old) + len(old)
+        bare = line[:i] + " [see the note of 2026-11-12]" + line[line.index("]", i) + 1:]
+        assert as_it_asked(bare, old) and not _corrected(bare, old), old
     assert "left open there" in page and "\"OPEN, not checked\"" in page
