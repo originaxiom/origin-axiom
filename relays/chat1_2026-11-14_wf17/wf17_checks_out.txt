@@ -1,0 +1,58 @@
+=== item 4: E18 and E19
+E19: k = -2: 17 points; k = +2: 134 points | D1 holds: True
+E18: SL(2, Z) in [-5, 5]: 308 | by trace {-8: 4, -7: 4, -6: 16, -5: 20, -4: 24, -3: 16, -2: 45, -1: 12, 0: 26, 1: 12, 2: 45, 3: 16, 4: 24, 5: 20, 6: 16, 7: 4, 8: 4} | SE1 28 | SE1 and McKay 28 | hyperbolic among them 16 | D2 holds: True
+=== item 1: finite quotients onto 2T, 2O, 2I
+2T orders 24 24 | associative True True | element orders {1: 1, 2: 1, 3: 8, 4: 6, 6: 8} | same histogram True
+2O orders 48 48 | associative True True | element orders {1: 1, 2: 1, 3: 8, 4: 18, 6: 8, 8: 12} | same histogram True
+2I orders 120 120 | associative True True | element orders {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24} | same histogram True
+Q1 holds: True | plant P1 (one swapped entry) fails associativity: True
+|Aut(H)|: {'2T': 24, '2O': 48, '2I': 120}
+m004 1 LR 2T | Hom, Epi (quaternions) (72, 48) (matrices) (72, 48) | variants agree True 4
+m004 1 LR 2O | Hom, Epi (quaternions) (96, 0) (matrices) (96, 0) | variants agree True 4
+m004 1 LR 2I | Hom, Epi (quaternions) (600, 0) (matrices) (600, 0) | variants agree True 4
+m004 abelianises to [[1, 1], [1, 2]] torsion 1
+m369 -1 LLRLR 2T | Hom, Epi (quaternions) (288, 96) (matrices) (288, 96) | variants agree True 7
+m369 -1 LLRLR 2O | Hom, Epi (quaternions) (864, 96) (matrices) (864, 96) | variants agree True 7
+m369 -1 LLRLR 2I | Hom, Epi (quaternions) (2400, 480) (matrices) (2400, 480) | variants agree True 7
+m369 abelianises to [[-2, -3], [-5, -8]] torsion 12
+s639 -1 LLLRLR 2T | Hom, Epi (quaternions) (168, 96) (matrices) (168, 96) | variants agree True 8
+s639 -1 LLLRLR 2O | Hom, Epi (quaternions) (192, 0) (matrices) (192, 0) | variants agree True 8
+s639 -1 LLLRLR 2I | Hom, Epi (quaternions) (1920, 960) (matrices) (1920, 960) | variants agree True 8
+s639 abelianises to [[-2, -3], [-7, -11]] torsion 15
+Q2 holds: True ; Q3 holds: True ; Q4 holds: True ; Q5 holds: True
+=== item 2: the class-index frame at the state's own level
+C0 control +RLRL (golden level 4): {'det': 1, 'tor': 5, 'e': 5, 'nchar': 4, 'with_class': 4, 'nmod': 12, 'hom_ok': True, 'dual_ok': True, 'fire_ok': True, 'hist': {-1: 4, 0: 4, 1: 4}, 'nonzero': 8} | C0 holds: True
+m369 -1 LLRLR | primes 180001 2400001 | {'det': 1, 'tor': 12, 'e': 12, 'nchar': 11, 'with_class': 11, 'nmod': 110, 'hom_ok': True, 'dual_ok': True, 'fire_ok': True, 'hist': {-1: 20, 0: 70, 1: 20}, 'nonzero': 40} | primes agree True
+m369 plant P2 (its characters on + LLRLR's group): relator failures 10
+s639 -1 LLLRLR | primes 180001 2400001 | {'det': 1, 'tor': 15, 'e': 15, 'nchar': 14, 'with_class': 14, 'nmod': 182, 'hom_ok': True, 'dual_ok': True, 'fire_ok': True, 'hist': {-1: 36, 0: 110, 1: 36}, 'nonzero': 72} | primes agree True
+s639 plant P2 (its characters on + LLLRLR's group): relator failures 14
+C1 holds: True ; C2 holds: True ; C3 holds: True
+=== item 3: the metallic trace maps' fixed loci, component by component
+m 1 | T1 (same ideal as phi_m(p) - p): True | components: 1 | degree of I 2 = sum over curves 2 | covered (two draws) [True, True] | points on kappa = 2: 3 (m^2 + 2 = 3 ) | predicted lines inside True lines over C 0 | 0.0 s
+    {'gens': ['y*z - y - z', 'x - z'], 'dim': 1, 'origin': True, 'trivial': True, 'inside': True, 'deg': 2, 'Q_irreducible': True, 'kappa_constant': False}
+   plants: P3 (the line x = y = z rejected) True | P4 (completeness fails without the first curve) None
+m 2 | T1 (same ideal as phi_m(p) - p): True | components: 2 | degree of I 5 = sum over curves 5 | covered (two draws) [True, True] | points on kappa = 2: 6 (m^2 + 2 = 6 ) | predicted lines inside True lines over C 1 | 0.1 s
+    {'gens': ['x', 'y'], 'dim': 1, 'origin': True, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x**2 - z**2/2 - 2', '-2*x + y*z'], 'dim': 1, 'origin': False, 'trivial': True, 'inside': True, 'deg': 4, 'Q_irreducible': True, 'kappa_constant': False}
+   plants: P3 (the line x = y = z rejected) True | P4 (completeness fails without the first curve) True
+m 3 | T1 (same ideal as phi_m(p) - p): True | components: 2 | degree of I 6 = sum over curves 6 | covered (two draws) [True, True] | points on kappa = 2: 11 (m^2 + 2 = 11 ) | predicted lines inside True lines over C 1 | 0.8 s
+    {'gens': ['x + 1', 'y + 1'], 'dim': 1, 'origin': False, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x**3 + x**2*z - x**2 - x*z**2 - x*z - x + z**2 - z', 'x**2*y - x*y - x*z - y + z', '-x + y*z - z'], 'dim': 1, 'origin': True, 'trivial': True, 'inside': True, 'deg': 5, 'Q_irreducible': True, 'kappa_constant': False}
+   plants: P3 (the line x = y = z rejected) True | P4 (completeness fails without the first curve) True
+m 4 | T1 (same ideal as phi_m(p) - p): None | components: 4 | degree of I 11 = sum over curves 11 | covered (two draws) [True, True] | points on kappa = 2: 18 (m^2 + 2 = 18 ) | predicted lines inside True lines over C 1 | 0.4 s
+    {'gens': ['x', 'y'], 'dim': 1, 'origin': True, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x', 'z'], 'dim': 1, 'origin': True, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['y', 'z'], 'dim': 1, 'origin': True, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x**4 - x**2*z**2/3 - 8*x**2/3 - x*y*z/3 + 2*z**2/3', 'x**3*y - x**2*z - 3*x*y + 2*z', 'x**2*y**2 - 3*x**2 - 3*y**2 + 8', '-3*x**3 + x**2*y*z + 8*x - 2*y*z', '-x*y + y**2*z - 2*z'], 'dim': 1, 'origin': False, 'trivial': True, 'inside': True, 'deg': 8, 'Q_irreducible': True, 'kappa_constant': False}
+   plants: P3 (the line x = y = z rejected) True | P4 (completeness fails without the first curve) True
+m 5 not finished within 1800 s
+m 6 | T1 (same ideal as phi_m(p) - p): None | components: 6 | degree of I 21 = sum over curves 21 | covered (two draws) [True, True] | points on kappa = 2: 38 (m^2 + 2 = 38 ) | predicted lines inside True lines over C 5 | 43.3 s
+    {'gens': ['x - 1', 'y - 1'], 'dim': 1, 'origin': False, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x + 1', 'y - 1'], 'dim': 1, 'origin': False, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x - 1', 'y + 1'], 'dim': 1, 'origin': False, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x + 1', 'y + 1'], 'dim': 1, 'origin': False, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x', 'y'], 'dim': 1, 'origin': True, 'trivial': False, 'inside': True, 'deg': 1, 'Q_irreducible': True, 'kappa_constant': False}
+    {'gens': ['x**7 - 2*x**5*z**2 - 5*x**5 + x**3*z**4/2 + 15*x**3*z**2/2 + 6*x**3 + x**2*y*z**3/2 - x**2*y*z/2 + x*y**2*z**2/2 - 3*x*z**4/2 - 9*x*z**2/2 - 2*x - y*z**3', '2*x**6 - 4*x**4*z**2 - 10*x**4 + x**3*y*z**3 + 15*x**2*z**2 + 12*x**2 - 3*x*y*z**3 - x*y*z + y**2*z**2 - 9*z**2 - 4', '2*x**4 - x**3*y*z + x**2*y**2*z**2 - 3*x**2*z**2 - 8*x**2 + 3*x*y*z - 3*y**2*z**2 + 9*z**2 + 4', 'x**4*y - x**3*z - 4*x**2*y + 3*x*z + 2*y', '-x*y**2 + 2*x + y**3*z - 3*y*z'], 'dim': 1, 'origin': False, 'trivial': True, 'inside': True, 'deg': 16, 'Q_irreducible': True, 'kappa_constant': False}
+   plants: P3 (the line x = y = z rejected) True | P4 (completeness fails without the first curve) True
+T holds: {'T1': True, 'T2': True, 'T3': True, 'T4': True, 'T5': True, 'T6': True, 'T7': True, 'P3': True, 'P4': True}
+total seconds 1848.7
