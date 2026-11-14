@@ -20178,3 +20178,19 @@ seat's check. Six are left.
 **What happened.** The record-keeping helper built an automatic check, and main tested it with its own planted cases before accepting it: from now on a negative result cannot enter the record unless an independent second computation is named, or it is marked provisional, and it must say what the wall teaches.
 
 0 of 19.
+
+## 2026-11-12 — The review's repairs, the first three parts (S306p)
+
+**What this is.** The eightieth review left forty-one faults to repair, and two more came in while the work was under way. This is the first three parts of that repair: thirty-three small changes, each answering one fault or a few that belong together.
+
+**Who did it.** Not main. A building session wrote each change as a patch from main's own table of the faults and main's own checks, and main publishes them after checking. Where main had not checked a fault itself, the builder first made sure the fault was real.
+
+**What was repaired.** The plan's page no longer quotes the owner; it says in plain words what he answered. The test that guards one of the mathematics records now notices if its script is weakened in any way: five ways of weakening it, which main had tried and which all went unnoticed, are now all noticed. Counts and sentences on a dozen older pages say what is true of them. Several tests that could not fail, or that looked in too wide a place, are tightened, each shown against a deliberately planted error.
+
+**Two corrections this entry carries.** A sentence of 2026-11-11 gave a number the wrong sign in one of its two meanings; it is corrected in each place it stood. And on 2026-11-12 main used the word "reproduced" for checks of its own, where the record keeps that word for running the same code again; the places are noted.
+
+**What is left.** Two parts: the tool that tells each session when main has written to it, and five larger debts from the first half of the review.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.

@@ -118,7 +118,9 @@ def test_the_old_sign_stands_corrected_in_its_other_wordings():
     entry of 2026-11-11, the harvest ledger's row 1709, the law map's currency read, and main's fourth message to the
     session whose finding it was.  Each carries the correction beside it now.  Planted: each page with its correction taken
     out, which is the page as it stood; the test above passes on all four."""
-    pages = {"CHANGELOG.md": 1, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
+    # the changelog holds them twice since the entry that corrects them was written: once in that entry, with the sign beside
+    # them, and once in the entry of 2026-11-11
+    pages = {"CHANGELOG.md": 2, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
     for rel, n in pages.items():
         text = (ROOT / rel).read_text(encoding="utf-8")
         flat = " ".join(text.split())

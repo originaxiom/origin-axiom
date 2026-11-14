@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-11-12)
+
+- **Built as patches by the building session** from main's table of the 57 findings and its checks (P-832, P-833), read cold by a verifying session, and landed by main after its own check. No statement of the mathematics and no number is the builder's.
+- **Part 1, three patches.** The plan's page gave the owner's answer of 2026-11-10 as a block quotation, and its builder refused to build without his words. The page now gives main's account in plain words; the lock reads the page for a quotation by its shape. A text that opens with punctuation is no longer cut down to the mark alone.
+- **Part 2, twelve patches,** on B1881, B1895 and B1897. B1881's lock holds its script whole, calls the script's check function, holds the file that says which versions made the run, and reads every value in its weaker comparison: main's five plants, which all passed, all fail. B1895's lock holds main's four computations and reads a verdict file text by text. Fifteen tests where six places said fourteen; the reader's own plants are said in four more places; two verdict lines name no session; two things owed have rows P-835 and P-836.
+- **Part 3,** on older arcs, their tests, the seats' protocol and two messages: B732, B942, B1884, B1882, B874, B1893, B862, B734, B1028 with B1222, B1891, B1894, the test of B448, and main's table of the first 43.
+- **CORRECTED HERE, the entry of 2026-11-11 below** ("Two findings of the second derivation"): it says that a unit on one line gives index one, by main's own formula. For the four-dimensional index the sign is the other. "One" is the dimension B1796 computed, the Euler characteristic on the base; the index takes that term with a minus sign, so at an empty Lambda+ it is -1 for a unit on one line and -3 for the uniform unit. The law map's row for B1641 has said so since 2026-11-12; the sentence stood uncorrected in that entry, in harvest row 1709, in the law map's currency read and in one message, and each carries the correction now.
+- **ON MAIN'S OWN USE OF A WORD on 2026-11-12:** main's table of the first 43 findings, and one correction on the registry of retracted phrases, say "reproduced" for main's own check of a finding. The seats' protocol, § 12, keeps that word for the same code run again on a clean checkout. The table of the 57 defines "checked" apart from it. Both places carry a dated note, and § 13 of the protocol is reworded: main checks each finding itself.
+- **Not checked by main when it was built, and made again by the builder first:** the findings that the table of the 57 gives as not checked. Each patch for one says so.
+- **Not done:** the listener and the atlas's query (part 4); the five things owed from the first 43 (part 5); the full suite on a fresh clone at the end of the series.
+
+0 of 19.
+
 ## S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
 
 - **The gate `negative-second-computation`,** built by the builder as card C19 and landed by main: from B1923 on, a NEGATIVE verdict file names a second computation made in `cites_seat`, or its verdict line says PROVISIONAL; and its FINDINGS carries "What the wall teaches". Its five failing paths are registered. Main tested it with five plants of its own before landing; each behaved as the rule asks. Whether a second computation is independent stays main's judgement.

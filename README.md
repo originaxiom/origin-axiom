@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1624: 1128 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
 | points in the register | 848: 309 open (queued work, leads, and questions not yet decided), 539 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13) |
+| the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
 <!-- STATE:END -->
 
 ## Start here
