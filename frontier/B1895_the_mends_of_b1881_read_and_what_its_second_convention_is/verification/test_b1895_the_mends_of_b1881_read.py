@@ -242,6 +242,13 @@ def _texts_of(value):
             yield from _texts_of(v)
 
 
+def _places_of(leaf, o):
+    at = leaf.find(o)
+    while at != -1:
+        yield at
+        at = leaf.find(o, at + 1)
+
+
 def _carriers(name, text):
     """Each place where the old words stand in a file, as the words that may excuse it.
     On a page: a paragraph, with the paragraph after it.  In a verdict file: a text of the file, from the old words to 400
@@ -249,12 +256,22 @@ def _carriers(name, text):
     verdict file was read as one block, so one correction anywhere in it excused the old words anywhere else in it, in the
     same line or in another field."""
     if name.endswith(".json"):
+        # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, not checked by main, made again first): each
+        # place's window ran 400 characters past its old words, so one correction after two old phrases excused both, and two
+        # counted as none.  A window now ends where the next place of old words begins: a correction excuses the words it
+        # follows, and no earlier ones.  The lines as they stood:
+        #     for o in _OLDS:
+        #         at = leaf.find(o)
+        #         while at != -1:
+        #             yield leaf[at:at + len(o) + _WITHIN]
+        #             at = leaf.find(o, at + 1)
         for leaf in _texts_of(json.loads(text)):
-            for o in _OLDS:
-                at = leaf.find(o)
-                while at != -1:
-                    yield leaf[at:at + len(o) + _WITHIN]
-                    at = leaf.find(o, at + 1)
+            places = sorted({(at, len(o)) for o in _OLDS for at in _places_of(leaf, o)})
+            for k, (at, n) in enumerate(places):
+                end = at + n + _WITHIN
+                if k + 1 < len(places):
+                    end = min(end, places[k + 1][0])
+                yield leaf[at:end]
         return
     blocks = text.split("\n\n")
     for i, blk in enumerate(blocks):
@@ -362,3 +379,21 @@ def test_a_plant_that_changes_nothing_stops_the_run():
         assert len(m.PLANTS) == 19
     finally:
         shutil.rmtree(m.WORK.parent, ignore_errors=True)
+
+
+def test_one_correction_excuses_only_the_words_it_follows():
+    """ADDED 2026-11-13 (C16; a finding of a cold reader on R80b's part 2, not checked by main, made again first): two old
+    phrases and one correction after both counted as none.  The plant passed before this mend and is reported after it."""
+    o1, o2, mark = _OLDS[0], _OLDS[1], _MARKS[0]
+    name = "frontier/B9_x/arc_verdict.json"
+    two_one = json.dumps({"claim_one_line": "A: %s. B: %s [%s]." % (o1, o2, mark)})
+    assert _uncorrected(name, two_one) == (1, 2)                                  # it was (0, 2)
+    twin = json.dumps({"claim_one_line": "A: %s [%s]. B: %s [%s]." % (o1, mark, o2, mark)})
+    assert _uncorrected(name, twin) == (0, 2)
+    # the same old phrase twice, one correction after the second
+    same_twice = json.dumps({"claim_one_line": "%s, and again %s [%s]" % (o1, o1, mark)})
+    assert _uncorrected(name, same_twice) == (1, 2)
+    # the verdict files this arc names are still read as they were
+    for f in ("frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",):
+        assert _uncorrected(f, (ROOT / f).read_text(encoding="utf-8")) == (0, 1)
+
