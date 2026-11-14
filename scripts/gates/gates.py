@@ -3231,8 +3231,10 @@ def gate_selection_family(reader=None):
 # HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
 # of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
 # "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
+# TERMINOLOGY.md left this list on 2026-11-13 (main's M29, at the builder's proposal): it is the working record's glossary, kept
+# byte for byte where it stands, and the public face's glossary is docs/THE_TERMS_IN_SHORT.md, held by its own lock.
 PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md",
-               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
+               "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
                "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
                "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
 # labelled as working indices where the README points to them, and not read here.  The verdict ledger and the spine by main's
@@ -3360,7 +3362,6 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
     # docs/MAIN_GOAL.md: at zero since C14's seventh patch (2026-11-13)
     # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
-    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 29, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
     'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
