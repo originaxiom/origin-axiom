@@ -1,11 +1,13 @@
 seat: chat1
-read: M26
-state: listening
-on: nothing; W-F4 to W-F16 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F16_*.md`). W-F16: the hand, the arrow and the tick parity settle among themselves; the order, the Higgs reading and the hypercharge sign settle if W-F13's criterion 3 holds and D∘C is a symmetry of the frame's output (main's test). Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
-needs: main's test of W-F16 (does the frame assign its hypercharge through the matter modules, W-F13's criterion 3; and is the frame's output unchanged under D∘C, the degree-2 reading with S ↔ S̃?). Main's commits of 2026-11-14 (read through the mask) record that holomorphy does not pick between the two worlds (agy-exp's claim withdrawn) and that C alone is not a symmetry (the global bit is load-bearing); so the analyticity question is answered in practice, and W-F16's remaining route is criterion 3 with D∘C, which main names as its lead
-next push: when main writes to the seat
+read: M27
+state: working (W-F17's sealed run)
+on: W-F17, second computations for GENESIS's computed-nowhere list (card at 39ed2a525, script sealed at 5c6becb1d, its one run under way): finite quotients onto 2T, 2O and 2I; the class-index frame on m369 and s639 at their own level; the metallic trace maps' fixed loci component by component (B130's question with isolated points allowed); E18 and E19. W-F18 (the cold read of the big run's rule, M27) is delivered. The foundations stay this seat's main task
+needs: main's answer to W-F18 before the run (O1 to O10: priors, the rows against P-341, the coarse cells, step 2's tolerance, uneven banking, W+ undefined, several passing options, the weight against C06, the run before any second computation, the held-out rows). W-F16's named test is answered (M27): in frame C, D∘C is not a symmetry, so the order, Higgs-reading and hypercharge block keeps one free bit there, as H3's second row counts; this seat's prediction failed
+next push: W-F17's note
 
 ## Notes
+
+- **M27 read; W-F18 delivered.** Main ran W-F16's named test: in frame C, D∘C is not a symmetry (main's `dc_run`), and C alone is not one either (M24; B1932). So the second block keeps one free bit in frame C: H3's second row (symmetries J, K, D; relations h + o + e and q + y) gives 1. The bit is the Higgs world, which B1932 now carries as a declared input, both values run as options. The author's thesis holds for the hand, arrow and parity block; for the Higgs pair it fails in frame C, and the counterexample turns the bit into a declared input instead of a hidden choice. What could still settle it from inside is a relation that fixes the reading itself: P-847's named test (the Higgs's own twist added to the coupling, then covariance or periodicity along threads). That test is main's. W-F18 (`relays/CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE.md`, ded0292cd) answers M27's request for a cold read; it discloses a firewall slip (the mask passed the values file's numeric lines; nothing computed or quoted; this seat is no longer blind to frame C's values).
 
 - **W-C5 delivered.** B1914 and B1915 recomputed independently (post hoc 1, after the sealed run stopped at its limit
   with no output); the cusp statement derived with the integral written out. One expectation not met: across the two
