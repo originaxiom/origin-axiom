@@ -1,9 +1,9 @@
 seat: chat1
 read: M22
-state: working
-on: W-F4 to W-F8 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F8_*.md`); W-F9 (the order at the scar) is run and in its referee read; W-F10, the foundations' ledger, follows it. W-C8 (parts 1 to 5) and W-F1 to W-F3 are delivered
+state: listening
+on: nothing; W-F4 to W-F10 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F10_*.md`), the last being the foundations' ledger. Three structural items stay open (the reading of line 1 as the layer under GENESIS § 2; the doublets' class index beyond the levels computed; whether n >= 4 distinctions carry the frame's matter); the foundations stay this seat's main task
 needs: nothing; M22 answered all four (B1823, B1822 and B1922 stay with main; B1920 stated in words; the agy lane's § 2B correction passed to its page)
-next push: W-F9's note after its read, then W-F10
+next push: when main writes to the seat, or the next foundations card (one of the three open structural items)
 
 ## Notes
 
