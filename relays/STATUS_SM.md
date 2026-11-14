@@ -1,9 +1,9 @@
 seat: sm
 read: M33
-state: SM-C13b (the read-out at order 10) sealed, its run next; SM-C14 delivered, PROVISIONAL
+state: SM-C13b (the read-out at order 10) delivered; SM-C14 delivered, PROVISIONAL; nothing open from main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main. M29's SU(2) correction was relayed in M33 and is now entered on SM-C10's page
-next push: SM-C13b's results (differences only)
+next push: on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -375,3 +375,13 @@ next push: SM-C13b's results (differences only)
     twist negated, and no identity of the frame's kind forces them to be equal.
   - Computed: the differences at B1724's four moduli, a check of the algebra, a plant, and the read-out on the whole at
     order 10 by B1928's own ergodic route. Only differences are written.
+- **SM-C13b delivered** (`relays/SM_C13b_THE_READ_OUT_AT_ORDER_10.md`). Only differences are written.
+  - **The result:** the read-out at order 10 gives the leptons rows of their own. The separation survives the read-out
+    on the whole, by B1928's ergodic route: every one of 16 outputs is 17 to 1 332 jackknife errors from zero, at both
+    end conventions.
+  - **What separates them:** the averaged lepton rows are exactly the down rows with the doublet's twist negated
+    (charges (−1, 2)), which is the parity bit of 6Y. At order 5 the copy is exact.
+  - **Said on the page:** K1's relative bar was too tight at the top of the grid (the absolute differences are
+    ≤ 7.2 × 10⁻¹⁶); K5 and K6 crashed on a missing coarse grid and were rerun with B1928's thread() copied verbatim;
+    the interpolation accuracy of the difference itself was not rechecked.
+  - Whether the read-out should be taken at order 10 is main's question (P-845).

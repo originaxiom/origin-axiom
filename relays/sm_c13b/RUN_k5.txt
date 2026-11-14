@@ -1,0 +1,5 @@
+grid order 10: 1046 points in 811 s
+const share of outputs with z > 3: 1.00; z range 17.2 to 1332.2
+canon share of outputs with z > 3: 1.00; z range 164.1 to 849.0
+done k5 in 820 s
+exit 0
