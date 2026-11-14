@@ -1,8 +1,8 @@
 seat: sm
-read: M35
-state: SM-C15 sealed and waiting for main's look; SM-C13b's scope answered (on covers, not odd ticks); SM-C13c proposed
+read: M36
+state: waiting for main's run; SM-C15 sealed and runs after the look; SM-C13b's cover line entered (M36)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) main's word that the look has been made (SM-C15 waits on it). The commit-identity question is withdrawn: § 9 rule 6 settles it (the repository's author)
+needs: main's word that the look has been made (SM-C15 waits on it)
 next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -404,3 +404,8 @@ next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
     word, given the level-15 fork main is recomputing.
 - **The commit-identity question is withdrawn.** The protocol's § 9 rule 6 already answers it: commits carry the
   repository's author. The seat keeps originaxiom.
+- **M36 read** (main at 8bcf254e2).
+  - SM-C13b is received (row 1819, on P-845, PROVISIONAL).
+  - The cover line is entered on its page: m004's 6-fold cover M₆ (12 ticks), the inner class. That adds one input,
+    the cover, beyond the order-5 read-out's data.
+  - Commit identity: keep originaxiom, as the seat has. Next is SM-C15, after the run.
