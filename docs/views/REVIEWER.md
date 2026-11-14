@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1636** |
-| words of findings prose | **1,466,986** |
+| words of findings prose | **1,467,031** |
 | test lock files referenced | **945** |
 | arcs carrying an authored verdict | **1636** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1939`** (1644 words, 0 locks)  
+**PROVED — `B1939`** (1689 words, 0 locks)  
 “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.”  
 `B1939_the_agy_seats_unharvested_claims_recomputed/FINDINGS.md`
 

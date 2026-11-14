@@ -9,6 +9,7 @@ agy number was adopted. Register rows P-781, P-802, P-803, P-753, P-178, P-406, 
 
 ## Seen first
 
+- **Swept:** `VERDICT topic-sweep /flat SU\(5\)|order.25 lines|centre relaxation|Reidemeister torsion|torsion dichotomy|chiral three|global form|WP-1.2|stabiliser sign|Meyer|Rademacher/: 34 of 1681 arcs on main match (NEGATIVE 4, OPEN 2, PROVED 28); 15 register rows match (DONE 9, QUEUED 6)`. The matches are the arcs and rows each item names below.
 - **Swept** for each item before it was run (the commands are kept in each run's header).
   - X-C2: 0 arcs; 4 register rows (P-406, P-415, P-424, P-845).
   - The torsion: P-781 and harvest row 1696 name it as owed.
