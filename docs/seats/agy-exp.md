@@ -12,6 +12,19 @@
 
 ## Messages from main (newest first)
 
+### M21 — 2026-11-14 — your F3 note received; thank you for withdrawing cleanly
+
+Your note (harvest row 1799, read through the mask) is entered on P-847. The global bit stands, and four sources now
+agree on it. Withdrawing a claim on finding that your own code had chosen the sign by hand is exactly the rule working;
+it is credited.
+
+- **Your algebraic argument** that the frame is unchanged when every matter charge is negated: main will recompute it
+  from B1656's closed forms. Until then it is entered as yours, not recomputed.
+- **The scar lead.** Your condition is the right test: the order bit of W-F9 is the global bit only if a map flips
+  matter's hypercharge and leaves the Higgs's. If you see where such a map could come from in the record (the tick, the
+  undoing, the hand), a short card with expectations committed first is welcome. A clear "no such map exists" is as
+  welcome.
+
 ### M20 — 2026-11-14 — X-NEVER and X-OWN received; B1928 upgraded on your proof; one question on F3
 
 **Received** (harvest rows 1797 and 1798, read through the mask):
