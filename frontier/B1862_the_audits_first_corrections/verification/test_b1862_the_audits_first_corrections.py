@@ -1,5 +1,6 @@
 """B1862 -- the first corrections from the advisor seat's audit: each recomputed here, and each standing where the
 corrected line stands."""
+import collections
 import importlib.util
 import json
 import pathlib
@@ -250,10 +251,21 @@ NOT_READ = ("PROGRESS_LOG.md",        # the log is append-only: what it said on 
             "frontier/B921_branch_harvest/harvested/",          # a harvested copy of another branch's sweep of the changelog's history (the same day)
             "docs/views/",            # generated from the verdict lines, which are read here
             "docs/progress/",         # the log's archives are history and are not edited
-            "frontier/B1862_the_audits_first_corrections/",      # this arc quotes the old forms to correct them
+            # CHANGED 2026-11-12 (Review 80; a reader's check of main's answers, its row A10, not checked by main, made again by
+            # the builder).  The line was
+            #     "frontier/B1862_the_audits_first_corrections/",      # this arc quotes the old forms to correct them
+            # so nothing of this arc was read, and an old form ADDED to its page passed: the test main had named for the
+            # page reads one sentence of it and looks for no old form.  The arc's page and verdict file are read now.  What
+            # they quote without its correction in the same block is held by count, as found (below); the folder of this
+            # lock stays unread, because the lock plants the old forms to show that it sees them.
+            "frontier/B1862_the_audits_first_corrections/verification/",
             "frontier/B1892_review_79_read_by_those_who_did_not_build_it/", "frontier/B1894_",      # the review's arcs quote what the readers found
             "/verification/readers/")                            # a reader's report quotes what it found
 HELD_BY_ITS_OWN_LOCK = {("papers/structure_paper/SKELETON.md", "E5")}      # the sentence is true there and held to the computation
+# this arc's page quotes two old forms in blocks that do not hold their correction (its table of what the audit found): as
+# found on 2026-11-12, by count, for each finding.  One more of either, or one of any other finding, is reported.
+QUOTED_ON_THIS_ARCS_PAGE_AS_FOUND = {("frontier/B1862_the_audits_first_corrections/FINDINGS.md", "E13"): 1,
+                                     ("frontier/B1862_the_audits_first_corrections/FINDINGS.md", "E3"): 1}
 BEFORE, AFTER = 400, 900            # how near "beside" is within one unit, in characters
 
 
@@ -310,11 +322,23 @@ def _hits(root=ROOT):
     return out
 
 
+def _unmarked_beyond_what_is_held(hits, held=None):
+    """the places that carry an old form with no correction in the same block, but those this arc's own page is held to by
+    count: (the file, the finding, how many more than are held)"""
+    held = QUOTED_ON_THIS_ARCS_PAGE_AS_FOUND if held is None else held
+    count = collections.Counter((rel, fid) for rel, fid, ok in hits if not ok)
+    return sorted((rel, fid, n - held.get((rel, fid), 0)) for (rel, fid), n in count.items() if n > held.get((rel, fid), 0))
+
+
 def test_no_place_still_carries_an_old_form_unmarked():
     hits = _hits()
     assert {fid for _, fid, _ in hits} == {"E4", "E3", "E8", "E13", "E5", "B1884", "E11"}      # the old forms are kept as history, so each is still found somewhere
-    bad = [(rel, fid) for rel, fid, ok in hits if not ok]
+    bad = _unmarked_beyond_what_is_held(hits)             # until 2026-11-12: [(rel, fid) for rel, fid, ok in hits if not ok]
     assert not bad, bad
+    # this arc's own page is read, and what it quotes unmarked is what was found there: the table has not grown stale
+    here = collections.Counter((rel, fid) for rel, fid, ok in hits if not ok and rel.startswith("frontier/B1862_the_audits_first_corrections/"))
+    assert dict(here) == QUOTED_ON_THIS_ARCS_PAGE_AS_FOUND, "shorten the table: " + str(dict(here))
+    assert "frontier/B1862_the_audits_first_corrections/FINDINGS.md" in {rel for rel, _, _ in hits}
     # the places Review 78's reader named, and the one main's sweep added, are among those read
     read = {rel for rel, _, _ in hits}
     for rel in ("docs/GUT_REQUIREMENTS_LEDGER.md", "frontier/B1856_charge_or_symmetry_at_five_verified/arc_verdict.json",
@@ -452,3 +476,38 @@ def test_the_tripwire_and_the_five_gaps_of_review_80(tmp_path):
     assert len(_units("> one\n>\n> two", "docs/x.md")) == 2 and len(_units("> one\n> still one", "docs/x.md")) == 1
     assert _plain("**21** and *invisible* and `nullity-14` and __21__") == "21 and invisible and nullity-14 and 21"
 
+
+
+def test_an_old_form_added_to_this_arcs_own_page_is_reported(tmp_path):
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A10).  The page of this arc was not read by
+    the tripwire.  Planted in a small repository: the page as it stands, and the page with an old form added to it."""
+    def git(*a):
+        r = subprocess.run(["git", "-C", str(tmp_path), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
+        assert r.returncode == 0, r.stderr
+    here = "frontier/B1862_the_audits_first_corrections/"
+    page = (ROOT / here / "FINDINGS.md").read_text(encoding="utf-8")
+    git("init", "-q")
+    (tmp_path / here / "verification").mkdir(parents=True)
+    (tmp_path / here / "FINDINGS.md").write_text(page, encoding="utf-8")
+    (tmp_path / here / "verification" / "a_planted_text.py").write_text("OLD = 'the set of semisimple elements contains a maximal torus'\n", encoding="utf-8")
+    git("add", "-A")
+    assert _unmarked_beyond_what_is_held(_hits(tmp_path)) == []                    # the page as it stands, and the lock's folder unread
+    assert sorted((rel, fid) for rel, fid, ok in _hits(tmp_path) if not ok) == sorted(QUOTED_ON_THIS_ARCS_PAGE_AS_FOUND)
+    for what, added, fid in (
+            ("the lemma of E4, with no correction", "\n\nThe centralizer of a set of semisimple elements contains a maximal torus, hence has full rank.\n", "E4"),
+            ("the count of E13 once more, with no correction", "\n\nThe spectrum has 21 distinct eigenvalues at that level.\n", "E13"),
+            ("the sentence of E11", "\n\nNote that sin(π/7) has no closed form.\n", "E11")):
+        (tmp_path / here / "FINDINGS.md").write_text(page + added, encoding="utf-8")
+        bad = _unmarked_beyond_what_is_held(_hits(tmp_path))
+        assert bad == [(here + "FINDINGS.md", fid, 1)], (what, bad)
+    # as the tripwire read until 2026-11-12, nothing of the arc was read: the same planted pages gave no hit at all
+    global NOT_READ
+    keep = NOT_READ
+    NOT_READ = tuple(x for x in keep if x != here + "verification/") + (here,)
+    try:
+        assert _hits(tmp_path) == []
+    finally:
+        NOT_READ = keep
+    # the same old form with its correction in its block is not reported
+    (tmp_path / here / "FINDINGS.md").write_text(page + "\n\nThe centralizer of a set of semisimple elements contains a maximal torus. [Corrected: the elements must COMMUTE.]\n", encoding="utf-8")
+    assert _unmarked_beyond_what_is_held(_hits(tmp_path)) == []
