@@ -1,0 +1,4959 @@
+{
+  "card": "X-NEVER",
+  "seat": "agy-exp",
+  "timings_seconds": {
+    "N1_F_HE": 510.236,
+    "N2_own_arithmetic": 16.238,
+    "N3_fillings_and_noncyclic_covers": 5.809,
+    "N4_genesis_probes": 8.867,
+    "Section5_metallic_and_plants": 0.727,
+    "total": 541.878
+  },
+  "N1_harmonic_frame": {
+    "benchmark_m135": {
+      "name": "m135",
+      "sign": -1,
+      "word": "LLRR",
+      "volume_float": 3.663862376708876,
+      "tau_cusp": [
+        -0.5,
+        -0.5
+      ],
+      "num_sign_chars": 8,
+      "all_index_identities_hold": true,
+      "interior_generation_11_count": 2,
+      "max_abs_N10_prime": 1,
+      "characters": [
+        {
+          "nu": [
+            1,
+            1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            1,
+            1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        },
+        {
+          "nu": [
+            1,
+            -1,
+            1
+          ],
+          "sig_V": [
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          "extensions": [
+            {
+              "class_type": "interior_0",
+              "I_W": -1,
+              "I_Lambda2_W": -1,
+              "N10_prime": 1,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                3,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                3,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0_plus_int0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0_minus_3_7_int0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            1,
+            -1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        },
+        {
+          "nu": [
+            -1,
+            1,
+            1
+          ],
+          "sig_V": [
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          "extensions": [
+            {
+              "class_type": "interior_0",
+              "I_W": -1,
+              "I_Lambda2_W": -1,
+              "N10_prime": 1,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                3,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                3,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0_plus_int0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "class_type": "boundary_0_minus_3_7_int0",
+              "I_W": 0,
+              "I_Lambda2_W": -1,
+              "N10_prime": 0,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_Ws": [
+                1,
+                3,
+                2,
+                2,
+                1
+              ],
+              "sig_L2": [
+                0,
+                4,
+                2,
+                4,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        },
+        {
+          "nu": [
+            -1,
+            -1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            -1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        }
+      ]
+    },
+    "benchmark_m136": {
+      "name": "m136",
+      "sign": 1,
+      "word": "LLRR",
+      "volume_float": 3.663862376708876,
+      "tau_cusp": [
+        -2.0141891140691174e-56,
+        -0.5
+      ],
+      "num_sign_chars": 8,
+      "all_index_identities_hold": true,
+      "interior_generation_11_count": 2,
+      "max_abs_N10_prime": 1,
+      "characters": [
+        {
+          "nu": [
+            1,
+            1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            1,
+            1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        },
+        {
+          "nu": [
+            1,
+            -1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            1,
+            -1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "extensions": [
+            {
+              "class_type": "interior_0",
+              "I_W": -1,
+              "I_Lambda2_W": -1,
+              "N10_prime": 1,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "extensions": [
+            {
+              "class_type": "interior_0",
+              "I_W": -1,
+              "I_Lambda2_W": -1,
+              "N10_prime": 1,
+              "N5bar_prime": 1,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            -1,
+            1
+          ],
+          "sig_V": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "extensions": [
+            {
+              "class_type": "boundary_0",
+              "I_W": 0,
+              "I_Lambda2_W": 0,
+              "N10_prime": 0,
+              "N5bar_prime": 0,
+              "sig_W": [
+                0,
+                1,
+                1,
+                1,
+                0
+              ],
+              "sig_Ws": [
+                1,
+                2,
+                2,
+                2,
+                0
+              ],
+              "sig_L2": [
+                0,
+                3,
+                2,
+                3,
+                0
+              ],
+              "sig_L2s": [
+                0,
+                2,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "nu": [
+            -1,
+            -1,
+            -1
+          ],
+          "sig_V": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "extensions": []
+        }
+      ]
+    },
+    "m135_matches_b1485_a1_a5": true,
+    "m136_matches_b1485_a1_a5": true,
+    "eight_chiral_states": {
+      "m009": {
+        "name": "m009",
+        "sign": 1,
+        "word": "LLR",
+        "volume_float": 2.66674478344906,
+        "tau_cusp": [
+          0.125,
+          -0.33071891388307384
+        ],
+        "num_sign_chars": 4,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          },
+          {
+            "nu": [
+              -1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              -1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "m010": {
+        "name": "m010",
+        "sign": -1,
+        "word": "LLR",
+        "volume_float": 2.66674478344906,
+        "tau_cusp": [
+          -0.375,
+          -0.33071891388307384
+        ],
+        "num_sign_chars": 4,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          },
+          {
+            "nu": [
+              -1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              -1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "m022": {
+        "name": "m022",
+        "sign": 1,
+        "word": "LLLR",
+        "volume_float": 2.989120282929485,
+        "tau_cusp": [
+          0.1826544708910584,
+          -0.3179653840951906
+        ],
+        "num_sign_chars": 2,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "m023": {
+        "name": "m023",
+        "sign": -1,
+        "word": "LLLR",
+        "volume_float": 2.989120282929485,
+        "tau_cusp": [
+          -0.3173455291089416,
+          -0.3179653840951906
+        ],
+        "num_sign_chars": 2,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "m369": {
+        "name": "m369",
+        "sign": -1,
+        "word": "LLRLR",
+        "volume_float": 4.751701965517899,
+        "tau_cusp": [
+          -0.35955182406682024,
+          -0.6372039234676925
+        ],
+        "num_sign_chars": 4,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          },
+          {
+            "nu": [
+              -1,
+              -1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              -1,
+              -1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "m370": {
+        "name": "m370",
+        "sign": 1,
+        "word": "LLRLR",
+        "volume_float": 4.751701965517899,
+        "tau_cusp": [
+          0.14044817593317974,
+          -0.6372039234676925
+        ],
+        "num_sign_chars": 4,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          },
+          {
+            "nu": [
+              -1,
+              -1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              -1,
+              -1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "s639": {
+        "name": "s639",
+        "sign": -1,
+        "word": "LLLRLR",
+        "volume_float": 5.133548425107058,
+        "tau_cusp": [
+          -0.27627377692478716,
+          -0.628199101841526
+        ],
+        "num_sign_chars": 2,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      },
+      "s640": {
+        "name": "s640",
+        "sign": 1,
+        "word": "LLLRLR",
+        "volume_float": 5.133548425107058,
+        "tau_cusp": [
+          0.22372622307521284,
+          -0.628199101841526
+        ],
+        "num_sign_chars": 2,
+        "all_index_identities_hold": true,
+        "interior_generation_11_count": 0,
+        "max_abs_N10_prime": 0,
+        "characters": [
+          {
+            "nu": [
+              1,
+              1,
+              1
+            ],
+            "sig_V": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "extensions": [
+              {
+                "class_type": "boundary_0",
+                "I_W": 0,
+                "I_Lambda2_W": 0,
+                "N10_prime": 0,
+                "N5bar_prime": 0,
+                "sig_W": [
+                  0,
+                  1,
+                  1,
+                  1,
+                  0
+                ],
+                "sig_Ws": [
+                  1,
+                  2,
+                  2,
+                  2,
+                  0
+                ],
+                "sig_L2": [
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ],
+                "sig_L2s": [
+                  0,
+                  2,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "nu": [
+              1,
+              1,
+              -1
+            ],
+            "sig_V": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "extensions": []
+          }
+        ]
+      }
+    },
+    "all_eight_untwisted_give_0_minus1": false,
+    "states_with_interior_11_generation": [],
+    "global_max_abs_N10_prime_across_eight": 0,
+    "all_index_identities_hold_globally": true
+  },
+  "N2_own_arithmetic": {
+    "m004_benchmark": {
+      "name": "m004",
+      "sign": 1,
+      "word": "LR",
+      "trace_field_degree": 2,
+      "trace_field_signature": [
+        0,
+        1
+      ],
+      "trace_field_discriminant": -3,
+      "trace_field_minpoly_coeffs": [
+        1,
+        -3,
+        3
+      ],
+      "invariant_trace_field_degree": 2,
+      "invariant_trace_field_signature": [
+        0,
+        1
+      ],
+      "invariant_trace_field_discriminant": -3,
+      "invariant_trace_field_minpoly_coeffs": [
+        1,
+        -3,
+        9
+      ],
+      "is_arithmetic_reid": true,
+      "ramified_rational_primes": [
+        3
+      ],
+      "ramified_prime_ideals": [
+        {
+          "rational_prime": 3,
+          "ramification_index_e": 2,
+          "residue_degree_f": 1,
+          "residue_norm_q": 3,
+          "mod_p_holonomy_candidates": [
+            {
+              "p": 3,
+              "residue_norm": 3,
+              "status": "exact",
+              "sl2_order": 24,
+              "psl2_order": 12,
+              "num_involutions": 1,
+              "embeds_in_su2": true,
+              "is_mckay_exceptional": true,
+              "mckay_label": "2T -> E6"
+            }
+          ]
+        }
+      ],
+      "unique_norm3_mckay_2T_door": true
+    },
+    "m369_arithmetic": {
+      "name": "m369",
+      "sign": -1,
+      "word": "LLRLR",
+      "trace_field_degree": 8,
+      "trace_field_signature": [
+        0,
+        4
+      ],
+      "trace_field_discriminant": 39740416,
+      "trace_field_minpoly_coeffs": [
+        1,
+        0,
+        -6,
+        0,
+        16,
+        0,
+        -20,
+        0,
+        16
+      ],
+      "invariant_trace_field_degree": 4,
+      "invariant_trace_field_signature": [
+        0,
+        2
+      ],
+      "invariant_trace_field_discriminant": 788,
+      "invariant_trace_field_minpoly_coeffs": [
+        1,
+        -6,
+        16,
+        -20,
+        16
+      ],
+      "is_arithmetic_reid": false,
+      "ramified_rational_primes": [
+        2,
+        197
+      ],
+      "ramified_prime_ideals": [
+        {
+          "rational_prime": 2,
+          "ramification_index_e": 6,
+          "residue_degree_f": 1,
+          "residue_norm_q": 2,
+          "mod_p_holonomy_candidates": [
+            {
+              "p": 2,
+              "residue_norm": 2,
+              "status": "exact",
+              "sl2_order": 2,
+              "psl2_order": 2,
+              "num_involutions": 1,
+              "embeds_in_su2": true,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            },
+            {
+              "p": 2,
+              "residue_norm": 2,
+              "status": "exact",
+              "sl2_order": 12,
+              "psl2_order": 12,
+              "num_involutions": 3,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            }
+          ]
+        },
+        {
+          "rational_prime": 197,
+          "ramification_index_e": 2,
+          "residue_degree_f": 2,
+          "residue_norm_q": 38809,
+          "mod_p_holonomy_candidates": [
+            {
+              "p": 197,
+              "residue_norm": 38809,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            },
+            {
+              "p": 197,
+              "residue_norm": 38809,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            },
+            {
+              "p": 197,
+              "residue_norm": 38809,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            }
+          ]
+        }
+      ],
+      "unique_norm3_mckay_2T_door": false
+    },
+    "s639_arithmetic": {
+      "name": "s639",
+      "sign": -1,
+      "word": "LLLRLR",
+      "trace_field_degree": 8,
+      "trace_field_signature": [
+        0,
+        4
+      ],
+      "trace_field_discriminant": 239124637,
+      "trace_field_minpoly_coeffs": [
+        1,
+        -4,
+        4,
+        0,
+        4,
+        -9,
+        4,
+        -5,
+        6
+      ],
+      "invariant_trace_field_degree": 8,
+      "invariant_trace_field_signature": [
+        0,
+        4
+      ],
+      "invariant_trace_field_discriminant": 0,
+      "invariant_trace_field_minpoly_coeffs": [
+        1,
+        -8,
+        24,
+        -32,
+        20,
+        -1,
+        -26,
+        23,
+        36
+      ],
+      "is_arithmetic_reid": false,
+      "ramified_rational_primes": [
+        509,
+        469793
+      ],
+      "ramified_prime_ideals": [
+        {
+          "rational_prime": 509,
+          "ramification_index_e": 2,
+          "residue_degree_f": 1,
+          "residue_norm_q": 509,
+          "mod_p_holonomy_candidates": [
+            {
+              "p": 509,
+              "residue_norm": 509,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            }
+          ]
+        },
+        {
+          "rational_prime": 469793,
+          "ramification_index_e": 2,
+          "residue_degree_f": 1,
+          "residue_norm_q": 469793,
+          "mod_p_holonomy_candidates": [
+            {
+              "p": 469793,
+              "residue_norm": 469793,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            },
+            {
+              "p": 469793,
+              "residue_norm": 469793,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            },
+            {
+              "p": 469793,
+              "residue_norm": 469793,
+              "status": "exceeds_4000",
+              "sl2_order_lower_bound": 4001,
+              "embeds_in_su2": false,
+              "is_mckay_exceptional": false,
+              "mckay_label": "none"
+            }
+          ]
+        }
+      ],
+      "unique_norm3_mckay_2T_door": false
+    },
+    "any_unique_norm3_mckay_door_on_m369_or_s639": false,
+    "abstract_binary_polyhedral_surjections": {
+      "m004": {
+        "2T": {
+          "homomorphisms": 72,
+          "surjections": 48
+        },
+        "2I": {
+          "homomorphisms": 600,
+          "surjections": 0
+        },
+        "2O": {
+          "homomorphisms": 96,
+          "surjections": 0
+        }
+      },
+      "m369": {
+        "2T": {
+          "homomorphisms": 288,
+          "surjections": 96
+        },
+        "2I": {
+          "homomorphisms": 2400,
+          "surjections": 480
+        },
+        "2O": {
+          "homomorphisms": 864,
+          "surjections": 96
+        }
+      },
+      "s639": {
+        "2T": {
+          "homomorphisms": 168,
+          "surjections": 96
+        },
+        "2I": {
+          "homomorphisms": 1920,
+          "surjections": 960
+        },
+        "2O": {
+          "homomorphisms": 192,
+          "surjections": 0
+        }
+      }
+    },
+    "exceptional_representation_self_conjugacy": {
+      "dim_E6_27": 27,
+      "E6_27_self_conjugate": false,
+      "dim_E7_56": 56,
+      "E7_56_self_conjugate": true,
+      "dim_E8_248": 248,
+      "E8_248_self_conjugate": true
+    }
+  },
+  "N3_fillings_and_noncyclic_covers": {
+    "dehn_fillings": {
+      "m369": {
+        "name": "m369",
+        "sign": -1,
+        "word": "LLRLR",
+        "N": 12,
+        "total_nontrivial_chars": 11,
+        "rational_slope_chars": 11,
+        "rational_slopes_map": {
+          "(0,4)": "-4/3",
+          "(0,8)": "-4/3",
+          "(3,3)": "-3/2",
+          "(3,7)": "0",
+          "(3,11)": "0",
+          "(6,2)": "0",
+          "(6,6)": "-3/4",
+          "(6,10)": "0",
+          "(9,1)": "0",
+          "(9,5)": "0",
+          "(9,9)": "-3/2"
+        },
+        "irrational_slope_chars": 0,
+        "firing_modules": 40,
+        "e6_generation_backgrounds": 8,
+        "e6_gen_bgs_descending_to_closed_filling": 8,
+        "descended_sector_modules": 110,
+        "poincare_symmetric_on_filling": 110,
+        "chiral_surviving_on_filling": 0,
+        "cohomology_transition_histogram": {
+          "cusped=(2,2)->filled=(2,2)": 14,
+          "cusped=(1,1)->filled=(0,0)": 56,
+          "cusped=(2,1)->filled=(1,1)": 20,
+          "cusped=(1,2)->filled=(1,1)": 20
+        }
+      },
+      "s639": {
+        "name": "s639",
+        "sign": -1,
+        "word": "LLLRLR",
+        "N": 15,
+        "total_nontrivial_chars": 14,
+        "rational_slope_chars": 10,
+        "rational_slopes_map": {
+          "(0,5)": "-5/3",
+          "(0,10)": "-5/3",
+          "(3,8)": "0",
+          "(3,13)": "0",
+          "(6,1)": "0",
+          "(6,11)": "0",
+          "(9,4)": "0",
+          "(9,14)": "0",
+          "(12,2)": "0",
+          "(12,7)": "0"
+        },
+        "irrational_slope_chars": 4,
+        "firing_modules": 72,
+        "e6_generation_backgrounds": 16,
+        "e6_gen_bgs_descending_to_closed_filling": 16,
+        "descended_sector_modules": 130,
+        "poincare_symmetric_on_filling": 130,
+        "chiral_surviving_on_filling": 0,
+        "cohomology_transition_histogram": {
+          "cusped=(2,2)->filled=(2,2)": 26,
+          "cusped=(1,1)->filled=(0,0)": 40,
+          "cusped=(2,1)->filled=(1,1)": 32,
+          "cusped=(1,2)->filled=(1,1)": 32
+        }
+      },
+      "m010": {
+        "name": "m010",
+        "sign": -1,
+        "word": "LLR",
+        "N": 6,
+        "total_nontrivial_chars": 5,
+        "rational_slope_chars": 5,
+        "rational_slopes_map": {
+          "(1,2)": "-1",
+          "(2,4)": "-1/3",
+          "(3,0)": "-1/4",
+          "(4,2)": "-1/3",
+          "(5,4)": "-1"
+        },
+        "irrational_slope_chars": 0,
+        "firing_modules": 4,
+        "e6_generation_backgrounds": 0,
+        "e6_gen_bgs_descending_to_closed_filling": 0,
+        "descended_sector_modules": 20,
+        "poincare_symmetric_on_filling": 20,
+        "chiral_surviving_on_filling": 0,
+        "cohomology_transition_histogram": {
+          "cusped=(2,1)->filled=(1,1)": 2,
+          "cusped=(1,1)->filled=(0,0)": 14,
+          "cusped=(1,2)->filled=(1,1)": 2,
+          "cusped=(2,2)->filled=(2,2)": 2
+        }
+      },
+      "m022": {
+        "name": "m022",
+        "sign": 1,
+        "word": "LLLR",
+        "N": 3,
+        "total_nontrivial_chars": 2,
+        "rational_slope_chars": 2,
+        "rational_slopes_map": {
+          "(1,0)": "1/3",
+          "(2,0)": "1/3"
+        },
+        "irrational_slope_chars": 0,
+        "firing_modules": 0,
+        "e6_generation_backgrounds": 0,
+        "e6_gen_bgs_descending_to_closed_filling": 0,
+        "descended_sector_modules": 2,
+        "poincare_symmetric_on_filling": 2,
+        "chiral_surviving_on_filling": 0,
+        "cohomology_transition_histogram": {
+          "cusped=(2,2)->filled=(2,2)": 2
+        }
+      },
+      "m023": {
+        "name": "m023",
+        "sign": -1,
+        "word": "LLLR",
+        "N": 7,
+        "total_nontrivial_chars": 6,
+        "rational_slope_chars": 0,
+        "rational_slopes_map": {},
+        "irrational_slope_chars": 6,
+        "firing_modules": 12,
+        "e6_generation_backgrounds": 0,
+        "e6_gen_bgs_descending_to_closed_filling": 0,
+        "descended_sector_modules": 0,
+        "poincare_symmetric_on_filling": 0,
+        "chiral_surviving_on_filling": 0,
+        "cohomology_transition_histogram": {}
+      }
+    },
+    "all_descending_sectors_poincare_symmetric": true,
+    "noncyclic_covers_d3_to_d5": {
+      "m009": {
+        "name": "m009",
+        "sign": 1,
+        "word": "LLR",
+        "total_noncyclic_covers_d3_to_d5": 12,
+        "covers_with_interior_betti_excess_gt0": 0,
+        "covers_with_rank2_free_cusps": 6,
+        "max_b1": 3,
+        "max_cusps": 3,
+        "max_rank2_free_cusps": 3,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 3,
+            "b1": 2,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              6
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 1,
+            "torsion_invariant_factors": [],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 18,
+            "torsion_invariant_factors": [
+              3,
+              6
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 60,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m010": {
+        "name": "m010",
+        "sign": -1,
+        "word": "LLR",
+        "total_noncyclic_covers_d3_to_d5": 11,
+        "covers_with_interior_betti_excess_gt0": 1,
+        "covers_with_rank2_free_cusps": 6,
+        "max_b1": 3,
+        "max_cusps": 3,
+        "max_rank2_free_cusps": 3,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 2,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              6
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 12,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              6
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 18,
+            "torsion_invariant_factors": [
+              3,
+              6
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 60,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m135": {
+        "name": "m135",
+        "sign": -1,
+        "word": "LLRR",
+        "total_noncyclic_covers_d3_to_d5": 37,
+        "covers_with_interior_betti_excess_gt0": 12,
+        "covers_with_rank2_free_cusps": 19,
+        "max_b1": 4,
+        "max_cusps": 4,
+        "max_rank2_free_cusps": 4,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 40,
+            "torsion_invariant_factors": [
+              2,
+              20
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 96,
+            "torsion_invariant_factors": [
+              2,
+              48
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              16
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              16
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 96,
+            "torsion_invariant_factors": [
+              2,
+              48
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              4,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 4,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 4,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 4,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              4,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 232,
+            "torsion_invariant_factors": [
+              2,
+              116
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 3,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 3,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m136": {
+        "name": "m136",
+        "sign": 1,
+        "word": "LLRR",
+        "total_noncyclic_covers_d3_to_d5": 37,
+        "covers_with_interior_betti_excess_gt0": 4,
+        "covers_with_rank2_free_cusps": 19,
+        "max_b1": 4,
+        "max_cusps": 4,
+        "max_rank2_free_cusps": 4,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 3,
+            "b1": 1,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              4,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              8
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              4,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              4,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 4,
+            "torsion_order": 1,
+            "torsion_invariant_factors": [],
+            "cusps": 4,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 4,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              4,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 32,
+            "torsion_invariant_factors": [
+              2,
+              4,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 2,
+            "torsion_invariant_factors": [
+              2
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 20,
+            "torsion_invariant_factors": [
+              2,
+              10
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 20,
+            "torsion_invariant_factors": [
+              2,
+              10
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 4,
+            "torsion_invariant_factors": [
+              2,
+              2
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 16,
+            "torsion_invariant_factors": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m022": {
+        "name": "m022",
+        "sign": 1,
+        "word": "LLLR",
+        "total_noncyclic_covers_d3_to_d5": 4,
+        "covers_with_interior_betti_excess_gt0": 0,
+        "covers_with_rank2_free_cusps": 4,
+        "max_b1": 2,
+        "max_cusps": 2,
+        "max_rank2_free_cusps": 2,
+        "covers": [
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 12,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 12,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m023": {
+        "name": "m023",
+        "sign": -1,
+        "word": "LLLR",
+        "total_noncyclic_covers_d3_to_d5": 5,
+        "covers_with_interior_betti_excess_gt0": 0,
+        "covers_with_rank2_free_cusps": 4,
+        "max_b1": 2,
+        "max_cusps": 2,
+        "max_rank2_free_cusps": 2,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 2,
+            "torsion_order": 7,
+            "torsion_invariant_factors": [
+              7
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 14,
+            "torsion_invariant_factors": [
+              14
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 7,
+            "torsion_invariant_factors": [
+              7
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 12,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 7,
+            "torsion_invariant_factors": [
+              7
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 7,
+            "torsion_invariant_factors": [
+              7
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          }
+        ]
+      },
+      "m369": {
+        "name": "m369",
+        "sign": -1,
+        "word": "LLRLR",
+        "total_noncyclic_covers_d3_to_d5": 23,
+        "covers_with_interior_betti_excess_gt0": 4,
+        "covers_with_rank2_free_cusps": 14,
+        "max_b1": 3,
+        "max_cusps": 3,
+        "max_rank2_free_cusps": 3,
+        "covers": [
+          {
+            "degree": 3,
+            "b1": 2,
+            "torsion_order": 8,
+            "torsion_invariant_factors": [
+              2,
+              4
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 6,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 48,
+            "torsion_invariant_factors": [
+              48
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 192,
+            "torsion_invariant_factors": [
+              2,
+              96
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 12,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 48,
+            "torsion_invariant_factors": [
+              2,
+              24
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 4,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 1,
+            "torsion_order": 48,
+            "torsion_invariant_factors": [
+              2,
+              24
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 3,
+            "torsion_invariant_factors": [
+              3
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 24,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 3,
+            "torsion_order": 6,
+            "torsion_invariant_factors": [
+              6
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 4,
+            "b1": 2,
+            "torsion_order": 24,
+            "torsion_invariant_factors": [
+              2,
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 8,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 144,
+            "torsion_invariant_factors": [
+              2,
+              6,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 60,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 132,
+            "torsion_invariant_factors": [
+              132
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 10,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 144,
+            "torsion_invariant_factors": [
+              2,
+              6,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 60,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 3,
+            "torsion_order": 12,
+            "torsion_invariant_factors": [
+              12
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 36,
+            "torsion_invariant_factors": [
+              3,
+              12
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 1,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 3,
+            "torsion_order": 12,
+            "torsion_invariant_factors": [
+              12
+            ],
+            "cusps": 3,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 3,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 120,
+            "torsion_invariant_factors": [
+              2,
+              60
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 1,
+            "torsion_order": 120,
+            "torsion_invariant_factors": [
+              2,
+              60
+            ],
+            "cusps": 1,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              1
+            ],
+            "num_rank2_free_cusps": 0,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 36,
+            "torsion_invariant_factors": [
+              3,
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 120,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 12,
+            "torsion_invariant_factors": [
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          },
+          {
+            "degree": 5,
+            "b1": 2,
+            "torsion_order": 12,
+            "torsion_invariant_factors": [
+              12
+            ],
+            "cusps": 2,
+            "interior_betti_excess": 0,
+            "cusp_individual_ranks": [
+              2,
+              2
+            ],
+            "num_rank2_free_cusps": 2,
+            "image_order": 20,
+            "is_cyclic_image": false
+          }
+        ]
+      }
+    },
+    "total_noncyclic_covers_found": 129,
+    "total_covers_with_betti_excess": 21,
+    "total_covers_with_rank2_free_cusps": 72
+  },
+  "N4_genesis_probes": {
+    "E7_causal_sets": {
+      "unlabeled_poset_counts_n1_to_6": [
+        1,
+        2,
+        5,
+        16,
+        63,
+        318
+      ],
+      "matches_oeis_a000112": true,
+      "mean_ordering_fraction_r": [
+        "0",
+        "1/2",
+        "8/15",
+        "13/24",
+        "172/315",
+        "515/954"
+      ],
+      "exact_4d_minkowski_r_1_10_hits_by_n": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0
+      }
+    },
+    "E8_hott_empty_type": {
+      "iterated_identity_nondeg_cells_k0_to_4": [
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        }
+      ],
+      "all_iterated_identity_empty": true,
+      "iterated_suspension_nondeg_cells_k0_to_4": [
+        {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 2,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 2,
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 0,
+          "4": 0
+        },
+        {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 0
+        }
+      ]
+    },
+    "E9_ssb_modular_potential": {
+      "modular_invariance_error": 2.627434620609032e-46,
+      "is_modular_invariant": true,
+      "omega_grad_norm": 4.968950880643416e-22,
+      "omega_hessian_eigs": [
+        -0.19881671145467375,
+        -0.19881671145467375
+      ],
+      "omega_is_strict_local_maximum": true,
+      "i_grad_norm": 1.9154144161252038e-21,
+      "i_hessian_eigs": [
+        -0.3830828832250411,
+        0.08799773347101703
+      ],
+      "i_is_saddle": true,
+      "mexican_hat_continuous_contour_witnesses": [
+        [
+          0.4578040721008248,
+          1.038393089411928,
+          1.149391134864662e-29
+        ],
+        [
+          0.4946751049389151,
+          1.0400402689309682,
+          1.1676793653726947e-29
+        ]
+      ]
+    },
+    "E10_chern_simons_stationarity": {
+      "states": {
+        "m004": {
+          "sig_Ad_rho_triv": [
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "sig_Ad_rho_hyp": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "h1_triv": 3,
+          "h1_hyp": 1,
+          "n_int_hyp_weil_rigidity": 0
+        },
+        "m009": {
+          "sig_Ad_rho_triv": [
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "sig_Ad_rho_hyp": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "h1_triv": 3,
+          "h1_hyp": 1,
+          "n_int_hyp_weil_rigidity": 0
+        },
+        "m369": {
+          "sig_Ad_rho_triv": [
+            3,
+            3,
+            3,
+            3,
+            0
+          ],
+          "sig_Ad_rho_hyp": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "h1_triv": 3,
+          "h1_hyp": 1,
+          "n_int_hyp_weil_rigidity": 0
+        }
+      },
+      "all_triv_h1_equal_3": true,
+      "all_hyp_h1_equal_1_and_n_int_0": true
+    },
+    "E12_E13_entropy_and_measures": {
+      "E12_unconstrained_perron_root": 2,
+      "E12_unconstrained_weights": [
+        "1/2",
+        "1/2"
+      ],
+      "E12_golden_charpoly_coeffs": [
+        1,
+        -1,
+        -1
+      ],
+      "E12_golden_branch_probs_from_L_sum_to_1": true,
+      "E13_delta_empty_total_mass": 1,
+      "E13_delta_empty_shift_invariant": true,
+      "E13_delta_empty_entropy_exact_zero": true
+    },
+    "E15_bulk_from_boundary_collision": {
+      "m003_minus_LR_level1_N": 5,
+      "m206_plus_LR_level2_N": 5,
+      "m003_h1_pair_histogram": {
+        "(2,1)": 4,
+        "(1,1)": 4,
+        "(1,2)": 4
+      },
+      "m206_h1_pair_histogram": {
+        "(2,1)": 4,
+        "(1,1)": 4,
+        "(1,2)": 4
+      },
+      "exact_double_cover_slope_doubling_plus_dehn_twist_holds": true,
+      "identical_fci_census_and_rational_count": true,
+      "distinct_mostow_volumes_ratio_2": true
+    },
+    "E18_E19_bootstrap_and_diophantine": {
+      "E18_sl2_z_box_count": 308,
+      "E18_surviving_hyperbolic_traces_under_SE1_and_McKay": [
+        3
+      ],
+      "E18_identity_commutator_trace": 2,
+      "E18_dropping_scar_admits_trivial_identity": true,
+      "E19_k_minus2_solution_count_box10": 17,
+      "E19_k_minus2_contains_origin_Q8": true,
+      "E19_k_minus2_minimal_positive_solutions": [
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          6
+        ],
+        [
+          3,
+          6,
+          3
+        ],
+        [
+          6,
+          3,
+          3
+        ]
+      ],
+      "E19_k_plus2_solution_count_box10": 134,
+      "E19_k_plus2_contains_trivial_222": true
+    }
+  },
+  "Section5_metallic_fixed_loci_b130": {
+    "m_1_LR": {
+      "bivariate_cross_factors": [
+        "x*y - x - y"
+      ],
+      "branches": [
+        {
+          "factor": "x*y - x - y",
+          "geometry": "1D_curve",
+          "is_zero_dimensional": false,
+          "kappa_varies_continuously": true,
+          "sample_kappa_spread": 33.003264340714054
+        }
+      ],
+      "singular_locus_solutions": [],
+      "isolated_unsymmetric_zero_dim_points": 0,
+      "all_curve_branches_vary_kappa": true
+    },
+    "m_2_LLRR": {
+      "bivariate_cross_factors": [
+        "x**2*y**2 - 2*x**2 - 2*y**2"
+      ],
+      "branches": [
+        {
+          "factor": "x**2*y**2 - 2*x**2 - 2*y**2",
+          "geometry": "1D_curve",
+          "is_zero_dimensional": false,
+          "kappa_varies_continuously": true,
+          "sample_kappa_spread": 36.46045475902741
+        }
+      ],
+      "singular_locus_solutions": [
+        {
+          "type": "1D_vertical_z_line",
+          "kappa_varies": true
+        }
+      ],
+      "isolated_unsymmetric_zero_dim_points": 0,
+      "all_curve_branches_vary_kappa": true
+    },
+    "m_3_LLLRRR": {
+      "bivariate_cross_factors": [
+        "y + 1",
+        "x + 1",
+        "x**2*y**2 - x**2*y - x**2 - x*y**2 + x*y + x - y**2 + y"
+      ],
+      "branches": [
+        {
+          "factor": "y + 1",
+          "geometry": "spurious_denominator_locus_checked_in_singular_grid",
+          "is_zero_dimensional": false,
+          "kappa_varies_continuously": true
+        },
+        {
+          "factor": "x**2*y**2 - x**2*y - x**2 - x*y**2 + x*y + x - y**2 + y",
+          "geometry": "1D_curve",
+          "is_zero_dimensional": false,
+          "kappa_varies_continuously": true,
+          "sample_kappa_spread": 36.76950948003209
+        }
+      ],
+      "singular_locus_solutions": [
+        {
+          "type": "1D_vertical_z_line",
+          "kappa_varies": true
+        }
+      ],
+      "isolated_unsymmetric_zero_dim_points": 0,
+      "all_curve_branches_vary_kappa": true
+    }
+  },
+  "Section5_planted_controls": {
+    "PC_N1_transpose_four_cocycle": {
+      "fired": true,
+      "lorentzian_metric_error": 3.0614674589207183,
+      "shifted_untwisted_sig_V": [
+        1,
+        2,
+        2,
+        2,
+        0
+      ]
+    },
+    "PC_N2_fake_norm3_prime": {
+      "fired": true,
+      "real_m369_door": false,
+      "synthetic_norm3_door": true
+    },
+    "PC_N3_cyclic_as_noncyclic": {
+      "fired": true,
+      "cyclic_covers_caught": 1
+    },
+    "PC_N4_embedded_target_potential": {
+      "fired": true,
+      "modular_invariance_error": 1.12
+    },
+    "PC_N5_drop_scar_in_markoff": {
+      "fired": true,
+      "admits_trivial_222_at_k_plus2": true
+    },
+    "all_five_planted_controls_fired": true
+  }
+}
