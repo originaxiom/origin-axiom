@@ -658,7 +658,11 @@ def main() -> None:
         (Fraction(1, 2), Fraction(0, 1)),
         (Fraction(1, 2), Fraction(1, 2)),
     ]
-    bohn2_expected = [Fraction(0), Fraction(0), Fraction(1)]
+    # Note: In Bohn's worked example 2 (chap_IV.tex line 3687), at nu=(1/2, 0),
+    # Bohn wrote "2(1/4 - 1/2) - 4*P_1(3/4) + 1 - 2*P_1(3/4) = 0", whereas with
+    # P_1(3/4) = +1/4 this expression equals -1/2 - 1 + 1 - 1/2 = -1 (confirmed
+    # identically by Eq. (4.67): -3/4 - 5/4 + 1 = -1 and rho(M^{-1}) = +1).
+    bohn2_expected = [Fraction(0), Fraction(-1), Fraction(1)]
     bohn2_thm = [rho_bohn_thm420(M_bohn2, nu) for nu in bohn2_inputs]
     bohn2_eq = [rho_bohn_eq467(M_bohn2, nu) for nu in bohn2_inputs]
     assert bohn2_thm == bohn2_expected and bohn2_eq == bohn2_expected
