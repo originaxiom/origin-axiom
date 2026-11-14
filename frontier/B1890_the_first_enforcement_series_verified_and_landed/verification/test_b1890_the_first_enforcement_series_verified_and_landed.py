@@ -113,3 +113,27 @@ def test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty(monkeypatc
 def test_the_verdict_file_is_read():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1890" and v["verdict"] == "PROVED" and v["claim_one_line"].startswith("THE FIRST")
+
+
+def test_the_count_of_the_planted_suite_is_held_and_says_what_later_arcs_made_of_it():
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A15, the fourth clause; not checked by main).
+    The verdict line's own count, the seat's 11 of 21, was held by nothing; and no page, verdict line, ledger or register row
+    said that two later arcs raised the count of caught cases.  The note is on this page and in the verdict line, and each
+    of its numbers is read from the page of the arc that ran it."""
+    import re
+    arc = pathlib.Path(__file__).resolve().parents[1]
+    v = json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))
+    line = " ".join(v["claim_one_line"].split())
+    page = " ".join((arc / "FINDINGS.md").read_text(encoding="utf-8").split())
+    assert "the seat's planted suite, whose 11 of 21 is the seat's count." in line
+    assert "- **The planted suite's count,** 11 of 21 on the series, is the seat's run." in page
+    said = "main's head after this series caught 14"
+    for text in (line, page):
+        assert said in text and "the second series raised that to 19 (B1893) and the third to 24 (B1896)" in text
+    second = " ".join(next(arc.parent.glob("B1893_*/FINDINGS.md")).read_text(encoding="utf-8").split())
+    third = " ".join(next(arc.parent.glob("B1896_*/FINDINGS.md")).read_text(encoding="utf-8").split())
+    assert "19 of 32 planted cases caught, where main's head before the series caught 14" in second
+    assert "24 of 32 planted cases caught, where the end of the second series caught 19" in third
+    # that this can fail: the note with one number changed is not the note
+    assert "raised that to 19 (B1893) and the third to 24 (B1896)" not in line.replace("the third to 24", "the third to 25")
+    assert re.search(r"whose 11 of 21 is the seat's count", line) and not re.search(r"whose 1[02] of 21", line)

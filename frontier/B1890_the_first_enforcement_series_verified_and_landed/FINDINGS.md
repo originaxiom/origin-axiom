@@ -76,6 +76,10 @@ the clock is real. Renaming them is main's and is not done here.
 
 - **The whole suite on a fresh clone** was not run. Main ran the 47 files that name a gate.
 - **The planted suite's count,** 11 of 21 on the series, is the seat's run. Main ran its own nine cases.
+  [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its fourth clause, not checked by main): two
+  later arcs raised the count, and neither this page nor any ledger said so here. The suite has grown to 32 cases
+  since. By that version, main's head after this series caught 14 of 32; the second series raised that to 19 (B1893)
+  and the third to 24 (B1896). Each number is on the page of the arc that ran it.]
 - **The export of U9.b was small:** the gates, their checkers and three pages. The nine gates that pass there have
   little to read. What the case shows is that they were not refused.
 - **A history cut by other means** than a shallow file was not tried.
