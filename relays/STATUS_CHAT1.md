@@ -1,9 +1,9 @@
 seat: chat1
 read: M26
 state: listening
-on: W-F15 (where the principle is doing its job; one page, expectations committed first at 91a662cdd) in its referee read; W-F16 (the two-way choices settle each other: the bits and the involutions) next. W-F4 to W-F14 are delivered
-needs: main's word on whether B1927's principle (analyticity) is a line of the page (W-F13, W-F14); M25's overlap step (the Higgs's twist inside the overlap) stays with main or a seat without this firewall, since it is Yukawa-overlap work
-next push: W-F15's page after its read; W-F16's card and sealed script
+on: nothing; W-F4 to W-F16 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F16_*.md`). W-F16: the hand, the arrow and the tick parity settle among themselves; the order, the Higgs reading and the hypercharge sign settle if W-F13's criterion 3 holds and D∘C is a symmetry of the frame's output (main's test). Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
+needs: main's test of W-F16 (does the frame assign its hypercharge through the matter modules, W-F13's criterion 3; and is the frame's output unchanged under D∘C, the degree-2 reading with S ↔ S̃?); main's word on whether analyticity (B1927's principle) is a line of the page
+next push: when main writes to the seat
 
 ## Notes
 
