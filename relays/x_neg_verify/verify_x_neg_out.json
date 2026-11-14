@@ -1,0 +1,5388 @@
+{
+  "card": "X-NEG",
+  "seat": "agy-exp",
+  "script_sha256": "6a2f21efab0482ac0fc88ceaee8fba63e6152abf2a0807a79a723d01d7e07beb",
+  "total_elapsed_seconds": 280.652,
+  "all_planted_controls_fired": false,
+  "B1868": {
+    "elapsed_seconds": 203.693,
+    "density_and_constants": {
+      "codec_checks": {
+        "max_rational_error_512_sb_points": 5.329070518200751e-15,
+        "inversion_symmetry_error": 0.0,
+        "r_branch_halving_error": 5.329070518200751e-15,
+        "inverse_roundtrip_error": 4.600764214046649e-13,
+        "mp_inverse_roundtrip_error_60d": 2.0446260929940028e-70,
+        "all_below_1e_11": true
+      },
+      "pollicott_lambda_by_depth": {
+        "14": 0.7924235699347375,
+        "16": 0.7924247752081967,
+        "18": 0.7924250477636732,
+        "19": 0.7924250898271465
+      },
+      "pollicott_lambda": 0.7924250898271465,
+      "unit_quarter_identity_error": 8.80108121936729e-08,
+      "d1_information_dimension": 0.8747163479025418,
+      "salem_alpha_min_exact": 0.7202100452062782,
+      "salem_exceeds_one_half": true,
+      "min_sb_holder_by_depth": {
+        "8": 0.736050290607179,
+        "9": 0.7342687123206733,
+        "10": 0.732833820334371,
+        "11": 0.7316694610745913,
+        "12": 0.7307000711772322,
+        "13": 0.7298824952977216,
+        "14": 0.7291829325007178,
+        "15": 0.7285778133657793,
+        "16": 0.7280491270654491,
+        "17": 0.7275832868144184,
+        "18": 0.7271697028414902
+      },
+      "d2_pressure_by_depth": {
+        "15": 0.8446094861032172,
+        "16": 0.8446094861027484,
+        "17": 0.8446094861026445
+      },
+      "d2_correlation_dimension": 0.8446094861026445,
+      "d2_direct_correlation_slope": 0.8445877152172945,
+      "riesz_half_dyadic_spectral_ratio": 0.7499999999835818,
+      "riesz_half_energy_by_depth": {
+        "7": 3.0514719171468747,
+        "8": 3.170000547793838,
+        "9": 3.25923601051732,
+        "10": 3.3262806278793446,
+        "11": 3.3766053646932197,
+        "12": 3.4143634418903206
+      },
+      "riesz_half_sup_potential_by_depth": {
+        "7": 3.635011424965433,
+        "8": 3.8401152687418203,
+        "9": 4.005854948025026,
+        "10": 4.140171311978051,
+        "11": 4.248792792358733,
+        "12": 4.336701582077714
+      },
+      "unconditional_density_theorem_verified": false
+    },
+    "on_axis_folding_symmetry_rel_error": 0.0,
+    "points": {
+      "exp(i pi/3)": {
+        "axis": "off_axis",
+        "degree": 3,
+        "half_turn_matrix": [
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "fixed_point_error": 1.0542197943230523e-81,
+        "jensen_exponent_60d_cf": 1.168029887224224,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": 0.00199229937160149,
+        "slope_weighted_2m5_2m11_d14": -0.013847537721159722,
+        "slope_unweighted_2m5_2m11_d15": 0.002169350128143432,
+        "max_rel_diff_d14_vs_d15": 0.0014637709416138614,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.6750522143893993,
+          "2^-3": 1.7565136811211652,
+          "2^-4": 1.7954022094406725,
+          "2^-5": 1.7038113408454945,
+          "2^-6": 1.7436816752787285,
+          "2^-7": 1.7316118194214445,
+          "2^-8": 1.7314813313235131,
+          "2^-9": 1.7108546691949684,
+          "2^-10": 1.7107709664323547,
+          "2^-11": 1.7103563697892894,
+          "2^-12": 1.6989854818900723
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.06850874578698647,
+          -0.03159226210374821,
+          0.07554147749382312,
+          -0.03337108917312957,
+          0.010021134174288987,
+          0.0001087204551971457,
+          0.017289619210149043,
+          7.058490519716308e-05,
+          0.00034967217824074615,
+          0.009623431808035933
+        ],
+        "mass_within_2m12": 1.0126742662960438e-07,
+        "regime": "flat"
+      },
+      "(1 + i sqrt(7))/2": {
+        "axis": "off_axis",
+        "degree": 7,
+        "half_turn_matrix": [
+          [
+            1,
+            -4
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 1.5519220403402665,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": 0.08312198538768038,
+        "slope_weighted_2m5_2m11_d14": 0.0794079186988603,
+        "slope_unweighted_2m5_2m11_d15": 0.08317755437478636,
+        "max_rel_diff_d14_vs_d15": 0.0007839119525060588,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.5248274623037865,
+          "2^-3": 1.4297127933527132,
+          "2^-4": 1.3304995192046218,
+          "2^-5": 1.2701822059916592,
+          "2^-6": 1.2073461298083583,
+          "2^-7": 1.1351205771931514,
+          "2^-8": 1.0755003279207593,
+          "2^-9": 1.0058806171149064,
+          "2^-10": 0.957729246885732,
+          "2^-11": 0.9013288476725916,
+          "2^-12": 0.8496605242602976
+        },
+        "local_slopes_2m2_to_2m12": [
+          0.09292064615044533,
+          0.10375737251286035,
+          0.06693252444465336,
+          0.0731961280269932,
+          0.08899378187131655,
+          0.07783759003868974,
+          0.09654887551677234,
+          0.07076932490061343,
+          0.08756429319388337,
+          0.08516702795155313
+        ],
+        "mass_within_2m12": 5.0643713979757264e-08,
+        "regime": "falling"
+      },
+      "Q1 = 21/50 + 123/100 i": {
+        "axis": "off_axis",
+        "degree": 151290000,
+        "half_turn_matrix": [
+          [
+            4200,
+            -16893
+          ],
+          [
+            10000,
+            -4200
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 7.415586189393432e+60,
+        "jensen_exponent_50d_ball": 1.5400093078566761,
+        "slope_unweighted_2m5_2m11_d14": -0.011031187381058566,
+        "slope_weighted_2m5_2m11_d14": 0.00823875308819603,
+        "slope_unweighted_2m5_2m11_d15": -0.011045832973315208,
+        "max_rel_diff_d14_vs_d15": 0.0005135928091334809,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.5621451299674527,
+          "2^-3": 1.4628034071193543,
+          "2^-4": 1.488720322546355,
+          "2^-5": 1.5146591762209431,
+          "2^-6": 1.489417362227286,
+          "2^-7": 1.4877883867997697,
+          "2^-8": 1.5237970082766414,
+          "2^-9": 1.536578550518147,
+          "2^-10": 1.5548810605657264,
+          "2^-11": 1.5638073474598158,
+          "2^-12": 1.565117630414926
+        },
+        "local_slopes_2m2_to_2m12": [
+          0.0947926001700296,
+          -0.02533685635128141,
+          -0.02492045114703244,
+          0.024245119234417373,
+          0.0015787387259314685,
+          -0.034501386241448495,
+          -0.01205079211235034,
+          -0.017082706754671387,
+          -0.008258564702133143,
+          -0.0012082992371914793
+        ],
+        "mass_within_2m12": 9.328828085595069e-08,
+        "regime": "flat"
+      },
+      "Q2 = 2/25 + 33/25 i": {
+        "axis": "off_axis",
+        "degree": 680625,
+        "half_turn_matrix": [
+          [
+            50,
+            -1093
+          ],
+          [
+            625,
+            -50
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 2.86178708099905e+62,
+        "jensen_exponent_50d_ball": 1.5142667727204289,
+        "slope_unweighted_2m5_2m11_d14": -0.008810023813520107,
+        "slope_weighted_2m5_2m11_d14": -0.015230917690023833,
+        "slope_unweighted_2m5_2m11_d15": -0.00879225180113978,
+        "max_rel_diff_d14_vs_d15": 0.0006180334538302292,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.7121724354337111,
+          "2^-3": 1.7605738594476283,
+          "2^-4": 1.7910394830736158,
+          "2^-5": 1.8851181334860325,
+          "2^-6": 1.8909219391045873,
+          "2^-7": 1.9342901731047981,
+          "2^-8": 1.9760542185296808,
+          "2^-9": 1.9730717493173637,
+          "2^-10": 1.9468184951074436,
+          "2^-11": 1.9443883259853354,
+          "2^-12": 1.9478565647873025
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.04021774727222702,
+          -0.024751389278437567,
+          -0.0738577931983648,
+          -0.004434872520819161,
+          -0.03271443007737799,
+          -0.03081829443900576,
+          0.002179112236629211,
+          0.01932503392707821,
+          0.001802008249884386,
+          -0.0025710675380985135
+        ],
+        "mass_within_2m12": 1.1610129919424123e-07,
+        "regime": "flat"
+      },
+      "Q3 = 3/25 + 93/50 i": {
+        "axis": "off_axis",
+        "degree": 21622500,
+        "half_turn_matrix": [
+          [
+            300,
+            -8685
+          ],
+          [
+            2500,
+            -300
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 4.737780394800838e+61,
+        "jensen_exponent_50d_ball": 1.5203238398113106,
+        "slope_unweighted_2m5_2m11_d14": -0.003960480531109868,
+        "slope_weighted_2m5_2m11_d14": -0.008221296762467979,
+        "slope_unweighted_2m5_2m11_d15": -0.0038276049769924406,
+        "max_rel_diff_d14_vs_d15": 0.0010732077063255894,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.2538857505542615,
+          "2^-3": 1.2562135777312584,
+          "2^-4": 1.2298526094621132,
+          "2^-5": 1.1830042111362165,
+          "2^-6": 1.1871194013370312,
+          "2^-7": 1.200857080633753,
+          "2^-8": 1.2059919082569044,
+          "2^-9": 1.2082969375673591,
+          "2^-10": 1.20072372878242,
+          "2^-11": 1.2020442771694622,
+          "2^-12": 1.199530971463847
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.0026758667668874804,
+          0.030596340359491686,
+          0.056030218240070824,
+          -0.005009840355807698,
+          -0.016599410078401662,
+          -0.006155767662289775,
+          -0.0027548115226346884,
+          0.009070795367578056,
+          -0.0015857950466627866,
+          0.003019630555832513
+        ],
+        "mass_within_2m12": 7.149761780631434e-08,
+        "regime": "flat"
+      },
+      "i": {
+        "axis": "on_axis",
+        "degree": 1,
+        "half_turn_matrix": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 0.9035729652500325,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": -0.15534908728051425,
+        "slope_weighted_2m5_2m11_d14": -0.15382749747605423,
+        "slope_unweighted_2m5_2m11_d15": -0.1552759683022552,
+        "max_rel_diff_d14_vs_d15": 0.0008319756737516568,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.9203494826479963,
+          "2^-3": 2.1611953199383334,
+          "2^-4": 2.41764279472963,
+          "2^-5": 2.6917104010803485,
+          "2^-6": 2.992085600027819,
+          "2^-7": 3.328874895678746,
+          "2^-8": 3.713536255648692,
+          "2^-9": 4.140096301235662,
+          "2^-10": 4.606272523849926,
+          "2^-11": 5.128745241838978,
+          "2^-12": 5.720429084643642
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.1704605733369069,
+          -0.1617716400771249,
+          -0.15492209691160974,
+          -0.15262824969508978,
+          -0.1538832031489318,
+          -0.15775901080133128,
+          -0.1568706625421866,
+          -0.15393544263996164,
+          -0.15500614192118567,
+          -0.15751745575430887
+        ],
+        "mass_within_2m12": 3.409641452465845e-07,
+        "regime": "spiked"
+      },
+      "i sqrt(2)": {
+        "axis": "on_axis",
+        "degree": 2,
+        "half_turn_matrix": [
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "fixed_point_error": 2.1084395886461046e-81,
+        "jensen_exponent_60d_cf": 1.0329819252420454,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": -0.07701666798205985,
+        "slope_weighted_2m5_2m11_d14": -0.07468040282049399,
+        "slope_unweighted_2m5_2m11_d15": -0.07682147744268396,
+        "max_rel_diff_d14_vs_d15": 0.0014761860904603057,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.6340336023373607,
+          "2^-3": 1.7805027539735216,
+          "2^-4": 1.8555466044350415,
+          "2^-5": 1.964683457038183,
+          "2^-6": 2.0632285765617584,
+          "2^-7": 2.182289595035432,
+          "2^-8": 2.2997635367800826,
+          "2^-9": 2.428409940569419,
+          "2^-10": 2.5594672615033667,
+          "2^-11": 2.7027649575993173,
+          "2^-12": 2.854007544061894
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.1238470157441814,
+          -0.05955956945274512,
+          -0.08245265257383748,
+          -0.07060677109364871,
+          -0.08093890314320382,
+          -0.07564296649024212,
+          -0.07852645398084018,
+          -0.07583156882697326,
+          -0.07859250251311693,
+          -0.07855309307636811
+        ],
+        "mass_within_2m12": 1.701121066950502e-07,
+        "regime": "spiked"
+      },
+      "i sqrt(3)": {
+        "axis": "on_axis",
+        "degree": 3,
+        "half_turn_matrix": [
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "fixed_point_error": 2.1084395886461046e-81,
+        "jensen_exponent_60d_cf": 1.1791164882276923,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": 0.0048466284683470855,
+        "slope_weighted_2m5_2m11_d14": 0.005996404428335708,
+        "slope_unweighted_2m5_2m11_d15": null,
+        "max_rel_diff_d14_vs_d15": null,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.3935879921251184,
+          "2^-3": 1.3318521400283312,
+          "2^-4": 1.3676852399337929,
+          "2^-5": 1.354630135170747,
+          "2^-6": 1.3530003625370137,
+          "2^-7": 1.3345722885893891,
+          "2^-8": 1.3441417630100545,
+          "2^-9": 1.3340395507967715,
+          "2^-10": 1.3290123590096605,
+          "2^-11": 1.3287419373007627,
+          "2^-12": 1.320893000730085
+        },
+        "local_slopes_2m2_to_2m12": [
+          0.06537017236021192,
+          -0.038302319811968494,
+          0.013837250053864958,
+          0.0017367696090092137,
+          0.019784773110592332,
+          -0.010307850525118279,
+          0.010883863994271105,
+          0.0054469184393089055,
+          0.0002935832407558749,
+          0.008547332182400965
+        ],
+        "mass_within_2m12": 7.87313584858794e-08,
+        "regime": "flat"
+      },
+      "Q4 = 67/50 i": {
+        "axis": "on_axis",
+        "degree": 11222500,
+        "half_turn_matrix": [
+          [
+            0,
+            -4489
+          ],
+          [
+            2500,
+            0
+          ]
+        ],
+        "fixed_point_error": 0.0,
+        "jensen_exponent_60d_cf": 2.6082645578553,
+        "jensen_exponent_50d_ball": NaN,
+        "slope_unweighted_2m5_2m11_d14": 0.0031911411690371152,
+        "slope_weighted_2m5_2m11_d14": 0.04019758363386072,
+        "slope_unweighted_2m5_2m11_d15": null,
+        "max_rel_diff_d14_vs_d15": null,
+        "f_eps_2m2_to_2m12": {
+          "2^-2": 1.702728905073468,
+          "2^-3": 1.7938810108839542,
+          "2^-4": 1.827752438058928,
+          "2^-5": 1.7493522630722456,
+          "2^-6": 1.6658013249785786,
+          "2^-7": 1.641001306985574,
+          "2^-8": 1.6635969405097324,
+          "2^-9": 1.686547005729548,
+          "2^-10": 1.6860122011748322,
+          "2^-11": 1.6844438976904677,
+          "2^-12": 1.6770299185826507
+        },
+        "local_slopes_2m2_to_2m12": [
+          -0.07523543978107675,
+          -0.026986477536699548,
+          0.06324984548960083,
+          0.07060448557555635,
+          0.021639957249785766,
+          -0.019729548970250806,
+          -0.019766591385346664,
+          0.00045755157319169457,
+          0.001342598008356094,
+          0.006363951540730112
+        ],
+        "mass_within_2m12": 9.995877307132176e-08,
+        "regime": "flat"
+      }
+    },
+    "planted_controls": {
+      "PC_B1868_liouville_flat": {
+        "liouville_3side_f_eps": {
+          "exp(i pi/3)": 1.0023605594541019,
+          "(1 + i sqrt(7))/2": 1.0033495465730675,
+          "Q1 = 21/50 + 123/100 i": 0.9958501707446994,
+          "Q2 = 2/25 + 33/25 i": 0.9990960011981248,
+          "Q3 = 3/25 + 93/50 i": 1.0120959018483653,
+          "i": 0.9971120104645862,
+          "i sqrt(2)": 1.0004428703294368,
+          "i sqrt(3)": 0.9973880088954109,
+          "Q4 = 67/50 i": 0.9922827429021208
+        },
+        "max_3side_abs_error_from_1": 0.012095901848365287,
+        "planted_1side_off_axis_f_eps": {
+          "exp(i pi/3)": 0.3341201864847006,
+          "(1 + i sqrt(7))/2": 0.38459731651615114,
+          "Q1 = 21/50 + 123/100 i": 0.394948383115324,
+          "Q2 = 2/25 + 33/25 i": 0.48085003968147,
+          "Q3 = 3/25 + 93/50 i": 0.4794951568872705
+        },
+        "min_planted_1side_abs_error_from_1": 0.51914996031853,
+        "control_fired": false
+      },
+      "PC_B1868_atomic_measure": {
+        "riesz_half_energy_with_atom_by_depth": {
+          "7": 4.811226184321331,
+          "9": 5.1710118737153525,
+          "11": 5.489768023814609,
+          "12": 5.638097617902604
+        },
+        "section_atom_slope_at_i": -0.960878246102522,
+        "surface_atom_slope_at_i": -2.0000149101748383,
+        "control_fired": false
+      }
+    }
+  },
+  "B1855": {
+    "elapsed_seconds": 76.45,
+    "lemma_and_r1_checks": {
+      "r1_total_defects": 42768,
+      "r1_matrix_product_mismatches": 0,
+      "r1_mod5_rung_invisible_total": 643,
+      "r1_mod5_plus_I": 338,
+      "r1_mod5_minus_I": 305,
+      "lemma_a_max_k20_diff_3000_r1": 7.772636546076761e-15,
+      "lemma_b_max_90d_subset_diff": 1.935142831153892e-91,
+      "lemma_c_argmin_d": 2,
+      "lemma_c_d2_err": 0.0,
+      "lemma_c_next_gap": 0.05572809000084122,
+      "lemma_d_mod_iff_divides": true,
+      "lemma_d_perron_apex_max_err": 2.4342666650893844e-21
+    },
+    "all_7_lcm_le_10_proved": true,
+    "all_8_lcm_ge_12_refuted": true,
+    "subsets_of_2_3_4_5": {
+      "{2}": {
+        "S": [
+          2
+        ],
+        "lcm": 2,
+        "per_rung_pm": {
+          "level": 2,
+          "sl2_size": 6,
+          "j_conjugation_period": 3,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 2,
+          "single_run_word": [
+            3
+          ],
+          "single_run_excess": 1.27783303792352,
+          "lemma_e_min_b_cost_multi": 0.6470142623148935,
+          "lemma_e_theta_L": 0.5675454208444557,
+          "lemma_e_margin_over_theta": 0.07946884147043776,
+          "lemma_e_excess_lower_bound_multi": 1.4505002294932243,
+          "min_extra_letters_multi": 2,
+          "min_extra_letters_overall": 2,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 1.4779669889997566,
+            "excess_30d": "1.47796698899975653869211962652",
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 2,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 2
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 1.477966988999756,
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 2
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.20013395107623588,
+          "finite_excess_gap_multi_minus_single": 0.20013395107623655
+        },
+        "global_pm_mod_lcm": {
+          "level": 2,
+          "sl2_size": 6,
+          "j_conjugation_period": 3,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 2,
+          "single_run_word": [
+            3
+          ],
+          "single_run_excess": 1.27783303792352,
+          "lemma_e_min_b_cost_multi": 0.6470142623148935,
+          "lemma_e_theta_L": 0.5675454208444557,
+          "lemma_e_margin_over_theta": 0.07946884147043776,
+          "lemma_e_excess_lower_bound_multi": 1.4505002294932243,
+          "min_extra_letters_multi": 2,
+          "min_extra_letters_overall": 2,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 1.4779669889997566,
+            "excess_30d": "1.47796698899975653869211962652",
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 2,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 2
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 1.477966988999756,
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 2
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.20013395107623588,
+          "finite_excess_gap_multi_minus_single": 0.20013395107623655
+        },
+        "strict_plus_mod_lcm": {
+          "level": 2,
+          "sl2_size": 6,
+          "j_conjugation_period": 3,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 2,
+          "single_run_word": [
+            3
+          ],
+          "single_run_excess": 1.27783303792352,
+          "lemma_e_min_b_cost_multi": 0.6470142623148935,
+          "lemma_e_theta_L": 0.5675454208444557,
+          "lemma_e_margin_over_theta": 0.07946884147043776,
+          "lemma_e_excess_lower_bound_multi": 1.4505002294932243,
+          "min_extra_letters_multi": 2,
+          "min_extra_letters_overall": 2,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 1.4779669889997566,
+            "excess_30d": "1.47796698899975653869211962652",
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 2,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 2
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 1.477966988999756,
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 2
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.20013395107623588,
+          "finite_excess_gap_multi_minus_single": 0.20013395107623655
+        }
+      },
+      "{3}": {
+        "S": [
+          3
+        ],
+        "lcm": 3,
+        "per_rung_pm": {
+          "level": 3,
+          "sl2_size": 24,
+          "j_conjugation_period": 4,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            2
+          ],
+          "single_run_extra_letters": 3,
+          "single_run_word": [
+            4
+          ],
+          "single_run_excess": 1.7017037489242042,
+          "lemma_e_min_b_cost_multi": 0.8910525520019024,
+          "lemma_e_theta_L": 0.7635581285178253,
+          "lemma_e_margin_over_theta": 0.12749442348407702,
+          "lemma_e_excess_lower_bound_multi": 1.9740810260220094,
+          "min_extra_letters_multi": 3,
+          "min_extra_letters_overall": 3,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.0108922318070483,
+            "excess_30d": "2.01089223180704831074606198474",
+            "s_tuple": [
+              1,
+              2
+            ],
+            "d_tuple": [
+              4
+            ],
+            "sum_extra_letters": 3,
+            "span_runs_m": 5,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.0108922318070475,
+            "s_tuple": [
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3091884828828433,
+          "finite_excess_gap_multi_minus_single": 0.3091884828828442
+        },
+        "global_pm_mod_lcm": {
+          "level": 3,
+          "sl2_size": 24,
+          "j_conjugation_period": 4,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            2
+          ],
+          "single_run_extra_letters": 3,
+          "single_run_word": [
+            4
+          ],
+          "single_run_excess": 1.7017037489242042,
+          "lemma_e_min_b_cost_multi": 0.8910525520019024,
+          "lemma_e_theta_L": 0.7635581285178253,
+          "lemma_e_margin_over_theta": 0.12749442348407702,
+          "lemma_e_excess_lower_bound_multi": 1.9740810260220094,
+          "min_extra_letters_multi": 3,
+          "min_extra_letters_overall": 3,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.0108922318070483,
+            "excess_30d": "2.01089223180704831074606198474",
+            "s_tuple": [
+              1,
+              2
+            ],
+            "d_tuple": [
+              4
+            ],
+            "sum_extra_letters": 3,
+            "span_runs_m": 5,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.0108922318070475,
+            "s_tuple": [
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3091884828828433,
+          "finite_excess_gap_multi_minus_single": 0.3091884828828442
+        },
+        "strict_plus_mod_lcm": {
+          "level": 3,
+          "sl2_size": 24,
+          "j_conjugation_period": 4,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 3,
+          "single_run_word": [
+            4
+          ],
+          "single_run_excess": 1.7017037489242042,
+          "lemma_e_min_b_cost_multi": 0.8910525520019024,
+          "lemma_e_theta_L": 0.7635581285178253,
+          "lemma_e_margin_over_theta": 0.12749442348407702,
+          "lemma_e_excess_lower_bound_multi": 1.9740810260220094,
+          "min_extra_letters_multi": 3,
+          "min_extra_letters_overall": 3,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.0108922318070483,
+            "excess_30d": "2.01089223180704831074606198474",
+            "s_tuple": [
+              1,
+              2
+            ],
+            "d_tuple": [
+              4
+            ],
+            "sum_extra_letters": 3,
+            "span_runs_m": 5,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.0108922318070475,
+            "s_tuple": [
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3091884828828433,
+          "finite_excess_gap_multi_minus_single": 0.3091884828828442
+        }
+      },
+      "{4}": {
+        "S": [
+          4
+        ],
+        "lcm": 4,
+        "per_rung_pm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            3
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        },
+        "global_pm_mod_lcm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            3
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        },
+        "strict_plus_mod_lcm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        }
+      },
+      "{5}": {
+        "S": [
+          5
+        ],
+        "lcm": 5,
+        "per_rung_pm": {
+          "level": 5,
+          "sl2_size": 120,
+          "j_conjugation_period": 5,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            4
+          ],
+          "single_run_extra_letters": 5,
+          "single_run_word": [
+            6
+          ],
+          "single_run_excess": 2.3487180112390975,
+          "lemma_e_min_b_cost_multi": 1.2508818263283243,
+          "lemma_e_theta_L": 1.068094679564151,
+          "lemma_e_margin_over_theta": 0.1827871467641733,
+          "lemma_e_excess_lower_bound_multi": 2.731851418078569,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.7905156836261797,
+            "excess_30d": "2.79051568362617965756431753771",
+            "s_tuple": [
+              1,
+              4
+            ],
+            "d_tuple": [
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 11,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.790515683626179,
+            "s_tuple": [
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.44179767238708134,
+          "finite_excess_gap_multi_minus_single": 0.44179767238708223
+        },
+        "global_pm_mod_lcm": {
+          "level": 5,
+          "sl2_size": 120,
+          "j_conjugation_period": 5,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            4
+          ],
+          "single_run_extra_letters": 5,
+          "single_run_word": [
+            6
+          ],
+          "single_run_excess": 2.3487180112390975,
+          "lemma_e_min_b_cost_multi": 1.2508818263283243,
+          "lemma_e_theta_L": 1.068094679564151,
+          "lemma_e_margin_over_theta": 0.1827871467641733,
+          "lemma_e_excess_lower_bound_multi": 2.731851418078569,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.7905156836261797,
+            "excess_30d": "2.79051568362617965756431753771",
+            "s_tuple": [
+              1,
+              4
+            ],
+            "d_tuple": [
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 11,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.790515683626179,
+            "s_tuple": [
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.44179767238708134,
+          "finite_excess_gap_multi_minus_single": 0.44179767238708223
+        },
+        "strict_plus_mod_lcm": {
+          "level": 5,
+          "sl2_size": 120,
+          "j_conjugation_period": 5,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 5,
+          "single_run_word": [
+            6
+          ],
+          "single_run_excess": 2.3487180112390975,
+          "lemma_e_min_b_cost_multi": 1.2508818263283243,
+          "lemma_e_theta_L": 1.068094679564151,
+          "lemma_e_margin_over_theta": 0.1827871467641733,
+          "lemma_e_excess_lower_bound_multi": 2.731851418078569,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.7905156836261797,
+            "excess_30d": "2.79051568362617965756431753771",
+            "s_tuple": [
+              1,
+              4
+            ],
+            "d_tuple": [
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 11,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.790515683626179,
+            "s_tuple": [
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.44179767238708134,
+          "finite_excess_gap_multi_minus_single": 0.44179767238708223
+        }
+      },
+      "{2,3}": {
+        "S": [
+          2,
+          3
+        ],
+        "lcm": 6,
+        "per_rung_pm": {
+          "level": 6,
+          "sl2_size": 144,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            5
+          ],
+          "single_run_extra_letters": 6,
+          "single_run_word": [
+            7
+          ],
+          "single_run_excess": 2.6076081732353193,
+          "lemma_e_min_b_cost_multi": 1.214559683159349,
+          "lemma_e_theta_L": 1.1914333329921547,
+          "lemma_e_margin_over_theta": 0.02312635016719433,
+          "lemma_e_excess_lower_bound_multi": 2.6559802086194018,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.7558074058676154,
+            "excess_30d": "2.75580740586761525588523108552",
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              6,
+              11
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 18,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 5,
+            "astar_pops": 7
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.7558000269232763,
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6,
+              -3
+            ],
+            "scalar_c_mod_L": 5,
+            "strictly_below_finite_min": true,
+            "astar_pops": 12
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.14819185368795695,
+          "finite_excess_gap_multi_minus_single": 0.14819923263229606
+        },
+        "global_pm_mod_lcm": {
+          "level": 6,
+          "sl2_size": 144,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            5
+          ],
+          "single_run_extra_letters": 6,
+          "single_run_word": [
+            7
+          ],
+          "single_run_excess": 2.6076081732353193,
+          "lemma_e_min_b_cost_multi": 1.214559683159349,
+          "lemma_e_theta_L": 1.1914333329921547,
+          "lemma_e_margin_over_theta": 0.02312635016719433,
+          "lemma_e_excess_lower_bound_multi": 2.6559802086194018,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.7558074058676154,
+            "excess_30d": "2.75580740586761525588523108552",
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              6,
+              11
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 18,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 5,
+            "astar_pops": 7
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.7558000269232763,
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6,
+              -3
+            ],
+            "scalar_c_mod_L": 5,
+            "strictly_below_finite_min": true,
+            "astar_pops": 12
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.14819185368795695,
+          "finite_excess_gap_multi_minus_single": 0.14819923263229606
+        },
+        "strict_plus_mod_lcm": {
+          "level": 6,
+          "sl2_size": 144,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 6,
+          "single_run_word": [
+            7
+          ],
+          "single_run_excess": 2.6076081732353193,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.1914333329921547,
+          "lemma_e_margin_over_theta": 0.1025951916376322,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.9572195493803695,
+            "excess_30d": "2.95721954938036930311616266001",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              9,
+              9,
+              9
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.957120395219988,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              -5,
+              -1,
+              -1
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 16
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3495122219846687,
+          "finite_excess_gap_multi_minus_single": 0.3496113761450501
+        }
+      },
+      "{2,4}": {
+        "S": [
+          2,
+          4
+        ],
+        "lcm": 4,
+        "per_rung_pm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            3
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        },
+        "global_pm_mod_lcm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            3
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        },
+        "strict_plus_mod_lcm": {
+          "level": 4,
+          "sl2_size": 48,
+          "j_conjugation_period": 6,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 4,
+          "single_run_word": [
+            5
+          ],
+          "single_run_excess": 2.051261791473729,
+          "lemma_e_min_b_cost_multi": 1.0870652596752721,
+          "lemma_e_theta_L": 0.9273746951708776,
+          "lemma_e_margin_over_theta": 0.15969056450439456,
+          "lemma_e_excess_lower_bound_multi": 2.388642088212523,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.4398838391261353,
+            "excess_30d": "2.43988383912613537119916834942",
+            "s_tuple": [
+              1,
+              3
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.439883839126135,
+            "s_tuple": [
+              3,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3886220476524058,
+          "finite_excess_gap_multi_minus_single": 0.38862204765240627
+        }
+      },
+      "{2,5}": {
+        "S": [
+          2,
+          5
+        ],
+        "lcm": 10,
+        "per_rung_pm": {
+          "level": 10,
+          "sl2_size": 720,
+          "j_conjugation_period": 15,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            9
+          ],
+          "single_run_extra_letters": 10,
+          "single_run_word": [
+            11
+          ],
+          "single_run_excess": 3.3993380511780233,
+          "lemma_e_min_b_cost_multi": 1.574388957485771,
+          "lemma_e_theta_L": 1.5727034094975132,
+          "lemma_e_margin_over_theta": 0.0016855479882578184,
+          "lemma_e_excess_lower_bound_multi": 3.4028142892381696,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.47044996431009,
+            "excess_30d": "3.47044996431009008372791898177",
+            "s_tuple": [
+              1,
+              1,
+              4
+            ],
+            "d_tuple": [
+              6,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 9,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 9,
+            "astar_pops": 10
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4704499643100895,
+            "s_tuple": [
+              4,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              6
+            ],
+            "scalar_c_mod_L": 9,
+            "strictly_below_finite_min": false,
+            "astar_pops": 12
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.0711119131320661,
+          "finite_excess_gap_multi_minus_single": 0.07111191313206655
+        },
+        "global_pm_mod_lcm": {
+          "level": 10,
+          "sl2_size": 720,
+          "j_conjugation_period": 15,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            9
+          ],
+          "single_run_extra_letters": 10,
+          "single_run_word": [
+            11
+          ],
+          "single_run_excess": 3.3993380511780233,
+          "lemma_e_min_b_cost_multi": 1.574388957485771,
+          "lemma_e_theta_L": 1.5727034094975132,
+          "lemma_e_margin_over_theta": 0.0016855479882578184,
+          "lemma_e_excess_lower_bound_multi": 3.4028142892381696,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.47044996431009,
+            "excess_30d": "3.47044996431009008372791898177",
+            "s_tuple": [
+              1,
+              1,
+              4
+            ],
+            "d_tuple": [
+              6,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 9,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 9,
+            "astar_pops": 10
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4704499643100895,
+            "s_tuple": [
+              4,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              6
+            ],
+            "scalar_c_mod_L": 9,
+            "strictly_below_finite_min": false,
+            "astar_pops": 12
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.0711119131320661,
+          "finite_excess_gap_multi_minus_single": 0.07111191313206655
+        },
+        "strict_plus_mod_lcm": {
+          "level": 10,
+          "sl2_size": 720,
+          "j_conjugation_period": 15,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 10,
+          "single_run_word": [
+            11
+          ],
+          "single_run_excess": 3.3993380511780233,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 1.5727034094975132,
+          "lemma_e_margin_over_theta": 0.20940169450629154,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.968100104764709,
+            "excess_30d": "3.96810010476470897023241193255",
+            "s_tuple": [
+              1,
+              9
+            ],
+            "d_tuple": [
+              30
+            ],
+            "sum_extra_letters": 10,
+            "span_runs_m": 31,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.9681001047647064,
+            "s_tuple": [
+              1,
+              9
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              30
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 6
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.5687620535866831,
+          "finite_excess_gap_multi_minus_single": 0.5687620535866857
+        }
+      },
+      "{3,4}": {
+        "S": [
+          3,
+          4
+        ],
+        "lcm": 12,
+        "per_rung_pm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            5,
+            7,
+            11
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.214559683159349,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.5052726379069106,
+          "lemma_e_excess_lower_bound_multi": 2.6559802086194018,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.7720194383049037,
+            "excess_30d": "2.77201943830490369367061031083",
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              6,
+              3
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 10,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 5,
+            "astar_pops": 6
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.7558000269232763,
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6,
+              -3
+            ],
+            "scalar_c_mod_L": 5,
+            "strictly_below_finite_min": true,
+            "astar_pops": 6
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.9463195459999785,
+          "finite_excess_gap_multi_minus_single": -0.9301001346183511
+        },
+        "global_pm_mod_lcm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            11
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.4258037964364727,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.9572195493803695,
+            "excess_30d": "2.95721954938036930311616266001",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              9,
+              9,
+              9
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.957120395219988,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              -9,
+              -9,
+              -9
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7449991777032667,
+          "finite_excess_gap_multi_minus_single": -0.7449000235428853
+        },
+        "strict_plus_mod_lcm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.4258037964364727,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.9572195493803695,
+            "excess_30d": "2.95721954938036930311616266001",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              9,
+              9,
+              9
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.957120395219988,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              -9,
+              -9,
+              -9
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7449991777032667,
+          "finite_excess_gap_multi_minus_single": -0.7449000235428853
+        }
+      },
+      "{3,5}": {
+        "S": [
+          3,
+          5
+        ],
+        "lcm": 15,
+        "per_rung_pm": {
+          "level": 15,
+          "sl2_size": 2880,
+          "j_conjugation_period": 20,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            4,
+            11,
+            14
+          ],
+          "single_run_extra_letters": 15,
+          "single_run_word": [
+            16
+          ],
+          "single_run_excess": 4.084570414908513,
+          "lemma_e_min_b_cost_multi": 1.458597972846358,
+          "lemma_e_theta_L": 1.906499385772456,
+          "lemma_e_margin_over_theta": -0.44790141292609786,
+          "lemma_e_excess_lower_bound_multi": 3.1635666338047317,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.297287822490242,
+            "excess_30d": "3.29728782249024185433721456771",
+            "s_tuple": [
+              1,
+              2,
+              2
+            ],
+            "d_tuple": [
+              5,
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 16,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 11,
+            "astar_pops": 6
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.2949167023173485,
+            "s_tuple": [
+              2,
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10,
+              -5
+            ],
+            "scalar_c_mod_L": 11,
+            "strictly_below_finite_min": true,
+            "astar_pops": 7
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7896537125911647,
+          "finite_excess_gap_multi_minus_single": -0.7872825924182711
+        },
+        "global_pm_mod_lcm": {
+          "level": 15,
+          "sl2_size": 2880,
+          "j_conjugation_period": 20,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            14
+          ],
+          "single_run_extra_letters": 15,
+          "single_run_word": [
+            16
+          ],
+          "single_run_excess": 4.084570414908513,
+          "lemma_e_min_b_cost_multi": 1.538066814316796,
+          "lemma_e_theta_L": 1.906499385772456,
+          "lemma_e_margin_over_theta": -0.36843257145566,
+          "lemma_e_excess_lower_bound_multi": 3.32786330354846,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.495641575378751,
+            "excess_30d": "3.49564157537875081880157308914",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "d_tuple": [
+              10,
+              10,
+              15
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 36,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 15
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4956414185392504,
+            "s_tuple": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10,
+              10,
+              -5
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 26
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.5889289963692628,
+          "finite_excess_gap_multi_minus_single": -0.5889288395297623
+        },
+        "strict_plus_mod_lcm": {
+          "level": 15,
+          "sl2_size": 2880,
+          "j_conjugation_period": 20,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 15,
+          "single_run_word": [
+            16
+          ],
+          "single_run_excess": 4.084570414908513,
+          "lemma_e_min_b_cost_multi": 1.538066814316796,
+          "lemma_e_theta_L": 1.906499385772456,
+          "lemma_e_margin_over_theta": -0.36843257145566,
+          "lemma_e_excess_lower_bound_multi": 3.32786330354846,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.495641575378751,
+            "excess_30d": "3.49564157537875081880157308914",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "d_tuple": [
+              10,
+              10,
+              15
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 36,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 15
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4956414185392504,
+            "s_tuple": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10,
+              10,
+              -5
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 26
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.5889289963692628,
+          "finite_excess_gap_multi_minus_single": -0.5889288395297623
+        }
+      },
+      "{4,5}": {
+        "S": [
+          4,
+          5
+        ],
+        "lcm": 20,
+        "per_rung_pm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            9,
+            11,
+            19
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.4222443800687552,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.8672022398443953,
+            "excess_30d": "3.86720223984439533579156176919",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              20
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 39,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 33
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.867202239844393,
+            "s_tuple": [
+              1,
+              3,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              20,
+              2,
+              16
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 56
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7267911560787939,
+          "finite_excess_gap_multi_minus_single": -0.7267911560787916
+        },
+        "global_pm_mod_lcm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            19
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.4222443800687552,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.8672022398443953,
+            "excess_30d": "3.86720223984439533579156176919",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              20
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 39,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 25
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.867202239844393,
+            "s_tuple": [
+              1,
+              3,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              20,
+              2,
+              16
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 40
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7267911560787939,
+          "finite_excess_gap_multi_minus_single": -0.7267911560787916
+        },
+        "strict_plus_mod_lcm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.37421879805511615,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.03397309604714,
+            "excess_30d": "4.03397309604713953259191952422",
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple": [
+              8,
+              11,
+              8
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 24
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.03396183687098,
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              8,
+              -11,
+              8
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 48
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.5600315590522067,
+          "finite_excess_gap_multi_minus_single": -0.5600202998760473
+        }
+      },
+      "{2,3,4}": {
+        "S": [
+          2,
+          3,
+          4
+        ],
+        "lcm": 12,
+        "per_rung_pm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            5,
+            7,
+            11
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.214559683159349,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.5052726379069106,
+          "lemma_e_excess_lower_bound_multi": 2.6559802086194018,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.7720194383049037,
+            "excess_30d": "2.77201943830490369367061031083",
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              6,
+              3
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 10,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 5,
+            "astar_pops": 6
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.7558000269232763,
+            "s_tuple": [
+              1,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6,
+              -3
+            ],
+            "scalar_c_mod_L": 5,
+            "strictly_below_finite_min": true,
+            "astar_pops": 6
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.9463195459999785,
+          "finite_excess_gap_multi_minus_single": -0.9301001346183511
+        },
+        "global_pm_mod_lcm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            11
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.4258037964364727,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.9572195493803695,
+            "excess_30d": "2.95721954938036930311616266001",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              9,
+              9,
+              9
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.957120395219988,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              -9,
+              -9,
+              -9
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7449991777032667,
+          "finite_excess_gap_multi_minus_single": -0.7449000235428853
+        },
+        "strict_plus_mod_lcm": {
+          "level": 12,
+          "sl2_size": 1152,
+          "j_conjugation_period": 12,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 12,
+          "single_run_word": [
+            13
+          ],
+          "single_run_excess": 3.7021195729232548,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.7198323210662596,
+          "lemma_e_margin_over_theta": -0.4258037964364727,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.9572195493803695,
+            "excess_30d": "2.95721954938036930311616266001",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              9,
+              9,
+              9
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.957120395219988,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              -9,
+              -9,
+              -9
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7449991777032667,
+          "finite_excess_gap_multi_minus_single": -0.7449000235428853
+        }
+      },
+      "{2,3,5}": {
+        "S": [
+          2,
+          3,
+          5
+        ],
+        "lcm": 30,
+        "per_rung_pm": {
+          "level": 30,
+          "sl2_size": 17280,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            11,
+            19,
+            29
+          ],
+          "single_run_extra_letters": 30,
+          "single_run_word": [
+            31
+          ],
+          "single_run_excess": 5.336733985975733,
+          "lemma_e_min_b_cost_multi": 1.574388957485771,
+          "lemma_e_theta_L": 2.5224416751393153,
+          "lemma_e_margin_over_theta": -0.9480527176535443,
+          "lemma_e_excess_lower_bound_multi": 3.4028142892381696,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.5298143421260746,
+            "excess_30d": "3.52981434212607468271077988781",
+            "s_tuple": [
+              1,
+              4,
+              1
+            ],
+            "d_tuple": [
+              12,
+              12
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 25,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 10
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.5298143421260733,
+            "s_tuple": [
+              1,
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              12,
+              12
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 17
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -1.8069196438496595,
+          "finite_excess_gap_multi_minus_single": -1.8069196438496582
+        },
+        "global_pm_mod_lcm": {
+          "level": 30,
+          "sl2_size": 17280,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            29
+          ],
+          "single_run_extra_letters": 30,
+          "single_run_word": [
+            31
+          ],
+          "single_run_excess": 5.336733985975733,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 2.5224416751393153,
+          "lemma_e_margin_over_theta": -0.7403365711355105,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.9481620520440193,
+            "excess_30d": "3.94816205204401925404839057697",
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple": [
+              2,
+              58,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 63,
+            "run_vector": [
+              2,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 29,
+            "astar_pops": 26
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.948162052044015,
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              58,
+              2
+            ],
+            "scalar_c_mod_L": 29,
+            "strictly_below_finite_min": false,
+            "astar_pops": 48
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -1.388571933931718,
+          "finite_excess_gap_multi_minus_single": -1.3885719339317135
+        },
+        "strict_plus_mod_lcm": {
+          "level": 30,
+          "sl2_size": 17280,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 30,
+          "single_run_word": [
+            31
+          ],
+          "single_run_excess": 5.336733985975733,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 2.5224416751393153,
+          "lemma_e_margin_over_theta": -0.7403365711355105,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.032708893295109,
+            "excess_30d": "4.03270889329510955894232595388",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "d_tuple": [
+              18,
+              8,
+              6
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 33,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 87
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.032708893295108,
+            "s_tuple": [
+              2,
+              2,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6,
+              8,
+              18
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 177
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -1.3040250926806252,
+          "finite_excess_gap_multi_minus_single": -1.3040250926806234
+        }
+      },
+      "{2,4,5}": {
+        "S": [
+          2,
+          4,
+          5
+        ],
+        "lcm": 20,
+        "per_rung_pm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 4,
+          "target_scalars_diag_mod_L": [
+            1,
+            9,
+            11,
+            19
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.4222443800687552,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.8672022398443953,
+            "excess_30d": "3.86720223984439533579156176919",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              20
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 39,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 33
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.867202239844393,
+            "s_tuple": [
+              1,
+              3,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              20,
+              2,
+              16
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 56
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7267911560787939,
+          "finite_excess_gap_multi_minus_single": -0.7267911560787916
+        },
+        "global_pm_mod_lcm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            19
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.4222443800687552,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.8672022398443953,
+            "excess_30d": "3.86720223984439533579156176919",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              20
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 39,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 25
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.867202239844393,
+            "s_tuple": [
+              1,
+              3,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              20,
+              2,
+              16
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 40
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.7267911560787939,
+          "finite_excess_gap_multi_minus_single": -0.7267911560787916
+        },
+        "strict_plus_mod_lcm": {
+          "level": 20,
+          "sl2_size": 5760,
+          "j_conjugation_period": 30,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 20,
+          "single_run_word": [
+            21
+          ],
+          "single_run_excess": 4.593993395923187,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 2.156323902058921,
+          "lemma_e_margin_over_theta": -0.37421879805511615,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.03397309604714,
+            "excess_30d": "4.03397309604713953259191952422",
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple": [
+              8,
+              11,
+              8
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 28,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 24
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.03396183687098,
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              8,
+              -11,
+              8
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 48
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.5600315590522067,
+          "finite_excess_gap_multi_minus_single": -0.5600202998760473
+        }
+      },
+      "{3,4,5}": {
+        "S": [
+          3,
+          4,
+          5
+        ],
+        "lcm": 60,
+        "per_rung_pm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 8,
+          "target_scalars_diag_mod_L": [
+            1,
+            11,
+            19,
+            29,
+            31,
+            41,
+            49,
+            59
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.4405501473961517,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.867202241414663,
+            "excess_30d": "3.8672022414146633588442394004",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              50
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 69,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 24
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.8672022414146583,
+            "s_tuple": [
+              3,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              16,
+              52
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 37
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.7852292515628334,
+          "finite_excess_gap_multi_minus_single": -2.7852292515628285
+        },
+        "global_pm_mod_lcm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            59
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.3925245653825127,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.9481620520440193,
+            "excess_30d": "3.94816205204401925404839057697",
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple": [
+              2,
+              58,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 63,
+            "run_vector": [
+              2,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 59,
+            "astar_pops": 10
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.948162052044015,
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              58,
+              2
+            ],
+            "scalar_c_mod_L": 59,
+            "strictly_below_finite_min": false,
+            "astar_pops": 16
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.704269440933477,
+          "finite_excess_gap_multi_minus_single": -2.7042694409334724
+        },
+        "strict_plus_mod_lcm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.3925245653825127,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.033961836870985,
+            "excess_30d": "4.03396183687098449995975734686",
+            "s_tuple": [
+              2,
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              8,
+              33,
+              8
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 50,
+            "run_vector": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 27
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.0339618368709775,
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              8,
+              41,
+              8
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 53
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.618469656106514,
+          "finite_excess_gap_multi_minus_single": -2.618469656106507
+        }
+      },
+      "{2,3,4,5}": {
+        "S": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "lcm": 60,
+        "per_rung_pm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 8,
+          "target_scalars_diag_mod_L": [
+            1,
+            11,
+            19,
+            29,
+            31,
+            41,
+            49,
+            59
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7340795219901657,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.4405501473961517,
+          "lemma_e_excess_lower_bound_multi": 3.731372939751819,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.867202241414663,
+            "excess_30d": "3.8672022414146633588442394004",
+            "s_tuple": [
+              1,
+              1,
+              3,
+              1
+            ],
+            "d_tuple": [
+              16,
+              2,
+              50
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 69,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 19,
+            "astar_pops": 24
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.8672022414146583,
+            "s_tuple": [
+              3,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              16,
+              52
+            ],
+            "scalar_c_mod_L": 19,
+            "strictly_below_finite_min": false,
+            "astar_pops": 37
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.7852292515628334,
+          "finite_excess_gap_multi_minus_single": -2.7852292515628285
+        },
+        "global_pm_mod_lcm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            59
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.3925245653825127,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.9481620520440193,
+            "excess_30d": "3.94816205204401925404839057697",
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple": [
+              2,
+              58,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 63,
+            "run_vector": [
+              2,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 59,
+            "astar_pops": 10
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.948162052044015,
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              58,
+              2
+            ],
+            "scalar_c_mod_L": 59,
+            "strictly_below_finite_min": false,
+            "astar_pops": 16
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.704269440933477,
+          "finite_excess_gap_multi_minus_single": -2.7042694409334724
+        },
+        "strict_plus_mod_lcm": {
+          "level": 60,
+          "sl2_size": 138240,
+          "j_conjugation_period": 60,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 60,
+          "single_run_word": [
+            61
+          ],
+          "single_run_excess": 6.652431492977492,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 3.1746296693863174,
+          "lemma_e_margin_over_theta": -1.3925245653825127,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.033961836870985,
+            "excess_30d": "4.03396183687098449995975734686",
+            "s_tuple": [
+              2,
+              1,
+              1,
+              2
+            ],
+            "d_tuple": [
+              8,
+              33,
+              8
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 50,
+            "run_vector": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 27
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.0339618368709775,
+            "s_tuple": [
+              1,
+              2,
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              8,
+              41,
+              8
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 53
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -2.618469656106514,
+          "finite_excess_gap_multi_minus_single": -2.618469656106507
+        }
+      }
+    },
+    "prime_levels": {
+      "2": {
+        "prime": 2,
+        "pm_I_mod_p": {
+          "level": 2,
+          "sl2_size": 6,
+          "j_conjugation_period": 3,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 2,
+          "single_run_word": [
+            3
+          ],
+          "single_run_excess": 1.27783303792352,
+          "lemma_e_min_b_cost_multi": 0.6470142623148935,
+          "lemma_e_theta_L": 0.5675454208444557,
+          "lemma_e_margin_over_theta": 0.07946884147043776,
+          "lemma_e_excess_lower_bound_multi": 1.4505002294932243,
+          "min_extra_letters_multi": 2,
+          "min_extra_letters_overall": 2,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 1.4779669889997566,
+            "excess_30d": "1.47796698899975653869211962652",
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 2,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 2
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 1.477966988999756,
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 2
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.20013395107623588,
+          "finite_excess_gap_multi_minus_single": 0.20013395107623655
+        },
+        "strict_plus_I_mod_p": {
+          "level": 2,
+          "sl2_size": 6,
+          "j_conjugation_period": 3,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 2,
+          "single_run_word": [
+            3
+          ],
+          "single_run_excess": 1.27783303792352,
+          "lemma_e_min_b_cost_multi": 0.6470142623148935,
+          "lemma_e_theta_L": 0.5675454208444557,
+          "lemma_e_margin_over_theta": 0.07946884147043776,
+          "lemma_e_excess_lower_bound_multi": 1.4505002294932243,
+          "min_extra_letters_multi": 2,
+          "min_extra_letters_overall": 2,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 1.4779669889997566,
+            "excess_30d": "1.47796698899975653869211962652",
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple": [
+              6
+            ],
+            "sum_extra_letters": 2,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 2
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 1.477966988999756,
+            "s_tuple": [
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              6
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 2
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.20013395107623588,
+          "finite_excess_gap_multi_minus_single": 0.20013395107623655
+        }
+      },
+      "3": {
+        "prime": 3,
+        "pm_I_mod_p": {
+          "level": 3,
+          "sl2_size": 24,
+          "j_conjugation_period": 4,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            2
+          ],
+          "single_run_extra_letters": 3,
+          "single_run_word": [
+            4
+          ],
+          "single_run_excess": 1.7017037489242042,
+          "lemma_e_min_b_cost_multi": 0.8910525520019024,
+          "lemma_e_theta_L": 0.7635581285178253,
+          "lemma_e_margin_over_theta": 0.12749442348407702,
+          "lemma_e_excess_lower_bound_multi": 1.9740810260220094,
+          "min_extra_letters_multi": 3,
+          "min_extra_letters_overall": 3,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.0108922318070483,
+            "excess_30d": "2.01089223180704831074606198474",
+            "s_tuple": [
+              1,
+              2
+            ],
+            "d_tuple": [
+              4
+            ],
+            "sum_extra_letters": 3,
+            "span_runs_m": 5,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.0108922318070475,
+            "s_tuple": [
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3091884828828433,
+          "finite_excess_gap_multi_minus_single": 0.3091884828828442
+        },
+        "strict_plus_I_mod_p": {
+          "level": 3,
+          "sl2_size": 24,
+          "j_conjugation_period": 4,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 3,
+          "single_run_word": [
+            4
+          ],
+          "single_run_excess": 1.7017037489242042,
+          "lemma_e_min_b_cost_multi": 0.8910525520019024,
+          "lemma_e_theta_L": 0.7635581285178253,
+          "lemma_e_margin_over_theta": 0.12749442348407702,
+          "lemma_e_excess_lower_bound_multi": 1.9740810260220094,
+          "min_extra_letters_multi": 3,
+          "min_extra_letters_overall": 3,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.0108922318070483,
+            "excess_30d": "2.01089223180704831074606198474",
+            "s_tuple": [
+              1,
+              2
+            ],
+            "d_tuple": [
+              4
+            ],
+            "sum_extra_letters": 3,
+            "span_runs_m": 5,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.0108922318070475,
+            "s_tuple": [
+              2,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.3091884828828433,
+          "finite_excess_gap_multi_minus_single": 0.3091884828828442
+        }
+      },
+      "5": {
+        "prime": 5,
+        "pm_I_mod_p": {
+          "level": 5,
+          "sl2_size": 120,
+          "j_conjugation_period": 5,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            4
+          ],
+          "single_run_extra_letters": 5,
+          "single_run_word": [
+            6
+          ],
+          "single_run_excess": 2.3487180112390975,
+          "lemma_e_min_b_cost_multi": 1.2508818263283243,
+          "lemma_e_theta_L": 1.068094679564151,
+          "lemma_e_margin_over_theta": 0.1827871467641733,
+          "lemma_e_excess_lower_bound_multi": 2.731851418078569,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.7905156836261797,
+            "excess_30d": "2.79051568362617965756431753771",
+            "s_tuple": [
+              1,
+              4
+            ],
+            "d_tuple": [
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 11,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.790515683626179,
+            "s_tuple": [
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.44179767238708134,
+          "finite_excess_gap_multi_minus_single": 0.44179767238708223
+        },
+        "strict_plus_I_mod_p": {
+          "level": 5,
+          "sl2_size": 120,
+          "j_conjugation_period": 5,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 5,
+          "single_run_word": [
+            6
+          ],
+          "single_run_excess": 2.3487180112390975,
+          "lemma_e_min_b_cost_multi": 1.2508818263283243,
+          "lemma_e_theta_L": 1.068094679564151,
+          "lemma_e_margin_over_theta": 0.1827871467641733,
+          "lemma_e_excess_lower_bound_multi": 2.731851418078569,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": false,
+          "finite_multi_opt": {
+            "excess_float": 2.7905156836261797,
+            "excess_30d": "2.79051568362617965756431753771",
+            "s_tuple": [
+              1,
+              4
+            ],
+            "d_tuple": [
+              10
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 11,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              5
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.790515683626179,
+            "s_tuple": [
+              4,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 4
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.44179767238708134,
+          "finite_excess_gap_multi_minus_single": 0.44179767238708223
+        }
+      },
+      "7": {
+        "prime": 7,
+        "pm_I_mod_p": {
+          "level": 7,
+          "sl2_size": 336,
+          "j_conjugation_period": 8,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            6
+          ],
+          "single_run_extra_letters": 7,
+          "single_run_word": [
+            8
+          ],
+          "single_run_excess": 2.8367945906131156,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.3012162265987968,
+          "lemma_e_margin_over_theta": -0.007187701969009863,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.8688026926384507,
+            "excess_30d": "2.86880269263845064668017573823",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              2,
+              2,
+              2
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.8688026926384507,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              2,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 6
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.032008102025335106,
+          "finite_excess_gap_multi_minus_single": 0.032008102025335106
+        },
+        "strict_plus_I_mod_p": {
+          "level": 7,
+          "sl2_size": 336,
+          "j_conjugation_period": 8,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 7,
+          "single_run_word": [
+            8
+          ],
+          "single_run_excess": 2.8367945906131156,
+          "lemma_e_min_b_cost_multi": 1.294028524629787,
+          "lemma_e_theta_L": 1.3012162265987968,
+          "lemma_e_margin_over_theta": -0.007187701969009863,
+          "lemma_e_excess_lower_bound_multi": 2.8218224480233767,
+          "min_extra_letters_multi": 4,
+          "min_extra_letters_overall": 4,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 2.8688026926384507,
+            "excess_30d": "2.86880269263845064668017573823",
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple": [
+              2,
+              2,
+              2
+            ],
+            "sum_extra_letters": 4,
+            "span_runs_m": 7,
+            "run_vector": [
+              2,
+              1,
+              2,
+              1,
+              2,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 4
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 2.8688026926384507,
+            "s_tuple": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              2,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 6
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.032008102025335106,
+          "finite_excess_gap_multi_minus_single": 0.032008102025335106
+        }
+      },
+      "11": {
+        "prime": 11,
+        "pm_I_mod_p": {
+          "level": 11,
+          "sl2_size": 1320,
+          "j_conjugation_period": 10,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            10
+          ],
+          "single_run_extra_letters": 11,
+          "single_run_word": [
+            12
+          ],
+          "single_run_excess": 3.556453139265959,
+          "lemma_e_min_b_cost_multi": 1.538066814316796,
+          "lemma_e_theta_L": 1.6489712928078832,
+          "lemma_e_margin_over_theta": -0.11090447849108731,
+          "lemma_e_excess_lower_bound_multi": 3.32786330354846,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.4853702288240314,
+            "excess_30d": "3.48537022882403133308671149068",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "d_tuple": [
+              4,
+              4,
+              9
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 18,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 18
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4853195295751296,
+            "s_tuple": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4,
+              4,
+              -3
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 42
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.07113360969082949,
+          "finite_excess_gap_multi_minus_single": -0.07108291044192772
+        },
+        "strict_plus_I_mod_p": {
+          "level": 11,
+          "sl2_size": 1320,
+          "j_conjugation_period": 10,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 11,
+          "single_run_word": [
+            12
+          ],
+          "single_run_excess": 3.556453139265959,
+          "lemma_e_min_b_cost_multi": 1.538066814316796,
+          "lemma_e_theta_L": 1.6489712928078832,
+          "lemma_e_margin_over_theta": -0.11090447849108731,
+          "lemma_e_excess_lower_bound_multi": 3.32786330354846,
+          "min_extra_letters_multi": 5,
+          "min_extra_letters_overall": 5,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.4853702288240314,
+            "excess_30d": "3.48537022882403133308671149068",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              1
+            ],
+            "d_tuple": [
+              4,
+              4,
+              9
+            ],
+            "sum_extra_letters": 5,
+            "span_runs_m": 18,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 13
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.4853195295751296,
+            "s_tuple": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              4,
+              4,
+              -3
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": true,
+            "astar_pops": 25
+          },
+          "single_run_is_global_minimum": false,
+          "excess_gap_multi_minus_single": -0.07113360969082949,
+          "finite_excess_gap_multi_minus_single": -0.07108291044192772
+        }
+      },
+      "13": {
+        "prime": 13,
+        "pm_I_mod_p": {
+          "level": 13,
+          "sl2_size": 2184,
+          "j_conjugation_period": 7,
+          "target_scalar_count": 2,
+          "target_scalars_diag_mod_L": [
+            1,
+            12
+          ],
+          "single_run_extra_letters": 13,
+          "single_run_word": [
+            14
+          ],
+          "single_run_excess": 3.8378931080525063,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 1.786002621373864,
+          "lemma_e_margin_over_theta": -0.003897517370059278,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 3.948158846824546,
+            "excess_30d": "3.94815884682454604555272773679",
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple": [
+              2,
+              12,
+              2
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 17,
+            "run_vector": [
+              2,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 12,
+            "astar_pops": 16
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 3.948158846824545,
+            "s_tuple": [
+              1,
+              2,
+              1,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              2,
+              12,
+              2
+            ],
+            "scalar_c_mod_L": 12,
+            "strictly_below_finite_min": false,
+            "astar_pops": 22
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.11026573877203871,
+          "finite_excess_gap_multi_minus_single": 0.1102657387720396
+        },
+        "strict_plus_I_mod_p": {
+          "level": 13,
+          "sl2_size": 2184,
+          "j_conjugation_period": 7,
+          "target_scalar_count": 1,
+          "target_scalars_diag_mod_L": [
+            1
+          ],
+          "single_run_extra_letters": 13,
+          "single_run_word": [
+            14
+          ],
+          "single_run_excess": 3.8378931080525063,
+          "lemma_e_min_b_cost_multi": 1.7821051040038047,
+          "lemma_e_theta_L": 1.786002621373864,
+          "lemma_e_margin_over_theta": -0.003897517370059278,
+          "lemma_e_excess_lower_bound_multi": 3.8299022620160086,
+          "min_extra_letters_multi": 6,
+          "min_extra_letters_overall": 6,
+          "shortest_word_beats_single_run": true,
+          "finite_multi_opt": {
+            "excess_float": 4.034008818227113,
+            "excess_30d": "4.03400881822711286202246503811",
+            "s_tuple": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "d_tuple": [
+              10,
+              12,
+              8
+            ],
+            "sum_extra_letters": 6,
+            "span_runs_m": 31,
+            "run_vector": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "scalar_c_mod_L": 1,
+            "astar_pops": 18
+          },
+          "unbounded_gap_infimum_multi": {
+            "excess_infimum": 4.03400881822711,
+            "s_tuple": [
+              1,
+              1,
+              2,
+              2
+            ],
+            "d_tuple_neg_means_pisano_inf": [
+              10,
+              12,
+              8
+            ],
+            "scalar_c_mod_L": 1,
+            "strictly_below_finite_min": false,
+            "astar_pops": 26
+          },
+          "single_run_is_global_minimum": true,
+          "excess_gap_multi_minus_single": 0.19611571017460383,
+          "finite_excess_gap_multi_minus_single": 0.1961157101746065
+        }
+      }
+    },
+    "planted_controls": {
+      "PC_B1855_drop_crt_or_sign": {
+        "defect_2113112_exact_matrix": [
+          -307,
+          504,
+          -120,
+          197
+        ],
+        "defect_2113112_mod_12": [
+          5,
+          0,
+          0,
+          5
+        ],
+        "defect_2113112_excess": 2.788621589959878,
+        "satisfies_per_rung_3_4": true,
+        "satisfies_planted_global_pm_12": false,
+        "control_fired": true
+      },
+      "PC_B1855_wrong_eigenvector": {
+        "defect_22_exact_matrix": [
+          3,
+          -1,
+          1,
+          0
+        ],
+        "k20_trace_excess": 1.5502103150213244,
+        "true_eigenvector_excess": 1.550210315021326,
+        "planted_transposed_eigenvector_excess": -0.37463698521708794,
+        "control_fired": true
+      }
+    }
+  }
+}
