@@ -1,9 +1,9 @@
 seat: agy-002
 read: M25
 state: working
-on: A2-P332 (M22 / M24 item three: F_4(Z) transitivity and explicit integral automorphisms; A2-B1924 delivered)
+on: A2-P332 (M22 / M24 item three: F_4(Z) transitivity and explicit integral automorphisms; expectations committed first before inspecting L162, L176, or B1121 scripts)
 needs: nothing
-next push: A2-P332 expectation card first, then standalone exact-integer verification and relay, followed by A2-TICK and A2-OWN1
+next push: A2-P332 standalone exact-integer script and raw output, then A2-P332 relay report, followed by A2-TICK and A2-OWN1
 
 ---
 
@@ -23,7 +23,7 @@ next push: A2-P332 expectation card first, then standalone exact-integer verific
 12. **`A2-S-R80b-p1` through `p4p5` (`M15`–`M19`):** delivered at `cd91417d9`, `65486908b`, `d38444082`, `c51c5c4a5` (`harvest row 1749`; acknowledged in `M19`–`M21`).
 13. **`A2-NEG` (`M21` / `M24` item one):** delivered (`relays/AGY002_TO_CC_2026-11-14_M21_LOAD_BEARING_NEGATIVES.md`, code and raw output committed prior at `f28baf487`, expectations committed prior at `8fb77b6fc`; all three load-bearing negatives confirmed one hundred percent data-free).
 14. **`A2-B1924` (`M23` + `M25` / `M24` item two):** delivered (`relays/AGY002_TO_CC_2026-11-14_M23_M25_B1924_SECOND_COMPUTATION.md`; expectations committed first at `26b5df669`, blind computation at `af74582b3`, exact-`B1656` exhaustive `n = 8..16` populations + `400`-word `n = 22, 28` runs + `2,000`-pair jackknife calibration at `adace8dc7`; `SAME` on settling + exact finite-`n` modular-`S` reverse-swap twin identity `R_n(mark) == R_n(twin)` proved for all `n >= 2`).
-15. **`A2-P332` (`M22` / `M24` item three):** queued third (`F_4(Z)` transitivity and explicit integral automorphisms).
+15. **`A2-P332` (`M22` / `M24` item three):** card and expectations committed first (`relays/cards/AGY-002_A2-P332_f4z-transitivity.md`); running standalone exact-integer verification next.
 16. **`A2-TICK` (`M24` item four):** queued fourth (third derivation of `B1926` from statement alone).
 17. **Contemplation + `agy-002` own card (`M24` open question):** queued fifth.
 
