@@ -966,3 +966,46 @@ def test_five_shapes_of_a_quotation_that_the_reader_did_not_see():
     assert what_the_plans_page_quotes("\"%s\", the owner chose." % words, held={}) == []
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
     assert what_the_plans_page_quotes(page) == []
+
+
+def _short_as_it_was(s, n=110):
+    """the function as it stood after the first part of this series, kept to show what it gave"""
+    s = str(s).strip()
+    if len(s) <= n:
+        return s
+    head = s[:n + 1]
+    cut = head.rfind(" ")
+    head = head[:cut] if cut > 0 else s[:n]
+    kept = head.rstrip(" ,;:")
+    if not any(c.isalnum() for c in kept):
+        kept = s[:n].rstrip(" ,;:") or s[:n]
+    return kept + " […]"
+
+
+def test_a_text_cut_for_a_cell_keeps_a_word_of_it():
+    """the third gap of the cold read of the first part (main's M18; not checked by main; made again here)"""
+    n = 110
+    cases = {
+        "a bracket, then only spaces and marks up to the cut": "(" + " ,;:" * 40 + "word " * 30,
+        "a dash, then only spaces up to the cut": "-" + " " * 150 + "word and more words",
+        "a comma and spaces up to the cut": "," + " " * 150 + "word and more words",
+        "a short label in brackets before a long word": "(a) " + "z" * 200,
+    }
+    gave = {what: _short_as_it_was(text, n) for what, text in cases.items()}
+    assert gave["a bracket, then only spaces and marks up to the cut"] == "( […]"                     # the mark alone
+    assert gave["a dash, then only spaces up to the cut"] == "- […]"
+    assert gave["a comma and spaces up to the cut"].strip(" ,") == "[…]"                              # the comma and the spaces
+    assert gave["a short label in brackets before a long word"] == "(a) […]"                          # the label alone
+    for what, text in cases.items():
+        out = bp.short(text, n)
+        assert out.endswith(" […]") and out != gave[what], what
+        body = out[:-len(" […]")]
+        assert re.search(r"[a-z]{4}", body), "nothing of the sentence is kept: %s -> %r" % (what, out[:40])
+        assert text.strip().startswith(body) and len(body) <= 3 * n, what
+    # twins: what the function gave before for an ordinary sentence, a text that fits, and one long word, it gives now
+    for text in ("The principle allows the act as the ground and does not force it, and with every history a ground the record's rule has four root classes and more.",
+                 "a text that fits", "q" * 300, "one two three " * 20, " " + "r" * 300):
+        assert bp.short(text, n) == _short_as_it_was(text, n), text[:30]
+    assert bp.short(", ; : " * 60, n).endswith(" […]")                                                # a text with no word in it at all is cut at n
+    # and on the page: no cell of the plan changes with the mend (the builder's output is the committed page)
+    assert bp.build()["fails"] == []

@@ -648,8 +648,21 @@ def short(s, n=110):
     # what was kept held no word, and came back as the mark alone, or as one dash and the mark.  Where the cut keeps no letter
     # and no digit, the text is cut at n characters, as a single long word is.
     kept = head.rstrip(" ,;:")
+    # CORRECTED 2026-11-12 (Review 80; the third gap of the cold read of the mend above, not checked by main, made again by
+    # the builder).  The last three lines were
+    #     if not any(c.isalnum() for c in kept):
+    #         kept = s[:n].rstrip(" ,;:") or s[:n]
+    #     return kept + " […]"
+    # Three texts still came back with nothing of the sentence in them: one that opens with a bracket or a dash and then holds
+    # only spaces and commas up to the cut (the mark alone); one that opens with a comma and spaces (the comma and the spaces);
+    # and a short label in brackets before a long word (the label alone).  So: where the cut at a word's end keeps less than
+    # half of what a cell may hold, the text is cut at n characters, inside the long word; and where the first n characters
+    # hold no letter and no digit at all, the text is kept up to the end of its first word (to three times n at most).
+    if len(kept) < n // 2 or not any(c.isalnum() for c in kept):
+        kept = s[:n].rstrip(" ,;:")
     if not any(c.isalnum() for c in kept):
-        kept = s[:n].rstrip(" ,;:") or s[:n]
+        first = re.search(r"\w+", s)
+        kept = s[:min(first.end(), 3 * n)] if first else s[:n]
     return kept + " […]"
 
 
