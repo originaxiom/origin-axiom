@@ -86,6 +86,74 @@ def test_mains_files_are_as_main_wrote_them():
             assert theirs.read_bytes() == (ARC / name).read_bytes(), name
 
 
+def _with_its_mends_put_back(text):
+    """a mended script as main wrote it: the note taken out, and each marked block replaced by the lines after '#| '"""
+    out, lines, i = [], text.split("\n"), 0
+    while i < len(lines):
+        if lines[i].startswith("# NOTE OF THE MEND"):
+            while not lines[i].startswith("# END OF THE NOTE"):
+                i += 1
+            i += 1
+            continue
+        if lines[i].startswith("# MENDED ("):
+            i += 1
+            while lines[i].startswith("#| "):
+                out.append(lines[i][3:])
+                i += 1
+            while not lines[i].startswith("# END OF THE MEND"):
+                i += 1
+            i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(out)
+
+
+def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
+    """ADDED 2026-11-12 (R80b, part 6; three things the builder sent back with R80a, main's faults by its word): a recount
+    that changed with the machine's zone and with a commit that is in main's repository alone; a probe that ended in an
+    error; a kept output with no script.  Main's files in checks/ stand as main wrote them (the test above).  The mended
+    ones stand beside them, and this holds what they are."""
+    import datetime
+    M = HERE / "mended_in_r80b"
+    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
+    # 1. the two mended scripts are main's but for their marked blocks
+    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2)):
+        text = (M / name).read_text(encoding="utf-8")
+        assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == blocks and text.count("# NOTE OF THE MEND") == 1, name
+        assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/" + name], name + ": with its mends put back it is not main's file"
+        assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/" + name]      # and this can fail
+    # 2. the recount of the SM seat's rows no longer changes with the machine: two rows differ from the file main kept
+    kept = json.loads((HERE / "checks" / "sm_rows_probe.json").read_text(encoding="utf-8"))
+    mended = json.loads((M / "sm_rows_probe.json").read_text(encoding="utf-8"))
+    assert sorted(k for k in kept if kept[k] != mended.get(k)) == ["SM-04", "SM-16"] and list(kept) == list(mended) and len(mended) == 15
+    assert kept["SM-16"]["held"] is False and mended["SM-16"]["held"] is True          # main's table gives the row as held
+    assert all(v["held"] for v in mended.values()) and sum(v["held"] for v in kept.values()) == 14
+    assert "| 16 |" in (ARC / "STATUS_OF_THE_57.md").read_text(encoding="utf-8")
+    was, now = kept["SM-04"]["main finds"], mended["SM-04"]["main finds"]
+    hours = set()
+    for k in ("last message", "c66c8ccae", "entry"):
+        assert now[k].endswith(" UTC") and not was[k].endswith("UTC"), k
+        a = datetime.datetime.strptime(was[k], "%Y-%m-%d %H:%M:%S")
+        b = datetime.datetime.strptime(now[k][:-4], "%Y-%m-%d %H:%M:%S")
+        hours.add((a - b).total_seconds() / 3600)
+    assert len(hours) == 1 and next(iter(hours)) == int(next(iter(hours))), hours      # the same three instants, one zone apart
+    assert {k: v for k, v in was.items() if not isinstance(v, str)} == {k: v for k, v in now.items() if not isinstance(v, str)}
+    assert "f6e89032a is on a branch or a tag of this repository" in mended["SM-16"]["main finds"]
+    # 3. the first probe of the package's rows runs to its end
+    out = (M / "builder_rows_probe_out.txt").read_text(encoding="utf-8")
+    assert "Traceback" not in out and "rows probed: ['41', '42', '43', '44', '45'] | cases: 33 | reproduced: 29" in out
+    assert len(json.loads((M / "builder_rows_probe.json").read_text(encoding="utf-8"))) == 33
+    # 4. the second probe, written again: a case for each of main's fourteen kept lines, and each case gave main's answer
+    lines = json.loads((HERE / "checks" / "builder_rows_probe2.json").read_text(encoding="utf-8"))
+    again = json.loads((M / "builder_rows_probe2.json").read_text(encoding="utf-8"))
+    assert [(o["row"], o["case"], o["answer"]) for o in again] == [(k["row"], k["case"], k["answer"]) for k in lines] and len(lines) == 14
+    assert all(o["the same as main kept"] and o["main kept"] == o["answer"] for o in again) and all(k["reproduced"] for k in lines)
+    assert not (HERE / "checks" / "builder_rows_probe2.py").exists()                    # main's own script is still not in its folder
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "verification/mended_in_r80b/" in page
+
+
 def test_the_counts_are_the_tables():
     again = _recount().the_tables()
     assert again == T, "the recount kept in this arc is not what the two tables give now"

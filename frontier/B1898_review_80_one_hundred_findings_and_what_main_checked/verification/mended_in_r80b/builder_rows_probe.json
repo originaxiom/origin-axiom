@@ -1,0 +1,200 @@
+[
+ {
+  "row": 41,
+  "case": "(a) the module's mark written with an annotation",
+  "the function answered": "None",
+  "reproduced": true
+ },
+ {
+  "row": 41,
+  "case": "(b) a skip inside a helper that the control calls",
+  "the function answered": "None",
+  "reproduced": true
+ },
+ {
+  "row": 41,
+  "case": "(c) a control with no assert and a bare approx",
+  "the function answered": "None",
+  "reproduced": true
+ },
+ {
+  "row": 41,
+  "case": "the control of the probe: the same mark written plainly",
+  "the function answered": "is in a module marked pytest.mark.skip(reason='never')",
+  "reproduced": true
+ },
+ {
+  "row": 42,
+  "case": "(a) no assert, a bare approx",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 42,
+  "case": "(b) a no-op call before a comparison of literals",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": false
+ },
+ {
+  "row": 42,
+  "case": "(c) the only assert inside an inner function never called",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 42,
+  "case": "the control: a comparison of literals alone",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": true
+ },
+ {
+  "row": 42,
+  "case": "the control: no assert at all",
+  "the function answered": "['NO-ASSERT']",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "a shift of literals",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "a subscript of a literal list",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": false
+ },
+ {
+  "row": 43,
+  "case": "a repeated tuple",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "a dict unpacked into a dict",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "an f-string of literals",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "an annotated binding",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "two names bound at once",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": 43,
+  "case": "the control: a sum of literals",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": true
+ },
+ {
+  "row": 44,
+  "case": "(a) a lock that does not parse is passed over before it is counted",
+  "the function answered": "except Exception: continue",
+  "reproduced": true
+ },
+ {
+  "row": 44,
+  "case": "(b) the key of a test is the file and the function's name, with no class",
+  "the function answered": "f\"{rel}::{fn.name}\"",
+  "reproduced": true
+ },
+ {
+  "row": 44,
+  "case": "(c) only files named test_*.py are collected outside tests/",
+  "the function answered": "\":(glob)**/test_*.py\"",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "the control: one of the gate's phrases written plainly",
+  "the function answered": "seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "the control: asterisks around one word (the gate strips them)",
+  "the function answered": "seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) underscores around one word",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) double underscores around one word",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) an emphasis command around one word",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) a link around one word",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) a tilde in place of one space",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(a) a quoted block broken before one word",
+  "the function answered": "not seen",
+  "reproduced": true
+ },
+ {
+  "row": 45,
+  "case": "(b) the walk skips a folder when '.git' is anywhere in its full path",
+  "the function answered": "if \".git\" in dirpath",
+  "reproduced": true
+ },
+ {
+  "row": "42",
+  "case": "42 (b) again: a bare approx before a comparison of literals",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": "42",
+  "case": "42 (b) again: a call of a helper's attribute before it",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": false
+ },
+ {
+  "row": "43",
+  "case": "43 again: a slice of a literal list",
+  "the function answered": "no class",
+  "reproduced": true
+ },
+ {
+  "row": "43",
+  "case": "43 again: a subscript of a literal dict",
+  "the function answered": "['CANNOT-FAIL']",
+  "reproduced": false
+ }
+]

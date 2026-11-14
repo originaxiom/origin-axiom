@@ -1,0 +1,16 @@
+row 46  (a) a file whose only 'def test' is inside its docstring is taken for a lock       -> True                                                 AS MAIN KEPT
+row 47  (a) a row of two quoted phrases joined by a slash                                  -> reading                                              AS MAIN KEPT
+row 47  (a) a row whose scope note is in italics                                           -> reading                                              AS MAIN KEPT
+row 47  the control: the same with a plain bracket                                         -> swept                                                AS MAIN KEPT
+row 47  (c) the flattening leaves asterisks and a curly apostrophe                         -> "the *weave's* lifts" 'the weave’s lifts'            AS MAIN KEPT
+row 48  a new ceiling of five and a half, with none at the anchor                          -> (None, '')                                           AS MAIN KEPT
+row 48  the control: a new ceiling of five                                                 -> 1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose  AS MAIN KEPT
+row 49  a rise of one covered by a recorded raise from false to true                       -> (None, '; the baseline was raised 1 time(s) by n')   AS MAIN KEPT
+row 49  the control: the same rise with no raise recorded                                  -> the baseline rose 1 -> 2 since the anchor, and the r AS MAIN KEPT
+row 50  the status is looked for as a whole cell                                           -> True                                                 AS MAIN KEPT
+row 51  the page's history is read with no --reverse                                       -> False                                                AS MAIN KEPT
+row 52  (a) a row with three hyphens in its prose                                          -> ['Another law']                                      AS MAIN KEPT
+row 53  (a) the test's pattern for a read of the clock, on the harvest checker's line      -> False                                                AS MAIN KEPT
+row 53  (b) the subcommand read from a call that begins with -c                            -> (None, '-c')                                         AS MAIN KEPT
+
+rows probed: [46, 47, 48, 49, 50, 51, 52, 53] | cases: 14 | the same as main kept: 14 | main's kept lines with no case here: 0

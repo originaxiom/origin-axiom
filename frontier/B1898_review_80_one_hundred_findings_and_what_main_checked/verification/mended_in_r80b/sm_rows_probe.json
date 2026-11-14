@@ -1,0 +1,141 @@
+{
+ "SM-04": {
+  "main finds": {
+   "last message": "2026-11-11 23:11:54 UTC",
+   "c66c8ccae": "2026-11-11 23:20:21 UTC",
+   "entry": "2026-11-12 02:04:24 UTC",
+   "commits between": 3,
+   "c66c8ccae touches": [
+    "CHANGELOG.md",
+    "PROGRESS_LOG.md",
+    "docs/CAMPAIGN_STATUS.md",
+    "docs/POINT_REGISTER.md",
+    "docs/SEAL_LEDGER.md"
+   ]
+  },
+  "held": true
+ },
+ "SM-07": {
+  "main finds": {
+   "the sentence says the rule does not count a pair and then gives 88 and ten": true
+  },
+  "held": true
+ },
+ "SM-11": {
+  "main finds": {
+   "the run file says patch 6 was not run by main": true,
+   "the page says each patch's lock fails on the commit before it": true
+  },
+  "held": true
+ },
+ "SM-16": {
+  "main finds": {
+   "f6e89032a is on a branch or a tag of this repository": false
+  },
+  "held": true
+ },
+ "SM-18": {
+  "main finds": {
+   "anchor": "896cae025",
+   "tests/test_*.py": 1525,
+   "of them test_b*.py": 1408
+  },
+  "held": true
+ },
+ "SM-19": {
+  "main finds": {
+   "tests at the commit read": 15,
+   "along the lock's history (oldest first)": [
+    5,
+    5,
+    10,
+    14,
+    15
+   ],
+   "B1895 still says fourteen": true,
+   "the lock's comment says four": true
+  },
+  "held": true
+ },
+ "SM-27": {
+  "main finds": {
+   "places": [
+    "CHANGELOG.md",
+    "docs/HARVEST_LEDGER.md",
+    "docs/LAW_MAP.md",
+    "docs/POINT_REGISTER.md",
+    "docs/THEOREM_REGISTRY.md",
+    "docs/seats/agy-002.md",
+    "docs/views/VERDICT_LEDGER.md",
+    "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+    "frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py"
+   ],
+   "lines": 12
+  },
+  "held": true
+ },
+ "SM-28": {
+  "main finds": {
+   "the plan's page holds the confirmation as a block quotation at line": [
+    978
+   ],
+   "its length in characters": 40,
+   "the builder emits it": true,
+   "the builder refuses to build without it": true
+  },
+  "held": true
+ },
+ "SM-29": {
+  "main finds": {
+   "the lock's assertion looks for one phrase and forbids one spelling": true
+  },
+  "held": true
+ },
+ "SM-31": {
+  "main finds": {
+   "docstring says two planted lines": true,
+   "an assertion of three lines": true
+  },
+  "held": true
+ },
+ "SM-34": {
+  "main finds": {
+   "levels 2..200 other than 5: with no root": 173,
+   "with one": 0,
+   "with two": 25,
+   "with four": 0,
+   "at 5": 1,
+   "at 209": 4,
+   "the page's bracket": true
+  },
+  "held": true
+ },
+ "SM-35": {
+  "main finds": {
+   "the verdict line says main's own convention": true
+  },
+  "held": true
+ },
+ "SM-21": {
+  "main finds": {
+   "files of B1895 that hold the sentence": [],
+   "B1897 says B1895 said it": true
+  },
+  "held": true
+ },
+ "SM-20": {
+  "main finds": {
+   "\u00a7 5 still says the reader's plants were not run": true,
+   "the verdict line still says ten tests": true,
+   "the page names 17 of 23 somewhere": false
+  },
+  "held": true
+ },
+ "SM-15": {
+  "main finds": {
+   "the page says the cases that pass are for the series after it": true,
+   "and names the fourth series for one of them": true
+  },
+  "held": true
+ }
+}
