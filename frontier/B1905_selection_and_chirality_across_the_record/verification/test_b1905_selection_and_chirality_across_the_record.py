@@ -138,7 +138,10 @@ def test_the_rows_and_the_lists_are_the_files_main_gave():
     # the two files are also in the folder main handed over, and are the same files there (the folder is in git's
     # history since it left the tree with this arc)
     for name in ("rows.json.txt", "arcs_by_title.json", "sweep_tables.py"):
-        assert _as_handed_over("b1905_selection_and_chirality/verification/" + name) == (HERE / name).read_bytes(), name
+        here = (HERE / name).read_bytes()
+        if name == "sweep_tables.py":   # 2026-11-13 (M23, item 7): main's script, but for the guard on its one write
+            here = _as_main_gave_it(here.decode("utf-8")).encode("utf-8")
+        assert _as_handed_over("b1905_selection_and_chirality/verification/" + name) == here, name
     assert not (ROOT / HANDED_OVER).exists(), "the hand-over folder left the tree with this arc"
 
 
@@ -236,3 +239,54 @@ def test_the_rule_that_came_with_the_arc_stands_in_the_working_rules_in_mains_wo
     block = "\n".join(l[4:] if l.startswith("   > ") else l[3:].lstrip("> ").rstrip() if l.strip() == ">" else l for l in card.split("\n") if l.startswith("   >"))
     assert flat(block) == flat(section)
     assert "the rule in `WORKING_RULES.md`, \"BEFORE A SELECTION OR A HAND IS CLAIMED\"" in flat(PAGE)
+
+
+# --- 2026-11-13, main's M23, item 7: the script writes its kept table only when asked ---
+
+_GUARD = ('''    if "--write" in sys.argv[1:]:   # 2026-11-13, at main's word (M23, item 7): the kept table is written only when asked
+        (HERE / "sweep_tables.json").write_text(''', '''    (HERE / "sweep_tables.json").write_text(''')
+_DOC = ("  Written to sweep_tables.json with --write (2026-11-13); printed as sweep_tables_run.txt.",
+        "  Written to sweep_tables.json; printed as sweep_tables_run.txt.")
+
+
+def _as_main_gave_it(text):
+    """the script with this seat's two changes taken back: what main handed over"""
+    assert text.count(_GUARD[0]) == 1 and text.count(_DOC[0]) == 1
+    return text.replace(_GUARD[0], _GUARD[1]).replace(_DOC[0], _DOC[1])
+
+
+def _run_as_a_script(tmp_path, source, *args):
+    """main's script run as a program from a copy of its folder, with the arguments given; returns what it wrote there"""
+    import shutil, sys as _sys
+    d = tmp_path / "frontier" / "B0x" / "verification"; d.mkdir(parents=True)
+    for name in ("rows.json.txt", "arcs_by_title.json"):
+        shutil.copy(HERE / name, d / name)
+    p = d / "sweep_tables.py"; p.write_text(source, encoding="utf-8")
+    was = _sys.argv
+    try:
+        _sys.argv = [str(p), *args]
+        g = {"__name__": "__main__", "__file__": str(p)}
+        exec(compile(source, str(p), "exec"), g)
+    finally:
+        _sys.argv = was
+    return sorted(x.name for x in d.iterdir())
+
+
+def test_the_script_writes_its_table_only_when_asked(tmp_path, capsys):
+    source = (HERE / "sweep_tables.py").read_text(encoding="utf-8")
+    assert "sweep_tables.json" not in _run_as_a_script(tmp_path / "a", source)
+    assert "sweep_tables.json" in _run_as_a_script(tmp_path / "b", source, "--write")
+    # the twin: main's script as handed over writes at every run
+    assert "sweep_tables.json" in _run_as_a_script(tmp_path / "c", _as_main_gave_it(source))
+    capsys.readouterr()
+
+
+def test_the_lock_and_the_ledgers_generator_write_nothing():
+    kept = HERE / "sweep_tables.json"
+    before = (kept.stat().st_mtime_ns, kept.read_bytes())
+    _mains()
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("views_generate_for_b1905", ROOT / "scripts" / "views" / "generate.py")
+    gen = importlib.util.module_from_spec(spec); spec.loader.exec_module(gen)
+    gen.walls_ledger()
+    assert (kept.stat().st_mtime_ns, kept.read_bytes()) == before

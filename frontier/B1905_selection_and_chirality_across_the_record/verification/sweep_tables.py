@@ -12,7 +12,7 @@ WHAT THIS DOES
      doubled must not be found.
   2. The tables: wall by outcome; kind of principle by outcome; the combinations; and a split of the settled rows of
      four walls by the words of their outcome (crude, and said so).
-  Written to sweep_tables.json; printed as sweep_tables_run.txt.
+  Written to sweep_tables.json with --write (2026-11-13); printed as sweep_tables_run.txt.
 WHAT IT IS NOT: a judgement of main's.  The classes are the readers', one reader an arc, not independently checked.
 HOW IT COULD FAIL: a row without a key; a quotation not found; a control found; the commit not in the clone (said aloud)."""
 import json, collections, pathlib, re, subprocess, sys
@@ -91,7 +91,8 @@ if __name__ == "__main__":
     rows = load(); T = tables(rows)
     Q = quotes(rows) if have(READ) else {"NOT RUN": "the commit the readers read, %s, is not in this clone" % READ}
     out = {"the quotations": Q, "the tables": T}
-    (HERE / "sweep_tables.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    if "--write" in sys.argv[1:]:   # 2026-11-13, at main's word (M23, item 7): the kept table is written only when asked
+        (HERE / "sweep_tables.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print("rows %d; about selection or chirality %d; neither on reading %d" % (T["rows"], T["about selection or chirality"], T["neither on reading"]))
     print("quotations: %s" % json.dumps(Q))
     print("by topic: %s" % T["by topic"]); print("by outcome: %s" % T["by outcome"])
