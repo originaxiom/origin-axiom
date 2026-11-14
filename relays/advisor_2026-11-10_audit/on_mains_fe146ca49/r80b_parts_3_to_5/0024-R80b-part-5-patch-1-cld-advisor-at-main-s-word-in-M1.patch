@@ -1,0 +1,98 @@
+From ca2cd15d625c5eca9333bb3ecbe83646c9adb45c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 07:58:46 +0000
+Subject: [PATCH] R80b, part 5, patch 1 (cld-advisor, at main's word in M14;
+ Review 80, owed from the first 43: the nine asserts in scripts that end in a
+ constant, which main found by a sweep of its own and registered as a debt):
+ FOUR OF MAIN'S FIVE ARE MENDED; THE FIFTH IS IN A FILE THAT A SEAL HASHES AND
+ IS NOT TOUCHED; THE OTHER FOUR ARE OTHER SESSIONS'.
+
+MAIN'S SWEEP, run again: nine asserts in tracked scripts end in `or True` and cannot fail. Main's table says of its five: with the constant taken out two fail, two hold, one reads an empty list.
+
+1. B1036, the pairing script. It compared two tuples of exact numbers by ==, which for these numbers is identity; with the constant out it fails. The three lines below it state the same control rightly: they compare each difference with zero, print the gate and stop the run if it fails. The line is gone, kept in a note. The script was not run after the change: the line could not fail and no later line reads it.
+2. B1103, the exact engine. It asserted the opposite of its own comment, and of the two lines of comment below it. It asserts what they say. Run here: the engine loads, the assert holds, and it ends as before.
+3. B1306, slice C. The constant is gone and the statement holds. Run here: the script ends as before.
+4. B1832, the script that applied its rows. It ended in the constant and read an empty list. It stands between the list of rows and the line that writes them, and asks that no row hold a bar inside a cell: it is taken to be about those rows, and over them it holds, four rows. THAT READING IS THE BUILDING SESSION'S and is main's to confirm. The script was run once, at B1832's landing.
+5. B575. NOT CHANGED: its script is named in a seal's list of hashes (B666, cell 8), and the gate on hashed files fails if it is touched. With the constant out, main found that the statement holds. It goes back to main.
+
+THE OTHER FOUR stand in other sessions' files and are not touched. Main's sweep after this patch: four asserts, and B575's.
+
+Each mended line keeps its old form in a dated note. The tests that read the four arcs pass. No list of hashes names the four files. The class of such an assert in the vacuity checker is the enforcement package's, and is not in this patch. 0 of 19.
+---
+ frontier/B1036_mirror_double/b1036_v3_pairing.py          | 6 +++++-
+ frontier/B1103_being_gate/b1103_exact_engine.py           | 6 +++++-
+ .../verification/sliceC/c_su3_level2.py                   | 4 +++-
+ .../verification/apply/apply_b1832.py                     | 8 +++++++-
+ 4 files changed, 20 insertions(+), 4 deletions(-)
+
+diff --git a/frontier/B1036_mirror_double/b1036_v3_pairing.py b/frontier/B1036_mirror_double/b1036_v3_pairing.py
+index 3bd64652a..f00026590 100644
+--- a/frontier/B1036_mirror_double/b1036_v3_pairing.py
++++ b/frontier/B1036_mirror_double/b1036_v3_pairing.py
+@@ -253,7 +253,11 @@ for top in TOPS27:
+     if Bgen:
+         zb = reps[0]
+         pert = [zb[i] + Bgen[0][i] for i in range(3 * n)]
+-        assert klass3(pert, reps[-1]) == klass3(zb, reps[-1]) or True
++        # CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  A line stood here:
++        #     assert klass3(pert, reps[-1]) == klass3(zb, reps[-1]) or True
++        # It could not fail, and with the constant taken out it fails: it compares two tuples of exact numbers by ==, which for
++        # these numbers is identity and not equality.  The control it meant is the three lines below, which compare each
++        # difference with zero, print the gate and stop the run if it fails.  The line is gone; nothing else is changed.
+         c1 = klass3(pert, reps[-1]); c2 = klass3(zb, reps[-1])
+         gate = all((c1[i] - c2[i]).is_zero() for i in range(3))
+         print(f"    V1 coboundary-invariance gate: {'PASS' if gate else 'FAIL'}", flush=True)
+diff --git a/frontier/B1103_being_gate/b1103_exact_engine.py b/frontier/B1103_being_gate/b1103_exact_engine.py
+index c5c741c65..4f8fe9cfa 100644
+--- a/frontier/B1103_being_gate/b1103_exact_engine.py
++++ b/frontier/B1103_being_gate/b1103_exact_engine.py
+@@ -175,7 +175,11 @@ I = zeta(15)       # i
+ 
+ # sanity: zeta3 not fixed by sigma11; zeta5 fixed
+ assert not Z3.gal(11).eq(Z3) and Z5.gal(11).eq(Z5)
+-assert not Z3.gal(31).eq(Z3) or True  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
++# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The line was
++#     assert not Z3.gal(31).eq(Z3) or True  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
++# It could not fail, and with the constant taken out it fails: it asserts the opposite of its own comment and of the two lines
++# of comment below it.  It asserts what they say now.
++assert Z3.gal(31).eq(Z3)  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
+ # careful: 31 = 1 mod 3, so sigma31 fixes zeta3; 31 mod 5 = 1 fixes zeta5.
+ # subgroup fixing Q(zeta5) inside (Z/60)* is {1,11,31,41}; sigma31 also
+ # fixes zeta3?? then it acts trivially on zeta15... but must move zeta4:
+diff --git a/frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py b/frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py
+index 65d37337c..3ef82ce45 100644
+--- a/frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py
++++ b/frontier/B1306_the_older_debt/verification/sliceC/c_su3_level2.py
+@@ -20,7 +20,9 @@ Araw = np.array([[A(l, m) for m in prim] for l in prim]); c0 = np.linalg.norm(Ar
+ # fix the phase of S by unitarity + S^2 = charge conjugation (a permutation matrix): the Kac-Peterson constant is i^{|Delta+|}/(sqrt(3) kappa)
+ S = Araw * (1j ** 3) / (math.sqrt(3) * kap)
+ U = S @ S.conj().T; assert np.allclose(U, np.eye(6), atol=1e-9), "S not unitary"
+-S2 = S @ S; C = np.round(S2.real).astype(int); assert np.allclose(S2, C, atol=1e-9) and sorted(map(tuple, C.tolist())) == sorted(map(tuple, np.eye(6, dtype=int).tolist())) or True
++# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The assert of the next line ended in
++# `or True` and could not fail.  The constant is gone and the statement holds: S^2 is a permutation matrix.
++S2 = S @ S; C = np.round(S2.real).astype(int); assert np.allclose(S2, C, atol=1e-9) and sorted(map(tuple, C.tolist())) == sorted(map(tuple, np.eye(6, dtype=int).tolist()))
+ c = k * 8 / kap; h = [np.dot(vec(l), vec(l) + 2 * rho) / (2 * kap) for l in prim]
+ texp = [round(((hl - c / 24) % 1) * 15) for hl in h]; assert all(abs(((hl - c / 24) % 1) * 15 - e) < 1e-9 for hl, e in zip(h, texp))
+ T = np.diag([cmath.exp(2j * math.pi * (hl - c / 24)) for hl in h])
+diff --git a/frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py b/frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py
+index bd916015c..f5bd226c1 100644
+--- a/frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py
++++ b/frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py
+@@ -67,7 +67,13 @@ rows = [
+  "| T-FA-NORM | **The census's θ-power Higgs directions have v·v = Xⁿ + Yⁿ − (X+Y)ⁿ** (n = a/2, X = θ₂⁴, Y = θ₄⁴); F₁₀: v·v = −80η¹²E₄, with η¹²'s multiplier and zeros on SL(2, ℤ)·ρ; F₆: −48η¹², never zero; so h·h ∝ η¹² in closed form | B1832 | %s | PROVED |" % LOCK,
+  "| T-THETA-Y-BSTEP | **θ_Y shifts by 264πa under b → b + 1**, and 66a² + ¼ is never an integer for rational a, so the frame's T-step on θ_Y (−132πa² − π/2, P-323) is never trivial on a rational line | B1832 | %s | PROVED |" % LOCK,
+ ]
+-assert all("|" not in r.strip("| ").replace(" | ", "") for r in []) or True
++# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The line was
++#     assert all("|" not in r.strip("| ").replace(" | ", "") for r in []) or True
++# It could not fail twice over: it ended in the constant, and it read an empty list.  It stands between the list `rows` and
++# the line that writes those rows to the registry, and it asks that no row hold a bar inside a cell; so it is taken to be
++# about `rows`.  That reading is the building session's and is main's to confirm.  Over `rows` the statement holds: four
++# rows, none with a bar inside a cell.  This script was run once, at B1832's landing, and what it applied is on the pages.
++assert all("|" not in r.strip("| ").replace(" | ", "") for r in rows)
+ t = t.replace(last, last + "\n" + "\n".join(rows)); p.write_text(t, encoding="utf-8")
+ # 4. LAW_MAP rows after the adjugate row
+ p = ROOT / "docs/LAW_MAP.md"; ls = p.read_text(encoding="utf-8").split("\n")
+-- 
+2.43.0
+

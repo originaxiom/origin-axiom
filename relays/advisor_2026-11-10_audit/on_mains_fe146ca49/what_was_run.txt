@@ -1,0 +1,188 @@
+Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all green). Entries 58 to 91 were gated again after the held counts were measured at entries 58 and 59:
+1 e514a0e92 54 gates; red: - | 
+2 f3761e6a0 54 gates; red: - | 
+3 de6aad7a0 54 gates; red: - | 
+4 588a704a2 54 gates; red: - | 
+5 cf66c6d7e 54 gates; red: - | 
+6 d8316624d 54 gates; red: - | 
+7 d4dfc2a24 54 gates; red: review-fires | 
+8 8a10989de 54 gates; red: review-fires | 
+9 6707ccb8d 54 gates; red: review-fires | 
+10 19a64d477 54 gates; red: review-fires | 
+11 09a3ec66f 54 gates; red: review-fires | 
+12 9339ee843 54 gates; red: review-fires | 
+13 24ffa8a13 54 gates; red: review-fires | 
+14 9485a181a 54 gates; red: review-fires | 
+15 fba3c7196 54 gates; red: review-fires | 
+16 8cc3f5dbe 54 gates; red: review-fires | 
+17 893d6853f 54 gates; red: review-fires | 
+18 d6d1eabc3 54 gates; red: review-fires | 
+19 e73fa42d1 54 gates; red: review-fires | 
+20 15c5e6e12 54 gates; red: review-fires | 
+21 6fbff6c81 54 gates; red: review-fires | 
+22 8ab7568bf 54 gates; red: review-fires | 
+23 010de261c 54 gates; red: review-fires | 
+24 ca2cd15d6 54 gates; red: review-fires | 
+25 720cc4b0f 54 gates; red: review-fires | 
+26 99def653e 54 gates; red: review-fires | 
+27 358a1e781 54 gates; red: review-fires | 
+28 8935ec6d5 54 gates; red: review-fires | 
+29 ec23a9f0e 54 gates; red: review-fires | 
+30 f945d634d 55 gates; red: review-fires | 
+31 ced5726b5 55 gates; red: review-fires | 
+32 aec7b6c09 55 gates; red: review-fires | 
+33 8856532fa 55 gates; red: review-fires | 
+34 a108920a1 55 gates; red: review-fires | 
+35 24142c644 55 gates; red: review-fires | 
+36 7fa3faa9a 55 gates; red: review-fires | 
+37 d3b812a49 55 gates; red: review-fires | 
+38 c76968a5d 55 gates; red: review-fires | 
+39 f58df518d 55 gates; red: review-fires | 
+40 40aa5d651 55 gates; red: review-fires | 
+41 af2bc63b7 55 gates; red: review-fires | 
+42 4e594de0b 55 gates; red: review-fires | 
+43 1a006da43 55 gates; red: review-fires | 
+44 444e1221e 55 gates; red: review-fires | 
+45 5b941fca8 55 gates; red: review-fires | 
+46 130bd50fc 55 gates; red: review-fires | 
+47 b0b714511 55 gates; red: review-fires | 
+48 27541ebb6 55 gates; red: review-fires | 
+49 f9accead6 55 gates; red: review-fires | 
+50 f6ee0f7bd 55 gates; red: review-fires | 
+51 b3ac7a7ff 55 gates; red: review-fires | 
+52 fd667ebb6 55 gates; red: review-fires | 
+53 1796bbe20 55 gates; red: review-fires | 
+54 872e7799e 55 gates; red: review-fires | 
+55 32f8f27d4 55 gates; red: review-fires | 
+56 4dfeb3012 55 gates; red: review-fires | 
+57 c411c3d68 55 gates; red: review-fires | 
+58 9c64beb26 56 gates; red: review-fires | 
+59 280cdf8ca 56 gates; red: review-fires | 
+60 83713327c 56 gates; red: review-fires | 
+61 c918ac7ad 56 gates; red: review-fires | 
+62 2fa085d56 56 gates; red: review-fires | 
+63 36ae75d1a 56 gates; red: review-fires | 
+64 637570d18 56 gates; red: review-fires | 
+65 0d01a10f9 56 gates; red: review-fires | 
+66 cf07894f0 56 gates; red: review-fires | 
+67 a794f5df9 56 gates; red: review-fires | 
+68 f8f1c025d 56 gates; red: review-fires | 
+69 47b453a41 56 gates; red: review-fires | 
+70 1364b3338 56 gates; red: review-fires | 
+71 9f875ea02 56 gates; red: review-fires | 
+72 51a99bb5b 56 gates; red: review-fires | 
+73 280be9d30 56 gates; red: review-fires | 
+74 43b608262 56 gates; red: review-fires | 
+75 c50c09712 56 gates; red: review-fires | 
+76 dde3add58 56 gates; red: review-fires | 
+77 1c38fb26a 56 gates; red: review-fires | 
+78 aca20864c 56 gates; red: review-fires | 
+79 99b0be472 56 gates; red: review-fires | 
+80 f3ccd2d4c 56 gates; red: review-fires | 
+81 23019b6c7 56 gates; red: review-fires | 
+82 b992dd9dd 56 gates; red: review-fires | 
+83 87de7f8f5 56 gates; red: review-fires | 
+84 af9ee5466 56 gates; red: review-fires | 
+85 d594c6b73 56 gates; red: review-fires | 
+86 a5d3acc09 56 gates; red: review-fires | 
+87 0c54cf3e7 56 gates; red: review-fires | 
+88 d2b6d6909 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+89 1edf3f855 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+90 a99a95e39 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+91 4df196f10 56 gates; red: doc-currency review-fires | doc-currency: doc-currency: 9 DECLARED DEBTS (visible, never silent) -- |     CLAIMS.md: B1082 vs B1930 (lag 637 e
+
+Applied on a clean checkout of fe146ca49, in order:
+ 1 r80b_parts_3_to_5  e514a0e92 tree ok am
+ 2 r80b_parts_3_to_5  f3761e6a0 tree ok am
+ 3 r80b_parts_3_to_5  de6aad7a0 tree ok am
+ 4 r80b_parts_3_to_5  588a704a2 tree ok am
+ 5 r80b_parts_3_to_5  cf66c6d7e tree ok am
+ 6 r80b_parts_3_to_5  d8316624d tree ok am
+ 7 r80b_parts_3_to_5  d4dfc2a24 tree ok am
+ 8 r80b_parts_3_to_5  8a10989de tree ok am
+ 9 r80b_parts_3_to_5  6707ccb8d tree ok am
+10 r80b_parts_3_to_5  19a64d477 tree ok am
+11 r80b_parts_3_to_5  09a3ec66f tree ok am
+12 r80b_parts_3_to_5  9339ee843 tree ok am
+13 r80b_parts_3_to_5  24ffa8a13 tree ok am
+14 r80b_parts_3_to_5  9485a181a tree ok am
+15 r80b_parts_3_to_5  fba3c7196 tree ok am
+16 r80b_parts_3_to_5  8cc3f5dbe tree ok am
+17 r80b_parts_3_to_5  893d6853f tree ok am
+18 r80b_parts_3_to_5  d6d1eabc3 tree ok am
+19 r80b_parts_3_to_5  e73fa42d1 tree ok am
+20 r80b_parts_3_to_5  15c5e6e12 tree ok am
+21 r80b_parts_3_to_5  6fbff6c81 tree ok am
+22 r80b_parts_3_to_5  8ab7568bf tree ok am
+23 r80b_parts_3_to_5  010de261c tree ok am
+24 r80b_parts_3_to_5  ca2cd15d6 tree ok am
+25 r80b_parts_3_to_5  720cc4b0f tree ok am
+26 r80b_parts_3_to_5  99def653e tree ok script, says the tree is the builder's
+27 c13                358a1e781 tree ok am
+28 c13                8935ec6d5 tree ok am
+29 c13                ec23a9f0e tree ok am
+30 c13                f945d634d tree ok am
+31 c13                ced5726b5 tree ok am
+32 r80b_part_6        aec7b6c09 tree ok am
+33 r80b_part_6        8856532fa tree ok script, says the tree is the builder's
+34 r80b_part_6        a108920a1 tree ok am
+35 r80b_part_6        24142c644 tree ok am
+36 r80b_part_6        7fa3faa9a tree ok am
+37 r80b_part_6        d3b812a49 tree ok am
+38 r80b_part_6        c76968a5d tree ok am
+39 r80b_part_6        f58df518d tree ok am
+40 r80b_part_6        40aa5d651 tree ok am
+41 r80b_part_6        af2bc63b7 tree ok am
+42 r80b_part_6        4e594de0b tree ok am
+43 r80b_part_6        1a006da43 tree ok am
+44 r80b_part_6        444e1221e tree ok am
+45 r80b_part_6        5b941fca8 tree ok am
+46 r80b_part_6        130bd50fc tree ok am
+47 r80b_part_6        b0b714511 tree ok am
+48 r80b_part_6        27541ebb6 tree ok am
+49 r80b_part_6        f9accead6 tree ok am
+50 r80b_part_6        f6ee0f7bd tree ok am
+51 r80b_part_6        b3ac7a7ff tree ok am
+52 r80b_part_6        fd667ebb6 tree ok am
+53 r80b_part_6        1796bbe20 tree ok am
+54 r80b_part_6        872e7799e tree ok am
+55 r80b_part_6        32f8f27d4 tree ok am
+56 r80b_part_6        4dfeb3012 tree ok am
+57 r80b_part_6        c411c3d68 tree ok script, says the tree is the builder's
+58 c14_first_part     9c64beb26 tree ok am
+59 c14_first_part     280cdf8ca tree ok script, says the tree is the builder's
+60 c14_first_part     83713327c tree ok am
+61 c16                c918ac7ad tree ok am
+62 c16                2fa085d56 tree ok am
+63 c16                36ae75d1a tree ok am
+64 c16                637570d18 tree ok am
+65 c16                0d01a10f9 tree ok am
+66 c16                cf07894f0 tree ok am
+67 c16                a794f5df9 tree ok am
+68 c16                f8f1c025d tree ok am
+69 c16                47b453a41 tree ok am
+70 c16                1364b3338 tree ok am
+71 c16                9f875ea02 tree ok am
+72 c16                51a99bb5b tree ok am
+73 c16                280be9d30 tree ok am
+74 c15                43b608262 tree ok am
+75 c11                c50c09712 tree ok am
+76 fix_tip            dde3add58 tree ok am
+77 c17                1c38fb26a tree ok am
+78 c14_second_part    aca20864c tree ok am
+79 c14_second_part    99b0be472 tree ok am
+80 c14_second_part    f3ccd2d4c tree ok script, says the tree is the builder's
+81 c13_follow_ups     23019b6c7 tree ok am
+82 c13_follow_ups     b992dd9dd tree ok am
+83 fix_tip_2          87de7f8f5 tree ok am
+84 c14_third_part     af9ee5466 tree ok am
+85 c14_fourth_part    d594c6b73 tree ok script, says the tree is the builder's
+86 c14_fifth_part     a5d3acc09 tree ok am
+87 c13_follow_ups     0c54cf3e7 tree ok am
+88 c18                d2b6d6909 tree ok script, says the tree is the builder's
+89 c14_patch_8_met    1edf3f855 tree ok am
+90 c14_terminology    a99a95e39 tree ok am
+91 c13_follow_ups     4df196f10 tree ok am
+ALL 91 APPLIED, EVERY TREE AS RECORDED
+
+The full suite on a fresh clone of entry 91: in the note that follows this one.

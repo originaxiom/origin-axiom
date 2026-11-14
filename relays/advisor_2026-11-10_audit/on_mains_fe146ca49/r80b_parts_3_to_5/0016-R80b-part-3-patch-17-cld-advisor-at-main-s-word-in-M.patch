@@ -1,0 +1,234 @@
+From 8cc3f5dbe1427352944a02297b17bf5bb25400a9 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 07:58:06 +0000
+Subject: [PATCH] R80b, part 3, patch 17 (cld-advisor, at main's word in M14;
+ Review 80, a reader's finding F7, which main checked for its shape on B1892's
+ checker and not on this one): B1894'S QUOTATION CHECKER PLACES EACH QUOTATION
+ STRICTLY, AS B1892'S HAS SINCE MAIN MENDED IT.
+
+WHAT STOOD. The checker looks for a quotation in a pool: the file its finding names, the arc's folder, and a list of wide pages. So a quotation that names a file was found if it stood in any of them. An empty quotation was found in every file. Where no reader's commit is in the clone, the lock's loop over the readers passed without a word.
+
+WHAT IS CHANGED, on the pattern of main's mend of B1892's checker. The checker says where each quotation stands; it counts the lines of a reader's table that it does not read as rows; an empty quotation is not found. The lock holds the placing, shows that a sentence of a wide page is found by the pool for a finding that names another file and is placed as wide, and says aloud that it did not look where no reader's commit is present.
+
+WHAT THE PLACING GIVES, counted here by the script, which reads two files through the mask and prints counts: of the 38 quotations found in main's files, 26 stand in the file their finding names. The SM seat's findings name neither an arc nor a file: 11 of its 12 are placed in the pages the checker sweeps for such a finding, and 1 on a wide page. None is placed nowhere but the two of that seat's own first file. No line of a table goes unread. The page says so in a dated note; the kept result is written again by the script.
+
+NOT BUILT, and sent back: the same row of main's table says that two prose mends only are held by the lock. Which mends is in a file read through a mask.
+
+FOR MAIN: the lock's test may now skip. The enforcement package's fourth series asks for a record of a test that is given a way not to run; with this patch the record main makes at that landing has one name more. The lock: 6 tests pass. 0 of 19.
+---
+ docs/views/REVIEWER.md                        |  2 +-
+ .../FINDINGS.md                               |  6 ++
+ .../verification/quote_check.json             | 34 ++++++++++-
+ .../verification/quote_check.py               | 58 +++++++++++++++++++
+ .../test_b1894_review_79_the_second_round.py  | 23 +++++++-
+ 5 files changed, 118 insertions(+), 5 deletions(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 3135618f8..7ff5f50a2 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1624** |
+-| words of findings prose | **1,449,747** |
++| words of findings prose | **1,449,870** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1624** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/frontier/B1894_review_79_the_second_round/FINDINGS.md b/frontier/B1894_review_79_the_second_round/FINDINGS.md
+index de6bbf6d6..475f2ab92 100644
+--- a/frontier/B1894_review_79_the_second_round/FINDINGS.md
++++ b/frontier/B1894_review_79_the_second_round/FINDINGS.md
+@@ -32,6 +32,12 @@ read. 0 of 19.*
+ - **Every quotation was found by machine** at the commit read: 38 of 38 in main's files, by
+   `verification/quote_check.py`. Two more quote the SM seat's own first file, where that seat corrects itself, and
+   are found there. The control, a quotation altered by one character, is reported missing.
++  [ADDED 2026-11-12 (Review 80; a reader's finding, checked by main for its shape and counted here): the checker
++  looked in a pool, so a quotation that names a file was found if it stood in the arc's folder or on a wide page.
++  Placed strictly, as B1892's checker places since that day: of the 38, 26 stand in the file their finding names;
++  the SM seat's findings name neither an arc nor a file, and its 12 are placed 11 in the pages the checker sweeps
++  for such a finding and 1 on a wide page. None is placed nowhere. An empty quotation is not found. Where no
++  reader's commit is in the clone the lock says aloud that it did not look.]
+ - **Two readers judged one mend differently.** For the scope note on B874's verdict line one wrote "resolved" and
+   the other found that it gave a seat's results as if main had computed them. The second is right, and it is mended.
+ 
+diff --git a/frontier/B1894_review_79_the_second_round/verification/quote_check.json b/frontier/B1894_review_79_the_second_round/verification/quote_check.json
+index e1464e868..b350af407 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/quote_check.json
++++ b/frontier/B1894_review_79_the_second_round/verification/quote_check.json
+@@ -3,6 +3,13 @@
+   "its commit": "52b484c70",
+   "quotations": 14,
+   "found": 12,
++  "in the file the finding names": 0,
++  "in the arc's own folder, no file being named": 0,
++  "in the pages swept, neither an arc nor a file being named": 11,
++  "on a wide page only": 1,
++  "placed nowhere": 2,
++  "rows with more cells than their table's header": 0,
++  "lines that begin as a row and give fewer than four cells": 0,
+   "of its own first file, found there": 2,
+   "found nowhere": 0,
+   "control: the first quotation altered by one character is reported missing": true
+@@ -10,16 +17,37 @@
+  "the web seat": {
+   "its commit": "1588ed722",
+   "quotations": 5,
+-  "found": 5
++  "found": 5,
++  "in the file the finding names": 5,
++  "in the arc's own folder, no file being named": 0,
++  "in the pages swept, neither an arc nor a file being named": 0,
++  "on a wide page only": 0,
++  "placed nowhere": 0,
++  "rows with more cells than their table's header": 0,
++  "lines that begin as a row and give fewer than four cells": 0
+  },
+  "agy-002": {
+   "its commit": "c68aabbd7",
+   "quotations": 13,
+-  "found": 13
++  "found": 13,
++  "in the file the finding names": 13,
++  "in the arc's own folder, no file being named": 0,
++  "in the pages swept, neither an arc nor a file being named": 0,
++  "on a wide page only": 0,
++  "placed nowhere": 0,
++  "rows with more cells than their table's header": 0,
++  "lines that begin as a row and give fewer than four cells": 0
+  },
+  "agy-exp": {
+   "its commit": "0e9644320",
+   "quotations": 8,
+-  "found": 8
++  "found": 8,
++  "in the file the finding names": 8,
++  "in the arc's own folder, no file being named": 0,
++  "in the pages swept, neither an arc nor a file being named": 0,
++  "on a wide page only": 0,
++  "placed nowhere": 0,
++  "rows with more cells than their table's header": 0,
++  "lines that begin as a row and give fewer than four cells": 0
+  }
+ }
+diff --git a/frontier/B1894_review_79_the_second_round/verification/quote_check.py b/frontier/B1894_review_79_the_second_round/verification/quote_check.py
+index b967afe29..1d49f5f51 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/quote_check.py
++++ b/frontier/B1894_review_79_the_second_round/verification/quote_check.py
+@@ -74,6 +74,10 @@ def quotations(reader, page):
+ 
+ def found(q, arc, named):
+     forms = {" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())}
++    # ADDED 2026-11-12 (Review 80; a reader's finding F7, the shape of the one main mended in B1892's checker): an empty
++    # quotation is in every file.  It is a quotation of nothing, and is not found.
++    if not any(forms):
++        return False
+     for commit in MAIN:
+         fs = files(commit)
+         pool = ([named] if named in fs else []) + ([f for f in fs if f.startswith("frontier/%s_" % arc)] if arc else []) + [f for f in WIDE if f in fs]
+@@ -86,6 +90,54 @@ def found(q, arc, named):
+     return False
+ 
+ 
++# ---- ADDED 2026-11-12 (Review 80; a reader's finding F7, which main checked for its shape and not on this file).  `found` looks
++# in a pool: the file the finding names, the arc's folder, and a list of wide pages.  So a quotation that names a file was
++# found if it stood in any of them.  `placed` says where it stands, strictly, as B1892's checker has done since that day; and
++# `rows_not_read` counts the lines of a reader's table that `quotations` does not read as rows.
++def placed(q, arc, named):
++    """Where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not
++    at the commit); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is named: in the
++    pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None."""
++    forms = {x for x in (" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())) if x}
++    if not forms:
++        return None
++    wide = False
++    for commit in MAIN:
++        fs = files(commit)
++        isin = lambda pool: any(form in text(commit, f) for form in forms for f in pool)
++        if named:
++            if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
++                return "named"
++        elif arc:
++            if isin([f for f in fs if f.startswith("frontier/%s_" % arc)]):
++                return "arc"
++        elif isin([f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]):
++            return "swept"
++        wide = wide or isin([f for f in WIDE if f in fs])
++    return "wide" if wide else None
++
++
++def rows_not_read(reader, page):
++    """the lines of a reader's table that quotations() does not read as it should: (more cells than the header, fewer than four)"""
++    if reader in ("the SM seat", "agy-exp"):
++        return (0, 0)                                 # their files are not tables
++    more = few = 0; ncol = None; lines = page.split("\n")
++    for i, line in enumerate(lines):
++        if not line.startswith("|"):
++            ncol = None; continue
++        c = [x.strip() for x in line.strip().strip("|").split(" | ")]
++        if i + 1 < len(lines) and set(lines[i + 1].strip()) <= set("|-: ") and lines[i + 1].strip():
++            ncol = len(c); continue
++        if set(line.strip()) <= set("|-: "):
++            continue
++        if re.match(r"\|\s*(B\d+|window)\s*\|", line):
++            if len(c) < 4:
++                few += 1
++            elif ncol is not None and len(c) > ncol:
++                more += 1
++    return (more, few)
++
++
+ def build():
+     res = {}
+     for reader, (commit, path) in READERS.items():
+@@ -96,6 +148,12 @@ def build():
+         qs = quotations(reader, page)
+         hits = [found(q, arc, named) for arc, named, q in qs]
+         res[reader] = {"its commit": commit, "quotations": len(qs), "found": sum(hits)}
++        where = [placed(q, arc, named) for arc, named, q in qs]
++        more, few = rows_not_read(reader, page)
++        res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
++                            "in the pages swept, neither an arc nor a file being named": where.count("swept"),
++                            "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
++                            "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
+         if reader == "the SM seat":
+             # one of its entries corrects its own first file and quotes that file: those quotations are looked for there
+             own = " ".join(git("show", "4d0a46b93:relays/REVIEW_79_SM.md")[1].split())
+diff --git a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+index d58c4ee04..a19e9cc5a 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
++++ b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+@@ -51,7 +51,28 @@ def test_every_quotation_was_found_and_the_check_can_fail():
+     in_main = sum(v["found"] for v in q.values())
+     assert "%d of %d in main's files" % (in_main, in_main) in F
+     spec = importlib.util.spec_from_file_location("b1894_quote_check", HERE / "quote_check.py"); qc = importlib.util.module_from_spec(spec); spec.loader.exec_module(qc)
+-    for reader, r in qc.build().items():
++    # ADDED 2026-11-12 (Review 80; a reader's finding F7).  Where each quotation stands, strictly, as B1892's checker says since
++    # that day: of the 38 found in main's files, 26 stand in the file their finding names; the SM seat's findings name
++    # neither an arc nor a file, and its 12 are placed in the pages swept (11) and on a wide page (1).  None is placed nowhere
++    # but the two of the SM seat's own first file.  No line of a reader's table goes unread.
++    placing = {k: sum(v[k] for v in q.values()) for k in ("in the file the finding names", "in the arc's own folder, no file being named",
++                                                         "in the pages swept, neither an arc nor a file being named", "on a wide page only", "placed nowhere")}
++    assert list(placing.values()) == [26, 0, 11, 1, 2] and sum(list(placing.values())[:4]) == in_main
++    assert q["the SM seat"]["placed nowhere"] == q["the SM seat"]["of its own first file, found there"] == 2
++    assert all(v["rows with more cells than their table's header"] == v["lines that begin as a row and give fewer than four cells"] == 0 for v in q.values())
++    assert "26 stand in the file their finding names" in F and "11 in the pages the checker sweeps" in F
++    # an empty quotation is a quotation of nothing; a quotation that names a file is not placed by standing in another
++    assert qc.found("", "B1894", None) is False and qc.placed("", "B1894", None) is None
++    other = "No item is added and no status cell changes."                       # a sentence of the foundation, a wide page
++    assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
++    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
++    built = qc.build()
++    if all(r is None for r in built.values()):
++        # CHANGED 2026-11-12 (Review 80; the same finding): with no reader's commit in the clone every result is None and the
++        # loop below passed without a word.  It says so aloud, as B1892's lock does.
++        import pytest
++        pytest.skip("no reader's commit is in this clone: the quotations were not looked for again here")
++    for reader, r in built.items():
+         assert r is None or r == q[reader], reader
+ 
+ 
+-- 
+2.43.0
+

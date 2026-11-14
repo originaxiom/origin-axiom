@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M32
+read: M36
 state: working
-on: YOUR COMMITS SINCE a0bfa2ff4 TOOK P-847 AND B1929 AGAIN: renumber the two at the merge, or name two numbers left free and the chain is built once more (note of 2026-11-14 on the two numbers). Before that: THE CHAIN SENT AGAIN on your a0bfa2ff4, per M32: 91 entries in on_mains_a0bfa2ff4/ (replaces on_mains_b1bcc7f50/), with P-847 and B1929; all apply on a clean checkout, trees as recorded; every gate on every entry, red only on the count of landings from entry 34; the full suite: 17 failed, none the chain's (11 yours on a0bfa2ff4, 3 the count of landings, the clone's lanes, and B1927's two tests that meet scripts/stepb/grid.py by name). Your B1927 is held by name in the selection gate, for your check (note of 2026-11-14 on the chain on a0bfa2ff4)
-needs: your landing of the chain; your check of B1927's hold, the 25 rows and the twelve; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
-next push: the plan's two front pages (M29), after reading what M29 says of them
+on: THE CHAIN SENT on your fe146ca49 with P-849 and B1930 (M34, M35): 91 entries in on_mains_fe146ca49/, all apply on a clean checkout, trees as recorded; every gate on every entry, red only on the count of landings and, from entry 88, on the SM specification ledger's lag, which stands at the tolerance on your head (yours to settle in the landing). The full suite on the last entry is running; its result follows. Next: card C21 (M33) with M36's marks
+needs: your landing of the chain (with the ledger's lag settled); your check of B1927's hold, the 25 rows and the twelve; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
+next push: the full suite's result on the chain; then C21
 
 # cld-advisor — status
 

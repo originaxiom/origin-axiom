@@ -1,0 +1,120 @@
+From 7fa3faa9aa27a98f74b294aa8aa6792c806b1a20 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:00:09 +0000
+Subject: [PATCH] R80b, part 6, patch 5 (cld-advisor, at main's word in M16;
+ main's third folder, section 7): THE PAPER'S COUNT OF RETRACTIONS IS THE
+ INDEX'S AGAIN, AND ITS TEST IS ONE A LANDING RUNS
+
+Sent back with R80a: tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+fails at main's head. Main's word: its own fault, and older than that day. The paper gives the length of the
+retractions index in words, "seventy-nine"; the index has 97 rows; the test's table of number words stops at
+80, so the test stopped there and said to extend the table. Main counted the index at four commits: it passed
+80 rows inside Review 79's window, and no landing since ran this test.
+
+The mend, as main states it:
+  - the paper's count is brought to the index's, as an erratum of a count, the way it was last done on
+    2026-11-04: one word in papers/P3_THE_PAPER/main.tex and the same word in the generator that emits the
+    sentence. It reads ninety-seven. Nothing else of the paper is touched;
+  - the table of words is extended well past the present length: a number is spelt out, to 999, and the
+    spelling is held to every word the table had. The table as it stood is kept;
+  - the test joins the tests a landing runs: the selector of those tests names the file, beside the gate
+    runner. It was in the selection only because its text happens to hold a word the selector's pattern looks
+    for. A test holds that a change to the index selects it, and that a change to the paper or to its
+    generator asks for the full suite.
+
+One thing more, found on the way and mended: the test's pattern for the paper's count took one hyphenated
+word. From 100 rows the count is several words ("one hundred and four"), and the pattern would have found no
+count at all. The index stands three rows from that.
+
+The lock keeps its meaning: the paper's count is the index's, and the generator's sentence is the paper's.
+
+Run: the 17 test files that read the paper, its generator, the index or the selector. On the commit before: 1
+failed, 101 passed, 1 skipped. On the patch: 103 passed, 1 skipped. Every gate passes but the count of
+landings.
+
+The log's entry for this erratum is main's to write. Main's fault by main's word; the count of 97 is the
+test's own count of the index.
+
+BUILT AGAIN ON MAIN'S 663a902ff (2026-11-13): main had mended the same count on its own head since (the paper and its
+generator read "one hundred", and the test's table of number words is extended by main). This patch keeps main's paper,
+generator and table, and does not touch them. What it still brings: the test's pattern takes a count of several words
+("one hundred and four"), held by a sentence of its own; and the selector of the tests a landing runs names this test,
+with the test that holds it. The test file passes (16).
+---
+ scripts/affected_tests.py       |  9 ++++++++-
+ tests/test_b1425_determinism.py | 25 ++++++++++++++++++++++++-
+ 2 files changed, 32 insertions(+), 2 deletions(-)
+
+diff --git a/scripts/affected_tests.py b/scripts/affected_tests.py
+index 93450c883..bb7b6c06a 100755
+--- a/scripts/affected_tests.py
++++ b/scripts/affected_tests.py
+@@ -59,6 +59,13 @@ def _changed(ref):
+     return out
+ 
+ 
++# The tests that run with the corpus-scanning set whatever their text says.  The gate runner: always, on any repo/arc change.
++# ADDED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7): the test that the paper's count of
++# retractions is the index's.  It failed from the day the index passed 80 rows, inside Review 79's window, and no landing
++# ran it.  It was in this set only because its text happens to hold a word the pattern above looks for.
++ALWAYS_WITH_THE_CORPUS = frozenset(("tests/test_repo_gates.py", "tests/test_b1425_determinism.py"))
++
++
+ def _corpus_scanners():
+     """Every test that reads ACROSS arcs -- must run whenever any arc / generated corpus file
+     changes. Detected liberally (over-inclusion is safe; it only runs more)."""
+@@ -69,7 +76,7 @@ def _corpus_scanners():
+                 s.add(f)
+         except OSError:
+             pass
+-    s.add("tests/test_repo_gates.py")  # the gate runner: always, on any repo/arc change
++    s |= ALWAYS_WITH_THE_CORPUS         # until 2026-11-12: s.add("tests/test_repo_gates.py"), the gate runner alone
+     s |= set(LOCKS)                     # the arcs' locks are review and ledger locks: they read the shared docs (P-232)
+     return {f for f in s if f in ALL}
+ 
+diff --git a/tests/test_b1425_determinism.py b/tests/test_b1425_determinism.py
+index 5a26552e1..dde13b896 100644
+--- a/tests/test_b1425_determinism.py
++++ b/tests/test_b1425_determinism.py
+@@ -95,7 +95,11 @@ def test_the_papers_retraction_count_matches_the_index():
+              81: "eighty-one", 82: "eighty-two", 83: "eighty-three", 84: "eighty-four", 85: "eighty-five", 86: "eighty-six", 87: "eighty-seven", 88: "eighty-eight", 89: "eighty-nine", 90: "ninety", 91: "ninety-one", 92: "ninety-two", 93: "ninety-three", 94: "ninety-four", 95: "ninety-five", 96: "ninety-six", 97: "ninety-seven", 98: "ninety-eight", 99: "ninety-nine", 100: "one hundred", 101: "one hundred and one", 102: "one hundred and two", 103: "one hundred and three", 104: "one hundred and four", 105: "one hundred and five", 106: "one hundred and six", 107: "one hundred and seven", 108: "one hundred and eight", 109: "one hundred and nine", 110: "one hundred and ten", 111: "one hundred and eleven", 112: "one hundred and twelve", 113: "one hundred and thirteen", 114: "one hundred and fourteen", 115: "one hundred and fifteen", 116: "one hundred and sixteen", 117: "one hundred and seventeen", 118: "one hundred and eighteen", 119: "one hundred and nineteen", 120: "one hundred and twenty", 121: "one hundred and twenty-one", 122: "one hundred and twenty-two", 123: "one hundred and twenty-three", 124: "one hundred and twenty-four", 125: "one hundred and twenty-five", 126: "one hundred and twenty-six", 127: "one hundred and twenty-seven", 128: "one hundred and twenty-eight", 129: "one hundred and twenty-nine", 130: "one hundred and thirty"}
+     assert len(rows) in words, "extend the number-words table: the index has %d rows" % len(rows)
+     paper = (ROOT / "papers" / "P3_THE_PAPER" / "main.tex").read_text()
+-    m = re.search(r"retractions index holds ([a-z-]+) corrected or withdrawn statements", paper)
++    # (2026-11-12: the pattern was r"retractions index holds ([a-z-]+) corrected or withdrawn statements".  From 100 rows the
++    #  count is several words, and the pattern would have found no count at all; the index stands at 97.)
++    count_in = lambda text: re.search(r"retractions index holds ([a-z][a-z -]*[a-z]) corrected or withdrawn statements", text)
++    assert count_in("the retractions index holds one hundred and four corrected or withdrawn statements").group(1) == words[104]
++    m = count_in(paper)
+     assert m, "the paper no longer states the count in the expected words"
+     assert m.group(1) == words[len(rows)], (
+         "the paper says %s; the index has %d rows" % (m.group(1), len(rows)))
+@@ -104,6 +108,25 @@ def test_the_papers_retraction_count_matches_the_index():
+     assert "retractions index holds %s corrected" % words[len(rows)] in gen
+ 
+ 
++def test_this_file_is_in_what_a_landing_runs_when_the_index_or_the_paper_changes():
++    """Review 80 (2026-11-12; main's word): the test above failed from the day the index passed 80 rows, and no landing ran
++    it.  The selector of the tests a landing runs names this file, so that it does not depend on a word in its text; a
++    change to the paper or to its generator is not one the selector can bound, and asks for the full suite."""
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("affected_tests_for_b1425", ROOT / "scripts" / "affected_tests.py")
++    a = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(a)
++    me = "tests/test_b1425_determinism.py"
++    assert me in a.ALWAYS_WITH_THE_CORPUS and me in a._corpus_scanners()
++    for changed in ("docs/RETRACTIONS.md", "CHANGELOG.md", "frontier/B1425_the_flaky_lock_and_the_hollow_green/FINDINGS.md"):
++        sel, full = a.select([changed])
++        assert me in sel and not full, changed
++    for changed in ("papers/P3_THE_PAPER/main.tex", "scripts/checks/paper_provenance.py"):
++        sel, full = a.select([changed])
++        assert full == [changed], changed                                  # the full suite, which holds this file
++    assert a.ALWAYS_WITH_THE_CORPUS == {"tests/test_repo_gates.py", me}
++
++
+ def test_the_manifest_records_the_historys_length():
+     """a reader on a truncated clone must be able to find that out from the package itself.
+ 
+-- 
+2.43.0
+

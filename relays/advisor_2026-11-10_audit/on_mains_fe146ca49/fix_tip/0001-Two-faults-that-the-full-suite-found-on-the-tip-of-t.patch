@@ -1,0 +1,68 @@
+From dde3add58e4c9a3960f1cac3657483495af261f2 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:03:32 +0000
+Subject: [PATCH] Two faults that the full suite found on the tip of this
+ seat's deliveries since main's 0e637ea9e (cld-advisor; after C11)
+
+The full suite on a fresh clone of C15's tip: 6 failed, 8,677 passed, 74 skipped. Four of the six are known:
+three ask that every gate pass, and the count of landings is past 40; one (B1426's) fails in a fresh clone at
+main's head, by main's word. Two were new, and this patch mends both.
+
+ONE. B1862's tripwire for old corrected forms read the rows of B1905, six readers' rows each quoting a verdict
+line as it stood at a15516d43, and found an old form (E3) in them. It fails at main's head too, on main's own
+hand-over copy of the same file; card C13 added the arc's copy. The rows are a reader's report by their kind, and
+the tripwire already leaves readers' reports unread. The arc's copy is added to its list of what is not read,
+under a dated note (main's hand-over copy left the tree with C13's first patch, built again on main's 204ee91ed).
+
+TWO. The ledger of walls' test that its generator leaves no compiled file beside B1905's script looked for the
+folder of compiled files at all. pytest writes that folder for the arc's lock, which stands in the same place,
+so in a run of the suite it was there. The test now looks for a compiled copy of B1905's script, which is what
+the generator must not leave; the line as it stood is kept in a dated note.
+
+THIS SEAT'S OWN FAULTS: both new failures came with card C13 (its first two patches), and the runs at its
+sending chose its test files by what they read, and not the whole suite. They are mended here, at the end of the
+chain, and not by sending C13 again.
+
+The two tests, with the arc's lock: 31 passed (and the ledger's test with pytest's caches on: 6 passed).
+---
+ .../test_b1862_the_audits_first_corrections.py             | 7 ++++++-
+ tests/test_ledger_of_walls.py                              | 7 ++++++-
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+
+diff --git a/frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py b/frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py
+index c8b972d57..707cfb886 100644
+--- a/frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py
++++ b/frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py
+@@ -260,7 +260,12 @@ NOT_READ = ("PROGRESS_LOG.md",        # the log is append-only: what it said on
+             # lock stays unread, because the lock plants the old forms to show that it sees them.
+             "frontier/B1862_the_audits_first_corrections/verification/",
+             "frontier/B1892_review_79_read_by_those_who_did_not_build_it/", "frontier/B1894_",      # the review's arcs quote what the readers found
+-            "/verification/readers/")                            # a reader's report quotes what it found
++            "/verification/readers/",                            # a reader's report quotes what it found
++            # ADDED 2026-11-13 (the building session; the full suite on the tip of its deliveries since main's 0e637ea9e, where
++            # this test failed, and fails at main's head too): the rows of B1905 are six readers' rows, one an arc, each with a
++            # quotation of a verdict line as it stood at a15516d43, checked by machine at that commit.  They quote the old forms
++            # as the readers found them, as a reader's report does (main's hand-over copy left the tree with B1905, C13's first patch).
++            "frontier/B1905_selection_and_chirality_across_the_record/verification/rows.json.txt")
+ HELD_BY_ITS_OWN_LOCK = {("papers/structure_paper/SKELETON.md", "E5")}      # the sentence is true there and held to the computation
+ # this arc's page quotes two old forms in blocks that do not hold their correction (its table of what the audit found): as
+ # found on 2026-11-12, by count, for each finding.  One more of either, or one of any other finding, is reported.
+diff --git a/tests/test_ledger_of_walls.py b/tests/test_ledger_of_walls.py
+index c2a087c85..34431a02c 100644
+--- a/tests/test_ledger_of_walls.py
++++ b/tests/test_ledger_of_walls.py
+@@ -106,5 +106,10 @@ def test_a_row_added_a_class_changed_and_a_word_of_the_outcome_changed_each_move
+ 
+ 
+ def test_the_generator_leaves_nothing_beside_b1905s_script():
++    # CHANGED 2026-11-13 (the full suite on the tip): the line read
++    #     assert not (ARC / "verification" / "__pycache__").exists()
++    # and pytest itself writes that folder for the arc's lock, which stands in the same folder.  What the generator must not
++    # leave is a compiled copy of B1905's script; that is what is looked for.
+     G._walls_source()
+-    assert not (ARC / "verification" / "__pycache__").exists()
++    cache = ARC / "verification" / "__pycache__"
++    assert not (cache.exists() and any(f.name.startswith("sweep_tables") for f in cache.iterdir()))
+-- 
+2.43.0
+

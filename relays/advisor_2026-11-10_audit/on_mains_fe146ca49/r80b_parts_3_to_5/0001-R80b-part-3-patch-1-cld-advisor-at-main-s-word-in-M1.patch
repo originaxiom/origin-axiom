@@ -1,0 +1,44 @@
+From e514a0e92f5d1c3fb8a0f9d783bcac19f57191fb Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 07:56:48 +0000
+Subject: [PATCH] R80b, part 3, patch 1 (cld-advisor, at main's word in M14;
+ Review 80, the web seat's finding 8, WHICH MAIN HAS NOT CHECKED: it was made
+ again before it was mended): THE CLOSING PARAGRAPH OF B732 CARRIES THE
+ CORRECTION OF THE LEVEL.
+
+THE FINDING, MADE AGAIN on the page. Its closing paragraph gives the knot's congruence level as (2)^3=(8) with no correction beside it. The correction of 2026-11-11, that the level is (4), stands under "Honest bounds", beside the page's other note of that level, and was not placed here.
+
+A dated note under the closing paragraph says so and points at the correction. The sentence stays as it was written. No statement of the mathematics is added: the note says what the page's own correction says. The reviewer's page is made again. The tests of B734 and B942, which read this page, pass. 0 of 19.
+---
+ docs/views/REVIEWER.md                          | 2 +-
+ frontier/B732_conjugation_is_out_A5/FINDINGS.md | 4 ++++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index f29047dbc..7e08690b5 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1624** |
+-| words of findings prose | **1,449,396** |
++| words of findings prose | **1,449,460** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1624** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/frontier/B732_conjugation_is_out_A5/FINDINGS.md b/frontier/B732_conjugation_is_out_A5/FINDINGS.md
+index 05c684609..cbc0a8b15 100644
+--- a/frontier/B732_conjugation_is_out_A5/FINDINGS.md
++++ b/frontier/B732_conjugation_is_out_A5/FINDINGS.md
+@@ -40,3 +40,7 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
+ Two-seat: cc2 proposed the door (next-stage 2, on m003); cc computed + verified. Credit cc2. The
+ object-level observer thread (as corrected by B734): m004 the knot IS congruence at level (2)^3=(8); the
+ sister m003 does (A₅ at level 2), and the observer's swap is Out(A₅) there (B732). Nothing to CLAIMS.
++[CORRECTED 2026-11-12 (Review 80; a reader's finding, not checked by main, made again on this page): the sentence
++above gives the knot's congruence level as (2)^3=(8) with no correction beside it. The congruence level is (4): the
++correction of 2026-11-11 stands under "Honest bounds", beside this page's other note of that level, and was not
++placed here. The sentence stays as it was written.]
+-- 
+2.43.0
+

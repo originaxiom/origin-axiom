@@ -1,0 +1,109 @@
+From 4dfeb3012cee6d6f0641ae73013902872d2c706b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:01:50 +0000
+Subject: [PATCH] R80b, part 6, patch 25 (cld-advisor, at main's word in M16;
+ main's third folder, section 4, finding 7): B1030'S SCRIPT CARRIES THE
+ CORRECTION OF THE ZERO BESIDE ITS OWN STATEMENT, AND THE ARC'S TEST HOLDS IT
+
+A reader's supplement on the arcs main changed at Review 80 (agy-002's), its seventh finding, not checked by
+main. Main's correction of 2026-11-11 (the freedom ledger's zero is not a computed quantity) stands on this
+arc's page and in its verdict file. The arc's script says in a docstring that the ledger's verdict, a
+retroactive freedom of 0.000, is untouched, with no mark; and the arc's own test held nothing of the
+correction. (The lock of B1028 holds it on the page and in the verdict file.)
+
+A dated note stands above the function whose docstring says it, in main's own words from the page. The
+docstring is kept as it was written and what the function computes is not changed.
+
+The arc's test gains one test under a dated note; none of main's is changed. It holds the correction in the
+arc's three files, and in the script it holds it beside the statement: between the last blank line and the
+statement. Planted: the script as it stood; the note moved to the head of the file; the correction taken
+out of the page; main's sentence on B1028's verdict taken out of the verdict line; and a twin, a script
+that no longer makes the statement.
+
+MEASURED AND NOT MENDED: one more script under the arcs states the zero with no correction, the walk of
+B1028 itself. It is the script that the correction is about, and whether it carries a note is main's.
+
+The arc's test passes: 6 tests before, 7 with this one. Not checked by main. Tested against planted errors
+by the session that wrote it.
+---
+ .../b1030_verify.py                           |  6 +++
+ tests/test_b1030_price_lock.py                | 49 +++++++++++++++++++
+ 2 files changed, 55 insertions(+)
+
+diff --git a/frontier/B1030_price_lock_verification/b1030_verify.py b/frontier/B1030_price_lock_verification/b1030_verify.py
+index 5b52e2ade..0facaab16 100644
+--- a/frontier/B1030_price_lock_verification/b1030_verify.py
++++ b/frontier/B1030_price_lock_verification/b1030_verify.py
+@@ -64,6 +64,12 @@ def v3_item1_defect():
+     return {"in-place divisibility unfailable at length-weight 1": unfailable}
+ 
+ 
++# [NOTE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 7; not checked by main): the
++# docstring below says that the ledger's verdict, a retroactive freedom of 0.000, is untouched.  Main's correction of 2026-11-11
++# (the audit's finding E7), as it stands on this arc's page and in its verdict file: the freedom ledger's zero is not a
++# computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited
++# arc's claim line.  B1028's verdict is OPEN.  The docstring is kept as it was written, and what the function computes is
++# not changed.]
+ def v4_adoption_arithmetic():
+     """The adoption, priced before anyone asks: with the trit adopted the discrete
+     input bits become 3 + log2(3) = 4.585 -- EXACTLY B1028's conservative output
+diff --git a/tests/test_b1030_price_lock.py b/tests/test_b1030_price_lock.py
+index 01024e100..458a10ee8 100644
+--- a/tests/test_b1030_price_lock.py
++++ b/tests/test_b1030_price_lock.py
+@@ -73,3 +73,52 @@ def test_unit_obstruction_kappa_minus_two():
+     assert sp.simplify(sp.Abs(kappa - 2) - 1) == 0
+     assert sp.simplify(kappa - 2 - omega ** 2) == 0
+     assert sp.simplify(sp.arg(kappa) + sp.pi / 6) == 0   # arg kappa = -pi/6 (the matter face)
++
++
++# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 7; not checked by main).
++# Main's correction of 2026-11-11 stands on this arc's page and in its verdict file, and the lock of B1028 holds it there.
++# The arc's script says the same thing in a docstring, with no mark; and this test file held nothing of the correction.
++# Nothing above this line is changed.
++THE_CORRECTION = "the freedom ledger's zero is not a computed quantity"
++WHAT_THE_SCRIPT_SAYS = "verdict (retroactive freedom 0.000) is untouched"
++
++
++def _where_the_correction_is_missing(page, verdict_file, script):
++    """the names of the three files of this arc in which the correction does not stand where the old statement does"""
++    bad = []
++    if THE_CORRECTION not in page:
++        bad.append("the page")
++    v = json.loads(verdict_file)
++    if THE_CORRECTION not in v["claim_one_line"] or "B1028's verdict is OPEN" not in v["claim_one_line"]:
++        bad.append("the verdict file")
++    flat = lambda s: " ".join(s.replace("#", " ").split())
++    if WHAT_THE_SCRIPT_SAYS in script:
++        head = script[:script.index(WHAT_THE_SCRIPT_SAYS)]
++        note = head[head.rindex("\n\n") if "\n\n" in head else 0:]             # what stands between the last blank line and the statement
++        if THE_CORRECTION not in flat(note) or "B1028's verdict is OPEN" not in flat(note):
++            bad.append("the script")
++    return bad
++
++
++def test_the_correction_of_the_zero_stands_in_the_arcs_three_files():
++    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
++    verdict = (ARC / "arc_verdict.json").read_text(encoding="utf-8")
++    script = (ARC / "b1030_verify.py").read_text(encoding="utf-8")
++    assert script.count(WHAT_THE_SCRIPT_SAYS) == 1                              # the docstring is kept as it was written, and the note does not repeat it
++    assert _where_the_correction_is_missing(page, verdict, script) == []
++    # the script as it stood: the note taken out
++    i, j = script.index("# [NOTE 2026-11-12"), script.index("def v4_adoption_arithmetic():")
++    as_it_stood = script[:i] + script[j:]
++    assert WHAT_THE_SCRIPT_SAYS in as_it_stood and _where_the_correction_is_missing(page, verdict, as_it_stood) == ["the script"]
++    # the note moved to the head of the file, away from the statement, is not beside it
++    moved = script[i:j] + "\n\n" + as_it_stood
++    assert _where_the_correction_is_missing(page, verdict, moved) == ["the script"]
++    # the page and the verdict file with the correction taken out
++    assert _where_the_correction_is_missing(page.replace(THE_CORRECTION, ""), verdict, script) == ["the page"]
++    v = json.loads(verdict)
++    v["claim_one_line"] = v["claim_one_line"].replace("B1028's verdict is OPEN", "")
++    assert _where_the_correction_is_missing(page, json.dumps(v), script) == ["the verdict file"]
++    # the twin: a script that no longer makes the statement needs no note
++    assert _where_the_correction_is_missing(page, verdict, as_it_stood.replace(WHAT_THE_SCRIPT_SAYS, "")) == []
++    # what the function computes is what it computed
++    assert all(_cells().v4_adoption_arithmetic().values())
+-- 
+2.43.0
+

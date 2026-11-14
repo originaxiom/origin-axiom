@@ -1,0 +1,50 @@
+C18 (cld-advisor, at main's word in M26 to M29, M32 and M34): THE RECORD'S HISTORICAL FOLDERS MOVE UNDER docs/archive/, TEN COPIES OF NOTES BETWEEN SESSIONS LEAVE THE TREE, AND THE FOUNDATION'S PATHS CHANGE BY ITS VERSION 1.68 (B1930)
+
+BUILT ON MAIN'S fe146ca49 (2026-11-14), after the chain: the foundation's arc is B1930, the number main reserved for it (M34).
+
+The card is relays/cards/cld-advisor_C18_the-historical-folders-measured-and-one-archive-proposed.md; its measurement and
+proposal are in relays/advisor_2026-11-10_audit/c18/. Main approved the proposal as a whole in M28: philosophy/ moves in
+this patch with a version of the foundation written by its own script; outside_bench/ stays, its note between sessions
+leaves with the other nine, and its four checks migrate (none of the four reads the note, so none changes); built after
+Review 81's entry, tried with every gate and the full suite.
+
+THE MOVE, by scripts/reorganize/history_2026_11_13.py (with --check), the third entry of docs/REORGANIZATIONS.md:
+  - moved, each with its name: legacy/, story/, paths/, speculations/ and philosophy/, to docs/archive/<name>/ (179 files);
+  - removed: ten copies of notes between sessions, nine inside arcs' folders and one in outside_bench/; git's history
+    holds every moved and removed file at main's fe146ca49, which the entry names on its REMOVED lines, so the path
+    check resolves a dated citation of an old path there;
+  - in the 22 living pages the script names, 62 paths into the moved folders are written again (a folder's bare name
+    only in backticks); dated records, ledgers and the foundation's version log keep the old paths as written.
+
+THE FOUNDATION: B1930, version 1.68, written by its own script (verification/write_version_1_68.py, which holds no
+sentence of the foundation): the six paths of its sections 0 to 8 into the moved folders (four into philosophy/, where
+M28 counted three, one into paths/, one into speculations/) name their files under docs/archive/; no item is added and
+no status changes. Its lock takes the version back and gives the page again, and refuses a path left at its old place.
+
+READERS MIGRATED, each with a dated comment: the framing gate reads the moved folders under docs/ and leaves legacy out,
+as it did; the arrival gate leaves the moved folders out of its reach, as it did; the attribution gate's exemption and
+baseline follow their files, and the four ceilings that moved are named in its record of raised ceilings with why; the
+artifact-hash gates find a hashed name under a moved folder at its new place; the foundation's pointers name the new
+paths; the seal ledger's script and three tests leave docs/archive/legacy/ unread as they left legacy/; B1303's lock finds
+its note in git's history; one test's planted path under story/ moves with it.
+
+READERS THAT BUILD A PATH AT RUN TIME, found by the full suite on a fresh clone of this move as first built (the card's
+first risk: a text search for a folder's name followed by a slash does not see ROOT / "speculations" / ..., nor
+"$R/speculations/..."; a search for every quoted folder name and every such prefix found them all, eleven, each mended
+with a dated comment): B1176's lock and its runner, B1833's lock and its apply script, B755's lock, B754's two cells
+on the tombstones (TOMB-L57's output is unchanged; TOMB-L258's differs as it already did on main's head, its line
+numbers having drifted before the move), B1454's citation script (a path named at its old place is read where it
+stands now; its record of citations is written again, two rows naming the new paths), B1850's quote check (the same,
+and the quotes keep their paths as written), B1898's scan, which leaves docs/archive/legacy/ out as it left legacy/,
+B948's room test, which skipped a room that is not there without a word and now reads the three moved rooms at their
+new place, and the lock that holds the attribution baseline's raised ceilings, which now names the four that moved.
+
+THE LOCK: tests/test_the_historical_folders_moved.py: the tree as moved; a living page that names a moved file at its
+old place found, with its twin; a file back at its old place and a note back in the tree, each reported (the card's
+control).
+
+Run: every gate passes but the count of landings (past 40 on this chain); the move's lock, B1930's, the three versions'
+locks, the readers' tests and the gates' failing paths: in the note, with the full suite on a fresh clone.
+
+0 of 19.
+

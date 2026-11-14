@@ -1,0 +1,81 @@
+From 40aa5d651224454c86288e6184124623601295c5 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:00:30 +0000
+Subject: [PATCH] R80b, part 6, patch 9 (cld-advisor, at main's word in M16;
+ main's third folder, section 2, row A1): B1892'S PAGE AND VERDICT LINE GIVE
+ THE COUNT THAT ITS OWN TABLE GIVES
+
+A reader's check of main's answers at Review 80 (agy-002's; row A1, held by main: both sentences are on the
+page). The table of B1892's section 5 was corrected to sum to 53 for the first reader and 43 for the second.
+A note main added to the same page in the same commit says that the first reader has 52 findings.
+
+Counted here, by a function now in the arc's lock: 16 rows; 53 and 43; 9 found by both; 87 in all.
+
+The note's own conclusion rests on the 52: "each reading found half or more of what the two found
+together". With 52 the second reading found 43 of 86, which is half. With 53 it found 43 of 87, which is
+just under half. The verdict line says the same in its fourth correction.
+
+What is changed, with the old words kept:
+  - the page: a dated bracket after the one that says 52. It gives the table's sums, 87 in all, and says
+    that the first reading found more than half and the second just under half;
+  - the verdict line: a fifth correction after the fourth, in the same words. It names no session;
+  - the lock: the table is counted, and the page and the verdict line are held to the count. With one
+    number of one row changed the count changes.
+
+THIS REWORDS A CONCLUSION OF MAIN'S BY ONE FINDING, and it is main's to reword again: "half or more" holds
+for the first reading only. Nothing else of the page is touched. The two generated pages that carry the
+verdict line are made again.
+
+The arc's lock passes: 6 tests. Every gate passes but the count of landings.
+The row is held by main; the count is this lock's own.
+
+BUILT AGAIN ON MAIN'S 663a902ff (2026-11-13): main corrected B1892's page itself at Review 81 (the web seat's finding 4):
+its bracket gives 53, as the table sums, and says the conclusion holds. This patch now leaves the page and the verdict
+line as main wrote them, and brings only the lock: the table of section 5 counted (16 rows; 53, 43, 9 found by both; 87
+together), the count held to fail when one number changes, and main's bracket held after the one that said 52. SENT BACK
+TO MAIN: by the table, the second reading found 43 of the 87 that the two found together, which is under half, so "each
+reading found half or more" holds for the first reading and not for the second; main's bracket says the conclusion holds.
+---
+ .../verification/test_b1892_review_79.py      | 29 +++++++++++++++++++
+ 1 file changed, 29 insertions(+)
+
+diff --git a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
+index 3aff01da2..ca7c9ed1e 100644
+--- a/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
++++ b/frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/test_b1892_review_79.py
+@@ -91,3 +91,32 @@ def test_the_arc_says_what_it_did_not_do():
+         assert s in f, s
+     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+     assert v["id"] == "B1892" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
++
++
++def _what_two_readers_found(page):
++    """the table of section 5, counted: (rows, the first reader's findings, the second's, those found by both)"""
++    section = page[page.index("## 5. What two readers found in common"):]
++    section = section[:section.index("\n## ", 5)]
++    rows = [[c.strip() for c in l.strip().strip("|").split(" | ")] for l in section.split("\n") if l.startswith("| ") and not l.startswith("| what")]
++    rows = [r for r in rows if len(r) == 4]
++    leading = lambda cell: int(re.match(r"\d+", cell).group(0))
++    return (len(rows),) + tuple(sum(leading(r[k]) for r in rows) for k in (1, 2, 3))
++
++
++def test_the_table_of_what_two_readers_found_and_the_sentences_that_count_it():
++    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A1, held by main).  The table of section 5 was
++    corrected to sum to 53 and 43, and a note added to the page in the same commit said 52 for the first reader; nothing
++    counted the table.  It is counted here, and the page and the verdict line are held to the count."""
++    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
++    rows, first, second, both = _what_two_readers_found(page)
++    assert (rows, first, second, both) == (16, 53, 43, 9)
++    together = first + second - both
++    assert together == 87 and 2 * first > together and 2 * second < together       # by the table: the first reading more than half, the second just under
++    # Built again on main's 663a902ff (2026-11-13): main corrected the page itself at Review 81 (the web seat's finding 4):
++    # its bracket gives 53, as the table sums, and says the conclusion holds.  The page and the verdict line are main's and
++    # are not held here to this seat's sentences; that the second reading's 43 of 87 is under half is sent back to main.
++    assert "the first reader has 52 findings" in F and "53, as § 5's table sums after its own correction" in F
++    assert F.index("the first reader has 52 findings") < F.index("53, as § 5's table sums after its own correction")
++    # that the count can fail: one number of one row changed
++    changed = page.replace("| B1879 | 10 | 0 | 0 |", "| B1879 | 9 | 0 | 0 |")
++    assert changed != page and _what_two_readers_found(changed) == (16, 52, 43, 9)
+-- 
+2.43.0
+

@@ -1,0 +1,953 @@
+From f58df518d4c2aed2532f78cc37d1ee918ad18ec7 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:00:25 +0000
+Subject: [PATCH] R80b, part 6, patch 8 (cld-advisor, at main's word in M16;
+ main's third folder, section 6, item 4): IN A SCRIPT THAT PLANTS, A PLANT
+ THAT CHANGES NOTHING STOPS THE RUN; AND A CHECK NAMES A COMMIT
+
+Owed by main's word: in every script of main's that plants, a plant that changes nothing stops the run; and a
+check names a commit, never a branch. One of main's plants at Review 80 changed nothing, and the lock's
+passing was read as a finding.
+
+WHICH SCRIPTS. A search, kept in the arc B1898 with its output, finds the tracked scripts that say they
+plant, change a text and run something on it: 26, most of which only use the word. Nine plant against a lock
+or a gate, and are mended:
+  - B1895's runner of its eighteen plants against B1881's lock, and B1897's, which uses it: the scratch copy
+    is read whole before a plant and after it, by the bytes of its files, and a plant that leaves the copy
+    as it was ends the run. The control plants nothing, and must change nothing;
+  - the four runners of main's unseen cases for the enforcement series (B1893's two, B1896's two): a case is
+    committed in a scratch checkout, and where it had changed nothing there was nothing to commit; the
+    gates were then run on the tree as it stood and the case written down as not caught. The run ends
+    there now. In the two of B1896 a plant that could not be made ends the run as well;
+  - main's two scripts of plants of Review 80, as mended copies in B1898 beside the files main wrote (which
+    are not changed): the plants for agy-002's rows, and the five against B1881's lock.
+A tenth, main's own corrected plant at the landing, stops already.
+
+A CHECK NAMES A COMMIT: main's check of agy-002's quotations named the reader's branch, which has moved. Its
+mended copy names the commit main read. The builder did not run it: it reads a file that is read through a
+mask.
+
+WHAT THE RUNS SHOWED. Every plant of B1895 (18), of B1897 (6) and of main's five changes its copy. B1895's
+run: 18 of 18 caught, as its kept file. B1897's: 24 of 24, as its kept file in which plants are caught; 14
+are caught by more tests than on its day, as part 2's note said. Main's five: none passes, as in part 2. No
+kept case of the four runners was uncommitted (13, 3, 5 and 22).
+Main's plants for agy-002's rows, each now made, in a scratch checkout: 19 of 21 answers are the ones main
+kept. Two differ, and they are the two plants that had changed nothing:
+  - on B1885's verdict line: main kept "passes"; made as main made it properly at the landing, the lock
+    FAILS. Main knows this one;
+  - "'still passes' turned into 'IS REFUSED' on the page" of B1893: main kept "PLANT NOT MADE". The page
+    does not hold those words, and did not at the commit the review read. Made on the words the page has
+    ("still pass"), which is the builder's reading of the plant's name, THE LOCK OF B1893 PASSES. That is a
+    change the lock does not hold. It is the matter of main's row A6, which is still to build.
+
+A test in B1895's lock holds the guard: the control, a plant whose pattern matches nothing, a file written
+back as it was, a control that changes something, and each of the eighteen plants. B1898's lock holds the
+mended copies and their kept runs. The four runners of the unseen cases were not run again: each case
+runs every gate.
+
+Every gate passes but the count of landings. Not checked by main.
+---
+ .../verification/rerun_u19.py                 |   7 +
+ .../verification/run_unseen_s2.py             |   7 +
+ .../verification/planted_reversions.py        |  24 ++-
+ .../test_b1895_the_mends_of_b1881_read.py     |  37 +++++
+ .../verification/after_reading_s3.py          |  12 +-
+ .../verification/run_unseen_s3.py             |  12 +-
+ .../verification/planted_a_second_time.py     |   5 +-
+ .../verification/mended_in_r80b/README.md     |  17 +-
+ .../mended_in_r80b/plants_agy002.json         | 128 ++++++++++++++
+ .../mended_in_r80b/plants_agy002.py           | 157 ++++++++++++++++++
+ .../mended_in_r80b/plants_agy002_out.txt      |  21 +++
+ .../mended_in_r80b/plants_b1881_third.json    |  62 +++++++
+ .../mended_in_r80b/plants_b1881_third.py      |  67 ++++++++
+ .../mended_in_r80b/plants_b1881_third_out.txt |   8 +
+ .../mended_in_r80b/quote_check_agy002.py      |  56 +++++++
+ .../mended_in_r80b/the_scripts_that_plant.py  |  35 ++++
+ .../the_scripts_that_plant_out.txt            |  27 +++
+ .../verification/test_b1898_review_80.py      |  20 ++-
+ 18 files changed, 695 insertions(+), 7 deletions(-)
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002_out.txt
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.json
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third_out.txt
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/quote_check_agy002.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
+ create mode 100644 frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant_out.txt
+
+diff --git a/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py b/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py
+index d5d6ab64a..2aafe6faf 100644
+--- a/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py
++++ b/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py
+@@ -20,6 +20,13 @@ for name in ("U19.a", "U19.b"):
+     reset()
+     note = ns["u19a" if name.endswith("a") else "u19b"]() or ""
+     git("add", "-A"); c = git("commit", "-q", "-m", "planted case " + name)
++    # ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
++    # CHANGES NOTHING STOPS THE RUN.  A case is committed in the scratch checkout.  Where the case had changed nothing there was
++    # nothing to commit: the gates were then run on the tree as it stood, and the case was written down with "committed": false
++    # and "not caught".  No case of the kept output is so; the run now ends there, with a sentence.
++    if c.returncode != 0:
++        reset()
++        raise SystemExit("STOPPED at %s: the planted case changed nothing in the checkout, and no commit was made. Gates that pass on it show nothing: mend the case" % name)
+     res = gates(); new = sorted(k for k, v in res.items() if v[0] == "FAIL" and k not in base_fail)
+     OUT[name] = {"note": note, "committed": c.returncode == 0, "gates newly failing": {k: res[k][1][:400] for k in new}, "attribution": list(res.get("attribution", ("?", "?"))), "CAUGHT": "attribution" in new}
+     print("%-6s committed=%s caught=%s newly failing: %s | attribution: %s %s" % (name, c.returncode == 0, "attribution" in new, new, res.get("attribution", ("?",))[0], res.get("attribution", ("", ""))[1][:300]), flush=True)
+diff --git a/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py b/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py
+index 931df4287..e43c95912 100644
+--- a/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py
++++ b/frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py
+@@ -106,6 +106,13 @@ for name, plant, must in CASES:
+     reset()
+     note = plant() or ""
+     git("add", "-A"); c = git("commit", "-q", "-m", "planted case " + name)
++    # ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
++    # CHANGES NOTHING STOPS THE RUN.  A case is committed in the scratch checkout.  Where the case had changed nothing there was
++    # nothing to commit: the gates were then run on the tree as it stood, and the case was written down with "committed": false
++    # and "not caught".  No case of the kept output is so; the run now ends there, with a sentence.
++    if c.returncode != 0:
++        reset()
++        raise SystemExit("STOPPED at %s: the planted case changed nothing in the checkout, and no commit was made. Gates that pass on it show nothing: mend the case" % name)
+     res = gates()
+     new = sorted(k for k, v in res.items() if v[0] == "FAIL" and k not in base_fail)
+     caught = bool(new) if must is None else all(m in new for m in must)
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py
+index d36b65599..c7d898b0b 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py
+@@ -35,6 +35,28 @@ def sub(path, old, new, count=1):
+     assert t.count(old) >= 1, (path.name, old[:60])
+     path.write_text(t.replace(old, new) if count is None else t.replace(old, new, count), encoding="utf-8")
+ 
++# ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
++# CHANGES NOTHING STOPS THE RUN.  One of main's own plants at Review 80, against another lock, changed nothing, and the lock's
++# passing was read as a finding.  Most plants here assert that the text they replace is there; that is asked of each plant,
++# and nothing asked it of the run.  The copy is now read whole before a plant and after it, by the bytes of its files, and a
++# plant that leaves the copy as it was ends the run with a sentence.  The control plants nothing, and must change nothing.
++def state():
++    """every file of the scratch copy, by the sha256 of its bytes"""
++    import hashlib
++    return {str(p.relative_to(WORK)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(WORK.rglob("*")) if p.is_file()}
++
++
++def made(name, fn, arc):
++    """make one plant in the copy; stop the run where it changed nothing (or where the control changed something)"""
++    before = state()
++    fn(arc)
++    changed = state() != before
++    if fn is p_nothing and changed:
++        raise SystemExit("STOPPED: the control %r plants nothing, and the copy is not as it was" % name)
++    if fn is not p_nothing and not changed:
++        raise SystemExit("STOPPED: the plant %r changed nothing in the copy. A lock that passes on it shows nothing: mend the plant" % name)
++
++
+ def run(arc):
+     r = subprocess.run([sys.executable, "-B", "-m", "pytest", "-q", "-p", "no:cacheprovider", str(arc / "verification")], capture_output=True, text=True)
+     failed = sorted(set(re.findall(r"FAILED \S+::(\w+)", r.stdout)))
+@@ -110,7 +132,7 @@ PLANTS = [("control: nothing planted", p_nothing), ("the single runs' check pass
+ if __name__ == "__main__":
+     out = []
+     for name, fn in PLANTS:
+-        arc = fresh(); fn(arc)
++        arc = fresh(); made(name, fn, arc)            # until 2026-11-12: arc = fresh(); fn(arc)
+         failed, last = run(arc)
+         out.append({"plant": name, "tests failing": failed})
+         print("%-92s %s  %s" % (name, "CAUGHT" if failed else "passes", ", ".join(x[5:] for x in failed)))
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+index a2fb031d4..2e2485d79 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+@@ -325,3 +325,40 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
+     assert any(c.startswith("agy-002: ") for c in v["cites_seat"]) and "**The verdict line does not name the reader.**" in PAGE
+     led = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
+     assert "c67f84c1" in led and "B1895" in led
++
++
++def test_a_plant_that_changes_nothing_stops_the_run():
++    """ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  One of
++    main's plants at Review 80, against another lock, changed nothing, and that lock's passing was read as a finding.  The
++    runner of this arc's plants, which the arc B1897 and main's plants of Review 80 also use, reads its scratch copy before
++    a plant and after it, and ends the run where the copy is as it was."""
++    import importlib.util, shutil
++    import pytest
++    spec = importlib.util.spec_from_file_location("planted_reversions_for_its_guard", HERE / "planted_reversions.py")
++    m = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(m)
++    try:
++        arc = m.fresh()
++        m.made("the control", m.p_nothing, arc)                                   # plants nothing, changes nothing: passes
++        with pytest.raises(SystemExit) as stopped:
++            m.made("a plant whose pattern matches nothing", lambda a: None, arc)
++        assert "changed nothing in the copy" in str(stopped.value)
++        with pytest.raises(SystemExit):                                           # a file written back as it was is no plant either
++            m.made("a file written back as it was", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8"), encoding="utf-8"), arc)
++        m.made("a plant that adds one character", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8") + "x", encoding="utf-8"), arc)
++        def a_control_that_changes(a):
++            (a / "a_new_file.txt").write_text("x", encoding="utf-8")
++        keep = m.p_nothing
++        m.p_nothing = a_control_that_changes
++        try:
++            with pytest.raises(SystemExit) as stopped:
++                m.made("the control", m.p_nothing, m.fresh())
++            assert "plants nothing, and the copy is not as it was" in str(stopped.value)
++        finally:
++            m.p_nothing = keep
++        # each of the arc's eighteen plants changes its copy (no lock is run here: the copy is read, and that is all)
++        for name, fn in m.PLANTS[1:]:
++            m.made(name, fn, m.fresh())
++        assert len(m.PLANTS) == 19
++    finally:
++        shutil.rmtree(m.WORK.parent, ignore_errors=True)
+diff --git a/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py b/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py
+index ad04546d0..24d4a1738 100644
+--- a/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py
++++ b/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py
+@@ -145,8 +145,18 @@ for name, plant, must in CASES:
+         note = plant() or ""
+     except Exception as ex:
+         OUT[name] = {"note": "THE PLANT COULD NOT BE MADE: %r" % (ex,), "committed": False, "CAUGHT": None}
+-        print(name, "PLANT FAILED", repr(ex)[:200], flush=True); continue
++        # (2026-11-12: the line below ended in `continue`, and the run went on to the next case.  It stops the run, as below.)
++        print(name, "PLANT FAILED", repr(ex)[:200], flush=True)
++        reset()
++        raise SystemExit("STOPPED at %s: the plant could not be made (%r). Mend the case" % (name, ex))
+     git("add", "-A"); c = git("commit", "-q", "-m", "planted case " + name)
++    # ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
++    # CHANGES NOTHING STOPS THE RUN.  A case is committed in the scratch checkout.  Where the case had changed nothing there was
++    # nothing to commit: the gates were then run on the tree as it stood, and the case was written down with "committed": false
++    # and "not caught".  No case of the kept output is so; the run now ends there, with a sentence.
++    if c.returncode != 0:
++        reset()
++        raise SystemExit("STOPPED at %s: the planted case changed nothing in the checkout, and no commit was made. Gates that pass on it show nothing: mend the case" % name)
+     res = gates()
+     new = sorted(k for k, v in res.items() if v[0] == "FAIL" and k not in base_fail)
+     OUT[name] = {"note": note, "committed": c.returncode == 0, "named gate": must, "gates newly failing": {k: res[k][1][:300] for k in new},
+diff --git a/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py b/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py
+index 25d38e08e..566bda120 100644
+--- a/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py
++++ b/frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py
+@@ -156,8 +156,18 @@ for name, plant, must in CASES:
+         note = plant() or ""
+     except Exception as ex:
+         OUT[name] = {"note": "THE PLANT COULD NOT BE MADE: %r" % (ex,), "committed": False, "CAUGHT": None}
+-        print(name, "PLANT FAILED", repr(ex)[:200], flush=True); continue
++        # (2026-11-12: the line below ended in `continue`, and the run went on to the next case.  It stops the run, as below.)
++        print(name, "PLANT FAILED", repr(ex)[:200], flush=True)
++        reset()
++        raise SystemExit("STOPPED at %s: the plant could not be made (%r). Mend the case" % (name, ex))
+     git("add", "-A"); c = git("commit", "-q", "-m", "planted case " + name)
++    # ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
++    # CHANGES NOTHING STOPS THE RUN.  A case is committed in the scratch checkout.  Where the case had changed nothing there was
++    # nothing to commit: the gates were then run on the tree as it stood, and the case was written down with "committed": false
++    # and "not caught".  No case of the kept output is so; the run now ends there, with a sentence.
++    if c.returncode != 0:
++        reset()
++        raise SystemExit("STOPPED at %s: the planted case changed nothing in the checkout, and no commit was made. Gates that pass on it show nothing: mend the case" % name)
+     res = gates()
+     new = sorted(k for k, v in res.items() if v[0] == "FAIL" and k not in base_fail)
+     OUT[name] = {"note": note, "committed": c.returncode == 0, "named gate": must, "gates newly failing": {k: masked(res[k][1][:300]) for k in new},
+diff --git a/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/planted_a_second_time.py b/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/planted_a_second_time.py
+index 8d0d6947b..d030eee5e 100644
+--- a/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/planted_a_second_time.py
++++ b/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/planted_a_second_time.py
+@@ -87,7 +87,10 @@ if __name__ == "__main__":
+     out = []
+     for name, fn in plants:
+         arc = m.fresh()
+-        fn(arc)
++        # CHANGED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  It read
++        #     fn(arc)
++        # A plant that changes nothing in the copy now stops the run: B1895's runner reads the copy before and after.
++        m.made(name, fn, arc)
+         failed, last = m.run(arc)
+         out.append({"plant": name, "tests failing": failed})
+         print("%-112s %s  %s" % (name, "CAUGHT" if failed else "passes", ", ".join(x[5:60] for x in failed)))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
+index c5a10fb0c..3cc32b76e 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/README.md
+@@ -1,4 +1,4 @@
+-# Three probes of main's, mended in R80b
++# Scripts of main's, mended in R80b
+ 
+ Sent back by the builder with R80a (its note, § 4, items 2 to 4); main's faults by its word (its M16 to the builder).
+ Main's own files stand as main wrote them in `../checks/`, held there by their hashes. What is here is beside them,
+@@ -13,7 +13,20 @@ as main's own corrected plant is in `../main_at_the_landing/`.
+ | `builder_rows_probe2.py` | main's second probe, **written again by the builder** from the fourteen lines of the output main kept; main's script is not in its folder |
+ | `builder_rows_probe2.json`, `builder_rows_probe2_out.txt` | its run: rows 46 to 53, 14 cases, each with the answer main kept |
+ 
+-**The two mended scripts are main's but for their marked blocks.** Each block gives the lines main wrote after `#| `;
++Added with the next patch, for what main's third folder owes in its § 6, item 4: in every script of main's that
++plants, a plant that changes nothing stops the run; and a check names a commit, never a branch.
++
++| file | what it is |
++|---|---|
++| `plants_agy002.py` | main's plants for agy-002's rows, mended in five places: a plant made through the verdict file is refused where it leaves the file as it was; a plant that could not be made stops the run, where it was written down and passed over; after every plant the checkout is asked what changed; and the two plants that changed nothing are made (B1885's as main made it properly at the landing; B1893's on the words the page has, which is the builder's reading of the plant's name) |
++| `plants_agy002.json`, `plants_agy002_out.txt` | its run, in a scratch checkout |
++| `plants_b1881_third.py` | main's five plants against B1881's lock, mended in two places: where the repository's root is; and each plant is made through the guard of B1895's runner |
++| `plants_b1881_third.json`, `plants_b1881_third_out.txt` | its run |
++| `quote_check_agy002.py` | main's check of agy-002's quotations, mended in one line: it reads the reader's file at the commit main read, where it named the reader's branch. **Not run by the builder:** it reads a file that is read through a mask. The arc's lock runs main's own, at the commit |
++
++| `the_scripts_that_plant.py`, `the_scripts_that_plant_out.txt` | the search behind "every script of main's that plants": the tracked scripts that say they plant, change a text and run something on it. It finds 26, most of which only use the word. Nine plant against a lock or a gate and are mended: the two above; the runners of B1895 and B1897, in their arcs; the four runners of main's unseen cases for the enforcement series, in B1893 and B1896. A tenth, main's own corrected plant in `../main_at_the_landing/`, stops already. The script's docstring says what the search can miss |
++
++**The mended scripts are main's but for their marked blocks.** Each block gives the lines main wrote after `#| `;
+ with the blocks put back and the note taken out, the file is main's byte for byte. The arc's lock holds that.
+ 
+ **The runs kept here are of 2026-11-12, on main's `a15516d43` with R80b's parts 2 to 5 and the first five patches of
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.json
+new file mode 100644
+index 000000000..8863fb958
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.json
+@@ -0,0 +1,128 @@
++[
++ {
++  "arc": "B1893",
++  "plant": "nothing planted",
++  "the lock": "passes",
++  "tail": "7 passed"
++ },
++ {
++  "arc": "B1893",
++  "plant": "the verdict changed from PROVED to NEGATIVE",
++  "the lock": "FAILS",
++  "tail": "1 failed, 6 passed"
++ },
++ {
++  "arc": "B1893",
++  "plant": "the verdict line made to open with ZERO CAUGHT",
++  "the lock": "FAILS",
++  "tail": "1 failed, 6 passed"
++ },
++ {
++  "arc": "B1893",
++  "plant": "the rows of the cases U10 to U19 deleted from the page",
++  "the lock": "FAILS",
++  "tail": "1 failed, 2 passed"
++ },
++ {
++  "arc": "B1893",
++  "plant": "'still passes' turned into 'IS REFUSED' on the page",
++  "the lock": "passes",
++  "tail": "7 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "nothing planted",
++  "the lock": "passes",
++  "tail": "8 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "'Five are not caught' turned into 'None is not caught' on the page",
++  "the lock": "FAILS",
++  "tail": "1 failed, 7 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "every '17' on the page's first forty lines turned into '22'",
++  "the lock": "FAILS",
++  "tail": "1 failed, 1 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "the runner of the sealed cases deleted",
++  "the lock": "FAILS",
++  "tail": "1 failed, 7 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "the runner of the cases written after reading deleted",
++  "the lock": "FAILS",
++  "tail": "1 failed, 7 passed"
++ },
++ {
++  "arc": "B1896",
++  "plant": "the verdict line made to open with ALL TWENTY-TWO CAUGHT",
++  "the lock": "FAILS",
++  "tail": "1 failed, 7 passed"
++ },
++ {
++  "arc": "B1878",
++  "plant": "nothing planted",
++  "the lock": "passes",
++  "tail": "5 passed"
++ },
++ {
++  "arc": "B1878",
++  "plant": "the dated note of 2026-11-12 removed from the page",
++  "the lock": "FAILS",
++  "tail": "1 failed, 4 passed"
++ },
++ {
++  "arc": "B1878",
++  "plant": "the verdict file made invalid JSON",
++  "the lock": "FAILS",
++  "tail": "1 failed, 4 passed"
++ },
++ {
++  "arc": "B1885",
++  "plant": "nothing planted",
++  "the lock": "passes",
++  "tail": "8 passed"
++ },
++ {
++  "arc": "B1885",
++  "plant": "the verdict changed from PROVED to REFUTED",
++  "the lock": "FAILS",
++  "tail": "1 failed, 6 passed"
++ },
++ {
++  "arc": "B1885",
++  "plant": "the note on the grid's 18 digits taken out of the verdict line",
++  "the lock": "FAILS",
++  "tail": "1 failed, 6 passed"
++ },
++ {
++  "arc": "B1890",
++  "plant": "nothing planted",
++  "the lock": "passes",
++  "tail": "8 passed"
++ },
++ {
++  "arc": "B1890",
++  "plant": "the verdict file made invalid JSON",
++  "the lock": "FAILS",
++  "tail": "1 failed, 7 passed"
++ },
++ {
++  "arc": "B1890",
++  "plant": "the table of gates that read history shrunk to two names",
++  "the lock": "FAILS",
++  "tail": "1 failed, 5 passed"
++ },
++ {
++  "arc": "B1890",
++  "plant": "the refusal of an empty checkout switched off",
++  "the lock": "FAILS",
++  "tail": "1 failed, 6 passed"
++ }
++]
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py
+new file mode 100644
+index 000000000..6ff587613
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py
+@@ -0,0 +1,157 @@
++#!/usr/bin/env python3
++"""Review 80: main's own plants for the rows of agy-002's file that say a lock does not hold what its page says.
++
++Run INSIDE a scratch checkout of main (never in the working tree):
++
++    cd <scratch checkout> && python3 <this file> [name-prefix ...]
++
++Each plant changes one thing, runs the arc's lock, records whether the lock still passes, and puts the checkout back
++with git.  The first entry of each arc plants nothing and must pass.  A plant that "passes" is a change the lock does
++not hold.  Main wrote these from the reader's descriptions and ran none of its code."""
++# NOTE OF THE MEND, 2026-11-12 (R80b, part 6; owed by main's word in its third folder for the builder, section 6, item 4:
++# in every script of main's that plants, a plant that changes nothing stops the run; and a check names a commit, never a
++# branch).  Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in the marked
++# places: the lines main wrote stand after "#| ", the lines that replace them follow, to "# END OF THE MEND".  With each
++# marked block put back, and this note taken out, the file is main's, byte for byte: the arc's lock holds that.
++#   0. a plant made through verdict() was written back without asking whether it changed the file.  One did not: the
++#      plant on B1885's verdict line, whose pattern matched nothing (main's own finding at the landing of this arc).  The
++#      helper now refuses a plant that leaves the file as it was, as text() did already;
++#   1. a plant that could not be made was recorded as "PLANT NOT MADE" and the run went on to the next.  It stops the run;
++#   2. after every plant the checkout is asked what changed.  Where nothing did, the run stops: this holds for a plant made
++#      by any means, and not only through the two helpers;
++#   3. with these, the run stops at the plant on B1885's verdict line, whose pattern matches nothing.  So that the script can
++#      run to its end, that plant is made as main made it properly at the landing (../main_at_the_landing/): the note is
++#      taken out from its first words to the bracket that closes it;
++#   4. the same for the plant "'still passes' turned into 'IS REFUSED' on the page" of B1893.  The page does not hold the
++#      words "still passes", and did not at the commit the review read: main's kept output gives that plant as not made.
++#      It is made on the words the page has ("still pass", across a line break as well).  That is the builder's reading of
++#      the plant's name, and is said here.
++# END OF THE NOTE
++import json, pathlib, re, subprocess, sys, time
++
++ROOT = pathlib.Path.cwd()
++assert (ROOT / "scripts" / "gates" / "gates.py").is_file() and "wt_" in str(ROOT), "run in a scratch checkout"
++
++
++def arc(n):
++    return next(p for p in (ROOT / "frontier").iterdir() if p.name.startswith(n + "_"))
++
++
++def lock(n):
++    return sorted((arc(n) / "verification").glob("test_*.py"))[0]
++
++
++def run(n):
++    t = time.time()
++    r = subprocess.run([sys.executable, "-m", "pytest", "-q", "-p", "no:cacheprovider", "-x", str(lock(n))], capture_output=True, text=True, cwd=str(ROOT))
++    tail = (r.stdout.strip().split("\n") or [""])[-1]
++    return r.returncode == 0, tail[:90], time.time() - t
++
++
++def restore():
++    subprocess.run(["git", "checkout", "-q", "--", "."], cwd=str(ROOT), check=True)
++    subprocess.run(["git", "clean", "-q", "-fd", "frontier", "scripts", "docs"], cwd=str(ROOT), check=True)
++
++
++def verdict(n, fn):
++# MENDED (0).  Main wrote:
++#|     p = arc(n) / "arc_verdict.json"; v = json.loads(p.read_text(encoding="utf-8")); fn(v)
++#|     p.write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
++    p = arc(n) / "arc_verdict.json"; was = json.loads(p.read_text(encoding="utf-8")); v = json.loads(json.dumps(was)); fn(v)
++    assert v != was, "the plant changed nothing in %s" % p
++    p.write_text(json.dumps(v, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
++# END OF THE MEND
++
++
++def text(path, fn):
++    t = path.read_text(encoding="utf-8"); t2 = fn(t)
++    assert t2 != t, "the plant changed nothing in %s" % path
++    path.write_text(t2, encoding="utf-8")
++
++
++def setv(key, val):
++    def f(v): v[key] = val
++    return f
++
++
++# MENDED (2).  Main wrote:
++#| G = ROOT / "scripts" / "gates" / "gates.py"
++def _the_note_taken_out(c):
++    """main's own, from ../main_at_the_landing/the_plant_on_b1885_made_properly.py: the note, to the bracket that closes it"""
++    i = c.index(", and 18 for the grid"); j = c.index("[", i); depth = 0
++    for k in range(j, len(c)):
++        depth += (c[k] == "[") - (c[k] == "]")
++        if depth == 0: return c[:i] + c[k + 1:]
++    raise RuntimeError("the note's bracket does not close")
++
++
++G = ROOT / "scripts" / "gates" / "gates.py"
++# END OF THE MEND
++PLANTS = [
++    # --- B1893 (row 23)
++    ("B1893", "nothing planted", None),
++    ("B1893", "the verdict changed from PROVED to NEGATIVE", lambda: verdict("B1893", setv("verdict", "NEGATIVE"))),
++    ("B1893", "the verdict line made to open with ZERO CAUGHT", lambda: verdict("B1893", lambda v: v.__setitem__("claim_one_line", "ZERO CAUGHT. " + v["claim_one_line"]))),
++    ("B1893", "the rows of the cases U10 to U19 deleted from the page", lambda: text(arc("B1893") / "FINDINGS.md", lambda t: "\n".join(l for l in t.split("\n") if not re.match(r"\| U1\d", l)))),
++# MENDED (4).  Main wrote:
++#|     ("B1893", "'still passes' turned into 'IS REFUSED' on the page", lambda: text(arc("B1893") / "FINDINGS.md", lambda t: t.replace("still passes", "IS REFUSED"))),
++    ("B1893", "'still passes' turned into 'IS REFUSED' on the page", lambda: text(arc("B1893") / "FINDINGS.md", lambda t: re.sub(r"still(\s+)pass(es)?", r"IS\1REFUSED", t))),
++# END OF THE MEND
++    # --- B1896 (row 26)
++    ("B1896", "nothing planted", None),
++    ("B1896", "'Five are not caught' turned into 'None is not caught' on the page", lambda: text(arc("B1896") / "FINDINGS.md", lambda t: t.replace("Five are not caught", "None is not caught"))),
++    ("B1896", "every '17' on the page's first forty lines turned into '22'", lambda: text(arc("B1896") / "FINDINGS.md", lambda t: "\n".join([l.replace("17", "22") for l in t.split("\n")[:40]] + t.split("\n")[40:]))),
++    ("B1896", "the runner of the sealed cases deleted", lambda: (arc("B1896") / "verification" / "run_unseen_s3.py").unlink()),
++    ("B1896", "the runner of the cases written after reading deleted", lambda: (arc("B1896") / "verification" / "after_reading_s3.py").unlink()),
++    ("B1896", "the verdict line made to open with ALL TWENTY-TWO CAUGHT", lambda: verdict("B1896", lambda v: v.__setitem__("claim_one_line", "ALL TWENTY-TWO CAUGHT. " + v["claim_one_line"]))),
++    # --- B1878 (row 29)
++    ("B1878", "nothing planted", None),
++    ("B1878", "the dated note of 2026-11-12 removed from the page", lambda: text(arc("B1878") / "FINDINGS.md", lambda t: "\n".join(l for l in t.split("\n") if not (l.startswith(">") and ("NOTE 2026-11-12" in l or "planted cases against them" in l))))),
++    ("B1878", "the verdict file made invalid JSON", lambda: (arc("B1878") / "arc_verdict.json").write_text("{ this is not json\n", encoding="utf-8")),
++    # --- B1885 (row 31)
++    ("B1885", "nothing planted", None),
++    ("B1885", "the verdict changed from PROVED to REFUTED", lambda: verdict("B1885", setv("verdict", "REFUTED"))),
++# MENDED (3).  Main wrote:
++#|     ("B1885", "the note on the grid's 18 digits taken out of the verdict line", lambda: verdict("B1885", lambda v: v.__setitem__("claim_one_line", re.sub(r", and 18 for the grid and the two checks made on it \[[^\]]*\]", "", v["claim_one_line"])))),
++    ("B1885", "the note on the grid's 18 digits taken out of the verdict line", lambda: verdict("B1885", lambda v: v.__setitem__("claim_one_line", _the_note_taken_out(v["claim_one_line"])))),
++# END OF THE MEND
++    # --- B1890 (row 32)
++    ("B1890", "nothing planted", None),
++    ("B1890", "the verdict file made invalid JSON", lambda: (arc("B1890") / "arc_verdict.json").write_text("{ this is not json\n", encoding="utf-8")),
++    ("B1890", "the table of gates that read history shrunk to two names", lambda: text(G, lambda t: re.sub(r"READS_HISTORY = frozenset\(\{.*?\}\)", 'READS_HISTORY = frozenset({"retraction-sweep", "test-vacuity"})', t, count=1, flags=re.S))),
++    ("B1890", "the refusal of an empty checkout switched off", lambda: text(G, lambda t: t.replace('            if state == "empty":\n                return False, REFUSED_EMPTY', '            if state == "never":\n                return False, REFUSED_EMPTY'))),
++]
++
++if __name__ == "__main__":
++    want = sys.argv[1:]
++    out = []
++    restore()
++    for n, name, fn in PLANTS:
++        if want and not any(n.startswith(w) for w in want):
++            continue
++# MENDED (1).  Main wrote:
++#|         try:
++#|             if fn is not None:
++#|                 fn()
++#|             ok, tail, dt = run(n)
++#|             res = "passes" if ok else "FAILS"
++#|         except AssertionError as e:
++#|             res, tail, dt = "PLANT NOT MADE", str(e)[:90], 0.0
++#|         finally:
++#|             restore()
++        try:
++            if fn is not None:
++                fn()
++                changed = subprocess.run(["git", "status", "--porcelain"], cwd=str(ROOT), capture_output=True, text=True).stdout.strip()
++                assert changed, "the plant changed nothing in the checkout"
++            ok, tail, dt = run(n)
++            res = "passes" if ok else "FAILS"
++        except AssertionError as e:
++            restore()
++            raise SystemExit("STOPPED at the plant %r of %s: %s. A lock that passes on a plant that was not made shows nothing: mend the plant" % (name, n, str(e)[:160]))
++        finally:
++            restore()
++# END OF THE MEND
++        out.append({"arc": n, "plant": name, "the lock": res, "tail": tail, "seconds": round(dt, 1)})
++        print("%-6s %-78s %-14s %5.1fs  %s" % (n, name[:78], res, dt, tail), flush=True)
++    pathlib.Path(__file__).with_name("plants_agy002.json").write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002_out.txt
+new file mode 100644
+index 000000000..7dc768952
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002_out.txt
+@@ -0,0 +1,21 @@
++B1893  nothing planted                                                                passes 7 passed
++B1893  the verdict changed from PROVED to NEGATIVE                                    FAILS 1 failed, 6 passed
++B1893  the verdict line made to open with ZERO CAUGHT                                 FAILS 1 failed, 6 passed
++B1893  the rows of the cases U10 to U19 deleted from the page                         FAILS 1 failed, 2 passed
++B1893  'still passes' turned into 'IS REFUSED' on the page                            passes 7 passed
++B1896  nothing planted                                                                passes 8 passed
++B1896  'Five are not caught' turned into 'None is not caught' on the page             FAILS 1 failed, 7 passed
++B1896  every '17' on the page's first forty lines turned into '22'                    FAILS 1 failed, 1 passed
++B1896  the runner of the sealed cases deleted                                         FAILS 1 failed, 7 passed
++B1896  the runner of the cases written after reading deleted                          FAILS 1 failed, 7 passed
++B1896  the verdict line made to open with ALL TWENTY-TWO CAUGHT                       FAILS 1 failed, 7 passed
++B1878  nothing planted                                                                passes 5 passed
++B1878  the dated note of 2026-11-12 removed from the page                             FAILS 1 failed, 4 passed
++B1878  the verdict file made invalid JSON                                             FAILS 1 failed, 4 passed
++B1885  nothing planted                                                                passes 8 passed
++B1885  the verdict changed from PROVED to REFUTED                                     FAILS 1 failed, 6 passed
++B1885  the note on the grid's 18 digits taken out of the verdict line                 FAILS 1 failed, 6 passed
++B1890  nothing planted                                                                passes 8 passed
++B1890  the verdict file made invalid JSON                                             FAILS 1 failed, 7 passed
++B1890  the table of gates that read history shrunk to two names                       FAILS 1 failed, 5 passed
++B1890  the refusal of an empty checkout switched off                                  FAILS 1 failed, 6 passed
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.json
+new file mode 100644
+index 000000000..8444afcb7
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.json
+@@ -0,0 +1,62 @@
++[
++ {
++  "plant": "nothing planted",
++  "tests that fail": [],
++  "the lock": "PASSES",
++  "last line": "17 passed"
++ },
++ {
++  "plant": "the control: single_ok replaced by the literal True (a plant B1895's lock holds)",
++  "tests that fail": [
++   "test_no_check_of_the_script_is_passed_a_constant",
++   "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
++   "test_the_script_computes_what_it_says_it_computes",
++   "test_the_script_is_the_one_this_lock_was_written_against"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "4 failed, 13 passed"
++ },
++ {
++  "plant": "F1: the two mended conditions taken over empty lists",
++  "tests that fail": [
++   "test_the_script_is_the_one_this_lock_was_written_against"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "1 failed, 16 passed"
++ },
++ {
++  "plant": "F2: check() made to ignore what it is passed",
++  "tests that fail": [
++   "test_a_check_of_the_script_fails_when_it_is_passed_a_false_thing",
++   "test_the_script_is_the_one_this_lock_was_written_against"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "2 failed, 15 passed"
++ },
++ {
++  "plant": "F3: an unpinned check made unable to fail by an 'or' on a length that is never 0",
++  "tests that fail": [
++   "test_the_script_is_the_one_this_lock_was_written_against"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "1 failed, 16 passed"
++ },
++ {
++  "plant": "F4: no sequence read: the least typed, the two counts typed behind the pinned beginning",
++  "tests that fail": [
++   "test_the_script_is_the_one_this_lock_was_written_against"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "1 failed, 16 passed"
++ },
++ {
++  "plant": "F5: the made-with file given another version, and a number of part A changed in the script",
++  "tests that fail": [
++   "test_the_committed_run_is_what_the_script_gives_today",
++   "test_the_script_is_the_one_this_lock_was_written_against",
++   "test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be"
++  ],
++  "the lock": "CATCHES IT",
++  "last line": "3 failed, 14 passed"
++ }
++]
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py
+new file mode 100644
+index 000000000..4ff8fb314
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py
+@@ -0,0 +1,67 @@
++#!/usr/bin/env python3
++"""Review 80: agy-exp's five findings on B1881's lock, made again by main's own plants.
++
++Each plant weakens B1881's script in a scratch copy of the arc so that a check can no longer fail, or its inputs are no longer
++read, while the script's output stays what it was.  The lock is then run on the copy.  A plant that passes every test is a
++weakening the lock does not hold.  The first entry plants nothing and must pass; the second is a plant B1895 already holds and
++must be caught.  Main wrote these from the reader's descriptions through the mask and ran none of its code.  Nothing in the
++repository is changed (B1895's own harness is imported for the copy and the run)."""
++# NOTE OF THE MEND, 2026-11-12 (R80b, part 6; owed by main's word in its third folder for the builder, section 6, item 4:
++# in every script of main's that plants, a plant that changes nothing stops the run; and a check names a commit, never a
++# branch).  Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in the marked
++# places: the lines main wrote stand after "#| ", the lines that replace them follow, to "# END OF THE MEND".  With each
++# marked block put back, and this note taken out, the file is main's, byte for byte: the arc's lock holds that.
++#   0. the repository's root was counted one folder up from the script's own, which is right where main ran it and wrong here;
++#   1. a plant is made through the guard of B1895's runner, which reads the scratch copy before and after it and stops the
++#      run where the plant changed nothing.
++# END OF THE NOTE
++# MENDED (0).  Main wrote:
++#| import importlib.util, json, pathlib, sys, time
++#| HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[1]
++import importlib.util, json, pathlib, sys, time
++HERE = pathlib.Path(__file__).resolve().parent; ROOT = next(p for p in HERE.parents if (p / "scripts" / "gates" / "gates.py").is_file())
++# END OF THE MEND
++src = next((ROOT / "frontier").glob("B1895_*/verification/planted_reversions.py"))
++spec = importlib.util.spec_from_file_location("b1895_plants", src); PR = importlib.util.module_from_spec(spec); spec.loader.exec_module(PR)
++SC = "verification/whole_and_value_on_main.py"
++counts = json.loads(next((ROOT / "frontier").glob("B1881_*/verification/whole_and_value_on_main.json")).read_text(encoding="utf-8"))["B_counts"]
++
++def f1(arc):
++    PR.sub(arc / SC, "mirror_ok = all(_conj_by_mirror(a, b, c5, d) == [[a, -b], [-c5, d]] and (-c5) % 5 == 0 and a * d - (-b) * (-c5) == 1 for a, b, c5, d in box)", "mirror_ok = all([])")
++    PR.sub(arc / SC, "single_ok = all(abs(v - (mp.mpf(5 * m) / 2 + mp.sqrt(5) / 2)) < mp.mpf(10) ** -40 for m, v in zip(range(1, 6), single)) and all(x < y for x, y in zip(single, single[1:]))", "single_ok = all([])")
++def f2(arc):
++    PR.sub(arc / SC, 'def check(name, ok, detail=""):', 'def check(name, _ignored_ok, detail="", ok=True):')
++def f3(arc):
++    PR.sub(arc / SC, "          len(seqs) == len(lows) and abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))",
++           "          (False and (len(seqs) == len(lows) and abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100)) or len(OUT) >= 1, mp.nstr(floor, 10))")
++def f4(arc):
++    PR.sub(arc / SC, "                lows.append(max(heights(list(seq))))", "                lows.append(mp.sqrt(5) / 2)")
++    PR.sub(arc / SC, "    by_all = len({min(seq[i:] + seq[:i] for i in range(len(seq))) for seq in seqs})", "    by_all = len({min(seq[i:] + seq[:i] for i in range(len(seq))) for seq in []}) or %d" % counts["up_to_every_rotation"])
++    PR.sub(arc / SC, "    by_even = len({min(seq[i:] + seq[:i] for i in range(0, len(seq), 2)) for seq in seqs})", "    by_even = len({min(seq[i:] + seq[:i] for i in range(0, len(seq), 2)) for seq in []}) or %d" % counts["up_to_rotations_that_keep_the_letters"])
++def f5(arc):
++    m = arc / "verification/whole_and_value_on_main_made_with.json"; d = json.loads(m.read_text(encoding="utf-8")); d["python"] = "0.0"
++    m.write_text(json.dumps(d, indent=1) + "\n", encoding="utf-8")
++    PR.sub(arc / SC, '"W": list(W),', '"W": [[100 + len(OUT), 101], [102, 103]],')
++
++PLANTS = [("nothing planted", None, "passes"),
++          ("the control: single_ok replaced by the literal True (a plant B1895's lock holds)", PR.p_literal_true_single, "caught"),
++          ("F1: the two mended conditions taken over empty lists", f1, None),
++          ("F2: check() made to ignore what it is passed", f2, None),
++          ("F3: an unpinned check made unable to fail by an 'or' on a length that is never 0", f3, None),
++          ("F4: no sequence read: the least typed, the two counts typed behind the pinned beginning", f4, None),
++          ("F5: the made-with file given another version, and a number of part A changed in the script", f5, None)]
++only = sys.argv[1:]
++out = []
++for name, fn, expect in PLANTS:
++    if only and not any(name.startswith(o) for o in only) and expect is None: continue
++    arc = PR.fresh(); t0 = time.time()
++# MENDED (1).  Main wrote:
++#|     if fn: fn(arc)
++    if fn: PR.made(name, fn, arc)
++# END OF THE MEND
++    failed, tail = PR.run(arc)
++    row = {"plant": name, "tests that fail": failed, "the lock": "CATCHES IT" if failed else "PASSES", "last line": tail[:80], "seconds": round(time.time() - t0)}
++    out.append(row); print("%-96s %-10s %s  (%ds)" % (name[:96], row["the lock"], tail[:60], row["seconds"]), flush=True)
++json.dump(out, open(HERE / "plants_b1881_third.json", "w"), indent=1)
++ok = out[0]["the lock"] == "PASSES" and out[1]["the lock"] == "CATCHES IT"
++print("the two controls behave: %s; of the five plants, the lock passes: %d" % (ok, sum(1 for r in out[2:] if r["the lock"] == "PASSES")))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third_out.txt
+new file mode 100644
+index 000000000..f84e84219
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third_out.txt
+@@ -0,0 +1,8 @@
++nothing planted                                                                                  PASSES     17 passed
++the control: single_ok replaced by the literal True (a plant B1895's lock holds)                 CATCHES IT 4 failed, 13 passed
++F1: the two mended conditions taken over empty lists                                             CATCHES IT 1 failed, 16 passed
++F2: check() made to ignore what it is passed                                                     CATCHES IT 2 failed, 15 passed
++F3: an unpinned check made unable to fail by an 'or' on a length that is never 0                 CATCHES IT 1 failed, 16 passed
++F4: no sequence read: the least typed, the two counts typed behind the pinned beginning          CATCHES IT 1 failed, 16 passed
++F5: the made-with file given another version, and a number of part A changed in the script       CATCHES IT 3 failed, 14 passed
++the two controls behave: True; of the five plants, the lock passes: 0
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/quote_check_agy002.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/quote_check_agy002.py
+new file mode 100644
+index 000000000..d8abd7e75
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/quote_check_agy002.py
+@@ -0,0 +1,56 @@
++#!/usr/bin/env python3
++"""Review 80, agy-002's file: each quotation of its table looked for, by machine, in the file it names at the commit the
++session read.  The file is read raw by this script and NOTHING of it is printed: only counts, and for a quotation that
++is not found the number of its line in the review.  The control: each quotation with its last word doubled must not be
++found."""
++import subprocess, json, re, sys
++AT = "c40446392"
++# NOTE OF THE MEND, 2026-11-12 (R80b, part 6; owed by main's word in its third folder for the builder, section 6, item 4:
++# in every script of main's that plants, a plant that changes nothing stops the run; and a check names a commit, never a
++# branch).  Main's script stands as main wrote it in ../checks/, held there by its hash.  This copy differs in the marked
++# places: the lines main wrote stand after "#| ", the lines that replace them follow, to "# END OF THE MEND".  With each
++# marked block put back, and this note taken out, the file is main's, byte for byte: the arc's lock holds that.
++#   0. the reader's file was read at the tip of the reader's branch.  The branch has moved since main read it (main's
++#      folder, section 6, item 1: 49 rows where main read 36), so the script gave another answer on another day.  It reads the
++#      file at the commit main read, which the arc's verdict file names.
++# END OF THE NOTE
++# MENDED (0).  Main wrote:
++#| SRC = ("origin/agy-002/verify", "relays/REVIEW_80_AGY-002.md")
++SRC = ("4ae026d99", "relays/REVIEW_80_AGY-002.md")
++# END OF THE MEND
++def show(rev, path):
++    r = subprocess.run(["git", "show", "%s:%s" % (rev, path)], capture_output=True, text=True)
++    return r.stdout if r.returncode == 0 else None
++def flat(s):
++    return " ".join(s.split())
++raw = show(*SRC).split("\n")
++rows = []
++for n, l in enumerate(raw, 1):
++    if not l.startswith("| ") or l.startswith("| arc |") or set(l.strip()) <= set("|- "):
++        continue
++    cells = l.strip().strip("|").split(" | ")
++    cells = [c.strip() for c in cells]
++    if len(cells) < 4:
++        continue
++    rows.append((n, cells[0], cells[1].strip("`"), " | ".join(cells[2:-1])))
++out, cache = [], {}
++for n, arc, path, q in rows:
++    if path not in cache:
++        cache[path] = show(AT, path)
++    t = cache[path]
++    q1 = q.strip()
++    q2 = q1.strip("`")
++    exact = t is not None and (q1 in t or q2 in t)
++    joined = t is not None and (flat(q1) in flat(t) or flat(q2) in flat(t))
++    words = q2.split()
++    ctl = None
++    if t is not None and words:
++        bad = " ".join(words + [words[-1] + words[-1]])
++        ctl = flat(bad) in flat(t)
++    out.append({"line": n, "file exists at the commit": t is not None, "found": bool(exact), "found when lines are joined": bool(joined), "the control is found": ctl})
++res = {"at": AT, "rows": len(out), "found exactly": sum(o["found"] for o in out), "found exactly or when lines are joined": sum(o["found"] or o["found when lines are joined"] for o in out),
++       "files that do not exist at the commit": sum(not o["file exists at the commit"] for o in out),
++       "lines of the review whose quotation is not found": [o["line"] for o in out if not (o["found"] or o["found when lines are joined"])],
++       "controls found": sum(1 for o in out if o["the control is found"])}
++print(json.dumps(res, indent=1))
++json.dump({"summary": res, "rows": out}, open("audit/review80/quote_check_agy002.json", "w"), indent=1)
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
+new file mode 100644
+index 000000000..ed9b8aa33
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
+@@ -0,0 +1,35 @@
++#!/usr/bin/env python3
++"""Which tracked scripts plant a change against a lock or a gate, and what each does when a plant changes nothing.
++
++A script is counted where it is tracked, is not a test file and not under relays/ or legacy/, and its text (1) says "plant",
++(2) changes a text (a replace, a substitution, a write) and (3) runs something on the result (a process, pytest, a gate).
++What this search can miss: a script that plants and never uses the word; one that changes a file by another call than
++these; and a planting test (a test file is not counted: its plants are asserts of the suite).
++
++For each script it prints: the lines that make a plant by replacing a text, and whether the script, anywhere, compares a
++planted text with the text it came from and stops (an assert, a raise, an exit) where they are the same.
++
++    python3 the_scripts_of_mains_that_plant.py <repository>
++"""
++import pathlib, re, subprocess, sys
++root = pathlib.Path(sys.argv[1]).resolve()
++names = subprocess.run(["git", "-C", str(root), "ls-files", "*.py"], capture_output=True, text=True).stdout.split("\n")
++SAYS = re.compile(r"plant", re.I)
++CHANGES = re.compile(r"\.replace\(|re\.sub\(|\.write_text\(|\.write\(")
++RUNS = re.compile(r"subprocess\.|pytest|GATES\[|gates\.")
++STOPS = re.compile(r"(assert|raise|sys\.exit|exit)\b[^\n]*(!=|==|is not|not in| in )[^\n]*|changed nothing|changes nothing|no change|unchanged", re.I)
++out = []
++for rel in names:
++    if not rel or rel.startswith(("relays/", "legacy/", "tests/")) or pathlib.PurePosixPath(rel).name.startswith("test_"):
++        continue
++    try:
++        text = (root / rel).read_text(encoding="utf-8")
++    except (OSError, UnicodeDecodeError):
++        continue
++    if SAYS.search(text) and CHANGES.search(text) and RUNS.search(text):
++        plants = [n for n, l in enumerate(text.split("\n"), 1) if ".replace(" in l or "re.sub(" in l]
++        guards = [n for n, l in enumerate(text.split("\n"), 1) if re.search(r"changed nothing|changes nothing|plant[^\n]*(!=|==)|(!=|==)[^\n]*plant|assert [a-z_]+ != [a-z_]+\b", l, re.I)]
++        out.append((rel, len(plants), guards))
++print("tracked scripts that say they plant, change a text and run something on it: %d" % len(out))
++for rel, n, guards in out:
++    print("%-118s replacements: %2d; lines that compare a plant with its source: %s" % (rel[:118], n, guards[:6] or "none"))
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant_out.txt b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant_out.txt
+new file mode 100644
+index 000000000..ca2b53ec2
+--- /dev/null
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant_out.txt
+@@ -0,0 +1,27 @@
++tracked scripts that say they plant, change a text and run something on it: 26
++docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/checks/plants_agy002.py                                              replacements:  6; lines that compare a plant with its source: [44]
++docs/handoffs/MAIN_TO_BUILDER_2026-11-12/x_c1a_on_main/row914_the_group_on_the_triplet.py                              replacements:  0; lines that compare a plant with its source: [64]
++docs/handoffs/MAIN_TO_BUILDER_2026-11-12/x_c1a_on_main/row917_the_trichotomy_and_theorem_s.py                          replacements:  0; lines that compare a plant with its source: [168]
++frontier/B1240_belt_closure_and_fc_harvest/verification/reproduce_belt.py                                              replacements:  0; lines that compare a plant with its source: none
++frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py                          replacements:  0; lines that compare a plant with its source: none
++frontier/B1889_the_seats_digested/verification/build_seats.py                                                          replacements:  6; lines that compare a plant with its source: none
++frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py                                replacements:  0; lines that compare a plant with its source: none
++frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py                             replacements:  0; lines that compare a plant with its source: [24, 29]
++frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py                         replacements:  1; lines that compare a plant with its source: [110, 115]
++frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py            replacements:  8; lines that compare a plant with its source: [39, 50, 57, 149]
++frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/the_old_lock_with_the_mends_undo replacements:  2; lines that compare a plant with its source: none
++frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py                       replacements:  2; lines that compare a plant with its source: [52, 87, 120, 154, 
++frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py                          replacements:  4; lines that compare a plant with its source: [57, 92, 125, 165, 
++frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/quote_check.py                       replacements:  0; lines that compare a plant with its source: none
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/checks/plants_agy002.py               replacements:  6; lines that compare a plant with its source: [44]
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/main_at_the_landing/the_plant_on_b188 replacements:  2; lines that compare a plant with its source: [48]
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py       replacements:  7; lines that compare a plant with its source: [12, 61, 68, 146]
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py  replacements:  0; lines that compare a plant with its source: [10, 16, 67]
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant replacements:  1; lines that compare a plant with its source: [2, 20, 31]
++frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/recount.py                            replacements:  1; lines that compare a plant with its source: [99, 100]
++scripts/checks/harvest_debt.py                                                                                         replacements:  3; lines that compare a plant with its source: none
++scripts/checks/reproduce_belt.py                                                                                       replacements:  0; lines that compare a plant with its source: none
++scripts/checks/retraction_sweep.py                                                                                     replacements:  5; lines that compare a plant with its source: none
++scripts/checks/topic_sweep.py                                                                                          replacements:  1; lines that compare a plant with its source: none
++scripts/gates/gates.py                                                                                                 replacements: 18; lines that compare a plant with its source: [1002]
++scripts/review/review_tools.py                                                                                         replacements:  2; lines that compare a plant with its source: none
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+index 35286fd70..90d4ed500 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+@@ -118,7 +118,8 @@ def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
+     M = HERE / "mended_in_r80b"
+     sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
+     # 1. the two mended scripts are main's but for their marked blocks
+-    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2)):
++    # (2026-11-12, the next patch of the same part: three more, for what main's third folder owes in its section 6, item 4)
++    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2), ("plants_agy002.py", 5), ("plants_b1881_third.py", 2), ("quote_check_agy002.py", 1)):
+         text = (M / name).read_text(encoding="utf-8")
+         assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == blocks and text.count("# NOTE OF THE MEND") == 1, name
+         assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/" + name], name + ": with its mends put back it is not main's file"
+@@ -150,6 +151,23 @@ def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
+     assert [(o["row"], o["case"], o["answer"]) for o in again] == [(k["row"], k["case"], k["answer"]) for k in lines] and len(lines) == 14
+     assert all(o["the same as main kept"] and o["main kept"] == o["answer"] for o in again) and all(k["reproduced"] for k in lines)
+     assert not (HERE / "checks" / "builder_rows_probe2.py").exists()                    # main's own script is still not in its folder
++    # 5. (the next patch of the same part) main's plants for agy-002's rows, each plant in fact made: two answers differ from
++    #    the file main kept, and they are the two plants that had changed nothing
++    was = json.loads((HERE / "checks" / "plants_agy002.json").read_text(encoding="utf-8"))
++    now = json.loads((M / "plants_agy002.json").read_text(encoding="utf-8"))
++    assert [(r["arc"], r["plant"]) for r in was] == [(r["arc"], r["plant"]) for r in now] and len(now) == 21
++    differ = [(a["arc"], a["plant"], a["the lock"], b["the lock"]) for a, b in zip(was, now) if a["the lock"] != b["the lock"]]
++    assert differ == [("B1893", "'still passes' turned into 'IS REFUSED' on the page", "PLANT NOT MADE", "passes"),
++                      ("B1885", "the note on the grid's 18 digits taken out of the verdict line", "passes", "FAILS")], differ
++    assert not any(r["the lock"] == "PLANT NOT MADE" for r in now)
++    assert [r["the lock"] for r in now if r["plant"] == "nothing planted"] == ["passes"] * 5
++    # 6. main's five plants against B1881's lock, each made through the guard: the controls behave and none of the five passes
++    third = json.loads((M / "plants_b1881_third.json").read_text(encoding="utf-8"))
++    assert [r["the lock"] for r in third] == ["PASSES"] + ["CATCHES IT"] * 6 and len(third) == 7
++    # 7. the check that named a branch names the commit that the arc's verdict file gives for that reader
++    check = (M / "quote_check_agy002.py").read_text(encoding="utf-8")
++    assert 'SRC = ("4ae026d99", "relays/REVIEW_80_AGY-002.md")' in check and "@ 4ae026d99" in " ".join(V["cites_seat"])
++    assert sum(1 for l in check.split("\n") if "origin/" in l and not l.startswith("#")) == 0
+     page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+     assert "verification/mended_in_r80b/" in page
+ 
+-- 
+2.43.0
+

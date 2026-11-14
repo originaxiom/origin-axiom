@@ -1,0 +1,47 @@
+From b0b71451111b59b1b21e679444fc3118a1d7c268 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:01:05 +0000
+Subject: [PATCH] R80b, part 6, patch 16 (cld-advisor, at main's word in M16;
+ main's third folder, section 2, row A14): B1885'S VERDICT FILE SAYS THREE
+ CHECKS IN ITS SCOPE AS IN ITS VERDICT LINE
+
+A reader's check of main's answers at Review 80 (agy-002's; row A14, held by main). The verdict line of
+B1885 was corrected to say that three checks are made on the grid at 18 digits, A4, A5 and H5. The scope of
+the same file still said "the two checks made on it".
+
+The scope says three, with their names, and a dated bracket keeps what it read. The lock holds the scope
+and the verdict line to one count, and holds that the old words stand once, after their correction.
+
+The second half of the row, main's plant against this lock that changed nothing, is patch 8 of this part:
+made as main made it properly at the landing, the lock fails.
+
+The lock passes: 8 tests. Every gate passes but the count of landings. The row is held by main.
+
+BUILT AGAIN ON MAIN'S 663a902ff (2026-11-13): main corrected the scope itself at Review 81 (the SM seat's finding 09), by
+a bracket after the words that said two. This patch now leaves the verdict file as main wrote it, and brings only the
+lock: the scope is held to say three checks, A4, A5 and H5, after the words that said two.
+---
+ .../test_b1885_the_golden_state_on_the_whole_verified.py   | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/frontier/B1885_the_golden_state_on_the_whole_verified/verification/test_b1885_the_golden_state_on_the_whole_verified.py b/frontier/B1885_the_golden_state_on_the_whole_verified/verification/test_b1885_the_golden_state_on_the_whole_verified.py
+index a20944c23..765d90390 100644
+--- a/frontier/B1885_the_golden_state_on_the_whole_verified/verification/test_b1885_the_golden_state_on_the_whole_verified.py
++++ b/frontier/B1885_the_golden_state_on_the_whole_verified/verification/test_b1885_the_golden_state_on_the_whole_verified.py
+@@ -142,6 +142,13 @@ def test_the_verdict_and_the_note_on_the_grids_precision_are_held():
+     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+     assert v["verdict"] == "PROVED"
+     assert "18 for the grid and the three checks made on it, A4, A5 and H5" in v["claim_one_line"]
++    # ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A14, held by main): the scope of this same file
++    # still said "the two checks made on it".  The verdict line and the scope are held to one count.
++    scope = v["scope"]["hypotheses"]
++    # Built again on main's 663a902ff (2026-11-13): main corrected the scope itself at Review 81 (the SM seat's finding 09),
++    # by a bracket after the words that said two; the scope is held to say three checks, A4, A5 and H5, after them.
++    assert "the two checks made on it [CORRECTED 2026-11-13 (Review 81" in scope
++    assert "three checks, A4, A5 and H5" in scope and scope.index("the two checks made on it") < scope.index("three checks, A4, A5 and H5")
+     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+     assert "the grid is made at 18 digits, and three checks are made on it: A4, A5 and H5" in f
+     # the three are the script's: the checks it makes on the grid's values, after the precision is put back to 30
+-- 
+2.43.0
+

@@ -1,0 +1,28 @@
+C14, patch 7 (cld-advisor, at main's word in M25, answer 1): THE MAIN GOAL'S PAGE AS IT STOOD IS ARCHIVED BYTE FOR BYTE BESIDE IT; THE LIVING PAGE SAYS IN PLAIN WORDS WHAT IT SAID, EACH LINE WITH ITS SOURCE; WHAT READ THE DATED WORDS READS THE ARCHIVE
+
+Main's M25, answer 1: move the main goal's dated paragraphs byte for byte to an archive beside the page, as the
+README's old text was, and point the scripts that read them to the archive (their locks must pass). Dated words are
+not rewritten; the living page says in plain words what they said, with a link to the archive.
+
+- docs/MAIN_GOAL_HISTORY.md (new): a head in the form of docs/README_HISTORY.md, then the marker, then
+  docs/MAIN_GOAL.md as it stood after this card's third patch, byte for byte (182 lines). The head gives its sha-256,
+  90650221a29c8a091a72b97bd44adbd6e9a20fcafb003c8089216810ad5688ac. Nearly the whole page was dated, so the whole page
+  is archived; it names no chain commit, which would differ on main's line.
+- docs/MAIN_GOAL.md: written again in plain words, in four short sections (the goal; three joins, in order; the rule;
+  where it stands). Each line names the section of the archive it comes from. It keeps the line "Its state is
+  **0 of 19**", which the README's generator and the programme's page read. No statement of mathematics: the joins are
+  named by their questions. The public face's count on the page is zero.
+- What read the dated words now reads the archive: B1294's lock (the sentence "counts 2" and the arc's name), and the
+  outside bench's certificate of cell 10 (two attributed sentences), each with a dated comment. The certificate exits
+  1 on its controls before this patch as after it (its control S1); the two attributions are found.
+- scripts/gates/gates.py: the archive joins the README's archive in the arrival gate's list of pages not read; the
+  page's held counts leave PUBLIC_FACE_HELD (at zero). The gate reads 13 pages, 5 at zero.
+- tests/test_public_face.py: one test: the archive's hash is the one its head gives, and it holds the dated sentence;
+  the living page counts no inner word, links the archive and keeps the read line; a plant (one character of the
+  archive changed) breaks the hash.
+
+Run: every gate passes but the count of landings; the public face's tests, B1294's lock, the programme's page test
+and the README's test pass; the check of facts on the front pages passes.
+
+0 of 19.
+

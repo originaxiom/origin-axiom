@@ -1,0 +1,64 @@
+From 15c5e6e12c94fd680353abe6cecc6a07dd1df5e0 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 07:58:27 +0000
+Subject: [PATCH] R80b, part 4, patch 3 (cld-advisor, at main's word in M14;
+ Review 80, the SM seat's finding 38, WHICH MAIN HAS NOT CHECKED: it was made
+ again before it was mended): THE LISTENER'S DOCSTRING SAYS WHAT MAIN'S FIRST
+ LOOK DOES.
+
+THE FINDING, MADE AGAIN on the file. Since Review 79 main's side exits with status 0 on its first look, printing FIRST LOOK and where every branch is. The docstring said that it exits when a branch has moved, appeared or gone, and its line on --once said status 0 if there is something new.
+
+Both say it now, with a dated note. A test holds what the listener does on its first look, and that the docstring says it. No behaviour is changed. 0 of 19.
+---
+ scripts/seats/listen.py     |  7 +++++--
+ tests/test_seat_listener.py | 15 +++++++++++++++
+ 2 files changed, 20 insertions(+), 2 deletions(-)
+
+diff --git a/scripts/seats/listen.py b/scripts/seats/listen.py
+index 4e5e413a9..1ac7bf649 100644
+--- a/scripts/seats/listen.py
++++ b/scripts/seats/listen.py
+@@ -15,9 +15,12 @@ MAIN runs:
+     python3 scripts/seats/listen.py --main
+ 
+ It fetches every branch and exits when one that is not main has moved, appeared or gone, printing the names and the
+-commits and nothing of what the branches hold: some lanes are read only through a mask.
++commits and nothing of what the branches hold: some lanes are read only through a mask.  On its FIRST LOOK, when it has no
++memory to compare with, it prints "FIRST LOOK" and where every branch is, and exits with status 0 as well.
++[ADDED 2026-11-12 (Review 80; found by a reading of this file, made again before it was mended): the last sentence.  Main's
++side has exited on its first look since Review 79, and this docstring and the line on --once below did not say so.]
+ 
+-    --once        look once: status 0 if there is something new, 3 if there is not
++    --once        look once: status 0 if there is something new (for main's side, also on its first look), 3 if there is not
+     --interval N  seconds between looks (600 unless given)
+     --peek        show what is new and do not remember having shown it
+ 
+diff --git a/tests/test_seat_listener.py b/tests/test_seat_listener.py
+index e6247fab9..d0311de30 100644
+--- a/tests/test_seat_listener.py
++++ b/tests/test_seat_listener.py
+@@ -243,6 +243,21 @@ def test_a_memory_that_holds_no_number_and_a_git_that_does_not_answer_are_said_a
+     assert r.returncode == 0 and "the text of message 2" in r.stdout
+ 
+ 
++def test_the_listeners_docstring_says_what_mains_first_look_does(tmp_path):
++    """Review 80, from a reading of the listener; made again before it was mended.  Main's side exits with status 0 on its
++    first look, printing FIRST LOOK; the docstring said that it exits when a branch has moved, appeared or gone, and no more.
++    Held here: what the listener does, and that its docstring says it."""
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("listen_for_test6", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
++    origin, clone = _origin_and_clone(tmp_path)
++    _git(origin, "branch", "a-seat")
++    r = _listen(clone, "--main")
++    assert r.returncode == 0 and r.stdout.startswith("FIRST LOOK") and "origin/a-seat" in r.stdout          # what it does
++    assert _listen(clone, "--main").returncode == 3
++    doc = " ".join(L.__doc__.split())
++    assert "On its FIRST LOOK" in doc and "exits with status 0 as well" in doc and "(for main's side, also on its first look)" in doc
++
++
+ def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
+     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
+     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
+-- 
+2.43.0
+

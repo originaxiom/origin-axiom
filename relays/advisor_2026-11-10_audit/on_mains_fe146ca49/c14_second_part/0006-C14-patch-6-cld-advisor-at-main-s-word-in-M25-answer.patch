@@ -1,0 +1,105 @@
+From 99b0be4729969d4132e7eaeaa4fb74d3bfd236a4 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 08:03:49 +0000
+Subject: [PATCH] C14, patch 6 (cld-advisor, at main's word in M25, answer 2):
+ THE PLAN OF 2026-10-29 LEAVES THE PUBLIC FACE'S LIST; IT IS LABELLED AT ITS
+ HEAD AS A DATED PROPOSAL OF THE WORKING RECORD, AND THE README CALLS IT SO
+
+Main's M25, answer 2: the plan of 2026-10-29 is off the public face's list; it is labelled at its head as a dated
+proposal, part of the working record; the README's line, which already calls it the order of work chosen on
+2026-10-30, adds "a dated document of the working record".
+
+- docs/THE_FINAL_ATTACK_2026-10-29.md: one line under its title, in italics: "A dated proposal of 2026-10-29, part of
+  the working record. The order of work it proposes was chosen on 2026-10-30; its words are kept as written. (Label
+  added 2026-11-13.)" No word of the plan changes.
+- scripts/gates/gates.py: the plan leaves PUBLIC_FACE; its held counts leave PUBLIC_FACE_HELD, with a comment that
+  says when and why. The gate reads 13 pages (4 at zero, 1,385 words held, on main's 663a902ff).
+- README.md: the line on the plan ends "the order of work chosen on 2026-10-30, a dated document of the working
+  record".
+- tests/test_public_face.py: one test holds the three (the plan off the list and the held counts, the label as the
+  page's first line after its title, the README's words), and a plant (the label taken out) that it refuses.
+
+The public face's tests, B1028's ledger test (which lists the plan among dated documents) and the README's test:
+22 passed.
+
+0 of 19.
+---
+ README.md                           |  2 +-
+ docs/THE_FINAL_ATTACK_2026-10-29.md |  2 ++
+ scripts/gates/gates.py              |  3 +--
+ tests/test_public_face.py           | 16 ++++++++++++++++
+ 4 files changed, 20 insertions(+), 3 deletions(-)
+
+diff --git a/README.md b/README.md
+index edbda33a5..9a4e4d1ed 100644
+--- a/README.md
++++ b/README.md
+@@ -34,7 +34,7 @@ nothing in this block is typed by hand.*
+ | understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
+ | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
+ | see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
+-| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
++| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30, a dated document of the working record |
+ | find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
+ | read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) (a working index: it quotes the record's own lines) |
+ | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
+diff --git a/docs/THE_FINAL_ATTACK_2026-10-29.md b/docs/THE_FINAL_ATTACK_2026-10-29.md
+index 7f887b403..5619473a0 100644
+--- a/docs/THE_FINAL_ATTACK_2026-10-29.md
++++ b/docs/THE_FINAL_ATTACK_2026-10-29.md
+@@ -1,5 +1,7 @@
+ # THE FINAL ATTACK — a proposal to the owner (main, 2026-10-29; data-free as written)
+ 
++*A dated proposal of 2026-10-29, part of the working record. The order of work it proposes was chosen on 2026-10-30; its words are kept as written. (Label added 2026-11-13.)*
++
+ *Answer first. Under the owner's plenitude, the programme explains our universe when a short description — the object,
+ its rule, and our world's address among the worlds the object allows — reproduces the measured numbers, and reproduces
+ random worlds far less often. Today it does not: it reaches the six mass ratios only by spending about as much freedom
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index f2058badb..c76538455 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3133,7 +3133,7 @@ def gate_selection_family(reader=None):
+ # HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
+ # of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
+ # "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
+-PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md",
++PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md",
+                "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
+                "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+                "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
+@@ -3209,7 +3209,6 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
+     'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 4, 'ruled': 1, 'seat': 10},
+     # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
+     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
+-    'docs/THE_FINAL_ATTACK_2026-10-29.md': {'main': 2, 'owner': 5, 'ruled': 1, 'seat': 3},
+     'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
+     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
+     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
+diff --git a/tests/test_public_face.py b/tests/test_public_face.py
+index db6eb20bd..ae27b6b6d 100644
+--- a/tests/test_public_face.py
++++ b/tests/test_public_face.py
+@@ -85,3 +85,19 @@ def test_the_readme_block_gives_no_words_of_a_changelog_heading(tmp_path, monkey
+     assert dict(g.public_face_words(block)) == {}
+     # the twin: the line as it stood printed the heading, and the gate would have counted its words
+     assert sum(g.public_face_words("| the last landing | %s |" % heading[:150]).values()) >= 6
++
++
++def test_the_plan_of_2026_10_29_is_a_labelled_dated_document_off_the_list():
++    """C14, patch 6 (main's M25, answer 2): the plan is off the public face's list, labelled at its head as a dated
++    proposal of the working record, and the README calls it so. Planted: the label taken out."""
++    g = _gates()
++    plan = "docs/THE_FINAL_ATTACK_2026-10-29.md"
++    assert plan not in g.PUBLIC_FACE and plan not in g.PUBLIC_FACE_HELD
++    text = (ROOT / plan).read_text(encoding="utf-8")
++    label = "*A dated proposal of 2026-10-29, part of the working record."
++    assert text.split("\n")[2].startswith(label)
++    readme = (ROOT / "README.md").read_text(encoding="utf-8")
++    line = [l for l in readme.split("\n") if plan in l]
++    assert len(line) == 1 and "a dated document of the working record" in line[0]
++    planted = text.replace(label, "*", 1)
++    assert not planted.split("\n")[2].startswith(label)
+-- 
+2.43.0
+
