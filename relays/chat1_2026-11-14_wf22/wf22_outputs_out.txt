@@ -1,0 +1,13 @@
+O1 line (0.4, 0.8) gamma: Im tau 0.745, Im gamma tau 0.745 | S, St 3.1e-10 | S* 2.7e+00
+O1 line (0.4, 0.8) gamma: Im tau 0.829, Im gamma tau 0.663 | S, St 9.8e-10 | S* 1.5e+00
+O1 line (0.4, 0.8) gamma: Im tau 1.118, Im gamma tau 0.319 | S, St 7.8e-05 | S* 2.7e+00
+O2 line (0.2, 0.4) gamma: Im tau 0.745, Im gamma tau 0.745 | S, St 7.7e-11 | S* 3.2e+00
+O2 line (0.2, 0.4) gamma: Im tau 0.829, Im gamma tau 0.663 | S, St 8.2e-10 | S* 1.8e+00
+O2 line (0.2, 0.4) gamma: Im tau 1.118, Im gamma tau 0.319 | S, St 5.7e-05 | S* 4.9e+00
+O3 line (0.2, 0.6) gamma: Im tau 0.745, Im gamma tau 0.745 | S, St 2.3e+00 | S* 2.7e+00
+O3 line (0.2, 0.6) gamma: Im tau 0.829, Im gamma tau 0.663 | S, St 3.4e+00 | S* 2.1e+00
+O3 line (0.2, 0.6) gamma: Im tau 1.118, Im gamma tau 0.319 | S, St 2.5e+00 | S* 5.1e+00
+O4 own line gamma^3: Im tau 0.124, Im gamma^3 tau 0.124 | S, St 8.4e-04 | S* 2.2e-03
+O4 own line gamma^3: Im tau 0.137, Im gamma^3 tau 0.112 | S, St 6.4e-02 | S* 5.9e-02
+plant (end untransported), own line gamma: S, St 3.1e-10 | caught: False
+holds: {'O1': False, 'O2': False, 'O3': True, 'O4': 'inconclusive (S and St fail at this height)'}

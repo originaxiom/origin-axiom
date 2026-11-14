@@ -1,0 +1,10 @@
+L1 lines: 266 | fixed by gamma up to sign: [('0', '0'), ('1/5', '2/5'), ('2/5', '4/5')] | holds: False
+   reported: fixed by gamma^2: 7 [('0', '0'), ('0', '1/3'), ('1/3', '0'), ('1/3', '1/3'), ('1/3', '2/3'), ('1/5', '2/5'), ('2/5', '4/5')]
+   reported: fixed by gamma^3: 18 [('0', '0'), ('0', '1/2'), ('1/2', '0'), ('1/2', '1/2'), ('0', '1/4'), ('1/4', '0'), ('1/4', '1/4'), ('1/4', '1/2'), ('1/4', '3/4'), ('1/2', '1/4'), ('1/5', '2/5'), ('2/5', '4/5'), ('1/10', '1/5'), ('1/10', '7/10'), ('1/5', '9/10'), ('3/10', '1/10'), ('3/10', '3/5'), ('2/5', '3/10')]
+L2 gamma [[2, 1], [1, 1]] gamma^2 [[5, 3], [3, 2]] gamma^3 [[13, 8], [8, 5]] | holds: True
+T        fourth-point residual 3.91e-22 (lowest Im of the images 0.861) | S~: 1.31e-20 | S*: 2.0 | rho(T) against the hand matrix 1.4e-20
+R        fourth-point residual 1.65e-19 (lowest Im of the images 0.878) | S~: 1.37e-16 | S*: 1.37e-16 
+gamma    fourth-point residual 1.91e-21 (lowest Im of the images 1.03) | S~: 5.44e-17 | S*: 2.0 
+gamma^2  fourth-point residual 3.43e-19 (lowest Im of the images 0.302) | S~: 1.29e-16 | S*: 2.0 
+gamma^3  fourth-point residual 2.46e-18 (lowest Im of the images 0.108) | S~: 7.88e-16 | S*: 7.88e-16 
+C2 holds: True | C0 holds: True | C1 holds: True | plant (weight 1/2) fails the check for every c != 0: True
