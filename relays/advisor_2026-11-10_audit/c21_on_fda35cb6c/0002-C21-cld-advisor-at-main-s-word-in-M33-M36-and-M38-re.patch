@@ -1,0 +1,546 @@
+From 83a84b5f7cc69aa044b8ddb927cfb7bbfd1139cd Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 13:07:31 +0000
+Subject: [PATCH 2/2] C21 (cld-advisor, at main's word in M33, M36 and M38;
+ register row P-320, GENESIS currency): THE FOUNDATION AT VERSION 1.69, ARC
+ B1933: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED, AND THE
+ LIST "COMPUTED NOWHERE YET" IS NARROWED AND MARKED
+
+The card is relays/cards/cld-advisor_C21_genesis-m000-row-and-computed-nowhere-yet.md, committed before the work; the
+arc number B1933 is the one main reserved for it (M38).
+
+THE FOUNDATION, version 1.69, written by its own script (verification/write_version_1_69.py, which names each line it
+replaces by its whole old text and stops if one is not there once):
+  - the m000 row of the table of frames (it read "never computed" in all four): F-FC closed, b1 = 1 and cusp rank 1 at
+    every level n = 1 to 8 (B1926, verifying the web seat's W-C8 part 2a, harvest rows 1755 and 1768); F-CI no sector
+    module at any odd level, every class free on the scar over the characters twisted by the orientation, the twisted
+    classes the double cover's matter seen from below (B1926 and its addendum, three codes), whether they count a
+    stated choice (B1926); F-HE and F-AP never computed, offered to the SM seat (its page, M28);
+  - "Computed nowhere yet": the m000 entry narrowed to F-HE and F-AP; the harmonic frame's counts outside m004's levels
+    marked as computed once by agy-exp's X-NEVER on eight chiral word states (harvest row 1797), its second computation
+    owed, and kept on the list (main's M36). X-NEVER's other first computations are in agy-exp's lane, read through
+    main's mask; each is marked when main gives which item it computed.
+  - the log's entry above 1.68's; the version's line at 1.69. No other item or status changes.
+  - the foundation is on the public face, so its new text uses none of the record's inner words: the web seat's
+    computation is "an independent sealed computation", X-NEVER "an independent computation", the offer "offered for
+    computation"; the harvest rows it cites name them. The public-face gate holds GENESIS's counts unchanged.
+
+THE ARC B1933: its page (the answer first, Seen first with its sweep, Literature), a PROCESS row in the representation
+triage (its own page is the synthesis surface, as for the earlier versions), its verdict file (PROVED: the foundation's statement;
+no computation made here), and its lock: the page at 1.69, each new cell's words found in its source (B1926's page and
+verdict line, the harvest rows), the script giving the page again from it with this version taken back; planted, the old
+row put back and the computed-once mark taken off, each refused.
+
+B1930'S LOCK MENDED, with a dated docstring: it held the page's being at 1.68; it now takes each later version back by
+that version's own lock and holds 1.68 there, as B1904's lock holds "the version only moves forward". The foundation's
+locks: 13 passed (B1930, B1933, B1904), and 164 of the tests that read the foundation pass.
+
+0 of 19.
+---
+ GENESIS.md                                    | 10 ++-
+ README.md                                     |  4 +-
+ docs/REPRESENTATION_TRIAGE.md                 |  1 +
+ docs/views/CONTEXT_RECOVERY.md                |  8 +-
+ docs/views/COVERAGE.md                        |  8 +-
+ docs/views/REVIEWER.md                        | 14 ++--
+ docs/views/VERDICT_LEDGER.md                  |  5 +-
+ ...st_b1930_the_foundation_at_version_1_68.py | 21 +++++-
+ .../FINDINGS.md                               | 47 ++++++++++++
+ .../arc_verdict.json                          | 28 +++++++
+ ...st_b1933_the_foundation_at_version_1_69.py | 51 +++++++++++++
+ .../verification/write_version_1_69.py        | 73 +++++++++++++++++++
+ scripts/atlas/atlas_data.json                 | 11 +++
+ 13 files changed, 255 insertions(+), 26 deletions(-)
+ create mode 100644 frontier/B1933_the_foundation_at_version_1_69/FINDINGS.md
+ create mode 100644 frontier/B1933_the_foundation_at_version_1_69/arc_verdict.json
+ create mode 100644 frontier/B1933_the_foundation_at_version_1_69/verification/test_b1933_the_foundation_at_version_1_69.py
+ create mode 100644 frontier/B1933_the_foundation_at_version_1_69/verification/write_version_1_69.py
+
+diff --git a/GENESIS.md b/GENESIS.md
+index 224c02005..3e9957a90 100644
+--- a/GENESIS.md
++++ b/GENESIS.md
+@@ -1,6 +1,6 @@
+ # GENESIS — the foundations of origin-axiom
+ 
+-**Version 1.68 · 2026-11-13 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
++**Version 1.69 · 2026-11-14 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+ adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
+ **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
+ there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
+@@ -303,7 +303,7 @@ Where each frame has been run, by object (as of v1.0):
+ | m004's commensurability class (99 census members; every finite cover) | B1186's 112: 108 closed (sm:B1369), four cusps open on one Fourier coefficient each (sm:B1370); the cover cube~3.24 counts ±2, but the count moves with the cusp cut (sm:B1386–sm:B1388) | fires on five arithmetic members: s958, v2873, t12833, t12835, o10_150701 (main B1418; sm:B1374) | **[v1.16, the SM seat's P6, read on main at headline level; a statement about this named list, which FK13 rules is not the object]** the finite abelian covers of the levels (sm:B1532: no generation-shaped count); every connected cover of degree ≤ 12 of m004 and m003 and their Q₈ towers (sm:B1536, NEGATIVE: no three; room reaches two on sixteen degree-10 covers of m003); on N₄₅ no three at the trivial character at any class (sm:B1541, reproduced on main; sm:B1544, sm:B1546). Under FK14 every one of these is a search for ends | hexagonal cusps (m003's, three of cube~3.24's four, 14 of m004's 87 covers of degree ≤ 10) match sm:B1501's cones conformally; a cusp point is chiral only where its locus meets another fixed set (sm:B1503) |
+ | The other word states (758 to length 12; **[v1.2]** 536 manifolds) | closed (sm:B1385 T1) | 95 carry a background at their own level (main B1439; **[v1.2]** 87 of 536 manifolds, sm:B1517 C5; no criterion in the fibre torsion and the sign decides which, sm:B1518 [v1.52: this claim re-derived on main, B1458; the seat's further claims read, not re-derived, row 823]; **[v1.4]** re-derived on main by manifold and group structure: 22 (G, sign) strata each hold a firing and a silent manifold, the smallest m369 against o9_00001, both ℤ/12 and sign −, B1458), among them m369 (8) and s639 (16) (main B1434) | **[v1.6]** each is rigid rel cusp, so carries a one-parameter projective family at its hyperbolic point, and on 262 of the 536 manifolds no isometry dualises it (sm:B1523). **[v1.16, the SM seat's P7]** Counts at the hyperbolic point: one generation in one W on the silver squares m135 and m136, through interior classes of the four, and none on the golden word states (sm:B1530 — **read by main's instrument and independent code, B1485: every count agrees; and at every member the two orders fuse into an irreducible module that counts zero, B1486**); at most one on every finite abelian cover of m135 and m136 at the pulled-back members (sm:B1534, read at headline level); at most one at every finite-order member and every class of every word state and level (sm:B1535, Theorem C with Lemma W, read at headline level) — and at most 1 + b0 on any one-cusped state by the floor (B1487): the one generation is a cusp on which the class dies | never computed |
+ | m010 (−LLR) | closed | none at its three-fold level (main B1434) | the audit lane's R40: I(W) = I(Λ²W) = +1, an anomaly-free 10 + 5̄, on a block with no harmonic background (F01) | never computed |
+-| m000, the Gieseking manifold | never computed | never computed | never computed | never computed |
++| m000, the Gieseking manifold | **[v1.69]** closed: b₁ = 1 and cusp rank 1 at every level n = 1 to 8 (B1926, verifying an independent sealed computation, harvest rows 1755 and 1768) | **[v1.69]** no sector module at any odd level: the cusp's meridian inverts the scar, so no class over a character trivial on it is free on the scar; over the characters twisted by the orientation every class is (B1926); the twisted classes are the double cover's matter seen from below (B1926's addendum; the result stands on three codes). Whether the twisted modules count as the frame's matter is a stated choice (B1926) | never computed (offered for computation, 2026-11-14) | never computed (offered for computation, 2026-11-14) |
+ 
+ **[v1.51] The seats' results in this table** — the SM seat's sm:B1368–B1388, B1501, B1503, B1515, B1522, B1523, B1532 and B1534–B1536, B1544, B1546, and the audit lane's R40 and F01 — **are the seat's, unverified on main, except where a cell says otherwise** (Review 66's reliance census, `docs/progress/REVIEW_66_RELIANCE_CENSUS.md`; the verifications are queued by consequence, P-229). **[v1.52] Verified on main since: sm:B1369 (B1690, row 646). Partly: sm:B1368, sm:B1370 and sm:B1385 (B1690; rows 645, 647, 660 name the cells re-derived).**
+ 
+@@ -494,9 +494,10 @@ and v1.1 lists C18 beside F-MC (§9). Whether the closings belong to the genesis
+ 
+ **Computed nowhere yet** (the frontier, not a list of failures):
+ - the harmonic frame's counts on any state outside m004's levels (**[v1.6]** its projective family exists on every word
+-  state to length 12, sm:B1523);
++  state to length 12, sm:B1523); **[v1.69]** computed once, on eight chiral word states outside m004's levels, by
++  an independent computation (harvest row 1797), its second computation owed: it stays on this list until then;
+ - the class-index frame on m369 or s639 built from their own arithmetic (main's L229 (iii));
+-- the Gieseking manifold m000 in any frame;
++- **[v1.69]** the Gieseking manifold m000 in F-HE and F-AP (offered for computation); F-FC and F-CI are computed (B1926, the table above);
+ - fillings and non-cyclic covers of word states other than m004 and m003;
+ - the genesis paths of `docs/archive/paths/PATHS.md` never touched: 18 of 25 at main's B1422 (**[v1.1]** counted again at B1454:
+   of the 25 enumerated paths 1 is dead, 3 are stalled, 3 are in progress and 18 are untouched; E21, a stalled
+@@ -750,6 +751,7 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
+   - FK14: the specification of three from the verified physics — an index of closed-cycle cohomology, obtained by selection (a free quotient and the characters of its deck group), the 5̄ and 10 counts equal by an identity the class index lacks, nobody deriving three; F-CI = the orbifold mechanism, F-HE = the smooth one; the family blind to both by construction; three generations = ONE rank-5 bundle of index three. THE_BAR's baseline recorded.
+ - **v1.23 · 2026-10-07 · main B1497.** Room needs genus.
+   - FK14: T-ROOM-NEEDS-GENUS — the room is the act's invariant closed homology of the fibre of a cover, zero at genus one, so it needs a non-abelian cover of the register; the root has none to degree eight, the sign-twin one at degree five (o10_150691), where the count is still one. FK4 and FK14 read as one question.
++- **v1.69 · 2026-11-14 · B1933.** The m000 row of the table of frames: F-FC and F-CI computed (B1926, verifying an independent sealed computation; its addendum on three codes); F-HE and F-AP not computed, offered for computation. "Computed nowhere yet": the m000 entry narrowed to those two frames; the harmonic frame's counts outside m004's levels marked as computed once (harvest row 1797), the second computation owed, and kept on the list. Register row P-320.
+ - **v1.68 · 2026-11-13 · B1930.** Paths only: the record's historical folders moved under `docs/archive/` (`docs/REORGANIZATIONS.md`, its third entry), and the six paths of §§ 0 to 8 into `philosophy/`, `paths/` and `speculations/` are written so. No item is added and no status changes; the version log keeps its paths as written.
+ - **v1.67 · 2026-11-12 · main B1904.** Wording only, from Review 80 (the web seat's finding 7) and the owner's word of 2026-11-12 (register row P-825): the owner's sentences that stood in quotation marks in the body are given in plain words, seven passages in FK9, FK13, FK15, § 7 and § 8. A governing page quotes nothing he said (his ruling of 2026-11-11, P-796); this list of versions is a dated record and keeps what it wrote. No item is added and no status changes: the words of one status cell change (row FK13: the account in its bracket is put in plain words; its label is as it was).
+ - **v1.66 · 2026-11-12 · main B1891.** Corrections from Review 79, whose readers were sessions that built none of what they read. No item is added and no status cell changes. §0: the advisor seat's sort counts fourteen entries, which are eleven things, as suppositions; this file said eleven entries. GM5c (a): "every statement the record holds about the weave is unchanged except the hand" is now "most of what the record holds", as B1879 itself says; "the walk's measure" is now "the walk's law of run lengths", which is what B1879 computed; and the tick is the only history of at most five letters with exactly the two fixed characters among those that are not a power. One quotation of the owner in GM5c (b) is given in plain words. The v1.65 entry below is not rewritten.
+diff --git a/README.md b/README.md
+index e4d557060..972171a8b 100644
+--- a/README.md
++++ b/README.md
+@@ -20,8 +20,8 @@ nothing in this block is typed by hand.*
+ | | |
+ |---|---|
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+-| the foundations | `GENESIS.md` (v1.68) of 2026-11-13 |
+-| arcs with a verdict | 1629: 1133 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
++| the foundations | `GENESIS.md` (v1.69) of 2026-11-14 |
++| arcs with a verdict | 1630: 1134 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
+ | points in the register | 849: 309 open (queued work, leads, and questions not yet decided), 540 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+ | the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |
+diff --git a/docs/REPRESENTATION_TRIAGE.md b/docs/REPRESENTATION_TRIAGE.md
+index e228c9a68..06f1a0565 100644
+--- a/docs/REPRESENTATION_TRIAGE.md
++++ b/docs/REPRESENTATION_TRIAGE.md
+@@ -143,6 +143,7 @@ no new PENDING. The short-claim lane is built (B1464, 2026-10-03): an arc two or
+ | B1921 | PENDING | **The end's invariant parameter:** it reaches a synthesis page with the end (decision 5) and the read-out as a thread average (P-776). |
+ | B1922 | PENDING | **The frame periodic along a thread exactly at its own line:** it reaches a synthesis page with the read-out on the whole (P-776) as the thread average's case. |
+ | B1923 | PROCESS | **The load-bearing negatives re-examined (a ledger), with one computed clue:** its clue travels by register rows P-843 to P-845. |
++| B1933 | PROCESS | **The foundation at version 1.69:** its own page is the synthesis surface; the version restates B1926 and the harvest rows it cites. |
+ 
+ **Currency read, 2026-10-09 (S104, at B1625).** `representation_sweep.py` at the corpus head B1625: 524 substantial arcs,
+ 12 cited on no synthesis surface, **0 untriaged**. The window B1465–B1625 added no unrepresented substantial arc. The
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 5e05d687f..b4ca28d70 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -13,8 +13,8 @@
+ 
+ | what | count |
+ |---|---|
+-| arcs with a verdict file | 1629 |
+-| … PROVED | 1133 |
++| arcs with a verdict file | 1630 |
++| … PROVED | 1134 |
+ | … NEGATIVE | 384 |
+ | … OPEN | 99 |
+ | … RETRACTED | 13 |
+@@ -31,6 +31,7 @@
+ 
+ | arc | verdict | claim |
+ |---|---|---|
++| B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
+ | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
+ | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
+ | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
+@@ -42,7 +43,6 @@
+ | B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
+ | B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
+ | B1922 | PROVED | “THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the…” |
+-| B1921 | PROVED | “THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,…” |
+ 
+ ## Awaiting a decision (register rows whose disposition is “OWNER”)
+ 
+@@ -71,6 +71,6 @@
+ | check | count | first items |
+ |---|---|---|
+ | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
+-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 164 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
++| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 166 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+ | register rows not in the 7-cell form | 0 | — |
+ 
+diff --git a/docs/views/COVERAGE.md b/docs/views/COVERAGE.md
+index 5f404b666..2abd867ce 100644
+--- a/docs/views/COVERAGE.md
++++ b/docs/views/COVERAGE.md
+@@ -10,8 +10,8 @@ view can quietly imply completeness it does not have.
+ 
+ | layer | count | of | share |
+ |---|---|---|---|
+-| arcs with `FINDINGS.md` | **1629** | — | 100 % |
+-| arcs with an authored verdict (W1) | **1629** | 1629 | 100.0 % |
++| arcs with `FINDINGS.md` | **1630** | — | 100 % |
++| arcs with an authored verdict (W1) | **1630** | 1630 | 100.0 % |
+ | classified in `kill_graph` | **860** | — | — |
+ | kill records resolving to an arc | **813** | 860 | 95 % |
+ | kill records with no arc directory | **47** | 860 | 5 % |
+@@ -37,5 +37,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
+ | stratum | meaning | count | share |
+ |---|---|---|---|
+ | **A** | explicit `## Verdict` block — directly extractable | 221 | 13.6 % |
+-| **B** | no block, but the title carries the verdict | 1386 | 85.1 % |
+-| **C** | neither — genuinely hard, needs a full read | 22 | 1.4 % |
++| **B** | no block, but the title carries the verdict | 1387 | 85.1 % |
++| **C** | neither — genuinely hard, needs a full read | 22 | 1.3 % |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 16391131c..5b0782d5f 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -19,10 +19,10 @@ result, not the debt.
+ 
+ | | |
+ |---|---|
+-| research arcs with findings | **1629** |
+-| words of findings prose | **1,460,024** |
++| research arcs with findings | **1630** |
++| words of findings prose | **1,460,607** |
+ | test lock files referenced | **945** |
+-| arcs carrying an authored verdict | **1629** (100.0 %) |
++| arcs carrying an authored verdict | **1630** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+ 
+ **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
+@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
+ 
+ | verdict | arcs |
+ |---|---|
+-| PROVED | 1133 |
++| PROVED | 1134 |
+ | NEGATIVE | 384 |
+ | OPEN | 99 |
+ | RETRACTED | 13 |
+@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
+ 
+ One of each disposition, so the ledger's vocabulary can be checked against real arcs.
+ 
+-**PROVED — `B1931`** (645 words, 0 locks)  
+-“REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.”  
+-`B1931_review_82_entered_both_readers_caught_every_plant_they_could_reach/FINDINGS.md`
++**PROVED — `B1933`** (583 words, 0 locks)  
++“THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double cover's matter seen from below, a stated choice whether they count), F-HE and F-AP not computed and offered to the SM seat; the list 'Computed nowhere yet' narrows its m000 entry to those two frames and marks the harmonic frame's counts outside m004's levels as computed once (agy-exp's X-NEVER, harvest row 1797), its second computation owed. Written by the version's own script; its lock takes the version back and gives the page again. 0 of 19.”  
++`B1933_the_foundation_at_version_1_69/FINDINGS.md`
+ 
+ **NEGATIVE — `B1907`** (1780 words, 0 locks)  
+ “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index d61294c90..1af843aaf 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -5,10 +5,10 @@
+ 
+ # Arc verdict ledger (generated)
+ 
+-1629 of 1629 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
++1630 of 1630 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+ 
+ 
+-## PROVED (1133)
++## PROVED (1134)
+ 
+ | arc | claim | instrument | locks |
+ |---|---|---|---|
+@@ -1145,6 +1145,7 @@
+ | `B1929` | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc in a population run, harvest row 1764; proved independently through the Siegel functions' transformation law, harvest row 1788). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.” |  | 0 |
+ | `B1930` | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.” |  | 0 |
+ | `B1931` | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.” |  | 0 |
++| `B1933` | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double cover's matter seen from below, a stated choice whether they count), F-HE and F-AP not computed and offered to the SM seat; the list 'Computed nowhere yet' narrows its m000 entry to those two frames and marks the harmonic frame's counts outside m004's levels as computed once (agy-exp's X-NEVER, harvest row 1797), its second computation owed. Written by the version's own script; its lock takes the version back and gives the page again. 0 of 19.” |  | 0 |
+ 
+ ## NEGATIVE (384)
+ 
+diff --git a/frontier/B1930_the_foundation_at_version_1_68/verification/test_b1930_the_foundation_at_version_1_68.py b/frontier/B1930_the_foundation_at_version_1_68/verification/test_b1930_the_foundation_at_version_1_68.py
+index 4da8afb3f..fe12dc684 100644
+--- a/frontier/B1930_the_foundation_at_version_1_68/verification/test_b1930_the_foundation_at_version_1_68.py
++++ b/frontier/B1930_the_foundation_at_version_1_68/verification/test_b1930_the_foundation_at_version_1_68.py
+@@ -26,8 +26,23 @@ def _taken_back(text):
+     return (living + log.replace(W.ENTRY, "", 1)).replace(W.HEADER_IS, W.HEADER_WAS)
+ 
+ 
++def _at_1_68(text):
++    """MENDED 2026-11-14 (the building session's card C21, version 1.69): the page as it stood at this version, each later
++    version taken back by its own lock, newest first, so this lock holds 1.68 and not the page's being at 1.68"""
++    for later in sorted(ROOT.glob("frontier/B*_the_foundation_at_version_1_*/verification/test_b*_the_foundation_at_version_1_*.py"),
++                        key=lambda q: -int(q.name.rsplit("_1_", 1)[1].split(".")[0])):
++        minor = int(later.name.rsplit("_1_", 1)[1].split(".")[0])
++        if minor <= 68 or "**Version 1.%d " % minor not in text:
++            continue
++        spec = importlib.util.spec_from_file_location("later_version_lock_%d" % minor, later)
++        m = importlib.util.module_from_spec(spec)
++        spec.loader.exec_module(m)
++        text = m._taken_back(text)
++    return text
++
++
+ def test_the_page_is_at_1_68_and_its_paths_name_the_archive():
+-    text = PAGE.read_text(encoding="utf-8")
++    text = _at_1_68(PAGE.read_text(encoding="utf-8"))
+     assert W.HEADER_IS in text and W.HEADER_WAS not in text
+     living = text[:text.index(W.LOG_HEAD)]
+     for p in W.PATHS:
+@@ -39,12 +54,12 @@ def test_the_page_is_at_1_68_and_its_paths_name_the_archive():
+ 
+ 
+ def test_the_script_gives_the_page_again():
+-    text = PAGE.read_text(encoding="utf-8")
++    text = _at_1_68(PAGE.read_text(encoding="utf-8"))
+     assert W.version_1_68(_taken_back(text)) == text
+ 
+ 
+ def test_a_path_left_at_its_old_place_is_refused():
+-    text = _taken_back(PAGE.read_text(encoding="utf-8"))
++    text = _taken_back(_at_1_68(PAGE.read_text(encoding="utf-8")))
+     import pytest
+     # a seventh path into a moved folder, added to section 1
+     k = text.index("## 1. The principle")
+diff --git a/frontier/B1933_the_foundation_at_version_1_69/FINDINGS.md b/frontier/B1933_the_foundation_at_version_1_69/FINDINGS.md
+new file mode 100644
+index 000000000..0d9a7494b
+--- /dev/null
++++ b/frontier/B1933_the_foundation_at_version_1_69/FINDINGS.md
+@@ -0,0 +1,47 @@
++# B1933 — The foundation at version 1.69: the m000 row of the table of frames, and the list "Computed nowhere yet"
++
++*2026-11-14. No computation is made here and no measured number is read: each new cell restates B1926 or a row of the
++harvest ledger. Card C21 of the building session (main's messages M33 and M36 to that session; register row P-320,
++GENESIS currency). This page, the script and the lock were put together by the building session; main lands the arc
++after its own check. 0 of 19.*
++
++## 1. The answer first
++
++- **The table of frames, the m000 row** (it read "never computed" in all four frames):
++  - **F-FC:** closed, b₁ = 1 and cusp rank 1 at every level n = 1 to 8 (B1926, verifying the web seat's W-C8 part 2a,
++    harvest rows 1755 and 1768).
++  - **F-CI:** no sector module at any odd level: the cusp's meridian inverts the scar, so no class over a character
++    trivial on it is free on the scar; over the characters twisted by the orientation every class is (B1926). The
++    twisted classes are the double cover's matter seen from below (B1926's addendum; three codes). Whether they count as
++    the frame's matter is a stated choice (B1926).
++  - **F-HE and F-AP:** never computed; offered for computation (to the SM seat, its page, M28).
++- **The list "Computed nowhere yet":** its m000 entry is narrowed to F-HE and F-AP. Its first entry, the harmonic frame's
++  counts on states outside m004's levels, is **marked as computed once**, on eight chiral word states, by agy-exp's card
++  X-NEVER (harvest row 1797), its second computation owed; it stays on the list until then (main's M36).
++- No other item changes. The version's line reads 1.69; its entry stands above that of 1.68.
++
++## Seen first
++
++Not a result about the object: the foundation's table and list brought to what the record holds. The sweep: the
++foundation's §§ 0 to 8 searched for the m000 row and for the list's entries (the script's own check: each line it
++replaces stands there once, and the version's line once). The new text uses none of the record's inner words, the
++foundation being on the public face; the sources it cites by harvest row name the sessions. The sources are B1926
++(proved; its own Fox-calculus computation, with the web seat's sealed computation agreeing, harvest row 1755) and the
++harvest ledger's rows 1755, 1768 and 1797. **Of X-NEVER's other first computations**, the harvest row names only the one
++marked here; the others stand in agy-exp's lane, which main reads through its mask, and each is marked when main gives
++which item it computed.
++
++**Literature:** none bears on it; it restates the record's own results in the foundation.
++
++## 2. How it was made
++
++`verification/write_version_1_69.py` names each line it replaces by its whole old text, checks that each stands once in
++§§ 0 to 8, puts the new text in its place, adds the log's entry above 1.68's and moves the version's line. Run without
++`--write` it writes nothing.
++
++## 3. The lock
++
++`verification/test_b1933_the_foundation_at_version_1_69.py`: the page is at 1.69; the m000 row and the two list entries
++stand as written, each source they cite exists (B1926's folder and its words, the harvest rows), and the script, applied
++to the page with this version taken back, gives the page as it stands. Planted: the m000 row put back to "never
++computed"; the computed-once mark taken off the list's first entry. Each is refused.
+diff --git a/frontier/B1933_the_foundation_at_version_1_69/arc_verdict.json b/frontier/B1933_the_foundation_at_version_1_69/arc_verdict.json
+new file mode 100644
+index 000000000..3c343e590
+--- /dev/null
++++ b/frontier/B1933_the_foundation_at_version_1_69/arc_verdict.json
+@@ -0,0 +1,28 @@
++{
++ "id": "B1933",
++ "verdict": "PROVED",
++ "instrument": false,
++ "creates_law": false,
++ "identifications": [],
++ "depends_on": [
++  "B1930",
++  "B1926"
++ ],
++ "rests_on_seat": [],
++ "cites_seat": [
++  "the building session (cld-advisor): its card C21, approved by main in M33 and grown in M36",
++  "the web seat's W-C8 part 2a (harvest rows 1755 and 1768), verified on main by B1926",
++  "agy-exp's X-NEVER (harvest row 1797), received and read through the mask: a first computation, its second owed"
++ ],
++ "supersedes": null,
++ "superseded_by": null,
++ "authored_by": "the building session, cld-advisor, at main's word in M33 and M36 (register row P-320)",
++ "scope": {
++  "frame": "none (the foundation's statement)",
++  "object": "GENESIS.md at version 1.69: the m000 row of the table of frames and the list 'Computed nowhere yet'",
++  "reach": "general",
++  "hypotheses": "no computation is made here; each new cell restates B1926 or a harvest row, and the item computed once stays on the list"
++ },
++ "claim_one_line": "THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double cover's matter seen from below, a stated choice whether they count), F-HE and F-AP not computed and offered to the SM seat; the list 'Computed nowhere yet' narrows its m000 entry to those two frames and marks the harmonic frame's counts outside m004's levels as computed once (agy-exp's X-NEVER, harvest row 1797), its second computation owed. Written by the version's own script; its lock takes the version back and gives the page again. 0 of 19.",
++ "weave_or_thread": "n/a (the foundation's table and list; B1926's results restated)"
++}
+diff --git a/frontier/B1933_the_foundation_at_version_1_69/verification/test_b1933_the_foundation_at_version_1_69.py b/frontier/B1933_the_foundation_at_version_1_69/verification/test_b1933_the_foundation_at_version_1_69.py
+new file mode 100644
+index 000000000..1aed34fda
+--- /dev/null
++++ b/frontier/B1933_the_foundation_at_version_1_69/verification/test_b1933_the_foundation_at_version_1_69.py
+@@ -0,0 +1,51 @@
++"""B1933's lock: the foundation at version 1.69, its m000 row and its list "Computed nowhere yet" (card C21)."""
++import importlib.util, json, pathlib, sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++spec = importlib.util.spec_from_file_location("write_version_1_69", HERE / "write_version_1_69.py")
++W = importlib.util.module_from_spec(spec); sys.dont_write_bytecode = True; spec.loader.exec_module(W)
++
++
++def _problems(page):
++    bad = []
++    if W.HEADER_IS not in page:
++        bad.append("not at 1.69")
++    for name, line in (("the m000 row", W.ROW_IS), ("the list's m000 entry", W.LIST_IS), ("the list's first entry", W.FIRST_IS)):
++        if page.count(line) != 1:
++            bad.append(name)
++    if W.ROW_WAS in page:
++        bad.append("the old m000 row")
++    return bad
++
++
++def _taken_back(page):
++    """the page with version 1.69 taken back: the three lines as they were, the entry and the version's line"""
++    t = page.replace(W.ROW_IS, W.ROW_WAS).replace(W.LIST_IS, W.LIST_WAS).replace(W.FIRST_IS, W.FIRST_WAS)
++    return t.replace(W.ENTRY, "").replace(W.HEADER_IS, W.HEADER_WAS)
++
++
++def test_the_page_is_at_1_69_and_the_script_gives_it_again():
++    page = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
++    assert _problems(page) == []
++    assert page.index("- **v1.69 ") < page.index("- **v1.68 ")
++    assert W.version_1_69(_taken_back(page)) == page
++
++
++def test_each_cell_says_what_its_source_says():
++    b1926 = next(ROOT.glob("frontier/B1926_*"))
++    page = (b1926 / "FINDINGS.md").read_text(encoding="utf-8")
++    claim = json.loads((b1926 / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
++    assert "every level n = 1 to 8 has b₁ = 1 and cusp rank 1" in page
++    assert "the twisted classes are the double cover's matter seen from below" in page and "three codes" in page
++    assert "is a stated choice" in claim
++    ledger = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
++    rows = {l.split("|")[1].strip(): l for l in ledger.split("\n") if l.startswith("| 17")}
++    assert "B1926" in rows["1755"] and "B1926" in rows["1768"]
++    assert "X-NEVER" in rows["1797"] and "eight chiral word states outside m004's levels" in rows["1797"]
++
++
++def test_the_lock_refuses_the_old_row_and_the_mark_taken_off():
++    page = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
++    assert "the m000 row" in _problems(page.replace(W.ROW_IS, W.ROW_WAS))
++    assert "the list's first entry" in _problems(page.replace(W.FIRST_IS, W.FIRST_WAS))
+diff --git a/frontier/B1933_the_foundation_at_version_1_69/verification/write_version_1_69.py b/frontier/B1933_the_foundation_at_version_1_69/verification/write_version_1_69.py
+new file mode 100644
+index 000000000..9627a1157
+--- /dev/null
++++ b/frontier/B1933_the_foundation_at_version_1_69/verification/write_version_1_69.py
+@@ -0,0 +1,73 @@
++#!/usr/bin/env python3
++"""B1933 -- the foundation at version 1.69: the m000 row of the table of frames, and the list "Computed nowhere yet".
++
++Card C21 of the building session (main's M33 and M36; register row P-320, GENESIS currency). Three places of the
++foundation change, each named here by its whole old line, which must stand once:
++
++  1. the table's row for m000: F-FC and F-CI computed (B1926; the web seat's W-C8 part 2a, harvest rows 1755 and 1768;
++     B1926's addendum, on three codes); F-HE and F-AP still never computed, offered to the SM seat (its page, M28);
++  2. the list's entry "the Gieseking manifold m000 in any frame" narrowed to the two frames not computed;
++  3. the list's first entry, the harmonic frame's counts outside m004's levels, marked as computed once by agy-exp's
++     X-NEVER (harvest row 1797), its second computation owed; it stays on the list (main's M36).
++
++No item's status changes but these cells; the entry of the log stands above 1.68's, and the version's line moves.
++
++    python3 write_version_1_69.py            # checks, and writes nothing
++    python3 write_version_1_69.py --write    # writes GENESIS.md
++"""
++import pathlib
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++LOG_HEAD = "## 10. Version log"
++HEADER_WAS, HEADER_IS = "**Version 1.68 · 2026-11-13 · canonical.**", "**Version 1.69 · 2026-11-14 · canonical.**"
++ROW_WAS = "| m000, the Gieseking manifold | never computed | never computed | never computed | never computed |\n"
++ROW_IS = ("| m000, the Gieseking manifold | **[v1.69]** closed: b₁ = 1 and cusp rank 1 at every level n = 1 to 8 (B1926, "
++          "verifying an independent sealed computation, harvest rows 1755 and 1768) | **[v1.69]** no sector module at any odd "
++          "level: the cusp's meridian inverts the scar, so no class over a character trivial on it is free on the scar; "
++          "over the characters twisted by the orientation every class is (B1926); the twisted classes are the double "
++          "cover's matter seen from below (B1926's addendum; the result stands on three codes). Whether the twisted "
++          "modules count as the frame's matter is a stated choice (B1926) | never computed (offered for computation, "
++          "2026-11-14) | never computed (offered for computation, 2026-11-14) |\n")
++LIST_WAS = "- the Gieseking manifold m000 in any frame;\n"
++LIST_IS = ("- **[v1.69]** the Gieseking manifold m000 in F-HE and F-AP (offered for computation); F-FC and F-CI are "
++           "computed (B1926, the table above);\n")
++FIRST_WAS = ("- the harmonic frame's counts on any state outside m004's levels (**[v1.6]** its projective family exists on every word\n"
++             "  state to length 12, sm:B1523);\n")
++FIRST_IS = ("- the harmonic frame's counts on any state outside m004's levels (**[v1.6]** its projective family exists on every word\n"
++            "  state to length 12, sm:B1523); **[v1.69]** computed once, on eight chiral word states outside m004's levels, by\n"
++            "  an independent computation (harvest row 1797), its second computation owed: it stays on this list until then;\n")
++ENTRY = ("- **v1.69 · 2026-11-14 · B1933.** The m000 row of the table of frames: F-FC and F-CI computed (B1926, verifying "
++         "an independent sealed computation; its addendum on three codes); F-HE and F-AP not computed, offered for computation. "
++         "\"Computed nowhere yet\": the m000 entry narrowed to those two frames; the harmonic frame's counts outside m004's "
++         "levels marked as computed once (harvest row 1797), the second computation owed, and kept on the list. Register row "
++         "P-320.\n")
++
++
++def version_1_69(text, say=lambda line: None):
++    """the foundation's text at version 1.68 -> at version 1.69; stops if a line it replaces is not there once"""
++    i = text.index(LOG_HEAD)
++    living, log = text[:i], text[i:]
++    for was, now, name in ((ROW_WAS, ROW_IS, "the m000 row"), (LIST_WAS, LIST_IS, "the list's m000 entry"),
++                           (FIRST_WAS, FIRST_IS, "the list's first entry")):
++        n = living.count(was)
++        say("%s stands %d time(s) in §§ 0 to 8" % (name, n))
++        assert n == 1, "%s stands %d time(s), not once" % (name, n)
++        living = living.replace(was, now)
++    assert log.count("\n- **v1.68 ") == 1, "the entry of version 1.68 is not there once"
++    k = log.index("\n- **v1.68 ") + 1                      # each version's entry stands above the one before it
++    log = log[:k] + ENTRY + log[k:]
++    text = living + log
++    assert text.count(HEADER_WAS) == 1 and HEADER_IS not in text, "the line that names version 1.68 is not there once"
++    return text.replace(HEADER_WAS, HEADER_IS)
++
++
++if __name__ == "__main__":
++    page = ROOT / "GENESIS.md"
++    new = version_1_69(page.read_text(encoding="utf-8"), print)
++    if "--write" in sys.argv:
++        page.write_text(new, encoding="utf-8")
++        print("written")
++    else:
++        print("every line stands once; nothing written")
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index 70999935f..b1b13863d 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -17223,6 +17223,17 @@
+    "status": "dead",
+    "domain": "topology"
+   },
++  "B1933": {
++   "slug": "the foundation at version 1 69",
++   "motifs": [
++    "figure_eight"
++   ],
++   "refs": [],
++   "obstacle": "measure",
++   "obstacle_conf": 1,
++   "status": "open",
++   "domain": "topology"
++  },
+   "B193": {
+    "slug": "sealing field scouts",
+    "motifs": [
+-- 
+2.43.0
+

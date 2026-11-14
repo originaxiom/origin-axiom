@@ -1,0 +1,406 @@
+From 50709ea82640cdbf9ddccb150a5a12669235cec2 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 13:03:10 +0000
+Subject: [PATCH 1/2] C21's series, patch 1 (cld-advisor, at main's word in
+ M37; register row P-849): MAIN'S CHECK OF THE TWELVE OLDER VERDICT LINES OF
+ CLASS NEITHER STANDS ON THEIR PAGES AND IN THEIR ROWS
+
+Main checked the 25 older verdict lines marked a selection (M37; P-849 records it): the 13 of class "family named" hold,
+and none of the 12 of class "neither" is a selection without its family. This patch carries that check, in main's words:
+
+  - on each of the twelve pages, a dated note after the note of 2026-11-13 that waited for it: eight name the family on
+    the page (B44, B125, B266, B1230, B1235, B1298, B1806, B1857), two are deductions (B1228, B1154), two claim no
+    selection of their own (B1258, B1406); each with main's words for that arc; the earlier note stays as written;
+  - in each of their rows of B1905's older_verdict_lines_classified.json, a field checked_by_main (the day, the row,
+    main's class and words); the builder's class stays as read, so the gate's reading and its count are unchanged.
+
+THE LOCK, tests/test_the_twelve_selections_noted.py: each page carries main's check after the note it answers, with
+main's class and words, and each row carries it (8, 2 and 2); planted, a page without the check, a row without it, and
+a check moved above the note it answers, each reported alone. It names no arc. BEFORE: on the tree before this patch,
+the new test fails.
+
+0 of 19.
+---
+ docs/views/REVIEWER.md                        |  2 +-
+ frontier/B1154_seam_y/FINDINGS.md             |  2 +
+ frontier/B1228_S1_the_nomination/FINDINGS.md  |  2 +
+ .../FINDINGS.md                               |  2 +
+ frontier/B1235_two_seat_harvest/FINDINGS.md   |  2 +
+ frontier/B1258_2T_is_blind/FINDINGS.md        |  2 +
+ .../B125_snappy_arithmeticity/FINDINGS.md     |  2 +
+ frontier/B1298_the_lift_fork/FINDINGS.md      |  2 +
+ .../B1406_the_mirror_and_the_bulk/FINDINGS.md |  2 +
+ .../FINDINGS.md                               |  2 +
+ .../FINDINGS.md                               |  2 +
+ .../older_verdict_lines_classified.json       | 96 ++++++++++++++++---
+ .../B266_arithmetic_selects_e6/FINDINGS.md    |  2 +
+ .../B44_topological_torsion_route/FINDINGS.md |  2 +
+ tests/test_the_twelve_selections_noted.py     | 38 ++++++++
+ 15 files changed, 147 insertions(+), 13 deletions(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index d3d3b5402..16391131c 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1629** |
+-| words of findings prose | **1,459,611** |
++| words of findings prose | **1,460,024** |
+ | test lock files referenced | **945** |
+ | arcs carrying an authored verdict | **1629** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/frontier/B1154_seam_y/FINDINGS.md b/frontier/B1154_seam_y/FINDINGS.md
+index 257be90c1..381280042 100644
+--- a/frontier/B1154_seam_y/FINDINGS.md
++++ b/frontier/B1154_seam_y/FINDINGS.md
+@@ -67,3 +67,5 @@ The prereg's "MATCH gets cc3's third opinion before banking" does **not** trigge
+ SM value entered anywhere — the entire content is that the object does not supply one. Gate 5 untouched.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “,c> is forced to zero by H^1” and “arithmetic only SELECTS which class is H_u”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): a deduction — the coupling forced to zero by H^1; its 'selector' is a seat's reading, quoted. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1228_S1_the_nomination/FINDINGS.md b/frontier/B1228_S1_the_nomination/FINDINGS.md
+index 252d3819a..1329b4e84 100644
+--- a/frontier/B1228_S1_the_nomination/FINDINGS.md
++++ b/frontier/B1228_S1_the_nomination/FINDINGS.md
+@@ -84,3 +84,5 @@ uniqueness.
+ control; K1's named candidate; the level-forcing). Lock `tests/test_b1228_s1.py`.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece” and “So k = 1 is forced by INVENTORY, not chosen”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): a deduction — the level forced by inventory. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1230_consistency_campaign_run1/FINDINGS.md b/frontier/B1230_consistency_campaign_run1/FINDINGS.md
+index 2c5a59973..f55ba6745 100644
+--- a/frontier/B1230_consistency_campaign_run1/FINDINGS.md
++++ b/frontier/B1230_consistency_campaign_run1/FINDINGS.md
+@@ -84,3 +84,5 @@ identity-vs-scalar on B₀ — hence whether the ℙ³ is **three** continuous p
+ `sh frontier/B1230_consistency_campaign_run1/reproduce.sh` · lock `tests/test_b1230_campaign.py`
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “B1229's 'sigma = 1 selects E6 uniquely' was therefore leaning on the restriction, and the restriction was doing real work” and “scanned, c = 6 has four solutions and the object's own arithmetic selects E6 alone”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the four simply-laced (G, k) with c = 6. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1235_two_seat_harvest/FINDINGS.md b/frontier/B1235_two_seat_harvest/FINDINGS.md
+index abd6cedcc..2a270cac2 100644
+--- a/frontier/B1235_two_seat_harvest/FINDINGS.md
++++ b/frontier/B1235_two_seat_harvest/FINDINGS.md
+@@ -134,3 +134,5 @@ baseline raised 3 → 5 by hand (`_baseline_raises`), the I-9 pattern.
+ `verification/reproduce.sh` — seven cells, two of them SnapPy (minutes), the rest seconds.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “A6'S FREE DECK SELECTS CS=0” and “amphichirality forces only CS in {0,1/4}”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — CS in {0, 1/4}. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1258_2T_is_blind/FINDINGS.md b/frontier/B1258_2T_is_blind/FINDINGS.md
+index b1e3d917c..9fa24b367 100644
+--- a/frontier/B1258_2T_is_blind/FINDINGS.md
++++ b/frontier/B1258_2T_is_blind/FINDINGS.md
+@@ -69,3 +69,5 @@ statement about **E₆**, not yet a statement the **object** has confirmed.
+ - **Registers:** no change to I-25 (still UNEARNED); a **scope correction** on B327.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): no selection of its own — a negative arc testing another arc's selection. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B125_snappy_arithmeticity/FINDINGS.md b/frontier/B125_snappy_arithmeticity/FINDINGS.md
+index ab341b392..176bb4824 100644
+--- a/frontier/B125_snappy_arithmeticity/FINDINGS.md
++++ b/frontier/B125_snappy_arithmeticity/FINDINGS.md
+@@ -76,3 +76,5 @@ Reid 1991 (the unique arithmetic
+ knot); Neumann–Reid (shape field = invariant trace field). Tooling: SnapPy 3.3.2 + cypari 2.5.6, in-sandbox.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “SnapPy invariant trace fields show arithmeticity selects m=1”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the metallic family. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1298_the_lift_fork/FINDINGS.md b/frontier/B1298_the_lift_fork/FINDINGS.md
+index f325026dc..e78b0d458 100644
+--- a/frontier/B1298_the_lift_fork/FINDINGS.md
++++ b/frontier/B1298_the_lift_fork/FINDINGS.md
+@@ -91,3 +91,5 @@ The inner lift's "every direction even" is a statement about Aut(E₆), not abou
+ two bench scripts in a scratch cwd, pins the signs and the fixed-root counts, and checks the DESIGN seal and the re-run receipts.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the inner and outer lifts. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md b/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
+index 47d79e857..e182c8637 100644
+--- a/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
++++ b/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
+@@ -207,3 +207,5 @@ Artifacts: `b1406_riddles.py` (26/26). Locks: `tests/test_b1406_riddles.py`.
+ **[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “m^2+4 = k^2 forces m = 0” and “The word is free because m = 1 is what five independent principles select”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): no selection of its own — it reports B1405's. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1806_the_third_fixed_point_and_a_proxy_corrected/FINDINGS.md b/frontier/B1806_the_third_fixed_point_and_a_proxy_corrected/FINDINGS.md
+index b82b6f6ed..251c64630 100644
+--- a/frontier/B1806_the_third_fixed_point_and_a_proxy_corrected/FINDINGS.md
++++ b/frontier/B1806_the_third_fixed_point_and_a_proxy_corrected/FINDINGS.md
+@@ -139,3 +139,5 @@ None computed the exponents near i.
+ - The exponents stand.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “has order 8 and selects a”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the eigenlines of rho(S). So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md b/frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md
+index c8203b202..f8d4ea838 100644
+--- a/frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md
++++ b/frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md
+@@ -80,3 +80,5 @@ massive state, not by a weight (relays/explore_2026-11-07_read_out_by_a_state/;
+   integers.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “is selected under both level-5 readings”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the line-invisible departures, listed in full. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json b/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
+index 925f71461..d7638b1da 100644
+--- a/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
++++ b/frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json
+@@ -15,7 +15,13 @@
+    "clauses": [
+     "|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the positive hyperbolic branch"
++   }
+   },
+   {
+    "arc": "B45",
+@@ -47,7 +53,13 @@
+    "clauses": [
+     "SnapPy invariant trace fields show arithmeticity selects m=1"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the metallic family"
++   }
+   },
+   {
+    "arc": "B185",
+@@ -87,7 +99,13 @@
+    "clauses": [
+     "The trace field's unique ramified prime canonically selects E6"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the McKay groups of the mod-q reductions"
++   }
+   },
+   {
+    "arc": "B327",
+@@ -430,7 +448,13 @@
+     ",c> is forced to zero by H^1",
+     "arithmetic only SELECTS which class is H_u"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "a deduction",
++    "words": "the coupling forced to zero by H^1; its 'selector' is a seat's reading, quoted"
++   }
+   },
+   {
+    "arc": "B1163",
+@@ -528,7 +552,13 @@
+     "THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece",
+     "So k = 1 is forced by INVENTORY, not chosen"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "a deduction",
++    "words": "the level forced by inventory"
++   }
+   },
+   {
+    "arc": "B1230",
+@@ -537,7 +567,13 @@
+     "B1229's 'sigma = 1 selects E6 uniquely' was therefore leaning on the restriction, and the restriction was doing real work",
+     "scanned, c = 6 has four solutions and the object's own arithmetic selects E6 alone"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the four simply-laced (G, k) with c = 6"
++   }
+   },
+   {
+    "arc": "B1235",
+@@ -546,7 +582,13 @@
+     "A6'S FREE DECK SELECTS CS=0",
+     "amphichirality forces only CS in {0,1/4}"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "CS in {0, 1/4}"
++   }
+   },
+   {
+    "arc": "B1247",
+@@ -570,7 +612,13 @@
+    "clauses": [
+     "Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "no selection of its own",
++    "words": "a negative arc testing another arc's selection"
++   }
+   },
+   {
+    "arc": "B1259",
+@@ -651,7 +699,13 @@
+    "clauses": [
+     "THE FLAT GERM SELECTS THE OUTER LIFT, EXACTLY"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the inner and outer lifts"
++   }
+   },
+   {
+    "arc": "B1304",
+@@ -726,7 +780,13 @@
+     "m^2+4 = k^2 forces m = 0",
+     "The word is free because m = 1 is what five independent principles select"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "no selection of its own",
++    "words": "it reports B1405's"
++   }
+   },
+   {
+    "arc": "B1409",
+@@ -886,7 +946,13 @@
+    "clauses": [
+     "has order 8 and selects a"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the eigenlines of rho(S)"
++   }
+   },
+   {
+    "arc": "B1826",
+@@ -910,7 +976,13 @@
+    "clauses": [
+     "is selected under both level-5 readings"
+    ],
+-   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check"
++   "why": "a selection claimed with a value or a member as its object, and its page names neither family on this reading: for main to check",
++   "checked_by_main": {
++    "date": "2026-11-14",
++    "row": "P-849",
++    "class": "family named on the page",
++    "words": "the line-invisible departures, listed in full"
++   }
+   },
+   {
+    "arc": "B1869",
+diff --git a/frontier/B266_arithmetic_selects_e6/FINDINGS.md b/frontier/B266_arithmetic_selects_e6/FINDINGS.md
+index a276cf5fc..c62b5064a 100644
+--- a/frontier/B266_arithmetic_selects_e6/FINDINGS.md
++++ b/frontier/B266_arithmetic_selects_e6/FINDINGS.md
+@@ -76,3 +76,5 @@ figure-eight (its own trace field `ℚ(√−3)`, ramified prime 3); the E₈ en
+ group level**. (b266_surjection_verdict.py + test; NOVELTY_AUDIT R6 addendum.)
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “The trace field's unique ramified prime canonically selects E6”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the McKay groups of the mod-q reductions. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/frontier/B44_topological_torsion_route/FINDINGS.md b/frontier/B44_topological_torsion_route/FINDINGS.md
+index 24a1ef77b..2f983e26a 100644
+--- a/frontier/B44_topological_torsion_route/FINDINGS.md
++++ b/frontier/B44_topological_torsion_route/FINDINGS.md
+@@ -30,3 +30,5 @@ The torsion route derives S1 only if the tangent return is allowed to inherit a
+ mapping-torus/torsion interpretation.
+ 
+ **[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “|=1 selects mu=3 and hence I=1/4, conditional on the tangent return inheriting a mapping-torus torsion interpretation”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**
++
++**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849): family named on the page — the positive hyperbolic branch. So it is not a selection without its family. The note above stays as written.]**
+diff --git a/tests/test_the_twelve_selections_noted.py b/tests/test_the_twelve_selections_noted.py
+index 28db9de79..774722e7d 100644
+--- a/tests/test_the_twelve_selections_noted.py
++++ b/tests/test_the_twelve_selections_noted.py
+@@ -59,3 +59,41 @@ def test_no_other_page_carries_the_note():
+         if MARK in p.read_text(encoding="utf-8", errors="ignore"):
+             carrying.add(p.parent.name.split("_")[0])
+     assert carrying == neither
++
++
++CHECKED = "**[CHECKED BY MAIN 2026-11-14 (M37; register row P-849):"
++
++
++def _unchecked(pages, rows):
++    """the arcs whose page lacks main's check after the note that waited for it, or whose row of the classified file
++    does not carry it"""
++    bad = []
++    for r in rows:
++        t = pages[r["arc"]]
++        c = r.get("checked_by_main") or {}
++        at, ck = t.find(MARK), t.find(CHECKED)
++        if not c or c.get("row") != "P-849" or c.get("class") not in ("family named on the page", "a deduction", "no selection of its own") \
++                or ck < at or at < 0 or ("%s — %s." % (c.get("class"), c.get("words"))) not in t[ck:]:
++            bad.append(r["arc"])
++    return bad
++
++
++def test_main_check_is_carried_to_each_page_and_row():
++    """2026-11-14 (main's M37): none of the twelve is a selection without its family; main's class and words stand on
++    each page after the note that waited for them, and in each row of the classified file."""
++    rows = _neither()
++    pages = {r["arc"]: _page(r["arc"]).read_text(encoding="utf-8") for r in rows}
++    assert _unchecked(pages, rows) == []
++    by = {}
++    for r in rows:
++        by[r["checked_by_main"]["class"]] = by.get(r["checked_by_main"]["class"], 0) + 1
++    assert by == {"family named on the page": 8, "a deduction": 2, "no selection of its own": 2}
++    # planted: a page without main's check; a row without it; a check standing above the note it answers
++    one = rows[1]["arc"]
++    t = pages[one]; ck = t.index("\n" + CHECKED)
++    assert _unchecked(dict(pages, **{one: t[:ck] + t[t.index("]**\n", ck) + 4:]}), rows) == [one]
++    stripped = [dict(r) for r in rows]; del stripped[0]["checked_by_main"]
++    assert _unchecked(pages, stripped) == [rows[0]["arc"]]
++    note = t[ck:t.index("]**\n", ck) + 4]
++    moved = note + t.replace(note, "")
++    assert _unchecked(dict(pages, **{one: moved}), rows) == [one]
+-- 
+2.43.0
+

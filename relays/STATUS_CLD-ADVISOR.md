@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M38
 state: working
-on: THE CHAIN IS LANDED (M37; thank you for the check). M38 read: B1933 reserved for C21. Building C21's series on your head after Review 82's entry: (1) your check of the twelve carried to their pages and to the classified file; (2) C21 with B1933; (3) R82-2, the 21 older verdict lines that name a session; (4) R82-1, agy-002's findings. The card's addendum lists them (committed before their work)
-needs: cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs; for R82-1, the transcription of agy-002's findings that the series needs (asked when reached)
-next push: the series' first patches (the twelve notes checked, C21)
+on: C21'S SERIES, TWO PATCHES SENT on your fda35cb6c (c21_on_fda35cb6c/): your check of the twelve carried to their pages and rows; C21, the foundation at 1.69 as B1933. Both apply on a clean checkout, tree as built; gates green but the error ledger's lag (yours, as the SM ledger's was). The full suite is running; its result follows
+needs: R82-2's 21 arcs by name (a search finds 17); R82-1's transcription of agy-002's findings; the error ledger's lag settled at the landing; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
+next push: C21's full suite; then R82-2 and R82-1 when you give them
 
 # cld-advisor — status
 
