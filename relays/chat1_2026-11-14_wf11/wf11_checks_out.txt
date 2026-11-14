@@ -1,0 +1,14 @@
+20307251 n = 3 level 1 {'tor': 1, 'inv': [1, 1], 'e': 1, 'record': 0, 'h1': {}, 'modules': 0, 'plus': 0, 'minus': 0, 'other': 0, 'nonzero': 0}
+20307251 n = 3 level 2 {'tor': 5, 'inv': [1, 5], 'e': 5, 'record': 4, 'h1': {1: 4}, 'modules': 12, 'plus': 4, 'minus': 4, 'other': 0, 'nonzero': 8}
+20307251 n = 5 level 1 {'tor': 1, 'inv': [1, 1, 1, 1], 'e': 1, 'record': 0, 'h1': {}, 'modules': 0, 'plus': 0, 'minus': 0, 'other': 0, 'nonzero': 0}
+20307251 n = 5 level 2 {'tor': 29, 'inv': [1, 1, 1, 29], 'e': 29, 'record': 28, 'h1': {1: 28}, 'modules': 756, 'plus': 28, 'minus': 28, 'other': 0, 'nonzero': 56}
+26100001 n = 3 level 1 {'tor': 1, 'inv': [1, 1], 'e': 1, 'record': 0, 'h1': {}, 'modules': 0, 'plus': 0, 'minus': 0, 'other': 0, 'nonzero': 0}
+26100001 n = 3 level 2 {'tor': 5, 'inv': [1, 5], 'e': 5, 'record': 4, 'h1': {1: 4}, 'modules': 12, 'plus': 4, 'minus': 4, 'other': 0, 'nonzero': 8}
+26100001 n = 5 level 1 {'tor': 1, 'inv': [1, 1, 1, 1], 'e': 1, 'record': 0, 'h1': {}, 'modules': 0, 'plus': 0, 'minus': 0, 'other': 0, 'nonzero': 0}
+26100001 n = 5 level 2 {'tor': 29, 'inv': [1, 1, 1, 29], 'e': 29, 'record': 28, 'h1': {1: 28}, 'modules': 756, 'plus': 28, 'minus': 28, 'other': 0, 'nonzero': 56}
+the scar at n = 5 as an x-word: (1, 3, -4, -3, -2, -1, 2, 4)
+V1 holds: True
+V2 holds: True
+V3 holds: True
+V4 holds: True
+both primes give the same counts: True
