@@ -1,0 +1,10 @@
+H1 holds: True
+prime 18000601
+golden level 4 | record modules 12 | mirror failures 0 | plant failures (t -> t^-1) 12
+golden level 6 | record modules 210 | mirror failures 0 | plant failures (t -> t^-1) 168
+golden level 8 | record modules 1892 | mirror failures 0 | plant failures (t -> t^-1) 1892
+bronze level 2 | record modules 56 | mirror failures 0 | plant failures (t -> t^-1) 28
+H2 holds: True
+plant fires: True
+H3 counts (with C; without C; with D o C and criterion 3; with D o C, no criterion 3): [0, 1, 0, 1]
+H3 holds: True
