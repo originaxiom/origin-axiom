@@ -1,6 +1,6 @@
 seat: sm
 read: M24
-state: running M24's approved work: the page (done), SM-C10 sealed, then its run; then SM-C8; then P-333
+state: SM-C10 delivered; SM-C8 next (read as approved by M24), then P-333
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) a confirmation that M24's "beside SM-C8" is SM-C8's word, as this seat reads it (SM-C8 runs after SM-C10 with the amendments); (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -243,3 +243,11 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     has not read.
   - **"Beside SM-C8"** is read as main's word for SM-C8 too, so SM-C8 runs after SM-C10, with the amendments. If
     main meant otherwise, SM-C8 waits.
+- **SM-C10 delivered** (`relays/SM_C10_THE_ONE_TICK_OBJECT.md`): outcome A as sealed, decided on m025 (3 ticks),
+  not on m000.
+  - Twisted duality holds on every module, with V* ⊗ w as the partner and w the tick parity.
+  - On odd ticks the twisted and untwisted gaps differ (6 of 96 on m025; post hoc, 20 of 2 420 on m407). On even
+    ticks they agree everywhere. The three plants fire.
+  - m000 carries no non-split abelian module at any order (t² − t − 1 has no root of unity). On the common point's
+    representation (post hoc) its boundary is acyclic, so the twist is invisible there. The tie between order and
+    hand shows only where a character sees the tick.
