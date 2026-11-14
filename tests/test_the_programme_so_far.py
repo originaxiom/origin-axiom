@@ -73,3 +73,39 @@ def test_the_short_page_names_a_source_for_every_line_and_uses_no_inner_word():
     assert len(_short_problems(text.replace(" (§ 6).", ".", 1), full)) == 1
     assert len(_short_problems(text.replace("(§ 7)", "(§ 17)", 1), full)) == 1
     assert len(_short_problems(text.replace("`docs/THE_WEAVE.md`", "`docs/THE_WEAVES.md`", 1), full)) == 1
+
+
+# --- 2026-11-13 (main's M30; the web seat's cold reading, W-C6 part 1, harvest row 1744): six lines met ---
+
+MET = (   # (the finding, what the page said that its source did not, what it says now as its source says it)
+    (1, "checked line by line by three readers", "checked line by line, in three parts, by three readers"),
+    (2, None, "Each rule\n  of the grammar has a status: most are assumed"),
+    (3, "- Each word acts on a torus", "- Each allowed word (a primitive word using both letters, § 3.1) acts"),
+    (4, None, "It needs four inputs, each of them needed"),
+    (4, None, "a conditional reconstruction of a chosen sector, not a derivation of m004\n  from nothing"),
+    (5, "only with inputs chosen by hand", "only after choosing several inputs by hand or by\n  looking at the data"),
+    (5, None, "The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones"),
+    (6, "three generations of chiral matter are not", "three gauge generations of chiral matter are not"),
+)
+
+
+def _unmet(text):
+    """the findings of the cold reading that the page does not meet: an old wording back, or a sentence of the source gone"""
+    return sorted({n for n, old, new in MET if (old and old in text) or new not in text})
+
+
+def test_the_six_lines_of_the_cold_reading_are_met():
+    text = SHORT.read_text(encoding="utf-8")
+    assert _unmet(text) == []
+    full = " ".join(PAGE.read_text(encoding="utf-8").split())           # each new sentence is the full account's, in its words
+    for words in ("Three readers then checked it in three parts", "most are assumed, one was adopted by a ruling, one was chosen, one stays open",
+                  "Each of the four inputs is needed", "a conditional reconstruction of a chosen sector",
+                  "only after choosing several inputs by hand or by looking at the data",
+                  "The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones without being specific",
+                  "three *gauge* generations of chiral matter are not", "the gauge three is a selection"):
+        assert words in full, words
+    # planted: each old wording put back, and one new sentence taken out
+    assert _unmet(text.replace("checked line by line, in three parts, by three readers", "checked line by line by three readers")) == [1]
+    assert _unmet(text.replace("only after choosing several inputs by hand or by\n  looking at the data", "only with inputs chosen by hand")) == [5]
+    assert _unmet(text.replace("three gauge generations", "three generations")) == [6]
+    assert _unmet(text.replace("It needs four inputs, each of them needed", "It needs two inputs")) == [4]

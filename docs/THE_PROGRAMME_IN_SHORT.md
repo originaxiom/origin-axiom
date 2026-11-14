@@ -1,8 +1,9 @@
 # The programme in short
 
 *A short account in plain words; every line names where it comes from. The full account, written on 2026-10-30 and
-checked line by line by three readers, is [`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md), and "§" below names its
-sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
+checked line by line, in three parts, by three readers (its Appendix B), is
+[`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md), and "§" below names its sections. Where this page and `GENESIS.md`
+differ, `GENESIS.md` holds.*
 
 ## The idea
 
@@ -14,20 +15,25 @@ sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
 
 ## The mathematics it builds
 
-- A description is a pair of whole-number counts. Two elementary moves, L and R, each add one count to the other, so a
-  description is a word in L and R (§ 2; `GENESIS.md` § 2).
-- Each word acts on a torus with one point removed and builds a three-dimensional space of constant negative curvature.
-  Each such space is called a thread, and all of them together, with the moves acting on them, the weave (§ 3;
-  `docs/THE_WEAVE.md`).
+- To make the principle computable, the programme fixes a small grammar: a description is a pair of whole-number counts,
+  and two elementary moves, L and R, each add one count to the other, so a description is a word in L and R. Each rule
+  of the grammar has a status: most are assumed, one was adopted by a decision, one was chosen, one stays open (§ 2;
+  `GENESIS.md` § 2).
+- Each allowed word (a primitive word using both letters, § 3.1) acts on a torus with one point removed and builds a
+  three-dimensional space of constant negative curvature. Such a space, one object the principle allows, is called a
+  thread, and all of them together, with the moves acting on them, the weave (§ 3; `docs/THE_WEAVE.md`).
 - One thread is picked out by two stated selectors, one assumed and one chosen: the figure-eight knot complement, m004,
-  called the root (§ 3.3; `GENESIS.md` § 4).
+  called the root. It needs four inputs, each of them needed: the two selectors and two of the grammar's assumptions (that
+  the description is not periodic, and that words act on the torus with one point removed). The figure-eight was named
+  before the axioms were written, so this is a conditional reconstruction of a chosen sector, not a derivation of m004
+  from nothing (§ 3.3; `GENESIS.md` § 4).
 
 ## What it has obtained
 
 - Discrete facts belonging to the object: groups, counts, signs and exact numbers. Many of them would come out of any
   comparable object, and the record marks those as generic (§ 5).
-- A three-fold flavour structure is derived on the weave; three generations of chiral matter are not (§ 5.1;
-  `GENESIS.md`, FK14).
+- A three-fold flavour structure is derived on the weave; three gauge generations of chiral matter are not: the three
+  of flavour is derived, and the three of gauge is a selection (§ 5.1; `GENESIS.md`, FK14).
 - Negative results, each holding only within its stated scope: where the structure does not go (§ 6).
 
 ## What it has not obtained
@@ -36,9 +42,10 @@ sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
   data, into particle counts or numbers. A frame is a hypothesis, and none is derived from the principle (§ 4).
 - Reading a geometric quantity as a physical one needs a map that is exhibited and shown to act. Each reading not yet
   earned is an input the programme has not paid for (§ 4.4; `docs/IDENTIFICATION_LEDGER.md`).
-- In one frame the six charged-fermion mass ratios are reached, but only with inputs chosen by hand and about as much
-  freedom as the six numbers carry, so the record grades it a reading and not a derivation. Nothing reaches the mass
-  scales, the gauge couplings, the Higgs sector or θ (§ 7).
+- In one frame the six charged-fermion mass ratios are reached, but only after choosing several inputs by hand or by
+  looking at the data, and with about as much freedom as the six numbers carry, so the record grades it a reading and
+  not a derivation. The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones
+  without being specific. Nothing reaches the mass scales, the gauge couplings, the Higgs sector or θ (§ 7).
 - Of the nineteen free parameters of the Standard Model, **0 of 19** are derived (`docs/MAIN_GOAL.md`).
 
 ## Where it stands
