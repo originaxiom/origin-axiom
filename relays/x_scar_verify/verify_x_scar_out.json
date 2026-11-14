@@ -1,0 +1,281 @@
+{
+  "card": "X-SCAR",
+  "seat": "agy-exp",
+  "empirical_firewall": "0 of 19",
+  "script_sha256": "d2826abb53ccec97a574d213b8c97f8fe218eccbfd7f3f718ca0c44b5a91f9bc",
+  "total_elapsed_seconds": 1567.265,
+  "benchmark_lame_b1667": {
+    "omega6_L_2_abs_diff_vs_closed_form": 1.7457722487808058e-41,
+    "omega6_L_max_abs_diff_vs_closed_form": 1.481427950333381e-41,
+    "bulk_0_137_1_291_L_2": 2.600537462312997
+  },
+  "E1_matter_charge_negation": {
+    "elapsed_seconds": 288.157,
+    "benchmark_b1656_omega_line_1_9": {
+      "c1_b1919": -3.5756271152151236,
+      "c_perp_b1919": 2.231269125594482,
+      "gap_b1919": -5.806896240809606,
+      "max_cB_quadrature_vs_b1919": 1.4498918665914264e-14
+    },
+    "pointwise_bil_reflection_max_err": 1.0850622049331052e-32,
+    "b1656_strip_quadrature_checks": {
+      "active_channel_cases": 23,
+      "max_cB_vs_b1919_closed": 4.9903022126134325e-15,
+      "max_residue_negation_diff": 1.6851887013388314e-34,
+      "max_cB_negation_diff": 5.580382013862016e-32,
+      "max_Mw_quadrature_negation_diff": 1.1606874106316878e-33
+    },
+    "b1919_closed_form_checks": {
+      "max_Mw_negation_diff": 5.648814700840807e-45,
+      "max_Yf_negation_diff": 3.916748278745444e-46,
+      "max_closed_residue_vs_b1656_circle": 1.0011456842004828e-43
+    },
+    "PC_SCAR_2": {
+      "relative_Mw_discrepancy_broken_theta1": 1.054041417082611,
+      "fired": true
+    }
+  },
+  "E2_scar_duality_w_f9": {
+    "elapsed_seconds": 1794648295.131,
+    "levels": [
+      {
+        "state": "+LR",
+        "k": 2,
+        "N": 5,
+        "n_characters": 5,
+        "n_modules_checked": 20,
+        "n_firing_generation_backgrounds": 0,
+        "slope_conjugation_mismatches": 0,
+        "coupling_duality_mismatches": 0,
+        "prime_used": 100151
+      },
+      {
+        "state": "+LR",
+        "k": 3,
+        "N": 4,
+        "n_characters": 16,
+        "n_modules_checked": 240,
+        "n_firing_generation_backgrounds": 48,
+        "slope_conjugation_mismatches": 0,
+        "coupling_duality_mismatches": 0,
+        "prime_used": 100049
+      },
+      {
+        "state": "+LLR",
+        "k": 3,
+        "N": 10,
+        "n_characters": 50,
+        "n_modules_checked": 2450,
+        "n_firing_generation_backgrounds": 48,
+        "slope_conjugation_mismatches": 0,
+        "coupling_duality_mismatches": 0,
+        "prime_used": 100151
+      },
+      {
+        "state": "-LLRLR",
+        "k": 1,
+        "N": 12,
+        "n_characters": 12,
+        "n_modules_checked": 132,
+        "n_firing_generation_backgrounds": 8,
+        "slope_conjugation_mismatches": 0,
+        "coupling_duality_mismatches": 0,
+        "prime_used": 100057
+      },
+      {
+        "state": "-LLLRLR",
+        "k": 1,
+        "N": 15,
+        "n_characters": 15,
+        "n_modules_checked": 210,
+        "n_firing_generation_backgrounds": 16,
+        "slope_conjugation_mismatches": 0,
+        "coupling_duality_mismatches": 0,
+        "prime_used": 100291
+      }
+    ],
+    "total_modules_checked": 3052,
+    "firing_law_mismatches": 0,
+    "fox_duality_mismatches": 0,
+    "intertwiner_2x2_mismatches": 0,
+    "param_involution_mismatches": 0,
+    "higgs_inversion_mismatches": 0,
+    "asymmetric_flip_cases": 0,
+    "orientable_slope_conjugation_mismatches": 0,
+    "orientable_coupling_duality_mismatches": 0,
+    "PC_SCAR_1": {
+      "non_2torsion_higgs_bgs_tested": 120,
+      "non_2torsion_higgs_bgs_violated": 120,
+      "pure_hypercharge_bgs_tested": 2692,
+      "pure_hypercharge_bgs_violated": 2692,
+      "fired": true
+    }
+  },
+  "E3_gl2z_reflection_and_nogo": {
+    "elapsed_seconds": 1053.086,
+    "haar_u3_5_scrambling_max_err": 2.098225497441363e-43,
+    "D_reflection_identity": {
+      "tilde_L2_reflection_diff": 1.244840377546617e-42,
+      "max_PK_conjugation_err": 2.886739139916921e-44,
+      "max_quaternion_j_on_S_err": 0.0,
+      "max_quaternion_i_on_Mw_err": 1.401298464324817e-45
+    },
+    "gl2z_generator_checks_B1": [
+      {
+        "generator": "L_forward",
+        "det": 1,
+        "im_tau_image": 1.29,
+        "W_minus_and_W_plus_ratio_ckm_err": 6.337372304908985e-43,
+        "J_cp_law_err": 1.864383816207159e-44,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": 0.002715189065147601
+      },
+      {
+        "generator": "R_forward",
+        "det": 1,
+        "im_tau_image": 0.5871643149749659,
+        "W_minus_and_W_plus_ratio_ckm_err": 1.0477158293140576e-41,
+        "J_cp_law_err": 3.074864841210245e-43,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": 0.002715189065147601
+      },
+      {
+        "generator": "minus_I2_turn",
+        "det": 1,
+        "im_tau_image": 1.29,
+        "W_minus_and_W_plus_ratio_ckm_err": 0.0,
+        "J_cp_law_err": 0.0,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": 0.002715189065147601
+      },
+      {
+        "generator": "D_undoing",
+        "det": -1,
+        "im_tau_image": 1.29,
+        "W_minus_and_W_plus_ratio_ckm_err": 1.3362694574647435e-43,
+        "J_cp_law_err": 2.3044791151591718e-45,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": -0.002715189065147601
+      },
+      {
+        "generator": "J_golden_tick",
+        "det": -1,
+        "im_tau_image": 0.7426597582037997,
+        "W_minus_and_W_plus_ratio_ckm_err": 4.0536061326756146e-42,
+        "J_cp_law_err": 1.1895162862594766e-43,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": -0.002715189065147601
+      },
+      {
+        "generator": "P_swap_mirror",
+        "det": -1,
+        "im_tau_image": 0.7426597582037997,
+        "W_minus_and_W_plus_ratio_ckm_err": 1.0509738482436128e-43,
+        "J_cp_law_err": 2.025314186719462e-46,
+        "J_cp_base_W_minus": 0.002715189065147601,
+        "J_cp_moved_W_minus": -0.002715189065147601
+      }
+    ],
+    "max_gl2z_ratio_ckm_err_all": 1.0477158293140576e-41,
+    "max_gl2z_J_cp_law_err_all": 3.074864841210245e-43,
+    "p5_24point_orbit_averages": {
+      "generic_bulk_B1": {
+        "W_minus_mean": {
+          "ru1": 0.4636507172674736,
+          "rd1": 0.41689931798739593,
+          "re1": 0.41689931798739593,
+          "vus": 0.8692443309153048,
+          "vcb": 0.15951335260631824,
+          "iud": 0.3593674969489114
+        },
+        "W_plus_mean": {
+          "ru1": 0.4391239224319082,
+          "rd1": 0.4172261392999329,
+          "re1": 0.4172261392999329,
+          "vus": 0.8921105609003342,
+          "vcb": 0.1774972403499313,
+          "iud": 0.33123845587096945
+        },
+        "max_observable_mean_gap": 0.02812904107794196
+      },
+      "generic_bulk_B2": {
+        "W_minus_mean": {
+          "ru1": 0.33286097956786603,
+          "rd1": 0.3317486108930444,
+          "re1": 0.3317486108930444,
+          "vus": 0.9392108575864927,
+          "vcb": 0.13233785533782427,
+          "iud": 0.24999278468557404
+        },
+        "W_plus_mean": {
+          "ru1": 0.3833974380817433,
+          "rd1": 0.350715192492149,
+          "re1": 0.350715192492149,
+          "vus": 0.9119576269958872,
+          "vcb": 0.15266976476782682,
+          "iud": 0.32202822787875457
+        },
+        "max_observable_mean_gap": 0.0720354431931805
+      },
+      "golden_geodesic_apex_B1": {
+        "W_minus_mean": {
+          "ru1": 0.5634518470557421,
+          "rd1": 0.5418034500561237,
+          "re1": 0.5418034500561237,
+          "vus": 0.6700454567746249,
+          "vcb": 0.16451478468696043,
+          "iud": 0.4637269963447907
+        },
+        "W_plus_mean": {
+          "ru1": 0.5469036740698002,
+          "rd1": 0.542324677711975,
+          "re1": 0.542324677711975,
+          "vus": 0.6880590406548458,
+          "vcb": 0.17124995405939708,
+          "iud": 0.45061894078805204
+        },
+        "max_observable_mean_gap": 0.018013583880220937
+      },
+      "golden_geodesic_apex_B2": {
+        "W_minus_mean": {
+          "ru1": 0.5261585893816805,
+          "rd1": 0.5659301566290454,
+          "re1": 0.5659301566290454,
+          "vus": 0.6910595740391343,
+          "vcb": 0.14913010653506464,
+          "iud": 0.4773391825796688
+        },
+        "W_plus_mean": {
+          "ru1": 0.5599390725489681,
+          "rd1": 0.5290451418689843,
+          "re1": 0.5290451418689843,
+          "vus": 0.6299144812764476,
+          "vcb": 0.14978050338149845,
+          "iud": 0.5000397982025286
+        },
+        "max_observable_mean_gap": 0.06114509276268682
+      }
+    },
+    "PC_SCAR_3": {
+      "J_tick_W_minus_vs_W_plus_discrepancy": 0.5698260973546981,
+      "fired": true
+    },
+    "PC_SCAR_4": {
+      "omitted_PK_relative_discrepancy": 2.0,
+      "fired": true
+    }
+  },
+  "planted_controls": {
+    "PC_SCAR_1_fired": true,
+    "PC_SCAR_2_fired": true,
+    "PC_SCAR_3_fired": true,
+    "PC_SCAR_4_fired": true
+  },
+  "all_plants_fired": true,
+  "verdict_summary": {
+    "E1_holds": true,
+    "E2_holds": true,
+    "E3_holds": true,
+    "map_flipping_matter_hypercharge_without_higgs_exists": false
+  }
+}
