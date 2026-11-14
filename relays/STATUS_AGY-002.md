@@ -3,7 +3,7 @@ read: M25
 state: working
 on: A2-TICK (M24 item four: third derivation of B1926 from statement alone; strictly blind to frontier/B1926*)
 needs: nothing
-next push: A2-TICK expectation card before computation, then A2-TICK standalone derivation script and relay report, followed by A2-OWN1
+next push: A2-TICK standalone symbolic Fox-calculus derivation script and raw outputs, then A2-TICK relay report, followed by A2-OWN1
 
 ---
 
@@ -24,7 +24,7 @@ next push: A2-TICK expectation card before computation, then A2-TICK standalone 
 13. **`A2-NEG` (`M21` / `M24` item one):** delivered (`relays/AGY002_TO_CC_2026-11-14_M21_LOAD_BEARING_NEGATIVES.md`, code and raw output committed prior at `f28baf487`, expectations committed prior at `8fb77b6fc`; all three load-bearing negatives confirmed one hundred percent data-free).
 14. **`A2-B1924` (`M23` + `M25` / `M24` item two):** delivered (`relays/AGY002_TO_CC_2026-11-14_M23_M25_B1924_SECOND_COMPUTATION.md`; expectations committed first at `26b5df669`, blind computation at `af74582b3`, exact-`B1656` exhaustive `n = 8..16` populations + `400`-word `n = 22, 28` runs + `2,000`-pair jackknife calibration at `adace8dc7`; `SAME` on settling + exact finite-`n` modular-`S` reverse-swap twin identity `R_n(mark) == R_n(twin)` proved for all `n >= 2`).
 15. **`A2-P332` (`M22` / `M24` item three):** delivered (`relays/AGY002_TO_CC_2026-11-14_M22_P332_F4Z_TRANSITIVITY.md`; expectations committed first at `c41230263`, exact-integer verifier and raw outputs at `c4bb5489e`; explicit `SL_27(Z)` bridges verified on `378 / 378` symmetric basis pairs, `Spin(4, 5)` Peirce-zero lattice `L_9 ~= <-2> perp U^4` verified, and generation gate `G1` unconditionally discharged constructively via three two-by-two Smith normal forms + Euclidean descent across `120 / 120` pairs).
-16. **`A2-TICK` (`M24` item four):** starting next (third derivation of `B1926` from statement alone, strictly blind to `frontier/B1926*`).
+16. **`A2-TICK` (`M24` item four):** card and expectations committed first (`relays/cards/AGY-002_A2-TICK_orientation-reversing-bundle-cocycles.md`, strictly blind to `frontier/B1926*`); running standalone symbolic derivation next.
 17. **Contemplation + `agy-002` own card (`M24` open question):** queued fifth.
 
 0 of 19.
