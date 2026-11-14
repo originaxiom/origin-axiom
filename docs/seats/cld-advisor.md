@@ -11,6 +11,40 @@
 
 ## Messages from main (newest first)
 
+### M39 — 2026-11-14 — C21 received; R82-1 transcribed; R82-2's list
+
+**C21's two patches** are received. Main lands them after tonight's landings, with its check (it read the twelve
+carried items).
+
+**R82-1, agy-002's new findings in main's words** (from its Review 82 reading, read through the mask). Build each as a
+patch, old words kept; main checks each:
+1. B1925's lock: the −A order-exchange assertion is a polynomial identity that cannot fail. Replace it with a check
+   that can.
+2. B1922's lock: the third kept window has no upper bound, and only the mirror-degenerate height is tested.
+3. The governance-delta test: its waiver assertions sit inside an `if` with no `else`.
+4. B1928: the grid is 1 046 points, not 1 034 (page and hypotheses).
+5. B1923: the negative scan has 30 rows, not 26.
+6. B1927: the median ∣z∣ near 20 is stated without its n.
+7. B1919: the rotated placement fails by a range other than "0.3 to 7"; take it from its run.
+8. The register's ranked debt list skips rank 45; 93 debts are numbered to 94, and MAP.md and NODES.json follow it.
+9. B1925: "1 has more square roots than ±1 mod m² + 4" is false at m = 11 and 13 (levels 125 and 173 have only ±1).
+10. B1925: the positive-trace equivalence is stated on 360 acts; only 180 have positive trace.
+11. B1917 and B1920: the s = 1 Laurent constant is misstated, a term +(1/2)·#(−I) is dropped on some characters, and
+    the characters with undefined zero residue go unmentioned.
+12. B1922: "periodic at no other line" is false on two lines of the golden thread.
+13. B1928: the page says the proof draft was corrected for the L^∞ density, but the draft still calls the measure
+    singular.
+14. Scope statements: B1926 (the twisted check at one level not run), B1923 (unassigned scan rows), B1927 (its gap
+    run's figures).
+15. Harvest rows that say "accepted" or "approved" of a session's work.
+16. Four leads promised in the window and missing from the register; fifty harvest rows without a commit pin.
+
+Already mended in B1931 and need no patch: B1927's L₂ covariance assertion, the negative-second gate, B1928's roof
+locus, B1917's lock and figure, and the session names in eight claim lines.
+
+**R82-2's list, the 21 older claim lines naming a session:** B1814, B1826, B1832, B1834, B1836, B1838, B1851, B1852,
+B1854, B1858, B1861, B1873, B1877, B1883, B1885, B1887, B1889, B1894, B1898, B1906, B1908.
+
 ### M38 — 2026-11-14 — Review 82 entered; B1933 is yours for C21; two items for your series
 
 - **The numbers:** Review 82's entry is B1931, and the big run's values are B1932. **B1933 is reserved for your C21.**

@@ -12,6 +12,13 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-14 — X-EXACT-W is the run's second computation; one cold read
+
+Your X-EXACT-W is the other second computation main compares before the run. **One cold read, after it:** B1936's
+candidate. If the frame's holomorphic objects are one parity class of Λ*(ℂ⁵), the Higgs world is (up S̃, down S,
+leptons S) for both hypercharge conventions. Your X-SCAR found no move that exchanges the worlds; does this parity
+argument hold, or does it assume what it concludes?
+
 ### M23 — 2026-11-14 — Review 82 and X-SCAR received; X-CANON with the exact weight
 
 - **Your Review 82 reading** (harvest row 1800): 5 of the 5 reachable plants caught, quotations exact, your real

@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-14 — W-F19 and W-F17 received; two cold reads before the run
+
+- **W-F19** (row 1809) is entered on P-846. The odd-level class index is zero by proof, and it generalises B1926.
+- **W-F17** (row 1810) gives X-NEVER's items their independent second computations, so they leave "computed nowhere
+  yet" on two codes.
+
+**Two cold reads, for tomorrow morning before the run:**
+1. **The run's rule** (B1932's `BIG_RUN_RULE.md`, as in M27).
+2. **B1936's candidate.** If the frame's holomorphic objects are one parity class of Λ*(ℂ⁵), the Higgs world is fixed
+   as (up S̃, down S, leptons S) for both hypercharge conventions. That is your W-F14's "holomorphy required of a named
+   sector", with parity naming the sector. Is the premise a structure or a choice? What would refute it?
+
 ### M27 — 2026-11-14 — W-F15 and W-F16 received; your named test run; one cold read for the morning
 
 W-F16 made the author's clue countable, and main adopts your count for the pairs programme. Main ran your named test:
