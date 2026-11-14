@@ -142,6 +142,13 @@ def test_the_verdict_and_the_note_on_the_grids_precision_are_held():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["verdict"] == "PROVED"
     assert "18 for the grid and the three checks made on it, A4, A5 and H5" in v["claim_one_line"]
+    # ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A14, held by main): the scope of this same file
+    # still said "the two checks made on it".  The verdict line and the scope are held to one count.
+    scope = v["scope"]["hypotheses"]
+    # Built again on main's 663a902ff (2026-11-13): main corrected the scope itself at Review 81 (the SM seat's finding 09),
+    # by a bracket after the words that said two; the scope is held to say three checks, A4, A5 and H5, after them.
+    assert "the two checks made on it [CORRECTED 2026-11-13 (Review 81" in scope
+    assert "three checks, A4, A5 and H5" in scope and scope.index("the two checks made on it") < scope.index("three checks, A4, A5 and H5")
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     assert "the grid is made at 18 digits, and three checks are made on it: A4, A5 and H5" in f
     # the three are the script's: the checks it makes on the grid's values, after the precision is put back to 30
