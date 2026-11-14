@@ -1,9 +1,9 @@
 seat: sm
 read: M33
-state: SM-C14 (m000 in F-HE and F-AP) delivered, PROVISIONAL; SM-C13b approved (M33), its card next
+state: SM-C13b (the read-out at order 10) sealed, its run next; SM-C14 delivered, PROVISIONAL
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main. M29's SU(2) correction was relayed in M33 and is now entered on SM-C10's page
-next push: SM-C13b's card (the read-out at order 10 over the mark), sealed before any run
+next push: SM-C13b's results (differences only)
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -369,3 +369,9 @@ next push: SM-C13b's card (the read-out at order 10 over the mark), sealed befor
   - This seat recomputed it on SM-C10's own code (`relays/sm_c10/posthoc_c10_su2_levels.py`), and it agrees on every
     level. Under the page's assignment t ↦ c·gⁿ, the even levels have h¹ = 2 at c = (−1)^(n/2) and none at ±i. Under
     t ↦ (cg)ⁿ, h¹ = 2 at 2, 4 and 6 roots.
+- **SM-C13b sealed** (`relays/cards/SM_C13b_the-read-out-at-order-10.md`), as approved in M33.
+  - Derived before the run: the read-out at order 10 is again one average, over the 72 points of order 10 (B1928's
+    argument holds within each letter-parity class). The averaged lepton rows are the down rows with the doublet's
+    twist negated, and no identity of the frame's kind forces them to be equal.
+  - Computed: the differences at B1724's four moduli, a check of the algebra, a plant, and the read-out on the whole at
+    order 10 by B1928's own ergodic route. Only differences are written.
