@@ -834,9 +834,12 @@ def eval_p5_avg_four_modes_mp(x_val: float, y_val: float, L2_raw_val: float, dps
     """
     Arbitrary-precision mpmath evaluation of the P_5-averaged 12 outputs across all 4 modes
     at tau = x_val + i * y_val with canonical raw end L_2(tau) = L2_raw_val.
-    Eliminates IEEE float64 SVD singular-subspace underflow in the cusp y > 5.
+    Dynamically scales decimal working precision linearly with Im(tau) (dps_eff >= 2.15 * y + 55,
+    exceeding the steepest singular-value decay ~ 1.8 * y digits on P_5 by > 55 digits)
+    so singular values and theta residues never underflow.
     """
-    with mp.workdps(dps):
+    dps_eff = max(dps, int(math.ceil(2.15 * y_val)) + 55)
+    with mp.workdps(dps_eff):
         tau = mp.mpc(mp.mpf(repr(x_val)), mp.mpf(repr(y_val)))
         yv = mp.im(tau)
         L2 = mp.mpf(repr(L2_raw_val))
@@ -845,7 +848,7 @@ def eval_p5_avg_four_modes_mp(x_val: float, y_val: float, L2_raw_val: float, dps
 
         xq = mp.exp(mp.j * mp.pi * tau / 4)
         c3_S = [mp.mpc(0), mp.mpc(0), mp.mpc(0)]
-        cutoff_serre = mp.mpf(10) ** (-(dps + 10))
+        cutoff_serre = mp.mpf(10) ** (-(dps_eff + 10))
         for k_int, cols_frac in SERRE_EXACT_ROWS:
             pw = xq ** k_int
             if abs(pw) < cutoff_serre and k_int > 8:
@@ -911,7 +914,7 @@ def eval_p5_avg_four_modes_mp(x_val: float, y_val: float, L2_raw_val: float, dps
             "W_plus_old": np.zeros(12, dtype=np.float64),
         }
         half = mp.mpf("0.5")
-        zero_thr = mp.mpf(10) ** (-dps + 20)
+        zero_thr = mp.mpf(10) ** (-dps_eff + 25)
 
         for ja, jb in P5_HALF_12_INT:
             a_p = mp.mpf(ja) / 5
@@ -1106,30 +1109,54 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
             res[mode_k] = np.sum(w_arr[:, None] * mat, axis=0)
         return res, float(np.sum(w_arr)), pts_xy, evals, w_arr
 
-    with Pool(n_workers) as pool:
-        mid_coarse, _, _, _, _ = integrate_strip_mp(8, 10, 1.0 / 55.0, 0.2, 150, pool)
-        mid_fine, mass_mid_f, mid_pts_xy, mid_evals, mid_w = integrate_strip_mp(12, 16, 1.0 / 55.0, 0.2, 150, pool)
-        deep_fine, mass_deep_f, _, _, _ = integrate_strip_mp(6, 6, 0.0, 1.0 / 55.0, 300, pool)
+    target_cusp_limit = np.array([0.0] * 9 + [5.0 / 12.0, 5.0 / 12.0, 7.0 / 12.0], dtype=np.float64)
 
-        # Verify exact rational cusp limit (0, 0, 0, 0, 0, 0, 0, 0, 0, 5/12, 5/12, 7/12) at y = 80
-        cusp_y80 = pool.map(_mp_cusp_worker, [(-0.23, 80.0, end_eval.L2_cusp_inf, 260), (0.31, 80.0, end_eval.L2_cusp_inf, 260)])
+    with Pool(n_workers) as pool:
+        mid_a_c, _, _, _, _ = integrate_strip_mp(8, 10, 1.0 / 20.0, 0.2, 110, pool)
+        mid_a_f, mass_ma_f, _, _, _ = integrate_strip_mp(12, 14, 1.0 / 20.0, 0.2, 110, pool)
+        mid_b_c, _, _, _, _ = integrate_strip_mp(4, 8, 1.0 / 60.0, 1.0 / 20.0, 185, pool)
+        mid_b_f, mass_mb_f, _, _, _ = integrate_strip_mp(6, 10, 1.0 / 60.0, 1.0 / 20.0, 185, pool)
+
+        # Deep-cusp strip u in [0, 1/60] (y >= 60): x-Fourier modes are < exp(-2*pi*60/8) ~ 3*10^{-21},
+        # and O_bar(u) is smooth in u = 1/y down to O_bar(0) = target_cusp_limit (with up__1_over_2 ~ c_1 * u
+        # from the a_p = 0 Kronecker y-linear zero-winding row, and all other 11 outputs exponential in -1/u).
+        # Evaluate u_j = j / 240 for j = 1, 2, 3, 4 (y = 240, 120, 80, 60) + x-independence check at y = 80.
+        u0_deep = 1.0 / 60.0
+        deep_ys = [240.0, 120.0, 80.0, 60.0]
+        deep_taus = np.array([complex(0.17, yv) for yv in deep_ys] + [complex(-0.31, 80.0)], dtype=np.complex128)
+        deep_l2 = end_eval.eval_L2_raw_batch(deep_taus)
+        deep_tasks = [(float(deep_taus[i].real), float(deep_taus[i].imag), float(deep_l2[i]), 200) for i in range(5)]
+        deep_ev = pool.map(_mp_cusp_worker, deep_tasks)
 
         # Planted Control PC_MEAS_1: compare float64 SVD vs mpmath SVD at y = 22, 28, 35
         pc1_ys = [22.0, 28.0, 35.0]
         pc1_taus = np.array([complex(0.17, yv) for yv in pc1_ys], dtype=np.complex128)
         pc1_l2 = end_eval.eval_L2_raw_batch(pc1_taus)
-        pc1_mp = pool.map(_mp_cusp_worker, [(0.17, pc1_ys[i], float(pc1_l2[i]), 160) for i in range(3)])
+        pc1_mp = pool.map(_mp_cusp_worker, [(0.17, pc1_ys[i], float(pc1_l2[i]), 140) for i in range(3)])
         pc1_f64 = _eval_f64_p5_avg_grid(pc1_taus, end_eval)
 
-    total_mass = mass_bulk_f + mass_mid_f + mass_deep_f
+    mass_deep_f = norm_prefac * 1.0 * u0_deep
+    deep_fine: Dict[str, np.ndarray] = {}
+    deep_coarse: Dict[str, np.ndarray] = {}
+    for k in ("W_minus_T90", "W_minus_old", "W_plus_T90", "W_plus_old"):
+        f0 = target_cusp_limit
+        f1 = deep_ev[0][k]  # u = 1/240 (y = 240)
+        f2 = deep_ev[1][k]  # u = 2/240 = 1/120 (y = 120)
+        f3 = deep_ev[2][k]  # u = 3/240 = 1/80 (y = 80)
+        f4 = deep_ev[3][k]  # u = 4/240 = 1/60 (y = 60)
+        # Boole's rule on [0, u0_deep] vs Simpson's rule on [0, u0_deep]
+        deep_fine[k] = mass_deep_f * ((7.0 * f0 + 32.0 * f1 + 12.0 * f2 + 32.0 * f3 + 7.0 * f4) / 90.0)
+        deep_coarse[k] = mass_deep_f * ((f0 + 4.0 * f2 + f4) / 6.0)
+
+    total_mass = mass_bulk_f + mass_ma_f + mass_mb_f + mass_deep_f
     assert abs(total_mass - 1.0) < 1e-12, f"Poincare area normalization error: {total_mass}"
 
     exact_area: Dict[str, np.ndarray] = {}
     coarse_area: Dict[str, np.ndarray] = {}
     quad_err: Dict[str, np.ndarray] = {}
     for k in ("W_minus_T90", "W_minus_old", "W_plus_T90", "W_plus_old"):
-        exact_area[k] = bulk_fine[k] + mid_fine[k] + deep_fine[k]
-        coarse_area[k] = bulk_coarse[k] + mid_coarse[k] + deep_fine[k]
+        exact_area[k] = bulk_fine[k] + mid_a_f[k] + mid_b_f[k] + deep_fine[k]
+        coarse_area[k] = bulk_coarse[k] + mid_a_c[k] + mid_b_c[k] + deep_coarse[k]
         quad_err[k] = np.abs(exact_area[k] - coarse_area[k])
 
     # Naive float64 integral over the entire u in (0, 1/sqrt(1-x^2)] (showing float64 SVD cusp corruption)
@@ -1178,12 +1205,13 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
     r20 = cutoff_table["20"]["max_rel_bias_vs_full_claimed_7"]
     pc2_fired = bool(r5 > 0.10 and (r3 > r5 > r10 > r20 > 0.0))
 
-    target_cusp_limit = np.array([0.0] * 9 + [5.0 / 12.0, 5.0 / 12.0, 7.0 / 12.0], dtype=np.float64)
-    y80_err_vs_rational = max(
-        float(np.max(np.abs(cusp_y80[0]["W_minus_T90"] - target_cusp_limit))),
-        float(np.max(np.abs(cusp_y80[1]["W_minus_T90"] - target_cusp_limit))),
-    )
-    assert y80_err_vs_rational < 1e-9, f"Cusp y=80 limit mismatch: {y80_err_vs_rational}"
+    idx_exp11 = [i for i in range(12) if i != 2]
+    # deep_ev[2] is (0.17, 80.0) and deep_ev[4] is (-0.31, 80.0)
+    y80_x_indep_err = float(np.max(np.abs(deep_ev[2]["W_minus_T90"] - deep_ev[4]["W_minus_T90"])))
+    y80_exp11_err_vs_rational = float(np.max(np.abs(deep_ev[2]["W_minus_T90"][idx_exp11] - target_cusp_limit[idx_exp11])))
+    up12_slope_inv_y = float(240.0 * deep_ev[0]["W_minus_T90"][2])
+    assert y80_x_indep_err < 1e-14, f"y=80 x-dependence error: {y80_x_indep_err}"
+    assert y80_exp11_err_vs_rational < 1e-9, f"Cusp y=80 limit mismatch on 11 exponential outputs: {y80_exp11_err_vs_rational}"
 
     four_combos_out = {}
     for k_json, k_int in (
@@ -1206,12 +1234,15 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
         "cusp_treatment": {
             "compactification": "u = 1/y on (0, 1/sqrt(1 - x^2)] with constant Jacobian (3/pi) dx du",
             "bulk_region": "y <= 5 (float64 24x32 Gauss-Legendre, area fraction ~ 81%)",
-            "mid_cusp_region": "5 < y <= 55 (mpmath dps=150 12x16 Gauss-Legendre, area fraction ~ 17%)",
-            "deep_cusp_region": "y > 55 (mpmath dps=300 6x6 Gauss-Legendre, area fraction ~ 2%)",
+            "mid_cusp_region_A": "5 < y <= 20 (mpmath dynamic-dps 12x14 Gauss-Legendre)",
+            "mid_cusp_region_B": "20 < y <= 60 (mpmath dynamic-dps 6x10 Gauss-Legendre)",
+            "deep_cusp_region": "y >= 60 (Boole vs Simpson rule on u in [0, 1/60] anchored at exact rational u = 0 limit)",
             "L2_cusp_limit_inf": end_eval.L2_cusp_inf,
             "total_normalized_area_check": total_mass,
             "exact_cusp_rational_limit_12": _dict_12(target_cusp_limit),
-            "y80_max_err_vs_exact_rational_cusp_limit": y80_err_vs_rational,
+            "y80_x_independence_max_err": y80_x_indep_err,
+            "y80_max_err_vs_exact_rational_on_11_exp_outputs": y80_exp11_err_vs_rational,
+            "up_1_over_2_linear_inv_y_cusp_slope": up12_slope_inv_y,
             "max_quadrature_refinement_err_W_minus_T90": float(np.max(quad_err["W_minus_T90"])),
         },
         "PC_MEAS_1_float64_cusp_svd_underflow": {
