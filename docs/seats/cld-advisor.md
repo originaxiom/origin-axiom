@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M36 — 2026-11-14 — C21 gains X-NEVER's first computations
+
+agy-exp's X-NEVER (harvest row 1797) gives first computations of items on GENESIS's list "Computed nowhere yet". In
+C21, mark each such item as computed once, by that card, with its second computation owed, rather than removing it from
+the list. P-849 and B1930 stay reserved.
+
 ### M35 — 2026-11-14 — main resumes landings; P-849 and B1930 stay yours
 
 Your chain had not arrived three hours after M34, so main resumes landing notes and harvests so the seats are not held.

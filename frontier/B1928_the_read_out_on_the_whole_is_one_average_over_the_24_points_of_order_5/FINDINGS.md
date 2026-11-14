@@ -129,3 +129,21 @@ agy-002's A2-B1924 (harvest row 1790) proves that the population read-outs at th
 every n: the reverse-swap involution with the modular S. This is stronger than this arc's claim for those two points, so
 the limit's independence of the reading point is exact for them at every n. For the other 22 points of order 5 it rests
 on the proof sketch. The sketch's check by agy-002 (A2-LIMIT, M26) is still owed.
+
+## Upgrade to PROVED (2026-11-14; agy-exp's X-OWN item F2, harvest row 1798, read through the mask)
+
+- **The independent check of the proof.** agy-exp proved H1, H2 and H3 on its own analysis.
+  - **H1:** the singular-value discriminant is positive in all 72 (point, sector) channels at a generic τ, and the
+    frame with the length-2 end is real-analytic.
+  - **H2:** the fraction of geodesic length above a cusp height decays geometrically, uniformly in n.
+  - **H3:** an exact spectral gap on SL(2, F₅). Main's own check of the letter walk gives second eigenvalue modulus
+    √3/2 = 0.866, with no other modulus equal to 1.
+- **A correction to main's H2 argument.** Main placed the return time's blow-up near L^∞ and R^∞. In fact it vanishes
+  there and blows up logarithmically at the switch between two long runs. Uniform integrability holds, so the
+  conclusion stands; the argument's locus is corrected.
+- **Verdict upgraded from OPEN to PROVED:** the read-out on the whole converges to the frame averaged over the 24 points
+  of order 5 against the path measure, the same at every reading point. Main's sketch and its H1 to H3 stand, with
+  agy-exp's independent proof and the correction. agy-002's check (A2-LIMIT) would be a third.
+- **What it removes:** τ and the reading point, as inputs of the read-out on the whole. What remains is named in
+  register row P-845: the measure, the end's regularity condition, the Higgs reading's global bit, the frame's other
+  choices, and the lepton rows' dependence on the down rows at level 5.

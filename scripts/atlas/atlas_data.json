@@ -17061,8 +17061,8 @@
     "wrt_quantum"
    ],
    "refs": [],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -17083,7 +17083,7 @@
     "P3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 9,
+   "obstacle_conf": 11,
    "status": "banked",
    "domain": "physics"
   },

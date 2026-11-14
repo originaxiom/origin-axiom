@@ -14,9 +14,9 @@
 | what | count |
 |---|---|
 | arcs with a verdict file | 1624 |
-| … PROVED | 1127 |
+| … PROVED | 1128 |
 | … NEGATIVE | 384 |
-| … OPEN | 100 |
+| … OPEN | 99 |
 | … RETRACTED | 13 |
 | register points | 848 |
 | … QUEUED | 305 |
@@ -24,7 +24,7 @@
 | … OWNER | 0 |
 | … DONE | 527 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1796 |
+| harvest rows (the last number) | 1798 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -32,7 +32,7 @@
 | arc | verdict | claim |
 |---|---|---|
 | B1929 | PROVED | THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p… |
-| B1928 | OPEN | THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (OPEN: a proof sketch with three hypotheses unchecked): the letters' images generate SL(2, F5), which is perfect and acts transitively on the 24 poi… |
+| B1928 | PROVED | [UPGRADED 2026-11-14 from OPEN on agy-exp's independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (… |
 | B1927 | PROVED | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi… |
 | B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
 | B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol… |

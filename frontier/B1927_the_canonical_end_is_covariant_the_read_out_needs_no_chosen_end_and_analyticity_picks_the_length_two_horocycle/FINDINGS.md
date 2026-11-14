@@ -105,3 +105,10 @@ conventions. B1816 (the accessory parameter is a Weil–Petersson primitive) sup
 - `verification/positivity.py` → `positivity_run.txt`.
 - `verification/smoothness.py` → `smoothness.json`, `smoothness_run.txt`.
 - The lock: `verification/test_b1927_canonical_end.py`.
+
+## Second computation (2026-11-14; agy-exp's X-OWN item F1, harvest row 1798, read through the mask)
+
+On its own 45-digit Lamé solver, agy-exp reproduced B1667's values and the covariance. It found the A- and B-cycle scales
+coinciding on the arc ∣τ∣ = 1 to below 10⁻³⁸, the tie this page found. Its radial second differences across the arc
+converge to 4 for the length-2 end (smooth) and give 2 for the maximal horoball (the corner). It cites Bers and Kra for
+the length-2 end's real-analyticity on all of ℍ. This page's decisive result stands on two codes.
