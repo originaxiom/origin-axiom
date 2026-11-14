@@ -3175,12 +3175,16 @@ _PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|
                       r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
 _PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
 _PF_COMMAND = re.compile(r"(?<=query\.py )card\b")             # the atlas query's subcommand is a command, not the word
+_PF_FILENAME = re.compile(r"\bmain(?=\.(?:tex|py|md|json)\b)")   # a file named main (main.tex) is a name, not the word (C14, patch 10)
+PUBLIC_FACE_FROZEN = ("papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")   # frozen: errata only
+PUBLIC_FACE_ERRATA = "papers/P3_THE_PAPER/ERRATA.md"
 
 
 def public_face_words(text):
     """the inner words of a text, counted by word (in lower case; a possessive or plural counted as its word)"""
     import collections as _c
-    plain = {m.start() for m in _PF_MAIN_PLAIN.finditer(text)} | {m.start() for m in _PF_COMMAND.finditer(text)}
+    plain = {m.start() for m in _PF_MAIN_PLAIN.finditer(text)} | {m.start() for m in _PF_COMMAND.finditer(text)} | \
+            {m.start() for m in _PF_FILENAME.finditer(text)}
     out = _c.Counter()
     for m in _PF_WORD.finditer(text):
         if m.start() in plain:
@@ -3218,6 +3222,25 @@ def working_index_own_words():
     return {p: dict(public_face_words(t)) for p, t in out.items()}
 
 
+
+def public_face_unentered(reader=None):
+    """C14, patch 10 (main's M25, answer 5): the paper is frozen after its ninth draft, so its inner words are entered as
+    errata and not rewritten. Each line of a frozen page that carries an inner word must have its row in the errata: the
+    file, the line's number, and words as printed that stand in that line. Returns what is not entered."""
+    reader = reader or (lambda rel: _read(rel))
+    rows = []
+    for l in reader(PUBLIC_FACE_ERRATA).split("\n"):
+        c = [x.strip() for x in l.strip().strip("|").split(" | ")]
+        if len(c) == 4 and c[0].startswith("`") and c[1].isdigit():
+            rows.append((c[0].strip("`"), int(c[1]), c[2]))
+    missing = []
+    for rel in PUBLIC_FACE_FROZEN:
+        for n, line in enumerate(reader(rel).split("\n"), 1):
+            if public_face_words(line) and not any(f == rel and k == n and w in line for f, k, w in rows):
+                missing.append("%s, line %d: not entered in %s" % (rel, n, PUBLIC_FACE_ERRATA))
+    return missing
+
+
 def public_face_counts(reader=None, pages=None):
     reader = reader or (lambda rel: _read(rel))
     out = {}
@@ -3251,6 +3274,7 @@ def gate_public_face(reader=None, own_words=None):
     counts = public_face_counts(reader)
     bad = public_face_problems(counts)
     own = working_index_own_words() if own_words is None else own_words
+    bad += public_face_unentered(reader)
     bad += ["%s: its generator writes %r %d times itself" % (rel, w, n) for rel, c in sorted(own.items()) for w, n in sorted(c.items())]
     if bad:
         return False, "%d inner word(s) on the public face above what is held: " % len(bad) + "; ".join(bad[:6])
@@ -3266,13 +3290,13 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
     # docs/MAIN_GOAL.md: at zero since C14's seventh patch (2026-11-13)
     # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
-    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
+    'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 29, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
     'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
     'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
     'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
-    'papers/P3_THE_PAPER/verification_package/README.md': {'main': 3},
+    'papers/P3_THE_PAPER/verification_package/README.md': {'main': 1},
 }
 
 

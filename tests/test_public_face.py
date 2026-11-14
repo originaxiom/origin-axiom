@@ -149,3 +149,23 @@ def test_a_working_index_quotes_the_record_and_its_generator_writes_no_inner_wor
     # the twin of the plant: a quotation with its marks taken off is counted as the generator's own
     unmarked = text.replace("“", "").replace("”", "")
     assert sum(g.public_face_words(unmarked).values()) > 0
+
+
+def test_the_frozen_paper_has_its_inner_words_entered_as_errata():
+    """C14, patch 10 (main's M25, answer 5): the paper is frozen after its ninth draft; each line of it, and of its
+    verification package's README, that carries an inner word has a row in the errata. A file named main.tex is a name.
+    Planted: a row taken out of the errata, and an inner word added to a line of the paper."""
+    g = _gates()
+    assert g.public_face_unentered() == []
+    real = {rel: (ROOT / rel).read_text(encoding="utf-8") for rel in g.PUBLIC_FACE_FROZEN + (g.PUBLIC_FACE_ERRATA,)}
+    errata = real[g.PUBLIC_FACE_ERRATA]
+    row = [l for l in errata.split("\n") if "| 1249 |" in l][0]
+    gone = dict(real, **{g.PUBLIC_FACE_ERRATA: errata.replace(row + "\n", "")})
+    assert g.public_face_unentered(reader=gone.get) == ["papers/P3_THE_PAPER/main.tex, line 1249: not entered in papers/P3_THE_PAPER/ERRATA.md"]
+    tex = real["papers/P3_THE_PAPER/main.tex"].split("\n")
+    tex[9] = tex[9] + " as the lane found"
+    added = dict(real, **{"papers/P3_THE_PAPER/main.tex": "\n".join(tex)})
+    assert g.public_face_unentered(reader=added.get) == ["papers/P3_THE_PAPER/main.tex, line 10: not entered in papers/P3_THE_PAPER/ERRATA.md"]
+    # a file named main is a name; the word is the word
+    assert dict(g.public_face_words("build `papers/P3_THE_PAPER/main.tex` with build.sh")) == {}
+    assert dict(g.public_face_words("as main checked it")) == {"main": 1}
