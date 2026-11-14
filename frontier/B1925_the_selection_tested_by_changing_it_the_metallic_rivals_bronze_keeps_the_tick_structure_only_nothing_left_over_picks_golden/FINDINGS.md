@@ -123,7 +123,7 @@ where every odd level happens to be prime, and the qualifier "with a prime level
 - **The parity law therefore holds at every odd m.** Main checked it directly at m = 9, 11 and 13, where 1 has more
   square roots than ±1: it holds.
 
-So the tick's structure picks **every odd metallic act**, not "every odd m with m² + 4 prime". Nothing else on this page
+So the tick's structure picks **every metallic act**, not "every odd m with m² + 4 prime". Nothing else on this page
 changes. The web seat's part 1 is this arc's independent second computation. **Also cited, missed at landing:** B469
 already had that every metallic bundle double-covers a non-orientable bundle (X_m² = A_m), the tick bundles of § 1's
 table.

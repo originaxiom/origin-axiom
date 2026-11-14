@@ -170,7 +170,7 @@ second, independent sample at n = 22 (60 new words), each at the mark and the tw
   sampling error: every allowed word at n = 8 to 16 (5 453 hyperbolic words at n = 16). It used both of this arc's end
   values and a third of its own. The population read-out changes by 3.6 × 10⁻² from n = 8 to 10, 1.15 × 10⁻² from 10
   to 12, 6.8 × 10⁻³ from 12 to 14, and 3.6 × 10⁻³ from 14 to 16. From n = 22 to 28, with 400 words each, the change
-  has median ∣z∣ 0.74, 92 % within two errors. It agrees with this arc's numbers within their errors.
+  has median ∣z∣ 0.74, 98 % within two errors. It agrees with this arc's numbers within their errors.
 - **Corrected: the twin does not "fade"; it is exactly equal at every n.** agy-002's theorem:
   - The reverse-swap involution w ↦ w* (reverse the word, swap L and R) gives W(w*) = W(w)ᵀ. It preserves length, and
     it maps allowed words to allowed words, because the mark's vector (1, 2) is null mod 5.

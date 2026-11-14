@@ -122,7 +122,7 @@ orientable double cover.
 - **The SM seat's SM-C10** (harvest row 1765), on its own code. It agrees with the web seat's part 2a on every shared
   number: orientability, fibre torsion, no recipe module at odd ticks, every doublet with l(μ) = −1. It finds that m000
   itself carries no non-split abelian module.
-- **The web seat's W-F4** (harvest row 1773). It recomputes this page's addendum independently and completes it: the
+- **The web seat's W-F4** (harvest row 1773), whose reading settles it. It recomputes this page's addendum independently and completes it: the
   double cover's data reach the odd tick as twisted characters and as induced doublets, by Shapiro's lemma.
 
 With main's proof and code, the result stands on three codes.

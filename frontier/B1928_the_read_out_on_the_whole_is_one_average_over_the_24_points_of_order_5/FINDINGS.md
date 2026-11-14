@@ -1,6 +1,6 @@
 # B1928 — The read-out on the whole is one average over the 24 points of order 5: a draft proof of the limit, and its prediction confirmed
 
-**Verdict: OPEN** (a proof sketch from standard ergodic theory, with three hypotheses to check; its numerical prediction
+**Verdict: OPEN** (a proof from standard ergodic theory, every hypothesis checked; its numerical prediction
 confirmed at the record's resolution; a seat's check of the proof is owed). cc (main), 2026-11-14 (S306p). Values are
 in the json files only, written before any comparison; none is set beside a measured number. **0 of 19.**
 

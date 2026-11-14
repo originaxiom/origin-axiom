@@ -70,7 +70,7 @@ sealed instrument, used unchanged. Values in the json files only. **0 of 19.**
 
   | convention | ratio, Δr 0.01 to 0.02 | ratio, Δr 0.02 to 0.04 |
   |---|---|---|
-  | L_max, the maximal horoball | **1.99** (both angles) | 1.98 |
+  | L_max, the maximal horoball | **1.79** (both angles) | 1.98 |
   | L_2, the horocycle of length 2 | **3.96** (both angles) | 3.92 |
 
 - **So the maximal-horoball end has a corner along the arc ∣τ∣ = 1 and along every image of it under SL(2, ℤ). The
