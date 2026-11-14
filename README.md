@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1626: 1130 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
 | points in the register | 849: 310 open (queued work, leads, and questions not yet decided), 539 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
+| the last landing | S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PR… |
 <!-- STATE:END -->
 
 ## Start here

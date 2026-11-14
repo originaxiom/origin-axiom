@@ -1,5 +1,14 @@
 # Changelog
 
+## S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831, P-849) (2026-11-12)
+
+- **Built as patches by the building session** from main's draft, rows and script for B1905 and main's card C13, read cold by a verifying session, and landed by main after its own check. The page, the verdict line, every number and the rule are main's; none is reworded.
+- **The arc B1905:** main's page and verdict file as drafted, its 636 rows, its lists, its script and its kept run. Its lock holds the rows by their digest, makes the tables again from them, finds every number of the page and of the verdict line in a sentence built from the rows, looks for every quotation at the commit the readers read (and says so aloud where that commit is not in the clone), and fails on main's two plants.
+- **The rule** "BEFORE A SELECTION OR A HAND IS CLAIMED" is the last section of the working rules, in main's words.
+- **The ledger of walls** (`docs/views/LEDGER_OF_WALLS.md`) is generated with the views from B1905's rows alone: for each of the eight walls, where it was first met, the arcs that settled their question without a pick, what was tried by which kind of principle and how it ended, the questions found to be wrong, and those later corrected. Two of its readings are the builder's and say so; row P-849 holds what is open about it.
+- **The topic sweep** prints the ledger's row of every wall whose name or words its expression matches, before its own list.
+- **The gate `selection-family`,** the 54th: a verdict line from B1905 on that claims a selection, with a value or a member as its object, has a page that names a finite classification or a consistency condition. Older lines are counted and not read: 114 on the day it came in.
+
 ## S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-11-12)
 
 - **Built as patches by the building session** from main's table of the 57 findings and its checks (P-832, P-833), read cold by a verifying session, and landed by main after its own check. No statement of the mathematics and no number is the builder's.
