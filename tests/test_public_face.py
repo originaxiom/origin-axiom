@@ -101,3 +101,28 @@ def test_the_plan_of_2026_10_29_is_a_labelled_dated_document_off_the_list():
     assert len(line) == 1 and "a dated document of the working record" in line[0]
     planted = text.replace(label, "*", 1)
     assert not planted.split("\n")[2].startswith(label)
+
+
+def _archive(text):
+    head, body = text.split("<!-- ARCHIVE:BEGIN -->\n", 1)
+    import hashlib, re
+    said = re.search(r"The sha-256 of the archived text:\s*`([0-9a-f]{64})`", head).group(1)
+    return said, hashlib.sha256(body.encode("utf-8")).hexdigest(), body
+
+
+def test_the_main_goal_is_archived_byte_for_byte_and_its_page_is_plain():
+    """C14, patch 7 (main's M25, answer 1): the main goal's page as it stood is archived byte for byte beside it, held by
+    the hash its head gives; the living page uses no inner word, links the archive, and keeps the line the generator and
+    the programme's page read. Planted: one character of the archive changed."""
+    g = _gates()
+    hist = (ROOT / "docs" / "MAIN_GOAL_HISTORY.md").read_text(encoding="utf-8")
+    said, got, body = _archive(hist)
+    assert said == got
+    assert body.startswith("# THE MAIN GOAL") and "counts 2" in body
+    page = (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")
+    assert dict(g.public_face_words(page)) == {}
+    assert "(MAIN_GOAL_HISTORY.md)" in page and "Its state is **0 of 19**" in page
+    assert "docs/MAIN_GOAL.md" not in g.PUBLIC_FACE_HELD
+    planted = hist.replace("counts 2", "counts 3", 1)
+    s2, g2, _ = _archive(planted)
+    assert s2 != g2

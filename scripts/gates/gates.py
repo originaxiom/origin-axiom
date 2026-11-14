@@ -2916,7 +2916,7 @@ ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither",
 _ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:(?:not|no|never|without|none|nothing|neither|nor|cannot|whether|if|until|unless|sought|0 of 19|to be)(?![a-z0-9])"
                              r"|(?:aim|goal|seek|would)[a-z']*)|n't(?![a-z0-9])")
 _ARRIVAL_SENTENCE_END = re.compile(r"[.!?](?=[\s\"'*_)\]])|\n\s*\n|\n\s*(?:[-*+>]|\d+[.)])\s|\n\s*#+\s|\|")
-ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
+ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/MAIN_GOAL_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
 ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
                           # grammar"), a dated state page ("derives the Standard Model's gauge skeleton ... and derives none of its numbers"),
@@ -3206,7 +3206,7 @@ def gate_public_face(reader=None):
 
 PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
     # README.md: at zero since C14's second patch, which main landed (2026-11-13)
-    'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 4, 'ruled': 1, 'seat': 10},
+    # docs/MAIN_GOAL.md: at zero since C14's seventh patch (2026-11-13)
     # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
     'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},
