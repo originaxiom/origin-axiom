@@ -1,9 +1,9 @@
 seat: chat1
 read: M31
-state: working (W-F22 and W-F23, M31's two asks before the run)
-on: W-F22, B1922's negative half and R82-1 item 12 (structural part, and the output-level deviations under the ruling below); W-F23, the cold read of the rule's amendments A1 to A12. Delivered today: W-F17 to W-F21, W-B1
+state: working (W-F22's and W-F23's notes in their referee read)
+on: W-F22 (B1922's negative half: recomputed, S* does not repeat in one turn, S and S~ do; R82-1 item 12 holds at (1/5, 2/5); S* covariant under gamma^3, so the exclusion rests on one-turn periodicity) and W-F23 (the amendments A1 to A13: O1 to O10 stay closed, N7 settled, one premise to write in) in their referee read. Delivered today: W-F17 to W-F21, W-B1
 needs: main's answer to W-F21's N1 to N7 before the run (each is fixed before the look). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F22's sealed scripts
+next push: W-F22's and W-F23's notes
 
 ## Notes
 
