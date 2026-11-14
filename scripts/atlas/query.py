@@ -34,8 +34,37 @@ def _domains(motifs):
     return sorted({L[m]["domain"] for m in motifs if m in L})
 
 
+# CHANGED 2026-11-12 (Review 80; found by a reading of this file, made again before it was mended).  Review 79 took the
+# atlas's tag out of the head of an arc's card, because the tag is a guess from the arc's words and disagrees with the
+# verdict for hundreds of arcs.  The same tag was still printed as a status in four places: by `revive`, by the meeting
+# points, in the context card's tally, and wherever a probe is counted as "banked".  Each prints it as the tag now.  The
+# keys of what the functions return are not changed.
+TAG = "the atlas's tag, a guess from the arc's words and not a verdict"
+
+
 def _banked(P):
+    """the probes whose TAG is "banked": a guess from their words.  It is not the set of arcs with a positive verdict."""
     return {pid: p for pid, p in P.items() if p["status"] == "banked"}
+
+
+def _verdicts_of(arc_id):
+    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id"""
+    import glob
+    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    out = []
+    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
+        if not os.path.isdir(d):
+            continue
+        h = os.path.join(d, "arc_verdict.json")
+        if not os.path.isfile(h):
+            out.append((os.path.relpath(d, root), None, None, False))
+            continue
+        try:
+            v = json.load(open(h, encoding="utf-8"))
+            out.append((os.path.relpath(d, root), v.get("verdict"), v.get("claim_one_line", ""), False))
+        except ValueError:
+            out.append((os.path.relpath(d, root), None, None, True))
+    return out
 
 
 # -- 3: motif -> recurrence trace ------------------------------------------------------------------
@@ -66,7 +95,8 @@ def resolutions_for(obstacle_type, g=None, banked_only=True):
     motif_counts = Counter(m for p in rel.values() for m in p["motifs"])
     ranked = motif_counts.most_common()
     conserved = [(m, c) for m, c in ranked if L[m]["conserved"] in ("first-integral", "structural")]
-    lines = [f"obstacle '{obstacle_type}': {len(rel)} {'banked ' if banked_only else ''}probes touched it"]
+    lines = [f"obstacle '{obstacle_type}': {len(rel)} probes {'tagged banked ' if banked_only else ''}touched it"
+             + (f"  ('banked' is {TAG})" if banked_only else "")]
     lines += [f"  {m:16s} x{c:<3d} [{L[m]['conserved']}]" for m, c in ranked[:8]]
     top_conserved = conserved[0][0] if conserved else None
     if top_conserved:
@@ -88,11 +118,13 @@ def revive(probe_id, g=None):
     res = resolutions_for(ob, g) if ob else dict(ranked=[], conserved_resolvers=[])
     # motifs that resolved this obstacle-type elsewhere but are ABSENT here = the suggestion
     suggest = [(m, c) for m, c in res.get("conserved_resolvers", []) if m not in own][:5]
-    text = [f"revive {probe_id} [{p['status']}]  -- \"{p['slug']}\"",
+    verdicts = [v or "no verdict" for _, v, _, _ in _verdicts_of(probe_id)]
+    text = [f"revive {probe_id} [{'; '.join(verdicts) or 'no verdict file'}]  -- \"{p['slug']}\"",
+            f"  atlas tag (a guess from the arc's words, not a verdict): {p['status']}",
             f"  obstacle-type: {ob or 'unclassified'};  motifs already tried: {', '.join(sorted(own)) or 'none'}"]
     if suggest:
         text.append("  conserved motifs that resolved this obstacle-type ELSEWHERE (not yet used here):")
-        text += [f"    {m:16s} (resolved {c} banked probes) -- {L[m]['gloss']}" for m, c in suggest]
+        text += [f"    {m:16s} (in {c} probes tagged banked) -- {L[m]['gloss']}" for m, c in suggest]
     else:
         text.append("  no unused conserved resolver found for this obstacle-type (already saturated, or novel).")
     return dict(probe=probe_id, status=p["status"], obstacle=ob, own_motifs=sorted(own),
@@ -103,8 +135,9 @@ def revive(probe_id, g=None):
 def meeting_points(g=None, top=15):
     g = g or load()
     mp = atlas.meeting_points(g, top=top)
-    lines = ["candidate meeting-points (cross-domain re-surfacings) -- CANDIDATES for human judgement, NOT proof:"]
-    lines += [f"  {r['probe']:6s} s={r['score']:2d} [{r['status']}] {'+'.join(r['patterns']) or 'breadth'}"
+    lines = ["candidate meeting-points (cross-domain re-surfacings) -- CANDIDATES for human judgement, NOT proof:",
+             f"  (the word after 'tag' is {TAG})"]
+    lines += [f"  {r['probe']:6s} s={r['score']:2d} [tag {r['status']}] {'+'.join(r['patterns']) or 'breadth'}"
               f"  ({', '.join(r['domains'])})" for r in mp]
     return dict(candidates=mp, text="\n".join(lines))
 
@@ -153,8 +186,8 @@ def gaps(g=None):
             if c < 0.4 * exp:
                 weak.append((a, b, c, round(exp, 1)))
     weak.sort(key=lambda t: t[2] / max(1, t[3]))
-    lines = ["under-resolved obstacle-types (few banked resolutions -> open frontier):"]
-    lines += [f"  {ob:16s} {bk}/{n} banked" for ob, bk, n in under[:6]]
+    lines = [f"under-resolved obstacle-types (few probes tagged banked -> open frontier; 'banked' is {TAG}):"]
+    lines += [f"  {ob:16s} {bk}/{n} tagged banked" for ob, bk, n in under[:6]]
     lines.append("motif pairs that avoid each other (individually common, rarely meet -> a structural gap):")
     lines += [f"  {a} x {b}: {c} obs vs {exp} expected" for a, b, c, exp in weak[:6]]
     return dict(under_resolved=under, avoidant_pairs=weak, text="\n".join(lines))
@@ -173,7 +206,7 @@ def context_card(g=None):
     tool_probes = sum("trace_map" in p["motifs"] for p in P.values())
     lines = [
         "THE RECURRENCE ATLAS -- context card",
-        f"  corpus: {a['n_probes']} frontier probes; status {dict(status)}",
+        f"  corpus: {a['n_probes']} frontier probes; atlas tags (guesses from the arcs' words, not verdicts) {dict(status)}",
         f"  the ONE conserved first integral: {conserved[0][0] if conserved else '?'} "
         f"(recurs {conserved[0][1]}x, {100*conserved[0][1]//a['n_probes']}%) -- genuine unity, MUST recur",
         "  top recurring motifs: " + ", ".join(f"{m}({c})" for m, c in freq[:6]),

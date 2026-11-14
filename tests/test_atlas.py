@@ -115,6 +115,26 @@ def test_revive_suggests_unused_conserved_resolvers():
     assert isinstance(r["suggestions"], list)             # motifs used elsewhere for this obstacle, not here
 
 
+def test_the_atlas_tag_is_printed_as_a_tag_and_never_as_a_status():
+    """Added 2026-11-12 (Review 80; found by a reading of the query, made again before it was mended).  The atlas's tag is a
+    guess from an arc's words.  Review 79 took it out of the head of an arc's card; it was still printed as a status by
+    `revive`, by the meeting points, in the context card's tally and wherever a probe is counted as banked.  B57 is the
+    case the reading gave: its verdict is PROVED and `revive` printed [dead]."""
+    r = query.revive("B57", G)["text"]
+    assert r.startswith("revive B57 [PROVED]") and "[dead]" not in r and "atlas tag (a guess from the arc's words, not a verdict): dead" in r
+    assert "banked probes" not in r
+    m = query.meeting_points(G)["text"].split("\n")
+    assert "not a verdict" in m[1] and all("[tag " in l for l in m[2:]) and not any(("[banked]" in l or "[dead]" in l or "[open]" in l) for l in m)
+    c = query.context_card(G)["text"]
+    assert "atlas tags (guesses from the arcs' words, not verdicts) {" in c and "; status {" not in c
+    o = query.resolutions_for("particle_dict", G)["text"]
+    assert "probes tagged banked touched it" in o and "not a verdict" in o and " banked probes" not in o
+    g = query.gaps(G)["text"]
+    assert "tagged banked" in g and "not a verdict" in g and "few banked resolutions" not in g
+    # what the functions return is as it was: the key "status" still holds the tag, for the callers that read it
+    assert query.revive("B57", G)["status"] == "dead" and query.context_card(G)["status"]["banked"] > 0
+
+
 def test_motif_trace_and_neighbors_and_cooccurrence():
     t = query.motif_trace("kappa", G)
     assert t["count"] == FREQ["kappa"] and t["probes"]
