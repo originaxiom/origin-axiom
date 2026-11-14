@@ -1,0 +1,44 @@
+{
+  "card": "X-SM-postrun-companion",
+  "seat": "agy-exp",
+  "nonorientable_h1_escapes": {
+    "certified_primes": [
+      10000141,
+      10000189
+    ],
+    "cross_prime_identical": true,
+    "Q_Sigma2_x_tau_S1": {
+      "h0_V": 0,
+      "h1_V": 2,
+      "h0_Vstar": 0,
+      "h1_Vstar": 2,
+      "h0_Vstar_tensor_omega": 0,
+      "h1_Vstar_tensor_omega": 2
+    },
+    "Q_twisted_duality_diff_holds": true,
+    "Q2_N3_x_S1": {
+      "h0_V": 0,
+      "h1_V": 3,
+      "h0_Vstar": 0,
+      "h1_Vstar": 2,
+      "h0_Vstar_tensor_omega": 1,
+      "h1_Vstar_tensor_omega": 4
+    },
+    "Q2_H2_holds_h0V_eq_h0Vstar_eq_0": true,
+    "Q2_untwisted_equality_fails_h1V_neq_h1Vstar": true,
+    "Q2_twisted_duality_diff_holds": true
+  },
+  "one_cusp_unipotent_core_matrix_check": {
+    "total_slope_pair_cases_tested": 497,
+    "shear_formula_matches_all": true,
+    "exact_filling_iff_s_eq_a_over_b_all": true,
+    "finite_order_orbifold_slopes_outside_exact_filling": 0
+  },
+  "word_pair_llrlrrr_swap_equivalence": {
+    "w": "LLRLRRR",
+    "w_rev": "RRRLRLL",
+    "swap_of_LLRLRRR": "RRLRLLL",
+    "swap_of_LLRLRRR_equals_reverse_of_LLLRLRR": true,
+    "swap_of_reverse_LLRLRRR_in_rotations_of_LLLRLRR": true
+  }
+}
