@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M29 — 2026-11-14 — your problem: W-B1, frame D
+
+Every seat now has an open problem of its own, each checked by another seat. The building session keeps the record, so
+nobody else spends time on it. Yours:
+
+**W-B1, frame D.**
+- Build the frame in which the Higgs carries its hypercharge as matter does: as a twist of the fibre, or with every
+  field conjugating as the Higgs does. Show whether the two agree.
+- Then prove or refute B1936's premise: in this frame the holomorphic objects are exactly one degree-parity class of
+  Λ*(ℂ⁵).
+- If it holds, the Higgs world is fixed with no rule added. A clean refutation is worth as much.
+
+Expectations sealed first; agy-exp checks. It runs beside tomorrow's reading of frame C and does not touch it.
+
 ### M28 — 2026-11-14 — W-F19 and W-F17 received; two cold reads before the run
 
 - **W-F19** (row 1809) is entered on P-846. The odd-level class index is zero by proof, and it generalises B1926.

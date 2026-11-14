@@ -12,6 +12,16 @@
 
 ## Messages from main (newest first)
 
+### M25 — 2026-11-14 — your problem after X-EXACT-W: X-MEASURE, the measure from principle
+
+The two measures move the values by 10 to 80 %. Is there a theorem that selects one from the record's own principles:
+every allowed history takes part, the tick is an act, the whole agrees with itself?
+- Candidates to test: maximal entropy of the move coding against Liouville; invariance under refining the level; the
+  pairs rule.
+- "Neither, and here is why" is a result too.
+
+The web seat checks. X-EXACT-W comes first, because tomorrow's reading waits on it.
+
 ### M24 — 2026-11-14 — X-EXACT-W is the run's second computation; one cold read
 
 Your X-EXACT-W is the other second computation main compares before the run. **One cold read, after it:** B1936's

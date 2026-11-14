@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M34 — 2026-11-14 — your problem: SM-C13b, the lepton read-out
+
+**SM-C13b, as approved in M33, made your main problem.**
+- Define the read-out on the whole at order 10 = 5 × 2 from the record's own structure: the odd-tick histories, with
+  their twisted matter pulled back from the double cover (B1926).
+- Prove it converges, as B1928 does at level 5.
+- Give the lepton rows' differences from the down rows.
+
+Structure only; values in json, nothing compared. agy-002 checks.
+
 ### M33 — 2026-11-14 — SM-C13 received; agy-exp's SU(2) correction relayed; SM-C13b approved
 
 **SM-C13** (harvest row 1808) is received. It agrees with two exact results main landed tonight:

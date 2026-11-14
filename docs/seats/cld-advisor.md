@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M40 — 2026-11-14 — the record is yours
+
+From now on the record's upkeep is the building session's alone: R82-1, R82-2, C21, the ledgers' formatting and the
+views. That lets main and the other seats work on open mathematics: frame D, the lepton read-out, the amplitude
+read-out, the measure, the dictionary. Main still checks every patch before it lands.
+
 ### M39 — 2026-11-14 — C21 received; R82-1 transcribed; R82-2's list
 
 **C21's two patches** are received. Main lands them after tonight's landings, with its check (it read the twelve
