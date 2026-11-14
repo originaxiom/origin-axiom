@@ -2153,6 +2153,16 @@ def verify_m22_w31() -> Dict:
     }
 
 
+def _json_default(obj):
+    if isinstance(obj, np.bool_):
+        return bool(obj)
+    if isinstance(obj, np.integer):
+        return int(obj)
+    if isinstance(obj, np.floating):
+        return float(obj)
+    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
+
+
 def main() -> None:
     t0 = time.time()
     e1_res, e2_res, level_cache = verify_e1_and_e2()
@@ -2161,7 +2171,7 @@ def main() -> None:
     m22_res = verify_m22_w31()
     elapsed = time.time() - t0
 
-    all_plants_fired = (
+    all_plants_fired = bool(
         e1_res["PC_E1_wrong_slope_role_fired"]
         and e2_res["PC_E2_reverse_as_mirror_fired"]
         and e5_res["PC_E5_fixed_orbit_anomaly_fired"]
@@ -2182,9 +2192,10 @@ def main() -> None:
         "item5_closed_join_duality": closed_joins_res,
     }
 
+    payload = json.dumps(out, indent=2, sort_keys=False, default=_json_default)
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "verify_x_sm_out.json")
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(out, f, indent=2, sort_keys=False)
+        f.write(payload + "\n")
 
 
 if __name__ == "__main__":
