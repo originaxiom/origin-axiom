@@ -1,0 +1,6 @@
+conjugation-odd parities: 4 | with matter in one class: 2 [{1: 0, 2: 1, 3: 0, 4: 1}, {1: 1, 2: 0, 3: 1, 4: 0}]
+  parity {1: 0, 2: 1, 3: 0, 4: 1} | world, hypercharge sign +1: {'up': 'S~', 'down': 'S', 'lep': 'S'} | sign -1: {'up': 'S~', 'down': 'S', 'lep': 'S'}
+  parity {1: 1, 2: 0, 3: 1, 4: 0} | world, hypercharge sign +1: {'up': 'S~', 'down': 'S', 'lep': 'S'} | sign -1: {'up': 'S~', 'down': 'S', 'lep': 'S'}
+E1 holds: True | E2 (B1936's degree parity is one of them): True
+operator lift: {'up': 'S~', 'down': 'S~', 'lep': 'S~'} | obeys the charge rule: False | E3 holds: True
+plant (f = 0) passes the conjugation test: False | caught: True
