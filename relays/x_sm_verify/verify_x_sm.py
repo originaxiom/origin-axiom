@@ -1948,16 +1948,6 @@ def verify_m22_w31() -> Dict:
                     queue.append(nxt)
         return grp
 
-    # Basis of 3-piece (symmetric under k <-> 4 - k) and 2-piece (antisymmetric under k <-> 4 - k):
-    s2 = 1.0 / math.sqrt(2.0)
-    B3 = np.zeros((5, 3), dtype=np.complex128)
-    B3[0, 0], B3[4, 0] = s2, s2
-    B3[1, 1], B3[3, 1] = s2, s2
-    B3[2, 2] = 1.0
-    B2 = np.zeros((5, 2), dtype=np.complex128)
-    B2[0, 0], B2[4, 0] = s2, -s2
-    B2[1, 1], B2[3, 1] = s2, -s2
-
     # Bare -I reflection k -> -k mod 5 (det = +1 since two 2-cycles (1,4)(2,3) is an even permutation!):
     W_bare = np.zeros((5, 5), dtype=np.complex128)
     for k in range(5):
@@ -2031,19 +2021,34 @@ def verify_m22_w31() -> Dict:
         if len(grp) != 120:
             proj_order_120_all = False
 
+        # Lift of central -I = (L R^-1 L)^2 in SL(2, F_5):
+        # Conjugates (A, B) -> (zeta^{-m} A^-1, zeta^{+m} B^-1), hence monomial on k -> (4 - k) mod 5 with zeta^{m k} phases!
+        S_lift = UL @ UR.conj().T @ UL
+        R_lift = S_lift @ S_lift
+        assert abs(R_lift[2, 2]) > 0.999999, f"R_lift[2,2] unexpected at m={m}: {R_lift[2, 2]}"
+        R_inv = R_lift / R_lift[2, 2]
+        assert np.linalg.norm(R_inv @ R_inv - np.eye(5)) < 1e-12
+        assert np.linalg.norm(R_inv - R_inv.conj().T) < 1e-12
+        assert abs(np.trace(R_inv) - 1.0) < 1e-12
+
         if m == 1:
-            S_lift = UL @ UR.conj().T @ UL
-            R_lift = S_lift @ S_lift
-            # Find c in 0..4 such that R_lift is proportional to k -> c - k:
+            # Find c in 0..4 such that |R_lift| is the permutation matrix k -> (c - k) mod 5:
             for c_cand in range(5):
-                P_c = np.zeros((5, 5), dtype=np.complex128)
+                P_c = np.zeros((5, 5), dtype=np.float64)
                 for k in range(5):
                     P_c[(c_cand - k) % 5, k] = 1.0
-                ratio = R_lift[0, c_cand]
-                if abs(ratio) > 0.99 and np.linalg.norm(R_lift - ratio * P_c) < 1e-12:
+                if np.linalg.norm(np.abs(R_lift) - P_c) < 1e-12:
                     refl_c_m1 = c_cand
+            assert np.linalg.norm(W_bare @ Am @ W_bare.T - np.linalg.inv(Am)) < 1e-13
+            assert np.linalg.norm(W_bare @ Bm @ W_bare.T - np.linalg.inv(Bm)) < 1e-13
             grp_with_bare = generate_proj_group([UL, UR, W_bare])
             proj_order_3000_m1 = len(grp_with_bare)
+
+        # Extract 2-piece (-1 eigenspace of R_inv) and 3-piece (+1 eigenspace of R_inv):
+        eigvals_r, eigvecs_r = np.linalg.eigh(0.5 * (R_inv + R_inv.conj().T))
+        assert np.allclose(eigvals_r, [-1.0, -1.0, 1.0, 1.0, 1.0], atol=1e-12)
+        B2 = eigvecs_r[:, :2]
+        B3 = eigvecs_r[:, 2:]
 
         # Restrict UL, UR to 3-piece and 2-piece (check block-diagonality!)
         cross_err = np.linalg.norm(B3.conj().T @ UL @ B2) + np.linalg.norm(B3.conj().T @ UR @ B2)
