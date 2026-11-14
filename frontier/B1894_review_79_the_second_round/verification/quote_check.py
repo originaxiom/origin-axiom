@@ -74,6 +74,10 @@ def quotations(reader, page):
 
 def found(q, arc, named):
     forms = {" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())}
+    # ADDED 2026-11-12 (Review 80; a reader's finding F7, the shape of the one main mended in B1892's checker): an empty
+    # quotation is in every file.  It is a quotation of nothing, and is not found.
+    if not any(forms):
+        return False
     for commit in MAIN:
         fs = files(commit)
         pool = ([named] if named in fs else []) + ([f for f in fs if f.startswith("frontier/%s_" % arc)] if arc else []) + [f for f in WIDE if f in fs]
@@ -86,6 +90,54 @@ def found(q, arc, named):
     return False
 
 
+# ---- ADDED 2026-11-12 (Review 80; a reader's finding F7, which main checked for its shape and not on this file).  `found` looks
+# in a pool: the file the finding names, the arc's folder, and a list of wide pages.  So a quotation that names a file was
+# found if it stood in any of them.  `placed` says where it stands, strictly, as B1892's checker has done since that day; and
+# `rows_not_read` counts the lines of a reader's table that `quotations` does not read as rows.
+def placed(q, arc, named):
+    """Where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not
+    at the commit); 'arc' (no file is named: in the arc's own folder); 'swept' (neither an arc nor a file is named: in the
+    pages this checker sweeps for such a finding); 'wide' (on a wide page only); or None."""
+    forms = {x for x in (" ".join(q.split()), " ".join(q.strip().strip('"').strip("`").split()), " ".join(q.strip().strip("`").split())) if x}
+    if not forms:
+        return None
+    wide = False
+    for commit in MAIN:
+        fs = files(commit)
+        isin = lambda pool: any(form in text(commit, f) for form in forms for f in pool)
+        if named:
+            if isin([named] if named in fs else [f for f in fs if f.endswith(named.split("/")[-1])]):
+                return "named"
+        elif arc:
+            if isin([f for f in fs if f.startswith("frontier/%s_" % arc)]):
+                return "arc"
+        elif isin([f for f in fs if f.startswith(("frontier/B18", "frontier/B862_", "docs/")) and f.endswith((".md", ".json", ".py", ".txt"))]):
+            return "swept"
+        wide = wide or isin([f for f in WIDE if f in fs])
+    return "wide" if wide else None
+
+
+def rows_not_read(reader, page):
+    """the lines of a reader's table that quotations() does not read as it should: (more cells than the header, fewer than four)"""
+    if reader in ("the SM seat", "agy-exp"):
+        return (0, 0)                                 # their files are not tables
+    more = few = 0; ncol = None; lines = page.split("\n")
+    for i, line in enumerate(lines):
+        if not line.startswith("|"):
+            ncol = None; continue
+        c = [x.strip() for x in line.strip().strip("|").split(" | ")]
+        if i + 1 < len(lines) and set(lines[i + 1].strip()) <= set("|-: ") and lines[i + 1].strip():
+            ncol = len(c); continue
+        if set(line.strip()) <= set("|-: "):
+            continue
+        if re.match(r"\|\s*(B\d+|window)\s*\|", line):
+            if len(c) < 4:
+                few += 1
+            elif ncol is not None and len(c) > ncol:
+                more += 1
+    return (more, few)
+
+
 def build():
     res = {}
     for reader, (commit, path) in READERS.items():
@@ -96,6 +148,12 @@ def build():
         qs = quotations(reader, page)
         hits = [found(q, arc, named) for arc, named, q in qs]
         res[reader] = {"its commit": commit, "quotations": len(qs), "found": sum(hits)}
+        where = [placed(q, arc, named) for arc, named, q in qs]
+        more, few = rows_not_read(reader, page)
+        res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
+                            "in the pages swept, neither an arc nor a file being named": where.count("swept"),
+                            "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
+                            "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
         if reader == "the SM seat":
             # one of its entries corrects its own first file and quotes that file: those quotations are looked for there
             own = " ".join(git("show", "4d0a46b93:relays/REVIEW_79_SM.md")[1].split())

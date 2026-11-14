@@ -32,6 +32,12 @@ read. 0 of 19.*
 - **Every quotation was found by machine** at the commit read: 38 of 38 in main's files, by
   `verification/quote_check.py`. Two more quote the SM seat's own first file, where that seat corrects itself, and
   are found there. The control, a quotation altered by one character, is reported missing.
+  [ADDED 2026-11-12 (Review 80; a reader's finding, checked by main for its shape and counted here): the checker
+  looked in a pool, so a quotation that names a file was found if it stood in the arc's folder or on a wide page.
+  Placed strictly, as B1892's checker places since that day: of the 38, 26 stand in the file their finding names;
+  the SM seat's findings name neither an arc nor a file, and its 12 are placed 11 in the pages the checker sweeps
+  for such a finding and 1 on a wide page. None is placed nowhere. An empty quotation is not found. Where no
+  reader's commit is in the clone the lock says aloud that it did not look.]
 - **Two readers judged one mend differently.** For the scope note on B874's verdict line one wrote "resolved" and
   the other found that it gave a seat's results as if main had computed them. The second is right, and it is mended.
 

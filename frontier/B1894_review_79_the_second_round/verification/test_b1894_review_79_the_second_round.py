@@ -51,7 +51,28 @@ def test_every_quotation_was_found_and_the_check_can_fail():
     in_main = sum(v["found"] for v in q.values())
     assert "%d of %d in main's files" % (in_main, in_main) in F
     spec = importlib.util.spec_from_file_location("b1894_quote_check", HERE / "quote_check.py"); qc = importlib.util.module_from_spec(spec); spec.loader.exec_module(qc)
-    for reader, r in qc.build().items():
+    # ADDED 2026-11-12 (Review 80; a reader's finding F7).  Where each quotation stands, strictly, as B1892's checker says since
+    # that day: of the 38 found in main's files, 26 stand in the file their finding names; the SM seat's findings name
+    # neither an arc nor a file, and its 12 are placed in the pages swept (11) and on a wide page (1).  None is placed nowhere
+    # but the two of the SM seat's own first file.  No line of a reader's table goes unread.
+    placing = {k: sum(v[k] for v in q.values()) for k in ("in the file the finding names", "in the arc's own folder, no file being named",
+                                                         "in the pages swept, neither an arc nor a file being named", "on a wide page only", "placed nowhere")}
+    assert list(placing.values()) == [26, 0, 11, 1, 2] and sum(list(placing.values())[:4]) == in_main
+    assert q["the SM seat"]["placed nowhere"] == q["the SM seat"]["of its own first file, found there"] == 2
+    assert all(v["rows with more cells than their table's header"] == v["lines that begin as a row and give fewer than four cells"] == 0 for v in q.values())
+    assert "26 stand in the file their finding names" in F and "11 in the pages the checker sweeps" in F
+    # an empty quotation is a quotation of nothing; a quotation that names a file is not placed by standing in another
+    assert qc.found("", "B1894", None) is False and qc.placed("", "B1894", None) is None
+    other = "No item is added and no status cell changes."                       # a sentence of the foundation, a wide page
+    assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
+    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
+    built = qc.build()
+    if all(r is None for r in built.values()):
+        # CHANGED 2026-11-12 (Review 80; the same finding): with no reader's commit in the clone every result is None and the
+        # loop below passed without a word.  It says so aloud, as B1892's lock does.
+        import pytest
+        pytest.skip("no reader's commit is in this clone: the quotations were not looked for again here")
+    for reader, r in built.items():
         assert r is None or r == q[reader], reader
 
 
