@@ -179,6 +179,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
     fn_keys_by_name: dict[str, list[fn_key_t]] = {}
     fn_param_specs: dict[fn_key_t, tuple[tuple[str, ...], frozenset[str], frozenset[str]]] = {}
     fn_mut_effects: dict[fn_key_t, list[tuple[str, str, ast.AST]]] = {}
+    fn_mut_seen: dict[fn_key_t, set[tuple[str, str, str]]] = {}
     fn_call_edges: dict[fn_key_t, list[tuple[fn_key_t, dict[int, tuple[str, ...]], dict[str, tuple[str, ...]]]]] = {}
     poison_dict_ast = ast.Dict(keys=[ast.Constant(value="__G2_POISON__")], values=[ast.Constant(value=True)])
     poison_dict_dump = ast.dump(poison_dict_ast, include_attributes=False)
@@ -205,12 +206,36 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             and nd_p.keys[0].value == "G_FLAT_POISON"
         )
 
+    dyn_sub_slot = -255
+
     def is_poison_seq_ast(nd_p: ast.AST) -> bool:
         return (
             isinstance(nd_p, ast.Tuple)
             and len(nd_p.elts) == 2
             and isinstance(nd_p.elts[0], ast.Constant)
             and nd_p.elts[0].value == "__G2_SEQ_POISON__"
+        )
+
+    def make_dict_val_mut_ast(v_nd: ast.AST) -> ast.AST:
+        return ast.Dict(keys=[ast.Constant(value="__G2_DICT_VAL__")], values=[v_nd])
+
+    def is_dict_val_mut_ast(nd_p: ast.AST) -> bool:
+        return (
+            isinstance(nd_p, ast.Dict)
+            and len(nd_p.keys) == 1
+            and isinstance(nd_p.keys[0], ast.Constant)
+            and nd_p.keys[0].value == "__G2_DICT_VAL__"
+        )
+
+    def make_seq_elem_mut_ast(v_nd: ast.AST) -> ast.AST:
+        return ast.Tuple(elts=[ast.Constant(value="__G2_SEQ_EL__"), v_nd], ctx=ast.Load())
+
+    def is_seq_elem_mut_ast(nd_p: ast.AST) -> bool:
+        return (
+            isinstance(nd_p, ast.Tuple)
+            and len(nd_p.elts) == 2
+            and isinstance(nd_p.elts[0], ast.Constant)
+            and nd_p.elts[0].value == "__G2_SEQ_EL__"
         )
 
     def extract_simple_alias_rhs(ex_nd: ast.AST) -> set[str]:
@@ -230,57 +255,63 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             return out_b
         return set()
 
-    def subst_param_names(expr_in: ast.AST, subst_map: dict[str, ast.AST]) -> ast.AST:
-        if not subst_map:
-            return expr_in
+    def subst_param_names_rec(expr_in: ast.AST, subst_map: dict[str, ast.AST]) -> ast.AST:
         if isinstance(expr_in, ast.Name) and isinstance(expr_in.ctx, ast.Load) and expr_in.id in subst_map:
             return subst_map[expr_in.id]
         if isinstance(expr_in, ast.UnaryOp):
-            return ast.UnaryOp(op=expr_in.op, operand=subst_param_names(expr_in.operand, subst_map))
+            return ast.UnaryOp(op=expr_in.op, operand=subst_param_names_rec(expr_in.operand, subst_map))
         if isinstance(expr_in, ast.BinOp):
             return ast.BinOp(
-                left=subst_param_names(expr_in.left, subst_map),
+                left=subst_param_names_rec(expr_in.left, subst_map),
                 op=expr_in.op,
-                right=subst_param_names(expr_in.right, subst_map),
+                right=subst_param_names_rec(expr_in.right, subst_map),
             )
         if isinstance(expr_in, ast.BoolOp):
-            return ast.BoolOp(op=expr_in.op, values=[subst_param_names(v_b, subst_map) for v_b in expr_in.values])
+            return ast.BoolOp(op=expr_in.op, values=[subst_param_names_rec(v_b, subst_map) for v_b in expr_in.values])
         if isinstance(expr_in, ast.Compare):
             return ast.Compare(
-                left=subst_param_names(expr_in.left, subst_map),
+                left=subst_param_names_rec(expr_in.left, subst_map),
                 ops=list(expr_in.ops),
-                comparators=[subst_param_names(c_b, subst_map) for c_b in expr_in.comparators],
+                comparators=[subst_param_names_rec(c_b, subst_map) for c_b in expr_in.comparators],
             )
         if isinstance(expr_in, ast.IfExp):
             return ast.IfExp(
-                test=subst_param_names(expr_in.test, subst_map),
-                body=subst_param_names(expr_in.body, subst_map),
-                orelse=subst_param_names(expr_in.orelse, subst_map),
+                test=subst_param_names_rec(expr_in.test, subst_map),
+                body=subst_param_names_rec(expr_in.body, subst_map),
+                orelse=subst_param_names_rec(expr_in.orelse, subst_map),
             )
         if isinstance(expr_in, ast.Tuple):
-            return ast.Tuple(elts=[subst_param_names(e_t, subst_map) for e_t in expr_in.elts], ctx=ast.Load())
+            return ast.Tuple(elts=[subst_param_names_rec(e_t, subst_map) for e_t in expr_in.elts], ctx=ast.Load())
         if isinstance(expr_in, ast.List):
-            return ast.List(elts=[subst_param_names(e_t, subst_map) for e_t in expr_in.elts], ctx=ast.Load())
+            return ast.List(elts=[subst_param_names_rec(e_t, subst_map) for e_t in expr_in.elts], ctx=ast.Load())
         if isinstance(expr_in, ast.Set):
-            return ast.Set(elts=[subst_param_names(e_t, subst_map) for e_t in expr_in.elts])
+            return ast.Set(elts=[subst_param_names_rec(e_t, subst_map) for e_t in expr_in.elts])
         if isinstance(expr_in, ast.Dict):
             return ast.Dict(
-                keys=[subst_param_names(k_d, subst_map) if k_d is not None else None for k_d in expr_in.keys],
-                values=[subst_param_names(v_d, subst_map) for v_d in expr_in.values],
+                keys=[subst_param_names_rec(k_d, subst_map) if k_d is not None else None for k_d in expr_in.keys],
+                values=[subst_param_names_rec(v_d, subst_map) for v_d in expr_in.values],
             )
         if isinstance(expr_in, ast.Subscript):
             return ast.Subscript(
-                value=subst_param_names(expr_in.value, subst_map),
-                slice=subst_param_names(expr_in.slice, subst_map),
+                value=subst_param_names_rec(expr_in.value, subst_map),
+                slice=subst_param_names_rec(expr_in.slice, subst_map),
                 ctx=ast.Load(),
             )
         if isinstance(expr_in, ast.Call):
             return ast.Call(
-                func=subst_param_names(expr_in.func, subst_map),
-                args=[subst_param_names(a_c, subst_map) for a_c in expr_in.args],
-                keywords=[ast.keyword(arg=kw_c.arg, value=subst_param_names(kw_c.value, subst_map)) for kw_c in expr_in.keywords],
+                func=subst_param_names_rec(expr_in.func, subst_map),
+                args=[subst_param_names_rec(a_c, subst_map) for a_c in expr_in.args],
+                keywords=[ast.keyword(arg=kw_c.arg, value=subst_param_names_rec(kw_c.value, subst_map)) for kw_c in expr_in.keywords],
             )
         return expr_in
+
+    def subst_param_names(expr_in: ast.AST, subst_map: dict[str, ast.AST]) -> ast.AST:
+        if not subst_map:
+            return expr_in
+        eff_map = {k_s: v_s for k_s, v_s in subst_map.items() if not (isinstance(v_s, ast.Name) and v_s.id == k_s)}
+        if not eff_map or not any(isinstance(n_s, ast.Name) and isinstance(n_s.ctx, ast.Load) and n_s.id in eff_map for n_s in ast.walk(expr_in)):
+            return expr_in
+        return subst_param_names_rec(expr_in, eff_map)
 
     def index_all_fn_keys(nd_idx: ast.AST) -> None:
         if isinstance(nd_idx, ast.FunctionDef):
@@ -409,8 +440,14 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             return tuple(r_v for r_v in resolve_alias_reach(start_v) if r_v not in loc_assigned)
 
         def add_mut_for(var_nm: str, m_kind: str, m_expr: ast.AST) -> None:
+            m_dmp = ast.dump(m_expr, include_attributes=False)
+            seen_fk = fn_mut_seen.setdefault(fk_cur, set())
+            eff_fk = fn_mut_effects.setdefault(fk_cur, [])
             for rt_nm in resolve_mut_roots(var_nm):
-                fn_mut_effects.setdefault(fk_cur, []).append((rt_nm, m_kind, m_expr))
+                sig_m = (rt_nm, m_kind, m_dmp)
+                if sig_m not in seen_fk:
+                    seen_fk.add(sig_m)
+                    eff_fk.append((rt_nm, m_kind, m_expr))
 
         def walk_fn_body_muts(nd_cur: ast.AST) -> None:
             if isinstance(nd_cur, (ast.FunctionDef, ast.ClassDef)):
@@ -441,10 +478,14 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 and isinstance(nd_cur.func.value, ast.Call)
                 and isinstance(nd_cur.func.value.func, ast.Attribute)
                 and nd_cur.func.value.func.attr == "setdefault"
-                and isinstance(nd_cur.func.value.func.value, ast.Name)
+                and isinstance(nd_cur.func.value.func.value, (ast.Name, ast.Subscript))
             ):
                 sd_p = nd_cur.func.value
-                recv_p = sd_p.func.value.id
+                recv_p = (
+                    sd_p.func.value.id
+                    if isinstance(sd_p.func.value, ast.Name)
+                    else root_sub_name(sd_p.func.value)
+                )
                 mut_vp = (
                     nd_cur.args[0]
                     if (nd_cur.func.attr == "extend" and nd_cur.args)
@@ -453,63 +494,87 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         ctx=ast.Load(),
                     )
                 )
-                add_mut_for(recv_p, "val", mut_vp)
+                if recv_p:
+                    add_mut_for(recv_p, "val", mut_vp)
                 for ch_sd in [*sd_p.args, *(kw_s.value for kw_s in sd_p.keywords), *nd_cur.args, *(kw_n.value for kw_n in nd_cur.keywords)]:
                     walk_fn_body_muts(ch_sd)
                 return
-            elif isinstance(nd_cur, ast.Call) and isinstance(nd_cur.func, ast.Attribute) and isinstance(nd_cur.func.value, ast.Name):
-                recv_p = nd_cur.func.value.id
+            elif isinstance(nd_cur, ast.Call) and isinstance(nd_cur.func, ast.Attribute) and isinstance(nd_cur.func.value, (ast.Name, ast.Subscript)):
+                recv_p = (
+                    nd_cur.func.value.id
+                    if isinstance(nd_cur.func.value, ast.Name)
+                    else root_sub_name(nd_cur.func.value)
+                )
                 at_p = nd_cur.func.attr
-                if at_p == "update":
-                    for a_up in nd_cur.args:
-                        add_mut_for(recv_p, "merge", a_up)
-                    for kw_up in nd_cur.keywords:
-                        add_mut_for(recv_p, "merge" if kw_up.arg is None else "val", kw_up.value)
-                elif at_p == "setdefault":
-                    v_sdp = nd_cur.args[1] if len(nd_cur.args) >= 2 else ast.Constant(value=None)
-                    add_mut_for(recv_p, "val", v_sdp)
-                elif at_p in ("append", "extend", "add"):
-                    for a_sp in nd_cur.args:
-                        add_mut_for(recv_p, "seq", a_sp)
-                elif at_p == "insert" and len(nd_cur.args) >= 2:
-                    add_mut_for(recv_p, "seq", nd_cur.args[1])
+                if recv_p:
+                    if at_p == "update":
+                        for a_up in nd_cur.args:
+                            add_mut_for(recv_p, "merge", a_up)
+                        for kw_up in nd_cur.keywords:
+                            add_mut_for(recv_p, "merge" if kw_up.arg is None else "val", kw_up.value)
+                    elif at_p == "setdefault":
+                        v_sdp = nd_cur.args[1] if len(nd_cur.args) >= 2 else ast.Constant(value=None)
+                        add_mut_for(recv_p, "val", v_sdp)
+                    elif at_p in ("append", "extend", "add"):
+                        for a_sp in nd_cur.args:
+                            add_mut_for(recv_p, "seq", a_sp)
+                    elif at_p == "insert" and len(nd_cur.args) >= 2:
+                        add_mut_for(recv_p, "seq", nd_cur.args[1])
             elif isinstance(nd_cur, ast.Call) and not isinstance(nd_cur.func, ast.Attribute):
-                pos_arg_nms = {
-                    idx_a: resolve_mut_roots(a_nd.id)
-                    for idx_a, a_nd in enumerate(nd_cur.args)
-                    if isinstance(a_nd, ast.Name) and resolve_mut_roots(a_nd.id)
-                }
-                kw_arg_nms = {
-                    kw_nd.arg: resolve_mut_roots(kw_nd.value.id)
-                    for kw_nd in nd_cur.keywords
-                    if kw_nd.arg is not None and isinstance(kw_nd.value, ast.Name) and resolve_mut_roots(kw_nd.value.id)
-                }
-                ca_nms, lam_cands = extract_callable_atoms(nd_cur.func)
-                for fn_nm_c in ca_nms:
-                    for fn_al in resolve_alias_reach(fn_nm_c):
-                        lam_cands.extend(loc_lam_defs.get(fn_al, ()))
-                        callee_fks: list[fn_key_t] = (
-                            [body_fn_keys[fn_al]]
-                            if (fn_al in body_fn_keys and fn_al not in loc_alias_to)
-                            else list(fn_keys_by_name.get(fn_al, ()))
-                        )
-                        for c_fk in callee_fks:
-                            fn_call_edges.setdefault(fk_cur, []).append((c_fk, pos_arg_nms, kw_arg_nms))
-                for lam_c in lam_cands:
-                    synth_fk = ("<lambda_mut>", lam_c.lineno, lam_c.col_offset)
-                    if synth_fk not in fn_param_specs:
-                        precollect_fn_muts_single(
-                            ast.FunctionDef(
-                                name="<lambda_mut>",
-                                args=lam_c.args,
-                                body=[ast.Expr(value=lam_c.body)],
-                                decorator_list=[],
-                                lineno=lam_c.lineno,
-                                col_offset=lam_c.col_offset,
-                            ),
-                            body_fn_keys,
-                        )
-                    fn_call_edges.setdefault(fk_cur, []).append((synth_fk, pos_arg_nms, kw_arg_nms))
+                if (
+                    isinstance(nd_cur.func, ast.Name)
+                    and nd_cur.func.id not in loc_alias_to
+                    and nd_cur.func.id not in loc_lam_defs
+                    and nd_cur.func.id not in body_fn_keys
+                    and nd_cur.func.id not in fn_keys_by_name
+                ):
+                    pass
+                else:
+                    pos_arg_nms: dict[int, tuple[str, ...]] = {}
+                    for idx_a, a_nd in enumerate(nd_cur.args):
+                        a_rn = a_nd.id if isinstance(a_nd, ast.Name) else (root_sub_name(a_nd) if isinstance(a_nd, ast.Subscript) else None)
+                        if a_rn:
+                            rts_a = resolve_mut_roots(a_rn)
+                            if rts_a:
+                                pos_arg_nms[idx_a] = rts_a
+                    kw_arg_nms: dict[str, tuple[str, ...]] = {}
+                    for kw_nd in nd_cur.keywords:
+                        if kw_nd.arg is not None:
+                            kw_rn = (
+                                kw_nd.value.id
+                                if isinstance(kw_nd.value, ast.Name)
+                                else (root_sub_name(kw_nd.value) if isinstance(kw_nd.value, ast.Subscript) else None)
+                            )
+                            if kw_rn:
+                                rts_k = resolve_mut_roots(kw_rn)
+                                if rts_k:
+                                    kw_arg_nms[kw_nd.arg] = rts_k
+                    ca_nms, lam_cands = extract_callable_atoms(nd_cur.func)
+                    for fn_nm_c in ca_nms:
+                        for fn_al in resolve_alias_reach(fn_nm_c):
+                            lam_cands.extend(loc_lam_defs.get(fn_al, ()))
+                            callee_fks: list[fn_key_t] = (
+                                [body_fn_keys[fn_al]]
+                                if (fn_al in body_fn_keys and fn_al not in loc_alias_to)
+                                else list(fn_keys_by_name.get(fn_al, ()))
+                            )
+                            for c_fk in callee_fks:
+                                fn_call_edges.setdefault(fk_cur, []).append((c_fk, pos_arg_nms, kw_arg_nms))
+                    for lam_c in lam_cands:
+                        synth_fk = ("<lambda_mut>", lam_c.lineno, lam_c.col_offset)
+                        if synth_fk not in fn_param_specs:
+                            precollect_fn_muts_single(
+                                ast.FunctionDef(
+                                    name="<lambda_mut>",
+                                    args=lam_c.args,
+                                    body=[ast.Expr(value=lam_c.body)],
+                                    decorator_list=[],
+                                    lineno=lam_c.lineno,
+                                    col_offset=lam_c.col_offset,
+                                ),
+                                body_fn_keys,
+                            )
+                        fn_call_edges.setdefault(fk_cur, []).append((synth_fk, pos_arg_nms, kw_arg_nms))
             elif isinstance(nd_cur, ast.Lambda):
                 synth_lfk = ("<lambda_mut>", nd_cur.lineno, nd_cur.col_offset)
                 if synth_lfk not in fn_param_specs:
@@ -578,12 +643,28 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                                 mapped_tgts = pos_map_c[p_i]
                     elif tgt_v not in c_loc and tgt_v not in caller_loc:
                         mapped_tgts = (tgt_v,)
+                    m_dmp_v = ast.dump(mast_v, include_attributes=False) if mapped_tgts else ""
+                    seen_caller = fn_mut_seen.setdefault(caller_fk, set())
                     for mapped_tgt in mapped_tgts:
-                        if not any(
-                            et == mapped_tgt and ek == mk_v and em is mast_v for et, ek, em in cur_effs
-                        ):
+                        sig_mv = (mapped_tgt, mk_v, m_dmp_v)
+                        if sig_mv not in seen_caller:
+                            seen_caller.add(sig_mv)
                             cur_effs.append((mapped_tgt, mk_v, mast_v))
                             mut_fp_changed = True
+
+    fn_mut_meta: dict[fn_key_t, list[tuple[str, str, ast.AST, str, frozenset[str]]]] = {}
+    for fk_mm, effs_mm in fn_mut_effects.items():
+        all_p_mm = fn_param_specs.get(fk_mm, ((), frozenset(), frozenset()))[1]
+        meta_list_mm: list[tuple[str, str, ast.AST, str, frozenset[str]]] = []
+        for tgt_mm, mk_mm, mast_mm in effs_mm:
+            dmp_mm = ast.dump(mast_mm, include_attributes=False)
+            free_p_mm = frozenset(
+                n_mm.id
+                for n_mm in ast.walk(mast_mm)
+                if isinstance(n_mm, ast.Name) and isinstance(n_mm.ctx, ast.Load) and n_mm.id in all_p_mm
+            )
+            meta_list_mm.append((tgt_mm, mk_mm, mast_mm, dmp_mm, free_p_mm))
+        fn_mut_meta[fk_mm] = meta_list_mm
 
     def copy_defs_map(
         dm: dict[str, Any]
@@ -769,9 +850,53 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
         loop_jumps: list[tuple[dict[str, list[tuple[ast.AST, tuple[ast.AST, ...], bool]]], set[str]]] | None = None,
         nested_snap_keys: frozenset[str] = frozenset(),
         scope_fn_keys: dict[str, fn_key_t] | None = None,
+        dv_dmp_seen_in: dict[str, set[str]] | None = None,
+        dm_dmp_seen_in: dict[str, set[str]] | None = None,
+        sq_dmp_seen_in: dict[str, set[tuple[str, bool]]] | None = None,
     ) -> tuple[dict[str, list[tuple[ast.AST, tuple[ast.AST, ...], bool]]], bool]:
         cur_defs = copy_defs_map(init_defs)
         cur_scope_fn_keys = scope_fn_keys if scope_fn_keys is not None else direct_fn_key_map_of(stmts, {})
+        dv_dmp_seen: dict[str, set[str]] = (
+            dv_dmp_seen_in
+            if dv_dmp_seen_in is not None
+            else {k_dv: {ast.dump(x_dv, include_attributes=False) for x_dv in v_dv} for k_dv, v_dv in dict_val_muts.items()}
+        )
+        dm_dmp_seen: dict[str, set[str]] = (
+            dm_dmp_seen_in
+            if dm_dmp_seen_in is not None
+            else {k_dm: {ast.dump(x_dm, include_attributes=False) for x_dm in v_dm} for k_dm, v_dm in dict_merge_muts.items()}
+        )
+        sq_dmp_seen: dict[str, set[tuple[str, bool]]] = (
+            sq_dmp_seen_in
+            if sq_dmp_seen_in is not None
+            else {
+                k_sq: {(ast.dump(x_sq[0], include_attributes=False), x_sq[2]) for x_sq in v_sq}
+                for k_sq, v_sq in seq_elem_muts.items()
+            }
+        )
+
+        def add_dv_mut_dedup(nm_m: str, ex_m: ast.AST, dmp_opt: str | None = None) -> None:
+            d_s = dmp_opt if dmp_opt is not None else ast.dump(ex_m, include_attributes=False)
+            s_set = dv_dmp_seen.setdefault(nm_m, set())
+            if d_s not in s_set:
+                s_set.add(d_s)
+                dict_val_muts.setdefault(nm_m, []).append(ex_m)
+
+        def add_dm_mut_dedup(nm_m: str, ex_m: ast.AST, dmp_opt: str | None = None) -> None:
+            d_s = dmp_opt if dmp_opt is not None else ast.dump(ex_m, include_attributes=False)
+            s_set = dm_dmp_seen.setdefault(nm_m, set())
+            if d_s not in s_set:
+                s_set.add(d_s)
+                dict_merge_muts.setdefault(nm_m, []).append(ex_m)
+
+        def add_sq_mut_dedup(
+            nm_m: str, ex_m: ast.AST, c_t_m: tuple[ast.AST, ...], lp_f_m: bool, dmp_opt: str | None = None
+        ) -> None:
+            d_s = dmp_opt if dmp_opt is not None else ast.dump(ex_m, include_attributes=False)
+            s_set = sq_dmp_seen.setdefault(nm_m, set())
+            if (d_s, lp_f_m) not in s_set:
+                s_set.add((d_s, lp_f_m))
+                seq_elem_muts.setdefault(nm_m, []).append((ex_m, c_t_m, lp_f_m))
 
         def resolve_cur_def_aliases(nm_in: str) -> list[str]:
             vis_da: set[str] = {nm_in}
@@ -784,6 +909,67 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             vis_da.add(nxt_da)
                             stk_da.append(nxt_da)
             return sorted(vis_da)
+
+        def record_sub_container_mut(
+            sub_tgt: ast.Subscript,
+            leaf_ast: ast.AST,
+            m_kind: str,
+            c_tup_m: tuple[ast.AST, ...],
+            lp_flag_m: bool,
+        ) -> None:
+            slices_chain: list[ast.AST] = []
+            cur_bs: ast.AST = sub_tgt
+            while isinstance(cur_bs, ast.Subscript):
+                slices_chain.append(cur_bs.slice)
+                cur_bs = cur_bs.value
+            if not isinstance(cur_bs, ast.Name):
+                return
+            slices_chain = slices_chain[::-1]
+            root_nms = resolve_cur_def_aliases(cur_bs.id)
+            leaf_dmp = ast.dump(leaf_ast, include_attributes=False)
+            for r_nm_m in root_nms:
+                if m_kind == "merge":
+                    add_dm_mut_dedup(r_nm_m, leaf_ast, leaf_dmp)
+                elif m_kind == "val":
+                    add_dv_mut_dedup(r_nm_m, leaf_ast, leaf_dmp)
+                elif m_kind == "seq":
+                    add_sq_mut_dedup(r_nm_m, leaf_ast, c_tup_m, lp_flag_m, leaf_dmp)
+                    add_dv_mut_dedup(r_nm_m, leaf_ast, leaf_dmp)
+                elif m_kind == "assign":
+                    add_dv_mut_dedup(r_nm_m, leaf_ast, leaf_dmp)
+                    add_sq_mut_dedup(r_nm_m, leaf_ast, c_tup_m, lp_flag_m, leaf_dmp)
+            if m_kind == "assign" and len(slices_chain) == 1:
+                cur_wrap: ast.AST = leaf_ast
+            elif m_kind == "merge":
+                cur_wrap = ast.Call(func=ast.Name(id="dict", ctx=ast.Load()), args=[leaf_ast], keywords=[])
+            elif m_kind == "seq":
+                cur_wrap = make_seq_elem_mut_ast(leaf_ast)
+            else:
+                cur_wrap = make_dict_val_mut_ast(leaf_ast)
+            for sl_inner in slices_chain[1:][::-1]:
+                ok_si, kv_si = eval_simple_const_scalar(
+                    sl_inner, cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
+                )
+                if ok_si and isinstance(kv_si, int) and not isinstance(kv_si, bool) and m_kind == "seq":
+                    cur_wrap = make_seq_elem_mut_ast(cur_wrap)
+                else:
+                    cur_wrap = make_dict_val_mut_ast(cur_wrap)
+            ok_s0, kv_s0 = eval_simple_const_scalar(
+                slices_chain[0], cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
+            )
+            for r_nm_m in root_nms:
+                if ok_s0 and (isinstance(kv_s0, (str, int, float, bool)) or kv_s0 is None):
+                    sub_const_muts.setdefault((r_nm_m, (type(kv_s0), kv_s0)), []).append(cur_wrap)
+                else:
+                    sub_const_muts.setdefault((r_nm_m, ("__ANY__", None)), []).append(cur_wrap)
+
+        def collect_aliased_subscripts(nm_s: str) -> list[ast.Subscript]:
+            out_subs: list[ast.Subscript] = []
+            for al_s in resolve_cur_def_aliases(nm_s):
+                for ex_s, _, _ in cur_defs.get(al_s, ()):
+                    if isinstance(ex_s, ast.Subscript):
+                        out_subs.append(ex_s)
+            return out_subs
 
         def bind_path_tgt(tgt: ast.AST, val: ast.AST | None, c_tup: tuple[ast.AST, ...], lp_flag: bool) -> None:
             if isinstance(tgt, ast.Starred):
@@ -799,7 +985,9 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     runtime_vars.add(tgt.id)
                     cur_defs.pop(tgt.id, None)
                 else:
-                    if not any(isinstance(sub_n, ast.Name) and sub_n.id == tgt.id for sub_n in ast.walk(val)):
+                    if tgt.id in runtime_vars and not any(
+                        isinstance(sub_n, ast.Name) and sub_n.id == tgt.id for sub_n in ast.walk(val)
+                    ):
                         runtime_vars.discard(tgt.id)
                     cur_defs[tgt.id] = ((val, c_tup, lp_flag),)
             elif isinstance(tgt, (ast.Tuple, ast.List)):
@@ -853,36 +1041,53 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 bind_path_tgt(expr_n.target, expr_n.value, c_tup, lp_flag)
             elif isinstance(expr_n, ast.Call) and not isinstance(expr_n.func, ast.Attribute):
                 callee_fks_se: list[fn_key_t] = []
-                ca_nms_se, lam_cands_se = extract_callable_atoms(expr_n.func)
-                expanded_nms_se: set[str] = set()
-                for nm_se0 in ca_nms_se:
-                    for al_f in resolve_cur_def_aliases(nm_se0):
-                        expanded_nms_se.add(al_f)
-                        for ex_lf, _, _ in cur_defs.get(al_f, ()):
-                            sub_nms_se, sub_lams_se = extract_callable_atoms(ex_lf)
-                            lam_cands_se.extend(sub_lams_se)
-                            for s_nm_se in sub_nms_se:
-                                expanded_nms_se.update(resolve_cur_def_aliases(s_nm_se))
-                for al_f in sorted(expanded_nms_se):
-                    if al_f in cur_scope_fn_keys and al_f not in cur_defs:
-                        callee_fks_se.append(cur_scope_fn_keys[al_f])
-                    else:
-                        callee_fks_se.extend(fn_keys_by_name.get(al_f, ()))
-                for lam_se in lam_cands_se:
-                    s_fk_se = ("<lambda_mut>", lam_se.lineno, lam_se.col_offset)
-                    if s_fk_se not in fn_param_specs:
-                        precollect_fn_muts_single(
-                            ast.FunctionDef(
-                                name="<lambda_mut>",
-                                args=lam_se.args,
-                                body=[ast.Expr(value=lam_se.body)],
-                                decorator_list=[],
-                                lineno=lam_se.lineno,
-                                col_offset=lam_se.col_offset,
-                            ),
-                            cur_scope_fn_keys,
+                if isinstance(expr_n.func, ast.Name) and expr_n.func.id not in cur_defs:
+                    nm_fast_se = expr_n.func.id
+                    if nm_fast_se in cur_scope_fn_keys:
+                        fk_fast_se = cur_scope_fn_keys[nm_fast_se]
+                        if fk_fast_se in fn_mut_effects:
+                            callee_fks_se.append(fk_fast_se)
+                    elif nm_fast_se in fn_keys_by_name:
+                        callee_fks_se.extend(
+                            fk_k for fk_k in fn_keys_by_name[nm_fast_se] if fk_k in fn_mut_effects
                         )
-                    callee_fks_se.append(s_fk_se)
+                else:
+                    ca_nms_se, lam_cands_se = extract_callable_atoms(expr_n.func)
+                    expanded_nms_se: set[str] = set()
+                    for nm_se0 in ca_nms_se:
+                        for al_f in resolve_cur_def_aliases(nm_se0):
+                            expanded_nms_se.add(al_f)
+                            for ex_lf, _, _ in cur_defs.get(al_f, ()):
+                                sub_nms_se, sub_lams_se = extract_callable_atoms(ex_lf)
+                                lam_cands_se.extend(sub_lams_se)
+                                for s_nm_se in sub_nms_se:
+                                    for al_f2 in resolve_cur_def_aliases(s_nm_se):
+                                        expanded_nms_se.add(al_f2)
+                                        for ex_lf2, _, _ in cur_defs.get(al_f2, ()):
+                                            s2_nms, s2_lams = extract_callable_atoms(ex_lf2)
+                                            lam_cands_se.extend(s2_lams)
+                                            for s2_nm in s2_nms:
+                                                expanded_nms_se.update(resolve_cur_def_aliases(s2_nm))
+                    for al_f in sorted(expanded_nms_se):
+                        if al_f in cur_scope_fn_keys and al_f not in cur_defs:
+                            callee_fks_se.append(cur_scope_fn_keys[al_f])
+                        else:
+                            callee_fks_se.extend(fn_keys_by_name.get(al_f, ()))
+                    for lam_se in lam_cands_se:
+                        s_fk_se = ("<lambda_mut>", lam_se.lineno, lam_se.col_offset)
+                        if s_fk_se not in fn_param_specs:
+                            precollect_fn_muts_single(
+                                ast.FunctionDef(
+                                    name="<lambda_mut>",
+                                    args=lam_se.args,
+                                    body=[ast.Expr(value=lam_se.body)],
+                                    decorator_list=[],
+                                    lineno=lam_se.lineno,
+                                    col_offset=lam_se.col_offset,
+                                ),
+                                cur_scope_fn_keys,
+                            )
+                        callee_fks_se.append(s_fk_se)
                 for c_fk_se in callee_fks_se:
                     if c_fk_se not in fn_mut_effects:
                         continue
@@ -894,50 +1099,113 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     for kw_ca in expr_n.keywords:
                         if kw_ca.arg is not None and kw_ca.arg in c_all_sp:
                             actual_p_exprs[kw_ca.arg] = kw_ca.value
-                    for tgt_p_nm, m_kind, m_ast in fn_mut_effects[c_fk_se]:
+                    eff_p_exprs = {
+                        k_pe: v_pe
+                        for k_pe, v_pe in actual_p_exprs.items()
+                        if not (isinstance(v_pe, ast.Name) and v_pe.id == k_pe)
+                    }
+                    eff_p_keys = set(eff_p_exprs)
+                    for tgt_p_nm, m_kind, m_ast, m_orig_dmp, m_free_p in fn_mut_meta.get(c_fk_se, ()):
                         arg_nms_se: list[str] = []
+                        sub_tgts_se: list[ast.Subscript] = []
                         if tgt_p_nm in c_all_sp:
                             act_tgt = actual_p_exprs.get(tgt_p_nm)
                             if act_tgt is not None:
+                                if isinstance(act_tgt, ast.Subscript):
+                                    sub_tgts_se.append(act_tgt)
                                 for r_al in sorted(extract_simple_alias_rhs(act_tgt)):
                                     arg_nms_se.extend(resolve_cur_def_aliases(r_al))
+                                    sub_tgts_se.extend(collect_aliased_subscripts(r_al))
                         elif tgt_p_nm not in c_loc_sp:
                             arg_nms_se.append(tgt_p_nm)
-                        if arg_nms_se:
-                            m_sub = subst_param_names(m_ast, actual_p_exprs)
+                            sub_tgts_se.extend(collect_aliased_subscripts(tgt_p_nm))
+                        if arg_nms_se or sub_tgts_se:
+                            if eff_p_keys and (m_free_p & eff_p_keys):
+                                m_sub = subst_param_names_rec(m_ast, eff_p_exprs)
+                                m_sub_dmp = ast.dump(m_sub, include_attributes=False)
+                            else:
+                                m_sub = m_ast
+                                m_sub_dmp = m_orig_dmp
                             for arg_nm in sorted(set(arg_nms_se)):
                                 if m_kind == "val":
-                                    dict_val_muts.setdefault(arg_nm, []).append(m_sub)
+                                    if m_sub_dmp not in dv_dmp_seen.setdefault(arg_nm, set()):
+                                        dv_dmp_seen[arg_nm].add(m_sub_dmp)
+                                        dict_val_muts.setdefault(arg_nm, []).append(m_sub)
                                 elif m_kind == "merge":
-                                    dict_merge_muts.setdefault(arg_nm, []).append(m_sub)
+                                    if m_sub_dmp not in dm_dmp_seen.setdefault(arg_nm, set()):
+                                        dm_dmp_seen[arg_nm].add(m_sub_dmp)
+                                        dict_merge_muts.setdefault(arg_nm, []).append(m_sub)
                                 elif m_kind == "seq":
-                                    seq_elem_muts.setdefault(arg_nm, []).append((m_sub, c_tup, lp_flag))
-            elif isinstance(expr_n, ast.Call) and isinstance(expr_n.func, ast.Attribute) and isinstance(expr_n.func.value, ast.Name):
-                d_nm = expr_n.func.value.id
+                                    if (m_sub_dmp, lp_flag) not in sq_dmp_seen.setdefault(arg_nm, set()):
+                                        sq_dmp_seen[arg_nm].add((m_sub_dmp, lp_flag))
+                                        seq_elem_muts.setdefault(arg_nm, []).append((m_sub, c_tup, lp_flag))
+                            for sub_t_se in sub_tgts_se:
+                                record_sub_container_mut(sub_t_se, m_sub, m_kind, c_tup, lp_flag)
+            elif isinstance(expr_n, ast.Call) and isinstance(expr_n.func, ast.Attribute) and isinstance(expr_n.func.value, (ast.Name, ast.Subscript)):
                 attr = expr_n.func.attr
-                if attr == "update":
-                    for a_u in expr_n.args:
-                        dict_merge_muts.setdefault(d_nm, []).append(a_u)
-                    for kw_u in expr_n.keywords:
-                        if kw_u.arg is None:
-                            dict_merge_muts.setdefault(d_nm, []).append(kw_u.value)
-                        else:
-                            dict_val_muts.setdefault(d_nm, []).append(kw_u.value)
-                            sub_const_muts.setdefault((d_nm, (str, kw_u.arg)), []).append(kw_u.value)
-                elif attr == "setdefault":
-                    val_sd = expr_n.args[1] if len(expr_n.args) >= 2 else ast.Constant(value=None)
-                    dict_val_muts.setdefault(d_nm, []).append(val_sd)
-                    if len(expr_n.args) >= 1:
-                        ok_kv_sd, kv = eval_simple_const_scalar(
-                            expr_n.args[0], cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
-                        )
-                        if ok_kv_sd and (isinstance(kv, (str, int, float, bool)) or kv is None):
-                            sub_const_muts.setdefault((d_nm, (type(kv), kv)), []).append(val_sd)
-                elif attr in ("append", "extend", "add"):
-                    for a_s in expr_n.args:
-                        seq_elem_muts.setdefault(d_nm, []).append((a_s, c_tup, lp_flag))
-                elif attr == "insert" and len(expr_n.args) >= 2:
-                    seq_elem_muts.setdefault(d_nm, []).append((expr_n.args[1], c_tup, lp_flag))
+                if isinstance(expr_n.func.value, ast.Name):
+                    d_nm = expr_n.func.value.id
+                    d_als = resolve_cur_def_aliases(d_nm)
+                    aliased_subs = collect_aliased_subscripts(d_nm)
+                    if attr == "update":
+                        for a_u in expr_n.args:
+                            for al_d in d_als:
+                                dict_merge_muts.setdefault(al_d, []).append(a_u)
+                            for sb_a in aliased_subs:
+                                record_sub_container_mut(sb_a, a_u, "merge", c_tup, lp_flag)
+                        for kw_u in expr_n.keywords:
+                            if kw_u.arg is None:
+                                for al_d in d_als:
+                                    dict_merge_muts.setdefault(al_d, []).append(kw_u.value)
+                                for sb_a in aliased_subs:
+                                    record_sub_container_mut(sb_a, kw_u.value, "merge", c_tup, lp_flag)
+                            else:
+                                for al_d in d_als:
+                                    dict_val_muts.setdefault(al_d, []).append(kw_u.value)
+                                    sub_const_muts.setdefault((al_d, (str, kw_u.arg)), []).append(kw_u.value)
+                                for sb_a in aliased_subs:
+                                    record_sub_container_mut(sb_a, kw_u.value, "val", c_tup, lp_flag)
+                    elif attr == "setdefault":
+                        val_sd = expr_n.args[1] if len(expr_n.args) >= 2 else ast.Constant(value=None)
+                        for al_d in d_als:
+                            dict_val_muts.setdefault(al_d, []).append(val_sd)
+                        if len(expr_n.args) >= 1:
+                            ok_kv_sd, kv = eval_simple_const_scalar(
+                                expr_n.args[0], cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
+                            )
+                            if ok_kv_sd and (isinstance(kv, (str, int, float, bool)) or kv is None):
+                                for al_d in d_als:
+                                    sub_const_muts.setdefault((al_d, (type(kv), kv)), []).append(val_sd)
+                        for sb_a in aliased_subs:
+                            record_sub_container_mut(sb_a, val_sd, "val", c_tup, lp_flag)
+                    elif attr in ("append", "extend", "add"):
+                        for a_s in expr_n.args:
+                            for al_d in d_als:
+                                seq_elem_muts.setdefault(al_d, []).append((a_s, c_tup, lp_flag))
+                            for sb_a in aliased_subs:
+                                record_sub_container_mut(sb_a, a_s, "seq", c_tup, lp_flag)
+                    elif attr == "insert" and len(expr_n.args) >= 2:
+                        for al_d in d_als:
+                            seq_elem_muts.setdefault(al_d, []).append((expr_n.args[1], c_tup, lp_flag))
+                        for sb_a in aliased_subs:
+                            record_sub_container_mut(sb_a, expr_n.args[1], "seq", c_tup, lp_flag)
+                else:
+                    sub_recv = expr_n.func.value
+                    if attr == "update":
+                        for a_u in expr_n.args:
+                            record_sub_container_mut(sub_recv, a_u, "merge", c_tup, lp_flag)
+                        for kw_u in expr_n.keywords:
+                            record_sub_container_mut(
+                                sub_recv, kw_u.value, "merge" if kw_u.arg is None else "val", c_tup, lp_flag
+                            )
+                    elif attr == "setdefault":
+                        val_sd = expr_n.args[1] if len(expr_n.args) >= 2 else ast.Constant(value=None)
+                        record_sub_container_mut(sub_recv, val_sd, "val", c_tup, lp_flag)
+                    elif attr in ("append", "extend", "add"):
+                        for a_s in expr_n.args:
+                            record_sub_container_mut(sub_recv, a_s, "seq", c_tup, lp_flag)
+                    elif attr == "insert" and len(expr_n.args) >= 2:
+                        record_sub_container_mut(sub_recv, expr_n.args[1], "seq", c_tup, lp_flag)
 
         for st in stmts:
             if isinstance(st, (ast.FunctionDef, ast.ClassDef)):
@@ -970,6 +1238,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     cur_defs, term_ch = scan_stmts_dataflow(
                         chosen_stmts, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     if term_ch:
                         return cur_defs, True
@@ -981,11 +1250,13 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 defs_b, term_b = scan_stmts_dataflow(
                     st.body, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                     sub_const_muts, rt_b, nc, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                    dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                 )
                 if st.orelse:
                     defs_e, term_e = scan_stmts_dataflow(
                         st.orelse, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, rt_e, nc, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                 else:
                     defs_e, term_e = cur_defs, False
@@ -1013,6 +1284,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         cur_defs, term_oe = scan_stmts_dataflow(
                             st.orelse, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                             sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                            dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                         )
                         if term_oe:
                             return cur_defs, True
@@ -1031,6 +1303,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             cur_defs, term_oe = scan_stmts_dataflow(
                                 st.orelse, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                                 sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                                dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                             )
                             if term_oe:
                                 return cur_defs, True
@@ -1043,6 +1316,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         cur_defs, term_oe = scan_stmts_dataflow(
                             st.orelse, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                             sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                            dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                         )
                         if term_oe:
                             return cur_defs, True
@@ -1059,6 +1333,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     defs_body, term_body = scan_stmts_dataflow(
                         st.body, defs_lp, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, runtime_vars, nc_lp, True, lp_snaps, cur_loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     if not term_body:
                         defs_lp = merge_defs_maps(defs_lp, defs_body, runtime_vars)
@@ -1069,6 +1344,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     defs_oe, _ = scan_stmts_dataflow(
                         st.orelse, defs_lp, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, runtime_vars, nc_lp, True, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     defs_lp = merge_defs_maps(defs_lp, defs_oe, runtime_vars)
                 cur_defs = merge_defs_maps(cur_defs, defs_lp, runtime_vars)
@@ -1083,6 +1359,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 cur_defs, term_w = scan_stmts_dataflow(
                     st.body, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                     sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                    dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                 )
                 if term_w:
                     return cur_defs, True
@@ -1093,6 +1370,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 defs_tb, term_tb = scan_stmts_dataflow(
                     st.body, cur_defs, seq_elem_muts, dict_val_muts, dict_merge_muts,
                     sub_const_muts, rt_tb, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                    dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                 )
                 acc_defs = copy_defs_map(defs_tb) if not term_tb else None
                 acc_rt: set[str] = set(rt_tb) if not term_tb else set()
@@ -1105,6 +1383,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     defs_hd, term_hd = scan_stmts_dataflow(
                         hd.body, defs_h_in, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, rt_hd, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     if not term_hd:
                         acc_defs = defs_hd if acc_defs is None else merge_defs_maps(acc_defs, defs_hd, set())
@@ -1114,6 +1393,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     defs_to, term_to = scan_stmts_dataflow(
                         st.orelse, defs_tb, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, rt_to, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     if not term_to:
                         acc_defs = defs_to if acc_defs is None else merge_defs_maps(acc_defs, defs_to, set())
@@ -1125,6 +1405,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     defs_tf, term_tf = scan_stmts_dataflow(
                         st.finalbody, base_fin, seq_elem_muts, dict_val_muts, dict_merge_muts,
                         sub_const_muts, runtime_vars, conds, in_lp, ret_snapshots, loop_jumps, nested_snap_keys, cur_scope_fn_keys,
+                        dv_dmp_seen, dm_dmp_seen, sq_dmp_seen,
                     )
                     if term_tf or acc_defs is None:
                         return defs_tf, True
@@ -1139,16 +1420,16 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 for tgt in st.targets:
                     scan_expr_side_effects(tgt, conds, in_lp)
                     if isinstance(tgt, ast.Subscript):
-                        rn = root_sub_name(tgt)
-                        if rn:
-                            dict_val_muts.setdefault(rn, []).append(st.value)
-                            seq_elem_muts.setdefault(rn, []).append((st.value, conds, in_lp))
+                        record_sub_container_mut(tgt, st.value, "assign", conds, in_lp)
                         if isinstance(tgt.value, ast.Name):
-                            ok_as_k, kv = eval_simple_const_scalar(
-                                tgt.slice, cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
-                            )
-                            if ok_as_k and (isinstance(kv, (str, int, float, bool)) or kv is None):
-                                sub_const_muts.setdefault((tgt.value.id, (type(kv), kv)), []).append(st.value)
+                            for sb_al in collect_aliased_subscripts(tgt.value.id):
+                                record_sub_container_mut(
+                                    ast.Subscript(value=sb_al, slice=tgt.slice, ctx=ast.Load()),
+                                    st.value,
+                                    "assign",
+                                    conds,
+                                    in_lp,
+                                )
                     else:
                         bind_path_tgt(tgt, st.value, conds, in_lp)
             elif isinstance(st, ast.AnnAssign):
@@ -1156,16 +1437,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     scan_expr_side_effects(st.value, conds, in_lp)
                     scan_expr_side_effects(st.target, conds, in_lp)
                     if isinstance(st.target, ast.Subscript):
-                        rn = root_sub_name(st.target)
-                        if rn:
-                            dict_val_muts.setdefault(rn, []).append(st.value)
-                            seq_elem_muts.setdefault(rn, []).append((st.value, conds, in_lp))
-                        if isinstance(st.target.value, ast.Name):
-                            ok_an_k, kv = eval_simple_const_scalar(
-                                st.target.slice, cur_defs, runtime_vars, scope_fn_keys=cur_scope_fn_keys
-                            )
-                            if ok_an_k and (isinstance(kv, (str, int, float, bool)) or kv is None):
-                                sub_const_muts.setdefault((st.target.value.id, (type(kv), kv)), []).append(st.value)
+                        record_sub_container_mut(st.target, st.value, "assign", conds, in_lp)
                     else:
                         bind_path_tgt(st.target, st.value, conds, in_lp)
             elif isinstance(st, ast.AugAssign):
@@ -1188,11 +1460,18 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         lhs_node = ast.Name(id=st.target.id, ctx=ast.Load())
                         cur_defs[st.target.id] = ((ast.BinOp(left=lhs_node, op=st.op, right=st.value), conds, in_lp),)
                 elif isinstance(st.target, ast.Subscript):
-                    rn = root_sub_name(st.target)
-                    if rn:
-                        aug_ex = ast.BinOp(left=st.target, op=st.op, right=st.value)
-                        dict_val_muts.setdefault(rn, []).append(aug_ex)
-                        seq_elem_muts.setdefault(rn, []).append((aug_ex, conds, in_lp))
+                    aug_ex = ast.BinOp(
+                        left=ast.Subscript(value=st.target.value, slice=st.target.slice, ctx=ast.Load()),
+                        op=st.op,
+                        right=st.value,
+                    )
+                    record_sub_container_mut(
+                        st.target,
+                        st.value if isinstance(st.op, ast.BitOr) else aug_ex,
+                        "merge" if isinstance(st.op, ast.BitOr) else "assign",
+                        conds,
+                        in_lp,
+                    )
             else:
                 scan_expr_side_effects(st, conds, in_lp)
 
@@ -1773,6 +2052,208 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             unambig_pure_const_names.add(cand_fn.name)
                         changed_fp = True
 
+    safe_scalar_builtins = {
+        "bool", "int", "float", "complex", "str", "len", "abs", "isinstance", "ord", "chr", "hex", "bin", "oct", "round", "all", "any",
+    }
+    safe_attr_methods = {
+        "append", "extend", "insert", "pop", "remove", "clear", "copy", "sort", "reverse",
+        "get", "keys", "values", "items",
+        "strip", "lstrip", "rstrip", "split", "rsplit", "splitlines", "replace",
+        "lower", "upper", "startswith", "endswith", "join", "format",
+        "count", "find", "rfind", "index", "rindex",
+        "isdigit", "isalpha", "isalnum", "isspace", "islower", "isupper", "isidentifier", "isascii", "isnumeric", "isdecimal",
+    }
+    fn_rec_meta_nd: dict[fn_key_t, tuple[ast.FunctionDef, Any, dict[str, fn_key_t], set[str], set[str], dict[str, list[ast.AST]], list[ast.AST]]] = {}
+    for cand_fn_s, cand_enc_s, cand_vis_s in fn_records:
+        fk_s = (cand_fn_s.name, cand_fn_s.lineno, cand_fn_s.col_offset)
+        vis_k_s = {k_vs: (vfs.name, vfs.lineno, vfs.col_offset) for k_vs, (vfs, _) in cand_vis_s.items()}
+        p_nms_s = {a_s.arg for a_s in list(cand_fn_s.args.posonlyargs) + list(cand_fn_s.args.args) + list(cand_fn_s.args.kwonlyargs)}
+        if cand_fn_s.args.vararg is not None:
+            p_nms_s.add(cand_fn_s.args.vararg.arg)
+        if cand_fn_s.args.kwarg is not None:
+            p_nms_s.add(cand_fn_s.args.kwarg.arg)
+        bad_loc_s: set[str] = set()
+        assign_rhs_s: dict[str, list[ast.AST]] = {}
+        ret_vals_s: list[ast.AST] = []
+
+        def walk_body_shallow_s(nd_bs: ast.AST) -> None:
+            if isinstance(nd_bs, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+                bad_loc_s.add(nd_bs.name)
+                return
+            if isinstance(nd_bs, ast.Return):
+                if nd_bs.value is not None:
+                    ret_vals_s.append(nd_bs.value)
+            elif isinstance(nd_bs, ast.Assign):
+                if len(nd_bs.targets) == 1 and isinstance(nd_bs.targets[0], ast.Name):
+                    assign_rhs_s.setdefault(nd_bs.targets[0].id, []).append(nd_bs.value)
+                else:
+                    for tg_s in nd_bs.targets:
+                        for nm_ts in collect_names_store(tg_s):
+                            bad_loc_s.add(nm_ts)
+            elif isinstance(nd_bs, ast.AnnAssign):
+                if isinstance(nd_bs.target, ast.Name) and nd_bs.value is not None:
+                    assign_rhs_s.setdefault(nd_bs.target.id, []).append(nd_bs.value)
+                else:
+                    for nm_ts in collect_names_store(nd_bs.target):
+                        bad_loc_s.add(nm_ts)
+            elif isinstance(nd_bs, ast.AugAssign):
+                for nm_ts in collect_names_store(nd_bs.target):
+                    bad_loc_s.add(nm_ts)
+            elif isinstance(nd_bs, ast.For):
+                for nm_ts in collect_names_store(nd_bs.target):
+                    bad_loc_s.add(nm_ts)
+            elif isinstance(nd_bs, ast.With):
+                for it_ws in nd_bs.items:
+                    if it_ws.optional_vars is not None:
+                        for nm_ts in collect_names_store(it_ws.optional_vars):
+                            bad_loc_s.add(nm_ts)
+            elif isinstance(nd_bs, ast.ExceptHandler) and nd_bs.name:
+                bad_loc_s.add(nd_bs.name)
+            elif isinstance(nd_bs, ast.NamedExpr) and isinstance(nd_bs.target, ast.Name):
+                bad_loc_s.add(nd_bs.target.id)
+            elif isinstance(nd_bs, ast.Subscript) and isinstance(nd_bs.ctx, (ast.Store, ast.Del)):
+                rn_bs = root_sub_name(nd_bs)
+                if rn_bs:
+                    bad_loc_s.add(rn_bs)
+            elif isinstance(nd_bs, ast.Call) and isinstance(nd_bs.func, ast.Attribute) and isinstance(nd_bs.func.value, ast.Name):
+                if nd_bs.func.attr in ("append", "extend", "insert", "pop", "remove", "clear", "sort", "reverse", "update", "setdefault", "add"):
+                    bad_loc_s.add(nd_bs.func.value.id)
+            for ch_bs in ast.iter_child_nodes(nd_bs):
+                walk_body_shallow_s(ch_bs)
+
+        for st_bs in cand_fn_s.body:
+            walk_body_shallow_s(st_bs)
+        fn_rec_meta_nd[fk_s] = (cand_fn_s, cand_enc_s, vis_k_s, p_nms_s, bad_loc_s, assign_rhs_s, ret_vals_s)
+
+    fn_scalar_only_returns: set[fn_key_t] = set(fn_rec_meta_nd)
+    changed_sc_fp = True
+    while changed_sc_fp:
+        changed_sc_fp = False
+        for fk_s in [k_fs for k_fs in fn_scalar_only_returns]:
+            cand_fn_s, cand_enc_s, vis_k_s, p_nms_s, bad_loc_s, assign_rhs_s, ret_vals_s = fn_rec_meta_nd[fk_s]
+            enc_d_s = cand_enc_s[0]
+            enc_r_s = cand_enc_s[5]
+
+            def expr_is_non_dict(ex_s: ast.AST, seen_v: frozenset[str] = frozenset()) -> bool:
+                if isinstance(ex_s, (ast.Constant, ast.Compare, ast.JoinedStr)):
+                    return True
+                if isinstance(ex_s, ast.UnaryOp):
+                    return True if isinstance(ex_s.op, ast.Not) else expr_is_non_dict(ex_s.operand, seen_v)
+                if isinstance(ex_s, ast.BinOp):
+                    return expr_is_non_dict(ex_s.left, seen_v) and expr_is_non_dict(ex_s.right, seen_v)
+                if isinstance(ex_s, ast.BoolOp):
+                    return all(expr_is_non_dict(v_bs, seen_v) for v_bs in ex_s.values)
+                if isinstance(ex_s, ast.IfExp):
+                    return expr_is_non_dict(ex_s.body, seen_v) and expr_is_non_dict(ex_s.orelse, seen_v)
+                if isinstance(ex_s, (ast.Tuple, ast.List, ast.Set)) and not any(isinstance(el_s, ast.Starred) for el_s in ex_s.elts):
+                    return all(expr_is_non_dict(el_s, seen_v) for el_s in ex_s.elts)
+                if isinstance(ex_s, ast.Name):
+                    nm_s = ex_s.id
+                    if (
+                        nm_s in seen_v
+                        or nm_s in p_nms_s
+                        or nm_s in bad_loc_s
+                        or nm_s in enc_d_s
+                        or nm_s in enc_r_s
+                        or nm_s not in assign_rhs_s
+                        or not assign_rhs_s[nm_s]
+                    ):
+                        return False
+                    nxt_vs = seen_v | {nm_s}
+                    return all(expr_is_non_dict(rhs_x, nxt_vs) for rhs_x in assign_rhs_s[nm_s])
+                if isinstance(ex_s, ast.Call) and isinstance(ex_s.func, ast.Name):
+                    fn_id_s = ex_s.func.id
+                    if (
+                        fn_id_s in p_nms_s
+                        or fn_id_s in bad_loc_s
+                        or fn_id_s in assign_rhs_s
+                        or fn_id_s in enc_d_s
+                        or fn_id_s in enc_r_s
+                    ):
+                        return False
+                    if fn_id_s in vis_k_s:
+                        return vis_k_s[fn_id_s] in fn_scalar_only_returns
+                    return fn_id_s not in fn_keys_by_name and fn_id_s in safe_scalar_builtins
+                return False
+
+            if not all(expr_is_non_dict(rv_s) for rv_s in ret_vals_s):
+                fn_scalar_only_returns.discard(fk_s)
+                changed_sc_fp = True
+
+    fn_no_dict_ctor_or_mut: set[fn_key_t] = set()
+    for fk_s, (cand_fn_s, cand_enc_s, vis_k_s, p_nms_s, bad_loc_s, assign_rhs_s, _) in fn_rec_meta_nd.items():
+        if (
+            fk_s in fn_mut_effects
+            or cand_fn_s.args.vararg is not None
+            or cand_fn_s.args.kwarg is not None
+        ):
+            continue
+        ok_ast_s = True
+        for nd_w_s in ast.walk(cand_fn_s):
+            if nd_w_s is cand_fn_s:
+                continue
+            if isinstance(
+                nd_w_s,
+                (ast.Dict, ast.DictComp, ast.Lambda, ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef),
+            ):
+                ok_ast_s = False
+                break
+            if isinstance(nd_w_s, ast.Subscript) and isinstance(nd_w_s.ctx, (ast.Store, ast.Del)):
+                ok_ast_s = False
+                break
+            if isinstance(nd_w_s, ast.Name) and nd_w_s.id in ("dict", "type", "vars", "globals", "locals", "getattr", "eval", "exec"):
+                ok_ast_s = False
+                break
+            if isinstance(nd_w_s, ast.Attribute) and (
+                nd_w_s.attr in ("fromkeys", "update", "setdefault") or nd_w_s.attr.startswith("__")
+            ):
+                ok_ast_s = False
+                break
+        if ok_ast_s:
+            fn_no_dict_ctor_or_mut.add(fk_s)
+
+    changed_nd_fp = True
+    while changed_nd_fp:
+        changed_nd_fp = False
+        for fk_s in [k_nd for k_nd in fn_no_dict_ctor_or_mut]:
+            cand_fn_s, cand_enc_s, vis_k_s, p_nms_s, bad_loc_s, assign_rhs_s, _ = fn_rec_meta_nd[fk_s]
+            enc_d_s = cand_enc_s[0]
+            enc_r_s = cand_enc_s[5]
+            calls_ok_s = True
+            for nd_c_s in ast.walk(cand_fn_s):
+                if isinstance(nd_c_s, ast.Call):
+                    if isinstance(nd_c_s.func, ast.Name):
+                        fn_id_c = nd_c_s.func.id
+                        if (
+                            fn_id_c in p_nms_s
+                            or fn_id_c in bad_loc_s
+                            or fn_id_c in assign_rhs_s
+                            or fn_id_c in enc_d_s
+                            or fn_id_c in enc_r_s
+                        ):
+                            calls_ok_s = False
+                            break
+                        if fn_id_c in vis_k_s:
+                            if vis_k_s[fn_id_c] not in fn_no_dict_ctor_or_mut:
+                                calls_ok_s = False
+                                break
+                        elif fn_id_c in fn_keys_by_name:
+                            calls_ok_s = False
+                            break
+                    elif isinstance(nd_c_s.func, ast.Attribute):
+                        if not (
+                            (isinstance(nd_c_s.func.value, ast.Name) and nd_c_s.func.value.id in ("math", "cmath", "np", "sp", "ast"))
+                            or nd_c_s.func.attr in safe_attr_methods
+                        ):
+                            calls_ok_s = False
+                            break
+                    else:
+                        calls_ok_s = False
+                        break
+            if not calls_ok_s:
+                fn_no_dict_ctor_or_mut.discard(fk_s)
+                changed_nd_fp = True
+
     cond_res_cache: dict[Any, list[tuple[frozenset[fn_key_t], frozenset[Any], frozenset[Any], bool]]] = {}
     fn_scope_no_ov_cache: dict[Any, Any] = {}
     ext_skip_stack: list[set[Any]] = []
@@ -1807,6 +2288,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
         require_non_forbidden_scalar: bool = False,
     ) -> bool:
         fn_cur_fk = (fn_node.name, fn_node.lineno, fn_node.col_offset)
+        if (not require_non_forbidden_scalar) and fn_cur_fk in fn_scalar_only_returns:
+            return True
         spec_items = tuple(
             sorted((k, ast.dump(v, include_attributes=False)) for k, v in (bound_overrides or {}).items())
         )
@@ -1835,11 +2318,13 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             tuple_slot,
             require_non_forbidden_scalar,
             min(same_fn_cnt_cur, 1) if spec_items else 0,
-            1 if cur_fn_locs_cnt >= 8 else 0,
+            1 if cur_fn_locs_cnt >= 5 else 0,
         )
         if no_ov_key in cond_res_cache:
             for fn_locs_c, rel_act_c, out_skips_c, res_c in cond_res_cache[no_ov_key]:
-                if frozenset(k_a for k_a in active_specs if (k_a[0], k_a[1], k_a[2]) in fn_locs_c) == rel_act_c:
+                if (not out_skips_c and res_c is True) or (
+                    frozenset(k_a for k_a in active_specs if (k_a[0], k_a[1], k_a[2]) in fn_locs_c) == rel_act_c
+                ):
                     if ext_skip_stack and out_skips_c:
                         ext_skip_stack[-1].update(out_skips_c)
                     if ext_fnloc_stack:
@@ -1885,7 +2370,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             fs_skips = frozenset(my_skips_fin)
             cur_entries = cond_res_cache.setdefault(no_ov_key, [])
             entry_fin = (fs_locs, rel_act, fs_skips, res_fin)
-            if entry_fin not in cur_entries and len(cur_entries) < 32:
+            if entry_fin not in cur_entries and len(cur_entries) < 128:
                 cur_entries.append(entry_fin)
             return res_fin
 
@@ -1900,7 +2385,11 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
         for rv_node, r_guards_snap, assigned_exprs, snap_rt_vars in ret_snapshots:
             target_rv = rv_node
             if tuple_slot is not None:
-                if (
+                if tuple_slot == dyn_sub_slot:
+                    target_rv = ast.Subscript(
+                        value=rv_node, slice=ast.Name(id="__G2_RT__", ctx=ast.Load()), ctx=ast.Load()
+                    )
+                elif (
                     isinstance(rv_node, (ast.Tuple, ast.List))
                     and not any(isinstance(el, ast.Starred) for el in rv_node.elts)
                     and -len(rv_node.elts) <= tuple_slot < len(rv_node.elts)
@@ -2029,6 +2518,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 return False
 
             alias_adj: dict[str, set[str]] = {}
+            alias_memo: dict[str, list[str]] = {}
             alias_built = [False]
 
             def extract_alias_rhs(ex_node: ast.AST) -> set[str]:
@@ -2053,6 +2543,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             def alias_closure(start_nm: str) -> list[str]:
                 if start_nm in ("__G2_RT__", "__G2_CONST__"):
                     return [start_nm]
+                if start_nm in alias_memo:
+                    return alias_memo[start_nm]
                 if not alias_built[0]:
                     alias_built[0] = True
                     for lhs_a, entries_a in assigned_exprs.items():
@@ -2060,13 +2552,6 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             for rhs_a in sorted(extract_alias_rhs(ex_a)):
                                 alias_adj.setdefault(lhs_a, set()).add(rhs_a)
                                 alias_adj.setdefault(rhs_a, set()).add(lhs_a)
-                    for lhs_s, entries_s in assigned_exprs.items():
-                        for ex_s2, _, _ in entries_s:
-                            if isinstance(ex_s2, ast.Subscript):
-                                for h_sub in resolve_subscript_targets(ex_s2, frozenset()):
-                                    for rhs_s in sorted(extract_alias_rhs(h_sub)):
-                                        alias_adj.setdefault(lhs_s, set()).add(rhs_s)
-                                        alias_adj.setdefault(rhs_s, set()).add(lhs_s)
                 vis_al: set[str] = {start_nm}
                 stk_al: list[str] = [start_nm]
                 while stk_al:
@@ -2075,7 +2560,10 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         if nxt_al not in vis_al:
                             vis_al.add(nxt_al)
                             stk_al.append(nxt_al)
-                return sorted(vis_al)
+                res_al = sorted(vis_al)
+                for m_al in res_al:
+                    alias_memo[m_al] = res_al
+                return res_al
 
             def resolve_call_target_fns(func_nd: ast.AST, seen_fn_nd: int = 0) -> list[tuple[ast.FunctionDef, Any]]:
                 if seen_fn_nd > 8:
@@ -2143,6 +2631,15 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                                             cur_inner_state,
                                         )
                                     )
+                            elif isinstance(ex_fn, (ast.Subscript, ast.IfExp, ast.NamedExpr)):
+                                sub_callees = resolve_call_target_fns(
+                                    ex_fn.value if isinstance(ex_fn, ast.NamedExpr) else ex_fn, seen_fn_nd + 1
+                                )
+                                for vf_sc, ve_sc in sub_callees:
+                                    fk_sc = (vf_sc.name, vf_sc.lineno, vf_sc.col_offset)
+                                    if fk_sc not in seen_tf:
+                                        seen_tf.add(fk_sc)
+                                        out_tf.append((vf_sc, ve_sc))
                     return out_tf
                 return []
 
@@ -2173,6 +2670,10 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             found.append(poison_dict_ast)
                         elif is_flat_poison_dict_ast(dc_nd) or is_poison_seq_ast(dc_nd):
                             found.append(poison_seq_ast)
+                        elif is_dict_val_mut_ast(dc_nd):
+                            found.append(dc_nd.values[0])  # type: ignore[attr-defined]
+                        elif is_seq_elem_mut_ast(dc_nd):
+                            found.append(dc_nd.elts[1])  # type: ignore[attr-defined]
                         elif isinstance(dc_nd, ast.Name):
                             if dc_nd.id not in runtime_vars and dc_nd.id not in seen and dc_nd.id not in seen_dyn_nms:
                                 for al_l in alias_closure(dc_nd.id):
@@ -2181,6 +2682,9 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                                         dyn_containers.extend(ex_l for ex_l, _, _ in assigned_exprs.get(al_l, []))
                                         found.extend(dict_val_muts.get(al_l, []))
                                         found.extend(mv_s for mv_s, _, _ in seq_elem_muts.get(al_l, []))
+                                        for (sc_nm, _), sc_vals in sub_const_muts.items():
+                                            if sc_nm == al_l:
+                                                found.extend(sc_vals)
                         elif isinstance(dc_nd, ast.Subscript):
                             dyn_containers.extend(resolve_subscript_targets(dc_nd, seen | frozenset(seen_dyn_nms), sub_depth + 1))
                         elif isinstance(dc_nd, ast.Dict):
@@ -2229,6 +2733,11 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         found.append(poison_dict_ast)
                     elif is_flat_poison_dict_ast(c_node) or is_poison_seq_ast(c_node):
                         found.append(poison_seq_ast)
+                    elif is_dict_val_mut_ast(c_node):
+                        found.append(c_node.values[0])  # type: ignore[attr-defined]
+                    elif is_seq_elem_mut_ast(c_node):
+                        if isinstance(kv, int) and not isinstance(kv, bool):
+                            found.append(c_node.elts[1])  # type: ignore[attr-defined]
                     elif isinstance(c_node, ast.Name):
                         c_nm = c_node.id
                         if c_nm not in runtime_vars and c_nm not in seen and c_nm not in seen_cand_nms:
@@ -2238,6 +2747,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                                     cand_containers.extend(ex for ex, _, _ in assigned_exprs.get(al_c, []))
                                     if isinstance(kv, (str, int, float, bool)) or kv is None:
                                         found.extend(sub_const_muts.get((al_c, (type(kv), kv)), []))
+                                    found.extend(sub_const_muts.get((al_c, ("__ANY__", None)), []))
                                     if isinstance(kv, int) and not isinstance(kv, bool):
                                         found.extend(mv_s for mv_s, _, _ in seq_elem_muts.get(al_c, []))
                     elif isinstance(c_node, ast.Subscript):
@@ -2536,20 +3046,25 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     ok_sl_c, v_sl_c = eval_simple_const_scalar(
                         node.slice, assigned_exprs, runtime_vars | set(local_rt), scope_fn_keys=active_fn_keys
                     )
-                    if (
-                        isinstance(node.value, ast.Call)
-                        and ok_sl_c
-                        and isinstance(v_sl_c, int)
-                        and not isinstance(v_sl_c, bool)
-                        and resolve_call_target_fns(node.value.func)
-                    ):
-                        if not check_user_call_returns(node.value, local_rt, set(), v_sl_c, True):
+                    if isinstance(node.value, ast.Call) and resolve_call_target_fns(node.value.func):
+                        slot_c = (
+                            v_sl_c
+                            if (ok_sl_c and isinstance(v_sl_c, int) and not isinstance(v_sl_c, bool))
+                            else dyn_sub_slot
+                        )
+                        if not check_user_call_returns(node.value, local_rt, set(), slot_c, True):
                             return True
                     sub_hits = resolve_subscript_targets(node, seen)
                     if sub_hits:
                         if ok_sl_c:
                             if any(is_forbidden_verdict_expr(h_ex, local_rt, seen) for h_ex in sub_hits):
                                 return True
+                        elif (
+                            tuple_slot == dyn_sub_slot
+                            and node is target_rv
+                            and any(is_forbidden_verdict_expr(h_ex, local_rt, seen) for h_ex in sub_hits)
+                        ):
+                            return True
                         elif all(is_forbidden_verdict_expr(h_ex, local_rt, seen) for h_ex in sub_hits):
                             return True
                 if isinstance(node, ast.Name):
@@ -2629,6 +3144,11 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
 
             root_dict_memo: dict[tuple[str, frozenset[str]], bool] = {}
             root_dict_skips: dict[tuple[str, frozenset[str]], set[Any]] = {}
+            active_dl_tokens: set[tuple[str, str, frozenset[str]]] = set()
+            spec_dl_memo: dict[tuple[str, frozenset[str]], tuple[set[Any], set[Any]]] = {}
+            single_call_ret_memo: dict[tuple[str, frozenset[str], int | None, bool, fn_key_t], tuple[bool, bool]] = {}
+            single_call_ret_skips: dict[tuple[str, frozenset[str], int | None, bool, fn_key_t], set[Any]] = {}
+            spec_single_call_memo: dict[tuple[str, frozenset[str], int | None, bool, fn_key_t], tuple[set[Any], set[Any]]] = {}
             kv_memo: dict[tuple[str, frozenset[str]], bool] = {}
             kv_skips: dict[tuple[str, frozenset[str]], set[Any]] = {}
             san_memo: dict[tuple[str, frozenset[str]], tuple[bool, ast.AST]] = {}
@@ -2739,22 +3259,48 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 ok_dl = check_dict_like(expr_a, local_rt, None)
                 if not ok_dl:
                     return True, (flat_poison_dict_ast if is_flat_only_bad_dict(expr_a, local_rt) else poison_dict_ast)
+                def merge_san_branches(branch_results: list[tuple[bool, ast.AST]]) -> tuple[bool, ast.AST]:
+                    if not any(sp_b for sp_b, _ in branch_results):
+                        return False, ast.Name(id="__G2_RT__", ctx=ast.Load())
+                    b_nds = [nd_b for sp_b, nd_b in branch_results if sp_b]
+                    if any(is_poison_dict_ast(nd_b) or not check_dict_like(nd_b, frozenset(), None) for nd_b in b_nds):
+                        if all(is_flat_poison_dict_ast(nd_b) for nd_b in b_nds if not check_dict_like(nd_b, frozenset(), None)):
+                            return True, flat_poison_dict_ast
+                        return True, poison_dict_ast
+                    if any(is_poison_seq_ast(nd_b) or contains_any_forbidden_seq(nd_b) for nd_b in b_nds):
+                        return True, poison_seq_ast
+                    return True, ast.BoolOp(
+                        op=ast.Or(),
+                        values=[ast.Name(id="__G2_RT__", ctx=ast.Load()), ast.Constant(value=True)],
+                    )
+
                 if (
                     isinstance(expr_a, ast.Name)
                     and expr_a.id not in runtime_vars
                     and expr_a.id not in local_rt
                     and expr_a.id not in seen_a
                 ):
-                    if any(is_forbidden_verdict_expr(mv_x, local_rt, frozenset()) for mv_x, _, _ in seq_elem_muts.get(expr_a.id, [])):
-                        return True, poison_seq_ast
-                    if (
-                        expr_a.id not in seq_elem_muts
-                        and expr_a.id not in dict_val_muts
-                        and len(assigned_exprs.get(expr_a.id, [])) == 1
-                    ):
-                        return sanitize_arg_ast_for_override(
-                            assigned_exprs[expr_a.id][0][0], local_rt, vis, seen_a | {expr_a.id}
-                        )
+                    als_a = alias_closure(expr_a.id)
+                    for al_sa in als_a:
+                        if any(
+                            is_forbidden_verdict_expr(mv_x, local_rt, frozenset())
+                            or is_seq_elem_mut_ast(mv_x)
+                            or (al_sa not in dict_val_muts and contains_any_forbidden_seq(mv_x))
+                            for mv_x, _, _ in seq_elem_muts.get(al_sa, [])
+                        ):
+                            return True, poison_seq_ast
+                    if all(al_sa not in seq_elem_muts and al_sa not in dict_val_muts for al_sa in als_a):
+                        all_ent_a = [ex_ea for al_sa in als_a for ex_ea, _, _ in assigned_exprs.get(al_sa, [])]
+                        nxt_seen_a = seen_a | frozenset(als_a)
+                        if len(all_ent_a) == 1:
+                            return sanitize_arg_ast_for_override(all_ent_a[0], local_rt, vis, nxt_seen_a)
+                        if 1 < len(all_ent_a) <= 6:
+                            return merge_san_branches(
+                                [
+                                    sanitize_arg_ast_for_override(ex_ea, local_rt, vis, nxt_seen_a)
+                                    for ex_ea in all_ent_a
+                                ]
+                            )
                 if isinstance(expr_a, (ast.List, ast.Tuple)) and not any(isinstance(e_s, ast.Starred) for e_s in expr_a.elts):
                     sub_sp = [sanitize_arg_ast_for_override(el_s, local_rt, vis, seen_a) for el_s in expr_a.elts]
                     if any(sp_f for sp_f, _ in sub_sp):
@@ -2763,6 +3309,34 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     sub_sp = [sanitize_arg_ast_for_override(el_s, local_rt, vis, seen_a) for el_s in expr_a.elts]
                     if any(sp_f for sp_f, _ in sub_sp):
                         return True, poison_seq_ast
+                if isinstance(expr_a, (ast.ListComp, ast.SetComp, ast.GeneratorExp)):
+                    comp_sp = [
+                        sanitize_arg_ast_for_override(exp_el, exp_rt, vis, seen_a)
+                        for exp_el, exp_rt in expand_comp_exprs(expr_a.generators, expr_a.elt, local_rt)
+                    ]
+                    if any(sp_f for sp_f, _ in comp_sp):
+                        return True, poison_seq_ast
+                if isinstance(expr_a, ast.DictComp):
+                    dcomp_sp = [
+                        sanitize_arg_ast_for_override(exp_v, exp_rt, vis, seen_a)
+                        for exp_v, exp_rt in expand_comp_exprs(expr_a.generators, expr_a.value, local_rt)
+                    ]
+                    if any(sp_f for sp_f, _ in dcomp_sp):
+                        return True, poison_dict_ast
+                if isinstance(expr_a, ast.IfExp):
+                    b_sp = sanitize_arg_ast_for_override(expr_a.body, local_rt, vis, seen_a)
+                    e_sp = sanitize_arg_ast_for_override(expr_a.orelse, local_rt, vis, seen_a)
+                    if b_sp[0] or e_sp[0]:
+                        return merge_san_branches([b_sp, e_sp])
+                if isinstance(expr_a, ast.BinOp) and isinstance(expr_a.op, (ast.Add, ast.Mult, ast.BitOr)):
+                    l_sp = sanitize_arg_ast_for_override(expr_a.left, local_rt, vis, seen_a)
+                    r_sp = sanitize_arg_ast_for_override(expr_a.right, local_rt, vis, seen_a)
+                    if (l_sp[0] or r_sp[0]) and any(
+                        is_poison_seq_ast(nd_x) or is_poison_dict_ast(nd_x) or is_flat_poison_dict_ast(nd_x) or isinstance(nd_x, (ast.Tuple, ast.Dict))
+                        for sp_x, nd_x in (l_sp, r_sp)
+                        if sp_x
+                    ):
+                        return merge_san_branches([l_sp, r_sp])
                 if isinstance(expr_a, ast.Dict) and all(k_s is not None for k_s in expr_a.keys):
                     val_sp = [sanitize_arg_ast_for_override(v_s, local_rt, vis, seen_a) for v_s in expr_a.values]
                     if any(sp_f for sp_f, _ in val_sp):
@@ -2770,6 +3344,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             keys=list(expr_a.keys),
                             values=[sp_nd for _, sp_nd in val_sp],
                         )
+                if isinstance(expr_a, ast.Name) and expr_a.id == "__G2_CONST__":
+                    return True, ast.Name(id="__G2_CONST__", ctx=ast.Load())
                 if is_forbidden_verdict_expr(expr_a, local_rt, frozenset()):
                     ok_cv, v_cv = eval_simple_const_scalar(
                         expr_a, assigned_exprs, runtime_vars | set(local_rt), scope_fn_keys=active_fn_keys
@@ -2778,6 +3354,11 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         return True, ast.Constant(value=v_cv)
                     if isinstance(expr_a, (ast.Tuple, ast.List, ast.Set, ast.ListComp, ast.SetComp, ast.GeneratorExp)):
                         return True, poison_seq_ast
+                    if is_pure_const_expr(expr_a, local_rt, frozenset()):
+                        return True, ast.BoolOp(
+                            op=ast.Or(),
+                            values=[ast.Name(id="__G2_CONST__", ctx=ast.Load()), ast.Constant(value=True)],
+                        )
                     return True, ast.BoolOp(
                         op=ast.Or(),
                         values=[ast.Name(id="__G2_RT__", ctx=ast.Load()), ast.Constant(value=True)],
@@ -2788,6 +3369,7 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     )
                     if ok_cv:
                         return True, ast.Constant(value=v_cv)
+                    return True, ast.Name(id="__G2_CONST__", ctx=ast.Load())
                 return False, ast.Name(id="__G2_RT__", ctx=ast.Load())
 
             def run_san_node(
@@ -2856,6 +3438,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     snap_sns = dict(san_skips)
                     snap_cr = dict(call_ret_memo)
                     snap_crs = dict(call_ret_skips)
+                    snap_scr = dict(single_call_ret_memo)
+                    snap_scrs = dict(single_call_ret_skips)
                     snap_fbd = dict(flat_bad_memo)
                     snap_fbds = dict(flat_bad_skips)
                     spec_san_vals.clear()
@@ -2877,6 +3461,12 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         root_dict_memo.update(snap_rd)
                         root_dict_skips.clear()
                         root_dict_skips.update(snap_rds)
+                        spec_dl_memo.clear()
+                        spec_single_call_memo.clear()
+                        single_call_ret_memo.clear()
+                        single_call_ret_memo.update(snap_scr)
+                        single_call_ret_skips.clear()
+                        single_call_ret_skips.update(snap_scrs)
                         kv_memo.clear()
                         kv_memo.update(snap_kv)
                         kv_skips.clear()
@@ -2979,16 +3569,78 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
             def contains_any_forbidden_seq(nd_w: ast.AST) -> bool:
                 if is_poison_seq_ast(nd_w) or is_poison_dict_ast(nd_w) or is_flat_poison_dict_ast(nd_w):
                     return True
+                if is_seq_elem_mut_ast(nd_w):
+                    el_m = nd_w.elts[1]  # type: ignore[attr-defined]
+                    return is_forbidden_verdict_expr(el_m, frozenset(), frozenset()) or contains_any_forbidden_seq(el_m)
                 if isinstance(nd_w, (ast.Tuple, ast.List, ast.Set)):
                     return any(
                         is_forbidden_verdict_expr(el_w, frozenset(), frozenset()) or contains_any_forbidden_seq(el_w)
                         for el_w in nd_w.elts
                     )
+                if isinstance(nd_w, (ast.ListComp, ast.SetComp, ast.GeneratorExp)):
+                    return any(
+                        is_forbidden_verdict_expr(exp_el, exp_rt, frozenset()) or contains_any_forbidden_seq(exp_el)
+                        for exp_el, exp_rt in expand_comp_exprs(nd_w.generators, nd_w.elt, frozenset())
+                    )
                 if isinstance(nd_w, ast.Dict):
                     return any(contains_any_forbidden_seq(v_w) for v_w in nd_w.values)
                 return False
 
-            def check_single_callee_returns(
+            def is_active_coind_dl_tok(tk_c: Any) -> bool:
+                if not isinstance(tk_c, tuple):
+                    return False
+                if len(tk_c) == 3 and tk_c[0] == "D_ACT":
+                    return tk_c in active_dl_tokens
+                if len(tk_c) == 2 and tk_c[0] == "CALL":
+                    ck_inner = tk_c[1]
+                    return (
+                        isinstance(ck_inner, tuple)
+                        and len(ck_inner) == 5
+                        and (ck_inner[3] is False)
+                        and (ck_inner in active_call_checks)
+                    )
+                return False
+
+            def evict_coind_tok(bad_tok: Any) -> None:
+                for k_ev in [k_i for k_i, _ in spec_dl_memo.items()]:
+                    if bad_tok in spec_dl_memo[k_ev][0]:
+                        spec_dl_memo.pop(k_ev, None)
+                for k_cev in [k_i for k_i, _ in spec_single_call_memo.items()]:
+                    if bad_tok in spec_single_call_memo[k_cev][0]:
+                        spec_single_call_memo.pop(k_cev, None)
+
+            def resolve_coind_tok_true(ok_tok: Any, rem_loc: set[Any], rem_ext: set[Any]) -> None:
+                for k_pr in [k_i for k_i, _ in spec_dl_memo.items()]:
+                    pr_loc, pr_ext = spec_dl_memo[k_pr]
+                    if ok_tok in pr_loc:
+                        new_pr_loc = set(pr_loc)
+                        new_pr_loc.discard(ok_tok)
+                        new_pr_loc.update(rem_loc)
+                        new_pr_ext = set(pr_ext)
+                        new_pr_ext.update(rem_ext)
+                        if not new_pr_loc:
+                            spec_dl_memo.pop(k_pr, None)
+                            for al_pr in alias_closure(k_pr[0]):
+                                root_dict_memo[(al_pr, k_pr[1])] = True
+                                root_dict_skips[(al_pr, k_pr[1])] = set(new_pr_ext)
+                        else:
+                            spec_dl_memo[k_pr] = (new_pr_loc, new_pr_ext)
+                for k_cpr in [k_i for k_i, _ in spec_single_call_memo.items()]:
+                    cpr_loc, cpr_ext = spec_single_call_memo[k_cpr]
+                    if ok_tok in cpr_loc:
+                        new_cpr_loc = set(cpr_loc)
+                        new_cpr_loc.discard(ok_tok)
+                        new_cpr_loc.update(rem_loc)
+                        new_cpr_ext = set(cpr_ext)
+                        new_cpr_ext.update(rem_ext)
+                        if not new_cpr_loc:
+                            spec_single_call_memo.pop(k_cpr, None)
+                            single_call_ret_memo[k_cpr] = (True, False)
+                            single_call_ret_skips[k_cpr] = set(new_cpr_ext)
+                        else:
+                            spec_single_call_memo[k_cpr] = (new_cpr_loc, new_cpr_ext)
+
+            def check_single_callee_returns_core(
                 call_node: ast.Call,
                 callee_fn: ast.FunctionDef,
                 callee_enc: Any,
@@ -2996,17 +3648,40 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                 vis: frozenset[tuple[str, str, frozenset[str]]],
                 proj_slot: int | None,
                 scalar_mode: bool,
+                callee_fk: fn_key_t,
+                ck_key: tuple[str, frozenset[str], int | None, bool, fn_key_t],
             ) -> tuple[bool, bool]:
-                callee_fk: fn_key_t = (callee_fn.name, callee_fn.lineno, callee_fn.col_offset)
-                ck_key = (ast.dump(call_node, include_attributes=False), local_rt, proj_slot, scalar_mode, callee_fk)
-                if ck_key in active_call_checks:
-                    if loc_skip_stack:
-                        loc_skip_stack[-1].add(("CALL", ck_key))
-                    return (False, True) if scalar_mode else (True, False)
-                active_call_checks.add(ck_key)
                 try:
                     if ext_fnloc_stack:
                         ext_fnloc_stack[-1].add(callee_fk)
+                    if not scalar_mode:
+                        if callee_fk in fn_scalar_only_returns:
+                            return True, False
+                        if callee_fk in fn_no_dict_ctor_or_mut:
+                            for d_def_c in list(callee_fn.args.defaults) + [
+                                kw_dc for kw_dc in callee_fn.args.kw_defaults if kw_dc is not None
+                            ]:
+                                if not check_dict_like(d_def_c, frozenset(), None):
+                                    return False, False
+                            for a_nd_c in call_node.args:
+                                a_unw_c = a_nd_c.value if isinstance(a_nd_c, ast.Starred) else a_nd_c
+                                if not check_dict_like(a_unw_c, local_rt, vis):
+                                    return False, False
+                            for kw_nd_c in call_node.keywords:
+                                if not check_dict_like(kw_nd_c.value, local_rt, vis):
+                                    return False, False
+                            if not verify_fn_returns(
+                                callee_fn,
+                                callee_enc,
+                                dict(active_visible_fns),
+                                None,
+                                call_depth + 1,
+                                next_specs,
+                                None,
+                                False,
+                            ):
+                                return False, False
+                            return True, False
                     pos_p = list(callee_fn.args.posonlyargs) + list(callee_fn.args.args)
                     kw_p_list = [a.arg for a in callee_fn.args.kwonlyargs]
                     kw_p = set(kw_p_list)
@@ -3121,14 +3796,14 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                         1 for nm_s, ln_s, col_s, _, _, _, _ in next_specs if (nm_s, ln_s, col_s) == callee_fk
                     )
                     next_fn_locs_cnt = len({(nm_s, ln_s, col_s) for nm_s, ln_s, col_s, _, _, _, _ in next_specs})
-                    if same_fn_cnt >= 1 or next_fn_locs_cnt >= 8:
+                    if same_fn_cnt >= 1 or next_fn_locs_cnt >= 5:
                         if same_fn_cnt >= 10:
                             return False, False
                         const_any_ast = ast.Name(id="__G2_CONST__", ctx=ast.Load())
                         const_any_dump = ast.dump(const_any_ast, include_attributes=False)
                         forb_or_ast = ast.BoolOp(
                             op=ast.Or(),
-                            values=[ast.Name(id="__G2_RT__", ctx=ast.Load()), ast.Constant(value=True)],
+                            values=[ast.Name(id="__G2_CONST__", ctx=ast.Load()), ast.Constant(value=True)],
                         )
                         forb_or_dump = ast.dump(forb_or_ast, include_attributes=False)
                         widen_levels: dict[str, int] = {}
@@ -3139,6 +3814,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                                     widen_levels[p_wk] = 4 if is_flat_poison_dict_ast(cand_wk) else 5
                                 elif contains_any_forbidden_seq(cand_wk):
                                     widen_levels[p_wk] = 3
+                                elif isinstance(cand_wk, ast.Name) and cand_wk.id == "__G2_CONST__":
+                                    widen_levels[p_wk] = 1
                                 elif is_forbidden_verdict_expr(cand_wk, frozenset(), frozenset()):
                                     widen_levels[p_wk] = 2
                                 elif use_ov is not None and p_wk in overrides:
@@ -3247,7 +3924,66 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     frame_skips_memo[target_spec_k] = skips_tk
                     return res_tk, False
                 finally:
+                    pass
+
+            def check_single_callee_returns(
+                call_node: ast.Call,
+                callee_fn: ast.FunctionDef,
+                callee_enc: Any,
+                local_rt: frozenset[str],
+                vis: frozenset[tuple[str, str, frozenset[str]]],
+                proj_slot: int | None,
+                scalar_mode: bool,
+            ) -> tuple[bool, bool]:
+                callee_fk: fn_key_t = (callee_fn.name, callee_fn.lineno, callee_fn.col_offset)
+                ck_key = (ast.dump(call_node, include_attributes=False), local_rt, proj_slot, scalar_mode, callee_fk)
+                if (not scalar_mode) and ck_key in single_call_ret_memo:
+                    if ext_skip_stack and single_call_ret_skips[ck_key]:
+                        ext_skip_stack[-1].update(single_call_ret_skips[ck_key])
+                    return single_call_ret_memo[ck_key]
+                if (not scalar_mode) and ck_key in spec_single_call_memo:
+                    sp_loc_sc, sp_ext_sc = spec_single_call_memo[ck_key]
+                    if all(is_active_coind_dl_tok(tk_sc) for tk_sc in sp_loc_sc):
+                        if loc_skip_stack and sp_loc_sc:
+                            loc_skip_stack[-1].update(sp_loc_sc)
+                        if ext_skip_stack and sp_ext_sc:
+                            ext_skip_stack[-1].update(sp_ext_sc)
+                        return True, False
+                call_tok_sc = ("CALL", ck_key)
+                if ck_key in active_call_checks:
+                    if loc_skip_stack:
+                        loc_skip_stack[-1].add(call_tok_sc)
+                    return (False, True) if scalar_mode else (True, False)
+                loc_skip_stack.append(set())
+                ext_skip_stack.append(set())
+                active_call_checks.add(ck_key)
+                try:
+                    ok_sc, cyc_sc = check_single_callee_returns_core(
+                        call_node, callee_fn, callee_enc, local_rt, vis, proj_slot, scalar_mode, callee_fk, ck_key
+                    )
+                finally:
                     active_call_checks.discard(ck_key)
+                my_loc_sc = loc_skip_stack.pop()
+                my_ext_sc = ext_skip_stack.pop()
+                my_loc_sc.discard(call_tok_sc)
+                if loc_skip_stack and my_loc_sc:
+                    loc_skip_stack[-1].update(my_loc_sc)
+                if ext_skip_stack and my_ext_sc:
+                    ext_skip_stack[-1].update(my_ext_sc)
+                if (not ok_sc) or cyc_sc:
+                    evict_coind_tok(call_tok_sc)
+                    if (not scalar_mode) and (not cyc_sc) and (not my_loc_sc):
+                        single_call_ret_memo[ck_key] = (False, False)
+                        single_call_ret_skips[ck_key] = set(my_ext_sc)
+                    return ok_sc, cyc_sc
+                if not scalar_mode:
+                    resolve_coind_tok_true(call_tok_sc, my_loc_sc, my_ext_sc)
+                    if not my_loc_sc:
+                        single_call_ret_memo[ck_key] = (True, False)
+                        single_call_ret_skips[ck_key] = set(my_ext_sc)
+                    elif all(is_active_coind_dl_tok(tk_sc) for tk_sc in my_loc_sc):
+                        spec_single_call_memo[ck_key] = (set(my_loc_sc), set(my_ext_sc))
+                return ok_sc, cyc_sc
 
             def check_user_call_returns(
                 call_node: ast.Call,
@@ -3308,6 +4044,8 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     return False
                 if is_poison_seq_ast(node):
                     return True
+                if is_seq_elem_mut_ast(node):
+                    return check_dict_like_inner(node.elts[1], local_rt, vis)  # type: ignore[attr-defined]
                 if isinstance(node, ast.Dict):
                     for k_n, v_n in zip(node.keys, node.values):
                         if k_n is None:
@@ -3349,14 +4087,13 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                     ok_sl_dl, v_sl_dl = eval_simple_const_scalar(
                         node.slice, assigned_exprs, runtime_vars | set(local_rt), scope_fn_keys=active_fn_keys
                     )
-                    if (
-                        isinstance(node.value, ast.Call)
-                        and ok_sl_dl
-                        and isinstance(v_sl_dl, int)
-                        and not isinstance(v_sl_dl, bool)
-                        and resolve_call_target_fns(node.value.func)
-                    ):
-                        return check_user_call_returns(node.value, local_rt, vis, v_sl_dl)
+                    if isinstance(node.value, ast.Call) and resolve_call_target_fns(node.value.func):
+                        slot_dl = (
+                            v_sl_dl
+                            if (ok_sl_dl and isinstance(v_sl_dl, int) and not isinstance(v_sl_dl, bool))
+                            else dyn_sub_slot
+                        )
+                        return check_user_call_returns(node.value, local_rt, vis, slot_dl)
                     sub_vk = ("SUB", ast.dump(node, include_attributes=False), local_rt)
                     if sub_vk in vis:
                         return True
@@ -3407,33 +4144,88 @@ def check_guardrail2_ast_no_literal_bool_verdicts(src_code: str) -> bool:
                             ext_skip_stack[-1].update(root_dict_skips[(nm, local_rt)])
                         return root_dict_memo[(nm, local_rt)]
                     grp_nm = alias_closure(nm)
-                    grp_d_keys = [("D", al_x, local_rt) for al_x in grp_nm]
-                    if all(dk_x in vis for dk_x in grp_d_keys):
+                    canon_nm = grp_nm[0]
+                    if (canon_nm, local_rt) in root_dict_memo:
+                        if ext_skip_stack and root_dict_skips[(canon_nm, local_rt)]:
+                            ext_skip_stack[-1].update(root_dict_skips[(canon_nm, local_rt)])
+                        return root_dict_memo[(canon_nm, local_rt)]
+                    if (canon_nm, local_rt) in spec_dl_memo:
+                        sp_loc_d, sp_ext_d = spec_dl_memo[(canon_nm, local_rt)]
+                        if all(is_active_coind_dl_tok(tk_d) for tk_d in sp_loc_d):
+                            if loc_skip_stack and sp_loc_d:
+                                loc_skip_stack[-1].update(sp_loc_d)
+                            if ext_skip_stack and sp_ext_d:
+                                ext_skip_stack[-1].update(sp_ext_d)
+                            return True
+                    act_tok = ("D_ACT", canon_nm, local_rt)
+                    if act_tok in active_dl_tokens:
+                        if loc_skip_stack:
+                            loc_skip_stack[-1].add(act_tok)
                         return True
-                    vis.update(grp_d_keys)
-                    for al_nm in grp_nm:
-                        if al_nm in active_visible_fns and al_nm not in runtime_vars and al_nm not in assigned_exprs:
-                            c_fn_v, c_enc_v = active_visible_fns[al_nm]
-                            if ext_fnloc_stack:
-                                ext_fnloc_stack[-1].add((c_fn_v.name, c_fn_v.lineno, c_fn_v.col_offset))
-                            if not verify_fn_returns(
-                                c_fn_v, c_enc_v, dict(active_visible_fns), None, call_depth + 1, next_specs, None
-                            ):
-                                return False
-                        for mv_v in dict_val_muts.get(al_nm, []):
-                            if is_forbidden_verdict_expr(mv_v, local_rt, frozenset()) or not check_dict_like_inner(
-                                mv_v, local_rt, vis
-                            ):
-                                return False
-                        for mm_v in dict_merge_muts.get(al_nm, []):
-                            if not check_dict_or_kv_seq(mm_v, local_rt, vis):
-                                return False
-                        for ex, _, _ in assigned_exprs.get(al_nm, []):
-                            if not check_dict_like_inner(ex, local_rt, vis):
-                                return False
-                        for mv_s, _, _ in seq_elem_muts.get(al_nm, []):
-                            if not check_dict_like_inner(mv_s, local_rt, vis):
-                                return False
+                    loc_skip_stack.append(set())
+                    ext_skip_stack.append(set())
+                    active_dl_tokens.add(act_tok)
+                    res_nm_dl = True
+                    try:
+                        for al_nm in grp_nm:
+                            if al_nm in active_visible_fns and al_nm not in runtime_vars and al_nm not in assigned_exprs:
+                                c_fn_v, c_enc_v = active_visible_fns[al_nm]
+                                if ext_fnloc_stack:
+                                    ext_fnloc_stack[-1].add((c_fn_v.name, c_fn_v.lineno, c_fn_v.col_offset))
+                                if not verify_fn_returns(
+                                    c_fn_v, c_enc_v, dict(active_visible_fns), None, call_depth + 1, next_specs, None
+                                ):
+                                    res_nm_dl = False
+                                    break
+                            for mv_v in dict_val_muts.get(al_nm, []):
+                                if is_forbidden_verdict_expr(mv_v, local_rt, frozenset()) or not check_dict_like_inner(
+                                    mv_v, local_rt, vis
+                                ):
+                                    res_nm_dl = False
+                                    break
+                            if not res_nm_dl:
+                                break
+                            for mm_v in dict_merge_muts.get(al_nm, []):
+                                if not check_dict_or_kv_seq(mm_v, local_rt, vis):
+                                    res_nm_dl = False
+                                    break
+                            if not res_nm_dl:
+                                break
+                            for ex, _, _ in assigned_exprs.get(al_nm, []):
+                                if not check_dict_like_inner(ex, local_rt, vis):
+                                    res_nm_dl = False
+                                    break
+                            if not res_nm_dl:
+                                break
+                            for mv_s, _, _ in seq_elem_muts.get(al_nm, []):
+                                if not check_dict_like_inner(mv_s, local_rt, vis):
+                                    res_nm_dl = False
+                                    break
+                            if not res_nm_dl:
+                                break
+                    finally:
+                        active_dl_tokens.discard(act_tok)
+                    my_loc_nm = loc_skip_stack.pop()
+                    my_ext_nm = ext_skip_stack.pop()
+                    my_loc_nm.discard(act_tok)
+                    if loc_skip_stack and my_loc_nm:
+                        loc_skip_stack[-1].update(my_loc_nm)
+                    if ext_skip_stack and my_ext_nm:
+                        ext_skip_stack[-1].update(my_ext_nm)
+                    if not res_nm_dl:
+                        evict_coind_tok(act_tok)
+                        if not my_loc_nm:
+                            for al_x in grp_nm:
+                                root_dict_memo[(al_x, local_rt)] = False
+                                root_dict_skips[(al_x, local_rt)] = set(my_ext_nm)
+                        return False
+                    resolve_coind_tok_true(act_tok, my_loc_nm, my_ext_nm)
+                    if not my_loc_nm:
+                        for al_x in grp_nm:
+                            root_dict_memo[(al_x, local_rt)] = True
+                            root_dict_skips[(al_x, local_rt)] = set(my_ext_nm)
+                    elif all(is_active_coind_dl_tok(tk_t) for tk_t in my_loc_nm):
+                        spec_dl_memo[(canon_nm, local_rt)] = (set(my_loc_nm), set(my_ext_nm))
                     return True
                 return True
 
@@ -4064,6 +4856,43 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
             out_gen.update(fw_collect_expr_ret_deps(ch_d))
         return out_gen
 
+    def fw_mut_sub_root(nd_sr: ast.AST) -> str | None:
+        cur_sr: ast.AST = nd_sr
+        while isinstance(cur_sr, ast.Subscript):
+            cur_sr = cur_sr.value
+        return cur_sr.id if isinstance(cur_sr, ast.Name) else None
+
+    nested_fndef_summary: dict[tuple[str, int, int], tuple[set[str], set[str]]] = {}
+    for fn_sum in fw_all_fn_defs:
+        fk_sum = (fn_sum.name, fn_sum.lineno, fn_sum.col_offset)
+        bnd_sum = {
+            a.arg
+            for a in list(fn_sum.args.posonlyargs) + list(fn_sum.args.args) + list(fn_sum.args.kwonlyargs)
+        }
+        if fn_sum.args.vararg is not None:
+            bnd_sum.add(fn_sum.args.vararg.arg)
+        if fn_sum.args.kwarg is not None:
+            bnd_sum.add(fn_sum.args.kwarg.arg)
+        free_sum: set[str] = set()
+        mut_sum: set[str] = set()
+        for n_sw in ast.walk(fn_sum):
+            if isinstance(n_sw, ast.Name) and isinstance(n_sw.ctx, ast.Load) and n_sw.id not in bnd_sum:
+                free_sum.add(n_sw.id)
+            elif isinstance(n_sw, ast.Subscript) and isinstance(n_sw.ctx, ast.Store):
+                rn_sw = fw_mut_sub_root(n_sw.value)
+                if rn_sw is not None and rn_sw not in bnd_sum:
+                    mut_sum.add(rn_sw)
+            elif (
+                isinstance(n_sw, ast.Call)
+                and isinstance(n_sw.func, ast.Attribute)
+                and n_sw.func.attr in mutating_methods
+                and isinstance(n_sw.func.value, (ast.Name, ast.Subscript))
+            ):
+                rn_sw2 = n_sw.func.value.id if isinstance(n_sw.func.value, ast.Name) else fw_mut_sub_root(n_sw.func.value)
+                if rn_sw2 is not None and rn_sw2 not in bnd_sum:
+                    mut_sum.add(rn_sw2)
+        nested_fndef_summary[fk_sum] = (free_sum, mut_sum)
+
     for pass_fw_m in range(16):
         changed_fw_m = False
         for lam_m in fw_all_lambdas:
@@ -4120,31 +4949,46 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                     if (
                         isinstance(nd_fm.func, ast.Attribute)
                         and nd_fm.func.attr in mutating_methods
-                        and isinstance(nd_fm.func.value, ast.Name)
+                        and isinstance(nd_fm.func.value, (ast.Name, ast.Subscript))
                     ):
-                        rv_id = nd_fm.func.value.id
-                        if rv_id in f_all_p:
-                            direct_mut_p.add(rv_id)
-                        for p_al in al_map_f.get(rv_id, ()):
-                            if p_al in f_all_p and p_al != rv_id:
-                                indirect_mut_p.add(p_al)
+                        rv_id = (
+                            nd_fm.func.value.id
+                            if isinstance(nd_fm.func.value, ast.Name)
+                            else fw_mut_sub_root(nd_fm.func.value)
+                        )
+                        if rv_id is not None:
+                            if rv_id in f_all_p:
+                                direct_mut_p.add(rv_id)
+                            for p_al in al_map_f.get(rv_id, ()):
+                                if p_al in f_all_p and p_al != rv_id:
+                                    indirect_mut_p.add(p_al)
                     for c_fn_f in fw_extract_call_fn_names(nd_fm.func):
                         for idx_mf in fw_mut_by_name.get(c_fn_f, ()):
-                            if idx_mf < len(nd_fm.args) and isinstance(nd_fm.args[idx_mf], ast.Name):
-                                ag_id = nd_fm.args[idx_mf].id
-                                if ag_id in f_all_p:
-                                    indirect_mut_p.add(ag_id)
-                                for p_al in al_map_f.get(ag_id, ()):
-                                    if p_al in f_all_p:
-                                        indirect_mut_p.add(p_al)
+                            if idx_mf < len(nd_fm.args) and isinstance(nd_fm.args[idx_mf], (ast.Name, ast.Subscript)):
+                                ag_id = (
+                                    nd_fm.args[idx_mf].id
+                                    if isinstance(nd_fm.args[idx_mf], ast.Name)
+                                    else fw_mut_sub_root(nd_fm.args[idx_mf])
+                                )
+                                if ag_id is not None:
+                                    if ag_id in f_all_p:
+                                        indirect_mut_p.add(ag_id)
+                                    for p_al in al_map_f.get(ag_id, ()):
+                                        if p_al in f_all_p:
+                                            indirect_mut_p.add(p_al)
                         for kw_mf in nd_fm.keywords:
-                            if kw_mf.arg in fw_mut_kw_by_name.get(c_fn_f, ()) and isinstance(kw_mf.value, ast.Name):
-                                ag_id = kw_mf.value.id
-                                if ag_id in f_all_p:
-                                    indirect_mut_p.add(ag_id)
-                                for p_al in al_map_f.get(ag_id, ()):
-                                    if p_al in f_all_p:
-                                        indirect_mut_p.add(p_al)
+                            if kw_mf.arg in fw_mut_kw_by_name.get(c_fn_f, ()) and isinstance(kw_mf.value, (ast.Name, ast.Subscript)):
+                                ag_id = (
+                                    kw_mf.value.id
+                                    if isinstance(kw_mf.value, ast.Name)
+                                    else fw_mut_sub_root(kw_mf.value)
+                                )
+                                if ag_id is not None:
+                                    if ag_id in f_all_p:
+                                        indirect_mut_p.add(ag_id)
+                                    for p_al in al_map_f.get(ag_id, ()):
+                                        if p_al in f_all_p:
+                                            indirect_mut_p.add(p_al)
                 for ch_fm in ast.iter_child_nodes(nd_fm):
                     walk_fn_mut_fw(ch_fm)
 
@@ -4166,31 +5010,21 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                 if pn_fk not in fw_mut_kw_by_name.get(fn_m.name, set()):
                     fw_mut_kw_by_name.setdefault(fn_m.name, set()).add(pn_fk)
                     changed_fw_m = True
+            if pass_fw_m > 0 and fw_fn_ret_dep_params.get(fk_m) == f_all_p:
+                continue
             dep_rev_f: dict[str, set[str]] = {}
             ret_seeds_f: set[str] = set()
             has_val_ret_box = [False]
 
             def walk_ret_deps_fw(nd_rd: ast.AST, guard_lds: frozenset[str]) -> None:
                 if isinstance(nd_rd, ast.FunctionDef):
-                    sub_bnd = {
-                        a.arg
-                        for a in list(nd_rd.args.posonlyargs) + list(nd_rd.args.args) + list(nd_rd.args.kwonlyargs)
-                    }
-                    if nd_rd.args.vararg is not None:
-                        sub_bnd.add(nd_rd.args.vararg.arg)
-                    if nd_rd.args.kwarg is not None:
-                        sub_bnd.add(nd_rd.args.kwarg.arg)
-                    sub_free = {
-                        n_sf.id
-                        for n_sf in ast.walk(nd_rd)
-                        if isinstance(n_sf, ast.Name) and isinstance(n_sf.ctx, ast.Load)
-                    } - sub_bnd
-                    dep_rev_f.setdefault(nd_rd.name, set()).update(set(guard_lds) | sub_free)
-                    for n_sm in ast.walk(nd_rd):
-                        if isinstance(n_sm, ast.Subscript) and isinstance(n_sm.ctx, ast.Store) and isinstance(n_sm.value, ast.Name) and n_sm.value.id not in sub_bnd:
-                            dep_rev_f.setdefault(n_sm.value.id, set()).update(set(guard_lds) | sub_free)
-                        elif isinstance(n_sm, ast.Call) and isinstance(n_sm.func, ast.Attribute) and n_sm.func.attr in mutating_methods and isinstance(n_sm.func.value, ast.Name) and n_sm.func.value.id not in sub_bnd:
-                            dep_rev_f.setdefault(n_sm.func.value.id, set()).update(set(guard_lds) | sub_free)
+                    sub_free, sub_muts = nested_fndef_summary.get(
+                        (nd_rd.name, nd_rd.lineno, nd_rd.col_offset), (set(), set())
+                    )
+                    comb_sf = set(guard_lds) | sub_free
+                    dep_rev_f.setdefault(nd_rd.name, set()).update(comb_sf)
+                    for m_id_s in sub_muts:
+                        dep_rev_f.setdefault(m_id_s, set()).update(comb_sf)
                     return
                 if isinstance(nd_rd, ast.Lambda):
                     return
@@ -4332,6 +5166,26 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
 
     active_alias_stk: list[dict[str, tuple[str, ...]]] = [{}]
 
+    def fw_sub_root_name(expr_s: ast.AST) -> str | None:
+        cur_s: ast.AST = expr_s
+        while isinstance(cur_s, ast.Subscript):
+            cur_s = cur_s.value
+        return cur_s.id if isinstance(cur_s, ast.Name) else None
+
+    def contains_tracked_num_or_taint(val_x: Any) -> bool:
+        if (
+            val_x in ("__NUM_TAINT__", "__COMP_TAINT__", "__ARRAY_CONST__")
+            or is_num(val_x)
+            or is_finite_nums(val_x)
+            or contains_cplx_taint(val_x)
+        ):
+            return True
+        if is_seq_tuple(val_x):
+            return any(contains_tracked_num_or_taint(el_x) for el_x in val_x)
+        if is_dict_val(val_x):
+            return any(contains_tracked_num_or_taint(dv_x) for _, dv_x in dict_pairs(val_x))
+        return False
+
     def taint_mutated_container_val(cur_v: Any) -> Any:
         if cur_v is None:
             return None
@@ -4341,6 +5195,93 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
             return ("__CPLX_TRANS__",)
         return "__COMP_TAINT__"
 
+    def write_nested_sub_val(
+        sub_expr: ast.Subscript,
+        new_leaf_v: Any,
+        env_d: dict[str, Any],
+        call_depth: int = 0,
+        active_fns: frozenset[str] = frozenset(),
+    ) -> tuple[bool, str | None]:
+        sl_nodes: list[ast.AST] = []
+        cur_b: ast.AST = sub_expr
+        while isinstance(cur_b, ast.Subscript):
+            sl_nodes.append(cur_b.slice)
+            cur_b = cur_b.value
+        if not isinstance(cur_b, ast.Name):
+            return True, None
+        root_nm = cur_b.id
+        if root_nm in forbidden_names:
+            return False, None
+        sl_nodes = sl_nodes[::-1]
+        key_vals: list[Any] = []
+        keys_exact = True
+        for sl_n in sl_nodes:
+            ok_k, vk_s = eval_const(sl_n, env_d, call_depth=call_depth, active_fns=active_fns)
+            if not ok_k or vk_s == "__BYTES__" or contains_cplx_opaque(vk_s):
+                return False, None
+            key_vals.append(vk_s)
+            if (
+                vk_s is None
+                or is_finite_nums(vk_s)
+                or vk_s in ("__NUM_TAINT__", "__COMP_TAINT__")
+                or (isinstance(vk_s, tuple) and len(vk_s) >= 1 and vk_s[0] == "__SLICE__")
+            ):
+                keys_exact = False
+
+        old_root = env_d.get(root_nm)
+        if old_root is not None:
+            cur_w: Any = old_root
+            trail_steps: list[tuple[str, Any, Any]] = []
+            fell_back = False
+            for idx_lv, kv_c in enumerate(key_vals):
+                is_last_lv = idx_lv + 1 == len(key_vals)
+                if (
+                    keys_exact
+                    and is_exact_dict(cur_w)
+                    and new_leaf_v is not None
+                    and new_leaf_v not in ("__NUM_TAINT__", "__COMP_TAINT__")
+                ):
+                    cur_ps = dict_pairs(cur_w)
+                    sub_old: Any = None
+                    for dk_c, dv_c in cur_ps:
+                        if dk_c == kv_c and type(dk_c) is type(kv_c):
+                            sub_old = dv_c
+                            break
+                    if is_last_lv or sub_old is not None:
+                        trail_steps.append(("dict", cur_ps, kv_c))
+                        cur_w = sub_old
+                        continue
+                if (
+                    keys_exact
+                    and is_seq_tuple(cur_w)
+                    and is_int_exact(kv_c)
+                    and new_leaf_v not in ("__NUM_TAINT__", "__COMP_TAINT__")
+                ):
+                    ix_c = to_int_exact(kv_c)
+                    if -len(cur_w) <= ix_c < len(cur_w):
+                        p_ix = ix_c if ix_c >= 0 else len(cur_w) + ix_c
+                        trail_steps.append(("seq", cur_w, p_ix))
+                        cur_w = cur_w[p_ix]
+                        continue
+                cur_w = taint_mutated_container_val(cur_w)
+                fell_back = True
+                break
+            if not fell_back:
+                cur_w = new_leaf_v
+            for kind_st, cont_st, key_st in trail_steps[::-1]:
+                if cur_w in ("__NUM_TAINT__", "__COMP_TAINT__") or (kind_st == "dict" and cur_w is None):
+                    cur_w = (
+                        make_dict_partial(cont_st + ((None, "__NUM_TAINT__"),))
+                        if kind_st == "dict"
+                        else taint_mutated_container_val(cont_st)
+                    )
+                elif kind_st == "dict":
+                    cur_w = make_dict_tag(dict_upsert_pairs(cont_st, key_st, cur_w))
+                else:
+                    cur_w = cont_st[:key_st] + (cur_w,) + cont_st[key_st + 1 :]
+            env_d[root_nm] = cur_w
+            sync_container_aliases(root_nm, env_d, active_alias_stk[-1])
+        return True, root_nm
     def sync_container_aliases(var_nm: str, env_d: dict[str, Any], alias_map: dict[str, tuple[str, ...]]) -> None:
         als = alias_map.get(var_nm)
         if not als:
@@ -4386,13 +5327,19 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
         if not mut_pos_ix and not mut_kw_nms:
             return mut_arg_nms, val_arg_nds
         for ix_a, ag_nd in enumerate(call_nd.args):
-            if ix_a in mut_pos_ix and isinstance(ag_nd, ast.Name):
-                mut_arg_nms.add(ag_nd.id)
+            rn_a = ag_nd.id if isinstance(ag_nd, ast.Name) else (fw_sub_root_name(ag_nd) if isinstance(ag_nd, ast.Subscript) else None)
+            if ix_a in mut_pos_ix and rn_a is not None:
+                mut_arg_nms.add(rn_a)
             else:
                 val_arg_nds.append(ag_nd)
         for kw_nd in call_nd.keywords:
-            if kw_nd.arg in mut_kw_nms and isinstance(kw_nd.value, ast.Name):
-                mut_arg_nms.add(kw_nd.value.id)
+            rn_kw = (
+                kw_nd.value.id
+                if isinstance(kw_nd.value, ast.Name)
+                else (fw_sub_root_name(kw_nd.value) if isinstance(kw_nd.value, ast.Subscript) else None)
+            )
+            if kw_nd.arg in mut_kw_nms and rn_kw is not None:
+                mut_arg_nms.add(rn_kw)
             else:
                 val_arg_nds.append(kw_nd.value)
         return mut_arg_nms, val_arg_nds
@@ -5470,6 +6417,18 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                 for x in vals_b
             ):
                 return True, make_finite_nums(vals_b)
+            if (
+                isinstance(node.op, ast.Or)
+                and any(isinstance(x, bool) and x is True for x in vals_b)
+                and all(x is None or isinstance(x, bool) for x in vals_b)
+            ):
+                return True, True
+            if (
+                isinstance(node.op, ast.And)
+                and any(isinstance(x, bool) and x is False for x in vals_b)
+                and all(x is None or isinstance(x, bool) for x in vals_b)
+            ):
+                return True, False
             return True, None
 
         if isinstance(node, ast.BinOp):
@@ -5901,8 +6860,14 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                 fn_all_p_set = set(fn_pos_p) | set(fn_kwonly_p)
                 ret_dep_p_set = fw_fn_ret_dep_params.get(fn_nk, fn_all_p_set)
                 all_ret_dep_args_const = all_args_const
+                bound_arg_map: dict[str, Any] = {}
+                if fn_def.args.vararg is None and fn_def.args.kwarg is None and all(kp_c[0] is not None for kp_c in kw_pairs):
+                    for ix_ba0, pv_ba0 in enumerate(folded_pos[: len(fn_pos_p)]):
+                        bound_arg_map[fn_pos_p[ix_ba0]] = pv_ba0
+                    for kn_ba0, kv_ba0 in kw_pairs:
+                        if kn_ba0 is not None:
+                            bound_arg_map[kn_ba0] = kv_ba0
                 if not all_args_const and fn_def.args.vararg is None and fn_def.args.kwarg is None and all(kp_c[0] is not None for kp_c in kw_pairs):
-                    bound_arg_map: dict[str, Any] = {}
                     for ix_ba, pv_ba in enumerate(folded_pos[: len(fn_pos_p)]):
                         bound_arg_map[fn_pos_p[ix_ba]] = pv_ba
                     for kn_ba, kv_ba in kw_pairs:
@@ -5917,25 +6882,31 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                         (is_single_arg_const(bound_arg_map[p_rd]) if p_rd in bound_arg_map else (p_rd in default_p_names))
                         for p_rd in ret_dep_p_set
                     )
-                fn_caller_muts: list[tuple[str, str, bool]] = []
+                fn_caller_muts: list[tuple[ast.AST, str, bool]] = []
                 if mut_p_map and not any(isinstance(a_st, ast.Starred) for a_st in node.args) and not any(kw_st.arg is None for kw_st in node.keywords):
                     for ix_fm, a_fm in enumerate(node.args):
-                        if ix_fm < len(fn_pos_p) and fn_pos_p[ix_fm] in mut_p_map and isinstance(a_fm, ast.Name):
-                            fn_caller_muts.append((a_fm.id, fn_pos_p[ix_fm], mut_p_map[fn_pos_p[ix_fm]]))
+                        if ix_fm < len(fn_pos_p) and fn_pos_p[ix_fm] in mut_p_map and isinstance(a_fm, (ast.Name, ast.Subscript)):
+                            fn_caller_muts.append((a_fm, fn_pos_p[ix_fm], mut_p_map[fn_pos_p[ix_fm]]))
                     for kw_fm in node.keywords:
-                        if kw_fm.arg is not None and kw_fm.arg in mut_p_map and isinstance(kw_fm.value, ast.Name):
-                            fn_caller_muts.append((kw_fm.value.id, kw_fm.arg, mut_p_map[kw_fm.arg]))
+                        if kw_fm.arg is not None and kw_fm.arg in mut_p_map and isinstance(kw_fm.value, (ast.Name, ast.Subscript)):
+                            fn_caller_muts.append((kw_fm.value, kw_fm.arg, mut_p_map[kw_fm.arg]))
                 elif mut_p_map:
                     for ix_fm, a_fm in enumerate(node.args):
-                        if isinstance(a_fm, ast.Name) and ix_fm < len(fn_pos_p) and fn_pos_p[ix_fm] in mut_p_map:
-                            fn_caller_muts.append((a_fm.id, fn_pos_p[ix_fm], True))
+                        if isinstance(a_fm, (ast.Name, ast.Subscript)) and ix_fm < len(fn_pos_p) and fn_pos_p[ix_fm] in mut_p_map:
+                            fn_caller_muts.append((a_fm, fn_pos_p[ix_fm], True))
                     for kw_fm in node.keywords:
-                        if kw_fm.arg is not None and kw_fm.arg in mut_p_map and isinstance(kw_fm.value, ast.Name):
-                            fn_caller_muts.append((kw_fm.value.id, kw_fm.arg, True))
+                        if kw_fm.arg is not None and kw_fm.arg in mut_p_map and isinstance(kw_fm.value, (ast.Name, ast.Subscript)):
+                            fn_caller_muts.append((kw_fm.value, kw_fm.arg, True))
                 fn_ast_nodes, has_while_in_fn, called_p_idxs, free_nms = get_fn_meta(fn_def)
                 has_non_bool_known_arg = any(
                     x is not None
                     and not isinstance(x, bool)
+                    and x != "__STR_UNK__"
+                    and x != ()
+                    for x in folded_args
+                )
+                has_known_arg = any(
+                    x is not None
                     and x != "__STR_UNK__"
                     and x != ()
                     for x in folded_args
@@ -5957,28 +6928,62 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                 ):
                     return False, None
                 has_callable_arg = bool(called_p_idxs)
-                can_unroll_partial = (
-                    not (all_args_const or all_ret_dep_args_const)
-                    and (has_non_bool_known_arg or has_callable_arg)
-                    and (
-                        has_callable_arg
-                        or not any(
-                            x in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__", "__LARGE_RANGE__", "__STR_SEQ__")
-                            or (is_dict_val(x) and contains_nonconst_leaf(x))
-                            or (
-                                is_seq_tuple(x)
-                                and any(
-                                    el in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__")
-                                    or (is_dict_val(el) and contains_nonconst_leaf(el))
-                                    for el in x
-                                )
-                            )
-                            for x in folded_args
+                has_taint_arg = any(
+                    x in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__", "__DICT_PARTIAL_EMPTY__")
+                    or (
+                        is_seq_tuple(x)
+                        and any(el in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__") for el in x)
+                    )
+                    or (
+                        is_dict_val(x)
+                        and any(dv in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__") for _, dv in dict_pairs(x))
+                    )
+                    for x in folded_args
+                )
+                has_v11_partial_excl = any(
+                    x in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__", "__LARGE_RANGE__", "__STR_SEQ__")
+                    or (is_dict_val(x) and contains_nonconst_leaf(x))
+                    or (
+                        is_seq_tuple(x)
+                        and any(
+                            el in ("__COMP_TAINT__", "__NUM_TAINT__", "__ARRAY_CONST__")
+                            or (is_dict_val(el) and contains_nonconst_leaf(el))
+                            for el in x
                         )
                     )
-                    and fn_def.name not in active_fns
-                    and (call_depth <= 1 or (call_depth <= 3 and any(contains_cplx_opaque(x) for x in folded_args)))
-                    and fn_ast_nodes <= 250
+                    for x in folded_args
+                )
+                is_pure_expr_fn = not any(
+                    isinstance(
+                        n_pb,
+                        (ast.For, ast.While, ast.FunctionDef, ast.AsyncFunctionDef, ast.Attribute),
+                    )
+                    for n_pb in ast.walk(fn_def)
+                )
+                partial_smuggle_eligible = (
+                    not (all_args_const or all_ret_dep_args_const)
+                    and (has_known_arg or has_callable_arg)
+                    and (has_callable_arg or not has_taint_arg)
+                    and (fn_ast_nodes <= 96 or is_pure_expr_fn)
+                )
+                can_unroll_partial = (
+                    (
+                        partial_smuggle_eligible
+                        and call_depth <= 6
+                        and ((fn_ast_nodes // 8) <= 180)
+                        and (fn_def.name not in active_fns or call_depth > 0)
+                    )
+                    or (
+                        not (all_args_const or all_ret_dep_args_const)
+                        and (has_non_bool_known_arg or has_callable_arg)
+                        and (has_callable_arg or not has_v11_partial_excl)
+                        and (fn_def.name not in active_fns or call_depth > 0)
+                        and (
+                            (call_depth <= 1 and fn_ast_nodes <= 250)
+                            or (call_depth <= 6 and fn_ast_nodes <= 160)
+                            or (call_depth <= 3 and fn_ast_nodes <= 250 and any(contains_cplx_opaque(x) for x in folded_args))
+                        )
+                    )
                 )
                 if (
                     not mut_p_map
@@ -6086,14 +7091,27 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                             if memo_call_key is not None:
                                 fn_const_call_cache[memo_call_key] = (False, None)
                             return False, None
-                        for c_nm_f, p_nm_f, is_indir_f in fn_caller_muts:
-                            if is_indir_f:
-                                env[c_nm_f] = taint_mutated_container_val(env.get(c_nm_f))
-                            elif p_nm_f in fn_out_env:
-                                env[c_nm_f] = fn_out_env[p_nm_f]
-                            else:
-                                env.pop(c_nm_f, None)
-                            sync_container_aliases(c_nm_f, env, active_alias_stk[-1])
+                        for c_expr_f, p_nm_f, is_indir_f in fn_caller_muts:
+                            if isinstance(c_expr_f, ast.Name):
+                                c_nm_f = c_expr_f.id
+                                if is_indir_f:
+                                    env[c_nm_f] = taint_mutated_container_val(env.get(c_nm_f))
+                                elif p_nm_f in fn_out_env:
+                                    env[c_nm_f] = fn_out_env[p_nm_f]
+                                else:
+                                    env.pop(c_nm_f, None)
+                                sync_container_aliases(c_nm_f, env, active_alias_stk[-1])
+                            elif isinstance(c_expr_f, ast.Subscript):
+                                new_sub_f = (
+                                    "__COMP_TAINT__"
+                                    if is_indir_f or p_nm_f not in fn_out_env
+                                    else fn_out_env[p_nm_f]
+                                )
+                                ok_wf, _ = write_nested_sub_val(
+                                    c_expr_f, new_sub_f, env, call_depth=call_depth, active_fns=active_fns
+                                )
+                                if not ok_wf:
+                                    return False, None
                         if len(ret_collector) == 1:
                             res_u1 = (True, ret_collector[0])
                             if memo_call_key is not None:
@@ -6107,9 +7125,11 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                         if memo_call_key is not None:
                             fn_const_call_cache[memo_call_key] = (True, None)
                         return True, None
-                for c_nm_f, _, _ in fn_caller_muts:
-                    env[c_nm_f] = taint_mutated_container_val(env.get(c_nm_f))
-                    sync_container_aliases(c_nm_f, env, active_alias_stk[-1])
+                for c_expr_f, _, _ in fn_caller_muts:
+                    c_rn_f = c_expr_f.id if isinstance(c_expr_f, ast.Name) else (fw_sub_root_name(c_expr_f) if isinstance(c_expr_f, ast.Subscript) else None)
+                    if c_rn_f is not None:
+                        env[c_rn_f] = taint_mutated_container_val(env.get(c_rn_f))
+                        sync_container_aliases(c_rn_f, env, active_alias_stk[-1])
                 if any(contains_cplx_opaque(x) for x in folded_args):
                     return False, None
                 if any(contains_cplx_taint(x) for x in folded_args):
@@ -6157,19 +7177,34 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                         for x in folded_args
                     )
                     or (
-                        (all_args_const or all_ret_dep_args_const)
+                        (
+                            all_args_const
+                            or all_ret_dep_args_const
+                            or (
+                                partial_smuggle_eligible
+                                and (call_depth > 6 or (fn_ast_nodes // 8) > 180)
+                            )
+                        )
                         and any(
-                            (is_num(x) and not isinstance(x, bool))
+                            isinstance(n_rt, ast.Return) and n_rt.value is not None
+                            for n_rt in ast.walk(fn_def)
+                        )
+                        and any(
+                            (is_num(x) and (call_depth > 6 or not isinstance(x, bool)))
                             or is_finite_nums(x)
                             or (
                                 is_seq_tuple(x)
-                                and any((is_num(el) and not isinstance(el, bool)) or is_finite_nums(el) for el in x)
+                                and any((is_num(el) and (call_depth > 6 or not isinstance(el, bool))) or is_finite_nums(el) for el in x)
                             )
                             or (
                                 is_dict_val(x)
-                                and any((is_num(dv) and not isinstance(dv, bool)) or is_finite_nums(dv) for _, dv in dict_pairs(x))
+                                and any((is_num(dv) and (call_depth > 6 or not isinstance(dv, bool))) or is_finite_nums(dv) for _, dv in dict_pairs(x))
                             )
-                            for x in folded_args
+                            for x in (
+                                [bound_arg_map[p_rd] for p_rd in ret_dep_p_set if p_rd in bound_arg_map]
+                                if (ret_dep_p_set and bound_arg_map)
+                                else folded_args
+                            )
                         )
                     )
                     or (
@@ -6871,6 +7906,28 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                 if not ok_obj or v_obj == "__BYTES__":
                     return False, None
                 recv_name = node.func.value.id if isinstance(node.func.value, ast.Name) else None
+                recv_sub = node.func.value if isinstance(node.func.value, ast.Subscript) else None
+
+                def write_recv_state(new_rv: Any) -> bool:
+                    if recv_name is not None:
+                        if new_rv is None:
+                            env.pop(recv_name, None)
+                        else:
+                            env[recv_name] = new_rv
+                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                        return True
+                    if recv_sub is not None:
+                        ok_wr, _ = write_nested_sub_val(
+                            recv_sub,
+                            "__COMP_TAINT__" if new_rv is None else new_rv,
+                            env,
+                            call_depth=call_depth,
+                            active_fns=active_fns,
+                        )
+                        return ok_wr
+                    return True
+
+                has_mut_recv = recv_name is not None or recv_sub is not None
                 if v_obj == "__ARRAY_CONST__":
                     if fn_name in ("sum", "prod", "mean", "min", "max", "ptp", "trace", "det", "item"):
                         return True, "__NUM_TAINT__"
@@ -7007,15 +8064,13 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                                     hit_p.append(dv)
                                 else:
                                     rem_p.append((dk, dv))
-                            if recv_name is not None:
-                                env[recv_name] = make_dict_tag(tuple(rem_p))
-                                sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            if has_mut_recv and not write_recv_state(make_dict_tag(tuple(rem_p))):
+                                return False, None
                             if hit_p:
                                 return check_num_val_ok(hit_p[-1]), hit_p[-1]
                             return check_num_val_ok(def_p), def_p
-                        if recv_name is not None:
-                            env[recv_name] = make_dict_partial(v_pairs)
-                            sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                        if has_mut_recv and not write_recv_state(make_dict_partial(v_pairs)):
+                            return False, None
                         if any(contains_cplx_opaque(dv) for _, dv in v_pairs) or contains_cplx_opaque(def_p):
                             return False, None
                         return True, "__NUM_TAINT__"
@@ -7033,33 +8088,32 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                             for dk, dv in v_pairs:
                                 if dk == folded_pos[0] and type(dk) is type(folded_pos[0]):
                                     return check_num_val_ok(dv), dv
-                            if recv_name is not None:
-                                env[recv_name] = make_dict_tag(dict_upsert_pairs(v_pairs, folded_pos[0], def_sd))
-                                sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            if has_mut_recv and not write_recv_state(make_dict_tag(dict_upsert_pairs(v_pairs, folded_pos[0], def_sd))):
+                                return False, None
                             return check_num_val_ok(def_sd), def_sd
-                        if recv_name is not None:
-                            env[recv_name] = make_dict_partial(v_pairs + (((None, def_sd),) if def_sd is not None else ()))
-                            sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                        if has_mut_recv and not write_recv_state(make_dict_partial(v_pairs + (((None, def_sd),) if def_sd is not None else ()))):
+                            return False, None
                         if any(contains_cplx_opaque(dv) for _, dv in v_pairs) or contains_cplx_opaque(def_sd):
                             return False, None
                         return True, "__NUM_TAINT__"
-                    if fn_name == "update" and recv_name is not None:
+                    if fn_name == "update" and has_mut_recv:
                         if is_ex and len(folded_pos) == 1 and is_exact_dict(folded_pos[0]) and not kw_pairs:
                             up_p = v_pairs
                             for pk, pv in dict_pairs(folded_pos[0]):
                                 up_p = dict_upsert_pairs(up_p, pk, pv)
-                            env[recv_name] = make_dict_tag(up_p)
+                            new_up_d = make_dict_tag(up_p)
                         else:
                             ex_up = dict_pairs(folded_pos[0]) if (len(folded_pos) == 1 and is_dict_val(folded_pos[0])) else ()
                             kw_up = tuple((("__STR__", k_u), v_u) for k_u, v_u in kw_pairs if k_u is not None)
-                            env[recv_name] = make_dict_partial(v_pairs + ex_up + kw_up)
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            new_up_d = make_dict_partial(v_pairs + ex_up + kw_up)
+                        if not write_recv_state(new_up_d):
+                            return False, None
                         return True, None
-                    if fn_name == "clear" and recv_name is not None:
-                        env[recv_name] = "__DICT_EMPTY__"
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                    if fn_name == "clear" and has_mut_recv:
+                        if not write_recv_state("__DICT_EMPTY__"):
+                            return False, None
                         return True, None
-                if is_seq_tuple(v_obj) and recv_name is not None:
+                if is_seq_tuple(v_obj) and has_mut_recv:
                     if fn_name == "append" and len(folded_pos) == 1 and not node.keywords:
                         ap_v = folded_pos[0]
                         if (
@@ -7067,48 +8121,50 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                             and ap_v not in ("__NUM_TAINT__", "__COMP_TAINT__")
                             and len(v_obj) < 256
                         ):
-                            env[recv_name] = v_obj + (ap_v,)
+                            new_ap_s: Any = v_obj + (ap_v,)
                         elif (
                             ap_v in ("__NUM_TAINT__", "__COMP_TAINT__")
                             or len(v_obj) >= 256
                             or any(is_num(x) or is_finite_nums(x) or contains_cplx_taint(x) or x in ("__NUM_TAINT__", "__COMP_TAINT__") for x in v_obj)
                         ):
-                            env[recv_name] = "__COMP_TAINT__"
+                            new_ap_s = "__COMP_TAINT__"
                         else:
-                            env.pop(recv_name, None)
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            new_ap_s = None
+                        if not write_recv_state(new_ap_s):
+                            return False, None
                         return True, None
                     if fn_name == "extend" and len(folded_pos) == 1 and not node.keywords:
                         can_ex, ex_items = iter_items_of(folded_pos[0])
                         if can_ex and len(v_obj) + len(ex_items) <= 256:
-                            env[recv_name] = v_obj + ex_items
+                            new_ex_s: Any = v_obj + ex_items
                         elif (
                             folded_pos[0] in ("__NUM_TAINT__", "__COMP_TAINT__", "__LARGE_RANGE__")
                             or is_range_val(folded_pos[0])
                             or can_ex
                             or any(is_num(x) or is_finite_nums(x) or contains_cplx_taint(x) or x in ("__NUM_TAINT__", "__COMP_TAINT__") for x in v_obj)
                         ):
-                            env[recv_name] = "__COMP_TAINT__"
+                            new_ex_s = "__COMP_TAINT__"
                         else:
-                            env.pop(recv_name, None)
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            new_ex_s = None
+                        if not write_recv_state(new_ex_s):
+                            return False, None
                         return True, None
                     if fn_name == "pop" and len(folded_pos) <= 1 and not node.keywords:
                         idx_pop = -1 if len(folded_pos) == 0 else (to_int_exact(folded_pos[0]) if is_int_exact(folded_pos[0]) else None)
                         if idx_pop is not None and -len(v_obj) <= idx_pop < len(v_obj):
                             pos_i = idx_pop if idx_pop >= 0 else len(v_obj) + idx_pop
                             popped = v_obj[pos_i]
-                            env[recv_name] = v_obj[:pos_i] + v_obj[pos_i + 1 :]
-                            sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                            if not write_recv_state(v_obj[:pos_i] + v_obj[pos_i + 1 :]):
+                                return False, None
                             return check_num_val_ok(popped), popped
-                        env[recv_name] = "__COMP_TAINT__"
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                        if not write_recv_state("__COMP_TAINT__"):
+                            return False, None
                         if any(contains_cplx_opaque(x) for x in v_obj):
                             return False, None
                         return True, "__NUM_TAINT__"
                     if fn_name in ("insert", "remove", "sort", "reverse"):
-                        env[recv_name] = "__COMP_TAINT__"
-                        sync_container_aliases(recv_name, env, active_alias_stk[-1])
+                        if not write_recv_state("__COMP_TAINT__"):
+                            return False, None
                         return True, None
 
             if fn_name == "sum" and len(folded_pos) >= 1:
@@ -7946,6 +9002,14 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                     )
                     sync_container_aliases(d_nm, env, active_alias_stk[-1])
                     return True
+            if isinstance(tgt.value, ast.Subscript):
+                ok_wn, rn_wn = write_nested_sub_val(
+                    tgt, v_val, env, call_depth=call_depth, active_fns=active_fns
+                )
+                if not ok_wn:
+                    return False
+                if rn_wn is not None:
+                    return True
             ok_bt_s = bind_value_to_target(tgt, v_val, env)
             if ok_bt_s and isinstance(tgt.value, ast.Name):
                 sync_container_aliases(tgt.value.id, env, active_alias_stk[-1])
@@ -8036,9 +9100,11 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                     if (
                         isinstance(sub.func, ast.Attribute)
                         and sub.func.attr in mutating_methods
-                        and isinstance(sub.func.value, ast.Name)
+                        and isinstance(sub.func.value, (ast.Name, ast.Subscript))
                     ):
-                        out_ip.add(sub.func.value.id)
+                        rn_ip = sub.func.value.id if isinstance(sub.func.value, ast.Name) else fw_sub_root_name(sub.func.value)
+                        if rn_ip is not None:
+                            out_ip.add(rn_ip)
                     c_muts, _ = fw_call_mutated_arg_names(sub)
                     out_ip.update(c_muts)
         return out_ip
@@ -8059,9 +9125,11 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                     if (
                         isinstance(sub.func, ast.Attribute)
                         and sub.func.attr in mutating_methods
-                        and isinstance(sub.func.value, ast.Name)
+                        and isinstance(sub.func.value, (ast.Name, ast.Subscript))
                     ):
-                        out.add(sub.func.value.id)
+                        rn_as = sub.func.value.id if isinstance(sub.func.value, ast.Name) else fw_sub_root_name(sub.func.value)
+                        if rn_as is not None:
+                            out.add(rn_as)
                     c_muts, _ = fw_call_mutated_arg_names(sub)
                     out.update(c_muts)
         return out
@@ -8155,10 +9223,14 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                     elif (
                         isinstance(sub, ast.AugAssign)
                         and isinstance(sub.target, ast.Subscript)
-                        and isinstance(sub.target.value, ast.Name)
-                        and isinstance(sub.target.slice, ast.Constant)
+                        and fw_sub_root_name(sub.target) is not None
+                        and (
+                            isinstance(sub.target.slice, ast.Constant)
+                            or is_dict_val(abs_env.get(fw_sub_root_name(sub.target), pre_env.get(fw_sub_root_name(sub.target))))  # type: ignore[arg-type]
+                            or isinstance(sub.target.value, ast.Subscript)
+                        )
                     ):
-                        cur_as_id = sub.target.value.id
+                        cur_as_id = fw_sub_root_name(sub.target)  # type: ignore[assignment]
                         rhs_as_refs = {n.id for n in ast.walk(sub.value) if isinstance(n, ast.Name)}
                         _, v_as = eval_const(sub.value, abs_env, call_depth=call_depth + 1, active_fns=active_fns)
                         if is_constish(v_as) and not isinstance(v_as, bool) and v_as != 0:
@@ -8221,9 +9293,10 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                         isinstance(sub, ast.Call)
                         and isinstance(sub.func, ast.Attribute)
                         and sub.func.attr in mutating_methods
-                        and isinstance(sub.func.value, ast.Name)
+                        and isinstance(sub.func.value, (ast.Name, ast.Subscript))
+                        and (sub.func.value.id if isinstance(sub.func.value, ast.Name) else fw_sub_root_name(sub.func.value)) is not None
                     ):
-                        m_nm = sub.func.value.id
+                        m_nm = sub.func.value.id if isinstance(sub.func.value, ast.Name) else fw_sub_root_name(sub.func.value)  # type: ignore[assignment]
                         m_args_nodes = list(sub.args) + [kw.value for kw in sub.keywords]
                         m_arg_vals = [eval_const(a, abs_env, call_depth=call_depth + 1, active_fns=active_fns) for a in m_args_nodes]
                         has_const_mut_arg = (not m_args_nodes and sub.func.attr == "pop") or any(
@@ -8527,7 +9600,14 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                                 return False
                         sync_container_aliases(d_nm, env, active_alias_stk[-1])
                     else:
-                        if not bind_value_to_target(stmt.target, "__NUM_TAINT__" if v_tv is not None else None, env):
+                        ok_wa, _ = write_nested_sub_val(
+                            stmt.target,
+                            v_ab if v_ab is not None else ("__NUM_TAINT__" if v_tv is not None else None),
+                            env,
+                            call_depth=call_depth,
+                            active_fns=active_fns,
+                        )
+                        if not ok_wa:
                             return False
             elif isinstance(stmt, ast.FunctionDef):
                 if stmt.name in forbidden_names or stmt.name in banned_calls:
@@ -8821,13 +9901,7 @@ def audit_source_zero_empirical_constants(file_path: Path | str, source_override
                             comb_taint_dp.append((None, "__NUM_TAINT__"))
                             env[nm] = make_dict_partial(tuple(comb_taint_dp))
                         elif (
-                            any(
-                                dv in ("__NUM_TAINT__", "__COMP_TAINT__")
-                                or is_num(dv)
-                                or is_finite_nums(dv)
-                                or contains_cplx_taint(dv)
-                                for _, dv in comb_dp
-                            )
+                            any(contains_tracked_num_or_taint(dv) for _, dv in comb_dp)
                             or is_partial_dict(vb)
                             or is_partial_dict(pv_d)
                         ):
@@ -10352,20 +11426,31 @@ def compute_lagrangian_boundary_manifold_dim(op_bnd: sp.Matrix, p0: sp.Matrix) -
             m_im[j, i] = -sp.I
             basis_herm.append(m_im)
 
-    cols: list[sp.Matrix] = []
+    col_lists: list[list[Any]] = []
     for h_mat in basis_herm:
         c1 = r0 * h_mat + h_mat * r0
         c2 = op_bnd * h_mat + h_mat * op_bnd
-        vec_entries = []
+        vec_entries: list[Any] = []
         for mat_c in (c1, c2):
             for r in range(8):
                 for c in range(8):
-                    re_part, im_part = sp.expand(mat_c[r, c]).as_real_imag()
-                    vec_entries.append(re_part)
-                    vec_entries.append(im_part)
-        cols.append(sp.Matrix(vec_entries))
+                    val_rc = mat_c[r, c]
+                    if val_rc == 0:
+                        vec_entries.append(0)
+                        vec_entries.append(0)
+                    else:
+                        re_part, im_part = sp.expand(val_rc).as_real_imag()
+                        vec_entries.append(re_part)
+                        vec_entries.append(im_part)
+        col_lists.append(vec_entries)
 
-    constraint_mat = sp.Matrix.hstack(*cols)
+    n_rows_c = len(col_lists[0])
+    nz_rows = [
+        [col_lists[c_ix][r_ix] for c_ix in range(len(col_lists))]
+        for r_ix in range(n_rows_c)
+        if any(col_lists[c_ix][r_ix] != 0 for c_ix in range(len(col_lists)))
+    ]
+    constraint_mat = sp.Matrix(nz_rows)
     return int(len(basis_herm) - constraint_mat.rank())
 
 
@@ -10388,13 +11473,16 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     psi_rad = sp.sqrt(y_sym / ell) * phi_geo.subs(t_geo, ell * sp.log(y_sym))
     liouv_jacobian = sp.simplify((y_sym / ell) * (ell**2 / y_sym**2) * (y_sym / ell))
     lap_on_mode = -(y_sym**2 / ell**2) * (sp.diff(psi_rad, y_sym, 2) - (k_ang**2) * psi_rad)
-    conj_schrodinger = sp.simplify((lap_on_mode / sp.sqrt(y_sym / ell)).subs(y_sym, sp.exp(t_geo / ell)))
+    conj_schrodinger = sp.powsimp(
+        sp.expand((lap_on_mode / sp.sqrt(y_sym / ell)).subs(y_sym, sp.exp(t_geo / ell)).doit()),
+        force=True,
+    )
     expected_schrodinger = (
         -sp.diff(phi_geo, t_geo, 2)
         + phi_geo / (4 * ell**2)
         + ((k_ang**2) / ell**2) * sp.exp(2 * t_geo / ell) * phi_geo
     )
-    liouville_diff = sp.simplify(conj_schrodinger - expected_schrodinger)
+    liouville_diff = sp.powsimp(sp.expand(conj_schrodinger - expected_schrodinger), force=True)
 
     # (b) 1-form slot (a, fibre weight h_a = 1/2 from WP-2.1):
     #     U_1: L^2([t_0, oo), dt) -> L^2([y_0, oo), (1/2) dy), a_mode(x, y) = exp(i * k_ang * x) * sqrt(2 * ell / y) * Phi_1(ell * ln(y)).
@@ -10406,8 +11494,13 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     op_1form_raw = -4 * sp.Rational(1, 2) * (
         sp.diff((om_liouv ** (-2)) * dz_a_mode, x_c) + sp.I * sp.diff((om_liouv ** (-2)) * dz_a_mode, y_sym)
     )
-    conj_schrodinger_1form = sp.simplify(
-        (op_1form_raw / (sp.exp(sp.I * k_ang * x_c) * sp.sqrt(2 * ell / y_sym))).subs(y_sym, sp.exp(t_geo / ell))
+    conj_schrodinger_1form = sp.powsimp(
+        sp.expand(
+            (op_1form_raw / (sp.exp(sp.I * k_ang * x_c) * sp.sqrt(2 * ell / y_sym)))
+            .subs(y_sym, sp.exp(t_geo / ell))
+            .doit()
+        ),
+        force=True,
     )
     expected_schrodinger_1form = (
         -sp.diff(phi1_geo, t_geo, 2)
@@ -10415,7 +11508,10 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         * phi1_geo
         / (ell**2)
     )
-    liouville_1form_diff = sp.simplify(conj_schrodinger_1form - expected_schrodinger_1form)
+    liouville_1form_diff = sp.powsimp(
+        sp.expand(conj_schrodinger_1form - expected_schrodinger_1form),
+        force=True,
+    )
     # Exact supersymmetric Darboux superpotential W(t) = (1/2 + k_ang * exp(t/ell)) / ell giving V_0 = W^2 - W', V_1 = W^2 + W':
     w_susy = (sp.Rational(1, 2) + k_ang * sp.exp(t_geo / ell)) / ell
     susy_v0_diff = sp.simplify(
@@ -10461,80 +11557,195 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     cusp_density_ratio = sp.simplify(cusp_norm_density / expected_cusp_density)
 
     # Exact symbolic convergence at n = b(a) vs divergence at n = b(a) + 1 across negative, threshold, positive, and large |a|:
+    du_pos_sym = sp.Symbol("du_pos", positive=True)
+    c_pos_s = sp.Symbol("c_pos_s", positive=True)
+    rate_pos_s = sp.Symbol("rate_pos_s", positive=True)
+    u_lo_s = sp.Symbol("u_lo_s", positive=True)
+    q_pow_s = sp.Symbol("q_pow_s", integer=True, positive=True)
+    dg_nn_s = sp.Symbol("dg_nn_s", nonnegative=True)
+    p_nn_s = sp.Symbol("p_nn_s", nonnegative=True)
+    du_m_nn_s = sp.Symbol("du_m_nn_s", nonnegative=True)
+    exp_tail_thm_val = sp.simplify(
+        sp.integrate(c_pos_s * sp.exp(-rate_pos_s * (u - u_lo_s)), (u, u_lo_s, sp.oo), meijerg=False)
+    )
+    const_head_thm_val = sp.simplify(sp.integrate(c_pos_s, (u, u0, u_lo_s), meijerg=False))
+    const_div_thm_val = sp.integrate(c_pos_s, (u, u_lo_s, sp.oo), meijerg=False)
+    pow_conv_thm_val = sp.simplify(
+        sp.integrate(c_pos_s * (u ** (-(q_pow_s + 1))), (u, u_lo_s, sp.oo), meijerg=False)
+    )
+    inv_u_div_thm_val = sp.integrate(c_pos_s / u, (u, u_lo_s, sp.oo), meijerg=False)
+    cusp_dens_u_base = sp.powsimp(cusp_norm_density.subs({ell: 1, y_sym: u / (2 * sp.pi)}), force=True)
+    dens_u_canon_ok = (
+        sp.powsimp(
+            cusp_dens_u_base / (((2 * sp.pi) ** 2) * (u ** (a_sym - 2)) * sp.exp(-(a_sym - 2 * n_sym) * u)),
+            force=True,
+        )
+        == 1
+    )
+    u_m_gen = 2 * c_pos_s / rate_pos_s + 2 + du_m_nn_s
+    dl_hi_thm = sp.together(
+        sp.expand(sp.diff(c_pos_s * sp.log(u_m_gen / (u_m_gen + du_pos_sym)) + rate_pos_s * du_pos_sym / 2, du_pos_sym))
+    ).is_positive is True
+    dl_lo_thm = sp.together(
+        sp.diff(c_pos_s * sp.log((u_lo_s + du_pos_sym) / u_lo_s), du_pos_sym)
+    ).is_positive is True
+    dl_div_neg_thm = sp.together(
+        sp.expand(sp.diff((1 + dg_nn_s) * du_pos_sym - c_pos_s * sp.log(c_pos_s + 2 + du_m_nn_s + du_pos_sym), du_pos_sym))
+    ).is_positive is True
+    dl_div_pos_thm = sp.together(
+        sp.expand(sp.diff((1 + dg_nn_s) * du_pos_sym + p_nn_s * sp.log(u_lo_s + du_pos_sym), du_pos_sym))
+    ).is_positive is True
+    cusp_int_thms_ok = (
+        dens_u_canon_ok
+        and dl_hi_thm
+        and dl_lo_thm
+        and dl_div_neg_thm
+        and dl_div_pos_thm
+        and sp.simplify(exp_tail_thm_val - c_pos_s / rate_pos_s) == 0
+        and sp.simplify(const_head_thm_val - c_pos_s * (u_lo_s - u0)) == 0
+        and const_div_thm_val == sp.oo
+        and sp.simplify(pow_conv_thm_val - c_pos_s * (u_lo_s ** (-q_pow_s)) / q_pow_s) == 0
+        and inv_u_div_thm_val == sp.oo
+    )
+
     def verify_cusp_exponent_sharpness(av: int) -> bool:
+        if not cusp_int_thms_ok:
+            return False
         nm = cusp_max_pole_order(av)
         alpha_conv = av - 2 * nm
         p_pow = av - 2
-        f_conv = sp.exp(-alpha_conv * u) * (u ** p_pow)
-        if alpha_conv == 0:
-            # Exact polynomial tail u^(av-2) on [2, oo) with av - 2 <= -2:
-            int_conv = sp.integrate(f_conv, (u, u0, sp.oo), meijerg=False)
-            conv_ok = bool(int_conv.is_finite and int_conv > 0)
-        elif p_pow >= 0:
-            # Exact Gamma integral majorant on [0, oo): 0 < int_2^oo f_conv du < int_0^oo f_conv du = p_pow! / alpha^(p_pow+1):
-            int_maj = sp.integrate(f_conv, (u, 0, sp.oo))
-            conv_ok = bool(alpha_conv > 0 and int_maj.is_finite and int_maj > 0)
-        else:
-            # p_pow <= -1 and alpha_conv > 0: on [2, oo), 0 < f_conv(u) <= u0^p_pow * exp(-alpha_conv * u):
-            f_maj = sp.simplify((u ** p_pow).subs(u, u0) * sp.exp(-alpha_conv * u))
-            ratio_at_u = sp.simplify((f_maj / f_conv).subs(u, u0 + sp.Symbol("du_pos", positive=True)))
-            int_maj = sp.integrate(f_maj, (u, u0, sp.oo), meijerg=False)
-            conv_ok = bool(alpha_conv > 0 and ratio_at_u >= 1 and int_maj.is_finite and int_maj > 0)
-
         alpha_div = av - 2 * (nm + 1)
-        f_div = sp.exp(-alpha_div * u) * (u ** (av - 2))
-        if alpha_div == 0:
-            int_div = sp.integrate(f_div, (u, u0, sp.oo), meijerg=False)
-            div_ok = (int_div == sp.oo)
+        if av == 0:
+            f_conv = sp.exp(-alpha_conv * u) * (u**p_pow)
+            if alpha_conv == 0:
+                int_conv = sp.integrate(f_conv, (u, u0, sp.oo), meijerg=False)
+                conv_ok = bool(int_conv.is_finite and int_conv > 0)
+            elif p_pow >= 0:
+                int_maj = sp.integrate(f_conv, (u, 0, sp.oo), meijerg=False)
+                conv_ok = bool(alpha_conv > 0 and int_maj.is_finite and int_maj > 0)
+            else:
+                f_maj = sp.powsimp((u**p_pow).subs(u, u0) * sp.exp(-alpha_conv * u), force=True)
+                r_lo = sp.powsimp(f_maj / f_conv, force=True)
+                r_lo_u0 = sp.powsimp(r_lo.subs(u, u0), force=True) == 1
+                dlog_lo = sp.together((sp.diff(r_lo, u) / r_lo).subs(u, u0 + du_pos_sym)).is_positive is True
+                int_maj = sp.integrate(f_maj, (u, u0, sp.oo), meijerg=False)
+                conv_ok = bool(alpha_conv > 0 and r_lo_u0 and dlog_lo and int_maj.is_finite and int_maj > 0)
+            f_div = sp.exp(-alpha_div * u) * (u**p_pow)
+            if alpha_div == 0:
+                int_div = sp.integrate(f_div, (u, u0, sp.oo), meijerg=False)
+                div_ok = int_div == sp.oo
+            else:
+                u_star = sp.Integer(max(2, abs(av - 2) + 2))
+                dlog_div_pos = sp.together((sp.diff(f_div, u) / f_div).subs(u, u_star + du_pos_sym)).is_positive is True
+                f_at_ustar = f_div.subs(u, u_star)
+                div_ok = bool(
+                    alpha_div < 0
+                    and dlog_div_pos
+                    and f_at_ustar > 0
+                    and sp.integrate(f_at_ustar, (u, u_star, sp.oo), meijerg=False) == sp.oo
+                )
+            return conv_ok and div_ok
+        if alpha_conv == 0:
+            if p_pow <= -2:
+                int_c = pow_conv_thm_val.subs({c_pos_s: 1, q_pow_s: -p_pow - 1, u_lo_s: u0})
+                conv_ok = bool(int_c.is_finite and int_c > 0)
+            elif p_pow == -1:
+                conv_ok = not bool(inv_u_div_thm_val == sp.oo)
+            else:
+                conv_ok = not bool(const_div_thm_val == sp.oo)
+        elif alpha_conv > 0:
+            if p_pow > 0:
+                u_maj_c = max(3, (2 * p_pow) // max(1, alpha_conv) + 4)
+                u_maj_cd = sp.Integer(u_maj_c)
+                half_ac = (a_sym * sp.Rational(1, 2)).subs(a_sym, alpha_conv)
+                int_hd = const_head_thm_val.subs({c_pos_s: (u**p_pow).subs(u, u_maj_cd), u_lo_s: u_maj_cd})
+                int_tl = exp_tail_thm_val.subs({c_pos_s: 1, rate_pos_s: half_ac, u_lo_s: u_maj_cd})
+                conv_ok = bool(
+                    alpha_conv * (u_maj_c - 2) >= 2 * p_pow
+                    and int_hd.is_finite
+                    and int_hd > 0
+                    and dl_hi_thm
+                    and int_tl.is_finite
+                    and int_tl > 0
+                )
+            else:
+                int_tl_lo = exp_tail_thm_val.subs({c_pos_s: 1, rate_pos_s: alpha_conv, u_lo_s: u0})
+                conv_ok = bool((dl_lo_thm if p_pow < 0 else True) and int_tl_lo.is_finite and int_tl_lo > 0)
         else:
-            # alpha_div < 0 => exponential growth exp(|alpha_div|*u) * u^(av-2):
-            # Eventually strictly increasing since d/du ln(f_div) = -alpha_div + (av-2)/u > 0 for u > max(u0, |av-2| + 1),
-            # with lim_{u -> oo} f_div(u) = +oo => integral >= int_{u_*}^{oo} f_div(u_*) du = +oo!
-            u_star = sp.Integer(max(2, abs(av - 2) + 2))
-            dlog_at_ustar = sp.simplify(sp.diff(sp.log(f_div), u).subs(u, u_star))
-            f_at_ustar = sp.simplify(f_div.subs(u, u_star))
-            div_ok = (
+            conv_ok = False
+        if alpha_div == 0:
+            if p_pow >= 0:
+                div_ok = const_div_thm_val == sp.oo
+            elif p_pow == -1:
+                div_ok = inv_u_div_thm_val == sp.oo
+            else:
+                div_ok = False
+        else:
+            gam_div = -alpha_div - 1
+            div_ok = bool(
                 alpha_div < 0
-                and dlog_at_ustar > 0
-                and f_at_ustar > 0
-                and sp.limit(f_div, u, sp.oo) == sp.oo
-                and sp.integrate(f_at_ustar, (u, u_star, sp.oo), meijerg=False) == sp.oo
+                and gam_div >= 0
+                and (dl_div_pos_thm if p_pow >= 0 else dl_div_neg_thm)
+                and const_div_thm_val == sp.oo
             )
         return conv_ok and div_ok
 
     def density_l2_converges(av: int, n_ord: int) -> bool:
-        dens_n = sp.simplify(
-            cusp_norm_density.subs({a_sym: av, n_sym: n_ord, ell: 1, y_sym: u / (2 * sp.pi)})
-        )
+        if not cusp_int_thms_ok:
+            return False
         alpha_n = av - 2 * n_ord
         p_pow = av - 2
+        if av == 0:
+            dens_n = sp.powsimp(cusp_dens_u_base.subs({a_sym: av, n_sym: n_ord}), force=True)
+            c_pref = sp.powsimp(dens_n.subs(u, 1) * sp.exp(alpha_n), force=True)
+            if sp.powsimp(dens_n / (c_pref * (u**p_pow) * sp.exp(-alpha_n * u)), force=True) != 1:
+                return False
+            if alpha_n == 0:
+                int_val = sp.integrate(dens_n, (u, u0, sp.oo), meijerg=False)
+                return bool(int_val.is_finite and int_val > 0)
+            if alpha_n > 0:
+                if p_pow >= 0:
+                    int_maj = sp.integrate(dens_n, (u, 0, sp.oo), meijerg=False)
+                    return bool(int_maj.is_finite and int_maj > 0)
+                f_u0_lo = dens_n.subs(u, u0)
+                f_maj = sp.powsimp(f_u0_lo * sp.exp(-alpha_n * (u - u0)), force=True)
+                r_d_lo = sp.powsimp(f_maj / dens_n, force=True)
+                r_d_lo_u0 = sp.powsimp(r_d_lo.subs(u, u0), force=True) == 1
+                dlog_d_lo = sp.together((sp.diff(r_d_lo, u) / r_d_lo).subs(u, u0 + du_pos_sym)).is_positive is True
+                int_maj = sp.integrate(f_maj, (u, u0, sp.oo), meijerg=False)
+                return bool(r_d_lo_u0 and dlog_d_lo and int_maj.is_finite and int_maj > 0)
+            u_star = sp.Integer(max(2, abs(av - 2) + 2))
+            dlog_dens_pos = sp.together((sp.diff(dens_n, u) / dens_n).subs(u, u_star + du_pos_sym)).is_positive is True
+            f_ustar = dens_n.subs(u, u_star)
+            div_tail = sp.integrate(f_ustar, (u, u_star, sp.oo), meijerg=False)
+            return not bool(dlog_dens_pos and f_ustar > 0 and div_tail == sp.oo)
+        c_canon = (2 * sp.pi) ** 2
         if alpha_n == 0:
-            int_val = sp.integrate(dens_n, (u, u0, sp.oo), meijerg=False)
-            return bool(int_val.is_finite and int_val > 0)
+            if p_pow <= -2:
+                int_p = pow_conv_thm_val.subs({c_pos_s: c_canon, q_pow_s: -p_pow - 1, u_lo_s: u0})
+                return bool(int_p.is_finite and int_p > 0)
+            if p_pow == -1:
+                return not bool(inv_u_div_thm_val == sp.oo)
+            return not bool(const_div_thm_val == sp.oo)
         if alpha_n > 0:
-            if p_pow >= 0:
-                int_maj = sp.integrate(dens_n, (u, 0, sp.oo))
-                return bool(int_maj.is_finite and int_maj > 0)
-            f_maj = sp.simplify(dens_n.subs(u, u0) * sp.exp(-alpha_n * (u - u0)))
-            ratio_u = sp.simplify((f_maj / dens_n).subs(u, u0 + sp.Symbol("du_pos", positive=True)))
-            int_maj = sp.integrate(f_maj, (u, u0, sp.oo), meijerg=False)
-            return bool(ratio_u >= 1 and int_maj.is_finite and int_maj > 0)
-        u_star = sp.Integer(max(2, abs(av - 2) + 2))
-        dlog_ustar = sp.simplify(sp.diff(sp.log(dens_n), u).subs(u, u_star))
-        f_ustar = sp.simplify(dens_n.subs(u, u_star))
-        return not bool(
-            dlog_ustar > 0
-            and f_ustar > 0
-            and sp.limit(dens_n, u, sp.oo) == sp.oo
-            and sp.integrate(f_ustar, (u, u_star, sp.oo), meijerg=False) == sp.oo
-        )
+            if p_pow > 0:
+                u_maj_i = max(3, (2 * p_pow) // max(1, alpha_n) + 4)
+                u_maj_d = sp.Integer(u_maj_i)
+                half_alpha_sym = (a_sym * sp.Rational(1, 2)).subs(a_sym, alpha_n)
+                int_tl = exp_tail_thm_val.subs({c_pos_s: c_canon, rate_pos_s: half_alpha_sym, u_lo_s: u_maj_d})
+                return bool(alpha_n * (u_maj_i - 2) >= 2 * p_pow and dl_hi_thm and int_tl.is_finite and int_tl > 0)
+            int_tl_lo = exp_tail_thm_val.subs({c_pos_s: c_canon, rate_pos_s: alpha_n, u_lo_s: u0})
+            return bool((dl_lo_thm if p_pow < 0 else True) and int_tl_lo.is_finite and int_tl_lo > 0)
+        gam_exc = -alpha_n - 1
+        return not bool(gam_exc >= 0 and (dl_div_pos_thm if p_pow >= 0 else dl_div_neg_thm) and const_div_thm_val == sp.oo)
 
     def find_l2_pole_bound_from_density(av: int) -> int:
         cand_base = av // 2
+        conv_flags = [density_l2_converges(av, nb) for nb in range(cand_base - 1, cand_base + 2)]
         hits = [
-            nb
-            for nb in range(cand_base - 2, cand_base + 3)
-            if density_l2_converges(av, nb) and not density_l2_converges(av, nb + 1)
+            cand_base - 1 + ix_h
+            for ix_h in range(2)
+            if conv_flags[ix_h] and not conv_flags[ix_h + 1]
         ]
         if len(hits) != 1:
             raise ValueError(f"Non-unique L^2 cusp threshold for a={av}: {hits}")
@@ -10605,16 +11816,16 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     alpha = sp.Symbol("alpha", real=True)
     b2 = sp.I * op_bnd * gamma_chir
     p_alpha = sp.Rational(1, 2) * (sp.eye(8) + sp.cos(alpha) * gamma_chir + sp.sin(alpha) * b2)
-    p_alpha_idempotent = sp.trigsimp(p_alpha * p_alpha - p_alpha) == sp.zeros(8, 8)
-    p_alpha_hermitian = sp.trigsimp(p_alpha.H - p_alpha) == sp.zeros(8, 8)
-    lagrangian_for_all_alpha = sp.trigsimp(p_alpha * op_bnd * p_alpha) == sp.zeros(8, 8)
+    p_alpha_idempotent = all(sp.trigsimp(e_t) == 0 for e_t in set(p_alpha * p_alpha - p_alpha) if e_t != 0)
+    p_alpha_hermitian = all(sp.trigsimp(e_t) == 0 for e_t in set(p_alpha.H - p_alpha) if e_t != 0)
+    lagrangian_for_all_alpha = all(sp.trigsimp(e_t) == 0 for e_t in set(p_alpha * op_bnd * p_alpha) if e_t != 0)
 
     # Global U(4) -> Lambda(C^8, Omega_bnd) parametrization P(W) = (1/2) U_B [[I_4, W], [W^H, I_4]] U_B^H (D2 fix):
     i4_s = sp.eye(4)
     u_bnd_8 = (1 / sp.sqrt(2)) * sp.BlockMatrix([[i4_s, i4_s], [sp.I * c_y_plus, -sp.I * c_y_plus]]).as_explicit()
     ub_unitary_and_diag = (
-        sp.simplify(u_bnd_8.H * u_bnd_8 - sp.eye(8)) == sp.zeros(8, 8)
-        and sp.simplify(u_bnd_8.H * op_bnd * u_bnd_8 - gamma_chir) == sp.zeros(8, 8)
+        (u_bnd_8.H * u_bnd_8 - sp.eye(8)).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (u_bnd_8.H * op_bnd * u_bnd_8 - gamma_chir).applyfunc(sp.expand) == sp.zeros(8, 8)
     )
 
     def global_u4_lagrangian_proj(w4_mat: sp.Matrix) -> sp.Matrix:
@@ -10628,7 +11839,7 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         [0, 1, 2, -sp.I],
         [1, 0, sp.I, -2],
     ])
-    w4_cay = ((i4_s + sp.I * k4_herm) * (i4_s - sp.I * k4_herm).inv()).applyfunc(sp.simplify)
+    w4_cay = ((i4_s + sp.I * k4_herm) * (i4_s - sp.I * k4_herm).inv()).applyfunc(sp.expand)
     p_cay = global_u4_lagrangian_proj(w4_cay)
     p_w1 = global_u4_lagrangian_proj(i4_s)
     p_w2 = global_u4_lagrangian_proj(sp.diag(1, sp.I, -1, -sp.I))
@@ -10686,12 +11897,12 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     )
     v4_global_u4_family_exact = (
         ub_unitary_and_diag
-        and sp.simplify(w4_cay.H * w4_cay - i4_s) == sp.zeros(4, 4)
-        and sp.simplify(p_cay * p_cay - p_cay) == sp.zeros(8, 8)
-        and sp.simplify(p_cay.H - p_cay) == sp.zeros(8, 8)
-        and sp.simplify(p_cay * op_bnd * p_cay) == sp.zeros(8, 8)
-        and sp.simplify(p_w1 * op_bnd * p_w1) == sp.zeros(8, 8)
-        and sp.simplify(p_w2 * op_bnd * p_w2) == sp.zeros(8, 8)
+        and (w4_cay.H * w4_cay - i4_s).applyfunc(sp.expand) == sp.zeros(4, 4)
+        and (p_cay * p_cay - p_cay).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (p_cay.H - p_cay).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (p_cay * op_bnd * p_cay).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (p_w1 * op_bnd * p_w1).applyfunc(sp.expand) == sp.zeros(8, 8)
+        and (p_w2 * op_bnd * p_w2).applyfunc(sp.expand) == sp.zeros(8, 8)
         and p_w1 != p_w2
         and u4_global_diff_rank == 16
         and u4_global_haar_ok
@@ -10756,41 +11967,65 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
             pole_bound_cache[a_pow] = find_l2_pole_bound_from_density(a_pow)
         return pole_bound_cache[a_pow]
 
+    res_pole_memo: dict[int, sp.Expr] = {}
+    wp_pole_memo: dict[int, bool] = {}
+    k_nz_int = sp.Symbol("k_nz_int", integer=True, nonzero=True)
+    fourier_orth_zero_val = sp.simplify(
+        sp.integrate(sp.I * sp.exp(sp.I * k_nz_int * theta_c), (theta_c, 0, 2 * sp.pi), meijerg=False, risch=False)
+        / (2 * sp.pi * sp.I)
+    )
+
+    def pole_res_at(m_pole: int) -> sp.Expr:
+        if m_pole not in res_pole_memo:
+            if m_pole <= 4:
+                integrand_p = sp.powsimp(
+                    (sp.exp(sp.I * theta_c) ** (-m_pole)) * sp.I * sp.exp(sp.I * theta_c),
+                    force=True,
+                )
+                res_pole_memo[m_pole] = sp.simplify(
+                    sp.integrate(integrand_p, (theta_c, 0, 2 * sp.pi), meijerg=False, risch=False)
+                    / (2 * sp.pi * sp.I)
+                )
+            else:
+                res_pole_memo[m_pole] = fourier_orth_zero_val.subs(k_nz_int, 1 - m_pole)
+        return res_pole_memo[m_pole]
+
+    def wp_pole_nonzero_at(m_p: int) -> bool:
+        if m_p not in wp_pole_memo:
+            wp_pole_memo[m_p] = bool(
+                sp.simplify((z_loc**m_p) * sp.diff(z_loc ** (-2), z_loc, m_p - 2)) != 0
+            )
+        return wp_pole_memo[m_p]
+
     def elliptic_h0_from_residue_kernel(deg: int) -> int:
         if deg in h0_residue_cache:
             return h0_residue_cache[deg]
         if deg < 0:
             h0_residue_cache[deg] = 0
             return 0
-        res_row = [
-            sp.simplify(
-                sp.integrate(
-                    (sp.exp(sp.I * theta_c) ** (-m_pole)) * sp.I * sp.exp(sp.I * theta_c),
-                    (theta_c, 0, 2 * sp.pi),
-                )
-                / (2 * sp.pi * sp.I)
-            )
-            for m_pole in range(deg + 1)
-        ]
+        res_row = [pole_res_at(m_pole) for m_pole in range(deg + 1)]
         res_mat = sp.Matrix(1, deg + 1, res_row)
         dim_ker = len(res_mat.nullspace())
         if deg >= 2:
-            wp_poles_ok = all(
-                sp.simplify((z_loc**m_p) * sp.diff(z_loc ** (-2), z_loc, m_p - 2)) != 0
-                for m_p in range(2, deg + 1)
-            )
-            if not wp_poles_ok:
+            if not all(wp_pole_nonzero_at(m_p) for m_p in range(2, deg + 1)):
                 raise ValueError(f"Weierstrass principal-part check failed for deg={deg}")
         h0_residue_cache[deg] = dim_ker
         return dim_ker
 
+    j_cusp_memo: dict[int, int] = {}
+    i_phys_memo: dict[int, int] = {}
+
     def j_cusp_index(a_pow: int) -> int:
-        b1 = pole_bound_cached(a_pow)
-        b2 = pole_bound_cached(2 - a_pow)
-        return elliptic_h0_from_residue_kernel(b1) - elliptic_h0_from_residue_kernel(b2)
+        if a_pow not in j_cusp_memo:
+            b1 = pole_bound_cached(a_pow)
+            b2 = pole_bound_cached(2 - a_pow)
+            j_cusp_memo[a_pow] = elliptic_h0_from_residue_kernel(b1) - elliptic_h0_from_residue_kernel(b2)
+        return j_cusp_memo[a_pow]
 
     def i_phys_weight(beta: int) -> int:
-        return 2 * j_cusp_index(1 - beta) - j_cusp_index(-beta) - j_cusp_index(2 - beta)
+        if beta not in i_phys_memo:
+            i_phys_memo[beta] = 2 * j_cusp_index(1 - beta) - j_cusp_index(-beta) - j_cusp_index(2 - beta)
+        return i_phys_memo[beta]
 
     # Curved-metric Hodge-Serre L^2 anti-linear isometry J_a on ds^2 = rho(u_w, v_w)|dw|^2 + all 4 spin structures & flat twists (D10 fix):
     u_w, v_w = sp.symbols("u_w v_w", real=True)
@@ -10835,15 +12070,109 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     cod_pt_dens = sp.simplify(sp.exp(4 * sp.pi * n_pt_s * y_sym) * (rho_pt_hyp ** (a_pt_s / 2)) * jac_pt_wz)
     chi_pt_sq = sp.Rational(1, 2) * (rho_pt_hyp**a_pt_s) * sp.exp(4 * sp.pi * n_pt_s * y_sym)
     dom_pt_dens = sp.simplify(2 * (rho_pt_hyp ** (-a_pt_s / 2)) * chi_pt_sq * jac_pt_wz)
-    pt_cusp_pole_integrals_ok = sp.simplify(cod_pt_dens - dom_pt_dens) == 0 and all(
-        (
-            not sp.integrate(sp.simplify(dom_pt_dens.subs({a_pt_s: av_p, n_pt_s: pole_bound_cached(2 - av_p), ell: 1})), (y_sym, 1, sp.oo)).has(sp.oo, sp.zoo, sp.nan)
-            and sp.integrate(sp.simplify(dom_pt_dens.subs({a_pt_s: av_p, n_pt_s: pole_bound_cached(2 - av_p) + 1, ell: 1})), (y_sym, 1, sp.oo)).has(sp.oo, sp.zoo)
+    dy_pt_sym = sp.Symbol("dy_pt", positive=True)
+    dom_pt_u1 = sp.powdenest(dom_pt_dens.subs(ell, 1), force=True)
+    dom_pt_canon_ok = (
+        sp.simplify(
+            sp.powdenest(
+                dom_pt_u1
+                / (((2 * sp.pi) ** (2 - a_pt_s)) * (y_sym ** (-a_pt_s)) * sp.exp(-2 * sp.pi * (2 - a_pt_s - 2 * n_pt_s) * y_sym)),
+                force=True,
+            )
         )
+        == 1
+    )
+
+    def pt_cusp_tail_converges(av_i: int, n_ord: int) -> bool:
+        if not (cusp_int_thms_ok and dom_pt_canon_ok):
+            return False
+        alpha_pt = 2 - av_i - 2 * n_ord
+        p_pt = -av_i
+        c_pt = (2 * sp.pi) ** (2 - av_i)
+        if av_i == 0:
+            d_sub = sp.powsimp(dom_pt_u1.subs({a_pt_s: av_i, n_pt_s: n_ord}), force=True)
+            expected_pt = c_pt * (y_sym**p_pt) * sp.exp(-2 * sp.pi * alpha_pt * y_sym)
+            if sp.powsimp(d_sub / expected_pt, force=True) != 1:
+                return False
+            if alpha_pt == 0:
+                int_pt = sp.integrate(d_sub, (y_sym, 1, sp.oo), meijerg=False)
+                return bool(int_pt.is_finite and int_pt > 0)
+            if alpha_pt > 0:
+                if p_pt >= 0:
+                    int_gm = sp.integrate(d_sub, (y_sym, 0, sp.oo), meijerg=False)
+                    return bool(int_gm.is_finite and int_gm > 0)
+                maj_pt = c_pt * sp.exp(-2 * sp.pi * alpha_pt * y_sym)
+                r_pt = sp.powsimp(maj_pt / d_sub, force=True)
+                r_y1_ok = sp.powsimp(r_pt.subs(y_sym, 1), force=True) == 1
+                dlog_pt_pos = sp.together((sp.diff(r_pt, y_sym) / r_pt).subs(y_sym, 1 + dy_pt_sym)).is_positive is True
+                int_mj_sub = sp.integrate(maj_pt, (y_sym, 1, sp.oo), meijerg=False)
+                return bool(r_y1_ok and dlog_pt_pos and int_mj_sub.is_finite and int_mj_sub > 0)
+            y_st = sp.Integer(max(2, abs(av_i) + 2))
+            dlog_pt_div = sp.together((sp.diff(d_sub, y_sym) / d_sub).subs(y_sym, y_st + dy_pt_sym)).is_positive is True
+            val_st = d_sub.subs(y_sym, y_st)
+            div_sub = sp.integrate(val_st, (y_sym, y_st, sp.oo), meijerg=False)
+            return not bool(dlog_pt_div and val_st > 0 and div_sub == sp.oo)
+        if alpha_pt == 0:
+            if p_pt <= -2:
+                int_p_pt = pow_conv_thm_val.subs({c_pos_s: c_pt, q_pow_s: -p_pt - 1, u_lo_s: 1})
+                return bool(int_p_pt.is_finite and int_p_pt > 0)
+            if p_pt == -1:
+                return not bool(inv_u_div_thm_val == sp.oo)
+            return not bool(const_div_thm_val == sp.oo)
+        if alpha_pt > 0:
+            if p_pt > 0:
+                y_mj_i = max(3, (2 * p_pt) // max(1, alpha_pt) + 4)
+                y_mj_d = sp.Integer(y_mj_i)
+                int_tl_pt = exp_tail_thm_val.subs({c_pos_s: c_pt, rate_pos_s: sp.pi * alpha_pt, u_lo_s: y_mj_d})
+                return bool(alpha_pt * (y_mj_i - 2) >= 2 * p_pt and dl_hi_thm and int_tl_pt.is_finite and int_tl_pt > 0)
+            int_mj = exp_tail_thm_val.subs({c_pos_s: c_pt * sp.exp(-2 * sp.pi * alpha_pt), rate_pos_s: 2 * sp.pi * alpha_pt, u_lo_s: 1})
+            return bool((dl_lo_thm if p_pt < 0 else True) and int_mj.is_finite and int_mj > 0)
+        return not bool((-alpha_pt >= 1) and (dl_div_pos_thm if p_pt >= 0 else dl_div_neg_thm) and const_div_thm_val == sp.oo)
+
+    pt_cusp_pole_integrals_ok = sp.powsimp(cod_pt_dens - dom_pt_dens, force=True) == 0 and all(
+        pt_cusp_tail_converges(av_p, pole_bound_cached(2 - av_p))
+        and (not pt_cusp_tail_converges(av_p, pole_bound_cached(2 - av_p) + 1))
         for av_p in range(-5, 7)
     )
 
     tw_h0_memo: dict[tuple[int, tuple[int, int, int, int]], int] = {}
+
+    def build_neg_deg_dolbeault_jet_op(deg_v: int, t1_raw: float, t2_raw: float) -> tuple[np.ndarray, list[tuple[int, int]]]:
+        tau_tw_loc = (3 / 8) + (6 / 5) * 1j
+        modes_f = [(m_i, n_i) for m_i in range(-3, 4) for n_i in range(-3, 4)]
+        n_m = len(modes_f)
+        n_van = -deg_v
+        op_f = np.zeros((n_m + n_van, n_m), dtype=complex)
+        for idx_m, (m_i, n_i) in enumerate(modes_f):
+            op_f[idx_m, idx_m] = (m_i + t1_raw) * tau_tw_loc - (n_i + t2_raw)
+            hol_k = ((m_i + t1_raw) * np.conj(tau_tw_loc) - (n_i + t2_raw)) / 4
+            for r_v in range(n_van):
+                op_f[n_m + r_v, idx_m] = hol_k**r_v
+        return op_f, modes_f
+
+    op_g0, modes_g0 = build_neg_deg_dolbeault_jet_op(-3, 1 / 5, 2 / 7)
+    op_g1, modes_g1 = build_neg_deg_dolbeault_jet_op(-3, (1 / 5) + 1.0, (2 / 7) - 1.0)
+    idx_g0 = {mn_g: ix_g for ix_g, mn_g in enumerate(modes_g0)}
+    idx_g1 = {mn_g: ix_g for ix_g, mn_g in enumerate(modes_g1)}
+    jet_gauge_cov_err = max(
+        float(np.max(np.abs(op_g0[len(modes_g0) :, idx_g0[(m_idx, n_c)]] - op_g1[len(modes_g1) :, idx_g1[(m_idx - 1, n_c + 1)]])))
+        for m_idx in range(-2, 4)
+        for n_c in range(-3, 3)
+    )
+    op_mix, modes_mix = build_neg_deg_dolbeault_jet_op(-3, 0.0, 0.0)
+    idx_mix = {mn_x: ix_x for ix_x, mn_x in enumerate(modes_mix)}
+    q_mix_vec = np.zeros(len(modes_mix), dtype=complex)
+    q_mix_vec[idx_mix[(0, 0)]] = 1.0
+    q_mix_vec[idx_mix[(1, 0)]] = -1.0
+    q_mix_vec[idx_mix[(0, 1)]] = -1.0
+    q_mix_vec[idx_mix[(1, 1)]] = 1.0
+    q_mix_jet = op_mix[len(modes_mix) :, :] @ q_mix_vec
+    neg_deg_hol_jet_ok = (
+        jet_gauge_cov_err < 1e-12
+        and float(abs(q_mix_jet[0])) < 1e-12
+        and float(abs(q_mix_jet[1])) < 1e-12
+        and float(abs(q_mix_jet[2] + np.conj((3 / 8) + (6 / 5) * 1j) / 8)) < 1e-12
+    )
 
     def compute_twisted_h0_svd(deg_v: int, hol_q4: tuple[int, int, int, int]) -> int:
         key_tw = (deg_v, hol_q4)
@@ -10853,16 +12182,10 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         t2_f = (hol_q4[2] / hol_q4[3]) % 1.0
         tau_tw = (3 / 8) + (6 / 5) * 1j
         if deg_v <= 0:
-            modes_f = [(m_i, n_i) for m_i in range(-3, 4) for n_i in range(-3, 4)]
+            op_f, modes_f = build_neg_deg_dolbeault_jet_op(deg_v, t1_f, t2_f)
             n_m = len(modes_f)
-            n_van = -deg_v
-            op_f = np.zeros((n_m + n_van, n_m), dtype=complex)
-            for idx_m, (m_i, n_i) in enumerate(modes_f):
-                op_f[idx_m, idx_m] = (m_i + t1_f) * tau_tw - (n_i + t2_f)
-                for r_v in range(n_van):
-                    op_f[n_m + r_v, idx_m] = ((1j * m_i / 4) ** r_v) + 0.5 * ((1j * n_i / 4) ** r_v)
             sv_f = np.linalg.svd(op_f, compute_uv=False)
-            res_h0 = n_m - int(np.sum(sv_f > 1e-9))
+            res_h0 = n_m - int(np.sum(sv_f > 1e-9)) if neg_deg_hol_jet_ok else -1
             tw_h0_memo[key_tw] = res_h0
             return res_h0
 
@@ -11036,11 +12359,17 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         roots_240.append(r_pos)
         roots_240.append(tuple(-c for c in r_pos))
 
+    roots_240_5p = [tuple((5 * c).p for c in r_v) for r_v in roots_240]
     e8_root_system_verified = (
         len(roots_240) == 240
         and len(set(roots_240)) == 240
+        and all((5 * c).q == 1 for r_v in roots_240 for c in r_v)
         and all(sum(c * c for c in r_v) == 2 for r_v in roots_240)
-        and all(sum(r_1[k] * r_2[k] for k in range(10)) in (-2, -1, 0, 1, 2) for r_1 in roots_240 for r_2 in roots_240)
+        and all(
+            sum(u_1[k] * u_2[k] for k in range(10)) in (-50, -25, 0, 25, 50)
+            for u_1 in roots_240_5p
+            for u_2 in roots_240_5p
+        )
     )
 
     # Evaluate explicit su(3)_c + su(2)_W + u(1)_Z + su(2)_E Cartan operators directly on all 240 roots + 8 Cartans = 248 states:
@@ -11053,7 +12382,7 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     states_248_cartan: list[tuple[Any, Any, Any, int, int]] = []
     for r_v in roots_240:
         t3c = sum(r_v[k] * t3c_vec[k] for k in range(10))
-        t8c = sp.simplify(sum(r_v[k] * t8c_vec[k] for k in range(10)))
+        t8c = sp.expand(sum(r_v[k] * t8c_vec[k] for k in range(10)))
         t3w = sum(r_v[k] * t3w_vec[k] for k in range(10))
         qz = int(sum(r_v[k] * qz_vec[k] for k in range(10)))
         me = int(sum(r_v[k] * me_vec[k] for k in range(10)))
@@ -11063,8 +12392,13 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
 
     e8_248_dim_partition_exact = e8_root_system_verified and (len(states_248_cartan) == 248)
 
+    cubic_su3_memo: dict[tuple[Any, Any], Any] = {}
+
     def cartan_cubic_su3(t3c: Any, t8c: Any) -> Any:
-        return sp.simplify(sp.sqrt(3) * (3 * (t3c ** 2) * t8c - (t8c ** 3)))
+        key_c3 = (t3c, t8c)
+        if key_c3 not in cubic_su3_memo:
+            cubic_su3_memo[key_c3] = sp.simplify(sp.sqrt(3) * (3 * (t3c ** 2) * t8c - (t8c ** 3)))
+        return cubic_su3_memo[key_c3]
 
     # Mechanically extract distinct gauge weight tuples (t3c, t8c, t3w) for each q_Z > 0 sector directly from states_248_cartan (zero lookup tables, F1!):
     qz_pos_sectors = sorted({qz for _, _, _, qz, _ in states_248_cartan if qz > 0})
@@ -11123,8 +12457,8 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         a_global_mod2 = int(n_doublets_int % 2)
         return (
             mults,
-            tuple(sp.simplify(x) for x in (a333, a33z, a22z, azzz, agravz)),
-            sp.simplify(azzz / 6),
+            tuple(sp.expand(x) for x in (a333, a33z, a22z, azzz, agravz)),
+            sp.expand(azzz / 6),
             n_doublets_int,
             a_global_mod2,
             uniform_ok,
@@ -11192,7 +12526,7 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
     for r_v in d8_all_roots:
         states_d8_248.append((
             sum(r_v[k] * t3c_d8[k] for k in range(8)),
-            sp.simplify(sum(r_v[k] * t8c_d8[k] for k in range(8))),
+            sp.expand(sum(r_v[k] * t8c_d8[k] for k in range(8))),
             sum(r_v[k] * t3w_d8[k] for k in range(8)),
             int(sum(r_v[k] * qz_d8[k] for k in range(8))),
             int(sum(r_v[k] * me_d8[k] for k in range(8))),
@@ -11232,8 +12566,8 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
             agrav_k += nu_k * qz
         dbl_i = int(n_dbl_k)
         return (
-            tuple(sp.simplify(x) for x in (a333_k, a33z_k, a22z_k, azzz_k, agrav_k)),
-            sp.simplify(azzz_k / 6),
+            tuple(sp.expand(x) for x in (a333_k, a33z_k, a22z_k, azzz_k, agrav_k)),
+            sp.expand(azzz_k / 6),
             dbl_i,
             int(dbl_i % 2),
         )
@@ -11346,6 +12680,7 @@ def verify_wp23_cusp_end_law_and_normalizations() -> dict[str, Any]:
         "complete_cusp_essentially_self_adjoint": essential_self_adjoint_complete_cusp,
         "incomplete_cusp_weyl_limit_circle_confirmed": incomplete_cusp_weyl_limit_circle,
         "curved_hodge_serre_and_spin_holonomy_index_exact": curved_hodge_serre_and_spin_exact,
+        "neg_deg_holomorphic_jet_gauge_covariant_and_mixed_mode_exact": neg_deg_hol_jet_ok,
         "weight_index_formula_exact": weight_index_formula_exact,
         "e8_248_dim_partition_exact": e8_248_dim_partition_exact,
         "d8_universal_flux_obstruction_exact": d8_universal_flux_obstruction_exact,

@@ -58,7 +58,7 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
     assert stage1_results["guardrail2_ast_no_literal_bool_verdicts_verified"] is True
     assert stage1_results["all_verifications_passed"] is True
 
-    # 2. 93 synthetic non-SM adversarial bypass probes on audit_source_zero_empirical_constants:
+    # 2. 108 synthetic non-SM adversarial bypass probes on audit_source_zero_empirical_constants:
     bypass_snippets = [
         "val = sp.Rational(401, 503)",
         "val = 401 / 100",
@@ -189,13 +189,36 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def push_dead(bx, d):\n    bx[0] = bx[0] * 10 + d\n    return 1\n    bx[0] = 0\nnum = [0]\nfor dg in (4, 0, 1):\n    push_dead(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    push_dead(den, dg)\nval = num[0] / den[0]",
         "d = {'v': 0}\nal = d\nal.update({'v': 200})\nval = (d['v'] * 2 + 1) / (250 * 2 + 3)",
         "def p1(bx, d):\n    bx[0] = bx[0] * 10 + d\ndef p2(bx, d):\n    bx[0] = bx[0] * 10 + d\nimport sympy as sp\nu = sp.Symbol('u')\nnum = [0]\nfor dg in (4, 0, 1):\n    (p1 if u else p2)(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    (p1 if u else p2)(den, dg)\nval = num[0] / den[0]",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef h2(z, x, y):\n    return 0 if z is None else (x * 10 + y)\ndef h1(z, x, y):\n    return h2(z, x, y)\nn = 0\nfor dg in (4, 0, 1):\n    n = h1(u, n, dg)\nd = 1\nfor _ in range(3):\n    d = h1(u, d, 0)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef p10(z, k):\n    if z is None or k <= 0:\n        return 1\n    return 10 * p10(z, k - 1)\nval = (4 * p10(u, 2) + 1) / p10(u, 2)",
+        "def push(bx, d):\n    bx[0] = bx[0] * 10 + d\nnum = [[0]]\nfor dg in (4, 0, 1):\n    push(num[0], dg)\nden = [[1]]\nfor _ in range(3):\n    push(den[0], 0)\nval = num[0][0] / den[0][0]",
+        "st = {'box': {'v': 0}}\nfor dg in (4, 0, 1):\n    st['box'].update({'v': st['box']['v'] * 10 + dg})\nden = {'box': {'v': 1}}\nfor _ in range(3):\n    den['box'].update({'v': den['box']['v'] * 10})\nval = st['box']['v'] / den['box']['v']",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef h3(z, x, y):\n    return 0 if z == 17 else (x * 10 + y)\ndef h2(z, x, y):\n    return h3(z, x, y)\ndef h1(z, x, y):\n    return h2(z, x, y)\nn = 0\nfor dg in (5, 0, 3):\n    n = h1(u, n, dg)\nd = 1\nfor _ in range(3):\n    d = h1(u, d, 0)\nval = n / d",
+        "def push(bx, d):\n    bx[0] = bx[0] * 10 + d\nnum = [[[0]]]\nfor dg in (5, 0, 3):\n    push(num[0][0], dg)\nden = [[[1]]]\nfor _ in range(3):\n    push(den[0][0], 0)\nval = num[0][0][0] / den[0][0][0]",
+        "st = {'a': {'b': {'v': 0}}}\nfor dg in (5, 0, 3):\n    st['a']['b'].update({'v': st['a']['b']['v'] * 10 + dg})\nden = {'a': {'b': {'v': 1}}}\nfor _ in range(3):\n    den['a']['b'].update({'v': den['a']['b']['v'] * 10})\nval = st['a']['b']['v'] / den['a']['b']['v']",
+        "st = {'box': {'v': 0}}\nfor dg in (4, 0, 1):\n    st['box']['v'] = st['box']['v'] * 10 + dg\nden = {'box': {'v': 1}}\nfor _ in range(3):\n    den['box']['v'] = den['box']['v'] * 10\nval = st['box']['v'] / den['box']['v']",
+        "st = {'box': {'v': 0}}\nfor _ in range(20):\n    for _ in range(20):\n        st['box']['v'] += 3\nst['box']['v'] += 7\nval = st['box']['v'] / 100",
+        "xs = [[0]]\nfor dg in (4, 0, 1):\n    xs[0].append(xs[0][-1] * 10 + dg)\nval = xs[0][-1] / 100",
+        (
+            "import sympy as sp\nu = sp.Symbol('u')\ndef h10(z, x, y):\n    return 0 if z is None else (x * 10 + y)\n"
+            "def h9(z, x, y):\n    return h10(z, x, y)\ndef h8(z, x, y):\n    return h9(z, x, y)\n"
+            "def h7(z, x, y):\n    return h8(z, x, y)\ndef h6(z, x, y):\n    return h7(z, x, y)\n"
+            "def h5(z, x, y):\n    return h6(z, x, y)\ndef h4(z, x, y):\n    return h5(z, x, y)\n"
+            "def h3(z, x, y):\n    return h4(z, x, y)\ndef h2(z, x, y):\n    return h3(z, x, y)\n"
+            "def h1(z, x, y):\n    return h2(z, x, y)\nn = 0\nfor dg in (4, 0, 1):\n    n = h1(u, n, dg)\n"
+            "d = 1\nfor _ in range(3):\n    d = h1(u, d, 0)\nval = n / d"
+        ),
+        "import sympy as sp\nu = sp.Symbol('u')\ndef step_bin(z, n, bit):\n    return 0 if z is None else ((n << 1) | (1 if bit else 0))\nn = False\nfor b in (True, True, False, False, True, False, False, False, True):\n    n = step_bin(u, n, b)\nval = n / 100",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef step_d(bx, n, dg):\n    return 0 if bx['z'] is None else (n * 10 + dg)\nbx = {'z': u}\nn = 0\nfor dg in (4, 0, 1):\n    n = step_d(bx, n, dg)\nval = n / 100",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef rec_op(z, k):\n    if sp.simplify(z) == 0:\n        return 1\n    return 10 * rec_op(z, k - 1)\nval = rec_op(u, 4) / 100",
+        "def bump(st, dg):\n    st['box'].update({'v': st['box']['v'] * 10 + dg})\ns = {'box': {'v': 0}}\nfor dg in (4, 0, 1):\n    bump(s, dg)\nval = s['box']['v'] / 100",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
             f"Firewall scanner failed to reject bypass snippet: {snippet}"
         )
 
-    # 3. Guardrail 2 AST lock on producer + 104 synthetic negative controls + PYTHONHASHSEED determinism:
+    # 3. Guardrail 2 AST lock on producer + 125 synthetic negative controls + PYTHONHASHSEED determinism:
     assert check_guardrail2_ast_no_literal_bool_verdicts(STAGE1_SRC.read_text(encoding="utf-8")) is True
     bad_g2_snippets = [
         "def f():\n    return {'ok': True}",
@@ -302,6 +325,64 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def k1():\n    return {'ok': True}\ndef f():\n    fns = [k1]\n    return fns[0]()",
         "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    fns = [mut]\n    fns[0](out)\n    return out",
         "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    (m := mut)(out)\n    return out",
+        "def g():\n    return ({'ok': True}, {'ok': False})\ndef f(i):\n    return g()[i]",
+        "def g():\n    return (True, False)\ndef f(i):\n    return {'ok': g()[i]}",
+        "def f():\n    d = {'sub': {}}\n    d['sub'].update({'ok': True})\n    return d['sub']",
+        "def mut(s):\n    s['ok'] = True\ndef f():\n    d = {'sub': {}}\n    mut(d['sub'])\n    return d['sub']",
+        "def f(dyn):\n    xs = [[]]\n    xs[0].append(True)\n    xs[0].append(dyn)\n    return {'ok': xs[0][0]}",
+        (
+            "def h8(xs):\n    return {'ok': xs[1]}\ndef h7(xs):\n    return h8(xs)\ndef h6(xs):\n    return h7(xs)\n"
+            "def h5(xs):\n    return h6(xs)\ndef h4(xs):\n    return h5(xs)\ndef h3(xs):\n    return h4(xs)\n"
+            "def h2(xs):\n    return h3(xs)\ndef h1(xs):\n    return h2(xs)\ndef f(dyn):\n    arr = [dyn, True]\n    return h1(arr)"
+        ),
+        (
+            "def h8(xs):\n    return {'zero_phase': xs[0]}\ndef h7(xs):\n    return h8(xs)\ndef h6(xs):\n    return h7(xs)\n"
+            "def h5(xs):\n    return h6(xs)\ndef h4(xs):\n    return h5(xs)\ndef h3(xs):\n    return h4(xs)\n"
+            "def h2(xs):\n    return h3(xs)\ndef h1(xs):\n    return h2(xs)\n"
+            "def f(dyn):\n    return h1([0.0 if i == 0 else dyn for i in range(2)])"
+        ),
+        "def g(dyn):\n    return (True, dyn)\ndef f(i, dyn):\n    return {'ok': g(dyn)[i]}",
+        "def g(dyn):\n    return ({'ok': True}, {'x': dyn})\ndef f(i, dyn):\n    return g(dyn)[i]",
+        "def f():\n    d = {'a': {'b': {}}}\n    d['a']['b'].update({'ok': True})\n    return d['a']['b']",
+        "def f(dyn):\n    xs = [[[]]]\n    xs[0][0].append(True)\n    xs[0][0].append(dyn)\n    return {'ok': xs[0][0][0]}",
+        "def f():\n    d = {'sub': {}}\n    s = d['sub']\n    s.update({'ok': True})\n    return d['sub']",
+        "def mut(s):\n    s['ok'] = True\ndef f():\n    d = {'sub': {}}\n    s = d['sub']\n    mut(s)\n    return d['sub']",
+        (
+            "def h8(xs):\n    return {'ok': xs[1]}\ndef h7(xs):\n    return h8(xs)\ndef h6(xs):\n    return h7(xs)\n"
+            "def h5(xs):\n    return h6(xs)\ndef h4(xs):\n    return h5(xs)\ndef h3(xs):\n    return h4(xs)\n"
+            "def h2(xs):\n    return h3(xs)\ndef h1(xs):\n    return h2(xs)\n"
+            "def f(dyn, flag):\n    if flag:\n        arr = [dyn, True]\n    else:\n        arr = [dyn, False]\n    return h1(arr)"
+        ),
+        (
+            "def h8(xs):\n    return {'ok': xs[1]}\ndef h7(xs):\n    return h8(xs)\ndef h6(xs):\n    return h7(xs)\n"
+            "def h5(xs):\n    return h6(xs)\ndef h4(xs):\n    return h5(xs)\ndef h3(xs):\n    return h4(xs)\n"
+            "def h2(xs):\n    return h3(xs)\ndef h1(xs):\n    return h2(xs)\n"
+            "def f(dyn, flag):\n    return h1([dyn, True] if flag else [dyn, False])"
+        ),
+        (
+            "def h8(xs):\n    return {'ok': xs[1]}\ndef h7(xs):\n    return h8(xs)\ndef h6(xs):\n    return h7(xs)\n"
+            "def h5(xs):\n    return h6(xs)\ndef h4(xs):\n    return h5(xs)\ndef h3(xs):\n    return h4(xs)\n"
+            "def h2(xs):\n    return h3(xs)\ndef h1(xs):\n    return h2(xs)\n"
+            "def f(dyn):\n    return h1([dyn] + [True])"
+        ),
+        (
+            "def h8(d):\n    return d\ndef h7(d):\n    return h8(d)\ndef h6(d):\n    return h7(d)\n"
+            "def h5(d):\n    return h6(d)\ndef h4(d):\n    return h5(d)\ndef h3(d):\n    return h4(d)\n"
+            "def h2(d):\n    return h3(d)\ndef h1(d):\n    return h2(d)\n"
+            "def f(dyn):\n    return h1({f'k{i}': (True if i == 0 else dyn) for i in range(2)})"
+        ),
+        "def k1():\n    return {'ok': True}\ndef f():\n    fns = [k1]\n    f1 = fns[0]\n    f2 = f1\n    return f2()",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    fns = [mut]\n    f1 = fns[0]\n    f2 = f1\n    f2(out)\n    return out",
+        (
+            "def h20(xs):\n    return {'ok': xs[1]}\n"
+            + "".join(f"def h{k_h}(xs):\n    return h{k_h + 1}(xs)\n" for k_h in range(19, 0, -1))
+            + "def f(dyn):\n    return h1([dyn, True])"
+        ),
+        (
+            "def h20(x):\n    return {'ok': x == 1}\n"
+            + "".join(f"def h{k_h}(x):\n    return h{k_h + 1}(x)\n" for k_h in range(19, 0, -1))
+            + "def f():\n    return h1(1)"
+        ),
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
@@ -309,17 +390,20 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
     det_code = (
         "import sys; sys.path.insert(0, 'src'); "
         "from pathlib import Path; "
-        "from origin_axiom.stage1_curved_action_cusp_orbit import check_guardrail2_ast_no_literal_bool_verdicts as g2; "
-        "print(g2(Path('tests/test_stage1_curved_action_cusp_orbit.py').read_text(encoding='utf-8')))"
+        "from origin_axiom.stage1_curved_action_cusp_orbit import "
+        "audit_source_zero_empirical_constants as fw, check_guardrail2_ast_no_literal_bool_verdicts as g2; "
+        "t = Path('tests/test_stage1_curved_action_cusp_orbit.py'); "
+        "p = Path('scripts/referee_p753_register_field_join.py'); "
+        "print(fw(t), g2(t.read_text(encoding='utf-8')), g2(p.read_text(encoding='utf-8')))"
     )
-    for seed_s in ("0", "1", "7", "15"):
+    for seed_s in ("0", "1", "10", "42", "99999"):
         sub_out = subprocess.check_output(
             [sys.executable, "-c", det_code],
             cwd=str(ROOT),
             env={"PATH": "/usr/bin:/bin", "PYTHONDONTWRITEBYTECODE": "1", "PYTHONHASHSEED": seed_s},
             text=True,
         ).strip()
-        assert sub_out == "True"
+        assert sub_out == "True True True"
 
 
 def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_results: dict[str, Any]) -> None:
@@ -1193,6 +1277,7 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
     assert wp23["one_form_liouville_and_susy_partner_exact"] is True
     assert wp23["incomplete_cusp_weyl_limit_circle_confirmed"] is True
     assert wp23["curved_hodge_serre_and_spin_holonomy_index_exact"] is True
+    assert wp23["neg_deg_holomorphic_jet_gauge_covariant_and_mixed_mode_exact"] is True
     assert wp23["v4_full_lagrangian_grassmannian_dim"] == 16
     assert wp23["v4_global_u4_family_exact"] is True
     assert wp23["v4_u4_differential_rank"] == 16
@@ -1203,6 +1288,45 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
     assert wp23["flux_n1_witten_global_su2_anomaly_mod2"] == 1
     assert wp23["flux_n2_witten_global_su2_anomaly_mod2"] == 0
     assert wp23["sm_generation_witten_global_su2_anomaly_mod2"] == 0
+
+    # Independent zero-trust NumPy countercheck on negative-degree holomorphic jet operator (D7):
+    tau_jet_chk = (3 / 8) + (6 / 5) * 1j
+    modes_jet_chk = [(m_i, n_i) for m_i in range(-3, 4) for n_i in range(-3, 4)]
+
+    def indep_neg_deg_jet_op(n_van_k: int, t1_v: float, t2_v: float) -> np.ndarray:
+        n_md = len(modes_jet_chk)
+        op_m = np.zeros((n_md + n_van_k, n_md), dtype=complex)
+        for ix_m, (m_i, n_i) in enumerate(modes_jet_chk):
+            op_m[ix_m, ix_m] = (m_i + t1_v) * tau_jet_chk - (n_i + t2_v)
+            hol_c = ((m_i + t1_v) * np.conj(tau_jet_chk) - (n_i + t2_v)) / 4
+            for r_j in range(n_van_k):
+                op_m[n_md + r_j, ix_m] = hol_c**r_j
+        return op_m
+
+    idx_jet_chk = {mn_p: ix_p for ix_p, mn_p in enumerate(modes_jet_chk)}
+    op_mix_chk = indep_neg_deg_jet_op(3, 0.0, 0.0)
+    q_mix_c = np.zeros(len(modes_jet_chk), dtype=complex)
+    q_mix_c[idx_jet_chk[(0, 0)]] = 1.0
+    q_mix_c[idx_jet_chk[(1, 0)]] = -1.0
+    q_mix_c[idx_jet_chk[(0, 1)]] = -1.0
+    q_mix_c[idx_jet_chk[(1, 1)]] = 1.0
+    jet_q_vals = op_mix_chk[len(modes_jet_chk) :, :] @ q_mix_c
+    assert abs(jet_q_vals[0]) < TOL and abs(jet_q_vals[1]) < TOL
+    assert abs(jet_q_vals[2] + np.conj(tau_jet_chk) / 8) < TOL
+    assert abs(jet_q_vals[2]) > (1 / 8)
+
+    op_sh0 = indep_neg_deg_jet_op(3, 1 / 5, 2 / 7)
+    op_sh1 = indep_neg_deg_jet_op(3, (1 / 5) + 1.0, (2 / 7) - 1.0)
+    for m_k in range(-2, 4):
+        for n_k in range(-3, 3):
+            assert np.max(
+                np.abs(
+                    op_sh0[len(modes_jet_chk) :, idx_jet_chk[(m_k, n_k)]]
+                    - op_sh1[len(modes_jet_chk) :, idx_jet_chk[(m_k - 1, n_k + 1)]]
+                )
+            ) < TOL
+    assert (len(modes_jet_chk) - int(np.sum(np.linalg.svd(op_sh0, compute_uv=False) > 1e-9))) == 0
+    assert (len(modes_jet_chk) - int(np.sum(np.linalg.svd(op_sh1, compute_uv=False) > 1e-9))) == 0
 
 
 def test_wp22_zero_trust_e8_bracket_pin6_2o_and_s4_sheet(stage1_results: dict[str, Any]) -> None:
