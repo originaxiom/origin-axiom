@@ -86,29 +86,32 @@ def _seg_lat_dist_f(ax: float, ay: float, bx: float, by: float, tx: float, ty: f
 
 def _wp_and_wp_prime_f64(z: complex, tau: complex) -> Tuple[complex, complex]:
     pi = math.pi
+    pi2 = pi * pi
+    pi3 = pi2 * pi
     k_sh = round(z.imag / tau.imag)
-    if k_sh != 0:
+    if k_sh:
         z = z - k_sh * tau
-    piz = pi * z
-    s0 = cmath.sin(piz)
-    c0 = cmath.cos(piz)
-    wp = (pi / s0) ** 2 - (pi * pi) / 3.0
-    wpp = -2.0 * (pi ** 3) * c0 / (s0 ** 3)
-    m_max = max(5, int(math.ceil(22.0 / (pi * max(0.25, tau.imag)))) + 1)
-    pit = pi * tau
+    s0 = cmath.sin(pi * z)
+    c0 = cmath.cos(pi * z)
+    invs0 = 1.0 / s0
+    invs0_2 = invs0 * invs0
+    wp = pi2 * invs0_2 - pi2 / 3.0
+    wpp = -2.0 * pi3 * c0 * invs0_2 * invs0
+    ty = tau.imag
+    m_max = 0 if ty > 14.0 else (int(math.ceil(6.8 / ty)) + 1)
     for m in range(1, m_max + 1):
-        mt = m * pit
-        sp = cmath.sin(piz + mt)
-        cp = cmath.cos(piz + mt)
-        sm = cmath.sin(piz - mt)
-        cm = cmath.cos(piz - mt)
-        st = cmath.sin(mt)
-        twp = (pi / sp) ** 2 + (pi / sm) ** 2 - 2.0 * ((pi / st) ** 2)
-        twpp = -2.0 * (pi ** 3) * (cp / (sp ** 3) + cm / (sm ** 3))
-        wp += twp
-        wpp += twpp
-        if abs(twp) < 1e-17 and abs(twpp) < 1e-17:
-            break
+        mt = m * tau
+        zm_p = pi * (z + mt)
+        zm_m = pi * (z - mt)
+        p_mt = pi * mt
+        sp, cp = cmath.sin(zm_p), cmath.cos(zm_p)
+        sm, cm = cmath.sin(zm_m), cmath.cos(zm_m)
+        st = cmath.sin(p_mt)
+        isp2 = 1.0 / (sp * sp)
+        ism2 = 1.0 / (sm * sm)
+        ist2 = 1.0 / (st * st)
+        wp += pi2 * (isp2 + ism2 - 2.0 * ist2)
+        wpp += -2.0 * pi3 * (cp * isp2 / sp + cm * ism2 / sm)
     return wp, wpp
 
 
@@ -191,7 +194,7 @@ def _taylor_prop_f64(
     y00, y01 = complex(Y_init[0, 0]), complex(Y_init[0, 1])
     y10, y11 = complex(Y_init[1, 0]), complex(Y_init[1, 1])
     z = z_start
-    g2_q = 0.5 * g2
+    g2_q = 0.25 * g2
     p = [0j] * (order + 1)
     q = [0j] * order
     u0 = [0j] * (order + 1)
