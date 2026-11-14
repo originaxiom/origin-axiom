@@ -4,6 +4,10 @@ cc banking seat, 2026-07-20 (framing corrected by B734). The positive computed o
 does the observer's conjugation act as the outer automorphism of the sister m003's level-(2)
 congruence quotient A₅? YES — computed + verified in-sandbox. Pure math; Gate 5; nothing to CLAIMS.
 
+[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 4; not checked by main): how to read this page. Where it says level (8) or (2)^3 for m004, read the
+correction of 2026-11-11 that stands under "Honest bounds": the congruence level is (4). The text is kept as it was
+written.]
+
 ## THE RESULT
 the SISTER m003 (the non-knot) is congruence at level
 (2), and PSL(2,O₃)/Γ((2)) ≅ PSL(2,𝔽₄) ≅ A₅ (order 60). B701's conjugation = complex conjugation on

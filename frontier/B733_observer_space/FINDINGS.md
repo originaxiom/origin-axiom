@@ -63,6 +63,9 @@ Two-seat: cc banks the observer-space + growth law (this); cc2 runs m004's own (
 independent 𝔽₂-dimension count + the V₄ tie — cross-verify the bounded-vs-continuum headline
 (pending). Vacuity gate PASSED (the observer-space is the principled B701-conjugation torsor on
 G_n, falsifiable two-outcome, not a loose "any choice"). Nothing to CLAIMS; no physics value.
+[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 5; not checked by main):
+"m004's own (8)-door", here and in the opening paragraph, names the door at the level that the note of 2026-11-11 in the opening paragraph corrects: the congruence level is (4). Where this page
+says (8)-door, level (8) or level 8 for m004, read that correction. The text is kept as it was written.]
 
 ---
 ## TWO-SEAT CONSENSUS (cc2's complementary run, cc-verified) — 2026-07-21

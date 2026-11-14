@@ -1,6 +1,8 @@
 # P1 — CONSOLIDATION (B736, Phase 2 synthesis)
 
 > **CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.** Where this page says level (8) or (2)³ for m004, read that. The text below is kept as it was written.
+>
+> **[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its findings 8 and 9; not checked by main): two more things to read with the note above.** (1) This page calls B734 Serre-defying twice, in § 1.3 and in the closing table. The gloss that the group defies a base rate is withdrawn: the theorem ledger withdrew it on 2026-09-16 (its link C9: Baker and Reid, 2018, state that the figure-eight complement is a congruence manifold), and B734's page says so since 2026-11-11. (2) The group of order 30720 that this page writes as `G₈ = PSL(2,𝒪₃/(8))` is SL(2, O₃/(8)) modulo all eight units of square one. The numbers, computed by main at that review: The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12). At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one. The text below is kept as it was written.
 
 
 **A self-policed body of mathematics about one arithmetic knot, and an honest account of what it is not.**
@@ -99,6 +101,7 @@ with its honest bound.
   reproduced a third time in P2, but it is flagged **pending external literature cross-check**. The
   congruence *of the knot itself* is the corrected truth; the observer thread's cleanest positive
   (`Out(A₅)`) lives one step away on the sister `m003`.
+  [ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 8; not checked by main): the gloss "Serre-defying" is withdrawn; see the note at the head of this page.]
 
 ### 1.4 The Born-content ledger (B725–B729)
 
@@ -245,6 +248,9 @@ reduction-count → **0**. This consolidation banks the cc-side of both; the cc2
 | 3.1 | P2-KMS | object-level observer **obstructed** (finite-level + Shimura) | single level only; full-tower / bare-Hecke route remains *open in principle* |
 | 3.2 | P3 | **0 reductions**; three-obstruction no-go | grades the **banked** record; not an exhaustive scan of all conceivable mechanisms |
 | 3.3 | Cross-verify | two-seat consensus B on both | cc2 half is the independent check |
+
+[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 8; not checked by main): row 1.3 of the table above calls B734 Serre-defying. The gloss is withdrawn; see the
+note at the head of this page.]
 
 ---
 

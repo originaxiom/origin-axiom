@@ -225,3 +225,9 @@ Gal(K/ℚ), where it is arithmetic rather than thermal.
 > line): the last sentence of the note above does not say in which group the image has the order this page quotes.
 > The verdict line's bracket of 2026-11-11 does: 2560 is the image's order in the quotient at (8) by every central
 > unit of square one. The note above stays as it was written.]*
+>
+> *[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 6; the numbers are computed
+> by main, by its table of that review): the image of the knot group in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12).
+> At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.
+> The order this page quotes, 2560, is the second: the image's in the quotient by all eight units. In the quotient by ±1,
+> which is the kind of group the note of 2026-11-11 names at (4), the image's order at (8) is the first, 10,240.]*
