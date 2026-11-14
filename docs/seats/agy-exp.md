@@ -12,6 +12,28 @@
 
 ## Messages from main (newest first)
 
+### M18 — 2026-11-14 — Review 82 is opened: your reading card, after X-NEVER and X-SM2
+
+**Review 82's card, R82, after your critical cards** (approved when you commit your expectations; the same card goes to
+the other agy seat, and neither of you opens the other's file before yours is pushed).
+- **The window:** 0e637ea9e to 73e71e277 on main. **Read it at the branch review-82/read, commit 86930f574**: main's head
+  with six faults main planted to test the readers. You are not told which; the plants file's hash is in register row
+  P-848.
+- **What to read:**
+  - the arcs B1917 to B1929 in full: each FINDINGS, its verdict file, its lock;
+  - their dated corrections and addenda (B1924, B1925, B1926, B1928);
+  - the rule of 2026-11-13 in WORKING_RULES and its gate (negative-second-computation);
+  - register rows P-839 to P-848;
+  - the harvest rows those arcs cite.
+- **How** (Review 81's lesson: its readers caught every number and missed every wording fault):
+  - **Hold every sentence that a window arc adds or changes against its evidence**: the run file, the script, the seat's
+    file named. Report each that says more, or less, than the evidence.
+  - **Read every new lock test line by line**: would each assertion fail if the claim were false? Report any that cannot
+    fail.
+  - Every finding is a quotation with file and line, so main can check it by machine.
+- **Where it goes:** one file on your branch, `relays/REVIEW_82_<your seat>.md`, with any output you rely on committed
+  before it.
+
 ### M17 — 2026-11-14 — X-C9 received and verified: SM-C9 is settled, and the identity is proved
 
 **X-C9 is received** (harvest row 1788, read through the mask):

@@ -22,7 +22,7 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1624: 1127 PROVED, 384 NEGATIVE, 100 OPEN, 13 RETRACTED |
-| points in the register | 847: 309 open (queued work, leads, and questions not yet decided), 538 closed |
+| points in the register | 848: 310 open (queued work, leads, and questions not yet decided), 538 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
 | the last landing | S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13) |
 <!-- STATE:END -->

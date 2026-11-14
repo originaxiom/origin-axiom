@@ -328,6 +328,7 @@ DEBT_TO_WP = {
     "P-842": "WP-0.7",   # a negative is banked only after a second computation: the gate, the builder's card C19
     "P-846": "WP-1.3",   # the one-tick object m000 and the foundational system: the web seat's W-C8
     "P-847": "WP-1.9",   # the Higgs reading S or S~: an independent bit of the read-out
+    "P-848": "WP-0.1",   # Review 82 opened: the other family reads the window with six plants
 }
 
 # ---------------------------------------------------------------- the certificate
