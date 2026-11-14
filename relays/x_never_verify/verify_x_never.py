@@ -47,6 +47,9 @@ from sympy.matrices.normalforms import invariant_factors
 from sympy.polys.numberfields.basis import round_two
 from sympy.polys.numberfields.primes import prime_decomp
 
+# Keep global working precision at 55 decimal digits throughout so intermediate matrix products never round to 15 dps!
+mp.mp.dps = 55
+
 
 # ============================================================================
 # JSON SERIALIZATION HELPER (SAFE FOR NUMPY 2.x, FRACTION, SYMPY, MPMATH)
