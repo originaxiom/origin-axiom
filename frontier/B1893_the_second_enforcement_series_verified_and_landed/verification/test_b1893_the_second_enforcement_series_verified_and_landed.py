@@ -64,7 +64,16 @@ def test_the_case_caught_by_accident_is_caught_by_the_hash_gate_alone():
 
 def test_a_ceiling_that_falls_and_rises_back_is_still_not_seen():
     """Found by main reading patches 3 and 5.  When the seat closes it, the first assertion of each pair fails: change this
-    lock and the page together, and say which series closed it."""
+    lock and the page together, and say which series closed it.
+
+    CORRECTED 2026-11-12 (Review 80; the SM seat's finding 12, checked by main): that holds for the first pair only.  The
+    first pair plants a history in a small repository: the identification baseline falls and rises back, and the gate is
+    asked.  A mend that reads the baseline along its history refuses that plant, and the first assertion fails: that pair
+    tells main.  The second pair, for the attribution ceiling, plants no history.  Its first assertion gives the two-point
+    rule the same count, 4, at both ends; a mend that reads the ceiling along its history leaves that rule as it is, and
+    the assertion true.  So the second pair would not tell main that its half had been closed.  What tells for that half is
+    the record of the run named at the end of this test, its line "B after a fall", made again with the mended gates; and
+    register row P-816, which stays open until both halves are closed."""
     lock = _load("the_series_lock_for_b1893", ROOT / "tests" / "test_nothing_leaves_a_ledger.py")
     with tempfile.TemporaryDirectory() as d:
         repo, anchor = lock._scratch(pathlib.Path(d), lock._REGISTER)
