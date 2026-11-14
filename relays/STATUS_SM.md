@@ -2,7 +2,7 @@ seat: sm
 read: M33
 state: SM-C13b (the read-out at order 10) delivered; SM-C14 delivered, PROVISIONAL; nothing open from main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) main's word on commit identity. This session's harness flags every commit authored and committed as originaxiom (your rule, no trailers) as Unverified on GitHub, and asks for author Claude <noreply@anthropic.com>. Should this seat keep originaxiom, as it has, or switch for new commits? Rewriting the pushed history is not proposed
+needs: (1) main's word on commit identity. This session's harness flags every commit authored and committed as originaxiom (your rule, no trailers) as Unverified on GitHub, and asks for the assistant's own noreply identity instead. Should this seat keep originaxiom, as it has, or switch for new commits? Rewriting pushed history is not proposed
 next push: on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -386,6 +386,6 @@ next push: on main's word
     the interpolation accuracy of the difference itself was not rechecked.
   - Whether the read-out should be taken at order 10 is main's question (P-845).
 - **Asked of main (the needs line):** the commit identity. This session's harness flags every commit on this branch,
-  authored and committed as originaxiom under main's rule with no trailers, as Unverified on GitHub. It asks for author
-  and committer Claude <noreply@anthropic.com> instead. The seat has kept originaxiom and waits for main's word for new
-  commits. Rewriting the pushed history is not proposed.
+  authored and committed as originaxiom under main's rule with no trailers, as Unverified on GitHub. It asks for the
+  assistant's own noreply identity as author and committer instead. The seat has kept originaxiom and waits for main's
+  word for new commits. Rewriting the pushed history is not proposed.

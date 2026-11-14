@@ -1,19 +1,19 @@
 grid order 10: 1046 points in 812 s
 Traceback (most recent call last):
-  File "/home/user/origin-axiom/relays/sm_c13b/run_c13b.py", line 207, in <module>
+  File "relays/sm_c13b/run_c13b.py", line 207, in <module>
     res = {"rows": rows, "ergodic": ergodic(rows)}
                                     ^^^^^^^^^^^^^
-  File "/home/user/origin-axiom/relays/sm_c13b/run_c13b.py", line 155, in ergodic
+  File "relays/sm_c13b/run_c13b.py", line 155, in ergodic
     import fiber_ergodic as FE        # B1928's thread() and reduce, unchanged (its module-level grid load is B1928's own)
     ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/tmp/claude-0/-home-user-origin-axiom/fba87fa4-8b8a-5e71-bf7b-a044b1b7bde0/scratchpad/c7/main_wt/frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/fiber_ergodic.py", line 18, in <module>
+  File "<main checkout at 847031d5f>/frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/fiber_ergodic.py", line 18, in <module>
     G = json.loads((HERE / ("fiber_grid_fine.json" if FINE else "fiber_grid.json")).read_text())
                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/pathlib.py", line 1058, in read_text
+  File "<python 3.11 stdlib>/pathlib.py", line 1058, in read_text
     with self.open(mode='r', encoding=encoding, errors=errors) as f:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/pathlib.py", line 1044, in open
+  File "<python 3.11 stdlib>/pathlib.py", line 1044, in open
     return io.open(self, mode, buffering, encoding, errors, newline)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/tmp/claude-0/-home-user-origin-axiom/fba87fa4-8b8a-5e71-bf7b-a044b1b7bde0/scratchpad/c7/main_wt/frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/fiber_grid.json'
+FileNotFoundError: [Errno 2] No such file or directory: '<main checkout at 847031d5f>/frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/fiber_grid.json'
 exit 0
