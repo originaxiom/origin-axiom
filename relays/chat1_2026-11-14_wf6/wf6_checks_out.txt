@@ -1,0 +1,51 @@
+M = 1607760
+primes [9646561, 17685361]
+9646561 golden n=1 {'s': -1, 'T': 1, 'chars': 5, 'G1_bad': 0, 'gap_plus': 1, 'gap_minus': 1, 'record': 0}
+9646561 golden n=2 {'s': 1, 'T': 1, 'chars': 5, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 0}
+9646561 golden n=3 {'s': -1, 'T': 4, 'chars': 28, 'G1_bad': 0, 'gap_plus': 4, 'gap_minus': 4, 'record': 0}
+9646561 golden n=4 {'s': 1, 'T': 5, 'chars': 65, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 4}
+9646561 golden n=5 {'s': -1, 'T': 11, 'chars': 275, 'G1_bad': 0, 'gap_plus': 11, 'gap_minus': 11, 'record': 0}
+9646561 golden n=6 {'s': 1, 'T': 16, 'chars': 176, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 15}
+9646561 golden n=7 {'s': -1, 'T': 29, 'chars': 1769, 'G1_bad': 0, 'gap_plus': 29, 'gap_minus': 29, 'record': 0}
+9646561 golden n=8 {'s': 1, 'T': 45, 'chars': 1485, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 44}
+9646561 silver n=1 {'s': -1, 'T': 2, 'chars': 14, 'G1_bad': 0, 'gap_plus': 2, 'gap_minus': 2, 'record': 0}
+9646561 silver n=2 {'s': 1, 'T': 4, 'chars': 28, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 3}
+9646561 silver n=3 {'s': -1, 'T': 14, 'chars': 434, 'G1_bad': 0, 'gap_plus': 14, 'gap_minus': 14, 'record': 0}
+9646561 silver n=4 {'s': 1, 'T': 32, 'chars': 608, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 31}
+9646561 bronze n=1 {'s': -1, 'T': 3, 'chars': 27, 'G1_bad': 0, 'gap_plus': 3, 'gap_minus': 3, 'record': 0}
+9646561 bronze n=2 {'s': 1, 'T': 9, 'chars': 81, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 8}
+9646561 bronze n=3 {'s': -1, 'T': 36, 'chars': 1404, 'G1_bad': 0, 'gap_plus': 36, 'gap_minus': 36, 'record': 0}
+9646561 phi_A n=1 {'s': 1, 'T': 2, 'chars': 14, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 1}
+9646561 phi_A n=2 {'s': 1, 'T': 12, 'chars': 180, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 11}
+9646561 phi_A n=3 {'s': 1, 'T': 50, 'chars': 1150, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 49}
+9646561 phi_B n=1 {'s': -1, 'T': 3, 'chars': 27, 'G1_bad': 0, 'gap_plus': 3, 'gap_minus': 3, 'record': 0}
+9646561 phi_B n=2 {'s': 1, 'T': 9, 'chars': 81, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 8}
+9646561 phi_B n=3 {'s': -1, 'T': 36, 'chars': 1404, 'G1_bad': 0, 'gap_plus': 36, 'gap_minus': 36, 'record': 0}
+17685361 golden n=1 {'s': -1, 'T': 1, 'chars': 5, 'G1_bad': 0, 'gap_plus': 1, 'gap_minus': 1, 'record': 0}
+17685361 golden n=2 {'s': 1, 'T': 1, 'chars': 5, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 0}
+17685361 golden n=3 {'s': -1, 'T': 4, 'chars': 28, 'G1_bad': 0, 'gap_plus': 4, 'gap_minus': 4, 'record': 0}
+17685361 golden n=4 {'s': 1, 'T': 5, 'chars': 65, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 4}
+17685361 golden n=5 {'s': -1, 'T': 11, 'chars': 275, 'G1_bad': 0, 'gap_plus': 11, 'gap_minus': 11, 'record': 0}
+17685361 golden n=6 {'s': 1, 'T': 16, 'chars': 176, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 15}
+17685361 golden n=7 {'s': -1, 'T': 29, 'chars': 1769, 'G1_bad': 0, 'gap_plus': 29, 'gap_minus': 29, 'record': 0}
+17685361 golden n=8 {'s': 1, 'T': 45, 'chars': 1485, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 44}
+17685361 silver n=1 {'s': -1, 'T': 2, 'chars': 14, 'G1_bad': 0, 'gap_plus': 2, 'gap_minus': 2, 'record': 0}
+17685361 silver n=2 {'s': 1, 'T': 4, 'chars': 28, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 3}
+17685361 silver n=3 {'s': -1, 'T': 14, 'chars': 434, 'G1_bad': 0, 'gap_plus': 14, 'gap_minus': 14, 'record': 0}
+17685361 silver n=4 {'s': 1, 'T': 32, 'chars': 608, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 31}
+17685361 bronze n=1 {'s': -1, 'T': 3, 'chars': 27, 'G1_bad': 0, 'gap_plus': 3, 'gap_minus': 3, 'record': 0}
+17685361 bronze n=2 {'s': 1, 'T': 9, 'chars': 81, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 8}
+17685361 bronze n=3 {'s': -1, 'T': 36, 'chars': 1404, 'G1_bad': 0, 'gap_plus': 36, 'gap_minus': 36, 'record': 0}
+17685361 phi_A n=1 {'s': 1, 'T': 2, 'chars': 14, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 1}
+17685361 phi_A n=2 {'s': 1, 'T': 12, 'chars': 180, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 11}
+17685361 phi_A n=3 {'s': 1, 'T': 50, 'chars': 1150, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 49}
+17685361 phi_B n=1 {'s': -1, 'T': 3, 'chars': 27, 'G1_bad': 0, 'gap_plus': 3, 'gap_minus': 3, 'record': 0}
+17685361 phi_B n=2 {'s': 1, 'T': 9, 'chars': 81, 'G1_bad': 0, 'gap_plus': 0, 'gap_minus': 0, 'record': 8}
+17685361 phi_B n=3 {'s': -1, 'T': 36, 'chars': 1404, 'G1_bad': 0, 'gap_plus': 36, 'gap_minus': 36, 'record': 0}
+G1 holds: True
+G2 holds: True
+GP fires: True
+both primes give the same census: True
+N1 holds: True
+N2 holds: True
+NP fires: True
