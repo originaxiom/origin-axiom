@@ -2208,7 +2208,7 @@ def fci_read_two_paths(M: "snappy.Manifold", check_shapes: bool = True) -> Dict[
         try:
             isos_path1 = MC.is_isometric_to(MC, return_isometries=True)
             break
-        except RuntimeError:
+        except Exception:
             MC.randomize()
     assert isos_path1 is not None, "is_isometric_to failed after retries"
 
@@ -2219,7 +2219,7 @@ def fci_read_two_paths(M: "snappy.Manifold", check_shapes: bool = True) -> Dict[
             sg = MC2.symmetry_group()
             isos_path2 = sg.isometries()
             break
-        except RuntimeError:
+        except Exception:
             MC2.randomize()
     assert isos_path2 is not None, "symmetry_group().isometries() failed after retries"
 
@@ -2377,7 +2377,7 @@ def run_part3_sm_c11() -> Dict[str, Any]:
     )
 
     # Check m003 companion is isometric to o10_150729, and +LLLR companion is isometric to L8a15
-    comp_m003 = build_fixed_point_companion(snappy.Manifold("b--LR"), expected_deg=5)
+    comp_m003 = build_fixed_point_companion(snappy.Manifold("b+-LR"), expected_deg=5)
     assert comp_m003.is_isometric_to(M_o10)
 
     M_lllr = snappy.Manifold("b++LLLR")
@@ -2403,7 +2403,7 @@ def run_part3_sm_c11() -> Dict[str, Any]:
 
     for sgn, w, tr_phi in states:
         label = ("+" if sgn > 0 else "-") + w
-        bcode = ("b++" if sgn > 0 else "b--") + w
+        bcode = ("b++" if sgn > 0 else "b+-") + w
         M_st = snappy.Manifold(bcode)
         exp_deg = abs(2 - tr_phi)
         if exp_deg > 1:
