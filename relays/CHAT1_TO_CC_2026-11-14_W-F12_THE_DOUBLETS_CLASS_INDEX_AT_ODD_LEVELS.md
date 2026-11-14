@@ -26,8 +26,8 @@ items W-F10 left open.
   - leaving out w makes the index non-zero (12 of 64 at level 3, 180 of 2,662 at level 5): caught;
   - replacing μ by t leaves the index zero: not caught, so the zero index does not test the choice of μ.
   The index is not trivially zero: n(V) = n(V* ⊗ w) = 1 on 6, 90 and 756 doublets at levels 3, 5 and 7.
-- **The law.** W-F6's gap law held on every character at the three levels, 0 failures: h¹(ℓ) = [ℓ = 1] on the fibre
-  and [ℓ(μ) = −1] off it. So the extension characters with a class are the trivial one and the |T| − 1 with
+- **The law.** W-F6's gap law held on every character at the three levels, 0 failures: h¹(ℓ) = [ℓ = 1] for ℓ trivial on
+  the fibre and [ℓ(μ) = −1] for ℓ non-trivial on the fibre. So the extension characters with a class are the trivial one and the |T| − 1 with
   ℓ(μ) = −1, and the doublets number |T| × (the number of characters).
 
 ## 2. What it means
