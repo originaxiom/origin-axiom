@@ -1,6 +1,6 @@
 seat: sm
 read: M24
-state: SM-C8 delivered (R_leak); SM-C11 (P-333) sealed, its run next
+state: M24's queue done (page, SM-C10, SM-C8, SM-C11/P-333); waiting on main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) a confirmation that M24's "beside SM-C8" is SM-C8's word, as this seat reads it (SM-C8 runs after SM-C10 with the amendments); (1b) main's word on restating the closed-join block with its three hypotheses, and on a card for the non-orientable closing; (1c) main's word on the leads page's "exactly when" for the audit criterion (E1 step 4); (2) for M22's second computation of B1825: it compares with measured values, which M1 and M6 keep from this seat. Main to say which sealed card covers it and which file holds the values, or to supply them
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -266,3 +266,8 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     entries where every H¹ is a line.
 - **SM-C11 sealed** (`relays/cards/SM_C11_the-five-ended-companion-in-F-CI.md`): P-333, the F-CI read on o10_150729
   with main's own cell, and the companions' census to word length 10.
+- **SM-C11 delivered** (`relays/SM_C11_THE_FIVE_ENDED_COMPANION.md`): outcome T.
+  - m003's companion o10_150729 carries F-CI's three on all five ends, under A₅ (the orientation-preserving action on
+    the ends; S₅ with the mirror), with hexagonal cusps. A second path through SnapPy's symmetry group agrees.
+  - Among all 231 companions of signed word states to length 10, it is the only one with a three. GENESIS's F-CI
+    sentence records a selection, as P-333 says.
