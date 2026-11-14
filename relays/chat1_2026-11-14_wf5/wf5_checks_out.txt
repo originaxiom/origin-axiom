@@ -1,0 +1,49 @@
+F1 K = 2 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 3 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = 4 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 5 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = 6 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 7 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = 8 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 9 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = 10 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 11 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = 12 | Smith invariants [2, 2, 2] | parity character exists: True
+F1 K = 13 | Smith invariants [1, 2, 2] | parity character exists: False
+F1 K = infinity | Smith invariants [2, 2, 2] | parity character exists: True
+F1 holds: True
+F2 (abc)^2 = abcabc ; x (xy)^-1 y = abcabc
+F2 holds: True
+F3 p 1000003 K = 2 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 3 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = 4 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 5 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = 6 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 7 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = 8 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 9 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = 10 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 11 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = 12 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 1000003 K = 13 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 1000003 K = infinity | characters 8 | classes 5 | classes with c(lambda) != 0: 3 | with c(abc) != 0: 5
+F3 control at K = infinity, chi = (-1, -1, 1): c(lambda) of c = (1, 0, 0) is 2: True
+F3 p 998244353 K = 2 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 3 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = 4 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 5 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = 6 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 7 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = 8 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 9 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = 10 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 11 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = 12 | characters 8 | classes 2 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 2
+F3 p 998244353 K = 13 | characters 4 | classes 0 | classes with c(lambda) != 0: 0 | with c(abc) != 0: 0
+F3 p 998244353 K = infinity | characters 8 | classes 5 | classes with c(lambda) != 0: 3 | with c(abc) != 0: 5
+F3 control at K = infinity, chi = (-1, -1, 1): c(lambda) of c = (1, 0, 0) is 2: True
+F3 holds: True ; both primes give the same counts: True
+F4 on the cubic: max |tr[x,y] + 2| = 2.09e-36 ; max relative |N^2| = 3.52e-37 ; min over n = 1..24 of |[x,y]^n - I| = 0.74174
+F4 at the origin [x, y] = -I: True ; control on the cone level sets ([x,y]^(2k) = I): True
+F4 holds: True
+F5 holds: True
