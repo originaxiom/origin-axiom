@@ -6,6 +6,7 @@
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /Review 82|plant|reading copy|recused/: 45 of 1673 arcs on main match (NEGATIVE 1, OPEN 2, PROVED 41, RETRACTED 1); 60 register rows match (DECLINED 1, DONE 22, QUEUED 37)` — the earlier reviews' entries (B1898, B1916) and their planted readings; this is the first review read by the other family of model.
+- **The literature:** none applies; this is a review of the record's own window, read by sessions that built none of it.
 
 ## What was read
 - **The window:** main's work from 0e637ea9e to 73e71e277 (B1917 to B1929, their corrections, the seats' harvests).

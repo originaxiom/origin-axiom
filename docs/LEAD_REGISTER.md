@@ -655,7 +655,7 @@ planted: each caught the two numbers and missed every wording fault; their twelv
 Touched at Review 82 (its anchor `73e71e277`). **The window (`0e637ea9e` to `73e71e277`) holds B1917 to B1929: the
 channel norm as a Kronecker limit (B1919, B1920), the read-out on the whole stated and computed (B1924), the selection
 tested by changing it (B1925), the odd ticks (B1926), the canonical end (B1927), the read-out's limit (B1928, proved
-twice) and the twisted η identity (B1929). Two sessions that built none of it read it, with six faults main planted:
+twice) and the twisted η identity (B1929). Two sessions that built none of it read it, with six planted faults:
 each caught the five it could reach (B1931).**
 - **For this page:** the leads of P-845 to P-847 moved: τ and the reading point left the read-out; the Higgs reading's global bit is a genuine input in frame C; the lepton rows are not the read-out's at level 5.
 - **After the window, Review 83's to read:** B1930 (the foundation at version 1.68, the builder's chain), B1931 (this

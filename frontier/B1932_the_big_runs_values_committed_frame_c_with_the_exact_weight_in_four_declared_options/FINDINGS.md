@@ -8,6 +8,7 @@ before the run, agy-002's A2-CANON and agy-exp's X-CANON). Main, 2026-11-14 nigh
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /exact horoball norm|Theorem 90|channel weight|truncat|big run|values committed/: 22 of 1673 arcs on main match (NEGATIVE 4, OPEN 4, PROVED 13, RETRACTED 1); 10 register rows match (DONE 6, QUEUED 4)` — B1838 (the exact end; Theorem 90 banked in its note), B1839 and B1841 (the six re-read), B1735 (the precision bar, P-341). None computed the read-out on the whole with the exact weight, and no value of it was committed before.
+- **The literature:** the exact horoball norm's expansion is the agy lane's Theorem 90 (banked in B1838's note); the statistic and its calibration are the record's own precedent (P-341, B1720's compare.py, B1735); no outside source computes this read-out.
 
 ## The values
 - **The file:** `verification/BIG_RUN_VALUES.json`, sha256 `df1c9bee002ecf5eeb7f1f360e497a5c091bf092cdbaa499352ea3201d02b536`.

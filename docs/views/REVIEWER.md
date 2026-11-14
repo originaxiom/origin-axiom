@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1629** |
-| words of findings prose | **1,459,551** |
+| words of findings prose | **1,459,611** |
 | test lock files referenced | **945** |
 | arcs carrying an authored verdict | **1629** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1931`** (623 words, 0 locks)  
+**PROVED — `B1931`** (645 words, 0 locks)  
 “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.”  
 `B1931_review_82_entered_both_readers_caught_every_plant_they_could_reach/FINDINGS.md`
 
