@@ -1,0 +1,11752 @@
+{
+ "levels": {
+  "+LR 6": {
+   "M": [
+    [
+     233,
+     144
+    ],
+    [
+     144,
+     89
+    ]
+   ],
+   "N": 40,
+   "characters": 319,
+   "holds": 319,
+   "nonzero_L": 316,
+   "max_rational_resid": 1.4988010832439613e-15,
+   "P1_fails": 316,
+   "P2_fails": 0,
+   "P3_fails": 316,
+   "eta_untw": "0",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 5,
+     "period_q": "-3/8",
+     "second/4pi2": -0.37500000000005973,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 10,
+     "period_q": "-1/2",
+     "second/4pi2": -0.5000000000000426,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 15,
+     "period_q": "-3/8",
+     "second/4pi2": -0.37499999999999184,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 20,
+     "period_q": "0",
+     "second/4pi2": 4.472567051849008e-14,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 25,
+     "period_q": "-3/8",
+     "second/4pi2": -0.37499999999999184,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 52.1
+  },
+  "-LR 5": {
+   "M": [
+    [
+     -89,
+     -55
+    ],
+    [
+     -55,
+     -34
+    ]
+   ],
+   "N": 25,
+   "characters": 124,
+   "holds": 124,
+   "nonzero_L": 124,
+   "max_rational_resid": 5.273559366969494e-16,
+   "P1_fails": 124,
+   "P2_fails": 0,
+   "P3_fails": 124,
+   "eta_untw": "0",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 5,
+     "period_q": "-1/10",
+     "second/4pi2": -0.0999999999999998,
+     "how": "period at 96 nodes",
+     "agree": true
+    },
+    {
+     "i": 0,
+     "j": 10,
+     "period_q": "1/10",
+     "second/4pi2": 0.10000000000000032,
+     "how": "period at 96 nodes",
+     "agree": true
+    },
+    {
+     "i": 0,
+     "j": 15,
+     "period_q": "1/10",
+     "second/4pi2": 0.1000000000000003,
+     "how": "period at 96 nodes",
+     "agree": true
+    },
+    {
+     "i": 0,
+     "j": 20,
+     "period_q": "-1/10",
+     "second/4pi2": -0.09999999999999977,
+     "how": "period at 96 nodes",
+     "agree": true
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "period_q": "-11/50",
+     "second/4pi2": -0.2200000000000001,
+     "how": "period at 96 nodes",
+     "agree": true
+    }
+   ],
+   "seconds": 54.2
+  },
+  "+LLR 2": {
+   "M": [
+    [
+     11,
+     8
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "N": 6,
+   "characters": 11,
+   "holds": 11,
+   "nonzero_L": 11,
+   "max_rational_resid": 1.6653345369377348e-16,
+   "P1_fails": 11,
+   "P2_fails": 11,
+   "P3_fails": 10,
+   "eta_untw": "2/3",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 3,
+     "period_q": "-1/6",
+     "second/4pi2": -0.1666666666666667,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "period_q": "-1/3",
+     "second/4pi2": -0.33333333333333337,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 1,
+     "j": 5,
+     "period_q": "1/6",
+     "second/4pi2": 0.16666666666666677,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "period_q": "1/6",
+     "second/4pi2": 0.1666666666666666,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 4,
+     "period_q": "1/6",
+     "second/4pi2": 0.16666666666666666,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 56.2
+  },
+  "+LLR 4": {
+   "M": [
+    [
+     153,
+     112
+    ],
+    [
+     56,
+     41
+    ]
+   ],
+   "N": 24,
+   "characters": 191,
+   "holds": 191,
+   "nonzero_L": 191,
+   "max_rational_resid": 6.938893903907228e-16,
+   "P1_fails": 191,
+   "P2_fails": 191,
+   "P3_fails": 190,
+   "eta_untw": "4/3",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 3,
+     "period_q": "-19/48",
+     "second/4pi2": -0.3958333333333303,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 6,
+     "period_q": "-7/12",
+     "second/4pi2": -0.5833333333333353,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 9,
+     "period_q": "5/48",
+     "second/4pi2": 0.10416666666666968,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 12,
+     "period_q": "-1/3",
+     "second/4pi2": -0.3333333333333413,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 15,
+     "period_q": "5/48",
+     "second/4pi2": 0.10416666666666968,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 87.7
+  },
+  "-LLR 4": {
+   "M": [
+    [
+     153,
+     112
+    ],
+    [
+     56,
+     41
+    ]
+   ],
+   "N": 24,
+   "characters": 191,
+   "holds": 191,
+   "nonzero_L": 191,
+   "max_rational_resid": 6.938893903907228e-16,
+   "P1_fails": 191,
+   "P2_fails": 191,
+   "P3_fails": 190,
+   "eta_untw": "4/3",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 3,
+     "period_q": "-19/48",
+     "second/4pi2": -0.3958333333333303,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 6,
+     "period_q": "-7/12",
+     "second/4pi2": -0.5833333333333353,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 9,
+     "period_q": "5/48",
+     "second/4pi2": 0.10416666666666968,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 12,
+     "period_q": "-1/3",
+     "second/4pi2": -0.3333333333333413,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 0,
+     "j": 15,
+     "period_q": "5/48",
+     "second/4pi2": 0.10416666666666968,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 117.4
+  },
+  "+LLLR 2": {
+   "M": [
+    [
+     19,
+     15
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "N": 21,
+   "characters": 20,
+   "holds": 20,
+   "nonzero_L": 20,
+   "max_rational_resid": 2.498001805406602e-16,
+   "P1_fails": 20,
+   "P2_fails": 20,
+   "P3_fails": 20,
+   "eta_untw": "4/3",
+   "second_computation": [
+    {
+     "i": 1,
+     "j": 9,
+     "period_q": "-5/21",
+     "second/4pi2": -0.2380952380952381,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 18,
+     "period_q": "1/21",
+     "second/4pi2": 0.047619047619047866,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 3,
+     "j": 6,
+     "period_q": "-10/21",
+     "second/4pi2": -0.47619047619047605,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 15,
+     "period_q": "4/21",
+     "second/4pi2": 0.1904761904761904,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 5,
+     "j": 3,
+     "period_q": "1/21",
+     "second/4pi2": 0.04761904761904719,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 121.2
+  },
+  "+LLRLR 1": {
+   "M": [
+    [
+     8,
+     5
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "N": 8,
+   "characters": 7,
+   "holds": 7,
+   "nonzero_L": 7,
+   "max_rational_resid": 5.551115123125783e-17,
+   "P1_fails": 7,
+   "P2_fails": 7,
+   "P3_fails": 6,
+   "eta_untw": "1/3",
+   "second_computation": [
+    {
+     "i": 1,
+     "j": 3,
+     "period_q": "-13/48",
+     "second/4pi2": -0.27083333333333326,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 6,
+     "period_q": "1/6",
+     "second/4pi2": 0.16666666666666657,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "period_q": "11/48",
+     "second/4pi2": 0.22916666666666655,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 4,
+     "period_q": "-1/12",
+     "second/4pi2": -0.08333333333333333,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 5,
+     "j": 7,
+     "period_q": "11/48",
+     "second/4pi2": 0.22916666666666655,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 122.7
+  },
+  "+LLRR 1": {
+   "M": [
+    [
+     5,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "N": 2,
+   "characters": 3,
+   "holds": 3,
+   "nonzero_L": 2,
+   "max_rational_resid": 2.9743479368764455e-17,
+   "P1_fails": 2,
+   "P2_fails": 0,
+   "P3_fails": 2,
+   "eta_untw": "0",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 1,
+     "period_q": "-1/4",
+     "second/4pi2": -0.24999999999999994,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 1,
+     "j": 0,
+     "period_q": "1/4",
+     "second/4pi2": 0.2500000000000001,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 1,
+     "j": 1,
+     "period_q": "0",
+     "second/4pi2": 4.499564438479887e-17,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 123.3
+  },
+  "+LLLLR 1": {
+   "M": [
+    [
+     5,
+     4
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "N": 4,
+   "characters": 3,
+   "holds": 3,
+   "nonzero_L": 3,
+   "max_rational_resid": 5.551115123125783e-17,
+   "P1_fails": 3,
+   "P2_fails": 3,
+   "P3_fails": 3,
+   "eta_untw": "1",
+   "second_computation": [
+    {
+     "i": 1,
+     "j": 0,
+     "period_q": "1/8",
+     "second/4pi2": 0.12500000000000014,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "period_q": "1/4",
+     "second/4pi2": 0.25000000000000006,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "period_q": "1/8",
+     "second/4pi2": 0.12500000000000014,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 124.1
+  },
+  "+LLLRR 1": {
+   "M": [
+    [
+     7,
+     3
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "N": 6,
+   "characters": 5,
+   "holds": 5,
+   "nonzero_L": 3,
+   "max_rational_resid": 1.1102230246251565e-16,
+   "P1_fails": 3,
+   "P2_fails": 5,
+   "P3_fails": 5,
+   "eta_untw": "1/3",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 3,
+     "period_q": "-1/3",
+     "second/4pi2": -0.33333333333333337,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "period_q": "1/4",
+     "second/4pi2": 0.25000000000000017,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "period_q": "0",
+     "second/4pi2": -3.3746733288599154e-17,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 0,
+     "period_q": "1/4",
+     "second/4pi2": 0.25000000000000017,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 3,
+     "period_q": "0",
+     "second/4pi2": -3.3746733288599154e-17,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 125.8
+  },
+  "-LLLRR 1": {
+   "M": [
+    [
+     -7,
+     -3
+    ],
+    [
+     -2,
+     -1
+    ]
+   ],
+   "N": 10,
+   "characters": 9,
+   "holds": 9,
+   "nonzero_L": 9,
+   "max_rational_resid": 1.3877787807814457e-16,
+   "P1_fails": 9,
+   "P2_fails": 9,
+   "P3_fails": 9,
+   "eta_untw": "1/3",
+   "second_computation": [
+    {
+     "i": 0,
+     "j": 5,
+     "period_q": "-1/3",
+     "second/4pi2": -0.3333333333333334,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 2,
+     "period_q": "-11/60",
+     "second/4pi2": -0.18333333333333127,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 7,
+     "period_q": "1/15",
+     "second/4pi2": 0.06666666666666662,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 4,
+     "period_q": "1/60",
+     "second/4pi2": 0.01666666666666825,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 9,
+     "period_q": "4/15",
+     "second/4pi2": 0.26666666666666694,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 130.3
+  },
+  "+LLRLRR 1": {
+   "M": [
+    [
+     13,
+     5
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "N": 13,
+   "characters": 12,
+   "holds": 12,
+   "nonzero_L": 12,
+   "max_rational_resid": 1.1102230246251565e-16,
+   "P1_fails": 12,
+   "P2_fails": 0,
+   "P3_fails": 12,
+   "eta_untw": "0",
+   "second_computation": [
+    {
+     "i": 1,
+     "j": 8,
+     "period_q": "-4/13",
+     "second/4pi2": -0.30769230769230765,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "period_q": "-3/13",
+     "second/4pi2": -0.2307692307692309,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 3,
+     "j": 11,
+     "period_q": "3/13",
+     "second/4pi2": 0.23076923076923053,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 6,
+     "period_q": "1/13",
+     "second/4pi2": 0.07692307692307687,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 5,
+     "j": 1,
+     "period_q": "4/13",
+     "second/4pi2": 0.30769230769230776,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 133.0
+  },
+  "-LLRRLR 1": {
+   "M": [
+    [
+     -12,
+     -7
+    ],
+    [
+     -5,
+     -3
+    ]
+   ],
+   "N": 17,
+   "characters": 16,
+   "holds": 16,
+   "nonzero_L": 16,
+   "max_rational_resid": 1.1102230246251565e-16,
+   "P1_fails": 16,
+   "P2_fails": 0,
+   "P3_fails": 16,
+   "eta_untw": "0",
+   "second_computation": [
+    {
+     "i": 1,
+     "j": 11,
+     "period_q": "-7/34",
+     "second/4pi2": -0.20588235294117663,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 2,
+     "j": 5,
+     "period_q": "-11/34",
+     "second/4pi2": -0.32352941176471106,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 3,
+     "j": 16,
+     "period_q": "5/34",
+     "second/4pi2": 0.14705882352940342,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 4,
+     "j": 10,
+     "period_q": "7/34",
+     "second/4pi2": 0.20588235294118096,
+     "how": "cone sum",
+     "agree": "True"
+    },
+    {
+     "i": 5,
+     "j": 4,
+     "period_q": "-5/34",
+     "second/4pi2": -0.14705882352940883,
+     "how": "cone sum",
+     "agree": "True"
+    }
+   ],
+   "seconds": 150.6
+  }
+ },
+ "rows": [
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 5,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 1.2212453270876722e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 10,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 1.2212453270876722e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 15,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 20,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 9.581202998207819e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 25,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 30,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 1.2212453270876722e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 0,
+   "j": 35,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 2,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 7,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 5.065392549852277e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 12,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 17,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 22,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 27,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 32,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.4593109467002705e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 1,
+   "j": 37,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 1.27675647831893e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 4,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 4.163336342344337e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 9,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 14,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.355227538141662e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 19,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 24,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.077671781985373e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 29,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 34,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.914335439641036e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 2,
+   "j": 39,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 1,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 6,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 11,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 5.100087019371813e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 16,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 21,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 26,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 1.0720591081536668e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 31,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 3,
+   "j": 36,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 3,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 8,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 13,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 18,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.304512053934559e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 23,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 28,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 8.326672684688674e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 33,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 4,
+   "j": 38,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 9.159339953157541e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 0,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 5,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 10,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 2.0816681711721685e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 15,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 8.743006318923108e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 20,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 6.938893903907228e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 25,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 30,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 5,
+   "j": 35,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 2,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 7.355227538141662e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 7,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.875644580934704e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 12,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 17,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 22,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 27,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 32,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.0130785099704553e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 6,
+   "j": 37,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 4,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 9,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 9.71445146547012e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 14,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 19,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 1.2212453270876722e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 24,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 29,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 34,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 9.922618282587337e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 7,
+   "j": 39,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 5.412337245047638e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 1,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 4.198030811863873e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 6,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 11,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 4.3021142204224816e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 16,
+   "eta_A": "12/5",
+   "Lodd1/4pi2": "-3/5",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 21,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 7.73686670285656e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 26,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 31,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 2.671474153004283e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 8,
+   "j": 36,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 3,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 8,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 6.973588373426765e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 13,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 18,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 23,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.7021722333370235e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 28,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 33,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 7.494005416219807e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 9,
+   "j": 38,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 0,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 5,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 10,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 15,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 20,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 25,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 30,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 10,
+   "j": 35,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 2,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 7,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 12,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 17,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 1.3322676295501878e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 22,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 27,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 32,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 11,
+   "j": 37,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 8.430756093247282e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 4,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 9,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 14,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.355227538141662e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 19,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 24,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 29,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 34,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.632783294297951e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 12,
+   "j": 39,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 1,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 6,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 8.638922910364499e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 11,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 16,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 21,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 26,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 31,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 13,
+   "j": 36,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 3,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 5.342948306008566e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 8,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 7.077671781985373e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 13,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 18,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 6.938893903907228e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 23,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 4.753142324176451e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 28,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 33,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 14,
+   "j": 38,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 6.38378239159465e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 0,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 5,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 5.273559366969494e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 10,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 15,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 20,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 7.494005416219807e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 25,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 30,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 15,
+   "j": 35,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 8.049116928532385e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 2,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 3.469446951953614e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 7,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 12,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 17,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 22,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 6.522560269672795e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 27,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 32,
+   "eta_A": "-12/5",
+   "Lodd1/4pi2": "3/5",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 16,
+   "j": 37,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 9.71445146547012e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 4,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 9,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 3.434752482434078e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 14,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 1.016547956922409e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 19,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 24,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 7.771561172376096e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 29,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 34,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 17,
+   "j": 39,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 7.771561172376096e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 1,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 1.304512053934559e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 6,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 11,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 1.3877787807814457e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 16,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.0130785099704553e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 21,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 26,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.0685896612017132e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 31,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 18,
+   "j": 36,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 3,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 8,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 9.54097911787244e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 13,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 8.673617379884035e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 18,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 5.828670879282072e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 23,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 28,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 33,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 19,
+   "j": 38,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 0,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 4.736470408718554e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 5,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 5.273559366969494e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 10,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 15,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 20,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 5.115388041416039e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 25,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 4.163336342344337e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 30,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 7.771561172376096e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 20,
+   "j": 35,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 5.273559366969494e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 2,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 7,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 12,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 17,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 22,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 27,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 1.0755285551056204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 32,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 1.0443035325380379e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 21,
+   "j": 37,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 1.0269562977782698e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 4,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.0816681711721685e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 9,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 14,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.0685896612017132e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 19,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 24,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 29,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 1.4988010832439613e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 34,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.0130785099704553e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 22,
+   "j": 39,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 1.2490009027033011e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 1,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 9.159339953157541e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 6,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 11,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 16,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 8.049116928532385e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 21,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 26,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 8.98586760555986e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 31,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 4.753142324176451e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 23,
+   "j": 36,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 3,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 1.0269562977782698e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 8,
+   "eta_A": "-12/5",
+   "Lodd1/4pi2": "3/5",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 13,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 8.604228440844963e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 18,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 5.967448757360216e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 23,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 28,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 33,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 24,
+   "j": 38,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 4.163336342344337e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 0,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 5,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 8.743006318923108e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 10,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 15,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 20,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 7.771561172376096e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 25,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 30,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 25,
+   "j": 35,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 5.828670879282072e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 2,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 5.273559366969494e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 7,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 12,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 17,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 3.7816971776294395e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 22,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 7.91033905045424e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 27,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 32,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 5.967448757360216e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 26,
+   "j": 37,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 6.938893903907228e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 4,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 9,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 14,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 19,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 9.055256544598933e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 24,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 29,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.163336342344337e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 34,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 9.055256544598933e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 27,
+   "j": 39,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 1,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 6,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.077671781985373e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 11,
+   "eta_A": "-21/10",
+   "Lodd1/4pi2": "21/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 16,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 21,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 26,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 31,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 28,
+   "j": 36,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 3,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 9.367506770274758e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 8,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 1.1900203045200897e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 13,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 9.159339953157541e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 18,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 23,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 1.3322676295501878e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 28,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 33,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 29,
+   "j": 38,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 0,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 5,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 4.718447854656915e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 10,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 15,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 20,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 25,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 30,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 30,
+   "j": 35,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 2,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 5.828670879282072e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 7,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 12,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 17,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.806255641895632e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 22,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 27,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 32,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.424616477180734e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 31,
+   "j": 37,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 4,
+   "eta_A": "-8/5",
+   "Lodd1/4pi2": "2/5",
+   "holds": true,
+   "resid": 1.1657341758564144e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 9,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 14,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.1518563880486e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 19,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 7.147060721024445e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 24,
+   "eta_A": "12/5",
+   "Lodd1/4pi2": "-3/5",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 29,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 2.42861286636753e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 34,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 32,
+   "j": 39,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 5.204170427930421e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 1,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 6.036837696399289e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 6,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 1.0234868508263162e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 11,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 16,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 8.049116928532385e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 21,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 1.3322676295501878e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 26,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 31,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 9.71445146547012e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 33,
+   "j": 36,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 9.43689570931383e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 3,
+   "eta_A": "-19/10",
+   "Lodd1/4pi2": "19/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 8,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.0269562977782698e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 13,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 18,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 23,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 28,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 33,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 7.28583859910259e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 34,
+   "j": 38,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 7.91033905045424e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 0,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 5,
+   "eta_A": "-3/2",
+   "Lodd1/4pi2": "3/8",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 10,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 15,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 20,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 7.355227538141662e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 25,
+   "eta_A": "1/2",
+   "Lodd1/4pi2": "-1/8",
+   "holds": true,
+   "resid": 9.159339953157541e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 30,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 35,
+   "j": 35,
+   "eta_A": "3/2",
+   "Lodd1/4pi2": "-3/8",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 2,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 7.077671781985373e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 7,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 8.326672684688674e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 12,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 8.326672684688674e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 17,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 22,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.1934897514720433e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 27,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 32,
+   "eta_A": "8/5",
+   "Lodd1/4pi2": "-2/5",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 36,
+   "j": 37,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 4,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 9.992007221626409e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 9,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 14,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 1.0547118733938987e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 19,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 6.38378239159465e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 24,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 29,
+   "eta_A": "-1/10",
+   "Lodd1/4pi2": "1/40",
+   "holds": true,
+   "resid": 5.655198531684391e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 34,
+   "eta_A": "19/10",
+   "Lodd1/4pi2": "-19/40",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 37,
+   "j": 39,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 1,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 7.216449660063518e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 6,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 4.0245584642661925e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 11,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 16,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.077671781985373e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 21,
+   "eta_A": "-11/10",
+   "Lodd1/4pi2": "11/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 26,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 7.355227538141662e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 31,
+   "eta_A": "9/10",
+   "Lodd1/4pi2": "-9/40",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 38,
+   "j": 36,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 3.7470027081099033e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 3,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 1.1102230246251565e-15
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 8,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 6.904199434387692e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 13,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 18,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 6.661338147750939e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 23,
+   "eta_A": "-9/10",
+   "Lodd1/4pi2": "9/40",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 28,
+   "eta_A": "21/10",
+   "Lodd1/4pi2": "-21/40",
+   "holds": true,
+   "resid": 8.881784197001252e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 33,
+   "eta_A": "1/10",
+   "Lodd1/4pi2": "-1/40",
+   "holds": true,
+   "resid": 4.0245584642661925e-16
+  },
+  {
+   "level": [
+    "+LR",
+    6
+   ],
+   "i": 39,
+   "j": 38,
+   "eta_A": "11/10",
+   "Lodd1/4pi2": "-11/40",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 0,
+   "j": 5,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 0,
+   "j": 10,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.636779683484747e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 0,
+   "j": 15,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 0,
+   "j": 20,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.636779683484747e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 1,
+   "j": 2,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 1,
+   "j": 7,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 1,
+   "j": 12,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 1,
+   "j": 17,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 1,
+   "j": 22,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 2,
+   "j": 4,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 2,
+   "j": 9,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 2,
+   "j": 14,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 2,
+   "j": 19,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 2,
+   "j": 24,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 3,
+   "j": 1,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 3,
+   "j": 6,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 1.2836953722228372e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 3,
+   "j": 11,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 3,
+   "j": 16,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 3.122502256758253e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 3,
+   "j": 21,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 5.273559366969494e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 4,
+   "j": 3,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 4,
+   "j": 8,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 4,
+   "j": 13,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 1.9081958235744878e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 4,
+   "j": 18,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 4,
+   "j": 23,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 5,
+   "j": 0,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 9.71445146547012e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 5,
+   "j": 5,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 5,
+   "j": 10,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 5,
+   "j": 15,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 5,
+   "j": 20,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.8041124150158794e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 6,
+   "j": 2,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 6,
+   "j": 7,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 6,
+   "j": 12,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 6,
+   "j": 17,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 6,
+   "j": 22,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 2.2898349882893854e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 7,
+   "j": 4,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 7,
+   "j": 9,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 7,
+   "j": 14,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 7,
+   "j": 19,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 7,
+   "j": 24,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 8,
+   "j": 1,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 8,
+   "j": 6,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 8,
+   "j": 11,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 8,
+   "j": 16,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 8,
+   "j": 21,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 1.5612511283791264e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 9,
+   "j": 3,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 9,
+   "j": 8,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 9,
+   "j": 13,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 1.9081958235744878e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 9,
+   "j": 18,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 9,
+   "j": 23,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 10,
+   "j": 0,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 10,
+   "j": 5,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 10,
+   "j": 10,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 10,
+   "j": 15,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.249000902703301e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 10,
+   "j": 20,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 11,
+   "j": 2,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 11,
+   "j": 7,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 11,
+   "j": 12,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 11,
+   "j": 17,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 11,
+   "j": 22,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 12,
+   "j": 4,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 1.8041124150158794e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 12,
+   "j": 9,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 12,
+   "j": 14,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 12,
+   "j": 19,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 12,
+   "j": 24,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 13,
+   "j": 1,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 13,
+   "j": 6,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 13,
+   "j": 11,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 13,
+   "j": 16,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 1.700029006457271e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 13,
+   "j": 21,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 2.706168622523819e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 14,
+   "j": 3,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 14,
+   "j": 8,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 14,
+   "j": 13,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 14,
+   "j": 18,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 14,
+   "j": 23,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 15,
+   "j": 0,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 1.5265566588595902e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 15,
+   "j": 5,
+   "eta_A": "-2",
+   "Lodd1/4pi2": "1/2",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 15,
+   "j": 10,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 15,
+   "j": 15,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 15,
+   "j": 20,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 16,
+   "j": 2,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 16,
+   "j": 7,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 3.0531133177191805e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 16,
+   "j": 12,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 16,
+   "j": 17,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 16,
+   "j": 22,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 3.469446951953614e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 17,
+   "j": 4,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 8.673617379884035e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 17,
+   "j": 9,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 17,
+   "j": 14,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 17,
+   "j": 19,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 17,
+   "j": 24,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 18,
+   "j": 1,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 18,
+   "j": 6,
+   "eta_A": "-42/25",
+   "Lodd1/4pi2": "21/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 18,
+   "j": 11,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 18,
+   "j": 16,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 18,
+   "j": 21,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 3.0531133177191805e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 19,
+   "j": 3,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 2.2898349882893854e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 19,
+   "j": 8,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 19,
+   "j": 13,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 19,
+   "j": 18,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 19,
+   "j": 23,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 20,
+   "j": 0,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.8041124150158794e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 20,
+   "j": 5,
+   "eta_A": "-2/5",
+   "Lodd1/4pi2": "1/10",
+   "holds": true,
+   "resid": 1.5265566588595902e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 20,
+   "j": 10,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.0816681711721685e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 20,
+   "j": 15,
+   "eta_A": "2",
+   "Lodd1/4pi2": "-1/2",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 20,
+   "j": 20,
+   "eta_A": "2/5",
+   "Lodd1/4pi2": "-1/10",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 21,
+   "j": 2,
+   "eta_A": "-38/25",
+   "Lodd1/4pi2": "19/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 21,
+   "j": 7,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 21,
+   "j": 12,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 7.632783294297951e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 21,
+   "j": 17,
+   "eta_A": "2/25",
+   "Lodd1/4pi2": "-1/50",
+   "holds": true,
+   "resid": 5.898059818321144e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 21,
+   "j": 22,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 22,
+   "j": 4,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 22,
+   "j": 9,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 1.734723475976807e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 22,
+   "j": 14,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 22,
+   "j": 19,
+   "eta_A": "-2/25",
+   "Lodd1/4pi2": "1/50",
+   "holds": true,
+   "resid": 5.204170427930421e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 22,
+   "j": 24,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 23,
+   "j": 1,
+   "eta_A": "-22/25",
+   "Lodd1/4pi2": "11/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 23,
+   "j": 6,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 23,
+   "j": 11,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 23,
+   "j": 16,
+   "eta_A": "18/25",
+   "Lodd1/4pi2": "-9/50",
+   "holds": true,
+   "resid": 3.608224830031759e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 23,
+   "j": 21,
+   "eta_A": "38/25",
+   "Lodd1/4pi2": "-19/50",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 24,
+   "j": 3,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 24,
+   "j": 8,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 24,
+   "j": 13,
+   "eta_A": "-18/25",
+   "Lodd1/4pi2": "9/50",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 24,
+   "j": 18,
+   "eta_A": "42/25",
+   "Lodd1/4pi2": "-21/50",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LR",
+    5
+   ],
+   "i": 24,
+   "j": 23,
+   "eta_A": "22/25",
+   "Lodd1/4pi2": "-11/50",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 0,
+   "j": 3,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 1,
+   "j": 2,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 1,
+   "j": 5,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 2,
+   "j": 1,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 2,
+   "j": 4,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 3,
+   "j": 0,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 3,
+   "j": 3,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 4,
+   "j": 2,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 4,
+   "j": 5,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 5,
+   "j": 1,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    2
+   ],
+   "i": 5,
+   "j": 4,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 3,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 6,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 9,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 12,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 15,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 18,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 0,
+   "j": 21,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 2,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 5,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 6.938893903907228e-18
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 11,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 3.122502256758253e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 14,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 3.469446951953614e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 17,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 20,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 1,
+   "j": 23,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.198030811863873e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 1,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.706168622523819e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 4,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 7,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 13,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 16,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 19,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 2,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 3,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 6,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 9,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 15,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 18,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 3,
+   "j": 21,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 5,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 8,
+   "eta_A": "8/3",
+   "Lodd1/4pi2": "-2/3",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 11,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 3.608224830031759e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 17,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 20,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 4,
+   "j": 23,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 1,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 4,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 7,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 10,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 13,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 19,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 5,
+   "j": 22,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 0,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 3,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 6,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 9,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 3.0531133177191805e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 12,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 15,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 18,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 6,
+   "j": 21,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 2,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.0245584642661925e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 5,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 8.673617379884035e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 11,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 14,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 17,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.7694179454963432e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 20,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 7,
+   "j": 23,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 1,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 4,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 7,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 13,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 16,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 19,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 8,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 3,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 6,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 9,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 15,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 18,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 9,
+   "j": 21,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 4.718447854656915e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 5,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 8,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 11,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 7.28583859910259e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 17,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.1163626406917047e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 20,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 10,
+   "j": 23,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 1,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 4,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 7,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 10,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 13,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 9.71445146547012e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 19,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 11,
+   "j": 22,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 0,
+   "eta_A": "-8/3",
+   "Lodd1/4pi2": "2/3",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 3,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.8041124150158794e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 6,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 9,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 12,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 15,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 18,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 12,
+   "j": 21,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 2,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 5,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.5673907444456745e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 11,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 14,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 17,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 20,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 13,
+   "j": 23,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 1,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 4,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 7,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 9.71445146547012e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 3.608224830031759e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 13,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 16,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 19,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 14,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 3,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 4.718447854656915e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 6,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 9,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 15,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 18,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 15,
+   "j": 21,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.914335439641036e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 5,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 8,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 11,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 17,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 20,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 16,
+   "j": 23,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 1,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 4,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 7,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.185751579730777e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 10,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 13,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 19,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 17,
+   "j": 22,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.983724378680108e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 0,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 3,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 6,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 9,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 12,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 15,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 18,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 18,
+   "j": 21,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 2,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 5,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 11,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 14,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 17,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 20,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 19,
+   "j": 23,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 1,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 4,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 7,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 13,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 16,
+   "eta_A": "8/3",
+   "Lodd1/4pi2": "-2/3",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 19,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 20,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 3,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 6,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 9,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 15,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 18,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 21,
+   "j": 21,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 5,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.3368086899420177e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 8,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 6.938893903907228e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 11,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 17,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 20,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 22,
+   "j": 23,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.2836953722228372e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 1,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.734723475976807e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 4,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 7,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 10,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 13,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 1.5265566588595902e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 19,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "+LLR",
+    4
+   ],
+   "i": 23,
+   "j": 22,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 3,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 6,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 9,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 12,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 15,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 18,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 0,
+   "j": 21,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 2,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 5,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 6.938893903907228e-18
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 11,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 3.122502256758253e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 14,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 3.469446951953614e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 17,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 20,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 1,
+   "j": 23,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.198030811863873e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 1,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.706168622523819e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 4,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 7,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 13,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 16,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 19,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 2,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 3,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 6,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 9,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 15,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 18,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 3,
+   "j": 21,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 5,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 8,
+   "eta_A": "8/3",
+   "Lodd1/4pi2": "-2/3",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 11,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 3.608224830031759e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 17,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 20,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 4,
+   "j": 23,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 1,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 4,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 7,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 6.106226635438361e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 10,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 13,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 19,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 5,
+   "j": 22,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 0,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 3,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 6,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 9,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 3.0531133177191805e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 12,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 15,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 18,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 6,
+   "j": 21,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 2,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.0245584642661925e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 5,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 8.673617379884035e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 11,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 14,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 17,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.7694179454963432e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 20,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 7,
+   "j": 23,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 1,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 4,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 7,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 13,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 16,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 19,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 8,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 3,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 6,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 9,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 15,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 18,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 9,
+   "j": 21,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 4.718447854656915e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 5,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 8,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 11,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 7.28583859910259e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 17,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.1163626406917047e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 20,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 10,
+   "j": 23,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 1,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 4,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 7,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 10,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 13,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 9.71445146547012e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 19,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 11,
+   "j": 22,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 0,
+   "eta_A": "-8/3",
+   "Lodd1/4pi2": "2/3",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 3,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.8041124150158794e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 6,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 9,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 12,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 15,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 18,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 12,
+   "j": 21,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 2,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 5,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.5673907444456745e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 11,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 14,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 17,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 20,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 13,
+   "j": 23,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 1,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 4,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 7,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 9.71445146547012e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 3.608224830031759e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 13,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 16,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 19,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 4.440892098500626e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 14,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 3,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 4.718447854656915e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 6,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 9,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 15,
+   "eta_A": "-5/12",
+   "Lodd1/4pi2": "5/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 18,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 15,
+   "j": 21,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.914335439641036e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 5,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 8,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 11,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 17,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 20,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 16,
+   "j": 23,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 1,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 4,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 7,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 2.185751579730777e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 10,
+   "eta_A": "-11/6",
+   "Lodd1/4pi2": "11/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 13,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 19,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 17,
+   "j": 22,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.983724378680108e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 0,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 3,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 6,
+   "eta_A": "-5/3",
+   "Lodd1/4pi2": "5/12",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 9,
+   "eta_A": "-17/12",
+   "Lodd1/4pi2": "17/48",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 12,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 15,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 18,
+   "eta_A": "7/3",
+   "Lodd1/4pi2": "-7/12",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 18,
+   "j": 21,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 2,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 5,
+   "eta_A": "-25/12",
+   "Lodd1/4pi2": "25/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 8,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 11,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 14,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 17,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 20,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 19,
+   "j": 23,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 1,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 4,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 7,
+   "eta_A": "-13/12",
+   "Lodd1/4pi2": "13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 10,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 13,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 3.885780586188048e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 16,
+   "eta_A": "8/3",
+   "Lodd1/4pi2": "-2/3",
+   "holds": true,
+   "resid": 5.551115123125783e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 19,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 20,
+   "j": 22,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.7755575615628914e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 0,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 3,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 6,
+   "eta_A": "-7/6",
+   "Lodd1/4pi2": "7/24",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 9,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 3.3306690738754696e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 12,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 4.996003610813204e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 15,
+   "eta_A": "7/12",
+   "Lodd1/4pi2": "-7/48",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 18,
+   "eta_A": "5/6",
+   "Lodd1/4pi2": "-5/24",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 21,
+   "j": 21,
+   "eta_A": "19/12",
+   "Lodd1/4pi2": "-19/48",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 2,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 5,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 4.3368086899420177e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 8,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 6.938893903907228e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 11,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 14,
+   "eta_A": "-1/3",
+   "Lodd1/4pi2": "1/12",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 17,
+   "eta_A": "23/12",
+   "Lodd1/4pi2": "-23/48",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 20,
+   "eta_A": "2/3",
+   "Lodd1/4pi2": "-1/6",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 22,
+   "j": 23,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.2836953722228372e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 1,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.734723475976807e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 4,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 7,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 10,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 2.3592239273284576e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 13,
+   "eta_A": "-1/12",
+   "Lodd1/4pi2": "1/48",
+   "holds": true,
+   "resid": 1.457167719820518e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 16,
+   "eta_A": "1/6",
+   "Lodd1/4pi2": "-1/24",
+   "holds": true,
+   "resid": 1.5265566588595902e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 19,
+   "eta_A": "11/12",
+   "Lodd1/4pi2": "-11/48",
+   "holds": true,
+   "resid": 1.942890293094024e-16
+  },
+  {
+   "level": [
+    "-LLR",
+    4
+   ],
+   "i": 23,
+   "j": 22,
+   "eta_A": "13/6",
+   "Lodd1/4pi2": "-13/24",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 1,
+   "j": 9,
+   "eta_A": "20/21",
+   "Lodd1/4pi2": "-5/21",
+   "holds": true,
+   "resid": 2.220446049250313e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 2,
+   "j": 18,
+   "eta_A": "-4/21",
+   "Lodd1/4pi2": "1/21",
+   "holds": true,
+   "resid": 7.632783294297951e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 3,
+   "j": 6,
+   "eta_A": "40/21",
+   "Lodd1/4pi2": "-10/21",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 4,
+   "j": 15,
+   "eta_A": "-16/21",
+   "Lodd1/4pi2": "4/21",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 5,
+   "j": 3,
+   "eta_A": "-4/21",
+   "Lodd1/4pi2": "1/21",
+   "holds": true,
+   "resid": 1.8735013540549517e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 6,
+   "j": 12,
+   "eta_A": "-8/21",
+   "Lodd1/4pi2": "2/21",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 7,
+   "j": 0,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 8,
+   "j": 9,
+   "eta_A": "20/21",
+   "Lodd1/4pi2": "-5/21",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 9,
+   "j": 18,
+   "eta_A": "-32/21",
+   "Lodd1/4pi2": "8/21",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 10,
+   "j": 6,
+   "eta_A": "-16/21",
+   "Lodd1/4pi2": "4/21",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 11,
+   "j": 15,
+   "eta_A": "-16/21",
+   "Lodd1/4pi2": "4/21",
+   "holds": true,
+   "resid": 2.498001805406602e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 12,
+   "j": 3,
+   "eta_A": "-32/21",
+   "Lodd1/4pi2": "8/21",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 13,
+   "j": 12,
+   "eta_A": "20/21",
+   "Lodd1/4pi2": "-5/21",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 14,
+   "j": 0,
+   "eta_A": "-4/3",
+   "Lodd1/4pi2": "1/3",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 15,
+   "j": 9,
+   "eta_A": "-8/21",
+   "Lodd1/4pi2": "2/21",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 16,
+   "j": 18,
+   "eta_A": "-4/21",
+   "Lodd1/4pi2": "1/21",
+   "holds": true,
+   "resid": 2.2898349882893854e-16
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 17,
+   "j": 6,
+   "eta_A": "-16/21",
+   "Lodd1/4pi2": "4/21",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 18,
+   "j": 15,
+   "eta_A": "40/21",
+   "Lodd1/4pi2": "-10/21",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 19,
+   "j": 3,
+   "eta_A": "-4/21",
+   "Lodd1/4pi2": "1/21",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLR",
+    2
+   ],
+   "i": 20,
+   "j": 12,
+   "eta_A": "20/21",
+   "Lodd1/4pi2": "-5/21",
+   "holds": true,
+   "resid": 1.6653345369377348e-16
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 1,
+   "j": 3,
+   "eta_A": "13/12",
+   "Lodd1/4pi2": "-13/48",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 2,
+   "j": 6,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 3,
+   "j": 1,
+   "eta_A": "-11/12",
+   "Lodd1/4pi2": "11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 4,
+   "j": 4,
+   "eta_A": "1/3",
+   "Lodd1/4pi2": "-1/12",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 5,
+   "j": 7,
+   "eta_A": "-11/12",
+   "Lodd1/4pi2": "11/48",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 6,
+   "j": 2,
+   "eta_A": "-2/3",
+   "Lodd1/4pi2": "1/6",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLR",
+    1
+   ],
+   "i": 7,
+   "j": 5,
+   "eta_A": "13/12",
+   "Lodd1/4pi2": "-13/48",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRR",
+    1
+   ],
+   "i": 0,
+   "j": 1,
+   "eta_A": "1",
+   "Lodd1/4pi2": "-1/4",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLRR",
+    1
+   ],
+   "i": 1,
+   "j": 0,
+   "eta_A": "-1",
+   "Lodd1/4pi2": "1/4",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLRR",
+    1
+   ],
+   "i": 1,
+   "j": 1,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 2.9743479368764455e-17
+  },
+  {
+   "level": [
+    "+LLLLR",
+    1
+   ],
+   "i": 1,
+   "j": 0,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLLR",
+    1
+   ],
+   "i": 2,
+   "j": 0,
+   "eta_A": "-1",
+   "Lodd1/4pi2": "1/4",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLLR",
+    1
+   ],
+   "i": 3,
+   "j": 0,
+   "eta_A": "-1/2",
+   "Lodd1/4pi2": "1/8",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLLRR",
+    1
+   ],
+   "i": 0,
+   "j": 3,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLLRR",
+    1
+   ],
+   "i": 2,
+   "j": 0,
+   "eta_A": "-1",
+   "Lodd1/4pi2": "1/4",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLLRR",
+    1
+   ],
+   "i": 2,
+   "j": 3,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 3.4817130210913645e-17
+  },
+  {
+   "level": [
+    "+LLLRR",
+    1
+   ],
+   "i": 4,
+   "j": 0,
+   "eta_A": "-1",
+   "Lodd1/4pi2": "1/4",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLLRR",
+    1
+   ],
+   "i": 4,
+   "j": 3,
+   "eta_A": "0",
+   "Lodd1/4pi2": "0",
+   "holds": true,
+   "resid": 2.4178562646467807e-17
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 0,
+   "j": 5,
+   "eta_A": "4/3",
+   "Lodd1/4pi2": "-1/3",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 2,
+   "j": 2,
+   "eta_A": "11/15",
+   "Lodd1/4pi2": "-11/60",
+   "holds": true,
+   "resid": 1.3877787807814457e-16
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 2,
+   "j": 7,
+   "eta_A": "-4/15",
+   "Lodd1/4pi2": "1/15",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 4,
+   "j": 4,
+   "eta_A": "-1/15",
+   "Lodd1/4pi2": "1/60",
+   "holds": true,
+   "resid": 5.204170427930421e-17
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 4,
+   "j": 9,
+   "eta_A": "-16/15",
+   "Lodd1/4pi2": "4/15",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 6,
+   "j": 1,
+   "eta_A": "-16/15",
+   "Lodd1/4pi2": "4/15",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 6,
+   "j": 6,
+   "eta_A": "-1/15",
+   "Lodd1/4pi2": "1/60",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 8,
+   "j": 3,
+   "eta_A": "-4/15",
+   "Lodd1/4pi2": "1/15",
+   "holds": true,
+   "resid": 4.163336342344337e-17
+  },
+  {
+   "level": [
+    "-LLLRR",
+    1
+   ],
+   "i": 8,
+   "j": 8,
+   "eta_A": "11/15",
+   "Lodd1/4pi2": "-11/60",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 1,
+   "j": 8,
+   "eta_A": "16/13",
+   "Lodd1/4pi2": "-4/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 2,
+   "j": 3,
+   "eta_A": "12/13",
+   "Lodd1/4pi2": "-3/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 3,
+   "j": 11,
+   "eta_A": "-12/13",
+   "Lodd1/4pi2": "3/13",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 4,
+   "j": 6,
+   "eta_A": "-4/13",
+   "Lodd1/4pi2": "1/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 5,
+   "j": 1,
+   "eta_A": "-16/13",
+   "Lodd1/4pi2": "4/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 6,
+   "j": 9,
+   "eta_A": "4/13",
+   "Lodd1/4pi2": "-1/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 7,
+   "j": 4,
+   "eta_A": "4/13",
+   "Lodd1/4pi2": "-1/13",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 8,
+   "j": 12,
+   "eta_A": "-16/13",
+   "Lodd1/4pi2": "4/13",
+   "holds": true,
+   "resid": 0.0
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 9,
+   "j": 7,
+   "eta_A": "-4/13",
+   "Lodd1/4pi2": "1/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 10,
+   "j": 2,
+   "eta_A": "-12/13",
+   "Lodd1/4pi2": "3/13",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 11,
+   "j": 10,
+   "eta_A": "12/13",
+   "Lodd1/4pi2": "-3/13",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "+LLRLRR",
+    1
+   ],
+   "i": 12,
+   "j": 5,
+   "eta_A": "16/13",
+   "Lodd1/4pi2": "-4/13",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 1,
+   "j": 11,
+   "eta_A": "14/17",
+   "Lodd1/4pi2": "-7/34",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 2,
+   "j": 5,
+   "eta_A": "22/17",
+   "Lodd1/4pi2": "-11/34",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 3,
+   "j": 16,
+   "eta_A": "-10/17",
+   "Lodd1/4pi2": "5/34",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 4,
+   "j": 10,
+   "eta_A": "-14/17",
+   "Lodd1/4pi2": "7/34",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 5,
+   "j": 4,
+   "eta_A": "10/17",
+   "Lodd1/4pi2": "-5/34",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 6,
+   "j": 15,
+   "eta_A": "-6/17",
+   "Lodd1/4pi2": "3/34",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 7,
+   "j": 9,
+   "eta_A": "6/17",
+   "Lodd1/4pi2": "-3/34",
+   "holds": true,
+   "resid": 6.938893903907228e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 8,
+   "j": 3,
+   "eta_A": "-22/17",
+   "Lodd1/4pi2": "11/34",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 9,
+   "j": 14,
+   "eta_A": "-22/17",
+   "Lodd1/4pi2": "11/34",
+   "holds": true,
+   "resid": 1.1102230246251565e-16
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 10,
+   "j": 8,
+   "eta_A": "6/17",
+   "Lodd1/4pi2": "-3/34",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 11,
+   "j": 2,
+   "eta_A": "-6/17",
+   "Lodd1/4pi2": "3/34",
+   "holds": true,
+   "resid": 1.3877787807814457e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 12,
+   "j": 13,
+   "eta_A": "10/17",
+   "Lodd1/4pi2": "-5/34",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 13,
+   "j": 7,
+   "eta_A": "-14/17",
+   "Lodd1/4pi2": "7/34",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 14,
+   "j": 1,
+   "eta_A": "-10/17",
+   "Lodd1/4pi2": "5/34",
+   "holds": true,
+   "resid": 2.7755575615628914e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 15,
+   "j": 12,
+   "eta_A": "22/17",
+   "Lodd1/4pi2": "-11/34",
+   "holds": true,
+   "resid": 5.551115123125783e-17
+  },
+  {
+   "level": [
+    "-LLRRLR",
+    1
+   ],
+   "i": 16,
+   "j": 6,
+   "eta_A": "14/17",
+   "Lodd1/4pi2": "-7/34",
+   "holds": true,
+   "resid": 8.326672684688674e-17
+  }
+ ],
+ "summary": {
+  "levels_run": 13,
+  "levels_skipped": [],
+  "characters": 911,
+  "holds_on": 911,
+  "identity_on_every_fresh_character": true,
+  "max_rational_resid": 1.4988010832439613e-15,
+  "second_computation_agrees": true,
+  "plants": {
+   "P1": 905,
+   "P2": 437,
+   "P3": 903
+  }
+ }
+}

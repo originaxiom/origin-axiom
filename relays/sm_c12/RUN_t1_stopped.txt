@@ -1,0 +1,2 @@
++LR 6 N 40 chars 319 holds 319 P1 316 P2 0 P3 316 second True 51.8 s
+exit 143

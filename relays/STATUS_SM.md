@@ -1,8 +1,8 @@
 seat: sm
 read: M25
-state: SM-C12 sealed at the owner's request (the principle note's legs tested; covers SM-C9b); its run next
+state: SM-C12 delivered (the principle note tested); waiting on main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main's word on SM-C9b (the sealed confirmation of eta_A = -L_odd(1, chi_c)/pi^2 on fresh characters)
+needs: main's recomputation and banking of eta_A = -L_odd(1, chi_c)/pi^2 (sealed on 911 fresh characters, SM-C12 T1; SM-C9b is covered by it)
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -302,3 +302,10 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     chirality), and W3 on the closed torus bundles of the tick.
   - W4 is withdrawn as not well posed (a non-orientable object has no hand of its own). Two expectations were revised
     by derivation before any run, and both revisions are recorded in the card's § 0.
+- **SM-C12 delivered** (`relays/SM_C12_THE_PRINCIPLE_NOTE_TESTED.md`).
+  - **T1 confirms** η_A = −L_odd(1, χ_c)/π² on 911 fresh characters (13 levels). The second computation agrees, and
+    the plants fire. One level's second computation was the 96-node period, as said.
+  - **T2 refutes** the note's in-passing reading: the orientation-odd remainder is η = (#L − #R)/3, the letter
+    imbalance, not chirality. Its sum over characters is (sgn(2 − tr) − 1)η (post hoc; the sealed form missed a sign).
+  - **T3:** W3 happens. There is no remainder on any closed torus bundle of the tick, so the end is the only place.
+  - **W4 is withdrawn.** The card's two slips (the control's sign, the scope of invariants) are said on the page.

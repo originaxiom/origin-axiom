@@ -4,6 +4,14 @@
 27be4c92f (`relays/SM_PRINCIPLE_NOTE_EXPECTATIONS.md`). A reading of results, not a new result. No frame value; nothing
 compared with a measured number.*
 
+> **Tested, 2026-11-14 (SM-C12, `relays/SM_C12_THE_PRINCIPLE_NOTE_TESTED.md`, sealed at e90147a67).**
+> - **Confirmed:** the hand's invariant. η_A = −L_odd(1, χ_c)/π² holds on all 911 characters of 13 fresh levels.
+> - **Refuted and corrected:** the in-passing reading below. The orientation-odd remainder is the act's letter
+>   imbalance, η = (#L − #R)/3; it is not the act's chirality, since two chiral states have η = 0.
+> - **Refuted (W3 happens):** a closed arrow-reversing object carries no remainder on the tick's family. The end is
+>   the only place, and the fusion at one tick holds at the end only.
+> - **Withdrawn:** W4, as not well posed. The text below is left as written.
+
 ## The answer
 
 **The open end.** We have carried it as a premise of the grammar: the puncture, the carrier axiom, and GENESIS FK14's

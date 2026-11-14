@@ -1,0 +1,28 @@
++LR 6 N 40 chars 319 holds 319 P1 316 P2 0 P3 316 second True 52.1 s
+-LR 5 N 25 chars 124 holds 124 P1 124 P2 0 P3 124 second True 54.2 s
++LLR 2 N 6 chars 11 holds 11 P1 11 P2 11 P3 10 second True 56.2 s
++LLR 4 N 24 chars 191 holds 191 P1 191 P2 191 P3 190 second True 87.7 s
+-LLR 4 N 24 chars 191 holds 191 P1 191 P2 191 P3 190 second True 117.4 s
++LLLR 2 N 21 chars 20 holds 20 P1 20 P2 20 P3 20 second True 121.2 s
++LLRLR 1 N 8 chars 7 holds 7 P1 7 P2 7 P3 6 second True 122.7 s
++LLRR 1 N 2 chars 3 holds 3 P1 2 P2 0 P3 2 second True 123.3 s
++LLLLR 1 N 4 chars 3 holds 3 P1 3 P2 3 P3 3 second True 124.1 s
++LLLRR 1 N 6 chars 5 holds 5 P1 3 P2 5 P3 5 second True 125.8 s
+-LLLRR 1 N 10 chars 9 holds 9 P1 9 P2 9 P3 9 second True 130.3 s
++LLRLRR 1 N 13 chars 12 holds 12 P1 12 P2 0 P3 12 second True 133.0 s
+-LLRRLR 1 N 17 chars 16 holds 16 P1 16 P2 0 P3 16 second True 150.6 s
+{
+ "levels_run": 13,
+ "levels_skipped": [],
+ "characters": 911,
+ "holds_on": 911,
+ "identity_on_every_fresh_character": true,
+ "max_rational_resid": 1.4988010832439613e-15,
+ "second_computation_agrees": true,
+ "plants": {
+  "P1": 905,
+  "P2": 437,
+  "P3": 903
+ }
+}
+exit 0

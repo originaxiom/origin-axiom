@@ -1,0 +1,19 @@
+{
+ "states": 74,
+ "E_T2a_eta0_iff_balanced": true,
+ "E_T2b_amphichiral_implies_eta0": true,
+ "E_T2c_chiral_with_eta0": [
+  "+LLLRRLRR",
+  "-LLLRRLRR"
+ ],
+ "E_T2c_count": 2,
+ "E_T2d_sum_eta_A_zero": false,
+ "eta_over_imbalance": [
+  "1/3"
+ ],
+ "amphichiral_states": 16
+}
+
+real	0m1.427s
+user	0m1.583s
+sys	0m0.120s
