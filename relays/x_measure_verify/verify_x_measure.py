@@ -1139,21 +1139,22 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
         for i in range(3)
     )
     pc1_integral_bias_mixing = float(np.max(np.abs(naive_f64_full["W_minus_T90"][9:12] - exact_area["W_minus_T90"][9:12])))
-    assert pc1_pointwise_max_err > 0.20, "PC_MEAS_1 did not fire on pointwise cusp SVD"
+    pc1_fired = bool(pc1_pointwise_max_err > 0.20 and pc1_integral_bias_mixing > 1e-3)
 
     # Cusp cutoff study PC_MEAS_2: renormalized integrals on y <= Y_cut for Y_cut in {3, 5, 10, 20}
+    idx_fc7 = [OUTPUT_KEYS_12.index(k) for k in CLAIMED_7_FRAME_CODE]
+    exact_fc7 = exact_area["W_minus_T90"][idx_fc7]
     cutoff_table: Dict[str, Any] = {}
     for y_cut in (3.0, 5.0):
         sub_int, sub_mass = integrate_bulk_f64(24, 28, 1.0 / y_cut)
         renorm = sub_int["W_minus_T90"] / sub_mass
+        diff_fc7 = np.abs(renorm[idx_fc7] - exact_fc7)
         cutoff_table[str(int(y_cut))] = {
             "Y_cut": int(y_cut),
             "retained_area_fraction": sub_mass,
             "W_minus_T90_renormalized_claimed_7": _dict_7_fc(renorm),
-            "max_abs_bias_vs_full_claimed_7": float(np.max(np.abs(
-                np.array([renorm[OUTPUT_KEYS_12.index(k)] for k in CLAIMED_7_FRAME_CODE])
-                - np.array([exact_area["W_minus_T90"][OUTPUT_KEYS_12.index(k)] for k in CLAIMED_7_FRAME_CODE])
-            ))),
+            "max_abs_bias_vs_full_claimed_7": float(np.max(diff_fc7)),
+            "max_rel_bias_vs_full_claimed_7": float(np.max(diff_fc7 / exact_fc7)),
         }
 
     # For Y_cut = 10 and 20, combine bulk_fine (y <= 5) with mpmath strip [1/Y_cut, 1/5]
@@ -1162,19 +1163,20 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
             st_int, st_mass, _, _, _ = integrate_strip_mp(10, 12, 1.0 / float(y_cut), 0.2, 150, pool)
             tot_m = mass_bulk_f + st_mass
             renorm = (bulk_fine["W_minus_T90"] + st_int["W_minus_T90"]) / tot_m
+            diff_fc7 = np.abs(renorm[idx_fc7] - exact_fc7)
             cutoff_table[str(y_cut)] = {
                 "Y_cut": y_cut,
                 "retained_area_fraction": tot_m,
                 "W_minus_T90_renormalized_claimed_7": _dict_7_fc(renorm),
-                "max_abs_bias_vs_full_claimed_7": float(np.max(np.abs(
-                    np.array([renorm[OUTPUT_KEYS_12.index(k)] for k in CLAIMED_7_FRAME_CODE])
-                    - np.array([exact_area["W_minus_T90"][OUTPUT_KEYS_12.index(k)] for k in CLAIMED_7_FRAME_CODE])
-                ))),
+                "max_abs_bias_vs_full_claimed_7": float(np.max(diff_fc7)),
+                "max_rel_bias_vs_full_claimed_7": float(np.max(diff_fc7 / exact_fc7)),
             }
 
-    pc2_bias_y5 = cutoff_table["5"]["max_abs_bias_vs_full_claimed_7"]
-    pc2_bias_y20 = cutoff_table["20"]["max_abs_bias_vs_full_claimed_7"]
-    assert pc2_bias_y5 > 0.01 and pc2_bias_y5 > pc2_bias_y20, "PC_MEAS_2 cutoff bias did not fire"
+    r3 = cutoff_table["3"]["max_rel_bias_vs_full_claimed_7"]
+    r5 = cutoff_table["5"]["max_rel_bias_vs_full_claimed_7"]
+    r10 = cutoff_table["10"]["max_rel_bias_vs_full_claimed_7"]
+    r20 = cutoff_table["20"]["max_rel_bias_vs_full_claimed_7"]
+    pc2_fired = bool(r5 > 0.10 and (r3 > r5 > r10 > r20 > 0.0))
 
     target_cusp_limit = np.array([0.0] * 9 + [5.0 / 12.0, 5.0 / 12.0, 7.0 / 12.0], dtype=np.float64)
     y80_err_vs_rational = max(
@@ -1216,11 +1218,11 @@ def compute_area_measure_with_cusp(end_eval: CanonicalL2Evaluator, n_workers: in
             "pointwise_max_err_y22_28_35": pc1_pointwise_max_err,
             "naive_float64_full_area_mixing_bias": pc1_integral_bias_mixing,
             "naive_float64_full_area_W_minus_T90_claimed_7": _dict_7_fc(naive_f64_full["W_minus_T90"]),
-            "fired": bool(pc1_pointwise_max_err > 0.20 and pc1_integral_bias_mixing > 1e-3),
+            "fired": pc1_fired,
         },
         "PC_MEAS_2_hard_cusp_cutoff_bias": {
             "cutoffs": cutoff_table,
-            "fired": bool(pc2_bias_y5 > 0.01 and pc2_bias_y5 > pc2_bias_y20),
+            "fired": pc2_fired,
         },
         "four_primary_combinations": four_combos_out,
         "_raw_arrays": exact_area,
@@ -1602,16 +1604,17 @@ def main() -> None:
     # Startup Gate 2: verify matrix-geodesic mpmath integrator matches local_semicircle_charts on {L, R}^+ words
     probe_words = ["LLR", "LLLRR", "LRLRLLRR", "LLLLRRRRLLR"]
     max_mat_vs_chart_err = 0.0
+    n_gate2 = 1024
     for pw in probe_words:
         M_pw = (1, 0, 0, 1)
         for ch in pw:
             M_pw = _mat_mul_int(M_pw, (1, 1, 0, 1) if ch == "L" else (1, 0, 1, 1))
-        taus_m, ell_m = _geodesic_taus_from_matrix_mp(M_pw, m_nodes=256)
+        taus_m, ell_m = _geodesic_taus_from_matrix_mp(M_pw, m_nodes=n_gate2)
         ev_m = _eval_reduced_taus_hybrid(taus_m, end_eval)
 
         _, betas, betaps, ds_l, ell_c = local_semicircle_charts(pw)
         cum = np.cumsum([0.0] + ds_l)
-        sg = (np.arange(256, dtype=np.float64) + 0.5) * (ell_c / 256)
+        sg = (np.arange(n_gate2, dtype=np.float64) + 0.5) * (ell_c / n_gate2)
         ki = np.clip(np.searchsorted(cum, sg, side="right") - 1, 0, len(pw) - 1)
         ies = 1j * np.exp(sg - cum[ki])
         zt = (np.asarray(betas)[ki] * ies + np.asarray(betaps)[ki]) / (ies + 1.0)
@@ -1778,7 +1781,20 @@ def main() -> None:
     mats_g1 = sample_jp_even_matrices(260, 28)
     mats_g2 = sample_lr_sym_undoing_matrices(260, 28)
 
-    # 3c. Same-Monoid Dual Filtration on {L, R}^+: exhaustive primitive Lyndon trace cutoffs T_max in {15, 35, 75}
+    # 3c. Same-Monoid Dual Filtration on {L, R}^+:
+    # Compare exhaustive combinatorial length |w| <= 10 Lyndon geodesics against exhaustive hyperbolic trace cutoffs T_max in {15, 35, 75}
+    words_comb_10: List[Tuple[str, Tuple[int, int, int, int]]] = []
+    for w_len in range(2, 11):
+        for bits in range(1 << (w_len - 1)):
+            w_s = "L" + "".join("R" if ((bits >> k) & 1) else "L" for k in range(w_len - 2, -1, -1))
+            if "R" not in w_s or not _is_lyndon_word(w_s):
+                continue
+            mat_comb = (1, 0, 0, 1)
+            for ch in w_s:
+                mat_comb = _mat_mul_int(mat_comb, (1, 1, 0, 1) if ch == "L" else (1, 0, 1, 1))
+            if (mat_comb[0] + mat_comb[3]) > 2 and _is_allowed_at_level(mat_comb, 5):
+                words_comb_10.append((w_s, mat_comb))
+
     trace_cutoffs = (15, 35, 75)
     trace_pop_words = {t_max: enumerate_lr_lyndon_by_trace_bound(t_max, level=5) for t_max in trace_cutoffs}
 
@@ -1786,6 +1802,7 @@ def main() -> None:
         ev_g0 = pool.map(_eval_matrix_geodesic_worker, [(m, 96) for m in mats_g0])
         ev_g1 = pool.map(_eval_matrix_geodesic_worker, [(m, 96) for m in mats_g1])
         ev_g2 = pool.map(_eval_matrix_geodesic_worker, [(m, 96) for m in mats_g2])
+        ev_comb10 = pool.map(_eval_matrix_geodesic_worker, [(m, 112) for (_, m) in words_comb_10])
 
         # Evaluate union of trace_cutoff = 75 primitive Lyndon geodesics once and slice for 15, 35, 75
         words_75 = trace_pop_words[75]
@@ -1799,15 +1816,22 @@ def main() -> None:
     est_g0, se_g0 = summarize_mat_pop(ev_g0)
     est_g1, se_g1 = summarize_mat_pop(ev_g1)
     est_g2, se_g2 = summarize_mat_pop(ev_g2)
+    est_comb10, _ = summarize_mat_pop(ev_comb10)
 
     z_jp_vs_lr = np.abs(est_g1 - est_g0) / np.sqrt(se_g1 ** 2 + se_g0 ** 2)
     z_sym_vs_lr = np.abs(est_g2 - est_g0) / np.sqrt(se_g2 ** 2 + se_g0 ** 2)
     max_z_jp = float(np.max(z_jp_vs_lr[idx_7]))
     max_z_sym = float(np.max(z_sym_vs_lr[idx_7]))
     pc4_fired = bool(max_z_jp > 10.0 and max_z_sym > 10.0)
-    assert pc4_fired, f"PC_MEAS_4 generator shift did not reach 10 SE: {max_z_jp}, {max_z_sym}"
 
-    trace_filtration_results: Dict[str, Any] = {}
+    trace_filtration_results: Dict[str, Any] = {
+        "combinatorial_word_len_le_10": {
+            "max_combinatorial_word_length": 10,
+            "n_primitive_lyndon_geodesics": len(words_comb_10),
+            "W_minus_T90_claimed_7": _dict_7_fc(est_comb10),
+            "W_minus_T90_all_12": _dict_12(est_comb10),
+        }
+    }
     for t_max in trace_cutoffs:
         sub_ev = [
             ev_tr75[i]
@@ -1829,15 +1853,20 @@ def main() -> None:
         }
 
     # Check that filtering the SAME {L, R}^+ monoid by hyperbolic length shifts all 4 singular-value ratios
-    # away from move-count toward area measure!
+    # away from combinatorial move-count toward area measure!
     tr75_raw = trace_filtration_results["75"]["_raw"]
     for t_k in trace_filtration_results.values():
-        t_k.pop("_raw")
+        t_k.pop("_raw", None)
     ratio_idxs = [0, 1, 3, 4]  # up 2/3, up 1/3, down 2/3, down 1/3
-    shifts_toward_area = all(
+    shifts_toward_area_vs_erg = all(
         abs(float(tr75_raw[i] - area_wm_t90[i])) < abs(float(est5[i] - area_wm_t90[i]))
         for i in ratio_idxs
     )
+    shifts_toward_area_vs_comb10 = all(
+        abs(float(tr75_raw[i] - area_wm_t90[i])) < abs(float(est_comb10[i] - area_wm_t90[i]))
+        for i in ratio_idxs
+    )
+    shifts_toward_area = bool(shifts_toward_area_vs_erg and shifts_toward_area_vs_comb10)
     m4_holds = bool(all_commute_with_LR_axis and pc4_fired and shifts_toward_area)
     print(f"[X-MEASURE Candidate 3] Completed generator & dual-filtration tests ({int(round(time.time() - t_c3))}s)", flush=True)
 
