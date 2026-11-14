@@ -20,8 +20,10 @@ items 1 and 4 below were seen, so those are **not blind**. Item 3's numbers were
    - the census of I(V) = n(V) − n(V*).
 3. **The metallic trace-map fixed loci, component by component** (GENESIS: "B130's question with isolated components
    allowed"; the audit lane's AR4). The map is B130's φ_m = Ta^m ∘ Tb^m on (x, y, z) = (tr a, tr b, tr ab), with
-   Ta: (x, y, z) ↦ (x, z, xz − y) and Tb: (x, y, z) ↦ (z, y, yz − x). It is computed for m = 1, 2 and 3 (and 4 if the
-   exact computation finishes), without imposing Fricke's κ. For each m:
+   Ta: (x, y, z) ↦ (x, z, xz − y) and Tb: (x, y, z) ↦ (z, y, yz − x). It is computed without imposing Fricke's κ, for
+   m = 1 to 6. (Amended before the run, with the script's seal: the card first said m = 1 to 3, and 4 if the exact
+   computation finished. The method was timed on two maps that are not targets, Ta²∘Tb³ and Ta³∘Tb⁴, and took under a
+   second.) For each m:
    - the components;
    - whether κ = x² + y² + z² − xyz − 2 varies along each one-dimensional component;
    - the isolated points, and κ at each.
