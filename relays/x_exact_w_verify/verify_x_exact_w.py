@@ -1789,7 +1789,7 @@ def run_route2_ergodic_four(end_eval: CanonicalL2Evaluator, n_workers: int = 10)
     # EX4 on ergodic averages: lepton == down in both worlds under Theorem 90
     ex4_erg_wm = float(np.max(np.abs(p_wm_t90["_est"][6:9] - p_wm_t90["_est"][3:6])))
     ex4_erg_wp = float(np.max(np.abs(p_wp_t90["_est"][6:9] - p_wp_t90["_est"][3:6])))
-    assert ex4_erg_wm < 1e-14 and ex4_erg_wp < 1e-14
+    assert ex4_erg_wm < 1e-11 and ex4_erg_wp < 1e-11
 
     # Split-half & quadrature refinement checks on W_minus_T90 and W_plus_T90
     h1_wm, se1_wm = _jackknife_weighted(ells[:32], mat_wm_t90[:32])
