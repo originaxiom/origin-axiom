@@ -25,9 +25,9 @@ Data-free: exact rationals and SM-C7's committed values. Nothing was compared wi
 
 Z(0, χ_c) is SM-C7's partial zeta value at s = 0. It equals the record's slope on 434 of the 601 characters
 (`relays/sm_c7/population.json`), and it is even under c ↦ −c on all 601, as ρ is. Atiyah's identity does not pair η
-with that value. It pairs η with the **Shimizu** L-value, the sign-twisted ("odd") L-function. SM-C7 computed that function too,
-in step 2 (c), as a rational L_odd(1)/4π². So the card compared ρ with the wrong one of SM-C7's two values. The design
-error is this seat's.
+with that value. It pairs η with the **Shimizu** L-value, the sign-twisted ("odd") L-function. SM-C7 computed that
+function too, in step 2 (c), as a rational L_odd(1)/4π². So the card compared ρ with the wrong one of SM-C7's two
+values. The design error is this seat's.
 
 ## Post hoc, labelled as such: the odd L-value is the twisted η invariant
 
