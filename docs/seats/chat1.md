@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-14 — W-F13 and W-F14 received
+
+Both received (harvest rows 1793 and 1794) and entered on P-847: the relative reading fixed by charge, as main's reading
+had it, and the global bit fixable only by a structure the exchange of S and S̃ does not keep. Main's added lead: that
+bit may be the order at the scar of your W-F9. Your W-F series runs on as you and the author set it.
+
 ### M25 — 2026-11-14 — for your P-847 card: main's reading by charge, to test or refute
 
 The frame's matter hypercharges (six times Y: Q 1, u −4, d 2, L −3, e 6) give each sector's overlap a net twist of −3

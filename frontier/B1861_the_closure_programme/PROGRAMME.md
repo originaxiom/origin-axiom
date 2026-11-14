@@ -7,7 +7,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 93 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 92 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
@@ -297,7 +297,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** the register's ranked debts of this class, in order; each closes as one correction arc with a lock on the pages (the pattern of B1859).
 - **Closed when:** the class is empty, or every remaining member is outside the upstream of any claimed prediction; and a gate that, for every arc carrying a correction, checks that each arc depending on it and each page citing it points to the note.
 - **Register:** P-318 (QUEUED), P-618 (QUEUED), P-604 (DONE), P-751 (DONE), P-757 (QUEUED), P-760 (DONE).
-- **Debts (21):** P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827.
+- **Debts (20):** P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827.
 - **The audit's findings (7):** P1, P2, P3, P4, P5, P6, P7.
 
 **WP-0.2 — Debts that bear on current work** (DERIVE; STARTED; owner: main)
@@ -842,7 +842,7 @@ feeds every row.
 
 | package | debts |
 |---|---|
-| WP-0.1 False or stale statements in foundation and front documents | 21: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
+| WP-0.1 False or stale statements in foundation and front documents | 20: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
 | WP-0.2 Debts that bear on current work | 19: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786 |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 17: P-233, P-239, P-317, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
 | WP-0.4 Unverified premises and seat results under banked results | 24: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |

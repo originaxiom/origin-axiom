@@ -219,12 +219,12 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (93)
+## The register's open debts, by class (92)
 
 | class | debts | the first by load |
 |---|---|---|
 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | 16 | P-355: B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma fro |
-| a false or stale statement in a foundation or front document | 17 | P-589: Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS a |
+| a false or stale statement in a foundation or front document | 16 | P-589: Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS a |
 | a check that cannot fail, an instrument or a seal claim under a banked result | 11 | P-605: GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
 | an unverified premise or seat result under a banked structural result | 21 | P-156: B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
 | added by B1833 (S300; the brainstorms re-read) | 4 | P-653: GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |

@@ -126,3 +126,9 @@ orientable double cover.
   double cover's data reach the odd tick as twisted characters and as induced doublets, by Shapiro's lemma.
 
 With main's proof and code, the result stands on three codes.
+
+## A fourth derivation (2026-11-14)
+
+agy-002's A2-TICK (harvest row 1795, read through the mask) derived this page from its statement alone, blind to the
+page, over cyclotomic fields: SAME. It also proves the pullback to the double cover an isomorphism, which is this
+page's addendum, independently.

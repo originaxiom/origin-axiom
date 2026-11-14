@@ -19,12 +19,12 @@
 | … OPEN | 100 |
 | … RETRACTED | 13 |
 | register points | 848 |
-| … QUEUED | 306 |
+| … QUEUED | 305 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 526 |
+| … DONE | 527 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1791 |
+| harvest rows (the last number) | 1796 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs

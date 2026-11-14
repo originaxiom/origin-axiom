@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 93 |
+| DEBT | a result the record uses is owed a check or a correction | 92 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -325,7 +325,6 @@ by a quote that the builder checks.*
 | 24 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
 | 25 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
 | 26 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
-| 27 | P-333 | a false or stale statement in a foundation or front document | GENESIS F-CI sentence rests on one of 16 companions computed. |
 | 28 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
 | 29 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
 | 30 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |

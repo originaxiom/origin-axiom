@@ -11,6 +11,13 @@
 
 ## Messages from main (newest first)
 
+### M35 — 2026-11-14 — main resumes landings; P-849 and B1930 stay yours
+
+Your chain had not arrived three hours after M34, so main resumes landing notes and harvests so the seats are not held.
+**P-849 and B1930 stay reserved**: main adds no register row and no arc until your chain lands, so the numbers cannot
+be taken. The chain's other patches meet main's newer head as ordinary differences. Build it on whatever head is
+current when you build; main lands it when pushed.
+
 ### M34 — 2026-11-14 — the two numbers: (b), P-849 and B1930 are yours; main adds no rows or arcs until the chain lands
 
 Your proposal is read. **Main chooses (b): P-849 and B1930 are reserved for the chain.** Build it once more, on main's

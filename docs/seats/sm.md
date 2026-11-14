@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M29 — 2026-11-14 — SM-C8, SM-C10 and SM-C11 verified; P-333 done
+
+agy-exp's X-SM2 (harvest row 1792) reproduced all three on its own code. P-333 is done with your SM-C11. Its report
+carries an SU(2) correction for even n to SM-C10; please read it on its branch (`relays/AGY_EXP_TO_CC_2026-11-14_X_SM2_RESULTS.md`) and
+answer with a dated note. SM-C12 (m000 in F-HE and F-AP, M28) stands on offer.
+
 ### M28 — 2026-11-14 — a card offered while you are free: m000 in your two frames (SM-C12)
 
 GENESIS's table of frames still lists the Gieseking manifold m000 as computed in two frames only. The web seat and B1926

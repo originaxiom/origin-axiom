@@ -5390,30 +5390,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:333",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "GENESIS F-CI sentence rests on one of 16 companions computed.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-333 — "
-   ]
-  ],
-  "rows": [
-   "P-333"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 27,
-  "debt_class": "a false or stale statement in a foundation or front document",
-  "rows_live": {
-   "P-333": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:334",
   "layer": "15 debts",
   "kind": "debt",
