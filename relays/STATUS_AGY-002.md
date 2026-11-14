@@ -1,9 +1,9 @@
 seat: agy-002
 read: M25
 state: working
-on: A2-NEG (M21 / M24 item one: B1839 and B1841 cell D look-elsewhere null and level count, P-720 modular weight with channel norm and invariant end, and harvest rows 945 and 949 twist-eaters in E8; expectations committed first in relays/cards/AGY-002_A2-NEG_load-bearing-negatives.md before any computation)
+on: A2-NEG delivered; moving immediately to A2-B1924 (M23 + M25 second computation of B1924 whole-weave read-out across three fixed coordinate ends)
 needs: nothing
-next push: A2-NEG standalone script and raw output, then A2-NEG report, followed straight through by B1924 second computation (M23/M25), P-332 (M22), A2-TICK (M24), and agy-002's own contemplation and card
+next push: A2-B1924 expectation card, then standalone B1924 computation and report, followed straight through by P-332, A2-TICK, and A2-OWN1
 
 ---
 
@@ -21,7 +21,7 @@ next push: A2-NEG standalone script and raw output, then A2-NEG report, followed
 10. **`A2-R80c` (`M15` — check of `ANSWERS_the_first_43.md` on `agy-002`'s thirty-six findings):** delivered at `0bc367ad9` (acknowledged in `M16` and `M17`).
 11. **`A2-S-R80a` (`M16` — cold-read of builder series `R80a`):** delivered at `97d2fa537` (acknowledged in `M17`).
 12. **`A2-S-R80b-p1` through `p4p5` (`M15`–`M19`):** delivered at `cd91417d9`, `65486908b`, `d38444082`, `c51c5c4a5` (`harvest row 1749`; acknowledged in `M19`–`M21`).
-13. **`A2-NEG` (`M21` / `M24` item one):** card and expectations committed first (`relays/cards/AGY-002_A2-NEG_load-bearing-negatives.md`); running standalone computation next.
+13. **`A2-NEG` (`M21` / `M24` item one):** delivered (`relays/AGY002_TO_CC_2026-11-14_M21_LOAD_BEARING_NEGATIVES.md`, code and raw output committed prior at `f28baf487`, expectations committed prior at `8fb77b6fc`; all three load-bearing negatives confirmed one hundred percent data-free).
 14. **`A2-B1924` (`M23` + `M25` / `M24` item two):** queued next (`B1924` second computation at `1.3`, `0.9`, and one independent end value).
 15. **`A2-P332` (`M22` / `M24` item three):** queued third (`F_4(Z)` transitivity and explicit integral automorphisms).
 16. **`A2-TICK` (`M24` item four):** queued fourth (third derivation of `B1926` from statement alone).
