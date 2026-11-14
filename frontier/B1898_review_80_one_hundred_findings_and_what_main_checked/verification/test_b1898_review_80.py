@@ -361,3 +361,26 @@ def test_two_rows_of_the_register_point_at_what_was_found_since():
     assert "the corrections of Reviews 75, 76 and 77 are owed their rows (P-823)" in index
     for r in (r805, r823):
         assert r.rstrip().endswith("| 2026-11-12 |") and r.count(" | ") == r805.count(" | ")           # each is still one row of the register's shape
+
+
+def test_mains_probe_of_b1895_is_mended_beside_the_file_main_wrote_and_gives_what_main_kept():
+    """ADDED 2026-11-13 (C16; main's word in M22, on a cold reader's finding that main checked).  Main's two check files
+    `plants_b1881_third.py` and `b1895_probes.py` set their root to the folder above their own, which is not the repository's
+    root, and run in place they stop at their first search.  The first was mended beside main's file in R80b's part 6 (the
+    test above holds it).  The second is mended here, the same way: main's file stands in checks/ as main wrote it; the mended
+    copy stands in mended_in_r80b/, differs from it in one marked block, and run in place gives the json main kept."""
+    M = HERE / "mended_in_r80b"
+    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
+    text = (M / "b1895_probes.py").read_text(encoding="utf-8")
+    assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == 1 and text.count("# NOTE OF THE MEND") == 1
+    assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/b1895_probes.py"]
+    assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/b1895_probes.py"]
+    # both mended copies count the root from the repository and not from their own folder
+    for name in ("b1895_probes.py", "plants_b1881_third.py"):
+        t = (M / name).read_text(encoding="utf-8")
+        assert "ROOT = next(p for p in HERE.parents if (p / \"scripts\" / \"gates\" / \"gates.py\").is_file())" in t, name
+        assert "#| HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[1]" in t, name
+    # run in place, the mended probe gives what main kept, and its run is kept beside it
+    assert json.loads((M / "b1895_probes.json").read_text(encoding="utf-8")) == json.loads((HERE / "checks" / "b1895_probes.json").read_text(encoding="utf-8"))
+    assert "(4) 3378 primitive cyclic sequences" in (M / "b1895_probes_out.txt").read_text(encoding="utf-8")
+
