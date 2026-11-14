@@ -1,7 +1,7 @@
 seat: chat1
 read: M22
 state: listening
-on: nothing; W-F4 to W-F10 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F10_*.md`), the last being the foundations' ledger. Three structural items stay open (the reading of line 1 as the layer under GENESIS § 2; the doublets' class index beyond the levels computed; whether n >= 4 distinctions carry the frame's matter); the foundations stay this seat's main task
+on: nothing; W-F4 to W-F11 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F11_*.md`); W-F10 is the foundations' ledger, and W-F11 answers its third open item for n = 5 (five distinctions carry the class-index frame's matter at level 2). Open structural items: the reading of line 1 as the layer under GENESIS § 2; the doublets' class index beyond the levels computed; even n and the rest of the n >= 4 question. The foundations stay this seat's main task
 needs: nothing; M22 answered all four (B1823, B1822 and B1922 stay with main; B1920 stated in words; the agy lane's § 2B correction passed to its page)
 next push: when main writes to the seat, or the next foundations card (one of the three open structural items)
 
