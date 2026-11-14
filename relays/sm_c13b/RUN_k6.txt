@@ -1,0 +1,4 @@
+const share of outputs with z > 3: 1.00; z range 334.1 to 864.9
+canon share of outputs with z > 3: 1.00; z range 168.9 to 1332.2
+done k6 in 9 s
+exit 0
