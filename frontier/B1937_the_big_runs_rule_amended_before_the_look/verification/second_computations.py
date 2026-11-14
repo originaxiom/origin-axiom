@@ -2,8 +2,8 @@
 printed) with B1932's committed values. Tolerance fixed here before the run: per value, |d ln| <= 3 sqrt(e_m^2 + e_s^2
 + delta^2), e_m and e_s each code's stated relative error, delta = 5.4e-3 (the record's bound on the systematic: the
 end above Im tau = 6, 5.4e-3; the grid interpolation, 4.6e-3). Prints only d ln / tolerance and z = d ln / sqrt(e_m^2 + e_s^2)."""
-import json, subprocess, math, hashlib
-ROOT = "/Users/dri/origin-axiom"
+import json, subprocess, math, hashlib, pathlib
+ROOT = str(next(q for q in pathlib.Path(__file__).resolve().parents if (q / "frontier").is_dir() and (q / "GENESIS.md").is_file()))
 V = ROOT + "/frontier/B1932_the_big_runs_values_committed_frame_c_with_the_exact_weight_in_four_declared_options/verification/BIG_RUN_VALUES.json"
 raw = open(V, "rb").read(); assert hashlib.sha256(raw).hexdigest().startswith("df1c9bee002ecf5e")
 mine = json.loads(raw)

@@ -9,7 +9,9 @@ import json, math, pathlib, sys
 import numpy as np
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import grid as GR                    # B1667's instrument functions
+import importlib.util                # [2026-11-14: loaded under its own name; the bare `import grid` collided with
+_spec = importlib.util.spec_from_file_location("b1927_grid", HERE / "grid.py")   # scripts/stepb/grid.py in the full
+GR = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(GR)           # suite, B1940's sweep of the suite]
 import canon_readout as CR
 
 
