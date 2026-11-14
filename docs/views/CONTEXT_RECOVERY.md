@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1638 |
-| … PROVED | 1140 |
+| arcs with a verdict file | 1639 |
+| … PROVED | 1141 |
 | … NEGATIVE | 384 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 | B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
 | B1940 | PROVED | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3…” |
 | B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
@@ -42,7 +43,6 @@
 | B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
-| B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, night: THE AREA OPTIONS CORRECTED IN EXTENDED PRECISION (B1940); A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AND A ONE-LOOP TRACE THE OTHER (B1941).** B1940: the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there; the frame redone in mpmath passes the check to 1e-18 at heights 12 to 45; the area options' mixing moduli move by up to 0.068 in ln, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. B1941: X-SURVIVAL's S4 recomputed before the look: the log-determinant weight prefers W- at all 28 sampled points under every d…”
+“LATEST (2026-11-14, S306p, late night: AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (B1942).** X-SURVIVAL's S3 recomputed on main's frame: at a point of exact order 15 the lepton twists are those at the order-5 point 6w, so the leptons' average over order 15 is the down rows' order-5 average (to roundoff, a planted charge shift caught), while the quarks move by 20 % to over 100 %. The two candidate levels say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks; order 15 (the prime 3) keeps the leptons and moves the quarks. Which level the object picks is open (P-845). Also landed: the suite's stale locks mended, the rule's…”
 
 ## Completeness (nothing skipped silently)
 

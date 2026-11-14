@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1638** |
-| words of findings prose | **1,469,025** |
+| research arcs with findings | **1639** |
+| words of findings prose | **1,469,729** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1638** (100.0 %) |
+| arcs carrying an authored verdict | **1639** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1140 |
+| PROVED | 1141 |
 | NEGATIVE | 384 |
 | OPEN | 101 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1941`** (821 words, 0 locks)  
-“A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.”  
-`B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/FINDINGS.md`
+**PROVED — `B1942`** (704 words, 0 locks)  
+“AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.”  
+`B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  

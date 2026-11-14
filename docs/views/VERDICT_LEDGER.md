@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1638 of 1638 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1639 of 1639 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1140)
+## PROVED (1141)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1152,6 +1152,7 @@
 | `B1939` | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.” |  | 0 |
 | `B1940` | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there, and neither a 50-digit SVD nor the closed-form residues repair it; the frame redone in mpmath passes tau -> tau + 1 to 1e-18 at heights 12 to 45 and matches the double frame where that is sound; the area options' mixing moduli move by up to 0.068 in ln, their mass ratios by under 1e-4, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. 0 of 19.” |  | 0 |
 | `B1941` | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.” |  | 0 |
+| `B1942` | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.” |  | 0 |
 
 ## NEGATIVE (384)
 

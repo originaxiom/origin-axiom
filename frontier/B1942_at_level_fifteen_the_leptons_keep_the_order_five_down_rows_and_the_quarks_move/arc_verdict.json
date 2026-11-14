@@ -1,0 +1,29 @@
+{
+ "id": "B1942",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1934",
+  "B1935",
+  "B1932",
+  "B1928"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-SURVIVAL, its S3 (harvest row 1815; the card read through the mask)",
+  "the SM seat's SM-C13 and SM-C13b (harvest rows 1808, 1819)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C with the exact channel weight, the canonical end, averaged over the points of exact order 15 and of order 5",
+  "object": "the lepton, down and up sectors' averaged outputs at order 15 against order 5",
+  "reach": "class",
+  "hypotheses": "three moduli computed; the identity proved for every point of exact order 15; the frame's sectors as B1724 builds them"
+ },
+ "claim_one_line": "AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.",
+ "weave_or_thread": "the weave (averages over points of a level)"
+}

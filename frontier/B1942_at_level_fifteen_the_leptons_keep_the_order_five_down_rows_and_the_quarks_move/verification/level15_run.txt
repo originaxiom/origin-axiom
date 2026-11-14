@@ -1,0 +1,3 @@
+tau (0.13+1.5j): E1 lepton(15) vs down(5): S 9.8e-16, S~ 8.7e-16 | E2 down(15) vs down(5): S 2.19e-01, S~ 7.91e-01 | E3 up(15) vs up(5) 4.68e-01 | lepton(15) vs down(15): 1.80e-01
+tau (-0.31+2.4j): E1 lepton(15) vs down(5): S 1.6e-15, S~ 4.5e-15 | E2 down(15) vs down(5): S 6.23e-01, S~ 1.86e+00 | E3 up(15) vs up(5) 5.04e-01 | lepton(15) vs down(15): 3.84e-01
+tau (0.27+3.6j): E1 lepton(15) vs down(5): S 5.6e-14, S~ 9.8e-14 | E2 down(15) vs down(5): S 2.57e+00, S~ 4.57e+00 | E3 up(15) vs up(5) 5.19e-01 | lepton(15) vs down(15): 7.20e-01

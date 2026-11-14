@@ -17400,6 +17400,19 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1942": {
+   "slug": "at level fifteen the leptons keep the order five down rows and the quarks move",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "S3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [
