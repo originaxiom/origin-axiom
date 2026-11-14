@@ -340,7 +340,8 @@ def uniformize_mp(tau_in: complex, dps: int = 42) -> Dict[str, float]:
         }
 
 
-def closed_form_omega6_mp(dps: int = 42) -> Tuple[float, float]:
+def omega6_closed_form_audit_mp(dps: int = 42) -> Tuple[float, float]:
+    """Audits our mpmath Lame solver at exact omega_6 = exp(i*pi/3) against the closed-form eta^4 period integral in 42-digit arithmetic."""
     with mp.workdps(dps):
         def eta4(w: mp.mpc) -> mp.mpc:
             q = mp.exp(2 * mp.j * mp.pi * w)
@@ -355,7 +356,22 @@ def closed_form_omega6_mp(dps: int = 42) -> Tuple[float, float]:
         per1 = mp.quad(eta4, [mp.mpc(0, 1), mp.mpc("1.5", "0.5")])
         kappa_abs = 1 / abs(per1)
         imB_cf = mp.log(3 * kappa_abs / mp.pi) / (2 * mp.pi)
-        return float(2 * mp.pi * (mp.mpf(1) / 6 - imB_cf)), float(mp.pi - 2 * mp.pi * imB_cf)
+        cf_lmax = 2 * mp.pi * (mp.mpf(1) / 6 - imB_cf)
+        cf_l2 = mp.pi - 2 * mp.pi * imB_cf
+
+        tau_om6 = mp.exp(mp.j * mp.pi / 3)
+        MA, MB = _lame_mono_mp(tau_om6, mp.mpc(0))
+        comm = MA * MB * mp.inverse(MA) * mp.inverse(MB)
+        lam = abs(mp.re(comm[0, 1]))
+        imB = -(mp.im(MA[0, 0]) / mp.re(MA[1, 0]) + mp.im(MB[0, 0]) / mp.re(MB[1, 0])) / 2
+        G = mp.matrix([[1, mp.j * imB], [0, 1]])
+        Gi = mp.matrix([[1, -mp.j * imB], [0, 1]])
+        RA_c = G * MA * Gi
+        RB_c = G * MB * Gi
+        min_c = min(abs(mp.re(RA_c[1, 0])), abs(mp.re(RB_c[1, 0])))
+        l_max = (2 * mp.pi / lam) * (1 / min_c - imB)
+        l_2 = mp.pi - (2 * mp.pi / lam) * imB
+        return float(abs(l_2 - cf_l2)), float(abs(l_max - cf_lmax))
 
 
 # Fast scalar float64 Fuchsian uniformizer (for Chebyshev grid construction + high-y fallback)
@@ -645,6 +661,120 @@ def uniformize_fast(tau: complex) -> Tuple[float, float]:
     return L_2 + sh, L_max + sh
 
 
+def _uniformize_column_fast(args: Tuple[float, List[float]]) -> List[Tuple[float, float]]:
+    """Warm-starts c_cur continuously along an ascending-y column at fixed x = xv."""
+    xv, ys = args
+    order = sorted(range(len(ys)), key=lambda idx: ys[idx])
+    res: List[Tuple[float, float]] = [(0.0, 0.0)] * len(ys)
+    c_prev: Optional[complex] = None
+    y_prev: float = 1.0
+    eps = 1e-8
+    for idx in order:
+        yv = ys[idx]
+        tau = complex(xv, yv)
+        if abs(tau - 1j) < 1e-14 or abs(tau - cmath.exp(1j * math.pi / 3.0)) < 1e-14:
+            c_cur = 0j
+        elif c_prev is None:
+            # First (lowest-y) point in column
+            if yv >= 4.0:
+                t_anc = complex(xv, 3.0)
+                c_cur = 0j
+                for st in range(1, 3):
+                    ts = (1.0 - st / 2.0) * 1j + (st / 2.0) * t_anc
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+                n_up = max(1, int(math.ceil(math.log(yv / 3.0) / 0.55)))
+                for st in range(1, n_up + 1):
+                    ys_s = 3.0 * ((yv / 3.0) ** (st / n_up))
+                    ts = complex(xv, ys_s)
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+            else:
+                n_h = max(1, min(4, int(math.ceil(abs(tau - 1j) / 1.2))))
+                c_cur = 0j
+                for st in range(1, n_h + 1):
+                    ts = (1.0 - st / n_h) * 1j + (st / n_h) * tau
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+        else:
+            c_cur = c_prev
+            n_up = max(1, int(math.ceil(abs(math.log(yv / y_prev)) / 0.55)))
+            for st in range(1, n_up + 1):
+                ys_s = y_prev * ((yv / y_prev) ** (st / n_up))
+                ts = complex(xv, ys_s)
+                for _ in range(8):
+                    MA, MB = _lame_mono_f64(ts, c_cur)
+                    fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                    if max(abs(fA), abs(fB)) < 1e-13:
+                        break
+                    MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                    dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                    dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                    det = dA.imag * dB.real - dA.real * dB.imag
+                    c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+
+        c_prev = c_cur
+        y_prev = yv
+        MA, MB = _lame_mono_f64(tau, c_cur)
+        comm = MA @ MB @ np.linalg.inv(MA) @ np.linalg.inv(MB)
+        lam = abs(comm[0, 1].real)
+        assert abs(lam - 1.0) < 1e-9, f"Column Fuchsian lam={lam} at tau={tau}"
+        imB = -0.5 * (MA[0, 0].imag / MA[1, 0].real + MB[0, 0].imag / MB[1, 0].real)
+        G = np.array([[1.0, 1j * imB], [0.0, 1.0]])
+        Gi = np.array([[1.0, -1j * imB], [0.0, 1.0]])
+        RA = (G @ MA @ Gi).real
+        RB = (G @ MB @ Gi).real
+        RA_i = np.linalg.inv(RA)
+        RB_i = np.linalg.inv(RB)
+        gens = [("A", RA), ("a", RA_i), ("B", RB), ("b", RB_i)]
+        inv_t = {"A": "a", "a": "A", "B": "b", "b": "B"}
+        min_c = min(abs(RA[1, 0]), abs(RB[1, 0]))
+        fr = list(gens)
+        for _ in range(5):
+            nxt = []
+            for ws, mat in fr:
+                lc = ws[-1]
+                for nm, gm in gens:
+                    if nm == inv_t[lc]:
+                        continue
+                    pr = mat @ gm
+                    cv = abs(pr[1, 0])
+                    if cv > 1e-9 and cv < min_c:
+                        min_c = cv
+                    if np.sum(np.abs(pr)) < 1500.0:
+                        nxt.append((ws + nm, pr))
+            fr = nxt
+        L_max = (2.0 * math.pi / lam) * (1.0 / min_c - imB)
+        L_2 = math.pi - (2.0 * math.pi / lam) * imB
+        sh = 0.5 * math.log(yv) - NORM_CONST_SHIFT
+        res[idx] = (L_2 + sh, L_max + sh)
+    return res
+
+
 # ============================================================================
 # SECTION 1: 4-PATCH CHEBYSHEV SPECTRAL EVALUATOR ON F_+ = {0 <= x <= 1/2, |tau| >= 1}
 # ============================================================================
@@ -696,37 +826,29 @@ class CanonicalEndEvaluator:
         self.x4, self.wx4 = _cheb_nodes_weights(self.p4_nx)
         self.y4, self.wy4 = _cheb_nodes_weights(self.p4_ny)
 
-        tasks: List[complex] = []
+        col_tasks: List[Tuple[float, List[float]]] = []
         # P1
         for u_x in self.x1:
             xv = 0.25 * (u_x + 1.0)
             ylo = math.sqrt(max(0.0, 1.0 - xv * xv))
-            for u_y in self.y1:
-                sv = 0.5 * (u_y + 1.0)
-                yv = ylo + (1.85 - ylo) * sv
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [ylo + (1.85 - ylo) * 0.5 * (u_y + 1.0) for u_y in self.y1]))
         # P2
         for u_x in self.x2:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y2:
-                yv = 1.85 + (4.50 - 1.85) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [1.85 + (4.50 - 1.85) * 0.5 * (u_y + 1.0) for u_y in self.y2]))
         # P3
         for u_x in self.x3:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y3:
-                yv = 4.50 + (12.0 - 4.50) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [4.50 + (12.0 - 4.50) * 0.5 * (u_y + 1.0) for u_y in self.y3]))
         # P4
         u_lo, u_hi = 1.0 / 36.0, 1.0 / 12.0
         for u_x in self.x4:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y4:
-                inv_y = u_lo + (u_hi - u_lo) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, 1.0 / inv_y))
+            col_tasks.append((xv, [1.0 / (u_lo + (u_hi - u_lo) * 0.5 * (u_y + 1.0)) for u_y in self.y4]))
 
         with Pool(n_workers) as pool:
-            vals = pool.map(uniformize_fast, tasks)
+            col_vals = pool.map(_uniformize_column_fast, col_tasks)
+        vals = [item for col in col_vals for item in col]
 
         arr_l2 = np.array([v[0] for v in vals], dtype=np.float64)
         arr_lmax = np.array([v[1] for v in vals], dtype=np.float64)
@@ -1277,11 +1399,8 @@ def single_word_mark_nodes(
 # ============================================================================
 
 def run_startup_gates(end_eval: CanonicalEndEvaluator) -> Dict[str, Any]:
-    # Gate 1: B1667 omega6 closed-form check
-    cf_lmax, cf_l2 = closed_form_omega6_mp(dps=42)
-    mp_om6 = uniformize_mp(cmath.exp(1j * math.pi / 3.0), dps=42)
-    err_om6_l2 = abs(mp_om6["L_2"] - cf_l2)
-    err_om6_lmax = abs(mp_om6["L_max"] - cf_lmax)
+    # Gate 1: B1667 omega6 closed-form check in 42-digit mpmath arithmetic
+    err_om6_l2, err_om6_lmax = omega6_closed_form_audit_mp(dps=42)
     assert err_om6_l2 < 1e-30 and err_om6_lmax < 1e-30
 
     # Gate 2: Out-of-grid 42-digit mpmath audit of 4-patch Chebyshev evaluator across F_+
@@ -1437,8 +1556,8 @@ def run_startup_gates(end_eval: CanonicalEndEvaluator) -> Dict[str, Any]:
     assert max_haar_err < 1e-13, f"Haar basis-scrambling error: {max_haar_err}"
 
     # Gate 5 + PC_CANON_4: Allowed word window-shift invariance vs disallowed word window-shift failure
-    t_a0, aa0, ba0, _ = single_word_mark_nodes("LLLLLLRLR", (2, 4), start_shift=0.0)
-    t_a1, aa1, ba1, _ = single_word_mark_nodes("LLLLLLRLR", (2, 4), start_shift=0.37)
+    t_a0, aa0, ba0, _ = single_word_mark_nodes("LLLLLLRLR", (2, 4), start_shift=0.0, nodes_per_len=80.0, min_nodes=320)
+    t_a1, aa1, ba1, _ = single_word_mark_nodes("LLLLLLRLR", (2, 4), start_shift=0.37, nodes_per_len=80.0, min_nodes=320)
     tl_a0, _ = end_eval.eval_batch(t_a0)
     tl_a1, _ = end_eval.eval_batch(t_a1)
     m_a0 = np.mean(evaluate_frame_batch(t_a0, aa0, ba0, tl_a0), axis=0)

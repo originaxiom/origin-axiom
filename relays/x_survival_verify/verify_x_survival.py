@@ -314,6 +314,92 @@ def uniformize_tilde_L2_fast(tau: complex) -> float:
     return L_2 + 0.5 * math.log(tau.imag) - NORM_CONST_SHIFT
 
 
+def _uniformize_column_tilde_L2_fast(args: Tuple[float, List[float]]) -> List[float]:
+    xv, ys = args
+    order = sorted(range(len(ys)), key=lambda idx: ys[idx])
+    res: List[float] = [0.0] * len(ys)
+    c_prev: Optional[complex] = None
+    y_prev: float = 1.0
+    eps = 1e-8
+    for idx in order:
+        yv = ys[idx]
+        tau = complex(xv, yv)
+        if abs(tau - 1j) < 1e-14 or abs(tau - cmath.exp(1j * math.pi / 3.0)) < 1e-14:
+            c_cur = 0j
+        elif c_prev is None:
+            if yv >= 4.0:
+                t_anc = complex(xv, 3.0)
+                c_cur = 0j
+                for st in range(1, 3):
+                    ts = (1.0 - st / 2.0) * 1j + (st / 2.0) * t_anc
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+                n_up = max(1, int(math.ceil(math.log(yv / 3.0) / 0.55)))
+                for st in range(1, n_up + 1):
+                    ys_s = 3.0 * ((yv / 3.0) ** (st / n_up))
+                    ts = complex(xv, ys_s)
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+            else:
+                n_h = max(1, min(4, int(math.ceil(abs(tau - 1j) / 1.2))))
+                c_cur = 0j
+                for st in range(1, n_h + 1):
+                    ts = (1.0 - st / n_h) * 1j + (st / n_h) * tau
+                    for _ in range(8):
+                        MA, MB = _lame_mono_f64(ts, c_cur)
+                        fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                        if max(abs(fA), abs(fB)) < 1e-13:
+                            break
+                        MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                        dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                        dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                        det = dA.imag * dB.real - dA.real * dB.imag
+                        c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+        else:
+            c_cur = c_prev
+            n_up = max(1, int(math.ceil(abs(math.log(yv / y_prev)) / 0.55)))
+            for st in range(1, n_up + 1):
+                ys_s = y_prev * ((yv / y_prev) ** (st / n_up))
+                ts = complex(xv, ys_s)
+                for _ in range(8):
+                    MA, MB = _lame_mono_f64(ts, c_cur)
+                    fA, fB = (MA[0, 0] + MA[1, 1]).imag, (MB[0, 0] + MB[1, 1]).imag
+                    if max(abs(fA), abs(fB)) < 1e-13:
+                        break
+                    MA_p, MB_p = _lame_mono_f64(ts, c_cur + eps)
+                    dA = ((MA_p[0, 0] + MA_p[1, 1]) - (MA[0, 0] + MA[1, 1])) / eps
+                    dB = ((MB_p[0, 0] + MB_p[1, 1]) - (MB[0, 0] + MB[1, 1])) / eps
+                    det = dA.imag * dB.real - dA.real * dB.imag
+                    c_cur += complex(-(dB.real * fA - dA.real * fB) / det, -(-dB.imag * fA + dA.imag * fB) / det)
+
+        c_prev = c_cur
+        y_prev = yv
+        MA, MB = _lame_mono_f64(tau, c_cur)
+        comm = MA @ MB @ np.linalg.inv(MA) @ np.linalg.inv(MB)
+        lam = abs(comm[0, 1].real)
+        assert abs(lam - 1.0) < 1e-9
+        imB = -0.5 * (MA[0, 0].imag / MA[1, 0].real + MB[0, 0].imag / MB[1, 0].real)
+        L_2 = math.pi - (2.0 * math.pi / lam) * imB
+        res[idx] = L_2 + 0.5 * math.log(yv) - NORM_CONST_SHIFT
+    return res
+
+
 def _cheb_nodes_weights(n: int) -> Tuple[np.ndarray, np.ndarray]:
     j = np.arange(n, dtype=np.float64)
     nodes = -np.cos(math.pi * j / (n - 1))
@@ -352,32 +438,25 @@ class CanonicalL2Evaluator:
         self.x4, self.wx4 = _cheb_nodes_weights(self.p4_nx)
         self.y4, self.wy4 = _cheb_nodes_weights(self.p4_ny)
 
-        tasks: List[complex] = []
+        col_tasks: List[Tuple[float, List[float]]] = []
         for u_x in self.x1:
             xv = 0.25 * (u_x + 1.0)
             ylo = math.sqrt(max(0.0, 1.0 - xv * xv))
-            for u_y in self.y1:
-                yv = ylo + (1.85 - ylo) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [ylo + (1.85 - ylo) * 0.5 * (u_y + 1.0) for u_y in self.y1]))
         for u_x in self.x2:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y2:
-                yv = 1.85 + (4.50 - 1.85) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [1.85 + (4.50 - 1.85) * 0.5 * (u_y + 1.0) for u_y in self.y2]))
         for u_x in self.x3:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y3:
-                yv = 4.50 + (12.0 - 4.50) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, yv))
+            col_tasks.append((xv, [4.50 + (12.0 - 4.50) * 0.5 * (u_y + 1.0) for u_y in self.y3]))
         u_lo, u_hi = 1.0 / 36.0, 1.0 / 12.0
         for u_x in self.x4:
             xv = 0.25 * (u_x + 1.0)
-            for u_y in self.y4:
-                inv_y = u_lo + (u_hi - u_lo) * 0.5 * (u_y + 1.0)
-                tasks.append(complex(xv, 1.0 / inv_y))
+            col_tasks.append((xv, [1.0 / (u_lo + (u_hi - u_lo) * 0.5 * (u_y + 1.0)) for u_y in self.y4]))
 
         with Pool(n_workers) as pool:
-            arr = np.array(pool.map(uniformize_tilde_L2_fast, tasks), dtype=np.float64)
+            col_vals = pool.map(_uniformize_column_tilde_L2_fast, col_tasks)
+        arr = np.array([item for col in col_vals for item in col], dtype=np.float64)
 
         n1 = self.p1_nx * self.p1_ny
         n2 = self.p2_nx * self.p2_ny
