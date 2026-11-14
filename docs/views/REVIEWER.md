@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1621** |
-| words of findings prose | **1,444,685** |
+| research arcs with findings | **1623** |
+| words of findings prose | **1,446,982** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1621** (100.0 %) |
+| arcs carrying an authored verdict | **1623** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1124 |
+| PROVED | 1125 |
 | NEGATIVE | 384 |
-| OPEN | 100 |
+| OPEN | 101 |
 | RETRACTED | 13 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1926`** (1602 words, 0 locks)  
-AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), the web seat's sealed W-C8 part 2a agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19.  
-`B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/FINDINGS.md`
+**PROVED — `B1927`** (1306 words, 0 locks)  
+THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log|tau| to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read with it repeats along a thread at its own line with nothing chosen (1.3e-13). Both conventions keep every channel positive (22 767 nodes); they give different read-outs (paired median |z| about 20). The maximal-horoball end has a corner along the arc |tau| = 1 and its images (ratio 1.99, against 4 for a smooth end), the length-2 end does not (3.96): requiring the end to be real-analytic in tau like the rest of the frame selects the horocycle of length 2. The continuous end is gone; the remaining bit is replaced by a stated regularity condition. 0 of 19.  
+`B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

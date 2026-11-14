@@ -1,0 +1,30 @@
+{
+ "id": "B1928",
+ "verdict": "OPEN",
+ "depends_on": [
+  "B1924",
+  "B1922",
+  "B1868",
+  "B1872",
+  "B1914",
+  "B1927"
+ ],
+ "cites_seat": [
+  "agy-exp's X-NEG (harvest row 1776, read through the mask): the density of the move-count law, used to correct the draft"
+ ],
+ "scope": {
+  "frame": "B1656's frame, the fibre-averaged F-bar over the 24 points of order 5, with B1924's constant ends and B1927's canonical end",
+  "object": "the read-out on the whole's limit as n -> infinity",
+  "reach": "class",
+  "hypotheses": "a proof sketch from standard ergodic theory (Series' coding; the mixing finite extension, SL(2, F5) perfect; Parry-Pollicott's closed-orbit theorem) with H1 (discontinuities mu-null), H2 (tightness), H3 (length weights) unchecked; the numerical test on a grid of 1 034 points, interpolation median error 4.5e-4 on ratios and 3e-3 on mixing moduli"
+ },
+ "claim_one_line": "THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (OPEN: a proof sketch with three hypotheses unchecked): the letters' images generate SL(2, F5), which is perfect and acts transitively on the 24 points, so closed orbits equidistribute with their holonomy and R_n -> integral of F-bar against the path measure, the same at the mark, its twin and every point of order 5 (the twin's fading a theorem, the reading point removed). Predicted and confirmed: the ergodic integral of F-bar along 3 000 unconstrained words (error 6.6e-4) agrees with B1924's read-outs at n = 22 and 28, mark and twin (medians 0.46 to 0.76; one flagged sample 1.08); with the canonical end, medians 0.84 to 1.18. A seat's check of the proof is owed. 0 of 19.",
+ "weave_or_thread": "weave (the level-5 extension of the whole)",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc"
+}

@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1621 |
-| … PROVED | 1124 |
+| arcs with a verdict file | 1623 |
+| … PROVED | 1125 |
 | … NEGATIVE | 384 |
-| … OPEN | 100 |
+| … OPEN | 101 |
 | … RETRACTED | 13 |
 | register points | 846 |
 | … QUEUED | 305 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1928 | OPEN | THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (OPEN: a proof sketch with three hypotheses unchecked): the letters' images generate SL(2, F5), which is perfect and acts transitively on the 24 poi… |
+| B1927 | PROVED | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi… |
 | B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
 | B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol… |
 | B1924 | OPEN | THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by lengt… |
@@ -41,8 +43,6 @@
 | B1919 | PROVED | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac… |
 | B1918 | RETRACTED | [RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B… |
 | B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
-| B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
-| B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-LATEST (2026-11-14, later, S306p: m000 COMPUTED; AT AN ODD NUMBER OF TICKS THE FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION (B1926); B1925 CORRECTED (THE TICK'S STRUCTURE AT EVERY ODD METALLIC ACT); THE SEATS' NIGHT HARVESTED (rows 1751 to 1763).** The web seat built the Gieseking manifold from its tick: closed in the free-cusp frame, and no sector module at any odd tick level in the class-index frame. Main proved why (the Klein-bottle meridian inverts the scar, so no class over a character trivial on it can be normalised there) and recomputed it; the orientation-twisted classes are free. Whether those count as the frame's matter is now a stated choice; on the record's definition t…
+LATEST (2026-11-14, S306p, before dawn: THE END FIXED BY THE FIBRE'S GEOMETRY, AND ANALYTICITY PICKS ITS CONVENTION (B1927); THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (B1928, OPEN).** B1667's canonical end is covariant, so the frame needs no chosen end; the maximal-horoball end has a corner along the arc |tau| = 1 (ratio 1.99 against 4), the length-2 end is smooth (3.96), so requiring analyticity like the rest of the frame selects the length-2 horocycle. The limit of the read-out is the frame averaged over all 24 points of order 5 along the path measure (SL(2, F5) perfect; a proof sketch, three hypotheses owed a seat's check), the same at every reading point; th…
 
 ## Completeness (nothing skipped silently)
 

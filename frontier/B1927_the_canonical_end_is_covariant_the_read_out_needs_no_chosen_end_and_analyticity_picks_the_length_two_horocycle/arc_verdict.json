@@ -1,0 +1,28 @@
+{
+ "id": "B1927",
+ "verdict": "PROVED",
+ "depends_on": [
+  "B1667",
+  "B1724",
+  "B1921",
+  "B1922",
+  "B1924",
+  "B1816"
+ ],
+ "cites_seat": [],
+ "scope": {
+  "frame": "B1656's frame with B1724's transport, read with B1667's canonical end point by point",
+  "object": "the canonical end on the fundamental domain (53 new points to Im tau = 6), its covariance, the frame's periodicity with it, its two conventions along the read-out's threads and across the arc |tau| = 1",
+  "reach": "class",
+  "hypotheses": "B1667's sealed instrument unchanged; the analyticity criterion is a stated regularity condition; L_2 smooth wherever tested, its real-analyticity everywhere not re-proved"
+ },
+ "claim_one_line": "THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log|tau| to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read with it repeats along a thread at its own line with nothing chosen (1.3e-13). Both conventions keep every channel positive (22 767 nodes); they give different read-outs (paired median |z| about 20). The maximal-horoball end has a corner along the arc |tau| = 1 and its images (ratio 1.99, against 4 for a smooth end), the length-2 end does not (3.96): requiring the end to be real-analytic in tau like the rest of the frame selects the horocycle of length 2. The continuous end is gone; the remaining bit is replaced by a stated regularity condition. 0 of 19.",
+ "weave_or_thread": "weave (every thread at its own line)",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc"
+}

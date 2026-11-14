@@ -1,0 +1,13 @@
+P1, interpolation against direct evaluation at 8 random points: largest difference const 5.6e-02, canon 4.5e-02
+const: the ergodic integral over 3000 unconstrained words of 40 letters; largest sampling error 6.4e-04; nodes outside the grid 328
+canon: the ergodic integral over 3000 unconstrained words of 40 letters; largest sampling error 6.6e-04; nodes outside the grid 328
+P2, the ergodic integral of F-bar against B1924's read-out at 22 mark: median |z| 0.62, share above 2 0%, largest 1.67
+P2, the ergodic integral of F-bar against B1924's read-out at 22 twin: median |z| 0.67, share above 2 0%, largest 1.98
+P2, the ergodic integral of F-bar against B1924's read-out at 22b mark: median |z| 1.08, share above 2 17%, largest 2.67
+P2, the ergodic integral of F-bar against B1924's read-out at 22b twin: median |z| 0.60, share above 2 4%, largest 2.39
+P2, the ergodic integral of F-bar against B1924's read-out at 28 mark: median |z| 0.76, share above 2 2%, largest 2.08
+P2, the ergodic integral of F-bar against B1924's read-out at 28 twin: median |z| 0.46, share above 2 2%, largest 2.11
+P3, the ergodic integral of F-bar (canonical end) against the read-out at 16 mark: median |z| 1.13, share above 2 17%, largest 3.01
+P3, the ergodic integral of F-bar (canonical end) against the read-out at 16 twin: median |z| 0.84, share above 2 0%, largest 1.98
+P3, the ergodic integral of F-bar (canonical end) against the read-out at 22 mark: median |z| 0.89, share above 2 6%, largest 2.67
+P3, the ergodic integral of F-bar (canonical end) against the read-out at 22 twin: median |z| 1.18, share above 2 10%, largest 2.39

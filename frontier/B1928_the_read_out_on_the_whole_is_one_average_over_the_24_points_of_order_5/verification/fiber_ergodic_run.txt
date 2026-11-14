@@ -1,0 +1,9 @@
+P1, interpolation against direct evaluation at 8 random points: largest difference const 9.2e-02, canon 8.1e-02
+const: the ergodic integral over 3000 unconstrained words of 40 letters; largest sampling error 6.4e-04; nodes outside the grid 328
+canon: the ergodic integral over 3000 unconstrained words of 40 letters; largest sampling error 6.6e-04; nodes outside the grid 328
+P2, the ergodic integral of F-bar against B1924's read-out at 22 mark: median |z| 0.66, share above 2 2%, largest 2.04
+P2, the ergodic integral of F-bar against B1924's read-out at 22 twin: median |z| 0.69, share above 2 4%, largest 2.05
+P2, the ergodic integral of F-bar against B1924's read-out at 22b mark: median |z| 1.13, share above 2 10%, largest 2.48
+P2, the ergodic integral of F-bar against B1924's read-out at 22b twin: median |z| 0.56, share above 2 4%, largest 2.36
+P2, the ergodic integral of F-bar against B1924's read-out at 28 mark: median |z| 0.80, share above 2 2%, largest 2.05
+P2, the ergodic integral of F-bar against B1924's read-out at 28 twin: median |z| 0.44, share above 2 2%, largest 2.13

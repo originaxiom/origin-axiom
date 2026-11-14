@@ -1,0 +1,2 @@
+L_max: share of nodes with a channel cut 0.0000 (0 of 22767); smallest 2 pi L + c_s over all nodes and channels: positive
+L_2: share of nodes with a channel cut 0.0000 (0 of 22767); smallest 2 pi L + c_s over all nodes and channels: positive

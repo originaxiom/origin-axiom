@@ -4562,3 +4562,18 @@ planted: each caught the two numbers and missed every wording fault; their twelv
   (the read-out's measure is forced), B1914 (the line's last bit goes with the hand), B1915 (the hand's rows counted;
   corrected the same day: in the whole one bit, the hand), B1916 (this review). The owner lifted his hold on the
   targets the same day (P-840).
+
+## Currency — 2026-11-14 (B1917 to B1928, for Review 82 to read)
+
+- **The read-out on the whole (P-776, P-845):**
+  - B1919 to B1922: the channel norm in closed form, the invariant end, the frame periodic along a thread at its own line.
+  - B1924 (OPEN, corrected): the read-out settles in n, and the twin fades.
+  - B1927: the end is fixed by the fibre's geometry; analyticity selects the length-2 horocycle.
+  - B1928 (OPEN): the limit as one average over the 24 points of order 5, with a proof sketch.
+  - Owed before the budget changes: agy-002's independent computation, and the proof's check.
+- **The one-tick object (P-846):** B1926, at odd ticks the frame's matter exists only twisted by the orientation; on three
+  codes.
+- **The selection (P-831):** B1925, the rivals tested by changing the selection. SE1 is the frustrated level 5.
+- **Negatives (P-842):** B1923's ledger. B1868 and B1855 now have their second computations. The SM seat's SM-C9 is
+  provisional until agy-exp's X-C9.
+- **B1917 and B1918:** the L-function along the thread; B1918 retracted, superseded by B1919.

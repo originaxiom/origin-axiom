@@ -1,0 +1,4 @@
+theta 80 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 2.7e-01
+theta 80 deg, L_2: ratios 3.96 (0.01 to 0.02), 3.92 (0.02 to 0.04); gap on the arc 2.7e-01
+theta 70 deg, L_max: ratios 1.99 (0.01 to 0.02), 1.98 (0.02 to 0.04); gap on the arc 1.3e-01
+theta 70 deg, L_2: ratios 3.96 (0.01 to 0.02), 3.92 (0.02 to 0.04); gap on the arc 1.3e-01

@@ -17050,6 +17050,42 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1927": {
+   "slug": "the canonical end is covariant the read out needs no chosen end and analyticity picks the length two horocycle",
+   "motifs": [
+    "choice",
+    "coupling",
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1928": {
+   "slug": "the read out on the whole is one average over the 24 points of order 5",
+   "motifs": [
+    "golden",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "P1",
+    "P3"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

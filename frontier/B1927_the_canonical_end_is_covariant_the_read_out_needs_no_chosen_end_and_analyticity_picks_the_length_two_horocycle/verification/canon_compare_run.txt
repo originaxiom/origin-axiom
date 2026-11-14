@@ -1,0 +1,9 @@
+pure noise: median |z| 0.67, share above 2: 5%
+L_max, mark: n = 16 against n = 22: median |z| 0.93, share above 2: 12%, largest 2.32 (24 numbers)
+L_max, twin: n = 16 against n = 22: median |z| 1.41, share above 2: 0%, largest 1.91 (24 numbers)
+L_max: the mark against its twin at n = 16, paired: median |z| 1.36, share above 2: 12%, largest 2.04 (24 numbers)
+L_max: the mark against its twin at n = 22, paired: median |z| 1.01, share above 2: 0%, largest 1.78 (24 numbers)
+L_2, mark: n = 16 against n = 22: median |z| 1.10, share above 2: 21%, largest 2.64 (24 numbers)
+L_2, twin: n = 16 against n = 22: median |z| 1.06, share above 2: 4%, largest 2.06 (24 numbers)
+L_2: the mark against its twin at n = 16, paired: median |z| 1.44, share above 2: 8%, largest 2.39 (24 numbers)
+L_2: the mark against its twin at n = 22, paired: median |z| 0.87, share above 2: 0%, largest 1.46 (24 numbers)

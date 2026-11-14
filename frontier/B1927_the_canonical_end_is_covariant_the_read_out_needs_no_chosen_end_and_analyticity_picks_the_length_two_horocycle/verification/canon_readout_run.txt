@@ -1,0 +1,5 @@
+E1, periodicity at the golden thread's own line with the canonical end: largest |log ratio| 1.3e-13
+n = 16, mark: 60 words; largest sampling error 1.5e-02; nodes past the grid's top (end held at its last value): 0 of 22773
+n = 16, twin: 60 words; largest sampling error 1.6e-02; nodes past the grid's top (end held at its last value): 0 of 45540
+n = 22, mark: 60 words; largest sampling error 1.3e-02; nodes past the grid's top (end held at its last value): 0 of 77318
+n = 22, twin: 60 words; largest sampling error 1.1e-02; nodes past the grid's top (end held at its last value): 0 of 109096
