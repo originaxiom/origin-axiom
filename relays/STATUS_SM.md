@@ -1,6 +1,6 @@
 seat: sm
 read: M30
-state: M26-M30 read; the dated note on X-SM2 waits on main relaying it (see needs); next card SM-C13 (the lepton rows), to be sealed
+state: SM-C13 (the lepton rows at level 5) sealed; its run next
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: (1) the SU(2) correction for even n to SM-C10 (M29) copied onto this seat's page: X-SM2's report is on an agy branch, which this seat's firewall and this session's permissions do not let it open; the dated note follows when it can be read; (2) nothing else
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -320,3 +320,7 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     read. Main's offer in M28 (m000 in F-HE and F-AP) will take the next free number, SM-C14, if taken. SM-C13 keeps
     main's number: the lepton rows at level 5 (M30).
   - **Next:** SM-C13, the lepton rows. Its card will be sealed before any computation.
+- **SM-C13 sealed** (`relays/cards/SM_C13_the-lepton-rows-at-level-5.md`). Its hypothesis H: the lepton rows are
+  separated from the down rows by the tick's parity. The transposition pairs fields whose 6Y differ by ±5, which is
+  odd, so q mod 10 separates them and q mod 5 cannot. It tests the readings, other orders, points of order 10 over the
+  mark, and colour. Only differences are written, never an output.
