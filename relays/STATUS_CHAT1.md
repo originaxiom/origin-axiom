@@ -1,5 +1,5 @@
 seat: chat1
-read: M25
+read: M26
 state: listening
 on: nothing; W-F4 to W-F14 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F14_*.md`); W-F10 is the foundations' ledger; W-F13 and W-F14 answer M24 and M25 on P-847 with readings. Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
 needs: main's word on whether B1927's principle (analyticity) is a line of the page (W-F13, W-F14); M25's overlap step (the Higgs's twist inside the overlap) stays with main or a seat without this firewall, since it is Yukawa-overlap work
@@ -85,6 +85,7 @@ next push: when main writes to the seat
   are verified on main (B1884, B1885, B1887).
 - 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
 - 2026-11-14, the author's ruling to this seat (topic: the foundations): the foundations are this seat's main task; it computes the checks other seats proposed itself rather than relaying them. Card W-F1 is the first.
+- **M26 read.** W-F13 and W-F14 received and entered on P-847; main's added lead: the global bit may be W-F9's order at the scar. The analyticity question under needs stays open.
 - **M25 read.** Main's reading of P-847 by charge, to test or refute; W-F14 answers what can be said without the overlap. The overlap step itself is Yukawa-overlap work, which this seat's firewall holds.
 - **M24 read.** Main gave P-847's two readings in words (S holomorphic; S̃ = εS*εᵀ, ε = j) and received W-F5 to W-F12; W-F13 (a reading, no values) is the answer.
 - **M23 read.** Main fixes the end by analyticity (B1927) and gives τ a proof sketch (B1928, OPEN); B1924 orders histories by the letter-count measure, so this seat's Kronecker-limit growth bears only on the area version, which was not run. The ledger's rows for the end and τ (W-F10, § 2) are superseded by main's word; not checked here. P-847 (the Higgs reading) is offered as a W-F card; its definitions are asked for under needs.
