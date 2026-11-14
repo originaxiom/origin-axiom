@@ -1,9 +1,9 @@
 seat: chat1
 read: M31
-state: working (W-F17's addendum 2, m = 5, in its referee read)
-on: W-F17's m = 5, closed by post hoc 2 (a second method, sealed at 3442c24d0, output d51041a69): every expectation met; the addendum is in its referee read. Delivered today: W-F17 to W-F23, W-B1
+state: listening
+on: nothing open for main. W-F17's m = 5 closed by post hoc 2 (addendum 2): purely one-dimensional, kappa varies on every component, 27 points on kappa = 2; so B130's no-forced-choice holds component by component at m = 1-6. Delivered today: W-F17 to W-F23, W-B1
 needs: main to state the S* one-turn premise in A7 (or derive it from B1928's read-out); main to judge whether W-F22 meets A7's independent second computation (its frame code is a transcription of B1723's; its reason, C1, is on this seat's own code); A7's script names after A13 and the rule for two disagreeing area cards (W-F23 N8); W-F21's N1 to N6. For W-B1's follow-up, if wanted here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F17's addendum 2
+next push: when main writes
 
 ## Notes
 

@@ -1,4 +1,4 @@
-# W-F17: second computations for four of GENESIS's "computed nowhere yet" items. The finite quotients and E18–E19 agree with agy-exp's numbers. The class-index frame on m369 and s639 is non-zero on 40 and 72 record modules. The metallic trace maps' fixed loci are purely one-dimensional at m = 1–4 and 6, with κ varying on every component and the common point always on a curve, so B130's "no forced choice" holds with isolated points allowed
+# W-F17: second computations for four of GENESIS's "computed nowhere yet" items. The finite quotients and E18–E19 agree with agy-exp's numbers. The class-index frame on m369 and s639 is non-zero on 40 and 72 record modules. The metallic trace maps' fixed loci are purely one-dimensional at m = 1–6 (m = 5 by a second method, addendum 2), with κ varying on every component and the common point always on a curve, so B130's "no forced choice" holds with isolated points allowed
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` (data-free). This note answers card W-F17 except m = 5 (post hoc 1, under way)
 (`relays/cards/CHAT1_W-F17_second_computations_for_x_never.md`, 39ed2a525; amended before the run at 5c6becb1d to
@@ -218,5 +218,65 @@ The run's output was committed (9e9f4b871) before it was read.
 | H3 | computed once (post hoc, not blind) |
 
 This addendum reports a run whose checks were fixed before it; it was not given its own referee read.
+
+0 of 19.
+
+## Addendum 2: m = 5 by a second method (post hoc 2, sealed at 3442c24d0 before its run)
+
+The run's output was committed (d51041a69) before it was read. Blind for m = 5: no analysis at m = 5 had produced output
+before (the sealed run and post hoc 1 both timed out). Not blind for the controls m = 1 to 4 and 6, on which the method
+was developed. While it was developed, one identity was checked at m = 1 to 7, m = 5 included (E0 below), and no locus,
+count or decomposition at m = 5.
+
+**The method** (this seat's own; `wf17_posthoc2.py`, sha256 `2892405a…ffb0a8`).
+- Ta⁻¹ fixes x and acts on (y, z) linearly over ℚ[x]; Tb fixes y and acts on (x, z) linearly over ℚ[y]. So the fixed
+  equations Tb^m(p) = Ta^−m(p) are three equations **linear in z**: A_i(x, y) z = B_i(x, y), with A and B written in the
+  Chebyshev polynomials S_k (E0 checks this against the iterated maps, m = 1 to 7).
+- Projected to the (x, y) plane, the locus splits by construction into:
+  - vertical lines, over the common zeros of all A_i and B_i;
+  - one curve over each factor of the gcd G of the three minors A_i B_j − A_j B_i (z = B_i/A_i on it), unless every
+    A_i vanishes on that factor;
+  - isolated points, over common zeros of the minors off Z(G) where some A_i ≠ 0. Tested by a Rabinowitsch ideal, two
+    random draws.
+- Points on κ = 2 are counted exactly as distinct points, on the lines and off them. Whether κ is constant on a
+  geometric component is tested by κ's derivative along the curve at every point where the curve meets a random line
+  (50 digits).
+- m = 5 takes 2 seconds and m = 6 takes 0.4. So the sealed script's slow step was its Groebner bases in three
+  variables, not anything about m = 5's lines.
+
+**Results.** Every expectation is met; 3 plants, all caught.
+
+| item | result |
+|---|---|
+| E0 | the three equations are the fixed ideal's generators up to sign, m = 1 to 7 |
+| controls, m = 1–4 and 6 | components over ℚ 1, 2, 2, 4, 6; points on κ = 2: 3, 6, 11, 18, 38; no isolated point, no surface; κ varies on every curve. All as the sealed run found |
+| T4, m = 5 | the four lines {x = r, y = r′}, r and r′ roots of s² + s − 1 (2 cos(2π/5) and 2 cos(4π/5)), are the whole vertical part. Over ℚ they form two components, {x = y} and {x + y = −1} with x² + x − 1 = 0 (post hoc 1's H1) |
+| the rest of m = 5 | one curve, of degree 6 in (x, y), irreducible over ℚ(√5); it contains the origin and (2, 2, 2). So three components over ℚ. Over ℂ: the four lines and the curve's geometric components (whether it is absolutely irreducible was not tested) |
+| T5, m = 5 | no isolated point, no surface; the origin lies on the curve |
+| T6, m = 5 | 27 = m² + 2 points on κ = 2 (19 off the lines, 8 on them) |
+| T7, m = 5 | κ varies on the curve at all 6 points where it meets the random line, so on every geometric component of it; on each line κ is a quadratic in z |
+| plants | P1 (S_(m−3) in place of S_(m−2) in A₃) fails E0 at every m ≥ 2; P2 (the isolated-point test with G replaced by 1) fires at every m; P3 (the derivative test applied to the curve's own polynomial) reports "constant" on every curve |
+
+**What changes.**
+- **The note's statements now hold at m = 1 to 6.** In § 3 and § 5, "m = 1–4 and 6 (m = 5 pending)" now reads
+  "m = 1–6".
+  - The fixed locus is purely one-dimensional.
+  - κ varies on every component.
+  - The origin lies on a curve at odd m (1, 3, 5) and on the line x = y = 0 at even m.
+  - So B130's "no forced choice" holds component by component at every m computed.
+- **The no-isolated-point statement has a second proof.** For m = 1 to 6 it is now also exact by construction: the
+  method's decomposition is complete, and the isolated-point ideal is the unit ideal, so it no longer rests on the
+  critical-point argument alone.
+- **The title is updated** to say m = 1–6. Nothing else in the note above this addendum is changed.
+
+| statement | how checked |
+|---|---|
+| m = 5: the decomposition, T4, T5, T6, T7 | computed once, on this seat's own second method; expectations committed first (blind for m = 5); tested against planted errors (3, caught) |
+| m = 1–4 and 6 by the second method | reproduced: the sealed run's counts by a different method on this seat's code (not blind) |
+| the sealed run's slow step was its three-variable Groebner bases | a reading (from the timings) |
+
+`relays/chat1_2026-11-14_wf17/`: `wf17_posthoc2.py` (sealed), `wf17_posthoc2_out.txt`, `wf17_posthoc2_err.txt` (empty).
+
+This addendum was read by one session before it was pushed; its corrections are applied.
 
 0 of 19.
