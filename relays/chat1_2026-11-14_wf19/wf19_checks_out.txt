@@ -1,0 +1,18 @@
+golden level 1 | det -1 | |T| 1 | exponent 1 | conjugator checked
+golden level 3 | det -1 | |T| 4 | exponent 2 | conjugator checked
+golden level 5 | det -1 | |T| 11 | exponent 11 | conjugator checked
+silver level 1 | det -1 | |T| 2 | exponent 2 | conjugator checked
+silver level 3 | det -1 | |T| 14 | exponent 14 | conjugator checked
+bronze level 1 | det -1 | |T| 3 | exponent 3 | conjugator checked
+bronze level 3 | det -1 | |T| 36 | exponent 18 | conjugator checked
+prime 55456633
+{'level': ('golden', 1), 'T': 1, 'e': 1, 'chars': 2, 'ext': 1, 'law_bad': 0, 'doublets': 2, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 0, 'n1_predicted': 0, 'gaps': {-1: 1, 1: 1}, 'gaps_predicted': {-1: 1, 1: 1}} | 0.0 s
+{'level': ('golden', 3), 'T': 4, 'e': 2, 'chars': 16, 'ext': 4, 'law_bad': 0, 'doublets': 64, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 6, 'n1_predicted': 6, 'gaps': {-2: 3, -1: 4, 0: 50, 1: 4, 2: 3}, 'gaps_predicted': {-2: 3, -1: 4, 0: 50, 1: 4, 2: 3}} | 0.1 s
+{'level': ('golden', 5), 'T': 11, 'e': 11, 'chars': 242, 'ext': 11, 'law_bad': 0, 'doublets': 2662, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 90, 'n1_predicted': 90, 'gaps': {-2: 10, -1: 11, 0: 2620, 1: 11, 2: 10}, 'gaps_predicted': {-2: 10, -1: 11, 0: 2620, 1: 11, 2: 10}} | 3.0 s
+{'level': ('silver', 1), 'T': 2, 'e': 2, 'chars': 8, 'ext': 2, 'law_bad': 0, 'doublets': 16, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 0, 'n1_predicted': 0, 'gaps': {-2: 1, -1: 2, 0: 10, 1: 2, 2: 1}, 'gaps_predicted': {-2: 1, -1: 2, 0: 10, 1: 2, 2: 1}} | 3.0 s
+{'level': ('silver', 3), 'T': 14, 'e': 14, 'chars': 392, 'ext': 14, 'law_bad': 0, 'doublets': 5488, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 156, 'n1_predicted': 156, 'gaps': {-2: 13, -1: 14, 0: 5434, 1: 14, 2: 13}, 'gaps_predicted': {-2: 13, -1: 14, 0: 5434, 1: 14, 2: 13}} | 9.5 s
+{'level': ('bronze', 1), 'T': 3, 'e': 3, 'chars': 18, 'ext': 3, 'law_bad': 0, 'doublets': 54, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 2, 'n1_predicted': 2, 'gaps': {-2: 2, -1: 3, 0: 44, 1: 3, 2: 2}, 'gaps_predicted': {-2: 2, -1: 3, 0: 44, 1: 3, 2: 2}} | 9.5 s
+{'level': ('bronze', 3), 'T': 36, 'e': 18, 'chars': 1296, 'ext': 36, 'law_bad': 0, 'doublets': 46656, 'I_nonzero': 0, 'formula_failures': 0, 'table_failures': 0, 'n_equals_1': 1190, 'n1_predicted': 1190, 'gaps': {-2: 35, -1: 36, 0: 46514, 1: 36, 2: 35}, 'gaps_predicted': {-2: 35, -1: 36, 0: 46514, 1: 36, 2: 35}} | 122.0 s
+golden level 4 (even, w = 1), record modules: {'modules': 12, 'formula_failures': 0, 'hist': {-1: 4, 0: 4, 1: 4}}
+plant (h^0(P; V*) in place of h^0(P; V* (x) w)): formula failures 58 | fires: True
+holds: {'E0': True, 'E1': True, 'E2': True, 'E3': True, 'E4': True} | total seconds 122.0
