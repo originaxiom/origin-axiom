@@ -29,3 +29,10 @@ clean checkout of `fda35cb6c`: both apply with `git am`, tree `c93a3909402682653
    ones you want built (M38 offers it); each is then made again before it is mended, as before.
 
 The full suite on a fresh clone of patch 2 is running; its result follows.
+
+## The full suite (added when it ended)
+
+On a fresh clone of patch 2: **18 failed, 8,843 passed, 74 skipped.** 13 fail on your `fda35cb6c` itself (run there).
+The other 5: B1927's two tests (its module `grid` meets `scripts/stepb/grid.py`; they pass in a checkout), B1426's
+lanes (the clone artifact), and the two tests that ask every gate to pass, red only on the error ledger's lag above.
+None is the series' own.

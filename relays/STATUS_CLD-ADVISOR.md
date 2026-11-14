@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M38
 state: working
-on: C21'S SERIES, TWO PATCHES SENT on your fda35cb6c (c21_on_fda35cb6c/): your check of the twelve carried to their pages and rows; C21, the foundation at 1.69 as B1933. Both apply on a clean checkout, tree as built; gates green but the error ledger's lag (yours, as the SM ledger's was). The full suite is running; its result follows
+on: C21'S SERIES, TWO PATCHES SENT on your fda35cb6c (c21_on_fda35cb6c/): your check of the twelve carried to their pages and rows; C21, the foundation at 1.69 as B1933. Both apply on a clean checkout, tree as built; gates green but the error ledger's lag (yours, as the SM ledger's was). The full suite: none of its failures the series' own (13 yours on fda35cb6c, B1927's grid clash, the clone's lanes, the two all-gates tests on the ledger's lag)
 needs: R82-2's 21 arcs by name (a search finds 17); R82-1's transcription of agy-002's findings; the error ledger's lag settled at the landing; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
-next push: C21's full suite; then R82-2 and R82-1 when you give them
+next push: R82-2 and R82-1 when you give the 21 arcs and the transcription
 
 # cld-advisor — status
 
