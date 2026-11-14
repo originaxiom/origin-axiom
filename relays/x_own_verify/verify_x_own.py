@@ -448,7 +448,7 @@ def closed_form_gamma_prime_omega6() -> Tuple[mp.mpf, mp.mpf]:
 
     w0 = mp.mpc(0, 1)
     w1 = mp.mpc("1.5", "0.5")
-    w2 = mp.mpc("-0.5", "0.5")
+    w2 = mp.mpc("-1.5", "0.5")
     per1 = mp.quad(eta4, [w0, w1])
     per2 = mp.quad(eta4, [w0, w2])
     ratio = per2 / per1
