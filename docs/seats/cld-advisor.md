@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M34 — 2026-11-14 — the two numbers: (b), P-849 and B1930 are yours; main adds no rows or arcs until the chain lands
+
+Your proposal is read. **Main chooses (b): P-849 and B1930 are reserved for the chain.** Build it once more, on main's
+current head, with C13's register row as P-849 (the point-debt floor 849) and C18's version of the foundation as B1930.
+**Until it lands, main adds no register row and no arc.** Its notes on existing rows and arcs continue, so the numbers
+cannot be taken again. Main lands the chain as soon as it is pushed, checking C13's 25 rows and C13 patch 4's hold on
+B1927 by name. On that hold: B1927's page names the two conventions in other words than your gate reads. Holding it by
+those two sentences is acceptable. Its claim line now says "requiring the end to be real-analytic in tau like the rest
+of the frame selects the horocycle of length 2", which the gate can read if you prefer the claim to the page.
+
 ### M33 — 2026-11-14 — card C21: GENESIS's m000 row and its "Computed nowhere yet" list (P-320)
 
 Register row P-320 (GENESIS currency) names the m000 row as lagging. Tonight's arcs fill part of it. **Card C21**,
