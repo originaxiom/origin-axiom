@@ -142,3 +142,48 @@ def test_the_verdict_and_the_gates_of_the_four_cases_that_name_none_are_held():
     for k, (gates, the_one) in want.items():
         other = sorted(x for x in RUN[k]["gates newly failing"] if x != "attribution")
         assert other == gates and the_one in other, (k, other)
+
+
+# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A6, not checked by main, made again by the
+# builder in a scratch checkout).  Main wrote that its wider plants against this lock are caught, and did not make the
+# reader's own.  Made again: the verdict line with its first 96 characters kept and the rest replaced passes; the verdict
+# line with every "caught" turned into "not caught" passes; the page with "still pass" turned into "ARE REFUSED" passes (a
+# plant of main's own that was never made: its words were not the page's).  The reader's third, the rows of the cases
+# deleted from the page, is caught as the builder made it, ten rows or all thirteen.
+_THE_LINE_SAYS = ("THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED",
+                  "ALL THIRTEEN OF MAIN'S UNSEEN CASES ARE CAUGHT, twelve by a gate that looks for the fault and one by accident",
+                  "ONE THING THE RULE DOES NOT SEE, FOUND BY MAIN READING THE PATCHES AND THEN RUN",
+                  "It is the seat's to close.")
+_THE_PAGE_SAYS = ("- **All thirteen of main's unseen cases are caught.** Twelve by a gate that looks for the fault. One by accident",
+                  "- **One thing the rule does not see, found by reading and then run.**",
+                  "The five the series set out to close are caught. The thirteen that still pass are for the series after it.",
+                  "the lock asserts that both cases still pass")
+
+
+def _what_the_verdict_line_and_the_page_do_not_say(verdict, page):
+    line, flat = " ".join(str(verdict.get("claim_one_line", "")).split()), " ".join(page.split())
+    out = [] if line.startswith(_THE_LINE_SAYS[0]) else ["the verdict line does not open as it did"]
+    out += ["the verdict line does not say: " + s for s in _THE_LINE_SAYS[1:] if s not in line]
+    out += ["the page does not say: " + s for s in _THE_PAGE_SAYS if s not in flat]
+    if line.count("NOT CAUGHT") or line.count("not caught"):
+        out.append("the verdict line says of something that it is not caught")
+    return out
+
+
+def test_the_verdict_line_and_the_page_are_held_by_their_sentences():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert _what_the_verdict_line_and_the_page_do_not_say(v, F) == []
+    assert sum(1 for k in CASES if RUN[k]["CAUGHT"]) == len(CASES) == 13            # "all thirteen" is the run's count
+    opening = "THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED"
+    as_the_lock_asked = lambda w: w["verdict"] == "PROVED" and w["claim_one_line"].startswith(opening) and w["claim_one_line"].endswith("0 of 19.")
+    line = v["claim_one_line"]
+    assert len(opening) == 96
+    for what, w, page in (
+            ("the verdict line with its first 96 characters kept and the rest replaced", dict(v, claim_one_line=line[:96] + " AND FOUND WANTING: NONE OF MAIN'S CASES IS CAUGHT. 0 of 19."), F),
+            ("the verdict line with every 'caught' turned into 'not caught'", dict(v, claim_one_line=line.replace("caught", "not caught")), F),
+            ("the verdict line with its count of cases changed", dict(v, claim_one_line=line.replace("ALL THIRTEEN OF MAIN'S UNSEEN CASES ARE CAUGHT", "NONE OF MAIN'S UNSEEN CASES IS CAUGHT")), F),
+            ("the page with 'still pass' turned into 'ARE REFUSED'", v, re.sub(r"still(\s+)pass(es)?", r"ARE\1REFUSED", F)),
+            ("the page's bullet on the thirteen cases turned round", v, F.replace("**All thirteen of main's unseen cases are caught.**", "**None of main's unseen cases is caught.**"))):
+        assert (w, page) != (v, F), what
+        assert as_the_lock_asked(w), what                                         # what the lock asked of the verdict before passes each of them
+        assert _what_the_verdict_line_and_the_page_do_not_say(w, page), what
