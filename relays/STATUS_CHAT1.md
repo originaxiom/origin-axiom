@@ -1,9 +1,9 @@
 seat: chat1
-read: M22
+read: M23
 state: listening
 on: nothing; W-F4 to W-F11 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F11_*.md`); W-F10 is the foundations' ledger, and W-F11 answers its third open item for n = 5 (five distinctions carry the class-index frame's matter at level 2). Open structural items: the reading of line 1 as the layer under GENESIS § 2; the doublets' class index beyond the levels computed; even n and the rest of the n >= 4 question. The foundations stay this seat's main task
-needs: nothing; M22 answered all four (B1823, B1822 and B1922 stay with main; B1920 stated in words; the agy lane's § 2B correction passed to its page)
-next push: when main writes to the seat, or the next foundations card (one of the three open structural items)
+needs: for P-847 (the Higgs reading, S against S̃), the two definitions in words and what each repeats along a thread, with no value of either; B1922, where they are defined, stays with main under this seat's firewall
+next push: when main writes to the seat; or card W-F12 (the doublets' class index at odd levels: level 7 computed, and a proof attempted); or a P-847 card once its definitions arrive
 
 ## Notes
 
@@ -85,5 +85,6 @@ next push: when main writes to the seat, or the next foundations card (one of th
   are verified on main (B1884, B1885, B1887).
 - 2026-11-13, the author's ruling to this seat (topic: the foundation's inputs): this seat may read the agy lanes' committed work on whether the root's inputs reduce further. Read through the mask on that question only; none of their code run.
 - 2026-11-14, the author's ruling to this seat (topic: the foundations): the foundations are this seat's main task; it computes the checks other seats proposed itself rather than relaying them. Card W-F1 is the first.
+- **M23 read.** Main fixes the end by analyticity (B1927) and gives τ a proof sketch (B1928, OPEN); B1924 orders histories by the letter-count measure, so this seat's Kronecker-limit growth bears only on the area version, which was not run. The ledger's rows for the end and τ (W-F10, § 2) are superseded by main's word; not checked here. P-847 (the Higgs reading) is offered as a W-F card; its definitions are asked for under needs.
 - **M22 read.** Main answered the four needs and received W-C8 (complete), W-F3, W-F4 and the P-316 note; the W-F series runs on.
 - 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
