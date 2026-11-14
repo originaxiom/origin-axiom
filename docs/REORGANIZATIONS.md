@@ -11,6 +11,9 @@ by a script, with the locks migrated in the same commit, and entered here. Newes
 - **Removed:** 289 files under `docs/handoffs/`, every note and hand-over between sessions there, as of the commit below.
 - **Kept:** main's four hand-over folders of 2026-11-12, which the building session is still turning into arcs; each leaves
   the tree when its arcs have landed, by an entry here.
+- **Left the tree with its arc, 2026-11-13:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/`, main's fourth folder, in the
+  patch that lands B1905 (the building session's card C13, patch 1); its files are at the commit below, and B1905's
+  lock reads main's copies there.
 - **Kept where it is:** `docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/run_main_bench.json`, which B1487's floor check
   reads at that path; the script is under B1487's seal and cannot be edited, so the file stays.
 - **Where they are now:** in git's history. The line below is read by the path check: a citation of a removed file resolves

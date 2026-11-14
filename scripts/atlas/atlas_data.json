@@ -16664,6 +16664,28 @@
    "status": "open",
    "domain": "topology"
   },
+  "B1905": {
+   "slug": "selection and chirality across the record",
+   "motifs": [
+    "monoid",
+    "closing",
+    "choice",
+    "coupling",
+    "action",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B287",
+    "B864",
+    "B932",
+    "B997"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B1906": {
    "slug": "the four channels in closed form and three theorems checked",
    "motifs": [
