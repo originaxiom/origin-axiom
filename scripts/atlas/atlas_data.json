@@ -17239,6 +17239,17 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1935": {
+   "slug": "the modular group permutes the frames channels as s3 around a fixed centre and the sectors coincide only at line orders two to seven",
+   "motifs": [
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "numerology",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "quantum"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

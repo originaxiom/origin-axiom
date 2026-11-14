@@ -1,0 +1,3 @@
+T: channels (1, i, j, k) -> ('1', 'i', 'k', 'j')  on 27 cases; spread of the common factor max 2.2e-15; next-best permutation's spread min 1.6e-02
+S: channels (1, i, j, k) -> ('1', 'j', 'i', 'k')  on 27 cases; spread of the common factor max 3.2e-15; next-best permutation's spread min 1.6e-02
+the centre -I (line -> -line), each reading kept: max |log| per reading: {'S': '2.4e-14', 'St': '2.9e-14', 'S|S': '1.5e-14', 'S|St': '1.5e-14', 'St|S': '8.7e-15', 'St|St': '2.1e-14'}

@@ -1,0 +1,27 @@
+{
+ "id": "B1935",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1724",
+  "B1906",
+  "B1728",
+  "B1934",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's frame with the closed-form channel norm (B1928's import)",
+  "object": "the channels' modular action, the centre's action, the Higgs triplet's level, the sectors' coincidences",
+  "reach": "class",
+  "hypotheses": "27 cases for the channels; 9 points and lines for the centre; B1724's committed covariance; exact arithmetic for the coincidences (N to 60)"
+ },
+ "claim_one_line": "THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO 7: T fixes channels 1 and i and swaps j and k, S fixes 1 and k and swaps i and j (27 cases, common factor to 3e-15); the centre -I leaves every reading's outputs unchanged (3e-14) and exchanges no reading; T's eigenphases on the Higgs triplet are 1/8, 3/8, 7/8, so frame C uses no level-5 icosahedral triplet; with the frame's charges, up and down coincide at 2, 3, 6, up and leptons (negated and transposed) at 7, down and leptons (transposed) at 5, and no two sectors at any order above 7. No value computed. 0 of 19.",
+ "weave_or_thread": "neither (structure of the frame)"
+}

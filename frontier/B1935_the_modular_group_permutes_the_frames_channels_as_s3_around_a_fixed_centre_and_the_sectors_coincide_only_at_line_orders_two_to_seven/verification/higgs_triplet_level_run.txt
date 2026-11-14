@@ -1,0 +1,1 @@
+T's eigenphases on the Higgs triplet (over 2 pi): [0.125, 0.375, 0.875] ; multiples of 1/8: True ; multiples of 1/5: False

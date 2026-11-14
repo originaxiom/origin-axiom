@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1630 |
-| … PROVED | 1134 |
+| arcs with a verdict file | 1631 |
+| … PROVED | 1135 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
@@ -42,7 +43,6 @@
 | B1925 | PROVED | “THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol…” |
 | B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
 | B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
-| B1922 | PROVED | “THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, night: REVIEW 82 ENTERED (B1931); THE BIG RUN'S VALUES COMMITTED BEFORE ANY COMPARISON (B1932); LEVEL 5'S STRUCTURE (B1934).** Review 82's two readers, of the other model family, each caught the five planted faults they could reach. Frame C's seven values are committed with the exact channel weight (the truncated weight had moved four of them by about 1 %), in four declared options (two Higgs worlds, two measures), with the comparison's rule and script sealed beside them; nothing compared. B1934: level 5's Weil representation splits as an icosahedral triplet in SO(3) and the spinor doublet in SU(2); the hand is the golden field's quadratic character; the lepton pa…”
+“LATEST (2026-11-14, S306p, late night: THE FRAME'S CHANNELS UNDER THE MODULAR GROUP, THE CENTRE, AND WHICH LINE ORDERS MAKE SECTORS COPY EACH OTHER (B1935).** The modular group permutes the frame's channels i, j, k as S3 and fixes channel 1; the centre -I flips matter's charges and cannot reach the Higgs world; the Higgs triplet is of level 8, so frame C uses no level-5 icosahedral triplet; the sectors coincide only at line orders 2 to 7, and at the read-out's order 5 only the leptons and the down quarks. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 
