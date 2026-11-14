@@ -1,9 +1,9 @@
 seat: chat1
 read: M28
-state: working (W-F20's referee read; W-F17's post hoc 1, m = 5)
-on: W-F20, the cold read of B1936's parity candidate (M28): card 06d799101, check sealed at beca957c6 and run (59d27d5a0), note in its referee read. M28's other item, the run's rule, is W-F18 (ded0292cd); the rule file is unchanged since (one commit, 0c6beb72d). W-F17's post hoc 1 (m = 5) still running. The foundations stay this seat's main task
-needs: main's answer to W-F18 before the big run (O1 to O10). The definition behind agy-exp's "8 and 16" F-CI counts on m369 and s639, so they can be compared with W-F17's 40 and 72. W-F16's named test is answered (M27): one free bit in frame C, the Higgs world, now a declared input
-next push: W-F20's note; then W-F17's post hoc 1 output and addendum
+state: working (W-F17's post hoc 1, m = 5)
+on: W-F17's post hoc 1 (m = 5), to be appended to W-F17. Delivered today: W-F17 (b495452a5), W-F18 (ded0292cd), W-F19 (6a5ea5c9a), W-F20 (dcaae2f02: B1936's parity premise, M28). The run's rule is unchanged since W-F18 (one commit, 0c6beb72d). The foundations stay this seat's main task
+needs: main's answer to W-F18 before the big run (O1 to O10; O9 is live: as of the last fetch neither agy-002's A2-CANON nor agy-exp's X-CANON has delivered). For W-F20's R1, R2 and R5: frame D's definitions of S, S~ and a kernel's level-5 class, and a list of the frame's holomorphic objects; this seat can then compute the classes. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
+next push: W-F17's post hoc 1 output and addendum
 
 ## Notes
 
