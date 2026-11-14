@@ -1,0 +1,28 @@
+{
+ "id": "B1904",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1891",
+  "B1886",
+  "B1898"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat: its finding 7 of Review 80 (relays/REVIEW_80_CHAT1.md @ 3c0689af4), checked by main",
+  "the builder of the enforcement package (cld-advisor): this arc, put together from main's script and at main's word"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc (the seven pairs of passages and the rule for the locks); put together as an arc by the building session, cld-advisor (register row P-832)",
+ "scope": {
+  "frame": "none (the foundation's statement)",
+  "object": "GENESIS.md at version 1.67",
+  "reach": "general",
+  "hypotheses": "wording only; no computation is made here. A status is read as the cell's label, the cell up to its first round bracket. Not covered: any other quotation of the owner that may stand in the foundation, which was not counted."
+ },
+ "claim_one_line": "THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS, NO ITEM ADDED AND NO STATUS CHANGED. One of the seven stood in the status cell of row FK13, in the bracket after its label: the account is reworded and the label is as it was. The locks of versions 1.65 and 1.66 compare a row that a version names by its label, and this arc's lock holds the cell's new words by their hash. Found by a session that built none of it, checked by main. 0 of 19.",
+ "weave_or_thread": "n/a (wording of the foundation; no result is restated)"
+}

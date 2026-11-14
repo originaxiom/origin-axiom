@@ -30,12 +30,20 @@ def test_no_status_cell_changed_from_version_1_65():
     assert len(snap["identifier_rows"]) == 32 and len(snap["status_table_rows"]) == 21
     for kind, now in (("identifier_rows", now_id), ("status_table_rows", now_tab)):
         gone = sorted(set(snap[kind]) - set(now))
-        changed = {k: (snap[kind][k], now[k]) for k in snap[kind] if k in now and snap[kind][k] != now[k]}
-        assert gone == [] and changed == {}, (kind, gone, changed)
+        # CHANGED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18).  It read:
+        #     changed = {k: (snap[kind][k], now[k]) for k in snap[kind] if k in now and snap[kind][k] != now[k]}
+        #     assert gone == [] and changed == {}, (kind, gone, changed)
+        # Version 1.67 puts the account in the bracket of FK13's status cell in plain words; its label is as it was.  What
+        # this lock protects is that no STATUS changes without a version saying so.  A row that a version names (beside
+        # the snapshot's builder) is compared by its label, every other row by its whole cell.  The message names rows,
+        # not cells: a cell of the snapshot can hold words that are printed nowhere.
+        changed = sorted(k for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k]))
+        assert gone == [] and changed == [], (kind, gone, changed)
     assert set(now_id) == set(snap["identifier_rows"])                      # and no item is added
     # that this can fail: a cell changed in what is read now is reported
     planted = dict(now_id, SE2="DERIVED")
-    assert [k for k in snap["identifier_rows"] if snap["identifier_rows"][k] != planted.get(k)] == ["SE2"]
+    # (2026-11-12, version 1.67: compared as the lines above compare.  It read: snap["identifier_rows"][k] != planted.get(k))
+    assert [k for k in snap["identifier_rows"] if bs.differs(k, snap["identifier_rows"][k], planted.get(k))] == ["SE2"]
 
 
 # ---- Review 80 (2026-11-12; a reader's finding F6, its second part, not checked by main, made again here).  The test above
@@ -74,7 +82,7 @@ def _what_differs_from_version_1_65(text):
     out = []
     for kind, now in (("identifier_rows", bs.identifier_rows(text)), ("status_table_rows", bs.status_table_rows(text))):
         out += ["%s: gone: %s" % (kind, k) for k in sorted(set(snap[kind]) - set(now))]
-        out += ["%s: changed: %s" % (kind, k) for k in snap[kind] if k in now and snap[kind][k] != now[k]]
+        out += ["%s: changed: %s" % (kind, k) for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k])]      # until version 1.67: snap[kind][k] != now[k]
         out += ["%s: added: %s" % (kind, k) for k in sorted(set(now) - set(snap[kind]))]
     out += ["a row that is not read, at line %d" % n for n in _rows_that_are_not_read(text)]
     return out
@@ -85,7 +93,7 @@ def _as_the_test_above_compares(text):
     bs, snap = _the_snapshots_builder()
     now_id, now_tab = bs.identifier_rows(text), bs.status_table_rows(text)
     for kind, now in (("identifier_rows", now_id), ("status_table_rows", now_tab)):
-        if sorted(set(snap[kind]) - set(now)) or {k for k in snap[kind] if k in now and snap[kind][k] != now[k]}:
+        if sorted(set(snap[kind]) - set(now)) or {k for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k])}:      # until version 1.67: the whole cell
             return False
     return set(now_id) == set(snap["identifier_rows"])
 

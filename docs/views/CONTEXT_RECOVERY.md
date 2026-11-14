@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1624 |
-| … PROVED | 1128 |
+| arcs with a verdict file | 1625 |
+| … PROVED | 1129 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |

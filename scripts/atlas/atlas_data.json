@@ -16652,6 +16652,18 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1904": {
+   "slug": "the foundation at version 1 67",
+   "motifs": [
+    "closing",
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B1906": {
    "slug": "the four channels in closed form and three theorems checked",
    "motifs": [
