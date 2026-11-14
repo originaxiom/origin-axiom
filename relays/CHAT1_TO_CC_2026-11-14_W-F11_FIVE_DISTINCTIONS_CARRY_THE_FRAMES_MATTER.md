@@ -7,7 +7,8 @@ W-F10 left open.
 **How it was checked.** Computed once, on this seat's own code; expectations committed first.
 - **The sealed run.** The script (sha256 `3f2bbd0b…5d541caea07`, pushed at 056d4bbdd) was run once; its output was
   committed (ad1e5578e) before it was read. All four expectations were met. Two of them, V3 and V4, were stated as
-  predictions by analogy, to be reported either way.
+  predictions (V3 by analogy with the once-punctured torus), to be reported either way. V4's balance is forced by
+  duality (V(ℓ, α)* ≅ V(ℓ, ℓ/α)), so it checks the code; its content is that some I ≠ 0.
 - **The method.** Exact ranks over two prime fields (20307251 and 26100001); the two give the same counts. The helpers
   are W-C8 part 2a's, taken by text; the cohomology routine is generalised here to any number of fibre generators.
 - **The control.** The same code at n = 3 reproduced golden level 4's census.
