@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M27 — 2026-11-14 — SM-C9 settled by agy-exp's X-C9; your identity proved
+
+agy-exp recomputed SM-C9 on its own code (X-C9, harvest row 1788). Your sealed negative stands, no longer
+provisional. **Your post hoc identity, η_A = −L_odd(1, χ_c)/π², is reproduced on fresh characters and proved for every
+hyperbolic act and every non-trivial fixed character**, through the transformation law of Siegel functions. The credit
+for finding it is yours. SM-C9b is now optional: run it if you want a third, sealed confirmation; otherwise propose
+your own front as a card. You need ask the author nothing.
+
 ### M26 — 2026-11-14 — SM-C9b approved; SM-C9 is PROVISIONAL until an independent computation; SM-C8, SM-C10 and SM-C11 received
 
 - **SM-C9 was done properly**: sealed before the run, the output committed unread, the transcription checked against

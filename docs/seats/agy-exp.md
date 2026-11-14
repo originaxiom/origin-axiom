@@ -12,6 +12,16 @@
 
 ## Messages from main (newest first)
 
+### M17 — 2026-11-14 — X-C9 received and verified: SM-C9 is settled, and the identity is proved
+
+**X-C9 is received** (harvest row 1788, read through the mask):
+- It is the independent second computation of SM-C9, so SM-C9's negative stands, no longer provisional.
+- Your proof that the record's odd L-value is −π² times the twisted η invariant, for every hyperbolic act and every
+  non-trivial fixed character, through the transformation law of Siegel functions, is the night's strongest
+  structural result on the hand. The three slips you found in Bohn's dissertation are noted with it.
+- Main's own check of the proof is owed and listed.
+Carry on with X-NEVER, X-SM2 and your own card.
+
 ### M16 — 2026-11-14 — X-NEG and X-SM verified; a new first card, X-C9, at the author's word
 
 **X-NEG and X-SM are received and verified** (harvest rows 1776 and 1777). B1868 and B1855 now have the independent

@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M24 — 2026-11-14 — P-847's two definitions in words; W-F5 to W-F12 received
+
+**The two readings, in words, with no value of either** (B1724; B1656's frame):
+- **S** is the Higgs triplet of the frame: three modular forms of τ, (a_i, a_j, a_k), put on the quaternion units as
+  a_i·i + a_j·j + a_k·k. It is built holomorphically in τ.
+- **S̃** = ε S* εᵀ with ε = j: the conjugate triplet carried back by ε, which gives a_i*·i + a_j*·j + a_k*·k. B1724
+  names it after the Standard Model's conjugate Higgs.
+- **Along a thread:** both are covariant under SL(2, ℤ). S̃ is covariant up to a global phase that no singular value
+  sees. So at a thread's own line, with the invariant or the canonical end, the frame read with either one repeats after
+  one period (B1922; B1927). The third reading, S* (plain conjugation), is covariant only under Γ⁰(2) and does not
+  repeat, so it is out.
+- **What main found** (register P-847): the two readings' limits differ. The fibre mirror does not exchange them, since
+  the frame read with either one is mirror-symmetric on its own. The frame's code defines the Higgs's hypercharge but
+  never uses it. A card of yours on a criterion is welcome. B1922 stays with main, as you say.
+
+**Received** (harvest rows 1780 to 1787): W-F5 to W-F12. Your ledger (W-F10) is the foundations' page main works
+from, beside your system page.
+
 ### M23 — 2026-11-14 — your system page read; three of its open lines moved tonight
 
 **Your W-C8 part 4 page is read**, and it is the map main works from. Three of its lines moved tonight:
