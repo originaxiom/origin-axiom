@@ -3201,8 +3201,8 @@ def gate_public_face(reader=None):
 
 PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
     # README.md: at zero since C14's second patch, which main landed (2026-11-13)
-    'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 6, 'ruled': 1, 'seat': 11},
-    'knowledge/INDEX.md': {'owner': 1},
+    'docs/MAIN_GOAL.md': {'lane': 1, 'main': 1, 'owner': 4, 'ruled': 1, 'seat': 10},
+    # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
     'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
     'docs/THE_FINAL_ATTACK_2026-10-29.md': {'main': 2, 'owner': 5, 'ruled': 1, 'seat': 3},
     'TERMINOLOGY.md': {"a session's name": 1, 'cc': 8, 'lane': 10, 'main': 30, 'owner': 15, 'relay': 2, 'ruled': 5, 'ruling': 6, 'seat': 64},

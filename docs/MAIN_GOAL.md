@@ -1,13 +1,13 @@
 # THE MAIN GOAL — the joins to the SM, and no drift until it is derived
 
-*(Owner directive, 2026-09-06: "lets set these as a main goal then and not drift from it until sm
-full. im confident in you, just dont be superficial." Binding for this seat. Refines
-`docs/STRATEGY_2026-09-05.md` §4; its items 3–5 stay live and resume when a join blocks.)*
+*(Set as the main goal on 2026-09-06, with no drift from it until the Standard Model is derived in full; it binds
+all work. It refines `docs/STRATEGY_2026-09-05.md` §4, whose items 3–5 stay live and resume when a join blocks. [Reworded
+2026-11-13: this line gave the decision as a quotation; it is in plain words, and what stood is not kept here.])*
 
 > **Currency (2026-10-30, Review 73).** The goal stands. Its state is **0 of 19**.
 > - THE_PATTERN_MEDITATION_3 (2026-10-28) finds on the record's own counts that no continuous value has been derived. Its
 >   cause: the frames add moduli the object does not fix.
-> - The owner approved THE FINAL ATTACK's order on 2026-10-30 (P-495): explaining as compression with a null, and one
+> - THE FINAL ATTACK's order was chosen on 2026-10-30 (P-495): explaining as compression with a null, and one
 >   sealed test of the nine from one address.
 > - The thesis below ("the programme has the ingredients; what it lacks is assembly") is the 2026-09-06 reading, kept
 >   as written. Read docs/CAMPAIGN_STATUS.md (LATEST) for the current state.
