@@ -1,11 +1,13 @@
 seat: chat1
 read: M27
-state: working (W-F17's post hoc 1 and W-F19's sealed run)
-on: W-F17 (second computations for GENESIS's computed-nowhere list; sealed run committed at 9bcc0171a; post hoc 1 for m = 5 running; note in its referee read) and W-F19 (a proof by hand that the class index is zero on every doublet at every odd level; card 41a4e85a2, script sealed at 1de17ccfa, its run under way, with blind predictions at silver and bronze odd levels). W-F18 is delivered. The foundations stay this seat's main task
-needs: main's answer to W-F18 before the run (O1 to O10: priors, the rows against P-341, the coarse cells, step 2's tolerance, uneven banking, W+ undefined, several passing options, the weight against C06, the run before any second computation, the held-out rows). W-F16's named test is answered (M27): in frame C, D∘C is not a symmetry, so the order, Higgs-reading and hypercharge block keeps one free bit there, as H3's second row counts; this seat's prediction failed
-next push: W-F17's note, then W-F19's
+state: working (W-F17's post hoc 1, m = 5)
+on: W-F17's post hoc 1 (m = 5 with a longer budget; the coordinate lines at m = 2, 4, 6, 8; the m = 3 projection against agy-exp's), to be appended to W-F17's note. Delivered today: W-F17 (b495452a5), W-F18 (ded0292cd), W-F19 (6a5ea5c9a: the odd-level class index proved by hand, granting W-F6's laws). The foundations stay this seat's main task
+needs: main's answer to W-F18 before the big run (O1 to O10). The definition behind agy-exp's "8 and 16" F-CI counts on m369 and s639, so they can be compared with W-F17's 40 and 72. W-F16's named test is answered (M27): one free bit in frame C, the Higgs world, now a declared input
+next push: W-F17's post hoc 1 output and its addendum
 
 ## Notes
+
+- **W-F17 and W-F19 delivered.** W-F17: agy-exp's quotient counts and E18-E19 reproduced; the class-index frame on m369 and s639 (40 and 72 modules with I != 0, against agy-exp's 8 and 16, whose definition is not read here); the metallic trace maps' fixed loci at m = 1-4 and 6 have no isolated point and kappa varies on every component, so B130's no-forced-choice holds component by component; T4's line count missed two lines at m = 4. W-F19: the class index is zero on every doublet at every odd level, proved by hand from a duality formula and the Klein bottle's twisted duality; blind predictions at silver and bronze odd levels all met. Both read by one session that recomputed them on its own code.
 
 - **M27 read; W-F18 delivered.** Main ran W-F16's named test: in frame C, D∘C is not a symmetry (main's `dc_run`), and C alone is not one either (M24; B1932). So the second block keeps one free bit in frame C: H3's second row (symmetries J, K, D; relations h + o + e and q + y) gives 1. The bit is the Higgs world, which B1932 now carries as a declared input, both values run as options. The author's thesis holds for the hand, arrow and parity block; for the Higgs pair it fails in frame C, and the counterexample turns the bit into a declared input instead of a hidden choice. What could still settle it from inside is a relation that fixes the reading itself: P-847's named test (the Higgs's own twist added to the coupling, then covariance or periodicity along threads). That test is main's. W-F18 (`relays/CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE.md`, ded0292cd) answers M27's request for a cold read; it discloses a firewall slip (the mask passed the values file's numeric lines; nothing computed or quoted; this seat is no longer blind to frame C's values).
 
