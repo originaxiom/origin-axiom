@@ -3557,17 +3557,18 @@ def run_five_planted_controls(markoff_cache: Dict[str, Dict[str, Any]], n2_summa
     # PC_N1: Transpose bug g -> g H g^T instead of Hermitian g H g^dagger on m135 = -LLRR:
     # Must either fail SO(3,1) / shift the B1485 signature away from {(2,1):2, (1,0):2, (0,0):4}!
     hol_bad = build_hyperbolic_holonomy_and_four(-1, "LLRR", markoff_cache["LLRR"], dps=55, plant_transpose_bug=True)
-    # Check Lorentzian metric preservation failure on hol_bad["four_X"]:
+    # Check real Lorentzian SO^+(3,1) failure (non-real entries & sesquilinear metric fX^H eta fX != eta) on hol_bad["four_X"]:
     eta31 = mp.diag([mp.mpf(1), mp.mpf(-1), mp.mpf(-1), mp.mpf(-1)])
     fX_bad = hol_bad["four_X"]
-    lor_err_bad = float(mp_frob_norm(fX_bad.T * eta31 * fX_bad - eta31))
+    lor_err_bad = float(mp_frob_norm(fX_bad.transpose_conj() * eta31 * fX_bad - eta31))
+    imag_norm_bad = float(max(abs(mp.im(fX_bad[r, c])) for r in range(4) for c in range(4)))
     # Also check H^1 signature at nu=(1,1,1) on hol_bad:
     sig_bad_111 = cusped_module_signature_mp(
         hol_bad["four_X"], hol_bad["four_Y"], hol_bad["four_T"], hol_bad["r1"], hol_bad["r2"], hol_bad["lam"], dps=55
     )["sig"]
-    # Recall Ad(g) + 1 (since g M g^T on 2x2 matrices preserves skew-symmetric [[0,1],[-1,0]] of dim 1 and acts as Sym^2 = Ad_3 on dim 3!),
-    # so h^0(g M g^T) == 1 != 0!!
-    pc_n1_fired = (lor_err_bad > 0.1 and sig_bad_111[0] == 1)
+    # g M g^T on 2x2 matrices preserves det(M) over C (SO(4,C), splitting as 1 + Ad_3 around skew sigma_2),
+    # breaking real SO^+(3,1) (imag_norm_bad > 0.1, lor_err_bad > 0.1) and shifting h^0 from 0 to 1!
+    pc_n1_fired = (lor_err_bad > 0.1 and imag_norm_bad > 0.1 and sig_bad_111[0] == 1)
 
     # PC_N2: Inject synthetic norm-3 2T ramified prime into m369's checker -> must flip detector!
     real_m369_door = n2_summary["m369_arithmetic"]["unique_norm3_mckay_2T_door"]
