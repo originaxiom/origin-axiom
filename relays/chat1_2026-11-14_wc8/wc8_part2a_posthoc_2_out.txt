@@ -1,0 +1,9 @@
+level 1 orientable False | characters 2 | gap +1: 1 gap -1: 1 | doublets 2 | h1-gap census (non-zero): [((-1,), 1), ((1,), 1)] | doublets with c(lambda) != 0: 0 of them with l(mu) != -1: 0 | doublets with non-zero n-gap: 0
+level 2 orientable True | characters 2 | gap +1: 0 gap -1: 0 | doublets 2 | h1-gap census (non-zero): [] | doublets with c(lambda) != 0: 0 of them with l(mu) != -1: 0 | doublets with non-zero n-gap: 0
+level 3 orientable False | characters 16 | gap +1: 4 gap -1: 4 | doublets 64 | h1-gap census (non-zero): [((-2,), 3), ((-1,), 4), ((1,), 4), ((2,), 3)] | doublets with c(lambda) != 0: 48 of them with l(mu) != -1: 0 | doublets with non-zero n-gap: 0
+level 4 orientable True | characters 50 | gap +1: 0 gap -1: 0 | doublets 250 | h1-gap census (non-zero): [((-2,), 4), ((-1,), 4), ((1,), 4), ((2,), 4)] | doublets with c(lambda) != 0: 200 of them with l(mu) != -1: 200 | doublets with non-zero n-gap: 8
+level 5 orientable False | characters 242 | gap +1: 11 gap -1: 11 | doublets 2662 | h1-gap census (non-zero): [((-2,), 10), ((-1,), 11), ((1,), 11), ((2,), 10)] | doublets with c(lambda) != 0: 2420 of them with l(mu) != -1: 0 | doublets with non-zero n-gap: 0
+G1 holds: True
+G2 holds: True
+G3 holds: True
+G4 holds: True
