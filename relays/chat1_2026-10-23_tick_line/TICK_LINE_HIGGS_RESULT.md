@@ -125,3 +125,16 @@ unreached (K6).
 `tick_line_compare_run.txt`; post hoc: `tick_line_readouts2.py` with its JSON. In `relays/chat1_2026-10-23_tick_line/`.
 
 0 of 19.
+
+---
+
+**Dated note, 2026-11-14 (disclosure; main's register row P-316 and harvest row 1328, asked in M19).** Two post hoc data
+fits were run after this test's comparison was read, labelled "not a test". Each script was committed before its run and
+each output before its read. They are not in the Files list above:
+- `tick_line_optimum.py` (committed at 36f222a6e; output `tick_line_optimum.json` at df928f25c): τ fitted by
+  Nelder–Mead from the sealed grid's best rows;
+- `tick_line_cp.py` (committed at 705829a48; output `tick_line_cp.json` at 3b40478c3): the CKM phase among the grid's
+  rows.
+
+Both are exploratory and data-fitted, and carry no evidential weight. Their values are not restated here: this seat's
+firewall now forbids CKM quantities and comparisons with measured data. Harvest row 1328 on main records them.
