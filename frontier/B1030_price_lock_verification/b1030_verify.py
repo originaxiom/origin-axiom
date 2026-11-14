@@ -64,6 +64,12 @@ def v3_item1_defect():
     return {"in-place divisibility unfailable at length-weight 1": unfailable}
 
 
+# [NOTE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 7; not checked by main): the
+# docstring below says that the ledger's verdict, a retroactive freedom of 0.000, is untouched.  Main's correction of 2026-11-11
+# (the audit's finding E7), as it stands on this arc's page and in its verdict file: the freedom ledger's zero is not a
+# computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited
+# arc's claim line.  B1028's verdict is OPEN.  The docstring is kept as it was written, and what the function computes is
+# not changed.]
 def v4_adoption_arithmetic():
     """The adoption, priced before anyone asks: with the trit adopted the discrete
     input bits become 3 + log2(3) = 4.585 -- EXACTLY B1028's conservative output

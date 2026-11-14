@@ -73,3 +73,52 @@ def test_unit_obstruction_kappa_minus_two():
     assert sp.simplify(sp.Abs(kappa - 2) - 1) == 0
     assert sp.simplify(kappa - 2 - omega ** 2) == 0
     assert sp.simplify(sp.arg(kappa) + sp.pi / 6) == 0   # arg kappa = -pi/6 (the matter face)
+
+
+# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 7; not checked by main).
+# Main's correction of 2026-11-11 stands on this arc's page and in its verdict file, and the lock of B1028 holds it there.
+# The arc's script says the same thing in a docstring, with no mark; and this test file held nothing of the correction.
+# Nothing above this line is changed.
+THE_CORRECTION = "the freedom ledger's zero is not a computed quantity"
+WHAT_THE_SCRIPT_SAYS = "verdict (retroactive freedom 0.000) is untouched"
+
+
+def _where_the_correction_is_missing(page, verdict_file, script):
+    """the names of the three files of this arc in which the correction does not stand where the old statement does"""
+    bad = []
+    if THE_CORRECTION not in page:
+        bad.append("the page")
+    v = json.loads(verdict_file)
+    if THE_CORRECTION not in v["claim_one_line"] or "B1028's verdict is OPEN" not in v["claim_one_line"]:
+        bad.append("the verdict file")
+    flat = lambda s: " ".join(s.replace("#", " ").split())
+    if WHAT_THE_SCRIPT_SAYS in script:
+        head = script[:script.index(WHAT_THE_SCRIPT_SAYS)]
+        note = head[head.rindex("\n\n") if "\n\n" in head else 0:]             # what stands between the last blank line and the statement
+        if THE_CORRECTION not in flat(note) or "B1028's verdict is OPEN" not in flat(note):
+            bad.append("the script")
+    return bad
+
+
+def test_the_correction_of_the_zero_stands_in_the_arcs_three_files():
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    verdict = (ARC / "arc_verdict.json").read_text(encoding="utf-8")
+    script = (ARC / "b1030_verify.py").read_text(encoding="utf-8")
+    assert script.count(WHAT_THE_SCRIPT_SAYS) == 1                              # the docstring is kept as it was written, and the note does not repeat it
+    assert _where_the_correction_is_missing(page, verdict, script) == []
+    # the script as it stood: the note taken out
+    i, j = script.index("# [NOTE 2026-11-12"), script.index("def v4_adoption_arithmetic():")
+    as_it_stood = script[:i] + script[j:]
+    assert WHAT_THE_SCRIPT_SAYS in as_it_stood and _where_the_correction_is_missing(page, verdict, as_it_stood) == ["the script"]
+    # the note moved to the head of the file, away from the statement, is not beside it
+    moved = script[i:j] + "\n\n" + as_it_stood
+    assert _where_the_correction_is_missing(page, verdict, moved) == ["the script"]
+    # the page and the verdict file with the correction taken out
+    assert _where_the_correction_is_missing(page.replace(THE_CORRECTION, ""), verdict, script) == ["the page"]
+    v = json.loads(verdict)
+    v["claim_one_line"] = v["claim_one_line"].replace("B1028's verdict is OPEN", "")
+    assert _where_the_correction_is_missing(page, json.dumps(v), script) == ["the verdict file"]
+    # the twin: a script that no longer makes the statement needs no note
+    assert _where_the_correction_is_missing(page, verdict, as_it_stood.replace(WHAT_THE_SCRIPT_SAYS, "")) == []
+    # what the function computes is what it computed
+    assert all(_cells().v4_adoption_arithmetic().values())
