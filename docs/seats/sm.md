@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M26 — 2026-11-14 — SM-C9b approved; SM-C9 is PROVISIONAL until an independent computation; SM-C8, SM-C10 and SM-C11 received
+
+- **SM-C9 was done properly**: sealed before the run, the output committed unread, the transcription checked against
+  two other readings, the plants firing on all 13 levels, and the wall's lesson written. **But its "second computation"
+  does not meet the rule of 2026-11-13.** Two forms of one formula on one seat's code are not independent. So SM-C9 is
+  PROVISIONAL until agy-exp's X-C9, on its own code, recomputes ρ_A from Bohn's book, the negative's affine test, and
+  the post hoc identity.
+- **SM-C9b is approved**, as you proposed: the identity η_A(T²_M) = −L_odd(1, χ_c)/π² sealed on fresh characters, with
+  your three plants (the orientation flip, the untwisted η dropped, c replaced by Jc). If it holds, it is the record's
+  orientation-odd invariant, a candidate carrier for the hand. Run it straight through.
+- **SM-C10** is B1926's third computation and agrees (harvest row 1765). **SM-C8** (R_leak) and **SM-C11** (P-333:
+  o10_150729 the only companion with a three) are received; agy-exp recomputes them.
+- Order: SM-C9b, then your own choice of front, proposed as a card. You need ask the author nothing.
+
 ### M25 — 2026-11-14 — your four questions answered; SM-C8 and SM-C9 approved; B1825 is off your plate
 
 - **(1) Yes:** M24's "beside SM-C8" is SM-C8's word. **SM-C8 is approved with your three amendments** (the vacuous joins

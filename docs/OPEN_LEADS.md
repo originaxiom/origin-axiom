@@ -2227,6 +2227,9 @@ pick one depth-5 signature word with a small eliminant, compute the exact elimin
 compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
 revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
 field-iso hit = STOP, convene). ★★
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L191 (B502 dead at depth 4)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+
 ## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
 
 > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-323 carries the θ̄ question. Not carried: the same CP bit for δ_CKM and δ_PMNS, and the link to B303. The lead stays open.*
@@ -2266,6 +2269,8 @@ from the 38 amphichiral ones — a chirality invariant finer than CS on this fam
 action on the cusp shape, the symmetry-group's orientation character). Whatever it is, it is what the paper's
 family-wide amphichirality story must be rebuilt on. ★★★ (harvested from the seat; the 38/74 split is banked.)
 
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L193 (CS-silent ⇔ amphichiral on 1490 word states)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+
 ## L194 — DOES A FREE ORIENTATION-REVERSING DECK FORCE CS ≡ 0 (mod ½)? (registered 2026-09-02, B1235; source: codex R036's gap, computed)
 
 > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1477 makes it a census law on 1,205 manifolds, 'not a proof'. The proof obligation stands. The lead stays open.*
@@ -2302,6 +2307,8 @@ action. Literature tool: the cusped η–cs relation, Meyerhoff–Ouyang, Canad.
 its cusp-basis correction dies under a glide-type action the residue closes by the closed argument. L194 OPEN, sharper.*
 
 *Sharpened 2026-10-06 (B1477, `frontier/B1477_what_decides_the_swap_the_mirrors_shear_on_the_cusp/`): the instrument gap is closed and the conjecture is contained in a stronger census law. The linear part of the cusp action is enough: a mirror acts on an invariant cusp torus by a rectangular or a rhombic involution, a free action needs a rectangular one, and **CS ≡ ¼ × the number of odd cusp-orbits on which the mirror's power is rhombic** — 283 of 283 amphichiral members of the installed cusped census (212,641 read), 922 of 922 amphichiral multi-component link exteriors. On one cusp: ¼ ⟺ rhombic, 181 of 181. The swap corollary of B1239 needed "no odd cusp-orbit" (o10_150729 is a counterexample to it as stated; addendum there). **No proof**: the filling argument still has no path from the invariant filling to the cusped manifold. L194 OPEN as a proof obligation; as a question about which amphichiral manifolds sit at ¼ it is answered on the census.*
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L194 (b) (a theorem on the one-cusped census)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
 
 ## L195 — THE REVIVABLE INDEX (registered 2026-09-02, B1235 addendum; source: cc3's REVIVABLE_rationale of 2026-08-09, recovered under E51)
 
@@ -2537,6 +2544,8 @@ Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` jo
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved since 2026-09-13: three search methods failed diagnosably and the possibility that no parabolic pair generates π₁(m003) is live. Owed: a refutation through a proper finite-index subgroup containing both words, or a proof past Nielsen distance 12. Owner: cc.
 
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L206 (b = mer⁻¹a⁻¹mer⁻¹a⁻³, J(m003) ≤ 4)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+
 ## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
 
 > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-334 carries the depth-one result. Not carried: Nielsen-inequivalent pairs at depth two and beyond (m009, for one). The lead stays open.*
@@ -2558,6 +2567,8 @@ unconditionally, so at the **floor** the premise is not needed. That is precisel
 `|κ−2| = 1` is a *unit* obstruction and why m004 is the case Callahan could settle.
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the premise of the lower bound (κ constant over all generating pairs) is unproved for every manifold except m004. Owner: cc.
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L207 (∣κ − 2∣ invariant on depth-one generating pairs, the sign of Im κ the hand)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
 
 ## L208 — **CLOSED** (Review 58, 2026-10-02: fully answered by B1402 and B1403, as its own heading has said since 2026-09-13; the closure mark was missing) — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6) — **HALF ANSWERED (B1402, 2026-09-13): YES for B996 vs B1349.** `gcd(m,15) > 1` decomposes as `(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition; the B996-degenerate grammars carry the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay access dies.** **AND THE B1002 HALF IS NOW CLOSED TOO (B1403): the two cannot be related, because their DOMAINS ARE DISJOINT.** A conductor needs an **abelian** cusp field; verified independently that the metallic cusp shape is quadratic **only at m = 1 and m = 2** (reproducing B675's `ℚ(√−3)` and `ℚ(i)`) and not for m = 3..8. Both conductor instances are **units of ℤ/15**, hence on **branch B**, while `gcd(m,15)` discriminates only on **branch A** — so no `m` is informative for both. **Unaskable as posed rather than unknown. L208 is now fully answered.**
 
@@ -2810,6 +2821,8 @@ data is the obvious route, and it would say whether the six values are an accide
 shadow of something that survives to other stages.
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the map m ↦ j is still observed, not derived. Owner: cc.
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
 
 ## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS — **L216 CLOSED NEGATIVE (B1408, same day): NO WINDOW SPENT.** (registered 2026-09-14, B1406)
 
@@ -3125,6 +3138,8 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) and (b) closed (B1436; B1435, B1438); not run: (c) the three index-12 carriers in SL(2, O/4) (a GAP count, unverified), (d) the July closure formula and 1/96's non-invariance (an archive reading), (f) the Y₄ filling-screen locus (no script shipped). Owed: (c) is a bounded group-theory check; (d) and (f) are reads of the gitignored digests. Owner: cc.
 
 **REVIEW 70 (2026-10-24), R69-4: CLOSED by consequence.** (a) and (b) were closed (B1436; B1435, B1438). (c) the three index-12 carriers, (d) the July closure formula and its 1/96, and (f) the Y₄ screen's locus are archive readings no live cell, register row or document cites; they stay the archives', unverified on main (B448 stands).
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L230 (c) (three classes; GAP), (d), (f)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
 
 ## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
 

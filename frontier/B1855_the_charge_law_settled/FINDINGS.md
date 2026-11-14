@@ -68,3 +68,9 @@ c262308cc, output 9ca836350, read 91119a381; harvest row 1615). 0 of 19.
   corroborated S = {5} by brute force. It did not re-run the search.
 - **Main's first Lemma A check used the seat's eigenvector in GENESIS's letters** and disagreed by about 11. Taking the
   convention into account fixed it. The miss was main's, not the seat's.
+
+## Second computation (2026-11-14; the rule of 2026-11-13, P-842)
+
+agy-exp's card X-NEG (harvest row 1776, read through the mask) re-derived the exhaustive search on its own code. The
+result is the same. It adds the structure of the failure set: four exact theorems, and the global minimal defects. This
+negative now has its independent second computation.

@@ -31,3 +31,5 @@ exactly the discipline a wild-point census needs.
 
 > **The verdict is `OPEN` because the arc settled nothing — which is the correct reading of a
 > campaign that never ran, and is not the same as a campaign that ran and found nothing.**
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “B499 (W3, W5 killed)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**

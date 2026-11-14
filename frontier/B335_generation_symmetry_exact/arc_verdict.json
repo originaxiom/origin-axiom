@@ -1,7 +1,7 @@
 {
  "id": "B335",
  "verdict": "PROVED",
- "claim_one_line": "The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking.",
+ "claim_one_line": "The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. [NOTED 2026-11-14 (P-310): \"and any mass … exactly degenerate\" overstates, as the register's row records its reader's finding (B325: a Z/3-invariant cubic can split the two light eigenvalues); the page's note says so; the verdict is unchanged.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

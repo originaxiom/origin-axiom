@@ -1,0 +1,5 @@
+28, mark: 60 words; largest sampling error 1.1e-02
+28, twin: 60 words; largest sampling error 1.3e-02
+22b, mark: 60 words; largest sampling error 1.4e-02
+22b, twin: 60 words; largest sampling error 1.2e-02
+done; the comparisons are made by twin_compare_4.py

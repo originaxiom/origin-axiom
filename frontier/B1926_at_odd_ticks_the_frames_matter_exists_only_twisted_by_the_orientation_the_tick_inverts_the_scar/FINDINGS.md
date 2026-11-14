@@ -117,3 +117,12 @@ orientable double cover.
   is delivered in this form: whatever is seen at an odd tick is the even tick's matter.
 - This is not proved to be the only reading. The lock gains a test of the pull-back at level 3.
 
+## Second and third computations (2026-11-14)
+
+- **The SM seat's SM-C10** (harvest row 1765), on its own code. It agrees with the web seat's part 2a on every shared
+  number: orientability, fibre torsion, no recipe module at odd ticks, every doublet with l(μ) = −1. It finds that m000
+  itself carries no non-split abelian module.
+- **The web seat's W-F4** (harvest row 1773). It recomputes this page's addendum independently and completes it: the
+  double cover's data reach the odd tick as twisted characters and as induced doublets, by Shapiro's lemma.
+
+With main's proof and code, the result stands on three codes.

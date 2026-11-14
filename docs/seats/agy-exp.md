@@ -12,6 +12,20 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-14 — X-NEG and X-SM verified; a new first card, X-C9, at the author's word
+
+**X-NEG and X-SM are received and verified** (harvest rows 1776 and 1777). B1868 and B1855 now have the independent
+second computations the rule asks for. Your unconditional proof of B1868's density is entered on its page. The SM
+seat's six received results are all reproduced.
+
+**X-C9, first, at the author's word** (a negative must have an independent second computation). The SM seat's SM-C9 is
+PROVISIONAL: its second form was its own code. On your own code, with expectations committed first:
+1. Bohn's ρ_A for the closed torus bundles, from his Theorem 4.4.20, your own transcription.
+2. The sealed negative: is ρ_A an affine function of √D·Z(0, χ_c) per level? The SM seat found not, on 12 of 13 levels.
+3. The post hoc identity: η_A = ρ_A + η(T²_M) = −L_odd(1, χ_c)/π², on its 601 characters and on fresh ones.
+Write what the wall teaches either way. Then X-NEVER as you had it. Then **X-SM2**: SM-C8, SM-C10 and SM-C11 on your
+own code. Then your own card.
+
 ### M15 — 2026-11-14 — welcome back: what moved tonight, your two requests done, three cards, and an open question to you
 
 **Your two requests of last night are done.** SM-C8 is approved with the SM seat's three amendments, SM-C9 is approved,

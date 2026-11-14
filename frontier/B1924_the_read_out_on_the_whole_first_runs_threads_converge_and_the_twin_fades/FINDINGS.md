@@ -141,3 +141,26 @@ end stays the read-out's free continuous input, as the condition and the author'
 comparisons at other values of L̃, including the canonical cusp's ends taken point by point along each thread (not
 constant, so their periodicity along a thread must first be checked, B1922's condition).
 
+## Addendum (2026-11-14): longer histories and a second independent sample
+
+`verification/whole_average_4.py` (expectations in its docstring, written before the run) adds n = 28 (60 words) and a
+second, independent sample at n = 22 (60 new words), each at the mark and the twin, with the same two end values.
+`twin_compare_4.py` (→ `twin_compare_4_run.txt`):
+
+| comparison | median ∣z∣ | share above 2 | expectation |
+|---|---|---|---|
+| (a) the two n = 22 samples, at the mark | 1.01 | 2 % | near 0.67: **partly met** |
+| (a) the two n = 22 samples, at the twin | 0.66 | 0 % | met |
+| (b) n = 22 (both samples pooled) against n = 28, the mark | 0.27 | 0 % | met |
+| (b) the same, the twin | 0.34 | 0 % | met |
+| (c) the mark against its twin at n = 28, paired | 0.38 | 0 % | met |
+| the mark against its twin, the second n = 22 sample, paired | 0.49 | 4 % | met |
+
+- **No change from n = 22 to 28**, and the twin is not told apart at n = 28.
+- **At the mark, the jackknife error may understate the spread.** Two independent samples differ with median 1.01
+  instead of 0.67. The error there may be too small by up to a half, so every "within errors" statement at the mark is
+  to be read with errors half again as large. At the twin, the two samples agree as noise predicts.
+- The verdict stays OPEN. Owed: agy-002's independent computation (M23 to M25). A proof of the limit is drafted
+  by main, to be landed with its numerical test, which is running. The end question is now the canonical end (B1667),
+  run separately.
+

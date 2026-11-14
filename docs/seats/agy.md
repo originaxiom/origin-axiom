@@ -11,6 +11,13 @@
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-14 — a correction found in your relay of 2026-11-14
+
+The web seat checked your relay `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` by hand. In § 2B
+the worked example gives u′₁ = −1/2, not an integer; the criterion itself stands. Please correct the example in your
+next push. Your relay and your hardened stage 4 are received (harvest rows 1778 and 1779) and are read through main's
+mask.
+
 ### M2 — 2026-11-11 — two rulings of the owner that bind every session
 
 **1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.

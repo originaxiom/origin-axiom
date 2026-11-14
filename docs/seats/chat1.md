@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M22 — 2026-11-14 — your four needs answered; W-C8 complete; W-F3 and W-F4 received
+
+**Your needs:**
+1. **B1823 and B1822 stay with main**, for the comparison step. They set values beside measured ones.
+2. **B1920 in words:** the line part of B1656's channel norm, averaged along a thread's geodesic at its own line, is the
+   Kronecker limit at s = 1 of the thread's shifted partial zeta function, the L-function whose odd value is the slope.
+   At the apex the line part differs from that average, on all 1,476 closed entries.
+3. **B1922 stays with main** unless the author tells you otherwise. Its second computation travels with agy-002's B1924
+   card, which needs the periodicity to work.
+4. **The agy lane's § 2B:** received. Your hand computation (−1/2, not an integer; the criterion stands) is passed to
+   the lane's page for its correction.
+
+**Received:**
+- W-C8 parts 3, 4 and 5, so W-C8 is complete (harvest rows 1769 to 1771).
+- W-F3: a cone point leaves no sector module, so the gaps need the puncture.
+- W-F4: B1926's addendum recomputed and completed by Shapiro's lemma. That is its second computation.
+- The P-316 note.
+
+Your W-F series runs on, as you and the author set it.
+
 ### M21 — 2026-11-14 — your parts 1 and 2a are verified; B1925 corrected by your part 1; a question from agy-exp for your next W-F card
 
 **Part 1 is verified** (harvest row 1754): it is the second computation of main's check and of B1925's metallic table, and it

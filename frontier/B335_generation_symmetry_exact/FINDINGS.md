@@ -12,6 +12,8 @@ A deck transformation of a hyperbolic manifold **is an isometry**. Therefore **e
 masses (real, positive: `|eigenvalue|` / singular values of any Yukawa) are **exactly degenerate.** A mass hierarchy is
 the **breaking** of this exact isometry — *external by definition*; the single object does not contain it.
 
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-310): the sentence above says more than this arc shows.** The register's row records its reader's finding (L237's reader, in the parked-items sweep): B335's "so every real geometric invariant (and any mass) is exactly degenerate" overstates, because B325 and a 3×3 circulant check split the masses. B325's own verdict line, banked before this arc: "Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split". The isometry and the values confirmed below stand; what the row calls an overstatement is the step from them to "any mass". A sharpening, not a retraction: the verdict is unchanged. The circulant check is the reader's, recorded in the row; it is not computed again here.]
+
 **Confirmed (SnapPy 3.3.2, values recorded for CI):**
 - `vol(3-fold cover) / vol(4₁) = 3.0` exactly (isometric deck);
 - the shortest geodesics appear with **multiplicity 3** — three *isometric* sheets;

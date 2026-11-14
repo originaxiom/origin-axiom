@@ -24,7 +24,7 @@
 | … OWNER | 0 |
 | … DONE | 525 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1763 |
+| harvest rows (the last number) | 1779 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs

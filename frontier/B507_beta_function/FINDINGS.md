@@ -28,3 +28,5 @@ gate-certified β-function. (Via the anchor: λ\*² = (κ\*−2)/4 < 0 — the a
 spectral window, not a real-coupling fixed point; form-level, firewalled.) Consistency lock vs
 B506's d and the exact κ\*=0 identity (is g_M(0)=0 provable? the pointer state suggests yes):
 queued as the campaign's proof obligation.
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “B507's closed form g_M(κ) = Cl₂(2θ)/(π − θ)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**

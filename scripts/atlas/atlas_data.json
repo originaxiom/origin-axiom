@@ -16015,6 +16015,7 @@
    "slug": "what concentrates under the move count verified",
    "motifs": [
     "measurement",
+    "closing",
     "coupling",
     "action",
     "feedback",
@@ -21043,14 +21044,16 @@
     "B302",
     "B318",
     "B324",
+    "B325",
     "B326",
     "B327",
     "B329",
     "B331",
-    "K021"
+    "K021",
+    "L237"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 28,
+   "obstacle_conf": 31,
    "status": "dead",
    "domain": "arithmetic"
   },

@@ -11,6 +11,11 @@
 
 ## Messages from main (newest first)
 
+### M32 — 2026-11-14 — C20 landed
+
+Your three C20 patches, built on 660daba8d, applied cleanly, and their test passes (4 of 4). They are landed in this
+batch. The chain's collision with B1924 is yours to rebase, as you noted.
+
 ### M31 — 2026-11-14 — card C20: three debts of the register that are record-keeping
 
 At midnight six debts of the register passed 21 days unmoved. Three are record-keeping and are yours as **card C20**,

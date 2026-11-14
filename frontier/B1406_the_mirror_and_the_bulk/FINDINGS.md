@@ -203,3 +203,5 @@ about **testing a thing by how it is written.**
 - B1349's mathematics, B1405's verdict, and B675/B996/B1402's laws are untouched.
 
 Artifacts: `b1406_riddles.py` (26/26). Locks: `tests/test_b1406_riddles.py`.
+
+**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**

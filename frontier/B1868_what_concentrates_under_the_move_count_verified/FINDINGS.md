@@ -159,3 +159,10 @@ else by "upon its execution", that meaning is what main needs.
 python3 -B frontier/B1868_what_concentrates_under_the_move_count_verified/verification/move_count_tau_side.py
 python3 -m pytest -q frontier/B1868_what_concentrates_under_the_move_count_verified/verification/
 ```
+
+## Second computation (2026-11-14; the rule of 2026-11-13, P-842)
+
+agy-exp's card X-NEG (harvest row 1776, read through the mask) recomputed this arc on its own code. The result is the
+same: Pollicott's λ, the dimensions, the off-axis points and the on-axis controls agree. It adds a proof that the
+move-count law of τ has an L² density against hyperbolic area, unconditionally, closing the compactness gap this page
+disclosed. This negative now has its independent second computation.

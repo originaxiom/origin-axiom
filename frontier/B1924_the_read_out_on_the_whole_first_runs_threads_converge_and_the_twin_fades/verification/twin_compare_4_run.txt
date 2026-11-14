@@ -1,0 +1,7 @@
+pure noise: median |z| 0.67, share above 2: 5%
+(a) n = 22, the two independent samples, mark: median |z| 1.01, share above 2: 2%, largest 2.83 (48 numbers)
+(a) n = 22, the two independent samples, twin: median |z| 0.66, share above 2: 0%, largest 1.86 (48 numbers)
+(b) n = 22 pooled against n = 28, mark: median |z| 0.27, share above 2: 0%, largest 0.82 (48 numbers)
+(b) n = 22 pooled against n = 28, twin: median |z| 0.34, share above 2: 0%, largest 1.00 (48 numbers)
+(c) n = 28, the mark against its twin, paired: median |z| 0.38, share above 2: 0%, largest 1.65 (48 numbers)
+    n = 22 (second sample), the mark against its twin, paired: median |z| 0.49, share above 2: 4%, largest 2.07 (48 numbers)
