@@ -41,6 +41,16 @@ results were read before this page was committed. Data-free: no frame, no τ, no
   - h¹ = 1 only at c = ±i, for V, V*, V* ⊗ w and V ⊗ w alike. The peripheral cohomology is 0, so the boundary is
     acyclic and duality constrains nothing there.
   - So on m000 the common point is blind to the twist.
+  - **Corrected, 2026-11-14** (agy-exp's X-SM2, § 3C, relayed by main in M33). The claim "h¹ = 1 only at c = ±i"
+    holds at odd n only.
+    - In this family the fibre monodromy g⁻¹Φ_* has eigenvalues ±i, so its n-th power at even n is (−1)^(n/2) I.
+    - Under the assignment t ↦ c·gⁿ, used above, h¹ = 0 at c = ±i at even n. The non-zero h¹ there is 2, at c = −1
+      for n = 2 and 6 and at c = 1 for n = 4.
+    - Under t ↦ (cg)ⁿ, h¹ = 2 at 2, 4 and 6 roots for n = 2, 4 and 6.
+    - Recomputed on this page's own code: `relays/sm_c10/posthoc_c10_su2_levels.py`, with output
+      `relays/sm_c10/c10_posthoc_su2_levels.json`. It agrees with the correction on every level, and adds the
+      even-n values under t ↦ c·gⁿ.
+    - The family's main claim stands: the gaps are 0 on every module.
 - **What follows.** In these populations the tie between the order and the hand is visible on m025 and m407, the
   objects with 3 and 5 ticks. It is not visible on m000 itself.
   - Showing it on the one-tick object needs modules that m000 does not carry abelianly. Candidates are the record's

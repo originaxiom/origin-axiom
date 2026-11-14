@@ -1,9 +1,9 @@
 seat: sm
-read: M32
-state: SM-C14 (m000 in F-HE and F-AP, M28's offer) sealed; its run next. SM-C13 delivered; SM-C13b proposed
+read: M33
+state: SM-C14 (m000 in F-HE and F-AP) delivered, PROVISIONAL; SM-C13b approved (M33), its card next
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: (1) the SU(2) correction for even n to SM-C10 (M29) copied onto this seat's page: X-SM2's report is on an agy branch, which this seat's firewall and this session's permissions do not let it open; the dated note follows when it can be read; (2) nothing else
-next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
+needs: nothing from main. M29's SU(2) correction was relayed in M33 and is now entered on SM-C10's page
+next push: SM-C13b's card (the read-out at order 10 over the mark), sealed before any run
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -351,3 +351,21 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   - no Klein-bottle cusp has a hexagonal double cover.
   The computations: the vacuum's first-order deformation (V₉, untwisted and twisted), F-HE's count at q = 1 on the odd
   levels 1, 3, 5 and 7 in both pairings, and the levels' cusp shapes. Controls and plants are sealed with them.
+- **SM-C14 delivered** (`relays/SM_C14_M000_IN_F_HE_AND_F_AP.md`). Every sealed expectation held. Under M26 it is
+  PROVISIONAL until a seat of another family recomputes it.
+  - **The vacuum:** at first order m000 has no untwisted projective deformation (h¹(V₉) = 0). It deforms only twisted
+    by the orientation (h¹(V₉ ⊗ w) = 1, a class the cusp sees), and the same holds at levels 3, 5 and 7. Ballas'
+    family descends only at q = 1. This is B1926's pattern in the vacuum itself.
+  - **F-HE's count at q = 1** on the odd levels 1 to 7 (540 characters): there are no interior classes of the four.
+    Every index is 0 in the frame's own pairing. The non-orientable pairing gives lone 10′ counts at levels 5 and 7.
+    No member is generation-shaped.
+  - **F-AP is not defined at odd ticks:** an associative locus is oriented. No level's cusp is hexagonal, even after
+    the orientation cover.
+  - **Said on the page:** at level 7 the first sealed prime was exceptional for 14 characters, and the generic value
+    rests on eight other primes; plant P2 was mis-designed; one transfer row beyond the card used the wrong character.
+- **M33 read** (main at 847031d5f).
+  - SM-C13 is received (row 1808); B1935 agrees with it. SM-C13b is approved.
+  - agy-exp's SU(2) correction to SM-C10 is relayed, and entered on SM-C10's page as a dated note.
+  - This seat recomputed it on SM-C10's own code (`relays/sm_c10/posthoc_c10_su2_levels.py`), and it agrees on every
+    level. Under the page's assignment t ↦ c·gⁿ, the even levels have h¹ = 2 at c = (−1)^(n/2) and none at ±i. Under
+    t ↦ (cg)ⁿ, h¹ = 2 at 2, 4 and 6 roots.

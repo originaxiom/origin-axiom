@@ -1,0 +1,190 @@
+{
+ "t -> c g^n": {
+  "1": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ]
+   ]
+  },
+  "2": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/2)",
+     2
+    ]
+   ]
+  },
+  "3": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ]
+   ]
+  },
+  "4": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 0/1)",
+     2
+    ]
+   ]
+  },
+  "5": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/2)",
+     2
+    ]
+   ]
+  }
+ },
+ "t -> (c g)^n": {
+  "1": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ]
+   ]
+  },
+  "2": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     2
+    ]
+   ]
+  },
+  "3": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 1/12)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 5/12)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 7/12)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 11/12)",
+     1
+    ]
+   ]
+  },
+  "4": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 0/1)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 1/2)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 1/4)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     2
+    ]
+   ]
+  },
+  "5": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     1
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     1
+    ]
+   ]
+  },
+  "6": {
+   "modules": 46,
+   "h1 non-zero": [
+    [
+     "c = exp(2 pi i 1/4)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 3/4)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 1/12)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 5/12)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 7/12)",
+     2
+    ],
+    [
+     "c = exp(2 pi i 11/12)",
+     2
+    ]
+   ]
+  }
+ }
+}

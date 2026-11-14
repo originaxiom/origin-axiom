@@ -1,0 +1,149 @@
+{
+ "m000 volume": 1.0149416064096537,
+ "levels": {
+  "1": [
+   {
+    "orientable": false,
+    "volume / vol(m000)": 1.0,
+    "shape": [
+     -9.251858538542974e-17,
+     0.288675134594813
+    ],
+    "reduced": [
+     1.1102230246251561e-15,
+     3.4641016151377535
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 3.4641016151377544,
+    "modulus matches": true
+   }
+  ],
+  "2": [
+   {
+    "orientable": true,
+    "volume / vol(m000)": 2.0,
+    "shape": [
+     1.9845236565174646e-15,
+     3.4641016151377526
+    ],
+    "reduced": [
+     1.9845236565174646e-15,
+     3.4641016151377526
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 3.4641016151377544,
+    "modulus matches": true
+   }
+  ],
+  "3": [
+   {
+    "orientable": false,
+    "volume / vol(m000)": 3.0,
+    "shape": [
+     7.401486830834375e-17,
+     0.8660254037844383
+    ],
+    "reduced": [
+     -9.868649107779175e-17,
+     1.1547005383792521
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 1.1547005383792515,
+    "modulus matches": true
+   }
+  ],
+  "4": [
+   {
+    "orientable": true,
+    "volume / vol(m000)": 4.0,
+    "shape": [
+     -1.1102230246251571e-15,
+     1.7320508075688772
+    ],
+    "reduced": [
+     -1.1102230246251571e-15,
+     1.7320508075688772
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 1.7320508075688772,
+    "modulus matches": true
+   }
+  ],
+  "5": [
+   {
+    "orientable": false,
+    "volume / vol(m000)": 5.000000000000001,
+    "shape": [
+     -7.401486830834377e-17,
+     1.4433756729740652
+    ],
+    "reduced": [
+     -7.401486830834377e-17,
+     1.4433756729740652
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 1.4433756729740643,
+    "modulus matches": true
+   }
+  ],
+  "6": [
+   {
+    "orientable": true,
+    "volume / vol(m000)": 6.000000000000001,
+    "shape": [
+     5.828670879282069e-16,
+     1.1547005383792504
+    ],
+    "reduced": [
+     5.828670879282069e-16,
+     1.1547005383792504
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 1.1547005383792515,
+    "modulus matches": true
+   }
+  ],
+  "7": [
+   {
+    "orientable": false,
+    "volume / vol(m000)": 7.000000000000002,
+    "shape": [
+     7.40148683083438e-16,
+     2.0207259421636934
+    ],
+    "reduced": [
+     7.40148683083438e-16,
+     2.0207259421636934
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 2.0207259421636903,
+    "modulus matches": true
+   }
+  ],
+  "8": [
+   {
+    "orientable": true,
+    "volume / vol(m000)": 8.000000000000002,
+    "shape": [
+     -5.921189464667504e-16,
+     1.154700538379252
+    ],
+    "reduced": [
+     -5.921189464667504e-16,
+     1.154700538379252
+    ],
+    "rectangular": true,
+    "hexagonal": false,
+    "modulus as sealed (2 sqrt3 / n at odd n, 2 sqrt3 / (n/2) at even n, or inverse)": 1.1547005383792517,
+    "modulus matches": true
+   }
+  ]
+ }
+}
