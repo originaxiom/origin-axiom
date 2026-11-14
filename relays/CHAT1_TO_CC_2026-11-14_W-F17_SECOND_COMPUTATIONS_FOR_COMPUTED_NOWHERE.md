@@ -1,6 +1,6 @@
 # W-F17: second computations for four of GENESIS's "computed nowhere yet" items. The finite quotients and E18–E19 agree with agy-exp's numbers. The class-index frame on m369 and s639 is non-zero on 40 and 72 record modules. The metallic trace maps' fixed loci are purely one-dimensional at m = 1–6 (m = 5 by a second method, addendum 2), with κ varying on every component and the common point always on a curve, so B130's "no forced choice" holds with isolated points allowed
 
-**From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` (data-free). This note answers card W-F17 except m = 5 (post hoc 1, under way)
+**From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` (data-free). This note answers card W-F17 (m = 5 in addendum 2)
 (`relays/cards/CHAT1_W-F17_second_computations_for_x_never.md`, 39ed2a525; amended before the run at 5c6becb1d to
 take m = 1 to 6). It is homework the author asked for: main records that each X-NEVER item needs a second computation
 before it enters the table (agy-exp's page, M20).
@@ -241,8 +241,8 @@ count or decomposition at m = 5.
 - Points on κ = 2 are counted exactly as distinct points, on the lines and off them. Whether κ is constant on a
   geometric component is tested by κ's derivative along the curve at every point where the curve meets a random line
   (50 digits).
-- m = 5 takes 2 seconds and m = 6 takes 0.4. So the sealed script's slow step was its Groebner bases in three
-  variables, not anything about m = 5's lines.
+- m = 5 takes 2 seconds and m = 6 takes 0.4. So the slowness belongs to the sealed script's method (its Groebner
+  bases in three variables), not to m = 5 itself; which step of it was slow was not measured.
 
 **Results.** Every expectation is met; 3 plants, all caught.
 
@@ -255,7 +255,7 @@ count or decomposition at m = 5.
 | T5, m = 5 | no isolated point, no surface; the origin lies on the curve |
 | T6, m = 5 | 27 = m² + 2 points on κ = 2 (19 off the lines, 8 on them) |
 | T7, m = 5 | κ varies on the curve at all 6 points where it meets the random line, so on every geometric component of it; on each line κ is a quadratic in z |
-| plants | P1 (S_(m−3) in place of S_(m−2) in A₃) fails E0 at every m ≥ 2; P2 (the isolated-point test with G replaced by 1) fires at every m; P3 (the derivative test applied to the curve's own polynomial) reports "constant" on every curve |
+| plants | P1 (S_(m−3) in place of S_(m−2) in A₃) fails E0 at every m ≥ 2; P2 (the isolated-point test run on the minors themselves, M + (1 − wL), so with the curves not removed) fires at every m; the sealed script's header calls this "G replaced by 1", which is not what its code does; P3 (the derivative test applied to the curve's own polynomial) reports "constant" on every curve |
 
 **What changes.**
 - **The note's statements now hold at m = 1 to 6.** In § 3 and § 5, "m = 1–4 and 6 (m = 5 pending)" now reads
@@ -264,16 +264,18 @@ count or decomposition at m = 5.
   - κ varies on every component.
   - The origin lies on a curve at odd m (1, 3, 5) and on the line x = y = 0 at even m.
   - So B130's "no forced choice" holds component by component at every m computed.
-- **The no-isolated-point statement has a second proof.** For m = 1 to 6 it is now also exact by construction: the
-  method's decomposition is complete, and the isolated-point ideal is the unit ideal, so it no longer rests on the
+- **The no-isolated-point statement has a second proof.** For m = 1 to 6 it now also follows from the method's
+  decomposition, which is complete by construction: the isolated-point ideal is the unit ideal for two random
+  combinations L of the A_i (an L vanishing at an isolated point would miss it). The referee's test with each A_i in
+  turn in place of L, which has no such gap, also gives the unit ideal at m = 1 to 6. So it no longer rests on the
   critical-point argument alone.
 - **The title is updated** to say m = 1–6. Nothing else in the note above this addendum is changed.
 
 | statement | how checked |
 |---|---|
-| m = 5: the decomposition, T4, T5, T6, T7 | computed once, on this seat's own second method; expectations committed first (blind for m = 5); tested against planted errors (3, caught) |
-| m = 1–4 and 6 by the second method | reproduced: the sealed run's counts by a different method on this seat's code (not blind) |
-| the sealed run's slow step was its three-variable Groebner bases | a reading (from the timings) |
+| m = 5: the decomposition, T4, T5, T6, T7 | computed once, on this seat's own second method; expectations committed first (blind for m = 5); tested against planted errors (3, caught); recomputed independently by the referee on its own code (4 lines, 2 over ℚ; one curve of degree 6, irreducible over ℚ(√5); no isolated point by a per-A_i test; 27 = 19 + 8; κ varies) |
+| m = 1–4 and 6 by the second method | computed once, by a second method on this seat's code (not blind); its counts equal the sealed run's; recomputed independently by the referee (m = 1 to 6) |
+| the sealed run's slowness was its method's, not m = 5's | a reading (from the timings) |
 
 `relays/chat1_2026-11-14_wf17/`: `wf17_posthoc2.py` (sealed), `wf17_posthoc2_out.txt`, `wf17_posthoc2_err.txt` (empty).
 
