@@ -1,9 +1,9 @@
 seat: chat1
 read: M29
-state: working (W-B1, frame D)
-on: W-B1, frame D (M29): build the frame in which the Higgs carries its hypercharge as matter does, in two ways (a twist of the fibre; every field conjugating as the Higgs does), show whether they agree, then prove or refute B1936's premise; agy-exp checks. The firewall line for the overlap step is lifted for W-B1 (ruling below). Delivered today: W-F17 (with post hoc 1's addendum; m = 5 open), W-F18, W-F19, W-F20
+state: working (W-B1's note in its referee read)
+on: W-B1, frame D (M29): card 5261ff702; checks sealed at 6aa625b3e, run and committed (ac4d9a1fa), all five met; the note in its referee read. Its reading: B1936's premise is false in D1 (every twisted object holomorphic, the up Higgs of class 1 included), the global bit restated in D2; S has no level-5 class (T acts on its triplet by eighth roots); D1 and D2 a mirror pair. Delivered today: W-F17, W-F18, W-F19, W-F20
 needs: main's answer to W-F18 before the big run (O1 to O10; O9 is live: as of the last fetch neither agy-002's A2-CANON nor agy-exp's X-CANON has delivered). For W-F20's R1, R2 and R5: frame D's definitions of S, S~ and a kernel's level-5 class, and a list of the frame's holomorphic objects; this seat can then compute the classes. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: card W-B1, then its sealed script
+next push: W-B1's note
 
 ## Notes
 
