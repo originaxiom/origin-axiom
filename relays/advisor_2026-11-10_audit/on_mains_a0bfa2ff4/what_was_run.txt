@@ -1,0 +1,209 @@
+Every gate on a clean checkout of each entry (scripts/gates; 'red: -' is all green):
+1 9824b94fd 54 gates; red: - | 
+2 89dc749a7 54 gates; red: - | 
+3 a6ba50b2e 54 gates; red: - | 
+4 9165a58d4 54 gates; red: - | 
+5 ff8b16f9c 54 gates; red: - | 
+6 d9c0845b5 54 gates; red: - | 
+7 b3ff1b76e 54 gates; red: - | 
+8 bb395d32a 54 gates; red: - | 
+9 6ce5afe38 54 gates; red: - | 
+10 c2bf3e60d 54 gates; red: - | 
+11 63d7fcb11 54 gates; red: - | 
+12 6738d797a 54 gates; red: - | 
+13 4c716e5e0 54 gates; red: - | 
+14 fdc530bc5 54 gates; red: - | 
+15 54390a679 54 gates; red: - | 
+16 86232211d 54 gates; red: - | 
+17 b33bfc8e4 54 gates; red: - | 
+18 ff6d4697f 54 gates; red: - | 
+19 97875e40f 54 gates; red: - | 
+20 0a6bd7c5b 54 gates; red: - | 
+21 9fc4c7a2a 54 gates; red: - | 
+22 10de46f26 54 gates; red: review-fires | 
+23 d50eef0a2 54 gates; red: review-fires | 
+24 32ce34ff8 54 gates; red: review-fires | 
+25 8c0764685 54 gates; red: review-fires | 
+26 219632693 54 gates; red: review-fires | 
+27 6cc94f539 54 gates; red: review-fires | 
+28 a2722a4b8 54 gates; red: review-fires | 
+29 8de8a6b6a 54 gates; red: review-fires | 
+30 c7f874f38 55 gates; red: review-fires | 
+31 74731b233 55 gates; red: review-fires | 
+32 70e3a2b97 55 gates; red: review-fires | 
+33 753454d99 55 gates; red: review-fires | 
+34 df067872d 55 gates; red: review-fires | 
+35 cd3c8abb1 55 gates; red: review-fires | 
+36 fa6c36000 55 gates; red: review-fires | 
+37 dd5378f8c 55 gates; red: review-fires | 
+38 4d30d49c4 55 gates; red: review-fires | 
+39 dbeca189a 55 gates; red: review-fires | 
+40 88577e8df 55 gates; red: review-fires | 
+41 a12825364 55 gates; red: review-fires | 
+42 cc06d75fe 55 gates; red: review-fires | 
+43 ddca9653d 55 gates; red: review-fires | 
+44 2cc8fd210 55 gates; red: review-fires | 
+45 ccf3618c7 55 gates; red: review-fires | 
+46 aa6605caa 55 gates; red: review-fires | 
+47 c647f1a80 55 gates; red: review-fires | 
+48 d813531f4 55 gates; red: review-fires | 
+49 d898b0943 55 gates; red: review-fires | 
+50 8adbff3f2 55 gates; red: review-fires | 
+51 55c8993de 55 gates; red: review-fires | 
+52 9ccd30b4c 55 gates; red: review-fires | 
+53 90e369f09 55 gates; red: review-fires | 
+54 39d08fca8 55 gates; red: review-fires | 
+55 119cef103 55 gates; red: review-fires | 
+56 d9ad097b7 55 gates; red: review-fires | 
+57 07d91832d 55 gates; red: review-fires | 
+58 710d5518b 56 gates; red: review-fires | 
+59 a7092aa5c 56 gates; red: review-fires | 
+60 88a56f2c1 56 gates; red: review-fires | 
+61 bdd08c6f4 56 gates; red: review-fires | 
+62 5dda011f3 56 gates; red: review-fires | 
+63 643ac3746 56 gates; red: review-fires | 
+64 1a261e05e 56 gates; red: review-fires | 
+65 1b28f3735 56 gates; red: review-fires | 
+66 455859a0e 56 gates; red: review-fires | 
+67 b39c58ce6 56 gates; red: review-fires | 
+68 44ec9cd21 56 gates; red: review-fires | 
+69 c8f9c5b7f 56 gates; red: review-fires | 
+70 c3932e6ab 56 gates; red: review-fires | 
+71 6ce91cf8d 56 gates; red: review-fires | 
+72 5e8e65356 56 gates; red: review-fires | 
+73 84aa2a660 56 gates; red: review-fires | 
+74 a59db2055 56 gates; red: review-fires | 
+75 4cb892f56 56 gates; red: review-fires | 
+76 0f6e03931 56 gates; red: review-fires | 
+77 11fe61242 56 gates; red: review-fires | 
+78 325c397ba 56 gates; red: review-fires | 
+79 0986d77bf 56 gates; red: review-fires | 
+80 2235b5cd9 56 gates; red: review-fires | 
+81 efdf5ffeb 56 gates; red: review-fires | 
+82 43832db29 56 gates; red: review-fires | 
+83 f77ef77c6 56 gates; red: review-fires | 
+84 6fb6ce396 56 gates; red: review-fires | 
+85 443b6844d 56 gates; red: review-fires | 
+86 178706f84 56 gates; red: review-fires | 
+87 20f9958e9 56 gates; red: review-fires | 
+88 7cc8c6808 56 gates; red: review-fires | 
+89 fdfbfae2a 56 gates; red: review-fires | 
+90 1b01bb5ed 56 gates; red: review-fires | 
+91 70df8229f 56 gates; red: review-fires | 
+
+Applied on a clean checkout of a0bfa2ff4, in order:
+ 1 r80b_parts_3_to_5  9824b94fd tree ok am
+ 2 r80b_parts_3_to_5  89dc749a7 tree ok am
+ 3 r80b_parts_3_to_5  a6ba50b2e tree ok am
+ 4 r80b_parts_3_to_5  9165a58d4 tree ok am
+ 5 r80b_parts_3_to_5  ff8b16f9c tree ok am
+ 6 r80b_parts_3_to_5  d9c0845b5 tree ok am
+ 7 r80b_parts_3_to_5  b3ff1b76e tree ok am
+ 8 r80b_parts_3_to_5  bb395d32a tree ok am
+ 9 r80b_parts_3_to_5  6ce5afe38 tree ok am
+10 r80b_parts_3_to_5  c2bf3e60d tree ok am
+11 r80b_parts_3_to_5  63d7fcb11 tree ok am
+12 r80b_parts_3_to_5  6738d797a tree ok am
+13 r80b_parts_3_to_5  4c716e5e0 tree ok am
+14 r80b_parts_3_to_5  fdc530bc5 tree ok am
+15 r80b_parts_3_to_5  54390a679 tree ok am
+16 r80b_parts_3_to_5  86232211d tree ok am
+17 r80b_parts_3_to_5  b33bfc8e4 tree ok am
+18 r80b_parts_3_to_5  ff6d4697f tree ok am
+19 r80b_parts_3_to_5  97875e40f tree ok am
+20 r80b_parts_3_to_5  0a6bd7c5b tree ok am
+21 r80b_parts_3_to_5  9fc4c7a2a tree ok am
+22 r80b_parts_3_to_5  10de46f26 tree ok am
+23 r80b_parts_3_to_5  d50eef0a2 tree ok am
+24 r80b_parts_3_to_5  32ce34ff8 tree ok am
+25 r80b_parts_3_to_5  8c0764685 tree ok am
+26 r80b_parts_3_to_5  219632693 tree ok script, says the tree is the builder's
+27 c13                6cc94f539 tree ok am
+28 c13                a2722a4b8 tree ok am
+29 c13                8de8a6b6a tree ok am
+30 c13                c7f874f38 tree ok am
+31 c13                74731b233 tree ok am
+32 r80b_part_6        70e3a2b97 tree ok am
+33 r80b_part_6        753454d99 tree ok script, says the tree is the builder's
+34 r80b_part_6        df067872d tree ok am
+35 r80b_part_6        cd3c8abb1 tree ok am
+36 r80b_part_6        fa6c36000 tree ok am
+37 r80b_part_6        dd5378f8c tree ok am
+38 r80b_part_6        4d30d49c4 tree ok am
+39 r80b_part_6        dbeca189a tree ok am
+40 r80b_part_6        88577e8df tree ok am
+41 r80b_part_6        a12825364 tree ok am
+42 r80b_part_6        cc06d75fe tree ok am
+43 r80b_part_6        ddca9653d tree ok am
+44 r80b_part_6        2cc8fd210 tree ok am
+45 r80b_part_6        ccf3618c7 tree ok am
+46 r80b_part_6        aa6605caa tree ok am
+47 r80b_part_6        c647f1a80 tree ok am
+48 r80b_part_6        d813531f4 tree ok am
+49 r80b_part_6        d898b0943 tree ok am
+50 r80b_part_6        8adbff3f2 tree ok am
+51 r80b_part_6        55c8993de tree ok am
+52 r80b_part_6        9ccd30b4c tree ok am
+53 r80b_part_6        90e369f09 tree ok am
+54 r80b_part_6        39d08fca8 tree ok am
+55 r80b_part_6        119cef103 tree ok am
+56 r80b_part_6        d9ad097b7 tree ok am
+57 r80b_part_6        07d91832d tree ok script, says the tree is the builder's
+58 c14_first_part     710d5518b tree ok am
+59 c14_first_part     a7092aa5c tree ok script, says the tree is the builder's
+60 c14_first_part     88a56f2c1 tree ok am
+61 c16                bdd08c6f4 tree ok am
+62 c16                5dda011f3 tree ok am
+63 c16                643ac3746 tree ok am
+64 c16                1a261e05e tree ok am
+65 c16                1b28f3735 tree ok am
+66 c16                455859a0e tree ok am
+67 c16                b39c58ce6 tree ok am
+68 c16                44ec9cd21 tree ok am
+69 c16                c8f9c5b7f tree ok am
+70 c16                c3932e6ab tree ok am
+71 c16                6ce91cf8d tree ok am
+72 c16                5e8e65356 tree ok am
+73 c16                84aa2a660 tree ok am
+74 c15                a59db2055 tree ok am
+75 c11                4cb892f56 tree ok am
+76 fix_tip            0f6e03931 tree ok am
+77 c17                11fe61242 tree ok am
+78 c14_second_part    325c397ba tree ok am
+79 c14_second_part    0986d77bf tree ok am
+80 c14_second_part    2235b5cd9 tree ok script, says the tree is the builder's
+81 c13_follow_ups     efdf5ffeb tree ok am
+82 c13_follow_ups     43832db29 tree ok am
+83 fix_tip_2          f77ef77c6 tree ok am
+84 c14_third_part     6fb6ce396 tree ok am
+85 c14_fourth_part    443b6844d tree ok script, says the tree is the builder's
+86 c14_fifth_part     178706f84 tree ok am
+87 c13_follow_ups     20f9958e9 tree ok am
+88 c18                7cc8c6808 tree ok script, says the tree is the builder's
+89 c14_patch_8_met    fdfbfae2a tree ok am
+90 c14_terminology    1b01bb5ed tree ok am
+91 c13_follow_ups     70df8229f tree ok am
+ALL 91 APPLIED, EVERY TREE AS RECORDED
+
+The full suite on a fresh clone of entry 91 (scripts/review/review_tools.py --fresh-clone-suite):
+fresh-clone suite: FAIL @ 70df8229f (17 failed, 8829 passed, 74 skipped, 10 warnings); failing: frontier/B1877_review_78
+failing:
+frontier/B1877_review_78_the_decadal_review/verification/test_b1877_review_78.py::test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_ceilings_gate_as_mended
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py::test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list
+frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py::test_what_main_changed_at_the_landing_stands
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_mains_files_are_as_main_wrote_them
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_the_numbers_are_held_as_sentences_and_not_as_digits
+frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/test_b1927_canonical_end.py::test_covariance
+frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/test_b1927_canonical_end.py::test_grid_point_recomputed
+tests/test_b1290_index_formula.py::test_the_backlinks_did_NOT_change_any_verdict
+tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate
+tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+tests/test_b818_retracted_rule.py::test_retracted_stays_a_small_deliberate_set
+tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+tests/test_b921_9b_retraction_debt_gate.py::test_the_check_fails_when_the_rows_are_stripped
+tests/test_b921_9b_retraction_debt_gate.py::test_the_real_ledger_is_clean
+tests/test_repo_gates.py::test_all_gates_pass
+
+Of these, 11 fail on a0bfa2ff4 itself (run there); 3 on the count of landings; B1426's lanes, an artifact of the clone (passes in a checkout); and B1927's two tests, which import a module named grid while scripts/stepb/grid.py has the same name (they pass in a checkout: 10 passed).

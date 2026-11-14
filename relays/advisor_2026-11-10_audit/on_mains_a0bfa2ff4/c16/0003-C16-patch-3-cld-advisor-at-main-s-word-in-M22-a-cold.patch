@@ -1,0 +1,65 @@
+From 643ac3746cb66b8eff377274f081dc556c1e6b7b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:39:15 +0000
+Subject: [PATCH] C16, patch 3 (cld-advisor, at main's word in M22; a cold
+ reader's finding (c) on R80b's part 2, patch 10, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): THE NOTE UNDER ROW A1 OF B1895'S PAGE IS HELD BY
+ ITS SENTENCES
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+THE FINDING, MADE AGAIN, and wider than the reader gave it. The reader names two numbers of patch 10's note that
+no test holds. Each of the note's nine numbers was changed on the page in turn and the lock run: five passed, not
+two. The first derivation's "120 of 120" and "88 of 120" (likely the reader's two), and the second derivation's
+√5/2, √2 and 17/12. The other four (1,332 of 1,332; 358 or 362; 3,378; 1.4866) were held.
+
+THE MEND. One test, added to the lock. The first derivation's sentence is built from the run's own numbers (the
+count of matrices, the agreement at the marks that annihilate their own line, the one agreement at each of the
+other four) and looked for on the page. The second derivation's sentence is held as it stands, with the values
+that the lock's test of the second least reading computes. The test plants each of the five changes and sees
+it reported.
+
+The five plants, made on the page: each passed the lock before this patch, and each fails it now. The lock: 15
+passed. Not checked by main.
+---
+ .../test_b1895_the_mends_of_b1881_read.py     | 26 +++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+index fc98703f2..a47af4dc0 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+@@ -410,3 +410,29 @@ def test_the_keys_of_a_verdict_file_are_read():
+     assert _uncorrected(name, json.dumps({o1 + " [" + mark + "]": "a value"})) == (0, 1)      # the twin
+     assert _uncorrected(name, json.dumps({"a key": {"a deeper key": [o1]}})) == (1, 1)      # values at any depth, as before
+ 
++
++def test_the_note_on_row_a1_gives_the_numbers_the_run_and_the_lock_compute():
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, patch 10, not checked by main, made again first).  The
++    note of 2026-11-12 under row A1 states two derivations, and the lock held four of their numbers: changed on the page, the
++    other five passed (the first derivation's 120 of 120 and 88 of 120; the second's √5/2, √2 and 17/12).  Each is held now by
++    a sentence built from the run, or, for the second derivation's three, by the sentence whose values
++    test_the_second_least_reading_is_the_all_twos_over_the_cyclic_sequences_that_were_read computes."""
++    a = RES["A_numbers"]
++    words = {2: "two", 4: "four"}
++    others = sorted(set(a["controls"].values()))
++    assert len(others) == 1
++    first = ("the swapped-mark recipe agrees on %d of %d matrices at the %s marks that annihilate their own line, and on %d of %d "
++             "at each of the other %s" % (a["row_test_equals_column_test_on_swapped"], a["matrices"], words[6 - len(a["controls"])],
++                                          others[0], a["matrices"], words[len(a["controls"])]))
++    second = ("the least reading is the all-ones' (√5/2), the second least the all-twos' (√2), and every other reads above 17/12, "
++              "the least of them 1.4866 at (1, 1, 2, 2)")
++    flat = " ".join(PAGE.split())
++    assert first in flat, first
++    assert second in flat, second
++    # planted: each of the five numbers changed on the page is reported now
++    for was, now in (("on 120 of 120", "on 119 of 120"), ("on 88 of 120", "on 87 of 120"), ("all-ones' (√5/2)", "all-ones' (√3/2)"),
++                     ("all-twos' (√2)", "all-twos' (√3)"), ("above 17/12", "above 16/12")):
++        assert was in flat
++        changed = flat.replace(was, now, 1)
++        assert first not in changed or second not in changed, was
++
+-- 
+2.43.0
+

@@ -1,0 +1,54 @@
+From 9165a58d497b6dcf661156ca654ad42f0b03300b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:33:51 +0000
+Subject: [PATCH] R80b, part 3, patch 4 (cld-advisor, at main's word in M14;
+ Review 80, the SM seat's finding 33, WHICH MAIN HAS NOT CHECKED: it was made
+ again before it was mended): B1882'S LOCK ASKS WHAT EACH CORRECTION OF THE
+ VERDICT LINE SAYS.
+
+THE FINDING, MADE AGAIN on the lock. For the verdict line it asked that the day stand within 120 characters after each of two old phrases: any mention of the day, whatever it says.
+
+WHAT IS CHANGED. For each old phrase the lock asks that a bracket open right after it and say what the correction says. The two old lines stand in a dated note.
+
+THE PLANTED CASE, in the patch's own test: each bracket replaced by a bare mention of the day. The two old lines pass it; the lock reports it.
+
+The lock: 7 tests pass. 0 of 19.
+---
+ .../test_b1882_the_v1_card_run_on_main.py     | 23 ++++++++++++++++---
+ 1 file changed, 20 insertions(+), 3 deletions(-)
+
+diff --git a/frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py b/frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py
+index 03979558d..bc5902bdc 100644
+--- a/frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py
++++ b/frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py
+@@ -243,7 +243,24 @@ def test_the_pages_numbers_are_the_runs():
+         for n in at:
+             assert "CORRECTED 2026-11-12" in " ".join(blocks[n:n + 2]), old
+     line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+-    for old in ("THE AUDIT'S FIGURE IS REPRODUCED AND IS NOT ABOUT RARITY", "a lower bottom end almost none"):
+-        i = line.index(old)
+-        assert "2026-11-12" in line[i:i + len(old) + 120], old
++    # CHANGED 2026-11-12 (Review 80; the SM seat's finding 33, not checked by main, made again here).  Two lines stood here:
++    #     i = line.index(old)
++    #     assert "2026-11-12" in line[i:i + len(old) + 120], old
++    # They asked that the day stand within 120 characters after each old phrase: any mention of the day, whatever it says.
++    # What is asked now is what each correction says, in the bracket that opens right after the old phrase.
++    said = {"THE AUDIT'S FIGURE IS REPRODUCED AND IS NOT ABOUT RARITY": ("[CORRECTED 2026-11-12", "nothing of the audit's was reproduced", "a share that falls in a window written beforehand"),
++            "a lower bottom end almost none": ("0.06 to 0.08 of the average rate", "0.18 under the first null's covariant menu", "added 2026-11-12]")}
++
++    def _corrected(text, old):
++        i = text.index(old) + len(old)
++        if not text[i:].startswith(" ["):
++            return False
++        return all(s in text[i:text.index("]", i) + 1] for s in said[old])
++    as_it_asked = lambda text, old: "2026-11-12" in text[text.index(old):text.index(old) + len(old) + 120]
++    for old in said:
++        assert _corrected(line, old), old
++        # planted: the bracket after the old phrase replaced by a bare mention of the day.  The two lines above pass it.
++        i = line.index(old) + len(old)
++        bare = line[:i] + " [see the note of 2026-11-12]" + line[line.index("]", i) + 1:]
++        assert as_it_asked(bare, old) and not _corrected(bare, old), old
+     assert "left open there" in page and "\"OPEN, not checked\"" in page
+-- 
+2.43.0
+

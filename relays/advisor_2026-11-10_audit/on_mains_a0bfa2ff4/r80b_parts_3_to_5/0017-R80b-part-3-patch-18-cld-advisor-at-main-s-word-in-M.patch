@@ -1,0 +1,119 @@
+From b33bfc8e4e4bd40f5af170d48549af11dde8a455 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:34:57 +0000
+Subject: [PATCH] R80b, part 3, patch 18 (cld-advisor, at main's word in M14;
+ Review 80, the SM seat's findings 5 and 27, each of which asks for a sentence
+ in a new log entry): THE LOG'S ENTRY FOR THE FIRST THREE PARTS OF THE SERIES,
+ WITH THE TWO CORRECTIONS THE ROWS ASK FOR.
+
+One entry at the head of the changelog and its pair at the end of the progress log, written by the building session for main to reword at the landing. They say what the three parts mend, that no statement of the mathematics is the builder's, and what is not done. THEY CARRY: the correction of the changelog's sentence of 2026-11-11 on the index of a unit on one line (the SM seat's 27), in main's words from the law map; and a line on main's own use of the word "reproduced" on 2026-11-12 (the SM seat's 5).
+
+B1894's test of the old sign counts the old words on the changelog twice with this patch: once in the entry of 2026-11-11, once in the entry that corrects them, with the sign beside them. The front page's state block and the page of context are made again.
+
+ON THE COUNT OF LANDINGS: on this seat's chain, where each patch is a commit, the count since the review's anchor passes 40 within this part, and the gate on it says that the review fires. It is so from this part's eleventh patch on main's line, which has one commit more. It is a count and not a fault of a patch; how the series lands is main's. Every other gate passes on each patch. 0 of 19.
+---
+ CHANGELOG.md                                     | 13 +++++++++++++
+ PROGRESS_LOG.md                                  | 16 ++++++++++++++++
+ README.md                                        |  2 +-
+ docs/views/CONTEXT_RECOVERY.md                   |  2 +-
+ .../test_b1894_review_79_the_second_round.py     |  4 +++-
+ 5 files changed, 34 insertions(+), 3 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index ee052f122..17e53f798 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,18 @@
+ # Changelog
+ 
++## S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-11-12)
++
++- **Built as patches by the building session** from main's table of the 57 findings and its checks (P-832, P-833), read cold by a verifying session, and landed by main after its own check. No statement of the mathematics and no number is the builder's.
++- **Part 1, three patches.** The plan's page gave the owner's answer of 2026-11-10 as a block quotation, and its builder refused to build without his words. The page now gives main's account in plain words; the lock reads the page for a quotation by its shape. A text that opens with punctuation is no longer cut down to the mark alone.
++- **Part 2, twelve patches,** on B1881, B1895 and B1897. B1881's lock holds its script whole, calls the script's check function, holds the file that says which versions made the run, and reads every value in its weaker comparison: main's five plants, which all passed, all fail. B1895's lock holds main's four computations and reads a verdict file text by text. Fifteen tests where six places said fourteen; the reader's own plants are said in four more places; two verdict lines name no session; two things owed have rows P-835 and P-836.
++- **Part 3,** on older arcs, their tests, the seats' protocol and two messages: B732, B942, B1884, B1882, B874, B1893, B862, B734, B1028 with B1222, B1891, B1894, the test of B448, and main's table of the first 43.
++- **CORRECTED HERE, the entry of 2026-11-11 below** ("Two findings of the second derivation"): it says that a unit on one line gives index one, by main's own formula. For the four-dimensional index the sign is the other. "One" is the dimension B1796 computed, the Euler characteristic on the base; the index takes that term with a minus sign, so at an empty Lambda+ it is -1 for a unit on one line and -3 for the uniform unit. The law map's row for B1641 has said so since 2026-11-12; the sentence stood uncorrected in that entry, in harvest row 1709, in the law map's currency read and in one message, and each carries the correction now.
++- **ON MAIN'S OWN USE OF A WORD on 2026-11-12:** main's table of the first 43 findings, and one correction on the registry of retracted phrases, say "reproduced" for main's own check of a finding. The seats' protocol, § 12, keeps that word for the same code run again on a clean checkout. The table of the 57 defines "checked" apart from it. Both places carry a dated note, and § 13 of the protocol is reworded: main checks each finding itself.
++- **Not checked by main when it was built, and made again by the builder first:** the findings that the table of the 57 gives as not checked. Each patch for one says so.
++- **Not done:** the listener and the atlas's query (part 4); the five things owed from the first 43 (part 5); the full suite on a fresh clone at the end of the series.
++
++0 of 19.
++
+ ## S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
+ 
+ - **The gate `negative-second-computation`,** built by the builder as card C19 and landed by main: from B1923 on, a NEGATIVE verdict file names a second computation made in `cites_seat`, or its verdict line says PROVISIONAL; and its FINDINGS carries "What the wall teaches". Its five failing paths are registered. Main tested it with five plants of its own before landing; each behaved as the rule asks. Whether a second computation is independent stays main's judgement.
+diff --git a/PROGRESS_LOG.md b/PROGRESS_LOG.md
+index 6bd0ef273..f4c775c30 100644
+--- a/PROGRESS_LOG.md
++++ b/PROGRESS_LOG.md
+@@ -20178,3 +20178,19 @@ seat's check. Six are left.
+ **What happened.** The record-keeping helper built an automatic check, and main tested it with its own planted cases before accepting it: from now on a negative result cannot enter the record unless an independent second computation is named, or it is marked provisional, and it must say what the wall teaches.
+ 
+ 0 of 19.
++
++## 2026-11-12 — The review's repairs, the first three parts (S306p)
++
++**What this is.** The eightieth review left forty-one faults to repair, and two more came in while the work was under way. This is the first three parts of that repair: thirty-three small changes, each answering one fault or a few that belong together.
++
++**Who did it.** Not main. A building session wrote each change as a patch from main's own table of the faults and main's own checks, and main publishes them after checking. Where main had not checked a fault itself, the builder first made sure the fault was real.
++
++**What was repaired.** The plan's page no longer quotes the owner; it says in plain words what he answered. The test that guards one of the mathematics records now notices if its script is weakened in any way: five ways of weakening it, which main had tried and which all went unnoticed, are now all noticed. Counts and sentences on a dozen older pages say what is true of them. Several tests that could not fail, or that looked in too wide a place, are tightened, each shown against a deliberately planted error.
++
++**Two corrections this entry carries.** A sentence of 2026-11-11 gave a number the wrong sign in one of its two meanings; it is corrected in each place it stood. And on 2026-11-12 main used the word "reproduced" for checks of its own, where the record keeps that word for running the same code again; the places are noted.
++
++**What is left.** Two parts: the tool that tells each session when main has written to it, and five larger debts from the first half of the review.
++
++**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
++
++0 of 19.
+diff --git a/README.md b/README.md
+index 1f56c19ce..e54c1cc4e 100644
+--- a/README.md
++++ b/README.md
+@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
+ | arcs with a verdict | 1623: 1125 PROVED, 384 NEGATIVE, 101 OPEN, 13 RETRACTED |
+ | points in the register | 846: 309 open (queued work, leads, and questions not yet decided), 537 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+-| the last landing | S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13) |
++| the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
+ <!-- STATE:END -->
+ 
+ ## Start here
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 9a6287b0e..3d9517b4f 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -53,6 +53,7 @@
+ 
+ ## The last landings (CHANGELOG)
+ 
++- S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…
+ - S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
+ - S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)
+ - S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
+@@ -60,7 +61,6 @@
+ - S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
+ - S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
+ - S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
+-- S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again)…
+ 
+ ## The latest campaign line
+ 
+diff --git a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+index a19e9cc5a..b0aa28cf4 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
++++ b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+@@ -118,7 +118,9 @@ def test_the_old_sign_stands_corrected_in_its_other_wordings():
+     entry of 2026-11-11, the harvest ledger's row 1709, the law map's currency read, and main's fourth message to the
+     session whose finding it was.  Each carries the correction beside it now.  Planted: each page with its correction taken
+     out, which is the page as it stood; the test above passes on all four."""
+-    pages = {"CHANGELOG.md": 1, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
++    # the changelog holds them twice since the entry that corrects them was written: once in that entry, with the sign beside
++    # them, and once in the entry of 2026-11-11
++    pages = {"CHANGELOG.md": 2, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
+     for rel, n in pages.items():
+         text = (ROOT / rel).read_text(encoding="utf-8")
+         flat = " ".join(text.split())
+-- 
+2.43.0
+

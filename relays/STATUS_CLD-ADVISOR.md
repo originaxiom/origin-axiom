@@ -1,9 +1,9 @@
 seat: cld-advisor
-read: M31
+read: M32
 state: working
-on: C20 BUILT AGAIN on your 660daba8d (c20_on_660daba8d/: three patches, apply on a clean checkout, every gate green; only a generated view had met your newer commits). The chain on b1bcc7f50 now meets your head at two numbers, P-846 and B1924 (your da3993f38): renumber at the merge or have it rebuilt, your choice (note of 2026-11-14 on C20 on 660daba8d). No new message since M31
-needs: your choice on the chain's C13 row (P-846); cold readings of the two short pages; your check of the 25 rows and the twelve; arcs for P-334's O1 to O10; your word on P-319's two pairs
-next push: the plan's two front pages (M29), unless you say otherwise
+on: THE CHAIN SENT AGAIN on your a0bfa2ff4, per M32: 91 entries in on_mains_a0bfa2ff4/ (replaces on_mains_b1bcc7f50/), with P-847 and B1929; all apply on a clean checkout, trees as recorded; every gate on every entry, red only on the count of landings from entry 34; the full suite: 17 failed, none the chain's (11 yours on a0bfa2ff4, 3 the count of landings, the clone's lanes, and B1927's two tests that meet scripts/stepb/grid.py by name). Your B1927 is held by name in the selection gate, for your check (note of 2026-11-14 on the chain on a0bfa2ff4)
+needs: your landing of the chain; your check of B1927's hold, the 25 rows and the twelve; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs
+next push: the plan's two front pages (M29), after reading what M29 says of them
 
 # cld-advisor — status
 

@@ -1,0 +1,85 @@
+From b39c58ce610c029437b67de87867ebc0e81cbe53 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:39:35 +0000
+Subject: [PATCH] C16, patch 7 (cld-advisor, at main's word in M22; a cold
+ reader's finding (h) on R80b's part 3, patch 6, NOT CHECKED BY MAIN, MADE
+ AGAIN BEFORE IT WAS MENDED): THE TEST OF B874'S SCOPE BRACKET HOLDS THE
+ BRACKET WHOLE
+
+THE FINDING, MADE AGAIN. tests/test_b874_ladder.py held two sentences of the verdict line's scope bracket word
+for word and four labels. A third, false sentence added after them ("So the ladder is complete after all.")
+passed: the bracket's reader returned nothing to report.
+
+THE MEND. The bracket's own text, outside the dated notes that stand inside it, is held whole, under a dated
+note: its four sentences as they stand, with its spaces made single. Nothing may be added to it or taken out.
+
+THE TEST: a false sentence after the two, and one before them, are reported; the twin, a dated note added inside
+the bracket, is not, and the test says why (what a dated note says is not read here). The test: 9 passed. Not
+checked by main.
+---
+ tests/test_b874_ladder.py | 43 +++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 43 insertions(+)
+
+diff --git a/tests/test_b874_ladder.py b/tests/test_b874_ladder.py
+index 91912d05f..470395a46 100644
+--- a/tests/test_b874_ladder.py
++++ b/tests/test_b874_ladder.py
+@@ -73,6 +73,13 @@ def test_the_verdict_line_scopes_its_ladder_and_says_where_each_statement_comes_
+     # four labels.  It does not ask what stands under them: a reader planted two false statements in the bracket and both
+     # passed.  What main computed is held to B892's own kept check, and what is the seat's relay is held word for word.
+     assert _what_the_bracket_says(after) == []
++    # ADDED 2026-11-13 (C16; the same finding): a third, false sentence after the two, and one before them, are reported; the
++    # twin, a dated note added inside the bracket, is not (what a note says is not read here, and the test says so)
++    for planted in (after.replace("with 30 and 46 degenerately.", "with 30 and 46 degenerately. So the ladder is complete after all.", 1),
++                    after.replace("The ladder is not complete as stated.", "The ladder is complete. The ladder is not complete as stated.", 1)):
++        assert planted != after and _what_the_bracket_says(planted)
++    noted = after.replace("with 30 and 46 degenerately.", "with 30 and 46 degenerately. [NOTED 2026-11-13: a note.]", 1)
++    assert noted != after and _what_the_bracket_says(noted) == []
+     for false, where in (("all real, to 16 and to 26", "all imaginary, to 14 and to 18"), ("so on the real line it reaches 26", "so on the real line it is 12 at every point but the plane stratum's")):
+         planted = after.replace(where, false)
+         assert planted != after and "COMPUTED ON MAIN (B892)" in planted and "BY THE AUDIT SEAT'S RELAY" in planted      # the four labels stand
+@@ -95,5 +102,41 @@ def _what_the_bracket_says(after):
+         out.append("the seat's strata are not as the relay gave them, or do not stand under the relay's label")
+     if after.index("COMPUTED ON MAIN (B892)") > after.index("BY THE AUDIT SEAT'S RELAY") or main_part in after[after.index("BY THE AUDIT SEAT'S RELAY"):]:
+         out.append("what main computed stands under the relay's label")
++    # ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 6, not checked by main, made again first).  The two
++    # sentences above were held word for word, and a third, false sentence after them passed.  The bracket's own text, outside
++    # the dated notes that stand inside it, is held whole: nothing is added to it and nothing taken out.
++    if _the_brackets_own_text(after) != _THE_BRACKETS_OWN_TEXT:
++        out.append("the scope bracket says something more, or less, than its four sentences")
+     return out
+ 
++
++_THE_BRACKETS_OWN_TEXT = " ".join((
++    "SCOPED 2026-11-12 (Review 79; the scope this arc's page has carried since its amendments of 2026-08-05 and 2026-08-18 had not",
++    "reached this line): that is the answer to the question the coordinate tests ask, a second charge on x14 or x22. The ladder is",
++    "not complete as stated. COMPUTED ON MAIN (B892): on the line through a wall point the nullity jumps at four points, all",
++    "imaginary, to 14 and to 18, so on the real line it is 12 at every point but the plane stratum's. BY THE AUDIT SEAT'S RELAY of",
++    "2026-08-15, entered in this arc's addendum of 2026-08-18 with its backbone verified on the bench and its locks not imported:",
++    "over the algebraic closure the strata from a wall point are {12, 14, 16, 18, 20, 26}, the 26 being attained at four points,",
++    "and over the reals {12, 16, 18}, with 30 and 46 degenerately."))
++
++
++def _the_brackets_own_text(after):
++    """the text of the scope bracket that is not inside a bracket of its own (its dated notes), with its spaces made single"""
++    start = after.find("[SCOPED 2026-11-12")
++    if start == -1:
++        return None
++    depth, keep = 0, []
++    for c in after[start:]:
++        if c == "[":
++            depth += 1
++            if depth > 1:
++                continue
++        elif c == "]":
++            depth -= 1
++            if depth == 0:
++                break
++            continue
++        elif depth == 1:
++            keep.append(c)
++    return " ".join("".join(keep).split()) if depth == 0 else None
++
+-- 
+2.43.0
+

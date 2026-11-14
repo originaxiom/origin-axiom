@@ -1,0 +1,84 @@
+From 84aa2a6601e1e8267b75e6a314175b89b73f46c4 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:40:04 +0000
+Subject: [PATCH] C16, patch 13 (cld-advisor, at main's word in M22; a cold
+ reader's finding (n) on R80b's part 4, NOT CHECKED BY MAIN, MADE AGAIN BEFORE
+ IT WAS MENDED): THE ATLAS QUERY FINDS AN ARC WHOSE FOLDER IS NAMED BY ITS ID
+ ALONE
+
+THE FINDING, MADE AGAIN. The query found an arc's folders by "frontier/<id>_*" and missed a folder named by the
+id alone. On a planted tree of three folders (B9, B9_words, B91_other) it found only B9_words for the id B9. No
+folder of main's record is named by an id alone today.
+
+THE MEND. The folder named by the id is found beside those named "<id>_<words>". The function takes the
+repository's root as an argument that only a test gives; its default is as it was. The line as it stood is kept
+in a dated note.
+
+THE TEST, in the atlas's test file: on the planted tree the query for B9 finds B9 and B9_words and not B91_other,
+and the query for B91 finds B91_other alone; the twin, a folder of this repository named "<id>_<words>", is found
+as before. The atlas's tests: 16 passed. Not checked by main.
+---
+ scripts/atlas/query.py | 12 ++++++++----
+ tests/test_atlas.py    | 24 ++++++++++++++++++++++++
+ 2 files changed, 32 insertions(+), 4 deletions(-)
+
+diff --git a/scripts/atlas/query.py b/scripts/atlas/query.py
+index f2ef4c99b..18368a43a 100644
+--- a/scripts/atlas/query.py
++++ b/scripts/atlas/query.py
+@@ -47,12 +47,16 @@ def _banked(P):
+     return {pid: p for pid, p in P.items() if p["status"] == "banked"}
+ 
+ 
+-def _verdicts_of(arc_id):
+-    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id"""
++def _verdicts_of(arc_id, root=None):
++    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id.
++    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): only a folder
++    named `<id>_<words>` was found, and a folder named by the id alone was missed.  Both are found now.  `root` is the
++    repository's (given only by a test).  The line as it stood:
++        for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):"""
+     import glob
+-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
++    root = root or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+     out = []
+-    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
++    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id)) + glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
+         if not os.path.isdir(d):
+             continue
+         h = os.path.join(d, "arc_verdict.json")
+diff --git a/tests/test_atlas.py b/tests/test_atlas.py
+index 6c09be00e..cf5b53b90 100644
+--- a/tests/test_atlas.py
++++ b/tests/test_atlas.py
+@@ -179,3 +179,27 @@ def test_render_regenerates_the_map(tmp_path):
+     with open(out, encoding="utf-8") as f:
+         head = f.read(4000)
+     assert "GENERATED" in head and "context card" in head
++
++
++def test_the_query_finds_an_arc_whose_folder_is_named_by_its_id_alone(tmp_path):
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The query
++    looked for `frontier/<id>_*` and missed a folder named by the id alone.  Planted: three folders, B9, B9_words and B91_other;
++    the query for B9 finds the first two and not the third."""
++    import importlib.util as _u
++    import json as _j
++    import pathlib as _p
++    import sys as _s
++    _s.dont_write_bytecode, was = True, _s.dont_write_bytecode
++    try:
++        spec = _u.spec_from_file_location("atlas_query_for_a_bare_id", _p.Path(__file__).resolve().parents[1] / "scripts" / "atlas" / "query.py")
++        q = _u.module_from_spec(spec)
++        spec.loader.exec_module(q)
++    finally:
++        _s.dont_write_bytecode = was
++    for name in ("B9", "B9_words", "B91_other"):
++        (tmp_path / "frontier" / name).mkdir(parents=True)
++        (tmp_path / "frontier" / name / "arc_verdict.json").write_text(_j.dumps({"verdict": "PROVED", "claim_one_line": name}), encoding="utf-8")
++    assert [f for f, _, _, _ in q._verdicts_of("B9", root=str(tmp_path))] == ["frontier/B9", "frontier/B9_words"]
++    assert [f for f, _, _, _ in q._verdicts_of("B91", root=str(tmp_path))] == ["frontier/B91_other"]
++    # the twin: on this repository a folder named <id>_<words> is found as before
++    assert [f for f, _, _, _ in q._verdicts_of("B1905")] == ["frontier/B1905_selection_and_chirality_across_the_record"]
+-- 
+2.43.0
+

@@ -1,0 +1,820 @@
+diff --git a/docs/ATTRIBUTION_BASELINE.json b/docs/ATTRIBUTION_BASELINE.json
+index 42845f588158883a64139f3af163f4d20614101d..134fdc47b062efd1f3550210de43f82a33aaf1d6 100644
+--- a/docs/ATTRIBUTION_BASELINE.json
++++ b/docs/ATTRIBUTION_BASELINE.json
+@@ -63,10 +63,10 @@
+   "frontier/REPO_STATE.md": 3,
+   "knowledge/K027_the_convergent_protocol.md": 1,
+   "papers/VALIDATION_LEDGER.md": 6,
+-  "paths/MECHANISM_CLASSES.md": 1,
+-  "paths/PATHS.md": 1,
+-  "philosophy/GOVERNANCE.md": 1,
+-  "philosophy/PHILOSOPHICAL_PATHS.md": 4,
++  "docs/archive/paths/MECHANISM_CLASSES.md": 1,
++  "docs/archive/paths/PATHS.md": 1,
++  "docs/archive/philosophy/GOVERNANCE.md": 1,
++  "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md": 4,
+   "tests/test_flagship_paper.py": 2,
+   "tests/test_public_surface_scan.py": 3,
+   "tests/test_sl4_dehn_filling_paper.py": 2,
+diff --git a/docs/REORGANIZATIONS.md b/docs/REORGANIZATIONS.md
+index 92e05b0ea7602248fd97d4a40db89ca4c29a5e69..b00e27264af85ba9104941ac6513cddc03128be6 100644
+--- a/docs/REORGANIZATIONS.md
++++ b/docs/REORGANIZATIONS.md
+@@ -3,6 +3,47 @@
+ *The log GOVERNANCE section 12 asks for. A file of the record is moved only when something forces it, and then batched,
+ by a script, with the locks migrated in the same commit, and entered here. Newest first.*
+ 
++## 2026-11-13 — the historical folders move under docs/archive/, and ten copies of notes between sessions leave the tree
++
++- **Why:** a first reader should meet the README, the foundation, the rules and the working folders; the record's history
++  and side work stand beside them (main's M26 to the building session, and M27 for the ten copies). The building
++  session's card C18 measured them and proposed this; main approved it in its M28.
++- **The script:** `scripts/reorganize/history_2026_11_13.py` (it makes the move once; `--check` says whether the tree is as
++  it leaves it).
++- **Moved, each with its name:** `legacy/`, `story/`, `paths/`, `speculations/` and `philosophy/`, to
++  `docs/archive/<name>/`. No seal file names a path in any of them (the card's measurement,
++  `relays/advisor_2026-11-10_audit/c18/MEASUREMENT.md`).
++- **Removed, at the rule of the second entry, that git's history keeps them:** ten copies of notes between sessions,
++  nine inside arcs' folders (B702, B1297, B1303 two, B1305, B1306 three, B1454) and one in `outside_bench/`.
++- **The foundation:** its six paths into the moved folders, in §§ 0 to 8, change by its version 1.68 (B1929), written by
++  that version's own script in the same patch; its version log keeps its paths as written.
++- **Readers migrated:** the gates (the framing gate reads the moved folders under `docs/`, and leaves `legacy` out as it
++  did; the attribution gate's exemption and the foundation's pointers name the new paths), the seal ledger's script,
++  three tests that left `legacy/` unread, and B1303's lock, which now finds its note in git's history.
++- **References updated:** in the 22 living pages the script names (the front pages, the index, the practices, the bar,
++  the atlas's guides), 62 paths into the moved folders (a folder's bare name only where it stands in backticks). Dated records, ledgers and the foundation's version log keep the old paths as written; the lines
++  below let the path check resolve them in git's history.
++- **The lock:** `tests/test_the_historical_folders_moved.py` (the tree as moved; a living page naming a moved file at its
++  old place, a file back at its old place, a note back in the tree, each reported).
++- **Kept where it is:** `outside_bench/` (side work, read by four checks of the harvest; its one note between sessions
++  left with the others), `knowledge/`, `core/`, `src/`, `packaging/`.
++
++- REMOVED `legacy/` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `story/` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `paths/` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `speculations/` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `philosophy/` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B702_metallic_hearing_law/CC2_TO_CC_2026-07-19_EQ_results.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1297_the_spectral_cover_index/CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1303_the_sm_closings_z_prime/CC_TO_CHAT1_2026-09-08_B1303_DISPOSITIONS_HELD.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1305_the_cloud_156_178/CC_TO_CLOUD_2026-09-08_Q1_ANSWERED_AND_SHARPENED_HELD.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1306_the_older_debt/CC_TO_CHAT1_2026-09-09_HANDOFF_BANKED_HELD.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1306_the_older_debt/CC_TO_SM_2026-09-09_THE_TOWER_HARVESTED_AND_THE_RANGES_HELD.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1306_the_older_debt/inputs/chat1_handoff_2026-09-08/CHAT1_TO_CC_2026-09-08_HANDOFF_ARROW_CHIRALITY.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `frontier/B1454_genesis_v1_verified_and_adopted/received/SM_TO_CC_2026-10-02_GENESIS_V1.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++- REMOVED `outside_bench/CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md` AT `a0bfa2ff44389f54ea6e725f24ee0804f971e2cc`
++
+ ## 2026-11-13 — the notes and hand-overs between sessions leave the tree
+ 
+ - **Why:** the owner's word of 2026-11-13: how the sessions talked to each other need not stay in the tree, since git's
+diff --git a/frontier/B1176_record_surface_wave/verification/reproduce.sh b/frontier/B1176_record_surface_wave/verification/reproduce.sh
+index d54914871a07686885b85cc03cee2d4188f56bdd..c1dedb17f1ea1b0416c5e56eec92b6f36db5c36b 100755
+--- a/frontier/B1176_record_surface_wave/verification/reproduce.sh
++++ b/frontier/B1176_record_surface_wave/verification/reproduce.sh
+@@ -6,8 +6,9 @@
+ grep -q "PORTFOLIO_2026-08-27" "$R/papers/README.md" && echo "  OK README points at it" || { echo "  MISSING README points at it"; exit 1; }
+ n=$(ls "$R"/frontier/{B58_stage1,B834_wave3b,B835_lock_repairs,B836_route_negatives,B837_file_drawer_audit,B838_lexicon_regrounding,B839_b685_residue,B840_close_loose_ends,B841_provenance_pass,B842_face_attachment,B845_spectral_inventory,B89T_tower_route,B89_sl4_symbolic_M4L}/arc_verdict.json 2>/dev/null | wc -l | tr -d ' ')
+ [ "$n" = "13" ] && echo "  OK 13 retro arc_verdicts (P3_depth_exposure exempt-by-name; B89T shares id B89)" || { echo "  MISSING 13 retro arc_verdicts (P3_depth_exposure exempt-by-name; B89T shares id B89)"; exit 1; }
+-grep -q "S074" "$R/speculations/S074_the_adelic_closing_doctrine.md" && echo "  OK S074 (rooms repair)" || { echo "  MISSING S074 (rooms repair)"; exit 1; }
+-grep -q "Addendum (2026-08-27, B1176" "$R/philosophy/13_the_computed_observer.md" && echo "  OK philosophy addendum" || { echo "  MISSING philosophy addendum"; exit 1; }
++# 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
++grep -q "S074" "$R/docs/archive/speculations/S074_the_adelic_closing_doctrine.md" && echo "  OK S074 (rooms repair)" || { echo "  MISSING S074 (rooms repair)"; exit 1; }
++grep -q "Addendum (2026-08-27, B1176" "$R/docs/archive/philosophy/13_the_computed_observer.md" && echo "  OK philosophy addendum" || { echo "  MISSING philosophy addendum"; exit 1; }
+ grep -q "## L189" "$R/docs/OPEN_LEADS.md" && echo "  OK L189 (chronicle candidates owned)" || { echo "  MISSING L189 (chronicle candidates owned)"; exit 1; }
+ grep -q "ID-COLLISION NOTE, B1176" "$R/docs/OPEN_LEADS.md" && echo "  OK L110/L113 annotated" || { echo "  MISSING L110/L113 annotated"; exit 1; }
+ grep -q "overloaded-symbol registry" "$R/TERMINOLOGY.md" && echo "  OK the namespace registry" || { echo "  MISSING the namespace registry"; exit 1; }
+diff --git a/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.json b/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.json
+index 5f3a6f1f016fd610df689a791aa7cac21763198b..70d05b932a538dab041765bd073e6f735edfce0b 100644
+--- a/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.json
++++ b/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.json
+@@ -138,7 +138,7 @@
+   {
+    "item": "§4",
+    "says": "P000: m = 1 most-selected, not forced; the family the intended shape",
+-   "found_in": "philosophy/P000_what_is_not_nothing.md"
++   "found_in": "docs/archive/philosophy/P000_what_is_not_nothing.md"
+   },
+   {
+    "item": "§1",
+@@ -153,7 +153,7 @@
+   {
+    "item": "§1",
+    "says": "non-cancellation is the Fricke-Vogt invariant (P008)",
+-   "found_in": "philosophy/P008_non_cancellation_is_fricke_vogt.md"
++   "found_in": "docs/archive/philosophy/P008_non_cancellation_is_fricke_vogt.md"
+   },
+   {
+    "item": "§1",
+diff --git a/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.py b/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.py
+index aaf4a8ed7ddefe86957a350a0da40a9629ef6df1..1252e129163a9f7027832ed06431609a0e799e7e 100644
+--- a/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.py
++++ b/frontier/B1454_genesis_v1_verified_and_adopted/verification/citations.py
+@@ -64,17 +64,25 @@
+ ]
+ 
+ 
++MOVED = ("legacy/", "story/", "paths/", "speculations/", "philosophy/")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
++
++
++def now(rel):
++    """a path named at its old place, as it stands now"""
++    return "docs/archive/" + rel if rel.startswith(MOVED) else rel
++
++
+ def found(files, rx):
+     pat = re.compile(rx, re.S)
+     for g in files:
+-        for f in sorted(glob.glob(os.path.join(ROOT, g))):
++        for f in sorted(glob.glob(os.path.join(ROOT, now(g)))):
+             if pat.search(open(f, errors="replace").read()): return os.path.relpath(f, ROOT)
+     return None
+ 
+ 
+ def registry():
+     c = {}
+-    for line in open(os.path.join(ROOT, "paths", "PATHS.md")):
++    for line in open(os.path.join(ROOT, now("paths/PATHS.md"))):
+         m = re.match(r"\| \*\*([A-Z])(\d+)\*\* \|[^|]*\|[^|]*\| \**([A-Z-]+)", line)
+         if m and not (m.group(1) == "E" and int(m.group(2)) > 20):          # E21+ are instantiations, not enumerated paths
+             c[m.group(3)] = c.get(m.group(3), 0) + 1
+diff --git a/frontier/B1833_the_brainstorms_reread/verification/apply/apply_s300.py b/frontier/B1833_the_brainstorms_reread/verification/apply/apply_s300.py
+index 56bc05a312e73ac8fcde8e81234ec8466b3d5648..c5172b6145db42a493cd7b9ae730f3f3fd0931bc 100644
+--- a/frontier/B1833_the_brainstorms_reread/verification/apply/apply_s300.py
++++ b/frontier/B1833_the_brainstorms_reread/verification/apply/apply_s300.py
+@@ -126,7 +126,7 @@
+               "closed P-283 on its own ask — re-rowed as P-638; the eight dispositions drafted in the audit room on 2026-10-23 "
+               "were re-checked by the web-era reader and are proposed closures for main to confirm under P-617.]**" % D, 1)
+ OL.write_text(t, encoding="utf-8")
+-SP = ROOT / "speculations/S_THE_FIELDS_GENESIS.md"
++SP = ROOT / "docs/archive/speculations/S_THE_FIELDS_GENESIS.md"   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+ append(SP, "> *Dated note %s (B1833, P-655):* the table's \"derivation attempted\" (and § 108's \"is attempted in parallel\") "
+        "describe a plan, not work done: no derivation of \"what exists is read\" from PF1 and PF2 exists on the record. The "
+        "attempt stays owed in P-130 (joined under P-629).*" % D)
+diff --git a/frontier/B1833_the_brainstorms_reread/verification/test_b1833_the_brainstorms_reread.py b/frontier/B1833_the_brainstorms_reread/verification/test_b1833_the_brainstorms_reread.py
+index 672dcac2c607a5165460c787cf99d6e16bc96945..345675e763e6201ad734bb24a50045729844f8fe 100644
+--- a/frontier/B1833_the_brainstorms_reread/verification/test_b1833_the_brainstorms_reread.py
++++ b/frontier/B1833_the_brainstorms_reread/verification/test_b1833_the_brainstorms_reread.py
+@@ -53,7 +53,7 @@
+ def test_the_corrections_are_on_the_record():
+     ol = (ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
+     assert "this note mislabels item (b)" in ol and "(g) and (h) fell out of the carry" in ol
+-    sp = (ROOT / "speculations" / "S_THE_FIELDS_GENESIS.md").read_text(encoding="utf-8")
++    sp = (ROOT / "docs" / "archive" / "speculations" / "S_THE_FIELDS_GENESIS.md").read_text(encoding="utf-8")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+     assert "describe a plan, not work done" in sp
+     for pid in ("P-303", "P-335"):
+         assert "omitted from main's 2026-10-24 list" in _row(pid)[5], pid
+diff --git a/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py b/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py
+index 7b127a3caaf2089b28ccf19d1f6b2cc51a7e794b..735713ac72ef2ae117792778cfe798cd88e69da1 100644
+--- a/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py
++++ b/frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py
+@@ -11,6 +11,8 @@
+             p = o["path"]
+             if p not in cache:
+                 fp = ROOT / p
++                if not fp.is_file() and p.startswith(("legacy/", "story/", "paths/", "speculations/", "philosophy/")):
++                    fp = ROOT / "docs" / "archive" / p          # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry); the quotes keep their paths as written
+                 cache[p] = norm(fp.read_text(encoding="utf-8", errors="replace")) if fp.is_file() else None
+             if cache[p] is None and p.startswith("audit/"):
+                 continue      # the gitignored audit room (L185's evidence that its answer lives only there): main's tree only
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
+index ed9b8aa3332ac66006996c9048084a92ea67683e..a27946cca295d69f69810f906ba20ede2660cbb7 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant.py
+@@ -19,8 +19,8 @@
+ RUNS = re.compile(r"subprocess\.|pytest|GATES\[|gates\.")
+ STOPS = re.compile(r"(assert|raise|sys\.exit|exit)\b[^\n]*(!=|==|is not|not in| in )[^\n]*|changed nothing|changes nothing|no change|unchanged", re.I)
+ out = []
+-for rel in names:
+-    if not rel or rel.startswith(("relays/", "legacy/", "tests/")) or pathlib.PurePosixPath(rel).name.startswith("test_"):
++for rel in names:                       # 2026-11-13: legacy/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry), and is left out there as it was
++    if not rel or rel.startswith(("relays/", "legacy/", "docs/archive/legacy/", "tests/")) or pathlib.PurePosixPath(rel).name.startswith("test_"):
+         continue
+     try:
+         text = (root / rel).read_text(encoding="utf-8")
+diff --git a/frontier/B1929_the_foundation_at_version_1_68/FINDINGS.md b/frontier/B1929_the_foundation_at_version_1_68/FINDINGS.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..a95bdf519b4712f27c6063b35d7e294118975848
+--- /dev/null
++++ b/frontier/B1929_the_foundation_at_version_1_68/FINDINGS.md
+@@ -0,0 +1,44 @@
++# B1929 — The foundation at version 1.68: its paths into the moved historical folders
++
++*2026-11-13. Paths only; no computation is made here and no measured number is read. The record's historical folders
++moved under `docs/archive/` in the same patch (`docs/REORGANIZATIONS.md`, its third entry; card C18 of the building
++session, approved by main in its message M28 to that session, which asked that the foundation's paths change by a
++version written by the foundation's own script). This page, the script and the lock were put together by the building
++session; main lands the arc after its own check. 0 of 19.*
++
++## 1. The answer first
++
++- **Six paths of the foundation's living sections (§§ 0 to 8) point into the moved folders: four into `philosophy/`,
++  one into `paths/`, one into `speculations/`. Each now names its file under `docs/archive/`.** Main's message counted
++  three into `philosophy/`; a search of the page found four, and the other two folders' one each.
++- The version log (§ 10) is dated text: it keeps its paths as written, and the path check resolves them through the
++  log of moves, which names the commit that last held every moved file at its old place.
++- No item is added. No status changes. No word but the paths changes; the version's line reads 1.68, and its entry
++  stands above that of 1.67.
++
++## Seen first
++
++Not a result about the object: a change of paths. The sweep of the foundation for paths into the moved folders is the
++script's own check: each of the six stands once in §§ 0 to 8 and none is left there; the version log's paths are left as
++written. The record's other pages that cite the moved folders are the move's (its script's list of living pages, and the
++measurement of card C18, `relays/advisor_2026-11-10_audit/c18/MEASUREMENT.md`).
++
++**Literature:** none bears on it; it changes paths and states nothing about the object.
++
++## 2. How it was made
++
++`verification/write_version_1_68.py` holds no sentence of the foundation. It names the six paths, checks that each
++stands once in §§ 0 to 8, puts `docs/archive/` before each, checks that none is left, adds the entry of the log above
++1.67's and moves the version's line. Run without `--write` it writes nothing.
++
++## 3. The lock
++
++`verification/test_b1929_the_foundation_at_version_1_68.py`: the page is at 1.68; each of the six paths names a file
++that exists under `docs/archive/`, and none stands at its old place in §§ 0 to 8; the entry is above 1.67's; and the
++script, applied to the page with this version taken back, gives the page as it stands. Planted: a path left at its old
++place; a seventh path into a moved folder added to § 1. Each is refused.
++
++## 4. What this is not
++
++It does not read the moved folders, judge them or change them. Whether a philosophy passage is motivation or premise
++is said where it was said: the foundation's § 1 and each passage's header.
+diff --git a/frontier/B1929_the_foundation_at_version_1_68/arc_verdict.json b/frontier/B1929_the_foundation_at_version_1_68/arc_verdict.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..ad70671331b89bf871053d55f9e15b331166e537
+--- /dev/null
++++ b/frontier/B1929_the_foundation_at_version_1_68/arc_verdict.json
+@@ -0,0 +1,25 @@
++{
++ "id": "B1929",
++ "verdict": "PROVED",
++ "instrument": false,
++ "creates_law": false,
++ "identifications": [],
++ "depends_on": [
++  "B1904"
++ ],
++ "rests_on_seat": [],
++ "cites_seat": [
++  "the building session (cld-advisor): its card C18, approved by main in M28"
++ ],
++ "supersedes": null,
++ "superseded_by": null,
++ "authored_by": "the building session, cld-advisor, at main's word in M28 (register row P-832)",
++ "scope": {
++  "frame": "none (the foundation's statement)",
++  "object": "GENESIS.md at version 1.68",
++  "reach": "general",
++  "hypotheses": "paths only; no computation is made here. The version log keeps its paths as written."
++ },
++ "claim_one_line": "THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.",
++ "weave_or_thread": "n/a (paths of the foundation; no result is restated)"
++}
+diff --git a/frontier/B1929_the_foundation_at_version_1_68/verification/test_b1929_the_foundation_at_version_1_68.py b/frontier/B1929_the_foundation_at_version_1_68/verification/test_b1929_the_foundation_at_version_1_68.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..269ddc98581d1e831878460e5d1ab6dd3ecd4773
+--- /dev/null
++++ b/frontier/B1929_the_foundation_at_version_1_68/verification/test_b1929_the_foundation_at_version_1_68.py
+@@ -0,0 +1,57 @@
++"""B1929's lock: the foundation at version 1.68, its six paths into the moved folders under docs/archive/."""
++import importlib.util
++import pathlib
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++PAGE = ROOT / "GENESIS.md"
++
++
++def _script():
++    spec = importlib.util.spec_from_file_location("b1929_write_version_1_68", HERE / "write_version_1_68.py")
++    m = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(m)
++    return m
++
++
++W = _script()
++
++
++def _taken_back(text):
++    """the page with this version taken back: the paths at their old places, the entry out, the line at 1.67"""
++    i = text.index(W.LOG_HEAD)
++    living, log = text[:i], text[i:]
++    for p in W.PATHS:
++        living = living.replace("`" + W.ARCHIVE + p, "`" + p)
++    return (living + log.replace(W.ENTRY, "", 1)).replace(W.HEADER_IS, W.HEADER_WAS)
++
++
++def test_the_page_is_at_1_68_and_its_paths_name_the_archive():
++    text = PAGE.read_text(encoding="utf-8")
++    assert W.HEADER_IS in text and W.HEADER_WAS not in text
++    living = text[:text.index(W.LOG_HEAD)]
++    for p in W.PATHS:
++        assert living.count("`" + W.ARCHIVE + p) == 1, p
++        assert (ROOT / W.ARCHIVE / p).is_file(), p
++        assert not (ROOT / p).exists(), p
++    log = text[text.index(W.LOG_HEAD):]
++    assert log.index(W.ENTRY) < log.index("\n- **v1.67 ")
++
++
++def test_the_script_gives_the_page_again():
++    text = PAGE.read_text(encoding="utf-8")
++    assert W.version_1_68(_taken_back(text)) == text
++
++
++def test_a_path_left_at_its_old_place_is_refused():
++    text = _taken_back(PAGE.read_text(encoding="utf-8"))
++    import pytest
++    # a seventh path into a moved folder, added to section 1
++    k = text.index("## 1. The principle")
++    planted = text[:k] + "See `philosophy/P000_what_is_not_nothing.md`.\n\n" + text[k:]
++    with pytest.raises(AssertionError):
++        W.version_1_68(planted)
++    # one of the six already taken (the script finds it not once)
++    half = text.replace("`" + W.PATHS[0], "`" + W.ARCHIVE + W.PATHS[0], 1)
++    with pytest.raises(AssertionError):
++        W.version_1_68(half)
+diff --git a/frontier/B1929_the_foundation_at_version_1_68/verification/write_version_1_68.py b/frontier/B1929_the_foundation_at_version_1_68/verification/write_version_1_68.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..f52ad5c98aec787e32e9099bbab090d7fc9aa818
+--- /dev/null
++++ b/frontier/B1929_the_foundation_at_version_1_68/verification/write_version_1_68.py
+@@ -0,0 +1,56 @@
++#!/usr/bin/env python3
++"""B1929 -- the foundation at version 1.68: its paths into the moved folders.
++
++The record's historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry; card C18 of the
++building session, approved by main in its M28). The foundation is changed only by a version, so its paths into the
++moved folders change here, by this script, in the same patch as the move. Six paths stand in its living sections
++(§§ 0 to 8): four into philosophy/, one into paths/, one into speculations/. The version log (§ 10) is dated text and
++keeps its paths as written. No item is added and no status changes; no word but the paths changes.
++
++This script holds no sentence of the foundation: it replaces each path, which it names, and checks that each stands once
++in §§ 0 to 8 and that none of the six is left there.
++
++    python3 write_version_1_68.py            # checks, and writes nothing
++    python3 write_version_1_68.py --write    # writes GENESIS.md
++"""
++import pathlib
++import sys
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++PATHS = ("philosophy/P000_what_is_not_nothing.md", "philosophy/P019_the_genesis_axiom_chain.md",
++         "philosophy/P008_non_cancellation_is_fricke_vogt.md", "philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md",
++         "paths/PATHS.md", "speculations/S_THE_FIELDS_GENESIS.md")
++ARCHIVE = "docs/archive/"
++LOG_HEAD = "## 10. Version log"
++HEADER_WAS, HEADER_IS = "**Version 1.67 · 2026-11-12 · canonical.**", "**Version 1.68 · 2026-11-13 · canonical.**"
++ENTRY = ("- **v1.68 · 2026-11-13 · B1929.** Paths only: the record's historical folders moved under `docs/archive/` "
++         "(`docs/REORGANIZATIONS.md`, its third entry), and the six paths of §§ 0 to 8 into `philosophy/`, `paths/` and "
++         "`speculations/` are written so. No item is added and no status changes; the version log keeps its paths as written.\n")
++
++
++def version_1_68(text, say=lambda line: None):
++    """the foundation's text at version 1.67 -> at version 1.68; stops if a path, the log or the header is not there as expected"""
++    i = text.index(LOG_HEAD)
++    living, log = text[:i], text[i:]
++    for p in PATHS:
++        n = living.count("`" + p)
++        say("%s stands %d time(s) in §§ 0 to 8" % (p, n))
++        assert n == 1, "%s stands %d time(s), not once" % (p, n)
++        living = living.replace("`" + p, "`" + ARCHIVE + p)
++    assert log.count("\n- **v1.67 ") == 1, "the entry of version 1.67 is not there once"
++    k = log.index("\n- **v1.67 ") + 1                      # each version's entry stands above the one before it
++    log = log[:k] + ENTRY + log[k:]
++    text = living + log
++    assert text.count(HEADER_WAS) == 1 and HEADER_IS not in text, "the line that names version 1.67 is not there once"
++    return text.replace(HEADER_WAS, HEADER_IS)
++
++
++if __name__ == "__main__":
++    page = ROOT / "GENESIS.md"
++    new = version_1_68(page.read_text(encoding="utf-8"), print)
++    if "--write" in sys.argv:
++        page.write_text(new, encoding="utf-8")
++        print("written")
++    else:
++        print("every path stands once; nothing written")
+diff --git a/frontier/B754_p2_spectral/cells/TOMB-L258/compute.py b/frontier/B754_p2_spectral/cells/TOMB-L258/compute.py
+index c3689450d0d75560954d0bc213cc988db5cf5c1c..a84fee339f1740ed7647b88aef888b02350c30ef 100644
+--- a/frontier/B754_p2_spectral/cells/TOMB-L258/compute.py
++++ b/frontier/B754_p2_spectral/cells/TOMB-L258/compute.py
+@@ -60,7 +60,7 @@
+ 
+ HERE = os.path.dirname(os.path.abspath(__file__))
+ ROOT = os.path.abspath(os.path.join(HERE, "..", "..", "..", ".."))
+-TOMB = os.path.join(ROOT, "speculations", "TOMBSTONES.md")
++TOMB = os.path.join(ROOT, "docs", "archive", "speculations", "TOMBSTONES.md")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+ 
+ PASS_ALL = True
+ 
+diff --git a/frontier/B754_p2_spectral/cells/TOMB-L57/compute.py b/frontier/B754_p2_spectral/cells/TOMB-L57/compute.py
+index ff9a98915cbe955d4c697cf18c64a4508886b23a..a18fc86f9f244438a11e5532dd6d44d8a9392ecb 100644
+--- a/frontier/B754_p2_spectral/cells/TOMB-L57/compute.py
++++ b/frontier/B754_p2_spectral/cells/TOMB-L57/compute.py
+@@ -76,7 +76,7 @@
+ print("=" * 78)
+ 
+ # ---------------------------------------------------------------- [0] kill source
+-tomb = (REPO / "speculations" / "TOMBSTONES.md").read_text()
++tomb = (REPO / "docs" / "archive" / "speculations" / "TOMBSTONES.md").read_text()   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+ check("kill source: TOMBSTONES.md carries the banked kill verbatim",
+       "TESTED-NEGATIVE / DEAD.** Tested across `m` and killed cleanly (Chat-1 seven-hints A4)" in tomb
+       and "k≈4`, matching the rank" in tomb)
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index f7671e4699e33e34a1ac98a78c796ead448f58e3..4e6cd321175f59aa15c81c333fa45c035f7c924c 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -160,7 +160,9 @@
+ LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
+ 
+ 
+-RAISED_BY_NAME = {}    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
++RAISED_BY_NAME = {    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
++    "docs/ATTRIBUTION_BASELINE.json": {"docs/archive/paths/MECHANISM_CLASSES.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/paths/PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/GOVERNANCE.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's"},
++}
+ 
+ 
+ def ceiling_rises(path, now, then, since="the anchor", named=None):
+@@ -248,8 +250,10 @@
+                   # found when the gate first read a .json, 2026-11-11 (WP-0.7, PV21), and frozen as found: Review 38's audit of
+                   # this gate, which quotes a banned phrase to say that the gate compares letter for letter
+                   "frontier/B887_gate_audit/audit_reports.json"}
+-FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
+-                      "philosophy", "story", "src", "scripts")
++FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "src", "scripts")
++# 2026-11-13: speculations/, philosophy/ and story/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry) and are
++# read there with docs/; legacy/, never in scope, moved there too and stays out of it, as it was.
++FRAMING_OUT_OF_SCOPE = ("docs/archive/legacy/",)
+ # WP-0.7 (PV21): the gate read three kinds of file, .md, .py and .txt, and compared letter for letter.  A banned phrase in a .tex
+ # file passed, and so did one in capitals: B887's audit said so in August, in a .json the gate did not read.  It now reads every
+ # file in its folders that is text, whatever its name ends in, and compares as a reader does (_framing_plain).  What it does
+@@ -276,6 +280,8 @@
+         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
+             if ".git" in dirpath or "__pycache__" in dirpath:
+                 continue
++            if (os.path.relpath(dirpath, ROOT).replace(os.sep, "/") + "/").startswith(FRAMING_OUT_OF_SCOPE):
++                continue
+             for n in names:
+                 files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
+     banned = [(phrase, _framing_plain(phrase)) for phrase in BANNED]
+@@ -548,6 +554,7 @@
+                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
+                         # paths verbatim as provenance pins — editing them would break their seals)
+                         "frontier/B742_negatives_hunt_p1/reviews/")
++ATTR_EXEMPT_PREFIXES += ("docs/archive/legacy/",)   # 2026-11-13: legacy/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+ ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this gate hunts
+     "tests/test_public_surface_scan.py", "tests/test_flagship_paper.py",
+     "tests/test_sl4_dehn_filling_paper.py"}
+@@ -1720,6 +1727,8 @@
+                 out.append((key, lst, name, "NO NAME"))
+                 continue
+             cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
++            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
++                cands.append(os.path.normpath(os.path.join("docs", "archive", name)))
+             hit = next((c for c in cands if c in tracked), None)
+             if hit is None:
+                 on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
+@@ -1809,6 +1818,8 @@
+                 out.append((key, lst, name, "NO NAME", "X"))
+                 continue
+             every = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
++            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
++                every.append(os.path.normpath(os.path.join("docs", "archive", name)))
+             cands = []
+             for c in every:
+                 if c in tracked and c not in cands:
+@@ -2368,7 +2379,8 @@
+ 
+ 
+ GENESIS_POINTERS = ("README.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/THE_FRAMEWORK.md", "docs/THE_CLAIM.md",
+-                    "docs/THE_END_TO_END_CHAIN.md", "philosophy/P019_the_genesis_axiom_chain.md", "philosophy/P000_what_is_not_nothing.md")
++                    "docs/THE_END_TO_END_CHAIN.md", "docs/archive/philosophy/P019_the_genesis_axiom_chain.md",
++                    "docs/archive/philosophy/P000_what_is_not_nothing.md")  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+ GENESIS_ID_RE = re.compile(r"\b(?:PF\d|GM\d[a-d]?|SE\d|T-ROOT|F-[A-Z]{2}|FK\d+|GAP\d)\b")
+ GENESIS_USERS = ("README.md", "docs/THE_PROGRAMME_SO_FAR.md", "WORKING_RULES.md", "docs/OPEN_LEADS.md", "docs/THE_FOUNDATION_LOCK_PLAN.md", "docs/THE_CLAIM.md",
+                  "docs/THE_FRAMEWORK.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/LAW_MAP.md")
+@@ -2954,6 +2966,7 @@
+ # where a sentence of arrival would do most harm, and they were not read).  ARRIVAL_FROZEN is filled by measurement at the rule's
+ # commit; a key in it that no longer matches anything is reported, so the list can only be shortened.
+ ARRIVAL_REACH = (("", ".md", False), ("docs", ".md", True), ("papers", ".md", True), ("papers", ".tex", True))     # (folder, suffix, any depth)
++ARRIVAL_OUT_OF_REACH = tuple("docs/archive/%s/" % d for d in ("legacy", "story", "paths", "speculations", "philosophy"))   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): they were not read before it
+ ARRIVAL_FROZEN = frozenset(("704ca4704908",      # docs/CLOSURE_MASTERPLAN.md, a plan of 2026-07-24: "the program derived the Standard Model's *grammar*"
+                             "86b7eaa2768f",      # docs/THE_STATE_2026-09-06.md, a dated state page: "derives the Standard Model's gauge skeleton ... and derives none of"
+                             "518c8ca26d3b"))     # docs/WHAT_WOULD_COUNT.md, the owner's question of 2026-08-09, quoted
+@@ -2970,6 +2983,7 @@
+     out = []
+     for rel in sorted(names):
+         rel = rel.replace(os.sep, "/")
++        if rel.startswith(ARRIVAL_OUT_OF_REACH): continue
+         for folder, suffix, deep in ARRIVAL_REACH:
+             if not rel.endswith(suffix): continue
+             head = os.path.dirname(rel)
+diff --git a/scripts/reorganize/history_2026_11_13.py b/scripts/reorganize/history_2026_11_13.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..39b7978a1e144474ea13df7328a441346270cf9f
+--- /dev/null
++++ b/scripts/reorganize/history_2026_11_13.py
+@@ -0,0 +1,108 @@
++"""The third physical move under GOVERNANCE section 12 (docs/REORGANIZATIONS.md, its third entry): the record's
++historical folders move under docs/archive/, and ten copies of notes between sessions kept inside arcs' folders and in
++outside_bench/ leave the tree, 2026-11-13. The building session's card C18, approved by main (its M28 to the builder).
++
++Moved, each with its name: legacy/, story/, paths/, speculations/ and philosophy/, to docs/archive/<name>/. The foundation's
++three paths into philosophy/ change by a version of the foundation (1.68), written by its own script in the same patch.
++Removed: ten copies of notes between sessions; git's history keeps them, and the last commit that holds every moved and
++removed file at its old path is LAST. The living pages of LIVING have
++their paths into the moved folders written again. Kept where it is: outside_bench/ (side work, read by four checks of the harvest),
++knowledge/, core/, src/, packaging/.
++
++    python3 scripts/reorganize/history_2026_11_13.py          # make the move, once
++    python3 scripts/reorganize/history_2026_11_13.py --check  # say whether the tree is as the move leaves it"""
++import pathlib
++import re
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[2]
++LAST = "a0bfa2ff44389f54ea6e725f24ee0804f971e2cc"
++MOVES = [(d + "/", "docs/archive/" + d + "/") for d in ("legacy", "story", "paths", "speculations", "philosophy")]
++REMOVE = (
++    "frontier/B702_metallic_hearing_law/CC2_TO_CC_2026-07-19_EQ_results.md",
++    "frontier/B1297_the_spectral_cover_index/CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md",
++    "frontier/B1303_the_sm_closings_z_prime/CC_TO_CHAT1_2026-09-08_B1303_DISPOSITIONS_HELD.md",
++    "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
++    "frontier/B1305_the_cloud_156_178/CC_TO_CLOUD_2026-09-08_Q1_ANSWERED_AND_SHARPENED_HELD.md",
++    "frontier/B1306_the_older_debt/CC_TO_CHAT1_2026-09-09_HANDOFF_BANKED_HELD.md",
++    "frontier/B1306_the_older_debt/CC_TO_SM_2026-09-09_THE_TOWER_HARVESTED_AND_THE_RANGES_HELD.md",
++    "frontier/B1306_the_older_debt/inputs/chat1_handoff_2026-09-08/CHAT1_TO_CC_2026-09-08_HANDOFF_ARROW_CHIRALITY.md",
++    "frontier/B1454_genesis_v1_verified_and_adopted/received/SM_TO_CC_2026-10-02_GENESIS_V1.md",
++    "outside_bench/CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md",
++)
++
++
++# The living pages whose paths into the moved folders are written again (dated records, ledgers and the foundation's
++# version log keep theirs; the foundation's own paths change by its version 1.68, B1929). Only a path that names a file now
++# under docs/archive/ is written again
++# (a folder's bare name only in backticks).
++LIVING = ("ARCHITECTURE.md", "CLAIMS.md", "GOVERNANCE.md", "METHOD.md", "PROVENANCE.md", "REPRODUCIBILITY.md", "ROADMAP.md",
++          "WORKING_RULES.md", "docs/ARCHIVE.md", "docs/BANKING_PROTOCOL.md", "docs/INDEX.md", "docs/PRACTICES.md", "docs/THE_BAR.md",
++          "docs/THE_COMPLETION_MAP.md", "docs/THE_PROGRAMME_IN_SHORT.md", "docs/atlas/AUDITOR_GUIDE.md", "docs/atlas/FAILURE_ATLAS.md",
++          "docs/atlas/GLOSSARY.md", "docs/atlas/INTEGRATION_MANIFEST.md", "docs/atlas/README.md", "docs/atlas/RESEARCH_TREE.md",
++          "docs/atlas/SUCCESS_ATLAS.md")
++OLD_PATH = re.compile(r"(?<![\w/.-])((?:legacy|story|paths|speculations|philosophy)/[\w./-]*)")
++
++
++def references(text):
++    """the paths of a page that name a moved file or folder at its old place, and the text with each written again"""
++    found = []
++
++    def again(m):
++        old = m.group(1).rstrip(".")
++        if old.endswith("/") and not (m.start() and m.string[m.start() - 1] == "`"):
++            return m.group(1)              # a folder's bare name in prose is a word of the text; in backticks it is a path
++        if (ROOT / "docs" / "archive" / old).exists():
++            found.append(old)
++            return "docs/archive/" + m.group(1)
++        return m.group(1)
++    return found, OLD_PATH.sub(again, text)
++
++
++def git(*a):
++    return subprocess.run(["git", "-C", str(ROOT), *a], check=True, capture_output=True, text=True).stdout
++
++
++def tracked(prefix, rev=None):
++    args = ["ls-tree", "-r", "--name-only", rev, "--", prefix] if rev else ["ls-files", "--", prefix]
++    return [p for p in git(*args).split("\n") if p]
++
++
++def check():
++    bad = []
++    for old, new in MOVES:
++        if tracked(old):
++            bad.append("still at its old place: " + old)
++        if not tracked(new):
++            bad.append("not at its new place: " + new)
++        elif sorted(p[len(new):] for p in tracked(new)) != sorted(p[len(old):] for p in tracked(old, LAST)):
++            bad.append("the files under %s are not those of %s at %s" % (new, old, LAST[:9]))
++    bad += ["still in the tree: " + p for p in REMOVE if tracked(p)]
++    for page in LIVING:
++        found, _ = references((ROOT / page).read_text(encoding="utf-8"))
++        bad += ["%s names %s at its old place" % (page, f) for f in found]
++    return bad
++
++
++if __name__ == "__main__":
++    if "--check" in sys.argv:
++        bad = check()
++        print("as moved" if not bad else "not as moved: %d, e.g. %s" % (len(bad), bad[:3]))
++        sys.exit(1 if bad else 0)
++    for old, new in MOVES:
++        if tracked(old):
++            (ROOT / new).parent.mkdir(parents=True, exist_ok=True)
++            git("mv", old.rstrip("/"), new.rstrip("/"))
++    rm = [p for p in REMOVE if tracked(p)]
++    if rm:
++        git("rm", "-q", "--", *rm)
++    written = 0
++    for page in LIVING:
++        found, new = references((ROOT / page).read_text(encoding="utf-8"))
++        if found:
++            (ROOT / page).write_text(new, encoding="utf-8"); written += len(found)
++    bad = check()
++    print("moved %d folders; removed %d files; wrote %d paths of living pages again; %s" % (len(MOVES), len(rm), written,
++          "as moved" if not bad else "INCOMPLETE: %s" % bad[:3]))
++    sys.exit(1 if bad else 0)
+diff --git a/scripts/seal_ledger.py b/scripts/seal_ledger.py
+index 0965588df3c05408439b66385f90f9237ea871c3..8cd7002b73ed1fe38c24666c7e4d366169a5bbb2 100644
+--- a/scripts/seal_ledger.py
++++ b/scripts/seal_ledger.py
+@@ -40,7 +40,7 @@
+     corpus = []
+     tracked = git("ls-files", "-z").split("\0")
+     for rel_t in tracked:
+-        if not rel_t.endswith((".md", ".txt", ".py")) or rel_t.startswith("legacy/"):
++        if not rel_t.endswith((".md", ".txt", ".py")) or rel_t.startswith(("legacy/", "docs/archive/legacy/")):  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+             continue
+         if rel_t == "docs/SEAL_LEDGER.md":
+             continue
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index b01697b29dada1b9487cc3a5225aa34016b24e9b..ed0d7d84a162a5f2bc12c0c73be90e87390d5436 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -116,7 +116,8 @@
+ 
+ def test_the_framing_gate_reads_a_file_whatever_its_name_ends_in(tmp_path):
+     phrase = _banned()
+-    for rel in ("docs/page.rst", "frontier/B1_an_arc/arc_verdict.json", "papers/refs.bib", "story/chapter", "NOTES"):
++    # 2026-11-13: story/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry) and is read there, with docs/
++    for rel in ("docs/page.rst", "frontier/B1_an_arc/arc_verdict.json", "papers/refs.bib", "docs/archive/story/chapter", "NOTES"):
+         text = json.dumps({"claim_one_line": phrase}) if rel.endswith(".json") else "Here: " + phrase + "\n"
+         repo = _scratch(tmp_path / rel.replace("/", "_"), {rel: text})
+         ok, detail = _gate(repo, "framing")
+diff --git a/tests/test_b1176_record_surface_wave.py b/tests/test_b1176_record_surface_wave.py
+index ed5cf83282641788d481c2b35db31e194297910e..da2816ea9fbf81570e86e5e322dba9f8a03c26a0 100644
+--- a/tests/test_b1176_record_surface_wave.py
++++ b/tests/test_b1176_record_surface_wave.py
+@@ -32,8 +32,9 @@
+ 
+ 
+ def test_rooms_repair_and_leads():
+-    assert (ROOT / "speculations" / "S074_the_adelic_closing_doctrine.md").exists()
+-    phil = (ROOT / "philosophy" / "13_the_computed_observer.md").read_text(encoding="utf-8")
++    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
++    assert (ROOT / "docs" / "archive" / "speculations" / "S074_the_adelic_closing_doctrine.md").exists()
++    phil = (ROOT / "docs" / "archive" / "philosophy" / "13_the_computed_observer.md").read_text(encoding="utf-8")
+     assert "Addendum (2026-08-27, B1176" in phil
+     leads = (ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
+     assert "## L189" in leads and leads.count("ID-COLLISION NOTE, B1176") == 2
+diff --git a/tests/test_b1264_h5_census.py b/tests/test_b1264_h5_census.py
+index a0d6b1c2c0ca66ad7e313c2f1c6e656cdd8ef18a..5ecb217e9ac472e58134bdc6181e740a6697ccde 100644
+--- a/tests/test_b1264_h5_census.py
++++ b/tests/test_b1264_h5_census.py
+@@ -65,7 +65,7 @@
+         rel = path.relative_to(root).as_posix()
+         # docs/views/ is GENERATED from arc_verdict.json -- fixing the source fixes it, and the
+         # views-generated gate proves it. .git and legacy are not the corpus.
+-        if rel.startswith(("docs/views/", ".git/", "legacy/", "audit/", "docs/progress/")):
++        if rel.startswith(("docs/views/", ".git/", "legacy/", "docs/archive/legacy/", "audit/", "docs/progress/")):  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+             continue
+         # The append-only record is EXEMPT, exactly as scripts/checks/retraction_sweep.py exempts
+         # CHANGELOG.md / PROGRESS_LOG.md / docs/progress/REVIEWS.md: those files record what was
+diff --git a/tests/test_b1303_the_sm_closings_z_prime.py b/tests/test_b1303_the_sm_closings_z_prime.py
+index ff795f3c00e480d3d7b1c48c3a2b672da3377051..a39028dc08caca5409d3822ded89e951bb85fdfe 100644
+--- a/tests/test_b1303_the_sm_closings_z_prime.py
++++ b/tests/test_b1303_the_sm_closings_z_prime.py
+@@ -61,5 +61,11 @@
+               "main_b1140_spacetime64_rerun.txt", "main_b1103_being_gate_rerun.txt", "chat1_check_relay_rerun.txt"):
+         t = (VER / f).read_text(encoding="utf-8", errors="replace"); assert t.rstrip().endswith("RC=0"), f
+     assert "SELFTEST: PASS" in (VER / "sm_b1283_sm_closing_vacuum_rerun.txt").read_text() and "ALL CHECKS PASSED" in (VER / "main_b1103_being_gate_rerun.txt").read_text()
+-    assert (ARC / "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md").exists()
++    # 2026-11-13: the note left the tree with the other notes between sessions kept inside arcs' folders
++    # (docs/REORGANIZATIONS.md, its third entry); git's history holds it at the commit that entry names.
++    import subprocess
++    note = "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md"
++    assert not (ARC / "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md").exists()
++    held = subprocess.run(["git", "-C", str(ARC.parents[1]), "cat-file", "-e", "a0bfa2ff44389f54ea6e725f24ee0804f971e2cc:" + note])
++    assert held.returncode == 0, "git's history does not hold the note at the commit the move names"
+     assert hashlib.sha256((VER / "chat1_check_relay.py").read_bytes()).hexdigest().startswith("f71c2fd7")
+diff --git a/tests/test_b755_carried.py b/tests/test_b755_carried.py
+index d74dfa19bb12531562b7be29e4f852a61f329dfa..a67fd69f9520854475ff2652fb5aaccc9f91512f 100644
+--- a/tests/test_b755_carried.py
++++ b/tests/test_b755_carried.py
+@@ -64,7 +64,7 @@
+     cp = t**2 - sp.trace(M2) * t + M2.det()
+     disc2 = sp.discriminant(cp, t)
+     assert sp.simplify(16 / disc2 - 16 / (m**2 * (m**2 + 4))) == 0
+-    tomb = open(os.path.join(ROOT, "speculations", "TOMBSTONES.md"), encoding="utf-8").read()
++    tomb = open(os.path.join(ROOT, "docs", "archive", "speculations", "TOMBSTONES.md"), encoding="utf-8").read()   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+     assert "citation repaired 2026-07-22, B755 cell 5" in tomb
+     assert "holds by dimension" in tomb
+ 
+diff --git a/tests/test_b948_relay.py b/tests/test_b948_relay.py
+index befca621cdf849313831988fef98e93a16b7e7e7..272587799fe754ea21fcdba4e11146522fcefa01 100644
+--- a/tests/test_b948_relay.py
++++ b/tests/test_b948_relay.py
+@@ -12,7 +12,8 @@
+ def test_the_rooms_stay_clean_of_the_dead_clause():
+     """The clause never leaked into the rooms; it must not start now."""
+     bad = ("beta=1 SSB", "β=1 SSB", "cooling through β=1", "cooling through beta=1")
+-    for room in ("knowledge", "philosophy", "speculations", "story"):
++    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry); a room that is not there was skipped without a word, so the three moved rooms are read at their new place
++    for room in ("knowledge", "docs/archive/philosophy", "docs/archive/speculations", "docs/archive/story"):
+         d = ROOT / room
+         if not d.is_dir():
+             continue
+diff --git a/tests/test_no_hardcoded_paths.py b/tests/test_no_hardcoded_paths.py
+index 90e898ca6721bee7ff0504c99e6533a2ececb883..4d8529c87177d008c4df5a9adfc41b4ff52a2993 100644
+--- a/tests/test_no_hardcoded_paths.py
++++ b/tests/test_no_hardcoded_paths.py
+@@ -55,7 +55,7 @@
+         "frontier/B749_genesis_forks/RESULTS.json",
+         "frontier/B754_p2_spectral/TARGETS.json",
+     }
+-    frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/")
++    frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/", "docs/archive/legacy/")  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+     offenders = []
+     for rel in tracked:
+         if not rel.endswith((".md", ".txt", ".json", ".log")):
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index c9b7ccc14afe1c271a3d71b928827c4be4ca8c38..ed1a32f67fb689fcda03d34a6ec0868f7ee4b096 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -412,7 +412,11 @@
+     assert problem is None and "1 ceiling(s) raised by name" in note and "moved here" in note
+     assert "rose" in rises({"a.md": 4, "new.md": 2}, {"new.md": "  "})[0]                # a name with no reason is not a record
+     assert g.ceiling_rises("x", {"a.md": 99}, None) == (None, "")                        # no table at the anchor: not re-judged
+-    assert g.RAISED_BY_NAME == {}, "a ceiling that rises is named here with its date and why; say so in this lock too"
++    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): four ceilings of the attribution baseline moved with their files, each named with its date and why
++    moved = {"docs/archive/paths/MECHANISM_CLASSES.md", "docs/archive/paths/PATHS.md", "docs/archive/philosophy/GOVERNANCE.md",
++             "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md"}
++    assert set(g.RAISED_BY_NAME) <= {"docs/ATTRIBUTION_BASELINE.json"} and set(g.RAISED_BY_NAME.get("docs/ATTRIBUTION_BASELINE.json", {})) == moved, \
++        "a ceiling that rises is named here with its date and why; say so in this lock too"
+ 
+ 
+ def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
+@@ -434,4 +438,5 @@
+         assert "cannot verify" in g.attribution_baseline_rise("0" * 40, repo)[0]
+     finally:
+         g._load_attr_baseline = real
+-    assert g.attribution_baseline_rise() == (None, ""), "on main the baseline stands no higher than at the anchor"
++    problem, note = g.attribution_baseline_rise()      # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): the four moved ceilings are named, and the note says so
++    assert problem is None and "4 ceiling(s) raised by name" in note, "on main the baseline stands no higher than at the anchor"
+diff --git a/tests/test_the_historical_folders_moved.py b/tests/test_the_historical_folders_moved.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..7204b4080a34252fb7859ae987ee06772f3df347
+--- /dev/null
++++ b/tests/test_the_historical_folders_moved.py
+@@ -0,0 +1,47 @@
++"""The third move under GOVERNANCE section 12 (docs/REORGANIZATIONS.md, its third entry; card C18 of the building session,
++approved by main in M28): the historical folders stand under docs/archive/, the ten copies of notes are out of the tree,
++and no living page names a moved file at its old place. Planted: a living page that names one at its old place; a file
++of a moved folder back at its old place; a copy of a note back in the tree."""
++import importlib.util
++import pathlib
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _move():
++    spec = importlib.util.spec_from_file_location("history_2026_11_13", ROOT / "scripts" / "reorganize" / "history_2026_11_13.py")
++    m = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(m)
++    return m
++
++
++M = _move()
++
++
++def test_the_tree_is_as_the_move_leaves_it():
++    assert M.check() == []
++    for old, new in M.MOVES:
++        assert not (ROOT / old).exists() and (ROOT / new).is_dir(), old
++
++
++def test_a_living_page_that_names_a_moved_file_at_its_old_place_is_found():
++    found, again = M.references("See `philosophy/P000_what_is_not_nothing.md` and `docs/archive/legacy/README.md`.")
++    assert found == ["philosophy/P000_what_is_not_nothing.md"]
++    assert "`docs/archive/philosophy/P000_what_is_not_nothing.md`" in again and "docs/archive/docs/archive" not in again
++    # the twin: a path that names no moved file is left as it is
++    assert M.references("the paths/ of a walk, and `outside_bench/README.md`")[0] == []
++
++
++def test_a_file_back_at_its_old_place_or_a_note_back_in_the_tree_is_reported(monkeypatch):
++    real = M.tracked
++
++    def planted(prefix, rev=None):
++        out = real(prefix, rev)
++        if rev is None and prefix == "story/":
++            out = out + ["story/README.md"]
++        if rev is None and prefix == M.REMOVE[0]:
++            out = out + [M.REMOVE[0]]
++        return out
++    monkeypatch.setattr(M, "tracked", planted)
++    bad = M.check()
++    assert "still at its old place: story/" in bad and ("still in the tree: " + M.REMOVE[0]) in bad

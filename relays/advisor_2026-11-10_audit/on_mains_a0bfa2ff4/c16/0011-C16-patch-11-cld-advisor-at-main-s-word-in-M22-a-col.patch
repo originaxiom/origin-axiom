@@ -1,0 +1,84 @@
+From 6ce91cf8da00581cebdc46930d5801c66a8f7d3c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:39:55 +0000
+Subject: [PATCH] C16, patch 11 (cld-advisor, at main's word in M22; a cold
+ reader's finding (m) on R80b's part 4, NOT CHECKED BY MAIN, MADE AGAIN BEFORE
+ IT WAS MENDED): THE LISTENER READS A HEADING INDENTED BY UP TO THREE SPACES
+ AS MARKDOWN DOES
+
+THE FINDING, MADE AGAIN. A message ended at the next heading of its level or above only where the heading's
+marks started the line. A section of a planted page whose heading was indented by two spaces was taken into the
+message before it. The same held for a message's own heading: indented, it was not found.
+
+THE MEND. A message's heading, and the heading that ends it, may stand after up to three spaces, as Markdown
+reads a heading; four spaces make a block of code and no heading. Both patterns as they stood are kept in a
+dated note.
+
+THE TEST, in the listener's test file: with one, two and three spaces before a section's heading and before the
+next message's, each message holds its own text; with four, the line is code and the message runs on; the
+twin, headings that start the line, reads as before. On the listener as it stood the test fails; the listener's
+tests: 13 passed. Not checked by main.
+---
+ scripts/seats/listen.py     | 10 ++++++++--
+ tests/test_seat_listener.py | 20 ++++++++++++++++++++
+ 2 files changed, 28 insertions(+), 2 deletions(-)
+
+diff --git a/scripts/seats/listen.py b/scripts/seats/listen.py
+index cfef9844d..35ddc9020 100644
+--- a/scripts/seats/listen.py
++++ b/scripts/seats/listen.py
+@@ -38,7 +38,13 @@ import subprocess
+ import sys
+ import time
+ 
+-MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
++# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): a heading was read
++# only where its marks start the line, and a heading indented by one to three spaces, which Markdown reads as a heading, was
++# taken into the message before it.  A message's heading, and the heading that ends it, may now stand after up to three
++# spaces, as Markdown reads them; four spaces make a block of code and no heading.  The pattern as it stood:
++#     MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
++MESSAGE = re.compile(r"^ {0,3}### M(\d+)\b.*$", re.M)
++_ENDS_A_MESSAGE = r"^ {0,3}#{1,3} "
+ 
+ 
+ GIT_SECONDS = 180          # a fetch that stalls is a failure to look, not a silence (Review 79: the call had no time limit)
+@@ -111,7 +117,7 @@ def messages(page):
+         # CORRECTED 2026-11-12 (Review 80; found by a reading of this function, checked by main on the pattern).  The pattern
+         # was r"^#{1,2} ": a message ended at a heading above its own level and ran on through a heading of its own level
+         # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
+-        nxt = next((x for x in re.finditer(r"^#{1,3} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
++        nxt = next((x for x in re.finditer(_ENDS_A_MESSAGE, page[m.end():end], re.M) if outside(m.end() + x.start())), None)
+         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
+         found[int(m.group(1))] = body.rstrip() + "\n"
+     return found
+diff --git a/tests/test_seat_listener.py b/tests/test_seat_listener.py
+index 5267f0c27..b99d5000d 100644
+--- a/tests/test_seat_listener.py
++++ b/tests/test_seat_listener.py
+@@ -321,3 +321,23 @@ def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_
+     status, text, remember = L.look_main(str(clone), "origin", False)
+     assert status == 2 and "could not be listed" in text and remember is None
+     assert (main_mem.read_text(encoding="utf-8") if main_mem.is_file() else None) == before
++
++
++def test_a_heading_indented_by_up_to_three_spaces_ends_a_message_and_four_do_not():
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  A section of
++    the page whose heading was indented by two spaces was taken into the message before it; and a message whose own heading
++    was indented was not found.  Four spaces make a block of code, which is no heading."""
++    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
++    try:
++        spec = importlib.util.spec_from_file_location("listen_for_indented_headings", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
++    finally:
++        sys.dont_write_bytecode = was
++    for pad in (" ", "  ", "   "):
++        page = "# page\n\n### M2 — two\n\ntext of two\n\n" + pad + "## A section of the page\n\nnot of M2\n\n" + pad + "### M1 — one\n\ntext of one\n"
++        m = L.messages(page)
++        assert sorted(m) == [1, 2] and "not of M2" not in m[2] and "text of one" in m[1], repr(pad)
++    code = "# page\n\n### M2 — two\n\ntext of two\n\n    ## a line of code, not a heading\n\nstill of M2\n"
++    assert "still of M2" in L.messages(code)[2]
++    # the twin: headings that start the line, as before
++    assert "not of M2" not in L.messages("### M2 — two\n\ntext\n\n## A section\n\nnot of M2\n")[2]
++
+-- 
+2.43.0
+

@@ -1,0 +1,107 @@
+From 88a56f2c11559783beefe8d82b804c6bdd1a901f Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:39:00 +0000
+Subject: [PATCH] C14, patch 4 (cld-advisor, at main's word in M20): THREE
+ GENERATED VIEWS THAT QUOTE THE RECORD'S OWN LINES ARE WORKING INDICES,
+ LABELLED SO WHERE THE README POINTS TO THEM
+
+Main's M20 takes the verdict ledger and the spine off the public face as labelled working indices, because
+they quote verdict lines word for word. Three more generated views are of the same kind, measured before this
+patch: the context recovery (34 inner words), the closed doors (27) and the reviewer's view (9). Their inner
+words are in the lines they quote (register rows, kill records, verdict lines, log entries), not in their
+generator's text: the generator's own phrases with an inner word are its comments, and the heading of the
+register rows that wait for the owner on the context recovery, which is main's own first read after a
+compaction.
+
+So, by the same reason as main's: the three are working indices, listed with the two in the gate and not
+read by it; the README labels the context recovery and the closed doors as working indices where it points
+to them (it does not point to the reviewer's view); and the gate's test holds that every working index the
+README names is labelled near its mention. Their quotations are not rewritten.
+
+THE BUILDER'S READING, and main's to change: whether a view a newcomer is sent to may be a labelled working
+index, or must be rewritten by its generator. If the second, the context recovery's heading and the closed
+doors' rows are where a generator would change.
+
+The gate reads 14 pages now, 4 at zero, 1,396 words (on main's b1bcc7f50). Not checked by main.
+---
+ README.md                 |  4 ++--
+ scripts/gates/gates.py    | 14 ++++++++------
+ tests/test_public_face.py |  7 +++++++
+ 3 files changed, 17 insertions(+), 8 deletions(-)
+
+diff --git a/README.md b/README.md
+index c55fe9249..3f1438965 100644
+--- a/README.md
++++ b/README.md
+@@ -36,7 +36,7 @@ nothing in this block is typed by hand.*
+ | see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
+ | see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
+ | find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
+-| read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) |
++| read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) (a working index: it quotes the record's own lines) |
+ | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
+ | explore the record visually | [`docs/workdesk/`](docs/workdesk/) |
+ | learn the vocabulary | [`TERMINOLOGY.md`](TERMINOLOGY.md) |
+@@ -52,7 +52,7 @@ nothing in this block is typed by hand.*
+   [`docs/LOOK_LEDGER.md`](docs/LOOK_LEDGER.md)).
+ - **Readings of geometry as physics (identifications) are tracked** as earned, unearned or refuted
+   ([`docs/IDENTIFICATION_LEDGER.md`](docs/IDENTIFICATION_LEDGER.md)).
+-- **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md)).
++- **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md), a working index).
+ - **Corrections are dated where they apply**, and retractions are listed ([`docs/RETRACTIONS.md`](docs/RETRACTIONS.md)).
+ - **Several sessions compute in parallel** on their own branches. What the record takes in from them is checked first and
+   recorded ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md), both part of the
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index b2a45b967..f2058badb 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3134,10 +3134,15 @@ def gate_selection_family(reader=None):
+ # of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
+ # "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
+ PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md",
+-               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
+-               "docs/views/COVERAGE.md", "docs/views/REVIEWER.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
++               "TERMINOLOGY.md", "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
++               "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+                "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
+-WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md")      # labelled as working indices; not read here
++# labelled as working indices where the README points to them, and not read here.  The verdict ledger and the spine by main's
++# word (M20); the context recovery, the closed doors and the reviewer's view since C14's fourth patch, by the same reason: each
++# quotes the record's own lines (register rows, kill records, verdict lines, log entries) word for word, and their inner
++# words are in those quotations, not in their generator's text.
++WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
++                   "docs/views/REVIEWER.md")
+ _PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|seat's|seat|lanes|lane's|lane|relays|relayed|relay|rulings|ruling|ruled|"
+                       r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
+ _PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
+@@ -3209,9 +3214,6 @@ PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by w
+     'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
+     'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
+     'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
+-    'docs/views/CONTEXT_RECOVERY.md': {'card': 2, 'main': 4, 'owner': 4, 'ruled': 1, 'seat': 8},
+-    'docs/views/CLOSED_DOORS.md': {'card': 2, 'cc': 4, 'lane': 7, 'main': 9, 'owner': 2, 'seat': 5},
+-    'docs/views/REVIEWER.md': {'lane': 2, 'main': 5},
+     'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
+     'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
+     'papers/P3_THE_PAPER/verification_package/README.md': {'main': 3},
+diff --git a/tests/test_public_face.py b/tests/test_public_face.py
+index 27429c62a..ce3a14ddc 100644
+--- a/tests/test_public_face.py
++++ b/tests/test_public_face.py
+@@ -49,6 +49,13 @@ def test_a_new_word_fails_even_where_another_left_the_page():
+ def test_the_working_record_and_the_working_indices_are_not_read():
+     assert "PROGRESS_LOG.md" not in g.PUBLIC_FACE and "docs/POINT_REGISTER.md" not in g.PUBLIC_FACE
+     assert not set(g.WORKING_INDICES) & set(g.PUBLIC_FACE)
++    # the README points to each working index it names as one
++    readme = " ".join((ROOT / "README.md").read_text(encoding="utf-8").split())
++    for rel in g.WORKING_INDICES:
++        if rel in readme:
++            i = readme.index(rel)
++            near = readme[max(0, i - 200):i + 300]                         # the label stands before the link or after it
++            assert "working index" in near or "working indices" in near, rel
+     assert not [p for p in g.PUBLIC_FACE if p.startswith(("docs/seats/", "docs/progress/", "docs/handoffs/", "frontier/", "relays/"))]
+ 
+ 
+-- 
+2.43.0
+

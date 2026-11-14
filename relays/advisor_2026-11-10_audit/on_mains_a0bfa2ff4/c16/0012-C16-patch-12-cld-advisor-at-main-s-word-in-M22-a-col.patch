@@ -1,0 +1,100 @@
+From 5e8e653566d30df9cddc804a35b793401c84775e Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:39:59 +0000
+Subject: [PATCH] C16, patch 12 (cld-advisor, at main's word in M22; a cold
+ reader's finding (o) on R80b's part 4, seen on the way, NOT CHECKED BY MAIN,
+ MADE AGAIN BEFORE IT WAS MENDED): TWO MESSAGES UNDER ONE NUMBER ARE BOTH
+ SHOWN, AND THE LISTENER SAYS SO
+
+THE FINDING, MADE AGAIN. The listener's messages were a table by number. On a planted page with two messages
+numbered M3, the second was kept and the first dropped, and nothing was said.
+
+THE MEND. Both are kept under the number, in the page's order, and the number is recorded; the look says, at
+its head, that the page has more than one message under that number and that each is shown. The line as it
+stood is kept in a dated note.
+
+THE TEST, in the listener's test file, on a repository made for it: a page with two messages numbered M2 shows
+both, the first before the second, and the look names M2; the twin, a page whose numbers are each once, says
+nothing of it. On the listener as it stood the test fails; the listener's tests: 14 passed. Not checked by main.
+---
+ scripts/seats/listen.py     | 18 +++++++++++++++++-
+ tests/test_seat_listener.py | 20 ++++++++++++++++++++
+ 2 files changed, 37 insertions(+), 1 deletion(-)
+
+diff --git a/scripts/seats/listen.py b/scripts/seats/listen.py
+index 35ddc9020..4605e11a7 100644
+--- a/scripts/seats/listen.py
++++ b/scripts/seats/listen.py
+@@ -111,6 +111,7 @@ def messages(page):
+     fenced = _fenced(page)
+     outside = lambda pos: not any(a <= pos < b for a, b in fenced)
+     found = {}
++    del DUPLICATES[:]
+     heads = [m for m in MESSAGE.finditer(page) if outside(m.start())]
+     for k, m in enumerate(heads):
+         end = heads[k + 1].start() if k + 1 < len(heads) else len(page)
+@@ -119,10 +120,22 @@ def messages(page):
+         # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
+         nxt = next((x for x in re.finditer(_ENDS_A_MESSAGE, page[m.end():end], re.M) if outside(m.end() + x.start())), None)
+         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
+-        found[int(m.group(1))] = body.rstrip() + "\n"
++        # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The line was
++        #     found[int(m.group(1))] = body.rstrip() + "\n"
++        # so of two messages that share a number the second was kept and the first dropped without a word.  Both are kept now,
++        # in the order of the page, under the number, and the number is recorded in DUPLICATES, which the look says aloud.
++        n = int(m.group(1))
++        if n in found:
++            DUPLICATES.append(n)
++            found[n] = found[n] + "\n" + body.rstrip() + "\n"
++        else:
++            found[n] = body.rstrip() + "\n"
+     return found
+ 
+ 
++DUPLICATES = []          # the numbers that more than one message of the page carries, as the last call of messages() found them
++
++
+ def _sum(text):
+     import hashlib
+     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+@@ -172,6 +185,9 @@ def look_seat(seat, cwd, remote, peek):
+     amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}
+     rc, head, _ = git("rev-parse", "--short=9", "%s/main" % remote, cwd=cwd)
+     out = ["YOUR PAGE ON MAIN HAS CHANGED (%s, main at %s)." % (path, head)]
++    if DUPLICATES:
++        out.append("Main's page has more than one message under the number %s: each is shown under that number, in the page's order."
++                   % ", ".join("M%d" % n for n in sorted(set(DUPLICATES))))
+     if new:
+         out.append("Messages of main you have not read: %s. Newest first:\n" % ", ".join("M%d" % n for n in sorted(new)))
+         out += [new[n] for n in sorted(new, reverse=True)]
+diff --git a/tests/test_seat_listener.py b/tests/test_seat_listener.py
+index b99d5000d..03030368c 100644
+--- a/tests/test_seat_listener.py
++++ b/tests/test_seat_listener.py
+@@ -341,3 +341,23 @@ def test_a_heading_indented_by_up_to_three_spaces_ends_a_message_and_four_do_not
+     # the twin: headings that start the line, as before
+     assert "not of M2" not in L.messages("### M2 — two\n\ntext\n\n## A section\n\nnot of M2\n")[2]
+ 
++
++def test_two_messages_with_one_number_are_both_shown_and_the_look_says_so(tmp_path):
++    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, seen on the way, not checked by main, made again first).
++    Of two messages that carry the same number, the second was kept and the first dropped without a word.  Both are shown now,
++    in the page's order, and the look names the number."""
++    origin, clone = _origin_and_clone(tmp_path)
++    page = _page(1).replace("### M1 — a day — a subject", "### M2 — a day — the first second message\n\nthe first text of M2\n\n"
++                                                         "### M2 — a day — the second second message\n\nthe second text of M2\n\n### M1 — a day — a subject")
++    (origin / "docs" / "seats" / "x.md").write_text(page, encoding="utf-8")
++    _git(origin, "commit", "-q", "-a", "-m", "two messages under one number")
++    r = _listen(clone, "--seat", "x")
++    assert r.returncode == 0 and "the first text of M2" in r.stdout and "the second text of M2" in r.stdout
++    assert "more than one message under the number M2" in r.stdout
++    assert r.stdout.index("the first text of M2") < r.stdout.index("the second text of M2")
++    # the twin: a page whose numbers are each once says nothing of it
++    (origin / "docs" / "seats" / "x.md").write_text(_page(1, 2, 3), encoding="utf-8")
++    _git(origin, "commit", "-q", "-a", "-m", "each number once")
++    r = _listen(clone, "--seat", "x")
++    assert r.returncode == 0 and "more than one message" not in r.stdout
++
+-- 
+2.43.0
+

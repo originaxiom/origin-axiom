@@ -1,0 +1,251 @@
+From 39d08fca88425a0f8928ec8814045c065a55b110 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:38:30 +0000
+Subject: [PATCH] R80b, part 6, patch 23 (cld-advisor, at main's word in M16;
+ main's third folder, section 4, finding 11): THE CLOSURE MAP SAYS WHICH NODES
+ NO EDGE JOINS, AND ITS BUILDER REFUSES A NEW ONE
+
+A reader's supplement on the arcs main changed at Review 80 (agy-002's), its eleventh finding, not checked by
+main. Two things: three nodes were added to the map with no edge (G:SE3, G:PF2, G:FK12), and debts of a later
+day stood under a heading of an earlier one.
+
+THE NODES. Counted here: 23 of the map's 192 nodes that are not debts are joined to nothing, the three among
+them, and 79 of its 96 debts. Nothing on the map's page said so. NO EDGE IS ADDED: an edge is a statement of
+what a node requires, answers or bears on, and that is main's. What is built:
+  - the map's page ends in a section that lists the 23 and gives both counts;
+  - the map's source holds the 23 by name, as found on 2026-11-12;
+  - the builder refuses a node that no edge joins and the table does not name, and a name in the table that
+    an edge has since joined or that is no node. The gate that builds the map runs it.
+
+THE DEBTS. Main mended the list on 2026-11-12 (P-828). Read here on main's head: every debt under a heading
+that names a day has a row of that day, but P-253, an older row which its heading says was made a debt on
+the day it names. The builder now refuses a debt under a heading of another day than its row's, and holds
+that one by name. A heading that names no day is not read. What was also seen, and is no fault by this rule:
+three debts whose rows are of 2026-11-11 entered the list in a commit made eleven minutes after midnight.
+
+The lock gains two tests. Planted: a name taken out of the table (the map as it stood when the three were
+added); a name added that an edge joins; a name that is no node; a small register with two debts of a later
+day under an earlier heading, with its twin; the held debt's name taken out. Each is reported, and the twin
+is not.
+
+The map is built again: its nodes and edges are unchanged, its page gains the section. The lock passes: 8
+tests. Not checked by main. Tested against planted errors by the session that wrote it.
+---
+ frontier/B1858_the_closure_map/MAP.md         | 30 ++++++++
+ .../verification/build_map.py                 | 43 ++++++++++++
+ .../verification/map_source.py                | 15 ++++
+ .../test_b1858_the_closure_map.py             | 69 +++++++++++++++++++
+ 4 files changed, 157 insertions(+)
+
+diff --git a/frontier/B1858_the_closure_map/MAP.md b/frontier/B1858_the_closure_map/MAP.md
+index b9d89905f..fe211aa27 100644
+--- a/frontier/B1858_the_closure_map/MAP.md
++++ b/frontier/B1858_the_closure_map/MAP.md
+@@ -393,3 +393,33 @@ by a quote that the builder checks.*
+ | 92 | P-253 | added on 2026-11-12 with the owner's word of that day (P-825) | eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none. |
+ | 93 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
+ | 94 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |
++
++## The nodes that no edge joins
++
++23 of the 192 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
++
++| id | layer | kind | grade |
++|---|---|---|---|
++| G:PF2 | 0 principle | premise | POSTULATED |
++| G:PF3 | 0 principle | premise | POSTULATED |
++| G:GM5a | 1 grammar | premise | POSTULATED |
++| G:SE3 | 2 states and root | premise | POSTULATED |
++| G:FK12 | 3 weave | fork | OPEN |
++| G:FK13 | 3 weave | fork | CHOSEN |
++| G:FK16 | 3 weave | fork | OPEN |
++| G:FK7 | 3 weave | fork | OPEN |
++| G:FK8 | 3 weave | fork | OPEN |
++| G:PF5 | 3 weave | fork | OPEN |
++| V:WALL | 5 values | theorem | NEGATIVE |
++| E:GRADES | 8 conditional model | record | RECORD |
++| CO:S12 | 10 cosmology | theorem | DERIVED |
++| PR:P2 | 11 predictions | prediction | CONFIRMED |
++| PR:P3 | 11 predictions | prediction | OPEN |
++| FL:15 | 12 framing | framing | CHOSEN |
++| FL:16 | 12 framing | framing | UNSTATED |
++| FL:17 | 12 framing | framing | CHOSEN |
++| FL:22 | 12 framing | framing | CHOSEN |
++| FL:23 | 12 framing | framing | CHOSEN |
++| FL:24 | 12 framing | framing | CHOSEN |
++| FL:25 | 12 framing | framing | CHOSEN |
++| D:09 | 13 duties | duty | DUTY |
+diff --git a/frontier/B1858_the_closure_map/verification/build_map.py b/frontier/B1858_the_closure_map/verification/build_map.py
+index 5835c427d..6d1a37843 100644
+--- a/frontier/B1858_the_closure_map/verification/build_map.py
++++ b/frontier/B1858_the_closure_map/verification/build_map.py
+@@ -92,6 +92,30 @@ def register():
+     return rows, debts
+ 
+ 
++def joined_to_nothing(nodes, edges):
++    """the nodes that no edge joins, in the map's order: (those that are not debts, the debts)"""
++    ends = {e["src"] for e in edges} | {e["dst"] for e in edges}
++    lone = [n for n in nodes if n["id"] not in ends]
++    return [n for n in lone if n["kind"] != "debt"], [n for n in lone if n["kind"] == "debt"]
++
++
++def debts_under_a_heading_of_another_day(text):
++    """(row, the day of the row, the day its heading names) for each ranked debt whose heading names a day that is not the
++    day of the debt's own row.  A heading that names no day is not read; of several days the last is the heading's."""
++    day = dict(re.findall(r"^\| (P-\d+) \| (\d{4}-\d\d-\d\d) \|", text, re.M))
++    a = text.index("## The debts, by load")
++    b = text.index("\n## ", a + 10)
++    out, named = [], None
++    for line in text[a:b].split("\n"):
++        if line.startswith("*") and line.rstrip().endswith("*"):
++            days = re.findall(r"\d{4}-\d\d-\d\d", line)
++            named = days[-1] if days else None
++        m = re.match(r"^\d+\. (P-\d+) — ", line)
++        if m and named and day.get(m.group(1)) != named:
++            out.append((m.group(1), day.get(m.group(1)), named))
++    return out
++
++
+ def build():
+     fails, notes = [], []
+     nodes = [dict(n) for n in S.NODES]
+@@ -212,6 +236,16 @@ def build():
+         for end in (e["src"], e["dst"]):
+             if end not in idset:
+                 fails.append("edge end missing: %s (%s %s %s)" % (end, e["src"], e["kind"], e["dst"]))
++    # ---- 2026-11-12 (R80b, part 6): a node that no edge joins is held by name or refused; so is a debt under another day's heading
++    held = set(S.JOINED_TO_NOTHING_AS_FOUND)
++    lone = {n["id"] for n in joined_to_nothing(nodes, edges)[0]}
++    for i in sorted(lone - held):
++        fails.append("%s is joined to nothing and is not held by name" % i)
++    for i in sorted(held - lone):
++        fails.append("%s is held by name as joined to nothing, and %s" % (i, "an edge joins it" if i in idset else "it is not a node"))
++    for pid, own, named in debts_under_a_heading_of_another_day((ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8")):
++        if S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING.get(pid) != own:
++            fails.append("%s is a debt under a heading that names %s, and its row is of %s" % (pid, named, own))
+     cells = genesis_cells()
+     for n in nodes:
+         if n["id"].startswith("G:") and n["id"][2:] in cells:
+@@ -334,6 +368,15 @@ def render_map(nodes, edges, stats):
+             L += ["| id | grade | about | statement | where |", "|---|---|---|---|---|"]
+             for n in ns:
+                 L.append("| %s | %s | %s | %s | %s |" % (n["id"], n["grade"], n.get("weave_or_thread", ""), n["text"].replace("|", "∣"), where(n).replace("|", "∣")))
++    # 2026-11-12 (R80b, part 6): the page says which nodes no edge joins
++    others, lone_debts = joined_to_nothing(nodes, edges)
++    L += ["", "## The nodes that no edge joins", "",
++          "%d of the %d nodes that are not debts, and %d of the %d debts. The map states nothing about what such a node requires, "
++          "answers or bears on; it is listed and joined to nothing. Each of the %d is held by name in the map's source, as found on 2026-11-12."
++          % (len(others), len([n for n in nodes if n["kind"] != "debt"]), len(lone_debts), len([n for n in nodes if n["kind"] == "debt"]), len(others)),
++          "", "| id | layer | kind | grade |", "|---|---|---|---|"]
++    for n in others:
++        L.append("| %s | %s | %s | %s |" % (n["id"], n["layer"], n["kind"], n["grade"]))
+     return "\n".join(L) + "\n"
+ 
+ 
+diff --git a/frontier/B1858_the_closure_map/verification/map_source.py b/frontier/B1858_the_closure_map/verification/map_source.py
+index 6c494e6c8..d3d8dda37 100644
+--- a/frontier/B1858_the_closure_map/verification/map_source.py
++++ b/frontier/B1858_the_closure_map/verification/map_source.py
+@@ -494,6 +494,21 @@ DEBT_BEARS_ON = {
+     "P-157": "PR:P10", "P-606": "MC:GEN", "P-618": "MC:UNIQ", "P-318": "MC:UNIQ", "P-374": "MC:HYP", "P-579": "V:0OF19", "P-581": "MC:Z6",
+     "P-321": "G:GM4", "P-138": "G:GAP5", "P-610": "TAG:UNIT",
+ }
++# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 11; not checked by main).
++# Three nodes were added to the map with no edge: G:SE3, G:PF2 and G:FK12.  On that day 23 nodes that are not debts were
++# joined to nothing, these three among them.  Each is held here by name, as found.  The builder refuses a node that no edge
++# joins and this table does not name, and a name here that an edge has since joined.  What each of the 23 requires, answers
++# or bears on is main's to say: an edge is a statement, and none is added with this table.
++JOINED_TO_NOTHING_AS_FOUND = (
++    "G:PF2", "G:PF3", "G:GM5a", "G:SE3", "G:FK12", "G:FK13", "G:FK16", "G:FK7", "G:FK8", "G:PF5",
++    "V:WALL", "E:GRADES", "CO:S12", "PR:P2", "PR:P3",
++    "FL:15", "FL:16", "FL:17", "FL:22", "FL:23", "FL:24", "FL:25", "D:09",
++)
++# The same finding: debts of a later day stood under a heading of an earlier one (main mended it, P-828).  The builder now
++# refuses a debt that stands under a heading which names a day when the debt's own row is of another day.  One is held by
++# name: its row is of an earlier day, and the heading says that it was made a debt on the day it names.
++A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING = {"P-253": "2026-10-22"}
++
+ # the framing ledger's rows that bear on a node outright
+ FL_BEARS_ON = {"FL:26": "MC:Z6", "FL:19": "V:0OF19", "FL:14": "V:HELD"}
+ 
+diff --git a/frontier/B1858_the_closure_map/verification/test_b1858_the_closure_map.py b/frontier/B1858_the_closure_map/verification/test_b1858_the_closure_map.py
+index edc236470..6fbbe5dd6 100644
+--- a/frontier/B1858_the_closure_map/verification/test_b1858_the_closure_map.py
++++ b/frontier/B1858_the_closure_map/verification/test_b1858_the_closure_map.py
+@@ -101,3 +101,72 @@ def test_a_conditional_result_names_its_premise():
+         bm.S.EDGES.insert(i, saved)
+     assert any("a conditional result names no premise: FA:F2" in f for f in fails)
+     assert bm.build()[3] == []
++
++
++def test_a_node_that_no_edge_joins_is_held_by_name_or_refused():
++    """2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 11; not checked by
++    main).  Three nodes were added with no edge and nothing said so.  The page lists every such node, and the builder refuses
++    one that the source does not hold by name."""
++    others, debts = bm.joined_to_nothing(NODES, EDGES)
++    ends = {e["src"] for e in EDGES} | {e["dst"] for e in EDGES}
++    assert sorted(n["id"] for n in others) == sorted(n["id"] for n in NODES if n["kind"] != "debt" and n["id"] not in ends)
++    assert sorted(n["id"] for n in others) == sorted(bm.S.JOINED_TO_NOTHING_AS_FOUND)
++    assert {"G:SE3", "G:PF2", "G:FK12"} <= {n["id"] for n in others}                     # the three the finding names
++    page = (ARC / "MAP.md").read_text(encoding="utf-8")
++    listed = page[page.index("## The nodes that no edge joins"):]
++    assert all("| %s | " % n["id"] in listed for n in others)
++    assert listed.split("\n")[2].startswith("%d of the %d nodes that are not debts, and %d of the %d debts." % (
++        len(others), len([n for n in NODES if n["kind"] != "debt"]), len(debts), len([n for n in NODES if n["kind"] == "debt"])))
++    saved = bm.S.JOINED_TO_NOTHING_AS_FOUND
++    try:
++        # a node with no edge that the table does not name: as the map stood when the three were added
++        bm.S.JOINED_TO_NOTHING_AS_FOUND = tuple(i for i in saved if i != "G:SE3")
++        assert [f for f in bm.build()[3]] == ["G:SE3 is joined to nothing and is not held by name"]
++        # a name in the table that an edge joins, and one that is no node
++        joined = sorted(ends)[0]
++        bm.S.JOINED_TO_NOTHING_AS_FOUND = saved + (joined,)
++        assert bm.build()[3] == ["%s is held by name as joined to nothing, and an edge joins it" % joined]
++        bm.S.JOINED_TO_NOTHING_AS_FOUND = saved + ("G:NO-SUCH-NODE",)
++        assert bm.build()[3] == ["G:NO-SUCH-NODE is held by name as joined to nothing, and it is not a node"]
++    finally:
++        bm.S.JOINED_TO_NOTHING_AS_FOUND = saved
++    assert bm.build()[3] == []
++
++
++def test_a_debt_under_a_heading_of_another_day_is_held_by_name_or_refused():
++    """The same finding: debts of a later day stood under a heading of an earlier one, and the map printed that heading as
++    their class.  Main mended the list (P-828); this holds the mend."""
++    import re
++    reg = (bm.ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8")
++    found = bm.debts_under_a_heading_of_another_day(reg)
++    assert [(p, own) for p, own, _ in found] == sorted(bm.S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING.items())
++    # the list as it stood before main's mend, made again on a small register: two debts of the 12th under a heading of the 10th
++    small = "\n".join([
++        "## The debts, by load (worked in this order)", "",
++        "*added at a session (a seat's re-audit, 2026-11-10):*", "",
++        "1. P-901 — a debt of the day the heading names.",
++        "2. P-902 — a debt of two days later.",
++        "3. P-903 — another of two days later.", "",
++        "*added at a session, with no day named:*", "",
++        "4. P-904 — a debt under a heading that names no day.", "",
++        "## The rows", "",
++        "| P-901 | 2026-11-10 | SE | A | QUEUED | - |",
++        "| P-902 | 2026-11-12 | SE | B | QUEUED | - |",
++        "| P-903 | 2026-11-12 | SE | C | QUEUED | - |",
++        "| P-904 | 2026-11-12 | SE | D | QUEUED | - |", ""])
++    assert bm.debts_under_a_heading_of_another_day(small) == [("P-902", "2026-11-12", "2026-11-10"), ("P-903", "2026-11-12", "2026-11-10")]
++    # the twin: the same two under a heading of their own day
++    mended = small.replace("3. P-903", "*added on 2026-11-12:*\n\n3. P-903").replace("2. P-902 — a debt of two days later.\n", "") \
++                  .replace("3. P-903 —", "2. P-902 — a debt of two days later.\n3. P-903 —")
++    assert bm.debts_under_a_heading_of_another_day(mended) == []
++    # a debt whose row is not in the register at all is reported with no day
++    assert bm.debts_under_a_heading_of_another_day(small.replace("| P-901 | 2026-11-10 |", "| P-911 | 2026-11-10 |")) [0] == ("P-901", None, "2026-11-10")
++    # on the live register: the name taken out of the table is refused by the builder
++    saved = dict(bm.S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING)
++    try:
++        bm.S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING.clear()
++        fails = bm.build()[3]
++        assert len(fails) == len(saved) and all(re.match(r"P-\d+ is a debt under a heading that names \d{4}-\d\d-\d\d, and its row is of ", f) for f in fails)
++    finally:
++        bm.S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING.update(saved)
++    assert bm.build()[3] == []
+-- 
+2.43.0
+

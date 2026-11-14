@@ -1,0 +1,152 @@
+From df067872d16b9ea2ada8390ae93faed35ae7209b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:36:49 +0000
+Subject: [PATCH] R80b, part 6, patch 3 (cld-advisor, at main's word in M18;
+ the second gap of the cold read of part 1): FIVE SHAPES OF A QUOTATION THAT
+ THE LOCK'S READER DID NOT SEE
+
+The lock of the plan reads the page for a quotation of the owner by its shape (part 1 of this series). The
+cold read of that part found five shapes it does not see. Main gives them in M18 and has not checked them.
+Made again here: each planted line passes the reader as it stood, which is kept in the test, and is reported
+now.
+
+  1. the words for the owner on one line and the opening mark at the start of the next. For a line of prose,
+     the end of the line before it is read with it. A blank line, a table row or another cell is not read
+     across;
+  2. the words for the owner AFTER the closing mark ("...", the owner said). The mark's closing is found, and
+     what follows is read for a verb of saying with the owner, either way round, or for "in his own words";
+  3. guillemets with a space inside;
+  4. a dash or a hyphen directly before the opening mark;
+  5. plain words in backticks after a word for the owner: three words or more, with nothing in them that a
+     path, a command or a name of the code has.
+
+Twins that stay quiet: a question of main's followed by what the owner chose; a seat's sentence that names
+him, quoted in its cell; paths and a command in backticks after a word for him; a paragraph that ends
+between the words for him and the mark; another cell.
+
+What the reader still does not see is said in the test: his words with no mark at all, or in italics; and
+words given to him after the closing mark by a verb that is not in its short list.
+
+On the plan's page as it stands the wider reader reports nothing. The lock passes: 21 tests.
+Not checked by main. Tested against planted lines by the session that wrote the mend: eight, with six twins.
+---
+ .../test_b1861_the_closure_programme.py       | 82 ++++++++++++++++++-
+ 1 file changed, 78 insertions(+), 4 deletions(-)
+
+diff --git a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+index 1b5034e46..129d93486 100644
+--- a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+@@ -765,7 +765,17 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
+ # said (register row P-796).  The lock asked for less: one phrase present, one spelling absent.  This reads the page by shape.
+ _OPENS = "\"“‘«'"
+ _CLOSES = "\"”’»'"
+-_AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
++# until 2026-11-12: re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS)).  Two of the five shapes below are
++# mended here: a dash directly before the mark, and a guillemet with a space after it.
++_AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[\-\u2013\u2014])|^)(?:[%s](?=\S)|\u00ab(?=\s\S))" % re.escape(_OPENS))
++_CLOSE_OF = {'"': '"', "\u201c": "\u201d", "\u2018": "\u2019", "\u00ab": "\u00bb", "'": "'"}
++# what follows a closing mark where the words before the mark are given as the owner's: "...", the owner said
++_SAID_AFTER = re.compile(r"[\s,;:.\u2013\u2014-]*(?:(?:said|says|wrote|writes|answered|replied|ruled|added)\s+(?:the\s+owner|he)\b"
++                         r"|(?:the\s+owner|he)\s+(?:said|says|wrote|writes|answered|replied|ruled|added|put\s+it|told|had\s+said)\b"
++                         r"|(?:as|in)\s+(?:the\s+owner(?:'s)?|his)\s+(?:own\s+)?(?:words|answer|phrase)\b)", re.I)
++# a run of plain words in backticks: three words or more, with nothing in it that a path, a command or a name of the code has
++_WORDS_IN_BACKTICKS = re.compile(r"`([^`\n]*)`")
++_NOT_PLAIN_WORDS = re.compile(r"[/\\=_(){}\[\]<>|#$@*]|\.(?:py|md|json|txt|tex|sh)\b|--\w")
+ _A_WORD_FOR_THE_OWNER = re.compile(r"\b(?:[Oo]wner|[Hh]e|[Hh]is|[Hh]im)\b")
+ _A_BLOCK = re.compile(r"^\s*(?:[-*+]\s+|\d+\.\s+)?>|<\s*(?:blockquote|q)\b", re.I)
+ WITHIN = 120
+@@ -797,12 +807,26 @@ def what_the_plans_page_quotes(page, accounts=None, held=None):
+     accounts = the_owners_answers_in_plain_words() if accounts is None else accounts
+     left = dict(HELD_BY_NAME if held is None else held)
+     out = []
+-    for n, line in enumerate(page.split("\n"), 1):
++    lines = page.split("\n")
++    for n, line in enumerate(lines, 1):
+         if _A_BLOCK.search(line):
+             out.append((n, "a block quotation"))
+-        for cell in line.split("|"):
++        # ADDED 2026-11-12 (the second gap of the cold read of the first part; main's M18, not checked by main).  Five shapes the
++        # reader did not see.  (1) The words for the owner at the end of one line and the mark on the next: for a line of prose
++        # the end of the line before it is read with it.  (2) The words for the owner AFTER the closing mark.  (3) A guillemet
++        # with a space inside, and (4) a dash directly before the mark: both in the pattern of an opening mark.  (5) Plain
++        # words in backticks after a word for the owner.
++        table = line.lstrip().startswith("|")
++        before_it = lines[n - 2] if n >= 2 and not table and lines[n - 2].strip() and not lines[n - 2].lstrip().startswith("|") else ""
++        cells = line.split("|")
++        for at, cell in enumerate(cells):
++            carried = before_it[-WITHIN:] + " " if at == 0 else ""
+             for m in _AN_OPENING_MARK.finditer(cell):
+-                if not _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()]):
++                close = cell.find(_CLOSE_OF.get(m.group(0), m.group(0)), m.end())
++                if close > 0 and _SAID_AFTER.match(cell[close + 1:close + 81]):
++                    out.append((n, "a quotation is followed by words that give it to the owner"))
++                    continue
++                if not _A_WORD_FOR_THE_OWNER.search((carried + cell[:m.start()])[-WITHIN:]):      # until 2026-11-12: cell[max(0, m.start() - WITHIN):m.start()]
+                     continue
+                 # until 2026-11-12: `cell[m.end():].startswith(k)`, so words that followed a held name inside the same marks were
+                 # excused with it (found by the reader of the first part).  A held name is the whole of what stands in the marks.
+@@ -812,6 +836,10 @@ def what_the_plans_page_quotes(page, accounts=None, held=None):
+                     left[name] -= 1
+                     continue
+                 out.append((n, "a quotation opens after a word for the owner"))
++            for m in _WORDS_IN_BACKTICKS.finditer(cell):
++                inside = m.group(1).strip()
++                if len(inside.split()) >= 3 and not _NOT_PLAIN_WORDS.search(inside) and _A_WORD_FOR_THE_OWNER.search((carried + cell[:m.start()])[-WITHIN:]):
++                    out.append((n, "plain words stand in backticks after a word for the owner"))
+         for a in accounts:
+             if a and any(o + a in line for o in _OPENS):
+                 out.append((n, "an account kept in plain words is printed in quotation marks"))
+@@ -892,3 +920,49 @@ def test_a_control_leaves_the_plans_source_as_it_found_it():
+     assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == [] and S.CONFIRMATION == kept and not hasattr(S, "A_NAME_THAT_WAS_NOT_THERE")
+     # and what the next file asks: the builder's output is the committed page
+     assert bp.build()["fails"] == [] and _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
++
++
++def _as_the_reader_read_before_part_six(page):
++    """the reader as it stood until 2026-11-12, kept to show what it passed: a mark that opens after white space or one of
++    : , ; ( [ and is followed at once by a letter, with a word for the owner in the 120 characters before it in its cell"""
++    opening = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
++    out = []
++    for n, line in enumerate(page.split("\n"), 1):
++        if _A_BLOCK.search(line):
++            out.append(n)
++        for cell in line.split("|"):
++            out += [n for m in opening.finditer(cell) if _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()])]
++    return out
++
++
++def test_five_shapes_of_a_quotation_that_the_reader_did_not_see():
++    """the second gap of the cold read of the first part (main's M18; not checked by main; made again here): each planted line
++    passed the reader as it stood, and is reported now.  The words are planted words."""
++    words = "planted words that stand for an answer"
++    shapes = {
++        "the words for him on one line, the mark at the start of the next": "On that day the owner answered main, and what he said was\n\"%s\" and no more." % words,
++        "the words for him after the closing mark": "\"%s\", the owner said." % words,
++        "the same, the other way round": "The answer was \"%s\", said the owner." % words,
++        "the same, as his words": "It was put as \"%s\", in his own words." % words,
++        "guillemets with a space inside": "The owner answered: « %s »." % words,
++        "a dash directly before the mark": "The owner—\"%s\"—and nothing else." % words,
++        "a hyphen directly before the mark": "The owner said -\"%s\"." % words,
++        "plain words in backticks": "The owner answered `%s`." % words,
++    }
++    for what, text in shapes.items():
++        assert _as_the_reader_read_before_part_six(text) == [], "this one was reported before, and is not a case of the gap: " + what
++        assert len(what_the_plans_page_quotes(text, held={})) == 1, what
++    # twins that must stay quiet
++    for quiet in (
++            "asked \"Is the tick an act?\", the owner chose main's option: Yes, admit it (Recommended)",       # a question of main's, and what he chose
++            "| the weave discipline | \"the owner agreed to the five proposals\" | CONFIRMED |",              # a seat's sentence that names him
++            "The owner's ruling R3 is carried out in `scripts/gates/gates.py` and in `tests/test_attribution_history.py`.",      # paths in backticks
++            "The owner ruled on 2026-11-11; run `python3 build_programme.py --write` to build the page.",      # a command in backticks
++            "Main asked the owner about the ruling.\n\n\"A sentence of a seat\", in the seat's own page, says otherwise.",     # a paragraph ends between them
++            "| the owner answered | \"a sentence of a seat\" |"):                                              # another cell
++        assert what_the_plans_page_quotes(quiet, held={}) == [], quiet
++    # what the reader still does not see, said here: his words with no mark at all, or in italics; and words given to him after
++    # the closing mark by a verb that is not in its short list
++    assert what_the_plans_page_quotes("\"%s\", the owner chose." % words, held={}) == []
++    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
++    assert what_the_plans_page_quotes(page) == []
+-- 
+2.43.0
+

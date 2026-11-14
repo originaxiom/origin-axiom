@@ -1,0 +1,113 @@
+From cd3c8abb1d3bda391eeb641f6d733d0ea2b55ba5 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:36:54 +0000
+Subject: [PATCH] R80b, part 6, patch 4 (cld-advisor, at main's word in M18;
+ the third gap of the cold read of part 1): A TEXT CUT FOR A CELL KEEPS A WORD
+ OF IT
+
+The plan's builder cuts a long text for a table cell at a word's end and marks it as cut. Part 1 of this
+series mended a text that opens with punctuation and came back as the mark alone. The cold read of that part
+found three texts that still come back with nothing of the sentence in them. Main gives them in M18 and has
+not checked them. Made again here, with the function as it stood kept in the test:
+
+  - a text that opens with a bracket or a dash and then holds only spaces, commas, semicolons or colons up
+    to the cut: the mark alone;
+  - a text that opens with a comma and spaces: the comma and the spaces;
+  - a short label in brackets before a long word: the label alone.
+
+The mend: where the cut at a word's end keeps less than half of what a cell may hold, or no letter and no
+digit, the text is cut at the cell's length, inside the long word; and where the first characters up to
+that length hold no letter and no digit at all, the text is kept to the end of its first word, to three
+times the cell's length at most. The lines that stood are kept in the builder under a dated note.
+
+Twins: an ordinary sentence, a text that fits, one long word, a run of short words and a text that opens
+with a space each come out as they did. A text with no word in it at all is cut at the cell's length.
+
+No cell of the plan's page changes: the builder's output is the committed page. The lock passes: 22 tests.
+Not checked by main. Tested against planted texts by the session that wrote the mend: four, with five twins.
+---
+ .../verification/build_programme.py           | 15 ++++++-
+ .../test_b1861_the_closure_programme.py       | 43 +++++++++++++++++++
+ 2 files changed, 57 insertions(+), 1 deletion(-)
+
+diff --git a/frontier/B1861_the_closure_programme/verification/build_programme.py b/frontier/B1861_the_closure_programme/verification/build_programme.py
+index 73bafa702..349d7c9c7 100644
+--- a/frontier/B1861_the_closure_programme/verification/build_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/build_programme.py
+@@ -648,8 +648,21 @@ def short(s, n=110):
+     # what was kept held no word, and came back as the mark alone, or as one dash and the mark.  Where the cut keeps no letter
+     # and no digit, the text is cut at n characters, as a single long word is.
+     kept = head.rstrip(" ,;:")
++    # CORRECTED 2026-11-12 (Review 80; the third gap of the cold read of the mend above, not checked by main, made again by
++    # the builder).  The last three lines were
++    #     if not any(c.isalnum() for c in kept):
++    #         kept = s[:n].rstrip(" ,;:") or s[:n]
++    #     return kept + " […]"
++    # Three texts still came back with nothing of the sentence in them: one that opens with a bracket or a dash and then holds
++    # only spaces and commas up to the cut (the mark alone); one that opens with a comma and spaces (the comma and the spaces);
++    # and a short label in brackets before a long word (the label alone).  So: where the cut at a word's end keeps less than
++    # half of what a cell may hold, the text is cut at n characters, inside the long word; and where the first n characters
++    # hold no letter and no digit at all, the text is kept up to the end of its first word (to three times n at most).
++    if len(kept) < n // 2 or not any(c.isalnum() for c in kept):
++        kept = s[:n].rstrip(" ,;:")
+     if not any(c.isalnum() for c in kept):
+-        kept = s[:n].rstrip(" ,;:") or s[:n]
++        first = re.search(r"\w+", s)
++        kept = s[:min(first.end(), 3 * n)] if first else s[:n]
+     return kept + " […]"
+ 
+ 
+diff --git a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+index 129d93486..28d328e35 100644
+--- a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+@@ -966,3 +966,46 @@ def test_five_shapes_of_a_quotation_that_the_reader_did_not_see():
+     assert what_the_plans_page_quotes("\"%s\", the owner chose." % words, held={}) == []
+     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+     assert what_the_plans_page_quotes(page) == []
++
++
++def _short_as_it_was(s, n=110):
++    """the function as it stood after the first part of this series, kept to show what it gave"""
++    s = str(s).strip()
++    if len(s) <= n:
++        return s
++    head = s[:n + 1]
++    cut = head.rfind(" ")
++    head = head[:cut] if cut > 0 else s[:n]
++    kept = head.rstrip(" ,;:")
++    if not any(c.isalnum() for c in kept):
++        kept = s[:n].rstrip(" ,;:") or s[:n]
++    return kept + " […]"
++
++
++def test_a_text_cut_for_a_cell_keeps_a_word_of_it():
++    """the third gap of the cold read of the first part (main's M18; not checked by main; made again here)"""
++    n = 110
++    cases = {
++        "a bracket, then only spaces and marks up to the cut": "(" + " ,;:" * 40 + "word " * 30,
++        "a dash, then only spaces up to the cut": "-" + " " * 150 + "word and more words",
++        "a comma and spaces up to the cut": "," + " " * 150 + "word and more words",
++        "a short label in brackets before a long word": "(a) " + "z" * 200,
++    }
++    gave = {what: _short_as_it_was(text, n) for what, text in cases.items()}
++    assert gave["a bracket, then only spaces and marks up to the cut"] == "( […]"                     # the mark alone
++    assert gave["a dash, then only spaces up to the cut"] == "- […]"
++    assert gave["a comma and spaces up to the cut"].strip(" ,") == "[…]"                              # the comma and the spaces
++    assert gave["a short label in brackets before a long word"] == "(a) […]"                          # the label alone
++    for what, text in cases.items():
++        out = bp.short(text, n)
++        assert out.endswith(" […]") and out != gave[what], what
++        body = out[:-len(" […]")]
++        assert re.search(r"[a-z]{4}", body), "nothing of the sentence is kept: %s -> %r" % (what, out[:40])
++        assert text.strip().startswith(body) and len(body) <= 3 * n, what
++    # twins: what the function gave before for an ordinary sentence, a text that fits, and one long word, it gives now
++    for text in ("The principle allows the act as the ground and does not force it, and with every history a ground the record's rule has four root classes and more.",
++                 "a text that fits", "q" * 300, "one two three " * 20, " " + "r" * 300):
++        assert bp.short(text, n) == _short_as_it_was(text, n), text[:30]
++    assert bp.short(", ; : " * 60, n).endswith(" […]")                                                # a text with no word in it at all is cut at n
++    # and on the page: no cell of the plan changes with the mend (the builder's output is the committed page)
++    assert bp.build()["fails"] == []
+-- 
+2.43.0
+

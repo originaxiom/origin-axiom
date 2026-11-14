@@ -1,0 +1,96 @@
+From ccf3618c728be8356967a29c37da8d4a06de6515 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:37:44 +0000
+Subject: [PATCH] R80b, part 6, patch 14 (cld-advisor, at main's word in M16;
+ main's third folder, section 2, row A12): THE PLAN'S ROW FOR THE FINDING G9
+ NAMES THE ARC THAT REPLACED ITS FIX
+
+A reader's check of main's answers at Review 80 (agy-002's; row A12, held by main: the row reads so). The
+page, the verdict line and the lock of B1878 are mended. The plan's row for the finding G9 still gives the
+attribution gate as B1878 landed it, reading the first-parent line, and does not name B1880, which replaced
+that reading the same day.
+
+The row's note in the plan's source keeps what it said, and has a dated bracket after it: this is the gate
+as B1878 landed it; B1880 replaced that reading the same day; every commit reachable from the tip is read, a
+commit that arrives by a merge too. The words are those of B1878's own page and of the plan's own entry for
+the re-audit. The page and its data file are built again by the builder.
+
+A test in the plan's lock holds the row: what stood is kept, the bracket names B1880, the page's row carries
+both, and B1878's page says the same of itself.
+
+Not said in the bracket, and for the day the fifth series of the enforcement package lands: that series
+makes the gate read the author and the committer, the name and the address.
+
+The plan's lock passes: 23 tests. Every gate passes but the count of landings. The row is held by main.
+---
+ .../B1861_the_closure_programme/PROGRAMME.json    |  2 +-
+ frontier/B1861_the_closure_programme/PROGRAMME.md |  2 +-
+ .../verification/programme_source.py              |  2 +-
+ .../test_b1861_the_closure_programme.py           | 15 +++++++++++++++
+ 4 files changed, 18 insertions(+), 3 deletions(-)
+
+diff --git a/frontier/B1861_the_closure_programme/PROGRAMME.json b/frontier/B1861_the_closure_programme/PROGRAMME.json
+index 0c1ae51e5..a00dfd3f7 100644
+--- a/frontier/B1861_the_closure_programme/PROGRAMME.json
++++ b/frontier/B1861_the_closure_programme/PROGRAMME.json
+@@ -1040,7 +1040,7 @@
+    "wp": "WP-0.7"
+   },
+   "G9": {
+-   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)",
++   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py). [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, held by main): this is the gate as B1878 landed it. B1880 replaced that reading the same day: every commit reachable from the tip after da25c4f49 is read, a commit that arrives by a merge too. What the gate does today is B1880's.]",
+    "short": "the attribution gate never reads a commit message",
+    "state": "FIXED",
+    "trail": [
+diff --git a/frontier/B1861_the_closure_programme/PROGRAMME.md b/frontier/B1861_the_closure_programme/PROGRAMME.md
+index 9013988b9..e97bfd336 100644
+--- a/frontier/B1861_the_closure_programme/PROGRAMME.md
++++ b/frontier/B1861_the_closure_programme/PROGRAMME.md
+@@ -908,7 +908,7 @@ re-audit read (re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28
+ | G6 | four gates read today's date | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content |
+ | G7 | the gate-controls gate checks a name only | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed |
+ | G8 | the retraction sweep reads part of its registry | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught |
+-| G9 | the attribution gate never reads a commit message | WP-0.7 | REPOSITORY | FIXED | accepted, with one residual (re-audit 4); the residual accepted as mended (re-audit 5): every reachable commit is read | B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py) |
++| G9 | the attribution gate never reads a commit message | WP-0.7 | REPOSITORY | FIXED | accepted, with one residual (re-audit 4); the residual accepted as mended (re-audit 5): every reachable commit is read | B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py). [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, held by main): this is the gate as B1878 landed it. B1880 replaced that reading the same day: every commit reachable from the tip after da25c4f49 is read, a commit that arrives by a merge too. What the gate does today is B1880's.] |
+ | G10 | practices labelled gated whose gate is weaker than the practice | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read |
+ | G11 | the currency check prints 'current' beside declared debts | WP-0.7 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the currency check prints 'ok (18 living documents current)' while 9 documents are declared debts and 8 of those are counted as current; CLAIMS.md lags 580 arcs under a tolerance of 40. The audit's 569 and 8 are 580 and 9 today |
+ | G12 | the gates at push are an honour system | WP-0.7 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): README.md:71 says the gates run on every push; the hook is local and untracked, and the one CI workflow runs core tests and no gate |
+diff --git a/frontier/B1861_the_closure_programme/verification/programme_source.py b/frontier/B1861_the_closure_programme/verification/programme_source.py
+index 74c84a5c6..e47c0eab8 100644
+--- a/frontier/B1861_the_closure_programme/verification/programme_source.py
++++ b/frontier/B1861_the_closure_programme/verification/programme_source.py
+@@ -627,7 +627,7 @@ U("E8", "PARTLY FIXED", "B1862 scoped the consequence sentence and the verdict l
+ # main's word; the advisor seat has read none of this, and the builder lists each as fixed and not yet re-audited.
+ U("X1", "FIXED", "B1878: the places that cap the goal are amended together, each keeping its original text beside a dated note -- GOVERNANCE.md's goal sentence, its label and its firewall paragraph; the claims ledger's open targets; the anchor doctrine; and the gate, which no longer bans a statement of aim. The ceiling is kept and gated: a sentence of arrival on a living page fails `arrival-phrases`, the audit's own planted sentence on the front page among them. The audit's list also names two results of the foundation (FK11, GAP6); a ruling does not amend a result, and the amended text says they stand")
+ U("X2", "PARTLY FIXED", "B1878: GOVERNANCE.md is named the one governing document, with GENESIS.md holding on the status of every item of the foundation by its delegation and CLAIMS.md a ledger under both; GOVERNANCE.md's permitted label is brought down to GENESIS.md's statuses. Left: GENESIS.md's own line ('this file holds'), which only an arc at its next version may note")
+-U("G9", "FIXED", "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)")
++U("G9", "FIXED", "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py). [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, held by main): this is the gate as B1878 landed it. B1880 replaced that reading the same day: every commit reachable from the tip after da25c4f49 is read, a commit that arrives by a merge too. What the gate does today is B1880's.]")
+ SINCE_REAUDIT["E3"] = ("B1877", "the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked")
+ SINCE_REAUDIT["E4"] = ("B1877", "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected")
+ SINCE_REAUDIT["E8"] = ("B1877", "the scope carried to the verdict block at the top of B854's findings")
+diff --git a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+index 28d328e35..cd4141cad 100644
+--- a/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
++++ b/frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py
+@@ -1009,3 +1009,18 @@ def test_a_text_cut_for_a_cell_keeps_a_word_of_it():
+     assert bp.short(", ; : " * 60, n).endswith(" […]")                                                # a text with no word in it at all is cut at n
+     # and on the page: no cell of the plan changes with the mend (the builder's output is the committed page)
+     assert bp.build()["fails"] == []
++
++
++def test_the_row_of_a_finding_names_the_arc_that_replaced_its_fix():
++    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A12, held by main).  The plan's row for G9 gave
++    the attribution gate as B1878 landed it, reading the first-parent line, and did not name B1880, which replaced that
++    reading the same day.  The page, the verdict line and the lock of B1878 had been mended; this row had not."""
++    note = S.FINDINGS["G9"]["note"]
++    assert note.startswith("B1878: the attribution gate reads every commit message on the first-parent line")      # what stood is kept
++    assert "B1880 replaced that reading the same day: every commit reachable from the tip" in note
++    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
++    row = [l for l in page.split("\n") if l.startswith("| G9 |")]
++    assert len(row) == 1 and "B1880 replaced that reading the same day" in row[0] and "first-parent line" in row[0]
++    # the arc it names says the same of itself
++    b1878 = " ".join((ARC.parent / "B1878_the_goal_as_ruled_in_the_governing_documents" / "FINDINGS.md").read_text(encoding="utf-8").split())
++    assert "B1880 replaced that rule as well" in b1878
+-- 
+2.43.0
+

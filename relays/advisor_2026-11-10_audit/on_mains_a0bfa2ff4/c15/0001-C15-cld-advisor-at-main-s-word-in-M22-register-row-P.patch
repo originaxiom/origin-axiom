@@ -1,0 +1,162 @@
+From a59db205550e15e53d107a4bf7f696dd42890726 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:40:09 +0000
+Subject: [PATCH] C15 (cld-advisor, at main's word in M22, register row P-239's
+ next action): B805'S TWO LOCKS ARE HELD TO THE PANEL'S ERA, AND THE DRIFT
+ AFTER IT IS PRINTED AND HELD
+
+B805's forcing graph has two locks that have failed since October (tests/test_b805_forcing.py): fewer than half
+of the arcs on no face, and attachment outnumbering authored edges. The fresh-clone suite of 2026-11-12 shows both
+failing. Main gave the builder two ways: re-attach the unattached arcs by B842's panel, or re-scope both locks to
+the attached era with the drift printed.
+
+THE CHOICE: RE-SCOPE. THE REASON, measured first (card C15, section 2): the attachment ends with the panel. Up to
+B842, 155 of 791 arcs sit on no face (20%, near the panel's own judgement of about 15%) and attachment outnumbers
+authored edges 1,359 to 20; after it, 793 of 827 arcs sit on no face, and no arc after B1349 is on one.
+Re-attaching about 800 arcs is a classification B842 made by a sealed panel of readers that did not write the arcs:
+it is not record-keeping, and a builder's classifier is what sank B806. The re-attachment stays main's, under P-239.
+
+WHAT IS BUILT.
+  - scripts/forcing/build.py: the panel's arc (B842, read from its folder), the era up to it, and the drift: the
+    arcs after the panel and those of them on no face, reported by gaps() under two new keys (the old keys are
+    kept) and printed in the report: "THE DRIFT: arcs after the panel (B842): 827, of which on NO face: 793".
+  - The two locks hold the era, each under a dated note that keeps the lines as they stood.
+  - A third test holds the drift: it is the arcs after the panel, it is reported and printed. Two controls: the
+    era with its attachment taken away fails the count of arcs on no face; a flood of citations counted as
+    forcings in the era fails the other.
+
+On the commit before this patch: 2 failed, 1 passed (the two locks). On it: 4 passed.
+
+NOT DONE, and main's: the builder's tracked output scripts/forcing/forcing_graph.json was last written on
+2026-08-09 and is read by no test or gate. Running the builder rewrites it with fifteen thousand lines of
+change; it is left as it is.
+---
+ scripts/forcing/build.py   | 31 ++++++++++++++++++++++++
+ tests/test_b805_forcing.py | 48 +++++++++++++++++++++++++++++++++++---
+ 2 files changed, 76 insertions(+), 3 deletions(-)
+
+diff --git a/scripts/forcing/build.py b/scripts/forcing/build.py
+index 02345e081..897fc560a 100644
+--- a/scripts/forcing/build.py
++++ b/scripts/forcing/build.py
+@@ -142,6 +142,32 @@ def build():
+     return G
+ 
+ 
++# THE PANEL'S ERA (2026-11-13; main's card C15, register row P-239).  An arc is attached to a face only through B738's kill graph
++# and B842's reader panel, and neither was extended after the panel: of the arcs on a face, none is later than B1349, and the
++# arcs since sit on no face while their honest `depends_on` grow the authored edges.  B805's two locks guard the attached
++# state, so they are held to the arcs up to the panel's own arc; the arcs after it are the DRIFT, reported here and printed,
++# until a panel of readers attaches them (main's to order, P-239).  The panel's arc is read from its folder.
++PANEL_ARC = "B842"
++
++
++def _number(arc_id):
++    return int(re.sub(r"\D", "", arc_id) or 0)
++
++
++def panel_era(G, last=PANEL_ARC):
++    """the arcs of the graph up to the panel's arc, inclusive"""
++    import glob as _glob
++    if not _glob.glob(os.path.join(ROOT, "frontier", last + "_*")):
++        raise FileNotFoundError("the panel's arc %s is not in frontier/" % last)
++    return {a for a in G["arcs"] if _number(a) <= _number(last)}
++
++
++def drift_line(gp):
++    """the line of the report that gives the drift"""
++    return ("THE DRIFT: arcs after the panel (%s): %d, of which on NO face: %d (not attached since the panel; register row P-239)"
++            % (PANEL_ARC, len(gp["arcs_after_the_panel"]), len(gp["arcs_after_the_panel_on_no_face"])))
++
++
+ def gaps(G):
+     """The property the owner asked for: what is MISSING shows up, rather than being forgotten."""
+     out = {}
+@@ -158,6 +184,10 @@ def gaps(G):
+     out["chain_links_on_unverdicted_arcs"] = sorted(
+         c for c, d in G["chain"].items()
+         if d["arcs"] and not any(G["arcs"].get(a, {}).get("verdict") for a in d["arcs"]))
++    # the drift (2026-11-13, C15): the arcs after the panel's era, and those of them on no face
++    era = panel_era(G)
++    out["arcs_after_the_panel"] = sorted(set(G["arcs"]) - era)
++    out["arcs_after_the_panel_on_no_face"] = sorted(set(out["arcs_on_no_face"]) - era)
+     return out
+ 
+ 
+@@ -193,6 +223,7 @@ def main():
+     print(f"    arcs with NO verdict          : {len(gp['arcs_with_no_verdict'])}"
+           f"   (invisible to the status layer)")
+     print(f"    chain links on unverdicted arcs: {len(gp['chain_links_on_unverdicted_arcs'])}")
++    print("    " + drift_line(gp))
+ 
+     print(f"\n  HONEST SCOPE: every edge above except `arc -> arc` is ATTACHMENT (a citation),")
+     print(f"  NOT a forcing. A citation is not a forcing. Genuine forcing edges must be authored,")
+diff --git a/tests/test_b805_forcing.py b/tests/test_b805_forcing.py
+index 2dd00d1f6..1bf8950bf 100644
+--- a/tests/test_b805_forcing.py
++++ b/tests/test_b805_forcing.py
+@@ -30,7 +30,16 @@ def test_graph_builds_and_separates_authored_edges_from_attachment():
+     # attachment edges vastly outnumber authored ones -- if that ever inverts silently,
+     # someone has started calling citations forcings
+     attachment = sum(len(v) for v in G["faces"].values()) + sum(len(v) for v in G["facets"].values())
+-    assert attachment > len(G["authored"])
++    # CHANGED 2026-11-13 (main's card C15, register row P-239; built by the building session).  The line read
++    #     assert attachment > len(G["authored"])
++    # over the whole record, and has failed since October: the attachment ends with B842's panel while new arcs' honest
++    # `depends_on` grow the authored edges.  What it guards, that a citation is not counted a forcing, is held where there
++    # is attachment to hold it: over the arcs up to the panel.  The drift after the panel is held by the last test below.
++    era = _m().panel_era(G)
++    attachment_in_era = sum(1 for v in list(G["faces"].values()) + list(G["facets"].values()) for a in v if a in era)
++    authored_in_era = [e for e in G["authored"] if e[0] in era and e[1] in era]
++    assert attachment_in_era > len(authored_in_era)
++    assert attachment == attachment_in_era + sum(1 for v in list(G["faces"].values()) + list(G["facets"].values()) for a in v if a not in era)
+ 
+ 
+ def test_gaps_are_reported_not_hidden():
+@@ -45,8 +54,41 @@ def test_gaps_are_reported_not_hidden():
+     # the positives have been attached -- update the arc." B842 attached them, so it dropped
+     # (383+ -> 134 of 766). This is that update: the lock now guards the ATTACHED state, and the
+     # residue is the arcs the panel judged to sit on NO face plus those with nothing to read.
+-    n_off = len(gp["arcs_on_no_face"])
+-    assert n_off < len(G["arcs"]) // 2, f"{n_off} arcs on no face -- attachment has regressed"
++    # CHANGED 2026-11-13 (main's card C15, register row P-239; built by the building session).  The count read the whole
++    # record and has failed since October, for the reason the test above gives.  The two lines as they stood:
++    #     n_off = len(gp["arcs_on_no_face"])
++    #     assert n_off < len(G["arcs"]) // 2, f"{n_off} arcs on no face -- attachment has regressed"
++    # It guards the attached state, so it reads the arcs up to the panel's arc, where the panel attached them.
++    era = m.panel_era(G)
++    n_off = len(set(gp["arcs_on_no_face"]) & era)
++    assert n_off < len(era) // 2, f"{n_off} of the panel's {len(era)} arcs on no face -- attachment has regressed"
+     assert n_off > 20, ("every arc is on a face -- suspicious: the panel judged ~15% to sit on "
+                         "NO face, and forcing an attachment is the over-prediction that sank the "
+                         "keyword classifier (B806)")
++
++
++def test_the_drift_after_the_panel_is_reported_and_the_era_can_fail():
++    """ADDED 2026-11-13 (main's card C15, register row P-239; built by the building session).  The two tests above read the
++    arcs up to B842's panel.  What is after it is the drift, and it is reported and printed, not hidden: the arcs after the
++    panel, and how many of them sit on no face.  Controls: the panel's era with its attachment taken away fails the count of
++    arcs on no face; and a citation counted a forcing in the era fails the other."""
++    m = _m()
++    G = m.build()
++    gp = m.gaps(G)
++    era = m.panel_era(G)
++    assert m.PANEL_ARC == "B842" and "B842" in era and not any(m._number(a) > 842 for a in era)
++    assert set(gp["arcs_after_the_panel"]) == set(G["arcs"]) - era and gp["arcs_after_the_panel"]
++    assert set(gp["arcs_after_the_panel_on_no_face"]) == set(gp["arcs_on_no_face"]) - era
++    line = "THE DRIFT: arcs after the panel (B842): %d, of which on NO face: %d" % (len(gp["arcs_after_the_panel"]), len(gp["arcs_after_the_panel_on_no_face"]))
++    assert m.drift_line(gp).startswith(line)
++    src = (ROOT / "scripts" / "forcing" / "build.py").read_text(encoding="utf-8")
++    assert 'print("    " + drift_line(gp))' in src[src.index("def main():"):]                 # the report prints it
++    # control 1: the era's attachment taken away
++    stripped = dict(G, faces={f: {a for a in v if a not in era} for f, v in G["faces"].items()})
++    n_off = len(set(m.gaps(stripped)["arcs_on_no_face"]) & era)
++    assert not n_off < len(era) // 2
++    # control 2: every arc of the era cited by every other, as if a citation were a forcing
++    flood = [(a, b) for a in sorted(era)[:60] for b in sorted(era)[:60] if a != b]
++    attachment_in_era = sum(1 for v in list(G["faces"].values()) + list(G["facets"].values()) for a in v if a in era)
++    assert not attachment_in_era > len(flood)
++
+-- 
+2.43.0
+

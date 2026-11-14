@@ -1,0 +1,121 @@
+From fdc530bc5532828d483e2eab6592330cefe35015 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:34:41 +0000
+Subject: [PATCH] R80b, part 3, patch 15 (cld-advisor, at main's word in M14;
+ Review 80, a reader's finding F13, WHICH MAIN HAS NOT CHECKED: it was made
+ again before it was mended): EACH ITEM OF A LIST IS A UNIT OF ITS OWN IN THE
+ SWEEP OF B1028'S TEST, AND B1222'S CORRECTION STANDS IN THE ITEM IT CORRECTS.
+
+THE FINDING, MADE AGAIN on the test and on B1222's page. The sweep asks that the correction stand beside the zero it corrects, in the same unit. A list with no empty line between its items was one unit, so the correction in one item excused the zero stated in another. On B1222's page the correction stood as an item of its own, before the item it corrects, in a list the page counts as three counterexamples.
+
+WHAT IS CHANGED. In the sweep each item of a list is a unit, with the lines that continue it. With that alone, the sweep reports one page on the tree: B1222's. There the correction is moved into the item it corrects, word for word, with a dated note that says it was moved; the list has three items again.
+
+THE PLANTED CASES, in the patch's own test: a list whose first item carries the correction and whose third states the zero; and the list as it stood on B1222's page. Read as one unit, as it was, neither is reported; each is now. A twin, the correction inside the item, is not.
+
+The test file: 10 pass. The reviewer's page is made again. 0 of 19.
+---
+ docs/views/REVIEWER.md                        |  2 +-
+ .../FINDINGS.md                               |  5 +-
+ tests/test_b1028_freedom_ledger.py            | 47 ++++++++++++++++++-
+ 3 files changed, 51 insertions(+), 3 deletions(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 9b7ad44c4..bd296643f 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1623** |
+-| words of findings prose | **1,447,281** |
++| words of findings prose | **1,447,333** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1623** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md b/frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md
+index 1b1dfea8c..a9d98048e 100644
+--- a/frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md
++++ b/frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md
+@@ -54,9 +54,12 @@ trivial · invariant content zero · symmetric support empty.
+   about the field, not a symmetry of the object.**
+ - **the h = 0 locus** is a *word* property — the diagonal-free weld matrices (B1110) — not a
+   symmetry statement.
+-- [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]
+ - **designer freedom 0.000 bits** is a meta-accounting over the chain, not an object vanishing at
+   all; including it in the pattern was sloppy.
++  [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]
++  [MOVED 2026-11-12 (Review 80; a reader's finding, not checked by main, made again on this page): the correction
++  above stood as an item of its own, before the item it corrects, so that this list of three counterexamples read
++  as four. It stands in its item now. No word of it is changed.]
+ 
+ ## TEST 1 — is every ledger row a broken symmetry? **about 6 of 10.**
+ 
+diff --git a/tests/test_b1028_freedom_ledger.py b/tests/test_b1028_freedom_ledger.py
+index 656758de5..37d549b42 100644
+--- a/tests/test_b1028_freedom_ledger.py
++++ b/tests/test_b1028_freedom_ledger.py
+@@ -130,8 +130,33 @@ OLD_ZERO = re.compile(r"0\.000\s+(?:retroactive\s+)?(?:designer\s+)?bits|zero\s+
+ ABOUT_LEDGER = re.compile(r"designer|freedom[ -]ledger|B1028", re.I)
+ 
+ 
++_A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
++
++
+ def _units(text):
+-    """what a reader takes in at once: a table's row, and a paragraph's prose joined over its line breaks"""
++    """What a reader takes in at once: a table's row; an item of a list, with the lines that continue it; and a paragraph's
++    prose joined over its line breaks.
++    CHANGED 2026-11-12 (Review 80; a reader's finding F13, not checked by main, made again here).  A list with no empty line
++    between its items was one unit, so the correction in one item excused the zero stated in another.  Each item is a unit
++    of its own now.  The lines before the first item of a paragraph are a unit, as before."""
++    for para in re.split(r"\n\s*\n", text):
++        rows = [l for l in para.split("\n") if l.lstrip().startswith("|")]
++        items, current = [], []
++        for l in para.split("\n"):
++            if l.lstrip().startswith("|"):
++                continue
++            if _A_BULLET.match(l) and current:
++                items.append(current)
++                current = []
++            current.append(l)
++        if current:
++            items.append(current)
++        for u in rows + [" ".join(i) for i in items]:
++            yield " ".join(u.split())
++
++
++def _units_as_they_were(text):
++    """the units of this sweep until 2026-11-12: a tight list was one unit.  Kept for the planted cases of the test below."""
+     for para in re.split(r"\n\s*\n", text):
+         rows = [l for l in para.split("\n") if l.lstrip().startswith("|")]
+         prose = " ".join(l for l in para.split("\n") if not l.lstrip().startswith("|"))
+@@ -145,6 +170,26 @@ def _bare_statements(text):
+     return [u for u in _units(text) if OLD_ZERO.search(u) and ABOUT_LEDGER.search(u) and MARK.lower() not in u.lower()]
+ 
+ 
++def test_a_correction_in_one_item_of_a_list_does_not_excuse_the_zero_in_another():
++    """Added 2026-11-12 (Review 80; a reader's finding F13, not checked by main, made again here).  Planted: a list whose
++    first item carries the correction and whose third states the zero; and the list as it stood on B1222's page, the
++    correction an item of its own before the item it corrects.  With a list read as one unit, as it was, neither is
++    reported.  A twin, the correction inside the item that states the zero, is not reported."""
++    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
++    bare_as_it_was = lambda text: [u for u in _units_as_they_were(text) if OLD_ZERO.search(u) and ABOUT_LEDGER.search(u) and MARK.lower() not in u.lower()]
++    another_item = "The counterexamples:\n- one thing, noted. " + note + "\n- a second thing\n- **designer freedom 0.000 bits** is a count over the chain"
++    as_it_stood = "The counterexamples:\n- a first thing\n- " + note + "\n- **designer freedom 0.000 bits** is a meta-accounting over the chain,\n  not an object vanishing at all"
++    for what, text in (("in another item", another_item), ("an item of its own before the item it corrects", as_it_stood)):
++        assert not bare_as_it_was(text), what                                    # read as one unit: not reported
++        assert len(_bare_statements(text)) == 1, what
++    twin = "The counterexamples:\n- a first thing\n- **designer freedom 0.000 bits** is a meta-accounting over the chain,\n  not an object vanishing at all\n  " + note
++    assert not _bare_statements(twin) and not bare_as_it_was(twin)
++    # the page this was found on carries the correction inside the item now, and says that it was moved
++    page = (ROOT / "frontier" / "B1222_symmetry_vanishing_thesis" / "FINDINGS.md").read_text(encoding="utf-8")
++    assert not _bare_statements(page) and "[MOVED 2026-11-12 (Review 80;" in page
++    assert sum(1 for l in page.split("\n") if l.startswith("- [CORRECTED 2026-11-11 (the audit's finding E7)")) == 0
++
++
+ def _swept():
+     """every page that could state it: the .md and .tex files under docs/, frontier/ and papers/, the five root pages, and every
+     arc's verdict line"""
+-- 
+2.43.0
+

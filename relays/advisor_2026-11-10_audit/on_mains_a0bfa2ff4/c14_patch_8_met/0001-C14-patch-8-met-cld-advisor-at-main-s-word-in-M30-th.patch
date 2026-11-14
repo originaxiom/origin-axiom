@@ -1,0 +1,148 @@
+From fdfbfae2a5d306277fb4013880ed2966e24b72fa Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Sat, 14 Nov 2026 03:56:39 +0000
+Subject: [PATCH] C14, patch 8 met (cld-advisor, at main's word in M30; the web
+ seat's cold reading of the page, its card W-C6 part 1, harvest row 1744): THE
+ PROGRAMME IN SHORT SAYS NO MORE AND NO LESS THAN ITS SOURCES IN SIX LINES
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+The web seat read docs/THE_PROGRAMME_IN_SHORT.md cold against its sources and found six lines that say more or less than
+they do. Each is met here in the words of the full account (docs/THE_PROGRAMME_SO_FAR.md), which the lock checks:
+
+1. The full account was checked line by line, in three parts, by three readers (its Appendix B), not each line by three.
+2. The grammar is not stated as fact: each of its rules has a status, most assumed, one adopted by a decision (the full
+   account says "by a ruling", a word the public face does not use), one chosen, one open (§ 2).
+3. Each allowed word (a primitive word using both letters, § 3.1), not each word; a thread is one object the principle
+   allows.
+4. The root needs four inputs, each needed: the two selectors and two of the grammar's assumptions (GM3 and GM4, in
+   plain words); and the figure-eight was named before the axioms, so the genesis is a conditional reconstruction of a
+   chosen sector, not a derivation of m004 from nothing (§ 3.3).
+5. The six mass ratios are reached only after choosing several inputs by hand or by looking at the data; and the quark
+   mixing is either missed by the rigid versions of the frame or fitted by the free ones without being specific (§ 7).
+6. Three gauge generations of chiral matter are not derived: the three of flavour is derived, and the three of gauge is
+   a selection (§ 5.1).
+
+THE LOCK, in tests/test_the_programme_so_far.py: each finding's new sentence on the page, its old wording gone, and each
+new sentence found in the full account in its words; planted, four old wordings put back one at a time, each reported
+alone. The page's own lock (a source for every line, no inner word) passes. BEFORE: on the tree before this patch, the
+new test fails. Not read cold again yet: main's M30 asks for one more cold reading before the README points to the page.
+
+0 of 19.
+---
+ docs/THE_PROGRAMME_IN_SHORT.md     | 33 ++++++++++++++++-----------
+ tests/test_the_programme_so_far.py | 36 ++++++++++++++++++++++++++++++
+ 2 files changed, 56 insertions(+), 13 deletions(-)
+
+diff --git a/docs/THE_PROGRAMME_IN_SHORT.md b/docs/THE_PROGRAMME_IN_SHORT.md
+index 106eec9b4..a48c9e92a 100644
+--- a/docs/THE_PROGRAMME_IN_SHORT.md
++++ b/docs/THE_PROGRAMME_IN_SHORT.md
+@@ -1,8 +1,9 @@
+ # The programme in short
+ 
+ *A short account in plain words; every line names where it comes from. The full account, written on 2026-10-30 and
+-checked line by line by three readers, is [`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md), and "§" below names its
+-sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
++checked line by line, in three parts, by three readers (its Appendix B), is
++[`THE_PROGRAMME_SO_FAR.md`](THE_PROGRAMME_SO_FAR.md), and "§" below names its sections. Where this page and `GENESIS.md`
++differ, `GENESIS.md` holds.*
+ 
+ ## The idea
+ 
+@@ -14,20 +15,25 @@ sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
+ 
+ ## The mathematics it builds
+ 
+-- A description is a pair of whole-number counts. Two elementary moves, L and R, each add one count to the other, so a
+-  description is a word in L and R (§ 2; `GENESIS.md` § 2).
+-- Each word acts on a torus with one point removed and builds a three-dimensional space of constant negative curvature.
+-  Each such space is called a thread, and all of them together, with the moves acting on them, the weave (§ 3;
+-  `docs/THE_WEAVE.md`).
++- To make the principle computable, the programme fixes a small grammar: a description is a pair of whole-number counts,
++  and two elementary moves, L and R, each add one count to the other, so a description is a word in L and R. Each rule
++  of the grammar has a status: most are assumed, one was adopted by a decision, one was chosen, one stays open (§ 2;
++  `GENESIS.md` § 2).
++- Each allowed word (a primitive word using both letters, § 3.1) acts on a torus with one point removed and builds a
++  three-dimensional space of constant negative curvature. Such a space, one object the principle allows, is called a
++  thread, and all of them together, with the moves acting on them, the weave (§ 3; `docs/THE_WEAVE.md`).
+ - One thread is picked out by two stated selectors, one assumed and one chosen: the figure-eight knot complement, m004,
+-  called the root (§ 3.3; `GENESIS.md` § 4).
++  called the root. It needs four inputs, each of them needed: the two selectors and two of the grammar's assumptions (that
++  the description is not periodic, and that words act on the torus with one point removed). The figure-eight was named
++  before the axioms were written, so this is a conditional reconstruction of a chosen sector, not a derivation of m004
++  from nothing (§ 3.3; `GENESIS.md` § 4).
+ 
+ ## What it has obtained
+ 
+ - Discrete facts belonging to the object: groups, counts, signs and exact numbers. Many of them would come out of any
+   comparable object, and the record marks those as generic (§ 5).
+-- A three-fold flavour structure is derived on the weave; three generations of chiral matter are not (§ 5.1;
+-  `GENESIS.md`, FK14).
++- A three-fold flavour structure is derived on the weave; three gauge generations of chiral matter are not: the three
++  of flavour is derived, and the three of gauge is a selection (§ 5.1; `GENESIS.md`, FK14).
+ - Negative results, each holding only within its stated scope: where the structure does not go (§ 6).
+ 
+ ## What it has not obtained
+@@ -36,9 +42,10 @@ sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
+   data, into particle counts or numbers. A frame is a hypothesis, and none is derived from the principle (§ 4).
+ - Reading a geometric quantity as a physical one needs a map that is exhibited and shown to act. Each reading not yet
+   earned is an input the programme has not paid for (§ 4.4; `docs/IDENTIFICATION_LEDGER.md`).
+-- In one frame the six charged-fermion mass ratios are reached, but only with inputs chosen by hand and about as much
+-  freedom as the six numbers carry, so the record grades it a reading and not a derivation. Nothing reaches the mass
+-  scales, the gauge couplings, the Higgs sector or θ (§ 7).
++- In one frame the six charged-fermion mass ratios are reached, but only after choosing several inputs by hand or by
++  looking at the data, and with about as much freedom as the six numbers carry, so the record grades it a reading and
++  not a derivation. The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones
++  without being specific. Nothing reaches the mass scales, the gauge couplings, the Higgs sector or θ (§ 7).
+ - Of the nineteen free parameters of the Standard Model, **0 of 19** are derived (`docs/MAIN_GOAL.md`).
+ 
+ ## Where it stands
+diff --git a/tests/test_the_programme_so_far.py b/tests/test_the_programme_so_far.py
+index 3affd544a..af24c7745 100644
+--- a/tests/test_the_programme_so_far.py
++++ b/tests/test_the_programme_so_far.py
+@@ -73,3 +73,39 @@ def test_the_short_page_names_a_source_for_every_line_and_uses_no_inner_word():
+     assert len(_short_problems(text.replace(" (§ 6).", ".", 1), full)) == 1
+     assert len(_short_problems(text.replace("(§ 7)", "(§ 17)", 1), full)) == 1
+     assert len(_short_problems(text.replace("`docs/THE_WEAVE.md`", "`docs/THE_WEAVES.md`", 1), full)) == 1
++
++
++# --- 2026-11-13 (main's M30; the web seat's cold reading, W-C6 part 1, harvest row 1744): six lines met ---
++
++MET = (   # (the finding, what the page said that its source did not, what it says now as its source says it)
++    (1, "checked line by line by three readers", "checked line by line, in three parts, by three readers"),
++    (2, None, "Each rule\n  of the grammar has a status: most are assumed"),
++    (3, "- Each word acts on a torus", "- Each allowed word (a primitive word using both letters, § 3.1) acts"),
++    (4, None, "It needs four inputs, each of them needed"),
++    (4, None, "a conditional reconstruction of a chosen sector, not a derivation of m004\n  from nothing"),
++    (5, "only with inputs chosen by hand", "only after choosing several inputs by hand or by\n  looking at the data"),
++    (5, None, "The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones"),
++    (6, "three generations of chiral matter are not", "three gauge generations of chiral matter are not"),
++)
++
++
++def _unmet(text):
++    """the findings of the cold reading that the page does not meet: an old wording back, or a sentence of the source gone"""
++    return sorted({n for n, old, new in MET if (old and old in text) or new not in text})
++
++
++def test_the_six_lines_of_the_cold_reading_are_met():
++    text = SHORT.read_text(encoding="utf-8")
++    assert _unmet(text) == []
++    full = " ".join(PAGE.read_text(encoding="utf-8").split())           # each new sentence is the full account's, in its words
++    for words in ("Three readers then checked it in three parts", "most are assumed, one was adopted by a ruling, one was chosen, one stays open",
++                  "Each of the four inputs is needed", "a conditional reconstruction of a chosen sector",
++                  "only after choosing several inputs by hand or by looking at the data",
++                  "The quark mixing is either missed by the rigid versions of the frame or fitted by the free ones without being specific",
++                  "three *gauge* generations of chiral matter are not", "the gauge three is a selection"):
++        assert words in full, words
++    # planted: each old wording put back, and one new sentence taken out
++    assert _unmet(text.replace("checked line by line, in three parts, by three readers", "checked line by line by three readers")) == [1]
++    assert _unmet(text.replace("only after choosing several inputs by hand or by\n  looking at the data", "only with inputs chosen by hand")) == [5]
++    assert _unmet(text.replace("three gauge generations", "three generations")) == [6]
++    assert _unmet(text.replace("It needs four inputs, each of them needed", "It needs two inputs")) == [4]
+-- 
+2.43.0
+

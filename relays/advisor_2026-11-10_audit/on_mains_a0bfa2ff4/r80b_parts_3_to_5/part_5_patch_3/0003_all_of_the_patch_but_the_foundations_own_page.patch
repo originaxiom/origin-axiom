@@ -1,0 +1,789 @@
+diff --git a/README.md b/README.md
+index e54c1cc4e..8a5ba49c8 100644
+--- a/README.md
++++ b/README.md
+@@ -20,8 +20,8 @@ nothing in this block is typed by hand.*
+ | | |
+ |---|---|
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+-| the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
+-| arcs with a verdict | 1623: 1125 PROVED, 384 NEGATIVE, 101 OPEN, 13 RETRACTED |
++| the foundations | `GENESIS.md` (v1.67) of 2026-11-12 |
++| arcs with a verdict | 1624: 1126 PROVED, 384 NEGATIVE, 101 OPEN, 13 RETRACTED |
+ | points in the register | 846: 309 open (queued work, leads, and questions not yet decided), 537 closed |
+ | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
+ | the last landing | S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE;… |
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 3d9517b4f..e6c0d54b4 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -13,8 +13,8 @@
+ 
+ | what | count |
+ |---|---|
+-| arcs with a verdict file | 1623 |
+-| … PROVED | 1125 |
++| arcs with a verdict file | 1624 |
++| … PROVED | 1126 |
+ | … NEGATIVE | 384 |
+ | … OPEN | 101 |
+ | … RETRACTED | 13 |
+diff --git a/docs/views/COVERAGE.md b/docs/views/COVERAGE.md
+index 452f8bf2b..428bebd12 100644
+--- a/docs/views/COVERAGE.md
++++ b/docs/views/COVERAGE.md
+@@ -10,8 +10,8 @@ view can quietly imply completeness it does not have.
+ 
+ | layer | count | of | share |
+ |---|---|---|---|
+-| arcs with `FINDINGS.md` | **1623** | — | 100 % |
+-| arcs with an authored verdict (W1) | **1623** | 1623 | 100.0 % |
++| arcs with `FINDINGS.md` | **1624** | — | 100 % |
++| arcs with an authored verdict (W1) | **1624** | 1624 | 100.0 % |
+ | classified in `kill_graph` | **860** | — | — |
+ | kill records resolving to an arc | **813** | 860 | 95 % |
+ | kill records with no arc directory | **47** | 860 | 5 % |
+@@ -37,5 +37,5 @@ block against 19 % of the rest, so the title heuristic *anti*-correlates with di
+ | stratum | meaning | count | share |
+ |---|---|---|---|
+ | **A** | explicit `## Verdict` block — directly extractable | 221 | 13.6 % |
+-| **B** | no block, but the title carries the verdict | 1380 | 85.0 % |
++| **B** | no block, but the title carries the verdict | 1381 | 85.0 % |
+ | **C** | neither — genuinely hard, needs a full read | 22 | 1.4 % |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index f24b35531..b22c480eb 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -19,10 +19,10 @@ result, not the debt.
+ 
+ | | |
+ |---|---|
+-| research arcs with findings | **1623** |
+-| words of findings prose | **1,447,456** |
++| research arcs with findings | **1624** |
++| words of findings prose | **1,448,672** |
+ | test lock files referenced | **944** |
+-| arcs carrying an authored verdict | **1623** (100.0 %) |
++| arcs carrying an authored verdict | **1624** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+ 
+ **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
+@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
+ 
+ | verdict | arcs |
+ |---|---|
+-| PROVED | 1125 |
++| PROVED | 1126 |
+ | NEGATIVE | 384 |
+ | OPEN | 101 |
+ | RETRACTED | 13 |
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index c170c6d87..765d4c50d 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -5,10 +5,10 @@
+ 
+ # Arc verdict ledger (generated)
+ 
+-1623 of 1623 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
++1624 of 1624 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+ 
+ 
+-## PROVED (1125)
++## PROVED (1126)
+ 
+ | arc | claim | instrument | locks |
+ |---|---|---|---|
+@@ -1120,6 +1120,7 @@
+ | `B1896` | THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what stood) VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED AS SENT. 17 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT, each by the gate that looks for the fault (the controls' register pointed elsewhere, four forms; a retracted phrase in a .tex file and in capitals; a banned phrase over two lines, in .rst and .html, with a double and a no-break space, in a root .txt; a proven row with no lock, three forms; four tests in which no assert can fail), and the gap main's case found in the first series is closed: a repository with no commit is refused by all 24 gates that read the tree or the history. FIVE PASS: a retracted phrase with a line break in its middle, the sweep choosing its phrases on the flattened file and then searching line by line; a test whose only assert calls a builtin on literals, in tests/ and in an arc's own lock, where the seat's note says its class stops; an only assert under a condition that is never true; a test whose whole body expects an exception from a literal expression. OF FIVE CASES MAIN WROTE AFTER READING THE PATCHES THREE PASS: a row of the claims page's locked tables that cites a folder named like a test file; a pair of names bound to literals in one line and compared; a name bound twice to one literal. None is opened by the series, each passing without it; all go to the seat (P-820), with a request that the five tables of what is held by name grow only by a recorded act. WHAT THE SEAT SAID OF ITS PATCHES IS WHAT MAIN FOUND: each patch's lock fails on the commit before it in the seat's numbers (6, 5, 4, 2, 8, 4); the three locks of the series pass on its end (72); all 53 gates pass there with the views generated; main's own 47 test files that name a gate pass (385, 3 skipped); the planted suite of 32 cases, run by main, catches 24, where the end of the second series caught 19, with its controls 5 of 5. One test failed once in one run of fifty and was not seen again in three reruns; its cause is not known. MAIN'S WORD ON THE NINETEEN UNQUOTED ROWS OF THE REGISTRY OF RETRACTED PHRASES, which the seat asked for: its proposal as sent, the stricter option, seventeen swept and two held by name as readings; the registry's two notes rewritten, each keeping what it said; an old debt paid (P-154): the sweep reads 54 rows, 46 swept and 8 that take back a reading. MENDED BY MAIN AT THE LANDING: B1632's claim line leads with the correction it had carried at its end, and the row of the paper's page that showed its first words carries it; the seat's table of standing lines shortened by that line, to eleven; a test of B1890 whose name still said the gap was there renamed. 0 of 19. | yes | 3 |
+ | `B1897` | B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (an instrument arc; no mathematics computed). B1895 rebuilt the lock and main's own eighteen planted reversions were all caught; a session that did not write it then planted 23 of its own against the lock as it stood at 3c5ab6bef, the eighteen new ones written before it opened the lock: its five earlier plants are caught, twelve of the eighteen are caught, every direct reversion of a mend among them, and six pass. THE SIX leave the mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; the docstring of the script's second function given the withdrawn word, where the lock read the header; the script's counts typed in place of computed, where the lock read the committed file and its scan saw a constant and not a table of constants; the committed run file edited where the lock did not read it; a clause that is not a literal and is always true joined by `or` to two conditions; the sorting of a printed set undone. EACH IS REAL AND EACH IS CLOSED: the lock runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and, under others, to eight digits with the same checks; the mended conditions and one printed detail are held word for word; the scan sees a table of constants and the three counts are held to the expressions that compute them; the function's own docstring is read, and every line of the script and every paragraph of the page that holds the withdrawn word. Made again by main from the reader's descriptions, with the eighteen of B1895: the lock catches 24 of 24, the control passing; 6 of 6 of the reader's quotations found by machine. WHAT IS NOT CLOSED and is said in the lock: a withdrawn claim restated without its word (P-817). WHAT IT SHOWS: a lock tested only by its author is tested against what its author thought of; a lock that reads a committed output does not hold that the script still computes it. The reader is asked to run its own 23 against the lock as it now stands. 0 of 19. | yes | 0 |
+ | `B1898` | [CORRECTED 2026-11-13 (Review 81, the SM seat's finding 04: five things of the first 43 are owed and not built, as FINDINGS says; the words below are kept] REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits) [CORRECTED 2026-11-12 at the landing, by main; found first by a reading on another family of model, in its check of main's answers: THAT PLANT CHANGED NOTHING. Its pattern was written for the verdict line as it read before main's mend of the same day, so nothing was taken out and the lock was run on an unchanged arc. With the note in fact taken out, the lock fails. Row A14 stands; what was wrong is main's script, which does not ask that a plant change its file]. The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19. |  | 0 |
++| `B1904` | THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS, NO ITEM ADDED AND NO STATUS CHANGED. One of the seven stood in the status cell of row FK13, in the bracket after its label: the account is reworded and the label is as it was. The locks of versions 1.65 and 1.66 compare a row that a version names by its label, and this arc's lock holds the cell's new words by their hash. Found by a session that built none of it, checked by main. 0 of 19. |  | 0 |
+ | `B1906` | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (q_L + q_R)w (that is 3w in every sector) and one at (q_L - q_R)w, and each normalised kernel depends only on its characteristic (P-262's residue law by duplication; the identity checked at 30 digits, three planted forms fail). THE EXACT ZERO LAW OF EVERY RESIDUE (3,192 of 3,192 on the lines of order 1 to 12) gives B1703's zero at N | 3 and B1701's 27 tied lines. P-268'S PAIRING LAW IS PROVED for every line it applies to, all of order 4 or 12 (132 of 132 pairs with ratio +-i exactly). det M's zero law on every line of order 1 to 12 is the residues' isotropy plus u -> -u or, on Re tau = 0, the rectangular mirror (798 of 798 at each of three tau); P-292's family is the 16 order-12 lines with 12 alpha and 12 beta odd. The agy lane's Theorem E, its Theorem C (a 3 occurs over m004's degree-2 field in three ways) and its Theorem A's level-1 part (sigma = 1 holds for A6, D6 and E6, three primaries for E6 alone) are verified on main's own code; its Theorem D is not computed while the hold on the targets stands. No data. 0 of 19. |  | 0 |
+ | `B1910` | THE AGY LANE'S BRIDGE NOTE ON P-321, CHECKED ON MAIN, EXACTLY: THE QUATERNION POINT EXCLUDES THE ABELIAN CARRIER (where [a,b] = 1 and its trace is +2), BUT A NILPOTENT CARRIER CARRIES IT (H3(Z) through Q8), SO NARROWING TO THE FREE GROUP NEEDS ITS OWN PREMISE, THAT ITERATED COMMUTATORS DO NOT CANCEL; and the orientation-reversing moves (the swap and the tick's LP) send a Heisenberg sector's central character to its conjugate, so a single irreducible sector is kept exactly at p = 2 (Q8 in SU(2)) while the conjugate pair is kept at every p: 'the prime is 2' holds under the premise of a single sector. 25 checks, none failing. 0 of 19. |  | 0 |
+ | `B1911` | THE PHYSICAL LANE'S ELLIPTIC COMPLEX AND FERMION MASS MAP HOLD AS ALGEBRA ON MAIN'S OWN CODE (WP-2.1, its first part): the complex closes exactly when Dbar q = Dbar r = [q,r] = 0 (D1 D0 and D2 D1 are those obstruction terms identically); D0+ and D2+ are the adjoints in the declared metrics, with t's weight 2 derived where the page's is masked; the gauge-fixed potential is |D0+ x|^2 + |D1 x|^2 - k|x|^2 (the D-moment and gauge condition are the Hermitian parts of Dz a - 2i Omega P, and the soft term is -k times the whole kinetic norm); the mass map is M = Uout T Uin row by row, with Uin and Uout isometries exactly for the fermion densities (Omega^2, 1/2, Omega, Omega), the four that two of the lane's files list as three; the h = 1 cusp block follows from the complex. 18 checks, none failing, four planted forms caught. The analysis on the punctured surface is not tested here. 0 of 19. |  | 0 |
+diff --git a/frontier/B1858_the_closure_map/NODES.json b/frontier/B1858_the_closure_map/NODES.json
+index c9866898d..c33948c20 100644
+--- a/frontier/B1858_the_closure_map/NODES.json
++++ b/frontier/B1858_the_closure_map/NODES.json
+@@ -535,7 +535,7 @@
+   "note": "",
+   "rows_live": {},
+   "weave_or_thread": "weave",
+-  "genesis_status_cell": "**[v1.13] RULED BY THE PRINCIPLE** (main B1480; the owner, 2026-10-07: \"it's not up to me,"
++  "genesis_status_cell": "**[v1.13] RULED BY THE PRINCIPLE** (main B1480; the owner, 2026-10-07: it is not his to de"
+  },
+  {
+   "id": "G:FK14",
+diff --git a/frontier/B1886_the_foundation_at_version_1_65/verification/build_status_cells.py b/frontier/B1886_the_foundation_at_version_1_65/verification/build_status_cells.py
+index 7f09f7b31..e26db1b50 100644
+--- a/frontier/B1886_the_foundation_at_version_1_65/verification/build_status_cells.py
++++ b/frontier/B1886_the_foundation_at_version_1_65/verification/build_status_cells.py
+@@ -74,6 +74,31 @@ def unspaced_table_lines(text):
+     return [l for l in text.split("\n") if l.lstrip().startswith("|") and l.count("|") >= 3 and " | " not in l and not set(l.replace("|", "").replace(" ", "")) <= set("-:")]
+ 
+ 
++# ADDED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18 to the builder).  What the locks of
++# versions 1.65 and 1.66 protect is that no row's STATUS changes without a version saying so.  The status is the cell's
++# LABEL: the cell up to its first round bracket.  The words in the bracket after it are an account.  A version that changes
++# the account of a cell and not its label names the row here, with its reason.  For a named row the two locks compare the
++# label with the snapshot's and hold nothing more; the version's own lock holds the cell's new words.  A name added here
++# loosens both locks, so the lock of the version that adds it counts this table.
++NAMED_BY_A_VERSION = {      # the row -> (the version, its arc, why the words of its status cell changed)
++    "FK13": ("v1.67", "B1904", "the account in its bracket quoted the owner and is put in plain words; its label is as it was"),
++}
++
++
++def label(cell):
++    """the status a cell states: the cell up to its first round bracket.  A cell with no bracket is its own label."""
++    return cell.split("(", 1)[0].strip()
++
++
++def differs(key, was, now):
++    """whether a row's status cell differs from a snapshot's: the whole cell; or, where a version names the row, its label.
++    `key` is the row's identifier, or its table's header and its first cell."""
++    if now is None:
++        return True
++    words = key.split(" :: ")[-1].split()
++    return label(was) != label(now) if words and words[0] in NAMED_BY_A_VERSION else was != now
++
++
+ def snapshot(commit):
+     def git(*a):
+         r = subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True, text=True)
+diff --git a/frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py b/frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py
+index a9c14aa5e..2b8e44354 100644
+--- a/frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py
++++ b/frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py
+@@ -52,8 +52,17 @@ def test_no_status_cell_of_an_existing_item_changed():
+     assert len(old) == 29                                                                     # the rows of v1.64 that open with an identifier: a fixed commit, so a fixed count
+     assert {"PF1", "PF2", "PF3", "GM1", "GM5c", "GM5d", "SE1", "SE2", "T-ROOT", "FK1", "FK2", "FK3", "FK9", "FK15"} <= set(old)
+     assert set(new) - set(old) == {"PF5", "SE3", "FK16"}                # the three new items, and no other
+-    changed = {k: (old[k], new[k]) for k in old if old[k] != new.get(k)}
+-    assert changed == {}, changed
++    # CHANGED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18).  It read:
++    #     changed = {k: (old[k], new[k]) for k in old if old[k] != new.get(k)}
++    #     assert changed == {}, changed
++    # Version 1.67 puts the account in the bracket of FK13's status cell in plain words, and its label is as it was.  What
++    # this lock protects is that no STATUS changes without a version saying so, and the status is the cell's label.  So a
++    # row that a version names (NAMED_BY_A_VERSION, beside the snapshot's builder) is compared by its label, and every other
++    # row by its whole cell, as before.  The message names the rows and not their cells: a cell of the snapshot can hold
++    # words that are printed nowhere.
++    bs = _the_builder()
++    changed = sorted(k for k in old if bs.differs(k, old[k], new.get(k)))
++    assert changed == [], changed
+     assert old["GM5c"] == new["GM5c"] == "OPEN" and old["SE2"] == new["SE2"] == "CHOSEN" and new["FK2"] == "CHOSEN" and new["FK3"] == "OPEN"
+ 
+ 
+@@ -101,6 +110,24 @@ def test_the_arc_says_what_it_does_not_do():
+     assert v["id"] == "B1886" and v["claim_one_line"].endswith("0 of 19.")
+ 
+ 
++def _the_builder():
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("build_status_cells_for_b1886", pathlib.Path(__file__).resolve().parent / "build_status_cells.py")
++    bs = importlib.util.module_from_spec(spec); spec.loader.exec_module(bs)
++    return bs
++
++
++def _rows_that_moved_from_version_1_64(text):
++    """the rows of version 1.64, of both kinds, whose status is not what it was in the text given: the whole cell, or the label
++    alone for a row that a version names (added 2026-11-12 with version 1.67, so that the arc B1904 can plant against this
++    lock's own comparison)"""
++    bs = _the_builder()
++    a = json.loads((pathlib.Path(__file__).resolve().parent / "status_cells.json").read_text(encoding="utf-8"))["v1.64"]
++    live, live_ident = bs.status_table_rows(text), bs.identifier_rows(text)
++    return (sorted(key for key, cell in a["status_table_rows"].items() if bs.differs(key, cell, live.get(key)))
++            + sorted(key for key, cell in a["identifier_rows"].items() if bs.differs(key, cell, live_ident.get(key))))
++
++
+ def test_every_status_cell_of_both_kinds_of_row_at_both_versions():
+     """Added 2026-11-12 (Review 79).  The findings said the lock compares "them all" with the committed v1.64.  It read the 29 rows
+     that open with an identifier and not the foundation's other tables that carry a status; a reader's own route found 19 such
+@@ -129,12 +156,17 @@ def test_every_status_cell_of_both_kinds_of_row_at_both_versions():
+     # LIVE foundation was held to v1.64 for the rows that open with an identifier only: a status changed in one of its other
+     # tables passed every line of this lock.  Both kinds are now held on the live page.  A later version that changes a status
+     # cell on purpose names the row here, with its arc.
+-    CHANGED_SINCE = {}                                              # row key -> the arc that changed its status cell; empty at version 1.66
++    CHANGED_SINCE = {}                                              # row key -> the arc that changed its status cell; empty at version 1.66, and at 1.67
+     live = bs.status_table_rows(G)
+-    moved = {key: (cell, live.get(key)) for key, cell in a["status_table_rows"].items() if live.get(key) != cell and key not in CHANGED_SINCE}
+-    assert moved == {}, moved
+-    live_ident = bs.identifier_rows(G)
+-    assert {key for key, cell in a["identifier_rows"].items() if live_ident.get(key) != cell and key not in CHANGED_SINCE} == set()
++    # CHANGED 2026-11-12 (version 1.67, arc B1904; main's word in its M18).  These lines read:
++    #     moved = {key: (cell, live.get(key)) for key, cell in a["status_table_rows"].items() if live.get(key) != cell and key not in CHANGED_SINCE}
++    #     assert moved == {}, moved
++    #     live_ident = bs.identifier_rows(G)
++    #     assert {key for key, cell in a["identifier_rows"].items() if live_ident.get(key) != cell and key not in CHANGED_SINCE} == set()
++    # A row named in CHANGED_SINCE was not compared at all.  No status has changed, so that table stays empty.  A row whose
++    # ACCOUNT a version changed is named beside the snapshot's builder, and is compared by its label.
++    assert CHANGED_SINCE == {} and _rows_that_moved_from_version_1_64(G) == []
++    assert bs.NAMED_BY_A_VERSION.keys() == {"FK13"} and bs.label("OPEN") == "OPEN" and bs.label("**A B** (an account (with a bracket))") == "**A B**"
+     assert bs.unspaced_table_lines(G) == []
+     # that these can fail: a status changed in a table without identifiers, and a table written without spaces
+     row = next(key for key in a["status_table_rows"] if not IDENT_FIRST.match(key.split(" :: ")[1]))
+diff --git a/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py b/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
+index 6fe9a2a73..16ea2cdb0 100644
+--- a/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
++++ b/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
+@@ -30,12 +30,20 @@ def test_no_status_cell_changed_from_version_1_65():
+     assert len(snap["identifier_rows"]) == 32 and len(snap["status_table_rows"]) == 21
+     for kind, now in (("identifier_rows", now_id), ("status_table_rows", now_tab)):
+         gone = sorted(set(snap[kind]) - set(now))
+-        changed = {k: (snap[kind][k], now[k]) for k in snap[kind] if k in now and snap[kind][k] != now[k]}
+-        assert gone == [] and changed == {}, (kind, gone, changed)
++        # CHANGED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18).  It read:
++        #     changed = {k: (snap[kind][k], now[k]) for k in snap[kind] if k in now and snap[kind][k] != now[k]}
++        #     assert gone == [] and changed == {}, (kind, gone, changed)
++        # Version 1.67 puts the account in the bracket of FK13's status cell in plain words; its label is as it was.  What
++        # this lock protects is that no STATUS changes without a version saying so.  A row that a version names (beside
++        # the snapshot's builder) is compared by its label, every other row by its whole cell.  The message names rows,
++        # not cells: a cell of the snapshot can hold words that are printed nowhere.
++        changed = sorted(k for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k]))
++        assert gone == [] and changed == [], (kind, gone, changed)
+     assert set(now_id) == set(snap["identifier_rows"])                      # and no item is added
+     # that this can fail: a cell changed in what is read now is reported
+     planted = dict(now_id, SE2="DERIVED")
+-    assert [k for k in snap["identifier_rows"] if snap["identifier_rows"][k] != planted.get(k)] == ["SE2"]
++    # (2026-11-12, version 1.67: compared as the lines above compare.  It read: snap["identifier_rows"][k] != planted.get(k))
++    assert [k for k in snap["identifier_rows"] if bs.differs(k, snap["identifier_rows"][k], planted.get(k))] == ["SE2"]
+ 
+ 
+ # ---- Review 80 (2026-11-12; a reader's finding F6, its second part, not checked by main, made again here).  The test above
+@@ -74,7 +82,7 @@ def _what_differs_from_version_1_65(text):
+     out = []
+     for kind, now in (("identifier_rows", bs.identifier_rows(text)), ("status_table_rows", bs.status_table_rows(text))):
+         out += ["%s: gone: %s" % (kind, k) for k in sorted(set(snap[kind]) - set(now))]
+-        out += ["%s: changed: %s" % (kind, k) for k in snap[kind] if k in now and snap[kind][k] != now[k]]
++        out += ["%s: changed: %s" % (kind, k) for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k])]      # until version 1.67: snap[kind][k] != now[k]
+         out += ["%s: added: %s" % (kind, k) for k in sorted(set(now) - set(snap[kind]))]
+     out += ["a row that is not read, at line %d" % n for n in _rows_that_are_not_read(text)]
+     return out
+@@ -85,7 +93,7 @@ def _as_the_test_above_compares(text):
+     bs, snap = _the_snapshots_builder()
+     now_id, now_tab = bs.identifier_rows(text), bs.status_table_rows(text)
+     for kind, now in (("identifier_rows", now_id), ("status_table_rows", now_tab)):
+-        if sorted(set(snap[kind]) - set(now)) or {k for k in snap[kind] if k in now and snap[kind][k] != now[k]}:
++        if sorted(set(snap[kind]) - set(now)) or {k for k in snap[kind] if k in now and bs.differs(k, snap[kind][k], now[k])}:      # until version 1.67: the whole cell
+             return False
+     return set(now_id) == set(snap["identifier_rows"])
+ 
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/FINDINGS.md b/frontier/B1904_the_foundation_at_version_1_67/FINDINGS.md
+new file mode 100644
+index 000000000..5f9b572a5
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/FINDINGS.md
+@@ -0,0 +1,118 @@
++# B1904 — The foundation at version 1.67: seven passages that quoted the owner are in plain words
++
++*2026-11-12 (S306p). Wording only; no computation is made here and no measured number is read. The seven pairs of
++passages are main's, from its script of Review 80, which stands as main wrote it in the arc B1898. This page, the
++script that applies them and the lock were put together by the building session, under the direction entered as
++register row P-832 and at main's word in its messages M17 and M18 to that session; main lands the arc after its own
++check. 0 of 19.*
++
++## 1. The answer first
++
++- **Seven passages of the foundation gave the owner's sentences in quotation marks. Each is now in plain words.**
++  No item is added. No status changes.
++- **The words of one status cell change, and its label does not.** Row FK13's status cell is a label followed by an
++  account in a bracket. One of the seven passages stood in that bracket. The label is as it was.
++- **Who found them.** The web seat, in its reading for Review 80 (its finding 7). Main checked it and wrote the plain
++  words.
++- **What it does to the count of inputs.** Nothing.
++
++## 2. The seven passages
++
++No passage is written on this page, in its old form or its new: the old form is the owner's, and a governing page
++quotes nothing he said (register row P-796). Each is named by where it stood.
++
++| passage | where | in a status cell |
++|---|---|---|
++| 1 | the row of FK9 | no |
++| 2 | the row of FK13 | no |
++| 3 | the row of FK13 | **yes: in the bracket after the label** |
++| 4 | the row of FK15 | no |
++| 5 | § 7 | no |
++| 6 | § 8 | no |
++| 7 | § 8 | no |
++
++The list of versions at the end of the foundation is a dated record and keeps what it wrote.
++
++## 3. What a status is, and how the three locks read FK13's cell
++
++This is main's rule, from its message M18.
++
++- **A status is the cell's label:** the cell up to its first round bracket. The words in the bracket are an account.
++- **The locks of versions 1.65 and 1.66 protect that no status changes without a version saying so.** Each compared
++  the whole cell with its snapshot, and so each failed on this version. Each now compares the whole cell of every
++  row but those a version names, and for a named row it compares the label and holds nothing more.
++- **Version 1.67 names one row, FK13,** with its reason. The table of named rows stands beside the builder of the
++  snapshot, and both locks read it. A name added to it loosens both; this arc's lock counts the table.
++- **This arc's lock holds FK13's new words by their hash,** holds that its label is the label of version 1.65, and
++  holds every other status cell to that version.
++
++## 4. What was checked
++
++- **Each of the seven passages stands nowhere in the foundation, and its plain words stand once** and hold no
++  quotation mark. The lock reads the pairs from main's own file.
++- **Main's file is the one the arc B1898 holds by its hash.** This arc's script and lock hold no passage.
++- **The three locks, against planted changes** (main's two, and two more):
++
++  | planted | the lock of 1.65 | the lock of 1.66 | this lock |
++  |---|---|---|---|
++  | the label of FK13 changed | fails | fails | fails |
++  | the bracket of another row, FK1, changed | fails | fails | fails |
++  | the bracket of FK13 changed again, its label as it was | passes, by the rule | passes, by the rule | fails |
++  | the name FK13 taken out of the table of named rows | the row differs again | the row differs again | — |
++
++- **The script, run on version 1.66 as git holds it, writes a text with this version's status cells; run a second
++  time, it refuses.**
++- **The map's pins into the foundation still hold** (the map's builder checks each quoted phrase).
++
++## 5. What goes back to main
++
++- **Main's script said that no status cell changes,** above its pairs and in the entry it wrote for the list of
++  versions. That is wrong by one cell. The entry now says that no status changes and that the words of one status
++  cell do, at main's word.
++- **Main's script did not move the line that names the version.** Each version before moved it. This arc's script
++  moves it to 1.67.
++- **Main's script printed the first 90 characters of each passage it replaces.** This arc's script prints a
++  passage's number.
++- **Main's script is not changed.** It stands byte for byte in B1898 and in main's folder, where B1898's lock holds
++  it. This arc's script loads its pairs from there, so that the owner's words stand in no new file.
++
++## 6. What is not done
++
++- **Whether the foundation quotes the owner anywhere else was not counted here.** The seven are the ones main's
++  script holds.
++- **The kept copies of the foundation's older versions hold the passages as they were.** They are dated records of
++  what was received, and are not touched. Whether a dated record may keep them is the owner's ruling to read, and
++  main's to say.
++- **The third row of the table in § 4 is a pass by design.** After this version the two older locks no longer hold
++  the words of FK13's bracket. Only this arc's lock does.
++- **The plain words are main's and were not reworded here.**
++
++## Seen first
++
++Not a result about the object: a correction of wording. The reading is Review 80's own, by a session that built
++none of what it read.
++
++**The sweep of the repository:** every tracked file that reads as text was read for each of the seven passages as it
++stood (`verification/sweep_for_the_seven_passages.py`; its output is kept beside it). No living page holds one. Each
++stands in the copies of the foundation's older versions that the arcs keep as they received them (between 17 and 57
++files for a passage), which are dated records, and one is found in main's script, which holds the pairs. No file of
++another kind holds one.
++
++**The literature:** not searched. Nothing of the mathematics is stated here that was not stated before.
++
++## Disclosed
++
++- **Main wrote the passages that are replaced, and the plain words that replace them.** It did not find the fault; a
++  reader did.
++- **Version 1.66 stood for less than a day.**
++- **The building session stopped once on this arc** and sent it back to main, because four tests of the two older
++  locks failed on main's script as written. What is built here is main's answer.
++
++## Reproduce
++
++```
++python3 -m pytest -q frontier/B1904_the_foundation_at_version_1_67/verification/ frontier/B1891_the_foundation_at_version_1_66/verification/ frontier/B1886_the_foundation_at_version_1_65/verification/
++python3 frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py     # refuses: the passages are no longer there
++python3 frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages.py
++python3 frontier/B1858_the_closure_map/verification/build_map.py
++```
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/arc_verdict.json b/frontier/B1904_the_foundation_at_version_1_67/arc_verdict.json
+new file mode 100644
+index 000000000..0d0c14756
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/arc_verdict.json
+@@ -0,0 +1,28 @@
++{
++ "id": "B1904",
++ "verdict": "PROVED",
++ "instrument": false,
++ "creates_law": false,
++ "identifications": [],
++ "depends_on": [
++  "B1891",
++  "B1886",
++  "B1898"
++ ],
++ "rests_on_seat": [],
++ "cites_seat": [
++  "the web seat: its finding 7 of Review 80 (relays/REVIEW_80_CHAT1.md @ 3c0689af4), checked by main",
++  "the builder of the enforcement package (cld-advisor): this arc, put together from main's script and at main's word"
++ ],
++ "supersedes": null,
++ "superseded_by": null,
++ "authored_by": "cc (the seven pairs of passages and the rule for the locks); put together as an arc by the building session, cld-advisor (register row P-832)",
++ "scope": {
++  "frame": "none (the foundation's statement)",
++  "object": "GENESIS.md at version 1.67",
++  "reach": "general",
++  "hypotheses": "wording only; no computation is made here. A status is read as the cell's label, the cell up to its first round bracket. Not covered: any other quotation of the owner that may stand in the foundation, which was not counted."
++ },
++ "claim_one_line": "THE FOUNDATION AT VERSION 1.67: SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS, NO ITEM ADDED AND NO STATUS CHANGED. One of the seven stood in the status cell of row FK13, in the bracket after its label: the account is reworded and the label is as it was. The locks of versions 1.65 and 1.66 compare a row that a version names by its label, and this arc's lock holds the cell's new words by their hash. Found by a session that built none of it, checked by main. 0 of 19.",
++ "weave_or_thread": "n/a (wording of the foundation; no result is restated)"
++}
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages.py b/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages.py
+new file mode 100644
+index 000000000..7138b45a6
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages.py
+@@ -0,0 +1,54 @@
++#!/usr/bin/env python3
++"""B1904 -- where the seven passages still stand as they were, in every tracked text file.
++
++Main's pairs are read from main's own file in the arc B1898.  For each passage, the tracked files that hold it in its old
++form are counted by kind.  Nothing of a passage is printed: its number, and the counts.
++
++    python3 sweep_for_the_seven_passages.py        # prints the table kept in sweep_for_the_seven_passages_out.txt
++"""
++import collections
++import importlib.util
++import pathlib
++import re
++import subprocess
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++KEPT_COPY = re.compile(r"^frontier/[^/]+/received/GENESIS_v1_\d+[^/]*\.md$")          # a version of the foundation as it was received, kept in its arc
++
++
++def kind(rel):
++    if KEPT_COPY.match(rel):
++        return "a kept copy of an older version of the foundation"
++    if rel.endswith("checks/genesis_v1_67.py"):
++        return "main's script, which holds the pairs"
++    return "ANOTHER FILE: " + rel
++
++
++def sweep():
++    spec = importlib.util.spec_from_file_location("write_version_1_67_for_the_sweep", HERE / "write_version_1_67.py")
++    w = importlib.util.module_from_spec(spec); spec.loader.exec_module(w)
++    edits = w.mains().EDITS
++    names = [f for f in subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True).stdout.split("\n") if f]
++    found = [collections.Counter() for _ in edits]
++    read = 0
++    for rel in names:
++        try:
++            text = (ROOT / rel).read_text(encoding="utf-8")
++        except (OSError, UnicodeDecodeError):
++            continue
++        read += 1
++        flat = " ".join(text.split())
++        for n, (old, _new) in enumerate(edits):
++            if old in text or " ".join(old.split()) in flat:
++                found[n][kind(rel)] += 1
++    return read, found
++
++
++if __name__ == "__main__":
++    read, found = sweep()
++    print("tracked files read as text: %d" % read)
++    for n, c in enumerate(found, 1):
++        print("passage %d, as it was: %s" % (n, "; ".join("%d x %s" % (k, what) for what, k in sorted(c.items())) or "nowhere"))
++    others = sorted({what for c in found for what in c if what.startswith("ANOTHER FILE")})
++    print("files of another kind that hold a passage as it was: %d" % len(others))
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages_out.txt b/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages_out.txt
+new file mode 100644
+index 000000000..dfb1413a2
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/verification/sweep_for_the_seven_passages_out.txt
+@@ -0,0 +1,9 @@
++tracked files read as text: 17192
++passage 1, as it was: 57 x a kept copy of an older version of the foundation
++passage 2, as it was: 50 x a kept copy of an older version of the foundation
++passage 3, as it was: 49 x a kept copy of an older version of the foundation
++passage 4, as it was: 17 x a kept copy of an older version of the foundation; 2 x main's script, which holds the pairs
++passage 5, as it was: 57 x a kept copy of an older version of the foundation
++passage 6, as it was: 56 x a kept copy of an older version of the foundation
++passage 7, as it was: 51 x a kept copy of an older version of the foundation
++files of another kind that hold a passage as it was: 0
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py b/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py
+new file mode 100644
+index 000000000..be2c0aec1
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py
+@@ -0,0 +1,177 @@
++"""B1904 lock -- the foundation at version 1.67.
++
++What could fail: the version or its log entry missing or out of order; a passage in which the owner was quoted standing
++again, or its plain words gone; the status cell of row FK13 holding other words than this version wrote, or another
++label than it had; any other status cell differing from version 1.65; a row named to the two older locks that this
++version does not name.  No passage is written in this file: main's pairs are read from the arc B1898, where main's script
++is held by its hash, and a failing assert names a passage by its number."""
++import hashlib
++import importlib.util
++import json
++import pathlib
++import re
++
++ROOT = pathlib.Path(__file__).resolve().parents[3]
++ARC = pathlib.Path(__file__).resolve().parents[1]
++HERE = pathlib.Path(__file__).resolve().parent
++G = (ROOT / "GENESIS.md").read_text(encoding="utf-8")
++B1886 = ROOT / "frontier" / "B1886_the_foundation_at_version_1_65" / "verification"
++B1891 = ROOT / "frontier" / "B1891_the_foundation_at_version_1_66" / "verification"
++
++FK13_AS_THIS_VERSION_WROTE_IT = "46d45c186e0537d7e2db4cf7aa301cbac4037336595c5a4b41c11a7646543f89"      # sha256 of the status cell's text
++FK13_LABEL = "**[v1.13] RULED BY THE PRINCIPLE**"
++VERSION_1_66_AS_GIT_HOLDS_IT = "f7730d1d71a2a6040a0a6d11f24663d03d641fe5"                              # the blob of GENESIS.md at version 1.66
++MARKS = '"“”‘’«»'
++
++
++def _load(name, path):
++    spec = importlib.util.spec_from_file_location(name, path)
++    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
++    return m
++
++
++def _bs():
++    return _load("build_status_cells_for_b1904", B1886 / "build_status_cells.py")
++
++
++def _snapshot():
++    return json.loads((B1886 / "status_cells.json").read_text(encoding="utf-8"))["v1.65"]
++
++
++def _writer():
++    return _load("write_version_1_67_for_b1904", HERE / "write_version_1_67.py")
++
++
++def test_the_version_and_its_log_entry():
++    assert int(G.split("**Version 1.")[1].split()[0]) >= 67 and G.count("**Version 1.") == 1          # the version only moves forward
++    assert re.search(r"(?m)^- \*\*v1\.67 · 2026-11-12 · main B1904\.\*\*", G)
++    assert G.index("- **v1.67 · ") < G.index("- **v1.66 · ") < G.index("- **v1.65 · ")
++    entry = G[G.index("- **v1.67 · "):G.index("- **v1.66 · ")]
++    assert "No item is added and no status changes: the words of one status cell change (row FK13:" in entry
++    assert "its label is as it was" in entry and "no status cell changes" not in entry               # the sentence main's script first wrote is not in it
++    assert "B[[N]]" not in G
++
++
++def test_the_seven_passages_are_in_plain_words():
++    """main's seven pairs, read from main's own file: the passage that quoted the owner stands nowhere, and its plain words
++    stand once and hold no quotation mark"""
++    beside_mains = _writer().MAINS.parent / "__pycache__"
++    there = beside_mains.exists()
++    m = _writer().mains()
++    assert beside_mains.exists() == there, "reading main's pairs left a folder beside main's files, which the lock of B1898 counts"
++    assert len(m.EDITS) == 7
++    for number, (old, new) in enumerate(m.EDITS, 1):
++        assert G.count(old) == 0, "passage %d stands in the foundation as it was" % number
++        assert G.count(new) == 1, "the plain words of passage %d stand %d time(s)" % (number, G.count(new))
++        assert sum(old.count(q) for q in MARKS) >= 2 and not any(q in new for q in MARKS), "passage %d" % number
++    # main's file is the one the arc B1898 holds by its hash, and this arc's script holds no passage of its own
++    held = json.loads((ROOT / "frontier" / "B1898_review_80_one_hundred_findings_and_what_main_checked" / "verification" / "as_main_wrote_them.json").read_text(encoding="utf-8"))
++    assert hashlib.sha256(_writer().MAINS.read_bytes()).hexdigest() == held["verification/checks/genesis_v1_67.py"]
++    mine = (HERE / "write_version_1_67.py").read_text(encoding="utf-8") + pathlib.Path(__file__).read_text(encoding="utf-8")
++    for number, (old, new) in enumerate(m.EDITS, 1):
++        assert old not in mine and new not in mine, "passage %d is written in this arc's own files" % number
++
++
++def _what_this_lock_holds_of_the_status_cells(text):
++    """every way the status cells of a text are not what this version left: FK13's words, FK13's label, any other cell"""
++    bs, snap = _bs(), _snapshot()
++    now, tab = bs.identifier_rows(text), bs.status_table_rows(text)
++    out = []
++    cell = now.get("FK13", "")
++    if hashlib.sha256(cell.encode("utf-8")).hexdigest() != FK13_AS_THIS_VERSION_WROTE_IT:
++        out.append("FK13: the words of its status cell are not the words version 1.67 wrote")
++    if bs.label(cell) != FK13_LABEL or bs.label(snap["identifier_rows"]["FK13"]) != FK13_LABEL:
++        out.append("FK13: its label is not the label it had at version 1.65")
++    out += ["%s: its status cell is not the cell of version 1.65" % k for k in sorted(snap["identifier_rows"]) if k != "FK13" and now.get(k) != snap["identifier_rows"][k]]
++    out += ["%s: its status cell is not the cell of version 1.65" % k for k in sorted(snap["status_table_rows"]) if tab.get(k) != snap["status_table_rows"][k]]
++    out += ["%s: a row that version 1.65 did not have" % k for k in sorted(set(now) - set(snap["identifier_rows"])) + sorted(set(tab) - set(snap["status_table_rows"]))]
++    return out
++
++
++def test_the_status_cell_of_fk13_has_its_new_words_and_its_old_label_and_no_other_cell_differs():
++    bs, snap = _bs(), _snapshot()
++    assert _what_this_lock_holds_of_the_status_cells(G) == []
++    cell = bs.identifier_rows(G)["FK13"]
++    assert cell != snap["identifier_rows"]["FK13"] and not any(q in cell for q in MARKS)             # its words did change, and they quote nothing
++    assert sum(snap["identifier_rows"]["FK13"].count(q) for q in MARKS) == 2                          # the cell of 1.65 held one quotation
++    # the table of rows named to the two older locks is one row, this version's: a name added there loosens both
++    assert {k: v[:2] for k, v in bs.NAMED_BY_A_VERSION.items()} == {"FK13": ("v1.67", "B1904")}
++
++
++def _line_of(text, opens):
++    lines = [l for l in text.split("\n") if l.startswith(opens)]
++    assert len(lines) == 1, opens
++    return lines[0]
++
++
++def test_the_three_locks_against_planted_changes():
++    """main's two plants (its M18), and a third.  Each lock is asked by the function its own tests ask."""
++    bs = _bs()
++    older = _load("lock_of_version_1_65_for_b1904", B1886 / "test_b1886_the_foundation_at_version_1_65.py")._rows_that_moved_from_version_1_64
++    old = _load("lock_of_version_1_66_for_b1904", B1891 / "test_b1891_the_foundation_at_version_1_66.py")._what_differs_from_version_1_65
++    mine = _what_this_lock_holds_of_the_status_cells
++    assert older(G) == [] and old(G) == [] and mine(G) == []                                         # the foundation as it stands
++    # 1. the label of FK13 changed: all three locks fail
++    row = _line_of(G, "| FK13 ")
++    assert row.count("RULED BY THE PRINCIPLE") == 1
++    planted = G.replace(row, row.replace("RULED BY THE PRINCIPLE", "DERIVED"))
++    assert planted != G and older(planted) == ["FK13"] and old(planted) == ["identifier_rows: changed: FK13"] and len(mine(planted)) == 2
++    # 2. the bracket of another row changed: the two older locks fail (and so does this one)
++    cell = bs.identifier_rows(G)["FK1"]
++    assert G.count(cell) == 1 and cell.endswith(")") and bs.label(cell) != cell
++    planted = G.replace(cell, cell[:-1] + ", and one word more)")
++    assert bs.label(bs.identifier_rows(planted)["FK1"]) == bs.label(cell)                             # its label is as it was
++    assert older(planted) == ["FK1"] and old(planted) == ["identifier_rows: changed: FK1"] and mine(planted)
++    # 3. the bracket of FK13 changed again, its label as it was: the two older locks hold its label and nothing more, and pass;
++    #    this lock holds its words, and fails.  That is the design, and it is why this lock must stand.
++    cell = bs.identifier_rows(G)["FK13"]
++    assert G.count(cell) == 1 and cell.endswith(")")
++    planted = G.replace(cell, cell[:-1] + ", and one word more)")
++    assert older(planted) == [] and old(planted) == [] and mine(planted) == ["FK13: the words of its status cell are not the words version 1.67 wrote"]
++    # 4. a row named to the older locks that no version names: with the name taken out, the two fail on the foundation as it stands
++    keep = dict(bs.NAMED_BY_A_VERSION)
++    assert bs.differs("FK13", _snapshot()["identifier_rows"]["FK13"], bs.identifier_rows(G)["FK13"]) is False
++    bs.NAMED_BY_A_VERSION.clear()
++    try:
++        assert bs.differs("FK13", _snapshot()["identifier_rows"]["FK13"], bs.identifier_rows(G)["FK13"]) is True
++    finally:
++        bs.NAMED_BY_A_VERSION.update(keep)
++
++
++def test_the_script_writes_this_version_from_the_one_before_where_git_has_it():
++    """the writer, run on the foundation of version 1.66 as git holds it, gives a text in which this version's status cells
++    stand.  Where git does not hold that blob the writer is still run on the page as it stands, and must refuse: its
++    passages are no longer there."""
++    import subprocess
++    w = _writer()
++    try:
++        w.version_1_67(G)
++        refused = False
++    except AssertionError:
++        refused = True
++    assert refused, "the writer ran a second time, on version 1.67"
++    r = subprocess.run(["git", "-C", str(ROOT), "cat-file", "-p", VERSION_1_66_AS_GIT_HOLDS_IT], capture_output=True, text=True)
++    before = r.stdout if r.returncode == 0 and "**Version 1.66 · 2026-11-12 · canonical.**" in r.stdout else None
++    written = w.version_1_67(before) if before is not None else None
++    assert written is None or _what_this_lock_holds_of_the_status_cells(written) == []
++    assert written is None or all(written.count(new) == 1 and written.count(old) == 0 for old, new in w.mains().EDITS)
++    assert before is None or sum(before.count(old) for old, _ in w.mains().EDITS) == 7             # and version 1.66 held each passage once
++
++
++def test_the_sweep_found_the_passages_in_no_living_page():
++    """the kept output of the sweep; the sweep itself reads every tracked file and is run by hand (the arc's Reproduce)"""
++    out = (HERE / "sweep_for_the_seven_passages_out.txt").read_text(encoding="utf-8").split("\n")
++    assert out[-2] == "files of another kind that hold a passage as it was: 0" and len([l for l in out if l.startswith("passage ")]) == 7
++    assert all("a kept copy of an older version of the foundation" in l for l in out if l.startswith("passage "))
++    sweep = _load("sweep_for_b1904", HERE / "sweep_for_the_seven_passages.py")
++    assert sweep.kind("docs/A_PAGE.md").startswith("ANOTHER FILE") and sweep.kind("GENESIS.md").startswith("ANOTHER FILE")
++    assert not sweep.kind("frontier/B1843_genesis_v1_62/received/GENESIS_v1_61_main.md").startswith("ANOTHER")
++
++
++def test_the_arc_says_what_it_is():
++    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
++    for s in ("No item is added", "Who found them", "What is not done", "## Seen first", "## Disclosed", "0 of 19", "FK13", "The label is as it was"):
++        assert s in f, s
++    assert not any(q in f for q in "“”")
++    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
++    assert v["id"] == "B1904" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
+diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py b/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py
+new file mode 100644
+index 000000000..8bdc20473
+--- /dev/null
++++ b/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py
+@@ -0,0 +1,73 @@
++#!/usr/bin/env python3
++"""B1904 -- the foundation at version 1.67, written by main's script of Review 80 with four corrections.
++
++Main's script `genesis_v1_67.py` holds seven pairs: a passage of the foundation in which the owner is quoted, and the same
++in plain words.  It stands as main wrote it, byte for byte, in the arc B1898 (held there by its hash) and in main's
++folder of 2026-11-12.  THIS SCRIPT HOLDS NO PASSAGE.  It loads main's pairs from the arc B1898 and applies them, so that
++the owner's words stand in no new file; and it differs from main's script in four things, each at main's word (its M18
++to the builder) or said to main in this arc's findings:
++
++  1. the log's entry.  Main's ended "No item is added and no status cell changes."  That is wrong: the third passage
++     stands in the status cell of row FK13.  The cell's label is as it was, and the account in its bracket
++     is put in plain words.  The entry says so;
++  2. the entry's arc, which main wrote B[[N]], is B1904;
++  3. the line that names the version is moved to 1.67, as each version before moved it.  Main's script left it;
++  4. main's script printed the first 90 characters of each passage it replaces.  This one prints a passage's number
++     and how often it stands, and nothing of its words.
++
++    python3 write_version_1_67.py            # checks that every passage is there once, and writes nothing
++    python3 write_version_1_67.py --write    # writes GENESIS.md
++"""
++import pathlib
++import sys
++import types
++
++HERE = pathlib.Path(__file__).resolve().parent
++ROOT = HERE.parents[2]
++MAINS = ROOT / "frontier" / "B1898_review_80_one_hundred_findings_and_what_main_checked" / "verification" / "checks" / "genesis_v1_67.py"
++
++ENTRY_AS_MAIN_ENDED_IT = "No item is added and no status cell changes.\n"
++ENTRY_ENDS = ("No item is added and no status changes: the words of one status cell change (row FK13: the account in its bracket "
++              "is put in plain words; its label is as it was).\n")
++HEADER_WAS, HEADER_IS = "**Version 1.66 · 2026-11-12 · canonical.**", "**Version 1.67 · 2026-11-12 · canonical.**"
++
++
++def mains():
++    """main's script as a module, its last block not run (that block runs only when the script is the program).  It is read
++    and compiled here, and not imported: an import leaves a folder of compiled files beside it, in the arc B1898, whose lock
++    counts the files of that folder.  (Corrected 2026-11-12, after this arc was first sent: it was imported, and B1898's
++    lock failed on its second run in a checkout where this arc's lock had run.)"""
++    m = types.ModuleType("mains_genesis_v1_67")
++    m.__file__ = str(MAINS)
++    exec(compile(MAINS.read_text(encoding="utf-8"), str(MAINS), "exec"), m.__dict__)
++    return m
++
++
++def the_entry(m):
++    entry = m.LOG_ENTRY
++    assert entry.count("B[[N]]") == 1 and entry.endswith(ENTRY_AS_MAIN_ENDED_IT)
++    return entry.replace("B[[N]]", "B1904")[:-len(ENTRY_AS_MAIN_ENDED_IT)] + ENTRY_ENDS
++
++
++def version_1_67(text, say=lambda line: None):
++    """the foundation's text at version 1.66 -> at version 1.67.  Stops if a passage, the anchor or the header is not there once."""
++    m = mains()
++    assert len(m.EDITS) == 7
++    for number, (old, new) in enumerate(m.EDITS, 1):
++        n = text.count(old)
++        say("passage %d stands %d time(s)" % (number, n))
++        assert n == 1, "passage %d stands %d time(s), not once" % (number, n)
++        text = text.replace(old, new)
++    assert text.count(m.LOG_ANCHOR) == 1, "the entry of version 1.66 is not there once"
++    text = text.replace(m.LOG_ANCHOR, the_entry(m) + m.LOG_ANCHOR)
++    assert text.count(HEADER_WAS) == 1 and HEADER_IS not in text, "the line that names version 1.66 is not there once"
++    return text.replace(HEADER_WAS, HEADER_IS)
++
++
++if __name__ == "__main__":
++    page = ROOT / "GENESIS.md"
++    new = version_1_67(page.read_text(encoding="utf-8"), print)
++    if "--write" in sys.argv:
++        page.write_text(new, encoding="utf-8"); print("written")
++    else:
++        print("every passage stands once; nothing written")
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index b4ef76b87..84f95b2b6 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -16652,6 +16652,18 @@
+    "status": "banked",
+    "domain": "dynamics"
+   },
++  "B1904": {
++   "slug": "the foundation at version 1 67",
++   "motifs": [
++    "closing",
++    "coupling"
++   ],
++   "refs": [],
++   "obstacle": "measure",
++   "obstacle_conf": 1,
++   "status": "open",
++   "domain": "topology"
++  },
+   "B1906": {
+    "slug": "the four channels in closed form and three theorems checked",
+    "motifs": [
