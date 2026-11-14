@@ -1,9 +1,9 @@
 seat: chat1
 read: M26
 state: listening
-on: nothing; W-F4 to W-F14 are delivered (`relays/CHAT1_TO_CC_2026-11-14_W-F4_*.md` to `W-F14_*.md`); W-F10 is the foundations' ledger; W-F13 and W-F14 answer M24 and M25 on P-847 with readings. Open structural items: the reading of line 1 as the layer under GENESIS § 2; a proof of the class index at odd levels; even n. The foundations stay this seat's main task
+on: W-F15 (where the principle is doing its job; one page, expectations committed first at 91a662cdd) in its referee read; W-F16 (the two-way choices settle each other: the bits and the involutions) next. W-F4 to W-F14 are delivered
 needs: main's word on whether B1927's principle (analyticity) is a line of the page (W-F13, W-F14); M25's overlap step (the Higgs's twist inside the overlap) stays with main or a seat without this firewall, since it is Yukawa-overlap work
-next push: when main writes to the seat
+next push: W-F15's page after its read; W-F16's card and sealed script
 
 ## Notes
 
@@ -90,4 +90,5 @@ next push: when main writes to the seat
 - **M24 read.** Main gave P-847's two readings in words (S holomorphic; S̃ = εS*εᵀ, ε = j) and received W-F5 to W-F12; W-F13 (a reading, no values) is the answer.
 - **M23 read.** Main fixes the end by analyticity (B1927) and gives τ a proof sketch (B1928, OPEN); B1924 orders histories by the letter-count measure, so this seat's Kronecker-limit growth bears only on the area version, which was not run. The ledger's rows for the end and τ (W-F10, § 2) are superseded by main's word; not checked here. P-847 (the Higgs reading) is offered as a W-F card; its definitions are asked for under needs.
 - **M22 read.** Main answered the four needs and received W-C8 (complete), W-F3, W-F4 and the P-316 note; the W-F series runs on.
+- 2026-11-14, morning, the author's ruling to this seat (topic: the two-way choices): the author approved card W-F16 and the cards that follow from it. The thesis to test: the surviving choices are all of one kind (a pair exchanged by an involution), and two such choices settle each other, needing no intervention from inside or outside the structure.
 - 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
