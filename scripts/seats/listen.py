@@ -15,9 +15,12 @@ MAIN runs:
     python3 scripts/seats/listen.py --main
 
 It fetches every branch and exits when one that is not main has moved, appeared or gone, printing the names and the
-commits and nothing of what the branches hold: some lanes are read only through a mask.
+commits and nothing of what the branches hold: some lanes are read only through a mask.  On its FIRST LOOK, when it has no
+memory to compare with, it prints "FIRST LOOK" and where every branch is, and exits with status 0 as well.
+[ADDED 2026-11-12 (Review 80; found by a reading of this file, made again before it was mended): the last sentence.  Main's
+side has exited on its first look since Review 79, and this docstring and the line on --once below did not say so.]
 
-    --once        look once: status 0 if there is something new, 3 if there is not
+    --once        look once: status 0 if there is something new (for main's side, also on its first look), 3 if there is not
     --interval N  seconds between looks (600 unless given)
     --peek        show what is new and do not remember having shown it
 

@@ -243,6 +243,21 @@ def test_a_memory_that_holds_no_number_and_a_git_that_does_not_answer_are_said_a
     assert r.returncode == 0 and "the text of message 2" in r.stdout
 
 
+def test_the_listeners_docstring_says_what_mains_first_look_does(tmp_path):
+    """Review 80, from a reading of the listener; made again before it was mended.  Main's side exits with status 0 on its
+    first look, printing FIRST LOOK; the docstring said that it exits when a branch has moved, appeared or gone, and no more.
+    Held here: what the listener does, and that its docstring says it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test6", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    origin, clone = _origin_and_clone(tmp_path)
+    _git(origin, "branch", "a-seat")
+    r = _listen(clone, "--main")
+    assert r.returncode == 0 and r.stdout.startswith("FIRST LOOK") and "origin/a-seat" in r.stdout          # what it does
+    assert _listen(clone, "--main").returncode == 3
+    doc = " ".join(L.__doc__.split())
+    assert "On its FIRST LOOK" in doc and "exits with status 0 as well" in doc and "(for main's side, also on its first look)" in doc
+
+
 def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
