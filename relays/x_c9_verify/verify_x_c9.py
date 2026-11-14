@@ -330,12 +330,20 @@ def z0_shintani(M: Mat2, c_char: Frac2, w: Tuple[int, int]) -> complex:
         scale = 0.5
     wp = (gen[0][0] * w[0] + gen[0][1] * w[1], gen[1][0] * w[0] + gen[1][1] * w[1])
     pts = parallelogram_points(w, wp)
-    c1 = float(c_char[0])
-    c2 = float(c_char[1])
-    two_pi = 2.0 * math.pi
-    chi_w = cmath.exp(1j * two_pi * (c1 * w[0] + c2 * w[1]))
+    N_ord = math.lcm(c_char[0].denominator, c_char[1].denominator)
+    ci = int(c_char[0] * N_ord) % N_ord
+    cj = int(c_char[1] * N_ord) % N_ord
+    buckets = [0] * N_ord
+    for p0, p1 in pts:
+        buckets[(ci * p0 + cj * p1) % N_ord] += 1
+    min_b = min(buckets)
+    if min_b > 0:
+        buckets = [b - min_b for b in buckets]
+    two_pi_over_N = 2.0 * math.pi / N_ord
+    rw = (ci * w[0] + cj * w[1]) % N_ord
+    chi_w = cmath.exp(1j * two_pi_over_N * rw)
     denom = (1.0 - chi_w) ** 2
-    num = sum(cmath.exp(1j * two_pi * (c1 * p0 + c2 * p1)) for (p0, p1) in pts)
+    num = sum(cnt * cmath.exp(1j * two_pi_over_N * r) for r, cnt in enumerate(buckets) if cnt)
     return scale * (num / denom)
 
 
