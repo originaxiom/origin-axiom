@@ -228,32 +228,38 @@ def arc_card(arc_id, g=None):
     status. The tag is a guess from the arc's words (the first of four word lists that matches) and it disagrees with
     the verdict for hundreds of arcs: 218 proved arcs were shown as dead and 198 negative ones as banked. The head now
     carries the verdict, and the tag is printed as what it is."""
-    import glob, json
     g = g or load(); p = g["probes"].get(arc_id)
     if not p:
         return dict(probe=arc_id, error="unknown arc", text=f"unknown arc '{arc_id}'")
-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    hits = sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*", "arc_verdict.json")))
-    v, unreadable = None, None
-    for h in hits[:1]:
-        try:
-            v = json.load(open(h, encoding="utf-8"))
-        except ValueError:
-            unreadable = os.path.relpath(h, root)
-    head = (v or {}).get("verdict") or "no verdict"
-    text = [f"{arc_id} [{head}]  -- \"{p['slug']}\"",
+    # CHANGED 2026-11-12 (Review 80; found by a reading of this function, made again before it was mended).  The card read
+    # the first verdict file of the folders that carry the id, and no other.  One id, B58, is carried by three folders, one
+    # of them RETRACTED: its card printed one folder's verdict under another folder's name, and the retracted folder never
+    # appeared.  Every folder that carries the id is on the card now, each with its own verdict and claim line; the head
+    # carries every verdict; and where there is more than one folder the card says that the atlas keeps one name for them.
+    folders = _verdicts_of(arc_id)
+    v = None
+    if len(folders) == 1 and folders[0][1]:
+        v = {"verdict": folders[0][1]}
+    head = "; ".join(x[1] or ("unreadable" if x[3] else "no verdict") for x in folders) or "no verdict"
+    text = [f"{arc_id} [{head}]  -- \"{p['slug']}\"" + (f"   ({len(folders)} folders carry this id; the atlas keeps one name for them)" if len(folders) > 1 else ""),
             f"  atlas tag (a guess from the arc's words, not a verdict): {p['status']}",
             f"  obstacle-type: {p['obstacle'] or 'unclassified'};  motifs: {', '.join(sorted(p['motifs'])) or 'none'}"]
-    if v is not None:
-        text.append(f"  verdict: {v.get('verdict')}   folder: {os.path.relpath(os.path.dirname(hits[0]), root)}")
-        text.append("  claim: " + str(v.get("claim_one_line", "")))
-    elif unreadable:
-        text.append(f"  verdict file unreadable: {unreadable}")
-    else:
+    for folder, verdict, claim, unreadable in folders:
+        if unreadable:
+            text.append(f"  verdict file unreadable: {folder}/arc_verdict.json")
+        elif verdict is None and claim is None:
+            text.append(f"  no verdict file in {folder}")
+        else:
+            text.append(f"  verdict: {verdict}   folder: {folder}")
+            text.append("  claim: " + str(claim))
+    if not folders:
         text.append("  no verdict file under frontier/")
     # 2026-11-12 (Review 79's second round): the key "status" is the atlas's tag, a guess from the arc's words.  It is returned
     # under a name that says so as well; the old key stays for the callers that read it.
-    return dict(probe=arc_id, status=p["status"], atlas_tag_a_guess_from_words=p["status"], verdict=(v or {}).get("verdict"), text="\n".join(text))
+    # the key "verdict" holds the one verdict where one folder carries the id, as before; where several do it holds none, and
+    # "verdicts_by_folder" holds each
+    return dict(probe=arc_id, status=p["status"], atlas_tag_a_guess_from_words=p["status"], verdict=(v or {}).get("verdict"),
+                verdicts_by_folder={x[0]: x[1] for x in folders}, text="\n".join(text))
 
 
 if __name__ == "__main__":

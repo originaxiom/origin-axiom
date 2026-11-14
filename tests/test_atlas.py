@@ -135,6 +135,29 @@ def test_the_atlas_tag_is_printed_as_a_tag_and_never_as_a_status():
     assert query.revive("B57", G)["status"] == "dead" and query.context_card(G)["status"]["banked"] > 0
 
 
+def test_the_card_of_an_id_that_several_folders_carry_shows_every_folder():
+    """Added 2026-11-12 (Review 80; found by a reading of the query, made again before it was mended).  B58 is carried by
+    three folders, one of them RETRACTED.  Its card printed the verdict of the first folder under the name the atlas keeps,
+    which is another folder's, and the retracted folder never appeared."""
+    import collections, json, pathlib
+    root = pathlib.Path(__file__).resolve().parents[1]
+    shared = {k: n for k, n in collections.Counter(d.name.split("_")[0] for d in (root / "frontier").iterdir() if d.is_dir()).items() if n > 1}
+    assert shared == {"B58": 3}                                                    # the one id that is shared, on this tree
+    c = query.arc_card("B58", G)
+    by_folder = {d.name: json.loads((d / "arc_verdict.json").read_text(encoding="utf-8"))["verdict"] for d in sorted((root / "frontier").glob("B58_*"))}
+    assert set(by_folder.values()) == {"NEGATIVE", "RETRACTED"} and len(by_folder) == 3
+    assert c["verdicts_by_folder"] == {"frontier/" + k: v for k, v in by_folder.items()} and c["verdict"] is None
+    lines = c["text"].split("\n")
+    assert lines[0].startswith("B58 [NEGATIVE; RETRACTED; NEGATIVE]") and "3 folders carry this id" in lines[0]
+    for name, verdict in by_folder.items():
+        assert "  verdict: %s   folder: frontier/%s" % (verdict, name) in lines, name   # each folder with its own verdict
+    assert sum(1 for l in lines if l.startswith("  claim: ")) == 3
+    # a twin: an id with one folder reads as it did
+    one = query.arc_card("B57", G)
+    assert one["verdict"] == "PROVED" and one["text"].startswith("B57 [PROVED]") and "folders carry this id" not in one["text"]
+    assert one["text"].count("  verdict: PROVED   folder: frontier/B57_general_m_splitting") == 1
+
+
 def test_motif_trace_and_neighbors_and_cooccurrence():
     t = query.motif_trace("kappa", G)
     assert t["count"] == FREQ["kappa"] and t["probes"]
