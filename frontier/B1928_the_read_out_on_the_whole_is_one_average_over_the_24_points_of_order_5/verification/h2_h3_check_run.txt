@@ -1,0 +1,4 @@
+n =  20: length per letter mean 0.7920, sd 0.0678; longest run mean 4.7; share with a run >= 2 log2(n) + 4: 0.0020
+n =  50: length per letter mean 0.7935, sd 0.0429; longest run mean 5.9; share with a run >= 2 log2(n) + 4: 0.0005
+n = 100: length per letter mean 0.7918, sd 0.0299; longest run mean 7.0; share with a run >= 2 log2(n) + 4: 0.0010
+n = 200: length per letter mean 0.7924, sd 0.0211; longest run mean 8.0; share with a run >= 2 log2(n) + 4: 0.0000

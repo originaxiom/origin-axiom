@@ -17083,7 +17083,7 @@
     "P3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 7,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "physics"
   },

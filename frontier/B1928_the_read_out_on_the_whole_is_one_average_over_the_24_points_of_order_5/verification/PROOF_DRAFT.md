@@ -69,3 +69,26 @@ R_n → ∫ F̄ dμ as n → ∞, where:
 constraint is not needed, since F̄ is invariant. It must agree with B1924's read-outs at the mark and at the twin
 (n = 22, the constant ends) within their sampling errors. A disagreement beyond the errors refutes the claim as stated,
 or one of H1 to H3.
+
+## Addendum (2026-11-14, morning): H2 and H3 argued (main; the seat's check still owed)
+
+- **H2, tightness.** The base measures (uniform on the periodic points of period n) converge weak-* to ν on the compact
+  shift space. The suspension is not compact, because the roof r is unbounded near L^∞ and R^∞. But r grows only like
+  the logarithm of the length of the run of one letter at the crossing, and under ν, and under every ν_n for runs
+  shorter than n, a run of length k has probability of order 2^(−k). So ν_n(r > t) is super-exponentially small in t,
+  uniformly in n: r is uniformly integrable. Weak-* convergence of ν_n with a uniformly integrable roof gives weak-*
+  convergence of the normalised orbit measures μ_n to μ (portmanteau). F is bounded and continuous off a μ-null set
+  (H1), so ∫ F dμ_n → ∫ F dμ.
+- **H3, the length weights and the constraint.** R_n weights each word by ℓ(w) = S_n r(w^∞), a Birkhoff sum of the same
+  uniformly integrable r. The constraint keeps the words whose holonomy in G = SL(2, F₅) fixes the mark's class. The
+  skew product of the full shift by the letters' images is transitive (they generate G) and mixing (G is perfect, so it
+  has no cyclic quotient). Its periodic points with a prescribed holonomy class therefore equidistribute to ν × Haar,
+  jointly with the Birkhoff sums: the finite-extension case of Parry and Pollicott's closed-orbit theorem, here for the
+  full shift's periodic points.
+- **The numerical face** (`h2_h3_check.py` → `h2_h3_check_run.txt`; 2 000 words at each n). The length per letter has
+  mean 0.792 at n = 20, 50, 100 and 200, with spread 0.068, 0.043, 0.030 and 0.021, falling like 1/√n. The longest run
+  grows like log₂ n (mean 4.7 at n = 20, 8.0 at n = 200). A run of 2 log₂ n + 4 or more occurs in 0.2 % of words or
+  fewer.
+- **So H1 to H3 are met as argued by main.** The verdict stays OPEN until agy-002's independent check of the sketch
+  (M26) and its computation of B1924 (M23 to M25), as the rule of a second computation asks.
+
