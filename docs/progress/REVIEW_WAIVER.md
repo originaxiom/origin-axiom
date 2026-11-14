@@ -5,6 +5,14 @@ not a report but a block: the push fails. The owner, and only the owner, may wai
 
     - waived <YYYY-MM-DD> by the owner through <N> merges: <reason>
 
+*Added 2026-11-13 (main's M23, a finding on the gate; built by the building session).* A waiver covers only the window
+it was granted in: the gate reads the last review's anchor that stood when the line was written (from git's history),
+and the line stops covering when a later anchor is written. A line may also name it:
+
+    - waived <YYYY-MM-DD> by the owner through <N> merges, in the window after anchor <commit>: <reason>
+
+Where git's history does not have the line, the line's date is read against the last anchor's date, as before.
+
 A waiver covers while the merge count since the last anchor is below N. Lines are appended, never edited; the review
 that follows a waiver quotes it.
 

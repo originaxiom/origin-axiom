@@ -2644,16 +2644,43 @@ REVIEW_HARD = 2 * REVIEW_EVERY                      # past twice its period the 
 REVIEW_WAIVER = "docs/progress/REVIEW_WAIVER.md"    # unless the owner has waived it by date, in that file
 
 
-def review_waiver_covers(n, text, since=None):
+def review_waiver_covers(n, text, since=None, anchor=None, granted=None):
     """a waiver is one line '- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>'; it covers while n < N.
     Review 75 (B1844): a waiver covers only the window it was granted in -- with `since` (the last anchor's date,
-    YYYY-MM-DD), a waiver dated before it has expired; without it every line is read (the old behaviour)."""
+    YYYY-MM-DD), a waiver dated before it has expired; without it every line is read (the old behaviour).
+    2026-11-13 (M23; the building session): a date does not tell two windows of one day apart. With `anchor` (the last
+    review's anchor-commit), a line covers only if it was granted in that anchor's window: the anchor the line names
+    ('..., in the window after anchor <commit>: ...'), or else the anchor `granted(line)` reads from git's history (the
+    one that stood when the line was written). Where neither is known, the date rule above is read."""
     best = 0
-    for m in re.finditer(r"^- waived (\d{4}-\d{2}-\d{2}) by the owner through (\d+) merges", text or "", re.M):
-        if since and m.group(1) < since:
+    for m in re.finditer(r"^- waived (\d{4}-\d{2}-\d{2}) by the owner through (\d+) merges(?:[^:\n]*?anchor `?([0-9a-f]{7,40})`?)?[^\n]*", text or "", re.M):
+        named = m.group(3) or (granted(m.group(0)) if granted else None)
+        if anchor and named:
+            if not (anchor.startswith(named) or named.startswith(anchor)):
+                continue
+        elif since and m.group(1) < since:
             continue
         best = max(best, int(m.group(2)))
     return n < best
+
+
+def review_anchor(text=None):
+    """the last review's anchor-commit as REVIEWS.md writes it, or None"""
+    if text is None:
+        text = _read(REVIEWS) if os.path.exists(os.path.join(ROOT, REVIEWS)) else ""
+    anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", text)
+    return anchors[-1] if anchors else None
+
+
+def waiver_granted_under(line):
+    """the last review's anchor when a waiver line was written: REVIEWS.md read at the first commit whose
+    REVIEW_WAIVER holds the line (git's history), or None where git does not have it"""
+    rc, out = _git("log", "--format=%H", "--reverse", "-S", line, "--", REVIEW_WAIVER)
+    first = out.split()[0] if rc == 0 and out.split() else None
+    if not first:
+        return None
+    rc, text = _git("show", "%s:%s" % (first, REVIEWS))
+    return review_anchor(text) if rc == 0 else None
 
 
 def review_anchor_date():
@@ -2677,7 +2704,8 @@ def gate_review_fires():
         return True, "no review anchor yet"
     if n >= REVIEW_HARD:
         wpath = os.path.join(ROOT, REVIEW_WAIVER)
-        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else "", since=review_anchor_date()):
+        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else "", since=review_anchor_date(),
+                                anchor=review_anchor(), granted=waiver_granted_under):
             return True, f"{n} merges since the last review; waived by the owner ({REVIEW_WAIVER})"
         return False, (f"{n} merges since the last review (>= {REVIEW_HARD}): the review FIRES -- run it "
                        f"(scripts/review/review_tools.py), or the owner waives it by date in {REVIEW_WAIVER}")
