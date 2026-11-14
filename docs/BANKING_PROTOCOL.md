@@ -107,7 +107,7 @@ describe the programme?*
 | **the chain** | `THE_FRAMEWORK.md`, `UNIQUENESS_THEOREM.md`, `THE_SM_VERDICT.md` | can a reader follow **philosophy → aAbB → the object → its faces and family → the algebra → the cascade → symmetry breaking and gauge groups** without a gap? |
 | **the negatives** | `THE_LADDER.md`, the kill graph, `RETRACTED_PHRASES.md` | is every "we don't have X" still a **claim with a citation**, not an impression? |
 | **method** | `WORKING_RULES.md`, `PRACTICES.md`, `TOOLBOX.md`, `METHOD.md` | do these describe how we **actually** seal, verify and certify **today**? |
-| **speculation & philosophy** | `speculations/`, `philosophy/`, `story/`, `knowledge/` | is the firewall still one-way, and does the motivation still match the mathematics? |
+| **speculation & philosophy** | `docs/archive/speculations/`, `docs/archive/philosophy/`, `docs/archive/story/`, `knowledge/` | is the firewall still one-way, and does the motivation still match the mathematics? |
 | **logs & easy-read** | `CHANGELOG.md`, `PROGRESS_LOG.md`, `CAMPAIGN_STATUS.md`, `INDEX.md` | can a new reader — human or agent — reconstruct the work from these alone? |
 
 **The standard:** *whoever opens this repository, human reviewer or AI seat, should be able to

@@ -71,7 +71,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | `LAW_MAP.md` is an **unenforced index**: every row traceable to an arc, every cited lock resolving (R33-4) | **GATED** | `law-map-provenance` |
 | The atlas lexicon must not **go blind**: zero-motif probes may not grow (B806) | **GATED** | `atlas-lexicon-current` |
 | Every arc a later arc **supersedes** must say so in its own `arc_verdict.json` — E53's shape at the supersession level; the back-link is derivable from `supersedes`, never a judgement, and it never touches a verdict (B1290) | **GATED** | `supersession-backlinks` |
-| No speculative room (`speculations/`, `philosophy/`, `story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
+| No speculative room (`docs/archive/speculations/`, `docs/archive/philosophy/`, `docs/archive/story/`) cited as claim evidence | **GATED** | `firewall-oneway` |
 | Banned overclaim phrasings absent from the corpus | **GATED** | `framing` |
 | No SM values to `CLAIMS.md` (Gate 5); physics readings wait on L91 | **MANUAL** | firewall review at banking |
 | **Classify before relaying** (the owner's ruling on P-389, 2026-10-27): after the sweep, each new idea is classified before it goes into a relay — on record (cite it), held or queued by a seat (tell that seat), contradicted (drop it, with one line saying why), new (go on, data-free first). With the audit lane's guards: "contradicted: drop it" must mean contradicted under the actual matched hypotheses, not by a nearby representation, domain, approximation or finite search — record that scope and any surviving hatch; source checks must reach the producer and the proof body, and a metadata sweep's count is not a completeness theorem; necessary reproduction is not waste if correctly labelled | **MANUAL** | the seen-first section; the topic sweep reads the register (S225) |
@@ -1459,3 +1459,31 @@ before B1923 (the ledger `audit/negatives/2026-11-13/`).
 **Why it exists.** B1918 banked a route closed from fits over a family of forms that did not hold the true one; it stood
 for half an hour and was retracted the same day only because the SM seat, given the same step, found the exact formula
 from its sealed calibration (B1919).
+
+## A verdict line that claims a selection names its family — GATED (`selection-family`) (adopted 2026-11-12, B1905; WORKING_RULES, the rule "BEFORE A SELECTION OR A HAND IS CLAIMED")
+
+**The rule (main's, in the working rules with B1905).** A selection is claimed only by a criterion that can fail, and the
+page says which of the two families that have ever forced anything here it belongs to (B1204): a finite classification with
+a test of membership, or a consistency condition that a candidate can violate. The gate reads every verdict line from B1905
+on. A clause that says "selects", "picks", "singles out", "is forced" or "forces", with no word of denial or of condition
+before it in its own clause and a value or a member as its object, is a claim; its page must name one of the two families.
+The older lines are not read, and their count is printed: 114 on the day the gate came in, of which the page of one names a
+family. Most are deductions the rule is not about.
+
+**Why it exists.** B1905 read 511 arcs on selection and chirality: a measure settled no question of this kind and an extremum a
+quarter of those it was asked, while the record had drawn the lesson in August (B1204) and put it in no governing page. Steps
+1, 2 and 4 of the rule are MANUAL; the topic sweep prints the ledger of walls (step 1).
+
+## The public face speaks no inner language — GATED (`public-face`) (adopted 2026-11-13, main's card C14)
+
+**The rule.** The pages a reader outside the project opens use none of the record's inner words: owner, main as a person,
+cc, seat, lane, relay, ruling or ruled, card, a session's name. A decision is a choice or a postulate and says what it fixes;
+"confirmed", "verified" and "checked" are kept for a check that can fail and say which. The working record (the logs, the
+register, the seats' pages, the arcs) keeps its words, and is labelled as the working record where the public face points to
+it; the verdict ledger and the spine are labelled working indices. The gate reads the pages of its list, `PUBLIC_FACE` in
+`scripts/gates/gates.py`, and holds the count of each word on each page as found on 2026-11-13; a count may only fall, and the
+series of card C14 lowers each page to zero. "Main" in a phrase of plain English ("the main goal", "the main result") is
+not counted.
+
+**Why it exists.** A reader outside the project met the record's inner words on its front pages, and a decision read as if
+an authority had confirmed it.

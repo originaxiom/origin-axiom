@@ -33,7 +33,7 @@ The authoritative ledgers remain:
 - `CLAIMS.md` for proven, conditional, open, and dead claims.
 - `GOVERNANCE.md` for promotion gates and anti-overclaim rules.
 - `PROGRESS_LOG.md` for chronological execution history.
-- `frontier/` and `paths/` for bounded probes and verdicts.
+- `frontier/` and `docs/archive/paths/` for bounded probes and verdicts.
 - `docs/ARCHIVE.md` for killed or superseded routes.
 
 Atlas pages should never outrun those files. If an atlas page and a governed

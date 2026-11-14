@@ -1,0 +1,27 @@
+tracked scripts that say they plant, change a text and run something on it: 26
+docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/checks/plants_agy002.py                                              replacements:  6; lines that compare a plant with its source: [44]
+docs/handoffs/MAIN_TO_BUILDER_2026-11-12/x_c1a_on_main/row914_the_group_on_the_triplet.py                              replacements:  0; lines that compare a plant with its source: [64]
+docs/handoffs/MAIN_TO_BUILDER_2026-11-12/x_c1a_on_main/row917_the_trichotomy_and_theorem_s.py                          replacements:  0; lines that compare a plant with its source: [168]
+frontier/B1240_belt_closure_and_fc_harvest/verification/reproduce_belt.py                                              replacements:  0; lines that compare a plant with its source: none
+frontier/B1880_the_third_and_fourth_re_audits_answered/verification/measure_all_hash_lists.py                          replacements:  0; lines that compare a plant with its source: none
+frontier/B1889_the_seats_digested/verification/build_seats.py                                                          replacements:  6; lines that compare a plant with its source: none
+frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py                                replacements:  0; lines that compare a plant with its source: none
+frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/rerun_u19.py                             replacements:  0; lines that compare a plant with its source: [24, 29]
+frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/run_unseen_s2.py                         replacements:  1; lines that compare a plant with its source: [110, 115]
+frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/planted_reversions.py            replacements:  8; lines that compare a plant with its source: [39, 50, 57, 149]
+frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/the_old_lock_with_the_mends_undo replacements:  2; lines that compare a plant with its source: none
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/after_reading_s3.py                       replacements:  2; lines that compare a plant with its source: [52, 87, 120, 154, 
+frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/run_unseen_s3.py                          replacements:  4; lines that compare a plant with its source: [57, 92, 125, 165, 
+frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/quote_check.py                       replacements:  0; lines that compare a plant with its source: none
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/checks/plants_agy002.py               replacements:  6; lines that compare a plant with its source: [44]
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/main_at_the_landing/the_plant_on_b188 replacements:  2; lines that compare a plant with its source: [48]
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_agy002.py       replacements:  7; lines that compare a plant with its source: [12, 61, 68, 146]
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/plants_b1881_third.py  replacements:  0; lines that compare a plant with its source: [10, 16, 67]
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/mended_in_r80b/the_scripts_that_plant replacements:  1; lines that compare a plant with its source: [2, 20, 31]
+frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/recount.py                            replacements:  1; lines that compare a plant with its source: [99, 100]
+scripts/checks/harvest_debt.py                                                                                         replacements:  3; lines that compare a plant with its source: none
+scripts/checks/reproduce_belt.py                                                                                       replacements:  0; lines that compare a plant with its source: none
+scripts/checks/retraction_sweep.py                                                                                     replacements:  5; lines that compare a plant with its source: none
+scripts/checks/topic_sweep.py                                                                                          replacements:  1; lines that compare a plant with its source: none
+scripts/gates/gates.py                                                                                                 replacements: 18; lines that compare a plant with its source: [1002]
+scripts/review/review_tools.py                                                                                         replacements:  2; lines that compare a plant with its source: none

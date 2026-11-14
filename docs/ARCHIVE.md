@@ -15,7 +15,7 @@ yourself excited by something below, re-read the "why it died" column first.
 - A claim becomes `dead` only with reproducing code/test showing the falsification or
   circularity. The demotion is logged in `PROGRESS_LOG.md`.
 - Dead ideas are not deleted from history — they are evidence of the project's discipline.
-- The corresponding `legacy/` artifacts that explored a dead idea stay in place, frozen.
+- The corresponding `docs/archive/legacy/` artifacts that explored a dead idea stay in place, frozen.
 
 ---
 

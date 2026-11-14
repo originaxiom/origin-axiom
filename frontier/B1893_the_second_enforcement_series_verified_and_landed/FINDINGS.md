@@ -90,6 +90,11 @@ Main read all six patches, 1,147 lines. Two things:
     the baseline falls from 1 to 0 when a row is earned; a new unearned row then enters with the baseline moved back
     to 1 and no record. The gate says "ok". The control, the same rise with no fall before it, is refused.
   - **The same for the attribution table:** 4 to 2 and back to 4 is not seen; 4 to 5 is.
+  - [ADDED 2026-11-12 (Review 80; a reader's finding, checked by main): the lock asserts that both cases still pass,
+    "so that the mend must tell it". It tells for the first only. For the identification baseline the lock plants a
+    history and asks the gate; a mend along the history makes that assertion fail. For the attribution table it gives
+    the two-point rule 4 and 4, with no history; a mend along the history leaves that assertion true. Register row
+    P-816 carries both halves, and stays open until both are closed.]
   - **What would close it:** the rule read along the history, so that every upward step since the anchor needs its
     record, not only the difference between the anchor and now.
 - **A law is known by the bold title of its row.** A title that is corrected is a law that left and one that came,

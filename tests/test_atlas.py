@@ -115,6 +115,49 @@ def test_revive_suggests_unused_conserved_resolvers():
     assert isinstance(r["suggestions"], list)             # motifs used elsewhere for this obstacle, not here
 
 
+def test_the_atlas_tag_is_printed_as_a_tag_and_never_as_a_status():
+    """Added 2026-11-12 (Review 80; found by a reading of the query, made again before it was mended).  The atlas's tag is a
+    guess from an arc's words.  Review 79 took it out of the head of an arc's card; it was still printed as a status by
+    `revive`, by the meeting points, in the context card's tally and wherever a probe is counted as banked.  B57 is the
+    case the reading gave: its verdict is PROVED and `revive` printed [dead]."""
+    r = query.revive("B57", G)["text"]
+    assert r.startswith("revive B57 [PROVED]") and "[dead]" not in r and "atlas tag (a guess from the arc's words, not a verdict): dead" in r
+    assert "banked probes" not in r
+    m = query.meeting_points(G)["text"].split("\n")
+    assert "not a verdict" in m[1] and all("[tag " in l for l in m[2:]) and not any(("[banked]" in l or "[dead]" in l or "[open]" in l) for l in m)
+    c = query.context_card(G)["text"]
+    assert "atlas tags (guesses from the arcs' words, not verdicts) {" in c and "; status {" not in c
+    o = query.resolutions_for("particle_dict", G)["text"]
+    assert "probes tagged banked touched it" in o and "not a verdict" in o and " banked probes" not in o
+    g = query.gaps(G)["text"]
+    assert "tagged banked" in g and "not a verdict" in g and "few banked resolutions" not in g
+    # what the functions return is as it was: the key "status" still holds the tag, for the callers that read it
+    assert query.revive("B57", G)["status"] == "dead" and query.context_card(G)["status"]["banked"] > 0
+
+
+def test_the_card_of_an_id_that_several_folders_carry_shows_every_folder():
+    """Added 2026-11-12 (Review 80; found by a reading of the query, made again before it was mended).  B58 is carried by
+    three folders, one of them RETRACTED.  Its card printed the verdict of the first folder under the name the atlas keeps,
+    which is another folder's, and the retracted folder never appeared."""
+    import collections, json, pathlib
+    root = pathlib.Path(__file__).resolve().parents[1]
+    shared = {k: n for k, n in collections.Counter(d.name.split("_")[0] for d in (root / "frontier").iterdir() if d.is_dir()).items() if n > 1}
+    assert shared == {"B58": 3}                                                    # the one id that is shared, on this tree
+    c = query.arc_card("B58", G)
+    by_folder = {d.name: json.loads((d / "arc_verdict.json").read_text(encoding="utf-8"))["verdict"] for d in sorted((root / "frontier").glob("B58_*"))}
+    assert set(by_folder.values()) == {"NEGATIVE", "RETRACTED"} and len(by_folder) == 3
+    assert c["verdicts_by_folder"] == {"frontier/" + k: v for k, v in by_folder.items()} and c["verdict"] is None
+    lines = c["text"].split("\n")
+    assert lines[0].startswith("B58 [NEGATIVE; RETRACTED; NEGATIVE]") and "3 folders carry this id" in lines[0]
+    for name, verdict in by_folder.items():
+        assert "  verdict: %s   folder: frontier/%s" % (verdict, name) in lines, name   # each folder with its own verdict
+    assert sum(1 for l in lines if l.startswith("  claim: ")) == 3
+    # a twin: an id with one folder reads as it did
+    one = query.arc_card("B57", G)
+    assert one["verdict"] == "PROVED" and one["text"].startswith("B57 [PROVED]") and "folders carry this id" not in one["text"]
+    assert one["text"].count("  verdict: PROVED   folder: frontier/B57_general_m_splitting") == 1
+
+
 def test_motif_trace_and_neighbors_and_cooccurrence():
     t = query.motif_trace("kappa", G)
     assert t["count"] == FREQ["kappa"] and t["probes"]
@@ -136,3 +179,27 @@ def test_render_regenerates_the_map(tmp_path):
     with open(out, encoding="utf-8") as f:
         head = f.read(4000)
     assert "GENERATED" in head and "context card" in head
+
+
+def test_the_query_finds_an_arc_whose_folder_is_named_by_its_id_alone(tmp_path):
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The query
+    looked for `frontier/<id>_*` and missed a folder named by the id alone.  Planted: three folders, B9, B9_words and B91_other;
+    the query for B9 finds the first two and not the third."""
+    import importlib.util as _u
+    import json as _j
+    import pathlib as _p
+    import sys as _s
+    _s.dont_write_bytecode, was = True, _s.dont_write_bytecode
+    try:
+        spec = _u.spec_from_file_location("atlas_query_for_a_bare_id", _p.Path(__file__).resolve().parents[1] / "scripts" / "atlas" / "query.py")
+        q = _u.module_from_spec(spec)
+        spec.loader.exec_module(q)
+    finally:
+        _s.dont_write_bytecode = was
+    for name in ("B9", "B9_words", "B91_other"):
+        (tmp_path / "frontier" / name).mkdir(parents=True)
+        (tmp_path / "frontier" / name / "arc_verdict.json").write_text(_j.dumps({"verdict": "PROVED", "claim_one_line": name}), encoding="utf-8")
+    assert [f for f, _, _, _ in q._verdicts_of("B9", root=str(tmp_path))] == ["frontier/B9", "frontier/B9_words"]
+    assert [f for f, _, _, _ in q._verdicts_of("B91", root=str(tmp_path))] == ["frontier/B91_other"]
+    # the twin: on this repository a folder named <id>_<words> is found as before
+    assert [f for f, _, _, _ in q._verdicts_of("B1905")] == ["frontier/B1905_selection_and_chirality_across_the_record"]

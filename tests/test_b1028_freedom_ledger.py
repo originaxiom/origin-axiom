@@ -130,8 +130,37 @@ OLD_ZERO = re.compile(r"0\.000\s+(?:retroactive\s+)?(?:designer\s+)?bits|zero\s+
 ABOUT_LEDGER = re.compile(r"designer|freedom[ -]ledger|B1028", re.I)
 
 
+# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first): an item
+# of a list was taken only from "-", "*", "+" or a number, so the same list with typographic bullets was one unit.  The
+# pattern as it stood:
+#     _A_BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
+_A_BULLET = re.compile(r"^\s*(?:[-*+\u2022\u25e6\u2023\u2043\u2219\u25aa\u25cf\u2013\u2014]|\d+[.)]|[a-z][.)])\s+")
+
+
 def _units(text):
-    """what a reader takes in at once: a table's row, and a paragraph's prose joined over its line breaks"""
+    """What a reader takes in at once: a table's row; an item of a list, with the lines that continue it; and a paragraph's
+    prose joined over its line breaks.
+    CHANGED 2026-11-12 (Review 80; a reader's finding F13, not checked by main, made again here).  A list with no empty line
+    between its items was one unit, so the correction in one item excused the zero stated in another.  Each item is a unit
+    of its own now.  The lines before the first item of a paragraph are a unit, as before."""
+    for para in re.split(r"\n\s*\n", text):
+        rows = [l for l in para.split("\n") if l.lstrip().startswith("|")]
+        items, current = [], []
+        for l in para.split("\n"):
+            if l.lstrip().startswith("|"):
+                continue
+            if _A_BULLET.match(l) and current:
+                items.append(current)
+                current = []
+            current.append(l)
+        if current:
+            items.append(current)
+        for u in rows + [" ".join(i) for i in items]:
+            yield " ".join(u.split())
+
+
+def _units_as_they_were(text):
+    """the units of this sweep until 2026-11-12: a tight list was one unit.  Kept for the planted cases of the test below."""
     for para in re.split(r"\n\s*\n", text):
         rows = [l for l in para.split("\n") if l.lstrip().startswith("|")]
         prose = " ".join(l for l in para.split("\n") if not l.lstrip().startswith("|"))
@@ -143,6 +172,26 @@ def _bare_statements(text):
     """the units of `text` that state the zero with no correction BESIDE it.  Until 2026-11-11 the correction had only to stand
     somewhere in the same file, and it was read line by line: six pages stated the zero in a paragraph with no correction in it"""
     return [u for u in _units(text) if OLD_ZERO.search(u) and ABOUT_LEDGER.search(u) and MARK.lower() not in u.lower()]
+
+
+def test_a_correction_in_one_item_of_a_list_does_not_excuse_the_zero_in_another():
+    """Added 2026-11-12 (Review 80; a reader's finding F13, not checked by main, made again here).  Planted: a list whose
+    first item carries the correction and whose third states the zero; and the list as it stood on B1222's page, the
+    correction an item of its own before the item it corrects.  With a list read as one unit, as it was, neither is
+    reported.  A twin, the correction inside the item that states the zero, is not reported."""
+    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
+    bare_as_it_was = lambda text: [u for u in _units_as_they_were(text) if OLD_ZERO.search(u) and ABOUT_LEDGER.search(u) and MARK.lower() not in u.lower()]
+    another_item = "The counterexamples:\n- one thing, noted. " + note + "\n- a second thing\n- **designer freedom 0.000 bits** is a count over the chain"
+    as_it_stood = "The counterexamples:\n- a first thing\n- " + note + "\n- **designer freedom 0.000 bits** is a meta-accounting over the chain,\n  not an object vanishing at all"
+    for what, text in (("in another item", another_item), ("an item of its own before the item it corrects", as_it_stood)):
+        assert not bare_as_it_was(text), what                                    # read as one unit: not reported
+        assert len(_bare_statements(text)) == 1, what
+    twin = "The counterexamples:\n- a first thing\n- **designer freedom 0.000 bits** is a meta-accounting over the chain,\n  not an object vanishing at all\n  " + note
+    assert not _bare_statements(twin) and not bare_as_it_was(twin)
+    # the page this was found on carries the correction inside the item now, and says that it was moved
+    page = (ROOT / "frontier" / "B1222_symmetry_vanishing_thesis" / "FINDINGS.md").read_text(encoding="utf-8")
+    assert not _bare_statements(page) and "[MOVED 2026-11-12 (Review 80;" in page
+    assert sum(1 for l in page.split("\n") if l.startswith("- [CORRECTED 2026-11-11 (the audit's finding E7)")) == 0
 
 
 def _swept():
@@ -200,3 +249,18 @@ def test_the_sweep_sees_what_the_second_reading_found():
               "the twisted-vs-raw weld convention (0 bits), and the listener member (0 bits)",
               "what B1028 called zero designer freedom: " + MARK):
         assert not _bare_statements(s), s
+
+
+def test_a_list_is_read_by_its_items_whatever_its_bullets():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 15, not checked by main, made again first).  The
+    list of the test above, with typographic bullets: read as one unit, the correction in its first item excused the zero in
+    its third.  Each item is read now, with each bullet a list is written with here; the twin is as above."""
+    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
+    plain = "The counterexamples:\n- one thing, noted. " + note + "\n- a second thing\n- **designer freedom 0.000 bits** is a count over the chain"
+    assert len(_bare_statements(plain)) == 1
+    for bullet in ("\u2022", "\u25e6", "\u2023", "\u2043", "\u2219", "\u25aa", "\u25cf", "\u2013", "\u2014", "1.", "a)"):
+        text = plain.replace("\n- ", "\n" + bullet + " ")
+        assert len(_bare_statements(text)) == 1, repr(bullet)
+        twin = text.replace(" is a count over the chain", " is a count over the chain " + note)
+        assert _bare_statements(twin) == [], repr(bullet)
+

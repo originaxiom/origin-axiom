@@ -31,6 +31,74 @@ def _wp(i):
     return next(x for x in S.WP if x["id"] == i)
 
 
+# Review 80 (2026-11-12; sent back by the builder with the first part of its second series, and the cause named by the reader
+# of that part).  THIS LOCK LEFT THE PLAN'S SOURCE CHANGED.  Run in one process before tests/test_closure_generated.py, it made
+# two tests of that file fail: the builder's output was then no longer the committed page.  The cause: a control that takes
+# a name out of a list put it back at the list's END, so the list came back in another order (the nodes of one package, the
+# members of entries of the budget), and the next file's import took the module as it was left.  Main's word (its third folder
+# for the builder, section 8, row 4): a control that changes the builder's module leaves it as it found it.  So the source is
+# copied whole when this lock is loaded, each control puts it back from that copy and not only by its own undoing, and it
+# is put back after every test of this file.  What a control undid by hand is still undone by hand first, as before.
+def _the_source_as_it_stands():
+    """every name of the plan's source that holds data, copied whole"""
+    return {k: copy.deepcopy(v) for k, v in vars(S).items()
+            if not k.startswith("__") and isinstance(v, (list, dict, set, tuple, str, int, float, bool, type(None)))}
+
+
+def _put_into(now, was):
+    """make `now` equal to `was`, in place wherever both are a list or a table of one shape, so that a name that points into
+    the source still points at what it pointed at"""
+    if isinstance(now, dict) and isinstance(was, dict):
+        for k in [k for k in now if k not in was]:
+            del now[k]
+        for k, v in was.items():
+            if k in now and type(now[k]) is type(v) and isinstance(v, (list, dict)):
+                _put_into(now[k], v)
+            elif k not in now or now[k] != v:
+                now[k] = copy.deepcopy(v)
+        if list(now) != list(was):                       # the order of a table's keys is part of what the builder prints
+            kept = dict(now)
+            now.clear()
+            now.update((k, kept[k]) for k in was)
+    elif isinstance(now, list) and isinstance(was, list):
+        if len(now) == len(was) and all(type(a) is type(b) for a, b in zip(now, was)):
+            for i, (a, b) in enumerate(zip(now, was)):
+                if isinstance(b, (list, dict)):
+                    _put_into(a, b)
+                elif a != b:
+                    now[i] = copy.deepcopy(b)
+        else:
+            now[:] = copy.deepcopy(was)
+
+
+def _put_the_source_back(found):
+    for k in [k for k, v in vars(S).items() if not k.startswith("__") and k not in found
+              and isinstance(v, (list, dict, set, tuple, str, int, float, bool, type(None)))]:
+        delattr(S, k)
+    for k, was in found.items():
+        now = getattr(S, k, None)
+        if type(now) is type(was) and isinstance(was, (list, dict)):
+            _put_into(now, was)
+        elif not hasattr(S, k) or now != was:
+            setattr(S, k, copy.deepcopy(was))
+
+
+def _how_the_source_differs(found):
+    """the names of the source that are not what they were, in value or in the order of what they hold"""
+    now = _the_source_as_it_stands()
+    return sorted(k for k in set(now) | set(found) if k not in now or k not in found or now[k] != found[k]
+                  or json.dumps(now[k], sort_keys=False, default=str) != json.dumps(found[k], sort_keys=False, default=str))
+
+
+_THE_SOURCE_AS_FOUND = _the_source_as_it_stands()          # after the first build above: the builder itself adds to the source's entries
+
+
+@pytest.fixture(autouse=True)
+def _the_source_is_left_as_it_was_found():
+    yield
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+
+
 @contextlib.contextmanager
 def planted(apply, undo):
     apply()
@@ -38,6 +106,7 @@ def planted(apply, undo):
         yield _refusals()
     finally:
         undo()
+        _put_the_source_back(_THE_SOURCE_AS_FOUND)          # until 2026-11-12: undo() alone
 
 
 def test_the_programme_covers_the_map():
@@ -156,7 +225,7 @@ def test_the_audit_is_carried_finding_by_finding():
     # eleven by the owner's answer of 2026-11-10; the four asked later (P-771) each by the owner's own answer of 2026-11-11; none is left asked
     assert len(S.CONFIRMED) == 11 and len(S.CONFIRMED_LATER) == 4 and st["rulings_confirmed_by_the_owner_to_main"] == 15
     assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0
-    # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with 'even ticks observed': after the computation
+    # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with the ruling of 2026-10-08 that only even ticks are observed: after the computation
     assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 4 and S.DIRECT_RULINGS[2][2] == "After the computation"
     assert S.DIRECT_RULINGS[3][2] == "A condition to derive (Recommended)" and S.EXITS["the orientation"][0] == "BACK-EDGE NAMED"      # ruled with B1879 in hand
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
@@ -695,7 +764,18 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
 # Review 80 (2026-11-12; the SM seat's finding 29).  The page gives what the owner answered in plain words and quotes nothing he
 # said (register row P-796).  The lock asked for less: one phrase present, one spelling absent.  This reads the page by shape.
 _OPENS = "\"“‘«'"
-_AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
+_CLOSES = "\"”’»'"
+# until 2026-11-12: re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS)).  Two of the five shapes below are
+# mended here: a dash directly before the mark, and a guillemet with a space after it.
+_AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[\-\u2013\u2014])|^)(?:[%s](?=\S)|\u00ab(?=\s\S))" % re.escape(_OPENS))
+_CLOSE_OF = {'"': '"', "\u201c": "\u201d", "\u2018": "\u2019", "\u00ab": "\u00bb", "'": "'"}
+# what follows a closing mark where the words before the mark are given as the owner's: "...", the owner said
+_SAID_AFTER = re.compile(r"[\s,;:.\u2013\u2014-]*(?:(?:said|says|wrote|writes|answered|replied|ruled|added)\s+(?:the\s+owner|he)\b"
+                         r"|(?:the\s+owner|he)\s+(?:said|says|wrote|writes|answered|replied|ruled|added|put\s+it|told|had\s+said)\b"
+                         r"|(?:as|in)\s+(?:the\s+owner(?:'s)?|his)\s+(?:own\s+)?(?:words|answer|phrase)\b)", re.I)
+# a run of plain words in backticks: three words or more, with nothing in it that a path, a command or a name of the code has
+_WORDS_IN_BACKTICKS = re.compile(r"`([^`\n]*)`")
+_NOT_PLAIN_WORDS = re.compile(r"[/\\=_(){}\[\]<>|#$@*]|\.(?:py|md|json|txt|tex|sh)\b|--\w")
 _A_WORD_FOR_THE_OWNER = re.compile(r"\b(?:[Oo]wner|[Hh]e|[Hh]is|[Hh]im)\b")
 _A_BLOCK = re.compile(r"^\s*(?:[-*+]\s+|\d+\.\s+)?>|<\s*(?:blockquote|q)\b", re.I)
 WITHIN = 120
@@ -703,7 +783,11 @@ WITHIN = 120
 # page names by three words in single marks, in two places (the package WP-1.4 and its row in section 9).  Whether a ruling's
 # name in marks is a quotation of the owner is main's to say; it went back to main with this patch.  The list shortens
 # freely.  It grows only with a line here that says who entered the name and why.
-HELD_BY_NAME = {"even ticks observed": 2}
+# EMPTIED 2026-11-12 (main's word, its third folder for the builder, section 8, row 2): the name is treated as the owner's, both
+# places are reworded in plain words, and the table holds no name.  It held one, twice.  The reader of the first part also
+# found that the exemption asked only that the text after the opening mark BEGINS with the name, so any words could follow it
+# inside the same marks; with the table empty nothing is exempt.  The name itself is not kept here.
+HELD_BY_NAME = {}
 
 
 def the_owners_answers_in_plain_words():
@@ -723,18 +807,39 @@ def what_the_plans_page_quotes(page, accounts=None, held=None):
     accounts = the_owners_answers_in_plain_words() if accounts is None else accounts
     left = dict(HELD_BY_NAME if held is None else held)
     out = []
-    for n, line in enumerate(page.split("\n"), 1):
+    lines = page.split("\n")
+    for n, line in enumerate(lines, 1):
         if _A_BLOCK.search(line):
             out.append((n, "a block quotation"))
-        for cell in line.split("|"):
+        # ADDED 2026-11-12 (the second gap of the cold read of the first part; main's M18, not checked by main).  Five shapes the
+        # reader did not see.  (1) The words for the owner at the end of one line and the mark on the next: for a line of prose
+        # the end of the line before it is read with it.  (2) The words for the owner AFTER the closing mark.  (3) A guillemet
+        # with a space inside, and (4) a dash directly before the mark: both in the pattern of an opening mark.  (5) Plain
+        # words in backticks after a word for the owner.
+        table = line.lstrip().startswith("|")
+        before_it = lines[n - 2] if n >= 2 and not table and lines[n - 2].strip() and not lines[n - 2].lstrip().startswith("|") else ""
+        cells = line.split("|")
+        for at, cell in enumerate(cells):
+            carried = before_it[-WITHIN:] + " " if at == 0 else ""
             for m in _AN_OPENING_MARK.finditer(cell):
-                if not _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()]):
+                close = cell.find(_CLOSE_OF.get(m.group(0), m.group(0)), m.end())
+                if close > 0 and _SAID_AFTER.match(cell[close + 1:close + 81]):
+                    out.append((n, "a quotation is followed by words that give it to the owner"))
                     continue
-                name = next((k for k in left if cell[m.end():].startswith(k)), None)
+                if not _A_WORD_FOR_THE_OWNER.search((carried + cell[:m.start()])[-WITHIN:]):      # until 2026-11-12: cell[max(0, m.start() - WITHIN):m.start()]
+                    continue
+                # until 2026-11-12: `cell[m.end():].startswith(k)`, so words that followed a held name inside the same marks were
+                # excused with it (found by the reader of the first part).  A held name is the whole of what stands in the marks.
+                rest = cell[m.end():]
+                name = next((k for k in left if rest.startswith(k) and rest[len(k):len(k) + 1] in tuple(_CLOSES)), None)
                 if name and left[name] > 0:
                     left[name] -= 1
                     continue
                 out.append((n, "a quotation opens after a word for the owner"))
+            for m in _WORDS_IN_BACKTICKS.finditer(cell):
+                inside = m.group(1).strip()
+                if len(inside.split()) >= 3 and not _NOT_PLAIN_WORDS.search(inside) and _A_WORD_FOR_THE_OWNER.search((carried + cell[:m.start()])[-WITHIN:]):
+                    out.append((n, "plain words stand in backticks after a word for the owner"))
         for a in accounts:
             if a and any(o + a in line for o in _OPENS):
                 out.append((n, "an account kept in plain words is printed in quotation marks"))
@@ -750,9 +855,18 @@ def test_the_plans_page_quotes_nothing_of_the_owner():
     page as it stood until that day: the builder printed the owner's answer as a block quotation, and the lock passed."""
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
     assert what_the_plans_page_quotes(page) == []
-    # the two places held by name are there to be held: with the table empty they are reported, and a third is reported
-    assert [w for _, w in what_the_plans_page_quotes(page, held={})] == ["a quotation opens after a word for the owner"] * 2
-    assert len(what_the_plans_page_quotes(page + "\nThe owner's ruling ('even ticks observed') once more.\n")) == 1
+    # CHANGED 2026-11-12 (main's word, its third folder for the builder, section 8, row 2).  Three lines stood here: with the
+    # table of names held empty the page's two places were reported, and a third place with the same name in marks was
+    # reported.  The two places are reworded and the table is empty, so the page reports nothing with nothing held; and a
+    # ruling named in marks after a word for the owner is reported, whatever follows its first words inside the marks.
+    assert HELD_BY_NAME == {} and what_the_plans_page_quotes(page, held={}) == []
+    assert page.count("ruling of 2026-10-08 that only even ticks are observed") == 2
+    for planted_name in ("The owner's ruling ('a name of three words') once more.", "The owner's ruling ('a name of three words, and words after it') once more."):
+        assert len(what_the_plans_page_quotes(page + "\n" + planted_name + "\n")) == 1, planted_name
+    # the exemption as it stood excused words that follow a held name inside the same marks.  Shown on a table of one name: the
+    # name alone in its marks is held, and the name with words after it is reported
+    assert what_the_plans_page_quotes("The owner's ruling ('a name').", held={"a name": 1}) == []
+    assert len(what_the_plans_page_quotes("The owner's ruling ('a name and anything he said after it').", held={"a name": 1})) == 1
     assert "the option the owner chose, in main's label" in page                # the column that says whose words a label is
     at = "The owner answered main on %s." % S.CONFIRMATION[0]
     assert page.count(at) == 1
@@ -776,4 +890,169 @@ def test_the_plans_page_quotes_nothing_of_the_owner():
                   "the owner's rulings, and main's opinion on each",
                   "CONFIRMED 2026-11-11: asked \"Is the tick an act?\", the owner chose main's option: Yes, admit it (Recommended)"):
         assert what_the_plans_page_quotes(quiet) == [], quiet
+
+
+
+def test_a_control_leaves_the_plans_source_as_it_found_it():
+    """the control below is the shape that left the source changed: a name taken out of a list and put back at its end.  With
+    its own undoing alone the list comes back in another order; put back from the copy, it is as it was."""
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
+    package = next(w for w in S.WP if len(w["nodes"]) >= 3)
+    first = package["nodes"][0]
+    package["nodes"].remove(first)
+    package["nodes"].append(first)                          # the undoing as the controls wrote it: back, and at the end
+    assert sorted(package["nodes"]) == sorted(next(w for w in _THE_SOURCE_AS_FOUND["WP"] if w["id"] == package["id"])["nodes"])
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == ["WP"], "the same names in another order are not seen as a difference"
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == [] and package["nodes"][0] == first and package is next(w for w in S.WP if w["id"] == package["id"])
+    # through the helper every control uses: an undoing that puts back at the end leaves nothing behind
+    with planted(lambda: package["nodes"].remove(first), lambda: package["nodes"].append(first)) as refusals:
+        assert refusals
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
+    # a name added to the source, a name taken from it, a table's key added, a text changed: each is put back
+    S.A_NAME_THAT_WAS_NOT_THERE = ["x"]
+    kept = S.CONFIRMATION
+    S.CONFIRMATION = ("", "")
+    S.INPUTS[0]["a key that was not there"] = 1
+    del S.DEBT_TO_WP[next(iter(S.DEBT_TO_WP))]
+    assert len(_how_the_source_differs(_THE_SOURCE_AS_FOUND)) == 4
+    _put_the_source_back(_THE_SOURCE_AS_FOUND)
+    assert _how_the_source_differs(_THE_SOURCE_AS_FOUND) == [] and S.CONFIRMATION == kept and not hasattr(S, "A_NAME_THAT_WAS_NOT_THERE")
+    # and what the next file asks: the builder's output is the committed page
+    assert bp.build()["fails"] == [] and _how_the_source_differs(_THE_SOURCE_AS_FOUND) == []
+
+
+def _as_the_reader_read_before_part_six(page):
+    """the reader as it stood until 2026-11-12, kept to show what it passed: a mark that opens after white space or one of
+    : , ; ( [ and is followed at once by a letter, with a word for the owner in the 120 characters before it in its cell"""
+    opening = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
+    out = []
+    for n, line in enumerate(page.split("\n"), 1):
+        if _A_BLOCK.search(line):
+            out.append(n)
+        for cell in line.split("|"):
+            out += [n for m in opening.finditer(cell) if _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()])]
+    return out
+
+
+def test_five_shapes_of_a_quotation_that_the_reader_did_not_see():
+    """the second gap of the cold read of the first part (main's M18; not checked by main; made again here): each planted line
+    passed the reader as it stood, and is reported now.  The words are planted words."""
+    words = "planted words that stand for an answer"
+    shapes = {
+        "the words for him on one line, the mark at the start of the next": "On that day the owner answered main, and what he said was\n\"%s\" and no more." % words,
+        "the words for him after the closing mark": "\"%s\", the owner said." % words,
+        "the same, the other way round": "The answer was \"%s\", said the owner." % words,
+        "the same, as his words": "It was put as \"%s\", in his own words." % words,
+        "guillemets with a space inside": "The owner answered: « %s »." % words,
+        "a dash directly before the mark": "The owner—\"%s\"—and nothing else." % words,
+        "a hyphen directly before the mark": "The owner said -\"%s\"." % words,
+        "plain words in backticks": "The owner answered `%s`." % words,
+    }
+    for what, text in shapes.items():
+        assert _as_the_reader_read_before_part_six(text) == [], "this one was reported before, and is not a case of the gap: " + what
+        assert len(what_the_plans_page_quotes(text, held={})) == 1, what
+    # twins that must stay quiet
+    for quiet in (
+            "asked \"Is the tick an act?\", the owner chose main's option: Yes, admit it (Recommended)",       # a question of main's, and what he chose
+            "| the weave discipline | \"the owner agreed to the five proposals\" | CONFIRMED |",              # a seat's sentence that names him
+            "The owner's ruling R3 is carried out in `scripts/gates/gates.py` and in `tests/test_attribution_history.py`.",      # paths in backticks
+            "The owner ruled on 2026-11-11; run `python3 build_programme.py --write` to build the page.",      # a command in backticks
+            "Main asked the owner about the ruling.\n\n\"A sentence of a seat\", in the seat's own page, says otherwise.",     # a paragraph ends between them
+            "| the owner answered | \"a sentence of a seat\" |"):                                              # another cell
+        assert what_the_plans_page_quotes(quiet, held={}) == [], quiet
+    # what the reader still does not see, said here: his words with no mark at all, or in italics; and words given to him after
+    # the closing mark by a verb that is not in its short list
+    assert what_the_plans_page_quotes("\"%s\", the owner chose." % words, held={}) == []
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    assert what_the_plans_page_quotes(page) == []
+
+
+def _short_as_it_was(s, n=110):
+    """the function as it stood after the first part of this series, kept to show what it gave"""
+    s = str(s).strip()
+    if len(s) <= n:
+        return s
+    head = s[:n + 1]
+    cut = head.rfind(" ")
+    head = head[:cut] if cut > 0 else s[:n]
+    kept = head.rstrip(" ,;:")
+    if not any(c.isalnum() for c in kept):
+        kept = s[:n].rstrip(" ,;:") or s[:n]
+    return kept + " […]"
+
+
+def test_a_text_cut_for_a_cell_keeps_a_word_of_it():
+    """the third gap of the cold read of the first part (main's M18; not checked by main; made again here)"""
+    n = 110
+    cases = {
+        "a bracket, then only spaces and marks up to the cut": "(" + " ,;:" * 40 + "word " * 30,
+        "a dash, then only spaces up to the cut": "-" + " " * 150 + "word and more words",
+        "a comma and spaces up to the cut": "," + " " * 150 + "word and more words",
+        "a short label in brackets before a long word": "(a) " + "z" * 200,
+    }
+    gave = {what: _short_as_it_was(text, n) for what, text in cases.items()}
+    assert gave["a bracket, then only spaces and marks up to the cut"] == "( […]"                     # the mark alone
+    assert gave["a dash, then only spaces up to the cut"] == "- […]"
+    assert gave["a comma and spaces up to the cut"].strip(" ,") == "[…]"                              # the comma and the spaces
+    assert gave["a short label in brackets before a long word"] == "(a) […]"                          # the label alone
+    for what, text in cases.items():
+        out = bp.short(text, n)
+        assert out.endswith(" […]") and out != gave[what], what
+        body = out[:-len(" […]")]
+        assert re.search(r"[a-z]{4}", body), "nothing of the sentence is kept: %s -> %r" % (what, out[:40])
+        assert text.strip().startswith(body) and len(body) <= 3 * n, what
+    # twins: what the function gave before for an ordinary sentence, a text that fits, and one long word, it gives now
+    for text in ("The principle allows the act as the ground and does not force it, and with every history a ground the record's rule has four root classes and more.",
+                 "a text that fits", "q" * 300, "one two three " * 20, " " + "r" * 300):
+        assert bp.short(text, n) == _short_as_it_was(text, n), text[:30]
+    assert bp.short(", ; : " * 60, n).endswith(" […]")                                                # a text with no word in it at all is cut at n
+    # and on the page: no cell of the plan changes with the mend (the builder's output is the committed page)
+    assert bp.build()["fails"] == []
+
+
+def test_the_row_of_a_finding_names_the_arc_that_replaced_its_fix():
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A12, held by main).  The plan's row for G9 gave
+    the attribution gate as B1878 landed it, reading the first-parent line, and did not name B1880, which replaced that
+    reading the same day.  The page, the verdict line and the lock of B1878 had been mended; this row had not."""
+    note = S.FINDINGS["G9"]["note"]
+    assert note.startswith("B1878: the attribution gate reads every commit message on the first-parent line")      # what stood is kept
+    assert "B1880 replaced that reading the same day: every commit reachable from the tip" in note
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    row = [l for l in page.split("\n") if l.startswith("| G9 |")]
+    assert len(row) == 1 and "B1880 replaced that reading the same day" in row[0] and "first-parent line" in row[0]
+    # the arc it names says the same of itself
+    b1878 = " ".join((ARC.parent / "B1878_the_goal_as_ruled_in_the_governing_documents" / "FINDINGS.md").read_text(encoding="utf-8").split())
+    assert "B1880 replaced that rule as well" in b1878
+
+
+# 2026-11-13 (R80b, part 6, patch 26; main's M21).  The words of the ruling of 2026-10-08 are held nowhere in marks: not in the
+# source, not on the page, not in the data.  The plain words ("the ruling of 2026-10-08 that only even ticks are observed",
+# or shorter) stand where they are needed.  A form in marks is found by a mark of quotation that stands right before the
+# words (and not after a letter, as an apostrophe of possession does) and one that closes within thirty characters after
+# them, so that no spelling of the ruling's words is needed here.
+_IN_MARKS = re.compile(r"(?<![A-Za-z])[\'\"\u2018\u201c\u00ab]\s*(?:only\s+)?even\s+ticks\b[^\'\"\u2019\u201d\u00bb\n]{0,30}[\'\"\u2019\u201d\u00bb](?![A-Za-z])")
+
+
+def _the_rulings_words_in_marks(text):
+    return [m.group(0) for m in _IN_MARKS.finditer(text)]
+
+
+def test_the_words_of_the_ruling_of_2026_10_08_stand_in_marks_nowhere_in_the_source_the_page_or_the_data():
+    arc = pathlib.Path(__file__).resolve().parents[1]
+    for rel in ("verification/programme_source.py", "PROGRAMME.md", "PROGRAMME.json"):
+        text = (arc / rel).read_text(encoding="utf-8")
+        assert _the_rulings_words_in_marks(text) == [], rel
+        assert "only even ticks are observed" in text, rel                       # the plain words stand
+    # planted: the plain words put in marks, in each of the shapes a mark takes; and their twin, the same words without marks
+    plain = "the ruling of 2026-10-08 that only even ticks are observed"
+    for a, b in (("'", "'"), ('"', '"'), ("\u2018", "\u2019"), ("\u201c", "\u201d"), ("\u00ab", "\u00bb")):
+        assert _the_rulings_words_in_marks("you ruled %sonly even ticks are observed%s on that day" % (a, b)), a
+        assert _the_rulings_words_in_marks("%seven  ticks%s" % (a, b)), a
+    assert _the_rulings_words_in_marks(plain) == [] and _the_rulings_words_in_marks("how 'the tick is an act' stands with " + plain) == []
+    # the source with one of the five places as it stood is refused: the name of the fourth ruling put back in marks
+    src = (arc / "verification" / "programme_source.py").read_text(encoding="utf-8")
+    old = '("the ruling of 2026-10-08, after the computation"'
+    assert src.count(old) == 1
+    assert _the_rulings_words_in_marks(src.replace(old, '("\'only even ticks\', after the computation"')) != []
 

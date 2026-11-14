@@ -36,3 +36,15 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the six-bar specialist send-queue waits on the owner's per-item SEND, HOLD or REFRAME; the cold-pass election and the census calls stay the owner's.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the specialist send-queue waits on a per-item SEND, HOLD or REFRAME | DISCHARGED | `docs/THE_REMAINING_MATH.md` | specialist-send items **HOLD** (`SPECIALIST_SEND_QUEUE.md` decision box); THE PAPER is crafted | decided: every item HOLD; the queue stays built and unsent |
+| the census calls | CARRIED | `docs/THE_REMAINING_MATH.md` | ∣ 6 ∣ census-31-calls (R45-5, owner:cc) · L145a · F11 · K014 · L189 (U_e/quasinormal) ∣ QUEUED — smaller bounded cells ∣ | the queue of the remaining mathematics, row 6 |
+| the cold-pass election | UNREGISTERED | `frontier/B1179_outreach_and_papers/FINDINGS.md` | the cold-pass election and the census calls stay the owner's | P-745 (no row, lead or arc decides it) |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-745; the queue of the remaining mathematics, row 6). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

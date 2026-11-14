@@ -20178,3 +20178,43 @@ seat's check. Six are left.
 **What happened.** The record-keeping helper built an automatic check, and main tested it with its own planted cases before accepting it: from now on a negative result cannot enter the record unless an independent second computation is named, or it is marked provisional, and it must say what the wall teaches.
 
 0 of 19.
+
+## 2026-11-12 — The review's repairs, the first three parts (S306p)
+
+**What this is.** The eightieth review left forty-one faults to repair, and two more came in while the work was under way. This is the first three parts of that repair: thirty-three small changes, each answering one fault or a few that belong together.
+
+**Who did it.** Not main. A building session wrote each change as a patch from main's own table of the faults and main's own checks, and main publishes them after checking. Where main had not checked a fault itself, the builder first made sure the fault was real.
+
+**What was repaired.** The plan's page no longer quotes the owner; it says in plain words what he answered. The test that guards one of the mathematics records now notices if its script is weakened in any way: five ways of weakening it, which main had tried and which all went unnoticed, are now all noticed. Counts and sentences on a dozen older pages say what is true of them. Several tests that could not fail, or that looked in too wide a place, are tightened, each shown against a deliberately planted error.
+
+**Two corrections this entry carries.** A sentence of 2026-11-11 gave a number the wrong sign in one of its two meanings; it is corrected in each place it stood. And on 2026-11-12 main used the word "reproduced" for checks of its own, where the record keeps that word for running the same code again; the places are noted.
+
+**What is left.** Two parts: the tool that tells each session when main has written to it, and five larger debts from the first half of the review.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.
+
+## 2026-11-12 — What the record has settled about choosing, and a ledger of the walls it keeps meeting (S306p)
+
+**What this is.** Main read the whole record for what it ever settled about two questions: how one thing is chosen out of several, and how a left-handed form is told from a right-handed one. Six reading sessions read 636 arcs, one arc each. The answer: neither question is solved, and no page says it is. The record had drawn the lesson already in August, in an arc that no governing page named.
+
+**What was built.** A building session placed main's reading as an arc of the record with a test that checks every number against the rows it comes from. Main's rule for the future is in the working rules: before claiming that something is chosen, read the history of that kind of question, say what the computation assumes and change it, and use only a kind of criterion that has ever chosen anything here. A new page lists the walls the record keeps meeting, each with its history; the search that every new piece of work starts with now prints that history first; and a new check asks any new claim of a choice to say which kind of criterion it uses.
+
+**What it does not do.** It does not say that the readers sorted each arc correctly: each was read once. It does not touch the mathematics.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.
+
+## 2026-11-13 — Two old sentences that said more than was true are marked where they stand (S306p)
+
+**What this is.** Main checked two statements of the early record on its own code and found each true only in a narrower form. One said that a number field of degree two allows a thing to come only once or twice, never three times; it holds for one kind of counting and fails for others. The other said that one number picks out exactly one algebra; three algebras give it, and only one of them has the other property the arc also used.
+
+**What was built.** A building session wrote a dated note beside each sentence, on the arcs' pages, in their one-line verdicts and in the places that cite them, quoting main's check word for word. The old sentences stay as they were written. A test fails if a note is taken out, moved away from its sentence or misquoted, and the lock of the second arc now checks the corrected statement over all sixteen algebras of that family up to rank eight.
+
+**What it does not do.** It does not change any result the old arcs computed. Places beyond the ones main listed, the paper among them, still carry the first sentence; they are listed for main.
+
+**Which piece of the plan moved.** None. The work was on how the record is kept and checked.
+
+0 of 19.

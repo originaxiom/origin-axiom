@@ -71,9 +71,9 @@ scalar θ\*, fit against Standard Model / cosmological observables. The May-2026
 ## 3. Local archive — `legacy/raw/old/`
 
 > **Path note (2026-05-22 reorganization):** the `old/` folder was moved to
-> `legacy/raw/old/` (git-ignored — see `legacy/README.md`). All paths in this section are
+> `legacy/raw/old/` (git-ignored — see `docs/archive/legacy/README.md`). All paths in this section are
 > relative to `legacy/raw/`. Curated text extracted from this archive is committed under
-> `legacy/reports/`.
+> `docs/archive/legacy/reports/`.
 
 ### 3.0 `old/even older/e_origin axiom/`  (genesis era — ~Oct 2025)
 
@@ -86,10 +86,10 @@ folders `00_base_raw_archive`, `01_master_start`, `02_edh_cont`, `03_consolidato
 ChatGPT conversation exports (Oct 2025); and large numerical result files (`.npy`, `.npz`).
 **Not yet audited in detail** — flagged for a later pass if desired.
 
-**2026-05-27 update — four genesis documents promoted to `legacy/reports/genesis/`:**
+**2026-05-27 update — four genesis documents promoted to `docs/archive/legacy/reports/genesis/`:**
 After the Session 3 synthesis (`PROGRESS_LOG.md` entry of 2026-05-27) reconnected the
 original field-theory intuition to the algebraic skeleton, four foundational documents
-from this era were committed as curated text under `legacy/reports/genesis/`:
+from this era were committed as curated text under `docs/archive/legacy/reports/genesis/`:
 
 | File | Role | Committed? |
 |---|---|---|
@@ -98,7 +98,7 @@ from this era were committed as curated text under `legacy/reports/genesis/`:
 | `02_Master_file_2.txt` | Numerical pipeline indexing (Phase II-A/B, Phase III cavity). | No — git-ignored (PII). |
 | `03_Master_phase3.txt` | Verification of Phase II/III/IV numerical outputs. | No — git-ignored (PII). |
 
-Per `legacy/reports/genesis/README.md`: these are **historical only**, not a source
+Per `docs/archive/legacy/reports/genesis/README.md`: these are **historical only**, not a source
 of claims. The cosine-potential numerical results are superseded by the derived
 cubic `V(τ) = κ(τ³/3 - τ²/2 - τ)` of P16. Their value is provenance — they show
 where the project's central question came from, before any of the current
@@ -107,7 +107,7 @@ vocabulary existed.
 **Privacy note (2026-05-27):** this repo is public. The three raw `.txt`
 transcripts contain personal identifiers — third-party email addresses and the
 author's own contact details/name — so they are **git-ignored**
-(`legacy/reports/genesis/*.txt`) and kept only in the private archive at
+(`docs/archive/legacy/reports/genesis/*.txt`) and kept only in the private archive at
 `legacy/raw/old/even older/e_origin axiom/` (§3.0). The committed PDF carries the
 conceptual content and is clean.
 
@@ -177,11 +177,11 @@ the decision to move to a local development environment. The source narrative fo
 
 | File | Origin | Role |
 |---|---|---|
-| `legacy/handoff/handoff.md` | Created at the end of the Chatterpillar chat, 05-21; moved to `legacy/` in the 05-22 reorg | Hand-off summary for the local-development phase. Represents the **optimistic / frontier** framing. Per `GOVERNANCE.md` §2 it is a historical record, **not** a source of claims. |
+| `docs/archive/legacy/handoff/handoff.md` | Created at the end of the Chatterpillar chat, 05-21; moved to `docs/archive/legacy/` in the 05-22 reorg | Hand-off summary for the local-development phase. Represents the **optimistic / frontier** framing. Per `GOVERNANCE.md` §2 it is a historical record, **not** a source of claims. |
 | `PROVENANCE.md` | This file | Artifact map. |
 | `docs/archive/AUDIT_REPORT.md` | This audit | Reconciled status + repo-strategy recommendation. |
 | `GOVERNANCE.md`, `CLAIMS.md`, `ROADMAP.md`, `README.md`, `PROGRESS_LOG.md`, `CHANGELOG.md`, `REPRODUCIBILITY.md`, `docs/ARCHIVE.md` | Phase 0 build, 05-22 | Governance scaffolding — see `ROADMAP.md`. |
-| `legacy/` | 05-22 reorganization | Frozen prior history: `reports/` (committed curated text), `handoff/`, `raw/` (git-ignored ~4 GB archive). See `legacy/README.md`. |
+| `docs/archive/legacy/` | 05-22 reorganization | Frozen prior history: `reports/` (committed curated text), `handoff/`, `raw/` (git-ignored ~4 GB archive). See `docs/archive/legacy/README.md`. |
 
 ---
 

@@ -15,9 +15,12 @@ MAIN runs:
     python3 scripts/seats/listen.py --main
 
 It fetches every branch and exits when one that is not main has moved, appeared or gone, printing the names and the
-commits and nothing of what the branches hold: some lanes are read only through a mask.
+commits and nothing of what the branches hold: some lanes are read only through a mask.  On its FIRST LOOK, when it has no
+memory to compare with, it prints "FIRST LOOK" and where every branch is, and exits with status 0 as well.
+[ADDED 2026-11-12 (Review 80; found by a reading of this file, made again before it was mended): the last sentence.  Main's
+side has exited on its first look since Review 79, and this docstring and the line on --once below did not say so.]
 
-    --once        look once: status 0 if there is something new, 3 if there is not
+    --once        look once: status 0 if there is something new (for main's side, also on its first look), 3 if there is not
     --interval N  seconds between looks (600 unless given)
     --peek        show what is new and do not remember having shown it
 
@@ -35,7 +38,13 @@ import subprocess
 import sys
 import time
 
-MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
+# CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): a heading was read
+# only where its marks start the line, and a heading indented by one to three spaces, which Markdown reads as a heading, was
+# taken into the message before it.  A message's heading, and the heading that ends it, may now stand after up to three
+# spaces, as Markdown reads them; four spaces make a block of code and no heading.  The pattern as it stood:
+#     MESSAGE = re.compile(r"^### M(\d+)\b.*$", re.M)
+MESSAGE = re.compile(r"^ {0,3}### M(\d+)\b.*$", re.M)
+_ENDS_A_MESSAGE = r"^ {0,3}#{1,3} "
 
 
 GIT_SECONDS = 180          # a fetch that stalls is a failure to look, not a silence (Review 79: the call had no time limit)
@@ -102,13 +111,29 @@ def messages(page):
     fenced = _fenced(page)
     outside = lambda pos: not any(a <= pos < b for a, b in fenced)
     found = {}
+    del DUPLICATES[:]
     heads = [m for m in MESSAGE.finditer(page) if outside(m.start())]
     for k, m in enumerate(heads):
         end = heads[k + 1].start() if k + 1 < len(heads) else len(page)
-        nxt = next((x for x in re.finditer(r"^#{1,2} ", page[m.end():end], re.M) if outside(m.end() + x.start())), None)
+        # CORRECTED 2026-11-12 (Review 80; found by a reading of this function, checked by main on the pattern).  The pattern
+        # was r"^#{1,2} ": a message ended at a heading above its own level and ran on through a heading of its own level
+        # that is not a message, where the docstring says "of its level or above".  A message's heading has three marks.
+        nxt = next((x for x in re.finditer(_ENDS_A_MESSAGE, page[m.end():end], re.M) if outside(m.end() + x.start())), None)
         body = page[m.start():(m.end() + nxt.start()) if nxt else end]
-        found[int(m.group(1))] = body.rstrip() + "\n"
+        # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The line was
+        #     found[int(m.group(1))] = body.rstrip() + "\n"
+        # so of two messages that share a number the second was kept and the first dropped without a word.  Both are kept now,
+        # in the order of the page, under the number, and the number is recorded in DUPLICATES, which the look says aloud.
+        n = int(m.group(1))
+        if n in found:
+            DUPLICATES.append(n)
+            found[n] = found[n] + "\n" + body.rstrip() + "\n"
+        else:
+            found[n] = body.rstrip() + "\n"
     return found
+
+
+DUPLICATES = []          # the numbers that more than one message of the page carries, as the last call of messages() found them
 
 
 def _sum(text):
@@ -129,7 +154,11 @@ def look_seat(seat, cwd, remote, peek):
     if rc != 0:
         return 2, "the fetch of main failed" + (": " + err.splitlines()[-1] if err else ""), None
     path = "docs/seats/%s.md" % seat
-    rc, blob, _ = git("rev-parse", "%s/main:%s" % (remote, path), cwd=cwd)
+    rc, blob, err = git("rev-parse", "%s/main:%s" % (remote, path), cwd=cwd)
+    if rc == 124:
+        # CORRECTED 2026-11-12 (Review 80; found by a reading of the listener, made again before it was mended): a call of
+        # git that did not answer in time was reported as "main has no page".  The page may well be there.
+        return 2, "main's page %s could not be looked for: %s" % (path, err), None
     if rc != 0:
         return 2, "main has no page %s" % path, None
     state_file = mem / ("%s.json" % seat)
@@ -142,24 +171,44 @@ def look_seat(seat, cwd, remote, peek):
     if rc != 0:
         return 2, "main's page %s could not be read" % path + (": " + err.splitlines()[-1] if err else ""), None
     ms = messages(page)
-    read, sums = int(state.get("read", 0)), state.get("sums") or {}
+    # CORRECTED 2026-11-12 (Review 80; the same reading).  The line was
+    #     read, sums = int(state.get("read", 0)), state.get("sums") or {}
+    # A memory that is a table and holds something that is not a number as what was read ("two", or nothing), or a record of
+    # the messages that is not a table, ended the listener with an error of the language, where it should say that it could
+    # not look.
+    read, sums = state.get("read", 0), state.get("sums") or {}
+    if isinstance(read, bool) or not isinstance(read, int) or read < 0 or not isinstance(sums, dict):
+        return 2, ("the listener's memory cannot be read (%s): what it holds as read is not a whole number, or its record of the "
+                   "messages is not a table. Remove it to start again from nothing" % state_file), None
     new = {n: t for n, t in ms.items() if n > read}
     # a message already read whose text has changed since is shown again (Review 79: an amendment in place was never shown)
     amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}
     rc, head, _ = git("rev-parse", "--short=9", "%s/main" % remote, cwd=cwd)
     out = ["YOUR PAGE ON MAIN HAS CHANGED (%s, main at %s)." % (path, head)]
+    if DUPLICATES:
+        out.append("Main's page has more than one message under the number %s: each is shown under that number, in the page's order."
+                   % ", ".join("M%d" % n for n in sorted(set(DUPLICATES))))
     if new:
         out.append("Messages of main you have not read: %s. Newest first:\n" % ", ".join("M%d" % n for n in sorted(new)))
         out += [new[n] for n in sorted(new, reverse=True)]
     if amended:
         out.append("Messages you had read that main has CHANGED since: %s. As they stand now:\n" % ", ".join("M%d" % n for n in sorted(amended)))
         out += [amended[n] for n in sorted(amended, reverse=True)]
-    if not new and not amended and read and not sums:
-        # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
-        # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
-        # changed in place was lost for good.
-        out.append("No new message. This listener's memory was written by an older version and holds no record of the text of the "
-                   "messages you had read, so it cannot tell whether main has changed one of them: read M1 to M%d on the page again." % read)
+    # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
+    # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
+    # changed in place was lost for good.
+    # CORRECTED 2026-11-12, a second time (Review 80; found by two readings of that mend).  The mend spoke only when nothing
+    # was new and the memory held no record at all:
+    #     if not new and not amended and read and not sums:
+    # Two cases were still lost.  With such a memory and a new message together, the new message was shown, nothing was said
+    # of the old ones, and all were stored as read.  And a memory that holds a record for some of the messages read and not
+    # for others said nothing of the others.  Every message that was read and has no record of its text is named now,
+    # whether or not a new one came.
+    unknown = sorted(n for n in ms if n <= read and str(n) not in sums)
+    if unknown:
+        which = "M1 to M%d" % read if unknown == list(range(1, read + 1)) else ", ".join("M%d" % n for n in unknown)
+        out.append(("" if new or amended else "No new message. ") + "This listener's memory holds no record of the text of %s, which you had "
+                   "read, so it cannot tell whether main has changed one of them: read %s on the page again." % (which, which))
     elif not new and not amended:
         out.append("No new message: main changed the page elsewhere (your cards, or what it waits for). Read the page.")
     remembered = json.dumps({"blob": blob, "read": max([read] + list(ms)), "sums": {str(n): _sum(t) for n, t in ms.items()}})

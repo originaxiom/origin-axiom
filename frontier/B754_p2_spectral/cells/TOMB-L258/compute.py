@@ -60,7 +60,7 @@ mp.mp.dps = 60
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", "..", ".."))
-TOMB = os.path.join(ROOT, "speculations", "TOMBSTONES.md")
+TOMB = os.path.join(ROOT, "docs", "archive", "speculations", "TOMBSTONES.md")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 
 PASS_ALL = True
 

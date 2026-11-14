@@ -160,7 +160,9 @@ NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in h
 LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
 
 
-RAISED_BY_NAME = {}    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
+RAISED_BY_NAME = {    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
+    "docs/ATTRIBUTION_BASELINE.json": {"docs/archive/paths/MECHANISM_CLASSES.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/paths/PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/GOVERNANCE.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's"},
+}
 
 
 def ceiling_rises(path, now, then, since="the anchor", named=None):
@@ -248,8 +250,10 @@ FRAMING_EXEMPT = {"GOVERNANCE.md", "scripts/gates/gates.py", "tests/test_repo_ga
                   # found when the gate first read a .json, 2026-11-11 (WP-0.7, PV21), and frozen as found: Review 38's audit of
                   # this gate, which quotes a banned phrase to say that the gate compares letter for letter
                   "frontier/B887_gate_audit/audit_reports.json"}
-FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
-                      "philosophy", "story", "src", "scripts")
+FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "src", "scripts")
+# 2026-11-13: speculations/, philosophy/ and story/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry) and are
+# read there with docs/; legacy/, never in scope, moved there too and stays out of it, as it was.
+FRAMING_OUT_OF_SCOPE = ("docs/archive/legacy/",)
 # WP-0.7 (PV21): the gate read three kinds of file, .md, .py and .txt, and compared letter for letter.  A banned phrase in a .tex
 # file passed, and so did one in capitals: B887's audit said so in August, in a .json the gate did not read.  It now reads every
 # file in its folders that is text, whatever its name ends in, and compares as a reader does (_framing_plain).  What it does
@@ -275,6 +279,8 @@ def gate_framing():
     for d in FRAMING_SCOPE_DIRS:
         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
             if ".git" in dirpath or "__pycache__" in dirpath:
+                continue
+            if (os.path.relpath(dirpath, ROOT).replace(os.sep, "/") + "/").startswith(FRAMING_OUT_OF_SCOPE):
                 continue
             for n in names:
                 files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
@@ -548,6 +554,7 @@ ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
                         # paths verbatim as provenance pins — editing them would break their seals)
                         "frontier/B742_negatives_hunt_p1/reviews/")
+ATTR_EXEMPT_PREFIXES += ("docs/archive/legacy/",)   # 2026-11-13: legacy/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this gate hunts
     "tests/test_public_surface_scan.py", "tests/test_flagship_paper.py",
     "tests/test_sl4_dehn_filling_paper.py"}
@@ -1720,6 +1727,8 @@ def artifact_hash_state(repo=None):
                 out.append((key, lst, name, "NO NAME"))
                 continue
             cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+                cands.append(os.path.normpath(os.path.join("docs", "archive", name)))
             hit = next((c for c in cands if c in tracked), None)
             if hit is None:
                 on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
@@ -1809,6 +1818,8 @@ def hash_list_state(repo=None, _resolved=None):
                 out.append((key, lst, name, "NO NAME", "X"))
                 continue
             every = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+                every.append(os.path.normpath(os.path.join("docs", "archive", name)))
             cands = []
             for c in every:
                 if c in tracked and c not in cands:
@@ -2368,7 +2379,8 @@ def gate_seen_first():
 
 
 GENESIS_POINTERS = ("README.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/THE_FRAMEWORK.md", "docs/THE_CLAIM.md",
-                    "docs/THE_END_TO_END_CHAIN.md", "philosophy/P019_the_genesis_axiom_chain.md", "philosophy/P000_what_is_not_nothing.md")
+                    "docs/THE_END_TO_END_CHAIN.md", "docs/archive/philosophy/P019_the_genesis_axiom_chain.md",
+                    "docs/archive/philosophy/P000_what_is_not_nothing.md")  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 GENESIS_ID_RE = re.compile(r"\b(?:PF\d|GM\d[a-d]?|SE\d|T-ROOT|F-[A-Z]{2}|FK\d+|GAP\d)\b")
 GENESIS_USERS = ("README.md", "docs/THE_PROGRAMME_SO_FAR.md", "WORKING_RULES.md", "docs/OPEN_LEADS.md", "docs/THE_FOUNDATION_LOCK_PLAN.md", "docs/THE_CLAIM.md",
                  "docs/THE_FRAMEWORK.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/LAW_MAP.md")
@@ -2644,16 +2656,43 @@ REVIEW_HARD = 2 * REVIEW_EVERY                      # past twice its period the 
 REVIEW_WAIVER = "docs/progress/REVIEW_WAIVER.md"    # unless the owner has waived it by date, in that file
 
 
-def review_waiver_covers(n, text, since=None):
+def review_waiver_covers(n, text, since=None, anchor=None, granted=None):
     """a waiver is one line '- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>'; it covers while n < N.
     Review 75 (B1844): a waiver covers only the window it was granted in -- with `since` (the last anchor's date,
-    YYYY-MM-DD), a waiver dated before it has expired; without it every line is read (the old behaviour)."""
+    YYYY-MM-DD), a waiver dated before it has expired; without it every line is read (the old behaviour).
+    2026-11-13 (M23; the building session): a date does not tell two windows of one day apart. With `anchor` (the last
+    review's anchor-commit), a line covers only if it was granted in that anchor's window: the anchor the line names
+    ('..., in the window after anchor <commit>: ...'), or else the anchor `granted(line)` reads from git's history (the
+    one that stood when the line was written). Where neither is known, the date rule above is read."""
     best = 0
-    for m in re.finditer(r"^- waived (\d{4}-\d{2}-\d{2}) by the owner through (\d+) merges", text or "", re.M):
-        if since and m.group(1) < since:
+    for m in re.finditer(r"^- waived (\d{4}-\d{2}-\d{2}) by the owner through (\d+) merges(?:[^:\n]*?anchor `?([0-9a-f]{7,40})`?)?[^\n]*", text or "", re.M):
+        named = m.group(3) or (granted(m.group(0)) if granted else None)
+        if anchor and named:
+            if not (anchor.startswith(named) or named.startswith(anchor)):
+                continue
+        elif since and m.group(1) < since:
             continue
         best = max(best, int(m.group(2)))
     return n < best
+
+
+def review_anchor(text=None):
+    """the last review's anchor-commit as REVIEWS.md writes it, or None"""
+    if text is None:
+        text = _read(REVIEWS) if os.path.exists(os.path.join(ROOT, REVIEWS)) else ""
+    anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", text)
+    return anchors[-1] if anchors else None
+
+
+def waiver_granted_under(line):
+    """the last review's anchor when a waiver line was written: REVIEWS.md read at the first commit whose
+    REVIEW_WAIVER holds the line (git's history), or None where git does not have it"""
+    rc, out = _git("log", "--format=%H", "--reverse", "-S", line, "--", REVIEW_WAIVER)
+    first = out.split()[0] if rc == 0 and out.split() else None
+    if not first:
+        return None
+    rc, text = _git("show", "%s:%s" % (first, REVIEWS))
+    return review_anchor(text) if rc == 0 else None
 
 
 def review_anchor_date():
@@ -2677,7 +2716,8 @@ def gate_review_fires():
         return True, "no review anchor yet"
     if n >= REVIEW_HARD:
         wpath = os.path.join(ROOT, REVIEW_WAIVER)
-        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else "", since=review_anchor_date()):
+        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else "", since=review_anchor_date(),
+                                anchor=review_anchor(), granted=waiver_granted_under):
             return True, f"{n} merges since the last review; waived by the owner ({REVIEW_WAIVER})"
         return False, (f"{n} merges since the last review (>= {REVIEW_HARD}): the review FIRES -- run it "
                        f"(scripts/review/review_tools.py), or the owner waives it by date in {REVIEW_WAIVER}")
@@ -2916,7 +2956,7 @@ ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither",
 _ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:(?:not|no|never|without|none|nothing|neither|nor|cannot|whether|if|until|unless|sought|0 of 19|to be)(?![a-z0-9])"
                              r"|(?:aim|goal|seek|would)[a-z']*)|n't(?![a-z0-9])")
 _ARRIVAL_SENTENCE_END = re.compile(r"[.!?](?=[\s\"'*_)\]])|\n\s*\n|\n\s*(?:[-*+>]|\d+[.)])\s|\n\s*#+\s|\|")
-ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
+ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/MAIN_GOAL_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
 ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
                           # grammar"), a dated state page ("derives the Standard Model's gauge skeleton ... and derives none of its numbers"),
@@ -2926,6 +2966,7 @@ ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a pla
 # where a sentence of arrival would do most harm, and they were not read).  ARRIVAL_FROZEN is filled by measurement at the rule's
 # commit; a key in it that no longer matches anything is reported, so the list can only be shortened.
 ARRIVAL_REACH = (("", ".md", False), ("docs", ".md", True), ("papers", ".md", True), ("papers", ".tex", True))     # (folder, suffix, any depth)
+ARRIVAL_OUT_OF_REACH = tuple("docs/archive/%s/" % d for d in ("legacy", "story", "paths", "speculations", "philosophy"))   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): they were not read before it
 ARRIVAL_FROZEN = frozenset(("704ca4704908",      # docs/CLOSURE_MASTERPLAN.md, a plan of 2026-07-24: "the program derived the Standard Model's *grammar*"
                             "86b7eaa2768f",      # docs/THE_STATE_2026-09-06.md, a dated state page: "derives the Standard Model's gauge skeleton ... and derives none of"
                             "518c8ca26d3b"))     # docs/WHAT_WOULD_COUNT.md, the owner's question of 2026-08-09, quoted
@@ -2942,6 +2983,7 @@ def _arrival_files(root):
     out = []
     for rel in sorted(names):
         rel = rel.replace(os.sep, "/")
+        if rel.startswith(ARRIVAL_OUT_OF_REACH): continue
         for folder, suffix, deep in ARRIVAL_REACH:
             if not rel.endswith(suffix): continue
             head = os.path.dirname(rel)
@@ -3024,6 +3066,310 @@ def gate_member_scope(reader=None):
     if len(hits) > MEMBER_SCOPE_BASELINE:
         return False, "%d NEGATIVE verdict lines say 'the object' for one member's result (baseline %d): " % (len(hits), MEMBER_SCOPE_BASELINE) + "; ".join("%s: %s" % h for h in hits[-5:])
     return True, "ok (%d on the record, baseline %d%s)" % (len(hits), MEMBER_SCOPE_BASELINE, "; lower the baseline" if len(hits) < MEMBER_SCOPE_BASELINE else "")
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# A VERDICT LINE THAT CLAIMS A SELECTION NAMES ITS FAMILY (2026-11-12; main's card C13, item 5; WORKING_RULES, the rule
+# "BEFORE A SELECTION OR A HAND IS CLAIMED", step 3, after B1204 and B1905).  A selection is claimed only by a criterion that
+# can fail, and the page says which of the two families that have ever forced anything here it belongs to: a finite
+# classification with a test of membership, or a consistency condition that a candidate can violate.
+#
+# What is a claim (the building session's reading of main's words, which are main's to change): a word of selection
+# ("selects", "picks", "singles out", "is forced", "forces") in a clause of the verdict line, with no word of denial or of
+# condition before it IN ITS OWN CLAUSE, and a value or a member as its object: a number, an equation, a code in backticks,
+# or a word that names one of several ("one", "unique", "exactly", "only", "the root", "the hand", ...).  A clause ends at a
+# full stop, a semicolon, a colon, a dash between spaces, or a bracket.  An arc number in brackets is a citation and is no
+# value.  The family is read on the arc's page: one of the two phrases "finite classification" and "consistency condition".
+#
+# THE GATE READS ARCS FROM B1905 ON, the arc with which the rule came in.  Measured on 2026-11-12 over every older verdict line:
+# 115 read as claims by this reading and 1 of their pages names a family.  Most are deductions ("m^2+4 = k^2 forces m = 0")
+# that the rule is not about, and none was written under it.  They are not read, and their count is printed, so that a
+# change in the reading shows.
+SELECTION_FAMILY_FROM = 1905
+_SEL_VERB = re.compile(r"\b(selects|selected|select|picks|picked|singles out|singled out|single out|is forced|are forced|was forced|forced to be|forces)\b", re.I)
+_SEL_CLAUSE_END = re.compile(r"(?:[.;:!?](?:\s|$)|\s--\s|\s—\s|\s–\s|\(|\)|\[|\])")
+_SEL_DENY = re.compile(r"\b(no|not|never|cannot|nothing|none|neither|nor|without|fails? to|whether|if|would|could|might|unless)\b|\b\w+n't\b", re.I)
+_SEL_OBJECT = re.compile(r"\d|=|`|\b(one|a single|the single|unique|uniquely|exactly|only|the value|a value|the member|a member|the root|the hand|"
+                         r"the orientation|the sign|the level|the lift|the branch|the thread|the state|m00\d)\b", re.I)
+_SEL_CITATION = re.compile(r"\(?\b(?:B|P-|E|R|L|T|X|W)\d+[a-z]?\b\)?|\b0 of 19\b")
+SELECTION_FAMILIES = re.compile(r"finite classification|consistency condition", re.I)
+# Held by name (2026-11-14, the builder's reading, for main to check; built again on main's a0bfa2ff4): an arc from B1905
+# on whose page names its family and its condition in other words than the two above. Each is held only while the page
+# keeps the words given, so a page that loses them is reported again.
+SELECTION_FAMILY_NAMED_OTHERWISE = {
+    "B1927": ("There are two\n  conventions: the maximal embedded horoball (L_max) and the horocycle of length 2 (L_2).",
+              "Requiring the end to be real-analytic in τ, as every other part of the frame is,\n  selects the horocycle of length 2."),
+}
+
+
+def selection_claims_in(line):
+    """the clauses of a verdict line that claim a selection with a value or a member as its object"""
+    out = []
+    for m in _SEL_VERB.finditer(line):
+        start = 0
+        for e in _SEL_CLAUSE_END.finditer(line, 0, m.start()):
+            start = e.end()
+        nxt = _SEL_CLAUSE_END.search(line, m.end())
+        end = nxt.start() if nxt else len(line)
+        before, after = line[start:m.start()], line[m.end():end]
+        if _SEL_DENY.search(before):
+            continue
+        if not _SEL_OBJECT.search(_SEL_CITATION.sub(" ", before + " " + after)):
+            continue
+        out.append(" ".join(line[start:end].split()))
+    return out
+
+
+def selection_family_hits(reader=None, first=None):
+    """(arc id, the clause) for each arc from `first` on whose verdict line claims a selection and whose page names neither
+    family; and the count of older arcs that the same reading would report."""
+    reader = reader or (lambda rel: _read(rel))
+    first = SELECTION_FAMILY_FROM if first is None else first
+    hits, older = [], 0
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        rel = os.path.relpath(p, ROOT)
+        try:
+            d = json.loads(reader(rel))
+        except Exception:
+            continue
+        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
+        num = int(re.sub(r"\D", "", aid) or 0)
+        claims = selection_claims_in(str(d.get("claim_one_line", "")))
+        if not claims:
+            continue
+        try:
+            page = reader(os.path.join(os.path.dirname(rel), "FINDINGS.md"))
+        except Exception:
+            page = ""
+        if SELECTION_FAMILIES.search(page or ""):
+            continue
+        if aid in SELECTION_FAMILY_NAMED_OTHERWISE and all(w in (page or "") for w in SELECTION_FAMILY_NAMED_OTHERWISE[aid]):
+            continue
+        if num < first:
+            older += 1
+        else:
+            hits.append((aid, claims[0][:120]))
+    return hits, older
+
+
+SELECTION_FAMILY_OLDER = "frontier/B1905_selection_and_chirality_across_the_record/verification/older_verdict_lines_classified.json"
+SELECTION_CLASSES = ("deduction", "no claim", "family named", "neither")
+
+
+def older_selection_lines(reader=None):
+    """2026-11-13 (main's M23, item 5; C13's follow-ups, patch 3): every verdict line before SELECTION_FAMILY_FROM that the
+    reading reports as a claim is held by name with its class, classified once with its clauses (SELECTION_FAMILY_OLDER).
+    Returns (problems, the count by class): an older line read as a claim and not in the table, a row whose line no longer
+    reads so or reads other clauses, a class not of the four, a row of a family named whose words are not on its page."""
+    import collections as _c
+    reader = reader or (lambda rel: _read(rel))
+    try:
+        table = {r["arc"]: r for r in json.loads(reader(SELECTION_FAMILY_OLDER))["rows"]}
+    except Exception:
+        return ["the table of older verdict lines cannot be read: " + SELECTION_FAMILY_OLDER], {}
+    seen, bad = set(), []
+    for p in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", "arc_verdict.json"))):
+        rel = os.path.relpath(p, ROOT)
+        try:
+            d = json.loads(reader(rel))
+        except Exception:
+            continue
+        aid = str(d.get("id") or os.path.basename(os.path.dirname(p)).split("_")[0])
+        if int(re.sub(r"\D", "", aid) or 0) >= SELECTION_FAMILY_FROM:
+            continue
+        claims = selection_claims_in(str(d.get("claim_one_line", "")))
+        if not claims:
+            if aid in table:
+                bad.append("%s: classified, and its verdict line no longer reads as a claim" % aid)
+            continue
+        seen.add(aid)
+        r = table.get(aid)
+        if r is None:
+            bad.append("%s: an older verdict line read as a claim and not classified" % aid)
+        elif r.get("clauses") != claims:
+            bad.append("%s: its verdict line reads other clauses than the table holds" % aid)
+        elif r.get("class") not in SELECTION_CLASSES:
+            bad.append("%s: the class %r is not one of %s" % (aid, r.get("class"), ", ".join(SELECTION_CLASSES)))
+        elif r["class"] == "family named":
+            try:
+                page = " ".join(reader(os.path.join(os.path.dirname(rel), "FINDINGS.md")).replace("**", "").split())
+            except Exception:
+                page = ""
+            if not r.get("on the page") or r["on the page"] not in page:
+                bad.append("%s: the words the table gives for its family are not on its page" % aid)
+    bad += ["%s: in the table and not an older arc whose line reads as a claim" % a for a in sorted(set(table) - seen)
+            if not any(x.startswith(a + ":") for x in bad)]
+    return bad, dict(_c.Counter(r.get("class") for a, r in table.items() if a in seen))
+
+
+def gate_selection_family(reader=None):
+    """WORKING_RULES, the rule of 2026-11-12, step 3: an arc from B1905 on whose verdict line claims a selection, with a value
+    or a member as its object, names on its page which of the two families its criterion belongs to (B1204)."""
+    hits, older = selection_family_hits(reader)
+    held, by_class = older_selection_lines() if reader is None else ([], {})
+    if held:
+        return False, ("%d older verdict line(s) not held by name with their class (%s): " % (len(held), SELECTION_FAMILY_OLDER)) + "; ".join(held[:5])
+    if hits:
+        return False, ("%d verdict line(s) from B%d on claim a selection and the page names neither family (a finite classification with a test "
+                       "of membership, or a consistency condition): " % (len(hits), SELECTION_FAMILY_FROM)) + "; ".join("%s: %s" % h for h in hits[:5])
+    if not by_class:
+        return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports are not read)" % (SELECTION_FAMILY_FROM, older)
+    return True, "ok (verdict lines from B%d on read; %d older line(s) that the same reading reports, and %d older line(s) read as claims held by name with their class: %s)" % (
+        SELECTION_FAMILY_FROM, older, sum(by_class.values()), ", ".join("%d %s" % (n, c) for c, n in sorted(by_class.items())))
+
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# THE PUBLIC FACE SPEAKS NO INNER LANGUAGE (2026-11-13; main's card C14, at the owner's point of 2026-11-12 entered by main in
+# plain words).  The pages a reader outside the project opens use none of the record's inner words: `owner`, `main` as a
+# person, `cc`, `seat`, `lane`, `relay`, `ruling` or `ruled`, `card`, a session's name.  The working record (the logs, the
+# register, the seats' pages, the arcs) keeps its words, and the verdict ledger and the spine are labelled working indices.
+#
+# THE LIST OF THE PUBLIC FACE is the builder's reading of main's M20 and is main's to change: the README, the main goal, the
+# knowledge index, the pages the README's "start here" sends a newcomer to that are not the working record, the two front
+# pages of the plan, the generated views a newcomer is sent to, the workdesk's README, and of `papers/` the paper itself and
+# the README of its verification package (which of `papers/` is the public face is asked of main on the card).
+#
+# HELD BY PAGE AND BY WORD, AS FOUND ON 2026-11-13, and a count may only fall: so the gate lands green and each later patch
+# of the series lowers a page to zero.  A word that is new on a page fails even if another word left it in the same commit.
+# "Main" is a word of English: it is not counted in the phrases of _PF_MAIN_PLAIN.  Nor is `card` as the atlas query's subcommand.
+# TERMINOLOGY.md left this list on 2026-11-13 (main's M29, at the builder's proposal): it is the working record's glossary, kept
+# byte for byte where it stands, and the public face's glossary is docs/THE_TERMS_IN_SHORT.md, held by its own lock.
+PUBLIC_FACE = ("README.md", "docs/MAIN_GOAL.md", "knowledge/INDEX.md", "docs/THE_PROGRAMME_SO_FAR.md",
+               "GENESIS.md", "ROADMAP.md", "docs/MASTERPLAN.md",
+               "docs/views/COVERAGE.md", "docs/views/LEDGER_OF_WALLS.md", "docs/workdesk/README.md",
+               "papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")
+# labelled as working indices where the README points to them, and not read here.  The verdict ledger and the spine by main's
+# word (M20); the context recovery, the closed doors and the reviewer's view since C14's fourth patch, by the same reason: each
+# quotes the record's own lines (register rows, kill records, verdict lines, log entries) word for word, and their inner
+# words are in those quotations, not in their generator's text.
+WORKING_INDICES = ("docs/views/VERDICT_LEDGER.md", "docs/views/THE_SPINE.md", "docs/views/CONTEXT_RECOVERY.md", "docs/views/CLOSED_DOORS.md",
+                   "docs/views/REVIEWER.md")
+_PF_WORD = re.compile(r"(?<![\w-])(owner's|owners|owner|main's|main|cc\d*|seats|seat's|seat|lanes|lane's|lane|relays|relayed|relay|rulings|ruling|ruled|"
+                      r"cards|card|agy-[\w]+|agy|codex|cld-[\w-]+)(?![\w-])", re.I)
+_PF_MAIN_PLAIN = re.compile(r"\bmain(?=[ _](?:goal|result|results|theorem|text|point|body|question|idea|claim|line of argument)\b)", re.I)
+_PF_COMMAND = re.compile(r"(?<=query\.py )card\b")             # the atlas query's subcommand is a command, not the word
+_PF_FILENAME = re.compile(r"\bmain(?=\.(?:tex|py|md|json)\b)")   # a file named main (main.tex) is a name, not the word (C14, patch 10)
+PUBLIC_FACE_FROZEN = ("papers/P3_THE_PAPER/main.tex", "papers/P3_THE_PAPER/verification_package/README.md")   # frozen: errata only
+PUBLIC_FACE_ERRATA = "papers/P3_THE_PAPER/ERRATA.md"
+
+
+def public_face_words(text):
+    """the inner words of a text, counted by word (in lower case; a possessive or plural counted as its word)"""
+    import collections as _c
+    plain = {m.start() for m in _PF_MAIN_PLAIN.finditer(text)} | {m.start() for m in _PF_COMMAND.finditer(text)} | \
+            {m.start() for m in _PF_FILENAME.finditer(text)}
+    out = _c.Counter()
+    for m in _PF_WORD.finditer(text):
+        if m.start() in plain:
+            continue
+        w = m.group(1).lower()
+        w = {"owner's": "owner", "owners": "owner", "main's": "main", "seats": "seat", "seat's": "seat", "lanes": "lane", "lane's": "lane",
+             "relays": "relay", "relayed": "relay", "rulings": "ruling", "cards": "card"}.get(w, w)
+        w = "cc" if re.fullmatch(r"cc\d*", w) else ("a session's name" if w.startswith(("agy", "codex", "cld-")) else w)
+        out[w] += 1
+    return out
+
+
+
+def working_index_own_words():
+    """C14, patch 9 (main's M25, answer 4): the inner words each working index's generator writes itself. Each view is
+    built again with every quotation of the record emptied (the generators' `quoted`), and what is left is counted."""
+    import importlib.util as _u
+    out = {}
+    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
+    try:
+        spec = _u.spec_from_file_location("views_generate_for_the_public_face", os.path.join(ROOT, "scripts", "views", "generate.py"))
+        gen = _u.module_from_spec(spec); spec.loader.exec_module(gen)
+        gen.quoted = lambda s: "\u201c\u201d"
+        arcs, kills = gen.collect()
+        out["docs/views/VERDICT_LEDGER.md"] = gen.view_claims(arcs)
+        out["docs/views/CLOSED_DOORS.md"] = gen.view_closed_doors(arcs, kills)
+        out["docs/views/REVIEWER.md"] = gen.view_reviewer(arcs, kills)
+        out["docs/views/CONTEXT_RECOVERY.md"] = gen.view_context_recovery(arcs, kills)
+        spec = _u.spec_from_file_location("views_spine_for_the_public_face", os.path.join(ROOT, "scripts", "views", "spine.py"))
+        sp = _u.module_from_spec(spec); spec.loader.exec_module(sp)
+        sp.quoted = lambda s: "\u201c\u201d"
+        out["docs/views/THE_SPINE.md"] = sp.main(write=False)
+    finally:
+        sys.dont_write_bytecode = was
+    return {p: dict(public_face_words(t)) for p, t in out.items()}
+
+
+
+def public_face_unentered(reader=None):
+    """C14, patch 10 (main's M25, answer 5): the paper is frozen after its ninth draft, so its inner words are entered as
+    errata and not rewritten. Each line of a frozen page that carries an inner word must have its row in the errata: the
+    file, the line's number, and words as printed that stand in that line. Returns what is not entered."""
+    reader = reader or (lambda rel: _read(rel))
+    rows = []
+    for l in reader(PUBLIC_FACE_ERRATA).split("\n"):
+        c = [x.strip() for x in l.strip().strip("|").split(" | ")]
+        if len(c) == 4 and c[0].startswith("`") and c[1].isdigit():
+            rows.append((c[0].strip("`"), int(c[1]), c[2]))
+    missing = []
+    for rel in PUBLIC_FACE_FROZEN:
+        for n, line in enumerate(reader(rel).split("\n"), 1):
+            if public_face_words(line) and not any(f == rel and k == n and w in line for f, k, w in rows):
+                missing.append("%s, line %d: not entered in %s" % (rel, n, PUBLIC_FACE_ERRATA))
+    return missing
+
+
+def public_face_counts(reader=None, pages=None):
+    reader = reader or (lambda rel: _read(rel))
+    out = {}
+    for rel in (PUBLIC_FACE if pages is None else pages):
+        try:
+            out[rel] = dict(public_face_words(reader(rel)))
+        except Exception:
+            out[rel] = None
+    return out
+
+
+def public_face_problems(counts, held=None):
+    """the pages and words above what is held, and the pages that are missing"""
+    held = PUBLIC_FACE_HELD if held is None else held
+    bad = []
+    for rel, c in counts.items():
+        if c is None:
+            bad.append("%s: the page is not there" % rel)
+            continue
+        for w, n in sorted(c.items()):
+            h = held.get(rel, {}).get(w, 0)
+            if n > h:
+                bad.append("%s: '%s' %d times, held at %d" % (rel, w, n, h))
+    return bad
+
+
+def gate_public_face(reader=None, own_words=None):
+    """main's card C14: the public face uses none of the record's inner words.  Held by page and word as found; may only fall.
+    2026-11-13 (C14, patch 9; main's M25, answer 4): a working index may quote the record's own words, marked as
+    quotations, but what its generator writes itself uses none of them (working_index_own_words)."""
+    counts = public_face_counts(reader)
+    bad = public_face_problems(counts)
+    own = working_index_own_words() if own_words is None else own_words
+    bad += public_face_unentered(reader)
+    bad += ["%s: its generator writes %r %d times itself" % (rel, w, n) for rel, c in sorted(own.items()) for w, n in sorted(c.items())]
+    if bad:
+        return False, "%d inner word(s) on the public face above what is held: " % len(bad) + "; ".join(bad[:6])
+    total = sum(sum(c.values()) for c in counts.values() if c)
+    zero = sum(1 for c in counts.values() if c == {})
+    fell = [rel for rel, c in counts.items() if c is not None and sum(c.values()) < sum(PUBLIC_FACE_HELD.get(rel, {}).values())]
+    return True, "ok (%d page(s) of the public face read: %d at zero; %d inner word(s) held by page and word as found on 2026-11-13%s; the %d working indices' generators write none themselves)" % (
+        len(counts), zero, total, ("; lower the count of " + ", ".join(fell)) if fell else "", len(own))
+
+
+PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall
+    # README.md: at zero since C14's second patch, which main landed (2026-11-13)
+    # docs/MAIN_GOAL.md: at zero since C14's seventh patch (2026-11-13)
+    # knowledge/INDEX.md: at zero since C14's third patch (2026-11-13)
+    'docs/THE_PROGRAMME_SO_FAR.md': {'card': 6, 'lane': 7, 'main': 38, 'owner': 26, 'relay': 1, 'ruled': 8, 'ruling': 10, 'seat': 27},
+    'GENESIS.md': {"a session's name": 1, 'card': 7, 'lane': 38, 'main': 341, 'owner': 86, 'relay': 15, 'ruled': 27, 'ruling': 39, 'seat': 202},
+    'ROADMAP.md': {"a session's name": 1, 'card': 5, 'cc': 3, 'lane': 12, 'main': 35, 'owner': 38, 'relay': 2, 'ruled': 5, 'ruling': 7, 'seat': 44},
+    'docs/MASTERPLAN.md': {"a session's name": 1, 'card': 4, 'cc': 5, 'lane': 12, 'main': 37, 'owner': 41, 'relay': 1, 'ruled': 5, 'ruling': 6, 'seat': 44},
+    'docs/workdesk/README.md': {'main': 13, 'relay': 3, 'ruling': 1, 'seat': 16},
+    'papers/P3_THE_PAPER/main.tex': {'lane': 1, 'owner': 1, 'seat': 2},
+    'papers/P3_THE_PAPER/verification_package/README.md': {'main': 1},
+}
+
 
 _SEAT_ID_RE = re.compile(r"^(sm:B\d{4}|sm:W\d{1,3}|xB\d{3}|LP\d{2}|R\d{3}[A-Z]?|memo \d+|B8\d{3})$")   # sm:W<n>: a dossier item (R61-3)
 
@@ -3230,6 +3576,8 @@ GATES = {
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,
     "negative-second-computation": gate_negative_second_computation,
+    "selection-family": gate_selection_family,
+    "public-face": gate_public_face,
 }
 
 

@@ -35,6 +35,28 @@ def sub(path, old, new, count=1):
     assert t.count(old) >= 1, (path.name, old[:60])
     path.write_text(t.replace(old, new) if count is None else t.replace(old, new, count), encoding="utf-8")
 
+# ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
+# CHANGES NOTHING STOPS THE RUN.  One of main's own plants at Review 80, against another lock, changed nothing, and the lock's
+# passing was read as a finding.  Most plants here assert that the text they replace is there; that is asked of each plant,
+# and nothing asked it of the run.  The copy is now read whole before a plant and after it, by the bytes of its files, and a
+# plant that leaves the copy as it was ends the run with a sentence.  The control plants nothing, and must change nothing.
+def state():
+    """every file of the scratch copy, by the sha256 of its bytes"""
+    import hashlib
+    return {str(p.relative_to(WORK)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(WORK.rglob("*")) if p.is_file()}
+
+
+def made(name, fn, arc):
+    """make one plant in the copy; stop the run where it changed nothing (or where the control changed something)"""
+    before = state()
+    fn(arc)
+    changed = state() != before
+    if fn is p_nothing and changed:
+        raise SystemExit("STOPPED: the control %r plants nothing, and the copy is not as it was" % name)
+    if fn is not p_nothing and not changed:
+        raise SystemExit("STOPPED: the plant %r changed nothing in the copy. A lock that passes on it shows nothing: mend the plant" % name)
+
+
 def run(arc):
     r = subprocess.run([sys.executable, "-B", "-m", "pytest", "-q", "-p", "no:cacheprovider", str(arc / "verification")], capture_output=True, text=True)
     failed = sorted(set(re.findall(r"FAILED \S+::(\w+)", r.stdout)))
@@ -110,7 +132,7 @@ PLANTS = [("control: nothing planted", p_nothing), ("the single runs' check pass
 if __name__ == "__main__":
     out = []
     for name, fn in PLANTS:
-        arc = fresh(); fn(arc)
+        arc = fresh(); made(name, fn, arc)            # until 2026-11-12: arc = fresh(); fn(arc)
         failed, last = run(arc)
         out.append({"plant": name, "tests failing": failed})
         print("%-92s %s  %s" % (name, "CAUGHT" if failed else "passes", ", ".join(x[5:] for x in failed)))

@@ -231,15 +231,25 @@ _WITHIN = 400      # characters after the old words, in one text of a verdict fi
 
 
 def _texts_of(value):
-    """every text a json value holds, at any depth"""
+    """every text a json value holds, at any depth.  CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, not
+    checked by main, made again first): the keys of an object are texts too; they were not read, so the old words in a key
+    passed."""
     if isinstance(value, str):
         yield value
     elif isinstance(value, dict):
-        for v in value.values():
+        for k, v in value.items():
+            yield str(k)
             yield from _texts_of(v)
     elif isinstance(value, (list, tuple)):
         for v in value:
             yield from _texts_of(v)
+
+
+def _places_of(leaf, o):
+    at = leaf.find(o)
+    while at != -1:
+        yield at
+        at = leaf.find(o, at + 1)
 
 
 def _carriers(name, text):
@@ -249,12 +259,22 @@ def _carriers(name, text):
     verdict file was read as one block, so one correction anywhere in it excused the old words anywhere else in it, in the
     same line or in another field."""
     if name.endswith(".json"):
+        # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, not checked by main, made again first): each
+        # place's window ran 400 characters past its old words, so one correction after two old phrases excused both, and two
+        # counted as none.  A window now ends where the next place of old words begins: a correction excuses the words it
+        # follows, and no earlier ones.  The lines as they stood:
+        #     for o in _OLDS:
+        #         at = leaf.find(o)
+        #         while at != -1:
+        #             yield leaf[at:at + len(o) + _WITHIN]
+        #             at = leaf.find(o, at + 1)
         for leaf in _texts_of(json.loads(text)):
-            for o in _OLDS:
-                at = leaf.find(o)
-                while at != -1:
-                    yield leaf[at:at + len(o) + _WITHIN]
-                    at = leaf.find(o, at + 1)
+            places = sorted({(at, len(o)) for o in _OLDS for at in _places_of(leaf, o)})
+            for k, (at, n) in enumerate(places):
+                end = at + n + _WITHIN
+                if k + 1 < len(places):
+                    end = min(end, places[k + 1][0])
+                yield leaf[at:end]
         return
     blocks = text.split("\n\n")
     for i, blk in enumerate(blocks):
@@ -325,3 +345,94 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
     assert any(c.startswith("agy-002: ") for c in v["cites_seat"]) and "**The verdict line does not name the reader.**" in PAGE
     led = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
     assert "c67f84c1" in led and "B1895" in led
+
+
+def test_a_plant_that_changes_nothing_stops_the_run():
+    """ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  One of
+    main's plants at Review 80, against another lock, changed nothing, and that lock's passing was read as a finding.  The
+    runner of this arc's plants, which the arc B1897 and main's plants of Review 80 also use, reads its scratch copy before
+    a plant and after it, and ends the run where the copy is as it was."""
+    import importlib.util, shutil
+    import pytest
+    spec = importlib.util.spec_from_file_location("planted_reversions_for_its_guard", HERE / "planted_reversions.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    try:
+        arc = m.fresh()
+        m.made("the control", m.p_nothing, arc)                                   # plants nothing, changes nothing: passes
+        with pytest.raises(SystemExit) as stopped:
+            m.made("a plant whose pattern matches nothing", lambda a: None, arc)
+        assert "changed nothing in the copy" in str(stopped.value)
+        with pytest.raises(SystemExit):                                           # a file written back as it was is no plant either
+            m.made("a file written back as it was", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8"), encoding="utf-8"), arc)
+        m.made("a plant that adds one character", lambda a: (a / "FINDINGS.md").write_text((a / "FINDINGS.md").read_text(encoding="utf-8") + "x", encoding="utf-8"), arc)
+        def a_control_that_changes(a):
+            (a / "a_new_file.txt").write_text("x", encoding="utf-8")
+        keep = m.p_nothing
+        m.p_nothing = a_control_that_changes
+        try:
+            with pytest.raises(SystemExit) as stopped:
+                m.made("the control", m.p_nothing, m.fresh())
+            assert "plants nothing, and the copy is not as it was" in str(stopped.value)
+        finally:
+            m.p_nothing = keep
+        # each of the arc's eighteen plants changes its copy (no lock is run here: the copy is read, and that is all)
+        for name, fn in m.PLANTS[1:]:
+            m.made(name, fn, m.fresh())
+        assert len(m.PLANTS) == 19
+    finally:
+        shutil.rmtree(m.WORK.parent, ignore_errors=True)
+
+
+def test_one_correction_excuses_only_the_words_it_follows():
+    """ADDED 2026-11-13 (C16; a finding of a cold reader on R80b's part 2, not checked by main, made again first): two old
+    phrases and one correction after both counted as none.  The plant passed before this mend and is reported after it."""
+    o1, o2, mark = _OLDS[0], _OLDS[1], _MARKS[0]
+    name = "frontier/B9_x/arc_verdict.json"
+    two_one = json.dumps({"claim_one_line": "A: %s. B: %s [%s]." % (o1, o2, mark)})
+    assert _uncorrected(name, two_one) == (1, 2)                                  # it was (0, 2)
+    twin = json.dumps({"claim_one_line": "A: %s [%s]. B: %s [%s]." % (o1, mark, o2, mark)})
+    assert _uncorrected(name, twin) == (0, 2)
+    # the same old phrase twice, one correction after the second
+    same_twice = json.dumps({"claim_one_line": "%s, and again %s [%s]" % (o1, o1, mark)})
+    assert _uncorrected(name, same_twice) == (1, 2)
+    # the verdict files this arc names are still read as they were
+    for f in ("frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",):
+        assert _uncorrected(f, (ROOT / f).read_text(encoding="utf-8")) == (0, 1)
+
+
+def test_the_keys_of_a_verdict_file_are_read():
+    """ADDED 2026-11-13 (C16; a finding of a cold reader on R80b's part 2, not checked by main, made again first): the old
+    words in a key of a verdict file were not read.  The plant passed before this mend and is reported after it."""
+    o1, mark = _OLDS[0], _MARKS[0]
+    name = "frontier/B9_x/arc_verdict.json"
+    assert _uncorrected(name, json.dumps({o1: "a value"})) == (1, 1)              # it was (0, 0)
+    assert _uncorrected(name, json.dumps({o1 + " [" + mark + "]": "a value"})) == (0, 1)      # the twin
+    assert _uncorrected(name, json.dumps({"a key": {"a deeper key": [o1]}})) == (1, 1)      # values at any depth, as before
+
+
+def test_the_note_on_row_a1_gives_the_numbers_the_run_and_the_lock_compute():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, patch 10, not checked by main, made again first).  The
+    note of 2026-11-12 under row A1 states two derivations, and the lock held four of their numbers: changed on the page, the
+    other five passed (the first derivation's 120 of 120 and 88 of 120; the second's √5/2, √2 and 17/12).  Each is held now by
+    a sentence built from the run, or, for the second derivation's three, by the sentence whose values
+    test_the_second_least_reading_is_the_all_twos_over_the_cyclic_sequences_that_were_read computes."""
+    a = RES["A_numbers"]
+    words = {2: "two", 4: "four"}
+    others = sorted(set(a["controls"].values()))
+    assert len(others) == 1
+    first = ("the swapped-mark recipe agrees on %d of %d matrices at the %s marks that annihilate their own line, and on %d of %d "
+             "at each of the other %s" % (a["row_test_equals_column_test_on_swapped"], a["matrices"], words[6 - len(a["controls"])],
+                                          others[0], a["matrices"], words[len(a["controls"])]))
+    second = ("the least reading is the all-ones' (√5/2), the second least the all-twos' (√2), and every other reads above 17/12, "
+              "the least of them 1.4866 at (1, 1, 2, 2)")
+    flat = " ".join(PAGE.split())
+    assert first in flat, first
+    assert second in flat, second
+    # planted: each of the five numbers changed on the page is reported now
+    for was, now in (("on 120 of 120", "on 119 of 120"), ("on 88 of 120", "on 87 of 120"), ("all-ones' (√5/2)", "all-ones' (√3/2)"),
+                     ("all-twos' (√2)", "all-twos' (√3)"), ("above 17/12", "above 16/12")):
+        assert was in flat
+        changed = flat.replace(was, now, 1)
+        assert first not in changed or second not in changed, was
+

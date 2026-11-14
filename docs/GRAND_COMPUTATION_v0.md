@@ -153,6 +153,8 @@ with an exclusion control → 0; GC-6 V3), consistent with B1064 (CS=0 deletes t
 | D3 residue | the **complex-27 clause is DE-GRADED** (lens: the negation-symmetry instrument has never returned "real" on any run in the repo — no exclusion-side control); the banked complex witness remains B1100's; next: apply B1100's witness to the two rank-4 centralizers | GC-9 refutation; B1100 |
 | **Born rule** | FORM + weights NATIVE (the object's two quadratics; quadratic degree = c-swap's Galois order 2); amplitudes/phase/associator IMPORTED (golden-MTC overlays); the substitution IS the Fibonacci fusion rule by identity — **quantum CONTENT is closer-side by theorem** | B725; B726/28/29; B483 |
 
+> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The row "one generation per 27" above cites B298's headline; it holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
+
 ---
 
 ## 4. THE COUPLING SHAPES (dimensionless; what is computable in own units today)

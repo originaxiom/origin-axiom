@@ -64,17 +64,25 @@ CONTROLS = [  # must not match: the v1.0 wording of the quotation, and a count m
 ]
 
 
+MOVED = ("legacy/", "story/", "paths/", "speculations/", "philosophy/")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+
+
+def now(rel):
+    """a path named at its old place, as it stands now"""
+    return "docs/archive/" + rel if rel.startswith(MOVED) else rel
+
+
 def found(files, rx):
     pat = re.compile(rx, re.S)
     for g in files:
-        for f in sorted(glob.glob(os.path.join(ROOT, g))):
+        for f in sorted(glob.glob(os.path.join(ROOT, now(g)))):
             if pat.search(open(f, errors="replace").read()): return os.path.relpath(f, ROOT)
     return None
 
 
 def registry():
     c = {}
-    for line in open(os.path.join(ROOT, "paths", "PATHS.md")):
+    for line in open(os.path.join(ROOT, now("paths/PATHS.md"))):
         m = re.match(r"\| \*\*([A-Z])(\d+)\*\* \|[^|]*\|[^|]*\| \**([A-Z-]+)", line)
         if m and not (m.group(1) == "E" and int(m.group(2)) > 20):          # E21+ are instantiations, not enumerated paths
             c[m.group(3)] = c.get(m.group(3), 0) + 1

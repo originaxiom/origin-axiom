@@ -199,12 +199,54 @@ def test_every_page_that_stated_level_8_carries_the_correction():
             continue
         if rel.endswith(".json"):
             try:
-                text = json.loads(text).get("claim_one_line", "")
+                text = _of_a_verdict_file(text)
             except Exception:
                 continue
         if _states_the_old_level(text):
             loose.append(rel)
     assert not loose, loose
+
+
+def _of_a_verdict_file(raw):
+    """What is swept of a verdict file: its claim line, its scope and its note, each a paragraph of its own.
+    CHANGED 2026-11-12 (Review 80; a reader's finding F14, not checked by main, made again here).  The line was
+        text = json.loads(text).get("claim_one_line", "")
+    and the sweep of B1028's lock beside it reads the three fields.  The old level stated in a verdict's scope or note was
+    not seen here."""
+    # CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 14, not checked by main, made again first): the
+    # three fields above were read and no other, so the old level stated in the field `disclosed` was not seen.  Every text of
+    # the file is read now, each a paragraph of its own, keys and values at any depth.  Measured first: on main's record this
+    # meets no verdict file that the three fields did not.  The line as it stood:
+    #     return "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
+    d = json.loads(raw)
+
+    def texts(v):
+        if isinstance(v, str):
+            yield v
+        elif isinstance(v, dict):
+            for k, x in v.items():
+                yield str(k)
+                yield from texts(x)
+        elif isinstance(v, (list, tuple)):
+            for x in v:
+                yield from texts(x)
+    return "\n\n".join(texts(d))
+
+
+def test_the_sweep_reads_a_verdict_files_scope_and_note_as_well_as_its_line():
+    """Planted: a verdict file that states the old level in its scope, and one that states it in its note, with a claim line
+    that says nothing of it.  Read by the claim line alone, as this lock read a verdict file, neither is seen."""
+    by_the_line_alone = lambda raw: _states_the_old_level(json.loads(raw).get("claim_one_line", ""))
+    base = {"id": "B0", "claim_one_line": "A statement about another matter. 0 of 19.",
+            "scope": {"frame": "none", "object": "the figure-eight knot group", "reach": "single", "hypotheses": "none"}}
+    in_the_scope = json.dumps(dict(base, scope=dict(base["scope"], hypotheses="m004 is a congruence subgroup of level 8")))
+    in_the_note = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8)."))
+    for what, raw in (("in the scope", in_the_scope), ("in the note", in_the_note)):
+        assert not by_the_line_alone(raw), what
+        assert _states_the_old_level(_of_a_verdict_file(raw)), what
+    assert not _states_the_old_level(_of_a_verdict_file(json.dumps(base)))                 # a twin: the same file with neither
+    corrected = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8). [Corrected: " + MARK + ".]"))
+    assert MARK in corrected                                                              # and a file that carries the correction is not read further, as before
 
 
 def test_the_sweep_sees_the_shapes_the_re_audit_planted():
@@ -257,3 +299,125 @@ def test_the_withdrawn_gloss_is_withdrawn_where_it_stood():
     for rel in ("frontier/B734_m004_is_congruence/FINDINGS.md", "docs/LAW_MAP.md", "docs/THEOREM_REGISTRY.md"):
         assert "the gloss that the group defies a base rate is withdrawn" in (ROOT / rel).read_text(encoding="utf-8"), rel
     assert "gloss is withdrawn" in (ROOT / "docs" / "THEOREM_LEDGER.md").read_text(encoding="utf-8")
+
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its findings 4, 5, 6, 8, 9 and 10).
+# Not checked by main, but the orders of finding 6, which main computed and which are computed again below.  Nothing above this
+# line is changed.  What the supplement found: the correction stood beside one place of a page and not beside the others; it
+# stood in one file of an arc and not in its siblings; the scripts were never swept; the withdrawn gloss stood in two more
+# pages; and the note on the image's order at (8) did not say in which group.
+THE_ORDERS = ("The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12). At (8): 10,240 in 122,880 modulo ±1; "
+              "2,560 in 30,720 modulo all eight units of square one.")
+THE_GLOSS = "The gloss that the group defies a base rate is withdrawn"
+# file -> the sentences it must hold.  MARK is main's own, above.
+PLACED_AT_REVIEW_80 = {
+    "frontier/B732_conjugation_is_out_A5/FINDINGS.md": (MARK, "how to read this page. Where it says level (8) or (2)^3 for m004, read the"),
+    "frontier/B733_observer_space/FINDINGS.md": (MARK, "Where this page\nsays (8)-door, level (8) or level 8 for m004, read that correction."),
+    "frontier/B942_l113_bc_falsifier/FINDINGS.md": (MARK, "At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.",
+                                                    "The order this page quotes, 2560, is the second"),
+    "frontier/B1067_rayclass_harvest/FINDINGS.md": (MARK, THE_GLOSS),
+    "frontier/B736_ABC_campaign/p1_consolidation.md": (MARK, THE_GLOSS, THE_ORDERS, "the gloss \"Serre-defying\" is withdrawn; see the note at the head of this page",
+                                                       "row 1.3 of the table above calls B734 Serre-defying. The gloss is withdrawn"),
+    "frontier/B736_ABC_campaign/FINDINGS.md": (MARK, THE_ORDERS, "Where this page says G₈, level (8) or (2)³ for m004, read that."),
+    "frontier/B736_ABC_campaign/p2_kms.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that.", "2,560 in 30,720 modulo all eight units of square one."),
+    "frontier/B736_ABC_campaign/p3_reduction.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that."),
+    "frontier/B779_convergence_probe/R6_maass_assessment.py": (MARK, "Where this script says level (8), (2)^3 or G_8 for m004, read that."),
+    "frontier/B779_convergence_probe/R7_functor_assessment.md": (MARK, "Where this page says level (8) for m004, read that."),
+}
+# scripts that state the old level and carry no correction, as found on 2026-11-12: three cells of other arcs, which the
+# supplement does not name and this patch does not read.  A name leaves this table when its script carries the correction.
+SCRIPTS_AS_FOUND = ("frontier/B754_p2_spectral/cells/TOMB-L30/compute.py", "frontier/B771_phase1_wave1/cells/OI-146/compute.py",
+                    "frontier/B773_chord_recompute/cells/OI-146-fix/compute.py")
+
+
+def _what_the_places_of_review_80_lack(read):
+    """(file, sentence) for each sentence a file of the table does not hold.  `read` gives a file's text by its name."""
+    return [(rel, s) for rel, ss in PLACED_AT_REVIEW_80.items() for s in ss if s not in read(rel)]
+
+
+def _the_scripts_that_state_the_old_level(files):
+    """of (name, text) pairs: the names whose text states the old level for this group and does not carry the correction"""
+    return sorted(rel for rel, text in files if MARK not in text and _states_the_old_level(text))
+
+
+def _the_scripts():
+    for p in sorted((ROOT / "frontier").rglob("*.py")):
+        rel = p.relative_to(ROOT).as_posix()
+        if rel.startswith(HISTORY) or any(h in rel for h in HISTORY):
+            continue
+        try:
+            yield rel, p.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+
+def test_the_orders_at_level_8_are_computed_and_are_the_ones_the_notes_give():
+    img = {m: len(_image(m)) for m in (2, 4, 8)}
+    commas = lambda n: format(n, ",")
+    cen = _central(8)
+    Z = (0, 0)
+    assert len(cen) == 8 and all((c, Z, Z, c) in _image(8) for c in cen)          # the image at (8) holds all eight, so both quotients divide it evenly
+    said = ("The image in SL(2, O₃/(2ᵏ)) has order %s, %s, %s at k = 1, 2, 3 (index %d, %d, %d). At (8): %s in %s modulo ±1; "
+            "%s in %s modulo all eight units of square one." % (
+                commas(img[2]), commas(img[4]), commas(img[8]), _SL[2] // img[2], _SL[4] // img[4], _SL[8] // img[8],
+                commas(img[8] // 2), commas(_SL[8] // 2), commas(img[8] // len(cen)), commas(_SL[8] // len(cen))))
+    assert said == THE_ORDERS
+    # the index is 12 in either quotient at (8); what differs is the group, and so the image's order
+    assert (_SL[8] // 2) // (img[8] // 2) == (_SL[8] // 8) // (img[8] // 8) == 12 and img[8] // 2 != img[8] // 8
+
+
+def test_the_correction_stands_where_review_80_found_it_missing():
+    read = lambda rel: (ROOT / rel).read_text(encoding="utf-8")
+    assert _what_the_places_of_review_80_lack(read) == []
+    # planted: each file as it stood before the notes, by taking out the lines that hold a sentence of the table
+    for rel, ss in PLACED_AT_REVIEW_80.items():
+        new = [s for s in ss if s != MARK or rel.endswith((".py", "R7_functor_assessment.md", "B736_ABC_campaign/FINDINGS.md"))]
+        text = read(rel)
+        for s in new:
+            without = text.replace(s, "")
+            lack = _what_the_places_of_review_80_lack(lambda r, rel=rel, without=without: without if r == rel else read(r))
+            assert (rel, s) in lack, (rel, s)
+    # the pages that call the result by the withdrawn gloss say that it is withdrawn, as many times as they use it or once at their head
+    for rel in ("frontier/B1067_rayclass_harvest/FINDINGS.md", "frontier/B736_ABC_campaign/p1_consolidation.md"):
+        assert "Serre-defying" in read(rel) and THE_GLOSS in read(rel)
+
+
+def test_no_script_states_the_old_level_without_the_correction_but_the_three_held_as_found():
+    assert _the_scripts_that_state_the_old_level(_the_scripts()) == sorted(SCRIPTS_AS_FOUND)
+    # planted: a script as B736's stood, and its twin with the correction; a script about another group; one that names no congruence
+    as_it_stood = "# the observer of m004: congruence at level (2)^3=(8), image order 2560\nk = 3\n"
+    assert _the_scripts_that_state_the_old_level([("a.py", as_it_stood)]) == ["a.py"]
+    assert _the_scripts_that_state_the_old_level([("a.py", "# " + MARK + "\n" + as_it_stood)]) == []
+    assert _the_scripts_that_state_the_old_level([("a.py", "# the sister m003 is congruence at level (2)\n")]) == []
+    assert _the_scripts_that_state_the_old_level([("a.py", "# the ring at (2)^3: 64 elements\n")]) == []
+    # the three scripts of this patch were among them before it
+    for rel in ("frontier/B736_ABC_campaign/p2_kms.py", "frontier/B736_ABC_campaign/p3_reduction.py", "frontier/B779_convergence_probe/R6_maass_assessment.py"):
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        i, j = text.index("# [PLACED HERE 2026-11-12"), text.index("is not made again.]\n")
+        before = text[:i] + text[j + len("is not made again.]\n"):]
+        assert MARK not in before and _the_scripts_that_state_the_old_level([(rel, before)]) == [rel], rel
+
+
+def test_the_note_on_b736s_page_leaves_the_opening_that_the_atlas_reads_as_it_was():
+    """A fault of the patch that placed the notes, found before it was sent: a note at the head of B736's page moved the tag
+    the atlas guesses from a page's first 1,500 characters, from dead to banked.  The note stands below that opening."""
+    page = (ROOT / "frontier/B736_ABC_campaign/FINDINGS.md").read_text(encoding="utf-8")
+    assert page.index("[PLACED HERE 2026-11-12") > 1500 and page.index("G₈=PSL(2,O₃/(8))") < page.index("[PLACED HERE 2026-11-12") < page.index("### Path C")
+    atlas = json.loads((ROOT / "scripts" / "atlas" / "atlas_data.json").read_text(encoding="utf-8"))
+    assert atlas["probes"]["B736"]["status"] == "dead"
+    # the other pages that this patch placed a note on: none is placed in the opening of a page of findings but B732's, whose tag it does not move
+    assert atlas["probes"]["B732"]["status"] == "banked" and "[ADDED 2026-11-12" in (ROOT / "frontier/B732_conjugation_is_out_A5/FINDINGS.md").read_text(encoding="utf-8")[:1500]
+
+
+def test_the_sweep_reads_every_field_of_a_verdict_file():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 14, not checked by main, made again first).  A
+    verdict file that states the old level in its field `disclosed`, with a claim line that says nothing of it, was not seen.
+    It is seen now, and so is the old level in any other field, at any depth.  The twin: the same file with the correction in it."""
+    for field, value in (("disclosed", "m004 the knot is congruence at level (8)"), ("verdict_note", "m004 is congruence at level (2)^3"),
+                         ("dependencies", {"why": ["B734: m004 congruence at level 8"]})):
+        planted = json.dumps({"id": "B09", "verdict": "PROVED", "claim_one_line": "a line that says nothing of it", field: value})
+        assert _states_the_old_level(_of_a_verdict_file(planted)), field
+    twin = json.dumps({"id": "B09", "verdict": "PROVED", "claim_one_line": "a line", "disclosed": "m004 is congruence at level (4)"})
+    assert not _states_the_old_level(_of_a_verdict_file(twin))               # the corrected level, in the same field, is not reported
+

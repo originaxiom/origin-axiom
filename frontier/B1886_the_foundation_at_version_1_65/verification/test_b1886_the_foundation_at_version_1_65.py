@@ -52,8 +52,17 @@ def test_no_status_cell_of_an_existing_item_changed():
     assert len(old) == 29                                                                     # the rows of v1.64 that open with an identifier: a fixed commit, so a fixed count
     assert {"PF1", "PF2", "PF3", "GM1", "GM5c", "GM5d", "SE1", "SE2", "T-ROOT", "FK1", "FK2", "FK3", "FK9", "FK15"} <= set(old)
     assert set(new) - set(old) == {"PF5", "SE3", "FK16"}                # the three new items, and no other
-    changed = {k: (old[k], new[k]) for k in old if old[k] != new.get(k)}
-    assert changed == {}, changed
+    # CHANGED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18).  It read:
+    #     changed = {k: (old[k], new[k]) for k in old if old[k] != new.get(k)}
+    #     assert changed == {}, changed
+    # Version 1.67 puts the account in the bracket of FK13's status cell in plain words, and its label is as it was.  What
+    # this lock protects is that no STATUS changes without a version saying so, and the status is the cell's label.  So a
+    # row that a version names (NAMED_BY_A_VERSION, beside the snapshot's builder) is compared by its label, and every other
+    # row by its whole cell, as before.  The message names the rows and not their cells: a cell of the snapshot can hold
+    # words that are printed nowhere.
+    bs = _the_builder()
+    changed = sorted(k for k in old if bs.differs(k, old[k], new.get(k)))
+    assert changed == [], changed
     assert old["GM5c"] == new["GM5c"] == "OPEN" and old["SE2"] == new["SE2"] == "CHOSEN" and new["FK2"] == "CHOSEN" and new["FK3"] == "OPEN"
 
 
@@ -101,6 +110,24 @@ def test_the_arc_says_what_it_does_not_do():
     assert v["id"] == "B1886" and v["claim_one_line"].endswith("0 of 19.")
 
 
+def _the_builder():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("build_status_cells_for_b1886", pathlib.Path(__file__).resolve().parent / "build_status_cells.py")
+    bs = importlib.util.module_from_spec(spec); spec.loader.exec_module(bs)
+    return bs
+
+
+def _rows_that_moved_from_version_1_64(text):
+    """the rows of version 1.64, of both kinds, whose status is not what it was in the text given: the whole cell, or the label
+    alone for a row that a version names (added 2026-11-12 with version 1.67, so that the arc B1904 can plant against this
+    lock's own comparison)"""
+    bs = _the_builder()
+    a = json.loads((pathlib.Path(__file__).resolve().parent / "status_cells.json").read_text(encoding="utf-8"))["v1.64"]
+    live, live_ident = bs.status_table_rows(text), bs.identifier_rows(text)
+    return (sorted(key for key, cell in a["status_table_rows"].items() if bs.differs(key, cell, live.get(key)))
+            + sorted(key for key, cell in a["identifier_rows"].items() if bs.differs(key, cell, live_ident.get(key))))
+
+
 def test_every_status_cell_of_both_kinds_of_row_at_both_versions():
     """Added 2026-11-12 (Review 79).  The findings said the lock compares "them all" with the committed v1.64.  It read the 29 rows
     that open with an identifier and not the foundation's other tables that carry a status; a reader's own route found 19 such
@@ -129,12 +156,17 @@ def test_every_status_cell_of_both_kinds_of_row_at_both_versions():
     # LIVE foundation was held to v1.64 for the rows that open with an identifier only: a status changed in one of its other
     # tables passed every line of this lock.  Both kinds are now held on the live page.  A later version that changes a status
     # cell on purpose names the row here, with its arc.
-    CHANGED_SINCE = {}                                              # row key -> the arc that changed its status cell; empty at version 1.66
+    CHANGED_SINCE = {}                                              # row key -> the arc that changed its status cell; empty at version 1.66, and at 1.67
     live = bs.status_table_rows(G)
-    moved = {key: (cell, live.get(key)) for key, cell in a["status_table_rows"].items() if live.get(key) != cell and key not in CHANGED_SINCE}
-    assert moved == {}, moved
-    live_ident = bs.identifier_rows(G)
-    assert {key for key, cell in a["identifier_rows"].items() if live_ident.get(key) != cell and key not in CHANGED_SINCE} == set()
+    # CHANGED 2026-11-12 (version 1.67, arc B1904; main's word in its M18).  These lines read:
+    #     moved = {key: (cell, live.get(key)) for key, cell in a["status_table_rows"].items() if live.get(key) != cell and key not in CHANGED_SINCE}
+    #     assert moved == {}, moved
+    #     live_ident = bs.identifier_rows(G)
+    #     assert {key for key, cell in a["identifier_rows"].items() if live_ident.get(key) != cell and key not in CHANGED_SINCE} == set()
+    # A row named in CHANGED_SINCE was not compared at all.  No status has changed, so that table stays empty.  A row whose
+    # ACCOUNT a version changed is named beside the snapshot's builder, and is compared by its label.
+    assert CHANGED_SINCE == {} and _rows_that_moved_from_version_1_64(G) == []
+    assert bs.NAMED_BY_A_VERSION.keys() == {"FK13"} and bs.label("OPEN") == "OPEN" and bs.label("**A B** (an account (with a bracket))") == "**A B**"
     assert bs.unspaced_table_lines(G) == []
     # that these can fail: a status changed in a table without identifiers, and a table written without spaces
     row = next(key for key in a["status_table_rows"] if not IDENT_FIRST.match(key.split(" :: ")[1]))

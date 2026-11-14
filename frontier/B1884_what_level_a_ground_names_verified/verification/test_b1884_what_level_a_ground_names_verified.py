@@ -63,6 +63,12 @@ def test_two_and_no_more_holds_to_200_and_not_beyond():
     assert [n for n, c in counts.items() if c == 1] == [5] and counts[25] == 0          # exactly one: at 5 and at no other level to 1000
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     assert "four at 209 = 11 × 19" in f and "holds to 200, the range computed" in f
+    # ADDED 2026-11-12 (Review 80; the SM seat's finding 34, which main recounted).  A bracket of the first section said "two at
+    # other levels".  Most levels have none: counted here, and the page's correction is held to the count.  BUILT AGAIN
+    # 2026-11-13 on main's b1bcc7f50: main corrected the bracket itself (B1923, at agy-002's reading); the lock holds main's words.
+    others = [counts[n] for n in range(2, 201) if n != 5]
+    assert (len(others), others.count(0), others.count(2), others.count(1)) == (198, 173, 25, 0)
+    assert "and two at other levels. [CORRECTED 2026-11-13 (" in f and "two at 25 other levels to 200" in f and "none at the other 173" in f
 
 
 def test_the_column_convention_is_the_swap_of_the_coordinates_and_not_a_transpose():
@@ -96,6 +102,37 @@ def test_the_column_convention_is_the_swap_of_the_coordinates_and_not_a_transpos
     assert "CORRECTED AGAIN the same day" in src and src.count("the transpose of B1872's rows") == 1          # once, in the note that says what it read
 
 
+def _names_the_column_convention_as_mains_own(claim):
+    """the places where a verdict line calls the column convention main's own and does not take it back within 120 characters.
+    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 3, not checked by main, made again first): the line
+    was read with one spelling of the apostrophe, so the same words with a typographic one passed.  Every spelling of it is read
+    as one; the places are those of the line as given."""
+    import re
+    claim = re.sub("[\u2018\u2019\u02bc\u2032\u00b4`]", "'", claim)
+    out, at = [], claim.find("main's own convention")
+    while at != -1:
+        if "it is not main's own" not in claim[at:at + 120]:
+            out.append(at)
+        at = claim.find("main's own convention", at + 1)
+    return out
+
+
+def test_the_verdict_line_does_not_leave_the_column_convention_as_mains_own():
+    """Added 2026-11-12 (Review 80; the SM seat's finding 35, checked by main).  The page and the script were corrected at Review
+    79's second round; the verdict line still said "The same counts hold in main's own convention", gave the agreement as a
+    result, and no test read it.  Planted: the line as it stood, and the correction moved to the end of the line."""
+    claim = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    assert claim.count("main's own convention") == 1 and _names_the_column_convention_as_mains_own(claim) == []
+    assert "the row convention with every matrix conjugated by the swap of the two coordinates" in claim and "an instance of an identity" in claim
+    start = claim.index(" [CORRECTED 2026-11-12 (Review 80): it is not main's own.")
+    end = claim.index("].", start) + 1
+    as_it_stood = claim[:start] + claim[end:]
+    assert "The same counts hold in main's own convention. Nothing leaves the budget" in as_it_stood
+    assert len(_names_the_column_convention_as_mains_own(as_it_stood)) == 1
+    moved = as_it_stood[:-len("0 of 19.")] + claim[start + 1:end] + " 0 of 19."
+    assert len(_names_the_column_convention_as_mains_own(moved)) == 1
+
+
 import os as _os
 
 import pytest as _pytest
@@ -112,4 +149,52 @@ def test_the_script_is_run_again_and_every_check_holds():
     r = subprocess.run([sys.executable, "-B", str(HERE / "ground_level_on_main.py")], capture_output=True, text=True, timeout=1800)
     assert r.returncode == 0, (r.stdout[-500:], r.stderr[-500:])
     assert "FAILING: 0" in r.stdout and "every coprime factorisation of the 139 levels" in r.stdout
+
+
+
+def test_the_lines_the_ground_keeps_are_the_roots_of_its_own_quadratic():
+    """ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its first finding, computed by main).  A
+    bracket main wrote at this review said that LR keeps one point at N = 5 and two at other levels.  The lines LR keeps are
+    the roots of x^2 - 3x + 1 modulo N: counted here by brute force, both ways, and the page's sentence is held to it."""
+    roots = lambda n: sum(1 for x in range(n) if (x * x - 3 * x + 1) % n == 0)
+    assert all(m.lines_kept(m.LR, n) == roots(n) for n in range(2, 201))                # lines and roots agree at every level
+    to_60 = {n: roots(n) for n in range(2, 61)}
+    assert sum(1 for c in to_60.values() if c == 0) == 51 and [n for n, c in to_60.items() if c == 1] == [5]
+    assert [n for n, c in to_60.items() if c == 2] == [11, 19, 29, 31, 41, 55, 59] and max(to_60.values()) == 2
+    five_is_a_square = lambda n: any((x * x - 5) % n == 0 for x in range(n))
+    assert all(roots(n) == 0 for n in range(2, 201) if not five_is_a_square(n))          # none wherever 5 is not a square
+    assert five_is_a_square(2) and roots(2) == 0                                         # and not only there: at 2, 5 is a square and no line is kept
+    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
+    # BUILT AGAIN 2026-11-13 on main's b1bcc7f50: main wrote the correction on the page itself (B1923, at the same reader's
+    # finding); the page's sentence held here is main's, and the counts above are its counts to 60
+    assert "LR keeps exactly one point at N = 5, and two at other levels. [CORRECTED 2026-11-13 (" in f   # what was written is kept
+    assert "Lines kept as a set number one at N = 5, two at 25 other levels to 200 (11, 19, 29, 31, 41, 55, " in f
+    assert "and none at the other 173" in f
+
+
+def test_the_arcs_corrections_of_review_79_and_80_are_held_and_the_script_says_what_the_page_says():
+    """ADDED 2026-11-12 (the same supplement, its second finding, not checked by main): the page was corrected to say
+    "computed once" and the script's own heading still said that its expectations were written before the run; and the
+    lock held one of main's four mends of this arc."""
+    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
+    for s in ("is main's own check and not a prediction of the card",
+              "it now tries every one",
+              "stood unscoped in five places; each carries the correction now",
+              "By the protocol's labels this is computed once, and not \"expectations committed first\""):
+        assert s in f, s
+    script = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
+    assert "EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)\n[CORRECTED 2026-11-12 (Review 80;" in script
+    assert "By the protocol's labels this is computed once" in " ".join(script.split())
+
+
+def test_the_verdict_line_is_read_with_every_spelling_of_an_apostrophe():
+    """ADDED 2026-11-13 (C16; the same finding).  The line as it stood, with a typographic apostrophe in each place, was passed;
+    it is reported now, as the straight one is.  The twin: the correction with a typographic apostrophe takes it back."""
+    stood = "The same counts hold in main\u2019s own convention. Nothing leaves the budget. 0 of 19."
+    assert len(_names_the_column_convention_as_mains_own(stood)) == 1
+    assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", "'"))) == 1
+    for mark in ("\u2018", "\u02bc", "\u2032", "`"):
+        assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", mark))) == 1, repr(mark)
+    taken_back = "The same counts hold in main\u2019s own convention [it is not main\u2019s own]. 0 of 19."
+    assert _names_the_column_convention_as_mains_own(taken_back) == []
 

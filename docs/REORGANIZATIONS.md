@@ -3,6 +3,47 @@
 *The log GOVERNANCE section 12 asks for. A file of the record is moved only when something forces it, and then batched,
 by a script, with the locks migrated in the same commit, and entered here. Newest first.*
 
+## 2026-11-13 — the historical folders move under docs/archive/, and ten copies of notes between sessions leave the tree
+
+- **Why:** a first reader should meet the README, the foundation, the rules and the working folders; the record's history
+  and side work stand beside them (main's M26 to the building session, and M27 for the ten copies). The building
+  session's card C18 measured them and proposed this; main approved it in its M28.
+- **The script:** `scripts/reorganize/history_2026_11_13.py` (it makes the move once; `--check` says whether the tree is as
+  it leaves it).
+- **Moved, each with its name:** `legacy/`, `story/`, `paths/`, `speculations/` and `philosophy/`, to
+  `docs/archive/<name>/`. No seal file names a path in any of them (the card's measurement,
+  `relays/advisor_2026-11-10_audit/c18/MEASUREMENT.md`).
+- **Removed, at the rule of the second entry, that git's history keeps them:** ten copies of notes between sessions,
+  nine inside arcs' folders (B702, B1297, B1303 two, B1305, B1306 three, B1454) and one in `outside_bench/`.
+- **The foundation:** its six paths into the moved folders, in §§ 0 to 8, change by its version 1.68 (B1930), written by
+  that version's own script in the same patch; its version log keeps its paths as written.
+- **Readers migrated:** the gates (the framing gate reads the moved folders under `docs/`, and leaves `legacy` out as it
+  did; the attribution gate's exemption and the foundation's pointers name the new paths), the seal ledger's script,
+  three tests that left `legacy/` unread, and B1303's lock, which now finds its note in git's history.
+- **References updated:** in the 22 living pages the script names (the front pages, the index, the practices, the bar,
+  the atlas's guides), 62 paths into the moved folders (a folder's bare name only where it stands in backticks). Dated records, ledgers and the foundation's version log keep the old paths as written; the lines
+  below let the path check resolve them in git's history.
+- **The lock:** `tests/test_the_historical_folders_moved.py` (the tree as moved; a living page naming a moved file at its
+  old place, a file back at its old place, a note back in the tree, each reported).
+- **Kept where it is:** `outside_bench/` (side work, read by four checks of the harvest; its one note between sessions
+  left with the others), `knowledge/`, `core/`, `src/`, `packaging/`.
+
+- REMOVED `legacy/` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `story/` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `paths/` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `speculations/` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `philosophy/` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B702_metallic_hearing_law/CC2_TO_CC_2026-07-19_EQ_results.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1297_the_spectral_cover_index/CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1303_the_sm_closings_z_prime/CC_TO_CHAT1_2026-09-08_B1303_DISPOSITIONS_HELD.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1305_the_cloud_156_178/CC_TO_CLOUD_2026-09-08_Q1_ANSWERED_AND_SHARPENED_HELD.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1306_the_older_debt/CC_TO_CHAT1_2026-09-09_HANDOFF_BANKED_HELD.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1306_the_older_debt/CC_TO_SM_2026-09-09_THE_TOWER_HARVESTED_AND_THE_RANGES_HELD.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1306_the_older_debt/inputs/chat1_handoff_2026-09-08/CHAT1_TO_CC_2026-09-08_HANDOFF_ARROW_CHIRALITY.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `frontier/B1454_genesis_v1_verified_and_adopted/received/SM_TO_CC_2026-10-02_GENESIS_V1.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+- REMOVED `outside_bench/CLOUD_TO_CC_2026-09-08_Q1_THE_QUANTUM_FACE.md` AT `fe146ca49b090f1e55dbc845c31f049073adec1e`
+
 ## 2026-11-13 — the notes and hand-overs between sessions leave the tree
 
 - **Why:** the owner's word of 2026-11-13: how the sessions talked to each other need not stay in the tree, since git's
@@ -11,6 +52,9 @@ by a script, with the locks migrated in the same commit, and entered here. Newes
 - **Removed:** 289 files under `docs/handoffs/`, every note and hand-over between sessions there, as of the commit below.
 - **Kept:** main's four hand-over folders of 2026-11-12, which the building session is still turning into arcs; each leaves
   the tree when its arcs have landed, by an entry here.
+- **Left the tree with its arc, 2026-11-13:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_D/`, main's fourth folder, in the
+  patch that lands B1905 (the building session's card C13, patch 1); its files are at the commit below, and B1905's
+  lock reads main's copies there.
 - **Kept where it is:** `docs/handoffs/cc_2026-10-06_sm_b1541_reproduction/run_main_bench.json`, which B1487's floor check
   reads at that path; the script is under B1487's seal and cannot be edited, so the file stays.
 - **Where they are now:** in git's history. The line below is read by the path check: a citation of a removed file resolves

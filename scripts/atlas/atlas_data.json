@@ -3642,11 +3642,13 @@
    "motifs": [
     "coupling",
     "figure_eight",
+    "eisenstein",
     "golden",
     "z3_generation",
     "firewall"
    ],
    "refs": [
+    "B298",
     "B682",
     "B892",
     "B950",
@@ -3656,7 +3658,7 @@
     "P2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -3896,6 +3898,7 @@
     "L162",
     "L171",
     "L173",
+    "L182",
     "L186"
    ],
    "obstacle": "observable",
@@ -3907,6 +3910,7 @@
    "slug": "lose nothing register",
    "motifs": [
     "closing",
+    "choice",
     "firewall"
    ],
    "refs": [
@@ -3920,6 +3924,7 @@
     "L255",
     "L310",
     "L34",
+    "S1",
     "S6",
     "S7"
    ],
@@ -3931,6 +3936,7 @@
   "B1173": {
    "slug": "digest partial close",
    "motifs": [
+    "closing",
     "choice",
     "kappa"
    ],
@@ -3945,7 +3951,7 @@
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1174": {
    "slug": "z2 identification",
@@ -3996,6 +4002,7 @@
    "slug": "record surface wave",
    "motifs": [
     "monoid",
+    "choice",
     "kappa",
     "z3_generation",
     "amphichiral_cp",
@@ -4032,10 +4039,12 @@
    "slug": "instrument bundle",
    "motifs": [
     "measurement",
+    "choice",
     "figure_eight",
     "amphichiral_cp"
    ],
    "refs": [
+    "B758",
     "B792",
     "B817",
     "B878",
@@ -4054,6 +4063,7 @@
    "slug": "l184 lazyfy",
    "motifs": [
     "measurement",
+    "choice",
     "figure_eight",
     "amphichiral_cp"
    ],
@@ -4069,6 +4079,7 @@
   "B1179": {
    "slug": "outreach and papers",
    "motifs": [
+    "choice",
     "amphichiral_cp",
     "torsion"
    ],
@@ -4076,12 +4087,14 @@
     "B165",
     "B491",
     "B817",
+    "K014",
+    "L189",
     "P1"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B117": {
    "slug": "interleaving",
@@ -6130,8 +6143,8 @@
     "B327",
     "B883"
    ],
-   "obstacle": "selector",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -10384,7 +10397,8 @@
     "figure_eight",
     "eisenstein",
     "golden",
-    "z3_generation"
+    "z3_generation",
+    "firewall"
    ],
    "refs": [
     "B280",
@@ -10928,12 +10942,16 @@
    "slug": "three on the weave graded",
    "motifs": [
     "action",
+    "figure_eight",
+    "eisenstein",
     "golden",
     "z3_generation",
     "amphichiral_cp",
-    "wrt_quantum"
+    "wrt_quantum",
+    "firewall"
    ],
    "refs": [
+    "B298",
     "P1",
     "P2",
     "P3",
@@ -16652,6 +16670,40 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1904": {
+   "slug": "the foundation at version 1 67",
+   "motifs": [
+    "closing",
+    "coupling"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1905": {
+   "slug": "selection and chirality across the record",
+   "motifs": [
+    "monoid",
+    "closing",
+    "choice",
+    "coupling",
+    "action",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B287",
+    "B864",
+    "B932",
+    "B997"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B1906": {
    "slug": "the four channels in closed form and three theorems checked",
    "motifs": [
@@ -17129,6 +17181,17 @@
    "obstacle_conf": 6,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B1930": {
+   "slug": "the foundation at version 1 68",
+   "motifs": [
+    "measurement"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B193": {
    "slug": "sealing field scouts",

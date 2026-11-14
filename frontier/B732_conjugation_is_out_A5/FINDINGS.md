@@ -4,6 +4,10 @@ cc banking seat, 2026-07-20 (framing corrected by B734). The positive computed o
 does the observer's conjugation act as the outer automorphism of the sister m003's level-(2)
 congruence quotient A₅? YES — computed + verified in-sandbox. Pure math; Gate 5; nothing to CLAIMS.
 
+[ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 4; not checked by main): how to read this page. Where it says level (8) or (2)^3 for m004, read the
+correction of 2026-11-11 that stands under "Honest bounds": the congruence level is (4). The text is kept as it was
+written.]
+
 ## THE RESULT
 the SISTER m003 (the non-knot) is congruence at level
 (2), and PSL(2,O₃)/Γ((2)) ≅ PSL(2,𝔽₄) ≅ A₅ (order 60). B701's conjugation = complex conjugation on
@@ -40,3 +44,7 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
 Two-seat: cc2 proposed the door (next-stage 2, on m003); cc computed + verified. Credit cc2. The
 object-level observer thread (as corrected by B734): m004 the knot IS congruence at level (2)^3=(8); the
 sister m003 does (A₅ at level 2), and the observer's swap is Out(A₅) there (B732). Nothing to CLAIMS.
+[CORRECTED 2026-11-12 (Review 80; a reader's finding, not checked by main, made again on this page): the sentence
+above gives the knot's congruence level as (2)^3=(8) with no correction beside it. The congruence level is (4): the
+correction of 2026-11-11 stands under "Honest bounds", beside this page's other note of that level, and was not
+placed here. The sentence stays as it was written.]

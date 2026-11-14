@@ -600,8 +600,8 @@
    "one outcome is one orbit of the whole, not one history picked; the closing selects nothing by itself, and a value can only be read from the whole, which needs the weight"
   ],
   [
-   "how 'the tick is an act' stands with 'even ticks observed'",
-   "On 2026-10-08 you ruled 'even ticks observed' ... Today you ruled that the tick is an act and both kinds of history are in the ledger. I did not remind you of the first ruling when I asked. How do the two stand together?",
+   "how 'the tick is an act' stands with the ruling of 2026-10-08",
+   "On 2026-10-08 you ruled that only even ticks are observed ... Today you ruled that the tick is an act and both kinds of history are in the ledger. I did not remind you of the first ruling when I asked. How do the two stand together?",
    "After the computation",
    "2026-11-11",
    [
@@ -610,15 +610,15 @@
    "both rulings stand side by side and the foundation records both; their relation is decided after main has computed the weave's theorems for the group with the exchange (P-769). Until then nothing says that the orientation has stopped being a choice, or that the mark is both twins"
   ],
   [
-   "'even ticks observed', after the computation",
-   "With the computation in hand: your ruling of 2026-10-08 says 'even ticks observed' ... Today you ruled the tick an act. The computation shows the only thing at stake between them is the hand ... How should they stand together?",
+   "the ruling of 2026-10-08, after the computation",
+   "With the computation in hand: your ruling of 2026-10-08 says that only even ticks are observed ... Today you ruled the tick an act. The computation shows the only thing at stake between them is the hand ... How should they stand together?",
    "A condition to derive (Recommended)",
    "2026-11-11",
    [
     "WP-1.4",
     "WP-1.6"
    ],
-   "every tick is in the ledger; 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver; the chiral three stays exactly as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice, and is not counted as derived (B1879)"
+   "every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver; the chiral three stays exactly as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice, and is not counted as derived (B1879)"
   ]
  ],
  "exit_kinds": {
@@ -743,7 +743,7 @@
   ],
   "the orientation": [
    "BACK-EDGE NAMED",
-   "the owner's ruling of 2026-11-11, to main, with B1879's computation in hand: every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver. So this input has a named condition downstream that it must satisfy, and none is built: it is not derived and is not counted as derived. [Was PRESSED: the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08, 'even ticks observed', also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice.]"
+   "the owner's ruling of 2026-11-11, to main, with B1879's computation in hand: every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver. So this input has a named condition downstream that it must satisfy, and none is built: it is not derived and is not counted as derived. [Was PRESSED: the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08 that only even ticks are observed also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice.]"
   ],
   "the principle's mathematical form": [
    "PRESSED",
@@ -1038,7 +1038,7 @@
    "wp": "WP-0.7"
   },
   "G9": {
-   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)",
+   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py). [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, held by main): this is the gate as B1878 landed it. B1880 replaced that reading the same day: every commit reachable from the tip after da25c4f49 is read, a commit that arrives by a merge too. What the gate does today is B1880's.]",
    "short": "the attribution gate never reads a commit message",
    "state": "FIXED",
    "trail": [
@@ -2494,7 +2494,7 @@
   "the headline's form": "agree, with one safeguard: the second number's list is frozen at a named commit before any comparison",
   "the ledger, cancelling, interaction": "agree as wording: 'the whole ledger' and 'a third thing that is kept' can be adopted; neither is yet a mathematical object, and the same definition is owed as for all histories together",
   "the map on the desk": "agree; every status computed by the weakest link, so the picture cannot look better than the mathematics",
-  "the tick is an act": "admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It supplies no hand. Build nothing on the added histories before the three debts are computed (P-769). MAIN'S OPINION AS FIRST GIVEN ALSO SAID that it removes the orientation as a choice; that was said without the owner's standing ruling of 2026-10-08 ('even ticks observed') beside it, and is withdrawn until the two are related",
+  "the tick is an act": "admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It supplies no hand. Build nothing on the added histories before the three debts are computed (P-769). MAIN'S OPINION AS FIRST GIVEN ALSO SAID that it removes the orientation as a choice; that was said without the owner's standing ruling of 2026-10-08 that only even ticks are observed beside it, and is withdrawn until the two are related",
   "the weave discipline": "agree with all five; the second-thread control is the most valuable; plenitude enters the foundation with the weight listed as open",
   "what exists is what survives": "agree as wording: nothing is ranked least or first, so every selection by rank is a selection on one thread and is labelled so",
   "what self-consistent means": "agree; on main's map no result returns to fix an input (B1867). The loop is an equation and not a circular argument, and it is not shown to be the only route"

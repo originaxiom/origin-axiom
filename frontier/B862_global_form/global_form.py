@@ -48,6 +48,11 @@ def kernel_exact(grid=6, charges=(-2, 3)):
     if c1 == 0 and c2 == 0:
         raise ValueError("both charges are zero: every a is in the kernel, which is infinite, and no grid is complete")
     need = math.gcd(3 * abs(c1), 2 * abs(c2))
+    # ADDED 2026-11-12 (Review 80; a reader's finding F11, not checked by main, made again here).  A grid of zero, or a negative
+    # grid that is a multiple of what the charges need, passed the guard below and enumerated no point: the kernel came back
+    # empty, without a word, where it holds the identity at the least.  A grid has at least one point.
+    if grid < 1:
+        raise ValueError("a grid of %d has no point: the kernel holds the identity at the least, and an empty grid finds nothing" % grid)
     if grid % need:
         raise ValueError("a grid of %d is not complete for the charges %r: an element of the kernel has a in (1/%d) of a turn" % (grid, charges, need))
     ker = []

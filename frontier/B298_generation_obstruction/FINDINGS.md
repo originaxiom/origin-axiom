@@ -21,6 +21,8 @@ appears everywhere as a *value*** — dimension 3, level `k=3`, trace 3, ramifie
 as a matter *multiplicity***, because a multiplicity of 3 needs a **cubic** structure and `4₁` is **quadratic
 everywhere** (trace field, tetrahedron shape `x²−x+1`, A-polynomial flavor, Galois ℤ/2).
 
+> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The obstruction above holds scoped, and not as the implication it is written as. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." B298's seven computed routes, below, stand (P-606). The words above are kept as they stood.
+
 ## Seven routes, all 1 or 2 (never 3)
 | route | multiplicity |
 |---|---|

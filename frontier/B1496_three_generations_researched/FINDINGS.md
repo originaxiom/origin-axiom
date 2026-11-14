@@ -20,6 +20,8 @@ three; its cusp is rectangular), B280, B956, B1487–B1495. **Literature:** this
 listed on the page with its verification status, and the three first-pass searches read before the seal are named on
 the preregistration.
 
+> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** This page cites B298 above as prior; B298's reason holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
+
 ## 1. The six expectations
 
 | | expectation | prior | result |

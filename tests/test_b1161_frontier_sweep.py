@@ -73,3 +73,20 @@ def test_reproduce_runner_committed_and_reproduces():
 def test_firewall_gate5_clean():
     d = _d()
     assert d["firewall_gate5"].startswith("CLEAN") and "No firewall crossing" in d["fences"]
+
+
+def test_the_generation_index_cell_carries_its_scope_note():
+    """Added 2026-11-13 by the building session (card C17; register row P-606, verified by main at B1906, section 3a):
+    the cell's words stay, and the dated note scoping them stands below the table and in the verdict line."""
+    import json, re
+    arc = Path(__file__).resolve().parents[1] / "frontier" / "B1161_frontier_sweep"
+    flat = lambda t: re.sub(r"\s+", " ", re.sub(r"^\s*>\s?", "", t, flags=re.M).replace("**", "").replace("`", ""))
+    page = flat((arc / "FINDINGS.md").read_text(encoding="utf-8"))
+    scoped = "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2."
+    unscoped = "Unscoped, B298's headline is false, three ways on m004"
+    old = page.index("| generation-index | NULL |")
+    note = page.index("Dated note, 2026-11-13 (register row P-606", old)
+    assert note - old < 2500 and scoped in page[note:] and unscoped in page[note:]
+    line = json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    assert "NEVER 3" in line and line.index("NEVER 3") < line.index("DATED NOTE 2026-11-13, register row P-606")
+    assert scoped in line and unscoped in line

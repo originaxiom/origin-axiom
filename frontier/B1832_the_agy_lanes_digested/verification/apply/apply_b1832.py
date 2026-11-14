@@ -67,7 +67,13 @@ rows = [
  "| T-FA-NORM | **The census's θ-power Higgs directions have v·v = Xⁿ + Yⁿ − (X+Y)ⁿ** (n = a/2, X = θ₂⁴, Y = θ₄⁴); F₁₀: v·v = −80η¹²E₄, with η¹²'s multiplier and zeros on SL(2, ℤ)·ρ; F₆: −48η¹², never zero; so h·h ∝ η¹² in closed form | B1832 | %s | PROVED |" % LOCK,
  "| T-THETA-Y-BSTEP | **θ_Y shifts by 264πa under b → b + 1**, and 66a² + ¼ is never an integer for rational a, so the frame's T-step on θ_Y (−132πa² − π/2, P-323) is never trivial on a rational line | B1832 | %s | PROVED |" % LOCK,
 ]
-assert all("|" not in r.strip("| ").replace(" | ", "") for r in []) or True
+# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The line was
+#     assert all("|" not in r.strip("| ").replace(" | ", "") for r in []) or True
+# It could not fail twice over: it ended in the constant, and it read an empty list.  It stands between the list `rows` and
+# the line that writes those rows to the registry, and it asks that no row hold a bar inside a cell; so it is taken to be
+# about `rows`.  That reading is the building session's and is main's to confirm.  Over `rows` the statement holds: four
+# rows, none with a bar inside a cell.  This script was run once, at B1832's landing, and what it applied is on the pages.
+assert all("|" not in r.strip("| ").replace(" | ", "") for r in rows)
 t = t.replace(last, last + "\n" + "\n".join(rows)); p.write_text(t, encoding="utf-8")
 # 4. LAW_MAP rows after the adjugate row
 p = ROOT / "docs/LAW_MAP.md"; ls = p.read_text(encoding="utf-8").split("\n")

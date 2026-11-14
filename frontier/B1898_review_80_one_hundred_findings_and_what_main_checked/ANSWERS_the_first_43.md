@@ -1,5 +1,12 @@
 # Review 80: every finding of the readers, and what main did with it
 
+*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked
+by main). The note is the building session's; below it the file is as main wrote it. Two things. The header says
+"DRAFT: two of four files are in": all four were in when the file was committed. And "reproduced" and "main's
+reproduction", in the header and in the headings of the two tables, are main's own check of a finding, by a recount,
+by planted errors of its own or by a constructed case. They are not the label "reproduced" of the protocol's § 12,
+which is kept for the same code run again on a clean checkout. The words stay as they were written.]*
+
 *Main, 2026-11-12 (DRAFT: two of four files are in). Each row was reproduced by main before a word was changed: by a
 recount from git or from the file, by planted errors of main's own in a scratch checkout, or by giving the function
 itself a constructed case. W is the web seat's, A is agy-002's. "Held" means main found what the reader found.

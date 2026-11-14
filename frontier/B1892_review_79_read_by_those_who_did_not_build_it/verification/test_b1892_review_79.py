@@ -63,6 +63,17 @@ def test_every_quotation_was_found_and_the_check_can_fail():
     assert qc.placed(theirs, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) == "wide"   # the strict one: not in the file named
     table = "| arc | file | quoted | wrong |\n|---|---|---|---|\n| B1 | `a.md` | one half | the other half | wrong |\n|B1|`a.md`|compact|wrong|\n"
     assert qc.rows_not_read("agy-002", table) == (1, 1)
+    # [ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
+    #  builder).  A quotation set under a path that is at no commit read was looked for in every file whose name ends as the
+    #  path does, and reported as found in the file named.  Such a path is no file, and nothing is taken in its place.]
+    assert all(v["under a path that is at no commit read"] == 0 for v in q.values())           # no finding of the four files names such a path
+    of_b1881 = " ".join(qc.text("0dda7b472", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md").split()[40:58])
+    no_such = "frontier/B9999_no_such_arc/FINDINGS.md"
+    assert qc.placed(of_b1881, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) == "named"
+    assert qc.placed(of_b1881, "B1881", no_such, read) == "no such file"                        # until this: "named"
+    assert qc.placed(of_b1881, "window", no_such, read) == "no such file"
+    assert qc.found(of_b1881, "window", no_such, read) is False                                 # until this: True, by the same rule
+    assert qc.found(of_b1881, "B1881", no_such, read) is True                                   # the wide rule still finds it in the arc's own folder
 
 
 def test_the_planted_suites_output_says_what_the_page_says():
@@ -91,3 +102,79 @@ def test_the_arc_says_what_it_did_not_do():
         assert s in f, s
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1892" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
+
+
+def _what_two_readers_found(page):
+    """the table of section 5, counted: (rows, the first reader's findings, the second's, those found by both)"""
+    section = page[page.index("## 5. What two readers found in common"):]
+    section = section[:section.index("\n## ", 5)]
+    rows = [[c.strip() for c in l.strip().strip("|").split(" | ")] for l in section.split("\n") if l.startswith("| ") and not l.startswith("| what")]
+    rows = [r for r in rows if len(r) == 4]
+    leading = lambda cell: int(re.match(r"\d+", cell).group(0))
+    return (len(rows),) + tuple(sum(leading(r[k]) for r in rows) for k in (1, 2, 3))
+
+
+def test_the_table_of_what_two_readers_found_and_the_sentences_that_count_it():
+    """ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A1, held by main).  The table of section 5 was
+    corrected to sum to 53 and 43, and a note added to the page in the same commit said 52 for the first reader; nothing
+    counted the table.  It is counted here, and the page and the verdict line are held to the count."""
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    rows, first, second, both = _what_two_readers_found(page)
+    assert (rows, first, second, both) == (16, 53, 43, 9)
+    together = first + second - both
+    assert together == 87 and 2 * first > together and 2 * second < together       # by the table: the first reading more than half, the second just under
+    # Built again on main's 663a902ff (2026-11-13): main corrected the page itself at Review 81 (the web seat's finding 4):
+    # its bracket gives 53, as the table sums, and says the conclusion holds.  The page and the verdict line are main's and
+    # are not held here to this seat's sentences; that the second reading's 43 of 87 is under half is sent back to main.
+    assert "the first reader has 52 findings" in F and "53, as § 5's table sums after its own correction" in F
+    assert F.index("the first reader has 52 findings") < F.index("53, as § 5's table sums after its own correction")
+    # that the count can fail: one number of one row changed
+    changed = page.replace("| B1879 | 10 | 0 | 0 |", "| B1879 | 9 | 0 | 0 |")
+    assert changed != page and _what_two_readers_found(changed) == (16, 52, 43, 9)
+
+
+# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
+# builder).  The lock read the verdict file for its id, the names of its scope and its last words, and the answers for the
+# names of their rows.  A changed verdict, a replaced verdict line and emptied columns of the answers passed.
+_THE_LINE_SAYS = ("REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT", "99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION",
+                  "they are 88 distinct faults, of which ten were found by two readers")
+
+
+def _what_the_verdict_and_the_answers_do_not_hold(verdict, answers):
+    out = []
+    if verdict.get("verdict") != "PROVED":
+        out.append("the verdict is %r" % verdict.get("verdict"))
+    line = " ".join(str(verdict.get("claim_one_line", "")).split())
+    if not line.startswith(_THE_LINE_SAYS[0]):
+        out.append("the verdict line does not open as it did")
+    out += ["the verdict line does not say: " + s for s in _THE_LINE_SAYS[1:] if s not in line]
+    rows = [[c.strip() for c in l.strip().strip("|").split(" | ")] for l in answers.split("\n") if re.match(r"^\| ((?:W|SM-|A|X)\d+) \|", l)]
+    if len(rows) != A["findings"]:
+        out.append("the answers have %d rows" % len(rows))
+    for r in rows:
+        if len(r) != 4 or len(r[1]) < 2 or len(r[2]) < 12 or len(r[3]) < 4:
+            out.append("the row %s of the answers has not its four cells, each saying something" % r[0])
+    sent = sorted(r[0] for r in rows if len(r) == 4 and "TO THE BUILDER" in r[3])
+    if sent != sorted(A["sent on to the builder of the enforcement package"]):
+        out.append("the rows marked as sent to the builder are not the ones the count names")
+    return out
+
+
+def test_the_verdict_the_verdict_line_and_the_columns_of_the_answers_are_held():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    answers = (ARC / "ANSWERS.md").read_text(encoding="utf-8")
+    assert _what_the_verdict_and_the_answers_do_not_hold(v, answers) == []
+    as_the_lock_asked = lambda w: w["id"] == "B1892" and set(w["scope"]) == {"frame", "object", "reach", "hypotheses"} and w["claim_one_line"].endswith("0 of 19.")
+    names = lambda text: re.findall(r"^\| ((?:W|SM-|A|X)\d+) \|", text, re.M)
+    planted = {
+        "the verdict changed": (dict(v, verdict="NEGATIVE"), answers),
+        "the verdict line replaced, its last words kept": (dict(v, claim_one_line="EVERYTHING HELD AND NOTHING WAS FOUND. 0 of 19."), answers),
+        "the verdict line with its count of distinct faults changed": (dict(v, claim_one_line=v["claim_one_line"].replace("they are 88 distinct faults", "they are 99 distinct faults")), answers),
+        "the last two columns of the answers emptied": (v, "\n".join((" | ".join(l.split(" | ")[:2]) + " |  |  |") if re.match(r"^\| ((?:W|SM-|A|X)\d+) \|", l) else l for l in answers.split("\n"))),
+        "one row's last cell emptied": (v, answers.replace(" | corrected; a lock computes the page's numbers from the run |", " |  |", 1)),
+        "a row no longer marked as sent to the builder": (v, answers.replace("TO THE BUILDER", "mended", 1)),
+    }
+    for what, (w, text) in planted.items():
+        assert (w, text) != (v, answers), what
+        assert as_the_lock_asked(w) and names(text) == A["ids"], what              # what the lock asked before passes each of them
+        assert _what_the_verdict_and_the_answers_do_not_hold(w, text), what

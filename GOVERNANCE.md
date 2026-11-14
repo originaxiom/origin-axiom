@@ -81,7 +81,7 @@ exhibit: the **family count three** is EXHIBITED in E₈'s 27×3 but NOT forced 
 force E₈, B1033/B1138; and the hypercharge **direction** is forced while its **normalization** is a
 convention, B991. Both make the claim stronger by making it unimpeachable.)*
 
-The handoff document is retained in `legacy/` as a historical record of the exploration. It
+The handoff document is retained in `docs/archive/legacy/` as a historical record of the exploration. It
 is **not** a source of claims.
 
 **The form / contents distinction (canonical phrasing of the firewall).** The object the
@@ -234,7 +234,7 @@ institutionalized and generativity ad hoc, so verification was silently blinding
 | **Phase 0** | Governance, specification, claim ledger, repo scaffolding. | locked |
 | **Phase A** | The tested foundation: lock every `proven` result behind a test. | complete — suite green, P1–P16 locked |
 | **Phase B** | The frontier: attempt `open` items in `frontier/`, quarantined, gated. | active — probes B1–B370+; physics-boundary rows firewalled throughout; the §5.1 promotion audit executed 2026-07-03 (P17–P55, C6–C12, E1–E15 promoted through the §5 gates) |
-| **Phase C** | Exhaustive survey of emergence-paths (`paths/`). | in progress |
+| **Phase C** | Exhaustive survey of emergence-paths (`docs/archive/paths/`). | in progress |
 
 Phase B began only after Phase A's test suite was green. See `ROADMAP.md`.
 
@@ -263,7 +263,7 @@ Recurring wording corrections. The left column is **forbidden**; use the right.
 - **`CHANGELOG.md`** — human-facing, versioned (Keep a Changelog format), updated at releases.
 - **`CLAIMS.md`** — the living ledger. Updated in the same commit as any result it describes.
 - **Freezes** — stable states are git-tagged (see `REPRODUCIBILITY.md`).
-- **`legacy/`** — frozen prior history. Never edited, never a source of claims.
+- **`docs/archive/legacy/`** — frozen prior history. Never edited, never a source of claims.
 - **`docs/ARCHIVE.md`** — the register of dead ideas and why they died.
 
 ---

@@ -44,3 +44,14 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the record repairs were executed; the two physics-adjacent gaps it names (U_e and the quasinormal channel) were left as gaps.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the gap U_e | CARRIED | `docs/POINT_REGISTER.md` | [S305j: HELD unspent by the owner's ruling (P-709) — as P-585] | P-638 |
+| the gap the quasinormal channel | CARRIED | `docs/POINT_REGISTER.md` | item (1) U_e split out as P-638; (2) the quasinormal channel covered by P-287 and B1090/B1704 | P-287, L189 (a reader's routing; L189 stays open) |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-287, L189; P-638). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

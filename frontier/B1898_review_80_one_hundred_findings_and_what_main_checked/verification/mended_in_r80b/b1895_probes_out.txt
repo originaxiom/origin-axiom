@@ -1,0 +1,10 @@
+(1) 1332 sequences of length 2 and 4 with runs to 6; the second convention's word, built letter by letter over the integers, equals the swap-conjugate of the seat's on 1332
+(2) of the 1332 sequences, how many are allowed differently from their reversal, mark by mark:
+      mark (0, 1)  annihilates its own line: False  358
+      mark (1, 0)  annihilates its own line: False  358
+      mark (1, 1)  annihilates its own line: False  362
+      mark (1, 2)  annihilates its own line: True   0
+      mark (1, 3)  annihilates its own line: True   0
+      mark (1, 4)  annihilates its own line: False  362
+(3) 120 matrices; 'row v kept by W' against 'column J v kept by J W J', mark by mark: {'(0, 1)': 88, '(1, 0)': 88, '(1, 1)': 88, '(1, 2)': 120, '(1, 3)': 120, '(1, 4)': 88} | marks that annihilate their own line: ['(1, 2)', '(1, 3)']
+(4) 3378 primitive cyclic sequences; all ones reads 1.11803398875 (sqrt5/2: True); all twos 1.41421356237 (sqrt2: True); the least of the others 1.48660687473 at [(1, 1, 2, 2)]; above 17/12 = 1.4166667: True

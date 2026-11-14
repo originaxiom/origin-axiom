@@ -1,0 +1,75 @@
+{
+ "(1) sequences": 1332,
+ "(1) the second word, built over the integers, equals J W J": 1332,
+ "(2)": {
+  "(0, 1)": {
+   "annihilates its own line": false,
+   "sequences whose reversal is allowed differently": 358
+  },
+  "(1, 0)": {
+   "annihilates its own line": false,
+   "sequences whose reversal is allowed differently": 358
+  },
+  "(1, 1)": {
+   "annihilates its own line": false,
+   "sequences whose reversal is allowed differently": 362
+  },
+  "(1, 2)": {
+   "annihilates its own line": true,
+   "sequences whose reversal is allowed differently": 0
+  },
+  "(1, 3)": {
+   "annihilates its own line": true,
+   "sequences whose reversal is allowed differently": 0
+  },
+  "(1, 4)": {
+   "annihilates its own line": false,
+   "sequences whose reversal is allowed differently": 362
+  }
+ },
+ "(3) matrices": 120,
+ "(3) agreement of the swapped-mark recipe, mark by mark": {
+  "(0, 1)": {
+   "annihilates its own line": false,
+   "of 120": 88
+  },
+  "(1, 0)": {
+   "annihilates its own line": false,
+   "of 120": 88
+  },
+  "(1, 1)": {
+   "annihilates its own line": false,
+   "of 120": 88
+  },
+  "(1, 2)": {
+   "annihilates its own line": true,
+   "of 120": 120
+  },
+  "(1, 3)": {
+   "annihilates its own line": true,
+   "of 120": 120
+  },
+  "(1, 4)": {
+   "annihilates its own line": false,
+   "of 120": 88
+  }
+ },
+ "(4)": {
+  "primitive cyclic sequences read": 3378,
+  "all ones": "1.11803398874989484820458683437",
+  "all twos": "1.41421356237309504880168872421",
+  "the least of the others": "1.48660687473185055226120082139",
+  "at": [
+   [
+    1,
+    1,
+    2,
+    2
+   ]
+  ],
+  "all ones is sqrt5/2": true,
+  "all twos is sqrt2": true,
+  "every other reads above 17/12": true,
+  "17/12 is above sqrt2": true
+ }
+}

@@ -4,6 +4,10 @@ Integers only.  Rows as vectors, as the seat writes them: L has rows (1,0),(1,1)
 the coordinates; the tick F = L P has rows (0,1),(1,1).  N runs from 2 to 200, as on the card.  None of the seat's code is run.
 
 EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)
+[CORRECTED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, not checked by main): the heading above
+says more than any commit shows.  This header, the script, its outputs and the arc's page entered main in one commit.  By
+the protocol's labels this is computed once, and not "expectations committed first": the page says so since Review 79's
+second round, and this heading did not.]
  G0  F^2 = L R, F'^2 = R L for F' = P F P, P L P = R, F' = R F R^-1, det F = det F' = -1; v0 = (1,3) has v0 L R = -v0 and
      v0 F = 3 v0 modulo 5.
  G1  By hand: det(F - I) = -1 and det(F + I) = 1, so F keeps no vector up to sign at any N; det(LR - I) = -1 and

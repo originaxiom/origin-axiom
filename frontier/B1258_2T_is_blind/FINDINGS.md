@@ -67,3 +67,5 @@ statement about **E₆**, not yet a statement the **object** has confirmed.
 - **Feeds on:** B1257 (the selector), B1256 (I-25), B1255 (the transversality), B327 (the gate now
   scoped), B883 (the 27), B1250 (D₂).
 - **Registers:** no change to I-25 (still UNEARNED); a **scope correction** on B327.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “Brieskorn-Slodowy picks the subregular uniquely, and it is the embedding giving three chiral generations”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

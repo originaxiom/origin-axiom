@@ -1,0 +1,35 @@
+row 41  (a) the module's mark written with an annotation                                         -> None                                           REPRODUCED
+row 41  (b) a skip inside a helper that the control calls                                        -> None                                           REPRODUCED
+row 41  (c) a control with no assert and a bare approx                                           -> None                                           REPRODUCED
+row 41  the control of the probe: the same mark written plainly                                  -> is in a module marked pytest.mark.skip(reason= REPRODUCED
+row 42  (a) no assert, a bare approx                                                             -> no class                                       REPRODUCED
+row 42  (b) a no-op call before a comparison of literals                                         -> ['CANNOT-FAIL']                                not reproduced
+row 42  (c) the only assert inside an inner function never called                                -> no class                                       REPRODUCED
+row 42  the control: a comparison of literals alone                                              -> ['CANNOT-FAIL']                                REPRODUCED
+row 42  the control: no assert at all                                                            -> ['NO-ASSERT']                                  REPRODUCED
+row 43  a shift of literals                                                                      -> no class                                       REPRODUCED
+row 43  a subscript of a literal list                                                            -> ['CANNOT-FAIL']                                not reproduced
+row 43  a repeated tuple                                                                         -> no class                                       REPRODUCED
+row 43  a dict unpacked into a dict                                                              -> no class                                       REPRODUCED
+row 43  an f-string of literals                                                                  -> no class                                       REPRODUCED
+row 43  an annotated binding                                                                     -> no class                                       REPRODUCED
+row 43  two names bound at once                                                                  -> no class                                       REPRODUCED
+row 43  the control: a sum of literals                                                           -> ['CANNOT-FAIL']                                REPRODUCED
+row 44  (a) a lock that does not parse is passed over before it is counted                       -> except Exception: continue                     REPRODUCED
+row 44  (b) the key of a test is the file and the function's name, with no class                 -> f"{rel}::{fn.name}"                            REPRODUCED
+row 44  (c) only files named test_*.py are collected outside tests/                              -> ":(glob)**/test_*.py"                          REPRODUCED
+row 45  the control: one of the gate's phrases written plainly                                   -> seen                                           REPRODUCED
+row 45  the control: asterisks around one word (the gate strips them)                            -> seen                                           REPRODUCED
+row 45  (a) underscores around one word                                                          -> not seen                                       REPRODUCED
+row 45  (a) double underscores around one word                                                   -> not seen                                       REPRODUCED
+row 45  (a) an emphasis command around one word                                                  -> not seen                                       REPRODUCED
+row 45  (a) a link around one word                                                               -> not seen                                       REPRODUCED
+row 45  (a) a tilde in place of one space                                                        -> not seen                                       REPRODUCED
+row 45  (a) a quoted block broken before one word                                                -> not seen                                       REPRODUCED
+row 45  (b) the walk skips a folder when '.git' is anywhere in its full path                     -> if ".git" in dirpath                           REPRODUCED
+row 42  42 (b) again: a bare approx before a comparison of literals                              -> no class                                       REPRODUCED
+row 42  42 (b) again: a call of a helper's attribute before it                                   -> ['CANNOT-FAIL']                                not reproduced
+row 43  43 again: a slice of a literal list                                                      -> no class                                       REPRODUCED
+row 43  43 again: a subscript of a literal dict                                                  -> ['CANNOT-FAIL']                                not reproduced
+
+rows probed: ['41', '42', '43', '44', '45'] | cases: 33 | reproduced: 29

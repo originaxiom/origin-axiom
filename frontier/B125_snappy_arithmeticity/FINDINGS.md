@@ -74,3 +74,5 @@ Hyperbolic 3-Manifolds* (Thm 8.3.2); Bowditch–Maclachlan–Reid 1995 (**three*
 once-punctured-torus bundles — "m=1,2 arithmetic" is family-restricted, *not* the global count; corrected by B126);
 Reid 1991 (the unique arithmetic
 knot); Neumann–Reid (shape field = invariant trace field). Tooling: SnapPy 3.3.2 + cypari 2.5.6, in-sandbox.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “SnapPy invariant trace fields show arithmeticity selects m=1”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

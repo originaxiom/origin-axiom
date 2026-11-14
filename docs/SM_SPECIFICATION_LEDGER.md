@@ -824,3 +824,34 @@ this ledger's rows. Most of its arcs are about how the record is kept and checke
   statements were narrowed to what was computed, and the gates catch 19 of 32 planted faults (B1892, B1893, B1894).
 - **What this does not supply.** Any of the nineteen, still.
 
+
+## Currency note — 2026-11-14, through B1930 (the read-out on the whole; its inputs counted; the lepton rows)
+
+*Added at the landing of the building session's chain (the doc-currency gate: this ledger lagged 31 arcs). The window
+is B1895–B1930, read against this ledger's rows.*
+
+- **Still none of the nineteen.** No value is derived, committed or compared. 0 of 19.
+- **The read-out on the whole.** What is read from all histories together is stated (register row P-845) and computed.
+  Its limit is proved: one average of the frame over the 24 points of order 5, against the measure of the moves, the
+  same at every reading point (B1928, on two independent proofs). The cusp's end is fixed by the geometry, and the
+  requirement that it be real-analytic picks the horocycle of length 2 (B1927). So the modulus τ and the reading point
+  are not inputs of it. Its values are computed and are not committed: one independent computation of them is owed
+  first.
+- **Its inputs, counted.** The scoreboard's third frame claims seven rows (the four quark ratios and the three mixing
+  moduli) with eleven borrowed joints, nine of them chosen, and no fitted input. The chosen ones include the measure of
+  the moves, the Higgs's direction, one global bit of the Higgs reading, the end's regularity, the channel weights, one
+  coupling for every sector and the tree level.
+- **The Higgs reading.** Its relative part is fixed by charge. One global bit remains, and it bears on every claimed
+  row, not only on the sign of the CP-odd invariant (P-847).
+- **The lepton rows are not claimed.** At level 5 the lepton coupling is the down coupling transposed, which is minimal
+  SU(5)'s relation, so the read-out has no lepton ratios of its own. This ledger's rows already note that the measured
+  split between the two sectors forbids that relation. A structure that separates the lepton sector is owed (P-845).
+- **The channel norm.** It is the Kronecker limit of the lattice shifted by the channel's characteristic (B1919), and
+  along a thread its line part is the shifted partial zeta's limit, the L-function whose odd value is the slope (B1917,
+  B1920).
+- **The hand.** The record's odd L-value is the twisted eta invariant of the closed torus bundle (B1929), so it flips
+  with the orientation: a candidate carrier for the hand, not shown to carry it. At an odd number of ticks the frame
+  has no matter of its own (B1926).
+- **Selection.** The tick's structure holds for every odd metallic act and does not single out the golden one;
+  "nothing left over" is the same condition as the level 5, and stays postulated (B1925).
+- **What this does not supply.** Any of the nineteen, still.

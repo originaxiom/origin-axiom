@@ -74,6 +74,31 @@ def unspaced_table_lines(text):
     return [l for l in text.split("\n") if l.lstrip().startswith("|") and l.count("|") >= 3 and " | " not in l and not set(l.replace("|", "").replace(" ", "")) <= set("-:")]
 
 
+# ADDED 2026-11-12 (the foundation's version 1.67, arc B1904; main's word in its M18 to the builder).  What the locks of
+# versions 1.65 and 1.66 protect is that no row's STATUS changes without a version saying so.  The status is the cell's
+# LABEL: the cell up to its first round bracket.  The words in the bracket after it are an account.  A version that changes
+# the account of a cell and not its label names the row here, with its reason.  For a named row the two locks compare the
+# label with the snapshot's and hold nothing more; the version's own lock holds the cell's new words.  A name added here
+# loosens both locks, so the lock of the version that adds it counts this table.
+NAMED_BY_A_VERSION = {      # the row -> (the version, its arc, why the words of its status cell changed)
+    "FK13": ("v1.67", "B1904", "the account in its bracket quoted the owner and is put in plain words; its label is as it was"),
+}
+
+
+def label(cell):
+    """the status a cell states: the cell up to its first round bracket.  A cell with no bracket is its own label."""
+    return cell.split("(", 1)[0].strip()
+
+
+def differs(key, was, now):
+    """whether a row's status cell differs from a snapshot's: the whole cell; or, where a version names the row, its label.
+    `key` is the row's identifier, or its table's header and its first cell."""
+    if now is None:
+        return True
+    words = key.split(" :: ")[-1].split()
+    return label(was) != label(now) if words and words[0] in NAMED_BY_A_VERSION else was != now
+
+
 def snapshot(commit):
     def git(*a):
         r = subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True, text=True)

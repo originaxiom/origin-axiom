@@ -194,11 +194,23 @@ object.
 
 - **This arc mends nothing.** A finding that waits is said to wait. The mends are the series R80b.
 - **The first table is headed as a draft** written when two of the four files were in. It stands as main wrote it.
+  [CHANGED 2026-11-12 (Review 80; a reader's finding of its second addition, checked by main): the table has one
+  dated note at its head since that day. It says that all four files were in when the table was committed, and
+  that "reproduced" in it is main's own check and not the protocol's label. No word below the note is changed, and
+  the lock holds that.]
 - **The dated addition of the web seat** has no check of its quotations in main's folder, and none was written for
   this arc.
 - **The full suite on a fresh clone** was not run for this arc by the review's tool. What was run on the patch that
   carries it is in the builder's note with the patch.
 - **No reader was tested against planted faults,** at this review as at the last (register row P-824).
+- **[ADDED 2026-11-12 (R80b, its sixth part; three things the builder sent back with the patch that carried this
+  arc, main's faults by its word).] Three of main's probes are mended, beside the files main wrote,** in
+  `verification/mended_in_r80b/`. The recount of the SM seat's rows printed three times in the zone of the machine
+  that ran it, and asked of one commit whether it is in the repository, which it is in main's alone: its kept file
+  gives row 16 as not held, against main's own table. Mended, it gives 15 of 15 held on any machine. The first
+  probe of the enforcement package's rows ended in an error after writing its file; it runs to its end. The second
+  was a kept output with no script; a script is written again from its fourteen lines, and each case gives the
+  answer main kept. Main's own files in `verification/checks/` are not changed, and the lock holds them by hash.
 - **The owner is quoted nowhere in this arc.** One of main's checks, `genesis_v1_67.py`, holds passages of the
   foundation that it is written to put into plain words; it stands as main wrote it and is not run by the lock.
 

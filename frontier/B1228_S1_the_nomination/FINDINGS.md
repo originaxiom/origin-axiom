@@ -27,6 +27,8 @@ B1227 named this morning: *not a lost result, a lost edge.*
 | 5 | **K1 named**: (E₆)₁, vacuum module, **c = 6 exactly**; modules {1, 27, 27̄}, h = {0, ⅔, ⅔}, T-order 12 | named |
 | 6 | **the level is forced by INVENTORY** — see below | **the new piece** |
 
+> **Dated note, 2026-11-13 (register row P-318; verified by main at B1906, section 3b, on its own code, exactly).** Row 4 above, and `s1.py`, read nine simply-laced types. Over the sixteen simply-laced simple algebras B1906 reads at level 1, B1906: "σ = c/6 = 1 holds for A₆, D₆ and E₆ (T-orders 28, 4 and 12). So "σ = 1 picks E₆ uniquely" (B1228) is false as stated, as P-318 already says; σ = 1 with exactly three primaries holds for E₆ alone." The words above are kept as they stood; the lock holds the statement as corrected (`tests/test_b1228_s1.py`).
+
 **Arithmetic cross-checks for K6-grade "the object's own datum"**, all passing: the ℤ/3 module group
 ↔ the trinification ℤ/3 (B1161) ↔ the trace field ℚ(ζ₃) = ℚ(√−3) (the only object-specific atom,
 B727); T-matrix order **12** ↔ the map's exact **mod-12** bookkeeping (§4, down block); the **27** is
@@ -80,3 +82,5 @@ uniqueness.
 
 `sh frontier/B1228_S1_the_nomination/reproduce.sh` — four cells (σ-from-J; the nomination with its
 control; K1's named candidate; the level-forcing). Lock `tests/test_b1228_s1.py`.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “THE LEVEL IS FORCED BY INVENTORY, and this is the genuinely new piece” and “So k = 1 is forced by INVENTORY, not chosen”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

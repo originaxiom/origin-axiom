@@ -64,7 +64,7 @@ def test_cell5_s019_fisher_positive_and_tombstone_repaired():
     cp = t**2 - sp.trace(M2) * t + M2.det()
     disc2 = sp.discriminant(cp, t)
     assert sp.simplify(16 / disc2 - 16 / (m**2 * (m**2 + 4))) == 0
-    tomb = open(os.path.join(ROOT, "speculations", "TOMBSTONES.md"), encoding="utf-8").read()
+    tomb = open(os.path.join(ROOT, "docs", "archive", "speculations", "TOMBSTONES.md"), encoding="utf-8").read()   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
     assert "citation repaired 2026-07-22, B755 cell 5" in tomb
     assert "holds by dimension" in tomb
 

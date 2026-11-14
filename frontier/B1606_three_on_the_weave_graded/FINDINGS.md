@@ -49,6 +49,8 @@ chiral three — three, alike, one per parity, chiral under the weave's group �
   a selection. THE_BAR grades it so. What would finish it: a forced complex structure on the gauge side (a bundle whose
   holonomy has complex representations), or the puncture's localized content — neither forced yet.
 
+> **Dated note, 2026-11-13 (register row P-606; verified by main at B1906, section 3a, on its own code, exactly).** The register names a tension between W20's three above and B298's headline; the headline holds scoped, and not as an implication. The register says of B298's headline, "a degree-2 trace field means multiplicities in {1, 2}, never 3", that it "is false as an implication". B1906: "Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2." "Unscoped, B298's headline is false, three ways on m004" (K = ℚ(√−3)): "The commutant of V ⊕ V ⊕ V has K-dimension 9, so a multiplicity of 3 is defined over the same field."; the three non-zero spin characters of the fibre "are one orbit under L and R"; and reduced mod √−3 the holonomy generates SL(2, 𝔽₃), with a degree 3 among its irreducibles: "A 3 again." The words above are kept as they stood.
+
 ## 3. Disclosed
 
 - The index formula dim Λ₊ − 3 is the seat's Riemann–Roch, taken as stated; the lifts' action u_q⁻¹ g u_p is the

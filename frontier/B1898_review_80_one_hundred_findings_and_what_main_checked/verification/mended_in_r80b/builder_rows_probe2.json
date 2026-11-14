@@ -1,0 +1,100 @@
+[
+ {
+  "row": 46,
+  "case": "(a) a file whose only 'def test' is inside its docstring is taken for a lock",
+  "answer": "True",
+  "main kept": "True",
+  "the same as main kept": true
+ },
+ {
+  "row": 47,
+  "case": "(a) a row of two quoted phrases joined by a slash",
+  "answer": "reading",
+  "main kept": "reading",
+  "the same as main kept": true
+ },
+ {
+  "row": 47,
+  "case": "(a) a row whose scope note is in italics",
+  "answer": "reading",
+  "main kept": "reading",
+  "the same as main kept": true
+ },
+ {
+  "row": 47,
+  "case": "the control: the same with a plain bracket",
+  "answer": "swept",
+  "main kept": "swept",
+  "the same as main kept": true
+ },
+ {
+  "row": 47,
+  "case": "(c) the flattening leaves asterisks and a curly apostrophe",
+  "answer": "\"the *weave's* lifts\" 'the weave’s lifts'",
+  "main kept": "\"the *weave's* lifts\" 'the weave’s lifts'",
+  "the same as main kept": true
+ },
+ {
+  "row": 48,
+  "case": "a new ceiling of five and a half, with none at the anchor",
+  "answer": "(None, '')",
+  "main kept": "(None, '')",
+  "the same as main kept": true
+ },
+ {
+  "row": 48,
+  "case": "the control: a new ceiling of five",
+  "answer": "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since th",
+  "main kept": "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since th",
+  "the same as main kept": true
+ },
+ {
+  "row": 49,
+  "case": "a rise of one covered by a recorded raise from false to true",
+  "answer": "(None, '; the baseline was raised 1 time(s) by n')",
+  "main kept": "(None, '; the baseline was raised 1 time(s) by n')",
+  "the same as main kept": true
+ },
+ {
+  "row": 49,
+  "case": "the control: the same rise with no raise recorded",
+  "answer": "the baseline rose 1 -> 2 since the anchor, and the raises recorded sin",
+  "main kept": "the baseline rose 1 -> 2 since the anchor, and the raises recorded sin",
+  "the same as main kept": true
+ },
+ {
+  "row": 50,
+  "case": "the status is looked for as a whole cell",
+  "answer": "True",
+  "main kept": "True",
+  "the same as main kept": true
+ },
+ {
+  "row": 51,
+  "case": "the page's history is read with no --reverse",
+  "answer": "False",
+  "main kept": "False",
+  "the same as main kept": true
+ },
+ {
+  "row": 52,
+  "case": "(a) a row with three hyphens in its prose",
+  "answer": "['Another law']",
+  "main kept": "['Another law']",
+  "the same as main kept": true
+ },
+ {
+  "row": 53,
+  "case": "(a) the test's pattern for a read of the clock, on the harvest checker's line",
+  "answer": "False",
+  "main kept": "False",
+  "the same as main kept": true
+ },
+ {
+  "row": 53,
+  "case": "(b) the subcommand read from a call that begins with -c",
+  "answer": "(None, '-c')",
+  "main kept": "(None, '-c')",
+  "the same as main kept": true
+ }
+]

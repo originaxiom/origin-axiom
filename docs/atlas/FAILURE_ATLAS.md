@@ -314,7 +314,7 @@ Weil–Petersson coefficient as above (a 1-D positive metric on a parameter line
 Both are genuine mathematics (a definite Hessian; a positive Fisher form); neither carries the indefinite
 signature the "emergence" reading needs. The single genuine Lorentzian object in the whole project is the
 `so(2,1)` gauge algebra on the `SL(2,ℝ)` component (B97), a toy-2+1-gravity gauge structure, present by
-construction — see `speculations/archive/PHYSICS_RESONANCES.md` Path 1.
+construction — see `docs/archive/speculations/archive/PHYSICS_RESONANCES.md` Path 1.
 
 Typical missing object:
 
@@ -328,7 +328,7 @@ A single-place index of the project's killed ideas (CC-web "Final Computation Ar
 description, the **kill mechanism**, the `V`/`B`/`P` where it died, **DEAD** (permanent — a structural argument)
 vs **REVIVABLE** (killed by a *computational* limitation, with a candidate exact/structural revival), and the
 **structural pattern** it belongs to. The full prose for each lives in the category sections above and in
-`speculations/TOMBSTONES.md`; this is the navigation table. Status `dead → anything` is forbidden (GOVERNANCE §5).
+`docs/archive/speculations/TOMBSTONES.md`; this is the navigation table. Status `dead → anything` is forbidden (GOVERNANCE §5).
 
 ### Pattern A — numerology / value-matching (a number with no derivation; the discipline that killed Λ)
 | # | dead end | kill mechanism | where | status |
@@ -390,7 +390,7 @@ the **engine-free `n=3`** (the eps-series degenerated, but the exact Lawton maps
 ### Pattern G — superseded framings & standard-theory kills (B111–B124)
 
 The representation-program arc produced its own first-class negatives — framings that dissolved and "discoveries"
-that were the ambient theory's definitions. Tombstoned in `speculations/TOMBSTONES.md`; recorded here for the map.
+that were the ambient theory's definitions. Tombstoned in `docs/archive/speculations/TOMBSTONES.md`; recorded here for the map.
 
 | # | dead end | kill mechanism | where | status |
 |---|---|---|---|---|
@@ -409,7 +409,7 @@ standard-theory kills) — never re-chase them. Pattern **E is the live frontier
 *computational* kill with a named structural revival, and they all converge on the same destination — the **`ρ_n`
 catalog proof** (now sharpened to the functorial `Sym(W)→trace-ring` construction, `knowledge/K008`). Pattern F is
 scope-limited (the figure-eight at SL(3) is closed; higher rank / other manifolds remain open). See
-`speculations/TOMBSTONES.md` for the physics epitaphs and `speculations/CATALOG.md` for the live items.
+`docs/archive/speculations/TOMBSTONES.md` for the physics epitaphs and `docs/archive/speculations/CATALOG.md` for the live items.
 
 ## Current Lesson
 
@@ -420,6 +420,6 @@ than rebranding them as discoveries.
 Primary ledgers:
 
 - `docs/ARCHIVE.md`
-- `paths/PATHS.md`
+- `docs/archive/paths/PATHS.md`
 - `frontier/`
 - `PROGRESS_LOG.md`

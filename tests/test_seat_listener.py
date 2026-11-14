@@ -174,6 +174,112 @@ def test_an_amended_message_is_shown_a_fenced_heading_is_not_a_heading_and_a_dam
     assert r.returncode == 2 and "memory cannot be read" in r.stderr
 
 
+def test_every_read_message_with_no_record_of_its_text_is_named_whether_or_not_a_new_one_came(tmp_path):
+    """Review 80, from two readings of the listener as mended at Review 79's second round.  Two cases in which a message
+    changed in place was still lost: a memory with no record of any text, a new message and an amendment together; and a
+    memory that holds a record for one message read and none for another."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test4", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    # 1. an old memory, a new message and an amendment of an old one, in one commit of main
+    origin, clone = _origin_and_clone(tmp_path)
+    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
+    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
+    state = json.loads(mem.read_text(encoding="utf-8"))
+    mem.write_text(json.dumps({"blob": state["blob"], "read": state["read"]}), encoding="utf-8")     # as the older listener wrote it
+    p = origin / "docs" / "seats" / "x.md"
+    p.write_text(_page(1, 2).replace("the text of message 1", "the text of message 1, AMENDED"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main adds a message and amends the one the seat has read")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the text of message 2" in r.stdout                              # the new one is shown
+    assert "holds no record of the text of M1 to M1" in r.stdout and "read M1 to M1 on the page again" in r.stdout
+    assert "No new message" not in r.stdout                                                       # and it is not called nothing new
+    assert _listen(clone, "--seat", "x").returncode == 3
+    # 2. a memory with a record for M2 and none for M1: M1 is named, M2 is not
+    state = json.loads(mem.read_text(encoding="utf-8"))
+    assert set(state["sums"]) == {"1", "2"}
+    del state["sums"]["1"]
+    mem.write_text(json.dumps(state), encoding="utf-8")
+    p.write_text(p.read_text(encoding="utf-8").replace("nothing yet", "your card"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "holds no record of the text of M1, which you had read" in r.stdout and "M2" not in r.stdout
+    # a twin: with a record for both, the same change of the page names no message
+    p.write_text(p.read_text(encoding="utf-8").replace("your card", "your two cards"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere again")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "holds no record" not in r.stdout and "main changed the page elsewhere" in r.stdout
+
+
+def test_a_memory_that_holds_no_number_and_a_git_that_does_not_answer_are_said_as_they_are(tmp_path, monkeypatch):
+    """Review 80, from a reading of the listener; made again before it was mended.  Two paths on which the listener could not
+    look and said something else: a memory that is a table and holds "two", or nothing, as what was read, which ended it with
+    an error of the language; and a call of git that timed out while the page was looked for, reported as "main has no page"."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test5", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    origin, clone = _origin_and_clone(tmp_path)
+    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
+    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
+    good = mem.read_text(encoding="utf-8")
+    p = origin / "docs" / "seats" / "x.md"
+    p.write_text(_page(1, 2), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "a second message")
+    for bad in ({"blob": "x", "read": "two"}, {"blob": "x", "read": None}, {"blob": "x", "read": True}, {"blob": "x", "read": -1},
+                {"blob": "x", "read": 1, "sums": ["a list"]}):
+        mem.write_text(json.dumps(bad), encoding="utf-8")
+        r = _listen(clone, "--seat", "x")
+        assert r.returncode == 2 and "memory cannot be read" in r.stderr and "Traceback" not in r.stderr, (bad, r.stderr[-300:])
+        assert json.loads(mem.read_text(encoding="utf-8")) == bad                # and the memory is left as it was found
+    mem.write_text(good, encoding="utf-8")
+    real = L.git
+    monkeypatch.setattr(L, "git", lambda *a, **k: (124, "", "git rev-parse did not answer within 180 seconds") if a and a[0] == "rev-parse" and ":" in a[-1] else real(*a, **k))
+    status, text, remember = L.look_seat("x", str(clone), "origin", False)
+    assert status == 2 and "did not answer" in text and "has no page" not in text and remember is None
+    monkeypatch.setattr(L, "git", real)
+    # a twin: a page that is not there is still said to be not there
+    status, text, remember = L.look_seat("no-such-seat", str(clone), "origin", False)
+    assert status == 2 and "main has no page docs/seats/no-such-seat.md" in text
+    # and with the memory as it was, the second message is shown
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the text of message 2" in r.stdout
+
+
+def test_the_listeners_docstring_says_what_mains_first_look_does(tmp_path):
+    """Review 80, from a reading of the listener; made again before it was mended.  Main's side exits with status 0 on its
+    first look, printing FIRST LOOK; the docstring said that it exits when a branch has moved, appeared or gone, and no more.
+    Held here: what the listener does, and that its docstring says it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test6", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    origin, clone = _origin_and_clone(tmp_path)
+    _git(origin, "branch", "a-seat")
+    r = _listen(clone, "--main")
+    assert r.returncode == 0 and r.stdout.startswith("FIRST LOOK") and "origin/a-seat" in r.stdout          # what it does
+    assert _listen(clone, "--main").returncode == 3
+    doc = " ".join(L.__doc__.split())
+    assert "On its FIRST LOOK" in doc and "exits with status 0 as well" in doc and "(for main's side, also on its first look)" in doc
+
+
+def test_a_message_ends_at_a_heading_of_its_own_level_that_is_not_a_message():
+    """Review 80, from a reading of the listener, checked by main on the pattern.  A message runs to the next heading of its
+    level or above.  The pattern stopped at the two levels above only, so a heading of three marks that is not a message was
+    taken into the message before it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test7", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    page = ("## Messages from main (newest first)\n\n### M2 — a day — two\n\ntext two\n\n### What stands between the messages\n\nnot a message\n\n"
+            "### M1 — a day — one\n\ntext one\n\n#### a heading below a message's level\n\nstill text one\n\n## What main is waiting for\n\n- nothing\n")
+    ms = L.messages(page)
+    assert sorted(ms) == [1, 2]
+    assert "text two" in ms[2] and "not a message" not in ms[2] and "What stands between" not in ms[2]
+    assert "still text one" in ms[1] and "a heading below a message's level" in ms[1] and "What main is waiting" not in ms[1]
+    # a heading of three marks inside a fenced block is not a heading, as before
+    fenced = "## Messages\n\n### M1 — a day — code\n\n```\n### not a heading\n```\n\nafter the block\n\n## The end\n"
+    assert "after the block" in L.messages(fenced)[1]
+    # and on main's own pages for the seats no message holds such a heading: none is cut by the stricter stop
+    for p in sorted((ROOT / "docs" / "seats").glob("*.md")):
+        text = p.read_text(encoding="utf-8")
+        for n, body in L.messages(text).items():
+            assert not [l for l in body.split("\n")[1:] if l.startswith("### ")] or "```" in body or "~~~" in body, (p.name, n)
+
+
 def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
@@ -215,3 +321,43 @@ def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_
     status, text, remember = L.look_main(str(clone), "origin", False)
     assert status == 2 and "could not be listed" in text and remember is None
     assert (main_mem.read_text(encoding="utf-8") if main_mem.is_file() else None) == before
+
+
+def test_a_heading_indented_by_up_to_three_spaces_ends_a_message_and_four_do_not():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  A section of
+    the page whose heading was indented by two spaces was taken into the message before it; and a message whose own heading
+    was indented was not found.  Four spaces make a block of code, which is no heading."""
+    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
+    try:
+        spec = importlib.util.spec_from_file_location("listen_for_indented_headings", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    finally:
+        sys.dont_write_bytecode = was
+    for pad in (" ", "  ", "   "):
+        page = "# page\n\n### M2 — two\n\ntext of two\n\n" + pad + "## A section of the page\n\nnot of M2\n\n" + pad + "### M1 — one\n\ntext of one\n"
+        m = L.messages(page)
+        assert sorted(m) == [1, 2] and "not of M2" not in m[2] and "text of one" in m[1], repr(pad)
+    code = "# page\n\n### M2 — two\n\ntext of two\n\n    ## a line of code, not a heading\n\nstill of M2\n"
+    assert "still of M2" in L.messages(code)[2]
+    # the twin: headings that start the line, as before
+    assert "not of M2" not in L.messages("### M2 — two\n\ntext\n\n## A section\n\nnot of M2\n")[2]
+
+
+def test_two_messages_with_one_number_are_both_shown_and_the_look_says_so(tmp_path):
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, seen on the way, not checked by main, made again first).
+    Of two messages that carry the same number, the second was kept and the first dropped without a word.  Both are shown now,
+    in the page's order, and the look names the number."""
+    origin, clone = _origin_and_clone(tmp_path)
+    page = _page(1).replace("### M1 — a day — a subject", "### M2 — a day — the first second message\n\nthe first text of M2\n\n"
+                                                         "### M2 — a day — the second second message\n\nthe second text of M2\n\n### M1 — a day — a subject")
+    (origin / "docs" / "seats" / "x.md").write_text(page, encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "two messages under one number")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "the first text of M2" in r.stdout and "the second text of M2" in r.stdout
+    assert "more than one message under the number M2" in r.stdout
+    assert r.stdout.index("the first text of M2") < r.stdout.index("the second text of M2")
+    # the twin: a page whose numbers are each once says nothing of it
+    (origin / "docs" / "seats" / "x.md").write_text(_page(1, 2, 3), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "each number once")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "more than one message" not in r.stdout
+

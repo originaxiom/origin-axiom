@@ -145,8 +145,18 @@ for name, plant, must in CASES:
         note = plant() or ""
     except Exception as ex:
         OUT[name] = {"note": "THE PLANT COULD NOT BE MADE: %r" % (ex,), "committed": False, "CAUGHT": None}
-        print(name, "PLANT FAILED", repr(ex)[:200], flush=True); continue
+        # (2026-11-12: the line below ended in `continue`, and the run went on to the next case.  It stops the run, as below.)
+        print(name, "PLANT FAILED", repr(ex)[:200], flush=True)
+        reset()
+        raise SystemExit("STOPPED at %s: the plant could not be made (%r). Mend the case" % (name, ex))
     git("add", "-A"); c = git("commit", "-q", "-m", "planted case " + name)
+    # ADDED 2026-11-12 (Review 80; owed by main's word in its third folder for the builder, section 6, item 4).  A PLANT THAT
+    # CHANGES NOTHING STOPS THE RUN.  A case is committed in the scratch checkout.  Where the case had changed nothing there was
+    # nothing to commit: the gates were then run on the tree as it stood, and the case was written down with "committed": false
+    # and "not caught".  No case of the kept output is so; the run now ends there, with a sentence.
+    if c.returncode != 0:
+        reset()
+        raise SystemExit("STOPPED at %s: the planted case changed nothing in the checkout, and no commit was made. Gates that pass on it show nothing: mend the case" % name)
     res = gates()
     new = sorted(k for k, v in res.items() if v[0] == "FAIL" and k not in base_fail)
     OUT[name] = {"note": note, "committed": c.returncode == 0, "named gate": must, "gates newly failing": {k: res[k][1][:300] for k in new},

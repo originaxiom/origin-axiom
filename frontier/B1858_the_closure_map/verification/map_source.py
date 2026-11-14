@@ -494,6 +494,21 @@ DEBT_BEARS_ON = {
     "P-157": "PR:P10", "P-606": "MC:GEN", "P-618": "MC:UNIQ", "P-318": "MC:UNIQ", "P-374": "MC:HYP", "P-579": "V:0OF19", "P-581": "MC:Z6",
     "P-321": "G:GM4", "P-138": "G:GAP5", "P-610": "TAG:UNIT",
 }
+# 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 11; not checked by main).
+# Three nodes were added to the map with no edge: G:SE3, G:PF2 and G:FK12.  On that day 23 nodes that are not debts were
+# joined to nothing, these three among them.  Each is held here by name, as found.  The builder refuses a node that no edge
+# joins and this table does not name, and a name here that an edge has since joined.  What each of the 23 requires, answers
+# or bears on is main's to say: an edge is a statement, and none is added with this table.
+JOINED_TO_NOTHING_AS_FOUND = (
+    "G:PF2", "G:PF3", "G:GM5a", "G:SE3", "G:FK12", "G:FK13", "G:FK16", "G:FK7", "G:FK8", "G:PF5",
+    "V:WALL", "E:GRADES", "CO:S12", "PR:P2", "PR:P3",
+    "FL:15", "FL:16", "FL:17", "FL:22", "FL:23", "FL:24", "FL:25", "D:09",
+)
+# The same finding: debts of a later day stood under a heading of an earlier one (main mended it, P-828).  The builder now
+# refuses a debt that stands under a heading which names a day when the debt's own row is of another day.  One is held by
+# name: its row is of an earlier day, and the heading says that it was made a debt on the day it names.
+A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING = {"P-253": "2026-10-22"}
+
 # the framing ledger's rows that bear on a node outright
 FL_BEARS_ON = {"FL:26": "MC:Z6", "FL:19": "V:0OF19", "FL:14": "V:HELD"}
 

@@ -76,3 +76,15 @@ Not kill_graph-routed (instruments + triage; nothing killed).
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the MC1 assignment row was left OPEN; the Wave 2 and Wave 3 queues were recorded in b1172_results.json; the review-carry half was handed to Review 50.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the MC1 assignment row was left OPEN | CARRIED | `docs/POINT_REGISTER.md` | MC1, live (from the declined relay of 2026-08-26, P-231): the only internal-diversity control on the hypercharge-forcing theorems | P-233 |
+| the Wave 2 and Wave 3 queues recorded in b1172_results.json | UNREGISTERED | `frontier/B1174_z2_identification/FINDINGS.md` | This was the register's Q1 = B1169's S1, **double-discovered** (the sweep and the meditation found | P-745 (Wave 3's Q1 is B1174; Q2 to Q11 are disposed of nowhere) |
+| the review-carry half was handed to Review 50 | DISCHARGED | `docs/CAMPAIGN_STATUS.md` | the review gate now **enforces carry continuity** (a `[>]` that never recurs fails by name) | Review 50; the gate review-actions |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-233; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

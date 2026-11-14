@@ -1,3 +1,10 @@
+# [PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 10; not checked by main): main's correction, as it stands on this arc's pages.
+# CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4).
+# In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2);
+# 2 is inert, so no ideal lies between.
+# "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)),
+# a filtration in which containment is sufficient for congruence and not necessary.
+# Where this script says level (8), (2)^3 or G_8 for m004, read that.  The script is kept as it was written, and its kept outputis not made again.]
 """R6': Discrete Maass newforms at level (8) — feasibility probe.
 
 What we CAN compute:

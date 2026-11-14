@@ -78,3 +78,5 @@ massive state, not by a weight (relays/explore_2026-11-07_read_out_by_a_state/; 
     the line to its twin.
 - **The four apexes of § 2 are reproduced** by an integer form of the height, in which a tie is an equality of two
   integers.
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “is selected under both level-5 readings”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

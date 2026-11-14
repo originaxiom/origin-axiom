@@ -253,7 +253,11 @@ for top in TOPS27:
     if Bgen:
         zb = reps[0]
         pert = [zb[i] + Bgen[0][i] for i in range(3 * n)]
-        assert klass3(pert, reps[-1]) == klass3(zb, reps[-1]) or True
+        # CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  A line stood here:
+        #     assert klass3(pert, reps[-1]) == klass3(zb, reps[-1]) or True
+        # It could not fail, and with the constant taken out it fails: it compares two tuples of exact numbers by ==, which for
+        # these numbers is identity and not equality.  The control it meant is the three lines below, which compare each
+        # difference with zero, print the gate and stop the run if it fails.  The line is gone; nothing else is changed.
         c1 = klass3(pert, reps[-1]); c2 = klass3(zb, reps[-1])
         gate = all((c1[i] - c2[i]).is_zero() for i in range(3))
         print(f"    V1 coboundary-invariance gate: {'PASS' if gate else 'FAIL'}", flush=True)

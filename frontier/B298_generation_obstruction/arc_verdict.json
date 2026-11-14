@@ -1,7 +1,7 @@
 {
  "id": "B298",
  "verdict": "NEGATIVE",
- "claim_one_line": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3.",
+ "claim_one_line": "The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 across seven independent routes, never 3. [DATED NOTE 2026-11-13, register row P-606, verified by main at B1906 section 3a: the headline holds only scoped. 'Scoped, it holds: a Galois orbit in a quadratic field has one or two elements, since the group has order 2.' 'Unscoped, B298's headline is false, three ways on m004'. The seven computed routes stand.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

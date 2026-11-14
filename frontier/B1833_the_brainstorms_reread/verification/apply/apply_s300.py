@@ -126,7 +126,7 @@ t = t.replace(m.group(0), m.group(0) + " **[Dated note %s (B1833): item (1), U_e
               "closed P-283 on its own ask — re-rowed as P-638; the eight dispositions drafted in the audit room on 2026-10-23 "
               "were re-checked by the web-era reader and are proposed closures for main to confirm under P-617.]**" % D, 1)
 OL.write_text(t, encoding="utf-8")
-SP = ROOT / "speculations/S_THE_FIELDS_GENESIS.md"
+SP = ROOT / "docs/archive/speculations/S_THE_FIELDS_GENESIS.md"   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 append(SP, "> *Dated note %s (B1833, P-655):* the table's \"derivation attempted\" (and § 108's \"is attempted in parallel\") "
        "describe a plan, not work done: no derivation of \"what exists is read\" from PF1 and PF2 exists on the record. The "
        "attempt stays owed in P-130 (joined under P-629).*" % D)

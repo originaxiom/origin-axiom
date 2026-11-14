@@ -7,6 +7,7 @@
   "in the arc's own folder, no file being named": 45,
   "on a wide page only": 14,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0,
   "control: the first quotation altered by one character is reported missing": true
@@ -19,6 +20,7 @@
   "in the arc's own folder, no file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 6
  },
@@ -30,6 +32,7 @@
   "in the arc's own folder, no file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0
  },
@@ -41,6 +44,7 @@
   "in the arc's own folder, no file being named": 0,
   "on a wide page only": 0,
   "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
   "rows with more cells than their table's header": 0,
   "lines that begin as a row and give fewer than four cells": 0
  }

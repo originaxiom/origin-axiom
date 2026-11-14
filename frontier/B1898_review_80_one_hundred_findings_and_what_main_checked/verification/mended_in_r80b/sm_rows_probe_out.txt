@@ -1,0 +1,17 @@
+SM-04      HELD  {'last message': '2026-11-11 23:11:54 UTC', 'c66c8ccae': '2026-11-11 23:20:21 UTC', 'entry': '2026-11-12 02:04:24 UTC', 'commits between': 3, 'c66c8ccae touches': ['CHANGELOG.md', 'PROGRESS_LOG.md', 'docs/CAMPAIGN_STATUS.md', 'docs/POINT_REGISTER.md', 'docs/SEAL_LEDGER.md']}
+SM-07      HELD  {'the sentence says the rule does not count a pair and then gives 88 and ten': True}
+SM-11      HELD  {'the run file says patch 6 was not run by main': True, "the page says each patch's lock fails on the commit before it": True}
+SM-16      HELD  {'f6e89032a is on a branch or a tag of this repository': False}
+SM-18      HELD  {'anchor': '896cae025', 'tests/test_*.py': 1525, 'of them test_b*.py': 1408}
+SM-19      HELD  {'tests at the commit read': 15, "along the lock's history (oldest first)": [5, 5, 10, 14, 15], 'B1895 still says fourteen': True, "the lock's comment says four": True}
+SM-27      HELD  {'places': ['CHANGELOG.md', 'docs/HARVEST_LEDGER.md', 'docs/LAW_MAP.md', 'docs/POINT_REGISTER.md', 'docs/THEOREM_REGISTRY.md', 'docs/seats/agy-002.md', 'docs/views/VERDICT_LEDGER.md', 'frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md', 'frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_sec
+SM-28      HELD  {"the plan's page holds the confirmation as a block quotation at line": [978], 'its length in characters': 40, 'the builder emits it': True, 'the builder refuses to build without it': True}
+SM-29      HELD  {"the lock's assertion looks for one phrase and forbids one spelling": True}
+SM-31      HELD  {'docstring says two planted lines': True, 'an assertion of three lines': True}
+SM-34      HELD  {'levels 2..200 other than 5: with no root': 173, 'with one': 0, 'with two': 25, 'with four': 0, 'at 5': 1, 'at 209': 4, "the page's bracket": True}
+SM-35      HELD  {"the verdict line says main's own convention": True}
+SM-21      HELD  {'files of B1895 that hold the sentence': [], 'B1897 says B1895 said it': True}
+SM-20      HELD  {"§ 5 still says the reader's plants were not run": True, 'the verdict line still says ten tests': True, 'the page names 17 of 23 somewhere': False}
+SM-15      HELD  {'the page says the cases that pass are for the series after it': True, 'and names the fourth series for one of them': True}
+
+rows probed: 15; held: 15

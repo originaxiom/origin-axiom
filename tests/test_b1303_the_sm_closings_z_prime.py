@@ -61,5 +61,11 @@ def test_the_receipts_and_the_archived_relay_are_present():
               "main_b1140_spacetime64_rerun.txt", "main_b1103_being_gate_rerun.txt", "chat1_check_relay_rerun.txt"):
         t = (VER / f).read_text(encoding="utf-8", errors="replace"); assert t.rstrip().endswith("RC=0"), f
     assert "SELFTEST: PASS" in (VER / "sm_b1283_sm_closing_vacuum_rerun.txt").read_text() and "ALL CHECKS PASSED" in (VER / "main_b1103_being_gate_rerun.txt").read_text()
-    assert (ARC / "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md").exists()
+    # 2026-11-13: the note left the tree with the other notes between sessions kept inside arcs' folders
+    # (docs/REORGANIZATIONS.md, its third entry); git's history holds it at the commit that entry names.
+    import subprocess
+    note = "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md"
+    assert not (ARC / "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md").exists()
+    held = subprocess.run(["git", "-C", str(ARC.parents[1]), "cat-file", "-e", "fe146ca49b090f1e55dbc845c31f049073adec1e:" + note])
+    assert held.returncode == 0, "git's history does not hold the note at the commit the move names"
     assert hashlib.sha256((VER / "chat1_check_relay.py").read_bytes()).hexdigest().startswith("f71c2fd7")

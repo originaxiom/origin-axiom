@@ -65,5 +65,6 @@ def test_the_verdict_registers_the_law_and_names_both_assumptions():
     reg = (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text(encoding="utf-8")
     assert "T-CLOSED-CLOSING-COUNTS-TWO-OR-NOTHING" in reg
     # the synthesis surface carries the sentence, not only the arc
-    mg = (ROOT / "docs" / "MAIN_GOAL.md").read_text(encoding="utf-8")
+    # 2026-11-13 (C14, patch 7): the main goal's dated paragraphs are archived byte for byte in docs/MAIN_GOAL_HISTORY.md
+    mg = (ROOT / "docs" / "MAIN_GOAL_HISTORY.md").read_text(encoding="utf-8")
     assert "B1294" in mg and "counts 2" in mg

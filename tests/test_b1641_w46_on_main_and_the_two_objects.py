@@ -68,7 +68,13 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
     cusp's twist as one integer n.  The cusp has three lines with distinct exponents, so there are three integers, and the
     index is their sum above its value at no unit.  What could fail: the exponents not being distinct (then a line would not
     be canonical); the index at no unit not being 0; the unit on all three lines not giving 3; or the formula's shift law
-    failing on the one case where every dimension is classical."""
+    failing on the one case where every dimension is classical.
+
+    CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search): what this test computes, and what
+    this docstring and the test's name call "the index" and "gives one", is the Euler characteristic of the triplet's
+    weight-3/2 forms on the base, the dimension B1796 computed.  The four-dimensional index takes that term with a minus
+    sign: -1 for a unit on one line, -3 for the uniform unit.  The arc's note was corrected so at Review 79's second round;
+    this docstring was not.  The test's name stays, so that the test does not leave its lock."""
     import cmath
     import json as _json
     import math

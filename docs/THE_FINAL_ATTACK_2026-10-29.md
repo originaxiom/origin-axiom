@@ -1,5 +1,7 @@
 # THE FINAL ATTACK — a proposal to the owner (main, 2026-10-29; data-free as written)
 
+*A dated proposal of 2026-10-29, part of the working record. The order of work it proposes was chosen on 2026-10-30; its words are kept as written. (Label added 2026-11-13.)*
+
 *Answer first. Under the owner's plenitude, the programme explains our universe when a short description — the object,
 its rule, and our world's address among the worlds the object allows — reproduces the measured numbers, and reproduces
 random worlds far less often. Today it does not: it reaches the six mass ratios only by spending about as much freedom

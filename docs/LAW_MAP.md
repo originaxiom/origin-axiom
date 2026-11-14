@@ -584,6 +584,10 @@ The wave read against every standing row. None of the eleven arcs creates a law.
 - **One row was scoped at Review 79, with no change to what it states.** THE FIBRE LOOPS ACT BY PARITY (B1641): the
   index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one (B1796, and
   the foundation's row FK10 since its version 1.59).
+  [CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search): read after "the index", the
+  last clause gives the index the old sign. "Gives one" is the dimension B1796 computed, the Euler characteristic
+  on the base. The four-dimensional index takes that term with a minus sign: at an empty Lambda+ it is -1 for a unit
+  on one line and -3 for the uniform unit, as the row's own bracket says.]
 - **One row is known to be incomplete and is not yet mended.** The row of B1882 gives the bottom end of the window
   with no menu. Under the first null's covariant menu the figure is another. A reader's second round found it, and
   main has reproduced it; it is mended with main's answers to that round (register row P-814).

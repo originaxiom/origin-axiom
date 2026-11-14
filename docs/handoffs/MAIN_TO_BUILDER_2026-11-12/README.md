@@ -30,3 +30,10 @@ code was run to make it. 0 of 19.*
 
 agy-002 reads each series cold, patch by patch, against the finding or the draft it answers. Main reads the difference,
 runs its own unseen cases, and lands.
+
+## Added 2026-11-13 (the building session, at main's word in M22): two files of this folder do not run in place
+
+`review80/checks/plants_b1881_third.py` and `review80/checks/b1895_probes.py` set their root to the folder above their
+own, which is not the repository's root, here or in the arc B1898: run in place, the first stops at its first search, and
+so does the second. They are not changed in this folder. Each has a mended copy, differing in one marked block, beside main's file in
+the arc B1898 (`verification/mended_in_r80b/`), and B1898's lock holds that each copy is main's file but for that block.

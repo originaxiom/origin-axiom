@@ -1,0 +1,25 @@
+{
+ "id": "B1930",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1904"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the building session (cld-advisor): its card C18, approved by main in M28"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "the building session, cld-advisor, at main's word in M28 (register row P-832)",
+ "scope": {
+  "frame": "none (the foundation's statement)",
+  "object": "GENESIS.md at version 1.68",
+  "reach": "general",
+  "hypotheses": "paths only; no computation is made here. The version log keeps its paths as written."
+ },
+ "claim_one_line": "THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.",
+ "weave_or_thread": "n/a (paths of the foundation; no result is restated)"
+}

@@ -28,3 +28,14 @@ clean. Not kill_graph-routed.
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the thirteen NOT-REACHED digest rows sit under the umbrella lead L185, reopenable row by row; the two-κ and shadow-library rows were flagged as the likeliest reopens.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the thirteen NOT-REACHED digest rows under the umbrella lead L185 | CARRIED | `docs/OPEN_LEADS.md` | Review 74's reader proposed closing this lead; main's check did not confirm it. The disposition table is only in a gitignored audit draft, and the row it promises does not exist. | L185 |
+| the two-kappa and shadow-library rows flagged as the likeliest reopens | CARRIED | `frontier/B1060_digest_ledger/DIGEST_LEDGER.md` | ∣ 4.6 ∣ the two-κ finding (qL159) ∣ NOT-REACHED ∣ — ∣ vs main's TERMINOLOGY register · NOT-REACHED at partial-close (B1173) → tracked at L185∣ | L185 |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by L185). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

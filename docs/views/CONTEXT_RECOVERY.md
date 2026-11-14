@@ -6,24 +6,24 @@
 # CONTEXT RECOVERY — the first read after a compaction
 
 *Generated at every landing from tracked files (P-506). Read this, then the memory index, then `audit/IN_FLIGHT.md`
-(runs in flight and unlanded work; gitignored), then the newest CHANGELOG entry. Live seat debt:
+(runs in flight and unlanded work; gitignored), then the newest CHANGELOG entry. Results of other working lines not yet read in:
 `python3 scripts/checks/harvest_debt.py`. Nothing here is hand-kept.*
 
 ## The record's counts
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1624 |
-| … PROVED | 1128 |
+| arcs with a verdict file | 1627 |
+| … PROVED | 1132 |
 | … NEGATIVE | 384 |
-| … OPEN | 99 |
+| … OPEN | 98 |
 | … RETRACTED | 13 |
-| register points | 848 |
-| … QUEUED | 305 |
-| … LEAD | 4 |
-| … OWNER | 0 |
-| … DONE | 527 |
-| … DECLINED | 12 |
+| register points | 849 |
+| … “QUEUED” | 306 |
+| … “LEAD” | 4 |
+| … “OWNER” | 0 |
+| … “DONE” | 527 |
+| … “DECLINED” | 12 |
 | harvest rows (the last number) | 1799 |
 | the Standard Model's 19 derived | 0 |
 
@@ -31,20 +31,20 @@
 
 | arc | verdict | claim |
 |---|---|---|
-| B1929 | PROVED | THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p… |
-| B1928 | PROVED | [UPGRADED 2026-11-14 from OPEN on agy-exp's independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (… |
-| B1927 | PROVED | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi… |
-| B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
-| B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol… |
-| B1924 | PROVED | [UPGRADED 2026-11-14 from OPEN on agy-002's second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (all… |
-| B1923 | PROVED | THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's… |
-| B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
-| B1921 | PROVED | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,… |
-| B1920 | PROVED | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified… |
-| B1919 | PROVED | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac… |
-| B1918 | RETRACTED | [RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B… |
+| B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
+| B1929 | PROVED | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p…” |
+| B1928 | PROVED | “[UPGRADED 2026-11-14 from OPEN on agy-exp's independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (…” |
+| B1927 | PROVED | “THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi…” |
+| B1926 | PROVED | “AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve…” |
+| B1925 | PROVED | “THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol…” |
+| B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on agy-002's second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (all…” |
+| B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
+| B1922 | PROVED | “THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the…” |
+| B1921 | PROVED | “THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,…” |
+| B1920 | PROVED | “THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified…” |
+| B1919 | PROVED | “B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac…” |
 
-## Waiting for the owner (register rows with disposition OWNER)
+## Awaiting a decision (register rows whose disposition is “OWNER”)
 
 - none
 
@@ -53,24 +53,24 @@
 
 ## The last landings (CHANGELOG)
 
-- S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)
-- S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)
-- S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)
-- S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)
-- S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…
-- S306p THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S τ-TERM: ONE INVARIANT END PARAMETER, AND B1724'S S-COVARIANCE DERIVED (B1921; P-776) (2026-11-13)
-- S306p THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA; NOT AT THE APEX (B1920; the SM seat's SM-C7 steps 3 and 4, verified on main…
-- S306p B1918 RETRACTED THE SAME DAY: B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S SHIFT (B1919; the SM seat's finding, verified by main; P-384's route open again)…
+- “S306p B298'S DEGREE-2 HEADLINE AND B1228'S "SIGMA = 1 PICKS E6 UNIQUELY" ARE SCOPED BY DATED NOTES WHERE THEY STAND (P-606, P-318) (2026-11-13)”
+- “S306p THE RECORD READ FOR SELECTION AND CHIRALITY IS THE ARC B1905; THE RULE BEFORE A SELECTION OR A HAND IS CLAIMED; A LEDGER OF WALLS; THE SWEEP PRINTS A WALL; A GATE ON A CLAIMED SELECTION (P-831,…”
+- “S306p REVIEW 80'S MENDS, THE FIRST THREE PARTS OF THE SERIES R80b: THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER; B1881'S LOCK HOLDS ITS SCRIPT WHOLE; THE OLDER ARCS' ROWS (P-833, P-835, P-836) (2026-1…”
+- “S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13)”
+- “S306p THE SEATS' DELIVERIES OF 2026-11-12 AND 13 HARVESTED (rows 1742 to 1750); THE WEB SEAT'S W-C7; THE BUILDER'S M30 (2026-11-13)”
+- “S306p THE READ-OUT ON THE WHOLE STATED AS A CONDITION BEFORE ANY COMPUTATION (P-845, P-776) (2026-11-13)”
+- “S306p THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND A CLUE COMPUTED: THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS (B1923; P-843 to P-845); WHAT EACH WALL TEACHES ENTERS THE RULES (2026-11-13)”
+- “S306p THE FRAME IS PERIODIC ALONG A THREAD EXACTLY AT THE THREAD'S OWN LINE: THE READ-OUT AS A THREAD AVERAGE IS WELL DEFINED THERE (B1922; P-776); THE SEATS ENGAGED (the web seat's M17, card W-C6; t…”
 
 ## The latest campaign line
 
-LATEST (2026-11-14, S306p, morning: THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE (B1929); H1 OF THE LIMIT'S PROOF HOLDS (B1928); THE HIGGS READING AN INDEPENDENT BIT (P-847).** B1929: eta_A(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and fixed character, found by the SM seat, proved by agy-exp, its L-side computed on main through the Siegel winding (601 characters); it flips with the orientation, a candidate carrier for the hand. B1928: the frame's jump set is null for the path measure (H1). P-847: S and S~ give different limits and the frame never uses the Higgs's hypercharge, so the reading is fixed today only by identification. Still owed b…
+“LATEST (2026-11-12, S306p: THE RECORD READ FOR SELECTION AND CHIRALITY: NEITHER IS SOLVED AND NO PAGE SAYS IT IS; THE LESSON OF AUGUST 2026 (B1204, B1225) WAS IN NO GOVERNING PAGE (B1905; P-831).** 636 of 1,644 arcs name either subject in their verdict line or title; 511 are about one of them on reading (six read-only readers, one an arc; 547 of 547 quotations found by machine at the commit read). The walls: the mirror pair not split, 149 arcs; one member of a family not picked, 138; a value not picked, 47; a count not forced, 49. No arc derives a hand: the settled results are mostly proofs that a route does not split the pair. The picks that stand are of the object's own structure, by a un…”
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 162 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 164 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

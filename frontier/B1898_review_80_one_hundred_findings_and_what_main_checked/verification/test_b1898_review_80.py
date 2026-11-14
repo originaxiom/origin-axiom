@@ -41,8 +41,39 @@ def _have(commit):
     return subprocess.run(["git", "-C", str(ROOT), "cat-file", "-e", commit + "^{commit}"], capture_output=True).returncode == 0
 
 
+_THE_FIRST_TABLE_AS_MAIN_WROTE_IT = "3f695c3045d46fe4a9cb31ba381b8bfede178282aac8958f26bed51a60d7eb22"
+_THE_NOTE_AT_ITS_HEAD = "*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked\nby main)."
+
+
+def _under_its_note(text):
+    """the first table without the dated note at its head: the title, then everything after the note's paragraph"""
+    title = "# Review 80: every finding of the readers, and what main did with it\n\n"
+    if not text.startswith(title + _THE_NOTE_AT_ITS_HEAD):
+        return text
+    rest = text[len(title):]
+    return title + rest[rest.index("]*\n\n") + len("]*\n\n"):]
+
+
+def test_the_first_table_is_as_main_wrote_it_under_one_dated_note():
+    """Added 2026-11-12 (Review 80; the web seat's finding 11 of its second addition, checked by main).  The first table said
+    "reproduced" for main's own checks and was headed as a draft with two of four files in.  A dated note at its head says so
+    and changes no word below it.  Held here: without that note the file is main's, by the hash of main's own file; and the
+    note says the two things.  Planted: a word changed under the note, and a second paragraph slipped in after the note."""
+    text = (ARC / "ANSWERS_the_first_43.md").read_text(encoding="utf-8")
+    sha = lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()
+    assert text.count(_THE_NOTE_AT_ITS_HEAD) == 1 and sha(_under_its_note(text)) == _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+    note = text[text.index(_THE_NOTE_AT_ITS_HEAD):text.index("]*\n\n") + 2]
+    assert "all four were in when the file was committed" in note and "They are not the label \"reproduced\" of the protocol's § 12" in note
+    changed = text.replace("| W1 |", "| W1 [changed] |", 1)
+    assert changed != text and sha(_under_its_note(changed)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+    slipped = text.replace("]*\n\n", "]*\n\nA second paragraph, not main's.\n\n", 1)
+    assert sha(_under_its_note(slipped)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
+
+
 def test_mains_files_are_as_main_wrote_them():
-    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12."""
+    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12.
+    CHANGED 2026-11-12 (Review 80): the first table has one dated note at its head since that day, in the folder and here;
+    its hash is of the file with the note, and the test above holds that under the note it is the file main wrote."""
     names = ["ANSWERS_the_first_43.md", "STATUS_OF_THE_57.md"] + sorted("verification/checks/" + p.name for p in (HERE / "checks").iterdir())
     assert names == sorted(HELD, key=lambda n: (not n.endswith(".md"), n)) and len(names) == 26
     for name in names:
@@ -53,6 +84,92 @@ def test_mains_files_are_as_main_wrote_them():
         theirs = folder / name.replace("verification/", "")
         if theirs.is_file():
             assert theirs.read_bytes() == (ARC / name).read_bytes(), name
+
+
+def _with_its_mends_put_back(text):
+    """a mended script as main wrote it: the note taken out, and each marked block replaced by the lines after '#| '"""
+    out, lines, i = [], text.split("\n"), 0
+    while i < len(lines):
+        if lines[i].startswith("# NOTE OF THE MEND"):
+            while not lines[i].startswith("# END OF THE NOTE"):
+                i += 1
+            i += 1
+            continue
+        if lines[i].startswith("# MENDED ("):
+            i += 1
+            while lines[i].startswith("#| "):
+                out.append(lines[i][3:])
+                i += 1
+            while not lines[i].startswith("# END OF THE MEND"):
+                i += 1
+            i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(out)
+
+
+def test_three_probes_of_mains_are_mended_beside_the_files_main_wrote():
+    """ADDED 2026-11-12 (R80b, part 6; three things the builder sent back with R80a, main's faults by its word): a recount
+    that changed with the machine's zone and with a commit that is in main's repository alone; a probe that ended in an
+    error; a kept output with no script.  Main's files in checks/ stand as main wrote them (the test above).  The mended
+    ones stand beside them, and this holds what they are."""
+    import datetime
+    M = HERE / "mended_in_r80b"
+    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
+    # 1. the two mended scripts are main's but for their marked blocks
+    # (2026-11-12, the next patch of the same part: three more, for what main's third folder owes in its section 6, item 4)
+    for name, blocks in (("sm_rows_probe.py", 4), ("builder_rows_probe.py", 2), ("plants_agy002.py", 5), ("plants_b1881_third.py", 2), ("quote_check_agy002.py", 1)):
+        text = (M / name).read_text(encoding="utf-8")
+        assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == blocks and text.count("# NOTE OF THE MEND") == 1, name
+        assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/" + name], name + ": with its mends put back it is not main's file"
+        assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/" + name]      # and this can fail
+    # 2. the recount of the SM seat's rows no longer changes with the machine: two rows differ from the file main kept
+    kept = json.loads((HERE / "checks" / "sm_rows_probe.json").read_text(encoding="utf-8"))
+    mended = json.loads((M / "sm_rows_probe.json").read_text(encoding="utf-8"))
+    assert sorted(k for k in kept if kept[k] != mended.get(k)) == ["SM-04", "SM-16"] and list(kept) == list(mended) and len(mended) == 15
+    assert kept["SM-16"]["held"] is False and mended["SM-16"]["held"] is True          # main's table gives the row as held
+    assert all(v["held"] for v in mended.values()) and sum(v["held"] for v in kept.values()) == 14
+    assert "| 16 |" in (ARC / "STATUS_OF_THE_57.md").read_text(encoding="utf-8")
+    was, now = kept["SM-04"]["main finds"], mended["SM-04"]["main finds"]
+    hours = set()
+    for k in ("last message", "c66c8ccae", "entry"):
+        assert now[k].endswith(" UTC") and not was[k].endswith("UTC"), k
+        a = datetime.datetime.strptime(was[k], "%Y-%m-%d %H:%M:%S")
+        b = datetime.datetime.strptime(now[k][:-4], "%Y-%m-%d %H:%M:%S")
+        hours.add((a - b).total_seconds() / 3600)
+    assert len(hours) == 1 and next(iter(hours)) == int(next(iter(hours))), hours      # the same three instants, one zone apart
+    assert {k: v for k, v in was.items() if not isinstance(v, str)} == {k: v for k, v in now.items() if not isinstance(v, str)}
+    assert "f6e89032a is on a branch or a tag of this repository" in mended["SM-16"]["main finds"]
+    # 3. the first probe of the package's rows runs to its end
+    out = (M / "builder_rows_probe_out.txt").read_text(encoding="utf-8")
+    assert "Traceback" not in out and "rows probed: ['41', '42', '43', '44', '45'] | cases: 33 | reproduced: 29" in out
+    assert len(json.loads((M / "builder_rows_probe.json").read_text(encoding="utf-8"))) == 33
+    # 4. the second probe, written again: a case for each of main's fourteen kept lines, and each case gave main's answer
+    lines = json.loads((HERE / "checks" / "builder_rows_probe2.json").read_text(encoding="utf-8"))
+    again = json.loads((M / "builder_rows_probe2.json").read_text(encoding="utf-8"))
+    assert [(o["row"], o["case"], o["answer"]) for o in again] == [(k["row"], k["case"], k["answer"]) for k in lines] and len(lines) == 14
+    assert all(o["the same as main kept"] and o["main kept"] == o["answer"] for o in again) and all(k["reproduced"] for k in lines)
+    assert not (HERE / "checks" / "builder_rows_probe2.py").exists()                    # main's own script is still not in its folder
+    # 5. (the next patch of the same part) main's plants for agy-002's rows, each plant in fact made: two answers differ from
+    #    the file main kept, and they are the two plants that had changed nothing
+    was = json.loads((HERE / "checks" / "plants_agy002.json").read_text(encoding="utf-8"))
+    now = json.loads((M / "plants_agy002.json").read_text(encoding="utf-8"))
+    assert [(r["arc"], r["plant"]) for r in was] == [(r["arc"], r["plant"]) for r in now] and len(now) == 21
+    differ = [(a["arc"], a["plant"], a["the lock"], b["the lock"]) for a, b in zip(was, now) if a["the lock"] != b["the lock"]]
+    assert differ == [("B1893", "'still passes' turned into 'IS REFUSED' on the page", "PLANT NOT MADE", "passes"),
+                      ("B1885", "the note on the grid's 18 digits taken out of the verdict line", "passes", "FAILS")], differ
+    assert not any(r["the lock"] == "PLANT NOT MADE" for r in now)
+    assert [r["the lock"] for r in now if r["plant"] == "nothing planted"] == ["passes"] * 5
+    # 6. main's five plants against B1881's lock, each made through the guard: the controls behave and none of the five passes
+    third = json.loads((M / "plants_b1881_third.json").read_text(encoding="utf-8"))
+    assert [r["the lock"] for r in third] == ["PASSES"] + ["CATCHES IT"] * 6 and len(third) == 7
+    # 7. the check that named a branch names the commit that the arc's verdict file gives for that reader
+    check = (M / "quote_check_agy002.py").read_text(encoding="utf-8")
+    assert 'SRC = ("4ae026d99", "relays/REVIEW_80_AGY-002.md")' in check and "@ 4ae026d99" in " ".join(V["cites_seat"])
+    assert sum(1 for l in check.split("\n") if "origin/" in l and not l.startswith("#")) == 0
+    page = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "verification/mended_in_r80b/" in page
 
 
 def test_the_counts_are_the_tables():
@@ -226,3 +343,44 @@ def test_three_of_the_four_checks_of_quotations_run_again_give_what_main_kept(tm
         ran.append(name)
     if len(ran) < 3:
         pytest.skip("run again here: %s; the other sessions' commits are not in this clone, and their checks are held by hash only" % ", ".join(ran))
+
+
+def test_two_rows_of_the_register_point_at_what_was_found_since():
+    """ADDED 2026-11-12 (R80b, part 6; a reader's check of main's answers at this review, its row A18 and its note on A2).  Row
+    P-805 said that every arc of the window was read in full, with no pointer to the row that says otherwise; and the
+    retractions index sent the reading of five reviews' corrections to row P-823, which named two."""
+    register = (ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8")
+    row = lambda p: next(l for l in register.split("\n") if l.startswith("| %s |" % p))
+    r805, r823, r830 = row("P-805"), row("P-823"), row("P-830")
+    assert "every arc of the window read in full, all but one by two sessions" in r805                  # what the row said is kept
+    assert "Ten older arcs that changed in the window were on no reader's card" in r805 and "they are named in P-830" in r805
+    assert "Ten of the 25 were on no card" in r830
+    assert "Five landed in the window, 75 to 79" in r823 and "the corrections of Reviews 75, 76 and 77 are owed their rows under this row" in r823
+    index = " ".join((ROOT / "docs" / "RETRACTIONS.md").read_text(encoding="utf-8").split())
+    assert "Five reviews landed in this window, 75 to 79, and not two" in index
+    assert "the corrections of Reviews 75, 76 and 77 are owed their rows (P-823)" in index
+    for r in (r805, r823):
+        assert r.rstrip().endswith("| 2026-11-12 |") and r.count(" | ") == r805.count(" | ")           # each is still one row of the register's shape
+
+
+def test_mains_probe_of_b1895_is_mended_beside_the_file_main_wrote_and_gives_what_main_kept():
+    """ADDED 2026-11-13 (C16; main's word in M22, on a cold reader's finding that main checked).  Main's two check files
+    `plants_b1881_third.py` and `b1895_probes.py` set their root to the folder above their own, which is not the repository's
+    root, and run in place they stop at their first search.  The first was mended beside main's file in R80b's part 6 (the
+    test above holds it).  The second is mended here, the same way: main's file stands in checks/ as main wrote it; the mended
+    copy stands in mended_in_r80b/, differs from it in one marked block, and run in place gives the json main kept."""
+    M = HERE / "mended_in_r80b"
+    sha = lambda s: hashlib.sha256(s.encode("utf-8")).hexdigest()
+    text = (M / "b1895_probes.py").read_text(encoding="utf-8")
+    assert text.count("\n# MENDED (") == text.count("\n# END OF THE MEND") == 1 and text.count("# NOTE OF THE MEND") == 1
+    assert sha(_with_its_mends_put_back(text)) == HELD["verification/checks/b1895_probes.py"]
+    assert sha(_with_its_mends_put_back("#| x".join(text.rsplit("#| ", 1)))) != HELD["verification/checks/b1895_probes.py"]
+    # both mended copies count the root from the repository and not from their own folder
+    for name in ("b1895_probes.py", "plants_b1881_third.py"):
+        t = (M / name).read_text(encoding="utf-8")
+        assert "ROOT = next(p for p in HERE.parents if (p / \"scripts\" / \"gates\" / \"gates.py\").is_file())" in t, name
+        assert "#| HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[1]" in t, name
+    # run in place, the mended probe gives what main kept, and its run is kept beside it
+    assert json.loads((M / "b1895_probes.json").read_text(encoding="utf-8")) == json.loads((HERE / "checks" / "b1895_probes.json").read_text(encoding="utf-8"))
+    assert "(4) 3378 primitive cyclic sequences" in (M / "b1895_probes_out.txt").read_text(encoding="utf-8")
+

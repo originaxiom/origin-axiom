@@ -1,0 +1,9 @@
+tracked files read as text: 17192
+passage 1, as it was: 57 x a kept copy of an older version of the foundation
+passage 2, as it was: 50 x a kept copy of an older version of the foundation
+passage 3, as it was: 49 x a kept copy of an older version of the foundation
+passage 4, as it was: 17 x a kept copy of an older version of the foundation; 2 x main's script, which holds the pairs
+passage 5, as it was: 57 x a kept copy of an older version of the foundation
+passage 6, as it was: 56 x a kept copy of an older version of the foundation
+passage 7, as it was: 51 x a kept copy of an older version of the foundation
+files of another kind that hold a passage as it was: 0

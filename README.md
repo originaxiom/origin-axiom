@@ -20,11 +20,11 @@ nothing in this block is typed by hand.*
 | | |
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
-| the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1624: 1128 PROVED, 384 NEGATIVE, 99 OPEN, 13 RETRACTED |
-| points in the register | 848: 309 open (queued work, leads, and questions not yet decided), 539 closed |
+| the foundations | `GENESIS.md` (v1.68) of 2026-11-13 |
+| arcs with a verdict | 1627: 1132 PROVED, 384 NEGATIVE, 98 OPEN, 13 RETRACTED |
+| points in the register | 849: 310 open (queued work, leads, and questions not yet decided), 539 closed |
 | the last review | Review 81 (2026-11-13), anchor `0e637ea9e` |
-| the last landing | S306p A NEGATIVE WITHOUT A SECOND COMPUTATION IS PROVISIONAL, HELD BY A GATE (the builder's card C19; P-842 DONE) (2026-11-13) |
+| the last landing | 2026-11-13; its entry heads `CHANGELOG.md` (the working record) |
 <!-- STATE:END -->
 
 ## Start here
@@ -34,9 +34,9 @@ nothing in this block is typed by hand.*
 | understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
 | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
 | see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
-| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
+| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30, a dated document of the working record |
 | find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
-| read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) |
+| read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) (a working index: it quotes the record's own lines) |
 | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
 | explore the record visually | [`docs/workdesk/`](docs/workdesk/) |
 | learn the vocabulary | [`TERMINOLOGY.md`](TERMINOLOGY.md) |
@@ -52,7 +52,7 @@ nothing in this block is typed by hand.*
   [`docs/LOOK_LEDGER.md`](docs/LOOK_LEDGER.md)).
 - **Readings of geometry as physics (identifications) are tracked** as earned, unearned or refuted
   ([`docs/IDENTIFICATION_LEDGER.md`](docs/IDENTIFICATION_LEDGER.md)).
-- **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md)).
+- **Negatives keep what would reopen them** ([`docs/views/CLOSED_DOORS.md`](docs/views/CLOSED_DOORS.md), a working index).
 - **Corrections are dated where they apply**, and retractions are listed ([`docs/RETRACTIONS.md`](docs/RETRACTIONS.md)).
 - **Several sessions compute in parallel** on their own branches. What the record takes in from them is checked first and
   recorded ([`docs/HARVEST_LEDGER.md`](docs/HARVEST_LEDGER.md), [`docs/RELAY_LEDGER.md`](docs/RELAY_LEDGER.md), both part of the

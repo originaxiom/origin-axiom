@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# [PLACED HERE 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its finding 9; not checked by main): main's correction, as it stands on this arc's pages.
+# CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4).
+# In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2);
+# 2 is inert, so no ideal lies between.
+# "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)),
+# a filtration in which containment is sufficient for congruence and not necessary.
+# Where this script says level (8), (2)^3 or G_8 for m004, read that.
+# The group of order 30720 that it writes as G_8 = PSL(2, O_3/(8)) is SL(2, O_3/(8)) modulo all eight units of square one.
+# The numbers, computed by main at that review: The image in SL(2, O₃/(2ᵏ)) has order 10, 320, 20,480 at k = 1, 2, 3 (index 6, 12, 12).
+# At (8): 10,240 in 122,880 modulo ±1; 2,560 in 30,720 modulo all eight units of square one.  The script is kept as it was written, and its kept outputis not made again.]
 """
 B736 / P2-KMS  ---  the object-level observer, KMS/DYNAMICS angle.
 

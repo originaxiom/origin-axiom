@@ -51,7 +51,42 @@ def test_every_quotation_was_found_and_the_check_can_fail():
     in_main = sum(v["found"] for v in q.values())
     assert "%d of %d in main's files" % (in_main, in_main) in F
     spec = importlib.util.spec_from_file_location("b1894_quote_check", HERE / "quote_check.py"); qc = importlib.util.module_from_spec(spec); spec.loader.exec_module(qc)
-    for reader, r in qc.build().items():
+    # ADDED 2026-11-12 (Review 80; a reader's finding F7).  Where each quotation stands, strictly, as B1892's checker says since
+    # that day: of the 38 found in main's files, 26 stand in the file their finding names; the SM seat's findings name
+    # neither an arc nor a file, and its 12 are placed in the pages swept (11) and on a wide page (1).  None is placed nowhere
+    # but the two of the SM seat's own first file.  No line of a reader's table goes unread.
+    placing = {k: sum(v[k] for v in q.values()) for k in ("in the file the finding names", "in the arc's own folder, no file being named",
+                                                         "in the pages swept, neither an arc nor a file being named", "on a wide page only", "placed nowhere")}
+    assert list(placing.values()) == [26, 0, 11, 1, 2] and sum(list(placing.values())[:4]) == in_main
+    assert q["the SM seat"]["placed nowhere"] == q["the SM seat"]["of its own first file, found there"] == 2
+    assert all(v["rows with more cells than their table's header"] == v["lines that begin as a row and give fewer than four cells"] == 0 for v in q.values())
+    assert "26 stand in the file their finding names" in F and "11 in the pages the checker sweeps" in F
+    # an empty quotation is a quotation of nothing; a quotation that names a file is not placed by standing in another
+    assert qc.found("", "B1894", None) is False and qc.placed("", "B1894", None) is None
+    other = "No item is added and no status cell changes."                       # a sentence of the foundation, a wide page
+    # CHANGED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5).  The two lines here named this arc's own
+    # page, which is not at the commit the readers read:
+    #     assert qc.found(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") is True       # the pool finds it
+    #     assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "wide"    # the strict placing says where
+    # A path that is at no commit read was taken for every file whose name ends as it does.  It is no file now: the placing
+    # says so, and the case of a wide page is made with a page that is at the commit.
+    at_the_commit = "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md"
+    assert other not in qc.text(qc.MAIN[0], at_the_commit)
+    assert qc.found(other, "B1894", at_the_commit) is True                       # the pool finds it, on a wide page
+    assert qc.placed(other, "B1894", at_the_commit) == "wide"                    # the strict placing says where
+    assert qc.placed(other, "B1894", "frontier/B1894_review_79_the_second_round/FINDINGS.md") == "no such file"
+    of_b1892 = " ".join(qc.text(qc.MAIN[0], at_the_commit).split()[40:58])
+    assert qc.placed(of_b1892, "B1892", at_the_commit) == "named"
+    assert qc.placed(of_b1892, "B1892", "frontier/B9999_no_such_arc/FINDINGS.md") == "no such file"       # until this: "named"
+    assert qc.found(of_b1892, None, "frontier/B9999_no_such_arc/FINDINGS.md") is False                    # until this: True
+    assert all(v["under a path that is at no commit read"] == 0 for v in q.values())
+    built = qc.build()
+    if all(r is None for r in built.values()):
+        # CHANGED 2026-11-12 (Review 80; the same finding): with no reader's commit in the clone every result is None and the
+        # loop below passed without a word.  It says so aloud, as B1892's lock does.
+        import pytest
+        pytest.skip("no reader's commit is in this clone: the quotations were not looked for again here")
+    for reader, r in built.items():
         assert r is None or r == q[reader], reader
 
 
@@ -68,6 +103,53 @@ def test_the_sign_stands_corrected_in_the_four_places():
     assert all(round(ident["table"]["0,n=1"][0]) == -3 and round(ident["table"]["0,n=-1"][0]) == 3 for ident in table.values())
 
 
+# ---- Review 80 (2026-11-12; the SM seat's finding 27, checked by main by a search).  The test above looks for the old sentence
+# in one exact wording.  The old sign stood in two more wordings, on four pages, and neither was seen.
+_OLD_SIGN = ("a unit on one line gives index one",
+             "the index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one")
+_THE_SIGN = ("-1 for a unit on one line", "−1 for a unit on one line")
+_SIGN_WITHIN = 700
+
+
+def _old_sign_uncorrected(text):
+    """The places where a text gives the index of a unit on one line as one and does not give its sign: within 700 characters
+    after the words, or, for a message under a heading of its own, in the first 700 characters under that heading, where a
+    note at the head of a message stands."""
+    out = []
+    for section in text.split("\n### "):
+        flat = " ".join(section.split())
+        for old in _OLD_SIGN:
+            at = flat.find(old)
+            while at != -1:
+                if not any(s in flat[at:at + len(old) + _SIGN_WITHIN] or s in flat[:_SIGN_WITHIN] for s in _THE_SIGN):
+                    out.append(old)
+                at = flat.find(old, at + 1)
+    return out
+
+
+def test_the_old_sign_stands_corrected_in_its_other_wordings():
+    """Four pages gave the index of a unit on one line as one, in words the test above does not look for: the changelog's
+    entry of 2026-11-11, the harvest ledger's row 1709, the law map's currency read, and main's fourth message to the
+    session whose finding it was.  Each carries the correction beside it now.  Planted: each page with its correction taken
+    out, which is the page as it stood; the test above passes on all four."""
+    # the changelog holds them twice since the entry that corrects them was written: once in that entry, with the sign beside
+    # them, and once in the entry of 2026-11-11
+    pages = {"CHANGELOG.md": 2, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
+    for rel, n in pages.items():
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        flat = " ".join(text.split())
+        assert sum(flat.count(o) for o in _OLD_SIGN) == n, rel       # the old words are kept: once on each page, and once more in the message's own note
+        assert _old_sign_uncorrected(text) == [], rel
+        # the page as it stood: every correction of Review 80 taken out again
+        stood = text
+        for mark in ("[CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search):", "[CORRECTED 2026-11-12, in the entry of Review 80's mends:",
+                     "*[NOTE 2026-11-12 (Review 80; a reader's finding, checked by main by a search), added at the head"):
+            while mark in stood:
+                i = stood.index(mark)
+                stood = stood[:i] + stood[stood.index("]", i) + 1:]
+        assert stood != text and len(_old_sign_uncorrected(stood)) == 1, rel
+
+
 def test_the_arc_says_what_it_did_not_do():
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for s in ("were not run against the tripwire's new form", "have been read by nobody but main", "What main got wrong in this round", "Not closed, and asserted as open",
@@ -76,3 +158,54 @@ def test_the_arc_says_what_it_did_not_do():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1894" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["scope"]["reach"] in ("single", "class", "general")
     assert v["claim_one_line"].endswith("0 of 19.")
+
+
+def _the_pages():
+    """every tracked page of text (Markdown, JSON, TeX, plain text), by git where git can list them, else by a walk"""
+    import subprocess
+    r = subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True)
+    names = [f for f in r.stdout.split("\n") if f.endswith((".md", ".json", ".tex", ".txt"))] if r.returncode == 0 else []
+    if not names:
+        names = [str(q.relative_to(ROOT)) for q in ROOT.rglob("*") if q.suffix in (".md", ".json", ".tex", ".txt") and ".git" not in q.parts]
+    return names
+
+
+def _where_the_old_sign_stands(read):
+    """(the pages that hold an old wording, flattened over line breaks, with how many times; those where one is uncorrected)"""
+    held, bad = {}, {}
+    for rel in _the_pages():
+        text = read(rel)
+        if text is None:
+            continue
+        flat = " ".join(text.split())
+        n = sum(flat.count(o) for o in _OLD_SIGN)
+        if n:
+            held[rel] = n
+            if _old_sign_uncorrected(text):
+                bad[rel] = len(_old_sign_uncorrected(text))
+    return held, bad
+
+
+def test_the_old_sign_is_swept_on_every_page_and_not_on_four_named_ones():
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 12, not checked by main, made again first).  The
+    test above reads four named pages.  The old sentence planted on docs/THE_CLAIM.md passed it and every gate.  Every tracked
+    page is read now, flattened over its line breaks (the law map's old wording breaks over a line, and a search line by line
+    does not see it): the old wordings stand on the four pages and nowhere else, each with its correction."""
+    def read(rel):
+        try:
+            return (ROOT / rel).read_text(encoding="utf-8")
+        except Exception:
+            return None
+    held, bad = _where_the_old_sign_stands(read)
+    assert bad == {}, bad
+    assert held == {"CHANGELOG.md": 2, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}, held
+    # planted: the old sentence on a page the test above does not name, as the reader planted it; and broken over a line
+    for planted in ("\nThe index it cites: a unit on one line gives index one.\n", "\nThe index it cites: a unit on one\nline gives index one.\n"):
+        plant = lambda rel: (read(rel) or "") + planted if rel == "docs/THE_CLAIM.md" else read(rel)
+        h, b = _where_the_old_sign_stands(plant)
+        assert b == {"docs/THE_CLAIM.md": 1} and h["docs/THE_CLAIM.md"] == 1
+    # the twin: the same sentence with its sign beside it
+    twin = lambda rel: (read(rel) or "") + "\nThe index: a unit on one line gives index one; with its sign, -1 for a unit on one line.\n" if rel == "docs/THE_CLAIM.md" else read(rel)
+    h, b = _where_the_old_sign_stands(twin)
+    assert b == {} and h["docs/THE_CLAIM.md"] == 1
+

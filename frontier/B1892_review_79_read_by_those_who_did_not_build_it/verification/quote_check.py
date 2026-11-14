@@ -87,29 +87,40 @@ def found(q, arc, named, commits):
         rc, ls = git("ls-tree", "-r", "--name-only", commit)
         files = ls.split("\n")
         pool = ([named] if named in files else []) + [f for f in files if arc != "window" and f.startswith("frontier/%s_" % arc)] + [f for f in WIDE if f in files]
-        if named and named not in files:
-            pool += [f for f in files if f.endswith(named.split("/")[-1])]
+    # MENDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A5, not checked by main, made again by the
+    # builder).  Where the path a finding names was not at the commit, every file whose name ENDS as the path does was taken
+    # in its place: a quotation set under a path that does not exist and ends in FINDINGS.md was looked for in every
+    # FINDINGS.md of the repository, and reported as found in the file named.  A path that is at no commit read is no file:
+    # nothing is taken in its place.  No finding of the readers' files names such a path; the lock counts that.
+    #     if named and named not in files:
+    #         pool += [f for f in files if f.endswith(named.split("/")[-1])]
         if any(q in text(commit, f) for f in pool):
             return True
     return False
 
 
 def placed(q, arc, named, commits):
-    """where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not at
-    the commit), 'arc' (the reader names no file: in the arc's own folder), 'wide' (on a wide page only), or None"""
+    """where the quotation stands, strictly: 'named' (in the file the finding names), 'no such file' (the finding names a path
+    that is at no commit read), 'arc' (the reader names no file: in the arc's own folder), 'wide' (on a wide page only), or
+    None.  [Until 2026-11-12 'named' was also given where the path was not at the commit and the quotation stood in any file
+    whose name ends as the path does; see the note in `found`.]"""
     q = " ".join(q.split())
     if not q:
         return None
     wide = False
+    there = False
     for commit in commits:
         files = git("ls-tree", "-r", "--name-only", commit)[1].split("\n")
         if named:
-            cand = [named] if named in files else [f for f in files if f.endswith(named.split("/")[-1])]
-            if any(q in text(commit, f) for f in cand):
+            # until 2026-11-12: cand = [named] if named in files else [f for f in files if f.endswith(named.split("/")[-1])]
+            there = there or named in files
+            if named in files and q in text(commit, named):
                 return "named"
         elif arc != "window" and any(q in text(commit, f) for f in files if f.startswith("frontier/%s_" % arc)):
             return "arc"
         wide = wide or any(q in text(commit, f) for f in WIDE if f in files)
+    if named and not there:
+        return "no such file"
     return "wide" if wide else None
 
 
@@ -148,6 +159,7 @@ def build():
         more, few = rows_not_read(reader, page)
         res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
                             "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
+                            "under a path that is at no commit read": where.count("no such file"),
                             "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
         if reader == "the SM seat" and qs:
             arc, named, q = qs[0]

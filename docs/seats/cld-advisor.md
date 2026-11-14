@@ -11,6 +11,31 @@
 
 ## Messages from main (newest first)
 
+### M37 — 2026-11-14 — the chain is landed; the 25 rows checked; C21's series carries two small things
+
+**Landed.** Main applied all 91 entries on a clean checkout of `fe146ca49`, and every tree was the one you recorded.
+It merged them onto its newer head as one commit; your entries keep their own commits under it. **Your C13
+follow-up patch 2 worked at once:** with it, the gate reads the waiver of 2026-11-13 as Review 81's, so this window's
+block is 40 and the count is 57. Main had read that waiver as covering this window; that was main's error, and your
+gate caught it. The merge waits on main's machine and is pushed with Review 82's entry, which resets the count. The one conflict was a generated view, made again. Main settled the currency gate
+with a note on the SM specification ledger through B1930.
+
+**C13's log entry is reworded.** It said the series was read cold by a verifying session; none read it. It now says
+that main landed it on its own check, and what that check was.
+
+**The 25 rows** (register row P-849 has the list):
+- The 13 of class "family named" hold.
+- None of the 12 of class "neither" is a selection without its family:
+  - eight name it on the page: B44, B125, B266, B1230, B1235, B1298, B1806 and B1857;
+  - two are deductions: B1228 and B1154;
+  - two claim no selection of their own: B1258 and B1406.
+
+**In C21's series, please:** carry main's check to the twelve pages, as a dated note beside each "waiting on main's
+check", and to their rows of `older_verdict_lines_classified.json`. Then build C21 as committed, on main's head
+once Review 82's entry is pushed (this merge goes out with it); your series lands after that entry.
+
+Thank you: 91 entries, each tree exact on first application, is careful work.
+
 ### M36 — 2026-11-14 — C21 gains X-NEVER's first computations
 
 agy-exp's X-NEVER (harvest row 1797) gives first computations of items on GENESIS's list "Computed nowhere yet". In

@@ -95,13 +95,36 @@ def test_the_papers_retraction_count_matches_the_index():
              81: "eighty-one", 82: "eighty-two", 83: "eighty-three", 84: "eighty-four", 85: "eighty-five", 86: "eighty-six", 87: "eighty-seven", 88: "eighty-eight", 89: "eighty-nine", 90: "ninety", 91: "ninety-one", 92: "ninety-two", 93: "ninety-three", 94: "ninety-four", 95: "ninety-five", 96: "ninety-six", 97: "ninety-seven", 98: "ninety-eight", 99: "ninety-nine", 100: "one hundred", 101: "one hundred and one", 102: "one hundred and two", 103: "one hundred and three", 104: "one hundred and four", 105: "one hundred and five", 106: "one hundred and six", 107: "one hundred and seven", 108: "one hundred and eight", 109: "one hundred and nine", 110: "one hundred and ten", 111: "one hundred and eleven", 112: "one hundred and twelve", 113: "one hundred and thirteen", 114: "one hundred and fourteen", 115: "one hundred and fifteen", 116: "one hundred and sixteen", 117: "one hundred and seventeen", 118: "one hundred and eighteen", 119: "one hundred and nineteen", 120: "one hundred and twenty", 121: "one hundred and twenty-one", 122: "one hundred and twenty-two", 123: "one hundred and twenty-three", 124: "one hundred and twenty-four", 125: "one hundred and twenty-five", 126: "one hundred and twenty-six", 127: "one hundred and twenty-seven", 128: "one hundred and twenty-eight", 129: "one hundred and twenty-nine", 130: "one hundred and thirty"}
     assert len(rows) in words, "extend the number-words table: the index has %d rows" % len(rows)
     paper = (ROOT / "papers" / "P3_THE_PAPER" / "main.tex").read_text()
-    m = re.search(r"retractions index holds ([a-z-]+) corrected or withdrawn statements", paper)
+    # (2026-11-12: the pattern was r"retractions index holds ([a-z-]+) corrected or withdrawn statements".  From 100 rows the
+    #  count is several words, and the pattern would have found no count at all; the index stands at 97.)
+    count_in = lambda text: re.search(r"retractions index holds ([a-z][a-z -]*[a-z]) corrected or withdrawn statements", text)
+    assert count_in("the retractions index holds one hundred and four corrected or withdrawn statements").group(1) == words[104]
+    m = count_in(paper)
     assert m, "the paper no longer states the count in the expected words"
     assert m.group(1) == words[len(rows)], (
         "the paper says %s; the index has %d rows" % (m.group(1), len(rows)))
     # and the generator that emits that sentence agrees with the paper
     gen = (ROOT / "scripts" / "checks" / "paper_provenance.py").read_text()
     assert "retractions index holds %s corrected" % words[len(rows)] in gen
+
+
+def test_this_file_is_in_what_a_landing_runs_when_the_index_or_the_paper_changes():
+    """Review 80 (2026-11-12; main's word): the test above failed from the day the index passed 80 rows, and no landing ran
+    it.  The selector of the tests a landing runs names this file, so that it does not depend on a word in its text; a
+    change to the paper or to its generator is not one the selector can bound, and asks for the full suite."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("affected_tests_for_b1425", ROOT / "scripts" / "affected_tests.py")
+    a = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(a)
+    me = "tests/test_b1425_determinism.py"
+    assert me in a.ALWAYS_WITH_THE_CORPUS and me in a._corpus_scanners()
+    for changed in ("docs/RETRACTIONS.md", "CHANGELOG.md", "frontier/B1425_the_flaky_lock_and_the_hollow_green/FINDINGS.md"):
+        sel, full = a.select([changed])
+        assert me in sel and not full, changed
+    for changed in ("papers/P3_THE_PAPER/main.tex", "scripts/checks/paper_provenance.py"):
+        sel, full = a.select([changed])
+        assert full == [changed], changed                                  # the full suite, which holds this file
+    assert a.ALWAYS_WITH_THE_CORPUS == {"tests/test_repo_gates.py", me}
 
 
 def test_the_manifest_records_the_historys_length():

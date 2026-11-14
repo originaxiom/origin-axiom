@@ -410,3 +410,48 @@ def test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row(mo
     assert any(x.startswith("B9:") for x in off_bad)
     monkeypatch.setattr(gates, "seal_order_class", lambda rev="HEAD": {"B1": "aaaaaaaaa1", "B99999": "eeeeeeeee5"})
     ok, why = gates.gate_seal_order_unshown(); assert ok is False and "B99999" in why
+
+
+def test_selection_family_fails_on_a_new_claim_of_a_selection_whose_page_names_no_family(monkeypatch):
+    """C13 (2026-11-12): an arc from B1905 on whose verdict line claims a selection fails unless its page names a family;
+    the same claim with a family named passes, an older arc is counted and not read, and a denial in the clause is no claim."""
+    import json as _json
+    mapping = {
+        "frontier/B99980_a/arc_verdict.json": _json.dumps({"id": "B99980", "verdict": "PROVED", "claim_one_line": "THE READ-OUT SELECTS ONE MEMBER, m004."}),
+        "frontier/B99980_a/FINDINGS.md": "# B99980\n\nThe read-out is greatest at m004.\n",
+        "frontier/B99981_b/arc_verdict.json": _json.dumps({"id": "B99981", "verdict": "PROVED", "claim_one_line": "THE CENSUS SELECTS ONE MEMBER, m004."}),
+        "frontier/B99981_b/FINDINGS.md": "# B99981\n\nThe criterion is a finite classification with a test of membership.\n",
+        "frontier/B99982_c/arc_verdict.json": _json.dumps({"id": "B99982", "verdict": "NEGATIVE", "claim_one_line": "No rule selects one member."}),
+        "frontier/B99982_c/FINDINGS.md": "# B99982\n",
+        "frontier/B1000_d/arc_verdict.json": _json.dumps({"id": "B1000", "verdict": "PROVED", "claim_one_line": "The flow selects the value 3."}),
+        "frontier/B1000_d/FINDINGS.md": "# B1000\n",
+    }
+    monkeypatch.setattr(gates.glob, "glob", lambda pat: [os.path.join(gates.ROOT, k) for k in mapping if k.endswith("arc_verdict.json")])
+    read = lambda rel: mapping[rel.replace(os.sep, "/")]
+    hits, older = gates.selection_family_hits(reader=read)
+    assert [h[0] for h in hits] == ["B99980"] and older == 1
+    ok, msg = gates.gate_selection_family(reader=read)
+    assert not ok and "B99980" in msg and "B99981" not in msg and "B99982" not in msg
+    del mapping["frontier/B99980_a/arc_verdict.json"]
+    ok, msg = gates.gate_selection_family(reader=read)
+    assert ok and "1 older line(s)" in msg
+
+
+
+
+def test_public_face_fails_on_an_inner_word_put_on_a_public_page_and_spares_the_working_record():
+    """C14 (2026-11-13): a word of the list added to a page of the public face fails; the same word in the progress log, or in
+    a quotation of a verdict line on a labelled working index, is not read."""
+    real = gates._read
+    def reader(extra):
+        def r(rel):
+            t = real(rel)
+            return t + extra.get(rel, "")
+        return r
+    ok, _ = gates.gate_public_face(reader=reader({}))
+    assert ok
+    ok, msg = gates.gate_public_face(reader=reader({"README.md": "\nThe principle was confirmed by the owner.\n"}))
+    assert not ok and "README.md: 'owner'" in msg
+    ok, _ = gates.gate_public_face(reader=reader({"PROGRESS_LOG.md": "\nThe owner confirmed it.\n", "docs/views/VERDICT_LEDGER.md": "\nthe SM seat's B9\n"}))
+    assert ok
+

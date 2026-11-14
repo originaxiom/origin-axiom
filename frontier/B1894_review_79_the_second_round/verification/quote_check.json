@@ -3,6 +3,14 @@
   "its commit": "52b484c70",
   "quotations": 14,
   "found": 12,
+  "in the file the finding names": 0,
+  "in the arc's own folder, no file being named": 0,
+  "in the pages swept, neither an arc nor a file being named": 11,
+  "on a wide page only": 1,
+  "placed nowhere": 2,
+  "under a path that is at no commit read": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0,
   "of its own first file, found there": 2,
   "found nowhere": 0,
   "control: the first quotation altered by one character is reported missing": true
@@ -10,16 +18,40 @@
  "the web seat": {
   "its commit": "1588ed722",
   "quotations": 5,
-  "found": 5
+  "found": 5,
+  "in the file the finding names": 5,
+  "in the arc's own folder, no file being named": 0,
+  "in the pages swept, neither an arc nor a file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0
  },
  "agy-002": {
   "its commit": "c68aabbd7",
   "quotations": 13,
-  "found": 13
+  "found": 13,
+  "in the file the finding names": 13,
+  "in the arc's own folder, no file being named": 0,
+  "in the pages swept, neither an arc nor a file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0
  },
  "agy-exp": {
   "its commit": "0e9644320",
   "quotations": 8,
-  "found": 8
+  "found": 8,
+  "in the file the finding names": 8,
+  "in the arc's own folder, no file being named": 0,
+  "in the pages swept, neither an arc nor a file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "under a path that is at no commit read": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0
  }
 }

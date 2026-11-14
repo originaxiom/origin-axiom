@@ -32,8 +32,9 @@ def test_retro_verdicts_present_and_stamped():
 
 
 def test_rooms_repair_and_leads():
-    assert (ROOT / "speculations" / "S074_the_adelic_closing_doctrine.md").exists()
-    phil = (ROOT / "philosophy" / "13_the_computed_observer.md").read_text(encoding="utf-8")
+    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+    assert (ROOT / "docs" / "archive" / "speculations" / "S074_the_adelic_closing_doctrine.md").exists()
+    phil = (ROOT / "docs" / "archive" / "philosophy" / "13_the_computed_observer.md").read_text(encoding="utf-8")
     assert "Addendum (2026-08-27, B1176" in phil
     leads = (ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
     assert "## L189" in leads and leads.count("ID-COLLISION NOTE, B1176") == 2

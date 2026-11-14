@@ -78,7 +78,7 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
    firewall blocks overclaims, not mathematics; the gate is open by default
    for mature computed steps.
 6a. **Gate 5-Q stands for phenomenology.** Any arc using reflexive/phenomenological
-   vocabulary is bound by `philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` (ADOPTED
+   vocabulary is bound by `docs/archive/philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` (ADOPTED
    2026-07-22): computed-referent vocabulary, the non-universality and comparator
    controls, input identification, stability analysis, no consciousness claims,
    any-domain empirical constants = value-claims. Checked at prereg seal and merge.
@@ -593,3 +593,18 @@ Ruled by the owner on 2026-11-11: his messages are private, and a ruling of his 
 the sessions are named as main proposed (P-797): a seat's name is an address, not an author and not an authority, and
 what is written about a result is how it was checked. The words for that are in `TERMINOLOGY.md`.
 
+## Rule (2026-11-12, after the owner's question on selection and his point on the record's walls — adopted): BEFORE A SELECTION OR A HAND IS CLAIMED
+
+1. **Name the wall** from the ledger of walls, and read its row: where it was first met, what is proved
+   impossible, what was tried by which kind of principle and how it ended. A question of a known shape is met
+   with its history first.
+2. **Say what the computation declares** (which moves, which range, which measure) and run it again with each
+   declaration changed. If the answer moves, the result is about the declaration (register row P-831).
+3. **A selection is claimed only by a criterion that can fail,** and the page says which of the two families
+   that have ever forced anything here it belongs to (B1204): a finite classification with a test of membership,
+   or a consistency condition that a candidate can violate. A symmetry the admissible class already satisfies,
+   an extremum, a flow or a measure is not a selection by itself; on the record (B1905) a measure has settled no
+   question of this kind and an extremum a quarter of those it was asked.
+4. **No hand is derived on the record.** A page that writes that the orientation is chosen, forced or picked
+   says where it comes from: outside the object (a filling, a chosen sign, a second object), or a new mechanism
+   with its failable test.

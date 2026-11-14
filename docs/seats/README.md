@@ -206,8 +206,12 @@ by sessions that built none of what they read, and every arc of the review's win
 - **Two sessions read each arc.** Do not open another session's review file before yours is pushed. What the two find
   in common is how main estimates what one reading misses.
 - **If an arc judges work of yours,** say so and leave it; main gives it to another reader.
-- **You close nothing.** Main reproduces each finding, then mends it or answers it with the computation, and writes
-  back to you. If you find main's answer wrong, say so: the finding stays open.
+- **You close nothing.** Main checks each finding itself, then mends it or answers it with the computation, and
+  writes back to you. If you find main's answer wrong, say so: the finding stays open.
+  [REWORDED 2026-11-12 (Review 80; a reader's finding, checked by main): this read "Main reproduces each finding".
+  § 12 keeps "reproduced" for the same code run again on a clean checkout. What main does with a finding is a check
+  of its own: a recount from git or from the file, a planted error of its own, a computation of its own, or reading
+  the line and working out what it does. The rule is not changed.]
 - **A reading gives findings, not a label.** An arc is not relabelled because it was read. A number you recompute
   with your own code is recomputed independently, for that number.
 - **Where it goes.** One file on your branch, named as your card names it (relays/REVIEW_79_NAME.md at Review 79,
@@ -222,8 +226,8 @@ git diff 38d2a36dc HEAD -- PATH
 - **Main keeps the readings apart.** Until both readers of an arc have delivered, main writes nothing on its pages of
   what the first found, and mends nothing in that arc that a reader found. What an instrument finds, such as the
   suite on a fresh clone, is mended at once and said.
-- **Main counts both ways.** For each reader it reports how many findings held when main reproduced them, and how many
-  did not.
+- **Main counts both ways.** For each reader it reports how many findings held when main checked them itself, and
+  how many did not. [REWORDED 2026-11-12 (Review 80): this read "when main reproduced them"; the note above says why.]
 
 The firewall of § 9 holds throughout.
 

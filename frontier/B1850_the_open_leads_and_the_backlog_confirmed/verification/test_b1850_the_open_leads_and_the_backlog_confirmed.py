@@ -11,6 +11,15 @@ def _load(name):
     spec.loader.exec_module(m); return m
 
 
+def _printed():
+    """the comparison of two transcripts that takes a number as a number (scripts/checks/printed_numbers.py)"""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("printed_numbers_for_this_lock", ROOT / "scripts" / "checks" / "printed_numbers.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
 def test_every_quote_is_verbatim_at_its_path():
     n, bad = _load("quote_check").check()
     assert n >= 312 and bad == []
@@ -48,5 +57,11 @@ def test_the_backlog_rows_and_the_counter():
 def test_the_generating_pair_check_reproduces():
     out = subprocess.run([sys.executable, "-B", str(HERE / "l206_generating_pair.py")], capture_output=True, text=True,
                          check=True, timeout=300).stdout
-    assert out == (HERE / "l206_generating_pair_run.txt").read_text(encoding="utf-8")
+    # CHANGED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7).  It read
+    #     assert out == (HERE / "l206_generating_pair_run.txt").read_text(encoding="utf-8")
+    # The transcript holds a residual that is zero up to rounding, printed to two digits; on another machine it is another
+    # number of the same order, and the lock failed with nothing wrong.  A number is compared as a number, within the
+    # tolerance stated in scripts/checks/printed_numbers.py, and everything else character for character.
+    kept = (HERE / "l206_generating_pair_run.txt").read_text(encoding="utf-8")
+    assert _printed().same(out, kept), _printed().differences(out, kept)
     assert "generates pi_1(m003)" in out

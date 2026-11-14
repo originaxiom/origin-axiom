@@ -34,8 +34,41 @@ def _domains(motifs):
     return sorted({L[m]["domain"] for m in motifs if m in L})
 
 
+# CHANGED 2026-11-12 (Review 80; found by a reading of this file, made again before it was mended).  Review 79 took the
+# atlas's tag out of the head of an arc's card, because the tag is a guess from the arc's words and disagrees with the
+# verdict for hundreds of arcs.  The same tag was still printed as a status in four places: by `revive`, by the meeting
+# points, in the context card's tally, and wherever a probe is counted as "banked".  Each prints it as the tag now.  The
+# keys of what the functions return are not changed.
+TAG = "the atlas's tag, a guess from the arc's words and not a verdict"
+
+
 def _banked(P):
+    """the probes whose TAG is "banked": a guess from their words.  It is not the set of arcs with a positive verdict."""
     return {pid: p for pid, p in P.items() if p["status"] == "banked"}
+
+
+def _verdicts_of(arc_id, root=None):
+    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id.
+    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): only a folder
+    named `<id>_<words>` was found, and a folder named by the id alone was missed.  Both are found now.  `root` is the
+    repository's (given only by a test).  The line as it stood:
+        for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):"""
+    import glob
+    root = root or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    out = []
+    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id)) + glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
+        if not os.path.isdir(d):
+            continue
+        h = os.path.join(d, "arc_verdict.json")
+        if not os.path.isfile(h):
+            out.append((os.path.relpath(d, root), None, None, False))
+            continue
+        try:
+            v = json.load(open(h, encoding="utf-8"))
+            out.append((os.path.relpath(d, root), v.get("verdict"), v.get("claim_one_line", ""), False))
+        except ValueError:
+            out.append((os.path.relpath(d, root), None, None, True))
+    return out
 
 
 # -- 3: motif -> recurrence trace ------------------------------------------------------------------
@@ -66,7 +99,8 @@ def resolutions_for(obstacle_type, g=None, banked_only=True):
     motif_counts = Counter(m for p in rel.values() for m in p["motifs"])
     ranked = motif_counts.most_common()
     conserved = [(m, c) for m, c in ranked if L[m]["conserved"] in ("first-integral", "structural")]
-    lines = [f"obstacle '{obstacle_type}': {len(rel)} {'banked ' if banked_only else ''}probes touched it"]
+    lines = [f"obstacle '{obstacle_type}': {len(rel)} probes {'tagged banked ' if banked_only else ''}touched it"
+             + (f"  ('banked' is {TAG})" if banked_only else "")]
     lines += [f"  {m:16s} x{c:<3d} [{L[m]['conserved']}]" for m, c in ranked[:8]]
     top_conserved = conserved[0][0] if conserved else None
     if top_conserved:
@@ -88,11 +122,13 @@ def revive(probe_id, g=None):
     res = resolutions_for(ob, g) if ob else dict(ranked=[], conserved_resolvers=[])
     # motifs that resolved this obstacle-type elsewhere but are ABSENT here = the suggestion
     suggest = [(m, c) for m, c in res.get("conserved_resolvers", []) if m not in own][:5]
-    text = [f"revive {probe_id} [{p['status']}]  -- \"{p['slug']}\"",
+    verdicts = [v or "no verdict" for _, v, _, _ in _verdicts_of(probe_id)]
+    text = [f"revive {probe_id} [{'; '.join(verdicts) or 'no verdict file'}]  -- \"{p['slug']}\"",
+            f"  atlas tag (a guess from the arc's words, not a verdict): {p['status']}",
             f"  obstacle-type: {ob or 'unclassified'};  motifs already tried: {', '.join(sorted(own)) or 'none'}"]
     if suggest:
         text.append("  conserved motifs that resolved this obstacle-type ELSEWHERE (not yet used here):")
-        text += [f"    {m:16s} (resolved {c} banked probes) -- {L[m]['gloss']}" for m, c in suggest]
+        text += [f"    {m:16s} (in {c} probes tagged banked) -- {L[m]['gloss']}" for m, c in suggest]
     else:
         text.append("  no unused conserved resolver found for this obstacle-type (already saturated, or novel).")
     return dict(probe=probe_id, status=p["status"], obstacle=ob, own_motifs=sorted(own),
@@ -103,8 +139,9 @@ def revive(probe_id, g=None):
 def meeting_points(g=None, top=15):
     g = g or load()
     mp = atlas.meeting_points(g, top=top)
-    lines = ["candidate meeting-points (cross-domain re-surfacings) -- CANDIDATES for human judgement, NOT proof:"]
-    lines += [f"  {r['probe']:6s} s={r['score']:2d} [{r['status']}] {'+'.join(r['patterns']) or 'breadth'}"
+    lines = ["candidate meeting-points (cross-domain re-surfacings) -- CANDIDATES for human judgement, NOT proof:",
+             f"  (the word after 'tag' is {TAG})"]
+    lines += [f"  {r['probe']:6s} s={r['score']:2d} [tag {r['status']}] {'+'.join(r['patterns']) or 'breadth'}"
               f"  ({', '.join(r['domains'])})" for r in mp]
     return dict(candidates=mp, text="\n".join(lines))
 
@@ -153,8 +190,8 @@ def gaps(g=None):
             if c < 0.4 * exp:
                 weak.append((a, b, c, round(exp, 1)))
     weak.sort(key=lambda t: t[2] / max(1, t[3]))
-    lines = ["under-resolved obstacle-types (few banked resolutions -> open frontier):"]
-    lines += [f"  {ob:16s} {bk}/{n} banked" for ob, bk, n in under[:6]]
+    lines = [f"under-resolved obstacle-types (few probes tagged banked -> open frontier; 'banked' is {TAG}):"]
+    lines += [f"  {ob:16s} {bk}/{n} tagged banked" for ob, bk, n in under[:6]]
     lines.append("motif pairs that avoid each other (individually common, rarely meet -> a structural gap):")
     lines += [f"  {a} x {b}: {c} obs vs {exp} expected" for a, b, c, exp in weak[:6]]
     return dict(under_resolved=under, avoidant_pairs=weak, text="\n".join(lines))
@@ -173,7 +210,7 @@ def context_card(g=None):
     tool_probes = sum("trace_map" in p["motifs"] for p in P.values())
     lines = [
         "THE RECURRENCE ATLAS -- context card",
-        f"  corpus: {a['n_probes']} frontier probes; status {dict(status)}",
+        f"  corpus: {a['n_probes']} frontier probes; atlas tags (guesses from the arcs' words, not verdicts) {dict(status)}",
         f"  the ONE conserved first integral: {conserved[0][0] if conserved else '?'} "
         f"(recurs {conserved[0][1]}x, {100*conserved[0][1]//a['n_probes']}%) -- genuine unity, MUST recur",
         "  top recurring motifs: " + ", ".join(f"{m}({c})" for m, c in freq[:6]),
@@ -195,32 +232,38 @@ def arc_card(arc_id, g=None):
     status. The tag is a guess from the arc's words (the first of four word lists that matches) and it disagrees with
     the verdict for hundreds of arcs: 218 proved arcs were shown as dead and 198 negative ones as banked. The head now
     carries the verdict, and the tag is printed as what it is."""
-    import glob, json
     g = g or load(); p = g["probes"].get(arc_id)
     if not p:
         return dict(probe=arc_id, error="unknown arc", text=f"unknown arc '{arc_id}'")
-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    hits = sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*", "arc_verdict.json")))
-    v, unreadable = None, None
-    for h in hits[:1]:
-        try:
-            v = json.load(open(h, encoding="utf-8"))
-        except ValueError:
-            unreadable = os.path.relpath(h, root)
-    head = (v or {}).get("verdict") or "no verdict"
-    text = [f"{arc_id} [{head}]  -- \"{p['slug']}\"",
+    # CHANGED 2026-11-12 (Review 80; found by a reading of this function, made again before it was mended).  The card read
+    # the first verdict file of the folders that carry the id, and no other.  One id, B58, is carried by three folders, one
+    # of them RETRACTED: its card printed one folder's verdict under another folder's name, and the retracted folder never
+    # appeared.  Every folder that carries the id is on the card now, each with its own verdict and claim line; the head
+    # carries every verdict; and where there is more than one folder the card says that the atlas keeps one name for them.
+    folders = _verdicts_of(arc_id)
+    v = None
+    if len(folders) == 1 and folders[0][1]:
+        v = {"verdict": folders[0][1]}
+    head = "; ".join(x[1] or ("unreadable" if x[3] else "no verdict") for x in folders) or "no verdict"
+    text = [f"{arc_id} [{head}]  -- \"{p['slug']}\"" + (f"   ({len(folders)} folders carry this id; the atlas keeps one name for them)" if len(folders) > 1 else ""),
             f"  atlas tag (a guess from the arc's words, not a verdict): {p['status']}",
             f"  obstacle-type: {p['obstacle'] or 'unclassified'};  motifs: {', '.join(sorted(p['motifs'])) or 'none'}"]
-    if v is not None:
-        text.append(f"  verdict: {v.get('verdict')}   folder: {os.path.relpath(os.path.dirname(hits[0]), root)}")
-        text.append("  claim: " + str(v.get("claim_one_line", "")))
-    elif unreadable:
-        text.append(f"  verdict file unreadable: {unreadable}")
-    else:
+    for folder, verdict, claim, unreadable in folders:
+        if unreadable:
+            text.append(f"  verdict file unreadable: {folder}/arc_verdict.json")
+        elif verdict is None and claim is None:
+            text.append(f"  no verdict file in {folder}")
+        else:
+            text.append(f"  verdict: {verdict}   folder: {folder}")
+            text.append("  claim: " + str(claim))
+    if not folders:
         text.append("  no verdict file under frontier/")
     # 2026-11-12 (Review 79's second round): the key "status" is the atlas's tag, a guess from the arc's words.  It is returned
     # under a name that says so as well; the old key stays for the callers that read it.
-    return dict(probe=arc_id, status=p["status"], atlas_tag_a_guess_from_words=p["status"], verdict=(v or {}).get("verdict"), text="\n".join(text))
+    # the key "verdict" holds the one verdict where one folder carries the id, as before; where several do it holds none, and
+    # "verdicts_by_folder" holds each
+    return dict(probe=arc_id, status=p["status"], atlas_tag_a_guess_from_words=p["status"], verdict=(v or {}).get("verdict"),
+                verdicts_by_folder={x[0]: x[1] for x in folders}, text="\n".join(text))
 
 
 if __name__ == "__main__":

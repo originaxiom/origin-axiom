@@ -74,6 +74,39 @@ def arcs(root=ROOT):
     return out
 
 
+# THE LEDGER OF WALLS (2026-11-12, main's card C13; WORKING_RULES, the rule "BEFORE A SELECTION OR A HAND IS CLAIMED", step 1).
+# A question of a known shape is met with its history first: before its own list the sweep prints the ledger's row of every
+# wall whose name or words the expression matches.  It reads the generated page and nothing else, so that what it prints is
+# what the page says.  A sweep on a checkout without the page says so on one line, and goes on.
+WALLS_PAGE = os.path.join("docs", "views", "LEDGER_OF_WALLS.md")
+
+
+def walls(root=ROOT):
+    """the ledger's rows as dicts (code, name, arcs, first, outcomes, words), or None where the page is not on this checkout"""
+    p = os.path.join(root, WALLS_PAGE)
+    if not os.path.exists(p): return None
+    text = open(p, encoding="utf-8").read(); out = {}
+    for m in re.finditer(r"^\| (W\d), ([^|]+?) \| (\d+) \| (\S+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \|$", text, re.M):
+        out[m.group(1)] = dict(code=m.group(1), name=m.group(2), arcs=int(m.group(3)), first=m.group(4),
+                               outcomes=[int(m.group(i)) for i in range(5, 10)], words=[])
+    tail = text[text.index("## The words the sweep reads"):] if "## The words the sweep reads" in text else ""
+    for m in re.finditer(r"^\| (W\d) \| [^|]+ \| ([^|]+) \|$", tail, re.M):
+        if m.group(1) in out and m.group(2).strip() != "its name alone":
+            out[m.group(1)]["words"] = [w.strip() for w in m.group(2).split(";") if w.strip()]
+    return [out[k] for k in sorted(out, key=lambda c: int(c[1:]))]
+
+
+def walls_matched(rx, rows):
+    """the walls whose name or one of whose words the expression matches"""
+    pat = re.compile(rx, re.I)
+    return [w for w in rows if pat.search(w["name"]) or any(pat.search(x) for x in w["words"])]
+
+
+def wall_line(w):
+    return ("  WALL %s, %s: %d arcs, first met %s; settled %d, partly %d, not %d, the question was wrong %d, later corrected %d  [%s, section %s]"
+            % (w["code"], w["name"], w["arcs"], w["first"], *w["outcomes"], WALLS_PAGE, w["code"]))
+
+
 def sweep(rx, rows, full=False, root=ROOT):
     pat = re.compile(rx, re.I); hits = []
     for r in rows:
@@ -135,11 +168,22 @@ def main(argv):
         assert [r["id"] for r in sweep_register(r"theta.?bar", reg)] == ["P-1"] and [r["id"] for r in sweep_register(r"painlev", reg)] == ["P-2"]
         assert sweep_register(r"zzzz-not-there", reg) == [] and sweep_register(r"zzzz-not-there", register()) == []
         assert len(register()) > 300 and all(r["id"].startswith("P-") for r in register()), "the register is read"
+        led = [dict(code="W1", name="the mirror pair not split", arcs=3, first="B7", outcomes=[1, 1, 1, 0, 0], words=["chiral", "the hand"]),
+               dict(code="W8", name="other", arcs=1, first="B9", outcomes=[1, 0, 0, 0, 0], words=[])]
+        assert [w["code"] for w in walls_matched(r"chiral", led)] == ["W1"] and [w["code"] for w in walls_matched(r"mirror", led)] == ["W1"]
+        assert walls_matched(r"zzzz-not-there", led) == [] and walls_matched(r"zzzz-not-there", walls() or []) == []
+        assert walls() is None or len(walls()) == 8, "the ledger's eight walls are read"
         print("selftest: PASS (a planted hit is found, a planted absence is empty, and the real record answers)"); return 0
     args = [a for a in argv if not a.startswith("--")]
     if not args: print(__doc__); return 2
     rx = args[0]; limit = int(argv[argv.index("--limit") + 1]) if "--limit" in argv else 40
     erx, used = (rx, []) if "--no-aliases" in argv else expand(rx)
+    ledger = walls()
+    if ledger is None:
+        print("  the ledger of walls (%s) is not on this checkout: no wall is printed" % WALLS_PAGE)
+    else:
+        for w in walls_matched(erx, ledger):
+            print(wall_line(w))
     rows = arcs(); hits = sweep(erx, rows, full="--full" in argv)
     by = collections.Counter(h["verdict"] or "no verdict file" for h in hits)
     for h in hits[-limit:]:

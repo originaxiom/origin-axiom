@@ -11,6 +11,8 @@ def check(names=("checks_open_leads.json", "checks_backlog_cloud.json", "checks_
             p = o["path"]
             if p not in cache:
                 fp = ROOT / p
+                if not fp.is_file() and p.startswith(("legacy/", "story/", "paths/", "speculations/", "philosophy/")):
+                    fp = ROOT / "docs" / "archive" / p          # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry); the quotes keep their paths as written
                 cache[p] = norm(fp.read_text(encoding="utf-8", errors="replace")) if fp.is_file() else None
             if cache[p] is None and p.startswith("audit/"):
                 continue      # the gitignored audit room (L185's evidence that its answer lives only there): main's tree only

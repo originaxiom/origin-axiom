@@ -50,7 +50,17 @@ def test_the_decisive_test_of_b469_reproduces_with_the_fix_live():
     pytest.importorskip("snappy")
     out = subprocess.run([sys.executable, str(V / "octic_test_fixed.py")], capture_output=True, text=True, timeout=600)
     lines = {l.split(" = ")[0]: l for l in out.stdout.splitlines() if " = " in l}
-    assert "kappa(a,c) = -2.00000000+0.00000000j" in lines["kappa(a,c)"]
+    # CHANGED 2026-11-12 (Review 80; main's word in its third folder for the builder, section 7).  It read
+    #     assert "kappa(a,c) = -2.00000000+0.00000000j" in lines["kappa(a,c)"]
+    # The imaginary part is zero and is printed with the sign its last operation left on it: "-0.00000000j" on another machine.
+    # The number is compared as a number: a zero without its sign, by the rule stated in scripts/checks/printed_numbers.py.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("printed_numbers_for_b1449", ROOT / "scripts" / "checks" / "printed_numbers.py")
+    printed = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(printed)
+    kappa = lines["kappa(a,c)"].split("  (")[0]
+    assert printed.same(kappa, "kappa(a,c) = -2.00000000+0.00000000j"), printed.differences(kappa, "kappa(a,c) = -2.00000000+0.00000000j")
+    assert not printed.same(kappa, "kappa(a,c) = +2.00000000+0.00000000j")
     for w in ("tr(ac)", "tr(aC)"):
         assert float(lines[w].split("|octic| = ")[1].split()[0]) < 1e-10, lines[w]
     assert float(lines["tr(a)"].split("|octic| = ")[1].split()[0]) > 1

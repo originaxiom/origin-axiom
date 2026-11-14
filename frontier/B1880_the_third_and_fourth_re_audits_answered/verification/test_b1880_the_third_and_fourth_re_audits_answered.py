@@ -152,3 +152,66 @@ def test_the_record_carries_the_harvest_and_the_arc():
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for s in ("## Seen first", "## Disclosed", "## Reproduce", "0 of 19", "eight hours late"):
         assert s in f
+
+
+# ---- ADDED 2026-11-12 (Review 80; a reader's check of main's answers, its row A13; main held the kept run's last line and did
+# not check the lock).  The docstrings of this arc's two scripts were corrected, and the lock read neither: either mend put
+# back passed.  And the kept run of the measuring script ends with the line of a run made with --write, with nothing to say
+# which run it is.
+def _what_the_two_scripts_do_not_say(measure, read_a):
+    import ast
+    out = []
+    flat = lambda source: " ".join((ast.get_docstring(ast.parse(source)) or "").split())
+    dm, dr = flat(measure), flat(read_a)
+    for s in ("measure and print; nothing is written anywhere",
+              "--keep-outputs # also write all_hash_lists.json and measure_all_hash_lists_run.txt in this folder",
+              "the line above named all_hash_lists_run.txt, a file this script has never written",
+              "--write, below, writes the frozen list alone: the folder's two outputs are written only with --keep-outputs",
+              "it said that the table is written at every run"):
+        if s not in dm:
+            out.append("the measuring script's docstring does not say: " + s)
+    for s in ("nine files are read, the seven of class A and the two of class B", "with --write the result is written beside this script"):
+        if s not in dr:
+            out.append("the reading script's docstring does not say: " + s)
+    # and each script does what its docstring says: every write of a file stands under the flag the docstring names for it
+    def writes(source):
+        got = []
+        def walk(node, guards):
+            for child in ast.iter_child_nodes(node):
+                under = guards + [ast.unparse(child.test)] if isinstance(child, ast.If) else guards
+                if isinstance(child, ast.Call) and isinstance(child.func, ast.Attribute) and child.func.attr == "write_text":
+                    got.append((ast.unparse(child.func.value), tuple(guards)))
+                walk(child, under)
+        walk(ast.parse(source), [])
+        return got
+    for target, guards in writes(measure):
+        want = "write" if "HASH_LISTS_FROZEN_FILE" in target else "'--keep-outputs' in sys.argv"
+        if want not in guards:
+            out.append("the measuring script writes %s outside the flag its docstring names" % target)
+    if len(writes(measure)) != 3:
+        out.append("the measuring script writes %d files, not three" % len(writes(measure)))
+    for target, guards in writes(read_a):
+        if "'--write' in sys.argv" not in guards:
+            out.append("the reading script writes %s outside --write" % target)
+    return out
+
+
+def test_the_two_scripts_say_what_they_write_and_the_kept_run_says_which_run_it_is():
+    measure = (HERE / "measure_all_hash_lists.py").read_text(encoding="utf-8")
+    read_a = (HERE / "read_class_a.py").read_text(encoding="utf-8")
+    assert _what_the_two_scripts_do_not_say(measure, read_a) == []
+    planted = {
+        "the measuring script's corrected bracket taken out": (measure[:measure.index("    [CORRECTED 2026-11-12 (Review 80;")] + measure[measure.index("    python3 -B measure_all_hash_lists.py --write"):], read_a),
+        "the measuring script said again to write at every run": (measure.replace("# measure and print; nothing is written anywhere", "# measure, print, and write the table"), read_a),
+        "the reading script's corrected bracket taken out": (measure, read_a.replace(read_a[read_a.index("[CORRECTED 2026-11-12 (Review 80;"):read_a.index("beside this script.]") + len("beside this script.]")], "")),
+        "the folder's outputs written at every run again": (measure.replace('    if "--keep-outputs" in sys.argv:\n        (HERE / "all_hash_lists.json")', '    if True:\n        (HERE / "all_hash_lists.json")'), read_a),
+        "the reading script made to write at every call": (measure, read_a.replace('    if "--write" in sys.argv:\n        (HERE / "read_class_a_run.txt")', '    if True:\n        (HERE / "read_class_a_run.txt")')),
+    }
+    for what, (m, r) in planted.items():
+        assert (m, r) != (measure, read_a), what
+        compile(m, "measure", "exec"); compile(r, "read", "exec")
+        assert _what_the_two_scripts_do_not_say(m, r), what
+    run = (HERE / "measure_all_hash_lists_run.txt").read_text(encoding="utf-8").rstrip("\n").split("\n")
+    assert run[-2] == "   written: scripts/gates/hash_lists_frozen.json"
+    assert run[-1].startswith("[NOTE 2026-11-12 (Review 80;") and "the line above is the line of a run made with --write" in run[-1]
+    assert sum(1 for l in run if l.startswith("[NOTE")) == 1

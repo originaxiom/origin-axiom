@@ -77,3 +77,4 @@
    ambiguous entries, declared by name in the gate and not frozen: 2
    sha256 of the table: 01621ae48200b20c3e50d8974844aa09fc0ee291ff050b24fcbbf57a42cd7bdc
    written: scripts/gates/hash_lists_frozen.json
+[NOTE 2026-11-12 (Review 80; a reader's check of main's answers, held by main): the line above is the line of a run made with --write. The run kept here was made with --write on the day the arc landed, when the script still wrote this file at every run (corrected 2026-11-12, Review 79). Since then this file is written only by a run made with --keep-outputs, and a run without --write ends before that line and writes nothing.]

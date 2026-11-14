@@ -110,6 +110,34 @@ def test_the_census_of_the_map_counts_what_it_says():
     assert int(m.group(1)) == len(back)
     sealed = (HERE / "line_or_loop_run.txt").read_text(encoding="utf-8")
     assert "BACK-EDGES (a result downstream that fixes, answers or selects an input upstream): 0" in sealed   # the dated statement of the arc
+    # 2026-11-12 (R80b, part 6; a reader's supplement on the arcs main changed at Review 80, its finding 12; not checked by
+    # main).  The kept run was read for that one line, and never held against a run made now.  Main made the kept run again
+    # when the map gained two nodes, and that change put back passed this lock.  It is compared with the live run, line for
+    # line.  What that costs: when the map changes, the script is run again and its output kept, as main did.
+    assert _how_the_kept_run_differs(out, sealed) == [], _how_the_kept_run_differs(out, sealed)
+
+
+def _how_the_kept_run_differs(live, kept):
+    """The numbers of the lines, counted from one, on which the kept run is not the live run."""
+    a, b = live.rstrip("\n").split("\n"), kept.rstrip("\n").split("\n")
+    return [i + 1 for i in range(max(len(a), len(b))) if (a[i] if i < len(a) else None) != (b[i] if i < len(b) else None)]
+
+
+def test_a_kept_run_that_is_not_the_live_run_is_reported():
+    kept = (HERE / "line_or_loop_run.txt").read_text(encoding="utf-8")
+    assert _how_the_kept_run_differs(kept, kept) == []
+    # the kept run as it stood before main made it again: its first line counted the map's nodes before two were added
+    first = kept.split("\n")[0]
+    m = re.match(r"the map: (\d+) nodes, ", first)
+    assert m
+    as_it_stood = kept.replace(first, first.replace("the map: %s nodes" % m.group(1), "the map: %d nodes" % (int(m.group(1)) - 2)), 1)
+    assert as_it_stood != kept and _how_the_kept_run_differs(kept, as_it_stood) == [1]
+    # a line dropped from the end, and a line added to it
+    lines = kept.rstrip("\n").split("\n")
+    assert _how_the_kept_run_differs(kept, "\n".join(lines[:-1]) + "\n") == [len(lines)]
+    assert _how_the_kept_run_differs(kept, kept + "one line more\n") == [len(lines) + 1]
+    # the twin: the same run with one more line break at its end is the same run
+    assert _how_the_kept_run_differs(kept, kept + "\n") == []
 
 
 def test_the_findings_say_what_was_and_was_not_done():

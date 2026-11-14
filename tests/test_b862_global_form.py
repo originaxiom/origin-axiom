@@ -31,6 +31,28 @@ def test_the_kernel_is_computed_from_the_map():
     assert len(other) == 1 and len(other) != len(ker)
 
 
+def test_a_grid_with_no_point_is_refused_and_not_answered_with_an_empty_kernel():
+    """Added 2026-11-12 (Review 80; a reader's finding F11, not checked by main, made again here).  kernel_exact(0), (-6) and
+    (-12) passed the guard on the grid's size, enumerated nothing and returned an empty kernel.  Each is refused now.  The
+    refusals that stood before, a grid that is not complete and two zero charges, still fire; a kernel is never empty."""
+    for grid in (0, -6, -12, -1):
+        try:
+            got = b2.kernel_exact(grid)
+        except ValueError as exc:
+            assert "has no point" in str(exc), grid
+        else:
+            raise AssertionError("a grid of %d was answered with a kernel of %d elements" % (grid, len(got)))
+    for grid, charges, says in ((5, (-2, 3), "is not complete"), (6, (0, 0), "both charges are zero")):
+        try:
+            b2.kernel_exact(grid, charges)
+        except ValueError as exc:
+            assert says in str(exc)
+        else:
+            raise AssertionError("not refused: %r" % ((grid, charges),))
+    for grid in (6, 12, 72):
+        assert any(all(x == 0 for x in g) for g in b2.kernel_exact(grid))        # the identity is always there
+
+
 def test_the_ambiguity_and_the_source_are_named():
     assert "1705.01853" in _F
     assert "ℤ₆" in (_D / "FINDINGS.md").read_text(encoding="utf-8")

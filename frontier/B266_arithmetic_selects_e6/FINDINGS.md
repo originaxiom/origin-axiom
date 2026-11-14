@@ -74,3 +74,5 @@ the two end-fields" is correct **only at the FIELD level**: the E₆ end is a ge
 figure-eight (its own trace field `ℚ(√−3)`, ramified prime 3); the E₈ end is `ℚ(√5)`'s ramified prime 5 — the
 *spherical companion's* field, **not** a surjection of `pi_1(4_1)`. The ends are arithmetically **asymmetric at the
 group level**. (b266_surjection_verdict.py + test; NOVELTY_AUDIT R6 addendum.)
+
+**[NOTED 2026-11-13 (the building session, at main's word in M29; the rule of 2026-11-12 before a selection or a hand is claimed, WORKING_RULES and B1905): this arc's verdict line claims a selection, in the words “The trace field's unique ramified prime canonically selects E6”. On the builder's reading (B1905's classification of the older verdict lines, class "neither") this page names neither the family the selection is made from, as a finite classification with a test of membership, nor a consistency condition; the rule asks that a claimed selection name its family. This reading WAITS ON MAIN'S CHECK of that classification's rows; the verdict, its numbers and the words above are unchanged.]**

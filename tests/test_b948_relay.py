@@ -12,7 +12,8 @@ def _norm(p):
 def test_the_rooms_stay_clean_of_the_dead_clause():
     """The clause never leaked into the rooms; it must not start now."""
     bad = ("beta=1 SSB", "β=1 SSB", "cooling through β=1", "cooling through beta=1")
-    for room in ("knowledge", "philosophy", "speculations", "story"):
+    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry); a room that is not there was skipped without a word, so the three moved rooms are read at their new place
+    for room in ("knowledge", "docs/archive/philosophy", "docs/archive/speculations", "docs/archive/story"):
         d = ROOT / room
         if not d.is_dir():
             continue

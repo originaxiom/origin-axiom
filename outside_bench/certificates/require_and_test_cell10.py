@@ -82,9 +82,10 @@ FAITHFUL = [
 ]
 
 # quotations the addenda attribute to OTHER files -- must be present there
+# 2026-11-13 (C14, patch 7): the main goal's dated paragraphs are archived byte for byte in docs/MAIN_GOAL_HISTORY.md
 ATTRIBUTED = [
-    ("docs/MAIN_GOAL.md", "|det(A−I)| ∈ {0: 882, 4: 494}"),
-    ("docs/MAIN_GOAL.md", "χ(Fix g) = 1 − s_μ(g) ∈ {0, 2}"),
+    ("docs/MAIN_GOAL_HISTORY.md", "|det(A−I)| ∈ {0: 882, 4: 494}"),
+    ("docs/MAIN_GOAL_HISTORY.md", "χ(Fix g) = 1 − s_μ(g) ∈ {0, 2}"),
     ("docs/GRAND_COMPUTATION_LEDGER.md", "must ride with the headline"),
     ("docs/THE_SM_VERDICT.md", "no SM number is produced"),
     ("frontier/B1323_the_genesis_upgrades/FINDINGS.md",
