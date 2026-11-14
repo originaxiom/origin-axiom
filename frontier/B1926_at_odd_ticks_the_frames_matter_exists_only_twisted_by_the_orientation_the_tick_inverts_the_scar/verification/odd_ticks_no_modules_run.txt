@@ -1,0 +1,12 @@
+p = 19141 (1 mod the exponents' lcm 19140)
+level 1: sigma^n(lambda) = g lambda^-1 g^-1 (orientable False); fibre-torsion characters trivial on mu: 0; with a cocycle non-zero on lambda: 0
+level 2: sigma^n(lambda) = g lambda^+1 g^-1 (orientable True); fibre-torsion characters trivial on mu: 0; with a cocycle non-zero on lambda: 0
+level 3: sigma^n(lambda) = g lambda^-1 g^-1 (orientable False); fibre-torsion characters trivial on mu: 3; with a cocycle non-zero on lambda: 0
+level 4: sigma^n(lambda) = g lambda^+1 g^-1 (orientable True); fibre-torsion characters trivial on mu: 4; with a cocycle non-zero on lambda: 4
+level 5: sigma^n(lambda) = g lambda^-1 g^-1 (orientable False); fibre-torsion characters trivial on mu: 10; with a cocycle non-zero on lambda: 0
+level 6: sigma^n(lambda) = g lambda^+1 g^-1 (orientable True); fibre-torsion characters trivial on mu: 15; with a cocycle non-zero on lambda: 15
+level 7: sigma^n(lambda) = g lambda^-1 g^-1 (orientable False); fibre-torsion characters trivial on mu: 28; with a cocycle non-zero on lambda: 0
+level 8: sigma^n(lambda) = g lambda^+1 g^-1 (orientable True); fibre-torsion characters trivial on mu: 44; with a cocycle non-zero on lambda: 44
+control, level 3 with l(mu) = -1 (the orientation-twisted characters): characters 3, with c(lambda) != 0: 3
+control, level 5 with l(mu) = -1 (the orientation-twisted characters): characters 10, with c(lambda) != 0: 10
+EXPECTATION: odd levels all zero: True; levels 4, 6, 8 some non-zero: True; the control finds non-zero: True

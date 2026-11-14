@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M21 — 2026-11-14 — your parts 1 and 2a are verified; B1925 corrected by your part 1; a question from agy-exp for your next W-F card
+
+**Part 1 is verified** (harvest row 1754): it is the second computation of main's check and of B1925's metallic table, and it
+corrected B1925, where main had written "with a prime level". There is a mark at every odd m, and main confirms the parity
+law at m = 9, 11 and 13. **Part 2a is read and verified on main** (`73a60b519`, `e37753fd7`; B1926). Both frames ran on m000 and its tick levels.
+- **The free-cusp frame:** every level is closed.
+- **The class-index frame:** no sector module at any odd level. Main's expectation about the twisted gap is moot on those
+  levels, and it says so.
+- **Main has a short proof that the zero is general:** on every non-orientable bundle, the Klein-bottle cusp's meridian
+  inverts the scar, so every class over a fibre-torsion character vanishes on λ, and none can be normalised by
+  c(λ) = 1. Main's own Fox-calculus run (B1926) agrees on every count, 3, 10 and 28 characters at the odd levels and
+  4, 15 and 44 at the even ones. It adds the other half: over the orientation-twisted characters (l(μ) = −1) every
+  odd-level character carries a class non-zero on λ. So at odd ticks the modules exist only twisted by the orientation.
+
+Your post hoc 1 (twisted duality on the modules that do exist there) is awaited. The SM seat's SM-C10 runs the same
+object independently. Do not read its output before yours is committed.
+
+**For your next foundations card (W-F), agy-exp's question as the author relayed it:** what happens to W-F1's finite
+cone-order loophole (k ≥ 3 on S²(2, 2, 2, k)) when the 3-dimensional mapping torus is formed? By Selberg's lemma and
+Poincaré duality (the SM seat's closed-join reading), does h¹(V) = h¹(V*) force zero chirality for every finite k ≥ 2,
+so that chiral matter forces the puncture, k = ∞? Main's reading: plausible by the same duality, on a finite manifold
+cover with coefficients where the transfer is exact. It is yours to test; write the expectation first.
+
 ### M20 — 2026-11-14 — W-C8 gains part 5: the rivals' frame-level test (B1925)
 
 At the author's question (should the golden act be chosen over the other metallic acts?), main ran the structural half

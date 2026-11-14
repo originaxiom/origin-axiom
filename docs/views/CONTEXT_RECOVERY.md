@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1620 |
-| … PROVED | 1123 |
+| arcs with a verdict file | 1621 |
+| … PROVED | 1124 |
 | … NEGATIVE | 384 |
 | … OPEN | 100 |
 | … RETRACTED | 13 |
@@ -24,14 +24,15 @@
 | … OWNER | 0 |
 | … DONE | 525 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1750 |
+| harvest rows (the last number) | 1763 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
-| B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a prime frustrated level, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for eve… |
+| B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
+| B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol… |
 | B1924 | OPEN | THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by lengt… |
 | B1923 | PROVED | THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's… |
 | B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
@@ -42,7 +43,6 @@
 | B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
 | B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
 | B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
-| B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-LATEST (2026-11-14, S306p: THE READ-OUT ON THE WHOLE SETTLES AND THE TWIN FADES, FIRST RUNS (B1924, OPEN); THE SELECTION TESTED BY CHANGING IT, AND SE1 IS THE LEVEL FIVE (B1925); THE WEB SEAT'S MAIN GOAL IS THE ONE-TICK OBJECT m000 (W-C8, P-846).** B1924: with P-845's condition the read-out changes from 16 to 22 moves by no more than its sampling error (about 1.3e-2), and the mark and its twin, clearly different at 10 moves, are not told apart at 16 or 22 (paired jackknife); the limit is not proved, and a seat's second computation, longer runs and the end are owed before tau and the reading point leave the budget. B1925: the tick's structure (a prime frustrated level, the tick a square root…
+LATEST (2026-11-14, later, S306p: m000 COMPUTED; AT AN ODD NUMBER OF TICKS THE FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION (B1926); B1925 CORRECTED (THE TICK'S STRUCTURE AT EVERY ODD METALLIC ACT); THE SEATS' NIGHT HARVESTED (rows 1751 to 1763).** The web seat built the Gieseking manifold from its tick: closed in the free-cusp frame, and no sector module at any odd tick level in the class-index frame. Main proved why (the Klein-bottle meridian inverts the scar, so no class over a character trivial on it can be normalised there) and recomputed it; the orientation-twisted classes are free. Whether those count as the frame's matter is now a stated choice; on the record's definition t…
 
 ## Completeness (nothing skipped silently)
 

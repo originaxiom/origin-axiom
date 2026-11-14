@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1620** |
-| words of findings prose | **1,441,732** |
+| research arcs with findings | **1621** |
+| words of findings prose | **1,443,358** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1620** (100.0 %) |
+| arcs carrying an authored verdict | **1621** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1123 |
+| PROVED | 1124 |
 | NEGATIVE | 384 |
 | OPEN | 100 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1925`** (1468 words, 0 locks)  
-THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a prime frustrated level, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for every odd metallic m with m^2 + 4 prime (1, 3, 5, 7) and fails for even m, so it does not single out the golden; what separates golden from bronze is the left-over (bronze: (Z/3)^2 in its root s464, Z/3 in its tick bundle m005). And SE1 is one condition with two readings: for a positive-trace hyperbolic act, torsion-free <=> tr = 3 <=> the frustrated level is 5 <=> (B997's bound) the level's group SL(2, Z/N) is no larger than 2I; the act's opposite -A exchanges the torsion order |2 - tr| with the level |2 + tr| (m004 against m003). Every selection rule on record picks the golden; SE1 stays POSTULATED. 0 of 19.  
-`B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/FINDINGS.md`
+**PROVED — `B1926`** (1298 words, 0 locks)  
+AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), the web seat's sealed W-C8 part 2a agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19.  
+`B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

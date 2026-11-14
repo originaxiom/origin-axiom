@@ -110,3 +110,20 @@ SL(2, ℤ/N) (standard).
 cd frontier/B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/verification
 python3 -B metallic_rivals.py && python3 -B selection_equivalence.py && python3 -m pytest -q .
 ```
+
+## Correction (2026-11-14, the same day): "with a prime level" is dropped
+
+The web seat's W-C8 part 1 (`f181d5f8d`; harvest row 1754), computed on its own code, finds a mark for **every odd m**
+to m = 12, including m = 9 (level 85) and m = 11 (level 125), whose levels are not prime. Main's table stopped at m = 7,
+where every odd level happens to be prime, and the qualifier "with a prime level" was read off that coincidence.
+- **The reason, proved:** for odd m, the gcd of the entries of G + I = [[m² + 2, m], [m, 2]] is 1. So the frustrated
+  points form one cyclic group of order N = m² + 4, and the tick acts on it by a square root of −1.
+- **On that line JK acts as the identity:** with mx ≡ −2y, the vector (JK − I)v = (−2x + my, 0) satisfies
+  m(−2x + my) = (m² + 4)y ≡ 0, and m is invertible mod N. So undoing acts by the tick's inverse.
+- **The parity law therefore holds at every odd m.** Main checked it directly at m = 9, 11 and 13, where 1 has more
+  square roots than ±1: it holds.
+
+So the tick's structure picks **every odd metallic act**, not "every odd m with m² + 4 prime". Nothing else on this page
+changes. The web seat's part 1 is this arc's independent second computation. **Also cited, missed at landing:** B469
+already had that every metallic bundle double-covers a non-orientable bundle (X_m² = A_m), the tick bundles of § 1's
+table.

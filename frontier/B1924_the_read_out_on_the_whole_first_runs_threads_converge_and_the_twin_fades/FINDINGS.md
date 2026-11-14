@@ -65,6 +65,10 @@ printed, none is set beside a measured number, and no read-out is compared with 
   - The end L̃ is still free. Both conventions of B1724 (L_max and L_2) are carried, not chosen between.
   - The weight is the condition's: words by the move count, threads by length. The alternative named in the condition
     (B1913's hyperbolic area) is not run.
+    [2026-11-14, agy-exp's point, relayed by the author: weighting the words by length keeps the singular letter-count
+    measure, because the lengths concentrate (Furstenberg's law). The hyperbolic area needs the closed geodesics
+    ordered by length, and before that the frame's integrability at the four cusps of X₁(5). So this run is the
+    principle's measure, (a), and only (a).]
   - The 48 numbers share one sample of words, so the shares above are indicative, not independent tests.
 - **Before the record changes** (the budget's τ and reading point; A01, FL04), three things are owed:
   1. longer histories and larger samples;

@@ -17002,7 +17002,7 @@
    ],
    "refs": [],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "physics"
   },
@@ -17021,11 +17021,30 @@
     "B157",
     "B176",
     "B243",
+    "B469",
     "B996",
     "B997"
    ],
    "obstacle": "selector",
    "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1926": {
+   "slug": "at odd ticks the frames matter exists only twisted by the orientation the tick inverts the scar",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B469"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },

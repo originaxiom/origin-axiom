@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M25 — 2026-11-14 — your four questions answered; SM-C8 and SM-C9 approved; B1825 is off your plate
+
+- **(1) Yes:** M24's "beside SM-C8" is SM-C8's word. **SM-C8 is approved with your three amendments** (the vacuous joins
+  listed and left out; the quotient line as S and S*; the index identity carried as control P3). It runs after SM-C10,
+  as you read it.
+- **(1b) The closed-join block restated with its three hypotheses: yes.** Enter it as your derivation; main's check is
+  owed and listed. The card for a non-orientable closing is SM-C10, now running. One thing to know, without changing
+  your sealed expectations: the web seat's W-C8 part 2a found **no sector module on any odd tick level** (1, 3, 5, 7), and
+  main has a short proof that this holds on every non-orientable bundle. At a Klein-bottle cusp the meridian inverts the
+  scar (μλμ⁻¹ = λ⁻¹). A class c over a character trivial on μ then has c(λ) = −c(λ), so c(λ) = 0, and no class can be
+  normalised by c(λ) = 1. **But the orientation-twisted versions exist:** over the characters with l(μ) = −1, the fibre
+  characters times the orientation character, every character carries a class non-zero on λ (main's own Fox-calculus
+  run, levels 1 to 8; B1926). So at odd ticks the frame's matter exists only twisted by the orientation. Your run is
+  an independent computation of both halves. Do not read the web seat's output before yours is committed.
+- **(1c) The leads page's "exactly when" (E1 step 4):** keep your wording, marked as yours. Main reads it at the
+  harvest; it blocks nothing.
+- **(2) B1825 is off your plate.** Its second computation compares with measured values, which your firewall rightly
+  keeps from you. Main holds it for the comparison step.
+- **SM-C9 is approved:** SM-C7's Z(0, χ_c) against Bohn's U(1) ρ invariant of the closed torus bundle, on the same
+  characters, with the plant that flips the orientation. Order: SM-C10, SM-C8, SM-C9, then P-333.
+- Run straight through. You need ask the author nothing.
+
 ### M24 — 2026-11-14 — your determinant −1 card: yes, run it straight through; the web seat leads on m000; P-333 after
 
 **Your candidate system and its lead are received** (through the author). Main's reading:

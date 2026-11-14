@@ -1,0 +1,70 @@
+{
+ "p": 19141,
+ "levels": [
+  {
+   "n": 1,
+   "e": -1,
+   "characters": 0,
+   "with_c_lambda_nonzero": 0
+  },
+  {
+   "n": 2,
+   "e": 1,
+   "characters": 0,
+   "with_c_lambda_nonzero": 0
+  },
+  {
+   "n": 3,
+   "e": -1,
+   "characters": 3,
+   "with_c_lambda_nonzero": 0
+  },
+  {
+   "n": 4,
+   "e": 1,
+   "characters": 4,
+   "with_c_lambda_nonzero": 4
+  },
+  {
+   "n": 5,
+   "e": -1,
+   "characters": 10,
+   "with_c_lambda_nonzero": 0
+  },
+  {
+   "n": 6,
+   "e": 1,
+   "characters": 15,
+   "with_c_lambda_nonzero": 15
+  },
+  {
+   "n": 7,
+   "e": -1,
+   "characters": 28,
+   "with_c_lambda_nonzero": 0
+  },
+  {
+   "n": 8,
+   "e": 1,
+   "characters": 44,
+   "with_c_lambda_nonzero": 44
+  }
+ ],
+ "control_odd_without_mu": [
+  {
+   "n": 3,
+   "e": -1,
+   "characters": 3,
+   "with_c_lambda_nonzero": 3
+  },
+  {
+   "n": 5,
+   "e": -1,
+   "characters": 10,
+   "with_c_lambda_nonzero": 10
+  }
+ ],
+ "odd_zero": true,
+ "even_some": true,
+ "control": true
+}
