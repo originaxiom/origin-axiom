@@ -1,0 +1,70 @@
+=== AGY-002 STANDALONE SECOND COMPUTATION: B1924 WHOLE-WEAVE READ-OUT (M23 + M25) ===
+Fixed coordinate ends L_coord = L + (1/2) log Im(tau): [0.9, 1.3, 2.2]
+
+[1/4] Verifying geodesic periodicity, quadrature convergence, and planted controls...
+  allowed_word_periodicity_max_err: 9.769962616701378e-15
+  quadrature_256_vs_512_mass_ratio_max_diff: 2.0168617539950695e-08
+  quadrature_256_vs_512_ckm_max_diff: 0.000164623412519882
+  CTL_B1924_2_non_allowed_RL_period_break: 0.8332927770513935
+  CTL_B1924_2_caught: True
+  CTL_B1924_3_bare_L_period_break: 0.059448619158226156
+  CTL_B1924_3_caught: True
+
+[2/4] Running n = 10 exhaustive census (all 1,024 words in {L, R}^10)...
+  n = 10: allowed total = 97/1024 (0.09473), parabolic = 2, hyperbolic = 95
+
+[3/4] Running n = 16 exhaustive stabiliser census (65,536 words) + 200-word paired read-out...
+  n = 16: allowed total = 5453/65536 (0.08321, 1/12 = 0.08333), parabolic = 0, hyperbolic = 5453
+
+[4/4] Running n = 22 uniform draw of 200 allowed hyperbolic words from {L, R}^22...
+  n = 22: drew 200 unique allowed hyperbolic words in 2877 uniform trials (empirical hit rate = 0.06952)
+
+=== SUMMARY ACROSS L_coord IN {0.90, 1.30, 2.20} AND n IN {10, 16, 22} ===
+
+--- Coordinate End L_coord = 0.90 (L_tilde = -0.8219) ---
+  n = 10: max |mark - twin| = 0.00002 (max paired |z| = 0.00)
+  n = 16: max |mark - twin| = 0.01874 (max paired |z| = 1.56)
+  n = 22: max |mark - twin| = 0.02028 (max paired |z| = 2.90)
+    S_mc_mt     : n=10 mark=0.35626 diff=+0.00000 | n=16 mark=0.35162+-0.00466 diff=+0.00084+-0.00422 | n=22 mark=0.34568+-0.00453 diff=+0.00185+-0.00383
+    S_ms_mb     : n=10 mark=0.35126 diff=-0.00000 | n=16 mark=0.34642+-0.00461 diff=+0.00000+-0.00000 | n=22 mark=0.33847+-0.00437 diff=+0.00000+-0.00000
+    S_mmu_mtau  : n=10 mark=0.35126 diff=-0.00000 | n=16 mark=0.34642+-0.00461 diff=-0.00000+-0.00000 | n=22 mark=0.33847+-0.00437 diff=-0.00000+-0.00000
+    St_mc_mt    : n=10 mark=0.33843 diff=-0.00000 | n=16 mark=0.33669+-0.00494 diff=+0.00003+-0.00320 | n=22 mark=0.33035+-0.00400 diff=-0.00451+-0.00268
+    St_ms_mb    : n=10 mark=0.35628 diff=+0.00000 | n=16 mark=0.35315+-0.00488 diff=+0.00000+-0.00000 | n=22 mark=0.34748+-0.00414 diff=+0.00000+-0.00000
+    St_mmu_mtau : n=10 mark=0.35628 diff=-0.00000 | n=16 mark=0.35315+-0.00488 diff=+0.00000+-0.00000 | n=22 mark=0.34748+-0.00414 diff=-0.00000+-0.00000
+    CKM_S_Vus   : n=10 mark=0.52518 diff=-0.00000 | n=16 mark=0.50967+-0.00604 diff=-0.01648+-0.01055 | n=22 mark=0.50580+-0.00569 diff=-0.01196+-0.00954
+    CKM_S_Vcb   : n=10 mark=0.52218 diff=-0.00001 | n=16 mark=0.51893+-0.00466 diff=-0.00736+-0.00498 | n=22 mark=0.52617+-0.00415 diff=-0.00559+-0.00433
+    CKM_St_Vus  : n=10 mark=0.57324 diff=+0.00000 | n=16 mark=0.56435+-0.00649 diff=+0.00217+-0.00870 | n=22 mark=0.56141+-0.00594 diff=+0.01876+-0.00739
+    CKM_St_Vcb  : n=10 mark=0.49401 diff=+0.00002 | n=16 mark=0.48824+-0.00681 diff=+0.00017+-0.00909 | n=22 mark=0.48885+-0.00605 diff=+0.01450+-0.00794
+
+--- Coordinate End L_coord = 1.30 (L_tilde = -0.4219) ---
+  n = 10: max |mark - twin| = 0.00002 (max paired |z| = 0.01)
+  n = 16: max |mark - twin| = 0.01874 (max paired |z| = 1.55)
+  n = 22: max |mark - twin| = 0.02025 (max paired |z| = 2.97)
+    S_mc_mt     : n=10 mark=0.35547 diff=+0.00000 | n=16 mark=0.35094+-0.00466 diff=+0.00084+-0.00421 | n=22 mark=0.34502+-0.00452 diff=+0.00189+-0.00382
+    S_ms_mb     : n=10 mark=0.35103 diff=+0.00000 | n=16 mark=0.34609+-0.00462 diff=+0.00000+-0.00000 | n=22 mark=0.33811+-0.00438 diff=+0.00000+-0.00000
+    S_mmu_mtau  : n=10 mark=0.35103 diff=+0.00000 | n=16 mark=0.34609+-0.00462 diff=-0.00000+-0.00000 | n=22 mark=0.33811+-0.00438 diff=-0.00000+-0.00000
+    St_mc_mt    : n=10 mark=0.33831 diff=-0.00000 | n=16 mark=0.33669+-0.00495 diff=+0.00011+-0.00319 | n=22 mark=0.33037+-0.00401 diff=-0.00439+-0.00268
+    St_ms_mb    : n=10 mark=0.35537 diff=+0.00000 | n=16 mark=0.35211+-0.00488 diff=+0.00000+-0.00000 | n=22 mark=0.34644+-0.00414 diff=+0.00000+-0.00000
+    St_mmu_mtau : n=10 mark=0.35537 diff=+0.00000 | n=16 mark=0.35211+-0.00488 diff=-0.00000+-0.00000 | n=22 mark=0.34644+-0.00414 diff=-0.00000+-0.00000
+    CKM_S_Vus   : n=10 mark=0.52623 diff=-0.00000 | n=16 mark=0.51142+-0.00590 diff=-0.01596+-0.01030 | n=22 mark=0.50750+-0.00557 diff=-0.01126+-0.00932
+    CKM_S_Vcb   : n=10 mark=0.52238 diff=-0.00002 | n=16 mark=0.51918+-0.00458 diff=-0.00690+-0.00466 | n=22 mark=0.52644+-0.00408 diff=-0.00539+-0.00405
+    CKM_St_Vus  : n=10 mark=0.57972 diff=+0.00001 | n=16 mark=0.57134+-0.00654 diff=+0.00251+-0.00884 | n=22 mark=0.56849+-0.00596 diff=+0.01951+-0.00751
+    CKM_St_Vcb  : n=10 mark=0.49213 diff=+0.00002 | n=16 mark=0.48647+-0.00681 diff=+0.00051+-0.00921 | n=22 mark=0.48708+-0.00604 diff=+0.01438+-0.00804
+
+--- Coordinate End L_coord = 2.20 (L_tilde = +0.4781) ---
+  n = 10: max |mark - twin| = 0.00004 (max paired |z| = 0.01)
+  n = 16: max |mark - twin| = 0.01876 (max paired |z| = 1.53)
+  n = 22: max |mark - twin| = 0.02069 (max paired |z| = 3.13)
+    S_mc_mt     : n=10 mark=0.35435 diff=+0.00000 | n=16 mark=0.34998+-0.00467 diff=+0.00084+-0.00420 | n=22 mark=0.34410+-0.00452 diff=+0.00194+-0.00380
+    S_ms_mb     : n=10 mark=0.35094 diff=+0.00000 | n=16 mark=0.34581+-0.00463 diff=+0.00000+-0.00000 | n=22 mark=0.33779+-0.00441 diff=+0.00000+-0.00000
+    S_mmu_mtau  : n=10 mark=0.35094 diff=-0.00000 | n=16 mark=0.34581+-0.00463 diff=-0.00000+-0.00000 | n=22 mark=0.33779+-0.00441 diff=-0.00000+-0.00000
+    St_mc_mt    : n=10 mark=0.33824 diff=-0.00000 | n=16 mark=0.33682+-0.00497 diff=+0.00022+-0.00318 | n=22 mark=0.33051+-0.00404 diff=-0.00422+-0.00267
+    St_ms_mb    : n=10 mark=0.35413 diff=-0.00000 | n=16 mark=0.35067+-0.00489 diff=-0.00000+-0.00000 | n=22 mark=0.34497+-0.00415 diff=+0.00000+-0.00000
+    St_mmu_mtau : n=10 mark=0.35413 diff=-0.00000 | n=16 mark=0.35067+-0.00489 diff=-0.00000+-0.00000 | n=22 mark=0.34497+-0.00415 diff=-0.00000+-0.00000
+    CKM_S_Vus   : n=10 mark=0.52837 diff=+0.00001 | n=16 mark=0.51436+-0.00569 diff=-0.01512+-0.00992 | n=22 mark=0.51024+-0.00538 diff=-0.01010+-0.00901
+    CKM_S_Vcb   : n=10 mark=0.52223 diff=-0.00004 | n=16 mark=0.51931+-0.00445 diff=-0.00614+-0.00415 | n=22 mark=0.52642+-0.00398 diff=-0.00510+-0.00360
+    CKM_St_Vus  : n=10 mark=0.59017 diff=+0.00002 | n=16 mark=0.58229+-0.00662 diff=+0.00316+-0.00905 | n=22 mark=0.57980+-0.00599 diff=+0.02069+-0.00769
+    CKM_St_Vcb  : n=10 mark=0.48852 diff=-0.00000 | n=16 mark=0.48341+-0.00680 diff=+0.00109+-0.00943 | n=22 mark=0.48375+-0.00603 diff=+0.01411+-0.00823
+
+Wrote /Users/dri/.gemini/antigravity/scratch/origin-axiom-stage3-branch/relays/a2_b1924/verify_b1924_results.json in 385.98s.
+0 of 19.
