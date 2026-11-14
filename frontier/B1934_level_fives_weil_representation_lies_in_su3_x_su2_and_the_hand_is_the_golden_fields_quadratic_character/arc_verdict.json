@@ -1,0 +1,30 @@
+{
+ "id": "B1934",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B355",
+  "B1856",
+  "B1923",
+  "B1925",
+  "B1728",
+  "B1742"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-F16 (harvest row 1804): the hand law to m = 41, here restated as a Legendre symbol"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the level-5 Weil representation of SL(2, F5) (B355); the tick and the undoing at the mark (B1925); the frame's charges (B1656)",
+  "object": "the representation's split, the hand law, and the lepton-down identity's condition",
+  "reach": "class",
+  "hypotheses": "exact; computed once by main; both Weil classes; N to 60 for the third claim, with its divisibility proof"
+ },
+ "claim_one_line": "LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split invariantly as an even icosahedral triplet (real, golden traces, in SO(3)) and the odd spinor doublet (in SU(2)), determinant 1 on each; the hand (-1)^(n+e) of +-J^n K^e is the Legendre symbol mod 5 of its eigenvalue at the mark, the quadratic character of Q(sqrt 5), on all 32 elements; with the frame's charges the lepton pair is the down pair transposed modulo N exactly when N divides 5 (hypercharge mod 5 is SU(5)'s centre), so the leptons separate only through a line or level with another prime (consolidating B1728, P-355, P-384). No value computed. 0 of 19.",
+ "weave_or_thread": "neither (structure of the level)"
+}

@@ -1,0 +1,15 @@
+W- up r2    interpolation bias on the read-out +6.88e-04 +- 2.4e-04
+W- up r1    interpolation bias on the read-out +1.85e-03 +- 5.2e-04
+W- down r2  interpolation bias on the read-out +1.38e-03 +- 1.3e-04
+W- down r1  interpolation bias on the read-out +1.78e-03 +- 4.6e-04
+W- V12      interpolation bias on the read-out -1.16e-04 +- 4.9e-04
+W- V23      interpolation bias on the read-out -8.75e-04 +- 5.5e-04
+W- V13      interpolation bias on the read-out +1.23e-03 +- 2.0e-03
+W+ up r2    interpolation bias on the read-out +1.08e-03 +- 1.7e-04
+W+ up r1    interpolation bias on the read-out +1.74e-03 +- 3.4e-04
+W+ down r2  interpolation bias on the read-out +1.36e-03 +- 1.4e-04
+W+ down r1  interpolation bias on the read-out +2.12e-03 +- 3.8e-04
+W+ V12      interpolation bias on the read-out +1.03e-03 +- 3.1e-04
+W+ V23      interpolation bias on the read-out +3.84e-04 +- 6.2e-04
+W+ V13      interpolation bias on the read-out -4.61e-03 +- 2.5e-03
+nodes drawn: 300 of 948575; largest |bias| 4.61e-03

@@ -1,0 +1,2 @@
+interpolation |d ln| over 10 random points: median per output [0.0078, 0.0244, 0.0136, 0.0028, 0.0036, 0.0015, 0.0043, 0.0165, 0.0096, 0.0176, 0.0281, 0.0013, 0.0015, 0.0063]
+largest: 9.21e-02  (ratios: 8.02e-02, mixing moduli: 9.21e-02)

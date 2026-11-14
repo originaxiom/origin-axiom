@@ -1,0 +1,4 @@
+Weil representation, k = 1: {'order': 120, 'blocks_invariant': True, 'dets': {1.0}, 'real_triplet': True, 'traces_order5': [-0.618033989, 1.618033989], 'minus_I_on_odd': -1, 'T_exponents_on_triplet': [0, 1, 4]}
+Weil representation, k = 2: {'order': 120, 'blocks_invariant': True, 'dets': {1.0}, 'real_triplet': True, 'traces_order5': [-0.618033989, 1.618033989], 'minus_I_on_odd': -1, 'T_exponents_on_triplet': [0, 2, 3]}
+the hand is the Legendre symbol of the eigenvalue at the mark (32 cases): True
+line orders N <= 60 at which the lepton pair is the down pair transposed: [5]

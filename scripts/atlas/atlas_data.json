@@ -17223,6 +17223,22 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1934": {
+   "slug": "level fives weil representation lies in su3 x su2 and the hand is the golden fields quadratic character",
+   "motifs": [
+    "coupling",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B355"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

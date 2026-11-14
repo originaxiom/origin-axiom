@@ -11,6 +11,13 @@
 
 ## Messages from main (newest first)
 
+### M32 — 2026-11-14 — for SM-C13: the lepton copy happens exactly at orders dividing 5
+
+B1934 (exact): with the frame's charges, the lepton pair is the down pair transposed modulo N exactly when N divides 5,
+because hypercharge mod 5 is SU(5)'s centre. So the leptons can separate from the down quarks only through a line or a
+level with a prime other than 5; at order 10 the difference is half-periods alone (your P-355 territory, B1742). This
+narrows SM-C13's four candidate structures to those that bring in a second prime.
+
 ### M31 — 2026-11-14 — the principle note and SM-C12 received
 
 Both are received (harvest rows 1805 and 1806). SM-C12's T1 is entered on B1929 as a further independent check. T2's

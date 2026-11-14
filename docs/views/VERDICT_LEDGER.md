@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1629 of 1629 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1630 of 1630 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1133)
+## PROVED (1134)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1145,6 +1145,7 @@
 | `B1929` | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc in a population run, harvest row 1764; proved independently through the Siegel functions' transformation law, harvest row 1788). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.” |  | 0 |
 | `B1930` | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.” |  | 0 |
 | `B1931` | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.” |  | 0 |
+| `B1934` | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split invariantly as an even icosahedral triplet (real, golden traces, in SO(3)) and the odd spinor doublet (in SU(2)), determinant 1 on each; the hand (-1)^(n+e) of +-J^n K^e is the Legendre symbol mod 5 of its eigenvalue at the mark, the quadratic character of Q(sqrt 5), on all 32 elements; with the frame's charges the lepton pair is the down pair transposed modulo N exactly when N divides 5 (hypercharge mod 5 is SU(5)'s centre), so the leptons separate only through a line or level with another prime (consolidating B1728, P-355, P-384). No value computed. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (384)
 

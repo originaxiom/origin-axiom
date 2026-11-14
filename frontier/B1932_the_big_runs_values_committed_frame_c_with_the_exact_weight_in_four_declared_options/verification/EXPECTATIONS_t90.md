@@ -18,3 +18,17 @@ D (the scar duality) acts on the fibre frame by flipping every matter charge wit
 canonical ends. SYMMETRY if max |log ratio| < 1e-9; NOT A SYMMETRY if > 1e-3 (then one bit of the second block is a genuine
 input in frame C, H3's rows 2 or 4). Control: world 1 at (a, b) against world 1 at (-a, -b) must agree (matter's parity).
 ## Result: NOT A SYMMETRY. World 1 at (a, b) against world 2 at (-a, -b): 3.06 in log; control (matter's parity) 6.0e-14.
+
+# The interpolation's bias on the read-out (main, 2026-11-14 night), expectations before the run
+Pointwise, the exact-weight grid's linear interpolation is off by 0.1-2.8 % in median and up to 9 % in ln
+(interpolation_check_run.txt; B1928's P1 figures were absolute differences). The read-out averages F-bar over thread
+nodes, so what matters is the bias of that average. Computed: 300 nodes drawn uniformly from the 3000 words' threads
+(uniform over nodes is the measure, nodes being proportional to length), F-bar directly at each, against its
+interpolation; the bias is mean(interpolated - direct)/mean(direct) per output, with its standard error.
+NEGLIGIBLE if every |bias| < 1e-2 (a tenth of the comparison's allowance) within two errors; MATERIAL otherwise (then a
+finer grid before the run, and the values file is replaced with a new seal, both kept).
+## Result (~23:30, interpolation_bias_run.txt): NEGLIGIBLE. On 300 nodes drawn from the 948 575 of the read-out's threads,
+the interpolation's bias on every averaged output is at most 4.6e-3 in relative size (most about 1e-3), each within two
+errors of zero or of 1e-3; pointwise errors up to 9 % (interpolation_check_run.txt) average out along the threads. The
+values' error budget is therefore: sampling about 1e-3, interpolation bias at most 5e-3, the area measure's end bracket at
+most 5.4e-3, the weight's form about 1e-5 — all far inside the comparison's 10 % allowance.

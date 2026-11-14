@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1629 |
-| … PROVED | 1133 |
+| arcs with a verdict file | 1630 |
+| … PROVED | 1134 |
 | … NEGATIVE | 384 |
 | … OPEN | 99 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 | B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
 | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
@@ -42,7 +43,6 @@
 | B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
 | B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
 | B1922 | PROVED | “THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the…” |
-| B1921 | PROVED | “THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 

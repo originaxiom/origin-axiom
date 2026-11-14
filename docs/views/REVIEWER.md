@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1629** |
-| words of findings prose | **1,459,611** |
+| research arcs with findings | **1630** |
+| words of findings prose | **1,460,415** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1629** (100.0 %) |
+| arcs carrying an authored verdict | **1630** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1133 |
+| PROVED | 1134 |
 | NEGATIVE | 384 |
 | OPEN | 99 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1931`** (645 words, 0 locks)  
-“REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.”  
-`B1931_review_82_entered_both_readers_caught_every_plant_they_could_reach/FINDINGS.md`
+**PROVED — `B1934`** (804 words, 0 locks)  
+“LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split invariantly as an even icosahedral triplet (real, golden traces, in SO(3)) and the odd spinor doublet (in SU(2)), determinant 1 on each; the hand (-1)^(n+e) of +-J^n K^e is the Legendre symbol mod 5 of its eigenvalue at the mark, the quadratic character of Q(sqrt 5), on all 32 elements; with the frame's charges the lepton pair is the down pair transposed modulo N exactly when N divides 5 (hypercharge mod 5 is SU(5)'s centre), so the leptons separate only through a line or level with another prime (consolidating B1728, P-355, P-384). No value computed. 0 of 19.”  
+`B1934_level_fives_weil_representation_lies_in_su3_x_su2_and_the_hand_is_the_golden_fields_quadratic_character/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  
