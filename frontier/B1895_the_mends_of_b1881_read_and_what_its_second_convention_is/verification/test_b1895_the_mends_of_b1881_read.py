@@ -231,11 +231,14 @@ _WITHIN = 400      # characters after the old words, in one text of a verdict fi
 
 
 def _texts_of(value):
-    """every text a json value holds, at any depth"""
+    """every text a json value holds, at any depth.  CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 2, not
+    checked by main, made again first): the keys of an object are texts too; they were not read, so the old words in a key
+    passed."""
     if isinstance(value, str):
         yield value
     elif isinstance(value, dict):
-        for v in value.values():
+        for k, v in value.items():
+            yield str(k)
             yield from _texts_of(v)
     elif isinstance(value, (list, tuple)):
         for v in value:
@@ -396,4 +399,14 @@ def test_one_correction_excuses_only_the_words_it_follows():
     # the verdict files this arc names are still read as they were
     for f in ("frontier/B1881_the_whole_and_the_value_verified/arc_verdict.json",):
         assert _uncorrected(f, (ROOT / f).read_text(encoding="utf-8")) == (0, 1)
+
+
+def test_the_keys_of_a_verdict_file_are_read():
+    """ADDED 2026-11-13 (C16; a finding of a cold reader on R80b's part 2, not checked by main, made again first): the old
+    words in a key of a verdict file were not read.  The plant passed before this mend and is reported after it."""
+    o1, mark = _OLDS[0], _MARKS[0]
+    name = "frontier/B9_x/arc_verdict.json"
+    assert _uncorrected(name, json.dumps({o1: "a value"})) == (1, 1)              # it was (0, 0)
+    assert _uncorrected(name, json.dumps({o1 + " [" + mark + "]": "a value"})) == (0, 1)      # the twin
+    assert _uncorrected(name, json.dumps({"a key": {"a deeper key": [o1]}})) == (1, 1)      # values at any depth, as before
 
