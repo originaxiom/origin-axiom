@@ -40,3 +40,7 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
 Two-seat: cc2 proposed the door (next-stage 2, on m003); cc computed + verified. Credit cc2. The
 object-level observer thread (as corrected by B734): m004 the knot IS congruence at level (2)^3=(8); the
 sister m003 does (A₅ at level 2), and the observer's swap is Out(A₅) there (B732). Nothing to CLAIMS.
+[CORRECTED 2026-11-12 (Review 80; a reader's finding, not checked by main, made again on this page): the sentence
+above gives the knot's congruence level as (2)^3=(8) with no correction beside it. The congruence level is (4): the
+correction of 2026-11-11 stands under "Honest bounds", beside this page's other note of that level, and was not
+placed here. The sentence stays as it was written.]
