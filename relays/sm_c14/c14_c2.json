@@ -1,0 +1,22 @@
+{
+ "tr mu (normalised)": "2",
+ "tr lam": "-2",
+ "mu, lam commute": true,
+ "translation ratio lam/mu": [
+  0.0,
+  3.4641016151377544
+ ],
+ "reduced": [
+  0.0,
+  3.4641016151377544
+ ],
+ "SnapPy m004 shape": [
+  -1.1102230246251571e-15,
+  3.464101615137756
+ ],
+ "SnapPy reduced": [
+  -1.1102230246251571e-15,
+  3.464101615137756
+ ],
+ "C2 holds": true
+}
