@@ -1,0 +1,27 @@
+=== AGY-002 STANDALONE THIRD DERIVATION: A2-TICK (B1926 FROM STATEMENT ALONE) ===
+[1/5] Verified boundary gauge:
+  sigma_geom(a)=ba, sigma_geom(b)=a -> sigma_geom([a,b]) == [a,b]^(-1) on the nose (mu = t)
+  sigma_alg(a)=ab,  sigma_alg(b)=a  -> sigma_alg([a,b])  == a [a,b]^(-1) a^(-1) (mu = a^(-1) t != t)
+
+[2/5] Evaluating Claim 1 (chi(mu)=+1), Claim 2 (chi(mu)=-1), and Claim 3 (pullback to double cover)...
+  tick_n1_J1    : |tr|= 1, total inv chars= 1 (non-trivial= 0) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+  tick_n3_J3    : |tr|= 4, total inv chars= 4 (non-trivial= 3) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+  tick_n5_J5    : |tr|=11, total inv chars=11 (non-trivial=10) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+  tick_n7_J7    : |tr|=29, total inv chars=29 (non-trivial=28) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+  level3_psi3   : |tr|= 3, total inv chars= 3 (non-trivial= 2) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+  level5_psi5   : |tr|= 5, total inv chars= 5 (non-trivial= 4) -> Claim1 all 0? True, Claim2 non-triv free/!=0? True, Claim3 pullback iso/!=0? True
+
+[3/5] Verifying Edge-Case Qualifications on Claim 2 (integral vs complex cohomology)...
+  Edge Case 2a (trivial fibre v=(0,0), chi=omega): dim_K H^1 = 0, H^1(Z) = {'free_rank': 0, 'torsion_invariants': [2]}, scar_nonzero = False
+  Edge Case 2b (J^3 order-2 fibre v=(0,1/2), chi_-): dim_K H^1 = 1, H^1(Z) = {'free_rank': 1, 'torsion_invariants': [2]}, scar_nonzero = True
+  Odd-order cyclotomic torsion-freeness check (d=3, 5, 11, 29): {'d=3': {'norm_zeta_minus_1': 3, 'gcd_with_2': 1, 'unit_ideal_torsion_free_over_Z_zeta_d': True}, 'd=5': {'norm_zeta_minus_1': 5, 'gcd_with_2': 1, 'unit_ideal_torsion_free_over_Z_zeta_d': True}, 'd=11': {'norm_zeta_minus_1': 11, 'gcd_with_2': 1, 'unit_ideal_torsion_free_over_Z_zeta_d': True}, 'd=29': {'norm_zeta_minus_1': 29, 'gcd_with_2': 1, 'unit_ideal_torsion_free_over_Z_zeta_d': True}}
+
+[4/5] Congruence doubling check: J^3 == I_2 (mod 2): True, J^6 == I_2 (mod 4): True
+
+[5/5] Running Three Adversarial Planted Controls (CTL-TICK-1..3)...
+  CTL-TICK-1 (naive HNN letter t != meridian mu produces non-zero scar at chi(t)=+1): True
+  CTL-TICK-2 (trivial fibre chi=omega caught with c([a,b])=0 and pure 2-torsion):    True
+  CTL-TICK-3 (orientation-preserving det=+1 control has c([a,b])!=0 at chi(mu)=+1):  True
+
+Wrote relays/a2_tick/derive_a2_tick_results.json in 20.20s.
+0 of 19.
