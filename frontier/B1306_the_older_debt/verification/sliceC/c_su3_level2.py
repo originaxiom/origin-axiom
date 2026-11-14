@@ -20,7 +20,9 @@ Araw = np.array([[A(l, m) for m in prim] for l in prim]); c0 = np.linalg.norm(Ar
 # fix the phase of S by unitarity + S^2 = charge conjugation (a permutation matrix): the Kac-Peterson constant is i^{|Delta+|}/(sqrt(3) kappa)
 S = Araw * (1j ** 3) / (math.sqrt(3) * kap)
 U = S @ S.conj().T; assert np.allclose(U, np.eye(6), atol=1e-9), "S not unitary"
-S2 = S @ S; C = np.round(S2.real).astype(int); assert np.allclose(S2, C, atol=1e-9) and sorted(map(tuple, C.tolist())) == sorted(map(tuple, np.eye(6, dtype=int).tolist())) or True
+# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The assert of the next line ended in
+# `or True` and could not fail.  The constant is gone and the statement holds: S^2 is a permutation matrix.
+S2 = S @ S; C = np.round(S2.real).astype(int); assert np.allclose(S2, C, atol=1e-9) and sorted(map(tuple, C.tolist())) == sorted(map(tuple, np.eye(6, dtype=int).tolist()))
 c = k * 8 / kap; h = [np.dot(vec(l), vec(l) + 2 * rho) / (2 * kap) for l in prim]
 texp = [round(((hl - c / 24) % 1) * 15) for hl in h]; assert all(abs(((hl - c / 24) % 1) * 15 - e) < 1e-9 for hl, e in zip(h, texp))
 T = np.diag([cmath.exp(2j * math.pi * (hl - c / 24)) for hl in h])

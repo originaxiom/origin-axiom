@@ -175,7 +175,11 @@ I = zeta(15)       # i
 
 # sanity: zeta3 not fixed by sigma11; zeta5 fixed
 assert not Z3.gal(11).eq(Z3) and Z5.gal(11).eq(Z5)
-assert not Z3.gal(31).eq(Z3) or True  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
+# CORRECTED 2026-11-12 (Review 80; one of nine asserts in scripts that ended in `or True`, found by a sweep of main's by the syntax tree and owed from the review's first findings).  The line was
+#     assert not Z3.gal(31).eq(Z3) or True  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
+# It could not fail, and with the constant taken out it fails: it asserts the opposite of its own comment and of the two lines
+# of comment below it.  It asserts what they say now.
+assert Z3.gal(31).eq(Z3)  # 31 mod 3 = 1 -> sigma31 FIXES zeta3
 # careful: 31 = 1 mod 3, so sigma31 fixes zeta3; 31 mod 5 = 1 fixes zeta5.
 # subgroup fixing Q(zeta5) inside (Z/60)* is {1,11,31,41}; sigma31 also
 # fixes zeta3?? then it acts trivially on zeta15... but must move zeta4:
