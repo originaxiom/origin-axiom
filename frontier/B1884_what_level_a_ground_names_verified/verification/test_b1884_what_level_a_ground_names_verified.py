@@ -103,7 +103,12 @@ def test_the_column_convention_is_the_swap_of_the_coordinates_and_not_a_transpos
 
 
 def _names_the_column_convention_as_mains_own(claim):
-    """the places where a verdict line calls the column convention main's own and does not take it back within 120 characters"""
+    """the places where a verdict line calls the column convention main's own and does not take it back within 120 characters.
+    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 3, patch 3, not checked by main, made again first): the line
+    was read with one spelling of the apostrophe, so the same words with a typographic one passed.  Every spelling of it is read
+    as one; the places are those of the line as given."""
+    import re
+    claim = re.sub("[\u2018\u2019\u02bc\u2032\u00b4`]", "'", claim)
     out, at = [], claim.find("main's own convention")
     while at != -1:
         if "it is not main's own" not in claim[at:at + 120]:
@@ -180,3 +185,16 @@ def test_the_arcs_corrections_of_review_79_and_80_are_held_and_the_script_says_w
     script = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
     assert "EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)\n[CORRECTED 2026-11-12 (Review 80;" in script
     assert "By the protocol's labels this is computed once" in " ".join(script.split())
+
+
+def test_the_verdict_line_is_read_with_every_spelling_of_an_apostrophe():
+    """ADDED 2026-11-13 (C16; the same finding).  The line as it stood, with a typographic apostrophe in each place, was passed;
+    it is reported now, as the straight one is.  The twin: the correction with a typographic apostrophe takes it back."""
+    stood = "The same counts hold in main\u2019s own convention. Nothing leaves the budget. 0 of 19."
+    assert len(_names_the_column_convention_as_mains_own(stood)) == 1
+    assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", "'"))) == 1
+    for mark in ("\u2018", "\u02bc", "\u2032", "`"):
+        assert len(_names_the_column_convention_as_mains_own(stood.replace("\u2019", mark))) == 1, repr(mark)
+    taken_back = "The same counts hold in main\u2019s own convention [it is not main\u2019s own]. 0 of 19."
+    assert _names_the_column_convention_as_mains_own(taken_back) == []
+
