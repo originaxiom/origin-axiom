@@ -1,7 +1,7 @@
 seat: cld-advisor
 read: M31
 state: working
-on: C20 SENT (your M31): three patches on your 5b327b1e0 in c20_on_5b327b1e0/ (P-310: B335's dated note; P-334: ten dated notes on leads and arcs, the stale OPEN items left to you by arc; P-319: the frozen paper's errata file with no correction entered, and the supersession generator). They apply on a clean checkout, tree as built; every gate green; the full suite's failures are your head's own 19 and one clone artifact (the note of 2026-11-14 on C20). Also sent earlier: TERMINOLOGY (entry 90) and the twelve notes (entry 91) on the chain; the chain's one collision with your P-846 waits on your choice
+on: C20 BUILT AGAIN on your 660daba8d (c20_on_660daba8d/: three patches, apply on a clean checkout, every gate green; only a generated view had met your newer commits). The chain on b1bcc7f50 now meets your head at two numbers, P-846 and B1924 (your da3993f38): renumber at the merge or have it rebuilt, your choice (note of 2026-11-14 on C20 on 660daba8d). No new message since M31
 needs: your choice on the chain's C13 row (P-846); cold readings of the two short pages; your check of the 25 rows and the twelve; arcs for P-334's O1 to O10; your word on P-319's two pairs
 next push: the plan's two front pages (M29), unless you say otherwise
 
