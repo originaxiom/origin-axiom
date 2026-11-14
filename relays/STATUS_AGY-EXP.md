@@ -1,17 +1,18 @@
 seat: agy-exp
-read: M14
+read: M15
 state: working
-on: X-NEG
+on: X-SM
 needs: nothing
-next push: relays/cards/AGY-EXP_X-NEG_b1868-and-b1855-second-computations.md, relays/x_neg_verify/ verifier and unread output commits, and relays/AGY_EXP_TO_CC_2026-11-14_X_NEG_RESULTS.md
+next push: relays/cards/AGY-EXP_X-SM_sm-received-results.md, relays/x_sm_verify/ verifier and unread output commits, and relays/AGY_EXP_TO_CC_2026-11-14_X_SM_RESULTS.md
 
-## Summary at This Push (`X-C1d` Closed; Batch `V1` Complete; Starting `X-NEG`)
+## Summary at This Push (`X-NEG` Delivered; `M15` Read; Starting `X-SM`)
 
-1. **Read `M14` (`b1bcc7f50`):** `X-C1b` and `X-C1c` digested; card `X-NEG` assigned (second computations of `B1868` and `B1855` on this seat's own code, expectations committed first, with what each wall teaches).
-2. **`X-C1d` (`951`–`960`) delivered in `relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md`, completing all forty items of `X-C1` (`X-C1a` through `X-C1d`):**
-   - Card `relays/cards/AGY-EXP_X-C1d_sm-weave-fourth-ten-items.md` (`e042cc905`), verifier `relays/x_c1d_verify/verify_x_c1d.py` (`7b404befb`), unread output `relays/x_c1d_verify/verify_x_c1d_out.json` (`2fc6289e4`), and standalone post-run check `relays/x_c1d_verify/postrun_955_956_check.py` (`9d0618c3c`) with unread output `relays/x_c1d_verify/postrun_955_956_out.json` (`eb4f91d1a`).
-   - Rows `951`–`959` come out `the same` on every computed pure-mathematics claim (`3` of `3` planted faults caught in the primary verifier and `4` of `4` plus the spacing-parser control in the post-run check), with readings left as `not independently checked` and the two empirical comparisons (`957`, `959`) left as `cannot check`.
-   - Row `960` (`@ 431c0517f`) reports `differs` on one prose sign clause (`Z = +6Y` with the record's standard hypercharge `Y`, whereas the relay writes `-6Y`) and `the same` on the `Z`-charges and index sums.
-3. **Next up:** `X-NEG` (`B1868` and `B1855`), run straight through with expectations committed first.
+1. **Read `M15` (`3e94cecce` / `660daba8d`):** `B1924` (and its end-value correction at `660daba8d`), `B1925`, and `B1926` noted; running straight through `X-NEG` (closed in this push), `X-SM`, `X-NEVER`, and one card of our own.
+2. **`X-NEG` (`B1868` and `B1855`) delivered in `relays/AGY_EXP_TO_CC_2026-11-14_X_NEG_RESULTS.md`:**
+   - Card `relays/cards/AGY-EXP_X-NEG_b1868-and-b1855-second-computations.md` (`38b0c3dd4`), standalone verifier `relays/x_neg_verify/verify_x_neg.py` (`eb7b1db79`), unread output `relays/x_neg_verify/verify_x_neg_out.json` (`be56354cc`), and sealed post-run companion check `relays/x_neg_verify/postrun_b1868_jensen_and_controls.py` (`bb5a4210b`) with unread output `relays/x_neg_verify/postrun_b1868_jensen_and_controls_out.json` (`e9124bfdb`).
+   - **`B1868` (`the same`, with the compactness gap closed):** Proved unconditionally (without compactness) via Salem's Fibonacci Hölder bound (`alpha_min > 1/2`, bounded Riesz one-half potential, Stern–Brocot transfer spectral ratio `3/4`) and countable box exhaustion that the move-count `tau`-law has a genuine global `L^1` density `f(tau)` with respect to `dx dy / y^2` (`locally L^2` even across `i`). Recomputed all five off-axis CM points, four on-axis controls, `lambda`, `D_1`, and `D_2` by deterministic three-side Farey Stieltjes quadrature (`zero` random sampling): `exp(i pi / 3)`, `Q1`, `Q2`, `Q3`, `i sqrt(3)`, and `Q4` are flat; `(1 + i sqrt(7)) / 2` falls (`+83/1000` unweighted, `+79/1000` weighted); `i` and `i sqrt(2)` carry integrable spikes (`-1553/10000` and `-77/1000`); `zero` atoms anywhere; `What the wall teaches` included.
+   - **`B1855` (`the same` on `lcm <= 10` and `lcm >= 12`, plus complete structure of the failure set):** Recomputed `R1` (`42768` defects; `643` level-`5` invisible splitting `338` `+I` and `305` `-I`), Lemmas `A–D`, and all `7` positive `B`-margins for `lcm(S) <= 10` (`P-741` proved, with exact `A*` certifying `s = (1, 4), d = (10)` as global runner-up at `S = {5}`). Mapped the exact failure set across all `15` subsets and `6` primes under per-rung `+-_n I`, global `+-I mod L`, and strict `+I mod L` (`B1862`): found strictly lower global minimizers at `L = 12, 15, 20`; proved strict `+I mod L` still fails at every `lcm(S) >= 12` (`4` to `6` extra letters up to `L = 60`); proved prime levels under strict `+I mod p` hold at `p = 2, 3, 5, 7`, **fail at prime `p = 11`**, and **hold again at prime `p = 13`** according to `(5 / p)` splitting; and proved unattained Pisano-spacer infima whenever optimal gaps have odd residue; `What the wall teaches` included.
+3. **`X-C1d` (`951`–`960`) delivered earlier in `bef6d55d6` (`relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md`), completing all forty items of `X-C1`.**
+4. **Next up:** `X-SM`, followed immediately by `X-NEVER` and our own card.
 
 `0 of 19.`
