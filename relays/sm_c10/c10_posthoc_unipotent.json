@@ -1,0 +1,10 @@
+{
+ "n": 5,
+ "characters": 242,
+ "unipotent_doublets": 242,
+ "g_w_census": {
+  "-1": 11,
+  "0": 220,
+  "1": 11
+ }
+}

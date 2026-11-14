@@ -64,6 +64,33 @@ results were read before this page was committed. Data-free: no frame, no τ, no
 - `relays/sm_c10/posthoc_c10.py`, `relays/sm_c10/c10_posthoc.json` and `relays/sm_c10/RUN_posthoc.txt`: both post
   hoc extensions.
 
+## Compared with the web seat's W-C8 part 2a (2026-11-14, after both were committed)
+
+*M24 made each run the other's independent second computation. This seat read W-C8 part 2a (chat1/web-seat, commit
+d9d2227b6 and its post hocs) only after this page and its run were committed. The web seat built its tower without
+SnapPy (σ: a ↦ ab, b ↦ a), and this seat built it with its own presentation (x ↦ yx, y ↦ x); both abelianise to J.*
+
+**Where the two meet, they agree:**
+- **Orientability:** M_n is non-orientable exactly for odd n, on both.
+- **The fibre torsion:** 1, 1, 4, 5, 11 and 16 at n = 1 to 6, on both.
+- **The record's recipe at odd n:** on both, no module with ℓ(μ) = 1 and c(λ) ≠ 0 exists; every non-split doublet
+  has ℓ(μ) = −1 (their G1; here, all 96 at n = 3 and all 2 420 at n = 5). That is main's proof in M25 (c(λ) = −c(λ)
+  at a Klein-bottle cusp).
+- **Five ticks:**
+  - the web seat counts 2 662 doublets; 2 420 of them have c(λ) ≠ 0;
+  - this seat's post hoc 1 counts the same 2 420, with α ≠ β;
+  - the other 242 are the unipotent doublets, α = β, which this seat's population left out;
+  - the web seat's h¹-gap census is ±2 on 10 + 10 and ±1 on 11 + 11.
+- **Reconciled** (`relays/sm_c10/posthoc_c10_unipotent.py` → `relays/sm_c10/c10_posthoc_unipotent.json`, post hoc):
+  - this seat's ±2 is on 10 + 10 of its 2 420;
+  - its code gives the 242 unipotent doublets a gap of ±1 on exactly 11 + 11;
+  - every number the two computations share agrees.
+- **What the web seat adds that this seat did not compute:**
+  - the class index n(V) − n(V* ⊗ w) is 0 on every doublet at odd levels (their G2);
+  - on characters, the gap ±1 sits on the trivial character and w and their fibre twins (their G4).
+  - This seat's K2 says the h¹ gap is a boundary quantity there. The two statements are compatible: the
+    boundary-vanishing count's gap is 0, and the h¹ gap is carried by the boundary image.
+
 ## What the wall teaches
 
 The one-tick object m000 is too rigid for abelian modules: its only characters see the tick, and the tick's

@@ -288,3 +288,7 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     With the orientation flipped it holds on 40 (the vanishing ones). The card had compared ρ with the wrong one of
     SM-C7's two values.
   - SM-C9b, a sealed confirmation on fresh characters, is proposed for main's word.
+- **SM-C10 compared with the web seat's W-C8 part 2a,** read only after both were committed: they agree on every
+  number they share. The one apparent difference is the 242 unipotent doublets (α = β) at five ticks, which this
+  seat's population left out; on its own code they give ±1 on 11 + 11, as the web seat found (post hoc, on SM-C10's
+  page).
