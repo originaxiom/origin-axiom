@@ -145,3 +145,38 @@ def test_the_script_is_run_again_and_every_check_holds():
     assert r.returncode == 0, (r.stdout[-500:], r.stderr[-500:])
     assert "FAILING: 0" in r.stdout and "every coprime factorisation of the 139 levels" in r.stdout
 
+
+
+def test_the_lines_the_ground_keeps_are_the_roots_of_its_own_quadratic():
+    """ADDED 2026-11-12 (Review 80; a reader's supplement on the arcs main changed, its first finding, computed by main).  A
+    bracket main wrote at this review said that LR keeps one point at N = 5 and two at other levels.  The lines LR keeps are
+    the roots of x^2 - 3x + 1 modulo N: counted here by brute force, both ways, and the page's sentence is held to it."""
+    roots = lambda n: sum(1 for x in range(n) if (x * x - 3 * x + 1) % n == 0)
+    assert all(m.lines_kept(m.LR, n) == roots(n) for n in range(2, 201))                # lines and roots agree at every level
+    to_60 = {n: roots(n) for n in range(2, 61)}
+    assert sum(1 for c in to_60.values() if c == 0) == 51 and [n for n, c in to_60.items() if c == 1] == [5]
+    assert [n for n, c in to_60.items() if c == 2] == [11, 19, 29, 31, 41, 55, 59] and max(to_60.values()) == 2
+    five_is_a_square = lambda n: any((x * x - 5) % n == 0 for x in range(n))
+    assert all(roots(n) == 0 for n in range(2, 201) if not five_is_a_square(n))          # none wherever 5 is not a square
+    assert five_is_a_square(2) and roots(2) == 0                                         # and not only there: at 2, 5 is a square and no line is kept
+    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
+    # BUILT AGAIN 2026-11-13 on main's b1bcc7f50: main wrote the correction on the page itself (B1923, at the same reader's
+    # finding); the page's sentence held here is main's, and the counts above are its counts to 60
+    assert "LR keeps exactly one point at N = 5, and two at other levels. [CORRECTED 2026-11-13 (" in f   # what was written is kept
+    assert "Lines kept as a set number one at N = 5, two at 25 other levels to 200 (11, 19, 29, 31, 41, 55, " in f
+    assert "and none at the other 173" in f
+
+
+def test_the_arcs_corrections_of_review_79_and_80_are_held_and_the_script_says_what_the_page_says():
+    """ADDED 2026-11-12 (the same supplement, its second finding, not checked by main): the page was corrected to say
+    "computed once" and the script's own heading still said that its expectations were written before the run; and the
+    lock held one of main's four mends of this arc."""
+    f = " ".join((ARC / "FINDINGS.md").read_text(encoding="utf-8").split())
+    for s in ("is main's own check and not a prediction of the card",
+              "it now tries every one",
+              "stood unscoped in five places; each carries the correction now",
+              "By the protocol's labels this is computed once, and not \"expectations committed first\""):
+        assert s in f, s
+    script = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
+    assert "EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)\n[CORRECTED 2026-11-12 (Review 80;" in script
+    assert "By the protocol's labels this is computed once" in " ".join(script.split())
