@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1639** |
-| words of findings prose | **1,469,729** |
+| research arcs with findings | **1640** |
+| words of findings prose | **1,470,367** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1639** (100.0 %) |
+| arcs carrying an authored verdict | **1640** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1141 |
+| PROVED | 1142 |
 | NEGATIVE | 384 |
 | OPEN | 101 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1942`** (704 words, 0 locks)  
-“AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.”  
-`B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/FINDINGS.md`
+**PROVED — `B1943`** (638 words, 0 locks)  
+“THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.”  
+`B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  

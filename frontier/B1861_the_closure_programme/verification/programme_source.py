@@ -105,7 +105,7 @@ P("WP-1.5", "C1", "The root, selection, and thread results",
   "Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates?", "DECIDE",
   "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004). Done on main (B1869): the founding principle read as a selection rule picks the run of six only when the level is put in, ties under the other sense of detection, and gives no single run on the silver and bronze backgrounds; the allowed set is verified to 20 letters, and the criterion stays an input",
   "FK9 ruled; every headline result labelled; the structural theorem restated at the level it is proved at", "main", ["WP-1.6"], "NOT STARTED",
-  ["P-755", "P-764"], ["G:SE1", "G:SE3", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
+  ["P-755", "P-764"], ["G:SE1", "S:S03", "G:SE3", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
 P("WP-1.6", "C1", "The law and the weight",
   "If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?", "DECIDE",
   "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. The owner has ruled on the law's reading (P-755): the law is what takes part; the move count is not adopted as the weight; the weight stays open. 'Together' is defined (B1872, the web seat's definition verified): the joint action of the allowed histories on the shared records, which needs the allowed set closed under composition and its data on the shared records; read through what it fixes it selects nothing. Next: a read-out on the allowed subweave as a whole that its fixed data do not determine -- the minima of the joint action's own functional, or an index of the family over its quotient -- of which the record holds none; and the first back-edge's condition shown closed under composition, or restated as such a read-out",
@@ -906,7 +906,7 @@ MAIN_QUOTES = [
     ("docs/THE_CLAIM.md", "at most two declared anchors"),
     ("docs/INPUT_COMPLETENESS_LEDGER.md", "mandatory checklist for any SM-facing cell"),
     ("docs/TOE_REQUIREMENTS_LEDGER.md", "The checklist any theory of everything must pass"),
-    ("docs/TOTAL_INPUTS_SCOREBOARD.md", "**Borrowed joints: 13** (10 CHOSEN, 2 FITTED, 1 ANSATZ)"),
+    ("docs/TOTAL_INPUTS_SCOREBOARD.md", "**Borrowed joints: 14** (11 CHOSEN, 2 FITTED, 1 ANSATZ)"),    # [2026-11-14, B1943: was 13; SE1 entered the shared block]
     ("GENESIS.md", "A DICTIONARY MAY BE EARNED BY PREDICTION"),
     ("GENESIS.md", "7. *Worth spending.*"),
     ("docs/THE_WEAVE.md", "the family"),
@@ -943,7 +943,7 @@ I("the carrier", {"axiom": 1}, ["G:GM4"])
 I("reversible updates", {"axiom": 1}, ["G:GM5a"])
 I("inverse moves are legal", {"bit": 1}, ["G:GM5b"])
 I("positivity: the side of the mirror", {"bit": 1}, ["G:GM5d"])
-I("the selection criterion", {"discrete": 1}, ["G:SE1"], "other criteria select other objects")
+I("the selection criterion", {"discrete": 1}, ["G:SE1", "S:S03"], "other criteria select other objects; the scoreboard lists it as its shared joint S03 since 2026-11-14 (B1943): one choice under two names")
 I("the ground", {"axiom": 1}, ["G:SE3"], "the ground is the act itself, the tick (GENESIS v1.65, SE3): a definition the frame needs, which nothing computed can decide; main's entry, tagged. Its level follows by the discriminant and is not a further input (B1884)")
 I("the orientation", {"bit": 1}, ["G:SE2", "G:FK2", "S:S02", "FL:03"], "one choice under four names; the scoreboard lists it as a CHOSEN joint")
 I("which family is the object", {"discrete": 1}, ["G:FK13"])

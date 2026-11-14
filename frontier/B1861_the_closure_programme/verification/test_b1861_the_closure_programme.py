@@ -188,7 +188,8 @@ def test_the_input_budget_agrees_with_the_record():
     joints = [("S:" + j["id"], j["type"]) for j in sb["shared_block"]] + [("A:" + j["id"], j["type"]) for j in sb["frames"]["A"]["joints"]]
     borrowed = {m: t for m, t in joints if t not in ("FORCED-BY-MAIN", "VERIFIED-BY-MAIN")}
     entry = {m: i for i in S.INPUTS for m in i["members"]}
-    assert set(m for m in entry if m.startswith(("A:", "S:"))) == set(borrowed) and len(borrowed) == 13
+    # [2026-11-14, B1943: fourteen since SE1 entered the shared block as S03 (11 chosen, 2 fitted, 1 ansatz); was thirteen]
+    assert set(m for m in entry if m.startswith(("A:", "S:"))) == set(borrowed) and len(borrowed) == 14
     assert sorted(m for m, t in borrowed.items() if t == "FITTED") == sorted(m for m in borrowed if "real" in entry[m]["kinds"])
     assert sorted(m for m, t in borrowed.items() if t == "ANSATZ") == sorted(m for m in borrowed if "ansatz" in entry[m]["kinds"])
     # the record grades theta-bar an input: it is a real number in the budget, not a rule of the comparison

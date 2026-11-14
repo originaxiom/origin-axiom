@@ -1967,11 +1967,11 @@
   "layer": "5 values",
   "kind": "reading",
   "grade": "LANE-PROPOSED",
-  "text": "The agy lane's complete picture claims 23 rows on 44 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter.",
+  "text": "The agy lane's complete picture claims 23 rows on 45 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter.",
   "pins": [
    [
     "docs/TOTAL_INPUTS_SCOREBOARD.md",
-    "**Borrowed joints: 44**"
+    "**Borrowed joints: 45**"
    ],
    [
     "docs/TOTAL_INPUTS_SCOREBOARD.md",
@@ -1989,7 +1989,7 @@
   "by_type": {
    "FORCED-BY-MAIN": 7,
    "FITTED": 1,
-   "CHOSEN": 18,
+   "CHOSEN": 19,
    "UNKNOWN": 2,
    "MEASURED-INPUT": 6,
    "ANSATZ": 14,
@@ -2228,6 +2228,29 @@
    [
     "docs/TOTAL_INPUTS_SCOREBOARD.md",
     "| S02 | the orientation: the orientable, amphichiral member (SE2) | CHOSEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "shared",
+  "rows_live": {},
+  "weave_or_thread": "thread"
+ },
+ {
+  "id": "S:S03",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| S03 | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000) | CHOSEN |"
    ]
   ],
   "rows": [],

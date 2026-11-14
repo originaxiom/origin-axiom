@@ -23,8 +23,8 @@
  "map": {
   "debts": 94,
   "debts_joined_to_nothing": 78,
-  "nodes": 286,
-  "nodes_that_need_a_path": 134
+  "nodes": 287,
+  "nodes_that_need_a_path": 135
  },
  "milestones": [
   {
@@ -211,7 +211,7 @@
   "conditional_headlines": {
    "G:ROOT": 2,
    "MC:Z6": 3,
-   "V:SIX": 15,
+   "V:SIX": 16,
    "W:INDEX3": 3
   },
   "conditional_results": 19,

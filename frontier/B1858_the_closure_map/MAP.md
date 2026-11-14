@@ -14,7 +14,7 @@ by a quote that the builder checks.*
 | CONFIRMED | a registered falsifiable claim that observation has confirmed | 1 |
 | POSTULATED | assumed by the foundation | 12 |
 | TAGGED | a tagged working postulate (the owner's ruling) | 2 |
-| CHOSEN | a fork settled by choice, the alternative kept | 42 |
+| CHOSEN | a fork settled by choice, the alternative kept | 43 |
 | UNSTATED | a commitment the construction makes without stating it | 6 |
 | FITTED | a continuous input fixed by looking at data | 2 |
 | ANSATZ | a posited form with no derivation | 1 |
@@ -137,7 +137,7 @@ by a quote that the builder checks.*
 | A:A10 | FITTED | thread | the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-446 (QUEUED); P-706 (DONE) |
 | A:A11 | CHOSEN | thread | one address: one tau, one line, one point coupling for all sectors. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-555 (QUEUED) |
 | A:A12 | CHOSEN | thread | the scale: tree level at M_Z, no running. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-570 (DONE) |
-| B:FRAME | LANE-PROPOSED | thread | The agy lane's complete picture claims 23 rows on 44 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1832; P-624 (QUEUED); P-661 (DONE) |
+| B:FRAME | LANE-PROPOSED | thread | The agy lane's complete picture claims 23 rows on 45 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1832; P-624 (QUEUED); P-661 (DONE) |
 | FA:F1 | CONDITIONAL | thread | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm sqrt(2*pi*L + c_s)*R_s, closed-form channel norms c_s. | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | FA:F2 | CONDITIONAL | thread | the sector charges (q_L, q_R) of up, down, lepton and the LL pair. | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | FA:F3 | CONDITIONAL | thread | the F_10 direction's components and scalar in closed form, given the direction. | docs/TOTAL_INPUTS_SCOREBOARD.md |
@@ -147,6 +147,7 @@ by a quote that the builder checks.*
 | FA:F7 | CONDITIONAL | thread | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | S:S01 | ANSATZ | thread | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-571 (QUEUED) |
 | S:S02 | CHOSEN | thread | the orientation: the orientable, amphichiral member (SE2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| S:S03 | CHOSEN | thread | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000). | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | V:0OF19 | RECORD | record | The scoreboard: no Standard Model parameter is earned. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-579 (QUEUED) |
 | V:EARN-RULE | CHOSEN | record | How a frame's dictionary may be earned: by sealed prediction, with seven conditions. The owner's ruling, on main's drafting; revisable. | GENESIS.md; B1828; B1843 |
 | V:HELD | CHOSEN | record | The held-out targets are held unspent by the owner. Nothing in this map reads or computes them. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-709 (DONE); P-585 (QUEUED); P-597 (QUEUED) |
@@ -396,7 +397,7 @@ by a quote that the builder checks.*
 
 ## The nodes that no edge joins
 
-23 of the 192 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
+23 of the 193 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

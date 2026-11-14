@@ -4,7 +4,7 @@
 
 **The rule.** the owner's ruling of 2026-10-29 (P-418): a total-inputs scoreboard beside '0 of 19' -- the 19, the identification price, and each frame's counted choices; progress = the totals falling. The owner, 2026-11-04 (P-661): a complete picture with its borrowed joints named, so the joints can be earned later.
 
-**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 13 borrowed joints [10 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted] | frame C (the read-out on the whole): 7 rows claimed, 11 borrowed joints [9 chosen, 1 forced-claimed, 1 ansatz]
+**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 14 borrowed joints [11 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 45 borrowed joints [19 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted] | frame C (the read-out on the whole): 7 rows claimed, 12 borrowed joints [11 chosen, 1 ansatz]
 
 A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY-MAIN, or VERIFIED-BY-MAIN for an exact identity checked but not proved); every other joint is BORROWED: CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED (a seat's word), REFUTED or UNKNOWN. A joint counts once however many rows it feeds. Progress means the borrowed totals fall.
 
@@ -16,6 +16,7 @@ A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY
 |---|---|---|---|---|
 | S01 | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry) | ANSATZ | FL-02 (OPEN, GAP6); 107 of 173 value-kills sit on flat premises (P-571) | P-571 |
 | S02 | the orientation: the orientable, amphichiral member (SE2) | CHOSEN | FL-03; GENESIS SE2 | |
+| S03 | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000) | CHOSEN | GENESIS SE1 (POSTULATED; UNIQUENESS A5); what it selects is derived (T-ROOT). [2026-11-14, B1943: added; the foundation's postulate was counted nowhere on this board] | |
 
 ## Frame A — the record's candidate: THE SIX AT THE AREA-4 HOROCYCLE (FR-FIB at B1841's E4 row; B1841, P-706)
 
@@ -26,7 +27,7 @@ Held out (sealed): m_b/m_t (firewalled), m_tau/m_b (firewalled).
 Graded an input: theta-bar.
 No frame: y_t, g_1, g_2, g_3, m_H, v.
 
-**Borrowed joints: 13** (10 CHOSEN, 2 FITTED, 1 ANSATZ), the shared block included.
+**Borrowed joints: 14** (11 CHOSEN, 2 FITTED, 1 ANSATZ), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
@@ -42,7 +43,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 | A11 | one address: one tau, one line, one point coupling for all sectors | CHOSEN | 6 | B12 | P-555 | FL-07 (UNSTATED in code) |
 | A12 | the scale: tree level at M_Z, no running | CHOSEN | 6 | B10 | P-570 | FL-13, FL-21; P-570, P-590 |
 
-Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; m_e/m_mu 13; m_mu/m_tau 13.
+Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14.
 
 **The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 6 rows); A02 the slope 2/5 of the line class (chosen, 6 rows); A03 the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit) (chosen, 6 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 6 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 6 rows); A07 the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max) (chosen, 6 rows); A08 the generations' metric H = I (chosen, 6 rows); A09 the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius) (chosen, 6 rows).
 
@@ -52,7 +53,7 @@ Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12;
 
 Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, |V_cb|, |V_ub|, J (or delta_CP), m_b/m_t (firewalled), m_tau/m_b (firewalled), y_t, g_1, g_2, g_3, theta-bar, m_H, v, M_Pl/v, rho_DE/v^4, eta_B, Omega_DM/Omega_b.
 
-**Borrowed joints: 44** (18 CHOSEN, 14 ANSATZ, 6 MEASURED-INPUT, 3 REFUTED, 2 UNKNOWN, 1 FITTED), the shared block included.
+**Borrowed joints: 45** (19 CHOSEN, 14 ANSATZ, 6 MEASURED-INPUT, 3 REFUTED, 2 UNKNOWN, 1 FITTED), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
@@ -112,7 +113,7 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, 
 | B46 | the Buttazzo pole-matching formulae linearised about measured central values (and the matching-scale literals) | MEASURED-INPUT | 0 | |  | measured anchors inside the matching |
 | B48 | Omega_b h^2 entered as a number | MEASURED-INPUT | 0 | |  | B1832 sec. 5 |
 
-Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; m_e/m_mu 13; m_mu/m_tau 13; |V_us| 12; |V_cb| 12; |V_ub| 12; J (or delta_CP) 12; m_b/m_t (firewalled) 16; m_tau/m_b (firewalled) 17; y_t 26; g_1 5; g_2 5; g_3 7; theta-bar 12; m_H 28; v 3; M_Pl/v 6; rho_DE/v^4 8; eta_B 25; Omega_DM/Omega_b 5.
+Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14; |V_us| 13; |V_cb| 13; |V_ub| 13; J (or delta_CP) 13; m_b/m_t (firewalled) 17; m_tau/m_b (firewalled) 18; y_t 27; g_1 6; g_2 6; g_3 8; theta-bar 13; m_H 29; v 4; M_Pl/v 7; rho_DE/v^4 9; eta_B 26; Omega_DM/Omega_b 6.
 
 **The joints to earn first (by rows released):** B01 tau_Golden (the modulus) (fitted, 17 rows); B02 the slope of the line, 2/5 (and with it the line's order N) (chosen, 17 rows); B03 the offset of the line within the slope (the line (2/5, 0)) (chosen, 16 rows); B04 the Higgs direction F_10 (theta-power weight) (chosen, 16 rows); B05 the reading S~S~S~ (one reading for all three sectors) (chosen, 16 rows); B06 the scalar-channel characters (c_u, c_d, c_e), with the square-root branch (chosen, 16 rows); B07 the radius pick L_2 (over L_max) (chosen, 16 rows); B08 the L_2 number actually used at the cell (unknown, 16 rows).
 
@@ -124,12 +125,12 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, |V_us|, |V_cb|, |V_ub|.
 Held out (sealed): m_b/m_t (firewalled), m_tau/m_b (firewalled).
 No frame: m_e/m_mu, m_mu/m_tau, J (or delta_CP), y_t, g_1, g_2, g_3, theta-bar, m_H, v, M_Pl/v, rho_DE/v^4, eta_B, Omega_DM/Omega_b.
 
-**Borrowed joints: 11** (9 CHOSEN, 1 FORCED-CLAIMED, 1 ANSATZ), the shared block included.
+**Borrowed joints: 12** (11 CHOSEN, 1 ANSATZ), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
 | C01 | the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) | CHOSEN | 7 | | P-845 | the principle names it (P-845); the hyperbolic-area measure differs by about 40 errors (agy-002's A2-OWN1) |
-| C02 | the line class of order 5: the ground's frustrated level | FORCED-CLAIMED | 7 | | P-721 | P-721 (det(LR + I) = 5); B1925 (SE1 is the same condition as the level 5); not yet a registered theorem |
+| C02 | the line class of order 5: the ground's frustrated level | CHOSEN | 7 | | P-721 | GENESIS SE3 (POSTULATED, main's entry, counted in the budget): the ground is the act, its level 5. Given the premise that the frame's line is fixed by the act up to sign, the level is forced by THEOREM_REGISTRY T-THE-ACTS-FIXED-LINE (B1943: LR fixes up to sign exactly the four non-zero points of one |
 | C03 | the Higgs direction: the frame's covariant triplet | CHOSEN | 7 | |  | as frame A's A04 |
 | C04 | the Higgs reading (S~, S, S): its global bit | CHOSEN | 7 | | P-847 | the relative reading is fixed by charge balance (main; the web seat's W-F13; agy-exp's X-OWN F3); no construction from charges alone fixes the global bit (W-F14); frame A's A05 |
 | C05 | the end: B1667's horocycle of length 2, read point by point | CHOSEN | 7 | | P-845 | B1927: the end is covariant and needs no constant; analyticity selects the length-2 horocycle (the maximal horoball has a corner); the analyticity requirement is a stated regularity condition; frame A's A07 |
@@ -138,6 +139,6 @@ No frame: m_e/m_mu, m_mu/m_tau, J (or delta_CP), y_t, g_1, g_2, g_3, theta-bar, 
 | C08 | one coupling for all sectors (no tau and no line: B1928) | CHOSEN | 7 | | P-555 | as frame A's A11 without its tau and line |
 | C09 | the scale: tree level, no running | CHOSEN | 7 | |  | as frame A's A12 |
 
-Borrowed joints per claimed row (shared block included): m_u/m_c 11; m_c/m_t 11; m_d/m_s 11; m_s/m_b 11; |V_us| 11; |V_cb| 11; |V_ub| 11.
+Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; |V_us| 12; |V_cb| 12; |V_ub| 12.
 
-**The joints to earn first (by rows released):** C01 the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) (chosen, 7 rows); C02 the line class of order 5: the ground's frustrated level (forced-claimed, 7 rows); C03 the Higgs direction: the frame's covariant triplet (chosen, 7 rows); C04 the Higgs reading (S~, S, S): its global bit (chosen, 7 rows); C05 the end: B1667's horocycle of length 2, read point by point (chosen, 7 rows); C06 the channel weights sqrt(2 pi L + c_s) at that end (chosen, 7 rows); C07 the generations' metric H = I (chosen, 7 rows); C08 one coupling for all sectors (no tau and no line: B1928) (chosen, 7 rows).
+**The joints to earn first (by rows released):** C01 the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) (chosen, 7 rows); C02 the line class of order 5: the ground's frustrated level (chosen, 7 rows); C03 the Higgs direction: the frame's covariant triplet (chosen, 7 rows); C04 the Higgs reading (S~, S, S): its global bit (chosen, 7 rows); C05 the end: B1667's horocycle of length 2, read point by point (chosen, 7 rows); C06 the channel weights sqrt(2 pi L + c_s) at that end (chosen, 7 rows); C07 the generations' metric H = I (chosen, 7 rows); C08 one coupling for all sectors (no tau and no line: B1928) (chosen, 7 rows).

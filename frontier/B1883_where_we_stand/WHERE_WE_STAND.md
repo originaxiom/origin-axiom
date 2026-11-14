@@ -58,7 +58,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 286 nodes, of which 134 still need a path to a result.
+- **The map:** 287 nodes, of which 135 still need a path to a result.
 - **Debts on the map:** 94, of which 78 are joined to no node yet.
 
 ## 4. What is still put in by hand
@@ -66,7 +66,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 - **39 independent choices on main's spine,** which are 47 items: 1 ansatz, 9 axiom, 9 bit, 16 discrete, 7 identification, 5 real.
 - **7 more** are supplied by the lanes' model.
 - **An exit is on the table for 9** of the choices: a way it could stop being a choice. None has been taken.
-- **19 results are conditional.** The headline ones, with the open choices under each: G:ROOT on 2, MC:Z6 on 3, V:SIX on 15, W:INDEX3 on 3.
+- **19 results are conditional.** The headline ones, with the open choices under each: G:ROOT on 2, MC:Z6 on 3, V:SIX on 16, W:INDEX3 on 3.
 
 | how a choice could leave | choices |
 |---|---|

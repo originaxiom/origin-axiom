@@ -1640,6 +1640,13 @@
  {
   "src": "V:SIX",
   "kind": "requires",
+  "dst": "S:S03",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
   "dst": "TAG:LAMBDA",
   "grade": "READING",
   "note": "the frame's coupling is banked 'given Λ, the dictionary'"

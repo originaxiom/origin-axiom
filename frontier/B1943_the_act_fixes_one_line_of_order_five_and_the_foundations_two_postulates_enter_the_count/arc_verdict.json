@@ -1,0 +1,21 @@
+{
+ "id": "B1943",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1925", "B1939", "B1834"],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the golden act LR acting on the fibre's torsion points; the total-inputs scoreboard",
+  "object": "the lines the act fixes up to sign; frame C's joint C02 and the foundation's postulates SE1 and SE3",
+  "reach": "general",
+  "hypotheses": "every level to 60 enumerated; the general statement by Smith forms; SE1 and SE3 are postulates of the foundation (GENESIS)"
+ },
+ "claim_one_line": "THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.",
+ "weave_or_thread": "neither (structure of the act and the board)"
+}

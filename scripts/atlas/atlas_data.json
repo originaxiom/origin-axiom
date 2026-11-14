@@ -17413,6 +17413,23 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1943": {
+   "slug": "the act fixes one line of order five and the foundations two postulates enter the count",
+   "motifs": [
+    "closing",
+    "trace_map",
+    "torsion"
+   ],
+   "refs": [
+    "S02",
+    "S03",
+    "S73"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

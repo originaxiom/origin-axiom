@@ -1,0 +1,8 @@
+LR           Smith(A - I) = (1, 1), Smith(A + I) = (1, 5); fixed up to sign at levels <= 60: orders [1, 5], 4 non-zero points, signs [-1]
+   the four points of order 5: [('1/5', '2/5'), ('2/5', '4/5'), ('3/5', '1/5'), ('4/5', '3/5')]
+RL           Smith(A - I) = (1, 1), Smith(A + I) = (1, 5); fixed up to sign at levels <= 60: orders [1, 5], 4 non-zero points, signs [-1]
+(LR)^T       Smith(A - I) = (1, 1), Smith(A + I) = (1, 5); fixed up to sign at levels <= 60: orders [1, 5], 4 non-zero points, signs [-1]
+(LR)^-1      Smith(A - I) = (1, 1), Smith(A + I) = (1, 5); fixed up to sign at levels <= 60: orders [1, 5], 4 non-zero points, signs [-1]
+((LR)^T)^-1  Smith(A - I) = (1, 1), Smith(A + I) = (1, 5); fixed up to sign at levels <= 60: orders [1, 5], 4 non-zero points, signs [-1]
+CONTROL LRR (trace 4): Smith(A - I) = (1, 2); fixed points at orders [1, 2, 3, 6] -> CAUGHT
+ALL HOLD: True

@@ -6,7 +6,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 
 ## 1. The state, in numbers
 
-- **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
+- **135 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 135 are in a package.**
   The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 94 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 23, started 19, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
@@ -25,7 +25,7 @@ The work order keeps three statuses apart. Each is read here from the packages' 
 | M3 | **the predictions are ready for comparison** | every package of C5 is closed: the certificate, the upstream audit, the sealed card, the independent challenge | 4 | 0 |
 
 **Met at this build: none.**
-The coverage check of M1 passes at this build (134 of 134). M1 stays open while the map is rebuilt by hand and while the lanes'
+The coverage check of M1 passes at this build (135 of 135). M1 stays open while the map is rebuilt by hand and while the lanes'
 proofs stand in it at headline level only (WP-0.6).
 
 ## 3. The input budget
@@ -60,7 +60,7 @@ and it is not the price of any one value: a value's price is its own certificate
 | reversible updates | axiom | G:GM5a | weave | WP-1.3 |
 | inverse moves are legal | bit | G:GM5b | weave | WP-1.3 |
 | positivity: the side of the mirror | bit | G:GM5d | weave | WP-1.4 |
-| the selection criterion — other criteria select other objects | discrete | G:SE1 | thread | WP-1.5 |
+| the selection criterion — other criteria select other objects; the scoreboard lists it as its shared joint S03 since 2026-11-14 (B1943): one choice under two names | discrete | G:SE1, S:S03 | thread | WP-1.5 |
 | the ground — the ground is the act itself, the tick (GENESIS v1.65, SE3): a definition the frame needs, which nothing computed can decide; main's entry, tagged. Its level follows by the discriminant and is not a further input (B1884) | axiom | G:SE3 | thread | WP-1.5 |
 | the orientation — one choice under four names; the scoreboard lists it as a CHOSEN joint | bit | G:SE2, G:FK2, S:S02, FL:03 | thread | WP-1.4 |
 | which family is the object | discrete | G:FK13 | weave | WP-1.5 |
@@ -450,8 +450,8 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** FK9 ruled; every headline result labelled; the structural theorem restated at the level it is proved at.
 - **Needs:** WP-1.6.
 - **Given (its result is conditional on):** WP-2.2.
-- **Nodes (11):** G:SE1, G:SE3, G:FK9, G:GAP4, G:XGEN-PHYS, G:FK13, MC:REACH, FL:08, FL:18, FL:27, D:12.
-- **Stated about:** thread 3, weave 4.
+- **Nodes (12):** G:SE1, S:S03, G:SE3, G:FK9, G:GAP4, G:XGEN-PHYS, G:FK13, MC:REACH, FL:08, FL:18, FL:27, D:12.
+- **Stated about:** thread 4, weave 4.
 - **Missing dependencies it works on:** X:PARENT, X:SELECT, X:WEIGHT.
 - **Register:** P-755 (DONE), P-764 (QUEUED).
 - **Relayed rulings:** the founding principle as the selection rule; no rule picks a next thing; what exists is what survives.
@@ -755,7 +755,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 | 2 states and root | 4 | WP-1.4 (1), WP-1.5 (3) |
 | 3 weave | 25 | WP-1.2 (1), WP-1.4 (3), WP-1.5 (3), WP-1.6 (4), WP-1.7 (3), WP-1.8 (1), WP-1.9 (3), WP-2.1 (1), WP-2.3 (4), WP-2.5 (2) |
 | 4 structure | 4 | WP-1.5 (1), WP-1.7 (1), WP-1.8 (1), WP-3.2 (1) |
-| 5 values | 16 | WP-1.4 (1), WP-1.7 (2), WP-2.1 (1), WP-2.3 (2), WP-2.5 (2), WP-3.4 (4), WP-4.1 (1), WP-4.3 (1), WP-4.4 (1), WP-4.7 (1) |
+| 5 values | 17 | WP-1.4 (1), WP-1.5 (1), WP-1.7 (2), WP-2.1 (1), WP-2.3 (2), WP-2.5 (2), WP-3.4 (4), WP-4.1 (1), WP-4.3 (1), WP-4.4 (1), WP-4.7 (1) |
 | 6 tau | 6 | WP-1.6 (2), WP-4.1 (4) |
 | 7 scale | 4 | WP-4.2 (1), WP-4.3 (3) |
 | 8 conditional model | 20 | WP-1.2 (1), WP-1.8 (1), WP-2.1 (1), WP-2.2 (5), WP-2.3 (1), WP-3.1 (3), WP-3.2 (1), WP-3.3 (6), WP-4.1 (1) |
@@ -802,7 +802,7 @@ A sentence that is cut to fit ends in […]; the whole sentence, with every cond
 | FA:F5 | Vol(m004) as a number. | G:SE1, G:SE2 | WP-1.4, WP-1.5 | G:GM3, G:GM4 | — |
 | FA:F6 | the GUT normalisation of hypercharge (the tree weak angle at unification). | MC:HYP | WP-1.8 | — | P-374 |
 | FA:F7 | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | A:A04, A:A07 | WP-2.3, WP-3.4 | — | — |
-| V:SIX | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not […] | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, B:FRAME, S:S01, S:S02, TAG:LAMBDA | WP-1.4, WP-1.7, WP-2.1, WP-2.3, WP-2.5, WP-3.4, WP-4.1, WP-4.3, WP-4.7 | G:GM1, G:GM2, G:GM4 | P-355, P-384, P-446, P-517, P-586, P-596 |
+| V:SIX | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not […] | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, B:FRAME, S:S01, S:S02, S:S03, TAG:LAMBDA | WP-1.4, WP-1.5, WP-1.7, WP-2.1, WP-2.3, WP-2.5, WP-3.4, WP-4.1, WP-4.3, WP-4.7 | G:GM1, G:GM2, G:GM4 | P-355, P-384, P-446, P-517, P-586, P-596 |
 | T:RE | The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | — |
 | T:RULE | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the […] | T:FRAMING | WP-4.1 | G:GM2, G:GM4 | — |
 | PR:P9 | The extra neutral boson of the closing is not gaugeable on a chiral spectrum as it stands: the programme […] | MC:HYP | WP-1.8 | — | P-374 |
@@ -820,7 +820,7 @@ What would become a theorem if one open choice alone were closed:
 | T:FRAMING | T:RULE |
 | TAG:LAMBDA | FA:F1, FA:F2 |
 
-No headline result is among them. Of the map's six headline results, 4 are conditional results: G:ROOT waits on 2 open choices; MC:Z6 waits on 3 open choices; W:INDEX3 waits on 3 open choices; V:SIX waits on 15 open choices.
+No headline result is among them. Of the map's six headline results, 4 are conditional results: G:ROOT waits on 2 open choices; MC:Z6 waits on 3 open choices; W:INDEX3 waits on 3 open choices; V:SIX waits on 16 open choices.
 The other 2 are not yet results on main at all: T:IM (LANE-PROPOSED); E:L10 (LANE-PROPOSED).
 Closing one choice releases a lemma. The advisor seat's dry run found the same on the candidate frame, where every joint
 feeds every row.

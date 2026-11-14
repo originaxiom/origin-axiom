@@ -1753,16 +1753,18 @@
   {
    "form": false,
    "grades": [
+    "CHOSEN",
     "POSTULATED"
    ],
    "kinds": {
     "discrete": 1
    },
    "members": [
-    "G:SE1"
+    "G:SE1",
+    "S:S03"
    ],
    "name": "the selection criterion",
-   "note": "other criteria select other objects",
+   "note": "other criteria select other objects; the scoreboard lists it as its shared joint S03 since 2026-11-14 (B1943): one choice under two names",
    "packages": [
     "WP-1.5"
    ],
@@ -3365,18 +3367,19 @@
     "WP-1.6"
    ],
    "node_grades": {
-    "CHOSEN": 4,
+    "CHOSEN": 5,
     "DUTY": 1,
     "OPEN": 4,
     "POSTULATED": 2
    },
    "node_labels": {
     "n/a": 4,
-    "thread": 3,
+    "thread": 4,
     "weave": 4
    },
    "nodes": [
     "G:SE1",
+    "S:S03",
     "G:SE3",
     "G:FK9",
     "G:GAP4",
@@ -5288,7 +5291,7 @@
    "real": 5
   },
   "budget_items": 47,
-  "candidate_frame_joints": 13,
+  "candidate_frame_joints": 14,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
   "debts": 94,
@@ -5328,13 +5331,13 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 286,
-  "nodes_assigned": 134,
-  "nodes_needing_a_path": 134,
+  "map_nodes": 287,
+  "nodes_assigned": 135,
+  "nodes_needing_a_path": 135,
   "open_choices_under_each_conditional_headline": {
    "G:ROOT": 2,
    "MC:Z6": 3,
-   "V:SIX": 15,
+   "V:SIX": 16,
    "W:INDEX3": 3
   },
   "packages": 43,
@@ -5380,7 +5383,7 @@
    "WP-0.9",
    "WP-1.9"
   ],
-  "present_inputs": 65,
+  "present_inputs": 66,
   "relayed_rulings": 17,
   "rules_of_the_comparison": 12,
   "rulings_asked": 0,
@@ -5884,6 +5887,7 @@
    "not_counted": [],
    "packages": [
     "WP-1.4",
+    "WP-1.5",
     "WP-1.7",
     "WP-2.1",
     "WP-2.3",
@@ -5908,6 +5912,7 @@
     "B:FRAME",
     "S:S01",
     "S:S02",
+    "S:S03",
     "TAG:LAMBDA"
    ]
   },

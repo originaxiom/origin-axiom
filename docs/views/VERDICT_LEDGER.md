@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1639 of 1639 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1640 of 1640 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1141)
+## PROVED (1142)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1153,6 +1153,7 @@
 | `B1940` | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3 falls below 1e-15 there, and neither a 50-digit SVD nor the closed-form residues repair it; the frame redone in mpmath passes tau -> tau + 1 to 1e-18 at heights 12 to 45 and matches the double frame where that is sound; the area options' mixing moduli move by up to 0.068 in ln, their mass ratios by under 1e-4, the move-count options not at all; a corrected values file and version 3 of the run's script are sealed beside B1932's. 0 of 19.” |  | 0 |
 | `B1941` | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.” |  | 0 |
 | `B1942` | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.” |  | 0 |
+| `B1943` | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (384)
 

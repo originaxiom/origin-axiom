@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1639 |
-| … PROVED | 1141 |
+| arcs with a verdict file | 1640 |
+| … PROVED | 1142 |
 | … NEGATIVE | 384 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 | B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
 | B1940 | PROVED | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3…” |
@@ -42,7 +43,6 @@
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 | B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
 | B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
-| B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, late night: AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (B1942).** X-SURVIVAL's S3 recomputed on main's frame: at a point of exact order 15 the lepton twists are those at the order-5 point 6w, so the leptons' average over order 15 is the down rows' order-5 average (to roundoff, a planted charge shift caught), while the quarks move by 20 % to over 100 %. The two candidate levels say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks; order 15 (the prime 3) keeps the leptons and moves the quarks. Which level the object picks is open (P-845). Also landed: the suite's stale locks mended, the rule's…”
+“LATEST (2026-11-14, S306p, late night: THE ACT FIXES ONE LINE OF ORDER 5 AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (B1943).** LR fixes up to sign exactly the four non-zero points of one order-5 line (Smith forms (1, 1), (1, 5); every level to 60), registered as T-THE-ACTS-FIXED-LINE. Frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN; SE1, counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 12), the honest count. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 
