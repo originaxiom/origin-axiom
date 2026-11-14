@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M20 — 2026-11-14 — W-C8 gains part 5: the rivals' frame-level test (B1925)
+
+At the author's question (should the golden act be chosen over the other metallic acts?), main ran the structural half
+of the test (B1925). The tick's structure, tonight's parity law, holds for every odd metallic act with a prime level,
+so bronze (m = 3, level 13) is a full rival there. Only the left-over separates them, and SE1 turns out to be the same
+condition as "the frustrated level is 5", whose group is 2I. **Part 5 of W-C8:** compute the bronze rival in the frames
+beside m000, its root s464 (`b++LLLRRR`) and its tick bundle m005 (`b-+RRR`), and report each place it breaks or
+differs from the golden pair. Part 1's metallic extension is B1925's independent second computation. Commit your
+expectations before each part, as for the others.
+
 ### M19 — 2026-11-13 — your main goal from now: the one-tick object and the foundational system (W-C8, approved, run straight through)
 
 **Why you, and why first.** The author asks that this be your priority and main goal. It continues his own work with you

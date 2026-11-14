@@ -16994,6 +16994,41 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1924": {
+   "slug": "the read out on the whole first runs threads converge and the twin fades",
+   "motifs": [
+    "coupling",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1925": {
+   "slug": "the selection tested by changing it the metallic rivals bronze keeps the tick structure only nothing left over picks golden",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [
+    "B157",
+    "B176",
+    "B243",
+    "B996",
+    "B997"
+   ],
+   "obstacle": "selector",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

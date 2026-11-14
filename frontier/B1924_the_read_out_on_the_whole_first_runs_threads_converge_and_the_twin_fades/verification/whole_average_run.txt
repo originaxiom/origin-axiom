@@ -1,0 +1,5 @@
+n = 8: 20 allowed words (geodesic lengths 5.7 to 7.3); sampling error of R 4.4e-02; change of R from the previous n -
+n = 10: 20 allowed words (geodesic lengths 5.8 to 9.2); sampling error of R 3.4e-02; change of R from the previous n 7.0e-02
+n = 12: 20 allowed words (geodesic lengths 6.2 to 11.1); sampling error of R 3.6e-02; change of R from the previous n 5.4e-02
+n = 14: 20 allowed words (geodesic lengths 8.1 to 12.5); sampling error of R 2.9e-02; change of R from the previous n 5.7e-02
+n = 16: 20 allowed words (geodesic lengths 9.2 to 13.9); sampling error of R 2.5e-02; change of R from the previous n 7.3e-02

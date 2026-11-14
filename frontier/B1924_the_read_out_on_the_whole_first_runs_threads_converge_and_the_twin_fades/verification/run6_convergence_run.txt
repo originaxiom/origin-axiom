@@ -1,0 +1,1 @@
+run of 6, ratios averaged: 128 vs 192 nodes 5.7e-04; window spread at 128 1.5e-03

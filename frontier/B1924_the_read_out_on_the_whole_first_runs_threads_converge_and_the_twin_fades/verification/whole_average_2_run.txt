@@ -1,0 +1,8 @@
+n = 10, mark: 60 words; largest sampling error 2.0e-02
+n = 10, twin: 60 words; largest sampling error 1.9e-02
+n = 16, mark: 60 words; largest sampling error 1.7e-02
+n = 16, twin: 60 words; largest sampling error 1.6e-02
+mark: change from n = 10 to 16 in units of the combined error: median 1.57, max 2.98
+twin: change from n = 10 to 16 in units of the combined error: median 1.81, max 2.94
+n = 10: the mark against its twin, in units of the combined error: median 2.38, max 4.11
+n = 16: the mark against its twin, in units of the combined error: median 1.19, max 2.05

@@ -1,0 +1,5 @@
+the golden ground LR (LR): geodesic length 1.925; window independence: max |difference| of averaged log ratios 1.0e-01
+the run of 6 with one period (LLLLLLRLR): geodesic length 6.178; window independence: max |difference| of averaged log ratios 1.8e-01
+n = 8: 6 allowed words sampled (lengths 5.66 to 7.22); averages written, not printed
+n = 10: 6 allowed words sampled (lengths 7.52 to 8.93); averages written, not printed
+n = 12: 6 allowed words sampled (lengths 8.69 to 10.57); averages written, not printed

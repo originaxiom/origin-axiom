@@ -1,0 +1,4 @@
+hyperbolic A in SL(2,Z) with entries up to 7: 360; torsion |2 - tr| and level |2 + tr| by Smith form: 360 agree; for tr > 0, torsion-free <=> tr = 3 <=> level 5: 360 agree; -A exchanges the two orders: 360 agree
+|SL(2, Z/N)|: brute force equals the formula for N = 2..7: True; orders {2: 6, 3: 24, 4: 48, 5: 120, 6: 144, 7: 336}; at most 120 (the order of 2I) exactly for N in [2, 3, 4, 5]
+b++LR: m004(0,0), H1 = Z
+b+-LR: m003(0,0), H1 = Z/5 + Z

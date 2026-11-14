@@ -1,0 +1,27 @@
+{
+ "id": "B1925",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B997",
+  "B1859",
+  "B1914",
+  "B1867",
+  "B1869"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none",
+  "object": "the metallic acts L^m R^m and their ticks [[m,1],[1,0]] for m = 1..7; every hyperbolic A in SL(2,Z) with entries up to 7",
+  "reach": "class",
+  "hypotheses": "exact integer arithmetic; the structural level only (no frame computed on the rivals); SnapPy census names; the identity det(A -+ I) = 2 -+ tr A for det A = 1"
+ },
+ "claim_one_line": "THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a prime frustrated level, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for every odd metallic m with m^2 + 4 prime (1, 3, 5, 7) and fails for even m, so it does not single out the golden; what separates golden from bronze is the left-over (bronze: (Z/3)^2 in its root s464, Z/3 in its tick bundle m005). And SE1 is one condition with two readings: for a positive-trace hyperbolic act, torsion-free <=> tr = 3 <=> the frustrated level is 5 <=> (B997's bound) the level's group SL(2, Z/N) is no larger than 2I; the act's opposite -A exchanges the torsion order |2 - tr| with the level |2 + tr| (m004 against m003). Every selection rule on record picks the golden; SE1 stays POSTULATED. 0 of 19.",
+ "weave_or_thread": "weave (the metallic family of grounds, all words of the weave)"
+}

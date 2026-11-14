@@ -1,0 +1,11 @@
+pure noise: median |z| 0.67, share above 2: 5%
+10 mark against 16 mark (independent words): median |z| 0.78, share above 2: 4%, largest 2.98 (48 components)
+16 mark against 22 mark (independent words): median |z| 0.94, share above 2: 0%, largest 1.88 (48 components)
+10 twin against 16 twin (independent words): median |z| 0.85, share above 2: 12%, largest 2.94 (48 components)
+16 twin against 22 twin (independent words): median |z| 0.67, share above 2: 2%, largest 2.21 (48 components)
+n = 10, the mark against its twin, PAIRED: median |z| 2.35, share above 2: 58%, largest 3.19 (48 components)
+n = 10, the mark against its twin, unpaired (for comparison): median |z| 1.83, share above 2: 44%, largest 4.11 (48 components)
+n = 16, the mark against its twin, PAIRED: median |z| 0.92, share above 2: 4%, largest 2.11 (48 components)
+n = 16, the mark against its twin, unpaired (for comparison): median |z| 0.88, share above 2: 4%, largest 2.05 (48 components)
+n = 22, the mark against its twin, PAIRED: median |z| 0.57, share above 2: 0%, largest 1.77 (48 components)
+n = 22, the mark against its twin, unpaired (for comparison): median |z| 0.51, share above 2: 0%, largest 1.67 (48 components)

@@ -1,0 +1,233 @@
+[
+ {
+  "m": 1,
+  "G_is_LmRm": true,
+  "trace_G": 3,
+  "N": 5,
+  "N_prime": true,
+  "root_torsion_smith": [
+   1,
+   1
+  ],
+  "tick_torsion_smith": [
+   1,
+   1
+  ],
+  "frustrated_points": 5,
+  "one_cyclic_line": true,
+  "tick_scalar": 3,
+  "tick_scalar_squared_is_minus_1": true,
+  "undoing_scalar": 2,
+  "parity_law": true,
+  "root": {
+   "name": "m004(0,0)",
+   "volume": 2.029883,
+   "H1": "Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+R",
+   "name": "m000(0,0)",
+   "volume": 1.014942,
+   "H1": "Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 2,
+  "G_is_LmRm": true,
+  "trace_G": 6,
+  "N": 8,
+  "N_prime": false,
+  "root_torsion_smith": [
+   2,
+   2
+  ],
+  "tick_torsion_smith": [
+   1,
+   2
+  ],
+  "frustrated_points": 8,
+  "one_cyclic_line": false,
+  "tick_scalar": null,
+  "tick_scalar_squared_is_minus_1": false,
+  "undoing_scalar": null,
+  "parity_law": null,
+  "root": {
+   "name": "m136(0,0)",
+   "volume": 3.663862,
+   "H1": "Z/2 + Z/2 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RR",
+   "name": "m001(0,0)",
+   "volume": 1.831931,
+   "H1": "Z/2 + Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 3,
+  "G_is_LmRm": true,
+  "trace_G": 11,
+  "N": 13,
+  "N_prime": true,
+  "root_torsion_smith": [
+   3,
+   3
+  ],
+  "tick_torsion_smith": [
+   1,
+   3
+  ],
+  "frustrated_points": 13,
+  "one_cyclic_line": true,
+  "tick_scalar": 8,
+  "tick_scalar_squared_is_minus_1": true,
+  "undoing_scalar": 5,
+  "parity_law": true,
+  "root": {
+   "name": "s464(0,0)",
+   "volume": 4.813819,
+   "H1": "Z/3 + Z/3 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RRR",
+   "name": "m005(0,0)",
+   "volume": 2.40691,
+   "H1": "Z/3 + Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 4,
+  "G_is_LmRm": true,
+  "trace_G": 18,
+  "N": 20,
+  "N_prime": false,
+  "root_torsion_smith": [
+   4,
+   4
+  ],
+  "tick_torsion_smith": [
+   1,
+   4
+  ],
+  "frustrated_points": 20,
+  "one_cyclic_line": false,
+  "tick_scalar": null,
+  "tick_scalar_squared_is_minus_1": false,
+  "undoing_scalar": null,
+  "parity_law": null,
+  "root": {
+   "name": "t03910(0,0)",
+   "volume": 5.573609,
+   "H1": "Z/4 + Z/4 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RRRR",
+   "name": "m014(0,0)",
+   "volume": 2.786805,
+   "H1": "Z/4 + Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 5,
+  "G_is_LmRm": true,
+  "trace_G": 27,
+  "N": 29,
+  "N_prime": true,
+  "root_torsion_smith": [
+   5,
+   5
+  ],
+  "tick_torsion_smith": [
+   1,
+   5
+  ],
+  "frustrated_points": 29,
+  "one_cyclic_line": true,
+  "tick_scalar": 17,
+  "tick_scalar_squared_is_minus_1": true,
+  "undoing_scalar": 12,
+  "parity_law": true,
+  "root": {
+   "name": "o10_029743(0,0)",
+   "volume": 6.066992,
+   "H1": "Z/5 + Z/5 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RRRRR",
+   "name": "m024(0,0)",
+   "volume": 3.033496,
+   "H1": "Z/5 + Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 6,
+  "G_is_LmRm": true,
+  "trace_G": 38,
+  "N": 40,
+  "N_prime": false,
+  "root_torsion_smith": [
+   6,
+   6
+  ],
+  "tick_torsion_smith": [
+   1,
+   6
+  ],
+  "frustrated_points": 40,
+  "one_cyclic_line": false,
+  "tick_scalar": null,
+  "tick_scalar_squared_is_minus_1": false,
+  "undoing_scalar": null,
+  "parity_law": null,
+  "root": {
+   "name": "-",
+   "volume": 6.391391,
+   "H1": "Z/6 + Z/6 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RRRRRR",
+   "name": "x000(0,0)",
+   "volume": 3.195696,
+   "H1": "Z/6 + Z",
+   "orientable": false
+  }
+ },
+ {
+  "m": 7,
+  "G_is_LmRm": true,
+  "trace_G": 51,
+  "N": 53,
+  "N_prime": true,
+  "root_torsion_smith": [
+   7,
+   7
+  ],
+  "tick_torsion_smith": [
+   1,
+   7
+  ],
+  "frustrated_points": 53,
+  "one_cyclic_line": true,
+  "tick_scalar": 30,
+  "tick_scalar_squared_is_minus_1": true,
+  "undoing_scalar": 23,
+  "parity_law": true,
+  "root": {
+   "name": "-",
+   "volume": 6.610601,
+   "H1": "Z/7 + Z/7 + Z"
+  },
+  "tick_bundle": {
+   "snappy": "b-+RRRRRRR",
+   "name": "y000(0,0)",
+   "volume": 3.305301,
+   "H1": "Z/7 + Z",
+   "orientable": false
+  }
+ }
+]

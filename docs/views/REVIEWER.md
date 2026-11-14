@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1618** |
-| words of findings prose | **1,438,881** |
+| research arcs with findings | **1620** |
+| words of findings prose | **1,441,732** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1618** (100.0 %) |
+| arcs carrying an authored verdict | **1620** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1122 |
+| PROVED | 1123 |
 | NEGATIVE | 384 |
-| OPEN | 99 |
+| OPEN | 100 |
 | RETRACTED | 13 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1923`** (1746 words, 0 locks)  
-THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's reading of what each wall teaches; B1884's false summary sentence and B997's unnarrowed law-map rows mended; computed: in the Weil representation of SL(2, F_5) the twin scaling of the additive character by 2 exchanges the triplet 3 (trace (1-sqrt5)/2 on T) and 3' ((1+sqrt5)/2), a square scaling does not. 0 of 19.  
-`B1923_the_load_bearing_negatives_reexamined_and_the_twin_chooses_the_icosahedral_triplet/FINDINGS.md`
+**PROVED — `B1925`** (1468 words, 0 locks)  
+THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a prime frustrated level, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for every odd metallic m with m^2 + 4 prime (1, 3, 5, 7) and fails for even m, so it does not single out the golden; what separates golden from bronze is the left-over (bronze: (Z/3)^2 in its root s464, Z/3 in its tick bundle m005). And SE1 is one condition with two readings: for a positive-trace hyperbolic act, torsion-free <=> tr = 3 <=> the frustrated level is 5 <=> (B997's bound) the level's group SL(2, Z/N) is no larger than 2I; the act's opposite -A exchanges the torsion order |2 - tr| with the level |2 + tr| (m004 against m003). Every selection rule on record picks the golden; SE1 stays POSTULATED. 0 of 19.  
+`B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

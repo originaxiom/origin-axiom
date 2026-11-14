@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1618 |
-| … PROVED | 1122 |
+| arcs with a verdict file | 1620 |
+| … PROVED | 1123 |
 | … NEGATIVE | 384 |
-| … OPEN | 99 |
+| … OPEN | 100 |
 | … RETRACTED | 13 |
 | register points | 846 |
 | … QUEUED | 305 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a prime frustrated level, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for eve… |
+| B1924 | OPEN | THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by lengt… |
 | B1923 | PROVED | THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's… |
 | B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
 | B1921 | PROVED | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,… |
@@ -41,8 +43,6 @@
 | B1916 | PROVED | REVIEW 81: two readers that built none of it each caught 2 of 6 planted faults, the same two numbers off their source, and missed every wording fault (a stronger label, a wider claim, a check that cannot fail, a session… |
 | B1915 | PROVED | [CORRECTED 2026-11-13: the relation of the tick to 'even ticks observed' was ruled on 2026-11-11 (P-771; GENESIS v1.65): every tick is in the ledger, so the hand with the twin is one bit in the whole, the hand, and the… |
 | B1914 | PROVED | THE LINE'S LAST BIT GOES WITH THE HAND (decision 4; P-718's Q1): the extension condition gives what the ground already gives, order 5 and the eigenline (B1867, P-718), and no history can separate the line's twins (an id… |
-| B1913 | PROVED | THE FLAT AREA IS NOT ON THE CURVE, SO THE READ-OUT'S MEASURE IS FORCED (P-776's condition R6): the state's density ∣f∣^2 is unchanged by the group, the flat density ∣f∣^2/y^2 changes by ∣cz+d∣^4 (78.1456 and 21.5296 for… |
-| B1912 | PROVED | THE GOLDEN STATE IS THE LOWEST TWIN-ODD STATE ON THE LEVEL-5 CURVE, AND SIMPLE (P-783; the read-out on the whole's condition R3): for 0.02 <= R <= 3.40, in all four classes of Maass cusp forms on Gamma0(5) with the quad… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-LATEST (2026-11-13, late, S306p: THE CHANNEL NORM IS THE SHIFTED LATTICE'S KRONECKER LIMIT (B1919; B1918 retracted the same day); ITS LINE PART'S THREAD AVERAGE IS THE SHIFTED PARTIAL ZETA (B1920); ONE INVARIANT END (B1921); THE FRAME PERIODIC ALONG A THREAD EXACTLY AT ITS OWN LINE (B1922); THE LOAD-BEARING NEGATIVES RE-EXAMINED, THE TWIN EXCHANGES THE ICOSAHEDRAL TRIPLETS (B1923).** A negative is now banked only after an independent second computation, and every wall carries what it teaches (P-842). The read-out as a thread average at the thread's own line is the leading candidate for P-776. 0 of 19.
+LATEST (2026-11-14, S306p: THE READ-OUT ON THE WHOLE SETTLES AND THE TWIN FADES, FIRST RUNS (B1924, OPEN); THE SELECTION TESTED BY CHANGING IT, AND SE1 IS THE LEVEL FIVE (B1925); THE WEB SEAT'S MAIN GOAL IS THE ONE-TICK OBJECT m000 (W-C8, P-846).** B1924: with P-845's condition the read-out changes from 16 to 22 moves by no more than its sampling error (about 1.3e-2), and the mark and its twin, clearly different at 10 moves, are not told apart at 16 or 22 (paired jackknife); the limit is not proved, and a seat's second computation, longer runs and the end are owed before tau and the reading point leave the budget. B1925: the tick's structure (a prime frustrated level, the tick a square root…
 
 ## Completeness (nothing skipped silently)
 
