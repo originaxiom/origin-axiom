@@ -1,0 +1,159 @@
+{
+  "card": "A2-P332",
+  "checks": {
+    "substrate": {
+      "octonion_gram_det": 1,
+      "split_box_isotropics": 1920,
+      "division_box_isotropics": 0,
+      "moufang_basis_triples": "512/512",
+      "norm_multiplicativity_random": "200/200",
+      "freudenthal_and_three_det_formulas": "200/200"
+    },
+    "explicit_bridges": {
+      "seedD_1step_to_E33_E22": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      },
+      "seedD_box9_to_E33_E22": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      },
+      "seedD_to_seedA_E11_E22": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      },
+      "exotic_minus7_8_2step_to_E33_E22": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      },
+      "exotic_minus7_8_to_seedA_E11_E22": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      }
+    },
+    "stabiliser_and_L9": {
+      "derivation_dimensions": {
+        "Der_J3_f4": {
+          "Q": 52,
+          "F2": 53,
+          "F3": 52,
+          "F5": 52
+        },
+        "Der_J3_E11_so9": {
+          "Q": 36,
+          "F2": 36,
+          "F3": 36,
+          "F5": 36
+        },
+        "Der_J3_E11_E22_so8": {
+          "Q": 28,
+          "F2": 28,
+          "F3": 28,
+          "F5": 28
+        }
+      },
+      "L9_gram_diagonal": [
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "L9_gram_det": -2,
+      "L9_is_even": true,
+      "B1_equals_Eichler_transvection_verified": "102/102"
+    },
+    "census_120": {
+      "pairs_reduced_to_E11_E22": "120/120",
+      "max_peirce0_euclidean_steps": 7,
+      "route_A_binary_cubic_pencil_identically_zero": "120/120",
+      "sample_scrambled_matrix_certification": {
+        "integral": true,
+        "det": 1,
+        "unimodular_inverse_exact": true,
+        "fixes_identity": true,
+        "symmetric_basis_pairs_ok": 378,
+        "symmetric_basis_pairs_total": 378,
+        "cubic_norm_random_ok": 50,
+        "cubic_norm_random_total": 50,
+        "in_F4Z": true
+      }
+    },
+    "planted_controls": {
+      "CTL_P332_1_non_isotropic_octonion": {
+        "caught": true,
+        "D_cubed_nonzero": true,
+        "symmetric_basis_pairs_ok": 268
+      },
+      "CTL_P332_2_krutelevich_NP_group_element_not_in_F4Z": {
+        "caught": true,
+        "det_SL27": 1,
+        "cubic_norm_preserved": "50/50",
+        "fixes_identity": false,
+        "symmetric_basis_pairs_ok": 240
+      },
+      "CTL_P332_3_division_form_rigidity": {
+        "caught": true,
+        "integral_diagonal_solutions_in_box": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}
