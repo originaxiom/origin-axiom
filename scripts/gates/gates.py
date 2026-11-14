@@ -160,7 +160,9 @@ NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in h
 LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
 
 
-RAISED_BY_NAME = {}    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
+RAISED_BY_NAME = {    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
+    "docs/ATTRIBUTION_BASELINE.json": {"docs/archive/paths/MECHANISM_CLASSES.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/paths/PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/GOVERNANCE.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's", "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md": "2026-11-13 -- the file moved under docs/archive/ with its ceiling (docs/REORGANIZATIONS.md, its third entry); the ceiling is its old path's"},
+}
 
 
 def ceiling_rises(path, now, then, since="the anchor", named=None):
@@ -248,8 +250,10 @@ FRAMING_EXEMPT = {"GOVERNANCE.md", "scripts/gates/gates.py", "tests/test_repo_ga
                   # found when the gate first read a .json, 2026-11-11 (WP-0.7, PV21), and frozen as found: Review 38's audit of
                   # this gate, which quotes a banned phrase to say that the gate compares letter for letter
                   "frontier/B887_gate_audit/audit_reports.json"}
-FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
-                      "philosophy", "story", "src", "scripts")
+FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "src", "scripts")
+# 2026-11-13: speculations/, philosophy/ and story/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry) and are
+# read there with docs/; legacy/, never in scope, moved there too and stays out of it, as it was.
+FRAMING_OUT_OF_SCOPE = ("docs/archive/legacy/",)
 # WP-0.7 (PV21): the gate read three kinds of file, .md, .py and .txt, and compared letter for letter.  A banned phrase in a .tex
 # file passed, and so did one in capitals: B887's audit said so in August, in a .json the gate did not read.  It now reads every
 # file in its folders that is text, whatever its name ends in, and compares as a reader does (_framing_plain).  What it does
@@ -275,6 +279,8 @@ def gate_framing():
     for d in FRAMING_SCOPE_DIRS:
         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
             if ".git" in dirpath or "__pycache__" in dirpath:
+                continue
+            if (os.path.relpath(dirpath, ROOT).replace(os.sep, "/") + "/").startswith(FRAMING_OUT_OF_SCOPE):
                 continue
             for n in names:
                 files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
@@ -548,6 +554,7 @@ ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
                         # paths verbatim as provenance pins — editing them would break their seals)
                         "frontier/B742_negatives_hunt_p1/reviews/")
+ATTR_EXEMPT_PREFIXES += ("docs/archive/legacy/",)   # 2026-11-13: legacy/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this gate hunts
     "tests/test_public_surface_scan.py", "tests/test_flagship_paper.py",
     "tests/test_sl4_dehn_filling_paper.py"}
@@ -1720,6 +1727,8 @@ def artifact_hash_state(repo=None):
                 out.append((key, lst, name, "NO NAME"))
                 continue
             cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+                cands.append(os.path.normpath(os.path.join("docs", "archive", name)))
             hit = next((c for c in cands if c in tracked), None)
             if hit is None:
                 on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
@@ -1809,6 +1818,8 @@ def hash_list_state(repo=None, _resolved=None):
                 out.append((key, lst, name, "NO NAME", "X"))
                 continue
             every = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            if name.split("/")[0] in ("legacy", "story", "paths", "speculations", "philosophy"):     # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
+                every.append(os.path.normpath(os.path.join("docs", "archive", name)))
             cands = []
             for c in every:
                 if c in tracked and c not in cands:
@@ -2368,7 +2379,8 @@ def gate_seen_first():
 
 
 GENESIS_POINTERS = ("README.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/THE_FRAMEWORK.md", "docs/THE_CLAIM.md",
-                    "docs/THE_END_TO_END_CHAIN.md", "philosophy/P019_the_genesis_axiom_chain.md", "philosophy/P000_what_is_not_nothing.md")
+                    "docs/THE_END_TO_END_CHAIN.md", "docs/archive/philosophy/P019_the_genesis_axiom_chain.md",
+                    "docs/archive/philosophy/P000_what_is_not_nothing.md")  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 GENESIS_ID_RE = re.compile(r"\b(?:PF\d|GM\d[a-d]?|SE\d|T-ROOT|F-[A-Z]{2}|FK\d+|GAP\d)\b")
 GENESIS_USERS = ("README.md", "docs/THE_PROGRAMME_SO_FAR.md", "WORKING_RULES.md", "docs/OPEN_LEADS.md", "docs/THE_FOUNDATION_LOCK_PLAN.md", "docs/THE_CLAIM.md",
                  "docs/THE_FRAMEWORK.md", "docs/UNIQUENESS_THEOREM.md", "docs/THEOREM_LEDGER.md", "docs/LAW_MAP.md")
@@ -2954,6 +2966,7 @@ ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a pla
 # where a sentence of arrival would do most harm, and they were not read).  ARRIVAL_FROZEN is filled by measurement at the rule's
 # commit; a key in it that no longer matches anything is reported, so the list can only be shortened.
 ARRIVAL_REACH = (("", ".md", False), ("docs", ".md", True), ("papers", ".md", True), ("papers", ".tex", True))     # (folder, suffix, any depth)
+ARRIVAL_OUT_OF_REACH = tuple("docs/archive/%s/" % d for d in ("legacy", "story", "paths", "speculations", "philosophy"))   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): they were not read before it
 ARRIVAL_FROZEN = frozenset(("704ca4704908",      # docs/CLOSURE_MASTERPLAN.md, a plan of 2026-07-24: "the program derived the Standard Model's *grammar*"
                             "86b7eaa2768f",      # docs/THE_STATE_2026-09-06.md, a dated state page: "derives the Standard Model's gauge skeleton ... and derives none of"
                             "518c8ca26d3b"))     # docs/WHAT_WOULD_COUNT.md, the owner's question of 2026-08-09, quoted
@@ -2970,6 +2983,7 @@ def _arrival_files(root):
     out = []
     for rel in sorted(names):
         rel = rel.replace(os.sep, "/")
+        if rel.startswith(ARRIVAL_OUT_OF_REACH): continue
         for folder, suffix, deep in ARRIVAL_REACH:
             if not rel.endswith(suffix): continue
             head = os.path.dirname(rel)

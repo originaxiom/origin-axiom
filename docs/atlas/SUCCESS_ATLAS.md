@@ -67,7 +67,7 @@ These are not all claims, but they guide future work:
 
 The project's center of gravity moved from the "from-nothing" spine above to a single, fully-recognized
 representation-theory object. Surviving structures, strongest gate first (full ledger in `papers/VALIDATION_LEDGER.md`,
-narrative in `story/`, background in `knowledge/`):
+narrative in `docs/archive/story/`, background in `knowledge/`):
 
 - **`M⁴ = L` symbolic-exact at `SL(4)`** over `ℚ(ω)` (B89) — the figure-eight A-polynomial "degree = rank" relation
   proved exactly (`knowledge/K004`).

@@ -10,10 +10,10 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 | if you are about to… | read FIRST |
 |---|---|
 | **anything at all, first session** | `GENESIS.md` (the foundation document since 2026-10-02: A = LR, the forks; amended only by `adoption/amend.py`), then `docs/CAMPAIGN_STATUS.md` (its LATEST entries: the current state) and `docs/THE_PATTERN_MEDITATION_3.md` (why no value has been derived); the older entry, `docs/THE_END_TO_END_CHAIN.md` **PART VIII** (the whole chain in one paragraph), is kept |
-| **question the framework's foundations** | `philosophy/P000_what_is_not_nothing.md` — **the framework does NOT start from a 3-manifold; m004 is DERIVED at C6** |
+| **question the framework's foundations** | `docs/archive/philosophy/P000_what_is_not_nothing.md` — **the framework does NOT start from a 3-manifold; m004 is DERIVED at C6** |
 | **ask "is this novel / is this ours?"** | `THE_END_TO_END_CHAIN.md` **PART 0** (+ §0.1's corrected attribution) — the claim is a COST claim (ZERO dials · THREE priced axioms · TWO undetermined), not a priority claim; `docs/NOVELTY_SWEEP_LEDGER.md` for what is already known outside |
 | **call something a choice / say "E₆ is chosen"** | `THE_END_TO_END_CHAIN.md` **PART 0.5** — the forcedness census: 39 of 43 links forced, the stretch C6→C17 axiom-free, **E₆ handed over at the object's hyperbolic ℚ(√−3) end** (2T→E₆, McKay; B981/B248 — the "level 15 factors" CRT reading withdrawn, cc3 1a0b5a90); gate `scripts/checks/forcedness_census.py` (B1123) |
-| **touch a gate or a firewall** | `WORKING_RULES.md` §6 (**Gate 5 = no SM quantities into CLAIMS.md — an OUTPUT firewall; zero-dials is guarded by construction, not by Gate 5**) · `philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` |
+| **touch a gate or a firewall** | `WORKING_RULES.md` §6 (**Gate 5 = no SM quantities into CLAIMS.md — an OUTPUT firewall; zero-dials is guarded by construction, not by Gate 5**) · `docs/archive/philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` |
 | **compare anything to measured physics** | `docs/INPUT_COMPLETENESS_LEDGER.md` — twelve items **plus the crossing lane's R1–R11, BOTH filled in the prereg as rows** (THE RECONCILIATION), before sealing; fetches state their release and check the mirror |
 | **claim something is absent / unprecedented** | **check the aliases first**: `docs/CLOUD_ALIAS_TABLE.md` (the qB/qL resolver) and `TERMINOLOGY.md`'s multi-referent registers — one object wears many names here (one field `K` appears as `13³`, `√77`, `953`, "the S₃ cubic", "the weight field"). **A search result you do not open is not a search result.** |
 | **reuse machinery** | `docs/TOOLBOX_LIVE.md` — the live one-pager (the historical body is frozen at `docs/TOOLBOX.md`) |
@@ -72,11 +72,11 @@ model, GOVERNANCE §1/§9; this map says what to read for the current state.)*
 `docs/archive/AUDIT_REPORT.md` (2026-05-22 consolidation) · `docs/SESSION3_SYNTHESIS.md` ·
 `docs/CROSS_SESSION_2026-06-11_disposition.md` · `docs/STRATEGIC_SYNTHESIS.md` (2026-06) ·
 `docs/UNIFIED_STATE.md` · `docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` (2026-07-01) ·
-`legacy/` (frozen prior history, GOVERNANCE §9) · `ROADMAP.md` (phase-level, low-churn)
+`docs/archive/legacy/` (frozen prior history, GOVERNANCE §9) · `ROADMAP.md` (phase-level, low-churn)
 
 ## The governed rooms (one-way firewall; never promote to CLAIMS)
 
-`speculations/` · `philosophy/` · `story/` · `knowledge/` — each with its own GOVERNANCE file; see
+`docs/archive/speculations/` · `docs/archive/philosophy/` · `docs/archive/story/` · `knowledge/` — each with its own GOVERNANCE file; see
 `ARCHITECTURE.md` for the rules. Surveyed 2026-07-03: no room makes ledger-state assertions — their
 content is self-describing and unaffected by the promotion audit.
 

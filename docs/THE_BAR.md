@@ -18,7 +18,7 @@ a rarity screen. No grade on the record changed.
 
 **Why.** With hundreds of states, several frames, many levels and several end conditions, a Standard-Model-like feature
 somewhere is expected by chance (GENESIS GAP4). The record's pieces were written for value matches and single structures:
-- the emergence bar, `philosophy/THE_ORIGIN_POSTULATE.md` (FORCED, UNSOUGHT, EXACT, CONTROLLED);
+- the emergence bar, `docs/archive/philosophy/THE_ORIGIN_POSTULATE.md` (FORCED, UNSOUGHT, EXACT, CONTROLLED);
 - `docs/WHAT_WOULD_COUNT.md` §3 (DERIVED, REPRODUCED, FITTED);
 - B614's look-elsewhere gate;
 - `docs/INPUT_COMPLETENESS_LEDGER.md` rows 7–8;

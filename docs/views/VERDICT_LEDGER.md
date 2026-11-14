@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1626 of 1626 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1627 of 1627 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1131)
+## PROVED (1132)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1143,6 +1143,7 @@
 | `B1927` | “THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log|tau| to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read with it repeats along a thread at its own line with nothing chosen (1.3e-13). Both conventions keep every channel positive (22 767 nodes); they give different read-outs (paired median |z| about 20). The maximal-horoball end has a corner along the arc |tau| = 1 and its images (ratio 1.99, against 4 for a smooth end), the length-2 end does not (3.96): requiring the end to be real-analytic in tau like the rest of the frame selects the horocycle of length 2. The continuous end is gone; the remaining bit is replaced by a stated regularity condition. 0 of 19.” |  | 0 |
 | `B1928` | “[UPGRADED 2026-11-14 from OPEN on agy-exp's independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (OPEN: a proof sketch with three hypotheses unchecked): the letters' images generate SL(2, F5), which is perfect and acts transitively on the 24 points, so closed orbits equidistribute with their holonomy and R_n -> integral of F-bar against the path measure, the same at the mark, its twin and every point of order 5 (the twin's fading a theorem, the reading point removed). Predicted and confirmed: the ergodic integral of F-bar along 3 000 unconstrained words (error 6.6e-4) agrees with B1924's read-outs at n = 22 and 28, mark and twin (medians 0.46 to 0.76; one flagged sample 1.08); with the canonical end, medians 0.84 to 1.18. A seat's check of the proof is owed. 0 of 19.” |  | 0 |
 | `B1929` | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc by the SM seat, proved by agy-exp through the Siegel functions' transformation law). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.” |  | 0 |
+| `B1930` | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.” |  | 0 |
 
 ## NEGATIVE (384)
 

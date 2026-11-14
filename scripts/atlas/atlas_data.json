@@ -17182,6 +17182,17 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1930": {
+   "slug": "the foundation at version 1 68",
+   "motifs": [
+    "measurement"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

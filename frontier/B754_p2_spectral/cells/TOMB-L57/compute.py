@@ -76,7 +76,7 @@ print("TOMB-L57 x the frozen spectral face: is the crossover level level-indexed
 print("=" * 78)
 
 # ---------------------------------------------------------------- [0] kill source
-tomb = (REPO / "speculations" / "TOMBSTONES.md").read_text()
+tomb = (REPO / "docs" / "archive" / "speculations" / "TOMBSTONES.md").read_text()   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
 check("kill source: TOMBSTONES.md carries the banked kill verbatim",
       "TESTED-NEGATIVE / DEAD.** Tested across `m` and killed cleanly (Chat-1 seven-hints A4)" in tomb
       and "k≈4`, matching the rank" in tomb)

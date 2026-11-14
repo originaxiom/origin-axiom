@@ -297,8 +297,8 @@ PROVENANCE.md
 README.md
 ROADMAP.md
 frontier/README.md
-paths/PATHS.md
-paths/README.md
+docs/archive/paths/PATHS.md
+docs/archive/paths/README.md
 ```
 
 Do not overwrite these from `tem_zip`. Update them manually only when a migration

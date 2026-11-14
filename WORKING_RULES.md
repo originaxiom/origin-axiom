@@ -78,7 +78,7 @@ Deep material: `GOVERNANCE.md` (the constitution), `METHOD.md`,
    firewall blocks overclaims, not mathematics; the gate is open by default
    for mature computed steps.
 6a. **Gate 5-Q stands for phenomenology.** Any arc using reflexive/phenomenological
-   vocabulary is bound by `philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` (ADOPTED
+   vocabulary is bound by `docs/archive/philosophy/GATE5Q_PHENOMENOLOGY_FIREWALL.md` (ADOPTED
    2026-07-22): computed-referent vocabulary, the non-universality and comparator
    controls, input identification, stability analysis, no consciousness claims,
    any-domain empirical constants = value-claims. Checked at prereg seal and merge.

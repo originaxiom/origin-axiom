@@ -80,7 +80,7 @@ Start with:
 1. `CLAIMS.md`
 2. `docs/SESSION3_SYNTHESIS.md`
 3. `frontier/`
-4. `paths/`
+4. `docs/archive/paths/`
 
 The current physics posture is conservative:
 

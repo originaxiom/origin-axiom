@@ -53,7 +53,7 @@ def test_the_new_rows_run_without_gaps_and_are_typed():
 def test_the_corrections_are_on_the_record():
     ol = (ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
     assert "this note mislabels item (b)" in ol and "(g) and (h) fell out of the carry" in ol
-    sp = (ROOT / "speculations" / "S_THE_FIELDS_GENESIS.md").read_text(encoding="utf-8")
+    sp = (ROOT / "docs" / "archive" / "speculations" / "S_THE_FIELDS_GENESIS.md").read_text(encoding="utf-8")   # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
     assert "describe a plan, not work done" in sp
     for pid in ("P-303", "P-335"):
         assert "omitted from main's 2026-10-24 list" in _row(pid)[5], pid

@@ -281,7 +281,7 @@ resolve via `Path(__file__)`-relative paths — for a `frontier/<name>/probe.py`
 is `pathlib.Path(__file__).resolve().parents[1]`, and a sibling module is loaded from
 `parents[1] / "<sibling>" / "probe.py"` (use `importlib.util.spec_from_file_location` when the module name
 `probe` would collide). This is locked by `tests/test_no_hardcoded_paths.py` (it scans active `*.py` for
-absolute-path prefixes; `legacy/` and vendored virtualenvs are excluded).
+absolute-path prefixes; `docs/archive/legacy/` and vendored virtualenvs are excluded).
 
 ## Local governance-gates hook
 

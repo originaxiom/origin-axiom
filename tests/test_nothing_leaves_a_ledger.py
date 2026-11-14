@@ -412,7 +412,11 @@ def test_a_ceiling_may_fall_freely_and_rises_only_by_name():
     assert problem is None and "1 ceiling(s) raised by name" in note and "moved here" in note
     assert "rose" in rises({"a.md": 4, "new.md": 2}, {"new.md": "  "})[0]                # a name with no reason is not a record
     assert g.ceiling_rises("x", {"a.md": 99}, None) == (None, "")                        # no table at the anchor: not re-judged
-    assert g.RAISED_BY_NAME == {}, "a ceiling that rises is named here with its date and why; say so in this lock too"
+    # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): four ceilings of the attribution baseline moved with their files, each named with its date and why
+    moved = {"docs/archive/paths/MECHANISM_CLASSES.md", "docs/archive/paths/PATHS.md", "docs/archive/philosophy/GOVERNANCE.md",
+             "docs/archive/philosophy/PHILOSOPHICAL_PATHS.md"}
+    assert set(g.RAISED_BY_NAME) <= {"docs/ATTRIBUTION_BASELINE.json"} and set(g.RAISED_BY_NAME.get("docs/ATTRIBUTION_BASELINE.json", {})) == moved, \
+        "a ceiling that rises is named here with its date and why; say so in this lock too"
 
 
 def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
@@ -434,4 +438,5 @@ def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
         assert "cannot verify" in g.attribution_baseline_rise("0" * 40, repo)[0]
     finally:
         g._load_attr_baseline = real
-    assert g.attribution_baseline_rise() == (None, ""), "on main the baseline stands no higher than at the anchor"
+    problem, note = g.attribution_baseline_rise()      # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry): the four moved ceilings are named, and the note says so
+    assert problem is None and "4 ceiling(s) raised by name" in note, "on main the baseline stands no higher than at the anchor"

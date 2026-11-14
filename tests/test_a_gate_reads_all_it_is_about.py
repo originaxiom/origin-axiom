@@ -116,7 +116,8 @@ def test_a_banned_phrase_is_read_as_a_reader_reads_it(tmp_path):
 
 def test_the_framing_gate_reads_a_file_whatever_its_name_ends_in(tmp_path):
     phrase = _banned()
-    for rel in ("docs/page.rst", "frontier/B1_an_arc/arc_verdict.json", "papers/refs.bib", "story/chapter", "NOTES"):
+    # 2026-11-13: story/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry) and is read there, with docs/
+    for rel in ("docs/page.rst", "frontier/B1_an_arc/arc_verdict.json", "papers/refs.bib", "docs/archive/story/chapter", "NOTES"):
         text = json.dumps({"claim_one_line": phrase}) if rel.endswith(".json") else "Here: " + phrase + "\n"
         repo = _scratch(tmp_path / rel.replace("/", "_"), {rel: text})
         ok, detail = _gate(repo, "framing")

@@ -225,7 +225,7 @@ the value-firewall empirically (the value-hunt null test). Ledger through `V238`
 **Standing gate:** nothing here is promoted without the `conditional → proven` gate. Exact
 *algebra* surfaced by a probe may be promoted (e.g. P11–P13, promoted from the B1/session-3
 material); speculative *physics* may not. All physics readings stay quarantined in
-`speculations/` + `philosophy/`; the physics chapter is CLOSED (`knowledge/K006`).
+`docs/archive/speculations/` + `docs/archive/philosophy/`; the physics chapter is CLOSED (`knowledge/K006`).
 
 > **SCOPED AND SUPERSEDED IN PART (2026-09-17, S15).** B82/V65's verdict *"there is no physics here … the
 > physics-probing chapter is closed; future runs should not re-litigate these kills without genuinely new
@@ -245,7 +245,7 @@ material); speculative *physics* may not. All physics readings stay quarantined 
 **Scope:** rather than push the single Origin Axiom mechanism deeper, *systematically
 enumerate* the mechanisms by which "nothing being unstable" could produce reality,
 probe each until it carries a definite verdict, and treat the resulting map as the
-deliverable. See `paths/README.md`, `paths/PATHS.md`, `paths/MECHANISM_CLASSES.md`.
+deliverable. See `docs/archive/paths/README.md`, `docs/archive/paths/PATHS.md`, `docs/archive/paths/MECHANISM_CLASSES.md`.
 
 **Non-claims:** Phase C probes are observations, not claims. Same gate as Phase B.
 
@@ -261,7 +261,7 @@ deliverable. See `paths/README.md`, `paths/PATHS.md`, `paths/MECHANISM_CLASSES.m
 | E5 | Does mainstream physics already have a working mechanism (Vilenkin)? | B — quantum zero-point |
 
 Each probe ends with exactly one verdict: `PRODUCES-OBSERVABLE`, `STALLED`, `DEAD`,
-`NEEDS-EXPERTISE` (see `paths/README.md`). No "interesting, continue."
+`NEEDS-EXPERTISE` (see `docs/archive/paths/README.md`). No "interesting, continue."
 
 **Expected outcome:** most paths will `STALLED` at the same wall the Phase B probes
 hit (well-defined content, unconstructed bridge to an observable). The map of

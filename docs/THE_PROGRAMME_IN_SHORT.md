@@ -8,7 +8,7 @@ sections. Where this page and `GENESIS.md` differ, `GENESIS.md` holds.*
 
 - The programme turns an old question round: not "why is there something rather than nothing?" but "what is not
   nothing?". Its working answer is that existence is what remains when an attempt to cancel everything to nothing cannot
-  finish (§ 1; `philosophy/P000_what_is_not_nothing.md`).
+  finish (§ 1; `docs/archive/philosophy/P000_what_is_not_nothing.md`).
 - The foundations state this as a principle, and it is a postulate: stated, not derived (`GENESIS.md`, PF1 to PF3).
 - The philosophy passages are motivation only. They are never premises of a proof, and nothing in them is a claim (§ 1).
 

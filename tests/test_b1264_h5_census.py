@@ -65,7 +65,7 @@ def test_the_census_headline_matches_what_the_census_actually_measures():
         rel = path.relative_to(root).as_posix()
         # docs/views/ is GENERATED from arc_verdict.json -- fixing the source fixes it, and the
         # views-generated gate proves it. .git and legacy are not the corpus.
-        if rel.startswith(("docs/views/", ".git/", "legacy/", "audit/", "docs/progress/")):
+        if rel.startswith(("docs/views/", ".git/", "legacy/", "docs/archive/legacy/", "audit/", "docs/progress/")):  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
             continue
         # The append-only record is EXEMPT, exactly as scripts/checks/retraction_sweep.py exempts
         # CHANGELOG.md / PROGRESS_LOG.md / docs/progress/REVIEWS.md: those files record what was

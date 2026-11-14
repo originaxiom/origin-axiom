@@ -20,7 +20,7 @@ the chirality / class-S / firewall arc, the object-mapping arc — the four face
 curve `40a1`, the dual McKay `E₈`+`E₆`, the emergent `N=1` superconformal `c=7/10` symmetry — and the
 structural-theorem arc B231–B314, the two-ended object / the cascade / Face IV / *the firewall as a
 Galois theorem* (`knowledge/K020`, `philosophy/P013`) — all
-live entirely in `frontier/` / `knowledge/` / `speculations/` / `papers/`; the
+live entirely in `frontier/` / `knowledge/` / `docs/archive/speculations/` / `papers/`; the
 date/range lag is not claim drift) · proven ledger unchanged at 15 claims; C1 evidence upgraded by
 `docs/UNIQUENESS_THEOREM.md`; C5 added as a conditional trace selector theorem; trace-map and spectrum
 work B13–B47 otherwise remains frontier only.
@@ -32,7 +32,7 @@ work B13–B47 otherwise remains frontier only.
 > structural theorem as a Galois theorem), `docs/OPEN_PROBLEMS.md` (the current frontier — four gates),
 > `CHANGELOG.md` (recent history), `ROADMAP.md` (the Phase B probe table), `papers/metallic_one_object/
 > SYNTHESIS.md` (the four-faces map), `papers/VALIDATION_LEDGER.md` (`V1…V238`), `docs/OPEN_LEADS.md`
-> (`L1…L50`), and `speculations/` (the firewalled physics readings).
+> (`L1…L50`), and `docs/archive/speculations/` (the firewalled physics readings).
 > This pointer exists so a reader is not misled into thinking the rich frontier is *absent* — it is
 > deliberately *not here*, by the firewall.
 

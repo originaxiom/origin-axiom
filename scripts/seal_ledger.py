@@ -40,7 +40,7 @@ def main():
     corpus = []
     tracked = git("ls-files", "-z").split("\0")
     for rel_t in tracked:
-        if not rel_t.endswith((".md", ".txt", ".py")) or rel_t.startswith("legacy/"):
+        if not rel_t.endswith((".md", ".txt", ".py")) or rel_t.startswith(("legacy/", "docs/archive/legacy/")):  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
             continue
         if rel_t == "docs/SEAL_LEDGER.md":
             continue

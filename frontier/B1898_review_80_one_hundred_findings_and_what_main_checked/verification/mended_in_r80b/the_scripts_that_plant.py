@@ -19,8 +19,8 @@ CHANGES = re.compile(r"\.replace\(|re\.sub\(|\.write_text\(|\.write\(")
 RUNS = re.compile(r"subprocess\.|pytest|GATES\[|gates\.")
 STOPS = re.compile(r"(assert|raise|sys\.exit|exit)\b[^\n]*(!=|==|is not|not in| in )[^\n]*|changed nothing|changes nothing|no change|unchanged", re.I)
 out = []
-for rel in names:
-    if not rel or rel.startswith(("relays/", "legacy/", "tests/")) or pathlib.PurePosixPath(rel).name.startswith("test_"):
+for rel in names:                       # 2026-11-13: legacy/ moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry), and is left out there as it was
+    if not rel or rel.startswith(("relays/", "legacy/", "docs/archive/legacy/", "tests/")) or pathlib.PurePosixPath(rel).name.startswith("test_"):
         continue
     try:
         text = (root / rel).read_text(encoding="utf-8")

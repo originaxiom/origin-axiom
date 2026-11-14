@@ -55,7 +55,7 @@ def test_no_absolute_machine_paths_in_tracked_text(  # R28-9 (the fourth-pass au
         "frontier/B749_genesis_forks/RESULTS.json",
         "frontier/B754_p2_spectral/TARGETS.json",
     }
-    frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/")
+    frozen_prefixes = ("frontier/B742_negatives_hunt_p1/reviews/", "legacy/", "docs/archive/legacy/")  # 2026-11-13: the historical folders moved under docs/archive/ (docs/REORGANIZATIONS.md, its third entry)
     offenders = []
     for rel in tracked:
         if not rel.endswith((".md", ".txt", ".json", ".log")):
