@@ -1,0 +1,215 @@
+From 4df9fe51cc67d6ec882240f2f3e153f0fcf4a2f7 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 23:58:01 +0000
+Subject: [PATCH 2/3] C20, patch 2 (cld-advisor, at main's word in M31;
+ register row P-334): THE SWEEP'S ANSWERED ITEMS ARE WRITTEN DOWN, EACH WITH A
+ DATED NOTE ON ITS LEAD OR ARC
+
+P-334 lists the parked-items sweep's answered or closable items, each to be written down with a dated note on its arc
+or lead. Each note quotes the row's own words for its item, and says that the sweep's draft stands in the audit room and
+was not read here (main declined the audit-room drafts for the public repository on 2026-11-14); nothing above a note is
+changed:
+
+  - on the leads (docs/OPEN_LEADS.md, at the end of each lead's section): L206, L215, L207, L230 (c), (d), (f), L193,
+    L194 (b), L191 (B502 dead at depth 4);
+  - on the arcs: B1406 (L215's closed form, as the row asks), B507 (its closed form), B499 (W3, W5 killed).
+
+NOT DONE HERE, for main: the row's "stale OPEN verdicts the sweep lists (OPEN O1-O10: most settle; each verdict change
+edits its OPEN-asserting test in the same commit)". The row names them only as O1 to O10; which arcs they are is in the
+declined draft, and a verdict change is main's. Main can name them by arc, and they are built then.
+
+THE LOCK, in tests/test_c20_record_keeping.py: each of the ten notes stands once in its lead's section or on its arc's
+page, with the row's words for its item; each quotation is found in the row; seven notes on the leads and three on the
+arcs. Planted: one lead's note taken out, one note moved into the next lead, one arc's quotation altered; each reported
+as itself. BEFORE: on the tree before this patch the new test fails.
+
+0 of 19.
+---
+ docs/OPEN_LEADS.md                            | 15 +++++
+ docs/views/REVIEWER.md                        |  2 +-
+ .../B1406_the_mirror_and_the_bulk/FINDINGS.md |  2 +
+ frontier/B499_wild_census/FINDINGS.md         |  2 +
+ frontier/B507_beta_function/FINDINGS.md       |  2 +
+ tests/test_c20_record_keeping.py              | 58 +++++++++++++++++++
+ 6 files changed, 80 insertions(+), 1 deletion(-)
+
+diff --git a/docs/OPEN_LEADS.md b/docs/OPEN_LEADS.md
+index 19023dc2e..501e41de7 100644
+--- a/docs/OPEN_LEADS.md
++++ b/docs/OPEN_LEADS.md
+@@ -2227,6 +2227,9 @@ pick one depth-5 signature word with a small eliminant, compute the exact elimin
+ compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even across witnesses would
+ revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
+ field-iso hit = STOP, convene). ★★
++
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L191 (B502 dead at depth 4)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+ 
+ > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-323 carries the θ̄ question. Not carried: the same CP bit for δ_CKM and δ_PMNS, and the link to B303. The lead stays open.*
+@@ -2266,6 +2269,8 @@ from the 38 amphichiral ones — a chirality invariant finer than CS on this fam
+ action on the cusp shape, the symmetry-group's orientation character). Whatever it is, it is what the paper's
+ family-wide amphichirality story must be rebuilt on. ★★★ (harvested from the seat; the 38/74 split is banked.)
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L193 (CS-silent ⇔ amphichiral on 1490 word states)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L194 — DOES A FREE ORIENTATION-REVERSING DECK FORCE CS ≡ 0 (mod ½)? (registered 2026-09-02, B1235; source: codex R036's gap, computed)
+ 
+ > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1477 makes it a census law on 1,205 manifolds, 'not a proof'. The proof obligation stands. The lead stays open.*
+@@ -2303,6 +2308,8 @@ its cusp-basis correction dies under a glide-type action the residue closes by t
+ 
+ *Sharpened 2026-10-06 (B1477, `frontier/B1477_what_decides_the_swap_the_mirrors_shear_on_the_cusp/`): the instrument gap is closed and the conjecture is contained in a stronger census law. The linear part of the cusp action is enough: a mirror acts on an invariant cusp torus by a rectangular or a rhombic involution, a free action needs a rectangular one, and **CS ≡ ¼ × the number of odd cusp-orbits on which the mirror's power is rhombic** — 283 of 283 amphichiral members of the installed cusped census (212,641 read), 922 of 922 amphichiral multi-component link exteriors. On one cusp: ¼ ⟺ rhombic, 181 of 181. The swap corollary of B1239 needed "no odd cusp-orbit" (o10_150729 is a counterexample to it as stated; addendum there). **No proof**: the filling argument still has no path from the invariant filling to the cusped manifold. L194 OPEN as a proof obligation; as a question about which amphichiral manifolds sit at ¼ it is answered on the census.*
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L194 (b) (a theorem on the one-cusped census)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L195 — THE REVIVABLE INDEX (registered 2026-09-02, B1235 addendum; source: cc3's REVIVABLE_rationale of 2026-08-09, recovered under E51)
+ 
+ The kill graph (`frontier/B738_pathfinder_compiler/kill_graph.json`, 774 entries) carries a `hatch` on 264 rows
+@@ -2537,6 +2544,8 @@ Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` jo
+ 
+ **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved since 2026-09-13: three search methods failed diagnosably and the possibility that no parabolic pair generates π₁(m003) is live. Owed: a refutation through a proper finite-index subgroup containing both words, or a proof past Nielsen distance 12. Owner: cc.
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L206 (b = mer⁻¹a⁻¹mer⁻¹a⁻³, J(m003) ≤ 4)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
+ 
+ > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-334 carries the depth-one result. Not carried: Nielsen-inequivalent pairs at depth two and beyond (m009, for one). The lead stays open.*
+@@ -2559,6 +2568,8 @@ unconditionally, so at the **floor** the premise is not needed. That is precisel
+ 
+ **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the premise of the lower bound (κ constant over all generating pairs) is unproved for every manifold except m004. Owner: cc.
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L207 (∣κ − 2∣ invariant on depth-one generating pairs, the sign of Im κ the hand)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L208 — **CLOSED** (Review 58, 2026-10-02: fully answered by B1402 and B1403, as its own heading has said since 2026-09-13; the closure mark was missing) — ARE THE THREE ARITHMETIC CUTS OF THE METALLIC FAMILY ONE STRUCTURE? (registered 2026-09-13, B1349 addendum 6) — **HALF ANSWERED (B1402, 2026-09-13): YES for B996 vs B1349.** `gcd(m,15) > 1` decomposes as `(3\|m) or (5\|m)`, and `3\|m` **is** B996's degeneracy condition; the B996-degenerate grammars carry the nontrivial forced values while the 5-part is silent. **The mirror speaks exactly where McKay access dies.** **AND THE B1002 HALF IS NOW CLOSED TOO (B1403): the two cannot be related, because their DOMAINS ARE DISJOINT.** A conductor needs an **abelian** cusp field; verified independently that the metallic cusp shape is quadratic **only at m = 1 and m = 2** (reproducing B675's `ℚ(√−3)` and `ℚ(i)`) and not for m = 3..8. Both conductor instances are **units of ℤ/15**, hence on **branch B**, while `gcd(m,15)` discriminates only on **branch A** — so no `m` is informative for both. **Unaskable as posed rather than unknown. L208 is now fully answered.**
+ 
+ Three arcs now cut the family `RᵐLᵐ` by arithmetic in `m`, and **two of them are provably related**:
+@@ -2811,6 +2822,8 @@ shadow of something that survives to other stages.
+ 
+ **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved: the map m ↦ j is still observed, not derived. Owner: cc.
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L216 — THE ODD SECTOR IS WHERE THE OBJECT'S GRADED CONTENT IS — **L216 CLOSED NEGATIVE (B1408, same day): NO WINDOW SPENT.** (registered 2026-09-14, B1406)
+ 
+ > **CLOSED (B1408).** B1407's rule — *pose the discrimination argument first* — applied immediately, and it settled the lead before any effort went into the readout. Computed at B1349's exactness on the θ-odd sector over the complete period: it is **ear-independent at ALL 15 words** (so zero ear anchor by construction, unlike the even sector) but **`dim_ℝ span{Q_m} = 1`** of an ambient 3 — **it carries exactly ONE number**, output ceiling 1 and never 4 — with a value set of three, `{−1, −1/2, +1/(2φ)}`. **And at the object's own word `m = 1` the readout is `1/(2φ)`** — the value `KIND_TABLE` already records as the one B856 benched and could not discriminate. **The two halves of the mirror agree**: for the ten words with `3 ∤ m` the odd readout and B1406's normalised graded trace are the *same number*. **So the mirror sector is closed entire — both halves, one value** — and the odd row would have delivered the number already known to fail.
+@@ -3126,6 +3139,8 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
+ 
+ **REVIEW 70 (2026-10-24), R69-4: CLOSED by consequence.** (a) and (b) were closed (B1436; B1435, B1438). (c) the three index-12 carriers, (d) the July closure formula and its 1/96, and (f) the Y₄ screen's locus are archive readings no live cell, register row or document cites; they stay the archives', unverified on main (B448 stands).
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L230 (c) (three classes; GAP), (d), (f)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
++
+ ## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
+ 
+ > *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-427, P-317 (b), P-318 and P-289 carry most items. Not carried: the withdrawn 16σ phrase, the sealed-crossings count, and B1141/B1145's 'no Dirac operator'. The lead stays open.*
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index d63a6a9da..f13448dc9 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1618** |
+-| words of findings prose | **1,439,015** |
++| words of findings prose | **1,439,191** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1618** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md b/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
+index 9a7858432..2dadc6818 100644
+--- a/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
++++ b/frontier/B1406_the_mirror_and_the_bulk/FINDINGS.md
+@@ -203,3 +203,5 @@ about **testing a thing by how it is written.**
+ - B1349's mathematics, B1405's verdict, and B675/B996/B1402's laws are untouched.
+ 
+ Artifacts: `b1406_riddles.py` (26/26). Locks: `tests/test_b1406_riddles.py`.
++
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+diff --git a/frontier/B499_wild_census/FINDINGS.md b/frontier/B499_wild_census/FINDINGS.md
+index 8b1929fc0..7d45688b1 100644
+--- a/frontier/B499_wild_census/FINDINGS.md
++++ b/frontier/B499_wild_census/FINDINGS.md
+@@ -31,3 +31,5 @@ exactly the discipline a wild-point census needs.
+ 
+ > **The verdict is `OPEN` because the arc settled nothing — which is the correct reading of a
+ > campaign that never ran, and is not the same as a campaign that ran and found nothing.**
++
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “B499 (W3, W5 killed)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+diff --git a/frontier/B507_beta_function/FINDINGS.md b/frontier/B507_beta_function/FINDINGS.md
+index a9908a24a..973aa8213 100644
+--- a/frontier/B507_beta_function/FINDINGS.md
++++ b/frontier/B507_beta_function/FINDINGS.md
+@@ -28,3 +28,5 @@ gate-certified β-function. (Via the anchor: λ\*² = (κ\*−2)/4 < 0 — the a
+ spectral window, not a real-coupling fixed point; form-level, firewalled.) Consistency lock vs
+ B506's d and the exact κ\*=0 identity (is g_M(0)=0 provable? the pointer state suggests yes):
+ queued as the campaign's proof obligation.
++
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334): the parked-items sweep's verdict ANSWERED, as the register's row records it: “B507's closed form g_M(κ) = Cl₂(2θ)/(π − θ)”. The sweep's own draft stands in the audit room and was not read here; the row's words are its record. Nothing above is changed.]**
+diff --git a/tests/test_c20_record_keeping.py b/tests/test_c20_record_keeping.py
+index 4b05ff39e..e84712944 100644
+--- a/tests/test_c20_record_keeping.py
++++ b/tests/test_c20_record_keeping.py
+@@ -51,3 +51,61 @@ def test_p310_the_note_stands_after_the_old_words_and_quotes_its_sources():
+     moved = page[at:end] + page[:at] + page[end:]
+     assert _p310_problems(moved, claim) == ["the note does not stand after the old words"]
+     assert _p310_problems(page, claim[:claim.index(" [NOTED 2026-11-14 (P-310)")]) == ["the verdict line has no note"]
++
++
++# --- P-334: the sweep's answered items, each written down where it belongs ---
++
++import re
++
++NOTE_334 = "**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-334):"
++ITEMS_334 = (   # (where the note stands: a lead or an arc, the row's words for the item)
++    ("L206", "L206 (b = mer⁻¹a⁻¹mer⁻¹a⁻³, J(m003) ≤ 4)"),
++    ("L215", "L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)"),
++    ("L207", "L207 (∣κ − 2∣ invariant on depth-one generating pairs, the sign of Im κ the hand)"),
++    ("L230", "L230 (c) (three classes; GAP), (d), (f)"),
++    ("L193", "L193 (CS-silent ⇔ amphichiral on 1490 word states)"),
++    ("L194", "L194 (b) (a theorem on the one-cusped census)"),
++    ("L191", "L191 (B502 dead at depth 4)"),
++    ("B1406", "L215 (the graded trace is ε₃·f₅, the squares mod 15; a note on B1406)"),
++    ("B507", "B507's closed form g_M(κ) = Cl₂(2θ)/(π − θ)"),
++    ("B499", "B499 (W3, W5 killed)"),
++)
++
++
++def _lead_section(text, lead):
++    m = re.search(r"^## %s\b" % lead, text, re.M)
++    nxt = re.search(r"^## ", text[m.end():], re.M)
++    return text[m.start():m.end() + nxt.start() if nxt else len(text)]
++
++
++def _arc_page(arc):
++    for v in sorted(ROOT.glob("frontier/%s_*/arc_verdict.json" % arc)):
++        if json.loads(v.read_text(encoding="utf-8")).get("id") == arc:
++            return (v.parent / "FINDINGS.md").read_text(encoding="utf-8")
++
++
++def _p334_unwritten(leads, pages):
++    bad = []
++    for where, words in ITEMS_334:
++        text = _lead_section(leads, where) if where.startswith("L") else pages[where]
++        if text.count(NOTE_334) != 1 or "“%s”" % words not in text[text.find(NOTE_334):]:
++            bad.append(where)
++    return bad
++
++
++def test_p334_each_answered_item_is_written_down_where_it_belongs():
++    row = _row("P-334")
++    assert all(words in row for _, words in ITEMS_334)                    # each quotation is the row's
++    leads = (ROOT / "docs" / "OPEN_LEADS.md").read_text(encoding="utf-8")
++    pages = {w: _arc_page(w) for w, _ in ITEMS_334 if not w.startswith("L")}
++    assert _p334_unwritten(leads, pages) == []
++    assert leads.count(NOTE_334) == 7 and sum(p.count(NOTE_334) for p in pages.values()) == 3
++    # planted: one lead's note taken out; one note moved into the next lead; one arc's quotation altered
++    sec = _lead_section(leads, "L193")
++    out = leads.replace(sec, sec[:sec.index("\n" + NOTE_334)] + "\n\n", 1)
++    assert _p334_unwritten(out, pages) == ["L193"]
++    s206, s207 = _lead_section(leads, "L206"), _lead_section(leads, "L207")
++    note206 = s206[s206.index("\n" + NOTE_334):]
++    moved = leads.replace(s206, s206.replace(note206, "\n\n"), 1).replace(s207, s207 + note206, 1)
++    assert _p334_unwritten(moved, pages) == ["L206", "L207"]
++    assert _p334_unwritten(leads, dict(pages, B507=pages["B507"].replace("Cl₂(2θ)/(π − θ)", "Cl₂(θ)/(π − θ)"))) == ["B507"]
+-- 
+2.43.0
+

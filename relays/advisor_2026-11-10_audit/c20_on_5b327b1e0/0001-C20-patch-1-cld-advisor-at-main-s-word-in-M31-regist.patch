@@ -1,0 +1,208 @@
+From 4b34208458c0bd331188c40a5d749b086d850d64 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Fri, 13 Nov 2026 23:57:26 +0000
+Subject: [PATCH 1/3] C20, patch 1 (cld-advisor, at main's word in M31;
+ register row P-310): B335'S SENTENCE THAT ANY MASS IS EXACTLY DEGENERATE IS
+ SHARPENED BY A DATED NOTE, AS ITS READER FOUND
+
+The card is relays/cards/cld-advisor_C20_three-record-keeping-debts-of-the-register.md, committed before the work.
+
+P-310. B335 says that the generation Z/3 is a deck transformation and an isometry, "so every real geometric invariant
+(and any mass) is exactly degenerate". The register's row records its reader's finding (L237's reader, in the
+parked-items sweep): this overstates, because B325 and a 3x3 circulant check split the masses. B325's own verdict line,
+banked before B335, refuted the claimed Z/3-protection of the two light eigenvalues (distinct 1-dim irreps that a
+Z/3-invariant cubic can split).
+
+A dated note on B335's page, after the sentence, and at the end of its verdict line, quoting the row and B325; a
+sharpening, not a retraction (the row's word): the verdict, the isometry and the values the page confirms are unchanged.
+The circulant check is the reader's, recorded in the row; it is not computed again here, and no mathematics in the note
+is the builder's.
+
+THE LOCK, tests/test_c20_record_keeping.py (C20's three rows will share it): the note stands after the old words and
+quotes the row, B325's verdict line and B335's own sentence, each found in its source; the verdict line carries its
+note; planted, the note taken out, the note moved above the old words, the verdict line's note taken out, each reported
+alone. B335's own lock passes. The early record index, which shows each early arc's verdict line, carries the note,
+written again by its script. BEFORE: on the tree before this patch the new test fails.
+
+0 of 19.
+---
+ docs/EARLY_RECORD_INDEX.md                    |  2 +-
+ docs/views/REVIEWER.md                        |  2 +-
+ docs/views/THE_SPINE.md                       |  3 +-
+ docs/views/VERDICT_LEDGER.md                  |  2 +-
+ .../FINDINGS.md                               |  2 +
+ .../arc_verdict.json                          |  2 +-
+ scripts/atlas/atlas_data.json                 |  6 ++-
+ tests/test_c20_record_keeping.py              | 53 +++++++++++++++++++
+ 8 files changed, 65 insertions(+), 7 deletions(-)
+ create mode 100644 tests/test_c20_record_keeping.py
+
+diff --git a/docs/EARLY_RECORD_INDEX.md b/docs/EARLY_RECORD_INDEX.md
+index f84140638..dd8e6faf3 100644
+--- a/docs/EARLY_RECORD_INDEX.md
++++ b/docs/EARLY_RECORD_INDEX.md
+@@ -623,7 +623,7 @@ The figure-eight cannot force three generations by its degree-2 field: multiplic
+ | `B329_mckay_branching_embeddings` | NEGATIVE | 27 restricted to 2T for both natural embeddings gives n1=n2, so hierarchy Level 3 is unreachable by any canonical (sigma-stable) 2T embedding into E6. |
+ | `B330_s032a_galois_symmetrization` | NEGATIVE | Across five invariant classes every trace-map-invariant discrete invariant is continuous, a symmetrizable Galois orbit, or canonical: no forced choice exists. |
+ | `B331_ambivalence_closure` | NEGATIVE | The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and n1=n2 in every representation - closing the proposed SL(2,C)/holomorphic escape for the object's own lift. |
+-| `B335_generation_symmetry_exact` | PROVED | The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. |
++| `B335_generation_symmetry_exact` | PROVED | The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. [NOTED 2026-11-14 (P-310): "and any mass … exactly degenerate" overstates, as the register's row records i… |
+ | `B337_structure_xor_ordering` | PROVED | Structure XOR ordering: the shared arithmetic forcing E6 also forces a degenerate spectrum, while distinct seeds order it but destroy the shared structure. |
+ | `B342_z3_trimaximal_symmetry` | NEGATIVE | The object's Z/3 is the (standard) trimaximal symmetry, but its would-be TM2 prediction theta_12 = 35.7 degrees is disfavoured by data relative to TM1. |
+ | `B343_exact_tbm_irreducibility` | PROVED | The deck ℤ/3 acts irreducibly on the object's Klein 2-torsion, forcing exact TBM (θ₁₃=0) rather than TM2; irreducibility explains every blindness. |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 472408423..d63a6a9da 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1618** |
+-| words of findings prose | **1,438,881** |
++| words of findings prose | **1,439,015** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1618** (100.0 %) |
+ | recorded closures | **860** (692 classified, 168 routed-only) |
+diff --git a/docs/views/THE_SPINE.md b/docs/views/THE_SPINE.md
+index 20b0326e0..674a9081e 100644
+--- a/docs/views/THE_SPINE.md
++++ b/docs/views/THE_SPINE.md
+@@ -2,7 +2,7 @@
+ 
+ *One line per living test lock, in git birth order. The claim head comes from the
+ arc's own verdict file; drill down: the arc's FINDINGS, then CHANGELOG at that date.
+-Generated by `scripts/views/spine.py` — 1543 locks. Regenerated with the views.*
++Generated by `scripts/views/spine.py` — 1544 locks. Regenerated with the views.*
+ 
+ 
+ ## 2026-05-22
+@@ -1915,4 +1915,5 @@ Generated by `scripts/views/spine.py` — 1543 locks. Regenerated with the views
+ 
+ ## 2026-11-13
+ 
++- — `test_c20_record_keeping.py` 
+ - — `test_negative_second_computation.py` 
+diff --git a/docs/views/VERDICT_LEDGER.md b/docs/views/VERDICT_LEDGER.md
+index 949d561b3..6fe389209 100644
+--- a/docs/views/VERDICT_LEDGER.md
++++ b/docs/views/VERDICT_LEDGER.md
+@@ -205,7 +205,7 @@
+ | `B327` | Proved n1=n2 in the 27|2T branching is forced by self-duality rather than integer spin, reducing the hierarchy CRUX to whether 2T embeds quaternionically in E6. |  | 1 |
+ | `B332` | The two arithmetic ends are the product and the ratio of the founding substitution's two letters: R*L has disc 5 (Q(sqrt5), E8) and -R*L^-1 = g has disc -3 (Q(sqrt-3), E6), correcting the handoff's inverted labelling. |  | 1 |
+ | `B334` | The Hilbert class field of the seam Q(sqrt(-15)) is exactly the two-ended compositum Q(sqrt5, sqrt-3), verified by splitting law and forms; the 137 reading is dead. |  | 1 |
+-| `B335` | The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. |  | 1 |
++| `B335` | The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. [NOTED 2026-11-14 (P-310): "and any mass … exactly degenerate" overstates, as the register's row records its reader's finding (B325: a Z/3-invariant cubic can split the two light eigenvalues); the page's note says so; the verdict is unchanged.] |  | 1 |
+ | `B337` | Structure XOR ordering: the shared arithmetic forcing E6 also forces a degenerate spectrum, while distinct seeds order it but destroy the shared structure. |  | 1 |
+ | `B338` | The object contains its own symmetric-to-broken flow — Dehn filling with CS(1,n) ~ −1/(2n) — but the filling slope is external input. |  | 1 |
+ | `B340` | The CP phase arg kappa is extremal at pi/6 at the amphichiral cusp and decreases as 3.8*CS^2, i.e. second order in chirality. |  | 1 |
+diff --git a/frontier/B335_generation_symmetry_exact/FINDINGS.md b/frontier/B335_generation_symmetry_exact/FINDINGS.md
+index 8714e5d32..288a420a2 100644
+--- a/frontier/B335_generation_symmetry_exact/FINDINGS.md
++++ b/frontier/B335_generation_symmetry_exact/FINDINGS.md
+@@ -12,6 +12,8 @@ A deck transformation of a hyperbolic manifold **is an isometry**. Therefore **e
+ masses (real, positive: `|eigenvalue|` / singular values of any Yukawa) are **exactly degenerate.** A mass hierarchy is
+ the **breaking** of this exact isometry — *external by definition*; the single object does not contain it.
+ 
++**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-310): the sentence above says more than this arc shows.** The register's row records its reader's finding (L237's reader, in the parked-items sweep): B335's "so every real geometric invariant (and any mass) is exactly degenerate" overstates, because B325 and a 3×3 circulant check split the masses. B325's own verdict line, banked before this arc: "Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split". The isometry and the values confirmed below stand; what the row calls an overstatement is the step from them to "any mass". A sharpening, not a retraction: the verdict is unchanged. The circulant check is the reader's, recorded in the row; it is not computed again here.]
++
+ **Confirmed (SnapPy 3.3.2, values recorded for CI):**
+ - `vol(3-fold cover) / vol(4₁) = 3.0` exactly (isometric deck);
+ - the shortest geodesics appear with **multiplicity 3** — three *isometric* sheets;
+diff --git a/frontier/B335_generation_symmetry_exact/arc_verdict.json b/frontier/B335_generation_symmetry_exact/arc_verdict.json
+index 8e99db6ca..4e2ccf6b2 100644
+--- a/frontier/B335_generation_symmetry_exact/arc_verdict.json
++++ b/frontier/B335_generation_symmetry_exact/arc_verdict.json
+@@ -1,7 +1,7 @@
+ {
+  "id": "B335",
+  "verdict": "PROVED",
+- "claim_one_line": "The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking.",
++ "claim_one_line": "The generation ℤ/3 is the deck transformation of the 3-fold cyclic cover of 4₁, hence an isometry, so every real geometric invariant (and any mass) is exactly degenerate across the three sheets; a hierarchy is its breaking. [NOTED 2026-11-14 (P-310): \"and any mass … exactly degenerate\" overstates, as the register's row records its reader's finding (B325: a Z/3-invariant cubic can split the two light eigenvalues); the page's note says so; the verdict is unchanged.]",
+  "instrument": false,
+  "depends_on": [],
+  "supersedes": null,
+diff --git a/scripts/atlas/atlas_data.json b/scripts/atlas/atlas_data.json
+index cc3ae43bb..501e967ea 100644
+--- a/scripts/atlas/atlas_data.json
++++ b/scripts/atlas/atlas_data.json
+@@ -20988,14 +20988,16 @@
+     "B302",
+     "B318",
+     "B324",
++    "B325",
+     "B326",
+     "B327",
+     "B329",
+     "B331",
+-    "K021"
++    "K021",
++    "L237"
+    ],
+    "obstacle": "particle_dict",
+-   "obstacle_conf": 28,
++   "obstacle_conf": 31,
+    "status": "dead",
+    "domain": "arithmetic"
+   },
+diff --git a/tests/test_c20_record_keeping.py b/tests/test_c20_record_keeping.py
+new file mode 100644
+index 000000000..4b05ff39e
+--- /dev/null
++++ b/tests/test_c20_record_keeping.py
+@@ -0,0 +1,53 @@
++"""Card C20 (2026-11-14, main's M31): three record-keeping debts of the register, each written down where it belongs.
++Every statement in the notes is a quotation of the register's row or of the arcs it names; none is the builder's."""
++import json, pathlib
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
++
++
++def _row(pid):
++    return next(l for l in REGISTER.read_text(encoding="utf-8").split("\n") if l.startswith("| %s |" % pid))
++
++
++# --- P-310: B335's sentence on the generation Z/3 overstates, as its reader found ---
++
++B335 = ROOT / "frontier" / "B335_generation_symmetry_exact"
++B325 = ROOT / "frontier" / "B325_z3_protection_refuted"
++OLD_310 = "so every real geometric invariant (and any mass) is exactly degenerate"
++NOTE_310 = "**[NOTED 2026-11-14 (the building session, at main's word in M31, card C20; register row P-310):"
++
++
++def _p310_problems(page, claim):
++    bad = []
++    at = page.find(NOTE_310)
++    if at < 0:
++        return ["no note on the page"]
++    note = page[at:page.index("]\n", at)]
++    if "masses (real, positive" not in page[:at]:
++        bad.append("the note does not stand after the old words")
++    for words in (OLD_310, "B325 and a 3×3 circulant check split the masses",
++                  "Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split",
++                  "the verdict is unchanged"):
++        if words not in note:
++            bad.append("the note lacks: " + words[:40])
++    if "[NOTED 2026-11-14 (P-310)" not in claim:
++        bad.append("the verdict line has no note")
++    return bad
++
++
++def test_p310_the_note_stands_after_the_old_words_and_quotes_its_sources():
++    page = (B335 / "FINDINGS.md").read_text(encoding="utf-8")
++    claim = json.loads((B335 / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
++    assert _p310_problems(page, claim) == []
++    # what it quotes is where it says: the register's row, B325's verdict line, B335's own sentence
++    assert "B325 and a 3×3 circulant check split the masses" in _row("P-310")
++    assert "Refuted the claimed Z/3-protection of the two light eigenvalues: they are distinct 1-dim irreps a Z/3-invariant cubic can split" \
++        in json.loads((B325 / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
++    assert "every real geometric invariant (and any mass) is exactly degenerate" in claim          # the old words kept
++    # planted: the note taken out of the page; the note moved above the old words; the verdict line's note taken out
++    at = page.index(NOTE_310); end = page.index("]\n", at) + 2
++    assert _p310_problems(page[:at] + page[end:], claim) == ["no note on the page"]
++    moved = page[at:end] + page[:at] + page[end:]
++    assert _p310_problems(moved, claim) == ["the note does not stand after the old words"]
++    assert _p310_problems(page, claim[:claim.index(" [NOTED 2026-11-14 (P-310)")]) == ["the verdict line has no note"]
+-- 
+2.43.0
+
