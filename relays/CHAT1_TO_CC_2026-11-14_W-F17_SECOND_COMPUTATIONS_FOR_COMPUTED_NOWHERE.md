@@ -217,4 +217,6 @@ The run's output was committed (9e9f4b871) before it was read.
 | H2 (m = 2, 4, 6, 8) | computed once (post hoc, not blind); recomputed independently by the referee (m = 1 to 12) |
 | H3 | computed once (post hoc, not blind) |
 
+This addendum reports a run whose checks were fixed before it; it was not given its own referee read.
+
 0 of 19.
