@@ -1,0 +1,4 @@
+Received unchanged from the SM seat's branch at 9ef547e1c:
+  relays/sm_c7/population.json
+  relays/sm_c7/sm_c7_results.json
+  relays/sm_c9/run_c9.py (its transcription of Bohn's (4.67); run on main, never edited)

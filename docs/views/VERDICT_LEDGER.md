@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1623 of 1623 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1624 of 1624 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1125)
+## PROVED (1126)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1137,6 +1137,7 @@
 | `B1925` | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) holds for every odd metallic m [CORRECTED 2026-11-14: 'with m^2 + 4 prime' dropped; the web seat's W-C8 part 1 finds a mark at every odd m to 12, and main's parity check holds at m = 9, 11, 13] and fails for even m, so it does not single out the golden; what separates golden from bronze is the left-over (bronze: (Z/3)^2 in its root s464, Z/3 in its tick bundle m005). And SE1 is one condition with two readings: for a positive-trace hyperbolic act, torsion-free <=> tr = 3 <=> the frustrated level is 5 <=> (B997's bound) the level's group SL(2, Z/N) is no larger than 2I; the act's opposite -A exchanges the torsion order |2 - tr| with the level |2 + tr| (m004 against m003). Every selection rule on record picks the golden; SE1 stays POSTULATED. 0 of 19. |  | 0 |
 | `B1926` | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), the web seat's sealed W-C8 part 2a agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19. |  | 0 |
 | `B1927` | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log|tau| to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read with it repeats along a thread at its own line with nothing chosen (1.3e-13). Both conventions keep every channel positive (22 767 nodes); they give different read-outs (paired median |z| about 20). The maximal-horoball end has a corner along the arc |tau| = 1 and its images (ratio 1.99, against 4 for a smooth end), the length-2 end does not (3.96): requiring the end to be real-analytic in tau like the rest of the frame selects the horocycle of length 2. The continuous end is gone; the remaining bit is replaced by a stated regularity condition. 0 of 19. |  | 0 |
+| `B1929` | THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc by the SM seat, proved by agy-exp through the Siegel functions' transformation law). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19. |  | 0 |
 
 ## NEGATIVE (384)
 

@@ -17087,6 +17087,18 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1929": {
+   "slug": "the records odd l value is the twisted eta invariant of the closed torus bundle",
+   "motifs": [
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B192": {
    "slug": "sln higher rank",
    "motifs": [

@@ -1,0 +1,1 @@
+601 characters: largest |Re Delta| 2.6e-14; kappa = L_odd / (pi i Delta) over the 561 characters with Delta != 0: real part from -2.0000000000 to -2.0000000000, largest |imaginary part| 1.4e-13

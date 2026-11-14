@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1623** |
-| words of findings prose | **1,447,211** |
+| research arcs with findings | **1624** |
+| words of findings prose | **1,447,917** |
 | test lock files referenced | **944** |
-| arcs carrying an authored verdict | **1623** (100.0 %) |
+| arcs carrying an authored verdict | **1624** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1125 |
+| PROVED | 1126 |
 | NEGATIVE | 384 |
 | OPEN | 101 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1927`** (1306 words, 0 locks)  
-THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log|tau| to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read with it repeats along a thread at its own line with nothing chosen (1.3e-13). Both conventions keep every channel positive (22 767 nodes); they give different read-outs (paired median |z| about 20). The maximal-horoball end has a corner along the arc |tau| = 1 and its images (ratio 1.99, against 4 for a smooth end), the length-2 end does not (3.96): requiring the end to be real-analytic in tau like the rest of the frame selects the horocycle of length 2. The continuous end is gone; the remaining bit is replaced by a stated regularity condition. 0 of 19.  
-`B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/FINDINGS.md`
+**PROVED — `B1929`** (706 words, 0 locks)  
+THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc by the SM seat, proved by agy-exp through the Siegel functions' transformation law). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.  
+`B1929_the_records_odd_l_value_is_the_twisted_eta_invariant_of_the_closed_torus_bundle/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.  

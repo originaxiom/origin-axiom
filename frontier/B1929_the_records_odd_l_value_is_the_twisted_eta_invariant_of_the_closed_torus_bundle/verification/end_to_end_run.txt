@@ -1,0 +1,1 @@
+eta_A (Bohn, the seat's transcription) against -L_odd/pi^2 (main's Siegel winding): 601 characters, largest |difference| 3.1e-14

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1623 |
-| … PROVED | 1125 |
+| arcs with a verdict file | 1624 |
+| … PROVED | 1126 |
 | … NEGATIVE | 384 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1929 | PROVED | THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p… |
 | B1928 | OPEN | THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (OPEN: a proof sketch with three hypotheses unchecked): the letters' images generate SL(2, F5), which is perfect and acts transitively on the 24 poi… |
 | B1927 | PROVED | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi… |
 | B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
@@ -42,7 +43,6 @@
 | B1920 | PROVED | THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified… |
 | B1919 | PROVED | B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac… |
 | B1918 | RETRACTED | [RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B… |
-| B1917 | PROVED | THE SLOPE AND THE KRONECKER FUNCTION ARE TWO COEFFICIENTS OF ONE L-FUNCTION, READ ALONG THE THREAD'S OWN GEODESIC (the SM seat's SM-C7 steps 1-2, verified on main): on all 601 characters at 16 levels B1737's slope plus… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-LATEST (2026-11-14, S306p, before dawn: THE END FIXED BY THE FIBRE'S GEOMETRY, AND ANALYTICITY PICKS ITS CONVENTION (B1927); THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (B1928, OPEN).** B1667's canonical end is covariant, so the frame needs no chosen end; the maximal-horoball end has a corner along the arc |tau| = 1 (ratio 1.99 against 4), the length-2 end is smooth (3.96), so requiring analyticity like the rest of the frame selects the length-2 horocycle. The limit of the read-out is the frame averaged over all 24 points of order 5 along the path measure (SL(2, F5) perfect; a proof sketch, three hypotheses owed a seat's check), the same at every reading point; th…
+LATEST (2026-11-14, S306p, morning: THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE (B1929); H1 OF THE LIMIT'S PROOF HOLDS (B1928); THE HIGGS READING AN INDEPENDENT BIT (P-847).** B1929: eta_A(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and fixed character, found by the SM seat, proved by agy-exp, its L-side computed on main through the Siegel winding (601 characters); it flips with the orientation, a candidate carrier for the hand. B1928: the frame's jump set is null for the path measure (H1). P-847: S and S~ give different limits and the frame never uses the Higgs's hypercharge, so the reading is fixed today only by identification. Still owed b…
 
 ## Completeness (nothing skipped silently)
 
