@@ -15,7 +15,10 @@ from __future__ import annotations
 
 import ast
 from itertools import combinations, product
+import math
 from pathlib import Path
+import subprocess
+import sys
 from typing import Any
 
 import mpmath as mp
@@ -174,13 +177,25 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "a = 0\nb = 0\nfor i in range(20):\n    for j in range(10):\n        a = max(a, b + 1)\n        b = max(b, a)\nval = (a * 2 + 1) / (a * 2 + 103)",
         "def step(n, acc):\n    if n <= 0:\n        return acc\n    return step(n - 1, acc * 10)\nt3 = step(6, 1) // 1000\nval = (4 * t3 // 10 + 1) / (5 * t3 // 10 + 3)",
         "def pack(x, y):\n    return x * 10 + y\ndef build(dyn):\n    kw = {'x': 20, 'y': 0} if dyn else {'x': 20, 'y': 0}\n    p = pack(**kw)\n    return (p * 2 + 1) / (p * 2 + 103)\nval = build(True)",
+        "def push(bx, d):\n    bx[0] = bx[0] * 10 + d\nnum = [0]\nfor dg in (4, 0, 1):\n    push(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    push(den, dg)\nval = num[0] / den[0]",
+        "def step_d(st, d):\n    st['v'] = st['v'] * 10 + d\nnum = {'v': 0}\nfor dg in (4, 0, 1):\n    step_d(num, dg)\nden = {'v': 0}\nfor dg in (5, 0, 3):\n    step_d(den, dg)\nval = num['v'] / den['v']",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef h3(z, x, y):\n    return x * 10 + y\ndef h2(z, x, y):\n    return h3(z, x, y)\ndef h1(z, x, y):\n    return h2(z, x, y)\nn = 0\nfor dg in (4, 0, 1):\n    n = h1(u, n, dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = h1(u, d, dg)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_step(z, x, y):\n" + "    t = x + 0\n" * (16 * 4) + "    return x * 10 + y\nn = big_step(u, big_step(u, 4, 0), 1)\nd = big_step(u, big_step(u, 5, 0), 3)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef p10(z, k):\n    if k <= 0:\n        return 1\n    return 10 * p10(z, k - 1)\nval = (4 * p10(u, 2) + 1) / (5 * p10(u, 2) + 3)",
+        "def add_k(bx, k):\n    bx[0] += k\nb = [0]\nfor _ in range(20):\n    for _ in range(20):\n        add_k(b, 1)\nadd_k(b, 1)\nd = [0]\nfor _ in range(25):\n    for _ in range(20):\n        add_k(d, 1)\nadd_k(d, 3)\nval = b[0] / d[0]",
+        "def push_al(bx, d):\n    al = bx\n    al[0] = al[0] * 10 + d\nnum = [0]\nfor dg in (4, 0, 1):\n    push_al(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    push_al(den, dg)\nval = num[0] / den[0]",
+        "num = [0]\nal = num\nfor dg in (4, 0, 1):\n    al[0] = al[0] * 10 + dg\nden = [0]\nal_d = den\nfor dg in (5, 0, 3):\n    al_d[0] = al_d[0] * 10 + dg\nval = num[0] / den[0]",
+        "push_l = lambda bx, d: bx.append(bx[-1] * 10 + d)\nnum = [0]\nfor dg in (4, 0, 1):\n    push_l(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    push_l(den, dg)\nval = num[-1] / den[-1]",
+        "def push_dead(bx, d):\n    bx[0] = bx[0] * 10 + d\n    return 1\n    bx[0] = 0\nnum = [0]\nfor dg in (4, 0, 1):\n    push_dead(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    push_dead(den, dg)\nval = num[0] / den[0]",
+        "d = {'v': 0}\nal = d\nal.update({'v': 200})\nval = (d['v'] * 2 + 1) / (250 * 2 + 3)",
+        "def p1(bx, d):\n    bx[0] = bx[0] * 10 + d\ndef p2(bx, d):\n    bx[0] = bx[0] * 10 + d\nimport sympy as sp\nu = sp.Symbol('u')\nnum = [0]\nfor dg in (4, 0, 1):\n    (p1 if u else p2)(num, dg)\nden = [0]\nfor dg in (5, 0, 3):\n    (p1 if u else p2)(den, dg)\nval = num[0] / den[0]",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
             f"Firewall scanner failed to reject bypass snippet: {snippet}"
         )
 
-    # 3. Guardrail 2 AST lock on producer + 54 synthetic negative controls:
+    # 3. Guardrail 2 AST lock on producer + 104 synthetic negative controls + PYTHONHASHSEED determinism:
     assert check_guardrail2_ast_no_literal_bool_verdicts(STAGE1_SRC.read_text(encoding="utf-8")) is True
     bad_g2_snippets = [
         "def f():\n    return {'ok': True}",
@@ -269,9 +284,42 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def h(xs):\n    return {'ok': xs[0]}\ndef f(dyn):\n    return h([True, dyn])",
         "def h(cfg):\n    return {'ok': cfg['flag']}\ndef f(dyn):\n    return h({'flag': True, 'x': dyn})",
         "def h(step, xs):\n    if step == 1:\n        return h(2, xs)\n    return {'ok': xs[0]}\ndef f(dyn):\n    return h(1, [True, dyn])",
+        "def mut(d):\n    alias = d\n    alias['ok'] = True\ndef f():\n    out = {}\n    mut(out)\n    return out",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    mut(d=out)\n    return out\ndef other():\n    def mut(z):\n        return z\n    return 1",
+        "def f():\n    out = {}\n    (lambda d: d.update({'ok': True}))(out)\n    return out",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    m = mut\n    m(out)\n    return out",
+        "def f(dyn):\n    return {f'{a}_{b}': (True if (a == 5 and b == 5) else dyn) for a in range(6) for b in range(6)}",
+        "def g(dyn):\n    return (dyn, True)\ndef f(dyn):\n    return {'ok': g(dyn)[-1]}",
+        "def g(dyn):\n    return (dyn, True)\ndef f(dyn):\n    return {'ok': g(dyn)[1 + 0]}",
+        "def h6(cfg):\n    return {'ok': cfg['pair'][1]}\ndef h5(cfg):\n    return h6(cfg)\ndef h4(cfg):\n    return h5(cfg)\ndef h3(cfg):\n    return h4(cfg)\ndef h2(cfg):\n    return h3(cfg)\ndef h1(cfg):\n    return h2(cfg)\ndef f(dyn):\n    return h1({'pair': (dyn, True)})",
+        "def h6(cfg):\n    return {'bar_theta_QCD': cfg['pair'][1]}\ndef h5(cfg):\n    return h6(cfg)\ndef h4(cfg):\n    return h5(cfg)\ndef h3(cfg):\n    return h4(cfg)\ndef h2(cfg):\n    return h3(cfg)\ndef h1(cfg):\n    return h2(cfg)\ndef f(dyn):\n    return h1({'pair': (dyn, 0.0)})",
+        "def k():\n    return True\ndef f():\n    return {'ok': k()}\ndef other(dyn):\n    def k():\n        return dyn\n    return {'x': k()}",
+        "def mut(d):\n    a = d\n    b = a\n    b['ok'] = True\ndef f():\n    out = {}\n    mut(out)\n    return out",
+        "def f():\n    out = {}\n    m1 = lambda d: d.update({'ok': True})\n    m2 = m1\n    m2(out)\n    return out",
+        "def f():\n    out = {}\n    def inner(*, target):\n        alias = target\n        alias.setdefault('ok', True)\n    inner(target=out)\n    return out",
+        "def m1(d):\n    d['ok'] = True\ndef m2(d):\n    d['ok'] = False\ndef f(x):\n    out = {}\n    (m1 if x else m2)(out)\n    return out",
+        "def k1():\n    return {'ok': True}\ndef k2(x):\n    return {'ok': x}\ndef f(x):\n    return (k1 if x else k2)()",
+        "def k1():\n    return {'ok': True}\ndef f():\n    fns = [k1]\n    return fns[0]()",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    fns = [mut]\n    fns[0](out)\n    return out",
+        "def mut(d):\n    d['ok'] = True\ndef f():\n    out = {}\n    (m := mut)(out)\n    return out",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
+
+    det_code = (
+        "import sys; sys.path.insert(0, 'src'); "
+        "from pathlib import Path; "
+        "from origin_axiom.stage1_curved_action_cusp_orbit import check_guardrail2_ast_no_literal_bool_verdicts as g2; "
+        "print(g2(Path('tests/test_stage1_curved_action_cusp_orbit.py').read_text(encoding='utf-8')))"
+    )
+    for seed_s in ("0", "1", "7", "15"):
+        sub_out = subprocess.check_output(
+            [sys.executable, "-c", det_code],
+            cwd=str(ROOT),
+            env={"PATH": "/usr/bin:/bin", "PYTHONDONTWRITEBYTECODE": "1", "PYTHONHASHSEED": seed_s},
+            text=True,
+        ).strip()
+        assert sub_out == "True"
 
 
 def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_results: dict[str, Any]) -> None:
@@ -572,6 +620,127 @@ def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_resul
     assert sp.expand(dlw_eps - bulk_lw - sp.diff(jx_lw, x) - sp.diff(jy_lw, y)) == 0
     assert sp.expand(dlw_eps - bulk_lw - sp.diff(jx_lw, x) + sp.diff(jy_lw, y)) != 0
 
+    # 4b. Independent 2nd-order curved bosonic variation wrt delta V_0 & generic non-zero (dA_x, dA_y, dQ, dR),
+    #     curved R_{xi=1} gauge-fixing decoupling, and full 4-slot M_0^* M_0 & M_0 M_0^* Hitchin BPS block decoupling (D6):
+    dv1_s = pde_real_3d("dv1s")
+    dv2_s = pde_real_3d("dv2s")
+    f0x_v1, f0y_v1 = -cov_dx0(dv1_s, ax_b), -cov_dy0(dv1_s, ay_b)
+    d0q_v1, d0r_v1 = -sp.I * comm(dv1_s, q_b), -sp.I * comm(dv1_s, r_b)
+    f0x_v2, f0y_v2 = -cov_dx0(dv2_s, ax_b), -cov_dy0(dv2_s, ay_b)
+    d0q_v2, d0r_v2 = -sp.I * comm(dv2_s, q_b), -sp.I * comm(dv2_s, r_b)
+    hess_vv_s = (
+        (f0x_v1 * f0x_v2 + f0y_v1 * f0y_v2).trace()
+        + om
+        * (
+            (m_herm(d0q_v1) * d0q_v2 + m_herm(d0q_v2) * d0q_v1).trace()
+            + (m_herm(d0r_v1) * d0r_v2 + m_herm(d0r_v2) * d0r_v1).trace()
+        )
+    ) / (g6**2)
+    div_vv_s = (sp.diff((dv1_s * cov_dx0(dv2_s, ax_b)).trace(), x) + sp.diff((dv1_s * cov_dy0(dv2_s, ay_b)).trace(), y)) / (g6**2)
+    assert norm_conj_deriv(hess_vv_s - (om**2 / g6**2) * (dv1_s * pv_indep(dv2_s, ax_b, ay_b, q_b, r_b, om)).trace() - div_vv_s) == 0
+
+    hess_v_phi_s = (
+        (f0x_v1 * mdiff(dax, z0) + f0y_v1 * mdiff(day, z0)).trace()
+        + om
+        * (
+            (m_herm(d0q_v1) * mdiff(dq, z0) + m_herm(mdiff(dq, z0)) * d0q_v1).trace()
+            + (m_herm(d0r_v1) * mdiff(dr, z0) + m_herm(mdiff(dr, z0)) * d0r_v1).trace()
+        )
+    ) / (g6**2)
+    g_gf_s = -(om ** (-2)) * (cov_dx0(dax, ax_b) + cov_dy0(day, ay_b)) + sp.I * (om ** (-1)) * (
+        comm(qh_b, dq) + comm(q_b, m_herm(dq)) + comm(rh_b, dr) + comm(r_b, m_herm(dr))
+    )
+    gf_cross_s = -(om**2 / g6**2) * (mdiff(dv1_s, z0) * g_gf_s).trace()
+    jz0_gf = (
+        -(cov_dx0(dv1_s, ax_b) * dax + cov_dy0(dv1_s, ay_b) * day).trace()
+        + om * ((m_herm(d0q_v1) * dq + m_herm(dq) * d0q_v1).trace() + (m_herm(d0r_v1) * dr + m_herm(dr) * d0r_v1).trace())
+    ) / (g6**2)
+    jx_gf = (mdiff(dv1_s, z0) * dax).trace() / (g6**2)
+    jy_gf = (mdiff(dv1_s, z0) * day).trace() / (g6**2)
+    assert norm_conj_deriv(hess_v_phi_s + gf_cross_s - sp.diff(jz0_gf, z0) - sp.diff(jx_gf, x) - sp.diff(jy_gf, y)) == 0
+
+    eps_g_s = sum((sp.Function(f"eg_{idx}", real=True)(x, y) * pm for idx, pm in enumerate(paulis, 1)), z2)
+    dax_eg, day_eg = cov_dx0(eps_g_s, ax_b), cov_dy0(eps_g_s, ay_b)
+    dq_eg, dr_eg = -sp.I * comm(q_b, eps_g_s), -sp.I * comm(r_b, eps_g_s)
+    two_kdk_real_s = -(om ** (-2)) * (cov_dx0(dax_eg, ax_b) + cov_dy0(day_eg, ay_b)) + sp.I * (om ** (-1)) * (
+        comm(qh_b, dq_eg) + comm(q_b, m_herm(dq_eg)) + comm(rh_b, dr_eg) + comm(r_b, m_herm(dr_eg))
+    )
+    pv_eg = pv_indep(eps_g_s, ax_b, ay_b, q_b, r_b, om)
+    assert all(norm_conj_deriv((om**3) * (two_kdk_real_s - pv_eg)[r_i, c_i]) == 0 for r_i in range(2) for c_i in range(2))
+
+    # Full 4-slot block decoupling of BOTH M_0^* M_0 and M_0 M_0^* on an independent curved non-Abelian Hitchin BPS background:
+    gen_n6 = (s1 + s2) / sp.sqrt(2)
+    th_n6 = 3 * x + 2 * (y**2)
+    gu_n6 = sp.cos(th_n6) * sp.eye(2) + sp.I * sp.sin(th_n6) * gen_n6
+    guh_n6 = sp.cos(th_n6) * sp.eye(2) - sp.I * sp.sin(th_n6) * gen_n6
+    q_seed6 = sp.Rational(5, 13) * (1 / (4 * sp.sqrt(ell * y))) * (s1 + sp.I * s2)
+    r_seed6 = sp.Rational(12, 13) * sp.I * (1 / (4 * sp.sqrt(ell * y))) * (s1 + sp.I * s2)
+    ax_h6 = (gu_n6 * ax0_h * guh_n6 + sp.I * gu_n6 * mdiff(guh_n6, x)).applyfunc(sp.expand)
+    ay_h6 = (sp.I * gu_n6 * mdiff(guh_n6, y)).applyfunc(sp.expand)
+    q_h6 = (gu_n6 * q_seed6 * guh_n6).applyfunc(sp.expand)
+    r_h6 = (gu_n6 * r_seed6 * guh_n6).applyfunc(sp.expand)
+    c_th6, s_th6 = sp.symbols("c_th6 s_th6", real=True)
+    trig_set6 = {sp.cos(th_n6), sp.sin(th_n6)}
+    sub_rt6 = {sp.cos(th_n6): c_th6, sp.sin(th_n6): s_th6, y: u_rt**2, ell: l_rt**2}
+
+    def zero_jet6(m_in: sp.Matrix) -> bool:
+        for el6 in m_in:
+            if el6 == 0:
+                continue
+            d_m6 = {d_a: sp.Symbol(f"JD6_{i}") for i, d_a in enumerate(sorted(el6.atoms(sp.Derivative), key=str))}
+            ex1_6 = el6.xreplace(d_m6)
+            f_m6 = {f_a: sp.Symbol(f"JF6_{i}") for i, f_a in enumerate(sorted(ex1_6.atoms(sp.Function) - trig_set6, key=str))}
+            ex2_6 = sp.expand((u_rt**8) * (l_rt**4) * ex1_6.xreplace(f_m6).subs(sub_rt6))
+            ex3_6 = sp.expand(
+                ex2_6.replace(
+                    lambda e: e.is_Pow and e.base == c_th6 and e.exp.is_Integer and int(e.exp) >= 2,
+                    lambda e: ((1 - s_th6**2) ** (int(e.exp) // 2)) * (c_th6 if (int(e.exp) % 2 == 1) else 1),
+                )
+            )
+            if ex3_6 != 0:
+                return False
+        return True
+
+    def m0_h6(sec4: list[sp.Matrix]) -> list[sp.Matrix]:
+        sl, sa, su, sv = sec4
+        qh6, rh6 = m_herm(q_h6), m_herm(r_h6)
+        dz_a = cov_dx0(sa, ax_h6) - sp.I * cov_dy0(sa, ay_h6)
+        dz_l = cov_dx0(sl, ax_h6) - sp.I * cov_dy0(sl, ay_h6)
+        db_v = cov_dx0(sv, ax_h6) + sp.I * cov_dy0(sv, ay_h6)
+        db_u = cov_dx0(su, ax_h6) + sp.I * cov_dy0(su, ay_h6)
+        return [
+            (-(om_hyp ** (-2)) * (dz_a - 2 * sp.I * om_hyp * (comm(qh6, su) + comm(rh6, sv))) / sp.sqrt(2)).applyfunc(sp.expand),
+            (sp.sqrt(2) * dz_l + 2 * sp.I * (comm(q_h6, sv) - comm(r_h6, su))).applyfunc(sp.expand),
+            ((om_hyp ** (-1)) * (db_v + sp.I * comm(r_h6, sa)) - sp.sqrt(2) * sp.I * comm(qh6, sl)).applyfunc(sp.expand),
+            (-(om_hyp ** (-1)) * (db_u + sp.I * comm(q_h6, sa)) - sp.sqrt(2) * sp.I * comm(rh6, sl)).applyfunc(sp.expand),
+        ]
+
+    def m0_dag_h6(sec4: list[sp.Matrix]) -> list[sp.Matrix]:
+        sc0, sc1, sc2, sc3 = sec4
+        qh6, rh6 = m_herm(q_h6), m_herm(r_h6)
+        db_1 = cov_dx0(sc1, ax_h6) + sp.I * cov_dy0(sc1, ay_h6)
+        db_0 = cov_dx0(sc0, ax_h6) + sp.I * cov_dy0(sc0, ay_h6)
+        dz_3 = cov_dx0(sc3, ax_h6) - sp.I * cov_dy0(sc3, ay_h6)
+        dz_2 = cov_dx0(sc2, ax_h6) - sp.I * cov_dy0(sc2, ay_h6)
+        return [
+            (-(om_hyp ** (-2)) * (db_1 - 2 * sp.I * om_hyp * (comm(q_h6, sc2) + comm(r_h6, sc3))) / sp.sqrt(2)).applyfunc(sp.expand),
+            (sp.sqrt(2) * db_0 + 2 * sp.I * (comm(qh6, sc3) - comm(rh6, sc2))).applyfunc(sp.expand),
+            ((om_hyp ** (-1)) * (dz_3 + sp.I * comm(rh6, sc1)) - sp.sqrt(2) * sp.I * comm(q_h6, sc0)).applyfunc(sp.expand),
+            (-(om_hyp ** (-1)) * (dz_2 + sp.I * comm(qh6, sc1)) - sp.sqrt(2) * sp.I * comm(r_h6, sc0)).applyfunc(sp.expand),
+        ]
+
+    mdm_all6 = m0_dag_h6(m0_h6(psi))
+    mdm_123 = m0_dag_h6(m0_h6([z2, psi[1], psi[2], psi[3]]))
+    assert zero_jet6(mdm_all6[0] - pv_indep(psi[0], ax_h6, ay_h6, q_h6, r_h6, om_hyp))
+    for k_slot in (1, 2, 3):
+        assert zero_jet6(mdm_all6[k_slot] - mdm_123[k_slot])
+
+    mmd_all6 = m0_h6(m0_dag_h6(chi))
+    mmd_123 = m0_h6(m0_dag_h6([z2, chi[1], chi[2], chi[3]]))
+    assert zero_jet6(mmd_all6[0] - pv_indep(chi[0], ax_h6, ay_h6, q_h6, r_h6, om_hyp))
+    for k_slot in (1, 2, 3):
+        assert zero_jet6(mmd_all6[k_slot] - mmd_123[k_slot])
+
     # 5. Independent X:FLAT curved conformal cancellation, half-form cusp L^2 finiteness, and 6*rank = 12 Cartan moduli (D1):
     yc, tau2, c_x, c_y, vc_s, abr_s, u_s = sp.symbols("yc tau2 c_x c_y vc_s abr_s u_s", real=True, positive=True)
     curved_1form_dens = sp.simplify(sp.Rational(1, 2) * (g2d_inv[0, 0] * (c_x**2) + g2d_inv[1, 1] * (c_y**2)) * sqrt_g)
@@ -755,12 +924,148 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
             return 0
         return (av_i - 1) // 2 if av_i > 0 else av_i // 2
 
-    def h0_tw_indep(deg_i: int, p1: int, q1: int, p2: int, q2: int) -> int:
-        if deg_i < 0:
-            return 0
-        if deg_i == 0:
-            return 1 if (p1 % q1 == 0 and p2 % q2 == 0) else 0
-        return deg_i
+    # 2b. Exact punctured-torus hyperbolic metric rho_hyp(w) = ell^2 / (|w|^2 (ln|w|)^2) L^2 pole bound under J_a (D7):
+    n_pt_s = sp.Symbol("n_pt_s", integer=True)
+    rho_pt_hyp = (ell_s**2) / (4 * (sp.pi**2) * (y_s**2) * sp.exp(-4 * sp.pi * y_s))
+    jac_pt_z = 4 * (sp.pi**2) * sp.exp(-4 * sp.pi * y_s)
+    cod_pt_z = sp.simplify(sp.exp(4 * sp.pi * n_pt_s * y_s) * (rho_pt_hyp ** (a_c / 2)) * jac_pt_z)
+    chi_pt_sq = sp.Rational(1, 2) * (rho_pt_hyp**a_c) * sp.exp(4 * sp.pi * n_pt_s * y_s)
+    dom_pt_z = sp.simplify(2 * (rho_pt_hyp ** (-a_c / 2)) * chi_pt_sq * jac_pt_z)
+    assert sp.simplify(cod_pt_z - dom_pt_z) == 0
+    for av_pt in range(-6, 8):
+        nb_pt = b_indep(2 - av_pt)
+        i_conv_pt = sp.integrate(sp.simplify(dom_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt, ell_s: 1})), (y_s, 1, sp.oo))
+        i_div_pt = sp.integrate(sp.simplify(dom_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt + 1, ell_s: 1})), (y_s, 1, sp.oo))
+        assert not i_conv_pt.has(sp.oo, sp.zoo, sp.nan)
+        assert i_div_pt.has(sp.oo, sp.zoo)
+
+    # 2c. Independent 32-digit mpmath.jtheta + mpmath.quad Kronecker-Eisenstein twisted Stokes contour/residue
+    #     AND mechanical twisted Dolbeault/theta SVD rank check across spin structures and flat holonomies (zero lookup table):
+    with mp.workdps(32):
+        tau_mp = mp.mpc(mp.mpf(2) / 5, mp.mpf(6) / 5)
+        q_mp = mp.exp(mp.pi * 1j * tau_mp)
+        th1_mp = lambda z_v: mp.jtheta(1, mp.pi * z_v, q_mp)
+        th1_p0_mp = mp.pi * mp.jtheta(1, 0, q_mp, derivative=1)
+        tol_mp = mp.mpf(TOL) * mp.mpf(TOL)
+        z_pr_mp = mp.mpc(mp.mpf(1) / 4, mp.mpf(2) / 5)
+        z0_par_mp = mp.mpc(-mp.mpf(1) / 3, -mp.mpf(1) / 4)
+        r_cir_mp = mp.mpf(1) / 16
+        for t1_mp, t2_mp in [
+            (mp.mpf(1) / 2, mp.mpf(0)),
+            (mp.mpf(0), mp.mpf(1) / 2),
+            (mp.mpf(1) / 2, mp.mpf(1) / 2),
+            (mp.mpf(2) / 7, mp.mpf(3) / 5),
+            (mp.sqrt(2) - 1, mp.sqrt(3) - 1),
+        ]:
+            w_mp = t1_mp * tau_mp - t2_mp
+            s_ke_mp = lambda z_v: (th1_mp(z_v + w_mp) * th1_p0_mp) / (th1_mp(z_v) * th1_mp(w_mp)) * mp.exp(2j * mp.pi * t1_mp * z_v)
+            assert abs(s_ke_mp(z_pr_mp + 1) - mp.exp(2j * mp.pi * t1_mp) * s_ke_mp(z_pr_mp)) < tol_mp
+            assert abs(s_ke_mp(z_pr_mp + tau_mp) - mp.exp(2j * mp.pi * t2_mp) * s_ke_mp(z_pr_mp)) < tol_mp
+            res0_mp = mp.quad(lambda ph: s_ke_mp(r_cir_mp * mp.exp(1j * ph)) * 1j * r_cir_mp * mp.exp(1j * ph), [0, 2 * mp.pi]) / (2j * mp.pi)
+            assert abs(res0_mp - 1) < tol_mp
+            sg1 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + s_p), [0, 1])
+            sg2 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + 1 + s_p * tau_mp) * tau_mp, [0, 1])
+            sg3 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + tau_mp + s_p), [0, 1])
+            sg4 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + s_p * tau_mp) * tau_mp, [0, 1])
+            assert abs((sg1 + sg2 + sg3 + sg4) / (2j * mp.pi) - 1) < tol_mp
+
+    tw_svd_cache: dict[tuple[int, int, int, int, int], int] = {}
+
+    def twisted_index_svd_indep(av_arg: int, p1: int, q1: int, p2: int, q2: int) -> int:
+        def h0_one(deg_i: int, sp1: int, sq1: int, sp2: int, sq2: int) -> int:
+            k_tw = (deg_i, sp1, sq1, sp2, sq2)
+            if k_tw in tw_svd_cache:
+                return tw_svd_cache[k_tw]
+            t1_r = (sp1 / sq1) % 1.0
+            t2_r = (sp2 / sq2) % 1.0
+            tau_c = (2 / 5) + (5 / 4) * 1j
+            if deg_i <= 0:
+                grid_mn = [(m_g, n_g) for m_g in range(-3, 4) for n_g in range(-3, 4)]
+                n_grid = len(grid_mn)
+                n_vz = -deg_i
+                mat_d = np.zeros((n_grid + n_vz, n_grid), dtype=complex)
+                for idx_g, (m_g, n_g) in enumerate(grid_mn):
+                    mat_d[idx_g, idx_g] = (m_g + t1_r) * tau_c - (n_g + t2_r)
+                    for r_z in range(n_vz):
+                        mat_d[n_grid + r_z, idx_g] = ((1j * m_g / 5) ** r_z) + (1 / 3) * ((1j * n_g / 5) ** r_z)
+                sv_m = np.linalg.svd(mat_d, compute_uv=False)
+                rk_null = n_grid - int(np.sum(sv_m > 1e-9))
+                tw_svd_cache[k_tw] = rk_null
+                return rk_null
+            q_c = np.exp(1j * math.pi * tau_c)
+            q_c4 = np.exp((1 / 4) * 1j * math.pi * tau_c)
+            q_csq = q_c * q_c
+
+            def jth1_val(z_c: complex, deriv1: bool = False) -> complex:
+                acc_th = 0.0 + 0.0j
+                q_pow = q_c4
+                q_inc = 1.0 + 0.0j
+                sgn_th = 2.0
+                for n_th in range(6):
+                    if n_th > 0:
+                        q_inc = q_inc * q_csq
+                        q_pow = q_pow * q_inc
+                        sgn_th = -sgn_th
+                    k_th = 2 * n_th + 1
+                    if deriv1:
+                        acc_th = acc_th + (sgn_th * q_pow) * (k_th * math.pi) * np.cos(k_th * math.pi * z_c)
+                    else:
+                        acc_th = acc_th + (sgn_th * q_pow) * np.sin(k_th * math.pi * z_c)
+                return complex(acc_th)
+
+            w_c = t1_r * tau_c - t2_r
+            nontriv_c = (abs(math.sin(math.pi * t1_r)) + abs(math.sin(math.pi * t2_r))) > 1e-9
+
+            def base_merom(z_c: complex) -> complex:
+                if nontriv_c:
+                    return (
+                        jth1_val(z_c + w_c, False)
+                        / jth1_val(z_c, False)
+                        * complex(np.exp(2.0 * 1j * math.pi * t1_r * z_c))
+                    )
+                return jth1_val(z_c, True) / jth1_val(z_c, False)
+
+            def cand_vec(z_c: complex) -> list[complex]:
+                r_d = 1 / 16
+                ring_vals: list[complex] = []
+                for idx_r in range(16):
+                    ring_vals.append(base_merom(z_c + r_d * complex(np.exp(2.0 * 1j * math.pi * idx_r / 16))))
+                out_l: list[complex] = [1.0 + 0.0j]
+                for k_ord in range(deg_i):
+                    acc_c = 0.0 + 0.0j
+                    for idx_r in range(16):
+                        acc_c = acc_c + ring_vals[idx_r] * complex(np.exp(-2.0 * 1j * math.pi * k_ord * idx_r / 16))
+                    out_l.append(acc_c / 16)
+                return out_l
+
+            hol_a_c = complex(np.exp(2.0 * 1j * math.pi * t1_r))
+            hol_b_c = complex(np.exp(2.0 * 1j * math.pi * t2_r))
+            n_pts_i = deg_i + 4
+            def_mat_i = np.zeros((2 * n_pts_i, deg_i + 1), dtype=complex)
+            ev_mat_i = np.zeros((n_pts_i, deg_i + 1), dtype=complex)
+            for k_pt in range(n_pts_i):
+                zp_m = ((1 / 6) + (k_pt / 15)) + 1j * ((1 / 5) + (((k_pt * k_pt + 1) % 7) / 13))
+                v0_c = cand_vec(zp_m)
+                va_c = cand_vec(zp_m + 1.0)
+                vb_c = cand_vec(zp_m + tau_c)
+                for c_j in range(deg_i + 1):
+                    def_mat_i[2 * k_pt, c_j] = va_c[c_j] - hol_a_c * v0_c[c_j]
+                    def_mat_i[2 * k_pt + 1, c_j] = vb_c[c_j] - hol_b_c * v0_c[c_j]
+                    ev_mat_i[k_pt, c_j] = v0_c[c_j]
+            for c_j in range(deg_i + 1):
+                col_nrm_i = float(np.linalg.norm(ev_mat_i[:, c_j]))
+                if col_nrm_i > 1e-12:
+                    def_mat_i[:, c_j] = def_mat_i[:, c_j] / col_nrm_i
+                    ev_mat_i[:, c_j] = ev_mat_i[:, c_j] / col_nrm_i
+            _, sv_df, vh_df = np.linalg.svd(def_mat_i, full_matrices=True)
+            rk_df = int(np.sum(sv_df > 1e-8))
+            nb_df = vh_df[rk_df:, :].conj().T
+            sv_ev_i = np.linalg.svd(ev_mat_i @ nb_df, compute_uv=False)
+            rk_pos = int(np.sum(sv_ev_i > 1e-8))
+            tw_svd_cache[k_tw] = rk_pos
+            return rk_pos
+
+        return h0_one(b_indep(av_arg), p1, q1, p2, q2) - h0_one(b_indep(2 - av_arg), -p1, q1, -p2, q2)
 
     for p1, q1, p2, q2 in [
         (0, 1, 0, 1),
@@ -771,9 +1076,7 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
     ]:
         for av in range(-8, 10):
             assert b_indep(av) == cusp_max_pole_order(av)
-            j_tw_v = h0_tw_indep(b_indep(av), p1, q1, p2, q2) - h0_tw_indep(b_indep(2 - av), -p1, q1, -p2, q2)
-            j_00_v = h0_tw_indep(b_indep(av), 0, 1, 0, 1) - h0_tw_indep(b_indep(2 - av), 0, 1, 0, 1)
-            assert j_tw_v == j_00_v
+            assert twisted_index_svd_indep(av, p1, q1, p2, q2) == twisted_index_svd_indep(av, 0, 1, 0, 1)
 
     # 3. Independent real-linear SVD computation of V4 Lagrangian Grassmannian tangent dimension = 16 + Haar U(8) scrambling:
     rng = np.random.default_rng(131)

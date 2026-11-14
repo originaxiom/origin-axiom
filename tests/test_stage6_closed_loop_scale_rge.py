@@ -1,4 +1,4 @@
-"""Zero-trust pytest counterchecks & AST locks for Stage 6 v2
+"""Zero-trust pytest counterchecks & AST locks for Stage 6 v3
 (B1861 WP-4.1, WP-4.2, WP-4.3, B1919-B1922, P-831, P-845):
 Closed-Loop Shifted-Lattice Kronecker Function, Physical Torus Metric & 1-Loop
 Scherk-Schwarz Modulus Audit, Whole-Weave Transfer Spectrum & Hyperbolic BFS
@@ -13,12 +13,14 @@ Enforces Guardrails 1-6 and 0-of-19 empirical blindness (P-728):
   pullback metric and O(h^4) 1-loop gradient/Laplacian/Scherk-Schwarz harmonicity checks,
   matrix-word BFS on distinct hyperbolic words, cyclotomic quotient ring Q[q]/(Phi_5(q)) for
   J_5(4_1) = 46 + 2*sqrt(5), complex bi-degree SU(2)_L Casimir singlet counting + u(3)^5
-  flavour Jacobian, explicit su(N_c) Gell-Mann commutator Casimirs + p_0-component MV84/MV85
-  2-loop matrix RGEs integrated via Kutta's 4th-order 3/8-rule, Cauchy-contour 4th-order
-  Lie-Picard jets, and fresh-seed 2-loop U(3)^5 Haar basis scrambling.
+  flavour Jacobian + mechanical ker(J) chiral anomaly projection, explicit su(N_c) Gell-Mann
+  commutator Casimirs + d = 4 - 2*eps MS-bar Chetyrkin-Tkachov kite & Dirac-block matrix
+  't Hooft pole 2-loop matrix RGEs integrated via Kutta's 4th-order 3/8-rule, Cauchy-contour
+  4th-order non-commuting matrix Lie-Picard jets, and fresh-seed 2-loop U(3)^5 Haar scrambling.
 """
 from __future__ import annotations
 
+from functools import lru_cache
 from itertools import product
 import math
 from pathlib import Path
@@ -35,7 +37,14 @@ from origin_axiom.stage1_curved_action_cusp_orbit import (
     check_guardrail2_ast_no_literal_bool_verdicts,
     haar_unitary,
 )
-from origin_axiom.stage6_closed_loop_scale_rge import run_stage6_complete_verification
+from origin_axiom.stage6_closed_loop_scale_rge import (
+    build_sm_2loop_betas_symbolic,
+    compute_sm_19_operator_parameter_count,
+    extract_physical_flavor_invariants,
+    integrate_matrix_yukawa_2loop_rk4,
+    make_sm_rge_num_coeffs,
+    run_stage6_complete_verification,
+)
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -265,6 +274,374 @@ def ref_su_n_fundamental_generators(dim_n: int) -> list[sp.Matrix]:
         for k_d in range(1, dim_n)
     ]
     return sym_off + asym_off + cartan_diag
+
+
+@lru_cache(maxsize=None)
+def ref_derive_msbar_kite_matrix_yukawa_coeffs() -> dict[str, Any]:
+    """Independent zero-trust derivation of ALL 1-loop and 2-loop non-commuting matrix Yukawa
+    coefficients via d = 4 - 2*eps MS-bar Chetyrkin-Tkachov 2-loop kite IBP recursion,
+    subdivergence-subtracted rainbow/ladder/crossed/triangle topologies, and 4x4 Dirac-block
+    matrix 't Hooft RG pole cancellation (1/eps^2 == 0 and 1/eps == 0).
+    """
+    eps, g_eul, lnp, pi2, z3, y_sp, tau_d = sp.symbols("eps g_eul lnp pi2 z3 y_sp tau_d")
+    d_dim = 4 - 2 * eps
+
+    def trunc_e(ex_in: sp.Expr, mpw: int = 2) -> sp.Expr:
+        ex_e = sp.expand(ex_in)
+        return sum([ex_e.coeff(eps, k_p) * (eps ** k_p) for k_p in range(-4, mpw + 1)], sp.Integer(0))
+
+    def mul_e(a_ex: sp.Expr, b_ex: sp.Expr, mpw: int = 2) -> sp.Expr:
+        a_c, b_c = sp.expand(a_ex), sp.expand(b_ex)
+        if a_c == 0 or b_c == 0:
+            return sp.Integer(0)
+        nz_a = [(k_a, a_c.coeff(eps, k_a)) for k_a in range(-4, mpw + 5) if a_c.coeff(eps, k_a) != 0]
+        nz_b = [(k_b, b_c.coeff(eps, k_b)) for k_b in range(-4, mpw + 5) if b_c.coeff(eps, k_b) != 0]
+        return sum(
+            [
+                sp.expand(
+                    sum([va * vb for ka, va in nz_a for kb, vb in nz_b if ka + kb == ks], sp.Integer(0))
+                )
+                * (eps ** ks)
+                for ks in range(-4, mpw + 1)
+            ],
+            sp.Integer(0),
+        )
+
+    def inv_l(a0_in: sp.Expr, a1_in: sp.Expr, mpw: int = 3) -> sp.Expr:
+        a0_s, a1_s = sp.expand(a0_in), sp.expand(a1_in)
+        if a0_s == 0:
+            return (sp.Integer(1) / a1_s) * (eps ** (-1))
+        r_v = -a1_s / a0_s
+        return sum([sp.expand((r_v ** j_p) / a0_s) * (eps ** j_p) for j_p in range(mpw + 2)], sp.Integer(0))
+
+    def exp_s(arg_e: sp.Expr, mpw: int = 3) -> sp.Expr:
+        res_e = sp.Integer(1)
+        tm_e = sp.Integer(1)
+        for j_p in range(1, mpw + 2):
+            tm_e = mul_e(tm_e, arg_e / sp.Integer(j_p), mpw + 1)
+            res_e = trunc_e(res_e + tm_e, mpw + 1)
+        return res_e
+
+    @lru_cache(maxsize=None)
+    def gam_l(z_ex: sp.Expr, mpw: int = 3) -> sp.Expr:
+        cur = sp.expand(z_ex)
+        z0 = int(cur.subs(eps, 0))
+        fac = sp.Integer(1)
+        for _ in range(4):
+            if z0 > 1:
+                cur = cur - 1
+                z0 -= 1
+                fac = mul_e(fac, cur, mpw + 2)
+        for _ in range(4):
+            if z0 < 1:
+                c0 = cur.subs(eps, 0)
+                c1 = sp.expand((cur - c0) / eps)
+                fac = mul_e(fac, inv_l(c0, c1, mpw + 2), mpw + 2)
+                cur = cur + 1
+                z0 += 1
+        w_v = sp.expand(cur - 1)
+        w2_v = mul_e(w_v, w_v, mpw + 2)
+        w3_v = mul_e(w2_v, w_v, mpw + 2)
+        return mul_e(
+            fac,
+            exp_s(trunc_e(-g_eul * w_v + w2_v * (pi2 / 12) - w3_v * (z3 / 3), mpw + 2), mpw + 2),
+            mpw,
+        )
+
+    @lru_cache(maxsize=None)
+    def igam_l(z_ex: sp.Expr, mpw: int = 3) -> sp.Expr:
+        cur = sp.expand(z_ex)
+        z0 = int(cur.subs(eps, 0))
+        fac = sp.Integer(1)
+        for _ in range(4):
+            if z0 > 1:
+                cur = cur - 1
+                z0 -= 1
+                c0 = cur.subs(eps, 0)
+                c1 = sp.expand((cur - c0) / eps)
+                fac = mul_e(fac, inv_l(c0, c1, mpw + 2), mpw + 2)
+        for _ in range(4):
+            if z0 < 1:
+                fac = mul_e(fac, cur, mpw + 2)
+                cur = cur + 1
+                z0 += 1
+        w_v = sp.expand(cur - 1)
+        w2_v = mul_e(w_v, w_v, mpw + 2)
+        w3_v = mul_e(w2_v, w_v, mpw + 2)
+        return mul_e(
+            fac,
+            exp_s(trunc_e(g_eul * w_v - w2_v * (pi2 / 12) + w3_v * (z3 / 3), mpw + 2), mpw + 2),
+            mpw + 2,
+        )
+
+    @lru_cache(maxsize=None)
+    def g_bub_c(a_e: sp.Expr, b_e: sp.Expr, mpw: int) -> sp.Expr:
+        if (a_e.is_integer and int(a_e) <= 0) or (b_e.is_integer and int(b_e) <= 0):
+            return sp.Integer(0)
+        num = mul_e(
+            mul_e(gam_l(sp.expand(d_dim / 2 - a_e), mpw + 2), gam_l(sp.expand(d_dim / 2 - b_e), mpw + 2), mpw + 2),
+            gam_l(sp.expand(a_e + b_e - d_dim / 2), mpw + 2),
+            mpw + 2,
+        )
+        den = mul_e(
+            mul_e(igam_l(a_e, mpw + 2), igam_l(b_e, mpw + 2), mpw + 2),
+            igam_l(sp.expand(d_dim - a_e - b_e), mpw + 2),
+            mpw + 2,
+        )
+        return mul_e(mul_e(num, den, mpw + 1), exp_s(eps * g_eul, mpw + 1), mpw)
+
+    def g_bub(a_v: Any, b_v: Any, mpw: int = 2) -> sp.Expr:
+        return g_bub_c(sp.expand(a_v), sp.expand(b_v), mpw)
+
+    z_k = int(sp.Matrix.eye(1).trace()) - 1
+
+    @lru_cache(maxsize=None)
+    def k_ct(a1: int, a2: int, a3: int, a4: int, a5: int, mpw: int = 1) -> sp.Expr:
+        if a5 == 0:
+            return mul_e(g_bub(a1, a2, mpw + 1), g_bub(a3, a4, mpw + 1), mpw)
+        if (a1 <= 0 and a3 <= 0) or (a2 <= 0 and a4 <= 0) or (a1 <= 0 and a2 <= 0) or (a3 <= 0 and a4 <= 0):
+            return sp.Integer(0)
+        if a1 == 0:
+            return mul_e(g_bub(a2, a5, mpw + 1), g_bub(a3, a4 + a2 + a5 - d_dim / 2, mpw + 1), mpw)
+        if a2 == 0:
+            return mul_e(g_bub(a1, a5, mpw + 1), g_bub(a3 + a1 + a5 - d_dim / 2, a4, mpw + 1), mpw)
+        if a3 == 0:
+            return mul_e(g_bub(a4, a5, mpw + 1), g_bub(a1, a2 + a4 + a5 - d_dim / 2, mpw + 1), mpw)
+        if a4 == 0:
+            return mul_e(g_bub(a3, a5, mpw + 1), g_bub(a1 + a3 + a5 - d_dim / 2, a2, mpw + 1), mpw)
+        rhs_k = trunc_e(
+            -a1 * (k_ct(a1 + 1, a2, 0, 1, 1, mpw + 1) - k_ct(a1 + 1, a2, 1, 1, 0, mpw + 1))
+            - a2 * (k_ct(a1, a2 + 1, 1, 0, 1, mpw + 1) - k_ct(a1, a2 + 1, 1, 1, 0, mpw + 1)),
+            mpw + 1,
+        )
+        return mul_e(rhs_k, inv_l(2 - a1 - a2, -2, mpw + 2), mpw)
+
+    kite_z3_exact = sp.simplify(k_ct(1 + z_k, 1 + z_k, 1 + z_k, 1 + z_k, 1 + z_k, z_k) - 6 * z3) == 0
+
+    p1_e = exp_s(-eps * lnp, 3)
+    p2_e = exp_s(-2 * eps * lnp, 3)
+    s1, s2, s3, s4, s5 = sp.symbols("s1 s2 s3 s4 s5")
+    kp_s = sp.Rational(1, 2) * (s1 + 1 - s2)
+    qp_s = sp.Rational(1, 2) * (s3 + 1 - s4)
+    kq_s = sp.Rational(1, 2) * (s1 + s3 - s5)
+
+    def dot_v(va: tuple[int, int, int], vb: tuple[int, int, int]) -> sp.Expr:
+        ap, ak, aq = va
+        bp, bk, bq = vb
+        return (
+            ap * bp
+            + ak * bk * s1
+            + aq * bq * s3
+            + (ap * bk + ak * bp) * kp_s
+            + (ap * bq + aq * bp) * qp_s
+            + (ak * bq + aq * bk) * kq_s
+        )
+
+    def int_k(poly_s: sp.Expr) -> sp.Expr:
+        ps = sp.Poly(sp.expand(poly_s), s1, s2, s3, s4, s5)
+        tot = sp.Integer(0)
+        for (i1, i2, i3, i4, i5), cf_p in ps.terms():
+            tot = trunc_e(tot + cf_p * k_ct(1 - i1 + z_k, 1 - i2 + z_k, 1 - i3 + z_k, 1 - i4 + z_k, 1 - i5 + z_k, z_k), 0)
+        return mul_e(tot, p2_e, 0)
+
+    vp, vk, v_kmq, v_pmq = (1, 0, 0), (0, 1, 0), (0, 1, -1), (1, 0, -1)
+    tr4_cr = sp.expand(
+        dot_v(vp, vk) * dot_v(v_kmq, v_pmq)
+        - dot_v(vp, v_kmq) * dot_v(vk, v_pmq)
+        + dot_v(vp, v_pmq) * dot_v(vk, v_kmq)
+    )
+    g11_ct = mul_e(eps ** (-1), g_bub(1, 1, 2), 1)
+    psi_rain = trunc_e(
+        -sp.Rational(1, 4) * mul_e(mul_e(g_bub(1, 1, 2), g_bub(eps, 1, 2) + g_bub(1 + eps, 1, 2), 2), p2_e, 0)
+        + sp.Rational(1, 4) * mul_e(g11_ct, p1_e, 0),
+        0,
+    )
+    psi_cross = trunc_e(int_k(-tr4_cr) + mul_e(g11_ct, p1_e, 0), 0)
+    v_lad_i = trunc_e(-mul_e(mul_e(g_bub(1, 1, 2), g_bub(1 + eps, 1, 2), 2), p2_e, 0) + mul_e(g11_ct, p1_e, 0), 0)
+    v_cro_i = int_k(-dot_v(v_pmq, vk))
+    v_se_i = trunc_e(
+        -sp.Rational(1, 2) * mul_e(mul_e(g_bub(1, 1, 2), g_bub(1 + eps, 1, 2), 2), p2_e, 0)
+        + sp.Rational(1, 2) * mul_e(g11_ct, p1_e, 0),
+        0,
+    )
+    v_tr_i = trunc_e(int_k(-dot_v(v_pmq, v_kmq)) + mul_e(g11_ct, p1_e, 0), 0)
+    psi_t_i = trunc_e(
+        -sp.Rational(1, 2) * mul_e(mul_e(g_bub(1, 1, 2), g_bub(1, 1 + eps, 2) - g_bub(1, eps, 2), 2), p2_e, 0)
+        + sp.Rational(1, 2) * mul_e(g11_ct, p1_e, 0),
+        0,
+    )
+    vert_t_i = trunc_e(-mul_e(mul_e(g_bub(1, 1, 2), g_bub(1, 1 + eps, 2), 2), p2_e, 0) + mul_e(g11_ct, p1_e, 0), 0)
+
+    ints_8 = (psi_rain, psi_cross, v_lad_i, v_cro_i, v_se_i, v_tr_i, psi_t_i, vert_t_i)
+    subdiv_free = all(
+        sp.diff(sp.expand(ig_x).coeff(eps, -1), lnp) == 0 and sp.diff(sp.expand(ig_x).coeff(eps, -2), lnp) == 0
+        for ig_x in ints_8
+    )
+
+    def pl_part(ig_x: sp.Expr) -> sp.Expr:
+        ex_i = sp.expand(ig_x)
+        return ex_i.coeff(eps, -2) / (eps ** 2) + ex_i.coeff(eps, -1) / eps
+
+    def eval_thooft_2x2(yu_v: sp.Matrix, yd_v: sp.Matrix) -> tuple[sp.Matrix, sp.Matrix]:
+        hu_v, hd_v, ku_v = yu_v * yu_v.T, yd_v * yd_v.T, yu_v.T * yu_v
+
+        def yb1_of(u_arg: sp.Matrix, d_arg: sp.Matrix) -> sp.Matrix:
+            hu_a, hd_a, ku_a = u_arg * u_arg.T, d_arg * d_arg.T, u_arg.T * u_arg
+            return (
+                ((y_sp ** 2) / (2 * eps)) * u_arg
+                + ((hu_a + hd_a) / (4 * eps)) * u_arg
+                + u_arg * (ku_a / (2 * eps))
+                - (hd_a * u_arg) / eps
+            )
+
+        yb1_v = yb1_of(yu_v, yd_v).applyfunc(sp.expand)
+        byu1_v = (2 * eps * yb1_v).applyfunc(sp.expand)
+        byd1_v = (2 * eps * yb1_of(yd_v, yu_v)).applyfunc(sp.expand)
+        dyb1_v = yb1_of(yu_v + tau_d * byu1_v, yd_v + tau_d * byd1_v).applyfunc(
+            lambda ex_d: sp.expand(sp.diff(ex_d, tau_d).subs(tau_d, 0))
+        )
+
+        z2_m = sp.zeros(2, 2)
+        m4_list = [
+            sp.BlockMatrix([[z2_m, yd_v], [-yu_v, z2_m]]).as_explicit(),
+            sp.BlockMatrix([[z2_m, sp.I * yd_v], [sp.I * yu_v, z2_m]]).as_explicit(),
+            sp.BlockMatrix([[yu_v, z2_m], [z2_m, yd_v]]).as_explicit(),
+            sp.BlockMatrix([[-sp.I * yu_v, z2_m], [z2_m, sp.I * yd_v]]).as_explicit(),
+        ]
+        m4_dag = [mat_i.H for mat_i in m4_list]
+
+        def s4_blk(fn_blk: Any) -> sp.Matrix:
+            acc_m = sp.zeros(2, 2)
+            for e1 in range(4):
+                for e2 in range(4):
+                    acc_m = acc_m + fn_blk(e1, e2)[:2, :2]
+            return (acc_m / sp.Integer(4)).applyfunc(sp.expand)
+
+        l_rn = s4_blk(lambda e1, e2: m4_list[e1] * m4_dag[e2] * m4_list[e2] * m4_dag[e1])
+        r_rn = s4_blk(lambda e1, e2: m4_dag[e1] * m4_list[e2] * m4_dag[e2] * m4_list[e1])
+        l_cr = s4_blk(lambda e1, e2: m4_list[e1] * m4_dag[e2] * m4_list[e1] * m4_dag[e2])
+        r_cr = s4_blk(lambda e1, e2: m4_dag[e1] * m4_list[e2] * m4_dag[e1] * m4_list[e2])
+        v_ld = s4_blk(lambda e1, e2: m4_list[e1] * m4_dag[e2] * m4_list[2] * m4_dag[e2] * m4_list[e1])
+        v_cr = s4_blk(lambda e1, e2: m4_list[e1] * m4_dag[e2] * m4_list[2] * m4_dag[e1] * m4_list[e2])
+        v_se = s4_blk(
+            lambda e1, e2: m4_list[e1] * m4_dag[e2] * m4_list[e2] * m4_dag[2] * m4_list[e1]
+            + m4_list[e1] * m4_dag[2] * m4_list[e2] * m4_dag[e2] * m4_list[e1]
+        )
+        v_tr = s4_blk(
+            lambda e1, e2: m4_list[e2] * m4_dag[e1] * m4_list[e2] * m4_dag[2] * m4_list[e1]
+            + m4_list[e1] * m4_dag[2] * m4_list[e2] * m4_dag[e1] * m4_list[e2]
+        )
+
+        zs1 = (y_sp ** 2) / (2 * eps)
+        zl1 = (hu_v + hd_v) / (4 * eps)
+        zr1 = ku_v / (2 * eps)
+        dy1 = -(hd_v * yu_v) / eps
+        dzl2 = -(pl_part(psi_rain) * l_rn + pl_part(psi_cross) * l_cr) - pl_part(psi_t_i) * (y_sp ** 2) * (hu_v + hd_v)
+        dzr2 = -(pl_part(psi_rain) * r_rn + pl_part(psi_cross) * r_cr) - pl_part(psi_t_i) * (y_sp ** 2) * (2 * ku_v)
+        dy2 = (
+            pl_part(v_lad_i) * v_ld
+            + pl_part(v_cro_i) * v_cr
+            + pl_part(v_se_i) * v_se
+            + pl_part(v_tr_i) * v_tr
+            + pl_part(vert_t_i) * (y_sp ** 2) * (-hd_v * yu_v)
+        )
+        zl2 = -sp.Rational(1, 2) * dzl2 + sp.Rational(3, 2) * (zl1 * zl1)
+        zr2 = -sp.Rational(1, 2) * dzr2 + sp.Rational(3, 2) * (zr1 * zr1)
+        yb2_v = (
+            zl2 * yu_v
+            + yu_v * zr2
+            + dy2
+            + zl1 * dy1
+            + dy1 * zr1
+            + zl1 * yu_v * zr1
+            + zs1 * (zl1 * yu_v + yu_v * zr1 + dy1)
+        ).applyfunc(sp.expand)
+        full_v = (4 * eps * yb2_v - dyb1_v).applyfunc(
+            lambda ex_f: sp.expand(sp.expand(ex_f) - sp.expand(ex_f).coeff(y_sp, 4) * (y_sp ** 4))
+        )
+        return byu1_v, full_v
+
+    yu_a = sp.Matrix([[2, 3], [-1, 5]])
+    yd_a = sp.Matrix([[7, -2], [4, 1]])
+    yu_b = sp.Matrix([[3, -4], [2, 1]])
+    yd_b = sp.Matrix([[-1, 5], [3, 2]])
+
+    b1_a, b2_a = eval_thooft_2x2(yu_a, yd_a)
+    b1_b, b2_b = eval_thooft_2x2(yu_b, yd_b)
+    b1_lep, b2_lep = eval_thooft_2x2(yu_a, sp.zeros(2, 2))
+
+    thooft_poles_vanish = (
+        b2_a.applyfunc(lambda ex_p: ex_p.coeff(eps, -2)) == sp.zeros(2, 2)
+        and b2_a.applyfunc(lambda ex_p: ex_p.coeff(eps, -1)) == sp.zeros(2, 2)
+        and b2_b.applyfunc(lambda ex_p: ex_p.coeff(eps, -2)) == sp.zeros(2, 2)
+        and b2_b.applyfunc(lambda ex_p: ex_p.coeff(eps, -1)) == sp.zeros(2, 2)
+        and b2_lep.applyfunc(lambda ex_p: ex_p.coeff(eps, -1)) == sp.zeros(2, 2)
+    )
+
+    hu_a, hd_a = yu_a * yu_a.T, yd_a * yd_a.T
+    hu_b, hd_b = yu_b * yu_b.T, yd_b * yd_b.T
+    ca, cb, k1, k2, k3, k4 = sp.symbols("ca cb k1 k2 k3 k4")
+
+    b1_a_0 = b1_a.subs(y_sp, 0)
+    c1_y2s = sp.simplify(b1_a[0, 0].coeff(y_sp, 2) / yu_a[0, 0])
+    sol_1 = sp.solve(
+        [b1_a_0[r_i, c_i] - (ca * (hu_a * yu_a)[r_i, c_i] + cb * (hd_a * yu_a)[r_i, c_i]) for r_i in range(2) for c_i in range(2)],
+        [ca, cb],
+    )
+    c1_s, c1_p = sol_1[ca], sol_1[cb]
+
+    b2_a_0 = b2_a.applyfunc(lambda ex_0: ex_0.subs({eps: 0, y_sp: 0}))
+    b2_a_y2s = b2_a.applyfunc(lambda ex_y: ex_y.subs(eps, 0).coeff(y_sp, 2))
+    bu_a = [hu_a * hu_a * yu_a, hu_a * hd_a * yu_a, hd_a * hu_a * yu_a, hd_a * hd_a * yu_a]
+    bu_b = [hu_b * hu_b * yu_b, hu_b * hd_b * yu_b, hd_b * hu_b * yu_b, hd_b * hd_b * yu_b]
+    sol_2 = sp.solve(
+        [
+            b2_a_0[r_i, c_i] - sum([kv * bm[r_i, c_i] for kv, bm in zip((k1, k2, k3, k4), bu_a)], sp.Integer(0))
+            for r_i in range(2)
+            for c_i in range(2)
+        ],
+        [k1, k2, k3, k4],
+    )
+    c2_1, c2_2, c2_3, c2_4 = sol_2[k1], sol_2[k2], sol_2[k3], sol_2[k4]
+    sol_y2s = sp.solve(
+        [b2_a_y2s[r_i, c_i] - (ca * (hu_a * yu_a)[r_i, c_i] + cb * (hd_a * yu_a)[r_i, c_i]) for r_i in range(2) for c_i in range(2)],
+        [ca, cb],
+    )
+    cy_s, cy_p = sol_y2s[ca], sol_y2s[cb]
+
+    c1_e = sp.simplify(b1_lep.subs(y_sp, 0)[0, 0] / (hu_a * yu_a)[0, 0])
+    c2_e_he2 = sp.simplify(b2_lep.subs({eps: 0, y_sp: 0})[0, 0] / bu_a[0][0, 0])
+    c2_e_y2s = sp.simplify(b2_lep.subs(eps, 0)[0, 0].coeff(y_sp, 2) / (hu_a * yu_a)[0, 0])
+
+    b2_b_0 = b2_b.applyfunc(lambda ex_0: ex_0.subs({eps: 0, y_sp: 0}))
+    b2_b_y2s = b2_b.applyfunc(lambda ex_y: ex_y.subs(eps, 0).coeff(y_sp, 2))
+    pair_b_exact = (
+        b1_b.subs(y_sp, 0) == (c1_s * hu_b * yu_b + c1_p * hd_b * yu_b)
+        and b2_b_0 == (c2_1 * bu_b[0] + c2_2 * bu_b[1] + c2_3 * bu_b[2] + c2_4 * bu_b[3])
+        and b2_b_y2s == (cy_s * hu_b * yu_b + cy_p * hd_b * yu_b)
+    )
+    swapped_b = c2_1 * bu_b[0] + c2_3 * bu_b[1] + c2_2 * bu_b[2] + c2_4 * bu_b[3] - b2_b_0
+    swapped_comm_nonzero = (swapped_b == sp.Rational(3, 4) * (bu_b[2] - bu_b[1])) and (swapped_b != sp.zeros(2, 2))
+
+    return {
+        "c1_q_self": c1_s,
+        "c1_q_partner": c1_p,
+        "c1_e_self": c1_e,
+        "c1_y2s": c1_y2s,
+        "c2_q_hf2": c2_1,
+        "c2_q_hfhfp": c2_2,
+        "c2_q_hfphf": c2_3,
+        "c2_q_hfp2": c2_4,
+        "c2_e_he2": c2_e_he2,
+        "c2_q_y2s_hf": cy_s,
+        "c2_q_y2s_hfp": cy_p,
+        "c2_e_y2s_he": c2_e_y2s,
+        "kite_z3_exact": kite_z3_exact,
+        "subdiv_free": subdiv_free,
+        "thooft_poles_vanish": thooft_poles_vanish,
+        "pair_b_exact": pair_b_exact,
+        "swapped_comm_nonzero": swapped_comm_nonzero,
+    }
 
 
 def ref_build_zero_trust_mv_betas(n_c_in: int = 3, n_gen_in: int = 3) -> dict[str, Any]:
@@ -574,8 +951,24 @@ def ref_build_zero_trust_mv_betas(n_c_in: int = 3, n_gen_in: int = 3) -> dict[st
     tr6_s2_0 = sp.expand(sum([(ya4[0] * ya4[ei].H * ya4[0] * ya4[0].H * ya4[0] * ya4[ei].H).trace() for ei in range(4)]))
     y6_p = sp.Poly(sp.expand(8 * n_c_sym * (tr6_s1_0 + 2 * tr6_d0 + tr6_s2_0)), yus, yds)
 
+    kite_info = ref_derive_msbar_kite_matrix_yukawa_coeffs()
+    lam_y_p0 = sum(
+        [
+            -2 * l4[(0, bi, ci, di)] * (ya4[bi] * ya4[ci].H * ya4[di])[1, 2]
+            for bi, ci, di in product(range(4), repeat=3)
+            if l4[(0, bi, ci, di)] != 0
+        ],
+        sp.Integer(0),
+    )
+    c2_lam_hf_sym = sp.simplify(lam_y_p0.subs(yds, 0) / (lms * (yus ** 2) * ya4[0][1, 2]))
+    c2_lam2_sym = sp.simplify(gam2_0 / (lms ** 2))
+    c1_lam_y2_sym = sp.simplify(4 * kite_info["c1_y2s"])
+    c1_lam_y4_sym = sp.simplify(-4 * tr4_d0.subs({yus: 1, yds: 0}))
+    c2_lam2_y2_sym = sp.simplify(-2 * candy_0 * kite_info["c1_y2s"] / (lms ** 2))
+    c2_lam_yg_sym = sp.simplify(4 * kite_info["c1_y2s"])
+
     bl1_ew = sp.expand(candy_0 - 12 * lms * c2_s00 + 6 * ibox_r).subs(sub_ew)
-    blam_1 = sp.expand(bl1_ew + 4 * n_c_sym * lms * yts - 2 * n_c_sym * (yts ** 2))
+    blam_1 = sp.expand(bl1_ew + c1_lam_y2_sym * n_c_sym * lms * yts + c1_lam_y4_sym * n_c_sym * (yts ** 2))
 
     l2_g2 = sp.expand(6 * candy_0 * c2_s00).subs(sub_ew)
     l_g4 = sp.expand(
@@ -606,10 +999,10 @@ def ref_build_zero_trust_mv_betas(n_c_in: int = 3, n_gen_in: int = 3) -> dict[st
 
     blam_2 = sp.expand(
         pure_l3
-        - 48 * n_c_sym * (lms ** 2) * yts
+        + c2_lam2_y2_sym * n_c_sym * (lms ** 2) * yts
         + l2_g2
         + lms * ly4_p.coeff_monomial((4, 0)) * (yts ** 2)
-        + 4 * lms * yts * sum([tr_u_g[i] * [g1s, g2s, g3s][i] for i in range(3)])
+        + c2_lam_yg_sym * lms * yts * sum([tr_u_g[i] * [g1s, g2s, g3s][i] for i in range(3)])
         + l_g4
         + y6_p.coeff_monomial((6, 0)) * (yts ** 3)
         + (yts ** 2) * y4g2_u
@@ -639,6 +1032,25 @@ def ref_build_zero_trust_mv_betas(n_c_in: int = 3, n_gen_in: int = 3) -> dict[st
         "blam_2": blam_2,
         "nc_f": nc_fl,
         "kg_f": float(k_g),
+        "kite_info": kite_info,
+        "c1_q_self": float(kite_info["c1_q_self"]),
+        "c1_q_partner": float(kite_info["c1_q_partner"]),
+        "c1_e_self": float(kite_info["c1_e_self"]),
+        "c1_y2s": float(kite_info["c1_y2s"]),
+        "c2_q_hf2": float(kite_info["c2_q_hf2"]),
+        "c2_q_hfhfp": float(kite_info["c2_q_hfhfp"]),
+        "c2_q_hfphf": float(kite_info["c2_q_hfphf"]),
+        "c2_q_hfp2": float(kite_info["c2_q_hfp2"]),
+        "c2_e_he2": float(kite_info["c2_e_he2"]),
+        "c2_q_y2s_hf": float(kite_info["c2_q_y2s_hf"]),
+        "c2_q_y2s_hfp": float(kite_info["c2_q_y2s_hfp"]),
+        "c2_e_y2s_he": float(kite_info["c2_e_y2s_he"]),
+        "c2_lam_hf": float(c2_lam_hf_sym),
+        "c2_lam2": float(c2_lam2_sym),
+        "c1_lam_y2": float(c1_lam_y2_sym),
+        "c1_lam_y4": float(c1_lam_y4_sym),
+        "c2_lam2_y2": float(c2_lam2_y2_sym),
+        "c2_lam_yg": float(c2_lam_yg_sym),
         "b1": np.array([float(v) for v in b1_v], dtype=float),
         "b2": np.array([[float(b2_m[r, c]) for c in range(3)] for r in range(3)], dtype=float),
         "ctop": np.array([float(c_yuk[i, 0]) for i in range(3)], dtype=float),
@@ -667,6 +1079,7 @@ def ref_build_zero_trust_mv_betas(n_c_in: int = 3, n_gen_in: int = 3) -> dict[st
         "y4g2u_t": terms_of(y4g2_u, vars3),
         "y4g2d_t": terms_of(y4g2_d, vars3),
         "y4g2e_t": terms_of(y4g2_e, vars3),
+        "lam_ew1_t": terms_of(bl1_ew, vars4),
         "lam_ew2_t": terms_of(sp.expand(pure_l3 + l2_g2 + l_g4 + g6_p0), vars4),
         "chi4_qd": float(chi4_p.coeff_monomial((4, 0))),
         "chi4_ed": float(chi4_p.coeff_monomial((4, 0))) / nc_fl,
@@ -755,6 +1168,128 @@ def ref_integrate_5chan_kutta38(
     return xc
 
 
+def ref_matrix_yukawa_2loop_holomorphic_poly(
+    gv: np.ndarray,
+    lm: Any,
+    um: np.ndarray,
+    um_dag: np.ndarray,
+    dm: np.ndarray,
+    dm_dag: np.ndarray,
+    em: np.ndarray,
+    em_dag: np.ndarray,
+    rc: dict[str, Any],
+) -> tuple[np.ndarray, Any, np.ndarray, np.ndarray, np.ndarray]:
+    """Holomorphic polynomial evaluation of the 2-loop 3x3 matrix Yukawa + gauge + quartic RHS
+    for independent (um, um_dag), (dm, dm_dag), (em, em_dag) — used for both real-t integration
+    and complex Cauchy-contour Lie-Picard Taylor jets.
+    """
+    i4p = 1.0 / (4 * math.pi)
+    i8p = 0.5 * i4p
+    i64p3 = i4p / (16 * (math.pi ** 2))
+    i128p3 = 0.5 * i64p3
+
+    nc_v = rc["nc_f"]
+    hu = um @ um_dag
+    hd = dm @ dm_dag
+    he = em @ em_dag
+    thu = np.trace(hu)
+    thd = np.trace(hd)
+    the = np.trace(he)
+    ty2 = nc_v * thu + nc_v * thd + the
+    tvec = np.array([thu, thd, the])
+
+    dg = i4p * rc["b1"] * (gv ** 2) + i64p3 * (gv ** 2) * ((rc["b2"] @ gv) - (rc["cyuk"] @ tvec))
+
+    id3 = np.eye(3, dtype=complex)
+    du = i8p * (
+        (
+            rc["c1_q_self"] * hu
+            + rc["c1_q_partner"] * hd
+            + (rc["c1_y2s"] * ty2 - (rc["gu1"] @ gv)) * id3
+        )
+        @ um
+    )
+    dd = i8p * (
+        (
+            rc["c1_q_self"] * hd
+            + rc["c1_q_partner"] * hu
+            + (rc["c1_y2s"] * ty2 - (rc["gd1"] @ gv)) * id3
+        )
+        @ dm
+    )
+    de = i8p * ((rc["c1_e_self"] * he + (rc["c1_y2s"] * ty2 - (rc["ge1"] @ gv)) * id3) @ em)
+
+    hu2 = hu @ hu
+    hd2 = hd @ hd
+    he2 = he @ he
+    thu2 = np.trace(hu2)
+    thd2 = np.trace(hd2)
+    the2 = np.trace(he2)
+    thuhd = np.trace(hu @ hd)
+
+    x4 = np.array([gv[0], gv[1], gv[2], lm])
+    dl1 = (
+        ref_eval_terms(x4, rc["lam_ew1_t"])
+        + rc["c1_lam_y2"] * lm * ty2
+        + rc["c1_lam_y4"] * (nc_v * thu2 + nc_v * thd2 + the2)
+    )
+
+    chi4 = rc["chi4_qd"] * (thu2 + thd2) + rc["chi4_ed"] * the2 + rc["chi4_qm"] * thuhd
+    yg_tr = (rc["tr_u"] @ gv) * thu + (rc["tr_d"] @ gv) * thd + (rc["tr_e"] @ gv) * the
+
+    du2 = (
+        rc["c2_q_hf2"] * hu2
+        + rc["c2_q_hfhfp"] * (hu @ hd)
+        + rc["c2_q_hfphf"] * (hd @ hu)
+        + rc["c2_q_hfp2"] * hd2
+        + (rc["c2_q_y2s_hf"] * hu + rc["c2_q_y2s_hfp"] * hd) * ty2
+        + rc["c2_lam_hf"] * lm * hu
+        + (rc["c2_lam2"] * (lm ** 2) + chi4 + yg_tr + ref_eval_terms(gv, rc["ug4_t"])) * id3
+        + (rc["u_self"] @ gv) * hu
+        - (rc["u_from_d"] @ gv) * hd
+    ) @ um
+    dd2 = (
+        rc["c2_q_hf2"] * hd2
+        + rc["c2_q_hfhfp"] * (hd @ hu)
+        + rc["c2_q_hfphf"] * (hu @ hd)
+        + rc["c2_q_hfp2"] * hu2
+        + (rc["c2_q_y2s_hf"] * hd + rc["c2_q_y2s_hfp"] * hu) * ty2
+        + rc["c2_lam_hf"] * lm * hd
+        + (rc["c2_lam2"] * (lm ** 2) + chi4 + yg_tr + ref_eval_terms(gv, rc["dg4_t"])) * id3
+        + (rc["d_self"] @ gv) * hd
+        - (rc["d_from_u"] @ gv) * hu
+    ) @ dm
+    de2 = (
+        rc["c2_e_he2"] * he2
+        + rc["c2_e_y2s_he"] * ty2 * he
+        + rc["c2_lam_hf"] * lm * he
+        + (rc["c2_lam2"] * (lm ** 2) + chi4 + yg_tr + ref_eval_terms(gv, rc["eg4_t"])) * id3
+        + (rc["e_self"] @ gv) * he
+    ) @ em
+
+    thu3 = np.trace(hu2 @ hu)
+    thd3 = np.trace(hd2 @ hd)
+    the3 = np.trace(he2 @ he)
+    thu2hd = np.trace(hu2 @ hd)
+    thuhd2 = np.trace(hu @ hd2)
+    dl2 = (
+        ref_eval_terms(x4, rc["lam_ew2_t"])
+        + rc["c2_lam2_y2"] * (lm ** 2) * ty2
+        + lm * (rc["ly4_qd"] * (thu2 + thd2) + rc["ly4_ed"] * the2 + rc["ly4_qm"] * thuhd)
+        + rc["c2_lam_yg"] * lm * yg_tr
+        + rc["y6_qd"] * (thu3 + thd3)
+        + rc["y6_ed"] * the3
+        + rc["y6_qm"] * (thu2hd + thuhd2)
+        + ref_eval_terms(gv, rc["y4g2u_t"]) * thu2
+        + ref_eval_terms(gv, rc["y4g2d_t"]) * thd2
+        + ref_eval_terms(gv, rc["y4g2e_t"]) * the2
+        + ref_eval_terms(gv, rc["uy2g4_t"]) * thu
+        + ref_eval_terms(gv, rc["dy2g4_t"]) * thd
+        + ref_eval_terms(gv, rc["ey2g4_t"]) * the
+    )
+    return dg, i8p * dl1 + i128p3 * dl2, du + i128p3 * du2, dd + i128p3 * dd2, de + i128p3 * de2
+
+
 def ref_matrix_yukawa_2loop_rhs(
     gv: np.ndarray,
     lm: float,
@@ -764,101 +1299,10 @@ def ref_matrix_yukawa_2loop_rhs(
     rc: dict[str, Any],
 ) -> tuple[np.ndarray, float, np.ndarray, np.ndarray, np.ndarray]:
     """Independent referee full 2-loop 3x3 matrix Yukawa + gauge + quartic RHS."""
-    i4p = 1.0 / (4 * math.pi)
-    i8p = 0.5 * i4p
-    i64p3 = i4p / (16 * (math.pi ** 2))
-    i128p3 = 0.5 * i64p3
-
-    nc_v = rc["nc_f"]
-    hu = um @ um.conj().T
-    hd = dm @ dm.conj().T
-    he = em @ em.conj().T
-    thu = float(np.real(np.trace(hu)))
-    thd = float(np.real(np.trace(hd)))
-    the = float(np.real(np.trace(he)))
-    ty2 = nc_v * thu + nc_v * thd + the
-    tvec = np.array([thu, thd, the], dtype=float)
-
-    dg = i4p * rc["b1"] * (gv ** 2) + i64p3 * (gv ** 2) * ((rc["b2"] @ gv) - (rc["cyuk"] @ tvec))
-
-    id3 = np.eye(3, dtype=complex)
-    du = i8p * (((3 / 2) * (hu - hd) + (ty2 - float(rc["gu1"] @ gv)) * id3) @ um)
-    dd = i8p * (((3 / 2) * (hd - hu) + (ty2 - float(rc["gd1"] @ gv)) * id3) @ dm)
-    de = i8p * (((3 / 2) * he + (ty2 - float(rc["ge1"] @ gv)) * id3) @ em)
-
-    hu2 = hu @ hu
-    hd2 = hd @ hd
-    he2 = he @ he
-    thu2 = float(np.real(np.trace(hu2)))
-    thd2 = float(np.real(np.trace(hd2)))
-    the2 = float(np.real(np.trace(he2)))
-    thuhd = float(np.real(np.trace(hu @ hd)))
-
-    gys = rc["kg_f"] * float(gv[0])
-    g2s = float(gv[1])
-    dl1 = (
-        24 * (lm ** 2)
-        + 4 * lm * ty2
-        - 2 * (nc_v * thu2 + nc_v * thd2 + the2)
-        - 3 * lm * (3 * g2s + gys)
-        + (3 / 8) * (2 * (g2s ** 2) + ((g2s + gys) ** 2))
+    dg_c, dl_c, du_c, dd_c, de_c = ref_matrix_yukawa_2loop_holomorphic_poly(
+        gv, lm, um, um.conj().T, dm, dm.conj().T, em, em.conj().T, rc
     )
-
-    chi4 = rc["chi4_qd"] * (thu2 + thd2) + rc["chi4_ed"] * the2 + rc["chi4_qm"] * thuhd
-    yg_tr = float(rc["tr_u"] @ gv) * thu + float(rc["tr_d"] @ gv) * thd + float(rc["tr_e"] @ gv) * the
-
-    du2 = (
-        (3 / 2) * hu2
-        - (hu @ hd)
-        - (1 / 4) * (hd @ hu)
-        + (11 / 4) * hd2
-        + ((5 / 4) * hd - (9 / 4) * hu) * ty2
-        - 12 * lm * hu
-        + (6 * (lm ** 2) + chi4 + yg_tr + float(ref_eval_terms(gv, rc["ug4_t"]))) * id3
-        + float(rc["u_self"] @ gv) * hu
-        - float(rc["u_from_d"] @ gv) * hd
-    ) @ um
-    dd2 = (
-        (3 / 2) * hd2
-        - (hd @ hu)
-        - (1 / 4) * (hu @ hd)
-        + (11 / 4) * hu2
-        + ((5 / 4) * hu - (9 / 4) * hd) * ty2
-        - 12 * lm * hd
-        + (6 * (lm ** 2) + chi4 + yg_tr + float(ref_eval_terms(gv, rc["dg4_t"]))) * id3
-        + float(rc["d_self"] @ gv) * hd
-        - float(rc["d_from_u"] @ gv) * hu
-    ) @ dm
-    de2 = (
-        (3 / 2) * he2
-        - (9 / 4) * ty2 * he
-        - 12 * lm * he
-        + (6 * (lm ** 2) + chi4 + yg_tr + float(ref_eval_terms(gv, rc["eg4_t"]))) * id3
-        + float(rc["e_self"] @ gv) * he
-    ) @ em
-
-    x4 = np.array([gv[0], gv[1], gv[2], lm], dtype=float)
-    thu3 = float(np.real(np.trace(hu2 @ hu)))
-    thd3 = float(np.real(np.trace(hd2 @ hd)))
-    the3 = float(np.real(np.trace(he2 @ he)))
-    thu2hd = float(np.real(np.trace(hu2 @ hd)))
-    thuhd2 = float(np.real(np.trace(hu @ hd2)))
-    dl2 = (
-        float(ref_eval_terms(x4, rc["lam_ew2_t"]))
-        - 48 * (lm ** 2) * ty2
-        + lm * (rc["ly4_qd"] * (thu2 + thd2) + rc["ly4_ed"] * the2 + rc["ly4_qm"] * thuhd)
-        + 4 * lm * yg_tr
-        + rc["y6_qd"] * (thu3 + thd3)
-        + rc["y6_ed"] * the3
-        + rc["y6_qm"] * (thu2hd + thuhd2)
-        + float(ref_eval_terms(gv, rc["y4g2u_t"])) * thu2
-        + float(ref_eval_terms(gv, rc["y4g2d_t"])) * thd2
-        + float(ref_eval_terms(gv, rc["y4g2e_t"])) * the2
-        + float(ref_eval_terms(gv, rc["uy2g4_t"])) * thu
-        + float(ref_eval_terms(gv, rc["dy2g4_t"])) * thd
-        + float(ref_eval_terms(gv, rc["ey2g4_t"])) * the
-    )
-    return dg, float(i8p * dl1 + i128p3 * dl2), du + i128p3 * du2, dd + i128p3 * dd2, de + i128p3 * de2
+    return np.real(dg_c), float(np.real(dl_c)), du_c, dd_c, de_c
 
 
 def ref_integrate_matrix_2loop_kutta38(
@@ -1331,6 +1775,18 @@ def test_part6c_zero_trust_kashaev_j5_and_2loop_rge_haar_benchmarks(
     rc_nc4 = ref_build_zero_trust_mv_betas(4 + zero_ic, 3 + zero_ic)
     rc_ng0 = ref_build_zero_trust_mv_betas(3 + zero_ic, 0 + zero_ic)
 
+    kite_chk = rc_sm["kite_info"]
+    assert kite_chk["kite_z3_exact"] is True
+    assert kite_chk["subdiv_free"] is True
+    assert kite_chk["thooft_poles_vanish"] is True
+    assert kite_chk["pair_b_exact"] is True
+    assert kite_chk["swapped_comm_nonzero"] is True
+    assert sp.simplify(4 * kite_chk["c2_q_hfhfp"] + 1) == 0
+    assert sp.simplify(kite_chk["c2_q_hfphf"] + 1) == 0
+    assert sp.simplify(4 * kite_chk["c2_q_hfp2"] - 11) == 0
+    assert sp.simplify(4 * kite_chk["c2_q_y2s_hf"] + 9) == 0
+    assert sp.simplify(4 * kite_chk["c2_q_y2s_hfp"] - 5) == 0
+
     assert sp.simplify(5 * rc_sm["k_g"] - 3) == 0
     assert sp.simplify((rc_sm["b1_sym"][0] - rc_sm["b1_sym"][1]) * (23 * 5) - (rc_sm["b1_sym"][1] - rc_sm["b1_sym"][2]) * (2 * 109)) == 0
 
@@ -1387,8 +1843,9 @@ def test_part6c_zero_trust_kashaev_j5_and_2loop_rge_haar_benchmarks(
         for ah_m in u3_ah
     ]
     jac_ref = np.column_stack(jac_54_cols)
-    sv_j_ref = np.linalg.svd(jac_ref, compute_uv=False)
+    _, sv_j_ref, vh_j_ref = np.linalg.svd(jac_ref, full_matrices=True)
     rk_flav = int(np.sum(sv_j_ref > 1e-8))
+    ker_ref = vh_j_ref[rk_flav:, :].T
     assert rk_flav == 41 and (45 - rk_flav) == 4
     n_flav_ref = 54 - rk_flav
     assert n_flav_ref == 13
@@ -1427,17 +1884,73 @@ def test_part6c_zero_trust_kashaev_j5_and_2loop_rge_haar_benchmarks(
             n_higgs_sing += int(np.sum(np.abs(ev_j2) < 1e-9))
     assert n_higgs_sing == 2
 
+    # Mechanical chiral Weyl anomaly projection on ker(J_ref) for generic rank-3 AND massless-up rank-2:
     n_gauge_ref = sum([1 for cm_w in rc_sm["cas_w"] if cm_w.trace() != 0])
-    q_bl_diag = [sp.Rational(1, 3)] * 6 + [sp.Rational(-1, 3)] * 6 + [sp.Integer(1)] * 2 + [sp.Integer(-1)] * 2
-    q_bl_16 = sp.Matrix(16, 16, lambda r, c: q_bl_diag[r] if r == c else 0)
-    anom_su2 = (q_bl_16 * rc_sm["cas_w"][1]).trace() / rc_sm["d_g"][1]
-    anom_su3 = (q_bl_16 * rc_sm["cas_w"][2]).trace() / rc_sm["d_g"][2]
-    assert anom_su2 != 0 and anom_su3 == 0
-    n_theta_ref = sum([1 for c2_v in rc_sm["c2_g"] if c2_v != 0]) - int(sp.Matrix([[anom_su2, anom_su3]]).rank())
-    assert n_gauge_ref == 3 and n_theta_ref == 1
+    nonab_g = [ig_k for ig_k in range(3) if rc_sm["c2_g"][ig_k] != 0]
+    nc_i_ref = int(rc_sm["nc_f"])
+    w_blocks = [
+        (0, 2 * nc_i_ref, 1.0),
+        (2 * nc_i_ref, 3 * nc_i_ref, -1.0),
+        (3 * nc_i_ref, 4 * nc_i_ref, -1.0),
+        (4 * nc_i_ref, 4 * nc_i_ref + 2, 1.0),
+        (4 * nc_i_ref + 2, 4 * nc_i_ref + 3, -1.0),
+    ]
+    anom_ref_2x45 = np.array(
+        [
+            [
+                ch_sgn
+                * float(rc_sm["cas_w"][ig_k][r0_b:r1_b, r0_b:r1_b].trace() / rc_sm["d_g"][ig_k])
+                * float(np.imag(np.trace(ah_m)))
+                for r0_b, r1_b, ch_sgn in w_blocks
+                for ah_m in u3_ah
+            ]
+            for ig_k in nonab_g
+        ],
+        dtype=float,
+    )
+    anom_rk_3 = int(np.sum(np.linalg.svd(anom_ref_2x45 @ ker_ref, compute_uv=False) > 1e-8))
+    n_theta_ref = len(nonab_g) - anom_rk_3
+    assert n_gauge_ref == 3 and anom_rk_3 == 1 and n_theta_ref == 1
     assert (n_flav_ref + n_gauge_ref + n_higgs_sing + n_theta_ref) == 19
+    assert res_6c["wp43_flavor_anom_rank"] == 1
     assert res_6c["wp43_unresolved_sm_parameters_count"] == 19
     assert res_6c["wp43_unproved_bridge_gates_count"] == 3
+
+    # Rank-2 massless up-quark control (zero lightest singular value -> nullity 5, anom_rank 2, n_theta 0):
+    ul_r2, sv_r2, vhr_r2 = np.linalg.svd(yu_0)
+    yu_rank2 = (ul_r2 * np.array([sv_r2[0], sv_r2[1], 0.0], dtype=float)) @ vhr_r2
+    jac_r2 = np.column_stack(
+        [
+            np.concatenate(
+                [
+                    (ah_m @ yu_rank2 if sl_i == 0 else (-yu_rank2 @ ah_m if sl_i == 1 else z3_m)).real.ravel(),
+                    (ah_m @ yu_rank2 if sl_i == 0 else (-yu_rank2 @ ah_m if sl_i == 1 else z3_m)).imag.ravel(),
+                    (ah_m @ yd_0 if sl_i == 0 else (-yd_0 @ ah_m if sl_i == 2 else z3_m)).real.ravel(),
+                    (ah_m @ yd_0 if sl_i == 0 else (-yd_0 @ ah_m if sl_i == 2 else z3_m)).imag.ravel(),
+                    (ah_m @ ye_0 if sl_i == 3 else (-ye_0 @ ah_m if sl_i == 4 else z3_m)).real.ravel(),
+                    (ah_m @ ye_0 if sl_i == 3 else (-ye_0 @ ah_m if sl_i == 4 else z3_m)).imag.ravel(),
+                ]
+            )
+            for sl_i in range(5)
+            for ah_m in u3_ah
+        ]
+    )
+    _, sv_jr2, vh_jr2 = np.linalg.svd(jac_r2, full_matrices=True)
+    rk_r2 = int(np.sum(sv_jr2 > 1e-8))
+    ker_r2 = vh_jr2[rk_r2:, :].T
+    anom_rk_r2 = int(np.sum(np.linalg.svd(anom_ref_2x45 @ ker_r2, compute_uv=False) > 1e-8))
+    n_theta_r2 = len(nonab_g) - anom_rk_r2
+    assert rk_r2 == 40 and (45 - rk_r2) == 5 and anom_rk_r2 == 2 and n_theta_r2 == 0
+
+    prod_beta = build_sm_2loop_betas_symbolic(0 + zero_ic, -1 + zero_ic)
+    prod_r2_cnt = compute_sm_19_operator_parameter_count(prod_beta, yu_rank2, yd_0, ye_0)
+    assert prod_r2_cnt["jac_rank"] == 40
+    assert prod_r2_cnt["u1_conserved_nullity"] == 5
+    assert prod_r2_cnt["anom_rank"] == 2
+    assert prod_r2_cnt["n_theta_phys"] == 0
+    assert res_6c["wp43_massless_up_nullity"] == 5
+    assert res_6c["wp43_massless_up_anom_rank"] == 2
+    assert res_6c["wp43_massless_up_n_theta_phys"] == 0
 
     # 3. Step-halving Kutta-3/8 check & Cauchy-contour 4th-order Lie-Picard jet on 5-channel RGE:
     x_start = one_d * np.array([1 / 5, 1 / 3, 1 / 2, 2 / 5, 1 / 10], dtype=float)
@@ -1505,6 +2018,136 @@ def test_part6c_zero_trust_kashaev_j5_and_2loop_rge_haar_benchmarks(
 
     g_uv = one_d * np.array([math.pi / 6, math.pi / 6, math.pi / 6], dtype=float)
     lam_uv = (1 / 8) * one_d
+
+    # Non-commuting 3x3 2-loop matrix Cauchy-contour 4th-order Lie-Picard jet + swapped negative control:
+    hu_0 = yu_0 @ yu_0.conj().T
+    hd_0 = yd_0 @ yd_0.conj().T
+    assert float(np.linalg.norm(hu_0 @ hd_0 - hd_0 @ hu_0)) > (1 / 64)
+
+    gl_jet_c = np.zeros((5, 4), dtype=float)
+    gl_jet_c[0, :3] = g_uv.copy()
+    gl_jet_c[0, 3] = lam_uv
+    u_jet_c = [yu_0.copy()] + [np.zeros((3, 3), dtype=complex) for _ in range(4)]
+    d_jet_c = [yd_0.copy()] + [np.zeros((3, 3), dtype=complex) for _ in range(4)]
+    e_jet_c = [ye_0.copy()] + [np.zeros((3, 3), dtype=complex) for _ in range(4)]
+    n_roots_m = 24
+    r_cs_m = 0.5 * one_d
+    for ord_m in range(1, 5):
+        acc_glm = np.zeros(4, dtype=complex)
+        acc_um = np.zeros((3, 3), dtype=complex)
+        acc_dm = np.zeros((3, 3), dtype=complex)
+        acc_em = np.zeros((3, 3), dtype=complex)
+        for k_rt in range(n_roots_m):
+            ang_m = 2.0 * one_d * math.pi * k_rt / n_roots_m
+            eps_m = r_cs_m * complex(math.cos(ang_m), math.sin(ang_m))
+            gl_ep = np.zeros(4, dtype=complex)
+            u_ep = np.zeros((3, 3), dtype=complex)
+            ud_ep = np.zeros((3, 3), dtype=complex)
+            d_ep = np.zeros((3, 3), dtype=complex)
+            dd_ep = np.zeros((3, 3), dtype=complex)
+            e_ep = np.zeros((3, 3), dtype=complex)
+            ed_ep = np.zeros((3, 3), dtype=complex)
+            for j_p in range(ord_m):
+                pw_ep = eps_m ** j_p
+                gl_ep = gl_ep + gl_jet_c[j_p] * pw_ep
+                u_ep = u_ep + u_jet_c[j_p] * pw_ep
+                ud_ep = ud_ep + u_jet_c[j_p].conj().T * pw_ep
+                d_ep = d_ep + d_jet_c[j_p] * pw_ep
+                dd_ep = dd_ep + d_jet_c[j_p].conj().T * pw_ep
+                e_ep = e_ep + e_jet_c[j_p] * pw_ep
+                ed_ep = ed_ep + e_jet_c[j_p].conj().T * pw_ep
+            vg_e, vl_e, vu_e, vd_e, ve_e = ref_matrix_yukawa_2loop_holomorphic_poly(
+                gl_ep[:3], gl_ep[3], u_ep, ud_ep, d_ep, dd_ep, e_ep, ed_ep, rc_sm
+            )
+            tgl_e = np.array([vg_e[0], vg_e[1], vg_e[2], vl_e], dtype=complex)
+            acc_glm = acc_glm + tgl_e / (eps_m ** (ord_m - 1))
+            acc_um = acc_um + vu_e / (eps_m ** (ord_m - 1))
+            acc_dm = acc_dm + vd_e / (eps_m ** (ord_m - 1))
+            acc_em = acc_em + ve_e / (eps_m ** (ord_m - 1))
+        gl_jet_c[ord_m] = np.real(acc_glm / n_roots_m) / ord_m
+        u_jet_c[ord_m] = (acc_um / n_roots_m) / ord_m
+        d_jet_c[ord_m] = (acc_dm / n_roots_m) / ord_m
+        e_jet_c[ord_m] = (acc_em / n_roots_m) / ord_m
+
+    dt_mat_ref = -(1 / 96) * one_d
+    gl_mj = (
+        gl_jet_c[0]
+        + gl_jet_c[1] * dt_mat_ref
+        + gl_jet_c[2] * (dt_mat_ref ** 2)
+        + gl_jet_c[3] * (dt_mat_ref ** 3)
+        + gl_jet_c[4] * (dt_mat_ref ** 4)
+    )
+    g_mj = gl_mj[:3]
+    l_mj = float(gl_mj[3])
+    u_mj = sum([u_jet_c[k_p] * (dt_mat_ref ** k_p) for k_p in range(5)], z3_m)
+    d_mj = sum([d_jet_c[k_p] * (dt_mat_ref ** k_p) for k_p in range(5)], z3_m)
+    e_mj = sum([e_jet_c[k_p] * (dt_mat_ref ** k_p) for k_p in range(5)], z3_m)
+
+    g_mk38, l_mk38, u_mk38, d_mk38, e_mk38 = ref_integrate_matrix_2loop_kutta38(
+        g_uv, lam_uv, yu_0, yd_0, ye_0, dt_mat_ref, rc_sm, 2
+    )
+    assert float(np.max(np.abs(g_mk38 - g_mj))) < TOL
+    assert abs(l_mk38 - l_mj) < TOL
+    assert float(np.max(np.abs(u_mk38 - u_mj))) < TOL
+    assert float(np.max(np.abs(d_mk38 - d_mj))) < TOL
+    assert float(np.max(np.abs(e_mk38 - e_mj))) < TOL
+    assert res_6c["guardrail4_matrix_jet4_err"] < TOL
+
+    rc_swapped = {
+        **rc_sm,
+        "c2_q_hfhfp": rc_sm["c2_q_hfphf"],
+        "c2_q_hfphf": rc_sm["c2_q_hfhfp"],
+    }
+    _, _, du_true_0, dd_true_0, _ = ref_matrix_yukawa_2loop_rhs(g_uv, lam_uv, yu_0, yd_0, ye_0, rc_sm)
+    _, _, du_swap_0, dd_swap_0, _ = ref_matrix_yukawa_2loop_rhs(g_uv, lam_uv, yu_0, yd_0, ye_0, rc_swapped)
+    assert max(float(np.linalg.norm(du_swap_0 - du_true_0)), float(np.linalg.norm(dd_swap_0 - dd_true_0))) > 1e-6
+    _, _, u_swap_dt, d_swap_dt, _ = ref_integrate_matrix_2loop_kutta38(
+        g_uv, lam_uv, yu_0, yd_0, ye_0, dt_mat_ref, rc_swapped, 2
+    )
+    assert max(float(np.linalg.norm(u_swap_dt - u_mj)), float(np.linalg.norm(d_swap_dt - d_mj))) > 1e-8
+    assert res_6c["guardrail4_neg_ctrl_swapped_comm_rhs_err"] > 1e-6
+    assert res_6c["guardrail4_neg_ctrl_swapped_comm_jet_err"] > 1e-8
+
+    # Direct Producer RK4 vs Referee Kutta-3/8 cross-check on Stage 6's non-commuting 3x3 trajectory (t = -1.5):
+    yu_s6 = one_d * np.array(
+        [
+            [1 / 8, (1 / 4) * (1.0 + j_im), 0.0],
+            [(1 / 4) * (1.0 - j_im), 1 / 3, 1 / 6],
+            [0.0, 1 / 6, 0.5],
+        ],
+        dtype=complex,
+    )
+    yd_s6 = one_d * np.array(
+        [
+            [1 / 12, 1 / 8, (1 / 5) * j_im],
+            [1 / 8, 1 / 5, 1 / 8],
+            [-(1 / 5) * j_im, 1 / 8, 1 / 3],
+        ],
+        dtype=complex,
+    )
+    ye_s6 = yd_s6.T.copy()
+    t_ir_full = -(3 / 2) * one_d
+    prod_coeffs = make_sm_rge_num_coeffs(prod_beta)
+    gp_ir, lp_ir, up_ir, dp_ir, ep_ir = integrate_matrix_yukawa_2loop_rk4(
+        g_uv, lam_uv, yu_s6, yd_s6, ye_s6, t_ir_full, prod_coeffs, step_blocks=8, two_loop=True
+    )
+    gr_ir, lr_ir, ur_ir, dr_ir, er_ir = ref_integrate_matrix_2loop_kutta38(
+        g_uv, lam_uv, yu_s6, yd_s6, ye_s6, t_ir_full, rc_sm, 8
+    )
+    assert float(np.max(np.abs(gp_ir - gr_ir))) < TOL
+    assert abs(lp_ir - lr_ir) < TOL
+    assert float(np.max(np.abs(up_ir - ur_ir))) < TOL
+    assert float(np.max(np.abs(dp_ir - dr_ir))) < TOL
+    assert float(np.max(np.abs(ep_ir - er_ir))) < TOL
+    obs_p_ir = extract_physical_flavor_invariants(up_ir, dp_ir, ep_ir)
+    obs_r_ir = extract_physical_flavor_invariants(ur_ir, dr_ir, er_ir)
+    assert float(np.max(np.abs(obs_p_ir["sv_u"] - obs_r_ir["sv_u"]))) < TOL
+    assert float(np.max(np.abs(obs_p_ir["sv_d"] - obs_r_ir["sv_d"]))) < TOL
+    assert float(np.max(np.abs(obs_p_ir["sv_e"] - obs_r_ir["sv_e"]))) < TOL
+    assert float(np.max(np.abs(obs_p_ir["v_ckm_abs"] - obs_r_ir["v_ckm_abs"]))) < TOL
+    assert abs(obs_p_ir["jarlskog_tr"] - obs_r_ir["jarlskog_tr"]) < TOL
+    assert abs(obs_r_ir["yb_over_ytau"] - res_6c["guardrail3_radiative_yb_over_ytau"]) < TOL
+
     t_down = -1.0 * one_d
     g_ref_ir, l_ref_ir, u_ref_ir, d_ref_ir, e_ref_ir = ref_integrate_matrix_2loop_kutta38(
         g_uv, lam_uv, yu_0, yd_0, ye_0, t_down, rc_sm, 3

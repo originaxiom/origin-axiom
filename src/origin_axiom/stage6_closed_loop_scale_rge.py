@@ -41,6 +41,7 @@ couplings, or dimensionful scales appear anywhere in this module. Enforces Guard
 """
 from __future__ import annotations
 
+from functools import lru_cache
 from itertools import product
 import math
 from pathlib import Path
@@ -1107,6 +1108,188 @@ def make_real_higgs_gen_4x4(h_gen_2x2: sp.Matrix, h_doub: sp.Matrix, phi_v: sp.M
     return sp.Matrix(4, 4, lambda r, c: sp.diff(dp_v[r], phi_v[c]))
 
 
+@lru_cache(maxsize=None)
+def derive_mv84_weyl_matrix_yukawa_coeffs() -> dict[str, Any]:
+    """Mechanically derive ALL 1-loop (MV83 Eq. 3.4) and 2-loop (MV84 Eq. 3.2) non-commuting
+    matrix Yukawa operator coefficients in Stage 6's left-covariant convention
+    (Y_u -> U_Q Y_u U_{u^c}^H, Y_d -> U_Q Y_d U_{d^c}^H, H_f = Y_f Y_f^H)
+    from an explicit 2-generation 8x8 symmetric 2-component Weyl spinor representation Y^a.
+    """
+    u1, u2, u3, d1, d2, d3 = sp.symbols("u1 u2 u3 d1 d2 d3", real=True)
+    yu_2 = sp.Matrix([[u1, u2], [0, u3]])
+    yd_2 = sp.Matrix([[d1, 0], [d2, d3]])
+    hu_2 = (yu_2 * yu_2.T).applyfunc(sp.expand)
+    hd_2 = (yd_2 * yd_2.T).applyfunc(sp.expand)
+
+    p0, p1, p2, p3, lam_s = sp.symbols("p0 p1 p2 p3 lam_s", real=True)
+    psi8 = sp.symbols("uL1 uL2 dL1 dL2 uc1 uc2 dc1 dc2")
+    ul_v, dl_v = sp.Matrix(psi8[0:2]), sp.Matrix(psi8[2:4])
+    uc_v, dc_v = sp.Matrix(psi8[4:6]), sp.Matrix(psi8[6:8])
+    # Factor out 1/sqrt(2) so Z^a = sqrt(2) * Y^a has Gaussian-polynomial entries:
+    w8_s2 = sp.expand(
+        (p2 - sp.I * p3) * (ul_v.T * yu_2 * uc_v)[0]
+        - (p0 - sp.I * p1) * (dl_v.T * yu_2 * uc_v)[0]
+        + (p0 + sp.I * p1) * (ul_v.T * yd_2 * dc_v)[0]
+        + (p2 + sp.I * p3) * (dl_v.T * yd_2 * dc_v)[0]
+    )
+    za_list: list[sp.Matrix] = []
+    for pa_v in (p0, p1, p2, p3):
+        wa_v = sp.diff(w8_s2, pa_v)
+        d1_v = [sp.diff(wa_v, psi8[r_i]) for r_i in range(8)]
+        za_list = za_list + [sp.Matrix(8, 8, lambda r_i, c_i, dv=d1_v: sp.diff(dv[r_i], psi8[c_i]))]
+    zad_list = [mat_z.H for mat_z in za_list]
+
+    def mm_exp(mat_a: sp.Matrix, mat_b: sp.Matrix) -> sp.Matrix:
+        return (mat_a * mat_b).applyfunc(sp.expand)
+
+    ab_d = {(b_i, c_i): mm_exp(zad_list[b_i], za_list[c_i]) for b_i in range(4) for c_i in range(4)}
+    ba_d = {(b_i, c_i): mm_exp(za_list[b_i], zad_list[c_i]) for b_i in range(4) for c_i in range(4)}
+
+    # 1-loop MV83 Eq. (3.4): 1/2 (Y_2^T(F) Y^a + Y^a Y_2(F)) + 2 Y^b Y^{a+} Y^b + Y^b T_{ba}:
+    z2f = sum([ab_d[(b_i, b_i)] for b_i in range(4)], sp.zeros(8, 8)).applyfunc(sp.expand)
+    zv1_2 = sum([mm_exp(ba_d[(b_i, 2)], za_list[b_i]) for b_i in range(4)], sp.zeros(8, 8)).applyfunc(sp.expand)
+    b1_full = (sp.Rational(1, 2) * (mm_exp(z2f.T, za_list[2]) + mm_exp(za_list[2], z2f)) + 2 * zv1_2) / sp.Integer(2)
+    b1_u = b1_full[:2, 4:6].applyfunc(sp.expand)
+    b1_d = b1_full[2:4, 6:8].applyfunc(sp.expand)
+
+    t22_trace = sp.expand(sp.Rational(1, 4) * (ab_d[(2, 2)] + ba_d[(2, 2)]).trace())
+    c1_y2s = sp.simplify(t22_trace / sp.expand(hu_2.trace() + hd_2.trace()))
+
+    # 2-loop MV84 Eq. (3.2): pure Y^5 fermion legs + vertex topologies:
+    zgam2f = (
+        -sp.Rational(1, 8)
+        * sum([mm_exp(ab_d[(b_i, c_i)], ab_d[(c_i, b_i)]) for b_i in range(4) for c_i in range(4)], sp.zeros(8, 8))
+    ).applyfunc(sp.expand)
+    zvert2 = sp.zeros(8, 8)
+    for b_i in range(4):
+        for c_i in range(4):
+            l_bc2 = mm_exp(ba_d[(b_i, c_i)], za_list[2])
+            zvert2 = zvert2 + 2 * mm_exp(l_bc2, ab_d[(b_i, c_i)]) - 2 * mm_exp(l_bc2, ab_d[(c_i, b_i)])
+            zvert2 = zvert2 - mm_exp(mm_exp(za_list[b_i], ab_d[(c_i, c_i)]), mm_exp(zad_list[2], za_list[b_i]))
+            zvert2 = zvert2 - mm_exp(ba_d[(b_i, 2)], mm_exp(za_list[c_i], ab_d[(c_i, b_i)]))
+    b2_y5_full = (mm_exp(zgam2f.T, za_list[2]) + mm_exp(za_list[2], zgam2f) + zvert2) / sp.Integer(4)
+    b2_y5_u = b2_y5_full[:2, 4:6].applyfunc(sp.expand)
+    b2_y5_d = b2_y5_full[2:4, 6:8].applyfunc(sp.expand)
+
+    # 2-loop MV84 Eq. (3.2) Y_2(S) * Y^3 terms: -3/4 (Y_2^T(F) Y^a + Y^a Y_2(F)) - 2 Y^b Y^{a+} Y^b:
+    b2_y2s_full = (
+        -sp.Rational(3, 4) * (mm_exp(z2f.T, za_list[2]) + mm_exp(za_list[2], z2f)) - 2 * zv1_2
+    ) / sp.Integer(2)
+    b2_y2s_u = b2_y2s_full[:2, 4:6].applyfunc(sp.expand)
+    b2_y2s_d = b2_y2s_full[2:4, 6:8].applyfunc(sp.expand)
+
+    subs_num = {u1: 2, u2: 3, u3: 5, d1: 7, d2: 4, d3: 1}
+    ca, cb, k1, k2, k3, k4 = sp.symbols("ca cb k1 k2 k3 k4")
+    hu_yu = mm_exp(hu_2, yu_2)
+    hd_yu = mm_exp(hd_2, yu_2)
+    hd_yd = mm_exp(hd_2, yd_2)
+    hu_yd = mm_exp(hu_2, yd_2)
+
+    sol_1 = sp.solve(
+        [
+            b1_u[r_i, c_i].subs(subs_num) - (ca * hu_yu[r_i, c_i].subs(subs_num) + cb * hd_yu[r_i, c_i].subs(subs_num))
+            for r_i in range(2)
+            for c_i in range(2)
+        ],
+        [ca, cb],
+    )
+    sol_y2s = sp.solve(
+        [
+            b2_y2s_u[r_i, c_i].subs(subs_num)
+            - (ca * hu_yu[r_i, c_i].subs(subs_num) + cb * hd_yu[r_i, c_i].subs(subs_num))
+            for r_i in range(2)
+            for c_i in range(2)
+        ],
+        [ca, cb],
+    )
+    bu_4 = [mm_exp(hu_2, hu_yu), mm_exp(hu_2, hd_yu), mm_exp(hd_2, hu_yu), mm_exp(hd_2, hd_yu)]
+    bd_4 = [mm_exp(hd_2, hd_yd), mm_exp(hd_2, hu_yd), mm_exp(hu_2, hd_yd), mm_exp(hu_2, hu_yd)]
+    sol_2 = sp.solve(
+        [
+            b2_y5_u[r_i, c_i].subs(subs_num)
+            - sum(
+                [kv * bm[r_i, c_i].subs(subs_num) for kv, bm in zip((k1, k2, k3, k4), bu_4)],
+                sp.Integer(0),
+            )
+            for r_i in range(2)
+            for c_i in range(2)
+        ],
+        [k1, k2, k3, k4],
+    )
+
+    c1_s, c1_p = sol_1[ca], sol_1[cb]
+    c2_1, c2_2, c2_3, c2_4 = sol_2[k1], sol_2[k2], sol_2[k3], sol_2[k4]
+    cy_s, cy_p = sol_y2s[ca], sol_y2s[cb]
+
+    subs_lep = {u1: 0, u2: 0, u3: 0}
+    c1_e = sp.simplify(b1_d.subs(subs_lep)[0, 0] / hd_yd.subs(subs_lep)[0, 0])
+    c2_e_he2 = sp.simplify(b2_y5_d.subs(subs_lep)[0, 0] / bd_4[0].subs(subs_lep)[0, 0])
+    c2_e_y2s = sp.simplify(b2_y2s_d.subs(subs_lep)[0, 0] / hd_yd.subs(subs_lep)[0, 0])
+
+    # 2-loop MV84 Eq. (3.2) quartic-Yukawa terms: -2 lambda_{abcd} Y^b Y^{c+} Y^d and +1/12 lambda_{aefg}^2 Y^a:
+    l4_t = {
+        (ia, ib, ic, id_v): 2
+        * lam_s
+        * (
+            (1 if (ia == ib and ic == id_v) else 0)
+            + (1 if (ia == ic and ib == id_v) else 0)
+            + (1 if (ia == id_v and ib == ic) else 0)
+        )
+        for ia, ib, ic, id_v in product(range(4), repeat=4)
+    }
+    z_lam_y = sum(
+        [
+            l4_t[(2, b_i, c_i, d_i)] * mm_exp(ba_d[(b_i, c_i)], za_list[d_i])
+            for b_i, c_i, d_i in product(range(4), repeat=3)
+            if l4_t[(2, b_i, c_i, d_i)] != 0
+        ],
+        sp.zeros(8, 8),
+    )
+    b2_lam_u = (-2 * z_lam_y[:2, 4:6] / sp.Integer(2)).applyfunc(sp.expand)
+    c2_lam_hf = sp.simplify(b2_lam_u.subs(subs_num)[0, 0] / (lam_s * hu_yu.subs(subs_num)[0, 0]))
+    c2_lam2 = sp.simplify(
+        (sp.Rational(1, 12) * sum([l4_t[(2, f_i, g_i, h_i)] ** 2 for f_i, g_i, h_i in product(range(4), repeat=3)]))
+        / (lam_s ** 2)
+    )
+
+    mv83_ok = (
+        (b1_u - (c1_s * hu_yu + c1_p * hd_yu)).applyfunc(sp.expand) == sp.zeros(2, 2)
+        and (b1_d - (c1_s * hd_yd + c1_p * hu_yd)).applyfunc(sp.expand) == sp.zeros(2, 2)
+    )
+    mv84_ok = (
+        (b2_y5_u - (c2_1 * bu_4[0] + c2_2 * bu_4[1] + c2_3 * bu_4[2] + c2_4 * bu_4[3])).applyfunc(sp.expand)
+        == sp.zeros(2, 2)
+        and (b2_y5_d - (c2_1 * bd_4[0] + c2_2 * bd_4[1] + c2_3 * bd_4[2] + c2_4 * bd_4[3])).applyfunc(sp.expand)
+        == sp.zeros(2, 2)
+        and (b2_y2s_u - (cy_s * hu_yu + cy_p * hd_yu)).applyfunc(sp.expand) == sp.zeros(2, 2)
+        and (b2_y2s_d - (cy_s * hd_yd + cy_p * hu_yd)).applyfunc(sp.expand) == sp.zeros(2, 2)
+        and (b2_lam_u - c2_lam_hf * lam_s * hu_yu).applyfunc(sp.expand) == sp.zeros(2, 2)
+    )
+    swapped_u = (c2_1 * bu_4[0] + c2_3 * bu_4[1] + c2_2 * bu_4[2] + c2_4 * bu_4[3] - b2_y5_u).applyfunc(sp.expand)
+    comm_u = (sp.Rational(3, 4) * (bu_4[2] - bu_4[1])).applyfunc(sp.expand)
+    swapped_bad = (swapped_u == comm_u) and (swapped_u != sp.zeros(2, 2))
+
+    return {
+        "c1_q_self": c1_s,
+        "c1_q_partner": c1_p,
+        "c1_e_self": c1_e,
+        "c1_y2s": c1_y2s,
+        "c2_q_hf2": c2_1,
+        "c2_q_hfhfp": c2_2,
+        "c2_q_hfphf": c2_3,
+        "c2_q_hfp2": c2_4,
+        "c2_e_he2": c2_e_he2,
+        "c2_q_y2s_hf": cy_s,
+        "c2_q_y2s_hfp": cy_p,
+        "c2_e_y2s_he": c2_e_y2s,
+        "c2_lam_hf": c2_lam_hf,
+        "c2_lam2": c2_lam2,
+        "mv83_ok": mv83_ok,
+        "mv84_ok": mv84_ok,
+        "swapped_bad": swapped_bad,
+    }
+
+
 def build_sm_2loop_betas_symbolic(
     n_c_override: int = 0,
     n_gen_override: int = -1,
@@ -1245,10 +1428,11 @@ def build_sm_2loop_betas_symbolic(
     gsq_raw = [gy_sq, g2sq, g3sq]
     gsq_gut = [g1sq, g2sq, g3sq]
 
+    weyl_mat_info = derive_mv84_weyl_matrix_yukawa_coeffs()
     s2_f_raw = [n_gen * y2_gen.trace(), s2_f_gut[1], s2_f_gut[2]]
     s2_h_raw = [2 * (y_h ** 2), s2_h_gut[1], s2_h_gut[2]]
 
-    beta_yt_1 = (n_c + sp.Rational(3, 2)) * ytsq - 3 * sum(
+    beta_yt_1 = (n_c * weyl_mat_info["c1_y2s"] + weyl_mat_info["c1_q_self"]) * ytsq - 3 * sum(
         (c_q_raw[i] + c_u_raw[i]) * gsq_raw[i] for i in range(3)
     )
     beta_yd_gauge_1 = -3 * sum((c_q_raw[i] + c_d_raw[i]) * gsq_raw[i] for i in range(3))
@@ -1282,11 +1466,7 @@ def build_sm_2loop_betas_symbolic(
     tr_d_raw = [sp.Rational(5, 2) * n_c * (c_q_raw[i] + c_d_raw[i]) for i in range(3)]
     tr_e_raw = [sp.Rational(5, 2) * (c_l_raw[i] + c_e_raw[i]) for i in range(3)]
 
-    yt2_pure_yuk = (sp.Rational(3, 2) - sp.Rational(9, 2) * n_c) * (ytsq ** 2)
     yt2_gauge_lin = sum((u_self_raw[i] + tr_u_raw[i]) * gsq_raw[i] for i in range(3))
-    beta_yt_2 = sp.expand(
-        yt2_pure_yuk - 12 * lam * ytsq + 6 * (lam ** 2) + ytsq * yt2_gauge_lin + u_pure_g4
-    )
 
     # MV85 4x4 real Higgs generators + O(4) quartic tensor + Weyl Yukawa traces:
     p0, p1, p2, p3 = sp.symbols("p0 p1 p2 p3", real=True)
@@ -1424,8 +1604,26 @@ def build_sm_2loop_betas_symbolic(
     )
     y6_q_poly = sp.Poly(sp.expand(8 * n_c * (tr6_s1_q + 2 * tr6_d_q + tr6_s2_q)), yu_s, yd_s)
 
+    yt2_pure_yuk = (
+        weyl_mat_info["c2_q_hf2"]
+        + n_c * weyl_mat_info["c2_q_y2s_hf"]
+        + chi4_q_poly.coeff_monomial((4, 0))
+    ) * (ytsq ** 2)
+    beta_yt_2 = sp.expand(
+        yt2_pure_yuk
+        + weyl_mat_info["c2_lam_hf"] * lam * ytsq
+        + weyl_mat_info["c2_lam2"] * (lam ** 2)
+        + ytsq * yt2_gauge_lin
+        + u_pure_g4
+    )
+
+    c1_lam_y2 = sp.simplify(4 * weyl_mat_info["c1_y2s"])
+    c1_lam_y4 = sp.simplify(-4 * tr4_diag_q.subs({yu_s: 1, yd_s: 0}))
+    c2_lam2_y2 = sp.simplify(-2 * candy_1loop * weyl_mat_info["c1_y2s"] / (lam ** 2))
+    c2_lam_yg = sp.simplify(4 * weyl_mat_info["c1_y2s"])
+
     lam_1_ew = sp.expand(candy_1loop - 12 * lam * c2_s22 + 6 * i_box_inv).subs(subs_ew)
-    beta_lam_1 = sp.expand(lam_1_ew + 4 * n_c * lam * ytsq - 2 * n_c * (ytsq ** 2))
+    beta_lam_1 = sp.expand(lam_1_ew + c1_lam_y2 * n_c * lam * ytsq + c1_lam_y4 * n_c * (ytsq ** 2))
 
     lam2_g2_ew = sp.expand(6 * candy_1loop * c2_s22).subs(subs_ew)
     lam_g4_ew = sp.expand(
@@ -1456,11 +1654,10 @@ def build_sm_2loop_betas_symbolic(
 
     beta_lam_2 = sp.expand(
         pure_lam3
-        - 48 * n_c * (lam ** 2) * ytsq
+        + c2_lam2_y2 * n_c * (lam ** 2) * ytsq
         + lam2_g2_ew
-        + lam * chi4_q_poly.coeff_monomial((4, 0)) * 0
         + lam * lam_y4_q_poly.coeff_monomial((4, 0)) * (ytsq ** 2)
-        + 4 * lam * ytsq * sum(tr_u_raw[i] * gsq_raw[i] for i in range(3))
+        + c2_lam_yg * lam * ytsq * sum(tr_u_raw[i] * gsq_raw[i] for i in range(3))
         + lam_g4_ew
         + y6_q_poly.coeff_monomial((6, 0)) * (ytsq ** 3)
         + (ytsq ** 2) * y4_g2_u_poly
@@ -1515,7 +1712,16 @@ def build_sm_2loop_betas_symbolic(
         "y4_g2_u_poly": y4_g2_u_poly,
         "y4_g2_d_poly": y4_g2_d_poly,
         "y4_g2_e_poly": y4_g2_e_poly,
+        "pure_lam_ew_1": lam_1_ew,
         "pure_lam_ew_2": sp.expand(pure_lam3 + lam2_g2_ew + lam_g4_ew + g6_ew),
+        "c1_lam_y2": c1_lam_y2,
+        "c1_lam_y4": c1_lam_y4,
+        "c2_lam2_y2": c2_lam2_y2,
+        "c2_lam_yg": c2_lam_yg,
+        "weyl_mat_info": weyl_mat_info,
+        "mv83_1loop_matrix_symbolic_exact": weyl_mat_info["mv83_ok"],
+        "mv84_2loop_matrix_symbolic_exact": weyl_mat_info["mv84_ok"],
+        "mv84_swapped_commutator_nonzero": weyl_mat_info["swapped_bad"],
         "chi4_q_diag_coeff": chi4_q_poly.coeff_monomial((4, 0)),
         "chi4_q_mix_coeff": chi4_q_poly.coeff_monomial((2, 2)),
         "lam_y4_q_diag_coeff": lam_y4_q_poly.coeff_monomial((4, 0)),
@@ -1550,8 +1756,10 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
     def poly3_terms(expr_3: sp.Expr) -> list[tuple[tuple[int, ...], float]]:
         return [(mon_t, float(cf_v)) for mon_t, cf_v in sp.Poly(expr_3, g1sq, g2sq, g3sq).terms()]
 
+    p_lam_ew1 = sp.Poly(beta_info["pure_lam_ew_1"], g1sq, g2sq, g3sq, lam)
     p_lam_ew2 = sp.Poly(beta_info["pure_lam_ew_2"], g1sq, g2sq, g3sq, lam)
     n_c_fl = float(beta_info["n_c"])
+    w_info = beta_info["weyl_mat_info"]
 
     return {
         "n_c": n_c_fl,
@@ -1580,6 +1788,24 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
             ],
             dtype=float,
         ),
+        "c1_q_self": float(w_info["c1_q_self"]),
+        "c1_q_partner": float(w_info["c1_q_partner"]),
+        "c1_e_self": float(w_info["c1_e_self"]),
+        "c1_y2s": float(w_info["c1_y2s"]),
+        "c2_q_hf2": float(w_info["c2_q_hf2"]),
+        "c2_q_hfhfp": float(w_info["c2_q_hfhfp"]),
+        "c2_q_hfphf": float(w_info["c2_q_hfphf"]),
+        "c2_q_hfp2": float(w_info["c2_q_hfp2"]),
+        "c2_e_he2": float(w_info["c2_e_he2"]),
+        "c2_q_y2s_hf": float(w_info["c2_q_y2s_hf"]),
+        "c2_q_y2s_hfp": float(w_info["c2_q_y2s_hfp"]),
+        "c2_e_y2s_he": float(w_info["c2_e_y2s_he"]),
+        "c2_lam_hf": float(w_info["c2_lam_hf"]),
+        "c2_lam2": float(w_info["c2_lam2"]),
+        "c1_lam_y2": float(beta_info["c1_lam_y2"]),
+        "c1_lam_y4": float(beta_info["c1_lam_y4"]),
+        "c2_lam2_y2": float(beta_info["c2_lam2_y2"]),
+        "c2_lam_yg": float(beta_info["c2_lam_yg"]),
         "u_self_gut": np.array([float(v) for v in beta_info["u_self_gut"]], dtype=float),
         "d_self_gut": np.array([float(v) for v in beta_info["d_self_gut"]], dtype=float),
         "e_self_gut": np.array([float(v) for v in beta_info["e_self_gut"]], dtype=float),
@@ -1597,6 +1823,7 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
         "y4_g2_u_terms": poly3_terms(beta_info["y4_g2_u_poly"]),
         "y4_g2_d_terms": poly3_terms(beta_info["y4_g2_d_poly"]),
         "y4_g2_e_terms": poly3_terms(beta_info["y4_g2_e_poly"]),
+        "pure_lam_ew_1_terms": [(mon_t, float(cf_v)) for mon_t, cf_v in p_lam_ew1.terms()],
         "pure_lam_ew_2_terms": [(mon_t, float(cf_v)) for mon_t, cf_v in p_lam_ew2.terms()],
         "chi4_q_diag": float(beta_info["chi4_q_diag_coeff"]),
         "chi4_e_diag": float(beta_info["chi4_q_diag_coeff"]) / n_c_fl,
@@ -1731,10 +1958,20 @@ def matrix_yukawa_2loop_rhs(
         d_gsq = d_gsq + inv_64pi3 * (gsq3 ** 2) * ((coeffs["b2"] @ gsq3) - (coeffs["c_yuk"] @ tr_vec3))
 
     eye3 = np.eye(3, dtype=complex)
-    three_halves = 3 / 2
-    b1_yu = (three_halves * (hu_m - hd_m) + (tr_y2_all - float(coeffs["yu_gauge"] @ gsq3)) * eye3) @ yu_m
-    b1_yd = (three_halves * (hd_m - hu_m) + (tr_y2_all - float(coeffs["yd_gauge"] @ gsq3)) * eye3) @ yd_m
-    b1_ye = (three_halves * he_m + (tr_y2_all - float(coeffs["ye_gauge"] @ gsq3)) * eye3) @ ye_m
+    b1_yu = (
+        coeffs["c1_q_self"] * hu_m
+        + coeffs["c1_q_partner"] * hd_m
+        + (coeffs["c1_y2s"] * tr_y2_all - float(coeffs["yu_gauge"] @ gsq3)) * eye3
+    ) @ yu_m
+    b1_yd = (
+        coeffs["c1_q_self"] * hd_m
+        + coeffs["c1_q_partner"] * hu_m
+        + (coeffs["c1_y2s"] * tr_y2_all - float(coeffs["yd_gauge"] @ gsq3)) * eye3
+    ) @ yd_m
+    b1_ye = (
+        coeffs["c1_e_self"] * he_m
+        + (coeffs["c1_y2s"] * tr_y2_all - float(coeffs["ye_gauge"] @ gsq3)) * eye3
+    ) @ ye_m
 
     d_yu = inv_8pi * b1_yu
     d_yd = inv_8pi * b1_yd
@@ -1748,14 +1985,11 @@ def matrix_yukawa_2loop_rhs(
     tr_he2 = float(np.real(np.trace(he2_m)))
     tr_huhd = float(np.real(np.trace(hu_m @ hd_m)))
 
-    gy_s = coeffs["k_gut"] * float(gsq3[0])
-    g2_s = float(gsq3[1])
+    x4_ew = np.array([gsq3[0], gsq3[1], gsq3[2], lam_val], dtype=float)
     b1_lam = (
-        24 * (lam_val ** 2)
-        + 4 * lam_val * tr_y2_all
-        - 2 * (n_c_v * tr_hu2 + n_c_v * tr_hd2 + tr_he2)
-        - 3 * lam_val * (3 * g2_s + gy_s)
-        + (3 / 8) * (2 * (g2_s ** 2) + ((g2_s + gy_s) ** 2))
+        eval_poly_terms(x4_ew, coeffs["pure_lam_ew_1_terms"])
+        + coeffs["c1_lam_y2"] * lam_val * tr_y2_all
+        + coeffs["c1_lam_y4"] * (n_c_v * tr_hu2 + n_c_v * tr_hd2 + tr_he2)
     )
     d_lam = inv_8pi * b1_lam
 
@@ -1775,34 +2009,34 @@ def matrix_yukawa_2loop_rhs(
         e_g4_val = eval_poly_terms(gsq3, coeffs["e_pure_g4_terms"])
 
         b2_yu = (
-            three_halves * hu2_m
-            - (hu_m @ hd_m)
-            - (1 / 4) * (hd_m @ hu_m)
-            + (11 / 4) * hd2_m
-            + ((5 / 4) * hd_m - (9 / 4) * hu_m) * tr_y2_all
-            - 12 * lam_val * hu_m
-            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + u_g4_val) * eye3
+            coeffs["c2_q_hf2"] * hu2_m
+            + coeffs["c2_q_hfhfp"] * (hu_m @ hd_m)
+            + coeffs["c2_q_hfphf"] * (hd_m @ hu_m)
+            + coeffs["c2_q_hfp2"] * hd2_m
+            + (coeffs["c2_q_y2s_hf"] * hu_m + coeffs["c2_q_y2s_hfp"] * hd_m) * tr_y2_all
+            + coeffs["c2_lam_hf"] * lam_val * hu_m
+            + (coeffs["c2_lam2"] * (lam_val ** 2) + chi4_tr + y2_g_tr + u_g4_val) * eye3
             + float(coeffs["u_self_gut"] @ gsq3) * hu_m
             - float(coeffs["u_from_d_gut"] @ gsq3) * hd_m
         ) @ yu_m
 
         b2_yd = (
-            three_halves * hd2_m
-            - (hd_m @ hu_m)
-            - (1 / 4) * (hu_m @ hd_m)
-            + (11 / 4) * hu2_m
-            + ((5 / 4) * hu_m - (9 / 4) * hd_m) * tr_y2_all
-            - 12 * lam_val * hd_m
-            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + d_g4_val) * eye3
+            coeffs["c2_q_hf2"] * hd2_m
+            + coeffs["c2_q_hfhfp"] * (hd_m @ hu_m)
+            + coeffs["c2_q_hfphf"] * (hu_m @ hd_m)
+            + coeffs["c2_q_hfp2"] * hu2_m
+            + (coeffs["c2_q_y2s_hf"] * hd_m + coeffs["c2_q_y2s_hfp"] * hu_m) * tr_y2_all
+            + coeffs["c2_lam_hf"] * lam_val * hd_m
+            + (coeffs["c2_lam2"] * (lam_val ** 2) + chi4_tr + y2_g_tr + d_g4_val) * eye3
             + float(coeffs["d_self_gut"] @ gsq3) * hd_m
             - float(coeffs["d_from_u_gut"] @ gsq3) * hu_m
         ) @ yd_m
 
         b2_ye = (
-            three_halves * he2_m
-            - (9 / 4) * tr_y2_all * he_m
-            - 12 * lam_val * he_m
-            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + e_g4_val) * eye3
+            coeffs["c2_e_he2"] * he2_m
+            + coeffs["c2_e_y2s_he"] * tr_y2_all * he_m
+            + coeffs["c2_lam_hf"] * lam_val * he_m
+            + (coeffs["c2_lam2"] * (lam_val ** 2) + chi4_tr + y2_g_tr + e_g4_val) * eye3
             + float(coeffs["e_self_gut"] @ gsq3) * he_m
         ) @ ye_m
 
@@ -1810,7 +2044,6 @@ def matrix_yukawa_2loop_rhs(
         d_yd = d_yd + inv_128pi3 * b2_yd
         d_ye = d_ye + inv_128pi3 * b2_ye
 
-        x4_ew = np.array([gsq3[0], gsq3[1], gsq3[2], lam_val], dtype=float)
         lam_ew_2 = eval_poly_terms(x4_ew, coeffs["pure_lam_ew_2_terms"])
         tr_hu3 = float(np.real(np.trace(hu2_m @ hu_m)))
         tr_hd3 = float(np.real(np.trace(hd2_m @ hd_m)))
@@ -1820,14 +2053,14 @@ def matrix_yukawa_2loop_rhs(
 
         b2_lam = (
             lam_ew_2
-            - 48 * (lam_val ** 2) * tr_y2_all
+            + coeffs["c2_lam2_y2"] * (lam_val ** 2) * tr_y2_all
             + lam_val
             * (
                 coeffs["lam_y4_q_diag"] * (tr_hu2 + tr_hd2)
                 + coeffs["lam_y4_e_diag"] * tr_he2
                 + coeffs["lam_y4_q_mix"] * tr_huhd
             )
-            + 4 * lam_val * y2_g_tr
+            + coeffs["c2_lam_yg"] * lam_val * y2_g_tr
             + coeffs["y6_q_diag"] * (tr_hu3 + tr_hd3)
             + coeffs["y6_e_diag"] * tr_he3
             + coeffs["y6_q_mix"] * (tr_hu2hd + tr_huhd2)
@@ -1841,6 +2074,289 @@ def matrix_yukawa_2loop_rhs(
         d_lam = d_lam + inv_128pi3 * b2_lam
 
     return d_gsq, float(d_lam), d_yu, d_yd, d_ye
+
+
+def picard_jet4_matrix_yukawa_2loop(
+    gsq0: np.ndarray,
+    lam0: float,
+    yu0: np.ndarray,
+    yd0: np.ndarray,
+    ye0: np.ndarray,
+    dt_val: float,
+    coeffs: dict[str, Any],
+) -> tuple[np.ndarray, float, np.ndarray, np.ndarray, np.ndarray]:
+    """4th-order real-t truncated Taylor polynomial Lie-Picard jet for the non-commuting
+    2-loop 3x3 matrix Yukawa + gauge + quartic RGE system.
+    """
+    inv_4pi = 1.0 / (4 * math.pi)
+    inv_8pi = 0.5 * inv_4pi
+    inv_64pi3 = inv_4pi / (16 * (math.pi ** 2))
+    inv_128pi3 = 0.5 * inv_64pi3
+    n_c_v = coeffs["n_c"]
+
+    z3_c = np.zeros((3, 3), dtype=complex)
+    z3_f = np.zeros(3, dtype=float)
+    eye3 = np.eye(3, dtype=complex)
+
+    def pmul_s(sa: list[float], sb: list[float]) -> list[float]:
+        return [sum(sa[j_p] * sb[k_p - j_p] for j_p in range(k_p + 1)) for k_p in range(4)]
+
+    def pmul_m(ma: list[np.ndarray], mb: list[np.ndarray]) -> list[np.ndarray]:
+        return [sum([ma[j_p] @ mb[k_p - j_p] for j_p in range(k_p + 1)], z3_c) for k_p in range(4)]
+
+    def pscale_m(sa: list[float], ma: list[np.ndarray]) -> list[np.ndarray]:
+        return [sum([sa[j_p] * ma[k_p - j_p] for j_p in range(k_p + 1)], z3_c) for k_p in range(4)]
+
+    def peval_terms(
+        vars_lists: list[list[float]], terms_list: list[tuple[tuple[int, ...], float]]
+    ) -> list[float]:
+        acc_l = [0.0, 0.0, 0.0, 0.0]
+        n_v = len(vars_lists)
+        for mon_t, cf_f in terms_list:
+            prd_l = [cf_f, 0.0, 0.0, 0.0]
+            for i_v in range(n_v):
+                for _ in range(mon_t[i_v]):
+                    prd_l = pmul_s(prd_l, vars_lists[i_v])
+            acc_l = [acc_l[k_p] + prd_l[k_p] for k_p in range(4)]
+        return acc_l
+
+    gsq_p = [np.array(gsq0, dtype=float)] + [z3_f] * 4
+    lam_p = [float(lam0), 0.0, 0.0, 0.0, 0.0]
+    yu_p = [np.array(yu0, dtype=complex)] + [z3_c] * 4
+    yd_p = [np.array(yd0, dtype=complex)] + [z3_c] * 4
+    ye_p = [np.array(ye0, dtype=complex)] + [z3_c] * 4
+
+    for _ in range(4):
+        g_cols = [[float(gsq_p[k_p][i_g]) for k_p in range(4)] for i_g in range(3)]
+        lam_4 = lam_p[:4]
+        yu_4 = yu_p[:4]
+        yd_4 = yd_p[:4]
+        ye_4 = ye_p[:4]
+
+        hu_l = pmul_m(yu_4, [mat_x.conj().T for mat_x in yu_4])
+        hd_l = pmul_m(yd_4, [mat_x.conj().T for mat_x in yd_4])
+        he_l = pmul_m(ye_4, [mat_x.conj().T for mat_x in ye_4])
+        tr_hu_l = [float(np.real(np.trace(hu_l[k_p]))) for k_p in range(4)]
+        tr_hd_l = [float(np.real(np.trace(hd_l[k_p]))) for k_p in range(4)]
+        tr_he_l = [float(np.real(np.trace(he_l[k_p]))) for k_p in range(4)]
+        tr_y2_l = [n_c_v * tr_hu_l[k_p] + n_c_v * tr_hd_l[k_p] + tr_he_l[k_p] for k_p in range(4)]
+
+        dg_cols: list[list[float]] = []
+        for i_g in range(3):
+            gi_sq_l = pmul_s(g_cols[i_g], g_cols[i_g])
+            loop2_g_l = [
+                sum(float(coeffs["b2"][i_g, j_g]) * g_cols[j_g][k_p] for j_g in range(3))
+                - (
+                    float(coeffs["c_yuk"][i_g, 0]) * tr_hu_l[k_p]
+                    + float(coeffs["c_yuk"][i_g, 1]) * tr_hd_l[k_p]
+                    + float(coeffs["c_yuk"][i_g, 2]) * tr_he_l[k_p]
+                )
+                for k_p in range(4)
+            ]
+            gi_l2 = pmul_s(gi_sq_l, loop2_g_l)
+            dg_cols = dg_cols + [
+                [inv_4pi * float(coeffs["b1"][i_g]) * gi_sq_l[k_p] + inv_64pi3 * gi_l2[k_p] for k_p in range(4)]
+            ]
+
+        ug1_l = [sum(float(coeffs["yu_gauge"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        dg1_l = [sum(float(coeffs["yd_gauge"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        eg1_l = [sum(float(coeffs["ye_gauge"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+
+        b1_yu_l = pmul_m(
+            [
+                coeffs["c1_q_self"] * hu_l[k_p]
+                + coeffs["c1_q_partner"] * hd_l[k_p]
+                + (coeffs["c1_y2s"] * tr_y2_l[k_p] - ug1_l[k_p]) * eye3
+                for k_p in range(4)
+            ],
+            yu_4,
+        )
+        b1_yd_l = pmul_m(
+            [
+                coeffs["c1_q_self"] * hd_l[k_p]
+                + coeffs["c1_q_partner"] * hu_l[k_p]
+                + (coeffs["c1_y2s"] * tr_y2_l[k_p] - dg1_l[k_p]) * eye3
+                for k_p in range(4)
+            ],
+            yd_4,
+        )
+        b1_ye_l = pmul_m(
+            [
+                coeffs["c1_e_self"] * he_l[k_p]
+                + (coeffs["c1_y2s"] * tr_y2_l[k_p] - eg1_l[k_p]) * eye3
+                for k_p in range(4)
+            ],
+            ye_4,
+        )
+
+        hu2_l = pmul_m(hu_l, hu_l)
+        hd2_l = pmul_m(hd_l, hd_l)
+        he2_l = pmul_m(he_l, he_l)
+        huhd_l = pmul_m(hu_l, hd_l)
+        hdhu_l = pmul_m(hd_l, hu_l)
+
+        tr_hu2_l = [float(np.real(np.trace(hu2_l[k_p]))) for k_p in range(4)]
+        tr_hd2_l = [float(np.real(np.trace(hd2_l[k_p]))) for k_p in range(4)]
+        tr_he2_l = [float(np.real(np.trace(he2_l[k_p]))) for k_p in range(4)]
+        tr_huhd_l = [float(np.real(np.trace(huhd_l[k_p]))) for k_p in range(4)]
+
+        chi4_l = [
+            coeffs["chi4_q_diag"] * (tr_hu2_l[k_p] + tr_hd2_l[k_p])
+            + coeffs["chi4_e_diag"] * tr_he2_l[k_p]
+            + coeffs["chi4_q_mix"] * tr_huhd_l[k_p]
+            for k_p in range(4)
+        ]
+        tru_g_l = [sum(float(coeffs["tr_u_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        trd_g_l = [sum(float(coeffs["tr_d_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        tre_g_l = [sum(float(coeffs["tr_e_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        y2_g_l = [
+            pmul_s(tru_g_l, tr_hu_l)[k_p] + pmul_s(trd_g_l, tr_hd_l)[k_p] + pmul_s(tre_g_l, tr_he_l)[k_p]
+            for k_p in range(4)
+        ]
+        u_g4_l = peval_terms(g_cols, coeffs["u_pure_g4_terms"])
+        d_g4_l = peval_terms(g_cols, coeffs["d_pure_g4_terms"])
+        e_g4_l = peval_terms(g_cols, coeffs["e_pure_g4_terms"])
+        lam2_l = pmul_s(lam_4, lam_4)
+
+        uself_l = [sum(float(coeffs["u_self_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        dself_l = [sum(float(coeffs["d_self_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        eself_l = [sum(float(coeffs["e_self_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        ufd_l = [sum(float(coeffs["u_from_d_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+        dfu_l = [sum(float(coeffs["d_from_u_gut"][j_g]) * g_cols[j_g][k_p] for j_g in range(3)) for k_p in range(4)]
+
+        y2_hu_l = pscale_m(tr_y2_l, hu_l)
+        y2_hd_l = pscale_m(tr_y2_l, hd_l)
+        y2_he_l = pscale_m(tr_y2_l, he_l)
+        lam_hu_l = pscale_m(lam_4, hu_l)
+        lam_hd_l = pscale_m(lam_4, hd_l)
+        lam_he_l = pscale_m(lam_4, he_l)
+        us_hu_l = pscale_m(uself_l, hu_l)
+        ufd_hd_l = pscale_m(ufd_l, hd_l)
+        ds_hd_l = pscale_m(dself_l, hd_l)
+        dfu_hu_l = pscale_m(dfu_l, hu_l)
+        es_he_l = pscale_m(eself_l, he_l)
+
+        b2_yu_l = pmul_m(
+            [
+                coeffs["c2_q_hf2"] * hu2_l[k_p]
+                + coeffs["c2_q_hfhfp"] * huhd_l[k_p]
+                + coeffs["c2_q_hfphf"] * hdhu_l[k_p]
+                + coeffs["c2_q_hfp2"] * hd2_l[k_p]
+                + coeffs["c2_q_y2s_hf"] * y2_hu_l[k_p]
+                + coeffs["c2_q_y2s_hfp"] * y2_hd_l[k_p]
+                + coeffs["c2_lam_hf"] * lam_hu_l[k_p]
+                + (coeffs["c2_lam2"] * lam2_l[k_p] + chi4_l[k_p] + y2_g_l[k_p] + u_g4_l[k_p]) * eye3
+                + us_hu_l[k_p]
+                - ufd_hd_l[k_p]
+                for k_p in range(4)
+            ],
+            yu_4,
+        )
+        b2_yd_l = pmul_m(
+            [
+                coeffs["c2_q_hf2"] * hd2_l[k_p]
+                + coeffs["c2_q_hfhfp"] * hdhu_l[k_p]
+                + coeffs["c2_q_hfphf"] * huhd_l[k_p]
+                + coeffs["c2_q_hfp2"] * hu2_l[k_p]
+                + coeffs["c2_q_y2s_hf"] * y2_hd_l[k_p]
+                + coeffs["c2_q_y2s_hfp"] * y2_hu_l[k_p]
+                + coeffs["c2_lam_hf"] * lam_hd_l[k_p]
+                + (coeffs["c2_lam2"] * lam2_l[k_p] + chi4_l[k_p] + y2_g_l[k_p] + d_g4_l[k_p]) * eye3
+                + ds_hd_l[k_p]
+                - dfu_hu_l[k_p]
+                for k_p in range(4)
+            ],
+            yd_4,
+        )
+        b2_ye_l = pmul_m(
+            [
+                coeffs["c2_e_he2"] * he2_l[k_p]
+                + coeffs["c2_e_y2s_he"] * y2_he_l[k_p]
+                + coeffs["c2_lam_hf"] * lam_he_l[k_p]
+                + (coeffs["c2_lam2"] * lam2_l[k_p] + chi4_l[k_p] + y2_g_l[k_p] + e_g4_l[k_p]) * eye3
+                + es_he_l[k_p]
+                for k_p in range(4)
+            ],
+            ye_4,
+        )
+
+        vars4_ew = [g_cols[0], g_cols[1], g_cols[2], lam_4]
+        lam_ew1_l = peval_terms(vars4_ew, coeffs["pure_lam_ew_1_terms"])
+        lam_ew2_l = peval_terms(vars4_ew, coeffs["pure_lam_ew_2_terms"])
+        lam_y2_l = pmul_s(lam_4, tr_y2_l)
+        b1_lam_l = [
+            lam_ew1_l[k_p]
+            + coeffs["c1_lam_y2"] * lam_y2_l[k_p]
+            + coeffs["c1_lam_y4"] * (n_c_v * tr_hu2_l[k_p] + n_c_v * tr_hd2_l[k_p] + tr_he2_l[k_p])
+            for k_p in range(4)
+        ]
+
+        hu3_l = pmul_m(hu2_l, hu_l)
+        hd3_l = pmul_m(hd2_l, hd_l)
+        he3_l = pmul_m(he2_l, he_l)
+        hu2hd_l = pmul_m(hu2_l, hd_l)
+        huhd2_l = pmul_m(hu_l, hd2_l)
+        tr_hu3_l = [float(np.real(np.trace(hu3_l[k_p]))) for k_p in range(4)]
+        tr_hd3_l = [float(np.real(np.trace(hd3_l[k_p]))) for k_p in range(4)]
+        tr_he3_l = [float(np.real(np.trace(he3_l[k_p]))) for k_p in range(4)]
+        tr_hu2hd_l = [float(np.real(np.trace(hu2hd_l[k_p]))) for k_p in range(4)]
+        tr_huhd2_l = [float(np.real(np.trace(huhd2_l[k_p]))) for k_p in range(4)]
+
+        lam2_y2_l = pmul_s(lam2_l, tr_y2_l)
+        ly4_tr_l = pmul_s(
+            lam_4,
+            [
+                coeffs["lam_y4_q_diag"] * (tr_hu2_l[k_p] + tr_hd2_l[k_p])
+                + coeffs["lam_y4_e_diag"] * tr_he2_l[k_p]
+                + coeffs["lam_y4_q_mix"] * tr_huhd_l[k_p]
+                for k_p in range(4)
+            ],
+        )
+        lam_yg_l = pmul_s(lam_4, y2_g_l)
+        y4g2u_l = pmul_s(peval_terms(g_cols, coeffs["y4_g2_u_terms"]), tr_hu2_l)
+        y4g2d_l = pmul_s(peval_terms(g_cols, coeffs["y4_g2_d_terms"]), tr_hd2_l)
+        y4g2e_l = pmul_s(peval_terms(g_cols, coeffs["y4_g2_e_terms"]), tr_he2_l)
+        uy2g4_l = pmul_s(peval_terms(g_cols, coeffs["u_y2_g4_terms"]), tr_hu_l)
+        dy2g4_l = pmul_s(peval_terms(g_cols, coeffs["d_y2_g4_terms"]), tr_hd_l)
+        ey2g4_l = pmul_s(peval_terms(g_cols, coeffs["e_y2_g4_terms"]), tr_he_l)
+
+        b2_lam_l = [
+            lam_ew2_l[k_p]
+            + coeffs["c2_lam2_y2"] * lam2_y2_l[k_p]
+            + ly4_tr_l[k_p]
+            + coeffs["c2_lam_yg"] * lam_yg_l[k_p]
+            + coeffs["y6_q_diag"] * (tr_hu3_l[k_p] + tr_hd3_l[k_p])
+            + coeffs["y6_e_diag"] * tr_he3_l[k_p]
+            + coeffs["y6_q_mix"] * (tr_hu2hd_l[k_p] + tr_huhd2_l[k_p])
+            + y4g2u_l[k_p]
+            + y4g2d_l[k_p]
+            + y4g2e_l[k_p]
+            + uy2g4_l[k_p]
+            + dy2g4_l[k_p]
+            + ey2g4_l[k_p]
+            for k_p in range(4)
+        ]
+
+        gsq_p = [np.array(gsq0, dtype=float)] + [
+            np.array([dg_cols[i_g][k_p] / float(k_p + 1) for i_g in range(3)], dtype=float) for k_p in range(4)
+        ]
+        lam_p = [float(lam0)] + [(inv_8pi * b1_lam_l[k_p] + inv_128pi3 * b2_lam_l[k_p]) / float(k_p + 1) for k_p in range(4)]
+        yu_p = [np.array(yu0, dtype=complex)] + [
+            (inv_8pi * b1_yu_l[k_p] + inv_128pi3 * b2_yu_l[k_p]) / float(k_p + 1) for k_p in range(4)
+        ]
+        yd_p = [np.array(yd0, dtype=complex)] + [
+            (inv_8pi * b1_yd_l[k_p] + inv_128pi3 * b2_yd_l[k_p]) / float(k_p + 1) for k_p in range(4)
+        ]
+        ye_p = [np.array(ye0, dtype=complex)] + [
+            (inv_8pi * b1_ye_l[k_p] + inv_128pi3 * b2_ye_l[k_p]) / float(k_p + 1) for k_p in range(4)
+        ]
+
+    gsq_jet = sum([gsq_p[k_p] * (dt_val ** k_p) for k_p in range(5)], z3_f)
+    lam_jet = sum(lam_p[k_p] * (dt_val ** k_p) for k_p in range(5))
+    yu_jet = sum([yu_p[k_p] * (dt_val ** k_p) for k_p in range(5)], z3_c)
+    yd_jet = sum([yd_p[k_p] * (dt_val ** k_p) for k_p in range(5)], z3_c)
+    ye_jet = sum([ye_p[k_p] * (dt_val ** k_p) for k_p in range(5)], z3_c)
+    return gsq_jet, float(lam_jet), yu_jet, yd_jet, ye_jet
 
 
 def integrate_matrix_yukawa_2loop_rk4(
@@ -1991,8 +2507,9 @@ def compute_sm_19_operator_parameter_count(
         for k_m in u3_basis
     ]
     jac_54x45 = np.column_stack(jac_cols)
-    sv_jac = np.linalg.svd(jac_54x45, compute_uv=False)
+    _, sv_jac, vh_jac = np.linalg.svd(jac_54x45, full_matrices=True)
     jac_rank = int(np.sum(sv_jac > 1e-8))
+    ker_45xnu = vh_jac[jac_rank:, :].T
     u1_conserved_nullity = 45 - jac_rank
     n_flavor_params = 54 - jac_rank
 
@@ -2026,26 +2543,38 @@ def compute_sm_19_operator_parameter_count(
         sv_lie = np.linalg.svd(stacked_lie, compute_uv=False)
         n_higgs_params += dim_sym - int(np.sum(sv_lie > 1e-9))
 
-    # Non-abelian theta angles minus Yukawa-unbroken U(1)_{B+L} chiral anomaly rank:
-    n_nonabelian_factors = sum(1 for c2_v in beta_info["c2_g"] if c2_v != 0)
-    q_bl_16 = (
-        [sp.Rational(1, 3)] * 6
-        + [sp.Rational(-1, 3)] * 3
-        + [sp.Rational(-1, 3)] * 3
-        + [sp.Integer(1)] * 2
-        + [sp.Integer(-1), sp.Integer(-1)]
+    # Mechanical chiral Weyl anomaly projection on ker(J_{54x45}) across non-abelian factors:
+    nonab_indices = [idx_g for idx_g in range(3) if beta_info["c2_g"][idx_g] != 0]
+    n_nonabelian_factors = len(nonab_indices)
+    n_c_int = int(beta_info["n_c"])
+    slot_blocks = [
+        (0, 2 * n_c_int, 1.0),
+        (2 * n_c_int, 3 * n_c_int, -1.0),
+        (3 * n_c_int, 4 * n_c_int, -1.0),
+        (4 * n_c_int, 4 * n_c_int + 2, 1.0),
+        (4 * n_c_int + 2, 4 * n_c_int + 3, -1.0),
+    ]
+    anom_2x45 = np.array(
+        [
+            [
+                chir_sgn
+                * float(beta_info["cas_16"][idx_g][r_st:r_en, r_st:r_en].trace() / beta_info["d_g"][idx_g])
+                * float(np.imag(np.trace(k_m)))
+                for r_st, r_en, chir_sgn in slot_blocks
+                for k_m in u3_basis
+            ]
+            for idx_g in nonab_indices
+        ],
+        dtype=float,
     )
-    q_bl_mat = sp.Matrix(16, 16, lambda r, c: q_bl_16[r] if r == c else 0)
-    # Mixed anomalies Tr_{16}(Q_{B+L} * C_i) / d_g[i] for i in {SU(2)_L, SU(3)_c}:
-    anom_bl_su2 = (q_bl_mat * beta_info["cas_16"][1]).trace() / beta_info["d_g"][1]
-    anom_bl_su3 = (q_bl_mat * beta_info["cas_16"][2]).trace() / beta_info["d_g"][2]
-    quark_det_nonzero = 1 if abs(np.linalg.det(yu_ref @ yd_ref)) > 1e-6 else 0
-    anom_bl_row = sp.Matrix([[quark_det_nonzero * anom_bl_su2, quark_det_nonzero * anom_bl_su3]])
-    n_theta_phys = n_nonabelian_factors - int(anom_bl_row.rank())
+    sv_anom = np.linalg.svd(anom_2x45 @ ker_45xnu, compute_uv=False)
+    anom_rank = int(np.sum(sv_anom > 1e-8))
+    n_theta_phys = n_nonabelian_factors - anom_rank
 
     return {
         "jac_rank": jac_rank,
         "u1_conserved_nullity": u1_conserved_nullity,
+        "anom_rank": anom_rank,
         "n_flavor_params": n_flavor_params,
         "n_gauge_params": n_gauge_params,
         "n_higgs_params": n_higgs_params,
@@ -2359,9 +2888,49 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     obs_uv = extract_physical_flavor_invariants(yu_uv, yd_uv, ye_uv)
     uv_yb_ytau_unity_err = abs(obs_uv["yb_over_ytau"] - 1.0)
 
+    # Non-commuting 2-loop 3x3 matrix Lie-Picard 4th-order Taylor jet benchmark + swapped negative control:
+    hu_uv = yu_uv @ yu_uv.conj().T
+    hd_uv = yd_uv @ yd_uv.conj().T
+    comm_uv_norm = float(np.linalg.norm(hu_uv @ hd_uv - hd_uv @ hu_uv))
+    dt_mat_jet = -(1 / 96) * one_dyn
+    gsq_mj4, lam_mj4, yu_mj4, yd_mj4, ye_mj4 = picard_jet4_matrix_yukawa_2loop(
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, dt_mat_jet, num_coeffs
+    )
+    gsq_mrk, lam_mrk, yu_mrk, yd_mrk, ye_mrk = integrate_matrix_yukawa_2loop_rk4(
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, dt_mat_jet, num_coeffs, step_blocks=2, two_loop=True
+    )
+    bench_matrix_jet4_err = max(
+        float(np.max(np.abs(gsq_mrk - gsq_mj4))),
+        abs(lam_mrk - lam_mj4),
+        float(np.max(np.abs(yu_mrk - yu_mj4))),
+        float(np.max(np.abs(yd_mrk - yd_mj4))),
+        float(np.max(np.abs(ye_mrk - ye_mj4))),
+    )
+
+    swapped_coeffs = {
+        **num_coeffs,
+        "c2_q_hfhfp": num_coeffs["c2_q_hfphf"],
+        "c2_q_hfphf": num_coeffs["c2_q_hfhfp"],
+    }
+    _, _, dyu_true_0, dyd_true_0, _ = matrix_yukawa_2loop_rhs(gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, num_coeffs, True)
+    _, _, dyu_swap_0, dyd_swap_0, _ = matrix_yukawa_2loop_rhs(
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, swapped_coeffs, True
+    )
+    neg_ctrl_swapped_comm_rhs_err = max(
+        float(np.max(np.abs(dyu_swap_0 - dyu_true_0))),
+        float(np.max(np.abs(dyd_swap_0 - dyd_true_0))),
+    )
+    _, _, yu_swap_dt, yd_swap_dt, _ = integrate_matrix_yukawa_2loop_rk4(
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, dt_mat_jet, swapped_coeffs, step_blocks=2, two_loop=True
+    )
+    neg_ctrl_swapped_comm_jet_err = max(
+        float(np.max(np.abs(yu_swap_dt - yu_mj4))),
+        float(np.max(np.abs(yd_swap_dt - yd_mj4))),
+    )
+
     t_ir_span = -(3 / 2) * one_dyn
     gsq_ir_ref, lam_ir_ref, yu_ir_ref, yd_ir_ref, ye_ir_ref = integrate_matrix_yukawa_2loop_rk4(
-        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, t_ir_span, num_coeffs, step_blocks=4, two_loop=True
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, t_ir_span, num_coeffs, step_blocks=8, two_loop=True
     )
     obs_ir_ref = extract_physical_flavor_invariants(yu_ir_ref, yd_ir_ref, ye_ir_ref)
     radiative_yb_ytau_shift = abs(obs_ir_ref["yb_over_ytau"] - 1.0)
@@ -2380,7 +2949,7 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         ye_scr_0 = u_l @ ye_uv @ u_ec.conj().T
 
         gsq_scr_t, lam_scr_t, yu_scr_t, yd_scr_t, ye_scr_t = integrate_matrix_yukawa_2loop_rk4(
-            gsq_uv, lam_uv, yu_scr_0, yd_scr_0, ye_scr_0, t_ir_span, num_coeffs, step_blocks=4, two_loop=True
+            gsq_uv, lam_uv, yu_scr_0, yd_scr_0, ye_scr_0, t_ir_span, num_coeffs, step_blocks=8, two_loop=True
         )
         obs_scr = extract_physical_flavor_invariants(yu_scr_t, yd_scr_t, ye_scr_t)
         err_trial = max(
@@ -2395,9 +2964,12 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         )
         max_haar_rge_scrambling_err = max(max_haar_rge_scrambling_err, err_trial)
 
-    # Mechanical 19-parameter SM operator accounting (D3):
+    # Mechanical 19-parameter SM operator accounting (rank-3 generic + rank-2 massless-up control):
     sm19_info = compute_sm_19_operator_parameter_count(beta_sym, yu_uv, yd_uv, ye_uv)
     unresolved_sm_count = sm19_info["total_sm_params"]
+    u_svd_l, sv_uv_u, vh_svd_r = np.linalg.svd(yu_uv)
+    yu_zero_light = (u_svd_l * np.array([sv_uv_u[0], sv_uv_u[1], 0.0], dtype=float)) @ vh_svd_r
+    sm19_massless_up = compute_sm_19_operator_parameter_count(beta_sym, yu_zero_light, yd_uv, ye_uv)
 
     # 5. Guardrail 5: Single-anchor non-dimensionalization & pure-SM desert 3-line unification obstruction:
     t_sym_ir = sp.Symbol("t_sym_ir", negative=True)
@@ -2460,13 +3032,21 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and vol_conjecture_err < 1e-6
         and sm19_info["jac_rank"] == 41
         and sm19_info["u1_conserved_nullity"] == 4
+        and sm19_info["anom_rank"] == 1
         and sm19_info["n_flavor_params"] == 13
         and sm19_info["n_gauge_params"] == 3
         and sm19_info["n_higgs_params"] == 2
         and sm19_info["n_theta_phys"] == 1
         and unresolved_sm_count == 19
+        and sm19_massless_up["jac_rank"] == 40
+        and sm19_massless_up["u1_conserved_nullity"] == 5
+        and sm19_massless_up["anom_rank"] == 2
+        and sm19_massless_up["n_theta_phys"] == 0
         and unproved_wp43_gates == 3
         and bool(mv_specializations_exact)
+        and bool(beta_sym["mv83_1loop_matrix_symbolic_exact"])
+        and bool(beta_sym["mv84_2loop_matrix_symbolic_exact"])
+        and bool(beta_sym["mv84_swapped_commutator_nonzero"])
         and bench_1loop_gauge_err < TOL
         and bench_pendleton_ross_fp_err < TOL
         and bench_bernoulli_err < TOL
@@ -2477,6 +3057,10 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and neg_ctrl_wrong_4pi_err > 1e-6
         and neg_ctrl_wrong_lam2_err > 1e-6
         and matrix_to_5chan_spec_err < TOL
+        and comm_uv_norm > (1 / 32)
+        and bench_matrix_jet4_err < TOL
+        and neg_ctrl_swapped_comm_rhs_err > 1e-6
+        and neg_ctrl_swapped_comm_jet_err > 1e-8
         and uv_yb_ytau_unity_err < TOL
         and abs(obs_ir_ref["jarlskog_tr"]) > 1e-9
         and radiative_yb_ytau_shift > (1 / 10)
@@ -2500,6 +3084,10 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         "wp43_large_n_volume_conjecture_err": vol_conjecture_err,
         "wp43_flavor_jacobian_rank": sm19_info["jac_rank"],
         "wp43_flavor_conserved_u1_nullity": sm19_info["u1_conserved_nullity"],
+        "wp43_flavor_anom_rank": sm19_info["anom_rank"],
+        "wp43_massless_up_nullity": sm19_massless_up["u1_conserved_nullity"],
+        "wp43_massless_up_anom_rank": sm19_massless_up["anom_rank"],
+        "wp43_massless_up_n_theta_phys": sm19_massless_up["n_theta_phys"],
         "wp43_unresolved_sm_parameters_count": unresolved_sm_count,
         "wp43_unproved_bridge_gates_count": unproved_wp43_gates,
         "guardrail4_1loop_gauge_err": bench_1loop_gauge_err,
@@ -2508,6 +3096,9 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         "guardrail4_pure_quartic_err": bench_pure_quartic_err,
         "guardrail4_2loop_implicit_g3_err": bench_2loop_implicit_g3_err,
         "guardrail4_5chan_symbolic_jet4_err": bench_5chan_jet4_err,
+        "guardrail4_matrix_jet4_err": bench_matrix_jet4_err,
+        "guardrail4_neg_ctrl_swapped_comm_rhs_err": neg_ctrl_swapped_comm_rhs_err,
+        "guardrail4_neg_ctrl_swapped_comm_jet_err": neg_ctrl_swapped_comm_jet_err,
         "guardrail4_reversibility_err": bench_reversibility_err,
         "guardrail4_neg_ctrl_wrong_4pi_err": neg_ctrl_wrong_4pi_err,
         "guardrail4_neg_ctrl_wrong_lam2_err": neg_ctrl_wrong_lam2_err,
