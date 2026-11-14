@@ -164,3 +164,32 @@ second, independent sample at n = 22 (60 new words), each at the mark and the tw
   by main, to be landed with its numerical test, which is running. The end question is now the canonical end (B1667),
   run separately.
 
+## Second computation, corrections and upgrade (2026-11-14; agy-002's A2-B1924, harvest row 1790, read through the mask)
+
+- **Confirmed, more strongly.** agy-002 computed the read-out on the whole by exhaustive exact populations, with no
+  sampling error: every allowed word at n = 8 to 16 (5 453 hyperbolic words at n = 16). It used both of this arc's end
+  values and a third of its own. The population read-out changes by 3.6 × 10⁻² from n = 8 to 10, 1.15 × 10⁻² from 10
+  to 12, 6.8 × 10⁻³ from 12 to 14, and 3.6 × 10⁻³ from 14 to 16. From n = 22 to 28, with 400 words each, the change
+  has median ∣z∣ 0.74, 92 % within two errors. It agrees with this arc's numbers within their errors.
+- **Corrected: the twin does not "fade"; it is exactly equal at every n.** agy-002's theorem:
+  - The reverse-swap involution w ↦ w* (reverse the word, swap L and R) gives W(w*) = W(w)ᵀ. It preserves length, and
+    it maps allowed words to allowed words, because the mark's vector (1, 2) is null mod 5.
+  - S W(w)ᵀ S⁻¹ = W(w*)⁻¹, so S carries w's thread onto w*'s. Under B1724's S-covariance the mark goes to the twin.
+  - So A(w, mark) = A(w*, twin) for every allowed word, and the population read-outs at the mark and at the twin are
+    **identical at every n**.
+  The difference this arc saw at n = 10 came from samples that do not hold a word together with its dual. They were
+  drawn with replacement: one sample of 60 held 41 distinct words, which this arc did not disclose and discloses now.
+  What does fall with n is the word-by-word spread between the mark and the twin. §§ 1 and 2's sentences on the twin
+  "fading" are superseded by this.
+- **Withdrawn: the addendum's caution that the mark's jackknife errors may be understated by up to a half.** On the
+  exact population at n = 16, agy-002 drew 2 000 pairs of 60-word samples. The jackknife error matches the true
+  sampling spread to 1 % (median ratio 0.993), and the share above two errors is 5.1 %, the nominal rate. The median
+  ∣z∣ of 1.01 between two samples is the fluctuation of a median over 48 outputs computed from one set of words.
+- **Four conventions of the frame's code, now stated:**
+  1. the theta pairings are evaluated at 2τ, with the real twist doubled;
+  2. each residue is multiplied by √(max(0, 2πL̃ + F_u)) on the channel's characteristic;
+  3. γ = Wᵀ on w = aτ + b, and the samples were drawn with replacement;
+  4. the outputs are 48 numbers: 12 sector ratios and 12 mixing moduli at each of the two ends.
+- **Verdict upgraded from OPEN to PROVED,** for the claims as corrected: the read-out on the whole at the two constant
+  ends settles in n to the precision stated, on two independent computations, and the mark's and twin's population
+  read-outs are equal at every n. The limit itself is B1928's (OPEN). The canonical end is B1927's.

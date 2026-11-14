@@ -14,17 +14,17 @@
 | what | count |
 |---|---|
 | arcs with a verdict file | 1624 |
-| … PROVED | 1126 |
+| … PROVED | 1127 |
 | … NEGATIVE | 384 |
-| … OPEN | 101 |
+| … OPEN | 100 |
 | … RETRACTED | 13 |
 | register points | 847 |
-| … QUEUED | 306 |
+| … QUEUED | 305 |
 | … LEAD | 4 |
 | … OWNER | 0 |
-| … DONE | 525 |
+| … DONE | 526 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1788 |
+| harvest rows (the last number) | 1791 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -36,7 +36,7 @@
 | B1927 | PROVED | THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi… |
 | B1926 | PROVED | AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve… |
 | B1925 | PROVED | THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol… |
-| B1924 | OPEN | THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by lengt… |
+| B1924 | PROVED | [UPGRADED 2026-11-14 from OPEN on agy-002's second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (all… |
 | B1923 | PROVED | THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's… |
 | B1922 | PROVED | THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the… |
 | B1921 | PROVED | THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,… |

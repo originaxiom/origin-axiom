@@ -123,3 +123,9 @@ OPEN 1, PROVED 10); 18 register rows match (DONE 12, QUEUED 6)`. None states thi
 - **So H1 to H3 are met as argued by main.** The verdict stays OPEN until agy-002's independent check of the sketch
   (M26) and its computation of B1924 (M23 to M25), as the rule of a second computation asks.
 
+## Addendum (2026-11-14): the mark and the twin are equal at every finite n
+
+agy-002's A2-B1924 (harvest row 1790) proves that the population read-outs at the mark and at its twin are identical at
+every n: the reverse-swap involution with the modular S. This is stronger than this arc's claim for those two points, so
+the limit's independence of the reading point is exact for them at every n. For the other 22 points of order 5 it rests
+on the proof sketch. The sketch's check by agy-002 (A2-LIMIT, M26) is still owed.

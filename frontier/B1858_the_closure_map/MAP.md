@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 94 |
+| DEBT | a result the record uses is owed a check or a correction | 93 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -343,7 +343,6 @@ by a quote that the builder checks.*
 | 42 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
 | 43 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
 | 44 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
-| 45 | P-332 | a check that cannot fail, an instrument or a seal claim under a banked result | B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box. |
 | 46 | P-156 | an unverified premise or seat result under a banked structural result | B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
 | 47 | P-054 | an unverified premise or seat result under a banked structural result | GENESIS cites W24 and W30 (order-3 flux allowed, not forced). |
 | 48 | P-055 | an unverified premise or seat result under a banked structural result | W23/W27/W28 (two generations in E8 frames, qubit) are cited as results. |

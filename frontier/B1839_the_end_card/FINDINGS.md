@@ -75,3 +75,9 @@ With 23 levels in place of 4, this card's quark four can only be less specific; 
 - The look took 15 713 s. Most of it, 15 276 s, went to the cusp-limit read-out's exhaustive pair evaluation (2.3 × 10¹⁰
   pairs). That read-out is not a cell.
 - None of the six's held-out neighbours (P-585, P-638) was computed or touched.
+
+## Second computation of cell D (2026-11-14; the rule of 2026-11-13, P-842)
+
+agy-002's A2-NEG (harvest row 1789, read through the mask) recomputed the look-elsewhere null of cell D on its own code
+from the cards' sealed definitions. The result is the same, so this negative now has its independent second
+computation.

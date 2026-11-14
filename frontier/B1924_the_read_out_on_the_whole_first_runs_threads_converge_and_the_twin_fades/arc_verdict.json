@@ -1,6 +1,6 @@
 {
  "id": "B1924",
- "verdict": "OPEN",
+ "verdict": "PROVED",
  "instrument": false,
  "creates_law": false,
  "identifications": [],
@@ -14,7 +14,9 @@
   "B1913"
  ],
  "rests_on_seat": [],
- "cites_seat": [],
+ "cites_seat": [
+  "agy-002's A2-B1924 (harvest row 1790, read through the mask): the second computation by exhaustive exact populations, and the exact finite-n theorem that the mark's and twin's read-outs are equal"
+ ],
  "supersedes": null,
  "superseded_by": null,
  "authored_by": "cc",
@@ -24,6 +26,6 @@
   "reach": "class",
   "hypotheses": "allowed words at level 5 (B1872's stabiliser) sampled with uniform letters, fixed seeds, 20 to 60 words per n, n = 8 to 22; the trapezoid rule over one period, ratios averaged; the end held at two chosen constants, 1.3 and 0.9 in the coordinate L + 1/2 log Im tau [CORRECTED 2026-11-14: these are not B1724's two ends; see the page's correction]; jackknife errors over words; statistical evidence at about 1e-2, no limit proved; no independent second computation yet"
  },
- "claim_one_line": "THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by length), the read-out changes from n = 16 to n = 22 by no more than its sampling error (about 1.3e-2; per number median |z| 0.94 at the mark and 0.67 at the twin, none above 2 at the mark), and the read-outs at the mark and at its twin, clearly different at n = 10 (paired median |z| 2.35, 58% above 2), are not told apart at n = 16 (0.92, 4%) or n = 22 (0.57, 0%). The limit is not proved; longer histories, an independent second computation (agy-002) and the end are owed before tau and the reading point leave the budget. [CORRECTED 2026-11-14: all of it at two chosen constant values of the free end L~, which are not B1724's two ends.] Values in the json only; nothing compared. 0 of 19.",
+ "claim_one_line": "[UPGRADED 2026-11-14 from OPEN on agy-002's second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (allowed words at level 5, each thread's average of the frame at its own line with the invariant end, combined by the move count and weighted by length), the read-out changes from n = 16 to n = 22 by no more than its sampling error (about 1.3e-2; per number median |z| 0.94 at the mark and 0.67 at the twin, none above 2 at the mark), and the read-outs at the mark and at its twin, clearly different at n = 10 (paired median |z| 2.35, 58% above 2), are not told apart at n = 16 (0.92, 4%) or n = 22 (0.57, 0%). The limit is not proved; longer histories, an independent second computation (agy-002) and the end are owed before tau and the reading point leave the budget. [CORRECTED 2026-11-14: all of it at two chosen constant values of the free end L~, which are not B1724's two ends.] Values in the json only; nothing compared. 0 of 19.",
  "weave_or_thread": "weave (the allowed subweave at level 5)"
 }

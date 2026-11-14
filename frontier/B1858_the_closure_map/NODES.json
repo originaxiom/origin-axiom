@@ -5390,30 +5390,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:332",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-332 — "
-   ]
-  ],
-  "rows": [
-   "P-332"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 45,
-  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
-  "rows_live": {
-   "P-332": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:333",
   "layer": "15 debts",
   "kind": "debt",

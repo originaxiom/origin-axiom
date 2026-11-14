@@ -76,3 +76,9 @@ A07 ANSATZ → CHOSEN (the exact norm at E4); A09 ANSATZ → CHOSEN (the exact n
 being a norm stays a choice); A10 CHOSEN → FITTED (c = 3.77); A03 and A06 renamed to this row's line and level; A08's basis
 sharpened (P-705). Frame A claims the six only (the CKM four untested here, P-555). Borrowed joints: 14 before, 14 after —
 no reduction is claimed.
+
+## Second computation of cell D (2026-11-14; the rule of 2026-11-13, P-842)
+
+agy-002's A2-NEG (harvest row 1789, read through the mask) recomputed the look-elsewhere null of cell D on its own code
+from the cards' sealed definitions. The result is the same, so this negative now has its independent second
+computation.
