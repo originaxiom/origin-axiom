@@ -74,3 +74,16 @@ here as the L173 re-pose).
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the time's-arrow instrument was queued and not run; Krutelevich's finite-orbit citation is carried cited, not re-derived; two asks were relayed (the R018 numbering gap; the re-runnable ζ₁₂/dP6 construction certificate).
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the time's-arrow instrument was queued and not run | DISCHARGED | `frontier/B1182_c4prime_resolved/FINDINGS.md` | THE TIME'S-ARROW TYPED (the FIRST EXECUTION of cc3's B8144 escape-instrument, the flagged price-reconciliation residue) | B1182 |
+| Krutelevich's finite-orbit citation is carried cited, not re-derived | CARRIED | `docs/OPEN_LEADS.md` | Review 74's reader proposed closing this lead; main's check did not confirm it. P-332 carries the transitivity proof route. | L162, P-332 |
+| the relayed ask on the R018 numbering gap | DISCHARGED | `docs/RELAY_LEDGER.md` | its substance is the seat arcs it reports, R018, each with a HARVEST_LEDGER row | R018 exists and is rowed |
+| the relayed ask for a re-runnable zeta-12 / dP6 construction certificate | UNREGISTERED | `docs/OPEN_LEADS.md` | SEAM-A is open in B1156, and B1159 calls it a wall only in substance. The lead stays open. | P-745 (nearest home: L182, which does not name the certificate) |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by L162, P-332; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

@@ -49,3 +49,15 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the promotion pass (ex-R48-9) stays a named bounded residue; three dangling B792 path repairs were owed; the first OA_SLOW run was launched, not complete.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the promotion pass (ex-R48-9) stays a named bounded residue | UNREGISTERED | `frontier/B1177_instrument_bundle/FINDINGS.md` | the promotion pass (ex-R48-9) stays a named bounded residue | P-745 (the review item that held it closed with B1207, which does not name the promotion; CLAIMS.md has no row of B909 or B952) |
+| three dangling B792 path repairs were owed | CARRIED | `docs/POINT_REGISTER.md` | the chain rule lapsed since B1454 (B758); B1177's four dangling B792 paths; 39 directories with no findings document | P-322 (which counts four) |
+| the first OA_SLOW run was launched, not complete | DISCHARGED | `frontier/B1207_slow_lane_discharge/FINDINGS.md` | enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**: | B1207 |
+
+**The arc stays OPEN.** ESCALATED(2026-11-13, P-745; carried by P-322; P-745). A residue marked UNREGISTERED is decided by no row, lead or later arc; it is re-pointed to P-745, whose dated addition of 2026-11-13 lists it for main to row or to decline.

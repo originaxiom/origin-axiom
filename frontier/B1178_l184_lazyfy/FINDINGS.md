@@ -32,3 +32,13 @@ The verdict field is authoritative and unchanged: `OPEN`. This document does not
 ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
 - **What it left open, in its own words:** the lazy-fy was executed and certified; the first OA_SLOW run was still in flight when the arc closed.
 - **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.
+
+## The residues checked, 2026-11-13 (main's card C11; register row P-745)
+
+Each residue this arc names in its own words, checked against the record as it stood on 2026-11-13, at the file that decides it today, by a quotation from that file. Where nothing decides it (UNREGISTERED), the file read is the one that names it. The lock is `tests/test_the_seven_process_arcs_checked.py`.
+
+| residue | outcome | the file read | quotation | carried by |
+|---|---|---|---|---|
+| the first OA_SLOW run was still in flight when the arc closed | DISCHARGED | `frontier/B1207_slow_lane_discharge/FINDINGS.md` | enumerated at B1177 and launched there. Its **first-ever complete run** finished after **4 h 45 min**: | B1207 |
+
+**Every residue is discharged, so the arc is closed:** its verdict is PROVED from 2026-11-13, as a process arc whose work is done. It states no theorem.

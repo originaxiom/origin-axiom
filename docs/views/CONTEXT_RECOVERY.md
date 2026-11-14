@@ -14,9 +14,9 @@
 | what | count |
 |---|---|
 | arcs with a verdict file | 1626 |
-| … PROVED | 1130 |
+| … PROVED | 1131 |
 | … NEGATIVE | 384 |
-| … OPEN | 99 |
+| … OPEN | 98 |
 | … RETRACTED | 13 |
 | register points | 849 |
 | … QUEUED | 306 |
