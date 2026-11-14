@@ -85,3 +85,19 @@ def test_the_readme_block_gives_no_words_of_a_changelog_heading(tmp_path, monkey
     assert dict(g.public_face_words(block)) == {}
     # the twin: the line as it stood printed the heading, and the gate would have counted its words
     assert sum(g.public_face_words("| the last landing | %s |" % heading[:150]).values()) >= 6
+
+
+def test_the_plan_of_2026_10_29_is_a_labelled_dated_document_off_the_list():
+    """C14, patch 6 (main's M25, answer 2): the plan is off the public face's list, labelled at its head as a dated
+    proposal of the working record, and the README calls it so. Planted: the label taken out."""
+    g = _gates()
+    plan = "docs/THE_FINAL_ATTACK_2026-10-29.md"
+    assert plan not in g.PUBLIC_FACE and plan not in g.PUBLIC_FACE_HELD
+    text = (ROOT / plan).read_text(encoding="utf-8")
+    label = "*A dated proposal of 2026-10-29, part of the working record."
+    assert text.split("\n")[2].startswith(label)
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    line = [l for l in readme.split("\n") if plan in l]
+    assert len(line) == 1 and "a dated document of the working record" in line[0]
+    planted = text.replace(label, "*", 1)
+    assert not planted.split("\n")[2].startswith(label)

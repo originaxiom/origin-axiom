@@ -34,7 +34,7 @@ nothing in this block is typed by hand.*
 | understand the programme, from its idea to where it stands, in plain words | [`docs/THE_PROGRAMME_SO_FAR.md`](docs/THE_PROGRAMME_SO_FAR.md), every line with its source and status |
 | see the foundations, each item with its status | [`GENESIS.md`](GENESIS.md): the principle, the grammar, the generated states, the root, the frames, the forks, and what is not claimed |
 | see where it stands now | [`docs/CAMPAIGN_STATUS.md`](docs/CAMPAIGN_STATUS.md), its LATEST entries (the working record) |
-| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30 |
+| see the plan | [`docs/THE_FINAL_ATTACK_2026-10-29.md`](docs/THE_FINAL_ATTACK_2026-10-29.md), the order of work chosen on 2026-10-30, a dated document of the working record |
 | find an open question, its disposition and its place in the queue | [`docs/POINT_REGISTER.md`](docs/POINT_REGISTER.md) (the working record) |
 | read the record's state on one generated page | [`docs/views/CONTEXT_RECOVERY.md`](docs/views/CONTEXT_RECOVERY.md) (a working index: it quotes the record's own lines) |
 | look up one arc | `python3 scripts/atlas/query.py card B1812`, or the folder `frontier/B1812_*/` |
