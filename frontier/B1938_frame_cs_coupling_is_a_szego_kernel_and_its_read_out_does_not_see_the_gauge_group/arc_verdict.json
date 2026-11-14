@@ -1,0 +1,29 @@
+{
+ "id": "B1938",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1906",
+  "B1656",
+  "B1654",
+  "B1919",
+  "B1928",
+  "B1932",
+  "B1935"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C (docs/total_inputs_scoreboard.json): B1906's channel bilinear, B1656's norm, B1928's read-out on the whole with B1932's exact weight",
+  "object": "the channel coupling, its residue and norm; the read-out split by the flat line's gauge class",
+  "reach": "class",
+  "hypotheses": "identities checked at frame C's order-5 lines and on random, order-7 and order-12 lines, three tau and one outside the strip; characteristics reduced mod Z^2; the gauge-class read-out on 3000 words per class of 40 letters"
+ },
+ "claim_one_line": "FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by main): each channel's bilinear is R_s times Kronecker's function at z_s = (q_L+q_R) w - h_s, the Higgs's hypercharge line shifted by the channel's spin structure (6.7e-18 at 20 digits; 6.2e-15 on a second route); |R_s| is the root of two zeta-regularised twisted Laplacian determinants over 2 pi |eta| (1.1e-14); Parseval derives B1919's constant without F_u (1.6e-12); the read-out on U(1)-class, Pin(2)-class and other words agrees within sampling error (max |z| 1.8; a 1 % control caught at |z| 6.4). No joint changes type; C07 and C08 stay chosen. 0 of 19.",
+ "weave_or_thread": "the weave (the read-out on the whole)"
+}

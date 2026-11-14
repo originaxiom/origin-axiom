@@ -72,6 +72,28 @@ Version 2 says so.
 - **Still owed:** the area options, by agy-002's A2-CANON-T90 (expectations committed at 0e08a8953). Under version 2 the
   run waits for it.
 
+## Amended before the look, the same evening (the sweep of 2026-11-14, P-851)
+- **The amendments.** The rule gains amendments A1 to A12, after the sweep listed 21 points that bear on the run
+  (`BIG_RUN_RULE_v2.md`, last section). In short:
+  - the run is a reading of frame C, not the programme's final comparison;
+  - the acceptance test of row 1683 is applied: a result given its ingredients, not a selection;
+  - the scale is stated;
+  - rows 11 and 12 stay out because frame C does not compute them;
+  - the earlier looks are named;
+  - the next frames' definitions are frozen at named commits;
+  - the conditions before the run are listed.
+- **A window companion,** reported and not governing (V1): `verification/big_run_windows.py`, sha256
+  `49b28127c93b0d5a489281e6572491a0fb204978b9c675a49a64f137f02d5132`. It reproduces the governing calibration exactly at
+  B1720's windows (lock).
+- **Found the same evening: the frame loses precision high in the cusp (P-853).**
+  - Above about Im τ = 11, F̄(τ + 1) = F̄(τ) fails in double precision, by 12 % at height 12 and more above.
+  - Neither a 50-digit SVD nor the closed-form residues repair it. The true m₁/m₃ falls below 1e-15 by height 12, so the
+    frame must be computed in extended precision there.
+  - B1932's area options integrate F̄ to height 45, so their mixing values carry the noise. They are corrected before the
+    look, and the run waits for the corrected file and its second computation.
+  - The move-count options are untouched: their grid stops at height 6, the frame's zero test does not misfire below
+    height 12, and X-EXACT-W agrees with them.
+
 ## Scoreboard
 Frame C's C06 and its status carry a dated line: the exact weight is used, and why. The status's "NOT sealed … before
 any seal" is overtaken by B1932's early seal, and the run waits for the second computations (here).

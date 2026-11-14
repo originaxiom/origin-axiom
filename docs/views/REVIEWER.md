@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1634** |
-| words of findings prose | **1,463,660** |
+| research arcs with findings | **1636** |
+| words of findings prose | **1,466,986** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1634** (100.0 %) |
+| arcs carrying an authored verdict | **1636** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1136 |
+| PROVED | 1138 |
 | NEGATIVE | 384 |
 | OPEN | 101 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1935`** (637 words, 0 locks)  
-“THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO 7: T fixes channels 1 and i and swaps j and k, S fixes 1 and k and swaps i and j (27 cases, common factor to 3e-15); the centre -I leaves every reading's outputs unchanged (3e-14) and exchanges no reading; T's eigenphases on the Higgs triplet are 1/8, 3/8, 7/8, so frame C uses no level-5 icosahedral triplet; with the frame's charges, up and down coincide at 2, 3, 6, up and leptons (negated and transposed) at 7, down and leptons (transposed) at 5, and no two sectors at any order above 7. No value computed. 0 of 19.”  
-`B1935_the_modular_group_permutes_the_frames_channels_as_s3_around_a_fixed_centre_and_the_sectors_coincide_only_at_line_orders_two_to_seven/FINDINGS.md`
+**PROVED — `B1939`** (1644 words, 0 locks)  
+“FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.”  
+`B1939_the_agy_seats_unharvested_claims_recomputed/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  

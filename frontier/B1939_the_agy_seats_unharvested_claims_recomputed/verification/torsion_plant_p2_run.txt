@@ -1,0 +1,3 @@
+P2a (sign error) on m004 base characters: Milnor match broken on 4/4 -> CAUGHT
+P2b mode=True on b+-LR fibre-nontrivial characters: identity broken on 16/20 -> CAUGHT
+P2b mode='sign' on b+-LR fibre-nontrivial characters: identity broken on 16/20 -> CAUGHT

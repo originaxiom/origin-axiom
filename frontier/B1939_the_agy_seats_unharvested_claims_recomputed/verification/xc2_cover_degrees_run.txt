@@ -1,0 +1,7 @@
+half ('7/10', '2/5') {'I': 6, 'O': 3, 'Z': 3, 'ZO': 3}
+half ('1/5', '9/10') {'I': 6, 'O': 3, 'Z': 3, 'ZO': 3}
+half ('7/10', '9/10') {'I': 6, 'O': 3, 'Z': 3, 'ZO': 3}
+plant (1/5, 2/5) {'I': 2, 'O': 1, 'Z': 1, 'ZO': 1} differs from halves: True
+all 12 halves, set of (I, O, Z, ZO) least k: {(6, 3, 3, 3)} 12
+order-10 lines, (I, O, Z, ZO) least k histogram: {(30, 15, 3, 3): 60, (6, 3, 3, 3): 12}
+L^2 R = ((3, 2), (1, 1)) tr 4 fixed points in (1/2 Z/Z)^2: 2 of 4

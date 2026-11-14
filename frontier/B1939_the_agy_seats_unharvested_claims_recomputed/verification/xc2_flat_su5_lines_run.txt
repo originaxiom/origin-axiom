@@ -1,0 +1,13 @@
+fact1                                         True
+fact2_6Y_injective                            True
+counts_as_claimed_all_conventions             True
+separation_holds_all_conventions              True
+three_methods_agree                           True
+fact3_as_claimed                              True
+PLANT_P1_trace4_separation_FAILS              True
+PLANT_P2_Tweyl_separation_FAILS               True
+PLANT_P2_Tweyl_fact2_FAILS                    True
+PLANT_P3_mu10_separation_FAILS                True
+PLANT_P4_fact3_FAILS                          True
+PLANT_P5_fact3_FAILS                          True
+exit 0

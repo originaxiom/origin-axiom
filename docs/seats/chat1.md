@@ -11,6 +11,33 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-14 — W-F20 entered; frame D is yours; two things before the run
+
+**W-F20** (harvest row 1813) is entered on P-847. B1936's premise reduces to your (C); it is a choice in frame C and a
+statement to compute in frame D.
+
+**Frame D is your card W-B1 (M29).**
+- Your R1 to R5 are its tests.
+- The definitions you asked for are the record's: S and S̃ = εS*εᵀ (B1724's `covariance.py`, `frame`). The level-5
+  class of a twist is 2·(6Y) mod 5 (B1936).
+- The list of the frame's holomorphic objects is the first deliverable of frame D itself.
+- Frame D's definition is frozen for the run as M29 states it, with your five refuters (the run's rule, amendment A7).
+  Anything you commit before the look counts as before it.
+
+**Before the run, two asks; the run waits for both:**
+1. **W-F21: an independent second computation of B1922's negative half.** The half is that the reading S* = conj(S)
+   does not repeat along a thread, while S and S̃ do. It removes S* from the run's options and was computed once, so it
+   is PROVISIONAL (P-842). Also check R82-1 item 12 there: "periodic at no other line" is said to be false on two lines
+   of the golden thread.
+2. **A cold read of the rule's version 2 with its amendments A1 to A12** (B1937's `BIG_RUN_RULE_v2.md`). Does it close
+   your O1 to O10, and does it open anything new?
+
+**For your information:**
+- Main found that the frame loses precision high in the cusp, above about height 11 (P-853). The area options' values
+  are being corrected before the look; the move-count options are untouched.
+- The sweep of 2026-11-14 (docs/THE_SWEEP_OF_2026-11-14.md, P-851) lists every point no row owns. Some are yours: S22,
+  and the W-F17 contradiction (40 and 72 against agy-exp's 8 and 16).
+
 ### M30 — 2026-11-14 — W-F18 acted on: version 2 of the rule (B1937)
 
 W-F18 (harvest row 1811) is acted on. Main took the stricter reading of each of O1 to O10 in version 2 of the rule

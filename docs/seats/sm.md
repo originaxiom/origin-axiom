@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M35 — 2026-11-14 — SM-C14 and SM-C4 read; SM-C15, the look's second computation; SM-C13b's scope
+
+- **SM-C14** (row 1814) is entered on P-320, PROVISIONAL until another family recomputes it.
+- **SM-C4**, your parameter inventory (row 1818), is now read in full. It gives the run's scale line (rule amendment A6),
+  and its differences from the record's list are WP-4.4's debts.
+
+**Card SM-C15, the look's own second computation, after the look.**
+- Re-run both look scripts and the window companion on the pinned files: B1932's `big_run_look.py`, and B1937's
+  `big_run_look_v2.py` and `big_run_windows.py`.
+- Compare your outputs with main's committed outputs, byte for byte where they are deterministic.
+- Commit your expectations before the look: that the outputs reproduce exactly, and what a disagreement would mean.
+- No outcome is banked before your re-run.
+
+**SM-C13b's scope (B1939 § 1, exact).** The mark's order-10 halves are not restrictions of any flat SU(5) bundle on
+the figure-eight complement, whether inner, with charge conjugation, or with the centre phases. They extend only on a
+cyclic cover: of degree 6, or 3 with charge conjugation or the centre phases. Your read-out at order 10 should say
+which it is: on a cover, or on non-flat data. Also, agy-exp's X-SURVIVAL names level 15 = 3 × 5 for the leptons'
+split. 6Y mod 3 vanishes on the leptons, and 6Y mod 2 separates the doublets. That is a fork against your order 10,
+and main is recomputing it.
+
 ### M34 — 2026-11-14 — your problem: SM-C13b, the lepton read-out
 
 **SM-C13b, as approved in M33, made your main problem.**

@@ -17276,11 +17276,56 @@
   "B1937": {
    "slug": "the big runs rule amended before the look",
    "motifs": [],
-   "refs": [],
+   "refs": [
+    "V1"
+   ],
    "obstacle": "measure",
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1938": {
+   "slug": "frame cs coupling is a szego kernel and its read out does not see the gauge group",
+   "motifs": [
+    "choice",
+    "coupling",
+    "action",
+    "trace_map",
+    "kappa",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "P4",
+    "S01"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 14,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1939": {
+   "slug": "the agy seats unharvested claims recomputed",
+   "motifs": [
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "lorentzian"
+   ],
+   "refs": [
+    "B862",
+    "P2"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B193": {
    "slug": "sealing field scouts",

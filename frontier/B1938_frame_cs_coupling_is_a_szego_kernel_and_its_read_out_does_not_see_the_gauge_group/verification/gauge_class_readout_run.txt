@@ -1,0 +1,5 @@
+U1   vs Pin : max |d ln| 0.0046, max |z| 1.8, rms z 1.16
+U1   vs none: max |d ln| 0.0026, max |z| 1.7, rms z 0.74
+Pin  vs none: max |d ln| 0.0021, max |z| 0.7, rms z 0.50
+per-class relative sampling error, median: U1 2.1e-03, Pin 1.8e-03, none 2.1e-03
+words per class: 3000

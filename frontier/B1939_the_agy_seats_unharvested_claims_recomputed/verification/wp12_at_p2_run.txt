@@ -1,0 +1,68 @@
+PASS B: number of reduced words of length <= 8 is 1 + 2(3^8 - 1) = 13121: 13121
+PASS B1: [a,b] is trivial in Z^2 (exponent sums 0,0)
+PASS B2: R1 a->ab sends [a,b] to a conjugate of itself: abAB
+PASS B2: R2 a->ba sends [a,b] to a conjugate of itself: babABB
+PASS B2: R3 b->ba sends [a,b] to a conjugate of itself: abAB
+PASS B2: R4 b->ab sends [a,b] to a conjugate of itself: aabABA
+PASS B2: S swap (a,b)->(b,a) sends [a,b] to a conjugate of its inverse: baBA
+PASS B2: T tick (a,b)->(ab,a) sends [a,b] to a conjugate of its inverse: abaBAA
+PASS B2: [a,b]^-1 is not conjugate to [a,b]
+PASS B3 (literal, empty word included): exactly five classes kept: 1, [a,b], [a,b]^-1, [a,b]^2, [a,b]^-2: ['1', 'BAba', 'BabA', 'BAbaBAba', 'BabABabA']
+PASS B3 (non-empty): exactly four classes kept, [a,b]^{+-1}, [a,b]^{+-2}
+PASS B3: the classes of cyclically reduced words <= 8 are the classes of all reduced words <= 8: 1387
+PASS B3 (set-wise reading): the largest invariant set of classes <= 8 is the same five: ['1', 'BAba', 'BabA', 'BAbaBAba', 'BabABabA']
+PASS B (looseness): iterating a->ba on the word [a,b] gives words of length 4,6,8,10,12 (the class is not a set of short words): [4, 6, 8, 10, 12]
+PLANT CAUGHT PC-1: literal word equality in place of conjugacy; check 'five classes kept' must fail: ['1']
+PLANT CAUGHT PC-1b: swap added to the record moves; check 'five classes kept' must fail: ['1']
+PASS C: tr a = tr b = tr ab = 0 at the quaternion point
+PASS C: [a,b] = -I at the quaternion point
+PASS C: [[a,b], a] = I at the quaternion point
+PASS C: [[a,b], b] = I at the quaternion point
+PASS C: [[a,b], A] = I at the quaternion point
+PASS C: [[a,b], B] = I at the quaternion point
+PASS C: [a,b] != I in H3(Z): ((1, 0, 1), (0, 1, 0), (0, 0, 1))
+PASS C: [[a,b], a] = I in H3(Z)
+PASS C: [[a,b], b] = I in H3(Z)
+PASS C: [[a,b], A] = I in H3(Z)
+PASS C: [[a,b], B] = I in H3(Z)
+PASS C: [[a,b], a] != I at the Sanov pair: ((-335, 1552), (-128, 593))
+FAIL C last clause, LITERAL: 'no reduced word of length <= 8 is trivial' at the Sanov pair: {0: 1}
+PASS C last clause, with NON-EMPTY: no non-empty reduced word of length <= 8 is trivial at the Sanov pair: {0: 1}
+PASS C: the empty word is the only trivial reduced word <= 8 at the Sanov pair (it evaluates to I)
+PLANT CAUGHT PC-2: L, R in place of the Sanov pair; check 'no non-empty word <= 8 trivial' must fail: {'counts': {0: 1, 6: 12, 8: 56}, 'shortest': 'BAbABa'}
+PASS 5: H3(Z)-trivial reduced words of length <= 8: the empty word and exactly 64 of length 8, none of length 1..7: {0: 1, 8: 64}
+PASS 5: every one of the 65 H3-trivial words of length <= 8 is I at the quaternion point (2x2 over Z[i]): 0
+PASS 5: the same by quaternion units (independent evaluation): 0
+PASS 5: extended to length 10: every H3-trivial word of length <= 10 is I at the quaternion point: {'n_H3_trivial_le_10': 353, 'bad': 0}
+PASS 5: the two evaluations of the quaternion point agree on every trivial word <= 8: {'Z[i]': 2521, 'units': 2521}
+PASS 5: the converse fails: some words trivial at the quaternion point are not trivial in H3 (e.g. a^4)
+PLANT CAUGHT PC-5a: Z^2 in place of H3(Z); check 'every word trivial there is trivial at Q8' must fail: {'n_trivial_in_Z2': 361, 'not_trivial_at_Q8': 168, 'first': 'BAba'}
+PLANT CAUGHT PC-5b: the Sanov pair in place of the quaternion point; check must fail: {'not_trivial_at_Sanov': 64}
+PASS D: connected compact surfaces with non-empty boundary and chi = -1 (pi1 free of rank 2): four: [('orientable', 0, 3), ('orientable', 1, 1), ('non-orientable', 1, 2), ('non-orientable', 2, 1)]
+PASS D: every boundary curve null in H1(Z) on the one-holed torus only: {'torus, 1 hole (boundary [a,b])': True, 'sphere, 3 holes (a, b, (ab)^-1)': False, 'projective plane, 2 holes (x^2 d1 d2 = 1; x=a, d1=b, d2=(x^2 d1)^-1)': False, 'Klein bottle, 1 hole (x^2 y^2 d = 1)': False}
+PASS D (qualifier): membership in the commutator subgroup is kept by every composite of three moves on 400 words
+PASS D: non-zero integral classes have growing orbits (> 20 after 8 steps); the zero class is fixed: {'(1, 0)': 257, '(0, 1)': 257, '(1, 1)': 511, '(2, -1)': 582, '(0, 0)': 1}
+PASS D (integral needed): mod 2 the three non-zero classes are a finite set every move carries to itself
+PASS 4: clock-and-shift at p=2: [a,b] = -I
+PASS 4: clock-and-shift: a^2 = I, b^2 = I, (ab)^2 = -I
+PASS 4: LINEAR: the tick does NOT carry clock-and-shift to itself (image of a is ab, squaring to -I)
+PASS 4: LINEAR: among the six moves only the swap carries clock-and-shift to itself: ['S swap (a,b)->(b,a)']
+PASS 4: the swap's intertwiner can be the Hadamard matrix: H X H^-1 = Z, H Z H^-1 = X
+PLANT CAUGHT PC-4a: assert clock-and-shift is linearly carried by all six moves; must fail: ['R1 a->ab', 'R2 a->ba', 'R3 b->ba', 'R4 b->ab', 'T tick (a,b)->(ab,a)']
+PASS 4: LINEAR: the tick does not carry rho ⊕ conj(rho) = rho ⊕ rho at p=2 either
+PASS 4: PROJECTIVE: every one of the six moves carries clock-and-shift to itself up to a character twist: {'R1 a->ab': '(I, 1)', 'R2 a->ba': '(I, 1)', 'R3 b->ba': '(1, I)', 'R4 b->ab': '(1, I)', 'S swap (a,b)->(b,a)': '(1, 1)', 'T tick (a,b)->(ab,a)': '(I, 1)'}
+PASS 4: quaternion point: a^2 = b^2 = (ab)^2 = -I, [a,b] = -I
+PASS 4: LINEAR: the quaternion point is carried to itself by all six moves (explicit g, g rho g^-1 = rho∘phi verified)
+PASS 4: of the four sign representations (a^2, b^2) = (+-1, +-1), only (-1,-1) is fixed by all six: [(-1, -1)]
+PASS 4: the other three sign representations are one orbit of the moves (the orbit of clock-and-shift (1,1)): [(-1, 1), (1, -1), (1, 1)]
+PASS 4: the fixed sign representation (-1,-1) is isomorphic to the quaternion point
+PASS 4: the sign representation (1,1) is isomorphic to clock-and-shift
+PASS 4: family: [a,b] = -I, a^2 = alpha, b^2 = beta = s^2, (ab)^2 = -alpha*beta
+PASS 4: over all (alpha, beta) in (C^*)^2 the only point fixed by all six moves is (-1, -1), the quaternion point: [{A: -1, B: -1}]
+PLANT CAUGHT PC-4b: b = [[0,1],[1,0]] in place of the quaternion b; check 'fixed by all six' must fail
+PASS 4 (projective, p=2): [a,b] scalar zeta^1; single sector kept by all six: True; pair kept: True
+PASS 4 (projective, p=3): [a,b] scalar zeta^2; single sector kept by all six: False; pair kept: True
+PASS 4 (projective, p=5): [a,b] scalar zeta^4; single sector kept by all six: False; pair kept: True
+PASS 4 (projective, p=7): [a,b] scalar zeta^6; single sector kept by all six: False; pair kept: True
+
+CHECKS: 59, failing: 1; PLANTS: 7, caught: 7, missed: 0

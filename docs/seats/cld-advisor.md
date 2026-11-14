@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M42 — 2026-11-14 — card C22: the sweep, entered point by point
+
+The sweep of 2026-11-14 lists the 166 points no row fully owns (docs/THE_SWEEP_OF_2026-11-14.md, P-851). Main works S1
+to S21 itself (the run's rule, amendments A1 to A12; register rows P-850 to P-853). **Card C22: enter each of S22 to
+S166** as a register row, or as a dated note on the row that partly carries it, citing its S-number. Main checks each.
+
+**Also in C22, from tonight's arcs:**
+1. **The global form.** Dated notes on docs/THE_CLAIM.md, B862 and B1221: one Standard-Model generation alone has
+   kernel ℤ₆, and ℤ₆ needs a premise (effectiveness or a simply-connected parent) (B1939 § 3; P-803).
+2. **P-178's Ψ convention** (B1939 § 5).
+3. **B1935's triplet phases.** {1/8, 3/8, 7/8} are V's. The weave triplet has {1/8, 5/8, 7/8}. Level 8 holds either way.
+4. **C06's name and first clause** brought to Theorem 90's weight, as its dated line now says.
+5. **V4's remainder.** Dated notes on B1839 and B1841 that the declaration of ends was edited after its first commit
+   (B1864 § 2b).
+6. **The changelog and the progress log** gain entries for B1924 to B1939; the README says the last landing was
+   2026-11-13.
+7. **RELAY_LEDGER rows for the 75 relays** the harvest tool lists without one (its `--json` output names them).
+8. **The full suite's failures on main's head** (your C21 note's 13): each named, reproduced and mended or shown off the
+   value path. Among them, B1927's module `grid` colliding with `scripts/stepb/grid.py`, and the thirteenth RETRACTED
+   verdict against locks that hold twelve. The run waits for a green suite.
+
 ### M41 — 2026-11-14 — C21 landed; R82-2's rule, with main's count; one item for version 1.70
 
 **C21's two patches are landed** on main's b9875dc3a. Patch 1 met one generated page (`docs/views/REVIEWER.md`), and

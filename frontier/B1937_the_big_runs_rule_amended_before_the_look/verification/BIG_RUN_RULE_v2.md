@@ -109,3 +109,116 @@ comparison: no comparison with measured values has been made.*
    - `python3 -B big_run_look.py` (version 1, in B1932), then `python3 -B big_run_look_v2.py` (version 2, here);
    - both outputs are committed before anyone reads them;
    - then they are read and banked as above.
+
+## Amendments before the look (2026-11-14, evening; the sweep of 2026-11-14, P-851)
+
+*Written after the sweep listed 21 points that bear on the run (`docs/THE_SWEEP_OF_2026-11-14.md`, S1 to S21). Each is
+met below or made a condition. The script `big_run_look_v2.py` is unchanged; its seal stands.*
+
+**A1. What the run is (S1).**
+- **Not the programme's final comparison.** The run is a reading of frame C, made at the author's word (P-850). It is
+  not the programme's sealed card (WP-5.3, WP-6.1), and it does not rest on:
+  - the clean-up packages still open (WP-5.1 started; WP-5.2, WP-5.3, WP-5.4 and WP-6.1 not started);
+  - the debts not yet joined to the map (P-773);
+  - the spine's upstream audit and an independent challenge (milestone M3).
+- **Its outcome stays a reading** until those are done, whatever it is.
+- **The programme's conditions stand unchanged for its final comparison:** P-773, P-776 and P-782 (B1861). Each of
+  those rows carries a dated note saying so.
+
+**A2. The calibration's windows (S2; audit finding V1).** B1720's windows for the random targets are a declared choice,
+and their price is not known. A companion script reports the governing calibrations with each window's ends moved
+half a decade out and half a decade in. It is reported, not governing, and is sealed before the look beside this rule
+(`big_run_windows.py`).
+
+**A3. The acceptance test of P-776, applied to frame C's read-out (S3; harvest row 1683, R1 to R8).**
+
+| | condition | frame C's read-out |
+|---|---|---|
+| R1 | every ingredient listed and typed | met: frame C's nine joints, each typed (the scoreboard) |
+| R2 | a state of the whole | met: the average over all threads of the weave (B1928) |
+| R3 | existence and uniqueness | met: the limit exists and is the same at every point of order 5 (B1928) |
+| R4 | symmetry computed first | met in part: the modular group on the channels (B1935); no move exchanges the two Higgs worlds; the gauge group of the flat line invisible (B1938) |
+| R5 | what counts as a place | does not apply: the read-out places no point of the modulus (τ-free, B1928) |
+| R6 | survives its own choices | not met as a selection: the measure moves the values by 10 to 80 %, so it is carried as two options; the end is fixed by B1927's convention; the weight has two forms (B1932) |
+| R7 | the vacuity control at other levels | not run for frame C's read-out. An open premise of the reading |
+| R8 | no measured number in design or run | met until the look |
+
+By the test's own typing, the read-out is **a result given its listed ingredients, not a selection.** The run reads it
+so.
+
+**A4. The frozen list (S4; P-767, R6).**
+- **The list.** The seven claimed rows of this rule, as committed at a29c459a5 and pushed in 2bdfc498a, are the frozen
+  second list for this comparison.
+- **How the outcome is printed.** The seven claimed rows come first with the governing outcome. P-341's reported rows
+  stand apart. The headline's ruled form (P-767's R6) is applied when the outcome is written, with WP-0.12's status
+  stated beside it.
+
+**A5. The end (S5).** Frame C uses B1927's canonical end, the length-2 horocycle that analyticity selects, as a stated
+regularity condition (C05). So V4's continuous family of ends is answered in frame C by one declared choice, not by a
+free parameter.
+
+**A6. The scale (S6, S7).**
+- **The data.** The data are running masses in MS-bar at the common scale M_Z (the pinned HZ2021 file) and the PDG
+  mixing moduli. A ratio of two masses at a common scale is scheme-independent to leading order, and the moduli run only
+  weakly (the SM seat's inventory SM-C4).
+- **Frame C's values** are tree-level ratios with no running (C09, chosen), set beside the data at M_Z, as in every
+  earlier sealed look.
+- **Open premise.** Whether M_Z at tree level is the right expectation is an open premise (P-590, P-722 (3)).
+
+**A7. The conditions before the run (S8, S10, S11, S12, S14, S16).** The run waits for every one of these:
+- **The area options' values.**
+  - Main found that the frame's double-precision singular-value decomposition loses the singular vectors high in the
+    cusp: above about Im τ = 11, the identity F̄(τ + 1) = F̄(τ) fails by up to 12 % at height 12, and more above it.
+  - B1932's area options (W₋∣b and W₊∣b) integrate F̄ up to height 45, and the area measure gives the region above
+    height 11 about 9 % of its weight. Their mixing values carry that noise.
+  - The move-count options do not: their read-out grid stops at height 6.
+  - A corrected values file for the area options is computed with a precision that passes the τ → τ + 1 check at every
+    height used. It is committed beside B1932's file with a new seal, and both stay in the record (P-853).
+- **The area options' second computation.** agy-002's A2-CANON-T90 or agy-exp's X-MEASURE (whose pre-registration
+  treats the cusp in extended precision) must agree with the corrected file under this rule's tolerance.
+- **The S* exclusion.** B1922's negative half removes S* from the options: S* does not repeat along a thread. It was
+  computed once, so it is PROVISIONAL (P-842). The run waits for its independent second computation (asked of the web
+  seat).
+- **Two cold reads.** The web seat's cold read of this rule's version 2 and of these amendments.
+- **The suite.** The fresh-clone suite on the run's commit is green, or each failure is shown off the value path.
+- **The look's own second computation and the third opinion.**
+  - The SM seat re-runs both look scripts, and `big_run_windows.py`, on the pinned files, with its expectations
+    committed first.
+  - If any option passes, agy-002 gives the third opinion (P-339, P-342).
+- **The next frames' definitions are frozen now,** so that none is shaped after the look:
+  - the order-10 lepton read-out: SM-C13b, as sealed at a036eba44;
+  - frame D: card W-B1 as stated in main's message M29 (docs/seats/chat1.md at b9875dc3a), with the five refuters of
+    W-F20 (harvest row 1813) as its tests;
+  - the amplitude read-out: card A2-AMP;
+  - the measure from principle: card X-MEASURE, as pre-registered by agy-exp at 2a67770de.
+  - Any definition a seat commits after the look is marked as written after it.
+
+**A8. Rows 11 and 12 (S18).** Frame C gives no value for m_b/m_t or m_τ/m_b.
+- Its outputs are ratios within each sector. The matter's normalisation is one factor per sector, and no claimed output
+  depends on it (B1938 § 5).
+- So the two cross-sector rows stay out because frame C does not compute them, not because of a hold. The hold itself
+  was lifted (P-840).
+
+**A9. The record's earlier looks (S19).**
+- **Earlier looks.** The record has looked at the same data before: docs/LOOK_LEDGER.md lists 36 sealed decisive cells
+  and 32 post-hoc scans before B1753's seal, and the later point-based value looks B1790, B1814, B1825, B1838, B1839 and
+  B1841.
+- **What the calibration covers.** This run's calibration covers its own four options only. The outcome is read with
+  the ledger's count beside it, and the ledger gains this run's row at the look.
+- **The earlier tests** are other frames. They are not superseded by this run, and their thread-averaged versions are
+  leads after it (P-852).
+
+**A10. The masks (S13).** The check of the agy lane's pushes for a held-out value needs the held-out values, which the
+firewall opens only at the look. Rows 11 and 12 are not compared in this run, so their exposure cannot bias it. The
+check runs after the look, before anything else is read. The web seat's mask is the seat's own tool; it has stopped
+passing value files through it.
+
+**A11. The second computations read so far (S9, S21).**
+- **X-CANON.** agy-exp's X-CANON reproduces B1928's truncated-weight read-out of W₋ by the move count: rms z 2.7
+  against the sampling errors, worst 0.69 %. It is an independent second computation of B1928, not of this run's
+  exact-weight values or of the area options.
+- **agy-exp's later pushes,** to 3f30d4a46, are its closing reports and X-MEASURE's pre-registration and verifier. They
+  are registered (harvest rows 1816 and 1817).
+
+**A12. X-SURVIVAL's S4 (S17).** agy-exp's claim that a modular-invariant fermion weight prefers W₋ is recomputed on
+main's code before the look, or this rule records that it was not. No option is preferred either way.

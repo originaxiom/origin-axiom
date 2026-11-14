@@ -1,0 +1,39 @@
+=== census rebuilt (own code)
+necklaces with a rotation W_col^T v5 = +-v5: 285;  with W_col v5 = +-v5: 285; same set: True
+by length: {2: 1, 5: 2, 6: 4, 7: 8, 8: 9, 9: 20, 10: 41, 11: 72, 12: 128}
+members with eps*W = I mod 5: 8: [('LLLLLRRRRR', 1), ('LLLRLRLLLRR', 1), ('LLRLRLRLLRR', 1), ('LLRRLRLRLRR', 1), ('LLRRRLRLRRR', 1), ('LLLLRLRRRRLR', 1), ('LLLRRLLRLLRR', -1), ('LLRRLRRLLRRR', -1)]
+
+=== R1: m004 = +LR (task card reading)
+  k=1: H=(0, 0, 0) |tau|^2 = 5 + (-2/5) sqrt5 ~ |tau| = 2.026221312937; Milnor match True
+  k=2: H=(0, 0, 0) |tau|^2 = 5 + (2/5) sqrt5 ~ |tau| = 2.427844144709; Milnor match True
+  k=3: H=(0, 0, 0) |tau|^2 = 5 + (2/5) sqrt5 ~ |tau| = 2.427844144709; Milnor match True
+  k=4: H=(0, 0, 0) |tau|^2 = 5 + (-2/5) sqrt5 ~ |tau| = 2.026221312937; Milnor match True
+  product over k=1..4 of |tau|^2 = (Fraction(14641, 25), Fraction(0, 1))  -> product of |tau| = 14641/25 ** 0.5 = 121/5? True
+  any base modulus equal to 2 sin(pi k/5)? False
+  fibre-nontrivial characters on m004: 0; violations []
+
+=== R2: b+-LR (golden word, eps from the mark)
+  eps of LR: -1
+  naive phi = {'a': 'ABA', 'b': 'AB'}; phi([a,b]) = ABAABababa; conjugator g = ABABA; longitude l = ababat
+  #base 4, #fibre k=0 4, #mixed 16, violations 0
+   fibre k=0 e=(1, 2, 3) H=(0, 1, 1) tau=0(numerator vanishes): True
+   fibre k=0 e=(2, 4, 1) H=(0, 1, 1) tau=0(numerator vanishes): True
+   fibre k=0 e=(3, 1, 4) H=(0, 1, 1) tau=0(numerator vanishes): True
+   fibre k=0 e=(4, 3, 2) H=(0, 1, 1) tau=0(numerator vanishes): True
+   mixed line (1, 2, 0): 4 charges, product |tau|^2 = (Fraction(25, 1), Fraction(0, 1))
+   mixed line (1, 2, 1): 4 charges, product |tau|^2 = (Fraction(25, 1), Fraction(0, 1))
+   mixed line (1, 2, 2): 4 charges, product |tau|^2 = (Fraction(25, 1), Fraction(0, 1))
+   mixed line (1, 2, 4): 4 charges, product |tau|^2 = (Fraction(25, 1), Fraction(0, 1))
+   base line (0, 0, 1): 4 charges, product |tau|^2 = (Fraction(25, 1), Fraction(0, 1)); individual |tau|^2 = [(Fraction(5, 1), Fraction(2, 1)), (Fraction(5, 1), Fraction(-2, 1)), (Fraction(5, 1), Fraction(-2, 1)), (Fraction(5, 1), Fraction(2, 1))]
+
+=== whole census, route A
+  {'members': 285, (4, 4, 16): 277, 'base product = 5': 1, (4, 24, 96): 8}
+  violations: 0 []
+  non-golden members (eigenvalue field != Q(sqrt5)): 271; of them with mixed moduli exactly the claimed set: 271
+
+=== PLANTS
+  Q1 LRR (trace 4) base |tau|^2: {1: (Fraction(17, 2), Fraction(-1, 10)), 2: (Fraction(17, 2), Fraction(1, 10)), 3: (Fraction(17, 2), Fraction(1, 10)), 4: (Fraction(17, 2), Fraction(-1, 10))}; differs from LR at 4/4 -> CAUGHT
+     LRR has fibre characters mod 5? 0 (H_1 tors = coker(LRR - I))
+  Q2 (k read from rho(t), naive lifts): members with violations 33/60 -> CAUGHT
+  Q3 (d(g^-1)/dg = +g^-1) on b+-LR: violations 80 (kinds [('chain', 20), ('column dependence', 48), ('fibre k=0', 4), ('mixed identity', 4), ('mixed modulus', 4)]) -> CAUGHT
+  Q4 fibre values (1,3) on b+-LR is a homomorphism? False -> CAUGHT

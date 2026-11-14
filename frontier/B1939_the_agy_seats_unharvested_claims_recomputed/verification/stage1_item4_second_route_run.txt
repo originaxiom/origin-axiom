@@ -1,0 +1,28 @@
+PASS own Dedekind reciprocity = direct sum on 1208 coprime pairs (reciprocity needs gcd 1; SL(2,Z) has gcd(d,c) = 1)   []
+  L^k R L R: {1: (((5, 3), (3, 2)), '3', '0'), 2: (((8, 5), (3, 2)), '4', '1'), 3: (((11, 7), (3, 2)), '5', '2'), 4: (((14, 9), (3, 2)), '6', '3')}
+  L^m R^m:   {1: (((2, 1), (1, 1)), '3', '0'), 2: (((5, 2), (2, 1)), '3', '0'), 3: (((10, 3), (3, 1)), '3', '0'), 4: (((17, 4), (4, 1)), '3', '0')}
+PASS X5 Psi(L^k R L R) = 0, 1, 2, 3 (k = 1..4) and Psi(L^m R^m) = 0 (m = 1..4), exact
+  E2-integral Phi: [('L^1RLR', '(3.0 + 1.97215226305253e-31j)', '3'), ('L^2RLR', '(4.0 - 1.97215226305253e-31j)', '4'), ('L^3RLR', '(5.0 - 1.97215226305253e-31j)', '5'), ('L^4RLR', '(6.0 + 4.93038065763132e-31j)', '6'), ('L^1R^1', '(3.0 + 1.51412955244792e-38j)', '3'), ('L^2R^2', '(3.0 + 0.0j)', '3'), ('L^3R^3', '(3.0 - 2.95822839457879e-31j)', '3'), ('L^4R^4', '(3.0 + 0.0j)', '3')]
+PASS X5 Phi by the E2 integral equals the exact Dedekind Phi on all eight words (worst 8.13e-31)
+  Meyer phi(L), phi(R) from the braid relation and S^4 = I: [{x: 2/3, y: -2/3}]
+  phi(L) = 2/3, phi(R) = -2/3; phi(L^k R L R) = ['0', '-1/3', '-2/3', '-1']; phi(L^m R^m) = ['0', '0', '0', '0']; (Lr)^6, (rL)^6 -> [0, 0]; conjugation changes [0, 0, 0, 0, 0, 0]
+PASS X6 Meyer's form symmetric on every V_{A,B} met   asymmetric: 0
+PASS X6 Meyer phi = -Psi/3 on L^k R L R, L^m R^m; (Lr)^6 -> 0; class function
+  ('+LLLR', 3)   tr=  110 |C|= 108 all M^T-fixed chars present: True  Psi=6  sum_{c!=0} eta_A = -4.000000000000  predicted -4  ok
+  ('+LLR', 3)    tr=   52 |C|=  50 all M^T-fixed chars present: True  Psi=3  sum_{c!=0} eta_A = -2.000000000000  predicted -2  ok
+  ('+LLRLR', 2)  tr=   98 |C|=  96 all M^T-fixed chars present: True  Psi=2  sum_{c!=0} eta_A = -1.333333333333  predicted -4/3  ok
+  ('+LR', 2)     tr=    7 |C|=   5 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+  ('+LR', 3)     tr=   18 |C|=  16 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('+LR', 4)     tr=   47 |C|=  45 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+  ('+LR', 5)     tr=  123 |C|= 121 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('-LLLRLR', 1) tr=  -13 |C|=  15 all M^T-fixed chars present: True  Psi=2  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('-LLR', 2)    tr=   14 |C|=  12 all M^T-fixed chars present: True  Psi=2  sum_{c!=0} eta_A = -1.333333333333  predicted -4/3  ok
+  ('-LLR', 3)    tr=  -52 |C|=  54 all M^T-fixed chars present: True  Psi=3  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('-LLRLR', 1)  tr=  -10 |C|=  12 all M^T-fixed chars present: True  Psi=1  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('-LLRR', 1)   tr=   -6 |C|=   8 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = +0.000000000000  predicted 0  ok
+  ('-LR', 1)     tr=   -3 |C|=   5 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+  ('-LR', 2)     tr=    7 |C|=   5 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+  ('-LR', 3)     tr=  -18 |C|=  20 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+  ('-LR', 4)     tr=   47 |C|=  45 all M^T-fixed chars present: True  Psi=0  sum_{c!=0} eta_A = -0.000000000000  predicted 0  ok
+PASS X7 sum_{c != 0} eta_A(c) = -2 Psi(M)/3 (tr > 2), 0 (tr < -2) on all 16 levels, 601 characters (worst 2.2e-14)
+FAILED CHECKS: none

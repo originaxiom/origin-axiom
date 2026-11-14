@@ -1,0 +1,11 @@
+kernel_vs_bilinear     6.68e-18
+kronecker_form         1.47e-19
+mult_1                 1.37e-19
+mult_tau               8.75e-19
+R_as_Z                 5.1e-21
+sumR2_rel              5.16e-19
+z_vs_Qw_minus_h        7.56e-21
+up_R1_rel              1.16e-20
+R_vs_numpy_contour     8.981673495181765e-15
+smallest live |R_s|/|R| 0.0714
+PLANT (relative line used as the kernel's line): rel. diff 0.229 (must be O(1))

@@ -1,0 +1,444 @@
+{
+ "checks": [
+  [
+   "B: 13,121 reduced words of length <= 8",
+   true,
+   "13121"
+  ],
+  [
+   "B: the 13,121 words fall into 1,387 conjugacy classes",
+   true,
+   "1387"
+  ],
+  [
+   "B: class count re-derived from cyclically reduced words by length",
+   true,
+   "1387"
+  ],
+  [
+   "B: classes kept by all four record moves, empty word included: exactly 1, [a,b]^{+-1}, [a,b]^{+-2}",
+   true,
+   "['', 'ABab', 'AbaB', 'ABabABab', 'AbaBAbaB']"
+  ],
+  [
+   "B: non-empty: exactly four",
+   true,
+   ""
+  ],
+  [
+   "B: R1 a->ab sends [a,b] to a conjugate of [a,b]",
+   true,
+   "abAB"
+  ],
+  [
+   "B: R2 a->ba sends [a,b] to a conjugate of [a,b]",
+   true,
+   "babABB"
+  ],
+  [
+   "B: R3 b->ba sends [a,b] to a conjugate of [a,b]",
+   true,
+   "abAB"
+  ],
+  [
+   "B: R4 b->ab sends [a,b] to a conjugate of [a,b]",
+   true,
+   "aabABA"
+  ],
+  [
+   "B: S swap sends [a,b] to a conjugate of [a,b]^-1 (not of [a,b])",
+   true,
+   "baBA"
+  ],
+  [
+   "B: T tick sends [a,b] to a conjugate of [a,b]^-1 (not of [a,b])",
+   true,
+   "abaBAA"
+  ],
+  [
+   "B: 87 classes kept under {R1, R2} alone (relay's number)",
+   true,
+   "87"
+  ],
+  [
+   "B: iterating a->ba on the word [a,b]: lengths 4,6,8,10,12",
+   true,
+   "[4, 6, 8, 10, 12]"
+  ],
+  [
+   "C: [a,b] = -I at the quaternion point (Z[i])",
+   true,
+   ""
+  ],
+  [
+   "C: traces of a, b, ab are 0",
+   true,
+   ""
+  ],
+  [
+   "C: [[a,b],a] = 1 at Q8 and in H3(Z); [a,b] != 1 in H3",
+   true,
+   ""
+  ],
+  [
+   "C: [[a,b],b] = 1 at Q8 and in H3(Z); [a,b] != 1 in H3",
+   true,
+   ""
+  ],
+  [
+   "C: [[a,b],A] = 1 at Q8 and in H3(Z); [a,b] != 1 in H3",
+   true,
+   ""
+  ],
+  [
+   "C: [[a,b],B] = 1 at Q8 and in H3(Z); [a,b] != 1 in H3",
+   true,
+   ""
+  ],
+  [
+   "C: [[a,b],a] at the Sanov pair is [[-335,1552],[-128,593]] (relay's matrix), not I",
+   true,
+   "((-335, 1552), (-128, 593))"
+  ],
+  [
+   "C last clause LITERAL (empty word counted): no reduced word <= 8 trivial at Sanov  [expected to FAIL: objection (2)]",
+   false,
+   "{0: 1}"
+  ],
+  [
+   "C last clause with 'non-empty': none trivial at Sanov",
+   true,
+   "{0: 1}"
+  ],
+  [
+   "5: H3(Z)-trivial reduced words <= 10 by length: {0:1, 8:64, 10:288}",
+   true,
+   "{0: 1, 8: 64, 10: 288}"
+  ],
+  [
+   "5: the lower-unitriangular evaluation gives the same set of words",
+   true,
+   "353"
+  ],
+  [
+   "5: the 64 length-8 words fall in 8 conjugacy classes (relay/prior)",
+   true,
+   "['AABabbaB', 'AAbaBBab', 'ABAbaBab', 'ABBAbaab', 'ABaBAbab', 'ABaaBAbb', 'ABabAbaB', 'ABabaBAb']"
+  ],
+  [
+   "5: all 64 non-empty length-8 H3-trivial words are I at the quaternion point (Z[i] matrices)",
+   true,
+   ""
+  ],
+  [
+   "5: ... and = 1 as Hamilton quaternions i, j",
+   true,
+   ""
+  ],
+  [
+   "5: all 353 H3-trivial words <= 10 are 1 at Q8",
+   true,
+   "353"
+  ],
+  [
+   "5: Q8-trivial words <= 8 by length {0:1,4:36,6:216,8:2268}, both evaluations",
+   true,
+   "{0: 1, 4: 36, 6: 216, 8: 2268}"
+  ],
+  [
+   "D: boundary classes null in H1(Z) only on the one-holed torus (both Klein presentations non-null)",
+   true,
+   "{'torus1': [(0, 0)], 'pants': [(1, 0), (0, 1), (-1, -1)], 'RP2_2holes': [(0, 1), (-2, -1)], 'Klein1 (x^2y^2)': [(-2, -2)], 'Klein1 (xyxY)': [(-2, 0)]}"
+  ],
+  [
+   "D: mod 2 the three non-zero classes are permuted by every one of the six moves",
+   true,
+   ""
+  ],
+  [
+   "D: no non-zero integral class is fixed by both R1 and R3 (so no finite non-empty invariant set except {0})",
+   true,
+   ""
+  ],
+  [
+   "4: clock-and-shift: a^2 = b^2 = I, (ab)^2 = -I, [a,b] = -I",
+   true,
+   ""
+  ],
+  [
+   "4: linearly, only the swap fixes clock-and-shift (nullspace method)",
+   true,
+   "{'R1 a->ab': False, 'R2 a->ba': False, 'R3 b->ba': False, 'R4 b->ab': False, 'S swap': True, 'T tick': False}"
+  ],
+  [
+   "4: the same from the squares invariant (a'^2, b'^2) = (1, 1) only for the swap",
+   true,
+   "{'R1 a->ab': (-1, 1), 'R2 a->ba': (-1, 1), 'R3 b->ba': (1, -1), 'R4 b->ab': (1, -1), 'S swap': (1, 1), 'T tick': (-1, 1)}"
+  ],
+  [
+   "4: the tick does NOT fix clock-and-shift linearly",
+   true,
+   ""
+  ],
+  [
+   "4: Hadamard carries (X, Z) to (Z, X)",
+   true,
+   ""
+  ],
+  [
+   "4: rho + conj(rho) = rho + rho (real entries) is not fixed linearly by the tick",
+   true,
+   ""
+  ],
+  [
+   "4: ... but it is fixed by the swap",
+   true,
+   ""
+  ],
+  [
+   "4: the quaternion point is fixed linearly by all six moves (verified intertwiners)",
+   true,
+   "{'R1 a->ab': '[[1, -1], [1, 1]]', 'R2 a->ba': '[[1, 1], [-1, 1]]', 'R3 b->ba': '[[-I, 0], [0, 1]]', 'R4 b->ab': '[[I, 0], [0, 1]]', 'S swap': '[[-1, I], [-I, 1]]', 'T tick': '[[-I, -1], [-I, 1]]'}"
+  ],
+  [
+   "4: the six intertwiners stated in the report satisfy g rho(x) g^-1 = rho(phi(x))",
+   true,
+   "{'R1 a->ab': True, 'R2 a->ba': True, 'R3 b->ba': True, 'R4 b->ab': True, 'S swap': True, 'T tick': True}"
+  ],
+  [
+   "4: projectively all six fix clock-and-shift (a character twist exists)",
+   true,
+   "{'R1 a->ab': (I, 1), 'R2 a->ba': (I, 1), 'R3 b->ba': (1, I), 'R4 b->ab': (1, I), 'S swap': (1, 1), 'T tick': (I, 1)}"
+  ],
+  [
+   "4: family: [a,b] = -I, a^2 = alpha, b^2 = s^2",
+   true,
+   ""
+  ],
+  [
+   "4: action on (alpha, beta) matches R1,R2 (-ab, b); R3,R4 (a, -ab); S (b, a); T (-ab, a)",
+   true,
+   "{'R1 a->ab': '(-alpha*s**2, s**2)', 'R2 a->ba': '(-alpha*s**2, s**2)', 'R3 b->ba': '(alpha, -alpha*s**2)', 'R4 b->ab': '(alpha, -alpha*s**2)', 'S swap': '(s**2, alpha)', 'T tick': '(-alpha*s**2, alpha)'}"
+  ],
+  [
+   "4: the only common fixed point in (C^*)^2 is (-1,-1)",
+   true,
+   "([{alpha: -1, beta: -1}], [u - 1, alpha + 1, beta + 1])"
+  ],
+  [
+   "4: my sign table equals main's (wp12_added run file), cell by cell",
+   true,
+   ""
+  ],
+  [
+   "4: (1,1), (-1,1), (1,-1) are one orbit; (-1,-1) is fixed",
+   true,
+   "[(-1, 1), (1, -1), (1, 1)]"
+  ],
+  [
+   "4 p=2: [a,b] = zeta^-1 scalar; single sector kept by all six: True; pair kept: True; flipped by []",
+   true,
+   ""
+  ],
+  [
+   "4 p=3: [a,b] = zeta^-1 scalar; single sector kept by all six: False; pair kept: True; flipped by ['S swap', 'T tick']",
+   true,
+   ""
+  ],
+  [
+   "4 p=5: [a,b] = zeta^-1 scalar; single sector kept by all six: False; pair kept: True; flipped by ['S swap', 'T tick']",
+   true,
+   ""
+  ],
+  [
+   "4 p=7: [a,b] = zeta^-1 scalar; single sector kept by all six: False; pair kept: True; flipped by ['S swap', 'T tick']",
+   true,
+   ""
+  ]
+ ],
+ "plants": [
+  [
+   "P-1a enumeration from length 1 (empty word dropped); check 'five kept'",
+   true,
+   "['ABab', 'AbaB', 'ABabABab', 'AbaBAbaB']"
+  ],
+  [
+   "P-1b conjugacy without rotation; check 'five kept'",
+   true,
+   "['', 'ABab', 'ABabABab']"
+  ],
+  [
+   "P-2 non-free pair L, R^-1 in place of Sanov; check 'no non-empty word <= 8 trivial'",
+   true,
+   "{0: 1, 6: 12, 8: 56}"
+  ],
+  [
+   "P-5a H3(F2) (dihedral of order 8) in place of H3(Z); check 'trivial there => trivial at Q8'",
+   true,
+   "{'n_trivial': 2433, 'first_bad': 'BB'}"
+  ],
+  [
+   "P-5b 'Heisenberg' with b = I + E13 (commutes with a); check 'trivial there => trivial at Q8'",
+   true,
+   "{'n_trivial': 361, 'first_bad': 'BAba'}"
+  ],
+  [
+   "P-4a quaternion point fed to 'the tick does NOT fix it linearly'",
+   true,
+   ""
+  ],
+  [
+   "P-4b clock-and-shift fed to 'fixed linearly by all six'",
+   true,
+   ""
+  ],
+  [
+   "P-4c mis-written quaternion point a = diag(1,-1), b = [[0,1],[-1,0]] fed to 'fixed by all six'",
+   true,
+   ""
+  ]
+ ],
+ "n_classes_le8": 1387,
+ "kept_under_R1_R2": 87,
+ "sanov_[[a,b],a]": [
+  [
+   -335,
+   1552
+  ],
+  [
+   -128,
+   593
+  ]
+ ],
+ "H3_trivial_by_len_le10": {
+  "0": 1,
+  "8": 64,
+  "10": 288
+ },
+ "H3_len8_classes": 8,
+ "Q8_trivial_by_len_le8": {
+  "0": 1,
+  "4": 36,
+  "6": 216,
+  "8": 2268
+ },
+ "boundary_classes": {
+  "torus1": [
+   [
+    0,
+    0
+   ]
+  ],
+  "pants": [
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    -1
+   ]
+  ],
+  "RP2_2holes": [
+   [
+    0,
+    1
+   ],
+   [
+    -2,
+    -1
+   ]
+  ],
+  "Klein1 (x^2y^2)": [
+   [
+    -2,
+    -2
+   ]
+  ],
+  "Klein1 (xyxY)": [
+   [
+    -2,
+    0
+   ]
+  ]
+ },
+ "clock_shift_linear_fixed": {
+  "R1 a->ab": false,
+  "R2 a->ba": false,
+  "R3 b->ba": false,
+  "R4 b->ab": false,
+  "S swap": true,
+  "T tick": false
+ },
+ "clock_shift_image_squares": {
+  "R1 a->ab": "(-1, 1)",
+  "R2 a->ba": "(-1, 1)",
+  "R3 b->ba": "(1, -1)",
+  "R4 b->ab": "(1, -1)",
+  "S swap": "(1, 1)",
+  "T tick": "(-1, 1)"
+ },
+ "quaternion_intertwiners": {
+  "R1 a->ab": "[[1, -1], [1, 1]]",
+  "R2 a->ba": "[[1, 1], [-1, 1]]",
+  "R3 b->ba": "[[-I, 0], [0, 1]]",
+  "R4 b->ab": "[[I, 0], [0, 1]]",
+  "S swap": "[[-1, I], [-I, 1]]",
+  "T tick": "[[-I, -1], [-I, 1]]"
+ },
+ "clock_shift_projective_twists": {
+  "R1 a->ab": "(I, 1)",
+  "R2 a->ba": "(I, 1)",
+  "R3 b->ba": "(1, I)",
+  "R4 b->ab": "(1, I)",
+  "S swap": "(1, 1)",
+  "T tick": "(I, 1)"
+ },
+ "family_action": {
+  "R1 a->ab": "(-alpha*s**2, s**2)",
+  "R2 a->ba": "(-alpha*s**2, s**2)",
+  "R3 b->ba": "(alpha, -alpha*s**2)",
+  "R4 b->ab": "(alpha, -alpha*s**2)",
+  "S swap": "(s**2, alpha)",
+  "T tick": "(-alpha*s**2, alpha)"
+ },
+ "groebner_fixed_points": "[u - 1, alpha + 1, beta + 1]",
+ "sign_table": {
+  "(1, 1)": {
+   "R1 a->ab": "(-1, 1)",
+   "R2 a->ba": "(-1, 1)",
+   "R3 b->ba": "(1, -1)",
+   "R4 b->ab": "(1, -1)",
+   "S swap": "(1, 1)",
+   "T tick": "(-1, 1)"
+  },
+  "(1, -1)": {
+   "R1 a->ab": "(1, -1)",
+   "R2 a->ba": "(1, -1)",
+   "R3 b->ba": "(1, 1)",
+   "R4 b->ab": "(1, 1)",
+   "S swap": "(-1, 1)",
+   "T tick": "(1, 1)"
+  },
+  "(-1, 1)": {
+   "R1 a->ab": "(1, 1)",
+   "R2 a->ba": "(1, 1)",
+   "R3 b->ba": "(-1, 1)",
+   "R4 b->ab": "(-1, 1)",
+   "S swap": "(1, -1)",
+   "T tick": "(1, -1)"
+  },
+  "(-1, -1)": {
+   "R1 a->ab": "(-1, -1)",
+   "R2 a->ba": "(-1, -1)",
+   "R3 b->ba": "(-1, -1)",
+   "R4 b->ab": "(-1, -1)",
+   "S swap": "(-1, -1)",
+   "T tick": "(-1, -1)"
+  }
+ }
+}

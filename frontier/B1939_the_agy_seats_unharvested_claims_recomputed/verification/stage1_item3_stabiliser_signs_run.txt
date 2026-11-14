@@ -1,0 +1,33 @@
+PASS E3.1 V's fitted M_L, M_R are monomial in 24th roots (worst residual 3.5e-30, 7.3e-30)
+PASS E3.1 V's fitted matrices are the conjugates of the record's triplet (XL, XR)  M_L = ((0, 2, 1), (3, 21, 21)), M_R = ((1, 0, 2), (3, 3, 21))
+PASS E3.1 predicted M_L (theta and eta laws) equals the series fit
+PASS record's T: group of order 96, S^2 = i, S^4 = -1
+PASS E3.8 V's L-eigenphases are {1/8, 3/8, 7/8}  [0.125, 0.375, 0.875]
+PASS U_1: rho(S) re-checked at a fresh point (residual 2.0e-31)
+PASS U_1: rho = chi_1 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_1: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(20/24), S -> e(0/24)
+PASS U_5: rho(S) re-checked at a fresh point (residual 2.5e-31)
+PASS U_5: rho = chi_5 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_5: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(4/24), S -> e(12/24)
+PASS U_9: rho(S) re-checked at a fresh point (residual 1.1e-31)
+PASS U_9: rho = chi_9 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_9: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(12/24), S -> e(0/24)
+PASS U_13: rho(S) re-checked at a fresh point (residual 4.0e-32)
+PASS U_13: rho = chi_13 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_13: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(20/24), S -> e(12/24)
+PASS U_17: rho(S) re-checked at a fresh point (residual 1.1e-32)
+PASS U_17: rho = chi_17 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_17: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(4/24), S -> e(0/24)
+PASS U_21: rho(S) re-checked at a fresh point (residual 4.4e-33)
+PASS U_21: rho = chi_21 (x) rho_V; a PSL(2,Z) module (S^2 = 1, (SL)^3 = 1, S = L R^-1 L)
+PASS U_21: slot 2 is a common eigenvector of L^2 and S  L^2 -> e(12/24), S -> e(12/24)
+PASS E3.3 the stabiliser acts by signs only for m in {9, 21}  {1: (20, 0), 5: (4, 12), 9: (12, 0), 13: (20, 12), 17: (4, 0), 21: (12, 12)}
+PASS E3.3 U_9: (-1 on L^2, +1 on S); U_21: (-1 on L^2, -1 on S)
+PASS E3.5 U_9: T_u = [[-1,0,0],[0,0,i],[0,i,0]], S_u = (1 3), T_u^2 = diag(1,-1,-1)
+PASS E3.4 rho_{U_9} equivalent to Ind(-1,+1)  pairs 24
+PASS E3.4 rho_{U_21} equivalent to Ind(-1,-1)
+PASS E3.4 Ind(-1,+1), Ind(-1,-1): groups of order 24; Ind(+1,+-1): order 6  [24, 24, 6, 6]
+PASS E3.4 B1866 part 5 reproduced: chi_9 (x) Ind(-1,+1) = T and chi_21 (x) Ind(-1,-1) = T
+PASS E3.7 chi_m factors through SL(2,Z) iff m even (chi_m(S~^4) = (-1)^m)
+RESULT {"V": {"M_L": [[0, 2, 1], [3, 21, 21]], "M_R": [[1, 0, 2], [3, 3, 21]], "group_order": 96, "S^2": [[0, 1, 2], [18, 18, 18]], "S^4": [[0, 1, 2], [12, 12, 12]], "L_eigenphases": [0.125, 0.375, 0.875]}, "T": {"group_order": 96, "S^2": [[0, 1, 2], [6, 6, 6]], "S^4": [[0, 1, 2], [12, 12, 12]]}, "U": {"1": {"rho_L": [[0, 2, 1], [4, 22, 22]], "rho_R": [[1, 0, 2], [2, 2, 20]], "rho_S": [[2, 1, 0], [0, 0, 0]], "group_order": 72, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 1.987499982952472e-31, "slot": 2, "L2_on_slot_exp24": 20, "S_on_slot_exp24": 0}, "5": {"rho_L": [[0, 2, 1], [8, 2, 2]], "rho_R": [[1, 0, 2], [22, 22, 16]], "rho_S": [[2, 1, 0], [12, 12, 12]], "group_order": 72, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 2.5410600282395266e-31, "slot": 2, "L2_on_slot_exp24": 4, "S_on_slot_exp24": 12}, "9": {"rho_L": [[0, 2, 1], [12, 6, 6]], "rho_R": [[1, 0, 2], [18, 18, 12]], "rho_S": [[2, 1, 0], [0, 0, 0]], "group_order": 24, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 1.1189503807483336e-31, "slot": 2, "L2_on_slot_exp24": 12, "S_on_slot_exp24": 0}, "13": {"rho_L": [[0, 2, 1], [16, 10, 10]], "rho_R": [[1, 0, 2], [14, 14, 8]], "rho_S": [[2, 1, 0], [12, 12, 12]], "group_order": 72, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 4.0361904580704756e-32, "slot": 2, "L2_on_slot_exp24": 20, "S_on_slot_exp24": 12}, "17": {"rho_L": [[0, 2, 1], [20, 14, 14]], "rho_R": [[1, 0, 2], [10, 10, 4]], "rho_S": [[2, 1, 0], [0, 0, 0]], "group_order": 72, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 1.1165411713170466e-32, "slot": 2, "L2_on_slot_exp24": 4, "S_on_slot_exp24": 0}, "21": {"rho_L": [[0, 2, 1], [0, 18, 18]], "rho_R": [[1, 0, 2], [6, 6, 0]], "rho_S": [[2, 1, 0], [12, 12, 12]], "group_order": 24, "twist_of_V_by_chi_m": true, "PSL": true, "S_fresh_residual": 4.396016838580292e-33, "slot": 2, "L2_on_slot_exp24": 12, "S_on_slot_exp24": 12}}, "twists_to_T": {"(12, 0)": [9], "(12, 12)": [21]}}
+FAILED CHECKS: none

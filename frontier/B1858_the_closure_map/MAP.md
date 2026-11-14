@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 92 |
+| DEBT | a result the record uses is owed a check or a correction | 94 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -299,49 +299,51 @@ by a quote that the builder checks.*
 
 | rank | row | class | what rests on it |
 |---|---|---|---|
-| 1 | P-355 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D. |
-| 2 | P-596 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count. |
-| 3 | P-384 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick. |
-| 4 | P-586 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading. |
-| 5 | P-597 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74). |
-| 6 | P-446 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit. |
-| 7 | P-517 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355. |
-| 8 | P-157 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment. |
-| 9 | P-559 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim. |
-| 10 | P-610 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived. |
-| 11 | P-444 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians. |
-| 12 | P-542 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4. |
-| 13 | P-524 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so. |
-| 14 | P-557 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1825's null for the four (p2) and its sealed verdict use that definition. |
-| 15 | P-516 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses. |
-| 16 | P-448 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1. |
-| 17 | P-589 | a false or stale statement in a foundation or front document | Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean). |
-| 18 | P-606 | a false or stale statement in a foundation or front document | B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication. |
-| 19 | P-618 | a false or stale statement in a foundation or front document | GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers. |
-| 20 | P-318 | a false or stale statement in a foundation or front document | THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc. |
-| 21 | P-427 | a false or stale statement in a foundation or front document | B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records. |
-| 22 | P-374 | a false or stale statement in a foundation or front document | THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite. |
-| 23 | P-579 | a false or stale statement in a foundation or front document | Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers. |
-| 24 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
-| 25 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
-| 26 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
-| 28 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
-| 29 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
-| 30 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |
-| 31 | P-528 | a false or stale statement in a foundation or front document | docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line. |
-| 32 | P-160 | a false or stale statement in a foundation or front document | Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording. |
-| 33 | P-145 | a false or stale statement in a foundation or front document | Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main. |
-| 34 | P-605 | a check that cannot fail, an instrument or a seal claim under a banked result | GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
-| 35 | P-603 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings. |
-| 36 | P-607 | a check that cannot fail, an instrument or a seal claim under a banked result | B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3. |
-| 37 | P-608 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was. |
-| 38 | P-609 | a check that cannot fail, an instrument or a seal claim under a banked result | OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact. |
-| 39 | P-317 | a check that cannot fail, an instrument or a seal claim under a banked result | Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR. |
-| 40 | P-602 | a check that cannot fail, an instrument or a seal claim under a banked result | B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12. |
-| 41 | P-590 | a check that cannot fail, an instrument or a seal claim under a banked result | Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound. |
-| 42 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
-| 43 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
-| 44 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
+| 1 | P-853 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | the frame loses precision above Im tau about 11; the big run's area options are corrected in extended precision before the look, which waits for them. |
+| 2 | P-355 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D. |
+| 3 | P-596 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count. |
+| 4 | P-384 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick. |
+| 5 | P-586 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading. |
+| 6 | P-597 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74). |
+| 7 | P-446 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit. |
+| 8 | P-517 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355. |
+| 9 | P-157 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment. |
+| 10 | P-559 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim. |
+| 11 | P-610 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived. |
+| 12 | P-444 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians. |
+| 13 | P-542 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4. |
+| 14 | P-524 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so. |
+| 15 | P-557 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1825's null for the four (p2) and its sealed verdict use that definition. |
+| 16 | P-516 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses. |
+| 17 | P-448 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1. |
+| 18 | P-852 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20). |
+| 19 | P-589 | a false or stale statement in a foundation or front document | Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean). |
+| 20 | P-606 | a false or stale statement in a foundation or front document | B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication. |
+| 21 | P-618 | a false or stale statement in a foundation or front document | GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers. |
+| 22 | P-318 | a false or stale statement in a foundation or front document | THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc. |
+| 23 | P-427 | a false or stale statement in a foundation or front document | B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records. |
+| 24 | P-374 | a false or stale statement in a foundation or front document | THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite. |
+| 25 | P-579 | a false or stale statement in a foundation or front document | Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers. |
+| 26 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
+| 27 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
+| 28 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
+| 29 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
+| 30 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
+| 31 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |
+| 32 | P-528 | a false or stale statement in a foundation or front document | docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line. |
+| 33 | P-160 | a false or stale statement in a foundation or front document | Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording. |
+| 34 | P-145 | a false or stale statement in a foundation or front document | Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main. |
+| 35 | P-605 | a check that cannot fail, an instrument or a seal claim under a banked result | GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
+| 36 | P-603 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings. |
+| 37 | P-607 | a check that cannot fail, an instrument or a seal claim under a banked result | B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3. |
+| 38 | P-608 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was. |
+| 39 | P-609 | a check that cannot fail, an instrument or a seal claim under a banked result | OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact. |
+| 40 | P-317 | a check that cannot fail, an instrument or a seal claim under a banked result | Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR. |
+| 41 | P-602 | a check that cannot fail, an instrument or a seal claim under a banked result | B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12. |
+| 42 | P-590 | a check that cannot fail, an instrument or a seal claim under a banked result | Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound. |
+| 43 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
+| 44 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
+| 45 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
 | 46 | P-156 | an unverified premise or seat result under a banked structural result | B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
 | 47 | P-054 | an unverified premise or seat result under a banked structural result | GENESIS cites W24 and W30 (order-3 flux allowed, not forced). |
 | 48 | P-055 | an unverified premise or seat result under a banked structural result | W23/W27/W28 (two generations in E8 frames, qubit) are cited as results. |
@@ -394,7 +396,7 @@ by a quote that the builder checks.*
 
 ## The nodes that no edge joins
 
-23 of the 192 nodes that are not debts, and 76 of the 92 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
+23 of the 192 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

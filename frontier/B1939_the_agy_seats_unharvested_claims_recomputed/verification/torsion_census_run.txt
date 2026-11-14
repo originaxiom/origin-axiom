@@ -1,0 +1,15 @@
+census (W_col^T v5 = +-v5): 285 primitive necklaces of length 2..12
+census (W_col   v5 = +-v5): 285 primitive necklaces of length 2..12
+same necklace sets? True
+by length: {2: 1, 5: 2, 6: 4, 7: 8, 8: 9, 9: 20, 10: 41, 11: 72, 12: 128}
+stats: {'members': 285, 'dimH1F5=2': 277, 'mult_one': 277, '5 | tors': 285, 'base product == 5': 1, 'golden field (disc = 5 * square)': 0, 'dimH1F5=3': 8, 'eps*W = I mod 5': 8}
+members whose trace field is Q(sqrt5): 14; non-golden: 271
+members with base product 5: ['LR(-)']
+violations: 0
+  lane-listed b+-LR: this rotation has eps = -1 (sign in name -1); necklace in my census: True
+  lane-listed b++LLLRLL: this rotation has eps = 1 (sign in name 1); necklace in my census: True
+  lane-listed b+-RRRRRLR: this rotation has eps = -1 (sign in name -1); necklace in my census: True
+  lane-listed b++LLLLLLRLR: this rotation has eps = 1 (sign in name 1); necklace in my census: True
+  lane-listed b+-RRRRLRRLLR: this rotation has eps = -1 (sign in name -1); necklace in my census: True
+  lane-listed b++LLLLLLLRRLLR: this rotation has eps = 1 (sign in name 1); necklace in my census: True
+  lane-listed b++LLLLLRLLRRLR: this rotation has eps = 1 (sign in name 1); necklace in my census: True

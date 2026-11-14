@@ -1,0 +1,1313 @@
+{
+ "K": {
+  "27": {
+   "1": {
+    "finite": true,
+    "order": 6,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/6"
+    ]
+   },
+   "2": {
+    "finite": true,
+    "order": 12,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/12"
+    ]
+   },
+   "3": {
+    "finite": true,
+    "order": 18,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/18"
+    ]
+   },
+   "4": {
+    "finite": true,
+    "order": 24,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/24"
+    ]
+   },
+   "5": {
+    "finite": true,
+    "order": 30,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/30"
+    ]
+   },
+   "6": {
+    "finite": true,
+    "order": 36,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/36"
+    ]
+   },
+   "7": {
+    "finite": true,
+    "order": 42,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/42"
+    ]
+   },
+   "8": {
+    "finite": true,
+    "order": 48,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/48"
+    ]
+   },
+   "9": {
+    "finite": true,
+    "order": 54,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/54"
+    ]
+   },
+   "10": {
+    "finite": true,
+    "order": 60,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/60"
+    ]
+   },
+   "11": {
+    "finite": true,
+    "order": 66,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/66"
+    ]
+   },
+   "12": {
+    "finite": true,
+    "order": 72,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/72"
+    ]
+   }
+  },
+  "16": {
+   "1": {
+    "finite": true,
+    "order": 6,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/6"
+    ]
+   },
+   "2": {
+    "finite": true,
+    "order": 12,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/12"
+    ]
+   },
+   "3": {
+    "finite": true,
+    "order": 18,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/18"
+    ]
+   },
+   "4": {
+    "finite": true,
+    "order": 24,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/24"
+    ]
+   },
+   "5": {
+    "finite": true,
+    "order": 30,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/30"
+    ]
+   },
+   "6": {
+    "finite": true,
+    "order": 36,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/36"
+    ]
+   },
+   "7": {
+    "finite": true,
+    "order": 42,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/42"
+    ]
+   },
+   "8": {
+    "finite": true,
+    "order": 48,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/48"
+    ]
+   },
+   "9": {
+    "finite": true,
+    "order": 54,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/54"
+    ]
+   },
+   "10": {
+    "finite": true,
+    "order": 60,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/60"
+    ]
+   },
+   "11": {
+    "finite": true,
+    "order": 66,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/66"
+    ]
+   },
+   "12": {
+    "finite": true,
+    "order": 72,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/72"
+    ]
+   }
+  },
+  "10": {
+   "1": {
+    "finite": true,
+    "order": 6,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/6"
+    ]
+   },
+   "2": {
+    "finite": true,
+    "order": 12,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/12"
+    ]
+   },
+   "3": {
+    "finite": true,
+    "order": 18,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/18"
+    ]
+   },
+   "4": {
+    "finite": true,
+    "order": 24,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/24"
+    ]
+   },
+   "5": {
+    "finite": true,
+    "order": 30,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/30"
+    ]
+   },
+   "6": {
+    "finite": true,
+    "order": 36,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/36"
+    ]
+   },
+   "7": {
+    "finite": true,
+    "order": 42,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/42"
+    ]
+   },
+   "8": {
+    "finite": true,
+    "order": 48,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/48"
+    ]
+   },
+   "9": {
+    "finite": true,
+    "order": 54,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/54"
+    ]
+   },
+   "10": {
+    "finite": true,
+    "order": 60,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/60"
+    ]
+   },
+   "11": {
+    "finite": true,
+    "order": 66,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/66"
+    ]
+   },
+   "12": {
+    "finite": true,
+    "order": 72,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/72"
+    ]
+   }
+  },
+  "SM generation (15)": {
+   "1": {
+    "finite": true,
+    "order": 6,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/6"
+    ]
+   },
+   "2": {
+    "finite": true,
+    "order": 12,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/12"
+    ]
+   },
+   "3": {
+    "finite": true,
+    "order": 18,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/18"
+    ]
+   },
+   "4": {
+    "finite": true,
+    "order": 24,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/24"
+    ]
+   },
+   "5": {
+    "finite": true,
+    "order": 30,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/30"
+    ]
+   },
+   "6": {
+    "finite": true,
+    "order": 36,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/36"
+    ]
+   },
+   "7": {
+    "finite": true,
+    "order": 42,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/42"
+    ]
+   },
+   "8": {
+    "finite": true,
+    "order": 48,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/48"
+    ]
+   },
+   "9": {
+    "finite": true,
+    "order": 54,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/54"
+    ]
+   },
+   "10": {
+    "finite": true,
+    "order": 60,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/60"
+    ]
+   },
+   "11": {
+    "finite": true,
+    "order": 66,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/66"
+    ]
+   },
+   "12": {
+    "finite": true,
+    "order": 72,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/72"
+    ]
+   }
+  },
+  "adjoint only": {
+   "1": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "2": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "3": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "4": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "5": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "6": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "7": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "8": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "9": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "10": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "11": {
+    "finite": false,
+    "discrete_part": 6
+   },
+   "12": {
+    "finite": false,
+    "discrete_part": 6
+   }
+  },
+  "Q alone": {
+   "1": {
+    "finite": true,
+    "order": 6,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/6"
+    ]
+   },
+   "2": {
+    "finite": true,
+    "order": 12,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/12"
+    ]
+   },
+   "3": {
+    "finite": true,
+    "order": 18,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/18"
+    ]
+   },
+   "4": {
+    "finite": true,
+    "order": 24,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/24"
+    ]
+   },
+   "5": {
+    "finite": true,
+    "order": 30,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/30"
+    ]
+   },
+   "6": {
+    "finite": true,
+    "order": 36,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/36"
+    ]
+   },
+   "7": {
+    "finite": true,
+    "order": 42,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/42"
+    ]
+   },
+   "8": {
+    "finite": true,
+    "order": 48,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/48"
+    ]
+   },
+   "9": {
+    "finite": true,
+    "order": 54,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/54"
+    ]
+   },
+   "10": {
+    "finite": true,
+    "order": 60,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/60"
+    ]
+   },
+   "11": {
+    "finite": true,
+    "order": 66,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/66"
+    ]
+   },
+   "12": {
+    "finite": true,
+    "order": 72,
+    "cyclic": true,
+    "generator": [
+     "1",
+     "1",
+     "1/72"
+    ]
+   }
+  },
+  "e^c alone": {
+   "1": {
+    "finite": true,
+    "order": 36,
+    "cyclic": false,
+    "generator": null
+   },
+   "2": {
+    "finite": true,
+    "order": 72,
+    "cyclic": false,
+    "generator": null
+   },
+   "3": {
+    "finite": true,
+    "order": 108,
+    "cyclic": false,
+    "generator": null
+   },
+   "4": {
+    "finite": true,
+    "order": 144,
+    "cyclic": false,
+    "generator": null
+   },
+   "5": {
+    "finite": true,
+    "order": 180,
+    "cyclic": false,
+    "generator": null
+   },
+   "6": {
+    "finite": true,
+    "order": 216,
+    "cyclic": false,
+    "generator": null
+   },
+   "7": {
+    "finite": true,
+    "order": 252,
+    "cyclic": false,
+    "generator": null
+   },
+   "8": {
+    "finite": true,
+    "order": 288,
+    "cyclic": false,
+    "generator": null
+   },
+   "9": {
+    "finite": true,
+    "order": 324,
+    "cyclic": false,
+    "generator": null
+   },
+   "10": {
+    "finite": true,
+    "order": 360,
+    "cyclic": false,
+    "generator": null
+   },
+   "11": {
+    "finite": true,
+    "order": 396,
+    "cyclic": false,
+    "generator": null
+   },
+   "12": {
+    "finite": true,
+    "order": 432,
+    "cyclic": false,
+    "generator": null
+   }
+  }
+ },
+ "K_summary": {
+  "27": [
+   [
+    1,
+    6,
+    true
+   ],
+   [
+    2,
+    12,
+    true
+   ],
+   [
+    3,
+    18,
+    true
+   ],
+   [
+    4,
+    24,
+    true
+   ],
+   [
+    5,
+    30,
+    true
+   ],
+   [
+    6,
+    36,
+    true
+   ],
+   [
+    7,
+    42,
+    true
+   ],
+   [
+    8,
+    48,
+    true
+   ],
+   [
+    9,
+    54,
+    true
+   ],
+   [
+    10,
+    60,
+    true
+   ],
+   [
+    11,
+    66,
+    true
+   ],
+   [
+    12,
+    72,
+    true
+   ]
+  ],
+  "16": [
+   [
+    1,
+    6,
+    true
+   ],
+   [
+    2,
+    12,
+    true
+   ],
+   [
+    3,
+    18,
+    true
+   ],
+   [
+    4,
+    24,
+    true
+   ],
+   [
+    5,
+    30,
+    true
+   ],
+   [
+    6,
+    36,
+    true
+   ],
+   [
+    7,
+    42,
+    true
+   ],
+   [
+    8,
+    48,
+    true
+   ],
+   [
+    9,
+    54,
+    true
+   ],
+   [
+    10,
+    60,
+    true
+   ],
+   [
+    11,
+    66,
+    true
+   ],
+   [
+    12,
+    72,
+    true
+   ]
+  ],
+  "10": [
+   [
+    1,
+    6,
+    true
+   ],
+   [
+    2,
+    12,
+    true
+   ],
+   [
+    3,
+    18,
+    true
+   ],
+   [
+    4,
+    24,
+    true
+   ],
+   [
+    5,
+    30,
+    true
+   ],
+   [
+    6,
+    36,
+    true
+   ],
+   [
+    7,
+    42,
+    true
+   ],
+   [
+    8,
+    48,
+    true
+   ],
+   [
+    9,
+    54,
+    true
+   ],
+   [
+    10,
+    60,
+    true
+   ],
+   [
+    11,
+    66,
+    true
+   ],
+   [
+    12,
+    72,
+    true
+   ]
+  ],
+  "SM generation (15)": [
+   [
+    1,
+    6,
+    true
+   ],
+   [
+    2,
+    12,
+    true
+   ],
+   [
+    3,
+    18,
+    true
+   ],
+   [
+    4,
+    24,
+    true
+   ],
+   [
+    5,
+    30,
+    true
+   ],
+   [
+    6,
+    36,
+    true
+   ],
+   [
+    7,
+    42,
+    true
+   ],
+   [
+    8,
+    48,
+    true
+   ],
+   [
+    9,
+    54,
+    true
+   ],
+   [
+    10,
+    60,
+    true
+   ],
+   [
+    11,
+    66,
+    true
+   ],
+   [
+    12,
+    72,
+    true
+   ]
+  ],
+  "adjoint only": [
+   [
+    1,
+    "infinite"
+   ],
+   [
+    2,
+    "infinite"
+   ],
+   [
+    3,
+    "infinite"
+   ],
+   [
+    4,
+    "infinite"
+   ],
+   [
+    5,
+    "infinite"
+   ],
+   [
+    6,
+    "infinite"
+   ],
+   [
+    7,
+    "infinite"
+   ],
+   [
+    8,
+    "infinite"
+   ],
+   [
+    9,
+    "infinite"
+   ],
+   [
+    10,
+    "infinite"
+   ],
+   [
+    11,
+    "infinite"
+   ],
+   [
+    12,
+    "infinite"
+   ]
+  ],
+  "Q alone": [
+   [
+    1,
+    6,
+    true
+   ],
+   [
+    2,
+    12,
+    true
+   ],
+   [
+    3,
+    18,
+    true
+   ],
+   [
+    4,
+    24,
+    true
+   ],
+   [
+    5,
+    30,
+    true
+   ],
+   [
+    6,
+    36,
+    true
+   ],
+   [
+    7,
+    42,
+    true
+   ],
+   [
+    8,
+    48,
+    true
+   ],
+   [
+    9,
+    54,
+    true
+   ],
+   [
+    10,
+    60,
+    true
+   ],
+   [
+    11,
+    66,
+    true
+   ],
+   [
+    12,
+    72,
+    true
+   ]
+  ],
+  "e^c alone": [
+   [
+    1,
+    36,
+    false
+   ],
+   [
+    2,
+    72,
+    false
+   ],
+   [
+    3,
+    108,
+    false
+   ],
+   [
+    4,
+    144,
+    false
+   ],
+   [
+    5,
+    180,
+    false
+   ],
+   [
+    6,
+    216,
+    false
+   ],
+   [
+    7,
+    252,
+    false
+   ],
+   [
+    8,
+    288,
+    false
+   ],
+   [
+    9,
+    324,
+    false
+   ],
+   [
+    10,
+    360,
+    false
+   ],
+   [
+    11,
+    396,
+    false
+   ],
+   [
+    12,
+    432,
+    false
+   ]
+  ]
+ },
+ "K_is_cyclic_6k": {
+  "27": true,
+  "16": true,
+  "10": true,
+  "SM generation (15)": true,
+  "adjoint only": false,
+  "Q alone": true,
+  "e^c alone": false
+ },
+ "Q": {
+  "K_1_order": 6,
+  "subgroups_of_cyclic_K1": [
+   1,
+   2,
+   3,
+   6
+  ],
+  "descends_to_all": true,
+  "faithful_only_for": 6
+ },
+ "E": {
+  "det_Cartan": "3",
+  "n_weights_27": 27,
+  "n_roots": 72,
+  "norm_27": [
+   "4/3"
+  ],
+  "pair_types_from_one_weight": {
+   "1/3": 16,
+   "-2/3": 10
+  },
+  "snf_by_type_from_one_weight": {
+   "1/3": [
+    [
+     1,
+     1
+    ]
+   ],
+   "-2/3": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "snf_all_pairs_by_type": {
+   "1/3": [
+    [
+     1,
+     1
+    ]
+   ],
+   "-2/3": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "pair_used": {
+   "S": [
+    -1,
+    -1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "nu^c": [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "roots_orthogonal_to_pair": 20,
+  "orth_root_components": [
+   20
+  ],
+  "A4_simple_chain_found": true,
+  "SM_roots_after_Y": 8,
+  "SM_root_components": [
+   2,
+   6
+  ],
+  "sixY_multiset": {
+   "-4": 3,
+   "-3": 4,
+   "-2": 3,
+   "0": 2,
+   "1": 6,
+   "2": 6,
+   "3": 2,
+   "6": 1
+  },
+  "sixY_matches_SM_27": true,
+  "pair_has_Y_zero": [
+   0,
+   0
+  ],
+  "Y_coweight_in_simple_coroots": [
+   "3",
+   "1",
+   "4",
+   "6",
+   "2",
+   "3"
+  ],
+  "Y_coweight_integral_primitive": true,
+  "Y_circle_meets_SU3xSU2_at_t": [
+   "1/6",
+   "1/3",
+   "1/2",
+   "2/3",
+   "5/6",
+   "1"
+  ],
+  "fundamental_weights_in_root_lattice": [
+   false,
+   true,
+   false,
+   true,
+   false,
+   false
+  ],
+  "27_weights_root_lattice_classes": [
+   [
+    "1/3",
+    "0",
+    "2/3",
+    "0",
+    "1/3",
+    "2/3"
+   ]
+  ]
+ },
+ "C": {
+  "C5a_adjoint_cyclic_6k": false,
+  "C5b_snf_(S,2nu)": [
+   1,
+   2
+  ],
+  "C5b_check_snf_11": false,
+  "C5c_wrong_charge_Y_in_sixths_k1_e^c": null,
+  "caught": {
+   "C5a": true,
+   "C5b": true
+  }
+ }
+}

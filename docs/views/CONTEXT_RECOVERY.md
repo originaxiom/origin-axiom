@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1634 |
-| … PROVED | 1136 |
+| arcs with a verdict file | 1636 |
+| … PROVED | 1138 |
 | … NEGATIVE | 384 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
-| register points | 850 |
-| … “QUEUED” | 306 |
+| register points | 853 |
+| … “QUEUED” | 309 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 528 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1815 |
+| harvest rows (the last number) | 1818 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
+| B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
 | B1937 | OPEN | “THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; ve…” |
 | B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
 | B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
@@ -41,8 +43,6 @@
 | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
 | B1929 | PROVED | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p…” |
 | B1928 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (PROVED…” |
-| B1927 | PROVED | “THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi…” |
-| B1926 | PROVED | “AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, afternoon: THE BIG RUN'S RULE AMENDED BEFORE THE LOOK; THE FIRST SECOND COMPUTATION OF ITS VALUES AGREES (B1937, OPEN; P-850).** A cold read of version 1 found ten lines to fix; version 2 governs on frame C's seven claimed rows by chi2_7 and B1720's coarse cell, both calibrated, reports P-341's six and nine with frame C's own lepton rows (the down rows, B1934; not claimed), writes priors, lists every passing option, and waits until every option has an agreeing second computation. The move-count options are recomputed independently (worst 0.34 of the tolerance); the area options' second computation is owed. No value compared. 0 of 19.”
+“LATEST (2026-11-14, S306p, late evening: THE SWEEP OF EVERY RAISED POINT (P-851); FIVE AGY CLAIMS RECOMPUTED (B1939); THE RUN'S RULE AMENDED AGAIN, AND A PRECISION DEFECT FOUND IN THE AREA OPTIONS (P-853).** Of 553 points raised since 2026-11-06, 166 that no row fully owns are listed in docs/THE_SWEEP_OF_2026-11-14.md; the 21 that bear on the run are met in the rule's amendments A1 to A12 or made its conditions, the rest go to the building session row by row (card C22). B1939: non-central flat SU(5) lines need both the centre phases and charge conjugation and live only at level 25, so the order-10 lepton read-out is on a 3- or 6-fold cover; the order-5 torsion dichotomy is generic; the glob…”
 
 ## Completeness (nothing skipped silently)
 

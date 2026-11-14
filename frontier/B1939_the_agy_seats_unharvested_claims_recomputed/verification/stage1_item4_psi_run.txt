@@ -1,0 +1,22 @@
+Psi(L^m R^m), m = 1..8: ['0', '0', '0', '0', '0', '0', '0', '0']
+Psi(L^k R L R), k = 1..8: ['0', '1', '2', '3', '4', '5', '6', '7']
+Phi(L^k R L R), k = 1..8: ['3', '4', '5', '6', '7', '8', '9', '10']
+PASS E4.1 Psi(L^m R^m) = 0 for m = 1..8
+PASS E4.1 Psi(L^k R L R) = k - 1 for k = 1..8
+PASS E4.1 Psi = #L - #R on all 2026 positive words with both letters, length <= 10  mismatches 0
+PASS E4.3 Psi(B A B^-1) = Psi(A) on 200 random conjugates of L^k R L R  mismatches 0
+  (Phi itself changes under conjugation in 0 of 15 cases)
+PASS E4.4 Psi(J A J) = -Psi(A) (J the orientation-reversing swap)
+PASS E4.4 J L^m R^m J = R^m L^m, a cyclic rotation (conjugate) of L^m R^m: amphichiral, so Psi = 0 is forced
+PASS E4.2 Phi from log eta equals the exact Dedekind-sum Phi at a generic point (worst 4.2e-29)
+PASS E4.2 the same on each act's own geodesic (worst 1.4e-29)
+Meyer eps = +1: phi(L) = -2/3, phi(R) = 2/3; relations hold: True; class function: True; phi(L^k R L R), k = 1..8: ['0', '1/3', '2/3', '1', '4/3', '5/3', '2', '7/3']; phi(L^m R^m): ['0', '0', '0', '0', '0', '0', '0', '0']; phi/Psi = ['1/3']
+Meyer eps = -1: phi(L) = 2/3, phi(R) = -2/3; relations hold: True; class function: True; phi(L^k R L R), k = 1..8: ['0', '-1/3', '-2/3', '-1', '-4/3', '-5/3', '-2', '-7/3']; phi(L^m R^m): ['0', '0', '0', '0', '0', '0', '0', '0']; phi/Psi = ['-1/3']
+PASS E4.5 Meyer's form is symmetric on every V_{A,B} met  asymmetric forms met: 0
+PASS E4.5 Meyer's phi is consistent: words equal to I give 0, two words for -R agree, phi is a class function (both eps)
+PASS E4.5 phi = -Psi/3 on L^k R L R and L^m R^m for exactly one eps  eps with phi = -Psi/3: [-1]
+PASS record convention: every act of B1929's population is its named word with L = [[1,1],[0,1]], R = [[1,0],[1,1]]
+PASS E4.6 the record's Bohn eta(T^2_M) = Psi(M)/3 on all 16 acts of B1929's population  {"+LLLR 3": ["2", "2"], "+LLR 3": ["1", "1"], "+LLRLR 2": ["2/3", "2/3"], "+LR 2": ["0", "0"], "+LR 3": ["0", "0"], "+LR 4": ["0", "0"], "+LR 5": ["0", "0"], "-LLLRLR 1": ["2/3", "2/3"], "-LLR 2": ["2/3", "2/3"], "-LLR 3": ["1", "1"], "-LLRLR 1": ["1/3", "1/3"], "-LLRR 1": ["0", "0"], "-LR 1": ["0", "0"], "-LR 2": ["0", "0"], "-LR 3": ["0", "0"], "-LR 4": ["0", "0"]}
+PASS E4.6 my Psi from the word names reproduces B1737's recorded -Psi/12 and its independent Shintani zeta(0) on all 16 levels  mismatches: []
+RESULT {"meyer": {"1": {"phi_L": "-2/3", "phi_R": "2/3", "relations_hold": true, "class_function": true, "phi(L^k R L R)": {"1": "0", "2": "1/3", "3": "2/3", "4": "1", "5": "4/3", "6": "5/3", "7": "2", "8": "7/3"}, "phi(L^m R^m)": {"1": "0", "2": "0", "3": "0", "4": "0", "5": "0", "6": "0", "7": "0", "8": "0"}, "phi / Psi on L^k R L R (k >= 2)": ["1/3"], "phi = -Psi/3 on all": false}, "-1": {"phi_L": "2/3", "phi_R": "-2/3", "relations_hold": true, "class_function": true, "phi(L^k R L R)": {"1": "0", "2": "-1/3", "3": "-2/3", "4": "-1", "5": "-4/3", "6": "-5/3", "7": "-2", "8": "-7/3"}, "phi(L^m R^m)": {"1": "0", "2": "0", "3": "0", "4": "0", "5": "0", "6": "0", "7": "0", "8": "0"}, "phi / Psi on L^k R L R (k >= 2)": ["-1/3"], "phi = -Psi/3 on all": true}}, "values": {"LmRm": {"1": {"M": [[2, 1], [1, 1]], "Phi": "3", "Psi": "0"}, "2": {"M": [[5, 2], [2, 1]], "Phi": "3", "Psi": "0"}, "3": {"M": [[10, 3], [3, 1]], "Phi": "3", "Psi": "0"}, "4": {"M": [[17, 4], [4, 1]], "Phi": "3", "Psi": "0"}, "5": {"M": [[26, 5], [5, 1]], "Phi": "3", "Psi": "0"}, "6": {"M": [[37, 6], [6, 1]], "Phi": "3", "Psi": "0"}, "7": {"M": [[50, 7], [7, 1]], "Phi": "3", "Psi": "0"}, "8": {"M": [[65, 8], [8, 1]], "Phi": "3", "Psi": "0"}}, "LkRLR": {"1": {"M": [[5, 3], [3, 2]], "Phi": "3", "Psi": "0"}, "2": {"M": [[8, 5], [3, 2]], "Phi": "4", "Psi": "1"}, "3": {"M": [[11, 7], [3, 2]], "Phi": "5", "Psi": "2"}, "4": {"M": [[14, 9], [3, 2]], "Phi": "6", "Psi": "3"}, "5": {"M": [[17, 11], [3, 2]], "Phi": "7", "Psi": "4"}, "6": {"M": [[20, 13], [3, 2]], "Phi": "8", "Psi": "5"}, "7": {"M": [[23, 15], [3, 2]], "Phi": "9", "Psi": "6"}, "8": {"M": [[26, 17], [3, 2]], "Phi": "10", "Psi": "7"}}}, "bohn": {"+LLLR 3": ["2", "2"], "+LLR 3": ["1", "1"], "+LLRLR 2": ["2/3", "2/3"], "+LR 2": ["0", "0"], "+LR 3": ["0", "0"], "+LR 4": ["0", "0"], "+LR 5": ["0", "0"], "-LLLRLR 1": ["2/3", "2/3"], "-LLR 2": ["2/3", "2/3"], "-LLR 3": ["1", "1"], "-LLRLR 1": ["1/3", "1/3"], "-LLRR 1": ["0", "0"], "-LR 1": ["0", "0"], "-LR 2": ["0", "0"], "-LR 3": ["0", "0"], "-LR 4": ["0", "0"]}}
+FAILED CHECKS: none

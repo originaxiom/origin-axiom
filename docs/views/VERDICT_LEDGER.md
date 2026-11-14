@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1634 of 1634 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1636 of 1636 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1136)
+## PROVED (1138)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1148,6 +1148,8 @@
 | `B1933` | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double cover's matter seen from below, a stated choice whether they count), F-HE and F-AP not computed and offered to the SM seat; the list 'Computed nowhere yet' narrows its m000 entry to those two frames and marks the harmonic frame's counts outside m004's levels as computed once (agy-exp's X-NEVER, harvest row 1797), its second computation owed. Written by the version's own script; its lock takes the version back and gives the page again. 0 of 19.” |  | 0 |
 | `B1934` | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split invariantly as an even icosahedral triplet (real, golden traces, in SO(3)) and the odd spinor doublet (in SU(2)), determinant 1 on each; the hand (-1)^(n+e) of +-J^n K^e is the Legendre symbol mod 5 of its eigenvalue at the mark, the quadratic character of Q(sqrt 5), on all 32 elements; with the frame's charges the lepton pair is the down pair transposed modulo N exactly when N divides 5 (hypercharge mod 5 is SU(5)'s centre), so the leptons separate only through a line or level with another prime (consolidating B1728, P-355, P-384). No value computed. 0 of 19.” |  | 0 |
 | `B1935` | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO 7: T fixes channels 1 and i and swaps j and k, S fixes 1 and k and swaps i and j (27 cases, common factor to 3e-15); the centre -I leaves every reading's outputs unchanged (3e-14) and exchanges no reading; T's eigenphases on the Higgs triplet are 1/8, 3/8, 7/8, so frame C uses no level-5 icosahedral triplet; with the frame's charges, up and down coincide at 2, 3, 6, up and leptons (negated and transposed) at 7, down and leptons (transposed) at 5, and no two sectors at any order above 7. No value computed. 0 of 19.” |  | 0 |
+| `B1938` | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by main): each channel's bilinear is R_s times Kronecker's function at z_s = (q_L+q_R) w - h_s, the Higgs's hypercharge line shifted by the channel's spin structure (6.7e-18 at 20 digits; 6.2e-15 on a second route); |R_s| is the root of two zeta-regularised twisted Laplacian determinants over 2 pi |eta| (1.1e-14); Parseval derives B1919's constant without F_u (1.6e-12); the read-out on U(1)-class, Pin(2)-class and other words agrees within sampling error (max |z| 1.8; a 1 % control caught at |z| 6.4). No joint changes type; C07 and C08 stay chosen. 0 of 19.” |  | 0 |
+| `B1939` | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (384)
 

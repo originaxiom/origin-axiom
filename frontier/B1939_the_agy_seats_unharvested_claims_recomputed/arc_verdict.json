@@ -1,0 +1,35 @@
+{
+ "id": "B1939",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1894",
+  "B1796",
+  "B1866",
+  "B1929",
+  "B1737",
+  "B862",
+  "B1221",
+  "B1935"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-C2 (de08a2b14) and its loop's phase 4 (568b12364), read through the mask",
+  "agy-002's blind derivations (d003e482b, 7c151b522) and its second derivation of WP-1.2 (aca3f11c5), read through the mask",
+  "the agy lane's stage-1 audit (agy/stage4-sync-2026-11-11), read through the mask",
+  "the web seat's THE TWO W's (harvest row 1464)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the figure-eight mapping torus and its sister; the frame's charges; the level-5 and level-2 structures of the record",
+  "object": "five claims: flat SU(5) lines, the order-5 torsion, the chiral three's unit and the global form, WP-1.2 at p = 2, the stabiliser signs and Psi",
+  "reach": "class",
+  "hypotheses": "exact arithmetic; the census of 285 bundles of length 2 to 12; levels to 60 for the line counts; agy claims read through the mask, no agy code run"
+ },
+ "claim_one_line": "FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 halves extend only on a 3- or 6-fold cover (the scope condition for the lepton read-out at order 10); the order-5 torsion dichotomy holds on the sister bundles and is generic (acyclic exactly when the cusp holonomy is non-trivial), so it selects nothing; the chiral three's record stands and the seat's 'only if uniform' fails; WP-1.2's five objections hold; the stabiliser's sign is a normalisation choice. Found on main's pages: the global form graded DERIVED without its premise, and two convention slips. 0 of 19.",
+ "weave_or_thread": "neither (structure of the object and its frames)"
+}

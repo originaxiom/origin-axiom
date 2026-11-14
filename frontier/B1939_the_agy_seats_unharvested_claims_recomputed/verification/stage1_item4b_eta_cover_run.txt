@@ -1,0 +1,17 @@
+["+LLLR", 3]       M=((91, 72), (24, 19)) |C|=108 fixed by M^T: True  M'=((91, 24), (72, 19))  Psi(M)=6 Psi(M')=-6  Psi(M)/3 + sum eta_A = -2.000000000000  vs Psi(M')/3 = -2.000000000000  ok
+["+LLR", 3]        M=((41, 30), (15, 11)) |C|=50 fixed by M^T: True  M'=((41, 15), (30, 11))  Psi(M)=3 Psi(M')=-3  Psi(M)/3 + sum eta_A = -1.000000000000  vs Psi(M')/3 = -1.000000000000  ok
+["+LLRLR", 2]      M=((79, 50), (30, 19)) |C|=96 fixed by M^T: True  M'=((529, 1200), (-190, -431))  Psi(M)=2 Psi(M')=-2  Psi(M)/3 + sum eta_A = -0.666666666667  vs Psi(M')/3 = -0.666666666667  ok
+["+LR", 2]         M=((5, 3), (3, 2)) |C|=5 fixed by M^T: True  M'=((11, 15), (-3, -4))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["+LR", 3]         M=((13, 8), (8, 5)) |C|=16 fixed by M^T: True  M'=((13, 8), (8, 5))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = 0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["+LR", 4]         M=((34, 21), (21, 13)) |C|=45 fixed by M^T: True  M'=((76, 105), (-21, -29))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["+LR", 5]         M=((89, 55), (55, 34)) |C|=121 fixed by M^T: True  M'=((89, 55), (55, 34))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = 0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["-LLLRLR", 1]     M=((-11, -7), (-3, -2)) |C|=15 fixed by M^T: True  M'=((-74, -105), (43, 61))  Psi(M)=2 Psi(M')=2  Psi(M)/3 + sum eta_A = 0.666666666667  vs Psi(M')/3 = 0.666666666667  ok
+["-LLR", 2]        M=((11, 8), (4, 3)) |C|=12 fixed by M^T: True  M'=((19, 24), (-4, -5))  Psi(M)=2 Psi(M')=-2  Psi(M)/3 + sum eta_A = -0.666666666667  vs Psi(M')/3 = -0.666666666667  ok
+["-LLR", 3]        M=((-41, -30), (-15, -11)) |C|=54 fixed by M^T: True  M'=((-71, -45), (30, 19))  Psi(M)=3 Psi(M')=3  Psi(M)/3 + sum eta_A = 1.000000000000  vs Psi(M')/3 = 1.000000000000  ok
+["-LLRLR", 1]      M=((-8, -5), (-3, -2)) |C|=12 fixed by M^T: True  M'=((-23, -60), (5, 13))  Psi(M)=1 Psi(M')=1  Psi(M)/3 + sum eta_A = 0.333333333333  vs Psi(M')/3 = 0.333333333333  ok
+["-LLRR", 1]       M=((-5, -2), (-2, -1)) |C|=8 fixed by M^T: True  M'=((-7, -4), (2, 1))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = 0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["-LR", 1]         M=((-2, -1), (-1, -1)) |C|=5 fixed by M^T: True  M'=((-4, -5), (1, 1))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["-LR", 2]         M=((5, 3), (3, 2)) |C|=5 fixed by M^T: True  M'=((11, 15), (-3, -4))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["-LR", 3]         M=((-13, -8), (-8, -5)) |C|=20 fixed by M^T: True  M'=((-29, -40), (8, 11))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+["-LR", 4]         M=((34, 21), (21, 13)) |C|=45 fixed by M^T: True  M'=((76, 105), (-21, -29))  Psi(M)=0 Psi(M')=0  Psi(M)/3 + sum eta_A = -0.000000000000  vs Psi(M')/3 = 0.000000000000  ok
+PASS sum over C of B1929's eta_A (trivial = Psi(M)/3) = Psi(M')/3 on all 16 levels (worst 2.2e-14)

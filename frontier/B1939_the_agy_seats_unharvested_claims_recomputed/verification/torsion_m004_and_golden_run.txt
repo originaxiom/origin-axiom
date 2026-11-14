@@ -1,0 +1,123 @@
+PASS zeta^5 = 1
+PASS 1+z+z2+z3+z4 = 0
+PASS |1-zeta|^2 = (5-sqrt5)/2
+PASS |1-zeta^2|^2 = (5+sqrt5)/2
+PASS norm(1-zeta) = 5 = Phi_5(1)
+PASS numeric 2sin(pi/5)^2
+PASS L fixes [a,b] exactly
+PASS R fixes [a,b] exactly
+PASS iota_fix fixes [a,b] exactly
+PASS iota_naive does NOT fix [a,b] exactly (only up to conjugacy)
+PASS abel(phi_LR,1) = eps*W_col
+PASS phi_LR,1 fixes [a,b]
+PASS abel(phi_LR,-1) = eps*W_col
+PASS phi_LR,-1 fixes [a,b]
+PASS abel(phi_LLR,1) = eps*W_col
+PASS phi_LLR,1 fixes [a,b]
+PASS abel(phi_LLR,-1) = eps*W_col
+PASS phi_LLR,-1 fixes [a,b]
+PASS abel(phi_LRR,1) = eps*W_col
+PASS phi_LRR,1 fixes [a,b]
+PASS abel(phi_LRR,-1) = eps*W_col
+PASS phi_LRR,-1 fixes [a,b]
+PASS abel(phi_LLLLLRLLRR,1) = eps*W_col
+PASS phi_LLLLLRLLRR,1 fixes [a,b]
+PASS abel(phi_LLLLLRLLRR,-1) = eps*W_col
+PASS phi_LLLLLRLLRR,-1 fixes [a,b]
+PASS abel(phi_LLLLLRLLRRLR,1) = eps*W_col
+PASS phi_LLLLLRLLRRLR,1 fixes [a,b]
+PASS abel(phi_LLLLLRLLRRLR,-1) = eps*W_col
+PASS phi_LLLLLRLLRRLR,-1 fixes [a,b]
+
+=== R1: m004 (monodromy +LR), characters of pi_1 through H_1 = Z
+PASS m004: exactly 5 characters to mu_5 (H_1 = Z)
+PASS m004: all characters fibre-trivial
+PASS m004 k=0: d1 o d2 = 0
+  k=0: trivial character, homology dims (H0,H1,H2) = (1, 1, 0)  -> not acyclic
+PASS m004 k=0 not acyclic (H0 = 1)
+PASS m004 k=1: d1 o d2 = 0
+  k=1: H = (0, 0, 0); Wada tau = ['-6/5', '8/5', '2/5', '1/5']; |tau|^2 = 5 + (-2/5)*sqrt5 ~ 2.026221312937; tau / (Delta(z)/(z-1)) = (1, 0)
+PASS m004 k=1 acyclic
+PASS m004 k=1: Wada = Milnor Delta(zeta^k)/(zeta^k-1) up to +-zeta^m
+      claimed |tau|^2 = (2 sin(pi k/5))^2 = 5/2 + (-1/2)*sqrt5;  equal? False
+PASS m004 k=2: d1 o d2 = 0
+  k=2: H = (0, 0, 0); Wada tau = ['-8/5', '-1/5', '6/5', '-2/5']; |tau|^2 = 5 + (2/5)*sqrt5 ~ 2.427844144709; tau / (Delta(z)/(z-1)) = (1, 0)
+PASS m004 k=2 acyclic
+PASS m004 k=2: Wada = Milnor Delta(zeta^k)/(zeta^k-1) up to +-zeta^m
+      claimed |tau|^2 = (2 sin(pi k/5))^2 = 5/2 + (1/2)*sqrt5;  equal? False
+PASS m004 k=3: d1 o d2 = 0
+  k=3: H = (0, 0, 0); Wada tau = ['-7/5', '1/5', '-1/5', '7/5']; |tau|^2 = 5 + (2/5)*sqrt5 ~ 2.427844144709; tau / (Delta(z)/(z-1)) = (1, 0)
+PASS m004 k=3 acyclic
+PASS m004 k=3: Wada = Milnor Delta(zeta^k)/(zeta^k-1) up to +-zeta^m
+      claimed |tau|^2 = (2 sin(pi k/5))^2 = 5/2 + (1/2)*sqrt5;  equal? False
+PASS m004 k=4: d1 o d2 = 0
+  k=4: H = (0, 0, 0); Wada tau = ['-14/5', '-8/5', '-7/5', '-6/5']; |tau|^2 = 5 + (-2/5)*sqrt5 ~ 2.026221312937; tau / (Delta(z)/(z-1)) = (1, 0)
+PASS m004 k=4 acyclic
+PASS m004 k=4: Wada = Milnor Delta(zeta^k)/(zeta^k-1) up to +-zeta^m
+      claimed |tau|^2 = (2 sin(pi k/5))^2 = 5/2 + (-1/2)*sqrt5;  equal? False
+  product over k=1..4 of |tau_k|^2 = 14641/25 + (0)*sqrt5  (so product of |tau_k| = sqrt of it)
+PASS R1 product of |tau|^2 = (121/5)^2
+PASS R1 |tau_1|^2 = 5 - 2 sqrt5/5
+PASS R1 |tau_2|^2 = 5 + 2 sqrt5/5
+PLANT P5 (the claimed moduli 2 sin(pi k/5) applied to m004 base characters) holds? False -> CAUGHT (claim fails on m004)
+PLANT P2 (wrong d(g^-1)/dg): Milnor match broken on 0 of 4 characters -> NOT CAUGHT
+
+=== PLANT P1: non-golden monodromy [[3,1],[2,1]] = LRR (trace 4)
+PASS LRR_col = [[3,1],[2,1]]
+  characters to mu_5: 5 (all fibre-trivial: True)
+  k=1: |tau|^2 = 17/2 + (-1/10)*sqrt5; Milnor(trace 4) match: True; equal to LR value? False
+  k=2: |tau|^2 = 17/2 + (1/10)*sqrt5; Milnor(trace 4) match: True; equal to LR value? False
+  k=3: |tau|^2 = 17/2 + (1/10)*sqrt5; Milnor(trace 4) match: True; equal to LR value? False
+  k=4: |tau|^2 = 17/2 + (-1/10)*sqrt5; Milnor(trace 4) match: True; equal to LR value? False
+PLANT P1: trace-4 base torsions differ from LR at all four k -> CAUGHT
+
+=== R2: the mark-preserving bundle of the golden word LR
+  LR_col^T v5 = (4, 3) mod 5  -> eps = -1  (lane: b+-LR glued by -LR)
+PASS golden word LR has eps = -1
+PASS t commutes with [a,b] (longitude = t)
+  characters to mu_5: 25 (H^1(M;F_5) dim = 2)
+  fibre values of fibre-nontrivial characters (a,b) mod 5: [(1, 2), (2, 4), (3, 1), (4, 3)]
+  base       rho=(a,b,t)=(0,0,1) H=(0, 0, 0) acyclic=True |tau|^2=5 + (2)*sqrt5 ~3.0776835372
+  base       rho=(a,b,t)=(0,0,2) H=(0, 0, 0) acyclic=True |tau|^2=5 + (-2)*sqrt5 ~0.7265425280
+  base       rho=(a,b,t)=(0,0,3) H=(0, 0, 0) acyclic=True |tau|^2=5 + (-2)*sqrt5 ~0.7265425280
+  base       rho=(a,b,t)=(0,0,4) H=(0, 0, 0) acyclic=True |tau|^2=5 + (2)*sqrt5 ~3.0776835372
+  fibre(k=0) rho=(a,b,t)=(1,2,0) H=(0, 1, 1) acyclic=False |tau|^2=0 (Wada numerator vanishes) tau/(rho(l)-1)=None
+  mixed      rho=(a,b,t)=(1,2,1) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(1,2,2) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(1,2,3) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(1,2,4) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  fibre(k=0) rho=(a,b,t)=(2,4,0) H=(0, 1, 1) acyclic=False |tau|^2=0 (Wada numerator vanishes) tau/(rho(l)-1)=None
+  mixed      rho=(a,b,t)=(2,4,1) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(2,4,2) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(2,4,3) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(2,4,4) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  fibre(k=0) rho=(a,b,t)=(3,1,0) H=(0, 1, 1) acyclic=False |tau|^2=0 (Wada numerator vanishes) tau/(rho(l)-1)=None
+  mixed      rho=(a,b,t)=(3,1,1) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(3,1,2) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(3,1,3) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(3,1,4) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  fibre(k=0) rho=(a,b,t)=(4,3,0) H=(0, 1, 1) acyclic=False |tau|^2=0 (Wada numerator vanishes) tau/(rho(l)-1)=None
+  mixed      rho=(a,b,t)=(4,3,1) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(4,3,2) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(4,3,3) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+  mixed      rho=(a,b,t)=(4,3,4) H=(0, 0, 0) acyclic=True |tau|^2=5/2 + (-1/2)*sqrt5 tau/(rho(l)-1)=(1, 0)
+PASS R2 b+-LR: fibre line (k=0) non-acyclic, H=(0,1,1), Wada numerator 0
+PASS R2 b+-LR: every mixed character acyclic with tau = +-zeta^m (rho(l)-1)
+  mixed line (1, 2, 1): 4 charges, product |tau|^2 = 25 + (0)*sqrt5
+PASS mixed line (1, 2, 1): product of |tau| = 5
+  mixed line (1, 2, 2): 4 charges, product |tau|^2 = 25 + (0)*sqrt5
+PASS mixed line (1, 2, 2): product of |tau| = 5
+  mixed line (1, 2, 3): 4 charges, product |tau|^2 = 25 + (0)*sqrt5
+PASS mixed line (1, 2, 3): product of |tau| = 5
+  mixed line (1, 2, 4): 4 charges, product |tau|^2 = 25 + (0)*sqrt5
+PASS mixed line (1, 2, 4): product of |tau| = 5
+  base line [beta]: product |tau|^2 = 25 + (0)*sqrt5 (E3 predicts ((t^2+t-1)^2/5)^2 with t=-3: 25)
+PASS base line product of |tau| = 5 at t=-3 (coincidence)
+  base line individual moduli equal 2 sin(pi k/5)? False
+
+=== PLANT P3: -I as a->a^-1, b->b^-1 (t is not the longitude), k read from rho(t)
+  fibre-nontrivial characters violating "non-acyclic iff rho(t)=1": 8; all obey "non-acyclic iff rho(ba t)=1" (true longitude) -> CAUGHT
+PLANT P4: (a,b,t)=(1,1,0) on b+-LR is not a homomorphism -> CAUGHT
+
+SUMMARY: fails = []
+PLANTS: P1 caught, P2 MISSED, P3 caught, P4 caught, P5 caught

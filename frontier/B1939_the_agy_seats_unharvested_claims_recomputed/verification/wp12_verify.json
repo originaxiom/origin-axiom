@@ -1,0 +1,665 @@
+{
+ "B": {
+  "n_reduced_words_le_8": 13121,
+  "n_classes_len_le_8": 1387,
+  "kept_classes_including_empty": [
+   "1",
+   "BAba",
+   "BabA",
+   "BAbaBAba",
+   "BabABabA"
+  ],
+  "kept_classes_nonempty": [
+   "BAba",
+   "BabA",
+   "BAbaBAba",
+   "BabABabA"
+  ],
+  "R2_iterates_of_[a,b]_word_lengths": [
+   4,
+   6,
+   8,
+   10,
+   12
+  ],
+  "kept_under_R1_R2_only": 87
+ },
+ "C": {
+  "sanov_[[a,b],a]": [
+   [
+    -335,
+    1552
+   ],
+   [
+    -128,
+    593
+   ]
+  ],
+  "sanov_trivial_by_length_le_8": {
+   "0": 1
+  },
+  "LR_plant_trivial_by_length_le_8": {
+   "0": 1,
+   "6": 12,
+   "8": 56
+  }
+ },
+ "5": {
+  "H3_trivial_by_length_le_10": {
+   "0": 1,
+   "8": 64,
+   "10": 288
+  },
+  "H3_trivial_len8_examples": [
+   "BBAbaabA",
+   "BBabAAba",
+   "BABabAba",
+   "BAABabba",
+   "BAbABaba",
+   "BAbaBabA"
+  ],
+  "H3_trivial_len8_n_conjugacy_classes": 8,
+  "quaternion_point_trivial_by_length_le_8": {
+   "0": 1,
+   "4": 36,
+   "6": 216,
+   "8": 2268
+  }
+ },
+ "D": {
+  "census_chi_-1_connected": [
+   [
+    "orientable",
+    0,
+    3
+   ],
+   [
+    "orientable",
+    1,
+    1
+   ],
+   [
+    "non-orientable",
+    1,
+    2
+   ],
+   [
+    "non-orientable",
+    2,
+    1
+   ]
+  ],
+  "boundary_classes_null_in_H1": {
+   "torus, 1 hole (boundary [a,b])": true,
+   "sphere, 3 holes (a, b, (ab)^-1)": false,
+   "projective plane, 2 holes (x^2 d1 d2 = 1; x=a, d1=b, d2=(x^2 d1)^-1)": false,
+   "Klein bottle, 1 hole (x^2 y^2 d = 1)": false
+  },
+  "boundary_classes": {
+   "torus, 1 hole (boundary [a,b])": [
+    [
+     0,
+     0
+    ]
+   ],
+   "sphere, 3 holes (a, b, (ab)^-1)": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     -1,
+     -1
+    ]
+   ],
+   "projective plane, 2 holes (x^2 d1 d2 = 1; x=a, d1=b, d2=(x^2 d1)^-1)": [
+    [
+     0,
+     1
+    ],
+    [
+     -2,
+     -1
+    ]
+   ],
+   "Klein bottle, 1 hole (x^2 y^2 d = 1)": [
+    [
+     -2,
+     -2
+    ]
+   ]
+  },
+  "integral_orbit_sizes_after_8_steps_all_six_moves": {
+   "(1, 0)": 257,
+   "(0, 1)": 257,
+   "(1, 1)": 511,
+   "(2, -1)": 582,
+   "(0, 0)": 1
+  }
+ },
+ "4": {
+  "clock_and_shift_linear": {
+   "R1 a->ab": {
+    "carried": false,
+    "intertwiner": null,
+    "image_a_squared": "[[-1, 0], [0, -1]]",
+    "image_b_squared": "[[1, 0], [0, 1]]"
+   },
+   "R2 a->ba": {
+    "carried": false,
+    "intertwiner": null,
+    "image_a_squared": "[[-1, 0], [0, -1]]",
+    "image_b_squared": "[[1, 0], [0, 1]]"
+   },
+   "R3 b->ba": {
+    "carried": false,
+    "intertwiner": null,
+    "image_a_squared": "[[1, 0], [0, 1]]",
+    "image_b_squared": "[[-1, 0], [0, -1]]"
+   },
+   "R4 b->ab": {
+    "carried": false,
+    "intertwiner": null,
+    "image_a_squared": "[[1, 0], [0, 1]]",
+    "image_b_squared": "[[-1, 0], [0, -1]]"
+   },
+   "S swap (a,b)->(b,a)": {
+    "carried": true,
+    "intertwiner": "[[-1, -1], [-1, 1]]",
+    "image_a_squared": "[[1, 0], [0, 1]]",
+    "image_b_squared": "[[1, 0], [0, 1]]"
+   },
+   "T tick (a,b)->(ab,a)": {
+    "carried": false,
+    "intertwiner": null,
+    "image_a_squared": "[[-1, 0], [0, -1]]",
+    "image_b_squared": "[[1, 0], [0, 1]]"
+   }
+  },
+  "clock_and_shift_projective": {
+   "R1 a->ab": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(I, 1)"
+   },
+   "R2 a->ba": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(I, 1)"
+   },
+   "R3 b->ba": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(1, I)"
+   },
+   "R4 b->ab": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(1, I)"
+   },
+   "S swap (a,b)->(b,a)": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(1, 1)"
+   },
+   "T tick (a,b)->(ab,a)": {
+    "carried": true,
+    "twist_chi(a),chi(b)": "(I, 1)"
+   }
+  },
+  "quaternion_linear": {
+   "R1 a->ab": {
+    "carried": true,
+    "intertwiner": "[[1, -1], [1, 1]]"
+   },
+   "R2 a->ba": {
+    "carried": true,
+    "intertwiner": "[[1, 1], [-1, 1]]"
+   },
+   "R3 b->ba": {
+    "carried": true,
+    "intertwiner": "[[-I, 0], [0, 1]]"
+   },
+   "R4 b->ab": {
+    "carried": true,
+    "intertwiner": "[[I, 0], [0, 1]]"
+   },
+   "S swap (a,b)->(b,a)": {
+    "carried": true,
+    "intertwiner": "[[-1, I], [-I, 1]]"
+   },
+   "T tick (a,b)->(ab,a)": {
+    "carried": true,
+    "intertwiner": "[[-I, -1], [-I, 1]]"
+   }
+  },
+  "sign_reps_move_table": {
+   "(1, 1)": {
+    "R1 a->ab": "(-1, 1)",
+    "R2 a->ba": "(-1, 1)",
+    "R3 b->ba": "(1, -1)",
+    "R4 b->ab": "(1, -1)",
+    "S swap (a,b)->(b,a)": "(1, 1)",
+    "T tick (a,b)->(ab,a)": "(-1, 1)"
+   },
+   "(1, -1)": {
+    "R1 a->ab": "(1, -1)",
+    "R2 a->ba": "(1, -1)",
+    "R3 b->ba": "(1, 1)",
+    "R4 b->ab": "(1, 1)",
+    "S swap (a,b)->(b,a)": "(-1, 1)",
+    "T tick (a,b)->(ab,a)": "(1, 1)"
+   },
+   "(-1, 1)": {
+    "R1 a->ab": "(1, 1)",
+    "R2 a->ba": "(1, 1)",
+    "R3 b->ba": "(-1, 1)",
+    "R4 b->ab": "(-1, 1)",
+    "S swap (a,b)->(b,a)": "(1, -1)",
+    "T tick (a,b)->(ab,a)": "(1, -1)"
+   },
+   "(-1, -1)": {
+    "R1 a->ab": "(-1, -1)",
+    "R2 a->ba": "(-1, -1)",
+    "R3 b->ba": "(-1, -1)",
+    "R4 b->ab": "(-1, -1)",
+    "S swap (a,b)->(b,a)": "(-1, -1)",
+    "T tick (a,b)->(ab,a)": "(-1, -1)"
+   }
+  },
+  "orbit_of_clock_and_shift_signs": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "family_action_on_(alpha,beta=s^2)": {
+   "R1 a->ab": "(-alpha*s**2, s**2)",
+   "R2 a->ba": "(-alpha*s**2, s**2)",
+   "R3 b->ba": "(alpha, -alpha*s**2)",
+   "R4 b->ab": "(alpha, -alpha*s**2)",
+   "S swap (a,b)->(b,a)": "(s**2, alpha)",
+   "T tick (a,b)->(ab,a)": "(-alpha*s**2, alpha)"
+  },
+  "family_fixed_points": "[{A: -1, B: -1}]"
+ },
+ "4_odd": {
+  "2": {
+   "[a,b]_scalar_exponent": 1,
+   "R1 a->ab": 1,
+   "R2 a->ba": 1,
+   "R3 b->ba": 1,
+   "R4 b->ab": 1,
+   "S swap (a,b)->(b,a)": 1,
+   "T tick (a,b)->(ab,a)": 1
+  },
+  "3": {
+   "[a,b]_scalar_exponent": 2,
+   "R1 a->ab": 2,
+   "R2 a->ba": 2,
+   "R3 b->ba": 2,
+   "R4 b->ab": 2,
+   "S swap (a,b)->(b,a)": 1,
+   "T tick (a,b)->(ab,a)": 1
+  },
+  "5": {
+   "[a,b]_scalar_exponent": 4,
+   "R1 a->ab": 4,
+   "R2 a->ba": 4,
+   "R3 b->ba": 4,
+   "R4 b->ab": 4,
+   "S swap (a,b)->(b,a)": 1,
+   "T tick (a,b)->(ab,a)": 1
+  },
+  "7": {
+   "[a,b]_scalar_exponent": 6,
+   "R1 a->ab": 6,
+   "R2 a->ba": 6,
+   "R3 b->ba": 6,
+   "R4 b->ab": 6,
+   "S swap (a,b)->(b,a)": 1,
+   "T tick (a,b)->(ab,a)": 1
+  }
+ },
+ "checks": [
+  {
+   "name": "B: number of reduced words of length <= 8 is 1 + 2(3^8 - 1) = 13121",
+   "passed": true,
+   "detail": "13121"
+  },
+  {
+   "name": "B1: [a,b] is trivial in Z^2 (exponent sums 0,0)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "B2: R1 a->ab sends [a,b] to a conjugate of itself",
+   "passed": true,
+   "detail": "abAB"
+  },
+  {
+   "name": "B2: R2 a->ba sends [a,b] to a conjugate of itself",
+   "passed": true,
+   "detail": "babABB"
+  },
+  {
+   "name": "B2: R3 b->ba sends [a,b] to a conjugate of itself",
+   "passed": true,
+   "detail": "abAB"
+  },
+  {
+   "name": "B2: R4 b->ab sends [a,b] to a conjugate of itself",
+   "passed": true,
+   "detail": "aabABA"
+  },
+  {
+   "name": "B2: S swap (a,b)->(b,a) sends [a,b] to a conjugate of its inverse",
+   "passed": true,
+   "detail": "baBA"
+  },
+  {
+   "name": "B2: T tick (a,b)->(ab,a) sends [a,b] to a conjugate of its inverse",
+   "passed": true,
+   "detail": "abaBAA"
+  },
+  {
+   "name": "B2: [a,b]^-1 is not conjugate to [a,b]",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "B3 (literal, empty word included): exactly five classes kept: 1, [a,b], [a,b]^-1, [a,b]^2, [a,b]^-2",
+   "passed": true,
+   "detail": "['1', 'BAba', 'BabA', 'BAbaBAba', 'BabABabA']"
+  },
+  {
+   "name": "B3 (non-empty): exactly four classes kept, [a,b]^{+-1}, [a,b]^{+-2}",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "B3: the classes of cyclically reduced words <= 8 are the classes of all reduced words <= 8",
+   "passed": true,
+   "detail": "1387"
+  },
+  {
+   "name": "B3 (set-wise reading): the largest invariant set of classes <= 8 is the same five",
+   "passed": true,
+   "detail": "['1', 'BAba', 'BabA', 'BAbaBAba', 'BabABabA']"
+  },
+  {
+   "name": "B (looseness): iterating a->ba on the word [a,b] gives words of length 4,6,8,10,12 (the class is not a set of short words)",
+   "passed": true,
+   "detail": "[4, 6, 8, 10, 12]"
+  },
+  {
+   "name": "C: tr a = tr b = tr ab = 0 at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [a,b] = -I at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], a] = I at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], b] = I at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], A] = I at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], B] = I at the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [a,b] != I in H3(Z)",
+   "passed": true,
+   "detail": "((1, 0, 1), (0, 1, 0), (0, 0, 1))"
+  },
+  {
+   "name": "C: [[a,b], a] = I in H3(Z)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], b] = I in H3(Z)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], A] = I in H3(Z)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], B] = I in H3(Z)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "C: [[a,b], a] != I at the Sanov pair",
+   "passed": true,
+   "detail": "((-335, 1552), (-128, 593))"
+  },
+  {
+   "name": "C last clause, LITERAL: 'no reduced word of length <= 8 is trivial' at the Sanov pair",
+   "passed": false,
+   "detail": "{0: 1}"
+  },
+  {
+   "name": "C last clause, with NON-EMPTY: no non-empty reduced word of length <= 8 is trivial at the Sanov pair",
+   "passed": true,
+   "detail": "{0: 1}"
+  },
+  {
+   "name": "C: the empty word is the only trivial reduced word <= 8 at the Sanov pair (it evaluates to I)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "5: H3(Z)-trivial reduced words of length <= 8: the empty word and exactly 64 of length 8, none of length 1..7",
+   "passed": true,
+   "detail": "{0: 1, 8: 64}"
+  },
+  {
+   "name": "5: every one of the 65 H3-trivial words of length <= 8 is I at the quaternion point (2x2 over Z[i])",
+   "passed": true,
+   "detail": "0"
+  },
+  {
+   "name": "5: the same by quaternion units (independent evaluation)",
+   "passed": true,
+   "detail": "0"
+  },
+  {
+   "name": "5: extended to length 10: every H3-trivial word of length <= 10 is I at the quaternion point",
+   "passed": true,
+   "detail": "{'n_H3_trivial_le_10': 353, 'bad': 0}"
+  },
+  {
+   "name": "5: the two evaluations of the quaternion point agree on every trivial word <= 8",
+   "passed": true,
+   "detail": "{'Z[i]': 2521, 'units': 2521}"
+  },
+  {
+   "name": "5: the converse fails: some words trivial at the quaternion point are not trivial in H3 (e.g. a^4)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "D: connected compact surfaces with non-empty boundary and chi = -1 (pi1 free of rank 2): four",
+   "passed": true,
+   "detail": "[('orientable', 0, 3), ('orientable', 1, 1), ('non-orientable', 1, 2), ('non-orientable', 2, 1)]"
+  },
+  {
+   "name": "D: every boundary curve null in H1(Z) on the one-holed torus only",
+   "passed": true,
+   "detail": "{'torus, 1 hole (boundary [a,b])': True, 'sphere, 3 holes (a, b, (ab)^-1)': False, 'projective plane, 2 holes (x^2 d1 d2 = 1; x=a, d1=b, d2=(x^2 d1)^-1)': False, 'Klein bottle, 1 hole (x^2 y^2 d = 1)': False}"
+  },
+  {
+   "name": "D (qualifier): membership in the commutator subgroup is kept by every composite of three moves on 400 words",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "D: non-zero integral classes have growing orbits (> 20 after 8 steps); the zero class is fixed",
+   "passed": true,
+   "detail": "{'(1, 0)': 257, '(0, 1)': 257, '(1, 1)': 511, '(2, -1)': 582, '(0, 0)': 1}"
+  },
+  {
+   "name": "D (integral needed): mod 2 the three non-zero classes are a finite set every move carries to itself",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: clock-and-shift at p=2: [a,b] = -I",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: clock-and-shift: a^2 = I, b^2 = I, (ab)^2 = -I",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: LINEAR: the tick does NOT carry clock-and-shift to itself (image of a is ab, squaring to -I)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: LINEAR: among the six moves only the swap carries clock-and-shift to itself",
+   "passed": true,
+   "detail": "['S swap (a,b)->(b,a)']"
+  },
+  {
+   "name": "4: the swap's intertwiner can be the Hadamard matrix: H X H^-1 = Z, H Z H^-1 = X",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: LINEAR: the tick does not carry rho \u2295 conj(rho) = rho \u2295 rho at p=2 either",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: PROJECTIVE: every one of the six moves carries clock-and-shift to itself up to a character twist",
+   "passed": true,
+   "detail": "{'R1 a->ab': '(I, 1)', 'R2 a->ba': '(I, 1)', 'R3 b->ba': '(1, I)', 'R4 b->ab': '(1, I)', 'S swap (a,b)->(b,a)': '(1, 1)', 'T tick (a,b)->(ab,a)': '(I, 1)'}"
+  },
+  {
+   "name": "4: quaternion point: a^2 = b^2 = (ab)^2 = -I, [a,b] = -I",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: LINEAR: the quaternion point is carried to itself by all six moves (explicit g, g rho g^-1 = rho\u2218phi verified)",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: of the four sign representations (a^2, b^2) = (+-1, +-1), only (-1,-1) is fixed by all six",
+   "passed": true,
+   "detail": "[(-1, -1)]"
+  },
+  {
+   "name": "4: the other three sign representations are one orbit of the moves (the orbit of clock-and-shift (1,1))",
+   "passed": true,
+   "detail": "[(-1, 1), (1, -1), (1, 1)]"
+  },
+  {
+   "name": "4: the fixed sign representation (-1,-1) is isomorphic to the quaternion point",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: the sign representation (1,1) is isomorphic to clock-and-shift",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: family: [a,b] = -I, a^2 = alpha, b^2 = beta = s^2, (ab)^2 = -alpha*beta",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4: over all (alpha, beta) in (C^*)^2 the only point fixed by all six moves is (-1, -1), the quaternion point",
+   "passed": true,
+   "detail": "[{A: -1, B: -1}]"
+  },
+  {
+   "name": "4 (projective, p=2): [a,b] scalar zeta^1; single sector kept by all six: True; pair kept: True",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4 (projective, p=3): [a,b] scalar zeta^2; single sector kept by all six: False; pair kept: True",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4 (projective, p=5): [a,b] scalar zeta^4; single sector kept by all six: False; pair kept: True",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "4 (projective, p=7): [a,b] scalar zeta^6; single sector kept by all six: False; pair kept: True",
+   "passed": true,
+   "detail": ""
+  }
+ ],
+ "plants": [
+  {
+   "name": "PC-1: literal word equality in place of conjugacy; check 'five classes kept' must fail",
+   "caught": true,
+   "detail": "['1']"
+  },
+  {
+   "name": "PC-1b: swap added to the record moves; check 'five classes kept' must fail",
+   "caught": true,
+   "detail": "['1']"
+  },
+  {
+   "name": "PC-2: L, R in place of the Sanov pair; check 'no non-empty word <= 8 trivial' must fail",
+   "caught": true,
+   "detail": "{'counts': {0: 1, 6: 12, 8: 56}, 'shortest': 'BAbABa'}"
+  },
+  {
+   "name": "PC-5a: Z^2 in place of H3(Z); check 'every word trivial there is trivial at Q8' must fail",
+   "caught": true,
+   "detail": "{'n_trivial_in_Z2': 361, 'not_trivial_at_Q8': 168, 'first': 'BAba'}"
+  },
+  {
+   "name": "PC-5b: the Sanov pair in place of the quaternion point; check must fail",
+   "caught": true,
+   "detail": "{'not_trivial_at_Sanov': 64}"
+  },
+  {
+   "name": "PC-4a: assert clock-and-shift is linearly carried by all six moves; must fail",
+   "caught": true,
+   "detail": "['R1 a->ab', 'R2 a->ba', 'R3 b->ba', 'R4 b->ab', 'T tick (a,b)->(ab,a)']"
+  },
+  {
+   "name": "PC-4b: b = [[0,1],[1,0]] in place of the quaternion b; check 'fixed by all six' must fail",
+   "caught": true,
+   "detail": ""
+  }
+ ]
+}

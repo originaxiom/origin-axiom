@@ -1,0 +1,544 @@
+{
+ "R": {
+  "rho_T": {
+   "S2_scalar": true,
+   "S2_eq_ST3": true,
+   "S8_eq_I": true,
+   "S2_turn": "1/4",
+   "T_exponents": [
+    "1/8",
+    "3/8",
+    "7/8"
+   ],
+   "valid": true
+  },
+  "A": {
+   "S2_scalar": true,
+   "S2_eq_ST3": true,
+   "S8_eq_I": true,
+   "S2_turn": "1/2",
+   "T_exponents": [
+    "0",
+    "1/4",
+    "1/2"
+   ],
+   "valid": true
+  },
+  "allowed_weights_rho": [
+   "-1/2",
+   "3/2",
+   "7/2",
+   "11/2",
+   "15/2",
+   "19/2",
+   "23/2",
+   "27/2"
+  ],
+  "allowed_weights_conj": [
+   "1/2",
+   "5/2",
+   "9/2",
+   "13/2",
+   "17/2",
+   "21/2",
+   "25/2",
+   "29/2"
+  ],
+  "A_factors_through_SL2_Z4": {
+   "ok": true,
+   "group_order": 48
+  }
+ },
+ "X": {
+  "eigenlines": {
+   "P": {
+    "turn": "1/8",
+    "vector": [
+     1,
+     0,
+     0
+    ]
+   },
+   "M": {
+    "turn": "7/8",
+    "vector": [
+     0,
+     1,
+     1
+    ]
+   },
+   "N": {
+    "turn": "3/8",
+    "vector": [
+     0,
+     1,
+     -1
+    ]
+   }
+  },
+  "chi_3/2": "0",
+  "chi_27/2": "3",
+  "chi_uniform_n": {
+   "-1": "-3",
+   "0": "0",
+   "1": "3",
+   "2": "6",
+   "3": "9"
+  },
+  "chi_conj_1/2": "0",
+  "calibration_trivial": [
+   "1",
+   "0",
+   "1",
+   "1",
+   "2"
+  ],
+  "calibration_eta_half": "1"
+ },
+ "D": {
+  "injective_d15": true,
+  "injective_d27": true,
+  "rows": [
+   {
+    "m(P,M,N)": [
+     0,
+     0,
+     0
+    ],
+    "h0": 0,
+    "chi": "0",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "0"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     0,
+     1
+    ],
+    "h0": 1,
+    "chi": "1",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-1"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     1,
+     0
+    ],
+    "h0": 1,
+    "chi": "1",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-1"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     1,
+     1
+    ],
+    "h0": 2,
+    "chi": "2",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-2"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     0,
+     0
+    ],
+    "h0": 1,
+    "chi": "1",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-1"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     0,
+     1
+    ],
+    "h0": 2,
+    "chi": "2",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-2"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     1,
+     0
+    ],
+    "h0": 2,
+    "chi": "2",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-2"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     1,
+     1
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     -1,
+     -1,
+     -1
+    ],
+    "h0": 0,
+    "chi": "-3",
+    "h1=h0-chi": "3",
+    "index_empty_Lambda+": "3"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     0,
+     0
+    ],
+    "h0": 0,
+    "chi": "0",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "0"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     1,
+     1
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     2,
+     2,
+     2
+    ],
+    "h0": 6,
+    "chi": "6",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-6"
+   },
+   {
+    "m(P,M,N)": [
+     3,
+     3,
+     3
+    ],
+    "h0": 9,
+    "chi": "9",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-9"
+   },
+   {
+    "m(P,M,N)": [
+     3,
+     0,
+     0
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     3,
+     0
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     0,
+     3
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     2,
+     1,
+     0
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     0,
+     2,
+     1
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     1,
+     0,
+     2
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     2,
+     -1,
+     2
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   },
+   {
+    "m(P,M,N)": [
+     3,
+     1,
+     -1
+    ],
+    "h0": 3,
+    "chi": "3",
+    "h1=h0-chi": "0",
+    "index_empty_Lambda+": "-3"
+   }
+  ],
+  "formula_max0_sum_on_64": true,
+  "formula_on_all_rows": true,
+  "chi_equals_sum": true,
+  "h1_nonneg": true
+ },
+ "I": {
+  "sealed_W3_empty_Lambda": {
+   "-1": [
+    3,
+    3
+   ],
+   "0": [
+    0,
+    0
+   ],
+   "1": [
+    -3,
+    -3
+   ]
+  },
+  "mine_minus_chi": {
+   "-1": 3,
+   "0": 0,
+   "1": -3
+  },
+  "agree": true
+ },
+ "V": {
+  "ruled_moves": {
+   "T_turns_on_lines": [
+    "1/8",
+    "7/8",
+    "3/8"
+   ],
+   "distinct": true,
+   "S2_scalar": true,
+   "all_8_stable": true
+  },
+  "det-1_holomorphic": {
+   "exponents_of_rho_o_sigma": [
+    "1/8",
+    "5/8",
+    "7/8"
+   ],
+   "is_rho_T": false
+  },
+  "det-1_antiholomorphic": {
+   "rho_prime_equals_rho": true,
+   "H0_conj_stable_on_8": true
+  },
+  "fibre_loops_parity": {
+   "conj(a)": {
+    "signs_on_(th2,th3,th4)": [
+     1,
+     -1,
+     -1
+    ],
+    "images_of_(P,M,N)": [
+     "P",
+     "M",
+     "N"
+    ],
+    "commutes_with_rho_T(T)": true
+   },
+   "conj(b)": {
+    "signs_on_(th2,th3,th4)": [
+     -1,
+     -1,
+     1
+    ],
+    "images_of_(P,M,N)": [
+     "P",
+     "N",
+     "M"
+    ],
+    "commutes_with_rho_T(T)": false
+   },
+   "conj(ab)": {
+    "signs_on_(th2,th3,th4)": [
+     -1,
+     1,
+     -1
+    ],
+    "images_of_(P,M,N)": [
+     "P",
+     "N",
+     "M"
+    ],
+    "commutes_with_rho_T(T)": false
+   },
+   "invariant_in_{0,1}^3": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     1
+    ]
+   ]
+  }
+ },
+ "C": {
+  "C1_swapped_lines": {
+   "check_formula_holds": false,
+   "first_disagreements": [
+    [
+     [
+      -1,
+      1,
+      1
+     ],
+     0,
+     1
+    ],
+    [
+     [
+      0,
+      0,
+      1
+     ],
+     0,
+     1
+    ],
+    [
+     [
+      0,
+      1,
+      0
+     ],
+     0,
+     1
+    ],
+    [
+     [
+      0,
+      1,
+      1
+     ],
+     1,
+     2
+    ],
+    [
+     [
+      1,
+      -1,
+      1
+     ],
+     0,
+     1
+    ],
+    [
+     [
+      1,
+      0,
+      0
+     ],
+     0,
+     1
+    ]
+   ]
+  },
+  "C2_old_sign": {
+   "check_agrees_with_sealed": false
+  },
+  "C3_S_sign": {
+   "S2_scalar": true,
+   "S2_eq_ST3": false,
+   "S8_eq_I": true,
+   "S2_turn": "1/4",
+   "T_exponents": [
+    "1/8",
+    "3/8",
+    "7/8"
+   ],
+   "valid": false,
+   "h0_table_on_8_if_used": {
+    "(0, 0, 0)": 0,
+    "(0, 0, 1)": 0,
+    "(0, 1, 0)": 0,
+    "(0, 1, 1)": 0,
+    "(1, 0, 0)": 0,
+    "(1, 0, 1)": 0,
+    "(1, 1, 0)": 0,
+    "(1, 1, 1)": 0
+   }
+  },
+  "C4_parity_basis": {
+   "check_stable_(0,1,0)": false,
+   "check_stable_(0,1,1)_control_pass": true
+  },
+  "caught": {
+   "C1": true,
+   "C2": true,
+   "C3": true,
+   "C4": true
+  }
+ }
+}

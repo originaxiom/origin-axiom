@@ -1,0 +1,1600 @@
+{
+ "charges": {
+  "Lambda2_5": [
+   -4,
+   -4,
+   -4,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   6
+  ],
+  "fivebar": [
+   -3,
+   -3,
+   2,
+   2,
+   2
+  ],
+  "five": [
+   -2,
+   -2,
+   -2,
+   3,
+   3
+  ],
+  "traceless": true,
+  "frame_set_matches": true
+ },
+ "fact1": {
+  "M_STD": {
+   "det(M-I)": -1,
+   "det(M+I)": 5,
+   "tr": 3,
+   "det": 1
+  },
+  "M_ALT": {
+   "det(M-I)": -1,
+   "det(M+I)": 5,
+   "tr": 3,
+   "det": 1
+  },
+  "J": {
+   "det(M-I)": -1,
+   "det(M+I)": 1,
+   "tr": 1,
+   "det": -1
+  },
+  "PLANT_TR4": {
+   "det(M-I)": -2,
+   "det(M+I)": 6,
+   "tr": 4,
+   "det": 1
+  }
+ },
+ "fact2": {
+  "6Y": [
+   true,
+   12232
+  ],
+  "PLANT_P2_Tweyl": [
+   false,
+   [
+    "1/3",
+    "2/3"
+   ]
+  ]
+ },
+ "census_order_le_60": {
+  "M_STD": {
+   "summary": {
+    "I": {
+     "all": [
+      1,
+      0
+     ],
+     "orders": [
+      1
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      1,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      5,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      5,
+      0
+     ],
+     "exact_5": [
+      4,
+      0
+     ],
+     "level_10": [
+      5,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      25,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      125,
+      100
+     ],
+     "orders": [
+      1,
+      5,
+      25
+     ],
+     "noncentral_orders": [
+      25
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      125,
+      100
+     ],
+     "exact_25": [
+      100,
+      100
+     ]
+    }
+   },
+   "three_methods_agree": true,
+   "separation_holds": true,
+   "counts_as_claimed": true,
+   "ZO_noncentral_on_slope_2_5": 0,
+   "all_solutions_in_(1/25)^2": true,
+   "O_lines": [
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1/5",
+     "2/5"
+    ],
+    [
+     "2/5",
+     "4/5"
+    ],
+    [
+     "3/5",
+     "1/5"
+    ],
+    [
+     "4/5",
+     "3/5"
+    ]
+   ],
+   "ZO_noncentral_examples": [
+    [
+     "1/25",
+     "2/25"
+    ],
+    [
+     "1/25",
+     "7/25"
+    ],
+    [
+     "1/25",
+     "12/25"
+    ]
+   ],
+   "ZO_by_order": {
+    "1": 1,
+    "5": 24,
+    "25": 100
+   }
+  },
+  "M_ALT": {
+   "summary": {
+    "I": {
+     "all": [
+      1,
+      0
+     ],
+     "orders": [
+      1
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      1,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      5,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      5,
+      0
+     ],
+     "exact_5": [
+      4,
+      0
+     ],
+     "level_10": [
+      5,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      25,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      125,
+      100
+     ],
+     "orders": [
+      1,
+      5,
+      25
+     ],
+     "noncentral_orders": [
+      25
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      125,
+      100
+     ],
+     "exact_25": [
+      100,
+      100
+     ]
+    }
+   },
+   "three_methods_agree": true,
+   "separation_holds": true,
+   "counts_as_claimed": true,
+   "ZO_noncentral_on_slope_2_5": 0,
+   "all_solutions_in_(1/25)^2": true,
+   "O_lines": [
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1/5",
+     "3/5"
+    ],
+    [
+     "2/5",
+     "1/5"
+    ],
+    [
+     "3/5",
+     "4/5"
+    ],
+    [
+     "4/5",
+     "2/5"
+    ]
+   ],
+   "ZO_noncentral_examples": [
+    [
+     "1/25",
+     "3/25"
+    ],
+    [
+     "1/25",
+     "8/25"
+    ],
+    [
+     "1/25",
+     "13/25"
+    ]
+   ],
+   "ZO_by_order": {
+    "1": 1,
+    "5": 24,
+    "25": 100
+   }
+  },
+  "M_STD_bflip": {
+   "summary": {
+    "I": {
+     "all": [
+      1,
+      0
+     ],
+     "orders": [
+      1
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      1,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      5,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      5,
+      0
+     ],
+     "exact_5": [
+      4,
+      0
+     ],
+     "level_10": [
+      5,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      25,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      125,
+      100
+     ],
+     "orders": [
+      1,
+      5,
+      25
+     ],
+     "noncentral_orders": [
+      25
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      25,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      125,
+      100
+     ],
+     "exact_25": [
+      100,
+      100
+     ]
+    }
+   },
+   "three_methods_agree": true,
+   "separation_holds": true,
+   "counts_as_claimed": true,
+   "ZO_noncentral_on_slope_2_5": 0,
+   "all_solutions_in_(1/25)^2": true,
+   "O_lines": [
+    [
+     "0",
+     "0"
+    ],
+    [
+     "1/5",
+     "3/5"
+    ],
+    [
+     "2/5",
+     "1/5"
+    ],
+    [
+     "3/5",
+     "4/5"
+    ],
+    [
+     "4/5",
+     "2/5"
+    ]
+   ],
+   "ZO_noncentral_examples": [
+    [
+     "1/25",
+     "3/25"
+    ],
+    [
+     "1/25",
+     "8/25"
+    ],
+    [
+     "1/25",
+     "13/25"
+    ]
+   ],
+   "ZO_by_order": {
+    "1": 1,
+    "5": 24,
+    "25": 100
+   }
+  }
+ },
+ "J_aside": {
+  "summary": {
+   "I": {
+    "all": [
+     1,
+     0
+    ],
+    "orders": [
+     1
+    ],
+    "noncentral_orders": [],
+    "level_5": [
+     1,
+     0
+    ],
+    "exact_5": [
+     0,
+     0
+    ],
+    "level_10": [
+     1,
+     0
+    ],
+    "exact_10": [
+     0,
+     0
+    ],
+    "level_25": [
+     1,
+     0
+    ],
+    "exact_25": [
+     0,
+     0
+    ]
+   },
+   "O": {
+    "all": [
+     1,
+     0
+    ],
+    "orders": [
+     1
+    ],
+    "noncentral_orders": [],
+    "level_5": [
+     1,
+     0
+    ],
+    "exact_5": [
+     0,
+     0
+    ],
+    "level_10": [
+     1,
+     0
+    ],
+    "exact_10": [
+     0,
+     0
+    ],
+    "level_25": [
+     1,
+     0
+    ],
+    "exact_25": [
+     0,
+     0
+    ]
+   },
+   "Z": {
+    "all": [
+     25,
+     0
+    ],
+    "orders": [
+     1,
+     5
+    ],
+    "noncentral_orders": [],
+    "level_5": [
+     25,
+     0
+    ],
+    "exact_5": [
+     24,
+     0
+    ],
+    "level_10": [
+     25,
+     0
+    ],
+    "exact_10": [
+     0,
+     0
+    ],
+    "level_25": [
+     25,
+     0
+    ],
+    "exact_25": [
+     0,
+     0
+    ]
+   },
+   "ZO": {
+    "all": [
+     25,
+     0
+    ],
+    "orders": [
+     1,
+     5
+    ],
+    "noncentral_orders": [],
+    "level_5": [
+     25,
+     0
+    ],
+    "exact_5": [
+     24,
+     0
+    ],
+    "level_10": [
+     25,
+     0
+    ],
+    "exact_10": [
+     0,
+     0
+    ],
+    "level_25": [
+     25,
+     0
+    ],
+    "exact_25": [
+     0,
+     0
+    ]
+   }
+  },
+  "separation_holds": false
+ },
+ "plants_separation": {
+  "P1_trace4": {
+   "summary": {
+    "I": {
+     "all": [
+      2,
+      1
+     ],
+     "orders": [
+      1,
+      2
+     ],
+     "noncentral_orders": [
+      2
+     ],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      2,
+      1
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      6,
+      5
+     ],
+     "orders": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "noncentral_orders": [
+      2,
+      3,
+      6
+     ],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      2,
+      1
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      50,
+      25
+     ],
+     "orders": [
+      1,
+      2,
+      5,
+      10
+     ],
+     "noncentral_orders": [
+      2,
+      10
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      50,
+      25
+     ],
+     "exact_10": [
+      24,
+      24
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      150,
+      125
+     ],
+     "orders": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      10,
+      15,
+      30
+     ],
+     "noncentral_orders": [
+      2,
+      3,
+      6,
+      10,
+      15,
+      30
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      50,
+      25
+     ],
+     "exact_10": [
+      24,
+      24
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    }
+   },
+   "separation_holds": false,
+   "I_noncentral": [
+    [
+     "0",
+     "1/2",
+     2
+    ]
+   ]
+  },
+  "P2_Tweyl": {
+   "summary": {
+    "I": {
+     "all": [
+      5,
+      4
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [
+      5
+     ],
+     "level_5": [
+      5,
+      4
+     ],
+     "exact_5": [
+      4,
+      4
+     ],
+     "level_10": [
+      5,
+      4
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      4
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      5,
+      4
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [
+      5
+     ],
+     "level_5": [
+      5,
+      4
+     ],
+     "exact_5": [
+      4,
+      4
+     ],
+     "level_10": [
+      5,
+      4
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      4
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      5,
+      4
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [
+      5
+     ],
+     "level_5": [
+      5,
+      4
+     ],
+     "exact_5": [
+      4,
+      4
+     ],
+     "level_10": [
+      5,
+      4
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      4
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      5,
+      4
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [
+      5
+     ],
+     "level_5": [
+      5,
+      4
+     ],
+     "exact_5": [
+      4,
+      4
+     ],
+     "level_10": [
+      5,
+      4
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      4
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    }
+   },
+   "separation_holds": false,
+   "I_noncentral": [
+    [
+     "1/5",
+     "2/5",
+     5
+    ],
+    [
+     "2/5",
+     "4/5",
+     5
+    ],
+    [
+     "3/5",
+     "1/5",
+     5
+    ],
+    [
+     "4/5",
+     "3/5",
+     5
+    ]
+   ]
+  },
+  "P3_mu10_centre": {
+   "summary": {
+    "I": {
+     "all": [
+      1,
+      0
+     ],
+     "orders": [
+      1
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      1,
+      0
+     ],
+     "exact_5": [
+      0,
+      0
+     ],
+     "level_10": [
+      1,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      1,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "O": {
+     "all": [
+      5,
+      0
+     ],
+     "orders": [
+      1,
+      5
+     ],
+     "noncentral_orders": [],
+     "level_5": [
+      5,
+      0
+     ],
+     "exact_5": [
+      4,
+      0
+     ],
+     "level_10": [
+      5,
+      0
+     ],
+     "exact_10": [
+      0,
+      0
+     ],
+     "level_25": [
+      5,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "Z": {
+     "all": [
+      100,
+      75
+     ],
+     "orders": [
+      1,
+      2,
+      5,
+      10
+     ],
+     "noncentral_orders": [
+      2,
+      10
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      100,
+      75
+     ],
+     "exact_10": [
+      72,
+      72
+     ],
+     "level_25": [
+      25,
+      0
+     ],
+     "exact_25": [
+      0,
+      0
+     ]
+    },
+    "ZO": {
+     "all": [
+      200,
+      175
+     ],
+     "orders": [
+      1,
+      2,
+      5,
+      10,
+      25
+     ],
+     "noncentral_orders": [
+      2,
+      10,
+      25
+     ],
+     "level_5": [
+      25,
+      0
+     ],
+     "exact_5": [
+      24,
+      0
+     ],
+     "level_10": [
+      100,
+      75
+     ],
+     "exact_10": [
+      72,
+      72
+     ],
+     "level_25": [
+      125,
+      100
+     ],
+     "exact_25": [
+      100,
+      100
+     ]
+    }
+   },
+   "separation_holds": false,
+   "Z_noncentral_orders": [
+    2,
+    10
+   ]
+  }
+ },
+ "fact3": {
+  "M_STD": {
+   "table": {
+    "2": {
+     "order": 3,
+     "n_lines": 3,
+     "least_k_plus": [
+      3
+     ],
+     "least_k_minus": [
+      3
+     ],
+     "lines_without_minus": 0
+    },
+    "5": {
+     "order": 10,
+     "n_lines": 24,
+     "least_k_plus": [
+      2,
+      10
+     ],
+     "least_k_minus": [
+      1,
+      5
+     ],
+     "lines_without_minus": 0
+    },
+    "10": {
+     "order": 30,
+     "n_lines": 72,
+     "least_k_plus": [
+      6,
+      30
+     ],
+     "least_k_minus": [
+      3,
+      15
+     ],
+     "lines_without_minus": 0
+    },
+    "25": {
+     "order": 50,
+     "n_lines": 600,
+     "least_k_plus": [
+      10,
+      50
+     ],
+     "least_k_minus": [
+      5,
+      25
+     ],
+     "lines_without_minus": 0
+    },
+    "30": {
+     "order": 60,
+     "n_lines": 576,
+     "least_k_plus": [
+      12,
+      60
+     ],
+     "least_k_minus": [],
+     "lines_without_minus": 576
+    }
+   },
+   "as_claimed": true
+  },
+  "M_ALT": {
+   "table": {
+    "2": {
+     "order": 3,
+     "n_lines": 3,
+     "least_k_plus": [
+      3
+     ],
+     "least_k_minus": [
+      3
+     ],
+     "lines_without_minus": 0
+    },
+    "5": {
+     "order": 10,
+     "n_lines": 24,
+     "least_k_plus": [
+      2,
+      10
+     ],
+     "least_k_minus": [
+      1,
+      5
+     ],
+     "lines_without_minus": 0
+    },
+    "10": {
+     "order": 30,
+     "n_lines": 72,
+     "least_k_plus": [
+      6,
+      30
+     ],
+     "least_k_minus": [
+      3,
+      15
+     ],
+     "lines_without_minus": 0
+    },
+    "25": {
+     "order": 50,
+     "n_lines": 600,
+     "least_k_plus": [
+      10,
+      50
+     ],
+     "least_k_minus": [
+      5,
+      25
+     ],
+     "lines_without_minus": 0
+    },
+    "30": {
+     "order": 60,
+     "n_lines": 576,
+     "least_k_plus": [
+      12,
+      60
+     ],
+     "least_k_minus": [],
+     "lines_without_minus": 576
+    }
+   },
+   "as_claimed": true
+  }
+ },
+ "plants_fact3": {
+  "P4_all_nonzero_vectors": {
+   "N10_plus": [
+    2,
+    3,
+    6,
+    10,
+    30
+   ],
+   "as_claimed": false
+  },
+  "P5_trace4": {
+   "orders": {
+    "2": 2,
+    "5": 3,
+    "10": 6,
+    "25": 15,
+    "30": 6
+   },
+   "as_claimed": false
+  }
+ },
+ "counted_class": {
+  "M_STD": {
+   "plus": [
+    30,
+    6,
+    30,
+    30,
+    30
+   ],
+   "minus": [
+    15,
+    3,
+    15,
+    15,
+    15
+   ]
+  },
+  "M_ALT": {
+   "plus": [
+    30,
+    30,
+    30,
+    6,
+    30
+   ],
+   "minus": [
+    15,
+    15,
+    15,
+    3,
+    15
+   ]
+  }
+ },
+ "mark": {
+  "mark_line_equals_ker(M+I)_mod5": true,
+  "O_set_equals_0_plus_mark_line": true,
+  "sm_halves": [
+   {
+    "line": [
+     "1/5",
+     "2/5"
+    ],
+    "order": 5,
+    "k_plus": 2,
+    "k_minus": 1,
+    "admissible_in": [
+     "O",
+     "Z",
+     "ZO"
+    ]
+   },
+   {
+    "line": [
+     "1/5",
+     "9/10"
+    ],
+    "order": 10,
+    "k_plus": 6,
+    "k_minus": 3,
+    "admissible_in": []
+   },
+   {
+    "line": [
+     "7/10",
+     "2/5"
+    ],
+    "order": 10,
+    "k_plus": 6,
+    "k_minus": 3,
+    "admissible_in": []
+   },
+   {
+    "line": [
+     "7/10",
+     "9/10"
+    ],
+    "order": 10,
+    "k_plus": 6,
+    "k_minus": 3,
+    "admissible_in": []
+   }
+  ],
+  "all_order10_halves": 12,
+  "all_halves_k": [
+   [
+    6,
+    3
+   ]
+  ],
+  "halves_are_exactly_the_k6_order10_lines": true,
+  "any_half_admissible": false,
+  "J_k_of_halves": [
+   [
+    12,
+    6
+   ]
+  ],
+  "twin_halves": [
+   [
+    "1/10",
+    "1/5",
+    10
+   ],
+   [
+    "1/10",
+    "7/10",
+    10
+   ],
+   [
+    "3/5",
+    "1/5",
+    5
+   ],
+   [
+    "3/5",
+    "7/10",
+    10
+   ]
+  ]
+ },
+ "counted_class_splits_over_GL2Z": {
+  "(6, 30, 30, 30, 30)": 184,
+  "(30, 30, 30, 30, 30)": 48
+ },
+ "VERDICTS": {
+  "fact1": true,
+  "fact2_6Y_injective": true,
+  "counts_as_claimed_all_conventions": true,
+  "separation_holds_all_conventions": true,
+  "three_methods_agree": true,
+  "fact3_as_claimed": true,
+  "PLANT_P1_trace4_separation_FAILS": true,
+  "PLANT_P2_Tweyl_separation_FAILS": true,
+  "PLANT_P2_Tweyl_fact2_FAILS": true,
+  "PLANT_P3_mu10_separation_FAILS": true,
+  "PLANT_P4_fact3_FAILS": true,
+  "PLANT_P5_fact3_FAILS": true
+ }
+}

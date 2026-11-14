@@ -88,3 +88,20 @@ def test_the_second_computation_kept_agrees_and_discriminates():
     assert "worst |d ln| / tolerance: 0.34 -> AGREE" in t
     rms = {m.group(1): float(m.group(2)) for m in re.finditer(r"W- seat (\S+)\s+rms z\s+([\d.]+)", t)}
     assert rms["exact_T90"] < rms["old_small_cut"]
+
+
+def test_the_window_companion_reproduces_the_governing_calibration_at_b1720s_windows():
+    spec = importlib.util.spec_from_file_location("brw", HERE / "big_run_windows.py"); W = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(W)
+    tmp = pathlib.Path(tempfile.mkdtemp())
+    (tmp / "m.json").write_text(json.dumps({"masses_GeV": {"value": M, "sigma": {k: .05 * x for k, x in M.items()}}}))
+    (tmp / "c.json").write_text(json.dumps(CK))
+    vals = [x * 2 for x in TGT]
+    opts = {L.OPTIONS[0]: {"values": vals}, L.OPTIONS[1]: {"values": [x * 3 for x in vals]},
+            L.OPTIONS[2]: {"values": [x / 3 for x in vals]}, L.OPTIONS[3]: {"values": [x * 10 for x in vals]}}
+    (tmp / "v.json").write_text(json.dumps({"positions": L.POSITIONS, "options": opts}))
+    gov = L.look(tmp / "v.json", tmp / "m.json", tmp / "c.json", tmp / "o.json")
+    w = W.windows(tmp / "v.json", tmp / "m.json", tmp / "c.json", tmp / "w.json")
+    for k in ("chi2_seven", "worst_factor_seven"):
+        assert w["by_window"]["B1720"]["fraction_as_good"][k] == gov["calibration"]["by_statistic"][k]["fraction_as_good_as_the_best_option"]
+    assert w["reported_not_governing"] is True and set(w["by_window"]) == set(W.WINDOWS)

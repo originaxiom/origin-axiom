@@ -4902,7 +4902,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 28,
+  "rank": 29,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-092": "QUEUED"
@@ -4998,7 +4998,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 26,
+  "rank": 28,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-138": "QUEUED"
@@ -5022,7 +5022,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 33,
+  "rank": 34,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-145": "QUEUED"
@@ -5094,7 +5094,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 8,
+  "rank": 9,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-157": "QUEUED"
@@ -5142,7 +5142,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 32,
+  "rank": 33,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-160": "QUEUED"
@@ -5166,7 +5166,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 43,
+  "rank": 44,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-233": "QUEUED"
@@ -5190,7 +5190,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 42,
+  "rank": 43,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-239": "QUEUED"
@@ -5310,7 +5310,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 39,
+  "rank": 40,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-317": "QUEUED"
@@ -5334,7 +5334,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 20,
+  "rank": 22,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-318": "QUEUED"
@@ -5358,7 +5358,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 29,
+  "rank": 30,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-319": "QUEUED"
@@ -5382,7 +5382,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 25,
+  "rank": 27,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-320": "QUEUED"
@@ -5430,7 +5430,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 1,
+  "rank": 2,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-355": "QUEUED"
@@ -5454,7 +5454,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 22,
+  "rank": 24,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-374": "QUEUED"
@@ -5478,7 +5478,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 3,
+  "rank": 4,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-384": "QUEUED"
@@ -5502,7 +5502,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 30,
+  "rank": 31,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-426": "QUEUED"
@@ -5526,7 +5526,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 21,
+  "rank": 23,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-427": "QUEUED"
@@ -5574,7 +5574,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 11,
+  "rank": 12,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-444": "QUEUED"
@@ -5598,7 +5598,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 6,
+  "rank": 7,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-446": "QUEUED"
@@ -5622,7 +5622,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 16,
+  "rank": 17,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-448": "QUEUED"
@@ -5670,7 +5670,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 15,
+  "rank": 16,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-516": "QUEUED"
@@ -5694,7 +5694,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 7,
+  "rank": 8,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-517": "QUEUED"
@@ -5718,7 +5718,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 13,
+  "rank": 14,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-524": "QUEUED"
@@ -5742,7 +5742,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 31,
+  "rank": 32,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-528": "QUEUED"
@@ -5766,7 +5766,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 44,
+  "rank": 45,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-540": "QUEUED"
@@ -5790,7 +5790,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 12,
+  "rank": 13,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-542": "QUEUED"
@@ -5814,7 +5814,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 14,
+  "rank": 15,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-557": "QUEUED"
@@ -5838,7 +5838,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 9,
+  "rank": 10,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-559": "QUEUED"
@@ -5886,7 +5886,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 23,
+  "rank": 25,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-579": "QUEUED"
@@ -5910,7 +5910,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 24,
+  "rank": 26,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-581": "QUEUED"
@@ -5934,7 +5934,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 4,
+  "rank": 5,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-586": "QUEUED"
@@ -5958,7 +5958,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 17,
+  "rank": 19,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-589": "QUEUED"
@@ -5982,7 +5982,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 41,
+  "rank": 42,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-590": "QUEUED"
@@ -6006,7 +6006,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 2,
+  "rank": 3,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-596": "QUEUED"
@@ -6030,7 +6030,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 5,
+  "rank": 6,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-597": "QUEUED"
@@ -6054,7 +6054,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 40,
+  "rank": 41,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-602": "QUEUED"
@@ -6078,7 +6078,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 35,
+  "rank": 36,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-603": "QUEUED"
@@ -6102,7 +6102,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 34,
+  "rank": 35,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-605": "QUEUED"
@@ -6126,7 +6126,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 18,
+  "rank": 20,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-606": "QUEUED"
@@ -6150,7 +6150,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 36,
+  "rank": 37,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-607": "QUEUED"
@@ -6174,7 +6174,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 37,
+  "rank": 38,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-608": "QUEUED"
@@ -6198,7 +6198,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 38,
+  "rank": 39,
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-609": "QUEUED"
@@ -6222,7 +6222,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 10,
+  "rank": 11,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-610": "QUEUED"
@@ -6246,7 +6246,7 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 19,
+  "rank": 21,
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-618": "QUEUED"
@@ -6898,6 +6898,54 @@
   "debt_class": "added on 2026-11-13 (S306p)",
   "rows_live": {
    "P-839": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:852",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-852 — "
+   ]
+  ],
+  "rows": [
+   "P-852"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 18,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-852": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:853",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the frame loses precision above Im tau about 11; the big run's area options are corrected in extended precision before the look, which waits for them.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-853 — "
+   ]
+  ],
+  "rows": [
+   "P-853"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 1,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-853": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

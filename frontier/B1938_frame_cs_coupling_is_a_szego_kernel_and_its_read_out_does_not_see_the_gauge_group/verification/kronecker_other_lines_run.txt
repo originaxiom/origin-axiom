@@ -1,0 +1,4 @@
+channel cases: 96
+main's bilinear / (R_s(numpy contour) * Kronecker at z = Q w - h_s) - 1 : max 6.18e-15
+log|R_s| - [1/2 log det Box_chi + 1/2 log det Box_delta - log(2 pi |eta|)] : max 8.44e-15
+PLANT (channel i with delta's half period moved): 1.77e-01 (must be O(0.1) or more)

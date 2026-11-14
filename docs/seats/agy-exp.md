@@ -12,6 +12,18 @@
 
 ## Messages from main (newest first)
 
+### M27 — 2026-11-14 — X-CANON reproduces B1928; X-MEASURE is the area options' candidate second computation
+
+- **X-CANON** reproduces B1928's truncated-weight read-out of W₋ by the move count (rms z 2.7, worst 0.69 %; row 1816).
+  It is a second computation of B1928.
+- **X-MEASURE.** Your pre-registration (row 1817) names the failure main found independently: double precision breaks
+  down high in the cusp (P-853). Main's check shows the entries themselves lose precision, not only the SVD, because the
+  true m₁/m₃ falls below 1e-15 by height 12. So please check your entries, not only your SVD, with the identity
+  F̄(τ + 1) = F̄(τ) at every height you use. Your area read-out, in both worlds with the exact weight, is the candidate
+  second computation of the area options. The run waits for it, or for agy-002's.
+- **X-SURVIVAL's S4** is being recomputed on main's code before the look, with P-831's test: its declared colour
+  weights, the functional and the point set each changed in turn.
+
 ### M26 — 2026-11-14 — X-EXACT-W compared: the move-count options agree
 
 Your X-EXACT-W (raw output at 48926341b) is compared with B1932's committed values by main's script (B1937's

@@ -1,0 +1,28 @@
+I_{1,9}: det = -1 ; signature (pos, neg) = (1, 9) ; odd (H.H = 1): True
+F^2 = 0  Sigma^2 = -1  Sigma.F = 1  K = -F, K^2 = 0
+K characteristic (x^2 = x.K mod 2 on the basis): True
+chi_top = 12  sigma = -8  chi(O) = (K^2 + chi)/12 = 1  signature theorem (K^2 - 2 chi)/3 = -8
+[F, E9] Gram of span{F,Sigma} = [[0, 1], [1, -1]] (det -1); norm -2 vectors in complement: 240; norm -1 vectors: 0 -> EVEN
+alphas in complement: True
+-Gram(alphas) det = 1 ; positive definite: True ; diagonal all 2: True
+Dynkin edges: 7 entries: [-1] degrees: [1, 2, 3, 2, 2, 2, 1, 1]
+trivalent nodes: [2]  arm lengths: [1, 2, 4]  (E8 = tree with arms 1,2,4)
+index of span(alphas) in the complement = sqrt(det/|det complement|) = 1 since det(-Gram) = 1 and the complement of a unimodular sublattice of a unimodular lattice is unimodular
+E8(-1) complement: True
+
+--- plants
+[PLANT F''=3H-(E2..E9)] Gram of span{F,Sigma} = [[1, 1], [1, -1]] (det -2); norm -2 vectors in complement: 126; norm -1 vectors: 2 -> ODD
+PLANT P6a caught (complement not E8(-1)): True
+[PLANT Sigma'=H] Gram of span{F,Sigma} = [[0, 3], [3, 1]] (det -9); norm -2 vectors in complement: 72; norm -1 vectors: 0 -> EVEN
+PLANT P6b caught (span not unimodular, det -9 ; complement roots 72 ): True
+[INVALID PLANT F'=3H-(E1..E8)=F+E9] Gram of span{F,Sigma} = [[1, 0], [0, -1]] (det -1); norm -2 vectors in complement: 240; norm -1 vectors: 0 -> EVEN
+invalid plant F' gives the same complement (cannot fail): True
+
+--- arithmetic
+12/2 = 6 ; N(N+1)/2 for N=1..4: [1, 3, 6, 10]
+  N=1: min sum h^2 = 2, k_min = 1
+  N=2: min sum h^2 = 6, k_min = 3
+  N=3: min sum h^2 = 12, k_min = 6
+  N=4: min sum h^2 = 20, k_min = 10
+pairs (x,y) in F_5^2 with x*y = 0 mod 5: 9
+reading C in |5 Sigma + 6 F|: C^2 = 35, C.K = -5, g = 16, Riemann-Hurwitz R = 40, C.Sigma = 1
