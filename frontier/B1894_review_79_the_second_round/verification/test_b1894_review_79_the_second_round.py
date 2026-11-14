@@ -68,6 +68,51 @@ def test_the_sign_stands_corrected_in_the_four_places():
     assert all(round(ident["table"]["0,n=1"][0]) == -3 and round(ident["table"]["0,n=-1"][0]) == 3 for ident in table.values())
 
 
+# ---- Review 80 (2026-11-12; the SM seat's finding 27, checked by main by a search).  The test above looks for the old sentence
+# in one exact wording.  The old sign stood in two more wordings, on four pages, and neither was seen.
+_OLD_SIGN = ("a unit on one line gives index one",
+             "the index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one")
+_THE_SIGN = ("-1 for a unit on one line", "−1 for a unit on one line")
+_SIGN_WITHIN = 700
+
+
+def _old_sign_uncorrected(text):
+    """The places where a text gives the index of a unit on one line as one and does not give its sign: within 700 characters
+    after the words, or, for a message under a heading of its own, in the first 700 characters under that heading, where a
+    note at the head of a message stands."""
+    out = []
+    for section in text.split("\n### "):
+        flat = " ".join(section.split())
+        for old in _OLD_SIGN:
+            at = flat.find(old)
+            while at != -1:
+                if not any(s in flat[at:at + len(old) + _SIGN_WITHIN] or s in flat[:_SIGN_WITHIN] for s in _THE_SIGN):
+                    out.append(old)
+                at = flat.find(old, at + 1)
+    return out
+
+
+def test_the_old_sign_stands_corrected_in_its_other_wordings():
+    """Four pages gave the index of a unit on one line as one, in words the test above does not look for: the changelog's
+    entry of 2026-11-11, the harvest ledger's row 1709, the law map's currency read, and main's fourth message to the
+    session whose finding it was.  Each carries the correction beside it now.  Planted: each page with its correction taken
+    out, which is the page as it stood; the test above passes on all four."""
+    pages = {"CHANGELOG.md": 1, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
+    for rel, n in pages.items():
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        flat = " ".join(text.split())
+        assert sum(flat.count(o) for o in _OLD_SIGN) == n, rel       # the old words are kept: once on each page, and once more in the message's own note
+        assert _old_sign_uncorrected(text) == [], rel
+        # the page as it stood: every correction of Review 80 taken out again
+        stood = text
+        for mark in ("[CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search):", "[CORRECTED 2026-11-12, in the entry of Review 80's mends:",
+                     "*[NOTE 2026-11-12 (Review 80; a reader's finding, checked by main by a search), added at the head"):
+            while mark in stood:
+                i = stood.index(mark)
+                stood = stood[:i] + stood[stood.index("]", i) + 1:]
+        assert stood != text and len(_old_sign_uncorrected(stood)) == 1, rel
+
+
 def test_the_arc_says_what_it_did_not_do():
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     for s in ("were not run against the tripwire's new form", "have been read by nobody but main", "What main got wrong in this round", "Not closed, and asserted as open",
