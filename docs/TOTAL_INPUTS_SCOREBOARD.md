@@ -4,7 +4,7 @@
 
 **The rule.** the owner's ruling of 2026-10-29 (P-418): a total-inputs scoreboard beside '0 of 19' -- the 19, the identification price, and each frame's counted choices; progress = the totals falling. The owner, 2026-11-04 (P-661): a complete picture with its borrowed joints named, so the joints can be earned later.
 
-**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 13 borrowed joints [10 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
+**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 13 borrowed joints [10 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted] | frame C (the read-out on the whole): 7 rows claimed, 11 borrowed joints [9 chosen, 1 forced-claimed, 1 ansatz]
 
 A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY-MAIN, or VERIFIED-BY-MAIN for an exact identity checked but not proved); every other joint is BORROWED: CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED (a seat's word), REFUTED or UNKNOWN. A joint counts once however many rows it feeds. Progress means the borrowed totals fall.
 
@@ -115,3 +115,29 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, 
 Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; m_e/m_mu 13; m_mu/m_tau 13; |V_us| 12; |V_cb| 12; |V_ub| 12; J (or delta_CP) 12; m_b/m_t (firewalled) 16; m_tau/m_b (firewalled) 17; y_t 26; g_1 5; g_2 5; g_3 7; theta-bar 12; m_H 28; v 3; M_Pl/v 6; rho_DE/v^4 8; eta_B 25; Omega_DM/Omega_b 5.
 
 **The joints to earn first (by rows released):** B01 tau_Golden (the modulus) (fitted, 17 rows); B02 the slope of the line, 2/5 (and with it the line's order N) (chosen, 17 rows); B03 the offset of the line within the slope (the line (2/5, 0)) (chosen, 16 rows); B04 the Higgs direction F_10 (theta-power weight) (chosen, 16 rows); B05 the reading S~S~S~ (one reading for all three sectors) (chosen, 16 rows); B06 the scalar-channel characters (c_u, c_d, c_e), with the square-root branch (chosen, 16 rows); B07 the radius pick L_2 (over L_max) (chosen, 16 rows); B08 the L_2 number actually used at the cell (unknown, 16 rows).
+
+## Frame C — the read-out on the whole: the frame averaged over the allowed weave at level 5, every thread at its own line, B1667's length-2 end (B1924, B1927, B1928; 2026-11-14)
+
+*Status:* a structural frame, no value claimed (2026-11-14): no FITTED input; tau and the line are not inputs of it (B1928 PROVED); its values are computed (B1928's integral, in the json only) and NOT sealed; the canonical end's numbers are owed a second computation (agy-002's A2-CANON) before any seal. The lepton rows are not claimed: at level 5 the lepton coupling is the down coupling transposed (six times the hypercharge mod 5 is constant on SU(5)'s multiplets), minimal SU(5)'s relation, which the record already notes the measured Georgi-Jarlskog split forbids (B1839's arc, CHANGELOG); a level or structure separating them is owed (P-845). J's sign is not claimed: the tick involution flips it (agy-002's A2-OWN1), so it needs the hand..
+
+Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, |V_us|, |V_cb|, |V_ub|.
+Held out (sealed): m_b/m_t (firewalled), m_tau/m_b (firewalled).
+No frame: m_e/m_mu, m_mu/m_tau, J (or delta_CP), y_t, g_1, g_2, g_3, theta-bar, m_H, v, M_Pl/v, rho_DE/v^4, eta_B, Omega_DM/Omega_b.
+
+**Borrowed joints: 11** (9 CHOSEN, 1 FORCED-CLAIMED, 1 ANSATZ), the shared block included.
+
+| id | joint | type | rows fed | same as | register | basis |
+|---|---|---|---|---|---|---|
+| C01 | the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) | CHOSEN | 7 | | P-845 | the principle names it (P-845); the hyperbolic-area measure differs by about 40 errors (agy-002's A2-OWN1) |
+| C02 | the line class of order 5: the ground's frustrated level | FORCED-CLAIMED | 7 | | P-721 | P-721 (det(LR + I) = 5); B1925 (SE1 is the same condition as the level 5); not yet a registered theorem |
+| C03 | the Higgs direction: the frame's covariant triplet | CHOSEN | 7 | |  | as frame A's A04 |
+| C04 | the Higgs reading (S~, S, S): its global bit | CHOSEN | 7 | | P-847 | the relative reading is fixed by charge balance (main; the web seat's W-F13; agy-exp's X-OWN F3); no construction from charges alone fixes the global bit (W-F14); frame A's A05 |
+| C05 | the end: B1667's horocycle of length 2, read point by point | CHOSEN | 7 | | P-845 | B1927: the end is covariant and needs no constant; analyticity selects the length-2 horocycle (the maximal horoball has a corner); the analyticity requirement is a stated regularity condition; frame A's A07 |
+| C06 | the channel weights sqrt(2 pi L + c_s) at that end | CHOSEN | 7 | |  | B1656's frame as banked; the exact horoball norms (A09) are not used; frame A's A09 |
+| C07 | the generations' metric H = I | CHOSEN | 7 | | P-531 | as frame A's A08 |
+| C08 | one coupling for all sectors (no tau and no line: B1928) | CHOSEN | 7 | | P-555 | as frame A's A11 without its tau and line |
+| C09 | the scale: tree level, no running | CHOSEN | 7 | |  | as frame A's A12 |
+
+Borrowed joints per claimed row (shared block included): m_u/m_c 11; m_c/m_t 11; m_d/m_s 11; m_s/m_b 11; |V_us| 11; |V_cb| 11; |V_ub| 11.
+
+**The joints to earn first (by rows released):** C01 the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) (chosen, 7 rows); C02 the line class of order 5: the ground's frustrated level (forced-claimed, 7 rows); C03 the Higgs direction: the frame's covariant triplet (chosen, 7 rows); C04 the Higgs reading (S~, S, S): its global bit (chosen, 7 rows); C05 the end: B1667's horocycle of length 2, read point by point (chosen, 7 rows); C06 the channel weights sqrt(2 pi L + c_s) at that end (chosen, 7 rows); C07 the generations' metric H = I (chosen, 7 rows); C08 one coupling for all sectors (no tau and no line: B1928) (chosen, 7 rows).

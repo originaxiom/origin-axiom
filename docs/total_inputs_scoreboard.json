@@ -1273,6 +1273,195 @@
    ],
    "status": "0 certified by the lane's own counter; its labels call borrowed joints FORCED (B1832 sec. 5); its values for P-585's held-out targets sealed (P-624)",
    "source": "a firewalled reader through the mask (names and types only), verified by main: every FORCED-BY-MAIN basis checked to exist; F7 corrected to VERIFIED-BY-MAIN"
+  },
+  "C": {
+   "name": "the read-out on the whole: the frame averaged over the allowed weave at level 5, every thread at its own line, B1667's length-2 end (B1924, B1927, B1928; 2026-11-14)",
+   "claims": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+   ],
+   "held_out": [
+    11,
+    12
+   ],
+   "graded_input": [],
+   "no_frame": [
+    5,
+    6,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "joints": [
+    {
+     "id": "C01",
+     "name": "the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition)",
+     "type": "CHOSEN",
+     "basis": "the principle names it (P-845); the hyperbolic-area measure differs by about 40 errors (agy-002's A2-OWN1)",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-845",
+     "same_as": ""
+    },
+    {
+     "id": "C02",
+     "name": "the line class of order 5: the ground's frustrated level",
+     "type": "FORCED-CLAIMED",
+     "basis": "P-721 (det(LR + I) = 5); B1925 (SE1 is the same condition as the level 5); not yet a registered theorem",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-721",
+     "same_as": ""
+    },
+    {
+     "id": "C03",
+     "name": "the Higgs direction: the frame's covariant triplet",
+     "type": "CHOSEN",
+     "basis": "as frame A's A04",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "",
+     "same_as": ""
+    },
+    {
+     "id": "C04",
+     "name": "the Higgs reading (S~, S, S): its global bit",
+     "type": "CHOSEN",
+     "basis": "the relative reading is fixed by charge balance (main; the web seat's W-F13; agy-exp's X-OWN F3); no construction from charges alone fixes the global bit (W-F14); frame A's A05",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-847",
+     "same_as": ""
+    },
+    {
+     "id": "C05",
+     "name": "the end: B1667's horocycle of length 2, read point by point",
+     "type": "CHOSEN",
+     "basis": "B1927: the end is covariant and needs no constant; analyticity selects the length-2 horocycle (the maximal horoball has a corner); the analyticity requirement is a stated regularity condition; frame A's A07",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-845",
+     "same_as": ""
+    },
+    {
+     "id": "C06",
+     "name": "the channel weights sqrt(2 pi L + c_s) at that end",
+     "type": "CHOSEN",
+     "basis": "B1656's frame as banked; the exact horoball norms (A09) are not used; frame A's A09",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "",
+     "same_as": ""
+    },
+    {
+     "id": "C07",
+     "name": "the generations' metric H = I",
+     "type": "CHOSEN",
+     "basis": "as frame A's A08",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-531",
+     "same_as": ""
+    },
+    {
+     "id": "C08",
+     "name": "one coupling for all sectors (no tau and no line: B1928)",
+     "type": "CHOSEN",
+     "basis": "as frame A's A11 without its tau and line",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "P-555",
+     "same_as": ""
+    },
+    {
+     "id": "C09",
+     "name": "the scale: tree level, no running",
+     "type": "CHOSEN",
+     "basis": "as frame A's A12",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "register": "",
+     "same_as": ""
+    }
+   ],
+   "status": "a structural frame, no value claimed (2026-11-14): no FITTED input; tau and the line are not inputs of it (B1928 PROVED); its values are computed (B1928's integral, in the json only) and NOT sealed; the canonical end's numbers are owed a second computation (agy-002's A2-CANON) before any seal. The lepton rows are not claimed: at level 5 the lepton coupling is the down coupling transposed (six times the hypercharge mod 5 is constant on SU(5)'s multiplets), minimal SU(5)'s relation, which the record already notes the measured Georgi-Jarlskog split forbids (B1839's arc, CHANGELOG); a level or structure separating them is owed (P-845). J's sign is not claimed: the tick involution flips it (agy-002's A2-OWN1), so it needs the hand."
   }
  }
 }
