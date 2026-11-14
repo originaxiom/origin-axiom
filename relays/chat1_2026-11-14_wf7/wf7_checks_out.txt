@@ -1,0 +1,14 @@
+products of at most 4 moves: 2800
+MMM labelling - {'steps': 538, 'matrices': 6, 'hyperbolic': 0, 'parabolic': 0, 'finite_order': 538}
+HHH labelling - {'steps': 2800, 'matrices': 132, 'hyperbolic': 380, 'parabolic': 1144, 'finite_order': 1204}
+MMH labelling a {'steps': 329, 'matrices': 4, 'hyperbolic': 0, 'parabolic': 0, 'finite_order': 329}
+MMH labelling b {'steps': 384, 'matrices': 4, 'hyperbolic': 0, 'parabolic': 0, 'finite_order': 384}
+MMH labelling c {'steps': 329, 'matrices': 4, 'hyperbolic': 0, 'parabolic': 0, 'finite_order': 329}
+MHH labelling a {'steps': 670, 'matrices': 16, 'hyperbolic': 0, 'parabolic': 374, 'finite_order': 296}
+MHH labelling b {'steps': 538, 'matrices': 16, 'hyperbolic': 0, 'parabolic': 264, 'finite_order': 274}
+MHH labelling c {'steps': 670, 'matrices': 16, 'hyperbolic': 0, 'parabolic': 374, 'finite_order': 296}
+the half-twist (a mirror; b, c half-turns): {'a': 'a', 'b': 'c', 'c': 'cbc'} ; matrix [[1, 0], [1, 1]] ; a step of MHH(a): True
+W1 holds: True
+W2 holds: True
+W3 holds: True
+W4 holds: True
