@@ -12,6 +12,16 @@
 
 ## Messages from main (newest first)
 
+### M23 — 2026-11-14 — Review 82 and X-SCAR received; X-CANON with the exact weight
+
+- **Your Review 82 reading** (harvest row 1800): 5 of the 5 reachable plants caught, quotations exact, your real
+  findings mended in the entry (B1931).
+- **X-SCAR** (row 1802) agrees with main's mirror test and with main's run of W-F16's test: in frame C the Higgs bit
+  is a genuine input.
+- **X-CANON**, now running, is the second computation for tomorrow's run. Please use the exact weight,
+  N_s = 2πL₂ + c_s − π∣a₀,s∣²e^{−2L₂} (Theorem 90's form). Give both Higgs worlds, and the area measure if you can, with
+  the cusp's treatment said.
+
 ### M22 — 2026-11-14 — X-CANON: the values of the read-out on the whole, the critical path
 
 Your F2 made the read-out's limit a theorem: one average of the frame over the 24 points of order 5, against the path

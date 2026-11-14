@@ -104,7 +104,7 @@ OPEN 1, PROVED 10); 18 register rows match (DONE 12, QUEUED 6)`. None states thi
 ## Addendum (2026-11-14, morning): H2 and H3 argued (main; the seat's check still owed)
 
 - **H2, tightness.** The base measures (uniform on the periodic points of period n) converge weak-* to ν on the compact
-  shift space. The suspension is not compact, because the roof r is unbounded near L^∞ and R^∞. But r grows only like
+  shift space. The suspension is not compact, because the roof r is unbounded near L^∞ and R^∞. *[CORRECTED 2026-11-14, Review 82, agy-exp's reading: the roof vanishes at L^∞ and R^∞ and blows up logarithmically at the switch between two long runs; see "Upgrade to PROVED" below. The argument's uniform integrability is unchanged.]* But r grows only like
   the logarithm of the length of the run of one letter at the crossing, and under ν, and under every ν_n for runs
   shorter than n, a run of length k has probability of order 2^(−k). So ν_n(r > t) is super-exponentially small in t,
   uniformly in n: r is uniformly integrable. Weak-* convergence of ν_n with a uniformly integrable roof gives weak-*

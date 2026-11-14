@@ -1,0 +1,2 @@
+W-F16 test D o C in the fibre frame: world 1 at (a, b) vs world 2 at (-a, -b): max |log| 3.06e+00
+control, world 1 at (a, b) vs world 1 at (-a, -b) (matter's parity): max |log| 6.00e-14

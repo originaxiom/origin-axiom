@@ -24,7 +24,7 @@ no measured value is read and B1656's frame is not evaluated. **0 of 19.**
     a maximum hid it; the rerun uses a stable form and refuses any non-finite value.
   - **Hecke's formula at s = 2,** where every sum converges absolutely: the geodesic integral of the twisted series
     against H(2)·Z_tot(2, χ) summed over orbit representatives, on 17 characters at four levels, to 4 × 10⁻⁸; one
-    character whose series has no phase in n converges to 1.6 × 10⁻⁷ as the m-range grows (`hecke_s2.py`). Main's
+    character whose series has no phase in n converges to 1.6 × 10⁻⁷ as the m-range grows (`hecke_s2.py`). *[CORRECTED 2026-11-14, Review 82, agy-exp's reading: no committed run computed 1.6 × 10⁻⁷. At the kept m-range, ∣m∣ ≤ 60, that character is at 2.0 × 10⁻⁴; as the m-range grows it falls to 2.6 × 10⁻⁵ and 3.2 × 10⁻⁶ at ∣m∣ ≤ 120 and 240, about 1/M³ (`hecke_s2_mrange.py`, `hecke_s2_mrange.json`). The lock now bounds that row and checks the fall.]* Main's
     first run was off by exactly 2: its orbit strip was half as wide as its own docstring says; corrected.
   - **The value at s = 1:** −4 ∫ log|g_Jc| ds by main's own Siegel-function code against the direct sum of Z_tot(1, χ),
     which converges slowly and oscillates: −3.09792 against −3.09774 on the golden level, −1.33420 against −1.33470

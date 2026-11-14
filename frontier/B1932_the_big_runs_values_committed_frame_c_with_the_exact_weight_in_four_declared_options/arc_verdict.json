@@ -1,0 +1,34 @@
+{
+ "id": "B1932",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1928",
+  "B1927",
+  "B1924",
+  "B1919",
+  "B1838",
+  "B1667",
+  "B1720",
+  "B1735"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-SCAR (harvest row 1802, read through the mask): no element of GL(2, Z) exchanges the two Higgs worlds",
+  "the web seat's W-F16 (harvest row 1804): the free-bit count and the named test D o C, run here by main",
+  "the agy lane's Theorem 90 (B1838's note, verified on main): the exact horoball norm's expansion"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C (docs/total_inputs_scoreboard.json) with the exact channel weight",
+  "object": "the read-out on the whole's seven outputs",
+  "reach": "single",
+  "hypotheses": "computed once by main; second computations owed; the end above Im tau = 6 bracketed for measure (b); four declared options: two Higgs worlds, two measures"
+ },
+ "claim_one_line": "THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to about 1e-5; the truncated weight had moved four of them by about 1 %), in four declared options (two Higgs worlds, two measures), in BIG_RUN_VALUES.json; the comparison's rule and script sealed beside them. No value compared. 0 of 19.",
+ "weave_or_thread": "the weave (the read-out on the whole)"
+}

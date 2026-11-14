@@ -35,7 +35,7 @@ R_n → ∫ F̄ dμ as n → ∞, where:
 
 1. **Coding** (Series, 1985; the Farey tessellation). Oriented geodesics on the modular surface correspond to
    bi-infinite L/R cutting sequences, and closed geodesics to cyclic words. The shift is the first-return map to a
-   cross-section, and the return time r(x) is the hyperbolic length between successive crossings, Hölder in x. The
+   cross-section, and the return time r(x) is the hyperbolic length between successive crossings, Hölder in x *[CORRECTED 2026-11-14, Review 82, agy-exp's reading: locally Hölder on each cylinder but unbounded, logarithmically at the switch between two long runs, and vanishing at L^∞ and R^∞; what the argument uses is its uniform integrability, H2]*. The
    uniform measure ν on sequences gives, by suspension, the flow-invariant probability μ = (ν × dt)/E_ν r. Here
    E_ν r < ∞, since it is the Lyapunov exponent of the random product per letter. μ is singular with respect to
    Liouville, as B1868 found.
@@ -60,7 +60,7 @@ R_n → ∫ F̄ dμ as n → ∞, where:
 - **H2:** the weak-* convergence uses bounded F that is continuous μ-a.e. on a non-compact surface. Tightness holds
   because E_ν r < ∞. To check: the cusp excursions of μ-typical paths do not carry F's discontinuities.
 - **H3:** the joint equidistribution in step 3 with length weights. To check: the weights ℓ(w) are Birkhoff sums of the
-  Hölder r, which is covered by the same theorem.
+  Hölder r, which is covered by the same theorem. *[CORRECTED 2026-11-14, Review 82, agy-exp's reading: r is not bounded and not globally Hölder; the closed-orbit theorem is applied on the countable-alphabet coding with r locally Hölder and uniformly integrable, as H2 states]*
 - **The rate:** not claimed. B1924 sees the twin's difference fall below its errors by n = 16.
 
 ## The test the proof predicts (running: `fiber_grid.py`, then the ergodic average)

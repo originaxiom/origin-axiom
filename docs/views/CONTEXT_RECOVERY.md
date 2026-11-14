@@ -13,36 +13,36 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1627 |
-| … PROVED | 1132 |
+| arcs with a verdict file | 1629 |
+| … PROVED | 1133 |
 | … NEGATIVE | 384 |
-| … OPEN | 98 |
+| … OPEN | 99 |
 | … RETRACTED | 13 |
 | register points | 849 |
-| … “QUEUED” | 306 |
+| … “QUEUED” | 305 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 527 |
+| … “DONE” | 528 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1799 |
+| harvest rows (the last number) | 1806 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
+| B1931 | PROVED | “REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could pa…” |
 | B1930 | PROVED | “THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/,…” |
 | B1929 | PROVED | “THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found p…” |
-| B1928 | PROVED | “[UPGRADED 2026-11-14 from OPEN on agy-exp's independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (…” |
+| B1928 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent proof of H1 to H3, harvest row 1798, with a correction to the return time's blow-up locus] THE READ-OUT ON THE WHOLE IS ONE AVERAGE OVER THE 24 POINTS OF ORDER 5 (PROVED…” |
 | B1927 | PROVED | “THE END FIXED BY THE FIBRE'S OWN GEOMETRY: B1667's canonical end is covariant (L(-1/tau) = L(tau) + log∣tau∣ to 4e-12; mirror 3e-13), so the invariant end is a modular function fixed point by point and the frame read wi…” |
 | B1926 | PROVED | “AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so eve…” |
 | B1925 | PROVED | “THE SELECTION TESTED BY CHANGING IT (P-831's rule, the author's question): the tick's structure (a frustrated line of order m^2 + 4, the tick a square root of -1 on it, the hand as the parity of ticks plus undoings) hol…” |
-| B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on agy-002's second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS (OPEN): with P-845's condition (all…” |
+| B1924 | PROVED | “[UPGRADED 2026-11-14 from OPEN on an independent second computation, harvest row 1790; CORRECTED: the twin is not fading but exactly equal at every n] THE READ-OUT ON THE WHOLE, FIRST RUNS: with P-845's condition (allow…” |
 | B1923 | PROVED | “THE LOAD-BEARING NEGATIVES RE-EXAMINED, AND THE LINE'S TWIN EXCHANGES THE TWO ICOSAHEDRAL TRIPLETS: 26 negatives of two weeks with their second-computation status (three done, one assigned, the rest assigned) and main's…” |
 | B1922 | PROVED | “THE FRAME IS PERIODIC ALONG A THREAD'S GEODESIC EXACTLY AT THE THREAD'S OWN LINE, WITH THE INVARIANT END (golden thread): with the end shifted as B1724's transport asks (L~ fixed), the covariant readings S and S~ at the…” |
 | B1921 | PROVED | “THE END'S SHIFT UNDER S IS THE CHANNEL NORM'S TAU-TERM (B1724's numerical note, closed): S rescales the fibre, the kernel has weight one, and the regularisation's excised disc rescales by ∣tau∣, so N(c', -1/tau) = N(c,…” |
-| B1920 | PROVED | “THE CHANNEL NORM'S LINE PART, AVERAGED ALONG THE THREAD, IS THE KRONECKER LIMIT OF THE THREAD'S SHIFTED PARTIAL ZETA, THE L-FUNCTION WHOSE ODD VALUE IS THE SLOPE; NOT AT THE APEX (the SM seat's SM-C7 steps 3-4, verified…” |
-| B1919 | PROVED | “B1656'S CHANNEL NORM IS THE KRONECKER LIMIT OF THE SHIFTED LATTICE AT THE KERNEL'S OWN SHIFT, PLUS pi log Im tau - 2 pi (gamma + log pi) (the SM seat's calibration finding, verified by main on 24 cases to 4.9e-7; replac…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 

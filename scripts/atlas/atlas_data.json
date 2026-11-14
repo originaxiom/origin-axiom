@@ -17193,6 +17193,35 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1931": {
+   "slug": "review 82 entered both readers caught every plant they could reach",
+   "motifs": [
+    "metallic"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1932": {
+   "slug": "the big runs values committed frame c with the exact weight in four declared options",
+   "motifs": [
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B193": {
    "slug": "sealing field scouts",
    "motifs": [

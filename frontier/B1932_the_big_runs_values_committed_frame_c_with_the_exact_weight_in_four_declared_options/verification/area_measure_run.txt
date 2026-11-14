@@ -1,0 +1,6 @@
+truncated weight, end above 6 held: done; tail share of the area weight 0.159
+truncated weight, end above 6 trend: done; tail share of the area weight 0.159
+exact weight, end above 6 held: done; tail share of the area weight 0.159
+exact weight, end above 6 trend: done; tail share of the area weight 0.159
+max |d ln| between the end's two brackets (exact weight): 5.42e-03
+max |d ln| exact against truncated weight (held): 1.14e-02

@@ -1,5 +1,7 @@
 # B1924 — The read-out on the whole, first runs: the threads' averages settle as the history grows, and the dependence on the twin fades
 
+*[UPGRADED 2026-11-14 to PROVED for the claims as corrected, on an independent second computation (harvest row 1790); see the section "Second computation, corrections and upgrade" below. This header is kept as written; Review 82, agy-exp's reading.]*
+
 **Verdict: OPEN** (numerical evidence at the 10⁻² level; no limit is proved; an independent second computation is
 owed). cc (main), 2026-11-13 to 14 (S306p). Values are written to the json files only, before any comparison; none is
 printed, none is set beside a measured number, and no read-out is compared with any value of τ on record. **0 of 19.**

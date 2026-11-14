@@ -22,8 +22,8 @@
   "frame": "none (the closed torus bundles T^2_M with flat line bundles from torsion characters)",
   "object": "the twisted eta invariant eta_A(T^2_M) and the record's odd L-value L_odd(1, chi_c) along the act's geodesic",
   "reach": "general",
-  "hypotheses": "M hyperbolic in SL(2, Z); c a non-trivial torsion character fixed by M; the proof is agy-exp's (read through the mask); main's checks: the Siegel winding on 601 characters and the identity end to end"
+  "hypotheses": "M hyperbolic in SL(2, Z); c a non-trivial torsion character fixed by M; the proof is a seat's (harvest row 1788, read through the mask); main's checks: the Siegel winding on 601 characters and the identity end to end"
  },
- "claim_one_line": "THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc by the SM seat, proved by agy-exp through the Siegel functions' transformation law). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.",
+ "claim_one_line": "THE RECORD'S ODD L-VALUE IS THE TWISTED ETA INVARIANT OF THE CLOSED TORUS BUNDLE: eta_A(T^2_M) = rho_A + eta(T^2_M) = -L_odd(1, chi_c)/pi^2 for every hyperbolic act and every non-trivial fixed torsion character (found post hoc in a population run, harvest row 1764; proved independently through the Siegel functions' transformation law, harvest row 1788). Main's own code: L_odd(1)/(pi i Delta) = -2.0000000000 on all 561 characters with a non-zero Siegel winding (Re Delta < 3e-14), and the identity end to end on all 601 to 3.1e-14. The odd L-value flips with the orientation: a candidate carrier for the hand on the closed bundle. 0 of 19.",
  "weave_or_thread": "thread (every closed geodesic of an act with a fixed character)"
 }

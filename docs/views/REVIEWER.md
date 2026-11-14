@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1627** |
-| words of findings prose | **1,457,855** |
+| research arcs with findings | **1629** |
+| words of findings prose | **1,459,391** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1627** (100.0 %) |
+| arcs carrying an authored verdict | **1629** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1132 |
+| PROVED | 1133 |
 | NEGATIVE | 384 |
-| OPEN | 98 |
+| OPEN | 99 |
 | RETRACTED | 13 |
 
 ## How the doors were shut
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1930`** (493 words, 0 locks)  
-“THE FOUNDATION AT VERSION 1.68: ITS SIX PATHS INTO THE MOVED HISTORICAL FOLDERS NAME THEIR FILES UNDER docs/archive/, NO ITEM ADDED AND NO STATUS CHANGED (four into philosophy/, one into paths/, one into speculations/, in sections 0 to 8; the version log keeps its paths as written, resolved through the log of moves). Written by the version's own script, which holds no sentence of the foundation; its lock takes the version back and gives the page again.”  
-`B1930_the_foundation_at_version_1_68/FINDINGS.md`
+**PROVED — `B1931`** (541 words, 0 locks)  
+“REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.”  
+`B1931_review_82_entered_both_readers_caught_every_plant_they_could_reach/FINDINGS.md`
 
 **NEGATIVE — `B1907`** (1780 words, 0 locks)  
 “THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  

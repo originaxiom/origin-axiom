@@ -3474,7 +3474,10 @@ def gate_arc_data():
 NEGATIVE_SECOND_FROM_ARC = 1923
 _SECOND_COMPUTATION_RE = re.compile(r"second computation", re.I)
 # an entry that names the second computation only as not yet made does not count as naming one made
-_SECOND_NOT_YET_RE = re.compile(r"\b(owed|assigned|pending|not yet|awaited|awaiting|to come|to be made|outstanding)\b", re.I)
+_SECOND_NOT_YET_RE = re.compile(r"\b(owed|assigned|pending|not yet|awaited|awaiting|to come|to be made|outstanding)\b"
+                                # Review 82 (agy-exp's F-R82-15): a negation before the words, as in "no second computation"
+                                # or "without an independent second computation", names none made
+                                r"|\b(no|without|never|lacks?|lacking)\b(\s+[\w-]+){0,3}\s+second computation", re.I)
 _PROVISIONAL_RE = re.compile(r"\bPROVISIONAL\b")
 _WALL_TEACHES_RE = re.compile(r"^#{1,6}[ \t][^\n]*?what the wall teaches", re.I | re.M)   # a heading that holds the words
 

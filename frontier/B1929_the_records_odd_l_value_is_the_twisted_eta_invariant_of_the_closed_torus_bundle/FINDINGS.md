@@ -64,3 +64,8 @@ RETRACTED 1); 2 register rows match (QUEUED 2)`. None states this identity. Read
 - `verification/received_sm/`: the SM seat's population, results and Bohn transcription, unchanged, with their source
   commit in `PROVENANCE.txt`.
 - The lock: `verification/test_b1929_twisted_eta.py`.
+
+## A further independent check (2026-11-14)
+
+The SM seat's SM-C12 (harvest row 1806), under seal: the identity holds on all 911 characters of 13 levels this page
+never saw, largest rational residual 1.5 × 10⁻¹⁵, with its second computation agreeing and three plants firing.

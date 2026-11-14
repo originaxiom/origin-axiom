@@ -31,7 +31,7 @@ metallic acts, what happens when both are allowed, and can the choice be strengt
   tick bundles are 1.01, 1.83, 2.41, 2.79, 3.03, 3.20 and 3.31.
 - **So the distinction's structure does not single out the golden act.** A frustrated line, a tick acting on it as half
   an opposite, and the hand as the parity of ticks plus undoings all hold for every odd m whose level is prime (here
-  m = 1, 3, 5, 7). They fail for every even m. Bronze (m = 3) is a full rival there.
+  m = 1, 3, 5, 7). *[superseded by the correction of 2026-11-14 below: every odd m, prime level or not; Review 82, agy-exp's reading]* They fail for every even m. Bronze (m = 3) is a full rival there.
 - **What separates the golden act from bronze is the left-over, and that is the same condition as the level**
   (`selection_equivalence.py`, exact):
   - For A in SL(2, ℤ) the bundle's torsion has order ∣det(A − I)∣ = ∣2 − tr A∣ (T-ROOT). The frustrated level, the
@@ -50,7 +50,7 @@ metallic acts, what happens when both are allowed, and can the choice be strengt
 
   | the rule | what it picks |
   |---|---|
-  | the tick's structure (a prime level; the tick a square root of −1; the parity law) | every odd m with m² + 4 prime: 1, 3, 5, 7, … |
+  | the tick's structure (a prime level; the tick a square root of −1; the parity law) | every odd m with m² + 4 prime: 1, 3, 5, 7, … *[superseded by the correction of 2026-11-14 below: every odd m, prime level or not; Review 82, agy-exp's reading]* |
   | SE1, nothing left over | m = 1, the golden (and its tick bundle m000) |
   | the frustrated level's symmetry a finite rotation group (B997, B1859) | the golden among primitive grammars; the same as SE1 for positive trace |
   | least trace; least volume | the golden |
@@ -71,7 +71,7 @@ metallic acts, what happens when both are allowed, and can the choice be strengt
 ## 3. What the wall teaches
 
 - The tick's structure, which seemed tonight to be the golden act's own, is a family property: it holds for every odd
-  metallic act with a prime level. The golden act's speciality is not in the distinction, the half-opposite; it is in
+  metallic act with a prime level. *[superseded by the correction of 2026-11-14 below: every odd m, prime level or not; Review 82, agy-exp's reading]* The golden act's speciality is not in the distinction, the half-opposite; it is in
   the remainder. It is the only act whose cancellation leaves nothing over except the frustrated pair, and that is the
   same as its frustrated points having the icosahedral symmetry.
 - **Clue, entered as a lead and not used:** the record's three quaternion groups nest. The scar's fixed point is the Q₈
@@ -124,6 +124,6 @@ where every odd level happens to be prime, and the qualifier "with a prime level
   square roots than ±1: it holds.
 
 So the tick's structure picks **every odd metallic act**, not "every odd m with m² + 4 prime". Nothing else on this page
-changes. The web seat's part 1 is this arc's independent second computation. **Also cited, missed at landing:** B469
+changes. *[2026-11-14, Review 82, agy-exp's reading: three sentences above said "prime" and are now marked as superseded in place: the second bullet of the selection's summary, the table's first row, and the bullet after the table.]* The web seat's part 1 is this arc's independent second computation. **Also cited, missed at landing:** B469
 already had that every metallic bundle double-covers a non-orientable bundle (X_m² = A_m), the tick bundles of § 1's
 table.

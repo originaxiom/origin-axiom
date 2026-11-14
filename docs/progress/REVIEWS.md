@@ -9127,3 +9127,22 @@ mathematics of this window's later days (B1906 to B1916) landed after the window
 - [ ] R81-14: the branch review-81/read removed once Review 82's reading commit replaces it (owner: cc)
 
 **anchor-commit: `0e637ea9e`**
+
+## Review 82 (entered 2026-11-14; B1931)
+
+## In one minute
+- **The readers:** two (agy-exp, agy-002). Each caught 5 of the 5 plants it could reach. The sixth sat in lines both
+  were bound to skip, which was main's placement error.
+- **The findings:** 15 and 28. The first reader's are mended in this entry; the second's new ones are R82-1.
+- **The quotations:** every one main's check could parse is exact.
+
+### Action items (Review 82)
+- [ ] R82-1: agy-002's new findings, as B1931 lists them, built by the building session and checked by main (owner: cld-advisor, main)
+- [ ] R82-2: the 21 older verdict lines (B1814 to B1908) that name a session in their claim, re-worded with the credit in cites_seat (owner: cld-advisor)
+- [ ] R82-3: the full suite on a fresh clone of the head that carries this entry, and its result entered (owner: cc)
+- [ ] R82-4: a plant is never placed inside a reader's recused lines (owner: cc)
+- [ ] R82-5: review-82/read removed once Review 83's reading commit replaces it (owner: cc)
+- [ ] R82-6: R81-1 to R81-10, carried a second time; at the third carry each is resolved, declined with its reason, or waived by the author (owner: cc)
+
+**anchor-commit: `73e71e277`**
+

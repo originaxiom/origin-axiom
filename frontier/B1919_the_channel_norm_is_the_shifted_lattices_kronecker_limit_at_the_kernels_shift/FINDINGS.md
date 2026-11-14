@@ -17,7 +17,7 @@
 - **Main's check** (`verification/seat_formula.py`, `seat_formula_check.json`): F_u computed from its Fourier expansion
   (a pair of Hurwitz zetas and a Bessel series), the norm by main's quadrature of B1656's definition: on 24 cases (eight
   characteristics at each of three points of the golden geodesic) the two agree to 4.9 × 10⁻⁷, the size of main's
-  truncation; the seat reports 10⁻¹¹ with its own code. The rotated placement of u fails by 0.3 to 7, as it must.
+  truncation; the seat reports 10⁻¹¹ with its own code. *[CORRECTED 2026-11-14, Review 82, agy-exp's reading: the 24 kept cases were not the run of `seat_formula.py`, whose own run covers four characteristics in two placements at the top point only. They are now reproduced value for value (differences 0) by `seat_formula_24.py` (`seat_formula_24_run.json`), from the same functions. The two points off the top are kept to four decimals and lie on the golden geodesic to 4 × 10⁻⁵; the identity holds at every τ, so the rounding does not touch the check.]* The rotated placement of u fails by 0.3 to 7, as it must.
 - **What follows** (the seat's reading, checked by main in its first part only):
   - the line enters the channel norm through a shift u, not a character; F_u is the Kronecker limit of the shifted
     lattice, and B1917's coefficient was of the character-twisted lattice: the two are a finite Fourier transform apart;

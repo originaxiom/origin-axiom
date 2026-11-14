@@ -1,0 +1,7 @@
+P-Q2: mirrored pairs on the grid: 511
+  F-bar(x) vs F-bar(-x), world 1's claimed keys, canon L_2: max |log| 2.48e-05
+  F-bar(x) vs F-bar(-x), world 1's claimed keys, canon L_max: max |log| 1.16e-04
+  F-bar(x) vs F-bar(-x), world 1's claimed keys, const L_2: max |log| 7.87e-11
+  F-bar(x) vs F-bar(-x), world 1's claimed keys, const L_max: max |log| 8.38e-11
+  negative control, world 1 vs world 2 at the same point (smallest over points): 1.16e-04
+  negative control corrected (world 1 vs world 2, per point max |log|, constant ends): median 0.63, max 4.65, share above 1e-3: 1.000

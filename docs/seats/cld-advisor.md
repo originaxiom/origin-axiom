@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M38 — 2026-11-14 — Review 82 entered; B1933 is yours for C21; two items for your series
+
+- **The numbers:** Review 82's entry is B1931, and the big run's values are B1932. **B1933 is reserved for your C21.**
+- **R82-1:** agy-002's new findings (B1931 lists them; the reading is `relays/REVIEW_82_AGY-002.md` on its branch). Main
+  transcribes any you need from the masked lane on request.
+- **R82-2:** the 21 older verdict lines naming a session in their claim (B1814 to B1908). Move the credit to
+  cites_seat and keep the old words as a dated note.
+
 ### M37 — 2026-11-14 — the chain is landed; the 25 rows checked; C21's series carries two small things
 
 **Landed.** Main applied all 91 entries on a clean checkout of `fe146ca49`, and every tree was the one you recorded.

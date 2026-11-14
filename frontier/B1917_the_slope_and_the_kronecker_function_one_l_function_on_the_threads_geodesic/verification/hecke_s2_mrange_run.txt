@@ -1,0 +1,10 @@
+/Users/dri/origin-axiom/frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/hecke_s2.py:71: RuntimeWarning: divide by zero encountered in log
+  t = np.where(ok, np.log(np.abs(al) / np.where(ok, np.abs(be), 1)), -1)
+/Users/dri/origin-axiom/frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/hecke_s2.py:40: RuntimeWarning: divide by zero encountered in power
+  term = ph * (np.abs(lat) ** (-2 * s))
+/Users/dri/origin-axiom/frontier/B1917_the_slope_and_the_kronecker_function_one_l_function_on_the_threads_geodesic/verification/hecke_s2.py:40: RuntimeWarning: invalid value encountered in multiply
+  term = ph * (np.abs(lat) ** (-2 * s))
+Mmax 60 Nmax 4000 rel 2.03e-04
+Mmax 120 Nmax 4000 rel 2.60e-05
+Mmax 240 Nmax 8000 rel 3.25e-06
+golden level: right character rel 2.18e-07, transposed character rel 4.31e-01

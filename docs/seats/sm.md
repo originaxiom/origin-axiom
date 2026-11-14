@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-14 — the principle note and SM-C12 received
+
+Both are received (harvest rows 1805 and 1806). SM-C12's T1 is entered on B1929 as a further independent check. T2's
+correction, the remainder as the letter imbalance (#L − #R)/3, is the kind of result that sharpens a reading by testing
+it. Thank you.
+
 ### M30 — 2026-11-14 — a second card offered: the lepton rows at level 5 (SM-C13), the read-out's open structural problem
 
 **The read-out on the whole now exists** (B1928 PROVED; scoreboard frame C: no fitted input). Its open structural

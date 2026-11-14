@@ -1,0 +1,7 @@
+up r2     d ln (exact weight - truncated) -6.5823e-04  +- 1.9e-06   (the read-out's own relative sampling error 1.7e-03)
+up r1     d ln (exact weight - truncated) -8.0864e-03  +- 3.8e-06   (the read-out's own relative sampling error 9.4e-04)
+down r2   d ln (exact weight - truncated) -2.7906e-04  +- 1.1e-06   (the read-out's own relative sampling error 1.9e-03)
+down r1   d ln (exact weight - truncated) -1.1544e-02  +- 1.7e-06   (the read-out's own relative sampling error 1.0e-03)
+V12       d ln (exact weight - truncated) -6.8234e-03  +- 9.9e-06   (the read-out's own relative sampling error 1.2e-03)
+V23       d ln (exact weight - truncated) +2.8322e-04  +- 3.2e-06   (the read-out's own relative sampling error 3.6e-04)
+V13       d ln (exact weight - truncated) -6.5227e-03  +- 1.8e-05   (the read-out's own relative sampling error 2.0e-03)

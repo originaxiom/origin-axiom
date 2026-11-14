@@ -1,0 +1,32 @@
+{
+ "id": "B1931",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1916",
+  "B1924",
+  "B1925",
+  "B1926",
+  "B1927",
+  "B1928",
+  "B1929"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's Review 82 reading (harvest row 1800, read through the mask): 15 findings, 5 plants caught",
+  "agy-002's Review 82 reading (harvest row 1801, read through the mask): 28 findings, 5 plants caught"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Review 82: main's work from 0e637ea9e to 73e71e277, read at 86930f574",
+  "object": "the window's arcs, their locks and the ledgers they touch",
+  "reach": "single",
+  "hypotheses": "the readers' recusals; main's quotation check parses 29 quotations; what two readers that built none of it found, checked by main"
+ },
+ "claim_one_line": "REVIEW 82: two readers that built none of the window each caught 5 of the 5 planted faults they could reach (the sixth sat in lines both were bound to skip, main's placement error); every quotation main's check could parse is exact (14 of 14, 15 of 15); the first reader's real findings are mended here, the second's new ones are action item R82-1. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

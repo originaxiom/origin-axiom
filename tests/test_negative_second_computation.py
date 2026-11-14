@@ -43,7 +43,10 @@ def test_a_negative_with_no_second_computation_and_no_provisional_fails_and_its_
 
 def test_a_second_computation_named_only_as_owed_does_not_count(monkeypatch):
     for words in ("a second computation is assigned to agy-002", "second computation owed", "the second computation: pending",
-                  "a second computation is not yet made"):
+                  "a second computation is not yet made",
+                  # Review 82 (agy-exp's F-R82-15): negations before the words passed before this mend
+                  "no second computation", "computed once, without an independent second computation",
+                  "never given a second computation"):
         rd = _plant(monkeypatch, {"B99924_y": (_negative(99924, cites=[words]), WALL)})
         ok, msg = gates.gate_negative_second_computation(reader=rd)
         assert not ok and "B99924" in msg, words

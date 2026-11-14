@@ -1,0 +1,3 @@
+tau (0.25+3j)  L_2 2.340  lines 24 (failed 0)  norm gap median 7.69e-06 max 4.94e-05  seven outputs max |d ln| 3.12e-05  (383 s)
+tau (0.25+1.5j)  L_2 2.539  lines 24 (failed 0)  norm gap median 6.57e-06 max 3.54e-05  seven outputs max |d ln| 1.84e-05  (670 s)
+tau 1j  L_2 2.697  lines 24 (failed 0)  norm gap median 8.81e-06 max 2.34e-05  seven outputs max |d ln| 1.97e-05  (817 s)

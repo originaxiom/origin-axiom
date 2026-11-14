@@ -1,0 +1,16 @@
+mirror  ab++   world1->world2 3.46e+00   world1->world1 1.51e+00
+mirror  ab+-   world1->world2 3.06e+00   world1->world1 2.20e-06
+mirror  ab-+   world1->world2 3.06e+00   world1->world1 2.20e-06
+mirror  ab--   world1->world2 3.46e+00   world1->world1 1.51e+00
+mirror  ba++   world1->world2 2.91e+00   world1->world1 4.65e+00
+mirror  ba+-   world1->world2 4.32e+00   world1->world1 4.51e+00
+mirror  ba-+   world1->world2 4.32e+00   world1->world1 4.51e+00
+mirror  ba--   world1->world2 2.91e+00   world1->world1 4.65e+00
+swap    ab++   world1->world2 4.19e+00   world1->world1 4.53e+00
+swap    ab+-   world1->world2 2.65e+00   world1->world1 4.67e+00
+swap    ab-+   world1->world2 2.65e+00   world1->world1 4.67e+00
+swap    ab--   world1->world2 4.19e+00   world1->world1 4.53e+00
+swap    ba++   world1->world2 3.22e+00   world1->world1 3.06e+00
+swap    ba+-   world1->world2 3.63e+00   world1->world1 2.35e+00
+swap    ba-+   world1->world2 3.63e+00   world1->world1 2.35e+00
+swap    ba--   world1->world2 3.22e+00   world1->world1 3.06e+00

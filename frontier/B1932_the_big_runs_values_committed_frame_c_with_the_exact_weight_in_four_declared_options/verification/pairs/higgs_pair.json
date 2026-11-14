@@ -1,0 +1,66 @@
+{
+ "mirror|ab++": {
+  "world1_to_world2": 3.4561343820887394,
+  "world1_to_world1 (control)": 1.507820033417045
+ },
+ "mirror|ab+-": {
+  "world1_to_world2": 3.063209324995037,
+  "world1_to_world1 (control)": 2.195418740719034e-06
+ },
+ "mirror|ab-+": {
+  "world1_to_world2": 3.0632093249950385,
+  "world1_to_world1 (control)": 2.1954187411631223e-06
+ },
+ "mirror|ab--": {
+  "world1_to_world2": 3.45613438208874,
+  "world1_to_world1 (control)": 1.5078200334170444
+ },
+ "mirror|ba++": {
+  "world1_to_world2": 2.9051295266322676,
+  "world1_to_world1 (control)": 4.653459326902438
+ },
+ "mirror|ba+-": {
+  "world1_to_world2": 4.315173510802516,
+  "world1_to_world1 (control)": 4.5052836851950335
+ },
+ "mirror|ba-+": {
+  "world1_to_world2": 4.315173510802455,
+  "world1_to_world1 (control)": 4.505283685194959
+ },
+ "mirror|ba--": {
+  "world1_to_world2": 2.90512952663226,
+  "world1_to_world1 (control)": 4.653459326902438
+ },
+ "swap|ab++": {
+  "world1_to_world2": 4.19395634712381,
+  "world1_to_world1 (control)": 4.528040676217369
+ },
+ "swap|ab+-": {
+  "world1_to_world2": 2.6506653914144045,
+  "world1_to_world1 (control)": 4.667047987841917
+ },
+ "swap|ab-+": {
+  "world1_to_world2": 2.650665391414387,
+  "world1_to_world1 (control)": 4.667047987841916
+ },
+ "swap|ab--": {
+  "world1_to_world2": 4.193956347123798,
+  "world1_to_world1 (control)": 4.528040676217369
+ },
+ "swap|ba++": {
+  "world1_to_world2": 3.2161042342301673,
+  "world1_to_world1 (control)": 3.0595495262744636
+ },
+ "swap|ba+-": {
+  "world1_to_world2": 3.625882816714741,
+  "world1_to_world1 (control)": 2.3476725481377048
+ },
+ "swap|ba-+": {
+  "world1_to_world2": 3.6258828167147454,
+  "world1_to_world1 (control)": 2.3476725481377065
+ },
+ "swap|ba--": {
+  "world1_to_world2": 3.2161042342301935,
+  "world1_to_world1 (control)": 3.0595495262744907
+ }
+}

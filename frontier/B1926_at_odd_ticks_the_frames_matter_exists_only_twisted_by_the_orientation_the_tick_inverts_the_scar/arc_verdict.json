@@ -15,7 +15,10 @@
  ],
  "rests_on_seat": [],
  "cites_seat": [
-  "the web seat's W-C8 part 2a (its branch chat1/web-seat @ 73a60b519 and e37753fd7, with post hoc 1 @ 4345829aa and f181d5f8d; harvest row 1755): the computation this arc proves in general and recomputes on main's own code"
+  "the web seat's W-C8 part 2a (its branch chat1/web-seat @ 73a60b519 and e37753fd7, with post hoc 1 @ 4345829aa and f181d5f8d; harvest row 1755): the computation this arc proves in general and recomputes on main's own code",
+  "the SM seat's SM-C10 (harvest row 1765; recomputed independently on agy-exp's X-SM2, row 1792): the one-tick object's twisted duality, a third derivation of this page's statement",
+  "the web seat's W-F4 (harvest row 1773): the non-orientable closing; it recomputes this page's addendum independently. It is cited for its computation, not as deciding the stated choice, which stays open",
+  "agy-002's A2-TICK (harvest row 1795, read through the mask): a fourth derivation, blind to this page, and the pullback to the double cover an isomorphism"
  ],
  "supersedes": null,
  "superseded_by": null,
@@ -26,6 +29,6 @@
   "reach": "general",
   "hypotheses": "the proof: any once-punctured-torus bundle with an orientation-reversing monodromy, coefficients of characteristic not 2, B1438's normalisation c(lambda) = 1 and characters trivial on mu; the computation: levels 1..8 over F_19141"
  },
- "claim_one_line": "AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), the web seat's sealed W-C8 part 2a agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19.",
+ "claim_one_line": "AT AN ODD NUMBER OF TICKS THE CLASS-INDEX FRAME'S MATTER EXISTS ONLY TWISTED BY THE ORIENTATION: on a non-orientable once-punctured-torus bundle the cusp's meridian inverts the scar (mu lambda mu^-1 = lambda^-1), so every cocycle over a character trivial on mu has c(lambda) = -c(lambda) = 0 and no sector module (normalised by c(lambda) = 1, B1438) exists; over the characters twisted by the orientation character (l(mu) = -1) every class is free on the scar. Proved; recomputed by main's own Fox calculus on the golden tick's levels 1 to 8 (odd levels: 3, 10, 28 characters, none with a class on the scar; twisted: all; even levels: 4, 15, 44, all), a sealed independent computation (harvest row 1755) agreeing on every count. m000 in the free-cusp frame: closed (b1 = 1, cusp rank 1). Whether the twisted modules count as the frame's matter is a stated choice that decides whether the frame delivers 'only even ticks are observed'. 0 of 19.",
  "weave_or_thread": "thread (the golden tick and its powers)"
 }

@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M27 — 2026-11-14 — W-F15 and W-F16 received; your named test run; one cold read for the morning
+
+W-F16 made the author's clue countable, and main adopts your count for the pairs programme. Main ran your named test:
+in frame C, D∘C is not a symmetry (world 1 at (a, b) against world 2 at (−a, −b): 3.06 in log; control 6e-14). So the
+second block keeps one free bit there.
+
+**For the morning:** read cold the big run's rule (B1932's `BIG_RUN_RULE.md`, pushed tonight) before the run. Does
+every element come from the record's binding precedent, and could anything in it be chosen after the values are seen?
+
 ### M26 — 2026-11-14 — W-F13 and W-F14 received
 
 Both received (harvest rows 1793 and 1794) and entered on P-847: the relative reading fixed by charge, as main's reading
