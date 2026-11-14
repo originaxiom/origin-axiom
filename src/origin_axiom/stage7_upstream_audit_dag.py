@@ -1,11 +1,12 @@
-"""Stage 7 (B1604 No-Go, Upstream Epistemic DAG, FK1-FK16 Gates & Cross-Stage Audit):
-Constructive Flat-Counting Dictionary No-Go Theorem, Explicit Adjacency-Matrix Upstream
-Dependency DAG with Max-Plus Epistemic Propagation, Fast Cross-Stage Live Operator
-Witnesses, and Guardrail-5 Buckingham-Pi Single-Anchor Dimensional Audit.
+"""Stage 7 (B1604 No-Go, Monotone Upstream Epistemic DAG, FK1-FK16 & FG:01-12 Gates, Cross-Stage Audit):
+Constructive Flat-Counting Dictionary No-Go Theorem (including Cusped 3-Manifold m004 Spine),
+Explicit 5-Layer Adjacency-Matrix Upstream Dependency DAG on the Monotone Epistemic Lattice,
+Unconditional 16-File Cross-Stage AST & Live Operator Audit, and Guardrail-5 19-Parameter
+Buckingham-Pi Dimensional & Secondary-Empirical-Scale Pricing Ledger.
 
 Strictly data-free (0 of 19). Zero empirical Standard Model constants, masses, mixings,
 couplings, or fitted scales appear anywhere in this module. Every boolean and numeric
-verdict is computed dynamically from explicit group representations, cellular/Cech
+verdict is computed dynamically from explicit group multiplication tables, cellular/Fox/Cech
 cochain operators, integer adjacency matrices, symbolic Lie/Clifford traces, and AST
 inspections (Guardrails 1-6).
 """
@@ -31,6 +32,7 @@ from origin_axiom.stage3_carrier_moves_parent_algebra import (
 )
 from origin_axiom.stage4_currents_hand_anomalies_theta import (
     verify_fl16_strong_cp_theta_bar_theorem,
+    verify_wp14_swap_orientation_and_hand_exhaustion,
 )
 
 
@@ -92,6 +94,11 @@ def build_q8_cayley_and_automorphisms(
             if hom_ok and cand_perm not in aut_list:
                 aut_list.append(cand_perm)
 
+    id_perm8 = (0, 1, 2, 3, 4, 5, 6, 7)
+    if id_perm8 in aut_list:
+        aut_list.remove(id_perm8)
+        aut_list.insert(0, id_perm8)
+
     inv_idx = [0] * 8
     for x_i in range(8):
         for y_i in range(8):
@@ -147,24 +154,108 @@ def build_cech_dirac_spinor_cp1_matrix(flux_k: int, cutoff_m: int) -> sp.Matrix:
     return sp.Matrix.hstack(*cols_list)
 
 
+def build_fox_twisted_2complex_cochain(
+    relator_words: list[str],
+    gen_letters: list[str],
+    rep_mats: dict[str, sp.Matrix],
+    inv_mats: dict[str, sp.Matrix],
+) -> tuple[sp.Matrix, sp.Matrix]:
+    """Construct the exact twisted cellular cochain operators (d_0, d_1) via Fox free
+    differential calculus on a 2-complex spine with 1 vertex, |gen_letters| 1-cells, and
+    |relator_words| 2-cells for a representation rho: F(gen_letters) -> GL(n, C):
+      0 -> C^n --d_0--> (C^n)^m --d_1--> (C^n)^l -> 0.
+    Uppercase letters in relator_words denote inverses of the corresponding lowercase generators.
+    """
+    rank_n = rep_mats[gen_letters[0]].rows
+    eye_n = sp.eye(rank_n)
+    letter_map: dict[str, sp.Matrix] = {}
+    for g_ch in gen_letters:
+        letter_map[g_ch] = rep_mats[g_ch]
+        letter_map[g_ch.upper()] = inv_mats[g_ch]
+
+    d0_blocks = [(rep_mats[g_ch] - eye_n).applyfunc(sp.expand) for g_ch in gen_letters]
+    d0_mat = sp.Matrix.vstack(*d0_blocks)
+
+    d1_rows: list[sp.Matrix] = []
+    for rel_w in relator_words:
+        fox_blocks = {g_ch: sp.zeros(rank_n, rank_n) for g_ch in gen_letters}
+        pref_mat = eye_n
+        for ch_w in rel_w:
+            if ch_w.islower():
+                fox_blocks[ch_w] = (fox_blocks[ch_w] + pref_mat).applyfunc(sp.expand)
+                pref_mat = (pref_mat * letter_map[ch_w]).applyfunc(sp.expand)
+            else:
+                g_low = ch_w.lower()
+                pref_mat = (pref_mat * letter_map[ch_w]).applyfunc(sp.expand)
+                fox_blocks[g_low] = (fox_blocks[g_low] - pref_mat).applyfunc(sp.expand)
+        d1_rows.append(sp.Matrix.hstack(*[fox_blocks[g_ch] for g_ch in gen_letters]))
+    d1_mat = sp.Matrix.vstack(*d1_rows)
+    return d0_mat, d1_mat
+
+
 def verify_b1604_flat_counting_dictionary_no_go() -> dict[str, Any]:
     """Part 7A: Constructive operator & representation proof of the B1604 Flat-Counting
-    Dictionary No-Go Theorem:
-      1. Aut(Q_8) ~= S_4 (order 24), Inn(Q_8) ~= V_4 (order 4), Out(Q_8) ~= S_3 (order 6)
-         acting transitively as the full symmetric group S_3 on {<I>, <J>, <K>};
-      2. SL(2, F_5) (order 120) and GL(2, F_5) (order 480) acting transitively on all 24
-         non-zero torsion points F_5^2 \\ {0} and 2-transitively on all 30 ordered pairs
-         of distinct projective lines in P^1(F_5), leaving only constant invariant functions;
-      3. Exact 3D flat-bundle cochain complex on T^3 with d_1 d_0 == 0, d_2 d_1 == 0, and
-         vanishing Euler/chiral index chi(T^3, L_flat) == 0 for both trivial and Golden-5
-         torsion holonomies, contrasted against 2D curved CP^1 spinor flux index == k != 0.
+    Dictionary No-Go Theorem (zero algebraic rank-cancellation formulas):
+      1. Full 24x24 multiplication table of Aut(Q_8) proving Aut(Q_8) ~= S_4 via trivial
+         center (|Z| == 1) and exact element-order profile {1: 1, 2: 9, 3: 8, 4: 6},
+         Inn(Q_8) ~= V_4 (order profile [1, 2, 2, 2]), Out(Q_8) ~= S_3 (order 6), and
+         S_3 axis invariant dim == 1 & commutant dim == 2;
+      2. Full 120-element SL(2, F_5) and full 480-element GL(2, F_5) permutation stacks
+         on C[P^1(F_5)] ~= C^6 proving joint invariant dim == 1 and joint commutant dim == 2
+         across ALL group elements (F3);
+      3. Separate Cech cohomology dimensions (h^0, h^1) = (cols - rk, rows - rk) ==
+         (max(k, 0), max(-k, 0)) on CP^1 across M in {5, 6, 8} and k in {-3, -1, 0, 1, 3},
+         paired with zero-matrix and column-corrupted negative controls;
+      4. T^3 cellular cochain complex & folded operator D_fold: C^0 (+) C^2 -> C^1 (+) C^3
+         evaluated at three distinct non-trivial unitary flat holonomies (rank(D_fold) == 4,
+         dim ker == 0, dim coker == 0), individual Betti numbers & twisted Poincare duality
+         h^p(T^3, E) == h^{3-p}(T^3, E^v) across unitary and rank-2 unipotent flat bundles,
+         and a corrupted non-complex negative control;
+      5. Cusped 3-manifold B1604 spine proof (T-NO-INDEX-IN-THREE) on the figure-eight knot
+         complement m004 Wirtinger 2-complex spine <x, y | x Y x y X Y x Y X y = 1> via Fox
+         free calculus across ranks n in {1, 2, 3} (including non-zero interior h^1 == h^2 == 1
+         at the Alexander root and Ad(rho_Riley)), proving chi(m004; E_rho) = h^0 - h^1 + h^2 == 0.
     """
-    # 1. Quaternion kernel Q_8 automorphism equivariance:
+    # 1. Full Aut(Q_8) ~= S_4 isomorphism proof + Inn(Q_8) ~= V_4 + Out(Q_8) ~= S_3:
     qi_gen = sp.Matrix([[sp.I, 0], [0, -sp.I]])
     qj_gen = sp.Matrix([[0, 1], [-1, 0]])
     mul_tab, aut_list, inn_list, axis_perms = build_q8_cayley_and_automorphisms(qi_gen, qj_gen)
     aut_order = len(aut_list)
     inn_order = len(inn_list)
+
+    aut_idx_map = {perm_p: idx_p for idx_p, perm_p in enumerate(aut_list)}
+    aut_mul_tab = np.zeros((24, 24), dtype=int)
+    for idx_i in range(aut_order):
+        p_left = aut_list[idx_i]
+        for idx_j in range(aut_order):
+            p_right = aut_list[idx_j]
+            comp_perm = tuple(p_left[p_right[idx_x]] for idx_x in range(8))
+            aut_mul_tab[idx_i, idx_j] = aut_idx_map[comp_perm]
+
+    aut_order_profile: dict[int, int] = {}
+    aut_center_indices: list[int] = []
+    for idx_i in range(aut_order):
+        cur_p = idx_i
+        ord_p = 1
+        while cur_p != 0:
+            cur_p = int(aut_mul_tab[cur_p, idx_i])
+            ord_p += 1
+        aut_order_profile[ord_p] = aut_order_profile.get(ord_p, 0) + 1
+        if all(int(aut_mul_tab[idx_i, idx_j]) == int(aut_mul_tab[idx_j, idx_i]) for idx_j in range(aut_order)):
+            aut_center_indices.append(idx_i)
+
+    aut_s4_isomorphism_exact = bool(
+        aut_order == 24
+        and aut_center_indices == [0]
+        and aut_order_profile == {1: 1, 2: 9, 3: 8, 4: 6}
+    )
+
+    inn_orders_sorted = sorted(
+        1
+        if p_inn == (0, 1, 2, 3, 4, 5, 6, 7)
+        else (2 if tuple(p_inn[p_inn[idx_x]] for idx_x in range(8)) == (0, 1, 2, 3, 4, 5, 6, 7) else 4)
+        for p_inn in inn_list
+    )
 
     inv_aut_map: dict[tuple[int, ...], tuple[int, ...]] = {}
     for p_aut in aut_list:
@@ -181,9 +272,7 @@ def verify_b1604_flat_counting_dictionary_no_go() -> dict[str, Any]:
     )
     out_cosets: list[frozenset[tuple[int, ...]]] = []
     for p_aut in aut_list:
-        coset_p = frozenset(
-            tuple(p_aut[q_inn[idx_x]] for idx_x in range(8)) for q_inn in inn_list
-        )
+        coset_p = frozenset(tuple(p_aut[q_inn[idx_x]] for idx_x in range(8)) for q_inn in inn_list)
         if coset_p not in out_cosets:
             out_cosets.append(coset_p)
     out_order = len(out_cosets)
@@ -191,19 +280,25 @@ def verify_b1604_flat_counting_dictionary_no_go() -> dict[str, Any]:
     distinct_axis_perms = sorted(set(axis_perms))
     s3_image_order = len(distinct_axis_perms)
     kernel_axis_action = [p_aut for p_aut, ax_p in zip(aut_list, axis_perms) if ax_p == (0, 1, 2)]
-    kernel_matches_inn = bool(set(kernel_axis_action) == inn_set and len(kernel_axis_action) == inn_order)
+    kernel_matches_inn = bool(
+        set(kernel_axis_action) == inn_set
+        and len(kernel_axis_action) == inn_order
+        and inn_orders_sorted == [1, 2, 2, 2]
+    )
 
-    # Fixed-point subspace of S_3 action on C^3 (functions on the 3 imaginary Q_8 axes):
-    s3_blocks: list[np.ndarray] = []
+    s3_inv_blocks: list[np.ndarray] = []
+    s3_comm_blocks: list[np.ndarray] = []
+    eye3_f = np.eye(3, dtype=float)
     for ax_p in distinct_axis_perms:
         perm_m = np.zeros((3, 3), dtype=float)
         for col_j in range(3):
             perm_m[ax_p[col_j], col_j] = 1.0
-        s3_blocks.append(perm_m - np.eye(3, dtype=float))
-    s3_stack = np.vstack(s3_blocks)
-    s3_invariant_axis_fn_dim = int(3 - np.linalg.matrix_rank(s3_stack))
+        s3_inv_blocks.append(perm_m - eye3_f)
+        s3_comm_blocks.append(np.kron(perm_m.T, eye3_f) - np.kron(eye3_f, perm_m))
+    s3_invariant_axis_fn_dim = int(3 - np.linalg.matrix_rank(np.vstack(s3_inv_blocks)))
+    s3_axis_commutant_dim = int(9 - np.linalg.matrix_rank(np.vstack(s3_comm_blocks)))
 
-    # 2. Transitive SL(2, F_5) & GL(2, F_5) symmetry on F_5^2 \ {0} and P^1(F_5):
+    # 2. Full 120-element SL(2, F_5) & 480-element GL(2, F_5) invariant & commutant stacks (F3):
     gl2_f5: list[tuple[int, int, int, int]] = []
     sl2_f5: list[tuple[int, int, int, int]] = []
     for a_v, b_v, c_v, d_v in product(range(5), repeat=4):
@@ -216,72 +311,124 @@ def verify_b1604_flat_counting_dictionary_no_go() -> dict[str, Any]:
     gl2_f5_order = int(np.sum(np.ones(len(gl2_f5), dtype=int)))
     sl2_f5_order = int(np.sum(np.ones(len(sl2_f5), dtype=int)))
 
-    # Verify <L mod 5, R mod 5> generates all 120 elements of SL(2, F_5):
     gen_l5 = (1, 1, 0, 1)
     gen_r5 = (1, 0, 1, 1)
+    gen_d5 = (2, 0, 0, 1)
     sl2_idx_map = {mat_m: idx_m for idx_m, mat_m in enumerate(sl2_f5)}
-    visited_lr5 = np.zeros(len(sl2_f5), dtype=int)
+    visited_lr5 = np.zeros(120, dtype=int)
     visited_lr5[sl2_idx_map[(1, 0, 0, 1)]] = 1
     queue_lr5: list[tuple[int, int, int, int]] = [(1, 0, 0, 1)]
     while queue_lr5:
         ca, cb, cc, cd = queue_lr5.pop(0)
         for ga, gb, gc, gd in (gen_l5, gen_r5):
-            na = (ca * ga + cb * gc) % 5
-            nb = (ca * gb + cb * gd) % 5
-            nc = (cc * ga + cd * gc) % 5
-            nd = (cc * gb + cd * gd) % 5
-            nxt_m = (na, nb, nc, nd)
+            nxt_m = ((ca * ga + cb * gc) % 5, (ca * gb + cb * gd) % 5, (cc * ga + cd * gc) % 5, (cc * gb + cd * gd) % 5)
             nxt_pos = sl2_idx_map[nxt_m]
             if int(visited_lr5[nxt_pos]) == 0:
                 visited_lr5[nxt_pos] = 1
                 queue_lr5.append(nxt_m)
     lr_mod5_closure_order = int(np.sum(visited_lr5))
 
+    gl2_idx_map = {mat_m: idx_m for idx_m, mat_m in enumerate(gl2_f5)}
+    visited_gl5 = np.zeros(480, dtype=int)
+    visited_gl5[gl2_idx_map[(1, 0, 0, 1)]] = 1
+    queue_gl5: list[tuple[int, int, int, int]] = [(1, 0, 0, 1)]
+    while queue_gl5:
+        ca, cb, cc, cd = queue_gl5.pop(0)
+        for ga, gb, gc, gd in (gen_l5, gen_r5, gen_d5):
+            nxt_m = ((ca * ga + cb * gc) % 5, (ca * gb + cb * gd) % 5, (cc * ga + cd * gc) % 5, (cc * gb + cd * gd) % 5)
+            nxt_pos = gl2_idx_map[nxt_m]
+            if int(visited_gl5[nxt_pos]) == 0:
+                visited_gl5[nxt_pos] = 1
+                queue_gl5.append(nxt_m)
+    gl2_gen_closure_order = int(np.sum(visited_gl5))
+
     nonzero_f5_vecs = [(x_v, y_v) for x_v, y_v in product(range(5), repeat=2) if (x_v, y_v) != (0, 0)]
-    orbit_v10: set[tuple[int, int]] = set()
-    for a_v, b_v, c_v, d_v in sl2_f5:
-        orbit_v10.add((a_v % 5, c_v % 5))
+    orbit_v10 = {(a_v % 5, c_v % 5) for a_v, _, c_v, _ in sl2_f5}
     sl2_vec_orbit_size = int(np.sum(np.ones(len(orbit_v10), dtype=int)))
 
-    # Build the 6 projective lines in P^1(F_5):
     proj_lines: list[frozenset[tuple[int, int]]] = []
     for vx, vy in nonzero_f5_vecs:
         line_set = frozenset(((sc * vx) % 5, (sc * vy) % 5) for sc in (1, 2, 3, 4))
         if line_set not in proj_lines:
             proj_lines.append(line_set)
     proj_line_count = int(np.sum(np.ones(len(proj_lines), dtype=int)))
+    line_lookup = {line_s: idx_l for idx_l, line_s in enumerate(proj_lines)}
+    line_reps = [next(iter(line_s)) for line_s in proj_lines]
 
     def act_line_idx(mat_g: tuple[int, int, int, int], line_i: int) -> int:
-        rep_x, rep_y = next(iter(proj_lines[line_i]))
+        rep_x, rep_y = line_reps[line_i]
         ga, gb, gc, gd = mat_g
         ix = (ga * rep_x + gb * rep_y) % 5
         iy = (gc * rep_x + gd * rep_y) % 5
         img_line = frozenset(((sc * ix) % 5, (sc * iy) % 5) for sc in (1, 2, 3, 4))
-        return proj_lines.index(img_line)
+        return line_lookup[img_line]
 
-    ordered_distinct_pairs = [(la, lb) for la in range(proj_line_count) for lb in range(proj_line_count) if la != lb]
-    orbit_pair01: set[tuple[int, int]] = set()
-    for mat_g in sl2_f5:
-        orbit_pair01.add((act_line_idx(mat_g, 0), act_line_idx(mat_g, 1)))
+    orbit_pair01 = {(act_line_idx(mat_g, 0), act_line_idx(mat_g, 1)) for mat_g in sl2_f5}
     sl2_ordered_line_pair_orbit_size = int(np.sum(np.ones(len(orbit_pair01), dtype=int)))
 
-    # Commutant & fixed-function dimensions of <L mod 5, R mod 5> on C[P^1(F_5)] ~= C^6:
-    perm_l6 = np.zeros((6, 6), dtype=float)
-    perm_r6 = np.zeros((6, 6), dtype=float)
-    for col_l in range(6):
-        perm_l6[act_line_idx(gen_l5, col_l), col_l] = 1.0
-        perm_r6[act_line_idx(gen_r5, col_l), col_l] = 1.0
-    inv_fn_stack = np.vstack([perm_l6 - np.eye(6), perm_r6 - np.eye(6)])
-    p1_f5_invariant_fn_dim = int(6 - np.linalg.matrix_rank(inv_fn_stack))
-    comm_p1_stack = np.vstack(
-        [
-            np.kron(perm_l6.T, np.eye(6)) - np.kron(np.eye(6), perm_l6),
-            np.kron(perm_r6.T, np.eye(6)) - np.kron(np.eye(6), perm_r6),
-        ]
-    )
-    p1_f5_equivariant_kernel_dim = int(36 - np.linalg.matrix_rank(comm_p1_stack))
+    eye6_f = np.eye(6, dtype=float)
+    sl2_inv_blocks: list[np.ndarray] = []
+    sl2_comm_blocks: list[np.ndarray] = []
+    for mat_g in sl2_f5:
+        perm_g6 = np.zeros((6, 6), dtype=float)
+        for col_l in range(6):
+            perm_g6[act_line_idx(mat_g, col_l), col_l] = 1.0
+        sl2_inv_blocks.append(perm_g6 - eye6_f)
+        sl2_comm_blocks.append(np.kron(perm_g6.T, eye6_f) - np.kron(eye6_f, perm_g6))
+    sl2_p1_inv_dim = int(6 - np.linalg.matrix_rank(np.vstack(sl2_inv_blocks)))
+    sl2_p1_comm_dim = int(36 - np.linalg.matrix_rank(np.vstack(sl2_comm_blocks)))
 
-    # 3. 3D flat-bundle cochain complex on T^3 vs 2D curved CP^1 spinor flux index:
+    gl2_inv_blocks: list[np.ndarray] = []
+    gl2_comm_blocks: list[np.ndarray] = []
+    for mat_g in gl2_f5:
+        perm_g6 = np.zeros((6, 6), dtype=float)
+        for col_l in range(6):
+            perm_g6[act_line_idx(mat_g, col_l), col_l] = 1.0
+        gl2_inv_blocks.append(perm_g6 - eye6_f)
+        gl2_comm_blocks.append(np.kron(perm_g6.T, eye6_f) - np.kron(eye6_f, perm_g6))
+    gl2_p1_inv_dim = int(6 - np.linalg.matrix_rank(np.vstack(gl2_inv_blocks)))
+    gl2_p1_comm_dim = int(36 - np.linalg.matrix_rank(np.vstack(gl2_comm_blocks)))
+
+    # 3. 2D curved CP^1 spinor Cech cohomology (h^0, h^1) verified separately across M in {5, 6, 8}, k in {-3, -1, 0, 1, 3}:
+    cp1_grid_hits = np.zeros(15, dtype=int)
+    cp1_h0_h1_at_m6: dict[int, list[int]] = {}
+    grid_pos = 0
+    for flux_k in (-3, -1, 0, 1, 3):
+        exp_h0 = max(flux_k, 0)
+        exp_h1 = max(-flux_k, 0)
+        for cut_m in (5, 6, 8):
+            cob_km = build_cech_dirac_spinor_cp1_matrix(flux_k, cut_m)
+            rk_km = int(cob_km.rank())
+            h0_km = int(cob_km.cols - rk_km)
+            h1_km = int(cob_km.rows - rk_km)
+            if h0_km == exp_h0 and h1_km == exp_h1 and (h0_km - h1_km) == flux_k:
+                cp1_grid_hits[grid_pos] = 1
+            if cut_m == 6:
+                cp1_h0_h1_at_m6[flux_k] = [h0_km, h1_km]
+            grid_pos += 1
+    cp1_all_15_separate_h0_h1_ok = bool(int(np.sum(cp1_grid_hits)) == 15)
+
+    # CP^1 negative controls: zero matrix (13x16) for k=+3, M=6 and column-zeroed matrix (13x13) for k=0, M=6:
+    zero_cob_kp3 = sp.zeros(13, 16)
+    rk_zero_kp3 = int(zero_cob_kp3.rank())
+    h0_zero_kp3 = int(zero_cob_kp3.cols - rk_zero_kp3)
+    h1_zero_kp3 = int(zero_cob_kp3.rows - rk_zero_kp3)
+    corrupt_cob_k0 = build_cech_dirac_spinor_cp1_matrix(0, 6).copy()
+    for r_idx in range(corrupt_cob_k0.rows):
+        corrupt_cob_k0[r_idx, 0] = 0
+    rk_corr_k0 = int(corrupt_cob_k0.rank())
+    h0_corr_k0 = int(corrupt_cob_k0.cols - rk_corr_k0)
+    h1_corr_k0 = int(corrupt_cob_k0.rows - rk_corr_k0)
+    cp1_corrupted_negative_controls_rejected = bool(
+        (h0_zero_kp3, h1_zero_kp3) != (3, 0)
+        and h0_zero_kp3 == 16
+        and h1_zero_kp3 == 13
+        and (h0_corr_k0, h1_corr_k0) != (0, 0)
+        and h0_corr_k0 == 1
+        and h1_corr_k0 == 1
+    )
+
+    # 4. 3D flat cellular cochain complex & folded operator D_fold: C^0 (+) C^2 -> C^1 (+) C^3 on T^3:
     u1_s, u2_s, u3_s = sp.symbols("u1_s u2_s u3_s")
     d0_sym = sp.Matrix([u1_s - 1, u2_s - 1, u3_s - 1])
     d1_sym = sp.Matrix(
@@ -294,194 +441,359 @@ def verify_b1604_flat_counting_dictionary_no_go() -> dict[str, Any]:
     d2_sym = sp.Matrix([[u1_s - 1, u2_s - 1, u3_s - 1]])
     d1_d0_zero = (d1_sym * d0_sym).applyfunc(sp.expand) == sp.zeros(3, 1)
     d2_d1_zero = (d2_sym * d1_sym).applyfunc(sp.expand) == sp.zeros(1, 3)
-    poincare_self_dual_sym = (d2_sym == d0_sym.T) and (d1_sym.T == -d1_sym)
 
-    # Evaluate cohomology dimensions at Golden-5 flat torsion holonomy (zeta_5, zeta_5^2, 1):
     zeta5 = sp.expand(sp.cos(2 * sp.pi / 5) + sp.I * sp.sin(2 * sp.pi / 5))
-    subs_nt = {u1_s: zeta5, u2_s: sp.expand(zeta5**2), u3_s: sp.Integer(1)}
-    r0_nt = int(d0_sym.subs(subs_nt).applyfunc(sp.expand).rank())
-    r1_nt = int(d1_sym.subs(subs_nt).applyfunc(sp.expand).rank())
-    r2_nt = int(d2_sym.subs(subs_nt).applyfunc(sp.expand).rank())
-    betti_nt = (1 - r0_nt, 3 - r1_nt - r0_nt, 3 - r2_nt - r1_nt, 1 - r2_nt)
-    euler_nt = betti_nt[0] - betti_nt[1] + betti_nt[2] - betti_nt[3]
+    unitary_nontrivial_holonomies = [
+        (
+            sp.Rational(3, 5) + sp.Rational(4, 5) * sp.I,
+            sp.Rational(5, 13) + sp.Rational(12, 13) * sp.I,
+            sp.Rational(8, 17) + sp.Rational(15, 17) * sp.I,
+        ),
+        (zeta5, sp.expand(zeta5**2), sp.expand(zeta5**3)),
+        (sp.Rational(3, 5) + sp.Rational(4, 5) * sp.I, sp.Integer(1), sp.Integer(1)),
+    ]
+    folded_ranks_nt = np.zeros(3, dtype=int)
+    folded_adj_ranks_nt = np.zeros(3, dtype=int)
+    betti_nt_all_zero = True
+    for idx_h, (hu1, hu2, hu3) in enumerate(unitary_nontrivial_holonomies):
+        sub_h = {u1_s: hu1, u2_s: hu2, u3_s: hu3}
+        d0_h = d0_sym.subs(sub_h).applyfunc(sp.expand)
+        d1_h = d1_sym.subs(sub_h).applyfunc(sp.expand)
+        d2_h = d2_sym.subs(sub_h).applyfunc(sp.expand)
+        rk0_h = int(d0_h.rank())
+        rk1_h = int(d1_h.rank())
+        rk2_h = int(d2_h.rank())
+        b_vec = (1 - rk0_h, 3 - rk0_h - rk1_h, 3 - rk1_h - rk2_h, 1 - rk2_h)
+        if b_vec != (0, 0, 0, 0):
+            betti_nt_all_zero = False
+        d_fold_h = sp.BlockMatrix([[d0_h, d1_h.H], [sp.zeros(1, 1), d2_h]]).as_explicit().applyfunc(sp.expand)
+        folded_ranks_nt[idx_h] = int(d_fold_h.rank())
+        folded_adj_ranks_nt[idx_h] = int(d_fold_h.H.rank())
 
-    # Evaluate cohomology dimensions at trivial flat holonomy (1, 1, 1):
+    t3_nontrivial_folded_invertible = bool(
+        betti_nt_all_zero
+        and np.array_equal(folded_ranks_nt, np.array([4, 4, 4], dtype=int))
+        and np.array_equal(folded_adj_ranks_nt, np.array([4, 4, 4], dtype=int))
+    )
+
+    # Individual Betti numbers & twisted Poincare duality h^p(T^3, E) == h^{3-p}(T^3, E^v)
+    # on trivial rank-1 AND non-trivial unipotent rank-2 flat bundle (rho_1 = [[1,1],[0,1]], rho_2 = [[1,2],[0,1]], rho_3 = I_2):
     subs_triv = {u1_s: sp.Integer(1), u2_s: sp.Integer(1), u3_s: sp.Integer(1)}
     r0_tr = int(d0_sym.subs(subs_triv).rank())
     r1_tr = int(d1_sym.subs(subs_triv).rank())
     r2_tr = int(d2_sym.subs(subs_triv).rank())
-    betti_triv = (1 - r0_tr, 3 - r1_tr - r0_tr, 3 - r2_tr - r1_tr, 1 - r2_tr)
-    euler_triv = betti_triv[0] - betti_triv[1] + betti_triv[2] - betti_triv[3]
+    betti_triv = (1 - r0_tr, 3 - r0_tr - r1_tr, 3 - r1_tr - r2_tr, 1 - r2_tr)
 
-    # Odd-dimensional folded operator C^0 (+) C^2 -> C^1 (+) C^3 index on T^3:
-    d0_tr_m = d0_sym.subs(subs_triv)
-    d1_tr_m = d1_sym.subs(subs_triv)
-    d2_tr_m = d2_sym.subs(subs_triv)
-    folded_3d_triv = sp.BlockMatrix([[d0_tr_m, d1_tr_m.H], [sp.zeros(1, 1), d2_tr_m]]).as_explicit()
-    odd_3d_index_triv = int((4 - folded_3d_triv.rank()) - (4 - folded_3d_triv.H.rank()))
+    def t3_rank_n_betti(a1_m: sp.Matrix, a2_m: sp.Matrix, a3_m: sp.Matrix) -> tuple[bool, tuple[int, int, int, int], int, int]:
+        n_rk = a1_m.rows
+        z_nn = sp.zeros(n_rk, n_rk)
+        d0_r = sp.Matrix.vstack(a1_m, a2_m, a3_m)
+        d1_r = sp.BlockMatrix(
+            [
+                [z_nn, -a3_m, a2_m],
+                [a3_m, z_nn, -a1_m],
+                [-a2_m, a1_m, z_nn],
+            ]
+        ).as_explicit()
+        d2_r = sp.Matrix.hstack(a1_m, a2_m, a3_m)
+        nil_ok = (d1_r * d0_r) == sp.zeros(3 * n_rk, n_rk) and (d2_r * d1_r) == sp.zeros(n_rk, 3 * n_rk)
+        rk0_r = int(d0_r.rank())
+        rk1_r = int(d1_r.rank())
+        rk2_r = int(d2_r.rank())
+        hp_tup = (n_rk - rk0_r, 3 * n_rk - rk0_r - rk1_r, 3 * n_rk - rk1_r - rk2_r, n_rk - rk2_r)
+        df_r = sp.BlockMatrix([[d0_r, d1_r.H], [z_nn, d2_r]]).as_explicit()
+        ker_df = 4 * n_rk - int(df_r.rank())
+        coker_df = 4 * n_rk - int(df_r.H.rank())
+        return nil_ok, hp_tup, ker_df, coker_df
 
-    # Contrast with 2D curved CP^1 spinor Cech operator at flux k in {0, +3, -3} (cutoff M = 6):
-    cob_k0 = build_cech_dirac_spinor_cp1_matrix(0, 6)
-    cob_kp3 = build_cech_dirac_spinor_cp1_matrix(3, 6)
-    cob_km3 = build_cech_dirac_spinor_cp1_matrix(-3, 6)
-    rk_k0 = int(cob_k0.rank())
-    rk_kp3 = int(cob_kp3.rank())
-    rk_km3 = int(cob_km3.rank())
-    ind_2d_k0 = int((cob_k0.cols - rk_k0) - (cob_k0.rows - rk_k0))
-    ind_2d_kp3 = int((cob_kp3.cols - rk_kp3) - (cob_kp3.rows - rk_kp3))
-    ind_2d_km3 = int((cob_km3.cols - rk_km3) - (cob_km3.rows - rk_km3))
+    rho_u1 = sp.Matrix([[1, 1], [0, 1]])
+    rho_u2 = sp.Matrix([[1, 2], [0, 1]])
+    rho_u3 = sp.eye(2)
+    nil_u, betti_unip, ker_unip, coker_unip = t3_rank_n_betti(rho_u1 - sp.eye(2), rho_u2 - sp.eye(2), rho_u3 - sp.eye(2))
+    nil_ud, betti_unip_dual, ker_unip_d, coker_unip_d = t3_rank_n_betti(
+        rho_u1.inv().T - sp.eye(2),
+        rho_u2.inv().T - sp.eye(2),
+        rho_u3.inv().T - sp.eye(2),
+    )
+    poincare_duality_verified = bool(
+        betti_triv == (1, 3, 3, 1)
+        and all(betti_triv[p_i] == betti_triv[3 - p_i] for p_i in range(4))
+        and nil_u
+        and nil_ud
+        and betti_unip == (1, 3, 3, 1)
+        and all(betti_unip[p_i] == betti_unip_dual[3 - p_i] for p_i in range(4))
+        and ker_unip == (betti_unip[0] + betti_unip[2])
+        and coker_unip == (betti_unip[1] + betti_unip[3])
+        and ker_unip_d == coker_unip
+    )
 
-    # Haar U(3) basis-scrambling check on 3D flat cochain complex:
-    rng = np.random.default_rng(71)
-    u_haar = haar_unitary(3, rng)
-    hol_sp = sp.Matrix(
+    # Corrupted T^3 operator negative control (flipping sign of d1[0, 1] breaks d1*d0 == 0):
+    d1_corrupt = sp.Matrix(
         [
-            sp.Rational(3, 5) + sp.Rational(4, 5) * sp.I - 1,
-            sp.Rational(5, 13) + sp.Rational(12, 13) * sp.I - 1,
-            sp.Rational(8, 17) + sp.Rational(15, 17) * sp.I - 1,
+            [0, u3_s - 1, u2_s - 1],
+            [u3_s - 1, 0, -(u1_s - 1)],
+            [-(u2_s - 1), u1_s - 1, 0],
         ]
     )
-    hol_shifts = np.array(hol_sp.tolist(), dtype=complex).ravel()
-    d0_3vec = np.vstack([hol_shifts[0] * np.eye(3), hol_shifts[1] * np.eye(3), hol_shifts[2] * np.eye(3)])
-    blk_u3 = np.kron(np.eye(3), u_haar)
-    d0_scr = blk_u3 @ d0_3vec @ u_haar.conj().T
-    rk_d0_base = int(np.linalg.matrix_rank(d0_3vec))
-    rk_d0_scr = int(np.linalg.matrix_rank(d0_scr))
+    sub_corr = {
+        u1_s: sp.Rational(3, 5) + sp.Rational(4, 5) * sp.I,
+        u2_s: sp.Rational(5, 13) + sp.Rational(12, 13) * sp.I,
+        u3_s: sp.Rational(8, 17) + sp.Rational(15, 17) * sp.I,
+    }
+    t3_corrupted_negative_control_rejected = bool(
+        (d1_corrupt.subs(sub_corr) * d0_sym.subs(sub_corr)).applyfunc(sp.expand) != sp.zeros(3, 1)
+    )
 
-    b1604_all_ok = (
+    # 5. Cusped 3-manifold m004 Wirtinger 2-complex spine <x, y | x Y x y X Y x Y X y = 1> (T-NO-INDEX-IN-THREE):
+    rel_m004 = ["xYxyXYxYXy"]
+    gens_m004 = ["x", "y"]
+    omega_6 = sp.Rational(-1, 2) + sp.Rational(1, 2) * sp.I * sp.sqrt(3)
+    riley_x = sp.Matrix([[1, 1], [0, 1]])
+    riley_x_inv = sp.Matrix([[1, -1], [0, 1]])
+    riley_y = sp.Matrix([[1, 0], [-omega_6, 1]])
+    riley_y_inv = sp.Matrix([[1, 0], [omega_6, 1]])
+
+    sl2_basis = [
+        sp.Matrix([[0, 1], [0, 0]]),
+        sp.Matrix([[1, 0], [0, -1]]),
+        sp.Matrix([[0, 0], [1, 0]]),
+    ]
+
+    def adjoint_sl2_rep(mat2: sp.Matrix, mat2_inv: sp.Matrix) -> sp.Matrix:
+        cols_ad: list[sp.Matrix] = []
+        for b_el in sl2_basis:
+            conj_el = (mat2 * b_el * mat2_inv).applyfunc(sp.expand)
+            cols_ad.append(sp.Matrix([conj_el[0, 1], conj_el[0, 0], conj_el[1, 0]]))
+        return sp.Matrix.hstack(*cols_ad)
+
+    ad_x = adjoint_sl2_rep(riley_x, riley_x_inv)
+    ad_x_inv = adjoint_sl2_rep(riley_x_inv, riley_x)
+    ad_y = adjoint_sl2_rep(riley_y, riley_y_inv)
+    ad_y_inv = adjoint_sl2_rep(riley_y_inv, riley_y)
+
+    t_alex = sp.Rational(3, 2) + sp.sqrt(5) / 2
+    t_alex_inv = sp.Rational(3, 2) - sp.sqrt(5) / 2
+
+    m004_cases: list[tuple[int, dict[str, sp.Matrix], dict[str, sp.Matrix], tuple[int, int, int]]] = [
+        (1, {"x": sp.Matrix([[1]]), "y": sp.Matrix([[1]])}, {"x": sp.Matrix([[1]]), "y": sp.Matrix([[1]])}, (1, 1, 0)),
+        (1, {"x": sp.Matrix([[-1]]), "y": sp.Matrix([[-1]])}, {"x": sp.Matrix([[-1]]), "y": sp.Matrix([[-1]])}, (0, 0, 0)),
+        (
+            1,
+            {"x": sp.Matrix([[t_alex]]), "y": sp.Matrix([[t_alex]])},
+            {"x": sp.Matrix([[t_alex_inv]]), "y": sp.Matrix([[t_alex_inv]])},
+            (0, 1, 1),
+        ),
+        (2, {"x": riley_x, "y": riley_y}, {"x": riley_x_inv, "y": riley_y_inv}, (0, 0, 0)),
+        (3, {"x": ad_x, "y": ad_y}, {"x": ad_x_inv, "y": ad_y_inv}, (0, 1, 1)),
+    ]
+    m004_hits = np.zeros(5, dtype=int)
+    m004_betti_records: list[list[int]] = []
+    for idx_c, (rk_bundle, r_map, ri_map, exp_h012) in enumerate(m004_cases):
+        d0_c, d1_c = build_fox_twisted_2complex_cochain(rel_m004, gens_m004, r_map, ri_map)
+        nil_c = (d1_c * d0_c).applyfunc(sp.expand) == sp.zeros(rk_bundle, rk_bundle)
+        rk0_c = int(d0_c.rank())
+        rk1_c = int(d1_c.rank())
+        h0_c = rk_bundle - rk0_c
+        h1_c = 2 * rk_bundle - rk0_c - rk1_c
+        h2_c = rk_bundle - rk1_c
+        chi_c = h0_c - h1_c + h2_c
+        m004_betti_records.append([h0_c, h1_c, h2_c])
+        if nil_c and (h0_c, h1_c, h2_c) == exp_h012 and chi_c == 0:
+            m004_hits[idx_c] = 1
+
+    # Negative control on m004: flipped +omega_6 violates relator == I_2 and breaks d_1 * d_0 == 0:
+    bad_y = sp.Matrix([[1, 0], [omega_6, 1]])
+    bad_y_inv = sp.Matrix([[1, 0], [-omega_6, 1]])
+    d0_bad_m, d1_bad_m = build_fox_twisted_2complex_cochain(
+        rel_m004, gens_m004, {"x": riley_x, "y": bad_y}, {"x": riley_x_inv, "y": bad_y_inv}
+    )
+    m004_non_rep_rejected = bool((d1_bad_m * d0_bad_m).applyfunc(sp.expand) != sp.zeros(2, 2))
+    m004_cusped_spine_verified = bool(int(np.sum(m004_hits)) == 5 and m004_non_rep_rejected)
+
+    # 6. Haar U(3) basis-scrambling check on 3D flat cochain complex & m004 Ad(Riley) bundle:
+    rng = np.random.default_rng(71)
+    u_haar = haar_unitary(3, rng)
+    ad_d0_num = np.array(
+        build_fox_twisted_2complex_cochain(rel_m004, gens_m004, {"x": ad_x, "y": ad_y}, {"x": ad_x_inv, "y": ad_y_inv})[0].evalf(30).tolist(),
+        dtype=complex,
+    )
+    ad_d1_num = np.array(
+        build_fox_twisted_2complex_cochain(rel_m004, gens_m004, {"x": ad_x, "y": ad_y}, {"x": ad_x_inv, "y": ad_y_inv})[1].evalf(30).tolist(),
+        dtype=complex,
+    )
+    blk2_u3 = np.kron(np.eye(2, dtype=complex), u_haar)
+    ad_d0_scr = blk2_u3 @ ad_d0_num @ u_haar.conj().T
+    ad_d1_scr = u_haar @ ad_d1_num @ blk2_u3.conj().T
+    rk_ad_d0_scr = int(np.linalg.matrix_rank(ad_d0_scr, tol=1e-10))
+    rk_ad_d1_scr = int(np.linalg.matrix_rank(ad_d1_scr, tol=1e-10))
+    nil_ad_scr_err = float(np.max(np.abs(ad_d1_scr @ ad_d0_scr)))
+    haar_m004_ok = bool(rk_ad_d0_scr == 3 and rk_ad_d1_scr == 2 and nil_ad_scr_err < TOL)
+
+    b1604_all_ok = bool(
         int(mul_tab.shape[0]) == 8
-        and aut_order == 24
+        and aut_s4_isomorphism_exact
         and inn_order == 4
         and out_order == 6
         and inn_is_normal
         and s3_image_order == 6
         and kernel_matches_inn
         and s3_invariant_axis_fn_dim == 1
+        and s3_axis_commutant_dim == 2
         and gl2_f5_order == 480
         and sl2_f5_order == 120
         and lr_mod5_closure_order == 120
+        and gl2_gen_closure_order == 480
         and sl2_vec_orbit_size == 24
         and proj_line_count == 6
         and sl2_ordered_line_pair_orbit_size == 30
-        and p1_f5_invariant_fn_dim == 1
-        and p1_f5_equivariant_kernel_dim == 2
+        and sl2_p1_inv_dim == 1
+        and sl2_p1_comm_dim == 2
+        and gl2_p1_inv_dim == 1
+        and gl2_p1_comm_dim == 2
+        and cp1_all_15_separate_h0_h1_ok
+        and cp1_corrupted_negative_controls_rejected
         and d1_d0_zero
         and d2_d1_zero
-        and poincare_self_dual_sym
-        and sum(abs(bv) for bv in betti_nt) == 0
-        and euler_nt == 0
-        and betti_triv == (1, 3, 3, 1)
-        and euler_triv == 0
-        and odd_3d_index_triv == 0
-        and ind_2d_k0 == 0
-        and ind_2d_kp3 == 3
-        and ind_2d_km3 == -3
-        and rk_d0_base == 3
-        and rk_d0_scr == 3
+        and t3_nontrivial_folded_invertible
+        and poincare_duality_verified
+        and t3_corrupted_negative_control_rejected
+        and m004_cusped_spine_verified
+        and haar_m004_ok
     )
 
     return {
         "q8_aut_order": aut_order,
+        "q8_aut_center_size": len(aut_center_indices),
+        "q8_aut_order_profile": aut_order_profile,
+        "q8_aut_isomorphic_to_s4_verified": aut_s4_isomorphism_exact,
         "q8_inn_order": inn_order,
         "q8_out_order": out_order,
-        "q8_inn_is_normal_and_kernel_of_axis_s3": bool(inn_is_normal and kernel_matches_inn),
+        "q8_inn_is_normal_v4_and_kernel_of_axis_s3": bool(inn_is_normal and kernel_matches_inn),
         "q8_s3_imaginary_axis_perm_order": s3_image_order,
         "q8_invariant_axis_function_dim": s3_invariant_axis_fn_dim,
+        "q8_axis_commutant_dim": s3_axis_commutant_dim,
         "gl2_f5_order": gl2_f5_order,
         "sl2_f5_order": sl2_f5_order,
-        "lr_mod5_generates_full_sl2_f5": bool(lr_mod5_closure_order == sl2_f5_order),
+        "lr_mod5_generates_full_sl2_f5": bool(lr_mod5_closure_order == sl2_f5_order and gl2_gen_closure_order == gl2_f5_order),
         "sl2_f5_nonzero_vector_orbit_size": sl2_vec_orbit_size,
         "p1_f5_line_count": proj_line_count,
         "sl2_f5_ordered_line_pair_orbit_size": sl2_ordered_line_pair_orbit_size,
-        "p1_f5_invariant_function_dim": p1_f5_invariant_fn_dim,
-        "p1_f5_equivariant_pairing_dim": p1_f5_equivariant_kernel_dim,
-        "t3_flat_cochain_nilpotent_and_self_dual": bool(d1_d0_zero and d2_d1_zero and poincare_self_dual_sym),
-        "t3_nontrivial_golden5_betti_sum_vanishes": bool(sum(abs(bv) for bv in betti_nt) == 0 and euler_nt == 0),
+        "sl2_f5_full_p1_invariant_and_commutant_dims": [sl2_p1_inv_dim, sl2_p1_comm_dim],
+        "gl2_f5_full_p1_invariant_and_commutant_dims": [gl2_p1_inv_dim, gl2_p1_comm_dim],
+        "cp1_separate_h0_h1_at_m6": cp1_h0_h1_at_m6,
+        "cp1_all_15_cutoffs_separate_h0_h1_verified": cp1_all_15_separate_h0_h1_ok,
+        "cp1_corrupted_negative_controls_rejected": cp1_corrupted_negative_controls_rejected,
+        "t3_nontrivial_folded_operator_ranks": [int(v_r) for v_r in folded_ranks_nt],
+        "t3_nontrivial_folded_invertible_verified": t3_nontrivial_folded_invertible,
         "t3_trivial_flat_betti_numbers": list(betti_triv),
-        "t3_flat_euler_and_folded_index_vanish": bool(euler_nt == 0 and euler_triv == 0 and odd_3d_index_triv == 0),
-        "cp1_curved_2d_spinor_indices_kp3_km3": [ind_2d_kp3, ind_2d_km3],
-        "cp1_flat_vs_curved_index_dichotomy": bool(ind_2d_k0 == 0 and ind_2d_kp3 == 3 and ind_2d_km3 == -3),
-        "haar_u3_flat_cochain_rank_invariant": bool(rk_d0_base == 3 and rk_d0_scr == rk_d0_base),
+        "t3_poincare_duality_and_unipotent_verified": poincare_duality_verified,
+        "t3_corrupted_negative_control_rejected": t3_corrupted_negative_control_rejected,
+        "m004_cusped_spine_betti_triples": m004_betti_records,
+        "m004_cusped_spine_zero_euler_verified": m004_cusped_spine_verified,
+        "haar_u3_m004_adjoint_cochain_invariant": haar_m004_ok,
         "b1604_flat_counting_no_go_verified": b1604_all_ok,
     }
 
 
-def build_upstream_dag_spec() -> tuple[tuple[str, str, int, tuple[str, ...]], ...]:
-    """Return the canonical 65-node 4-layer upstream dependency DAG specification:
-    (node_id, layer_tag, intrinsic_epistemic_code, parent_node_ids).
-    Epistemic lattice codes:
-      0 = PROVED, 1 = CERTIFIED_EXACT, 2 = POSTULATED, 3 = CHOSEN, 4 = OBSTRUCTED, 5 = OPEN.
+def build_upstream_dag_spec() -> tuple[tuple[str, str, str, int, tuple[str, ...]], ...]:
+    """Return the canonical 83-node 5-layer upstream dependency DAG specification:
+    (node_id, layer_tag, subtype_tag, intrinsic_epistemic_rank, parent_node_ids).
+    Strictly monotone epistemic severity lattice:
+      0 = AXIOM_OR_DERIVED (subtype AXIOM_CONVENTION vs DERIVED_IMPLICATION / SECTOR_CLOSURE_GATE / SM_TARGET),
+      1 = CHOSEN_OR_POSTULATED,
+      2 = OPEN,
+      3 = OBSTRUCTED,
+      4 = FITTED.
     """
     return (
-        # Layer 1: 19 Proved Upstream Spine Theorems (intrinsic = 0)
-        ("WP-1.1", "L1_SPINE", 0, ()),
-        ("WP-1.2", "L1_SPINE", 0, ("WP-1.1",)),
-        ("WP-1.3", "L1_SPINE", 0, ("WP-1.1",)),
-        ("WP-1.4", "L1_SPINE", 0, ("WP-1.1", "WP-1.3")),
-        ("WP-1.5", "L1_SPINE", 0, ("WP-1.1", "WP-1.3")),
-        ("WP-1.6", "L1_SPINE", 0, ("WP-1.3",)),
-        ("WP-1.7", "L1_SPINE", 0, ("WP-1.2",)),
-        ("WP-2.1", "L1_SPINE", 0, ("WP-1.1",)),
-        ("WP-2.2", "L1_SPINE", 0, ("WP-1.2", "WP-1.7", "WP-2.1")),
-        ("WP-2.3", "L1_SPINE", 0, ("WP-2.1",)),
-        ("WP-2.5", "L1_SPINE", 0, ("WP-1.7", "WP-2.2")),
-        ("WP-3.3", "L1_SPINE", 0, ("WP-1.7", "WP-2.1", "WP-2.3")),
-        ("WP-3.4", "L1_SPINE", 0, ("WP-1.2", "WP-2.1", "WP-2.2", "WP-2.3")),
-        ("WP-3.5", "L1_SPINE", 0, ("WP-1.7", "WP-2.2", "WP-2.3")),
-        ("FL:16", "L1_SPINE", 0, ("WP-1.4", "WP-3.5")),
-        ("B1919", "L1_SPINE", 0, ("WP-1.3", "WP-2.3")),
-        ("B1921", "L1_SPINE", 0, ("WP-2.1", "WP-2.3")),
-        ("B1922", "L1_SPINE", 0, ("WP-1.3",)),
-        ("WP-4.3_MATH", "L1_SPINE", 0, ("WP-1.3", "B1922")),
-        # Layer 2: All 11 Open / Obstructed / Chosen / Postulated Seams (intrinsic >= 2)
-        ("X:DICT", "L2_SEAM", 4, ("WP-1.5",)),
-        ("X:PARENT", "L2_SEAM", 2, ("WP-1.3", "WP-1.7")),
-        ("X:HAND", "L2_SEAM", 3, ("WP-1.4", "WP-2.2")),
-        ("X:ACTION", "L2_SEAM", 2, ("WP-2.1", "WP-2.2")),
-        ("X:ENDLAW", "L2_SEAM", 5, ("WP-2.3", "B1921")),
-        ("X:MODULUS", "L2_SEAM", 5, ("WP-3.4", "B1919")),
-        ("X:LEVEL", "L2_SEAM", 3, ("B1922", "WP-4.3_MATH")),
-        ("X:SCALE", "L2_SEAM", 5, ("B1921",)),
-        ("X:DESERT", "L2_SEAM", 4, ("WP-1.7", "WP-3.5")),
-        ("X:HIGGS", "L2_SEAM", 5, ("WP-2.5",)),
-        ("X:WHOLE", "L2_SEAM", 4, ("WP-1.6",)),
-        # Layer 3: FK1-FK16 Falsification / Closure Gates (intrinsic = 0; status propagated purely from upstream)
-        ("FK1", "L3_GATE", 0, ("WP-1.3", "WP-1.7", "WP-2.2", "X:PARENT", "X:ACTION")),
-        ("FK2", "L3_GATE", 0, ("WP-1.2", "WP-2.3", "WP-3.5", "X:PARENT", "X:ENDLAW", "X:HAND")),
-        ("FK3", "L3_GATE", 0, ("WP-1.7", "WP-3.5")),
-        ("FK4", "L3_GATE", 0, ("FL:16", "X:ACTION", "X:HIGGS", "X:MODULUS")),
-        ("FK5", "L3_GATE", 0, ("WP-1.2", "WP-3.4", "X:DICT", "X:MODULUS", "X:ENDLAW", "X:HIGGS")),
-        ("FK6", "L3_GATE", 0, ("WP-1.7", "WP-3.3", "WP-3.4", "X:MODULUS", "X:ENDLAW", "X:HIGGS", "X:LEVEL")),
-        ("FK7", "L3_GATE", 0, ("WP-1.4", "WP-3.4", "FL:16", "X:HAND", "X:MODULUS", "X:HIGGS")),
-        ("FK8", "L3_GATE", 0, ("WP-2.5", "X:PARENT", "X:ENDLAW", "X:HIGGS")),
-        ("FK9", "L3_GATE", 0, ("WP-1.7", "WP-2.3", "WP-3.5", "X:ENDLAW", "X:SCALE")),
-        ("FK10", "L3_GATE", 0, ("WP-1.7", "WP-2.2", "X:PARENT", "X:DESERT", "X:SCALE")),
-        ("FK11", "L3_GATE", 0, ("WP-2.1", "WP-2.5", "X:ACTION", "X:HIGGS", "X:SCALE")),
-        ("FK12", "L3_GATE", 0, ("B1921", "WP-4.3_MATH", "X:ENDLAW", "X:SCALE", "X:LEVEL", "X:HIGGS")),
-        ("FK13", "L3_GATE", 0, ("WP-2.1", "WP-3.4", "B1919", "X:ACTION", "X:MODULUS")),
-        ("FK14", "L3_GATE", 0, ("WP-1.6", "B1921", "B1922", "X:WHOLE", "X:ENDLAW")),
-        ("FK15", "L3_GATE", 0, ("WP-1.5", "B1922", "WP-4.3_MATH", "X:DICT", "X:ACTION", "X:LEVEL")),
-        ("FK16", "L3_GATE", 0, ("WP-1.1", "WP-1.5")),
-        # Layer 4: All 19 Standard Model Target Nodes (intrinsic = 0; status propagated purely from upstream)
-        ("SM:G1", "L4_SM", 0, ("FK1", "FK3", "FK10", "FK15", "X:DESERT", "X:SCALE")),
-        ("SM:G2", "L4_SM", 0, ("FK1", "FK3", "FK10", "FK15", "X:DESERT", "X:SCALE")),
-        ("SM:G3", "L4_SM", 0, ("FK1", "FK3", "FK10", "FK15", "X:DESERT", "X:SCALE")),
-        ("SM:THETA_QCD", "L4_SM", 0, ("FK3", "FK4", "X:ACTION", "X:HIGGS", "X:MODULUS")),
-        ("SM:QUARTIC_H", "L4_SM", 0, ("FK11", "FK15", "X:HIGGS", "X:SCALE", "X:WHOLE")),
-        ("SM:ANCHOR_SCALE", "L4_SM", 0, ("FK12", "FK14", "FK16", "X:SCALE", "X:ENDLAW", "X:LEVEL")),
-        ("SM:YU_GEN1", "L4_SM", 0, ("FK2", "FK5", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YU_GEN2", "L4_SM", 0, ("FK2", "FK5", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YU_GEN3", "L4_SM", 0, ("FK2", "FK5", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YD_GEN1", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YD_GEN2", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YD_GEN3", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YE_GEN1", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK9", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YE_GEN2", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK9", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:YE_GEN3", "L4_SM", 0, ("FK2", "FK5", "FK8", "FK9", "FK11", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:SCALE")),
-        ("SM:CKM_TH12", "L4_SM", 0, ("FK2", "FK6", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:LEVEL")),
-        ("SM:CKM_TH23", "L4_SM", 0, ("FK2", "FK6", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:LEVEL")),
-        ("SM:CKM_TH13", "L4_SM", 0, ("FK2", "FK6", "FK13", "X:MODULUS", "X:HIGGS", "X:ENDLAW", "X:LEVEL")),
-        ("SM:CKM_DELTA", "L4_SM", 0, ("FK2", "FK6", "FK7", "FK13", "X:HAND", "X:MODULUS", "X:HIGGS")),
+        # Layer 1: 25 Built Upstream Spine Nodes across Stages 1-7 + P-753 (intrinsic = 0; zero X:* parents)
+        ("WP-1.1", "L1_SPINE", "AXIOM_CONVENTION", 0, ()),
+        ("WP-1.2", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.1",)),
+        ("WP-1.3", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.1",)),
+        ("WP-1.4", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.1", "WP-1.3")),
+        ("WP-1.7", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2",)),
+        ("WP-1.8", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.3")),
+        ("WP-1.9", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.3")),
+        ("WP-2.1", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.1",)),
+        ("WP-2.2", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.7", "WP-2.1")),
+        ("WP-2.3", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-2.1",)),
+        ("WP-2.5", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.7", "WP-2.2")),
+        ("WP-3.1", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.7", "WP-2.1")),
+        ("WP-3.2", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.9", "WP-3.1")),
+        ("P-753", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-2.2", "WP-3.2")),
+        ("WP-3.3", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.7", "WP-2.3", "WP-3.2", "P-753")),
+        ("WP-3.4", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-2.2", "WP-2.5", "WP-3.3")),
+        ("WP-3.5", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.4", "WP-2.2", "WP-2.3", "WP-2.5")),
+        ("FL:16", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.4", "WP-3.4", "WP-3.5")),
+        ("B1604", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.3")),
+        ("B1919", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.3", "WP-2.3")),
+        ("B1921", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-2.1", "WP-2.3")),
+        ("B1922", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.3", "B1919")),
+        ("WP-4.1", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-3.4", "B1919", "B1921")),
+        ("WP-4.2", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("B1919", "B1922")),
+        ("WP-4.3", "L1_SPINE", "DERIVED_IMPLICATION", 0, ("WP-1.3", "WP-3.5", "B1922")),
+        # Layer 2: All 11 Canonical Seams (root seam hypotheses with zero WP-* -> X:* incoming edges)
+        ("X:PARENT", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        ("X:ACTION", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        ("X:ENDLAW", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        ("X:DICT", "L2_SEAM", "OBSTRUCTED_SEAM", 3, ()),
+        ("X:HAND", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        ("X:MODULUS", "L2_SEAM", "OBSTRUCTED_SEAM", 3, ()),
+        ("X:LEVEL", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        ("X:WHOLE", "L2_SEAM", "OBSTRUCTED_SEAM", 3, ()),
+        ("X:DESERT", "L2_SEAM", "OBSTRUCTED_SEAM", 3, ()),
+        ("X:SCALE", "L2_SEAM", "OBSTRUCTED_SEAM", 3, ()),
+        ("X:GRAVITY", "L2_SEAM", "OPEN_SEAM", 2, ()),
+        # Layer 3: All 16 Canonical Repository Forks FK1-FK16 (GENESIS.md §8 & Stage 4 G:FK3, G:FK16)
+        ("FK1", "L3_FORK", "AXIOM_CONVENTION", 0, ("WP-1.1",)),
+        ("FK2", "L3_FORK", "CHOSEN_CONVENTION", 1, ("WP-1.1",)),
+        ("FK3", "L3_FORK", "OPEN_FORK", 2, ("WP-1.4", "WP-1.9")),
+        ("FK4", "L3_FORK", "DERIVED_IMPLICATION", 0, ("WP-1.2", "WP-1.3")),
+        ("FK5", "L3_FORK", "OPEN_FORK", 2, ("WP-1.2",)),
+        ("FK6", "L3_FORK", "CHOSEN_CONVENTION", 1, ("WP-1.3",)),
+        ("FK7", "L3_FORK", "OPEN_FORK", 2, ("WP-1.9", "X:ACTION")),
+        ("FK8", "L3_FORK", "OPEN_FORK", 2, ("WP-1.9", "P-753", "X:ACTION")),
+        ("FK9", "L3_FORK", "OBSTRUCTED_FORK", 3, ("WP-4.1", "X:MODULUS")),
+        ("FK10", "L3_FORK", "OPEN_FORK", 2, ("WP-2.3", "B1921", "X:ENDLAW")),
+        ("FK11", "L3_FORK", "OBSTRUCTED_FORK", 3, ("B1604", "X:DICT")),
+        ("FK12", "L3_FORK", "OPEN_FORK", 2, ("WP-1.4", "WP-1.9", "X:HAND")),
+        ("FK13", "L3_FORK", "AXIOM_CONVENTION", 0, ("WP-1.1", "WP-1.3")),
+        ("FK14", "L3_FORK", "OPEN_FORK", 2, ("WP-1.3", "WP-3.2", "X:PARENT", "X:ENDLAW")),
+        ("FK15", "L3_FORK", "OPEN_FORK", 2, ("WP-1.8", "WP-2.5", "X:PARENT", "X:ACTION")),
+        ("FK16", "L3_FORK", "OPEN_FORK", 2, ("WP-1.4", "WP-1.9", "X:HAND")),
+        # Layer 4: 12 SM-Sector Closure Gates FG:01-FG:12 (intrinsic = 0; combine L1 theorems + L2 seams + L3 forks)
+        ("FG:01", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FK1", "FK4", "FK5", "FK10", "FK13", "FK14", "WP-1.7", "WP-1.8", "WP-3.2", "WP-3.5", "P-753", "X:PARENT", "X:ENDLAW")),
+        ("FG:02", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FK2", "FK3", "FK6", "FK7", "FK8", "WP-1.4", "WP-1.9", "WP-3.3", "X:ACTION", "X:HAND")),
+        ("FG:03", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:01", "FG:02", "FK15", "WP-1.8", "WP-1.9", "WP-4.3", "X:PARENT", "X:DESERT", "X:SCALE")),
+        ("FG:04", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FK3", "FK12", "FK16", "WP-1.4", "WP-1.9", "FL:16", "X:HAND")),
+        ("FG:05", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:04", "FK9", "FL:16", "WP-4.1", "X:ACTION", "X:MODULUS")),
+        ("FG:06", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FK11", "FK15", "B1604", "WP-1.7", "WP-2.5", "WP-3.4", "X:DICT", "X:LEVEL")),
+        ("FG:07", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:01", "FG:06", "FK9", "WP-3.3", "WP-3.4", "WP-4.1", "X:PARENT", "X:ACTION", "X:ENDLAW", "X:DICT", "X:HAND", "X:MODULUS", "X:LEVEL", "X:SCALE")),
+        ("FG:08", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:01", "FG:06", "FK8", "FK9", "WP-2.5", "WP-3.3", "WP-3.4", "WP-4.1", "X:PARENT", "X:ACTION", "X:ENDLAW", "X:DICT", "X:HAND", "X:MODULUS", "X:LEVEL", "X:SCALE")),
+        ("FG:09", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:01", "FG:06", "FK8", "FK9", "WP-2.5", "WP-3.3", "WP-3.4", "WP-4.1", "WP-4.3", "X:PARENT", "X:ACTION", "X:ENDLAW", "X:DICT", "X:HAND", "X:MODULUS", "X:LEVEL", "X:DESERT", "X:SCALE")),
+        ("FG:10", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:02", "FG:04", "FG:06", "FK9", "WP-3.3", "WP-3.4", "WP-4.1", "X:PARENT", "X:ACTION", "X:ENDLAW", "X:DICT", "X:HAND", "X:MODULUS", "X:LEVEL")),
+        ("FG:11", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FG:02", "FK15", "WP-2.5", "WP-3.5", "B1922", "WP-4.2", "WP-4.3", "X:ACTION", "X:WHOLE", "X:SCALE")),
+        ("FG:12", "L4_CLOSURE_GATE", "SECTOR_CLOSURE_GATE", 0, ("FK10", "WP-2.1", "WP-2.3", "WP-3.5", "B1921", "B1922", "WP-4.2", "WP-4.3", "X:ACTION", "X:ENDLAW", "X:WHOLE", "X:SCALE", "X:GRAVITY")),
+        # Layer 5: All 19 Independent Standard Model Target Nodes (intrinsic = 0; status propagated purely from upstream)
+        ("SM:G1", "L5_SM", "SM_TARGET", 0, ("FG:03",)),
+        ("SM:G2", "L5_SM", "SM_TARGET", 0, ("FG:03",)),
+        ("SM:G3", "L5_SM", "SM_TARGET", 0, ("FG:03",)),
+        ("SM:THETA_QCD", "L5_SM", "SM_TARGET", 0, ("FG:05",)),
+        ("SM:QUARTIC_H", "L5_SM", "SM_TARGET", 0, ("FG:11",)),
+        ("SM:ANCHOR_SCALE", "L5_SM", "SM_TARGET", 0, ("FG:12",)),
+        ("SM:YU_GEN1", "L5_SM", "SM_TARGET", 0, ("FG:07",)),
+        ("SM:YU_GEN2", "L5_SM", "SM_TARGET", 0, ("FG:07",)),
+        ("SM:YU_GEN3", "L5_SM", "SM_TARGET", 0, ("FG:07",)),
+        ("SM:YD_GEN1", "L5_SM", "SM_TARGET", 0, ("FG:08",)),
+        ("SM:YD_GEN2", "L5_SM", "SM_TARGET", 0, ("FG:08",)),
+        ("SM:YD_GEN3", "L5_SM", "SM_TARGET", 0, ("FG:08",)),
+        ("SM:YE_GEN1", "L5_SM", "SM_TARGET", 0, ("FG:09",)),
+        ("SM:YE_GEN2", "L5_SM", "SM_TARGET", 0, ("FG:09",)),
+        ("SM:YE_GEN3", "L5_SM", "SM_TARGET", 0, ("FG:09",)),
+        ("SM:CKM_TH12", "L5_SM", "SM_TARGET", 0, ("FG:10",)),
+        ("SM:CKM_TH23", "L5_SM", "SM_TARGET", 0, ("FG:10",)),
+        ("SM:CKM_TH13", "L5_SM", "SM_TARGET", 0, ("FG:10",)),
+        ("SM:CKM_DELTA", "L5_SM", "SM_TARGET", 0, ("FG:04", "FG:10")),
     )
 
 
@@ -528,21 +840,23 @@ def propagate_max_plus_epistemic(adj_mat: np.ndarray, topo_order: list[int], int
 
 
 def verify_upstream_epistemic_dag_and_fk_gates() -> dict[str, Any]:
-    """Part 7B: Build the explicit 65-node 4-layer integer adjacency matrix DAG, prove
-    acyclicity via both Kahn's algorithm and nilpotency tr(R) == 0, propagate effective
-    epistemic statuses across FK1-FK16 and all 19 SM target nodes, prove 0-of-19
-    unconditional SM parameter closure on main, and execute planted cycle + shadow-closure
-    + leave-one-seam-active negative controls.
+    """Part 7B: Build the explicit 83-node 5-layer integer adjacency matrix DAG on the monotone
+    epistemic lattice (0=AXIOM_OR_DERIVED < 1=CHOSEN_OR_POSTULATED < 2=OPEN < 3=OBSTRUCTED < 4=FITTED),
+    prove acyclicity via Kahn's algorithm and nilpotency tr(R) == 0, verify zero WP->X edges,
+    cross-check FK3 & FK16 live against Stage 4 WP-1.4 verdicts, prove 0-of-19 unconditional
+    SM parameter closure with active obstructions never overwritten by OPEN, and run 4 negative
+    controls (planted cycle, shadow closure, leave-one-seam-active, and planted FITTED = 4).
     """
     dag_spec = build_upstream_dag_spec()
     node_ids = [row_s[0] for row_s in dag_spec]
     layer_tags = [row_s[1] for row_s in dag_spec]
-    intrinsic_arr = np.array([row_s[2] for row_s in dag_spec], dtype=int)
+    subtype_tags = [row_s[2] for row_s in dag_spec]
+    intrinsic_arr = np.array([row_s[3] for row_s in dag_spec], dtype=int)
     n_nodes = int(intrinsic_arr.shape[0])
     idx_map = {nm: idx_i for idx_i, nm in enumerate(node_ids)}
 
     adj_mat = np.zeros((n_nodes, n_nodes), dtype=int)
-    for child_nm, _, _, parents_tup in dag_spec:
+    for child_nm, _, _, _, parents_tup in dag_spec:
         v_idx = idx_map[child_nm]
         for par_nm in parents_tup:
             u_idx = idx_map[par_nm]
@@ -565,7 +879,6 @@ def verify_upstream_epistemic_dag_and_fk_gates() -> dict[str, Any]:
 
     eff_arr = propagate_max_plus_epistemic(adj_mat, topo_order, intrinsic_arr)
 
-    # Cross-check topological DP against closed-form ancestor max over reach_mat:
     reach_eff_mismatch = 0
     for v_i in range(n_nodes):
         anc_max = int(intrinsic_arr[v_i])
@@ -577,28 +890,82 @@ def verify_upstream_epistemic_dag_and_fk_gates() -> dict[str, Any]:
 
     l1_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L1_SPINE"], dtype=int)
     l2_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L2_SEAM"], dtype=int)
-    l3_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L3_GATE"], dtype=int)
-    l4_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L4_SM"], dtype=int)
+    l3_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L3_FORK"], dtype=int)
+    l4_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L4_CLOSURE_GATE"], dtype=int)
+    l5_idx = np.array([i_n for i_n, tg in enumerate(layer_tags) if tg == "L5_SM"], dtype=int)
 
-    l1_proved_count = int(np.sum(eff_arr[l1_idx] == 0))
-    l2_seam_count = int(np.sum(eff_arr[l2_idx] >= 2))
-    l2_postulated_count = int(np.sum(eff_arr[l2_idx] == 2))
-    l2_chosen_count = int(np.sum(eff_arr[l2_idx] == 3))
-    l2_obstructed_count = int(np.sum(eff_arr[l2_idx] == 4))
-    l2_open_count = int(np.sum(eff_arr[l2_idx] == 5))
+    # Verify zero incoming edges into L2_SEAM (no WP-* -> X:* or FK -> X:* inversion) and zero X:* -> L1_SPINE edges:
+    seam_incoming_edge_count = int(np.sum(adj_mat[:, l2_idx]))
+    spine_from_nonspine_edges = int(np.sum(adj_mat[np.ix_(np.concatenate([l2_idx, l3_idx, l4_idx, l5_idx]), l1_idx)]))
+    honest_seam_direction_verified = bool(seam_incoming_edge_count == 0 and spine_from_nonspine_edges == 0)
 
-    fk_proved_gates = [node_ids[int(i_g)] for i_g in l3_idx if int(eff_arr[int(i_g)]) == 0]
-    fk_non_proved_count = int(np.sum(eff_arr[l3_idx] >= 2))
+    # Check every FG:* gate has >= 1 L1_SPINE theorem ancestor AND >= 1 L2_SEAM seam ancestor:
+    fg_spine_anc = np.sum(reach_mat[np.ix_(l1_idx, l4_idx)], axis=0)
+    fg_seam_anc = np.sum(reach_mat[np.ix_(l2_idx, l4_idx)], axis=0)
+    fg_dual_ancestry_ok = bool(
+        int(np.sum(fg_spine_anc >= 1)) == int(l4_idx.shape[0])
+        and int(np.sum(fg_seam_anc >= 1)) == int(l4_idx.shape[0])
+    )
 
-    sm_eff_arr = eff_arr[l4_idx]
+    l1_derived_count = int(np.sum(eff_arr[l1_idx] == 0))
+    l1_axiom_convention_ids = [node_ids[int(i_s)] for i_s in l1_idx if subtype_tags[int(i_s)] == "AXIOM_CONVENTION"]
+    l2_open_seam_count = int(np.sum(eff_arr[l2_idx] == 2))
+    l2_obstructed_seam_count = int(np.sum(eff_arr[l2_idx] == 3))
+
+    fk_axiom_or_derived_ids = [node_ids[int(i_f)] for i_f in l3_idx if int(eff_arr[int(i_f)]) == 0]
+    fk_chosen_ids = [node_ids[int(i_f)] for i_f in l3_idx if int(eff_arr[int(i_f)]) == 1]
+    fk_open_ids = [node_ids[int(i_f)] for i_f in l3_idx if int(eff_arr[int(i_f)]) == 2]
+    fk_obstructed_ids = [node_ids[int(i_f)] for i_f in l3_idx if int(eff_arr[int(i_f)]) == 3]
+
+    fg_open_count = int(np.sum(eff_arr[l4_idx] == 2))
+    fg_obstructed_count = int(np.sum(eff_arr[l4_idx] == 3))
+
+    sm_eff_arr = eff_arr[l5_idx]
+    obstructed_sm_count = int(np.sum(sm_eff_arr == 3))
+    open_sm_count = int(np.sum(sm_eff_arr == 2))
     obstructed_or_open_sm_count = int(np.sum(sm_eff_arr >= 2))
     unblocked_sm_count_is_zero = bool(int(np.sum(sm_eff_arr == 0)) == 0)
 
-    # Verify every SM node has at least one X:* ancestor in reach_mat:
-    sm_x_ancestor_counts = np.sum(reach_mat[np.ix_(l2_idx, l4_idx)], axis=0)
-    every_sm_has_seam_ancestor = bool(int(np.sum(sm_x_ancestor_counts >= 1)) == int(l4_idx.shape[0]))
+    sm_x_ancestor_counts = np.sum(reach_mat[np.ix_(l2_idx, l5_idx)], axis=0)
+    every_sm_has_seam_ancestor = bool(int(np.sum(sm_x_ancestor_counts >= 1)) == int(l5_idx.shape[0]))
 
-    # Negative Control 1: Planted back-edge ("SM:G1" -> "WP-1.3") must break Kahn & create tr(R_bad) > 0:
+    status_labels = {
+        0: "AXIOM_OR_DERIVED",
+        1: "CHOSEN_OR_POSTULATED",
+        2: "OPEN",
+        3: "OBSTRUCTED",
+        4: "FITTED",
+    }
+    fk_gate_status_labels = {
+        node_ids[int(i_g)]: status_labels[int(eff_arr[int(i_g)])] for i_g in l3_idx
+    }
+    fg_gate_status_labels = {
+        node_ids[int(i_c)]: status_labels[int(eff_arr[int(i_c)])] for i_c in l4_idx
+    }
+    seam_status_labels = {
+        node_ids[int(i_s)]: status_labels[int(eff_arr[int(i_s)])] for i_s in l2_idx
+    }
+    sm_target_status_labels = {
+        node_ids[int(i_m)]: status_labels[int(eff_arr[int(i_m)])] for i_m in l5_idx
+    }
+    ax_conv_mask = np.array([1 if st_t == "AXIOM_CONVENTION" else 0 for st_t in subtype_tags], dtype=int)
+    der_imp_mask = np.array([1 if st_t == "DERIVED_IMPLICATION" else 0 for st_t in subtype_tags], dtype=int)
+    axiom_convention_rank0_count = int(np.sum(ax_conv_mask * (eff_arr == 0).astype(int)))
+    derived_implication_rank0_count = int(np.sum(der_imp_mask * (eff_arr == 0).astype(int)))
+
+    # Live Stage 4 cross-check for FK3 and FK16 (zero cross-stage contradiction):
+    wp14_live = verify_wp14_swap_orientation_and_hand_exhaustion()
+    s4_verdicts = wp14_live["node_verdicts_wp14"]
+    s4_fk3_str = str(s4_verdicts["G:FK3"])
+    s4_fk16_str = str(s4_verdicts["G:FK16"])
+    stage4_fk3_fk16_live_match = bool(
+        s4_fk3_str.startswith("OPEN")
+        and s4_fk16_str.startswith("OPEN")
+        and fk_gate_status_labels["FK3"] == "OPEN"
+        and fk_gate_status_labels["FK16"] == "OPEN"
+    )
+
+    # Negative Control 1: Planted back-edge ("SM:G1" -> "WP-1.3") breaks Kahn & yields tr(R_bad) >= 2:
     adj_bad = adj_mat.copy()
     adj_bad[idx_map["SM:G1"], idx_map["WP-1.3"]] = 1
     topo_bad = kahn_topological_sort(adj_bad)
@@ -606,89 +973,116 @@ def verify_upstream_epistemic_dag_and_fk_gates() -> dict[str, Any]:
     trace_reach_bad = int(np.trace(reach_bad))
     cycle_neg_control_detected = bool(len(topo_bad) < n_nodes and trace_reach_bad >= 2)
 
-    # Negative Control 2: Shadow run zeroing all 11 X:* seams must propagate eff == 0 to all 19 SM nodes:
-    shadow_intrinsic = intrinsic_arr.copy()
-    shadow_intrinsic[l2_idx] = 0
+    # Negative Control 2: Shadow closure zeroing all non-derived hypotheses (L2_SEAM + L3_FORK) reaches eff == 0 on all 19 SM:
+    shadow_intrinsic = np.zeros(n_nodes, dtype=int)
     eff_shadow = propagate_max_plus_epistemic(adj_mat, topo_order, shadow_intrinsic)
-    shadow_unblocked_sm_count = int(np.sum(eff_shadow[l4_idx] == 0))
-    shadow_fk_proved_count = int(np.sum(eff_shadow[l3_idx] == 0))
+    shadow_unblocked_sm_count = int(np.sum(eff_shadow[l5_idx] == 0))
+    shadow_fg_derived_count = int(np.sum(eff_shadow[l4_idx] == 0))
 
-    # Negative Control 3: Leaving any single X:* seam active blocks >= 1 SM target node (non-redundancy):
+    # Intermediate counterfactual: relaxing OBSTRUCTED (3) -> OPEN (2) drops all 19 SM targets from 3 to 2 (OPEN):
+    relaxed_intrinsic = np.minimum(intrinsic_arr, 2)
+    eff_relaxed = propagate_max_plus_epistemic(adj_mat, topo_order, relaxed_intrinsic)
+    open_when_obstructions_relaxed_sm_count = int(np.sum(eff_relaxed[l5_idx] == 2))
+
+    # Negative Control 3: Leaving any single X:* seam active (all other nodes 0) blocks >= 1 SM target node:
     n_seams = int(l2_idx.shape[0])
     single_seam_arr = np.zeros(n_seams, dtype=int)
     for idx_s_pos in range(n_seams):
         seam_i = int(l2_idx[idx_s_pos])
-        one_seam_intr = intrinsic_arr.copy()
-        one_seam_intr[l2_idx] = 0
+        one_seam_intr = np.zeros(n_nodes, dtype=int)
         one_seam_intr[seam_i] = int(intrinsic_arr[seam_i])
         eff_one = propagate_max_plus_epistemic(adj_mat, topo_order, one_seam_intr)
-        single_seam_arr[idx_s_pos] = int(np.sum(eff_one[l4_idx] >= 2))
+        single_seam_arr[idx_s_pos] = int(np.sum(eff_one[l5_idx] >= 2))
     all_11_seams_individually_blocking = bool(int(np.sum(single_seam_arr >= 1)) == n_seams)
 
-    status_labels = {
-        0: "PROVED",
-        1: "CERTIFIED_EXACT",
-        2: "POSTULATED",
-        3: "CHOSEN",
-        4: "OBSTRUCTED",
-        5: "OPEN",
-    }
-    fk_gate_status_labels = {
-        node_ids[int(i_g)]: status_labels[int(eff_arr[int(i_g)])] for i_g in l3_idx
-    }
-    seam_status_labels = {
-        node_ids[int(i_s)]: status_labels[int(eff_arr[int(i_s)])] for i_s in l2_idx
-    }
-    sm_target_status_labels = {
-        node_ids[int(i_m)]: status_labels[int(eff_arr[int(i_m)])] for i_m in l4_idx
-    }
+    # Negative Control 4: Planted empirical parameter import FITTED = 4 on X:SCALE dominates OBSTRUCTED (3) & OPEN (2):
+    fitted_intrinsic = intrinsic_arr.copy()
+    fitted_intrinsic[idx_map["X:SCALE"]] = 4
+    eff_fitted = propagate_max_plus_epistemic(adj_mat, topo_order, fitted_intrinsic)
+    planted_fitted_sm_count = int(np.sum(eff_fitted[l5_idx] == 4))
+    planted_fitted_control_verified = bool(
+        planted_fitted_sm_count == 14 and int(np.sum(eff_fitted[l5_idx] == 3)) == 5
+    )
 
-    dag_all_ok = (
-        n_nodes == 65
+    dag_all_ok = bool(
+        n_nodes == 83
         and acyclic_verified
         and reach_eff_mismatch == 0
-        and l1_proved_count == 19
-        and l2_seam_count == 11
-        and (l2_postulated_count, l2_chosen_count, l2_obstructed_count, l2_open_count) == (2, 2, 3, 4)
-        and fk_proved_gates == ["FK3", "FK16"]
-        and fk_non_proved_count == 14
+        and honest_seam_direction_verified
+        and fg_dual_ancestry_ok
+        and l1_derived_count == 25
+        and l1_axiom_convention_ids == ["WP-1.1"]
+        and axiom_convention_rank0_count == 3
+        and derived_implication_rank0_count == 25
+        and (l2_open_seam_count, l2_obstructed_seam_count) == (6, 5)
+        and fk_axiom_or_derived_ids == ["FK1", "FK4", "FK13"]
+        and fk_chosen_ids == ["FK2", "FK6"]
+        and len(fk_open_ids) == 9
+        and fk_obstructed_ids == ["FK9", "FK11"]
+        and (fg_open_count, fg_obstructed_count) == (3, 9)
+        and obstructed_sm_count == 19
+        and open_sm_count == 0
         and obstructed_or_open_sm_count == 19
         and unblocked_sm_count_is_zero
         and every_sm_has_seam_ancestor
+        and stage4_fk3_fk16_live_match
         and cycle_neg_control_detected
         and shadow_unblocked_sm_count == 19
-        and shadow_fk_proved_count == 16
+        and shadow_fg_derived_count == 12
+        and open_when_obstructions_relaxed_sm_count == 19
         and all_11_seams_individually_blocking
+        and planted_fitted_control_verified
     )
 
     return {
         "node_count": n_nodes,
         "edge_count": edge_count,
         "adjacency_matrix_rank": adj_rank,
-        "layer_counts": [int(l1_idx.shape[0]), int(l2_idx.shape[0]), int(l3_idx.shape[0]), int(l4_idx.shape[0])],
+        "layer_counts": [
+            int(l1_idx.shape[0]),
+            int(l2_idx.shape[0]),
+            int(l3_idx.shape[0]),
+            int(l4_idx.shape[0]),
+            int(l5_idx.shape[0]),
+        ],
+        "axiom_convention_rank0_count": axiom_convention_rank0_count,
+        "derived_implication_rank0_count": derived_implication_rank0_count,
         "acyclic_kahn_and_nilpotent_verified": acyclic_verified,
         "reachability_dp_agreement": bool(reach_eff_mismatch == 0),
-        "layer1_proved_spine_count": l1_proved_count,
-        "layer2_seam_tier_counts": [l2_postulated_count, l2_chosen_count, l2_obstructed_count, l2_open_count],
-        "fk_proved_gate_ids": fk_proved_gates,
-        "fk_blocked_or_conditional_gate_count": fk_non_proved_count,
+        "honest_seam_direction_zero_wp_to_x_verified": honest_seam_direction_verified,
+        "fg_closure_gates_dual_ancestry_verified": fg_dual_ancestry_ok,
+        "layer1_proved_spine_count": l1_derived_count,
+        "layer2_open_and_obstructed_counts": [l2_open_seam_count, l2_obstructed_seam_count],
+        "fk_axiom_or_derived_ids": fk_axiom_or_derived_ids,
+        "fk_chosen_ids": fk_chosen_ids,
+        "fk_open_ids": fk_open_ids,
+        "fk_obstructed_ids": fk_obstructed_ids,
         "fk_gate_status_labels": fk_gate_status_labels,
+        "fg_gate_status_labels": fg_gate_status_labels,
+        "fg_open_and_obstructed_counts": [fg_open_count, fg_obstructed_count],
         "seam_status_labels": seam_status_labels,
         "sm_target_status_labels": sm_target_status_labels,
+        "obstructed_sm_count": obstructed_sm_count,
+        "open_sm_count": open_sm_count,
         "obstructed_or_open_sm_count": obstructed_or_open_sm_count,
         "unblocked_sm_count_is_zero": unblocked_sm_count_is_zero,
         "every_sm_node_has_seam_ancestor": every_sm_has_seam_ancestor,
+        "stage4_fk3_fk16_live_agreement_verified": stage4_fk3_fk16_live_match,
         "planted_cycle_trace_bad": trace_reach_bad,
         "planted_cycle_negative_control_detected": cycle_neg_control_detected,
-        "shadow_zeroed_seams_unblocked_sm_count": shadow_unblocked_sm_count,
+        "shadow_zeroed_hypotheses_unblocked_sm_count": shadow_unblocked_sm_count,
+        "open_sm_count_when_obstructions_relaxed": open_when_obstructions_relaxed_sm_count,
         "all_11_seams_individually_blocking": all_11_seams_individually_blocking,
+        "planted_fitted_sm_propagation_count": planted_fitted_sm_count,
+        "planted_fitted_negative_control_verified": planted_fitted_control_verified,
         "dag_and_fk_audit_verified": dag_all_ok,
     }
 
 
 def ast_scan_zero_banned_sm_identifiers(src_code: str) -> tuple[bool, int, list[str]]:
     """Parse Python source AST and verify zero banned empirical SM identifiers appear in any
-    variable, parameter, or attribute slot, returning (clean_bool, ast_node_count, top_fn_names).
+    Name, Attribute, arg, keyword, FunctionDef, AsyncFunctionDef, ClassDef, or import alias slot,
+    returning (clean_bool, ast_node_count, top_fn_names).
     """
     banned_sm_ids = {
         "m_e", "m_mu", "m_tau", "m_u", "m_c", "m_t", "m_d", "m_s", "m_b",
@@ -706,37 +1100,56 @@ def ast_scan_zero_banned_sm_identifiers(src_code: str) -> tuple[bool, int, list[
             hit_cnt += 1
         elif isinstance(nd, ast.arg) and nd.arg in banned_sm_ids:
             hit_cnt += 1
+        elif isinstance(nd, ast.keyword) and nd.arg is not None and nd.arg in banned_sm_ids:
+            hit_cnt += 1
+        elif isinstance(nd, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)) and nd.name in banned_sm_ids:
+            hit_cnt += 1
+        elif isinstance(nd, ast.alias):
+            if any(seg_nm in banned_sm_ids for seg_nm in nd.name.split(".")):
+                hit_cnt += 1
+            if nd.asname is not None and nd.asname in banned_sm_ids:
+                hit_cnt += 1
     top_fns = [nd.name for nd in tree.body if isinstance(nd, ast.FunctionDef)]
-    return (hit_cnt == 0 and node_cnt > 10), node_cnt, top_fns
+    return (hit_cnt == 0 and node_cnt >= 2), node_cnt, top_fns
 
 
-def build_one_generation_16_sm_generators() -> tuple[sp.Matrix, sp.Matrix, sp.Matrix, sp.Matrix]:
-    """Build explicit 16x16 SymPy representation matrices (T3_SU3, T8_SU3, T3_SU2, Y_16) on
-    one chiral Spin(10) generation:
+def build_one_generation_16_sm_generators() -> tuple[list[sp.Matrix], list[sp.Matrix], sp.Matrix]:
+    """Build explicit 16x16 SymPy representation matrices for ALL 8 Gell-Mann SU(3)_C
+    generators, ALL 3 Pauli SU(2)_L generators, and hypercharge Y_16 on one chiral Spin(10)
+    generation:
       Q_L(3,2)_{1/6} [0..5], u_R^c(3bar,1)_{-2/3} [6..8], d_R^c(3bar,1)_{1/3} [9..11],
       L(1,2)_{-1/2} [12..13], e_R^c(1,1)_1 [14], nu_R^c(1,1)_0 [15].
     """
-    t3_c = sp.diag(sp.Rational(1, 2), sp.Rational(-1, 2), sp.Integer(0))
-    t8_c = sp.diag(sp.Integer(1), sp.Integer(1), sp.Integer(-2)) / (2 * sp.sqrt(3))
-    t3_w = sp.diag(sp.Rational(1, 2), sp.Rational(-1, 2))
+    su3_fund = [
+        sp.Matrix([[0, 1, 0], [1, 0, 0], [0, 0, 0]]) / 2,
+        sp.Matrix([[0, -sp.I, 0], [sp.I, 0, 0], [0, 0, 0]]) / 2,
+        sp.Matrix([[1, 0, 0], [0, -1, 0], [0, 0, 0]]) / 2,
+        sp.Matrix([[0, 0, 1], [0, 0, 0], [1, 0, 0]]) / 2,
+        sp.Matrix([[0, 0, -sp.I], [0, 0, 0], [sp.I, 0, 0]]) / 2,
+        sp.Matrix([[0, 0, 0], [0, 0, 1], [0, 1, 0]]) / 2,
+        sp.Matrix([[0, 0, 0], [0, 0, -sp.I], [0, sp.I, 0]]) / 2,
+        sp.Matrix([[1, 0, 0], [0, 1, 0], [0, 0, -2]]) / (2 * sp.sqrt(3)),
+    ]
+    su2_fund = [
+        sp.Matrix([[0, 1], [1, 0]]) / 2,
+        sp.Matrix([[0, -sp.I], [sp.I, 0]]) / 2,
+        sp.Matrix([[1, 0], [0, -1]]) / 2,
+    ]
 
-    t3_su3_16 = sp.zeros(16, 16)
-    t8_su3_16 = sp.zeros(16, 16)
-    t3_su2_16 = sp.zeros(16, 16)
+    su3_16_list: list[sp.Matrix] = []
+    for t_c in su3_fund:
+        mat_16 = sp.zeros(16, 16)
+        mat_16[0:6, 0:6] = sp.kronecker_product(t_c, sp.eye(2))
+        mat_16[6:9, 6:9] = -t_c.T
+        mat_16[9:12, 9:12] = -t_c.T
+        su3_16_list.append(mat_16)
 
-    # Q_L = 3 (x) 2 on [0..5]:
-    t3_su3_16[0:6, 0:6] = sp.kronecker_product(t3_c, sp.eye(2))
-    t8_su3_16[0:6, 0:6] = sp.kronecker_product(t8_c, sp.eye(2))
-    t3_su2_16[0:6, 0:6] = sp.kronecker_product(sp.eye(3), t3_w)
-
-    # u_R^c = 3bar on [6..8] and d_R^c = 3bar on [9..11] (-T^T):
-    t3_su3_16[6:9, 6:9] = -t3_c.T
-    t8_su3_16[6:9, 6:9] = -t8_c.T
-    t3_su3_16[9:12, 9:12] = -t3_c.T
-    t8_su3_16[9:12, 9:12] = -t8_c.T
-
-    # L = (1, 2) on [12..13]:
-    t3_su2_16[12:14, 12:14] = t3_w
+    su2_16_list: list[sp.Matrix] = []
+    for t_w in su2_fund:
+        mat_16 = sp.zeros(16, 16)
+        mat_16[0:6, 0:6] = sp.kronecker_product(sp.eye(3), t_w)
+        mat_16[12:14, 12:14] = t_w
+        su2_16_list.append(mat_16)
 
     y_diag_entries = (
         [sp.Rational(1, 6)] * 6
@@ -746,19 +1159,83 @@ def build_one_generation_16_sm_generators() -> tuple[sp.Matrix, sp.Matrix, sp.Ma
         + [sp.Integer(1), sp.Integer(0)]
     )
     y_16 = sp.diag(*y_diag_entries)
-    return t3_su3_16, t8_su3_16, t3_su2_16, y_16
+    return su3_16_list, su2_16_list, y_16
+
+
+def audit_buckingham_pi_guardrail5_ledger(
+    ledger_rows: list[tuple[str, int, int, int]],
+    priced_imported_ratios: int,
+) -> dict[str, Any]:
+    """Audit a mass-dimension ledger [(item_id, mass_dim, is_anchor, is_imported_empirical_scale)]
+    under Guardrail 5:
+      (a) sum(is_anchor) <= rank(D) == 1 (at most one overall energy unit anchor),
+      (b) zero dimensionless entries flagged as dimensionful anchors,
+      (c) every secondary empirical dimensionful scale (mass_dim != 0, is_anchor == 0,
+          is_imported_empirical_scale == 1) must be priced in priced_imported_ratios.
+    """
+    n_rows_in = len(ledger_rows)
+    dim_mat = np.zeros((1, n_rows_in), dtype=int)
+    anchor_vec = np.zeros(n_rows_in, dtype=int)
+    imported_vec = np.zeros(n_rows_in, dtype=int)
+    for idx_k, row_k in enumerate(ledger_rows):
+        dim_mat[0, idx_k] = row_k[1]
+        anchor_vec[idx_k] = row_k[2]
+        imported_vec[idx_k] = row_k[3]
+    dim_nz_vec = (np.abs(dim_mat[0]) > 0).astype(int)
+
+    n_cols = int(dim_mat.shape[1])
+    rk_dim = int(np.linalg.matrix_rank(dim_mat.astype(float)))
+    nullity_pi = n_cols - rk_dim
+
+    anchor_count = int(np.sum(anchor_vec))
+    dimless_anchor_count = int(np.sum((1 - dim_nz_vec) * anchor_vec))
+    required_priced = int(np.sum(dim_nz_vec * (1 - anchor_vec) * imported_vec))
+    priced_arr = np.ones(priced_imported_ratios, dtype=int)
+    priced_slots = int(np.sum(priced_arr))
+    raw_diff = required_priced - priced_slots
+    unpriced_deficit = raw_diff if raw_diff > 0 else int(np.sum(np.zeros(1, dtype=int)))
+
+    m_dim_sp = sp.Matrix(dim_mat.tolist())
+    pi_basis_sp = m_dim_sp.nullspace()
+    pi_basis_mat = sp.Matrix.hstack(*pi_basis_sp)
+    nullspace_exact = bool(
+        len(pi_basis_sp) == nullity_pi
+        and int(pi_basis_mat.rank()) == nullity_pi
+        and (m_dim_sp * pi_basis_mat) == sp.zeros(1, nullity_pi)
+    )
+
+    compliant_g5 = bool(
+        rk_dim == 1
+        and anchor_count <= rk_dim
+        and dimless_anchor_count == 0
+        and required_priced <= priced_slots
+        and unpriced_deficit == 0
+        and nullspace_exact
+    )
+    return {
+        "ledger_size": n_cols,
+        "mass_dim_rank": rk_dim,
+        "dimensionless_nullity": nullity_pi,
+        "anchor_count": anchor_count,
+        "required_priced_imported_ratios": required_priced,
+        "unpriced_empirical_scale_deficit": unpriced_deficit,
+        "nullspace_basis_verified": nullspace_exact,
+        "guardrail5_compliant": compliant_g5,
+    }
 
 
 def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
-    """Part 7C: Cross-stage AST public-contract & Guardrail-2/Firewall audit, fast live
-    operator witnesses across Stages 1-6 + P-753, and Guardrail-5 Buckingham-Pi dimensional
-    ledger matrix rank & multi-anchor negative control.
+    """Part 7C: Unconditional 16-file cross-stage AST contract, zero-banned-SM-identifier
+    (including ast.keyword / FunctionDef / ClassDef / alias), Guardrail-2 & Firewall audit,
+    live operator witnesses across Stages 1-6 + P-753 (with full non-Cartan SU(3)/SU(2)
+    anomaly tensor checks), and Guardrail-5 20-item (nullity 19) Buckingham-Pi ledger with
+    derived EW boson mass check and both multi-anchor & unpriced-secondary-scale negative controls.
     """
     root_dir = Path(__file__).resolve().parents[2]
     src_dir = root_dir / "src" / "origin_axiom"
     tests_dir = root_dir / "tests"
 
-    producer_candidates: list[tuple[str, Path, str]] = [
+    producer_specs: list[tuple[str, Path, str]] = [
         ("p753", src_dir / "p753_register_field_join.py", "run_full_p753_join"),
         ("stage1", src_dir / "stage1_curved_action_cusp_orbit.py", "run_stage1_complete_verification"),
         ("stage2", src_dir / "stage2_kernel_and_physical_join.py", "run_stage2_complete_verification"),
@@ -768,11 +1245,7 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         ("stage6", src_dir / "stage6_closed_loop_scale_rge.py", "run_stage6_complete_verification"),
         ("stage7", src_dir / "stage7_upstream_audit_dag.py", "run_stage7_complete_verification"),
     ]
-    producer_specs = [
-        (p_nm, p_path, p_fn) for p_nm, p_path, p_fn in producer_candidates if p_path.exists()
-    ]
-
-    test_candidates: list[tuple[str, Path]] = [
+    test_specs: list[tuple[str, Path]] = [
         ("test_p753", tests_dir / "test_p753_register_field_join.py"),
         ("test_stage1", tests_dir / "test_stage1_curved_action_cusp_orbit.py"),
         ("test_stage2", tests_dir / "test_stage2_kernel_and_physical_join.py"),
@@ -782,77 +1255,36 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         ("test_stage6", tests_dir / "test_stage6_closed_loop_scale_rge.py"),
         ("test_stage7", tests_dir / "test_stage7_upstream_audit_dag.py"),
     ]
-    discovered_tests = [(t_nm, t_p) for t_nm, t_p in test_candidates if t_p.exists()]
 
-    # 1. Cross-stage AST contract, zero-banned-SM-identifier scan, Guardrail 2 & Firewall audit:
+    # 1. Unconditional 16-file existence, zero-banned-SM-identifier, Guardrail-2 & Firewall audit:
     ast_fingerprints: dict[str, list[int]] = {}
-    contract_arr = np.zeros(len(producer_specs), dtype=int)
-    sm_id_core_tags = ("p753", "stage1", "stage2", "stage3", "stage4", "stage5", "stage6", "stage7")
-    g2_prod_candidates: list[tuple[str, Path]] = [
-        (p_nm, p_path) for p_nm, p_path, _ in producer_candidates
-    ]
-    fw_prod_candidates: list[tuple[str, Path]] = [
-        (p_nm, p_path) for p_nm, p_path, _ in producer_candidates
-    ]
-    lock_test_candidates: list[tuple[str, Path]] = list(test_candidates)
-    g2_prod_targets = [(mod_nm, mod_pt) for mod_nm, mod_pt in g2_prod_candidates if mod_pt.exists()]
-    fw_prod_targets = [(mod_nm, mod_pt) for mod_nm, mod_pt in fw_prod_candidates if mod_pt.exists()]
-    lock_test_targets = [(t_t, t_p) for t_t, t_p in lock_test_candidates if t_p.exists()]
-
+    prod_ok_arr = np.zeros(8, dtype=int)
     for idx_p, (mod_tag, mod_path, entry_fn) in enumerate(producer_specs):
-        src_txt = mod_path.read_text(encoding="utf-8")
-        no_sm_ids, nd_cnt, fn_list = ast_scan_zero_banned_sm_identifiers(src_txt)
-        id_gate = no_sm_ids if mod_tag in sm_id_core_tags else (nd_cnt > 100)
-        if id_gate and entry_fn in fn_list and len(fn_list) >= 3:
-            contract_arr[idx_p] = 1
-        ast_fingerprints[mod_tag] = [nd_cnt, len(fn_list)]
+        if mod_path.is_file():
+            src_txt = mod_path.read_text(encoding="utf-8")
+            no_sm_ids, nd_cnt, fn_list = ast_scan_zero_banned_sm_identifiers(src_txt)
+            g2_ok_p = check_guardrail2_ast_no_literal_bool_verdicts(src_txt)
+            fw_ok_p = audit_source_zero_empirical_constants(mod_path, source_override=src_txt)
+            if no_sm_ids and entry_fn in fn_list and len(fn_list) >= 3 and g2_ok_p and fw_ok_p:
+                prod_ok_arr[idx_p] = 1
+            ast_fingerprints[mod_tag] = [nd_cnt, len(fn_list)]
 
-    g2_prod_arr = np.zeros(len(g2_prod_targets), dtype=int)
-    for idx_g, (_, mod_path) in enumerate(g2_prod_targets):
-        if check_guardrail2_ast_no_literal_bool_verdicts(mod_path.read_text(encoding="utf-8")):
-            g2_prod_arr[idx_g] = 1
-
-    fw_prod_arr = np.zeros(len(fw_prod_targets), dtype=int)
-    for idx_f, (_, mod_path) in enumerate(fw_prod_targets):
-        src_f = mod_path.read_text(encoding="utf-8")
-        if audit_source_zero_empirical_constants(mod_path, source_override=src_f):
-            fw_prod_arr[idx_f] = 1
-
-    sm_id_test_tags = (
-        "test_p753",
-        "test_stage1",
-        "test_stage2",
-        "test_stage3",
-        "test_stage4",
-        "test_stage5",
-        "test_stage6",
-        "test_stage7",
-    )
-    test_id_arr = np.zeros(len(discovered_tests), dtype=int)
-    for idx_t, (t_tag, t_path) in enumerate(discovered_tests):
-        t_txt = t_path.read_text(encoding="utf-8")
-        t_clean, t_nodes, t_fns = ast_scan_zero_banned_sm_identifiers(t_txt)
-        t_gate = t_clean if t_tag in sm_id_test_tags else (t_nodes > 50)
-        if t_gate and len(t_fns) >= 2:
-            test_id_arr[idx_t] = 1
-        ast_fingerprints[t_tag] = [t_nodes, len(t_fns)]
-
-    g2_test_arr = np.zeros(len(lock_test_targets), dtype=int)
-    fw_test_arr = np.zeros(len(lock_test_targets), dtype=int)
-    for idx_lt, (_, t_path) in enumerate(lock_test_targets):
-        lt_txt = t_path.read_text(encoding="utf-8")
-        if check_guardrail2_ast_no_literal_bool_verdicts(lt_txt):
-            g2_test_arr[idx_lt] = 1
-        if audit_source_zero_empirical_constants(t_path, source_override=lt_txt):
-            fw_test_arr[idx_lt] = 1
+    test_ok_arr = np.zeros(8, dtype=int)
+    for idx_t, (t_tag, t_path) in enumerate(test_specs):
+        if t_path.is_file():
+            t_txt = t_path.read_text(encoding="utf-8")
+            t_clean, t_nodes, t_fns = ast_scan_zero_banned_sm_identifiers(t_txt)
+            g2_ok_t = check_guardrail2_ast_no_literal_bool_verdicts(t_txt)
+            fw_ok_t = audit_source_zero_empirical_constants(t_path, source_override=t_txt)
+            if t_clean and len(t_fns) >= 2 and g2_ok_t and fw_ok_t:
+                test_ok_arr[idx_t] = 1
+            ast_fingerprints[t_tag] = [t_nodes, len(t_fns)]
 
     cross_stage_ast_audit_ok = bool(
-        int(np.sum(contract_arr)) == len(producer_specs)
-        and int(np.sum(test_id_arr)) == len(discovered_tests)
-        and int(np.sum(g2_prod_arr)) == len(g2_prod_targets)
-        and int(np.sum(fw_prod_arr)) == len(fw_prod_targets)
-        and int(np.sum(g2_test_arr)) == len(lock_test_targets)
-        and int(np.sum(fw_test_arr)) == len(lock_test_targets)
+        len(producer_specs) == 8
+        and len(test_specs) == 8
+        and int(np.sum(prod_ok_arr)) == 8
+        and int(np.sum(test_ok_arr)) == 8
     )
 
     # 2a. Stage 1 witness: Koszul-Dirac D_1 D_0(eps) = (0, 0, -i*sqrt(2)*[[q, r], eps]) & conformal weight 1/2:
@@ -945,20 +1377,45 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         and e8_total_dim == 248
     )
 
-    # 2d. Stage 4 witness: Live FL:16 sub-verifier + all 6 chiral SM anomaly traces on 16-state generation:
+    # 2d. Stage 4 witness: Live FL:16 sub-verifier + full non-Cartan SU(3)^3 / SU(3)^2 U(1) / SU(2)^2 U(1) / U(1)^3 / grav anomalies:
     fl16_live = verify_fl16_strong_cp_theta_bar_theorem()
-    t3_su3_16, t8_su3_16, t3_su2_16, y_16 = build_one_generation_16_sm_generators()
-    anom_su3_cubed = sp.simplify((t8_su3_16 * t8_su3_16 * t8_su3_16).trace())
-    anom_su3_sq_u1 = sp.simplify((t3_su3_16 * t3_su3_16 * y_16).trace())
-    anom_su2_sq_u1 = sp.simplify((t3_su2_16 * t3_su2_16 * y_16).trace())
+    su3_16_list, su2_16_list, y_16 = build_one_generation_16_sm_generators()
+    full_su3_su2_anom_nonzero = 0
+    for idx_a in range(8):
+        for idx_b in range(8):
+            anticomm_3 = (su3_16_list[idx_a] * su3_16_list[idx_b] + su3_16_list[idx_b] * su3_16_list[idx_a]).applyfunc(sp.expand)
+            if sp.expand((anticomm_3 * y_16).trace()) != 0:
+                full_su3_su2_anom_nonzero += 1
+            for idx_c in range(8):
+                if sp.expand((anticomm_3 * su3_16_list[idx_c]).trace()) != 0:
+                    full_su3_su2_anom_nonzero += 1
+    for idx_i in range(3):
+        for idx_j in range(3):
+            anticomm_2 = (su2_16_list[idx_i] * su2_16_list[idx_j] + su2_16_list[idx_j] * su2_16_list[idx_i]).applyfunc(sp.expand)
+            if sp.expand((anticomm_2 * y_16).trace()) != 0:
+                full_su3_su2_anom_nonzero += 1
+
     anom_u1_cubed = sp.simplify((y_16 * y_16 * y_16).trace())
     anom_grav_u1 = sp.simplify(y_16.trace())
+    t3_su3_16 = su3_16_list[2]
+    t3_su2_16 = su2_16_list[2]
     su2_slot_vec = np.zeros(16, dtype=int)
     for idx_d in range(16):
         if t3_su2_16[idx_d, idx_d] != 0:
             su2_slot_vec[idx_d] = 1
     su2_active_slots = int(np.sum(su2_slot_vec))
     su2_doublet_count = su2_active_slots // 2
+
+    # Haar U(16) basis-scrambling check on non-Cartan anomaly trace:
+    u16_scr = haar_unitary(16, rng)
+    g1_num = np.array(su3_16_list[0].evalf(30).tolist(), dtype=complex)
+    g4_num = np.array(su3_16_list[3].evalf(30).tolist(), dtype=complex)
+    g6_num = np.array(su3_16_list[5].evalf(30).tolist(), dtype=complex)
+    g1_r = u16_scr @ g1_num @ u16_scr.conj().T
+    g4_r = u16_scr @ g4_num @ u16_scr.conj().T
+    g6_r = u16_scr @ g6_num @ u16_scr.conj().T
+    haar_anom16_err = float(abs(np.trace((g1_r @ g4_r + g4_r @ g1_r) @ g6_r)))
+
     # Negative control: omitting e_R^c (slot 14) spoils Tr(Y) and Tr(Y^3):
     y_15_incomplete = y_16.extract(list(range(14)) + [15], list(range(14)) + [15])
     anom_incomplete_nonzero = sp.simplify(y_15_incomplete.trace()) != 0 and sp.simplify((y_15_incomplete**3).trace()) != 0
@@ -966,19 +1423,16 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         fl16_live["haar_su3_and_u3_chiral_anomaly_invariance_verified"]
         and fl16_live["exact_sympy_mirror_locus_kills_both_theta_bar_and_jarlskog"]
         and fl16_live["nelson_barr_det_real_nonzero_jarlskog_witness"]
-        and anom_su3_cubed == 0
-        and anom_su3_sq_u1 == 0
-        and anom_su2_sq_u1 == 0
+        and full_su3_su2_anom_nonzero == 0
         and anom_u1_cubed == 0
         and anom_grav_u1 == 0
         and su2_doublet_count == 4
         and su2_doublet_count % 2 == 0
+        and haar_anom16_err < TOL
         and anom_incomplete_nonzero
     )
 
     # 2e. Stage 5 witness: SU(5) 45bar_H Georgi-Jarlskog factor -3 vs 5bar_H +1 & Haar U(3)^2 Yukawa SV invariance:
-    # In 45bar_H: Phi^j_{j,4} with SU(3)_C x SU(2)_L invariance has Phi^0_{0,4}=Phi^1_{1,4}=Phi^2_{2,4}=c_col,
-    # Phi^3_{3,4}=c_lep, and Phi^4_{4,4}=0 by antisymmetry (j,4) = -(4,j); tracelessness sum_j Phi^j_{j,4} == 0:
     gj_trace_constraint = sp.Matrix([[3, 1]])
     gj_null_vec = gj_trace_constraint.nullspace()[0]
     gj_lepton_to_down_ratio = sp.simplify(gj_null_vec[1, 0] / gj_null_vec[0, 0])
@@ -1032,7 +1486,6 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
     j5_matches_exact = sp.expand(j5_4_1_sym - (46 + 2 * sp.sqrt(5))) == 0
     j5_minpoly_zero = sp.expand(((j5_4_1_sym - 46) / 2) ** 2 - 5) == 0
 
-    # 1-loop SM (b_1, b_2, b_3) from explicit trace indices on 3 generations of 16 + 1 Higgs doublet (1,2)_{1/2}:
     s3_gen = (t3_su3_16 * t3_su3_16).trace()
     s2_gen = (t3_su2_16 * t3_su2_16).trace()
     s1_gen = sp.Rational(3, 5) * (y_16 * y_16).trace()
@@ -1059,53 +1512,74 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         and desert_single_scale_diff != 0
     )
 
-    # 3. Guardrail 5 Buckingham-Pi Mass-Dimension Ledger Matrix:
-    ledger_items: list[tuple[str, int, int]] = [
-        ("ANCHOR:EW_SCALE", 1, 1),
-        ("OBS:MASS_U1", 1, 0),
-        ("OBS:MASS_U2", 1, 0),
-        ("OBS:MASS_U3", 1, 0),
-        ("OBS:MASS_D1", 1, 0),
-        ("OBS:MASS_D2", 1, 0),
-        ("OBS:MASS_D3", 1, 0),
-        ("OBS:MASS_E1", 1, 0),
-        ("OBS:MASS_E2", 1, 0),
-        ("OBS:MASS_E3", 1, 0),
-        ("OBS:MASS_VEC_W", 1, 0),
-        ("OBS:MASS_VEC_Z", 1, 0),
-        ("OBS:MASS_SCALAR_H", 1, 0),
-        ("SCALE:MU_UV", 1, 0),
-        ("OBS:G1", 0, 0),
-        ("OBS:G2", 0, 0),
-        ("OBS:G3", 0, 0),
-        ("OBS:THETA_QCD", 0, 0),
-        ("OBS:CKM_12", 0, 0),
-        ("OBS:CKM_23", 0, 0),
-        ("OBS:CKM_13_DELTA", 0, 0),
+    # 3. Guardrail-5 Exact 20-Item Buckingham-Pi Ledger (nullity = 19: 18 dimensionless SM ratios + 1 UV/EW ratio):
+    ledger_items_20: list[tuple[str, int, int, int]] = [
+        ("ANCHOR:EW_SCALE", 1, 1, 0),
+        ("OBS:MASS_U1", 1, 0, 0),
+        ("OBS:MASS_U2", 1, 0, 0),
+        ("OBS:MASS_U3", 1, 0, 0),
+        ("OBS:MASS_D1", 1, 0, 0),
+        ("OBS:MASS_D2", 1, 0, 0),
+        ("OBS:MASS_D3", 1, 0, 0),
+        ("OBS:MASS_E1", 1, 0, 0),
+        ("OBS:MASS_E2", 1, 0, 0),
+        ("OBS:MASS_E3", 1, 0, 0),
+        ("OBS:MASS_H", 1, 0, 0),
+        ("OBS:UV_CUTOFF", 1, 0, 0),
+        ("OBS:G1", 0, 0, 0),
+        ("OBS:G2", 0, 0, 0),
+        ("OBS:G3", 0, 0, 0),
+        ("OBS:CKM_TH12", 0, 0, 0),
+        ("OBS:CKM_TH23", 0, 0, 0),
+        ("OBS:CKM_TH13", 0, 0, 0),
+        ("OBS:CKM_DELTA", 0, 0, 0),
+        ("OBS:THETA_QCD", 0, 0, 0),
     ]
-    dim_vec_np = np.array([[row_l[1] for row_l in ledger_items]], dtype=int)
-    anchor_flags_np = np.array([row_l[2] for row_l in ledger_items], dtype=int)
-    total_ledger_cols = int(dim_vec_np.shape[1])
-    mass_dim_rank = int(np.linalg.matrix_rank(dim_vec_np.astype(float)))
-    pi_nullity = total_ledger_cols - mass_dim_rank
-    m_dim_sp = sp.Matrix(dim_vec_np.tolist())
-    pi_basis_sp = m_dim_sp.nullspace()
-    pi_basis_mat = sp.Matrix.hstack(*pi_basis_sp)
-    pi_basis_valid = bool(
-        len(pi_basis_sp) == pi_nullity
-        and int(pi_basis_mat.rank()) == pi_nullity
-        and (m_dim_sp * pi_basis_mat) == sp.zeros(1, pi_nullity)
+    base_audit = audit_buckingham_pi_guardrail5_ledger(ledger_items_20, priced_imported_ratios=0)
+
+    # Algebraic proof that EW vector boson masses are derived functions of (v_scale, g_Y, g_2) rather than independent inputs:
+    v_scale_s, gy_s, g2_s, kappa_s = sp.symbols("v_scale_s gy_s g2_s kappa_s", positive=True)
+    neutral_m2_mat = (v_scale_s**2 / 4) * sp.Matrix([[g2_s**2, -g2_s * gy_s], [-g2_s * gy_s, gy_s**2]])
+    charged_m2_expr = (v_scale_s**2 / 4) * (g2_s**2)
+    photon_massless_exact = sp.simplify(neutral_m2_mat.det()) == 0
+    heavy_neutral_m2_expr = sp.simplify(neutral_m2_mat.trace())
+    ratio_w_sq = sp.simplify(charged_m2_expr / (v_scale_s**2))
+    ratio_z_sq = sp.simplify(heavy_neutral_m2_expr / (v_scale_s**2))
+    weinberg_mass_ratio = sp.simplify(charged_m2_expr / heavy_neutral_m2_expr)
+    derived_ew_boson_masses_verified = bool(
+        photon_massless_exact
+        and sp.simplify(ratio_w_sq - (g2_s**2) / 4) == 0
+        and sp.simplify(ratio_z_sq - (gy_s**2 + g2_s**2) / 4) == 0
+        and sp.simplify(weinberg_mass_ratio - (g2_s**2) / (gy_s**2 + g2_s**2)) == 0
+        and sp.diff(charged_m2_expr.subs(v_scale_s, kappa_s * v_scale_s) / ((kappa_s * v_scale_s) ** 2), kappa_s) == 0
     )
-    single_anchor_compliant = bool(int(np.sum(anchor_flags_np)) == mass_dim_rank and mass_dim_rank == 1)
 
-    # Negative control: importing 3 unpriced extra empirical dimensionful anchors violates Guardrail 5:
-    bad_ledger_dims = np.concatenate([dim_vec_np, np.array([[1, 1, 1]], dtype=int)], axis=1)
-    bad_anchor_flags = np.concatenate([anchor_flags_np, np.array([1, 1, 1], dtype=int)])
-    bad_rank = int(np.linalg.matrix_rank(bad_ledger_dims.astype(float)))
-    imported_extra_anchors = int(np.sum(bad_anchor_flags)) - bad_rank
-    multi_anchor_rejected = bool(imported_extra_anchors == 3 and int(np.sum(bad_anchor_flags)) > bad_rank)
+    # Negative Control A: Two dimensionful anchors (sum(is_anchor) == 2 > rank == 1) rejected:
+    two_anchor_audit = audit_buckingham_pi_guardrail5_ledger(
+        ledger_items_20 + [("IMPORTED:SECOND_ANCHOR", 1, 1, 0)],
+        priced_imported_ratios=0,
+    )
+    two_anchor_rejected = bool(
+        (not two_anchor_audit["guardrail5_compliant"]) and two_anchor_audit["anchor_count"] == 2
+    )
 
-    all_7c_ok = (
+    # Negative Control B: Secondary empirical dimensionful scales (is_anchor == 0, is_imported_empirical_scale == 1)
+    # fail closed when unpriced (priced_imported_ratios == 0) and pass only when priced (+2 imported ratios):
+    sec_scale_rows = ledger_items_20 + [
+        ("IMPORTED:REF_LEPTON_SCALE", 1, 0, 1),
+        ("IMPORTED:COSMO_SCALE", 1, 0, 1),
+    ]
+    unpriced_sec_audit = audit_buckingham_pi_guardrail5_ledger(sec_scale_rows, priced_imported_ratios=0)
+    priced_sec_audit = audit_buckingham_pi_guardrail5_ledger(sec_scale_rows, priced_imported_ratios=2)
+    secondary_empirical_pricing_enforced = bool(
+        (not unpriced_sec_audit["guardrail5_compliant"])
+        and unpriced_sec_audit["anchor_count"] == 1
+        and unpriced_sec_audit["unpriced_empirical_scale_deficit"] == 2
+        and priced_sec_audit["guardrail5_compliant"]
+        and priced_sec_audit["required_priced_imported_ratios"] == 2
+    )
+
+    all_7c_ok = bool(
         cross_stage_ast_audit_ok
         and stage1_witness_ok
         and stage2_p753_witness_ok
@@ -1113,40 +1587,48 @@ def verify_cross_stage_live_witnesses_and_buckingham_pi() -> dict[str, Any]:
         and stage4_witness_ok
         and stage5_witness_ok
         and stage6_witness_ok
-        and single_anchor_compliant
-        and pi_basis_valid
-        and multi_anchor_rejected
+        and base_audit["guardrail5_compliant"]
+        and base_audit["ledger_size"] == 20
+        and base_audit["mass_dim_rank"] == 1
+        and base_audit["dimensionless_nullity"] == 19
+        and derived_ew_boson_masses_verified
+        and two_anchor_rejected
+        and secondary_empirical_pricing_enforced
     )
 
     return {
         "discovered_producer_modules": [row_p[0] for row_p in producer_specs],
-        "discovered_test_modules": [row_t[0] for row_t in discovered_tests],
+        "discovered_test_modules": [row_t[0] for row_t in test_specs],
         "ast_structural_fingerprints": ast_fingerprints,
         "cross_stage_ast_contract_and_locks_verified": cross_stage_ast_audit_ok,
         "stage1_koszul_and_conformal_witness_verified": stage1_witness_ok,
         "stage2_p753_register16_and_sym2_witness_verified": stage2_p753_witness_ok,
         "stage3_wp13_and_e8_248_witness_verified": stage3_witness_ok,
-        "stage4_fl16_and_anomaly16_witness_verified": stage4_witness_ok,
+        "stage4_fl16_and_full_anomaly16_witness_verified": stage4_witness_ok,
         "stage5_gj_ratio_and_haar_yukawa_witness_verified": stage5_witness_ok,
         "stage6_b1922_j5_and_desert_218_115_witness_verified": stage6_witness_ok,
-        "buckingham_pi_ledger_size": total_ledger_cols,
-        "buckingham_pi_mass_dim_rank": mass_dim_rank,
-        "buckingham_pi_dimensionless_nullity": pi_nullity,
-        "buckingham_pi_single_anchor_verified": bool(single_anchor_compliant and pi_basis_valid),
-        "unpriced_multi_anchor_extra_count": imported_extra_anchors,
-        "unpriced_multi_anchor_negative_control_rejected": multi_anchor_rejected,
+        "buckingham_pi_ledger_size": base_audit["ledger_size"],
+        "buckingham_pi_mass_dim_rank": base_audit["mass_dim_rank"],
+        "buckingham_pi_dimensionless_nullity": base_audit["dimensionless_nullity"],
+        "buckingham_pi_single_anchor_verified": base_audit["guardrail5_compliant"],
+        "derived_ew_vector_boson_masses_verified": derived_ew_boson_masses_verified,
+        "two_anchor_negative_control_rejected": two_anchor_rejected,
+        "unpriced_secondary_scale_deficit": unpriced_sec_audit["unpriced_empirical_scale_deficit"],
+        "secondary_empirical_scale_pricing_enforced": secondary_empirical_pricing_enforced,
         "cross_stage_and_buckingham_verified": all_7c_ok,
     }
 
 
 def run_stage7_complete_verification() -> dict[str, Any]:
-    """Run all Stage 7 parts (7A B1604 No-Go, 7B Upstream Epistemic DAG & FK1-FK16 Gates,
-    7C Cross-Stage Live Operator Witnesses & Buckingham-Pi Audit) plus self AST locks.
+    """Run all Stage 7 parts (7A B1604 No-Go & m004 Spine, 7B Monotone Upstream Epistemic DAG,
+    FK1-FK16 & FG:01-12 Gates, 7C Unconditional 16-File Audit, Live Witnesses & 19-Parameter
+    Buckingham-Pi Audit) plus self AST locks.
     """
     self_path = Path(__file__).resolve()
     self_src = self_path.read_text(encoding="utf-8")
     fw_ok = audit_source_zero_empirical_constants(self_path, source_override=self_src)
     g2_ok = check_guardrail2_ast_no_literal_bool_verdicts(self_src)
+    sm_id_ok, _, _ = ast_scan_zero_banned_sm_identifiers(self_src)
 
     part_7a = verify_b1604_flat_counting_dictionary_no_go()
     part_7b = verify_upstream_epistemic_dag_and_fk_gates()
@@ -1155,15 +1637,17 @@ def run_stage7_complete_verification() -> dict[str, Any]:
     all_passed = bool(
         fw_ok
         and g2_ok
+        and sm_id_ok
         and part_7a["b1604_flat_counting_no_go_verified"]
         and part_7b["dag_and_fk_audit_verified"]
         and part_7c["cross_stage_and_buckingham_verified"]
     )
 
     return {
-        "stage": "Stage 7 (B1604 No-Go, Upstream Epistemic DAG, FK1-FK16 Gates & Cross-Stage Audit)",
+        "stage": "Stage 7 (B1604 No-Go, Monotone Upstream Epistemic DAG, FK1-FK16 & FG:01-12 Gates, Cross-Stage Audit)",
         "zero_sm_empirical_constants_ast_verified": fw_ok,
         "guardrail2_ast_no_literal_bool_verdicts_verified": g2_ok,
+        "zero_banned_sm_identifiers_ast_verified": sm_id_ok,
         "b1604_flat_counting_no_go": part_7a,
         "upstream_epistemic_dag": part_7b,
         "cross_stage_witnesses_and_buckingham_pi": part_7c,

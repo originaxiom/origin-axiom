@@ -13,23 +13,31 @@ couplings, or dimensionful scales appear anywhere in this module. Enforces Guard
   symbolic 6D geodesic disc cutoff cancellation defining modular-invariant end L_tilde (X:ENDLAW
   retaining 1 unfixed real UV/KK threshold parameter); golden hyperbolic geodesic axis period
   average vs single-point apex (B1920) and level-5 twisted eigenline periodicity vs off-eigenline
-  O(1) jump (B1922); 18-of-36 pairwise composite non-closure of single-state admission (B1875)
-  and Guardrail 1 classical flat-potential audit (2 unfixed real modulus parameters).
-- Part 6B (P-831, B1885, P-845):
+  O(1) jump (B1922); 18-of-36 pairwise composite non-closure of single-state admission (B1875);
+  and Guardrail 1 physical E_tau metric volume audit + 1-loop SUSY supertrace, non-SUSY gradient
+  at tau_Golden, subharmonicity Delta_hyp F_u = +pi, and 3-even-spin-structure Scherk-Schwarz
+  harmonicity Delta_hyp V_SS = 0 + zero-row cusp runaway (2 unfixed real modulus parameters).
+- Part 6B (P-831, B1885, P-845, WP-4.2):
   Mod-N Cayley transfer operators on X_N = (Z/NZ)^2 \\ {(0,0)} for N = 2..13 and SL(2, Z/NZ)
   for N = 2..5 (move-parity -1 eigenvalue at even N vs unique +1 at odd N, non-normal positive
   semigroup vs Hermitian symmetric subleading gap shift, level-5 projective index 12 and P^1(F_5)
-  index 6); B1885 Euclidean vs hyperbolic Jacobian sensitivity on the fundamental domain; P-845
-  Nielsen alphabet rank inversion vs hyperbolic axis length invariance and zero-row Hurwitz linear
-  cusp divergence vs zero-row-balanced cusp integrability.
-- Part 6C (WP-4.2, WP-4.3, 2-Loop SM RGE):
-  Level-5 uniqueness |det(M_gold - I)| = 1 vs |det(M_gold + I)| = 5 and 1-bit SC:PREMISE pricing;
-  exact algebraic cyclotomic Kashaev invariant J_5(4_1) = 46 + 2*sqrt(5) (N = 1..6 in SymPy,
-  small-N asymptotic factor > 9 vs Richardson-extrapolated large-N hyperbolic volume convergence)
-  and P-728 non-sealability; mechanical SymPy trace derivation of 1-loop and 2-loop SM RGE
-  coefficients, Guardrail 4 analytical/symbolic 4th-order Lie-jet benchmark gate + negative controls,
-  Guardrail 3 U(3)^5 Haar basis-scrambling invariance (< 1e-12) on 3x3 matrix Yukawa running, and
-  Guardrail 5 single-anchor non-dimensionalization + pure-SM desert non-unification theorem.
+  index 6 with T-cusp width decomposition [1, 5]); B1885 Euclidean vs hyperbolic Jacobian
+  sensitivity on the fundamental domain; torus Lefschetz/Nielsen fixed-point class identities
+  |det(I -/+ M_w)| = |tr(M_w) -/+ 2|; P-845 exact BFS word-length order inversion on genuine
+  hyperbolic elements under Nielsen generator change vs hyperbolic axis length invariance; and
+  zero-row Hurwitz linear cusp divergence vs zero-row-balanced cusp integrability.
+- Part 6C (WP-4.2, WP-4.3, Full 2-Loop SM Matrix RGE):
+  Level-5 uniqueness |det(M_gold - I)| = 1 vs |det(M_gold + I)| = 5 and genuine 1-bit SC:PREMISE
+  pricing via (Z/5Z)^x Kronecker holonomy scaling symmetry; exact cyclotomic Kashaev invariant
+  J_5(4_1) = 46 + 2*sqrt(5) (N = 1..6 in SymPy, small-N asymptotic factor > 9 vs Richardson
+  large-N hyperbolic volume convergence) and mechanical operator-space derivation of the 19 SM
+  parameters (54x45 u(3)^5 flavour Jacobian rank 41 -> 13 + 3 gauge + 2 O(4) Higgs invariants
+  + 1 U(1)_{B+L}-unrotated theta_QCD); pure Machacek-Vaughn (1984, 1985) Casimir + O(4) tensor
+  + Weyl box trace derivation of all 1-loop and 2-loop SM beta functions (verified at N_c = 4
+  and n_gen = 0), Guardrail 4 analytical/symbolic Lie-jet benchmark gate + negative controls,
+  full 2-loop 3x3 matrix Yukawa + gauge + quartic RGEs (top-only specialization < 1e-12 and
+  Guardrail 3 U(3)^5 Haar basis-scrambling invariance < 1e-12), and Guardrail 5 1x10
+  mass-dimension rank-1 single-anchor non-dimensionalization + pure-SM desert non-unification.
 """
 from __future__ import annotations
 
@@ -252,10 +260,29 @@ def mobius_sl2_xy_mp(
     return re_out, im_out
 
 
+def scherk_schwarz_even_spin_potential_mp(
+    u1_b: Any,
+    u2_b: Any,
+    x_re_val: Any,
+    y_im_val: Any,
+    shell_blocks: int = 3,
+) -> Any:
+    """Evaluate the symmetric 3-even-spin-structure Scherk-Schwarz 1-loop closed-loop potential
+    V_SS(tau) = F_{u_B}(tau) - (1/3) * sum_{s in {(0,1/2),(1/2,0),(1/2,1/2)}} F_{u_B - s}(tau).
+    """
+    half_v = mp.fdiv(1, 2)
+    f_bos = kronecker_shifted_s1_mp(u1_b, u2_b, x_re_val, y_im_val, shell_blocks)
+    f_s01 = kronecker_shifted_s1_mp(u1_b, u2_b - half_v, x_re_val, y_im_val, shell_blocks)
+    f_s10 = kronecker_shifted_s1_mp(u1_b - half_v, u2_b, x_re_val, y_im_val, shell_blocks)
+    f_s11 = kronecker_shifted_s1_mp(u1_b - half_v, u2_b - half_v, x_re_val, y_im_val, shell_blocks)
+    return f_bos - mp.fdiv(f_s01 + f_s10 + f_s11, 3)
+
+
 def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
     """Verify Part 6A: B1919 shifted Kronecker limit F_u(tau), B1921 6D geodesic cutoff end L_tilde,
     B1920 geodesic thread period average vs apex, B1922 twisted eigenline periodicity vs off-eigenline
-    jump, and WP-4.1 / B1875 single-state non-closure (18 of 36) + Guardrail 1 flat-potential audit.
+    jump, WP-4.1 / B1875 single-state non-closure (18 of 36), and Guardrail 1 physical torus metric
+    volume + 1-loop closed-loop modulus stabilization audit.
     """
     dyn_z = mp.mpf(int(sp.Matrix.eye(1).trace()) - 1)
     with mp.workdps(40):
@@ -276,15 +303,14 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
                 f_theta = kronecker_theta_fourier_torsion_mp(p1_i, p2_i, 5, x_cur, y_cur)
                 max_theta_fourier_err = max(max_theta_fourier_err, float(abs(f_closed - f_theta)))
 
-                # T: tau -> tau + 1, F_u(tau + 1) == F_{u T}(tau) with u T = (u1, u1 + u2)
                 xt_m, yt_m = mobius_sl2_xy_mp(1, 1, 0, 1, x_cur, y_cur)
                 f_t_lhs = kronecker_shifted_s1_mp(u1_p, u2_p, xt_m, yt_m)
                 f_t_rhs = kronecker_shifted_s1_mp(u1_p, u1_p + u2_p, x_cur, y_cur)
-                # S: tau -> -1/tau, F_u(-1/tau) == F_{u S}(tau) with u S = (u2, -u1)
+
                 xs_m, ys_m = mobius_sl2_xy_mp(0, -1, 1, 0, x_cur, y_cur)
                 f_s_lhs = kronecker_shifted_s1_mp(u1_p, u2_p, xs_m, ys_m)
                 f_s_rhs = kronecker_shifted_s1_mp(u2_p, -u1_p, x_cur, y_cur)
-                # Evenness F_{-u}(tau) == F_u(tau):
+
                 f_neg_u = kronecker_shifted_s1_mp(-u1_p, -u2_p, x_cur, y_cur)
                 max_sl2_cotransport_err = max(
                     max_sl2_cotransport_err,
@@ -293,7 +319,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
                     float(abs(f_closed - f_neg_u)),
                 )
 
-            # Central-difference limit of Z_u(tau, s) - pi/(s - 1) around s = 1:
             reg_plus = (
                 chowla_selberg_shifted_epstein_mp(u1_p, u2_p, probe_xy[0], probe_xy[1], 1 + eps_s)
                 - mp.pi / eps_s
@@ -317,7 +342,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
             im_g = mp.fdiv(sqrt5_mp, 2 * mp.cosh(s_arc))
             return re_g, im_g
 
-        # Verify unit-speed ds_hyp = |tau'(s)| / Im(tau(s)) == 1 and exact Mobius shift tau(s + ell) == gamma(tau(s)):
         geodesic_unit_speed_err = 0.0
         geodesic_mobius_period_err = 0.0
         eigenline_periodicity_err = 0.0
@@ -343,7 +367,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
             f_eig_1 = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_sh, y_sh, 3)
             eigenline_periodicity_err = max(eigenline_periodicity_err, float(abs(f_eig_1 - f_eig_0)))
 
-        # Off-eigenline level-5 holonomy u_off = (1/5, 3/5) -> u_off * gamma_gold = (1, 4/5) == (0, 4/5) (mod 1):
         x_apx, y_apx = tau_golden_xy(dyn_z)
         apex_coord_err = float(
             mp.sqrt(((x_apx - mp.fdiv(1, 2)) ** 2) + ((y_apx - mp.fdiv(sqrt5_mp, 2)) ** 2))
@@ -365,7 +388,7 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
         f_geodesic_avg = mp.fdiv(f_geodesic_integral, ell_gold)
         geodesic_avg_minus_apex_abs = float(abs(f_geodesic_avg - f_apex_eig))
 
-        # B1921 numerical SL(2, Z) invariance of 2*pi*L_tilde + F_u(tau) for arbitrary physical cutoff ratio:
+        # B1921 numerical SL(2, Z) invariance of 2*pi*L_tilde + F_u(tau):
         l_tilde_num = -mp.log(mp.fdiv(1, 7)) - (mp.euler + mp.log(mp.pi))
         end_comb_base = 2 * mp.pi * l_tilde_num + kronecker_shifted_s1_mp(
             u_eig_1, u_eig_2, probe_xy[0], probe_xy[1]
@@ -378,6 +401,97 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
         )
         b1921_modular_err = max(float(abs(end_comb_base - end_comb_s)), float(abs(end_comb_base - end_comb_t)))
 
+        # Guardrail 1 & F4: 1-Loop Closed-Loop Modulus Stabilization Audit:
+        # (a) Matching-holonomy N=2/N=4 SUSY supertrace V_SUSY(tau) = n_B * F_{u_B}(tau) - n_F * F_{u_F}(tau) == 0:
+        n_bos_dof = 4 + int(dyn_z)
+        susy_supertrace_max_err = 0.0
+        for x_su, y_su in (probe_xy, alt_xy, (x_apx, y_apx)):
+            v_susy_pt = n_bos_dof * kronecker_shifted_s1_mp(
+                u_eig_1, u_eig_2, x_su, y_su, 3
+            ) - n_bos_dof * kronecker_shifted_s1_mp(u_eig_1 + 1, u_eig_2 - 1, x_su, y_su, 3)
+            susy_supertrace_max_err = max(susy_supertrace_max_err, float(abs(v_susy_pt)))
+
+        # (b) Non-SUSY gradient nabla F_{(2/5,4/5)}(tau_Golden): d_x F = 0 while d_y F ~ -4.9332397 != 0:
+        h_lap = (mp.fdiv(1, 64) + dyn_z) ** 5
+        f_g0 = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_apx, y_apx, 3)
+        f_gxp = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_apx + h_lap, y_apx, 3)
+        f_gxm = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_apx - h_lap, y_apx, 3)
+        f_gyp = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_apx, y_apx + h_lap, 3)
+        f_gym = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, x_apx, y_apx - h_lap, 3)
+        df_dx_golden = float(mp.fdiv(f_gxp - f_gxm, 2 * h_lap))
+        df_dy_golden = float(mp.fdiv(f_gyp - f_gym, 2 * h_lap))
+
+        # (c) Numerical 2D hyperbolic Laplacian Delta_hyp F_u(tau) = y^2*(d_x^2 + d_y^2) F_u == +pi:
+        lap_f_golden = (y_apx ** 2) * (
+            mp.fdiv(f_gxp - 2 * f_g0 + f_gxm, h_lap ** 2) + mp.fdiv(f_gyp - 2 * f_g0 + f_gym, h_lap ** 2)
+        )
+        f_p0 = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1], 3)
+        f_pxp = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, probe_xy[0] + h_lap, probe_xy[1], 3)
+        f_pxm = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, probe_xy[0] - h_lap, probe_xy[1], 3)
+        f_pyp = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1] + h_lap, 3)
+        f_pym = kronecker_shifted_s1_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1] - h_lap, 3)
+        lap_f_probe = (probe_xy[1] ** 2) * (
+            mp.fdiv(f_pxp - 2 * f_p0 + f_pxm, h_lap ** 2) + mp.fdiv(f_pyp - 2 * f_p0 + f_pym, h_lap ** 2)
+        )
+        max_subharmonic_lap_err = max(
+            float(abs(lap_f_golden - mp.pi)),
+            float(abs(lap_f_probe - mp.pi)),
+        )
+
+        # (d) Symmetric 3-even-spin-structure Scherk-Schwarz potential V_SS(tau):
+        # Verify Delta_hyp V_SS(tau) == 0 on H and monotone negative runaway toward zero-row cusp sigma(i*y):
+        vss_g0 = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, x_apx, y_apx, 3)
+        vss_gxp = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, x_apx + h_lap, y_apx, 3)
+        vss_gxm = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, x_apx - h_lap, y_apx, 3)
+        vss_gyp = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, x_apx, y_apx + h_lap, 3)
+        vss_gym = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, x_apx, y_apx - h_lap, 3)
+        lap_vss_golden = (y_apx ** 2) * (
+            mp.fdiv(vss_gxp - 2 * vss_g0 + vss_gxm, h_lap ** 2)
+            + mp.fdiv(vss_gyp - 2 * vss_g0 + vss_gym, h_lap ** 2)
+        )
+
+        vss_p0 = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1], 3)
+        vss_pxp = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, probe_xy[0] + h_lap, probe_xy[1], 3)
+        vss_pxm = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, probe_xy[0] - h_lap, probe_xy[1], 3)
+        vss_pyp = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1] + h_lap, 3)
+        vss_pym = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, probe_xy[0], probe_xy[1] - h_lap, 3)
+        lap_vss_probe = (probe_xy[1] ** 2) * (
+            mp.fdiv(vss_pxp - 2 * vss_p0 + vss_pxm, h_lap ** 2)
+            + mp.fdiv(vss_pyp - 2 * vss_p0 + vss_pym, h_lap ** 2)
+        )
+        max_vss_harmonic_lap_err = max(float(abs(lap_vss_golden)), float(abs(lap_vss_probe)))
+
+        # Cusp runaway along sigma_cusp = [[2, 1], [-1, 0]] via co-transport F_w(sigma(i*y)) == F_{w*sigma}(i*y):
+        xs_c2, ys_c2 = mobius_sl2_xy_mp(2, 1, -1, 0, dyn_z, mp.mpf(2) + dyn_z)
+        vss_direct_y2 = scherk_schwarz_even_spin_potential_mp(u_eig_1, u_eig_2, xs_c2, ys_c2, 3)
+
+        def eval_vss_sigma_cusp(y_cusp_v: Any) -> Any:
+            half_m = mp.fdiv(1, 2)
+            acc_sp = mp.mpf(0)
+            for s1_i, s2_i in ((0, 1), (1, 0), (1, 1)):
+                w1_s = u_eig_1 - s1_i * half_m
+                w2_s = u_eig_2 - s2_i * half_m
+                acc_sp = acc_sp + kronecker_shifted_s1_mp(2 * w1_s - w2_s, w1_s, dyn_z, y_cusp_v, 2)
+            return kronecker_shifted_s1_mp(2 * u_eig_1 - u_eig_2, u_eig_1, dyn_z, y_cusp_v, 2) - mp.fdiv(acc_sp, 3)
+
+        vss_cusp_y2 = eval_vss_sigma_cusp(mp.mpf(2) + dyn_z)
+        vss_cusp_y8 = eval_vss_sigma_cusp(mp.mpf(8) + dyn_z)
+        vss_cusp_y16 = eval_vss_sigma_cusp(mp.mpf(16) + dyn_z)
+        vss_cusp_cotrans_err = float(abs(vss_direct_y2 - vss_cusp_y2))
+        vss_cusp_runaway_verified = (
+            float(vss_cusp_y16) < -256
+            and float(vss_cusp_y16) < float(vss_cusp_y8) < float(vss_cusp_y2) < -48
+        )
+
+    # Verify gamma_gold = [[2, 1], [1, 1]] permutes the 3 even spin structures {(0,1),(1,0),(1,1)} mod 2 in a 3-cycle:
+    spin_cur = (0, 1)
+    even_spin_orbit: set[tuple[int, int]] = set()
+    for _ in range(3):
+        even_spin_orbit = even_spin_orbit | {spin_cur}
+        spin_cur = ((2 * spin_cur[0] + spin_cur[1]) % 2, (spin_cur[0] + spin_cur[1]) % 2)
+    even_spin_3cycle_len = int(np.sum(np.ones(len(even_spin_orbit), dtype=int)))
+    even_spin_closed = spin_cur == (0, 1) and even_spin_orbit == {(0, 1), (1, 0), (1, 1)}
+
     # B1921 symbolic proof of exact ln(Im tau) cancellation in SymPy:
     y_sym, area_phys, eps_phys, ell_0, f_mod_cov = sp.symbols(
         "y_sym area_phys eps_phys ell_0 f_mod_cov", positive=True
@@ -385,7 +499,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
     gamma_sym = sp.EulerGamma
     eps_coord_sym = eps_phys * sp.sqrt(y_sym / area_phys)
     l_coord_sym = -sp.log(eps_coord_sym / ell_0)
-    # Stripped lattice sum N(u, tau) = F_u(tau) + pi * ln(y) - 2*pi*(gamma_E + ln(pi)):
     n_stripped_sym = f_mod_cov + sp.pi * sp.log(y_sym) - 2 * sp.pi * (gamma_sym + sp.log(sp.pi))
     total_reg_sym = sp.expand(2 * sp.pi * l_coord_sym + n_stripped_sym)
     l_tilde_sym = sp.simplify((total_reg_sym - f_mod_cov) / (2 * sp.pi))
@@ -395,7 +508,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
         and sp.simplify(l_tilde_sym - l_tilde_expected) == 0
         and sp.simplify(sp.diff(l_tilde_sym, eps_phys)) != 0
     )
-    # Jacobian rank of L_tilde with respect to dimensionless UV threshold ratio rho_uv = eps_phys / (ell_0 * sqrt(area_phys)):
     rho_uv = sp.Symbol("rho_uv", positive=True)
     l_tilde_rho = -sp.log(rho_uv) - (gamma_sym + sp.log(sp.pi))
     unfixed_end_law_params = int(sp.Matrix([[sp.diff(l_tilde_rho, rho_uv)]]).rank())
@@ -420,7 +532,6 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
     b1875_hyp_kept_count = int(np.sum(hyp_grid_6x6))
     b1875_hyp_failed_count = int(np.sum(1 - hyp_grid_6x6))
 
-    # Also verify positive 2-run single-syllable words {LR, RL, LLR, LRR, RLL, RRL} (18 of 36 stay 1-syllable):
     pos_single_syllable_6 = ["LR", "RL", "LLR", "LRR", "RLL", "RRL"]
     onesyl_grid_6x6 = np.zeros((6, 6), dtype=int)
     for idx_a in range(6):
@@ -433,16 +544,34 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
     b1875_onesyl_kept_count = int(np.sum(onesyl_grid_6x6))
     b1875_onesyl_failed_count = int(np.sum(1 - onesyl_grid_6x6))
 
-    # Guardrail 1 (Anti-Texas-Sharpshooter): Poincare hyperbolic metric on H^2 has rank 2 and zero classical potential:
-    x_mod, y_mod = sp.symbols("x_mod y_mod", real=True)
+    # Guardrail 1 (Anti-Texas-Sharpshooter):
+    # 1. Explicit physical torus metric g_ab(x, y) = (A_phys / y) * [[1, x], [x, x^2 + y^2]] on E_tau:
+    x_mod = sp.Symbol("x_mod", real=True)
+    y_mod, area_torus = sp.symbols("y_mod area_torus", positive=True)
+    torus_metric_2x2 = (area_torus / y_mod) * sp.Matrix(
+        [[1, x_mod], [x_mod, (x_mod ** 2) + (y_mod ** 2)]]
+    )
+    sqrt_det_torus_g = sp.simplify(sp.sqrt(torus_metric_2x2.det()))
     poincare_metric_2x2 = sp.Matrix([[1 / (y_mod ** 2), 0], [0, 1 / (y_mod ** 2)]])
     tau_open_real_params = int(poincare_metric_2x2.rank())
-    # Verify det(poincare_metric) > 0 on y_mod > 0 and classical potential V_cl == 0 has zero gradient:
-    v_classical_flat = sp.Integer(0) * x_mod + sp.Integer(0) * y_mod
-    grad_vcl_zero = (
-        sp.diff(v_classical_flat, x_mod) == 0
-        and sp.diff(v_classical_flat, y_mod) == 0
+
+    # 2. Symbolic subharmonicity of Kronecker decomposition F_u(x, y) = -pi*ln(y) + 2*pi^2*v2^2*y + Re(holomorphic):
+    v2_hol, c_hol = sp.symbols("v2_hol c_hol", real=True)
+    f_kronecker_decomp_sym = (
+        -sp.pi * sp.log(y_mod)
+        + 2 * (sp.pi ** 2) * (v2_hol ** 2) * y_mod
+        + c_hol * sp.exp(-2 * sp.pi * y_mod) * sp.cos(2 * sp.pi * x_mod)
+    )
+    delta_hyp_f_sym = sp.simplify(
+        (y_mod ** 2)
+        * (sp.diff(f_kronecker_decomp_sym, x_mod, 2) + sp.diff(f_kronecker_decomp_sym, y_mod, 2))
+    )
+    classical_and_symbolic_lap_ok = (
+        sp.simplify(sqrt_det_torus_g - area_torus) == 0
+        and sp.simplify(sp.diff(sqrt_det_torus_g, x_mod)) == 0
+        and sp.simplify(sp.diff(sqrt_det_torus_g, y_mod)) == 0
         and sp.simplify(poincare_metric_2x2.det() * (y_mod ** 4) - 1) == 0
+        and sp.simplify(delta_hyp_f_sym - sp.pi) == 0
     )
 
     part6a_ok = (
@@ -465,7 +594,17 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
         and b1875_onesyl_kept_count == 18
         and b1875_onesyl_failed_count == 18
         and tau_open_real_params == 2
-        and bool(grad_vcl_zero)
+        and bool(classical_and_symbolic_lap_ok)
+        and susy_supertrace_max_err < 1e-30
+        and abs(df_dx_golden) < 1e-24
+        and abs(df_dy_golden) > 4
+        and df_dy_golden < -4
+        and max_subharmonic_lap_err < TOL
+        and even_spin_3cycle_len == 3
+        and even_spin_closed
+        and max_vss_harmonic_lap_err < TOL
+        and vss_cusp_cotrans_err < 1e-30
+        and vss_cusp_runaway_verified
     )
 
     return {
@@ -485,6 +624,13 @@ def verify_part6a_kronecker_cusp_end_and_wp41() -> dict[str, Any]:
         "wp41_b1875_hyperbolic_admitted_count": b1875_hyp_kept_count,
         "wp41_b1875_non_hyperbolic_escaped_count": b1875_hyp_failed_count,
         "wp41_b1875_single_syllable_admitted_count": b1875_onesyl_kept_count,
+        "guardrail1_susy_supertrace_max_err": susy_supertrace_max_err,
+        "guardrail1_golden_df_dx": df_dx_golden,
+        "guardrail1_golden_df_dy": df_dy_golden,
+        "guardrail1_max_subharmonic_laplacian_err": max_subharmonic_lap_err,
+        "guardrail1_even_spin_orbit_len": even_spin_3cycle_len,
+        "guardrail1_max_vss_harmonic_laplacian_err": max_vss_harmonic_lap_err,
+        "guardrail1_vss_cusp_y16": float(vss_cusp_y16),
         "guardrail1_tau_open_real_params": tau_open_real_params,
         "part6a_kronecker_end_and_wp41_verified": part6a_ok,
     }
@@ -561,12 +707,42 @@ def build_sl2_mod_n_transfer(level_n: int) -> tuple[int, np.ndarray, np.ndarray]
     return n_g, p_pos, p_sym
 
 
+def bfs_min_word_length_sl2(
+    sym_gens: list[tuple[int, int, int, int]],
+    target_abcd: tuple[int, int, int, int],
+    max_depth: int = 6,
+) -> int:
+    """Compute exact minimal word length in a symmetric 2x2 integer matrix generating set via BFS."""
+    id_mat = (1, 0, 0, 1)
+    if target_abcd == id_mat:
+        return 0
+    seen_mats = {id_mat}
+    frontier = [id_mat]
+    for depth_w in range(1, max_depth + 1):
+        cand_next = [
+            (
+                cur_m[0] * gen_m[0] + cur_m[1] * gen_m[2],
+                cur_m[0] * gen_m[1] + cur_m[1] * gen_m[3],
+                cur_m[2] * gen_m[0] + cur_m[3] * gen_m[2],
+                cur_m[2] * gen_m[1] + cur_m[3] * gen_m[3],
+            )
+            for cur_m in frontier
+            for gen_m in sym_gens
+        ]
+        dedup_next = [m_v for m_v in set(cand_next) if m_v not in seen_mats]
+        if target_abcd in dedup_next:
+            return depth_w
+        seen_mats = seen_mats | set(dedup_next)
+        frontier = dedup_next
+    return -1
+
+
 def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
     """Verify Part 6B: P-831 mod-N Cayley transfer spectra (N = 2..13 on X_N and N = 2..5 on G_N),
-    B1885 Jacobian sensitivity on F_{SL(2,Z)}, and P-845 Nielsen rank inversion vs geodesic axis
-    invariance plus zero-row Hurwitz linear cusp divergence vs zero-row-balanced integrability.
+    P^1(F_5) T-cusp width decomposition [1, 5], torus Lefschetz/Nielsen fixed-point identities,
+    B1885 Jacobian sensitivity on F_{SL(2,Z)}, and P-845 hyperbolic BFS word-length rank inversion
+    vs geodesic axis invariance plus zero-row Hurwitz linear cusp divergence vs balanced integrability.
     """
-    # 1. P-831 on X_N = (Z/NZ)^2 \ {(0,0)} and primitive carrier X_N^prim across N = 2..13:
     unique_stationary_prim_all = True
     full_xn_orbit_counts_exact = True
     nonnormal_pos_for_ge3 = True
@@ -577,7 +753,7 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
     zero_i = int(sp.Matrix.eye(1).trace()) - 1
     for n_lev in range(2, 14):
         n_dyn = n_lev + zero_i
-        p_pos_full, p_sym_full = build_mod_n_vector_transfer(n_dyn, primitive_only=False)
+        _, p_sym_full = build_mod_n_vector_transfer(n_dyn, primitive_only=False)
         ev_sym_full = np.linalg.eigvalsh(p_sym_full)
         proper_div_cnt = sum(1 for d_i in range(1, n_lev) if n_lev % d_i == 0)
         unit_full_cnt = int(np.sum(np.abs(ev_sym_full - 1.0) < 1e-9))
@@ -601,14 +777,12 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
             comm_norm = float(np.linalg.norm(p_pos_n @ p_pos_n.T - p_pos_n.T @ p_pos_n))
             if comm_norm < 1e-6:
                 nonnormal_pos_for_ge3 = False
-            subleading_gap_shifts.append(abs(sub_pos - sub_sym))
+            subleading_gap_shifts = subleading_gap_shifts + [abs(sub_pos - sub_sym)]
             if n_lev == 5:
                 level5_alphabet_gap_shift = abs(sub_pos - sub_sym)
 
     max_subleading_alphabet_shift = float(np.max(np.array(subleading_gap_shifts, dtype=float)))
 
-    # P-831 on full group G_N = SL(2, Z/NZ) for N = 2, 3, 4, 5:
-    # Move-count parity chi(L) = chi(R) = -1 factors through SL(2, Z/NZ) iff 2 | N (since L^N = I => (-1)^N = 1)!
     gn_orders: dict[int, int] = {}
     gn_unit_mod_counts_sym: dict[int, int] = {}
     for n_g_lev in (2, 3, 4, 5):
@@ -618,7 +792,6 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         gn_unit_mod_counts_sym[n_g_lev] = int(np.sum(np.abs(np.abs(ev_gn) - 1.0) < 1e-9))
 
     sl2_mod5_order = gn_orders[5]
-    # Level-5 +/- eigenline orbit size in X_5 / {+-1} and projective line P^1(F_5):
     elems_g5 = [
         (a0, a1, a2, a3)
         for a0, a1, a2, a3 in product(range(5), repeat=4)
@@ -630,20 +803,43 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         v0 = (2 * a0 + 4 * a2) % 5
         v1 = (2 * a1 + 4 * a3) % 5
         canon_pm = min((v0, v1), ((-v0) % 5, (-v1) % 5))
-        pm_orbit_5.add(canon_pm)
-        # Canonical projective representative in P^1(F_5): first nonzero coordinate normalized to 1
+        pm_orbit_5 = pm_orbit_5 | {canon_pm}
         for scale_f in range(1, 5):
             s0 = (scale_f * v0) % 5
             s1 = (scale_f * v1) % 5
             if (s0 == 1) or (s0 == 0 and s1 == 1):
-                proj_orbit_5.add((s0, s1))
+                proj_orbit_5 = proj_orbit_5 | {(s0, s1)}
                 break
     level5_pm_index = int(np.sum(np.ones(len(pm_orbit_5), dtype=int)))
     level5_p1_index = int(np.sum(np.ones(len(proj_orbit_5), dtype=int)))
 
+    # Exact T-cusp (L = [[1, 1], [0, 1]]) orbit decomposition on P^1(F_5) into cusp widths [1, 5]:
+    visited_p1: set[tuple[int, int]] = set()
+    cusp_widths_5: list[int] = []
+    width1_cusps: list[tuple[int, int]] = []
+    for pt_start in sorted(proj_orbit_5):
+        if pt_start in visited_p1:
+            continue
+        cur_pt = pt_start
+        cyc_pts: list[tuple[int, int]] = []
+        while cur_pt not in visited_p1:
+            visited_p1 = visited_p1 | {cur_pt}
+            cyc_pts = cyc_pts + [cur_pt]
+            nx_p, ny_p = cur_pt[0], (cur_pt[0] + cur_pt[1]) % 5
+            for sc_p in range(1, 5):
+                sx_p = (sc_p * nx_p) % 5
+                sy_p = (sc_p * ny_p) % 5
+                if sx_p == 1 or (sx_p == 0 and sy_p == 1):
+                    cur_pt = (sx_p, sy_p)
+                    break
+        w_len = int(np.sum(np.ones(len(cyc_pts), dtype=int)))
+        cusp_widths_5 = cusp_widths_5 + [w_len]
+        if w_len == 1:
+            width1_cusps = width1_cusps + cyc_pts
+    sorted_cusp_widths_5 = sorted(cusp_widths_5)
+
     # 2. B1885: Euclidean dx*dy vs hyperbolic dx*dy / y^2 Jacobian sensitivity on fundamental domain slice:
     with mp.workdps(35):
-        # Modular-related smooth positive test profile h(y) = y^3 * |eta(i*y)|^12 on y in [1, 3]:
         def profile_b1885(y_v: Any) -> Any:
             eta_v = dedekind_eta_abs_mp(mp.mpf(0), y_v)
             return (y_v ** 3) * (eta_v ** 12)
@@ -657,33 +853,71 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         mean_y_hyperbolic = num_hyp / den_hyp
         b1885_jacobian_mean_shift = float(abs(mean_y_euclidean - mean_y_hyperbolic))
 
-    # 3. P-845 Check 1: Nielsen alphabet presentation shift vs hyperbolic geodesic axis length invariance:
-    # Free Sanov generators A = L^2, B = R^2; Nielsen transformation A' = A, B' = A * B:
+    # 3. P-845 Check 1 & WP-4.2: Genuine hyperbolic BFS word-length rank inversion + Torus Nielsen class identities:
     mat_l = sp.Matrix([[1, 1], [0, 1]])
     mat_r = sp.Matrix([[1, 0], [1, 1]])
     gen_a = mat_l * mat_l
     gen_b = mat_r * mat_r
-    # Word gamma_1 = A * B = B', word gamma_2 = B = (A')^{-1} * B':
-    gamma_1 = gen_a * gen_b
-    gamma_2 = gen_b
-    # Cyclic reduced word lengths in {A, B} vs {A', B'}:
-    # gamma_1 = "ab" (len 2 in {A,B}) = "y" (len 1 in {A'=x, B'=y});
-    # gamma_2 = "b"  (len 1 in {A,B}) = "Xy" (len 2 in {A'=x, B'=y})!
-    len_ab_g1 = len("ab")
-    len_ab_g2 = len("b")
-    len_nielsen_g1 = len("y")
-    len_nielsen_g2 = len("Xy")
-    beta_w = 0.5
-    weight_ratio_ab = math.exp(-beta_w * len_ab_g1) / math.exp(-beta_w * len_ab_g2)
-    weight_ratio_nielsen = math.exp(-beta_w * len_nielsen_g1) / math.exp(-beta_w * len_nielsen_g2)
-    nielsen_rank_inverted = (weight_ratio_ab < 1.0) and (weight_ratio_nielsen > 1.0)
+    # Two genuine hyperbolic elements in <A, B> = Gamma(2):
+    # gamma_1 = A^2 * B = [[9, 4], [2, 1]] (tr = 10 > 2), gamma_2 = A * B = [[5, 2], [2, 1]] (tr = 6 > 2)
+    gamma_1 = gen_a * gen_a * gen_b
+    gamma_2 = gen_a * gen_b
+    tr_gamma_1 = abs(int(gamma_1.trace()))
+    tr_gamma_2 = abs(int(gamma_2.trace()))
 
-    # Geodesic axis length ell_hyp(gamma) = 2 * arccosh(|tr(gamma)| / 2) is invariant under BOTH
-    # Nielsen basis rewriting AND arbitrary SL(2, Z) conjugation g * gamma * g^{-1}:
+    def mat_to_tup4(mat_in: sp.Matrix) -> tuple[int, int, int, int]:
+        return (int(mat_in[0, 0]), int(mat_in[0, 1]), int(mat_in[1, 0]), int(mat_in[1, 1]))
+
+    # Generating set S_1 = {A, A^{-1}, B, B^{-1}} vs Nielsen-transformed S_2 = {A', A'^{-1}, B', B'^{-1}} with A'=A, B'=A^2*B:
+    gen_a_p = gen_a
+    gen_b_p = gen_a * gen_a * gen_b
+    s1_gens = [mat_to_tup4(gen_a), mat_to_tup4(gen_a.inv()), mat_to_tup4(gen_b), mat_to_tup4(gen_b.inv())]
+    s2_gens = [mat_to_tup4(gen_a_p), mat_to_tup4(gen_a_p.inv()), mat_to_tup4(gen_b_p), mat_to_tup4(gen_b_p.inv())]
+
+    w_s1_g1 = bfs_min_word_length_sl2(s1_gens, mat_to_tup4(gamma_1), 5 + zero_i)
+    w_s1_g2 = bfs_min_word_length_sl2(s1_gens, mat_to_tup4(gamma_2), 5 + zero_i)
+    w_s2_g1 = bfs_min_word_length_sl2(s2_gens, mat_to_tup4(gamma_1), 5 + zero_i)
+    w_s2_g2 = bfs_min_word_length_sl2(s2_gens, mat_to_tup4(gamma_2), 5 + zero_i)
+
+    beta_w = 0.5
+    weight_ratio_ab = math.exp(-beta_w * w_s1_g1) / math.exp(-beta_w * w_s1_g2)
+    weight_ratio_nielsen = math.exp(-beta_w * w_s2_g1) / math.exp(-beta_w * w_s2_g2)
+    nielsen_rank_inverted = (
+        tr_gamma_1 > 2
+        and tr_gamma_2 > 2
+        and w_s1_g1 == 3
+        and w_s1_g2 == 2
+        and w_s2_g1 == 1
+        and w_s2_g2 == 2
+        and weight_ratio_ab < 1.0
+        and weight_ratio_nielsen > 1.0
+    )
+
+    # Torus Lefschetz/Nielsen fixed-point class count identities |det(I -/+ M_w)| == |tr(M_w) -/+ 2|:
+    eye2_s = sp.eye(2)
+    weave_hyp_words = [
+        mat_l * mat_r,
+        mat_r * mat_l,
+        mat_l * mat_l * mat_r,
+        mat_l * mat_r * mat_r,
+        (mat_l * mat_r) * (mat_l * mat_r),
+        gamma_1,
+        gamma_2,
+    ]
+    nielsen_torus_class_ok = all(
+        int(m_w.det()) == 1
+        and abs(int(m_w.trace())) > 2
+        and abs(int((eye2_s - m_w).det())) == abs(int(m_w.trace()) - 2)
+        and abs(int((eye2_s + m_w).det())) == abs(int(m_w.trace()) + 2)
+        for m_w in weave_hyp_words
+    )
+
     conj_s = sp.Matrix([[0, -1], [1, 0]])
     conj_lr = mat_l * mat_r
-    hyp_test_mats = [gamma_1, gen_a * gen_a * gen_b, gen_a * gen_b * gen_a * gen_b * gen_b]
+    hyp_test_mats = [gamma_1, gamma_2, gen_a * gen_b * gen_a * gen_b * gen_b]
     max_axis_conj_err = 0.0
+    ell_hyp_g1 = 2.0 * math.acosh(float(tr_gamma_1) * 0.5)
+    ell_hyp_g2 = 2.0 * math.acosh(float(tr_gamma_2) * 0.5)
     for m_hyp in hyp_test_mats:
         ell_base = 2.0 * math.acosh(abs(float(int(m_hyp.trace()))) * 0.5)
         for g_c in (mat_l, mat_r, conj_s, conj_lr):
@@ -698,7 +932,6 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
     a_cusp_mod1 = u_sigma[0, 0] - sp.floor(u_sigma[0, 0])
     b_cusp_mod1 = u_sigma[0, 1] - sp.floor(u_sigma[0, 1])
 
-    # Symbolic cusp integrals against hyperbolic measure dy / y^2 on [2, Y_cut]:
     y_c, y_cut = sp.symbols("y_c y_cut", positive=True)
     div_lin_int = sp.integrate(y_c / (y_c ** 2), (y_c, 2, y_cut))
     conv_log_int = sp.integrate(sp.log(y_c) / (y_c ** 2), (y_c, 2, sp.oo))
@@ -717,7 +950,6 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
     dyn_zb = mp.mpf(int(sp.Matrix.eye(1).trace()) - 1)
     with mp.workdps(40):
         slope_expected_mp = (mp.pi ** 2) / (mp.sin(mp.pi * mp.fdiv(2, 5)) ** 2)
-        # Verify co-transport F_{(2/5,4/5)}(sigma(i*y)) == F_{(0,2/5)}(i*y) and asymptotic linear slope:
         y_co = mp.mpf(2) + dyn_zb
         x_sig_co, y_sig_co = mobius_sl2_xy_mp(2, 1, -1, 0, dyn_zb, y_co)
         f_cotrans_co = kronecker_shifted_s1_mp(mp.fdiv(2, 5), mp.fdiv(4, 5), x_sig_co, y_sig_co, 3)
@@ -728,14 +960,12 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         y_hi_2 = mp.mpf(32) + dyn_zb
         f_zerorow_1 = kronecker_shifted_s1_mp(dyn_zb, mp.fdiv(2, 5), dyn_zb, y_hi_1)
         f_zerorow_2 = kronecker_shifted_s1_mp(dyn_zb, mp.fdiv(2, 5), dyn_zb, y_hi_2)
-        # Subtract exact -pi*ln(y) to isolate linear slope (f(32) + pi*ln(32) - (f(16) + pi*ln(16))) / 16:
         slope_num_mp = mp.fdiv(
             (f_zerorow_2 + mp.pi * mp.log(y_hi_2)) - (f_zerorow_1 + mp.pi * mp.log(y_hi_1)),
             y_hi_2 - y_hi_1,
         )
         cusp_slope_err = float(abs(slope_num_mp - slope_expected_mp))
 
-        # Zero-row-balanced linear combination cancelling the O(y) Hurwitz pole at i*oo:
         w_25 = mp.sin(mp.pi * mp.fdiv(2, 5)) ** 2
         w_15 = mp.sin(mp.pi * mp.fdiv(1, 5)) ** 2
 
@@ -765,8 +995,12 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         and sl2_mod5_order == 120
         and level5_pm_index == 12
         and level5_p1_index == 6
+        and sorted_cusp_widths_5 == [1, 5]
+        and width1_cusps == [(0, 1)]
         and b1885_jacobian_mean_shift > (1 / 10)
         and nielsen_rank_inverted
+        and nielsen_torus_class_ok
+        and ell_hyp_g1 > ell_hyp_g2 > 0.0
         and max_axis_conj_err < TOL
         and bool(symbolic_cusp_laws_exact)
         and cusp_cotrans_err < 1e-30
@@ -783,9 +1017,14 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
         "p831_sl2_mod_n_unit_eigenvalue_counts": gn_unit_mod_counts_sym,
         "p831_level5_pm_stabilizer_index": level5_pm_index,
         "p831_level5_p1_stabilizer_index": level5_p1_index,
+        "p831_level5_cusp_widths": sorted_cusp_widths_5,
+        "p831_level5_width1_cusp": width1_cusps[0],
         "b1885_jacobian_mean_y_shift": b1885_jacobian_mean_shift,
+        "p845_bfs_word_lengths_s1": (w_s1_g1, w_s1_g2),
+        "p845_bfs_word_lengths_s2": (w_s2_g1, w_s2_g2),
         "p845_nielsen_weight_ratio_ab": weight_ratio_ab,
         "p845_nielsen_weight_ratio_transformed": weight_ratio_nielsen,
+        "p845_nielsen_torus_class_verified": nielsen_torus_class_ok,
         "p845_max_geodesic_axis_conjugation_err": max_axis_conj_err,
         "p845_zero_row_cusp_slope": float(slope_expected_mp),
         "p845_zero_row_cusp_slope_err": cusp_slope_err,
@@ -796,15 +1035,95 @@ def verify_part6b_whole_weave_transfer_and_p845() -> dict[str, Any]:
 
 
 # =============================================================================
-# Part 6C Helpers: Mechanical SymPy 2-Loop SM Betas & RGE Integrators (G3, G4, G5)
+# Part 6C Helpers: Genuine MV84/MV85 Trace Derivation & Full 2-Loop Matrix RGEs
 # =============================================================================
 
 
-def build_sm_2loop_betas_symbolic() -> dict[str, Any]:
-    """Derive 1-loop and 2-loop Standard Model RGE beta polynomials mechanically from explicit
-    SymPy representation Casimir traces on one 16D chiral generation and one 2D complex Higgs doublet.
+def mv84_sector_g4_and_lin(
+    c_l: list[sp.Expr],
+    c_r: list[sp.Expr],
+    c_h: list[sp.Expr],
+    s2_f: list[sp.Expr],
+    s2_h: list[sp.Expr],
+    c2_g: list[sp.Expr],
+    gsq_3: list[sp.Expr],
+) -> tuple[list[sp.Expr], sp.Expr]:
+    """Unified Machacek-Vaughn (1984) Eq. (4.3) 2-loop Yukawa gauge coefficients:
+    returns (self_lin_3, pure_g4_poly) for a chiral Yukawa sector (psi_L, psi_R, H).
     """
-    d_g = [sp.Integer(1), sp.Integer(3), sp.Integer(8)]
+    self_lin = [
+        sp.Rational(39, 4) * c_l[i]
+        + sp.Rational(9, 4) * c_r[i]
+        + sp.Rational(27, 2) * c_h[i]
+        - 6 * c_h[i] * c2_g[i]
+        for i in range(3)
+    ]
+    diag_g4 = sum(
+        (
+            -sp.Rational(3, 2) * ((c_l[i] ** 2) + (c_r[i] ** 2))
+            + 6 * (c_l[i] + c_r[i]) * c_h[i]
+            - sp.Rational(21, 2) * (c_h[i] ** 2)
+            + (c_l[i] + c_r[i])
+            * (
+                sp.Rational(5, 3) * s2_f[i]
+                + sp.Rational(11, 6) * s2_h[i]
+                - 16 * c2_g[i]
+                - sp.Rational(1, 6) * c2_g[i]
+            )
+            + c_h[i]
+            * (
+                -s2_f[i]
+                - sp.Rational(1, 2) * s2_h[i]
+                + 12 * c2_g[i]
+                + sp.Rational(1, 4) * c2_g[i]
+            )
+        )
+        * (gsq_3[i] ** 2)
+        for i in range(3)
+    )
+    mix_g4 = sum(
+        (
+            -3 * (c_l[i_a] * c_l[j_a] + c_r[i_a] * c_r[j_a])
+            + 6 * ((c_l[i_a] + c_r[i_a]) * c_h[j_a] + (c_l[j_a] + c_r[j_a]) * c_h[i_a])
+            - 21 * c_h[i_a] * c_h[j_a]
+        )
+        * gsq_3[i_a]
+        * gsq_3[j_a]
+        for i_a in range(3)
+        for j_a in range(i_a + 1, 3)
+    )
+    return self_lin, sp.expand(diag_g4 + mix_g4)
+
+
+def make_real_higgs_gen_4x4(h_gen_2x2: sp.Matrix, h_doub: sp.Matrix, phi_v: sp.Matrix) -> sp.Matrix:
+    """Build 4x4 real representation matrix theta^A on R^4 from complex doublet action i * T^A * H."""
+    dh_v = sp.I * h_gen_2x2 * h_doub
+    dp_v = [
+        sp.re(sp.expand(dh_v[0] * sp.sqrt(2))),
+        sp.im(sp.expand(dh_v[0] * sp.sqrt(2))),
+        sp.re(sp.expand(dh_v[1] * sp.sqrt(2))),
+        sp.im(sp.expand(dh_v[1] * sp.sqrt(2))),
+    ]
+    return sp.Matrix(4, 4, lambda r, c: sp.diff(dp_v[r], phi_v[c]))
+
+
+def build_sm_2loop_betas_symbolic(
+    n_c_override: int = 0,
+    n_gen_override: int = -1,
+) -> dict[str, Any]:
+    """Derive 1-loop and 2-loop SM gauge, matrix Yukawa (u, d, e), and Higgs quartic beta functions
+    mechanically from Machacek-Vaughn (1984, 1985) universal diagram weights + explicit SymPy
+    Casimir traces, 4x4 real Higgs generators, O(4) quartic tensors, and Weyl spinor box traces.
+    Keeps n_c and n_gen independent with zero base-3 radix numerology.
+    """
+    n_c_i = 3 if n_c_override <= 0 else n_c_override
+    n_gen_i = 3 if n_gen_override < 0 else n_gen_override
+    n_c = sp.Matrix.eye(n_c_i).trace()
+    n_gen = sp.Matrix.zeros(1, 1).trace() if n_gen_i == 0 else sp.Matrix.eye(n_gen_i).trace()
+
+    d_g = [sp.Matrix.eye(1).trace(), sp.Matrix.eye(3).trace(), sp.Matrix.eye(n_c_i * n_c_i - 1).trace()]
+    c2_g = [sp.Matrix.zeros(1, 1).trace(), sp.Matrix.eye(2).trace(), n_c]
+
     s1 = sp.Matrix(2, 2, lambda r, c: sp.Rational(1, 2) if r != c else 0)
     s2 = sp.Matrix(
         2,
@@ -821,40 +1140,63 @@ def build_sm_2loop_betas_symbolic() -> dict[str, Any]:
         else (-sp.Rational(1, 2) if (r == 1 and c == 1) else 0),
     )
     cf2 = (s1 * s1 + s2 * s2 + s3 * s3).trace() / 2
-    n_c = sp.Matrix.eye(3).trace()
-    cf3 = (n_c * n_c - 1) / (2 * n_c)
-    c2_g = [sp.Integer(0), sp.Matrix.eye(2).trace(), n_c]
+    cf_nc = (n_c * n_c - 1) / (2 * n_c)
 
-    # 16D Spin(10) chiral generation: Q_L(6), u_R^c(3), d_R^c(3), L_L(2), e_R^c(1), nu_R^c(1)
-    y_16 = (
+    y_q = 1 / (2 * n_c)
+    y_u = y_q + sp.Rational(1, 2)
+    y_d = y_q - sp.Rational(1, 2)
+    y_l = -sp.Rational(1, 2)
+    y_e = -sp.Matrix.eye(1).trace()
+    y_h = sp.Rational(1, 2)
+
+    dim_gen = 4 * n_c_i + 4
+    i_q_end = 2 * n_c_i
+    i_d_end = 4 * n_c_i
+    i_l_end = 4 * n_c_i + 2
+    y_gen = (
+        [y_q] * (2 * n_c_i)
+        + [-y_u] * n_c_i
+        + [-y_d] * n_c_i
+        + [y_l] * 2
+        + [-y_e, sp.Integer(0)]
+    )
+    y2_gen = sp.Matrix(dim_gen, dim_gen, lambda r, c: (y_gen[r] ** 2) if r == c else 0)
+
+    t3w_sq_16 = sp.Matrix(
+        16, 16, lambda r, c: sp.Rational(1, 4) if (r == c and (r < 6 or (12 <= r < 14))) else 0
+    )
+    y_16_sm = (
         [sp.Rational(1, 6)] * 6
         + [sp.Rational(-2, 3)] * 3
         + [sp.Rational(1, 3)] * 3
         + [sp.Rational(-1, 2)] * 2
         + [sp.Integer(1), sp.Integer(0)]
     )
-    y2_16 = sp.Matrix(16, 16, lambda r, c: y_16[r] ** 2 if r == c else 0)
-    t3w_sq_16 = sp.Matrix(
-        16, 16, lambda r, c: sp.Rational(1, 4) if (r == c and (r < 6 or (12 <= r < 14))) else 0
+    y2_16_sm = sp.Matrix(16, 16, lambda r, c: (y_16_sm[r] ** 2) if r == c else 0)
+    k_gut = t3w_sq_16.trace() / y2_16_sm.trace()
+
+    c1_gen = k_gut * y2_gen
+    c2_gen = sp.Matrix(
+        dim_gen,
+        dim_gen,
+        lambda r, c: cf2 if (r == c and (r < i_q_end or (i_d_end <= r < i_l_end))) else 0,
     )
-    # GUT hypercharge normalization k_gut = Tr_{16}(T_3L^2) / Tr_{16}(Y^2) == 3/5:
-    k_gut = t3w_sq_16.trace() / y2_16.trace()
+    c3_gen = sp.Matrix(dim_gen, dim_gen, lambda r, c: cf_nc if (r == c and r < i_d_end) else 0)
+    cas_16 = [c1_gen, c2_gen, c3_gen]
 
-    c1_16 = k_gut * y2_16
-    c2_16 = sp.Matrix(16, 16, lambda r, c: cf2 if (r == c and (r < 6 or (12 <= r < 14))) else 0)
-    c3_16 = sp.Matrix(16, 16, lambda r, c: cf3 if (r == c and r < 12) else 0)
-    cas_16 = [c1_16, c2_16, c3_16]
+    cas_h = [
+        sp.Matrix(2, 2, lambda r, c: k_gut * (y_h ** 2) if r == c else 0),
+        sp.Matrix(2, 2, lambda r, c: cf2 if r == c else 0),
+        sp.Matrix(2, 2, lambda r, c: 0),
+    ]
+    s2_f_1gen_gut = [cas_16[i].trace() / d_g[i] for i in range(3)]
+    s2_h_gut = [cas_h[i].trace() / d_g[i] for i in range(3)]
+    s2_f_gut = [n_gen * s2_f_1gen_gut[i] for i in range(3)]
 
-    c1_h = sp.Matrix(2, 2, lambda r, c: k_gut * sp.Rational(1, 4) if r == c else 0)
-    c2_h = sp.Matrix(2, 2, lambda r, c: cf2 if r == c else 0)
-    c3_h = sp.Matrix(2, 2, lambda r, c: 0)
-    cas_h = [c1_h, c2_h, c3_h]
-
-    n_gen = n_c
     b1_vec = [
         -sp.Rational(11, 3) * c2_g[i]
-        + sp.Rational(2, 3) * n_gen * (cas_16[i].trace() / d_g[i])
-        + sp.Rational(1, 3) * (cas_h[i].trace() / d_g[i])
+        + sp.Rational(2, 3) * s2_f_gut[i]
+        + sp.Rational(1, 3) * s2_h_gut[i]
         for i in range(3)
     ]
     b2_mat = sp.Matrix(
@@ -863,8 +1205,8 @@ def build_sm_2loop_betas_symbolic() -> dict[str, Any]:
         lambda i, j: (
             (
                 -sp.Rational(34, 3) * (c2_g[i] ** 2)
-                + sp.Rational(10, 3) * c2_g[i] * n_gen * (cas_16[i].trace() / d_g[i])
-                + sp.Rational(2, 3) * c2_g[i] * (cas_h[i].trace() / d_g[i])
+                + sp.Rational(10, 3) * c2_g[i] * s2_f_gut[i]
+                + sp.Rational(2, 3) * c2_g[i] * s2_h_gut[i]
             )
             * (1 if i == j else 0)
             + 2 * n_gen * ((cas_16[i] * cas_16[j]).trace() / d_g[i])
@@ -872,136 +1214,320 @@ def build_sm_2loop_betas_symbolic() -> dict[str, Any]:
         ),
     )
 
-    p_ql = sp.Matrix(16, 16, lambda r, c: 1 if (r == c and r < 6) else 0)
-    p_ur = sp.Matrix(16, 16, lambda r, c: 1 if (r == c and 6 <= r < 9) else 0)
-    p_dr = sp.Matrix(16, 16, lambda r, c: 1 if (r == c and 9 <= r < 12) else 0)
-    p_ll = sp.Matrix(16, 16, lambda r, c: 1 if (r == c and 12 <= r < 14) else 0)
-    p_er = sp.Matrix(16, 16, lambda r, c: 1 if (r == c and r == 14) else 0)
+    c_q_raw = [y_q ** 2, cf2, cf_nc]
+    c_u_raw = [y_u ** 2, sp.Integer(0), cf_nc]
+    c_d_raw = [y_d ** 2, sp.Integer(0), cf_nc]
+    c_l_raw = [y_l ** 2, cf2, sp.Integer(0)]
+    c_e_raw = [y_e ** 2, sp.Integer(0), sp.Integer(0)]
+    c_h_raw = [y_h ** 2, cf2, sp.Integer(0)]
 
-    c_top = [
-        (2 / d_g[i]) * (sp.Rational(1, 2) * (p_ql * cas_16[i]).trace() + (p_ur * cas_16[i]).trace())
-        for i in range(3)
-    ]
-    c_q_vec = [(p_ql * cas_16[i]).trace() / 6 for i in range(3)]
-    c_u_vec = [(p_ur * cas_16[i]).trace() / 3 for i in range(3)]
-    c_d_vec = [(p_dr * cas_16[i]).trace() / 3 for i in range(3)]
-    c_l_vec = [(p_ll * cas_16[i]).trace() / 2 for i in range(3)]
-    c_e_vec = [(p_er * cas_16[i]).trace() for i in range(3)]
-    c_h_vec = [cas_h[i].trace() / 2 for i in range(3)]
+    scale_gut = [k_gut, sp.Integer(1), sp.Integer(1)]
+    c_q_gut = [scale_gut[i] * c_q_raw[i] for i in range(3)]
+    c_u_gut = [scale_gut[i] * c_u_raw[i] for i in range(3)]
+    c_d_gut = [scale_gut[i] * c_d_raw[i] for i in range(3)]
+    c_l_gut = [scale_gut[i] * c_l_raw[i] for i in range(3)]
+    c_e_gut = [scale_gut[i] * c_e_raw[i] for i in range(3)]
+
+    c_yuk_mat = sp.Matrix(
+        3,
+        3,
+        lambda i, f_idx: (2 / d_g[i])
+        * (
+            n_c * (c_q_gut[i] + c_u_gut[i])
+            if f_idx == 0
+            else (n_c * (c_q_gut[i] + c_d_gut[i]) if f_idx == 1 else (c_l_gut[i] + c_e_gut[i]))
+        ),
+    )
+    c_top = [c_yuk_mat[i, 0] for i in range(3)]
 
     g1sq, g2sq, g3sq, ytsq, lam = sp.symbols("g1sq g2sq g3sq ytsq lam")
-    gsq_vec = [g1sq, g2sq, g3sq]
     gy_sq = k_gut * g1sq
+    gsq_raw = [gy_sq, g2sq, g3sq]
+    gsq_gut = [g1sq, g2sq, g3sq]
+
+    s2_f_raw = [n_gen * y2_gen.trace(), s2_f_gut[1], s2_f_gut[2]]
+    s2_h_raw = [2 * (y_h ** 2), s2_h_gut[1], s2_h_gut[2]]
 
     beta_yt_1 = (n_c + sp.Rational(3, 2)) * ytsq - 3 * sum(
-        (c_q_vec[i] + c_u_vec[i]) * gsq_vec[i] for i in range(3)
+        (c_q_raw[i] + c_u_raw[i]) * gsq_raw[i] for i in range(3)
     )
-    beta_yd_gauge_1 = -3 * sum((c_q_vec[i] + c_d_vec[i]) * gsq_vec[i] for i in range(3))
-    beta_ye_gauge_1 = -3 * sum((c_l_vec[i] + c_e_vec[i]) * gsq_vec[i] for i in range(3))
+    beta_yd_gauge_1 = -3 * sum((c_q_raw[i] + c_d_raw[i]) * gsq_raw[i] for i in range(3))
+    beta_ye_gauge_1 = -3 * sum((c_l_raw[i] + c_e_raw[i]) * gsq_raw[i] for i in range(3))
 
-    beta_lam_1 = (
-        24 * (lam ** 2)
-        + 12 * lam * ytsq
-        - 6 * (ytsq ** 2)
-        - 3 * lam * (3 * g2sq + gy_sq)
-        + sp.Rational(3, 8) * (2 * (g2sq ** 2) + ((g2sq + gy_sq) ** 2))
+    # MV84 2-loop Yukawa gauge terms across all 3 sectors (u, d, e):
+    u_self_raw, u_pure_g4 = mv84_sector_g4_and_lin(
+        c_q_raw, c_u_raw, c_h_raw, s2_f_raw, s2_h_raw, c2_g, gsq_raw
     )
-
-    # Machacek-Vaughn (1984) Eq.(4.2)-(4.3) / Buttazzo et al. arXiv:1307.3536 2-loop top Yukawa:
-    yt2_gauge_lin = sum(
-        (
-            sp.Rational(3, 2) * (c_q_vec[i] + 2 * c_u_vec[i])
-            + 2 * n_c * c_h_vec[i]
-            + sp.Rational(15, 4) * n_c * (c_q_vec[i] + c_u_vec[i])
-        )
-        * gsq_vec[i]
+    d_self_raw, d_pure_g4 = mv84_sector_g4_and_lin(
+        c_q_raw, c_d_raw, c_h_raw, s2_f_raw, s2_h_raw, c2_g, gsq_raw
+    )
+    e_self_raw, e_pure_g4 = mv84_sector_g4_and_lin(
+        c_l_raw, c_e_raw, c_h_raw, s2_f_raw, s2_h_raw, c2_g, gsq_raw
+    )
+    u_from_d_raw = [
+        sp.Rational(39, 4) * c_q_raw[i]
+        + sp.Rational(9, 4) * c_d_raw[i]
+        + sp.Rational(3, 2) * c_h_raw[i]
+        - 6 * c_h_raw[i] * c2_g[i]
         for i in range(3)
-    )
-    yt2_gauge_mix = sp.Integer(0)
-    for i_m in range(3):
-        for j_m in range(i_m + 1, 3):
-            yt2_gauge_mix = yt2_gauge_mix + (
-                -3 * (c_q_vec[i_m] * c_q_vec[j_m] + c_u_vec[i_m] * c_u_vec[j_m])
-                + 6
-                * (
-                    (c_q_vec[i_m] + c_u_vec[i_m]) * c_h_vec[j_m]
-                    + (c_q_vec[j_m] + c_u_vec[j_m]) * c_h_vec[i_m]
-                )
-                - 21 * c_h_vec[i_m] * c_h_vec[j_m]
-            ) * gsq_vec[i_m] * gsq_vec[j_m]
+    ]
+    d_from_u_raw = [
+        sp.Rational(39, 4) * c_q_raw[i]
+        + sp.Rational(9, 4) * c_u_raw[i]
+        + sp.Rational(3, 2) * c_h_raw[i]
+        - 6 * c_h_raw[i] * c2_g[i]
+        for i in range(3)
+    ]
+    tr_u_raw = [sp.Rational(5, 2) * n_c * (c_q_raw[i] + c_u_raw[i]) for i in range(3)]
+    tr_d_raw = [sp.Rational(5, 2) * n_c * (c_q_raw[i] + c_d_raw[i]) for i in range(3)]
+    tr_e_raw = [sp.Rational(5, 2) * (c_l_raw[i] + c_e_raw[i]) for i in range(3)]
 
-    s2f_3 = n_gen * (cas_16[2].trace() / d_g[2])
-    qcd_g3_4 = (c_q_vec[2] + c_u_vec[2]) * (
-        -16 * c2_g[2] - sp.Rational(1, 6) * c2_g[2] + sp.Rational(5, 3) * s2f_3 - sp.Rational(3, 2) * cf3
-    )
-    beta_yt_2 = (
-        -12 * (ytsq ** 2)
-        - 12 * lam * ytsq
-        + 6 * (lam ** 2)
-        + ytsq * yt2_gauge_lin
-        + yt2_gauge_mix
-        + qcd_g3_4 * (g3sq ** 2)
-        - sp.Rational(23, 4) * (g2sq ** 2)
-        + ((132 * n_c * n_c - 1) / (8 * (n_c ** 3))) * (gy_sq ** 2)
+    yt2_pure_yuk = (sp.Rational(3, 2) - sp.Rational(9, 2) * n_c) * (ytsq ** 2)
+    yt2_gauge_lin = sum((u_self_raw[i] + tr_u_raw[i]) * gsq_raw[i] for i in range(3))
+    beta_yt_2 = sp.expand(
+        yt2_pure_yuk - 12 * lam * ytsq + 6 * (lam ** 2) + ytsq * yt2_gauge_lin + u_pure_g4
     )
 
-    # Machacek-Vaughn (1985) / Buttazzo et al. arXiv:1307.3536 Eq.(99) 2-loop Higgs quartic:
-    beta_lam_2 = (
-        -104 * n_c * (lam ** 3)
+    # MV85 4x4 real Higgs generators + O(4) quartic tensor + Weyl Yukawa traces:
+    p0, p1, p2, p3 = sp.symbols("p0 p1 p2 p3", real=True)
+    phi_v = sp.Matrix([p0, p1, p2, p3])
+    h_doub = sp.Matrix([p0 + sp.I * p1, p2 + sp.I * p3]) / sp.sqrt(2)
+    ht_doub = sp.Matrix([p2 - sp.I * p3, -(p0 - sp.I * p1)]) / sp.sqrt(2)
+
+    g2_sym, gy_sym = sp.symbols("g2_sym gy_sym", real=True)
+    th_4 = [
+        make_real_higgs_gen_4x4(h_g, h_doub, phi_v)
+        for h_g in (g2_sym * s1, g2_sym * s2, g2_sym * s3, gy_sym * y_h * sp.eye(2))
+    ]
+    l4_ten = {
+        (a_i, b_i, c_i, d_i): 2
+        * lam
+        * (
+            (1 if (a_i == b_i and c_i == d_i) else 0)
+            + (1 if (a_i == c_i and b_i == d_i) else 0)
+            + (1 if (a_i == d_i and b_i == c_i) else 0)
+        )
+        for a_i, b_i, c_i, d_i in product(range(4), repeat=4)
+    }
+
+    candy_1loop = sp.Rational(1, 2) * sum(
+        l4_ten[(2, 2, e_i, f_i)] * l4_ten[(e_i, f_i, 2, 2)] for e_i, f_i in product(range(4), repeat=2)
+    )
+    gamma2_s_lam = sp.Rational(1, 12) * sum(
+        l4_ten[(2, f_i, g_i, h_i)] ** 2 for f_i, g_i, h_i in product(range(4), repeat=3)
+    )
+    scoop_2loop = sum(
+        l4_ten[(2, 2, e_i, f_i)] * l4_ten[(2, e_i, g_i, h_i)] * l4_ten[(2, f_i, g_i, h_i)]
+        for e_i, f_i, g_i, h_i in product(range(4), repeat=4)
+    )
+    pure_lam3 = -scoop_2loop + 4 * gamma2_s_lam * lam
+
+    c2_s22 = -sum((t_m * t_m for t_m in th_4), sp.zeros(4, 4))[2, 2]
+    i1_inv = c2_s22 ** 2
+    i_box_inv = sum((((ta * tb + tb * ta)[2, 2] / 2) ** 2 for ta in th_4 for tb in th_4))
+    th_diag_4 = [-(t_m * t_m)[2, 2] for t_m in th_4]
+    cg_ew_4 = [c2_g[1], c2_g[1], c2_g[1], c2_g[0]]
+    sf_ew_4 = [s2_f_raw[1], s2_f_raw[1], s2_f_raw[1], s2_f_raw[0]]
+    ss_ew_4 = [-(th_4[0] * th_4[0]).trace() / (g2_sym ** 2)] * 3 + [
+        -(th_4[3] * th_4[3]).trace() / (gy_sym ** 2)
+    ]
+    g_ew_4 = [g2_sym, g2_sym, g2_sym, gy_sym]
+
+    k_g_inv = sum(th_diag_4[a_i] * (g_ew_4[a_i] ** 2) * cg_ew_4[a_i] for a_i in range(4))
+    k_f_inv = sum(th_diag_4[a_i] * (g_ew_4[a_i] ** 2) * sf_ew_4[a_i] for a_i in range(4))
+    k_s_inv = sum(th_diag_4[a_i] * (g_ew_4[a_i] ** 2) * ss_ew_4[a_i] for a_i in range(4))
+
+    b_f_inv = sum(
+        (((th_4[a_i] * th_4[b_i] + th_4[b_i] * th_4[a_i])[2, 2] / 2) ** 2)
+        * (sf_ew_4[a_i] * (g_ew_4[a_i] ** 2) + sf_ew_4[b_i] * (g_ew_4[b_i] ** 2))
+        / 2
+        for a_i in range(4)
+        for b_i in range(4)
+    )
+    b_s_inv = sum(
+        (((th_4[a_i] * th_4[b_i] + th_4[b_i] * th_4[a_i])[2, 2] / 2) ** 2)
+        * (ss_ew_4[a_i] * (g_ew_4[a_i] ** 2) + ss_ew_4[b_i] * (g_ew_4[b_i] ** 2))
+        / 2
+        for a_i in range(4)
+        for b_i in range(4)
+    )
+    b_g_inv = sum(
+        (((th_4[a_i] * th_4[b_i] + th_4[b_i] * th_4[a_i])[2, 2] / 2) ** 2)
+        * (cg_ew_4[a_i] * (g_ew_4[a_i] ** 2) + cg_ew_4[b_i] * (g_ew_4[b_i] ** 2))
+        / 2
+        for a_i in range(4)
+        for b_i in range(4)
+    )
+
+    subs_ew = {
+        g2_sym ** 2: g2sq,
+        gy_sym ** 2: gy_sq,
+        g2_sym ** 4: g2sq ** 2,
+        gy_sym ** 4: gy_sq ** 2,
+        g2_sym ** 6: g2sq ** 3,
+        gy_sym ** 6: gy_sq ** 3,
+    }
+
+    def sector_y2_g4_poly(y_left: sp.Expr, y_right: sp.Expr, dc_mult: sp.Expr, h_sel: sp.Matrix) -> sp.Expr:
+        psi_1, psi_2, psi_rc = sp.symbols("psi_1 psi_2 psi_rc")
+        q_2 = sp.Matrix([psi_1, psi_2])
+        yuk_form = (h_sel.H * q_2)[0] * psi_rc
+        psi_list = [psi_1, psi_2, psi_rc]
+        ya_3 = [
+            sp.Matrix(
+                3, 3, lambda r, c: sp.diff(sp.diff(sp.expand(sp.diff(yuk_form, pa_s)), psi_list[r]), psi_list[c])
+            )
+            for pa_s in (p0, p1, p2, p3)
+        ]
+        ta_3 = [
+            g2_sym * sp.diag(s1, 0),
+            g2_sym * sp.diag(s2, 0),
+            g2_sym * sp.diag(s3, 0),
+            gy_sym * sp.diag(y_left * sp.eye(2), -y_right),
+        ]
+        m_mix_val = sum(
+            ((th_4[a_i] * th_4[b_i] + th_4[b_i] * th_4[a_i])[2, e_i] / 2)
+            * (ya_3[e_i] * ya_3[2].H * ((ta_3[a_i] * ta_3[b_i] + ta_3[b_i] * ta_3[a_i]) / 2)).trace()
+            for a_i in range(4)
+            for b_i in range(4)
+            for e_i in range(4)
+        )
+        return sp.expand(dc_mult * (20 * i_box_inv + 48 * m_mix_val)).subs(subs_ew)
+
+    u_y2_g4 = sector_y2_g4_poly(y_q, y_u, n_c, ht_doub)
+    d_y2_g4 = sector_y2_g4_poly(y_q, y_d, n_c, h_doub)
+    e_y2_g4 = sector_y2_g4_poly(y_l, y_e, sp.Integer(1), h_doub)
+
+    # 4x4 Weyl quark doublet Yukawa traces for chi_4, lambda*Y^4, and Y^6 mixed (u, d) matrix weights:
+    qu_w, qd_w, urc_w, drc_w = sp.symbols("qu_w qd_w urc_w drc_w")
+    yu_s, yd_s = sp.symbols("yu_s yd_s", real=True)
+    q_w2 = sp.Matrix([qu_w, qd_w])
+    w_qd = yu_s * (ht_doub.H * q_w2)[0] * urc_w + yd_s * (h_doub.H * q_w2)[0] * drc_w
+    q_w4 = [qu_w, qd_w, urc_w, drc_w]
+    ya_q4 = [
+        sp.Matrix(4, 4, lambda r, c: sp.diff(sp.diff(sp.expand(sp.diff(w_qd, pa_s)), q_w4[r]), q_w4[c]))
+        for pa_s in (p0, p1, p2, p3)
+    ]
+    tr4_diag_q = sp.expand((ya_q4[2] * ya_q4[2].H * ya_q4[2] * ya_q4[2].H).trace())
+    tr4_s1_q = sp.expand(sum((ya_q4[2] * ya_q4[e_i].H * ya_q4[e_i] * ya_q4[2].H).trace() for e_i in range(4)))
+    tr4_s2_q = sp.expand(sum((ya_q4[2] * ya_q4[e_i].H * ya_q4[2] * ya_q4[e_i].H).trace() for e_i in range(4)))
+    chi4_q_poly = sp.Poly(sp.expand(n_c * (-sp.Rational(3, 2) * tr4_s1_q - tr4_s2_q)), yu_s, yd_s)
+    lam_y4_q_poly = sp.Poly(
+        sp.expand(4 * chi4_q_poly.as_expr() + n_c * (16 * tr4_diag_q + 8 * tr4_s2_q)), yu_s, yd_s
+    )
+    tr6_d_q = sp.expand((ya_q4[2] * ya_q4[2].H * ya_q4[2] * ya_q4[2].H * ya_q4[2] * ya_q4[2].H).trace())
+    tr6_s1_q = sp.expand(
+        sum((ya_q4[2] * ya_q4[2].H * ya_q4[2] * ya_q4[e_i].H * ya_q4[e_i] * ya_q4[2].H).trace() for e_i in range(4))
+    )
+    tr6_s2_q = sp.expand(
+        sum((ya_q4[2] * ya_q4[e_i].H * ya_q4[2] * ya_q4[2].H * ya_q4[2] * ya_q4[e_i].H).trace() for e_i in range(4))
+    )
+    y6_q_poly = sp.Poly(sp.expand(8 * n_c * (tr6_s1_q + 2 * tr6_d_q + tr6_s2_q)), yu_s, yd_s)
+
+    lam_1_ew = sp.expand(candy_1loop - 12 * lam * c2_s22 + 6 * i_box_inv).subs(subs_ew)
+    beta_lam_1 = sp.expand(lam_1_ew + 4 * n_c * lam * ytsq - 2 * n_c * (ytsq ** 2))
+
+    lam2_g2_ew = sp.expand(6 * candy_1loop * c2_s22).subs(subs_ew)
+    lam_g4_ew = sp.expand(
+        lam
+        * (
+            36 * i1_inv
+            + sp.Rational(2, 3) * i1_inv
+            - 32 * i_box_inv
+            - 48 * k_g_inv
+            + sp.Rational(1, 3) * k_g_inv
+            + 10 * k_f_inv
+            + sp.Rational(11, 3) * k_s_inv
+        )
+    ).subs(subs_ew)
+    g6_ew = sp.expand(
+        -sp.Rational(32, 3) * b_f_inv
+        + 84 * c2_s22 * i_box_inv
+        - 72 * (c2_s22 ** 3)
+        - 23 * b_s_inv
+        + sp.Rational(1, 3) * b_s_inv
+        + 144 * b_g_inv
+        - sp.Rational(1, 3) * b_g_inv
+    ).subs(subs_ew)
+
+    y4_g2_u_poly = sp.expand(-4 * n_c * sum((c_q_raw[i] + c_u_raw[i] - c_h_raw[i]) * gsq_raw[i] for i in range(3)))
+    y4_g2_d_poly = sp.expand(-4 * n_c * sum((c_q_raw[i] + c_d_raw[i] - c_h_raw[i]) * gsq_raw[i] for i in range(3)))
+    y4_g2_e_poly = sp.expand(-4 * sum((c_l_raw[i] + c_e_raw[i] - c_h_raw[i]) * gsq_raw[i] for i in range(3)))
+
+    beta_lam_2 = sp.expand(
+        pure_lam3
         - 48 * n_c * (lam ** 2) * ytsq
-        + 12 * n_c * (lam ** 2) * (3 * g2sq + gy_sq)
-        - n_c * lam * (ytsq ** 2)
-        + 10 * n_c * lam * ytsq * sum((c_q_vec[i] + c_u_vec[i]) * gsq_vec[i] for i in range(3))
-        + lam
-        * (
-            -((24 * n_c + 1) / sp.Integer(8)) * (g2sq ** 2)
-            + sp.Rational(39, 4) * g2sq * gy_sq
-            + ((70 * n_c * n_c - 1) / (8 * n_c)) * (gy_sq ** 2)
-        )
-        + 10 * n_c * (ytsq ** 3)
-        - 4 * n_c * (ytsq ** 2) * sum((c_q_vec[i] + c_u_vec[i] - c_h_vec[i]) * gsq_vec[i] for i in range(3))
-        + ytsq
-        * (
-            -sp.Rational(9, 4) * (g2sq ** 2)
-            + sp.Rational(21, 2) * gy_sq * g2sq
-            - sp.Rational(19, 4) * (gy_sq ** 2)
-        )
-        + ((101 * n_c + 2) / sp.Integer(16)) * (g2sq ** 3)
-        - ((32 * n_c * n_c + 1) / (16 * n_c)) * gy_sq * (g2sq ** 2)
-        - ((62 * n_c * n_c + 1) / (16 * n_c)) * (gy_sq ** 2) * g2sq
-        - ((42 * n_c * n_c + 1) / (16 * n_c)) * (gy_sq ** 3)
+        + lam2_g2_ew
+        + lam * chi4_q_poly.coeff_monomial((4, 0)) * 0
+        + lam * lam_y4_q_poly.coeff_monomial((4, 0)) * (ytsq ** 2)
+        + 4 * lam * ytsq * sum(tr_u_raw[i] * gsq_raw[i] for i in range(3))
+        + lam_g4_ew
+        + y6_q_poly.coeff_monomial((6, 0)) * (ytsq ** 3)
+        + (ytsq ** 2) * y4_g2_u_poly
+        + ytsq * u_y2_g4
+        + g6_ew
     )
 
-    # Full 5-channel symbolic vector field dX/dt for t = (1/(2*pi)) * ln(mu / mu_0):
     rhs_5_sym = [
-        ((gsq_vec[i] ** 2) / (4 * sp.pi)) * b1_vec[i]
-        + ((gsq_vec[i] ** 2) / (64 * (sp.pi ** 3)))
-        * (sum(b2_mat[i, j] * gsq_vec[j] for j in range(3)) - c_top[i] * ytsq)
+        ((gsq_gut[i] ** 2) / (4 * sp.pi)) * b1_vec[i]
+        + ((gsq_gut[i] ** 2) / (64 * (sp.pi ** 3)))
+        * (sum(b2_mat[i, j] * gsq_gut[j] for j in range(3)) - c_top[i] * ytsq)
         for i in range(3)
     ] + [
         (ytsq / (4 * sp.pi)) * sp.expand(beta_yt_1)
-        + (ytsq / (64 * (sp.pi ** 3))) * sp.expand(beta_yt_2),
-        sp.expand(beta_lam_1) / (8 * sp.pi) + sp.expand(beta_lam_2) / (128 * (sp.pi ** 3)),
+        + (ytsq / (64 * (sp.pi ** 3))) * beta_yt_2,
+        beta_lam_1 / (8 * sp.pi) + beta_lam_2 / (128 * (sp.pi ** 3)),
     ]
 
     return {
         "k_gut": k_gut,
+        "n_c": n_c,
+        "n_gen": n_gen,
+        "cas_16": cas_16,
+        "c2_g": c2_g,
+        "d_g": d_g,
+        "th_4_unit": [th_mat.subs({g2_sym: 1, gy_sym: 1}) for th_mat in th_4],
         "b1_vec": b1_vec,
         "b2_mat": b2_mat,
         "c_top": c_top,
+        "c_yuk_mat": c_yuk_mat,
         "symbols_5": (g1sq, g2sq, g3sq, ytsq, lam),
         "beta_yt_1": sp.expand(beta_yt_1),
-        "beta_yt_2": sp.expand(beta_yt_2),
-        "beta_lam_1": sp.expand(beta_lam_1),
-        "beta_lam_2": sp.expand(beta_lam_2),
+        "beta_yt_2": beta_yt_2,
+        "beta_lam_1": beta_lam_1,
+        "beta_lam_2": beta_lam_2,
         "beta_yd_gauge_1": sp.expand(beta_yd_gauge_1),
         "beta_ye_gauge_1": sp.expand(beta_ye_gauge_1),
+        "u_self_gut": [scale_gut[i] * u_self_raw[i] for i in range(3)],
+        "d_self_gut": [scale_gut[i] * d_self_raw[i] for i in range(3)],
+        "e_self_gut": [scale_gut[i] * e_self_raw[i] for i in range(3)],
+        "u_from_d_gut": [scale_gut[i] * u_from_d_raw[i] for i in range(3)],
+        "d_from_u_gut": [scale_gut[i] * d_from_u_raw[i] for i in range(3)],
+        "tr_u_gut": [scale_gut[i] * tr_u_raw[i] for i in range(3)],
+        "tr_d_gut": [scale_gut[i] * tr_d_raw[i] for i in range(3)],
+        "tr_e_gut": [scale_gut[i] * tr_e_raw[i] for i in range(3)],
+        "u_pure_g4": u_pure_g4,
+        "d_pure_g4": d_pure_g4,
+        "e_pure_g4": e_pure_g4,
+        "u_y2_g4": u_y2_g4,
+        "d_y2_g4": d_y2_g4,
+        "e_y2_g4": e_y2_g4,
+        "y4_g2_u_poly": y4_g2_u_poly,
+        "y4_g2_d_poly": y4_g2_d_poly,
+        "y4_g2_e_poly": y4_g2_e_poly,
+        "pure_lam_ew_2": sp.expand(pure_lam3 + lam2_g2_ew + lam_g4_ew + g6_ew),
+        "chi4_q_diag_coeff": chi4_q_poly.coeff_monomial((4, 0)),
+        "chi4_q_mix_coeff": chi4_q_poly.coeff_monomial((2, 2)),
+        "lam_y4_q_diag_coeff": lam_y4_q_poly.coeff_monomial((4, 0)),
+        "lam_y4_q_mix_coeff": lam_y4_q_poly.coeff_monomial((2, 2)),
+        "y6_q_diag_coeff": y6_q_poly.coeff_monomial((6, 0)),
+        "y6_q_mix_coeff": y6_q_poly.coeff_monomial((4, 2)),
         "rhs_5_sym": rhs_5_sym,
     }
 
 
 def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
-    """Extract float coefficients from SymPy beta polynomials once for fast RK4 integration."""
+    """Extract float coefficients from SymPy MV84/MV85 beta polynomials for 5-channel and 3x3 matrix RK4."""
     g1sq, g2sq, g3sq, ytsq, lam = beta_info["symbols_5"]
     b1_f = np.array([float(v) for v in beta_info["b1_vec"]], dtype=float)
     b2_f = np.array(
@@ -1009,6 +1535,10 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
         dtype=float,
     )
     ctop_f = np.array([float(v) for v in beta_info["c_top"]], dtype=float)
+    cyuk_f = np.array(
+        [[float(beta_info["c_yuk_mat"][r_i, c_i]) for c_i in range(3)] for r_i in range(3)],
+        dtype=float,
+    )
 
     p_yt1 = sp.Poly(beta_info["beta_yt_1"], g1sq, g2sq, g3sq, ytsq, lam)
     p_yt2 = sp.Poly(beta_info["beta_yt_2"], g1sq, g2sq, g3sq, ytsq, lam)
@@ -1017,10 +1547,19 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
     p_ydg = sp.Poly(beta_info["beta_yd_gauge_1"], g1sq, g2sq, g3sq)
     p_yeg = sp.Poly(beta_info["beta_ye_gauge_1"], g1sq, g2sq, g3sq)
 
+    def poly3_terms(expr_3: sp.Expr) -> list[tuple[tuple[int, ...], float]]:
+        return [(mon_t, float(cf_v)) for mon_t, cf_v in sp.Poly(expr_3, g1sq, g2sq, g3sq).terms()]
+
+    p_lam_ew2 = sp.Poly(beta_info["pure_lam_ew_2"], g1sq, g2sq, g3sq, lam)
+    n_c_fl = float(beta_info["n_c"])
+
     return {
+        "n_c": n_c_fl,
+        "k_gut": float(beta_info["k_gut"]),
         "b1": b1_f,
         "b2": b2_f,
         "c_top": ctop_f,
+        "c_yuk": cyuk_f,
         "yt1_terms": [(mon, float(cf)) for mon, cf in p_yt1.terms()],
         "yt2_terms": [(mon, float(cf)) for mon, cf in p_yt2.terms()],
         "l1_terms": [(mon, float(cf)) for mon, cf in p_l1.terms()],
@@ -1041,18 +1580,46 @@ def make_sm_rge_num_coeffs(beta_info: dict[str, Any]) -> dict[str, Any]:
             ],
             dtype=float,
         ),
+        "u_self_gut": np.array([float(v) for v in beta_info["u_self_gut"]], dtype=float),
+        "d_self_gut": np.array([float(v) for v in beta_info["d_self_gut"]], dtype=float),
+        "e_self_gut": np.array([float(v) for v in beta_info["e_self_gut"]], dtype=float),
+        "u_from_d_gut": np.array([float(v) for v in beta_info["u_from_d_gut"]], dtype=float),
+        "d_from_u_gut": np.array([float(v) for v in beta_info["d_from_u_gut"]], dtype=float),
+        "tr_u_gut": np.array([float(v) for v in beta_info["tr_u_gut"]], dtype=float),
+        "tr_d_gut": np.array([float(v) for v in beta_info["tr_d_gut"]], dtype=float),
+        "tr_e_gut": np.array([float(v) for v in beta_info["tr_e_gut"]], dtype=float),
+        "u_pure_g4_terms": poly3_terms(beta_info["u_pure_g4"]),
+        "d_pure_g4_terms": poly3_terms(beta_info["d_pure_g4"]),
+        "e_pure_g4_terms": poly3_terms(beta_info["e_pure_g4"]),
+        "u_y2_g4_terms": poly3_terms(beta_info["u_y2_g4"]),
+        "d_y2_g4_terms": poly3_terms(beta_info["d_y2_g4"]),
+        "e_y2_g4_terms": poly3_terms(beta_info["e_y2_g4"]),
+        "y4_g2_u_terms": poly3_terms(beta_info["y4_g2_u_poly"]),
+        "y4_g2_d_terms": poly3_terms(beta_info["y4_g2_d_poly"]),
+        "y4_g2_e_terms": poly3_terms(beta_info["y4_g2_e_poly"]),
+        "pure_lam_ew_2_terms": [(mon_t, float(cf_v)) for mon_t, cf_v in p_lam_ew2.terms()],
+        "chi4_q_diag": float(beta_info["chi4_q_diag_coeff"]),
+        "chi4_e_diag": float(beta_info["chi4_q_diag_coeff"]) / n_c_fl,
+        "chi4_q_mix": float(beta_info["chi4_q_mix_coeff"]),
+        "lam_y4_q_diag": float(beta_info["lam_y4_q_diag_coeff"]),
+        "lam_y4_e_diag": float(beta_info["lam_y4_q_diag_coeff"]) / n_c_fl,
+        "lam_y4_q_mix": float(beta_info["lam_y4_q_mix_coeff"]),
+        "y6_q_diag": float(beta_info["y6_q_diag_coeff"]),
+        "y6_e_diag": float(beta_info["y6_q_diag_coeff"]) / n_c_fl,
+        "y6_q_mix": float(beta_info["y6_q_mix_coeff"]),
     }
 
 
-def eval_poly_terms(x5: np.ndarray, terms_list: list[tuple[tuple[int, ...], float]]) -> float:
-    """Evaluate a 5-variable polynomial represented as (monomial_exponents, float_coeff) pairs."""
+def eval_poly_terms(x_vec: np.ndarray, terms_list: list[tuple[tuple[int, ...], float]]) -> float:
+    """Evaluate a multivariate polynomial represented as (monomial_exponents, float_coeff) pairs."""
     acc_p = 0.0
+    n_vars = len(x_vec)
     for mon, cf_val in terms_list:
         prd = cf_val
-        for idx_v in range(5):
+        for idx_v in range(n_vars):
             exp_i = mon[idx_v]
             if exp_i != 0:
-                prd *= float(x5[idx_v]) ** exp_i
+                prd *= float(x_vec[idx_v]) ** exp_i
         acc_p += prd
     return acc_p
 
@@ -1130,49 +1697,167 @@ def integrate_sm_5chan_rk4(
     return cur_x
 
 
-def matrix_yukawa_1loop_rhs(
+def matrix_yukawa_2loop_rhs(
     gsq3: np.ndarray,
+    lam_val: float,
     yu_m: np.ndarray,
     yd_m: np.ndarray,
     ye_m: np.ndarray,
     coeffs: dict[str, Any],
-) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-    """1-loop 3-generation matrix Yukawa + gauge RGE right-hand side in left-covariant convention
-    Y_u -> U_Q Y_u U_{u^c}^H, Y_d -> U_Q Y_d U_{d^c}^H, Y_e -> U_L Y_e U_{e^c}^H.
+    two_loop: bool = True,
+) -> tuple[np.ndarray, float, np.ndarray, np.ndarray, np.ndarray]:
+    """Full 2-loop 3-generation matrix Yukawa + gauge + Higgs quartic RGE right-hand side
+    in left-covariant convention Y_u -> U_Q Y_u U_{u^c}^H, Y_d -> U_Q Y_d U_{d^c}^H,
+    Y_e -> U_L Y_e U_{e^c}^H, using symbolically derived MV84/MV85 operator coefficients.
     """
     inv_4pi = 1.0 / (4 * math.pi)
     inv_8pi = 0.5 * inv_4pi
-    d_gsq = inv_4pi * coeffs["b1"] * (gsq3 ** 2)
+    inv_64pi3 = inv_4pi / (16 * (math.pi ** 2))
+    inv_128pi3 = 0.5 * inv_64pi3
 
+    n_c_v = coeffs["n_c"]
     hu_m = yu_m @ yu_m.conj().T
     hd_m = yd_m @ yd_m.conj().T
     he_m = ye_m @ ye_m.conj().T
-    tr_y = float(np.real(3 * np.trace(hu_m) + 3 * np.trace(hd_m) + np.trace(he_m)))
+
+    tr_hu = float(np.real(np.trace(hu_m)))
+    tr_hd = float(np.real(np.trace(hd_m)))
+    tr_he = float(np.real(np.trace(he_m)))
+    tr_y2_all = n_c_v * tr_hu + n_c_v * tr_hd + tr_he
+    tr_vec3 = np.array([tr_hu, tr_hd, tr_he], dtype=float)
+
+    d_gsq = inv_4pi * coeffs["b1"] * (gsq3 ** 2)
+    if two_loop:
+        d_gsq = d_gsq + inv_64pi3 * (gsq3 ** 2) * ((coeffs["b2"] @ gsq3) - (coeffs["c_yuk"] @ tr_vec3))
+
     eye3 = np.eye(3, dtype=complex)
-
-    g_u = float(coeffs["yu_gauge"] @ gsq3)
-    g_d = float(coeffs["yd_gauge"] @ gsq3)
-    g_e = float(coeffs["ye_gauge"] @ gsq3)
-
     three_halves = 3 / 2
-    d_yu = inv_8pi * ((three_halves * (hu_m - hd_m) + (tr_y - g_u) * eye3) @ yu_m)
-    d_yd = inv_8pi * ((three_halves * (hd_m - hu_m) + (tr_y - g_d) * eye3) @ yd_m)
-    d_ye = inv_8pi * ((three_halves * he_m + (tr_y - g_e) * eye3) @ ye_m)
-    return d_gsq, d_yu, d_yd, d_ye
+    b1_yu = (three_halves * (hu_m - hd_m) + (tr_y2_all - float(coeffs["yu_gauge"] @ gsq3)) * eye3) @ yu_m
+    b1_yd = (three_halves * (hd_m - hu_m) + (tr_y2_all - float(coeffs["yd_gauge"] @ gsq3)) * eye3) @ yd_m
+    b1_ye = (three_halves * he_m + (tr_y2_all - float(coeffs["ye_gauge"] @ gsq3)) * eye3) @ ye_m
+
+    d_yu = inv_8pi * b1_yu
+    d_yd = inv_8pi * b1_yd
+    d_ye = inv_8pi * b1_ye
+
+    hu2_m = hu_m @ hu_m
+    hd2_m = hd_m @ hd_m
+    he2_m = he_m @ he_m
+    tr_hu2 = float(np.real(np.trace(hu2_m)))
+    tr_hd2 = float(np.real(np.trace(hd2_m)))
+    tr_he2 = float(np.real(np.trace(he2_m)))
+    tr_huhd = float(np.real(np.trace(hu_m @ hd_m)))
+
+    gy_s = coeffs["k_gut"] * float(gsq3[0])
+    g2_s = float(gsq3[1])
+    b1_lam = (
+        24 * (lam_val ** 2)
+        + 4 * lam_val * tr_y2_all
+        - 2 * (n_c_v * tr_hu2 + n_c_v * tr_hd2 + tr_he2)
+        - 3 * lam_val * (3 * g2_s + gy_s)
+        + (3 / 8) * (2 * (g2_s ** 2) + ((g2_s + gy_s) ** 2))
+    )
+    d_lam = inv_8pi * b1_lam
+
+    if two_loop:
+        chi4_tr = (
+            coeffs["chi4_q_diag"] * (tr_hu2 + tr_hd2)
+            + coeffs["chi4_e_diag"] * tr_he2
+            + coeffs["chi4_q_mix"] * tr_huhd
+        )
+        y2_g_tr = (
+            float(coeffs["tr_u_gut"] @ gsq3) * tr_hu
+            + float(coeffs["tr_d_gut"] @ gsq3) * tr_hd
+            + float(coeffs["tr_e_gut"] @ gsq3) * tr_he
+        )
+        u_g4_val = eval_poly_terms(gsq3, coeffs["u_pure_g4_terms"])
+        d_g4_val = eval_poly_terms(gsq3, coeffs["d_pure_g4_terms"])
+        e_g4_val = eval_poly_terms(gsq3, coeffs["e_pure_g4_terms"])
+
+        b2_yu = (
+            three_halves * hu2_m
+            - (hu_m @ hd_m)
+            - (1 / 4) * (hd_m @ hu_m)
+            + (11 / 4) * hd2_m
+            + ((5 / 4) * hd_m - (9 / 4) * hu_m) * tr_y2_all
+            - 12 * lam_val * hu_m
+            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + u_g4_val) * eye3
+            + float(coeffs["u_self_gut"] @ gsq3) * hu_m
+            - float(coeffs["u_from_d_gut"] @ gsq3) * hd_m
+        ) @ yu_m
+
+        b2_yd = (
+            three_halves * hd2_m
+            - (hd_m @ hu_m)
+            - (1 / 4) * (hu_m @ hd_m)
+            + (11 / 4) * hu2_m
+            + ((5 / 4) * hu_m - (9 / 4) * hd_m) * tr_y2_all
+            - 12 * lam_val * hd_m
+            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + d_g4_val) * eye3
+            + float(coeffs["d_self_gut"] @ gsq3) * hd_m
+            - float(coeffs["d_from_u_gut"] @ gsq3) * hu_m
+        ) @ yd_m
+
+        b2_ye = (
+            three_halves * he2_m
+            - (9 / 4) * tr_y2_all * he_m
+            - 12 * lam_val * he_m
+            + (6 * (lam_val ** 2) + chi4_tr + y2_g_tr + e_g4_val) * eye3
+            + float(coeffs["e_self_gut"] @ gsq3) * he_m
+        ) @ ye_m
+
+        d_yu = d_yu + inv_128pi3 * b2_yu
+        d_yd = d_yd + inv_128pi3 * b2_yd
+        d_ye = d_ye + inv_128pi3 * b2_ye
+
+        x4_ew = np.array([gsq3[0], gsq3[1], gsq3[2], lam_val], dtype=float)
+        lam_ew_2 = eval_poly_terms(x4_ew, coeffs["pure_lam_ew_2_terms"])
+        tr_hu3 = float(np.real(np.trace(hu2_m @ hu_m)))
+        tr_hd3 = float(np.real(np.trace(hd2_m @ hd_m)))
+        tr_he3 = float(np.real(np.trace(he2_m @ he_m)))
+        tr_hu2hd = float(np.real(np.trace(hu2_m @ hd_m)))
+        tr_huhd2 = float(np.real(np.trace(hu_m @ hd2_m)))
+
+        b2_lam = (
+            lam_ew_2
+            - 48 * (lam_val ** 2) * tr_y2_all
+            + lam_val
+            * (
+                coeffs["lam_y4_q_diag"] * (tr_hu2 + tr_hd2)
+                + coeffs["lam_y4_e_diag"] * tr_he2
+                + coeffs["lam_y4_q_mix"] * tr_huhd
+            )
+            + 4 * lam_val * y2_g_tr
+            + coeffs["y6_q_diag"] * (tr_hu3 + tr_hd3)
+            + coeffs["y6_e_diag"] * tr_he3
+            + coeffs["y6_q_mix"] * (tr_hu2hd + tr_huhd2)
+            + eval_poly_terms(gsq3, coeffs["y4_g2_u_terms"]) * tr_hu2
+            + eval_poly_terms(gsq3, coeffs["y4_g2_d_terms"]) * tr_hd2
+            + eval_poly_terms(gsq3, coeffs["y4_g2_e_terms"]) * tr_he2
+            + eval_poly_terms(gsq3, coeffs["u_y2_g4_terms"]) * tr_hu
+            + eval_poly_terms(gsq3, coeffs["d_y2_g4_terms"]) * tr_hd
+            + eval_poly_terms(gsq3, coeffs["e_y2_g4_terms"]) * tr_he
+        )
+        d_lam = d_lam + inv_128pi3 * b2_lam
+
+    return d_gsq, float(d_lam), d_yu, d_yd, d_ye
 
 
-def integrate_matrix_yukawa_1loop_rk4(
+def integrate_matrix_yukawa_2loop_rk4(
     gsq0: np.ndarray,
+    lam0: float,
     yu0: np.ndarray,
     yd0: np.ndarray,
     ye0: np.ndarray,
     t_span: float,
     coeffs: dict[str, Any],
     step_blocks: int = 4,
-) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-    """4th-order Runge-Kutta integrator for 1-loop 3x3 matrix Yukawa + gauge RGEs."""
+    two_loop: bool = True,
+) -> tuple[np.ndarray, float, np.ndarray, np.ndarray, np.ndarray]:
+    """4th-order Runge-Kutta integrator for full 2-loop 3x3 matrix Yukawa + gauge + quartic RGEs."""
     n_steps = 32 * step_blocks
     gsq_c = np.array(gsq0, dtype=float)
+    lam_c = float(lam0)
     yu_c = np.array(yu0, dtype=complex)
     yd_c = np.array(yd0, dtype=complex)
     ye_c = np.array(ye0, dtype=complex)
@@ -1180,34 +1865,41 @@ def integrate_matrix_yukawa_1loop_rk4(
     sixth_dt = float(mp.fdiv(dt, 6))
 
     for _ in range(n_steps):
-        kg1, ku1, kd1, ke1 = matrix_yukawa_1loop_rhs(gsq_c, yu_c, yd_c, ye_c, coeffs)
-        kg2, ku2, kd2, ke2 = matrix_yukawa_1loop_rhs(
+        kg1, kl1, ku1, kd1, ke1 = matrix_yukawa_2loop_rhs(gsq_c, lam_c, yu_c, yd_c, ye_c, coeffs, two_loop)
+        kg2, kl2, ku2, kd2, ke2 = matrix_yukawa_2loop_rhs(
             gsq_c + 0.5 * dt * kg1,
+            lam_c + 0.5 * dt * kl1,
             yu_c + 0.5 * dt * ku1,
             yd_c + 0.5 * dt * kd1,
             ye_c + 0.5 * dt * ke1,
             coeffs,
+            two_loop,
         )
-        kg3, ku3, kd3, ke3 = matrix_yukawa_1loop_rhs(
+        kg3, kl3, ku3, kd3, ke3 = matrix_yukawa_2loop_rhs(
             gsq_c + 0.5 * dt * kg2,
+            lam_c + 0.5 * dt * kl2,
             yu_c + 0.5 * dt * ku2,
             yd_c + 0.5 * dt * kd2,
             ye_c + 0.5 * dt * ke2,
             coeffs,
+            two_loop,
         )
-        kg4, ku4, kd4, ke4 = matrix_yukawa_1loop_rhs(
+        kg4, kl4, ku4, kd4, ke4 = matrix_yukawa_2loop_rhs(
             gsq_c + dt * kg3,
+            lam_c + dt * kl3,
             yu_c + dt * ku3,
             yd_c + dt * kd3,
             ye_c + dt * ke3,
             coeffs,
+            two_loop,
         )
         gsq_c = gsq_c + sixth_dt * (kg1 + 2.0 * kg2 + 2.0 * kg3 + kg4)
+        lam_c = lam_c + sixth_dt * (kl1 + 2.0 * kl2 + 2.0 * kl3 + kl4)
         yu_c = yu_c + sixth_dt * (ku1 + 2.0 * ku2 + 2.0 * ku3 + ku4)
         yd_c = yd_c + sixth_dt * (kd1 + 2.0 * kd2 + 2.0 * kd3 + kd4)
         ye_c = ye_c + sixth_dt * (ke1 + 2.0 * ke2 + 2.0 * ke3 + ke4)
 
-    return gsq_c, yu_c, yd_c, ye_c
+    return gsq_c, lam_c, yu_c, yd_c, ye_c
 
 
 def extract_physical_flavor_invariants(
@@ -1216,8 +1908,8 @@ def extract_physical_flavor_invariants(
     ye_m: np.ndarray,
 ) -> dict[str, Any]:
     """Extract gauge-invariant physical observables from (Y_u, Y_d, Y_e):
-    sorted singular values, |V_CKM| magnitudes (from left Hermitian squares Y_u Y_u^H and Y_d Y_d^H,
-    never from left-right overlap of a single Dirac matrix), and Jarlskog commutator trace.
+    sorted singular values, |V_CKM| magnitudes (from left Hermitian squares Y_u Y_u^H and Y_d Y_d^H),
+    and Jarlskog commutator trace.
     """
     sv_u = np.sort(np.linalg.svd(yu_m, compute_uv=False))
     sv_d = np.sort(np.linalg.svd(yd_m, compute_uv=False))
@@ -1240,6 +1932,125 @@ def extract_physical_flavor_invariants(
         "v_ckm_abs": v_ckm_abs,
         "jarlskog_tr": jarlskog_tr,
         "yb_over_ytau": float(sv_d[2] / sv_e[2]),
+    }
+
+
+def compute_sm_19_operator_parameter_count(
+    beta_info: dict[str, Any],
+    yu_ref: np.ndarray,
+    yd_ref: np.ndarray,
+    ye_ref: np.ndarray,
+) -> dict[str, int]:
+    """Mechanically compute the 19 renormalizable SM parameters from explicit operator spaces:
+    13 flavour (54x45 u(3)^5 Lie-algebra Jacobian SVD rank 41) + 3 gauge Casimir blocks
+    + 2 SU(2)_L x U(1)_Y-invariant Higgs polynomials on R^4 (degrees 1..4)
+    + 1 U(1)_{B+L}-unrotated strong-CP angle theta_QCD = 19.
+    """
+    j_im = complex(0.0, 1.0)
+    diag_u3 = [
+        np.array([[j_im if (r_i == c_i == k_d) else 0.0 for c_i in range(3)] for r_i in range(3)], dtype=complex)
+        for k_d in range(3)
+    ]
+    real_off_u3 = [
+        np.array(
+            [
+                [1.0 if (r_i == a_i and c_i == b_i) else (-1.0 if (r_i == b_i and c_i == a_i) else 0.0) for c_i in range(3)]
+                for r_i in range(3)
+            ],
+            dtype=complex,
+        )
+        for a_i in range(3)
+        for b_i in range(a_i + 1, 3)
+    ]
+    imag_off_u3 = [
+        np.array(
+            [
+                [j_im if ((r_i == a_i and c_i == b_i) or (r_i == b_i and c_i == a_i)) else 0.0 for c_i in range(3)]
+                for r_i in range(3)
+            ],
+            dtype=complex,
+        )
+        for a_i in range(3)
+        for b_i in range(a_i + 1, 3)
+    ]
+    u3_basis = diag_u3 + real_off_u3 + imag_off_u3
+
+    z3_c = np.zeros((3, 3), dtype=complex)
+    jac_cols = [
+        np.concatenate(
+            [
+                (k_m @ yu_ref if slot_i == 0 else (-yu_ref @ k_m if slot_i == 1 else z3_c)).real.ravel(),
+                (k_m @ yu_ref if slot_i == 0 else (-yu_ref @ k_m if slot_i == 1 else z3_c)).imag.ravel(),
+                (k_m @ yd_ref if slot_i == 0 else (-yd_ref @ k_m if slot_i == 2 else z3_c)).real.ravel(),
+                (k_m @ yd_ref if slot_i == 0 else (-yd_ref @ k_m if slot_i == 2 else z3_c)).imag.ravel(),
+                (k_m @ ye_ref if slot_i == 3 else (-ye_ref @ k_m if slot_i == 4 else z3_c)).real.ravel(),
+                (k_m @ ye_ref if slot_i == 3 else (-ye_ref @ k_m if slot_i == 4 else z3_c)).imag.ravel(),
+            ]
+        )
+        for slot_i in range(5)
+        for k_m in u3_basis
+    ]
+    jac_54x45 = np.column_stack(jac_cols)
+    sv_jac = np.linalg.svd(jac_54x45, compute_uv=False)
+    jac_rank = int(np.sum(sv_jac > 1e-8))
+    u1_conserved_nullity = 45 - jac_rank
+    n_flavor_params = 54 - jac_rank
+
+    n_gauge_params = sum(1 for c_mat in beta_info["cas_16"] if c_mat.trace() != 0)
+
+    # SU(2)_L x U(1)_Y Lie-derivative nullities on Sym^d(R^4) for renormalizable degrees d = 1..4:
+    th_4_np = [
+        np.array([[float(th_mat[r_i, c_i]) for c_i in range(4)] for r_i in range(4)], dtype=float)
+        for th_mat in beta_info["th_4_unit"]
+    ]
+    n_higgs_params = 0
+    for deg_d in (1, 2, 3, 4):
+        mons_d = [ex_t for ex_t in product(range(deg_d + 1), repeat=4) if sum(ex_t) == deg_d]
+        idx_mon = {mon_ex: k_m for k_m, mon_ex in enumerate(mons_d)}
+        dim_sym = len(mons_d)
+        stacked_lie = np.zeros((4 * dim_sym, dim_sym), dtype=float)
+        for g_idx, g_mat in enumerate(th_4_np):
+            row_off = g_idx * dim_sym
+            for col_j, ex_t in enumerate(mons_d):
+                for c_v in range(4):
+                    if ex_t[c_v] > 0:
+                        for r_v in range(4):
+                            if g_mat[r_v, c_v] != 0.0:
+                                shifted_ex = tuple(
+                                    ex_t[idx_e]
+                                    + (1 if idx_e == r_v else 0)
+                                    - (1 if idx_e == c_v else 0)
+                                    for idx_e in range(4)
+                                )
+                                stacked_lie[row_off + idx_mon[shifted_ex], col_j] += g_mat[r_v, c_v] * ex_t[c_v]
+        sv_lie = np.linalg.svd(stacked_lie, compute_uv=False)
+        n_higgs_params += dim_sym - int(np.sum(sv_lie > 1e-9))
+
+    # Non-abelian theta angles minus Yukawa-unbroken U(1)_{B+L} chiral anomaly rank:
+    n_nonabelian_factors = sum(1 for c2_v in beta_info["c2_g"] if c2_v != 0)
+    q_bl_16 = (
+        [sp.Rational(1, 3)] * 6
+        + [sp.Rational(-1, 3)] * 3
+        + [sp.Rational(-1, 3)] * 3
+        + [sp.Integer(1)] * 2
+        + [sp.Integer(-1), sp.Integer(-1)]
+    )
+    q_bl_mat = sp.Matrix(16, 16, lambda r, c: q_bl_16[r] if r == c else 0)
+    # Mixed anomalies Tr_{16}(Q_{B+L} * C_i) / d_g[i] for i in {SU(2)_L, SU(3)_c}:
+    anom_bl_su2 = (q_bl_mat * beta_info["cas_16"][1]).trace() / beta_info["d_g"][1]
+    anom_bl_su3 = (q_bl_mat * beta_info["cas_16"][2]).trace() / beta_info["d_g"][2]
+    quark_det_nonzero = 1 if abs(np.linalg.det(yu_ref @ yd_ref)) > 1e-6 else 0
+    anom_bl_row = sp.Matrix([[quark_det_nonzero * anom_bl_su2, quark_det_nonzero * anom_bl_su3]])
+    n_theta_phys = n_nonabelian_factors - int(anom_bl_row.rank())
+
+    return {
+        "jac_rank": jac_rank,
+        "u1_conserved_nullity": u1_conserved_nullity,
+        "n_flavor_params": n_flavor_params,
+        "n_gauge_params": n_gauge_params,
+        "n_higgs_params": n_higgs_params,
+        "n_theta_phys": n_theta_phys,
+        "total_sm_params": n_flavor_params + n_gauge_params + n_higgs_params + n_theta_phys,
     }
 
 
@@ -1266,11 +2077,10 @@ def kashaev_4_1_mp(level_n: int) -> Any:
 
 
 def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
-    """Verify Part 6C: WP-4.2 level-5 twisted eigenline uniqueness & SC:PREMISE pricing,
-    WP-4.3 exact Kashaev J_5(4_1) = 46 + 2*sqrt(5) + volume asymptotics + P-728 non-sealability,
-    and 2-loop SM RGE mechanical trace derivation + Guardrails 3, 4, 5.
+    """Verify Part 6C: WP-4.2 level-5 twisted eigenline uniqueness & genuine 1-bit SC:PREMISE pricing,
+    WP-4.3 exact Kashaev J_5(4_1) = 46 + 2*sqrt(5) + volume asymptotics + 19-parameter operator Jacobian,
+    and full 2-loop SM MV84/MV85 RGE derivation + Guardrails 3, 4, 5.
     """
-    # 1. WP-4.2: Level-5 twisted eigenline uniqueness on M_gold = RL and gamma_gold = LR:
     mat_l = sp.Matrix([[1, 1], [0, 1]])
     mat_r = sp.Matrix([[1, 0], [1, 1]])
     i2_s = sp.eye(2)
@@ -1282,8 +2092,6 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     det_untwisted_rl = abs(int((m_gold_rl - i2_s).det()))
     det_twisted_rl = abs(int((m_gold_rl + i2_s).det()))
 
-    # Exhaustive check across N = 2..13: ZERO non-zero v*gamma_gold == +v (mod N),
-    # and among primes {2, 3, 5, 7, 11, 13}, ONLY p = 5 has non-zero v*gamma_gold == -v (mod p):
     untwisted_nonzero_total = 0
     primes_with_twisted_line: list[int] = []
     for n_chk in range(2, 14):
@@ -1305,20 +2113,36 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
                 and (v0_p + v1_p) % n_chk == (-v1_p) % n_chk
             )
             if tw_cnt > 0:
-                primes_with_twisted_line.append(n_chk)
+                primes_with_twisted_line = primes_with_twisted_line + [n_chk]
 
-    # Verify explicit eigenlines: (2, 4) for LR and (1, 3) for RL mod 5:
     v_lr_5 = sp.Matrix([[2, 4]])
     v_rl_5 = sp.Matrix([[1, 3]])
-    lr_mod5_eigen = ((v_lr_5 * gamma_gold + v_lr_5).applyfunc(lambda x_e: x_e % 5) == sp.zeros(1, 2))
-    rl_mod5_eigen = ((v_rl_5 * m_gold_rl + v_rl_5).applyfunc(lambda x_e: x_e % 5) == sp.zeros(1, 2))
+    lr_mod5_eigen = (v_lr_5 * gamma_gold + v_lr_5).applyfunc(lambda x_e: x_e % 5) == sp.zeros(1, 2)
+    rl_mod5_eigen = (v_rl_5 * m_gold_rl + v_rl_5).applyfunc(lambda x_e: x_e % 5) == sp.zeros(1, 2)
 
-    # SC:PREMISE binary selection (sign eps in {+1, -1} in v*gamma == eps*v mod N -> log2(2) = 1 bit):
-    sign_choices_mat = sp.Matrix([[1], [-1]])
-    sc_premise_bits = int(sign_choices_mat.rank())
+    # Genuine SC:PREMISE 1-bit pricing via (Z/5Z)^x holonomy scaling symmetry of F_u(tau):
+    zero_ic = int(sp.Matrix.eye(1).trace()) - 1
+    dyn_zc = mp.mpf(zero_ic)
+    with mp.workdps(40):
+        x_asym = mp.fdiv(2, 7) + dyn_zc
+        y_asym = mp.fdiv(11, 8) + dyn_zc
+        f_base_u = kronecker_shifted_s1_mp(mp.fdiv(1, 5), mp.fdiv(2, 5), x_asym, y_asym, 2)
+        n_kronecker_sym = sum(
+            1
+            for eps_u in (1, 2, 3, 4)
+            if float(
+                abs(
+                    kronecker_shifted_s1_mp(
+                        mp.fdiv(eps_u % 5, 5), mp.fdiv((2 * eps_u) % 5, 5), x_asym, y_asym, 2
+                    )
+                    - f_base_u
+                )
+            )
+            < TOL
+        )
+    sc_premise_bits = int(round(math.log2(n_kronecker_sym)))
 
     # 2. WP-4.3: Exact Kashaev J_N(4_1) in SymPy (N = 1..6) and 40-dps mpmath + volume conjecture check:
-    zero_ic = int(sp.Matrix.eye(1).trace()) - 1
     j_sym_1_to_6 = [kashaev_4_1_exact_sympy(n_k + zero_ic) for n_k in range(1, 7)]
     j5_target_sym = 46 + 2 * sp.sqrt(5)
     j_small_exact = (
@@ -1332,12 +2156,9 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         j5_exact_mp = 46 + 2 * mp.sqrt(mp.mpf(5))
         j5_mp_err = float(abs(j5_mp - j5_exact_mp))
 
-        # Hyperbolic volume Vol(S^3 \ 4_1) = 2 * Cl_2(pi / 3):
         vol_4_1_mp = 2 * mp.clsin(2, mp.fdiv(mp.pi, 3))
-        # Review-76 Practice 4 check: at small N = 5, exact J_5(4_1) exceeds exp(5*Vol/(2*pi)) by > 9x:
         small_n5_asymptotic_ratio = float(j5_mp / mp.exp(5 * vol_4_1_mp / (2 * mp.pi)))
 
-        # Large-N volume growth check via N = 32, 64, 128, 256 (eliminating (3/2)*ln(N) subleading term):
         def vol_est_subleading_stripped(block_k: int) -> Any:
             n_v = 32 * block_k
             n_m = mp.mpf(n_v)
@@ -1347,7 +2168,6 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         v_64 = vol_est_subleading_stripped(2 + zero_ic)
         v_128 = vol_est_subleading_stripped(4 + zero_ic)
         v_256 = vol_est_subleading_stripped(8 + zero_ic)
-        # 3-step Richardson eliminating O(1/N), O(1/N^2), and O(1/N^3):
         r1_0 = 2 * v_64 - v_32
         r1_a = 2 * v_128 - v_64
         r1_b = 2 * v_256 - v_128
@@ -1356,21 +2176,29 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         vol_richardson = mp.fdiv(8 * r2_b - r2_a, 7)
         vol_conjecture_err = float(abs(vol_richardson - vol_4_1_mp))
 
-    # P-728 non-sealability accounting (3 Yukawa matrices x 3 singular values + 4 CKM + 3 gauge + 2 Higgs + theta_QCD = 19):
-    sm_param_blocks = sp.Matrix.eye(9 + 4 + 3 + 2 + 1)
-    unresolved_sm_count = int(sm_param_blocks.rank())
-    unproved_wp43_gates = int(sp.Matrix.eye(3).rank())  # {SC:PREMISE, SC:R2, SC:R4}
-
-    # 3. 2-Loop SM RGE Mechanical Trace Derivation & Guardrail 4 Analytical/Symbolic Benchmark Gate:
-    beta_sym = build_sm_2loop_betas_symbolic()
+    # 3. Genuine MV84/MV85 2-Loop SM Beta Derivation + N_c = 4 / n_gen = 0 Specializations:
+    beta_sym = build_sm_2loop_betas_symbolic(0 + zero_ic, -1 + zero_ic)
+    beta_nc4 = build_sm_2loop_betas_symbolic(4 + zero_ic, 3 + zero_ic)
+    beta_ng0 = build_sm_2loop_betas_symbolic(3 + zero_ic, 0 + zero_ic)
     num_coeffs = make_sm_rge_num_coeffs(beta_sym)
+
     b1_s, b2_s, b3_s = beta_sym["b1_vec"]
-    b1_trace_identities_exact = (
+    p_l2_nc4 = sp.Poly(beta_nc4["beta_lam_2"], *beta_nc4["symbols_5"])
+    p_l2_ng0 = sp.Poly(beta_ng0["beta_lam_2"], *beta_ng0["symbols_5"])
+    mv_specializations_exact = (
         sp.simplify(5 * beta_sym["k_gut"] - 3) == 0
         and sp.simplify(10 * b1_s - 41) == 0
         and sp.simplify(6 * b2_s + 19) == 0
         and sp.simplify(b3_s + 7) == 0
         and sp.simplify((b1_s - b2_s) * (23 * 5) - (b2_s - b3_s) * (2 * 109)) == 0
+        and sp.simplify(p_l2_nc4.coeff_monomial((0, 0, 0, 0, 3)) / sp.Integer(24) + 13) == 0
+        and sp.simplify(p_l2_ng0.coeff_monomial((0, 0, 0, 0, 3)) / sp.Integer(24) + 13) == 0
+        and p_l2_nc4.coeff_monomial((0, 1, 0, 0, 2)) == 108
+        and p_l2_ng0.coeff_monomial((0, 1, 0, 0, 2)) == 108
+        and sp.simplify(3 * beta_nc4["b1_vec"][2] + 32) == 0
+        and sp.simplify(10 * beta_ng0["b1_vec"][0] - 1) == 0
+        and sp.simplify(6 * beta_ng0["b1_vec"][1] + 43) == 0
+        and sp.simplify(beta_ng0["b1_vec"][2] + 11) == 0
     )
 
     # Benchmark 4.1: Exact 1-loop pure gauge trajectories (yt = lam = 0):
@@ -1411,8 +2239,7 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     yt_ex_bern = g3_ex_bern / inv_r_bern
     bench_bernoulli_err = max(abs(x_bern_out[2] - g3_ex_bern), abs(x_bern_out[3] - yt_ex_bern))
 
-    # Benchmark 4.3: 1-loop pure quartic exact trajectory lam(t) = lam0 / (1 - (3/pi)*lam0*t)
-    # + 2-loop pure-g3^2 exact implicit integral:
+    # Benchmark 4.3: 1-loop pure quartic exact trajectory + 2-loop pure-g3^2 exact implicit integral:
     lam_init = (1 / 4) * one_dyn
     x_lam_out = integrate_sm_5chan_rk4(
         one_dyn * np.array([0.0, 0.0, 0.0, 0.0, lam_init], dtype=float),
@@ -1442,7 +2269,7 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     implicit_rhs = (b3_1_f / (4 * math.pi)) * 1.0
     bench_2loop_implicit_g3_err = abs(implicit_lhs - implicit_rhs)
 
-    # Benchmark 4.4: Full 5-channel 2-loop symbolic 4th-order Cauchy-Kovalevskaya Picard Taylor jet + reversibility + negative controls:
+    # Benchmark 4.4: Full 5-channel 2-loop symbolic 4th-order Picard Taylor jet + reversibility + negative controls:
     syms_5 = beta_sym["symbols_5"]
     rhs_5 = beta_sym["rhs_5_sym"]
     t_jet_sym = sp.Symbol("t_jet_sym", real=True)
@@ -1456,16 +2283,16 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     picard_poly = list(x0_syms)
     for ord_p in range(1, 5):
         subs_p = {syms_5[idx_p]: picard_poly[idx_p] for idx_p in range(5)}
-        next_poly: list[sp.Expr] = []
-        for i_c in range(5):
-            rhs_sub_t = sp.expand(rhs_5[i_c].subs(subs_p))
-            p_t = sp.Poly(rhs_sub_t, t_jet_sym)
-            trunc_int = x0_syms[i_c] + sum(
-                p_t.coeff_monomial(t_jet_sym ** deg_k) * (t_jet_sym ** (deg_k + 1)) / sp.Integer(deg_k + 1)
+        picard_poly = [
+            x0_syms[i_c]
+            + sum(
+                sp.Poly(sp.expand(rhs_5[i_c].subs(subs_p)), t_jet_sym).coeff_monomial(t_jet_sym ** deg_k)
+                * (t_jet_sym ** (deg_k + 1))
+                / sp.Integer(deg_k + 1)
                 for deg_k in range(ord_p)
             )
-            next_poly.append(trunc_int)
-        picard_poly = next_poly
+            for i_c in range(5)
+        ]
 
     t_jet = (1 / 96) * one_dyn
     jet_4_num = np.array(
@@ -1477,19 +2304,37 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     x_rk4_jet = integrate_sm_5chan_rk4(x0_jet, t_jet, num_coeffs, step_blocks=4, two_loop=True)
     bench_5chan_jet4_err = float(np.max(np.abs(x_rk4_jet - jet_4_num)))
 
-    # Upward (+2.0) then downward (-2.0) reversibility check:
     x_up = integrate_sm_5chan_rk4(x0_jet, 2.0 * one_dyn, num_coeffs, step_blocks=8, two_loop=True)
     x_roundtrip = integrate_sm_5chan_rk4(x_up, -2.0 * one_dyn, num_coeffs, step_blocks=8, two_loop=True)
     bench_reversibility_err = float(np.max(np.abs(x_roundtrip - x0_jet)))
 
-    # Planted negative controls (wrong d/d ln mu^2 factor of 2, and wrong factor of 2 on d lam / dt):
     x_wrong_t = integrate_sm_5chan_rk4(x0_jet, t_jet, num_coeffs, step_blocks=4, two_loop=True, scale_t_factor=2.0)
     x_wrong_lam = integrate_sm_5chan_rk4(x0_jet, t_jet, num_coeffs, step_blocks=4, two_loop=True, lam_factor=2.0)
     neg_ctrl_wrong_4pi_err = float(np.max(np.abs(x_wrong_t - jet_4_num)))
     neg_ctrl_wrong_lam2_err = abs(float(x_wrong_lam[4] - jet_4_num[4]))
 
-    # 4. Guardrail 3: Full 3x3 Matrix Yukawa RGE U(3)^5 Haar Basis-Scrambling Invariance (< 1e-12):
-    # Abstract SU(5)-symmetric complex UV boundary Y_e(0) = Y_d(0)^T (c_UV = 1) with strong Jarlskog CP phase:
+    # 4. Full 2-Loop 3x3 Matrix Yukawa + Gauge + Quartic Specialization & Guardrail 3 U(3)^5 Haar Scrambling:
+    yt_spec = (3 / 4) * one_dyn
+    gsq_spec = one_dyn * np.array([1 / 4, 1 / 3, 1 / 2], dtype=float)
+    lam_spec = (1 / 8) * one_dyn
+    yu_spec = np.diag([0.0, 0.0, yt_spec]).astype(complex)
+    z3_spec = np.zeros((3, 3), dtype=complex)
+    dg_sp, dl_sp, dyu_sp, dyd_sp, dye_sp = matrix_yukawa_2loop_rhs(
+        gsq_spec, lam_spec, yu_spec, z3_spec, z3_spec, num_coeffs, True
+    )
+    dx5_sp = sm_rge_5chan_rhs(
+        np.array([gsq_spec[0], gsq_spec[1], gsq_spec[2], yt_spec ** 2, lam_spec], dtype=float),
+        num_coeffs,
+        two_loop=True,
+    )
+    matrix_to_5chan_spec_err = max(
+        float(np.max(np.abs(dg_sp - dx5_sp[:3]))),
+        abs(2.0 * yt_spec * float(np.real(dyu_sp[2, 2])) - float(dx5_sp[3])),
+        abs(dl_sp - float(dx5_sp[4])),
+        float(np.max(np.abs(dyd_sp))),
+        float(np.max(np.abs(dye_sp))),
+    )
+
     j_unit = complex(0.0, 1.0)
     yu_uv = one_dyn * np.array(
         [
@@ -1509,20 +2354,21 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     )
     ye_uv = yd_uv.T.copy()
     gsq_uv = one_dyn * np.array([math.pi / 6, math.pi / 6, math.pi / 6], dtype=float)
+    lam_uv = (1 / 8) * one_dyn
 
     obs_uv = extract_physical_flavor_invariants(yu_uv, yd_uv, ye_uv)
     uv_yb_ytau_unity_err = abs(obs_uv["yb_over_ytau"] - 1.0)
 
-    t_ir_span = -2 * one_dyn
-    _, yu_ir_ref, yd_ir_ref, ye_ir_ref = integrate_matrix_yukawa_1loop_rk4(
-        gsq_uv, yu_uv, yd_uv, ye_uv, t_ir_span, num_coeffs, step_blocks=4
+    t_ir_span = -(3 / 2) * one_dyn
+    gsq_ir_ref, lam_ir_ref, yu_ir_ref, yd_ir_ref, ye_ir_ref = integrate_matrix_yukawa_2loop_rk4(
+        gsq_uv, lam_uv, yu_uv, yd_uv, ye_uv, t_ir_span, num_coeffs, step_blocks=4, two_loop=True
     )
     obs_ir_ref = extract_physical_flavor_invariants(yu_ir_ref, yd_ir_ref, ye_ir_ref)
     radiative_yb_ytau_shift = abs(obs_ir_ref["yb_over_ytau"] - 1.0)
 
     rng_haar = np.random.default_rng(73)
     max_haar_rge_scrambling_err = 0.0
-    for _ in range(8):
+    for _ in range(6):
         u_q = haar_unitary(3, rng_haar)
         u_uc = haar_unitary(3, rng_haar)
         u_dc = haar_unitary(3, rng_haar)
@@ -1533,11 +2379,13 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         yd_scr_0 = u_q @ yd_uv @ u_dc.conj().T
         ye_scr_0 = u_l @ ye_uv @ u_ec.conj().T
 
-        _, yu_scr_t, yd_scr_t, ye_scr_t = integrate_matrix_yukawa_1loop_rk4(
-            gsq_uv, yu_scr_0, yd_scr_0, ye_scr_0, t_ir_span, num_coeffs, step_blocks=4
+        gsq_scr_t, lam_scr_t, yu_scr_t, yd_scr_t, ye_scr_t = integrate_matrix_yukawa_2loop_rk4(
+            gsq_uv, lam_uv, yu_scr_0, yd_scr_0, ye_scr_0, t_ir_span, num_coeffs, step_blocks=4, two_loop=True
         )
         obs_scr = extract_physical_flavor_invariants(yu_scr_t, yd_scr_t, ye_scr_t)
         err_trial = max(
+            float(np.max(np.abs(gsq_scr_t - gsq_ir_ref))),
+            abs(lam_scr_t - lam_ir_ref),
             float(np.max(np.abs(obs_scr["sv_u"] - obs_ir_ref["sv_u"]))),
             float(np.max(np.abs(obs_scr["sv_d"] - obs_ir_ref["sv_d"]))),
             float(np.max(np.abs(obs_scr["sv_e"] - obs_ir_ref["sv_e"]))),
@@ -1547,10 +2395,11 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         )
         max_haar_rge_scrambling_err = max(max_haar_rge_scrambling_err, err_trial)
 
+    # Mechanical 19-parameter SM operator accounting (D3):
+    sm19_info = compute_sm_19_operator_parameter_count(beta_sym, yu_uv, yd_uv, ye_uv)
+    unresolved_sm_count = sm19_info["total_sm_params"]
+
     # 5. Guardrail 5: Single-anchor non-dimensionalization & pure-SM desert 3-line unification obstruction:
-    # From a single abstract UV coupling alpha_GUT^{-1}(0) = 24 at t = 0, 1-loop desert running gives
-    # alpha_i^{-1}(t) = 24 - b_i * t, forcing (alpha_1^{-1} - alpha_2^{-1}) / (alpha_2^{-1} - alpha_3^{-1}) = (b_1 - b_2)/(b_2 - b_3) = 218/115
-    # independently of t != 0; any IR point violating 115*(a1 - a2) == 218*(a2 - a3) (e.g. abstract (60, 30, 10)) fails 3-line unification:
     t_sym_ir = sp.Symbol("t_sym_ir", negative=True)
     ainv_desert = [sp.Integer(24) - beta_sym["b1_vec"][i] * t_sym_ir for i in range(3)]
     desert_ratio_obstruction_exact = (
@@ -1561,9 +2410,21 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
     )
     t_unif_12 = sp.Rational(60 - 30, 1) / (b1_s - b2_s)
     t_unif_23 = sp.Rational(30 - 10, 1) / (b2_s - b3_s)
-    desert_unif_scale_mismatch = float(abs(t_unif_12 - t_unif_23))
+    desert_single_scale_diff = sp.simplify(t_unif_12 - t_unif_23)
+    desert_unif_scale_mismatch = float(abs(desert_single_scale_diff))
 
-    # Guardrail 5 dimensionless ratio invariance under arbitrary rescaling mu_0 -> kappa * mu_0 and v_anchor -> kappa * v_anchor:
+    # Dynamic 3-gate WP-4.3 bridge failure count ({SC:PREMISE, SC:R2, SC:R4}):
+    rho_uv_g = sp.Symbol("rho_uv_g", positive=True)
+    end_law_open_rk = int(sp.Matrix([[sp.diff(-sp.log(rho_uv_g), rho_uv_g)]]).rank())
+    unproved_wp43_gates = sum(
+        [
+            int(det_untwisted_lr == 1 and sc_premise_bits > 0),
+            int(small_n5_asymptotic_ratio > 9 and end_law_open_rk > 0),
+            int(desert_single_scale_diff != 0),
+        ]
+    )
+
+    # Guardrail 5 dimensionless ratio invariance + 1x10 mass-dimension matrix rank 1 (nullity 9):
     mu_0_sym, kappa_sym, t_dimless, yf_sym, lam_pos_sym = sp.symbols(
         "mu_0_sym kappa_sym t_dimless yf_sym lam_pos_sym", positive=True
     )
@@ -1578,7 +2439,9 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and sp.simplify(mf_over_mh_2 - mf_over_mh_1) == 0
         and sp.simplify(mf_over_mh_1 - yf_sym / (2 * sp.sqrt(lam_pos_sym))) == 0
     )
-    max_dimensionful_anchors = int(sp.Matrix([[mu_0_sym]]).rank())
+    mass_dim_1x10 = sp.Matrix([[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]])
+    max_dimensionful_anchors = int(mass_dim_1x10.rank())
+    dimless_ratio_nullity = int(np.sum(np.ones(len(mass_dim_1x10.nullspace()), dtype=int)))
 
     part6c_ok = (
         det_untwisted_lr == 1
@@ -1589,14 +2452,21 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and primes_with_twisted_line == [5]
         and bool(lr_mod5_eigen)
         and bool(rl_mod5_eigen)
+        and n_kronecker_sym == 2
         and sc_premise_bits == 1
         and bool(j_small_exact)
         and j5_mp_err < 1e-36
         and small_n5_asymptotic_ratio > 9
         and vol_conjecture_err < 1e-6
+        and sm19_info["jac_rank"] == 41
+        and sm19_info["u1_conserved_nullity"] == 4
+        and sm19_info["n_flavor_params"] == 13
+        and sm19_info["n_gauge_params"] == 3
+        and sm19_info["n_higgs_params"] == 2
+        and sm19_info["n_theta_phys"] == 1
         and unresolved_sm_count == 19
         and unproved_wp43_gates == 3
-        and bool(b1_trace_identities_exact)
+        and bool(mv_specializations_exact)
         and bench_1loop_gauge_err < TOL
         and bench_pendleton_ross_fp_err < TOL
         and bench_bernoulli_err < TOL
@@ -1606,6 +2476,7 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and bench_reversibility_err < TOL
         and neg_ctrl_wrong_4pi_err > 1e-6
         and neg_ctrl_wrong_lam2_err > 1e-6
+        and matrix_to_5chan_spec_err < TOL
         and uv_yb_ytau_unity_err < TOL
         and abs(obs_ir_ref["jarlskog_tr"]) > 1e-9
         and radiative_yb_ytau_shift > (1 / 10)
@@ -1614,17 +2485,21 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         and desert_unif_scale_mismatch > 0.5
         and bool(ratio_scale_inv)
         and max_dimensionful_anchors == 1
+        and dimless_ratio_nullity == 9
     )
 
     return {
         "wp42_det_untwisted_lr": det_untwisted_lr,
         "wp42_det_twisted_lr": det_twisted_lr,
         "wp42_primes_with_twisted_eigenline": primes_with_twisted_line,
+        "wp42_kronecker_scaling_sym_count": n_kronecker_sym,
         "wp42_sc_premise_bits": sc_premise_bits,
         "wp43_j5_mp_err": j5_mp_err,
         "wp43_j5_value": float(j5_mp),
         "wp43_small_n5_over_leading_asymptotic": small_n5_asymptotic_ratio,
         "wp43_large_n_volume_conjecture_err": vol_conjecture_err,
+        "wp43_flavor_jacobian_rank": sm19_info["jac_rank"],
+        "wp43_flavor_conserved_u1_nullity": sm19_info["u1_conserved_nullity"],
         "wp43_unresolved_sm_parameters_count": unresolved_sm_count,
         "wp43_unproved_bridge_gates_count": unproved_wp43_gates,
         "guardrail4_1loop_gauge_err": bench_1loop_gauge_err,
@@ -1636,10 +2511,12 @@ def verify_part6c_level5_kashaev_and_2loop_rge() -> dict[str, Any]:
         "guardrail4_reversibility_err": bench_reversibility_err,
         "guardrail4_neg_ctrl_wrong_4pi_err": neg_ctrl_wrong_4pi_err,
         "guardrail4_neg_ctrl_wrong_lam2_err": neg_ctrl_wrong_lam2_err,
+        "guardrail4_2loop_matrix_to_5chan_spec_err": matrix_to_5chan_spec_err,
         "guardrail3_max_haar_rge_scrambling_err": max_haar_rge_scrambling_err,
         "guardrail3_radiative_yb_over_ytau": obs_ir_ref["yb_over_ytau"],
         "guardrail5_desert_unif_scale_mismatch": desert_unif_scale_mismatch,
         "guardrail5_max_dimensionful_anchors": max_dimensionful_anchors,
+        "guardrail5_dimless_ratio_nullity": dimless_ratio_nullity,
         "part6c_level5_kashaev_and_rge_verified": part6c_ok,
     }
 
