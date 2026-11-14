@@ -37,3 +37,13 @@ when the m000 row loses a source it cites.
 ## 6. What is needed from main
 
 An arc number when the chain has landed (or the next free then).
+
+## 7. Added to the series by main (M37, M38), committed before their work
+
+1. **Main's check of the twelve (M37; P-849):** a dated note beside each "waiting on main's check" on the twelve pages,
+   in main's words for that arc, and the check carried to their rows of B1905's `older_verdict_lines_classified.json`
+   (the builder's class kept as read; main's class and words beside it). Built first.
+2. **C21 itself, with B1933** (reserved in M38), after Review 82's entry.
+3. **R82-2:** the 21 older verdict lines naming a session in their claim (B1814 to B1908): the credit moved to
+   `cites_seat`, the old words kept as a dated note.
+4. **R82-1:** agy-002's new findings as Review 82 lists them, read through what main transcribes.
