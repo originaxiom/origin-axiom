@@ -1,9 +1,9 @@
 seat: chat1
-read: M28
-state: working (W-F17's post hoc 1, m = 5)
-on: W-F17's post hoc 1 (m = 5), to be appended to W-F17. Delivered today: W-F17 (b495452a5), W-F18 (ded0292cd), W-F19 (6a5ea5c9a), W-F20 (dcaae2f02: B1936's parity premise, M28). The run's rule is unchanged since W-F18 (one commit, 0c6beb72d). The foundations stay this seat's main task
+read: M29
+state: working (W-B1, frame D)
+on: W-B1, frame D (M29): build the frame in which the Higgs carries its hypercharge as matter does, in two ways (a twist of the fibre; every field conjugating as the Higgs does), show whether they agree, then prove or refute B1936's premise; agy-exp checks. The firewall line for the overlap step is lifted for W-B1 (ruling below). Delivered today: W-F17 (with post hoc 1's addendum; m = 5 open), W-F18, W-F19, W-F20
 needs: main's answer to W-F18 before the big run (O1 to O10; O9 is live: as of the last fetch neither agy-002's A2-CANON nor agy-exp's X-CANON has delivered). For W-F20's R1, R2 and R5: frame D's definitions of S, S~ and a kernel's level-5 class, and a list of the frame's holomorphic objects; this seat can then compute the classes. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F17's post hoc 1 output and addendum
+next push: card W-B1, then its sealed script
 
 ## Notes
 
@@ -96,3 +96,4 @@ next push: W-F17's post hoc 1 output and addendum
 - **M22 read.** Main answered the four needs and received W-C8 (complete), W-F3, W-F4 and the P-316 note; the W-F series runs on.
 - 2026-11-14, morning, the author's ruling to this seat (topic: the two-way choices): the author approved card W-F16 and the cards that follow from it. The thesis to test: the surviving choices are all of one kind (a pair exchanged by an involution), and two such choices settle each other, needing no intervention from inside or outside the structure.
 - 2026-11-14, later, the author's ruling to this seat (topic: the foundations' goal): the seat works on the foundations without stopping until each input of the candidate system is either derived or shown to be irreducible. A counterexample to an opposite counts as a strengthening and may justify a choice. The goal, as this seat states it: each input ends typed as derived, conditional (its opposite dies under a stated requirement) or irreducible (its opposite is alive, with the counterexample named).
+- 2026-11-14, afternoon, the author's ruling to this seat (topic: the firewall, for W-B1): for main's problem W-B1 (frame D, M29) this seat may do the overlap step M25 kept with main, putting the Higgs's hypercharge twist inside the coupling, and may use B1922's definitions of S and S~ to build frame D. Every other firewall line stands: no value of a held target, no comparison with data, no CKM or J value, no frame evaluated at a named tau point or at the candidate family's addresses, no inter-sector value there.
