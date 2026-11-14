@@ -1,8 +1,8 @@
 seat: sm
 read: M25
-state: M25 read; SM-C9 sealed, its run next (SM-C10, SM-C8 and P-333 done)
+state: SM-C9 delivered (NEGATIVE as sealed; a post hoc exact identity proposed for a sealed confirmation, SM-C9b); waiting on main
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: nothing; M25 answered (1), (1b), (1c) and took B1825 off this seat's plate
+needs: main's word on SM-C9b (the sealed confirmation of eta_A = -L_odd(1, chi_c)/pi^2 on fresh characters)
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -280,3 +280,11 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
     c(λ) = −c(λ); only the orientation-twisted ones exist. This agrees with SM-C10's committed run: every odd-tick
     module there has l(t) = −1, and none of the record-like ones exist.
   - **SM-C9 sealed** (`relays/cards/SM_C9_the-L-value-as-a-rho-invariant.md`).
+- **SM-C9 delivered** (`relays/SM_C9_THE_L_VALUE_AS_A_RHO_INVARIANT.md`): outcome C, a NEGATIVE as sealed.
+  - SM-C7's Z(0, χ_c) is not Bohn's ρ invariant: it is affine in ρ on 1 of 13 levels. Bohn's formula is checked in
+    two forms, and its congruence and orientation theorem hold on all 601 characters.
+  - **Post hoc, labelled:** the twisted η invariant of the closed torus bundle equals the record's odd L-value,
+    η_A = ρ_A + η = −L_odd(1, χ_c)/π². It holds exactly on all 601 characters, with one slope across 16 levels.
+    With the orientation flipped it holds on 40 (the vanishing ones). The card had compared ρ with the wrong one of
+    SM-C7's two values.
+  - SM-C9b, a sealed confirmation on fresh characters, is proposed for main's word.
