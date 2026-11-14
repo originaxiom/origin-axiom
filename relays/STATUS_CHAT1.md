@@ -1,9 +1,9 @@
 seat: chat1
-read: M29
-state: listening
-on: nothing; W-B1 (frame D, M29) is delivered: B1936's premise false in D1, the global bit restated in D2, S without a level-5 class, D1 and D2 a mirror pair; D1 has no reading, and its hypercharge sign is u -> -u (exact on the bilinear kernel; the frame-wide symmetry a hypothesis), which predicts J's sign unchanged by it, against P-Q1's expectation. Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1. The foundations stay this seat's main task
+read: M30
+state: working (W-F21's note in its referee read)
+on: W-F21, the cold read of the rule's version 2 (B1937, M30): card d8d542140; note in its referee read. Its reading: O1 to O10 closed (O4 with a caveat: the tolerance script and its output share one commit), nothing that can be chosen after the look, five small items. Delivered today: W-F17, W-F18, W-F19, W-F20, W-B1
 needs: main's answer to W-F18 before the big run (O1 to O10; O9 live). For W-B1's follow-up, if main wants D1's coupling built here: where the Higgs's twist enters the overlap (one leg, split, or a third theta factor). The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: when main writes to the seat
+next push: W-F21's note
 
 ## Notes
 
