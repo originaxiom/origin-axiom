@@ -47,12 +47,16 @@ def _banked(P):
     return {pid: p for pid, p in P.items() if p["status"] == "banked"}
 
 
-def _verdicts_of(arc_id):
-    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id"""
+def _verdicts_of(arc_id, root=None):
+    """(folder, verdict or None, claim line or None, unreadable) for every folder under frontier/ that carries the id.
+    CHANGED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first): only a folder
+    named `<id>_<words>` was found, and a folder named by the id alone was missed.  Both are found now.  `root` is the
+    repository's (given only by a test).  The line as it stood:
+        for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):"""
     import glob
-    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    root = root or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     out = []
-    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
+    for d in sorted(glob.glob(os.path.join(root, "frontier", arc_id)) + glob.glob(os.path.join(root, "frontier", arc_id + "_*"))):
         if not os.path.isdir(d):
             continue
         h = os.path.join(d, "arc_verdict.json")

@@ -179,3 +179,27 @@ def test_render_regenerates_the_map(tmp_path):
     with open(out, encoding="utf-8") as f:
         head = f.read(4000)
     assert "GENERATED" in head and "context card" in head
+
+
+def test_the_query_finds_an_arc_whose_folder_is_named_by_its_id_alone(tmp_path):
+    """ADDED 2026-11-13 (C16; a cold reader's finding on R80b's part 4, not checked by main, made again first).  The query
+    looked for `frontier/<id>_*` and missed a folder named by the id alone.  Planted: three folders, B9, B9_words and B91_other;
+    the query for B9 finds the first two and not the third."""
+    import importlib.util as _u
+    import json as _j
+    import pathlib as _p
+    import sys as _s
+    _s.dont_write_bytecode, was = True, _s.dont_write_bytecode
+    try:
+        spec = _u.spec_from_file_location("atlas_query_for_a_bare_id", _p.Path(__file__).resolve().parents[1] / "scripts" / "atlas" / "query.py")
+        q = _u.module_from_spec(spec)
+        spec.loader.exec_module(q)
+    finally:
+        _s.dont_write_bytecode = was
+    for name in ("B9", "B9_words", "B91_other"):
+        (tmp_path / "frontier" / name).mkdir(parents=True)
+        (tmp_path / "frontier" / name / "arc_verdict.json").write_text(_j.dumps({"verdict": "PROVED", "claim_one_line": name}), encoding="utf-8")
+    assert [f for f, _, _, _ in q._verdicts_of("B9", root=str(tmp_path))] == ["frontier/B9", "frontier/B9_words"]
+    assert [f for f, _, _, _ in q._verdicts_of("B91", root=str(tmp_path))] == ["frontier/B91_other"]
+    # the twin: on this repository a folder named <id>_<words> is found as before
+    assert [f for f, _, _, _ in q._verdicts_of("B1905")] == ["frontier/B1905_selection_and_chirality_across_the_record"]
