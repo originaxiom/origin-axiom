@@ -123,3 +123,21 @@ python3 -B twin_compare.py && python3 -m pytest -q .
 # the runs themselves (minutes to hours, single thread):
 OMP_NUM_THREADS=1 python3 -B whole_average_2.py && OMP_NUM_THREADS=1 python3 -B whole_average_3.py
 ```
+
+## Correction (2026-11-14, the same day): the two end values are chosen constants, not B1724's two ends
+
+The runs hold the end at two fixed constants, 1.3 and 0.9, in the code's coordinate L + ½ log Im τ (B1921's L̃ plus
+γ + log π). The code labels them "L_max" and "L_2". **They are not the values of B1724's two ends.** In that coordinate:
+- the canonical cusp's L_max (B1667, the column Re τ = 1/4) runs from 0.69 at Im τ = 1 to 1.34 at Im τ = 4. It
+  reaches 1.3 only near Im τ ≈ 3.7, far above the golden thread, whose geodesic stays below Im τ ≈ 1.12;
+- its L_2 runs from 2.72 to 2.99, nowhere near 0.9;
+- neither is constant in L̃: across B1667's 54 points the spread is 0.41 to 0.65 for L_max and 0.16 to 0.27 for L_2.
+  So the canonical cusp does not fix the invariant end as one number.
+
+**What changes.** § 2's sentence "Both conventions of B1724 (L_max and L_2) are carried, not chosen between" is
+withdrawn. The runs are at two chosen values of the free end L̃. The conclusions stand at those two values: the
+read-out settles in n, and the twin fades. Nothing here shows they hold at other values, or which value is right. The
+end stays the read-out's free continuous input, as the condition and the author's reading both say. Owed: the same
+comparisons at other values of L̃, including the canonical cusp's ends taken point by point along each thread (not
+constant, so their periodicity along a thread must first be checked, B1922's condition).
+
