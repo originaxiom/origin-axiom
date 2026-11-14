@@ -92,6 +92,30 @@ def register():
     return rows, debts
 
 
+def joined_to_nothing(nodes, edges):
+    """the nodes that no edge joins, in the map's order: (those that are not debts, the debts)"""
+    ends = {e["src"] for e in edges} | {e["dst"] for e in edges}
+    lone = [n for n in nodes if n["id"] not in ends]
+    return [n for n in lone if n["kind"] != "debt"], [n for n in lone if n["kind"] == "debt"]
+
+
+def debts_under_a_heading_of_another_day(text):
+    """(row, the day of the row, the day its heading names) for each ranked debt whose heading names a day that is not the
+    day of the debt's own row.  A heading that names no day is not read; of several days the last is the heading's."""
+    day = dict(re.findall(r"^\| (P-\d+) \| (\d{4}-\d\d-\d\d) \|", text, re.M))
+    a = text.index("## The debts, by load")
+    b = text.index("\n## ", a + 10)
+    out, named = [], None
+    for line in text[a:b].split("\n"):
+        if line.startswith("*") and line.rstrip().endswith("*"):
+            days = re.findall(r"\d{4}-\d\d-\d\d", line)
+            named = days[-1] if days else None
+        m = re.match(r"^\d+\. (P-\d+) — ", line)
+        if m and named and day.get(m.group(1)) != named:
+            out.append((m.group(1), day.get(m.group(1)), named))
+    return out
+
+
 def build():
     fails, notes = [], []
     nodes = [dict(n) for n in S.NODES]
@@ -212,6 +236,16 @@ def build():
         for end in (e["src"], e["dst"]):
             if end not in idset:
                 fails.append("edge end missing: %s (%s %s %s)" % (end, e["src"], e["kind"], e["dst"]))
+    # ---- 2026-11-12 (R80b, part 6): a node that no edge joins is held by name or refused; so is a debt under another day's heading
+    held = set(S.JOINED_TO_NOTHING_AS_FOUND)
+    lone = {n["id"] for n in joined_to_nothing(nodes, edges)[0]}
+    for i in sorted(lone - held):
+        fails.append("%s is joined to nothing and is not held by name" % i)
+    for i in sorted(held - lone):
+        fails.append("%s is held by name as joined to nothing, and %s" % (i, "an edge joins it" if i in idset else "it is not a node"))
+    for pid, own, named in debts_under_a_heading_of_another_day((ROOT / "docs" / "POINT_REGISTER.md").read_text(encoding="utf-8")):
+        if S.A_DEBT_WHOSE_ROW_IS_OF_ANOTHER_DAY_THAN_ITS_HEADING.get(pid) != own:
+            fails.append("%s is a debt under a heading that names %s, and its row is of %s" % (pid, named, own))
     cells = genesis_cells()
     for n in nodes:
         if n["id"].startswith("G:") and n["id"][2:] in cells:
@@ -334,6 +368,15 @@ def render_map(nodes, edges, stats):
             L += ["| id | grade | about | statement | where |", "|---|---|---|---|---|"]
             for n in ns:
                 L.append("| %s | %s | %s | %s | %s |" % (n["id"], n["grade"], n.get("weave_or_thread", ""), n["text"].replace("|", "∣"), where(n).replace("|", "∣")))
+    # 2026-11-12 (R80b, part 6): the page says which nodes no edge joins
+    others, lone_debts = joined_to_nothing(nodes, edges)
+    L += ["", "## The nodes that no edge joins", "",
+          "%d of the %d nodes that are not debts, and %d of the %d debts. The map states nothing about what such a node requires, "
+          "answers or bears on; it is listed and joined to nothing. Each of the %d is held by name in the map's source, as found on 2026-11-12."
+          % (len(others), len([n for n in nodes if n["kind"] != "debt"]), len(lone_debts), len([n for n in nodes if n["kind"] == "debt"]), len(others)),
+          "", "| id | layer | kind | grade |", "|---|---|---|---|"]
+    for n in others:
+        L.append("| %s | %s | %s | %s |" % (n["id"], n["layer"], n["kind"], n["grade"]))
     return "\n".join(L) + "\n"
 
 
