@@ -1562,8 +1562,8 @@ def run_section_e2() -> Dict[str, Any]:
 
     pc_scar_1_tested_bgs = 0
     pc_scar_1_violated_bgs = 0
-    pc_scar_1_odd_order_tested = 0
-    pc_scar_1_odd_order_violated = 0
+    pc_scar_1_pure_hypercharge_tested = 0
+    pc_scar_1_pure_hypercharge_violated = 0
 
     for label, eps, word, k in levels_spec:
         lv = build_cyclic_level(eps, word, k)
@@ -1654,6 +1654,17 @@ def run_section_e2() -> Dict[str, Any]:
                 al_s_expected = add_c(lc, neg_c(al_s))
                 if al_s_from_dual_params != al_s_expected:
                     total_param_involution_mismatches += 1
+            # Pure-hypercharge slice (W == triv) with non-2-torsion psi_Y^3 (6*psi_Y != 0, e.g. order-5 psi_Y):
+            if Wc == triv and mul_c(pY, 6) != triv:
+                pc_scar_1_pure_hypercharge_tested += 1
+                al_Q = add_c(th, pY)
+                al_uc = add_c(th, mul_c(pY, -4))
+                al_dc = add_c(th, mul_c(pY, 2))
+                eta_up_pure = add_c(lc, neg_c(add_c(al_Q, al_uc)))
+                eta_dn_pure = add_c(lc, neg_c(add_c(al_Q, al_dc)))
+                # Keeping eta_plus unflipped with dualized V_s^* gives total cubic charge 2*eta_plus = +-6*psi_Y != 0
+                if mul_c(eta_up_pure, 2) != triv and mul_c(eta_dn_pure, 2) != triv:
+                    pc_scar_1_pure_hypercharge_violated += 1
 
         # Enumerate generation-shaped firing backgrounds exactly as in B1432/B1435
         fifth_roots: Dict[Tuple[int, int, int], List[Tuple[int, int, int]]] = collections.defaultdict(list)
@@ -1719,8 +1730,6 @@ def run_section_e2() -> Dict[str, Any]:
 
             # PC_SCAR_1: un-dualized Higgs character eta_plus paired with dualized matter V_s^*
             # Total cubic character is (alpha_A' + beta_B') + eta_plus = 2 * eta_plus (mod N).
-            # Check both: all backgrounds with non-2-torsion Higgs (where 2*eta_plus != 0) AND odd-order psi_Y^3 != 1.
-            pY3 = mul_c(pY, 3)
             eta_up_p = add_c(lc, neg_c(add_c(al_vec[0], al_vec[1])))
             eta_dn_p = add_c(lc, neg_c(add_c(al_vec[0], al_vec[3])))
             if mul_c(eta_up_p, 2) != triv or mul_c(eta_dn_p, 2) != triv:
@@ -1729,10 +1738,6 @@ def run_section_e2() -> Dict[str, Any]:
                 cubic_dn = mul_c(eta_dn_p, 2)
                 if cubic_up != triv or cubic_dn != triv:
                     pc_scar_1_violated_bgs += 1
-            if pY3 != triv and mul_c(pY3, 2) != triv and (N % 2 == 1 or Wc == triv):
-                pc_scar_1_odd_order_tested += 1
-                if mul_c(eta_up_p, 2) != triv and mul_c(eta_dn_p, 2) != triv:
-                    pc_scar_1_odd_order_violated += 1
 
         assert dual_bijection_ok, f"W-F9 failed bijection on {label} k={k}"
         if eps > 0:
@@ -1762,8 +1767,8 @@ def run_section_e2() -> Dict[str, Any]:
     pc_scar_1_fired = (
         pc_scar_1_tested_bgs > 0
         and pc_scar_1_violated_bgs == pc_scar_1_tested_bgs
-        and pc_scar_1_odd_order_tested > 0
-        and pc_scar_1_odd_order_violated == pc_scar_1_odd_order_tested
+        and pc_scar_1_pure_hypercharge_tested > 0
+        and pc_scar_1_pure_hypercharge_violated == pc_scar_1_pure_hypercharge_tested
     )
     assert pc_scar_1_fired, "PC_SCAR_1 failed to fire"
 
@@ -1782,8 +1787,8 @@ def run_section_e2() -> Dict[str, Any]:
         "PC_SCAR_1": {
             "non_2torsion_higgs_bgs_tested": pc_scar_1_tested_bgs,
             "non_2torsion_higgs_bgs_violated": pc_scar_1_violated_bgs,
-            "odd_order_psiY3_bgs_tested": pc_scar_1_odd_order_tested,
-            "odd_order_psiY3_bgs_violated": pc_scar_1_odd_order_violated,
+            "pure_hypercharge_bgs_tested": pc_scar_1_pure_hypercharge_tested,
+            "pure_hypercharge_bgs_violated": pc_scar_1_pure_hypercharge_violated,
             "fired": pc_scar_1_fired,
         },
     }
