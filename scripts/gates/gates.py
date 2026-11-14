@@ -3193,6 +3193,31 @@ def public_face_words(text):
     return out
 
 
+
+def working_index_own_words():
+    """C14, patch 9 (main's M25, answer 4): the inner words each working index's generator writes itself. Each view is
+    built again with every quotation of the record emptied (the generators' `quoted`), and what is left is counted."""
+    import importlib.util as _u
+    out = {}
+    sys.dont_write_bytecode, was = True, sys.dont_write_bytecode
+    try:
+        spec = _u.spec_from_file_location("views_generate_for_the_public_face", os.path.join(ROOT, "scripts", "views", "generate.py"))
+        gen = _u.module_from_spec(spec); spec.loader.exec_module(gen)
+        gen.quoted = lambda s: "\u201c\u201d"
+        arcs, kills = gen.collect()
+        out["docs/views/VERDICT_LEDGER.md"] = gen.view_claims(arcs)
+        out["docs/views/CLOSED_DOORS.md"] = gen.view_closed_doors(arcs, kills)
+        out["docs/views/REVIEWER.md"] = gen.view_reviewer(arcs, kills)
+        out["docs/views/CONTEXT_RECOVERY.md"] = gen.view_context_recovery(arcs, kills)
+        spec = _u.spec_from_file_location("views_spine_for_the_public_face", os.path.join(ROOT, "scripts", "views", "spine.py"))
+        sp = _u.module_from_spec(spec); spec.loader.exec_module(sp)
+        sp.quoted = lambda s: "\u201c\u201d"
+        out["docs/views/THE_SPINE.md"] = sp.main(write=False)
+    finally:
+        sys.dont_write_bytecode = was
+    return {p: dict(public_face_words(t)) for p, t in out.items()}
+
+
 def public_face_counts(reader=None, pages=None):
     reader = reader or (lambda rel: _read(rel))
     out = {}
@@ -3219,17 +3244,21 @@ def public_face_problems(counts, held=None):
     return bad
 
 
-def gate_public_face(reader=None):
-    """main's card C14: the public face uses none of the record's inner words.  Held by page and word as found; may only fall."""
+def gate_public_face(reader=None, own_words=None):
+    """main's card C14: the public face uses none of the record's inner words.  Held by page and word as found; may only fall.
+    2026-11-13 (C14, patch 9; main's M25, answer 4): a working index may quote the record's own words, marked as
+    quotations, but what its generator writes itself uses none of them (working_index_own_words)."""
     counts = public_face_counts(reader)
     bad = public_face_problems(counts)
+    own = working_index_own_words() if own_words is None else own_words
+    bad += ["%s: its generator writes %r %d times itself" % (rel, w, n) for rel, c in sorted(own.items()) for w, n in sorted(c.items())]
     if bad:
         return False, "%d inner word(s) on the public face above what is held: " % len(bad) + "; ".join(bad[:6])
     total = sum(sum(c.values()) for c in counts.values() if c)
     zero = sum(1 for c in counts.values() if c == {})
     fell = [rel for rel, c in counts.items() if c is not None and sum(c.values()) < sum(PUBLIC_FACE_HELD.get(rel, {}).values())]
-    return True, "ok (%d page(s) of the public face read: %d at zero; %d inner word(s) held by page and word as found on 2026-11-13%s)" % (
-        len(counts), zero, total, ("; lower the count of " + ", ".join(fell)) if fell else "")
+    return True, "ok (%d page(s) of the public face read: %d at zero; %d inner word(s) held by page and word as found on 2026-11-13%s; the %d working indices' generators write none themselves)" % (
+        len(counts), zero, total, ("; lower the count of " + ", ".join(fell)) if fell else "", len(own))
 
 
 PUBLIC_FACE_HELD = {      # the counts of 2026-11-13, page by page and word by word; a count may only fall

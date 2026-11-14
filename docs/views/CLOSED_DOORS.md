@@ -13,135 +13,135 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 
 | mechanism | doors | facts not computed |
 |---|---|---|
-| `other` | 359 | 343 |
-| `unrouted-unclassified` | 168 | 168 |
-| `kind-mismatch` | 51 | 4 |
-| `genericity` | 38 | 1 |
-| `no-landing-site` | 30 | 1 |
-| `value-numerology` | 24 | 2 |
-| `method-limit` | 13 | 2 |
-| `incoming-claim-refuted` | 10 |  |
-| `zero-intertwiner` | 10 |  |
-| `absence-at-depth` | 10 |  |
-| `self-audit-retraction` | 9 |  |
-| `census-counterexample` | 8 |  |
-| `cited-as-sufficient` | 6 | 1 |
-| `vacuity` | 4 |  |
-| `selection-not-unique` | 3 |  |
-| `finite-truncation` | 2 | 1 |
-| `rigidity-collapse-with-mechanism` | 2 |  |
-| `category-mismatch` | 2 |  |
-| `registered-comparison-null` | 1 |  |
-| `sealed-one-input-comparison` | 1 |  |
-| `sealed-invert-then-match; killed by the chain's own algebra` | 1 |  |
-| `group-membership-refutation` | 1 |  |
-| `stabilizer-computation` | 1 |  |
-| `rank-vs-reality-dichotomy` | 1 |  |
-| `cross-family-counterexample` | 1 |  |
-| `self-defeating-escape` | 1 |  |
-| `ill-posed-conjunction (rarity implies separation)` | 1 |  |
-| `enumeration-exhausted` | 1 |  |
-| `self-refuted-draft (instrument already existed)` | 1 |  |
-| `powered-exclusion (sealed crossing; both sectors powered)` | 1 |  |
-| `powered-exclusion (the sealed refresh windows, executed once)` | 1 |  |
-| `obstruction-at-construction (sealed cell, pre-declared outcome O3)` | 1 |  |
-| `powered-exclusion (sealed inventory-forced candidates; current-release adjudication after a same-day stale-release defect was caught and corrected)` | 1 |  |
-| `powered-exclusion (sealed set-level claim, 18 comparisons priced 5.17 bits; version-pinned current release; the delta-independent e-row supplies the power, the delta-free landings pre-graded HIT-SHAPE below success by the sealed R9)` | 1 |  |
-| `exhaustive-coset computation with vacuity controls (117 exact checks; independent re-implementation to 1e-53; the seductive invariant killed by its own control)` | 1 |  |
-| `non-isolation: the fixed-dimension census {3d: 53, 1d: 42} has NO 0-dimensional fixed set, so every A1 locus meets the E6 locus along a LINE and all localized matter extends along a flat direction (vector-like in 4d)` | 1 |  |
-| `Poincare-duality pairing: on a closed oriented 3-manifold the cup pairing lands in the trivial charge and forces h1(D;27) = h1(D;27bar) in every cell -- totals are structurally blind to handedness` | 1 |  |
-| `two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)` | 1 |  |
-| `identical vanishing: every anomaly channel over the derived 16 is zero -- including the global (B-L) pair where the imported 15 gives -1/-1; a layer that vanishes identically cannot supply a ratio (structural, B990's shape)` | 1 |  |
-| `type mismatch, structural: arithmetic CS is finite-group-valued by construction (target mu_n(F)^D = (1/n)Z/Z; compact-support etale cohomology, Artin-Verdier/Poitou-Tate) while the object's term is archimedean-analytic (Vol in R; the B8112 Ruelle factors) -- the theory supplies exactly the term proved to vanish (CS = 0 by amphichirality) and lacks entirely the term carried; the negative names its class: THE ARCHIMEDEAN BOUNDARY` | 1 |  |
-| `value-numerology guard fired (rung-1 algebraicity, sealed): 0 of 18 SM targets involve a regulator across 216 cells (D<=3, H<=1e6); 384-cell matched null base rate 0.0; the only relations found (delta_CP=4, m_s/m_d=20) are bare integers -- the V-alone tautology, gated out. The value door closes from its LAST route (regulators), matching the period-close V-3; cleaner than V-3 (which had one genuine near-miss)` | 1 |  |
-| `structural impossibility, NOT a scan: the 64 (= e6 78 minus the fork's 14-dim su(2)xsu(2)xsu(3)) decomposes by own joint highest-weight enumeration as EXACTLY (spin-2,0;1)+(0,spin-2;1)+(1,1;3)+(1,1;3bar)=5+5+27+27, with INVARIANT CONTENT ZERO -- no invariant direction for any u(1), no spinorial content. Hypercharge cannot organize in the spacetime branch; what lives there is the graviton slot (two color-singlet spin-2) + 54 colored bi-vectors. This is the rep-level restatement of the fork theorem's z=0 (B1138) on the SAME 14-dim subalgebra. The campaign's TENTH honest value-negative and the FIRST closed by structure rather than by search` | 1 |  |
-| `density-before-statistics (cc3's instrument -- only density can falsify): the 108 zeros to t=130 are 697x too sparse to be the Laplace/geodesic spectrum (Weyl N(130)=75316). They are the cusp/scattering zeros of the complete Dedekind zeta Lambda_K = zeta*L(chi_-3) of Q(sqrt-3) (exact count 43+65=108) -- what the object's scattering determinant phi(s)=Lambda_K(s-1)/Lambda_K(s) (B739) is built from. GUE-distributed but GENERIC (Montgomery pair-correlation / Katz-Sarnak -- certifies a universality class, discriminates nothing object-specific). NO SM value. The graviton (geodesic Ruelle) and Lane C (cusp L(chi_-3)) meet NOWHERE in the spectrum: the Ruelle Euler product is purely geodesic, L(chi_-3) enters only via the cusped functional equation (cc3 B8130) -- the graviton bridge is dead` | 1 |  |
-| `symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)` | 1 |  |
-| `dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)` | 1 |  |
-| `trivial-torsor (the freedom exists in general at size |a_1| and is exactly ZERO for this manifold; the group is named, not merely absent)` | 1 |  |
-| `premise refuted by population test, with the correlation coming out at the OPPOSITE SIGN to the prediction. Three kill conditions were named in advance; test 3 was decisive. The premise failed first: m003 is not less symmetric than m004 (both |Sym|=8, both amphichiral, same volume), its cusp is the hexagonal omega = e^{i pi/3}, the MOST symmetric torus, and it carries the Z/5 torsion m004 lacks. Census of the first 400 one-cusped orientable manifolds: |Sym|=2 -> 19.5% carry H1 torsion (n=261); |Sym|=4 -> 87.2% (n=133); Pearson r(|Sym|, has-torsion) = +0.50 where the thesis requires NEGATIVE.` | 1 |  |
-| `arithmetic disjointness of the ACTION, not of the pieces. Both groups are generic (any three quadratic fields with square discriminant product form a V4 by genus theory; almost every cubic field has Gal = S3), so the isomorphisms alone are the short-catalogue coincidence this programme refuses. The discriminating question is whether S3 permutes V4's involutions FAITHFULLY. Computed: disc K = 6237 = 3^4 * 7 * 11, squarefree part 77, so the S3's own quadratic resolvent is Q(sqrt77) -- NOT among the three faces. The compositum is therefore the DIRECT product V4 x S3 and the S3 acts on the faces TRIVIALLY. Triality requires the semidirect V4 x| S3 = S4. Direct is not semidirect.` | 1 |  |
-| `pre-registered expectation falsified by its own run. E-1 predicted at least three MISLABELED items; 46 items were examined with the source opened under amendment A1 and the count is ZERO -- not one over-fence. The two most load-bearing fences are honest FOR A COMPUTED REASON: L15's firewall holds because the complex volume ic(rho) = i(Vol+iCS) in C/4pi^2 Z is DIMENSIONLESS (B151), and the h(27) lead is fenced because B580 PROVES the channel information-free -- the level-1 chord is identical for 4_1, 5_2 and the unknot, and a channel that cannot distinguish the object from the unknot cannot carry its physics. E-2 was falsified separately: C43 repeats B915's own scoping faithfully.` | 1 |  |
-| `both killed by paying the price the register itself set, in exact arithmetic, with two-sided controls. (I-16) the discriminant forms are UNEQUAL on every invariant: (Z/2+Z/8) level 16 signature 2 with 16 anyons, against A_3's (Z/4, q=3/8) level 8 signature 3 with 4 anyons -- and unrescuable, since even scalings give |D| in {16,64,144,256} never 4, and Milgram bars signature 3 for any rank-2 positive-definite form. The matched number was real but was not a lattice invariant: 'conductor 8' named the shadow LEVEL (the order Z[2i] has conductor 2, disc -16). (I-15) killed BY COUNTING rather than by failure: the principal sl2's Dynkin index is 156 by three agreeing routes and the map ACTS with remainder identically zero -- but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78, so containment holds and identity does not.` | 1 |  |
-| `Killed by a THEOREM, not a survey. chi_27 on 2T's seven classes is (27,27,3,0,0,0,0) and chi_78 is (78,78,-2,-3,-3,-3,-3) -- IDENTICAL for both candidates -- and the equality is FORCED: at lambda = +-1 the character is just the dimension (all indices even), and at 2T's remaining classes lambda has order 3, 4 or 6 where chi_Sym^n depends ONLY on n mod m, with the index multisets {16,8,0} and {12,8,4} agreeing mod 3 ([0,1,2]), mod 4 ([0,0,0]) AND mod 6 ([0,2,4]). 2T's eigenvalues are 12th roots of unity and the two decompositions are congruent modulo exactly that. The second half killed by direct computation: neither candidate makes the SO(10) 16 a union of complete sl2 strings, nor the 10+1.` | 1 |  |
-| `Killed by a structural theorem that closes the entire class in one line. G2 < SO(7), so every element acts on R^7 with det = +1; and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues occur in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must equal det = +1, and an ODD number of them multiplying to +1 forces at least one to be +1. Hence every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur for ANY G-hat. B1084's census {3d: 53, 1d: 42} was therefore FORCED by flatness in seven dimensions, not a property of |G-hat| = 96.` | 1 |  |
-| `Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).` | 1 |  |
-| `Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.` | 1 |  |
-| `A parity theorem. |Fix| = |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) gives |Fix| in {0,1,2,3,4} -- 3 IS algebraically reachable, from (det 1, tr -1). The GEOMETRY forbids it: Fix(g) of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd.` | 1 |  |
-| `Exhaustive scan. Every conjugacy class of subgroup of pi_1(m004) of index 2..10 (snappy covers(d), all 87 covers, 201 cusps), every isometry of every cover (968, both orientations), every cusp each isometry fixes (1,376 (isometry, cusp) pairs), |det(A - I)| of the peripheral matrix; the count would be odd or 2 somewhere if the claim held.` | 1 |  |
-| `Two halves, both exact. TOPOLOGICAL: at a fixed point of an orientation-preserving involution with 1-dim fixed set, d sigma = (+1 | -1, -1); a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN and a sigma-odd potential has normal Hessian rank 2 there (no non-degenerate zero) -- so a charge locus on Fix(theta) forces theta_G u = +u, the theta-even Cartan = Cartan(F_4). SPECTRAL: enumerate the 15 faces of the F_4 chamber (spanned by omega_2^v, omega_4^v, omega_1^v+omega_6^v, omega_3^v+omega_5^v), compute the centraliser, the signed left-handed weight multiset of the (+,+) content (2 x 78_{q>0}; 2 x (27_{q>0} + 27_{q<0}^*)), its chiral dimension, and the SU(3) cubic anomaly per A2 factor and the Witten parity per A1, at two coefficient draws per face (exact rational arithmetic, rational E_6 in R^8).` | 1 |  |
-| `The one-cusped index I(V) = t0 - r1 (pre-registered with its domain before evaluation), reduced by Shapiro to I(C_n; Sym^2 rho_geo (x) psi) over the cover's cusp-trivial torsion characters, computed exactly over Q(zeta_12) with SVD as second method: 16/16 zeros on C_3, 45/45 on C_4 -- and two theorems make it identically zero on every cyclic cover: T-GALOIS-SELF-DUALITY (order prime to 3) and T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE (all orders: the period-2 symmetry is -1 on the Alexander module, so psi o P = psi^-1 and J(psi) = -J(psi)).` | 1 |  |
-| `Computation on two benches. The SM seat (sm:B1350 @ 7484ad01): the two V10 classes, their sum and difference integrate to genuine E6 representations (second-order obstruction zero on the V10 plane, formally integrable through order 10 mod two primes, Newton to 1e-68 once B1268's damping is lifted), not self-dual, re-read at 2000 bits with the torus Euler and duality checks. Main (B1322): the four banked 100-digit points re-read with main's own Fox calculus at 110 digits.` | 1 |  |
-| `Constructed, not argued. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes over Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters leaves EIGHT members, of which FOUR are one-cusped: s958, v2873, t12833, t12835. The best case therefore EXISTS and IS NAMED -- and every one of the four returns index ZERO. A negative that names its own strongest counterexample and then evaluates it.` | 1 | 1 |
-| `The falsifier does not fire, and the arc's positive half is what makes that meaningful: scanning one-cusped census manifolds with honest SL2(F_p) representations twisted by cusp-trivial characters DOES turn up, on the chiral one-cusped m010 (H_1 = Z/6 + Z), sectors with Sym^3 (x) chi where a_0 = a_0* = 0, t_0 = t_0* = 1, r_1 in {0,2} and I = +-1 -- checked exhaustively with independently written self-contained code, relators evaluating to +I so odd Sym^3 is valid and this is NOT the -I trap. So THE VANISHING IS NOT FORMAL (it is not forced by the setup) and the falsifier still does not fire.` | 1 | 1 |
-| `ABELIAN OR NOTHING, by Borel density. The object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE -- so its centralizer is contained in the centre of the ambient group. B854's u(1)^4 is the centralizer of 2T, the FINITE McKay image, which is a different object from the geometric holonomy; conflating them is what left the half looking open.` | 1 | 1 |
-| `The instrument is itself blind, demonstrated by its own miss: the proposed consolidation had been written THIRTEEN DAYS EARLIER as cloud memo 152 THE_CHAIN_GAP, in answer to the owner asking the same question -- and memo 152 records that it was itself the FOURTH such document, because the answer was spread across three taxonomies none of which walked the chain in order. The instrument's two DECLARED blind regions are stale, so the declaration that bounded its blindness no longer bounds it.` | 1 | 1 |
-| `All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.` | 1 | 1 |
-| `A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.` | 1 | 1 |
-| `Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.` | 1 | 1 |
-| `Computed on the paper-verification lane (2026-09-14), L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW ; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).` | 1 |  |
-| `Computed on the paper-verification lane (2026-09-14), L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).` | 1 |  |
-| `Sealed census (7f080e49) with a lemma for the sign-character half: every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W), six sector indices by B1333's several-cusp code; and for a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite and the absence is forced.` | 1 |  |
-| `Sealed run (2f75736d) of the published formula on B1428's boundary classes, after reproducing all sixteen figure-eight entries the source publishes; a fixed reader with six features; the arithmetic set from B1419's census.` | 1 |  |
-| `Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.` | 1 |  |
-| `Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.` | 1 |  |
-| `Computation to completion with B1418's own driver, budget lifted: 6 435 modules, none NOT RUN; index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3; agreement 3 110/3 110 with B1418's banked rows and 6 435/6 435 with the sep16 lane's xB031.` | 1 |  |
-| `Tabulation of two banked results (B1438/B1439's own-level census joined to B1479's table), sealed first: 375 of 379 + states and 379 of 379 - states carry a firing module; 49 and 46 a generation-shaped background; on the 34 amphichiral words 32 and 34 fire. Sealed Q1 and Q3 fail, Q2 holds.` | 1 |  |
-| `Sealed census (5ef37c794) of the line's interior classes at every sign character of both companions by the multi-cusp instrument of B1492 (controlled on m136 and on a closed manifold with room 1), the second supply n(nu^3 x four) at one representative per D6 x Galois orbit of the 448 order-8 characters of L8a15 with a 24-member equivariance control, the full reading at the nine order-4 orbits, and Theorem C (sm:B1535) for the bound.` | 1 |  |
-| `Sealed reading (3c1fadd9e) of the three rank-25 cross terms W_i x W_j with B1492's stacked instrument on the three-cusped L8a15; the pieces of one cross term decomposed (W_i x V_j and V_i x W_j at -1 each, V_i x V_j at 0); the deck symmetry carries the others; control: m136's two members give a cross term of -1.` | 1 |  |
-| `Sealed reading (d5b6ca8eb) of the pencil W1(c1 + lambda c2) at six lambda and the basis, at all eight characters, with B1492's stacked instrument and the relator check; the rank-six extension by both classes read for the record (-1).` | 1 |  |
-| `Sealed (10786bcca) second-order obstruction and Gauss-Newton fusion (B1486's method) from two seeds, the module read at the arithmetic floor with B1492's two-cusp stacked index; commutant and invariant lines checked.` | 1 |  |
-| `Sealed (fee144f6b) census of all 74 signed threads to length eight: every forced kernel (A4 / D4 / V4) built from SnapPy's presentation, the four read at every sign character with B1492's stacked index; the carrier's member read by the extension and index after the census (disclosed).` | 1 |  |
-| `Sealed (5d2787345) extension and stacked index (B1492) at every interior class of every member of B1602's census, the floor and ceiling checked on each (442 of 442 hold).` | 1 |  |
-| `Sealed (f916539c6) exact reading of B1083's four founding rules and the inverse rule at the common point and on W21's space V: every rule reverses the Hodge-Riemann form and exchanges T and T-bar, every double tick keeps them, so the records' hand is on no rule; the double tick's spectrum on T is {1, omega, omega^2} for every rule, so the spectral detector was vacuous (its column read a rounding artifact, withdrawn).` | 1 |  |
-| `Sealed (c5d30c59a) Clebsch-Gordan computation on the weave's matter triplet: the second triplet of T-bar (x) T with its vacuum along RRL's two-dimensional fixed space is a one-parameter family obeying m1 + m2 = m3 exactly, with m1/m3 reaching zero (post-seal scan of 519 841 points).` | 1 |  |
-| `Sealed (08b7f328f) decomposition of Sym^2 T under the weave's group and the Takagi masses along the fixed directions of RRL, RL, L, R: no fixed vacuum along RRL; elsewhere rigid degenerate spectra excluded by the two measured splittings.` | 1 |  |
-| `Sealed (da3027e03): the residual group at omega (U, the sign, conjugation by a and b) has order 48 and keeps T irreducible; one invariant Dirac direction (three equal masses), no Majorana term.` | 1 |  |
-| `Sealed (the B1628 seal commit, before any data read): on NuFIT 6.0 (arXiv:2410.05380, SK-atm variant) TM2's sin^2 t12 = 0.3409 sits 2.74 sigma from the best fit 0.308 and inside the 3-sigma range (0.275-0.345); TM1's 0.3182 sits 0.85 sigma.` | 1 |  |
-| `Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp. [Audited, B1655: 'not dynamical' for forced data and bounded observables under the uniform word measure, which is not the geodesic flow's.]` | 1 |  |
-| `Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1. [Audited, B1655: refuted in part by B1634 -- the helper's sign on S~; the lifts form a genuine representation of Mp2(Z).]` | 1 |  |
-| `Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k. [Audited, B1655: 'at omega for every k' holds for the single pieces of T(x)T only; the failed cell is the golden-spectrum discovery.]` | 1 |  |
-| `Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40. [Audited, B1655: a feature -- rank two with an exact massless direction, the pattern a light first generation needs.]` | 1 |  |
-| `Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2). [Audited, B1655: a feature -- the exact zero is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau.]` | 1 |  |
-| `Sealed (B1660, a scoreboard): no fit below 11.07 in any of 54 cells, every cell reliable, all 15 planted worlds recovered; chi2_min 85.35 (same S), 542.8 (S~), 34.40 (conj S on the conjugate pair of lines). The misses are m_s/m_b (too large) and m_mu/m_tau (too small): the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points -- a joint conflict, not a ceiling (post-seal: alone the ratio reaches 9-34).` | 1 |  |
-| `Sealed (B1663): E_p<f> along the geodesic ray to the walk's limit is 0.5157-0.5185 for p = 0 .. 1/2 (spread 0.0028, each +- 0.0013), while the side (P(xi > 0) = 1 -> 0.53) and the escape rate (0.396 -> 0.101) follow p; post-seal the limit's digits follow the geometric law 2^-k at every p.` | 1 |  |
-| `Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).` | 1 |  |
-| `Verified on main (B1672, NEGATIVE): on the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), not as P_a; irreducibility (order 192) needs P_a, P_b added by hand (the paper's Proposition 24). The 4D index on M_{1,2} is asserted, not computed; the E8 steps are classical branching plus identifications.` | 1 |  |
-| `Verified on main (B1673, NEGATIVE): the potential's minimum at omega is the classical torus-determinant extremum (a choice as the modulus's potential); the 12-point orbit is disjoint from W59's eighteen lines; the CP count is a coordinate error (wrong on 72 of 72 points; on the true points 0 of 12 reflection-fixed and the orbit reflection-closed); averaged J is set by the input matrix (~1200x the data); the spectra give ratios near 1/2.` | 1 |  |
-| `Sealed (B1696; 1a3f6e2aa): the best of 97 lines x 6 discrete choices misses by a factor 3.56 (five of six ratios about three times too small), chi2 317, and 26.8% of 4000 random hierarchical targets fit as well (the calibration sealed in).` | 1 |  |
-| `Sealed (B1698; 9c2a50039): best worst factor 2.33 (alpha = 2/5), but 1.675% of 4000 random hierarchies fit as well against the sealed 1%; chi2 162; on these lines the down quarks and leptons coincide.` | 1 |  |
-| `Sealed (B1699; 8ac889d14): the strength has no maximum (it rises to the cusp) and one non-elliptic critical point, a saddle at tau = 0.2754 + 0.9613i; there m2/m3 >= 0.31 in every sector on all 576 lines (worst factor 225; 32% of random hierarchies fit as well).` | 1 |  |
-| `Sealed (B1702; f51ab2718): best worst factor 8.9 (2i) and 19.4 (1/2 + sqrt3 i); the up quarks' m2/m3 >= 0.0134 against 0.0037 on every row; 24.7% of random hierarchies fit as well; chi2 593.` | 1 |  |
-| `Sealed (B1711; 6fee45181): best worst factor 4.17 at the grid's edge (Im tau 3.5); 9.8% of 4000 random hierarchies fit as well; chi2 321; the down and lepton m2/m3 three to four times too small, the electron lifted four times too far.` | 1 |  |
-| `Sealed (B1712; a35ab5642): best worst factor 2.37 (the order-8 line (3/8, 0) at tau = 3.1 i; the down quarks' m2/m3 the worst); 22.45% of 4000 random hierarchies fit as well with the same 51408 rows; chi2 108.5.` | 1 |  |
-| `Sealed (B1713; cd294dccf): orders 1-7 best factor 2.33 (order 5, d = e), 14.8% of random hierarchies as good, chi2 162; the CKM moduli within 14% (order 11, tau = 1/2 + 2.8i) but 59.5% of random hierarchical mixings matched as well; masses and mixing together 3.59, 21.6% as good.` | 1 |  |
-| `Sealed (B1720; a93ff339a): best 1.80 (L^5RLR^2 at its apex, Im tau 2.993, on the order-28 line it fixes), but 1.65% of 4000 random hierarchies fit as well (bar 1%); chi2 79.4; the mixing generic (32.6%); masses and mixing apart (6.5).` | 1 |  |
-| `Sealed (B1722; a9a5d46f9): the measure-weighted mean log-misfit of a thread drawn from each measure is matched by 25.4% (uniform) and 21.0% (action) of random hierarchies; both measures concentrate on short threads whose apexes sit too low; the best class L^5RLR^2 carries 0.27% and 0.65% of them.` | 1 |  |
-| `Sealed (B1723; 23f8a7621): over 49 points of the valley (the arcs from i to +-1/2 + (sqrt5/2) i) and 265 lines of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891); every ratio too large, the median first-to-third ratio 10^-1.1 against 10^-3 to 10^-5: the valley (Im tau <= 1.118) sits too low for the frame's hierarchy.` | 1 |  |
-| `Data-free census (B1729), criteria written before the read: on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points), the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; 1.10 needed) and R1 not at all, while at every order the ratios spread over 2-4 units of log.` | 1 |  |
-| `Sealed (B1732; 65e6abfce): on B1726's 23 940 points with F_6 in place of DR, the six fit within 1.62 but 7.1% of random hierarchies fit as well under the seat's menu (DR: 0.12%), 2.1% under the covariant menu (DR: 0.41%), every seed above 1%; the nine 35.8%.` | 1 |  |
-| `Sealed (B1740; bf0a9a330): on B1726's 23 940 points with F_-2 in place of DR, the light generation is aligned (median |V_ud| 0.996) but the best six is off by 131.7 (m_c/m_t about 130 times measured), chi2_six 3 688, 40.6% of random hierarchies as good.` | 1 |  |
-| `Post hoc exploration (B1743, labelled): on B1742's 1 280 points, both horocycles, no pencil row has chi2_nine below 21.67; the best is 41.9 (F6|F-6 at (2/5, 3/10), Im tau 3.3, L_max), against the free direction's 17.3.` | 1 |  |
-| `Data-free (B1744): the frame's residue quaternion at the Higgs's twist is even, T0(3w) = T0(-3w) to 3.6e-15, so H_u = H_d and no conjugation arises; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w. As a Higgs (post hoc): chi2_nine 493 at best.` | 1 |  |
-| `Post hoc (B1746): the rho' generators are e1-led (far from null); the rho' x sgn forms give R and DR (exactly); the three two-dimensional spaces as pencils on B1742's grid reach chi2_nine 41.9, 42.7 and 47.5 at best, none below 21.67.` | 1 |  |
-| `Sealed (B1748; 3bf82d0ca): on 26 068 fresh points the four are reached (chi2_heavy 1.16 < 13.28) but 1.54% of random targets from B1741's generators reach as low (bar 1%); coarse 2.07%.` | 1 |  |
-| `Data-free (B1789): on the slope-2/5 family the frame's second-generation lepton/down ratio R2 -> 1 at leading order (0.81-1.16 at the band, 1.0000 at Im tau 8); a net hypercharge flux on the fibre is excluded (one zero mode per field forces n = 0); the frame's hypercharge enters only through periodic twists.` | 1 |  |
-| `Data-free (B1790): the coupling is complex-bilinear in holomorphic Higgs and matter, so no map of (tau, w) conjugates one relative to the other; seven maps preserve both readings to 7e-12, no line is a flip partner (best 1.52 in ln), no slope reproduces the flipped exponents.` | 1 |  |
-| `Data-free (B1791): special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the scale-free ratios' extrema are line-dependent; the one line-independent height (the rho' Higgs eta^6 dR's Petersson peak, Im tau = 2.8406) is set by the eta-power convention; the one-loop potential trades Im tau for a free ratio.` | 1 |  |
-| `Sealed (B1792; 096c97e94): at order 60, six of the eight predicted lines carry and the mirror pair 1/60-7/12 does not (36.34); none of the twelve others carries (R_b holds). The leptons are exactly shift-invariant; the quarks only approximately; m_u/m_t breaks the pair.` | 1 |  |
-| `Data-free scan (B1793): every realisable weight keeps R2 in 0.98-1.002 on the lepton lines; on (2/5, 1/5) R2 = R1 = 1 exactly for every profile; no cell of the referee's free-lambda and band scans reaches R2 and R1 both >= 2.5.` | 1 |  |
-| `Computed (B1794): every hyperbolic closed filling of m004 has finite H1 (184 slopes; b1 > 0 only at the Sol fibre boundary), and family-wide likewise, so H2(X;Q) = H4(X;Q) = 0: no rational class; canonical bundles are trivial or flat; on the cusped m004 one relative class (H2_c = Q) is end data, its integers free topologically.` | 1 |  |
-| `Sealed (B1795; 24b9e468d): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the light members agree within a factor 7 (the shared twist -2*2/5 = 3*2/5 mod 1); the strip's light members come from the Higgs section's near-degeneracy, shared by every sector.` | 1 |  |
-| `Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.` | 1 |  |
-| `Computed and refereed (B1805): z2 is matter parity and survives every flat breaking, but no flat Spin(10) connection gives exactly the SM (U(1)_X stays), localised fields are only 1, 10, 16, 16bar, 45 (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases).` | 1 |  |
-| `Computed and refereed (B1808): one invariant flux with index -3 is (1,1) exactly on a curve; a point needs a second flux with free integers and such points are infinitely many; three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A).` | 1 |  |
-| `Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 164 of 208 cells carry a massless state or rank one (corrected 2026-10-30 at Review 73: 156 before, a mis-sum).` | 1 |  |
-| `Computed and read in the source (B1812): the word's class is DHIZ's E_10; its nested subconfigurations carry su(3)+su(2) ... E8, but su(3)+su(2) and su(5) are hyperbolic of negative trace and cannot collapse (DHIZ-I 7.4), so they are not gauge symmetries at a point; the object fixes only the total class.` | 1 |  |
-| `Sealed cell failed (B1814): p_F(A1) 0.43, p_F(A0) 0.069 > 0.05, robust over half-splits, subsamples and configuration seeds; the test was underpowered (about 19% of A1's own draws are atypical under A0), so the clock is not decided by these numbers. Not a negative for the critical clock or for typicality: D1 and D1h hold, not specific.` | 1 |  |
-| `Computed (B1817, exploratory, data-free): on the 31 slopes of order <= 30 with equal down/lepton second-generation exponents, every converged, offset- and Re tau-independent limit of R2 is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); rerun with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged (equal to N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum (a tuned value).` | 1 |  |
-| `Computed and refereed (B1823; FAIL as drafted, the three blocking findings verified by main): under the plan's sealed reading n = 1-3 fail and n = 4-8 pass only in a CHOSEN normalisation convention for the forms (3n - 2 continuous ratios) with the invariant cross-copy couplings and non-universal counterterms set to zero, and there the plan's free-number measure is 3 (numerically weak); with the convention free the vacuum's rank is 3 on a mirror line and 6 off one for n >= 3 (computed at n = 5, 6, 8); the cusp and a Petersson-type convention lose the small-n heavy regime; the supersymmetric reading needs an H_u whose direction nothing fixes.` | 1 |  |
-| `Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.` | 1 |  |
-| `Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.` | 1 |  |
+| `“other”` | 359 | 343 |
+| `“unrouted-unclassified”` | 168 | 168 |
+| `“kind-mismatch”` | 51 | 4 |
+| `“genericity”` | 38 | 1 |
+| `“no-landing-site”` | 30 | 1 |
+| `“value-numerology”` | 24 | 2 |
+| `“method-limit”` | 13 | 2 |
+| `“incoming-claim-refuted”` | 10 |  |
+| `“zero-intertwiner”` | 10 |  |
+| `“absence-at-depth”` | 10 |  |
+| `“self-audit-retraction”` | 9 |  |
+| `“census-counterexample”` | 8 |  |
+| `“cited-as-sufficient”` | 6 | 1 |
+| `“vacuity”` | 4 |  |
+| `“selection-not-unique”` | 3 |  |
+| `“finite-truncation”` | 2 | 1 |
+| `“rigidity-collapse-with-mechanism”` | 2 |  |
+| `“category-mismatch”` | 2 |  |
+| `“registered-comparison-null”` | 1 |  |
+| `“sealed-one-input-comparison”` | 1 |  |
+| `“sealed-invert-then-match; killed by the chain's own algebra”` | 1 |  |
+| `“group-membership-refutation”` | 1 |  |
+| `“stabilizer-computation”` | 1 |  |
+| `“rank-vs-reality-dichotomy”` | 1 |  |
+| `“cross-family-counterexample”` | 1 |  |
+| `“self-defeating-escape”` | 1 |  |
+| `“ill-posed-conjunction (rarity implies separation)”` | 1 |  |
+| `“enumeration-exhausted”` | 1 |  |
+| `“self-refuted-draft (instrument already existed)”` | 1 |  |
+| `“powered-exclusion (sealed crossing; both sectors powered)”` | 1 |  |
+| `“powered-exclusion (the sealed refresh windows, executed once)”` | 1 |  |
+| `“obstruction-at-construction (sealed cell, pre-declared outcome O3)”` | 1 |  |
+| `“powered-exclusion (sealed inventory-forced candidates; current-release adjudication after a same-day stale-release defect was caught and corrected)”` | 1 |  |
+| `“powered-exclusion (sealed set-level claim, 18 comparisons priced 5.17 bits; version-pinned current release; the delta-independent e-row supplies the power, the delta-free landings pre-graded HIT-SHAPE below success by the sealed R9)”` | 1 |  |
+| `“exhaustive-coset computation with vacuity controls (117 exact checks; independent re-implementation to 1e-53; the seductive invariant killed by its own control)”` | 1 |  |
+| `“non-isolation: the fixed-dimension census {3d: 53, 1d: 42} has NO 0-dimensional fixed set, so every A1 locus meets the E6 locus along a LINE and all localized matter extends along a flat direction (vector-like in 4d)”` | 1 |  |
+| `“Poincare-duality pairing: on a closed oriented 3-manifold the cup pairing lands in the trivial charge and forces h1(D;27) = h1(D;27bar) in every cell -- totals are structurally blind to handedness”` | 1 |  |
+| `“two step-disjoint proofs: structural (B955: H1 = Z cyclic, centralizer contains a maximal torus) AND exhaustive (B1079's census: 15,624 five-torsion elements, nine rows, every row rank 6)”` | 1 |  |
+| `“identical vanishing: every anomaly channel over the derived 16 is zero -- including the global (B-L) pair where the imported 15 gives -1/-1; a layer that vanishes identically cannot supply a ratio (structural, B990's shape)”` | 1 |  |
+| `“type mismatch, structural: arithmetic CS is finite-group-valued by construction (target mu_n(F)^D = (1/n)Z/Z; compact-support etale cohomology, Artin-Verdier/Poitou-Tate) while the object's term is archimedean-analytic (Vol in R; the B8112 Ruelle factors) -- the theory supplies exactly the term proved to vanish (CS = 0 by amphichirality) and lacks entirely the term carried; the negative names its class: THE ARCHIMEDEAN BOUNDARY”` | 1 |  |
+| `“value-numerology guard fired (rung-1 algebraicity, sealed): 0 of 18 SM targets involve a regulator across 216 cells (D<=3, H<=1e6); 384-cell matched null base rate 0.0; the only relations found (delta_CP=4, m_s/m_d=20) are bare integers -- the V-alone tautology, gated out. The value door closes from its LAST route (regulators), matching the period-close V-3; cleaner than V-3 (which had one genuine near-miss)”` | 1 |  |
+| `“structural impossibility, NOT a scan: the 64 (= e6 78 minus the fork's 14-dim su(2)xsu(2)xsu(3)) decomposes by own joint highest-weight enumeration as EXACTLY (spin-2,0;1)+(0,spin-2;1)+(1,1;3)+(1,1;3bar)=5+5+27+27, with INVARIANT CONTENT ZERO -- no invariant direction for any u(1), no spinorial content. Hypercharge cannot organize in the spacetime branch; what lives there is the graviton slot (two color-singlet spin-2) + 54 colored bi-vectors. This is the rep-level restatement of the fork theorem's z=0 (B1138) on the SAME 14-dim subalgebra. The campaign's TENTH honest value-negative and the FIRST closed by structure rather than by search”` | 1 |  |
+| `“density-before-statistics (cc3's instrument -- only density can falsify): the 108 zeros to t=130 are 697x too sparse to be the Laplace/geodesic spectrum (Weyl N(130)=75316). They are the cusp/scattering zeros of the complete Dedekind zeta Lambda_K = zeta*L(chi_-3) of Q(sqrt-3) (exact count 43+65=108) -- what the object's scattering determinant phi(s)=Lambda_K(s-1)/Lambda_K(s) (B739) is built from. GUE-distributed but GENERIC (Montgomery pair-correlation / Katz-Sarnak -- certifies a universality class, discriminates nothing object-specific). NO SM value. The graviton (geodesic Ruelle) and Lane C (cusp L(chi_-3)) meet NOWHERE in the spectrum: the Ruelle Euler product is purely geodesic, L(chi_-3) enters only via the cusped functional equation (cc3 B8130) -- the graviton bridge is dead”` | 1 |  |
+| `“symmetry-cannot-select (both candidates are satisfied by, or conserved along, the admissible class -- a cut of exactly zero and an identically conserved invariant)”` | 1 |  |
+| `“dimension-count (one cubic cuts one of three dimensions; the missing ingredient is the LINEAR cuts, whose absence is separately PROVED by GC-25's every-banked-symmetry-is-trivial-on-B_0)”` | 1 |  |
+| `“trivial-torsor (the freedom exists in general at size |a_1| and is exactly ZERO for this manifold; the group is named, not merely absent)”` | 1 |  |
+| `“premise refuted by population test, with the correlation coming out at the OPPOSITE SIGN to the prediction. Three kill conditions were named in advance; test 3 was decisive. The premise failed first: m003 is not less symmetric than m004 (both |Sym|=8, both amphichiral, same volume), its cusp is the hexagonal omega = e^{i pi/3}, the MOST symmetric torus, and it carries the Z/5 torsion m004 lacks. Census of the first 400 one-cusped orientable manifolds: |Sym|=2 -> 19.5% carry H1 torsion (n=261); |Sym|=4 -> 87.2% (n=133); Pearson r(|Sym|, has-torsion) = +0.50 where the thesis requires NEGATIVE.”` | 1 |  |
+| `“arithmetic disjointness of the ACTION, not of the pieces. Both groups are generic (any three quadratic fields with square discriminant product form a V4 by genus theory; almost every cubic field has Gal = S3), so the isomorphisms alone are the short-catalogue coincidence this programme refuses. The discriminating question is whether S3 permutes V4's involutions FAITHFULLY. Computed: disc K = 6237 = 3^4 * 7 * 11, squarefree part 77, so the S3's own quadratic resolvent is Q(sqrt77) -- NOT among the three faces. The compositum is therefore the DIRECT product V4 x S3 and the S3 acts on the faces TRIVIALLY. Triality requires the semidirect V4 x| S3 = S4. Direct is not semidirect.”` | 1 |  |
+| `“pre-registered expectation falsified by its own run. E-1 predicted at least three MISLABELED items; 46 items were examined with the source opened under amendment A1 and the count is ZERO -- not one over-fence. The two most load-bearing fences are honest FOR A COMPUTED REASON: L15's firewall holds because the complex volume ic(rho) = i(Vol+iCS) in C/4pi^2 Z is DIMENSIONLESS (B151), and the h(27) lead is fenced because B580 PROVES the channel information-free -- the level-1 chord is identical for 4_1, 5_2 and the unknot, and a channel that cannot distinguish the object from the unknot cannot carry its physics. E-2 was falsified separately: C43 repeats B915's own scoping faithfully.”` | 1 |  |
+| `“both killed by paying the price the register itself set, in exact arithmetic, with two-sided controls. (I-16) the discriminant forms are UNEQUAL on every invariant: (Z/2+Z/8) level 16 signature 2 with 16 anyons, against A_3's (Z/4, q=3/8) level 8 signature 3 with 4 anyons -- and unrescuable, since even scalings give |D| in {16,64,144,256} never 4, and Milgram bars signature 3 for any rank-2 positive-definite form. The matched number was real but was not a lattice invariant: 'conductor 8' named the shadow LEVEL (the order Z[2i] has conductor 2, disc -16). (I-15) killed BY COUNTING rather than by failure: the principal sl2's Dynkin index is 156 by three agreeing routes and the map ACTS with remainder identically zero -- but 78 = 3+9+11+15+17+23 makes the gravity sector 3 of 78, so containment holds and identity does not.”` | 1 |  |
+| `“Killed by a THEOREM, not a survey. chi_27 on 2T's seven classes is (27,27,3,0,0,0,0) and chi_78 is (78,78,-2,-3,-3,-3,-3) -- IDENTICAL for both candidates -- and the equality is FORCED: at lambda = +-1 the character is just the dimension (all indices even), and at 2T's remaining classes lambda has order 3, 4 or 6 where chi_Sym^n depends ONLY on n mod m, with the index multisets {16,8,0} and {12,8,4} agreeing mod 3 ([0,1,2]), mod 4 ([0,0,0]) AND mod 6 ([0,2,4]). 2T's eigenvalues are 12th roots of unity and the two decompositions are congruent modulo exactly that. The second half killed by direct computation: neither candidate makes the SO(10) 16 a union of complete sl2 strings, nor the 10+1.”` | 1 |  |
+| `“Killed by a structural theorem that closes the entire class in one line. G2 < SO(7), so every element acts on R^7 with det = +1; and EVERY element of SO(2k+1) has eigenvalue +1 -- the characteristic polynomial is real of ODD degree hence has a real root, non-real eigenvalues occur in conjugate pairs of modulus 1 each contributing +1 to the determinant, the real eigenvalues are +-1 and their product must equal det = +1, and an ODD number of them multiplying to +1 forces at least one to be +1. Hence every nontrivial element of ANY flat G2 orbifold group fixes at least a LINE, and a 0-dimensional fixed set cannot occur for ANY G-hat. B1084's census {3d: 53, 1d: 42} was therefore FORCED by flatness in seven dimensions, not a property of |G-hat| = 96.”` | 1 |  |
+| `“Killed by running the discriminator the row itself had carried unrun. disc -15 has reduced primitive forms {(1,1,4),(2,1,2)} so h(-15) = 2 with class group Z/2, and -15 = (-3)(5) gives t = 2 hence 2^(t-1) = 2 genera: the GENUS GROUP HAS ORDER 2, against Gal's order 4. There is no 'genus V4' for disc -15 -- the object the row NAMES does not exist. The fallback reading (side B = Gal, order 4) rests on an ORDER MATCH, which B1223 forbids as evidence, plus the category mismatch B155 records (the glue is a GL(4,Z)-class invariant 'not forced by the spectral type': lattice data, not field data).”` | 1 |  |
+| `“Run, with a five-way control. On B102's W1/W2 -- the corpus's only non-self-dual rank-3 systems -- the index h1(V) - h1(V*) is ZERO at all 25 valid parameter points per component, and more sharply BOTH h1 VANISH: W1 and W2 are RIGID, carrying no deformations at all, so they cannot furnish a count in either direction. By B1260's own statement ('agree => the wall extends past closedness AND past the abelian sector') the wall extends.”` | 1 |  |
+| `“A parity theorem. |Fix| = |det(A - I)|, independent of the translation part, and det(A-I) = det A - tr A + 1, so finite order in GL(2,Z) gives |Fix| in {0,1,2,3,4} -- 3 IS algebraically reachable, from (det 1, tr -1). The GEOMETRY forbids it: Fix(g) of an orientation-preserving finite-order isometry is closed geodesics (no ends) plus properly embedded geodesic LINES (two ends each), so with exactly ONE cusp every end lands there and |Fix on the cusp| = 2*(#fixed lines), ALWAYS EVEN. Three ends in one cusp is odd.”` | 1 |  |
+| `“Exhaustive scan. Every conjugacy class of subgroup of pi_1(m004) of index 2..10 (snappy covers(d), all 87 covers, 201 cusps), every isometry of every cover (968, both orientations), every cusp each isometry fixes (1,376 (isometry, cusp) pairs), |det(A - I)| of the peripheral matrix; the count would be odd or 2 somewhere if the claim held.”` | 1 |  |
+| `“Two halves, both exact. TOPOLOGICAL: at a fixed point of an orientation-preserving involution with 1-dim fixed set, d sigma = (+1 | -1, -1); a Morse-Bott zero locus and a vortex locus along Fix(sigma) are sigma-EVEN and a sigma-odd potential has normal Hessian rank 2 there (no non-degenerate zero) -- so a charge locus on Fix(theta) forces theta_G u = +u, the theta-even Cartan = Cartan(F_4). SPECTRAL: enumerate the 15 faces of the F_4 chamber (spanned by omega_2^v, omega_4^v, omega_1^v+omega_6^v, omega_3^v+omega_5^v), compute the centraliser, the signed left-handed weight multiset of the (+,+) content (2 x 78_{q>0}; 2 x (27_{q>0} + 27_{q<0}^*)), its chiral dimension, and the SU(3) cubic anomaly per A2 factor and the Witten parity per A1, at two coefficient draws per face (exact rational arithmetic, rational E_6 in R^8).”` | 1 |  |
+| `“The one-cusped index I(V) = t0 - r1 (pre-registered with its domain before evaluation), reduced by Shapiro to I(C_n; Sym^2 rho_geo (x) psi) over the cover's cusp-trivial torsion characters, computed exactly over Q(zeta_12) with SVD as second method: 16/16 zeros on C_3, 45/45 on C_4 -- and two theorems make it identically zero on every cyclic cover: T-GALOIS-SELF-DUALITY (order prime to 3) and T-PERIOD-2-INVERTS-THE-ALEXANDER-MODULE (all orders: the period-2 symmetry is -1 on the Alexander module, so psi o P = psi^-1 and J(psi) = -J(psi)).”` | 1 |  |
+| `“Computation on two benches. The SM seat (sm:B1350 @ 7484ad01): the two V10 classes, their sum and difference integrate to genuine E6 representations (second-order obstruction zero on the V10 plane, formally integrable through order 10 mod two primes, Newton to 1e-68 once B1268's damping is lifted), not self-dual, re-read at 2000 bits with the torus Euler and duality checks. Main (B1322): the four banked 100-digit points re-read with main's own Fox calculus at 110 digits.”` | 1 |  |
+| `“Constructed, not argued. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes over Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters leaves EIGHT members, of which FOUR are one-cusped: s958, v2873, t12833, t12835. The best case therefore EXISTS and IS NAMED -- and every one of the four returns index ZERO. A negative that names its own strongest counterexample and then evaluates it.”` | 1 | 1 |
+| `“The falsifier does not fire, and the arc's positive half is what makes that meaningful: scanning one-cusped census manifolds with honest SL2(F_p) representations twisted by cusp-trivial characters DOES turn up, on the chiral one-cusped m010 (H_1 = Z/6 + Z), sectors with Sym^3 (x) chi where a_0 = a_0* = 0, t_0 = t_0* = 1, r_1 in {0,2} and I = +-1 -- checked exhaustively with independently written self-contained code, relators evaluating to +I so odd Sym^3 is valid and this is NOT the -I trap. So THE VANISHING IS NOT FORMAL (it is not forced by the setup) and the falsifier still does not fire.”` | 1 | 1 |
+| `“ABELIAN OR NOTHING, by Borel density. The object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE -- so its centralizer is contained in the centre of the ambient group. B854's u(1)^4 is the centralizer of 2T, the FINITE McKay image, which is a different object from the geometric holonomy; conflating them is what left the half looking open.”` | 1 | 1 |
+| `“The instrument is itself blind, demonstrated by its own miss: the proposed consolidation had been written THIRTEEN DAYS EARLIER as cloud memo 152 THE_CHAIN_GAP, in answer to the owner asking the same question -- and memo 152 records that it was itself the FOURTH such document, because the answer was spread across three taxonomies none of which walked the chain in order. The instrument's two DECLARED blind regions are stale, so the declaration that bounded its blindness no longer bounds it.”` | 1 | 1 |
+| `“All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.”` | 1 | 1 |
+| `“A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.”` | 1 | 1 |
+| `“Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.”` | 1 | 1 |
+| `“Computed on the paper-verification lane (2026-09-14), L209 WAS NEVER A CHOICE: THE ROW'S SPEC SETTLES IT, THE ROW ; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).”` | 1 |  |
+| `“Computed on the paper-verification lane (2026-09-14), L216 CLOSED NEGATIVE BEFORE THE WINDOW WAS SPENT, THE MIRROR; routed by main at the merge (2026-09-15), the lane's checks re-run in its suite (6611 passed at 6f513e19).”` | 1 |  |
+| `“Sealed census (7f080e49) with a lemma for the sign-character half: every extension character with a class, a basis of its classes and three random combinations, every (theta, psi_Y, W), six sector indices by B1333's several-cusp code; and for a character group of exponent two the dual of the Q sector is the L sector, so their indices are opposite and the absence is forced.”` | 1 |  |
+| `“Sealed run (2f75736d) of the published formula on B1428's boundary classes, after reproducing all sixteen figure-eight entries the source publishes; a fixed reader with six features; the arithmetic set from B1419's census.”` | 1 |  |
+| `“Execution: each script under PYTHONHASHSEED 0-3 in a scratch checkout, output and written files compared with timings removed, three of the written files byte-identical to their tracked copies; two sites settled by reading.”` | 1 |  |
+| `“Proof with exact computation: the class index is invariant under pullback by any symmetry of the manifold and odd under dualising, so a module with V* isomorphic to sigma^*V has index zero; on Ballas' family (rho_q o iota)^* is conjugate to rho_q for every q > 0 (characters on 2046 words in exact rationals; an explicit intertwiner X(q) by a second route), so every reductive module made from rho_q with any central twist has index zero.”` | 1 |  |
+| `“Computation to completion with B1418's own driver, budget lifted: 6 435 modules, none NOT RUN; index multiset 0 x 6003, -1 x 252, +1 x 156, -2 x 24; max |I| = 2 at m = 3; agreement 3 110/3 110 with B1418's banked rows and 6 435/6 435 with the sep16 lane's xB031.”` | 1 |  |
+| `“Tabulation of two banked results (B1438/B1439's own-level census joined to B1479's table), sealed first: 375 of 379 + states and 379 of 379 - states carry a firing module; 49 and 46 a generation-shaped background; on the 34 amphichiral words 32 and 34 fire. Sealed Q1 and Q3 fail, Q2 holds.”` | 1 |  |
+| `“Sealed census (5ef37c794) of the line's interior classes at every sign character of both companions by the multi-cusp instrument of B1492 (controlled on m136 and on a closed manifold with room 1), the second supply n(nu^3 x four) at one representative per D6 x Galois orbit of the 448 order-8 characters of L8a15 with a 24-member equivariance control, the full reading at the nine order-4 orbits, and Theorem C (sm:B1535) for the bound.”` | 1 |  |
+| `“Sealed reading (3c1fadd9e) of the three rank-25 cross terms W_i x W_j with B1492's stacked instrument on the three-cusped L8a15; the pieces of one cross term decomposed (W_i x V_j and V_i x W_j at -1 each, V_i x V_j at 0); the deck symmetry carries the others; control: m136's two members give a cross term of -1.”` | 1 |  |
+| `“Sealed reading (d5b6ca8eb) of the pencil W1(c1 + lambda c2) at six lambda and the basis, at all eight characters, with B1492's stacked instrument and the relator check; the rank-six extension by both classes read for the record (-1).”` | 1 |  |
+| `“Sealed (10786bcca) second-order obstruction and Gauss-Newton fusion (B1486's method) from two seeds, the module read at the arithmetic floor with B1492's two-cusp stacked index; commutant and invariant lines checked.”` | 1 |  |
+| `“Sealed (fee144f6b) census of all 74 signed threads to length eight: every forced kernel (A4 / D4 / V4) built from SnapPy's presentation, the four read at every sign character with B1492's stacked index; the carrier's member read by the extension and index after the census (disclosed).”` | 1 |  |
+| `“Sealed (5d2787345) extension and stacked index (B1492) at every interior class of every member of B1602's census, the floor and ceiling checked on each (442 of 442 hold).”` | 1 |  |
+| `“Sealed (f916539c6) exact reading of B1083's four founding rules and the inverse rule at the common point and on W21's space V: every rule reverses the Hodge-Riemann form and exchanges T and T-bar, every double tick keeps them, so the records' hand is on no rule; the double tick's spectrum on T is {1, omega, omega^2} for every rule, so the spectral detector was vacuous (its column read a rounding artifact, withdrawn).”` | 1 |  |
+| `“Sealed (c5d30c59a) Clebsch-Gordan computation on the weave's matter triplet: the second triplet of T-bar (x) T with its vacuum along RRL's two-dimensional fixed space is a one-parameter family obeying m1 + m2 = m3 exactly, with m1/m3 reaching zero (post-seal scan of 519 841 points).”` | 1 |  |
+| `“Sealed (08b7f328f) decomposition of Sym^2 T under the weave's group and the Takagi masses along the fixed directions of RRL, RL, L, R: no fixed vacuum along RRL; elsewhere rigid degenerate spectra excluded by the two measured splittings.”` | 1 |  |
+| `“Sealed (da3027e03): the residual group at omega (U, the sign, conjugation by a and b) has order 48 and keeps T irreducible; one invariant Dirac direction (three equal masses), no Majorana term.”` | 1 |  |
+| `“Sealed (the B1628 seal commit, before any data read): on NuFIT 6.0 (arXiv:2410.05380, SK-atm variant) TM2's sin^2 t12 = 0.3409 sits 2.74 sigma from the best fit 0.308 and inside the 3-sigma range (0.275-0.345); TM1's 0.3182 sits 0.85 sigma.”` | 1 |  |
+| `“Sealed (B1629's seal commit; the sealed instrument measured only the cusp's representative at infinity, repaired post seal and disclosed): the tick LR is the unique lowest closed geodesic among the 2536 threads of length <= 14 (top sqrt5/2; second sqrt2 -- B482's Markov values); the clock's word read as moves tops at 2.29; under the weave's uniform measure the fraction of letters in a run of length >= k is (k+1)/2^k at every length -- geometric decay, no atom at the cusp. [Audited, B1655: 'not dynamical' for forced data and bounded observables under the uniform word measure, which is not the geodesic flow's.]”` | 1 |  |
+| `“Sealed (B1632): no identification of (S, T) with the lifts satisfies the Mp2(Z) relations exactly; they hold up to scalars (a projective representation); of the six genuine rescalings of (S~, L^-1) allowing weight 3/2, five give chi_{3/2} = 0 and one gives 1. [Audited, B1655: refuted in part by B1634 -- the helper's sign on S~; the lifts form a genuine representation of Mp2(Z).]”` | 1 |  |
+| `“Sealed (B1635): at i the one-dimensional O+ coupling at k = 1 has masses (1, 1/phi, 1/phi^2), and O+ at k = 5 and 9 is non-degenerate (k = 1 mod 4); everything is degenerate at i for k = 3 mod 4, and at omega for every k. [Audited, B1655: 'at omega for every k' holds for the single pieces of T(x)T only; the failed cell is the golden-spectrum discovery.]”` | 1 |  |
+| `“Sealed (B1642): the pairing is an antisymmetric form, so the residue coupling Y = [v]_x with |v_r| = |theta_r^2/(2 pi eta^3)| is antisymmetric; its masses are (1, 1, 0) at every tau and on the tick's axis, the theta-triplet the massless direction; the identities behind it (duplication, residue, characters) hold to 1e-40. [Audited, B1655: a feature -- rank two with an exact massless direction, the pattern a light first generation needs.]”` | 1 |  |
+| `“Sealed (B1644): det Y(a) = (R.R)(a.a)(R.a) and Jacobi's theta_3^4 = theta_2^4 + theta_4^4 makes R isotropic, so the light state is exactly massless for every direction and tau; the golden spectrum is therefore impossible (distance exactly 1/phi^2). [Audited, B1655: a feature -- the exact zero is the leading-order structure a light first generation needs; 'golden impossible' is for the leading-order adjoint-Higgs coupling at one tau.]”` | 1 |  |
+| `“Sealed (B1660, a scoreboard): no fit below 11.07 in any of 54 cells, every cell reliable, all 15 planted worlds recovered; chi2_min 85.35 (same S), 542.8 (S~), 34.40 (conj S on the conjugate pair of lines). The misses are m_s/m_b (too large) and m_mu/m_tau (too small): the data's (m_mu/m_tau)/(m_s/m_b) = 3.14 against 0.63-1.75 at the best points -- a joint conflict, not a ceiling (post-seal: alone the ratio reaches 9-34).”` | 1 |  |
+| `“Sealed (B1663): E_p<f> along the geodesic ray to the walk's limit is 0.5157-0.5185 for p = 0 .. 1/2 (spread 0.0028, each +- 0.0013), while the side (P(xi > 0) = 1 -> 0.53) and the escape rate (0.396 -> 0.101) follow p; post-seal the limit's digits follow the geometric law 2^-k at every p.”` | 1 |  |
+| `“Verified on main (B1668): the web seat's sealed T-low run reproduces bit-identically on a seeded sample and re-scores to 0 passes over 216 000 assignment-cells (SM best chi2 983 per-field / 602 minimal against nulls 267 / 471); the per-field census re-scores to 0 passes at h <= 3 (578 vs 263) and 3 < h <= 6 (28 281 vs 14 483).”` | 1 |  |
+| `“Verified on main (B1672, NEGATIVE): on the puncture module L6 the moves generate 2O (order 48, commutant 2) and RL^2R acts as diag(i,-i,...), not as P_a; irreducibility (order 192) needs P_a, P_b added by hand (the paper's Proposition 24). The 4D index on M_{1,2} is asserted, not computed; the E8 steps are classical branching plus identifications.”` | 1 |  |
+| `“Verified on main (B1673, NEGATIVE): the potential's minimum at omega is the classical torus-determinant extremum (a choice as the modulus's potential); the 12-point orbit is disjoint from W59's eighteen lines; the CP count is a coordinate error (wrong on 72 of 72 points; on the true points 0 of 12 reflection-fixed and the orbit reflection-closed); averaged J is set by the input matrix (~1200x the data); the spectra give ratios near 1/2.”` | 1 |  |
+| `“Sealed (B1696; 1a3f6e2aa): the best of 97 lines x 6 discrete choices misses by a factor 3.56 (five of six ratios about three times too small), chi2 317, and 26.8% of 4000 random hierarchical targets fit as well (the calibration sealed in).”` | 1 |  |
+| `“Sealed (B1698; 9c2a50039): best worst factor 2.33 (alpha = 2/5), but 1.675% of 4000 random hierarchies fit as well against the sealed 1%; chi2 162; on these lines the down quarks and leptons coincide.”` | 1 |  |
+| `“Sealed (B1699; 8ac889d14): the strength has no maximum (it rises to the cusp) and one non-elliptic critical point, a saddle at tau = 0.2754 + 0.9613i; there m2/m3 >= 0.31 in every sector on all 576 lines (worst factor 225; 32% of random hierarchies fit as well).”` | 1 |  |
+| `“Sealed (B1702; f51ab2718): best worst factor 8.9 (2i) and 19.4 (1/2 + sqrt3 i); the up quarks' m2/m3 >= 0.0134 against 0.0037 on every row; 24.7% of random hierarchies fit as well; chi2 593.”` | 1 |  |
+| `“Sealed (B1711; 6fee45181): best worst factor 4.17 at the grid's edge (Im tau 3.5); 9.8% of 4000 random hierarchies fit as well; chi2 321; the down and lepton m2/m3 three to four times too small, the electron lifted four times too far.”` | 1 |  |
+| `“Sealed (B1712; a35ab5642): best worst factor 2.37 (the order-8 line (3/8, 0) at tau = 3.1 i; the down quarks' m2/m3 the worst); 22.45% of 4000 random hierarchies fit as well with the same 51408 rows; chi2 108.5.”` | 1 |  |
+| `“Sealed (B1713; cd294dccf): orders 1-7 best factor 2.33 (order 5, d = e), 14.8% of random hierarchies as good, chi2 162; the CKM moduli within 14% (order 11, tau = 1/2 + 2.8i) but 59.5% of random hierarchical mixings matched as well; masses and mixing together 3.59, 21.6% as good.”` | 1 |  |
+| `“Sealed (B1720; a93ff339a): best 1.80 (L^5RLR^2 at its apex, Im tau 2.993, on the order-28 line it fixes), but 1.65% of 4000 random hierarchies fit as well (bar 1%); chi2 79.4; the mixing generic (32.6%); masses and mixing apart (6.5).”` | 1 |  |
+| `“Sealed (B1722; a9a5d46f9): the measure-weighted mean log-misfit of a thread drawn from each measure is matched by 25.4% (uniform) and 21.0% (action) of random hierarchies; both measures concentrate on short threads whose apexes sit too low; the best class L^5RLR^2 carries 0.27% and 0.65% of them.”` | 1 |  |
+| `“Sealed (B1723; 23f8a7621): over 49 points of the valley (the arcs from i to +-1/2 + (sqrt5/2) i) and 265 lines of order 2-12, the best row puts the six ratios only within a factor 147 (26.6% of random hierarchies as good; chi2 3891); every ratio too large, the median first-to-third ratio 10^-1.1 against 10^-3 to 10^-5: the valley (Im tau <= 1.118) sits too low for the frame's hierarchy.”` | 1 |  |
+| `“Data-free census (B1729), criteria written before the read: on every line of order 5, 10 and 13-30 at two tau of B1726's band (7 344 points), the frame's own R2 = (m2/m3)_e/(m2/m3)_d moves by only +0.15 in median log on 3 | N lines (not systematically; 1.10 needed) and R1 not at all, while at every order the ratios spread over 2-4 units of log.”` | 1 |  |
+| `“Sealed (B1732; 65e6abfce): on B1726's 23 940 points with F_6 in place of DR, the six fit within 1.62 but 7.1% of random hierarchies fit as well under the seat's menu (DR: 0.12%), 2.1% under the covariant menu (DR: 0.41%), every seed above 1%; the nine 35.8%.”` | 1 |  |
+| `“Sealed (B1740; bf0a9a330): on B1726's 23 940 points with F_-2 in place of DR, the light generation is aligned (median |V_ud| 0.996) but the best six is off by 131.7 (m_c/m_t about 130 times measured), chi2_six 3 688, 40.6% of random hierarchies as good.”` | 1 |  |
+| `“Post hoc exploration (B1743, labelled): on B1742's 1 280 points, both horocycles, no pencil row has chi2_nine below 21.67; the best is 41.9 (F6|F-6 at (2/5, 3/10), Im tau 3.3, L_max), against the free direction's 17.3.”` | 1 |  |
+| `“Data-free (B1744): the frame's residue quaternion at the Higgs's twist is even, T0(3w) = T0(-3w) to 3.6e-15, so H_u = H_d and no conjugation arises; on the alpha = 2/5 lines the Higgs's twist is the down quarks' 2w. As a Higgs (post hoc): chi2_nine 493 at best.”` | 1 |  |
+| `“Post hoc (B1746): the rho' generators are e1-led (far from null); the rho' x sgn forms give R and DR (exactly); the three two-dimensional spaces as pencils on B1742's grid reach chi2_nine 41.9, 42.7 and 47.5 at best, none below 21.67.”` | 1 |  |
+| `“Sealed (B1748; 3bf82d0ca): on 26 068 fresh points the four are reached (chi2_heavy 1.16 < 13.28) but 1.54% of random targets from B1741's generators reach as low (bar 1%); coarse 2.07%.”` | 1 |  |
+| `“Data-free (B1789): on the slope-2/5 family the frame's second-generation lepton/down ratio R2 -> 1 at leading order (0.81-1.16 at the band, 1.0000 at Im tau 8); a net hypercharge flux on the fibre is excluded (one zero mode per field forces n = 0); the frame's hypercharge enters only through periodic twists.”` | 1 |  |
+| `“Data-free (B1790): the coupling is complex-bilinear in holomorphic Higgs and matter, so no map of (tau, w) conjugates one relative to the other; seven maps preserve both readings to 7e-12, no line is a flip partner (best 1.52 in ln), no slope reproduces the flipped exponents.”` | 1 |  |
+| `“Data-free (B1791): special points, cusp shapes and thread apexes closed on record; the strength-type functionals rise to the cusp; the scale-free ratios' extrema are line-dependent; the one line-independent height (the rho' Higgs eta^6 dR's Petersson peak, Im tau = 2.8406) is set by the eta-power convention; the one-loop potential trades Im tau for a free ratio.”` | 1 |  |
+| `“Sealed (B1792; 096c97e94): at order 60, six of the eight predicted lines carry and the mirror pair 1/60-7/12 does not (36.34); none of the twelve others carries (R_b holds). The leptons are exactly shift-invariant; the quarks only approximately; m_u/m_t breaks the pair.”` | 1 |  |
+| `“Data-free scan (B1793): every realisable weight keeps R2 in 0.98-1.002 on the lepton lines; on (2/5, 1/5) R2 = R1 = 1 exactly for every profile; no cell of the referee's free-lambda and band scans reaches R2 and R1 both >= 2.5.”` | 1 |  |
+| `“Computed (B1794): every hyperbolic closed filling of m004 has finite H1 (184 slopes; b1 > 0 only at the Sol fibre boundary), and family-wide likewise, so H2(X;Q) = H4(X;Q) = 0: no rational class; canonical bundles are trivial or flat; on the cusped m004 one relative class (H2_c = Q) is end data, its integers free topologically.”` | 1 |  |
+| `“Sealed (B1795; 24b9e468d): det M vanishes for neither vector-like pair on any of 286 lines at three points; on the six's slope-2/5 carriers the light members agree within a factor 7 (the shared twist -2*2/5 = 3*2/5 mod 1); the strip's light members come from the Higgs section's near-degeneracy, shared by every sector.”` | 1 |  |
+| `“Computed and refereed (B1798): the class-choosing null alone passes B1753 at m = 39-41 (m*r 0.0084-0.0088), but the lepton factor c = 3 was chosen on the same data and the null holds it fixed; a c-choosing null gives m*r 0.035-0.079 (B1753) and 0.034-0.082 (B1749); per-cell look counting (m ~ 51) fails B1753 too.”` | 1 |  |
+| `“Computed and refereed (B1805): z2 is matter parity and survives every flat breaking, but no flat Spin(10) connection gives exactly the SM (U(1)_X stays), localised fields are only 1, 10, 16, 16bar, 45 (no 126), so the U(1)_X breaking by a 16 kills the parity; and with real Higgs 10's Witten's conditions have no solution for any exponent-2 F' (none of 31 groups; the H_u self-mass allowed in 440 of 440 cases).”` | 1 |  |
+| `“Computed and refereed (B1808): one invariant flux with index -3 is (1,1) exactly on a curve; a point needs a second flux with free integers and such points are infinitely many; three or more independent fluxes have no common point; the same for the null matrices B_4..B_7 and for every generation number (U in Lambda_A).”` | 1 |  |
+| `“Sealed and refereed (B1811): the best chi2_six is 4521.5 against P1's threshold of 16.75 and 9.8% of random hierarchies do as well on the same menu; the chi2-best row overshoots every ratio by 7.5x to 1739x, as do all 22 non-degenerate cells; the other 164 of 208 cells carry a massless state or rank one (corrected 2026-10-30 at Review 73: 156 before, a mis-sum).”` | 1 |  |
+| `“Computed and read in the source (B1812): the word's class is DHIZ's E_10; its nested subconfigurations carry su(3)+su(2) ... E8, but su(3)+su(2) and su(5) are hyperbolic of negative trace and cannot collapse (DHIZ-I 7.4), so they are not gauge symmetries at a point; the object fixes only the total class.”` | 1 |  |
+| `“Sealed cell failed (B1814): p_F(A1) 0.43, p_F(A0) 0.069 > 0.05, robust over half-splits, subsamples and configuration seeds; the test was underpowered (about 19% of A1's own draws are atypical under A0), so the clock is not decided by these numbers. Not a negative for the critical clock or for typicality: D1 and D1h hold, not specific.”` | 1 |  |
+| `“Computed (B1817, exploratory, data-free): on the 31 slopes of order <= 30 with equal down/lepton second-generation exponents, every converged, offset- and Re tau-independent limit of R2 is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); rerun with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged (equal to N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum (a tuned value).”` | 1 |  |
+| `“Computed and refereed (B1823; FAIL as drafted, the three blocking findings verified by main): under the plan's sealed reading n = 1-3 fail and n = 4-8 pass only in a CHOSEN normalisation convention for the forms (3n - 2 continuous ratios) with the invariant cross-copy couplings and non-universal counterterms set to zero, and there the plan's free-number measure is 3 (numerically weak); with the convention free the vacuum's rank is 3 on a mirror line and 6 off one for n >= 3 (computed at n = 5, 6, 8); the cusp and a Petersson-type convention lose the small-n heavy regime; the supersymmetric reading needs an H_u whose direction nothing fixes.”` | 1 |  |
+| `“Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.”` | 1 |  |
+| `“Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.”` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (530)
 
@@ -150,533 +150,533 @@ its discriminating fact. **B799 resolved all of these** — see `frontier/B799_u
 
 | arc | claim killed | mechanism |
 |---|---|---|
-| `B140` | The B139-G hedge: 'genus ≥ 2 might be where chirality stops being a mere CS-sign' (the chirality firewall migh | `cited-as-sufficient` |
-| `B332` | The founding letters yield particle-dictionary content: the 1/4 volume-suppression fits SM ratios, 16 = 4 + h( | `value-numerology` |
-| `B412` | The single-seed tower is a value hierarchy / runs a scale. Killed and reframed: the tower is a mass-conserving | `kind-mismatch` |
-| `B433` | The 3d-3d route yields physics in-sandbox: internal units/scale and the E6 assembly T[4_1,E6]. The SL(2) calib | `method-limit` |
-| `B435` | The founding inheritance reading: H1(child)=Z/5 is a parent birthmark (golden-prime inheritance). Killed by co | `genericity` |
-| `B579` | The July-14 session handoff's values package: alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8, Koide <-> h(2 | `value-numerology` |
-| `B668` | Cell F1/F-prime: a resurgent S2 (subleading asymptotic coefficient) is extractable from the Z-ladder -- dies a | `kind-mismatch` |
-| `B685` | The W3 sole survivor's last realization, and with it the whole generation leg: a framework-derivable generator | `kind-mismatch` |
-| `B720` | That an external program owns the discrete->continuous coupling bridge and meets the object: renormalization/C | `kind-mismatch` |
-| `B731` | m004 (the figure-eight knot group) is a congruence subgroup / has a finite congruence observer — B731 conclude | `finite-truncation` |
-| `W7-rebase` | The naive Z/3 triality acts on H^1(D;27) giving chat-1's 3+2 generation split | `no-landing-site` |
-| `S019 — Fisher metric on CS level k` | An information-geometry (Fisher-metric) reading of the Chern–Simons level | `method-limit` |
-| `B8` | The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence | `unrouted-unclassified` |
-| `B9` | Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exist | `unrouted-unclassified` |
-| `B15` | The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive  | `unrouted-unclassified` |
-| `B17` | Same-record repetition is parabolic and the LPLP=A spelling is not a new uniqueness theorem under the existing | `unrouted-unclassified` |
-| `B20` | The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-mo | `unrouted-unclassified` |
-| `B22` | The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special  | `unrouted-unclassified` |
-| `B24` | The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underi | `unrouted-unclassified` |
-| `B26` | The proposed period-3 derivation of lambda/h=1 fails: (0,0,c) only half-returns, and the literal T^6 quadratic | `unrouted-unclassified` |
-| `B31` | Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without t | `unrouted-unclassified` |
-| `B32` | The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-s | `unrouted-unclassified` |
-| `B36` | The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambd | `unrouted-unclassified` |
-| `B37` | Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model crite | `unrouted-unclassified` |
-| `B39` | Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone deri | `unrouted-unclassified` |
-| `B40` | Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1 | `unrouted-unclassified` |
-| `B41` | A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays fre | `unrouted-unclassified` |
-| `B42` | Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on | `unrouted-unclassified` |
-| `B46` | The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is  | `unrouted-unclassified` |
-| `B47` | Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 it | `unrouted-unclassified` |
-| `B81` | The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degener | `unrouted-unclassified` |
-| `B82` | The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, qu | `unrouted-unclassified` |
-| `B85` | The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that | `unrouted-unclassified` |
-| `B96` | The Neumann-Zagier volume Hessian at the complete structure is negative definite (0,2), closing the Lorentzian | `unrouted-unclassified` |
-| `B97` | Lorentzian signature is only the sl(2,R) Killing form on the Teichmuller component -- present by construction, | `unrouted-unclassified` |
-| `B98` | The Dickson tower does not appear at the geometric representation, which instead carries the adjoint torsion t | `unrouted-unclassified` |
-| `B99` | At SL(3) too the geometric rep's Jacobian is torsion-type (twisted-Alexander), not the Dickson tower, confirmi | `unrouted-unclassified` |
-| `B108` | The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the ord | `unrouted-unclassified` |
-| `B110` | The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie  | `unrouted-unclassified` |
-| `B114` | The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n | `unrouted-unclassified` |
-| `B116` | The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is down | `unrouted-unclassified` |
-| `B119` | k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the princi | `unrouted-unclassified` |
-| `B126` | Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundar | `unrouted-unclassified` |
-| `B127` | Chirality, topology and arithmetic each kill the physics-bridge claims (K-A through K-E tombstoned); the survi | `unrouted-unclassified` |
-| `B129` | The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so c | `unrouted-unclassified` |
-| `B130` | No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus,  | `unrouted-unclassified` |
-| `B135` | There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matche | `unrouted-unclassified` |
-| `B139` | Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves e | `unrouted-unclassified` |
-| `B143` | The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run t | `unrouted-unclassified` |
-| `B144` | Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L sy | `unrouted-unclassified` |
-| `B145` | Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coinc | `unrouted-unclassified` |
-| `B151` | The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or vo | `unrouted-unclassified` |
-| `B167` | A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves n | `unrouted-unclassified` |
-| `B168` | The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so t | `unrouted-unclassified` |
-| `B170` | The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable f | `unrouted-unclassified` |
-| `B181` | The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition | `unrouted-unclassified` |
-| `B188` | Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, dec | `unrouted-unclassified` |
-| `B189` | The Omega cone's Myrheim-Meyer dimension d~3.94 is a graded-DAG truncation artifact, reproduced by a random nu | `unrouted-unclassified` |
-| `B190` | Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixe | `unrouted-unclassified` |
-| `B202` | No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-g | `unrouted-unclassified` |
-| `B207` | No GUT-style McKay breaking chain exists across the metallic family (E6 and E7 never occur) and the family car | `unrouted-unclassified` |
-| `B213` | The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-ge | `unrouted-unclassified` |
-| `B217` | The Borromean parent gives no geometric origin for the WRT period law: it governs the cusped volume, while the | `unrouted-unclassified` |
-| `B223` | The golden chain has no conserved fermion parity and hence no exact lattice supercharge; its SUSY is emergent/ | `unrouted-unclassified` |
-| `B230` | The ferromagnetic 'silver SUSY' (Z₆ parafermion, c=5/4) is a central-charge coincidence with a different coset | `unrouted-unclassified` |
-| `B231` | The metallic levels k=m²+2 confer no special chain structure for m≥2; the metallic mean equals the spin-½ quan | `unrouted-unclassified` |
-| `B235` | The trace-field ladder closes at {√5,√−3} — ℚ(√−7) never appears (arithmeticity/unimodularity) — and the F₄ fo | `unrouted-unclassified` |
-| `B241` | The Gang–Yonekura twist-knot SU(3) flavor symmetry is not the level-rank gauge SU(3)₂: different type (flavor  | `unrouted-unclassified` |
-| `B244` | SU(3)₂ at level 2 is a single number that does not resolve the three SL(3,ℂ) character-variety components; res | `unrouted-unclassified` |
-| `B246` | There is no symmetric SL(3) volume conjecture: the large-color SU(3) invariant grows at the complement volume  | `unrouted-unclassified` |
-| `B269` | T[4₁]'s single-cusp flavor symmetry is only U(1)⋊ℤ/2=O(2) with no SU(2) enhancement — the abelian wall holds;  | `unrouted-unclassified` |
-| `B280` | 2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus  | `unrouted-unclassified` |
-| `B281` | The figure-eight's character variety does not distinguish E₆ at either the dim H¹=rank or the irreducibility l | `unrouted-unclassified` |
-| `B282` | Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique a | `unrouted-unclassified` |
-| `B283` | The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 199 | `unrouted-unclassified` |
-| `B284` | The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H¹=1) on the canon | `unrouted-unclassified` |
-| `B288` | No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting ari | `unrouted-unclassified` |
-| `B292` | Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling famil | `unrouted-unclassified` |
-| `B298` | The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 a | `unrouted-unclassified` |
-| `B300` | The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two wal | `unrouted-unclassified` |
-| `B308` | The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture,  | `unrouted-unclassified` |
-| `B322` | Null test showed the figure-eight's 6241 filling-invariant ratios match 12 SM parameters at chance level (8/12 | `unrouted-unclassified` |
-| `B329` | 27 restricted to 2T for both natural embeddings gives n1=n2, so hierarchy Level 3 is unreachable by any canoni | `unrouted-unclassified` |
-| `B330` | Across five invariant classes every trace-map-invariant discrete invariant is continuous, a symmetrizable Galo | `unrouted-unclassified` |
-| `B331` | The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and  | `unrouted-unclassified` |
-| `B333` | First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carr | `unrouted-unclassified` |
-| `B336` | √−15 is unreachable: the monodromy and commensurator routes are provably closed and fillings are generically n | `unrouted-unclassified` |
-| `B339` | The CS Dehn-filling flow's sub-leading coefficient is rational 1/24 = 1/(2h(E6)) with all even terms zero — th | `unrouted-unclassified` |
-| `B342` | The object's Z/3 is the (standard) trimaximal symmetry, but its would-be TM2 prediction theta_12 = 35.7 degree | `unrouted-unclassified` |
-| `B349` | Across all covers of the figure-eight through index 6 the census is a canonical multiset with every within-ind | `unrouted-unclassified` |
-| `B350` | The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder |L_2n - 2|, the f | `unrouted-unclassified` |
-| `B355` | With the Weil representation rebuilt at N=3,5,15 on conventions earned from the relations, all 605 gauge-invar | `unrouted-unclassified` |
-| `B369` | Concatenating two metallic blocks into one bundle makes the seam readout identically null in all six words, ex | `unrouted-unclassified` |
-| `B387` | The registered ratio kill fires: the value sector is Par-dark at levels 45 and 135, so the seam/value-sector c | `unrouted-unclassified` |
-| `B388` | No transport law of the registered forms exists for the m=2 singles; the level-45 data is strictly coarser tha | `unrouted-unclassified` |
-| `B395` | The cell-wise sigma-law fails on 140/240 cells while the table-wide mirror holds: the mirror is summation-emer | `unrouted-unclassified` |
-| `B398` | The pre-registered statistics gate fired: the PMNS formula ensemble banks as numerology-class (p ≈ 0.087 raw,  | `unrouted-unclassified` |
-| `B408` | Under the embedding-invariant functional the seam envelope contracts up the tower (ratio 0.765), closing the o | `unrouted-unclassified` |
-| `B413` | The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases), carrying no new arithmetic, so | `unrouted-unclassified` |
-| `B414` | The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q | `unrouted-unclassified` |
-| `B419` | The tracked quantum-invariant destination is a hyperbolic volume with golden-field arithmetic, not an SM struc | `unrouted-unclassified` |
-| `B420` | The L-function track's destination is the genus-character L-factorization of the Hilbert class field of Q(sqrt | `unrouted-unclassified` |
-| `B421` | Tracked blind to all six of its natural behaviours, every destination is named pure mathematics and none clear | `unrouted-unclassified` |
-| `B422` | Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds  | `unrouted-unclassified` |
-| `B429` | First-order rigidity: no first-order deformation of the object's E₆ structure produces spinorial matter — the  | `unrouted-unclassified` |
-| `B430` | Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the | `unrouted-unclassified` |
-| `B438` | The missing foreign control shows 4₁ and 5₂ share both the −283 exit field and the torsion value 121: nothing  | `unrouted-unclassified` |
-| `B441` | The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt | `unrouted-unclassified` |
-| `B442` | The child's composite E6 data is a function of the -283 vacua and commensurability-shared with 5_2, adding no  | `unrouted-unclassified` |
-| `B447` | Every m-scan flag dissolved or laundered — the golden specific-heat offset is reproduced by a parameter-free 8 | `unrouted-unclassified` |
-| `B455` | The homeostasis card dies by exact computation (kappa is conserved along perturbed orbits, so no restoring res | `unrouted-unclassified` |
-| `B457` | Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 s | `unrouted-unclassified` |
-| `B458` | Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 +  | `unrouted-unclassified` |
-| `B461` | No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelat | `unrouted-unclassified` |
-| `B462` | Every exact structure in the figure-eight double launders through a class-generic mechanism (Kirby–Melvin, tra | `unrouted-unclassified` |
-| `B464` | The Relation Campaign closes with no relational invariant escaping class-laundering in any computed cell; two  | `unrouted-unclassified` |
-| `B480` | The QCA/Dirac route is null: Dirac emergence is generic, mass is a tunable alignment angle, and the object's a | `unrouted-unclassified` |
-| `B481` | det(T) = zeta_5 is a float artifact: determinants of the critical-point Weil operators land in the 12th roots  | `unrouted-unclassified` |
-| `B490` | The twelve object-to-Standard-Model refutations are one structural no-go, stated as a single provable theorem  | `unrouted-unclassified` |
-| `B498` | Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness — interaction fixed points birth g | `unrouted-unclassified` |
-| `B512` | The six-cell handoff pass banks two negatives: the McKay ladder to E₆ is golden-specific (silver is a 2-group) | `unrouted-unclassified` |
-| `B529` | The QCA covariance gate fails: iσ_y's exactness is generic spectral degeneracy and the golden-angle coin loses | `unrouted-unclassified` |
-| `B541` | Two independent pre-registered stage-2a designs both return NULL: the 17-component dictionary matches SM const | `unrouted-unclassified` |
-| `B549` | Both time-independent cosmic ratios return null through the frozen Z[tau] machinery against magnitude-matched  | `unrouted-unclassified` |
-| `B551` | The species word is neither a coloring of the Fibonacci word ('aaa' occurs) nor Sturmian (complexity ≈3n), so  | `unrouted-unclassified` |
-| `B559` | The object's chain is critical with log-law entanglement, not area-law, and the figure-eight is a finite-actio | `unrouted-unclassified` |
-| `B563` | The preregistered Planck-ratio retry nulls at every rung (p≈0.53, zero hits), with a plastic-seed control ladd | `unrouted-unclassified` |
-| `B573` | The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grad | `unrouted-unclassified` |
-| `B577` | B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discover | `unrouted-unclassified` |
-| `B592` | The mirror listener is deaf: C-symmetry of the state makes every closed theta-odd amplitude vanish for every g | `unrouted-unclassified` |
-| `B596` | The preregistered prediction fails on the blind sweep: the θ-odd block's clock is not the naive cat-map period | `unrouted-unclassified` |
-| `B597` | Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditiona | `unrouted-unclassified` |
-| `B600` | Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified e | `unrouted-unclassified` |
-| `B602` | No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 an | `unrouted-unclassified` |
-| `B606` | Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49 | `unrouted-unclassified` |
-| `B611` | Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensio | `unrouted-unclassified` |
-| `B612` | The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform qua | `unrouted-unclassified` |
-| `B631` | The 3x3 odd hearing form does not match PMNS at the 1% tier: 0/9 entries within 0.01, D = 0.134, Haar null p = | `unrouted-unclassified` |
-| `B633` | On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): ev | `unrouted-unclassified` |
-| `B639` | The conj∘θ twisted double's 27-object admits no representation-twisted amalgam realization in any tested class | `unrouted-unclassified` |
-| `B643` | The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dim | `unrouted-unclassified` |
-| `B655` | The incoming beta-coefficient claim dies by refutation — its anchors contradict the banked cards (silver condu | `unrouted-unclassified` |
-| `B658` | Both order-4 orientation-reversing families break on the weld double's 27 local system (solution dimension 1,  | `unrouted-unclassified` |
-| `B660` | Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilin | `unrouted-unclassified` |
-| `B671` | The 351-cup solo 3x3 eigenvalue ratios differ by about seven orders of magnitude between the two canonical sca | `unrouted-unclassified` |
-| `B674` | Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m), though its modular lift | `unrouted-unclassified` |
-| `B678` | The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mecha | `unrouted-unclassified` |
-| `B686` | The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every pha | `unrouted-unclassified` |
-| `B697` | The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no object-s | `unrouted-unclassified` |
-| `B713` | Chirality is not in the amphichiral object: triality is gauge-only, sigma_omega vanishes identically, and 'whi | `unrouted-unclassified` |
-| `B716` | Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d fi | `unrouted-unclassified` |
-| `B718` | Beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton — SL(2,F_p) is McKay only at p=3 | `unrouted-unclassified` |
-| `B719` | Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size — an | `unrouted-unclassified` |
-| `B728` | The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object. | `unrouted-unclassified` |
-| `B729` | The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fi | `unrouted-unclassified` |
-| `B735` | The emittance face is real but generic to every cusped hyperbolic manifold, and its flagship cusp-scattering-e | `unrouted-unclassified` |
-| `B737` | Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion),  | `unrouted-unclassified` |
-| `B740` | Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees s | `unrouted-unclassified` |
-| `B743` | Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at  | `unrouted-unclassified` |
-| `B747` | No child re-sees the hearing field: all 78 fillings' invariant trace fields are √5-free — 54 odd-degree slopes | `unrouted-unclassified` |
-| `B748` | None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15) (0/78), co | `unrouted-unclassified` |
-| `B751` | The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0. | `unrouted-unclassified` |
-| `B752` | The qualia handoff dissolves on recompute: its c*phi^-n hits are base-rate by its own decision rule (nulls P=0 | `unrouted-unclassified` |
-| `B754` | Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVA | `unrouted-unclassified` |
-| `B756` | The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product | `unrouted-unclassified` |
-| `B757` | The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy- | `unrouted-unclassified` |
-| `B760` | No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sec | `unrouted-unclassified` |
-| `B772` | Audit of 14 banked negatives: only 4 are load-bearing; the corpus is seam-independent but systematically probe | `unrouted-unclassified` |
-| `B775` | Wave 1 tombstones three courier frameworks and walls the mover door (no object-native outer operation); one se | `unrouted-unclassified` |
-| `B790` | The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and t | `unrouted-unclassified` |
-| `B793` | Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so  | `unrouted-unclassified` |
-| `B802` | Independently reproduced the mechanism behind cc3's B783: reversal leaves the Fibonacci letter frequencies unc | `unrouted-unclassified` |
-| `B808` | A margin-preserving permutation null (10,000 draws) refutes the seat's own proposal that the 35 empty (face, m | `unrouted-unclassified` |
-| `B811` | The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value | `unrouted-unclassified` |
-| `B812` | Ten preregistered physics targets, zero genuine paths: five blocked by M (no computed mechanism, an absence no | `unrouted-unclassified` |
-| `B813` | The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the  | `unrouted-unclassified` |
-| `B814` | The Gang-Kim-Yoon identity has no well-posed statement at the principal E6 point of 4_1: the component is a sm | `unrouted-unclassified` |
-| `B821` | The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted | `unrouted-unclassified` |
-| `B824` | The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character v | `unrouted-unclassified` |
-| `B54` |  | `other` |
-| `B76` |  | `other` |
-| `B93` |  | `other` |
-| `B106` |  | `other` |
-| `B121` |  | `other` |
-| `B136` |  | `other` |
-| `B150` |  | `other` |
-| `B222` |  | `other` |
-| `B251` |  | `other` |
-| `B265` |  | `other` |
-| `B311` |  | `other` |
-| `B327` |  | `other` |
-| `B345` |  | `other` |
-| `B357` |  | `other` |
-| `B380` |  | `other` |
-| `B449` |  | `other` |
-| `B466` |  | `other` |
-| `B518` |  | `other` |
-| `B535` |  | `other` |
-| `B584` |  | `other` |
-| `B675` |  | `other` |
-| `B695` |  | `other` |
-| `B55` |  | `other` |
-| `B78` |  | `other` |
-| `B94` |  | `other` |
-| `B122` |  | `other` |
-| `B137` |  | `other` |
-| `B187` |  | `other` |
-| `B208` |  | `other` |
-| `B236` |  | `other` |
-| `B253` |  | `other` |
-| `B266` |  | `other` |
-| `B293` |  | `other` |
-| `B312` |  | `other` |
-| `B346` |  | `other` |
-| `B358` |  | `other` |
-| `B381` |  | `other` |
-| `B410` |  | `other` |
-| `B451` |  | `other` |
-| `B467` |  | `other` |
-| `B537` |  | `other` |
-| `B560` |  | `other` |
-| `B586` |  | `other` |
-| `B598` |  | `other` |
-| `B651` |  | `other` |
-| `B696` |  | `other` |
-| `B717` |  | `other` |
-| `B764` |  | `other` |
-| `B776` |  | `other` |
-| `B794` |  | `other` |
-| `B61` |  | `other` |
-| `B79` |  | `other` |
-| `B95` |  | `other` |
-| `B109` |  | `other` |
-| `B123` |  | `other` |
-| `B138` |  | `other` |
-| `B152` |  | `other` |
-| `B169` |  | `other` |
-| `B209` |  | `other` |
-| `B224` |  | `other` |
-| `B238` |  | `other` |
-| `B254` |  | `other` |
-| `B267` |  | `other` |
-| `B314` |  | `other` |
-| `B347` |  | `other` |
-| `B359` |  | `other` |
-| `B382` |  | `other` |
-| `B431` |  | `other` |
-| `B453` |  | `other` |
-| `B469` |  | `other` |
-| `B496` |  | `other` |
-| `B522` |  | `other` |
-| `B538` |  | `other` |
-| `B587` |  | `other` |
-| `B599` |  | `other` |
-| `B613` |  | `other` |
-| `B637` |  | `other` |
-| `B795` |  | `other` |
-| `B63` |  | `other` |
-| `B80` |  | `other` |
-| `B124` |  | `other` |
-| `B153` |  | `other` |
-| `B210` |  | `other` |
-| `B226` |  | `other` |
-| `B240` |  | `other` |
-| `B255` |  | `other` |
-| `B268` |  | `other` |
-| `B315` |  | `other` |
-| `B348` |  | `other` |
-| `B363` |  | `other` |
-| `B384` |  | `other` |
-| `B434` |  | `other` |
-| `B454` |  | `other` |
-| `B470` |  | `other` |
-| `B497` |  | `other` |
-| `B524` |  | `other` |
-| `B540` |  | `other` |
-| `B564` |  | `other` |
-| `B588` |  | `other` |
-| `B638` |  | `other` |
-| `B680` |  | `other` |
-| `B700` |  | `other` |
-| `B739` |  | `other` |
-| `B753` |  | `other` |
-| `B766` |  | `other` |
-| `B780` |  | `other` |
-| `B797` |  | `other` |
-| `B839` |  | `other` |
-| `B13` |  | `other` |
-| `B64` |  | `other` |
-| `B112` |  | `other` |
-| `B125` |  | `other` |
-| `B141` |  | `other` |
-| `B155` |  | `other` |
-| `B171` |  | `other` |
-| `B211` |  | `other` |
-| `B227` |  | `other` |
-| `B256` |  | `other` |
-| `B316` |  | `other` |
-| `B366` |  | `other` |
-| `B386` |  | `other` |
-| `B415` |  | `other` |
-| `B436` |  | `other` |
-| `B471` |  | `other` |
-| `B527` |  | `other` |
-| `B589` |  | `other` |
-| `B601` |  | `other` |
-| `B683` |  | `other` |
-| `B702` |  | `other` |
-| `B722` |  | `other` |
-| `B781` |  | `other` |
-| `B14` |  | `other` |
-| `B65` |  | `other` |
-| `B113` |  | `other` |
-| `B142` |  | `other` |
-| `B156` |  | `other` |
-| `B173` |  | `other` |
-| `B196` |  | `other` |
-| `B212` |  | `other` |
-| `B228` |  | `other` |
-| `B242` |  | `other` |
-| `B257` |  | `other` |
-| `B270` |  | `other` |
-| `B301` |  | `other` |
-| `B317` |  | `other` |
-| `B368` |  | `other` |
-| `B416` |  | `other` |
-| `B479` |  | `other` |
-| `B528` |  | `other` |
-| `B543` |  | `other` |
-| `B575` |  | `other` |
-| `B590` |  | `other` |
-| `B617` |  | `other` |
-| `B640` |  | `other` |
-| `B661` |  | `other` |
-| `B684` |  | `other` |
-| `B723` |  | `other` |
-| `B782` |  | `other` |
-| `B67` |  | `other` |
-| `B83` |  | `other` |
-| `B158` |  | `other` |
-| `B174` |  | `other` |
-| `B201` |  | `other` |
-| `B229` |  | `other` |
-| `B258` |  | `other` |
-| `B271` |  | `other` |
-| `B286` |  | `other` |
-| `B302` |  | `other` |
-| `B318` |  | `other` |
-| `B337` |  | `other` |
-| `B351` |  | `other` |
-| `B439` |  | `other` |
-| `B504` |  | `other` |
-| `B544` |  | `other` |
-| `B576` |  | `other` |
-| `B591` |  | `other` |
-| `B603` |  | `other` |
-| `B618` |  | `other` |
-| `B663` |  | `other` |
-| `B704` |  | `other` |
-| `B769` |  | `other` |
-| `B800` |  | `other` |
-| `B16` |  | `other` |
-| `B69` |  | `other` |
-| `B100` |  | `other` |
-| `B115` |  | `other` |
-| `B159` |  | `other` |
-| `B175` |  | `other` |
-| `B215` |  | `other` |
-| `B245` |  | `other` |
-| `B259` |  | `other` |
-| `B273` |  | `other` |
-| `B287` |  | `other` |
-| `B303` |  | `other` |
-| `B319` |  | `other` |
-| `B338` |  | `other` |
-| `B352` |  | `other` |
-| `B370` |  | `other` |
-| `B390` |  | `other` |
-| `B460` |  | `other` |
-| `B507` |  | `other` |
-| `B530` |  | `other` |
-| `B547` |  | `other` |
-| `B620` |  | `other` |
-| `B644` |  | `other` |
-| `B665` |  | `other` |
-| `B689` |  | `other` |
-| `B707` |  | `other` |
-| `B786` |  | `other` |
-| `B830` |  | `other` |
-| `B25` |  | `other` |
-| `B70` |  | `other` |
-| `B86` |  | `other` |
-| `B102` |  | `other` |
-| `B160` |  | `other` |
-| `B176` |  | `other` |
-| `B203` |  | `other` |
-| `B260` |  | `other` |
-| `B274` |  | `other` |
-| `B304` |  | `other` |
-| `B353` |  | `other` |
-| `B371` |  | `other` |
-| `B391` |  | `other` |
-| `B423` |  | `other` |
-| `B509` |  | `other` |
-| `B531` |  | `other` |
-| `B593` |  | `other` |
-| `B607` |  | `other` |
-| `B621` |  | `other` |
-| `B645` |  | `other` |
-| `B670` |  | `other` |
-| `B690` |  | `other` |
-| `B708` |  | `other` |
-| `B746` |  | `other` |
-| `B759` |  | `other` |
-| `B787` |  | `other` |
-| `B27` |  | `other` |
-| `B71` |  | `other` |
-| `B88` |  | `other` |
-| `B103` |  | `other` |
-| `B117` |  | `other` |
-| `B131` |  | `other` |
-| `B147` |  | `other` |
-| `B162` |  | `other` |
-| `B178` |  | `other` |
-| `B204` |  | `other` |
-| `B218` |  | `other` |
-| `B232` |  | `other` |
-| `B248` |  | `other` |
-| `B261` |  | `other` |
-| `B275` |  | `other` |
-| `B289` |  | `other` |
-| `B306` |  | `other` |
-| `B323` |  | `other` |
-| `B340` |  | `other` |
-| `B354` |  | `other` |
-| `B376` |  | `other` |
-| `B393` |  | `other` |
-| `B425` |  | `other` |
-| `B446` |  | `other` |
-| `B485` |  | `other` |
-| `B510` |  | `other` |
-| `B532` |  | `other` |
-| `B552` |  | `other` |
-| `B581` |  | `other` |
-| `B594` |  | `other` |
-| `B608` |  | `other` |
-| `B622` |  | `other` |
-| `B646` |  | `other` |
-| `B691` |  | `other` |
-| `B730` |  | `other` |
-| `B789` |  | `other` |
-| `B803` |  | `other` |
-| `B48` |  | `other` |
-| `B74` |  | `other` |
-| `B89` |  | `other` |
-| `B104` |  | `other` |
-| `B118` |  | `other` |
-| `B134` |  | `other` |
-| `B148` |  | `other` |
-| `B163` |  | `other` |
-| `B179` |  | `other` |
-| `B205` |  | `other` |
-| `B220` |  | `other` |
-| `B233` |  | `other` |
-| `B249` |  | `other` |
-| `B262` |  | `other` |
-| `B276` |  | `other` |
-| `B290` |  | `other` |
-| `B324` |  | `other` |
-| `B377` |  | `other` |
-| `B426` |  | `other` |
-| `B463` |  | `other` |
-| `B533` |  | `other` |
-| `B556` |  | `other` |
-| `B582` |  | `other` |
-| `B595` |  | `other` |
-| `B609` |  | `other` |
-| `B629` |  | `other` |
-| `B647` |  | `other` |
-| `B673` |  | `other` |
-| `B692` |  | `other` |
-| `B714` |  | `other` |
-| `B732` |  | `other` |
-| `B761` |  | `other` |
-| `B773` |  | `other` |
-| `B804` |  | `other` |
-| `B49` |  | `other` |
-| `B75` |  | `other` |
-| `B92` |  | `other` |
-| `B105` |  | `other` |
-| `B149` |  | `other` |
-| `B164` |  | `other` |
-| `B180` |  | `other` |
-| `B206` |  | `other` |
-| `B221` |  | `other` |
-| `B234` |  | `other` |
-| `B250` |  | `other` |
-| `B264` |  | `other` |
-| `B277` |  | `other` |
-| `B291` |  | `other` |
-| `B309` |  | `other` |
-| `B326` |  | `other` |
-| `B344` |  | `other` |
-| `B356` |  | `other` |
-| `B379` |  | `other` |
-| `B402` |  | `other` |
-| `B427` |  | `other` |
-| `B448` |  | `other` |
-| `B488` |  | `other` |
-| `B517` |  | `other` |
-| `B534` |  | `other` |
-| `B557` |  | `other` |
-| `B583` |  | `other` |
-| `B610` |  | `other` |
-| `B649` |  | `other` |
-| `B694` |  | `other` |
-| `B715` |  | `other` |
-| `B733` |  | `other` |
-| `B749` |  | `other` |
-| `B762` |  | `other` |
-| `B774` |  | `other` |
-| `B791` |  | `other` |
-| `B1330` | That the BEST CASE for the chirality index -- a manifold that is simultaneously chiral (so amphichirality cann | `Constructed, not argued. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes over Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters leaves EIGHT members, of which FOUR are one-cusped: s958, v2873, t12833, t12835. The best case therefore EXISTS and IS NAMED -- and every one of the four returns index ZERO. A negative that names its own strongest counterexample and then evaluates it.` |
-| `B1335` | That the chirality falsifier FIRES -- i.e. that a sector with nonzero index I on a chiral one-cusped manifold  | `The falsifier does not fire, and the arc's positive half is what makes that meaningful: scanning one-cusped census manifolds with honest SL2(F_p) representations twisted by cusp-trivial characters DOES turn up, on the chiral one-cusped m010 (H_1 = Z/6 + Z), sectors with Sym^3 (x) chi where a_0 = a_0* = 0, t_0 = t_0* = 1, r_1 in {0,2} and I = +-1 -- checked exhaustively with independently written self-contained code, relators evaluating to +I so odd Sym^3 is valid and this is NOT the -I trap. So THE VANISHING IS NOT FORMAL (it is not forced by the setup) and the falsifier still does not fire.` |
-| `B1336` | That the surviving gauge group -- the centralizer of rho(pi_1), I-26's untouched half -- is nonabelian, or has | `ABELIAN OR NOTHING, by Borel density. The object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE -- so its centralizer is contained in the centre of the ambient group. B854's u(1)^4 is the centralizer of 2T, the FINITE McKay image, which is a different object from the geometric holonomy; conflating them is what left the half looking open.` |
-| `B1338` | That the anti-rediscovery instrument covers the corpus -- i.e. that a proposal it does not flag is actually ne | `The instrument is itself blind, demonstrated by its own miss: the proposed consolidation had been written THIRTEEN DAYS EARLIER as cloud memo 152 THE_CHAIN_GAP, in answer to the owner asking the same question -- and memo 152 records that it was itself the FOURTH such document, because the answer was spread across three taxonomies none of which walked the chain in order. The instrument's two DECLARED blind regions are stale, so the declaration that bounded its blindness no longer bounds it.` |
-| `B1340` | That 'anomaly-free on the 19,624 vacua' is evidence, and that either falsifier this bench proposed for it can  | `All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.` |
-| `B1347` | That the multiplier is the arrow -- that a point's stratum in B497's four-strata classification of End(F_2) de | `A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.` |
-| `B1349` | That the theta-even MIRROR SET -- KIND_TABLE's last licensed coupling row, delivered by B1011 C6 and never dra | `Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.` |
-| `B1907` | That the physical lane's two sealed execution packets be accepted for execution as sealed (P-746): main refuse | `unrouted-unclassified` |
+| `B140` | “The B139-G hedge: 'genus ≥ 2 might be where chirality stops being a mere CS-sign' (the chirality firewall migh” | `“cited-as-sufficient”` |
+| `B332` | “The founding letters yield particle-dictionary content: the 1/4 volume-suppression fits SM ratios, 16 = 4 + h(” | `“value-numerology”` |
+| `B412` | “The single-seed tower is a value hierarchy / runs a scale. Killed and reframed: the tower is a mass-conserving” | `“kind-mismatch”` |
+| `B433` | “The 3d-3d route yields physics in-sandbox: internal units/scale and the E6 assembly T[4_1,E6]. The SL(2) calib” | `“method-limit”` |
+| `B435` | “The founding inheritance reading: H1(child)=Z/5 is a parent birthmark (golden-prime inheritance). Killed by co” | `“genericity”` |
+| `B579` | “The July-14 session handoff's values package: alpha_s(M_Z)=1/(2 phi^3), sin^2 theta13 = 1/phi^8, Koide <-> h(2” | `“value-numerology”` |
+| `B668` | “Cell F1/F-prime: a resurgent S2 (subleading asymptotic coefficient) is extractable from the Z-ladder -- dies a” | `“kind-mismatch”` |
+| `B685` | “The W3 sole survivor's last realization, and with it the whole generation leg: a framework-derivable generator” | `“kind-mismatch”` |
+| `B720` | “That an external program owns the discrete->continuous coupling bridge and meets the object: renormalization/C” | `“kind-mismatch”` |
+| `B731` | “m004 (the figure-eight knot group) is a congruence subgroup / has a finite congruence observer — B731 conclude” | `“finite-truncation”` |
+| `W7-rebase` | “The naive Z/3 triality acts on H^1(D;27) giving chat-1's 3+2 generation split” | `“no-landing-site”` |
+| `S019 — Fisher metric on CS level k` | “An information-geometry (Fisher-metric) reading of the Chern–Simons level” | `“method-limit”` |
+| `B8` | “The near-miss m/g is symbolically shown to equal sqrt(5/(4 log phi)), not phi, so the golden-ratio coincidence” | `“unrouted-unclassified”` |
+| `B9` | “Fibonacci fusion and the cubic vertex only share the polynomial tau^2-tau-1; no fusion-to-scattering map exist” | `“unrouted-unclassified”` |
+| `B15` | “The proposed Fibonacci coupling lambda=sqrt(5) is rejected under the Fricke-Vogt normalization, and the naive ” | `“unrouted-unclassified”` |
+| `B17` | “Same-record repetition is parabolic and the LPLP=A spelling is not a new uniqueness theorem under the existing” | `“unrouted-unclassified”` |
+| `B20` | “The trace map has invariant-memory and feedback but never reads its invariant, failing the operational self-mo” | `“unrouted-unclassified”` |
+| `B22` | “The -1 parity eigenvalue is generic for all orientation-reversing symmetric-square lifts, killing any special ” | `“unrouted-unclassified”` |
+| `B24` | “The Fibonacci anyon level k=3 is not selected by the framework; the shift from discriminant 5 to k+2 is underi” | `“unrouted-unclassified”` |
+| `B26` | “The proposed period-3 derivation of lambda/h=1 fails: (0,0,c) only half-returns, and the literal T^6 quadratic” | `“unrouted-unclassified”` |
+| `B31` | “Projective period-3 return holds for every c, so primitive return alone selects no invariant surface without t” | `“unrouted-unclassified”` |
+| `B32` | “The A1-A7-plus-exchange chain does not select I=1/4; the missing ingredient is isolated as the A-sector self-s” | `“unrouted-unclassified”` |
+| `B36` | “The Fibonacci renormalization route only reuses the B26 selector; it yields no independent derivation of lambd” | `“unrouted-unclassified”` |
+| `B37` | “Under fixed operational definitions the trace map has feedback and an invariant but fails the self-model crite” | `“unrouted-unclassified”` |
+| `B39` | “Tangent-lattice integrality leaves an infinite discrete family c^2=(m+2)/4; the projective quotient alone deri” | `“unrouted-unclassified”` |
+| `B40` | “Audit finds S1 is not derived from the A1-A7 core: it is conditional on a newly named, underived assumption T1” | `“unrouted-unclassified”` |
+| `B41` | “A bounded projective census shows the B26 period-3 orbit is the simplest one-parameter family, but c stays fre” | `“unrouted-unclassified”` |
+| `B42` | “Natural variational quantities of the tangent return (eigenvalue, torsion proxy, discriminant) are monotone on” | `“unrouted-unclassified”` |
+| `B46` | “The selected quadratic t^2-3t+1 divides the SL(3) trace-lift Jacobian while t^2-4t+1 does not: higher rank is ” | `“unrouted-unclassified”` |
+| `B47` | “Ledger verdict: lambda/h=1 is conditional, not derived; the strongest honest statement is T1 -> S1, with T1 it” | `“unrouted-unclassified”` |
+| `B81` | “The CRT/F_p first-principles route is blocked at SL(5): char(DT_0) scatters across seeds at the doubly-degener” | `“unrouted-unclassified”` |
+| `B82` | “The physics chapter is formally closed: every attempted bridge (anyons, quasicrystals, j=1728, higher-spin, qu” | `“unrouted-unclassified”` |
+| `B85` | “The Lambda^2-V representation shortcut is killed: the char(M^2) double multiplicity is a root-system fact that” | `“unrouted-unclassified”` |
+| `B96` | “The Neumann-Zagier volume Hessian at the complete structure is negative definite (0,2), closing the Lorentzian” | `“unrouted-unclassified”` |
+| `B97` | “Lorentzian signature is only the sl(2,R) Killing form on the Teichmuller component -- present by construction,” | `“unrouted-unclassified”` |
+| `B98` | “The Dickson tower does not appear at the geometric representation, which instead carries the adjoint torsion t” | `“unrouted-unclassified”` |
+| `B99` | “At SL(3) too the geometric rep's Jacobian is torsion-type (twisted-Alexander), not the Dickson tower, confirmi” | `“unrouted-unclassified”` |
+| `B108` | “The opposition involution theta=-w0 cannot predict the degree=rank scalars: it only sends c to 1/c, so the ord” | `“unrouted-unclassified”` |
+| `B110` | “The off-locus irreducible sector is empty for the figure-eight at SL(3): all three irreducible components lie ” | `“unrouted-unclassified”` |
+| `B114` | “The exponent k is not a covering degree: the full-spectrum meridian-to-longitude covering degree is about k^(n” | `“unrouted-unclassified”` |
+| `B116` | “The theta-split equals the tower only through n=5 and diverges at n=6, so B112's all-n sign-half claim is down” | `“unrouted-unclassified”` |
+| `B119` | “k=n is not forced by M^k centrality; the positive peripheral exponent mechanism does not close, and the princi” | `“unrouted-unclassified”` |
+| `B126` | “Metallic rigidity propagates exactly two floors and then provably stops: no 3-manifold supplies the 2d-boundar” | `“unrouted-unclassified”` |
+| `B127` | “Chirality, topology and arithmetic each kill the physics-bridge claims (K-A through K-E tombstoned); the survi” | `“unrouted-unclassified”` |
+| `B129` | “The metallic SL(3) tower is SL(2) arithmetic in SL(3) clothing with zero fixed points escaping Q(sqrt-3), so c” | `“unrouted-unclassified”` |
+| `B130` | “No trace-ring invariant is both discretely multivalued and unsymmetrizable: kappa is free on the fixed locus, ” | `“unrouted-unclassified”` |
+| `B135` | “There is no metallic family of Lee-Yang realizations since only m=1 has lambda<2, and the golden bridge matche” | `“unrouted-unclassified”` |
+| `B139` | “Multiplicity cannot supply the SM's simple non-abelian factor or irreducible chirality: the mirror preserves e” | `“unrouted-unclassified”` |
+| `B143` | “The algebraic trace venue is structurally mirror-blind, so the chirality-of-interactions campaign cannot run t” | `“unrouted-unclassified”` |
+| `B144` | “Cusp-glued composites are mirror-closed (verified GL(2,Z) identity), so seed-heterogeneity cannot break R-L sy” | `“unrouted-unclassified”` |
+| `B145` | “Chirality cannot be forced: over the catalogued once-punctured-torus bundles the canonical/minimal locus coinc” | `“unrouted-unclassified”` |
+| `B151` | “The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or vo” | `“unrouted-unclassified”` |
+| `B167` | “A conserved dimensionless first integral cannot source an internal scale; the five-door case analysis leaves n” | `“unrouted-unclassified”` |
+| `B168` | “The Omega accretion is a genuine non-i.i.d. generative process, but every emergent rate is dimensionless, so t” | `“unrouted-unclassified”` |
+| `B170` | “The Machian 'external dissolves into self-referential' leap is undecidable from within and its only testable f” | `“unrouted-unclassified”` |
+| `B181` | “The criticality scale-door is closed: the metallic chain is permanently critical (zero Lyapunov, no transition” | `“unrouted-unclassified”` |
+| `B188` | “Criticality gives no slow dissipative relaxation: the metallic Liouvillian gap matches the extended chain, dec” | `“unrouted-unclassified”` |
+| `B189` | “The Omega cone's Myrheim-Meyer dimension d~3.94 is a graded-DAG truncation artifact, reproduced by a random nu” | `“unrouted-unclassified”` |
+| `B190` | “Iterated trace-ring gluing never converges to a forced-unique value: open forks grow, closed-loop genuine fixe” | `“unrouted-unclassified”` |
+| `B202` | “No silver SL(3) component carries a tidy A-variety relation [A,B]=c*mu^k, so the figure-eight's M^3=L is non-g” | `“unrouted-unclassified”` |
+| `B207` | “No GUT-style McKay breaking chain exists across the metallic family (E6 and E7 never occur) and the family car” | `“unrouted-unclassified”` |
+| `B213` | “The Higgs-side special geometry of the figure-eight character variety (curve 40a1) is entirely O(1) and BSD-ge” | `“unrouted-unclassified”` |
+| `B217` | “The Borromean parent gives no geometric origin for the WRT period law: it governs the cusped volume, while the” | `“unrouted-unclassified”` |
+| `B223` | “The golden chain has no conserved fermion parity and hence no exact lattice supercharge; its SUSY is emergent/” | `“unrouted-unclassified”` |
+| `B230` | “The ferromagnetic 'silver SUSY' (Z₆ parafermion, c=5/4) is a central-charge coincidence with a different coset” | `“unrouted-unclassified”` |
+| `B231` | “The metallic levels k=m²+2 confer no special chain structure for m≥2; the metallic mean equals the spin-½ quan” | `“unrouted-unclassified”` |
+| `B235` | “The trace-field ladder closes at {√5,√−3} — ℚ(√−7) never appears (arithmeticity/unimodularity) — and the F₄ fo” | `“unrouted-unclassified”` |
+| `B241` | “The Gang–Yonekura twist-knot SU(3) flavor symmetry is not the level-rank gauge SU(3)₂: different type (flavor ” | `“unrouted-unclassified”` |
+| `B244` | “SU(3)₂ at level 2 is a single number that does not resolve the three SL(3,ℂ) character-variety components; res” | `“unrouted-unclassified”` |
+| `B246` | “There is no symmetric SL(3) volume conjecture: the large-color SU(3) invariant grows at the complement volume ” | `“unrouted-unclassified”` |
+| `B269` | “T[4₁]'s single-cusp flavor symmetry is only U(1)⋊ℤ/2=O(2) with no SU(2) enhancement — the abelian wall holds; ” | `“unrouted-unclassified”` |
+| `B280` | “2T spin-3/2 branches as 2+2 (two distinct doublets), not triplet+singlet, killing the 'three generations plus ” | `“unrouted-unclassified”` |
+| `B281` | “The figure-eight's character variety does not distinguish E₆ at either the dim H¹=rank or the irreducibility l” | `“unrouted-unclassified”` |
+| `B282` | “Almost everything in the E₆ programme is generic to any hyperbolic knot; only the arithmetic atom (4₁ unique a” | `“unrouted-unclassified”` |
+| `B283` | “The arithmetic self-generation vein collapses: the WRT period law is generic to all torus bundles (Jeffrey 199” | `“unrouted-unclassified”` |
+| `B284` | “The exact finite-image 2T representation of the figure-eight is a generic smooth point (dim H¹=1) on the canon” | `“unrouted-unclassified”` |
+| `B288` | “No closed hyperbolic Dehn filling of the figure-eight re-sees ℚ(√−3) or is arithmetic, so the E₆-selecting ari” | `“unrouted-unclassified”` |
+| `B292` | “Of the three multiplicity candidates only the fiber Σ_{1,1} is a surface; the metallic tower and filling famil” | `“unrouted-unclassified”` |
+| `B298` | “The figure-eight cannot force three generations: its degree-2 trace field ℚ(√−3) gives multiplicities 1 or 2 a” | `“unrouted-unclassified”` |
+| `B300` | “The three-seat brave SM-from-axiom attempt found no new forcing; the eight external inputs compress to two wal” | `“unrouted-unclassified”` |
+| `B308` | “The inter-generation Yukawa hierarchy is not forced by the object: E6 fixes the coupling but not the texture, ” | `“unrouted-unclassified”` |
+| `B322` | “Null test showed the figure-eight's 6241 filling-invariant ratios match 12 SM parameters at chance level (8/12” | `“unrouted-unclassified”` |
+| `B329` | “27 restricted to 2T for both natural embeddings gives n1=n2, so hierarchy Level 3 is unreachable by any canoni” | `“unrouted-unclassified”` |
+| `B330` | “Across five invariant classes every trace-map-invariant discrete invariant is continuous, a symmetrizable Galo” | `“unrouted-unclassified”` |
+| `B331` | “The generation-permuting order-3 element is elliptic and conjugate to its inverse, forcing chi_27(g) real and ” | `“unrouted-unclassified”` |
+| `B333` | “First-class NULL: the value's home is the compositum Q(sqrt-15), but the seam's arithmetic is generic and carr” | `“unrouted-unclassified”` |
+| `B336` | “√−15 is unreachable: the monodromy and commensurator routes are provably closed and fillings are generically n” | `“unrouted-unclassified”` |
+| `B339` | “The CS Dehn-filling flow's sub-leading coefficient is rational 1/24 = 1/(2h(E6)) with all even terms zero — th” | `“unrouted-unclassified”` |
+| `B342` | “The object's Z/3 is the (standard) trimaximal symmetry, but its would-be TM2 prediction theta_12 = 35.7 degree” | `“unrouted-unclassified”` |
+| `B349` | “Across all covers of the figure-eight through index 6 the census is a canonical multiset with every within-ind” | `“unrouted-unclassified”` |
+| `B350` | “The cyclic-cover abelian torsion class carries no forced choice: orders are the Lucas ladder |L_2n - 2|, the f” | `“unrouted-unclassified”` |
+| `B355` | “With the Weil representation rebuilt at N=3,5,15 on conventions earned from the relations, all 605 gauge-invar” | `“unrouted-unclassified”` |
+| `B369` | “Concatenating two metallic blocks into one bundle makes the seam readout identically null in all six words, ex” | `“unrouted-unclassified”` |
+| `B387` | “The registered ratio kill fires: the value sector is Par-dark at levels 45 and 135, so the seam/value-sector c” | `“unrouted-unclassified”` |
+| `B388` | “No transport law of the registered forms exists for the m=2 singles; the level-45 data is strictly coarser tha” | `“unrouted-unclassified”` |
+| `B395` | “The cell-wise sigma-law fails on 140/240 cells while the table-wide mirror holds: the mirror is summation-emer” | `“unrouted-unclassified”` |
+| `B398` | “The pre-registered statistics gate fired: the PMNS formula ensemble banks as numerology-class (p ≈ 0.087 raw, ” | `“unrouted-unclassified”` |
+| `B408` | “Under the embedding-invariant functional the seam envelope contracts up the tower (ratio 0.765), closing the o” | `“unrouted-unclassified”` |
+| `B413` | “The tower-measure is flat (|L(chi)|=1/4 for every character, Gauss-sum phases), carrying no new arithmetic, so” | `“unrouted-unclassified”` |
+| `B414` | “The Z/3-generations reading fails its privilege test: the object's core multiplicity is Z/2 (class number of Q” | `“unrouted-unclassified”` |
+| `B419` | “The tracked quantum-invariant destination is a hyperbolic volume with golden-field arithmetic, not an SM struc” | `“unrouted-unclassified”` |
+| `B420` | “The L-function track's destination is the genus-character L-factorization of the Hilbert class field of Q(sqrt” | `“unrouted-unclassified”` |
+| `B421` | “Tracked blind to all six of its natural behaviours, every destination is named pure mathematics and none clear” | `“unrouted-unclassified”` |
+| `B422` | “Under the Z/2 mirror frame the golden and Mercedes sectors stay exactly orthogonal, so the content wall holds ” | `“unrouted-unclassified”` |
+| `B429` | “First-order rigidity: no first-order deformation of the object's E₆ structure produces spinorial matter — the ” | `“unrouted-unclassified”` |
+| `B430` | “Fermionic sl2 embeddings exist in E6's landscape, but the object forces only the principal bosonic one, so the” | `“unrouted-unclassified”` |
+| `B438` | “The missing foreign control shows 4₁ and 5₂ share both the −283 exit field and the torsion value 121: nothing ” | `“unrouted-unclassified”` |
+| `B441` | “The child 4_1(5,1)'s WRT field is exactly Q(zeta_r), identical to the surgery skeleton at every r, so its sqrt” | `“unrouted-unclassified”` |
+| `B442` | “The child's composite E6 data is a function of the -283 vacua and commensurability-shared with 5_2, adding no ” | `“unrouted-unclassified”` |
+| `B447` | “Every m-scan flag dissolved or laundered — the golden specific-heat offset is reproduced by a parameter-free 8” | `“unrouted-unclassified”` |
+| `B455` | “The homeostasis card dies by exact computation (kappa is conserved along perturbed orbits, so no restoring res” | `“unrouted-unclassified”` |
+| `B457` | “Both preregistered gates fail on the frozen ethogram catalog (EZ-2: 6 hits vs null mean 4.0, p=0.168; 0 of 3 s” | `“unrouted-unclassified”` |
+| `B458` | “Every non-geometric SL(3) component of the figure-eight, including the Q(sqrt-7) pair, has complex volume 0 + ” | `“unrouted-unclassified”` |
+| `B461` | “No Brunnian-specific manifold invariant emerged for the Borromean rings, and Q(sqrt(-7)) appears on an unrelat” | `“unrouted-unclassified”` |
+| `B462` | “Every exact structure in the figure-eight double launders through a class-generic mechanism (Kirby–Melvin, tra” | `“unrouted-unclassified”` |
+| `B464` | “The Relation Campaign closes with no relational invariant escaping class-laundering in any computed cell; two ” | `“unrouted-unclassified”` |
+| `B480` | “The QCA/Dirac route is null: Dirac emergence is generic, mass is a tunable alignment angle, and the object's a” | `“unrouted-unclassified”` |
+| `B481` | “det(T) = zeta_5 is a float artifact: determinants of the critical-point Weil operators land in the 12th roots ” | `“unrouted-unclassified”` |
+| `B490` | “The twelve object-to-Standard-Model refutations are one structural no-go, stated as a single provable theorem ” | `“unrouted-unclassified”` |
+| `B498` | “Depth-3 mixed words refute both the golden monopoly and cyclotomic tameness — interaction fixed points birth g” | `“unrouted-unclassified”` |
+| `B512` | “The six-cell handoff pass banks two negatives: the McKay ladder to E₆ is golden-specific (silver is a 2-group)” | `“unrouted-unclassified”` |
+| `B529` | “The QCA covariance gate fails: iσ_y's exactness is generic spectral degeneracy and the golden-angle coin loses” | `“unrouted-unclassified”` |
+| `B541` | “Two independent pre-registered stage-2a designs both return NULL: the 17-component dictionary matches SM const” | `“unrouted-unclassified”` |
+| `B549` | “Both time-independent cosmic ratios return null through the frozen Z[tau] machinery against magnitude-matched ” | `“unrouted-unclassified”` |
+| `B551` | “The species word is neither a coloring of the Fibonacci word ('aaa' occurs) nor Sturmian (complexity ≈3n), so ” | `“unrouted-unclassified”` |
+| `B559` | “The object's chain is critical with log-law entanglement, not area-law, and the figure-eight is a finite-actio” | `“unrouted-unclassified”` |
+| `B563` | “The preregistered Planck-ratio retry nulls at every rung (p≈0.53, zero hits), with a plastic-seed control ladd” | `“unrouted-unclassified”` |
+| `B573` | “The handoff's step 8 is refuted and its proposed check ill-posed: the principal sl2 preserves no Spin(10) grad” | `“unrouted-unclassified”` |
+| `B577` | “B575/B576's core results were already banked weeks earlier (B265/B352): a non-recall failure, not new discover” | `“unrouted-unclassified”` |
+| `B592` | “The mirror listener is deaf: C-symmetry of the state makes every closed theta-odd amplitude vanish for every g” | `“unrouted-unclassified”` |
+| `B596` | “The preregistered prediction fails on the blind sweep: the θ-odd block's clock is not the naive cat-map period” | `“unrouted-unclassified”` |
+| `B597` | “Distinct theta-odd widths and theta-even torsions structurally exclude the free-rotation outcome C (conditiona” | `“unrouted-unclassified”` |
+| `B600` | “Z₄ = Tr ρ₄(A₁) = 0 and Tr(Θρ₄) = 0 at E₆ level 4 (κ=16), reproduced in an independent pipeline and certified e” | `“unrouted-unclassified”` |
+| `B602` | “No declared structural normalization carries even the phase — all X1 cells fail with residual exactly −π/15 an” | `“unrouted-unclassified”` |
+| `B606` | “Outcome D-nf: no torsion-power normalization can close the value gauge, since tau_4's 97 and tau_8's 31*607*49” | `“unrouted-unclassified”` |
+| `B611` | “Both sealed predictions failed: amphichirality-implies-conjugation-closure breaks on a degenerate one-dimensio” | `“unrouted-unclassified”` |
+| `B612` | “The sealed per-level pairing biconditional FAILED (chiral RRLLL closes at kappa=6); only the level-uniform qua” | `“unrouted-unclassified”` |
+| `B631` | “The 3x3 odd hearing form does not match PMNS at the 1% tier: 0/9 entries within 0.01, D = 0.134, Haar null p =” | `“unrouted-unclassified”` |
+| `B633` | “On scheme-stated, uncertainty-correct inputs the last SM residual dissolves (p = 0.078 becomes 0.145-0.62): ev” | `“unrouted-unclassified”` |
+| `B639` | “The conj∘θ twisted double's 27-object admits no representation-twisted amalgam realization in any tested class” | `“unrouted-unclassified”` |
+| `B643` | “The amphichiral flip is not a symmetry of the weld double: no invertible global companion exists (solution dim” | `“unrouted-unclassified”` |
+| `B655` | “The incoming beta-coefficient claim dies by refutation — its anchors contradict the banked cards (silver condu” | `“unrouted-unclassified”` |
+| `B658` | “Both order-4 orientation-reversing families break on the weld double's 27 local system (solution dimension 1, ” | `“unrouted-unclassified”` |
+| `B660` | “Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilin” | `“unrouted-unclassified”` |
+| `B671` | “The 351-cup solo 3x3 eigenvalue ratios differ by about seven orders of magnitude between the two canonical sca” | `“unrouted-unclassified”` |
+| `B674` | “Route 1 misses: the Γ(5) twisted tower is trace-silent (tr(A₁*|H¹(Symᵐ))=0 for all m), though its modular lift” | `“unrouted-unclassified”` |
+| `B678` | “The full 8x12 ladder census shows no growth in any of 96 cells, refuting chat1's amphichiral-suppression mecha” | `“unrouted-unclassified”` |
+| `B686` | “The 'Koide is Eisenstein arithmetic' claim is firewalled: Q = 2/3 is a parametrization tautology for every pha” | `“unrouted-unclassified”` |
+| `B697` | “The golden's appearance in the zeta-5 Habiro evaluation is a tautological Gaussian period carrying no object-s” | `“unrouted-unclassified”` |
+| `B713` | “Chirality is not in the amphichiral object: triality is gauge-only, sigma_omega vanishes identically, and 'whi” | `“unrouted-unclassified”` |
+| `B716` | “Time, 4-dimensionality and Lorentzian signature are all the observer's: no canonical arrow, no canonical 4d fi” | `“unrouted-unclassified”` |
+| `B718` | “Beyond H1=Z/p the child is arithmetically generic and authors no ADE skeleton — SL(2,F_p) is McKay only at p=3” | `“unrouted-unclassified”` |
+| `B719` | “Multiplicity/scale is the observer's — every cover's volume is exactly degree·base with no preferred size — an” | `“unrouted-unclassified”` |
+| `B728` | “The Stokes resummation does NOT close the phase: zeta_5 is impossible in the resummed object.” | `“unrouted-unclassified”` |
+| `B729` | “The Born amplitude field Q(sqrt(2+phi)) is not native: every native invariant yields only the two quadratic fi” | `“unrouted-unclassified”` |
+| `B735` | “The emittance face is real but generic to every cusped hyperbolic manifold, and its flagship cusp-scattering-e” | `“unrouted-unclassified”` |
+| `B737` | “Candidate Zero dies at the crux: the ζ_K in the object's voice is the field's (vacuity plus object-deletion), ” | `“unrouted-unclassified”` |
+| `B740` | “Recomputed across all 78 hyperbolic fillings by two seats and two methods: no closed filling of m004 re-sees s” | `“unrouted-unclassified”` |
+| `B743` | “Zero gated hits: the object's whole real algebraic tower and canonical analytic values contain no SM ratio at ” | `“unrouted-unclassified”` |
+| `B747` | “No child re-sees the hearing field: all 78 fillings' invariant trace fields are √5-free — 54 odd-degree slopes” | `“unrouted-unclassified”` |
+| `B748` | “None of the 78 hyperbolic fillings in the |p|,q <= 8 child grid re-sees the meeting face Q(sqrt-15) (0/78), co” | `“unrouted-unclassified”` |
+| `B751` | “The 1/(2phi^3) = alpha_s identification is NOT EARNED: the per-letter assignment is constructed and drops a 0.” | `“unrouted-unclassified”` |
+| `B752` | “The qualia handoff dissolves on recompute: its c*phi^-n hits are base-rate by its own decision rule (nulls P=0” | `“unrouted-unclassified”` |
+| `B754` | “Re-adjudicating 19 banked negatives against the frozen spectral surface gives 17 KILL-EXTENDS, 2 FACE-IRRELEVA” | `“unrouted-unclassified”` |
+| `B756` | “The general '5-inert and fibered implies golden' reading dies on five exact counterexamples; the Euler-product” | `“unrouted-unclassified”` |
+| `B757` | “The two Z/3's are never the same element (deck reps are torsion-free), and the mod-4 coincidence is conjugacy-” | `“unrouted-unclassified”` |
+| `B760` | “No object-native operation (Galois, MCG powers, C, τ, coupling sign) canonically signs the theta-odd chord sec” | `“unrouted-unclassified”` |
+| `B772` | “Audit of 14 banked negatives: only 4 are load-bearing; the corpus is seam-independent but systematically probe” | `“unrouted-unclassified”` |
+| `B775` | “Wave 1 tombstones three courier frameworks and walls the mover door (no object-native outer operation); one se” | `“unrouted-unclassified”` |
+| `B790` | “The Maass handoff's thesis is unsupported: LMFDB holds no Bianchi Laplace data, three tests are vacuous, and t” | `“unrouted-unclassified”` |
+| `B793` | “Gate 8R2-A is blocked: the B788 solver is bounded refinement inside a supplied window, cannot count roots, so ” | `“unrouted-unclassified”` |
+| `B802` | “Independently reproduced the mechanism behind cc3's B783: reversal leaves the Fibonacci letter frequencies unc” | `“unrouted-unclassified”` |
+| `B808` | “A margin-preserving permutation null (10,000 draws) refutes the seat's own proposal that the 35 empty (face, m” | `“unrouted-unclassified”` |
+| `B811` | “The owed promotion gate KILLED H128 (alpha_s, on kind: a scale-free object cannot emit a scale-dependent value” | `“unrouted-unclassified”` |
+| `B812` | “Ten preregistered physics targets, zero genuine paths: five blocked by M (no computed mechanism, an absence no” | `“unrouted-unclassified”` |
+| `B813` | “The direct CS(m004)=θ_QCD dictionary is refuted on type: a fixed PSL(2,ℂ) geometric invariant cannot fill the ” | `“unrouted-unclassified”` |
+| `B814` | “The Gang-Kim-Yoon identity has no well-posed statement at the principal E6 point of 4_1: the component is a sm” | `“unrouted-unclassified”` |
+| `B821` | “The proposed self-audit motif failed its sealed vacuity ceiling (46.2% of the corpus vs ≤25%) and was reverted” | `“unrouted-unclassified”` |
+| `B824` | “The character-variety motif failed its sealed vacuity ceiling at 18.4% of the corpus (the pattern 'character v” | `“unrouted-unclassified”` |
+| `B54` | “” | `“other”` |
+| `B76` | “” | `“other”` |
+| `B93` | “” | `“other”` |
+| `B106` | “” | `“other”` |
+| `B121` | “” | `“other”` |
+| `B136` | “” | `“other”` |
+| `B150` | “” | `“other”` |
+| `B222` | “” | `“other”` |
+| `B251` | “” | `“other”` |
+| `B265` | “” | `“other”` |
+| `B311` | “” | `“other”` |
+| `B327` | “” | `“other”` |
+| `B345` | “” | `“other”` |
+| `B357` | “” | `“other”` |
+| `B380` | “” | `“other”` |
+| `B449` | “” | `“other”` |
+| `B466` | “” | `“other”` |
+| `B518` | “” | `“other”` |
+| `B535` | “” | `“other”` |
+| `B584` | “” | `“other”` |
+| `B675` | “” | `“other”` |
+| `B695` | “” | `“other”` |
+| `B55` | “” | `“other”` |
+| `B78` | “” | `“other”` |
+| `B94` | “” | `“other”` |
+| `B122` | “” | `“other”` |
+| `B137` | “” | `“other”` |
+| `B187` | “” | `“other”` |
+| `B208` | “” | `“other”` |
+| `B236` | “” | `“other”` |
+| `B253` | “” | `“other”` |
+| `B266` | “” | `“other”` |
+| `B293` | “” | `“other”` |
+| `B312` | “” | `“other”` |
+| `B346` | “” | `“other”` |
+| `B358` | “” | `“other”` |
+| `B381` | “” | `“other”` |
+| `B410` | “” | `“other”` |
+| `B451` | “” | `“other”` |
+| `B467` | “” | `“other”` |
+| `B537` | “” | `“other”` |
+| `B560` | “” | `“other”` |
+| `B586` | “” | `“other”` |
+| `B598` | “” | `“other”` |
+| `B651` | “” | `“other”` |
+| `B696` | “” | `“other”` |
+| `B717` | “” | `“other”` |
+| `B764` | “” | `“other”` |
+| `B776` | “” | `“other”` |
+| `B794` | “” | `“other”` |
+| `B61` | “” | `“other”` |
+| `B79` | “” | `“other”` |
+| `B95` | “” | `“other”` |
+| `B109` | “” | `“other”` |
+| `B123` | “” | `“other”` |
+| `B138` | “” | `“other”` |
+| `B152` | “” | `“other”` |
+| `B169` | “” | `“other”` |
+| `B209` | “” | `“other”` |
+| `B224` | “” | `“other”` |
+| `B238` | “” | `“other”` |
+| `B254` | “” | `“other”` |
+| `B267` | “” | `“other”` |
+| `B314` | “” | `“other”` |
+| `B347` | “” | `“other”` |
+| `B359` | “” | `“other”` |
+| `B382` | “” | `“other”` |
+| `B431` | “” | `“other”` |
+| `B453` | “” | `“other”` |
+| `B469` | “” | `“other”` |
+| `B496` | “” | `“other”` |
+| `B522` | “” | `“other”` |
+| `B538` | “” | `“other”` |
+| `B587` | “” | `“other”` |
+| `B599` | “” | `“other”` |
+| `B613` | “” | `“other”` |
+| `B637` | “” | `“other”` |
+| `B795` | “” | `“other”` |
+| `B63` | “” | `“other”` |
+| `B80` | “” | `“other”` |
+| `B124` | “” | `“other”` |
+| `B153` | “” | `“other”` |
+| `B210` | “” | `“other”` |
+| `B226` | “” | `“other”` |
+| `B240` | “” | `“other”` |
+| `B255` | “” | `“other”` |
+| `B268` | “” | `“other”` |
+| `B315` | “” | `“other”` |
+| `B348` | “” | `“other”` |
+| `B363` | “” | `“other”` |
+| `B384` | “” | `“other”` |
+| `B434` | “” | `“other”` |
+| `B454` | “” | `“other”` |
+| `B470` | “” | `“other”` |
+| `B497` | “” | `“other”` |
+| `B524` | “” | `“other”` |
+| `B540` | “” | `“other”` |
+| `B564` | “” | `“other”` |
+| `B588` | “” | `“other”` |
+| `B638` | “” | `“other”` |
+| `B680` | “” | `“other”` |
+| `B700` | “” | `“other”` |
+| `B739` | “” | `“other”` |
+| `B753` | “” | `“other”` |
+| `B766` | “” | `“other”` |
+| `B780` | “” | `“other”` |
+| `B797` | “” | `“other”` |
+| `B839` | “” | `“other”` |
+| `B13` | “” | `“other”` |
+| `B64` | “” | `“other”` |
+| `B112` | “” | `“other”` |
+| `B125` | “” | `“other”` |
+| `B141` | “” | `“other”` |
+| `B155` | “” | `“other”` |
+| `B171` | “” | `“other”` |
+| `B211` | “” | `“other”` |
+| `B227` | “” | `“other”` |
+| `B256` | “” | `“other”` |
+| `B316` | “” | `“other”` |
+| `B366` | “” | `“other”` |
+| `B386` | “” | `“other”` |
+| `B415` | “” | `“other”` |
+| `B436` | “” | `“other”` |
+| `B471` | “” | `“other”` |
+| `B527` | “” | `“other”` |
+| `B589` | “” | `“other”` |
+| `B601` | “” | `“other”` |
+| `B683` | “” | `“other”` |
+| `B702` | “” | `“other”` |
+| `B722` | “” | `“other”` |
+| `B781` | “” | `“other”` |
+| `B14` | “” | `“other”` |
+| `B65` | “” | `“other”` |
+| `B113` | “” | `“other”` |
+| `B142` | “” | `“other”` |
+| `B156` | “” | `“other”` |
+| `B173` | “” | `“other”` |
+| `B196` | “” | `“other”` |
+| `B212` | “” | `“other”` |
+| `B228` | “” | `“other”` |
+| `B242` | “” | `“other”` |
+| `B257` | “” | `“other”` |
+| `B270` | “” | `“other”` |
+| `B301` | “” | `“other”` |
+| `B317` | “” | `“other”` |
+| `B368` | “” | `“other”` |
+| `B416` | “” | `“other”` |
+| `B479` | “” | `“other”` |
+| `B528` | “” | `“other”` |
+| `B543` | “” | `“other”` |
+| `B575` | “” | `“other”` |
+| `B590` | “” | `“other”` |
+| `B617` | “” | `“other”` |
+| `B640` | “” | `“other”` |
+| `B661` | “” | `“other”` |
+| `B684` | “” | `“other”` |
+| `B723` | “” | `“other”` |
+| `B782` | “” | `“other”` |
+| `B67` | “” | `“other”` |
+| `B83` | “” | `“other”` |
+| `B158` | “” | `“other”` |
+| `B174` | “” | `“other”` |
+| `B201` | “” | `“other”` |
+| `B229` | “” | `“other”` |
+| `B258` | “” | `“other”` |
+| `B271` | “” | `“other”` |
+| `B286` | “” | `“other”` |
+| `B302` | “” | `“other”` |
+| `B318` | “” | `“other”` |
+| `B337` | “” | `“other”` |
+| `B351` | “” | `“other”` |
+| `B439` | “” | `“other”` |
+| `B504` | “” | `“other”` |
+| `B544` | “” | `“other”` |
+| `B576` | “” | `“other”` |
+| `B591` | “” | `“other”` |
+| `B603` | “” | `“other”` |
+| `B618` | “” | `“other”` |
+| `B663` | “” | `“other”` |
+| `B704` | “” | `“other”` |
+| `B769` | “” | `“other”` |
+| `B800` | “” | `“other”` |
+| `B16` | “” | `“other”` |
+| `B69` | “” | `“other”` |
+| `B100` | “” | `“other”` |
+| `B115` | “” | `“other”` |
+| `B159` | “” | `“other”` |
+| `B175` | “” | `“other”` |
+| `B215` | “” | `“other”` |
+| `B245` | “” | `“other”` |
+| `B259` | “” | `“other”` |
+| `B273` | “” | `“other”` |
+| `B287` | “” | `“other”` |
+| `B303` | “” | `“other”` |
+| `B319` | “” | `“other”` |
+| `B338` | “” | `“other”` |
+| `B352` | “” | `“other”` |
+| `B370` | “” | `“other”` |
+| `B390` | “” | `“other”` |
+| `B460` | “” | `“other”` |
+| `B507` | “” | `“other”` |
+| `B530` | “” | `“other”` |
+| `B547` | “” | `“other”` |
+| `B620` | “” | `“other”` |
+| `B644` | “” | `“other”` |
+| `B665` | “” | `“other”` |
+| `B689` | “” | `“other”` |
+| `B707` | “” | `“other”` |
+| `B786` | “” | `“other”` |
+| `B830` | “” | `“other”` |
+| `B25` | “” | `“other”` |
+| `B70` | “” | `“other”` |
+| `B86` | “” | `“other”` |
+| `B102` | “” | `“other”` |
+| `B160` | “” | `“other”` |
+| `B176` | “” | `“other”` |
+| `B203` | “” | `“other”` |
+| `B260` | “” | `“other”` |
+| `B274` | “” | `“other”` |
+| `B304` | “” | `“other”` |
+| `B353` | “” | `“other”` |
+| `B371` | “” | `“other”` |
+| `B391` | “” | `“other”` |
+| `B423` | “” | `“other”` |
+| `B509` | “” | `“other”` |
+| `B531` | “” | `“other”` |
+| `B593` | “” | `“other”` |
+| `B607` | “” | `“other”` |
+| `B621` | “” | `“other”` |
+| `B645` | “” | `“other”` |
+| `B670` | “” | `“other”` |
+| `B690` | “” | `“other”` |
+| `B708` | “” | `“other”` |
+| `B746` | “” | `“other”` |
+| `B759` | “” | `“other”` |
+| `B787` | “” | `“other”` |
+| `B27` | “” | `“other”` |
+| `B71` | “” | `“other”` |
+| `B88` | “” | `“other”` |
+| `B103` | “” | `“other”` |
+| `B117` | “” | `“other”` |
+| `B131` | “” | `“other”` |
+| `B147` | “” | `“other”` |
+| `B162` | “” | `“other”` |
+| `B178` | “” | `“other”` |
+| `B204` | “” | `“other”` |
+| `B218` | “” | `“other”` |
+| `B232` | “” | `“other”` |
+| `B248` | “” | `“other”` |
+| `B261` | “” | `“other”` |
+| `B275` | “” | `“other”` |
+| `B289` | “” | `“other”` |
+| `B306` | “” | `“other”` |
+| `B323` | “” | `“other”` |
+| `B340` | “” | `“other”` |
+| `B354` | “” | `“other”` |
+| `B376` | “” | `“other”` |
+| `B393` | “” | `“other”` |
+| `B425` | “” | `“other”` |
+| `B446` | “” | `“other”` |
+| `B485` | “” | `“other”` |
+| `B510` | “” | `“other”` |
+| `B532` | “” | `“other”` |
+| `B552` | “” | `“other”` |
+| `B581` | “” | `“other”` |
+| `B594` | “” | `“other”` |
+| `B608` | “” | `“other”` |
+| `B622` | “” | `“other”` |
+| `B646` | “” | `“other”` |
+| `B691` | “” | `“other”` |
+| `B730` | “” | `“other”` |
+| `B789` | “” | `“other”` |
+| `B803` | “” | `“other”` |
+| `B48` | “” | `“other”` |
+| `B74` | “” | `“other”` |
+| `B89` | “” | `“other”` |
+| `B104` | “” | `“other”` |
+| `B118` | “” | `“other”` |
+| `B134` | “” | `“other”` |
+| `B148` | “” | `“other”` |
+| `B163` | “” | `“other”` |
+| `B179` | “” | `“other”` |
+| `B205` | “” | `“other”` |
+| `B220` | “” | `“other”` |
+| `B233` | “” | `“other”` |
+| `B249` | “” | `“other”` |
+| `B262` | “” | `“other”` |
+| `B276` | “” | `“other”` |
+| `B290` | “” | `“other”` |
+| `B324` | “” | `“other”` |
+| `B377` | “” | `“other”` |
+| `B426` | “” | `“other”` |
+| `B463` | “” | `“other”` |
+| `B533` | “” | `“other”` |
+| `B556` | “” | `“other”` |
+| `B582` | “” | `“other”` |
+| `B595` | “” | `“other”` |
+| `B609` | “” | `“other”` |
+| `B629` | “” | `“other”` |
+| `B647` | “” | `“other”` |
+| `B673` | “” | `“other”` |
+| `B692` | “” | `“other”` |
+| `B714` | “” | `“other”` |
+| `B732` | “” | `“other”` |
+| `B761` | “” | `“other”` |
+| `B773` | “” | `“other”` |
+| `B804` | “” | `“other”` |
+| `B49` | “” | `“other”` |
+| `B75` | “” | `“other”` |
+| `B92` | “” | `“other”` |
+| `B105` | “” | `“other”` |
+| `B149` | “” | `“other”` |
+| `B164` | “” | `“other”` |
+| `B180` | “” | `“other”` |
+| `B206` | “” | `“other”` |
+| `B221` | “” | `“other”` |
+| `B234` | “” | `“other”` |
+| `B250` | “” | `“other”` |
+| `B264` | “” | `“other”` |
+| `B277` | “” | `“other”` |
+| `B291` | “” | `“other”` |
+| `B309` | “” | `“other”` |
+| `B326` | “” | `“other”` |
+| `B344` | “” | `“other”` |
+| `B356` | “” | `“other”` |
+| `B379` | “” | `“other”` |
+| `B402` | “” | `“other”` |
+| `B427` | “” | `“other”` |
+| `B448` | “” | `“other”` |
+| `B488` | “” | `“other”` |
+| `B517` | “” | `“other”` |
+| `B534` | “” | `“other”` |
+| `B557` | “” | `“other”` |
+| `B583` | “” | `“other”` |
+| `B610` | “” | `“other”` |
+| `B649` | “” | `“other”` |
+| `B694` | “” | `“other”` |
+| `B715` | “” | `“other”` |
+| `B733` | “” | `“other”` |
+| `B749` | “” | `“other”` |
+| `B762` | “” | `“other”` |
+| `B774` | “” | `“other”` |
+| `B791` | “” | `“other”` |
+| `B1330` | “That the BEST CASE for the chirality index -- a manifold that is simultaneously chiral (so amphichirality cann” | `“Constructed, not argued. Intersecting the 112-member Q(sqrt-3) family (all tetrahedron shapes over Q(sqrt-3)) with chirality and with the existence of order-3 cusp-trivial characters leaves EIGHT members, of which FOUR are one-cusped: s958, v2873, t12833, t12835. The best case therefore EXISTS and IS NAMED -- and every one of the four returns index ZERO. A negative that names its own strongest counterexample and then evaluates it.”` |
+| `B1335` | “That the chirality falsifier FIRES -- i.e. that a sector with nonzero index I on a chiral one-cusped manifold ” | `“The falsifier does not fire, and the arc's positive half is what makes that meaningful: scanning one-cusped census manifolds with honest SL2(F_p) representations twisted by cusp-trivial characters DOES turn up, on the chiral one-cusped m010 (H_1 = Z/6 + Z), sectors with Sym^3 (x) chi where a_0 = a_0* = 0, t_0 = t_0* = 1, r_1 in {0,2} and I = +-1 -- checked exhaustively with independently written self-contained code, relators evaluating to +I so odd Sym^3 is valid and this is NOT the -I trap. So THE VANISHING IS NOT FORMAL (it is not forced by the setup) and the falsifier still does not fire.”` |
+| `B1336` | “That the surviving gauge group -- the centralizer of rho(pi_1), I-26's untouched half -- is nonabelian, or has” | `“ABELIAN OR NOTHING, by Borel density. The object's geometric holonomy is discrete and faithful, hence a lattice in PSL2(C), hence ZARISKI-DENSE -- so its centralizer is contained in the centre of the ambient group. B854's u(1)^4 is the centralizer of 2T, the FINITE McKay image, which is a different object from the geometric holonomy; conflating them is what left the half looking open.”` |
+| `B1338` | “That the anti-rediscovery instrument covers the corpus -- i.e. that a proposal it does not flag is actually ne” | `“The instrument is itself blind, demonstrated by its own miss: the proposed consolidation had been written THIRTEEN DAYS EARLIER as cloud memo 152 THE_CHAIN_GAP, in answer to the owner asking the same question -- and memo 152 records that it was itself the FOURTH such document, because the answer was spread across three taxonomies none of which walked the chain in order. The instrument's two DECLARED blind regions are stale, so the declaration that bounded its blindness no longer bounds it.”` |
+| `B1340` | “That 'anomaly-free on the 19,624 vacua' is evidence, and that either falsifier this bench proposed for it can ” | `“All three vacuous, two by theorem and one by identity. (a) E6 is anomaly-safe (T-ANOMALY-REALIZED), so a full 27 cannot fail. (b) The SM conditions are LINEAR in the generation count and one generation already cancels, so N generations cannot fail. (c) The load-bearing one: on the record's VECTOR-LIKE vacuum, 3x27 + 3x27bar, ALL SIX anomaly coefficients vanish IDENTICALLY AS POLYNOMIALS in all six parameters -- every SM-commuting direction is anomaly-free there, so the check CANNOT FAIL and CARRIES ZERO BITS. B1303's table was rebuilt independently from the E6 branching, reproducing -20250 as a positive control.”` |
+| `B1347` | “That the multiplier is the arrow -- that a point's stratum in B497's four-strata classification of End(F_2) de” | `“A basin, not a direction. Strata 2, 2' and 3 each produce BOTH outcomes -- 34/66, 19/81, 18/82 collapse-to-escape -- so the stratum fixes no arrow. The measurement also required a correction that a control caught: a first classifier returned ESCAPE whenever the POINT overflowed, which misreads stratum 1, whose points escape while kappa is exactly conserved; tracking the MULTIPLIER PRODUCT instead makes stratum 1 read FLAT at 100%.”` |
+| `B1349` | “That the theta-even MIRROR SET -- KIND_TABLE's last licensed coupling row, delivered by B1011 C6 and never dra” | `“Priced on both branches and dead on the object's own word. The residual freedom is 48, Galois-cut to 8 rational directions (3 bits) and then to 4 per orbit (2 bits, the split established exactly as [4,4] over two orbits of 48). Re h is ear-independent EXACTLY when gcd(m,15) > 1, complete over the period since ord(R) = ord(L) = 15. BRANCH B (the 8 units of Z/15) reads 2 outputs - 2 bits = 0 and fails by a TIE with provably no third direction (dim_R span = 2 exactly), AND is excluded on KIND: every reading carries 1/sqrt2, generating Q(sqrt2,sqrt5), while the row's declared field is Q(sqrt5) and sqrt2 is not in Q(zeta_60) -- so those values cannot be members of C6's banked set, as field arithmetic and not as approximation. BRANCH A carries 4 forced values {-1/(2phi), 0, 1/2, 1}, all elements of C6's set, but the GOLDEN WORD m=1 -- B997's unique McKay-shadow grammar, the object's own -- is a unit and therefore on branch B, so branch A requires departing from the object's grammar at log2(7) = 2.81 bits, and with that anchor priced it closes on ONE reading of four.”` |
+| `B1907` | “That the physical lane's two sealed execution packets be accepted for execution as sealed (P-746): main refuse” | `“unrouted-unclassified”` |

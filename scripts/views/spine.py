@@ -11,7 +11,12 @@ import subprocess, json, os, re
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-def main():
+
+def quoted(s):
+    """an arc's own claim head, marked as a quotation (2026-11-13, C14, patch 9); the gate public-face empties it"""
+    return "\u201c%s\u201d" % s
+
+def main(write=True):
     out = subprocess.run(["git","log","--diff-filter=A","--format=%ad|%H","--date=short",
                           "--name-only","--","tests/"], cwd=ROOT, capture_output=True, text=True).stdout
     born, cur = {}, None
@@ -54,7 +59,9 @@ def main():
             day = date
         tag = f"**{arc}**" if arc else "—"
         vt = f" `{verd}`" if verd else ""
-        lines.append(f"- {tag}{vt} `{tf}` {('— ' + head) if head else ''}")
+        lines.append(f"- {tag}{vt} `{tf}` {('— ' + quoted(head)) if head else ''}")
+    if not write:
+        return "\n".join(lines) + "\n"
     open(os.path.join(ROOT, "docs", "views", "THE_SPINE.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
     print(f"THE_SPINE.md: {len(rows)} locks across {len(set(r[0] for r in rows))} build days")
 

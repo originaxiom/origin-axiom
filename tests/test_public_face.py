@@ -126,3 +126,26 @@ def test_the_main_goal_is_archived_byte_for_byte_and_its_page_is_plain():
     planted = hist.replace("counts 2", "counts 3", 1)
     s2, g2, _ = _archive(planted)
     assert s2 != g2
+
+
+def test_a_working_index_quotes_the_record_and_its_generator_writes_no_inner_word():
+    """C14, patch 9 (main's M25, answer 4): each working index is built again with its quotations emptied; what is left,
+    the generator's own words, counts no inner word, and each index marks the record's words it quotes as quotations.
+    Planted: a generator's own heading in the inner words, and a quotation left unmarked."""
+    g = _gates()
+    own = g.working_index_own_words()
+    assert set(own) == set(g.WORKING_INDICES) and all(c == {} for c in own.values()), own
+    assert g.gate_public_face()[0]
+    planted = dict(own, **{"docs/views/CONTEXT_RECOVERY.md": dict(g.public_face_words("## Waiting for the owner"))})
+    ok, detail = g.gate_public_face(own_words=planted)
+    assert not ok and "its generator writes 'owner' 1 times itself" in detail
+    # the quotations are marked on the committed pages: the newest arcs' claims, the ledger's claims, the spine's heads
+    text = (ROOT / "docs" / "views" / "CONTEXT_RECOVERY.md").read_text(encoding="utf-8")
+    rows = [l for l in text.split("\n") if l.startswith("| B") and l.count(" | ") == 2]
+    assert rows and all(l.split(" | ")[2].startswith("“") and l.rstrip(" |").endswith("”") for l in rows)
+    spine = (ROOT / "docs" / "views" / "THE_SPINE.md").read_text(encoding="utf-8")
+    heads = [l for l in spine.split("\n") if l.startswith("- ") and "` \u2014 " in l]     # a lock's line with its arc's claim head
+    assert heads and all(l.split("` \u2014 ", 1)[1].startswith("\u201c") for l in heads)
+    # the twin of the plant: a quotation with its marks taken off is counted as the generator's own
+    unmarked = text.replace("“", "").replace("”", "")
+    assert sum(g.public_face_words(unmarked).values()) > 0
