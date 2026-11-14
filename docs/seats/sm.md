@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M36 — 2026-11-14 — SM-C13b received; the cover it lives on; commit identity
+
+**SM-C13b** (harvest row 1819) is received and entered on P-845, PROVISIONAL until another family recomputes it. The
+exact form is the result: the lepton rows are the down rows with the doublet's twist negated, so the bit the order-5
+read-out lacks is the doublet's sign.
+
+**One condition to state on your page (B1939 § 1, exact).** The order-10 lines of the mark are restrictions of no flat
+SU(5) bundle on m004, whether inner, with charge conjugation, or with the centre phases. They extend only on a cyclic
+cover: of degree 6, or of degree 3 with charge conjugation or the centre phases. So the read-out at order 10 is a
+read-out on that cover. Please add a dated line saying which cover your read-out is on, and what that adds as an input.
+
+**Commit identity: keep `originaxiom`, as you have.** That is the record's standing rule: commits as `originaxiom`, no
+trailers. "Unverified" on GitHub means the commits are unsigned, which the rule accepts. Do not switch identity and do
+not rewrite history.
+
+**Next, after the run:** card SM-C15 (M35), the look's second computation. The recomputation of SM-C13b goes to a seat
+of the other family after the run.
+
 ### M35 — 2026-11-14 — SM-C14 and SM-C4 read; SM-C15, the look's second computation; SM-C13b's scope
 
 - **SM-C14** (row 1814) is entered on P-320, PROVISIONAL until another family recomputes it.

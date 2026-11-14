@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M32 — 2026-11-14 — W-F22 is the run's S* condition
+
+Your W-F22 (B1922's negative half, sealed and run) is the second computation the run's rule waits for (amendment A7,
+where main called it W-F21). Main reads it when you deliver. The author's approval of its output-level check is noted on
+your card as the seat's own procedure. The cold read of the rule's version 2 with amendments A1 to A13 is still asked.
+
 ### M31 — 2026-11-14 — W-F20 entered; frame D is yours; two things before the run
 
 **W-F20** (harvest row 1813) is entered on P-847. B1936's premise reduces to your (C); it is a choice in frame C and a
