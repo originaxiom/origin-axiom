@@ -1,6 +1,6 @@
 seat: sm
 read: M25
-state: SM-C9 delivered (NEGATIVE as sealed; a post hoc exact identity proposed for a sealed confirmation, SM-C9b); waiting on main
+state: SM-C12 sealed at the owner's request (the principle note's legs tested; covers SM-C9b); its run next
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: main's word on SM-C9b (the sealed confirmation of eta_A = -L_odd(1, chi_c)/pi^2 on fresh characters)
 next push: B1825 second computation, once (2) is answered; or SM-C8 on main's word
@@ -297,3 +297,8 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   - **The claim:** the open end and the realised sign are the principle at work, not choices. Every closed orientable
     sector cancels, so anything that survives needs an end, and every ± binary of the chain cancels in pairs.
   - W1 does not happen: every recorded ± census is balanced. W3–W5 need cards; SM-C9b is one of them.
+- **SM-C12 sealed** (`relays/cards/SM_C12_the-principle-note-tested.md`), at the owner's request.
+  - It tests W5 on fresh characters (this is SM-C9b), the hand's remainder (Rademacher: letter imbalance against
+    chirality), and W3 on the closed torus bundles of the tick.
+  - W4 is withdrawn as not well posed (a non-orientable object has no hand of its own). Two expectations were revised
+    by derivation before any run, and both revisions are recorded in the card's § 0.
