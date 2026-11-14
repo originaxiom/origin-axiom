@@ -1,0 +1,59 @@
+=== AGY-002 STANDALONE VERIFICATION: A2-NEG (M21 LOAD-BEARING NEGATIVES) ===
+
+[1/4] Running Sub-task 1: B1839 cell D (23 levels) & B1841 cell D (4 levels), 1,000,000 hierarchies (100% data-free)...
+  266-line catalog exact match: True
+  norms.npz storage kind: raw_norm_N_s (W87 calibration abs err = 4.861e-05)
+  min positive norm: B1839 = 1.009268, B1841 = 1.009268
+  Order-5 Y_e == Y_d^T max rel err: 1.783e-14
+  [Mode A (Primary): Strictly isotropic 10% log-width, N = 1,000,000]
+    B1839 (23 levels) cont c @  4.613885: hits = 15165, p_hat = 0.015165, r_975 = 0.015406, pass_1pct = False
+    B1839 (23 levels) grid9  @  5.372228: hits = 12571, r_975 = 0.012791
+    B1839 (23 levels) {1,3}  @ 11.360492: hits = 13774, r_975 = 0.014004
+    B1841 ( 4 levels) cont c @  4.726887: hits = 5061, p_hat = 0.005061, r_975 = 0.005202, pass_1pct = True
+    B1841 ( 4 levels) grid9  @  5.410482: hits = 3950, r_975 = 0.004075
+    B1841 ( 4 levels) {1,3}  @ 11.977974: hits = 5587, r_975 = 0.005735
+  [Mode B (Sensitivity): Data-free synthetic up-quark log-width 0.17 (1.7x ellipsoid), N = 1,000,000]
+    B1839 (23 levels) cont c @  4.613885: hits = 20589, p_hat = 0.020589, r_975 = 0.020869, pass_1pct = False
+    B1841 ( 4 levels) cont c @  4.726887: hits = 7349, p_hat = 0.007349, r_975 = 0.007518, pass_1pct = True
+
+[2/4] Running Sub-task 2: P-720 modular weight at 3 generic tau x 3 lines x 2 readings x 3 sectors...
+  Cases tested: 54, min channel norm = 29.603271
+  Max |k_measured - 1| under S on raw Yukawa singular values: 5.144e-12
+  Max relative error under S on singular-value ratios (weight 0): 5.066e-12
+  Max relative error under T on raw singular values: 4.060e-12
+  Max unitary basis-scrambling & S-invariance error on |V_CKM|: 1.003e-13
+
+[3/4] Running Sub-task 3: E_8 twist-eaters W29 (Z_6, row 945) & W31 (Z_5, row 949)...
+  E_8 roots = 240, dim = 248, Cartan det = 1
+  W29 (Z_6): centraliser dim = 11 (su(3) + su(2)), U(1)_Y dim = 0, chiral leptons = 0
+  W29 quark generations: locality = [5], moves = [-1, 1, 3, 5]
+  W31 (Z_5): centraliser dim = 24 (su(5)_g), |Heis| = 125, |2I| = 120, |Clifford_proj| = 3000
+  W31 anomaly-free local? False, reaches +-3 under moves? False
+    k=1: local=[-1, -4], sign-kept SU(5)^3-free=[-1, 2], unrestricted moves=[-1, 1, 2, 4]
+    k=2: local=[-2, 2], sign-kept SU(5)^3-free=[-2, 1], unrestricted moves=[-2, 0, 1]
+    k=3: local=[2, -2], sign-kept SU(5)^3-free=[-1, 2], unrestricted moves=[-1, 0, 2]
+    k=4: local=[1, 4], sign-kept SU(5)^3-free=[-2, 1], unrestricted moves=[-4, -2, -1, 1]
+
+[4/4] Running Five Adversarial Planted Controls (CTL-NEG-1 .. CTL-NEG-5)...
+  CTL_NEG_1_single_delta015_cheat_r975: 0.0019821994897760795
+  CTL_NEG_1_matched_23level_b1839_r975: 0.015406434400670767
+  CTL_NEG_1_matched_4level_b1841_r975: 0.005202023483600638
+  CTL_NEG_1_inflation_23_vs_1: 7.772393485184059
+  CTL_NEG_1_inflation_23_vs_4: 2.9616233854459715
+  CTL_NEG_1_caught: True
+  CTL_NEG_2_bare_L_S_ratio_drift: 0.0017854818438144916
+  CTL_NEG_2_caught: True
+  CTL_NEG_3_sstar_ratio_drift: 0.5323262503630947
+  CTL_NEG_3_true_serre_err: 6.661338147750939e-16
+  CTL_NEG_3_non_serre_err: 0.7244746508224538
+  CTL_NEG_3_caught: True
+  CTL_NEG_4_w29_abelian_e8_dim: 16
+  CTL_NEG_4_w31_abelian_e8_dim: 28
+  CTL_NEG_4_caught: True
+  CTL_NEG_5_1d_subspace_violation_norm: 0.8944271909999159
+  CTL_NEG_5_one_sector_10g3_su5_anomaly_mismatch: 1
+  CTL_NEG_5_caught: True
+  all_planted_controls_caught: True
+
+Wrote /Users/dri/.gemini/antigravity/scratch/origin-axiom-stage3-branch/relays/a2_neg/verify_a2_neg_results.json in 208.27s.
+0 of 19.
