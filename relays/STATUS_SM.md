@@ -292,3 +292,8 @@ next push: B1825 second computation, once (2) is answered; or SM-C8 on main's wo
   number they share. The one apparent difference is the 242 unipotent doublets (α = β) at five ticks, which this
   seat's population left out; on its own code they give ±1 on 11 + 11, as the web seat found (post hoc, on SM-C10's
   page).
+- **The principle note** (`relays/SM_PRINCIPLE_NOTE.md`; its claim and falsifiers committed first, at 27be4c92f),
+  at the owner's request.
+  - **The claim:** the open end and the realised sign are the principle at work, not choices. Every closed orientable
+    sector cancels, so anything that survives needs an end, and every ± binary of the chain cancels in pairs.
+  - W1 does not happen: every recorded ± census is balanced. W3–W5 need cards; SM-C9b is one of them.
