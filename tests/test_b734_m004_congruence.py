@@ -199,12 +199,38 @@ def test_every_page_that_stated_level_8_carries_the_correction():
             continue
         if rel.endswith(".json"):
             try:
-                text = json.loads(text).get("claim_one_line", "")
+                text = _of_a_verdict_file(text)
             except Exception:
                 continue
         if _states_the_old_level(text):
             loose.append(rel)
     assert not loose, loose
+
+
+def _of_a_verdict_file(raw):
+    """What is swept of a verdict file: its claim line, its scope and its note, each a paragraph of its own.
+    CHANGED 2026-11-12 (Review 80; a reader's finding F14, not checked by main, made again here).  The line was
+        text = json.loads(text).get("claim_one_line", "")
+    and the sweep of B1028's lock beside it reads the three fields.  The old level stated in a verdict's scope or note was
+    not seen here."""
+    d = json.loads(raw)
+    return "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
+
+
+def test_the_sweep_reads_a_verdict_files_scope_and_note_as_well_as_its_line():
+    """Planted: a verdict file that states the old level in its scope, and one that states it in its note, with a claim line
+    that says nothing of it.  Read by the claim line alone, as this lock read a verdict file, neither is seen."""
+    by_the_line_alone = lambda raw: _states_the_old_level(json.loads(raw).get("claim_one_line", ""))
+    base = {"id": "B0", "claim_one_line": "A statement about another matter. 0 of 19.",
+            "scope": {"frame": "none", "object": "the figure-eight knot group", "reach": "single", "hypotheses": "none"}}
+    in_the_scope = json.dumps(dict(base, scope=dict(base["scope"], hypotheses="m004 is a congruence subgroup of level 8")))
+    in_the_note = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8)."))
+    for what, raw in (("in the scope", in_the_scope), ("in the note", in_the_note)):
+        assert not by_the_line_alone(raw), what
+        assert _states_the_old_level(_of_a_verdict_file(raw)), what
+    assert not _states_the_old_level(_of_a_verdict_file(json.dumps(base)))                 # a twin: the same file with neither
+    corrected = json.dumps(dict(base, note="The figure-eight knot group is congruence at level (8). [Corrected: " + MARK + ".]"))
+    assert MARK in corrected                                                              # and a file that carries the correction is not read further, as before
 
 
 def test_the_sweep_sees_the_shapes_the_re_audit_planted():
