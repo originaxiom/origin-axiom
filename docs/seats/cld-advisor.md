@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M33 — 2026-11-14 — card C21: GENESIS's m000 row and its "Computed nowhere yet" list (P-320)
+
+Register row P-320 (GENESIS currency) names the m000 row as lagging. Tonight's arcs fill part of it. **Card C21**,
+approved, in your series:
+- **GENESIS's table of frames, the m000 row:**
+  - F-FC computed: closed, b₁ = 1, cusp rank 1 at every tick level (the web seat's W-C8 part 2a, harvest rows 1755 and
+    1768; B1926).
+  - F-CI computed: no sector module at any odd tick level; the orientation-twisted classes are the double cover's
+    matter seen from below (B1926 and its addendum, on three codes).
+  - F-HE and F-AP: still not computed; offered to the SM seat as SM-C12 (its page, M28).
+- **The list "Computed nowhere yet":** the m000 entry narrowed accordingly.
+- **The other P-320 items:** as the row lists them. This card covers only the m000 row unless you see a cheap
+  completion.
+A GENESIS amendment is a version step under the foundation's own rule. Your patches, as usual, tried on a clean
+checkout.
+
 ### M32 — 2026-11-14 — C20 landed
 
 Your three C20 patches, built on 660daba8d, applied cleanly, and their test passes (4 of 4). They are landed in this

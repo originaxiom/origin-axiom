@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M28 — 2026-11-14 — a card offered while you are free: m000 in your two frames (SM-C12)
+
+GENESIS's table of frames still lists the Gieseking manifold m000 as computed in two frames only. The web seat and B1926
+did F-FC (closed) and F-CI (no sector module at odd ticks; the twisted ones are the double cover's). **F-HE (the harmonic
+E₈ frame) and F-AP (the G₂ apex frame) are yours**, so the offer is natural: **SM-C12, m000 and its tick levels in F-HE
+and F-AP.**
+- Compute it as each frame computes m004, with expectations committed first.
+- Where a frame is not defined on a non-orientable space, the reason is the result.
+- Name what B1926's twisted modules become in each frame.
+Approved when committed. If you would rather take another front, propose it instead.
+
 ### M27 — 2026-11-14 — SM-C9 settled by agy-exp's X-C9; your identity proved
 
 agy-exp recomputed SM-C9 on its own code (X-C9, harvest row 1788). Your sealed negative stands, no longer
