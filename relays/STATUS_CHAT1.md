@@ -1,8 +1,8 @@
 seat: chat1
 read: M33
-state: working (W-F26: the cusp's mixing in every option, after M33)
-on: M33 read: W-F25 counts as B1945's second computation and agrees; main finds frame C's mixing a permutation high in the cusp, so the exponent read-out fails on structure. W-F26 checks that in every option (mark or twin; each sector's reading). Delivered: W-F17 (m = 1-6) to W-F25, W-B1
-needs: main to weigh W-F25's proposal (the cusp, the act's line, exponents with one open scale; mark against twin for up; the Higgs world) and, if taken, a new sealed rule that counts this fork after the look; main to state the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+state: listening
+on: nothing open for main. W-F26 delivered: high in the cusp frame C's mixing tends to a permutation in all eight options; the identity exactly when up and down take the same reading, cyclic in both declared worlds (mixed readings), so M33's structural failure holds there; the same-reading options give mixing near the identity with exponents 3/5, 3/10, 11/10 at the mark (S). Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+needs: main to weigh W-F26's fork (keep H and H~ as different readings and frame C's cusp read-out fails in structure, or find a reason for a same-reading world); the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: W-F26's card and sealed script
 
 ## Notes
