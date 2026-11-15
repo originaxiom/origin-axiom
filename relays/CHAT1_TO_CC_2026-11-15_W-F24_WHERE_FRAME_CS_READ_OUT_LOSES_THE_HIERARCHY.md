@@ -1,4 +1,4 @@
-# W-F24: frame C's ratios fall exponentially with height at every point of order 5. The fibre average and the arithmetic form of the mean lose at most a factor of about 3, so the surface measure sets the read-out: the measure is the choice of τ in another form. Main's diagnosis holds; this seat's first candidate fix, the geometric mean, does not rescue the hierarchy
+# W-F24: frame C's ratios fall exponentially with height at every point of order 5. The fibre average and the arithmetic form of the mean lose at most a factor of about 3 on the read-out as a whole, so the surface measure sets the read-out (a reading: the measure is the choice of τ in another form). Main's diagnosis holds; this seat's first candidate fix, the geometric mean, does not rescue the hierarchy
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` (data-free). It closes card W-F24
 (`relays/cards/CHAT1_W-F24_where_frame_cs_average_loses_the_hierarchy.md`, e7bebf402; amended at 4d1fb2a34, before any
@@ -12,8 +12,8 @@ beside a measured number.
 - The big run's negative (B1944) was known to this seat from main's commit headline before the card (status file).
 - So nothing here is a test of frame C, and any read-out it suggests is a fork after the look.
 
-**How it was checked.** Computed once; expectations committed first; tested against planted errors (2, both behaving as
-committed).
+**How it was checked.** Computed once; expectations committed first; tested against planted errors (2, on the averaging step
+only; both behaving as committed).
 - **The script and run.** `wf24_run.py` was sealed at 4d1fb2a34 and run once. The output was committed (b58678161) before
   it was read; a partial output was committed unread mid-run (36d7dd9bb).
 - **The smoke test.** Before the seal the pipeline ran once with the frame replaced by random numbers. That run showed μ's
@@ -27,7 +27,7 @@ committed).
 - **The averages.**
   - 154 points of the fundamental domain (heights to 6), times the 24 points of order 5.
   - μ is computed from 1,000 random words of 40 letters (950,783 nodes on their threads, each word weighted by its length,
-    as B1928's H3).
+    as B1928's `fiber_ergodic.py`).
 
 ## 1. Results
 
@@ -39,14 +39,17 @@ committed).
 | X4, μ's heights | not met: μ spends 0.168 of its time above height 2 (0.384 above 1.5, 0.035 above 3, 0.007 above 4). Not blind (the smoke test) |
 | X5, the geometric read-out | holds: smaller than frame C's form for every sector ratio, but only by factors of 1.64 to 2.90 |
 | plants | PL1 (one point's value times 10) moves the arithmetic mean by exactly (Σ + 9 r_p)/Σ and the geometric one by exactly 10^(1/24). PL2: the composition identity fails for the arithmetic mean and holds for the geometric one |
-| reported | the down and the lepton ratios agree at every point, as B1934's "the lepton pair is the down pair transposed" implies for singular values. The read-outs are in `wf24_run_out.txt` and `wf24_summary.json`, not set beside anything |
+| reported | the down and the lepton ratios agree at every point (to 1e-6 wherever the ratio is above 1e-10; to 1 % near the double-precision floor, about 1e-14), as B1934's "the lepton pair is the down pair transposed" implies for singular values. The read-outs are in `wf24_run_out.txt` and `wf24_summary.json`, not set beside anything |
 
 ## 2. What it means
 
-- **The hierarchy is a height variable.** At every point of order 5, frame C's ratios behave as e^(−πE·Im τ) towards the
-  cusp (W-F25 finds E rational). So the read-out on the whole is, in effect, the frame at the heights μ visits.
-- **Main's diagnosis holds.** The surface average dominates the loss. The fibre's arithmetic mean costs at most about 1.5,
-  and the form of the mean costs at most about 3.
+- **The hierarchy is a height variable.** At every point of order 5, frame C's ratios fall exponentially towards the
+  cusp: every ratio at all 24 points falls by more than 1.6 in log from height 2 to 6 (the referee's check of the
+  output). W-F25 finds the rate rational at the 16 points (±1/5, ·) and (±2/5, ·) in the S reading. So the read-out on the whole is, in effect, the frame at the heights μ visits.
+- **Main's diagnosis holds.** The surface average dominates the loss. In the bulk (Im τ < 1.5) the fibre's arithmetic mean
+  exceeds the geometric one by a median factor of 1.03 to 1.52, at most 2.0. Higher up the factor grows, to as much as
+  122 above height 3, but μ spends 3.5 % of its time there. On the read-out as a whole, the form of the mean costs a
+  factor of 1.64 to 2.90.
 - **The measure is the choice of τ in another form.**
   - The uniform measure on the two letters places μ's mass where it is: about 5/6 of the time below height 2.
   - So "no τ is chosen" is not quite what happened: τ's height was chosen by the measure. This is R6 of P-776, which the
@@ -66,7 +69,7 @@ committed).
 - Suppose M_f(XY) = M_f(X) M_f(Y) for every pair of positive random variables with any joint law.
 - Taking Y = c constant gives homogeneity, M_f(cX) = c M_f(X). Homogeneous quasi-arithmetic means are the power means
   (f = x^p, p ≠ 0) and the geometric mean (f = log); this is the classical theorem of Hardy, Littlewood and Pólya,
-  *Inequalities*, § 3.
+  *Inequalities*, ch. III.
 - For p ≠ 0, take Y = X: then M_p(X²) = M_p(X)² means (E X^(2p))^(1/p) = (E X^p)^(2/p), that is, Var(X^p) = 0, which
   fails for every non-constant X.
 - So only f = log remains, and it satisfies the condition. For independent X and Y every power mean composes, so the
@@ -78,9 +81,9 @@ committed).
 |---|---|
 | the height law at the mark (X1) | computed once, on this seat's transcription; expectations committed first |
 | the fibre's spread and its arithmetic loss (X2, X3) | computed once; expectations committed first (X3 not met) |
-| μ's height shares (X4) | computed once; the expectation committed first, but seen before the seal (the smoke test) |
-| the geometric read-out moves frame C's by a factor of 1.6 to 2.9 (X5) | computed once; expectations committed first |
-| the composition theorem | a reading (a short proof, the homogeneity step cited) |
+| μ's height shares (X4) | computed once; the expectation committed first, but seen before the seal (the smoke test); recomputed independently by the referee with main's thread code (3,000 words, two seeds: 0.384, 0.169, 0.035, 0.0075) |
+| the geometric read-out moves frame C's by a factor of 1.6 to 2.9 (X5) | computed once; expectations committed first; recomputed independently by the referee with main's frame code on B1928's fine grid (the factors agree to three digits) |
+| the composition theorem | not independently checked (a short proof; the homogeneity step cited from Hardy, Littlewood and Pólya, ch. III, theorem number not checked here); the proof read by the referee |
 | the measure is the choice of τ in another form | a reading |
 
 ## 4. Files
@@ -88,6 +91,8 @@ committed).
 `relays/chat1_2026-11-15_wf24/`: `wf24_run.py` (sealed), `SCRIPT_SHA256.txt`, `wf24_run_out.txt`, `wf24_run_err.txt`
 (empty), `wf24_grid.json` and `wf24_summary.json` (the frame's outputs; no data).
 
-This note was pushed before its referee read finished, at the author's word (2026-11-15). The read's corrections follow in a later commit.
+This note was pushed before its referee read finished, at the author's word (2026-11-15); the read's corrections are applied in the next commit.
+
+**From the referee's read.** Main's own frame code (B1932's `fiber_grid_t90.py`) and this seat's transcription agree to 6e-12 in log at 15 (τ, point) pairs in the bulk and at heights 2 to 3, and to 7e-5 at Im τ = 6 for values near 1e-12. The difference between this seat's quadrature norm and main's closed form changes no conclusion.
 
 0 of 19.

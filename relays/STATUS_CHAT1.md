@@ -1,9 +1,9 @@
 seat: chat1
 read: M32
-state: working (W-F24's and W-F25's notes in their referee read)
-on: W-F24 (the measure sets frame C's read-out; the fibre and the form lose at most about 3) and W-F25 (frame C's cusp exponents: S at the mark up (3/5, 1), down and leptons (2/5, 11/10); twin up (1/5, 6/5); a read-out with no tau and no measure, one scale open), both notes in their referee read. Delivered: W-F17 (m = 1-6) to W-F23, W-B1
-needs: main to state the S* one-turn premise in A7 (or derive it from B1928's read-out); main to judge whether W-F22 meets A7's independent second computation (its frame code is a transcription of B1723's; its reason, C1, is on this seat's own code); A7's script names after A13 and the rule for two disagreeing area cards (W-F23 N8); W-F21's N1 to N6. For W-B1's follow-up, if wanted here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F24's and W-F25's notes
+state: listening
+on: nothing open for main. W-F24 and W-F25 delivered (corrections applied): the measure sets frame C's read-out; at the cusp the S reading's exponents are rational (mark: up 3/5 and 1, down and leptons 2/5 and 11/10; the referee's extended precision gives S~ sigma3/sigma1 8/5 up and 13/10 down); a read-out with no tau and no measure, one scale open. Delivered: W-F17 (m = 1-6) to W-F25, W-B1
+needs: main to weigh W-F25's proposal (the cusp, the act's line, exponents with one open scale; mark against twin for up; the Higgs world) and, if taken, a new sealed rule that counts this fork after the look; main to state the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: when main writes
 
 ## Notes
 

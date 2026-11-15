@@ -1,8 +1,8 @@
-/home/claude/origin-axiom/relays/chat1_2026-11-15_wf24/wf24_run.py:113: RuntimeWarning: invalid value encountered in scalar divide
+<repo>/relays/chat1_2026-11-15_wf24/wf24_run.py:113: RuntimeWarning: invalid value encountered in scalar divide
   out["%s|%s|r2" % (sec, rn)] = float(sv[1] / sv[0])
-/home/claude/origin-axiom/relays/chat1_2026-11-15_wf24/wf24_run.py:114: RuntimeWarning: invalid value encountered in scalar divide
+<repo>/relays/chat1_2026-11-15_wf24/wf24_run.py:114: RuntimeWarning: invalid value encountered in scalar divide
   out["%s|%s|r3" % (sec, rn)] = float(sv[2] / sv[0])
-/home/claude/origin-axiom/relays/chat1_2026-11-15_wf24/wf24_run.py:113: RuntimeWarning: invalid value encountered in scalar divide
+<repo>/relays/chat1_2026-11-15_wf24/wf24_run.py:113: RuntimeWarning: invalid value encountered in scalar divide
   out["%s|%s|r2" % (sec, rn)] = float(sv[1] / sv[0])
-/home/claude/origin-axiom/relays/chat1_2026-11-15_wf24/wf24_run.py:114: RuntimeWarning: invalid value encountered in scalar divide
+<repo>/relays/chat1_2026-11-15_wf24/wf24_run.py:114: RuntimeWarning: invalid value encountered in scalar divide
   out["%s|%s|r3" % (sec, rn)] = float(sv[2] / sv[0])
