@@ -24,3 +24,18 @@ The relative gauge integer, fixed-fibre puncture domain and modular-cusp extensi
 The coupled stationary bundle already supplies gauge and flavour transition laws. The next calculation will use them with the actual four-slot mass map. In particular, the point-push residual should be compared with the parity action on the root profiles before an induced triplet is identified with that physical kernel. This also gives a precise test of the physical interpretation of P753's coefficient representations. Their finite matrix results are preserved pending that test.
 
 The whole physical spectrum, stability, anomalies, state selection and gravitational dynamics retain their existing duties. The explicit free comparison leaves different carriers, interactions, scalar lines and state-dependent lifts at their own scope.
+
+## Same-action physical continuation
+
+NORMALIZED_WILSON_CROSSING_VERTEX.md recovers the already constructed order-ten interaction and works through its three kinetic norms, gauge current and physical mass-map derivative. With the source's component conventions it gives
+
+    |y|^2/e_H^2 = 2 A_omega A_g/I_omega^2,
+    I_omega=integral Omega |omega_z| dxdy,
+    A_omega=integral |omega_z|^2 dxdy,
+    A_g=integral Omega^2 dxdy.
+
+Thus |y|/e_H>=sqrt(2), strictly in the specified complete cusp metric. The common action scale, trace normalization and mode-frame constants cancel. The old nonzero vertex is credited prior work. The new result is its normalized relation to the actual current and its geometric bound. The specified charged fields are vector-like additional states. The spin/Wilson compatibility and parent remain inputs. Quantum matching and independent verification remain owed.
+
+ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md derives the parent cubic on actual slots. Where both charged kernel spaces have the stated pure-slot two-form-plus-one-spin decomposition and no gaugino zero, the leading cubic has a zero two-by-two form/form block and rank at most two. This identifies a higher-order duty. The full complementary mass map derives the next coefficient, retaining stationary backreaction as well as heavy exchange. The earlier neutral-family fourth-order positive is explicitly reused with its own different bundle scope.
+
+The same note shows that a complete five-coefficient sparse interaction family can still restrict its constant left/right stabilizer to reciprocal scalars, even while every member is singular. That span must be checked on actual Higgs profiles before using it. Eleven additional source pins are in CONTINUATION_SOURCES.json. These are hand derivations and remain not independently checked. No scientific code ran.

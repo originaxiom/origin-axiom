@@ -1,0 +1,77 @@
+{
+  "method": "Source pinning only. New calculations are hand derivations, not independently checked. No scientific source imported or executed. File pins identify full artifacts, with targeted source sections read.",
+  "scope_card": "4b15876b3",
+  "sources": [
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_TEN_PHYSICAL_CUBIC_AND_EXCEPTIONAL_MODE_PAIRING.md",
+      "sha256": "2d82c2229c63421b944caaa534613f6992fd1fb4de0f89fae73d344fd8ea2ceb",
+      "bytes": 11425
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee",
+      "bytes": 20252
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "bytes": 12276
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+      "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df",
+      "bytes": 13855
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md",
+      "sha256": "2220bd04aba8dcb3c95c149131ae008af7e37e1bbd223ce014c0842ac0062ef7",
+      "bytes": 13586
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "bytes": 11904
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/VERTICAL_PROFILE_WEDGE_AND_RECONSTRUCTED_CUBIC.md",
+      "sha256": "ba4238c2a8a3bc8b2ecab8db1368fec8da3ea3a4237d08d6f42c9ef12e6ced6f",
+      "bytes": 7618
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858
+    },
+    {
+      "commit": "a76b927abba2d3067eda26e1c6e2c7cc084e52dd",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "bytes": 12732
+    }
+  ],
+  "primary_source_reading": {
+    "url": "https://arxiv.org/html/hep-ph/9709356v7",
+    "sections": "Vector normalization Eq.3.3.3, covariant-derivative and interaction discussion around Eqs.3.4.2-3.4.9. Targeted passages, not a whole-paper reading.",
+    "access_date": "2026-11-16"
+  }
+}

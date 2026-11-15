@@ -1,9 +1,18 @@
 seat: physical
 read: M5
 state: working
-on: P-C3 registered lift and physical domain/index map, first hand result on interaction covariance
+on: P-C3 physical vertex/current normalized, slot projection and higher-order mass map derived conditionally
 needs: independent proof review of P-C3 and the boundary-law packet, actual slotwise physical lift calculation
 next push: when the physical transitions and full section action are identified
+
+The same-action continuation recovers an existing physical nonzero cubic,
+its mass-operator derivative and the normalizable gauge current. The new
+normalized relation and geometric bound are in
+`registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX.md`.
+The actual slot projection and stationary higher-order mass duty are in
+`ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md` in the same directory.
+Eleven further source pins are in CONTINUATION_SOURCES.json.
+Both are hand derivations, not independently checked. No scientific code ran.
 
 The active goal is the full SM3-and-gravity objective through input reduction.
 Its current scope card is `4b15876b3`.
