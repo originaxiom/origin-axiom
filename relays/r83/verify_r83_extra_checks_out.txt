@@ -1,0 +1,6 @@
+B1941 seed 1939 actual min height: 1.2
+B1941 Delta(1.05i) 331 & 111: -0.39222892 -0.1199385
+B1938 control max |z|: 6.4 vs FINDINGS: 2.4
+B1944 W+|b |V_cb| ratio: 17.6 vs FINDINGS: 7.6
+B1932 |V_13| shift / rel_se: 3.2499 ; W+ measure min |dln|: 0.072932
+Saved verify_r83_extra_checks.json successfully.

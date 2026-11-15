@@ -1,0 +1,158 @@
+{
+  "b1941": {
+    "seed_1939_yv_0_9_draws": [
+      {
+        "x": 0.07709949,
+        "abs_tau_sq": 0.81594433,
+        "kept": false
+      },
+      {
+        "x": 0.21771023,
+        "abs_tau_sq": 0.85739775,
+        "kept": false
+      },
+      {
+        "x": -0.23365485,
+        "abs_tau_sq": 0.86459459,
+        "kept": false
+      },
+      {
+        "x": 0.04533725,
+        "abs_tau_sq": 0.81205547,
+        "kept": false
+      }
+    ],
+    "seed_1939_actual_min_height": 1.2,
+    "s4_run_txt_331_exact_min_max": [
+      1.381,
+      6.437
+    ],
+    "findings_line_33_claimed_min": 1.83,
+    "special_lower_fd_points_mpmath": {
+      "i": {
+        "tau": [
+          0.0,
+          1.0
+        ],
+        "abs_tau_sq": 1.0,
+        "L_2": 2.71925763,
+        "Delta_ln_det_331": 0.0,
+        "Delta_ln_det_111": 0.0
+      },
+      "omega": {
+        "tau": [
+          0.5,
+          0.8660254
+        ],
+        "abs_tau_sq": 1.0,
+        "L_2": 2.78647514,
+        "Delta_ln_det_331": 0.0,
+        "Delta_ln_det_111": 0.0
+      },
+      "1.03i": {
+        "tau": [
+          0.0,
+          1.03
+        ],
+        "abs_tau_sq": 1.0609,
+        "L_2": 2.70459948,
+        "Delta_ln_det_331": -0.11514508,
+        "Delta_ln_det_111": -0.03457804
+      },
+      "1.05i": {
+        "tau": [
+          0.0,
+          1.05
+        ],
+        "abs_tau_sq": 1.1025,
+        "L_2": 2.69519293,
+        "Delta_ln_det_331": -0.39222892,
+        "Delta_ln_det_111": -0.1199385
+      },
+      "ind11": {
+        "tau": [
+          -0.077982,
+          1.05125
+        ],
+        "abs_tau_sq": 1.11120775,
+        "L_2": 2.69447043,
+        "Delta_ln_det_331": -0.03864614,
+        "Delta_ln_det_111": 0.00427348
+      }
+    }
+  },
+  "b1938": {
+    "gauge_class_control_run_max_abs_z": 6.4,
+    "findings_line_83_claimed_max_abs_z": 2.4,
+    "control_threshold_for_CAUGHT": 3.0
+  },
+  "b1944": {
+    "read_the_look_run_W_plus_b_Vcb_ratio": 17.6,
+    "findings_line_56_claimed_Vcb_ratio": 7.6
+  },
+  "b1943": {
+    "LR_fixed_points_mod_5": [
+      [
+        1,
+        2,
+        "-"
+      ],
+      [
+        2,
+        4,
+        "-"
+      ],
+      [
+        3,
+        1,
+        "-"
+      ],
+      [
+        4,
+        3,
+        "-"
+      ]
+    ],
+    "RL_fixed_points_mod_5": [
+      [
+        1,
+        3,
+        "-"
+      ],
+      [
+        2,
+        1,
+        "-"
+      ],
+      [
+        3,
+        4,
+        "-"
+      ],
+      [
+        4,
+        2,
+        "-"
+      ]
+    ]
+  },
+  "b1932": {
+    "ergodic_t90_abs_dln_over_rel_se": [
+      0.3928,
+      8.5908,
+      0.1508,
+      11.5371,
+      5.5509,
+      0.7767,
+      3.2499
+    ],
+    "W_minus_measure_abs_dln_min_max": [
+      0.10184,
+      0.583765
+    ],
+    "W_plus_measure_abs_dln_min_max": [
+      0.072932,
+      0.502946
+    ]
+  }
+}
