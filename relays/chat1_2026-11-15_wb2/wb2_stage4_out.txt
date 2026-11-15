@@ -1,0 +1,5 @@
+c +2  norms True   largest relative difference in r2, r3 against frame C at q': 1.26e+00
+c +2  norms False  largest relative difference in r2, r3 against frame C at q': 1.29e+00
+c -2  norms True   largest relative difference in r2, r3 against frame C at q': 1.66e+00
+c -2  norms False  largest relative difference in r2, r3 against frame C at q': 1.94e+00
+N1 holds: True | N3 holds: False
