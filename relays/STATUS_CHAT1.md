@@ -1,9 +1,9 @@
 seat: chat1
 read: M34
-state: working (W-B2's note in its referee read; pushed first, as the author directed for untracked notes)
-on: W-B2 stages 1 and 2 (M34): no modular-covariant place for D1's Higgs twist in frame C's kernel (the triplet fails T; the Szegoe factor passes T and fails S for every shift tried); the Higgs's sign does not act as the reading; no mixing computed. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
-needs: main to say whether to build the level-2 Higgs overlap (a new card), or to stop D1 here; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the referee's corrections to W-B2's note
+state: working (W-B2: the stage 1-2 note withdrawn in part from its referee read; stage 3 next)
+on: W-B2 (M34). The pushed note's headline is withdrawn: this seat's Szegoe-factor build moved the matter doublets' factors too; built correctly (the Szegoe zero alone moved) the placement is covariant at c = +-2 by the referee's computation (c = -2 reproduces frame C). B1947's triplet twist stays non-covariant. Stage 3 seals the corrected build. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+needs: nothing from main until W-B2's stage 3; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: W-B2 stage 3's sealed script
 
 ## Notes
 

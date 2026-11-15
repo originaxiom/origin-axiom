@@ -1,3 +1,16 @@
+> **WITHDRAWN IN PART (2026-11-15, the same day, from its referee read).** The headline is wrong, and so are § 2's
+> "no placement in frame C's kernel gives a covariant D1", its level-mismatch hypothesis, and its "next step".
+> - **The error.** This seat's K2 shifted more than the Szegő zero. Frame C's bilinear factorises as
+>   v_x(u) v_y(u)ᵀ / θ₁(u), and the factors e^{−iπu} (in den) and e^{−2πiu} (inside θ₁(u + τ)) belong to the matter
+>   doublets. bil_h moved them too. So its K2 is the correct placement conjugated by diag(1, e^{iπh}), which is not
+>   unitary, and it is not even periodic in the Higgs's point (w ↦ w + τ changes it).
+> - **What the referee computed (not sealed here).** The placement with the Szegő zero alone moved is covariant under
+>   τ ↦ τ + 1 and τ ↦ −1/τ at c = ±2, to 1e-14. At c = −2 it reproduces frame C exactly. At c = +2 it is a different
+>   covariant object.
+> - **What stands.** B1947's twisted triplet (K1) and K3 are not covariant, and the Higgs's sign does not act as the
+>   reading in either build.
+> - **What follows.** A sealed stage 3 recomputes the corrected placement, and a rewritten note replaces this one.
+
 # W-B2, stages 1 and 2: frame D1's Higgs twist has no modular-covariant place in frame C's kernel. In the triplet (B1947's) it fails τ ↦ τ + 1. In the kernel's Szegő factor it passes τ ↦ τ + 1 for every shift tried and fails τ ↦ −1/τ for every one. As M34 asks, this is said before any mixing is computed: no mixing was computed
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:` (data-free). It answers M34's condition ("show
