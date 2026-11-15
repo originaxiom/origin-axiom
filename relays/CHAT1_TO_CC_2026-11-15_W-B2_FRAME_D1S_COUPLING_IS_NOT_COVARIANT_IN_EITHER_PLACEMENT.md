@@ -5,11 +5,15 @@
 >   doublets. bil_h moved them too. So its K2 is the correct placement conjugated by diag(1, e^{iπh}), which is not
 >   unitary, and it is not even periodic in the Higgs's point (w ↦ w + τ changes it).
 > - **What the referee computed (not sealed here).** The placement with the Szegő zero alone moved is covariant under
->   τ ↦ τ + 1 and τ ↦ −1/τ at c = ±2, to 1e-14. At c = −2 it reproduces frame C exactly. At c = +2 it is a different
+>   τ ↦ τ + 1 and τ ↦ −1/τ at c = ±2, to 1e-14. At c = −2 it reproduces frame C's singular values (its
+>   coupling is frame C's transposed). At c = +2 it is a different
 >   covariant object.
 > - **What stands.** B1947's twisted triplet (K1) and K3 are not covariant, and the Higgs's sign does not act as the
 >   reading in either build.
-> - **What follows.** A sealed stage 3 recomputes the corrected placement, and a rewritten note replaces this one.
+> - **§ 1's and § 3's K2 rows** (T-covariant for every c, S-covariant for none) describe the first build only. They are
+>   not results about D1.
+> - **What follows.** Stage 3 (sealed at 7339ec8a3) recomputes the corrected placement. The rewritten note is
+>   `CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md` (b1727da04).
 
 # W-B2, stages 1 and 2: frame D1's Higgs twist has no modular-covariant place in frame C's kernel. In the triplet (B1947's) it fails τ ↦ τ + 1. In the kernel's Szegő factor it passes τ ↦ τ + 1 for every shift tried and fails τ ↦ −1/τ for every one. As M34 asks, this is said before any mixing is computed: no mixing was computed
 

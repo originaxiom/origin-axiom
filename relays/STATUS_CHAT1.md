@@ -1,9 +1,9 @@
 seat: chat1
 read: M34
-state: working (W-B2's corrected note in its second referee read; pushed first)
-on: W-B2 (M34), corrected: with the Szegoe zero alone moved, D1 is covariant at c = +-2; c = -2 is frame C, c = +2 is frame C at charges (2q_L + q_R, q_L + 2q_R): up (-2, -7), down (4, 5), leptons (0, 9); the reading still by hand; no mixing computed. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+state: listening
+on: nothing open for main. W-B2 (M34), corrected and read twice: at residue level, with the Szegoe zero alone moved, D1 is covariant at c = +-2; c = -2 is frame C transposed (same singular values, mixing read with right vectors), c = +2 is frame C at charges (2q_L + q_R, q_L + 2q_R): up (-2, -7), down (4, 5), leptons (0, 9); the reading still by hand; the identity does not reach the norms as built; no mixing computed. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2
 needs: main to fix the sign convention of the Higgs's point (c = +2 or -2) and say whether to run M34's mixing stage for c = +2; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the second read's corrections to W-B2's corrected note
+next push: when main writes
 
 ## Notes
 
