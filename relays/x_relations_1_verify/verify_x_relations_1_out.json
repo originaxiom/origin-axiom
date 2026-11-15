@@ -1,0 +1,154 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Relations_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "derive_su5_universal_1loop_eliminants_exact",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-RELATIONS-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_solver_and_exact_1loop_eliminants": {
+    "E1_FourPillar_and_Exact1Loop_Eliminant_Gate_passed": true,
+    "four_pillar_rge_solver_gate": {
+      "E1_FourPillar_Literature_RGE_Gate_passed": true,
+      "pillar1_buttazzo_3loop": {
+        "PC_REL1_WrongDiffFactor_err": 0.15131151550036248,
+        "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+        "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+        "lam_planck_abs_err": 6.725958536619656e-05,
+        "log10_Lambda_lam_GeV": 9.792515212710263,
+        "log10_two_Lambda_V_GeV": 9.801029995663981
+      },
+      "pillar2_bbo_noncommuting_2loop_matrix": {
+        "PC_REL1_Commutator_bbo_2loop_rel_err": 0.009398947126822545,
+        "PC_REL1_Commutator_diag_buttazzo_diff": 0.0,
+        "PC_REL1_Commutator_shift_ratio_to_exact": 1.000003630205016,
+        "bbo_eq24_pure_2loop_rel_err": 2.539140692794447e-07
+      },
+      "pillar3_xing_zhou_downward_matrix": {
+        "PC_REL1_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+        "eq18_naumov_rel_err": 8.293714772077242e-15
+      },
+      "pillar4_antusch_weinberg_1loop": {
+        "PC_REL1_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+        "analytical_integral_rel_err": 2.3569601803885482e-15,
+        "weinberg_symmetry_err": 0.0
+      }
+    },
+    "su5_universal_1loop_eliminants": {
+      "PC_REL1_ExtraHiggsDoublets_L_violation": 27.07756098470115,
+      "PC_REL1_WrongHyperchargeNorm_shift": 0.09405127803907015,
+      "exact_rational_coeffs": {
+        "b1": "41/10",
+        "b2": "-19/6",
+        "b3": "-7",
+        "c1_b2_minus_b3": "23/6",
+        "c2_b3_minus_b1": "-111/10",
+        "c3_b1_minus_b2": "109/15",
+        "k2_over_k1": "3/5",
+        "sw2_intercept": "23/134",
+        "sw2_slope": "109/201"
+      },
+      "generation_independence_verified_Ng_1_to_6": true,
+      "random_60_trajectory_max_I_gauge_err": 8.326672684688674e-17,
+      "random_60_trajectory_max_L_gauge_err": 1.7053025658242404e-13
+    }
+  },
+  "part_1b_dynamic_confinement_and_UR1_gauge_band": {
+    "E2_DynamicConfinement_and_Universal2LoopGaugeBand_Gate_passed": true,
+    "UR1_universal_2loop_gauge_relation": {
+      "I_gauge_envelope_3d_cover_264_histories": [
+        0.004028558805556998,
+        0.004204982993557593
+      ],
+      "I_gauge_envelope_all_1320_histories": [
+        0.00312915015353904,
+        0.004692449071553473
+      ],
+      "L_gauge_envelope_3d_cover_264_histories": [
+        -6.735522389121144,
+        -6.464456861961473
+      ],
+      "L_gauge_envelope_all_1320_histories": [
+        -6.735522389121144,
+        -2.521171525704972
+      ],
+      "definition_I_gauge": "sin^2(theta_EW) - (23/134 + (109/201) * (alpha_3^{-1} / alpha_EM^{-1}))",
+      "definition_L_gauge": "(23/6)*alpha_1^{-1} - (111/10)*alpha_2^{-1} + (109/15)*alpha_3^{-1}",
+      "kill_line_statement": "Falsified with 0 continuous knobs and 0 selection bits if I_gauge falls outside [i_min_all, i_max_all].",
+      "strictly_positive_2loop_shift_across_every_history": true,
+      "surviving_3d_cover_histories_swept": 264,
+      "total_perturbative_histories_swept": 1320
+    },
+    "dynamic_qcd_pole_exclusion_of_2d_cover_branch": {
+      "a3_inv_1loop_at_cover_if_2d": -13.545022472933812,
+      "dln_cover_abs": 29.075935249750547,
+      "excluded_by_confining_landau_pole": true,
+      "pole_dln_2d_Cas": 16.917951508699836,
+      "pole_dln_2d_tree_6pi": 16.9193218304389
+    }
+  },
+  "part_1c_UR2_scalar_band_and_haar6": {
+    "E3_UniversalScalarQuarticAttractor_and_Haar6_Gate_passed": true,
+    "Gate_Haar_Stage1_Relations_U3_power_6": {
+      "PC_REL1_BrokenDTermQuartic_shift": 0.015134476885395598,
+      "PC_REL1_WrongChiralityRGE_err": 0.1692712137985084,
+      "haar_invariance_below_1e_12": true,
+      "ten_trial_max_diff_mp24": 1.0339757656912846e-25
+    },
+    "UR2_universal_dterm_scalar_quartic_relation": {
+      "kill_line_statement": "Falsified with 0 continuous knobs and 0 selection bits if lambda_IR <= 0 or sqrt(2*lambda_IR) falls outside [s2l_min_all, s2l_max_all] (or outside [s2l_min_3d, s2l_max_3d] on surviving 3D-cover histories).",
+      "min_lambda_IR_all_1320_histories": 0.04203986513735587,
+      "sqrt_2lam_envelope_3d_cover_all_264_histories": [
+        0.2899650500917511,
+        0.9105484673455008
+      ],
+      "sqrt_2lam_envelope_3d_cover_both_collar_signs_176_histories": [
+        0.3277441991871917,
+        0.9105484673455008
+      ],
+      "sqrt_2lam_envelope_3d_cover_pos_collar_88_histories": [
+        0.33382945159000593,
+        0.9105484673455008
+      ],
+      "sqrt_2lam_envelope_3d_cover_unlocalized_88_histories": [
+        0.2899650500917511,
+        0.6460890890325497
+      ],
+      "sqrt_2lam_envelope_all_1320_histories": [
+        0.2899650500917511,
+        1.1328298888552613
+      ],
+      "strict_vacuum_stability_all_1320_histories": true,
+      "uv_boundary_law": "lambda_UV = (1/5) * g_UV^2 (6D gauge-scalar D-term)"
+    },
+    "selection_bits_required": {
+      "continuous_parameters": 0,
+      "discrete_selection_bits_for_UR1_and_UR2_envelopes": 0
+    }
+  },
+  "stage_1_gate_passed": true
+}
