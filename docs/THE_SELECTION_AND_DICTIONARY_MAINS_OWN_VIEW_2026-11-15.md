@@ -124,3 +124,31 @@ any number is compared.
 - **The literal-index reading of PF1 is main's interpretation, not a derivation** (§ 2).
 - **The root's vanishing chiral index may be the final answer.** Then the honest result is that chirality, and with it
   the hand, is an input of this programme, counted on the scoreboard. That would still be worth knowing exactly.
+
+## Correction, the same day: the index route was already run (MASTERPLAN v3, 2026-09)
+
+Main wrote § 5 without finding the record's September programme. Its sweeps for the index route were too narrow; this
+is main's error.
+
+**What that programme established:**
+- **The object's chiral index vanishes.** On the cyclic towers every spectral cover is vector-like, by two theorems:
+  T-GALOIS-SELF-DUALITY, and the period-2 isometry acting as charge conjugation (B1297). The evidence that the vanishing
+  is general is strong (B1329, B1413).
+- **The count is a bit:** ±1 by order at the mixed points (B1466).
+- **E₆ enters as the reduction at the ramified prime √−3,** and the two hands are the two complex embeddings of the trace
+  field (B1117).
+- **Volume rigidity selects only the pair** {ρ, ρ̄}, not a member. So it reproduces the same bit.
+
+So § 5's steps 1 to 3 are largely answered, and the answer is the chirality bit.
+
+**What follows, as judgement.** Every open piece is a selection: the hand, the vacuum (Y₉'s 19,624 vacua in mirror
+pairs, sm:B1278, as MASTERPLAN v3 records them), the modulus, and the Higgs reading. The principle, as the author states
+its meaning (GENESIS § 1, v1.65), selects nothing: everything allowed happens.
+
+A programme on that principle can then predict only what holds in every allowed history. That means relations among
+parameters, not single values.
+- The record's one live forward prediction is such a relation: P10's TM1 relation.
+- Its clearest refuted structural result is another: Y_e = Y_dᵀ at order 5 (B1698, B1934).
+
+The proposed refinement of the goal is to derive, without selection, the relations among Standard Model parameters that
+hold in every allowed history, and to seal them as predictions.
