@@ -104,3 +104,37 @@ was read); tested against planted errors (1, caught).
 This note was pushed before its second referee read finished (the first read found the first note NOT READY), following the author's word of 2026-11-15 on untracked notes. The second read's corrections are applied in a later commit (b8a394419 said so before they were; this commit applies them).
 
 0 of 19.
+
+## Addendum (stage 4, M36's data-free check): E does not reach the norms
+
+**The check.** Stage 4 (`wb2_stage4.py`) was sealed (5004626b2) before its run. It is not blind: the second referee read
+had found, unsealed, that off the pole M_alt is frame C at q′ times a scalar of varying modulus.
+- **The set-up.** Frame D1's full frame is built with B1656's quadrature norms, re-centred on the moved pole (the same
+  cell about it), with Theorem 90's weight and a bounded end, L₂ = 0.9. It is compared with frame C at q′ = q − c·q_H/2
+  with the same end.
+- **Where.** In reading S, at the mark and the twin, at three bulk moduli.
+- **The control failed first, on stage 1's harness flaw.** At unit weights σ₃/σ₁ is rounding noise.
+- **Post hoc 1** (`wb2_stage4_posthoc1.py`, committed before its run, not blind) reports σ₂/σ₁ and σ₃/σ₁ separately.
+
+| | σ₂/σ₁ | σ₃/σ₁ |
+|---|---|---|
+| c = +2, with norms | **0.54** | 1.26 |
+| c = −2, with norms | **0.70** | 1.66 |
+| c = +2, unit weights (the control) | 5.3e-15 | (noise) |
+| c = −2, unit weights (the control) | 1.1e-15 | (noise) |
+
+- **E holds at residue level and fails with the norms**, by order one, for both signs of c.
+- So with the norms as frame C builds them, frame D1 is a different object from frame C at shifted charges. And c = −2 is
+  no longer frame C transposed.
+- **[J] The norm-level placement is therefore a further choice, if D1 is pursued.** It is the region and the weight of
+  the channel norm around the Higgs's point. That has to be fixed by a principle before D1's mixing stage, which M36
+  holds anyway.
+
+| statement | how checked |
+|---|---|
+| E fails with the norms (c = ±2) | computed once (stage 4 and its post hoc 1; not blind) |
+
+This addendum was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes.
+Its corrections follow in a later commit.
+
+0 of 19.
