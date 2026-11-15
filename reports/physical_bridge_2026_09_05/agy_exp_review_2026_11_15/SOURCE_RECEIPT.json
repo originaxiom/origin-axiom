@@ -1,0 +1,243 @@
+{
+  "kind": "source-and-custody-only",
+  "reviewed_head": "d6f77f7ff74b9c9e359fac764e6f363262fffa5e",
+  "main_head": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+  "sources": [
+    {
+      "path": "relays/x_funnel_1_verify/verify_x_funnel_1.py",
+      "sha256": "b736bfd3461917fc138f192d24296a32f04b79f26bb1d8ca1dbc4f4afda22c8c",
+      "bytes": 49453,
+      "lines": 1081
+    },
+    {
+      "path": "relays/x_funnel_1_verify/verify_x_funnel_1_out.json",
+      "sha256": "29bc9e35080a36d87782a7ef25509ffad8e35ae652fbfdea0be4e185066feb2e",
+      "bytes": 3983,
+      "lines": 124
+    },
+    {
+      "path": "relays/x_funnel_1_verify/SCRIPT_SHA256.txt",
+      "sha256": "0d628aaf0172bfa242557298653f8a1d5a73df23d7c12b9595831ca9a4ee0e84",
+      "bytes": 87,
+      "lines": 1
+    },
+    {
+      "path": "relays/x_funnel_1_verify/OUTPUT_SHA256.txt",
+      "sha256": "50bc91623d05e0043accd8a561fe2f65ab3e53eb1d05a2de331f376e898802cd",
+      "bytes": 93,
+      "lines": 1
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md",
+      "sha256": "5e80a2d47eff038dbb4c8747a729f591bda2a5182a494a84f74ac53a6404367f",
+      "bytes": 9612,
+      "lines": 55
+    },
+    {
+      "path": "relays/x_funnel_2_verify/verify_x_funnel_2.py",
+      "sha256": "4d5ad8b6a32a41c7bd8b0e62c912ad43070479fbfa3abfef076ae048bca483dd",
+      "bytes": 51201,
+      "lines": 1088
+    },
+    {
+      "path": "relays/x_funnel_2_verify/verify_x_funnel_2_out.json",
+      "sha256": "6b3164c30ee6e877d363e78f4355a8492b98693c5ac5bd78e9c8bf661c4d5f9b",
+      "bytes": 9786,
+      "lines": 322
+    },
+    {
+      "path": "relays/x_funnel_2_verify/SCRIPT_SHA256.txt",
+      "sha256": "2a4658038e8c8302a24b4b77a1852af65129b4141ffba15425dae663fca6746f",
+      "bytes": 87,
+      "lines": 1
+    },
+    {
+      "path": "relays/x_funnel_2_verify/OUTPUT_SHA256.txt",
+      "sha256": "319e70c7d433f9ab22891b08f3ea7178e8521a06b6fe403eb91f03f68b603e10",
+      "bytes": 93,
+      "lines": 1
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md",
+      "sha256": "aaf54a381c074480c3e4598040c68d5d1ab64b60da42a3c8877454fabda63c89",
+      "bytes": 12232,
+      "lines": 63
+    },
+    {
+      "path": "relays/x_funnel_3_verify/verify_x_funnel_3.py",
+      "sha256": "6ec418485619ba5adcc52c378123f265f4d495ad0fde9d7301557865629b4af2",
+      "bytes": 36331,
+      "lines": 849
+    },
+    {
+      "path": "relays/x_funnel_3_verify/verify_x_funnel_3_out.json",
+      "sha256": "4df9e8e8dc4cf0e1b917520404f968a08484865ff4ed41402316a0658d3a37dc",
+      "bytes": 5364,
+      "lines": 176
+    },
+    {
+      "path": "relays/x_funnel_3_verify/SCRIPT_SHA256.txt",
+      "sha256": "55e33790a6d4b5b041fbf1178c65f34e84d804c652ef616214e1b2b381a747b2",
+      "bytes": 87,
+      "lines": 1
+    },
+    {
+      "path": "relays/x_funnel_3_verify/OUTPUT_SHA256.txt",
+      "sha256": "f5c86c1b5c229919a2a6ecc0961272c6e4480b5664312e6c981b95d97391de65",
+      "bytes": 93,
+      "lines": 1
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md",
+      "sha256": "f75bccb71f7a12c5503bddf2ff324c231b3744a66faaf1027ed918647b40233e",
+      "bytes": 10196,
+      "lines": 59
+    },
+    {
+      "path": "relays/x_funnel_4_verify/verify_x_funnel_4.py",
+      "sha256": "edc4328c26e75bc20c812b59f3a2ca6fc1ee9a6cb482b08618c8875473085cd0",
+      "bytes": 64567,
+      "lines": 1381
+    },
+    {
+      "path": "relays/x_funnel_4_verify/verify_x_funnel_4_out.json",
+      "sha256": "0df8d8cbe012d4c3f68a9c4dc95df86b061ad71695165697aeea71b1a9872983",
+      "bytes": 7140,
+      "lines": 221
+    },
+    {
+      "path": "relays/x_funnel_4_verify/SCRIPT_SHA256.txt",
+      "sha256": "5f14cd72f424dc1cd2558d14020cbd40018f5bd7ee297c09da878543fb638baf",
+      "bytes": 87,
+      "lines": 1
+    },
+    {
+      "path": "relays/x_funnel_4_verify/OUTPUT_SHA256.txt",
+      "sha256": "4c15a2ebdd554a9dac9cc5d1f4eac3990c68e3e39c40ad346806f4cd959c5603",
+      "bytes": 93,
+      "lines": 1
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md",
+      "sha256": "9a6558ab21c09453126a67e2bc5c4abc44873a32ae063c830067be394594763d",
+      "bytes": 12570,
+      "lines": 65
+    }
+  ],
+  "saved_boolean_flags": {
+    "1": {
+      "part_1a_b1947_and_p861.E1_B1947_and_P861_passed": true,
+      "part_1b_magnetized_triple_overlap.E2_Covariance_and_Quadrature_passed": false,
+      "part_1b_magnetized_triple_overlap.E3_Cusp_Alignment_and_Order5_Law_passed": true,
+      "part_1b_magnetized_triple_overlap.bulk_sample_tau_0p13_1p7i_w_1_5_2_5.off_diag_strict_hierarchy_1_gt_V12_gt_V23_gt_V13_gt_0": true,
+      "part_1b_magnetized_triple_overlap.controls.all_controls_passed": true,
+      "source_isolation_ast_check.zero_imports_from_main_or_other_relays": true,
+      "stage_1_gate_passed": false
+    },
+    "2": {
+      "all_planted_controls_passed": true,
+      "part_2a_r0_gamma5_and_m004.E1_Gamma5_Obstruction_and_m004_CP_passed": false,
+      "part_2a_r0_gamma5_and_m004.R0_S_covariance_fix.E0_S_Covariance_Fix_passed": true,
+      "part_2a_r0_gamma5_and_m004.m004_root_orbit_and_cp.O4_matches_M_minus1_eigenline_and_J_four_cycle": true,
+      "part_2b_casimir_surjection_and_p862.E3_Order15_Surjection_and_P862_Exponents_passed": true,
+      "part_2b_casimir_surjection_and_p862.casimir_shift_test.E2_Casimir_PartialKill_passed": true,
+      "part_2b_casimir_surjection_and_p862.casimir_shift_test.heavier_ratio_sec3_gt_sec2_all_O4": true,
+      "part_2b_casimir_surjection_and_p862.casimir_shift_test.lighter_ratio_sec3_lt_sec2_any_O4": false,
+      "part_2b_casimir_surjection_and_p862.p862_step2_cusp_exponents.frame_c_order10_e23_identical_all_72_pts": true,
+      "part_2b_casimir_surjection_and_p862.p862_step2_cusp_exponents.magnetized_order15_2_15_opposite_consecutive_skew": true,
+      "source_isolation_ast_check.zero_imports_from_main_or_other_relays": true,
+      "stage_2_gate_passed": false
+    },
+    "3": {
+      "all_planted_controls_passed": false,
+      "part_3a_kronecker_cancellation.E1_Kronecker_Division_Cancellation_passed": false,
+      "part_3b_epstein_and_holonomy_sign_flip.E2_Epstein_Sublattice_and_Holonomy_SignFlip_passed": false,
+      "part_3c_weil_petersson_operator.E3_WeilPetersson_ParameterFree_Operator_passed": false,
+      "source_isolation_and_guardrail1_ast_check.zero_embedded_target_coordinates_in_potentials": true,
+      "source_isolation_and_guardrail1_ast_check.zero_imports_from_main_or_other_relays": true,
+      "stage_3_gate_passed": false
+    },
+    "4": {
+      "all_planted_controls_passed": true,
+      "part_4a_literature_solver_gate.E1_Literature_RGE_Solver_Gate_passed": true,
+      "part_4b_model_uv_to_ir_bridge.E2_Model_Order5_NoGo_and_Order15_Bridge_passed": false,
+      "part_4b_model_uv_to_ir_bridge.E2_with_quadratic_eps_y_scaling_passed": true,
+      "part_4b_model_uv_to_ir_bridge.case1_order5_1_5_2_5_height_2p5.order5_both_ratios_drop_no_opposite_skew": true,
+      "part_4b_model_uv_to_ir_bridge.case2_order15_4_15_8_15_height_3.opposite_consecutive_skew_survived": true,
+      "source_and_firewall_ast_check.strict_ast_isolation_between_lit_gate_and_model": true,
+      "source_and_firewall_ast_check.zero_imports_from_main_or_other_relays": true,
+      "stage_4_gate_passed": false
+    }
+  },
+  "declared_script_and_output_pins_match": true,
+  "source_quotations": [
+    {
+      "finding": 1,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md",
+      "line": 62,
+      "quotation": "$M \\bmod 3$ has order `8`, acting transitively on all `8` non-zero `3`-torsion points!",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 2,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md",
+      "line": 44,
+      "quotation": "\\operatorname{Vol}_{\\mathrm{WP}}(\\mathcal{F}) = \\pi/3",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 3,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md",
+      "line": 36,
+      "quotation": "magnetic flux $I_L = +3$",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 4,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md",
+      "line": 36,
+      "quotation": "yielding $\\dim H^0 = 3$ chiral generations by Riemann\u2013Roch",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 5,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md",
+      "line": 44,
+      "quotation": "applied at every $(\\tau, w)$ node",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 6,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md",
+      "line": 42,
+      "quotation": "two-loop renormalization group running **cannot** generate opposite consecutive skew from an order-`5` boundary condition.",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 7,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md",
+      "line": 21,
+      "quotation": "on diagonal $3 \\times 3$ matrices",
+      "matches_pinned_source": true
+    },
+    {
+      "finding": 8,
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md",
+      "line": 40,
+      "quotation": "\\delta_{k, l}\\exp(2\\pi i q_L b (k + 3a))",
+      "matches_pinned_source": true
+    }
+  ],
+  "primary_literature_reading": [
+    {
+      "url": "https://macbuse.github.io/M2R_2019/wolpert.pdf",
+      "read_scope": "introductory area statement and pages 253-255 metric and area derivation",
+      "access_date": "2026-11-15"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-th/0404229",
+      "read_scope": "selected sections 3.1-3.4, especially equations 103-109; whole paper not reviewed",
+      "access_date": "2026-11-15"
+    }
+  ]
+}
