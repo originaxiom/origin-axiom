@@ -105,36 +105,59 @@ This note was pushed before its second referee read finished (the first read fou
 
 0 of 19.
 
-## Addendum (stage 4, M36's data-free check): E does not reach the norms
+## Addendum (stage 4, M36's data-free check): E does not reach the norms as this seat re-centred them; with the metric that absorbs the off-pole scalar, it does
 
 **The check.** Stage 4 (`wb2_stage4.py`) was sealed (5004626b2) before its run. It is not blind: the second referee read
 had found, unsealed, that off the pole M_alt is frame C at q′ times a scalar of varying modulus.
-- **The set-up.** Frame D1's full frame is built with B1656's quadrature norms, re-centred on the moved pole (the same
-  cell about it), with Theorem 90's weight and a bounded end, L₂ = 0.9. It is compared with frame C at q′ = q − c·q_H/2
-  with the same end.
-- **Where.** In reading S, at the mark and the twin, at three bulk moduli.
-- **The control failed first, on stage 1's harness flaw.** At unit weights σ₃/σ₁ is rounding noise.
+- **The construction.** Frame D1's full frame uses B1656's quadrature norms, re-centred on the moved pole:
+  - the flat |P_s/R_s|² over the cell {−h + x + yτ : |x|, |y| ≤ ½}, with the ε cut-off and a0 taken about −h;
+  - Theorem 90's weight and a bounded end, L₂ = 0.9.
+  It is compared with frame C at q′ = q − c·q_H/2, with the same end.
+- **Where.** In reading S, every sector, at the mark and the twin, at three bulk moduli (0.13 + 1.7i, −0.31 + 1.25i,
+  0.4 + 1.2i).
+- **The control N3 failed as written, on stage 1's harness flaw.** At unit weights the coupling has rank 2, so σ₃/σ₁ is
+  rounding noise, and its relative difference (1.29, 1.94) means nothing.
 - **Post hoc 1** (`wb2_stage4_posthoc1.py`, committed before its run, not blind) reports σ₂/σ₁ and σ₃/σ₁ separately.
 
-| | σ₂/σ₁ | σ₃/σ₁ |
+| largest relative difference from frame C at q′ (3 sectors, 2 points, 3 moduli) | σ₂/σ₁ | σ₃/σ₁ |
 |---|---|---|
 | c = +2, with norms | **0.54** | 1.26 |
 | c = −2, with norms | **0.70** | 1.66 |
-| c = +2, unit weights (the control) | 5.3e-15 | (noise) |
-| c = −2, unit weights (the control) | 1.1e-15 | (noise) |
+| c = +2, unit weights (the control) | 5.3e-15 | (rank 2: noise) |
+| c = −2, unit weights (the control) | 1.1e-15 | (rank 2: noise) |
 
-- **E holds at residue level and fails with the norms**, by order one, for both signs of c.
-- So with the norms as frame C builds them, frame D1 is a different object from frame C at shifted charges. And c = −2 is
-  no longer frame C transposed.
-- **[J] The norm-level placement is therefore a further choice, if D1 is pursued.** It is the region and the weight of
-  the channel norm around the Higgs's point. That has to be fixed by a principle before D1's mixing stage, which M36
-  holds anyway.
+- **E holds at residue level and fails with these norms**, by order one, for both signs of c.
+- **How far that reaches** (the referee read, on its own code):
+  - **The flat norm depends on where the cell is cut.**
+    - Off the pole, |K_D1|² is |K_C′|² times e^(2k·Im z), with k = −2π·c·q_H·a. That factor is not periodic.
+    - D1's norms come out at 1e3 to 7e10, against −2.9 to 21 for frame C at q′.
+    - Over the fixed cell about u = 0 the differences change again: 0.009 to 3.3 at τ = 0.13 + 1.7i.
+  - **This construction is not periodic in the Higgs's point.** Under w ↦ w + τ, at τ = 0.13 + 1.7i, σ₂/σ₁ moves by 0.004
+    to 0.040 and σ₃/σ₁ by up to 0.57. Frame C at q′ holds to 1e-11.
+  - **With the bundle's flat unitary metric E does reach the norms.** That metric is e^(4π·Im h·Im z/Im τ), fixed to 1 at
+    the pole. With it, |K_D1|² is frame C's at q′ pointwise. The ratios then agree to 3e-8, and c = −2 stays frame C
+    transposed.
+- **So the answer depends on the norm.**
+  - With the flat norm over the cell about the moved pole, frame D1 is a different object from frame C at shifted
+    charges, and c = −2 is no longer frame C transposed.
+  - With the flat unitary metric, D1 is frame C at shifted charges with the norms too.
+- **[J] The fork.**
+  - Either the flat norm over a cell, which depends on the cut and is not periodic in the Higgs's point;
+  - or the flat unitary metric, under which D1 adds nothing beyond frame C at q′.
+  That has to be fixed by a principle before D1's mixing stage, which M36 holds anyway. This seat's reading is that
+  periodicity in the Higgs's point decides it for the unitary metric. On that reading D1, at the norm level too, is frame
+  C at shifted charges.
 
 | statement | how checked |
 |---|---|
-| E fails with the norms (c = ±2) | computed once (stage 4 and its post hoc 1; not blind) |
+| E fails with the flat norm over the cell about the moved pole (c = ±2) | computed once (stage 4 and its post hoc 1; not blind); expectations committed first (N1 met; N3 failed as written, on rank-2 noise, re-run on σ₂/σ₁ alone post hoc); recomputed independently (the referee read: its own thetas, analytic residues, another quadrature; τ = 0.13 + 1.7i, every sector, both points, to four digits) |
+| that construction is not periodic under w ↦ w + τ | computed once by the referee read (its code and the seat's agree to four digits) |
+| with the flat unitary metric E reaches the norms (to 3e-8) | computed once by the referee read; the metric's uniqueness is a reading |
 
-This addendum was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes.
-Its corrections follow in a later commit.
+Files: `wb2_stage4.py` (sealed, 5004626b2), `wb2_stage4_posthoc1.py` (c38bec3b8), their outputs and warnings files
+(empty); SHA256s in `SCRIPT_SHA256.txt`.
+
+This addendum was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes;
+the read's corrections are applied in this version.
 
 0 of 19.
