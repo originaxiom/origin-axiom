@@ -1,0 +1,25 @@
+thread 0
+thread 500
+thread 1000
+thread 1500
+thread 2000
+thread 2500
+Y 2 uniform 0.1732 {'s=+1 sigma=0.5': 0.1057, 's=-1 sigma=0.5': 0.2838, 'C3 shuffled, s=+1 sigma=0.5': 0.1744}
+Y 3 uniform 0.0372 {'s=+1 sigma=0.5': 0.0112, 's=-1 sigma=0.5': 0.1067, 'C3 shuffled, s=+1 sigma=0.5': 0.0374}
+Y 6 uniform 0.0004 {'s=+1 sigma=0.5': 0.0, 's=-1 sigma=0.5': 0.0063, 'C3 shuffled, s=+1 sigma=0.5': 0.0005}
+{
+ "C1 vol(LR)": 2.029883212819307,
+ "volume range": [
+  20.31024519455842,
+  38.42883644686087
+ ],
+ "E1": {
+  "2": -0.9262954544772727,
+  "3": -0.8140379162264351,
+  "6": -0.027489671498852383
+ },
+ "E4": {
+  "spearman(Vol, syllables)": 0.847355877261764,
+  "spearman(Vol, longest run)": -0.7707468958607661
+ }
+}
