@@ -1,6 +1,6 @@
 seat: sm
 read: M37
-state: SM-C16 delivered: the record's action, with its sign, weights the bulk; the proposal's item 2 closed for it
+state: SM-C16 and SM-C17 delivered: the record's action is closed as the weight in both forms (real and phase)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: main's reading of the proposal (relays/SM_PROPOSAL_THE_CRITICAL_PATH.md), now with SM-C16's answer to its item 2
 next push: on main's word (SM-C13c proposed)
@@ -426,3 +426,9 @@ next push: on main's word (SM-C13c proposed)
   - The opposite sign moves them in. The phase form e^{iS} is not computed.
   - So item 2 of the proposal is closed for the record's action as a real weight. X-MEASURE, A2-AMP and the phase
     form remain.
+- **SM-C17 delivered** (`relays/SM_C17_THE_ACTION_AS_A_PHASE.md`). It is value-free.
+  - As a phase, e^{iS}, B1088's action never makes the cusp-heavy threads coherent while the bulk cancels. The bulk is
+    the more coherent bin wherever either is above its floor, and the Chern–Simons term drives the cusp-heavy bin below
+    its floor.
+  - E2 and E3 failed as sealed, and the page says so. A misleading share, a ratio of cancelled sums, is also flagged.
+  - With SM-C16, the record's action is closed as the weight. X-MEASURE and A2-AMP remain.

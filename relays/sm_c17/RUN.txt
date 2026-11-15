@@ -1,0 +1,43 @@
+thread 0
+thread 1000
+thread 2000
+k=0 sigma=0    C cusp 1.000 (floor 1.000)  C bulk 1.000 (floor 1.000)  share 0.0372
+k=0 sigma=0.05 C cusp 0.996 (floor 0.993)  C bulk 0.997 (floor 0.992)  share 0.0372
+k=0 sigma=0.1  C cusp 0.984 (floor 0.972)  C bulk 0.987 (floor 0.969)  share 0.0373
+k=0 sigma=0.2  C cusp 0.936 (floor 0.893)  C bulk 0.950 (floor 0.883)  share 0.0375
+k=0 sigma=0.5  C cusp 0.662 (floor 0.512)  C bulk 0.724 (floor 0.476)  share 0.0385
+k=0 sigma=1    C cusp 0.206 (floor 0.131)  C bulk 0.258 (floor 0.077)  share 0.0797
+k=0 sigma=2    C cusp 0.079 (floor 0.097)  C bulk 0.004 (floor 0.038)  share 0.0931
+k=1 sigma=0    C cusp 0.706 (floor 0.838)  C bulk 0.860 (floor 0.825)  share 0.0345
+k=1 sigma=0.05 C cusp 0.703 (floor 0.833)  C bulk 0.859 (floor 0.819)  share 0.0344
+k=1 sigma=0.1  C cusp 0.694 (floor 0.816)  C bulk 0.853 (floor 0.800)  share 0.0344
+k=1 sigma=0.2  C cusp 0.662 (floor 0.754)  C bulk 0.824 (floor 0.735)  share 0.0343
+k=1 sigma=0.5  C cusp 0.470 (floor 0.451)  C bulk 0.636 (floor 0.412)  share 0.0340
+k=1 sigma=1    C cusp 0.143 (floor 0.134)  C bulk 0.237 (floor 0.078)  share 0.0607
+k=1 sigma=2    C cusp 0.079 (floor 0.094)  C bulk 0.011 (floor 0.035)  share 0.1299
+k=2 sigma=0    C cusp 0.152 (floor 0.491)  C bulk 0.541 (floor 0.453)  share 0.0242
+k=2 sigma=0.05 C cusp 0.152 (floor 0.480)  C bulk 0.541 (floor 0.451)  share 0.0241
+k=2 sigma=0.1  C cusp 0.151 (floor 0.484)  C bulk 0.538 (floor 0.441)  share 0.0241
+k=2 sigma=0.2  C cusp 0.147 (floor 0.445)  C bulk 0.521 (floor 0.412)  share 0.0241
+k=2 sigma=0.5  C cusp 0.124 (floor 0.301)  C bulk 0.405 (floor 0.259)  share 0.0246
+k=2 sigma=1    C cusp 0.066 (floor 0.133)  C bulk 0.163 (floor 0.072)  share 0.0374
+k=2 sigma=2    C cusp 0.059 (floor 0.097)  C bulk 0.013 (floor 0.034)  share 0.0870
+{
+ "C1": {
+  "CS(LR)": -1.4623584425059633e-16,
+  "Vol(LR)": 2.029883212819307
+ },
+ "bins": {
+  "cusp-heavy n": 300,
+  "bulk n": 1500,
+  "mean f3 cusp-heavy": 0.12163816719342674,
+  "mean f3 bulk": 0.005427137156836349,
+  "Vol spread (sd) cusp-heavy": 1.8199584908347086,
+  "Vol spread (sd) bulk": 1.597843622401688
+ },
+ "uniform f3": 0.03718641486341038,
+ "1/sqrt(n)": {
+  "cusp-heavy": 0.05773502691896257,
+  "bulk": 0.025819888974716113
+ }
+}
