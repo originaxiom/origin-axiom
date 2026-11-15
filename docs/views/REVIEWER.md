@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1641** |
-| words of findings prose | **1,471,290** |
+| words of findings prose | **1,471,330** |
 | test lock files referenced | **945** |
 | arcs carrying an authored verdict | **1641** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -69,7 +69,7 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.”  
 `B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md`
 
-**NEGATIVE — `B1944`** (851 words, 0 locks)  
+**NEGATIVE — `B1944`** (891 words, 0 locks)  
 “THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.”  
 `B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md`
 

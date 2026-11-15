@@ -9,6 +9,8 @@ the three scripts on the pinned files, P-842). Main, 2026-11-15, the run the aut
 - **Swept:** `VERDICT topic-sweep /big run|precision bar|P-341|coarse cell|second computation of the values|rule amended/: 2 of 1678 arcs on main match (OPEN 1, PROVED 1); 4 register rows match (DONE 4)`,
   at B1937. This arc is the look those arcs prepared.
 - **The record's earlier looks:** docs/LOOK_LEDGER.md (A9). This run's row is entered there.
+- **The literature:** the statistic is the record's own (P-341, B1720, B1735), and the data are the pinned running
+  masses at M_Z and the PDG mixing moduli. No outside result predicts frame C's values, so none is cited for them.
 
 ## How the look was made
 - **When:** after every condition of the rule was met:

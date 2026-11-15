@@ -17434,8 +17434,8 @@
    "slug": "the big run read frame c fails and the average washes out the hierarchy",
    "motifs": [],
    "refs": [],
-   "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "dynamics"
   },
