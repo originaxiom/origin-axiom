@@ -1,0 +1,258 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Relations_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "derive_su5_universal_1loop_eliminants_exact",
+      "entry_cusp_exponent_exact",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "tropical_svd_exponents_exact",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-RELATIONS-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_amphichiral_determinant_UR6": {
+    "E1_FourPillar_and_AmphichiralDeterminant_UR6_Gate_passed": true,
+    "UR6_universal_amphichiral_determinant_law": {
+      "PC_REL3_OmitHeisenbergCoverLift_min_err_rad": 2.513274122871843,
+      "kill_line_statement": "Falsified with 0 continuous knobs and 0 selection bits if the parity-completed amphichiral determinant phase theta_det exceeds numerical zero.",
+      "level_10_summary": {
+        "PC_REL3_OmitHeisenbergCoverLift_1_minus_b_err_rad": 2.513274122871885,
+        "ir_amphichiral_6x6_block_max_abs_arg_det_rad": 3.663735981263016e-15,
+        "ir_amphichiral_pair_max_abs_arg_det_rad": 3.767962240650601e-15,
+        "ir_parity_sin2_2theta_envelope": [
+          2.343892400914856e-09,
+          0.9999780472576926
+        ],
+        "ir_sec4_r12_envelope": [
+          0.0007154337606911261,
+          0.8186928346481669
+        ],
+        "ir_sec4_r23_envelope": [
+          1.564707797142021e-06,
+          0.0004444502930647104
+        ],
+        "ir_single_slice_max_abs_arg_det_rad": 3.078578893336195,
+        "perturbative_meridian_active_vacua": 68,
+        "total_vacua": 72,
+        "uv_amphichiral_6x6_block_max_abs_arg_det_rad": 2.9420910152566644e-15,
+        "uv_amphichiral_pair_max_abs_arg_det_rad": 3.1502723030089606e-15,
+        "uv_single_slice_max_abs_arg_det_rad": 3.078578893336195
+      },
+      "level_15_summary": {
+        "PC_REL3_OmitHeisenbergCoverLift_1_minus_b_err_rad": 2.5132741228718447,
+        "ir_amphichiral_6x6_block_max_abs_arg_det_rad": 2.4424906541753448e-15,
+        "ir_amphichiral_pair_max_abs_arg_det_rad": 2.4534756942152023e-15,
+        "ir_parity_sin2_2theta_envelope": [
+          1.2275760340156715e-05,
+          0.9999825527874542
+        ],
+        "ir_sec4_r12_envelope": [
+          0.2820841973855345,
+          0.8202433173656399
+        ],
+        "ir_sec4_r23_envelope": [
+          4.448004653942963e-06,
+          7.28266873408138e-05
+        ],
+        "ir_single_slice_max_abs_arg_det_rad": 3.1088355457247117,
+        "perturbative_meridian_active_vacua": 160,
+        "total_vacua": 192,
+        "uv_amphichiral_6x6_block_max_abs_arg_det_rad": 1.7208456881689926e-15,
+        "uv_amphichiral_pair_max_abs_arg_det_rad": 1.720930936005344e-15,
+        "uv_single_slice_max_abs_arg_det_rad": 3.1088355457247117
+      },
+      "level_5_summary": {
+        "PC_REL3_OmitHeisenbergCoverLift_1_minus_b_err_rad": 2.513274122871843,
+        "ir_amphichiral_6x6_block_max_abs_arg_det_rad": 1.5612511283791264e-15,
+        "ir_amphichiral_pair_max_abs_arg_det_rad": 1.500401925113406e-15,
+        "ir_parity_sin2_2theta_envelope": [
+          1.227576281844595e-05,
+          0.9999825305620064
+        ],
+        "ir_sec4_r12_envelope": [
+          0.2820923651496825,
+          0.8202427737738555
+        ],
+        "ir_sec4_r23_envelope": [
+          4.4480141443936985e-06,
+          7.282668643370973e-05
+        ],
+        "ir_single_slice_max_abs_arg_det_rad": 3.0383349074393995,
+        "perturbative_meridian_active_vacua": 20,
+        "total_vacua": 24,
+        "uv_amphichiral_6x6_block_max_abs_arg_det_rad": 1.4432899320127035e-15,
+        "uv_amphichiral_pair_max_abs_arg_det_rad": 1.3754280958632701e-15,
+        "uv_single_slice_max_abs_arg_det_rad": 3.0383349074394
+      },
+      "max_ir_amphichiral_6x6_arg_det_all_248_rad": 3.663735981263016e-15,
+      "max_uv_amphichiral_6x6_arg_det_all_288_rad": 2.9420910152566644e-15,
+      "total_ir_perturbative_vacua_verified": 248,
+      "total_uv_vacua_verified": 288
+    },
+    "four_pillar_rge_solver_gate": {
+      "E1_FourPillar_Literature_RGE_Gate_passed": true,
+      "pillar1_buttazzo_3loop": {
+        "PC_REL3_WrongDiffFactor_err": 0.15131151550036248,
+        "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+        "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+        "lam_planck_abs_err": 6.725958536619656e-05,
+        "log10_Lambda_lam_GeV": 9.792515212710263,
+        "log10_two_Lambda_V_GeV": 9.801029995663981
+      },
+      "pillar2_bbo_noncommuting_2loop_matrix": {
+        "PC_REL3_Commutator_bbo_2loop_rel_err": 0.009398947126822545,
+        "PC_REL3_Commutator_diag_buttazzo_diff": 0.0,
+        "PC_REL3_Commutator_shift_ratio_to_exact": 1.000003630205016,
+        "bbo_eq24_pure_2loop_rel_err": 2.539140692794447e-07
+      },
+      "pillar3_xing_zhou_downward_matrix": {
+        "PC_REL3_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+        "eq18_naumov_rel_err": 8.293714772077242e-15
+      },
+      "pillar4_antusch_weinberg_1loop": {
+        "PC_REL3_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+        "analytical_integral_rel_err": 2.3569601803885482e-15,
+        "weinberg_symmetry_err": 0.0
+      }
+    }
+  },
+  "part_3b_modular_seesaw_UR7_and_haar6": {
+    "E2_ModularSeesaw_CRT15to5_and_Haar6_UR7_Gate_passed": true,
+    "Gate_Haar_Stage3_Relations_U3_power_6": {
+      "PC_REL3_WrongChiralityRGE_err": 0.14357830933405458,
+      "haar_invariance_below_1e_12": true,
+      "ten_trial_max_diff_mp24": 2.523462068456333e-16
+    },
+    "UR7_universal_seesaw_and_crt_fiber_law": {
+      "kill_line_statement": "Falsified with 0 continuous knobs and 0 selection bits on Level-5/15 vacua if sec4_r12 <= 1/4 or sec4_r23 >= 1/1000.",
+      "level_10_ir_sec4_r12_envelope_all_68": [
+        0.0007154337606911261,
+        0.8186928346481669
+      ],
+      "level_15_ir_sec4_r12_envelope_all_160": [
+        0.2820841973855345,
+        0.8202433173656399
+      ],
+      "level_15_to_level_5_W4_sv_crt_max_rel_diff_f64_all_192": 3.1093518959673274e-10,
+      "level_15_to_level_5_W4_sv_crt_max_rel_diff_mp28": 2.4444750270497773e-23,
+      "level_15_to_level_5_Y4_sv_crt_max_diff_all_192": 3.019806626980426e-14,
+      "level_15_to_level_5_parity_sin2_crt_max_diff_mp28": 1.367587659003101e-20,
+      "level_5_10_15_max_sec4_r23_all_248": 0.0004444502930647104,
+      "level_5_ir_sec4_r12_envelope_all_20": [
+        0.2820923651496825,
+        0.8202427737738555
+      ],
+      "pure_3_torsion_8_points_max_parity_sin2_mp28": 1.6334327287131056e-36
+    },
+    "modular_covariant_puncture_jet_checks": {
+      "M_R_S_covariance_rel_err": 8.764601504214615e-37,
+      "M_R_T_covariance_rel_err": 2.858231941331403e-37,
+      "M_R_symmetry_rel_err": 1.598477134594587e-37,
+      "PC_REL3_DiracSesquilinearMismatch_S_err": 0.5451281502429752,
+      "W_4_T_and_S_sv_rel_err": 1.6579920652614243e-35
+    }
+  },
+  "part_3c_consolidated_seven_relation_atlas": {
+    "E3_ConsolidatedSevenRelationAtlas_ZeroKnob_ZeroBit_Gate_passed": true,
+    "campaign_parameter_and_bit_ledger": {
+      "continuous_parameters": 0,
+      "discrete_selection_bits": 0
+    },
+    "universal_relations_atlas_UR1_to_UR7": {
+      "UR1_gauge_eliminant": {
+        "all_1320_histories_2loop_corridor": "[3129/1000000, 4693/1000000]",
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "exact_1loop_value": "0",
+        "formula": "I_gauge = sin^2(theta_EW) - (23/134 + (109/201) * (alpha_3^{-1} / alpha_EM^{-1}))",
+        "surviving_3d_cover_264_histories_corridor": "[4028/1000000, 4205/1000000]"
+      },
+      "UR2_dterm_scalar_stability_and_quartic": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "sqrt_2lam_3d_cover_264_corridor": "[2899/10000, 9106/10000]",
+        "sqrt_2lam_all_1320_corridor": "[2899/10000, 11329/10000]",
+        "strict_stability_all_1320_histories": "lambda_IR > 42/1000 > 0",
+        "uv_law": "lambda_UV = (1/5) * g_UV^2"
+      },
+      "UR3_level5_sec2_sec3_copy_law": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "exact_cusp_gap_ratios": [
+          "39/31",
+          "5/3"
+        ],
+        "uv_identity_all_24_vacua": "sv(Y_3(w; tau)) == sv(Y_2(w; tau))"
+      },
+      "UR4_level15_crt_triality_projection": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "exact_cusp_gap_ratios_sec2": [
+          "15/11",
+          "15/8",
+          "431/190",
+          "15"
+        ],
+        "exact_cusp_gap_ratios_sec3": [
+          "39/31",
+          "5/3"
+        ],
+        "uv_identity_all_192_vacua": "sv(Y_3(w; tau)) == sv(Y_2(6w mod 1; tau))"
+      },
+      "UR5_level10_parity_obstruction_law": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "exact_cusp_gap_ratios_sec2": [
+          "10/7",
+          "31/5"
+        ],
+        "exact_cusp_gap_ratios_sec3": [
+          "29/26",
+          "10/3"
+        ],
+        "obstruction_all_72_vacua": "no integer c in 0..9 equates sv(Y_3(w)) and sv(Y_2(cw mod 1))"
+      },
+      "UR6_amphichiral_determinant_cancellation": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "ir_identity_all_248_perturbative_vacua": "|arg det[Y_1^IR(w)Y_2^IR(w)Y_1^IR(Rw)Y_2^IR(Rw)]| < 1e-12",
+        "uv_identity_all_288_vacua": "|arg det[Y_1(w)Y_2(w)Y_1(Rw)Y_2(Rw)]| < 1e-13"
+      },
+      "UR7_modular_seesaw_and_crt15to5_fiber_law": {
+        "continuous_parameters": 0,
+        "discrete_selection_bits": 0,
+        "ir_sec4_r12_level_5_and_15_all_180_vacua": [
+          0.2820841973855345,
+          0.8202433173656399
+        ],
+        "ir_sec4_r23_upper_bound_all_248_vacua": "< 1/1000",
+        "uv_identity_all_192_vacua": "sv(W_4(w; tau*)) == sv(W_4(6w mod 1; tau*)) and sin^2(2*theta_parity(w)) == sin^2(2*theta_parity(6w mod 1))"
+      }
+    }
+  },
+  "stage_3_gate_passed": true
+}
