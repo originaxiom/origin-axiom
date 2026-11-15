@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M31
-state: active
-on: Campaign X-RELATIONS Stage 3 (Commit 9 of 12: sealing Card X-RELATIONS-3 before writing verifier or outputs; P-862; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-RELATIONS (12 commits)
-next push: upon completion of Commit 12 of 12 (Stage 3 results)
+state: waiting on main
+on: Campaign X-RELATIONS complete (all 3 stages, 12 of 12 blind-sealed commits pushed on agy/self-consistent-loop-2026-11-11; P-862; 0 of 19)
+needs: independent recomputation audit and single-shot unsealing review from main / cc
+next push: pushed at Commit 12 of 12 (Stage 3 results)
 
-## Campaign `X-RELATIONS` Live Ledger (`8 of 12` Blind-Sealed Commits Complete; `P-862`; `0 of 19`)
+## Campaign `X-RELATIONS` Final Ledger (`12 of 12` Blind-Sealed Commits Complete; `P-862`; `Zero Continuous Parameters, Zero Selection Bits`; `0 of 19`)
 
 1. **`Stage 1 / X-RELATIONS-1` (`015b5cd18`, `07a683980`, `f4e2218b5`, `d899e1695`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Relations_Passed = True`.
@@ -13,6 +13,9 @@ next push: upon completion of Commit 12 of 12 (Stage 3 results)
 2. **`Stage 2 / X-RELATIONS-2` (`62b17f6e8`, `78b125767`, `61bbb3788`, `8db09d7ea`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Relations_Passed = True`.
    - Exact piecewise-quadratic cusp valuation theorem (`< 4/100000` vs `950`-digit `mpmath` `3`-point asymptotic extractions); complete `CRT` classification across all `288 = 24 + 72 + 192` primitive vacua at Levels `5` (`UR-3` exact copy `{39/31, 5/3}`), `15` (`UR-4` `CRT` `6w mod 1` triality projection `{15/11, 15/8, 431/190, 15}` vs `{39/31, 5/3}`), and `10` (`UR-5` parity obstruction `{10/7, 31/5}` vs `{29/26, 10/3}`); perturbative Higgs-meridian theorem (`248/248` vacua with `3a notin Z` have `0` blowups); level-wide `2`-loop infrared kill-line envelopes and `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^7`.
+3. **`Stage 3 / X-RELATIONS-3` (`e2fd5237e`, `99589c69f`, `06375e85d`, and this commit):**
+   - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Relations_Passed = True`.
+   - Universal amphichiral `6x6` block determinant cancellation `UR-6` under canonical Heisenberg cover reflection `R(a, b) = (a, -b)` (`< 4 * (1/1000)^5` rad across all `288` UV and all `248` `2`-loop IR vacua, vs `> 5/2` rad single-slice and `4*pi/5` rad without cover lift); exact `T`/`S` modular-covariant puncture-jet seesaw `W_4` (`< (1/1000)^11`), pure `3`-torsion parity collapse (`< (1/1000)^11`), exact `192`-point Level-`15` to Level-`5` `CRT` seesaw projection `UR-7` (`< (1/1000)^6`), infrared `sec4` corridors (`r_12 in [2820/10000, 8203/10000]` across all `180` Level-`5`/`15` vacua, `r_23 <= 445/1000000 < 1/1000` across all `248` vacua), `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^5`, and consolidated `7`-relation (`UR-1..UR-7`) kill-line atlas at `0` continuous parameters and `0` discrete selection bits.
 
 ## Campaign `X-ENDGAME` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
@@ -28,7 +31,7 @@ next push: upon completion of Commit 12 of 12 (Stage 3 results)
 4. **`Stage 4 / X-ENDGAME-4` (`2cf2cf810`, `51d75b899`, `d49d1a621`, `cb68b64b8`):**
    - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_ZeroTargetLiterals_passed = True`.
    - Target-free `(L, R)` bundle `SL(2, C)` holonomy; Wada polynomial `W_bundle(u) = (u - 1)(u^2 - 5u + 1)`; exact Fox-bundle cohomological torsion `2/sqrt(3)` and `7`-point Kashaev state sum; Lorentzian `SL(2, C) ~= Spin+(3, 1)` Plebanski self-dual `B ^ F` soldering; parameter-free `1`-loop non-abelian and gravitational instanton scale ratios.
-5. **`Stage 5 / X-ENDGAME-5` (`117262aed`, `696377629`, `9f3a8b85a`, and this commit):**
+5. **`Stage 5 / X-ENDGAME-5` (`117262aed`, `696377629`, `9f3a8b85a`, `b05424e99`):**
    - `stage_5_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage5_Passed = True`.
    - `4`-pillar published `RGE` solver gate including noncommuting `2`-loop matrix mixing check (`< 3/10000000` relative error) and planted commutator control; zero-knob UV-to-IR evolution (`< 7/10000` max shift between classical `6*pi` and `A_Cas^*`); `10`-trial `24`-digit `U(3)^6` post-`RGE` Haar invariance `< (1/1000)^5`; `(8, 4, 4, 2, 16)` orbit audit and strict monotonicity across all `4` points of `O_4` and all `4` points of `(4/15, 8/15)`'s quartet; complete dimensionless IR ledger sealed at `0` continuous parameters and `8` explicit discrete bits.
 
