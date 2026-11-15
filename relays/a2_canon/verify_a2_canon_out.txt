@@ -1,0 +1,47 @@
+=== A2-CANON-T90: Standalone Whole-Weave 7-Value Read-Out (W_- & W_+, T90 & Old, Move-Count & Area) ===
+
+[0/5] Uniformisation benchmarks, Theorem 90 2D horoball quadrature, planted controls, and symmetries...
+  Grid built in 21.01s | off-grid interp median=6.72e-10, max=1.76e-09
+  T90 vs 2D horoball quadrature: old=1.83e-01, T90=1.15e-04, T90+e4L=1.31e-06, CTL-2 wrong-sign=3.66e-01
+  S-invariance err: T90=3.27e-13, old=2.37e-13 | CTL-1 bad-exp break=1.41e-02
+  CTL-4 arc ratios (80deg): N_T90=3.9993, Lmax=2.0025, sys=2.0002
+  CTL-5 Haar unitary=5.25e-14 | c->-c=1.82e-13 | lep==down=1.55e-15 | 12-bijection=8.16e-14 | trunc=8.88e-16
+
+[1/5] Move-Count Route 1: Exhaustive zero-noise populations n = 8..18 + 600-word n = 22, 28...
+  n =  8:    21 words ( 1.22s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=3.52e-03
+  n = 10:    95 words ( 7.07s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=5.82e-03
+  n = 12:   345 words ( 7.48s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=6.90e-03
+  n = 14:  1325 words (28.31s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=7.09e-03
+  n = 16:  5453 words (170.59s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=6.76e-03
+  n = 18: 21865 words (362.82s) | clamps=(0,0) | max |A(w,mark)-A(w*,twin)|=5.17e-03
+    Deterministic step n=8->10 (exact_T90, W_minus 7): max |Delta R| = 0.026086
+    Deterministic step n=10->12 (exact_T90, W_minus 7): max |Delta R| = 0.011695
+    Deterministic step n=12->14 (exact_T90, W_minus 7): max |Delta R| = 0.006945
+    Deterministic step n=14->16 (exact_T90, W_minus 7): max |Delta R| = 0.003298
+    Deterministic step n=16->18 (exact_T90, W_minus 7): max |Delta R| = 0.002715
+  n = 22 (600w, 25.42s): clamps=(0,0) | paired mark-twin |z| median=0.54
+  n = 28 (600w, 33.99s): clamps=(0,0) | paired mark-twin |z| median=0.97
+
+[2/5] Move-Count Route 2 (Primary): Evaluating 2,000 unconstrained 40-letter words over all 24 order-5 points...
+  Move-count 24-pt ergodic (2,000w x 40L, 983.80s): clamps=(0,0) | max Im(tau_FD)=10.35
+    exact_T90 W_minus median rel SE = 0.215% | split-half median |z| = 0.46
+
+[3/5] Hyperbolic Area Measure: Bulk 2D Gauss-Legendre + multi-panel dynamic mpmath cusp SVD...
+  Area measure completed in 51.08s | bulk coarse-vs-fine err=3.95e-04 | seam y=4.95 f64-vs-mpmath=4.91e-13 | cusp y=200..300 plateau diff=3.42e-28
+  CTL-3 naive float64 cusp SVD corruption: pointwise y=15 max err=1.667e-01, integrated area W_minus max corruption=nan
+
+[4/5] Paired shifts & z-separations across weights, worlds, and measures (7-values in JSON only):
+  Exact T90 vs Old Weight relative shift (7 values):
+    Move-count W_- : min=-1.154%, max=+0.021% (paired |z| range 61.5..622.6)
+    Move-count W_+ : min=-1.141%, max=+0.051% (paired |z| range 77.4..592.8)
+    Area       W_- : min=-1.137%, max=+0.027%
+    Area       W_+ : min=-1.131%, max=+0.076%
+  W_- vs W_+ separation (Move-count, exact_T90): unpaired |z|=2.9..134.1, paired |z|=132.9..616.8
+  Move-count vs Hyperbolic Area separation (exact_T90, in move SEs):
+    W_- |z| range: 148.8..216.4 (median 179.8)
+    W_+ |z| range: 114.5..306.4 (median 168.7)
+  Route 1 (n=28, 600w) vs Route 2 (2000w ergodic) median |z|=1.15 (share>2=20.8%)
+  Area Y_cut max rel bias vs untruncated: Y=5 -> 23.61%, Y=10 -> 11.64%, Y=50 -> 2.22%, Y=200 -> 0.546%
+
+[5/5] Completed in 1711.18s. Writing 7-value read-out vectors strictly to verify_a2_canon_results.json.
+0 of 19.
