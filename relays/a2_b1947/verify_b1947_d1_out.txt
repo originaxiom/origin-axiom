@@ -1,0 +1,22 @@
+=== agy-002 Standalone Verifier: Card A2-B1947 (M40 — Frame D1 / D1' C2 Covariance) ===
+Elapsed: 166.74s | 55-dps mpmath | Mixing computed: False | Blind: True
+
+--- Check C0 & C1 & Algebraic T-Transport Law ---
+  C0 (q_H = 0 vs Frame C B1691 B[1], 3 moduli, +/- reps): max rel err = 7.072e-56
+  Central-diff cross-check of Serre derivative q dR/dq:   max rel err = 2.595e-37
+  C1 (DR(-3) vs DR(+3) with phi = 2*pi*3a, 72 cases):     D1(+) = 1.813e-55, D1(-) = 2.065e-55, D1'(+) = 1.596e-55, D1'(-) = 1.706e-55
+  Exact D1' T-transport component phase law (144 cases):  Rep(+) err = 3.434e-55, Rep(-) err = 3.467e-55
+
+--- Check C2: tau -> tau + 1 Mass-Ratio Covariance (3 bulk moduli x 24 pts x 3 sectors, NO MIXING) ---
+  CTL_untwisted_Frame_C   : passes_C2 = True  | max |d ln(sigma_i/sigma_3)| = 2.6142e-46 (up 0.0000, down 0.0000, lep 0.0000; max |d ratio| = 0.0000; a=0 4-pt stratum = 2.614e-46)
+  D1_rep_plus             : passes_C2 = False | max |d ln(sigma_i/sigma_3)| = 2.7833e+00 (up 2.7833, down 2.2145, lep 2.2145; max |d ratio| = 0.6620; a=0 4-pt stratum = 6.918e-47)
+  D1_rep_minus            : passes_C2 = False | max |d ln(sigma_i/sigma_3)| = 2.7833e+00 (up 2.7833, down 2.2145, lep 2.2145; max |d ratio| = 0.6620; a=0 4-pt stratum = 6.921e-47)
+  D1_prime_rep_plus       : passes_C2 = False | max |d ln(sigma_i/sigma_3)| = 2.7310e+00 (up 2.4917, down 2.7310, lep 2.7310; max |d ratio| = 0.8290; a=0 4-pt stratum = 2.964e-47)
+  D1_prime_rep_minus      : passes_C2 = False | max |d ln(sigma_i/sigma_3)| = 2.7310e+00 (up 2.4917, down 2.7310, lep 2.7310; max |d ratio| = 0.8290; a=0 4-pt stratum = 2.964e-47)
+
+--- Mandatory Controls ---
+  CTL-B1947-UNTWISTED (q_H = 0): max |d ln| = 2.614e-46 (PASS)
+  CTL-B1947-A0-STRATUM:          4/24 points with a=0 give < 1e-45, while 60/60 cases (20 a!=0 pts x 3 moduli) fail > 1e-6 in EVERY sector and EVERY (D1/D1', +/-) variant!
+  CTL-B1947-HAAR (Guardrail 3):  max SU(3)^2 drift = 1.784e-55, planted U^H V drift = 4.097e-01 -> CAUGHT
+
+OUTCOME: NEGATIVE CONFIRMED ON ALL FOUR COMBINATIONS (D1/D1' x Rep+/Rep-). 0 of 19.

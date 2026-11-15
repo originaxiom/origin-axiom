@@ -1,0 +1,443 @@
+{
+  "card": "A2-B1947 (M40)",
+  "seat": "agy-002",
+  "date": "2026-11-15",
+  "blind_before_opening_b1947_findings_or_code": true,
+  "data_free": true,
+  "mixing_computed": false,
+  "working_precision_dps": 55,
+  "elapsed_seconds": 166.74,
+  "C0_untwisted_match_to_B1691_B1": {
+    "max_rel_l2_err_across_3_moduli_both_reps": 7.072418095132143e-56,
+    "central_difference_q_deriv_cross_check_err": 2.5947932703208336e-37
+  },
+  "C1_sign_flip_phase_identity_rel_err": {
+    "D1_+": 1.813079225711891e-55,
+    "D1_-": 2.065129957867108e-55,
+    "D1_prime_+": 1.5962303522578424e-55,
+    "D1_prime_-": 1.706007695793427e-55
+  },
+  "D1_prime_exact_T_transport_component_phase_law_rel_err": {
+    "+": 3.434468750100128e-55,
+    "-": 3.467178821353041e-55
+  },
+  "C2_tau_plus_1_mass_ratio_covariance": {
+    "CTL_untwisted_Frame_C": {
+      "convention": "untwisted",
+      "theta4_rep": "+",
+      "passes_C2": true,
+      "max_abs_ratio_diff_all_sectors": 1.5747722259988695e-51,
+      "max_abs_dln_ratio_reduced_Tw_all_sectors": 2.61423420271348e-46,
+      "max_abs_dln_ratio_unreduced_Tw_all_sectors": 2.61423420271348e-46,
+      "max_abs_dln_on_a_eq_0_stratum_4pts": 2.61423420271348e-46,
+      "by_sector": {
+        "up": {
+          "max_abs_ratio_diff_reduced_Tw": 1.5747722259988695e-51,
+          "max_abs_dln_ratio_reduced_Tw": 2.61423420271348e-46,
+          "max_abs_dln_ratio_unreduced_Tw": 2.61423420271348e-46,
+          "max_abs_dln_on_a_eq_0_stratum": 2.61423420271348e-46,
+          "n_failing_a_nonzero_cases_gt_1e_6": 0,
+          "total_a_nonzero_cases": 60
+        },
+        "down": {
+          "max_abs_ratio_diff_reduced_Tw": 2.5713116163762038e-52,
+          "max_abs_dln_ratio_reduced_Tw": 6.542490590598998e-48,
+          "max_abs_dln_ratio_unreduced_Tw": 6.542490590598998e-48,
+          "max_abs_dln_on_a_eq_0_stratum": 6.542490590598998e-48,
+          "n_failing_a_nonzero_cases_gt_1e_6": 0,
+          "total_a_nonzero_cases": 60
+        },
+        "leptons": {
+          "max_abs_ratio_diff_reduced_Tw": 3.2538334994807608e-52,
+          "max_abs_dln_ratio_reduced_Tw": 8.279111294155029e-48,
+          "max_abs_dln_ratio_unreduced_Tw": 8.279111294155029e-48,
+          "max_abs_dln_on_a_eq_0_stratum": 8.279111294155029e-48,
+          "n_failing_a_nonzero_cases_gt_1e_6": 0,
+          "total_a_nonzero_cases": 60
+        }
+      }
+    },
+    "D1_rep_plus": {
+      "convention": "D1",
+      "theta4_rep": "+",
+      "passes_C2": false,
+      "max_abs_ratio_diff_all_sectors": 0.6619977790014249,
+      "max_abs_dln_ratio_reduced_Tw_all_sectors": 2.78330426453061,
+      "max_abs_dln_ratio_unreduced_Tw_all_sectors": 2.78330426453061,
+      "max_abs_dln_on_a_eq_0_stratum_4pts": 6.917541229196777e-47,
+      "by_sector": {
+        "up": {
+          "max_abs_ratio_diff_reduced_Tw": 0.6619977790014249,
+          "max_abs_dln_ratio_reduced_Tw": 2.78330426453061,
+          "max_abs_dln_ratio_unreduced_Tw": 2.78330426453061,
+          "max_abs_dln_on_a_eq_0_stratum": 6.917541229196777e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "down": {
+          "max_abs_ratio_diff_reduced_Tw": 0.5972870156048801,
+          "max_abs_dln_ratio_reduced_Tw": 2.214460261980781,
+          "max_abs_dln_ratio_unreduced_Tw": 2.214460261980781,
+          "max_abs_dln_on_a_eq_0_stratum": 1.9022226739908728e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "leptons": {
+          "max_abs_ratio_diff_reduced_Tw": 0.5972870156048801,
+          "max_abs_dln_ratio_reduced_Tw": 2.214460261980781,
+          "max_abs_dln_ratio_unreduced_Tw": 2.214460261980781,
+          "max_abs_dln_on_a_eq_0_stratum": 2.0166988604686334e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        }
+      }
+    },
+    "D1_rep_minus": {
+      "convention": "D1",
+      "theta4_rep": "-",
+      "passes_C2": false,
+      "max_abs_ratio_diff_all_sectors": 0.6619977790014249,
+      "max_abs_dln_ratio_reduced_Tw_all_sectors": 2.78330426453061,
+      "max_abs_dln_ratio_unreduced_Tw_all_sectors": 2.78330426453061,
+      "max_abs_dln_on_a_eq_0_stratum_4pts": 6.920967385169168e-47,
+      "by_sector": {
+        "up": {
+          "max_abs_ratio_diff_reduced_Tw": 0.6619977790014249,
+          "max_abs_dln_ratio_reduced_Tw": 2.78330426453061,
+          "max_abs_dln_ratio_unreduced_Tw": 2.78330426453061,
+          "max_abs_dln_on_a_eq_0_stratum": 6.920967385169168e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "down": {
+          "max_abs_ratio_diff_reduced_Tw": 0.5972870156048801,
+          "max_abs_dln_ratio_reduced_Tw": 2.214460261980781,
+          "max_abs_dln_ratio_unreduced_Tw": 2.214460261980781,
+          "max_abs_dln_on_a_eq_0_stratum": 3.3235185509885414e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "leptons": {
+          "max_abs_ratio_diff_reduced_Tw": 0.5972870156048801,
+          "max_abs_dln_ratio_reduced_Tw": 2.214460261980781,
+          "max_abs_dln_ratio_unreduced_Tw": 2.214460261980781,
+          "max_abs_dln_on_a_eq_0_stratum": 2.876989611016321e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        }
+      }
+    },
+    "D1_prime_rep_plus": {
+      "convention": "D1_prime",
+      "theta4_rep": "+",
+      "passes_C2": false,
+      "max_abs_ratio_diff_all_sectors": 0.8289704323874413,
+      "max_abs_dln_ratio_reduced_Tw_all_sectors": 2.7309769878457635,
+      "max_abs_dln_ratio_unreduced_Tw_all_sectors": 2.7309769878457635,
+      "max_abs_dln_on_a_eq_0_stratum_4pts": 2.963649035274719e-47,
+      "by_sector": {
+        "up": {
+          "max_abs_ratio_diff_reduced_Tw": 0.8289704323874413,
+          "max_abs_dln_ratio_reduced_Tw": 2.491739589487811,
+          "max_abs_dln_ratio_unreduced_Tw": 2.491739589487811,
+          "max_abs_dln_on_a_eq_0_stratum": 1.3899728882221987e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "down": {
+          "max_abs_ratio_diff_reduced_Tw": 0.537804399231846,
+          "max_abs_dln_ratio_reduced_Tw": 2.7309769878457635,
+          "max_abs_dln_ratio_unreduced_Tw": 2.7309769878457635,
+          "max_abs_dln_on_a_eq_0_stratum": 2.963649035274719e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "leptons": {
+          "max_abs_ratio_diff_reduced_Tw": 0.537804399231846,
+          "max_abs_dln_ratio_reduced_Tw": 2.7309769878457635,
+          "max_abs_dln_ratio_unreduced_Tw": 2.7309769878457635,
+          "max_abs_dln_on_a_eq_0_stratum": 9.444472647908741e-48,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        }
+      }
+    },
+    "D1_prime_rep_minus": {
+      "convention": "D1_prime",
+      "theta4_rep": "-",
+      "passes_C2": false,
+      "max_abs_ratio_diff_all_sectors": 0.8289704323874413,
+      "max_abs_dln_ratio_reduced_Tw_all_sectors": 2.7309769878457635,
+      "max_abs_dln_ratio_unreduced_Tw_all_sectors": 2.7309769878457635,
+      "max_abs_dln_on_a_eq_0_stratum_4pts": 2.963649035274719e-47,
+      "by_sector": {
+        "up": {
+          "max_abs_ratio_diff_reduced_Tw": 0.8289704323874413,
+          "max_abs_dln_ratio_reduced_Tw": 2.491739589487811,
+          "max_abs_dln_ratio_unreduced_Tw": 2.491739589487811,
+          "max_abs_dln_on_a_eq_0_stratum": 1.3899728882221987e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "down": {
+          "max_abs_ratio_diff_reduced_Tw": 0.537804399231846,
+          "max_abs_dln_ratio_reduced_Tw": 2.7309769878457635,
+          "max_abs_dln_ratio_unreduced_Tw": 2.7309769878457635,
+          "max_abs_dln_on_a_eq_0_stratum": 2.963649035274719e-47,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        },
+        "leptons": {
+          "max_abs_ratio_diff_reduced_Tw": 0.537804399231846,
+          "max_abs_dln_ratio_reduced_Tw": 2.7309769878457635,
+          "max_abs_dln_ratio_unreduced_Tw": 2.7309769878457635,
+          "max_abs_dln_on_a_eq_0_stratum": 9.444472647908741e-48,
+          "n_failing_a_nonzero_cases_gt_1e_6": 60,
+          "total_a_nonzero_cases": 60
+        }
+      }
+    }
+  },
+  "CTL_B1947_HAAR_guardrail3": {
+    "max_haar_su3_ratio_drift": 1.7842629404683466e-55,
+    "planted_lr_overlap_min_drift": 0.4096792437852105,
+    "caught": true
+  },
+  "sample_mass_ratios_json_only": {
+    "CTL_untwisted_Frame_C": {
+      "up": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.13760924728137464,
+          0.0436512996911674
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.13760924728137464,
+          0.0436512996911674
+        ]
+      },
+      "down": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.33026160001912247,
+          0.039169160459595155
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.33026160001912247,
+          0.039169160459595155
+        ]
+      },
+      "leptons": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.33026160001912247,
+          0.039169160459595155
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.33026160001912247,
+          0.039169160459595155
+        ]
+      }
+    },
+    "D1_rep_plus": {
+      "up": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.4658272889164324,
+          0.1317270837158878
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.5923579329405191,
+          0.14236376984112753
+        ]
+      },
+      "down": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.41990225795589253,
+          0.022361856286094554
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.631376013881305,
+          0.06293560515857104
+        ]
+      },
+      "leptons": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.41990225795589253,
+          0.022361856286094554
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.631376013881305,
+          0.06293560515857104
+        ]
+      }
+    },
+    "D1_rep_minus": {
+      "up": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.22372939284689597,
+          0.07298401582358448
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.669244195583135,
+          0.11981049296404056
+        ]
+      },
+      "down": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.7172174799342628,
+          0.028234637364811833
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.6229429183352991,
+          0.05945285493411324
+        ]
+      },
+      "leptons": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.7172174799342628,
+          0.028234637364811833
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.6229429183352991,
+          0.05945285493411324
+        ]
+      }
+    },
+    "D1_prime_rep_plus": {
+      "up": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.405059951437446,
+          0.08436762529068091
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.5388863675099949,
+          0.12209802011954925
+        ]
+      },
+      "down": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.536935005013637,
+          0.03801363873105551
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.6453804214427109,
+          0.06200235654967743
+        ]
+      },
+      "leptons": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.536935005013637,
+          0.03801363873105551
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.6453804214427109,
+          0.06200235654967743
+        ]
+      }
+    },
+    "D1_prime_rep_minus": {
+      "up": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.35392306524060313,
+          0.07090784286260352
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.6558503084729319,
+          0.14085486904840672
+        ]
+      },
+      "down": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.5576940267809491,
+          0.04238634265843493
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.7314086868494628,
+          0.05054273681037477
+        ]
+      },
+      "leptons": {
+        "tau": "0.13+1.45i",
+        "w": [
+          0.2,
+          0.4
+        ],
+        "at_tau_w_r2_r1": [
+          0.5576940267809491,
+          0.04238634265843493
+        ],
+        "at_tau_plus_1_Tw_r2_r1": [
+          0.7314086868494628,
+          0.05054273681037477
+        ]
+      }
+    }
+  }
+}
