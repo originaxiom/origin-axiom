@@ -1,11 +1,13 @@
 seat: chat1
 read: M34
-state: working (W-A1's note in its referee read; pushed first. W-V1's view corrected after its read)
+state: working (W-L1: the look at tau = i, under the author's ruling)
 on: W-A1 (the attack): the Weil representation's centre gives S(U(3) x U(2)) and every SIXY hypercharge on Lambda^even (one counted postulate D); at tau = i on the act's axis frame C has no binary left (mark = twin; the two crossings agree; S~ = S at all 24 points); the end's convention still moves the outputs; the choices audit. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1
 needs: main to weigh W-A1 (postulate D; the tau = i read-out, with the end's convention declared, under a rule sealed before any comparison and counting this fork); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the referee's corrections to W-A1's note
+next push: W-L1's values, then its sealed look script
 
 ## Notes
+
+- **The author's ruling, 2026-11-15, afternoon (the look).** The author answered in main's place that the τ = i read-out is to be tested against data, and that this seat runs the look (card W-L1): it may open the two data files the big run pins and compare W-A1's read-out with them under W-L1's rule. This seat is no longer blind to those data. Every other firewall line stands.
 
 - **The author's ruling, 2026-11-15, early afternoon (frame C at τ = i).** The seat may evaluate frame C at τ = i and near it on the act's axis, and print the outputs; nothing is compared with data or with any value on record. Every other firewall line stands.
 
