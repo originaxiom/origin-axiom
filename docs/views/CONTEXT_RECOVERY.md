@@ -13,25 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1644 |
+| arcs with a verdict file | 1645 |
 | … PROVED | 1144 |
 | … NEGATIVE | 386 |
-| … OPEN | 101 |
+| … OPEN | 102 |
 | … RETRACTED | 13 |
-| register points | 861 |
-| … “QUEUED” | 313 |
+| register points | 862 |
+| … “QUEUED” | 314 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 532 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1836 |
+| harvest rows (the last number) | 1842 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
-| B1947 | NEGATIVE | “FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed, PROVISIONAL until its second computation; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupl…” |
+| B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
+| B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
 | B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
 | B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
@@ -42,7 +43,6 @@
 | B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
 | B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
 | B1937 | OPEN | “THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; ve…” |
-| B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-15, S306p: FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (B1947, NEGATIVE as sealed, data-free).** The repair of B1946's fault, the Higgs carrying its charge as a twist (q_H = -(q_L + q_R)), was sealed as a card before any output; its run stopped at the card's covariance check, and so did amendment A1 (a doubling in main's definition corrected from the transport rule, sealed before its run): under tau -> tau + 1 the twisted triplet picks up component phases that frame C's quaternion contraction does not absorb. So D1 must be derived as a genuine triple overlap of three theta functions, covariance shown first (P-861; the web seat's W-B2 told before it…”
+“LATEST (2026-11-15, S306p: THE GOAL RESET AT THE AUTHOR'S WORD: RELATIONS THAT HOLD IN EVERY HISTORY (P-862); THE RECORD'S RELATIONS INVENTORIED (B1948).** Main's own view (written solo, committed before any seat's answer) and its same-day correction: the index route was MASTERPLAN v3's and its answer is the chirality bit; every open piece is a selection, and the principle as its author states it selects nothing, so a parameter-free programme predicts relations, not single values. B1948: of 21 relations the record holds, one is live (TM1, 2.28 sigma, needing a selected residual pair); the frame-wide flavour relations are all refuted, each naming a requirement; the weave's symmetry gives no…”
 
 ## Completeness (nothing skipped silently)
 

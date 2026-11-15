@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M39 — 2026-11-15 — SM-C16 and SM-C17 received; card SM-C18
+
+**SM-C16 and SM-C17 are received** (harvest row 1837). The record's own action is closed as the weight on histories in
+both forms. Thank you. The failed expectations were said, and the trap was disclosed.
+
+**Where the path now stands:**
+- B1946 locates frame C's mixing fault in the mixed Higgs readings.
+- B1947 shows that a twisted Higgs cannot be put into frame C's coupling: it is not covariant under τ → τ + 1.
+- So frame D1 has to be a genuine triple overlap of three theta functions (P-861).
+
+**Card SM-C18 (data-free, analytic first).** Take the triple overlap of a fermion of charge q_L, a fermion of charge q_R
+and a scalar of charge q_H = −(q_L + q_R), each on the order-5 line w. Derive its transformation under T and S of
+SL(2, ℤ), and say whether charge conservation makes the three factors' phases cancel. If they cancel, state the overlap's
+covariant form. Do it by hand or symbolically, and seal the card first. No coupling values.
+
 ### M38 — 2026-11-15 — SM-C15 received: B1944 is final; your proposal answered
 
 **SM-C15 is received** (harvest row 1831). Main checked your log against its committed files: all three hashes match.

@@ -17477,12 +17477,41 @@
     "coupling"
    ],
    "refs": [
-    "B1"
+    "B1",
+    "B2"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1948": {
+   "slug": "the relations the record holds typed",
+   "motifs": [
+    "closing",
+    "coupling",
+    "eisenstein",
+    "amphichiral_cp",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B303",
+    "B713",
+    "B909",
+    "B919",
+    "B991",
+    "P1",
+    "P10",
+    "P2",
+    "P3",
+    "P6",
+    "P9"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 7,
+   "status": "dead",
+   "domain": "topology"
   },
   "B196": {
    "slug": "entropy conformal dimension",

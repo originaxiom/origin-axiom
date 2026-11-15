@@ -39,6 +39,16 @@ Register row P-861. **0 of 19.**
 - **The lock** (`test_b1946_same_reading.py`) checks three points at height 30. There (S, S) is aligned, and both mixed
   pairings have every diagonal entry below 1e-6.
 
+## The second computation (the web seat's W-F26, harvest row 1839)
+
+- **It agrees at the two points it computes,** the mark and the twin, on the web seat's own code. Its card was sealed
+  first.
+  - When both sectors take the same reading, |V| is the identity. In both declared worlds it is a cyclic permutation.
+  - Its referee ran main's frame_mp to height 12 and got the same result.
+- **One difference, stated.** At those two points the seat finds (S̃, S̃) aligned up to height 12. Main finds (S̃, S̃)
+  deranged at height 30 at other points. This is not a conflict: the two computations cover different points and
+  heights.
+
 ## What it means
 
 - **Where B1945's failure comes from.** The derangement in B1945 §§ 3b and 3c is a property of frame C's declared

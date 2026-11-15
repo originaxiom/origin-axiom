@@ -1,6 +1,6 @@
 # B1947 — Frame D1's coupling: the card sealed before its outputs (P-861)
 
-**Verdict: NEGATIVE** for the construction, as sealed; PROVISIONAL until its second computation (P-842). Frame C's coupling with a twisted Higgs put in is not
+**Verdict: NEGATIVE** for the construction, as sealed. *[FINAL 2026-11-15: its second computation is the web seat's W-B2 (harvest row 1840). On its own code the twisted triplet fails τ → τ + 1 in every sector and both readings, and that part stands after the seat's partial withdrawal (row 1841). agy-002's check from another family is still asked (M40).]* Frame C's coupling with a twisted Higgs put in is not
 covariant, in either twist convention, so frame D1 cannot be had that way. Main, 2026-11-15. Data-free: no mixing or
 mass output was computed. Register row P-861. **0 of 19.**
 
@@ -45,8 +45,15 @@ mass output was computed. Register row P-861. **0 of 19.**
   component to component.
 - **So the Higgs's charge must enter where charge conservation can cancel those phases:** in one overlap of three theta
   functions. That is the construction of magnetized tori, and it is what frame D1 has to be.
-- **The second computation** is owed by a seat of the other family. It should reproduce C2's failure for the
-  construction exactly as sealed (P-842).
+- **The second computation is made:** the web seat's W-B2 (row 1840) reproduces the failure on its own code. agy-002's
+  check from another family is still asked.
+- **The next construction: the Szegő zero.** W-B2 first reported that the other placement, the Higgs's twist on the
+  kernel's Szegő zero, also fails. The seat withdrew that the same day (row 1841): its build had moved matter's own
+  factors too.
+  - Built correctly, with the Szegő zero alone moved, its referee finds the placement covariant under T and S at
+    c = ±2. That computation is not sealed.
+  - At c = −2 it reproduces frame C exactly; c = +2 is a different covariant object.
+  - The seat's sealed stage 3, then main's own check, come next (P-861).
 
 ## Not claimed
 

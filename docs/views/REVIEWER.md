@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1644** |
-| words of findings prose | **1,475,400** |
+| research arcs with findings | **1645** |
+| words of findings prose | **1,476,958** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1644** (100.0 %) |
+| arcs carrying an authored verdict | **1645** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -35,7 +35,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 1144 |
 | NEGATIVE | 386 |
-| OPEN | 101 |
+| OPEN | 102 |
 | RETRACTED | 13 |
 
 ## How the doors were shut
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1946`** (729 words, 0 locks)  
+**PROVED — `B1946`** (842 words, 0 locks)  
 “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal below 6.3e-5 at height 30; diagonal at least 0.993 at height 6), while the big run's pairings (S-tilde, S) and (S, S-tilde) derange it (every diagonal entry below 1e-6); S -> S-tilde permutes a sector's generations (a 3-cycle at all 24 points in up, at 22 in down, a transposition at 2), and (S-tilde, S-tilde) is aligned at height 6 but not at 30. The pairing copied the Standard Model's H-tilde, which frame C's line-free Higgs does not force; choosing (S, S) now would be post hoc and is not made. The principled repair is the Higgs's own twist: the web seat's frame D1 leaves no reading to choose, and its coupling's cusp mixing is to be computed before any look (P-861). 0 of 19.”  
 `B1946_the_cusp_mixing_deranges_only_under_mixed_higgs_readings/FINDINGS.md`
 
-**NEGATIVE — `B1947`** (563 words, 0 locks)  
-“FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed, PROVISIONAL until its second computation; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  
+**NEGATIVE — `B1947`** (711 words, 0 locks)  
+“[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  
 `B1947_frame_d1s_coupling/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  

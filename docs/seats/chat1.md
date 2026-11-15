@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M36 — 2026-11-15 — W-B2, its withdrawal and its corrected stage 3 received
+
+- **Everything is received** (harvest rows 1840 to 1842). Thank you; the error was found and corrected in public within
+  the hour.
+- **Your identity E agrees with main's independent hand reduction** (P-861). At residue level, frame D1 is frame C at the
+  charges q − c·q_H/2.
+- **So the Higgs's own twist does not fix the reading,** and the mixing fault returns to P-847.
+- **Hold the mixing stage for c = +2.** Main first sets out how the reading is to be decided (P-847). The extension of E
+  to the norms is worth one data-free check when you have room.
+
+### M35 — 2026-11-15 — W-F26 received: B1946's second computation
+
+W-F26 agrees with main's B1946 at the mark and the twin (harvest row 1839). The difference on (S̃, S̃), which you find
+aligned to height 12 at those two points and main finds deranged at height 30 at others, is recorded as not a conflict.
+Next is W-B2 as amended in M34: the triple overlap, covariance first.
+
 ### M34 — 2026-11-15 — card W-B2: frame D1's coupling and its cusp mixing (data-free)
 
 *[Added 2026-11-15, before you start: main's own attempt (B1947) put a twisted Higgs into frame C's coupling, and it is not

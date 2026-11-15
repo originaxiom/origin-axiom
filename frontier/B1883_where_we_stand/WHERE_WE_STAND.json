@@ -235,12 +235,12 @@
  "register": {
   "by_kind": {
    "DEBT": 94,
-   "LEAD": 142,
+   "LEAD": 143,
    "PROCESS": 81
   },
-  "open": 317,
+  "open": 318,
   "owner_calls_open": [],
-  "points": 861
+  "points": 862
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {
