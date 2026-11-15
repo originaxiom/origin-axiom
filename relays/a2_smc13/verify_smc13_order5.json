@@ -1,0 +1,82 @@
+{
+  "card": "A2-SMC13 (M33, harvest row 1808)",
+  "seat": "agy-002",
+  "mpmath_dps": 55,
+  "data_free": true,
+  "zero_shared_code": true,
+  "quaternion_transpose_algebra": {
+    "ec_transpose_signs": [
+      -1,
+      1,
+      1,
+      1
+    ],
+    "coup_transpose_signs": {
+      "S": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "tilde_S": [
+        -1,
+        1,
+        1,
+        1
+      ]
+    },
+    "product_signs_S": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "product_signs_tilde_S": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "max_algebraic_sign_residual": 0.0
+  },
+  "order5_exact_copy": {
+    "total_cases_checked": 384,
+    "n_points": 24,
+    "n_moduli": 4,
+    "readings": [
+      "S",
+      "tilde_S"
+    ],
+    "weights": [
+      "exact_T90",
+      "old_weight"
+    ],
+    "max_rel_frob_reduced_Ye_minus_Yd_T": 3.2625815311232543e-56,
+    "max_rel_frob_unreduced_Ye_minus_zeta5_Yd_T": 3.3778569437439526e-54,
+    "min_rel_frob_reduced_Ye_plus_Yd_T": 2.0,
+    "max_sv_ratio_abs_diff": 1.6313261169996311e-55,
+    "holds_to_machine_precision": true
+  },
+  "guardrail3_unitary_basis_scrambling": {
+    "n_random_haar_trials": 12,
+    "max_sv_ratio_drift": 3.3136311751555007e-56,
+    "planted_lr_overlap_min_drift": 0.08464348509876037,
+    "passes_guardrail3": true
+  },
+  "odd_tick_b1926_order10_lift_split": {
+    "n_exact_order10_points": 72,
+    "points_with_sv_split_gt_1e_6": 72,
+    "min_rel_frob_Ye_minus_Yd_T": 0.6445029154175546,
+    "min_sv_ratio_abs_diff": 0.01678636149762035,
+    "max_sv_ratio_abs_diff": 0.3660843869739437
+  },
+  "controls": {
+    "CTL_CHARGE_neg2_6_sv_diff": 0.016384781204099582,
+    "CTL_LEVEL_orders_3_and_7_sv_diff": {
+      "3": 0.09258933241691746,
+      "7": 0.09568766554638218
+    },
+    "CTL_TENSOR_rel_frob_diff": 0.5374453428649971,
+    "all_controls_caught": true
+  }
+}
