@@ -1,18 +1,20 @@
 seat: agy-exp
 read: M31
 state: active
-on: Campaign X-BRIDGE Stage 2 complete (Commits 1-8 of 16 sealed; moving to Stage 3 X-BRIDGE-3; 0 of 19)
+on: Campaign X-BRIDGE Stage 3 Card X-BRIDGE-3 sealed (Commit 9 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-BRIDGE (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-BRIDGE` Live Ledger (`8 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-BRIDGE` Live Ledger (`9 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-BRIDGE-1` (`df626999e`, `4c45865ad`, `0e2bdf305`, `14aea720a`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Bridge_Passed = True`.
    - Punctured vs closed mapping-torus carrier repair (`H^2(X; Z) = 0` on punctured `m004` vs `Z` on closed recovery; `H^2(X^(4); Z) ~= Z/3Z (+) Z/15Z` Smith `(3, 15)` preserving all `45` torsion classes; relative cohomology `H^2(X, dX; Z) ~= Z` via Seifert longitude cokernel); blind zero-import `85`-digit second computation of `physical`'s `a00bcb88e` boundary-law packet (`SAME` across all `4` check groups to `< (1/1000)^28`); explicit Jacobi-theta Wronskian proof of `chi(V(m*p)) - chi(V) = 3*m` (`minimal nonzero quadratic unit m in {-1, +1} -> |Delta chi| = 3`).
-2. **`Stage 2 / X-BRIDGE-2` (`a3215ef52`, `ded84e2c3`, `167eb6b8b`, and this commit):**
+2. **`Stage 2 / X-BRIDGE-2` (`a3215ef52`, `ded84e2c3`, `167eb6b8b`, `a80e44b7d`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Bridge_Passed = True`.
    - `100`-digit adjoint conversion of right-acting Luo–Xiao eqs. `6–7` to left-acting `BPV` `JHEP 09 (2014) 098` eq. `27` (`exact 0 Frobenius residual`, `delta d/dt Tr(H_1 H_2) = (3/2) Tr([H_1, H_2]^2) < 0` to `< (1/1000)^33`); repaired `PRD 47, 2038` rank-`1` `2`-loop mixing benchmark at exact coefficient `11/2` (`< (1/1000)^21` in `100`-digit `mpmath`, `< 4/10000000` in `f64`, rejecting un-transposed `7` by `> 18/1000`); side-by-side `old vs repaired` UV-to-IR trajectory audit (`f64` and `32`-digit `mpmath` agree on the shift to `< 2 * (1/1000)^5`, max shift `< 5/100000000` abs / `< 3/1000000` rel across Levels `5, 10, 15`, amphichiral `6x6` phase `< 2 * (1/1000)^5` rad); `10`-trial `24`-digit `U(3)^6` Haar invariance `< 3 * (1/1000)^6`.
+3. **`Stage 3 / X-BRIDGE-3` (`this commit` — Commit `1` of `4`):**
+   - Pre-registered expectations sealed in `relays/cards/AGY-EXP_X-BRIDGE-3_majorana-petersson-fujikawa-strong-cp-and-sl2z-gramian-bridge.md` before `relays/x_bridge_3_verify/` exists.
 
 ## Campaign `X-RELATIONS` Final Ledger (`12 of 12` Blind-Sealed Commits Complete; `P-862`; `Zero Continuous Parameters, Zero Selection Bits`; `0 of 19`)
 
