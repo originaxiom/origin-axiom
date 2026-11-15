@@ -1,1 +1,46 @@
 grid points: 154 | points of order 5: 24
+frame done in 1340 s
+PL1 holds: True | PL2 the arithmetic composition fails somewhere: True | the geometric one holds: True
+X1 holds: True
+  the mark's height law (mean over columns): log F(6) - log F(2), and the slope per unit of Im tau:
+   up|S|r2          -8.771    -2.145
+   up|S|r3         -11.100    -2.838
+   up|St|r2         -8.789    -2.118
+   up|St|r3        -20.472    -5.213
+   down|S|r2        -5.688    -1.361
+   down|S|r3       -12.400    -3.192
+   down|St|r2       -5.618    -1.340
+   down|St|r3      -15.181    -3.832
+   lep|S|r2         -5.688    -1.361
+   lep|S|r3        -12.400    -3.192
+   lep|St|r2        -5.618    -1.340
+   lep|St|r3       -15.181    -3.832
+X2 holds: True (49 of 55 bulk points) | X3 holds: False (0 of 55)
+  the fibre over the bulk points, per sector ratio: median of max_p/min_p, median of A/G
+   up|S|r2              2.17      1.03
+   up|S|r3              14.8      1.32
+   up|St|r2             2.24      1.03
+   up|St|r3             20.8      1.52
+   down|S|r2            1.94      1.03
+   down|S|r3            12.2      1.29
+   down|St|r2           1.96      1.03
+   down|St|r3           9.45      1.26
+   lep|S|r2             1.94      1.03
+   lep|S|r3             12.2      1.29
+   lep|St|r2            1.96      1.03
+   lep|St|r3            9.45      1.26
+X4 holds: False | mu's shares above 1.5, 2, 3, 4: {1.5: 0.3839, 2.0: 0.1681, 3.0: 0.0346, 4.0: 0.0071} | clamped above the grid's top: 0.0003 | nodes: 950783
+X5 holds: True
+  the read-outs (no comparison with anything measured): A_read (frame C's form), G_read (geometric), A/G
+   up|S|r2            0.3599      0.2167      1.66
+   up|S|r3           0.03892     0.01644      2.37
+   up|St|r2           0.3741      0.2268      1.65
+   up|St|r3          0.05528     0.01905       2.9
+   down|S|r2          0.3544      0.2162      1.64
+   down|S|r3           0.032      0.0162      1.98
+   down|St|r2         0.3506      0.2115      1.66
+   down|St|r3        0.02402     0.01225      1.96
+   lep|S|r2           0.3544      0.2162      1.64
+   lep|S|r3            0.032      0.0162      1.98
+   lep|St|r2          0.3506      0.2115      1.66
+   lep|St|r3         0.02402     0.01225      1.96
