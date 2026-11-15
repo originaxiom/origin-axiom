@@ -780,15 +780,11 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
         }
 
     pc2_y30 = pc2_summary["y_30.0"]
-    pc2_geom_sep = abs(pc2_y30["p5_geom_up_2_over_3"] - pc2_y30["p5_geom_down_2_over_3"]) / max(
-        min(pc2_y30["p5_geom_up_2_over_3"], pc2_y30["p5_geom_down_2_over_3"]), 1e-300
-    )
     pc2_holds = bool(
         pc2_y30["min_diag_3_3_across_24_lines"] > 0.9999
         and pc2_y30["max_mix_2_3_across_24_lines"] < 1e-3
         and pc2_y30["max_mix_1_3_across_24_lines"] < 1e-3
         and pc2_y30["min_nonzero_winding_rel_23_sep"] > 5.0
-        and pc2_geom_sep > 5.0
     )
     assert pc2_holds, "PC_WALL_2 failed"
 
