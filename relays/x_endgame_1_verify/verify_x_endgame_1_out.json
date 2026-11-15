@@ -1,0 +1,85 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "disallowed_imports_count": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-ENDGAME-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_cohomology_and_weil_monodromy": {
+    "E1_Global_Cohomology_and_Weil_Order4_passed": true,
+    "J_squared_equals_M": true,
+    "M_equals_commutator_T_Sinv": true,
+    "PC_ENDGAME1_EvenSpinWeil_T_closure_err": 1.1252882628128795,
+    "UM2_minus_I_frobenius": 2.8284271247461903,
+    "UM4_minus_I_frobenius": 8.2929492000244e-51,
+    "UM_eigenvalue_match_1_i_minusi_err": 8.073784717161292e-51,
+    "UM_minus_I_frobenius": 2.0,
+    "UM_unitarity_err": 5.778964119178586e-51,
+    "abs_det_MT_minus_I": 1,
+    "det_UM_minus_1_abs": 2.6742634763750896e-51,
+    "h2_pullback_factor_J_chirality_flip": -1,
+    "h2_pullback_factor_M": 1,
+    "route_A_vs_B_weil_max_diff": 1.208601529746455e-48,
+    "weil_intertwining_verify_max_err": 8.530893874870388e-51
+  },
+  "part_1b_cayley_hamilton_and_superselection": {
+    "E2_Cayley_Hamilton_Order15_and_Superselection_card_strict_passed": false,
+    "E2_global_max_and_O4_O32_gap60_passed": true,
+    "PC_ENDGAME1_Degree2Cover_abs_det": 5,
+    "PC_ENDGAME1_Degree2Cover_order15_count": 0,
+    "abs_det_M4_minus_I": 45,
+    "cayley_hamilton_M2_plus_I_equals_3M": true,
+    "incoherent_32pt_sec1_r12": 0.9965419857739383,
+    "ker_M4_order_counts": {
+      "1": 1,
+      "15": 32,
+      "3": 8,
+      "5": 4
+    },
+    "ker_M4_total_points": 45,
+    "single_vacuum_4_15_8_15_sec1_r12": 0.25119812270573805,
+    "twin_pair_count_bits_log2_16": 4.0,
+    "v_cas_at_zero_holonomy": 84.76675108325419,
+    "v_cas_max_in_O4_union_O32": 21.747245510863955,
+    "v_cas_max_nonzero_in_ker_M4_pure_b_3torsion": 84.41362354165904,
+    "v_cas_min_nonzero_in_ker_M4": -87.19250355665838,
+    "v_cas_zero_minus_max_O4_O32_gap": 63.01950557239024,
+    "v_cas_zero_minus_max_all44_gap": 0.3531275415951569,
+    "v_zero_is_strict_global_maximum_over_all45": true
+  },
+  "part_1c_derived_uv_norms": {
+    "E3_Derived_UV_Gauge_and_Yukawa_Norms_passed": true,
+    "Gate_Haar_Stage1_max_diff_10_trials": 1.4210854715202004e-14,
+    "PC_ENDGAME1_PureHyperchargeCollar_sec2_over_sec3": 11806653074.40496,
+    "g1_sq_over_g2_sq": 1.0000000000000002,
+    "g2_sq_over_g3_sq": 1.0,
+    "gauge_trace_unification_max_err": 2.220446049250313e-16,
+    "raw_flat_base_s3_sec1_over_sec2": 0.8479162368574963,
+    "raw_flat_base_s3_sec2_over_sec3": 1.0422057833174287,
+    "t3r_collar_kappas": {
+      "L_L": 0.0,
+      "Q_L": 0.0,
+      "sec1_R": 1.0,
+      "sec2_R": -1.0,
+      "sec3_R": -1.0
+    },
+    "t3r_collar_s3_sec1_over_sec2": 27.089012145430935,
+    "t3r_collar_s3_sec2_over_sec3": 1.0422057833174287,
+    "t3r_sec23_unification_shift": 0.0
+  },
+  "stage_1_card_strict_gate_passed": false,
+  "stage_1_mathematical_substance_passed": true
+}
