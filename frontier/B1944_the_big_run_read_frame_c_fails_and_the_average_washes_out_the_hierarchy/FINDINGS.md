@@ -66,7 +66,7 @@ the three scripts on the pinned files, P-842). Main, 2026-11-15, the run the aut
   - But the move count and the area alike give most of their weight to the bulk, where the ratios are of order 0.01 to
     1.
 - **So the step that removed τ as an input (B1928's average, the same at every point) also removed the hierarchy.**
-- **What it points to:** a read-out that gives the cusp its weight by a principle, or a localized one. Finding where
+- **What it points to:** a read-out that gives the cusp its weight by a principle, or a localized one. *[CORRECTED 2026-11-15, B1945 § 4: for this family that is not open ground. The single lines' cusp limits fail W178's skeleton test (harvest row 1497), and the best single τ on the order-5 lines fails (B1698). What survives is structural: at order 5 the leptons copy the down quarks, and P-845's fork of the level is how the frame separates them. The one untested cusp pattern is the averaged one (B1945 § 3; P-859).]* Finding where
   the pointwise ratios meet the measured ones would be a post-hoc look. It is not done here, and nothing in frame C is
   adjusted after this look.
 - **∣V_us∣ is the one row near its value in every option** (0.89 to 1.47). The calibration says a pattern this good is

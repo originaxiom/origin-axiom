@@ -1,0 +1,1 @@
+B1659's law det Y = 4 det S det M tr(eps S M^T) on frame C: worst relative residual 1.8e-30 over 48 cases

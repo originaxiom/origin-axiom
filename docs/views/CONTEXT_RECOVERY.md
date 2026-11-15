@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1641 |
-| … PROVED | 1142 |
+| arcs with a verdict file | 1642 |
+| … PROVED | 1143 |
 | … NEGATIVE | 385 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
-| register points | 858 |
-| … “QUEUED” | 312 |
+| register points | 859 |
+| … “QUEUED” | 313 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 530 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1827 |
+| harvest rows (the last number) | 1829 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 | B1944 | NEGATIVE | “THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
@@ -42,7 +43,6 @@
 | B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
 | B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
-| B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-15, S306p: THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (B1944, NEGATIVE as sealed; PROVISIONAL until SM-C15).** Every condition of the rule met (all four options recomputed independently; the S* condition; two cold reads; a green fresh-clone suite), the look made on 2a4d98d43 and its outputs committed unread (a3d54c621): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, 22 % of random targets as good; version 1 FAIL too. Every mass ratio of the average is too large (about 10 times for s/b to thousands for u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near in every option, which the calibration calls ge…”
+“LATEST (2026-11-15, S306p: FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES', AND ITS AVERAGE TAKES THEIR MINIMA (B1945, PROVED at leading order, data-free).** At each of the 24 points the mass ratios fall as exact powers of |q| fixed by the point's first coordinate: every second-generation rate is B1788's closed form and the slope-2/5 points are W178's tuple, so the exact weight does not move them; the first generation too is B1788's tropical rule (all 192 cells), resting on B1659's determinant law, which holds on frame C exactly. The average takes the minima (up 1/10 and 1/2; down 1/5 and 11/20 or 1/2), a pattern mixing points that no single line has. B1944's pointer to a cusp-weighted read-…”
 
 ## Completeness (nothing skipped silently)
 

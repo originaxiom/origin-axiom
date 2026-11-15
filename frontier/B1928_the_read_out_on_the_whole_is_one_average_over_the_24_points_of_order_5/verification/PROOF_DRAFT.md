@@ -1,6 +1,6 @@
 # The read-out on the whole has a limit, the same at every point of order 5 — main's draft proof (2026-11-14; P-845)
 
-*Main's draft, before any check; a seat's check is owed before it is banked. Standard ergodic theory applied to the
+*[2026-11-15: banked PROVED on 2026-11-14 (FINDINGS, "Upgrade to PROVED"); checked independently by agy-exp (harvest row 1798) and by agy-002 (A2-LIMIT, row 1828).]* *Main's draft, before any check; a seat's check is owed before it is banked. Standard ergodic theory applied to the
 record's objects; each standard fact is cited, not re-proved.*
 
 ## Setting
@@ -46,7 +46,7 @@ R_n → ∫ F̄ dμ as n → ∞, where:
 3. **The level-5 extension.** The holonomy of a word in G = SL(2, F₅) is a cocycle over the shift. The letters'
    images generate G, and G = 2I is perfect, so no homomorphism G → ℤ/d with d > 1 exists. Hence the skew product of
    the full shift by G is topologically mixing (the standard criterion for finite group extensions; Parry and
-   Pollicott, Astérisque 187–188, ch. 8, the Chebotarev-type theorem for closed orbits).
+   Pollicott, Astérisque 187–188, ch. 8, the Chebotarev-type theorem for closed orbits). *[2026-11-15, agy-002's A2-LIMIT: Parry and Pollicott's ch. 8 orders closed orbits by hyperbolic period; here the words are ordered by their length n with equal weight. The step used is the finite-group case for the shift itself: the letter walk on G has a spectral gap (second eigenvalue modulus √3/2, FINDINGS, "Upgrade to PROVED"), which is agy-exp's and agy-002's proof of H3.]*
    - So the holonomies of the words of length n equidistribute in G, jointly with the Birkhoff averages.
    - In particular, the allowed words have proportion |Stab(±v)|/|G| → 10/120 = 1/12.
    - Conditioned on that, the lifted Birkhoff average along the closed orbit through the mark's sheet converges to
@@ -73,7 +73,7 @@ or one of H1 to H3.
 ## Addendum (2026-11-14, morning): H2 and H3 argued (main; the seat's check still owed)
 
 - **H2, tightness.** The base measures (uniform on the periodic points of period n) converge weak-* to ν on the compact
-  shift space. The suspension is not compact, because the roof r is unbounded near L^∞ and R^∞. But r grows only like
+  shift space. The suspension is not compact, because the roof r is unbounded near L^∞ and R^∞. *[CORRECTED 2026-11-15, agy-002's A2-LIMIT: the Review 82 correction (step 1 above; FINDINGS) had not reached this line. The roof vanishes at L^∞ and R^∞ (a syllable L^m R has length 2 arccosh((m + 2)/2) over m + 1 letters) and is unbounded, like ln k + ln m, at a switch … L^k · R^m …. The run-length tails 2^(−k) 2^(−m) give the same uniform integrability, so the conclusion stands.]* But r grows only like
   the logarithm of the length of the run of one letter at the crossing, and under ν, and under every ν_n for runs
   shorter than n, a run of length k has probability of order 2^(−k). So ν_n(r > t) is super-exponentially small in t,
   uniformly in n: r is uniformly integrable. Weak-* convergence of ν_n with a uniformly integrable roof gives weak-*
@@ -89,6 +89,6 @@ or one of H1 to H3.
   mean 0.792 at n = 20, 50, 100 and 200, with spread 0.068, 0.043, 0.030 and 0.021, falling like 1/√n. The longest run
   grows like log₂ n (mean 4.7 at n = 20, 8.0 at n = 200). A run of 2 log₂ n + 4 or more occurs in 0.2 % of words or
   fewer.
-- **So H1 to H3 are met as argued by main.** The verdict stays OPEN until agy-002's independent check of the sketch
+- **So H1 to H3 are met as argued by main.** *[2026-11-15: superseded; banked PROVED on agy-exp's independent proof (row 1798); agy-002's check arrived as the third (row 1828), the same on all three.]* The verdict stays OPEN until agy-002's independent check of the sketch
   (M26) and its computation of B1924 (M23 to M25), as the rule of a second computation asks.
 

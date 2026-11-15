@@ -17138,7 +17138,7 @@
     "P3"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 11,
+   "obstacle_conf": 12,
    "status": "banked",
    "domain": "physics"
   },
@@ -17438,6 +17438,19 @@
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1945": {
+   "slug": "the frames cusp exponents",
+   "motifs": [
+    "choice",
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B196": {
    "slug": "entropy conformal dimension",

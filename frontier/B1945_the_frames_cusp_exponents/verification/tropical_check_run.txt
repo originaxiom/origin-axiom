@@ -1,0 +1,2 @@
+B1788's tropical rule against frame C: 192 cells, worst |difference| 1.2e-03
+planted: the up quark's charge -3 for -4 in the rule: 80 cells break

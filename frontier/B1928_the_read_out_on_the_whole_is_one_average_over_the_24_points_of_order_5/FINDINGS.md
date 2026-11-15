@@ -1,6 +1,6 @@
 # B1928 — The read-out on the whole is one average over the 24 points of order 5: a draft proof of the limit, and its prediction confirmed
 
-**Verdict: OPEN** (a proof sketch from standard ergodic theory, with three hypotheses to check; its numerical prediction
+**Verdict: OPEN** *[UPGRADED 2026-11-14 to PROVED; see "Upgrade to PROVED" below]* (a proof sketch from standard ergodic theory, with three hypotheses to check; its numerical prediction
 confirmed at the record's resolution; a seat's check of the proof is owed). cc (main), 2026-11-14 (S306p). Values are
 in the json files only, written before any comparison; none is set beside a measured number. **0 of 19.**
 
@@ -144,6 +144,20 @@ on the proof sketch. The sketch's check by agy-002 (A2-LIMIT, M26) is still owed
 - **Verdict upgraded from OPEN to PROVED:** the read-out on the whole converges to the frame averaged over the 24 points
   of order 5 against the path measure, the same at every reading point. Main's sketch and its H1 to H3 stand, with
   agy-exp's independent proof and the correction. agy-002's check (A2-LIMIT) would be a third.
+- **The third check (2026-11-15; agy-002's A2-LIMIT, harvest row 1828, read through the mask).** The same on H1, H2 and
+  H3.
+  - **It found one fault in the record.** The correction of the roof's locus had reached step 1 of the proof draft and
+    this page, but not the draft's addendum. That line is now marked.
+  - **Its other points:**
+    - Its H3 is the same spectral-gap argument as agy-exp's. Its note that Parry and Pollicott order orbits by
+      period, not by word length, is marked at step 3.
+    - The parabolic words L^n and R^n are already excluded, in the setting ("containing both letters") and in
+      B1924's code (`"L" in w and "R" in w`; `geodesic()` asserts a hyperbolic word).
+    - Its H1 note: `h1_check.py` tests the length-2 end only, while `fiber_ergodic.py` also averages B1924's constant
+      ends. That is true. The constant ends are not the governing end, so the note is not load-bearing.
+  - **One of its numbers is wrong.** It puts the double-precision underflow of σ₁/σ₃ at heights 8 to 9. B1940 measured
+    m₁/m₃ ≈ 2e-11 at height 9 and τ → τ + 1 holding to 1e-5 there; the failure starts above 11. B1940's
+    extended-precision frame already covers every height above 6, so nothing changes.
 - **What it removes:** τ and the reading point, as inputs of the read-out on the whole. What remains is named in
   register row P-845: the measure, the end's regularity condition, the Higgs reading's global bit, the frame's other
   choices, and the lepton rows' dependence on the down rows at level 5.

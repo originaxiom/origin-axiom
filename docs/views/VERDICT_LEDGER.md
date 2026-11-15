@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1641 of 1641 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1642 of 1642 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1142)
+## PROVED (1143)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1154,6 +1154,7 @@
 | `B1941` | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and either channel weight, the log-determinant weight prefers W- (the record's practice) at all 28 points, so no measure reverses it; the one-loop trace term listed beside it prefers W+ at all 28, with a size set by an overall scale frame C does not fix. By P-831's test the selection rests on the choice of functional: a candidate principle, not a derivation. 0 of 19.” |  | 0 |
 | `B1942` | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton twists at the order-5 point 6w, so the leptons' average over the 192 points equals their order-5 average, the down rows transposed (B1934), while the quarks, whose charges are not divisible by 3, move by 20 % to over 100 %; so the two candidate levels for the leptons say opposite things: order 10 (the prime 2) gives the leptons new rows and keeps frame C's quarks, order 15 (the prime 3) keeps the leptons at the copy and moves the quarks. Which level the object picks is open (P-845). 0 of 19.” |  | 0 |
 | `B1943` | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.” |  | 0 |
+| `B1945` | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4). B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.” |  | 0 |
 
 ## NEGATIVE (385)
 
