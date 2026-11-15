@@ -16,6 +16,7 @@ sys.path.insert(0, str(next((ROOT / "frontier").glob("B1945_*")) / "verification
 import determinant_law as DL, cusp_mixing as CM
 FM = DL.FM; mp = DL.mp; B = FM.B; te = FM.te; H = FM.H; f2m = FM.f2m
 QH = {"up": 3, "down": -3, "lep": -3}
+V2 = "--v2" in sys.argv          # Amendment A1 (CARD.md): D1', the Higgs twisted by (q_H a, q_H b)
 assert all(B.SIXY[B.SECTORS[s][0]] + B.SIXY[B.SECTORS[s][1]] + QH[s] == 0 for s in QH)       # charge conservation
 
 
@@ -36,7 +37,7 @@ def R_tw(t, ta, tb, rep="+"):
 
 def S_comps(t, qH, a, b, rep="+"):
     """the components of S_D1 = sum_k (D R)_k Q_k at tau = t, twisted by twist_of(qH w), w = (a, b)"""
-    ta, tb = qH * a, 2 * qH * b
+    ta, tb = (qH * a, qH * b) if V2 else (qH * a, 2 * qH * b)       # A1: D1' carries matter's residue convention (q a, q b)
     R = R_tw(t, ta, tb, rep); e2 = E2(t)
     dR = [mp.diff(lambda z, k=k: R_tw(z, ta, tb, rep)[k], t) / (2j * mp.pi) for k in range(3)]
     return [dR[k] + e2 * R[k] / 24 for k in range(3)]
@@ -108,7 +109,7 @@ if __name__ == "__main__":
         print("C2: covariance of frame D1 under tau -> tau + 1, worst difference by representative %s; chosen: %s" % ({r: "%.1e" % v for r, v in w2.items()}, rep), flush=True)
         out = {"C2": w2, "representative": rep}
         if rep is None:
-            (pathlib.Path(__file__).resolve().parent / "d1_outputs.json").write_text(json.dumps(out, indent=1))
+            (pathlib.Path(__file__).resolve().parent / ("d1v2_outputs.json" if V2 else "d1_outputs.json")).write_text(json.dumps(out, indent=1))
             raise SystemExit("C2 fails for both representatives: D1 is undefined in this form (the card's rule)")
         for y in ("6.0", "30.0"):
             rows = []
@@ -124,4 +125,4 @@ if __name__ == "__main__":
                     rows.append({"point": [str(a), str(b)], "V": A, "up": [su[1] / su[0], su[2] / su[0]], "down": [sd[1] / sd[0], sd[2] / sd[0]]})
             out[y] = rows
             print("height %s: smallest diagonal |V| %.3e, largest off-diagonal %.3e" % (y, min(min(r["V"][k][k] for k in range(3)) for r in rows), max(max(r["V"][p][q] for p in range(3) for q in range(3) if p != q) for r in rows)), flush=True)
-        (pathlib.Path(__file__).resolve().parent / "d1_outputs.json").write_text(json.dumps(out, indent=1))
+        (pathlib.Path(__file__).resolve().parent / ("d1v2_outputs.json" if V2 else "d1_outputs.json")).write_text(json.dumps(out, indent=1))

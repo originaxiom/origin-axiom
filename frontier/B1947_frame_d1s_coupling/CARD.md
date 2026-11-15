@@ -88,3 +88,22 @@ The classification is made at height 30:
 - The weight on the surface.
 - The web seat's independent construction (W-B2). It may define the overlap differently, and any difference will be
   named when both are in.
+
+## Amendment A1 (2026-11-15, after the sealed run stopped at C2; sealed before its own run)
+
+- **What happened.** The sealed run (`verification/d1_run.txt`, `d1_outputs.json`) stopped at C2. D1 as defined above
+  is not covariant under τ → τ + 1 for either representative: the worst differences are 8.0 (+) and 1.6 (−). Frame C's
+  own harness, with no twist, gives 3e-16. By the card's rule, D1 is undefined in that form. No mixing output was
+  computed.
+- **The cause, main's error in the definition.**
+  - The card twisted the Higgs's theta constants by (q_H a, 2q_H b), copying twist_of's first leg.
+  - Matter's residues do not carry that pair. They combine the two legs into the characteristic
+    ((q_L ± q_R)a, (q_L ± q_R)b), with the second component halved (bp = (x₁ + y₁)/2 in the frame's code).
+  - Under τ → τ + 1 a theta characteristic moves as β → β + α + ½, and the points move as b → b − a (B1724; checked on
+    frame C to 2e-16).
+  - Those agree for a characteristic (q a, q b) and disagree for (q a, 2q b), unless q a is an integer.
+  - This is derived from the transport rule, not from any output.
+- **D1′, the corrected definition.** The Higgs's theta constants carry the characteristic shift (q_H a, q_H b), the
+  convention of matter's residues. Everything else in this card stands: the charge q_H = −(q_L + q_R), the Serre
+  derivative, no reading, C2 with its rule, and the classification at height 30.
+- **The run** is `verification/d1_coupling.py --run --v2`. Its outputs go to `d1v2_outputs.json`.

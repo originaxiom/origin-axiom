@@ -1,0 +1,2 @@
+C2: covariance of frame D1 under tau -> tau + 1, worst difference by representative {'+': '8.0e+00', '-': '1.6e+00'}; chosen: None
+C2 fails for both representatives: D1 is undefined in this form (the card's rule)
