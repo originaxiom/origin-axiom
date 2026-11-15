@@ -1,0 +1,110 @@
+{
+  "status": "PRELIMINARY_AUTHOR_CHECK_UNBANKED",
+  "python": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "mpmath": "1.3.0",
+  "source_sha256": "68a0b11eda51daa3dd25ca960600cd2bf4a871031e93dd929c7f9339396557f3",
+  "checks": {
+    "finite_cell_response": {
+      "bulk_cells": 4,
+      "boundary_edges": 5,
+      "circulation": "47520/28069",
+      "curvature_flux": "47520/28069",
+      "relative_winding": "3",
+      "uniform_curvature": "14850/28069",
+      "conserved_current": "-13860/28069",
+      "on_shell_energy": "20790/28069",
+      "Schur_formula_matches_KKT": true,
+      "full_gauge_energy_change": "0",
+      "dropped_phase_gauge_energy_change": "335501353/177811200",
+      "wrong_source_sign_detected": true
+    },
+    "reference_and_sector_controls": {
+      "zero_curvature_relative_classes": [
+        {
+          "winding": -3,
+          "bulk_flux": "0",
+          "boundary_eta_period": "3",
+          "relative_number": "-3"
+        },
+        {
+          "winding": -1,
+          "bulk_flux": "0",
+          "boundary_eta_period": "1",
+          "relative_number": "-1"
+        },
+        {
+          "winding": 0,
+          "bulk_flux": "0",
+          "boundary_eta_period": "0",
+          "relative_number": "0"
+        },
+        {
+          "winding": 1,
+          "bulk_flux": "0",
+          "boundary_eta_period": "-1",
+          "relative_number": "1"
+        },
+        {
+          "winding": 3,
+          "bulk_flux": "0",
+          "boundary_eta_period": "-3",
+          "relative_number": "3"
+        }
+      ],
+      "energy_coefficient": "77/380",
+      "nonzero_minimizers": [
+        -1,
+        1
+      ],
+      "energy_n3_over_n1": "9",
+      "soft_flux_fraction": "9/7000000000009",
+      "stiff_flux_fraction": "9000000000000/9000000000007",
+      "orientation_even_energy": true
+    },
+    "cut_and_source_controls": {
+      "cuts": [
+        {
+          "core_area": "1/2",
+          "tail_area": "5/2",
+          "old_fixed_flux_circulation": "5/2",
+          "old_fixed_flux_energy": "7/5",
+          "phase_source_circulation": "165/251",
+          "phase_source_energy": "2772/1255",
+          "phase_source_total_added_curvature": "0"
+        },
+        {
+          "core_area": "1",
+          "tail_area": "2",
+          "old_fixed_flux_circulation": "2",
+          "old_fixed_flux_energy": "7/5",
+          "phase_source_circulation": "55/51",
+          "phase_source_energy": "77/34",
+          "phase_source_total_added_curvature": "0"
+        },
+        {
+          "core_area": "5/2",
+          "tail_area": "1/2",
+          "old_fixed_flux_circulation": "1/2",
+          "old_fixed_flux_energy": "7/5",
+          "phase_source_circulation": "275/157",
+          "phase_source_energy": "924/157",
+          "phase_source_total_added_curvature": "0"
+        }
+      ],
+      "fixed_flux_cut_invariance": true,
+      "fixed_local_source_changes_when_its_location_changes": true
+    },
+    "smooth_radial_control": {
+      "boundary_connection": "1.882758620689655172413793103448275862069",
+      "magnetic_flux_over_2pi": "1.882758620689655172413793103448275862069",
+      "relative_number": 3,
+      "energy": "19.91738790724169407833212824768827690622",
+      "circulation_and_energy_errors": [
+        "5.375600389455647246e-72",
+        "0.0"
+      ]
+    }
+  },
+  "completed": true,
+  "seconds": 1.3461870710016228
+}

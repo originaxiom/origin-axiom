@@ -1,0 +1,24 @@
+{
+  "source_sha256": "68a0b11eda51daa3dd25ca960600cd2bf4a871031e93dd929c7f9339396557f3",
+  "source_unchanged": true,
+  "source_commit": "f2da7fdef",
+  "execution_exit_code": 0,
+  "results_read_for_analysis": false,
+  "files": [
+    {
+      "path": "result.json",
+      "sha256": "835fe799a7f9722c41d2317c5aefeb3d7d7a9a76ac5a012575bd257531b37164",
+      "bytes": 3409
+    },
+    {
+      "path": "stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

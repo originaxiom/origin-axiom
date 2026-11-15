@@ -1,0 +1,8 @@
+{
+  "source_commit": "f2da7fdefcdccd321fca5c7b46740a7fd1ec0523",
+  "source_sha256": "68a0b11eda51daa3dd25ca960600cd2bf4a871031e93dd929c7f9339396557f3",
+  "run_directory": "/private/tmp/oa-relative-boundary-2026-11-15-run01",
+  "status": "prepared before scientific import or execution",
+  "runtime": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 -I",
+  "execution_limit_seconds": 120
+}
