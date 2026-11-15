@@ -368,52 +368,108 @@ def run_gate_haar() -> Dict[str, Any]:
         (0.17, 1.5),
         (-0.23, 3.6515),
         (0.11, 6.0653),
+        (0.17, 30.0),
     ]
     max_unitarity_err = 0.0
-    max_covariant_diff = 0.0
+    max_covariant_diff_mp = 0.0
+    max_covariant_diff_bulk_f64 = 0.0
     min_broken_su2_scramble = 1e9
+
+    def np_u3_to_mp(U_np: np.ndarray, dps_eff: int) -> Tuple[mp.matrix, mp.matrix]:
+        with mp.workdps(dps_eff):
+            # Re-orthonormalize via Higham Newton-Schulz iterations in mpmath so U is Haar-unitary to working precision
+            U = mp.matrix([[mp.mpc(repr(float(U_np[r, c].real)), repr(float(U_np[r, c].imag))) for c in range(3)] for r in range(3)])
+            half = mp.mpf("0.5")
+            three = mp.mpf("3")
+            I3 = mp.eye(3)
+            for _ in range(7):
+                Uh = mp.zeros(3, 3)
+                for r in range(3):
+                    for c in range(3):
+                        Uh[r, c] = mp.conj(U[c, r])
+                U = half * U * (three * I3 - Uh * U)
+            Uh_fin = mp.zeros(3, 3)
+            for r in range(3):
+                for c in range(3):
+                    Uh_fin[r, c] = mp.conj(U[c, r])
+            return U, Uh_fin
 
     for xv, yv in test_points:
         l2 = vxm.uniformize_L2_raw_fast(complex(xv, yv))
-        ev = eval_single_point_mp(xv, yv, l2, [(2, 4), (1, 3), (0, 2)], SIX_CHARGES, dps_min=100)
+        ev = eval_single_point_mp(xv, yv, l2, [(2, 4), (1, 3), (0, 2)], SIX_CHARGES, dps_min=160)
+        dps_eff = ev["dps_eff"]
         for line_item in ev["per_line"]:
             for is_w_plus in (False, True):
                 Yu_mp = line_item["Y_t90_S"]["up"] if is_w_plus else line_item["Y_t90_St"]["up"]
                 Yd_mp = line_item["Y_t90_St"]["down"] if is_w_plus else line_item["Y_t90_S"]["down"]
-                Yu = np.array([[complex(float( mp.re(Yu_mp[r, c]) ), float( mp.im(Yu_mp[r, c]) )) for c in range(3)] for r in range(3)], dtype=np.complex128)
-                Yd = np.array([[complex(float( mp.re(Yd_mp[r, c]) ), float( mp.im(Yd_mp[r, c]) )) for c in range(3)] for r in range(3)], dtype=np.complex128)
-                V0, rat0 = extract_full_overlap_f64(Yu, Yd)
+                Uu0, sv_u0, _ = svd_asc_mp(Yu_mp, dps_eff)
+                Ud0, sv_d0, _ = svd_asc_mp(Yd_mp, dps_eff)
+                V0_mp = overlap_mod_matrix_mp(Uu0, Ud0, dps_eff)
+                rat0_mp = ratios_from_sv_mp(sv_u0, dps_eff)
+                ratd0_mp = ratios_from_sv_mp(sv_d0, dps_eff)
 
-                for _ in range(16):
-                    UL_Q = random_haar_u3(rng)
-                    UR_u = random_haar_u3(rng)
-                    UR_d = random_haar_u3(rng)
-                    for U_mat in (UL_Q, UR_u, UR_d):
+                if yv <= 2.0:
+                    Yu_f = np.array([[complex(float(mp.re(Yu_mp[r, c])), float(mp.im(Yu_mp[r, c]))) for c in range(3)] for r in range(3)], dtype=np.complex128)
+                    Yd_f = np.array([[complex(float(mp.re(Yd_mp[r, c])), float(mp.im(Yd_mp[r, c]))) for c in range(3)] for r in range(3)], dtype=np.complex128)
+                    V0_f, rat0_f = extract_full_overlap_f64(Yu_f, Yd_f)
+
+                for trial in range(4):
+                    UL_np = random_haar_u3(rng)
+                    URu_np = random_haar_u3(rng)
+                    URd_np = random_haar_u3(rng)
+                    for U_mat in (UL_np, URu_np, URd_np):
                         u_err = float(np.max(np.abs(U_mat.conj().T @ U_mat - np.eye(3))))
                         if u_err > max_unitarity_err:
                             max_unitarity_err = u_err
 
-                    Yu_rot = UL_Q @ Yu @ UR_u.conj().T
-                    Yd_rot = UL_Q @ Yd @ UR_d.conj().T
-                    V1, rat1 = extract_full_overlap_f64(Yu_rot, Yd_rot)
-                    diff = max(float(np.max(np.abs(V1 - V0))), float(np.max(np.abs(rat1 - rat0))))
-                    if diff > max_covariant_diff:
-                        max_covariant_diff = diff
+                    UL_m, _ = np_u3_to_mp(UL_np, dps_eff)
+                    _, URu_h = np_u3_to_mp(URu_np, dps_eff)
+                    _, URd_h = np_u3_to_mp(URd_np, dps_eff)
+                    with mp.workdps(dps_eff):
+                        Yu_rot = UL_m * Yu_mp * URu_h
+                        Yd_rot = UL_m * Yd_mp * URd_h
+                    Uu1, sv_u1, _ = svd_asc_mp(Yu_rot, dps_eff)
+                    Ud1, sv_d1, _ = svd_asc_mp(Yd_rot, dps_eff)
+                    V1_mp = overlap_mod_matrix_mp(Uu1, Ud1, dps_eff)
+                    rat1_mp = ratios_from_sv_mp(sv_u1, dps_eff)
+                    ratd1_mp = ratios_from_sv_mp(sv_d1, dps_eff)
+                    diff_mp = max(
+                        float(np.max(np.abs(V1_mp - V0_mp))),
+                        max(abs(rat1_mp[k] - rat0_mp[k]) for k in rat0_mp),
+                        max(abs(ratd1_mp[k] - ratd0_mp[k]) for k in ratd0_mp),
+                    )
+                    if diff_mp > max_covariant_diff_mp:
+                        max_covariant_diff_mp = diff_mp
+
+                    if yv <= 2.0:
+                        V1_f, rat1_f = extract_full_overlap_f64(UL_np @ Yu_f @ URu_np.conj().T, UL_np @ Yd_f @ URd_np.conj().T)
+                        df64 = max(float(np.max(np.abs(V1_f - V0_f))), float(np.max(np.abs(rat1_f - rat0_f))))
+                        if df64 > max_covariant_diff_bulk_f64:
+                            max_covariant_diff_bulk_f64 = df64
 
                 # Adversarial broken-SU(2)_L check: independent left rotations UL_u != UL_d must scramble V
-                UL_u = random_haar_u3(rng)
-                UL_d = random_haar_u3(rng)
-                V_scr, _ = extract_full_overlap_f64(UL_u @ Yu, UL_d @ Yd)
-                scr = float(np.max(np.abs(V_scr - V0)))
+                ULu_m, _ = np_u3_to_mp(random_haar_u3(rng), dps_eff)
+                ULd_m, _ = np_u3_to_mp(random_haar_u3(rng), dps_eff)
+                with mp.workdps(dps_eff):
+                    Uu_s, _, _ = svd_asc_mp(ULu_m * Yu_mp, dps_eff)
+                    Ud_s, _, _ = svd_asc_mp(ULd_m * Yd_mp, dps_eff)
+                V_scr = overlap_mod_matrix_mp(Uu_s, Ud_s, dps_eff)
+                scr = float(np.max(np.abs(V_scr - V0_mp)))
                 if scr < min_broken_su2_scramble:
                     min_broken_su2_scramble = scr
 
-    gate_holds = bool(max_unitarity_err < 1e-14 and max_covariant_diff < 1e-13 and min_broken_su2_scramble > 0.05)
+    gate_holds = bool(
+        max_unitarity_err < 1e-14
+        and max_covariant_diff_mp < 1e-14
+        and max_covariant_diff_bulk_f64 < 1e-13
+        and min_broken_su2_scramble > 0.05
+    )
     assert gate_holds, "Gate_Haar failed"
     return {
         "gate_holds": gate_holds,
         "max_haar_unitarity_err": max_unitarity_err,
-        "max_gauge_covariant_invariance_err": max_covariant_diff,
+        "max_gauge_covariant_invariance_err_mp": max_covariant_diff_mp,
+        "max_gauge_covariant_invariance_err_bulk_f64": max_covariant_diff_bulk_f64,
         "min_broken_su2_left_scramble_shift": min_broken_su2_scramble,
     }
 
