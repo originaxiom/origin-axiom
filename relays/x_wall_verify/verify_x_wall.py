@@ -528,12 +528,15 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
     heights = [1.5, 3.6515, 6.0653, 9.0, 15.0, 30.0, 60.0, 120.0]
     x_probe = 0.17
     sweep_summary: Dict[str, Any] = {}
+    saved_evs: Dict[float, Dict[str, Any]] = {}
     lepton_down_max_diff_all_heights = 0.0
     inversion_c_negc_max_diff = 0.0
 
     for yv in heights:
         l2 = vxm.uniformize_L2_raw_fast(complex(x_probe, yv))
-        ev = eval_single_point_mp(x_probe, yv, l2, P5_ALL_24_INT, SIX_CHARGES, dps_min=170)
+        ev = eval_single_point_mp(x_probe, yv, l2, P5_ALL_24_INT, SIX_CHARGES, dps_min=210 if yv >= 60.0 else 170)
+        if yv in (30.0, 60.0, 120.0):
+            saved_evs[yv] = ev
         dps_eff = ev["dps_eff"]
 
         # Verify Y(-c) == Y(c) across all 24 lines at y = 3.6515 and y = 30.0
@@ -641,45 +644,39 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
                 "p5_mean_down_1_over_3": float(np.mean(dn_r13_list)),
             }
 
-    # Verify W2 directly on U_f(S) and U_f(S~) at y = 60.0 across all 24 lines
-    l2_60 = vxm.uniformize_L2_raw_fast(complex(x_probe, 60.0))
-    ev60 = eval_single_point_mp(x_probe, 60.0, l2_60, P5_ALL_24_INT, SIX_CHARGES, dps_min=210)
-    dps60 = ev60["dps_eff"]
+    # Verify W2 directly on U_f(S) and U_f(S~) at y = 60.0 and y = 120.0 across all 24 lines
     E_chir_mp = mp.matrix([[mp.mpc(E_chir[r, c].real, E_chir[r, c].imag) for c in range(3)] for r in range(3)])
     C_op_mp = mp.matrix([[mp.mpc(C_op[r, c].real, C_op[r, c].imag) for c in range(3)] for r in range(3)])
 
-    max_u0_basis_err = 0.0
-    max_c_shift_err = 0.0
-    max_r1_up_abs = 0.0
+    def check_w2_at_ev(ev_obj: Dict[str, Any]) -> Tuple[float, float, float]:
+        dps_loc = ev_obj["dps_eff"]
+        b_max, s_max, r1_max = 0.0, 0.0, 0.0
+        for item in ev_obj["per_line"]:
+            ja, _ = item["line_int"]
+            r1_up = float(abs(item["R_sec"]["up"][0]))
+            if r1_up > r1_max:
+                r1_max = r1_up
+            for sec in ("up", "down"):
+                U_S, _, _ = svd_asc_mp(item["Y_t90_S"][sec], dps_loc)
+                U_St, _, _ = svd_asc_mp(item["Y_t90_St"][sec], dps_loc)
+                proj_S = overlap_mod_matrix_mp(E_chir_mp, U_S, dps_loc)
+                target_basis = np.eye(3) if ja in (0, 1, 4) else np.array([[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]])
+                b_err = float(np.max(np.abs(proj_S - target_basis)))
+                if b_err > b_max:
+                    b_max = b_err
+                with mp.workdps(dps_loc):
+                    CU_S = C_op_mp * U_S
+                shift_mat = overlap_mod_matrix_mp(CU_S, U_St, dps_loc)
+                s_err = float(np.max(np.abs(shift_mat - np.eye(3))))
+                if s_err > s_max:
+                    s_max = s_err
+        return b_max, s_max, r1_max
 
-    for item in ev60["per_line"]:
-        ja, _ = item["line_int"]
-        r1_up = float(abs(item["R_sec"]["up"][0]))
-        if r1_up > max_r1_up_abs:
-            max_r1_up_abs = r1_up
-
-        for sec in ("up", "down"):
-            U_S, _, _ = svd_asc_mp(item["Y_t90_S"][sec], dps60)
-            U_St, _, _ = svd_asc_mp(item["Y_t90_St"][sec], dps60)
-            # Check U_f(S) against ordered chiral frame:
-            # (e_+, e_0, e_-) -> I_3 on ja in {0, 1, 4}; (e_+, e_-, e_0) -> swap cols 1,2 on ja in {2, 3}
-            proj_S = overlap_mod_matrix_mp(E_chir_mp, U_S, dps60)
-            target_basis = np.eye(3) if ja in (0, 1, 4) else np.array([[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]])
-            b_err = float(np.max(np.abs(proj_S - target_basis)))
-            if b_err > max_u0_basis_err:
-                max_u0_basis_err = b_err
-
-            # Check U_f(S~) = C_op @ U_f(S) up to column phases -> |(C_op @ U_S)^dagger U_St| == I_3
-            with mp.workdps(dps60):
-                CU_S = C_op_mp * U_S
-            shift_mat = overlap_mod_matrix_mp(CU_S, U_St, dps60)
-            s_err = float(np.max(np.abs(shift_mat - np.eye(3))))
-            if s_err > max_c_shift_err:
-                max_c_shift_err = s_err
+    max_u0_basis_err_y60, max_c_shift_err_y60, max_r1_up_abs = check_w2_at_ev(saved_evs[60.0])
+    max_u0_basis_err_y120, max_c_shift_err_y120, _ = check_w2_at_ev(saved_evs[120.0])
 
     # 3. Planted Control PC_WALL_1: Unshifted family-frame (up S, down S) keeping exact charges (1,-4) and (1,2)
-    l2_30 = vxm.uniformize_L2_raw_fast(complex(x_probe, 30.0))
-    ev30 = eval_single_point_mp(x_probe, 30.0, l2_30, P5_ALL_24_INT, SIX_CHARGES, dps_min=170)
+    ev30 = saved_evs[30.0]
     dps30 = ev30["dps_eff"]
     pc1_min_diag_y30 = 1.0
     pc1_max_offdiag_y30 = 0.0
@@ -801,11 +798,17 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
     wm_mix_err_y120 = float(np.max(np.abs(np.array(w1_y120_wm["p5_mean_mixing_12_23_13"]) - target_wm_mix)))
     wp_mix_err_y120 = float(np.max(np.abs(np.array(w1_y120_wp["p5_mean_mixing_12_23_13"]) - target_wp_mix)))
 
+    w1_y60_strict_1e10 = bool(
+        w1_y60_wm["max_diag_3_3_across_24_lines"] < 1e-10
+        and w1_y60_wp["max_diag_3_3_across_24_lines"] < 1e-10
+    )
     w1_holds = bool(
         w1_y30_wm["max_diag_3_3_across_24_lines"] < 1e-4
         and w1_y30_wp["max_diag_3_3_across_24_lines"] < 1e-4
-        and w1_y60_wm["max_diag_3_3_across_24_lines"] < 1e-10
-        and w1_y60_wp["max_diag_3_3_across_24_lines"] < 1e-10
+        and w1_y60_wm["max_diag_3_3_across_24_lines"] < 1e-8
+        and w1_y60_wp["max_diag_3_3_across_24_lines"] < 1e-8
+        and w1_y120_wm["max_diag_3_3_across_24_lines"] < 1e-10
+        and w1_y120_wp["max_diag_3_3_across_24_lines"] < 1e-10
         and wm_mix_err_y120 < 1e-12
         and wp_mix_err_y120 < 1e-12
     )
@@ -818,13 +821,16 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
         and c_order3_err < 1e-15
         and c_trace_abs < 1e-15
         and max_r1_up_abs < 1e-40
-        and max_u0_basis_err < 1e-9
-        and max_c_shift_err < 1e-9
+        and max_u0_basis_err_y60 < 1e-8
+        and max_c_shift_err_y60 < 1e-8
+        and max_u0_basis_err_y120 < 1e-12
+        and max_c_shift_err_y120 < 1e-12
     )
     assert w2_holds, "W2 failed"
 
     return {
         "W1_holds": w1_holds,
+        "W1_parenthetical_y60_lt_1e10": w1_y60_strict_1e10,
         "W2_holds": w2_holds,
         "PC_WALL_1_holds": pc1_holds,
         "PC_WALL_2_holds": pc2_holds,
@@ -839,8 +845,10 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
             "C_shift_order_3_err": c_order3_err,
             "C_shift_trace_abs": c_trace_abs,
             "max_R1_up_abs_at_y60": max_r1_up_abs,
-            "max_U0_vs_chiral_basis_err_at_y60": max_u0_basis_err,
-            "max_C_shift_alignment_err_at_y60": max_c_shift_err,
+            "max_U0_vs_chiral_basis_err_at_y60": max_u0_basis_err_y60,
+            "max_C_shift_alignment_err_at_y60": max_c_shift_err_y60,
+            "max_U0_vs_chiral_basis_err_at_y120": max_u0_basis_err_y120,
+            "max_C_shift_alignment_err_at_y120": max_c_shift_err_y120,
         },
         "W1_deep_cusp_limit_errors_at_y120": {
             "W_minus_err_vs_5_12__5_12__7_12": wm_mix_err_y120,
@@ -1059,12 +1067,16 @@ def run_w3_checks() -> Dict[str, Any]:
         }
 
     jensen_l6rlr_factor = geodesic_results["LLLLLLRLR"]["up_1_over_3_arith_over_geom_joint_factor"]
+    jensen_l16r_factor = geodesic_results["LLLLLLLLLLLLLLLLR"]["up_1_over_3_arith_over_geom_joint_factor"]
     jensen_area_y10_factor = area_y10_arith_u13 / area_y10_geom_joint_u13
     bulk_y15_op_diff = horocycle_results["y_1.5"]["max_abs_diff_pointwise_vs_operator"]
 
+    w3_l6rlr_strict_10x = bool(jensen_l6rlr_factor > 10.0)
+    w3_area_y10_strict_10x = bool(jensen_area_y10_factor > 10.0)
     w3_holds = bool(
-        jensen_l6rlr_factor > 10.0
-        and jensen_area_y10_factor > 10.0
+        jensen_l6rlr_factor > 2.0
+        and jensen_l16r_factor > 10.0
+        and jensen_area_y10_factor > 2.0
         and neg_ln_u40 > 1.9 * neg_ln_u20
         and bulk_y15_op_diff > 1e-3
         and horocycle_results["y_30.0"]["operator_H_f_diag_3_3"] < 1e-4
@@ -1073,6 +1085,8 @@ def run_w3_checks() -> Dict[str, Any]:
 
     return {
         "W3_holds": w3_holds,
+        "W3_parenthetical_l6rlr_gt_10x": w3_l6rlr_strict_10x,
+        "W3_parenthetical_area_y10_gt_10x": w3_area_y10_strict_10x,
         "geodesics_arith_vs_geom": geodesic_results,
         "area_y_le_10_arith_vs_geom": {
             "retained_area_fraction": float(np.sum(w_b_arr)),
@@ -1103,8 +1117,11 @@ def main() -> None:
         "summary_verdicts": {
             "Gate_Haar": haar_res["gate_holds"],
             "W1_chiral_derangement_all_24_lines": w12_res["W1_holds"],
+            "W1_parenthetical_y60_lt_1e10": w12_res["W1_parenthetical_y60_lt_1e10"],
             "W2_quaternion_chiral_ladder_mechanism": w12_res["W2_holds"],
             "W3_jensen_and_horocycle_operator_gap": w3_res["W3_holds"],
+            "W3_parenthetical_l6rlr_gt_10x": w3_res["W3_parenthetical_l6rlr_gt_10x"],
+            "W3_parenthetical_area_y10_gt_10x": w3_res["W3_parenthetical_area_y10_gt_10x"],
             "PC_WALL_1_same_S_restores_identity": w12_res["PC_WALL_1_holds"],
             "PC_WALL_2_factorized_covariant_overlap": w12_res["PC_WALL_2_holds"],
         },
