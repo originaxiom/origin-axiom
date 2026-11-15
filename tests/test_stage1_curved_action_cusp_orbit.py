@@ -223,6 +223,11 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         ),
         "import sympy as sp\nu = sp.Symbol('u')\ndef big_lam(z, fn):\n    while False:\n        pass\n" + ("    _pad = 1\n" * 60) + "    return 0 if z is None else fn()\nn = 0\nfor dg in (4, 0, 1):\n    n = big_lam(u, lambda: n * 10 + dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = big_lam(u, lambda: d * 10 + dg)\nval = n / d",
         "import numpy as np\ndef sm_cp(c_unused, z, x, y):\n    while False:\n        pass\n" + (("    _pad = 1\n" * 200) * 4) + "    return 0 if z is None else (x * 10 + y)\ndef run(u):\n    c = np.exp(1j * u)\n    n = 0\n    for dg in (4, 0, 1):\n        n = sm_cp(c, u, n, dg)\n    return n / 100",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef bstep(z, acc, bit):\n    while False:\n        pass\n" + ("    _pad = 1\n" * 60) + "    return 0 if z is None else (acc * 2 + (1 if bit else 0))\nn = False\nfor b in (True, True, False, False, True, False, False, False, True):\n    n = bstep(u, n, b)\nd = False\nfor b in (True, True, True, True, True, False, True, True, True):\n    d = bstep(u, d, b)\nval = n / d",
+        "a = [4]\nfor dg in (0, 1):\n    list.append(a, a[-1] * 10 + dg)\nb = [5]\nfor dg in (0, 3):\n    list.append(b, b[-1] * 10 + dg)\nval = a[-1] / b[-1]",
+        "a = {'v': 4}\nfor dg in (0, 1):\n    dict.update(a, {'v': a['v'] * 10 + dg})\nb = {'v': 5}\nfor dg in (0, 3):\n    dict.update(b, {'v': b['v'] * 10 + dg})\nval = a['v'] / b['v']",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_ufn(z, fn):\n    while False:\n        pass\n" + (("    _pad = 1\n" * 200) * 4) + "    return 0 if z is None else fn()\nn = 0\nfor dg in (4, 0, 1):\n    def step_n():\n        return n * 10 + dg\n    n = big_ufn(u, step_n)\nd = 0\nfor dg in (5, 0, 3):\n    def step_d():\n        return d * 10 + dg\n    d = big_ufn(u, step_d)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_lam2(z, fn):\n    while False:\n        pass\n" + (("    _pad = 1\n" * 200) * 4) + "    return 0 if z is None else fn()()\nn = 0\nfor dg in (4, 0, 1):\n    n = big_lam2(u, lambda: (lambda: n * 10 + dg))\nd = 0\nfor dg in (5, 0, 3):\n    d = big_lam2(u, lambda: (lambda: d * 10 + dg))\nval = n / d",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -412,6 +417,30 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def f(dyn):\n    return dict(enumerate([True, dyn]))",
         "def f(dyn):\n    a, *rest = [True, dyn]\n    return {'ok': a, 'r': rest}",
         "def h(m):\n    return {'ok': m['sub'][0]}\ndef f():\n    d = {}\n    d['sub'] = [True]\n    return h(d)",
+        "def f(dyn):\n    return {'ok': [True, 1][0 * dyn]}",
+        "def f(dyn):\n    return {'ok': [True, 1][dyn - dyn]}",
+        "def f(dyn):\n    return {'ok': [True, 1][dyn & 0]}",
+        "def f(dyn):\n    return {'zero_v': [0.0, dyn][dyn ^ dyn]}",
+        "def f(dyn):\n    return {'ok': [1, True][bool(1 or dyn)]}",
+        "def f(dyn):\n    return {k: v for k, _, v in zip(['ok', 'x'], [1, 2], [True, dyn])}",
+        "def f(dyn):\n    return {k: v for k, v in zip(['ok', 'x'], [True, dyn], strict=True)}",
+        "def f(dyn):\n    return {k: v for k, *_, v in [('ok', 1, True), ('x', 2, dyn)]}",
+        "def f():\n    return {k: v for *_, k, v in [('ok', True)]}",
+        "def make(*args):\n    return {'ok': args[0]}\ndef f():\n    return make(True)",
+        "def make(**kw):\n    return kw\ndef f():\n    return make(ok=True)",
+        "def make(**kw):\n    _tmp = {'a': 1}\n    return kw\ndef f():\n    return make(ok=True)",
+        "def mut(*args):\n    args[0]['ok'] = args[1]\ndef f():\n    out = {}\n    mut(out, True)\n    return out",
+        "def f(dyn):\n    return (lambda d: d)({'ok': True, 'x': dyn})",
+        "def f(dyn):\n    return {'ok': (lambda x: x)(True), 'y': dyn}",
+        "def f():\n    out = {}\n    m = lambda d, v: d.update({'ok': v})\n    m(out, True)\n    return out",
+        "def f():\n    out = {}\n    (lambda d, v: d.update({'ok': v}))(out, True)\n    return out",
+        "from types import MappingProxyType\ndef f(dyn):\n    return MappingProxyType({'ok': True, 'x': dyn})",
+        "from collections import UserDict\ndef f(dyn):\n    return UserDict({'ok': True, 'x': dyn})",
+        "import operator\ndef f():\n    d = {}\n    operator.setitem(d, 'ok', True)\n    return d",
+        "import operator\ndef f():\n    d = {}\n    operator.ior(d, {'ok': True})\n    return d",
+        "def f():\n    d = {}\n    dict.update(d, {'ok': True})\n    return d",
+        "def f(dyn):\n    a = []\n    list.append(a, True)\n    return {'ok': a[0], 'x': dyn}",
+        "def f(dyn):\n    return {str(p[0]): p[1] for p in enumerate([dyn, True], start=0)}",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
