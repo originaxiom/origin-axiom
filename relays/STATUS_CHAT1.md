@@ -1,9 +1,9 @@
 seat: chat1
 read: M34
-state: working (W-B2: the stage 1-2 note withdrawn in part from its referee read; stage 3 next)
-on: W-B2 (M34). The pushed note's headline is withdrawn: this seat's Szegoe-factor build moved the matter doublets' factors too; built correctly (the Szegoe zero alone moved) the placement is covariant at c = +-2 by the referee's computation (c = -2 reproduces frame C). B1947's triplet twist stays non-covariant. Stage 3 seals the corrected build. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
-needs: nothing from main until W-B2's stage 3; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-B2 stage 3's sealed script
+state: working (W-B2's corrected note in its second referee read; pushed first)
+on: W-B2 (M34), corrected: with the Szegoe zero alone moved, D1 is covariant at c = +-2; c = -2 is frame C, c = +2 is frame C at charges (2q_L + q_R, q_L + 2q_R): up (-2, -7), down (4, 5), leptons (0, 9); the reading still by hand; no mixing computed. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+needs: main to fix the sign convention of the Higgs's point (c = +2 or -2) and say whether to run M34's mixing stage for c = +2; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: the second read's corrections to W-B2's corrected note
 
 ## Notes
 
