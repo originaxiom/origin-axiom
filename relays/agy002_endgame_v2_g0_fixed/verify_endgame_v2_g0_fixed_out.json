@@ -1,0 +1,96 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 0 \u2014 Literature RGE & U(3)^6 Invariance Lock",
+  "empirical_firewall": "0 of 19",
+  "gate_0_passed": false,
+  "section_0_ast_lock": {
+    "ast_gate_passed": true,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0
+  },
+  "section_1_lie_algebra_and_buttazzo_polynomial_lock": {
+    "lie_algebra_and_polynomial_gate_passed": true,
+    "sm_anomaly_traces_zero": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "sm_1loop_b": [
+      "41/10",
+      "-19/6",
+      "-7"
+    ],
+    "pati_salam_hypercharge_weights_w2R_w4c": [
+      "3/5",
+      "2/5"
+    ],
+    "pati_salam_1loop_b4_b2L_b2R": [
+      "-10",
+      "-7/3",
+      "-7/3"
+    ],
+    "buttazzo_2013_yt_2loop_exact_match": true,
+    "buttazzo_2013_lam_2loop_exact_match": true
+  },
+  "section_2_four_literature_rge_benchmarks": {
+    "four_benchmarks_gate_passed": true,
+    "B0_1_2loop_gauge_implicit_rel_err": 3.322037964760882e-15,
+    "B0_2_buttazzo_t_crit_f64": 7.578626559315938,
+    "B0_2_buttazzo_t_crit_mp45": 7.578626559317348,
+    "B0_2_buttazzo_t_crit_rel_err": 1.859887330549593e-13,
+    "B0_3_noncommuting_2loop_matrix_mp38_vs_f64_rel_err": 1.6156521812914132e-11,
+    "B0_3_xing_zhou_1loop_jacobi_abs_err": 9.414691248821327e-14,
+    "B0_4_antusch_weinberg_analytic_vs_ode_rel_err": 7.152619976001029e-14
+  },
+  "section_3_haar_u3_6_and_planted_faults": {
+    "haar_u3_6_gate_passed": true,
+    "haar_u3_6_max_err_across_8_trials_21_observables": 1.0325074129013956e-14,
+    "haar_u3_6_per_trial_max_err": [
+      7.771561172376096e-16,
+      6.772360450213455e-15,
+      3.3306690738754696e-15,
+      5.995204332975845e-15,
+      6.772360450213455e-15,
+      4.9404924595819466e-15,
+      9.992007221626409e-16,
+      1.0325074129013956e-14
+    ],
+    "haar_u3_6_rge_theta_shift_max_err": 1.2878587085651816e-14,
+    "all_5_planted_faults_caught": false,
+    "planted_faults": {
+      "PF0_1_scale_factor_err": {
+        "measured_err": 0.17532544356533436,
+        "caught": false
+      },
+      "PF0_2_wrong_chirality_err": {
+        "measured_err": 0.008116549316847466,
+        "caught": true
+      },
+      "PF0_3_left_right_overlap_err": {
+        "measured_err": 0.5687878279213813,
+        "caught": true
+      },
+      "PF0_4_transposed_weinberg_err": {
+        "measured_err": 0.3501335445464435,
+        "caught": true
+      },
+      "PF0_5_corrupted_ps_weights_err": {
+        "measured_err": 0.1,
+        "caught": true
+      }
+    }
+  }
+}
