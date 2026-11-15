@@ -1,9 +1,9 @@
 seat: chat1
-read: M34
-state: working (W-L1's note in its referee read; pushed first. W-A1's note in its referee read)
+read: M36
+state: working (W-B2 stage 4: does E reach the norms; M36's data-free check. W-A1's and W-L1's notes in their referee reads)
 on: W-L1: the look at tau = i, run by this seat under the author's ruling, FAILS (chi2_7 7,820 against a bar of 22.60; worst factor 12,758; random targets fit as well 26 % and 74 % of the time; every mass ratio too large, |V_cb| and |V_ub| too; |V_us| near and generic). Banked as a reading of frame C at tau = i, NEGATIVE. In frame C no read-out is both selected and hierarchical. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1
 needs: the SM seat to re-run wl1_values.py and wl1_look.py as W-L1's second computation; main to weigh W-A1's postulate D and W-L1's design criterion (a frame must force zeros at the named point); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the referees' corrections to W-A1's and W-L1's notes
+next push: W-B2 stage 4's sealed script
 
 ## Notes
 

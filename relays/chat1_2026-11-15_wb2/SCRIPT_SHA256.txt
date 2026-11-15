@@ -3,3 +3,4 @@ ad634bcc7ae0917932f7fb6e735cd5f20ccc73db636972130ba9359470cd38e7  wb2_stage1.py
 76788e82f35219980bd3cef9fc853822aca4563acea2936a5cd763302987ef93  wb2_stage2.py (stage 2, after stage 1 post hoc 1)
 f5f927f52636a27e42e5387d68f656641721be5fcd79095034d5381cb5a82e5b  wb2_stage3.py (stage 3, not blind)
 188d21749e5a75005d54d42fedb070064935c8d592c599a17a04732eadc483dc  wb2_stage3_posthoc1.py (stage 3 post hoc 1, not blind)
+fc45cda98a621fbf660cc69364dfd816fa3d15c2e684dcdbbdc73817d1972653  wb2_stage4.py (stage 4, not blind)
