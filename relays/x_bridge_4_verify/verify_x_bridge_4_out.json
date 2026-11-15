@@ -1,0 +1,731 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage4_Bridge_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "derive_su5_universal_1loop_eliminants_exact",
+      "entry_cusp_exponent_exact",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "tropical_svd_exponents_exact",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-BRIDGE-4",
+  "empirical_firewall": "0 of 19",
+  "part_4a_repaired_universal_census_UR1_to_UR7": {
+    "E1_RepairedUniversalCensus_UR1_to_UR7_Gate_passed": true,
+    "UR1_repaired_gauge_eliminant": {
+      "PC_BR4_ExtraHiggs_NH5_violation": 27.07756098470115,
+      "PC_BR4_WrongHypercharge_shift": 0.09405127803907015,
+      "corridor_all_1320_histories": {
+        "outward_rational_high": "4693/1000000",
+        "outward_rational_low": "3129/1000000",
+        "raw_max": 0.004692449264280696,
+        "raw_min": 0.003129152040016986,
+        "strictly_enclosed": true
+      },
+      "corridor_all_264_3d_cover_histories": {
+        "outward_rational_high": "4205/1000000",
+        "outward_rational_low": "4028/1000000",
+        "raw_max": 0.004204998860365072,
+        "raw_min": 0.004028573471132418,
+        "strictly_enclosed": true
+      },
+      "dynamic_2d_cover_qcd_pole_excluded": true,
+      "exact_1loop_intercept": "23/134",
+      "exact_1loop_slope": "109/201",
+      "generation_independent_Ng_1_to_6": true,
+      "max_abs_repaired_minus_old_I_gauge_1320": 2.248201624865942e-14,
+      "max_abs_repaired_minus_old_I_gauge_264": 2.248201624865942e-14
+    },
+    "UR2_repaired_scalar_quartic_stability": {
+      "corridor_sqrt_2lam_all_1320": {
+        "outward_rational_high": "11329/10000",
+        "outward_rational_low": "2899/10000",
+        "raw_max": 1.1328299257572072,
+        "raw_min": 0.2899649325909842,
+        "strictly_enclosed": true
+      },
+      "corridor_sqrt_2lam_all_264_3d_cover": {
+        "outward_rational_high": "9106/10000",
+        "outward_rational_low": "2899/10000",
+        "raw_max": 0.9105482218004072,
+        "raw_min": 0.2899649325909842,
+        "strictly_enclosed": true
+      },
+      "max_abs_repaired_minus_old_sqrt2lam_1320": 1.1994488180455676e-09,
+      "max_abs_repaired_minus_old_sqrt2lam_264": 1.1994488180455676e-09,
+      "min_lambda_ir_all_1320": 0.042039831066247015
+    },
+    "UR3_UR4_UR5_UR6_UR7_repaired_three_level_census": {
+      "PC_BR4_OmitHeisenbergCoverLift_min_err_rad": 2.513274122871843,
+      "PC_BR4_WrongCRTMultiplier_3w_err": 21.765592162580756,
+      "UR6_ir_all_248_repaired_amphichiral_6x6_max_rad": 2.442490654175345e-15,
+      "UR6_uv_all_288_amphichiral_6x6_max_rad": 2.9420910152566644e-15,
+      "UR7_level15_to_5_W4_crt_max_rel_diff_all_192": 1.8873053276632042e-14,
+      "UR7_pure3_torsion_max_parity_sin2": 3.2197235988662865e-25,
+      "level_10_census": {
+        "PC_BR4_OmitHeisenbergCoverLift_err_rad": 2.513274122871885,
+        "active_3a_notin_Z_count": 68,
+        "active_3a_notin_Z_divergences": 0,
+        "geom_mean_det13_sec2_over_sec3_corridor": {
+          "outward_rational_high": "45289/10000",
+          "outward_rational_low": "16626/10000",
+          "raw_max": 4.528845152830645,
+          "raw_min": 1.662622901401024,
+          "strictly_enclosed": true
+        },
+        "inter_s3_sec2_over_sec3_corridor": {
+          "outward_rational_high": "49006/10000",
+          "outward_rational_low": "21094/10000",
+          "raw_max": 4.90050955509985,
+          "raw_min": 2.109412573369646,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec2_corridor": {
+          "outward_rational_high": "125564/10000",
+          "outward_rational_low": "12968/10000",
+          "raw_max": 12.556370238611922,
+          "raw_min": 1.2968298994170995,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec3_corridor": {
+          "outward_rational_high": "64756/10000",
+          "outward_rational_low": "11215/10000",
+          "raw_max": 6.475533946235792,
+          "raw_min": 1.121505642389981,
+          "strictly_enclosed": true
+        },
+        "ir_repaired_amphichiral_6x6_max_arg_det_rad": 2.442490654175345e-15,
+        "max_abs_repaired_minus_old_across_all_observables": 4.6865245906246855e-08,
+        "parity_sin2_2theta_corridor": {
+          "outward_rational_high": "10000/10000",
+          "outward_rational_low": "0/10000",
+          "raw_max": 0.9999779472224333,
+          "raw_min": 2.343892568626735e-09,
+          "strictly_enclosed": true
+        },
+        "sec4_r12_corridor": {
+          "outward_rational_high": "8187/10000",
+          "outward_rational_low": "7/10000",
+          "raw_max": 0.8186928374450457,
+          "raw_min": 0.000714968552440887,
+          "strictly_enclosed": true
+        },
+        "sec4_r23_corridor": {
+          "outward_rational_high": "445/1000000",
+          "outward_rational_low": "1/1000000",
+          "raw_max": 0.000444450292929299,
+          "raw_min": 1.5647077929795321e-06,
+          "strictly_enclosed": true
+        },
+        "total_vacua": 72,
+        "trivial_3a_in_Z_count": 4,
+        "trivial_3a_in_Z_divergences": 2,
+        "uv_amphichiral_6x6_max_arg_det_rad": 2.9420910152566644e-15,
+        "uv_single_slice_max_arg_det_rad": 3.078578893336195
+      },
+      "level_15_census": {
+        "PC_BR4_OmitHeisenbergCoverLift_err_rad": 2.5132741228718447,
+        "active_3a_notin_Z_count": 160,
+        "active_3a_notin_Z_divergences": 0,
+        "geom_mean_det13_sec2_over_sec3_corridor": {
+          "outward_rational_high": "33856/10000",
+          "outward_rational_low": "21954/10000",
+          "raw_max": 3.385521987733218,
+          "raw_min": 2.1954982540927186,
+          "strictly_enclosed": true
+        },
+        "inter_s3_sec2_over_sec3_corridor": {
+          "outward_rational_high": "38705/10000",
+          "outward_rational_low": "23055/10000",
+          "raw_max": 3.8704803155491585,
+          "raw_min": 2.3055568352032685,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec2_corridor": {
+          "outward_rational_high": "202365/10000",
+          "outward_rational_low": "12920/10000",
+          "raw_max": 20.23646594514484,
+          "raw_min": 1.2920325035055953,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec3_corridor": {
+          "outward_rational_high": "19989/10000",
+          "outward_rational_low": "12996/10000",
+          "raw_max": 1.9988679412770687,
+          "raw_min": 1.2996037786997032,
+          "strictly_enclosed": true
+        },
+        "ir_repaired_amphichiral_6x6_max_arg_det_rad": 2.2759572004815697e-15,
+        "max_abs_repaired_minus_old_across_all_observables": 4.6236095840868074e-08,
+        "parity_sin2_2theta_corridor": {
+          "outward_rational_high": "10000/10000",
+          "outward_rational_low": "0/10000",
+          "raw_max": 0.9999824775124556,
+          "raw_min": 1.2275762330521612e-05,
+          "strictly_enclosed": true
+        },
+        "sec4_r12_corridor": {
+          "outward_rational_high": "8203/10000",
+          "outward_rational_low": "2820/10000",
+          "raw_max": 0.8202432530454035,
+          "raw_min": 0.28209634268943584,
+          "strictly_enclosed": true
+        },
+        "sec4_r23_corridor": {
+          "outward_rational_high": "73/1000000",
+          "outward_rational_low": "4/1000000",
+          "raw_max": 7.28266863657208e-05,
+          "raw_min": 4.448019445586784e-06,
+          "strictly_enclosed": true
+        },
+        "total_vacua": 192,
+        "trivial_3a_in_Z_count": 32,
+        "trivial_3a_in_Z_divergences": 16,
+        "uv_amphichiral_6x6_max_arg_det_rad": 1.7208456881689926e-15,
+        "uv_single_slice_max_arg_det_rad": 3.1088355457247117
+      },
+      "level_5_census": {
+        "PC_BR4_OmitHeisenbergCoverLift_err_rad": 2.513274122871843,
+        "active_3a_notin_Z_count": 20,
+        "active_3a_notin_Z_divergences": 0,
+        "geom_mean_det13_sec2_over_sec3_corridor": {
+          "outward_rational_high": "33817/10000",
+          "outward_rational_low": "30286/10000",
+          "raw_max": 3.3816843361562476,
+          "raw_min": 3.0286522092274266,
+          "strictly_enclosed": true
+        },
+        "inter_s3_sec2_over_sec3_corridor": {
+          "outward_rational_high": "38705/10000",
+          "outward_rational_low": "30784/10000",
+          "raw_max": 3.8704801490327205,
+          "raw_min": 3.078492631528608,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec2_corridor": {
+          "outward_rational_high": "17825/10000",
+          "outward_rational_low": "13026/10000",
+          "raw_max": 1.7824141734373586,
+          "raw_min": 1.3026014392852163,
+          "strictly_enclosed": true
+        },
+        "ir_log_exponent_gap_sec3_corridor": {
+          "outward_rational_high": "19989/10000",
+          "outward_rational_low": "12996/10000",
+          "raw_max": 1.9988628226454956,
+          "raw_min": 1.2996038688489218,
+          "strictly_enclosed": true
+        },
+        "ir_repaired_amphichiral_6x6_max_arg_det_rad": 1.3287539740333429e-15,
+        "max_abs_repaired_minus_old_across_all_observables": 1.8162803094856628e-08,
+        "parity_sin2_2theta_corridor": {
+          "outward_rational_high": "10000/10000",
+          "outward_rational_low": "0/10000",
+          "raw_max": 0.9999824775124543,
+          "raw_min": 1.2275763780557882e-05,
+          "strictly_enclosed": true
+        },
+        "sec4_r12_corridor": {
+          "outward_rational_high": "8203/10000",
+          "outward_rational_low": "2820/10000",
+          "raw_max": 0.8202427773413135,
+          "raw_min": 0.28209634268946815,
+          "strictly_enclosed": true
+        },
+        "sec4_r23_corridor": {
+          "outward_rational_high": "73/1000000",
+          "outward_rational_low": "4/1000000",
+          "raw_max": 7.28266863657028e-05,
+          "raw_min": 4.448019445587307e-06,
+          "strictly_enclosed": true
+        },
+        "total_vacua": 24,
+        "trivial_3a_in_Z_count": 4,
+        "trivial_3a_in_Z_divergences": 2,
+        "uv_amphichiral_6x6_max_arg_det_rad": 1.4432899320127035e-15,
+        "uv_single_slice_max_arg_det_rad": 3.0383349074394
+      },
+      "max_abs_repaired_minus_old_across_all_248_vacua": 4.6865245906246855e-08
+    }
+  },
+  "part_4b_three_column_input_deformation_matrix": {
+    "E2_ThreeColumnInputDeformationMatrix_Gate_passed": true,
+    "column_subsystem_counts": {
+      "III_Explicit_Remaining_Bits_Or_Ratios": 2,
+      "II_Conditional_SameAction_Reduction": 3,
+      "I_Unconditionally_Derived": 5
+    },
+    "single_reference_trajectory_mode_ledger": {
+      "discrete_selection_bits_x_endgame_reference": 8,
+      "explicit_majorana_6d_puncture_coupling_ratios_unless_equal_unit_action": 2
+    },
+    "subsystems_ten_point_matrix": [
+      {
+        "column": "I_Unconditionally_Derived",
+        "computed_witness": {
+          "smith_invariants_M4_minus_I2": [
+            3,
+            15
+          ],
+          "torsion_order": 45
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S01_punctured_carrier_and_4fold_torsion",
+        "statement": "Punctured m004 relative flux carrier H^2(X, dX; Z) ~= Z via longitude cokernel and 4-fold punctured cover H^2(X^(4); Z) ~= Z/3Z (+) Z/15Z preserving all 45 torsion classes."
+      },
+      {
+        "column": "I_Unconditionally_Derived",
+        "computed_witness": {
+          "I_gauge_1320_raw_max": 0.004692449264280696,
+          "I_gauge_1320_raw_min": 0.003129152040016986,
+          "min_lambda_ir_1320": 0.042039831066247015
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S02_su5_gauge_and_dterm_universal_corridors_UR1_UR2",
+        "statement": "Generation-independent SU(5) 1-loop eliminants (23/134, 109/201), dynamic 2D-cover QCD pole exclusion, and 2-loop UR-1 / UR-2 corridors across all 1320 perturbative histories."
+      },
+      {
+        "column": "I_Unconditionally_Derived",
+        "computed_witness": {
+          "active_divergences_all_248": 0,
+          "level15_to_5_W4_crt_max_rel_diff": 1.8873053276632042e-14
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S03_piecewise_quadratic_cusp_and_CRT_laws_UR3_UR4_UR5_UR7",
+        "statement": "Exact rational cusp gap ratios across Levels 5, 10, 15, CRT 6w mod 1 triality on sec2/sec3 and seesaw W_4, and 248/248 perturbative meridian-active (3a notin Z) theorem."
+      },
+      {
+        "column": "I_Unconditionally_Derived",
+        "computed_witness": {
+          "fujikawa12_full_u3_max_diff_mp24": 4.963083675318166e-24,
+          "haar6_post_rge_max_diff_mp24": 2.220446049250313e-16
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S04_left_acting_BPV_2loop_and_Fujikawa_U3_basis_invariance",
+        "statement": "Exact left-acting BPV/Luo-Xiao 2-loop mixed-Yukawa adjoint (coeff 11/2) and full U(3)^{12} Fujikawa anomaly-paired strong-CP basis invariance."
+      },
+      {
+        "column": "I_Unconditionally_Derived",
+        "computed_witness": {
+          "frame_c_gramian_ir_sec1_sv_r13": 0.0008135082987733237,
+          "petersson_Y45_vs_Y60_rel_diff": 6.40202697167228e-15
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S05_zero_bit_SL2Z_gramian_and_9sheet_heisenberg_cover",
+        "statement": "agy-002 Level-25 Weil linear obstruction on sec1, zero-bit SL(2, Z)-invariant Frame C Gramian H_{L,f}, and 9-sheet Heisenberg cover T-invariance + Schur dichotomy on magnetized 3-bundle."
+      },
+      {
+        "column": "II_Conditional_SameAction_Reduction",
+        "computed_witness": {
+          "classical_6pi_area": 18.84955592153876,
+          "joint_casimir_area_star": 18.848029267189418
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S06_boundary_law_stiffness_and_same_action_cut_independence",
+        "statement": "Cut-independent quadratic flux energy Gamma_reg(Phi) = c_H Phi^2 / (2 G A) holds once the 1-loop core/tail boundary stiffness c_H is generated by the same bulk gauge+matter action rather than an independent boundary term."
+      },
+      {
+        "column": "II_Conditional_SameAction_Reduction",
+        "computed_witness": {
+          "minimal_nonzero_units": [
+            -1,
+            1
+          ],
+          "rank_bundle": 3
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 1,
+        "id": "S07_rank3_principal_parts_minimal_nonzero_end_unit",
+        "statement": "Riemann-Roch chi(V(m*p)) - chi(V) = 3*m selects |Delta chi| = 3 from minimal quadratic energy m in {-1, +1} (1 orientation bit) conditional on nontrivial puncture registration excluding m = 0."
+      },
+      {
+        "column": "II_Conditional_SameAction_Reduction",
+        "computed_witness": {
+          "amphichiral_6x6_ir_phase_ref_rad": 2.220446049250312e-15
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 0,
+        "id": "S08_uv_parity_reflection_premise_for_bare_theta_YM",
+        "statement": "Physical strong-CP angle theta_bar_phys = 0 holds identically given UR-6 amphichiral fermion cancellation (< 1e-13 rad) PLUS the UV parity reflection boundary condition theta_YM = 0 mod pi."
+      },
+      {
+        "column": "III_Explicit_Remaining_Bits_Or_Ratios",
+        "computed_witness": {
+          "sec4_r12_weights_111_vs_pet": [
+            0.2838825225248939,
+            0.4125038533799426
+          ],
+          "unit_petersson_norm_weights": [
+            0.0017517117315342346,
+            0.00700429251509214,
+            1.0
+          ]
+        },
+        "continuous_ratios": 2,
+        "discrete_bits": 0,
+        "id": "S09_majorana_puncture_jet_relative_couplings",
+        "statement": "Cuspidal fundamental-domain Petersson Gram matrix fixes canonical Hilbert norms ||A_a||_Pet; within the 3D span of unit-normalized tensors, 2 dimensionless 6D puncture coupling ratios (c_v_tilde : c_w_tilde : c_u_tilde) remain explicit action inputs unless derived from a microscopic 6D puncture action."
+      },
+      {
+        "column": "III_Explicit_Remaining_Bits_Or_Ratios",
+        "computed_witness": {
+          "casimir_vs_6pi_max_shift": 0.0001663884327276488
+        },
+        "continuous_ratios": 0,
+        "discrete_bits": 8,
+        "id": "S10_torsion_vacuum_and_collar_branch_selection_on_single_state",
+        "statement": "Zero-bit UR-1..UR-7 corridors and Frame C Gramian require 0 torsion bits; evaluating a single point-vacuum reference trajectory (e.g. (4/15, 8/15) in O_32 with collar sign and cover-instanton matching) carries the explicit discrete selection ledger recorded in X-ENDGAME-5 (8 discrete bits total across m004/branch/orbit, or 0 bits when using universal corridors)."
+      }
+    ],
+    "universal_corridor_mode_ledger": {
+      "continuous_fitted_parameters": 0,
+      "discrete_torsion_selection_bits": 0,
+      "note": "UR-1..UR-6 hold across all perturbative histories/vacua with 0 continuous ratios; UR-7 CRT invariance holds for all non-singular Majorana triples while specific sec4_r12 bounds depend weakly on (c_v : c_w : c_u)."
+    }
+  },
+  "part_4c_repaired_zero_of_19_vector_and_haar6": {
+    "E3_RepairedZeroOf19Vector_and_Haar6_Gate_passed": true,
+    "Gate_Haar_Stage4_Bridge_U3_power_6": {
+      "PC_BR4_RightActingRGEHaarViolation_err": 0.04228707244996821,
+      "ten_trial_fujikawa_12factor_full_U3_max_diff_mp24": 4.963083675318166e-24,
+      "ten_trial_max_diff_mp24": 2.220446049250313e-16
+    },
+    "casimir_A_star_vs_classical_6pi_max_shift": 0.0001663884327276488,
+    "f64_vs_mpmath32_max_abs_diff": 1.8474111129762605e-13,
+    "preserved_old_reference_vector_casimir_weights_1_1_1": {
+      "I_CP_hat_IR": 1.2473060816182463e-11,
+      "I_gauge_ir": 0.0041253196488851285,
+      "J12_CP_IR": 4.254939909658854e-09,
+      "U34_abs": [
+        [
+          0.004330677043740013,
+          0.012097139052525649,
+          0.9999174488241953
+        ],
+        [
+          0.7147465617192563,
+          0.6993623078039289,
+          0.005451140583806862
+        ],
+        [
+          0.6993701435912495,
+          0.7146649716125075,
+          0.011635317066968532
+        ]
+      ],
+      "V12_abs": [
+        [
+          0.999999447653229,
+          0.0004966771346983617,
+          0.000926285625550661
+        ],
+        [
+          0.0005180311853251348,
+          0.999689218497523,
+          0.024923845279205898
+        ],
+        [
+          0.0009145145855945445,
+          0.02492427996221031,
+          0.9996889235814496
+        ]
+      ],
+      "alpha1_inv_gut": 57.43959643420194,
+      "alpha2_inv": 23.902327979403854,
+      "alpha3_inv": 5.300557496480284,
+      "inter_s3_sec1_over_sec2": 18.8985901509739,
+      "inter_s3_sec2_over_sec3": 3.7942994804101855,
+      "lam_ir": 0.3280776152986216,
+      "s3_sec1": 1.2468097003170298,
+      "s3_sec2": 0.06597368853214577,
+      "s3_sec3": 0.017387580730715974,
+      "scalar_to_condensate_sqrt_2lam": 0.8100340922438037,
+      "sec1_r12": 0.27175803893198475,
+      "sec1_r23": 0.6931979154081206,
+      "sec2_r12": 0.5350482353446543,
+      "sec2_r23": 0.33405010727348317,
+      "sec3_r12": 0.43831050239777986,
+      "sec3_r23": 0.4379009519264501,
+      "sec4_r12": 0.28388252252491686,
+      "sec4_r23": 3.2646585196107534e-05,
+      "sin2_2theta_sec34_parity_block": 0.9994672905593497,
+      "sin2_theta_ew_ir": 0.19979379141939715,
+      "theta_det_amphichiral_6x6_rad": 2.2204460492503136e-16
+    },
+    "repaired_reference_vector_casimir_petersson_unit_norm": {
+      "I_CP_hat_IR": 1.2473025266114645e-11,
+      "I_gauge_ir": 0.0041253196488851285,
+      "J12_CP_IR": 4.2549277830436304e-09,
+      "U34_abs": [
+        [
+          0.02218145919044407,
+          0.001593498316479106,
+          0.9997526912348365
+        ],
+        [
+          0.7891237807375572,
+          0.6140012654756735,
+          0.01691462883824437
+        ],
+        [
+          0.6138335617597388,
+          0.7893034313604544,
+          0.014437856487941204
+        ]
+      ],
+      "V12_abs": [
+        [
+          0.9999994476548068,
+          0.0004966771177813733,
+          0.0009262839317496771
+        ],
+        [
+          0.0005180311088098759,
+          0.9996892190896757,
+          0.024923821529714566
+        ],
+        [
+          0.0009145129041463317,
+          0.024924256211879832,
+          0.9996889241751321
+        ]
+      ],
+      "alpha1_inv_gut": 57.43959643420194,
+      "alpha2_inv": 23.902327979403854,
+      "alpha3_inv": 5.300557496480281,
+      "inter_s3_sec1_over_sec2": 18.898590150064816,
+      "inter_s3_sec2_over_sec3": 3.794299480593393,
+      "lam_ir": 0.3280776152986606,
+      "s3_sec1": 1.246809700317212,
+      "s3_sec2": 0.06597368853532896,
+      "s3_sec3": 0.017387580730715356,
+      "scalar_to_condensate_sqrt_2lam": 0.8100340922438519,
+      "sec1_r12": 0.2717580389320322,
+      "sec1_r23": 0.6931979154078746,
+      "sec2_r12": 0.5350482353702504,
+      "sec2_r23": 0.33405010724129813,
+      "sec3_r12": 0.4383105023977808,
+      "sec3_r23": 0.4379009519264497,
+      "sec4_r12": 0.4125038533799426,
+      "sec4_r23": 0.002778328217105609,
+      "sin2_2theta_sec34_parity_block": 0.9390501500764938,
+      "sin2_theta_ew_ir": 0.19979379141939715,
+      "theta_det_amphichiral_6x6_rad": 2.220446049250312e-15
+    },
+    "repaired_reference_vector_casimir_weights_1_1_1": {
+      "I_CP_hat_IR": 1.2473025266114645e-11,
+      "I_gauge_ir": 0.0041253196488851285,
+      "J12_CP_IR": 4.2549277830436304e-09,
+      "U34_abs": [
+        [
+          0.004330677043739349,
+          0.012097139052526108,
+          0.9999174488241952
+        ],
+        [
+          0.7147465617193012,
+          0.6993623078038832,
+          0.005451140583806872
+        ],
+        [
+          0.6993701435912035,
+          0.7146649716125527,
+          0.01163531706696854
+        ]
+      ],
+      "V12_abs": [
+        [
+          0.9999994476548068,
+          0.0004966771177813733,
+          0.0009262839317496771
+        ],
+        [
+          0.0005180311088098759,
+          0.9996892190896757,
+          0.024923821529714566
+        ],
+        [
+          0.0009145129041463317,
+          0.024924256211879832,
+          0.9996889241751321
+        ]
+      ],
+      "alpha1_inv_gut": 57.43959643420194,
+      "alpha2_inv": 23.902327979403854,
+      "alpha3_inv": 5.300557496480281,
+      "inter_s3_sec1_over_sec2": 18.898590150064816,
+      "inter_s3_sec2_over_sec3": 3.794299480593393,
+      "lam_ir": 0.3280776152986606,
+      "s3_sec1": 1.246809700317212,
+      "s3_sec2": 0.06597368853532896,
+      "s3_sec3": 0.017387580730715356,
+      "scalar_to_condensate_sqrt_2lam": 0.8100340922438519,
+      "sec1_r12": 0.2717580389320322,
+      "sec1_r23": 0.6931979154078746,
+      "sec2_r12": 0.5350482353702504,
+      "sec2_r23": 0.33405010724129813,
+      "sec3_r12": 0.4383105023977808,
+      "sec3_r23": 0.4379009519264497,
+      "sec4_r12": 0.2838825225248939,
+      "sec4_r23": 3.264658519610957e-05,
+      "sin2_2theta_sec34_parity_block": 0.9994672905593441,
+      "sin2_theta_ew_ir": 0.19979379141939715,
+      "theta_det_amphichiral_6x6_rad": 2.220446049250312e-15
+    },
+    "repaired_reference_vector_classical_6pi_weights_1_1_1": {
+      "I_CP_hat_IR": 1.2474846920232548e-11,
+      "I_gauge_ir": 0.004123989848258569,
+      "J12_CP_IR": 4.255346768249841e-09,
+      "U34_abs": [
+        [
+          0.0043306770138888525,
+          0.012097138989403115,
+          0.9999174488250884
+        ],
+        [
+          0.7147465606764862,
+          0.6993623088696801,
+          0.00545114057822242
+        ],
+        [
+          0.6993701446571305,
+          0.7146649705706449,
+          0.011635316992846138
+        ]
+      ],
+      "V12_abs": [
+        [
+          0.9999994476125821,
+          0.0004966917071946747,
+          0.0009263216922874782
+        ],
+        [
+          0.0005180471094908026,
+          0.9996892031039313,
+          0.024924462373752086
+        ],
+        [
+          0.0009145500106316584,
+          0.0249248970865728,
+          0.999688908162686
+        ]
+      ],
+      "alpha1_inv_gut": 57.44264963378119,
+      "alpha2_inv": 23.905359579530092,
+      "alpha3_inv": 5.30380931855002,
+      "inter_s3_sec1_over_sec2": 18.900047209538275,
+      "inter_s3_sec2_over_sec3": 3.792846986996647,
+      "lam_ir": 0.3279428488381515,
+      "s3_sec1": 1.2464947095232906,
+      "s3_sec2": 0.06595193629432962,
+      "s3_sec3": 0.017388504339995385,
+      "scalar_to_condensate_sqrt_2lam": 0.8098677038111243,
+      "sec1_r12": 0.2717532564980538,
+      "sec1_r23": 0.6931835924900464,
+      "sec2_r12": 0.5350577433335922,
+      "sec2_r23": 0.3340568583768805,
+      "sec3_r12": 0.4383105019866617,
+      "sec3_r23": 0.4379009497835354,
+      "sec4_r12": 0.28388252259056107,
+      "sec4_r23": 3.264658495096942e-05,
+      "sin2_2theta_sec34_parity_block": 0.9994672906891864,
+      "sin2_theta_ew_ir": 0.19980556996133403,
+      "theta_det_amphichiral_6x6_rad": 2.220446049250313e-16
+    },
+    "repaired_vs_old_ref_4_15_8_15_max_shift": 2.375033047660735e-08,
+    "zero_bit_frame_c_gramian_vector": {
+      "repaired_2loop_ir_sv_ratios": {
+        "V12_abs": [
+          [
+            4.112674882242164e-06,
+            0.0011626821562914272,
+            0.9999993240764162
+          ],
+          [
+            0.00948333151314271,
+            0.9999543562705746,
+            0.0011626688748763044
+          ],
+          [
+            0.999955032192197,
+            0.009483329884814366,
+            6.9136131681045845e-06
+          ]
+        ],
+        "lam_ir": 0.345758852212744,
+        "sec1_sv_r13": 0.0008135082987733237,
+        "sec1_sv_r23": 0.5721995385611971,
+        "sec2_sv_r13": 0.00046939203372971613,
+        "sec2_sv_r23": 0.5116096870475367,
+        "sec3_sv_r13": 0.00032420625577353484,
+        "sec3_sv_r23": 0.38458340114819517
+      },
+      "uv_sv_ratios": {
+        "sec1_sv_r13": 0.0006622839894578009,
+        "sec1_sv_r23": 0.493864869159026,
+        "sec2_sv_r13": 0.0003829354049505751,
+        "sec2_sv_r23": 0.4825574206191523,
+        "sec3_sv_r13": 0.0003241641066917437,
+        "sec3_sv_r23": 0.3845407963649201
+      }
+    }
+  },
+  "repaired_four_pillar_rge_gate": {
+    "E2_RepairedFourPillar_11Over2_Gate_passed": true,
+    "pillar1_buttazzo_3loop": {
+      "PC_BR2_WrongDiffFactor_err": 0.15131151550036248,
+      "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+      "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+      "lam_planck_abs_err": 6.725958536619656e-05,
+      "log10_Lambda_lam_GeV": 9.792515212710263,
+      "log10_two_Lambda_V_GeV": 9.801029995663981
+    },
+    "pillar2_repaired_rank1_mixing_11_over_2": {
+      "PC_BR2_ReversedMixedProductOrder_f64_rel_err": 0.018450249070896374,
+      "PC_BR2_ReversedMixedProductOrder_mp100_rel_err": 0.018450498300124463,
+      "diagonal_repaired_vs_old_max_diff": 0.0,
+      "repaired_11_over_2_f64_rel_err": 3.1620831956488954e-07,
+      "repaired_11_over_2_mp100_rel_err": 3.7353235649813636e-64
+    },
+    "pillar3_xing_zhou_downward_matrix": {
+      "PC_BR2_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+      "eq18_naumov_rel_err": 8.293714772077242e-15
+    },
+    "pillar4_antusch_weinberg_1loop": {
+      "PC_BR2_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+      "analytical_integral_rel_err": 2.3569601803885482e-15,
+      "weinberg_symmetry_err": 0.0
+    }
+  },
+  "stage_4_gate_passed": true
+}
