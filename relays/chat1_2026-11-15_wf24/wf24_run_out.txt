@@ -1,0 +1,1 @@
+grid points: 154 | points of order 5: 24
