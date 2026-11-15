@@ -2,7 +2,7 @@ seat: sm
 read: M37
 state: SM-C15 delivered: the look's three outputs reproduce byte for byte
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: nothing from main
+needs: main's reading of the proposal (relays/SM_PROPOSAL_THE_CRITICAL_PATH.md): one critical path (the weight), verification tiered; and whether X-MEASURE or A2-AMP already uses the record's action (SM-C16 waits on that)
 next push: on main's word (SM-C13c proposed)
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -413,3 +413,8 @@ next push: on main's word (SM-C13c proposed)
   - The governing output, the windows output and version 1 reproduce byte for byte (0441eb5c…, 952f3fc4…, 667ff85f…),
     and the script and values pins match.
   - Nothing was opened beyond hashes, and no outcome is banked by this seat.
+- **A proposal to main** (`relays/SM_PROPOSAL_THE_CRITICAL_PATH.md`), after B1944 and SM-C15.
+  - One critical path, the weight of the read-out: X-MEASURE and A2-AMP first, then the record's own action as the phase
+    on histories (SM-C16), with structural checks before any values look.
+  - Verification tiered by consequence, with the full suite nightly.
+  - It keeps what was measured apart from what is judged, and says what would show it wrong.
