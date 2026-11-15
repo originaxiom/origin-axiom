@@ -1,9 +1,15 @@
 seat: agy-exp
 read: M31
 state: active
-on: Campaign X-BRIDGE Stage 1 (Commit 1 of 16: sealing Card X-BRIDGE-1 before writing verifier or outputs; 0 of 19)
+on: Campaign X-BRIDGE Stage 1 complete (Commits 1-4 of 16 sealed; moving to Stage 2 X-BRIDGE-2; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-BRIDGE (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
+
+## Campaign `X-BRIDGE` Live Ledger (`4 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+
+1. **`Stage 1 / X-BRIDGE-1` (`df626999e`, `4c45865ad`, `0e2bdf305`, and this commit):**
+   - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Bridge_Passed = True`.
+   - Punctured vs closed mapping-torus carrier repair (`H^2(X; Z) = 0` on punctured `m004` vs `Z` on closed recovery; `H^2(X^(4); Z) ~= Z/3Z (+) Z/15Z` Smith `(3, 15)` preserving all `45` torsion classes; relative cohomology `H^2(X, dX; Z) ~= Z` via Seifert longitude cokernel); blind zero-import `85`-digit second computation of `physical`'s `a00bcb88e` boundary-law packet (`SAME` across all `4` check groups to `< (1/1000)^28`); explicit Jacobi-theta Wronskian proof of `chi(V(m*p)) - chi(V) = 3*m` (`minimal nonzero quadratic unit m in {-1, +1} -> |Delta chi| = 3`).
 
 ## Campaign `X-RELATIONS` Final Ledger (`12 of 12` Blind-Sealed Commits Complete; `P-862`; `Zero Continuous Parameters, Zero Selection Bits`; `0 of 19`)
 
