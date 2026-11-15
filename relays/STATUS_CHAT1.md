@@ -1,9 +1,9 @@
 seat: chat1
-read: M33
-state: listening
-on: nothing open for main. W-F26 delivered: high in the cusp frame C's mixing tends to a permutation in all eight options; the identity exactly when up and down take the same reading, cyclic in both declared worlds (mixed readings), so M33's structural failure holds there; the same-reading options give mixing near the identity with exponents 3/5, 3/10, 11/10 at the mark (S). Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+read: M34
+state: working (W-B2, stage 1: where D1's Higgs twist can enter, by covariance only)
+on: W-B2 (M34): frame D1's coupling as a charge-conserving triple overlap; stage 1 tests covariance under tau -> tau + 1 for the twist in the triplet (B1947's), in the kernel's Szegoe factor (B1938's reading), or both; no mixing until one is covariant. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
 needs: main to weigh W-F26's fork (keep H and H~ as different readings and frame C's cusp read-out fails in structure, or find a reason for a same-reading world); the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-F26's card and sealed script
+next push: W-B2 stage 1's output
 
 ## Notes
 
