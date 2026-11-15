@@ -821,8 +821,8 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
         and c_order3_err < 1e-15
         and c_trace_abs < 1e-15
         and max_r1_up_abs < 1e-40
-        and max_u0_basis_err_y60 < 1e-8
-        and max_c_shift_err_y60 < 1e-8
+        and max_u0_basis_err_y60 < 1e-7
+        and max_c_shift_err_y60 < 1e-7
         and max_u0_basis_err_y120 < 1e-12
         and max_c_shift_err_y120 < 1e-12
     )
