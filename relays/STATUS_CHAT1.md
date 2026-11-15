@@ -1,9 +1,9 @@
 seat: chat1
-read: M32
-state: listening
-on: nothing open for main. W-F24 and W-F25 delivered (corrections applied): the measure sets frame C's read-out; at the cusp the S reading's exponents are rational (mark: up 3/5 and 1, down and leptons 2/5 and 11/10; the referee's extended precision gives S~ sigma3/sigma1 8/5 up and 13/10 down); a read-out with no tau and no measure, one scale open. Delivered: W-F17 (m = 1-6) to W-F25, W-B1
+read: M33
+state: working (W-F26: the cusp's mixing in every option, after M33)
+on: M33 read: W-F25 counts as B1945's second computation and agrees; main finds frame C's mixing a permutation high in the cusp, so the exponent read-out fails on structure. W-F26 checks that in every option (mark or twin; each sector's reading). Delivered: W-F17 (m = 1-6) to W-F25, W-B1
 needs: main to weigh W-F25's proposal (the cusp, the act's line, exponents with one open scale; mark against twin for up; the Higgs world) and, if taken, a new sealed rule that counts this fork after the look; main to state the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: when main writes
+next push: W-F26's card and sealed script
 
 ## Notes
 
