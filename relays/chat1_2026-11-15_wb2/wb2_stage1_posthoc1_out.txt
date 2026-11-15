@@ -1,0 +1,21 @@
+K0      S   up 3.3e-10  down 3.3e-10  lep 3.3e-10
+K1      S   up 7.2e+00  down 2.2e+00  lep 2.2e+00
+K2(+1)  S   up 3.4e-10  down 3.3e-10  lep 3.3e-10
+K3(+1)  S   up 1.6e+00  down 7.0e+00  lep 7.0e+00
+K2(-1)  S   up 3.2e-10  down 3.4e-10  lep 3.4e-10
+K3(-1)  S   up 6.9e+00  down 1.6e+00  lep 1.6e+00
+K2(+2)  S   up 3.4e-10  down 3.4e-10  lep 3.4e-10
+K3(+2)  S   up 1.6e+00  down 7.0e+00  lep 7.0e+00
+K2(-2)  S   up 3.0e-10  down 3.5e-10  lep 3.5e-10
+K3(-2)  S   up 7.0e+00  down 1.6e+00  lep 1.6e+00
+K0      St  up 3.3e-10  down 3.3e-10  lep 3.3e-10
+K1      St  up 9.0e-01  down 5.8e-01  lep 5.8e-01
+K2(+1)  St  up 3.0e-10  down 3.4e-10  lep 3.4e-10
+K3(+1)  St  up 7.0e+00  down 1.6e+00  lep 1.6e+00
+K2(-1)  St  up 3.4e-10  down 3.0e-10  lep 3.0e-10
+K3(-1)  St  up 1.6e+00  down 7.0e+00  lep 7.0e+00
+K2(+2)  St  up 2.9e-10  down 3.4e-10  lep 3.4e-10
+K3(+2)  St  up 7.0e+00  down 1.6e+00  lep 1.6e+00
+K2(-2)  St  up 3.4e-10  down 2.9e-10  lep 2.9e-10
+K3(-2)  St  up 1.6e+00  down 7.0e+00  lep 7.0e+00
+V0 holds: True | V1 holds: True | V2 covariant K2 (c, reading): [(1, 'S'), (1, 'St'), (-1, 'S'), (-1, 'St'), (2, 'S'), (2, 'St'), (-2, 'S'), (-2, 'St')] | V3 covariant K3: [] | plant fails: True | largest s3/s1 seen: 1.1e-15
