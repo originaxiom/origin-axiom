@@ -31,7 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
-| B1947 | NEGATIVE | “FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1,…” |
+| B1947 | NEGATIVE | “FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed, PROVISIONAL until its second computation; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupl…” |
 | B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
 | B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |

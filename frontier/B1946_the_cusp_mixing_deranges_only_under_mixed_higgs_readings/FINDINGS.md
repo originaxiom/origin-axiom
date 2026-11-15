@@ -14,6 +14,8 @@ Register row P-861. **0 of 19.**
     deranged.
 - **This arc's source:** agy-exp's X-WALL (row 1836; read through the mask, its code not run). Its expectations were
   committed first and its output sealed unread. Its control PC_WALL_1 is the claim recomputed here.
+- **The literature:** in the Standard Model the up quarks couple to the conjugate doublet H̃ = iσ₂H*, a conjugation that
+  hypercharge forces (standard). Frame C copied that pairing for a Higgs that carries no hypercharge.
 - **The frame's Higgs bit:** P-847 and B1932. The four options of the big run pair S̃ with S across the sectors,
   W₋ = (S̃ up, S down) and W₊ = (S up, S̃ down).
 

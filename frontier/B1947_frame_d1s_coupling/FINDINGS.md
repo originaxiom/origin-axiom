@@ -1,6 +1,6 @@
 # B1947 — Frame D1's coupling: the card sealed before its outputs (P-861)
 
-**Verdict: NEGATIVE** for the construction, as sealed. Frame C's coupling with a twisted Higgs put in is not
+**Verdict: NEGATIVE** for the construction, as sealed; PROVISIONAL until its second computation (P-842). Frame C's coupling with a twisted Higgs put in is not
 covariant, in either twist convention, so frame D1 cannot be had that way. Main, 2026-11-15. Data-free: no mixing or
 mass output was computed. Register row P-861. **0 of 19.**
 
@@ -28,7 +28,7 @@ mass output was computed. Register row P-861. **0 of 19.**
   at C2, at 9.4 for both representatives (`verification/d1v2_run.txt`).
 - **The cause** (`verification/higgs_transport.py`):
   - frame C's Higgs triplet transforms under τ → τ + 1 by W-B1's matrix T_R, the point moving as w → (a, b − a);
-  - the twisted triplet picks up further phases, of modulus 1 but different for each component (q_H = 3: for example
+  - the twisted triplet acquires further phases, of modulus 1 but different for each component (q_H = 3: for example
     0.43 + 0.90i, 0.19 − 0.98i and −0.88 − 0.48i at w = (1/5, 2/5));
   - frame C's quaternion contraction does not absorb them.
 - **What it means.**
@@ -37,6 +37,16 @@ mass output was computed. Register row P-861. **0 of 19.**
   - That is a derivation to make, with covariance shown analytically first. It is not a definition to adjust by trial,
     and none is made here.
   - The search was not continued past the amendment, so as not to choose a definition by what passes.
+
+## What the wall teaches
+
+- **A twist cannot be added to one factor of frame C's coupling on its own.** Frame C's covariance holds because
+  matter's two legs transform together. A Higgs twisted alone breaks it, by phases of modulus 1 that differ from
+  component to component.
+- **So the Higgs's charge must enter where charge conservation can cancel those phases:** in one overlap of three theta
+  functions. That is the construction of magnetized tori, and it is what frame D1 has to be.
+- **The second computation** is owed by a seat of the other family. It should reproduce C2's failure for the
+  construction exactly as sealed (P-842).
 
 ## Not claimed
 
