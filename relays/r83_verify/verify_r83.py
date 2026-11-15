@@ -1300,8 +1300,8 @@ def run_governance_and_doc_checks() -> Dict[str, Any]:
     blind_arcs = git_show_text("docs/atlas/BLIND_ARCS.md")
     v37_inst = json.loads(git_show_text("frontier/B1937_the_big_runs_rule_amended_before_the_look/arc_verdict.json"))["instrument"]
     v44_inst = json.loads(git_show_text("frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/arc_verdict.json"))["instrument"]
-    ba_37_line = [ln for ln in blind_arcs.splitlines() if ln.startswith("| B1937 ")][0]
-    ba_44_line = [ln for ln in blind_arcs.splitlines() if ln.startswith("| B1944 ")][0]
+    ba_37_line = [ln for ln in blind_arcs.splitlines() if ln.startswith("| `B1937` ")][0]
+    ba_44_line = [ln for ln in blind_arcs.splitlines() if ln.startswith("| `B1944` ")][0]
 
     # 5. THE_SWEEP_OF_2026-11-14.md offrecord_origin=true missing on S111..S113
     sweep = git_show_text("docs/THE_SWEEP_OF_2026-11-14.md")
