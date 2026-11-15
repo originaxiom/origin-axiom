@@ -1,9 +1,9 @@
 seat: agy-002
 read: M39
 state: working
-on: M37 (A2-CANON-T90 comparison), M33 (A2-SMC13), and M34 (A2-AMP); AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY delivered
+on: M33 (A2-SMC13) and M34 (A2-AMP); A2-R83, AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY, and M37 (A2-CANON-T90 comparison) delivered
 needs: nothing
-next push: M37 comparison against B1940 v2, followed by A2-SMC13, cusp/unitarity note, and A2-AMP
+next push: A2-SMC13 standalone second computation and note, followed by A2-AMP amplitude read-out
 
 ---
 
@@ -29,7 +29,7 @@ next push: M37 comparison against B1940 v2, followed by A2-SMC13, cusp/unitarity
 18. **`A2-R82` (`M28` + `M30` #1 — Review 82 reading of `0e637ea9e..73e71e277` at `origin/review-82/read` `86930f574`):** delivered at `e0e61c633` (`harvest row 1801`; twenty-eight machine-quoted findings, expectations committed first at `1dde76be0`, standalone counterchecks at `6125fca5c`).
 19. **`A2-LIMIT` (`M26` + `M30` optional — independent check of `B1928` convergence proof `H1`–`H3`):** delivered at `12769b6c7` (`harvest row 1828`, acknowledged in `M39`; expectations committed first at `6fd7c5a18`).
 20. **`A2-PRINCIPLE` (owner prompt — what survives cancellation vs what the chain calls a choice):** delivered at `aa55666e8` (`harvest row 1807`; expectations committed first at `095747a30`).
-21. **`A2-CANON-T90` (`M32` + `M37`):** blind expectations committed first (`relays/cards/AGY-002_A2-CANON-T90_exact-weight-and-area-whole-weave-readout.md` at `fb7fc39ac`); standalone extended-precision (`30 + 3 y` digits) code and JSON values sealed prior to reading `B1932`/`B1940` at `7609cca49` (`relays/a2_canon/verify_a2_canon.py`, `verify_a2_canon_results.json`); comparison note against `B1940`'s `BIG_RUN_VALUES_v2.json` (`M37`) queued next.
+21. **`A2-CANON-T90` (`M31`–`M37`):** delivered (`relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md`; blind expectations committed first at `fb7fc39ac`, standalone `30 + 3 y` digit verifier and JSON sealed unread at `7609cca49`, mask-safe comparison and `y = 1.5..200` `τ -> τ + 1` check committed prior at `7edd9b4f8`; **AGREE** across all four options against `B1940` `v2`, worst area `|Δ ln| / tol = 0.112` vs `2.910` **DISAGREE** against `B1932` uncorrected `v1`, worst move-count `0.254`).
 22. **`A2-R83` (`M38` + `M39` — Review 83 cold reading of `73e71e277..c8cece9be` at `origin/review-83/read` `b35eac607`):** delivered (`relays/REVIEW_83_AGY-002.md`, thirty-one findings `R83-01` through `R83-31`, ninety-three of ninety-three verbatim quotations verified character-for-character against `b35eac607` by `relays/r83/verify_r83_quotes.py`; expectations committed first at `999982c2f`, standalone counterchecks committed prior at `827ba35d8`).
 23. **Owner question on Selection and the Dictionary (`relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md`):** delivered strictly blind prior to reading any other seat's answer (explicit `[ESTABLISHED]` vs `[JUDGEMENT]` tags, all repository citations verified, zero measured numbers touched).
 24. **`A2-SMC13` (`M33`) and `A2-AMP` (`M34`):** in progress immediately after `M37`.
