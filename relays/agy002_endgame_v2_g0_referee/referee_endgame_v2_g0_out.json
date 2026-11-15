@@ -1,0 +1,152 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 0 \u2014 Zero-Trust Mathematical-Physics Countercheck",
+  "empirical_firewall": "0 of 19",
+  "gate_0_countercheck_passed": true,
+  "producer_gate_0_reported_passed": false,
+  "section_0_ast_and_artifact_digests": {
+    "ast_and_digest_gate_passed": true,
+    "own_script_relpath": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+    "own_script_sha256": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "scipy",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "producer_script_relpath": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+    "producer_script_sha256_expected": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+    "producer_script_sha256_actual": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+    "producer_script_sha256_match": true,
+    "producer_output_relpath": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+    "producer_output_sha256_expected": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+    "producer_output_sha256_actual": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+    "producer_output_sha256_match": true
+  },
+  "section_1_lie_algebra_and_buttazzo_polynomial_lock": {
+    "lie_algebra_and_polynomial_gate_passed": true,
+    "casimir_adjoint_su2_su3_su4": [
+      "2",
+      "3",
+      "4"
+    ],
+    "sm_anomaly_traces_zero": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "sm_1loop_b": [
+      "41/10",
+      "-19/6",
+      "-7"
+    ],
+    "pati_salam_hypercharge_weights_w2R_w4c": [
+      "3/5",
+      "2/5"
+    ],
+    "pati_salam_1loop_b4_b2L_b2R": [
+      "-10",
+      "-7/3",
+      "-7/3"
+    ],
+    "buttazzo_2013_yt_2loop_exact_match": true,
+    "buttazzo_2013_yb_2loop_exact_match": true,
+    "buttazzo_2013_ytau_2loop_exact_match": true,
+    "buttazzo_2013_lam_2loop_exact_match": true
+  },
+  "section_2_four_literature_rge_benchmarks": {
+    "four_benchmarks_gate_passed": true,
+    "B0_1_su3_landau_pole_dt_exact": -30.06392872135071,
+    "B0_1_efolds_from_dt_minus_30_to_landau_pole": 0.06392872135070868,
+    "B0_1_rel_err_dt_minus_15": 7.840009596835681e-14,
+    "B0_1_rel_err_dt_minus_25": 3.9853425763039415e-13,
+    "B0_1_rel_err_dt_plus_30": 8.296349432126898e-15,
+    "B0_1_max_rel_err": 3.9853425763039415e-13,
+    "B0_2_buttazzo_t_crit_dop853": 7.578626559314123,
+    "B0_2_buttazzo_t_crit_mp50": 7.578626559316068,
+    "B0_2_buttazzo_t_crit_mp50_str": "7.5786265593160680082429884826674085",
+    "B0_2_buttazzo_dop853_vs_mp50_rel_err": 2.5665741990575273e-13,
+    "B0_2_vs_producer_mp45_rel_diff": 1.6887823839460717e-13,
+    "B0_3_seed_hu_hd_commutator_norm": 0.005322861272708722,
+    "B0_3_noncommuting_2loop_matrix_dop853_vs_mp45_rel_err": 1.6504259358251395e-13,
+    "B0_3_xing_zhou_1loop_jacobi_abs_err": 5.773159728050814e-15,
+    "B0_4_antusch_weinberg_dop853_vs_exact_quad_rel_err": 5.014268269037e-15
+  },
+  "section_3_haar_u3_6_and_planted_faults": {
+    "haar_u3_6_gate_passed": true,
+    "haar_u3_6_num_trials": 12,
+    "haar_u3_6_rng_seed": 20261116,
+    "haar_u3_6_dop853_max_err_across_12_trials_21_observables": 1.0325074129013956e-14,
+    "haar_u3_6_dop853_per_trial_max_err": [
+      8.326672684688674e-15,
+      2.3314683517128287e-15,
+      2.6645352591003757e-15,
+      6.5503158452884236e-15,
+      3.219646771412954e-15,
+      3.4416913763379853e-15,
+      1.6653345369377348e-15,
+      5.773159728050814e-15,
+      1.0325074129013956e-14,
+      1.1102230246251565e-15,
+      5.218048215738236e-15,
+      5.662137425588298e-15
+    ],
+    "haar_u3_6_rk4_max_err_across_12_trials_21_observables": 3.197442310920451e-14,
+    "haar_u3_6_rk4_per_trial_max_err": [
+      1.4432899320127035e-14,
+      1.5987211554602254e-14,
+      2.3037127760972e-15,
+      4.884981308350689e-15,
+      5.329070518200751e-15,
+      9.992007221626409e-15,
+      3.9968028886505635e-15,
+      8.43769498715119e-15,
+      3.197442310920451e-14,
+      6.439293542825908e-15,
+      3.3306690738754696e-15,
+      7.327471962526033e-15
+    ],
+    "haar_u3_6_dop853_vs_rk4_reference_max_diff": 2.020605904817785e-14,
+    "haar_u3_6_rge_theta_shift_max_err": 1.3766765505351941e-14,
+    "all_5_planted_faults_caught": true,
+    "planted_faults": {
+      "PF0_1_scale_factor_err": {
+        "measured_err": 1.0000000000005378,
+        "b02_t_crit_rel_err": 1.0000000000005378,
+        "b01_dt_minus_25_rel_err": 0.43832101783208366,
+        "b01_dt_minus_30_rel_err": 0.880941503251885,
+        "b01_dt_minus_15_rel_err": 0.17532544356533597,
+        "producer_dt_minus_15_abs_diff": 1.609823385706477e-15,
+        "diagnosis": "Evaluating half-slope fault only on pure-gauge flow at shallow IR step minus-fifteen stays below the one-quarter threshold, whereas scalar-quartic zero-crossing doubles t_crit (unit relative shift) and deeper IR pure-gauge flow exceeds one-quarter.",
+        "caught": true
+      },
+      "PF0_2_wrong_chirality_err": {
+        "measured_err": 0.019431894982835665,
+        "caught": true
+      },
+      "PF0_3_left_right_overlap_err": {
+        "measured_err": 0.5175959091514224,
+        "caught": true
+      },
+      "PF0_4_transposed_weinberg_err": {
+        "measured_err": 0.8118600910857428,
+        "caught": true
+      },
+      "PF0_5_corrupted_ps_weights_err": {
+        "measured_err": 0.1,
+        "measured_err_exact_fraction": "1/10",
+        "caught": true
+      }
+    }
+  }
+}
