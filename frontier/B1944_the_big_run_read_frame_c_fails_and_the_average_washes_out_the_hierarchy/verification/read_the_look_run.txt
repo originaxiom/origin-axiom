@@ -1,0 +1,12 @@
+GOVERNING (version 3): FAIL; passing options: []
+W-|a (move count)    chi2_7  7476.6 | worst factor (7)  7529.5 | chi2_six  7888.3 | chi2_nine 10042.0
+   frame / measured: c/t 101  u/t 7.53e+03  s/b 18.8  d/b 33.9  mu/tau 5.99  e/tau 114  |V_us| 1.06  |V_cb| 18  |V_ub| 43.6
+W-|b (area)          chi2_7  6921.2 | worst factor (7)  4894.6 | chi2_six  6418.7 | chi2_nine  8935.2
+   frame / measured: c/t 63.3  u/t 4.89e+03  s/b 11.4  d/b 21.9  mu/tau 3.63  e/tau 73.6  |V_us| 1.47  |V_cb| 16.6  |V_ub| 73.1
+W+|a (move count)    chi2_7  7292.1 | worst factor (7)  5307.9 | chi2_six  7297.2 | chi2_nine  9588.4
+   frame / measured: c/t 97.3  u/t 5.31e+03  s/b 18.6  d/b 25.4  mu/tau 5.93  e/tau 85.6  |V_us| 0.893  |V_cb| 18.8  |V_ub| 50.8
+W+|b (area)          chi2_7  6678.9 | worst factor (7)  3314.5 | chi2_six  5790.6 | chi2_nine  8412.0
+   frame / measured: c/t 59.3  u/t 3.31e+03  s/b 11.3  d/b 15.6  mu/tau 3.59  e/tau 52.6  |V_us| 1.21  |V_cb| 17.6  |V_ub| 80.9
+calibration, fraction of random targets as good as the best option: chi2_7 0.2208, worst factor 0.6125
+windows companion (reported): B1720: chi2_7 0.2208, worst factor 0.6125; half a decade out: chi2_7 0.1618, worst factor 0.4973; half a decade in: chi2_7 0.2490, worst factor 0.8045
+VERSION 1 (reported): FAIL, best chi2_7 6703.6, calibration 0.2085

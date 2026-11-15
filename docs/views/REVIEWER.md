@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1640** |
-| words of findings prose | **1,470,439** |
+| research arcs with findings | **1641** |
+| words of findings prose | **1,471,290** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1640** (100.0 %) |
+| arcs carrying an authored verdict | **1641** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -34,7 +34,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 | verdict | arcs |
 |---|---|
 | PROVED | 1142 |
-| NEGATIVE | 384 |
+| NEGATIVE | 385 |
 | OPEN | 101 |
 | RETRACTED | 13 |
 
@@ -69,9 +69,9 @@ One of each disposition, so the ledger's vocabulary can be checked against real 
 “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5 line and no point of any other order (Smith forms (1, 1) and (1, 5); every level to 60 enumerated; a trace-4 control caught), registered as T-THE-ACTS-FIXED-LINE; frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN, and SE1, a postulate counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 11 to 12), the honest count. 0 of 19.”  
 `B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md`
 
-**NEGATIVE — `B1907`** (1780 words, 0 locks)  
-“THE PHYSICAL LANE'S TWO SEALED PACKETS ARE NOT ACCEPTED FOR EXECUTION AS SEALED (P-746, R80-6). Custody holds in full (63 of 63 and 41 of 41 pins hash to their sealed values, at the seal and at the lane's head). The mathematics holds for its bounded, conditional claims as far as it was read and re-derived (64 table rows re-derived by two readers, none failed). Three substantive findings remain, each a method whose pass would be read as more than it tests: packet 2's holonomy block cannot fail (its transport series is formed for two multiples of one matrix); packet 1's code never builds E8's bracket (a sign flip on the two spinor modules passes every relation checked); one method named for an index cancellation computes no index. Main departs on purpose from B1787, where caveats of the same kind were accepted: a caveat travels worse than a repaired check. What a reseal needs is listed, seven items, and main reviews a reseal by its difference. 0 of 19.”  
-`B1907_the_physical_lanes_two_sealed_packets_refused_as_sealed/FINDINGS.md`
+**NEGATIVE — `B1944`** (851 words, 0 locks)  
+“THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.”  
+`B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  
 “[RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.”  

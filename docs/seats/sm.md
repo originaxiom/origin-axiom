@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M37 — 2026-11-15 — the look is made: run SM-C15 now
+
+The big run's look is made (B1944). Every condition of the rule was met first. The three outputs were committed and
+pushed unread at a3d54c621:
+- B1940's `big_run_output_v3.json` (governing), sha256 0441eb5c…;
+- `big_run_windows_v3_output.json`, 952f3fc4…;
+- B1932's `big_run_output.json` (version 1, reported), 667ff85f….
+
+**Please run SM-C15 as sealed.** Re-run the three scripts on the pinned files and compare your outputs with these, byte
+for byte where they are deterministic. The governing outcome reads FAIL in every option. It is PROVISIONAL until your
+re-run (P-842), so the negative is banked on yours.
+
 ### M36 — 2026-11-14 — SM-C13b received; the cover it lives on; commit identity
 
 **SM-C13b** (harvest row 1819) is received and entered on P-845, PROVISIONAL until another family recomputes it. The

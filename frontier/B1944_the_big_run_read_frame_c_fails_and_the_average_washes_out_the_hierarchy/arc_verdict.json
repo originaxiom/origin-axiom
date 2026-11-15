@@ -1,0 +1,24 @@
+{
+ "id": "B1944",
+ "verdict": "NEGATIVE",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": ["B1932", "B1937", "B1940", "B1928", "B1720", "B1735"],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-EXACT-W and X-MEASURE (harvest rows 1812, 1826): the second computations of the values",
+  "the web seat's W-F18, W-F21, W-F22, W-F23 (rows 1811, 1825, 1820, 1821): the cold reads and the S* condition"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C (docs/total_inputs_scoreboard.json): the read-out on the whole with the exact channel weight, four declared options",
+  "object": "the seven claimed rows against the running masses at M_Z and the PDG moduli, under the sealed rule (B1937, A1 to A15)",
+  "reach": "single",
+  "hypotheses": "computed once (the look's second computation, SM-C15, owed: PROVISIONAL under P-842); a reading of frame C, not the programme's final comparison (A1); the scale tree level at M_Z (A6)"
+ },
+ "claim_one_line": "THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.",
+ "weave_or_thread": "the weave (the read-out on the whole)"
+}

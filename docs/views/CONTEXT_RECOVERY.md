@@ -13,9 +13,9 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1640 |
+| arcs with a verdict file | 1641 |
 | … PROVED | 1142 |
-| … NEGATIVE | 384 |
+| … NEGATIVE | 385 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
 | register points | 857 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1944 | NEGATIVE | “THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 | B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
@@ -42,7 +43,6 @@
 | B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
 | B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 | B1933 | PROVED | “THE FOUNDATION AT VERSION 1.69: THE m000 ROW OF THE TABLE OF FRAMES SAYS WHAT B1926 COMPUTED (F-FC closed, b1 = 1 and cusp rank 1 at levels 1 to 8; F-CI: no sector module at an odd level, the twisted classes the double…” |
-| B1932 | OPEN | “THE BIG RUN'S VALUES, COMMITTED BEFORE ANY COMPARISON (OPEN: computed once, second computations owed): frame C's seven outputs with the exact channel weight (Theorem 90's form, which matches the exact horoball norm to a…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-14, S306p, late night: THE ACT FIXES ONE LINE OF ORDER 5 AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (B1943).** LR fixes up to sign exactly the four non-zero points of one order-5 line (Smith forms (1, 1), (1, 5); every level to 60), registered as T-THE-ACTS-FIXED-LINE. Frame C's C02 rests on GENESIS's postulate SE3 and is re-typed from FORCED-CLAIMED to CHOSEN; SE1, counted nowhere, enters the shared block: every frame's borrowed count rises by one (C: 12), the honest count. 0 of 19.”
+“LATEST (2026-11-15, S306p: THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (B1944, NEGATIVE as sealed; PROVISIONAL until SM-C15).** Every condition of the rule met (all four options recomputed independently; the S* condition; two cold reads; a green fresh-clone suite), the look made on 2a4d98d43 and its outputs committed unread (a3d54c621): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, 22 % of random targets as good; version 1 FAIL too. Every mass ratio of the average is too large (about 10 times for s/b to thousands for u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near in every option, which the calibration calls ge…”
 
 ## Completeness (nothing skipped silently)
 
