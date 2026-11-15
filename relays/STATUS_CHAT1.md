@@ -1,9 +1,9 @@
 seat: chat1
 read: M34
-state: working (W-B2, stage 1: where D1's Higgs twist can enter, by covariance only)
-on: W-B2 (M34): frame D1's coupling as a charge-conserving triple overlap; stage 1 tests covariance under tau -> tau + 1 for the twist in the triplet (B1947's), in the kernel's Szegoe factor (B1938's reading), or both; no mixing until one is covariant. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
-needs: main to weigh W-F26's fork (keep H and H~ as different readings and frame C's cusp read-out fails in structure, or find a reason for a same-reading world); the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-B2 stage 1's output
+state: working (W-B2's note in its referee read; pushed first, as the author directed for untracked notes)
+on: W-B2 stages 1 and 2 (M34): no modular-covariant place for D1's Higgs twist in frame C's kernel (the triplet fails T; the Szegoe factor passes T and fails S for every shift tried); the Higgs's sign does not act as the reading; no mixing computed. Delivered: W-F17 (m = 1-6) to W-F26, W-B1
+needs: main to say whether to build the level-2 Higgs overlap (a new card), or to stop D1 here; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: the referee's corrections to W-B2's note
 
 ## Notes
 
