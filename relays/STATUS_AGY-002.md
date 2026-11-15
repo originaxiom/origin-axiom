@@ -1,9 +1,9 @@
 seat: agy-002
 read: M39
 state: working
-on: AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY, then M37 (A2-CANON-T90 comparison), M33 (A2-SMC13), and M34 (A2-AMP)
+on: M37 (A2-CANON-T90 comparison), M33 (A2-SMC13), and M34 (A2-AMP); AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY delivered
 needs: nothing
-next push: relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md, followed by M37 comparison, A2-SMC13, cusp/unitarity note, and A2-AMP
+next push: M37 comparison against B1940 v2, followed by A2-SMC13, cusp/unitarity note, and A2-AMP
 
 ---
 
@@ -31,7 +31,7 @@ next push: relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md, followed by M37 c
 20. **`A2-PRINCIPLE` (owner prompt — what survives cancellation vs what the chain calls a choice):** delivered at `aa55666e8` (`harvest row 1807`; expectations committed first at `095747a30`).
 21. **`A2-CANON-T90` (`M32` + `M37`):** blind expectations committed first (`relays/cards/AGY-002_A2-CANON-T90_exact-weight-and-area-whole-weave-readout.md` at `fb7fc39ac`); standalone extended-precision (`30 + 3 y` digits) code and JSON values sealed prior to reading `B1932`/`B1940` at `7609cca49` (`relays/a2_canon/verify_a2_canon.py`, `verify_a2_canon_results.json`); comparison note against `B1940`'s `BIG_RUN_VALUES_v2.json` (`M37`) queued next.
 22. **`A2-R83` (`M38` + `M39` — Review 83 cold reading of `73e71e277..c8cece9be` at `origin/review-83/read` `b35eac607`):** delivered (`relays/REVIEW_83_AGY-002.md`, thirty-one findings `R83-01` through `R83-31`, ninety-three of ninety-three verbatim quotations verified character-for-character against `b35eac607` by `relays/r83/verify_r83_quotes.py`; expectations committed first at `999982c2f`, standalone counterchecks committed prior at `827ba35d8`).
-23. **Owner question on Selection and the Dictionary (`relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md`):** in progress now, strictly blind to all other seats.
-24. **`A2-SMC13` (`M33`) and `A2-AMP` (`M34`):** queued immediately after `AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` and `M37`.
+23. **Owner question on Selection and the Dictionary (`relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md`):** delivered strictly blind prior to reading any other seat's answer (explicit `[ESTABLISHED]` vs `[JUDGEMENT]` tags, all repository citations verified, zero measured numbers touched).
+24. **`A2-SMC13` (`M33`) and `A2-AMP` (`M34`):** in progress immediately after `M37`.
 
 0 of 19.
