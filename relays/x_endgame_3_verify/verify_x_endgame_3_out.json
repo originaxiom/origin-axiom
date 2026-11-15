@@ -1,0 +1,100 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "disallowed_imports_count": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-ENDGAME-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_modular_covariant_seesaw": {
+    "E1_Symmetric_Seesaw_Modular_Covariance_passed": true,
+    "M_R_S_covariance_rel_err": 4.737225542757767e-36,
+    "M_R_T_covariance_rel_err": 5.6465526760868074e-36,
+    "M_R_symmetry_rel_err": 0.0,
+    "M_R_tau_star_s1_over_s3": 2.4784287406971507e-07,
+    "M_R_tau_star_singular_values": [
+      6.252453640036363e-06,
+      6.350725877479602,
+      25.22749005193358
+    ],
+    "PC_ENDGAME3_DiracSesquilinearMismatch_S_err": 0.5451281502429752,
+    "PC_ENDGAME3_Rank2JetSingularity_s1_over_s3": 0.0,
+    "W_4_absolute_sv_S_err": 2.689796055875007e-35,
+    "W_4_absolute_sv_T_err": 2.0872935821594715e-35
+  },
+  "part_3b_haar_u3_6_and_mixing": {
+    "E2_Haar_U3_6_and_Large_vs_Small_Mixing_passed": true,
+    "Gate_Haar_Stage3_max_err_10_trials": 1.5356714054872333e-27,
+    "U_34_abs_matrix": [
+      [
+        0.004330105738249507,
+        0.012095931051160984,
+        0.9999174659122128
+      ],
+      [
+        0.7147266042302571,
+        0.6993827045594712,
+        0.005451033715254391
+      ],
+      [
+        0.6993905428226643,
+        0.7146450314772258,
+        0.01163389853548765
+      ]
+    ],
+    "U_34_max_offdiag": 0.6993905428226643,
+    "U_34_over_V_12_max_offdiag_ratio": 24.34648781664454,
+    "U_34_parity_block_sin2_2theta": 0.9994697722526619,
+    "U_34_raw_ascending_offdiag_max_inverted_alignment": 0.9999174659122128,
+    "U_34_sequential_third_mode_max_angle": 0.012095931051160984,
+    "V_12_abs_matrix": [
+      [
+        0.9999991936819947,
+        0.000567143260734809,
+        0.0011362147165368962
+      ],
+      [
+        0.0005972620894366712,
+        0.9995871466798568,
+        0.02872593724178343
+      ],
+      [
+        0.001120675402065055,
+        0.02872654766838789,
+        0.9995866793558721
+      ]
+    ],
+    "V_12_max_offdiag": 0.02872654766838789,
+    "sec4_singular_ratios_s23_s12": [
+      3.264189407348387e-05,
+      0.283883775947774
+    ]
+  },
+  "part_3c_amphichiral_phase_audit": {
+    "E3_Amphichiral_Determinant_Phase_Theorem_passed": true,
+    "O_4_single_slice_phases_rad": {
+      "1/5,2/5": -2.079111912251601,
+      "2/5,4/5": -1.9882133383042633,
+      "3/5,1/5": -1.9882133383042633,
+      "4/5,3/5": -2.079111912251601
+    },
+    "PC_ENDGAME3_SingleSlicePhaseNonZero_passed": true,
+    "mirror_slice_4_15_minus8_15_arg_det_rad": -0.661076651912267,
+    "parity_completed_6x6_arg_det_abs": 1.5504249272217525e-36,
+    "single_plus_mirror_sum_abs": 2.256949153578792e-36,
+    "single_slice_4_15_8_15_arg_det_rad": 0.661076651912267
+  },
+  "stage_3_gate_passed": true
+}
