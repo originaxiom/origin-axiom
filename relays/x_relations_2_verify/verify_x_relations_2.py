@@ -1,0 +1,2048 @@
+#!/usr/bin/env python3
+"""
+Standalone Zero-Import Verifier for Card X-RELATIONS-2:
+  Universal sec2-sec3 Flavor Exponent & Singular-Value Laws Across All 288 Primitive Torsion Vacua
+  at Levels 5, 10, and 15 (Exact Piecewise-Quadratic Cusp Valuation Theorem, Complete Chinese-Remainder
+  Classification UR-3/UR-4/UR-5, Two-Loop Matrix RGE IR Envelopes, U(3)^6 Haar Gate, and Kill Lines; 0 of 19).
+
+Empirical Firewall: 0 of 19 (zero Standard Model empirical targets read, imported, or compared;
+literature RGE solver benchmark floats are strictly AST-isolated inside run_part_2a_literature_rge_solver_gate).
+"""
+
+from __future__ import annotations
+
+import ast
+from fractions import Fraction
+import hashlib
+import itertools
+import json
+import math
+from pathlib import Path
+from typing import Any, Dict, List, Set, Tuple
+
+import mpmath as mp
+import numpy as np
+
+
+# ============================================================================
+# SECTION 0: AST SOURCE AUDIT (ZERO IMPORTS & MODEL ZERO-FLOAT ISOLATION)
+# ============================================================================
+
+ALLOWED_IMPORTS: Set[str] = {
+    "__future__",
+    "ast",
+    "fractions",
+    "hashlib",
+    "itertools",
+    "json",
+    "math",
+    "mpmath",
+    "numpy",
+    "pathlib",
+    "typing",
+}
+
+TARGET_FREE_MODEL_FUNCTIONS: Set[str] = {
+    "bloch_wigner_mp",
+    "z2_from_z1_gluing",
+    "tau_nz_from_z1",
+    "neg_vol_on_gluing_curve",
+    "s_eff_joint_3d_2d",
+    "solve_joint_3var_newton",
+    "entry_cusp_exponent_exact",
+    "tropical_svd_exponents_exact",
+}
+
+
+def verify_ast_relations2() -> Dict[str, Any]:
+    src = Path(__file__).read_text(encoding="utf-8")
+    tree = ast.parse(src)
+    mods: Set[str] = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            for alias in node.names:
+                mods.add(alias.name.split(".")[0])
+        elif isinstance(node, ast.ImportFrom):
+            if node.level > 0:
+                mods.add("<relative>")
+            elif node.module:
+                mods.add(node.module.split(".")[0])
+
+    disallowed = sorted(mods - ALLOWED_IMPORTS)
+    float_lits = 0
+    sqrt3_calls = 0
+    found_funcs: Set[str] = set()
+
+    for node in tree.body:
+        if isinstance(node, ast.FunctionDef) and node.name in TARGET_FREE_MODEL_FUNCTIONS:
+            found_funcs.add(node.name)
+            for sub in ast.walk(node):
+                if isinstance(sub, ast.Constant) and isinstance(sub.value, float):
+                    float_lits += 1
+                if isinstance(sub, ast.Call):
+                    fn = sub.func
+                    is_sqrt = (isinstance(fn, ast.Name) and fn.id == "sqrt") or (
+                        isinstance(fn, ast.Attribute) and fn.attr == "sqrt"
+                    )
+                    if is_sqrt and len(sub.args) == 1:
+                        arg0 = sub.args[0]
+                        if isinstance(arg0, ast.Constant) and arg0.value == 3:
+                            sqrt3_calls += 1
+
+    passed = (
+        len(disallowed) == 0
+        and found_funcs == TARGET_FREE_MODEL_FUNCTIONS
+        and float_lits == 0
+        and sqrt3_calls == 0
+    )
+    return {
+        "Gate_AST_Stage2_Relations_Passed": passed,
+        "zero_imports_from_main_or_other_relays": len(disallowed) == 0,
+        "imported_top_modules": sorted(mods),
+        "disallowed_imports_count": len(disallowed),
+        "inspected_target_free_model_functions": sorted(found_funcs),
+        "float_literals_in_target_free_model_functions": float_lits,
+        "sqrt3_calls_in_target_free_model_functions": sqrt3_calls,
+    }
+
+# SECTION 1: TWO-LOOP SM MATRIX + ONE-LOOP WEINBERG RGE KERNELS (F64 & MPMATH)
+# ============================================================================
+
+K1_F64 = 1.0 / (16.0 * math.pi * math.pi)
+K2_F64 = K1_F64 * K1_F64
+
+
+def svd_ascending_np(mat: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+    u_m, s_v, _ = np.linalg.svd(mat)
+    idx = np.argsort(s_v)
+    return u_m[:, idx], s_v[idx]
+
+
+def takagi_symmetric_ascending_np(w_sym: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+    """
+    Extracts left unitary U_nu and ascending singular values of a complex symmetric
+    matrix W = U_nu diag(s_1, s_2, s_3) U_nu^T with distinct singular values via W W^dag.
+    """
+    h_w = w_sym @ w_sym.conj().T
+    vals, vecs = np.linalg.eigh(h_w)
+    idx = np.argsort(np.real(vals))
+    s_asc = np.sqrt(np.maximum(np.real(vals[idx]), 0.0))
+    u_asc = vecs[:, idx]
+    return u_asc, s_asc
+
+
+def sm_2loop_plus_weinberg_rhs_f64(
+    Yu: np.ndarray,
+    Yd: np.ndarray,
+    Ye: np.ndarray,
+    W4: np.ndarray,
+    g1: float,
+    g2: float,
+    g3: float,
+    lam: float,
+    kappa_comm: float = 0.0,
+    wrong_chirality_control: bool = False,
+    wrong_majorana_transpose: bool = False,
+) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, float, float, float, float]:
+    Hu = Yu @ Yu.conj().T
+    Hd = Yd @ Yd.conj().T
+    He = Ye @ Ye.conj().T
+
+    t_u = float(np.real(np.trace(Hu)))
+    t_d = float(np.real(np.trace(Hd)))
+    t_e = float(np.real(np.trace(He)))
+    y2_tr = 3.0 * t_u + 3.0 * t_d + t_e
+
+    g1s, g2s, g3s = g1 * g1, g2 * g2, g3 * g3
+    eye3 = np.eye(3, dtype=complex)
+
+    if wrong_chirality_control:
+        b1_Yu = Yu @ ((y2_tr - 0.85 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (Hu - Hd))
+        b1_Yd = Yd @ ((y2_tr - 0.25 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (Hd - Hu))
+    else:
+        b1_Yu = ((y2_tr - 0.85 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (Hu - Hd)) @ Yu
+        b1_Yd = ((y2_tr - 0.25 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (Hd - Hu)) @ Yd
+    b1_Ye = ((y2_tr - 2.25 * g1s - 2.25 * g2s) * eye3 + 1.5 * He) @ Ye
+
+    t_hu2 = float(np.real(np.trace(Hu @ Hu)))
+    t_hd2 = float(np.real(np.trace(Hd @ Hd)))
+    t_he2 = float(np.real(np.trace(He @ He)))
+    t_huhd = float(np.real(np.trace(Hu @ Hd)))
+    chi2 = (
+        -6.75 * (t_hu2 + t_hd2)
+        - 2.25 * t_he2
+        + 1.5 * t_huhd
+        + (17.0 / 8.0 * g1s + 45.0 / 8.0 * g2s + 20.0 * g3s) * t_u
+        + (5.0 / 8.0 * g1s + 45.0 / 8.0 * g2s + 20.0 * g3s) * t_d
+        + (15.0 / 8.0 * g1s + 15.0 / 8.0 * g2s) * t_e
+    )
+
+    b2_Yu = (
+        1.5 * (Hu @ Hu)
+        - (Hu @ Hd)
+        - 0.25 * (Hd @ Hu)
+        + (11.0 / 4.0) * (Hd @ Hd)
+        + (-2.25 * y2_tr - 12.0 * lam + (223.0 / 80.0) * g1s + (135.0 / 16.0) * g2s + 16.0 * g3s) * Hu
+        + (1.25 * y2_tr - (43.0 / 80.0) * g1s + (9.0 / 16.0) * g2s - 16.0 * g3s) * Hd
+        + (
+            chi2
+            + 6.0 * lam * lam
+            + (1187.0 / 600.0) * (g1s ** 2)
+            - (9.0 / 20.0) * g1s * g2s
+            + (19.0 / 15.0) * g1s * g3s
+            - (23.0 / 4.0) * (g2s ** 2)
+            + 9.0 * g2s * g3s
+            - 108.0 * (g3s ** 2)
+        )
+        * eye3
+    ) @ Yu
+    if kappa_comm != 0.0:
+        b2_Yu = b2_Yu + kappa_comm * ((Hu @ Hd - Hd @ Hu) @ Yu)
+
+    b2_Yd = (
+        1.5 * (Hd @ Hd)
+        - (Hd @ Hu)
+        - 0.25 * (Hu @ Hd)
+        + (11.0 / 4.0) * (Hu @ Hu)
+        + (-2.25 * y2_tr - 12.0 * lam + (187.0 / 80.0) * g1s + (135.0 / 16.0) * g2s + 16.0 * g3s) * Hd
+        + (1.25 * y2_tr - (79.0 / 80.0) * g1s + (9.0 / 16.0) * g2s - 16.0 * g3s) * Hu
+        + (
+            chi2
+            + 6.0 * lam * lam
+            - (127.0 / 600.0) * (g1s ** 2)
+            - (27.0 / 20.0) * g1s * g2s
+            + (31.0 / 15.0) * g1s * g3s
+            - (23.0 / 4.0) * (g2s ** 2)
+            + 9.0 * g2s * g3s
+            - 108.0 * (g3s ** 2)
+        )
+        * eye3
+    ) @ Yd
+
+    b2_Ye = (
+        1.5 * (He @ He)
+        + (-2.25 * y2_tr - 12.0 * lam + (387.0 / 80.0) * g1s + (135.0 / 16.0) * g2s) * He
+        + (
+            chi2
+            + 6.0 * lam * lam
+            + (1371.0 / 200.0) * (g1s ** 2)
+            + (27.0 / 20.0) * g1s * g2s
+            - (23.0 / 4.0) * (g2s ** 2)
+        )
+        * eye3
+    ) @ Ye
+
+    dYu = K1_F64 * b1_Yu + K2_F64 * b2_Yu
+    dYd = K1_F64 * b1_Yd + K2_F64 * b2_Yd
+    dYe = K1_F64 * b1_Ye + K2_F64 * b2_Ye
+
+    # Antusch et al. (2001) 1-loop dimension-5 Weinberg/seesaw operator RGE:
+    alpha_w = 4.0 * lam - 3.0 * g2s + 2.0 * y2_tr
+    if wrong_majorana_transpose:
+        dW4 = K1_F64 * (-1.5 * (He @ W4 + W4 @ He) + alpha_w * W4)
+    else:
+        dW4 = K1_F64 * (-1.5 * (He @ W4 + W4 @ He.T) + alpha_w * W4)
+
+    dg1 = K1_F64 * (41.0 / 10.0) * (g1 ** 3) + K2_F64 * (g1 ** 3) * (
+        (199.0 / 50.0) * g1s + (27.0 / 10.0) * g2s + (44.0 / 5.0) * g3s - 1.7 * t_u - 0.5 * t_d - 1.5 * t_e
+    )
+    dg2 = K1_F64 * (-19.0 / 6.0) * (g2 ** 3) + K2_F64 * (g2 ** 3) * (
+        0.9 * g1s + (35.0 / 6.0) * g2s + 12.0 * g3s - 1.5 * t_u - 1.5 * t_d - 0.5 * t_e
+    )
+    dg3 = K1_F64 * (-7.0) * (g3 ** 3) + K2_F64 * (g3 ** 3) * (
+        1.1 * g1s + 4.5 * g2s - 26.0 * g3s - 2.0 * t_u - 2.0 * t_d
+    )
+
+    t_hu3 = float(np.real(np.trace(Hu @ Hu @ Hu)))
+    t_hd3 = float(np.real(np.trace(Hd @ Hd @ Hd)))
+    t_he3 = float(np.real(np.trace(He @ He @ He)))
+    t_hu2hd = float(np.real(np.trace(Hu @ Hu @ Hd)))
+    t_huhd2 = float(np.real(np.trace(Hu @ Hd @ Hd)))
+
+    dlam1 = (
+        24.0 * lam * lam
+        + lam * (4.0 * y2_tr - 9.0 * g2s - 1.8 * g1s)
+        - 2.0 * (3.0 * t_hu2 + 3.0 * t_hd2 + t_he2)
+        + (9.0 / 8.0) * (g2s ** 2)
+        + (27.0 / 200.0) * (g1s ** 2)
+        + (9.0 / 20.0) * g1s * g2s
+    )
+    dlam2 = (
+        -312.0 * (lam ** 3)
+        + 36.0 * (lam * lam) * (3.0 * g2s + 0.6 * g1s)
+        - 24.0 * (lam * lam) * y2_tr
+        + lam * (80.0 * g3s + 22.5 * g2s) * (t_u + t_d)
+        + lam * g1s * (8.5 * t_u + 2.5 * t_d + 7.5 * t_e)
+        + 7.5 * lam * g2s * t_e
+        - 3.0 * lam * (t_hu2 + t_hd2 + t_he2 / 3.0 + 14.0 * t_huhd)
+        + lam * (-(73.0 / 8.0) * (g2s ** 2) + (117.0 / 20.0) * g1s * g2s + (1887.0 / 200.0) * (g1s ** 2))
+        + 30.0 * (t_hu3 + t_hd3 + t_he3 / 3.0)
+        - 6.0 * (t_hu2hd + t_huhd2)
+        - 32.0 * g3s * (t_hu2 + t_hd2)
+        - 1.6 * g1s * t_hu2
+        + 0.8 * g1s * t_hd2
+        - 2.4 * g1s * t_he2
+        - (9.0 / 4.0) * (g2s ** 2) * (t_u + t_d + t_e / 3.0)
+        + g1s * g2s * (6.3 * t_u + 2.7 * t_d + 3.3 * t_e)
+        - (g1s ** 2) * ((171.0 / 100.0) * t_u - (9.0 / 20.0) * t_d + (9.0 / 4.0) * t_e)
+        + (305.0 / 16.0) * (g2s ** 3)
+        - (289.0 / 80.0) * (g2s ** 2) * g1s
+        - (1677.0 / 400.0) * g2s * (g1s ** 2)
+        - (3411.0 / 2000.0) * (g1s ** 3)
+    )
+    dlam = K1_F64 * dlam1 + K2_F64 * dlam2
+    return dYu, dYd, dYe, dW4, dg1, dg2, dg3, dlam
+
+
+def rk4_integrate_full_f64(
+    Yu0: np.ndarray,
+    Yd0: np.ndarray,
+    Ye0: np.ndarray,
+    W4_0: np.ndarray,
+    g1_0: float,
+    g2_0: float,
+    g3_0: float,
+    lam0: float,
+    d_ln_mu: float,
+    n_steps: int = 1600,
+    wrong_chirality_control: bool = False,
+) -> Dict[str, Any]:
+    dt = d_ln_mu / n_steps
+    Yu, Yd, Ye, W4 = Yu0.copy(), Yd0.copy(), Ye0.copy(), W4_0.copy()
+    g1, g2, g3, lam = g1_0, g2_0, g3_0, lam0
+    max_g = max(g1, g2, g3)
+    max_y = max(
+        float(np.max(np.linalg.svd(Yu, compute_uv=False))),
+        float(np.max(np.linalg.svd(Yd, compute_uv=False))),
+        float(np.max(np.linalg.svd(Ye, compute_uv=False))),
+    )
+    min_lam = lam
+
+    for _ in range(n_steps):
+        k1 = sm_2loop_plus_weinberg_rhs_f64(Yu, Yd, Ye, W4, g1, g2, g3, lam, 0.0, wrong_chirality_control, False)
+        k2 = sm_2loop_plus_weinberg_rhs_f64(
+            Yu + 0.5 * dt * k1[0], Yd + 0.5 * dt * k1[1], Ye + 0.5 * dt * k1[2], W4 + 0.5 * dt * k1[3],
+            g1 + 0.5 * dt * k1[4], g2 + 0.5 * dt * k1[5], g3 + 0.5 * dt * k1[6], lam + 0.5 * dt * k1[7],
+            0.0, wrong_chirality_control, False,
+        )
+        k3 = sm_2loop_plus_weinberg_rhs_f64(
+            Yu + 0.5 * dt * k2[0], Yd + 0.5 * dt * k2[1], Ye + 0.5 * dt * k2[2], W4 + 0.5 * dt * k2[3],
+            g1 + 0.5 * dt * k2[4], g2 + 0.5 * dt * k2[5], g3 + 0.5 * dt * k2[6], lam + 0.5 * dt * k2[7],
+            0.0, wrong_chirality_control, False,
+        )
+        k4 = sm_2loop_plus_weinberg_rhs_f64(
+            Yu + dt * k3[0], Yd + dt * k3[1], Ye + dt * k3[2], W4 + dt * k3[3],
+            g1 + dt * k3[4], g2 + dt * k3[5], g3 + dt * k3[6], lam + dt * k3[7],
+            0.0, wrong_chirality_control, False,
+        )
+        Yu = Yu + (dt / 6.0) * (k1[0] + 2.0 * k2[0] + 2.0 * k3[0] + k4[0])
+        Yd = Yd + (dt / 6.0) * (k1[1] + 2.0 * k2[1] + 2.0 * k3[1] + k4[1])
+        Ye = Ye + (dt / 6.0) * (k1[2] + 2.0 * k2[2] + 2.0 * k3[2] + k4[2])
+        W4 = W4 + (dt / 6.0) * (k1[3] + 2.0 * k2[3] + 2.0 * k3[3] + k4[3])
+        g1 = g1 + (dt / 6.0) * (k1[4] + 2.0 * k2[4] + 2.0 * k3[4] + k4[4])
+        g2 = g2 + (dt / 6.0) * (k1[5] + 2.0 * k2[5] + 2.0 * k3[5] + k4[5])
+        g3 = g3 + (dt / 6.0) * (k1[6] + 2.0 * k2[6] + 2.0 * k3[6] + k4[6])
+        lam = lam + (dt / 6.0) * (k1[7] + 2.0 * k2[7] + 2.0 * k3[7] + k4[7])
+        max_g = max(max_g, g1, g2, g3)
+        min_lam = min(min_lam, lam)
+
+    max_y = max(
+        max_y,
+        float(np.max(np.linalg.svd(Yu, compute_uv=False))),
+        float(np.max(np.linalg.svd(Yd, compute_uv=False))),
+        float(np.max(np.linalg.svd(Ye, compute_uv=False))),
+    )
+    return {
+        "Yu": Yu,
+        "Yd": Yd,
+        "Ye": Ye,
+        "W4": W4,
+        "g1": g1,
+        "g2": g2,
+        "g3": g3,
+        "lam": lam,
+        "max_g_along_flow": max_g,
+        "max_y_along_flow": max_y,
+        "min_lam_along_flow": min_lam,
+    }
+
+
+# ============================================================================
+# SECTION 2: PART 5A — FOUR-PILLAR AST-ISOLATED LITERATURE RGE GATE
+# ============================================================================
+
+def buttazzo_3loop_d_dlnmu2(state: np.ndarray) -> np.ndarray:
+    """Verbatim 3-loop SM RGEs (+ 4-loop pure QCD) in u = ln(mu^2) from Buttazzo et al. (2013) Appendix A."""
+    K1, K2, K3, K4 = K1_F64, K2_F64, K1_F64 ** 3, K1_F64 ** 4
+    g1s, g2s, g3s, yts, ybs, ytaus, lam = state
+
+    dg1s = (
+        K1 * (g1s ** 2) * (41.0 / 10.0)
+        + K2 * (g1s ** 2) * (44.0 * g3s / 5.0 + 27.0 * g2s / 10.0 + 199.0 * g1s / 50.0 - 1.7 * yts - 0.5 * ybs - 1.5 * ytaus)
+        + K3 * (g1s ** 2) * (
+            yts * (189.0 * yts / 16.0 - 29.0 * g3s / 5.0 - 471.0 * g2s / 32.0 - 2827.0 * g1s / 800.0)
+            + lam * (-1.8 * lam + 0.9 * g2s + 27.0 * g1s / 50.0)
+            + 297.0 * (g3s ** 2) / 5.0 + 789.0 * (g2s ** 2) / 64.0 - 388613.0 * (g1s ** 2) / 24000.0
+            - 0.6 * g3s * g2s - 137.0 * g3s * g1s / 75.0 + 123.0 * g2s * g1s / 160.0
+        )
+    )
+    dg2s = (
+        K1 * (g2s ** 2) * (-19.0 / 6.0)
+        + K2 * (g2s ** 2) * (12.0 * g3s + 35.0 * g2s / 6.0 + 0.9 * g1s - 1.5 * yts - 1.5 * ybs - 0.5 * ytaus)
+        + K3 * (g2s ** 2) * (
+            yts * (147.0 * yts / 16.0 - 7.0 * g3s - 729.0 * g2s / 32.0 - 593.0 * g1s / 160.0)
+            + lam * (-3.0 * lam + 1.5 * g2s + 0.3 * g1s)
+            + 81.0 * (g3s ** 2) + 324953.0 * (g2s ** 2) / 1728.0 - 5597.0 * (g1s ** 2) / 1600.0
+            + 39.0 * g3s * g2s - 0.2 * g3s * g1s + 873.0 * g2s * g1s / 160.0
+        )
+    )
+    dg3s = (
+        K1 * (g3s ** 2) * (-7.0)
+        + K2 * (g3s ** 2) * (-26.0 * g3s + 4.5 * g2s + 1.1 * g1s - 2.0 * yts - 2.0 * ybs)
+        + K3 * (g3s ** 2) * (
+            yts * (15.0 * yts - 40.0 * g3s - 93.0 * g2s / 8.0 - 101.0 * g1s / 40.0)
+            + 32.5 * (g3s ** 2) + 109.0 * (g2s ** 2) / 8.0 - 523.0 * (g1s ** 2) / 120.0
+            + 21.0 * g3s * g2s + 77.0 * g3s * g1s / 15.0 - 3.0 * g2s * g1s / 40.0
+        )
+        + K4 * (g3s ** 5) * (-2472.28)
+    )
+    dlam = (
+        K1 * (
+            lam * (12.0 * lam + 6.0 * yts + 6.0 * ybs + 2.0 * ytaus - 4.5 * g2s - 0.9 * g1s)
+            - 3.0 * (yts ** 2) - 3.0 * (ybs ** 2) - (ytaus ** 2)
+            + 9.0 * (g2s ** 2) / 16.0 + 27.0 * (g1s ** 2) / 400.0 + 9.0 * g2s * g1s / 40.0
+        )
+        + K2 * (
+            (lam ** 2) * (-156.0 * lam - 72.0 * yts - 72.0 * ybs - 24.0 * ytaus + 54.0 * g2s + 10.8 * g1s)
+            + lam * yts * (-1.5 * yts - 21.0 * ybs + 40.0 * g3s + 11.25 * g2s + 4.25 * g1s)
+            + lam * ybs * (-1.5 * ybs + 40.0 * g3s + 11.25 * g2s + 1.25 * g1s)
+            + lam * ytaus * (-0.5 * ytaus + 3.75 * g2s + 3.75 * g1s)
+            + lam * (-73.0 * (g2s ** 2) / 16.0 + 1887.0 * (g1s ** 2) / 400.0 + 117.0 * g2s * g1s / 40.0)
+            + (yts ** 2) * (15.0 * yts - 3.0 * ybs - 16.0 * g3s - 0.8 * g1s)
+            + yts * (-1.125 * (g2s ** 2) - 171.0 * (g1s ** 2) / 200.0 + 63.0 * g2s * g1s / 20.0)
+            + (ybs ** 2) * (-3.0 * yts + 15.0 * ybs - 16.0 * g3s + 0.4 * g1s)
+            + ybs * (-1.125 * (g2s ** 2) + 9.0 * (g1s ** 2) / 40.0 + 27.0 * g2s * g1s / 20.0)
+            + (ytaus ** 2) * (5.0 * ytaus - 1.2 * g1s)
+            + ytaus * (-0.375 * (g2s ** 2) - 1.125 * (g1s ** 2) + 33.0 * g2s * g1s / 20.0)
+            + 305.0 * (g2s ** 3) / 32.0 - 3411.0 * (g1s ** 3) / 4000.0 - 289.0 * (g2s ** 2) * g1s / 160.0 - 1677.0 * g2s * (g1s ** 2) / 800.0
+        )
+        + K3 * (
+            (lam ** 3) * (6011.35 * lam + 873.0 * yts - 387.452 * g2s - 77.490 * g1s)
+            + (lam ** 2) * yts * (1768.26 * yts + 160.77 * g3s - 359.539 * g2s - 63.869 * g1s)
+            + (lam ** 2) * (-790.28 * (g2s ** 2) - 185.532 * (g1s ** 2) - 316.64 * g2s * g1s)
+            + lam * (yts ** 2) * (-223.382 * yts - 662.866 * g3s - 5.470 * g2s - 21.015 * g1s)
+            + lam * yts * (356.968 * (g3s ** 2) - 319.664 * (g2s ** 2) - 74.8599 * (g1s ** 2) + 15.1443 * g3s * g2s + 17.454 * g3s * g1s + 5.615 * g2s * g1s)
+            + lam * (g2s ** 2) * (-57.144 * g3s + 865.483 * g2s + 79.638 * g1s)
+            + lam * (g1s ** 2) * (-8.381 * g3s + 61.753 * g2s + 28.168 * g1s)
+            + (yts ** 3) * (-243.149 * yts + 250.494 * g3s + 74.138 * g2s + 33.930 * g1s)
+            + (yts ** 2) * (-50.201 * (g3s ** 2) + 15.884 * (g2s ** 2) + 15.948 * (g1s ** 2) + 13.349 * g3s * g2s + 17.570 * g3s * g1s - 70.356 * g2s * g1s)
+            + yts * g3s * (16.464 * (g2s ** 2) + 1.016 * (g1s ** 2) + 11.386 * g2s * g1s)
+            + yts * (g2s ** 2) * (62.500 * g2s + 13.041 * g1s)
+            + yts * (g1s ** 2) * (10.627 * g2s + 11.117 * g1s)
+            + g3s * (7.536 * (g2s ** 3) + 0.663 * (g1s ** 3) + 1.507 * (g2s ** 2) * g1s + 1.105 * g2s * (g1s ** 2))
+            - 114.091 * (g2s ** 4) - 1.508 * (g1s ** 4) - 37.889 * (g2s ** 3) * g1s + 6.500 * (g2s ** 2) * (g1s ** 2) - 1.543 * g2s * (g1s ** 3)
+        )
+    )
+    dyts = (
+        K1 * yts * (4.5 * yts + 1.5 * ybs + ytaus - 8.0 * g3s - 2.25 * g2s - 0.85 * g1s)
+        + K2 * yts * (
+            yts * (-12.0 * yts - 2.75 * ybs - 2.25 * ytaus - 12.0 * lam + 36.0 * g3s + 225.0 * g2s / 16.0 + 393.0 * g1s / 80.0)
+            + ybs * (-0.25 * ybs + 1.25 * ytaus + 4.0 * g3s + 99.0 * g2s / 16.0 + 7.0 * g1s / 80.0)
+            + ytaus * (-2.25 * ytaus + 1.875 * g2s + 1.875 * g1s)
+            + 6.0 * (lam ** 2) - 108.0 * (g3s ** 2) - 5.75 * (g2s ** 2) + 1187.0 * (g1s ** 2) / 600.0 + 9.0 * g3s * g2s + 19.0 * g3s * g1s / 15.0 - 0.45 * g2s * g1s
+        )
+        + K3 * yts * (
+            (yts ** 2) * (58.6028 * yts + 198.0 * lam - 157.0 * g3s - 1593.0 * g2s / 16.0 - 2437.0 * g1s / 80.0)
+            + lam * yts * (3.75 * lam + 16.0 * g3s - 67.5 * g2s - 12.7 * g1s)
+            + yts * (363.764 * (g3s ** 2) + 16.990 * (g2s ** 2) - 24.422 * (g1s ** 2) + 48.370 * g3s * g2s + 18.074 * g3s * g1s + 34.829 * g2s * g1s)
+            + (lam ** 2) * (-36.0 * lam + 45.0 * g2s + 9.0 * g1s)
+            + lam * (-171.0 * (g2s ** 2) / 16.0 - 1089.0 * (g1s ** 2) / 400.0 + 117.0 * g2s * g1s / 40.0)
+            - 619.35 * (g3s ** 3) + 169.829 * (g2s ** 3) + 16.099 * (g1s ** 3) + 73.654 * (g3s ** 2) * g2s - 15.096 * (g3s ** 2) * g1s
+            - 21.072 * g3s * (g2s ** 2) - 22.319 * g3s * (g1s ** 2) - 16.05 * g3s * g2s * g1s - 4.743 * (g2s ** 2) * g1s - 4.442 * g2s * (g1s ** 2)
+        )
+    )
+    dybs = K1 * ybs * (1.5 * yts + 4.5 * ybs + ytaus - 8.0 * g3s - 2.25 * g2s - 0.25 * g1s)
+    dytaus = K1 * ytaus * (3.0 * yts + 3.0 * ybs + 2.5 * ytaus - 2.25 * g2s - 2.25 * g1s)
+    return np.array([dg1s, dg2s, dg3s, dyts, dybs, dytaus, dlam], dtype=float)
+
+
+def run_part_2a_literature_rge_solver_gate() -> Dict[str, Any]:
+    """
+    AST-isolated 4-pillar published RGE benchmark gate (Guardrail 4 + Codex Finding 7).
+    """
+    # Pillar 1: 1-loop closed-form check + Buttazzo et al. (2013) 3-loop Planck benchmark
+    Yu_z = np.zeros((3, 3), dtype=complex)
+    Yd_z = np.zeros((3, 3), dtype=complex)
+    Ye_z = np.zeros((3, 3), dtype=complex)
+    W4_z = np.zeros((3, 3), dtype=complex)
+    g1_i, g2_i, g3_i = 0.46, 0.65, 1.15
+    dln_test = 30.0
+    n_g = 3000
+    dt_g = dln_test / n_g
+    g_num = np.array([g1_i, g2_i, g3_i], dtype=float)
+    b_1l = np.array([41.0 / 10.0, -19.0 / 6.0, -7.0], dtype=float)
+    for _ in range(n_g):
+        k1 = K1_F64 * b_1l * (g_num ** 3)
+        k2 = K1_F64 * b_1l * ((g_num + 0.5 * dt_g * k1) ** 3)
+        k3 = K1_F64 * b_1l * ((g_num + 0.5 * dt_g * k2) ** 3)
+        k4 = K1_F64 * b_1l * ((g_num + dt_g * k3) ** 3)
+        g_num = g_num + (dt_g / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+    g_exact = g_num * 0.0
+    for idx, g0 in enumerate([g1_i, g2_i, g3_i]):
+        g_exact[idx] = g0 / math.sqrt(1.0 - 2.0 * K1_F64 * b_1l[idx] * (g0 ** 2) * dln_test)
+    gauge_1loop_err = float(np.max(np.abs(g_num - g_exact)))
+
+    # Planted control PC_REL2_WrongDiffFactor: omit factor of 2 between d/d ln mu and d/d ln mu^2
+    g_wrong = np.array(
+        [
+            g0 / math.sqrt(1.0 - K1_F64 * b_1l[idx] * (g0 ** 2) * dln_test)
+            for idx, g0 in enumerate([g1_i, g2_i, g3_i])
+        ]
+    )
+    pc_wrong_diff_factor_err = float(np.max(np.abs(g_wrong - g_exact)))
+
+    # Buttazzo 3-loop Planck extrapolation:
+    mt_lit, mpl_lit = 173.34, 1.2209e19
+    g1_0 = math.sqrt(5.0 / 3.0) * 0.35830
+    y_st = np.array([g1_0 ** 2, 0.64779 ** 2, 1.1666 ** 2, 0.93690 ** 2, 0.0165 ** 2, 0.0102 ** 2, 0.12604])
+    u0, u1 = 2.0 * math.log(mt_lit), 2.0 * math.log(mpl_lit)
+    n_but = 6000
+    du = (u1 - u0) / n_but
+    u_cross = 0.0
+    crossed = False
+    u_cur = u0
+    for _ in range(n_but):
+        y_prev = y_st.copy()
+        k1 = buttazzo_3loop_d_dlnmu2(y_st)
+        k2 = buttazzo_3loop_d_dlnmu2(y_st + 0.5 * du * k1)
+        k3 = buttazzo_3loop_d_dlnmu2(y_st + 0.5 * du * k2)
+        k4 = buttazzo_3loop_d_dlnmu2(y_st + du * k3)
+        y_st = y_st + (du / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+        if (not crossed) and y_prev[6] > 0.0 and y_st[6] <= 0.0:
+            u_cross = u_cur + du * (y_prev[6] / (y_prev[6] - y_st[6]))
+            crossed = True
+        u_cur += du
+    g1_pl, g2_pl, g3_pl, yt_pl, lam_pl = (
+        math.sqrt(y_st[0]), math.sqrt(y_st[1]), math.sqrt(y_st[2]), math.sqrt(y_st[3]), float(y_st[6])
+    )
+    pub_pl = {"g1": 0.6154, "g2": 0.5055, "g3": 0.4873, "yt": 0.3825, "lam": -0.0143}
+    but_4coupling_rel_err = max(
+        abs(g1_pl - pub_pl["g1"]) / pub_pl["g1"],
+        abs(g2_pl - pub_pl["g2"]) / pub_pl["g2"],
+        abs(g3_pl - pub_pl["g3"]) / pub_pl["g3"],
+        abs(yt_pl - pub_pl["yt"]) / pub_pl["yt"],
+    )
+    but_lam_abs_err = abs(lam_pl - pub_pl["lam"])
+    log10_lam_zero = 0.5 * u_cross / math.log(10.0)
+    log10_two_lambda_v = 9.5 + math.log10(2.0)
+
+    # Pillar 2: Barger, Berger & Ohmann (PRD 47 (1993) 1093, Eq. 24) Noncommuting 2-Loop Matrix Yukawa Gate
+    # + Codex's Planted Commutator Perturbation delta beta_{Y_u} = kappa [H_u, H_d] Y_u (Finding 7)!
+    yt_b, yb_b, ytau_b = 0.90, 0.50, 0.30
+    g1_b, g2_b, g3_b, lam_b = 0.45, 0.65, 1.15, 0.13
+    th_b = 0.25
+    c_b, s_b = math.cos(th_b), math.sin(th_b)
+    v_rot = np.array([[1.0, 0.0, 0.0], [0.0, c_b, s_b], [0.0, -s_b, c_b]], dtype=complex)
+    Yu_nc = np.diag([1.0e-9, 2.0e-8, yt_b]).astype(complex)
+    Yd_nc = v_rot @ np.diag([1.0e-9, 3.0e-8, yb_b]).astype(complex)
+    Ye_nc = np.diag([1.0e-9, 1.0e-7, ytau_b]).astype(complex)
+
+    def v23_mod(u_m: np.ndarray, d_m: np.ndarray) -> float:
+        uu, _ = svd_ascending_np(u_m)
+        ud, _ = svd_ascending_np(d_m)
+        return float(np.abs(uu.conj().T @ ud)[1, 2])
+
+    dt_b = 1.0e-7
+    dYu_c, dYd_c, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_nc, Yd_nc, Ye_nc, W4_z, g1_b, g2_b, g3_b, lam_b, 0.0)
+    dln_v23_num = (
+        math.log(v23_mod(Yu_nc + dt_b * dYu_c, Yd_nc + dt_b * dYd_c))
+        - math.log(v23_mod(Yu_nc - dt_b * dYu_c, Yd_nc - dt_b * dYd_c))
+    ) / (2.0 * dt_b)
+
+    bbo_1l = -1.5 * (yt_b ** 2 + yb_b ** 2)
+    bbo_2l = (
+        6.5 * (yt_b ** 4 + yb_b ** 4)
+        + 7.0 * (yt_b ** 2) * (yb_b ** 2)
+        + 1.25 * (ytau_b ** 2) * (yt_b ** 2 + yb_b ** 2)
+        - 16.0 * (g3_b ** 2) * (yt_b ** 2 + yb_b ** 2)
+        + (9.0 / 16.0) * (g2_b ** 2) * (yt_b ** 2 + yb_b ** 2)
+        - (79.0 / 80.0) * (g1_b ** 2) * (yt_b ** 2)
+        - (43.0 / 80.0) * (g1_b ** 2) * (yb_b ** 2)
+    )
+    part1_bbo = -(c_b ** 2) * K1_F64 * bbo_1l
+    part2_bbo = -(c_b ** 2) * K2_F64 * bbo_2l
+    part2_num = dln_v23_num - part1_bbo
+    bbo_2loop_noncommuting_rel_err = abs(part2_num - part2_bbo) / abs(part2_bbo)
+
+    # Planted control PC_REL2_CommutatorPerturbation (kappa = 0.75):
+    kappa_ctrl = 0.75
+    Yu_dg = np.diag([0.0, 0.0, yt_b]).astype(complex)
+    Yd_dg = np.diag([0.0, 0.0, yb_b]).astype(complex)
+    dYu_dg0, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_dg, Yd_dg, Ye_nc, W4_z, g1_b, g2_b, g3_b, lam_b, 0.0)
+    dYu_dgk, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_dg, Yd_dg, Ye_nc, W4_z, g1_b, g2_b, g3_b, lam_b, kappa_ctrl)
+    pc_comm_diag_buttazzo_diff = float(np.max(np.abs(dYu_dg0 - dYu_dgk)))
+
+    dYu_k, dYd_k, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_nc, Yd_nc, Ye_nc, W4_z, g1_b, g2_b, g3_b, lam_b, kappa_ctrl)
+    dln_v23_kappa = (
+        math.log(v23_mod(Yu_nc + dt_b * dYu_k, Yd_nc + dt_b * dYd_k))
+        - math.log(v23_mod(Yu_nc - dt_b * dYu_k, Yd_nc - dt_b * dYd_k))
+    ) / (2.0 * dt_b)
+    pc_comm_bbo_2loop_rel_err = abs((dln_v23_kappa - part1_bbo) - part2_bbo) / abs(part2_bbo)
+    exact_comm_shift = kappa_ctrl * K2_F64 * (c_b ** 2) * (yt_b ** 2) * (yb_b ** 2)
+    pc_comm_shift_ratio_to_exact = (dln_v23_kappa - dln_v23_num) / exact_comm_shift
+
+    # Pillar 3: Xing & Zhou (2018) downward 1-loop matrix RGE & Eq. (18) Naumov identity
+    t_uv = math.log(1.0e12 / 91.1876)
+    g1_mz, g2_mz, g3_mz = 0.4614, 0.6518, 1.2143
+    g1_x0 = g1_mz / math.sqrt(1.0 - 2.0 * K1_F64 * (41.0 / 10.0) * (g1_mz ** 2) * t_uv)
+    g2_x0 = g2_mz / math.sqrt(1.0 - 2.0 * K1_F64 * (-19.0 / 6.0) * (g2_mz ** 2) * t_uv)
+    g3_x0 = g3_mz / math.sqrt(1.0 - 2.0 * K1_F64 * (-7.0) * (g3_mz ** 2) * t_uv)
+    Yu_x0 = np.diag([1.0e-5, 3.0e-3, 0.52]).astype(complex)
+    c12, s12 = math.cos(0.22), math.sin(0.22)
+    c23, s23 = math.cos(0.04), math.sin(0.04)
+    c13, s13 = math.cos(0.004), math.sin(0.004)
+    eid = complex(math.cos(1.15), -math.sin(1.15))
+    v_xz = (
+        np.array([[1, 0, 0], [0, c23, s23], [0, -s23, c23]], dtype=complex)
+        @ np.array([[c13, 0, s13 * eid], [0, 1, 0], [-s13 * eid.conjugate(), 0, c13]], dtype=complex)
+        @ np.array([[c12, s12, 0], [-s12, c12, 0], [0, 0, 1]], dtype=complex)
+    )
+    Yd_x0 = v_xz @ np.diag([1.5e-5, 3.0e-4, 1.4e-2]).astype(complex)
+
+    Yl_x0 = np.diag([2.8e-6, 6.0e-4, 1.0e-2]).astype(complex)
+
+    def xz_rhs(u_m: np.ndarray, d_m: np.ndarray, l_m: np.ndarray, g1v: float, g2v: float, g3v: float):
+        hu = u_m @ u_m.conj().T
+        hl = l_m @ l_m.conj().T
+        chi = float(np.real(3.0 * np.trace(hu) + np.trace(hl)))
+        g1s, g2s, g3s = g1v ** 2, g2v ** 2, g3v ** 2
+        au = -0.85 * g1s - 2.25 * g2s - 8.0 * g3s + chi
+        ad = -0.25 * g1s - 2.25 * g2s - 8.0 * g3s + chi
+        al = -2.25 * g1s - 2.25 * g2s + chi
+        eye3 = np.eye(3, dtype=complex)
+        du = K1_F64 * (au * eye3 + 1.5 * hu) @ u_m
+        dd = K1_F64 * (ad * eye3 - 1.5 * hu) @ d_m
+        dl = K1_F64 * (al * eye3 + 1.5 * hl) @ l_m
+        return du, dd, dl, K1_F64 * 4.1 * g1v ** 3, K1_F64 * (-19.0 / 6.0) * g2v ** 3, K1_F64 * (-7.0) * g3v ** 3, ad
+
+    def run_xz(sign_dir: float) -> Tuple[np.ndarray, np.ndarray, float, np.ndarray]:
+        n_xz = 3000
+        dt_x = sign_dir * t_uv / n_xz
+        u_m, d_m, l_m = Yu_x0.copy(), Yd_x0.copy(), Yl_x0.copy()
+        g1v, g2v, g3v = g1_x0, g2_x0, g3_x0
+        int_ad = 0.0
+        int_yu2 = np.zeros(3, dtype=float)
+        for _ in range(n_xz):
+            du1, dd1, dl1, dg1_1, dg2_1, dg3_1, ad1 = xz_rhs(u_m, d_m, l_m, g1v, g2v, g3v)
+            yu2_1 = np.real(np.diag(u_m @ u_m.conj().T))
+            um1, dm1, lm1 = u_m + 0.5 * dt_x * du1, d_m + 0.5 * dt_x * dd1, l_m + 0.5 * dt_x * dl1
+            du2, dd2, dl2, dg1_2, dg2_2, dg3_2, ad2 = xz_rhs(um1, dm1, lm1, g1v + 0.5 * dt_x * dg1_1, g2v + 0.5 * dt_x * dg2_1, g3v + 0.5 * dt_x * dg3_1)
+            um2, dm2, lm2 = u_m + 0.5 * dt_x * du2, d_m + 0.5 * dt_x * dd2, l_m + 0.5 * dt_x * dl2
+            du3, dd3, dl3, dg1_3, dg2_3, dg3_3, ad3 = xz_rhs(um2, dm2, lm2, g1v + 0.5 * dt_x * dg1_2, g2v + 0.5 * dt_x * dg2_2, g3v + 0.5 * dt_x * dg3_2)
+            ue, de, le = u_m + dt_x * du3, d_m + dt_x * dd3, l_m + dt_x * dl3
+            du4, dd4, dl4, dg1_4, dg2_4, dg3_4, ad4 = xz_rhs(ue, de, le, g1v + dt_x * dg1_3, g2v + dt_x * dg2_3, g3v + dt_x * dg3_3)
+            u_m += (dt_x / 6.0) * (du1 + 2.0 * du2 + 2.0 * du3 + du4)
+            d_m += (dt_x / 6.0) * (dd1 + 2.0 * dd2 + 2.0 * dd3 + dd4)
+            l_m += (dt_x / 6.0) * (dl1 + 2.0 * dl2 + 2.0 * dl3 + dl4)
+            g1v += (dt_x / 6.0) * (dg1_1 + 2.0 * dg1_2 + 2.0 * dg1_3 + dg1_4)
+            g2v += (dt_x / 6.0) * (dg2_1 + 2.0 * dg2_2 + 2.0 * dg2_3 + dg2_4)
+            g3v += (dt_x / 6.0) * (dg3_1 + 2.0 * dg3_2 + 2.0 * dg3_3 + dg3_4)
+            ds = abs(dt_x)
+            int_ad += (ds / 6.0) * (ad1 + 2.0 * ad2 + 2.0 * ad3 + ad4)
+            int_yu2 += (ds / 6.0) * (
+                yu2_1
+                + 2.0 * np.real(np.diag(um1 @ um1.conj().T))
+                + 2.0 * np.real(np.diag(um2 @ um2.conj().T))
+                + np.real(np.diag(ue @ ue.conj().T))
+            )
+        id_fac = math.exp(sign_dir * K1_F64 * int_ad)
+        xi_fac = np.exp(-sign_dir * 1.5 * K1_F64 * int_yu2)
+        return u_m, d_m, id_fac, xi_fac
+
+    def naumov_combo(u_m: np.ndarray, d_m: np.ndarray) -> float:
+        hu, hd = u_m @ u_m.conj().T, d_m @ d_m.conj().T
+        eu = np.sort(np.real(np.linalg.eigvalsh(hu)))
+        det_c = np.linalg.det(hu @ hd - hd @ hu)
+        prod_u = (eu[1] - eu[0]) * (eu[2] - eu[1]) * (eu[2] - eu[0])
+        return float(np.imag(det_c) / (2.0 * prod_u))
+
+    Yu_xz_ir, Yd_xz_ir, Id_xz, xi_xz = run_xz(-1.0)
+    rhs_xz = (Id_xz ** 6) * float(np.prod(xi_xz ** 2)) * naumov_combo(Yu_x0, Yd_x0)
+    xz_eq18_rel_err = abs(naumov_combo(Yu_xz_ir, Yd_xz_ir) - rhs_xz) / abs(rhs_xz)
+    Yu_xz_bad, Yd_xz_bad, _, _ = run_xz(+1.0)
+    pc_wrong_dir_eq18_rel_err = abs(naumov_combo(Yu_xz_bad, Yd_xz_bad) - rhs_xz) / abs(rhs_xz)
+
+    # Pillar 4: Antusch et al. (2001/2003) 1-loop dimension-5 Weinberg operator analytical integral check
+    rng = np.random.default_rng(20261115)
+    a_sym = rng.normal(size=(3, 3)) + 1j * rng.normal(size=(3, 3))
+    w_init = 0.5 * (a_sym + a_sym.T)
+    Yu_a0 = np.diag([1.0e-4, 4.0e-3, 0.6]).astype(complex)
+    Yd_a0 = np.diag([2.0e-4, 3.0e-3, 0.02]).astype(complex)
+    Ye_a0 = np.diag([1.0e-5, 2.0e-3, 0.15]).astype(complex)
+    g1_a, g2_a, g3_a, lam_a = 0.55, 0.55, 0.55, 0.05
+    n_ant = 2500
+    dt_a = -25.0 / n_ant
+    Yu_a, Yd_a, Ye_a, W_a = Yu_a0.copy(), Yd_a0.copy(), Ye_a0.copy(), w_init.copy()
+    W_bad = w_init.copy()
+    int_ak = 0.0
+    int_ye2 = np.zeros(3, dtype=float)
+
+    def ant_1loop_rhs(u_m, d_m, e_m, w_m, w_b, g1v, g2v, g3v, lamv):
+        hu, hd, he = u_m @ u_m.conj().T, d_m @ d_m.conj().T, e_m @ e_m.conj().T
+        tu, td, te = float(np.real(np.trace(hu))), float(np.real(np.trace(hd))), float(np.real(np.trace(he)))
+        y2 = 3.0 * tu + 3.0 * td + te
+        g1s, g2s, g3s = g1v ** 2, g2v ** 2, g3v ** 2
+        eye3 = np.eye(3, dtype=complex)
+        du = K1_F64 * (((y2 - 0.85 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (hu - hd)) @ u_m)
+        dd = K1_F64 * (((y2 - 0.25 * g1s - 2.25 * g2s - 8.0 * g3s) * eye3 + 1.5 * (hd - hu)) @ d_m)
+        de = K1_F64 * (((y2 - 2.25 * g1s - 2.25 * g2s) * eye3 + 1.5 * he) @ e_m)
+        ak = 4.0 * lamv - 3.0 * g2s + 2.0 * y2
+        dw = K1_F64 * (-1.5 * (he @ w_m + w_m @ he.T) + ak * w_m)
+        # Planted control on complex non-diagonal He: rotate He by a fixed complex unitary to expose W @ He vs W @ He.T!
+        dw_b = K1_F64 * (-1.5 * (he @ w_b + w_b @ he) + ak * w_b)
+        thu2, thd2, the2 = float(np.real(np.trace(hu @ hu))), float(np.real(np.trace(hd @ hd))), float(np.real(np.trace(he @ he)))
+        dlam = K1_F64 * (
+            24.0 * lamv ** 2 + lamv * (4.0 * y2 - 9.0 * g2s - 1.8 * g1s)
+            - 2.0 * (3.0 * thu2 + 3.0 * thd2 + the2)
+            + (9.0 / 8.0) * g2s ** 2 + (27.0 / 200.0) * g1s ** 2 + (9.0 / 20.0) * g1s * g2s
+        )
+        return du, dd, de, dw, dw_b, K1_F64 * 4.1 * g1v ** 3, K1_F64 * (-19.0 / 6.0) * g2v ** 3, K1_F64 * (-7.0) * g3v ** 3, dlam, ak, np.real(np.diag(he))
+
+    for _ in range(n_ant):
+        s1 = ant_1loop_rhs(Yu_a, Yd_a, Ye_a, W_a, W_bad, g1_a, g2_a, g3_a, lam_a)
+        s2 = ant_1loop_rhs(Yu_a + 0.5*dt_a*s1[0], Yd_a + 0.5*dt_a*s1[1], Ye_a + 0.5*dt_a*s1[2], W_a + 0.5*dt_a*s1[3], W_bad + 0.5*dt_a*s1[4], g1_a + 0.5*dt_a*s1[5], g2_a + 0.5*dt_a*s1[6], g3_a + 0.5*dt_a*s1[7], lam_a + 0.5*dt_a*s1[8])
+        s3 = ant_1loop_rhs(Yu_a + 0.5*dt_a*s2[0], Yd_a + 0.5*dt_a*s2[1], Ye_a + 0.5*dt_a*s2[2], W_a + 0.5*dt_a*s2[3], W_bad + 0.5*dt_a*s2[4], g1_a + 0.5*dt_a*s2[5], g2_a + 0.5*dt_a*s2[6], g3_a + 0.5*dt_a*s2[7], lam_a + 0.5*dt_a*s2[8])
+        s4 = ant_1loop_rhs(Yu_a + dt_a*s3[0], Yd_a + dt_a*s3[1], Ye_a + dt_a*s3[2], W_a + dt_a*s3[3], W_bad + dt_a*s3[4], g1_a + dt_a*s3[5], g2_a + dt_a*s3[6], g3_a + dt_a*s3[7], lam_a + dt_a*s3[8])
+        Yu_a += (dt_a / 6.0) * (s1[0] + 2.0 * s2[0] + 2.0 * s3[0] + s4[0])
+        Yd_a += (dt_a / 6.0) * (s1[1] + 2.0 * s2[1] + 2.0 * s3[1] + s4[1])
+        Ye_a += (dt_a / 6.0) * (s1[2] + 2.0 * s2[2] + 2.0 * s3[2] + s4[2])
+        W_a += (dt_a / 6.0) * (s1[3] + 2.0 * s2[3] + 2.0 * s3[3] + s4[3])
+        W_bad += (dt_a / 6.0) * (s1[4] + 2.0 * s2[4] + 2.0 * s3[4] + s4[4])
+        g1_a += (dt_a / 6.0) * (s1[5] + 2.0 * s2[5] + 2.0 * s3[5] + s4[5])
+        g2_a += (dt_a / 6.0) * (s1[6] + 2.0 * s2[6] + 2.0 * s3[6] + s4[6])
+        g3_a += (dt_a / 6.0) * (s1[7] + 2.0 * s2[7] + 2.0 * s3[7] + s4[7])
+        lam_a += (dt_a / 6.0) * (s1[8] + 2.0 * s2[8] + 2.0 * s3[8] + s4[8])
+        int_ak += (dt_a / 6.0) * (s1[9] + 2.0 * s2[9] + 2.0 * s3[9] + s4[9])
+        int_ye2 += (dt_a / 6.0) * (s1[10] + 2.0 * s2[10] + 2.0 * s3[10] + s4[10])
+
+    i_kap = math.exp(K1_F64 * int_ak)
+    i_lep = np.exp(-1.5 * K1_F64 * int_ye2)
+    w_exact = i_kap * (np.diag(i_lep) @ w_init @ np.diag(i_lep))
+    antusch_integral_rel_err = float(np.linalg.norm(W_a - w_exact) / np.linalg.norm(w_exact))
+    antusch_sym_err = float(np.linalg.norm(W_a - W_a.T) / np.linalg.norm(W_a))
+
+    # Planted control PC_REL2_WrongMajoranaTranspose on complex non-diagonal Ye:
+    u_lep_c, _ = np.linalg.qr(rng.normal(size=(3, 3)) + 1j * rng.normal(size=(3, 3)))
+    Ye_c = u_lep_c @ np.diag([0.05, 0.25, 0.80]).astype(complex)
+    W_c = u_lep_c @ w_init @ u_lep_c.T
+    _, _, _, dW_good_c, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_a0, Yd_a0, Ye_c, W_c, 0.5, 0.5, 0.5, 0.1, 0.0, False, False)
+    _, _, _, dW_bad_c, *_ = sm_2loop_plus_weinberg_rhs_f64(Yu_a0, Yd_a0, Ye_c, W_c, 0.5, 0.5, 0.5, 0.1, 0.0, False, True)
+    good_sym_c = float(np.linalg.norm(dW_good_c - dW_good_c.T) / np.linalg.norm(dW_good_c))
+    pc_wrong_maj_transpose_sym_err = float(np.linalg.norm(dW_bad_c - dW_bad_c.T) / np.linalg.norm(dW_bad_c))
+
+    e1_passed = bool(
+        gauge_1loop_err < 1e-12
+        and pc_wrong_diff_factor_err > 0.1
+        and but_4coupling_rel_err < 2e-3
+        and but_lam_abs_err < 5e-4
+        and abs(log10_lam_zero - log10_two_lambda_v) < 0.05
+        and bbo_2loop_noncommuting_rel_err < 1e-5
+        and pc_comm_diag_buttazzo_diff == 0.0
+        and pc_comm_bbo_2loop_rel_err > 5e-3
+        and abs(pc_comm_shift_ratio_to_exact - 1.0) < 1e-4
+        and xz_eq18_rel_err < 1e-12
+        and pc_wrong_dir_eq18_rel_err > 0.9
+        and antusch_integral_rel_err < 1e-12
+        and antusch_sym_err < 1e-15
+        and good_sym_c < 1e-15
+        and pc_wrong_maj_transpose_sym_err > 0.1
+    )
+
+    return {
+        "E1_FourPillar_Literature_RGE_Gate_passed": e1_passed,
+        "pillar1_buttazzo_3loop": {
+            "gauge_1loop_closed_form_err": gauge_1loop_err,
+            "PC_REL2_WrongDiffFactor_err": pc_wrong_diff_factor_err,
+            "four_coupling_planck_max_rel_err": float(but_4coupling_rel_err),
+            "lam_planck_abs_err": float(but_lam_abs_err),
+            "log10_Lambda_lam_GeV": float(log10_lam_zero),
+            "log10_two_Lambda_V_GeV": float(log10_two_lambda_v),
+        },
+        "pillar2_bbo_noncommuting_2loop_matrix": {
+            "bbo_eq24_pure_2loop_rel_err": float(bbo_2loop_noncommuting_rel_err),
+            "PC_REL2_Commutator_diag_buttazzo_diff": pc_comm_diag_buttazzo_diff,
+            "PC_REL2_Commutator_bbo_2loop_rel_err": float(pc_comm_bbo_2loop_rel_err),
+            "PC_REL2_Commutator_shift_ratio_to_exact": float(pc_comm_shift_ratio_to_exact),
+        },
+        "pillar3_xing_zhou_downward_matrix": {
+            "eq18_naumov_rel_err": float(xz_eq18_rel_err),
+            "PC_REL2_WrongRunningDirection_eq18_rel_err": float(pc_wrong_dir_eq18_rel_err),
+        },
+        "pillar4_antusch_weinberg_1loop": {
+            "analytical_integral_rel_err": antusch_integral_rel_err,
+            "weinberg_symmetry_err": antusch_sym_err,
+            "PC_REL2_WrongMajoranaTranspose_sym_err": pc_wrong_maj_transpose_sym_err,
+        },
+    }
+
+
+# ============================================================================
+# SECTION 3: TARGET-FREE GEOMETRY, OVERLAPS, SEESAW M_R & MPMATH 2-LOOP RGE
+# ============================================================================
+
+def bloch_wigner_mp(z: Any) -> Any:
+    return mp.im(mp.polylog(2, z)) + mp.arg(1 - z) * mp.log(abs(z))
+
+
+def z2_from_z1_gluing(z1: Any) -> Any:
+    w = z1 * (z1 - 1)
+    disc = mp.sqrt(1 + mp.mpf(4) / w)
+    r_plus = (1 + disc) / 2
+    r_minus = (1 - disc) / 2
+    return r_plus if mp.im(r_plus) > mp.im(r_minus) else r_minus
+
+
+def tau_nz_from_z1(z1: Any) -> Any:
+    z2 = z2_from_z1_gluing(z1)
+    h_mu = z2 * (1 - z1)
+    a11 = (2 * z1 - 1) * z2 * (z2 - 1)
+    a12 = z1 * (z1 - 1) * (2 * z2 - 1)
+    a21 = -z2
+    a22 = 1 - z1
+    dw1_du = h_mu / (a21 - a22 * a11 / a12)
+    return (mp.mpf(2) / z1 - mp.mpf(2) / (1 - z1)) * dw1_du
+
+
+def eisenstein_char_mp(tau: Any, a_fr: Fraction, b_fr: Fraction, s_int: int = 3) -> Any:
+    x, y = mp.re(tau), mp.im(tau)
+    s = mp.mpf(s_int)
+    half = mp.mpf(1) / mp.mpf(2)
+    af = mp.mpf(a_fr.numerator) / mp.mpf(a_fr.denominator)
+    af = af - mp.floor(af)
+    bf = mp.mpf(b_fr.numerator) / mp.mpf(b_fr.denominator)
+    k0 = (
+        ((-1) ** (s_int - 1))
+        * ((2 * mp.pi) ** (2 * s_int))
+        / mp.factorial(2 * s_int)
+        * mp.bernpoly(2 * s_int, af)
+        * (y ** s)
+    )
+    thresh = mp.mp.dps * 2.4 + 18.0
+    y_fl = max(float(y), 0.5)
+    af_fl = float(af)
+    k_max = int(thresh / (2.0 * math.pi * y_fl * 0.15)) + 6
+    m_span = 14
+    tot = k0
+    for k in range(1, k_max + 1):
+        for m in range(-m_span, m_span + 1):
+            ma_fl = abs(m + af_fl)
+            if ma_fl > 1e-12 and (2.0 * math.pi * k * y_fl * ma_fl > thresh):
+                continue
+            ma = mp.mpf(m) + af
+            ang = 2 * mp.pi * k * (bf - ma * x)
+            if abs(ma) < mp.mpf("1e-30"):
+                term = (
+                    mp.sqrt(mp.pi) * mp.gamma(s - half) / mp.gamma(s) * (y ** (1 - s)) * (mp.mpf(k) ** (1 - 2 * s_int))
+                )
+            else:
+                z = 2 * mp.pi * k * y * abs(ma)
+                bess = mp.sqrt(mp.pi / (2 * z)) * mp.exp(-z) * (1 + 3 / z + 3 / (z * z))
+                term = (2 * (mp.pi ** s) / mp.gamma(s)) * mp.sqrt(y) * ((abs(ma) / k) ** (s - half)) * bess
+            tot += 2 * mp.cos(ang) * term
+    return tot
+
+
+_VCAS_CACHE: Dict[Tuple[int, str, str, int, int, int, int], Any] = {}
+
+
+def v_cas_point_mp(tau: Any, a_fr: Fraction, b_fr: Fraction) -> Any:
+    key = (
+        int(mp.mp.dps),
+        mp.nstr(mp.re(tau), mp.mp.dps),
+        mp.nstr(mp.im(tau), mp.mp.dps),
+        a_fr.numerator,
+        a_fr.denominator,
+        b_fr.numerator,
+        b_fr.denominator,
+    )
+    if key in _VCAS_CACHE:
+        return _VCAS_CACHE[key]
+    e0 = eisenstein_char_mp(tau, Fraction(0), Fraction(0), 3)
+    str_w = (
+        24 * e0
+        + 4 * eisenstein_char_mp(tau, 3 * a_fr, 3 * b_fr, 3)
+        - (
+            36 * eisenstein_char_mp(tau, a_fr, b_fr, 3)
+            + 18 * eisenstein_char_mp(tau, -4 * a_fr, -4 * b_fr, 3)
+            + 18 * eisenstein_char_mp(tau, 2 * a_fr, 2 * b_fr, 3)
+            + 12 * eisenstein_char_mp(tau, -3 * a_fr, -3 * b_fr, 3)
+            + 6 * eisenstein_char_mp(tau, 6 * a_fr, 6 * b_fr, 3)
+        )
+    )
+    val = -(str_w / (2 * (mp.pi ** 3)))
+    _VCAS_CACHE[key] = val
+    return val
+
+
+def neg_vol_on_gluing_curve(x: Any, y: Any) -> Any:
+    z1 = mp.mpc(x, y)
+    z2 = z2_from_z1_gluing(z1)
+    return -(bloch_wigner_mp(z1) + bloch_wigner_mp(z2))
+
+
+def s_eff_joint_3d_2d(x: Any, y: Any, area: Any) -> Any:
+    nv = neg_vol_on_gluing_curve(x, y)
+    tnz = tau_nz_from_z1(mp.mpc(x, y))
+    vc = v_cas_point_mp(tnz, Fraction(4, 15), Fraction(8, 15))
+    c_vol = mp.mpf(1) / mp.mpf(2)
+    c_flux = 2 * (mp.pi ** 2) * (mp.mpf(3) ** 2)
+    return mp.re(nv + c_vol * area + c_flux / area + vc / (16 * (mp.pi ** 2) * (area ** 2)))
+
+
+def solve_joint_3var_newton(seed_x: Fraction, seed_y: Fraction, seed_a: Fraction) -> Tuple[Any, Any, Any]:
+    vec = [
+        mp.mpf(seed_x.numerator) / mp.mpf(seed_x.denominator),
+        mp.mpf(seed_y.numerator) / mp.mpf(seed_y.denominator),
+        mp.mpf(seed_a.numerator) / mp.mpf(seed_a.denominator),
+    ]
+    steps = [mp.mpf(10) ** (-6), mp.mpf(10) ** (-6), mp.mpf(10) ** (-5)]
+    tol = mp.mpf(10) ** (-14)
+    for _ in range(18):
+        f0 = s_eff_joint_3d_2d(vec[0], vec[1], vec[2])
+        grad = [mp.mpf(0), mp.mpf(0), mp.mpf(0)]
+        hess = mp.zeros(3, 3)
+        for i in range(3):
+            vp, vm = list(vec), list(vec)
+            vp[i] += steps[i]
+            vm[i] -= steps[i]
+            fp = s_eff_joint_3d_2d(vp[0], vp[1], vp[2])
+            fm = s_eff_joint_3d_2d(vm[0], vm[1], vm[2])
+            grad[i] = (fp - fm) / (2 * steps[i])
+            hess[i, i] = (fp - 2 * f0 + fm) / (steps[i] ** 2)
+        for i in range(3):
+            for j in range(i + 1, 3):
+                vpp, vpm, vmp, vmm = list(vec), list(vec), list(vec), list(vec)
+                vpp[i] += steps[i]; vpp[j] += steps[j]
+                vpm[i] += steps[i]; vpm[j] -= steps[j]
+                vmp[i] -= steps[i]; vmp[j] += steps[j]
+                vmm[i] -= steps[i]; vmm[j] -= steps[j]
+                hij = (
+                    s_eff_joint_3d_2d(vpp[0], vpp[1], vpp[2])
+                    - s_eff_joint_3d_2d(vpm[0], vpm[1], vpm[2])
+                    - s_eff_joint_3d_2d(vmp[0], vmp[1], vmp[2])
+                    + s_eff_joint_3d_2d(vmm[0], vmm[1], vmm[2])
+                ) / (4 * steps[i] * steps[j])
+                hess[i, j] = hij
+                hess[j, i] = hij
+        delta = (hess ** (-1)) * mp.matrix(grad)
+        for i in range(3):
+            vec[i] -= delta[i, 0]
+        if abs(delta[0, 0]) + abs(delta[1, 0]) + abs(delta[2, 0]) < tol:
+            break
+    return vec[0], vec[1], vec[2]
+
+
+def erfcx_mp(x: Any) -> Any:
+    with mp.extradps(50):
+        return mp.exp(x * x) * mp.erfc(x)
+
+
+def erfc_integral_mp(alpha: Any, beta: Any, u0: Any, thresh: float) -> Any:
+    xm = alpha * u0 - beta / u0
+    xp = alpha * u0 + beta / u0
+    edge_exp = (alpha * u0) ** 2 + (beta / u0) ** 2
+    sqrt_pi = mp.sqrt(mp.pi)
+    if xm >= 0:
+        if float(edge_exp) > thresh:
+            return mp.mpf(0)
+        return (sqrt_pi / (2 * alpha)) * mp.exp(-edge_exp) * (erfcx_mp(xm) + erfcx_mp(xp))
+    if float(2 * alpha * beta) > thresh:
+        return mp.mpf(0)
+    part1 = 2 * mp.exp(-2 * alpha * beta)
+    part2 = mp.mpf(0) if float(edge_exp) > thresh else mp.exp(-edge_exp) * (erfcx_mp(xp) - erfcx_mp(-xm))
+    return (sqrt_pi / (2 * alpha)) * (part1 + part2)
+
+
+def y_mag_overlap_mp(tau: Any, a_fr: Fraction, b_fr: Fraction, ql: int, qr: int) -> Any:
+    qh = -(ql + qr)
+    tau1, tau2 = mp.re(tau), mp.im(tau)
+    a = mp.mpf(a_fr.numerator) / mp.mpf(a_fr.denominator)
+    b = mp.mpf(b_fr.numerator) / mp.mpf(b_fr.denominator)
+    half = mp.mpf(1) / mp.mpf(2)
+    u0 = 1 / mp.sqrt(6)
+    u_split = mp.sqrt(tau2)
+    sqrt_tau2 = mp.sqrt(tau2)
+    sqrt_pi = mp.sqrt(mp.pi)
+    thresh = mp.mp.dps * 2.45 + 14.0
+    t2_f = float(tau2)
+    k_max = int(math.ceil(math.sqrt(thresh * 6.0 / (math.pi * t2_f)) / 3.0)) + 3
+    l_quad = int(math.ceil(math.sqrt(thresh * 6.0 / (math.pi * t2_f)))) + 4
+    l_riem = int(math.ceil(math.sqrt(thresh / math.pi))) + 3
+
+    def f_prim(u_val: Any, b_val: Any) -> Any:
+        if b_val == 0:
+            return 2 * u_val
+        bv_u = b_val / u_val
+        if float(bv_u * bv_u) > thresh:
+            return mp.mpf(0)
+        return 2 * mp.exp(-(bv_u * bv_u)) * (u_val - sqrt_pi * b_val * erfcx_mp(bv_u))
+
+    y_mat = mp.zeros(3, 3)
+    for i in range(3):
+        c_l = (mp.mpf(i) + half + ql * a) / 3
+        zak_ang = -2 * mp.pi * (ql * b / 3) * (mp.mpf(i) + half)
+        zak_ph = mp.exp(1j * zak_ang)
+        for j in range(3):
+            c_r = (mp.mpf(j) + half - qr * a) / 3
+            acc = mp.mpc(0)
+            for k in range(-k_max, k_max + 1):
+                n = (j - i) - 3 * k
+                na = mp.mpf(n) + qh * a
+                delta_k = na / 3
+                xi0 = (c_l + c_r - k) / 2
+                x0 = na * tau1 + qh * b
+                ang0 = mp.pi * delta_k * ((qr - ql) * b - 3)
+                base_phase = mp.exp(1j * ang0)
+                if abs(na) > mp.mpf("1e-28"):
+                    alpha = mp.sqrt(mp.pi * tau2) * abs(na)
+                    l_lin = int(math.ceil(thresh / (2.0 * math.pi * t2_f * float(abs(na))))) + 3
+                    l_max_na = max(l_lin, l_quad)
+                    sub = mp.mpc(0)
+                    l_center = int(round(float(xi0)))
+                    for dl in range(-l_max_na, l_max_na + 1):
+                        l_idx = l_center + dl
+                        beta = mp.sqrt(mp.pi * tau2) * abs(mp.mpf(l_idx) - xi0)
+                        iv = sqrt_tau2 * erfc_integral_mp(alpha, beta, u0, thresh)
+                        if iv != 0:
+                            ang = 2 * mp.pi * (mp.mpf(l_idx) - xi0) * x0
+                            sub += iv * mp.exp(1j * ang)
+                    acc += base_phase * sub
+                else:
+                    sub1 = mp.mpc(0)
+                    l_center = int(round(float(xi0)))
+                    for dl in range(-l_riem, l_riem + 1):
+                        l_idx = l_center + dl
+                        beta = mp.sqrt(mp.pi * tau2) * abs(mp.mpf(l_idx) - xi0)
+                        iv = sqrt_tau2 * (f_prim(u_split, beta) - f_prim(u0, beta))
+                        if iv != 0:
+                            ang = 2 * mp.pi * (mp.mpf(l_idx) - xi0) * x0
+                            sub1 += iv * mp.exp(1j * ang)
+                    sub2 = mp.mpc(0)
+                    m_center = int(round(-float(x0)))
+                    for dm in range(-l_riem, l_riem + 1):
+                        m_idx = m_center + dm
+                        mx = mp.mpf(m_idx) + x0
+                        if abs(mx) > mp.mpf("1e-28") and float(mp.pi * mx * mx) <= thresh:
+                            ang = 2 * mp.pi * m_idx * xi0
+                            sub2 += (tau2 / (mp.pi * mx * mx)) * mp.exp(-mp.pi * mx * mx) * mp.exp(1j * ang)
+                    acc += base_phase * (sub1 + sub2)
+            y_mat[i, j] = zak_ph * acc
+    return y_mat
+
+
+def majorana_puncture_jet_mp(tau: Any) -> Any:
+    y = mp.im(tau)
+    q = mp.exp(2j * mp.pi * tau)
+    n_max = int((mp.mp.dps * 2.4 + 12.0) / (2.0 * math.pi * max(float(y), 0.3))) + 8
+    s1, s3, s5 = mp.mpc(0), mp.mpc(0), mp.mpc(0)
+    qn = q
+    for n in range(1, n_max + 1):
+        d = qn / (1 - qn)
+        s1 += n * d
+        s3 += (n ** 3) * d
+        s5 += (n ** 5) * d
+        qn *= q
+    e2_holo = 1 - 24 * s1
+    e4 = 1 + 240 * s3
+    e6 = 1 - 504 * s5
+
+    half = mp.mpf(1) / mp.mpf(2)
+    three_halves = mp.mpf(3) / mp.mpf(2)
+    n_span = int(math.sqrt((mp.mp.dps * 2.4 + 14.0) / (3.0 * math.pi * max(float(y), 0.3)))) + 6
+    v_raw = [mp.mpc(0)] * 3
+    w_raw = [mp.mpc(0)] * 3
+    u_raw = [mp.mpc(0)] * 3
+    for j in range(3):
+        ac = (mp.mpf(j) + half) / 3
+        sv, sw, dtau_sw = mp.mpc(0), mp.mpc(0), mp.mpc(0)
+        for n in range(-n_span, n_span + 1):
+            na = mp.mpf(n) + ac
+            ph = mp.exp(1j * mp.pi * (na * na) * (3 * tau) + 2j * mp.pi * na * three_halves)
+            sv += ph
+            cz = 3j * na
+            sw += cz * ph
+            dtau_sw += cz * (three_halves * (na * na)) * ph
+        serre_sw = dtau_sw - (three_halves / 12) * e2_holo * sw
+        v_raw[j] = (y ** (mp.mpf(1) / mp.mpf(4))) * mp.conj(sv)
+        w_raw[j] = (y ** (mp.mpf(3) / mp.mpf(4))) * mp.conj(sw)
+        u_raw[j] = (y ** (mp.mpf(7) / mp.mpf(4))) * mp.conj(serre_sw)
+
+    m_r = mp.zeros(3, 3)
+    c_v = (y ** 3) * mp.conj(e6)
+    c_w = (y ** 2) * mp.conj(e4)
+    for r in range(3):
+        for c in range(3):
+            m_r[r, c] = c_v * v_raw[r] * v_raw[c] + c_w * w_raw[r] * w_raw[c] + u_raw[r] * u_raw[c]
+    return m_r
+
+
+def collar_amp_mp(kappa_int: int, l_cusp: Any) -> Any:
+    if kappa_int == 0:
+        return 1 / mp.sqrt(l_cusp)
+    k = mp.mpf(kappa_int)
+    norm_sq = (mp.exp(2 * k * l_cusp) - 1) / (2 * k)
+    return mp.exp(k * l_cusp) / mp.sqrt(norm_sq)
+
+
+def mat_transpose_mp(mat: Any) -> Any:
+    res = mp.zeros(mat.rows, mat.cols)
+    for r in range(mat.rows):
+        for c in range(mat.cols):
+            res[r, c] = mat[c, r]
+    return res
+
+
+def build_zero_knob_uv_state_mp(
+    tau_star: Any,
+    vol_m004: Any,
+    area_horotorus: Any,
+    a_fr: Fraction,
+    b_fr: Fraction,
+) -> Dict[str, Any]:
+    """
+    Constructs the exact zero-knob UV coupling and Yukawa/seesaw matrices from
+    derived (tau*, Vol(m004), A*) and canonical 1D collar + 2D magnetized wavefunctions.
+    Contains ZERO float literals (AST-enforced).
+    """
+    l_cusp = mp.im(tau_star)
+    alpha_uv_inv = vol_m004 * area_horotorus
+    g_uv = mp.sqrt((4 * mp.pi) / alpha_uv_inv)
+    lam_uv = (mp.mpf(1) / mp.mpf(5)) * (g_uv ** 2)
+    d_ln_mu = -(mp.mpf(45) / mp.pi) * vol_m004
+
+    amp0 = collar_amp_mp(0, l_cusp)
+    ampp = collar_amp_mp(1, l_cusp)
+    ampm = collar_amp_mp(-1, l_cusp)
+
+    c_pos = g_uv * amp0 * amp0 * ampp
+    c_neg = g_uv * amp0 * amp0 * ampm
+
+    y1 = c_pos * y_mag_overlap_mp(tau_star, a_fr, b_fr, 1, -4)
+    y2 = c_neg * y_mag_overlap_mp(tau_star, a_fr, b_fr, 1, 2)
+    y3 = c_neg * y_mag_overlap_mp(tau_star, a_fr, b_fr, -3, 6)
+    y4 = c_pos * y_mag_overlap_mp(tau_star, a_fr, b_fr, -3, 0)
+    m_r = majorana_puncture_jet_mp(tau_star)
+    w4 = y4 * (m_r ** (-1)) * mat_transpose_mp(y4)
+    return {
+        "alpha_uv_inv": alpha_uv_inv,
+        "g_uv": g_uv,
+        "lam_uv": lam_uv,
+        "d_ln_mu": d_ln_mu,
+        "Y1": y1,
+        "Y2": y2,
+        "Y3": y3,
+        "Y4": y4,
+        "M_R": m_r,
+        "W4": w4,
+    }
+
+
+def mp_to_list3(mat: Any) -> List[List[Any]]:
+    return [[mat[r, c] for c in range(3)] for r in range(3)]
+
+
+def mp_to_np(mat: Any) -> np.ndarray:
+    return np.array([[complex(mat[r, c]) for c in range(3)] for r in range(3)], dtype=complex)
+
+
+def mp3_mul(a: List[List[Any]], b: List[List[Any]]) -> List[List[Any]]:
+    return [
+        [a[i][0] * b[0][j] + a[i][1] * b[1][j] + a[i][2] * b[2][j] for j in range(3)]
+        for i in range(3)
+    ]
+
+
+def mp3_dag(a: List[List[Any]]) -> List[List[Any]]:
+    return [[mp.conj(a[j][i]) for j in range(3)] for i in range(3)]
+
+
+def mp3_tp(a: List[List[Any]]) -> List[List[Any]]:
+    return [[a[j][i] for j in range(3)] for i in range(3)]
+
+
+def mp3_conj(a: List[List[Any]]) -> List[List[Any]]:
+    return [[mp.conj(a[i][j]) for j in range(3)] for i in range(3)]
+
+
+def mp3_tr_re(a: List[List[Any]]) -> Any:
+    return mp.re(a[0][0] + a[1][1] + a[2][2])
+
+
+def random_haar_u3_mp(seed: int) -> List[List[Any]]:
+    rng = np.random.default_rng(seed)
+    re_m = rng.normal(size=(3, 3))
+    im_m = rng.normal(size=(3, 3))
+    cols: List[List[Any]] = []
+    for c in range(3):
+        v = [mp.mpc(repr(float(re_m[r, c])), repr(float(im_m[r, c]))) for r in range(3)]
+        for u in cols:
+            proj = sum(mp.conj(u[r]) * v[r] for r in range(3))
+            v = [v[r] - proj * u[r] for r in range(3)]
+        nrm = mp.sqrt(sum(mp.re(mp.conj(v[r]) * v[r]) for r in range(3)))
+        cols.append([v[r] / nrm for r in range(3)])
+    return [[cols[c][r] for c in range(3)] for r in range(3)]
+
+
+def sm_2loop_plus_weinberg_rhs_mp(
+    Yu: List[List[Any]],
+    Yd: List[List[Any]],
+    Ye: List[List[Any]],
+    W4: List[List[Any]],
+    g1: Any,
+    g2: Any,
+    g3: Any,
+    lam: Any,
+    k1_mp: Any,
+    k2_mp: Any,
+) -> Tuple[List[List[Any]], List[List[Any]], List[List[Any]], List[List[Any]], Any, Any, Any, Any]:
+    Hu = mp3_mul(Yu, mp3_dag(Yu))
+    Hd = mp3_mul(Yd, mp3_dag(Yd))
+    He = mp3_mul(Ye, mp3_dag(Ye))
+
+    t_u = mp3_tr_re(Hu)
+    t_d = mp3_tr_re(Hd)
+    t_e = mp3_tr_re(He)
+    y2_tr = 3 * t_u + 3 * t_d + t_e
+
+    g1s, g2s, g3s = g1 * g1, g2 * g2, g3 * g3
+    F = lambda p, q: mp.mpf(p) / mp.mpf(q)
+
+    Hu2 = mp3_mul(Hu, Hu)
+    Hd2 = mp3_mul(Hd, Hd)
+    He2 = mp3_mul(He, He)
+    HuHd = mp3_mul(Hu, Hd)
+    HdHu = mp3_mul(Hd, Hu)
+
+    t_hu2, t_hd2, t_he2 = mp3_tr_re(Hu2), mp3_tr_re(Hd2), mp3_tr_re(He2)
+    t_huhd = mp3_tr_re(HuHd)
+
+    chi2 = (
+        -F(27, 4) * (t_hu2 + t_hd2)
+        - F(9, 4) * t_he2
+        + F(3, 2) * t_huhd
+        + (F(17, 8) * g1s + F(45, 8) * g2s + 20 * g3s) * t_u
+        + (F(5, 8) * g1s + F(45, 8) * g2s + 20 * g3s) * t_d
+        + (F(15, 8) * g1s + F(15, 8) * g2s) * t_e
+    )
+
+    su1_diag = y2_tr - F(17, 20) * g1s - F(9, 4) * g2s - 8 * g3s
+    sd1_diag = y2_tr - F(1, 4) * g1s - F(9, 4) * g2s - 8 * g3s
+    se1_diag = y2_tr - F(9, 4) * g1s - F(9, 4) * g2s
+
+    su2_hu = -F(9, 4) * y2_tr - 12 * lam + F(223, 80) * g1s + F(135, 16) * g2s + 16 * g3s
+    su2_hd = F(5, 4) * y2_tr - F(43, 80) * g1s + F(9, 16) * g2s - 16 * g3s
+    su2_id = (
+        chi2 + 6 * lam * lam + F(1187, 600) * g1s * g1s - F(9, 20) * g1s * g2s
+        + F(19, 15) * g1s * g3s - F(23, 4) * g2s * g2s + 9 * g2s * g3s - 108 * g3s * g3s
+    )
+
+    sd2_hd = -F(9, 4) * y2_tr - 12 * lam + F(187, 80) * g1s + F(135, 16) * g2s + 16 * g3s
+    sd2_hu = F(5, 4) * y2_tr - F(79, 80) * g1s + F(9, 16) * g2s - 16 * g3s
+    sd2_id = (
+        chi2 + 6 * lam * lam - F(127, 600) * g1s * g1s - F(27, 20) * g1s * g2s
+        + F(31, 15) * g1s * g3s - F(23, 4) * g2s * g2s + 9 * g2s * g3s - 108 * g3s * g3s
+    )
+
+    se2_he = -F(9, 4) * y2_tr - 12 * lam + F(387, 80) * g1s + F(135, 16) * g2s
+    se2_id = chi2 + 6 * lam * lam + F(1371, 200) * g1s * g1s + F(27, 20) * g1s * g2s - F(23, 4) * g2s * g2s
+
+    lu = [[mp.mpc(0)] * 3 for _ in range(3)]
+    ld = [[mp.mpc(0)] * 3 for _ in range(3)]
+    le = [[mp.mpc(0)] * 3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            d_ij = mp.mpf(1) if i == j else mp.mpf(0)
+            b1u = su1_diag * d_ij + F(3, 2) * (Hu[i][j] - Hd[i][j])
+            b2u = (
+                F(3, 2) * Hu2[i][j] - HuHd[i][j] - F(1, 4) * HdHu[i][j] + F(11, 4) * Hd2[i][j]
+                + su2_hu * Hu[i][j] + su2_hd * Hd[i][j] + su2_id * d_ij
+            )
+            lu[i][j] = k1_mp * b1u + k2_mp * b2u
+
+            b1d = sd1_diag * d_ij + F(3, 2) * (Hd[i][j] - Hu[i][j])
+            b2d = (
+                F(3, 2) * Hd2[i][j] - HdHu[i][j] - F(1, 4) * HuHd[i][j] + F(11, 4) * Hu2[i][j]
+                + sd2_hd * Hd[i][j] + sd2_hu * Hu[i][j] + sd2_id * d_ij
+            )
+            ld[i][j] = k1_mp * b1d + k2_mp * b2d
+
+            b1e = se1_diag * d_ij + F(3, 2) * He[i][j]
+            b2e = F(3, 2) * He2[i][j] + se2_he * He[i][j] + se2_id * d_ij
+            le[i][j] = k1_mp * b1e + k2_mp * b2e
+
+    dYu = mp3_mul(lu, Yu)
+    dYd = mp3_mul(ld, Yd)
+    dYe = mp3_mul(le, Ye)
+
+    HeW = mp3_mul(He, W4)
+    WHeT = mp3_mul(W4, mp3_tp(He))
+    alpha_w = 4 * lam - 3 * g2s + 2 * y2_tr
+    dW4 = [
+        [k1_mp * (-F(3, 2) * (HeW[r][c] + WHeT[r][c]) + alpha_w * W4[r][c]) for c in range(3)]
+        for r in range(3)
+    ]
+
+    dg1 = k1_mp * F(41, 10) * (g1 ** 3) + k2_mp * (g1 ** 3) * (
+        F(199, 50) * g1s + F(27, 10) * g2s + F(44, 5) * g3s - F(17, 10) * t_u - F(1, 2) * t_d - F(3, 2) * t_e
+    )
+    dg2 = k1_mp * (-F(19, 6)) * (g2 ** 3) + k2_mp * (g2 ** 3) * (
+        F(9, 10) * g1s + F(35, 6) * g2s + 12 * g3s - F(3, 2) * t_u - F(3, 2) * t_d - F(1, 2) * t_e
+    )
+    dg3 = k1_mp * (-7) * (g3 ** 3) + k2_mp * (g3 ** 3) * (
+        F(11, 10) * g1s + F(9, 2) * g2s - 26 * g3s - 2 * t_u - 2 * t_d
+    )
+
+    t_hu3 = mp3_tr_re(mp3_mul(Hu2, Hu))
+    t_hd3 = mp3_tr_re(mp3_mul(Hd2, Hd))
+    t_he3 = mp3_tr_re(mp3_mul(He2, He))
+    t_hu2hd = mp3_tr_re(mp3_mul(Hu2, Hd))
+    t_huhd2 = mp3_tr_re(mp3_mul(Hu, Hd2))
+
+    dlam1 = (
+        24 * lam * lam + lam * (4 * y2_tr - 9 * g2s - F(9, 5) * g1s)
+        - 2 * (3 * t_hu2 + 3 * t_hd2 + t_he2)
+        + F(9, 8) * g2s * g2s + F(27, 200) * g1s * g1s + F(9, 20) * g1s * g2s
+    )
+    dlam2 = (
+        -312 * (lam ** 3) + 36 * lam * lam * (3 * g2s + F(3, 5) * g1s) - 24 * lam * lam * y2_tr
+        + lam * (80 * g3s + F(45, 2) * g2s) * (t_u + t_d)
+        + lam * g1s * (F(17, 2) * t_u + F(5, 2) * t_d + F(15, 2) * t_e)
+        + F(15, 2) * lam * g2s * t_e
+        - 3 * lam * (t_hu2 + t_hd2 + t_he2 / 3 + 14 * t_huhd)
+        + lam * (-F(73, 8) * g2s * g2s + F(117, 20) * g1s * g2s + F(1887, 200) * g1s * g1s)
+        + 30 * (t_hu3 + t_hd3 + t_he3 / 3) - 6 * (t_hu2hd + t_huhd2)
+        - 32 * g3s * (t_hu2 + t_hd2) - F(8, 5) * g1s * t_hu2 + F(4, 5) * g1s * t_hd2 - F(12, 5) * g1s * t_he2
+        - F(9, 4) * g2s * g2s * (t_u + t_d + t_e / 3)
+        + g1s * g2s * (F(63, 10) * t_u + F(27, 10) * t_d + F(33, 10) * t_e)
+        - g1s * g1s * (F(171, 100) * t_u - F(9, 20) * t_d + F(9, 4) * t_e)
+        + F(305, 16) * (g2s ** 3) - F(289, 80) * g2s * g2s * g1s
+        - F(1677, 400) * g2s * g1s * g1s - F(3411, 2000) * (g1s ** 3)
+    )
+    dlam = k1_mp * dlam1 + k2_mp * dlam2
+    return dYu, dYd, dYe, dW4, dg1, dg2, dg3, dlam
+
+
+def rk4_integrate_full_mp(
+    Yu0: List[List[Any]],
+    Yd0: List[List[Any]],
+    Ye0: List[List[Any]],
+    W4_0: List[List[Any]],
+    g1_0: Any,
+    g2_0: Any,
+    g3_0: Any,
+    lam0: Any,
+    d_ln_mu: Any,
+    n_steps: int = 160,
+) -> Tuple[List[List[Any]], List[List[Any]], List[List[Any]], List[List[Any]], Any]:
+    dt = d_ln_mu / mp.mpf(n_steps)
+    half_dt = dt / 2
+    sixth_dt = dt / 6
+    k1_mp = mp.mpf(1) / (16 * mp.pi * mp.pi)
+    k2_mp = k1_mp * k1_mp
+    Yu = [[Yu0[r][c] for c in range(3)] for r in range(3)]
+    Yd = [[Yd0[r][c] for c in range(3)] for r in range(3)]
+    Ye = [[Ye0[r][c] for c in range(3)] for r in range(3)]
+    W4 = [[W4_0[r][c] for c in range(3)] for r in range(3)]
+    g1, g2, g3, lam = g1_0, g2_0, g3_0, lam0
+
+    def add_s(m0: List[List[Any]], dm: List[List[Any]], sc: Any) -> List[List[Any]]:
+        return [[m0[r][c] + sc * dm[r][c] for c in range(3)] for r in range(3)]
+
+    for _ in range(n_steps):
+        s1 = sm_2loop_plus_weinberg_rhs_mp(Yu, Yd, Ye, W4, g1, g2, g3, lam, k1_mp, k2_mp)
+        s2 = sm_2loop_plus_weinberg_rhs_mp(
+            add_s(Yu, s1[0], half_dt), add_s(Yd, s1[1], half_dt), add_s(Ye, s1[2], half_dt), add_s(W4, s1[3], half_dt),
+            g1 + half_dt * s1[4], g2 + half_dt * s1[5], g3 + half_dt * s1[6], lam + half_dt * s1[7], k1_mp, k2_mp,
+        )
+        s3 = sm_2loop_plus_weinberg_rhs_mp(
+            add_s(Yu, s2[0], half_dt), add_s(Yd, s2[1], half_dt), add_s(Ye, s2[2], half_dt), add_s(W4, s2[3], half_dt),
+            g1 + half_dt * s2[4], g2 + half_dt * s2[5], g3 + half_dt * s2[6], lam + half_dt * s2[7], k1_mp, k2_mp,
+        )
+        s4 = sm_2loop_plus_weinberg_rhs_mp(
+            add_s(Yu, s3[0], dt), add_s(Yd, s3[1], dt), add_s(Ye, s3[2], dt), add_s(W4, s3[3], dt),
+            g1 + dt * s3[4], g2 + dt * s3[5], g3 + dt * s3[6], lam + dt * s3[7], k1_mp, k2_mp,
+        )
+        Yu = [[Yu[r][c] + sixth_dt * (s1[0][r][c] + 2*s2[0][r][c] + 2*s3[0][r][c] + s4[0][r][c]) for c in range(3)] for r in range(3)]
+        Yd = [[Yd[r][c] + sixth_dt * (s1[1][r][c] + 2*s2[1][r][c] + 2*s3[1][r][c] + s4[1][r][c]) for c in range(3)] for r in range(3)]
+        Ye = [[Ye[r][c] + sixth_dt * (s1[2][r][c] + 2*s2[2][r][c] + 2*s3[2][r][c] + s4[2][r][c]) for c in range(3)] for r in range(3)]
+        W4 = [[W4[r][c] + sixth_dt * (s1[3][r][c] + 2*s2[3][r][c] + 2*s3[3][r][c] + s4[3][r][c]) for c in range(3)] for r in range(3)]
+        g1 = g1 + sixth_dt * (s1[4] + 2 * s2[4] + 2 * s3[4] + s4[4])
+        g2 = g2 + sixth_dt * (s1[5] + 2 * s2[5] + 2 * s3[5] + s4[5])
+        g3 = g3 + sixth_dt * (s1[6] + 2 * s2[6] + 2 * s3[6] + s4[6])
+        lam = lam + sixth_dt * (s1[7] + 2 * s2[7] + 2 * s3[7] + s4[7])
+    return Yu, Yd, Ye, W4, lam
+
+
+def eighe_sorted_mp(h_mat: Any) -> Tuple[List[Any], Any]:
+    vals, vecs = mp.eighe(h_mat)
+    order = sorted(range(3), key=lambda k: mp.re(vals[k]))
+    s_out: List[Any] = []
+    q_out = mp.zeros(3, 3)
+    for c_new, c_old in enumerate(order):
+        s_out.append(mp.sqrt(max(mp.re(vals[c_old]), mp.mpf(0))))
+        nrm = mp.sqrt(sum(abs(vecs[r, c_old]) ** 2 for r in range(3)))
+        for r in range(3):
+            q_out[r, c_new] = vecs[r, c_old] / nrm
+    return s_out, q_out
+
+
+def extract_obs_mp_full(
+    Yu: List[List[Any]], Yd: List[List[Any]], Ye: List[List[Any]], W4: List[List[Any]], lam: Any
+) -> Dict[str, Any]:
+    Hu = mp.matrix(mp3_mul(Yu, mp3_dag(Yu)))
+    Hd = mp.matrix(mp3_mul(Yd, mp3_dag(Yd)))
+    He = mp.matrix(mp3_mul(Ye, mp3_dag(Ye)))
+    Hw = mp.matrix(mp3_mul(W4, mp3_dag(W4)))
+    su, qu = eighe_sorted_mp(Hu)
+    sd, qd = eighe_sorted_mp(Hd)
+    se, qe = eighe_sorted_mp(He)
+    sw, qw = eighe_sorted_mp(Hw)
+    v12 = qu.transpose_conj() * qd
+    u34 = qe.transpose_conj() * qw
+    tu = sum(mp.re(Hu[i, i]) for i in range(3))
+    td = sum(mp.re(Hd[i, i]) for i in range(3))
+    cm = (Hu / tu) * (Hd / td) - (Hd / td) * (Hu / tu)
+    cm3 = cm * cm * cm
+    icp = sum(mp.im(cm3[i, i]) for i in range(3)) / 6
+    return {
+        "ratios": [
+            su[0] / su[1], su[1] / su[2],
+            sd[0] / sd[1], sd[1] / sd[2],
+            se[0] / se[1], se[1] / se[2],
+            sw[0] / sw[1], sw[1] / sw[2],
+            su[2] / sd[2], sd[2] / se[2],
+        ],
+        "v12_abs": [[abs(v12[r, c]) for c in range(3)] for r in range(3)],
+        "u34_abs": [[abs(u34[r, c]) for c in range(3)] for r in range(3)],
+        "icp": icp,
+        "lam": lam,
+    }
+
+
+def extract_ir_observables_f64(flow: Dict[str, Any]) -> Dict[str, Any]:
+    Yu, Yd, Ye, W4 = flow["Yu"], flow["Yd"], flow["Ye"], flow["W4"]
+    g1, g2, g3, lam = flow["g1"], flow["g2"], flow["g3"], flow["lam"]
+    u1, s1 = svd_ascending_np(Yu)
+    u2, s2 = svd_ascending_np(Yd)
+    u3, s3 = svd_ascending_np(Ye)
+    u4, s4 = takagi_symmetric_ascending_np(W4)
+
+    v12_mat = u1.conj().T @ u2
+    v12_abs = np.abs(v12_mat)
+    u34_abs = np.abs(u3.conj().T @ u4)
+
+    hu = Yu @ Yu.conj().T
+    hd = Yd @ Yd.conj().T
+    hu_hat = hu / float(np.real(np.trace(hu)))
+    hd_hat = hd / float(np.real(np.trace(hd)))
+    cm_hat = hu_hat @ hd_hat - hd_hat @ hu_hat
+    icp_hat = float(np.imag(np.trace(cm_hat @ cm_hat @ cm_hat)) / 6.0)
+    j12_cp = float(np.imag(v12_mat[0, 1] * v12_mat[1, 2] * np.conj(v12_mat[0, 2]) * np.conj(v12_mat[1, 1])))
+
+    # Parity-mixed 2x2 block of |U_34| (rows {1, 2} of sec3 vs cols {0, 1} of sec4):
+    sub_2x2 = u34_abs[1:3, 0:2]
+    sin2_2theta_parity = float(4.0 * (sub_2x2[0, 0] ** 2) * (sub_2x2[0, 1] ** 2))
+
+    gy_sq = 0.6 * (g1 ** 2)
+    sin2_theta_ew = float(gy_sq / (g2 ** 2 + gy_sq))
+
+    return {
+        "alpha1_inv_gut": float(4.0 * math.pi / (g1 ** 2)),
+        "alpha2_inv": float(4.0 * math.pi / (g2 ** 2)),
+        "alpha3_inv": float(4.0 * math.pi / (g3 ** 2)),
+        "sin2_theta_ew_ir": sin2_theta_ew,
+        "lam_ir": float(lam),
+        "scalar_to_condensate_sqrt_2lam": float(math.sqrt(max(2.0 * lam, 0.0))),
+        "s3_sec1": float(s1[2]),
+        "s3_sec2": float(s2[2]),
+        "s3_sec3": float(s3[2]),
+        "inter_s3_sec1_over_sec2": float(s1[2] / s2[2]),
+        "inter_s3_sec2_over_sec3": float(s2[2] / s3[2]),
+        "sec1_r12": float(s1[0] / s1[1]),
+        "sec1_r23": float(s1[1] / s1[2]),
+        "sec2_r12": float(s2[0] / s2[1]),
+        "sec2_r23": float(s2[1] / s2[2]),
+        "sec3_r12": float(s3[0] / s3[1]),
+        "sec3_r23": float(s3[1] / s3[2]),
+        "sec4_r12": float(s4[0] / s4[1]),
+        "sec4_r23": float(s4[1] / s4[2]),
+        "V12_abs": [[float(v12_abs[r, c]) for c in range(3)] for r in range(3)],
+        "U34_abs": [[float(u34_abs[r, c]) for c in range(3)] for r in range(3)],
+        "sin2_2theta_sec34_parity_block": sin2_2theta_parity,
+        "I_CP_hat_IR": icp_hat,
+        "J12_CP_IR": j12_cp,
+    }
+
+
+# ============================================================================
+# SECTION 4: PART 5B & PART 5C — SYNTHESIS, HAAR-6 GATE, ORBITS & LEDGER
+# ============================================================================
+
+
+# ============================================================================
+# SECTION 4: EXACT PIECEWISE-QUADRATIC CUSP EXPONENTS & LEVELS 5/10/15 CENSUS
+# ============================================================================
+
+def entry_cusp_exponent_exact(
+    i: int, j: int, a_fr: Fraction, ql: int, qr: int, omit_szego_pole: bool = False
+) -> Fraction:
+    """
+    Exact rational cusp decay exponent E_{ij} such that |Y_{ij}(i*y)| ~ y^p exp(-pi * y * E_{ij})
+    as y -> +infty. Contains ZERO float literals (AST-enforced).
+    """
+    cl = Fraction(2 * i + 1, 6) + Fraction(ql, 3) * a_fr
+    cr = Fraction(2 * j + 1, 6) - Fraction(qr, 3) * a_fr
+    best = None
+    c1_0 = cl.numerator // cl.denominator
+    c2_0 = cr.numerator // cr.denominator
+    for l1 in range(c1_0 - 3, c1_0 + 4):
+        dl = cl - l1
+        for l2 in range(c2_0 - 3, c2_0 + 4):
+            dr = cr - l2
+            if (not omit_szego_pole) and (dl * dr > 0):
+                exp_val = 3 * abs(dl * dl - dr * dr)
+            else:
+                exp_val = 3 * (dl * dl + dr * dr)
+            if best is None or exp_val < best:
+                best = exp_val
+    assert best is not None
+    return best
+
+
+def tropical_svd_exponents_exact(
+    a_fr: Fraction, ql: int, qr: int, omit_szego_pole: bool = False
+) -> Tuple[Fraction, Fraction, Fraction]:
+    """
+    Exact rational tropical singular-value exponent triple (e_1 >= e_2 >= e_3 >= 0).
+    Contains ZERO float literals (AST-enforced).
+    """
+    emat = [[entry_cusp_exponent_exact(i, j, a_fr, ql, qr, omit_szego_pole) for j in range(3)] for i in range(3)]
+    w1 = min(emat[i][j] for i in range(3) for j in range(3))
+    w2 = min(
+        min(emat[r1][c1] + emat[r2][c2], emat[r1][c2] + emat[r2][c1])
+        for (r1, r2) in itertools.combinations(range(3), 2)
+        for (c1, c2) in itertools.combinations(range(3), 2)
+    )
+    w3 = min(
+        emat[0][perm[0]] + emat[1][perm[1]] + emat[2][perm[2]]
+        for perm in itertools.permutations(range(3))
+    )
+    return (w3 - w2, w2 - w1, w1)
+
+
+def primitive_torsion_points(n_lvl: int) -> List[Tuple[Fraction, Fraction]]:
+    pts: List[Tuple[Fraction, Fraction]] = []
+    for p in range(n_lvl):
+        for q in range(n_lvl):
+            af, bf = Fraction(p, n_lvl), Fraction(q, n_lvl)
+            if math.lcm(af.denominator, bf.denominator) == n_lvl:
+                pts.append((af, bf))
+    return pts
+
+
+def frac_mod1(x: Fraction) -> Fraction:
+    return x - (x.numerator // x.denominator)
+
+
+def fast_y_mag_overlap_f64(tau: complex, a: float, b: float, ql: int, qr: int) -> np.ndarray:
+    """Fast double-precision evaluation of y_mag_overlap (verified against mpmath to < 1e-14)."""
+    qh = -(ql + qr)
+    tau1, tau2 = tau.real, tau.imag
+    u0 = 1.0 / math.sqrt(6.0)
+    u_split = math.sqrt(tau2)
+    sqrt_tau2 = math.sqrt(tau2)
+    sqrt_pi = math.sqrt(math.pi)
+    thresh = 42.0
+    k_max = int(math.ceil(math.sqrt(thresh * 6.0 / (math.pi * tau2)) / 3.0)) + 2
+    l_quad = int(math.ceil(math.sqrt(thresh * 6.0 / (math.pi * tau2)))) + 3
+    l_riem = int(math.ceil(math.sqrt(thresh / math.pi))) + 2
+
+    def erfcx_f(x: float) -> float:
+        if x >= 26.0:
+            # 1 / (sqrt(pi) * x) * (1 - 1/(2 x^2) + 3/(4 x^4))
+            x2 = x * x
+            return (1.0 / (sqrt_pi * x)) * (1.0 - 0.5 / x2 + 0.75 / (x2 * x2))
+        return math.exp(x * x) * math.erfc(x)
+
+    def erfc_int_f(alpha: float, beta: float) -> float:
+        xm = alpha * u0 - beta / u0
+        xp = alpha * u0 + beta / u0
+        edge_exp = (alpha * u0) ** 2 + (beta / u0) ** 2
+        if xm >= 0.0:
+            if edge_exp > thresh:
+                return 0.0
+            return (sqrt_pi / (2.0 * alpha)) * math.exp(-edge_exp) * (erfcx_f(xm) + erfcx_f(xp))
+        if 2.0 * alpha * beta > thresh:
+            return 0.0
+        p1 = 2.0 * math.exp(-2.0 * alpha * beta)
+        p2 = 0.0 if edge_exp > thresh else math.exp(-edge_exp) * (erfcx_f(xp) - erfcx_f(-xm))
+        return (sqrt_pi / (2.0 * alpha)) * (p1 + p2)
+
+    def f_prim_f(uv: float, bv: float) -> float:
+        if bv == 0.0:
+            return 2.0 * uv
+        bvu = bv / uv
+        if bvu * bvu > thresh:
+            return 0.0
+        return 2.0 * math.exp(-bvu * bvu) * (uv - sqrt_pi * bv * erfcx_f(bvu))
+
+    ymat = np.zeros((3, 3), dtype=complex)
+    for i in range(3):
+        cl = (i + 0.5 + ql * a) / 3.0
+        zak_ang = -2.0 * math.pi * (ql * b / 3.0) * (i + 0.5)
+        zak_ph = complex(math.cos(zak_ang), math.sin(zak_ang))
+        for j in range(3):
+            cr = (j + 0.5 - qr * a) / 3.0
+            acc = 0.0j
+            for k in range(-k_max, k_max + 1):
+                n = (j - i) - 3 * k
+                na = n + qh * a
+                dk = na / 3.0
+                xi0 = 0.5 * (cl + cr - k)
+                x0 = na * tau1 + qh * b
+                ang0 = math.pi * dk * ((qr - ql) * b - 3.0)
+                bph = complex(math.cos(ang0), math.sin(ang0))
+                if abs(na) > 1e-13:
+                    alpha = math.sqrt(math.pi * tau2) * abs(na)
+                    l_lin = int(math.ceil(thresh / (2.0 * math.pi * tau2 * abs(na)))) + 2
+                    l_m = max(l_lin, l_quad)
+                    lc = int(round(xi0))
+                    sub = 0.0j
+                    for dl in range(-l_m, l_m + 1):
+                        li = lc + dl
+                        beta = math.sqrt(math.pi * tau2) * abs(li - xi0)
+                        iv = sqrt_tau2 * erfc_int_f(alpha, beta)
+                        if iv != 0.0:
+                            ang = 2.0 * math.pi * (li - xi0) * x0
+                            sub += iv * complex(math.cos(ang), math.sin(ang))
+                    acc += bph * sub
+                else:
+                    lc = int(round(xi0))
+                    sub1 = 0.0j
+                    for dl in range(-l_riem, l_riem + 1):
+                        li = lc + dl
+                        beta = math.sqrt(math.pi * tau2) * abs(li - xi0)
+                        iv = sqrt_tau2 * (f_prim_f(u_split, beta) - f_prim_f(u0, beta))
+                        if iv != 0.0:
+                            ang = 2.0 * math.pi * (li - xi0) * x0
+                            sub1 += iv * complex(math.cos(ang), math.sin(ang))
+                    mc = int(round(-x0))
+                    sub2 = 0.0j
+                    for dm in range(-l_riem, l_riem + 1):
+                        mi = mc + dm
+                        mx = mi + x0
+                        if abs(mx) > 1e-13 and math.pi * mx * mx <= thresh:
+                            ang = 2.0 * math.pi * mi * xi0
+                            sub2 += (tau2 / (math.pi * mx * mx)) * math.exp(-math.pi * mx * mx) * complex(math.cos(ang), math.sin(ang))
+                    acc += bph * (sub1 + sub2)
+            ymat[i, j] = zak_ph * acc
+    return ymat
+
+
+def run_stage2_relations() -> Tuple[Dict[str, Any], Dict[str, Any], Dict[str, Any]]:
+    rge_gate = run_part_2a_literature_rge_solver_gate()
+
+    # Route B vs Route A 950-digit asymptotic cusp-exponent verification across levels 5, 10, 15:
+    with mp.workdps(950):
+        # 3-point fit ln sigma(y) = c0 + c1*ln(y) - pi*e*y at y in (500, 600, 700) eliminates power-law y^p!
+        ys = [mp.mpf(500), mp.mpf(600), mp.mpf(700)]
+        x_mat = mp.matrix([[mp.mpf(1), mp.log(yv), -mp.pi * yv] for yv in ys])
+        x_inv = x_mat ** (-1)
+
+        sample_pts = [
+            (Fraction(1, 5), Fraction(2, 5)),
+            (Fraction(2, 5), Fraction(1, 5)),
+            (Fraction(1, 10), Fraction(3, 10)),
+            (Fraction(3, 10), Fraction(7, 10)),
+            (Fraction(4, 15), Fraction(8, 15)),
+            (Fraction(1, 15), Fraction(2, 15)),
+        ]
+        max_cusp_exp_err = 0.0
+        pc_omit_szego_pole_err = 0.0
+        for (af, bf) in sample_pts:
+            for (ql, qr) in [(1, -4), (1, 2), (-3, 6)]:
+                e_exact = tropical_svd_exponents_exact(af, ql, qr, omit_szego_pole=False)
+                e_broken = tropical_svd_exponents_exact(af, ql, qr, omit_szego_pole=True)
+                sv_by_y = []
+                for yv in ys:
+                    mm = y_mag_overlap_mp(mp.mpc(0, yv), af, bf, ql, qr)
+                    sv = sorted([mp.re(v) for v in mp.svd_c(mm, compute_uv=False)])
+                    sv_by_y.append(sv)
+                for g_idx in range(3):
+                    rhs = mp.matrix([[mp.log(sv_by_y[k][g_idx])] for k in range(3)])
+                    sol = x_inv * rhs
+                    e_num = float(sol[2, 0])
+                    e_th = float(e_exact[g_idx])  # ascending sv[0..2] <-> descending exponent e_exact[0..2]!
+                    e_brk = float(e_broken[g_idx])
+                    max_cusp_exp_err = max(max_cusp_exp_err, abs(e_num - e_th))
+                    pc_omit_szego_pole_err = max(pc_omit_szego_pole_err, abs(e_num - e_brk))
+
+    # Solve m004 target-free stabilization + verify fast_y_mag_overlap_f64 against mpmath:
+    with mp.workdps(24):
+        _VCAS_CACHE.clear()
+        x_s, y_s, a_cas_mp = solve_joint_3var_newton(Fraction(3, 5), Fraction(4, 5), Fraction(19, 1))
+        tau_star_mp = tau_nz_from_z1(mp.mpc(x_s, y_s))
+        vol_m004_mp = -neg_vol_on_gluing_curve(x_s, y_s)
+        m_r_mp = majorana_puncture_jet_mp(tau_star_mp)
+        m_r_np = mp_to_np(m_r_mp)
+        m_r_inv = np.linalg.inv(m_r_np)
+
+        tau_star_c = complex(tau_star_mp)
+        tau_generic_c = complex(3.0 / 7.0, float(mp.im(tau_star_mp)))
+        f64_vs_mp_err = float(
+            np.max(
+                np.abs(
+                    fast_y_mag_overlap_f64(tau_star_c, 4.0 / 15.0, 8.0 / 15.0, 1, 2)
+                    - mp_to_np(y_mag_overlap_mp(tau_star_mp, Fraction(4, 15), Fraction(8, 15), 1, 2))
+                )
+            )
+        )
+
+        amp0 = float(collar_amp_mp(0, mp.im(tau_star_mp)))
+        ampp = float(collar_amp_mp(1, mp.im(tau_star_mp)))
+        ampm = float(collar_amp_mp(-1, mp.im(tau_star_mp)))
+        a_uv_inv = float(vol_m004_mp * a_cas_mp)
+        g_uv = math.sqrt(4.0 * math.pi / a_uv_inv)
+        lam_uv = 0.2 * g_uv * g_uv
+        dln_cover = -float((mp.mpf(45) / mp.pi) * vol_m004_mp)
+        c_pos = g_uv * amp0 * amp0 * ampp
+        c_neg = g_uv * amp0 * amp0 * ampm
+
+    part_2a = {
+        "E1_PiecewiseQuadraticCuspTheorem_and_SolverGate_passed": bool(
+            rge_gate["E1_FourPillar_Literature_RGE_Gate_passed"]
+            and max_cusp_exp_err < 5e-4
+            and pc_omit_szego_pole_err > 0.05
+            and f64_vs_mp_err < 1e-14
+        ),
+        "four_pillar_rge_solver_gate": rge_gate,
+        "two_route_cusp_exponent_check": {
+            "max_3pt_asymptotic_vs_exact_rational_err": max_cusp_exp_err,
+            "PC_REL2_OmitSzegoPoleResidue_err": pc_omit_szego_pole_err,
+            "fast_f64_vs_mpmath_overlap_err": f64_vs_mp_err,
+        },
+    }
+
+    # Part 2B: Complete 288-point census at Levels 5 (24), 10 (72), and 15 (192)!
+    pts5 = primitive_torsion_points(5)
+    pts10 = primitive_torsion_points(10)
+    pts15 = primitive_torsion_points(15)
+
+    # 1. Exact UV CRT identities at both tau* and generic complex tau = 3/7 + Im(tau*)*i:
+    lvl5_max_uv_diff_tau_star = 0.0
+    lvl5_max_uv_diff_generic_tau = 0.0
+    for (af, bf) in pts5:
+        a, b = float(af), float(bf)
+        s2_s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, 1, 2), compute_uv=False))
+        s3_s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 6), compute_uv=False))
+        lvl5_max_uv_diff_tau_star = max(lvl5_max_uv_diff_tau_star, float(np.max(np.abs(s2_s - s3_s))))
+
+        s2_g = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_generic_c, a, b, 1, 2), compute_uv=False))
+        s3_g = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_generic_c, a, b, -3, 6), compute_uv=False))
+        lvl5_max_uv_diff_generic_tau = max(lvl5_max_uv_diff_generic_tau, float(np.max(np.abs(s2_g - s3_g))))
+
+    lvl15_max_6w_diff_tau_star = 0.0
+    lvl15_max_6w_diff_generic_tau = 0.0
+    lvl15_max_same_w_diff = 0.0
+    for (af, bf) in pts15:
+        a, b = float(af), float(bf)
+        a6, b6 = float(frac_mod1(6 * af)), float(frac_mod1(6 * bf))
+        s3_s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 6), compute_uv=False))
+        s2_6s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a6, b6, 1, 2), compute_uv=False))
+        s2_1s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, 1, 2), compute_uv=False))
+        lvl15_max_6w_diff_tau_star = max(lvl15_max_6w_diff_tau_star, float(np.max(np.abs(s3_s - s2_6s))))
+        lvl15_max_same_w_diff = max(lvl15_max_same_w_diff, float(np.max(np.abs(s3_s - s2_1s))))
+
+        s3_g = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_generic_c, a, b, -3, 6), compute_uv=False))
+        s2_6g = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_generic_c, a6, b6, 1, 2), compute_uv=False))
+        lvl15_max_6w_diff_generic_tau = max(lvl15_max_6w_diff_generic_tau, float(np.max(np.abs(s3_g - s2_6g))))
+
+    # Level 10 Z_2 parity obstruction: verify NO integer multiplier c in 0..9 equates sv(Y3(w)) and sv(Y2(c*w))!
+    lvl10_min_over_c_max_diff = 1e9
+    for c_mult in range(10):
+        c_worst = 0.0
+        for (af, bf) in pts10:
+            a, b = float(af), float(bf)
+            ac, bc = float(frac_mod1(c_mult * af)), float(frac_mod1(c_mult * bf))
+            s3_s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 6), compute_uv=False))
+            s2_cs = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, ac, bc, 1, 2), compute_uv=False))
+            c_worst = max(c_worst, float(np.max(np.abs(s3_s - s2_cs))))
+        lvl10_min_over_c_max_diff = min(lvl10_min_over_c_max_diff, c_worst)
+
+    # Exact rational cusp gap ratios (e1 - e3)/(e2 - e3) across all coprime meridian windings at levels 5, 10, 15:
+    def gap_ratio_set(n_lvl: int, ql: int, qr: int) -> List[str]:
+        ratios = set()
+        for p in range(1, n_lvl):
+            if math.gcd(p, n_lvl) == 1:
+                e1, e2, e3 = tropical_svd_exponents_exact(Fraction(p, n_lvl), ql, qr)
+                ratios.add((e1 - e3) / (e2 - e3))
+        return [str(r) for r in sorted(ratios)]
+
+    gap5_sec2 = gap_ratio_set(5, 1, 2)
+    gap5_sec3 = gap_ratio_set(5, -3, 6)
+    gap10_sec2 = gap_ratio_set(10, 1, 2)
+    gap10_sec3 = gap_ratio_set(10, -3, 6)
+    gap15_sec2 = gap_ratio_set(15, 1, 2)
+    gap15_sec3 = gap_ratio_set(15, -3, 6)
+
+    # Full 2-loop matrix RGE sweep across ALL 24 + 72 + 192 = 288 primitive vacua!
+    # Discovered physics: when 3*a in Z (trivial Higgs meridian holonomy, 4 + 4 + 32 = 40 vacua),
+    # resonant longitude points hit unscreened 1/(pi*mx^2) zero-mode Landau poles; whereas ALL
+    # 20 + 68 + 160 = 248 Higgs-meridian-active vacua (3*a not in Z) flow 100% perturbatively!
+    def sweep_level_rge(pts: List[Tuple[Fraction, Fraction]]) -> Dict[str, Any]:
+        s3_ratio_23: List[float] = []
+        r23_quotient_2_over_3: List[float] = []
+        r12_quotient_2_over_3: List[float] = []
+        exp_ratio_sec2: List[float] = []
+        exp_ratio_sec3: List[float] = []
+        det_ratio_2_over_3: List[float] = []
+        n_3a_int = 0
+        n_3a_nonint = 0
+        blowups_3a_int = 0
+        blowups_3a_nonint = 0
+
+        for (af, bf) in pts:
+            a, b = float(af), float(bf)
+            y1 = c_pos * fast_y_mag_overlap_f64(tau_star_c, a, b, 1, -4)
+            y2 = c_neg * fast_y_mag_overlap_f64(tau_star_c, a, b, 1, 2)
+            y3 = c_neg * fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 6)
+            y4 = c_pos * fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 0)
+            w4 = y4 @ m_r_inv @ y4.T
+            is_3a_int = ((3 * af).denominator == 1)
+            if is_3a_int:
+                n_3a_int += 1
+            else:
+                n_3a_nonint += 1
+
+            try:
+                with np.errstate(all="raise"):
+                    flow = rk4_integrate_full_f64(y1, y2, y3, w4, g_uv, g_uv, g_uv, lam_uv, dln_cover, n_steps=48)
+                if (not np.all(np.isfinite(flow["Yu"]))) or abs(flow["lam"]) > 100.0:
+                    raise FloatingPointError("non-perturbative RGE pole")
+            except Exception:
+                if is_3a_int:
+                    blowups_3a_int += 1
+                else:
+                    blowups_3a_nonint += 1
+                continue
+
+            if is_3a_int:
+                continue
+
+            obs = extract_ir_observables_f64(flow)
+            s3_ratio_23.append(obs["inter_s3_sec2_over_sec3"])
+            if obs["sec3_r23"] > 1e-9:
+                r23_quotient_2_over_3.append(obs["sec2_r23"] / obs["sec3_r23"])
+            if obs["sec3_r12"] > 1e-9:
+                r12_quotient_2_over_3.append(obs["sec2_r12"] / obs["sec3_r12"])
+            if 1e-9 < obs["sec2_r23"] < 0.99 and obs["sec2_r12"] > 1e-9:
+                exp_ratio_sec2.append(1.0 + math.log(obs["sec2_r12"]) / math.log(obs["sec2_r23"]))
+            if 1e-9 < obs["sec3_r23"] < 0.99 and obs["sec3_r12"] > 1e-9:
+                exp_ratio_sec3.append(1.0 + math.log(obs["sec3_r12"]) / math.log(obs["sec3_r23"]))
+            sv2 = np.sort(np.linalg.svd(flow["Yd"], compute_uv=False))
+            sv3 = np.sort(np.linalg.svd(flow["Ye"], compute_uv=False))
+            if np.prod(sv3) > 1e-25:
+                det_ratio_2_over_3.append(float((np.prod(sv2) / np.prod(sv3)) ** (1.0 / 3.0)))
+
+        return {
+            "total_primitive_vacua": len(pts),
+            "trivial_higgs_meridian_3a_in_Z_count": n_3a_int,
+            "trivial_higgs_meridian_landau_blowups": blowups_3a_int,
+            "active_higgs_meridian_3a_notin_Z_count": n_3a_nonint,
+            "active_higgs_meridian_landau_blowups": blowups_3a_nonint,
+            "inter_s3_sec2_over_sec3_envelope": [float(min(s3_ratio_23)), float(max(s3_ratio_23))],
+            "geom_mean_mass_ratio_det13_sec2_over_sec3_envelope": [float(min(det_ratio_2_over_3)), float(max(det_ratio_2_over_3))],
+            "intra_r23_sec2_over_sec3_envelope": [float(min(r23_quotient_2_over_3)), float(max(r23_quotient_2_over_3))],
+            "intra_r12_sec2_over_sec3_envelope": [float(min(r12_quotient_2_over_3)), float(max(r12_quotient_2_over_3))],
+            "ir_log_exponent_gap_ratio_sec2_envelope": [float(min(exp_ratio_sec2)), float(max(exp_ratio_sec2))],
+            "ir_log_exponent_gap_ratio_sec3_envelope": [float(min(exp_ratio_sec3)), float(max(exp_ratio_sec3))],
+        }
+
+    rge_lvl5 = sweep_level_rge(pts5)
+    rge_lvl10 = sweep_level_rge(pts10)
+    rge_lvl15 = sweep_level_rge(pts15)
+
+    # Planted control PC_REL2_WrongCRTMultiplier: using 3*w instead of 6*w at Level 15 fails!
+    pc_wrong_crt_mult_err = 0.0
+    for (af, bf) in pts15[:24]:
+        a, b = float(af), float(bf)
+        a3, b3 = float(frac_mod1(3 * af)), float(frac_mod1(3 * bf))
+        s3_s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a, b, -3, 6), compute_uv=False))
+        s2_3s = np.sort(np.linalg.svd(fast_y_mag_overlap_f64(tau_star_c, a3, b3, 1, 2), compute_uv=False))
+        pc_wrong_crt_mult_err = max(pc_wrong_crt_mult_err, float(np.max(np.abs(s3_s - s2_3s))))
+
+    part_2b = {
+        "E2_ThreeLevel_CRT_and_RGE_Census_Gate_passed": bool(
+            len(pts5) == 24
+            and len(pts10) == 72
+            and len(pts15) == 192
+            and lvl5_max_uv_diff_tau_star < 1e-12
+            and lvl5_max_uv_diff_generic_tau < 1e-12
+            and lvl15_max_6w_diff_tau_star < 1e-12
+            and lvl15_max_6w_diff_generic_tau < 1e-12
+            and lvl15_max_same_w_diff > 0.5
+            and lvl10_min_over_c_max_diff > 0.3
+            and gap5_sec2 == ["39/31", "5/3"]
+            and gap5_sec3 == ["39/31", "5/3"]
+            and gap15_sec3 == ["39/31", "5/3"]
+            and gap15_sec2 == ["15/11", "15/8", "431/190", "15"]
+            and gap10_sec2 == ["10/7", "31/5"]
+            and gap10_sec3 == ["29/26", "10/3"]
+            and rge_lvl5["active_higgs_meridian_landau_blowups"] == 0
+            and rge_lvl10["active_higgs_meridian_landau_blowups"] == 0
+            and rge_lvl15["active_higgs_meridian_landau_blowups"] == 0
+            and rge_lvl5["trivial_higgs_meridian_landau_blowups"] == 2
+            and rge_lvl10["trivial_higgs_meridian_landau_blowups"] == 2
+            and rge_lvl15["trivial_higgs_meridian_landau_blowups"] == 16
+            and pc_wrong_crt_mult_err > 0.3
+        ),
+        "UR3_level_5_exact_copy_and_ir_band": {
+            "max_uv_sv_diff_tau_star_all_24": lvl5_max_uv_diff_tau_star,
+            "max_uv_sv_diff_generic_complex_tau_all_24": lvl5_max_uv_diff_generic_tau,
+            "exact_cusp_gap_ratios_sec2": gap5_sec2,
+            "exact_cusp_gap_ratios_sec3": gap5_sec3,
+            "ir_2loop_envelopes_all_24_vacua": rge_lvl5,
+        },
+        "UR4_level_15_triality_projection_and_ir_band": {
+            "max_uv_sv_Y3_w_minus_Y2_6w_tau_star_all_192": lvl15_max_6w_diff_tau_star,
+            "max_uv_sv_Y3_w_minus_Y2_6w_generic_tau_all_192": lvl15_max_6w_diff_generic_tau,
+            "max_uv_sv_Y3_w_minus_Y2_w_same_point_splitting": lvl15_max_same_w_diff,
+            "PC_REL2_WrongCRTMultiplier_3w_err": pc_wrong_crt_mult_err,
+            "exact_cusp_gap_ratios_sec2": gap15_sec2,
+            "exact_cusp_gap_ratios_sec3_locked_to_level5": gap15_sec3,
+            "ir_2loop_envelopes_all_192_vacua": rge_lvl15,
+        },
+        "UR5_level_10_parity_obstruction_and_ir_band": {
+            "min_over_c_0_to_9_max_uv_sv_diff_all_72": lvl10_min_over_c_max_diff,
+            "exact_cusp_gap_ratios_sec2": gap10_sec2,
+            "exact_cusp_gap_ratios_sec3": gap10_sec3,
+            "ir_2loop_envelopes_all_72_vacua": rge_lvl10,
+        },
+    }
+
+    # Part 2C: 10-trial 24-digit mpmath U(3)^6 Haar invariance of IR flavor exponent ratios!
+    with mp.workdps(24):
+        uv_ref = build_zero_knob_uv_state_mp(tau_star_mp, vol_m004_mp, a_cas_mp, Fraction(3, 10), Fraction(7, 10))
+        Yu0 = mp_to_list3(uv_ref["Y1"])
+        Yd0 = mp_to_list3(uv_ref["Y2"])
+        Ye0 = mp_to_list3(uv_ref["Y3"])
+        W4_0 = mp_to_list3(uv_ref["W4"])
+        Yu_b, Yd_b, Ye_b, W4_b, lam_b = rk4_integrate_full_mp(
+            Yu0, Yd0, Ye0, W4_0, uv_ref["g_uv"], uv_ref["g_uv"], uv_ref["g_uv"], uv_ref["lam_uv"], uv_ref["d_ln_mu"], n_steps=32
+        )
+        obs_base = extract_obs_mp_full(Yu_b, Yd_b, Ye_b, W4_b, lam_b)
+        exp_base = [
+            mp.mpf(1) + mp.log(obs_base["ratios"][0]) / mp.log(obs_base["ratios"][1]),
+            mp.mpf(1) + mp.log(obs_base["ratios"][2]) / mp.log(obs_base["ratios"][3]),
+            mp.mpf(1) + mp.log(obs_base["ratios"][4]) / mp.log(obs_base["ratios"][5]),
+            obs_base["ratios"][9],
+        ]
+
+        rng_haar = np.random.default_rng(20261117)
+        haar6_max_diff = 0.0
+        for trial in range(10):
+            ql = random_haar_u3_mp(3000 + 6 * trial)
+            u1r = random_haar_u3_mp(3001 + 6 * trial)
+            u2r = random_haar_u3_mp(3002 + 6 * trial)
+            ll = random_haar_u3_mp(3003 + 6 * trial)
+            u3r = random_haar_u3_mp(3004 + 6 * trial)
+            u4r = random_haar_u3_mp(3005 + 6 * trial)
+
+            Yu_s = mp3_mul(mp3_mul(ql, Yu0), mp3_dag(u1r))
+            Yd_s = mp3_mul(mp3_mul(ql, Yd0), mp3_dag(u2r))
+            Ye_s = mp3_mul(mp3_mul(ll, Ye0), mp3_dag(u3r))
+            Y4_s = mp3_mul(mp3_mul(ll, mp_to_list3(uv_ref["Y4"])), mp3_dag(u4r))
+            MR_s = mp3_mul(mp3_mul(mp3_conj(u4r), mp_to_list3(uv_ref["M_R"])), mp3_dag(u4r))
+            MR_s_inv = mp_to_list3(mp.matrix(MR_s) ** (-1))
+            W4_s = mp3_mul(mp3_mul(Y4_s, MR_s_inv), mp3_tp(Y4_s))
+
+            Yu_i, Yd_i, Ye_i, W4_i, lam_i = rk4_integrate_full_mp(
+                Yu_s, Yd_s, Ye_s, W4_s, uv_ref["g_uv"], uv_ref["g_uv"], uv_ref["g_uv"], uv_ref["lam_uv"], uv_ref["d_ln_mu"], n_steps=32
+            )
+            obs_s = extract_obs_mp_full(Yu_i, Yd_i, Ye_i, W4_i, lam_i)
+            exp_s = [
+                mp.mpf(1) + mp.log(obs_s["ratios"][0]) / mp.log(obs_s["ratios"][1]),
+                mp.mpf(1) + mp.log(obs_s["ratios"][2]) / mp.log(obs_s["ratios"][3]),
+                mp.mpf(1) + mp.log(obs_s["ratios"][4]) / mp.log(obs_s["ratios"][5]),
+                obs_s["ratios"][9],
+            ]
+            for idx_e in range(4):
+                haar6_max_diff = max(haar6_max_diff, float(abs(exp_base[idx_e] - exp_s[idx_e])))
+
+        # PC_REL2_WrongChiralityRGE:
+        u2r_test, _ = np.linalg.qr(rng_haar.normal(size=(3, 3)) + 1j * rng_haar.normal(size=(3, 3)))
+        y1_t = mp_to_np(uv_ref["Y1"])
+        y2_t = mp_to_np(uv_ref["Y2"])
+        y3_t = mp_to_np(uv_ref["Y3"])
+        w4_t = mp_to_np(uv_ref["W4"])
+        fl0 = rk4_integrate_full_f64(y1_t, y2_t, y3_t, w4_t, g_uv, g_uv, g_uv, lam_uv, dln_cover, n_steps=160, wrong_chirality_control=True)
+        flr = rk4_integrate_full_f64(y1_t, y2_t @ u2r_test.conj().T, y3_t, w4_t, g_uv, g_uv, g_uv, lam_uv, dln_cover, n_steps=160, wrong_chirality_control=True)
+        pc_wrong_chirality_err = float(np.max(np.abs(np.sort(np.linalg.svd(fl0["Yd"], compute_uv=False)) - np.sort(np.linalg.svd(flr["Yd"], compute_uv=False)))))
+
+    part_2c = {
+        "E3_Haar6_FlavorExponentInvariance_Gate_passed": bool(
+            haar6_max_diff < 1e-12 and pc_wrong_chirality_err > 1e-3
+        ),
+        "Gate_Haar_Stage2_Relations_U3_power_6": {
+            "ten_trial_max_diff_mp24": haar6_max_diff,
+            "haar_invariance_below_1e_12": haar6_max_diff < 1e-12,
+            "PC_REL2_WrongChiralityRGE_err": pc_wrong_chirality_err,
+        },
+        "selection_bits_required": {
+            "continuous_parameters": 0,
+            "discrete_selection_bits_for_UR3_UR4_UR5_laws": 0,
+        },
+    }
+
+    return part_2a, part_2b, part_2c
+
+
+def main() -> None:
+    ast_check = verify_ast_relations2()
+    part_2a, part_2b, part_2c = run_stage2_relations()
+
+    controls_passed = bool(
+        ast_check["Gate_AST_Stage2_Relations_Passed"]
+        and part_2a["two_route_cusp_exponent_check"]["PC_REL2_OmitSzegoPoleResidue_err"] > 0.05
+        and part_2a["four_pillar_rge_solver_gate"]["pillar2_bbo_noncommuting_2loop_matrix"]["PC_REL2_Commutator_bbo_2loop_rel_err"] > 5e-3
+        and part_2b["UR4_level_15_triality_projection_and_ir_band"]["PC_REL2_WrongCRTMultiplier_3w_err"] > 0.3
+        and part_2c["Gate_Haar_Stage2_Relations_U3_power_6"]["PC_REL2_WrongChiralityRGE_err"] > 1e-3
+    )
+
+    stage_2_passed = bool(
+        controls_passed
+        and part_2a["E1_PiecewiseQuadraticCuspTheorem_and_SolverGate_passed"]
+        and part_2b["E2_ThreeLevel_CRT_and_RGE_Census_Gate_passed"]
+        and part_2c["E3_Haar6_FlavorExponentInvariance_Gate_passed"]
+    )
+
+    out_payload: Dict[str, Any] = {
+        "card": "X-RELATIONS-2",
+        "empirical_firewall": "0 of 19",
+        "ast_source_check": ast_check,
+        "part_2a_cusp_valuation_and_solver_gate": part_2a,
+        "part_2b_levels_5_10_15_crt_and_rge_census": part_2b,
+        "part_2c_haar6_flavor_exponent_gate": part_2c,
+        "all_planted_controls_passed": controls_passed,
+        "stage_2_gate_passed": stage_2_passed,
+    }
+
+    out_dir = Path(__file__).resolve().parent
+    out_json = out_dir / "verify_x_relations_2_out.json"
+    out_json.write_text(json.dumps(out_payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    sha = hashlib.sha256(out_json.read_bytes()).hexdigest()
+    (out_dir / "OUTPUT_SHA256.txt").write_text(f"{sha}  verify_x_relations_2_out.json\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
