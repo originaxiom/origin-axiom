@@ -1,0 +1,25 @@
+z(s0) = -0.000000000000000+1.000000000000000i (i expected)
+I1 holds: True | mark against twin at tau = i: ratios 2.4e-15, |V| 1.2e-15
+I2 holds: True | I3 holds: True | plant (the mark against (0, 3/5)) fails: True (1.0e+00, 5.2e-01)
+I4 (the act's axis near i): mark against twin
+   s0 -0.10  tau = -0.0853+0.9526i   ratios 2.22e+00   |V| 7.14e-01
+   s0 -0.05  tau = -0.0437+0.9769i   ratios 7.03e-01   |V| 5.13e-01
+   s0 +0.05  tau = 0.0457+1.0216i   ratios 4.13e-01   |V| 5.13e-01
+   s0 +0.10  tau = 0.0933+1.0414i   ratios 6.90e-01   |V| 7.14e-01
+the outputs at (i, mark), printed and compared with nothing:
+   up|S|r2        0.496836
+   up|S|r3        0.0932603
+   up|St|r2       0.496836
+   up|St|r3       0.0932603
+   down|S|r2      0.904554
+   down|S|r3      0.0154505
+   down|St|r2     0.904554
+   down|St|r3     0.0154505
+   lep|S|r2       0.904554
+   lep|S|r3       0.0154505
+   lep|St|r2      0.904554
+   lep|St|r3      0.0154505
+   |V| up S, down S:  0.9737 0.2024 0.105  0.1918 0.4784 0.8569  0.1233 0.8545 0.5047
+   |V| up S, down St:  0.9737 0.2024 0.105  0.1918 0.4784 0.8569  0.1233 0.8545 0.5047
+   |V| up St, down S:  0.9737 0.2024 0.105  0.1918 0.4784 0.8569  0.1233 0.8545 0.5047
+   |V| up St, down St:  0.9737 0.2024 0.105  0.1918 0.4784 0.8569  0.1233 0.8545 0.5047
