@@ -1,0 +1,33 @@
+H1 holds: True | at tau = i, the mark: S against St, ratios 0.0e+00, |V| over the four pairs 0.0e+00
+   control tau = 0.0000+1.3000i: ratios 7.01e-01, |V| 7.24e-01
+   control tau = 0.0500+0.9000i: ratios 6.76e-01, |V| 6.55e-01
+   control tau = -0.0437+0.9769i: ratios 1.65e-01, |V| 4.15e-01
+   control tau = 0.0457+1.0216i: ratios 2.80e-01, |V| 5.60e-01
+H2 holds: True
+   H3 tau = i, point (0.0, 0.2): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.0, 0.4): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.0, 0.6): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.0, 0.8): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.2, 0.0): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.2, 0.2): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.2, 0.4): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.2, 0.6): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.2, 0.8): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.4, 0.0): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.4, 0.2): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.4, 0.4): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.4, 0.6): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.4, 0.8): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.6, 0.0): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.6, 0.2): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.6, 0.4): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.6, 0.6): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.6, 0.8): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.8, 0.0): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.8, 0.2): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.8, 0.4): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.8, 0.6): S against St, ratios 0.0e+00, |V| 0.0e+00
+   H3 tau = i, point (0.8, 0.8): S against St, ratios 0.0e+00, |V| 0.0e+00
+H3: the largest over the 24 points: 0.0e+00
+H4 the end moved by -0.3 at (i, mark): ratios move by up to 2.09e-01, |V| by up to 1.95e-02
+H4 the end moved by +0.3 at (i, mark): ratios move by up to 1.62e-01, |V| by up to 1.67e-02
