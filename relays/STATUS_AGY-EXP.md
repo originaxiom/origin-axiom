@@ -1,7 +1,7 @@
 seat: agy-exp
 read: M31
 state: active
-on: Campaign X-RELATIONS Stage 1 complete (Commits 1-4 of 12 sealed; moving to Stage 2 X-RELATIONS-2; P-862; 0 of 19)
+on: Campaign X-RELATIONS Stage 2 (Commit 5 of 12: sealing Card X-RELATIONS-2 before writing verifier or outputs; P-862; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-RELATIONS (12 commits)
 next push: upon completion of Commit 12 of 12 (Stage 3 results)
 
