@@ -1,0 +1,23 @@
+{
+  "execution_exit_code": 0,
+  "source_sha256": "19ee0b2ed7437e0cf8a9ae540f21198ad634070d342dfe8baf033995fa732c35",
+  "source_unchanged": true,
+  "results_read_for_analysis": false,
+  "files": [
+    {
+      "path": "result.json",
+      "sha256": "9b982ebf4f47e12bc459ecbfd7d28cdf602e862c1fce74f82dbf2a354240513b",
+      "bytes": 5779
+    },
+    {
+      "path": "stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

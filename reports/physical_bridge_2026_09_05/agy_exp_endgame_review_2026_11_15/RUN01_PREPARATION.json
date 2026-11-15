@@ -1,0 +1,16 @@
+{
+  "checker_commit": "95829e7872901ff3cdf02df96afd96c8a620efec",
+  "reviewed_head": "b05424e99c85791ba3d37614b9b80a8b69af364b",
+  "checker_sha256": "19ee0b2ed7437e0cf8a9ae540f21198ad634070d342dfe8baf033995fa732c35",
+  "isolated_source_directory": "/private/tmp/oa-endgame-independent-2026-11-15-run01",
+  "source_file_count": 1,
+  "scientific_execution_started": false,
+  "output_will_be": "/private/tmp/oa-endgame-independent-2026-11-15-run01/result.json",
+  "argv": [
+    "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "-I",
+    "/private/tmp/oa-endgame-independent-2026-11-15-run01/independent_checks.py",
+    "--output",
+    "/private/tmp/oa-endgame-independent-2026-11-15-run01/result.json"
+  ]
+}
