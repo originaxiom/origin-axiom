@@ -1,0 +1,31 @@
+{
+  "status": "WITHDRAWN_AUTHOR_DRAFT_PRESERVED",
+  "preserved_on": "2026-11-15",
+  "reason": "Global mode transport omitted the lifted argument/deck factor. The full-E physical-triplet table and identification are unsupported.",
+  "artifacts": [
+    {
+      "original_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/PROOF.md",
+      "archived_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF.md",
+      "sha256": "32d9258d91e609eb9254570c42ce9b3c5380b1d8b829a359d7d4d933e94a1bd0",
+      "bytes": 20050
+    },
+    {
+      "original_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/CC_MATHEMATICAL_CARD.md",
+      "archived_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CC_MATHEMATICAL_CARD.md",
+      "sha256": "bd72abb5b90f115bfc32a4ee7519dee269124aa1a0280b86a154b8f53b107501",
+      "bytes": 2776
+    },
+    {
+      "original_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/VERIFICATION_BRIEF.md",
+      "archived_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/VERIFICATION_BRIEF.md",
+      "sha256": "cb5022c68659f7fb59d9c0f6a870c182cd71e0aa6959650d66259a8c89b11613",
+      "bytes": 4730
+    },
+    {
+      "original_path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN.md",
+      "archived_path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_RETURN_RELAY.md",
+      "sha256": "161420ca3eee9ba6c9a3a4d55f1580acec60b98309730a53dbb5f4854f671ede",
+      "bytes": 1749
+    }
+  ]
+}
