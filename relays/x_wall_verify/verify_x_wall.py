@@ -728,7 +728,11 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
             mix13_f = []
             up23_f = []
             dn23_f = []
+            up13_f = []
+            dn13_f = []
+            non_zero_winding_min_rel_sep = 1e9
             for item in ev_f["per_line"]:
+                ja_f, _ = item["line_int"]
                 L_mat = item["Y_t90_S"]["left_qL"]
                 Ru_mat = item["Y_t90_St"]["right_up"]
                 Rd_mat = item["Y_t90_S"]["right_down"]
@@ -746,9 +750,21 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
                 diag33_f.append(float(M_f[2, 2]))
                 mix23_f.append(float(M_f[1, 2]))
                 mix13_f.append(float(M_f[0, 2]))
-                up23_f.append(float(sv_uf[1] / sv_uf[2]))
-                dn23_f.append(float(sv_df[1] / sv_df[2]))
+                r23_u = float(sv_uf[1] / sv_uf[2])
+                r23_d = float(sv_df[1] / sv_df[2])
+                r13_u = float(sv_uf[0] / sv_uf[2])
+                r13_d = float(sv_df[0] / sv_df[2])
+                up23_f.append(r23_u)
+                dn23_f.append(r23_d)
+                up13_f.append(r13_u)
+                dn13_f.append(r13_d)
+                if ja_f != 0:
+                    line_sep = abs(r23_u - r23_d) / max(min(r23_u, r23_d), 1e-300)
+                    if line_sep < non_zero_winding_min_rel_sep:
+                        non_zero_winding_min_rel_sep = line_sep
 
+        up23_geom = float(np.exp(np.mean(np.log(np.maximum(up23_f, 1e-300)))))
+        dn23_geom = float(np.exp(np.mean(np.log(np.maximum(dn23_f, 1e-300)))))
         pc2_summary[f"y_{y_pc2}"] = {
             "min_diag_3_3_across_24_lines": float(min(diag33_f)),
             "mean_diag_3_3_across_24_lines": float(np.mean(diag33_f)),
@@ -756,15 +772,23 @@ def run_w1_w2_and_controls() -> Dict[str, Any]:
             "max_mix_1_3_across_24_lines": float(max(mix13_f)),
             "p5_mean_up_2_over_3": float(np.mean(up23_f)),
             "p5_mean_down_2_over_3": float(np.mean(dn23_f)),
+            "p5_geom_up_2_over_3": up23_geom,
+            "p5_geom_down_2_over_3": dn23_geom,
+            "p5_geom_up_1_over_3": float(np.exp(np.mean(np.log(np.maximum(up13_f, 1e-300))))),
+            "p5_geom_down_1_over_3": float(np.exp(np.mean(np.log(np.maximum(dn13_f, 1e-300))))),
+            "min_nonzero_winding_rel_23_sep": non_zero_winding_min_rel_sep,
         }
 
     pc2_y30 = pc2_summary["y_30.0"]
-    pc2_sep = abs(pc2_y30["p5_mean_up_2_over_3"] - pc2_y30["p5_mean_down_2_over_3"]) / max(pc2_y30["p5_mean_down_2_over_3"], 1e-30)
+    pc2_geom_sep = abs(pc2_y30["p5_geom_up_2_over_3"] - pc2_y30["p5_geom_down_2_over_3"]) / max(
+        min(pc2_y30["p5_geom_up_2_over_3"], pc2_y30["p5_geom_down_2_over_3"]), 1e-300
+    )
     pc2_holds = bool(
         pc2_y30["min_diag_3_3_across_24_lines"] > 0.9999
         and pc2_y30["max_mix_2_3_across_24_lines"] < 1e-3
         and pc2_y30["max_mix_1_3_across_24_lines"] < 1e-3
-        and pc2_sep > 0.5
+        and pc2_y30["min_nonzero_winding_rel_23_sep"] > 5.0
+        and pc2_geom_sep > 5.0
     )
     assert pc2_holds, "PC_WALL_2 failed"
 
