@@ -1,0 +1,9 @@
+D1: candidates that are representations of SL(2, F_5): 2 (parameters (k, s, c)): [(2, 1, -1), (3, -1, -1)]
+D1 holds: True | using (k, s, c) = (2, 1, -1) | faithful: True | P eigenvalues: [-1.0, -1.0, 1.0, 1.0, 1.0]
+D2 holds: True | character norms 1.000000, 1.000000 | commutant dimension 2, spanned by I and P: True
+D3 holds: True | 6Y = (I - 5P)/2 eigenvalues [-2.0, -2.0, -2.0, 3.0, 3.0]
+D4 holds: True | centraliser of P in su(5): real dimension 12 | exp(2 pi i Y) = diag(wbar x3, -1 x2): True | det 1.000000
+D5 holds: True | Lambda^even content (6Y, colour, weak): multiplicity: {(0, '1', '1'): 1, (6, '1', '1'): 1, (1, '3', '2'): 6, (-4, '3bar', '1'): 3, (2, '3bar', '1'): 3, (-3, '1', '2'): 2}
+D6 holds: True | sum Y 0, sum Y^3 0, SU(3)^2 Y 0, SU(2)^2 Y 0 (per state, index / dimension)
+D7 holds: True | Lambda^1: 6Y on the weak doublet [3.0, 3.0] (SIXY's H: 3), on the colour triplet [-2.0, -2.0, -2.0]
+plant (rho(T)'s 1-dimensional eigenspace in place of P's 3 + 2): content differs from D5: True | content: {(0, 'n0', 'm0'): 1, (2, 'n0', 'm2'): 6, (-3, 'n1', 'm1'): 4, (4, 'n0', 'm4'): 1, (-1, 'n1', 'm3'): 4}
