@@ -1,13 +1,13 @@
 seat: agy-002
-read: M30
+read: M39
 state: working
-on: A2-CANON (B1927 canonical-end whole-weave read-out second computation; Review 82 cold reading delivered)
+on: AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY, then M37 (A2-CANON-T90 comparison), M33 (A2-SMC13), and M34 (A2-AMP)
 needs: nothing
-next push: A2-CANON standalone verifier and raw outputs, then A2-CANON closing report (and optional A2-LIMIT)
+next push: relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md, followed by M37 comparison, A2-SMC13, cusp/unitarity note, and A2-AMP
 
 ---
 
-## 1. Card Queue (`M12`–`M30` at `af79e2e27`)
+## 1. Card Queue (`M12`–`M39`)
 
 1. **`A2-C1`:** delivered (`harvest row 1709`).
 2. **`A2-R79`:** delivered at `7af2a8670` (`harvest row 1718`; twenty-six of twenty-six held).
@@ -26,9 +26,12 @@ next push: A2-CANON standalone verifier and raw outputs, then A2-CANON closing r
 15. **`A2-P332` (`M22` / `M24` item three):** delivered (`relays/AGY002_TO_CC_2026-11-14_M22_P332_F4Z_TRANSITIVITY.md`; expectations committed first at `c41230263`, exact-integer verifier and raw outputs at `c4bb5489e`; explicit `SL_27(Z)` bridges verified on `378 / 378` symmetric basis pairs, `Spin(4, 5)` Peirce-zero lattice `L_9 ~= <-2> perp U^4` verified, and generation gate `G1` unconditionally discharged constructively via three two-by-two Smith normal forms + Euclidean descent across `120 / 120` pairs).
 16. **`A2-TICK` (`M24` item four):** delivered (`relays/AGY002_TO_CC_2026-11-14_M24_A2_TICK_THIRD_DERIVATION.md`; expectations committed first at `334b0a9cc`, strictly blind characteristic-zero cyclotomic + saturated integer Fox-calculus derivation and raw outputs at `71a67515e`; `SAME` on all three clauses across fifty-three invariant characters / forty-seven non-trivial fibre-torsion characters (`0, 3, 10, 28` at `n = 1, 3, 5, 7`), plus `D_chi^2 = I_2` isomorphism theorem and `Z (+) Z / 2Z` integral order-two torsion split at `n = 3`).
 17. **`A2-OWN1` + Contemplation (`M24` open question, approved on commit):** delivered at `7a44cb543` (`harvest row 1796`, answered in `M29`; expectations committed first at `e709a3ce3`, standalone verifier and raw outputs at `f44270c3b`).
-18. **`A2-R82` (`M28` + `M30` #1 — Review 82 reading of `0e637ea9e..73e71e277` at `origin/review-82/read` `86930f574`):** delivered (`relays/REVIEW_82_AGY-002.md`, twenty-eight machine-quoted findings `R82-01` through `R82-28`, fifty-four of fifty-four double-quoted strings machine-verified verbatim against exact file and line at `86930f574`; expectations committed first at `1dde76be0`, standalone numerical counterchecks committed prior at `6125fca5c`).
-19. **`A2-CANON` (`M27` + `M30` #2 — second computation of whole-weave read-out with `B1927` length-two horocycle end `L_2(tau)`):** blind expectations committed first prior to opening `B1927`/`B1928` (`relays/cards/AGY-002_A2-CANON_canonical-end-whole-weave-readout.md`); runs immediately after `A2-R82`.
-20. **`A2-LIMIT` (`M26` + `M30` optional — independent check of `B1928` convergence proof `H1`–`H3`):** blind expectations committed prior to opening `B1928` (`relays/cards/AGY-002_A2-LIMIT_b1928-limit-proof-check.md`); concise check after `A2-CANON`.
-21. **`A2-PRINCIPLE` (owner prompt — stepping back from computations: what survives cancellation vs what the chain calls a choice, plus falsifiers):** delivered (`relays/AGY002_TO_CC_2026-11-14_WHAT_SURVIVES_CANCELLATION.md`, strictly one page; expectations committed first at `095747a30` in `relays/cards/AGY-002_A2-PRINCIPLE_what-survives-cancellation.md`).
+18. **`A2-R82` (`M28` + `M30` #1 — Review 82 reading of `0e637ea9e..73e71e277` at `origin/review-82/read` `86930f574`):** delivered at `e0e61c633` (`harvest row 1801`; twenty-eight machine-quoted findings, expectations committed first at `1dde76be0`, standalone counterchecks at `6125fca5c`).
+19. **`A2-LIMIT` (`M26` + `M30` optional — independent check of `B1928` convergence proof `H1`–`H3`):** delivered at `12769b6c7` (`harvest row 1828`, acknowledged in `M39`; expectations committed first at `6fd7c5a18`).
+20. **`A2-PRINCIPLE` (owner prompt — what survives cancellation vs what the chain calls a choice):** delivered at `aa55666e8` (`harvest row 1807`; expectations committed first at `095747a30`).
+21. **`A2-CANON-T90` (`M32` + `M37`):** blind expectations committed first (`relays/cards/AGY-002_A2-CANON-T90_exact-weight-and-area-whole-weave-readout.md` at `fb7fc39ac`); standalone extended-precision (`30 + 3 y` digits) code and JSON values sealed prior to reading `B1932`/`B1940` at `7609cca49` (`relays/a2_canon/verify_a2_canon.py`, `verify_a2_canon_results.json`); comparison note against `B1940`'s `BIG_RUN_VALUES_v2.json` (`M37`) queued next.
+22. **`A2-R83` (`M38` + `M39` — Review 83 cold reading of `73e71e277..c8cece9be` at `origin/review-83/read` `b35eac607`):** delivered (`relays/REVIEW_83_AGY-002.md`, thirty-one findings `R83-01` through `R83-31`, ninety-three of ninety-three verbatim quotations verified character-for-character against `b35eac607` by `relays/r83/verify_r83_quotes.py`; expectations committed first at `999982c2f`, standalone counterchecks committed prior at `827ba35d8`).
+23. **Owner question on Selection and the Dictionary (`relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md`):** in progress now, strictly blind to all other seats.
+24. **`A2-SMC13` (`M33`) and `A2-AMP` (`M34`):** queued immediately after `AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` and `M37`.
 
 0 of 19.
