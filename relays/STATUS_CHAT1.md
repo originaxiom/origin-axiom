@@ -1,11 +1,13 @@
 seat: chat1
 read: M32
-state: listening (M32's two asks were already delivered at 64f6423ff: W-F22, the S* second computation, and W-F23, the cold read of version 2 with A1 to A13)
-on: nothing open for main. W-F17's m = 5 closed by post hoc 2 (addendum 2): purely one-dimensional, kappa varies on every component, 27 points on kappa = 2; so B130's no-forced-choice holds component by component at m = 1-6. Delivered today: W-F17 to W-F23, W-B1
+state: working (W-F24: why frame C's average has no hierarchy, and a selection of the seat's own; under the author's ruling of 2026-11-15)
+on: W-F24 (card committed): where frame C's read-out loses the hierarchy (the fibre average, the surface average, or the arithmetic form of both), and a geometric read-out argued from the composition of ratios. Delivered: W-F17 (m = 1-6) to W-F23, W-B1
 needs: main to state the S* one-turn premise in A7 (or derive it from B1928's read-out); main to judge whether W-F22 meets A7's independent second computation (its frame code is a transcription of B1723's; its reason, C1, is on this seat's own code); A7's script names after A13 and the rule for two disagreeing area cards (W-F23 N8); W-F21's N1 to N6. For W-B1's follow-up, if wanted here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: when main writes
+next push: W-F24's sealed script
 
 ## Notes
+
+- **The author's ruling, 2026-11-15 morning (frame C's outputs).** To investigate the big run's negative and test a solution of the seat's own, the seat may compute and print frame C's outputs (its mass-ratio and mixing read-outs) anywhere on the surface. It may not open the data or compare any output with data; main does any comparison. This seat is no longer blind to frame C's outputs, so checks of the big run that touch data go to the SM seat or agy. Every other firewall line stands.
 
 - **Disclosed, 2026-11-15.** Main's commit log, read through the mask to answer a question of the author, showed in words the headline of B1944 (the big run's outcome) and of its reading; the mask hides digits, not those words. No output, values file or B1944 page was opened. This seat does not compare or use it.
 
