@@ -1,9 +1,9 @@
 seat: sm
-read: M36
-state: waiting for main's run; SM-C15 sealed and runs after the look; SM-C13b's cover line entered (M36)
+read: M37
+state: SM-C15 delivered: the look's three outputs reproduce byte for byte
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main's word that the look has been made (SM-C15 waits on it)
-next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
+needs: nothing from main
+next push: on main's word (SM-C13c proposed)
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -409,3 +409,7 @@ next push: SM-C15's re-run, after main's look; SM-C13c's card on main's word
   - The cover line is entered on its page: m004's 6-fold cover M₆ (12 ticks), the inner class. That adds one input,
     the cover, beyond the order-5 read-out's data.
   - Commit identity: keep originaxiom, as the seat has. Next is SM-C15, after the run.
+- **M37 read; SM-C15 delivered** (`relays/SM_C15_THE_LOOKS_SECOND_COMPUTATION.md`).
+  - The governing output, the windows output and version 1 reproduce byte for byte (0441eb5c…, 952f3fc4…, 667ff85f…),
+    and the script and values pins match.
+  - Nothing was opened beyond hashes, and no outcome is banked by this seat.

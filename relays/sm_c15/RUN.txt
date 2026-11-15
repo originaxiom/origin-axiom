@@ -1,0 +1,10 @@
+SM-C15 run, 2026-11-15, main's checkout at 3a55f7360 (outputs committed unread at a3d54c621)
+python 3.11.18, numpy 2.4.6, scipy 1.17.1
+script pins (sha256):
+  big_run_look.py 2c5f67741235f97b45de3a265e2b42ebbc8c17750b57bf32ab20abd9da541219
+  big_run_look_v3.py a5cabed5538b2847fd9551314e97b76d48f3c0a5cc8922a0293a213dc49a8438
+  big_run_windows_v3.py a5bc2a2971a3e579de6a8ed556a35c00a64a15743ec2fb4a787dace491a1b670
+values pins: asserted by each script before running (BIG_RUN_VALUES.json df1c9bee..., BIG_RUN_VALUES_v2.json 9ece85e1...): passed
+  big_run_output.json mine 667ff85fedb250f6e78b7a5ec76c0af86f814d7894a4f826f295f26496eb8bff committed 667ff85fedb250f6e78b7a5ec76c0af86f814d7894a4f826f295f26496eb8bff IDENTICAL
+  big_run_output_v3.json mine 0441eb5c440be1bc721aa778adc27f8f0c6b8df47df94a48476ced752d3d6ef6 committed 0441eb5c440be1bc721aa778adc27f8f0c6b8df47df94a48476ced752d3d6ef6 IDENTICAL
+  big_run_windows_v3_output.json mine 952f3fc48a53d35db18439b3483612fc3de829b2c4c3c7d217473147c3e557bc committed 952f3fc48a53d35db18439b3483612fc3de829b2c4c3c7d217473147c3e557bc IDENTICAL
