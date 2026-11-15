@@ -1,0 +1,48 @@
+{
+ "id": "B1948",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1620",
+  "B1612",
+  "B1613",
+  "B1698",
+  "B1934",
+  "B1738",
+  "B1727",
+  "B1692",
+  "B1693",
+  "B1739",
+  "B1740",
+  "B1788",
+  "B1945",
+  "B1946",
+  "B1659",
+  "B1799",
+  "B1080",
+  "B909",
+  "B919",
+  "B991",
+  "B303",
+  "B1611",
+  "B1606",
+  "B1466"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat's SM-C13b (harvest row 1819): the order-10 lepton rows, named for step 2"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's governing tables (LAW_MAP, FALSIFIER_REGISTER, THEOREM_REGISTRY, THE_CLAIM, GENESIS) and the arcs named",
+  "object": "the relations among the Standard Model's parameters the record holds, typed U (every history), F (every point of a frame), S (a selection), with the record's own data status",
+  "reach": "class",
+  "hypotheses": "an inventory, not a computation; no new comparison with data; completeness only over the tables read"
+ },
+ "claim_one_line": "THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second release, kill at 3), and it rests on a selected residual pair; every frame-wide flavour relation is refuted by the data (Y_e = Y_d^T at order 5, E6's cubic D = 1, the flavour-blind bound m2/m3 >= 1/3, the one-Higgs split bound, the hierarchy-alignment dichotomy), each refutation naming a requirement (a lepton level with another prime, a source outside the cubic, a flavoured Higgs, hierarchy and alignment together); the weave's symmetry gives no quark relation (B1620); the universal structural relations are generic (charge quantisation) or untested (global form, exotics, Z'); exponent relations, free of tau, point to step 2: the lepton-down exponent relation at each candidate level, derived without data and sealed. 0 of 19.",
+ "weave_or_thread": "the weave (relations over every history)"
+}
