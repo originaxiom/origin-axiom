@@ -1,11 +1,13 @@
 seat: chat1
 read: M34
-state: working (W-V1's view in its referee read; pushed first)
+state: working (W-A1: the attack on selection and the dictionary)
 on: W-V1: relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md (this seat's view on selection and the dictionary, asked of the seats on 2026-11-15). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2
 needs: main to fix the sign convention of the Higgs's point (c = +2 or -2) and say whether to run M34's mixing stage for c = +2; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the referee's corrections to W-V1's view
+next push: W-A1's sealed scripts
 
 ## Notes
+
+- **The author's ruling, 2026-11-15, early afternoon (frame C at τ = i).** The seat may evaluate frame C at τ = i and near it on the act's axis, and print the outputs; nothing is compared with data or with any value on record. Every other firewall line stands.
 
 - **The author's ruling, 2026-11-15 morning (frame C's outputs).** To investigate the big run's negative and test a solution of the seat's own, the seat may compute and print frame C's outputs (its mass-ratio and mixing read-outs) anywhere on the surface. It may not open the data or compare any output with data; main does any comparison. This seat is no longer blind to frame C's outputs, so checks of the big run that touch data go to the SM seat or agy. Every other firewall line stands.
 
