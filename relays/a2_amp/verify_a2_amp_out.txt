@@ -1,0 +1,44 @@
+=== agy-002 Standalone Verifier: Card A2-AMP (M34 & P-860 (a)) ===
+Elapsed: 464.14s | Data-free: True | Physical 7-values in verify_a2_amp.json ONLY.
+
+--- Part 0: P-860 (a) Level-5 Weil Obstruction & Canonical Gramian Resolution ---
+  Naive linear sum |d ln| under T (tau -> tau+1):   up = 0.6141, down = 0.0265 (CTL-AMP-2 CAUGHT)
+  Naive linear sum |d ln| under T^5 in Gamma(5):    up = 0.5154 (OBSTRUCTED!), down = 1.226e-44
+  Naive linear sum |d ln| under T^25 in Gamma(25):  up = 1.314e-45, down = 2.487e-44
+  T^5 Weil phases arg/(2pi) by |5*w1| mod 5:        up = {'0': 0.0, '1': 0.4, '2': -0.4}, down = {'0': 0.0, '1': 0.0, '2': 0.0}
+  Down T-coboundary scalar-phase repaired |d ln|:   5.938e-44
+  Canonical Gramian H_f = (1/24) sum Y_f Y_f^H SL(2,Z) covariance:
+    T (tau+1) max |d ln| = 0.000e+00, T^5 max |d ln| = 0.000e+00, S (-1/tau) max |d ln| = 0.000e+00
+    CKM unitarity ||V V^H - I||_F = 2.012e-45; interior J_CP(W-) = 3.1410e-06
+    Cusp y=30 Gramian |V_33|: mixed W- = 8.876e-21, aligned (S,S) = 1.000000
+  CTL-AMP-3 (Guardrail 3 Haar SU(3) scrambling):    max drift = 0.000e+00, planted U^H V drift = 2.837e-01 -> CAUGHT
+
+--- Part 1: M34 Q1 — B1929 Twisted-Eta Automaton, Transfer Spectra & P-846 Hand Coupling ---
+  50-dps Meyer-Siegel step cocycle: basepoint constancy err = 4.050e-50, 15*step integrality err = 1.604e-49
+  Geodesic vs automaton cross-check (1357 words, n=4..13): max |Re Delta| = 1.809e-13, max |eta_auto - eta_geo| = 6.994e-14, chord diff = 2.816e-13
+  Exact 24x24 transfer matrix spectral radii: rho(alpha=1/2) = 0.707106781187 (1/sqrt(2), sign-oscillating!), rho(alpha=1) = 0.728399602070
+  Mirror orientation-reversal max |eta(W,w) + eta(PWP,Pw)| = 0.000e+00
+  Full 24-pt n=12: mean sin(pi/2 eta) = 0.000e+00, CTL-AMP-1 planted = 0.2353 -> CAUGHT
+  Partition Z_eta(n) = <cos(alpha pi eta_A)> (keeps_mark, n=6 -> 10 -> 14 -> 17 -> 18):
+    alpha=1/2: 0.2618 -> 0.1626 -> 0.0009 -> -0.0027 -> 0.0046
+    alpha=1:   -0.2854 -> 0.0418 -> -0.0083 -> -0.0048 -> -0.0017
+    Var(eta_A): n=6: 0.4580, n=10: 0.9422, n=14: 1.6684, n=18: 2.2346
+  P-846 Hand / Jarlskog J_CP on mirror-closed n=8 ensemble (42 histories):
+    unweighted <J_CP>(W-) = -5.900e-06 (cancels by mirror symmetry)
+    twisted-eta <sin(pi/2 eta_A) J_CP>(W-) = -1.6659e-05, (W+) = 1.6560e-06
+
+--- Part 2: M34 Q2 — Dynamic Odd-Tick Interference ({L, R}^n P, det = -1, n=1..14) ---
+  Trace divisibility theorem (order-5 character <=> 5 | tr(M_odd), n=1..14): mismatches = 0 (0 chars for n=1..4 incl. m000)
+  Checked 1920 surviving odd-tick Siegel histories (n=5..9):
+  Max single half-step Siegel winding = 1.6180 rad, but two-half-step sum residual = 9.326e-15
+  Max |eta_A(T^2_{M^2}, w)| = 1.903e-12 -> <exp(i alpha pi eta_A)>_odd = 1.000000 (DOES NOT CANCEL without discrete Pin^- +-i factor)
+
+--- Part 3: M34 Q3 — Move-Count vs Hyperbolic Area Log-Distance (n=14 exhaustive, exact T90) ---
+  Move (ell-weighted) vs Area:         W- max |d ln| = 0.5247 (rms 0.4203), W+ max |d ln| = 0.5146
+  Move (uniform) vs Area:              W- max |d ln| = 0.5091 (rms 0.4063), W+ max |d ln| = 0.5011
+  Twisted-eta (alpha=1/2) vs Area:     W- max |d ln| = 3.5094 (rms 2.6767), W+ max |d ln| = 3.2991
+  Twisted-eta (alpha=1) vs Area:       W- max |d ln| = 1.1090 (rms 0.6176), W+ max |d ln| = 1.2761
+  Selberg |det(I-M)|^(-1/2) vs Area:   W- max |d ln| = 0.4604 (rms 0.3634), W+ max |d ln| = 0.4587
+  Selberg * cos(pi/2 eta_A) vs Area:   W- max |d ln| = 1.8718 (rms 1.1136), W+ max |d ln| = 4.2732
+
+ALL ASSERTIONS AND PLANTED CONTROLS PASSED. 0 of 19.
