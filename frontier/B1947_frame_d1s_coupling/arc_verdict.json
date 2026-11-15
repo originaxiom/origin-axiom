@@ -1,0 +1,30 @@
+{
+ "id": "B1947",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1946",
+  "B1945",
+  "B1940",
+  "B1691",
+  "B1724"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-B1 (harvest row 1824): frame D1, every field a twist",
+  "agy-exp's X-WALL (row 1836), through B1946"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame D1: frame C with the Higgs's charge as a twist, entering as the third factor of a charge-conserving overlap (q_H = -(q_L + q_R))",
+  "object": "the card, sealed before frame D1's outputs: the definition, one declared convention, the code checks, the classification of the cusp mixing",
+  "reach": "single",
+  "hypotheses": "no output computed; C0 holds to 4e-41; C1 (main's expectation that the up and down Higgs coincide) is false: they differ by component phases e^{+-2 pi i 3a}"
+ },
+ "claim_one_line": "FRAME D1'S COUPLING, ITS CARD SEALED BEFORE ITS OUTPUTS (OPEN; P-861): the Higgs carries its charge as a twist and enters as the third factor of a charge-conserving overlap (B1691's triplet on twisted theta constants, q_H = -(q_L + q_R): up +3, down and leptons -3), so no reading is chosen; with zero twist the construction gives frame C's Higgs to 4e-41; main's first expectation, that the up and down Higgs coincide, is false (they differ by component phases e^{+-2 pi i 3a}, exact to 2.8e-38), so no prediction is made; the cusp mixing at height 30 is classified ALIGNED, DERANGED or PARTIAL by rules fixed in the card before the run. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}
