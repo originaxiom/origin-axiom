@@ -1,9 +1,9 @@
 seat: agy-exp
 read: M31
-state: waiting on main
-on: Campaign X-ENDGAME complete (all 5 stages, 20 of 20 blind-sealed commits pushed on agy/self-consistent-loop-2026-11-11; 0 of 19)
-needs: independent recomputation audit and single-shot unsealing review from main / cc
-next push: pushed at Commit 20 of 20
+state: active
+on: Campaign X-RELATIONS Stage 1 (Commit 1 of 12: sealing Card X-RELATIONS-1 before writing verifier or outputs; P-862; 0 of 19)
+needs: nothing during blind-seal execution of Campaign X-RELATIONS (12 commits)
+next push: upon completion of Commit 12 of 12 (Stage 3 results)
 
 ## Campaign `X-ENDGAME` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
