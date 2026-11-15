@@ -1,0 +1,85 @@
+{
+  "method": "Source pinning only. The proof is hand derived. No scientific sources were imported or executed. Pins identify full artifacts and do not assert independent verification of every source claim.",
+  "scope_card": "4b15876b3",
+  "sources": [
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311",
+      "bytes": 15311
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINT_ROOT_ACTION_AND_AUTOMORPHY.md",
+      "sha256": "a6067694e723761b17042703c0d50f67cc7f749655575dade187ada2cc045536",
+      "bytes": 9196
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md",
+      "sha256": "531821069962385beeb04f6b6c6c99a1c9f712e36bd36eb0eaf26b62c2daef35",
+      "bytes": 11641
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "bytes": 9867
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5",
+      "bytes": 10748
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "bytes": 12121
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4",
+      "bytes": 14910
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_puncture_fredholm_PROOF.md",
+      "sha256": "0977f84f75df44e11ce1f65bbe17e5b6d4a602e2ff3bb927ea991f81d93e2aaf",
+      "bytes": 10629
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md",
+      "sha256": "d3457359fb1c318326ea441b9f2487a85ebdcbe7ed4805716ed2f8facdc350da",
+      "bytes": 5382
+    },
+    {
+      "commit": "4b15876b3123bab117a3d9581c89330d280b1ec1",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE.md",
+      "sha256": "00f29e2bc0eacb3e22d47e3ca20cf65ec6ad8db235fe0d8854068f49fec71c44",
+      "bytes": 1855
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "sha256": "25f190df24aaabb26220669f0903870e1d0c88fed53409c24e8749c64bd063cb",
+      "bytes": 14036
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md",
+      "sha256": "d8887436a827e2dfabc74fbde71c7cdac384080363a59419a0ae26638da3674c",
+      "bytes": 4313
+    }
+  ],
+  "inherited_staged_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

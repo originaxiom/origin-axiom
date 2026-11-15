@@ -1,9 +1,19 @@
 seat: physical
 read: M5
 state: working
-on: all 23 branches refreshed, new X-RELATIONS and Weil dictionary reviewed, physical end-unit and operator map next
-needs: independent review of the boundary-law packet, current exploration repairs, and the field/domain identification
-next push: when the end/source and operator-domain identification advances
+on: P-C3 registered lift and physical domain/index map, first hand result on interaction covariance
+needs: independent proof review of P-C3 and the boundary-law packet, actual slotwise physical lift calculation
+next push: when the physical transitions and full section action are identified
+
+The active goal is the full SM3-and-gravity objective through input reduction.
+Its current scope card is `4b15876b3`.
+The first hand-derived result and thirteen source pins are in
+`reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/`.
+The full quaternion coupling classifies constant left/right matrix lifts up
+to scalar factors under its stated independent-input hypotheses.
+The proof also supplies a competing free lift and the residual inner-action
+test. It remains not independently checked. No scientific code ran.
+The physical source/vertex and complete-domain map remain the next duties.
 
 The all-branch refresh stands at agy-exp `1e50a2b2b`, Chat1 `3ce61679c`,
 SM `6ea836f56`, AGY-002 `62420b533`, AGY `989dd8ed3` and main `613c4f417`.
