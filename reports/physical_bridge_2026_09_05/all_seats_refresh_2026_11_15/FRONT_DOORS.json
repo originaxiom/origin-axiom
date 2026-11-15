@@ -1,0 +1,773 @@
+[
+  {
+    "ref": "origin/agy-002/verify",
+    "head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "status_paths": [
+      "relays/STATUS_AGY-002.md"
+    ],
+    "latest_commit_files": [
+      "relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md",
+      "relays/STATUS_AGY-002.md"
+    ],
+    "latest_three_commits": [
+      "62420b533 agy-002 (A2-B1947 / M40): deliver closing comparison note (SAME on C2 negative across both conventions and both representatives) and update STATUS_AGY-002.md. 0 of 19.",
+      "d387d3ab8 agy-002 (A2-B1947 / M40): commit blind standalone 55-digit verifier and raw C2 covariance outputs prior to inspecting B1947 findings. 0 of 19.",
+      "097a4a911 agy-002 (A2-AMP / M34 + M40 seal): deliver A2-AMP closing note and seal pre-run expectations card for A2-B1947 (M40). 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/agy/audit-2026-11-02",
+    "head": "989dd8ed3f73965a2edf5b0bc083a788792465e1",
+    "status_paths": [
+      "relays/STATUS_AGY.md"
+    ],
+    "latest_commit_files": [
+      "src/origin_axiom/stage1_curved_action_cusp_orbit.py",
+      "tests/test_stage1_curved_action_cusp_orbit.py"
+    ],
+    "latest_three_commits": [
+      "989dd8ed3 audit(stage 1): seal fourteenth-revision variadic, comprehension, mapping, unbound-mutator, boolean-arithmetic, and nested-closure source locks across all seventeen upstream files. No input removed. 0 of 19.",
+      "09ca11141 Stage one thirteenth revision: close container-subscript, complex-taint, and closure-memo locks, tighten cusp quadrature, and bound scanner recursion",
+      "168b43e1a audit(stage 1): seal twelfth-revision source firewall and literal-return locks, sub-ten-second parametric cusp convergence theorems, and gauge-covariant negative-degree holomorphic jet. No input removed. 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/agy/frontier-2026-10-26",
+    "head": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "status_paths": [],
+    "latest_commit_files": [
+      "docs/POINT_REGISTER.md",
+      "docs/views/COVERAGE.md",
+      "docs/views/REVIEWER.md",
+      "docs/views/THE_SPINE.md",
+      "docs/views/VERDICT_LEDGER.md",
+      "frontier/B1782_cosmological_constant_and_unimodular_gravity/FINDINGS.md",
+      "frontier/B1782_cosmological_constant_and_unimodular_gravity/arc_verdict.json",
+      "frontier/B1782_cosmological_constant_and_unimodular_gravity/verification/cosmological_constant_unimodular.json",
+      "frontier/B1782_cosmological_constant_and_unimodular_gravity/verification/cosmological_constant_unimodular.py",
+      "frontier/B1782_cosmological_constant_and_unimodular_gravity/verification/cosmological_constant_unimodular_run.txt",
+      "scripts/checks/point_debt.py",
+      "tests/test_b1782_cosmological_constant_and_unimodular_gravity.py"
+    ],
+    "latest_three_commits": [
+      "05e6caabf B1782 (P-409): cosmological constant derivation and unimodular quantum vacuum decoupling",
+      "331f06219 B1781 (P-408): unconditional parameter-free and caveat-free certification of the nineteen SM parameters under THE_BAR",
+      "6de4550b5 B1780 (P-407): dynamical derivation of the GUT scale and compactification volume"
+    ]
+  },
+  {
+    "ref": "origin/agy/self-consistent-loop-2026-11-11",
+    "head": "1e50a2b2b6d087a75575746c8469965916e94fdb",
+    "status_paths": [
+      "relays/STATUS_AGY-EXP.md"
+    ],
+    "latest_commit_files": [
+      "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md",
+      "relays/STATUS_AGY-EXP.md"
+    ],
+    "latest_three_commits": [
+      "1e50a2b2b agy-exp (X-RELATIONS-3 commit 4): post mask-clean results and complete Campaign X-RELATIONS (M31; P-862; 0 of 19)",
+      "06375e85d agy-exp (X-RELATIONS-3 commit 3): seal raw verifier output unread (M31; P-862; 0 of 19)",
+      "99589c69f agy-exp (X-RELATIONS-3 commit 2): seal standalone zero-import verifier before execution (M31; P-862; 0 of 19)"
+    ]
+  },
+  {
+    "ref": "origin/agy/stage4-sync-2026-11-11",
+    "head": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "status_paths": [],
+    "latest_commit_files": [
+      "relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md"
+    ],
+    "latest_three_commits": [
+      "d37c773d6 agy-002 relay (2026-11-11): record owner-assigned handle verbatim ('refetch, youre agy-002, let main know that, as it will give you directions'), disambiguate stage4-sync-2026-11-11 from agy-exp, acknowledge P-780/P-781/B1889, and wait on main's directions. He was asked nothing. Nothing outside relays/ is changed. 0 of 19.",
+      "e67dcd5e6 relay(full-reports-and-restructure-spec): add unabridged 354-line three-pillar restructure specification, repository X-ray, Stage 1-4 audit execution reports, and v4.0.0 cryptographic verification receipts to relay packet for all seats. 0 of 19.",
+      "b4ddb600b relay(audit-and-blueprint): full 6-point zero-trust assessment, breakthrough perspectives, three-pillar repo-split proposal, and runnable 328 KB distilled core prototype (THM-CORE-01..06) for main's review. 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/audit/fork-2026-09-20",
+    "head": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "status_paths": [],
+    "latest_commit_files": [
+      "CHANGELOG.md",
+      "PROGRESS_LOG.md",
+      "docs/CAMPAIGN_STATUS.md",
+      "reports/genesis_root_review_2026_10_11/STATUS_AND_PLAN.md",
+      "reports/genesis_root_review_2026_10_11/UPSTREAM_DEPENDENCIES.md",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/FINDINGS.md",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/GOVERNANCE_FIRST.txt",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/LAW_MAP_PROPOSALS.md",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/PUBLICATION_NOTES.md",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/RESULT_HASHES.txt",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/results/resealed/EXECUTION_RECEIPT.json",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/results/resealed/native.stderr.log",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/results/resealed/native.stdout.log",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/results/resealed/tests.stderr.log",
+      "reports/genesis_root_review_2026_10_11/horizontal_projection/results/resealed/tests.stdout.log"
+    ],
+    "latest_three_commits": [
+      "0c6570bab Publish controlled horizontal transport and projected cusp confinement",
+      "026fde3fd Preserve first projection check failure and reseal exact radical comparison",
+      "041b69a1b Seal horizontal kernel transport and projected cusp controls"
+    ]
+  },
+  {
+    "ref": "origin/audit/independent-2026-11-03",
+    "head": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "status_paths": [],
+    "latest_commit_files": [
+      "audit_independent/AUDIT_REPORT_2026-11-03.md",
+      "audit_independent/theorems_10_14_update/REPORT_951998A73_AND_E19AA4DDC.md",
+      "audit_independent/theorems_10_14_update/verify_951998a73_and_e19aa4ddc.py",
+      "audit_independent/theorems_10_14_update/verify_951998a73_and_e19aa4ddc_results.json"
+    ],
+    "latest_three_commits": [
+      "4b91b9be7 Deep code-level and guardrail scrutiny of agy 951998a73: document unrun/crashing pytest (12 key mismatches) and hostile_referee_audit.py (NameError th2_mp, KeyError c_ll_twist6_closed_form), plus live Guardrail 1-5 violations still returned by phase1-phase9, theorem8, theorem9, and summary_metrics. 0 of 19.",
+      "c1e077a63 Audit physical-bridge (84632be08/e19aa4ddc) and agy Theorem 14 & Theorems 10-13 repairs (e810ba3ee/951998a73): 5/5 SymPy controls pass; 2O/2D4=48/16=3 census verified (gL, gR not in 2D4 so full 2O uncompensated); Q8 compensator group has order 8 in PSO(10) and 16 in SO(10); Theorems 10-13 code repairs verified. 0 of 19.",
+      "2dbfe96dc Independent verification of agy Theorems 10-13 (dcae538ab): algebra/identities confirmed; T8 equivalence selects nothing (all five (2/5,j/5) lines equivalent); parity-doubled theta=0 is |det|^2; independent 2-loop RGE reproduces benchmark 9.678 but y_t^2(M12)=1/5 is post hoc and proper matching gives Mt=169.3, Mh=120.2; basis-invariant PMNS fails (s23 -29 sigma). 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/audit/physical-bridge-2026-09-05",
+    "head": "a00bcb88e64917bc7935d65b76f25d92a7c54024",
+    "status_paths": [
+      "relays/STATUS_PHYSICAL.md"
+    ],
+    "latest_commit_files": [
+      "relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md",
+      "relays/STATUS_PHYSICAL.md",
+      "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS.md",
+      "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md"
+    ],
+    "latest_three_commits": [
+      "a00bcb88e derive(physical): connect retained register to same-action boundary response and scope end-unit selection",
+      "f0232a240 fix(physical): preserve and withdraw harmonic transport draft missing global argument action",
+      "86ec6ef9a verify(physical): preserve first relative boundary response author checks"
+    ]
+  },
+  {
+    "ref": "origin/chat1/web-seat",
+    "head": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+    "status_paths": [
+      "relays/STATUS_CHAT1.md"
+    ],
+    "latest_commit_files": [
+      "relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md",
+      "relays/STATUS_CHAT1.md"
+    ],
+    "latest_three_commits": [
+      "3ce61679c chat1: W-B2 stage 4 addendum, its referee's corrections applied (the claim narrowed to the flat cell norm; with the flat unitary metric E reaches the norms; the fork for main)",
+      "d01078e32 chat1: status (W-L1 banked NEGATIVE as sealed, PROVISIONAL until the SM seat's re-run)",
+      "1965bed10 chat1: W-L1, its referee's corrections applied (banked NEGATIVE as sealed, PROVISIONAL; the October use of the data disclosed; section 2 narrowed and aligned with W-A1; the ledger beside the outcome)"
+    ]
+  },
+  {
+    "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
+    "head": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "status_paths": [],
+    "latest_commit_files": [
+      ".github/workflows/weave-archive-01-13.yml",
+      "Weave_All_13_Runs_Artifact_Archive.zip",
+      "reports/chatgpt_weave_2026_10_11/CONTINUATION.md",
+      "reports/chatgpt_weave_2026_10_11/MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/PRESERVATION_SCOPE.md",
+      "reports/chatgpt_weave_2026_10_11/README.md",
+      "reports/chatgpt_weave_2026_10_11/RESTORE_RECEIPT.json",
+      "reports/chatgpt_weave_2026_10_11/SHA256SUMS.txt",
+      "reports/chatgpt_weave_2026_10_11/SOURCE_INVENTORY.json",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/README.md",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/SHA256SUMS.txt",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/mathematical_notes.md",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/results.json",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/run.log",
+      "reports/chatgpt_weave_2026_10_11/initial_audit/weave_audit/verify_weave.py",
+      "reports/chatgpt_weave_2026_10_11/inputs/A_Weave_of_Two_Records_Dritero_M.pdf",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run1.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run10.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run11.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run12.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run13.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run2.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run3.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run4.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run5.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run6.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run7.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run8.zip",
+      "reports/chatgpt_weave_2026_10_11/original_archives/Weave_Quantum_Realization_Run9.zip",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/COVER_ADDENDUM_PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/PARITY_ADDENDUM_PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/SHA256SUMS.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/attempts/results_initial.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/attempts/run_initial.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/cover_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/cover_run.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/parity_conjugacy_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/parity_run.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/results_100dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/run.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/run_100dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify_cover.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run1/verify_parity_conjugacy.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/history/explore.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/environment.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/exact.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/global.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/global.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/numerical_50.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/numerical_50.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/numerical_80.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/results/numerical_80.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/verify_global.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run10/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/REPOSITORY_MAP.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/exact_run.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/numerical_50.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/numerical_50.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/numerical_80.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/results/numerical_80.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run11/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/EXECUTION_RECEIPT.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/FINAL_MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/FIRST_RUN.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/PRE_EXECUTION_PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/PRE_EXECUTION_SEAL.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/RESULTS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/SOURCES.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/SPECTRAL_FIRST_RUN.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/SPECTRAL_PRE_EXECUTION_SEAL.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/SPECTRAL_REFERENCE_RESULTS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/verify.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run12/verify_spectral_reference.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/CONSTRAINT_FIRST.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/CONSTRAINT_PRE_RUN_HASH.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/CONSTRAINT_RESULTS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/COUPLED_FIRST.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/COUPLED_RESULTS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/COUPLED_SECOND.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/COUPLED_THIRD.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/ENVIRONMENT.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/FINAL_MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/FINAL_REPLAY_RECEIPT.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/LATE_REPOSITORY_UPDATE.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/PRE_RUN_HASHES.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/PRE_SECOND_HASHES.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/PRE_THIRD_HASHES.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/SEAL_CHECKS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/SLAB_FIRST.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/SLAB_RESULTS.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/SOURCES.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/record_replay.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_constraints.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_constraints_REPLAY.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_coupled.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_coupled_REPLAY.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_coupled_first_timed_out.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_coupled_second_type_error.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_slab_reference.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run13/verify_slab_reference_REPLAY.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/SHA256SUMS.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_alternate_tree.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_results_alternate_tree.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/cover_states_run.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_100dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_80dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_results_100dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/quantum_reduction_results_80dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/verify_cover_states.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run2/verify_quantum_reduction.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/ENVIRONMENT.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/SHA256SUMS",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/amplitude_100dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/amplitude_80dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/amplitude_results_100dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/amplitude_results_80dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/exact_run.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/exploratory/explore.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/verify_amplitudes.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run3/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/ENVIRONMENT.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/SHA256SUMS",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/cocycle_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/cocycles.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/numerical_60dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/numerical_90dps.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/numerical_results_60dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/numerical_results_90dps.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_cocycles.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_exact.initial_signs.py.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_ward.initial_expensive_derivative.py.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run4/verify_ward_and_bundles.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/ENVIRONMENT.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/MANIFEST.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/initial_failure_50.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/numerical_50.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/numerical_80.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/results_exact.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/results_numerical_50.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/results_numerical_80.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_lattice.initial.py.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run5/verify_lattice.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/ENVIRONMENT.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/MANIFEST.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/explore_cohomology.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results/numerical_60.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results/numerical_90.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results_exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results_numerical_60.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/results_numerical_90.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run6/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/MANIFEST.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/exact_run_initial.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_60.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_60.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_90.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/numerical_90.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/physical_controls.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/results/physical_controls.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run7/verify_physical_controls.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/MANIFEST.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/history/exact_initial.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/history/verify_exact_initial.py.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/exact_results.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/numerical_50.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/numerical_50.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/numerical_80.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/results/numerical_80.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run8/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/CHANGELOG.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/MANIFEST_SHA256.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/PLAN.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/PLAN.sha256",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/README.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/history/clifford_initial_failure.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/history/verify_clifford_before_contact_fix.py.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/requirements.txt",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/SUMMARY.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/clifford.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/clifford.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/exact.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/exact.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/numerical_55.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/numerical_55.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/numerical_85.json",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/results/numerical_85.log",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/verify_clifford.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/verify_exact.py",
+      "reports/chatgpt_weave_2026_10_11/runs/weave_quantum_run9/verify_numerical.py",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_audit/mathematical_notes.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run1/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run10/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run11/REPOSITORY_MAP.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run11/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run12/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run13/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run2/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run3/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run4/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run5/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run6/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run7/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run8/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/standalone_attachments/weave_quantum_run9/TECHNICAL_REPORT.md",
+      "reports/chatgpt_weave_2026_10_11/verify_archive.py"
+    ],
+    "latest_three_commits": [
+      "efadcdeaa Preserve weave runs 01-13: the owner's unchanged recovery ZIP (1,266,286 bytes; sha256 afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e) and its restore by the branch's own restore_archive.py, run locally: 291 members, 289 manifest entries and 254 original-archive members byte-verified, git index verified, no archived program executed; RESTORE_RECEIPT.json status VERIFIED. The branch's GitHub workflow is removed, because the repository's tracked-forbidden gate forbids tracked .github/ files on any pushed tree; the same script did its job here.",
+      "d7e4afeb7 Prepare lossless one-ZIP import for weave runs 01-13; preserve transferred original audit",
+      "81bacce90 Prepare branch-isolated, checksum-verified weave archive restoration"
+    ]
+  },
+  {
+    "ref": "origin/claude/kind-hypatia-uk0vv9",
+    "head": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "status_paths": [],
+    "latest_commit_files": [
+      "docs/views/REVIEWER.md",
+      "docs/views/VERDICT_LEDGER.md",
+      "frontier/B1035_receipts_and_register/FINDINGS.md",
+      "frontier/B1035_receipts_and_register/b1035_verify.py",
+      "frontier/B1035_receipts_and_register/pinned/CC3_TO_CC_2026-08-10_FALSIFIERS_SEALED.md",
+      "frontier/B1035_receipts_and_register/pinned/CC3_TO_CC_2026-08-10_FALSIFIERS_VERDICT.md",
+      "frontier/B1035_receipts_and_register/pinned/CC3_TO_CC_2026-08-10_THETA_WITHDRAWN.md",
+      "frontier/B1035_receipts_and_register/pinned/MANIFEST.json",
+      "tests/test_b1035_receipts.py"
+    ],
+    "latest_three_commits": [
+      "6a537f899 B1035's three receipts pinned beside its lock: it reads no ref, so any clone verifies them",
+      "036354988 B1479 seal's ledger row at its commit",
+      "646cc2b7d B1479 PREREGISTRATION sealed (sha256 ba56ca22): THE BIT IS THE SIGN OF THE WORD STATE. Is the fermionic bit of B1474-B1477 -- whether any spin structure survives the mirror, read on the cusp's lattice and on the Chern-Simons class -- simply the sign of the word in the genesis' own grammar? Three predictions on the 379 primitive cyclic words to length 12 with both signs: P2 the half-shift (the cusp shapes of the two signs differ by exactly one half along the longitude, equal imaginary parts and volumes; 95 percent), P1 the sign law (on an amphichiral word the + state is rectangular at CS = 0 and the - state rhombic at 1/4; 93 percent, lengths 9-12 unopened), P3 (the longitude's trace is -2 on every lift of every amphichiral - state, so B1477's Theorem A forbids every survivor; 85 percent); kills named. Seen first and disclosed: the 16 amphichiral states to length 8 from B1478's census (8 words, + at zero and - at a quarter, 8 of 8 each), the two controls m004 = +LR and m003 = -LR on this instrument, and the web seat's listening log (the golden act's even ticks are B1474's FIX members). The web seat's four relays since its pin are re-run and rowed in the same arc. No cell run beyond the controls."
+    ]
+  },
+  {
+    "ref": "origin/claude/outside-bench",
+    "head": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "status_paths": [],
+    "latest_commit_files": [
+      "outside_bench/INDEX.md",
+      "outside_bench/THE_OWNER_REGISTER.md",
+      "outside_bench/certificates/the_paper_already_had_it.py",
+      "outside_bench/memos/THE_PAPER_ALREADY_HAD_IT.md",
+      "outside_bench/outputs/the_paper_already_had_it_out.txt"
+    ],
+    "latest_three_commits": [
+      "13d2c5b63 memo 236 THE PAPER ALREADY HAD IT: OUTCOME A -- all four conclusions were already in the paper, and already_banked.py cannot read the paper",
+      "739b94c56 seal: THE PAPER ALREADY HAD IT? -- verify the memo's NOVELTY, not just its quotations",
+      "5e355e749 memo 235 ADDENDUM 3: both addenda VERIFIED mechanically (40/40, 3/3) -- and the verification found that the OTHER generation mechanism was decided on main today, and it gives ONE"
+    ]
+  },
+  {
+    "ref": "origin/claude/paper-review-verification-kaz3f5",
+    "head": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "status_paths": [],
+    "latest_commit_files": [
+      "papers/P3_THE_PAPER/REFEREE_REPORT_CONSOLIDATED_2026-09-18.md",
+      "papers/P3_THE_PAPER/REFEREE_REPORT_ROUND3_2026-09-18.md",
+      "papers/P3_THE_PAPER/REPO_SWEEP_REPORT_2026-10-01.md",
+      "papers/P3_THE_PAPER/referee_2026-09-17/scripts/README.md",
+      "papers/P3_THE_PAPER/referee_2026-09-17/scripts/r14_axiom_checks.py"
+    ],
+    "latest_three_commits": [
+      "5d58b935b SWEEP 2026-10-01: every lane read against main -- the axioms are not reduced, one fork is re-graded, the spin bit went up, and two of my own round-3 sentences are withdrawn",
+      "013c9ac76 ROUND 5 ADDENDUM: B1431 is a manifold invariant, and B1430's three hypercharges made exhaustive",
+      "a6ac9a777 Merge the author's S20-S26 revision into the review branch, so the round-5 report sits beside the revision it reviews"
+    ]
+  },
+  {
+    "ref": "origin/claude/project-thread-hctlox",
+    "head": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "status_paths": [],
+    "latest_commit_files": [
+      "frontier/LP01_the_common_cover/FINDINGS.md",
+      "frontier/LP01_the_common_cover/verification/common_cover_o10_sealed.json",
+      "frontier/LP01_the_common_cover/verification/common_cover_o10_sealed.out"
+    ],
+    "latest_three_commits": [
+      "8b6df98ff LP01 cross-check: the sealed instrument on o10_150726 finds no common cover with m004 at degree 5, 10 or 15 and one at degree 20, chiral, no three, irregular on both sides, with the same isometry signature as the exact level-4 construction. The two instruments agree; o10_150726's common cover is minimal over all conjugates. 0 of 19.",
+      "260f5b8a0 LP01 THE COMMON COVER, run (sealed 117ab6e4): the figure-eight group is congruence of level 4 in PSL(2,Z[w]), so its class members with holonomy in PSL(2,Z[w]) have exact common covers with m004 read off a 12-point coset action. m202: degree 24 over m004 (12 over m202), 6 cusps, H1 = Z^8; s959: degree 36; o10_150726: degree 20. All three are chiral; none carries the three (cusp det values {0,4}, m004's own). Sealed brute force: no common cover with m202 to degree 20 (stopped by the time limit during 22). P1 P2 P5 pass; P3 P4 fail; P6 splits (s959 beyond its bound). Reading by the sealed rule: the three belongs to m202, not to the tower above the root; chirality does reach the root's finite covers. The o10_150726 cross-check on the sealed instrument is still running and its section is pending. Seat LP, own numbering. 0 of 19.",
+      "3a802c0d2 LP01 PREREGISTRATION sealed (sha256 117ab6e4): THE COMMON COVER. Is the smallest finite manifold covering both m004 and m202 (and s959, o10_150726: the three two-cusped class members where chirality, the door and the count of three meet, B1418 Q1.2) a carrier of all three? Lemma L0 stated first: no level of a word state covers a two-cusped manifold, so the native moves never reach these targets. Six predictions (P1 a common cover within degree 24 over m004, 75 percent; P4 all three survive on a minimal one, 25 percent), kills and reading rule fixed. Seen first: xB015 found none for m202 at degree <= 6; the audit lane's rule that a common cover is not native reachability. Only the two controls run (m206 and m003, both reproduced). Seat LP, own numbering, for main to harvest."
+    ]
+  },
+  {
+    "ref": "origin/claude/standard-model-derivation-0qt6ao",
+    "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+    "status_paths": [
+      "relays/STATUS_SM.md"
+    ],
+    "latest_commit_files": [
+      "relays/SM_C17_THE_ACTION_AS_A_PHASE.md",
+      "relays/STATUS_SM.md",
+      "relays/sm_c17/RUN.txt",
+      "relays/sm_c17/c17_results.json"
+    ],
+    "latest_three_commits": [
+      "6ea836f56 SM-C17 delivered: the record's action as a phase e^{iS} never makes the cusp-heavy threads coherent while the bulk cancels; the bulk is the more coherent bin, and the Chern-Simons term de-coheres the cusp-heavy threads; E2 and E3 failed as sealed (said); a ratio-of-cancelled-sums share flagged; with SM-C16 the record's action is closed as the weight in both forms",
+      "e831d6d4b SM-C17's script, before the run",
+      "faaa952f5 SM-C17 sealed before any run: the record's action as a phase e^{iS} on B1928's threads - does interference favour the cusp? coherence of cusp-heavy vs bulk threads against a shuffled floor, k in {0,1,2}, sigma scanned; value-free"
+    ]
+  },
+  {
+    "ref": "origin/cld/cool-hamilton-k9eqvo",
+    "head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "status_paths": [
+      "relays/STATUS_CLD-ADVISOR.md"
+    ],
+    "latest_commit_files": [
+      "relays/STATUS_CLD-ADVISOR.md",
+      "relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md"
+    ],
+    "latest_three_commits": [
+      "fbc4764bb cld-advisor: paused to save resources; status and plan row",
+      "5d25a7be1 cld-advisor: C21's full suite (none of its failures the series' own); status",
+      "507259d10 cld-advisor: C21's series, two patches sent on main's fda35cb6c (main's check of the twelve carried; C21 as B1933, the foundation at 1.69); R82-2's list and R82-1's transcription asked; note, status and plan row"
+    ]
+  },
+  {
+    "ref": "origin/explore/2026-11-05",
+    "head": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "status_paths": [],
+    "latest_commit_files": [
+      "relays/explore_2026-11-07_read_out_by_a_state/EXPLORE_TO_CC_2026-11-07_THE_READ_OUT_BY_A_STATE.md"
+    ],
+    "latest_three_commits": [
+      "af81fb6ef explore: THE READ-OUT BY A STATE, the dated note's citation of main's THE_TAU_READOUT_RULE document reworded (the file is on main, after this branch's base; the path-refs gate). 0 of 19.",
+      "0594d6ee2 explore: THE READ-OUT BY A STATE, dated note after main's B1857 -- DISCLOSED: the seen-first sweep missed docs/THE_TAU_READOUT_RULE.md (B1854), present in the swept snapshot bb5bcd616; scope as main recorded it: the state lives on the flat-fibre model's Sol (Teichmuller) clock, CHOSEN (B1815), so it reads the Teichmuller apex (N2), not the rule's tau(Sigma_0); whether the principle survives the rule is P-744. 0 of 19.",
+      "4c0e7156a explore: THE READ-OUT BY A STATE read -- a read-out made by the history's lightest massive state, not a weight: the flat-fibre bundle over the history (Sol time) separates exactly into class wells q_c cosh 2(t - t_c), q_c = 4 pi^2/(A H_c), H_c half the Markov values (two methods, 3.7e-22; cosh law 4.7e-10); E0(q) increasing (FD vs DVR 4.5e-9), so the state sits at the deepest class -- the apex, Re exact -- unique iff the deepest run is unique, and not blind (L^6R(LR)^k: read-out converges while its window's share of the period falls like 1/k). Cost: exact only as the fibre area A -> 0 (<Im>/H* = 0.998, 0.980, 0.861, 0.758 at A = 1e-4, 1e-2, 1, 2pi; law sqrt(A H*/8pi^2) to 0.994); the probe must be a neutral tower state (flux zero modes are tau-flat). HS1-HS5 TRUE. HS6 FALSE as pre-registered: under the length action the cheapest line-invisible departure with a unique lightest state is (2,1,2,1,2) (2.160 < 2.349); range complete (Lemma C; E mod 5 period 20 in each gap; P1 0 mismatches against the web seat's test). POST HOC, range-scoped (62,747 departures, 5,204 line-invisible): under the volume action uniqueness removes exactly the two cheaper mirror-degenerate departures and leaves (6) under both level-5 readings (gap 0.414) -- owed a pre-registered rerun with a completeness bound. HS7: the hyperbolic systole's multiplicity follows the class structure on all six threads (two k = 2 runs needed randomized triangulations, disclosed). Relay + RELAY_LEDGER row OPEN. 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/main",
+    "head": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "status_paths": [],
+    "latest_commit_files": [
+      "README.md",
+      "docs/CAMPAIGN_STATUS.md",
+      "docs/HARVEST_LEDGER.md",
+      "docs/LAW_MAP.md",
+      "docs/seats/agy-002.md",
+      "docs/seats/chat1.md",
+      "docs/seats/sm.md",
+      "docs/views/CONTEXT_RECOVERY.md",
+      "docs/views/COVERAGE.md",
+      "docs/views/REVIEWER.md",
+      "docs/views/VERDICT_LEDGER.md",
+      "frontier/B1883_where_we_stand/WHERE_WE_STAND.json",
+      "frontier/B1883_where_we_stand/WHERE_WE_STAND.md",
+      "frontier/B1946_the_cusp_mixing_deranges_only_under_mixed_higgs_readings/FINDINGS.md",
+      "frontier/B1947_frame_d1s_coupling/FINDINGS.md",
+      "frontier/B1947_frame_d1s_coupling/arc_verdict.json",
+      "scripts/atlas/atlas_data.json"
+    ],
+    "latest_three_commits": [
+      "613c4f417 S306p THE HELD BATCH LANDS WITH THE NEW GOAL: W-B2's stages and its partial withdrawal entered (rows 1840 to 1842: the twisted triplet not covariant, B1947 final; the Szego-zero placement covariant at c = +-2 and equal to frame C at shifted charges, agreeing with main's hand reduction; the mixing fault returned to P-847); SM-C16 and SM-C17 (the record's action closed as the weight in both forms) and W-F26 (B1946's second computation) entered; main's own view on selection and the dictionary and its correction; the goal P-862 at the author's word (relations that hold in every history) and its step 1, B1948. This push carries the local commits 310a39e43, 98e92e80c and fd047b130. 0 of 19.",
+      "fd047b130 S306p THE GOAL SET AT THE AUTHOR'S WORD (P-862: derive without selection the relations among the Standard Model's parameters that hold in every history, and seal them); ITS STEP 1, B1948 (OPEN, an inventory): of 21 relations the record holds, one live (TM1, 2.28 sigma, needing a selected residual pair), the frame-wide flavour relations all refuted with their requirements named, no quark relation from the weave's symmetry; step 2's first item named (the lepton-down exponent relation at levels 10 and 15). A local commit, pushed with the next landing. 0 of 19.",
+      "98e92e80c S306p main's view corrected the same day: the index route was MASTERPLAN v3's (B1297, B1329, B1413, B1466, B1117), its answer the chirality bit; every open piece is a selection, the principle as its author states it selects nothing, so the programme predicts relations that hold in every history, not single values (a local commit, pushed with the next landing). 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/referee/B1668_the_price_of_the_nineteen",
+    "head": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "status_paths": [],
+    "latest_commit_files": [
+      "CHANGELOG.md",
+      "PROGRESS_LOG.md",
+      "docs/LAW_MAP.md",
+      "docs/POINT_REGISTER.md",
+      "docs/SEAL_LEDGER.md",
+      "docs/SEAT_REGISTER.md",
+      "docs/THEOREM_REGISTRY.md",
+      "docs/views/COVERAGE.md",
+      "docs/views/REVIEWER.md",
+      "docs/views/THE_SPINE.md",
+      "docs/views/VERDICT_LEDGER.md",
+      "frontier/B1668_the_price_of_the_nineteen/arc_verdict.json",
+      "frontier/B1669_the_dedekind_phase/arc_verdict.json",
+      "scripts/atlas/atlas_data.json"
+    ],
+    "latest_three_commits": [
+      "0c781663f referee lane: banking \u2014 POINT_REGISTER P-191\u2013P-193, SEAT_REGISTER (the referee lane), CHANGELOG and PROGRESS_LOG entries, LAW_MAP and THEOREM_REGISTRY rows for B1669 (T-THE-DEDEKIND-PHASE), the atlas, the seal ledger and the views regenerated; the verdicts' reach fields in the schema's vocabulary; gates 45 of 45",
+      "cf579644d B1669 THE DEDEKIND PHASE: PROVED as sealed (a census informed by its own draft); FINDINGS, verdict, the lock",
+      "5aea6a66c B1669: the sealed run's output, committed unread"
+    ]
+  },
+  {
+    "ref": "origin/referee/landing",
+    "head": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "status_paths": [],
+    "latest_commit_files": [
+      "CHANGELOG.md",
+      "PROGRESS_LOG.md",
+      "docs/LAW_MAP.md",
+      "docs/POINT_REGISTER.md",
+      "docs/SEAL_LEDGER.md",
+      "docs/SEAT_REGISTER.md",
+      "docs/THEOREM_REGISTRY.md",
+      "docs/THE_PRICE_OF_THE_NINETEEN.md",
+      "docs/views/COVERAGE.md",
+      "docs/views/REVIEWER.md",
+      "docs/views/THE_SPINE.md",
+      "docs/views/VERDICT_LEDGER.md",
+      "frontier/B1670_the_price_of_the_nineteen/ARTIFACT_HASHES.txt",
+      "frontier/B1670_the_price_of_the_nineteen/FINDINGS.md",
+      "frontier/B1670_the_price_of_the_nineteen/PREREGISTRATION.md",
+      "frontier/B1670_the_price_of_the_nineteen/arc_verdict.json",
+      "frontier/B1670_the_price_of_the_nineteen/verification/after_the_seal/alpha_s_0p1180.json",
+      "frontier/B1670_the_price_of_the_nineteen/verification/after_the_seal/alpha_s_0p1180.py",
+      "frontier/B1670_the_price_of_the_nineteen/verification/after_the_seal/alpha_s_0p1180_run.txt",
+      "frontier/B1670_the_price_of_the_nineteen/verification/before_the_seal/relations_draft.py",
+      "frontier/B1670_the_price_of_the_nineteen/verification/before_the_seal/relations_draft_run.txt",
+      "frontier/B1670_the_price_of_the_nineteen/verification/before_the_seal/smoke.json",
+      "frontier/B1670_the_price_of_the_nineteen/verification/before_the_seal/smoke_run.txt",
+      "frontier/B1670_the_price_of_the_nineteen/verification/factual_review.md",
+      "frontier/B1670_the_price_of_the_nineteen/verification/the_price_of_the_nineteen.json",
+      "frontier/B1670_the_price_of_the_nineteen/verification/the_price_of_the_nineteen.py",
+      "frontier/B1670_the_price_of_the_nineteen/verification/the_price_of_the_nineteen_run.txt",
+      "frontier/B1671_the_dedekind_phase/ARTIFACT_HASHES.txt",
+      "frontier/B1671_the_dedekind_phase/FINDINGS.md",
+      "frontier/B1671_the_dedekind_phase/PREREGISTRATION.md",
+      "frontier/B1671_the_dedekind_phase/arc_verdict.json",
+      "frontier/B1671_the_dedekind_phase/verification/before_the_seal/smoke.json",
+      "frontier/B1671_the_dedekind_phase/verification/before_the_seal/smoke_run.txt",
+      "frontier/B1671_the_dedekind_phase/verification/the_dedekind_phase.json",
+      "frontier/B1671_the_dedekind_phase/verification/the_dedekind_phase.py",
+      "frontier/B1671_the_dedekind_phase/verification/the_dedekind_phase_run.txt",
+      "reports/referee_lane_2026-10-17/01_referee_report_draft3.md",
+      "reports/referee_lane_2026-10-17/02_the_ladder.md",
+      "reports/referee_lane_2026-10-17/03_the_nineteen_price_list.md",
+      "reports/referee_lane_2026-10-17/README.md",
+      "reports/referee_lane_2026-10-17/checks/RUN_LOG_2026-10-17.txt",
+      "reports/referee_lane_2026-10-17/checks/check10_TbarT_weight2.py",
+      "reports/referee_lane_2026-10-17/checks/check1_identities.py",
+      "reports/referee_lane_2026-10-17/checks/check2_representation.py",
+      "reports/referee_lane_2026-10-17/checks/check3_motion.py",
+      "reports/referee_lane_2026-10-17/checks/check3b_escape.py",
+      "reports/referee_lane_2026-10-17/checks/check4_dims.py",
+      "reports/referee_lane_2026-10-17/checks/check5_yukawa_dims.py",
+      "reports/referee_lane_2026-10-17/checks/check6_minimal_model.py",
+      "reports/referee_lane_2026-10-17/checks/check7_weight3_quarks.py",
+      "reports/referee_lane_2026-10-17/checks/check9_ladder_mining.py",
+      "scripts/atlas/atlas_data.json",
+      "scripts/checks/check_path_references.py",
+      "tests/test_b1670_the_price_of_the_nineteen.py",
+      "tests/test_b1671_the_dedekind_phase.py"
+    ],
+    "latest_three_commits": [
+      "806dfd600 referee lane, landing branch on main: B1670 THE PRICE OF THE NINETEEN and B1671 THE DEDEKIND PHASE (sealed on the lane as B1668, B1669; renumbered because main banked its own B1668 and B1669; the sealed files byte-identical, the seal commits kept on the lane's branch), the three reports, the readers' ledger page, the locks, LAW_MAP and THEOREM_REGISTRY rows, P-193\u2013P-195, the seat register, CHANGELOG and PROGRESS_LOG; gates 45 of 45",
+      "2e5716bd9 REVIEW 65 (B1669): the paper and the page. Twenty merges since Review 64; fresh clone PASS at c370ff37c; full suite 7362 passed, 5 failed (B186 BLAS-dependent; four gate locks broken by edits during the run and by a new lane, green on re-run). The sample (B1661, B1662, B1663, B1665, B1666) read in full: locks pass, numbers match, the premise audit's six over-reaches filed as dated notes. Loop: R64-3 done (B1649, B1651, B1658 scope notes; B1651's Szego check hashed), R64-2 resolved by practice, R64-11 done, B616's single-threaded pin; the mirror, R64-4, R64-5, B186, R64-6..8 carried with their reasons. E90 (the built page not read) with the paper's source-hygiene check and its failing-path test (R65-11). B1667 replicated blind by the SM seat's W100 (1e-11). The referee lane found and registered; its colliding arc numbers to be re-banked (P-192). TERMINOLOGY rows; the eight views refreshed; harvest rows 1256-1261; P-191, P-192. The paper's draft 6: Table 1 a longtable (complete), 25 verified edits, Figure 1. 0 of 19.",
+      "c370ff37c S144 B1668 THE WEB SEAT'S LOW-THREAD NEGATIVES, VERIFIED ON MAIN (NEGATIVE, a verification arc; P-188): the sealed T-low run's inputs and output hash as recorded, forms.pkl rebuilt byte-identically, the 199 nulls regenerated, six seeded configurations re-executed bit-identically, and main's own scorers over every stored record find no S-mass pass in either reading (SM best chi2 983 per-field, 602 minimal; best nulls 267, 471); the per-field census at every depth re-scores to no pass. Kill graph, lock; the paper's section 8 cites it; verify.sh runs 26 locks. P-188 done. Landing suite 2394 passed, 0 failed. 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/review-82/read",
+    "head": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "status_paths": [],
+    "latest_commit_files": [
+      "frontier/B1924_the_read_out_on_the_whole_first_runs_threads_converge_and_the_twin_fades/FINDINGS.md",
+      "frontier/B1925_the_selection_tested_by_changing_it_the_metallic_rivals_bronze_keeps_the_tick_structure_only_nothing_left_over_picks_golden/FINDINGS.md",
+      "frontier/B1926_at_odd_ticks_the_frames_matter_exists_only_twisted_by_the_orientation_the_tick_inverts_the_scar/FINDINGS.md",
+      "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/FINDINGS.md",
+      "frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/FINDINGS.md",
+      "frontier/B1929_the_records_odd_l_value_is_the_twisted_eta_invariant_of_the_closed_torus_bundle/verification/test_b1929_twisted_eta.py"
+    ],
+    "latest_three_commits": [
+      "86930f574 Review 82's reading copy: main's head at the opening (window 0e637ea9e to 73e71e277) with six faults main planted to test the readers; the plants file's sha256 is published at the opening and the file at the entry",
+      "73e71e277 S306p B1924 UPGRADED TO PROVED ON agy-002's SECOND COMPUTATION, AND CORRECTED BY ITS THEOREM; THREE NEGATIVES GET THEIR SECOND COMPUTATIONS; P-332 DONE. agy-002's A2-B1924 (row 1790): exhaustive exact populations to n = 16 at both ends and a third confirm the settling (changes 3.6e-2, 1.15e-2, 6.8e-3, 3.6e-3), n = 22 to 28 within noise; its theorem (the reverse-swap involution with the modular S; the mark null mod 5) makes the mark's and twin's population read-outs equal at every n, so the twin does not fade, the n = 10 difference was sampling (with replacement, now disclosed); its calibration withdraws main's jackknife caution (accurate to 1 %); four code conventions stated. A2-NEG (row 1789): B1839 and B1841's cell D, P-720 and rows 945 and 949 all SAME. A2-P332 (row 1791): F4(Z) transitivity verified; P-332 done. Before tau leaves the budget: A2-LIMIT and A2-CANON (agy-002, M27). 0 of 19.",
+      "2ca9d20f3 S306p TWO NEVER-COMPUTED FRAMES ASSIGNED, AND GENESIS'S m000 ROW TO BE UPDATED: m000 in F-HE and F-AP offered to the SM seat, whose frames they are (SM-C12, M28); the builder's card C21 brings GENESIS's table of frames and its list 'Computed nowhere yet' current for m000 (F-FC and F-CI computed tonight, B1926; P-320). 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/review-83/read",
+    "head": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "status_paths": [],
+    "latest_commit_files": [
+      "docs/views/REVIEWER.md",
+      "frontier/B1938_frame_cs_coupling_is_a_szego_kernel_and_its_read_out_does_not_see_the_gauge_group/FINDINGS.md",
+      "frontier/B1940_the_area_options_corrected_in_extended_precision/FINDINGS.md",
+      "frontier/B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/FINDINGS.md",
+      "frontier/B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/FINDINGS.md",
+      "frontier/B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md",
+      "frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md"
+    ],
+    "latest_three_commits": [
+      "b35eac607 review-83/read: Review 83's reading copy, main's head c8cece9be with the faults main planted to test the readers (their list is held until the entry; its sha256 is published in register row P-858)",
+      "c8cece9be S306p THE REVIEW BLOCK WAIVED BY THE AUTHOR FOR REVIEW 83'S WINDOW (through 65 merges, in the window after anchor 73e71e277), Review 83 to run at the first chance; with it B1944's reading lands (the commit before) with its two gate items: its Seen-first section addresses the literature, and it is triaged as an instrument arc in the atlas's blind-arcs list. The SM seat's card SM-C15 (the look's second computation) is asked on its page (M37). 0 of 19.",
+      "74f73d52b S306p THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (B1944, NEGATIVE as sealed, PROVISIONAL until the SM seat's SM-C15 re-runs it; P-850): the outputs sealed unread at a3d54c621 read: best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of frame C's average is too large, about 10 times (s/b) to thousands (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near in every option (0.89 to 1.47), which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing adjusted after the look; a reading of frame C, not the programme's final comparison (A1); the look ledger gains its row. 0 of 19."
+    ]
+  },
+  {
+    "ref": "origin/sep16-branch",
+    "head": "3205984b48d1b98a80042cdc70916878973980f5",
+    "status_paths": [],
+    "latest_commit_files": [
+      "CHANGELOG.md",
+      "PROGRESS_LOG.md",
+      "docs/OPEN_LEADS.md",
+      "docs/progress/REVIEWS.md",
+      "frontier/xB029_the_g2_mssm_read/ARTIFACT_HASHES.txt",
+      "frontier/xB029_the_g2_mssm_read/arc_verdict.json",
+      "frontier/xB030_the_buried_four/ARTIFACT_HASHES.txt",
+      "frontier/xB030_the_buried_four/arc_verdict.json",
+      "frontier/xB031_the_unrun_modules/ARTIFACT_HASHES.txt",
+      "frontier/xB031_the_unrun_modules/arc_verdict.json",
+      "frontier/xB032_the_thermodynamic_side/ARTIFACT_HASHES.txt",
+      "frontier/xB032_the_thermodynamic_side/arc_verdict.json",
+      "frontier/xB033_l194_from_the_closed_side/ARTIFACT_HASHES.txt",
+      "frontier/xB033_l194_from_the_closed_side/arc_verdict.json",
+      "frontier/xB034_the_cross_branch_audit/ARTIFACT_HASHES.txt",
+      "frontier/xB034_the_cross_branch_audit/arc_verdict.json"
+    ],
+    "latest_three_commits": [
+      "3205984b4 Schema repair: xB029-xB034 brought into the verdict lock (they wrote VERIFIED and lacked id/claim_one_line/instrument/creates_law); the lock's seat-prefix hole recorded with the banking seat's scheme; R58-6 held behind it",
+      "54e25cb31 xB034 Addendum 1: B1355 was in this seat's tree (harvest row 535, verified by B1411) -- the fourth claim of absence made from the wrong surface; the apex route is the SM seat's live lane, not this seat's",
+      "c5018daed LITERATURE_READ_REGISTER Amendment 10: cs(M*) = -cs(M) recorded as USED-NOT-READ, load-bearing on two branches"
+    ]
+  }
+]

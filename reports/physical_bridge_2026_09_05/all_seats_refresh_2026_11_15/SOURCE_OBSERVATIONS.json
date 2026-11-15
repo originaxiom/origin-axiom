@@ -1,0 +1,42 @@
+{
+  "method": "Source inspection, AST locations and hashes only. No target scripts imported or executed. Literature convention and earlier independent counterchecks are linked in REVIEW.md.",
+  "exp_head": "1e50a2b2b6d087a75575746c8469965916e94fdb",
+  "source_observations": [
+    {
+      "path": "relays/x_relations_1_verify/verify_x_relations_1.py",
+      "sha256": "17beb1c1e276d2fe21b8612b15383966a40cc1671b5a0acd26df5f800948b45d",
+      "lines": 1925,
+      "rhs_span": [
+        131,
+        291
+      ],
+      "mixed_order_as_previously_audited_retained": true,
+      "old_mixing_benchmark_coefficient_seven_retained": true,
+      "successful_resonant_runs_discarded": false
+    },
+    {
+      "path": "relays/x_relations_2_verify/verify_x_relations_2.py",
+      "sha256": "d6682b9061ee76b63f5bcc97678bc6551fe3e04ce1916becda1c0fe73d059906",
+      "lines": 2048,
+      "rhs_span": [
+        134,
+        294
+      ],
+      "mixed_order_as_previously_audited_retained": true,
+      "old_mixing_benchmark_coefficient_seven_retained": true,
+      "successful_resonant_runs_discarded": true
+    },
+    {
+      "path": "relays/x_relations_3_verify/verify_x_relations_3.py",
+      "sha256": "e255469d521c355e8f07334d550fa877909abea1055ad28044823568823299f3",
+      "lines": 2148,
+      "rhs_span": [
+        137,
+        297
+      ],
+      "mixed_order_as_previously_audited_retained": true,
+      "old_mixing_benchmark_coefficient_seven_retained": true,
+      "successful_resonant_runs_discarded": false
+    }
+  ]
+}

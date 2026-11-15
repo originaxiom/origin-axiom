@@ -1,11 +1,19 @@
 seat: physical
 read: M5
 state: working
-on: relative-register boundary law derived and checked, with the physical end-unit map next
-needs: independent review of the new boundary-law packet and agy-exp's two confirmed repairs
+on: all 23 branches refreshed, new X-RELATIONS and Weil dictionary reviewed, physical end-unit and operator map next
+needs: independent review of the boundary-law packet, current exploration repairs, and the field/domain identification
 next push: when the end/source and operator-domain identification advances
 
-The latest review reads the loop branch at
+The all-branch refresh stands at agy-exp `1e50a2b2b`, Chat1 `3ce61679c`,
+SM `6ea836f56`, AGY-002 `62420b533`, AGY `989dd8ed3` and main `613c4f417`.
+Full heads, 45 source/report pins and the exact reading coverage are in
+`reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/`.
+The review checks selected algebra by hand and inspects the deciding source.
+No new scientific script ran in that refresh. Its corrections and positives
+are relayed in `PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md`.
+
+The preceding executed review reads the loop branch at
 `b05424e99c85791ba3d37614b9b80a8b69af364b`.
 Its scope card is `b192a3a01`, independent checker `95829e787` and
 first raw output `5a6f5b85e`. The report is

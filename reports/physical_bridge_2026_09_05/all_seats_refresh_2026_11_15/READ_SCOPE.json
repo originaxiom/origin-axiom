@@ -1,0 +1,481 @@
+{
+  "method": "Personal reading of the specified sections and source functions. File hashes pin whole artifacts and do not assert every line was read. No agents used and no scientific code executed in this sweep.",
+  "branches": [
+    {
+      "ref": "origin/agy-002/verify",
+      "head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+      "date": "2026-11-15T18:42:41+01:00",
+      "subject": "agy-002 (A2-B1947 / M40): deliver closing comparison note (SAME on C2 negative across both conventions and both representatives) and update STATUS_AGY-002.md. 0 of 19.",
+      "kind": "current verification seat",
+      "review_scope": "Status and selected sections of A2-AMP, A2-B1947 and the selection/dictionary proposal. Hand review of projector and proof-scope implications.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_AGY-002.md",
+          "sha256": "694952e02177abe0024b533a897a07b976bac3ca085d15a398f396eccb4957ff",
+          "bytes": 7390
+        },
+        {
+          "path": "relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md",
+          "sha256": "e24083e46a51cc410c24de582f4d034ccfd9cb95091e70c489a577473200eef9",
+          "bytes": 21489
+        },
+        {
+          "path": "relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md",
+          "sha256": "4df78603be30f17e1a467f65a844515f3e41ac60af9cc41b52e482c33e60b177",
+          "bytes": 9601
+        },
+        {
+          "path": "relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md",
+          "sha256": "d1fe24556a5a0036394bea12c4e784fad1aa06a267c94f51365a11415bdfe615",
+          "bytes": 31081
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/agy/audit-2026-11-02",
+      "head": "989dd8ed3f73965a2edf5b0bc083a788792465e1",
+      "date": "2026-11-15T20:04:44+01:00",
+      "subject": "audit(stage 1): seal fourteenth-revision variadic, comprehension, mapping, unbound-mutator, boolean-arithmetic, and nested-closure source locks across all seventeen upstream files. No input removed. 0 of 19.",
+      "kind": "current AGY implementation",
+      "review_scope": "Full current status, latest commit file list/diff summary, stage-one header and source locations, P753 opening/result clauses. Fourteenth revision changes the source scanner. Full new scanner has further review outstanding.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_AGY.md",
+          "sha256": "8f35062ed76c98321a64f4e6d1694ddffce4b045cebd7c957be5099f8d11e951",
+          "bytes": 2444
+        },
+        {
+          "path": "src/origin_axiom/stage1_curved_action_cusp_orbit.py",
+          "sha256": "59a34d6e92e4ad72405062f25a1f0a3788deb3fbd9bfc858ab366badea98f42c",
+          "bytes": 897528
+        },
+        {
+          "path": "relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md",
+          "sha256": "9a92225a0bea9cc397362319e5433878a20aba4060d3030c725d0001129dd17f",
+          "bytes": 20711
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/agy/frontier-2026-10-26",
+      "head": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+      "date": "2026-10-27T12:35:01+01:00",
+      "subject": "B1782 (P-409): cosmological constant derivation and unimodular quantum vacuum decoupling",
+      "kind": "historical AGY branch",
+      "review_scope": "Latest B1782 report opening and gravity derivation revisited. Supplied unimodular action and integration constant remain visible.",
+      "artifacts": [
+        {
+          "path": "frontier/B1782_cosmological_constant_and_unimodular_gravity/FINDINGS.md",
+          "sha256": "414fb3b80735ada633e5825513761188f82ab4983a40783760eb660ee736eb38",
+          "bytes": 6789
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "head": "1e50a2b2b6d087a75575746c8469965916e94fdb",
+      "date": "2026-11-15T23:10:06+01:00",
+      "subject": "agy-exp (X-RELATIONS-3 commit 4): post mask-clean results and complete Campaign X-RELATIONS (M31; P-862; 0 of 19)",
+      "kind": "current exploration",
+      "review_scope": "All three X-RELATIONS result notes in full, status, deciding source functions for both RGE implementations, benchmark, census filter, exponents and Majorana tensor. New integrations unrun here.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_AGY-EXP.md",
+          "sha256": "6d32e2955bcda9efb0bad92550f569306f2b4ab9a13ab4dbbb78610f59a5a89d",
+          "bytes": 6118
+        },
+        {
+          "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md",
+          "sha256": "d06cfd884366f4fad967e832a6f94d7fae097079e74169db707357f11d18143f",
+          "bytes": 7027
+        },
+        {
+          "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md",
+          "sha256": "ed954720d2cdcb824ba10933dc0fdb42cf1b794cda2561ff4e53da0ab86a4fc2",
+          "bytes": 6284
+        },
+        {
+          "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md",
+          "sha256": "6c622dacc5d6d7e90b15c4e8245676f269d9c385747248a8a81b470c2708c806",
+          "bytes": 9439
+        },
+        {
+          "path": "relays/x_relations_1_verify/verify_x_relations_1.py",
+          "sha256": "17beb1c1e276d2fe21b8612b15383966a40cc1671b5a0acd26df5f800948b45d",
+          "bytes": 89680
+        },
+        {
+          "path": "relays/x_relations_2_verify/verify_x_relations_2.py",
+          "sha256": "d6682b9061ee76b63f5bcc97678bc6551fe3e04ce1916becda1c0fe73d059906",
+          "bytes": 92592
+        },
+        {
+          "path": "relays/x_relations_3_verify/verify_x_relations_3.py",
+          "sha256": "e255469d521c355e8f07334d550fa877909abea1055ad28044823568823299f3",
+          "bytes": 99564
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/agy/stage4-sync-2026-11-11",
+      "head": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+      "date": "2026-11-11T19:19:11+01:00",
+      "subject": "agy-002 relay (2026-11-11): record owner-assigned handle verbatim ('refetch, youre agy-002, let main know that, as it will give you directions'), disambiguate stage4-sync-2026-11-11 from agy-exp, acknowledge P-780/P-781/B1889, and wait on main's directions. He was asked nothing. Nothing outside relays/ is changed. 0 of 19.",
+      "kind": "earlier AGY-002 identity checkpoint",
+      "review_scope": "Seat-identity relay, affiliations, corrections and current waiting instruction.",
+      "artifacts": [
+        {
+          "path": "relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md",
+          "sha256": "7a67f4648e7e72ebc7abc92751b73d4a860fe4be4281ae886c354ed35a3408ec",
+          "bytes": 6644
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/audit/fork-2026-09-20",
+      "head": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "date": "2026-10-13T13:17:07+02:00",
+      "subject": "Publish controlled horizontal transport and projected cusp confinement",
+      "kind": "historical physical/foundational lane",
+      "review_scope": "Latest additions and priorities in STATUS_AND_PLAN, including projected confinement and remaining total-domain question.",
+      "artifacts": [
+        {
+          "path": "reports/genesis_root_review_2026_10_11/STATUS_AND_PLAN.md",
+          "sha256": "d4c8af7ef04b913c13623f69363e8680bb62d66654f6998974d74467bceac42b",
+          "bytes": 34963
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/audit/independent-2026-11-03",
+      "head": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+      "date": "2026-11-03T13:13:28+01:00",
+      "subject": "Deep code-level and guardrail scrutiny of agy 951998a73: document unrun/crashing pytest (12 key mismatches) and hostile_referee_audit.py (NameError th2_mp, KeyError c_ll_twist6_closed_form), plus live Guardrail 1-5 violations still returned by phase1-phase9, theorem8, theorem9, and summary_metrics. 0 of 19.",
+      "kind": "historical independent audit",
+      "review_scope": "Opening assessment and update table/derivation excerpts for Theorems 10-14 and physical register quartics.",
+      "artifacts": [
+        {
+          "path": "audit_independent/AUDIT_REPORT_2026-11-03.md",
+          "sha256": "7fcf67ff8e2287bb2a6f4f9bfddc158b3563983d599a9813db072b1f684f2949",
+          "bytes": 25100
+        },
+        {
+          "path": "audit_independent/theorems_10_14_update/REPORT_951998A73_AND_E19AA4DDC.md",
+          "sha256": "50b98b6ab9bdb94c09a15e134626e680ada1fc89c4dec181983a979c5b7c0e70",
+          "bytes": 18730
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "head": "a00bcb88e64917bc7935d65b76f25d92a7c54024",
+      "date": "2026-11-15T23:07:16+01:00",
+      "subject": "derive(physical): connect retained register to same-action boundary response and scope end-unit selection",
+      "kind": "this physical lane",
+      "review_scope": "Latest already-completed boundary proof, findings, same-action reuse, and harmonic-draft withdrawal. Author-check scope and independent review duty retained.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_PHYSICAL.md",
+          "sha256": "d0b8af26e7fda245697d021727781b311ecb92e2dd93af373baa839294c4acdc",
+          "bytes": 2210
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/FINDINGS.md",
+          "sha256": "6d6962eba9966b6e9922602c45256c57743fb1008b0b80222f9710c27e3cfa83",
+          "bytes": 3203
+        },
+        {
+          "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md",
+          "sha256": "d3457359fb1c318326ea441b9f2487a85ebdcbe7ed4805716ed2f8facdc350da",
+          "bytes": 5382
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "head": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+      "date": "2026-11-15T14:15:07+01:00",
+      "subject": "chat1: W-B2 stage 4 addendum, its referee's corrections applied (the claim narrowed to the flat cell norm; with the flat unitary metric E reaches the norms; the fork for main)",
+      "kind": "current foundations",
+      "review_scope": "Current status, W-A1 in full, W-L1 opening/outcome, W-B2 stage-three result and full stage-four addendum, W-F26 results/scope. Hand check of centralizer, exterior degrees and anomalies.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_CHAT1.md",
+          "sha256": "bdaa8c7f56c97da8139b1fa28a9614ff3affd3a47500684d6ead47c4ce349666",
+          "bytes": 15553
+        },
+        {
+          "path": "relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md",
+          "sha256": "3e5228a37272e202732d8047a760fade264e9a8ca85756e96dfa71eda1d2e057",
+          "bytes": 18533
+        },
+        {
+          "path": "relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md",
+          "sha256": "a22722ec379f9b52c768d7797f1df41744847ea4a545109448137b7e00ce55c4",
+          "bytes": 9257
+        },
+        {
+          "path": "relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md",
+          "sha256": "c8034d22f31940e8b56a3237be036d71e1889e8048ebdadebd378f786f7166ea",
+          "bytes": 13209
+        },
+        {
+          "path": "relays/CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION.md",
+          "sha256": "4beb7602bb00eaf23253fcf82c0fb2871469711b80e7fb01abdeae53b2f03576",
+          "bytes": 7671
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
+      "head": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+      "date": "2026-10-13T17:14:45+02:00",
+      "subject": "Preserve weave runs 01-13: the owner's unchanged recovery ZIP (1,266,286 bytes; sha256 afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e) and its restore by the branch's own restore_archive.py, run locally: 291 members, 289 manifest entries and 254 original-archive members byte-verified, git index verified, no archived program executed; RESTORE_RECEIPT.json status VERIFIED. The branch's GitHub workflow is removed, because the repository's tracked-forbidden gate forbids tracked .github/ files on any pushed tree; the same script did its job here.",
+      "kind": "archive",
+      "review_scope": "Preservation and completeness note in full. It preserves thirteen original runs. Scientific contents retain their original grades.",
+      "artifacts": [
+        {
+          "path": "reports/chatgpt_weave_2026_10_11/PRESERVATION_SCOPE.md",
+          "sha256": "f19681b879da87f32e8437808c44bd3cf21e2907dfb977459260f250d79c0a0c",
+          "bytes": 2739
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/claude/kind-hypatia-uk0vv9",
+      "head": "6a537f899c9c1882930475144a30ae76aa2966d8",
+      "date": "2026-10-06T15:53:09+00:00",
+      "subject": "B1035's three receipts pinned beside its lock: it reads no ref, so any clone verifies them",
+      "kind": "historical receipt landing",
+      "review_scope": "B1035 receipt/register findings opening, including theta withdrawal.",
+      "artifacts": [
+        {
+          "path": "frontier/B1035_receipts_and_register/FINDINGS.md",
+          "sha256": "15fb309c1ea0efc42f5d90661bc024a5df1554294ec2c29ca185a4ab0037d5ba",
+          "bytes": 5186
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/claude/outside-bench",
+      "head": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "date": "2026-09-18T10:39:23+00:00",
+      "subject": "memo 236 THE PAPER ALREADY HAD IT: OUTCOME A -- all four conclusions were already in the paper, and already_banked.py cannot read the paper",
+      "kind": "historical outside bench",
+      "review_scope": "Latest memo opening and novelty corrections.",
+      "artifacts": [
+        {
+          "path": "outside_bench/memos/THE_PAPER_ALREADY_HAD_IT.md",
+          "sha256": "ac06358c45c8b1d25e020fb810c629decea794541428272a88120702f2e48709",
+          "bytes": 5149
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/claude/paper-review-verification-kaz3f5",
+      "head": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "date": "2026-10-01T08:43:53+00:00",
+      "subject": "SWEEP 2026-10-01: every lane read against main -- the axioms are not reduced, one fork is re-graded, the spin bit went up, and two of my own round-3 sentences are withdrawn",
+      "kind": "historical referee",
+      "review_scope": "Repository-sweep conclusions and scope opening. Its October input counts are dated.",
+      "artifacts": [
+        {
+          "path": "papers/P3_THE_PAPER/REPO_SWEEP_REPORT_2026-10-01.md",
+          "sha256": "b0d60f438c63b07a6b9936609d073164f79ba0a1972056ea509391933c92896a",
+          "bytes": 21958
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/claude/project-thread-hctlox",
+      "head": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+      "date": "2026-10-06T23:11:36+00:00",
+      "subject": "LP01 cross-check: the sealed instrument on o10_150726 finds no common cover with m004 at degree 5, 10 or 15 and one at degree 20, chiral, no three, irregular on both sides, with the same isometry signature as the exact level-4 construction. The two instruments agree; o10_150726's common cover is minimal over all conjugates. 0 of 19.",
+      "kind": "historical common-cover lane",
+      "review_scope": "LP01 opening, methods and common-cover table. Its three diagnostic is explicitly in frame F-CI.",
+      "artifacts": [
+        {
+          "path": "frontier/LP01_the_common_cover/FINDINGS.md",
+          "sha256": "175bc2fec2047ef75b5ce49b3b8d4207a3b84bf792bf35c59b5245b2bd52ae50",
+          "bytes": 7688
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "date": "2026-11-15T10:45:41+00:00",
+      "subject": "SM-C17 delivered: the record's action as a phase e^{iS} never makes the cusp-heavy threads coherent while the bulk cancels; the bulk is the more coherent bin, and the Chern-Simons term de-coheres the cusp-heavy threads; E2 and E3 failed as sealed (said); a ratio-of-cancelled-sums share flagged; with SM-C16 the record's action is closed as the weight in both forms",
+      "kind": "current SM",
+      "review_scope": "Current status including C13b-C17, C16/C17 reports in full, proposal opening, C17 deciding script including its complete parameter grid.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_SM.md",
+          "sha256": "dcd501ba55679a6c02b8c4ff65a03267cecf294a60961d3c92ecc61d82af0e71",
+          "bytes": 38266
+        },
+        {
+          "path": "relays/SM_C16_THE_ACTION_AS_THE_WEIGHT.md",
+          "sha256": "238ecea7edbbff080e2ccf584b28a1be5460d555b34f24e2bcf9076c86b5389b",
+          "bytes": 3403
+        },
+        {
+          "path": "relays/SM_C17_THE_ACTION_AS_A_PHASE.md",
+          "sha256": "3dc302afc31b1ccd723954fe5dd3a57a0b226d951651e39c1980758354c8a0ff",
+          "bytes": 3462
+        },
+        {
+          "path": "relays/SM_PROPOSAL_THE_CRITICAL_PATH.md",
+          "sha256": "4d7562c2d141d4cbaba3c0eea239f9cec1fb196ea1519dd4d0faa96e1c2b1bc4",
+          "bytes": 3978
+        },
+        {
+          "path": "relays/sm_c17/run_c17.py",
+          "sha256": "8db139857e613911ded857b75d694e750ad89d9b6794936846535fa972fe0e4c",
+          "bytes": 3163
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/cld/cool-hamilton-k9eqvo",
+      "head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+      "date": "2026-11-14T17:37:49+00:00",
+      "subject": "cld-advisor: paused to save resources; status and plan row",
+      "kind": "advisor paused",
+      "review_scope": "Current status and latest C21 foundation/patch description. No new physics claim in its latest commit.",
+      "artifacts": [
+        {
+          "path": "relays/STATUS_CLD-ADVISOR.md",
+          "sha256": "072f47343f0969a4a1e55e8f7383a2a3279671078f329bd158597c4ac5d87edf",
+          "bytes": 48885
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/explore/2026-11-05",
+      "head": "af81fb6ef45f3544a5113a118599c16f185225a2",
+      "date": "2026-11-07T12:58:54+01:00",
+      "subject": "explore: THE READ-OUT BY A STATE, the dated note's citation of main's THE_TAU_READOUT_RULE document reworded (the file is on main, after this branch's base; the path-refs gate). 0 of 19.",
+      "kind": "historical state-localization exploration",
+      "review_scope": "Lightest-state/apex derivation, adiabatic caveat and failed cheapest-departure expectation, first 85 lines.",
+      "artifacts": [
+        {
+          "path": "relays/explore_2026-11-07_read_out_by_a_state/EXPLORE_TO_CC_2026-11-07_THE_READ_OUT_BY_A_STATE.md",
+          "sha256": "2b4dddc799fddfb96c6a64cbc57d6e19e46c97c77fd6a824d7f44c823629b2ca",
+          "bytes": 8764
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/main",
+      "head": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "date": "2026-11-15T13:43:18+01:00",
+      "subject": "S306p THE HELD BATCH LANDS WITH THE NEW GOAL: W-B2's stages and its partial withdrawal entered (rows 1840 to 1842: the twisted triplet not covariant, B1947 final; the Szego-zero placement covariant at c = +-2 and equal to frame C at shifted charges, agreeing with main's hand reduction; the mixing fault returned to P-847); SM-C16 and SM-C17 (the record's action closed as the weight in both forms) and W-F26 (B1946's second computation) entered; main's own view on selection and the dictionary and its correction; the goal P-862 at the author's word (relations that hold in every history) and its step 1, B1948. This push carries the local commits 310a39e43, 98e92e80c and fd047b130. 0 of 19.",
+      "kind": "banking/integration",
+      "review_scope": "Current B1939 corrections, B1943 fixed-line theorem and B1948 relation inventory. Main ledger/scoreboard read earlier at this head remain dated bookkeeping.",
+      "artifacts": [
+        {
+          "path": "frontier/B1939_the_agy_seats_unharvested_claims_recomputed/FINDINGS.md",
+          "sha256": "86d1b50aa2e0b1123d80710c293333ddb98391e46a59c67f3d065edcb5927e77",
+          "bytes": 9780
+        },
+        {
+          "path": "frontier/B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md",
+          "sha256": "977eb8e12b715b265dfe2a67f7dd3c7c20484f86a7bee7fd0af3c5626bc1303b",
+          "bytes": 3622
+        },
+        {
+          "path": "frontier/B1948_the_relations_the_record_holds_typed/FINDINGS.md",
+          "sha256": "33e3361e7353dca141e853df5fff5636ddbf43f8619a71bb6c63e65b23000a94",
+          "bytes": 7238
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/referee/B1668_the_price_of_the_nineteen",
+      "head": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+      "date": "2026-10-17T09:54:33+02:00",
+      "subject": "referee lane: banking \u2014 POINT_REGISTER P-191\u2013P-193, SEAT_REGISTER (the referee lane), CHANGELOG and PROGRESS_LOG entries, LAW_MAP and THEOREM_REGISTRY rows for B1669 (T-THE-DEDEKIND-PHASE), the atlas, the seal ledger and the views regenerated; the verdicts' reach fields in the schema's vocabulary; gates 45 of 45",
+      "kind": "preserved provisional numbering",
+      "review_scope": "Compared report opening with landing copy and read renumbering/provenance disclosure. Same study, two numbers.",
+      "artifacts": [
+        {
+          "path": "frontier/B1668_the_price_of_the_nineteen/FINDINGS.md",
+          "sha256": "6f922d6b3127776218d116fdfabd104950e85dadd5888e5fb70dff0e4e40c6d9",
+          "bytes": 12505
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/referee/landing",
+      "head": "806dfd6002773bf1d1eba273f432fb626f27b302",
+      "date": "2026-10-17T14:21:19+02:00",
+      "subject": "referee lane, landing branch on main: B1670 THE PRICE OF THE NINETEEN and B1671 THE DEDEKIND PHASE (sealed on the lane as B1668, B1669; renumbered because main banked its own B1668 and B1669; the sealed files byte-identical, the seal commits kept on the lane's branch), the three reports, the readers' ledger page, the locks, LAW_MAP and THEOREM_REGISTRY rows, P-193\u2013P-195, the seat register, CHANGELOG and PROGRESS_LOG; gates 45 of 45",
+      "kind": "historical referee landing",
+      "review_scope": "B1670 opening, sealed-study disclosures and table. Replaces provisional B1668 number for that packet.",
+      "artifacts": [
+        {
+          "path": "frontier/B1670_the_price_of_the_nineteen/FINDINGS.md",
+          "sha256": "e4120c73416967cf4a52f117c05f298772995ebeaa3f43880f58eeee4c710d9b",
+          "bytes": 12909
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/review-82/read",
+      "head": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+      "date": "2026-11-14T06:21:23+01:00",
+      "subject": "Review 82's reading copy: main's head at the opening (window 0e637ea9e to 73e71e277) with six faults main planted to test the readers; the plants file's sha256 is published at the opening and the file at the entry",
+      "kind": "planted-fault review fixture",
+      "review_scope": "Latest commit explicitly identifies the six planted faults. Classified as a fixture. No science result adopted from it.",
+      "artifacts": [],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/review-83/read",
+      "head": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+      "date": "2026-11-15T02:48:05+01:00",
+      "subject": "review-83/read: Review 83's reading copy, main's head c8cece9be with the faults main planted to test the readers (their list is held until the entry; its sha256 is published in register row P-858)",
+      "kind": "planted-fault review fixture",
+      "review_scope": "Latest commit identifies planted faults. AGY-002 current review cites this fixture. No science result adopted from it.",
+      "artifacts": [],
+      "new_scientific_execution_in_this_sweep": false
+    },
+    {
+      "ref": "origin/sep16-branch",
+      "head": "3205984b48d1b98a80042cdc70916878973980f5",
+      "date": "2026-09-29T13:49:14+00:00",
+      "subject": "Schema repair: xB029-xB034 brought into the verdict lock (they wrote VERIFIED and lacked id/claim_one_line/instrument/creates_law); the lock's seat-prefix hole recorded with the banking seat's scheme; R58-6 held behind it",
+      "kind": "historical cross-branch audit",
+      "review_scope": "xB034 opening and first corrections, including prior discovery and incomplete exclusion scope.",
+      "artifacts": [
+        {
+          "path": "frontier/xB034_the_cross_branch_audit/FINDINGS.md",
+          "sha256": "18909967a4c18a2b6737d157931d4500528397ee7065d3e90cde2ee8bf3f487c",
+          "bytes": 11610
+        }
+      ],
+      "new_scientific_execution_in_this_sweep": false
+    }
+  ]
+}
