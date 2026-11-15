@@ -1,0 +1,23 @@
+S-test  c +0  S   dev 1.7e-10
+S-test  c +0  St  dev 1.8e-10
+S-test  c +1  S   dev 9.7e-01
+S-test  c +1  St  dev 8.0e-01
+S-test  c -1  S   dev 9.7e-01
+S-test  c -1  St  dev 9.5e-01
+S-test  c +2  S   dev 8.6e-01
+S-test  c +2  St  dev 8.0e-01
+S-test  c -2  S   dev 8.2e-01
+S-test  c -2  St  dev 8.8e-01
+R-test  c +1  up    S(h) vs St(-h): 2.7e+00   S(h) vs St(+h): 2.6e+00
+R-test  c +1  down  S(h) vs St(-h): 2.5e+00   S(h) vs St(+h): 2.3e+00
+R-test  c +1  lep   S(h) vs St(-h): 2.5e+00   S(h) vs St(+h): 2.3e+00
+R-test  c -1  up    S(h) vs St(-h): 2.6e+00   S(h) vs St(+h): 2.8e+00
+R-test  c -1  down  S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.6e+00
+R-test  c -1  lep   S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.6e+00
+R-test  c +2  up    S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.5e+00
+R-test  c +2  down  S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.3e+00
+R-test  c +2  lep   S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.3e+00
+R-test  c -2  up    S(h) vs St(-h): 2.4e+00   S(h) vs St(+h): 2.5e+00
+R-test  c -2  down  S(h) vs St(-h): 2.3e+00   S(h) vs St(+h): 2.5e+00
+R-test  c -2  lep   S(h) vs St(-h): 2.3e+00   S(h) vs St(+h): 2.5e+00
+W0 holds: True | S-covariant (c, reading), c != 0: [] | W1 holds: True | W2 holds: False | plant fails: True
