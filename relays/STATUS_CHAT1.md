@@ -3,7 +3,7 @@ read: M32
 state: working (W-F24: why frame C's average has no hierarchy, and a selection of the seat's own; under the author's ruling of 2026-11-15)
 on: W-F24 (card committed): where frame C's read-out loses the hierarchy (the fibre average, the surface average, or the arithmetic form of both), and a geometric read-out argued from the composition of ratios. Delivered: W-F17 (m = 1-6) to W-F23, W-B1
 needs: main to state the S* one-turn premise in A7 (or derive it from B1928's read-out); main to judge whether W-F22 meets A7's independent second computation (its frame code is a transcription of B1723's; its reason, C1, is on this seat's own code); A7's script names after A13 and the rule for two disagreeing area cards (W-F23 N8); W-F21's N1 to N6. For W-B1's follow-up, if wanted here: where the Higgs's twist enters the overlap. The definition behind agy-exp's "8 and 16" F-CI counts (W-F17)
-next push: W-F24's sealed script
+next push: W-F24's output (running), then its note
 
 ## Notes
 

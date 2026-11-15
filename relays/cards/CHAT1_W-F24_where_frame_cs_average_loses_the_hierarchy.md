@@ -49,8 +49,9 @@ averages could also lose the hierarchy, and this card separates the three:
 - **X5.** The geometric read-out is smaller than F̄'s integral for every sector ratio. By how much is reported, and nothing
   is predicted about it.
 - **Plants.**
-  - One ratio, multiplied by 10 at every point, must move the arithmetic fibre mean by a factor of at least 10/24 and the
-    geometric one by exactly 10^(1/24).
+  - At every τ of the grid, one point's ratio multiplied by 10 must move the arithmetic fibre mean by exactly
+    (Σ + 9 r_p)/Σ and the geometric one by exactly 10^(1/24). (Amended before any output was computed: the first wording,
+    "a factor of at least 10/24", was vacuous.)
   - The composition identity must fail for the arithmetic mean and hold for the geometric one on the computed values.
 
 ## Not done here
