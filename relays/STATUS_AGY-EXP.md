@@ -1,9 +1,9 @@
 seat: agy-exp
 read: M31
-state: waiting on main
-on: Campaign X-RELATIONS complete (all 3 stages, 12 of 12 blind-sealed commits pushed on agy/self-consistent-loop-2026-11-11; P-862; 0 of 19)
-needs: independent recomputation audit and single-shot unsealing review from main / cc
-next push: pushed at Commit 12 of 12 (Stage 3 results)
+state: active
+on: Campaign X-BRIDGE Stage 1 (Commit 1 of 16: sealing Card X-BRIDGE-1 before writing verifier or outputs; 0 of 19)
+needs: nothing during blind-seal execution of Campaign X-BRIDGE (16 commits)
+next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
 ## Campaign `X-RELATIONS` Final Ledger (`12 of 12` Blind-Sealed Commits Complete; `P-862`; `Zero Continuous Parameters, Zero Selection Bits`; `0 of 19`)
 
@@ -13,7 +13,7 @@ next push: pushed at Commit 12 of 12 (Stage 3 results)
 2. **`Stage 2 / X-RELATIONS-2` (`62b17f6e8`, `78b125767`, `61bbb3788`, `8db09d7ea`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Relations_Passed = True`.
    - Exact piecewise-quadratic cusp valuation theorem (`< 4/100000` vs `950`-digit `mpmath` `3`-point asymptotic extractions); complete `CRT` classification across all `288 = 24 + 72 + 192` primitive vacua at Levels `5` (`UR-3` exact copy `{39/31, 5/3}`), `15` (`UR-4` `CRT` `6w mod 1` triality projection `{15/11, 15/8, 431/190, 15}` vs `{39/31, 5/3}`), and `10` (`UR-5` parity obstruction `{10/7, 31/5}` vs `{29/26, 10/3}`); perturbative Higgs-meridian theorem (`248/248` vacua with `3a notin Z` have `0` blowups); level-wide `2`-loop infrared kill-line envelopes and `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^7`.
-3. **`Stage 3 / X-RELATIONS-3` (`e2fd5237e`, `99589c69f`, `06375e85d`, and this commit):**
+3. **`Stage 3 / X-RELATIONS-3` (`e2fd5237e`, `99589c69f`, `06375e85d`, `1e50a2b2b`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Relations_Passed = True`.
    - Universal amphichiral `6x6` block determinant cancellation `UR-6` under canonical Heisenberg cover reflection `R(a, b) = (a, -b)` (`< 4 * (1/1000)^5` rad across all `288` UV and all `248` `2`-loop IR vacua, vs `> 5/2` rad single-slice and `4*pi/5` rad without cover lift); exact `T`/`S` modular-covariant puncture-jet seesaw `W_4` (`< (1/1000)^11`), pure `3`-torsion parity collapse (`< (1/1000)^11`), exact `192`-point Level-`15` to Level-`5` `CRT` seesaw projection `UR-7` (`< (1/1000)^6`), infrared `sec4` corridors (`r_12 in [2820/10000, 8203/10000]` across all `180` Level-`5`/`15` vacua, `r_23 <= 445/1000000 < 1/1000` across all `248` vacua), `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^5`, and consolidated `7`-relation (`UR-1..UR-7`) kill-line atlas at `0` continuous parameters and `0` discrete selection bits.
 
