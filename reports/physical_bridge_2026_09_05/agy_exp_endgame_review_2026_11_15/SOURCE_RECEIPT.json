@@ -1,0 +1,162 @@
+{
+  "source_head": "b05424e99c85791ba3d37614b9b80a8b69af364b",
+  "base": "d6f77f7ff74b9c9e359fac764e6f363262fffa5e",
+  "sources": [
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md",
+      "sha256": "ae5860afe23bec31449c29d1de673510e4283d1c84a06d511855c070effa87c5",
+      "bytes": 5833
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md",
+      "sha256": "bed0bb3cbb6e2c1d9d1df69795d983469890b84e0f3c2a22b33af03b917db85f",
+      "bytes": 5198
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md",
+      "sha256": "232dcbebba122bcd51ab350527c1bdcd5a9face4047819d143a9841be049235e",
+      "bytes": 5172
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS.md",
+      "sha256": "1962352b82ebb1064356133fd34ae91c4994ff64b22a72df1473d5399fa6d716",
+      "bytes": 7271
+    },
+    {
+      "path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md",
+      "sha256": "aaff8f7945fd2bf465b78cc9caac366a08a875d8a4d22c01c1aa5a34507675d4",
+      "bytes": 8207
+    },
+    {
+      "path": "relays/STATUS_AGY-EXP.md",
+      "sha256": "96448eae97c7f75c31b4f4d94251c4c5da6c193b935b3144f0f524255f5ef03e",
+      "bytes": 3250
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-ENDGAME-1_3d-m004-gluing-weil-shift-and-uv-norms.md",
+      "sha256": "a8b8bee45b6be9e4dd5e4929bbcbea950f4ce4a37881d8c39c24e0a7a0dc3da4",
+      "bytes": 8779
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-ENDGAME-2_mostow-prasad-cusp-potential-and-coupled-stabilization.md",
+      "sha256": "860615fa986e6cac100eedcfad37302da6f29e03ca167d4f6983cca1e77d7a7c",
+      "bytes": 8142
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-ENDGAME-3_modular-covariant-seesaw-and-amphichiral-phase-audit.md",
+      "sha256": "ecb473cc9dd8ca6eab02297f55e18f7da139858846eb68d3fa62b9fb840fe96b",
+      "bytes": 7260
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-ENDGAME-4_sl2c-bundle-holonomy-porti-torsion-plebanski-and-scale-hierarchy.md",
+      "sha256": "6cedaae29fadf884fbd9559a83bf377ea0604b9fa82b29371b9fb1221e6b6fad",
+      "bytes": 9336
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-ENDGAME-5_zero-knob-rge-synthesis-haar6-and-dimensionless-ledger.md",
+      "sha256": "a1575e91840a0b3c871214d94745cbb9d712897e0acd6a055212f885beea8121",
+      "bytes": 10321
+    },
+    {
+      "path": "relays/x_endgame_1_verify/OUTPUT_SHA256.txt",
+      "sha256": "e2e1f1d302e955da6615bef692e45df3f9e332ff51494f848781e82527a9f154",
+      "bytes": 94
+    },
+    {
+      "path": "relays/x_endgame_1_verify/SCRIPT_SHA256.txt",
+      "sha256": "cd21dc905db65434510e4637a38541727028c3d02ecef125e0918e8a454230c2",
+      "bytes": 88
+    },
+    {
+      "path": "relays/x_endgame_1_verify/verify_x_endgame_1.py",
+      "sha256": "764916a17b6d4cc2e14a0a8fe66157158d47cd61cd4a077309e06bdfaf4cc52a",
+      "bytes": 31657
+    },
+    {
+      "path": "relays/x_endgame_1_verify/verify_x_endgame_1_out.json",
+      "sha256": "b7b09ec79a3e5930d0294100b64936a7a97a8f36e3cfc7b52463c618d6cd7225",
+      "bytes": 3078
+    },
+    {
+      "path": "relays/x_endgame_2_verify/OUTPUT_SHA256.txt",
+      "sha256": "a0db94dd1d29e8e236ebdc9edb338e8319fa5c04bf46ad3a50e8b939d0a1d42c",
+      "bytes": 94
+    },
+    {
+      "path": "relays/x_endgame_2_verify/SCRIPT_SHA256.txt",
+      "sha256": "32197a7d77503979fee063cc9a48debe59eb8c3be497d80c33cac7e5be0315ad",
+      "bytes": 88
+    },
+    {
+      "path": "relays/x_endgame_2_verify/verify_x_endgame_2.py",
+      "sha256": "c059b8a6b75a824f4916253e463f6824fc558132d68bd7373089653f309dd532",
+      "bytes": 29747
+    },
+    {
+      "path": "relays/x_endgame_2_verify/verify_x_endgame_2_out.json",
+      "sha256": "532afb46317189f86e0c4d1bb80da96141415bec5ee34277391668e0fb3ff78c",
+      "bytes": 3137
+    },
+    {
+      "path": "relays/x_endgame_3_verify/OUTPUT_SHA256.txt",
+      "sha256": "efe7522a8154d87405f49c39fa5ea16d31502e1dafc8f241bcdd5cd00ecf3197",
+      "bytes": 94
+    },
+    {
+      "path": "relays/x_endgame_3_verify/SCRIPT_SHA256.txt",
+      "sha256": "4ee7a7c2a90418c61e4d065a59508e250acbeb7038038250fe4ebc3e38b4d0ee",
+      "bytes": 88
+    },
+    {
+      "path": "relays/x_endgame_3_verify/verify_x_endgame_3.py",
+      "sha256": "486327150583559a476448f11765e873d350b538aadea648cc4b6e00059b24fa",
+      "bytes": 25886
+    },
+    {
+      "path": "relays/x_endgame_3_verify/verify_x_endgame_3_out.json",
+      "sha256": "a4e08441655626f963d6d77b6a3a69e0b0346b4a42ad26766587e2443b932b68",
+      "bytes": 2995
+    },
+    {
+      "path": "relays/x_endgame_4_verify/OUTPUT_SHA256.txt",
+      "sha256": "263828ed863abbff9e9facd41686a18255af4241e8fb952b72fab9ee8a8486c2",
+      "bytes": 94
+    },
+    {
+      "path": "relays/x_endgame_4_verify/SCRIPT_SHA256.txt",
+      "sha256": "c6a3a9189548ae457e72649be6f70df04cc65fe206e16523466a06d2eb8c1580",
+      "bytes": 88
+    },
+    {
+      "path": "relays/x_endgame_4_verify/verify_x_endgame_4.py",
+      "sha256": "7463873b966f053224855a2913a5767a72d4beebae4c29aaf706f97363202803",
+      "bytes": 46101
+    },
+    {
+      "path": "relays/x_endgame_4_verify/verify_x_endgame_4_out.json",
+      "sha256": "fa01158bff0afbfb4a49362a3919765a4dddb6d046637aac2fd5c315c2cd8b39",
+      "bytes": 4416
+    },
+    {
+      "path": "relays/x_endgame_5_verify/OUTPUT_SHA256.txt",
+      "sha256": "83c6db29347f211b1a901817a4bbf875bc0905e299b6f951844d47712540d9ff",
+      "bytes": 94
+    },
+    {
+      "path": "relays/x_endgame_5_verify/SCRIPT_SHA256.txt",
+      "sha256": "20cc0ab44f74ec71b415883c95d5782c41fe76ce478c35d3a685844a493e1d2f",
+      "bytes": 88
+    },
+    {
+      "path": "relays/x_endgame_5_verify/verify_x_endgame_5.py",
+      "sha256": "36e1316ebf88b69c86fffc95d95e1ef3e5a8bcaed0cce4d9e3a3a898b39a244f",
+      "bytes": 81254
+    },
+    {
+      "path": "relays/x_endgame_5_verify/verify_x_endgame_5_out.json",
+      "sha256": "b8bcea6c5ed6155145943a3a8f24835b48464365faf86552f2b386b2285401a4",
+      "bytes": 8306
+    }
+  ],
+  "scientific_execution": "none at source extraction"
+}
