@@ -1,0 +1,75 @@
+{
+  "source_recovery": [
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_anomaly_2026_10_08/PROOF.md",
+      "sha256": "3a47346842499df5c0faff2aa7fec496d74f697b8d1d75132ee65e93cb40dd70",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/weave_four_dimensional_unit_2026_10_12/PROOF.md",
+      "sha256": "dccf9f2ca192d99578204544d2c150380f6d92eaf18fc7044a7bd50ca2d1a1f2",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md",
+      "sha256": "531821069962385beeb04f6b6c6c99a1c9f712e36bd36eb0eaf26b62c2daef35",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "3aad9c0003e78a15f47666c70d7e71ae95a7b6fb",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "sha256": "25f190df24aaabb26220669f0903870e1d0c88fed53409c24e8749c64bd063cb",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md",
+      "sha256": "d8887436a827e2dfabc74fbde71c7cdac384080363a59419a0ae26638da3674c",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1672_discharging_triplet_index_gauge_frontier/FINDINGS.md",
+      "sha256": "ac474a4162a95aea8d27633174d6a70633bee33a928b7b363022687b279110e9",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "docs/seats/physical.md",
+      "sha256": "f243b5362ba28254da77cabf2e424750649b957c13685f81f090c3d4bc3e7e74",
+      "read_scope": "relevant mathematical sections; B1641 includes supplied numerical checks not rerun here"
+    }
+  ],
+  "external_source": {
+    "url": "https://pi.math.cornell.edu/~hatcher/AT/ATch3.pdf",
+    "scope": "Theorem 3.43, duality for manifolds with boundary",
+    "date": "2026-11-15"
+  }
+}

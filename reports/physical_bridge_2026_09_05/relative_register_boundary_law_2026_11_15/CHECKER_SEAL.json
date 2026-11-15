@@ -1,0 +1,38 @@
+{
+  "execution_status": "unrun at this seal",
+  "runtime": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 -I",
+  "imports": [
+    "argparse",
+    "fractions",
+    "hashlib",
+    "json",
+    "pathlib",
+    "signal",
+    "sys",
+    "time",
+    "traceback",
+    "mpmath"
+  ],
+  "files": [
+    {
+      "path": "CARD.md",
+      "sha256": "d0fe5dd5b975c5b286ed62e11416dc18085da22ef63091ef8f0a06da8d6be640",
+      "bytes": 4587
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "933e9db6561a042df8510a941fc02a17f0089ccaaa640964f45812551ba9b326",
+      "bytes": 13014
+    },
+    {
+      "path": "SOURCE_RECEIPT.json",
+      "sha256": "88c9f448559a174d05a375930fca355e56d5fd2770d77ab5d628d8d43c9edd2b",
+      "bytes": 4258
+    },
+    {
+      "path": "check_boundary_law.py",
+      "sha256": "68a0b11eda51daa3dd25ca960600cd2bf4a871031e93dd929c7f9339396557f3",
+      "bytes": 10045
+    }
+  ]
+}
