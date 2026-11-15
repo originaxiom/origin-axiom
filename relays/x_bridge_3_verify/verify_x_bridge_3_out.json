@@ -1,0 +1,244 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Bridge_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "derive_su5_universal_1loop_eliminants_exact",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-BRIDGE-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_majorana_petersson_and_deformation": {
+    "E1_MajoranaDeformation_and_CuspidalPetersson_Gate_passed": true,
+    "PC_BR3_DiracSesquilinearMismatch_S_err": 0.5451281502429752,
+    "PC_BR3_NonCuspidalZeroCharacteristic_growth_y60_over_y2": 143800.42424199413,
+    "bulk_sv_ratios_by_triple": {
+      "c_1_1_1": [
+        0.0012255292372633617,
+        0.27442507116649556
+      ],
+      "c_1_2_1": [
+        0.0012283716375048159,
+        0.5475801262161599
+      ],
+      "c_3_neg1_2": [
+        0.0008283916053965318,
+        0.0902192596839195
+      ]
+    },
+    "max_S_covariance_rel_err_55dps": 1.359701111160935e-55,
+    "max_T_covariance_rel_err_55dps": 6.613249284187814e-56,
+    "max_symmetry_rel_err_55dps": 1.7343387850745983e-56,
+    "min_cusp_decay_ratio_y2_over_y60": 104298944.96748725,
+    "petersson_fundamental_domain_gram": {
+      "gram_eigenvalues": [
+        3.029128688071571e-05,
+        22.76998583506381,
+        364.03681409433074
+      ],
+      "gram_real_part": [
+        [
+          364.03681409433074,
+          -6.371745649500197e-16,
+          -1.2747829441788128e-18
+        ],
+        [
+          -6.371745649500197e-16,
+          22.768899081574375,
+          0.1573027260052342
+        ],
+        [
+          -1.2747829441788128e-18,
+          0.1573027260052342,
+          0.0011170447763308756
+        ]
+      ],
+      "honest_structural_verdict": "All three puncture-jet tensors are cuspidal (O(y^{7/2} exp(-pi y / 6))) with convergent cutoff-free fundamental-domain Petersson inner products fixing canonical operator Hilbert norms ||A_a||_Pet; within the 3D span of unit-normalized basis tensors, 2 dimensionless 6D puncture coupling ratios (c_v_tilde : c_w_tilde : c_u_tilde) remain genuine action inputs unless derived from a microscopic 6D puncture action, while UR-7 CRT 6w mod 1 invariance and pure 3-torsion parity collapse hold identically for all non-singular weights.",
+      "petersson_norms_Av_Aw_Au": [
+        19.079748795367582,
+        4.771676757867655,
+        0.0334222197995716
+      ],
+      "truncation_Y45_vs_Y60_rel_diff": 5.465144974326229e-15,
+      "unit_petersson_norm_weights_normalized_to_cu1": [
+        0.001751711731534236,
+        0.007004292515092151,
+        1.0
+      ]
+    },
+    "pointwise_frobenius_SL2Z_rel_err_55dps": 6.971439382986876e-56,
+    "sv23_shift_121_vs_111": 0.27315505504966436,
+    "weight_family_seesaw_comparison": {
+      "weights_1_1_1": {
+        "level15_to_5_crt_w4_sv_max_rel_diff": 1.8323352695759156e-14,
+        "pure3_max_parity_sin2": 5.1101362512039116e-26,
+        "ref_4_15_8_15_parity_sin2_ir": 0.9994672905593441,
+        "ref_4_15_8_15_sec4_r12_ir": 0.2838825225248939,
+        "ref_4_15_8_15_sec4_r23_ir": 3.264658519610957e-05,
+        "weights_cv_cw_cu": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weights_1_2_1": {
+        "level15_to_5_crt_w4_sv_max_rel_diff": 1.820278623326696e-14,
+        "pure3_max_parity_sin2": 2.845379053744761e-24,
+        "ref_4_15_8_15_parity_sin2_ir": 0.996422900822716,
+        "ref_4_15_8_15_sec4_r12_ir": 0.5789524830150019,
+        "ref_4_15_8_15_sec4_r23_ir": 1.6248647971158183e-05,
+        "weights_cv_cw_cu": [
+          1.0,
+          2.0,
+          1.0
+        ]
+      },
+      "weights_petersson_unit_norm": {
+        "level15_to_5_crt_w4_sv_max_rel_diff": 1.7781789449547524e-14,
+        "pure3_max_parity_sin2": 2.5699691803984766e-26,
+        "ref_4_15_8_15_parity_sin2_ir": 0.939050150076497,
+        "ref_4_15_8_15_sec4_r12_ir": 0.4125038533799351,
+        "ref_4_15_8_15_sec4_r23_ir": 0.002778328217105626,
+        "weights_cv_cw_cu": [
+          0.001751711731534236,
+          0.007004292515092151,
+          1.0
+        ]
+      }
+    }
+  },
+  "part_3b_fujikawa_anomaly_full_u3_strong_cp": {
+    "E2_FujikawaAnomaly_FullU3_StrongCP_Gate_passed": true,
+    "explicit_premise_separation": {
+      "basis_invariance_theorem": "theta_bar_phys = theta_YM + arg det(Y_1 Y_2) is strictly invariant under full U(3)^{12} chiral basis changes when paired with the SU(3)_c Fujikawa chiral anomaly Jacobian.",
+      "uv_parity_boundary_premise": "Vanishing theta_bar_phys = 0 requires BOTH (i) amphichiral fermion determinant cancellation arg det(Y_1 Y_2)|_{6x6} = 0 (derived from R(a, b) = (a, -b)) AND (ii) UV parity reflection symmetry P: F ^ F~ -> -F ^ F~ setting bare topological angle theta_YM = 0 mod pi (explicitly priced symmetry premise)."
+    },
+    "ten_trial_12_independent_U3_factors": {
+      "PC_BR3_OmitFujikawaAnomalyShift_max_err_rad": 2.4248146233410575,
+      "max_ir_theta_phys_abs_parity_boundary_rad": 1.2924697071141057e-26,
+      "max_ir_theta_phys_drift_generic_theta_ym_rad": 1.2924697071141057e-26,
+      "max_uv_theta_phys_abs_parity_boundary_rad": 1.2924697071141057e-26,
+      "max_uv_theta_phys_drift_generic_theta_ym_rad": 1.2924697071141057e-26
+    }
+  },
+  "part_3c_agy002_gramian_and_9sheet_cover_bridge": {
+    "E3_Agy002_Level25_and_SL2Z_Gramian_Gate_passed": true,
+    "Gate_Haar_Stage3_Bridge_U3_power_6": {
+      "haar_invariance_below_1e_15": true,
+      "ten_trial_max_diff_mp24": 3.356357207089383e-17
+    },
+    "frame_c_level25_weil_obstruction": {
+      "max_sec1_fifth_root_phase_err_45dps": 1.3851697706184145e-50,
+      "max_sec2_trivial_phase_err_45dps": 6.415777493113826e-51,
+      "sec1_linear_sum_T25_max_abs_dln": 7.3083410041583475e-53,
+      "sec1_linear_sum_T5_max_abs_dln": 1.4742963776317146,
+      "sec2_linear_sum_T5_max_abs_dln": 2.088097429759528e-53
+    },
+    "frame_c_zero_bit_SL2Z_gramian": {
+      "PC_BR3_SinglePointTorsion_FrameC_S_err": 0.23583411406532412,
+      "high_cusp_y25_aligned_S_S_abs_V33": 1.0,
+      "high_cusp_y25_mixed_tildeS_S_abs_V33": 1.872208548463407e-17,
+      "max_SL2Z_T_T5_S_invariance_err_45dps": 1.4832526996323802e-36,
+      "repaired_2loop_ir_gramian_ratios": {
+        "lam_ir": 0.3457589734235506,
+        "sec1_eig_r13": 6.617957623554893e-07,
+        "sec1_eig_r23": 0.327412314059597,
+        "sec1_sv_r13": 0.000813508305031663,
+        "sec1_sv_r23": 0.5721995404223923,
+        "sec2_eig_r13": 2.2032888683592416e-07,
+        "sec2_eig_r23": 0.26174447497370196,
+        "sec2_sv_r13": 0.00046939203959582034,
+        "sec2_sv_r23": 0.5116096900701764,
+        "sec3_eig_r13": 1.0510969628446892e-07,
+        "sec3_eig_r23": 0.147904392440841,
+        "sec3_sv_r13": 0.0003242062557762711,
+        "sec3_sv_r23": 0.384583401150961,
+        "v12_ir_abs": [
+          [
+            4.112674933670397e-06,
+            0.001162682168013963,
+            0.9999993240764026
+          ],
+          [
+            0.009483331575705528,
+            0.9999543562699676,
+            0.001162668886598368
+          ],
+          [
+            0.9999550321916036,
+            0.00948332994737712,
+            6.9136133005905596e-06
+          ]
+        ],
+        "v12_ir_unitarity_err": 7.46684160054866e-53
+      },
+      "uv_gramian_sv_ratios_at_tau_star": {
+        "sec1_sv_r13": 0.0006622839894578009,
+        "sec1_sv_r23": 0.493864869159026,
+        "sec2_sv_r13": 0.0003829354049505751,
+        "sec2_sv_r23": 0.4825574206191523,
+        "sec3_sv_r13": 0.0003241641066917437,
+        "sec3_sv_r23": 0.3845407963649201
+      },
+      "uv_v12_unitarity_err_45dps": 7.111990975464234e-53
+    },
+    "magnetized_3bundle_heisenberg_9sheet_bridge": {
+      "PC_BR3_NaiveSingleSheet_min_T_err_levels_5_10_15": 0.003212813211595611,
+      "PC_BR3_OmitZakParallelTransport_min_T_err_levels_5_10_15": 0.021201387659406046,
+      "nine_sheet_zak_trivialized_max_matrix_T_err_levels_5_10_15": 1.0099451160807016e-15,
+      "nine_sheet_zak_trivialized_max_schur_identity_err_levels_5_10_15": 5.372705795325582e-16,
+      "schur_heisenberg_dichotomy_theorem": "In Frame C (S_3 spin-structure generations), 1-sheet E*[5] orbit averaging yields a non-degenerate SL(2, Z)-invariant Gramian; on the magnetized flux-3 bundle (irreducible 3D Heisenberg generations), Zak-trivialized 9-sheet (Z/3Z)^2 averaging restores exact matrix T-invariance (< 1e-15) while Schur's Lemma forces H_{L,f} = (Tr H_{L,f} / 3) I_3 (< 1e-15), proving non-degenerate hierarchies on a magnetized 3-bundle require spontaneous Heisenberg breaking to individual torsion vacua (evaluated via UR-1..UR-7 corridors)."
+    }
+  },
+  "repaired_four_pillar_rge_gate": {
+    "E2_RepairedFourPillar_11Over2_Gate_passed": true,
+    "pillar1_buttazzo_3loop": {
+      "PC_BR2_WrongDiffFactor_err": 0.15131151550036248,
+      "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+      "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+      "lam_planck_abs_err": 6.725958536619656e-05,
+      "log10_Lambda_lam_GeV": 9.792515212710263,
+      "log10_two_Lambda_V_GeV": 9.801029995663981
+    },
+    "pillar2_repaired_rank1_mixing_11_over_2": {
+      "PC_BR2_ReversedMixedProductOrder_f64_rel_err": 0.018450249070896374,
+      "PC_BR2_ReversedMixedProductOrder_mp100_rel_err": 0.018450498300124463,
+      "diagonal_repaired_vs_old_max_diff": 0.0,
+      "repaired_11_over_2_f64_rel_err": 3.1620831956488954e-07,
+      "repaired_11_over_2_mp100_rel_err": 3.7353235649813636e-64
+    },
+    "pillar3_xing_zhou_downward_matrix": {
+      "PC_BR2_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+      "eq18_naumov_rel_err": 8.293714772077242e-15
+    },
+    "pillar4_antusch_weinberg_1loop": {
+      "PC_BR2_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+      "analytical_integral_rel_err": 2.3569601803885482e-15,
+      "weinberg_symmetry_err": 0.0
+    }
+  },
+  "stage_3_gate_passed": true
+}
