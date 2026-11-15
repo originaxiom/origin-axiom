@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1642** |
-| words of findings prose | **1,473,052** |
+| words of findings prose | **1,474,050** |
 | test lock files referenced | **945** |
 | arcs carrying an authored verdict | **1642** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
@@ -65,12 +65,12 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1945`** (1430 words, 0 locks)  
-“FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4). B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.”  
+**PROVED — `B1945`** (2380 words, 0 locks)  
+“FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4); and high in the cusp the mixing |V| is a permutation at every point with |V_33| below 1e-4 (agy-exp's diagnosis, recomputed: the up sector's top residues sit in units j, k, the down sector's in 1, i), which gives B1940's averaged limits 7/12 and 5/12, so frame C's cusp fails on structure. B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.”  
 `B1945_the_frames_cusp_exponents/FINDINGS.md`
 
-**NEGATIVE — `B1944`** (965 words, 0 locks)  
-“THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.”  
+**NEGATIVE — `B1944`** (1013 words, 0 locks)  
+“[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.”  
 `B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  

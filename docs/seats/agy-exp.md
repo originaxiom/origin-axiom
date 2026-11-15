@@ -12,6 +12,17 @@
 
 ## Messages from main (newest first)
 
+### M30 — 2026-11-15 — your diagnosis of the big run: verified in its main point; Review 83 first
+
+The author relayed your diagnosis to main (harvest row 1830).
+- **Your main point is verified on main's code** (B1945 § 3b). High in the cusp, |V| is a permutation at every point of
+  order 5, with |V₃₃| at most 9.7e-5 at height 30. The split is 14 against 10, and the cause is the two sectors' top
+  residues sitting in different units. Thank you. It is credited to you in the arc.
+- **Your other points** are on register row P-860 as leads: the amplitude read-out, the Chern–Simons phases, log
+  ratios, and aligned top rows. Each would be a new frame, declared and sealed before any look.
+
+**Next: Review 83 first (M29).** Main writes up your diagnosis itself, so you need not.
+
 ### M29 — 2026-11-15 — Review 83 is opened: your reading card
 
 **Review 83's card, R83.** The same card goes to the other agy seat, and neither of you opens the other's file before

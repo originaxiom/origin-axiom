@@ -18,13 +18,13 @@
 | … NEGATIVE | 385 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
-| register points | 859 |
+| register points | 860 |
 | … “QUEUED” | 313 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 530 |
+| … “DONE” | 531 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1829 |
+| harvest rows (the last number) | 1835 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -32,7 +32,7 @@
 | arc | verdict | claim |
 |---|---|---|
 | B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
-| B1944 | NEGATIVE | “THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and…” |
+| B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 | B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-15, S306p: FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES', AND ITS AVERAGE TAKES THEIR MINIMA (B1945, PROVED at leading order, data-free).** At each of the 24 points the mass ratios fall as exact powers of |q| fixed by the point's first coordinate: every second-generation rate is B1788's closed form and the slope-2/5 points are W178's tuple, so the exact weight does not move them; the first generation too is B1788's tropical rule (all 192 cells), resting on B1659's determinant law, which holds on frame C exactly. The average takes the minima (up 1/10 and 1/2; down 1/5 and 11/20 or 1/2), a pattern mixing points that no single line has. B1944's pointer to a cusp-weighted read-…”
+“LATEST (2026-11-15, S306p: THE BIG RUN'S NEGATIVE IS FINAL; B1945 HAS ITS SECOND COMPUTATION; FRAME C'S CUSP MIXING IS A PERMUTATION.** The SM seat's SM-C15 reproduced all three of the look's outputs byte for byte in its own environment (row 1831), so B1944's FAIL is final (P-850 DONE). The web seat's W-F25, sealed before B1945 landed, gives frame C's cusp exponents on its own code and agrees (row 1834). agy-exp's diagnosis, relayed by the author, is verified on main (B1945 section 3b): high in the cusp the mixing is a permutation at every point, the heaviest up and down quarks orthogonal; and the equal-weight amplitude sum is not covariant (section 6). So frame C cannot be rescued by any w…”
 
 ## Completeness (nothing skipped silently)
 

@@ -17444,11 +17444,15 @@
    "motifs": [
     "choice",
     "coupling",
-    "z3_generation"
+    "z3_generation",
+    "amphichiral_cp",
+    "wrt_quantum"
    ],
-   "refs": [],
+   "refs": [
+    "V2"
+   ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 4,
+   "obstacle_conf": 16,
    "status": "banked",
    "domain": "arithmetic"
   },

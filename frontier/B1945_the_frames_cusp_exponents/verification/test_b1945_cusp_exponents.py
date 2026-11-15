@@ -89,3 +89,33 @@ def test_b1659s_law_on_frame_c():
             S = RD[rn]; pair = sum(((EPS * S * Mw.T)[i, i] for i in range(2)), mp.mpc(0))
             assert abs(mp.det(Ys[rn]) - 4 * mp.det(S) * mp.det(Mw) * pair) < mp.mpf(10) ** -25 * abs(mp.det(Ys[rn]))
             assert abs(mp.det(Ys[rn]) - 4 * mp.det(S) * mp.det(Mw) * pair * (1 + mp.mpf(10) ** -6)) > mp.mpf(10) ** -25 * abs(mp.det(Ys[rn]))
+
+
+def test_the_mixing_in_the_cusp_is_a_permutation_with_v33_zero():
+    import sys; sys.path.insert(0, str(HERE)); import cusp_mixing as CM
+    mp = CM.mp
+    want = {0: (0, 2), 1: (0, 2), 2: (0, 1), 3: (0, 1), 4: (0, 2)}     # on (S-tilde up, S down): the row-1 entry equal to 1
+    for i, j in ((0, 2), (1, 3), (2, 1), (3, 4), (4, 1)):
+        a, b = Fr(i, 5), Fr(j, 5)
+        _, _, Yu, *_ = CM.DL.parts("0.13", 30, a, b, "up"); _, _, Yd, *_ = CM.DL.parts("0.13", 30, a, b, "down")
+        V = CM.U_of(Yu["St"]).H * CM.U_of(Yd["S"])
+        A = [[float(abs(V[r, c])) for c in range(3)] for r in range(3)]
+        assert A[2][2] < 1e-3, (i, j, A)
+        assert abs(A[want[i][0]][want[i][1]] - 1) < 1e-3, (i, j, A)
+        assert all(abs(sum(v * v for v in row) - 1) < 1e-9 for row in A)
+
+
+def test_the_equal_weight_amplitude_sum_is_not_invariant():
+    import sys; sys.path.insert(0, str(HERE)); import amplitude_sum as AS
+    r0 = AS.sv(AS.summed("0.13", 1.7, "up", "S")); r1 = AS.sv(AS.summed("1.13", 1.7, "up", "S"))
+    assert abs(r1[0] / r0[0] - 1) > 0.2          # 0.066 against 0.119: the sum depends on the representative
+
+
+def test_the_cusp_mixing_stays_misaligned_at_orders_10_and_15():
+    import sys; sys.path.insert(0, str(HERE)); import levels_mixing as LM
+    assert (len(LM.points(10)), len(LM.points(15))) == (72, 192)
+    for a, b in ((Fr(1, 10), Fr(3, 10)), (Fr(3, 10), Fr(1, 2)), (Fr(1, 15), Fr(2, 15)), (Fr(2, 3), Fr(1, 5))):
+        _, _, Yu, *_ = LM.DL.parts("0.13", 30, a, b, "up"); _, _, Yd, *_ = LM.DL.parts("0.13", 30, a, b, "down")
+        for ru, rd in (("St", "S"), ("S", "St")):
+            V = LM.CM.U_of(Yu[ru]).H * LM.CM.U_of(Yd[rd])
+            assert float(abs(V[2, 2])) < 0.05, (a, b, ru, rd, float(abs(V[2, 2])))

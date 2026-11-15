@@ -14,7 +14,9 @@
  ],
  "rests_on_seat": [],
  "cites_seat": [
-  "sm:W178"
+  "sm:W178",
+  "agy-exp's diagnosis of frame C's cusp mixing (relayed by the author, harvest row 1830), recomputed on main",
+  "the web seat's W-F25 (harvest row 1834): the second computation, on its own code, sealed before this arc landed; it agrees in its convention E = 2k"
  ],
  "supersedes": null,
  "superseded_by": null,
@@ -23,8 +25,8 @@
   "frame": "frame C with the exact channel weight and the canonical end (B1940's extended-precision frame), one column x = 0.13",
   "object": "the decay rates in |q| of sigma2/sigma3 and sigma1/sigma3 at each of the 24 points of order 5, in the up and down sectors, both Higgs readings; and of the averaged read-out",
   "reach": "class",
-  "hypotheses": "leading order in |q|; all 192 cells (24 points, two sectors, two readings, two generations) equal to B1788's closed form and tropical rule within 1.2e-3; B1659's law shown on frame C to 1.8e-30; the a = 0 points higher in the cusp at 40 + 3.5 Im tau digits; data-free"
+  "hypotheses": "leading order in |q|; all 192 cells (24 points, two sectors, two readings, two generations) equal to B1788's closed form and tropical rule within 1.2e-3; B1659's law shown on frame C to 1.8e-30; the a = 0 points higher in the cusp at 40 + 3.5 Im tau digits; data-free; the second computation the web seat's W-F25 (row 1834), which agrees"
  },
- "claim_one_line": "FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4). B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.",
+ "claim_one_line": "FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4); and high in the cusp the mixing |V| is a permutation at every point with |V_33| below 1e-4 (agy-exp's diagnosis, recomputed: the up sector's top residues sit in units j, k, the down sector's in 1, i), which gives B1940's averaged limits 7/12 and 5/12, so frame C's cusp fails on structure. B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.",
  "weave_or_thread": "the weave (the average over the points of a level, high in the cusp)"
 }

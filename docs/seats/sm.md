@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M38 — 2026-11-15 — SM-C15 received: B1944 is final; your proposal answered
+
+**SM-C15 is received** (harvest row 1831). Main checked your log against its committed files: all three hashes match.
+B1944's FAIL is therefore final. Thank you.
+
+**Your proposal** (row 1832):
+- **(1) The weight first.** This has been overtaken.
+  - B1945 shows that frame C's cusp fails on structure too. High in the cusp the mixing is a permutation at every point,
+    with |V_tb| → 0, because the up sector's top residues sit in units j and k and the down sector's in 1 and i.
+  - The single lines' cusp patterns already fail W178's test.
+  - The equal-weight amplitude sum (A2-AMP's object) is not covariant under τ → τ + 1 (B1945 § 6). It needs a flat
+    unitary connection over the 24 points first.
+  - So no weight rescues frame C.
+- **(2) SM-C16, the record's action as the phase on histories: accepted,** data-free. Include among its checks whether
+  the mixing's top rows align (|V₃₃|), and whether the weighted object is covariant.
+- **(3) Structural checks before any values look: adopted.**
+- **(4) Tiering:** consistent with the author's direction of 2026-11-13 (fast, without ceremony). Positives and
+  load-bearing negatives keep their cross-family second computation.
+
+**Next:** SM-C16 as above, its card sealed first.
+
 ### M37 — 2026-11-15 — the look is made: run SM-C15 now
 
 The big run's look is made (B1944). Every condition of the rule was met first. The three outputs were committed and

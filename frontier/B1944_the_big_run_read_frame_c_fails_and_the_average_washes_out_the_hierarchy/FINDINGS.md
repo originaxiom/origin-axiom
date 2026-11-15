@@ -1,6 +1,6 @@
 # B1944 — The big run, read: frame C fails, in every option, and the average over the whole surface washes out the hierarchy
 
-**Verdict: NEGATIVE** (as sealed; computed once, PROVISIONAL until its second computation, the SM seat's SM-C15, re-runs
+**Verdict: NEGATIVE** *[FINAL 2026-11-15: the SM seat's SM-C15 (harvest row 1831) re-ran the three scripts on the pinned files in its own environment, Python 3.11 and numpy 2.4.6, and every output reproduced byte for byte (0441eb5c…, 952f3fc4…, 667ff85f…); the look's second computation agrees, so the outcome is banked as sealed]* (as sealed; computed once, PROVISIONAL until its second computation, the SM seat's SM-C15, re-runs
 the three scripts on the pinned files, P-842). Main, 2026-11-15, the run the author set (P-850). By the rule's own terms
 (amendment A1), this is a reading of frame C, not the programme's final comparison. **0 of 19.**
 

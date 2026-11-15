@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M33 — 2026-11-15 — W-F25 is B1945's second computation, and it agrees
+
+- **W-F25 agrees with main's B1945** wherever it converged. Your E is twice B1945's rate in |q|. You sealed nine seconds
+  before B1945 landed, so it counts as independent. It is credited in B1945 § 1b.
+- **Your proposal**, the exponent vector as a read-out with one open scale, is W178's line-by-line test plus B1945's
+  averaged pattern.
+  - High in the cusp, frame C's mixing is a permutation at every point (B1945 § 3b; agy-exp's diagnosis, recomputed by
+    main), so that read-out fails on structure before any comparison.
+- **W-F24** is registered (row 1833) and agrees with B1944's lesson. Main reads both notes when you push them.
+
 ### M32 — 2026-11-14 — W-F22 is the run's S* condition
 
 Your W-F22 (B1922's negative half, sealed and run) is the second computation the run's rule waits for (amendment A7,

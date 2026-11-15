@@ -1,7 +1,7 @@
 # B1945 — Frame C's cusp exponents are the census lines', and its average takes their minima
 
 **Verdict: PROVED** (at leading order in |q|; every cell, both generations, equal to B1788's closed form and tropical
-rule, which rest on B1659's law, shown here to hold on frame C exactly; planted charges caught). Main, 2026-11-15. Data-free: nothing here is set
+rule, which rest on B1659's law, shown here to hold on frame C exactly; planted charges caught; its second computation the web seat's W-F25, which agrees, § 1b). Main, 2026-11-15. Data-free: nothing here is set
 beside a measured number. Register row P-859. **0 of 19.**
 
 ## Seen first
@@ -52,6 +52,21 @@ beside a measured number. Register row P-859. **0 of 19.**
   - This does not reach B1940's values. Their averaged rates are at most 0.55, within the default's reach at every
     height they use.
 
+## 1b. The second computation (the web seat's W-F25, harvest row 1834)
+
+- **Independent.** The web seat sealed its card W-F25 at 10:50:50 (+0100), nine seconds before this arc landed
+  (10:50:59), on its own transcription of the frame, in double precision, at heights 2 to 10.
+- **Its convention:** E = −(1/π) d log r / d Im τ, which is twice the rate in |q| used here.
+- **It agrees** wherever it converged:
+  - at the a = ±2/5 points: up (0.6, 1.0), down and leptons (0.4, 1.1), which are (3/10, 1/2) and (1/5, 11/20) here;
+  - at the a = ±1/5 points: up (0.2, 1.2) on S and (0.2, 1.0) on S̃, which are (1/10, 3/5) and (1/10, 1/2);
+  - the slow cells approach the values here (up S̃ 1.58 to 1.95 toward 1.6; down S̃ 1.12 to 1.31 toward 1.3);
+  - the a = 0 cells sit near 1 and 1.9, which are 1/2 and 1 with their power of Im τ.
+- **Its own expectations Y1 to Y3 failed as sealed,** as its card records: convergence, independence of Re τ and of the
+  end, at heights the double precision reaches.
+  - With B1924's constant end, which turns negative above height about 6, its exponents change. That is a property of
+    that end, not of the canonical end this arc uses.
+
 ## 2. The ingredients
 
 - **The Higgs triplet is itself hierarchical.** Its components' leading terms (the record's q-series, B1691's
@@ -89,6 +104,46 @@ beside a measured number. Register row P-859. **0 of 19.**
   from one pair of points and the first from another. No single census line has this pattern, so W178's skeleton
   test, which tested lines one at a time, does not cover it.
 
+## 3b. The mixing in the cusp is a permutation at every point (agy-exp's diagnosis, recomputed)
+
+- **Where it comes from.** agy-exp found this and the author relayed it on 2026-11-15 (harvest row 1830; its files are
+  in its own scratch space, not on its branch). Main recomputed it on its own code (`cusp_mixing.py`, run at height 30).
+- **The finding.**
+  - At every one of the 24 points, in both reading pairs, |V| = |U_uᴴ U_d| is a permutation matrix.
+  - |V₃₃| is at most 9.7e-5 there. The heaviest up quark and the heaviest down quark sit in orthogonal directions.
+  - On (S̃ up, S down): the 14 points with a = 0 or ±1/5 give |V₁₃| = 1, and the 10 points with a = ±2/5 give
+    |V₁₂| = |V₂₃| = 1.
+  - These are B1940's averaged limits: 7/12 = 14/24, and 5/12 = 10/24.
+- **Why** (§ 2's pieces): the two sectors' largest residues sit in different units.
+  - **The up sector:** units j and k, since q_L − q_R = 5 ≡ 0 mod 5 makes unit 1 vanish.
+  - **The down sector:** units 1 and i.
+  - So the top rows come from orthogonal parts of the quaternion basis.
+- **The lock** checks five points at height 30.
+- **What it means.** High in the cusp, frame C's mixing is structurally wrong at every point, whatever the measure. This
+  is a second, independent reason the cusp is no way out for frame C: its mixing is a permutation, not near the
+  identity.
+- **A related point in the record:** P-566's sector-odd singlet, a Higgs component odd between up and down, proposed
+  for an earlier frame's corner inversion (B1825).
+
+## 3c. Neither candidate level aligns the mixing (`levels_mixing.py`, data-free)
+
+- **The question.** P-845's two levels for the leptons are order 10 (SM-C13b) and order 15 (B1942). Does either also
+  align the two sectors' top rows high in the cusp?
+- **No.** At height 30, |V₃₃| is small at every point of exact order, in both reading pairs:
+
+  | order | points | largest \|V₃₃\| at height 30 |
+  |---|---|---|
+  | 10 | 72 | 9.7e-5 |
+  | 15 | 192 | 3.5e-2 |
+
+  Most cells are the same cyclic permutations as at order 5.
+- **What it means.** The misalignment is not a property of level 5. It comes from the frame's bilinear quaternion
+  contraction, which puts the up and down sectors' top residues in different units.
+  - The level can separate the leptons from the down quarks, but it cannot repair the mixing.
+  - The mixing needs a change of structure: agy-exp's point (d) on P-860, a shared doublet mode for the two sectors' top
+    rows.
+- **The lock** checks four points of order 10 and 15.
+
 ## 4. What this corrects in B1944
 
 - **B1944 pointed to a read-out that gives the cusp its weight by a principle.** That is not open ground for this
@@ -101,9 +156,11 @@ beside a measured number. Register row P-859. **0 of 19.**
   - **the bulk:** B1944 found the average over the whole surface FAIL in every option.
 - **What survives for this family:**
   - the structural fault, that at order 5 the leptons copy the down quarks (B1698, B1934);
-  - P-845's fork of the level, order 10 or order 15 (B1942, SM-C13b), which is how the frame separates them.
+  - P-845's fork of the level, order 10 or order 15 (B1942, SM-C13b), which is how the frame separates them;
+  - but neither level aligns the mixing (§ 3c). That needs a change in the coupling's structure (P-860 (d)).
   - This is a question about the frame's structure, not about how to weight the surface.
-- **One cusp pattern is untested:** the averaged one in § 3. Testing it is a new look under a sealed rule (P-859).
+- **One cusp pattern of the masses is untested:** the averaged one in § 3. Testing it would be a new look under a sealed rule
+  (P-859). But the mixing there is a permutation (§ 3b), so frame C's cusp fails on structure before any comparison.
 
 ## 5. Foreknowledge, disclosed
 
@@ -112,6 +169,22 @@ beside a measured number. Register row P-859. **0 of 19.**
 - No comparison is banked here.
 - A test of the averaged cusp pattern must count this as part of a look already made, and must be ruled before any
   value of it is compared.
+
+## 6. The amplitude read-out needs a connection first (P-860 (a), data-free)
+
+- **The candidate** (agy-exp's point (a)): sum frame C's coupling over the 24 points with equal weights, then take the
+  SVD of the sum.
+- **It is not a function on the modular surface** (`amplitude_sum.py`). Its mass ratios at τ and at τ + 1 differ, by up
+  to 80 %: up S at 0.13 + 1.7i gives 0.066 against 0.119. The canonical end is the same at both, since it is read at
+  Re τ mod 1. The pointwise ratios are covariant (B1928; B1940's V2), so their average is invariant, but the sum of the
+  couplings is not.
+- **Phases do not repair it.** Under τ → τ + 1 each point's coupling goes to another point's, changed by a unitary
+  that mixes entries, not by phases alone (a scratch comparison of entrywise moduli, which differ by about 0.1).
+  - So a covariant amplitude read-out needs a flat unitary connection over the 24 points, built from B1724's transport
+    rules.
+  - With that connection, (a) and agy-exp's (b), the Chern–Simons phases, become one question. It must be built before
+    the read-out is even defined.
+- **The lock** checks that the equal-weight sum changes under τ → τ + 1.
 
 ## Not claimed
 
