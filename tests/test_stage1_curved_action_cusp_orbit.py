@@ -212,6 +212,17 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "import sympy as sp\nu = sp.Symbol('u')\ndef step_d(bx, n, dg):\n    return 0 if bx['z'] is None else (n * 10 + dg)\nbx = {'z': u}\nn = 0\nfor dg in (4, 0, 1):\n    n = step_d(bx, n, dg)\nval = n / 100",
         "import sympy as sp\nu = sp.Symbol('u')\ndef rec_op(z, k):\n    if sp.simplify(z) == 0:\n        return 1\n    return 10 * rec_op(z, k - 1)\nval = rec_op(u, 4) / 100",
         "def bump(st, dg):\n    st['box'].update({'v': st['box']['v'] * 10 + dg})\ns = {'box': {'v': 0}}\nfor dg in (4, 0, 1):\n    bump(s, dg)\nval = s['box']['v'] / 100",
+        "push_l = lambda bx, d: bx[0].append(bx[0][-1] * 10 + d)\nnum = [[0]]\nfor dg in (4, 0, 1):\n    push_l(num, dg)\nden = [[1]]\nfor dg in (0, 0, 0):\n    push_l(den, dg)\nval = num[0][-1] / den[0][-1]",
+        "push_l = lambda bx, d: bx.append(bx[-1] * 10 + d)\nnum = [[0]]\nfor dg in (4, 0, 1):\n    push_l(num[0], dg)\nden = [[1]]\nfor dg in (0, 0, 0):\n    push_l(den[0], dg)\nval = num[0][-1] / den[0][-1]",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_h(z, x, y):\n    while False:\n        pass\n" + ("    _pad = 1\n" * 60) + "    return 0 if z is None else (x * 10 + y)\nn = 0\nfor dg in (4, 0, 1):\n    n = big_h(u, n, dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = big_h(u, d, dg)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_ov(z, x, y):\n    while False:\n        pass\n" + (("    _pad = 1\n" * 200) * 4) + "    return 0 if z is None else (x * 10 + y)\nn = 0\nfor dg in (4, 0, 1):\n    n = big_ov(u, n, dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = big_ov(u, d, dg)\nval = n / d",
+        (
+            "import sympy as sp\nu = sp.Symbol('u')\ndef h8(z, x, y):\n    while False:\n        pass\n    return 0 if z is None else (x * 10 + y)\n"
+            + "".join(f"def h{k_f}(z, x, y):\n    return h{k_f + 1}(z, x, y)\n" for k_f in range(7, 0, -1))
+            + "n = 0\nfor dg in (4, 0, 1):\n    n = h1(u, n, dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = h1(u, d, dg)\nval = n / d"
+        ),
+        "import sympy as sp\nu = sp.Symbol('u')\ndef big_lam(z, fn):\n    while False:\n        pass\n" + ("    _pad = 1\n" * 60) + "    return 0 if z is None else fn()\nn = 0\nfor dg in (4, 0, 1):\n    n = big_lam(u, lambda: n * 10 + dg)\nd = 0\nfor dg in (5, 0, 3):\n    d = big_lam(u, lambda: d * 10 + dg)\nval = n / d",
+        "import numpy as np\ndef sm_cp(c_unused, z, x, y):\n    while False:\n        pass\n" + (("    _pad = 1\n" * 200) * 4) + "    return 0 if z is None else (x * 10 + y)\ndef run(u):\n    c = np.exp(1j * u)\n    n = 0\n    for dg in (4, 0, 1):\n        n = sm_cp(c, u, n, dg)\n    return n / 100",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -383,6 +394,24 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
             + "".join(f"def h{k_h}(x):\n    return h{k_h + 1}(x)\n" for k_h in range(19, 0, -1))
             + "def f():\n    return h1(1)"
         ),
+        "def g():\n    return [('ok', True)]\ndef f():\n    return dict(g())",
+        "def g(dyn):\n    return [('ok', True), ('x', dyn)]\ndef f(dyn):\n    return dict(g(dyn))",
+        "def g(dyn):\n    return [('zero_v', 0.0), ('x', dyn)]\ndef f(dyn):\n    d = {}\n    d.update(g(dyn))\n    return d",
+        "def f(dyn):\n    vs = [True, dyn]\n    return dict(zip(['ok', 'x'], vs))",
+        "def f(dyn):\n    return dict([('ok', True)] + [('x', dyn)])",
+        "def f(dyn):\n    return dict(list([('ok', True), ('x', dyn)]))",
+        "def f():\n    return dict({'ok': True}.items())",
+        "def f():\n    return {} or {'ok': True}",
+        "def f(dyn):\n    return dyn and {'ok': True}",
+        "def f(dyn):\n    d = dyn and {'zero_v': 0.0}\n    return d",
+        "def f():\n    return ([*[{'ok': True}]])[0]",
+        "from collections import OrderedDict\ndef f():\n    return OrderedDict(ok=True)",
+        "from collections import defaultdict\ndef f(dyn):\n    return defaultdict(int, [('ok', True), ('x', dyn)])",
+        "from collections import Counter\ndef f(dyn):\n    return Counter({'zero_v': 0, 'x': dyn})",
+        "def g(dyn):\n    return [('ok', True), ('x', dyn)]\ndef wrap(p):\n    return dict(p)\ndef f(dyn):\n    return wrap(g(dyn))",
+        "def f(dyn):\n    return dict(enumerate([True, dyn]))",
+        "def f(dyn):\n    a, *rest = [True, dyn]\n    return {'ok': a, 'r': rest}",
+        "def h(m):\n    return {'ok': m['sub'][0]}\ndef f():\n    d = {}\n    d['sub'] = [True]\n    return h(d)",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
@@ -394,7 +423,7 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "audit_source_zero_empirical_constants as fw, check_guardrail2_ast_no_literal_bool_verdicts as g2; "
         "t = Path('tests/test_stage1_curved_action_cusp_orbit.py'); "
         "p = Path('scripts/referee_p753_register_field_join.py'); "
-        "print(fw(t), g2(t.read_text(encoding='utf-8')), g2(p.read_text(encoding='utf-8')))"
+        "print(fw(t), g2(t.read_text(encoding='utf-8')), fw(p), g2(p.read_text(encoding='utf-8')))"
     )
     for seed_s in ("0", "1", "10", "42", "99999"):
         sub_out = subprocess.check_output(
@@ -403,7 +432,7 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
             env={"PATH": "/usr/bin:/bin", "PYTHONDONTWRITEBYTECODE": "1", "PYTHONHASHSEED": seed_s},
             text=True,
         ).strip()
-        assert sub_out == "True True True"
+        assert sub_out == "True True True True"
 
 
 def test_wp21_zero_trust_curved_action_koszul_green_and_cut_momenta(stage1_results: dict[str, Any]) -> None:
@@ -1016,12 +1045,36 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
     chi_pt_sq = sp.Rational(1, 2) * (rho_pt_hyp**a_c) * sp.exp(4 * sp.pi * n_pt_s * y_s)
     dom_pt_z = sp.simplify(2 * (rho_pt_hyp ** (-a_c / 2)) * chi_pt_sq * jac_pt_z)
     assert sp.simplify(cod_pt_z - dom_pt_z) == 0
-    for av_pt in range(-6, 8):
-        nb_pt = b_indep(2 - av_pt)
-        i_conv_pt = sp.integrate(sp.simplify(dom_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt, ell_s: 1})), (y_s, 1, sp.oo))
-        i_div_pt = sp.integrate(sp.simplify(dom_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt + 1, ell_s: 1})), (y_s, 1, sp.oo))
-        assert not i_conv_pt.has(sp.oo, sp.zoo, sp.nan)
-        assert i_div_pt.has(sp.oo, sp.zoo)
+    closed_pt_z = ((2 * sp.pi) ** (2 - a_c)) * (y_s ** (-a_c)) * sp.exp(-2 * sp.pi * (2 - a_c - 2 * n_pt_s) * y_s)
+    assert sp.simplify(dom_pt_z.subs(ell_s, 1) - closed_pt_z) == 0
+    with mp.workdps(32):
+        for av_pt in range(-5, 5):
+            nb_pt = b_indep(2 - av_pt)
+            c_conv = 2 - av_pt - 2 * nb_pt
+            c_div = 2 - av_pt - 2 * (nb_pt + 1)
+            f_conv_pt = sp.simplify(closed_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt}))
+            f_div_pt = sp.simplify(closed_pt_z.subs({a_c: av_pt, n_pt_s: nb_pt + 1}))
+            if av_pt <= 0 or c_conv == 0:
+                i_conv_pt = sp.integrate(f_conv_pt, (y_s, 1, sp.oo), meijerg=False)
+                assert not i_conv_pt.has(sp.oo, sp.zoo, sp.nan, sp.Integral)
+            else:
+                maj_pt = ((2 * sp.pi) ** (2 - av_pt)) * sp.exp(-2 * sp.pi * c_conv * y_s)
+                assert sp.simplify((maj_pt - f_conv_pt).subs(y_s, 2)) > 0
+                i_maj_pt = sp.integrate(maj_pt, (y_s, 1, sp.oo), meijerg=False)
+                assert not i_maj_pt.has(sp.oo, sp.zoo, sp.nan, sp.Integral)
+            q_conv_mp = mp.quad(
+                lambda y_v: ((2 * mp.pi) ** (2 - av_pt)) * (y_v ** (-av_pt)) * mp.exp(-2 * mp.pi * c_conv * y_v),
+                [1, mp.inf],
+            )
+            assert mp.isfinite(q_conv_mp) and q_conv_mp > 0
+            if av_pt <= 0 or c_div == 0:
+                i_div_pt = sp.integrate(f_div_pt, (y_s, 1, sp.oo), meijerg=False)
+                assert i_div_pt.has(sp.oo, sp.zoo)
+            else:
+                av_pos_pt = max(1, av_pt)
+                min_const_pt = ((2 * sp.pi) ** 2) * sp.Pow(sp.Rational(-1, 1) * c_div / av_pos_pt, av_pos_pt)
+                assert min_const_pt > 0
+                assert sp.integrate(min_const_pt, (y_s, 1, sp.oo), meijerg=False) == sp.oo
 
     # 2c. Independent 32-digit mpmath.jtheta + mpmath.quad Kronecker-Eisenstein twisted Stokes contour/residue
     #     AND mechanical twisted Dolbeault/theta SVD rank check across spin structures and flat holonomies (zero lookup table):
@@ -1032,8 +1085,8 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
         th1_p0_mp = mp.pi * mp.jtheta(1, 0, q_mp, derivative=1)
         tol_mp = mp.mpf(TOL) * mp.mpf(TOL)
         z_pr_mp = mp.mpc(mp.mpf(1) / 4, mp.mpf(2) / 5)
-        z0_par_mp = mp.mpc(-mp.mpf(1) / 3, -mp.mpf(1) / 4)
-        r_cir_mp = mp.mpf(1) / 16
+        z0_par_mp = -mp.mpf(1) / 2 - tau_mp / 2
+        r_cir_mp = mp.mpf(1) / 8
         for t1_mp, t2_mp in [
             (mp.mpf(1) / 2, mp.mpf(0)),
             (mp.mpf(0), mp.mpf(1) / 2),
@@ -1042,15 +1095,16 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
             (mp.sqrt(2) - 1, mp.sqrt(3) - 1),
         ]:
             w_mp = t1_mp * tau_mp - t2_mp
-            s_ke_mp = lambda z_v: (th1_mp(z_v + w_mp) * th1_p0_mp) / (th1_mp(z_v) * th1_mp(w_mp)) * mp.exp(2j * mp.pi * t1_mp * z_v)
+            pref_w_mp = th1_p0_mp / th1_mp(w_mp)
+            s_ke_mp = lambda z_v: (th1_mp(z_v + w_mp) / th1_mp(z_v)) * pref_w_mp * mp.exp(2j * mp.pi * t1_mp * z_v)
             assert abs(s_ke_mp(z_pr_mp + 1) - mp.exp(2j * mp.pi * t1_mp) * s_ke_mp(z_pr_mp)) < tol_mp
             assert abs(s_ke_mp(z_pr_mp + tau_mp) - mp.exp(2j * mp.pi * t2_mp) * s_ke_mp(z_pr_mp)) < tol_mp
-            res0_mp = mp.quad(lambda ph: s_ke_mp(r_cir_mp * mp.exp(1j * ph)) * 1j * r_cir_mp * mp.exp(1j * ph), [0, 2 * mp.pi]) / (2j * mp.pi)
+            res0_mp = mp.quad(lambda ph: s_ke_mp(r_cir_mp * mp.exp(1j * ph)) * 1j * r_cir_mp * mp.exp(1j * ph), [0, 2 * mp.pi], method="gauss-legendre") / (2j * mp.pi)
             assert abs(res0_mp - 1) < tol_mp
-            sg1 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + s_p), [0, 1])
-            sg2 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + 1 + s_p * tau_mp) * tau_mp, [0, 1])
-            sg3 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + tau_mp + s_p), [0, 1])
-            sg4 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + s_p * tau_mp) * tau_mp, [0, 1])
+            sg1 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + s_p), [0, 1], method="gauss-legendre")
+            sg2 = mp.quad(lambda s_p: s_ke_mp(z0_par_mp + 1 + s_p * tau_mp) * tau_mp, [0, 1], method="gauss-legendre")
+            sg3 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + tau_mp + s_p), [0, 1], method="gauss-legendre")
+            sg4 = mp.quad(lambda s_p: -s_ke_mp(z0_par_mp + s_p * tau_mp) * tau_mp, [0, 1], method="gauss-legendre")
             assert abs((sg1 + sg2 + sg3 + sg4) / (2j * mp.pi) - 1) < tol_mp
 
     tw_svd_cache: dict[tuple[int, int, int, int, int], int] = {}
@@ -1071,7 +1125,7 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
                 for idx_g, (m_g, n_g) in enumerate(grid_mn):
                     mat_d[idx_g, idx_g] = (m_g + t1_r) * tau_c - (n_g + t2_r)
                     for r_z in range(n_vz):
-                        mat_d[n_grid + r_z, idx_g] = ((1j * m_g / 5) ** r_z) + (1 / 3) * ((1j * n_g / 5) ** r_z)
+                        mat_d[n_grid + r_z, idx_g] = (((m_g + t1_r) * np.conj(tau_c) - (n_g + t2_r)) / 4) ** r_z
                 sv_m = np.linalg.svd(mat_d, compute_uv=False)
                 rk_null = n_grid - int(np.sum(sv_m > 1e-9))
                 tw_svd_cache[k_tw] = rk_null
@@ -1231,24 +1285,29 @@ def test_wp23_zero_trust_liouville_cusp_poles_v4_and_d8_anomalies(stage1_results
             return 0
         return (-1 if beta_v > 0 else 1) * ((-1) ** abs(beta_v))
 
+    root_charges = []
+    for r_v in d8_roots:
+        t3c_r = sum(r_v[k] * t3c_8[k] for k in range(8))
+        t8c_r = sp.simplify(sum(r_v[k] * t8c_8[k] for k in range(8)))
+        t3w_r = sum(r_v[k] * t3w_8[k] for k in range(8))
+        qz_r = int(sum(r_v[k] * qz_8[k] for k in range(8)))
+        me_r = int(sum(r_v[k] * me_8[k] for k in range(8)))
+        cub3_r = sp.simplify(sp.sqrt(3) * (3 * (t3c_r**2) * t8c_r - (t8c_r**3)))
+        root_charges.append((cub3_r, t3c_r**2, t3w_r, t3w_r**2, qz_r, me_r))
+
     def d8_flux_eval(k_f: int) -> tuple[tuple[sp.Rational, ...], sp.Rational, int, int]:
         a333 = a33z = a22z = azzz = agrav = sp.Rational(0)
         n_dbl = sp.Rational(0)
-        for r_v in d8_roots:
-            t3c = sum(r_v[k] * t3c_8[k] for k in range(8))
-            t8c = sp.simplify(sum(r_v[k] * t8c_8[k] for k in range(8)))
-            t3w = sum(r_v[k] * t3w_8[k] for k in range(8))
-            qz = int(sum(r_v[k] * qz_8[k] for k in range(8)))
-            me = int(sum(r_v[k] * me_8[k] for k in range(8)))
-            iw = idx_phys(me + k_f * qz)
-            if qz > 0 and t3w == sp.Rational(1, 2):
+        for cub3_r, t3c2_r, t3w_r, t3w2_r, qz_r, me_r in root_charges:
+            iw = idx_phys(me_r + k_f * qz_r)
+            if qz_r > 0 and t3w_r == sp.Rational(1, 2):
                 n_dbl += iw
             nu = sp.Rational(1, 2) * iw
-            a333 += nu * sp.sqrt(3) * (3 * (t3c**2) * t8c - (t8c**3))
-            a33z += nu * (t3c**2) * qz
-            a22z += nu * (t3w**2) * qz
-            azzz += nu * (qz**3)
-            agrav += nu * qz
+            a333 += nu * cub3_r
+            a33z += nu * t3c2_r * qz_r
+            a22z += nu * t3w2_r * qz_r
+            azzz += nu * (qz_r**3)
+            agrav += nu * qz_r
         dbl_v = int(n_dbl)
         return tuple(sp.simplify(x) for x in (a333, a33z, a22z, azzz, agrav)), sp.simplify(azzz / 6), dbl_v, int(dbl_v % 2)
 
