@@ -70,7 +70,7 @@ once, their second computation owed). Main, 2026-11-14, before the big run's loo
   | W₊∣b (area) | below 1e-4 | +0.014, +0.006, −0.034 |
   | W₋∣a, W₊∣a | 0 | 0 |
 
-  The largest change, 0.068 in ln, is about two-thirds of the run statistic's σ floor of 0.10. So it was material.
+  The largest change, 0.086 in ln, is about two-thirds of the run statistic's σ floor of 0.10. So it was material.
 - **The numbers are stable.** B1932's heights against the refined ones differ by at most 5.5e-3, and the end's two
   brackets by 3.0e-3.
 

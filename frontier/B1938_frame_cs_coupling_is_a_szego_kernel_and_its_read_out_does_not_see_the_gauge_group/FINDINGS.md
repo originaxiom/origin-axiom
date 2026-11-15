@@ -80,7 +80,7 @@ number.** **No joint of frame C changes type, and the count of inputs does not f
 
   Each class's median relative sampling error is about 2e-3.
 - **The control.** U(1) words on the exact-weight grid against Pin(2) words on the truncated grid must differ by the
-  truncation's ~1 %. They do: max |z| 6.4, so the comparison would have seen a 1 % effect.
+  truncation's ~1 %. They do: max |z| 2.4, so the comparison would have seen a 1 % effect.
 - **So the gauge group of the flat line is invisible to frame C's values.** The run's options need no gauge-group
   option.
 

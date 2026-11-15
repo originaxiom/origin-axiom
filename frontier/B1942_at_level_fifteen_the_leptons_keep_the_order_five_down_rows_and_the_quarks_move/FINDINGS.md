@@ -20,7 +20,7 @@ leptons' two candidate levels. Register rows P-845, P-856, P-855. **Nothing is c
   these are (−v, 2v) with v = 3w.
 - **They are lepton twists at an order-5 point.** At the order-5 point v′ = 2v the lepton twists are (−3v′, 6v′) ≡
   (2v′, v′) ≡ (4v, 2v) ≡ (−v, 2v) mod 5. So the leptons' coupling at w is their coupling at the order-5 point 6w.
-- **Averaging.** The map w ↦ 6w takes the 192 points of exact order 15 onto the 24 of order 5, evenly. So the leptons'
+- **Averaging.** The map w ↦ 6w takes the 192 points of exact order 15 onto the 24 of order 5, each hit six times. So the leptons'
   average over order 15 is their average over order 5, which is the down quarks' order-5 average transposed (B1934). The
   transposition keeps the ratios.
 - **The quarks see more.** Their charges (Q 1, u −4, d 2) are not divisible by 3, so they see the whole of each order-15

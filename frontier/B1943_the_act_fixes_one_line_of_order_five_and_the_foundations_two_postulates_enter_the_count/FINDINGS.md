@@ -18,7 +18,7 @@ FORCED-CLAIMED, "not yet a registered theorem". Register rows P-721, P-850, P-85
 - **What LR fixes.** On the fibre's torsion points, LR fixes up to sign exactly the four non-zero points of one line of
   order 5, {(1/5, 2/5), (2/5, 4/5), (3/5, 1/5), (4/5, 3/5)}, and no point of any other order. Each of the four is sent
   to its negative.
-- **The Smith forms.** Smith(LR − I) = (1, 1) and Smith(LR + I) = (1, 5).
+- **The Smith forms.** Smith(LR − I) = (1, 1) and Smith(LR + I) = (1, 3).
 - **The same holds** for RL, (LR)ᵀ, (LR)⁻¹ and ((LR)ᵀ)⁻¹. This was checked by enumerating every point of exact order N
   for every N up to 60.
 - **The control.** The trace-4 act LRR fixes points of orders 2, 3 and 6 (Smith(A − I) = (1, 2)). Caught.

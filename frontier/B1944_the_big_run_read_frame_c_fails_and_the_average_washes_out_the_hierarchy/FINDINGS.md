@@ -53,7 +53,7 @@ the three scripts on the pinned files, P-842). Main, 2026-11-15, the run the aut
   | W₋∣a | 101 | 7 530 | 18.8 | 33.9 | 1.06 | 18.0 | 43.6 |
   | W₋∣b | 63.3 | 4 890 | 11.4 | 21.9 | 1.47 | 16.6 | 73.1 |
   | W₊∣a | 97.3 | 5 310 | 18.6 | 25.4 | 0.89 | 18.8 | 50.8 |
-  | W₊∣b | 59.3 | 3 310 | 11.3 | 15.6 | 1.21 | 17.6 | 80.9 |
+  | W₊∣b | 59.3 | 3 310 | 11.3 | 15.6 | 1.21 | 7.6 | 80.9 |
 
   The reported lepton rows, frame C's copy of the down rows, are 3.6 to 6.0 (μ/τ) and 53 to 114 (e/τ).
 

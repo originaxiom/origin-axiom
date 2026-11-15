@@ -30,7 +30,7 @@ W₊ = (up S, down S̃, leptons S̃). Beside it the card lists a one-loop term, 
 
 | the functional, and the declared moves | positive at | Δ from | to |
 |---|---|---|---|
-| ln det, colour weights (3, 3, 1), exact weight | **28 of 28** | +1.38 | +6.44 |
+| ln det, colour weights (3, 3, 1), exact weight | **28 of 28** | +1.83 | +6.44 |
 | ln det, colour weights (3, 3, 1), truncated weight | 28 of 28 | +1.38 | +6.39 |
 | ln det, weights (1, 1, 1), exact weight | 28 of 28 | +0.61 | +2.98 |
 | ln det, weights (1, 1, 1), truncated weight | 28 of 28 | +0.61 | +2.97 |
