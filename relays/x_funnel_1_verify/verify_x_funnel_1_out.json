@@ -1,0 +1,124 @@
+{
+  "card": "X-FUNNEL-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_b1947_and_p861": {
+    "E1_B1947_and_P861_passed": true,
+    "c0_max_diff": 2.536970732868727e-56,
+    "c1_max_diff": 2.1417223347322155e-55,
+    "c1_non_scalar_spread": 1.902113032590307,
+    "c2_T_max_diffs": {
+      "D1_rep_minus": 2.0156172270081947,
+      "D1_rep_plus": 2.369595725286731,
+      "D1prime_rep_minus": 2.5836448227511406,
+      "D1prime_rep_plus": 2.6683439967845604
+    },
+    "ctrl_frame_c_T_max_diff": 3.1861838222649046e-55,
+    "p861_wb2_c_minus2_a0_mod_diff": 1.1419282818997418e-54,
+    "p861_wb2_c_minus2_channel_norm_diff": 1.7945024659331537e-54,
+    "p861_wb2_c_minus2_fkron_even_diff": 4.176194859519056e-53,
+    "p861_wb2_c_minus2_output_diff": 7.774288526326367e-56,
+    "p861_wb2_c_plus2_T_cov_diff": 1.5421129699762138e-55,
+    "p861_wb2_c_plus2_sec2_sec3_copy_diff": 2.931289116483712e-56
+  },
+  "part_1b_magnetized_triple_overlap": {
+    "E2_Covariance_and_Quadrature_passed": false,
+    "E3_Cusp_Alignment_and_Order5_Law_passed": true,
+    "bulk_sample_tau_0p13_1p7i_w_1_5_2_5": {
+      "off_diag_strict_hierarchy_1_gt_V12_gt_V23_gt_V13_gt_0": true,
+      "overlap_moduli": [
+        [
+          0.9104427507773533,
+          0.4127373853144273,
+          0.027236892641714663
+        ],
+        [
+          0.4026160182321998,
+          0.8844763747484272,
+          0.23580051818163722
+        ],
+        [
+          0.09483849123544334,
+          0.21759915734140528,
+          0.9714197173747788
+        ]
+      ],
+      "sec1_ratios": [
+        0.5355036407465908,
+        0.32823083340402887
+      ],
+      "sec2_ratios": [
+        0.443978596948217,
+        0.3419522671594162
+      ],
+      "sec3_ratios": [
+        0.443978596948217,
+        0.3419522671594162
+      ]
+    },
+    "controls": {
+      "Gate_Haar_max_diff_10_trials": 1.8388621205434306e-48,
+      "PC_FUNNEL1_ChargeBreak_periodicity_diff": 0.1403422748279112,
+      "PC_FUNNEL1_ChargeBreak_shift_a_plus_1_diff": 0.40334118893999804,
+      "PC_FUNNEL1_Spin_00_T_break": 0.05159238004183224,
+      "PC_Haar_distinct_UL_scramble": 0.46423892918249404,
+      "all_controls_passed": true,
+      "double_periodicity_conserved_qH_diff": 1.247926408335884e-49
+    },
+    "cusp_alignment_scan": {
+      "height_30": {
+        "min_V33_a_nonzero_20": 0.9999770718283401,
+        "min_V33_all_24": 0.9843306001444668,
+        "min_V33_m004_orbit_4": 0.9999770718283401,
+        "min_all3_diags_a_1_5_and_4_5": 0.999977071828339,
+        "per_a_min_V33": {
+          "0": 0.9843306001444668,
+          "1/5": 0.9999770718283401,
+          "2/5": 1.0,
+          "3/5": 1.0,
+          "4/5": 0.9999770718283401
+        }
+      },
+      "height_6": {
+        "min_V33_a_nonzero_20": 0.9036750611195759,
+        "min_V33_all_24": 0.9036750611195759,
+        "min_V33_m004_orbit_4": 0.903676401265216,
+        "min_all3_diags_a_1_5_and_4_5": 0.9035336488009197,
+        "per_a_min_V33": {
+          "0": 0.9843243580787183,
+          "1/5": 0.9036750611195759,
+          "2/5": 0.9999996344057068,
+          "3/5": 0.9999996344057068,
+          "4/5": 0.9036750611195759
+        }
+      }
+    },
+    "modular_and_lattice_covariance": {
+      "S_cov": 3.8891295277842515e-09,
+      "T_cov": 5.986992950606518e-49,
+      "shift_a_plus_1": 2.0313011796700687e-48,
+      "shift_b_plus_1": 8.552847072295026e-49
+    },
+    "order5_sec2_sec3_copy_max_diff_24pts": 7.697562365065523e-49,
+    "three_route_agreement": {
+      "gaussian_vs_poisson_full_max_diff": 1.673538638982747e-36,
+      "quadrature_vs_gaussian_window_max_diff": 3.2042514162297595e-48
+    }
+  },
+  "source_isolation_ast_check": {
+    "disallowed_imports_count": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "stage_1_gate_passed": false
+}
