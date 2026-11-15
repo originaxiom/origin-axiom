@@ -1,0 +1,306 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Bridge_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_exact_topology_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_exact_topology_functions": [
+      "exact_same_action_cut_sewing_rational",
+      "exact_schur_response_rational",
+      "homology_cohomology_from_chain_complex",
+      "mat_det_2x2_int",
+      "mat_mul_int",
+      "run_part_1a_punctured_and_relative_cohomology",
+      "snf_exact_int"
+    ],
+    "zero_imports_from_main_or_physical_branch": true
+  },
+  "card": "X-BRIDGE-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_punctured_and_relative_cohomology": {
+    "E1_PuncturedAndRelativeCohomology_Gate_passed": true,
+    "cellular_and_relative_complexes": {
+      "closed_m004_mapping_torus_recovery_control": {
+        "chain_complex_d2_zero": true,
+        "cohomology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "3": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          }
+        },
+        "homology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "3": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          }
+        },
+        "uct_matches_dual_cochain_snf": true
+      },
+      "fourfold_punctured_cover_M4": {
+        "M4_minus_I": [
+          [
+            33,
+            21
+          ],
+          [
+            21,
+            12
+          ]
+        ],
+        "abs_det_M4_minus_I": 45,
+        "complex": {
+          "chain_complex_d2_zero": true,
+          "cohomology": {
+            "0": {
+              "free_rank": 1,
+              "torsion_invariants": []
+            },
+            "1": {
+              "free_rank": 1,
+              "torsion_invariants": []
+            },
+            "2": {
+              "free_rank": 0,
+              "torsion_invariants": [
+                3,
+                15
+              ]
+            }
+          },
+          "homology": {
+            "0": {
+              "free_rank": 1,
+              "torsion_invariants": []
+            },
+            "1": {
+              "free_rank": 1,
+              "torsion_invariants": [
+                3,
+                15
+              ]
+            },
+            "2": {
+              "free_rank": 0,
+              "torsion_invariants": []
+            }
+          },
+          "uct_matches_dual_cochain_snf": true
+        },
+        "smith_invariants": [
+          3,
+          15
+        ],
+        "snf_verified": true
+      },
+      "punctured_m004_mapping_torus": {
+        "chain_complex_d2_zero": true,
+        "cohomology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          }
+        },
+        "homology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          }
+        },
+        "uct_matches_dual_cochain_snf": true
+      },
+      "punctured_m004_with_explicit_horotorus_bdry": {
+        "chain_complex_d2_zero": true,
+        "cohomology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          },
+          "3": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          }
+        },
+        "homology": {
+          "0": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "1": {
+            "free_rank": 1,
+            "torsion_invariants": []
+          },
+          "2": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          },
+          "3": {
+            "free_rank": 0,
+            "torsion_invariants": []
+          }
+        },
+        "uct_matches_dual_cochain_snf": true
+      },
+      "relative_pair_X_mod_dX": {
+        "H2_rel_X_dX_free_rank": 1,
+        "H2_rel_X_dX_torsion": [],
+        "generator_on_boundary": "Seifert longitude dual lambda^* = (0, 1)",
+        "istar_H1X_to_H1Y_matrix": [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "istar_cokernel_free_rank": 1,
+        "istar_cokernel_torsion": [],
+        "snf_d2_rel_invariants": [
+          1,
+          1
+        ],
+        "snf_delta1_rel_invariants": [
+          1,
+          1
+        ]
+      }
+    },
+    "chern_weil_relative_winding_mp80": {
+      "PC_BR1_DropBoundaryEta_err": 0.5714285714285714,
+      "PC_BR1_OmitPhaseGaugeShift_local_eta_err": 0.5448163223080452,
+      "gauge_transformed_max_invariant_err_mp80": 9.651670480252554e-86,
+      "reference_only_max_bulk_curvature_mp80": 0.0,
+      "reference_only_max_winding_err_mp80": 3.217223493417518e-86
+    }
+  },
+  "part_1b_boundary_law_second_computation": {
+    "E2_BoundaryLaw_SecondComputation_Gate_passed": true,
+    "finite_cell_kkt_check": {
+      "PC_BR1_ReversedSourceSign_err": 5.998497268373109,
+      "current_conservation_max_residual_mp80": 9.651670480252554e-86,
+      "exact_B_star_over_Phi_rational": "748/1567",
+      "kkt_vs_exact_schur_max_err_mp80": 5.147557589468029e-85,
+      "relative_winding_max_err_mp80": 6.434446986835036e-86,
+      "robin_max_residual_mp80": 1.9303340960505108e-85,
+      "screened_flux_at_n1": 0.4773452456924059,
+      "stiff_limit_flux_err": 2.007352941172441e-12,
+      "weak_limit_flux_abs": 4.9816849816825e-13,
+      "weak_limit_relative_winding_err": 0.0
+    },
+    "sector_energies_n_minus3_to_3": {
+      "-1": 5.819728440718933,
+      "-2": 23.27891376287573,
+      "-3": 52.377555966470396,
+      "0": 0.0,
+      "1": 5.819728440718933,
+      "2": 23.27891376287573,
+      "3": 52.377555966470396
+    },
+    "smooth_radial_solid_torus_bvp": {
+      "B0_star_exact": 0.8910891089108911,
+      "B0_star_fe": 0.8910891089108911,
+      "energy_exact": 19.87025672501531,
+      "energy_gl24": 19.87025672501531,
+      "max_residual_mp80": 1.9303340960505108e-85
+    },
+    "three_cut_same_action_vs_seam_source": {
+      "cuts_tested": [
+        "1/5",
+        "3/8",
+        "7/11"
+      ],
+      "same_action_k_reg_rational": "63/190",
+      "same_action_max_cut_drift_exact": 0.0,
+      "seam_source_cut_spread": 0.17423726627927197,
+      "seam_source_total_added_flux_max_abs": 0.0
+    }
+  },
+  "part_1c_rank3_end_unit_and_sector_minimum": {
+    "E3_Rank3EndUnit_and_SectorMinimum_Gate_passed": true,
+    "abs_delta_chi_at_minimal_nonzero_unit": [
+      3,
+      3
+    ],
+    "all_chi_increments_equal_3m": true,
+    "baseline_rank3_chi_V0": 15,
+    "measured_chi_increments_m_minus4_to_4": {
+      "-1": -3,
+      "-2": -6,
+      "-3": -9,
+      "-4": -12,
+      "0": 0,
+      "1": 3,
+      "2": 6,
+      "3": 9,
+      "4": 12
+    },
+    "nonzero_sector_minima_m": [
+      -1,
+      1
+    ],
+    "quadratic_energy_ratio_E3_over_E1": 9.0,
+    "unrestricted_quadratic_minimum_m": [
+      0
+    ]
+  },
+  "stage_1_gate_passed": true
+}
