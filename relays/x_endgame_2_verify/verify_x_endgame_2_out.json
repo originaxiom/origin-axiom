@@ -1,0 +1,92 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_ZeroTargetLiterals_passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_variational_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_variational_functions": [
+      "bloch_wigner_mp",
+      "neg_vol_on_gluing_curve",
+      "rogers_dilog_mp",
+      "s_eff_joint_3d_2d",
+      "solve_joint_3var_newton",
+      "solve_riley_parabolic_seed",
+      "solve_thurston_variational_seed",
+      "tau_nz_from_z1",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_variational_functions": 0
+  },
+  "card": "X-ENDGAME-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_mostow_and_riley": {
+    "E1_TargetFree_Mostow_and_TwoRoute_Cusp_passed": true,
+    "amphichiral_SL2C_intertwiner_err": 4.463551535183188e-47,
+    "amphichiral_automorphism_rel_err": 3.06189563688037e-47,
+    "amphichiral_intertwiner_svd_null_gap": 1.3027756377319946,
+    "canonical_longitude_comm_err": 1.7516230804060213e-46,
+    "canonical_longitude_trace_re": -2.0,
+    "cs_m004_rogers_dilog_abs": 8.758115402030107e-47,
+    "emergent_completeness_H_lam_err": 1.0000000000000001e-20,
+    "emergent_completeness_H_mu_err": 2.886751345948129e-21,
+    "four_seed_max_spread": 1.8097663403554957e-36,
+    "route_A_vs_B_tau_diff": 2.886744901432448e-41,
+    "tau_NZ_im": 3.4641016151377544,
+    "tau_NZ_re": -7.920223298517104e-48,
+    "tau_Riley_im": 3.4641016151377544,
+    "tau_Riley_re": 0.0,
+    "vol_m004_variational": 2.0298832128193074,
+    "wirtinger_parabolic_rel_err": 4.3790577010150533e-47,
+    "z1_star_im": 0.8660254037844386,
+    "z1_star_re": 0.5
+  },
+  "part_2b_coupled_modulus_stability": {
+    "E2_Coupled_Modulus_Stability_at_OneLoop_passed": true,
+    "PC_ENDGAME2_OvercoupledCasimir_alpha_0p01_eigs": [
+      -0.8310129085596702,
+      4.295114523326728
+    ],
+    "alpha_crit_bifurcation": 0.006757736051058548,
+    "alpha_one_loop_1_over_16pi2": 0.006332573977646111,
+    "coupled_one_loop_hessian_eigs": [
+      0.10897174838312602,
+      3.3551298665516427
+    ],
+    "pure_3d_hessian_eigs": [
+      1.7320508075544436,
+      1.7320508076699135
+    ]
+  },
+  "part_2c_joint_shape_and_area": {
+    "E3_Joint_Shape_and_Area_Stabilization_passed": true,
+    "PC_ENDGAME2_ZeroFluxCollapse_min_dS_dA_on_1_50": 0.500004338905486,
+    "PC_ENDGAME2_ZeroFluxCollapse_passed": true,
+    "PC_ENDGAME2_ZeroVolumeCutoffRunaway_max_dS_dA_on_1_50": -0.07105681278236022,
+    "PC_ENDGAME2_ZeroVolumeCutoffRunaway_passed": true,
+    "joint_3x3_hessian_eigs": [
+      0.0530516471751919,
+      1.727481948314108,
+      1.7366196668238363
+    ],
+    "joint_A_star": 18.84802926718997,
+    "joint_grad_norm_max": 4.141069714451995e-19,
+    "joint_two_seed_spread": 1.0001381591266072e-18,
+    "joint_z1_star_im": 0.8660254037847274,
+    "joint_z1_star_re": 0.5,
+    "uv_barrier_A_uv": 0.0030529378554863987,
+    "uv_barrier_height_delta_S": 29076.55072925331
+  },
+  "stage_2_gate_passed": true
+}
