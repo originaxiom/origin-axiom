@@ -1,0 +1,21 @@
+K0      S   up 5.4e+00  down 1.1e+00  lep 1.2e+00
+K1      S   up 7.2e+00  down 4.9e+00  lep inf
+K2(+1)  S   up 6.9e+00  down 1.7e+00  lep 1.1e+01
+K3(+1)  S   up 4.2e+00  down 7.0e+00  lep 7.0e+00
+K2(-1)  S   up 8.7e+00  down 2.3e+00  lep 2.7e+00
+K3(-1)  S   up 6.9e+00  down 1.6e+00  lep 3.9e+00
+K2(+2)  S   up 6.6e+00  down 4.1e+00  lep 7.1e+00
+K3(+2)  S   up 4.2e+01  down 7.0e+00  lep 7.0e+00
+K2(-2)  S   up 2.5e+00  down 2.4e+00  lep 6.1e+00
+K3(-2)  S   up inf  down 5.5e+00  lep 1.2e+01
+K0      St  up 1.3e+00  down 1.3e+00  lep 1.2e+00
+K1      St  up 4.1e+00  down 9.2e-01  lep 4.7e+00
+K2(+1)  St  up 4.5e+00  down 3.7e+00  lep 2.5e+00
+K3(+1)  St  up 7.0e+00  down 4.0e+00  lep 1.6e+00
+K2(-1)  St  up 5.4e+00  down 4.7e+00  lep 1.7e+00
+K3(-1)  St  up 2.0e+00  down 8.6e+00  lep 7.0e+00
+K2(+2)  St  up 2.2e+00  down 3.2e+00  lep 1.7e+01
+K3(+2)  St  up 7.0e+00  down 3.0e+00  lep 2.6e+01
+K2(-2)  St  up 4.6e+00  down 2.3e+00  lep 1.6e+00
+K3(-2)  St  up 1.6e+00  down 2.7e+01  lep 7.0e+00
+V0 holds: False | V1 holds: True | V2 holds: False (covariant K2 choices: []) | V3 covariant K3 choices: [] | plant (the line not moved) fails: True
