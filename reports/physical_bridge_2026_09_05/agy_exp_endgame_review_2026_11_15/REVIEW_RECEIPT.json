@@ -1,0 +1,109 @@
+{
+  "source_head": "b05424e99c85791ba3d37614b9b80a8b69af364b",
+  "quotations": [
+    {
+      "source_path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md",
+      "line": 15,
+      "quotation": "$H^2(M_3; \\mathbb{Z}) \\xrightarrow{\\sim} H^2(E; \\mathbb{Z}) \\cong \\mathbb{Z}$",
+      "matches": true
+    },
+    {
+      "source_path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md",
+      "line": 16,
+      "quotation": "coefficients 13/2, 7, 5/4, -16, 9/16, -79/80, -43/80",
+      "matches": true
+    },
+    {
+      "source_path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md",
+      "line": 19,
+      "quotation": "Requiring all three chiral Landau generations to close periodically around the base",
+      "matches": true
+    },
+    {
+      "source_path": "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md",
+      "line": 25,
+      "quotation": "requires vector-like parity completion",
+      "matches": true
+    }
+  ],
+  "upstream_pins": [
+    {
+      "path": "relays/x_endgame_1_verify/verify_x_endgame_1.py",
+      "sha256": "764916a17b6d4cc2e14a0a8fe66157158d47cd61cd4a077309e06bdfaf4cc52a",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_1_verify/verify_x_endgame_1_out.json",
+      "sha256": "b7b09ec79a3e5930d0294100b64936a7a97a8f36e3cfc7b52463c618d6cd7225",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_2_verify/verify_x_endgame_2.py",
+      "sha256": "c059b8a6b75a824f4916253e463f6824fc558132d68bd7373089653f309dd532",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_2_verify/verify_x_endgame_2_out.json",
+      "sha256": "532afb46317189f86e0c4d1bb80da96141415bec5ee34277391668e0fb3ff78c",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_3_verify/verify_x_endgame_3.py",
+      "sha256": "486327150583559a476448f11765e873d350b538aadea648cc4b6e00059b24fa",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_3_verify/verify_x_endgame_3_out.json",
+      "sha256": "a4e08441655626f963d6d77b6a3a69e0b0346b4a42ad26766587e2443b932b68",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_4_verify/verify_x_endgame_4.py",
+      "sha256": "7463873b966f053224855a2913a5767a72d4beebae4c29aaf706f97363202803",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_4_verify/verify_x_endgame_4_out.json",
+      "sha256": "fa01158bff0afbfb4a49362a3919765a4dddb6d046637aac2fd5c315c2cd8b39",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_5_verify/verify_x_endgame_5.py",
+      "sha256": "36e1316ebf88b69c86fffc95d95e1ef3e5a8bcaed0cce4d9e3a3a898b39a244f",
+      "matches": true
+    },
+    {
+      "path": "relays/x_endgame_5_verify/verify_x_endgame_5_out.json",
+      "sha256": "b8bcea6c5ed6155145943a3a8f24835b48464365faf86552f2b386b2285401a4",
+      "matches": true
+    }
+  ],
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/hep-ph/0207271",
+      "checked": "Lagrangian convention, equations 6 and 7, multiplication instruction following equation 8",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-ph/9210260v2",
+      "checked": "matrix conventions and equations 10, 17-26",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://arxiv.org/html/hep-ph/9209232v1",
+      "checked": "identity of cited paper and equation 24",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://web.ma.utexas.edu/users/areid/BRf8_may19.pdf",
+      "checked": "opening punctured-torus bundle description; whole paper not reviewed",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://arxiv.org/html/1406.7171v3",
+      "checked": "left-acting definitions, derivative convention, equation 27, footnote 7, and discussion of scheme-equivalent common rotations",
+      "date": "2026-11-15",
+      "timing": "additional primary-source cross-check after the sealed mathematical run"
+    }
+  ]
+}
