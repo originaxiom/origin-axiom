@@ -1,0 +1,36 @@
+=== agy-002 M37 Comparison: Blind A2-CANON-T90 (7609cca49) vs B1940 BIG_RUN_VALUES_v2.json ===
+seat JSON sha256 (7609cca49): 408f68c9ae9fc3743968d72075bdee0587b5b4eabf78f6d7e49e079c8ad88360
+B1940 v2 JSON sha256:         9ece85e154238ae9c1fc3dc1664fbb3230a818096a3fcb608a5e22efca168115
+B1932 v1 JSON sha256:         df1c9bee002ecf5eeb7f1f360e497a5c091bf092cdbaa499352ea3201d02b536
+
+1. Area options (B1937/B1940 tolerance: |d ln| <= 3 * sqrt(r_main^2 + r_seat^2 + 0.0054^2)):
+  W-|b (area): AGREE (worst |d ln|/tol = 0.110; strict r_seat=0: 0.117; max |d ln| = 0.00189)
+    per-position d ln / tol: -0.063 -0.022 -0.110 +0.007 -0.000 -0.056 -0.013
+    control vs B1932 uncorrected v1: DISAGREE (worst |d ln|/tol = 2.910, max |d ln| = 0.06792)
+    control seat old_weight vs B1940 v2: worst |d ln|/tol = 0.525, max |d ln| = 0.01160
+  W+|b (area): AGREE (worst |d ln|/tol = 0.112; strict r_seat=0: 0.119; max |d ln| = 0.00232)
+    per-position d ln / tol: -0.097 -0.031 -0.112 -0.029 +0.103 -0.094 +0.098
+    control vs B1932 uncorrected v1: DISAGREE (worst |d ln|/tol = 1.770, max |d ln| = 0.03161)
+    control seat old_weight vs B1940 v2: worst |d ln|/tol = 0.486, max |d ln| = 0.01072
+
+2. Move-count options:
+  W-|a (move count): AGREE (worst |d ln|/tol = 0.241, max |d ln| = 0.00443)
+    per-position d ln / tol: +0.241 +0.165 +0.230 +0.220 -0.122 -0.011 -0.185
+    control seat old_weight vs B1940 v2: max |d ln| = 0.01540, rms z_stat = 3.88
+  W+|a (move count): AGREE (worst |d ln|/tol = 0.254, max |d ln| = 0.00463)
+    per-position d ln / tol: +0.232 +0.234 +0.230 +0.254 -0.092 -0.031 -0.109
+    control seat old_weight vs B1940 v2: max |d ln| = 0.01611, rms z_stat = 3.27
+
+3. Extended-precision periodicity check F_bar(tau + 1) == F_bar(tau) (x = 0.13, y = 1.5..200):
+  mpmath (30 + 3*y digits) max rel diff across all 13 heights: W- 3.71e-16, W+ 7.83e-16
+  float64 control y =   1.5: W- max rel diff = 1.76e-15
+  float64 control y =   3.0: W- max rel diff = 1.55e-14
+  float64 control y =   5.0: W- max rel diff = 1.56e-11
+  float64 control y =   8.0: W- max rel diff = 2.13e-07
+  float64 control y =  11.0: W- max rel diff = 1.54e-02
+  float64 control y =  12.0: W- max rel diff = 2.92e-01
+  float64 control y =  15.0: W- max rel diff = 2.48e-01
+  float64 control y =  20.0: W- max rel diff = 5.02e-01
+  float64 control y =  30.0: W- max rel diff = 7.54e-01
+
+OVERALL: AGREE on all 4 options vs B1940 v2 (area worst 0.112 of tol; move-count worst 0.254 of tol; vs B1932 uncorrected area worst 2.910 -> DISAGREE). 0 of 19.
