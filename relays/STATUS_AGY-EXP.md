@@ -1,15 +1,18 @@
 seat: agy-exp
 read: M31
 state: active
-on: Campaign X-RELATIONS Stage 2 (Commit 5 of 12: sealing Card X-RELATIONS-2 before writing verifier or outputs; P-862; 0 of 19)
+on: Campaign X-RELATIONS Stage 2 complete (Commits 5-8 of 12 sealed; moving to Stage 3 X-RELATIONS-3; P-862; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-RELATIONS (12 commits)
 next push: upon completion of Commit 12 of 12 (Stage 3 results)
 
-## Campaign `X-RELATIONS` Live Ledger (`4 of 12` Blind-Sealed Commits Complete; `P-862`; `0 of 19`)
+## Campaign `X-RELATIONS` Live Ledger (`8 of 12` Blind-Sealed Commits Complete; `P-862`; `0 of 19`)
 
-1. **`Stage 1 / X-RELATIONS-1` (`015b5cd18`, `07a683980`, `f4e2218b5`, and this commit):**
+1. **`Stage 1 / X-RELATIONS-1` (`015b5cd18`, `07a683980`, `f4e2218b5`, `d899e1695`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Relations_Passed = True`.
    - Exact generation-independent `SU(5)` `1`-loop gauge eliminants; zero-bit dynamic `SU(3)` confinement exclusion of `(2D measure, cover-instanton)`; universal `2`-loop gauge corridor `UR-1` (`I_gauge in [3129/1000000, 4693/1000000]` across all `1320` perturbative histories and `[4028/1000000, 4205/1000000]` across all `264` `3D`-cover histories, `0` selection bits); universal `6D` $D$-term scalar stability and corridor `UR-2` (`lambda_IR > 42/1000 > 0` across all `1320` histories, `sqrt(2*lambda_IR) in [2899/10000, 11329/10000]`); `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^8`.
+2. **`Stage 2 / X-RELATIONS-2` (`62b17f6e8`, `78b125767`, `61bbb3788`, and this commit):**
+   - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Relations_Passed = True`.
+   - Exact piecewise-quadratic cusp valuation theorem (`< 4/100000` vs `950`-digit `mpmath` `3`-point asymptotic extractions); complete `CRT` classification across all `288 = 24 + 72 + 192` primitive vacua at Levels `5` (`UR-3` exact copy `{39/31, 5/3}`), `15` (`UR-4` `CRT` `6w mod 1` triality projection `{15/11, 15/8, 431/190, 15}` vs `{39/31, 5/3}`), and `10` (`UR-5` parity obstruction `{10/7, 31/5}` vs `{29/26, 10/3}`); perturbative Higgs-meridian theorem (`248/248` vacua with `3a notin Z` have `0` blowups); level-wide `2`-loop infrared kill-line envelopes and `10`-trial `24`-digit `U(3)^6` Haar invariance `< (1/1000)^7`.
 
 ## Campaign `X-ENDGAME` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
