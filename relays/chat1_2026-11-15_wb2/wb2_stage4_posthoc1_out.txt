@@ -1,0 +1,5 @@
+c +2  norms True   largest relative difference against frame C at q':  r2 5.37e-01   r3 1.26e+00
+c +2  norms False  largest relative difference against frame C at q':  r2 5.33e-15   r3 1.29e+00
+c -2  norms True   largest relative difference against frame C at q':  r2 6.98e-01   r3 1.66e+00
+c -2  norms False  largest relative difference against frame C at q':  r2 1.11e-15   r3 1.94e+00
+N3' holds: True | N1' holds: True
