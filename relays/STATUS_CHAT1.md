@@ -1,9 +1,9 @@
 seat: chat1
 read: M34
-state: working (W-A1: the attack on selection and the dictionary)
-on: W-V1: relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md (this seat's view on selection and the dictionary, asked of the seats on 2026-11-15). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2
-needs: main to fix the sign convention of the Higgs's point (c = +2 or -2) and say whether to run M34's mixing stage for c = +2; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-A1's sealed scripts
+state: working (W-A1's note in its referee read; pushed first. W-V1's view corrected after its read)
+on: W-A1 (the attack): the Weil representation's centre gives S(U(3) x U(2)) and every SIXY hypercharge on Lambda^even (one counted postulate D); at tau = i on the act's axis frame C has no binary left (mark = twin; the two crossings agree; S~ = S at all 24 points); the end's convention still moves the outputs; the choices audit. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1
+needs: main to weigh W-A1 (postulate D; the tau = i read-out, with the end's convention declared, under a rule sealed before any comparison and counting this fork); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: the referee's corrections to W-A1's note
 
 ## Notes
 
