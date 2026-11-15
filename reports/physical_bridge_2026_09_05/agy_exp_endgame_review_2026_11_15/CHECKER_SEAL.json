@@ -1,0 +1,29 @@
+{
+  "source_sha256": "19ee0b2ed7437e0cf8a9ae540f21198ad634070d342dfe8baf033995fa732c35",
+  "card_sha256": "8937dc7279d0b71280de9ffe5b70635eab679191b7336ac29d35aaa4960366bf",
+  "source_receipt_sha256": "73343a4b531b082c76ff2d1ace5836e216a8b8d53c8dc346493e0d724af0984f",
+  "imports": [
+    "argparse",
+    "collections",
+    "fractions",
+    "hashlib",
+    "json",
+    "math",
+    "pathlib",
+    "signal",
+    "sys",
+    "time",
+    "traceback",
+    "mpmath"
+  ],
+  "runtime": "/Users/dri/.pyenv/versions/3.12.1/bin/python3 -I",
+  "execution_status": "unrun at this seal",
+  "check_entry_points": [
+    "exact_topology_and_orbits",
+    "weil_order",
+    "majorana_coefficient_freedom",
+    "ordered_yukawa_products",
+    "rank_one_two_loop_mixing",
+    "gluing_area_and_collar"
+  ]
+}
