@@ -962,7 +962,9 @@ def run_independent_math_checks() -> Dict[str, Any]:
     b1938_ctrl_max_z = float(re.search(r"max \|z\|\s+([0-9.]+)", b1938_ctrl_txt).group(1))
 
     b1941_run_txt = git_show_text("frontier/B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/verification/s4_pointwise_run.txt")
-    b1941_first_row_min = float(re.search(r"ln det \(3,3,1\) exact\s+\|\s+28/28\s+\|\s+min ([0-9.e+-]+)", b1941_run_txt).group(1))
+    b1941_first_row_min = float(
+        re.search(r"ln det, weights 3,3,1, exact weight\s+positive at 28 of 28 points\s+min ([0-9.e+-]+)", b1941_run_txt).group(1)
+    )
     # Independent pointwise determinant vs trace check at pt_bulk
     Yu_S_b = np.array([[complex(pt_bulk["per_line_mats"][0]["Yu_S"][r, c]) for c in range(3)] for r in range(3)], dtype=np.complex128)
     Yd_St_b = np.array([[complex(pt_bulk["per_line_mats"][0]["Yd_St"][r, c]) for c in range(3)] for r in range(3)], dtype=np.complex128)
@@ -976,8 +978,9 @@ def run_independent_math_checks() -> Dict[str, Any]:
         + 4.0 * (float(np.sum(np.abs(Yd_np) ** 2)) - float(np.sum(np.abs(Yd_St_b) ** 2)))
     )
 
-    b1944_run_txt = git_show_text("frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/verification/read_the_look_run.txt")
-    b1944_wp_b_line = [ln for ln in b1944_run_txt.splitlines() if "W+|b (area)" in ln][0]
+    b1944_run_lines = git_show_text("frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/verification/read_the_look_run.txt").splitlines()
+    wp_b_idx = [idx for idx, ln in enumerate(b1944_run_lines) if ln.startswith("W+|b (area)")][0]
+    b1944_wp_b_line = b1944_run_lines[wp_b_idx + 1]
     # Pure-math monotonicity check (0 of 19: zero measured numbers touched!):
     wmb_idx5 = v2_vals["options"]["W-|b (area)"]["values"][5]
     wpb_idx5 = v2_vals["options"]["W+|b (area)"]["values"][5]
