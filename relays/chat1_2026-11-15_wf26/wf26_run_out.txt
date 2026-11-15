@@ -1,0 +1,89 @@
+option: mark, up S, down S
+   Re 0.00  Im 3  nearest permutation 012 (identity 012)  max dev 0.263   |V| rows 0.965 0.263 0.00126  0.263 0.964 0.0257  0.00622 0.025 1
+   Re 0.00  Im 4  nearest permutation 012 (identity 012)  max dev 0.04   |V| rows 0.999 0.04 2.27e-05  0.04 0.999 0.00991  0.00038 0.00991 1
+   Re 0.00  Im 6  nearest permutation 012 (identity 012)  max dev 0.00149   |V| rows 1 0.000908 2.2e-08  0.000908 1 0.00149  1.34e-06 0.00149 1
+   Re 0.00  Im 8  nearest permutation 012 (identity 012)  max dev 0.000224   |V| rows 1 2.09e-05 2.17e-11  2.09e-05 1 0.000224  4.68e-09 0.000224 1
+   Re 0.25  Im 3  nearest permutation 102 (identity 012)  max dev 0.235   |V| rows 0.235 0.972 0.0275  0.972 0.235 0.000732  0.00578 0.0269 1
+   Re 0.25  Im 4  nearest permutation 012 (identity 012)  max dev 0.0352   |V| rows 0.999 0.0352 2.16e-05  0.0352 0.999 0.0102  0.000338 0.0102 1
+   Re 0.25  Im 6  nearest permutation 012 (identity 012)  max dev 0.0015   |V| rows 1 0.000804 2.19e-08  0.000804 1 0.0015  1.18e-06 0.0015 1
+   Re 0.25  Im 8  nearest permutation 012 (identity 012)  max dev 0.000225   |V| rows 1 1.85e-05 2.17e-11  1.85e-05 1 0.000225  4.15e-09 0.000225 1
+   near the identity; off-diagonal exponents (Re 0.00): [[-6.560577994780651e-08, 0.6000094339840222, 1.1015902190397842], [0.6000092654760778, -2.376738761289669e-07, 0.3011621235417389], [0.899995857305013, 0.3011620592722266, -1.7206809321993806e-07]]
+   near the identity; off-diagonal exponents (Re 0.25): [[-5.137857891476775e-08, 0.5999262566097413, 1.101082407339811], [0.5999260879224204, -2.2595873049992874e-07, 0.301981175751165], [0.8999955197454512, 0.3019811260795913, -1.7458014793463645e-07]]
+   permutation at heights 6 and 8: 012
+option: mark, up S, down St
+   Re 0.00  Im 3  nearest permutation 201 (identity 012)  max dev 0.0845   |V| rows 0.0342 0.0389 0.999  0.996 0.0835 0.0366  0.0845 0.996 0.0367
+   Re 0.00  Im 4  nearest permutation 201 (identity 012)  max dev 0.0356   |V| rows 0.000133 0.0131 1  0.999 0.0356 0.000344  0.0356 0.999 0.0131
+   Re 0.00  Im 6  nearest permutation 201 (identity 012)  max dev 0.00562   |V| rows 3.29e-07 0.00205 1  1 0.00562 1.13e-05  0.00562 1 0.00205
+   Re 0.00  Im 8  nearest permutation 201 (identity 012)  max dev 0.000866   |V| rows 6.43e-10 0.00032 1  1 0.000866 2.77e-07  0.000866 1 0.00032
+   Re 0.25  Im 3  nearest permutation 021 (identity 012)  max dev 0.0587   |V| rows 0.998 0.0587 0.00176  0.00183 0.0199 1  0.0587 0.998 0.0199
+   Re 0.25  Im 4  nearest permutation 201 (identity 012)  max dev 0.0297   |V| rows 0.000236 0.00946 1  1 0.0297 0.000405  0.0297 1 0.00945
+   Re 0.25  Im 6  nearest permutation 201 (identity 012)  max dev 0.00538   |V| rows 4.86e-07 0.00191 1  1 0.00538 1.06e-05  0.00538 1 0.00191
+   Re 0.25  Im 8  nearest permutation 201 (identity 012)  max dev 0.000856   |V| rows 9.78e-10 0.000314 1  1 0.000856 2.69e-07  0.000856 1 0.000314
+   permutation at heights 6 and 8: 201
+option: mark, up St, down S
+   Re 0.00  Im 3  nearest permutation 120 (identity 012)  max dev 0.319   |V| rows 0.247 0.915 0.319  0.108 0.304 0.947  0.963 0.266 0.0459
+   Re 0.00  Im 4  nearest permutation 120 (identity 012)  max dev 0.0403   |V| rows 0.0403 0.998 0.0392  0.0165 0.0398 0.999  0.999 0.0397 0.0179
+   Re 0.00  Im 6  nearest permutation 120 (identity 012)  max dev 0.00426   |V| rows 0.000909 1 0.00426  0.0028 0.00426 1  1 0.000897 0.00281
+   Re 0.00  Im 8  nearest permutation 120 (identity 012)  max dev 0.000643   |V| rows 2.09e-05 1 0.000643  0.000433 0.000643 1  1 2.07e-05 0.000433
+   Re 0.25  Im 3  nearest permutation 120 (identity 012)  max dev 0.235   |V| rows 0.235 0.971 0.0497  0.0242 0.0533 0.998  0.972 0.234 0.0311
+   Re 0.25  Im 4  nearest permutation 120 (identity 012)  max dev 0.0355   |V| rows 0.0355 0.999 0.0227  0.0142 0.0231 1  0.999 0.0353 0.0149
+   Re 0.25  Im 6  nearest permutation 120 (identity 012)  max dev 0.00393   |V| rows 0.000805 1 0.00393  0.00269 0.00393 1  1 0.000805 0.00269
+   Re 0.25  Im 8  nearest permutation 120 (identity 012)  max dev 0.000632   |V| rows 1.85e-05 1 0.000632  0.000428 0.000632 1  1 1.86e-05 0.000428
+   permutation at heights 6 and 8: 120
+option: mark, up St, down St
+   Re 0.00  Im 3  nearest permutation 012 (identity 012)  max dev 0.29   |V| rows 0.957 0.29 0.0045  0.29 0.957 0.0148  0.000145 0.0155 1
+   Re 0.00  Im 4  nearest permutation 012 (identity 012)  max dev 0.0128   |V| rows 1 0.0128 6.92e-05  0.0128 1 0.00546  1.01e-06 0.00546 1
+   Re 0.00  Im 6  nearest permutation 012 (identity 012)  max dev 0.000765   |V| rows 1 0.000122 9.29e-08  0.000122 1 0.000765  1.11e-10 0.000765 1
+   Re 0.00  Im 8  nearest permutation 012 (identity 012)  max dev 0.000113   |V| rows 1 1.49e-06 1.68e-10  1.49e-06 1 0.000113  1.58e-14 0.000113 1
+   Re 0.25  Im 3  nearest permutation 012 (identity 012)  max dev 0.0544   |V| rows 0.999 0.0544 0.00093  0.0544 0.998 0.0165  8.72e-05 0.0165 1
+   Re 0.25  Im 4  nearest permutation 012 (identity 012)  max dev 0.0122   |V| rows 1 0.0122 7.11e-05  0.0122 1 0.00582  6.04e-07 0.00582 1
+   Re 0.25  Im 6  nearest permutation 012 (identity 012)  max dev 0.000784   |V| rows 1 0.000178 1.4e-07  0.000178 1 0.000784  6.36e-11 0.000784 1
+   Re 0.25  Im 8  nearest permutation 012 (identity 012)  max dev 0.000114   |V| rows 1 2.28e-06 2.6e-10  2.28e-06 1 0.000114  9.46e-15 0.000114 1
+   near the identity; off-diagonal exponents (Re 0.00): [[-1.1764549337322491e-09, 0.7006172781037725, 1.0048554683648667], [0.7006173235803119, -4.671252031864292e-08, 0.30433256610207804], [nan, 0.3043325672770258, -4.5536065305796274e-08]]
+   near the identity; off-diagonal exponents (Re 0.25): [[-2.523330448066302e-09, 0.6933956922985853, 1.0004535256271936], [0.6933957401814631, -5.042131395538006e-08, 0.3070807805717836], [nan, 0.3070807830943344, -4.7897983632583205e-08]]
+   permutation at heights 6 and 8: 012
+option: twin, up S, down S
+   Re 0.00  Im 3  nearest permutation 012 (identity 012)  max dev 0.241   |V| rows 1 0.011 0.00245  0.0112 0.97 0.241  0.00151 0.241 0.971
+   Re 0.00  Im 4  nearest permutation 012 (identity 012)  max dev 0.199   |V| rows 1 0.000578 0.00012  0.00059 0.98 0.199  1.72e-05 0.199 0.98
+   Re 0.00  Im 6  nearest permutation 012 (identity 012)  max dev 0.115   |V| rows 1 2.05e-06 2.4e-07  2.07e-06 0.993 0.115  2.48e-09 0.115 0.993
+   Re 0.00  Im 8  nearest permutation 012 (identity 012)  max dev 0.0626   |V| rows 1 7.23e-09 4.54e-10  7.25e-09 0.998 0.0626  5.35e-13 0.0626 0.998
+   Re 0.25  Im 3  nearest permutation 012 (identity 012)  max dev 0.239   |V| rows 1 0.0141 0.00234  0.0142 0.971 0.239  0.00141 0.239 0.971
+   Re 0.25  Im 4  nearest permutation 012 (identity 012)  max dev 0.199   |V| rows 1 0.00062 0.000116  0.000631 0.98 0.199  1.52e-05 0.199 0.98
+   Re 0.25  Im 6  nearest permutation 012 (identity 012)  max dev 0.115   |V| rows 1 2.01e-06 2.32e-07  2.02e-06 0.993 0.115  1.77e-09 0.115 0.993
+   Re 0.25  Im 8  nearest permutation 012 (identity 012)  max dev 0.0626   |V| rows 1 7.01e-09 4.4e-10  7.03e-09 0.998 0.0626  2.97e-13 0.0626 0.998
+   near the identity; off-diagonal exponents (Re 0.00): [[-3.4033702066519054e-13, 0.8990540408050576, 0.9977957003240853], [0.8998188246523317, -0.0007549671059722677, 0.09737073176533455], [nan, 0.0973707317656784, -0.0007549671056318817]]
+   near the identity; off-diagonal exponents (Re 0.25): [[-3.2484065146713854e-13, 0.9002276181089575, 0.997725484609054], [0.900974839403434, -0.0007540450073484673, 0.09731574876560352], [nan, 0.09731574876592632, -0.0007540450070237191]]
+   permutation at heights 6 and 8: 012
+option: twin, up S, down St
+   Re 0.00  Im 3  nearest permutation 120 (identity 012)  max dev 0.644   |V| rows 0.0804 0.761 0.644  0.169 0.632 0.756  0.982 0.145 0.118
+   Re 0.00  Im 4  nearest permutation 120 (identity 012)  max dev 0.552   |V| rows 0.0112 0.834 0.552  0.119 0.548 0.828  0.993 0.0677 0.0986
+   Re 0.00  Im 6  nearest permutation 120 (identity 012)  max dev 0.341   |V| rows 0.000248 0.94 0.341  0.0636 0.34 0.938  0.998 0.0217 0.0598
+   Re 0.00  Im 8  nearest permutation 120 (identity 012)  max dev 0.19   |V| rows 5.7e-06 0.982 0.19  0.0339 0.19 0.981  0.999 0.00645 0.0333
+   Re 0.25  Im 3  nearest permutation 120 (identity 012)  max dev 0.644   |V| rows 0.0781 0.761 0.644  0.203 0.622 0.756  0.976 0.184 0.116
+   Re 0.25  Im 4  nearest permutation 120 (identity 012)  max dev 0.551   |V| rows 0.0109 0.835 0.551  0.123 0.546 0.829  0.992 0.0749 0.0983
+   Re 0.25  Im 6  nearest permutation 120 (identity 012)  max dev 0.341   |V| rows 0.00024 0.94 0.341  0.0637 0.34 0.938  0.998 0.0219 0.0598
+   Re 0.25  Im 8  nearest permutation 120 (identity 012)  max dev 0.19   |V| rows 5.52e-06 0.982 0.19  0.0339 0.19 0.981  0.999 0.00645 0.0333
+   permutation at heights 6 and 8: 120
+option: twin, up St, down S
+   Re 0.00  Im 3  nearest permutation 201 (identity 012)  max dev 0.386   |V| rows 0.00224 0.386 0.923  0.944 0.303 0.129  0.329 0.871 0.364
+   Re 0.00  Im 4  nearest permutation 201 (identity 012)  max dev 0.314   |V| rows 5.54e-05 0.314 0.95  0.969 0.235 0.0775  0.247 0.92 0.304
+   Re 0.00  Im 6  nearest permutation 201 (identity 012)  max dev 0.178   |V| rows 1.28e-07 0.178 0.984  0.992 0.127 0.023  0.129 0.976 0.177
+   Re 0.00  Im 8  nearest permutation 201 (identity 012)  max dev 0.0964   |V| rows 2.45e-10 0.0964 0.995  0.998 0.0677 0.00656  0.0681 0.993 0.0962
+   Re 0.25  Im 3  nearest permutation 201 (identity 012)  max dev 0.381   |V| rows 0.00142 0.381 0.924  0.946 0.3 0.125  0.325 0.874 0.36
+   Re 0.25  Im 4  nearest permutation 201 (identity 012)  max dev 0.313   |V| rows 4.33e-05 0.313 0.95  0.969 0.235 0.0774  0.248 0.92 0.303
+   Re 0.25  Im 6  nearest permutation 201 (identity 012)  max dev 0.178   |V| rows 1.23e-07 0.178 0.984  0.992 0.127 0.023  0.129 0.976 0.177
+   Re 0.25  Im 8  nearest permutation 201 (identity 012)  max dev 0.0964   |V| rows 2.37e-10 0.0964 0.995  0.998 0.0678 0.00657  0.0681 0.993 0.0962
+   permutation at heights 6 and 8: 201
+option: twin, up St, down St
+   Re 0.00  Im 3  nearest permutation 012 (identity 012)  max dev 0.355   |V| rows 0.994 0.109 0.000292  0.102 0.929 0.355  0.0387 0.353 0.935
+   Re 0.00  Im 4  nearest permutation 012 (identity 012)  max dev 0.329   |V| rows 1 0.0136 1.16e-05  0.0128 0.944 0.329  0.00447 0.329 0.944
+   Re 0.00  Im 6  nearest permutation 012 (identity 012)  max dev 0.217   |V| rows 1 0.000264 1.29e-08  0.000257 0.976 0.217  5.72e-05 0.217 0.976
+   Re 0.00  Im 8  nearest permutation 012 (identity 012)  max dev 0.123   |V| rows 1 5.81e-06 1.33e-11  5.76e-06 0.992 0.123  7.14e-07 0.123 0.992
+   Re 0.25  Im 3  nearest permutation 012 (identity 012)  max dev 0.351   |V| rows 0.994 0.106 0.000198  0.0989 0.931 0.351  0.0372 0.349 0.936
+   Re 0.25  Im 4  nearest permutation 012 (identity 012)  max dev 0.327   |V| rows 1 0.0132 6.15e-06  0.0125 0.945 0.327  0.00432 0.327 0.945
+   Re 0.25  Im 6  nearest permutation 012 (identity 012)  max dev 0.216   |V| rows 1 0.000256 6.41e-09  0.000249 0.976 0.216  5.53e-05 0.216 0.976
+   Re 0.25  Im 8  nearest permutation 012 (identity 012)  max dev 0.123   |V| rows 1 5.63e-06 6.51e-12  5.58e-06 0.992 0.123  6.91e-07 0.123 0.992
+   near the identity; off-diagonal exponents (Re 0.00): [[-5.525365318398238e-09, 0.6072366902968952, 1.0956326569125447], [0.604614707687907, -0.0026213894271218084, 0.09034614561401591], [0.6975943187972173, 0.09034614008778738, -0.0026213839017991927]]
+   near the identity; off-diagonal exponents (Re 0.25): [[-5.1937421759041135e-09, 0.6072996031895045, 1.0968268073450154], [0.6046902473349941, -0.0026091155112088612, 0.09014810634611965], [0.6974525048063239, 0.09014810115204538, -0.002609110317483019]]
+   permutation at heights 6 and 8: 012
+Z1 holds: False | Z2 holds: True | options whose high permutation is not the identity: 4 of 8
