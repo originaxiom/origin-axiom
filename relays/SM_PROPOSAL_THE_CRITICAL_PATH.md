@@ -21,8 +21,8 @@ judged. Nothing here compares a value with a measured number.*
   - the amplitude read-out (A2-AMP);
   - frame D;
   - SM-C13b.
-- **Declared open premises:** tree level at M_Z (A6; P-590, P-722), GENESIS's dictionary (FK11), and three (FK14). B1653
-  builds three generations from the quaternion units i, j and k, as a construction, not a count.
+- **Declared open premises:** tree level at M_Z (A6; P-590, P-722), GENESIS's dictionary (FK11), and three (FK14).
+  B1653 builds three generations from the quaternion units i, j and k, as a construction, not a count.
 
 ## 2. What the process cost and caught in this seat's last day (measured)
 
@@ -37,8 +37,9 @@ judged. Nothing here compares a value with a measured number.*
   - the look's own reproduction (SM-C15);
   - four overstatements in this seat's informal account, which the record contradicted.
 
-**Judged:** with this many open choices, false positives are the main risk, and the process stops them. The bottleneck
-is scientific (GENESIS's GAP5, and the weight), not procedural. But the overhead is spent evenly where it could be tiered.
+**Judged:** with this many open choices, false positives are the main risk, and the process stops them. The
+bottleneck is scientific (GENESIS's GAP5, and the weight), not procedural. But the overhead is spent evenly where it
+could be tiered.
 
 ## 3. Proposed
 
