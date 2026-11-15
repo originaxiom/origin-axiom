@@ -1,0 +1,427 @@
+{
+  "controls": {
+    "C-R83-1": {
+      "char_perturbation_rejected": true,
+      "control": "C-R83-1",
+      "exact_accepted": true,
+      "line_shift_rejected": true,
+      "passed": true
+    },
+    "C-R83-2": {
+      "control": "C-R83-2",
+      "genuine_classification": "CAUGHT",
+      "passed": true,
+      "vacuous_classification": "CANNOT_FAIL"
+    },
+    "C-R83-3": {
+      "binary64_breaks_at_y20": true,
+      "binary64_float_arg_rel_diff_y12": 1.3443818385260227e-106,
+      "binary64_float_arg_reproduces_1e18_floor": false,
+      "binary64_y20_lightest_rel_diff": 0.21183680170690278,
+      "control": "C-R83-3",
+      "mpmath_exact_rational_holds_to_1e55": true,
+      "mpmath_exact_worst_rel_diff": 2.8953270376098707e-103,
+      "passed": false,
+      "single_line_breaks_invariance": true,
+      "single_line_rel_diff": 1.3073680062799675
+    },
+    "all_controls_passed": false
+  },
+  "governance_and_doc_checks": {
+    "b1928_header_still_open_while_verdict_proved": true,
+    "b1937_actual_test_count": 10,
+    "b1937_findings_line76_stale_A1_to_A12": false,
+    "b1937_reads_real_committed_files": false,
+    "b1937_rule_v2_stale_nine_joints": true,
+    "b1939_harvest_rows_still_marked_owed": [
+      1676,
+      1677,
+      1678,
+      1696,
+      1710,
+      1815
+    ],
+    "b1944_read_the_look_actual_files_read": 3,
+    "blind_arcs_b1937_b1944_instrument_mismatch": true,
+    "cited_harvest_rows_missing_commit_pin": [
+      1755,
+      1768,
+      1794,
+      1797,
+      1800,
+      1801,
+      1802,
+      1804
+    ],
+    "scoreboard_c02_and_c06_truncated_at_300_chars": true,
+    "sweep_offrecord_tag_occurrences_in_body": 0
+  },
+  "independent_math_checks": {
+    "M_B1934_minus_S_with_quadratic_T_order": 120,
+    "M_B1934_test_passes_even_when_T_unplanted": true,
+    "M_B1934_unphased_S_with_quadratic_T_order": 240,
+    "M_B1935_complex_Rs_group_order_is_24_S4": true,
+    "M_B1935_modulus_Rs_group_order_is_6_S3": true,
+    "M_B1935_signed_channel_laws_hold": false,
+    "M_B1936_deg0_yukawa_parity_sign": -1,
+    "M_B1938_control_run_max_z_is_6_4_not_2_4": true,
+    "M_B1938_riemann_sq_sum_zero": true,
+    "M_B1939_serre_S_phases_eighths_are_1_3_7": false,
+    "M_B1940_actual_max_dln": 0.06769290947134415,
+    "M_B1940_actual_max_dln_is_0068_not_0086": true,
+    "M_B1940_cusp_wm_is_5_5_7_over_12": true,
+    "M_B1940_cusp_wp_is_7_7_5_over_12_not_5_5_7": true,
+    "M_B1941_pointwise_det_pos_trace_neg": false,
+    "M_B1941_run_min_is_1_381_not_1_83": true,
+    "M_B1942_fiber_sizes_unique": [
+      8
+    ],
+    "M_B1942_is_8_to_1_not_6_to_1": true,
+    "M_B1942_order15_count": 192,
+    "M_B1942_order5_image_count": 24,
+    "M_B1943_RL_fixes_swapped_line": true,
+    "M_B1943_smith_LR_minus_I": [
+      1,
+      1
+    ],
+    "M_B1943_smith_LR_plus_I_is_1_5_not_1_3": true,
+    "M_B1944_pure_monotonicity_wpb_gt_wmb": true,
+    "M_B1944_run_txt_has_17_6_not_7_6": true,
+    "M_Haar_broken_su2_scrambles": true,
+    "M_Haar_covariant_invariance_holds": true,
+    "M_Haar_max_covariant_err": 1.2212453270876722e-15,
+    "M_S03_m003_H1_torsion_is_5_not_1": true
+  },
+  "lock_and_mutation_suite": {
+    "arc_baseline": [
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "3 passed in 0.07s",
+        "target": "frontier/B1930_the_foundation_at_version_1_68/verification/test_b1930_the_foundation_at_version_1_68.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "4 passed in 1.78s",
+        "target": "frontier/B1932_the_big_runs_values_committed_frame_c_with_the_exact_weight_in_four_declared_options/verification/test_b1932_values_and_seal.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "3 passed in 0.06s",
+        "target": "frontier/B1933_the_foundation_at_version_1_69/verification/test_b1933_the_foundation_at_version_1_69.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "4 passed in 0.52s",
+        "target": "frontier/B1934_level_fives_weil_representation_lies_in_su3_x_su2_and_the_hand_is_the_golden_fields_quadratic_character/verification/test_b1934_level_five_structure.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "3 passed in 16.67s",
+        "target": "frontier/B1935_the_modular_group_permutes_the_frames_channels_as_s3_around_a_fixed_centre_and_the_sectors_coincide_only_at_line_orders_two_to_seven/verification/test_b1935_channels_centre_sectors.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "2 passed in 0.24s",
+        "target": "frontier/B1936_matter_sits_in_the_even_half_of_lambda_c5_and_parity_consistency_would_fix_the_higgs_world/verification/test_b1936_parity.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "10 passed in 8.25s",
+        "target": "frontier/B1937_the_big_runs_rule_amended_before_the_look/verification/test_b1937_rule_v2.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "6 passed in 1.24s",
+        "target": "frontier/B1938_frame_cs_coupling_is_a_szego_kernel_and_its_read_out_does_not_see_the_gauge_group/verification/test_b1938_coupling_and_gauge_class.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "5 passed in 0.07s",
+        "target": "frontier/B1939_the_agy_seats_unharvested_claims_recomputed/verification/test_b1939_five_claims.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "1 passed in 0.03s",
+        "target": "frontier/B1940_the_area_options_corrected_in_extended_precision/verification/test_b1940_compare_area_second.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "11 passed in 8.75s",
+        "target": "frontier/B1940_the_area_options_corrected_in_extended_precision/verification/test_b1940_corrected_values_and_v3.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "1 passed in 0.02s",
+        "target": "frontier/B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/verification/test_b1941_s4_pointwise.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "2 passed in 0.06s",
+        "target": "frontier/B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/verification/test_b1942_level_fifteen.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "2 passed in 11.94s",
+        "target": "frontier/B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/verification/test_b1943_fixed_lines_and_the_board.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "1 passed in 0.03s",
+        "target": "frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/verification/test_b1944_the_look_read.py"
+      }
+    ],
+    "arc_locks_passed_count": 15,
+    "arc_locks_total": 15,
+    "b1834_fails_live_at_b35eac607": true,
+    "b1834_passes_once_22_0_stripped": true,
+    "b1931_lock_count": 0,
+    "extra_baseline": [
+      {
+        "passed": false,
+        "returncode": 1,
+        "summary_line": "1 failed, 4 passed in 0.58s",
+        "target": "frontier/B1834_the_total_inputs_scoreboard/verification/test_b1834_the_total_inputs_scoreboard.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "4 passed in 1.35s",
+        "target": "tests/test_review_waiver_names_its_anchor.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "4 passed in 1.13s",
+        "target": "tests/test_the_terms_in_short.py"
+      },
+      {
+        "passed": true,
+        "returncode": 0,
+        "summary_line": "5 passed in 1.07s",
+        "target": "tests/test_negative_second_computation.py"
+      }
+    ],
+    "gate_and_lock_probes": {
+      "b1930_distinct_7th_path_not_refused": true,
+      "b1944_without_provisional_bypasses_gate": true,
+      "errata_existing_line_new_inner_word_bypasses": true,
+      "public_face_curly_quotes_noop": true,
+      "selection_paren_false_negative": true,
+      "selection_paren_false_positive": true,
+      "waiver_if_a_drops_none_anchor": true
+    },
+    "mut_b1932_area_corrupted_still_passes": true,
+    "mut_b1932_move_corrupted_caught": true,
+    "mut_b1938_minus100_diff_still_passes": true,
+    "mut_b1940_area_mp_corrupted_still_passes": true,
+    "mut_b1944_48_cells_corrupted_still_passes": true
+  },
+  "pinned_commit": "b35eac607",
+  "quote_verification": {
+    "all_exact": true,
+    "exact_matches": 20,
+    "results": [
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-01",
+        "in_range": true,
+        "item": "B1938",
+        "line": 83,
+        "path": "frontier/B1938_frame_cs_coupling_is_a_szego_kernel_and_its_read_out_does_not_see_the_gauge_group/FINDINGS.md"
+      },
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-02",
+        "in_range": true,
+        "item": "B1940",
+        "line": 73,
+        "path": "frontier/B1940_the_area_options_corrected_in_extended_precision/FINDINGS.md"
+      },
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-03",
+        "in_range": true,
+        "item": "B1941",
+        "line": 33,
+        "path": "frontier/B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/FINDINGS.md"
+      },
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-04",
+        "in_range": true,
+        "item": "B1942",
+        "line": 23,
+        "path": "frontier/B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/FINDINGS.md"
+      },
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-05",
+        "in_range": true,
+        "item": "B1943",
+        "line": 21,
+        "path": "frontier/B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md"
+      },
+      {
+        "criterion": 2,
+        "exact_match": true,
+        "id": "F-06",
+        "in_range": true,
+        "item": "B1944",
+        "line": 56,
+        "path": "frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-07",
+        "in_range": true,
+        "item": "Scoreboard S03 / B1943",
+        "line": 19,
+        "path": "docs/TOTAL_INPUTS_SCOREBOARD.md"
+      },
+      {
+        "criterion": 4,
+        "exact_match": true,
+        "id": "F-08",
+        "in_range": true,
+        "item": "Scoreboard Frame C / test_b1834",
+        "line": 122,
+        "path": "docs/TOTAL_INPUTS_SCOREBOARD.md"
+      },
+      {
+        "criterion": 4,
+        "exact_match": true,
+        "id": "F-09",
+        "in_range": true,
+        "item": "B1932",
+        "line": 22,
+        "path": "frontier/B1932_the_big_runs_values_committed_frame_c_with_the_exact_weight_in_four_declared_options/verification/test_b1932_values_and_seal.py"
+      },
+      {
+        "criterion": 4,
+        "exact_match": true,
+        "id": "F-10",
+        "in_range": true,
+        "item": "B1934",
+        "line": 21,
+        "path": "frontier/B1934_level_fives_weil_representation_lies_in_su3_x_su2_and_the_hand_is_the_golden_fields_quadratic_character/verification/test_b1934_level_five_structure.py"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-11",
+        "in_range": true,
+        "item": "B1935",
+        "line": 25,
+        "path": "frontier/B1935_the_modular_group_permutes_the_frames_channels_as_s3_around_a_fixed_centre_and_the_sectors_coincide_only_at_line_orders_two_to_seven/FINDINGS.md"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-12",
+        "in_range": true,
+        "item": "B1936",
+        "line": 24,
+        "path": "frontier/B1936_matter_sits_in_the_even_half_of_lambda_c5_and_parity_consistency_would_fix_the_higgs_world/FINDINGS.md"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-13",
+        "in_range": true,
+        "item": "B1937",
+        "line": 46,
+        "path": "frontier/B1937_the_big_runs_rule_amended_before_the_look/FINDINGS.md"
+      },
+      {
+        "criterion": 4,
+        "exact_match": true,
+        "id": "F-14",
+        "in_range": true,
+        "item": "B1938",
+        "line": 14,
+        "path": "frontier/B1938_frame_cs_coupling_is_a_szego_kernel_and_its_read_out_does_not_see_the_gauge_group/verification/test_b1938_coupling_and_gauge_class.py"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-15",
+        "in_range": true,
+        "item": "B1939",
+        "line": 119,
+        "path": "frontier/B1939_the_agy_seats_unharvested_claims_recomputed/FINDINGS.md"
+      },
+      {
+        "criterion": 5,
+        "exact_match": true,
+        "id": "F-16",
+        "in_range": true,
+        "item": "B1940",
+        "line": 26,
+        "path": "frontier/B1940_the_area_options_corrected_in_extended_precision/arc_verdict.json"
+      },
+      {
+        "criterion": 8,
+        "exact_match": true,
+        "id": "F-17",
+        "in_range": true,
+        "item": "B1944",
+        "line": 22,
+        "path": "frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/arc_verdict.json"
+      },
+      {
+        "criterion": 8,
+        "exact_match": true,
+        "id": "F-18",
+        "in_range": true,
+        "item": "B1933 / B1930 / window mends",
+        "line": 26,
+        "path": "frontier/B1933_the_foundation_at_version_1_69/arc_verdict.json"
+      },
+      {
+        "criterion": 1,
+        "exact_match": true,
+        "id": "F-19",
+        "in_range": true,
+        "item": "THE_SWEEP_OF_2026-11-14 / companion pages",
+        "line": 1023,
+        "path": "docs/THE_SWEEP_OF_2026-11-14.md"
+      },
+      {
+        "criterion": 4,
+        "exact_match": true,
+        "id": "F-20",
+        "in_range": true,
+        "item": "tests/test_review_waiver_names_its_anchor.py & gates.py",
+        "line": 59,
+        "path": "tests/test_review_waiver_names_its_anchor.py"
+      }
+    ],
+    "total_quotes": 20
+  },
+  "sandbox_info": {
+    "forbidden_empirical_dirs_present": 0,
+    "frontier_dir_count": 47
+  },
+  "window_base": "73e71e277"
+}
