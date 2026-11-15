@@ -1,0 +1,7 @@
+OUTCOME (governing, tau=i, mark, canonical end): FAIL
+chi2_7 7819.608 (bar 22.60) | worst factor 12757.701 (bar 3) | calibration chi2_7 0.2607, worst factor 0.7362
+pulls (nine rows, compare.py's order): ['47.25', '47.77', '29.23', '22.74', '27.32', '40.12', '-1.06', '29.67', '32.44']
+reported, P-341: chi2_six 8242.077, chi2_nine 10175.907
+reported end -0.3 (reported): outcome FAIL, chi2_7 7996.109, worst factor 14160.952, calibrations 0.2575 / 0.7282
+reported end +0.3 (reported): outcome FAIL, chi2_7 7663.793, worst factor 11589.572, calibrations 0.2637 / 0.7410
+written; sha256 469394b842c3cbccff1338257a96c4222291704d80ed6045c12e77b1310b5924

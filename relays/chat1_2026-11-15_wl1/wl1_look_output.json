@@ -1,0 +1,122 @@
+{
+ "rule": "card W-L1 (82c94361d): version 3's statistic, bar after five options",
+ "bars": {
+  "chi2_seven": 22.600670862174574,
+  "chi2_six": 16.75,
+  "chi2_nine": 21.67,
+  "factor": 3.0,
+  "calibration": 0.01
+ },
+ "calibration": {
+  "N": 4000,
+  "seed": 20261115,
+  "law": "B1720 compare.py's random targets"
+ },
+ "governing": {
+  "tau=i, mark, canonical end": {
+   "chi2_seven": 7819.608367596627,
+   "worst_factor_seven": 12757.701469128551,
+   "chi2_six": 8242.077253514997,
+   "worst_factor_six": 12757.701469128551,
+   "chi2_nine": 10175.906835950227,
+   "worst_factor_nine": 12757.701469128551,
+   "pulls_nine": [
+    47.251231099248024,
+    47.76813662336269,
+    29.22500007663381,
+    22.742129161961984,
+    27.320440782800063,
+    40.12345926994726,
+    -1.056479992121519,
+    29.67259615218568,
+    32.43841041189866
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "calibration": {
+    "chi2_seven": 0.26075,
+    "worst_factor_seven": 0.73625,
+    "chi2_six": 0.1135,
+    "worst_factor_six": 0.7185,
+    "chi2_nine": 0.082,
+    "worst_factor_nine": 0.7185
+   },
+   "outcome": "FAIL",
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false
+   }
+  }
+ },
+ "reported": {
+  "end -0.3 (reported)": {
+   "chi2_seven": 7996.109428698025,
+   "worst_factor_seven": 14160.951548263118,
+   "chi2_six": 8508.576105266495,
+   "worst_factor_six": 14160.951548263118,
+   "chi2_nine": 10504.002762189208,
+   "worst_factor_nine": 14160.951548263118,
+   "pulls_nine": [
+    47.20127705305896,
+    48.295406961409725,
+    29.162419605774755,
+    24.286398775944985,
+    27.23740902152944,
+    42.02400365606649,
+    -0.13639716832568152,
+    29.703130650616817,
+    33.363634128907094
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "calibration": {
+    "chi2_seven": 0.2575,
+    "worst_factor_seven": 0.72825,
+    "chi2_six": 0.11225,
+    "worst_factor_six": 0.70525,
+    "chi2_nine": 0.08175,
+    "worst_factor_nine": 0.70525
+   },
+   "outcome": "FAIL",
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false
+   }
+  },
+  "end +0.3 (reported)": {
+   "chi2_seven": 7663.792521994783,
+   "worst_factor_seven": 11589.57224466702,
+   "chi2_six": 8004.944586237569,
+   "worst_factor_six": 11589.57224466702,
+   "chi2_nine": 9885.176192320963,
+   "worst_factor_nine": 11589.57224466702,
+   "pulls_nine": [
+    47.29392693848883,
+    47.282924272991906,
+    29.279846308579106,
+    21.304015184672746,
+    27.393210756802528,
+    38.3535614351468,
+    -1.9171861470407054,
+    29.645484560359098,
+    31.58640923787478
+   ],
+   "passes_governing": false,
+   "meets_coarse_seven": false,
+   "calibration": {
+    "chi2_seven": 0.26375,
+    "worst_factor_seven": 0.741,
+    "chi2_six": 0.114,
+    "worst_factor_six": 0.73,
+    "chi2_nine": 0.083,
+    "worst_factor_nine": 0.73
+   },
+   "outcome": "FAIL",
+   "reported_P341": {
+    "chi2_six_below_16.75": false,
+    "chi2_nine_below_21.67": false
+   }
+  }
+ },
+ "look_ledger": "36 sealed decisive cells and 32 post-hoc scans (Review 70), six point-based value looks (A9), the big run (B1944), and this look"
+}
