@@ -300,7 +300,7 @@ by a quote that the builder checks.*
 
 | rank | row | class | what rests on it |
 |---|---|---|---|
-| 1 | P-853 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | the frame loses precision above Im tau about 11; the big run's area options are corrected in extended precision before the look, which waits for them. |
+| 1 | P-861 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is deranged by its mixed Higgs readings. (P-853, the precision debt, closed 2026-11-15.) |
 | 2 | P-355 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D. |
 | 3 | P-596 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count. |
 | 4 | P-384 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick. |

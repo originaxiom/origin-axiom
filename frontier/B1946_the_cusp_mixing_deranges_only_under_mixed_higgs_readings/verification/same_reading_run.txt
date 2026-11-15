@@ -1,0 +1,14 @@
+height 6.0:
+  up S  down S : smallest diagonal |V| 9.93e-01, largest off-diagonal 1.16e-01
+  up St down St: smallest diagonal |V| 9.75e-01, largest off-diagonal 2.22e-01
+  up St down S : smallest diagonal |V| 1.25e-07, largest off-diagonal 1.00e+00
+  up S  down St: smallest diagonal |V| 2.58e-07, largest off-diagonal 1.00e+00
+  |U(S)^H U(S~)| in up, its patterns: [(((0.0, 0.003, 1.0), (1.0, 0.006, 0.0), (0.006, 1.0, 0.003)), 8), (((1.0, 0.0, 0.0), (0.0, 0.0, 1.0), (0.0, 1.0, 0.0)), 4), (((0.0, 0.992, 0.125), (0.063, 0.125, 0.99), (0.998, 0.008, 0.063)), 2)]
+  |U(S)^H U(S~)| in down, its patterns: [(((0.001, 0.002, 1.0), (1.0, 0.004, 0.001), (0.004, 1.0, 0.002)), 6), (((1.0, 0.0, 0.0), (0.0, 0.0, 1.0), (0.0, 1.0, 0.0)), 4), (((0.0, 0.94, 0.341), (0.179, 0.336, 0.925), (0.984, 0.061, 0.168)), 4)]
+height 30.0:
+  up S  down S : smallest diagonal |V| 1.00e+00, largest off-diagonal 6.28e-05
+  up St down St: smallest diagonal |V| 7.24e-39, largest off-diagonal 1.00e+00
+  up St down S : smallest diagonal |V| 2.32e-40, largest off-diagonal 1.00e+00
+  up S  down St: smallest diagonal |V| 3.61e-40, largest off-diagonal 1.00e+00
+  |U(S)^H U(S~)| in up, its patterns: [(((0.0, 1.0, 0.0), (0.0, 0.0, 1.0), (1.0, 0.0, 0.0)), 14), (((0.0, 0.0, 1.0), (1.0, 0.0, 0.0), (0.0, 1.0, 0.0)), 10)]
+  |U(S)^H U(S~)| in down, its patterns: [(((0.0, 1.0, 0.0), (0.0, 0.0, 1.0), (1.0, 0.0, 0.0)), 12), (((0.0, 0.0, 1.0), (1.0, 0.0, 0.0), (0.0, 1.0, 0.0)), 10), (((1.0, 0.0, 0.0), (0.0, 0.0, 1.0), (0.0, 1.0, 0.0)), 2)]

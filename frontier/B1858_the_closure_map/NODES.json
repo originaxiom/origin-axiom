@@ -6949,26 +6949,26 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:853",
+  "id": "P:861",
   "layer": "15 debts",
   "kind": "debt",
   "grade": "DEBT",
-  "text": "the frame loses precision above Im tau about 11; the big run's area options are corrected in extended precision before the look, which waits for them.",
+  "text": "frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is deranged by its mixed Higgs readings. (P-853, the precision debt, closed 2026-11-15.)",
   "pins": [
    [
     "docs/POINT_REGISTER.md",
-    ". P-853 — "
+    ". P-861 — "
    ]
   ],
   "rows": [
-   "P-853"
+   "P-861"
   ],
   "arcs": [],
   "note": "",
   "rank": 1,
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
-   "P-853": "QUEUED"
+   "P-861": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

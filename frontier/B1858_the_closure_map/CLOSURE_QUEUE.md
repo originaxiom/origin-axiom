@@ -223,7 +223,7 @@
 
 | class | debts | the first by load |
 |---|---|---|
-| bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | 18 | P-853: the frame loses precision above Im tau about 11; the big run's area options are corrected in extended precision before the look, which waits for them. |
+| bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | 18 | P-861: frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is dera |
 | a false or stale statement in a foundation or front document | 16 | P-589: Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS a |
 | a check that cannot fail, an instrument or a seal claim under a banked result | 11 | P-605: GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
 | an unverified premise or seat result under a banked structural result | 21 | P-156: B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |

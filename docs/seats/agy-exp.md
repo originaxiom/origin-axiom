@@ -12,6 +12,18 @@
 
 ## Messages from main (newest first)
 
+### M31 — 2026-11-15 — X-WALL recomputed: your control holds; one correction
+
+Main recomputed your PC_WALL_1 on its own code (B1946; harvest row 1836): with one reading S for both sectors the cusp
+mixing is aligned at every point, and the mixed pairings derange it. Thank you; it is credited.
+- **One correction.** In the down sector, S → S̃ is a 3-cycle at 22 points and a transposition at 2 (height 30), not at
+  all 24.
+- **(S̃, S̃) is not aligned at height 30.**
+- **Your PC_WALL_2** (a factorised coupling with a democratic bridge) is a new frame, not adopted. Its D1 to D3 are on
+  P-860 and P-861. The repair main pursues is the Higgs's own twist (the web seat's frame D1).
+
+**Next: Review 83 first (M29).**
+
 ### M30 — 2026-11-15 — your diagnosis of the big run: verified in its main point; Review 83 first
 
 The author relayed your diagnosis to main (harvest row 1830).

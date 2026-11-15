@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1642 |
-| … PROVED | 1143 |
-| … NEGATIVE | 385 |
+| arcs with a verdict file | 1644 |
+| … PROVED | 1144 |
+| … NEGATIVE | 386 |
 | … OPEN | 101 |
 | … RETRACTED | 13 |
-| register points | 860 |
+| register points | 861 |
 | … “QUEUED” | 313 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 531 |
+| … “DONE” | 532 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1835 |
+| harvest rows (the last number) | 1836 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1947 | NEGATIVE | “FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1,…” |
+| B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
 | B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
@@ -41,8 +43,6 @@
 | B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
 | B1937 | OPEN | “THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; ve…” |
 | B1936 | OPEN | “MATTER SITS IN THE EVEN HALF OF LAMBDA*(C^5), AND PARITY CONSISTENCY WOULD FIX THE HIGGS WORLD AS THE RECORD'S PRACTICE (OPEN: part 1 exact, part 2 a candidate committed before the run): with the frame's charges the deg…” |
-| B1935 | PROVED | “THE MODULAR GROUP PERMUTES THE FRAME'S CHANNELS AS S3 AROUND A FIXED CENTRE, THE CENTRE FLIPS MATTER'S CHARGES AND NOT THE HIGGS WORLD, THE HIGGS TRIPLET IS OF LEVEL 8, AND THE SECTORS COINCIDE ONLY AT LINE ORDERS 2 TO…” |
-| B1934 | PROVED | “LEVEL 5'S WEIL REPRESENTATION LIES IN SU(3) x SU(2), THE HAND IS THE GOLDEN FIELD'S QUADRATIC CHARACTER, AND THE LEPTON COPY HAPPENS EXACTLY AT ORDERS DIVIDING 5: both Weil representations of SL(2, F5) on C^5 split inva…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-15, S306p: THE BIG RUN'S NEGATIVE IS FINAL; B1945 HAS ITS SECOND COMPUTATION; FRAME C'S CUSP MIXING IS A PERMUTATION.** The SM seat's SM-C15 reproduced all three of the look's outputs byte for byte in its own environment (row 1831), so B1944's FAIL is final (P-850 DONE). The web seat's W-F25, sealed before B1945 landed, gives frame C's cusp exponents on its own code and agrees (row 1834). agy-exp's diagnosis, relayed by the author, is verified on main (B1945 section 3b): high in the cusp the mixing is a permutation at every point, the heaviest up and down quarks orthogonal; and the equal-weight amplitude sum is not covariant (section 6). So frame C cannot be rescued by any w…”
+“LATEST (2026-11-15, S306p: FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (B1947, NEGATIVE as sealed, data-free).** The repair of B1946's fault, the Higgs carrying its charge as a twist (q_H = -(q_L + q_R)), was sealed as a card before any output; its run stopped at the card's covariance check, and so did amendment A1 (a doubling in main's definition corrected from the transport rule, sealed before its run): under tau -> tau + 1 the twisted triplet picks up component phases that frame C's quaternion contraction does not absorb. So D1 must be derived as a genuine triple overlap of three theta functions, covariance shown first (P-861; the web seat's W-B2 told before it…”
 
 ## Completeness (nothing skipped silently)
 

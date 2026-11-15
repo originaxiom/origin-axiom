@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1642** |
-| words of findings prose | **1,474,050** |
+| research arcs with findings | **1644** |
+| words of findings prose | **1,475,249** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1642** (100.0 %) |
+| arcs carrying an authored verdict | **1644** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,8 +33,8 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1143 |
-| NEGATIVE | 385 |
+| PROVED | 1144 |
+| NEGATIVE | 386 |
 | OPEN | 101 |
 | RETRACTED | 13 |
 
@@ -65,13 +65,13 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1945`** (2380 words, 0 locks)  
-“FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of |q| that depend only on the point's first coordinate, every cell of both generations given by B1788's closed form 1/2 - (||2 q_L a|| + ||2 q_R a||)/2 and its tropical rule (192 cells within 1.2e-3; B1659's determinant law holds on frame C to 1.8e-30), the slope-2/5 points W178's tuple (3/10, 4/5, 1/5, 11/20), so the exact weight and Theorem 90 do not move them; the averaged read-out's rates are the minima over the points (up 1/10 and 1/2, down 1/5 and 11/20 or 1/2), a pattern that mixes points and that no single census line has; the Higgs triplet is itself hierarchical in steps of q^(1/4); and high in the cusp the mixing |V| is a permutation at every point with |V_33| below 1e-4 (agy-exp's diagnosis, recomputed: the up sector's top residues sit in units j, k, the down sector's in 1, i), which gives B1940's averaged limits 7/12 and 5/12, so frame C's cusp fails on structure. B1944's pointer to a cusp-weighted read-out is corrected: the single lines' cusp limits (W178) and the best single tau on the order-5 lines (B1698) were already tried and failed. 0 of 19.”  
-`B1945_the_frames_cusp_exponents/FINDINGS.md`
+**PROVED — `B1946`** (693 words, 0 locks)  
+“FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal below 6.3e-5 at height 30; diagonal at least 0.993 at height 6), while the big run's pairings (S-tilde, S) and (S, S-tilde) derange it (every diagonal entry below 1e-6); S -> S-tilde permutes a sector's generations (a 3-cycle at all 24 points in up, at 22 in down, a transposition at 2), and (S-tilde, S-tilde) is aligned at height 6 but not at 30. The pairing copied the Standard Model's H-tilde, which frame C's line-free Higgs does not force; choosing (S, S) now would be post hoc and is not made. The principled repair is the Higgs's own twist: the web seat's frame D1 leaves no reading to choose, and its coupling's cusp mixing is to be computed before any look (P-861). 0 of 19.”  
+`B1946_the_cusp_mixing_deranges_only_under_mixed_higgs_readings/FINDINGS.md`
 
-**NEGATIVE — `B1944`** (1013 words, 0 locks)  
-“[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a bar of 22.0, every option's worst claimed row off by a factor of 3 314 or more, and 22 % of random targets fitted as well; version 1 FAIL too. Every mass ratio of the average is too large, about 10 times (s/b) to thousands of times (u/t), and |V_cb| and |V_ub| by similar orders; |V_us| is near (0.89 to 1.47) in every option, which the calibration calls generic. What the wall teaches: the average over the whole surface is dominated by the bulk, so the step that removed tau also removed the hierarchy. Nothing is adjusted after the look. 0 of 19.”  
-`B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md`
+**NEGATIVE — `B1947`** (448 words, 0 locks)  
+“FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet picks up twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  
+`B1947_frame_d1s_coupling/FINDINGS.md`
 
 **RETRACTED — `B1918`** (1030 words, 0 locks)  
 “[RETRACTED 2026-11-13, the same day, by main: the channel norm IS a Kronecker limit, of the shifted lattice at the kernel's shift (B1919); the conclusion below went beyond its fits and is withdrawn; the numbers stand] B1656'S CHANNEL NORM IS NOT THE L-FUNCTION'S KRONECKER COEFFICIENT (SM-C7 step 3, run by main): at three points of the golden geodesic the norm is not alpha log|theta[c](0)| + beta a^2 Im tau + gamma(tau) over 30 characteristics (residual 22-25 on a spread of about 100, while a planted exact relation is recovered to 5e-15), nor log|g| of the Siegel function at c, c+1/2, Jc or Jc+1/2; its geodesic average is not affine in the averaged log|g| (residual 29 on 177). Outcome D: B1917 stands; B1737 section 4's reading fails for the frame's norm; P-384 is not paid by this route. Lead: the analytic torsion of the twisted torus is the Kronecker function, so a determinant-defined channel weight would be supplied by the arithmetic. 0 of 19.”  

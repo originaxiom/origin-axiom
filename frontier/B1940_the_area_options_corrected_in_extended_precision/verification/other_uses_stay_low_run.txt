@@ -1,0 +1,7 @@
+frontier/B1928_the_read_out_on_the_whole_is_one_average_over_the_24_points_of_order_5/verification/fiber_grid_fine.json: the grid's top height 6.000
+frontier/B1932_the_big_runs_values_committed_frame_c_with_the_exact_weight_in_four_declared_options/verification/fiber_grid_t90.json: the grid's top height 6.000
+every word of length 12 with both letters: the highest geodesic 6.423 (L^(n-1) R: 6.423)
+every word of length 16 with both letters: the highest geodesic 8.441 (L^(n-1) R: 8.441)
+B1924 whole_average_3, n = 22: 60 words regenerated from the seed, the highest geodesic 6.255
+B1924 whole_average_4, n = 28: 60 words regenerated from the seed, the highest geodesic 8.668
+B1924 whole_average_4, n = 22b: 60 words regenerated from the seed, the highest geodesic 5.255

@@ -306,7 +306,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main.
 - **Closed when:** the class is empty.
 - **Register:** P-355 (QUEUED), P-747 (DONE).
-- **Debts (21):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-853.
+- **Debts (21):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861.
 - **The audit's findings (5):** V1, V2, V3, V4, V5.
 
 **WP-0.3 — Checks that cannot fail, instruments and seal claims** (DERIVE; STARTED; owner: main)
@@ -843,7 +843,7 @@ feeds every row.
 | package | debts |
 |---|---|
 | WP-0.1 False or stale statements in foundation and front documents | 20: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733, P-813, P-827 |
-| WP-0.2 Debts that bear on current work | 21: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-853 |
+| WP-0.2 Debts that bear on current work | 21: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786, P-852, P-861 |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 17: P-233, P-239, P-317, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670, P-808, P-811, P-817, P-821 |
 | WP-0.4 Unverified premises and seat results under banked results | 24: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-263, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |
 | WP-0.5 A green full suite on a fresh clone | 1: P-810 |

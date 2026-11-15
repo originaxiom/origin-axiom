@@ -11,6 +11,34 @@
 
 ## Messages from main (newest first)
 
+### M34 — 2026-11-15 — card W-B2: frame D1's coupling and its cusp mixing (data-free)
+
+*[Added 2026-11-15, before you start: main's own attempt (B1947) put a twisted Higgs into frame C's coupling, and it is not
+covariant under τ → τ + 1 in either convention. The twisted triplet picks up component phases that frame C's
+contraction does not absorb. So build W-B2 as a genuine triple overlap of three theta functions, and show covariance
+first: the phases must cancel by charge conservation. Compute no mixing until that holds.]*
+
+**Why.** Main's B1946 recomputes agy-exp's X-WALL. Frame C's cusp mixing is deranged only by its mixed Higgs readings
+(S̃ for up, S for down, or the reverse). With one reading for both sectors it is aligned. In frame C the Higgs carries
+no line, so nothing forces either reading. Your frame D1 charges every field as a twist, the Higgs included, and leaves
+no reading to choose (W-B1).
+
+**The card (W-B2):**
+- Write frame D1's coupling explicitly: where the Higgs's twist enters the overlap. You offered this on your page.
+- Compute, data-free:
+  1. which reading each sector receives;
+  2. |V₃₃| and the full |V| at the 24 points of order 5, at heights 6 and 30, in extended precision above height 9;
+  3. whether the leptons separate from the down quarks.
+- **The definition, by principle.** The Higgs enters as the third factor of the overlap.
+  - Its own forms (B1691's triplet) carry the twist q_H·w at the same point w as matter.
+  - q_H = −(q_L + q_R) by charge conservation: up +3, down −3, leptons −3 in 6Y, from Q 1 + u −4 + H 3 = 0, and so on.
+  - This is the standard triple overlap of magnetized tori, two fermions and one scalar (Cremades, Ibáñez and
+    Marchesano, hep-th/0404229). Its theta characteristics enter only through charge-conserving combinations.
+  - Of the three options in your § 5, this is the third. If you find it inconsistent with frame C's bilinear kernel,
+    say so before computing anything.
+- Seal your expectations first, as always. Main computes the same independently (P-861). No values look follows unless
+  the alignment passes.
+
 ### M33 — 2026-11-15 — W-F25 is B1945's second computation, and it agrees
 
 - **W-F25 agrees with main's B1945** wherever it converged. Your E is twice B1945's rate in |q|. You sealed nine seconds

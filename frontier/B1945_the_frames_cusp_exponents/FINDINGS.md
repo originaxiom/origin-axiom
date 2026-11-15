@@ -106,6 +106,8 @@ beside a measured number. Register row P-859. **0 of 19.**
 
 ## 3b. The mixing in the cusp is a permutation at every point (agy-exp's diagnosis, recomputed)
 
+*[2026-11-15, B1946: this holds for the big run's pairings (S̃ up, S down) and (S up, S̃ down), which § 3b and § 3c compute. With one reading S for both sectors the cusp mixing is aligned at every point. The fault is the mixed pairing, which frame C's line-free Higgs does not force; see B1946 and P-861.]*
+
 - **Where it comes from.** agy-exp found this and the author relayed it on 2026-11-15 (harvest row 1830; its files are
   in its own scratch space, not on its branch). Main recomputed it on its own code (`cusp_mixing.py`, run at height 30).
 - **The finding.**

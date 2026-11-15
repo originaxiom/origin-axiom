@@ -17452,9 +17452,37 @@
     "V2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 16,
+   "obstacle_conf": 17,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1946": {
+   "slug": "the cusp mixing deranges only under mixed higgs readings",
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
+   "refs": [
+    "B1",
+    "V33"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "physics"
+  },
+  "B1947": {
+   "slug": "frame d1s coupling",
+   "motifs": [
+    "coupling"
+   ],
+   "refs": [
+    "B1"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
   },
   "B196": {
    "slug": "entropy conformal dimension",

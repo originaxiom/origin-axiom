@@ -1,0 +1,29 @@
+{
+ "id": "B1946",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1945",
+  "B1940",
+  "B1932",
+  "B1724"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's X-WALL (harvest row 1836, read through the mask): its control PC_WALL_1, recomputed on main",
+  "the web seat's W-B1 (row 1824): frame D1, every field a twist, no reading to choose"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C with the exact channel weight and the canonical end (B1940's extended-precision frame), column x = 0.13",
+  "object": "the mixing |U_u^H U_d| at the 24 points of order 5 for the four pairings of the Higgs reading (up, down), and |U(S)^H U(S~)| per sector",
+  "reach": "class",
+  "hypotheses": "heights 6 and 30; data-free; computed once on main's code (agy-exp's X-WALL the independent first computation)"
+ },
+ "claim_one_line": "FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal below 6.3e-5 at height 30; diagonal at least 0.993 at height 6), while the big run's pairings (S-tilde, S) and (S, S-tilde) derange it (every diagonal entry below 1e-6); S -> S-tilde permutes a sector's generations (a 3-cycle at all 24 points in up, at 22 in down, a transposition at 2), and (S-tilde, S-tilde) is aligned at height 6 but not at 30. The pairing copied the Standard Model's H-tilde, which frame C's line-free Higgs does not force; choosing (S, S) now would be post hoc and is not made. The principled repair is the Higgs's own twist: the web seat's frame D1 leaves no reading to choose, and its coupling's cusp mixing is to be computed before any look (P-861). 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level, high in the cusp)"
+}
