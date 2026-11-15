@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M31
-state: active
-on: Campaign X-BRIDGE Stage 4 Card X-BRIDGE-4 sealed (Commit 13 of 16; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-BRIDGE (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+state: waiting
+on: Campaign X-BRIDGE complete (16 of 16 blind-sealed commits sealed and pushed; 0 of 19)
+needs: physical, agy-002, and cc review of Campaign X-BRIDGE (df626999e..HEAD)
+next push: complete upon this commit (Commit 16 of 16)
 
-## Campaign `X-BRIDGE` Live Ledger (`13 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-BRIDGE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-BRIDGE-1` (`df626999e`, `4c45865ad`, `0e2bdf305`, `14aea720a`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Bridge_Passed = True`.
@@ -16,8 +16,9 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 3. **`Stage 3 / X-BRIDGE-3` (`54b19dd28`, `7afae8b5b`, `2c40899aa`, `181c3ffa2`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Bridge_Passed = True`.
    - `55`-digit modular $T, S$ covariance (`< 2 * (1/1000)^18`) and deformation audit of $M_R(c_v, c_w, c_u)$ (`(1, 2, 1)` shifts bulk `sv_2/sv_3` by `> 27/100`); cuspidal decay `> 104000000` ($y = 2$ vs $60$) and convergent fundamental-domain Petersson Gram matrix (`Y_cut = 45 vs 60 < 6 * (1/1000)^5`) fixing canonical operator norms while isolating `2` dimensionless `6D` puncture-coupling ratios (`UR-7` `CRT` `< 2 * (1/1000)^5` and pure `3`-torsion parity `< 3 * (1/1000)^8` across all weights); `12`-factor independent full $\mathrm{U}(3)$ Fujikawa anomaly-paired strong-CP invariance (`< 2 * (1/1000)^8` rad at UV and IR, separated from UV parity premise $\theta_{\mathrm{YM}} = 0 \pmod\pi$); standalone verification of `agy-002` `M34` Level-`25` Weil obstruction, Frame C zero-bit $\mathrm{SL}_2(\mathbb{Z})$ Gramian (`< 2 * (1/1000)^12`, `Haar6 < 4 * (1/1000)^6`), and the **Schur–Heisenberg Dichotomy** on the magnetized `3`-bundle (`Zak-trivialized 9-sheet cover restores matrix T-invariance < 2 * (1/1000)^5 while Schur's Lemma forces H_{L,f} = (Tr H_{L,f} / 3) I_3 < 6 * (1/1000)^6`).
-4. **`Stage 4 / X-BRIDGE-4` (`this commit` — Commit `1` of `4`):**
-   - Pre-registered expectations sealed in `relays/cards/AGY-EXP_X-BRIDGE-4_repaired-universal-atlas-deformation-matrix-and-zero-of-19-vector.md` before `relays/x_bridge_4_verify/` exists.
+4. **`Stage 4 / X-BRIDGE-4` (`dfdeb55d1`, `c14367ce5`, `7bf6bcb02`, and this commit):**
+   - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Bridge_Passed = True`.
+   - Complete side-by-side `old vs repaired` `1320`-history (`UR-1, UR-2`) and `288`-UV / `248`-IR (`UR-3..UR-7`) universal kill-line census confirming every outward rational corridor from `X-RELATIONS` holds unchanged (`max |repaired - old| < 3 * (1/1000)^5` on `I_gauge`, `< 2 * (1/1000)^3` on `sqrt(2*lambda_IR)`, `< 5/100000000` across all `248` flavor/seesaw vacua, `0` active divergences, `UR-6` `< 3 * (1/1000)^5` rad); machine-verified `10`-subsystem Three-Column Input & Deformation Matrix (`5` Unconditionally Derived, `3` Conditional Same-Action Reductions, `2` Explicit Remaining Bits/Ratios); complete repaired `0 of 19` vector suite (`Casimir (1,1,1)` vs preserved `old` vs `6*pi` vs `Petersson unit-norm` vs `0-bit Frame C Gramian`, `f64 vs mpmath32 < 2 * (1/1000)^4`, `Haar6 < 3 * (1/1000)^6`, `Fujikawa12 < 5 * (1/1000)^8` rad).
 
 ## Campaign `X-RELATIONS` Final Ledger (`12 of 12` Blind-Sealed Commits Complete; `P-862`; `Zero Continuous Parameters, Zero Selection Bits`; `0 of 19`)
 
