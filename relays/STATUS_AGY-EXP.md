@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, e250dab15
 state: active
-on: Campaign X-CLOSURE Stage 3 complete (Commits 1-12 of 16 sealed; moving to Stage 4 X-CLOSURE-4; 0 of 19)
+on: Campaign X-CLOSURE Stage 4 Card X-CLOSURE-4 committed first (Commit 13 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-CLOSURE (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-CLOSURE` Live Ledger (`12 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-CLOSURE` Live Ledger (`13 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
 1. **`Stage 1 / X-CLOSURE-1` (`31628eeae`, `8f5a5d977`, `635b2b103`, `332cd2031`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Closure_Passed = True`.
@@ -13,7 +13,7 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 2. **`Stage 2 / X-CLOSURE-2` (`d09924afd`, `38736a73f`, `086d41c24`, `efd9a3115`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Closure_Passed = True`.
    - First standalone zero-import verification of `physical` `P-C3b` Proofs `1–3` (`bc729239d` on `e250dab15`, scoped to finite fibre, radial cusp-exponent, and `2O` representation identities): exact symbolic $J_0..J_3$ metrics and $J_{n+1} D_n = \sqrt{2}\, d_n J_n$, parallel $\nabla\widehat{\Phi}_0 = 0$ and zero mixed anticommutator, exact rational diagonalization of $\Delta_{\delta, 0..2}$ on $V_{3/2} \otimes V_{3/2}$ with harmonic kernel `(1, 2, 1)`, `eq. (8)` norm residual `= 0`, and complement gap $c_\delta|_{\ell=1} = 3/4$; `|2O| = 48`, `|D| = 16`, `3 + 3 + 6` spin/state orbits, torus pairings `-7/8` and `-5/8` giving $\alpha_+ = -1, \alpha_- = +1$, `(2, 0)` form/gaugino modes and `(18, 18, 16)` total `128` half-root zero modes; and $\operatorname{Ind}_D^{2O} \chi_{\mathrm{aligned}} \cong \sigma \otimes O$ giving $U_{\mathrm{aligned}} = j\mu^4 O$ (`L^4 = +I_3` vs native $T_+$ `L^4 = -I_3`) with retained central sheet `(-1, +1, -1)`.
-3. **`Stage 3 / X-CLOSURE-3` (`35c2b4678`, `eb0fe4bd4`, `17dec57c8`, and this commit):**
+3. **`Stage 3 / X-CLOSURE-3` (`35c2b4678`, `eb0fe4bd4`, `17dec57c8`, `b9b8240a0`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Closure_Passed = True`.
    - First standalone zero-import verification of `physical` `P-C3b` Proofs `4–5` (`d7d0bc320` on `e250dab15`, keeping transverse `PDE` stationarity scoped in Tier `II`): opposite-charge polarized cubic vertex $\kappa(Q, [u_+, v_-] + [u_-, v_+]) = -q k \delta_+ s_+ s_-$ matching $\delta M$, exact symbolic cancellation of $(G, k, h_Q, q, c_+)$ giving $|y|^2 / e_Q^2 = 2 A_\omega A_g / I_\omega^2 > 14/5 > 2$ on the hyperbolic collar, `full-E` phase product `= 1` (`< (1/1000)^20`), and `(0 spin, 2 form)` Wilson-crossing zero modes; plus `60`-digit verification of $V(X_s) = B\, s^2(1 - s)^2$ (`< (1/1000)^20` across `9` nodes), $\mathrm{SU}(2)$ tail moment identity (`< (1/1000)^20`), real Gauss horizontal norm $0 < K(s) = K_0 - \langle b_s, L_s^+ b_s\rangle_v < K_0$ (`< (1/1000)^20`), and sharp $1/(8\ell^2)$ cusp gauge Hardy bound (`vs spin-fermion quotient < 1/700 << 1/18`).
 
