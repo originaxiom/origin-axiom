@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-16",
+  "cards": [
+    "06782d1dc",
+    "c6b10d7d0"
+  ],
+  "first_proof_checkpoint": "4c8310842",
+  "source_pin_head": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+  "evidence_grade": "Author hand derivation pending independent proof review. Metadata-only hashing and Git reads; no scientific producer, CAS, collection, test or numerical integration.",
+  "source_completeness": "Direct-source inventory only. Not independent source-completeness acceptance or a prospective execution seal.",
+  "scientific_execution": "None for the new package. The separate ca02b5d8d mathematical package is still unimported, uncollected and unrun here.",
+  "foundational_inputs_removed": 0,
+  "prior_all_branch_survey": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REFRESH_RECEIPT.json",
+  "sources": [
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "bytes": 12292,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "bytes": 6712,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "bytes": 16197,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "bytes": 11904,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee",
+      "bytes": 15965,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE.md",
+      "sha256": "9637c0346b53bd14a4b78a3dd1070eb62b85c2a89fe23e29b7c4395803886b8f",
+      "bytes": 6850,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md",
+      "sha256": "33b9433e93abd207ac005a1e566f141fa18968f46445655dfd549b1df0f3ff89",
+      "bytes": 9550,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "bytes": 8376,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md",
+      "sha256": "ab2e7d3b34f5d86086b2d1d5e088b8aaf2ee1dc2e9c1f4315c1df669e8727c15",
+      "bytes": 9595,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE.md",
+      "sha256": "2aa39752783230788c280837fed3b4c05fb5070f344a6ec1a07c89c30d9003a2",
+      "bytes": 7368,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING.md",
+      "sha256": "f11c21434ab2c1a55cc74fbea5d388301714c8e0edffdcfa6faa718801525522",
+      "bytes": 10892,
+      "status": "Source body reused with its original review/admission qualifications."
+    },
+    {
+      "commit": "4c83108425a86dee3f837facd075ed30fbc77f0b",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md",
+      "sha256": "869687e8e8c9169eb54f09bd1767918736392869a60a6669218bd392d9dcbe59",
+      "bytes": 10799,
+      "status": "Source body reused with its original review/admission qualifications."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE.md",
+      "sha256": "fe88bc5c3c02967453869caa7d15bd0d6945b9d40550d71dd82dfb70194ecb9c",
+      "bytes": 6257
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md",
+      "sha256": "772b15f546c9e3e509946b86bcb4a57e882815849b1cd1826fdc4b6ce8ad5e8d",
+      "bytes": 10738
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/FINDINGS.md",
+      "sha256": "42c7a38f96b0b0d715ab776008a638d78721a9843476587169e16b6eb87b0ea9",
+      "bytes": 4606
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md",
+      "sha256": "639bc536acfc9f5a3112337ec62efecd852d5ca4050b557e695673013f136259",
+      "bytes": 7711
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/REVIEW_BRIEF.md",
+      "sha256": "f1a5626c806c0cc2f471d72e2ae6f0d8ac6855351823f8ca280f3b17fb639f59",
+      "bytes": 2949
+    },
+    {
+      "path": "relays/cards/PHYSICAL_C3C_TRANSVERSE_RESPONSE_AND_PROTECTED_SOURCE.md",
+      "sha256": "e605a3840a5f371e5041463ab1287a956986abb0aa2c37862f236061c93a599f",
+      "bytes": 2677
+    },
+    {
+      "path": "relays/STATUS_PHYSICAL.md",
+      "sha256": "ff2bd6188908b57b0625e60a75265eb72f7327e978eb8c483b2f48bd2be0b2e9",
+      "bytes": 9699
+    },
+    {
+      "path": "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md",
+      "sha256": "56b92a346df2c16e87811308e3fd84cb858bbd4166184860c40861b73c5262e0",
+      "bytes": 3717
+    }
+  ],
+  "protected_inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

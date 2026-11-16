@@ -42,6 +42,9 @@ Its Q grading is
 
     e6 = so10_(0) plus C Q plus 16_(+1) plus bar16_(-1).  (1)
 
+Equation (1) is the complexified decomposition. The gauge real form
+is the compact one inherited from the supplied compact E8 parent.
+
 The spinor labels reuse the source D5 half-root weights. In particular
 the actual two opposite-charge spin zero modes and neutral connection
 mode of P-C3b all lie inside (1). Opposite spinor grades bracket into

@@ -1,9 +1,31 @@
 seat: physical
 read: M5
 state: working
-on: P-C3b actual spin-mode state orbit, nonzero same-action vertex, finite bulk path and real Gauss response derived
-needs: independent review of five P-C3b proofs and retained source/domain premises, exact main admission for the sealed mathematical checks
-next push: full transverse stationary joining and registered source/end law, with conjugates, form partners and continuum retained
+on: P-C3c transverse equations, protected spin quartic and consistent colour-preserving E6 background sector derived
+needs: independent review of P-C3b/c source proofs and analytic/global premises, exact main admission for the sealed mathematical checks
+next push: actual charged E6 joining and neutral source compatibility, retaining full physical fields and registered source/end law
+
+P-C3c cards 06782d1dc/c6b10d7d0 produced three hand proofs at 4c8310842,
+under `physical_transverse_response_2026_11_16`. Actual normalizable
+dual modes protect a nonzero leading F/D quartic after every controlled
+second-order correction in the specified three light directions.
+This result uses the existing cubic and normalized current. It needs
+no inverse of the full neutral continuum and introduces no self-quartic.
+Other first-order modes and the full physical spectrum stay present.
+
+The actual colour centralizer gives a consistent global E6 classical
+background sector. Its charged spinor directions already contain the
+required opposite-charge physical modes. The smaller neutral restriction
+cannot supply a localized static join across its different Abelian
+core characters without charged response or a real source law.
+The next stationarity calculation can use the actual E6 equations,
+while all 248 fluctuations, the colour continuum and the neutral Q
+source/range duty remain. No quantum truncation or family claim follows.
+
+All three new proofs are unreviewed author hand derivations. There was
+no scientific execution, old admission extension or foundational input
+payment. Their sender-branch relay is
+`PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3C_PROTECTED_QUARTIC_AND_E6_JOIN.md`.
 
 P-C3b scope d2937e15a and continuation 090015ca5 produced three hand
 proofs at bc729239d and two same-action successors at d7d0bc320.
