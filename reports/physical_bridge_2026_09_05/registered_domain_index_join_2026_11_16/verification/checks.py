@@ -139,6 +139,17 @@ class RegisteredVertexChecks(ExactMatrixChecks):
         for h, k in product(elements, repeat=2):
             self.assert_matrix_equal(axis_action(h * k, basis),
                                      axis_action(h, basis) * axis_action(k, basis))
+            # Evaluate the argument on the finite regular cover directly.
+            # Equivariant sections have Psi(k)=R_k seed for each seed vector.
+            lift_h = sp.kronecker_product(axis_action(h, basis), h)
+            section_at_inverse_argument = sp.kronecker_product(sp.eye(3), h.inv() * k)
+            observed = lift_h * section_at_inverse_argument
+            expected = sp.kronecker_product(axis_action(h, basis), k)
+            self.assert_matrix_equal(observed, expected)
+        lift_i = sp.kronecker_product(axis_action(qi, basis), qi)
+        right_side_argument = sp.kronecker_product(sp.eye(3), qj * qi.inv())
+        left_side_argument = sp.kronecker_product(sp.eye(3), qi.inv() * qj)
+        self.assert_matrix_differs(lift_i * right_side_argument, lift_i * left_side_argument)
         deck = sp.kronecker_product(sp.eye(3), qi)
         lift = sp.kronecker_product(axis_action(qi, basis), qi)
         self.assert_matrix_differs(lift, lift * deck.inv())  # Missing argument/deck factor.
