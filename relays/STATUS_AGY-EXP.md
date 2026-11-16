@@ -1,18 +1,20 @@
 seat: agy-exp
 read: M40
 state: active
-on: Campaign X-UNIFY Stage 2 complete (Commits 1-8 of 16 sealed; moving to Stage 3 X-UNIFY-3; 0 of 19)
+on: Campaign X-UNIFY Stage 3 Card X-UNIFY-3 sealed (Commit 9 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-UNIFY (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-UNIFY` Live Ledger (`8 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-UNIFY` Live Ledger (`9 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-UNIFY-1` (`bccc00e75`, `9839c54f4`, `81eae8a79`, `c46543895`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Unify_Passed = True` (`0` float literals, `0` complex literals module-wide).
    - `55`-digit + exact symbolic `CRT` Weil tensor factorization $\mathcal{W}_{15} \cong \mathcal{W}_5^{(3)} \otimes \mathcal{W}_3^{(2)}$ (`< 2 * (1/1000)^18`) resolving Color-`3` vs Family-`3` (`W_5 = 3_c (+) 2_w`, `dim Lambda^{even}(W_5) = 16`, exact `0` commutator with $\mathcal{H}_3$ family algebra); exact cubic anomaly factorization $A_{\mathrm{U(1)}^3} = 4(3a + 2b)((3a + b)^2 + 4b^2)$ uniquely forcing $3a + 2b = 0$ and $k_2 / k_1 = 3/5$; restored classical trace-norm $c_H = \kappa(H^2)$ vs $\kappa_{\mathrm{seam}}$ distinction + spin registration audit; first-ever zero-import execution of all `12` `physical` `P-C3` methods (`ca02b5d8d`, `SAME_ACROSS_ALL_12_METHODS` + hyperbolic collar bound `2 * sinh^2(1) > 2`).
-2. **`Stage 2 / X-UNIFY-2` (`7c5967649`, `57525f9b9`, `ab84561ef`, and this commit):**
+2. **`Stage 2 / X-UNIFY-2` (`7c5967649`, `57525f9b9`, `ab84561ef`, `ab8e6e81a`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Unify_Passed = True`.
    - Proved rank-`1` structure of individual puncture-jet tensors (`any 2-jet sum singular < 3 * (1/1000)^19` vs full-rank `3`-jet) and symmetric Löwdin–Petersson orthonormalization $G_{\mathrm{Pet}}^{-1/2}(A_v, A_w, A_u)$ (`<E_a, E_b>_Pet = delta_{a b} < 2 * (1/1000)^4`, resolving `> 986/1000` $(A_w, A_u)$ collinearity with `UR-7` `CRT` `< 3 * (1/1000)^4`); resolved `physical` `ca500dad6` Intake Point `2` (`theta_YM = pi` gives `theta_bar = pi`, while target-free `m004` `(L, R)` Chern–Simons asymmetry vanishes to `< 2 * (1/1000)^18`, selecting `theta_YM = 0 mod 2*pi`); proved `60`-digit `1+2`-loop `BPV` determinant-phase conservation (`< (1/1000)^21`) and verified `3`-family $D$-parity Strong-CP vanishing under repaired `BPV` `2`-loop `RGE` (`|theta_bar(IR)| < (1/1000)^9` rad with `|J_12| > 85/1000` and `24`-digit full $\mathrm{U}(3)^6$ Fujikawa `< 2 * (1/1000)^7` rad).
+3. **`Stage 3 / X-UNIFY-3` (this commit):**
+   - Expectations pre-registered in `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` prior to creating `relays/x_unify_3_verify/`.
 
 ## Campaign `X-BRIDGE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
