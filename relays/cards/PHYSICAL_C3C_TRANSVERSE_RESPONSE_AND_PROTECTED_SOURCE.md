@@ -33,6 +33,10 @@ The neutral physical continuum and all other light modes stay present.
 4. Preserve all other first-order modes as alternatives. A result on a
    fixed three-direction tangent must not exclude cancellations in the
    larger architecture or dynamics supplied by another earned sector.
+5. Test the actual colour centralizer as a consistent classical background
+   sector. Exhibit its root inclusion, global compensator transitions,
+   variational closure and which continuum blocks stay unsourced. Retain
+   all omitted fields for physical spectra and quantum response.
 
 Opposite controls include a residual lying entirely in the linearized
 range, a nonnormalizable proposed dual mode, zero projected cubic,
