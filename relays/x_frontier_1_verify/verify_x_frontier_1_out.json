@@ -1,0 +1,89 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Frontier_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FRONTIER-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_pc3c_protected_quartic_and_e6_centralizer": {
+    "E1_ProtectedSpinQuartic_and_E6Centralizer_Gate_passed": true,
+    "PC_FR1_SubcriticalCollar_quartic_ratio": 0.5,
+    "chi_H_core_table_axes_k_j_i": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "e6_Q_grades_0_p1_m1": [
+      46,
+      16,
+      16
+    ],
+    "e6_cartan_det": 3,
+    "e6_root_and_total_dims": [
+      40,
+      32,
+      78
+    ],
+    "heavy_relaxed_quartic_residual_60dps": 9.723461371658034e-63,
+    "strict_collar_excess_over_eq8_bound": 0.017967465330763814,
+    "symbolic_quartic_identities_exact": true,
+    "z3_center_trivial_on_e6_order3_on_e8": true
+  },
+  "part_1b_pc3d_reflection_involution_and_tails": {
+    "E2_ReflectionInvolution_and_ForcedCuspTails_Gate_passed": true,
+    "J_squared_identity_on_E6": true,
+    "PC_FR1_FullE8AssumedInvolution_idempotency_defect": 0.4330127018922193,
+    "all_H_half_weights_integral_on_E8": true,
+    "d5_cocharacter_in_K0_root_lattice": true,
+    "exact_order_of_J_on_E8": 6,
+    "forced_cusp_tail_odes_and_k_over_ell_kernel_exact": true,
+    "mode_J_parities_chSpin_chForm_QForm_j3Spin_QSpin": [
+      1,
+      1,
+      1,
+      1,
+      -1
+    ]
+  },
+  "part_1c_cross_seat_kronecker_and_2loop_audit": {
+    "E3_CrossSeat_KroneckerAndTwoLoopTranspose_Gate_passed": true,
+    "PC_FR1_UnTransposedLuoXiao_rel_err": 0.2727272727272727,
+    "agy002_untransposed_mixed_2loop_coeff_abs": 7.0,
+    "agy_kronecker_modular_inversion_int_err_60dps": 3.141819817790545e-89,
+    "agy_kronecker_modular_inversion_nonint_err_60dps": 3.9272747722381812e-90,
+    "agy_kronecker_vs_hurwitz_bessel_central_diff_err": 5.10654634101899e-39,
+    "agy_m3_u_prime_exact": [
+      "0",
+      "1/10"
+    ],
+    "bpv_11_over_2_abs_err": 1.55233361320264e-57,
+    "bpv_repaired_mixed_2loop_coeff_abs": 5.5,
+    "diagonal_commuting_scalar_diff": 0
+  },
+  "stage_1_gate_passed": true
+}
