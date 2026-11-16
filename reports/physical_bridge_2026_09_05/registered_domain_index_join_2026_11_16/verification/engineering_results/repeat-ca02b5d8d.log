@@ -1,0 +1,8 @@
+test_changed_pin_rejected_before_scientific_import (__main__.RunnerRejectionChecks.test_changed_pin_rejected_before_scientific_import) ... ok
+test_ignored_file_rejected_before_scientific_import (__main__.RunnerRejectionChecks.test_ignored_file_rejected_before_scientific_import) ... ok
+test_untracked_file_rejected_before_scientific_import (__main__.RunnerRejectionChecks.test_untracked_file_rejected_before_scientific_import) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.105s
+
+OK
