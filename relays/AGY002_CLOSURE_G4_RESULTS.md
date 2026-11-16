@@ -1,0 +1,32 @@
+# `AGY-002_CLOSURE-G4` — Gate 4 Results (`0 of 19`)
+
+## 1. Check Labels and Tracked Evidence (`docs/seats/README.md` § 12)
+
+- **expectations committed first:**
+  - Card commit `4c9ccff4b`: `relays/cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir.md`
+  - First script seal `844db35d0`: `relays/agy002_closure_g4/verify_closure_g4.py`, `relays/agy002_closure_g4/SCRIPT_SHA256.txt`
+  - First output seal `79d2d65aa` (committed unread): `relays/agy002_closure_g4/verify_closure_g4_out.json`, `relays/agy002_closure_g4/OUTPUT_SHA256.txt`
+  - Harness erratum & fixed script seal `15c9504f4` (`preserving 4c9ccff4b..79d2d65aa untouched under seal-immutable`): `relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md`, `relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py`, `relays/agy002_closure_g4_fixed/SCRIPT_SHA256.txt`
+  - Fixed output seal `5821fc629` (committed unread): `relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json`, `relays/agy002_closure_g4_fixed/OUTPUT_SHA256.txt`
+- **recomputed independently:**
+  - Cold-room second script seal `3d900ed8a` & output `23d525ec0`, plus referee harness erratum `e4af4ed35` & fixed output `bf3a8f27f` (built from the card and published literature alone without reading or importing any producer script, while verifying all `6` prior `SHA-256` manifests byte-for-byte): `relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed.py`, `relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed_out.json`
+- **tested against planted errors:**
+  - `5 of 5` planted cases caught in `relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json` (`PF4.1` `CKM` slope diff `3/2 > 1`; `PF4.2` `-24` vs `-48` `d lambda / d ln(mu)` polynomial diff `> 22 > 1/100` and `sqrt(2 lambda_IR)` shift `> 3/1000 > 1/1000`; `PF4.3` transposed heavy inverse `D_0^{-T}` `Frobenius` `diff^2 = 1245/1922 > 1/2`; `PF4.4` reversed heavy operator order `D_1 D_0^{-2}` `Frobenius` `diff^2 = 698707/1847042 > 1/4`; `PF4.5` fake target `(L_4 - 2)^2` derivative `> 1 > 0`);
+  - `5 of 5` planted cases caught independently in `relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed_out.json` (`PF4.1` `3/2 > 1`; `PF4.2` `> 1/2 > 1/100` and `> 2/1000 > 1/1000`; `PF4.3` `9/2 > 1/2`; `PF4.4` `7/2 > 1/4`; `PF4.5` `> 100 > 0`). Note: in `5821fc629`, `IEEE-754` double-precision `SVD` on the `6 x 6` block matrix at `t = (1/10)^6` hit the condition-number `(10)^12` rounding floor (`< 6 * (1/10)^5`), which the `60`-digit `mpmath` cold-room computation in `bf3a8f27f` resolved cleanly to `< 4 * (1/10)^8 < (1/10)^5` (`and < (1/10)^12` against `3`rd-order `M_eff`).
+
+## 2. Mask-Safe Rational Verification Summary (`0 of 19`)
+
+| Check | First Computation (`5821fc629`) | Cold-Room Second Computation (`bf3a8f27f`) | Sealed Rational Bar |
+|---|---|---|---|
+| `AST` source lock & `SHA-256` custody | `0` float literals, `0` complex literals, `0` repo imports | `0` float literals, `0` complex literals, `6 / 6` manifests matched | Exact (`0`) |
+| `Barger-Berger-Ohmann` (`1993`) + `BPV` (`2014`) `CKM` slopes | Exact symbolic `(3/2)(y_t^2 + y_b^2)` and `-(13/2)(y_t^4 + y_b^4) - (11/2) y_t^2 y_b^2`; `RHS` `rel_err < 2 * (1/10)^14` | Exact symbolic match across all `theta`; `45`-digit `ODE` `rel_err < (1/10)^24` | `< (1/10)^12` |
+| `Buttazzo et al.` (`2013`) `2`-loop `t_crit` (`-48 lambda^2 Tr_Y`) | Cross-solver `abs_diff < 2 * (1/10)^12` | `DOP853` vs `45`-digit `mpmath` `abs_diff < (1/10)^13` (`agrees with producer to < (1/10)^12`) | `< (1/10)^11` |
+| `3`-family `D`-parity `Strong-CP` & `U(3)^6` `Haar` scrambling | `|bar_theta_QCD(IR)| < (1/10)^14`, `|J_CKM| > 1/100`, `10`-trial `Haar` `< 3 * (1/10)^15` | `|bar_theta_QCD(IR)| < 2 * (1/10)^15`, `|J_CKM| > 8/100`, `10`-trial `Haar` `< (1/10)^13` | `< (1/10)^13` |
+| Repaired `P-C3` `Weyl` `Gram`, `Q_8` deck, `6 x 6` `Schur`, & `Spin(10)` | `Gram = 0`, `(k_eps, j_eps) = (-1, -1)`, `det` `t^5` exact, spans `[9, 5, 4]`, nullities `[1, 2]`, `Spin(10)` `[0, 0, 0, 0]` | `Gram = 0`, `(-1, -1)`, `72` `Q_8` rejections, `60`-digit `Schur` `< 4 * (1/10)^8`, `[9, 5, 4]`, `[1, 2]`, `[0, 0, 0, 0]` | Exact / `< (1/10)^5` |
+| `4D` `m004` collar `Casimir` (`E_6 -> G_422 x| Z_2^D`) | `C_UV = +189/2`, `3`-family massless `C_IR = +28 > 0` (`max dV/dL_4 < 0` runaway; `1` modulus `Delta_PS`); conditional `C_IR < 0` `d^2 V > 0` | `C_UV = +189/2`, `C_IR = +28 > 0` (`max dV/dL_4 < -(1/10)^8` runaway; `1` modulus); conditional `C_IR < 0` unique root `|dV/dL_4| < (1/10)^46`, `d^2 V > 1/10` | Exact sign & `Guardrail 1` |
+
+## 3. Theorems Locked in Gate 4
+
+1. **Canonical `BPV` + `Machacek-Vaughn` `2`-Loop Matrix `RGE`:** Restoring left-acting Hermitian-`MSbar` `-(1/4) H_u H_d - H_d H_u` (`Bednyakov-Pikelner-Velizhanin` Eq. `27`) while retaining `-48 lambda^2 Tr_Y` reproduces both `Buttazzo et al.` (`2013`) criticality and the exact `theta`-independent `Barger-Berger-Ohmann` (`1993`) `2`-loop `CKM` slope `-11/2`, while preserving `3`-family `D`-parity `Strong-CP` vanishing (`|bar_theta_QCD(IR)| < (1/10)^14` at `|J_CKM| > 1/100`) and catching the `-24 lambda^2 Tr_Y` factor-of-`2` error (`> 2/1000` shift on `sqrt(2 lambda_IR)`).
+2. **Repaired Non-Commuting `P-C3` `Schur` Package & `2D` `Spin(10)` Anomaly Plane:** Fixing the `SymPy` conjugate-product expansion and upgrading the heavy sector from a `1 x 1` scalar to a non-commuting, non-symmetric `3 x 3` block `D(t) = D_0 + t D_1` locks `2`nd- and `3`rd-order `Schur` mass generation while catching `D_0^{-T}` and operator-order faults; simultaneously, `Lambda^{even}(V_5) x (det V_5)^{-1/2} ~= 16` vanishes identically `[0, 0, 0, 0]` across the full `2D` `U(1)_Y (+) U(1)_(B-L)` plane, whereas single-Higgs linkage (`M = eps S`) reduces quaternion span `9 -> 5` (`4` traceless) and pure-spin `Higgs` (`h_a = 0`) enlarges `4`-slot intertwiner nullity `1 -> 2`.
+3. **Target-Free `4D` `m004` Collar `Casimir` Sign-Dichotomy Theorem (`Guardrail 1`):** For `3`-family `E_6 -> SU(4)_c x SU(2)_L x SU(2)_R x| Z_2^D` on `X_4 = m004 x~ [-L_4, L_4]`, short-distance broken gauge + chiral matter modes yield repulsive `C_UV = +231/4 + 153/4 - 3/2 = +189/2 > 0`. In the `3`-family massless-chiral zero-mode branch, `C_IR = +28 > 0` shares `sgn(C_UV) > 0`, forcing `d V_Cas / d L_4 < 0` strictly on `(0, infty)` (**exact `1`-loop runaway obstruction**, pricing `Delta_PS = ln(M_U / M_PS)` honestly as `1` continuous geometric modulus unless `3D` spinor `Weitzenbock`/cusp gaps realize `C_IR < 0 < C_UV`). Gate 4 is locked. `0 of 19.`
