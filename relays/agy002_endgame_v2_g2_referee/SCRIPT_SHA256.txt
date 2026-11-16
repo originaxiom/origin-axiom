@@ -1,0 +1,1 @@
+b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72  relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py
