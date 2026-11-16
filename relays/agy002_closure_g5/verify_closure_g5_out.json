@@ -1,0 +1,84 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_CLOSURE-G5",
+  "empirical_firewall": "0 of 19",
+  "gate_5_passed": true,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  "section_1_ckm_alignment": {
+    "PF5_1_caught": true,
+    "PF5_1_mixed_pairing_vtb": 0.0,
+    "e3_max_continuity_diff_at_1e_minus_6": 0.00014101603589433982,
+    "e3_min_frobenius_norm": 3.1914346291630364,
+    "haar_u3_max_drift_10_trials": 4.574118861455645e-14,
+    "pati_salam_3BL_classification": "ALIGNED_288_OF_288",
+    "pati_salam_3BL_min_vtb_levels_5_10_15": {
+      "10": 0.9999999999999993,
+      "15": 0.9999999999999994,
+      "5": 0.9999999999999996
+    },
+    "perturbed_PS_vtb_vcb_vtd": [
+      0.9981802261729102,
+      0.043657574194827645,
+      0.034869788308994405
+    ],
+    "pure_6Y_classification": "PARTIAL_4_OF_24",
+    "pure_6Y_order5_aligned_count": 4,
+    "pure_6Y_order5_deranged_count": 20,
+    "section_1_passed": true
+  },
+  "section_2_lepton_down_separation": {
+    "PF5_2_caught": true,
+    "PF5_2_quarter_tau_shift_diff": 0.05435253490834535,
+    "k0_third_lattice_periodicity_err": 1.8041124150158794e-16,
+    "local_10vec_BL_commutator_zero": true,
+    "orbit_combined_6Y_plus_3BL_s13_max_diff": {
+      "10": 0.00013046425654339886,
+      "15": 0.00022190582340216898,
+      "5": 0.000221905823402169
+    },
+    "orbit_pure_3BL_s13_max_diff": {
+      "10": 1.6534083130403943e-18,
+      "15": 1.0299920638612292e-18,
+      "5": 4.675621868843738e-19
+    },
+    "orbit_pure_6Y_s13_max_diff": {
+      "10": 5.963111948670274e-19,
+      "15": 1.6805133673525319e-18,
+      "5": 3.9302328752599536e-19
+    },
+    "pointwise_level5_3BL_dn_over_lep_s13_factor": 28.53143385875445,
+    "section_2_passed": true
+  },
+  "section_3_weil_and_gramian": {
+    "PF5_3_caught": true,
+    "PF5_3_odd_delta_gramian_err": 2.9870994345264252,
+    "PF5_4_caught": true,
+    "PF5_4_unflavoured_higgs_trace_anisotropy": 8.881784197001252e-16,
+    "PF5_5_caught": true,
+    "PF5_5_naive_linear_sum_tau_plus_1_drift": 0.07165689239354309,
+    "even_delta_gramian_max_S_err": 6.319930702065223e-15,
+    "even_delta_gramian_max_T_err": 5.7732295974497975e-15,
+    "even_delta_gramian_min_anisotropy": 0.3116110827071301,
+    "heisenberg_cocycle_shift_1_err": 2.334110243043934e-15,
+    "heisenberg_cocycle_shift_tau_err": 2.9790409838967277e-15,
+    "schur_9sheet_anisotropy": 2.220446049250313e-15,
+    "section_3_passed": true,
+    "weil_zeta_independence_max_err": 4.497773686596906e-15
+  }
+}
