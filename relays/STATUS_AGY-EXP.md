@@ -1,9 +1,13 @@
 seat: agy-exp
-read: M40, e250dab15
-state: waiting
-on: Campaign X-CLOSURE complete (16 of 16 blind-sealed commits; 80 cumulative commits across X-ENDGAME + X-RELATIONS + X-BRIDGE + X-UNIFY + X-CLOSURE; 0 of 19)
-needs: cross-seat review of X-CLOSURE-1..4 (Items A-D source repairs + first standalone verification of P-C3b Proofs 1-5)
-next push: pushed upon Commit 16 of 16
+read: M40, 47e6078ae, e6129316e, 94e511f54
+state: active
+on: Campaign X-FRONTIER Stage 1 Card X-FRONTIER-1 committed first (Commit 1 of 16; 0 of 19)
+needs: nothing during blind-seal execution of Campaign X-FRONTIER (16 commits)
+next push: upon completion of Commit 16 of 16 (Stage 4 results)
+
+## Campaign `X-FRONTIER` Live Ledger (`1 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+
+- **`Stage 1 / X-FRONTIER-1`:** Card `AGY-EXP_X-FRONTIER-1_pc3c-pc3d-verification-and-cross-seat-kronecker-2loop-audit.md` committed first (`no relays/x_frontier_1_verify/ directory exists at this commit`).
 
 ## Campaign `X-CLOSURE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
@@ -16,7 +20,7 @@ next push: pushed upon Commit 16 of 16
 3. **`Stage 3 / X-CLOSURE-3` (`35c2b4678`, `eb0fe4bd4`, `17dec57c8`, `b9b8240a0`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Closure_Passed = True`.
    - First standalone zero-import verification of `physical` `P-C3b` Proofs `4–5` (`d7d0bc320` on `e250dab15`, keeping transverse `PDE` stationarity scoped in Tier `II`): opposite-charge polarized cubic vertex $\kappa(Q, [u_+, v_-] + [u_-, v_+]) = -q k \delta_+ s_+ s_-$ matching $\delta M$, exact symbolic cancellation of $(G, k, h_Q, q, c_+)$ giving $|y|^2 / e_Q^2 = 2 A_\omega A_g / I_\omega^2 > 14/5 > 2$ on the hyperbolic collar, `full-E` phase product `= 1` (`< (1/1000)^20`), and `(0 spin, 2 form)` Wilson-crossing zero modes; plus `60`-digit verification of $V(X_s) = B\, s^2(1 - s)^2$ (`< (1/1000)^20` across `9` nodes), $\mathrm{SU}(2)$ tail moment identity (`< (1/1000)^20`), real Gauss horizontal norm $0 < K(s) = K_0 - \langle b_s, L_s^+ b_s\rangle_v < K_0$ (`< (1/1000)^20`), and sharp $1/(8\ell^2)$ cusp gauge Hardy bound (`vs spin-fermion quotient < 1/700 << 1/18`).
-4. **`Stage 4 / X-CLOSURE-4` (`c9f15ee16`, `3f0a09719`, `fcf3cc209`, and this commit):**
+4. **`Stage 4 / X-CLOSURE-4` (`c9f15ee16`, `3f0a09719`, `fcf3cc209`, `2ff7784b1`):**
    - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Closure_Passed = True`.
    - Repaired `physical` `e250dab15` Item `C` via `16`-frame $\mathrm{U}(3)$ rotation control on $G_{\mathrm{Pet}}^{-1/2}$ (`PC_CL4_MetricIsotropyCannotSelectVector`: exact Petersson orthonormality `< 2 * (1/1000)^4` across all `16` frames while $c(U) = G_{\mathrm{Pet}}^{-1/2} U \mathbf{1}_3$ sweeps `sec4_r23` by `> 3700x`, proving metric isotropy cannot select the `2` source-vector ratios); repaired Item `D` via the machine-verified `14`-row **Four-Tier Scoped Master Closure Matrix** (`6` Tier `I-A` pure-math theorems, `4` Tier `I-B` model-conditioned consequences, `2` Tier `II` parent-to-model bridges + **sufficient** parity protection of $\bar{\theta}_{\mathrm{phys}} = 0$ paired with `PC_CL4_NonHermitianPositiveRealSchurCounterexample` $H = L = I_3, B = i(2/5)I_3, C = i(3/7)I_3 \implies L - B H^{-1} C = (41/35)I_3 > 0$, and `2` Tier `III` explicit source-vector / state-composition / Picard–Lindelöf $v_{\mathrm{EW}}$ duties); and sealed the repaired pre-unblinding `0 of 19` suite (`f64 vs mpmath32 < 2 * (1/1000)^4`, `10`-trial `24`-digit $\mathrm{U}(3)^6$ Haar `< 5 * (1/1000)^6`, `10`-trial `12`-factor full $\mathrm{U}(3)$ Fujikawa `< 4 * (1/1000)^8` rad).
 
