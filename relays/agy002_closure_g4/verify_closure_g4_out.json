@@ -1,0 +1,86 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_CLOSURE-G4",
+  "empirical_firewall": "0 of 19",
+  "gate_4_passed": false,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ]
+  },
+  "section_1_bpv_rge_lock": {
+    "PF4_1_caught": true,
+    "PF4_1_untransposed_mixed_yukawa_coeff_diff": 1.5,
+    "PF4_2_caught": true,
+    "PF4_2_dlam2_poly_diff": 22.972800000000024,
+    "PF4_2_sqrt2lam_ir_shift": 0.003307748409586475,
+    "bbo_production_rhs_rel_err": 1.5745468363724308e-14,
+    "buttazzo_t_crit_cross_solver_diff": 1.4095391520640987e-12,
+    "buttazzo_t_crit_f64": 7.578626559315938,
+    "buttazzo_t_crit_mp45": 7.578626559317348,
+    "dparity_3family_bar_theta_ir": 5.828670879282072e-15,
+    "dparity_3family_jarlskog_abs": 0.012013337251815068,
+    "haar_u3_max_drift_10_trials": 2.220446049250313e-15,
+    "section_1_passed": true,
+    "sym_1loop_bbo_exact": true,
+    "sym_2loop_bpv_exact_minus_11_over_2": true
+  },
+  "section_2_repaired_pc3_and_spin10": {
+    "PF4_3_caught": true,
+    "PF4_3_transposed_heavy_inverse_norm_sq": "1245/1922",
+    "PF4_4_caught": true,
+    "PF4_4_reversed_heavy_order_norm_sq": "698707/1847042",
+    "four_slot_intertwiner_nullity_with_ha_vs_pure_spin": [
+      1,
+      2
+    ],
+    "gram_and_holomorphic_bilinear_ok": true,
+    "heavy_block_asymmetry_norm_sq": 12,
+    "heavy_block_commutator_norm_sq": 98,
+    "odd_spin_derived_k_j": [
+      -1,
+      -1
+    ],
+    "q8_noncommuting_wrong_side_failures": 24,
+    "quaternion_span_dims_indep_full_traceless": [
+      9,
+      2,
+      2
+    ],
+    "schur_6x6_det_t5_exact": true,
+    "schur_sigma_min_rel_err_at_1e_minus_5": 1.1991164099015053e-05,
+    "section_2_passed": false,
+    "spin10_2d_anomaly_polynomials_all_zero": true,
+    "untwisted_u1_cubed_exact": true
+  },
+  "section_3_collar_casimir": {
+    "PF4_5_caught": true,
+    "PF4_5_fake_target_derivative_at_3": 1.9998022257167996,
+    "branch_A_max_dV_dL4_on_grid": -1.5352745482237242e-05,
+    "branch_A_monotone_runaway_obstruction_proved": true,
+    "branch_B_conditional_d2V_dL42_at_star": 0.0014443827426354398,
+    "branch_B_conditional_gapped_L4_star": 1.682569148980953,
+    "c_ferm_uv": "153/4",
+    "c_gauge_uv": "231/4",
+    "c_ir_chiral_massless": "28",
+    "c_scal_uv": "-3/2",
+    "c_uv_total": "189/2",
+    "delta_PS_unconditional_continuous_moduli_count": 1,
+    "section_3_passed": true,
+    "uv_asymptotic_rel_err_at_L4_1e_minus_3": 2.438919513373091e-06
+  }
+}
