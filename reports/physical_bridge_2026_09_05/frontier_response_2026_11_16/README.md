@@ -20,6 +20,10 @@ fetch. Exact heads and source custody are in SOURCES.json.
   finite-length composition law and the normal residual required of a
   complete stationary field construction. It reuses the original action,
   physical metric and real Gauss equation.
+- ACTUAL_SOURCE_NORMAL_TEST.md writes that residual in the actual parent
+  source operators and derives a curve-wise full-stationarity test. A
+  two-field hand comparator detects the failure that a scalar wall can
+  conceal.
 
 ## Evidence status
 
@@ -39,7 +43,8 @@ their existing requirements.
 
 Evaluate the normal residual of the actual common-action affine path,
 including its physical gauge quotient and permitted endpoint data.
-The explicit target is equation (12) of SAME_ACTION_END_RESPONSE.md.
+The explicit target is equation (5) of ACTUAL_SOURCE_NORMAL_TEST.md,
+derived from equation (12) of SAME_ACTION_END_RESPONSE.md.
 It determines whether a restricted scalar wall solves the full field
 equations, and supplies the source of a necessary transverse correction
 when it does not. The complete cusp domains, zero modes and any continuum

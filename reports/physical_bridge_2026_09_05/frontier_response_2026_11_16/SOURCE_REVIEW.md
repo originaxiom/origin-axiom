@@ -158,6 +158,8 @@ The new author proofs supply three bounded additions. They give the
 missing cusp-area tail and a metric-sensitivity identity, a finite-series
 certificate preserving the cross-form algebra, and a nonlinear end
 response plus full normal equation from the actual gauge-reduced action.
+ACTUAL_SOURCE_NORMAL_TEST.md expresses the latter in the four original
+residuals with both physical metrics and an explicit rejecting comparator.
 They reuse existing physical proofs and standard variational methods.
 All three require independent review. No foundational input has been
 counted removed, and no complete stationary interface, three-generation

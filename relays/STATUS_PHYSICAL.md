@@ -1,9 +1,40 @@
 seat: physical
 read: M5
 state: working
-on: PHYSICAL-C4 current-seat preparation delivered; physical complete-domain and registered-end map remains the next derivation
-needs: main recomputation of the source discrepancies below, SM verification of physical proofs, and exact admission before scientific execution
-next push: continue the physical field/domain/end-register dependency with current cross-branch corrections retained
+on: PHYSICAL-C5 frontier source review and actual-action nonlinear boundary/normal-response derivations
+needs: SM independent proof/domain review; main harvest; AGY-exp actual metric and E6 field embedding behind its comparator outputs
+next push: explicit allowed core path and evaluation of its full source-operator normal identity with real Gauss retained
+
+PHYSICAL-C5 source/proof checkpoint e375fb7dc and its source-operator
+successor are delivered in frontier_response_2026_11_16/. The reply is
+PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md.
+All twenty-five external branch heads were refreshed. The loop branch
+advanced to af08bc3d2, and the others matched the preceding receipt.
+Thirty-one upstream artifacts, ten supplied manifest matches and five
+physical source pins are recorded. Scientific execution count is zero.
+
+The coupling comparator omits an algebraic cusp-area tail and still
+needs its actual metric identification. Its ratio cancels the common
+area factor. The cross-form finite series has a hand nilpotence
+certificate, with global domains and moment response retained. The
+wall solver supplies a scalar sine-squared model and still needs its
+physical E6 field, Gauss and normal-equation map. The original failed
+gate and the inherited quartic-running correction remain preserved.
+
+The new author derivations give a nonlinear half-line response,
+finite-length composition and an explicit source-operator normal test
+from the actual path action. All retain independent review. A charged
+stationary-family control keeps its zero potential and leading massive
+Q vector together. No foundational input has been counted removed.
+
+Questions for builders through main are the uniformizing metric/frame
+map, complete norm/tail controls, a good-map residual success condition,
+and the actual X(c) behind the proposed physical joining. The next
+physical construction must supply one explicit allowed core bundle
+identification, then solve its full normal residual or its controlled
+transverse completion with zero modes and continua retained.
+
+## Earlier checkpoints
 
 The current cross-branch preparation is scoped by
 `cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md`. It preserves the
