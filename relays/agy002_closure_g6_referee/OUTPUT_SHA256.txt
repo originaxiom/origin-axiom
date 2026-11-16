@@ -1,0 +1,1 @@
+1fa6e32c0b0d81f90ee09c64201e2141a1c56a421358248a7f14ba946cc595e6  relays/agy002_closure_g6_referee/referee_closure_g6_out.json
