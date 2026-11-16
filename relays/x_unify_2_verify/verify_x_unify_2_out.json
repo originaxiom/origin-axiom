@@ -1,0 +1,149 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage2_Unify_Passed": true,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_bundle_parabolic_seed",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-UNIFY-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_lowdin_petersson_and_jet_rank": {
+    "E1_LowdinPetersson_and_JetRank_Gate_passed": true,
+    "PC_U2_TwoJetSingularMajorana_max_sv1_over_sv3_55dps": 2.5259488496316915e-59,
+    "collinearity_cos_Aw_Au_in_petersson_space": 0.986347485533288,
+    "lowdin_orthonormality_frob_err": 1.5772615867296466e-14,
+    "lowdin_weights_normalized_to_cu1": [
+      0.0002904786657786954,
+      -0.005739187969405123,
+      1.0
+    ],
+    "one_jet_max_sv2_over_sv3_55dps": 4.5725906241874425e-57,
+    "petersson_Y45_vs_Y60_rel_diff": 5.465144974326229e-15,
+    "prescription_seesaw_comparison": {
+      "equal_raw_1_1_1": {
+        "level15_to_5_crt_max_rel_diff": 2.117225363666015e-12,
+        "ref_4_15_8_15_parity_sin2_ir": 0.9994672905593441,
+        "ref_4_15_8_15_sec4_r12_ir": 0.2838825225248939,
+        "ref_4_15_8_15_sec4_r23_ir": 3.264658519610957e-05,
+        "weights_normalized_to_cu1": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "geometric_4pi_curvature_expansion": {
+        "level15_to_5_crt_max_rel_diff": 2.779969133167979e-13,
+        "ref_4_15_8_15_parity_sin2_ir": 0.9098682344724813,
+        "ref_4_15_8_15_sec4_r12_ir": 0.23671783926566525,
+        "ref_4_15_8_15_sec4_r23_ir": 0.0014196146576314064,
+        "weights_normalized_to_cu1": [
+          0.006332573977646111,
+          0.07957747154594767,
+          1.0
+        ]
+      },
+      "lowdin_petersson_orthonormal_sum": {
+        "level15_to_5_crt_max_rel_diff": 1.6999199827268112e-14,
+        "ref_4_15_8_15_parity_sin2_ir": 0.9059488882500607,
+        "ref_4_15_8_15_sec4_r12_ir": 0.7187715793766484,
+        "ref_4_15_8_15_sec4_r23_ir": 0.13760014682143326,
+        "weights_normalized_to_cu1": [
+          0.0002904786657786954,
+          -0.005739187969405123,
+          1.0
+        ]
+      },
+      "unorthogonalized_diagonal_petersson": {
+        "level15_to_5_crt_max_rel_diff": 7.931257634148248e-14,
+        "ref_4_15_8_15_parity_sin2_ir": 0.939050150076497,
+        "ref_4_15_8_15_sec4_r12_ir": 0.4125038533799351,
+        "ref_4_15_8_15_sec4_r23_ir": 0.002778328217105626,
+        "weights_normalized_to_cu1": [
+          0.001751711731534236,
+          0.007004292515092151,
+          1.0
+        ]
+      }
+    },
+    "three_jet_111_sv1_over_sv3_55dps": 2.4784287406971507e-07
+  },
+  "part_2b_amphichiral_cs_and_3family_dparity_strong_cp": {
+    "E2_AmphichiralCS_and_3FamilyDParity_StrongCP_Gate_passed": true,
+    "amphichiral_7d_chern_simons_zero_branch": {
+      "PC_U2_NegativeDetSignCounterexample_theta_phys_rad": 3.141592653589793,
+      "PC_U2_ParityPiBranchCounterexample_theta_phys_rad": 3.141592653589793,
+      "complete_cusp_z1_unit_modulus_and_z2_eq_z1_err_55dps": 0.0,
+      "explicit_branch_resolution": "Parity P: F ^ F~ -> -F ^ F~ allows two 2pi-periodic branches theta_YM in {0, pi} (where pi gives theta_bar = pi); dimensional reduction on amphichiral m004 selects the connected theta_YM = 0 mod 2pi branch via CS(m004) = 0.",
+      "plebanski_LR_chern_simons_asymmetry_55dps": 1.0960464945497588e-55
+    },
+    "exact_1_plus_2_loop_bpv_determinant_phase_theorem": {
+      "ellis_gaillard_3loop_cp_odd_trace_scale": 1.3786299681530694e-08,
+      "im_tr_Y_inv_beta_60dps": 7.596454196607839e-65
+    },
+    "mirror_decoupling_parity_audit": {
+      "PC_U2_AsymmetricMirrorMixing_phase_rad": 0.6639661940339862,
+      "parity_even_hermitian_projected_phase_rad": 3.730491713043189e-63
+    },
+    "three_family_dparity_repaired_bpv_2loop_audit": {
+      "PC_U2_OmitFujikawaShift_3fam_err_rad": 2.8172056698010626,
+      "ir_abs_J_CKM_3fam": 0.08548744404620554,
+      "ir_abs_theta_bar_phys_35dps_rad": 5.471743239212607e-28,
+      "ir_departure_from_hermiticity_frob": 0.014876825267481419,
+      "ten_trial_full_U3_power_6_fujikawa_max_err_24dps_rad": 1.5040583734130657e-23,
+      "uv_hermiticity_err": 0.0,
+      "uv_sgn_det_Yu_Yd": 1
+    }
+  },
+  "repaired_four_pillar_rge_gate": {
+    "E2_RepairedFourPillar_11Over2_Gate_passed": true,
+    "pillar1_buttazzo_3loop": {
+      "PC_BR2_WrongDiffFactor_err": 0.15131151550036248,
+      "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+      "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+      "lam_planck_abs_err": 6.725958536619656e-05,
+      "log10_Lambda_lam_GeV": 9.792515212710263,
+      "log10_two_Lambda_V_GeV": 9.801029995663981
+    },
+    "pillar2_repaired_rank1_mixing_11_over_2": {
+      "PC_BR2_ReversedMixedProductOrder_f64_rel_err": 0.018450249070896374,
+      "PC_BR2_ReversedMixedProductOrder_mp100_rel_err": 0.018450498300124463,
+      "diagonal_repaired_vs_old_max_diff": 0.0,
+      "repaired_11_over_2_f64_rel_err": 3.1620831956488954e-07,
+      "repaired_11_over_2_mp100_rel_err": 3.7353235649813636e-64
+    },
+    "pillar3_xing_zhou_downward_matrix": {
+      "PC_BR2_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+      "eq18_naumov_rel_err": 8.293714772077242e-15
+    },
+    "pillar4_antusch_weinberg_1loop": {
+      "PC_BR2_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+      "analytical_integral_rel_err": 2.3569601803885482e-15,
+      "weinberg_symmetry_err": 0.0
+    }
+  },
+  "stage_2_gate_passed": true
+}
