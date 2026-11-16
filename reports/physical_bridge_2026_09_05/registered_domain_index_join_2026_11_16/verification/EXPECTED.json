@@ -1,0 +1,14 @@
+[
+  "RegisteredVertexChecks.test_quaternion_relations_and_conjugation_generators",
+  "RegisteredVertexChecks.test_coupling_span_full_and_traceless",
+  "RegisteredVertexChecks.test_coupling_covariance_and_unsigned_counterexample",
+  "RegisteredVertexChecks.test_inner_residual_and_vertical_spin_sheet",
+  "RegisteredVertexChecks.test_full_and_slot_family_constant_stabilizers",
+  "PhysicalVertexChecks.test_source_cubic_and_polarization",
+  "PhysicalVertexChecks.test_root_vertex_and_physical_mass_derivative",
+  "PhysicalVertexChecks.test_normalized_vertex_current_and_rescalings",
+  "PhysicalVertexChecks.test_shape_inequality_exact_metric_controls",
+  "PhysicalVertexChecks.test_slot_rank_and_illicit_form_entry",
+  "PhysicalVertexChecks.test_full_complement_response_and_backreaction",
+  "PhysicalVertexChecks.test_complex_bilinear_gram_and_current_transport"
+]
