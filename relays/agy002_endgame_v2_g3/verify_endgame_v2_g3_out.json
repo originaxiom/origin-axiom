@@ -1,0 +1,72 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 3 \u2014 Radiative EWSB Scale Closure & Dimensionless v_EW Ledger",
+  "empirical_firewall": "0 of 19",
+  "gate_3_passed": true,
+  "section_0_ast_lock": {
+    "ast_gate_passed": true,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0
+  },
+  "section_1_buttazzo_2013_gamma_m2_polynomial_lock": {
+    "buttazzo_gamma_m2_exact_match": true,
+    "gamma_1loop_sample_rational": "367247879/65865514",
+    "gamma_2loop_sample_rational": "-886154046205665125/503238848400166736"
+  },
+  "section_2_picard_lindelof_and_coleman_weinberg_obstructions": {
+    "homogeneous_and_cw_obstruction_gate_passed": true,
+    "picard_lindelof_exp_integral_rel_err": 8.205768577125415e-14,
+    "min_muH2_along_pure_sm_flow_from_unit_uv": 0.6101934016294084,
+    "homogeneous_msbar_crosses_zero": false,
+    "coleman_weinberg_beta_lam_at_lam0_gauge_only": 0.0012593099455953725,
+    "coleman_weinberg_beta_lam_at_lam0_top_dominated": -0.02364602225755616,
+    "top_dominated_cw_is_maximum_not_minimum": true
+  },
+  "section_3_heavy_threshold_ewsb_and_dimensionless_vEW_ledger": {
+    "threshold_ewsb_and_ledger_gate_passed": true,
+    "vissani_nr_msbar_rg_invariance_residual": 0.0,
+    "vissani_downward_nr_shift_positive": 0.045594532639052,
+    "portal_scalar_drives_radiative_zero_crossing": true,
+    "portal_zero_crossing_t": -1.9501775980776954,
+    "muH2_at_M_PS_in_M_PS_sq_units": -0.10250534485898063,
+    "barbieri_giudice_hierarchy_sensitivity_at_DeltaSM_28": 4.238588318255449e+23,
+    "parameter_free_v_EW_over_M_PS_closure": false,
+    "dimensionful_anchors_in_ir_ledger": 1,
+    "haar_u3_6_dimensionless_mass_ratios_max_err": 1.6653345369377348e-16
+  },
+  "section_4_planted_fault_controls": {
+    "all_5_planted_faults_caught": true,
+    "PF3_1_half_gamma_scale_rel_err": {
+      "measured_err": 0.2801658759274789,
+      "caught": true
+    },
+    "PF3_2_homogeneous_positivity_floor": {
+      "min_muH2": 0.610193401632595,
+      "caught": true
+    },
+    "PF3_3_inverted_vissani_sign_rg_violation": {
+      "measured_err": 0.030396355088502244,
+      "caught": true
+    },
+    "PF3_4_unstable_top_cw_curvature": {
+      "d2V_over_v2": -0.09458408903022464,
+      "caught": true
+    },
+    "PF3_5_extra_dimensionful_anchor_count": {
+      "anchor_count": 2,
+      "caught": true
+    }
+  }
+}
