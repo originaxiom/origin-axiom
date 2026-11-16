@@ -1,0 +1,70 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Closure_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-CLOSURE-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_polarized_spin_vertex_proof4": {
+    "E1_PolarizedSpinVertex_and_WilsonCrossing_Gate_passed": true,
+    "PC_CL3_SameSignPolarization_vertex_value": 0,
+    "PC_CL3_SinglePolarizationTerm_ratio_factor": "1/4",
+    "eq4_polarized_cubic_exact": true,
+    "eq7_symbolic_G_k_hQ_q_cancellation_exact": true,
+    "eq9_mass_operator_derivative_agreement_exact": true,
+    "full_E_scalar_phase_max_err_60dps": 1.60363433127837e-61,
+    "hyperbolic_collar_2_Aom_Ag_over_Iom2": 2.832974446368744,
+    "odd_minus_aligned_magnitude_diff": 0,
+    "quadrature_vs_analytic_rel_err": 2.7550995194677514e-12,
+    "remaining_symbols_in_normalized_ratio": [
+      "A_g",
+      "A_omega",
+      "I_omega"
+    ],
+    "trace_dual_norms_and_charges_verified": true,
+    "wilson_crossing_twisted_counts_per_charge": {
+      "form_zero_modes_at_thetaQ_1_over_7": 2,
+      "spin_zero_modes_at_thetaQ_1_over_7": 0
+    }
+  },
+  "part_3b_quartic_barrier_and_hardy_proof5": {
+    "E2_AffineQuarticBarrier_and_RealGaussHardy_Gate_passed": true,
+    "affine_quartic_barrier": {
+      "B_coefficient": 0.5402030738086177,
+      "PC_CL3_NonVacuumEndpoint_V_at_s1": 0.3567356194795866,
+      "max_abs_V_minus_B_s2_1ms2_across_9_nodes_60dps": 4.861730685829017e-63,
+      "su2_tail_moment_identity_frob_err_60dps": 2.91703841149741e-62
+    },
+    "cusp_gauge_hardy_bound_audit": {
+      "PC_CL3_MisappliedHardyToSpinFermion_quotient_T40": 0.0013707783890401887,
+      "quotient_T10": 0.07748800978019857,
+      "quotient_T200": 0.05561038669111716,
+      "quotient_T40": 0.056926333944595744,
+      "sharp_target_1_over_8_ell2": 0.05555555555555555
+    },
+    "real_gauss_longitudinal_response": {
+      "K0_raw_tangent_norm": 0.8213928020987882,
+      "Ks_horizontal_norm_at_s_1_over_3": 0.707732221379752,
+      "direct_minus_projection_formula_err_60dps": 7.778769097326427e-62,
+      "linear_solve_residual_60dps": 2.8852414706738647e-64,
+      "unbroken_kernel_orthogonality_err": 0.0
+    }
+  },
+  "scope_note": "Same-action polarized spin vertex, Wilson-crossing rank, restricted affine-path quartic V(s) = B s^2(1-s)^2, real Gauss projection, and 1/(8 ell^2) gauge Hardy bound verification of P-C3b Proofs 4-5 (d7d0bc320); transverse PDE stationarity and enhancement-point regularity remain scoped analytic duties.",
+  "stage_3_gate_passed": true
+}
