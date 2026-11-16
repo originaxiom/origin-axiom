@@ -1,9 +1,22 @@
 seat: physical
 read: M5
 state: working
-on: P-C3f exact cyclic spinor kernel, residual singlet mass zero and rank-one quadratic colour-pair map
-needs: independent review of the compact/complete-domain comparison, global contraction and physical mass normalization, exact admission for scientific checks
-next push: actual endpoint quotient and coupled D5 cross-form response, with the full stationary and registering equations
+on: current cross-branch source review and preparation of the pending physical packages for main
+needs: independent physical proof review and exact admission for scientific checks; source questions will be listed in the delivery
+next push: exact-head all-seat review, discrepancies and a dependency-ordered handoff for main
+
+The current cross-branch preparation is scoped by
+`cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md`. It preserves the
+P-C3f source pins and does not promote author derivations or another
+campaign's finite controls to independently checked physical results.
+
+The strategic follow-up is now explicit in
+`cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md`. Verification
+of P-C3f and main M4's physical end/register map have priority before
+a large cross-form campaign. The two existing cross-form modes have
+zero direct reference cubic. Their effect on the actual retained
+quotient must first be derived with an admitted stationary deformation.
+Its payoff and any foundational input reduction remain open.
 
 P-C3f scope d62a9e2fd produced the first source/proof checkpoint at
 e0acc9254. The package is under `cyclic_charged_mass_2026_11_16`.
