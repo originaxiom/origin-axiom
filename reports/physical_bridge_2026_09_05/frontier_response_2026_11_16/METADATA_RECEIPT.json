@@ -1,0 +1,185 @@
+{
+  "date_utc": "2026-11-16T19:07:52.370377+00:00",
+  "operations": [
+    "Git blob read",
+    "byte equality",
+    "SHA-256 comparison",
+    "AST syntax parsing",
+    "JSON field inspection"
+  ],
+  "upstream_artifacts_verified": 31,
+  "provided_manifest_checks": [
+    {
+      "manifest": "relays/x_frontier_1_verify/OUTPUT_SHA256.txt",
+      "artifact": "relays/x_frontier_1_verify/verify_x_frontier_1_out.json",
+      "sha256": "b9dab3519dea4a1bdc2a4deaaee33e99550acab150be585098f6d89f0339861d",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_1_verify/SCRIPT_SHA256.txt",
+      "artifact": "relays/x_frontier_1_verify/verify_x_frontier_1.py",
+      "sha256": "f2ea1c405e70987408a060a8caa558270807a8089edeacaba85775ded73091af",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_2_verify/OUTPUT_SHA256.txt",
+      "artifact": "relays/x_frontier_2_verify/verify_x_frontier_2_out.json",
+      "sha256": "d2b2941bd681dc0f534043a9681a2a9c414f6ac7f739661d0e9d08833a30670e",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_2_verify/SCRIPT_SHA256.txt",
+      "artifact": "relays/x_frontier_2_verify/verify_x_frontier_2.py",
+      "sha256": "b4a969763d51bdcb5a5113ba2ed753094c20e5342bf187b157e8ef070a28a620",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_3_verify/OUTPUT_SHA256.txt",
+      "artifact": "relays/x_frontier_3_verify/verify_x_frontier_3_out.json",
+      "sha256": "04cdfdf4de4c455af3025649f7f1e4ff631d613e2fe47ffe9fbb1f4050f67254",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_3_verify/SCRIPT_SHA256.txt",
+      "artifact": "relays/x_frontier_3_verify/verify_x_frontier_3.py",
+      "sha256": "e729422d2038a0a1fb60961051130b0533758720ecc0fc74c2201bbf2a813420",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_4_verify/OUTPUT_SHA256.txt",
+      "artifact": "relays/x_frontier_4_verify/verify_x_frontier_4_out.json",
+      "sha256": "45309f21f016646948960994f5d6a3b28c2a53a48ee6b1a66c8df41013d1f7b6",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_4_verify/SCRIPT_SHA256.txt",
+      "artifact": "relays/x_frontier_4_verify/verify_x_frontier_4.py",
+      "sha256": "d740689a94f95c2614ca191a43335674c40c12d2b6690e3fe417f7655e4cbc37",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_4b_verify/OUTPUT_SHA256.txt",
+      "artifact": "relays/x_frontier_4b_verify/verify_x_frontier_4b_out.json",
+      "sha256": "76ff5bffaf9ca94badd125e829e448e20ba815283b9b526821708fa7b86f719d",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_frontier_4b_verify/SCRIPT_SHA256.txt",
+      "artifact": "relays/x_frontier_4b_verify/verify_x_frontier_4b.py",
+      "sha256": "832a7e53d5e6f3c91b40515fe67f79b36392264758408929a07f9bfcdf7f936e",
+      "matches": true
+    }
+  ],
+  "upstream_received_gate_flags": [
+    {
+      "path": "relays/x_frontier_1_verify/verify_x_frontier_1_out.json",
+      "evidence_status": "upstream received output; not reproduced here",
+      "top_level_gate_flags": {
+        "all_planted_controls_passed": true,
+        "stage_1_gate_passed": true
+      },
+      "section_gate_flags": {
+        "ast_source_check": {},
+        "part_1a_pc3c_protected_quartic_and_e6_centralizer": {
+          "E1_ProtectedSpinQuartic_and_E6Centralizer_Gate_passed": true
+        },
+        "part_1b_pc3d_reflection_involution_and_tails": {
+          "E2_ReflectionInvolution_and_ForcedCuspTails_Gate_passed": true
+        },
+        "part_1c_cross_seat_kronecker_and_2loop_audit": {
+          "E3_CrossSeat_KroneckerAndTwoLoopTranspose_Gate_passed": true
+        }
+      }
+    },
+    {
+      "path": "relays/x_frontier_2_verify/verify_x_frontier_2_out.json",
+      "evidence_status": "upstream received output; not reproduced here",
+      "top_level_gate_flags": {
+        "all_planted_controls_passed": true,
+        "stage_2_gate_passed": true
+      },
+      "section_gate_flags": {
+        "ast_source_check": {},
+        "part_2a_complete_fixed_kernel_and_light_cubic": {
+          "E1_CompleteFixedKernel_and_LightCubic_Gate_passed": true
+        },
+        "part_2b_balanced_forms_and_two_step_ift": {
+          "E2_BalancedFormCancellation_and_TwoStepIFT_Gate_passed": true
+        },
+        "part_2c_full_e8_pencil_ranks_and_trace8": {
+          "E3_FullE8PencilRanks_and_EighthPowerTrace_Gate_passed": true
+        }
+      }
+    },
+    {
+      "path": "relays/x_frontier_3_verify/verify_x_frontier_3_out.json",
+      "evidence_status": "upstream received output; not reproduced here",
+      "top_level_gate_flags": {
+        "all_planted_controls_passed": true,
+        "stage_3_gate_passed": true
+      },
+      "section_gate_flags": {
+        "ast_source_check": {},
+        "part_3a_cyclic_corner_and_koszul_table": {
+          "E1_CyclicCornerContraction_and_KoszulTable_Gate_passed": true
+        },
+        "part_3b_triplet_green_operator_sigma_star": {
+          "E2_TripletGreenOperator_RankOne_and_SigmaStar_Gate_passed": true
+        },
+        "part_3c_prospective_d5_cross_form_singlet_test": {
+          "E3_ProspectiveCrossForm_SingletMechanism_Gate_passed": true
+        }
+      }
+    },
+    {
+      "path": "relays/x_frontier_4_verify/verify_x_frontier_4_out.json",
+      "evidence_status": "upstream received output; not reproduced here",
+      "top_level_gate_flags": {
+        "all_planted_controls_passed": true,
+        "stage_4_gate_passed": false
+      },
+      "section_gate_flags": {
+        "ast_source_check": {},
+        "part_4a_coupled_e6_join_and_corridors": {
+          "E1_CoupledE6StateAxisJoin_and_Corridors_Gate_passed": false
+        },
+        "part_4b_four_tier_master_closure_matrix": {
+          "E2_SixteenRow_FourTier_MasterClosureMatrix_Gate_passed": true
+        },
+        "part_4c_final_zero_of_19_suite_and_haar6": {
+          "E3_FinalZeroOf19Suite_and_Haar6_Gate_passed": true
+        },
+        "repaired_four_pillar_rge_gate": {
+          "E2_RepairedFourPillar_11Over2_Gate_passed": true
+        }
+      }
+    },
+    {
+      "path": "relays/x_frontier_4b_verify/verify_x_frontier_4b_out.json",
+      "evidence_status": "upstream received output; not reproduced here",
+      "top_level_gate_flags": {
+        "all_planted_controls_passed": true,
+        "stage_4b_gate_passed": true
+      },
+      "section_gate_flags": {
+        "ast_source_check": {},
+        "part_4a_coupled_e6_join_and_corridors": {
+          "E1_CoupledE6StateAxisJoin_and_Corridors_Gate_passed": true
+        },
+        "part_4b_four_tier_master_closure_matrix": {
+          "E2_SixteenRow_FourTier_MasterClosureMatrix_Gate_passed": true
+        },
+        "part_4c_final_zero_of_19_suite_and_haar6": {
+          "E3_FinalZeroOf19Suite_and_Haar6_Gate_passed": true
+        },
+        "repaired_four_pillar_rge_gate": {
+          "E2_RepairedFourPillar_11Over2_Gate_passed": true
+        }
+      }
+    }
+  ],
+  "scientific_execution_count": 0,
+  "scientific_import_count": 0,
+  "mathematical_passes_inferred_from_metadata": 0,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
