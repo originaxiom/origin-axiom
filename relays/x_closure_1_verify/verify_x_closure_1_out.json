@@ -1,0 +1,115 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Closure_Passed": true,
+    "disallowed_imports_count": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "non_benchmark_complex_literals": 0,
+    "non_benchmark_float_literals": 0,
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-CLOSURE-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_repaired_weil_metaplectic_and_crt": {
+    "E1_RepairedWeilMetaplectic_and_CRT_Gate_passed": true,
+    "PC_CL1_DoubledShearHeisenbergDefect": {
+      "noncentral_heisenberg_conjugation_frob_defect": 3.1622776601683795,
+      "sp2_bad_st_cubed_matrix": [
+        [
+          4,
+          3
+        ],
+        [
+          -3,
+          -2
+        ]
+      ]
+    },
+    "anomaly_factorization_verified": true,
+    "crt_S15_tensor_frob_err_65dps": 1.5580765759624756e-65,
+    "crt_T15_tensor_frob_err_65dps": 6.30870435700792e-66,
+    "gauss_sum_crt_reciprocity_err_65dps": 2.824161964953151e-66,
+    "gauss_sums_re_im": {
+      "gamma_15_1": [
+        -1.8388087871056003e-66,
+        1.0
+      ],
+      "gamma_3_2": [
+        -1.3705671485306868e-66,
+        1.0
+      ],
+      "gamma_5_3": [
+        1.0,
+        -1.0616367482236675e-66
+      ]
+    },
+    "k2_over_k1_exact": "3/5",
+    "nonprojective_modular_relation_frob_errs_65dps": {
+      "N15_r1": 8.115124127137016e-65,
+      "N3_r2": 2.106251811055436e-65,
+      "N5_r3": 6.575602110481147e-65
+    },
+    "unit_shear_heisenberg_conjugation_frob_errs_65dps": {
+      "N15_r1": 7.244680340013838e-65,
+      "N3_r2": 1.273688586071919e-65,
+      "N5_r3": 4.708191333772723e-65
+    },
+    "w5_parity_split_dims": {
+      "c5_involution_err": 3.7285358708277265e-65,
+      "dim_2w": 2,
+      "dim_3c": 3
+    }
+  },
+  "part_1b_zickert_rogers_cs_and_theta_scoping": {
+    "E2_ZickertRogersCS_and_ThetaScoping_Gate_passed": true,
+    "PC_CL1_BlochWignerConjugateTautologyControl": {
+      "tautological_D_plus_Dconj_on_chiral_m003": 0.0,
+      "tautological_D_plus_Dconj_on_chiral_m015": 0.0
+    },
+    "amphichiral_m004_zickert_audit": {
+      "bundle_vs_ordered_ptolemy_vol_diff": 0.0,
+      "cs_mod_half_max_abs_60dps": 3.940770461107765e-63,
+      "goerner_coboundary_invariance_err_60dps": 7.88154092221553e-63,
+      "h1_torsion_order": 1,
+      "monodromy_conjugation_err_60dps": 1.399384481482517e-60,
+      "vol_m004": 2.0298832128193074
+    },
+    "chiral_5_2_knot_m015_irrational_control": {
+      "max_ptolemy_residual": 7.778769097326427e-62,
+      "min_distance_to_any_twelfth_lattice": 0.013462533369514798,
+      "snappy_benchmark_audit": {
+        "abs_diff_vs_published_8fig": 3.2971518682969354e-09,
+        "benchmark_8fig_passed": true,
+        "computed_zickert_m015_cs": -0.15320413329715188,
+        "published_snappy_m015_cs": -0.15320413
+      },
+      "vol_m015": 2.828122088330783
+    },
+    "chiral_sister_m003_equal_volume_control": {
+      "abs_cs_minus_one_quarter_err_60dps": 2.333630729197928e-61,
+      "cs_m003_mod_half": 0.25,
+      "h1_torsion_order": 5,
+      "monodromy_conjugation_err_60dps": 1.912335237928364e-59,
+      "vol_m003": 2.0298832128193074,
+      "vol_m004_minus_vol_m003_abs_60dps": 1.2446030555722283e-60
+    },
+    "explicit_tier_II_theta_branch_scoping": {
+      "PC_CL1_BareParityPiBranchUnselectedWithoutParentMap_rad": 3.141592653589793,
+      "geometric_kk_delta_theta_cs_m004_rad": 2.4760591060199633e-62,
+      "scoped_statement": "Zickert-Rogers flattened dilogarithm proves CS(m004) = 0 mod 1/2 (unlike chiral m003 = 1/4 and m015 = -0.15320413...), vanishing the geometric 3D CS shift Delta_theta_CS = 0; exclusion of an independent bare parity-allowed theta_bare = pi branch remains an explicit Tier-II parent-action premise rather than an unconditional assignment."
+    }
+  },
+  "stage_1_gate_passed": true
+}
