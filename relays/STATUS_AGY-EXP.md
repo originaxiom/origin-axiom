@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40
-state: active
-on: Campaign X-UNIFY Stage 4 Card X-UNIFY-4 sealed (Commit 13 of 16; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-UNIFY (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+state: waiting
+on: Campaign X-UNIFY complete (16 of 16 blind-sealed commits sealed and pushed; 64 cumulative blind-sealed commits; 0 of 19)
+needs: review of Campaign X-UNIFY (Stages 1-4) from physical, agy-002, SM, and cc/main
+next push: pushed upon completion of Commit 16 of 16
 
-## Campaign `X-UNIFY` Live Ledger (`13 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-UNIFY` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-UNIFY-1` (`bccc00e75`, `9839c54f4`, `81eae8a79`, `c46543895`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Unify_Passed = True` (`0` float literals, `0` complex literals module-wide).
@@ -16,8 +16,9 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 3. **`Stage 3 / X-UNIFY-3` (`786bd828c`, `2303cf32d`, `7131217f1`, `d0c00af62`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Unify_Passed = True`.
    - Exhaustive `320`-digit `3`-point power-law-eliminated verification across all `288` vacua (`576` matrices, `1728` singular values) proving zero leading-minor phase cancellations anywhere despite `16` tied `3x3` and `96` tied `2x2` minor matrices (`max err < 11/100000` Level `5`, `< 44/100000` Level `15`, `< 4/1000` Level `10`) + whole-orbit Frame C cusp minima; resolved `physical` `R2` step-refinement diagnosis (`18` coarse `N_steps = 48` overflows were explicit-`RK4` stiffness artifacts; at `N_steps >= 600` with `< 5/1000000` step-halving diff, **`286/288` vacua converge smoothly including `100%` of Levels `5` & `15`**, with only `2` UV-nonperturbative $\epsilon_{\mathrm{UV}} > 42/10 > 4$ Level-`10` points diverging); verified standalone Level-`6` $M_H^2 = K_{\mathrm{KK}} - \frac{1}{4\pi}\Sigma_H$ unique `d = 1` (`0`-bit) ground mode $v_{+\pi/6}$ (`overlap > 1 - (1/1000)^5`) and honest Guardrail-`1` coupled Yukawa radiative ranking across $\mathcal{O}_{32}$ (`~ 1/100` of $|V_{\mathrm{Cas}}|$, retaining `4` twin-pair bits in single-vacuum mode vs `0` bits in universal corridor mode).
-4. **`Stage 4 / X-UNIFY-4` (this commit):**
-   - Expectations pre-registered in `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` prior to creating `relays/x_unify_4_verify/`.
+4. **`Stage 4 / X-UNIFY-4` (`bc328f8d7`, `c8729c724`, `49551f4b1`, and this commit):**
+   - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Unify_Passed = True`.
+   - Exact symbolic + `ODE` verification of unified `SU(5)` desert `(23/134, 109/201)` & `Pati–Salam` `+506/(201*pi)` gauge law (`< 6 * (1/1000)^5` across $\Delta_{\mathrm{PS}} \in \{0, 2, 4, 8\}$) + repaired `2`-loop `1320`-history `UR-1 / UR-2` + complete `286`-vacuum (`100%` of Levels `5` & `15`) vs `248`-vacuum rational corridors across `(1, 1, 1)`, Löwdin–Petersson $G_{\mathrm{Pet}}^{-1/2}$, and geometric `(4*pi)` Majorana prescriptions; machine-verified `12`-subsystem Three-Column Cross-Seat Master Closure Matrix (`7` Unconditionally Derived, `3` Conditional Same-Action Reductions, `2` Explicit Remaining Scale/Discrete Items, including homogeneous `Picard–Lindelöf` $\mu_H^2(t) = \mu_H^2(0)\exp(\int \gamma_{m^2}\,dt)$ verification `< 2 * (1/1000)^4` pricing $v_{\mathrm{EW}}$); final blind-sealed `0 of 19` suite (`f64 vs mpmath32 < 2 * (1/1000)^4`, `10`-trial `24`-digit $\mathrm{U}(3)^6$ Haar `< 5 * (1/1000)^6`, `10`-trial `12`-factor full $\mathrm{U}(3)$ Fujikawa `< 4 * (1/1000)^8` rad).
 
 ## Campaign `X-BRIDGE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
