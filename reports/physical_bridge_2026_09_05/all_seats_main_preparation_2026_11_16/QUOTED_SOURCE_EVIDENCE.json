@@ -1,0 +1,229 @@
+{
+  "method": "Git blob reads and exact substring/line matching. No scientific execution.",
+  "items": [
+    {
+      "finding": "F01",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3271,
+      "quote": "            \"statement\": \"Repaired BPV 2-loop mixed-Yukawa adjoint (coeff 11/2), 1+2-loop Jacobi det-phase identity, and zero leading-minor phase cancellations across all 288 torsion vacua.\",",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F01",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 1712,
+      "quote": "def tropical_svd_exponents_exact(a_fr: Fraction, ql: int, qr: int) -> Tuple[Fraction, Fraction, Fraction]:",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F01",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2842,
+      "quote": "    e5_s2 = tropical_svd_exponents_exact(Fraction(1, 5), 1, 2)",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F02",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3294,
+      "quote": "            \"id\": \"T_IB_08_step_converged_286_of_288_perturbative_envelope\",",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F02",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2596,
+      "quote": "            g_uv_ref, g_uv_ref, g_uv_ref, lam_uv_ref, dln_cover, n_steps=600, repaired_mixed_order=True,",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F02",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2728,
+      "quote": "                        g_uv_ref, g_uv_ref, g_uv_ref, lam_uv_ref, dln_cover, n_steps=600, repaired_mixed_order=True,",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F02",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2732,
+      "quote": "            except Exception:",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F03",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md",
+      "line": 17,
+      "quote": "   - On `X_4 = m000 x~ [-1, 1]` bounded by `partial X_4 = m004` (`exact Z[zeta_6]` cusp modulus `tau_cusp = 2 sqrt(3) i`, `Re(tau_cusp) = 0`, `A_max = 2 sqrt(3)`, `Vol(m004) = 2 Cl_2(pi/3)`), chiral boundary conditions on `27 -> (4,2,1)_{+1} + (4bar,1,2)_{+1} + ...` preserve `N_g = 3` chiral SM families (`b_SM = (41/10, -19/6, -7)`).",
+      "sha256": "ac27cc285989192f6eb91ea9678f53baba46f1b90da948d2ecac2e33124ab60d"
+    },
+    {
+      "finding": "F03",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "line": 514,
+      "quote": "    Yu = Au @ Au.conj().T",
+      "sha256": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9"
+    },
+    {
+      "finding": "F03",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "line": 531,
+      "quote": "        th_uv, j_uv, _ = extract_quark_cp_observables(Yu0, Yd0, frac_f64(0, 1))",
+      "sha256": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9"
+    },
+    {
+      "finding": "F04",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 849,
+      "quote": "    loop_pref = (4 * math.pi / 50) / (16 * math.pi * math.pi)",
+      "sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa"
+    },
+    {
+      "finding": "F04",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 813,
+      "quote": "        for af, bf in pts5:",
+      "sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa"
+    },
+    {
+      "finding": "F04",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 830,
+      "quote": "    for af, bf in pts5:",
+      "sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa"
+    },
+    {
+      "finding": "F04",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "line": 1181,
+      "quote": "    kappa_loop = 1 / (4 * math.pi)",
+      "sha256": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72"
+    },
+    {
+      "finding": "F04",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "line": 1130,
+      "quote": "        y_mat = cim_triple_closed_form(geodesic_tau(float(s_val)), 0, 0).reshape(9, 6)",
+      "sha256": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72"
+    },
+    {
+      "finding": "F05",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3235,
+      "quote": "            \"statement\": \"Repaired 2^{-1} mod N + Gauss-sum gamma_N(r) metaplectic Weil generators satisfy non-projective (ST)^3 = S^2 = C, gamma_15(1) = gamma_5(3) gamma_3(2), and CRT W_15^(1) ~= W_5^(3) (x) W_3^(2).\",",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F05",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1.py",
+      "line": 122,
+      "quote": "    s_pref = inv_sqrt / gamma_n",
+      "sha256": "9cace6c7931cd8820adcc4281ead39dc717379bd4e151aa6a932c9109d911c69"
+    },
+    {
+      "finding": "F06",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 147,
+      "quote": "    pure_form_cubic_zero = True  # [u_form, v_form] = [0, 0] = 0 identically",
+      "sha256": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f"
+    },
+    {
+      "finding": "F06",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 165,
+      "quote": "    odd_vs_aligned_diff = 0",
+      "sha256": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f"
+    },
+    {
+      "finding": "F06",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 211,
+      "quote": "        form_count_twisted = 2  # Riemann-Roch h^0(E_tau, L_deg2) = deg(L) = 2 for every unitary flat twist!",
+      "sha256": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f"
+    },
+    {
+      "finding": "F06",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2.py",
+      "line": 545,
+      "quote": "    central_sheet_aligned = {\"epsilon\": -1, \"J_c\": 1, \"Delta_pow_4\": -1 * 1}",
+      "sha256": "a588c65af3ac3a1893857cf2c11f82f0f78912d877c4b2c389cffa7a2bc5d4b8"
+    },
+    {
+      "finding": "F07",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md",
+      "line": 38,
+      "quote": "     - **Chiral `3`-Tetrahedron Knot Complement `m015` (`5_2` knot):** Matches the published `SnapPy` `CS` benchmark to `< 4 * (1/1000)^3` (`8` significant figures) with irrational distance `> 13/1000` from the entire `(1/12)Z` lattice.",
+      "sha256": "e16735566bef89e0e467d23fb49d8e2f0b5874f8ba9b46edc64dd74c4208f447"
+    },
+    {
+      "finding": "F08",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "relays/STATUS_AGY.md",
+      "line": 15,
+      "quote": "  - Six of the seven upstream stages plus the register-to-field join (`stage2` + `p753`, `stage3`, `stage4`, `stage5`, `stage6`, and `stage7` with its eighty-three-node five-layer dependency graph) are `recomputed independently` by standalone zero-shared-code countercheck scripts with zero defects across all six stages and `p753`.",
+      "sha256": "57e13068132f940619371c5b6b9f71fa21c7fb88c69eba0d15577c5fa4137c5a"
+    },
+    {
+      "finding": "F09",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "line": 398,
+      "quote": "    d_S = 16  # complex (4,1,2) + (4bar,2,1) = 16 complex = 32 real? Use d_S = 16 real benchmark",
+      "sha256": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7"
+    },
+    {
+      "finding": "F09",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "line": 433,
+      "quote": "    delta_sm_mp = mp.mpf(28)",
+      "sha256": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7"
+    },
+    {
+      "finding": "F10",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "line": 5,
+      "quote": "  \"gate_0_passed\": false,",
+      "sha256": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b"
+    },
+    {
+      "finding": "F10",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "line": 5,
+      "quote": "  \"gate_2_countercheck_passed\": false,",
+      "sha256": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14"
+    },
+    {
+      "finding": "F10",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "line": 5,
+      "quote": "  \"gate_3_referee_passed\": false,",
+      "sha256": "cbb966e59d50680a1f254e87fc6fd7ded10014ad862d5ebf119a89a9473766bf"
+    }
+  ]
+}

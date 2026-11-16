@@ -1,0 +1,621 @@
+{
+  "method": "Git blob extraction and byte hashes. Whole-file hashes do not assert every line was read.",
+  "files": [
+    {
+      "seat": "agy",
+      "ref": "origin/agy/audit-2026-11-02",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md",
+      "sha256": "625708baf9ddd64e86143bcdccc9f6ea5fa07ae0f357eb71b1c031dadc8ae612",
+      "bytes": 13315
+    },
+    {
+      "seat": "agy",
+      "ref": "origin/agy/audit-2026-11-02",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "relays/STATUS_AGY.md",
+      "sha256": "57e13068132f940619371c5b6b9f71fa21c7fb88c69eba0d15577c5fa4137c5a",
+      "bytes": 2899
+    },
+    {
+      "seat": "agy",
+      "ref": "origin/agy/audit-2026-11-02",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "tests/test_stage1_curved_action_cusp_orbit.py",
+      "sha256": "fa4974a5b9d8a4e508f45fc7feefee9f41c918b324b1dd77c9fed6e8f84ece12",
+      "bytes": 119960
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md",
+      "sha256": "e16735566bef89e0e467d23fb49d8e2f0b5874f8ba9b46edc64dd74c4208f447",
+      "bytes": 4571
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_2_RESULTS.md",
+      "sha256": "b598456f7a89194742489b426206ffea26b2088ffee07c06fea4ef94865d7190",
+      "bytes": 5003
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_3_RESULTS.md",
+      "sha256": "4213e50a942ea706eb12d0c3fa41b185868f0a07661c5ca6d7c12972b6cdd8a3",
+      "bytes": 4491
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md",
+      "sha256": "dd15814c4b16f2728eedc2f0ee7b334b57d1d69cdff4a0fa216030a7e0fb92a6",
+      "bytes": 6511
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/STATUS_AGY-EXP.md",
+      "sha256": "082769e2dc9655817e96dff9e0bb9118717b1028ffaa7d04a6047bf2ee90947e",
+      "bytes": 19898
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/cards/AGY-EXP_X-CLOSURE-1_repaired-weil-metaplectic-and-zickert-rogers-chern-simons-audit.md",
+      "sha256": "75dd679765dd4c35aff2309e0945ba16541850d3e7e32e5460f14a978b30ae57",
+      "bytes": 6193
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/cards/AGY-EXP_X-CLOSURE-2_pc3b-orthogonal-reduction-halfroot-modes-and-spin-triplet-audit.md",
+      "sha256": "a4ce24bd23a8f84af0e29dc634b9e65e2432cdf92f9ab42d2b5d865131395414",
+      "bytes": 6235
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/cards/AGY-EXP_X-CLOSURE-3_pc3b-polarized-spin-vertex-quartic-barrier-and-hardy-bound-audit.md",
+      "sha256": "11d1b118e490a123481199f99210b5b46ec436649ecb4ecfddfdccefe9b2b0b0",
+      "bytes": 5580
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/cards/AGY-EXP_X-CLOSURE-4_u3-frame-control-four-tier-closure-matrix-and-final-0of19-suite.md",
+      "sha256": "ff72e2dca6bfaebcb2100e1d8ddaa512a24aa797b7dedb0876f6ebe4724a7d47",
+      "bytes": 6664
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_1_verify/OUTPUT_SHA256.txt",
+      "sha256": "1bd24ed8daa0d1feb3ab32ad4375ec3a81f41e0a02c1fa01ed986b88982e5e78",
+      "bytes": 94
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_1_verify/SCRIPT_SHA256.txt",
+      "sha256": "df13eec7ad87e6dfba5750a7f6f13d5e6996d187875c3c47632e678c3b0f75d4",
+      "bytes": 88
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1.py",
+      "sha256": "9cace6c7931cd8820adcc4281ead39dc717379bd4e151aa6a932c9109d911c69",
+      "bytes": 31085
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1_out.json",
+      "sha256": "b0d8178a0ef7fe1b6766a0fb60d28cffd2cfe488c966008a59b440e0020e0cfd",
+      "bytes": 3987
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_2_verify/OUTPUT_SHA256.txt",
+      "sha256": "9c47f93a89f32d9493a80ff034546f84aa6d4ebe1946c1740d3b3f7458fb6523",
+      "bytes": 94
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_2_verify/SCRIPT_SHA256.txt",
+      "sha256": "502c2eddf9589d7a7436d0b89a146393976a6378fa44f76aa453fdc08b80e380",
+      "bytes": 88
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2.py",
+      "sha256": "a588c65af3ac3a1893857cf2c11f82f0f78912d877c4b2c389cffa7a2bc5d4b8",
+      "bytes": 31199
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2_out.json",
+      "sha256": "4a8a3f994dd97dc70043221c9b90b05c8e9f6a118d2986022ee0758ab88aa499",
+      "bytes": 3654
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/OUTPUT_SHA256.txt",
+      "sha256": "0736fd729a1acb79aea0eda26d060db4c1840f219cb6d44f0fe1927c5fb28653",
+      "bytes": 94
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/SCRIPT_SHA256.txt",
+      "sha256": "ed7fc93ccebd0b34e3d7a42ef07dee78bfeaf6450ea6ebe850ea6902890b57b2",
+      "bytes": 88
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "sha256": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f",
+      "bytes": 31708
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3_out.json",
+      "sha256": "96879e15949b670c2a0cdf71f9fd8593aa09d7338dbf42f83d83af6a74336378",
+      "bytes": 2843
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/OUTPUT_SHA256.txt",
+      "sha256": "ef44f512279d18eb696c91a1c05586e7446f0d035b212894c1a0aa3d58735481",
+      "bytes": 94
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/SCRIPT_SHA256.txt",
+      "sha256": "99517ed79874ca76dd574c6c067c1ab24fce5b1080140bf17c32d409f651c02f",
+      "bytes": 88
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac",
+      "bytes": 164833
+    },
+    {
+      "seat": "exp",
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4_out.json",
+      "sha256": "7a6eca153313c066b22f9d72febd72bd73e3887ecbf76cd46b9ae72d5ace651a",
+      "bytes": 26356
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_G0_RESULTS.md",
+      "sha256": "f503a35fc53bcbdc611366dd937d59d7bdd92ab1d6280adbc160386d8c5c30b3",
+      "bytes": 4191
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_G1_RESULTS.md",
+      "sha256": "70cb8a3f4fc96d321778a3fa228bf6221d75daf7154c019266b62c540a9db290",
+      "bytes": 5048
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_G2_RESULTS.md",
+      "sha256": "0d2108f3619d85e296cac767778259ca483012026b3f99794f0b7e86363af012",
+      "bytes": 5032
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_G3_RESULTS.md",
+      "sha256": "f49484835a5d59826278b3b681e4993df0c0b76a5b35b2f8c49221156220a847",
+      "bytes": 4579
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md",
+      "sha256": "ac27cc285989192f6eb91ea9678f53baba46f1b90da948d2ecac2e33124ab60d",
+      "bytes": 7635
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/STATUS_AGY-002.md",
+      "sha256": "89396a1e411d0649f7096ec37b126a7a673f6ee6220fa5e6429565be350059e8",
+      "bytes": 1143
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0/SCRIPT_SHA256.txt",
+      "sha256": "7b5d3d5348ac97c1217909a2a897b6e4b38f73da1945f900ea4880bff0322287",
+      "bytes": 118
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0/verify_endgame_v2_g0.py",
+      "sha256": "2a7eb9a495872352865e0a72652de2b1f66c72c487f78b4eeec275a528c00c44",
+      "bytes": 57786
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/OUTPUT_SHA256.txt",
+      "sha256": "24354977f4b058867ca428a9244801a1de3cce1fe819c4f1046fc1e3d7cc339a",
+      "bytes": 136
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/SCRIPT_SHA256.txt",
+      "sha256": "b081485b98584d8ace274a117ab2b9a981734991c309a6587f21448dbb469d3d",
+      "bytes": 130
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+      "sha256": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+      "bytes": 53158
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "sha256": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+      "bytes": 2700
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_referee/OUTPUT_SHA256.txt",
+      "sha256": "145bb121f26265efe416f79162231b59c02f47bdb569d6b70f2ebba90a3881c5",
+      "bytes": 133
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_referee/SCRIPT_SHA256.txt",
+      "sha256": "dfc3e56d121f5f445f33e1c73c6f04954bb34ae1c74f192888d46dfbc442dbf6",
+      "bytes": 127
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+      "sha256": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+      "bytes": 98375
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+      "sha256": "b2d29607b84cc67b7c9f418c839c028ded554b9122a2d62f18fb021dfff71b99",
+      "bytes": 5718
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1/SCRIPT_SHA256.txt",
+      "sha256": "8514cc7bacb599d1a35d8b8728e97bb6ffa2d0d7370eafc19ceebae0c208f8f8",
+      "bytes": 118
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1/verify_endgame_v2_g1.py",
+      "sha256": "a313d38c475f2452187e65a3bd1c1f5ced61f5e4dc632bcc31819af7951cfb00",
+      "bytes": 44690
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/OUTPUT_SHA256.txt",
+      "sha256": "d7ed79572b4829a45dee42c097f92ac4c0180801433d31ee9b5f98fdb0a6059b",
+      "bytes": 136
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/SCRIPT_SHA256.txt",
+      "sha256": "ae1dc24ddec48512f63255855260fc71d59f508f527bcdd98effc3adf1908708",
+      "bytes": 130
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "sha256": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9",
+      "bytes": 44743
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+      "sha256": "e18f1a176df69f2a32708bfc6175e4d9f01a010afacdb2e40dc2bec4d8c0f0b7",
+      "bytes": 7545
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_referee/OUTPUT_SHA256.txt",
+      "sha256": "dd8973614586f356802ed8864a6282b741780cb2f562a2814752c7a678c55942",
+      "bytes": 133
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_referee/SCRIPT_SHA256.txt",
+      "sha256": "af61d84edd0798c74b4a311693006bef1f96f5fd9d0a73abf5e29d053b1f08be",
+      "bytes": 127
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py",
+      "sha256": "4d43590bb2afc2a2998aa07068bc271039fe0126aeda8a16019c483ee8ff8904",
+      "bytes": 87194
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+      "sha256": "4250aea468c21d1b867dffa94ab28f9081a5dac21f5c8563a610c261eeea0d4a",
+      "bytes": 10698
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/OUTPUT_SHA256.txt",
+      "sha256": "fa0328d3f67854d7aa7457fd812fbe290e72716518f23b3046fbefa5e4573539",
+      "bytes": 124
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/SCRIPT_SHA256.txt",
+      "sha256": "e0470b4e4f7cb67d63bd2b7bc2ae62c49cb3c6e480c80538f0e9cd803af669e0",
+      "bytes": 118
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+      "bytes": 48996
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+      "sha256": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+      "bytes": 7408
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/OUTPUT_SHA256.txt",
+      "sha256": "bc2a98df1242eaa2f1681a23e71102525c09b2faddf323c754bac5c478d867cc",
+      "bytes": 133
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/SCRIPT_SHA256.txt",
+      "sha256": "0bec5f623262af51ebf5ba430c8b7febeb3896cb8233bef622b3981972145318",
+      "bytes": 127
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "sha256": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72",
+      "bytes": 62668
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "sha256": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14",
+      "bytes": 10046
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/OUTPUT_SHA256.txt",
+      "sha256": "57a684454d906ba25896c810fff732cebd7e618c25e945a4479d8b34520fe432",
+      "bytes": 124
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/SCRIPT_SHA256.txt",
+      "sha256": "8c1a6668000d0abff8459af5b3f1f908fdd931bc33c040179f13d9fbc49af2f8",
+      "bytes": 118
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "sha256": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7",
+      "bytes": 29551
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+      "sha256": "b2496adb082d9503c1be2379eafb4450010dc1beaa84e41c431189a2a7f9ceb9",
+      "bytes": 2549
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/OUTPUT_SHA256.txt",
+      "sha256": "0c07f5ede904a34af352d7d5830b3aa76f01bf37732281786c2ded49c6fae12c",
+      "bytes": 133
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/SCRIPT_SHA256.txt",
+      "sha256": "d96bff9fa56d7e36149bf0ff2f9509743678218b830aef98e782f08e26bb9c8e",
+      "bytes": 127
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py",
+      "sha256": "bb13af711dd63edc69d996d30ec755494684b652dee8df05d52aedbff2d96317",
+      "bytes": 73546
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "sha256": "cbb966e59d50680a1f254e87fc6fd7ded10014ad862d5ebf119a89a9473766bf",
+      "bytes": 9432
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G0-ERRATUM_mp-log-sign-bisection.md",
+      "sha256": "dc3558a6428482ff22732c1727554ddef1b2cf1c6589f7a097f13e218f65090c",
+      "bytes": 825
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock.md",
+      "sha256": "5f3ad5a337d7b0a3b914fda38998164b5d1956293dd8ea858f3ed975751d0121",
+      "bytes": 5833
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G1-ERRATUM_perturbative-uv-grid.md",
+      "sha256": "3984afc0f7c81ca7b69268e8714d13bc7f9339acdf431ef8f8c20ba38eb2df3a",
+      "bytes": 926
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp.md",
+      "sha256": "34115f4bf4b3c07e5695252db7cb2aef4b3e05396180febe83eb799cda32ffe2",
+      "bytes": 6467
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents.md",
+      "sha256": "1b3c15b7316628f832779c4ec715ef8790f509f7a429f93f853e4c51dbd34b86",
+      "bytes": 6805
+    },
+    {
+      "seat": "endgame",
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal.md",
+      "sha256": "f30987fab7409084a288d340e20ede9c4036d24a183a72129ca2333216147468",
+      "bytes": 5004
+    },
+    {
+      "seat": "agy",
+      "ref": "origin/agy/audit-2026-11-02",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "src/origin_axiom/stage1_curved_action_cusp_orbit.py",
+      "sha256": "1a7bc4f9ca5a52dcb942f839944d576757b869b92dd6ed2cb4a42959d85e95ac",
+      "bytes": 1066265
+    }
+  ]
+}

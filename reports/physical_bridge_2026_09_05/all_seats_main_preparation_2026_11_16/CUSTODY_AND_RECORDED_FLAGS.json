@@ -1,0 +1,387 @@
+{
+  "method": "Byte, JSON, AST and Git metadata only. No mathematical import or execution. False flags include intended negative results; interpretation is separate.",
+  "source_hashes_checked": 77,
+  "manifest_checks": [
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_1_verify/OUTPUT_SHA256.txt",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1_out.json",
+      "expected": "b0d8178a0ef7fe1b6766a0fb60d28cffd2cfe488c966008a59b440e0020e0cfd",
+      "actual": "b0d8178a0ef7fe1b6766a0fb60d28cffd2cfe488c966008a59b440e0020e0cfd",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_1_verify/SCRIPT_SHA256.txt",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1.py",
+      "expected": "9cace6c7931cd8820adcc4281ead39dc717379bd4e151aa6a932c9109d911c69",
+      "actual": "9cace6c7931cd8820adcc4281ead39dc717379bd4e151aa6a932c9109d911c69",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_2_verify/OUTPUT_SHA256.txt",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2_out.json",
+      "expected": "4a8a3f994dd97dc70043221c9b90b05c8e9f6a118d2986022ee0758ab88aa499",
+      "actual": "4a8a3f994dd97dc70043221c9b90b05c8e9f6a118d2986022ee0758ab88aa499",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_2_verify/SCRIPT_SHA256.txt",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2.py",
+      "expected": "a588c65af3ac3a1893857cf2c11f82f0f78912d877c4b2c389cffa7a2bc5d4b8",
+      "actual": "a588c65af3ac3a1893857cf2c11f82f0f78912d877c4b2c389cffa7a2bc5d4b8",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_3_verify/OUTPUT_SHA256.txt",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3_out.json",
+      "expected": "96879e15949b670c2a0cdf71f9fd8593aa09d7338dbf42f83d83af6a74336378",
+      "actual": "96879e15949b670c2a0cdf71f9fd8593aa09d7338dbf42f83d83af6a74336378",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_3_verify/SCRIPT_SHA256.txt",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "expected": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f",
+      "actual": "70eaed1355e0fa276d5c62fe3f0a72503032d7e0c0eb5a412073b07c64bc9f5f",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_4_verify/OUTPUT_SHA256.txt",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4_out.json",
+      "expected": "7a6eca153313c066b22f9d72febd72bd73e3887ecbf76cd46b9ae72d5ace651a",
+      "actual": "7a6eca153313c066b22f9d72febd72bd73e3887ecbf76cd46b9ae72d5ace651a",
+      "matches": true
+    },
+    {
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "manifest": "relays/x_closure_4_verify/SCRIPT_SHA256.txt",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "expected": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac",
+      "actual": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g0/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g0/verify_endgame_v2_g0.py",
+      "expected": "2a7eb9a495872352865e0a72652de2b1f66c72c487f78b4eeec275a528c00c44",
+      "actual": "2a7eb9a495872352865e0a72652de2b1f66c72c487f78b4eeec275a528c00c44",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g0_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "expected": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+      "actual": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g0_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+      "expected": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+      "actual": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g0_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+      "expected": "b2d29607b84cc67b7c9f418c839c028ded554b9122a2d62f18fb021dfff71b99",
+      "actual": "b2d29607b84cc67b7c9f418c839c028ded554b9122a2d62f18fb021dfff71b99",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g0_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+      "expected": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+      "actual": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g1/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g1/verify_endgame_v2_g1.py",
+      "expected": "a313d38c475f2452187e65a3bd1c1f5ced61f5e4dc632bcc31819af7951cfb00",
+      "actual": "a313d38c475f2452187e65a3bd1c1f5ced61f5e4dc632bcc31819af7951cfb00",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g1_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+      "expected": "e18f1a176df69f2a32708bfc6175e4d9f01a010afacdb2e40dc2bec4d8c0f0b7",
+      "actual": "e18f1a176df69f2a32708bfc6175e4d9f01a010afacdb2e40dc2bec4d8c0f0b7",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g1_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "expected": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9",
+      "actual": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g1_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+      "expected": "4250aea468c21d1b867dffa94ab28f9081a5dac21f5c8563a610c261eeea0d4a",
+      "actual": "4250aea468c21d1b867dffa94ab28f9081a5dac21f5c8563a610c261eeea0d4a",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g1_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py",
+      "expected": "4d43590bb2afc2a2998aa07068bc271039fe0126aeda8a16019c483ee8ff8904",
+      "actual": "4d43590bb2afc2a2998aa07068bc271039fe0126aeda8a16019c483ee8ff8904",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g2/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+      "expected": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+      "actual": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g2/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "expected": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+      "actual": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g2_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "expected": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14",
+      "actual": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g2_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "expected": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72",
+      "actual": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g3/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+      "expected": "b2496adb082d9503c1be2379eafb4450010dc1beaa84e41c431189a2a7f9ceb9",
+      "actual": "b2496adb082d9503c1be2379eafb4450010dc1beaa84e41c431189a2a7f9ceb9",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g3/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "expected": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7",
+      "actual": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g3_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "expected": "cbb966e59d50680a1f254e87fc6fd7ded10014ad862d5ebf119a89a9473766bf",
+      "actual": "cbb966e59d50680a1f254e87fc6fd7ded10014ad862d5ebf119a89a9473766bf",
+      "matches": true
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "manifest": "relays/agy002_endgame_v2_g3_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py",
+      "expected": "bb13af711dd63edc69d996d30ec755494684b652dee8df05d52aedbff2d96317",
+      "actual": "bb13af711dd63edc69d996d30ec755494684b652dee8df05d52aedbff2d96317",
+      "matches": true
+    }
+  ],
+  "reported_false_flags": [
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "json_pointer": ".gate_0_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "json_pointer": ".section_3_haar_u3_6_and_planted_faults.all_5_planted_faults_caught",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "json_pointer": ".section_3_haar_u3_6_and_planted_faults.planted_faults.PF0_1_scale_factor_err.caught",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+      "json_pointer": ".producer_gate_0_reported_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+      "json_pointer": ".section_3_pati_salam_corridor_and_4d_collar_obstruction.collar_4d_scaling_obstruction.parameter_free_collar_scale_fixing_closes_from_3d_alone",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+      "json_pointer": ".section_3_pati_salam_corridor_and_4d_collar_obstruction.collar_4d_scaling_obstruction.parameter_free_collar_scale_fixing_closes_from_3d_alone",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "json_pointer": ".gate_2_countercheck_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "json_pointer": ".section_4_blind_level6_scalar_mass_matrix_and_bit_ledger.level6_higgs_mass_gate_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "json_pointer": ".section_5_planted_fault_controls.all_5_planted_faults_caught",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "json_pointer": ".section_5_planted_fault_controls.PF2_2_b1947_naive_phase_T_cov_err.caught",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+      "json_pointer": ".section_2_picard_lindelof_and_coleman_weinberg_obstructions.homogeneous_msbar_crosses_zero",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+      "json_pointer": ".section_3_heavy_threshold_ewsb_and_dimensionless_vEW_ledger.parameter_free_v_EW_over_M_PS_closure",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "json_pointer": ".gate_3_referee_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "json_pointer": ".section_2_picard_lindelof_and_coleman_weinberg_obstructions.section_2_passed",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "json_pointer": ".section_2_picard_lindelof_and_coleman_weinberg_obstructions.homogeneous_msbar_crosses_zero",
+      "value": false
+    },
+    {
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "json_pointer": ".section_3_heavy_threshold_ewsb_and_dimensionless_vEW_ledger.parameter_free_v_EW_over_M_PS_closure",
+      "value": false
+    }
+  ],
+  "x_closure_commit_order": [
+    {
+      "before": "31628eeae",
+      "after": "8f5a5d977",
+      "is_ancestor": true
+    },
+    {
+      "before": "8f5a5d977",
+      "after": "635b2b103",
+      "is_ancestor": true
+    },
+    {
+      "before": "635b2b103",
+      "after": "332cd2031",
+      "is_ancestor": true
+    },
+    {
+      "before": "d09924afd",
+      "after": "38736a73f",
+      "is_ancestor": true
+    },
+    {
+      "before": "38736a73f",
+      "after": "086d41c24",
+      "is_ancestor": true
+    },
+    {
+      "before": "086d41c24",
+      "after": "efd9a3115",
+      "is_ancestor": true
+    },
+    {
+      "before": "35c2b4678",
+      "after": "eb0fe4bd4",
+      "is_ancestor": true
+    },
+    {
+      "before": "eb0fe4bd4",
+      "after": "17dec57c8",
+      "is_ancestor": true
+    },
+    {
+      "before": "17dec57c8",
+      "after": "b9b8240a0",
+      "is_ancestor": true
+    },
+    {
+      "before": "c9f15ee16",
+      "after": "3f0a09719",
+      "is_ancestor": true
+    },
+    {
+      "before": "3f0a09719",
+      "after": "fcf3cc209",
+      "is_ancestor": true
+    },
+    {
+      "before": "fcf3cc209",
+      "after": "2ff7784b1",
+      "is_ancestor": true
+    }
+  ],
+  "agy_changed_top_level_definitions": [
+    {
+      "name": "check_guardrail2_ast_no_literal_bool_verdicts",
+      "line": 90,
+      "end_line": 8742
+    },
+    {
+      "name": "audit_source_zero_empirical_constants",
+      "line": 8745,
+      "end_line": 15518
+    }
+  ],
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
