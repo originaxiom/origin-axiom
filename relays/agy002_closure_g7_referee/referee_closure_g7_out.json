@@ -1,0 +1,310 @@
+{
+  "gate": "AGY-002_CLOSURE-G7",
+  "role": "independent_cold_room_referee",
+  "empirical_inputs_used": "0/19",
+  "overall_passed": false,
+  "all_5_planted_faults_caught": true,
+  "planted_fault_summary": {
+    "PF7_1_unpriced_second_anchor": true,
+    "PF7_2_dag_back_edge_cycle": true,
+    "PF7_3_rank_laundering": true,
+    "PF7_4_zero_bit_unstabilized_seam": true,
+    "PF7_5_sha256_memory_tamper": true
+  },
+  "source_ast_and_import_lock": {
+    "float_literal_count": 0,
+    "complex_literal_count": 0,
+    "disallowed_import_count": 0,
+    "disallowed_imports": [],
+    "imported_roots": [
+      "ast",
+      "cmath",
+      "copy",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "re",
+      "sympy",
+      "sys"
+    ],
+    "passed": true
+  },
+  "deliverable_1_u3_5_and_buckingham_pi": {
+    "jacobian_sm_shape": [
+      54,
+      45
+    ],
+    "jacobian_eft_shape": [
+      66,
+      45
+    ],
+    "rank_J_U3_5_SM": 41,
+    "unbroken_dim_SM": 4,
+    "flavour_parameters_SM": 13,
+    "total_parameters_SM": 19,
+    "rank_J_U3_5_EFT": 44,
+    "unbroken_dim_EFT": 1,
+    "flavour_neutrino_parameters_EFT": 22,
+    "total_parameters_EFT": 28,
+    "unbroken_U1_4_exact_span_verified": true,
+    "weinberg_breaks_3_lepton_U1_leaves_U1_B": true,
+    "svd_5_seed_ranks_SM": [
+      41,
+      41,
+      41,
+      41,
+      41
+    ],
+    "svd_5_seed_ranks_EFT": [
+      44,
+      44,
+      44,
+      44,
+      44
+    ],
+    "svd_max_null_singular_value": "3/3370083840860407",
+    "svd_min_nonzero_singular_value": "96421/710438",
+    "buckingham_pi_shape": [
+      1,
+      19
+    ],
+    "buckingham_pi_mass_dim_1_count": 11,
+    "buckingham_pi_dimensionless_input_count": 8,
+    "rank_D_dim": 1,
+    "sole_anchor": "v_EW",
+    "dimensionless_pi_ratios_count": 18,
+    "PF7_1": {
+      "description": "Unpriced second independent unit anchor raises rank(D_dim) from 1 to 2 > 1",
+      "fault_rank_2x19": 2,
+      "fault_rank_2x20": 2,
+      "caught": true
+    },
+    "passed": true
+  },
+  "deliverable_2_epistemic_dag_and_kill_lines": {
+    "epistemic_dag_46_node": {
+      "total_nodes": 46,
+      "total_edges": 122,
+      "category_counts": {
+        "ROOT": 5,
+        "OPERATOR": 5,
+        "SEAM": 7,
+        "RELATION": 10,
+        "SM_TARGET": 19
+      },
+      "discrete_seams_rank_2": 2,
+      "continuous_seams_rank_3": 5,
+      "all_7_seams_unproved": true,
+      "kahn_acyclic": true,
+      "dfs_three_color_acyclic": true,
+      "guardrail_1_violations": [],
+      "monotone_violations": [],
+      "relation_rank_histogram": [
+        2,
+        6,
+        2,
+        0
+      ],
+      "relations_by_rank": {
+        "0": [
+          "PR-1",
+          "PR-10"
+        ],
+        "1": [
+          "PR-3",
+          "PR-4",
+          "PR-5",
+          "PR-6",
+          "PR-7",
+          "PR-8"
+        ],
+        "2": [
+          "PR-2",
+          "PR-9"
+        ],
+        "3": []
+      },
+      "sm_target_rank_histogram": [
+        0,
+        0,
+        1,
+        18
+      ],
+      "sm_targets_rank_2": [
+        "SM19:bar_theta_QCD"
+      ],
+      "PF7_2": {
+        "description": "Back-edge SM03:y_t -> G:m004_Mostow_Rigidity triggers cycle detection",
+        "kahn_detected_cycle": true,
+        "dfs_detected_cycle": true,
+        "caught": true
+      },
+      "PF7_3": {
+        "description": "Assigning child SM03:y_t rank 1 < parent rank 3 fails monotone max-plus invariant",
+        "violation_count": 3,
+        "caught": true
+      },
+      "PF7_4": {
+        "description": "Setting S:Collar_Modulus_Delta_PS or S:Torsion_Tau_SU2R_Break to rank 0 without stabilization proof triggers Guardrail 1",
+        "violations_delta_ps": [
+          "S:Collar_Modulus_Delta_PS"
+        ],
+        "violations_tau_su2r": [
+          "S:Torsion_Tau_SU2R_Break"
+        ],
+        "caught": true
+      },
+      "passed": true
+    },
+    "kill_lines_pr1_to_pr10": {
+      "PR-1": {
+        "z6_residues_mod_6": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "spin10_16_anomalies_vanish": true,
+        "untwisted_cubic_identity_exact": true,
+        "sm15_forces_a_eq_0": true,
+        "k2_over_k1": "3/5",
+        "passed": true
+      },
+      "PR-2": {
+        "arg_det_pos_branch": "1/9007199254740992",
+        "arg_det_neg_branch_minus_pi": "0",
+        "jarlskog_ckm_nonzero": "151021/83938736",
+        "max_su3_arg_det_drift": "1/1275355646688990",
+        "max_u3_haar_bar_theta_drift": "1/2251799813685248",
+        "max_u3_haar_jarlskog_drift": "0",
+        "passed": false
+      },
+      "PR-3": {
+        "c_0": "23/134",
+        "c_rat": "109/201",
+        "c_Delta_PS": "506/201",
+        "guardrail_4_bbo_bpv_1loop_2loop_exact": true,
+        "rk4_step_halving_max_diff": "32983/2998361997422567",
+        "independent_sample_delta_2loop": "105200685/38108289818",
+        "gate6_sealed_json_envelope_check": {
+          "files": {
+            "verify_closure_g6_fixed_out.json": {
+              "overall_passed": false,
+              "delta_2loop_samples": 4,
+              "delta_2loop_min": "7/10000",
+              "delta_2loop_max": "3/1000",
+              "delta_2loop_in_envelope": true,
+              "sqrt_2_lambda_samples": 4,
+              "sqrt_2_lambda_min": "7/20",
+              "sqrt_2_lambda_max": "39/50",
+              "sqrt_2_lambda_in_envelope": true
+            },
+            "referee_closure_g6_out.json": {
+              "overall_passed": true,
+              "delta_2loop_samples": 4,
+              "delta_2loop_min": "7/10000",
+              "delta_2loop_max": "3/1000",
+              "delta_2loop_in_envelope": true,
+              "sqrt_2_lambda_samples": 4,
+              "sqrt_2_lambda_min": "7/20",
+              "sqrt_2_lambda_max": "39/50",
+              "sqrt_2_lambda_in_envelope": true
+            }
+          },
+          "passed": false
+        },
+        "passed": false
+      },
+      "PR-4": {
+        "d_term_quartic_identity_exact": true,
+        "vanishes_at_tan_beta_eq_1": true,
+        "independent_sample_sqrt_2_lambda_IR": "514343572991/828593093859",
+        "gate6_sealed_json_envelope_verified": false,
+        "passed": false
+      },
+      "PR-5": {
+        "gram3_orthonormality_err": "1/4503599627370496",
+        "gram6_orthonormality_err": "1/5422886594959383",
+        "degeneracy_K_KK_alone": 2,
+        "degeneracy_Sigma_H_alone": 3,
+        "degeneracy_M_H_sq_combined": 1,
+        "min_eigenvalue_gap": "303185/736309",
+        "ground_state_overlap_v_plus_pi_over_6": "76889390/76889391",
+        "passed": true
+      },
+      "PR-6_and_PR-7": {
+        "charges_3BL_QL_qRc": [
+          1,
+          -1
+        ],
+        "charges_3BL_LL_lRc": [
+          -3,
+          3
+        ],
+        "Delta_up_dn_lep": [
+          2,
+          2,
+          -6
+        ],
+        "all_Delta_even": true,
+        "CIM_flux_sum": 0,
+        "local_bidoublet_BL_commutator_zero": true,
+        "one_minus_abs_V_tb": "1/4503599627370496",
+        "max_haar_V_tb_drift": "3/4503599627370496",
+        "lepton_down_s1_over_s3_split_factor": "21887156/768675",
+        "level15_cusp_exponent_ratio": "3/2",
+        "passed": true
+      },
+      "PR-8": {
+        "primitive_E5_points": 24,
+        "even_Delta_parity_all_plus_one": true,
+        "odd_6Y_parity_breaks_sign": true,
+        "e5_gramian_SL2Z_T_S_max_diff": "7/281474976710656",
+        "e5_gramian_anisotropy": "740881/269319",
+        "passed": true
+      },
+      "PR-9": {
+        "I_TM1_exact": "2/3",
+        "cos2_theta12_at_Ue3_sq_1_over_48": "32/47",
+        "uv_abs_I_TM1_minus_2_over_3": "1/9007199254740992",
+        "max_u3_haar_I_TM1_drift": "19/9007199254740992",
+        "rge_dt_minus_30_excursion_ytau_1_over_20": "259/1384420",
+        "rge_dt_minus_30_excursion_ytau_1_over_5": "132688/51100969",
+        "passed": true
+      },
+      "PR-10": {
+        "B4_0": "-1/30",
+        "B4_half": "7/240",
+        "zeta_R_minus_3": "1/120",
+        "C_UV_gauge": "231/4",
+        "C_UV_fermion": "153/4",
+        "C_UV_scalar": "-3/2",
+        "C_UV": "189/2",
+        "C_IR": "28",
+        "both_UV_and_IR_strictly_positive": true,
+        "max_dV_dL4_strictly_negative": true,
+        "passed": true
+      }
+    },
+    "all_kill_lines_passed": false,
+    "passed": false
+  },
+  "deliverable_3_campaign_custody_lock": {
+    "prior_manifest_file_count": 38,
+    "prior_records_verified": 38,
+    "prior_records_total": 38,
+    "prior_mismatches": [],
+    "self_script_sha256_verified_at_runtime": true,
+    "PF7_5": {
+      "description": "Flipping 1 hex character of expected SHA-256 digest in memory fails custody verifier",
+      "tampered_mismatch_count": 1,
+      "caught": true
+    },
+    "passed": true
+  }
+}
