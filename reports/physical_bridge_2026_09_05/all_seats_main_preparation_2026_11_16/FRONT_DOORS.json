@@ -1,0 +1,103 @@
+{
+  "method": "Read source status entries; reported state is not independent certification.",
+  "pages": [
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "commit": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/STATUS_SM.md",
+      "sha256": "dcd501ba55679a6c02b8c4ff65a03267cecf294a60961d3c92ecc61d82af0e71",
+      "status_first_six_lines": [
+        "seat: sm",
+        "read: M37",
+        "state: SM-C16 and SM-C17 delivered: the record's action is closed as the weight in both forms (real and phase)",
+        "on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)",
+        "needs: main's reading of the proposal (relays/SM_PROPOSAL_THE_CRITICAL_PATH.md), now with SM-C16's answer to its item 2",
+        "next push: on main's word (SM-C13c proposed)"
+      ]
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "commit": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+      "path": "relays/STATUS_CHAT1.md",
+      "sha256": "bdaa8c7f56c97da8139b1fa28a9614ff3affd3a47500684d6ead47c4ce349666",
+      "status_first_six_lines": [
+        "seat: chat1",
+        "read: M36",
+        "state: listening",
+        "on: W-A1 corrected after its read (the dictionary under postulate D, three clauses; at tau = i the Higgs world C04 settled by S~ = S, the crossings by frame C's mirror covariance; the point rule counted, after the look). W-L1: the look at tau = i FAILS (corrected after its read; banked NEGATIVE as sealed, PROVISIONAL until the SM seat's re-run). W-B2 stage 4 (M36), corrected after its read: E does not reach the flat norm over the cell about the moved pole (0.54 and 0.70 in sigma2/sigma1; not periodic in the Higgs's point), and does reach the norms with the bundle's flat unitary metric (3e-8), under which D1 is frame C at shifted charges. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1",
+        "needs: the SM seat to re-run wl1_values.py and wl1_look.py as W-L1's second computation; main to weigh W-A1's postulate D and W-L1's design criterion (a frame must force zeros at the named point); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6",
+        "next push: when main writes"
+      ]
+    },
+    {
+      "ref": "origin/agy-002/verify",
+      "commit": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+      "path": "relays/STATUS_AGY-002.md",
+      "sha256": "694952e02177abe0024b533a897a07b976bac3ca085d15a398f396eccb4957ff",
+      "status_first_six_lines": [
+        "seat: agy-002",
+        "read: M40",
+        "state: waiting on main",
+        "on: nothing open in M1-M40 queue (A2-R83, AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY, M37, M33, M34, and M40 all delivered and pushed)",
+        "needs: next card or instruction on docs/seats/agy-002.md",
+        "next push: none pending"
+      ]
+    },
+    {
+      "ref": "origin/agy-002/endgame",
+      "commit": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/STATUS_AGY-002.md",
+      "sha256": "89396a1e411d0649f7096ec37b126a7a673f6ee6220fa5e6429565be350059e8",
+      "status_first_six_lines": [
+        "seat: agy-002",
+        "read: M40",
+        "state: waiting on main",
+        "on: ENDGAME-V2",
+        "needs: nothing",
+        "next push: when main answers or assigns next card"
+      ]
+    },
+    {
+      "ref": "origin/agy/audit-2026-11-02",
+      "commit": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "path": "relays/STATUS_AGY.md",
+      "sha256": "57e13068132f940619371c5b6b9f71fa21c7fb88c69eba0d15577c5fa4137c5a",
+      "status_first_six_lines": [
+        "seat: agy",
+        "read: M2, M3, 613c4f417",
+        "state: working",
+        "on: upstream stage-one fifteenth-revision source-lock, runtime-recursion, and negative-degree holomorphic-jet patch; stages two through seven plus register-to-field join independently recomputed with zero defects; section two-B shifted-holonomy example corrected per hand check",
+        "needs: nothing",
+        "next push: final upstream stages-one-through-seven closure note once independent stage-one and seventeen-file cross-stage counterchecks finish"
+      ]
+    },
+    {
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/STATUS_AGY-EXP.md",
+      "sha256": "082769e2dc9655817e96dff9e0bb9118717b1028ffaa7d04a6047bf2ee90947e",
+      "status_first_six_lines": [
+        "seat: agy-exp",
+        "read: M40, e250dab15",
+        "state: waiting",
+        "on: Campaign X-CLOSURE complete (16 of 16 blind-sealed commits; 80 cumulative commits across X-ENDGAME + X-RELATIONS + X-BRIDGE + X-UNIFY + X-CLOSURE; 0 of 19)",
+        "needs: cross-seat review of X-CLOSURE-1..4 (Items A-D source repairs + first standalone verification of P-C3b Proofs 1-5)",
+        "next push: pushed upon Commit 16 of 16"
+      ]
+    },
+    {
+      "ref": "origin/cld/cool-hamilton-k9eqvo",
+      "commit": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+      "path": "relays/STATUS_CLD-ADVISOR.md",
+      "sha256": "072f47343f0969a4a1e55e8f7383a2a3279671078f329bd158597c4ac5d87edf",
+      "status_first_six_lines": [
+        "seat: cld-advisor",
+        "read: M38",
+        "state: paused (2026-11-14, to save resources); resumes when the author says so",
+        "on: C21'S SERIES, TWO PATCHES SENT on your fda35cb6c (c21_on_fda35cb6c/): your check of the twelve carried to their pages and rows; C21, the foundation at 1.69 as B1933. Both apply on a clean checkout, tree as built; gates green but the error ledger's lag (yours, as the SM ledger's was). The full suite: none of its failures the series' own (13 yours on fda35cb6c, B1927's grid clash, the clone's lanes, the two all-gates tests on the ledger's lag)",
+        "needs: R82-2's 21 arcs by name (a search finds 17); R82-1's transcription of agy-002's findings; the error ledger's lag settled at the landing; cold readings of the two short pages; arcs for P-334's O1 to O10; your word on P-319's two pairs",
+        "next push: when resumed: R82-2 and R82-1, once you give the 21 arcs and the transcription"
+      ]
+    }
+  ]
+}

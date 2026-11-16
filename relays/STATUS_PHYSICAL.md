@@ -1,14 +1,33 @@
 seat: physical
 read: M5
 state: working
-on: current cross-branch source review and preparation of the pending physical packages for main
-needs: independent physical proof review and exact admission for scientific checks; source questions will be listed in the delivery
-next push: exact-head all-seat review, discrepancies and a dependency-ordered handoff for main
+on: PHYSICAL-C4 current-seat preparation delivered; physical complete-domain and registered-end map remains the next derivation
+needs: main recomputation of the source discrepancies below, SM verification of physical proofs, and exact admission before scientific execution
+next push: continue the physical field/domain/end-register dependency with current cross-branch corrections retained
 
 The current cross-branch preparation is scoped by
 `cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md`. It preserves the
 P-C3f source pins and does not promote author derivations or another
 campaign's finite controls to independently checked physical results.
+
+The delivery is
+`PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md`.
+Its main-facing checklist and exact source findings are in
+`all_seats_main_preparation_2026_11_16/`. All twenty-five advertised
+branches were fetched, including the late closure branch f877e0481.
+The new scalar-operator, quartic-running, same-dimension scale-counting,
+minor-phase and convergence questions are source-bound. Original failed
+gates, within-model positives and the constructive B-L alternative remain.
+
+Questions for builders through main: agy-exp's missing phase-sum and
+convergence certificates, residual quartic term and assigned diagnostics;
+agy-002's common scalar operator, physical parity/family map, dimension
+control, finite-bound hypotheses and corrected source attribution; agy's
+exact standalone sources/outputs behind its current check labels.
+This lane supplies a concrete unapplied Gram-check repair and retains
+SM's independent physical review. No scientific execution occurred in
+this source-preparation delivery. The advisor remains paused and no
+listener was started.
 
 The strategic follow-up is now explicit in
 `cyclic_charged_mass_2026_11_16/NEXT_DEPENDENCY_AUDIT.md`. Verification

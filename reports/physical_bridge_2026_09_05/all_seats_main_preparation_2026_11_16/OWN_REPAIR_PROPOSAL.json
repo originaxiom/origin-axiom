@@ -1,0 +1,8 @@
+{
+  "status": "PROPOSED, UNAPPLIED, NOT SCIENTIFICALLY EXECUTED",
+  "source": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py",
+  "source_sha256": "ef8c2013e58fd38fa812962adb3877874d155f3e766b881a2a3a23ce0cff8f97",
+  "proposed_sha256": "411b714988fcba17429070f3d694fee581cee0dc3a8d92e54c581c76ec5cfd2c",
+  "scope": "Normalize the entire scalar equality residual in two Gram assertions. Original sealed source unchanged. Review/reseal required before an admitted successor run.",
+  "applicability_command": "git apply --check --unidiff-zero reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_GRAM_CHECK_REPAIR.diff"
+}

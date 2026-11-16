@@ -15,3 +15,9 @@ manifest path as manifest-directory-relative and stopped at a missing
 Git path. The successor resolves the documented path against the
 repository when that exact blob exists, otherwise against the manifest
 directory, and records the resolved path. No scientific run was involved.
+
+The first delivery whitespace check rejected the literal blank context
+line in the stored unified-diff artifact. It was regenerated with zero
+context and its applicability checked with git apply --check
+--unidiff-zero. The proposed two source replacements are identical.
+The original scientific source remains unchanged.

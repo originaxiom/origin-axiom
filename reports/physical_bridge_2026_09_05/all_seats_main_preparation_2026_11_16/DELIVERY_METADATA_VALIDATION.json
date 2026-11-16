@@ -1,0 +1,338 @@
+{
+  "method": "Standard-library Git/hash/line/path/JSON/AST metadata and git apply --check only. No project imports, CAS, test collection or scientific execution.",
+  "quoted_lines_checked": 46,
+  "quoted_lines": [
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F01",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3271,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F01",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 1712,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F01",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2842,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F02",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3294,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F02",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2596,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F02",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2728,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F02",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 2732,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F03",
+      "path": "relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md",
+      "line": 17,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F03",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "line": 514,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F03",
+      "path": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+      "line": 531,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F04",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 849,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F04",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 813,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F04",
+      "path": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+      "line": 830,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F04",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "line": 1181,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F04",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+      "line": 1130,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F05",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 3235,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F05",
+      "path": "relays/x_closure_1_verify/verify_x_closure_1.py",
+      "line": 122,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F06",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 147,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F06",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 165,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F06",
+      "path": "relays/x_closure_3_verify/verify_x_closure_3.py",
+      "line": 211,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F06",
+      "path": "relays/x_closure_2_verify/verify_x_closure_2.py",
+      "line": 545,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F07",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md",
+      "line": 38,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F08",
+      "path": "relays/STATUS_AGY.md",
+      "line": 15,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F09",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "line": 398,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F09",
+      "path": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+      "line": 433,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F10",
+      "path": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+      "line": 5,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F10",
+      "path": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+      "line": 5,
+      "matches": true
+    },
+    {
+      "file": "QUOTED_SOURCE_EVIDENCE.json",
+      "finding": "F10",
+      "path": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+      "line": 5,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F11",
+      "path": "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md",
+      "line": 56,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F11",
+      "path": "relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md",
+      "line": 3,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F12",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 436,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F13",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 144,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F13",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 143,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F14",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 205,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F14",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 223,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F14",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 226,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F15",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 197,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F15",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 210,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F15",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 224,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F16",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1044,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F16",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1085,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F16",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1077,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F17",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py",
+      "line": 290,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F17",
+      "path": "relays/AGY002_CLOSURE_G6_RESULTS.md",
+      "line": 32,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F12",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 285,
+      "matches": true
+    },
+    {
+      "file": "LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "finding": "F12",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 1004,
+      "matches": true
+    }
+  ],
+  "source_hash_entries_checked": 139,
+  "upstream_manifest_entries_checked": 50,
+  "json_documents_parse": true,
+  "metadata_collector_syntax": true,
+  "own_gram_patch_applicability_exit_code": 0,
+  "own_gram_patch_applied": false,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "referenced_local_review_paths_exist": true,
+  "new_scientific_results_certified": 0,
+  "own_gram_patch_applicability_command": "git apply --check --unidiff-zero"
+}

@@ -1,0 +1,8 @@
+--- a/reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py
++++ b/reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py
+@@ -373 +373 @@
+-        self.assertEqual(sp.simplify((raw.H * gl * raw)[0]), (z.H * z)[0])
++        self.assertEqual(sp.simplify((raw.H * gl * raw)[0] - (z.H * z)[0]), 0)
+@@ -376 +376 @@
+-        self.assertEqual(sp.simplify((raw_right.H * gr * raw_right)[0]), (zr.H * zr)[0])
++        self.assertEqual(sp.simplify((raw_right.H * gr * raw_right)[0] - (zr.H * zr)[0]), 0)

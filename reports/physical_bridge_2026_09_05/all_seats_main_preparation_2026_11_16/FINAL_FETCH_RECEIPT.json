@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-16",
+  "operation": "git fetch --prune origin",
+  "exit_code": 0,
+  "changed_external_heads_since_review_targets": [
+    {
+      "ref": "origin/agy-002/closure",
+      "pinned": null,
+      "current": "f877e0481172392dff9b63420b8bfb03399e9f49"
+    }
+  ],
+  "heads": {
+    "origin/HEAD": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/agy-002/closure": "f877e0481172392dff9b63420b8bfb03399e9f49",
+    "origin/agy-002/endgame": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "origin/agy-002/verify": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "origin/agy/audit-2026-11-02": "e6129316e2b277e81f512de9adb7b311346f5acd",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/agy/self-consistent-loop-2026-11-11": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+    "origin/agy/stage4-sync-2026-11-11": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "725e9b2b2847e3bac0386cf5c0391dd73b0a2665",
+    "origin/chat1/web-seat": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+    "origin/cld/cool-hamilton-k9eqvo": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/review-82/read": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "origin/review-83/read": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  }
+}
