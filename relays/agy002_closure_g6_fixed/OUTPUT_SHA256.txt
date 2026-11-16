@@ -1,0 +1,1 @@
+6fcd6783296175fa0f57bba5e0dc8349c8d773c9a3911485f472d4afc0f39fb2  relays/agy002_closure_g6_fixed/verify_closure_g6_fixed_out.json

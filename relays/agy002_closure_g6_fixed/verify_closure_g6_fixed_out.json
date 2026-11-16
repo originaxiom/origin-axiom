@@ -1,0 +1,85 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_CLOSURE-G6",
+  "empirical_firewall": "0 of 19",
+  "gate_6_passed": true,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ]
+  },
+  "section_1_majorana_basis_and_seesaw": {
+    "PF6_1_caught": true,
+    "PF6_1_orthonormal_ones_rotation_shift": 0.16557618221907222,
+    "cp2_complex_phase_sv23_shift": 0.010683119828715074,
+    "individual_ranks_J0_J1_J2": [
+      1,
+      3,
+      3
+    ],
+    "majorana_cp_real_parameter_count_projective_plus_scale": [
+      2,
+      1
+    ],
+    "majorana_general_parameter_count_projective_plus_scale": [
+      4,
+      1
+    ],
+    "majorana_max_S_cov_err": 1.767095641788201e-13,
+    "majorana_max_T_cov_err": 1.1053450909133777e-13,
+    "majorana_symmetry_max_err": 7.160723346098895e-15,
+    "section_1_passed": true,
+    "seesaw_haar_u3_max_drift_10_trials": 1.4127587988355117e-14,
+    "span_rank_in_sym2_C3": 3
+  },
+  "section_2_tm1_rge_corridor": {
+    "PF6_2_caught": true,
+    "PF6_2_tm2_swap_diff": 0.3333333333333332,
+    "ir_I_TM1_shifts_by_ytau": {
+      "1/100": 9.939198210462408e-06,
+      "1/20": 0.0002483152180887682,
+      "1/5": 0.003932049146647576
+    },
+    "section_2_passed": true,
+    "uv_I_TM1_minus_2_over_3_abs": 9.992007221626409e-16,
+    "uv_Ue3_sq_minus_1_over_48_abs": 6.938893903907228e-18
+  },
+  "section_3_ir_surfaces": {
+    "PF6_3_caught": true,
+    "PF6_3_ng6_alpha3_inv_shift": 17.825353626292276,
+    "PF6_4_caught": true,
+    "PF6_4_max_bug24_sqrt2lam_shift": 0.0020025064134810977,
+    "PF6_5_asymmetric_bloch_wigner_conj_sum": 0.0,
+    "PF6_5_caught": true,
+    "delta_2loop_max": 0.0027548255671241417,
+    "delta_2loop_min": 0.0007265197499218279,
+    "delta_2loop_rational_envelope": [
+      "7/10000",
+      "3/1000"
+    ],
+    "history_count": 243,
+    "lambda_ir_min": 0.06862863304355281,
+    "max_bar_theta_qcd_ir": 6.450395773072161e-14,
+    "min_abs_jarlskog_ir": 0.005428508050202972,
+    "section_3_passed": true,
+    "sqrt_2lambda_ir_max": 0.7715111625365391,
+    "sqrt_2lambda_ir_min": 0.37048247743598567,
+    "sqrt_2lambda_ir_rational_envelope": [
+      "35/100",
+      "78/100"
+    ]
+  }
+}
