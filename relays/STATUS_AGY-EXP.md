@@ -1,13 +1,15 @@
 seat: agy-exp
 read: M40, 47e6078ae, e6129316e, 94e511f54
 state: active
-on: Campaign X-FRONTIER Stage 1 Card X-FRONTIER-1 committed first (Commit 1 of 16; 0 of 19)
+on: Campaign X-FRONTIER Stage 1 complete (Commits 1-4 of 16 sealed; moving to Stage 2 X-FRONTIER-2; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-FRONTIER (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-FRONTIER` Live Ledger (`1 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-FRONTIER` Live Ledger (`4 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
-- **`Stage 1 / X-FRONTIER-1`:** Card `AGY-EXP_X-FRONTIER-1_pc3c-pc3d-verification-and-cross-seat-kronecker-2loop-audit.md` committed first (`no relays/x_frontier_1_verify/ directory exists at this commit`).
+1. **`Stage 1 / X-FRONTIER-1` (`d2d4b568b`, `46fcec62e`, `dd2bbf92e`, and this commit):**
+   - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Frontier_Passed = True`.
+   - First repository-sealed verification of `physical` `P-C3c` (`ca7c2eb66`) & `P-C3d` (`4e0d4c7f3` on `47e6078ae`): symbolic + `60`-digit heavy-relaxed spin quartic lower bound (`< (1/1000)^20`), explicit `240`-root $E_8 \to A_2 \times E_6$ centralizer (`40 + 32 + 6 = 78`, $\det C_{E_6} = 3$, grades `46_0 + 16_{+1} + 16_{-1}`, order-`3` center $U(2\pi)$, $\chi_H$ pairs `[[-1,-1], [-1,1], [1,-1]]`), reflection symmetry $J$ (`J^2 = +1` on `78` of $E_6$ vs **exact order `6`** on `248` of $E_8$, mode parities `(+1, +1, +1, +1, -1)`), forced cusp-tail ODE Green functions + $k/\ell$ kernel, and $K_0$ cocharacter contraction; plus `90`-digit verification of `agy` (`e6129316e`) Kronecker limit modular inversion (`< (1/1000)^29`) + `M3` `(0, 1/10)` example, and exact `3/11` (`11/2` vs `7`) diagnosis of `agy-002` (`94e511f54`) Gate `0`'s un-transposed `2`-loop mixed-Yukawa product.
 
 ## Campaign `X-CLOSURE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
