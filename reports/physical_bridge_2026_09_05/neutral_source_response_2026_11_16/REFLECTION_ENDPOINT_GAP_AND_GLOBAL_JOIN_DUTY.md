@@ -164,3 +164,9 @@ harmonic roster, literal radial/canonical factors, algebraic complement,
 essential-spectrum argument, finite-kernel retention and the relative
 bundle caveat. No source-selection, physical chirality, gravity or
 foundational input reduction is certified here.
+
+Subsequent P-C3d continuation: the common-framing comparison for the
+specified coherent state axes is now derived in
+COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md. It uses a fixed-coroot
+contraction of the actual rotation loop and retains the reference
+qualifications above. That later author proof has its own review duty.
