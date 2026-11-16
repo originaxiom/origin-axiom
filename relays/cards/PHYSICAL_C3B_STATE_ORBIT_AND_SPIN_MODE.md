@@ -34,6 +34,16 @@ equivalence and its registering defect remain part of the comparison.
 4. Compute the stabilizer character and the resulting full E action,
    including scalar automorphy, central sheet and physical Gram. Compare
    it with the native triplet through an explicit invariant inclusion.
+5. As a same-action continuation, determine whether the allowed state
+   sectors admit finite-action connecting fields after the existing
+   spin/core maps and gauge-bundle identifications. Derive the restricted
+   potential and real Gauss equation from the full action. Retain trial-
+   path dependence and the stationary-interface duty explicitly.
+6. Before assigning any cross-sector coupling, project the actual parent
+   cubic onto the two opposite-charge spin zero lines and an unbroken
+   neutral connection mode. Carry both polarizations, kinetic factors,
+   the charge current and full word transport. Determine the mass rank
+   at a Wilson crossing and retain all form partners and backgrounds.
 
 ## Possible failures and rejecting controls
 
