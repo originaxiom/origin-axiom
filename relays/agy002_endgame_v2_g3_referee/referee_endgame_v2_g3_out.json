@@ -1,0 +1,203 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 3 Referee \u2014 Radiative EWSB Scale Closure & Campaign Manifest Check",
+  "empirical_firewall": "0 of 19",
+  "gate_3_referee_passed": false,
+  "section_0_ast_and_campaign_manifests": {
+    "section_0_passed": true,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "scipy",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "campaign_sha256_manifests_total": 14,
+    "campaign_sha256_manifests_verified": 14,
+    "campaign_sha256_mismatches": [],
+    "campaign_sha256_records": [
+      {
+        "manifest": "relays/agy002_endgame_v2_g0_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+        "expected_sha256": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+        "actual_sha256": "a3ed01b9f6865cab1c59109e1d32eacfd0d4679f3a3164349e21695d8f5e4184",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g0_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+        "expected_sha256": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+        "actual_sha256": "48047deefe4f00fbf4bbe75e7067716784547708c527353620dd0cdcf75d2d7b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g0_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+        "expected_sha256": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+        "actual_sha256": "7cf1788e6b5d07ca0ab574f2b1595ad4abd78667497dc2b93f2b4005858ba363",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g0_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+        "expected_sha256": "b2d29607b84cc67b7c9f418c839c028ded554b9122a2d62f18fb021dfff71b99",
+        "actual_sha256": "b2d29607b84cc67b7c9f418c839c028ded554b9122a2d62f18fb021dfff71b99",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g1_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+        "expected_sha256": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9",
+        "actual_sha256": "1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g1_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+        "expected_sha256": "e18f1a176df69f2a32708bfc6175e4d9f01a010afacdb2e40dc2bec4d8c0f0b7",
+        "actual_sha256": "e18f1a176df69f2a32708bfc6175e4d9f01a010afacdb2e40dc2bec4d8c0f0b7",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g1_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py",
+        "expected_sha256": "4d43590bb2afc2a2998aa07068bc271039fe0126aeda8a16019c483ee8ff8904",
+        "actual_sha256": "4d43590bb2afc2a2998aa07068bc271039fe0126aeda8a16019c483ee8ff8904",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g1_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+        "expected_sha256": "4250aea468c21d1b867dffa94ab28f9081a5dac21f5c8563a610c261eeea0d4a",
+        "actual_sha256": "4250aea468c21d1b867dffa94ab28f9081a5dac21f5c8563a610c261eeea0d4a",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g2/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+        "expected_sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+        "actual_sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g2/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+        "expected_sha256": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+        "actual_sha256": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g2_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+        "expected_sha256": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72",
+        "actual_sha256": "b4e2411d09c6f0f6c96ee5927aa9ef71989b7ecbba851e5e5a234b009d76ec72",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g2_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+        "expected_sha256": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14",
+        "actual_sha256": "b045dfb22f1130b12917249b8c5037335398c84054a4b6b2b9ca9511aec09a14",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g3/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+        "expected_sha256": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7",
+        "actual_sha256": "16f6af1ac2b7f4d93b39598494aa1e5a01a989ad384e856f83e2d6af59700de7",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_endgame_v2_g3/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+        "expected_sha256": "b2496adb082d9503c1be2379eafb4450010dc1beaa84e41c431189a2a7f9ceb9",
+        "actual_sha256": "b2496adb082d9503c1be2379eafb4450010dc1beaa84e41c431189a2a7f9ceb9",
+        "matched": true
+      }
+    ]
+  },
+  "section_1_buttazzo_2013_gamma_m2_polynomial_lock": {
+    "section_1_passed": true,
+    "rational_tuples_tested": 10,
+    "all_10_tuples_exact_match": true,
+    "rational_so3_5_basis_invariance_exact": true,
+    "gamma_1loop_sample_rational": "367247879/65865514",
+    "gamma_2loop_sample_rational": "-886154046205665125/503238848400166736",
+    "sample_1loop_matches_producer_json": true,
+    "sample_2loop_matches_producer_json": true
+  },
+  "section_2_picard_lindelof_and_coleman_weinberg_obstructions": {
+    "section_2_passed": false,
+    "literature_benchmark_gate": {
+      "qcd_2loop_implicit_benchmark_rel_err": 6.014236727683705e-14,
+      "benchmark_gate_passed": true
+    },
+    "rhs_u3_5_basis_covariance_max_err": 7.806255641895632e-18,
+    "picard_lindelof_exp_integral_rel_err_dop853": 3.456907197658237e-15,
+    "picard_lindelof_exp_integral_rel_err_mpmath45": 4.694281542650855e-13,
+    "dop853_vs_mpmath45_muH2_ir_rel_err": 1.3536520816074983e-12,
+    "min_muH2_along_pure_sm_flow_from_unit_uv": 0.610205488945944,
+    "max_muH2_along_pure_sm_flow_from_minus_unit_uv": -0.610205488945944,
+    "alpha3_inv_at_ir_end": 13.475868537986706,
+    "homogeneous_msbar_crosses_zero": false,
+    "coleman_weinberg_beta_lam_at_lam0_gauge_only": 0.0012593099455953727,
+    "coleman_weinberg_beta_lam_at_lam0_top_dominated": -0.023584568729629704,
+    "coleman_weinberg_d2V_over_v2_gauge_only": 0.005037239782381491,
+    "coleman_weinberg_d2V_over_v2_top_dominated": -0.09433827491851882,
+    "top_dominated_cw_is_maximum_not_minimum": true
+  },
+  "section_3_heavy_threshold_ewsb_and_dimensionless_vEW_ledger": {
+    "section_3_passed": true,
+    "vissani_nr_msbar_rg_invariance_residual": 6.895469442325765e-24,
+    "vissani_d_muH2_d_ln_mu_negative": -0.015198177546350666,
+    "vissani_downward_nr_shift_positive": 0.045594532639052,
+    "portal_scalar_drives_radiative_zero_crossing": true,
+    "portal_zero_crossing_t": -1.9501776448629817,
+    "portal_zero_crossing_diff_vs_producer_json": 4.678528631174572e-08,
+    "muH2_at_M_PS_in_M_PS_sq_units": -0.10250535801304433,
+    "lambda_at_M_PS": 0.12053399545877763,
+    "barbieri_giudice_hierarchy_sensitivity_at_DeltaSM_28": 1.4692696350674158e+24,
+    "tuned_hierarchy_target_rel_err": 2.745542548326568e-21,
+    "parameter_free_v_EW_over_M_PS_closure": false,
+    "dimensionful_anchors_in_ir_ledger": 1,
+    "noncommuting_yukawa_commutator_norm": 0.002548779324740443,
+    "haar_u3_6_trials": 12,
+    "haar_u3_6_dimensionless_mass_ratios_max_err": 9.731798700229888e-16
+  },
+  "section_4_planted_fault_controls": {
+    "all_5_planted_faults_caught": true,
+    "PF3_1_half_gamma_scale_rel_err": {
+      "measured_err": 0.28015319672163896,
+      "threshold": 0.1,
+      "caught": true
+    },
+    "PF3_2_homogeneous_positivity_floor": {
+      "min_muH2": 0.610205488945944,
+      "threshold": 0.1,
+      "caught": true
+    },
+    "PF3_3_inverted_vissani_sign_rg_violation": {
+      "measured_err": 0.030396355092701333,
+      "threshold": 0.01,
+      "caught": true
+    },
+    "PF3_4_unstable_top_cw_curvature": {
+      "d2V_over_v2": -0.09433827491851882,
+      "threshold": -0.01,
+      "caught": true
+    },
+    "PF3_5_extra_dimensionful_anchor_count": {
+      "anchor_count": 2,
+      "max_allowed": 1,
+      "caught": true
+    }
+  }
+}
