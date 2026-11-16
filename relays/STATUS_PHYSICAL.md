@@ -1,9 +1,43 @@
 seat: physical
 read: M5
 state: working
-on: P-C3a four-slot and complete-domain maps derived, spin/core equivalence and registering defect explicit
-needs: independent review of four new physical proofs and retained kernel premises, exact main admission for the sealed mathematical checks
-next push: structured-state stabilizer and invariant-inclusion calculation, with same-action sector/end law retained
+on: P-C3b actual spin-mode state orbit, nonzero same-action vertex, finite bulk path and real Gauss response derived
+needs: independent review of five P-C3b proofs and retained source/domain premises, exact main admission for the sealed mathematical checks
+next push: full transverse stationary joining and registered source/end law, with conjugates, form partners and continuum retained
+
+P-C3b scope d2937e15a and continuation 090015ca5 produced three hand
+proofs at bc729239d and two same-action successors at d7d0bc320.
+The new directory is `physical_state_orbit_2026_11_16` under the physical
+report root. It includes the findings, source inventory and review brief.
+The actual orthogonal reduction gives a charged complement inverse
+under its analytic hypotheses. Direct kernels give the correlated
+spin/state orbit and its invariant spin-line inclusion with raw action
+j mu^4 O, preserving the scalar line and all complementary modes.
+
+The opposite-charge spin lines have a nonzero actual-parent cubic with
+a neutral Q_em connection mode. Its operator derivative and normalized
+current agree, yielding the existing geometric coupling law on these
+new modes. The odd seed has the same magnitude. Both charges, the two
+form partners per charge, the old U3 phase and neutral continuum remain.
+
+A common-tail affine path connects the fixed-spin background states
+in the smooth bulk field space. Its actual potential is B s^2(1-s)^2,
+and its real Gauss equation fixes the horizontal kinetic response.
+Path dependence, possible gauge enhancement and the full transverse
+stationarity duty remain explicit. Spin/core transports retain their
+registering defects. No full registered-theory connectivity or three
+simultaneous local generations is inferred. These are unreviewed
+author hand proofs, with no new scientific code run or input payment.
+
+The fresh all-branch fetch brought the loop branch to 645964e59. All
+four X-UNIFY relays and targeted deciding source ranges were read.
+The new source review preserves CRT and anomaly positives and records
+the modular factor-of-two mismatch, tautological CS diagnostic/literal
+theta assignment, row-sum source-vector input and overbroad closure/iff.
+These are relayed with the physical continuation in
+`PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3B_ACTION_AND_X_UNIFY_SOURCE_CORRECTIONS.md`.
+The full upstream campaign is not newly certified. The sealed ca02b5d8d
+scientific checker remains unimported, uncollected and unrun here.
 
 P-C3a scope 7b185aa30 produced the first field/domain proofs at 46bf56163
 and the spin/central-core successor at 7d2cbbab0. The source and trace-dual
