@@ -1,0 +1,213 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 1 \u2014 E_6 -> Pati-Salam x| Z_2^D Universal Gauge Corridor & 3-Family Strong-CP Law",
+  "empirical_firewall": "0 of 19",
+  "gate_1_passed": true,
+  "section_0_ast_lock": {
+    "ast_gate_passed": true,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "dataclasses",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0
+  },
+  "section_1_cusp_z_zeta6_and_e6_27_branching": {
+    "cusp_and_e6_gate_passed": true,
+    "wirtinger_relation_exact_in_Z_zeta6": true,
+    "longitude_linking_sum": 0,
+    "re_tau_cusp_twice_exact_int": 0,
+    "abs_tau_cusp_sq_exact_int": 12,
+    "min_nonzero_c_norm_sq_over_words_len_6": 1,
+    "nonparabolic_words_checked": 1444,
+    "t_tan": 1.0,
+    "A_max_m004": 3.4641016151377544,
+    "V_cusp_max_m004": 1.7320508075688772,
+    "Vol_m000": 1.0149416064096537,
+    "Vol_m004": 2.0298832128193074,
+    "Vol_m004_50digit_str": "2.02988321281930725004240510854904057188337862",
+    "lobachevsky_2Cl2_pi3_vs_3Cl2_2pi3_diff": 0.0,
+    "horoball_packing_density_m004": 0.8532760883140807,
+    "e6_27_dim": 27,
+    "e6_27_dynkin_indices_su4_su2L_su2R": [
+      "3",
+      "3",
+      "3"
+    ],
+    "chiral_weyl_dim_per_gen_below_M_PS": 16,
+    "n_generations_chiral": 3,
+    "sm_b3_3fam": "-7"
+  },
+  "section_2_3family_dparity_strong_cp_law": {
+    "strong_cp_gate_passed": true,
+    "max_tree_bar_theta_qcd": 5.828670879282071e-16,
+    "max_instantaneous_2loop_im_jacobi_trace": 2.6020852139652106e-18,
+    "max_2loop_ir_bar_theta_qcd_across_3_states": 1.2823075934420552e-14,
+    "min_ir_abs_J_CKM_across_3_states": 0.015985654700218573,
+    "max_haar_u3_6_ir_bar_theta_qcd": 7.016609515630989e-14,
+    "max_haar_u3_6_observable_drift": 7.854827899222983e-14
+  },
+  "section_3_pati_salam_corridor_and_4d_collar_obstruction": {
+    "pati_salam_corridor_and_obstruction_gate_passed": true,
+    "b_PS_1loop": [
+      "-10",
+      "-7/3",
+      "-7/3"
+    ],
+    "B_PS_2loop": [
+      [
+        "-117/2",
+        "15/2",
+        "15/2"
+      ],
+      [
+        "75/2",
+        "50/3",
+        "3"
+      ],
+      [
+        "75/2",
+        "3",
+        "50/3"
+      ]
+    ],
+    "gauge_reciprocity_15_B4_2L_eq_3_B2L_4": true,
+    "p862_1loop_exact_coefficients": {
+      "c0": "23/134",
+      "c_alphaEM_over_alpha3": "109/201",
+      "c_DeltaPS_times_pi": "506/201",
+      "c_DeltaPS_numeric": 0.8013174249203885
+    },
+    "max_1loop_corridor_law_vs_ode_err_across_96_histories": 3.247402347028583e-15,
+    "max_2loop_newton_shooting_residual": 4.547473508864641e-13,
+    "monotone_2loop_sin2_lift_across_Delta_PS": true,
+    "blind_2loop_corridor_table": [
+      {
+        "collar_label": "0_minimal_su5_desert",
+        "Delta_PS": 0.0,
+        "solved_alpha_U_inv_2loop": 49.41093051945661,
+        "solved_Delta_SM_2loop": 30.57149742852687,
+        "alpha_EM_inv_IR": 150.00000000000014,
+        "alpha_3_inv_IR": 14.999999999999991,
+        "sin2_theta_W_1loop_law": 0.22587064676616914,
+        "sin2_theta_W_2loop": 0.22789464372523008,
+        "two_loop_shift_delta_2loop": 0.002023996959060942
+      },
+      {
+        "collar_label": "Vol_m000",
+        "Delta_PS": 1.0149416064096537,
+        "solved_alpha_U_inv_2loop": 50.246491875985846,
+        "solved_Delta_SM_2loop": 29.86510388315911,
+        "alpha_EM_inv_IR": 150.00000000000003,
+        "alpha_3_inv_IR": 14.999999999999817,
+        "sin2_theta_W_1loop_law": 0.2312925827294541,
+        "sin2_theta_W_2loop": 0.2334008790057517,
+        "two_loop_shift_delta_2loop": 0.0021082962762976054
+      },
+      {
+        "collar_label": "ln_A_max",
+        "Delta_PS": 1.2424533248940002,
+        "solved_alpha_U_inv_2loop": 50.43380503089494,
+        "solved_Delta_SM_2loop": 29.706772156385497,
+        "alpha_EM_inv_IR": 150.0,
+        "alpha_3_inv_IR": 15.000000000000094,
+        "sin2_theta_W_1loop_law": 0.2325079767587547,
+        "sin2_theta_W_2loop": 0.23463510421833425,
+        "two_loop_shift_delta_2loop": 0.0021271274595795475
+      },
+      {
+        "collar_label": "V_cusp_max",
+        "Delta_PS": 1.7320508075688772,
+        "solved_alpha_U_inv_2loop": 50.836910912284395,
+        "solved_Delta_SM_2loop": 29.366065896381148,
+        "alpha_EM_inv_IR": 150.00000000000037,
+        "alpha_3_inv_IR": 14.9999999999999,
+        "sin2_theta_W_1loop_law": 0.2351234633858516,
+        "sin2_theta_W_2loop": 0.23729103761921141,
+        "two_loop_shift_delta_2loop": 0.002167574233359809
+      },
+      {
+        "collar_label": "Vol_m004",
+        "Delta_PS": 2.0298832128193074,
+        "solved_alpha_U_inv_2loop": 51.08213815237397,
+        "solved_Delta_SM_2loop": 29.158819106217376,
+        "alpha_EM_inv_IR": 150.00000000000028,
+        "alpha_3_inv_IR": 14.999999999999911,
+        "sin2_theta_W_1loop_law": 0.23671451869273907,
+        "sin2_theta_W_2loop": 0.23890664752231697,
+        "two_loop_shift_delta_2loop": 0.002192128829577894
+      },
+      {
+        "collar_label": "A_max_2sqrt3",
+        "Delta_PS": 3.4641016151377544,
+        "solved_alpha_U_inv_2loop": 52.263133683557065,
+        "solved_Delta_SM_2loop": 28.160939573280217,
+        "alpha_EM_inv_IR": 149.99999999999991,
+        "alpha_3_inv_IR": 15.000000000000043,
+        "sin2_theta_W_1loop_law": 0.2443762800055341,
+        "sin2_theta_W_2loop": 0.24668615916413866,
+        "two_loop_shift_delta_2loop": 0.002309879158604561
+      },
+      {
+        "collar_label": "2_Vol_m004",
+        "Delta_PS": 4.059766425638615,
+        "solved_alpha_U_inv_2loop": 52.753675953036016,
+        "solved_Delta_SM_2loop": 27.746553503938603,
+        "alpha_EM_inv_IR": 149.99999999999997,
+        "alpha_3_inv_IR": 14.999999999999915,
+        "sin2_theta_W_1loop_law": 0.24755839061930904,
+        "sin2_theta_W_2loop": 0.24991695314024673,
+        "two_loop_shift_delta_2loop": 0.0023585625209376904
+      },
+      {
+        "collar_label": "4_Vol_m004",
+        "Delta_PS": 8.11953285127723,
+        "solved_alpha_U_inv_2loop": 56.09767261710114,
+        "solved_Delta_SM_2loop": 24.923090202744667,
+        "alpha_EM_inv_IR": 150.00000000000045,
+        "alpha_3_inv_IR": 15.000000000000252,
+        "sin2_theta_W_1loop_law": 0.26924613447244894,
+        "sin2_theta_W_2loop": 0.27193380448361837,
+        "two_loop_shift_delta_2loop": 0.0026876700111694296
+      }
+    ],
+    "collar_4d_scaling_obstruction": {
+      "boundary_3d_mostow_rigid": true,
+      "bulk_4d_L4_and_warp_unfixed_without_4d_potential": true,
+      "parameter_free_collar_scale_fixing_closes_from_3d_alone": false,
+      "obstruction_statement": "3D Mostow rigidity fixes Vol(m004), A_max, and tau_cusp uniquely, but alpha_U^-1 and ln(M_U/M_PS) scale with 4D interval length L_4 and collar warp rate unless a 4D bulk stabilization action is supplied."
+    }
+  },
+  "section_4_planted_fault_controls": {
+    "all_5_planted_faults_caught": true,
+    "PF1_1_broken_dparity_theta_err": {
+      "measured_err": 0.9682158223488492,
+      "caught": true
+    },
+    "PF1_2_opposite_det_parity_theta_err": {
+      "measured_err": 3.1415926535897927,
+      "caught": true
+    },
+    "PF1_3_six_family_b3_shift": {
+      "measured_err": 4.0,
+      "caught": true
+    },
+    "PF1_4_flipped_threshold_sign_err": {
+      "measured_err": 0.04964604211322132,
+      "caught": true
+    },
+    "PF1_5_horoball_overlap_penetration": {
+      "measured_err": 1.0,
+      "caught": true
+    }
+  }
+}
