@@ -1,0 +1,130 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_CLOSURE-G7",
+  "empirical_firewall": "0 of 19",
+  "gate_7_passed": true,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ]
+  },
+  "section_1_operator_and_buckingham_lock": {
+    "PF7_1_caught": true,
+    "PF7_1_two_anchor_rank": 2,
+    "buckingham_pi_rank": 1,
+    "dimensionless_sm_ratios_count": 18,
+    "physical_flavour_parameters_sm": 13,
+    "physical_flavour_plus_nu_parameters_eft": 22,
+    "section_1_passed": true,
+    "sole_dimensionful_anchor": "v_EW",
+    "total_sm_parameters": 19,
+    "total_weinberg_eft_parameters": 28,
+    "u3_5_jacobian_rank_sm": 41,
+    "u3_5_jacobian_rank_weinberg_eft": 44,
+    "u3_5_unbroken_generators_sm": 4,
+    "u3_5_unbroken_generators_weinberg_eft": 1
+  },
+  "section_2_dag_and_p862_catalogue": {
+    "PF7_2_cycle_injection_caught": true,
+    "PF7_3_rank_laundering_caught": true,
+    "PF7_4_guardrail1_zero_bit_laundering_caught": true,
+    "algebraic_kill_line_invariants_verified": true,
+    "category_counts": {
+      "OPERATOR": 5,
+      "RELATION": 10,
+      "ROOT": 5,
+      "SEAM": 7,
+      "SM_TARGET": 19
+    },
+    "dag_acyclic": true,
+    "guardrail_1_seam_honesty_passed": true,
+    "monotone_max_plus_invariant_passed": true,
+    "p862_sealed_catalogue": [
+      {
+        "epistemic_rank": 0,
+        "id": "PR-1",
+        "kill_line": "any state with 2t + 3d + 6Y != 0 (mod 6) or k_2/k_1 != 3/5"
+      },
+      {
+        "epistemic_rank": 2,
+        "id": "PR-2",
+        "kill_line": "|bar_theta_QCD(IR)| > (1/10)^10"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-3",
+        "kill_line": "delta_{2-loop} outside [7/10000, 3/1000] across perturbative G_422 x| Z_2^D histories"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-4",
+        "kill_line": "m_H / v_EW outside [35/100, 78/100] on D-term UV boundary with y_t(M_PS) in [1/2, 9/10]"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-5",
+        "kill_line": "ground-state degeneracy > 1 of blind Level-6 M_H^2 = K_KK - kappa_1 Sigma_H"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-6",
+        "kill_line": "any of 288 primitive torsion points at Levels 5/10/15 failing |V_tb| = 1 in unbroken SU(2)_R 3(B-L) limit"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-7",
+        "kill_line": "Y_e = Y_d^T survival under non-zero 3(B-L) torus holonomy"
+      },
+      {
+        "epistemic_rank": 1,
+        "id": "PR-8",
+        "kill_line": "single-sheet E^*[5] Gramian T/S non-covariance for even Delta or anisotropy collapse on v_6(tau)"
+      },
+      {
+        "epistemic_rank": 2,
+        "id": "PR-9",
+        "kill_line": "|cos^2(theta_12) cos^2(theta_13) - 2/3| > 1/50"
+      },
+      {
+        "epistemic_rank": 0,
+        "id": "PR-10",
+        "kill_line": "homogeneous MSbar zero-crossing of mu_H^2 or > 1 unpriced dimensionful anchor"
+      }
+    ],
+    "relation_rank_histogram_0_1_2_3": [
+      2,
+      6,
+      2,
+      0
+    ],
+    "section_2_passed": true,
+    "sm_target_rank_histogram_0_1_2_3": [
+      0,
+      0,
+      1,
+      18
+    ],
+    "total_dag_nodes": 46,
+    "unique_continuous_modulus_free_sm_parameter": "SM19:bar_theta_QCD"
+  },
+  "section_3_custody_lock": {
+    "PF7_5_tamper_control_caught": true,
+    "prior_sha256_manifests_matched": 36,
+    "prior_sha256_manifests_total": 36,
+    "section_3_passed": true,
+    "self_script_sha256_matched": true
+  }
+}
