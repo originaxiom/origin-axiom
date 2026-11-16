@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-16",
+  "operation": "git fetch --all --prune",
+  "exit_code": 0,
+  "prior_receipt": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFRESH_RECEIPT.json",
+  "refs": [
+    {
+      "ref": "origin/agy-002/endgame",
+      "head": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0"
+    },
+    {
+      "ref": "origin/agy-002/verify",
+      "head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9"
+    },
+    {
+      "ref": "origin/agy/audit-2026-11-02",
+      "head": "989dd8ed3f73965a2edf5b0bc083a788792465e1"
+    },
+    {
+      "ref": "origin/agy/frontier-2026-10-26",
+      "head": "05e6caabf7113244702aa473c6d6786d94b7cf4b"
+    },
+    {
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "head": "645964e59f6b65e80917218768807d51f3bf9fce"
+    },
+    {
+      "ref": "origin/agy/stage4-sync-2026-11-11",
+      "head": "d37c773d66607b2a8c9fd189f9e1638cad166dab"
+    },
+    {
+      "ref": "origin/audit/fork-2026-09-20",
+      "head": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a"
+    },
+    {
+      "ref": "origin/audit/independent-2026-11-03",
+      "head": "4b91b9be7db39cc78935c06b47bbd44095c52426"
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "head": "b8c1bbef773b3c4c575ece8d65019d7e0b5073c0"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "head": "3ce61679c78917692d3c0d63a9a2723b68ede07d"
+    },
+    {
+      "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
+      "head": "efadcdeaa5375cf0ac76d954dbf34abd070430cd"
+    },
+    {
+      "ref": "origin/claude/kind-hypatia-uk0vv9",
+      "head": "6a537f899c9c1882930475144a30ae76aa2966d8"
+    },
+    {
+      "ref": "origin/claude/outside-bench",
+      "head": "13d2c5b63ba7a3db9ea880016a43d3c688cee954"
+    },
+    {
+      "ref": "origin/claude/paper-review-verification-kaz3f5",
+      "head": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd"
+    },
+    {
+      "ref": "origin/claude/project-thread-hctlox",
+      "head": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511"
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0"
+    },
+    {
+      "ref": "origin/cld/cool-hamilton-k9eqvo",
+      "head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7"
+    },
+    {
+      "ref": "origin/explore/2026-11-05",
+      "head": "af81fb6ef45f3544a5113a118599c16f185225a2"
+    },
+    {
+      "ref": "origin/main",
+      "head": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec"
+    },
+    {
+      "ref": "origin/referee/B1668_the_price_of_the_nineteen",
+      "head": "0c781663f4fb0505fb8814e261b8cf9e0231d94f"
+    },
+    {
+      "ref": "origin/referee/landing",
+      "head": "806dfd6002773bf1d1eba273f432fb626f27b302"
+    },
+    {
+      "ref": "origin/review-82/read",
+      "head": "86930f57458df41f9f3e97b78d8128de344d2b0c"
+    },
+    {
+      "ref": "origin/review-83/read",
+      "head": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56"
+    },
+    {
+      "ref": "origin/sep16-branch",
+      "head": "3205984b48d1b98a80042cdc70916878973980f5"
+    }
+  ],
+  "changed_external_heads": [],
+  "scope": "All configured remote branch references excluding symbolic origin/HEAD. No new remote source was scientifically executed."
+}

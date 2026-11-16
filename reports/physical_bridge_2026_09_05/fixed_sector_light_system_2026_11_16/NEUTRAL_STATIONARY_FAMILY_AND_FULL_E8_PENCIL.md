@@ -138,7 +138,41 @@ fixed local evaluation at z1,z2 is compared only with that covector
 and its measuring frame transported. No preferred flavour direction
 is inserted through the notation.
 
-## 4. Consequence for the joining task
+## 4. A direct charged-spectrum test on the neutral family
+
+At first order put N_c=t nu_c,N_d=t nu_d. The actual complete
+charged modes at the reference point are (P_c,P_s,S) and (R_c,R_s,T).
+The previously derived cubic gives their leading mass matrix
+
+    Y1=[[0,0,lambda_+ nu_c],
+        [0,0,0],
+        [lambda_- nu_d,0,0]].
+
+For nu_c nu_d!=0 it has rank two. Its two nonzero leading physical
+singular values are |t lambda_+ nu_c| and |t lambda_- nu_d|.
+The remaining charged form pair has mass O(t^2) or higher. This
+uses the actual stationary branch and normalized mode maps. The
+charged complementary inverse at the endpoint is the one already
+derived from its complete confining block.
+
+Computing the next coefficient requires both the stationary Hermitian
+response and the full complementary propagator. In the inherited
+orthonormal source/target convention it is
+
+    Y2=P_L V2 P_R-P_L V1 Q_R C^-1 Q_L V1 P_R.
+
+Its pairing with the left/right null form modes decides whether the
+third mass begins at second order. V2 includes the response just
+constructed and the actual metric/target transport. Replacing it by
+zero or replacing C by a local vertical matrix would change this
+question. A rank-two first projection alone does not determine Y2.
+
+This gives a specific next physical calculation on an actual stationary
+background, with conjugates and partner modes retained. Its amplitudes
+remain unselected, and the source gauge phase retains its separate
+full-SM duty.
+
+## 5. Consequence for the joining task
 
 The supplied action has two complementary local stationary directions.
 Charged forms can move the connection and Higgs Q after their actual
