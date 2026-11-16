@@ -1,15 +1,18 @@
 seat: agy-exp
 read: M40, e250dab15
 state: active
-on: Campaign X-CLOSURE Stage 2 Card X-CLOSURE-2 committed first (Commit 5 of 16; 0 of 19)
+on: Campaign X-CLOSURE Stage 2 complete (Commits 1-8 of 16 sealed; moving to Stage 3 X-CLOSURE-3; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-CLOSURE (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-CLOSURE` Live Ledger (`5 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-CLOSURE` Live Ledger (`8 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-CLOSURE-1` (`31628eeae`, `8f5a5d977`, `635b2b103`, `332cd2031`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Closure_Passed = True`.
    - Repaired `physical` `e250dab15` Item `A` (`2^{-1} mod N` quadratic Weil phase + Gauss-sum Fourier factor $\gamma_N(r)^{-1}$, giving exact unit-shear Heisenberg conjugation `< (1/1000)^21`, non-projective $(S_N^{(r)} T_N^{(r)})^3 = (S_N^{(r)})^2$ `< (1/1000)^21`, Gauss reciprocity $\gamma_{15}(1) = \gamma_5(3)\gamma_3(2)$, and `CRT` $\mathcal{W}_{15}^{(1)} \cong \mathcal{W}_5^{(3)} \otimes \mathcal{W}_3^{(2)}$ `< (1/1000)^21`, while `PC_CL1_DoubledShearHeisenbergDefect` reproduces $\begin{psmallmatrix} 4 & 3 \\ -3 & -2 \end{psmallmatrix} \not\equiv -I_2 \pmod 5$); repaired Item `B` via the Goerner–Zickert–Neumann flattened extended Rogers dilogarithm (`|CS(m004) mod (1/2)| < (1/1000)^20` across bundle-spinor and coboundary-invariant ordered-Ptolemy routes vs equal-volume chiral sister `|CS(m003) - 1/4| < (1/1000)^20` and chiral `m015` matching `SnapPy` to `8` figures with `> 13/1000` distance to `(1/12)Z`, explicitly scoping bare parity $\theta_{\mathrm{bare}} \in \{0, \pi\}$ in Tier `II`).
+2. **`Stage 2 / X-CLOSURE-2` (`d09924afd`, `38736a73f`, `086d41c24`, and this commit):**
+   - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Closure_Passed = True`.
+   - First standalone zero-import verification of `physical` `P-C3b` Proofs `1–3` (`bc729239d` on `e250dab15`, scoped to finite fibre, radial cusp-exponent, and `2O` representation identities): exact symbolic $J_0..J_3$ metrics and $J_{n+1} D_n = \sqrt{2}\, d_n J_n$, parallel $\nabla\widehat{\Phi}_0 = 0$ and zero mixed anticommutator, exact rational diagonalization of $\Delta_{\delta, 0..2}$ on $V_{3/2} \otimes V_{3/2}$ with harmonic kernel `(1, 2, 1)`, `eq. (8)` norm residual `= 0`, and complement gap $c_\delta|_{\ell=1} = 3/4$; `|2O| = 48`, `|D| = 16`, `3 + 3 + 6` spin/state orbits, torus pairings `-7/8` and `-5/8` giving $\alpha_+ = -1, \alpha_- = +1$, `(2, 0)` form/gaugino modes and `(18, 18, 16)` total `128` half-root zero modes; and $\operatorname{Ind}_D^{2O} \chi_{\mathrm{aligned}} \cong \sigma \otimes O$ giving $U_{\mathrm{aligned}} = j\mu^4 O$ (`L^4 = +I_3` vs native $T_+$ `L^4 = -I_3`) with retained central sheet `(-1, +1, -1)`.
 
 ## Campaign `X-UNIFY` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
