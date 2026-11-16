@@ -1,0 +1,103 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Frontier_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FRONTIER-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_cyclic_corner_and_koszul_table": {
+    "E1_CyclicCornerContraction_and_KoszulTable_Gate_passed": true,
+    "compact_extension_degrees": [
+      -2,
+      0,
+      0,
+      2
+    ],
+    "complete_128_kernel_table_aligned": [
+      18,
+      16,
+      8
+    ],
+    "complete_128_kernel_table_misaligned": [
+      16,
+      16,
+      8
+    ],
+    "fibre_ranks_generic_vs_common_zero": [
+      [
+        16,
+        16
+      ],
+      [
+        15,
+        15
+      ]
+    ],
+    "higher_hpt_corners_identically_zero": true,
+    "homotopy_free_symbols": [
+      "c1",
+      "c2",
+      "c3"
+    ],
+    "koszul_chain_square_zero": true,
+    "retained_line_ranks": [
+      1,
+      2,
+      1
+    ],
+    "single_factor_h_corner_zero": true
+  },
+  "part_3b_triplet_green_operator_sigma_star": {
+    "E2_TripletGreenOperator_RankOne_and_SigmaStar_Gate_passed": true,
+    "PC_FR3_SingleAxisVanishingKStar_norm": 0.0,
+    "PC_FR3_SwappedKoszulSignBreaksHolomorphicity_dbar_err": 6.467519282419205,
+    "PC_FR3_TrivialSingletMiddleLinePole_min_eig": 0.0,
+    "bloch_periodicity_err": 3.803367183796903e-33,
+    "dbar_holomorphicity_residual_grid32": 7.887776919118147e-10,
+    "fourier32_vs_analytic_residue_rel_err": 7.688224642827876e-12,
+    "grid_24_vs_32_rel_diff": 1.1037220076500128e-07,
+    "min_dbar_eigenvalue_magnitude_BC": 1.0471975511965979,
+    "normalized_triplet_coeff_sqrt2_sigma_star": 0.9731217778547082,
+    "sigma_2_over_sigma_1_grid_32": 2.4447435775738098e-11,
+    "sigma_star_analytic_residue_factorization": 0.688101008036083,
+    "sigma_star_grid_16_24_32": [
+      0.6878719515840652,
+      0.6881010839885959,
+      0.6881010080413733
+    ]
+  },
+  "part_3c_prospective_d5_cross_form_singlet_test": {
+    "E3_ProspectiveCrossForm_SingletMechanism_Gate_passed": true,
+    "cross_form_decouples_from_retained_4line_cohomology": true,
+    "endpoint_divisor_shift_control_rank": 3,
+    "exact_all_orders_F_flatness_verified": true,
+    "prospective_outcome": "PROTECTED_RANK_2_BY_NILPOTENT_CENTRALIZER_AND_COMMON_DIVISOR",
+    "reduced_4line_differentials_free_symbols": [
+      "f_m",
+      "f_p"
+    ],
+    "singlet_3rd_singular_value_under_N_and_B": 0.0,
+    "singlet_3x3_rank_under_N_and_B": 2,
+    "uncompleted_cross_form_F_obstruction_nonzero": true,
+    "unique_all_orders_F_flat_trilinear_coeff_c3": "1/2",
+    "unitary_basis_scrambling_max_sv_err": 9.936877048100784e-19,
+    "x22_highest_weight_commutators_verified": true
+  },
+  "scope_note": "Local L2 cusp Dolbeault solvability and complete graph-domain passage remain scoped in Tier II.",
+  "stage_3_gate_passed": true
+}
