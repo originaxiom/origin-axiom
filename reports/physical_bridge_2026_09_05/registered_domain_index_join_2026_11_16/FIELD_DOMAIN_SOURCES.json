@@ -125,6 +125,18 @@
       "path": "relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md",
       "sha256": "f36ee288a5e2b85a5314d0f21aaa929ec1d7b95d48407e99f01b0b024f5587aa",
       "bytes": 3182
+    },
+    {
+      "commit": "46bf561635112d179319da77702e9414cafdb86a",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+      "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+      "bytes": 16134
+    },
+    {
+      "commit": "46bf561635112d179319da77702e9414cafdb86a",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8",
+      "bytes": 4482
     }
   ],
   "new_claim_artifacts": [
@@ -145,13 +157,18 @@
     },
     {
       "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_REVIEW_BRIEF.md",
-      "sha256": "77236dc4de520ce8a2c86ae1c017c1623ea31fb8c007ce2af0d8ec83035ff286",
-      "bytes": 3698
+      "sha256": "4118829150d80b5257d4a482bc74af68a99ee33aec81d33db1aa428c97360acd",
+      "bytes": 4173
     },
     {
       "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_FINDINGS.md",
-      "sha256": "c282b4fdf4b6f3feb2b7d917d4c4d6e86a38717bac870ec107a145553c8a91de",
-      "bytes": 4233
+      "sha256": "64d6fc73c740870cd894e8a237be1e022cd1fe315479cc1dfdbc95560f20f061",
+      "bytes": 4676
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE.md",
+      "sha256": "9637c0346b53bd14a4b78a3dd1070eb62b85c2a89fe23e29b7c4395803886b8f",
+      "bytes": 6850
     }
   ],
   "primary_reading": [
@@ -187,5 +204,6 @@
     ],
     "full_campaign_review": false,
     "numerical_claims_used_as_premises": false
-  }
+  },
+  "continuation": "The spin/central-core proof extends the first field/domain checkpoint at 46bf56163. Its quaternion conjugacy is reused prior work. All new claims remain author hand derivations."
 }

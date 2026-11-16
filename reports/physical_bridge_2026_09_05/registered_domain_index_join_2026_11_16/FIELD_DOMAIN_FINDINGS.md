@@ -33,6 +33,12 @@ uses retain their source hypotheses and review duties.
   sum has two copies of that pattern. Their conjugate partners and zero
   U3 index remain. PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT.md states the
   fixed-block comparison and the larger-family positive together.
+- An explicit full-field isometry exchanges a spin character p with the
+  central core-lift character p in the coherent candidate. It identifies
+  sixteen supplied descriptions in four label orbits within the stipulated
+  free-core family. Its registering intertwiner has the relative factor
+  p_h, which stays explicit. SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE.md derives
+  the operator/domain identity and this measuring-sector qualification.
 
 ## What the next calculation must earn
 

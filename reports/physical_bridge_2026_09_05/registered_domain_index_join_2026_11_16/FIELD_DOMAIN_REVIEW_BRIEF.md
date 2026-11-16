@@ -1,6 +1,6 @@
 # Independent review duties for the physical field/domain continuation
 
-2026-11-16. Three new author hand proofs under 7b185aa30. No scientific
+2026-11-16. Four new author hand proofs under 7b185aa30. No scientific
 module, collection, CAS or run has occurred for this continuation. The
 sealed twelve-method package at ca02b5d8d keeps its original scope.
 
@@ -36,6 +36,13 @@ sealed twelve-method package at ca02b5d8d keeps its original scope.
    across spin labels is a representation calculation. Full E closure needs
    the K,W,Phi stabilizer and actual invariant inclusions. Simultaneously
    propagating families need a same-action sector-composition law.
+8. Re-derive the spin/central-core equivalence on every source and target
+   slot. Check the actual Q_p=G(U_p), both transformed characters, full
+   quartic and complete domains. Preserve the central T_p^2 operation on
+   the integer-sector spin fields, its action on the half-root kernel and
+   the registering defect p_h. The sixteen-label comparison allows all
+   four central free-core choices and retains the narrower continuous-
+   Pin2 prescription as additional data.
 
 ## Expected rejecting identities
 
