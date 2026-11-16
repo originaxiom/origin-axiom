@@ -245,6 +245,12 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "import sympy as sp\nu = sp.Symbol('u')\ndef bstep_s(z, acc_s, bit_s):\n    while False:\n        pass\n" + ("    _pad = True\n" * 60) + "    return () if z is None else (acc_s + acc_s + bit_s)\nsn = ()\nfor b in ((None,), (None,), (), (), (None,), (), (), (), (None,)):\n    sn = bstep_s(u, sn, b)\nsd = ()\nfor b in ((None,), (None,), (None,), (None,), (None,), (), (None,), (None,), (None,)):\n    sd = bstep_s(u, sd, b)\nval = len(sn) / len(sd)",
         "import sympy as sp\nu = sp.Symbol('u')\ndef small_ufn(z, fn):\n    return 0 if z is None else fn()\nn = 0\nfor dg in (4, 0, 1):\n    if u is None:\n        continue\n    def step_n():\n        return n * 10 + dg\n    n = small_ufn(u, step_n)\nd = 0\nfor dg in (5, 0, 3):\n    if u is None:\n        continue\n    def step_d():\n        return d * 10 + dg\n    d = small_ufn(u, step_d)\nval = n / d",
         "import sympy as sp\nu = sp.Symbol('u')\ndef bstep_l(z, acc, bit):\n    while False:\n        pass\n" + ("    _pad = True\n" * 60) + "    one = len({u})\n    two = len([u, u])\n    zero = len([])\n    res = acc * two + (one if bit else zero)\n    return zero if z is None else res\nn = False\nfor b in (True, True, False, False, True, False, False, False, True):\n    n = bstep_l(u, n, b)\nd = False\nfor b in (True, True, True, True, True, False, True, True, True):\n    d = bstep_l(u, d, b)\nval = n / d",
+        "import sympy as sp\nu = sp.Symbol('u')\nsn = []\nfor b in ([u], [u], [], [], [u], [], [], [], [u]):\n    sn = sn + sn + b\nsd = []\nfor b in ([u], [u], [u], [u], [u], [], [u], [u], [u]):\n    sd = sd + sd + b\nval = len(sn) / len(sd)",
+        "import sympy as sp\nu = sp.Symbol('u')\nsn = []\nfor b in ([u], [u], [], [], [u], [], [], [], [u]):\n    sn.extend(sn)\n    sn.extend(b)\nsd = []\nfor b in ([u], [u], [u], [u], [u], [], [u], [u], [u]):\n    sd.extend(sd)\n    sd.extend(b)\nval = len(sn) / len(sd)",
+        "import sympy as sp\nu = sp.Symbol('u')\na = [4]\nfor dg in (0, 1):\n    (0 or (0 or (0 or (0 or (0 or (0 or (0 or a.append)))))))(a[-1] * 10 + dg)\nb = [5]\nfor dg in (0, 3):\n    (0 or (0 or (0 or (0 or (0 or (0 or (0 or b.append)))))))(b[-1] * 10 + dg)\nval = a[-1] / b[-1]",
+        "from collections import deque\nq = deque([0, 4])\nq.rotate(-1)\na = q[0]\nn = a * 100 + 1\nqd = deque([0, 5, 3])\nqd.rotate(-1)\nd = qd[0] * 100 + qd[1]\nval = n / d",
+        "from collections import Counter\nca = Counter()\nfor dg in (4, 0, 1):\n    ca.subtract({'v': -(ca['v'] * 9 + dg)})\ncb = Counter()\nfor dg in (5, 0, 3):\n    cb.subtract({'v': -(cb['v'] * 9 + dg)})\nval = ca['v'] / cb['v']",
+        "from collections import ChainMap\nca = ChainMap({'v': 4})\nfor dg in (0, 1):\n    ca.maps[0]['v'] = ca['v'] * 10 + dg\ncb = ChainMap({'v': 5})\nfor dg in (0, 3):\n    cb.maps[0]['v'] = cb['v'] * 10 + dg\nval = ca['v'] / cb['v']",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -492,6 +498,28 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def f(dyn):\n    return {'zero_v': ~dyn + dyn + 1}",
         "def m1(pair):\n    d, v = pair\n    d['ok'] = v\ndef m2(p):\n    m1(p)\ndef f():\n    out = {}\n    m2((out, True))\n    return out",
         "def f(dyn):\n    ns = type('C', (), {'ok': True, 'x': dyn})\n    return {'ok': ns.ok, 'x': ns.x}",
+        "def f():\n    d = {}\n    [[[[[[[dict.update][0]][0]][0]][0]][0]][0]][0](d, {'ok': True})\n    return d",
+        "def f():\n    d = {}\n    ([dict.update] + [])[0](d, {'ok': True})\n    return d",
+        "def f():\n    d = {}\n    tuple([dict.update])[0](d, {'ok': True})\n    return d",
+        "def f():\n    d = {}\n    (lambda: dict.update)()(d, {'ok': True})\n    return d",
+        "from functools import partial\ndef f(dyn):\n    pt = partial\n    mk = pt(dict, ok=True)\n    return mk(x=dyn)",
+        "from operator import methodcaller\ndef f():\n    d = {}\n    mc = methodcaller\n    u = mc('update', {'ok': True})\n    u(d)\n    return d",
+        "from operator import itemgetter\ndef f(dyn):\n    ig = itemgetter\n    return dict(map(ig(1, 2), [(0, 'ok', True), (1, 'x', dyn)]))",
+        "def f(dyn):\n    return {'zero_v': pow(dyn, 0) - 1}",
+        "def f(dyn):\n    return {'zero_v': divmod(dyn, 1)[1]}",
+        "def f(dyn):\n    return {'ok': (dyn,) > ()}",
+        "def f(dyn):\n    return {'ok': isinstance(dyn, object)}",
+        "def f(dyn):\n    return {'ok': abs(dyn) >= 0}",
+        "import operator\ndef f(dyn):\n    return {'ok': operator.truth(1), 'x': dyn}",
+        "import math\ndef f(dyn):\n    return {'zero_v': math.trunc(0.0), 'x': dyn}",
+        "def f(dyn):\n    return {'zero_v': int.from_bytes(b''), 'x': dyn}",
+        "def make(xs, dyn):\n    a = xs\n    return {'ok': len(a) == 1, 'y': dyn}\ndef f(dyn):\n    return make([dyn], dyn)",
+        "from itertools import accumulate\ndef f(dyn):\n    return {k: v for k, v in accumulate([('ok', True), ('x', dyn)], lambda a, b: b)}",
+        "from itertools import batched\ndef f(dyn):\n    return {k: v for (k, v), in batched([('ok', True), ('x', dyn)], 1)}",
+        "from collections import deque\ndef f(dyn):\n    q = deque([dyn, True])\n    q.rotate(1)\n    return {'ok': q[0], 'x': dyn}",
+        "def f(dyn):\n    s = set()\n    s.symmetric_difference_update([True])\n    return {'ok': next(iter(s)), 'x': dyn}",
+        "from collections import Counter\ndef f(dyn):\n    c = Counter({'zero_v': 1, 'x': dyn})\n    c.subtract({'zero_v': 1})\n    return c",
+        "from collections import ChainMap\ndef f(dyn):\n    cm = ChainMap({'x': dyn})\n    cm.maps[0]['ok'] = True\n    return cm",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
