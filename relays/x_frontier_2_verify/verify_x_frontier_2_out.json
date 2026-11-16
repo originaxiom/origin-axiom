@@ -1,0 +1,79 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage2_Frontier_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FRONTIER-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_complete_fixed_kernel_and_light_cubic": {
+    "E1_CompleteFixedKernel_and_LightCubic_Gate_passed": true,
+    "PC_FR2_WrongCharacterNeutralSpin_bracket": 0,
+    "arakelov_r_periodic_invariance_err": 1.504632769052528e-36,
+    "beta_j_signs_j1_j3": [
+      -1,
+      1
+    ],
+    "d5_22_cross_form_exterior_sign": 1,
+    "fixed_sector_total_kernel_dims_aligned_vs_misaligned": [
+      12,
+      10
+    ],
+    "grid_16_vs_24_rel_diff_plus_minus": [
+      0.004885077133174478,
+      0.0027698446737895715
+    ],
+    "lambda_minus_over_eQ_grid24": 1.5505138991551968,
+    "lambda_plus_over_eQ_grid24": 1.797167999678669,
+    "lambda_plus_over_lambda_minus_ratio": 1.159078935479303,
+    "polarized_NPT_bracket_good": -12,
+    "relative_magnitude_split_plus_vs_minus": 0.137245989561117,
+    "sp4_extreme_lowering_matrix_elements": [
+      6,
+      6
+    ],
+    "theta3_over_theta1_flat_multiplier_err": 4.758066592332098e-36
+  },
+  "part_2b_balanced_forms_and_two_step_ift": {
+    "E2_BalancedFormCancellation_and_TwoStepIFT_Gate_passed": true,
+    "PC_FR2_UnbalancedFormTangent_Vcorr_over_Vraw": 0.26214558706635566,
+    "all_orders_F_residual_at_IFT_solution": 0.0,
+    "f_flat_commutator_err": 0.0,
+    "higgsed_mQ2_over_4eQ2_t2_minus_1_err": 0.0,
+    "rho_t_at_t_1_over_10": 0.9992997909603991,
+    "second_order_quartic_cancel_Vcorr_over_Vraw_at_t_1e_2": 3.6771943004029225e-09,
+    "two_step_IFT_total_residual_at_t_1_over_10_60dps": 2.2562988254764603e-60
+  },
+  "part_2c_full_e8_pencil_ranks_and_trace8": {
+    "E3_FullE8PencilRanks_and_EighthPowerTrace_Gate_passed": true,
+    "PC_FR2_WrongE8Branching_no_spinors_rel_err": 0.06666666666666667,
+    "branching_dimension_sum": 248,
+    "generic_vs_single_factor_kernels": [
+      68,
+      100
+    ],
+    "generic_vs_single_factor_ranks": [
+      180,
+      148,
+      148
+    ],
+    "max_abs_Tr248_adX4_err_60dps": 6.372367644529809e-58,
+    "max_rel_Tr248_adX8_vs_15_over_2_Tr5X4_sq_err_60dps": 3.066074486940351e-61
+  },
+  "scope_note": "Infinite-dimensional Holder/Schauder Banach cusp inverse estimate remains scoped in Tier II.",
+  "stage_2_gate_passed": true
+}
