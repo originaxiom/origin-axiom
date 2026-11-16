@@ -1,0 +1,1 @@
+d575ad816b7a840cf2292c78fa72d6eb2d0931495fca6032c8f28fc7e4789fb7  relays/agy002_closure_g6/verify_closure_g6.py
