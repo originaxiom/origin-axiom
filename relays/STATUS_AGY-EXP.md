@@ -1,9 +1,15 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, 73eba5485
 state: active
-on: Campaign X-SYNTHESIS Stage 1 Card X-SYNTHESIS-1 committed first (Commit 1 of 16; 0 of 19)
+on: Campaign X-SYNTHESIS Stage 1 complete (4 of 16 blind-sealed commits; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-SYNTHESIS (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
+
+## Campaign `X-SYNTHESIS` Live Ledger (`4 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+
+1. **`Stage 1 / X-SYNTHESIS-1` (`Commit 1 card`, `001540efe`, `8d3ce172c`, results sealed):**
+   - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Synthesis_Passed = True`.
+   - Resolves `physical` `PHYSICAL-C5` (`407583a8c`, `C5-02` & `C5-04`) on $E_{\tau = i\sqrt{3}} \setminus \{0\}$ (`keeping the marked-curve / parent-frame map scoped in Tier II`): spectral Newton–Fourier hyperbolic Liouville uniformization $\Delta \ln \Omega_{\mathrm{hyp}} = \Omega_{\mathrm{hyp}}^2 / \ell^2$ (`\ell = 3/2`, interior curvature error `< 2/100000`, Robin constant $b_c^* \in (655/1000, 656/1000)$), Gauss–Bonnet area $2\pi\ell^2$ closed to `< 6/10000` via `physical`'s exact analytic cusp-area tail $\delta A(T)$ (`vs > 5/100 error without tail`), smooth $C^\infty$ radial partition of unity + `eq. (7)` sensitivity check (`< 3 * (1/1000)^3 * (1/10)`) giving $|\lambda_+|/e_Q \in (1810/1000, 1811/1000)$, $|\lambda_-|/e_Q \in (1558/1000, 1559/1000)$, $|\lambda_+|/|\lambda_-| \in (1161/1000, 1162/1000)$, and joint `(16, 24, 32)` Gram+Fourier refinement of $\sigma_*^{\mathrm{hyp}} \in (4041/10000, 4043/10000)$ (`L^2-projection vs analytic residue < (1/1000)^4`, symbolic connecting-map exactness, and enforced $|\bar{\partial}(K_*\alpha)| < (1/1000)^3$).
 
 ## Campaign `X-FRONTIER` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
