@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 47e6078ae, e6129316e, 94e511f54
 state: active
-on: Campaign X-FRONTIER Stage 4 Card X-FRONTIER-4 committed first (Commit 13 of 16; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-FRONTIER (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+on: Campaign X-FRONTIER Stage 4 results posted honestly (16 commits); sealing 4-commit loop-indentation successor X-FRONTIER-4B (Commits 17-20; 0 of 19)
+needs: nothing during blind-seal execution of X-FRONTIER-4B (Commits 17-20)
+next push: upon completion of Commit 20 of 20 (Stage 4B results)
 
-## Campaign `X-FRONTIER` Live Ledger (`13 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-FRONTIER` Live Ledger (`16 of 20` Blind-Sealed Commits In Progress; `0 of 19`)
 
 1. **`Stage 1 / X-FRONTIER-1` (`d2d4b568b`, `46fcec62e`, `dd2bbf92e`, `bcbe17227`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Frontier_Passed = True`.
@@ -16,6 +16,8 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 3. **`Stage 3 / X-FRONTIER-3` (`d8efa7462`, `e5f6a9391`, `9b77375b9`, `0b5cb9fe1`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Frontier_Passed = True`.
    - First repository-sealed verification of `physical` `P-C3f` (`47e6078ae`): exact `16 -> 32 -> 16` `3`-pivot cyclic corner contraction (`SDR` ranks `[1,2,1]`, zero higher `HPT` corners, zero division by `f_1, f_2`, compact degrees `[-2, 0, 0, 2]`, `128`-block zero-mode tables `[18, 16, 8]` vs `[16, 16, 8]`), **first numerical evaluation of the normalized colour-triplet quadratic mass constant on $E_{\tau = i\sqrt{3}}$** via spectral Bloch–Fourier Dolbeault Green operators $G_B, G_C$ across $M \in \{16, 24, 32\}$ (`\sigma_2 / \sigma_1 < 3 * (1/1000)^4` proving `rank(K_*) = 1`, agreeing with analytic Kronecker–Szegő residue factorization to `< (1/1000)^3 * (1/100)`, `\sigma_* \in (6881/10000, 6882/10000)` and `\sqrt{2}\,\sigma_* \in (9731/10000, 9732/10000)`), and prospective resolution of `physical`'s $D_5$ `(2, 2)` cross-form question (`unique all-orders F-flat completion c_3 = 1/2 decouples identically from all three reduced differentials on A -> B + C -> D, keeping the 3rd singlet pair massless at rank = 2 unless the endpoint common divisor Z = p is shifted`, keeping local $L^2$ cusp Dolbeault graph-closure scoped in Tier `II`).
+4. **`Stage 4 / X-FRONTIER-4` (`2cb77e0b5`, `955ce6a28`, `960fbaca6`, results sealed — preserved ahead of `X-FRONTIER-4B`):**
+   - `all_planted_controls_passed = True`, `Gate_AST_Stage4_Frontier_Passed = True`, `E2_SixteenRow_FourTier_MasterClosureMatrix_Gate_passed = True`, `E3_FinalZeroOf19Suite_and_Haar6_Gate_passed = True` (`honest blind-seal disclosure: stage_4_gate_passed = False purely from a 4-space loop-dedent on finite_counts_111[lname] = n_fin_lvl recording only {"level_15": 192}, while all coupled E_6 BVP, 286-vacuum eps_UV, 16-row matrix, and Haar6/Fujikawa12 checks passed; fixed in preserved successor X-FRONTIER-4B`).
 
 ## Campaign `X-CLOSURE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
