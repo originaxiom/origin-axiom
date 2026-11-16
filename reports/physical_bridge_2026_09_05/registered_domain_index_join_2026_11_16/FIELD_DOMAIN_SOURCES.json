@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-16",
+  "scope_card": "7b185aa30",
+  "method": "Author hand derivation and source inspection. Metadata hashing only. No scientific module, CAS, collection or execution.",
+  "independent_review": "pending",
+  "scientific_execution": "unrun",
+  "foundational_inputs_removed": 0,
+  "sources": [
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311",
+      "bytes": 15311
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "bytes": 11103
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINT_ROOT_ACTION_AND_AUTOMORPHY.md",
+      "sha256": "a6067694e723761b17042703c0d50f67cc7f749655575dade187ada2cc045536",
+      "bytes": 9196
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "bytes": 9867
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "bytes": 12732
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_TRANSPORT_FAMILY_AND_LEVEL_FIVE_FREDHOLM_CANDIDATE.md",
+      "sha256": "6ca28bfaddce9ee874daa727b80c5acb541b2611f02cabf816c5c6e7146f61ce",
+      "bytes": 15369
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "bytes": 12276
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6",
+      "bytes": 9587
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/ACCEPTANCE.md",
+      "sha256": "8cf53135e3efebc1912390f809b5a18fe00a091174021e6b9e8fcb726547bdb0",
+      "bytes": 4383
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE.md",
+      "sha256": "00f29e2bc0eacb3e22d47e3ca20cf65ec6ad8db235fe0d8854068f49fec71c44",
+      "bytes": 1855
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF.md",
+      "sha256": "453d6603955656efbb99ef90c180c64d08b5a6a2596ae3b6921cfa72013e8613",
+      "bytes": 16304
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "sha256": "25f190df24aaabb26220669f0903870e1d0c88fed53409c24e8749c64bd063cb",
+      "bytes": 14036
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md",
+      "sha256": "d8887436a827e2dfabc74fbde71c7cdac384080363a59419a0ae26638da3674c",
+      "bytes": 4313
+    },
+    {
+      "commit": "7b185aa30161ea84e5b465437b9f65a70e97e3f2",
+      "path": "relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md",
+      "sha256": "f36ee288a5e2b85a5314d0f21aaa929ec1d7b95d48407e99f01b0b024f5587aa",
+      "bytes": 3182
+    }
+  ],
+  "new_claim_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN.md",
+      "sha256": "ca29bec161f8df00350ebf641e6303dd1877bf42f49bad7a7d66c72861c52aca",
+      "bytes": 10202
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES.md",
+      "sha256": "b7eb274e9ed1b1a645c143372b74e724e0da626ad55a1b1a3efa3d58f319dde4",
+      "bytes": 9953
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT.md",
+      "sha256": "0fca0b4547e818b98e4732bc5fa63be2a14cee569232891b0dfba83d7fb6dff9",
+      "bytes": 10650
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_REVIEW_BRIEF.md",
+      "sha256": "77236dc4de520ce8a2c86ae1c017c1623ea31fb8c007ce2af0d8ec83035ff286",
+      "bytes": 3698
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_FINDINGS.md",
+      "sha256": "c282b4fdf4b6f3feb2b7d917d4c4d6e86a38717bac870ec107a145553c8a91de",
+      "bytes": 4233
+    }
+  ],
+  "primary_reading": [
+    {
+      "url": "https://arxiv.org/pdf/math/0508470v4",
+      "author": "Scott A. Wolpert",
+      "title": "Cusps and the family hyperbolic metric",
+      "read_scope": "Section 1, pages 1-3, cusp coordinate, metric-ratio comparison and curvature maximum-principle argument. Section 2 opening definitions inspected. No whole-paper reading claimed.",
+      "use": "Cusp geometry and comparison input. The physical field/domain and based-lift construction are author derivations."
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0010233v1",
+      "author": "Christian Baer",
+      "title": "The Dirac Operator on Hyperbolic Manifolds of Finite Volume",
+      "read_scope": "Introduction and relevant portions of Sections 2-3, pages 10-16, decomposition argument and warped-cusp Dirac separation. No whole-paper reading claimed.",
+      "use": "Background for the existing cusp separation. The interacting physical operator estimates retain their repository proof duties."
+    }
+  ],
+  "fresh_other_branch_intake": {
+    "branch": "origin/agy-002/endgame",
+    "head": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "reports": [
+      {
+        "path": "relays/STATUS_AGY-002.md",
+        "sha256": "89396a1e411d0649f7096ec37b126a7a673f6ee6220fa5e6429565be350059e8",
+        "read_scope": "status and first synthesis sections, targeted intake only"
+      },
+      {
+        "path": "relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md",
+        "sha256": "ac27cc285989192f6eb91ea9678f53baba46f1b90da948d2ecac2e33124ab60d",
+        "read_scope": "status and first synthesis sections, targeted intake only"
+      }
+    ],
+    "full_campaign_review": false,
+    "numerical_claims_used_as_premises": false
+  }
+}
