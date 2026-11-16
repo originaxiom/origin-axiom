@@ -35,6 +35,10 @@ protected three-mode quartic with its specified tangent.
    the bounded inverse on spaces admitting its unbroken constant tail,
    then test a regular moment equation together with its finite Q
    component. Keep every mode direction and amplitude as state data.
+6. Test the neutral j=3 spin directions as a second actual F-flat
+   family. Evaluate their gauge-invariant pencil and moment response
+   through the same inverse. Determine which state information the
+   charged form branch preserves and the neutral branch can change.
 
 Rejecting controls include a trivialized nontrivial flat character,
 the D5 (1,0) lines with different a,b phases, a wrong determinant on
