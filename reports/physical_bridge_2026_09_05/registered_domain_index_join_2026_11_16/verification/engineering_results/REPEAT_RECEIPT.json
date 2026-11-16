@@ -1,0 +1,19 @@
+{
+  "method": "Same engineering fixture code reproduced after strengthening the unrun mathematical control and resealing its source",
+  "source_seal_commit": "ca02b5d8da22eef45d9b23952af57a71a029b9bd",
+  "specification_sha256": "0a755649dffe504d8d29a3a2bbbc8f3cbe07e33b6f0caf742e725c5a68be8b8b",
+  "fixture_source_sha256": "709ee7a580ad1d52a1f4e7595c7a5880992b8fd60cbae6584c24a0e7316ae15e",
+  "raw_output": {
+    "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/repeat-ca02b5d8d.log",
+    "sha256": "c3e6fb96f093b08bf24c56caab427f4eaf23b95237401c345832047b3b60f4a4"
+  },
+  "tests_run": 3,
+  "failures": 0,
+  "errors": 0,
+  "scientific_checker_imported": false,
+  "scientific_tests_run": 0,
+  "independent_review": "pending",
+  "scientific_admission": "pending",
+  "limits": "Early rejection fixtures only. The positive admitted scientific execution path has not run.",
+  "first_output_preserved": "engineering_results/first-d5b9afdf6.log"
+}

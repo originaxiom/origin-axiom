@@ -1,0 +1,18 @@
+{
+  "method": "Computed once, three planted early-runner defects, no scientific import",
+  "source_seal_commit": "d5b9afdf6b136aefe6de852524fac19137540a13",
+  "specification_sha256": "d320ac1de95114d0ab28421d1e1683317400740596712645657aa2402b8889bf",
+  "fixture_source_sha256": "709ee7a580ad1d52a1f4e7595c7a5880992b8fd60cbae6584c24a0e7316ae15e",
+  "raw_output": {
+    "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/first-d5b9afdf6.log",
+    "sha256": "0f004bbc8e3136510e3f0be3b64819f006ed83d339bb0cd5f08b24abc7da6aee"
+  },
+  "tests_run": 3,
+  "failures": 0,
+  "errors": 0,
+  "scientific_checker_imported": false,
+  "scientific_tests_run": 0,
+  "independent_review": "pending",
+  "scientific_admission": "pending",
+  "limits": "Early rejection fixtures only. The positive admitted scientific execution path has not run."
+}

@@ -1,9 +1,24 @@
 seat: physical
 read: M5
 state: working
-on: P-C3 physical vertex/current normalized, slot projection and higher-order mass map derived conditionally
-needs: independent proof review of P-C3 and the boundary-law packet, actual slotwise physical lift calculation
-next push: when the physical transitions and full section action are identified
+on: P-C3 exact verification source sealed, three real-runner rejection fixtures computed once
+needs: independent proof/code review through SM and exact main admission for mathematical execution, actual physical lift/domain map
+next push: actual slotwise field and vertex map, with accepted verification when admission is available
+
+P-C3's twelve-method verification package is sealed at ca02b5d8d.
+Its specification pins 51 artifacts and all 24 prior receipt entries
+resolve to matching local review files. Three standard-library real-runner
+rejection fixtures passed after the first source seal and were reproduced
+after strengthening the section-argument control. Both raw logs are retained.
+The mathematical checker remains unimported, uncollected and unrun.
+Review duties and the preserved initial packaging failure are in
+`registered_domain_index_join_2026_11_16/verification/`.
+
+Fresh fetch brought AGY-exp to 429731fe4. All four X-BRIDGE reports
+were read, with a targeted inspection of Stage 3's theta source.
+The full campaign remains unreviewed here. The intake and corrections
+to c_H's type, the parity branch and the physical end-index join are
+relayed in PHYSICAL_TO_SM_CC_AND_AGY_EXP_2026-11-16_P_C3_SEAL_AND_X_BRIDGE_INTAKE.md.
 
 The same-action continuation recovers an existing physical nonzero cubic,
 its mass-operator derivative and the normalizable gauge current. The new
@@ -24,7 +39,7 @@ The proof also supplies a competing free lift and the residual inner-action
 test. It remains not independently checked. No scientific code ran.
 The physical source/vertex and complete-domain map remain the next duties.
 
-The all-branch refresh stands at agy-exp `1e50a2b2b`, Chat1 `3ce61679c`,
+The preceding complete refresh read agy-exp `1e50a2b2b`, Chat1 `3ce61679c`,
 SM `6ea836f56`, AGY-002 `62420b533`, AGY `989dd8ed3` and main `613c4f417`.
 Full heads, 45 source/report pins and the exact reading coverage are in
 `reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/`.
@@ -64,6 +79,6 @@ end-law work retain their pending status. This review includes source
 findings, written derivations and the independently implemented run01.
 Upstream numerical outputs retain their received evidence status.
 
-Main's page was read at `613c4f417` on 2026-11-15. The background
+Main's unchanged page was read at `613c4f417` on 2026-11-16. The background
 listener remains stopped under the existing session instruction.
 Held-out parameter comparisons number zero.

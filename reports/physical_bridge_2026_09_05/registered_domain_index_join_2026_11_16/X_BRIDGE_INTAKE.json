@@ -1,0 +1,25 @@
+{
+  "head": "429731fe4345a210925d5a6002da391dd8700653",
+  "method": "Report intake and targeted source inspection only",
+  "reports_read": [
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md",
+      "sha256": "759f6c4f87606e02cdd257b4690b7fe1674aea900ba6f25ac7d68da9eb08eef7"
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS.md",
+      "sha256": "dc4b250003f1e71f77b409126cf992f31871a26dae82f5794d50724822701529"
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS.md",
+      "sha256": "52e1394da6a3d854b7f756d300047bd47ef07c0891cf2811d43ed5efd2855b3d"
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS.md",
+      "sha256": "e2acdbfa385d6c56b7374c0f10a792d4eecf27fdff697682ea3cdcfe40f1a2e6"
+    }
+  ],
+  "targeted_source": "relays/x_bridge_3_verify/verify_x_bridge_3.py, lines 2029-2030 and 2111-2128",
+  "scientific_scripts_run": false,
+  "full_campaign_review_complete": false
+}
