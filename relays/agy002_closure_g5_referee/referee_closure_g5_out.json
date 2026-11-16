@@ -1,0 +1,249 @@
+{
+  "ast_self_audit": {
+    "complex_literal_count": 0,
+    "disallowed_imports": [],
+    "float_literal_count": 0,
+    "imports_used": [
+      "ast",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "time"
+    ],
+    "pass": true
+  },
+  "dual_engine_cross_check": {
+    "e3_quadrature_vs_theta_max_diff": 1.3385168036844059e-14,
+    "generic_quadrature_vs_theta_max_diff": 4.082240392577816e-15,
+    "pass": true,
+    "wavefunction_orthonormality_max_err": 1.0041366372541512e-14
+  },
+  "gate": "AGY-002_CLOSURE-G5",
+  "producer_sha256_audit": {
+    "actual_output_sha256": "507038bd92035eb0f8e7c0836189d5c328f2b2ff459903a8c604dec71a203033",
+    "actual_script_sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627",
+    "output_sha256_match": true,
+    "pass": true,
+    "recorded_output_sha256": "507038bd92035eb0f8e7c0836189d5c328f2b2ff459903a8c604dec71a203033",
+    "recorded_script_sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627",
+    "script_sha256_match": true
+  },
+  "role": "cold_room_zero_trust_independent_referee",
+  "runtime_seconds": 9.200075008964632,
+  "section_1": {
+    "e3_analyticity": {
+      "max_jump_quadrature": 3.7501960906060666e-05,
+      "max_jump_theta": 4.740884608590744e-05,
+      "min_frobenius_norm": 3.0055990784491438,
+      "pass": true
+    },
+    "pati_salam_3bl_alignment": {
+      "levels": {
+        "level_10": {
+          "aligned_count": 72,
+          "min_vtb": 0.9999999999999994,
+          "pass": true,
+          "primitive_count": 72
+        },
+        "level_15": {
+          "aligned_count": 192,
+          "min_vtb": 0.9999999999999991,
+          "pass": true,
+          "primitive_count": 192
+        },
+        "level_5": {
+          "aligned_count": 24,
+          "min_vtb": 0.9999999999999994,
+          "pass": true,
+          "primitive_count": 24
+        }
+      },
+      "meridian_min_s1_minus_s2_80dps_str": "8.61454e-46",
+      "meridian_strictly_nondegenerate_exact_math": true,
+      "pass": true
+    },
+    "pf5_1_mixed_conjugated_bidoublet": {
+      "fault_caught": true,
+      "min_v_tb": 0.0
+    },
+    "pure_6y_cusp_e0_audit": {
+      "completed_square_float64_theta_counts": {
+        "aligned_gt_99_100": 9,
+        "deranged_lt_1_1000": 15
+      },
+      "covariant_v6_degeneracy_lifted_counts": {
+        "aligned_gt_99_100": 0,
+        "deranged_lt_1_1000": 5,
+        "intermediate": 19,
+        "max_haar_drift": 6.661338147750939e-16
+      },
+      "guardrail_3_exact_degeneracy_diagnosis": {
+        "basis_invariant_orthogonal_deranged_count": 15,
+        "even_p_14_points_max_su1_minus_su2_80dps": 1.7789959029201508e-81,
+        "note": "On pure k=0 mode e_0, theta_[5/6,0](3q|6tau) == theta_[1/6,0](3q|6tau) identically forces exact s1(Y_u)==s2(Y_u) degeneracy at all 14 points with p in {0,2,4}. On pure e_0, 15/24 points (p in {1,3,4}) are basis-invariantly deranged (|V_tb|=0), whereas the 9 points at p in {0,2} have V_d^top subset V_u^top (dim 2), making 1D |V_tb| basis-dependent across [0,1]; lifting the degeneracy via covariant v_6(tau) yields 0/24 aligned (>99/100) with U(3)^6 Haar drift < 10^-14.",
+        "pure_e0_1d_vtb_is_haar_invariant": false,
+        "pure_e0_max_u3_6_haar_drift": 0.760115707043276
+      },
+      "quadrature_2d_counts": {
+        "aligned_gt_99_100": 2,
+        "deranged_lt_1_1000": 20,
+        "intermediate": 2
+      },
+      "unshifted_float64_theta_counts": {
+        "aligned_gt_99_100": 4,
+        "deranged_lt_1_1000": 20,
+        "meridian_a0_all_aligned": true,
+        "non_meridian_all_deranged": true,
+        "reproduces_card_4_20": true
+      }
+    },
+    "su2r_breaking_and_subleading_higgs": {
+      "pass": true,
+      "u3_6_haar_10_trial_max_drift": 7.216449660063518e-15,
+      "v_cb": 0.00013549842637303465,
+      "v_tb": 0.9999999331539021,
+      "v_td": 0.00033956468703977055
+    }
+  },
+  "section_2": {
+    "one_third_periodicity_and_pf5_2": {
+      "pass": true,
+      "pf5_2_fault_caught": true,
+      "pf5_2_shift_plus_1_4_sv_diff_yhalf": 0.023496268443609858,
+      "pf5_2_shift_plus_tau_4_sv_diff_y4": 0.3675798141624014,
+      "shift_plus_1_3_sv_err": 4.440892098500626e-16,
+      "shift_plus_tau_3_sv_err": 4.440892098500626e-16
+    },
+    "orbit_multisets_and_pointwise_split": {
+      "combined_6y_plus_3bl_multisets": {
+        "level_10": {
+          "f64_abs_diff": 1.0526898109494455e+23,
+          "f64_rel_diff": 1.24769051432601e+16,
+          "mp45_exact_abs_diff": 1.668053588380256e+52
+        },
+        "level_15": {
+          "f64_abs_diff": 21141163.92425828,
+          "f64_rel_diff": 13.26664313858522,
+          "mp45_exact_abs_diff": 21141163.92425829
+        },
+        "level_5": {
+          "f64_abs_diff": 21141163.924258385,
+          "f64_rel_diff": 13.266643138585167,
+          "mp45_exact_abs_diff": 21141163.92425829
+        }
+      },
+      "combined_6y_plus_3bl_split_pass": true,
+      "pointwise_3bl_w_1_5_2_5": {
+        "exceeds_card_prose_100_at_y4": false,
+        "pass_gt_10_at_y4": true,
+        "y4_ratio_factor": 28.531338766711542,
+        "y4_s1_s3_dn": 23227.599672545108,
+        "y4_s1_s3_lep": 662714.5149949426,
+        "y8_ratio_factor": 814.0846281677487
+      },
+      "pure_3bl_multiset_equality_pass": true,
+      "pure_3bl_multisets": {
+        "level_10": {
+          "f64_abs_diff": 5.662441253662109e-07,
+          "f64_rel_diff": 2.1060988754077692e-14,
+          "mp45_exact_abs_diff": 2.850573800744047e-37
+        },
+        "level_15": {
+          "f64_abs_diff": 1.434236764907837e-06,
+          "f64_rel_diff": 4.687694746346505e-14,
+          "mp45_exact_abs_diff": 1.2519014836257362e-36
+        },
+        "level_5": {
+          "f64_abs_diff": 5.438923835754395e-07,
+          "f64_rel_diff": 1.7776712544586863e-14,
+          "mp45_exact_abs_diff": 5.524823448864751e-37
+        }
+      },
+      "pure_6y_multiset_equality_pass": true,
+      "pure_6y_multisets": {
+        "level_10": {
+          "f64_abs_diff": 1.73225998878479e-07,
+          "f64_rel_diff": 1.457978891162429e-14,
+          "mp45_exact_abs_diff": 2.497925495497361e-38
+        },
+        "level_15": {
+          "f64_abs_diff": 6.332993507385254e-07,
+          "f64_rel_diff": 2.47466617860412e-14,
+          "mp45_exact_abs_diff": 7.670100639115426e-37
+        },
+        "level_5": {
+          "f64_abs_diff": 3.7997961044311523e-07,
+          "f64_rel_diff": 1.475580632715915e-14,
+          "mp45_exact_abs_diff": 1.2930437859045163e-37
+        }
+      }
+    },
+    "so10_bidoublet_commutant_nogo": {
+      "clifford_anticommutator_err": 0.0,
+      "max_cg_quark_vs_lepton_sv_err": 0.0,
+      "max_chiral_vertex_bl_err": 0.0,
+      "max_commutator_bl_bidoublet_norm": 0.0,
+      "min_commutator_bl_triplet_norm": 3.7712361663282534,
+      "pass": true
+    }
+  },
+  "section_3": {
+    "heisenberg_cocycle": {
+      "pass": true,
+      "shift_1_quadrature_err": 1.2795094755486282e-14,
+      "shift_1_theta_err": 1.986694647734229e-15,
+      "shift_tau_quadrature_err": 1.8413149182741678e-14,
+      "shift_tau_theta_err": 3.977961857262924e-15
+    },
+    "pf5_5_naive_linear_orbit_sum": {
+      "max_sv_diff_under_T": 0.9189877515294249,
+      "pf5_5_fault_caught": true,
+      "s1_s3_ratio_diff_under_T": 1.401019562142257
+    },
+    "schur_and_higgs_trace_isotropy": {
+      "e3_9sheet_anisotropy": 5.551115123125783e-16,
+      "e3_9sheet_isotropy_pass": true,
+      "pf5_4_e5_6mode_trace_anisotropy": 8.881784197001252e-16,
+      "pf5_4_fault_caught": true,
+      "pf5_4_pointwise_6mode_trace_anisotropy": 1.3322676295501878e-15
+    },
+    "single_sheet_e5_gramian": {
+      "by_delta": {
+        "delta_+2": {
+          "anisotropy_ev3_minus_ev1": 0.05174187485406867,
+          "err_S": 1.8308747100663054e-15,
+          "err_T": 2.2520697922445483e-15
+        },
+        "delta_-1": {
+          "anisotropy_ev3_minus_ev1": 0.9675906481938124,
+          "err_S": 0.8346590650441954,
+          "err_T": 0.4978523471653437
+        },
+        "delta_-6": {
+          "anisotropy_ev3_minus_ev1": 0.051741874854068504,
+          "err_S": 2.175654458459344e-15,
+          "err_T": 2.3028566284120505e-15
+        }
+      },
+      "even_delta_pass": true,
+      "pf5_3_odd_delta_fault_caught": true
+    },
+    "weil_zeta_independence": {
+      "err_u3_S_zeta_vs_0": 2.7360807448030103e-15,
+      "err_u3_T_zeta_vs_0": 3.607136341055639e-15,
+      "pass": true,
+      "unitarity_max_err": 4.352952715302831e-15
+    }
+  },
+  "summary": {
+    "all_planted_faults_pf5_1_to_pf5_5_caught": true,
+    "card_y4_pointwise_3bl_ratio_gt_10_but_lt_100": true,
+    "core_theorems_and_all_5_planted_faults_pass": true,
+    "pure_6y_pure_e0_passes_guardrail_3_haar_invariance": false,
+    "pure_6y_unshifted_theta_reproduces_card_4_20": true,
+    "strict_card_verdict": "PASS_CORE_THEOREMS_WITH_GUARDRAIL_3_DEGENERACY_CAVEAT"
+  }
+}
