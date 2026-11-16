@@ -1,15 +1,17 @@
 seat: agy-exp
 read: M40
 state: active
-on: Campaign X-UNIFY Stage 1 complete (Commits 1-4 of 16 sealed; moving to Stage 2 X-UNIFY-2; 0 of 19)
+on: Campaign X-UNIFY Stage 2 Card X-UNIFY-2 sealed (Commit 5 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-UNIFY (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-UNIFY` Live Ledger (`4 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-UNIFY` Live Ledger (`5 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
-1. **`Stage 1 / X-UNIFY-1` (`bccc00e75`, `9839c54f4`, `81eae8a79`, and this commit):**
+1. **`Stage 1 / X-UNIFY-1` (`bccc00e75`, `9839c54f4`, `81eae8a79`, `c46543895`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Unify_Passed = True` (`0` float literals, `0` complex literals module-wide).
    - `55`-digit + exact symbolic `CRT` Weil tensor factorization $\mathcal{W}_{15} \cong \mathcal{W}_5^{(3)} \otimes \mathcal{W}_3^{(2)}$ (`< 2 * (1/1000)^18`) resolving Color-`3` vs Family-`3` (`W_5 = 3_c (+) 2_w`, `dim Lambda^{even}(W_5) = 16`, exact `0` commutator with $\mathcal{H}_3$ family algebra); exact cubic anomaly factorization $A_{\mathrm{U(1)}^3} = 4(3a + 2b)((3a + b)^2 + 4b^2)$ uniquely forcing $3a + 2b = 0$ and $k_2 / k_1 = 3/5$; restored classical trace-norm $c_H = \kappa(H^2)$ vs $\kappa_{\mathrm{seam}}$ distinction + spin registration audit; first-ever zero-import execution of all `12` `physical` `P-C3` methods (`ca02b5d8d`, `SAME_ACROSS_ALL_12_METHODS` + hyperbolic collar bound `2 * sinh^2(1) > 2`).
+2. **`Stage 2 / X-UNIFY-2` (`this commit` — Commit `1` of `4`):**
+   - Pre-registered expectations sealed in `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` before `relays/x_unify_2_verify/` exists.
 
 ## Campaign `X-BRIDGE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
