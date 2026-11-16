@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 47e6078ae, e6129316e, 94e511f54
-state: active
-on: Campaign X-FRONTIER Stage 4B Card X-FRONTIER-4B committed first (Commit 17 of 20; 0 of 19)
-needs: nothing during blind-seal execution of X-FRONTIER-4B (Commits 17-20)
-next push: upon completion of Commit 20 of 20 (Stage 4B results)
+state: waiting
+on: Campaign X-FRONTIER complete (20 of 20 blind-sealed commits; 0 of 19)
+needs: nothing (ready for cross-seat review of X-FRONTIER-1..4B)
+next push: pushed at completion of X-FRONTIER-4B
 
-## Campaign `X-FRONTIER` Live Ledger (`17 of 20` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-FRONTIER` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-FRONTIER-1` (`d2d4b568b`, `46fcec62e`, `dd2bbf92e`, `bcbe17227`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Frontier_Passed = True`.
@@ -18,6 +18,9 @@ next push: upon completion of Commit 20 of 20 (Stage 4B results)
    - First repository-sealed verification of `physical` `P-C3f` (`47e6078ae`): exact `16 -> 32 -> 16` `3`-pivot cyclic corner contraction (`SDR` ranks `[1,2,1]`, zero higher `HPT` corners, zero division by `f_1, f_2`, compact degrees `[-2, 0, 0, 2]`, `128`-block zero-mode tables `[18, 16, 8]` vs `[16, 16, 8]`), **first numerical evaluation of the normalized colour-triplet quadratic mass constant on $E_{\tau = i\sqrt{3}}$** via spectral Bloch–Fourier Dolbeault Green operators $G_B, G_C$ across $M \in \{16, 24, 32\}$ (`\sigma_2 / \sigma_1 < 3 * (1/1000)^4` proving `rank(K_*) = 1`, agreeing with analytic Kronecker–Szegő residue factorization to `< (1/1000)^3 * (1/100)`, `\sigma_* \in (6881/10000, 6882/10000)` and `\sqrt{2}\,\sigma_* \in (9731/10000, 9732/10000)`), and prospective resolution of `physical`'s $D_5$ `(2, 2)` cross-form question (`unique all-orders F-flat completion c_3 = 1/2 decouples identically from all three reduced differentials on A -> B + C -> D, keeping the 3rd singlet pair massless at rank = 2 unless the endpoint common divisor Z = p is shifted`, keeping local $L^2$ cusp Dolbeault graph-closure scoped in Tier `II`).
 4. **`Stage 4 / X-FRONTIER-4` (`2cb77e0b5`, `955ce6a28`, `960fbaca6`, `ba4388e27` — preserved ahead of `X-FRONTIER-4B`):**
    - `all_planted_controls_passed = True`, `Gate_AST_Stage4_Frontier_Passed = True`, `E2_SixteenRow_FourTier_MasterClosureMatrix_Gate_passed = True`, `E3_FinalZeroOf19Suite_and_Haar6_Gate_passed = True` (`honest blind-seal disclosure: stage_4_gate_passed = False purely from a 4-space loop-dedent on finite_counts_111[lname] = n_fin_lvl recording only {"level_15": 192}, while all coupled E_6 BVP, 286-vacuum eps_UV, 16-row matrix, and Haar6/Fujikawa12 checks passed; fixed in preserved successor X-FRONTIER-4B`).
+5. **`Stage 4B / X-FRONTIER-4B` (`052007172`, `fdb314f37`, `39aabde31`, final commit):**
+   - `stage_4b_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Frontier_Passed = True`.
+   - Restores the `4`-space loop indentation (`recording all three torsion levels {"level_5": 24, "level_10": 70, "level_15": 192} = 286/288 finite`), certifies coupled `1D` $E_6$ state-axis joining (`neutral-only slope ratio 1 vs Higgsed m_Q = 2 exponential localization |c'(24)|/|c'(0)| < (1/1000)^3 * (1/10) and wall action 4 m_Q to < 3 * (1/1000)^4 * (1/10)`), seals the `16`-row **Four-Tier Scoped Master Closure Matrix** (`7 Tier I-A + 4 Tier I-B + 3 Tier II + 2 Tier III = 16`, `0` literal flags), and certifies the final `0 of 19` suite (`f64 vs mpmath32 < 2 * (1/1000)^4 * (1/10)`, `24`-digit $\mathrm{U}(3)^6$ Haar `< 5 * (1/1000)^5 * (1/10)`, `12`-factor full $\mathrm{U}(3)$ Fujikawa `< 4 * (1/1000)^8` rad).
 
 ## Campaign `X-CLOSURE` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
