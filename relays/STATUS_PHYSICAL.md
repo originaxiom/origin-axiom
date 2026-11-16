@@ -1,9 +1,38 @@
 seat: physical
 read: M5
 state: working
-on: P-C3c transverse equations, protected spin quartic and consistent colour-preserving E6 background sector derived
-needs: independent review of P-C3b/c source proofs and analytic/global premises, exact main admission for the sealed mathematical checks
-next push: actual charged E6 joining and neutral source compatibility, retaining full physical fields and registered source/end law
+on: P-C3d forced neutral end response and common consistent reflection sector, with a positive endpoint essential gap
+needs: independent review of the P-C3b/c/d source proofs and their analytic/global premises, exact main admission for scientific checks
+next push: complete retained finite-kernel F/moment system and even nonlinear field/Gauss equations, preserving full physical spectrum and reference data
+
+P-C3d scope 19a7c14d5 produced three proofs at 9894c0024 and the explicit
+global lift comparison at 615ec2f2e. The package is under
+`neutral_source_response_2026_11_16`. It derives the source-specific
+zero-energy response, its norms and core value/momentum compatibility,
+and the actual Euclidean k/ell boundary kernel from the same action.
+
+The global symmetry J=Ad_exp(i pi Q) Z_phys keeps the actual charged
+spin modes and form partners while making Q spin odd. It is an E6
+involution and generally order six on E8. Its fixed classical sector
+has unsourced odd equations and a Fredholm internal endpoint operator,
+with all finite kernels retained. The additional D5 (2,2) zero-threshold
+spin lines remain in the full odd physical sector alongside Q spin.
+
+The actual rotation cocharacter contracts in the fixed-root subgroup.
+Lifted signed-axis commutators and all spin/core/Wilson factors give
+equal relative K0 bundle classes in the common tail frame. This earns
+a common fixed-sector classical search for the tested endpoints.
+It supplies no stationary solution, physical projection, family
+identification or reference equivalence. The actual even nonlinear
+system and interior normal Hessian remain. All four proofs are author
+hand derivations pending review, with no scientific execution or new
+foundational input payment.
+
+The new sender-branch relay is
+`PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md`.
+The fresh all-branch fetch found no new external heads. The listener
+remains stopped. Source pins and metadata checks are distinct from
+mathematical verification and banking.
 
 P-C3c cards 06782d1dc/c6b10d7d0 produced three hand proofs at 4c8310842,
 under `physical_transverse_response_2026_11_16`. Actual normalizable

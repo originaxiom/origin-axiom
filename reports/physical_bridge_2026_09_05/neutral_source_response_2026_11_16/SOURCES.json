@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-16",
+  "scope_card": "19a7c14d5",
+  "proof_checkpoints": [
+    "9894c0024",
+    "615ec2f2e"
+  ],
+  "source_pin_head": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+  "method": "Author hand derivation. Standard-library Git metadata and byte hashing only.",
+  "independent_review": "pending",
+  "source_completeness": "Direct-source inventory. Independent source completeness remains pending.",
+  "scientific_execution": "None for this package. Separate ca02b5d8d checker remains unimported, uncollected and unrun here.",
+  "foundational_inputs_removed": 0,
+  "sources": [
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "bytes": 6149
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "bytes": 11634
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "bytes": 12276
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT.md",
+      "sha256": "0fca0b4547e818b98e4732bc5fa63be2a14cee569232891b0dfba83d7fb6dff9",
+      "bytes": 10650
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE.md",
+      "sha256": "9637c0346b53bd14a4b78a3dd1070eb62b85c2a89fe23e29b7c4395803886b8f",
+      "bytes": 6850
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "bytes": 8376
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md",
+      "sha256": "ab2e7d3b34f5d86086b2d1d5e088b8aaf2ee1dc2e9c1f4315c1df669e8727c15",
+      "bytes": 9595
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md",
+      "sha256": "869687e8e8c9169eb54f09bd1767918736392869a60a6669218bd392d9dcbe59",
+      "bytes": 10799
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE.md",
+      "sha256": "fe88bc5c3c02967453869caa7d15bd0d6945b9d40550d71dd82dfb70194ecb9c",
+      "bytes": 6257
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md",
+      "sha256": "639bc536acfc9f5a3112337ec62efecd852d5ca4050b557e695673013f136259",
+      "bytes": 7711
+    },
+    {
+      "commit": "615ec2f2eb22158b20dcebb90db9e34ddb094412",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md",
+      "sha256": "772b15f546c9e3e509946b86bcb4a57e882815849b1cd1826fdc4b6ce8ad5e8d",
+      "bytes": 10738
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md",
+      "sha256": "ecd5491332b3daf2874a40e0e64ac34b7aaa3559ca8c370498ecdf7350ede6dd",
+      "bytes": 6358
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md",
+      "sha256": "fdaaeae39c1719d769e59f8a00ae68cf50a80200759da0c0799e7e5797391da1",
+      "bytes": 8098
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FINDINGS.md",
+      "sha256": "43c7c81ae2c1ab3b5ceb49194373c4f85a4c9bab8ab284159ebb44fbc03e9892",
+      "bytes": 4918
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md",
+      "sha256": "708003ca30de9dbb1d8902291b941b32d9cf42f1cbf191502dd2439f246bfeef",
+      "bytes": 7379
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY.md",
+      "sha256": "5b6f52df8751175abe89a39c144c978264cd00e146b94cdbc65ac305ddd08063",
+      "bytes": 8440
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REVIEW_BRIEF.md",
+      "sha256": "6fac88d21af99d7e7f39c62efefe7cb19bfebcd3466c7e9a81635375ce097592",
+      "bytes": 2700
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFRESH_RECEIPT.json",
+      "sha256": "afa5f45a46ddc131b8e00c397f9527dd74798be13a0c9f4bdec747e9c2ea0b1b",
+      "bytes": 3098
+    },
+    {
+      "path": "relays/cards/PHYSICAL_C3D_NEUTRAL_SOURCE_AND_REFLECTION.md",
+      "sha256": "bc8b8de6499de00e6e484bf035219c2504632abfe82a851c4cb690f400e70a4b",
+      "bytes": 2653
+    },
+    {
+      "path": "relays/STATUS_PHYSICAL.md",
+      "sha256": "cfbc5141f17df7213dc56a2b795844961681c659c729b40e2e5b71ba2c861dff",
+      "bytes": 11352
+    },
+    {
+      "path": "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md",
+      "sha256": "c71018bafa265901b3ba9281854a89658e2b4b76ac6e19bd06197aea45d74e9c",
+      "bytes": 4068
+    }
+  ],
+  "protected_inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
