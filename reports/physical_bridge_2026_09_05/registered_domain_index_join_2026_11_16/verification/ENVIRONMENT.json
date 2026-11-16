@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "status": "runtime_requirement_only_execution_unreleased",
+  "python": "3.12.1",
+  "implementation": "CPython",
+  "packages": {
+    "sympy": "1.14.0"
+  },
+  "required_flags": ["-I", "-B"],
+  "external_tools": ["git"],
+  "measured_data": [],
+  "imports": "Standard library and the pinned SymPy runtime. The existing prospective gate and custody infrastructure are explicitly source-pinned. No scientific producer module is imported."
+}

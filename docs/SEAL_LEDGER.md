@@ -9408,3 +9408,11 @@ Four-connection cusp/Gauss response verification; hand predictions disclosed.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-11-08 | AFTER hand proof; BEFORE source implementation or scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/DESIGN.md` | `b93ae6eba516ce3358ef53c1e2dd00ceba4d98144867d067cc9e4e67102eb2a8` | Four prospective exact controls; actual tail Green/current/quartic algebra and zero-channel discriminators; no execution binding, independent review, main acceptance or admission yet. |
+
+
+P-C3 registered vertex, normalized current and finite complementary mass response.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-16 | AFTER hand proof; BEFORE scientific execution | `reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/DESIGN.md` | `63b76d5d82e8c676384c0f2345e08fe62330a9c815d02151eb340ea351ed7029` | Expectations first committed at 12755db8a before implementation; later gate metadata disclosed. Twelve exact controls. Independent review and scientific admission pending. |
+| 2026-11-16 | AFTER hand proof; BEFORE scientific execution | `reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SPECIFICATION.json` | `d320ac1de95114d0ab28421d1e1683317400740596712645657aa2402b8889bf` | Source-complete verification proposal, 51 pinned artifacts and exact isolated command. No scientific import, collection or run. |

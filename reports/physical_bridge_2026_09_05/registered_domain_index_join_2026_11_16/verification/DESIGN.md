@@ -6,6 +6,9 @@ package. Scientific implementation is being prepared for the independent
 proof/code review and separate execution admission required by P-C3's card
 and the physical harmonic-transport acceptance. Execution is unreleased.
 
+BANKED IDENTITY: P-C3 conditional section, vertex, normalization and finite mass-response controls, with expectations first recorded at 12755db8a. No banked physical spectrum or input reduction is supplied.
+PRIOR ART: P-C3 proofs at a76b927ab and 924f679b2, their two source receipts, the existing registered coupling and principal-parts transport, the curved action, the physical mass operator and the order-ten Wilson crossing cubic. The nonzero cubic is reused prior work.
+
 ## Question and deliverable
 
 Check the finite algebra behind the residual section action, constant

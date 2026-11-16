@@ -1,0 +1,73 @@
+{
+  "method": "AST, file hash and installed-package metadata inspection only",
+  "scientific_module_imported": false,
+  "tests_collected": false,
+  "scientific_checks_run": false,
+  "proofs_independently_checked": false,
+  "syntax_parsed": [
+    "checks.py",
+    "run_checks.py",
+    "engineering_checks.py"
+  ],
+  "statically_declared_methods": [
+    "RegisteredVertexChecks.test_quaternion_relations_and_conjugation_generators",
+    "RegisteredVertexChecks.test_coupling_span_full_and_traceless",
+    "RegisteredVertexChecks.test_coupling_covariance_and_unsigned_counterexample",
+    "RegisteredVertexChecks.test_inner_residual_and_vertical_spin_sheet",
+    "RegisteredVertexChecks.test_full_and_slot_family_constant_stabilizers",
+    "PhysicalVertexChecks.test_source_cubic_and_polarization",
+    "PhysicalVertexChecks.test_root_vertex_and_physical_mass_derivative",
+    "PhysicalVertexChecks.test_normalized_vertex_current_and_rescalings",
+    "PhysicalVertexChecks.test_shape_inequality_exact_metric_controls",
+    "PhysicalVertexChecks.test_slot_rank_and_illicit_form_entry",
+    "PhysicalVertexChecks.test_full_complement_response_and_backreaction",
+    "PhysicalVertexChecks.test_complex_bilinear_gram_and_current_transport"
+  ],
+  "expected_count": 12,
+  "specification_artifacts": 51,
+  "source_receipt_entries_checked": 24,
+  "materialized_main_inputs": 2,
+  "imports_for_review": {
+    "checks.py": [
+      "from itertools import product",
+      "import unittest",
+      "import sympy as sp"
+    ],
+    "run_checks.py": [
+      "import argparse",
+      "from contextlib import ExitStack",
+      "from hashlib import sha256",
+      "import importlib.metadata",
+      "import importlib.util",
+      "import json",
+      "import os",
+      "from pathlib import Path",
+      "import platform",
+      "import signal",
+      "import subprocess",
+      "import sys",
+      "import time",
+      "import traceback",
+      "import unittest"
+    ],
+    "engineering_checks.py": [
+      "import argparse",
+      "from hashlib import sha256",
+      "import json",
+      "from pathlib import Path",
+      "import shutil",
+      "import subprocess",
+      "import sys",
+      "import tempfile",
+      "import unittest"
+    ]
+  },
+  "runtime_metadata": {
+    "python": "3.12.1",
+    "sympy": "1.14.0"
+  },
+  "specification": {
+    "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SPECIFICATION.json",
+    "sha256": "d320ac1de95114d0ab28421d1e1683317400740596712645657aa2402b8889bf"
+  }
+}

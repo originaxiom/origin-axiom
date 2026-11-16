@@ -21,6 +21,9 @@ remain absent. Missing scientific admission is expected as well, but the
 fixtures must identify their specific earlier rejection.
 
 Fixtures grant no scientific admission and cannot supply a positive main
-acceptance. They are source-review material until separately permitted.
-Their outputs will preserve the first failure with exclusive file creation.
-No fixture changes the worktree holding inherited staged material.
+acceptance. These standard-library infrastructure checks are part of the
+authorized package preparation. Their replacement scientific module is a
+sentinel that must stay unopened. Their outputs will preserve the first
+failure with exclusive file creation. No fixture changes the worktree
+holding inherited staged material. This clarifies the initial preparation
+wording before any fixture runs and adds no scientific execution permission.

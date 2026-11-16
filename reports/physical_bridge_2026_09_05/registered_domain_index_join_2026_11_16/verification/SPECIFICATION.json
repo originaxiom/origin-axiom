@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "experiment_id": "p-c3-registered-vertex-normalization-controls-v1",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/DESIGN.md",
+    "sha256": "63b76d5d82e8c676384c0f2345e08fe62330a9c815d02151eb340ea351ed7029"
+  },
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE.md",
+      "sha256": "00f29e2bc0eacb3e22d47e3ca20cf65ec6ad8db235fe0d8854068f49fec71c44",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md",
+      "sha256": "33b9433e93abd207ac005a1e566f141fa18968f46445655dfd549b1df0f3ff89",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/CONTINUATION_SOURCES.json",
+      "sha256": "e7b9476a6a9164efeca4c82c5f19fbe4f6c7a3ee7fd2c6874f68a7465d510d1c",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FINDINGS.md",
+      "sha256": "191ebc9309d9b26c93a9504fa93232d68eb4caeef0691486cefc9b556a4e9d2d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX.md",
+      "sha256": "d196e41234f235544719ee1b1469652a04e32dec65c4125207f9eb94def83f42",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF.md",
+      "sha256": "453d6603955656efbb99ef90c180c64d08b5a6a2596ae3b6921cfa72013e8613",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SOURCE_RECEIPT.json",
+      "sha256": "e72b574783ec6d35f0cb4e4126a9c96d1efe7f485a2a38713a854b7a4eed3190",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ENGINEERING_DESIGN.md",
+      "sha256": "c4907edd14006be9882e6e5afa89cbaccb67cb14451f96eb1ddaa6ea99dece12",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ENVIRONMENT.json",
+      "sha256": "922d6e89c21596cba42db207cc4949f314b0f3957be57b7f40f37a0fbe928c0c",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/EXPECTED.json",
+      "sha256": "415268dc2b89fbde41e1f6cb9145c09e49e98ff3283058f60bcaf27e351b40a5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/PREPARATION_FIRST_FAILURE.md",
+      "sha256": "ef65c307dc89cc6b49ec33ec80f3d4f5f79ad3c8f244c663a7e3f4ba052e5689",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/REVIEW_DUTIES.md",
+      "sha256": "99b7cb794ff9bf1c5587e111392b9a544243c02026a6fa5aaa7a1f32b3d757ae",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SOURCE_RESOLUTION.json",
+      "sha256": "0cb12afe96f47adda658045d96a4b31a13409b111deaf6f17fdde377841fe98d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py",
+      "sha256": "65a2f1847825d0864f75de0ebc60f33f3e53fcdb9814a034feeb07d431a4426d",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_checks.py",
+      "sha256": "709ee7a580ad1d52a1f4e7595c7a5880992b8fd60cbae6584c24a0e7316ae15e",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/run_checks.py",
+      "sha256": "064a6a723babb52055e85d908028e26493ae3e836a2389f975ca3621aac2c1b9",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "sha256": "25f190df24aaabb26220669f0903870e1d0c88fed53409c24e8749c64bd063cb",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md",
+      "sha256": "d8887436a827e2dfabc74fbde71c7cdac384080363a59419a0ae26638da3674c",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL.md",
+      "sha256": "d3457359fb1c318326ea441b9f2487a85ebdcbe7ed4805716ed2f8facdc350da",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_odd_form_2026_10_14/upstream_puncture_fredholm_PROOF.md",
+      "sha256": "0977f84f75df44e11ce1f65bbe17e5b6d4a602e2ff3bb927ea991f81d93e2aaf",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_PUNCTURE_CONNECTING_MAP_AND_TRACE.md",
+      "sha256": "531821069962385beeb04f6b6c6c99a1c9f712e36bd36eb0eaf26b62c2daef35",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+      "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINT_ROOT_ACTION_AND_AUTOMORPHY.md",
+      "sha256": "a6067694e723761b17042703c0d50f67cc7f749655575dade187ada2cc045536",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md",
+      "sha256": "2220bd04aba8dcb3c95c149131ae008af7e37e1bbd223ce014c0842ac0062ef7",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ORDER_TEN_PHYSICAL_CUBIC_AND_EXCEPTIONAL_MODE_PAIRING.md",
+      "sha256": "2d82c2229c63421b944caaa534613f6992fd1fb4de0f89fae73d344fd8ea2ceb",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUANTUM_NORMALIZATION_AND_WEIGHTED_GAUGE_MATCHING.md",
+      "sha256": "e6389aea20614b4effdb34c6bfd2ef77a74fb618db9b73acf75782d659407dee",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+      "sha256": "54c7c58701d656ae09351de21e9de0cc8db9dd90f03e4a73102dde1a5c8112f5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/VERTICAL_PROFILE_WEDGE_AND_RECONSTRUCTED_CUBIC.md",
+      "sha256": "ba4238c2a8a3bc8b2ecab8db1368fec8da3ea3a4237d08d6f42c9ef12e6ced6f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source"
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source"
+    }
+  ],
+  "commands": [
+    {
+      "entrypoint": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/run_checks.py",
+      "argv": [
+        "python3",
+        "-I",
+        "-B",
+        "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/run_checks.py",
+        "--admission",
+        "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ADMISSION.json",
+        "--output",
+        "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/results/first.jsonl",
+        "--log",
+        "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/results/first.log"
+      ]
+    }
+  ],
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/results/first.jsonl",
+    "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/results/first.log"
+  ],
+  "environment": {
+    "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ENVIRONMENT.json",
+    "sha256": "922d6e89c21596cba42db207cc4949f314b0f3957be57b7f40f37a0fbe928c0c"
+  }
+}
