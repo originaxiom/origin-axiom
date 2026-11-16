@@ -1,0 +1,38 @@
+# `AGY-002-ENDGAME-V2` — Master Synthesis: Universal `0`-Bit Relations and Exact Parameter-Free Obstructions (`0 of 19`)
+
+## 1. Architecture and Blind-Seal Verification Summary
+
+Campaign `AGY-002-ENDGAME-V2` executed `4` sequential gates on branch `agy-002/endgame` cut from `origin/main` (`613c4f417`), maintaining strict `0 of 19` isolation (`zero` float literals across all `8` sealed first-run and second-run `.py` scripts, `16 / 16` `SCRIPT_SHA256.txt` and `OUTPUT_SHA256.txt` digests verified, and `docs/seats/README.md` § 12 labels `expectations committed first`, `recomputed independently`, and `tested against planted errors` across every gate):
+
+| Gate | Card & Results | First Script & Output | Independent Second Script & Output | Key Outcome (`0 of 19`) |
+|---|---|---|---|---|
+| **Gate 0** | `relays/cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock.md`, `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | `relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py`, `relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json` | `relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py`, `relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json` | `2`-loop `SM + Pati-Salam + Weinberg` solver locked (`Buttazzo t_crit` cross-script diff `1.69e-13`; `U(3)^6` Haar `< 3.2e-14`; `5/5` plants caught on card spec). |
+| **Gate 1** | `relays/cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp.md`, `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | `relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py`, `relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json` | `relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py`, `relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json` | Exact `3`-family `D`-parity `bar_theta_QCD = 0` (`< 1.3e-14` at `2`-loop with `|J_CKM| > 0.016`); `P-862` `Pati-Salam` corridor slope `+506 / (201 pi)`; `4D` `L_4`/warp obstruction proved. |
+| **Gate 2** | `relays/cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents.md`, `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | `relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py`, `relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json` | `relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py`, `relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json` | `P-861` `CIM (3, 3, -6)` `T` & `S` covariance `< 3.4e-14`; `B1948` Step `2` levels `5 / 10 / 15` (`1:1`, `1:1`, `3:2`); blind level-`6` `M_H^2` unique `d = 1` ground state `v_{+pi/6}`. |
+| **Gate 3** | `relays/cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal.md`, `relays/AGY002_ENDGAME_V2_G3_RESULTS.md` | `relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py`, `relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json` | `relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py`, `relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json` | `Picard-Lindelof` & top-dominated `CW` obstructions proved; `Vissani` (`+`) vs scalar-portal (`-`) threshold signs proved; `v_EW` sole dimensionful anchor (`> 1e23` tuning at high `M_PS`). |
+
+## 2. Universal Laws Established Across Histories (`P-862`, `P-861`, `B1948` Step `2`)
+
+1. **`3`-Family `Strong-CP` Vanishing Without Mirror Doubling (`B1948` Row `19` Rehabilitated on `X_4`):**
+   - On `X_4 = m000 x~ [-1, 1]` bounded by `partial X_4 = m004` (`exact Z[zeta_6]` cusp modulus `tau_cusp = 2 sqrt(3) i`, `Re(tau_cusp) = 0`, `A_max = 2 sqrt(3)`, `Vol(m004) = 2 Cl_2(pi/3)`), chiral boundary conditions on `27 -> (4,2,1)_{+1} + (4bar,1,2)_{+1} + ...` preserve `N_g = 3` chiral SM families (`b_SM = (41/10, -19/6, -7)`).
+   - Left–Right `Z_2^D` + amphicheirality sets `Y_u(M_PS) = Y_u(M_PS)^dag`, `Y_d(M_PS) = Y_d(M_PS)^dag`. Given `sgn det(Y_u Y_d) = +1` (`1` discrete sign bit, `0` continuous parameters), `bar_theta_QCD = 0` holds at tree level, `1`-loop, and `2`-loop (`|bar_theta_QCD(IR)| < 1.3e-14`, `mpmath` `1.0e-28`) while allowing generic CKM `CP` violation (`|J_CKM| > 0.016`).
+2. **Exact `Pati-Salam x| Z_2^D` Gauge Corridor (`B1948` Row `4` Generalized):**
+   - Eliminating `(alpha_U^{-1}, ln(M_PS / mu_IR))` gives the universal `1`-parameter relation parameterized by `Delta_PS = ln(M_U / M_PS) >= 0`:
+     \[
+     \sin^2\theta_W(\mu_{\mathrm{IR}}) = \frac{23}{134} + \frac{109}{201}\frac{\alpha_{\mathrm{EM}}(\mu_{\mathrm{IR}})}{\alpha_3(\mu_{\mathrm{IR}})} + \frac{506}{201\pi}\alpha_{\mathrm{EM}}(\mu_{\mathrm{IR}})\Delta_{\mathrm{PS}} + \delta_{\mathrm{2\text{-}loop}}(\Delta_{\mathrm{PS}}),
+     \]
+     with strictly positive slope `+506 / (201 pi)` lifting the minimal `SU(5)` desert (`Delta_PS = 0`), and `2`-loop Yukawa sensitivity `~ 1.3e-5`.
+3. **Modular-Covariant `CIM (3, 3, -6)` Triple Overlap (`P-861` & `SM-C18`):**
+   - Enforcing Stokes' theorem (`H_2(m004; Z) = 0` in source-free bulk; quantized flux `(I_L, I_R, I_H) = (+3, +3, -6)` on closed fibre / relative defect with `3 + 3 - 6 = 0`, spin sum `(0, 0) mod 1`, and `3 zeta_L + 3 zeta_R - 6 zeta_H = 0`) makes `Y_{ijk}(tau; zeta_L, zeta_R, zeta_H)` doubly periodic and covariant under **both** `T` and `S` to `< 3.4e-14`.
+4. **Universal `tau`-Free Cusp Exponents Across Levels `5, 10, 15` (`B1948` Step `2`):**
+   - **Level `5` (`24` pts):** Exact `1 : 1` lepton–down equality (`S`: `(1/5, 11/20)`; `St`: `(1/5, 1/2)`).
+   - **Level `10` (`72` pts, `SM-C13b`):** Pointwise swaps at `a = +-1/10 <-> +-3/10`, **but exact `1 : 1` whole-orbit cusp-exponent equality** `(1/5, 1/2)` in both `S` and `St` (`and exact 288-lift tensor bijection w -> 9w mod 20 in CIM (3, 3, -6) to 4e-23`), proving order-`10` whole-orbit lepton–down separation is strictly subleading/prefactor, not an exponent split.
+   - **Level `15` (`192` pts, `B1942`):** Exact `tau`-free colour-triality exponent split: leptons collapse onto level `5` while down quarks move to `(2/15, 1/2)`, giving universal ratio `e_lep(m_2/m_3) / e_down(m_2/m_3) = 3/2` (`and 11/10 for m_1/m_3 on S`).
+5. **Blind Level-`6` Scalar Mass Matrix `M_H^2`:**
+   - Combining base-`S^1` `K_KK` (`d = 2`, `1` bit alone) with the `1`-loop chiral `CIM` fermion bubble `Sigma_H` (`d = 3`, `1.585` bits alone) lifts all `6` eigenvalues (`gap >= 0.01`), uniquely selecting `v_{+pi/6}` (`d = 1`, `0` additional discrete bits beyond `sgn(I_H)`).
+
+## 3. Exact Honest Obstructions Preventing `0`-Parameter Value Closure (`Zero Rescue Factors`)
+
+1. **`4D` Collar Scale & Threshold Non-Rigidity (Gate 1):** `3D` Mostow rigidity fixes `tau_cusp`, `A_max`, and `Vol(m004)`, but `(alpha_U^{-1}, Delta_PS = ln(M_U / M_PS))` scale linearly with transverse `4D` interval length `L_4` and collar warp rate until a `4D` bulk gravitational/Casimir stabilization functional is derived.
+2. **Fibre Modulus `tau` & Torsion Level `N in {5, 10, 15}` Selection (Gate 2):** While exponent ratios within each level `N` and `M_H^2`'s ground state `v_{+pi/6}` are parameter-free, choosing among candidate levels `{5, 10, 15}` (`log_2 3 = 1.585` bits) and fixing a single fibre modulus `tau` (`or weighting histories`) remain unclosed without a `4D` dynamical principle.
+3. **Electroweak Hierarchy & `v_EW` Scale Closure (Gate 3):** Pure-`SM` `MSbar` `mu_H^2` never crosses zero (`Picard-Lindelof`), top-dominated `Coleman-Weinberg` (`mu_H^2 = 0`) is a local maximum (`beta_lambda < 0`), heavy `N_R` loops push `mu_H^2` upward downward (`Vissani`), and high-scale portal zero-crossing requires `> 1e23` `Barbieri-Giudice` tuning; hence `v_EW` remains `1` explicit dimensionful anchor plus `1` dimensionless UV quadratic parameter `mu_H^2(M_U) / M_U^2`. `0 of 19.`
