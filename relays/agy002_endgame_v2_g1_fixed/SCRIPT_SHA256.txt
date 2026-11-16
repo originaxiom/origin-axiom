@@ -1,0 +1,1 @@
+1d6a8208de2721c65ccd9f4afd8b6b9c047ff5bfe30a8aa4ceeee2ef1fa7b8a9  relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py
