@@ -1,0 +1,118 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Unify_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-UNIFY-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_crt_gauge_family_and_anomaly": {
+    "E1_CRT_GaugeFamily_and_Anomaly_Gate_passed": true,
+    "anomaly_forced_hypercharge": {
+      "A_SU2_sq_U1_formula": "3*a + 2*b",
+      "A_SU3_sq_U1_formula": "3*a + 2*b",
+      "A_U1_cubed_factored": "4*(3*a + 2*b)*((3*a + b)**2 + 4*b**2)",
+      "A_grav_sq_U1_formula": "24*a + 16*b",
+      "PC_U1_UnbalancedHyperchargeAnomaly_abs_cubic_at_neg1_1": 32,
+      "anomalies_at_a_neg2_b_3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "cubic_factorization_exact": true,
+      "derived_k2_over_k1": "3/5"
+    },
+    "c_H_and_spin_registration_audit": {
+      "antiperiodic_half_spin_degenerate_minima_count": 2,
+      "antiperiodic_half_spin_min_energy_unit_sq": "1/4",
+      "c_H_classical_6Y_trace_norm": 30,
+      "c_H_normalized_Y_trace_norm": "5/6",
+      "honest_scope_note": "c_H = kappa(H^2) is the classical Lie-algebra generator trace norm in Gamma = c_H Phi^2 / (2 G Area), distinct from seam-phase stiffness kappa_seam; untwisted integer m in Z attains minimum at m = 0 (requiring a nontrivial registration premise to select |m| = 1), whereas half-integral antiperiodic spin shift q in Z - 1/2 excludes 0 automatically with twin minima +-1/2 (1 orientation bit), while mapping half-unit spin shift vs integer divisor m = +-1 to 3 chiral families remains the slotwise domain duty.",
+      "stiff_seam_limit_independent_of_kappa_seam": true,
+      "untwisted_integer_min_energy_unit_sq": "0"
+    },
+    "crt_weil_tensor_factorization_55dps": {
+      "PC_U1_NonCoprimeLevel9Failure_non_rank1_sv_norm": 2.449489742783178,
+      "S15_vs_S5_kron_S3_frob_err": 1.473243991765228e-55,
+      "T15_vs_T5_kron_T3_frob_err": 1.0246640358332748e-55,
+      "W5_parity_split_dims": [
+        3,
+        2
+      ],
+      "even_exterior_dims_deg_0_2_4": [
+        1,
+        10,
+        5
+      ],
+      "gauge_commutes_with_H3_family_exact": true,
+      "one_generation_weyl_dim": 16,
+      "three_commuting_family_weyl_dim": 48,
+      "unitarity_err": 0.0
+    },
+    "smith_invariants_4fold_punctured_cover": [
+      3,
+      15
+    ]
+  },
+  "part_1b_independent_pc3_twelve_methods": {
+    "E2_PC3_TwelveMethod_Independent_Gate_passed": true,
+    "comparison_verdict_vs_physical_ca02b5d8d": "SAME_ACROSS_ALL_12_METHODS",
+    "method_results": {
+      "M01_quaternion_relations_and_conjugation_generators": true,
+      "M02_coupling_span_full_and_traceless": true,
+      "M03_coupling_covariance_and_unsigned_counterexample": true,
+      "M04_inner_residual_and_vertical_spin_sheet": true,
+      "M05_full_and_slot_family_constant_stabilizers": true,
+      "M06_source_cubic_and_polarization": true,
+      "M07_root_vertex_and_physical_mass_derivative": true,
+      "M08_normalized_vertex_current_and_rescalings": true,
+      "M09_shape_inequality_exact_metric_controls_plus_hyperbolic_collar": true,
+      "M10_slot_rank_and_illicit_form_entry": true,
+      "M11_full_complement_response_and_backreaction": true,
+      "M12_complex_bilinear_gram_and_current_transport": true
+    },
+    "methods_passed_count": 12,
+    "methods_total_count": 12,
+    "planted_controls": {
+      "PC_U1_UnsignedLiftAndWrongSideDeck_caught": true,
+      "PC_U1_WrongHermitianVsTransposeGramAndConnectionWeight_caught": true
+    },
+    "witness_values": {
+      "M01_quarter_turn_unsigned_det": -1,
+      "M02_ranks_full_and_traceless": [
+        9,
+        9
+      ],
+      "M05_stabilizer_ranks_full_slot5_single": [
+        17,
+        17,
+        5
+      ],
+      "M07_projected_mass_derivative": "5*I",
+      "M09_ratios_flat_periodic_hyperbolic_e2": [
+        "2",
+        "9/4",
+        2.7621956910836314
+      ],
+      "M11_second_order_light_mass_coeff": "2/3"
+    }
+  },
+  "stage_1_gate_passed": true
+}
