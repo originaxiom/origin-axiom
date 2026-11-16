@@ -31,6 +31,10 @@ protected three-mode quartic with its specified tangent.
 4. If a correction uses the real gauge operator, derive its coefficient
    and source compatibility. Distinguish a two-jet solution from an
    all-orders branch, stationary interface or state-selection law.
+5. Examine convergence through the actual cusp gauge operator. Establish
+   the bounded inverse on spaces admitting its unbroken constant tail,
+   then test a regular moment equation together with its finite Q
+   component. Keep every mode direction and amplitude as state data.
 
 Rejecting controls include a trivialized nontrivial flat character,
 the D5 (1,0) lines with different a,b phases, a wrong determinant on
