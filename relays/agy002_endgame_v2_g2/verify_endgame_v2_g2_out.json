@@ -1,0 +1,298 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 2 \u2014 Covariant Triple-Overlap Frame D1, Levels 5/10/15 Exponents & Blind Level-6 M_H^2",
+  "empirical_firewall": "0 of 19",
+  "gate_2_passed": true,
+  "section_0_ast_lock": {
+    "ast_gate_passed": true,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0
+  },
+  "section_1_wang_homology_and_stokes_flux_accounting": {
+    "stokes_and_flux_gate_passed": true,
+    "det_M": 1,
+    "det_M_minus_I": -1,
+    "H2_m004_Z_rank": 0,
+    "stokes_d2_d3_zero": true,
+    "source_free_boundary_flux": 0,
+    "cim_flux_triple": [
+      3,
+      3,
+      -6
+    ],
+    "cim_flux_sum": 0,
+    "spin_sum_mod1": [
+      "0",
+      "0"
+    ],
+    "sm_6Y_triples_neutral": true
+  },
+  "section_2_cim_3_3_minus6_modular_covariance": {
+    "modular_covariance_gate_passed": true,
+    "max_2d_quadrature_vs_closed_form_err": 2.863256355534615e-14,
+    "max_torus_double_periodicity_err": 2.93813344580364e-13,
+    "max_weil_transport_unitarity_err": 3.130829236195351e-14,
+    "max_T_covariance_err": 3.358181492670783e-14,
+    "max_S_covariance_err": 3.269790582907952e-14
+  },
+  "section_3_levels_5_10_15_cusp_exponent_laws": {
+    "levels_5_10_15_exponents_gate_passed": true,
+    "level_5_exact_lepton_down_equality": true,
+    "level_10_pointwise_swap_1_10_vs_3_10": true,
+    "level_10_whole_orbit_minima_equality": true,
+    "level_15_colour_triality_split_ratio_3_over_2": true,
+    "cim_level_10_bijection_w_to_9w_mod_20_lifts_checked": 288,
+    "cim_level_10_bijection_max_tensor_err": 5.551115123125783e-16,
+    "max_mpmath_high_cusp_slope_err": 4.150231634852952e-05,
+    "mpmath_high_cusp_checks": [
+      {
+        "case": "N5_down_a2_5_S",
+        "exact_exponents": [
+          "1/5",
+          "11/20"
+        ],
+        "mpmath_fitted_exponents": [
+          0.20000000000006546,
+          0.5500000000000309
+        ],
+        "abs_err": 6.544764730165298e-14
+      },
+      {
+        "case": "N10_down_a1_10_S",
+        "exact_exponents": [
+          "1/5",
+          "7/10"
+        ],
+        "mpmath_fitted_exponents": [
+          0.20000000000006501,
+          0.6999999999997731
+        ],
+        "abs_err": 2.2681856393091948e-13
+      },
+      {
+        "case": "N10_lep_a1_10_S",
+        "exact_exponents": [
+          "1/5",
+          "1/2"
+        ],
+        "mpmath_fitted_exponents": [
+          0.2000000000002611,
+          0.5000000000001291
+        ],
+        "abs_err": 2.610966998162212e-13
+      },
+      {
+        "case": "N15_down_a2_15_S",
+        "exact_exponents": [
+          "2/15",
+          "37/60"
+        ],
+        "mpmath_fitted_exponents": [
+          0.13337483564968186,
+          0.6166874178248399
+        ],
+        "abs_err": 4.150231634852952e-05
+      },
+      {
+        "case": "N15_down_a4_15_S",
+        "exact_exponents": [
+          "7/30",
+          "1/2"
+        ],
+        "mpmath_fitted_exponents": [
+          0.23335162439212273,
+          0.5000091450975228
+        ],
+        "abs_err": 1.8291058789393633e-05
+      },
+      {
+        "case": "N15_lep_a4_15_S",
+        "exact_exponents": [
+          "1/5",
+          "11/20"
+        ],
+        "mpmath_fitted_exponents": [
+          0.20000000000006546,
+          0.5500000000000309
+        ],
+        "abs_err": 6.544764730165298e-14
+      }
+    ],
+    "frame_c_exact_minima_by_level": {
+      "5": {
+        "exact_order_point_count": 24,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "11/20"
+            ],
+            "lep": [
+              "1/5",
+              "11/20"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      },
+      "10": {
+        "exact_order_point_count": 72,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      },
+      "15": {
+        "exact_order_point_count": 192,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "2/15",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "11/20"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "2/15",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "section_4_blind_level6_scalar_mass_matrix_and_bit_ledger": {
+    "level6_higgs_mass_gate_passed": true,
+    "UM6_order_12_err": 4.085258685332183e-15,
+    "UM6_eigenphase_max_err": 2.220446049250313e-16,
+    "geodesic_period_4ln_phi_err": 2.2887833992611187e-16,
+    "regime_1_pure_yukawa_bubble": {
+      "geodesic_ground_degeneracy_d": 3,
+      "geodesic_selection_bits_log2_d": 1.584962500721156,
+      "riley_cusp_ground_degeneracy_d": 3,
+      "riley_cusp_selection_bits_log2_d": 1.584962500721156
+    },
+    "regime_2_pure_kk_holonomy": {
+      "ground_degeneracy_d": 2,
+      "selection_bits_log2_d": 1.0
+    },
+    "regime_3_combined_1loop_M_H2": {
+      "eigenvalues_sorted": [
+        -0.332146470716003,
+        -0.3221290263244229,
+        -0.11016029224175225,
+        -0.10014284785017238,
+        1.4437429570780078,
+        1.4537604014695868
+      ],
+      "min_adjacent_eigenvalue_gap": 0.010017444391579033,
+      "ground_degeneracy_d": 1,
+      "additional_selection_bits_given_chiral_flux_sign": 0.0,
+      "overlap_with_plus_pi_over_6_mode": 1.0
+    },
+    "haar_u3_6_max_observable_err": 4.773959005888173e-15
+  },
+  "section_5_planted_fault_controls": {
+    "all_5_planted_faults_caught": true,
+    "PF2_1_untwisted_flux_periodicity_err": {
+      "measured_err": 3.5631110006785325,
+      "caught": true
+    },
+    "PF2_2_b1947_naive_phase_T_cov_err": {
+      "measured_err": 2.41463538451882,
+      "caught": true
+    },
+    "PF2_3_spin_mismatch_periodicity_err": {
+      "measured_err": 9.345134891351156,
+      "caught": true
+    },
+    "PF2_4_corrupted_lepton_level15_shift": {
+      "measured_err": 0.13333333333333333,
+      "caught": true
+    },
+    "PF2_5_deg3_bit_pricing_control": {
+      "degeneracy": 3,
+      "bits": 1.584962500721156,
+      "caught": true
+    }
+  }
+}
