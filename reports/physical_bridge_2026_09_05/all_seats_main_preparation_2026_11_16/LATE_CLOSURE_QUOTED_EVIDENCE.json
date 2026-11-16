@@ -1,0 +1,149 @@
+{
+  "method": "Git source quotations only; interpretations await deciding recomputation.",
+  "items": [
+    {
+      "finding": "F11",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md",
+      "line": 56,
+      "quote": "   - **`P-C3` (`9e82adbe9`) runtime `AssertionError`s:** Two assertions fail on execution (`SymPy` unexpanded `(a - b)*(a - b) != 0` in `Weyl` Gram check, and `y3_from_sm` tested on single basis matrices returning `[9, 2, 2]` instead of `[9, 5, 4]`), and its `1 x 1` heavy scalar block makes `PF4.3` (`D_0^{-T}`) and `PF4.4` (reversed operator order) vacuous; **all repaired and cold-room verified in `Gate 4` (`5821fc629` & `bf3a8f27f`)**. `P-C3b` (`e250dab15`) adds unexecuted algebraic notes (`0` inputs removed).",
+      "sha256": "0a876aa309dc8f122181c0ae92a067404d2e53176c2becae11234c8f43640c46"
+    },
+    {
+      "finding": "F11",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md",
+      "line": 3,
+      "quote": "In `79d2d65aa` (`relays/agy002_closure_g4/verify_closure_g4_out.json`), Sections `0`, `1`, and `3` and all `5 of 5` planted fault controls passed (`100%`), while two lines in `Section 2` (`verify_closure_g4.py`) had harness transcription bugs:",
+      "sha256": "0e33cddf156c43c0caf9ba14bfe84b2542d87691612b571749c65fd2b35622fd"
+    },
+    {
+      "finding": "F12",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 436,
+      "quote": "        - 48 * (lam * lam) * y2_tr",
+      "sha256": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15"
+    },
+    {
+      "finding": "F13",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 144,
+      "quote": "    D_dim_bad = np.vstack([",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8"
+    },
+    {
+      "finding": "F13",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 143,
+      "quote": "    # Planted PF7.1: unpriced second independent dimensionful anchor raises rank to 2 > 1",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8"
+    },
+    {
+      "finding": "F14",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 205,
+      "quote": "            Yd = Y_cim_xi(tau_cusp, 1 * w)[:, :, 0]",
+      "sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627"
+    },
+    {
+      "finding": "F14",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 223,
+      "quote": "    vH_pert = np.array([frac_f64(1, 1), frac_f64(1, 8), frac_f64(1, 50), frac_f64(0, 1), frac_f64(1, 50), frac_f64(1, 8)], dtype=complex)",
+      "sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627"
+    },
+    {
+      "finding": "F14",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "line": 226,
+      "quote": "    dw_R = frac_f64(3, 100) * tau_mid + frac_f64(1, 50)",
+      "sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627"
+    },
+    {
+      "finding": "F15",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 197,
+      "quote": "        (\"OP:Level6_Higgs_v_plus_pi6\", \"OPERATOR\", 1, [\"OP:CIM_33m6_Triple_Overlap\", \"G:m004_Mostow_Rigidity\"], True),",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8"
+    },
+    {
+      "finding": "F15",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 210,
+      "quote": "        (\"PR-5:Blind_0Bit_Level6_Higgs\", \"RELATION\", 1, [\"OP:Level6_Higgs_v_plus_pi6\"], True),",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8"
+    },
+    {
+      "finding": "F15",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "line": 224,
+      "quote": "        nodes.append((sid, \"SM_TARGET\", 0, [\"OP:CIM_33m6_Triple_Overlap\", \"OP:Level6_Higgs_v_plus_pi6\", \"OP:BPV_MV_2Loop_RGE\", \"S:Torsion_Tau_SU2R_Break\", \"S:Bidoublet_Angle_Beta\"], True))",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8"
+    },
+    {
+      "finding": "F16",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1044,
+      "quote": "    def V_branch_A(L4: mp.mpf, m_hyp: mp.mpf = mp.mpf(1), inject_fake_min: bool = False) -> mp.mpf:",
+      "sha256": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15"
+    },
+    {
+      "finding": "F16",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1085,
+      "quote": "    def V_branch_B_gapped_spinors(L4: mp.mpf, m_hyp: mp.mpf = mp.mpf(1)) -> mp.mpf:",
+      "sha256": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15"
+    },
+    {
+      "finding": "F16",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "line": 1077,
+      "quote": "    branch_A_runaway_proved = max_dV_branch_A < 0",
+      "sha256": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15"
+    },
+    {
+      "finding": "F17",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py",
+      "line": 290,
+      "quote": "    m_nh = np.diag([frac_f64(1, 50), frac_f64(1, 10), frac_f64(1, 2)])",
+      "sha256": "daca87c3cde41397767197bae69d786828615facd5d5ec112b73fa27445558c1"
+    },
+    {
+      "finding": "F17",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_CLOSURE_G6_RESULTS.md",
+      "line": 32,
+      "quote": "2. **Universal `TM1` Survival Under `RGE` Running:** Whenever a `Z_2` residual symmetry aligns the `1`st `PMNS` column to `(2, -1, -1)^T / sqrt(6)` (`I_TM1 = cos^2 theta_12 cos^2 theta_13 = 2/3`), downward evolution over `dt = -30` shifts `I_TM1` by `< 1/2000` for `y_tau <= 1/20` (`and < 1/200` up to `y_tau = 1/5`).",
+      "sha256": "8aec47db57b0a5fed346f5068a42f3cc3150b635c825c0c50a4115584840b778"
+    },
+    {
+      "finding": "F12",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 285,
+      "quote": "        - 24.0 * (lam * lam) * y2_tr",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    },
+    {
+      "finding": "F12",
+      "commit": "2ff7784b175978829c71c50cc4e00b5081ac7338",
+      "path": "relays/x_closure_4_verify/verify_x_closure_4.py",
+      "line": 1004,
+      "quote": "        -312 * (lam ** 3) + 36 * lam * lam * (3 * g2s + F(3, 5) * g1s) - 24 * lam * lam * y2_tr",
+      "sha256": "5c4f0bec225ee9ef2aa51ffd6236eeff1d67790b010a36b3b047b92f063158ac"
+    }
+  ]
+}

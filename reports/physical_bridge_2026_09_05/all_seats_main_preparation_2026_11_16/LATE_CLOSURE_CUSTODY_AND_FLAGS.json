@@ -1,0 +1,297 @@
+{
+  "method": "Byte hashes and parsing existing JSON only. No scientific code executed.",
+  "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+  "source_hashes_checked": 62,
+  "manifest_checks": [
+    {
+      "manifest": "relays/agy002_closure_g4/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g4/verify_closure_g4_out.json",
+      "expected": "20dbbcecc55cffc242e87b9fc7d2fb5f534742e73da28b1c4dca3a13bbac450d",
+      "actual": "20dbbcecc55cffc242e87b9fc7d2fb5f534742e73da28b1c4dca3a13bbac450d",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g4/verify_closure_g4.py",
+      "expected": "e86c6fea3ab3324d454b930ccedf3b3e84aada4fca3a68481816a2826770a6a8",
+      "actual": "e86c6fea3ab3324d454b930ccedf3b3e84aada4fca3a68481816a2826770a6a8",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json",
+      "expected": "f0396c30b1e36f2e11e56797e8900f6e58e9863066d6fcc44be357ae46b67511",
+      "actual": "f0396c30b1e36f2e11e56797e8900f6e58e9863066d6fcc44be357ae46b67511",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "expected": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15",
+      "actual": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "expected": "a50693f96595172d210069cc2d411d6fbb8f6d5736427065453766e52fb11cee",
+      "actual": "a50693f96595172d210069cc2d411d6fbb8f6d5736427065453766e52fb11cee",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4.py",
+      "expected": "e706f899efc89d8eb0b96f10160550128db6ff221dbe2d2eb134e10e9d186627",
+      "actual": "e706f899efc89d8eb0b96f10160550128db6ff221dbe2d2eb134e10e9d186627",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_referee_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed_out.json",
+      "expected": "a6af4315268cc5cec0622cfbf71e212e3531312a9d342bc5391507411d7e240f",
+      "actual": "a6af4315268cc5cec0622cfbf71e212e3531312a9d342bc5391507411d7e240f",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g4_referee_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed.py",
+      "expected": "410692c7360d7906f76533a13abe368f2ff7f7232bf0daacdfa120c8480de711",
+      "actual": "410692c7360d7906f76533a13abe368f2ff7f7232bf0daacdfa120c8480de711",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g5/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g5/verify_closure_g5_out.json",
+      "expected": "507038bd92035eb0f8e7c0836189d5c328f2b2ff459903a8c604dec71a203033",
+      "actual": "507038bd92035eb0f8e7c0836189d5c328f2b2ff459903a8c604dec71a203033",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g5/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "expected": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627",
+      "actual": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g5_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+      "expected": "04942524d8fc7d1422ccf8745c1766ffb61ac6e57e06bd5367276ef877395ff7",
+      "actual": "04942524d8fc7d1422ccf8745c1766ffb61ac6e57e06bd5367276ef877395ff7",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g5_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5.py",
+      "expected": "9fc4878a8a6e9519bddc04a4d522a31562ee10ba47756e9bb291fb51aab0e841",
+      "actual": "9fc4878a8a6e9519bddc04a4d522a31562ee10ba47756e9bb291fb51aab0e841",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g6/verify_closure_g6_out.json",
+      "expected": "dec5e3d3ea14f63dc8183443c8f4ed9f74300d8706debc237eb8c05273237166",
+      "actual": "dec5e3d3ea14f63dc8183443c8f4ed9f74300d8706debc237eb8c05273237166",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g6/verify_closure_g6.py",
+      "expected": "d575ad816b7a840cf2292c78fa72d6eb2d0931495fca6032c8f28fc7e4789fb7",
+      "actual": "d575ad816b7a840cf2292c78fa72d6eb2d0931495fca6032c8f28fc7e4789fb7",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed_out.json",
+      "expected": "6fcd6783296175fa0f57bba5e0dc8349c8d773c9a3911485f472d4afc0f39fb2",
+      "actual": "6fcd6783296175fa0f57bba5e0dc8349c8d773c9a3911485f472d4afc0f39fb2",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py",
+      "expected": "daca87c3cde41397767197bae69d786828615facd5d5ec112b73fa27445558c1",
+      "actual": "daca87c3cde41397767197bae69d786828615facd5d5ec112b73fa27445558c1",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g6_referee/referee_closure_g6_out.json",
+      "expected": "1fa6e32c0b0d81f90ee09c64201e2141a1c56a421358248a7f14ba946cc595e6",
+      "actual": "1fa6e32c0b0d81f90ee09c64201e2141a1c56a421358248a7f14ba946cc595e6",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g6_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g6_referee/referee_closure_g6.py",
+      "expected": "2ee777ce2bcfb1073f3675bcb398fa102650a9d84ffc1eb93ee8c2e81da02d27",
+      "actual": "2ee777ce2bcfb1073f3675bcb398fa102650a9d84ffc1eb93ee8c2e81da02d27",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g7/verify_closure_g7_out.json",
+      "expected": "a3ac13d7a823d246904d05b7505e861d6114c7e32772e430fd4d56523114281a",
+      "actual": "a3ac13d7a823d246904d05b7505e861d6114c7e32772e430fd4d56523114281a",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "expected": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8",
+      "actual": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7_referee/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "expected": "632da86c80c93c769e9809b22b22b0970d4b993e6a0aa93167303a59c33ace94",
+      "actual": "632da86c80c93c769e9809b22b22b0970d4b993e6a0aa93167303a59c33ace94",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7_referee/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7.py",
+      "expected": "46dfee7d617fcb034dd09cdae34de209167695338dc47c199ff536a564d105c6",
+      "actual": "46dfee7d617fcb034dd09cdae34de209167695338dc47c199ff536a564d105c6",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7_referee_fixed/OUTPUT_SHA256.txt",
+      "path": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed_out.json",
+      "expected": "8996eeac43b0902ef6c727de3972cd442ad890cf23fc00cf69fdf07e3e5c44eb",
+      "actual": "8996eeac43b0902ef6c727de3972cd442ad890cf23fc00cf69fdf07e3e5c44eb",
+      "matches": true
+    },
+    {
+      "manifest": "relays/agy002_closure_g7_referee_fixed/SCRIPT_SHA256.txt",
+      "path": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed.py",
+      "expected": "8572c1c0b3308537be167696af4b7068d153e29608ff88729d004152eba1a014",
+      "actual": "8572c1c0b3308537be167696af4b7068d153e29608ff88729d004152eba1a014",
+      "matches": true
+    }
+  ],
+  "reported_false_flags": [
+    {
+      "path": "relays/agy002_closure_g4/verify_closure_g4_out.json",
+      "json_pointer": "/gate_4_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4/verify_closure_g4_out.json",
+      "json_pointer": "/section_2_repaired_pc3_and_spin10/section_2_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json",
+      "json_pointer": "/gate_4_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json",
+      "json_pointer": "/section_2_repaired_pc3_and_spin10/section_2_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/overall_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/planted_fault_summary/PF4.1_untransposed_bpv_mixed_yukawa",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/section_1_bpv_mv_2loop_matrix_rge/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/section_1_bpv_mv_2loop_matrix_rge/pf4_1_caught",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/section_2_repaired_pc3_schur_and_spin10/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "json_pointer": "/section_3_m004_collar_casimir_dichotomy/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+      "json_pointer": "/section_1/pure_6y_cusp_e0_audit/guardrail_3_exact_degeneracy_diagnosis/pure_e0_1d_vtb_is_haar_invariant",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+      "json_pointer": "/section_2/orbit_multisets_and_pointwise_split/pointwise_3bl_w_1_5_2_5/exceeds_card_prose_100_at_y4",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+      "json_pointer": "/summary/pure_6y_pure_e0_passes_guardrail_3_haar_invariance",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g6/verify_closure_g6_out.json",
+      "json_pointer": "/gate_6_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g6/verify_closure_g6_out.json",
+      "json_pointer": "/section_1_majorana_basis_and_seesaw/section_1_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/overall_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-2/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-3/gate6_sealed_json_envelope_check/files/verify_closure_g6_fixed_out.json/overall_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-3/gate6_sealed_json_envelope_check/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-3/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-4/gate6_sealed_json_envelope_verified",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/kill_lines_pr1_to_pr10/PR-4/passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/all_kill_lines_passed",
+      "value": false
+    },
+    {
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "json_pointer": "/deliverable_2_epistemic_dag_and_kill_lines/passed",
+      "value": false
+    }
+  ]
+}

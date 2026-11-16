@@ -1,0 +1,439 @@
+{
+  "method": "Late branch Git blob reads and hashes. Targeted source reading is recorded separately. No scientific execution.",
+  "files": [
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_CLOSURE_G4_RESULTS.md",
+      "sha256": "72f4b3651d8e77e694e166e0ae65a57195873af0ef33a1ce7f9283d9939804a4",
+      "bytes": 6516
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_CLOSURE_G5_RESULTS.md",
+      "sha256": "101459a3829d4a9d6496238f9e907c7f76992383608e5056ab6d30b501dc2c12",
+      "bytes": 5922
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_CLOSURE_G6_RESULTS.md",
+      "sha256": "8aec47db57b0a5fed346f5068a42f3cc3150b635c825c0c50a4115584840b778",
+      "bytes": 5937
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_CLOSURE_G7_RESULTS.md",
+      "sha256": "e5473332b643889970c196df9742d3005bf9d88bc408d3c479a682aad5d320b0",
+      "bytes": 5464
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md",
+      "sha256": "0a876aa309dc8f122181c0ae92a067404d2e53176c2becae11234c8f43640c46",
+      "bytes": 13872
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/STATUS_AGY-002.md",
+      "sha256": "b444c0d7a468f4dbda621abe75c37e9ffb51f35a418124207f3c38e93892865d",
+      "bytes": 1988
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4/OUTPUT_SHA256.txt",
+      "sha256": "fdf6bd9a45c42a045ee630ae3f4fadc47f6309e910c90a0b6baab9d4b8433000",
+      "bytes": 118
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4/SCRIPT_SHA256.txt",
+      "sha256": "e23dd24e8c6fed2a81e332b7d9270b8e11699070d81beb2ae320a8e757ce8121",
+      "bytes": 112
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4/verify_closure_g4.py",
+      "sha256": "e86c6fea3ab3324d454b930ccedf3b3e84aada4fca3a68481816a2826770a6a8",
+      "bytes": 52737
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4/verify_closure_g4_out.json",
+      "sha256": "20dbbcecc55cffc242e87b9fc7d2fb5f534742e73da28b1c4dca3a13bbac450d",
+      "bytes": 2763
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/OUTPUT_SHA256.txt",
+      "sha256": "579ecd386df9bd84f4a0ced0714aab331a51578173d8440bab353223718abb8b",
+      "bytes": 130
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/SCRIPT_SHA256.txt",
+      "sha256": "670e207e68d85db2674c832501e4c76bcd83e28f0a560ca77f666f9a1ed422c8",
+      "bytes": 124
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+      "sha256": "7415e227a8edf2a177106674d2afa6bf013a0c79cdbcede722beafb9d5a10d15",
+      "bytes": 52984
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json",
+      "sha256": "f0396c30b1e36f2e11e56797e8900f6e58e9863066d6fcc44be357ae46b67511",
+      "bytes": 2763
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee/OUTPUT_SHA256.txt",
+      "sha256": "ec86dbe8a7df69aa7f385291366edf058a7385f9f9caba6ed0082e04f726b17a",
+      "bytes": 127
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee/SCRIPT_SHA256.txt",
+      "sha256": "2bf2ee66266a7166a5529bd32ae85cb90a09d01a2498e2ade73ebb9322d94d90",
+      "bytes": 121
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4.py",
+      "sha256": "e706f899efc89d8eb0b96f10160550128db6ff221dbe2d2eb134e10e9d186627",
+      "bytes": 69503
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+      "sha256": "a50693f96595172d210069cc2d411d6fbb8f6d5736427065453766e52fb11cee",
+      "bytes": 5904
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee_fixed/OUTPUT_SHA256.txt",
+      "sha256": "5860f3f2323103d115df9c3181f190a7dc0dd50a84abfb7949c7c6ab1bd1ed6d",
+      "bytes": 139
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee_fixed/SCRIPT_SHA256.txt",
+      "sha256": "b19d93f87f531e2021d1baa51a1448ffb2de8b594f3377485a33b4a0aafc4434",
+      "bytes": 133
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed.py",
+      "sha256": "410692c7360d7906f76533a13abe368f2ff7f7232bf0daacdfa120c8480de711",
+      "bytes": 66075
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed_out.json",
+      "sha256": "a6af4315268cc5cec0622cfbf71e212e3531312a9d342bc5391507411d7e240f",
+      "bytes": 6723
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/OUTPUT_SHA256.txt",
+      "sha256": "a6ddb0c21119e51f30e52b5ff1bc0945e3b4a0956fd75209264c86a593bda35e",
+      "bytes": 118
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/SCRIPT_SHA256.txt",
+      "sha256": "e270e0e4474d9f5852e97d7e43924687838f1f818cf7fe161d09fb71f338b86e",
+      "bytes": 112
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/verify_closure_g5.py",
+      "sha256": "82e2a96e016743d67960dc68ee1b0b2ccc7dc6b2ff697d5f3be044d71d208627",
+      "bytes": 25442
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5/verify_closure_g5_out.json",
+      "sha256": "507038bd92035eb0f8e7c0836189d5c328f2b2ff459903a8c604dec71a203033",
+      "bytes": 2787
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5_referee/OUTPUT_SHA256.txt",
+      "sha256": "ec9bff848fd261506ce439da5d8f514ed1177a3c23df4573fd916598260de734",
+      "bytes": 127
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5_referee/SCRIPT_SHA256.txt",
+      "sha256": "41d2e727ebc7d7ca95bc36c8f8303e4db55c23717caf96a7e56a5a8360c11364",
+      "bytes": 121
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5.py",
+      "sha256": "9fc4878a8a6e9519bddc04a4d522a31562ee10ba47756e9bb291fb51aab0e841",
+      "bytes": 45379
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+      "sha256": "04942524d8fc7d1422ccf8745c1766ffb61ac6e57e06bd5367276ef877395ff7",
+      "bytes": 8913
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6/OUTPUT_SHA256.txt",
+      "sha256": "d660783db518372bf4916682a206dc3a0615d40985050f263aeaac05f93e2b56",
+      "bytes": 118
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6/SCRIPT_SHA256.txt",
+      "sha256": "79d9cc476727df73fc2706788027c324f017bfa7ff0de8332656429ed2a7d69b",
+      "bytes": 112
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6/verify_closure_g6.py",
+      "sha256": "d575ad816b7a840cf2292c78fa72d6eb2d0931495fca6032c8f28fc7e4789fb7",
+      "bytes": 30970
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6/verify_closure_g6_out.json",
+      "sha256": "dec5e3d3ea14f63dc8183443c8f4ed9f74300d8706debc237eb8c05273237166",
+      "bytes": 2449
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_fixed/OUTPUT_SHA256.txt",
+      "sha256": "8b965a92b190f86d1a5a07aa1b60d1c9b11d02c8cee7af99bf2c569b9e4c2cec",
+      "bytes": 130
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_fixed/SCRIPT_SHA256.txt",
+      "sha256": "7a8bf28bdc1906184263bc167fd0aefc554ac6c9231dd0f284a6ae4da35a21b1",
+      "bytes": 124
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py",
+      "sha256": "daca87c3cde41397767197bae69d786828615facd5d5ec112b73fa27445558c1",
+      "bytes": 30322
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed_out.json",
+      "sha256": "6fcd6783296175fa0f57bba5e0dc8349c8d773c9a3911485f472d4afc0f39fb2",
+      "bytes": 2451
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_referee/OUTPUT_SHA256.txt",
+      "sha256": "9f651634ce1eebdff10bece24564a8f4fcbbb63a2447ddcdd753d58de4020a87",
+      "bytes": 127
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_referee/SCRIPT_SHA256.txt",
+      "sha256": "7bd2060fcdae9c9980f72e96ea20dfc55c38783eb673b3542d3b40fe7036eb70",
+      "bytes": 121
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_referee/referee_closure_g6.py",
+      "sha256": "2ee777ce2bcfb1073f3675bcb398fa102650a9d84ffc1eb93ee8c2e81da02d27",
+      "bytes": 53401
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g6_referee/referee_closure_g6_out.json",
+      "sha256": "1fa6e32c0b0d81f90ee09c64201e2141a1c56a421358248a7f14ba946cc595e6",
+      "bytes": 7191
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/OUTPUT_SHA256.txt",
+      "sha256": "49e8263a0d87f233b458f45e049874882beeacd0a9a5d13ab982e0f20073c163",
+      "bytes": 118
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/SCRIPT_SHA256.txt",
+      "sha256": "8e57269db214e9d711ddda0387793b6dfad70d433f55f33a0c0a86231aefb2a4",
+      "bytes": 112
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7.py",
+      "sha256": "6a707bea32a263177259f1e33ef0cc3883b95c1914efb9c848cca8b163eb9aa8",
+      "bytes": 21487
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7/verify_closure_g7_out.json",
+      "sha256": "a3ac13d7a823d246904d05b7505e861d6114c7e32772e430fd4d56523114281a",
+      "bytes": 3754
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee/OUTPUT_SHA256.txt",
+      "sha256": "4e48e5ee49d91459f3055b7b0833bf962f3d7314b3be730adcdb6ab0402312b7",
+      "bytes": 127
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee/SCRIPT_SHA256.txt",
+      "sha256": "ca8433d55c3ede7d7eab1cec32758e38105011aea7392afbe30bd95c17478a43",
+      "bytes": 121
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7.py",
+      "sha256": "46dfee7d617fcb034dd09cdae34de209167695338dc47c199ff536a564d105c6",
+      "bytes": 79333
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+      "sha256": "632da86c80c93c769e9809b22b22b0970d4b993e6a0aa93167303a59c33ace94",
+      "bytes": 8778
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee_fixed/OUTPUT_SHA256.txt",
+      "sha256": "25705fdcbeec6491625d957b2e38e76ea03ae520d1dc444150ac86f7cc2a8681",
+      "bytes": 139
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee_fixed/SCRIPT_SHA256.txt",
+      "sha256": "737d1bfc4afaacfab40c81ee1d2d65becbbdfa30582541489ae9b1dcf6a9f26b",
+      "bytes": 133
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed.py",
+      "sha256": "8572c1c0b3308537be167696af4b7068d153e29608ff88729d004152eba1a014",
+      "bytes": 79602
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed_out.json",
+      "sha256": "8996eeac43b0902ef6c727de3972cd442ad890cf23fc00cf69fdf07e3e5c44eb",
+      "bytes": 8770
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md",
+      "sha256": "0e33cddf156c43c0caf9ba14bfe84b2542d87691612b571749c65fd2b35622fd",
+      "bytes": 952
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4.md",
+      "sha256": "0c0456d0945a96d70e40a8ecd4533b44f6d96d486c84aa4354273d742a5c2786",
+      "bytes": 1369
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir.md",
+      "sha256": "22ddcff9331fdc723047540c84def08afc962091793b9a02296a570035ed8dd0",
+      "bytes": 7049
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection.md",
+      "sha256": "fbea4ed06503d0c126c3b21a7caf22ddbc788a13b33ff2e8505da5b8b3560b3c",
+      "bytes": 6307
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0.md",
+      "sha256": "cb08a50c4ef0e8a0cc1d24fa750c2a64154962d46bbf4034b9b8f7148915855e",
+      "bytes": 849
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces.md",
+      "sha256": "c21a318d20cf977bd534c5834ca09fcf2e8c888d725d89f1cd3847d7c26ead36",
+      "bytes": 5636
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G7-REFEREE-ERRATUM_gate6-key-and-rk4-grid.md",
+      "sha256": "438a640299520409d4a0f65634a7c1ef69e25d10c8c14ad4103e0191fc2c5620",
+      "bytes": 1296
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "commit": "f877e0481172392dff9b63420b8bfb03399e9f49",
+      "path": "relays/cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff.md",
+      "sha256": "9b63cb8367abf6f181c1d47384d0427efe37094c798007064da707655a1d7f2e",
+      "bytes": 4742
+    }
+  ]
+}
