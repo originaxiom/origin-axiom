@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 47e6078ae, e6129316e, 94e511f54
 state: active
-on: Campaign X-FRONTIER Stage 3 complete (12 of 16 blind-sealed commits; 0 of 19)
+on: Campaign X-FRONTIER Stage 4 Card X-FRONTIER-4 committed first (Commit 13 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-FRONTIER (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-FRONTIER` Live Ledger (`12 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-FRONTIER` Live Ledger (`13 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
 1. **`Stage 1 / X-FRONTIER-1` (`d2d4b568b`, `46fcec62e`, `dd2bbf92e`, `bcbe17227`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Frontier_Passed = True`.
@@ -13,7 +13,7 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 2. **`Stage 2 / X-FRONTIER-2` (`00423c428`, `33c833a3a`, `e1bcf46a1`, `f2b000f21`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Frontier_Passed = True`.
    - First repository-sealed verification of `physical` `P-C3e` (`39c903c42` on `47e6078ae`): `12`-mode aligned vs `10`-mode misaligned fixed-sector kernel (`\beta_1 = -1, \beta_3 = +1`, `D_5 (2,2)` exterior sign `+1`), **first numerical evaluation of normalized light cubic couplings on $E_{\tau = i\sqrt{3}}$** (`|\lambda_+| / e_Q \in (1797/1000, 1798/1000)`, `|\lambda_-| / e_Q \in (1550/1000, 1551/1000)`, intrinsic cusp-suppression hierarchy `|\lambda_+| / |\lambda_-| \in (1159/1000, 1160/1000)`), balanced form quartic cancellation (`< 4 * (1/1000)^3` at `t = 1/100` vs unbalanced `> 26/100`) + `60`-digit two-step moment `IFT` (`< (1/1000)^19`, `\rho(1/10) \in (999/1000, 1)`, exact `m_Q^2 = 4 e_Q^2 t^2`), and `248`-dim $E_8$ nilpotent pencil ranks `(180 vs 148)` + eighth-power trace law $\operatorname{Tr}_{248}(\operatorname{ad} X)^8 = \frac{15}{2}(\operatorname{Tr}_5 X^4)^2$ (`< (1/1000)^20`, keeping infinite-dimensional Banach/Schauder cusp `IFT` scoped in Tier `II`).
-3. **`Stage 3 / X-FRONTIER-3` (`d8efa7462`, `e5f6a9391`, `9b77375b9`, results sealed):**
+3. **`Stage 3 / X-FRONTIER-3` (`d8efa7462`, `e5f6a9391`, `9b77375b9`, `0b5cb9fe1`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Frontier_Passed = True`.
    - First repository-sealed verification of `physical` `P-C3f` (`47e6078ae`): exact `16 -> 32 -> 16` `3`-pivot cyclic corner contraction (`SDR` ranks `[1,2,1]`, zero higher `HPT` corners, zero division by `f_1, f_2`, compact degrees `[-2, 0, 0, 2]`, `128`-block zero-mode tables `[18, 16, 8]` vs `[16, 16, 8]`), **first numerical evaluation of the normalized colour-triplet quadratic mass constant on $E_{\tau = i\sqrt{3}}$** via spectral Bloch–Fourier Dolbeault Green operators $G_B, G_C$ across $M \in \{16, 24, 32\}$ (`\sigma_2 / \sigma_1 < 3 * (1/1000)^4` proving `rank(K_*) = 1`, agreeing with analytic Kronecker–Szegő residue factorization to `< (1/1000)^3 * (1/100)`, `\sigma_* \in (6881/10000, 6882/10000)` and `\sqrt{2}\,\sigma_* \in (9731/10000, 9732/10000)`), and prospective resolution of `physical`'s $D_5$ `(2, 2)` cross-form question (`unique all-orders F-flat completion c_3 = 1/2 decouples identically from all three reduced differentials on A -> B + C -> D, keeping the 3rd singlet pair massless at rank = 2 unless the endpoint common divisor Z = p is shifted`, keeping local $L^2$ cusp Dolbeault graph-closure scoped in Tier `II`).
 
