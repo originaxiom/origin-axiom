@@ -80,8 +80,8 @@ the one-dimensional curve.
 The standard Koszul signs and local generator changes were personally
 checked in the Stacks definition. The two-arrow cohomology above is
 computed explicitly. Its point-supported modules are coherent curve
-sheaves. The étale torsion-sheaf search result concerns a different
-cohomology theory and supplies no premise here. [Stacks Project, Koszul complex](https://stacks.math.columbia.edu/tag/0621)
+sheaves, with finite lengths and vanishing higher cohomology.
+[Stacks Project, Koszul complex](https://stacks.math.columbia.edu/tag/0621)
 
 ## 3. Translate (4) to the complete 128 physical block
 

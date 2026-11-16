@@ -1,0 +1,467 @@
+{
+  "date": "2026-11-16",
+  "scope_card": "d62a9e2fd",
+  "first_proof_checkpoint": "e0acc9254",
+  "source_pin_head": "e0acc9254786121a8488e03074db243c05ce1987",
+  "evidence_grade": "Author hand derivation pending independent proof review. Standard-library Git metadata and byte hashing only.",
+  "source_completeness": "Direct source inventory and inherited reading. Independent source-completeness acceptance pending.",
+  "scientific_execution": "None for the current package. The separate ca02b5d8d mathematical checker remains unimported, uncollected and unrun here.",
+  "foundational_inputs_removed": 0,
+  "sources": [
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md",
+      "sha256": "f36ee288a5e2b85a5314d0f21aaa929ec1d7b95d48407e99f01b0b024f5587aa",
+      "bytes": 3182,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_DESIGN.md",
+      "sha256": "96eb1ee7b47ad2d0c9fd46d15d79a061c1abb19874437a2a812537c7cfdd3387",
+      "bytes": 5008,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/MIXING_SELECTION_PROOF.md",
+      "sha256": "b4be127362d66c1bc69a576eb48dd71c53bd180ac04c5237ee57854f3d1d1c52",
+      "bytes": 6712,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md",
+      "sha256": "e021f192f2e7da5f3ad6217035b2108a8604988f20f099923aebca0648d09c37",
+      "bytes": 8020,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md",
+      "sha256": "221f02c7a7f81c93d003e9906f11e9fe8a8ca8627f812e78857bceae35a09cb5",
+      "bytes": 7290,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md",
+      "sha256": "f7a83f64c02d79cc0beeebf896e7aefc1814a0283902ca8afce04932675b3a43",
+      "bytes": 6301,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "sha256": "31c5b4b487551ead91ba78003f4b8469f98a4a6bf539d8111329b033133ae118",
+      "bytes": 11752,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL.md",
+      "sha256": "22a9260110718bc9cd4e18e667f91486e6e780b9477b43f3e1125e4e0bb2b205",
+      "bytes": 9344,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+      "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+      "bytes": 16134,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md",
+      "sha256": "ecd5491332b3daf2874a40e0e64ac34b7aaa3559ca8c370498ecdf7350ede6dd",
+      "bytes": 6358,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md",
+      "sha256": "fdaaeae39c1719d769e59f8a00ae68cf50a80200759da0c0799e7e5797391da1",
+      "bytes": 8098,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md",
+      "sha256": "708003ca30de9dbb1d8902291b941b32d9cf42f1cbf191502dd2439f246bfeef",
+      "bytes": 7379,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY.md",
+      "sha256": "5b6f52df8751175abe89a39c144c978264cd00e146b94cdbc65ac305ddd08063",
+      "bytes": 8440,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/ACCEPTANCE.md",
+      "sha256": "8cf53135e3efebc1912390f809b5a18fe00a091174021e6b9e8fcb726547bdb0",
+      "bytes": 4383,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_FAILURE.md",
+      "sha256": "00f29e2bc0eacb3e22d47e3ca20cf65ec6ad8db235fe0d8854068f49fec71c44",
+      "bytes": 1855,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING.md",
+      "sha256": "f11c21434ab2c1a55cc74fbea5d388301714c8e0edffdcfa6faa718801525522",
+      "bytes": 10892,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md",
+      "sha256": "ab2e7d3b34f5d86086b2d1d5e088b8aaf2ee1dc2e9c1f4315c1df669e8727c15",
+      "bytes": 9595,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md",
+      "sha256": "869687e8e8c9169eb54f09bd1767918736392869a60a6669218bd392d9dcbe59",
+      "bytes": 10799,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "bytes": 8376,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE.md",
+      "sha256": "2aa39752783230788c280837fed3b4c05fb5070f344a6ec1a07c89c30d9003a2",
+      "bytes": 7368,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE.md",
+      "sha256": "fe88bc5c3c02967453869caa7d15bd0d6945b9d40550d71dd82dfb70194ecb9c",
+      "bytes": 6257,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md",
+      "sha256": "772b15f546c9e3e509946b86bcb4a57e882815849b1cd1826fdc4b6ce8ad5e8d",
+      "bytes": 10738,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md",
+      "sha256": "639bc536acfc9f5a3112337ec62efecd852d5ca4050b557e695673013f136259",
+      "bytes": 7711,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md",
+      "sha256": "33b9433e93abd207ac005a1e566f141fa18968f46445655dfd549b1df0f3ff89",
+      "bytes": 9550,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX.md",
+      "sha256": "d196e41234f235544719ee1b1469652a04e32dec65c4125207f9eb94def83f42",
+      "bytes": 10067,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT.md",
+      "sha256": "0fca0b4547e818b98e4732bc5fa63be2a14cee569232891b0dfba83d7fb6dff9",
+      "bytes": 10650,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF.md",
+      "sha256": "453d6603955656efbb99ef90c180c64d08b5a6a2596ae3b6921cfa72013e8613",
+      "bytes": 16304,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE.md",
+      "sha256": "9637c0346b53bd14a4b78a3dd1070eb62b85c2a89fe23e29b7c4395803886b8f",
+      "bytes": 6850,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "sha256": "25f190df24aaabb26220669f0903870e1d0c88fed53409c24e8749c64bd063cb",
+      "bytes": 14036,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/sources/frontier/B1700_the_higgs_end_data_is_the_unit/FINDINGS.md",
+      "sha256": "d8887436a827e2dfabc74fbde71c7cdac384080363a59419a0ae26638da3674c",
+      "bytes": 4313,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "bytes": 12292,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "bytes": 6149,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311",
+      "bytes": 15311,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "bytes": 12276,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXISTING_NEUTRAL_FIELD_LIFTS_THE_UP_KERNEL.md",
+      "sha256": "198ca027a3a4b6527c47dab4486b3b68c19a5f40a0555ad8ad05e11d38db20df",
+      "bytes": 13855,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "bytes": 11634,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "bytes": 11904,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "bytes": 11103,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINT_ROOT_ACTION_AND_AUTOMORPHY.md",
+      "sha256": "a6067694e723761b17042703c0d50f67cc7f749655575dade187ada2cc045536",
+      "bytes": 9196,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md",
+      "sha256": "8a0476b191517bb60c5e0a4a71f086262fd16ae23cd069bb6fd98fc7d4bf90bb",
+      "bytes": 15961,
+      "reading": "Full proof body personally read this continuation; no scientific execution."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEUTRAL_STATE_COMPLETE_CHARGED_KERNEL_AND_FOURTH_ORDER_MAP.md",
+      "sha256": "2220bd04aba8dcb3c95c149131ae008af7e37e1bbd223ce014c0842ac0062ef7",
+      "bytes": 13586,
+      "reading": "Full proof body personally read this continuation; no scientific execution."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8",
+      "bytes": 4482,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_FLAVOUR_ORBIT_METRIC_AND_HEAVY_RESPONSE.md",
+      "sha256": "31467b660be024c9f42ca8fb6d6dffe178d7d4692f4751b68b342abbc03c7aee",
+      "bytes": 15965,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_TRANSPORT_FAMILY_AND_LEVEL_FIVE_FREDHOLM_CANDIDATE.md",
+      "sha256": "6ca28bfaddce9ee874daa727b80c5acb541b2611f02cabf816c5c6e7146f61ce",
+      "bytes": 15369,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6",
+      "bytes": 9587,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+      "sha256": "577b00a1c6b8ff40a23d0b7f469790117740c713e058b6ddbd7610940c1571a7",
+      "bytes": 9867,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "bytes": 16197,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    },
+    {
+      "commit": "e0acc9254786121a8488e03074db243c05ce1987",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "bytes": 12732,
+      "reading": "Inherited source reading and review qualifications; direct source reused."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md",
+      "sha256": "33760b1e06af632c09fb5f45f9acc674393437af75de4b6eb855f1032c0898b2",
+      "bytes": 6517
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN.md",
+      "sha256": "3d627e26b050d219ddb4a960a920d7fe96f4ff20c9c61ca6f7415cf5d56fe8a2",
+      "bytes": 6946
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/FINDINGS.md",
+      "sha256": "50ec3e1d8e0ef0068b7c6e4ee3532f69a4a1bea5ba773e125763f2a0dea568c8",
+      "bytes": 5288
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/PRIOR_WORK_RECONCILIATION.md",
+      "sha256": "11f31321891cc3f959956bd293586635433aaa1296a07c41233e9e9a1105eefb",
+      "bytes": 2033
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REVIEW_BRIEF.md",
+      "sha256": "bf159a4b0f38e873c8cd9e8776c9838db4f417b3276fbc18f910d4ded0e01b04",
+      "bytes": 3468
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md",
+      "sha256": "1ee8e35c941c0c83437ae563e4ffb87f8f35fd81a1a10047e3f0a8fafd8dce19",
+      "bytes": 8919
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REFRESH_RECEIPT.json",
+      "sha256": "d50bcd7e466815ad78300d5ba15a897e1c5d1c407140995460b0ec4d0e94bba3",
+      "bytes": 3103
+    },
+    {
+      "path": "relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md",
+      "sha256": "07efb37cbc7937db762ebdc2a7f76050fd4cfe17f1dc5f1d000ad3fe9f75c6ac",
+      "bytes": 2642
+    },
+    {
+      "path": "relays/STATUS_PHYSICAL.md",
+      "sha256": "b818d3e7de86a5d2f18a4a430b6b1d3f5b9313b46bc1e353d1f8310e1395525f",
+      "bytes": 14254
+    },
+    {
+      "path": "relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md",
+      "sha256": "5f40543c96c05f7d8a6ad9469ef1f1299eeebb4399d956988af41622fefd444e",
+      "bytes": 4035
+    }
+  ],
+  "external_readings": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0621",
+      "access_date": "2026-11-16",
+      "coverage": "Definitions 15.29.1-2, explicit differential and Lemma 15.29.4 read personally for signs and changes of generators."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/062D",
+      "access_date": "2026-11-16",
+      "coverage": "Definition and initial regular-sequence statements inspected; no length-two regularity premise imported."
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0E3A",
+      "access_date": "2026-11-16",
+      "coverage": "Lemma 53.22.1 proof inspected for coherent point support and curve exact sequences. The common-divisor cohomology is derived directly in the package."
+    }
+  ],
+  "protected_inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

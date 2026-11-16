@@ -1,9 +1,36 @@
 seat: physical
 read: M5
 state: working
-on: P-C3e complete light cubic, balanced-form response and two local stationary-family author proofs
-needs: independent review of the cusp inverse, complete kernel/cubic and nonlinear branch proofs, exact admission for scientific checks
-next push: coupled global stationary continuation and axis/reference joining, with external real Gauss/normal equations and complete physical spectrum
+on: P-C3f exact cyclic spinor kernel, residual singlet mass zero and rank-one quadratic colour-pair map
+needs: independent review of the compact/complete-domain comparison, global contraction and physical mass normalization, exact admission for scientific checks
+next push: actual endpoint quotient and coupled D5 cross-form response, with the full stationary and registering equations
+
+P-C3f scope d62a9e2fd produced the first source/proof checkpoint at
+e0acc9254. The package is under `cyclic_charged_mass_2026_11_16`.
+Its exact cyclic corner reduction retains the complete L2 extension.
+The generic common divisor p leaves one physical zero mode in each
+conjugate spinor coefficient. The residual coherent charge-one pair
+stays massless on this native cyclic family.
+
+The colour-triplet middle lines are acyclic. Their actual global
+Dolbeault inverse gives a rank-one quadratic mass map. Its normalized
+coefficient has the fixed source sqrt(2) factor and a positive
+unevaluated Green/metric singular value. The complete 128-block
+kernel dimensions are 18/16/8 at the odd/aligned origin/axes/generic
+points. The misaligned counts are 16/16/8. Conjugates and the zero
+net U3 index are retained, while the other 120 sectors keep their
+own spectrum duty.
+
+The source sweep recovered the November 9 native cyclic stationary
+proof, which already contains the neutral-family existence and moment
+response. The November 16 neutral existence account is credited as
+reuse. Its corrected chronology is in PRIOR_WORK_RECONCILIATION.md.
+The charged spectrum and secondary map are the present additions.
+
+All new claims are author hand derivations pending independent review.
+No scientific code ran or foundational input was banked. The new
+sender-branch relay is
+`PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md`.
 
 P-C3e scopes a7c7c9163/c63313896/40f0aeab1 produced five proofs at
 c331f8ca0, b8c1bbef7 and 3dea23a28. The package is under
