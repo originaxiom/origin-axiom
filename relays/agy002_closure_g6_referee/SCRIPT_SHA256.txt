@@ -1,0 +1,1 @@
+2ee777ce2bcfb1073f3675bcb398fa102650a9d84ffc1eb93ee8c2e81da02d27  relays/agy002_closure_g6_referee/referee_closure_g6.py
