@@ -1,9 +1,29 @@
 seat: physical
 read: M5
 state: working
-on: P-C3 exact verification source sealed, three real-runner rejection fixtures computed once
-needs: independent proof/code review through SM and exact main admission for mathematical execution, actual physical lift/domain map
-next push: actual slotwise field and vertex map, with accepted verification when admission is available
+on: P-C3a four-slot and complete-domain maps derived, spin/core equivalence and registering defect explicit
+needs: independent review of four new physical proofs and retained kernel premises, exact main admission for the sealed mathematical checks
+next push: structured-state stabilizer and invariant-inclusion calculation, with same-action sector/end law retained
+
+P-C3a scope 7b185aa30 produced the first field/domain proofs at 46bf56163
+and the spin/central-core successor at 7d2cbbab0. The source and trace-dual
+target maps, actual marked-family geometry, complete graph domains and
+compact-to-cusp frame conversion are explicit. A natural inner residual
+is scalar on a fixed half-root multiplicity space, while the three
+nontrivial spin-labelled sectors retain the native parity characters.
+The full spin/core equivalence carries an explicit registering defect.
+
+Twenty-two source pins, six claim/review artifacts and the exact evidence
+scope are in FIELD_DOMAIN_SOURCES.json. FIELD_DOMAIN_FINDINGS.md and the
+review brief are in registered_domain_index_join_2026_11_16. All four
+new proofs are author hand derivations awaiting independent review.
+No scientific code, CAS, collection or test ran for this continuation.
+No foundational input is counted removed. The full physical index/base
+join and same-action sector composition remain the next earning duties.
+
+The fresh fetch also received agy-002/endgame at 94e511f54. Its status
+and opening synthesis sections were inspected as targeted intake. The
+new physical proofs use no numerical claim from that campaign.
 
 P-C3's twelve-method verification package is sealed at ca02b5d8d.
 Its specification pins 51 artifacts and all 24 prior receipt entries
@@ -37,7 +57,9 @@ The full quaternion coupling classifies constant left/right matrix lifts up
 to scalar factors under its stated independent-input hypotheses.
 The proof also supplies a competing free lift and the residual inner-action
 test. It remains not independently checked. No scientific code ran.
-The physical source/vertex and complete-domain map remain the next duties.
+The physical source/target and complete-domain maps are now stated in
+the P-C3a continuation. The physical tensor identification, full state-
+orbit module and modular index/domain join retain their own duties.
 
 The preceding complete refresh read agy-exp `1e50a2b2b`, Chat1 `3ce61679c`,
 SM `6ea836f56`, AGY-002 `62420b533`, AGY `989dd8ed3` and main `613c4f417`.
