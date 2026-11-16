@@ -1,0 +1,156 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage2_Closure_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "mpmath",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-CLOSURE-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_orthogonal_reduction_proof1": {
+    "E1_OrthogonalReduction_and_HalfRootGap_Gate_passed": true,
+    "PC_CL2_NonparallelHiggs_mixed_anticommutator_norm": 2.23606797749979,
+    "PC_CL2_WrongConnectionNorm_frob_err": 2.0,
+    "complement_gap_c_delta_at_ell1_exact": "3/4",
+    "delta_squared_zero": true,
+    "eq8_positive_norm_identity_err_60dps": 0.0,
+    "fibre_harmonic_kernel_dims_deg_0_1_2": [
+      1,
+      2,
+      1
+    ],
+    "harmonic_extreme_lines_verified": true,
+    "j_metrics_exact": true,
+    "jd_eq_sqrt2_dj_symbolic_exact": true,
+    "min_Mx_sq_over_2cdelta_norm_sq_on_complement": 1.8015012510425354,
+    "parallel_covariant_derivative_zero": true,
+    "parallel_mixed_anticommutator_frob_err": 0.0
+  },
+  "part_2b_correlated_orbits_and_modes_proof2": {
+    "E2_CorrelatedOrbits_and_DirectZeroModes_Gate_passed": true,
+    "form_and_gaugino_counts_per_half_root": {
+      "form_modes": 2,
+      "gaugino_modes": 0
+    },
+    "order_2O": 48,
+    "order_D_stabilizer": 16,
+    "pure_spin_mode_counts": {
+      "PC_CL2_BareOrder8Lift": 0,
+      "PC_CL2_ColourTriplet": 0,
+      "PC_CL2_MisalignedSeed": 0,
+      "aligned_seed": 1,
+      "odd_seed": 1
+    },
+    "spin_state_orbit_counts": {
+      "aligned_spin_eq_state": 3,
+      "misaligned_spin_neq_state": 6,
+      "misaligned_stabilizer_order": 8,
+      "odd_p0": 3
+    },
+    "torus_highest_weight_pairings": {
+      "alpha_minus_first_coherent": 1,
+      "alpha_minus_second_coherent": -1,
+      "alpha_plus_first_coherent": -1,
+      "alpha_plus_second_coherent": 1,
+      "pairing_minus": "-5/8",
+      "pairing_plus": "-7/8"
+    },
+    "total_128_half_root_kernel_dims": {
+      "coherent_aligned": 18,
+      "coherent_misaligned": 16,
+      "coherent_odd": 18
+    }
+  },
+  "part_2c_spin_triplet_and_scalar_line_proof3": {
+    "A_L_matrix": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "A_R_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    "E3_InducedSpinTriplet_and_ScalarLine_Gate_passed": true,
+    "PC_CL2_ErasedCentralSheet_sign_mismatch": 2,
+    "PC_CL2_NativeTripletL4_frob_mismatch": 3.4641016151377544,
+    "U_aligned_L4_diag": [
+      1,
+      1,
+      1
+    ],
+    "central_sheet_traces_normalized": {
+      "Delta_pow_4": -1,
+      "J_c": 1,
+      "epsilon": -1
+    },
+    "chi_aligned_r_s": [
+      -1,
+      -1
+    ],
+    "chi_odd_r_s": [
+      -1,
+      1
+    ],
+    "inner_parity_diagonals_aligned": {
+      "Fi": [
+        1,
+        -1,
+        -1
+      ],
+      "Fj": [
+        -1,
+        1,
+        -1
+      ]
+    },
+    "mu_pow_4_equals_sigma_verified": true,
+    "native_T_plus_L4_diag": [
+      -1,
+      -1,
+      -1
+    ],
+    "odd_module_reducible_all_ones_line": true,
+    "stabilizer_D_relations_verified": true
+  },
+  "scope_note": "Finite fibre, weight-pairing, radial cusp-exponent, and 2O representation verification of P-C3b Proofs 1-3 (bc729239d).",
+  "stage_2_gate_passed": true
+}
