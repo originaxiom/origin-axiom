@@ -1,0 +1,382 @@
+{
+  "campaign": "AGY-002-ENDGAME-V2",
+  "gate": "Gate 2 Cold-Room Countercheck \u2014 Frame D1 Covariance, Levels 5/10/15 Exponents & Blind Level-6 M_H^2",
+  "empirical_firewall": "0 of 19",
+  "gate_2_countercheck_passed": false,
+  "section_0_ast_and_digest_lock": {
+    "ast_and_digest_gate_passed": true,
+    "referee_ast": {
+      "ast_gate_passed": true,
+      "imported_modules": [
+        "__future__",
+        "ast",
+        "cmath",
+        "fractions",
+        "hashlib",
+        "itertools",
+        "json",
+        "math",
+        "mpmath",
+        "numpy",
+        "pathlib",
+        "typing"
+      ],
+      "disallowed_imports": [],
+      "float_literals_in_entire_file": 0,
+      "complex_literals_in_entire_file": 0
+    },
+    "producer_ast": {
+      "ast_gate_passed": true,
+      "imported_modules": [
+        "__future__",
+        "ast",
+        "cmath",
+        "fractions",
+        "hashlib",
+        "itertools",
+        "json",
+        "math",
+        "mpmath",
+        "numpy",
+        "pathlib",
+        "typing"
+      ],
+      "disallowed_imports": [],
+      "float_literals_in_entire_file": 0,
+      "complex_literals_in_entire_file": 0
+    },
+    "producer_script_sha256_check": {
+      "manifest_format_ok": true,
+      "digest_matched": true,
+      "expected_sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+      "computed_sha256": "14b8e6c00b975a656c063ea3bebcf9af67ad19a168a5b24ca74eb6029680d9fa",
+      "target_relpath": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py"
+    },
+    "producer_output_sha256_check": {
+      "manifest_format_ok": true,
+      "digest_matched": true,
+      "expected_sha256": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+      "computed_sha256": "888624e86624e4a0d27c09948c6098f2b2c788b5c9cdcdf5a53bc99cb2ccefcd",
+      "target_relpath": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json"
+    }
+  },
+  "section_1_wang_homology_and_stokes_flux_accounting": {
+    "stokes_and_flux_gate_passed": true,
+    "det_M": 1,
+    "det_M_minus_I": -1,
+    "smith_normal_form_M_minus_I": [
+      1,
+      1
+    ],
+    "H2_m004_Z_rank": 0,
+    "H2_cohomology_m004_Z_trivial": true,
+    "stokes_d2_d3_zero": true,
+    "source_free_boundary_flux": 0,
+    "cim_flux_triple": [
+      3,
+      3,
+      -6
+    ],
+    "cim_flux_sum": 0,
+    "spin_sum_mod1": [
+      "0",
+      "0"
+    ],
+    "sm_6Y_triples_neutral": true,
+    "matches_producer_section_1": true
+  },
+  "section_2_cim_3_3_minus6_modular_covariance": {
+    "modular_covariance_gate_passed": true,
+    "max_2d_quadrature_vs_closed_form_err": 9.815275750080386e-15,
+    "max_torus_double_periodicity_err": 3.954389370527832e-14,
+    "max_torus_double_periodicity_mp40_err": 5.73089552097579e-39,
+    "max_weil_transport_unitarity_err": 1.3322676295501878e-14,
+    "max_basis_overlap_vs_analytic_weil_err": 6.820031703350906e-15,
+    "max_T_covariance_err": 1.4878645486993984e-14,
+    "max_S_covariance_err": 5.907766282799742e-15
+  },
+  "section_3_levels_5_10_15_cusp_exponent_laws": {
+    "levels_5_10_15_exponents_gate_passed": true,
+    "exact_minima_table_matches_producer": true,
+    "level_5_exact_lepton_down_equality": true,
+    "level_10_pointwise_swap_1_10_vs_3_10": true,
+    "level_10_whole_orbit_minima_equality": true,
+    "level_15_colour_triality_split_ratio_3_over_2": true,
+    "level_15_S_ratios_lep_over_down": [
+      "3/2",
+      "11/10"
+    ],
+    "cim_level_10_bijection_w_to_9w_mod_20_lifts_checked": 288,
+    "cim_level_10_bijection_max_tensor_err": 3.993852722142437e-23,
+    "kronecker_unit_norms_distinct": true,
+    "max_mpmath_high_cusp_slope_err": 2.221318379662437e-05,
+    "mpmath_high_cusp_checks": [
+      {
+        "case": "N5_down_a2_5_S",
+        "exact_exponents": [
+          "1/5",
+          "11/20"
+        ],
+        "mpmath_fitted_exponents": [
+          0.19999999997770862,
+          0.5499999999888543
+        ],
+        "abs_err": 2.2291366491817147e-11
+      },
+      {
+        "case": "N10_down_a1_10_S",
+        "exact_exponents": [
+          "1/5",
+          "7/10"
+        ],
+        "mpmath_fitted_exponents": [
+          0.19999999999997212,
+          0.7000000000000827
+        ],
+        "abs_err": 8.265774456254107e-14
+      },
+      {
+        "case": "N10_lep_a1_10_S",
+        "exact_exponents": [
+          "1/5",
+          "1/2"
+        ],
+        "mpmath_fitted_exponents": [
+          0.1999999999999034,
+          0.4999999999999517
+        ],
+        "abs_err": 9.660512074946736e-14
+      },
+      {
+        "case": "N15_down_a2_15_S",
+        "exact_exponents": [
+          "2/15",
+          "37/60"
+        ],
+        "mpmath_fitted_exponents": [
+          0.13331112014953672,
+          0.6166555600747684
+        ],
+        "abs_err": 2.221318379662437e-05
+      },
+      {
+        "case": "N15_down_a4_15_S",
+        "exact_exponents": [
+          "7/30",
+          "1/2"
+        ],
+        "mpmath_fitted_exponents": [
+          0.23333172949238895,
+          0.49999919766507045
+        ],
+        "abs_err": 1.60384094438928e-06
+      },
+      {
+        "case": "N15_lep_a4_15_S",
+        "exact_exponents": [
+          "1/5",
+          "11/20"
+        ],
+        "mpmath_fitted_exponents": [
+          0.19999999999961363,
+          0.5499999999998069
+        ],
+        "abs_err": 3.86362437717244e-13
+      },
+      {
+        "case": "N5_down_a0_5_St",
+        "exact_exponents": [
+          "1/2",
+          "1/2"
+        ],
+        "mpmath_fitted_exponents": [
+          0.5,
+          0.5
+        ],
+        "abs_err": 3.220904672774979e-56
+      },
+      {
+        "case": "N5_up_a1_5_S",
+        "exact_exponents": [
+          "1/10",
+          "3/5"
+        ],
+        "mpmath_fitted_exponents": [
+          0.09999999999997163,
+          0.5999999999999858
+        ],
+        "abs_err": 2.8370853001102507e-14
+      }
+    ],
+    "frame_c_exact_minima_by_level": {
+      "5": {
+        "exact_order_point_count": 24,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "11/20"
+            ],
+            "lep": [
+              "1/5",
+              "11/20"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      },
+      "10": {
+        "exact_order_point_count": 72,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "1/5",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      },
+      "15": {
+        "exact_order_point_count": 192,
+        "S": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "2/15",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "11/20"
+            ]
+          }
+        },
+        "St": {
+          "averaged_minima": {
+            "up": [
+              "1/10",
+              "1/2"
+            ],
+            "down": [
+              "2/15",
+              "1/2"
+            ],
+            "lep": [
+              "1/5",
+              "1/2"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "section_4_blind_level6_scalar_mass_matrix_and_bit_ledger": {
+    "level6_higgs_mass_gate_passed": false,
+    "UM6_order_12_err": 2.2759572004815713e-15,
+    "UM6_eigenphase_max_err": 4.440892098500626e-16,
+    "geodesic_period_4ln_phi_err": 0.0,
+    "gauss_legendre_vs_midpoint_err": 5.420503824168071e-06,
+    "regime_1_pure_yukawa_bubble": {
+      "geodesic_ground_degeneracy_d": 3,
+      "geodesic_selection_bits_log2_d": 1.584962500721156,
+      "riley_cusp_ground_degeneracy_d": 3,
+      "riley_cusp_selection_bits_log2_d": 1.584962500721156
+    },
+    "regime_2_pure_kk_holonomy": {
+      "ground_degeneracy_d": 2,
+      "selection_bits_log2_d": 1.0
+    },
+    "regime_3_combined_1loop_M_H2": {
+      "eigenvalues_sorted": [
+        -0.0703106870186021,
+        -0.020523125430603476,
+        0.15167549145564915,
+        0.20146305304364825,
+        1.705578740775409,
+        1.7553663023634072
+      ],
+      "min_adjacent_eigenvalue_gap": 0.04978756158799813,
+      "ground_degeneracy_d": 1,
+      "additional_selection_bits_given_chiral_flux_sign": 0.0,
+      "overlap_with_plus_pi_over_6_mode": 0.9999999999999996,
+      "single_period_overlap_with_plus_pi_over_6_mode": 0.9999994792645556,
+      "flipped_flux_overlap_with_minus_pi_over_6_mode": 0.9382984715122213
+    },
+    "haar_u3_6_trials": 10,
+    "haar_u3_6_max_observable_err": 2.942091015256665e-15
+  },
+  "section_5_planted_fault_controls": {
+    "all_5_planted_faults_caught": false,
+    "PF2_1_untwisted_flux_periodicity_err": {
+      "measured_err": 3.074033502292535,
+      "caught": true
+    },
+    "PF2_2_b1947_naive_phase_T_cov_err": {
+      "measured_err": 0.00011398843692396946,
+      "caught": false
+    },
+    "PF2_3_spin_mismatch_periodicity_err": {
+      "measured_err": 9.815255281000123,
+      "caught": true
+    },
+    "PF2_4_corrupted_lepton_level15_shift": {
+      "measured_err": 0.13333333333333333,
+      "corrupted_minima": [
+        "1/15",
+        "1/2"
+      ],
+      "caught": true
+    },
+    "PF2_5_deg3_bit_pricing_control": {
+      "degeneracy": 3,
+      "bits": 1.584962500721156,
+      "caught": true
+    }
+  }
+}
