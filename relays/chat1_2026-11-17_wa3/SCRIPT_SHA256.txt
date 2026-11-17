@@ -1,0 +1,1 @@
+84f615e68bf7a9882fc345cd98db4bd01399e9d382ebac33339d94ae3d7bd53c  wa3_checks.py
