@@ -1,0 +1,7 @@
+C2: vol(m004) = 6 Lob(pi/3) = 2.02988321281930725004240510855
+    12 * Humbert vol(PSL(2,Z[w])\H^3) = 2.02988321281930725004240510855  diff -4.59e-41
+C3: N =  2: |PSL(2,O/N)| =       60, |image of Riley group| =       10, index = 6
+C3: N =  3: |PSL(2,O/N)| =      324, |image of Riley group| =      324, index = 1
+C3: N =  4: |PSL(2,O/N)| =     1920, |image of Riley group| =      160, index = 12
+C3: N =  6: |PSL(2,O/N)| =    19440, |image of Riley group| =     3240, index = 6
+C3: N =  7: |PSL(2,O/N)| =    56448, |image of Riley group| =    56448, index = 1

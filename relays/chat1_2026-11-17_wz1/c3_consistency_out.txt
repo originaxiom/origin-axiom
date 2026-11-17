@@ -1,0 +1,2 @@
+C3: N =  8: |PSL(2,O/N)| =   122880, |image of Riley group| =    10240, index = 12
+C3: N = 12: |PSL(2,O/N)| =  1244160, |image of Riley group| =   103680, index = 12

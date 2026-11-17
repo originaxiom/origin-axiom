@@ -1,0 +1,28 @@
+validate s=2: expansion 2.79980251491731  direct(R=400) 2.79979757330991
+LR z(0.3) vs z(0.3 +- ell): (1.59221358016 + 0.238892225317j) (1.59221358016 + 0.238892225317j) (-0.534543988955 + 0.423932465042j)
+s = 2.0  I(s) = 5.3665631459995  ratio to 5^(s/2) G(s/2)^2/G(s) zeta_K(s)/zeta(2s) = 1.0
+s = 2.5  I(s) = 4.73950224473266  ratio to 5^(s/2) G(s/2)^2/G(s) zeta_K(s)/zeta(2s) = 1.0
+s = 3.0  I(s) = 4.43455032492571  ratio to 5^(s/2) G(s/2)^2/G(s) zeta_K(s)/zeta(2s) = 1.0
+s = (1.7 + 3.0j)  I(s) = (3.35906926728251 - 0.738069580092749j)  ratio to 5^(s/2) G(s/2)^2/G(s) zeta_K(s)/zeta(2s) = (1.0 - 6.78261223784582e-33j)
+on the line: s = (0.5 + 14.1347251417j)  |I(s)| = 2.52384e-30
+on the line: s = (0.5 + 13.6j)  |I(s)| = 1.17475
+on the line: s = (0.5 + 14.6j)  |I(s)| = 1.46663
+Traceback (most recent call last):
+  File "<scratch>/c1_hecke_period.py", line 67, in <module>
+    g5 = findroot(lambda t: L5(mpc('0.5', t)), mpf('6.6'))
+  File "<site-packages>/mpmath/calculus/optimization.py", line 969, in findroot
+    for x, error in iterations:
+                    ^^^^^^^^^^
+  File "<site-packages>/mpmath/calculus/optimization.py", line 93, in __iter__
+    f1 = f(x1)
+  File "<scratch>/c1_hecke_period.py", line 67, in <lambda>
+    g5 = findroot(lambda t: L5(mpc('0.5', t)), mpf('6.6'))
+                               ~~~^^^^^^^^^^
+  File "<site-packages>/mpmath/ctx_mp_python.py", line 376, in __new__
+    imag = cls.context.mpf(imag)
+  File "<site-packages>/mpmath/ctx_mp_python.py", line 79, in __new__
+    v._mpf_ = mpf_pos(cls.mpf_convert_arg(val, prec, rounding), prec, rounding)
+                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/mpmath/ctx_mp_python.py", line 98, in mpf_convert_arg
+    raise TypeError("cannot create mpf from " + repr(x))
+TypeError: cannot create mpf from mpc(real='6.64845727602769856075507425102911022045', imag='0.00825014899919379602291999870757941868546')
