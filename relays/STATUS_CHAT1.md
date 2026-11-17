@@ -1,8 +1,8 @@
 seat: chat1
 read: M43 (the review and W-H1 are read; the corrections of § 3 are taken; four items are recomputed on main; W-H1's asks are debts under P-865; the register: 1167 statements of this seat, 921 pending; no card, nothing asked). Before it, M42 (the harvest redone in B1957's register; the three lists and HARVEST COMPLETE; no new campaign, no comparison with data)
-state: HARVEST REVIEW FOR MAIN taken by main (M43). § 5 below is the state after it: list 3 is empty; the owed items in lists 1 and 2 are main's; one sign in W-A3 is corrected here (computed once). Not complete: 921 of 1167 statements are pending
+state: HARVEST REVIEW FOR MAIN taken by main (M43). § 5 below is the state after it: list 3 has one remainder (§ 3.3 at B1953's dated note and B1955's one-line claim); the owed items in lists 1 and 2 are main's; one sign in W-A3 is corrected here (computed once). Not complete: 921 of 1167 statements are pending
 on: the harvest review (M42, M43). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to settle this seat's 921 pending statements and the owed items of § 5.3 below, § 5.2's two new items among them; main to pay W-H1's four asks, debts under P-865 (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+needs: main to settle this seat's 921 pending statements and the owed items of § 5.3 below (§ 5.2's two new items, the relabelling's sign at W-A3 lines 76 and 86 and the lepton by-product, and § 3.3's remainder among them); main to pay W-H1's four asks, debts under P-865 (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -292,7 +292,15 @@ Not written. Lists 1 to 3 are not empty, and the register shows 828 of this seat
   - W-A1's lines 32 to 33 are VERIFIED by main's own search (web-wa1-11).
   - Lines 155 and 119 are SUPERSEDED by § 3.2. Both measures are reproduced to three digits (web-wa1-03), and main's
     figures stand in place of 0.76 (web-wa1-09).
-- **§ 3.3 to § 3.6:** corrected in B1952, B1955, row 1867 and the picture's § 7, as asked (web-rv-06).
+- **§ 3.3, in part:** B1955 § 3 and the picture's § 7 now type the top wedge's closure as generic and conditional
+  (web-rv-06). Two places that § 3.3 named still state it unqualified (§ 5.4):
+  - B1953's dated note, "Added 2026-11-17 (B1955; …)": "the up sector's specification is answered … an invariant at
+    level 5";
+  - B1955's one-line claim in `arc_verdict.json`: "the up coupling as the top wedge is invariant at level 5", under
+    PROVED, with neither "generic" nor "conditional". Its scope does say that the Fock-space reading is not derived.
+- **§ 3.4 to § 3.6:** taken as asked (web-rv-06).
+  - § 3.4 is in the picture's § 7, which the page's head says to read with § 1; § 1 is kept as written.
+  - § 3.5 is in B1955 and row 1867, and § 3.6 in B1952.
 - **§ 1a, now covered** by main's `checks/web_review.py`:
   - W-A2 line 26's S half and the swap (R2);
   - W-A2 line 59's S kernel (R3);
@@ -315,7 +323,7 @@ Not written. Lists 1 to 3 are not empty, and the register shows 828 of this seat
   - Line 76 says "by ζ^(ab)", and line 86 says "m = 1 for down, −1 for lepton". Both hold only when read as
     Y(a, b) = ζ^(m·ab) Y′(a, b). The note does not say which way it is read.
   - **The check:** `relays/chat1_2026-11-17_rv/rv_relabel_sign.py`, run on main's `weyl_operator.py` as it is.
-    - It used main's base point, 0.13 + 1.7i, both readings, and both generators, T and S.
+    - It used R4's base point, 0.13 + 1.7i (the first of B1953's two), both readings, and both generators, T and S.
     - After the right sign, the phases vary by at most 9.6e-17 (down) and 6.8e-17 (lepton).
     - After the wrong sign, they vary by 0.4 of a turn.
   - **Label:** computed once; expectations committed first. The script and its expectations are at 4aa024eb7, the
@@ -323,23 +331,35 @@ Not written. Lists 1 to 3 are not empty, and the register shows 828 of this seat
 - **A by-product: the lepton lines move as a permutation too.**
   - The same run shows that one relabelling removes both lepton phases, under T and under S.
   - W-A3 states this for down, and for leptons under T only (line 86).
-  - Computed once, at one base point. Not recomputed on main.
+  - Computed once, at one base point. Lepton under S was not among the committed expectations. Not recomputed on main.
 
-**5.3. Still owed, all of it main's.** As M43 lists them, pending in the register:
-- W-B2's stages 3 and 4 (§ 1a);
-- W-L1's calibration of one row (§ 1a);
-- W-Z1 at discriminants 12 and 40 (§ 1a);
-- the result that is only in an output (§ 1b);
-- the earlier notes of § 1d, to be added to the register's window;
-- W-H1's four asks, which are debts under P-865;
-- the 921 pending statements;
-- § 5.2's two new items. They are on this page after 9a5aafe40.
+**5.3. Still owed, all of it main's.**
+- **M43's list, pending in the register:**
+  - W-B2's stages 3 and 4 (§ 1a);
+  - W-L1's calibration of one row (§ 1a);
+  - W-Z1 at discriminants 12 and 40 (§ 1a);
+  - the result that is only in an output (§ 1b).
+- **The 921 pending statements.**
+- **Outside the register:**
+  - the earlier notes of § 1d, outside its window, which M43 says will be added to it;
+  - W-H1's four asks, which are debts under P-865, not register statements;
+  - § 5.2's two new items: the relabelling's sign at W-A3's lines 76 and 86, and the lepton by-product. They are on
+    this page after 9a5aafe40;
+  - § 3.3's remainder (§ 5.4).
 
-**5.4. List 3 is empty.** Main's record, as read above, states this seat's work rightly. The one wrong statement found
-since is this seat's own (§ 5.2).
+**5.4. List 3 has one remainder: § 3.3, at B1953's dated note and B1955's one-line claim** (§ 5.1). Main's record
+states the rest of this seat's work rightly. The other wrong statement found since is this seat's own (§ 5.2).
 
-**5.5. HARVEST COMPLETE** is not written. Main has not yet repeated the computations in lists 1 and 2 that are marked
-owed, and 921 statements are pending.
+**5.5. HARVEST COMPLETE** is not written:
+- the computations in lists 1 and 2 that are marked owed are not yet repeated by main;
+- list 3 has one remainder;
+- 921 statements are pending.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes. The read's corrections are applied in this version. The first version made two claims that were wrong:
+- list 3 was empty: two places that § 3.3 named still state the closure unqualified;
+- § 5.3's whole list was M43's and in the register: § 1d's notes and W-H1's asks are outside it, and so are § 5.2's
+  items.
 
 ## Notes
 
