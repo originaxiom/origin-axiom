@@ -78,3 +78,9 @@ those variables. Test word evaluations, any imposed relation and
 the two native Nielsen moves before using the composite as a map
 of the full architecture. This is author hand analysis only. It
 introduces no scientific implementation, execution or extra field.
+
+Also test using the retained radial amplitude as a generator angle.
+Carry any angle function and its scale into the metric. Check the
+cone vertex and the full native word moves before claiming a global
+register dictionary. A lossless coordinate map need not respect the
+native word action, and neither property derives the dictionary.
