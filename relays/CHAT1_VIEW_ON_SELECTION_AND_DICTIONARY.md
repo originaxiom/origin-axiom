@@ -13,6 +13,16 @@ data-free. **Card:** W-V1 (`relays/cards/CHAT1_W-V1_view_on_selection_and_dictio
   view is shaped by both.
 - **Since this note:** the attack it proposes has been carried out in part, as W-A1 (its card and note). Where W-A1
   changes a statement here, this note says so.
+- **Since then (2026-11-17), two results bear on it; the body is not rewritten.**
+  - **The lead of § 3.3 fails.** W-L1 looked at frame C's read-out at τ = i under the author's ruling: FAIL, banked
+    provisional until the SM seat's re-run. In frame C, the point the act's axis names has only a modest hierarchy.
+  - **§ 4's dictionary is sharpened, not closed.** W-A2, banked on main's recomputation as B1952, finds the following.
+    - The record's lines of order 5 match the Weyl operators of the Weil space.
+    - The flux-5 zero modes of the fibre carry that space, split 3 + 2 by the centre.
+    - The generations sit on the fibre's 2-torsion, so they do not collide with colour.
+    - Postulate D's one counted entry becomes four narrower counted bits: the flux, the chirality, gauging SU(W), and
+      the Higgs's place. The count does not fall.
+    - D's Higgs clause is withdrawn (B1951, dated note).
 
 ---
 
