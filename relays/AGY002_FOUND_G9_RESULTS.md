@@ -3,9 +3,9 @@
 ## 1. Check Labels and Tracked Evidence (`docs/seats/README.md` § 12)
 
 - **expectations committed first:**
-  - Card commit `9d8948c56`: `relays/cards/AGY-002_FOUND-G9_amphicheiral-domain-wall-chirality-su2l-strong-cp-and-p864-repair.md`
-  - Initial script seal `465eead1e` & key-alignment erratum `66116e403b` / `d76552c9a`: `relays/agy002_found_g9/verify_found_g9.py`, `relays/cards/AGY-002_FOUND-G9-ERRATUM_pf9-5-key-alignment.md`, `relays/agy002_found_g9_fixed/verify_found_g9_fixed.py`, `relays/agy002_found_g9_fixed/verify_found_g9_fixed_out.json`
-  - Left-`SL(2, Z)` & `+d/ds` sign erratum `487f213d7` & unread output `4f85216c3` (`preserving all prior manifests untouched`): `relays/cards/AGY-002_FOUND-G9-ERRATUM-2_left-sl2z-and-kink-sign.md`, `relays/agy002_found_g9_v2/verify_found_g9_v2.py`, `relays/agy002_found_g9_v2/verify_found_g9_v2_out.json`
+  - Card commit `9d8948c56`: `relays/cards/AGY-002_FOUND-G9_domain-wall-aps-chirality-su2l-strong-cp-and-p864-repair.md`
+  - Initial script seal `465eead1e` & key-alignment erratum `66116e403b` / `d76552c9a`: `relays/agy002_found_g9/verify_found_g9.py`, `relays/cards/AGY-002_FOUND-G9-ERRATUM_pf95-dict-key.md`, `relays/agy002_found_g9_fixed/verify_found_g9_fixed.py`, `relays/agy002_found_g9_fixed/verify_found_g9_fixed_out.json`
+  - Left-`SL(2, Z)` & `+d/ds` sign erratum `487f213d7` & unread output `4f85216c3` (`preserving all prior manifests untouched`): `relays/cards/AGY-002_FOUND-G9-ERRATUM-2_left-sl2z-multiply-and-annihilator-sign.md`, `relays/agy002_found_g9_v2/verify_found_g9_v2.py`, `relays/agy002_found_g9_v2/verify_found_g9_v2_out.json`
 - **recomputed independently:**
   - Cold-room second script seal `4168381d7` (`built from the card + errata alone without reading verify_found_g9*.py, using 220-mode Sine-Galerkin + 200-node Chebyshev, 42x42 & 54x54 2D torus quadrature, symbolic Barger-Berger-Ohmann slopes, DOP853 vs RK4, and 50-digit mpmath SL(2, Z) reduction`) & unread output `8aeb6663f`: `relays/agy002_found_g9_referee/referee_found_g9.py`, `relays/agy002_found_g9_referee/referee_found_g9_out.json`
 - **tested against planted errors:**
