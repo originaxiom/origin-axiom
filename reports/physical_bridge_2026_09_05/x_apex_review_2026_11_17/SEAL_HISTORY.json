@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-11-17T16:30:43.757037+00:00",
+  "source_commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "trails": [
+    {
+      "stage": 1,
+      "card_commit": "4d456d524b51b8db5ab09744d0928f465f260a90",
+      "script_commit": "b6f91196f50ce46a62cca68722aa79d421db891e",
+      "output_commit": "2dcc49df2f405395600affdb993665b41d889eb4",
+      "result_note_commit": "600b3c7646b3a6743b4020cc6fee79db78988253",
+      "ancestry_matches": true,
+      "script_and_output_match_pinned_head": true
+    },
+    {
+      "stage": 2,
+      "card_commit": "72154f93a48f9cab0105b3a9c9ddebfd3910f64c",
+      "script_commit": "9491eef2079d96f238ad436d0c6816307e2805e1",
+      "output_commit": "5a9157cfac20520cac77584f458afcbdb99c2bcb",
+      "result_note_commit": "77b98bc1f685fcaaccf5fee7be228830df222750",
+      "ancestry_matches": true,
+      "script_and_output_match_pinned_head": true
+    },
+    {
+      "stage": 3,
+      "card_commit": "b971420127a5fe33d76f8bc09ce63cd71c022579",
+      "script_commit": "1201556119a41829653e8f9886a805e42916a63b",
+      "output_commit": "32a41845e0baa75fe39792e37fef12fa03f62afc",
+      "result_note_commit": "37f4cf63a72fe41063f5ff2729bb6bf8c98a3131",
+      "ancestry_matches": true,
+      "script_and_output_match_pinned_head": true
+    },
+    {
+      "stage": 4,
+      "card_commit": "5a979906be591c4f32473c8da29ccb0328345413",
+      "script_commit": "44ea8d25f83b5d3d30ecbf4ad826d658adb52505",
+      "output_commit": "6de998910f9bd4e59c0cf3f2980d56b92d726f10",
+      "result_note_commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "ancestry_matches": true,
+      "script_and_output_match_pinned_head": true
+    }
+  ],
+  "limitation": "Git custody and ancestry only. Does not establish unread/blind authorship, execution, output correctness or admission."
+}

@@ -1,0 +1,46 @@
+{
+  "source_files": [
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md",
+      "sha256": "bb8cc09e517e264133d7a06feb6b43df6f853b349c1bc94910910029e4dd21b6",
+      "git_blob": "e071b1b1b64425a587b2abd590df2ba0a00cce08",
+      "lines": 31,
+      "read_ranges": [
+        [
+          1,
+          31
+        ]
+      ],
+      "complete": true,
+      "role": "Comparison to the previously received hyperbolic metric repair; no numerical recomputation."
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_synthesis_1_verify/verify_x_synthesis_1.py",
+      "sha256": "95da39ed78baebb20b476bb470d220f25cb67e515a452b21ac302956d4bd8c1f",
+      "git_blob": "390f3c159f0b188857ad4f9aea2104032c00ebe6",
+      "lines": 670,
+      "read_ranges": [
+        [
+          115,
+          149
+        ],
+        [
+          282,
+          319
+        ],
+        [
+          433,
+          456
+        ],
+        [
+          580,
+          628
+        ]
+      ],
+      "complete": false,
+      "role": "Comparison to the previously received hyperbolic metric repair; no numerical recomputation."
+    }
+  ]
+}

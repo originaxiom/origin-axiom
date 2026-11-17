@@ -1,9 +1,9 @@
 {
-  "date_utc": "2026-11-17T16:14:41.739730+00:00",
+  "date_utc": "2026-11-17T16:27:13.668338+00:00",
   "main_head": "ff8e1ca57eb3e7d860b0e58a5ae5c409a55b8eee",
   "target_head": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
   "scope_commit": "edd86ea04d717198288ad68c18e241bc29c69c48",
-  "status": "interim source reading; stage four script and output pending",
+  "status": "source reading complete for the pinned X-APEX window; no scientific execution",
   "coverage": [
     {
       "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md",
@@ -275,11 +275,11 @@
       "read_ranges": [
         [
           1,
-          255
+          4472
         ]
       ],
       "kind": "personally read source/text",
-      "complete": false
+      "complete": true
     },
     {
       "path": "relays/x_apex_4_verify/verify_x_apex_4_out.json",
@@ -287,21 +287,22 @@
       "read_ranges": [
         [
           1,
-          175
+          1061
         ]
       ],
       "kind": "personally read source/text",
-      "complete": false
+      "complete": true
     }
   ],
   "scientific_runs": 0,
   "empirical_comparisons": 0,
   "notes": [
-    "All result notes and cards read in full.",
-    "Scripts and JSON outputs of stages one through three read in full.",
-    "Stage four script and output not yet read in full.",
-    "Custody does not establish that scripts produced outputs or certify their mathematics.",
-    "Overlap with prior physical constructions is disclosed; no independent acceptance of own underlying proofs."
+    "All four cards, four result notes, four scripts and four JSON outputs personally read in full at the pinned head.",
+    "All eight supplied hash files checked as bytes; original outputs remain received evidence.",
+    "Earlier metric-repair comparisons have their own bounded reading ranges in COMPARISON_SOURCES.json.",
+    "No scientific script was imported, collected or executed; no CAS, target comparison or measured input was used.",
+    "This source audit is not an independent execution result or an acceptance of underlying proofs authored in this lane.",
+    "The B1927 numerical readout table was not used; no below-edge nearest lookup entered a calculation."
   ],
   "supplied_hash_checks": [
     {
@@ -336,5 +337,9 @@
       "manifest": "relays/x_apex_4_verify/OUTPUT_SHA256.txt",
       "matches": true
     }
-  ]
+  ],
+  "scripts_read_line_count": 6321,
+  "final_fetched_main_head": "7d54c87313f58eaaea2c3204800357a26d6328e9",
+  "final_fetched_target_head": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "main_instruction_note": "The physical page remains M5. Main advanced during this reading; its B1952 landing summary was read for currency only, not audited in this X-APEX window."
 }

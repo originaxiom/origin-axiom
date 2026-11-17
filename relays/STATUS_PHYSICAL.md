@@ -1,18 +1,25 @@
 seat: physical
 read: M5
-state: working
-on: new campaigns paused; C7 dependency disclosure and requested X-APEX source reading
+state: waiting on main
+on: new campaigns paused; requested C7 disclosure and X-APEX source reading complete
 needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
-next push: defects-only X-APEX report with exact source files and lines
+next push: corrections or further existing-work scrutiny requested through main
 
-The first X-APEX source-reading checkpoint is in
+The completed X-APEX source-reading delivery is in
 reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md.
-It contains seven defects at the exact pinned head. Stages one through
-three and all four cards/result notes have been read in full. Stage
-four's long script/output are still in progress; coverage says so.
-SOURCE_INDEX.json pins twenty-four files, eight supplied hash files
-match and QUOTATIONS.json checks fourteen exact line excerpts.
-These are custody checks only. No scientific code ran or result banked.
+It contains fifteen defects at the exact pinned head. All four cards,
+result notes, scripts and JSON outputs have been read in full. The
+four scripts contain 6321 lines. SOURCE_INDEX.json pins twenty-four
+primary files, eight supplied hash files match, and QUOTATIONS.json
+checks thirty-six exact line excerpts. Earlier metric comparisons
+have separately bounded coverage. These are custody checks only.
+No scientific code ran or result was banked.
+
+The sender note is
+relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md.
+The final refresh reached main 7d54c8731, with the physical page
+still at M5 and the X-APEX target unchanged. B1952's landing summary
+was read for currency only and is outside this review window.
 
 The deciding issues so far are the flat massive operator used for
 the cusp contraction claim, omitted Fourier normal equations in the

@@ -98,7 +98,163 @@
       "line": 206,
       "exact_excerpt": "perm = [4, 3, 5, 0, 1, 2, 6, 7]",
       "matches": true
+    },
+    {
+      "finding": "XA-03",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 2638,
+      "exact_excerpt": "S[c] = int_{-L}^{+L}",
+      "matches": true
+    },
+    {
+      "finding": "XA-04",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4167,
+      "exact_excerpt": "enforces cusp Dirac^2 gap lambda_1 > 20",
+      "matches": true
+    },
+    {
+      "finding": "XA-05",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3003,
+      "exact_excerpt": "conditional gapped-spinor Branch B minimum",
+      "matches": true
+    },
+    {
+      "finding": "XA-08",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4093,
+      "exact_excerpt": "(ST)^3 = S^2 = C",
+      "matches": true
+    },
+    {
+      "finding": "XA-08",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4320,
+      "exact_excerpt": "[-1, 1, -1]",
+      "matches": true
+    },
+    {
+      "finding": "XA-09",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 2897,
+      "exact_excerpt": "om = mp.mpf(1) / (rv * (mp.mpf(1) + abs(mp.log(rv))))",
+      "matches": true
+    },
+    {
+      "finding": "XA-09",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4331,
+      "exact_excerpt": "pc3_cdef_wit[\"triplet_sigma_star_live\"] > 0.68",
+      "matches": true
+    },
+    {
+      "finding": "XA-09",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md",
+      "line": 29,
+      "exact_excerpt": "joint `(16, 24, 32)` Gram+Fourier refinement",
+      "matches": true
+    },
+    {
+      "finding": "XA-10",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3943,
+      "exact_excerpt": "float(vec_cas_111[k]) - float(obs_m32[k])",
+      "matches": true
+    },
+    {
+      "finding": "XA-10",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3958,
+      "exact_excerpt": "uv_w = build_zero_knob_uv_state_mp",
+      "matches": true
+    },
+    {
+      "finding": "XA-11",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3748,
+      "exact_excerpt": "Fraction(4, 15), Fraction(8, 15)",
+      "matches": true
+    },
+    {
+      "finding": "XA-11",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3784,
+      "exact_excerpt": "uv_mp[\"Y1\"]",
+      "matches": true
+    },
+    {
+      "finding": "XA-11",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3788,
+      "exact_excerpt": "build_hsqrt(s1_fc_uv, q1_fc_uv, s1_top)",
+      "matches": true
+    },
+    {
+      "finding": "XA-12",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4129,
+      "exact_excerpt": "zero leading-minor phase cancellations",
+      "matches": true
+    },
+    {
+      "finding": "XA-12",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3313,
+      "exact_excerpt": "tau_hi_minor = complex(float(mp.re(tau_star_mp)), 6.0)",
+      "matches": true
+    },
+    {
+      "finding": "XA-13",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3387,
+      "exact_excerpt": "abs(float(fl[\"lam\"]) - float(fl_fine[\"lam\"]))",
+      "matches": true
+    },
+    {
+      "finding": "XA-13",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3388,
+      "exact_excerpt": "fl[\"Yu\"] - fl_fine[\"Yu\"]",
+      "matches": true
+    },
+    {
+      "finding": "XA-14",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 3379,
+      "exact_excerpt": "except Exception:",
+      "matches": true
+    },
+    {
+      "finding": "XA-14",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 4189,
+      "exact_excerpt": "points diverge",
+      "matches": true
+    },
+    {
+      "finding": "XA-15",
+      "path": "relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md",
+      "line": 13,
+      "exact_excerpt": "source-reachability checks",
+      "matches": true
+    },
+    {
+      "finding": "XA-15",
+      "path": "relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md",
+      "line": 13,
+      "exact_excerpt": "itertools.count synthesis",
+      "matches": true
+    },
+    {
+      "finding": "XA-15",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "line": 101,
+      "exact_excerpt": "for node in tree.body:",
+      "matches": true
     }
   ],
-  "method": "Source excerpt/line custody only; no scientific execution."
+  "method": "Source excerpt/line custody only; no scientific execution.",
+  "date_utc": "2026-11-17T16:29:34.080827+00:00",
+  "finding_count": 15
 }
