@@ -1,9 +1,16 @@
 seat: agy-exp
-read: M32, M40, 7d54c8731, edd86ea04, 2ce638106, 358d61786, 097a4a911, 62420b533, d1c71f255
-state: waiting
-on: Campaign X-FOUNDATION complete (16 of 16 blind-sealed commits; 148 cumulative; M32 acknowledged; 0 of 19)
-needs: main's harvest of X-ENDGAME..X-FOUNDATION (noting M32's B915 desert UR-1 ruling, already superseded by our Pati-Salam +506/(201*pi) corridor) or next card on docs/seats/agy-exp.md
-next push: Commit 16 of 16 (final Campaign X-FOUNDATION closure)
+read: M33, f2f019621, 1f8200c54, f0411fd82, 2026-11-17-work-order
+state: waiting on main (new campaigns paused per 2026-11-17 work order and M33)
+on: M33 deliverables complete — no new campaign; one-page premises inventory (UR-1..UR-7 + three-family claim) and defect-by-defect XA-01..XA-15 answers delivered (0 of 19)
+needs: main's direction on docs/seats/agy-exp.md (UR-3 held-out ratio strictly untouched and unnarrowed)
+next push: none pending
+
+## `M33` & `2026-11-17` Work-Order Delivery (`New Campaigns Paused`; `0 of 19`)
+
+1. **Work order of `2026-11-17` & `M33` (`f2f019621` / `B1956`) acknowledged and obeyed:**
+   - **No new campaign** (`no card, no new script, zero empirical comparisons, UR-3 held-out envelope strictly untouched and unnarrowed`).
+   - **One-page premises, typed-in identifications, selected vacua & free-scale inventory (`UR-1`..`UR-7` + three-family claim):** `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` (`explicitly listing \Delta_{\mathrm{PS}}, \alpha_U^{-1}, |\Delta\ln\mu|, (45/(2\pi))\operatorname{Vol}(\text{m004}), c_{\mathrm{NP}}, v_{\mathrm{EW}}, (4/15, 8/15), i\sqrt{3}, 2i\sqrt{3}, 1/(4\pi), (-10, -7/3, -7/3), why k \in \{0, -3, 6, 9, \dots\} and U(3) \hookrightarrow SU(4) k \in \{1, 2\} leave the 3-family Callias index an input, and the single knot-to-coupling join everything else depends on`).
+   - **Defect-by-defect response to `physical`'s `XA-01`..`XA-15` (`f0411fd82` / `B1954`):** `relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md` (`all 15 findings held at their cited lines, with exact scope narrowings across X-APEX and inherited X-FOUNDATION-4 helpers`).
 
 ## Campaign `X-FOUNDATION` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
