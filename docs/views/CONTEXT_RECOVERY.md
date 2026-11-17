@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1648 |
-| … PROVED | 1147 |
+| arcs with a verdict file | 1649 |
+| … PROVED | 1148 |
 | … NEGATIVE | 386 |
 | … OPEN | 102 |
 | … RETRACTED | 13 |
@@ -24,13 +24,14 @@
 | … “OWNER” | 0 |
 | … “DONE” | 533 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1851 |
+| harvest rows (the last number) | 1852 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
 | B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
 | B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
 | B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
@@ -42,7 +43,6 @@
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 | B1941 | PROVED | “[NARROWED 2026-11-17, Review 83 (agy-002's R83-17, recomputed by main, B1950): the 28 points span heights 1.2 to 9, and near tau = i the determinant's sign reverses (-0.39 at 1.05i), so 'at every point' and 'no measure…” |
-| B1940 | PROVED | “[2026-11-17, Review 83: the second computation is made, agy-exp's X-MEASURE, harvest row 1826; and the exchange of the mixing moduli at height 12 is real, not a precision failure] THE BIG RUN'S AREA OPTIONS CORRECTED IN…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, ONLY AT THE PRIME 5 (B1951, PROVED, exact; P-863); THE WEB SEAT'S LOOK AT TAU = I FAILED (W-L1).** The web seat's W-A1, recomputed on main: level 5's Weil representation has commutant spanned by I and the parity rho(-I), whose eigenspaces are 3 + 2; hypercharge is its traceless element; the group preserving the split is the Standard Model's in its Z6 form; the even exterior powers carry one generation with the record's hypercharges. Main's control: at the primes 3, 7, 11, 13 the split is another, so only the act's prime gives 3 + 2. Conditional on one counted postulate D; thr…”
+“LATEST (2026-11-17, S306p: THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (B1952, PROVED for the computed parts; P-863).** The web seat's W-A2, opened at the author's request, recomputed on main: the 24 lines of order 5 are the Weil space's Weyl operators, moved as the record transports the lines; the fibre's five degree-5 theta functions carry that module and split 3 + 2; the act fixes one line only at 5. Main's addition, on frame C: the generation blocks move under tau to tau + 1 by a permutation with phases of order 4, so the triplet used for families (levels 2, 4, 8…”
 
 ## Completeness (nothing skipped silently)
 

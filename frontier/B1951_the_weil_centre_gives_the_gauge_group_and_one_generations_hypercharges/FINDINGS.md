@@ -62,12 +62,18 @@ dimensions (p + 1)/2 and (p − 1)/2, and the commutant is two-dimensional at ea
   even half for matter and its odd half for the Higgs; the gauge group is the unitary determinant-one symmetries of the
   Weil space that commute with ρ(−I). It replaces the typed-in hypercharges, the sector pairing and the gauge group.
 - **SE3,** the level, is a postulate too.
+- **Corrected 2026-11-17 (B1952; the web seat's W-A2).** The clause "its odd half for the Higgs" is withdrawn by its
+  author. The odd half is the even half's conjugate, the other chirality of the same fermion, and not a boson. The
+  Higgs fits as a boson valued in the Weil space itself, its doublet with 6Y = 3 (line D7 above stands). D as a whole
+  is not derivable from the ground alone: it becomes four counted bits (B1952).
 - **Not delivered:**
   - three families: one copy of Λ^even is one family;
   - the continuous colour group from the finite one: on the 3, ρ acts as A₅ in SO(3), which is real, while colour's
     triplet is complex;
   - the frame's use of the triplet: frame C uses its triplet index for the generations, and this dictionary uses the
     Weil 3 as colour. Both cannot stand;
+    - **Answered 2026-11-17 (B1952):** they are different triplets. The frame's generation blocks move at level 4 and
+      its Higgs direction at level 8, the Weil triplet at level 5, so the two do not collide.
   - the Higgs alone: the odd half also holds a colour triplet and a conjugate generation.
 
 ## Not claimed

@@ -1,0 +1,12 @@
+A: primes below 2000 at which the act fixes exactly one line: [5]; two lines exactly when p = +-1 mod 5, none otherwise: True
+B: the 25 Weyl operators are orthogonal (largest overlap 1.8e-16); XZ = zeta^-1 ZX (1.6e-16); rho(T) sends (1,0),(0,1) to ((1, 4), (0, 1)), rho(S) to ((0, 1), (4, 0)), linearly on all 25: True; the record's transport is ((1, 4), (0, 1)) and ((0, 1), (4, 0)): equal True
+C: u -> u + 1/5 is Z (7.6e-31); u -> u + tau/5 is X up to one common factor (1.3e-30); u -> -u sends psi_j to psi_(-j) (1.7e-30); rank 5; parity split 3 + 2
+D: the frame's units square to -1 (0.0e+00), anticommute (0.0e+00) and are orthogonal (0.0e+00): the level-2 Weyl operators up to phases
+D: the Higgs direction's triplet under tau -> tau + 1: a constant matrix (9.1e-42 at a fourth point), eigenvalue moduli [1.0, 1.0, 1.0], phases [0.125, 0.375, 0.875] (eighths: [1.0, 3.0, 7.0]); the Weil representation's T-phases: ['0', '2/5', '3/5']
+E: p =  3: split 2 + 1; sum Y 0, sum Y^3 6, SU(2)^2 Y -1/2, SU(1)^2 Y 0; lines the act fixes: 0
+E: p =  5: split 3 + 2; sum Y 0, sum Y^3 0, SU(3)^2 Y 0, SU(2)^2 Y 0; lines the act fixes: 1
+E: p =  7: split 4 + 3; sum Y 0, sum Y^3 0, SU(4)^2 Y 0, SU(3)^2 Y 0; lines the act fixes: 0
+E: p = 11: split 6 + 5; sum Y 0, sum Y^3 0, SU(6)^2 Y 0, SU(5)^2 Y 0; lines the act fixes: 2
+E: p = 13: split 7 + 6; sum Y 0, sum Y^3 0, SU(7)^2 Y 0, SU(6)^2 Y 0; lines the act fixes: 0
+F: on frame C (down, S; six points), the point transport is (a, b + a) (the other fails: 4.2e-02); U_L is determined up to a phase (singular values 2.0e-16, then 5.1e-02); unitary to 3.1e-15
+F: |U_L| = [[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]]: a permutation of the blocks up to phases: True; the gaps between its eigenphases: [0.25, 0.25, 0.5] (quarters: [1.0, 1.0, 2.0])

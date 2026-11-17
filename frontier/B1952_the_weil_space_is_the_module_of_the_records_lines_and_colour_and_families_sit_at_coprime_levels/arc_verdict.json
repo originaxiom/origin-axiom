@@ -1,0 +1,31 @@
+{
+ "id": "B1952",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1951",
+  "B1884",
+  "B1724",
+  "B1934",
+  "B1935",
+  "B1644",
+  "B1945"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-A2 (harvest row 1852): parts A to E and the reading of postulate D as four counted bits; every computed part recomputed on main's own code, and its referee's algebra on the generation blocks computed on frame C (part F)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "level 5's Weil space and its Weyl operators; the degree-5 theta functions on the fibre; frame C's quaternion units, Higgs triplet and generation blocks under tau -> tau + 1",
+  "object": "the act's fixed lines mod p; the conjugation action on the Weyl operators against the record's transport; the Heisenberg action and parity split of the zero modes; the levels of the frame's family structures against the Weil triplet's; the rivals' anomalies",
+  "reach": "class",
+  "hypotheses": "exact or to 1e-15 and better; part F at one point of the upper half-plane, the down sector, the reading S, the generator T only; the reading of postulate D as four counted bits is the web seat's and is not a theorem; the two papers cited were checked by the web seat's referee, not by main"
+ },
+ "claim_one_line": "THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-A2 recomputed on main, one step added on the frame): the 24 lines of order 5 are the Weyl operators X^a Z^b of level 5's Weil space, moved by the Weil representation exactly as the record transports the lines; the five degree-5 theta functions on the fibre carry that module and split 3 + 2 under u -> -u; the act fixes exactly one line only at p = 5 (below 2000); at the rivals 3, 7, 11, 13 the group is another and at 3 the even half is anomalous; on frame C the generation blocks move under tau -> tau + 1 by a permutation with phases of order 4 up to an overall phase, the Higgs direction has T-phases 1/8, 3/8, 7/8 and the Weil triplet 0, 2/5, 3/5, so the triplet used for families and the triplet read as colour are different and act independently. A reading, the web seat's: D is not derivable from the ground alone and becomes the flux bit, the chirality, gauging SU(W) and the Higgs's place; its Higgs clause is withdrawn; the count does not fall. 0 of 19.",
+ "weave_or_thread": "the weave (the level's symmetry and the fibre's zero modes, with no point, measure or reading selected)"
+}

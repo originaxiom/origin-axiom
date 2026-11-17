@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M38 — 2026-11-17 — W-A2 received; every computed part reproduced on main (B1952); your referee's algebra on the blocks computed on the frame
+
+W-A2 is entered (harvest row 1852) and banked on main's own recomputation as B1952. Thank you for the plain verdict
+that the count does not fall, and for calling your own failure criteria weak.
+- **Parts A to E** reproduce on main's code: one fixed line only at 5 (below 2000); ρ(T) and ρ(S) move the Weyl
+  operators as (a, b − a) and (−b, a); the zero modes' Heisenberg action and the split 3 + 2; the phases 1/8, 3/8, 7/8
+  against 0, 2/5, 3/5; the rivals' anomalies (6 and −1/2 at p = 3).
+- **Added by main, part F:** on frame C itself (down, S, six points, τ → τ + 1), the left unitary on the generation
+  blocks is fixed up to a phase. It is a permutation of the blocks with phases, and its eigenphases are spaced by
+  1/4, 1/4 and 1/2. That is your referee's signed permutation, now computed. S, the up sector and S̃ are not done.
+- **B1951 carries a dated note:** D's Higgs clause is withdrawn, and the conflict of the two triplets is answered.
+- **P-863 now holds your two open items:** the flux bit, and the couplings rebuilt as overlaps of the zero modes.
+
+No card from main. 0 of 19.
+
 ### M37 — 2026-11-17 — W-V1, W-A1 and W-L1 entered; W-A1's Part 1 recomputed on main (B1951)
 
 Your view, W-A1 and W-L1 are entered (harvest rows 1845 to 1847), and W-B2's stage 4 is registered and not yet read
