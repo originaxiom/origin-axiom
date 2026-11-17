@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M32, M40, 7d54c8731, edd86ea04, 2ce638106, 358d61786, 097a4a911, 62420b533, d1c71f255
-state: active
-on: Campaign X-FOUNDATION Stage 4 Card X-FOUNDATION-4 pre-registered (Commit 13 of 16; 145 cumulative; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-FOUNDATION (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+state: waiting
+on: Campaign X-FOUNDATION complete (16 of 16 blind-sealed commits; 148 cumulative; M32 acknowledged; 0 of 19)
+needs: main's harvest of X-ENDGAME..X-FOUNDATION (noting M32's B915 desert UR-1 ruling, already superseded by our Pati-Salam +506/(201*pi) corridor) or next card on docs/seats/agy-exp.md
+next push: Commit 16 of 16 (final Campaign X-FOUNDATION closure)
 
-## Campaign `X-FOUNDATION` Live Ledger (`13 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-FOUNDATION` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-FOUNDATION-1` (`b78fd1c78`, `c6f306191`, `08f06605f`, `60082c2de`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Foundation_Passed = True`.
@@ -16,8 +16,9 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 3. **`Stage 3 / X-FOUNDATION-3` (`0563c2d9a`, `b42470854`, `54d967dbc`, `974dc4fb8`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Foundation_Passed = True`.
    - First zero-import scientific execution of `PHYSICAL-C7` (`a5d9ab3c6`, Discriminators `1, 2, 3, 8, 9, 10, 11, 12`): conifold $\det Z = 0$, `50`-digit Hopf period `1` (`vs 1/2 dropped R`), exact `0` canonical symplectic integral on the Lagrangian primitive sphere, lossless $S^2 \times \mathrm{SU}(2)$ composite $(A, W)$ with cross-term metric `C7` eq. `(4)` (`< 2 * (1/1000)^3 * (1/10)` vs dropped cross term `> 24/100`), radial extra kinetic `C7` eq. `(13)`, two-interval constrained phase sewing `C7` eq. `(5)` (`exact 0 seam current error`), and order-`4` native shear $T^4 = \mathrm{id}$ matching `m004`'s `4`-fold cover $X^{(4)}$ (`|\det(M^4 - I_2)| = 45, Smith [3, 15]`).
-4. **`Stage 4 / X-FOUNDATION-4` (`Commit 13 card sealed`):**
-   - Pre-registered `relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md` strictly before creating `relays/x_foundation_4_verify/`.
+4. **`Stage 4 / X-FOUNDATION-4` (`840690b65`, `3c7f17004`, `48cd15da7`, final results sealed):**
+   - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Foundation_Passed = True`.
+   - Enforces `agy` `v17` (`d1c71f255`) AST reachability invariants across all `16` target-free model functions (`0` float literals, `0` `sqrt(3)` calls); proves perturbative `4D` quartic-crossing (`\min \lambda_{\mathrm{IR}} > 42/1000` across `286` vacua and `1320` histories) and unwarped `6D` `1`-loop Hosotani (`m_{\mathrm{scalar}} / M_{\mathrm{KK}} > 15/100 > 1/10`) scale-transmutation no-gos vs `45`-sheet instanton Buckingham-$\Pi$ rank restoration (`[1, 18] -> [1, 19] -> [2, 18]`); verifies the **Convention-Independent Level-`25` Weil Cocycle Dichotomy** (`B1945 §6` & `A2-AMP` `097a4a911`) across both unshifted `Frame C` (`(1, 2)` `1` phase vs `(1, -4)` `3` fifth-root phases at $T^5$ closing at $T^{25}$, plus full $\mathrm{SL}_2(\mathbb{Z})$ $T, T^5, S$ Gramian invariance `< 2 * (1/1000)^5`) and shifted-Higgs (`(1, -4)` `1` phase vs `(1, 2)` `3` fifth-root phases at $T^5$ closing at $T^{25}`); and seals the **`22`-Row Four-Tier Reconciled Master Closure Matrix** (`10 Tier I-A + 6 Tier I-B + 4 Tier II + 2 Tier III = 22` live-computed witnesses, `0` literal flags, keeping `edd86ea04`'s complete-cusp Banach inverse $P_v$ and register-to-parent extension scoped in Tier `II`, and noting `M32`'s `B915` ruling on minimal `SU(5)` desert `UR-1` superseded by our `Pati–Salam` `+506/(201*\pi)` corridor).
 
 ## Campaign `X-APEX` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
