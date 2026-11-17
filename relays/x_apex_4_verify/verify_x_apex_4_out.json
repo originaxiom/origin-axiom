@@ -1,0 +1,1061 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage4_Apex_Passed": true,
+    "agy_v17_disallowed_synthesis_hits": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_in_target_free_model_functions": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "inspected_target_free_model_functions": [
+      "bloch_wigner_mp",
+      "compute_e8_dual_e6_and_g422_intersection_exact",
+      "compute_m004_seifert_spin_cusp_gap_mp",
+      "compute_pr10_collar_casimir_and_scale_control_exact",
+      "derive_pati_salam_universal_1loop_exact",
+      "derive_su5_universal_1loop_eliminants_exact",
+      "entry_cusp_exponent_exact",
+      "neg_vol_on_gluing_curve",
+      "s_eff_joint_3d_2d",
+      "solve_coupled_e6_state_axis_join_bvp_mp",
+      "solve_joint_3var_newton",
+      "tau_nz_from_z1",
+      "tropical_svd_exponents_exact",
+      "z2_from_z1_gluing"
+    ],
+    "sqrt3_calls_in_target_free_model_functions": 0,
+    "zero_imports_from_main_or_other_relays": true
+  },
+  "card": "X-APEX-4",
+  "empirical_firewall": "0 of 19",
+  "part_4a_apex_v17_duale6_cusp_and_corridors": {
+    "E1_ApexV17_DualE6_CuspSpinor_and_288Diagnostics_Gate_passed": true,
+    "PC_CL4_MetricIsotropyCannotSelectVector": {
+      "frame_sec4_r23_values": [
+        0.13760014681303093,
+        0.24387972064423716,
+        0.19083722452678037,
+        0.13760014681303093,
+        0.0002348448150429692,
+        0.3206009038239368,
+        0.45931951184540476,
+        0.034835501319782365,
+        0.3153972538303358,
+        0.08202779775369794,
+        0.5813534844641928,
+        0.19858157288378672,
+        0.15812505535714697,
+        0.2627650034197863,
+        0.43994269370754413,
+        0.8778786101360406
+      ],
+      "frame_weight_abs_ratios_c1c3_c2c3": [
+        [
+          0.0002904786657786954,
+          0.005739187969405122
+        ],
+        [
+          0.0002864971250728088,
+          0.008046304695506497
+        ],
+        [
+          0.00028846728941467407,
+          0.00700429251509215
+        ],
+        [
+          0.0002904786657786954,
+          0.005739187969405122
+        ],
+        [
+          0.042418261867884374,
+          0.1765159366619642
+        ],
+        [
+          0.00025623241037199215,
+          0.007529850376014067
+        ],
+        [
+          0.00010824318069952954,
+          0.006835718519342075
+        ],
+        [
+          0.0021321946044669084,
+          0.009822821120006134
+        ],
+        [
+          0.00014727722626889798,
+          0.007440515552650196
+        ],
+        [
+          0.0007635948263141877,
+          0.008678771995117091
+        ],
+        [
+          0.0001831154719133523,
+          0.0068030433849795855
+        ],
+        [
+          0.000280870655115542,
+          0.0066187745978617835
+        ],
+        [
+          0.00024314493841978262,
+          0.005750230723351399
+        ],
+        [
+          0.0001507340327086102,
+          0.006801716895748796
+        ],
+        [
+          0.00017282820791356566,
+          0.007663269264480536
+        ],
+        [
+          0.0007992529380764848,
+          0.007026162308451915
+        ]
+      ],
+      "max_petersson_orthonormality_frob_err": 1.5772615867296466e-14,
+      "max_u3_unitarity_frob_err": 9.215522557106228e-16,
+      "num_u3_frames_tested": 16,
+      "sec4_r12_span_across_16_orthonormal_frames": 0.6800201184019783,
+      "sec4_r23_max_across_16_orthonormal_frames": 0.8778786101360406,
+      "sec4_r23_max_over_min_ratio": 3738.122172190246,
+      "sec4_r23_min_across_16_orthonormal_frames": 0.0002348448150429692
+    },
+    "complete_576_matrix_minor_noncancellation": {
+      "min_tied_det3_normalized_phase_modulus": 1.1038285735193494,
+      "min_tied_minor2_normalized_phase_modulus": 0.9968543097142872,
+      "tied_det3_matrix_count": 16,
+      "tied_minor2_matrix_count": 96
+    },
+    "coupled_e6_state_axis_join_bvp": {
+      "Higgsed_E6_mQ2_ScreenWall": {
+        "L_12": {
+          "action": 7.999999999986614,
+          "ode_residual": 9.41030247607274e-34,
+          "rel_diff_from_4mQ_wall_action": 1.6732171204125734e-12,
+          "slope_ratio_boundary_over_mid": 4.586468580756207e-11
+        },
+        "L_24": {
+          "action": 8.000000000001945,
+          "ode_residual": 1.15146724629148e-33,
+          "rel_diff_from_4mQ_wall_action": 2.431388423929093e-13,
+          "slope_ratio_boundary_over_mid": 9.46446852575015e-11
+        },
+        "L_6": {
+          "action": 8.0000000012031,
+          "ode_residual": 1.4020991080629993e-33,
+          "rel_diff_from_4mQ_wall_action": 1.5038748024664983e-10,
+          "slope_ratio_boundary_over_mid": 2.4576587265240445e-05
+        }
+      },
+      "PC_FR4_NeutralOnlyUnscreenedRamp": {
+        "L_12": {
+          "action": 0.4112335167120566,
+          "analytic_pi2_over_2L_err": 0.0,
+          "ode_residual": 4.742762760996207e-34,
+          "slope_ratio_boundary_over_mid": 1.0
+        },
+        "L_24": {
+          "action": 0.2056167583560283,
+          "analytic_pi2_over_2L_err": 0.0,
+          "ode_residual": 1.1856906902490517e-34,
+          "slope_ratio_boundary_over_mid": 1.0
+        },
+        "L_6": {
+          "action": 0.8224670334241132,
+          "analytic_pi2_over_2L_err": 0.0,
+          "ode_residual": 1.8971051043984827e-33,
+          "slope_ratio_boundary_over_mid": 1.0
+        }
+      }
+    },
+    "e8_dual_e6_and_g422_bridge": {
+      "PC_AP1_su4c_roots_in_e6_cent": 0,
+      "dim_e6_cent": 78,
+      "dim_e6_cent_cap_e6_gut": 16,
+      "dim_e6_cent_cap_g422": 7,
+      "dim_e6_gut": 78,
+      "dim_g422": 21,
+      "n_e8_roots": 240,
+      "weyl_swap_fixes_su2L_su2R": true,
+      "weyl_swap_maps_e6_cent_onto_e6_gut": true
+    },
+    "m004_seifert_spin_cusp_confinement": {
+      "PC_AP3_periodic_0_0_lam1_Ly12": 0.06853891945200943,
+      "hosotani_quad_trace_pure_vs_full": [
+        8,
+        -10
+      ],
+      "m004_cusp_lam1_0_half": 20.584645967200377,
+      "m004_cusp_lam1_half_half": 56.71008196652072,
+      "seifert_genus1_spin2_minus_I2_err": 4.1340642196527976e-43
+    },
+    "pati_salam_and_su5_corridors": {
+      "PC_U4_WrongPatiSalamSign_err_at_Delta8": 0.1283468471362557,
+      "finite_counts_by_level_N600": {
+        "level_10": 70,
+        "level_15": 192,
+        "level_5": 24
+      },
+      "max_I_gauge_ir_all_1320": 0.004692453107071587,
+      "max_eps_uv_across_286_finite": 0.3067104497169759,
+      "max_ps_ode_err": 5.3013149425851225e-15,
+      "max_step_halving_diff_N600_vs_N1200": 2.869702962457664e-06,
+      "min_I_gauge_ir_all_1320": 0.003129152040018318,
+      "min_eps_uv_across_2_level10_blowups": 4.269005143494096,
+      "min_lambda_ir_all_1320": 0.04205540082189188,
+      "two_nonperturbative_level10_blowups": [
+        {
+          "a": "0",
+          "b": "3/10",
+          "eps_uv": 4.269005143494096,
+          "level": "level_10"
+        },
+        {
+          "a": "0",
+          "b": "7/10",
+          "eps_uv": 4.2690051434941685,
+          "level": "level_10"
+        }
+      ]
+    },
+    "pr10_collar_casimir_and_scale_control": {
+      "PC_SY4_FakeEmbeddedTargetPotential_dV_at_3": 1.9998022257167996,
+      "PC_SY4_SameDimensionUnselectedMassRatioControl": {
+        "dimensional_exponent_matrix": [
+          [
+            1,
+            1
+          ]
+        ],
+        "dimensional_matrix_rank": 1,
+        "independent_same_dim_mass_count": 2,
+        "nullspace_exponent_check_residual": 0,
+        "unselected_dimensionless_ratio_nullity": 1,
+        "unselected_ratio_span_5_minus_1_over_3": 4.666666666666667
+      },
+      "branch_A_max_dV_dL4": -0.00019777428320044994,
+      "branch_B_conditional_L4_star": 1.682569149241317,
+      "branch_B_conditional_d2V_dL42": 0.0014443828122952765,
+      "c_ferm_uv": "153/4",
+      "c_gauge_uv": "231/4",
+      "c_ir_chiral_massless": "28",
+      "c_scal_uv": "-3/2",
+      "c_uv_total": "189/2",
+      "exact_supertrace_189_over_2_and_28": true
+    }
+  },
+  "part_4b_twenty_row_four_tier_master_closure_matrix": {
+    "E2_TwentyRow_FourSeat_MasterClosureMatrix_Gate_passed": true,
+    "PC_CL4_NonHermitianPositiveRealSchurCounterexample": {
+      "bare_pi_branch_theta_rad": 3.141592653589793,
+      "full_6x6_det_arg_rad": 0.0,
+      "generic_asymmetric_mirror_phase_rad": 0.6639661940339862,
+      "light_schur_det_arg_rad": 0.0,
+      "light_schur_diag_value": 1.1714285714285715,
+      "nonhermitian_asymmetry_frob_norm": 2.029577215448919
+    },
+    "rows_four_tier_master_closure_matrix": [
+      {
+        "computed_witness": {
+          "smith_invariants_M4_minus_I2": [
+            3,
+            15
+          ],
+          "torsion_order": 45
+        },
+        "id": "T_IA_01_punctured_m004_relative_flux_and_4fold_torsion",
+        "seats": [
+          "agy-exp",
+          "physical"
+        ],
+        "statement": "Punctured m004 relative flux carrier H^2(X, dX; Z) ~= Z via longitude cokernel and 4-fold punctured cover H^2(X^(4); Z) ~= Z/3Z (+) Z/15Z preserving all 45 torsion classes.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "crt_T_and_S_frob_err": 2.578527800655397e-15,
+          "gauss_reciprocity_err": 2.410330500490526e-16,
+          "max_nonprojective_ST3_minus_S2_err": 2.1734987292873124e-15
+        },
+        "id": "T_IA_02_repaired_2inv_weil_metaplectic_sl2_and_crt",
+        "seats": [
+          "agy-exp",
+          "physical",
+          "agy-002"
+        ],
+        "statement": "Repaired 2^{-1} mod N + Gauss-sum gamma_N(r) metaplectic Weil generators satisfy non-projective (ST)^3 = S^2 = C, gamma_15(1) = gamma_5(3) gamma_3(2), and CRT W_15^(1) ~= W_5^(3) (x) W_3^(2).",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "cubic_u1_anomaly_at_minus2_3": 0
+        },
+        "id": "T_IA_03_spin10_exterior_anomaly_3_over_5_lock",
+        "seats": [
+          "agy-exp",
+          "agy-002"
+        ],
+        "statement": "Exact polynomial factorization A_{U(1)^3}(a,b) = 4(3a + 2b)((3a + b)^2 + 4b^2) on Lambda^{even}(3_a (+) 2_b) uniquely forces 3a + 2b = 0 and k_2/k_1 = 3/5.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "collar_lower_bound_2sinh2_1": 2.762195691083631,
+          "half_turn_commutator_op_norm": 2.0
+        },
+        "id": "T_IA_04_pc3_12method_quaternion_vertex_and_collar_bound",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Finite 4-cell boundary Wilson-holonomy half-turn quaternion commutator ||[U_x, U_y] - I_2||_op = 2 and hyperbolic collar lower bound 2 sinh^2(1) > 2.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "cs_m003_minus_quarter_abs": 5.0978941156238473e-57,
+          "cs_m004_mod_half_abs": 1.0330493317566339e-57,
+          "vol_m004_minus_vol_m003_abs": 4.078315292499078e-56
+        },
+        "id": "T_IA_05_zickert_rogers_flattened_cs_m004_vs_m003",
+        "seats": [
+          "agy-exp",
+          "physical"
+        ],
+        "statement": "Goerner-Zickert-Neumann flattened extended Rogers dilogarithm gives CS(m004) = 0 mod 1/2 on amphichiral m004 vs CS(m003) = 1/4 mod 1/2 on equal-volume chiral sister m003.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "repaired_11_over_2_mp100_rel_err": 3.7353235649813636e-64,
+          "tropical_gap_ratios_5_15_10s2_10s3": [
+            "39/31",
+            "15/11",
+            "31/5",
+            "29/26"
+          ]
+        },
+        "id": "T_IA_06_bpv_11_over_2_jacobi_phase_and_288_tropical_minors",
+        "seats": [
+          "agy-exp",
+          "physical",
+          "agy-002"
+        ],
+        "statement": "Repaired BPV 2-loop mixed-Yukawa adjoint (coeff 11/2), 1+2-loop Jacobi det-phase identity, and zero leading-minor phase cancellations across all 288 torsion vacua.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "dim_e6_centralizer": 78,
+          "e8_248_pencil_ranks": [
+            180,
+            148
+          ],
+          "e8_248_trace8_rel_err": 5.447342035583484e-16,
+          "j2_e6_err_vs_j_e8_order6_err": [
+            9.797174393178826e-16,
+            6.11026247635183e-15
+          ]
+        },
+        "id": "T_IA_07_e6_colour_centralizer_78_and_e8_248_trace8_law",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Explicit 240-root E8 colour-A2 centralizer equals simply-connected E6 (40 + 32 + 6 = 78), reflection J has order 2 on E6 vs exact order 6 on E8, and 248-dim nilpotent pencil has ranks (180 vs 148) with Tr_248(ad X)^8 = (15/2)(Tr_5 X^4)^2.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "crt_central_scalar_product_check": 0,
+          "h0_negative_degrees_minus5_to_minus1": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "weil_S2_central_scalars_N3_N5_N15": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        "id": "T_IA_08_crossform_nilpotence_cusp_negative_jet_and_weil_s2_scalars",
+        "seats": [
+          "physical",
+          "agy",
+          "agy-exp"
+        ],
+        "statement": "Cross-form SDR perturbation satisfies sharp nilpotence (hV)^{1,3,2} = 0 with 1D centralizer in 25D 5_+ (x) 5_-, negative-degree elliptic holomorphic jets vanish h^0(E_tau, O(d*p)) = 0 (d < 0), and Weil Fourier squares carry central parity scalars (-1, +1, -1) on N in {3, 5, 15}.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "dim_e6_cent_cap_e6_gut": 16,
+          "dim_e6_cent_cap_g422": 7,
+          "m004_cusp_lam1_0_half": 20.584645967200377
+        },
+        "id": "T_IA_09_e8_248_dual_e6_electroweak_bl_bridge_and_seifert_spin_bordism",
+        "seats": [
+          "agy-exp",
+          "physical",
+          "agy-002"
+        ],
+        "statement": "In 248D E8, colour-centralizer E6^cent (78D) and colour-containing E6^GUT (78D) intersect on 16D su(3)_L (+) su(3)_R while E6^cent cap G_422 = su(2)_L (+) su(2)_R (+) u(1)_{B-L} has exact dimension 7; on m004, Seifert-longitude Spin(2) holonomy R(-2*pi) = -I_2 forbids periodic (0,0) cusp spinors and enforces cusp Dirac^2 gap lambda_1 > 20.",
+        "tier": "Tier_IA_Unconditional_PureMath"
+      },
+      {
+        "computed_witness": {
+          "max_ps_ode_err": 5.3013149425851225e-15,
+          "min_lambda_ir_all_1320": 0.04205540082189188
+        },
+        "id": "T_IB_08_su5_desert_and_pati_salam_506_201pi_corridors",
+        "seats": [
+          "agy-exp",
+          "agy-002"
+        ],
+        "statement": "Inside the unified m004 + SU(5)/Pati-Salam gauge model, exact (23/134, 109/201) + 506/(201*pi) law and UR-1/UR-2 stability hold across all 1320 perturbative histories.",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "finite_counts_by_level_N600": {
+            "level_10": 70,
+            "level_15": 192,
+            "level_5": 24
+          },
+          "max_eps_uv_finite": 0.3067104497169759,
+          "max_step_halving_diff_N600_vs_N1200": 2.869702962457664e-06,
+          "min_eps_uv_blowup": 4.269005143494096,
+          "min_tied_det3_and_minor2_phase_moduli": [
+            1.1038285735193494,
+            0.9968543097142872
+          ]
+        },
+        "id": "T_IB_09_step_converged_286_of_288_perturbative_envelope",
+        "seats": [
+          "agy-exp",
+          "physical"
+        ],
+        "statement": "Inside the magnetized-torus Yukawa + BPV 2-loop RGE model, 286/288 torsion vacua converge smoothly (100% of Levels 5 & 15; only 2 UV-nonperturbative eps_UV > 4 Level-10 points diverge).",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "ground_degeneracy": 1,
+          "v_plus_pi6_overlap": 0.9999999999999996
+        },
+        "id": "T_IB_10_level6_scalar_ground_mode_v_plus_pi_over_6",
+        "seats": [
+          "agy-002",
+          "agy-exp"
+        ],
+        "statement": "Inside the stated Level-6 golden-geodesic bubble/measure operator M_H^2 = K_KK - (1/(4*pi)) Sigma_H, v_{+pi/6} is the unique d = 1 ground state (scoped to this bubble/measure convention until a single parent-derived Higgs operator is established).",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "frame_c_ir_sec1_sv_r13": 0.0008135046483080337
+        },
+        "id": "T_IB_11_frame_c_sl2z_gramian_and_9sheet_schur_dichotomy",
+        "seats": [
+          "agy-002",
+          "agy-exp"
+        ],
+        "statement": "Inside the magnetized 3-bundle model, Frame C defines a zero-bit SL(2, Z)-invariant Gramian H_{L,f} while the 9-sheet Heisenberg cover enforces Schur proportionality.",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "closed_fibre_3BL_ed_s13_split_live": 28.53143385875445,
+          "closed_fibre_3BL_vtb_live": 1.0000000000000002,
+          "tm1_uv_two_thirds_abs_err": 2.220446049250313e-16
+        },
+        "id": "T_IB_12_closed_fibre_pati_salam_3bl_and_tm1_sum_rule",
+        "seats": [
+          "agy-002",
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Inside the closed-fibre CIM (3, 3, -6) Pati-Salam 3(B-L) model and non-degenerate Type-I seesaw, unbroken SU(2)_R gives |V_tb| = 1 across 288/288 torsion points while breaking Y_e = Y_d^T by > 28 at Im(tau) = 4, and TM1 locks |U_{e1}|^2 = 2/3.",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "hosotani_quad_trace_pure_vs_full": [
+            8,
+            -10
+          ],
+          "mr_sd_T_cov_err": 3.971861993663267e-15,
+          "mr_sd_ranks_tree_vs_1loop": [
+            1,
+            3
+          ],
+          "mr_sd_u6_singlet_basis_err": 1.2325475812854657e-15
+        },
+        "id": "T_IB_13_schwinger_dyson_resolvent_majorana_and_hosotani_center_lock",
+        "seats": [
+          "agy-exp",
+          "physical",
+          "agy-002"
+        ],
+        "statement": "Inside the magnetized 6-plet singlet + G_422 model, the 1-loop Schwinger-Dyson singlet resolvent M_R^{SD}(tau) = Y(tau)(I_6 + (1/(4*pi))G_6(tau))^{-1} v_0(tau) lifts Majorana rank 1 -> 3 with 0 orientation knobs, U(6) singlet-basis invariance, and T-covariance; and unfluxed 1-loop Hosotani dynamics destabilizes +I_2 (-10 < 0) onto center -I_2.",
+        "tier": "Tier_IB_ModelConditioned_Consequences"
+      },
+      {
+        "computed_witness": {
+          "pc3b_c_delta_ell1": 0.7499999999999999,
+          "pc3b_collar_ratio": 2.8329744463687447,
+          "pc3b_fibre_kernel_dims": [
+            1,
+            2,
+            1
+          ],
+          "pc3b_hardy_T200_vs_1_over_18": [
+            0.05561038669111716,
+            0.05555555555555555
+          ],
+          "pr10_c_uv_and_c_ir": [
+            "189/2",
+            "28"
+          ],
+          "trace_norm_c_H": 0.9999999999999998
+        },
+        "id": "T_II_12_pc3a_pc3b_same_action_reductions_and_scoped_pde_duties",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Same-action P-C3a/P-C3b bridges (c_H = 1, V_{3/2}(x)V_{3/2} kernel (1,2,1) & gap 3/4, |y|^2/e_Q^2 = 2 A_om A_g / I_om^2 > 2, restricted quartic V(X_s) = B s^2(1-s)^2, 1/(8 ell^2) gauge Hardy bound, m != 0 end registration), conditioned on scoped PDE graph-closure, transverse stationarity, and enhancement regularity.",
+        "tier": "Tier_II_Conditional_ParentToModel_Bridges"
+      },
+      {
+        "computed_witness": {
+          "nonhermitian_schur_control_frob_asymmetry": 2.029577215448919,
+          "nonhermitian_schur_diag_1_plus_bc": 1.1714285714285715,
+          "nonhermitian_schur_light_arg_rad": 0.0,
+          "parity_even_projected_phase_rad": 5.293039199536789e-69,
+          "three_family_dparity_ir_theta_rad": 5.471631645487629e-28
+        },
+        "id": "T_II_13_sufficient_parity_strong_cp_and_nonhermitian_schur_control",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Bare parity-0 branch theta_bare = 0 (vs pi) plus parity-symmetric mirror decoupling is SUFFICIENT (not iff) for theta_bar_phys = 0, as proved by the non-Hermitian complex-mixing Schur counterexample H = L = I_3, B = i b I_3, C = i c I_3 -> L - B H^-1 C = (1 + b c) I_3 > 0.",
+        "tier": "Tier_II_Conditional_ParentToModel_Bridges"
+      },
+      {
+        "computed_witness": {
+          "d5_cross_form_fflat_comm_err": 5.521262333288369e-16,
+          "higgsed_e6_join_L24_slope_ratio": 9.46446852575015e-11,
+          "lambda_plus_over_lambda_minus": 1.1615238847369391,
+          "triplet_sigma_star": 0.6881010080360831
+        },
+        "id": "T_II_14_pc3c_to_pc3f_light_cubic_triplet_sigma_star_crossform_and_e6_join",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Conditional P-C3c..f parent bridges: |lambda_+|/|lambda_-| > 1 on E_{tau=i sqrt(3)}, colour-triplet rank-1 quadratic mass sigma_* > 0, D5 (2,2) cross-form c3=1/2 F-flat decoupling (leaving 3rd singlet protected at rank 2), and Higgsed E6 exponential state-axis join screening (keeping Banach cusp IFT & L2 Dolbeault graph-closure scoped).",
+        "tier": "Tier_II_Conditional_ParentToModel_Bridges"
+      },
+      {
+        "computed_witness": {
+          "max_petersson_orthonorm_err_16frames": 1.5772615867296466e-14,
+          "sec4_r23_max_over_min_across_16frames": 3738.122172190246
+        },
+        "id": "T_III_15_heavy_singlet_2_source_ratios_and_u3_frame_isotropy",
+        "seats": [
+          "physical",
+          "agy-exp"
+        ],
+        "statement": "Metric orthonormalization G_Pet^{-1/2} admits a U(3) family of Petersson-orthonormal frames sweeping sec4_r23 by > 1000x, leaving 2 heavy-singlet source-vector ratios explicitly priced until derived from a parent singlet vertex.",
+        "tier": "Tier_III_Explicit_Remaining_Source_State_Scale_Duties"
+      },
+      {
+        "computed_witness": {
+          "mu2_ir_from_zero_uv": 0.0,
+          "mu2_ir_ratio_from_unit_uv": 0.3519813854899115,
+          "picard_lindelof_exp_formula_rel_err": 1.501403714818893e-13,
+          "same_dim_two_mass_unselected_nullity": 1
+        },
+        "id": "T_III_16_single_vacuum_bits_state_composition_and_picard_vEW_anchor",
+        "seats": [
+          "agy-exp",
+          "physical",
+          "agy-002"
+        ],
+        "statement": "Universal corridors use 0 torsion bits while single-vacuum / multi-background P-C3b state composition and the Picard-Lindelof overall electroweak scale anchor v_EW remain explicitly priced.",
+        "tier": "Tier_III_Explicit_Remaining_Source_State_Scale_Duties"
+      }
+    ],
+    "tier_row_counts": {
+      "Tier_IA_Unconditional_PureMath": 9,
+      "Tier_IB_ModelConditioned_Consequences": 6,
+      "Tier_III_Explicit_Remaining_Source_State_Scale_Duties": 2,
+      "Tier_II_Conditional_ParentToModel_Bridges": 3
+    }
+  },
+  "part_4c_final_zero_knob_resolvent_and_zero_of_19_suite": {
+    "E3_FinalZeroKnobResolvent_and_Minus48_ZeroOf19Suite_Gate_passed": true,
+    "Gate_Haar_Stage4_Closure_U3_power_6": {
+      "PC_CL4_RightActingRGEHaarViolation_err": 0.04806197387445965,
+      "ten_trial_fujikawa_12factor_full_U3_max_diff_mp24_rad": 2.481541837659083e-24,
+      "ten_trial_max_diff_mp24": 3.3306690738754696e-16
+    },
+    "casimir_A_star_vs_classical_6pi_max_shift": 0.0001673544821741979,
+    "f64_vs_mpmath32_max_abs_diff": 1.5987211554602254e-13,
+    "schwinger_dyson_resolvent_majorana_at_tau_star": {
+      "PC_AP2_NaiveHalfPeriodSumBreaksModularCocycle_T_err": 9.118028227818826,
+      "modular_T_covariance_err": 3.971861993663267e-15,
+      "rank_tree_vs_1loop": [
+        1,
+        3
+      ],
+      "ten_trial_U6_singlet_basis_invariance_err": 1.2325475812854657e-15
+    },
+    "suite_vectors_0_of_19": {
+      "repaired_casimir_equal_1_1_1": {
+        "I_CP_hat_IR": 1.2473077040767145e-11,
+        "I_gauge_ir": 0.00412531974680555,
+        "J12_CP_IR": 4.254924894935357e-09,
+        "U34_abs": [
+          [
+            0.004330677043484387,
+            0.012097139051986793,
+            0.9999174488242026
+          ],
+          [
+            0.7147465617103965,
+            0.6993623078129839,
+            0.005451140583759087
+          ],
+          [
+            0.6993701436003052,
+            0.7146649716036557,
+            0.01163531706633556
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.9999994476550725,
+            0.0004966771140673045,
+            0.0009262836465740291
+          ],
+          [
+            0.0005180310915656748,
+            0.9996892192942755,
+            0.024923813323581488
+          ],
+          [
+            0.0009145126230512274,
+            0.024924248005605606,
+            0.9996889243799874
+          ]
+        ],
+        "alpha1_inv_gut": 57.43959638234662,
+        "alpha2_inv": 23.90232793390284,
+        "alpha3_inv": 5.300557433732566,
+        "inter_s3_sec1_over_sec2": 18.89866513953142,
+        "inter_s3_sec2_over_sec3": 3.7943006023545673,
+        "lam_ir": 0.3295748990228406,
+        "s3_sec1": 1.246812983387371,
+        "s3_sec2": 0.06597360047294244,
+        "s3_sec3": 0.017387552381063924,
+        "scalar_to_condensate_sqrt_2lam": 0.8118804087091159,
+        "sec1_r12": 0.27175752315437446,
+        "sec1_r23": 0.69319638124572,
+        "sec2_r12": 0.5350482222557936,
+        "sec2_r23": 0.33405001548007673,
+        "sec3_r12": 0.43831050226276025,
+        "sec3_r23": 0.43790095122267925,
+        "sec4_r12": 0.2838825225254314,
+        "sec4_r23": 3.264658519401644e-05,
+        "sin2_2theta_sec34_parity_block": 0.9994672905604525,
+        "sin2_theta_ew_ir": 0.19979379125938623,
+        "theta_det_amphichiral_6x6_rad": 2.2759572004815713e-15
+      },
+      "repaired_casimir_geometric_4pi": {
+        "I_CP_hat_IR": 1.2473077040767145e-11,
+        "I_gauge_ir": 0.00412531974680555,
+        "J12_CP_IR": 4.254924894935357e-09,
+        "U34_abs": [
+          [
+            0.006286616474843289,
+            0.005092460864974127,
+            0.9999672721122611
+          ],
+          [
+            0.8062878055246133,
+            0.591519633861926,
+            0.0021207117100079864
+          ],
+          [
+            0.5914900279088416,
+            0.8062745125564815,
+            0.007807514726601892
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.9999994476550725,
+            0.0004966771140673045,
+            0.0009262836465740291
+          ],
+          [
+            0.0005180310915656748,
+            0.9996892192942755,
+            0.024923813323581488
+          ],
+          [
+            0.0009145126230512274,
+            0.024924248005605606,
+            0.9996889243799874
+          ]
+        ],
+        "alpha1_inv_gut": 57.43959638234662,
+        "alpha2_inv": 23.90232793390284,
+        "alpha3_inv": 5.300557433732566,
+        "inter_s3_sec1_over_sec2": 18.89866513953142,
+        "inter_s3_sec2_over_sec3": 3.7943006023545673,
+        "lam_ir": 0.3295748990228406,
+        "s3_sec1": 1.246812983387371,
+        "s3_sec2": 0.06597360047294244,
+        "s3_sec3": 0.017387552381063924,
+        "scalar_to_condensate_sqrt_2lam": 0.8118804087091159,
+        "sec1_r12": 0.27175752315437446,
+        "sec1_r23": 0.69319638124572,
+        "sec2_r12": 0.5350482222557936,
+        "sec2_r23": 0.33405001548007673,
+        "sec3_r12": 0.43831050226276025,
+        "sec3_r23": 0.43790095122267925,
+        "sec4_r12": 0.23671783927214005,
+        "sec4_r23": 0.0014196146575223526,
+        "sin2_2theta_sec34_parity_block": 0.9098682344878615,
+        "sin2_theta_ew_ir": 0.19979379125938623,
+        "theta_det_amphichiral_6x6_rad": 2.2759572004815713e-15
+      },
+      "repaired_casimir_lowdin_petersson": {
+        "I_CP_hat_IR": 1.2473077040767145e-11,
+        "I_gauge_ir": 0.00412531974680555,
+        "J12_CP_IR": 4.254924894935357e-09,
+        "U34_abs": [
+          [
+            0.32620515926425997,
+            0.061000478470126934,
+            0.9433287527133869
+          ],
+          [
+            0.7252379038910737,
+            0.6562077549637133,
+            0.20837793809606137
+          ],
+          [
+            0.6063168947250778,
+            0.7521105796037574,
+            0.2582818213096689
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.9999994476550725,
+            0.0004966771140673045,
+            0.0009262836465740291
+          ],
+          [
+            0.0005180310915656748,
+            0.9996892192942755,
+            0.024923813323581488
+          ],
+          [
+            0.0009145126230512274,
+            0.024924248005605606,
+            0.9996889243799874
+          ]
+        ],
+        "alpha1_inv_gut": 57.43959638234662,
+        "alpha2_inv": 23.90232793390284,
+        "alpha3_inv": 5.300557433732566,
+        "inter_s3_sec1_over_sec2": 18.89866513953142,
+        "inter_s3_sec2_over_sec3": 3.7943006023545673,
+        "lam_ir": 0.3295748990228406,
+        "s3_sec1": 1.246812983387371,
+        "s3_sec2": 0.06597360047294244,
+        "s3_sec3": 0.017387552381063924,
+        "scalar_to_condensate_sqrt_2lam": 0.8118804087091159,
+        "sec1_r12": 0.27175752315437446,
+        "sec1_r23": 0.69319638124572,
+        "sec2_r12": 0.5350482222557936,
+        "sec2_r23": 0.33405001548007673,
+        "sec3_r12": 0.43831050226276025,
+        "sec3_r23": 0.43790095122267925,
+        "sec4_r12": 0.7187715793909344,
+        "sec4_r23": 0.13760014681303104,
+        "sin2_2theta_sec34_parity_block": 0.9059488882483808,
+        "sin2_theta_ew_ir": 0.19979379125938623,
+        "theta_det_amphichiral_6x6_rad": 2.2759572004815713e-15
+      },
+      "repaired_casimir_schwinger_dyson_resolvent_0knob": {
+        "I_CP_hat_IR": 1.2473077040767145e-11,
+        "I_gauge_ir": 0.00412531974680555,
+        "J12_CP_IR": 4.254924894935357e-09,
+        "U34_abs": [
+          [
+            0.005662244202358122,
+            0.005396348384023706,
+            0.9999694087394427
+          ],
+          [
+            0.8053213457026347,
+            0.5928187484672213,
+            0.004843719795300206
+          ],
+          [
+            0.5928114954572747,
+            0.805317832218979,
+            0.006141658068755626
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.9999994476550725,
+            0.0004966771140673045,
+            0.0009262836465740291
+          ],
+          [
+            0.0005180310915656748,
+            0.9996892192942755,
+            0.024923813323581488
+          ],
+          [
+            0.0009145126230512274,
+            0.024924248005605606,
+            0.9996889243799874
+          ]
+        ],
+        "alpha1_inv_gut": 57.43959638234662,
+        "alpha2_inv": 23.90232793390284,
+        "alpha3_inv": 5.300557433732566,
+        "inter_s3_sec1_over_sec2": 18.89866513953142,
+        "inter_s3_sec2_over_sec3": 3.7943006023545673,
+        "lam_ir": 0.3295748990228406,
+        "s3_sec1": 1.246812983387371,
+        "s3_sec2": 0.06597360047294244,
+        "s3_sec3": 0.017387552381063924,
+        "scalar_to_condensate_sqrt_2lam": 0.8118804087091159,
+        "sec1_r12": 0.27175752315437446,
+        "sec1_r23": 0.69319638124572,
+        "sec2_r12": 0.5350482222557936,
+        "sec2_r23": 0.33405001548007673,
+        "sec3_r12": 0.43831050226276025,
+        "sec3_r23": 0.43790095122267925,
+        "sec4_r12": 0.09197976451326324,
+        "sec4_r23": 0.0567269305554699,
+        "sin2_2theta_sec34_parity_block": 0.9116796751785181,
+        "sin2_theta_ew_ir": 0.19979379125938623,
+        "theta_det_amphichiral_6x6_rad": 2.2759572004815713e-15
+      },
+      "repaired_classical_6pi_equal_1_1_1": {
+        "I_CP_hat_IR": 1.2474898660782873e-11,
+        "I_gauge_ir": 0.004123989946083845,
+        "J12_CP_IR": 4.255343882328957e-09,
+        "U34_abs": [
+          [
+            0.004330677013633999,
+            0.01209713898886474,
+            0.9999174488250955
+          ],
+          [
+            0.7147465606676063,
+            0.6993623088787565,
+            0.005451140578174701
+          ],
+          [
+            0.6993701446662067,
+            0.7146649705617728,
+            0.011635316992213844
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.9999994476128491,
+            0.0004966917034848951,
+            0.0009263214073444313
+          ],
+          [
+            0.0005180470922615082,
+            0.9996892033083683,
+            0.024924454174345214
+          ],
+          [
+            0.00091454972976592,
+            0.02492488888702462,
+            0.9996889083673786
+          ]
+        ],
+        "alpha1_inv_gut": 57.4426495819692,
+        "alpha2_inv": 23.90535953406708,
+        "alpha3_inv": 5.303809255855862,
+        "inter_s3_sec1_over_sec2": 18.900122149678197,
+        "inter_s3_sec2_over_sec3": 3.79284810735034,
+        "lam_ir": 0.32943904120121503,
+        "s3_sec1": 1.2464979893625008,
+        "s3_sec2": 0.06595184832621435,
+        "s3_sec3": 0.017388476010521788,
+        "scalar_to_condensate_sqrt_2lam": 0.8117130542269417,
+        "sec1_r12": 0.2717527411328708,
+        "sec1_r23": 0.6931820594412208,
+        "sec2_r12": 0.5350577302309458,
+        "sec2_r23": 0.33405676669248296,
+        "sec3_r12": 0.4383105018517012,
+        "sec3_r23": 0.43790094908006777,
+        "sec4_r12": 0.28388252259105684,
+        "sec4_r23": 3.264658494887911e-05,
+        "sin2_2theta_sec34_parity_block": 0.9994672906902944,
+        "sin2_theta_ew_ir": 0.19980556980148054,
+        "theta_det_amphichiral_6x6_rad": 1.665334536937735e-16
+      },
+      "three_family_dparity_cayley_trajectory": {
+        "I_CP_hat_IR": -2.692669576605072e-05,
+        "I_gauge_ir": 0.0018468609429445892,
+        "J12_CP_IR": -0.08548744419517448,
+        "U34_abs": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "V12_abs": [
+          [
+            0.479355217108044,
+            0.49567454770084196,
+            0.7242412019437072
+          ],
+          [
+            0.6545183564649203,
+            0.5883630889448708,
+            0.4747995330849743
+          ],
+          [
+            0.5846574183928221,
+            0.6388549274513079,
+            0.5000400831827632
+          ]
+        ],
+        "alpha1_inv_gut": 69.98341949696022,
+        "alpha2_inv": 35.337588867659136,
+        "alpha3_inv": 16.54353493997017,
+        "inter_s3_sec1_over_sec2": 3.3103746356464425,
+        "inter_s3_sec2_over_sec3": 2.253282683327636,
+        "lam_ir": 0.11251328452283386,
+        "s3_sec1": 0.7495192863123982,
+        "s3_sec2": 0.22641524564667098,
+        "s3_sec3": 0.10048239722514626,
+        "scalar_to_condensate_sqrt_2lam": 0.4743696544317182,
+        "sec1_r12": 0.1254046167040421,
+        "sec1_r23": 0.09773285165573492,
+        "sec2_r12": 0.13287911650236772,
+        "sec2_r23": 0.20490244474849958,
+        "sec3_r12": 0.12000976262077623,
+        "sec3_r23": 0.16714745159798888,
+        "sec4_r12": 0.16663958068261725,
+        "sec4_r23": 0.5965572020889638,
+        "sin2_2theta_sec34_parity_block": 0.0,
+        "sin2_theta_ew_ir": 0.23251990043487733,
+        "theta_bar_phys_3fam_rad": 5.471631645487629e-28
+      },
+      "zero_bit_frame_c_gramian_vector": {
+        "repaired_2loop_ir_sv_ratios": {
+          "V12_abs": [
+            [
+              4.112676155564835e-06,
+              0.0011626821390807948,
+              0.9999993240764362
+            ],
+            [
+              0.00948333452878905,
+              0.9999543562419949,
+              0.0011626688576576714
+            ],
+            [
+              0.9999550321635974,
+              0.009483332900460266,
+              6.913615237981576e-06
+            ]
+          ],
+          "lam_ir": 0.34731225899034857,
+          "sec1_sv_r13": 0.0008135046483080337,
+          "sec1_sv_r23": 0.5721978118797545,
+          "sec2_sv_r13": 0.0004693921750990311,
+          "sec2_sv_r23": 0.5116096794095459,
+          "sec3_sv_r13": 0.0003242062551034634,
+          "sec3_sv_r23": 0.38458340047089906
+        },
+        "uv_sv_ratios": {
+          "sec1_sv_r13": 0.0006622839894578009,
+          "sec1_sv_r23": 0.493864869159026,
+          "sec2_sv_r13": 0.0003829354049505751,
+          "sec2_sv_r23": 0.4825574206191523,
+          "sec3_sv_r13": 0.0003241641066917437,
+          "sec3_sv_r23": 0.3845407963649201
+        }
+      }
+    }
+  },
+  "repaired_four_pillar_rge_gate": {
+    "E2_RepairedFourPillar_11Over2_Gate_passed": true,
+    "pillar1_buttazzo_3loop": {
+      "PC_BR2_WrongDiffFactor_err": 0.15131151550036248,
+      "four_coupling_planck_max_rel_err": 8.567904814838825e-05,
+      "gauge_1loop_closed_form_err": 1.887379141862766e-15,
+      "lam_planck_abs_err": 6.725958536619656e-05,
+      "log10_Lambda_lam_GeV": 9.792515212710263,
+      "log10_two_Lambda_V_GeV": 9.801029995663981
+    },
+    "pillar2_repaired_rank1_mixing_11_over_2": {
+      "PC_BR2_ReversedMixedProductOrder_f64_rel_err": 0.018450249070896374,
+      "PC_BR2_ReversedMixedProductOrder_mp100_rel_err": 0.018450498300124463,
+      "diagonal_repaired_vs_old_max_diff": 0.0,
+      "repaired_11_over_2_f64_rel_err": 3.1620831956488954e-07,
+      "repaired_11_over_2_mp100_rel_err": 3.7353235649813636e-64
+    },
+    "pillar3_xing_zhou_downward_matrix": {
+      "PC_BR2_WrongRunningDirection_eq18_rel_err": 0.9986138445269593,
+      "eq18_naumov_rel_err": 8.293714772077242e-15
+    },
+    "pillar4_antusch_weinberg_1loop": {
+      "PC_BR2_WrongMajoranaTranspose_sym_err": 0.3039327177077954,
+      "analytical_integral_rel_err": 2.3569601803885482e-15,
+      "weinberg_symmetry_err": 0.0
+    }
+  },
+  "stage_4_gate_passed": true
+}
