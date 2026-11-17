@@ -1,0 +1,49 @@
+tau = 0.13 + 1.7i, down, S 
+   T: the law at all 24 points 1.2e-15 (unitaries fixed: 3e-16 / 7e-02; one modulus 1.000000); phases of order 5, off the form zeta^(-a^2) by 8.9e-17 turns
+      the operator: singular values 5.1e-14 (without the table 5.0e-01); with B1951's Weil representation 1.1e-15; Gramians over the 3 and the 2: 3.8e-15, 3.9e-15; the phased sum 2.2e-14; the plain sum 9.9e-01
+   S: the law at all 24 points 7.5e-16 (unitaries fixed: 4e-16 / 7e-02; one modulus 1.704963); phases of order 5, off the form zeta^(2ab) by 4.7e-17 turns
+      the operator: singular values 1.4e-14 (without the table 5.4e-01); with B1951's Weil representation 8.9e-16; Gramians over the 3 and the 2: 7.8e-16, 1.6e-14; the phased sum 2.2e-14; the plain sum 8.9e-02
+   the part mixing the 3 and the 2: 1.7e-16; Parseval 8.5e-16; ratios: over the 3 (0.637479, 0.147117), over the 2 (0.927532, 0.071791), plain Gramian (0.725538, 0.151355), the phased sum (0.078732, 0.000457)
+tau = 0.13 + 1.7i, down, St
+   T: the law at all 24 points 1.1e-15 (unitaries fixed: 3e-16 / 4e-02; one modulus 1.000000); phases of order 5, off the form zeta^(-a^2) by 1.8e-16 turns
+      the operator: singular values 4.3e-14 (without the table 1.4e+00); with B1951's Weil representation 1.1e-15; Gramians over the 3 and the 2: 2.7e-15, 8.0e-15; the phased sum 5.0e-15; the plain sum 8.3e-01
+   S: the law at all 24 points 8.4e-16 (unitaries fixed: 2e-16 / 4e-02; one modulus 1.704963); phases of order 5, off the form zeta^(2ab) by 5.5e-17 turns
+      the operator: singular values 2.7e-14 (without the table 4.2e-01); with B1951's Weil representation 7.8e-16; Gramians over the 3 and the 2: 1.3e-14, 3.2e-14; the phased sum 4.7e-15; the plain sum 4.8e-01
+   the part mixing the 3 and the 2: 1.8e-16; Parseval 7.4e-16; ratios: over the 3 (0.616016, 0.149242), over the 2 (0.869585, 0.069141), plain Gramian (0.678808, 0.150668), the phased sum (0.258239, 0.021474)
+tau = 0.13 + 1.7i, up  , S 
+   T: the law at all 24 points 1.5e-15 (unitaries fixed: 2e-16 / 4e-02; one modulus 1.000000); phases of order 25, off the form zeta^(-a^2) by 4.8e-01 turns
+      the operator: singular values 7.1e-01 (without the table 6.9e-01); with B1951's Weil representation 8.3e-01; Gramians over the 3 and the 2: 1.7e-02, 7.8e-02; the phased sum 1.5e+00; the plain sum 8.0e-01
+   S: the law at all 24 points 7.5e-16 (unitaries fixed: 1e-16 / 4e-02; one modulus 1.704963); phases of order 25, off the form zeta^(2ab) by 4.8e-01 turns
+      the operator: singular values 9.6e-01 (without the table 9.4e-01); with B1951's Weil representation 1.0e+00; Gramians over the 3 and the 2: 1.3e-02, 9.3e-02; the phased sum 9.8e-01; the plain sum 3.3e+00
+   the part mixing the 3 and the 2: 5.3e-01; Parseval 3.1e-16; ratios: over the 3 (0.567608, 0.147641), over the 2 (0.532280, 0.153166), plain Gramian (0.564860, 0.148850), the phased sum (0.089849, 0.052554)
+tau = 0.13 + 1.7i, up  , St
+   T: the law at all 24 points 7.2e-16 (unitaries fixed: 2e-16 / 5e-02; one modulus 1.000000); phases of order 25, off the form zeta^(-a^2) by 4.8e-01 turns
+      the operator: singular values 5.2e+00 (without the table 1.2e+00); with B1951's Weil representation 9.5e-01; Gramians over the 3 and the 2: 2.3e-02, 1.3e-01; the phased sum 7.6e-01; the plain sum 2.4e-01
+   S: the law at all 24 points 1.7e-15 (unitaries fixed: 5e-16 / 5e-02; one modulus 1.704963); phases of order 25, off the form zeta^(2ab) by 4.8e-01 turns
+      the operator: singular values 5.9e-01 (without the table 5.7e-01); with B1951's Weil representation 9.9e-01; Gramians over the 3 and the 2: 4.1e-03, 7.3e-02; the phased sum 9.3e-01; the plain sum 3.4e-01
+   the part mixing the 3 and the 2: 5.4e-01; Parseval 4.7e-16; ratios: over the 3 (0.581432, 0.153046), over the 2 (0.528596, 0.146077), plain Gramian (0.577164, 0.152159), the phased sum (0.242986, 0.212761)
+tau = 0.31 + 1.2i, down, S 
+   T: the law at all 24 points 1.2e-15 (unitaries fixed: 5e-16 / 4e-01; one modulus 1.000000); phases of order 5, off the form zeta^(-a^2) by 6.6e-17 turns
+      the operator: singular values 1.5e-13 (without the table 1.0e+00); with B1951's Weil representation 1.3e-15; Gramians over the 3 and the 2: 6.7e-16, 2.9e-15; the phased sum 7.3e-14; the plain sum 3.5e+00
+   S: the law at all 24 points 7.4e-16 (unitaries fixed: 3e-16 / 4e-01; one modulus 1.239395); phases of order 5, off the form zeta^(2ab) by 6.8e-17 turns
+      the operator: singular values 4.1e-14 (without the table 5.4e-01); with B1951's Weil representation 8.1e-16; Gramians over the 3 and the 2: 8.9e-16, 6.7e-16; the phased sum 2.7e-14; the plain sum 1.4e-01
+   the part mixing the 3 and the 2: 1.6e-16; Parseval 4.9e-16; ratios: over the 3 (0.702857, 0.522693), over the 2 (0.896661, 0.173932), plain Gramian (0.776377, 0.543176), the phased sum (0.401978, 0.002161)
+tau = 0.31 + 1.2i, down, St
+   T: the law at all 24 points 1.4e-15 (unitaries fixed: 4e-16 / 3e-01; one modulus 1.000000); phases of order 5, off the form zeta^(-a^2) by 7.4e-17 turns
+      the operator: singular values 6.1e-15 (without the table 1.5e+00); with B1951's Weil representation 1.1e-15; Gramians over the 3 and the 2: 4.4e-16, 1.1e-15; the phased sum 7.8e-15; the plain sum 2.7e+00
+   S: the law at all 24 points 1.2e-15 (unitaries fixed: 5e-16 / 3e-01; one modulus 1.239395); phases of order 5, off the form zeta^(2ab) by 4.8e-17 turns
+      the operator: singular values 2.4e-14 (without the table 8.6e-01); with B1951's Weil representation 1.0e-15; Gramians over the 3 and the 2: 1.8e-15, 2.8e-15; the phased sum 6.2e-15; the plain sum 3.4e-01
+   the part mixing the 3 and the 2: 1.8e-16; Parseval 1.5e-15; ratios: over the 3 (0.684522, 0.507302), over the 2 (0.891694, 0.171585), plain Gramian (0.755444, 0.524817), the phased sum (0.697317, 0.026883)
+tau = 0.31 + 1.2i, up  , S 
+   T: the law at all 24 points 1.4e-15 (unitaries fixed: 1e-16 / 3e-01; one modulus 1.000000); phases of order 25, off the form zeta^(-a^2) by 4.8e-01 turns
+      the operator: singular values 3.8e-01 (without the table 6.0e-01); with B1951's Weil representation 1.0e+00; Gramians over the 3 and the 2: 2.6e-02, 9.7e-02; the phased sum 3.3e+00; the plain sum 2.0e+00
+   S: the law at all 24 points 1.6e-15 (unitaries fixed: 3e-16 / 3e-01; one modulus 1.239395); phases of order 25, off the form zeta^(2ab) by 4.8e-01 turns
+      the operator: singular values 7.0e-01 (without the table 4.6e-01); with B1951's Weil representation 9.5e-01; Gramians over the 3 and the 2: 1.2e-02, 2.9e-02; the phased sum 6.2e-01; the plain sum 1.8e+00
+   the part mixing the 3 and the 2: 5.4e-01; Parseval 3.3e-16; ratios: over the 3 (0.673948, 0.525014), over the 2 (0.667740, 0.524554), plain Gramian (0.674852, 0.527839), the phased sum (0.450328, 0.014486)
+tau = 0.31 + 1.2i, up  , St
+   T: the law at all 24 points 1.1e-15 (unitaries fixed: 3e-16 / 3e-01; one modulus 1.000000); phases of order 25, off the form zeta^(-a^2) by 4.8e-01 turns
+      the operator: singular values 6.7e-01 (without the table 3.0e-01); with B1951's Weil representation 9.7e-01; Gramians over the 3 and the 2: 2.6e-02, 1.6e-01; the phased sum 3.0e+00; the plain sum 8.0e-01
+   S: the law at all 24 points 1.1e-15 (unitaries fixed: 2e-16 / 3e-01; one modulus 1.239395); phases of order 25, off the form zeta^(2ab) by 4.8e-01 turns
+      the operator: singular values 6.5e-01 (without the table 3.8e-01); with B1951's Weil representation 8.6e-01; Gramians over the 3 and the 2: 1.0e-02, 7.5e-02; the phased sum 6.9e-01; the plain sum 6.0e-01
+   the part mixing the 3 and the 2: 5.4e-01; Parseval 1.0e-15; ratios: over the 3 (0.690616, 0.543097), over the 2 (0.635007, 0.514913), plain Gramian (0.685329, 0.539971), the phased sum (0.626261, 0.057531)
+exit 0

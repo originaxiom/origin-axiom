@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1649 |
-| … PROVED | 1148 |
+| arcs with a verdict file | 1650 |
+| … PROVED | 1149 |
 | … NEGATIVE | 386 |
 | … OPEN | 102 |
 | … RETRACTED | 13 |
-| register points | 865 |
-| … “QUEUED” | 316 |
+| register points | 866 |
+| … “QUEUED” | 317 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 533 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
 | B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
 | B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
@@ -42,7 +43,6 @@
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
-| B1941 | PROVED | “[NARROWED 2026-11-17, Review 83 (agy-002's R83-17, recomputed by main, B1950): the 28 points span heights 1.2 to 9, and near tau = i the determinant's sign reverses (-0.39 at 1.05i), so 'at every point' and 'no measure…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (B1952, PROVED for the computed parts; P-863).** The web seat's W-A2, opened at the author's request, recomputed on main: the 24 lines of order 5 are the Weil space's Weyl operators, moved as the record transports the lines; the fibre's five degree-5 theta functions carry that module and split 3 + 2; the act fixes one line only at 5. Main's addition, on frame C: the generation blocks move under tau to tau + 1 by a permutation with phases of order 4, so the triplet used for families (levels 2, 4, 8…”
+“LATEST (2026-11-17, S306p: FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5 (B1953, PROVED to 1e-13 at two base points; P-866's C1, at the author's word).** The transformation law holds point by point under T and S on main's code; for down its phases are zeta^(-a^2) and zeta^(2ab). With the forced table zeta^(-ab), the 24 pointwise couplings are one operator on families times the Weil space, transforming by B1951's Weil representation; it commutes with the centre's parity, so it is a block over the 3 plus a block over the 2, whose family Gramians are covariant and differ; the phased sum…”
 
 ## Completeness (nothing skipped silently)
 

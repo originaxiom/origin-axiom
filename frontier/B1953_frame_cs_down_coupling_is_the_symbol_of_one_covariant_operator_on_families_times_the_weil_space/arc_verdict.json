@@ -1,0 +1,30 @@
+{
+ "id": "B1953",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1945",
+  "B1951",
+  "B1952",
+  "B1927",
+  "B1949",
+  "B1724"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-002's A2-AMP (harvest row 1849, read through the mask): the form of the transformation law, here tested point by point under both generators on main's code"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C as coded (B1945's determinant_law.parts), at 0.13 + 1.7i and 0.31 + 1.2i and their images under T and S, the end at -1/tau carried by its law; the down and up sectors, both Higgs readings; level 5's Weil space",
+  "object": "the pointwise transformation law and its phases; the operator sum over the 24 points of zeta^(-ab) Y(tau, w) (x) D(w); its covariance, its split under the parity, the family Gramians over the 3 and the 2, and the phased sum",
+  "reach": "class",
+  "hypotheses": "numerical identities to 1e-13 or better at two base points; the phases exact roots of unity; not proved at every tau; which physical sector each block is, and which object is the read-out, are not claimed; the printed ratios are frame outputs and are not compared"
+ },
+ "claim_one_line": "FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5 (PROVED to 1e-13 at two base points and their T and S images, both readings; data-free; P-866's C1): point by point Y(g tau, w) = c phi(g, w) U_L Y(tau, w g) U_R^dagger with unitaries the same at all 24 points; for down phi = zeta^(-a^2) under T and zeta^(2ab) under S, for up 25th roots; with the forced phase table zeta^(-ab), O(tau) = sum of zeta^(-ab) Y(tau, w) (x) D(w) obeys O(g tau) = c (U_L x rho(g)) O(tau) (U_R x rho(g))^dagger with B1951's Weil representation; O commutes with the centre's parity, so it is a block over the 3 plus a block over the 2, whose family Gramians are covariant and differ; their sum is 5 times the plain Gramian (Parseval); the sum over the 24 points with the phase table is covariant under T and S and is the operator's component along hypercharge, 6Y = -(1/2) the sum of the 24 operators D(v); frame outputs at two bulk points printed and not compared. 0 of 19.",
+ "weave_or_thread": "the weave (all 24 points with a forced phase table; tau, the Higgs reading and the end remain)"
+}

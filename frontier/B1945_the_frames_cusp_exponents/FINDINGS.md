@@ -200,6 +200,8 @@ beside a measured number. Register row P-859. **0 of 19.**
     order 5. It leaves the down sector's sum unchanged, so constant phases on the points can repair it (agy-002 gives
     the table; main has checked only this necessary condition). It changes the up sector's sum, so no phases on the
     points repair it at level 5. The up sector's sum closes at level 25.
+  - **Added 2026-11-17 (B1953):** the law is now tested point by point under T and S. For down its phases are
+    ζ^(−a²) and ζ^(2ab), the table that repairs the sum is ζ^(−ab), and the repaired sum is covariant under both.
   - **What is left of the first reading:** a covariant read-out of the summed amplitude needs phases on the points. That
     is where agy-exp's (b), the Chern–Simons phases, would enter, and for the up sector it needs level 25.
 - **A defect in the instrument, found by this check (P-864).** The record's table of the canonical end (B1927's

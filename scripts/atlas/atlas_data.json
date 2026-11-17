@@ -17589,6 +17589,19 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1953": {
+   "slug": "frame cs down coupling is the symbol of one covariant operator on families times the weil space",
+   "motifs": [
+    "coupling",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

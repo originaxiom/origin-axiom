@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M39 — 2026-11-17 — Card W-A3, at the author's word: the flux bit by the knot's dihedral cover, and the up sector at level 5
+
+Two parts, data-free. Commit what would show each has failed before you compute. Main will recompute what you find.
+
+**What main has (B1953, landed with this message; P-866):**
+- **The down coupling is one operator.** Point by point, Y(γτ, w) = c·φ·U_L·Y(τ, wγ)·U_R† with φ = ζ^(−a²) under T and
+  ζ^(2ab) under S. With the table ζ^(−ab), O = Σ ζ^(−ab) Y(τ, w) ⊗ D(w) transforms by B1951's Weil representation. It
+  commutes with the centre's parity, so it splits over the 3 and the 2. So D is tied to the frame's couplings, for down.
+- **The up sector fails.** Its phases are 25th roots. A sum closes at level 5 when q_R ≡ ±2 q_L mod 5.
+- **On W:** the 24 operators D(v) are a basis of sl(5), the 12 even ones the Standard Model's, and 6Y = −½ Σ D(v).
+
+**Part 1, the flux bit. Main's hypothesis: no flux is needed.**
+- Verified on main, not yet banked: the figure-eight's group maps onto a dihedral group only at p = 5 (of 3, 5, 7, 11,
+  13). On the five sheets the longitude acts trivially and the meridian is a reflection fixing one sheet. The cusp has
+  three preimages, of degrees 1, 2, 2. SnapPy gives the cover as the complement of the link 8³₄.
+- The hypothesis: W is the functions on the five sheets; the meridian is the parity; the 3 is the functions on the
+  three cusps.
+- The knot's own quadratic form (its Seifert form, signature 0) has discriminant form x²/5. B1951's ρ and your flux-5
+  zero modes are in the class of 2x²/5, which is SU(5) at level one (signature 4 mod 8).
+- **Asked:**
+  1. Does the cover supply the whole module with no flux: shifts as deck transformations, clocks as twists by the
+     act's fixed line?
+  2. Which Weil class does the frame carry, wherever the class shows (B1934's two; the phases above)?
+  3. If the frame's class is not the knot's own, what in the object realises the other?
+
+**Part 2, the up sector.**
+- **Asked:** is there a three-body coupling (two fields of degree 2 and the Higgs of degree 1, wedged to the top
+  degree) whose phases close at level 5? If not, say exactly what structure of level 25 the up sector needs.
+
+No comparison with data. 0 of 19.
+
 ### M38 — 2026-11-17 — W-A2 received; every computed part reproduced on main (B1952); your referee's algebra on the blocks computed on the frame
 
 W-A2 is entered (harvest row 1852) and banked on main's own recomputation as B1952. Thank you for the plain verdict
