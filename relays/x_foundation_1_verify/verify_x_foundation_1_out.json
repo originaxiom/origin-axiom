@@ -1,0 +1,193 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Foundation_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FOUNDATION-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_e8_pure_q_triality_and_stokes_su4": {
+    "E1_E8PureQTriality_and_StokesSU4Bundle_Gate_passed": true,
+    "PC_FD1_PureQNonMultipleOf3FailsClosure_err_by_k": {
+      "1": 1.7320508075688772,
+      "2": 1.7320508075688776,
+      "3": 7.347880794884119e-16,
+      "6": 1.4695761589768238e-15
+    },
+    "PC_FD1_SmoothAbelianFluxViolatesStokesOnM004_defect": 3,
+    "e8_root_q_charge_counts": {
+      "-1": 16,
+      "-1/3": 48,
+      "-2/3": 30,
+      "-4/3": 3,
+      "0": 46,
+      "1": 16,
+      "1/3": 48,
+      "2/3": 30,
+      "4/3": 3
+    },
+    "m004_spine_H2_rank_and_torsion": [
+      0,
+      1
+    ],
+    "max_6pi_closure_err_all_240": 9.797174393178826e-16,
+    "max_z3_err_on_78_colour_centralizer_grade": 2.4492935982947064e-16,
+    "min_z3_dist_on_162_colour_roots": 1.7320508075688767,
+    "n_q_zero_pm1_fractional": [
+      46,
+      32,
+      162
+    ],
+    "su4_split_Lplus3_Eminus3_total_trace_flux": 0,
+    "u3_compensating_lift_det_err": 2.220446049250313e-16
+  },
+  "part_1b_callias_3d_chiral_localization": {
+    "E2_Callias3DChiralLocalization_Index3_Gate_passed": true,
+    "PC_FD1_ClosedCompact3ManifoldVectorLikeZeroIndex": {
+      "dim_ker_L": 3,
+      "dim_ker_R": 3,
+      "lowest_6_svs_L": [
+        1.04966911628874e-21,
+        1.04966911628874e-21,
+        1.04966911628874e-21,
+        1.0959304044614222,
+        1.0959304044614222,
+        1.0959304044614222
+      ],
+      "lowest_6_svs_R": [
+        8.486396508769707e-22,
+        8.486396508769707e-22,
+        8.486396508769707e-22,
+        1.0959304044614222,
+        1.0959304044614222,
+        1.0959304044614222
+      ],
+      "net_chiral_index": 0
+    },
+    "radial_nonabelian_callias_by_k": {
+      "0": {
+        "chiral_index_L_minus_R": 0,
+        "dim_ker_L": 0,
+        "dim_ker_R": 0,
+        "lowest_svs_L": [
+          1.8808271648607868,
+          2.02466106836104,
+          2.033298766153501,
+          2.0339487595417207,
+          2.056625244880277,
+          2.090392917154497
+        ],
+        "lowest_svs_R": [
+          1.880827164860785,
+          2.024661068361041,
+          2.033298766153502,
+          2.0339487595417207,
+          2.0566252448802715,
+          2.090392917154497
+        ]
+      },
+      "1": {
+        "chiral_index_L_minus_R": 1,
+        "dim_ker_L": 1,
+        "dim_ker_R": 0,
+        "lowest_svs_L": [
+          3.566114026375115e-10,
+          1.8808271648607873,
+          2.0041676967191453,
+          2.024661068361042,
+          2.0332987661535014,
+          2.033948759541719
+        ],
+        "lowest_svs_R": [
+          1.710010777422682,
+          1.880827164860785,
+          2.0198022196787018,
+          2.02466106836104,
+          2.033298766153503,
+          2.0339487595417203
+        ]
+      },
+      "2": {
+        "chiral_index_L_minus_R": 2,
+        "dim_ker_L": 2,
+        "dim_ker_R": 0,
+        "lowest_svs_L": [
+          3.566114026375115e-10,
+          3.566114026375115e-10,
+          1.8808271648607868,
+          2.0041676967191453,
+          2.0041676967191453,
+          2.02466106836104
+        ],
+        "lowest_svs_R": [
+          1.710010777422682,
+          1.710010777422682,
+          1.880827164860785,
+          2.0198022196787018,
+          2.0198022196787018,
+          2.024661068361041
+        ]
+      },
+      "3": {
+        "chiral_index_L_minus_R": 3,
+        "dim_ker_L": 3,
+        "dim_ker_R": 0,
+        "lowest_svs_L": [
+          3.566114026375115e-10,
+          3.566114026375115e-10,
+          3.566114026375115e-10,
+          1.8808271648607873,
+          2.0041676967191453,
+          2.0041676967191453
+        ],
+        "lowest_svs_R": [
+          1.710010777422682,
+          1.710010777422682,
+          1.710010777422682,
+          1.880827164860785,
+          2.0198022196787018,
+          2.0198022196787018
+        ]
+      }
+    },
+    "ten_trial_haar_unitary_scrambling_max_sv_err": 5.551115123125783e-15,
+    "warped_3d_hyperbolic_cusp_k3": {
+      "dim_ker_L": 3,
+      "dim_ker_R": 0,
+      "lowest_6_svs_L": [
+        1.8397799795521336e-08,
+        1.83978001819056e-08,
+        1.8397802546583836e-08,
+        1.7283506543063634,
+        1.7283506543063638,
+        1.728350654306364
+      ],
+      "lowest_6_svs_R": [
+        1.7319741700782534,
+        1.7319741700782538,
+        1.7319741700782547,
+        2.007124908280838,
+        2.0071249082808382,
+        2.0071249082808387
+      ],
+      "net_chiral_4d_families": 3
+    }
+  },
+  "stage_1_gate_passed": true
+}
