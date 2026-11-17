@@ -1,0 +1,128 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Synthesis_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-SYNTHESIS-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_repaired_rge_and_243_histories": {
+    "E1_RepairedMinus48RGE_and_243ChiralSurface_Gate_passed": true,
+    "PC_SY3_Ng6ChiralDoublingShiftsAlpha3_val": 17.825353626292276,
+    "PC_SY3_WrongMinus24QuarticCoeff_max_sqrt2lam_shift": 0.0020025064134810977,
+    "PC_SY3_WrongMinus24QuarticCoeff_poly_diff": 0.8425382399999871,
+    "buttazzo_2loop_conversion_abs_err": 0.0,
+    "buttazzo_3loop_tcrit_f64_vs_mp45": [
+      7.57862655931606,
+      7.578626559317348,
+      1.2878587085651816e-12
+    ],
+    "chiral_ng3_history_count": 243,
+    "delta_2loop_min_max": [
+      0.0007265197499218279,
+      0.0027548255671241417
+    ],
+    "lambda_ir_min": 0.06862863304355281,
+    "max_bar_theta_qcd_ir": 6.450395773072161e-14,
+    "min_abs_jarlskog_ir": 0.005428508050202972,
+    "rge_haar_u3_10trial_max_err": 3.774758283725532e-15,
+    "sqrt_2lambda_ir_min_max": [
+      0.37048247743598567,
+      0.7715111625365391
+    ],
+    "sym_bbo_1loop_and_bpv_2loop_11_over_2_verified": true
+  },
+  "part_3b_pati_salam_bergman_and_tm1": {
+    "E2_PatiSalam3BL_BergmanMajorana_and_TM1_Gate_passed": true,
+    "PC_SY3_FrobeniusAllOnesBasisDependence_shift": 0.16557618221907222,
+    "PC_SY3_MixedHiggsPairingBreaksVtb_val": 0.0,
+    "PC_SY3_TM2ColumnSwapBreaksTwoThirds_diff": 0.3333333333333332,
+    "bergman_majorana_T_and_S_cov_err": [
+      1.1053450909133777e-13,
+      1.767095641788201e-13
+    ],
+    "e3_continuity_max_diff_and_min_frob": [
+      0.00014101603589433982,
+      3.1914346291630364
+    ],
+    "individual_ranks_J0_J1_J2": [
+      1,
+      3,
+      3
+    ],
+    "level5_3BL_lepton_down_s13_split_factor": 28.53143385875445,
+    "local_bidoublet_BL_anticommutator_err": 0.0,
+    "pati_salam_3BL_min_vtb_levels_5_10_15": {
+      "10": 0.9999999999999993,
+      "15": 0.9999999999999994,
+      "5": 0.9999999999999996
+    },
+    "pure_6Y_order5_aligned_vs_deranged": [
+      4,
+      20
+    ],
+    "seesaw_haar_u3_10trial_max_err": 1.584843367652411e-14,
+    "span_rank_in_sym2_C3": 3,
+    "tm1_ir_shifts_by_ytau": {
+      "1/100": 9.939198210462408e-06,
+      "1/20": 0.0002483152180887682,
+      "1/5": 0.003932049146647576
+    },
+    "tm1_uv_err": 9.992007221626409e-16
+  },
+  "part_3c_agy_v16_jet_and_weil_s2_scalar": {
+    "E3_AgyV16Jet_and_PhysicalC4WeilCentralScalar_Gate_passed": true,
+    "crt_gamma_reciprocity_err": 2.727717397419127e-56,
+    "cusp_flux_index_table_beta_minus3_to_3": {
+      "-1": -1,
+      "-2": 1,
+      "-3": -1,
+      "0": 0,
+      "1": 1,
+      "2": -1,
+      "3": 1
+    },
+    "cusp_l2_pole_bound_formula_verified": true,
+    "h0_negative_degrees_minus5_to_minus1": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "h0_nonnegative_degrees_0_to_4": [
+      1,
+      1,
+      2,
+      3,
+      4
+    ],
+    "negative_central_scalar_factor_count": 2,
+    "shifted_holonomy_u_prime_0_and_1_over_10": true,
+    "weil_S2_central_parity_scalars": {
+      "N15_r1": -1,
+      "N3_r2": -1,
+      "N5_r3": 1
+    },
+    "weil_S2_minus_eps_P_max_err": 7.371094928574946e-56,
+    "weil_ST_cubed_minus_S2_max_err": 1.2107959122847288e-55
+  },
+  "stage_3_gate_passed": true
+}
