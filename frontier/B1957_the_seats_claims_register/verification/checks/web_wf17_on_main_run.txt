@@ -1,0 +1,21 @@
+Q1: m004 -> 2T (order 24): homomorphisms 72, surjections 48 (the note: 72 / 48)
+Q1: m369 -> 2T (order 24): homomorphisms 288, surjections 96 (the note: 288 / 96)
+Q1: s639 -> 2T (order 24): homomorphisms 168, surjections 96 (the note: 168 / 96)
+Q1: m004 -> 2O (order 48): homomorphisms 96, surjections 0 (the note: 96 / 0)
+Q1: m369 -> 2O (order 48): homomorphisms 864, surjections 96 (the note: 864 / 96)
+Q1: s639 -> 2O (order 48): homomorphisms 192, surjections 0 (the note: 192 / 0)
+Q1: m004 -> 2I (order 120): homomorphisms 600, surjections 0 (the note: 600 / 0)
+Q1: m369 -> 2I (order 120): homomorphisms 2400, surjections 480 (the note: 2400 / 480)
+Q1: s639 -> 2I (order 120): homomorphisms 1920, surjections 960 (the note: 1920 / 960)
+Q1: all eighteen counts equal the note's: True
+Q3: m = 1: linear in z: True; curve factors of the minors' gcd over Q: 1 (2); components of the vertical part over Q: 0; the note's lines are fixed: True
+Q3: m = 2: linear in z: True; curve factors of the minors' gcd over Q: 1 (4); components of the vertical part over Q: 1; the note's lines are fixed: True
+Q3: m = 3: linear in z: True; curve factors of the minors' gcd over Q: 1 (4); components of the vertical part over Q: 1; the note's lines are fixed: True
+Q3: m = 4: linear in z: True; curve factors of the minors' gcd over Q: 3 (1, 1, 4); components of the vertical part over Q: 1; the note's lines are fixed: True
+Q3: m = 5: linear in z: True; curve factors of the minors' gcd over Q: 1 (6); components of the vertical part over Q: 2; the note's lines are fixed: True
+Q3: m = 6: linear in z: True; curve factors of the minors' gcd over Q: 1 (8); components of the vertical part over Q: 5; the note's lines are fixed: True
+Q3: components over Q, m = 1 to 6: [1, 2, 2, 4, 3, 6] (the note: 1, 2, 2, 4, 3, 6)
+Q3: the m = 1 curve {x = z, yz = y + z} is fixed: True; the m = 2 curve {x^2 = z^2/2 + 2, yz = 2x} is fixed: True; the projections' factors contain the note's polynomials at m = 1, 2, 3: [True, True, True]
+Q3: the lines {x = z = 0} and {y = z = 0} are fixed at m = [4, 8, 12] (the note: exactly when 4 divides m)
+    kappa is invariant under both maps: True
+Q4: E18: 308 matrices; traces symmetric: True; trace 1: 12, trace 3: 16 (28 with |tr - 2| = 1). E19: integer points in [-10, 10]^3 with kappa = -2: 17; with kappa = +2: 134 (the note: 308; 12, 16; 17; 134)

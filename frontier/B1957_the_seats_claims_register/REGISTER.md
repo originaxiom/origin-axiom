@@ -9,9 +9,9 @@
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
-| web | 24 | 10 | 1850 | 436 | 0 | 0 | 32 | 5 | 339 | **1038** |
+| web | 24 | 10 | 1850 | 520 | 0 | 0 | 141 | 5 | 409 | **775** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 293 | 60 | 16003 | 958 | 12 | 94 | 155 | 5 | 667 | **14112** |
+| **all** | 293 | 60 | 16003 | 1042 | 12 | 94 | 264 | 5 | 737 | **13849** |
 
 ## By file
 
@@ -282,12 +282,12 @@
 | physical | `reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN.md` | no | 2 | 0 | **2** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | no | 61 | 0 | **61** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | no | 7 | 0 | **7** |
-| web | `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md` | no | 126 | 0 | **126** |
+| web | `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md` | no | 126 | 126 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md` | no | 64 | 0 | **64** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md` | yes | 62 | 62 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md` | yes | 102 | 102 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md` | yes | 18 | 18 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE.md` | no | 139 | 0 | **139** |
+| web | `relays/CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE.md` | no | 139 | 137 | **2** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md` | yes | 127 | 127 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT.md` | no | 40 | 0 | **40** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md` | yes | 77 | 77 | **0** |

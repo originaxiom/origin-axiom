@@ -70,13 +70,13 @@
    "read": 10,
    "units": 2052,
    "statements": 1850,
-   "VERIFIED": 436,
+   "VERIFIED": 520,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 32,
+   "PARTIAL": 141,
    "SUPERSEDED": 5,
-   "NOTED": 339,
-   "PENDING": 1038
+   "NOTED": 409,
+   "PENDING": 775
   },
   "agy-audit": {
    "files": 4,
@@ -3543,13 +3543,13 @@
    "units": 134,
    "statements": 126,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 9,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 57,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 126
+   "NOTED": 60,
+   "PENDING": 0
   },
   "web | relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md": {
    "lane": "web",
@@ -3608,13 +3608,13 @@
    "units": 160,
    "statements": 139,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 75,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 52,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 139
+   "NOTED": 10,
+   "PENDING": 2
   },
   "web | relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md": {
    "lane": "web",
