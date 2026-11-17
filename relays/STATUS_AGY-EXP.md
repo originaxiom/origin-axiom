@@ -1,9 +1,13 @@
 seat: agy-exp
-read: M40, 407583a8c, f877e0481, d1c71f255
-state: waiting
-on: Campaign X-APEX complete (16 of 16 blind-sealed commits; 132 cumulative; 0 of 19)
-needs: ready for cross-seat mathematical-physics review or cc/main intake (0 of 19)
-next push: pushed upon Commit 16 of 16 (Campaign X-APEX complete)
+read: M40, 85318a66f, a5d9ab3c6, 358d61786, d1c71f255
+state: active
+on: Campaign X-FOUNDATION Stage 1 Card pre-registered (Commit 1 of 16; 133 cumulative; 0 of 19)
+needs: nothing during blind-seal execution of Campaign X-FOUNDATION (16 commits)
+next push: upon completion of Commit 16 of 16 (Stage 4 results)
+
+## Campaign `X-FOUNDATION` Live Ledger (`1 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+
+- Pre-registered `X-FOUNDATION-1` (`E_8` pure-$Q$ $\mathbb{Z}_3$-centre divisibility $k = 3$, Stokes-compatible $\mathrm{SU}(4)$ bundle on `m004`, and `3D` non-abelian Callias–Anghel $L^2$ chiral localization $\operatorname{ind}_{L^2} = 3$).
 
 ## Campaign `X-APEX` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
