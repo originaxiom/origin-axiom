@@ -1,0 +1,11 @@
+monodromy on H1 of the fibre (columns = images of a, b): [[2, 1], [1, 1]]  plant: [[3, 1], [2, 1]]
+A: primes 3..31 with a dihedral representation (t to a reflection): [5]  solutions at 5: [(1, 2), (2, 4), (3, 1), (4, 3)]
+A: the plant (a -> ababa, monodromy [[3,1],[2,1]]): [3]
+B: fibre character u = (u(a), u(b)) = (1, 2) ; the act's fixed line v (LR v = -v mod 5) = (1, 2) ; omega(v, .) = (3, 1) ; u = c * omega(v, .) with c = [2]
+B: u o LR = (np.int64(4), np.int64(3))  -u = (4, 3)
+B: phi([a,b]) = g [a,b]^(+-1) g^-1 with g = aba ; meridian g^-1 t -> (-1, 4) (fixed points 1 ); longitude -> (1, 0) ; cusp degrees [1, 2, 2]
+B: deck group of the 5-sheeted cover over m004: order 1 ; over M2: order 5 shifts: True
+B: Z rho(g) Z^-1 = chi(g) rho(g) on M2's generators, worst defect 2.3e-16; on t, best scalar defect 1.90 (not a twist)
+B: the deck characters on the fibre: chi_b(a) = z^(b u(a)), chi_b(b) = z^(b u(b)), u = (1, 2)
+B: commutant of <X, Z> has dimension 1 ; X Z X^-1 Z^-1 = (0.309017+0.951057j) * I: True
+B: t acts on the (shift, clock) plane as -I: P X P^-1 = X^-1: True ; P Z P^-1 = Z^-1: True

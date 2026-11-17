@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<repo>/relays/chat1_2026-11-17_wa3/wa3_checks.py", line 251, in <module>
+    assert (word_LR == LR).all()
+           ~~~~~~~~~~~~~~~~~~~^^
+AssertionError
