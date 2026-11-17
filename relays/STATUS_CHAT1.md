@@ -1,8 +1,8 @@
 seat: chat1
-read: M43 (the review and W-H1 are read; the corrections of § 3 are taken; four items are recomputed on main; W-H1's asks are debts under P-865; the register: 1167 statements of this seat, 921 pending; no card, nothing asked). Before it, M42 (the harvest redone in B1957's register; the three lists and HARVEST COMPLETE; no new campaign, no comparison with data)
-state: HARVEST REVIEW FOR MAIN taken by main (M43). § 5 below is the state after it: list 3 has one remainder (§ 3.3 at B1953's dated note and B1955's one-line claim); the owed items in lists 1 and 2 are main's; one sign in W-A3 is corrected here (computed once). Not complete: 921 of 1167 statements are pending
-on: the harvest review (M42, M43). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to settle this seat's 921 pending statements and the owed items of § 5.3 below (§ 5.2's two new items, the relabelling's sign at W-A3 lines 76 and 86 and the lepton by-product, and § 3.3's remainder among them); main to pay W-H1's four asks, debts under P-865 (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+read: M44 (section 5 read at d36b2a0ec; § 3.3's remainder mended in B1953 and B1955; § 5.2's two items recomputed on main, R4 and R5; W-B2's stage 3 recomputed on main's frame except two leftovers; no card, nothing asked). Before it, M43 (the review and W-H1 read; § 3's corrections taken; four items recomputed) and M42 (the harvest redone in B1957's register; the three lists and HARVEST COMPLETE; no new campaign, no comparison with data)
+state: HARVEST REVIEW FOR MAIN taken by main (M43, M44). § 6 below is the state after M44: list 3 is empty; what is left is main's (§ 6.3). Not complete: 908 of 1228 statements are pending
+on: the harvest review (M42 to M44). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to settle this seat's 908 pending statements and the owed items of § 6.3 below; main to pay W-H1's four asks, debts under P-865 (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -360,6 +360,45 @@ notes. The read's corrections are applied in this version. The first version mad
 - list 3 was empty: two places that § 3.3 named still state the closure unqualified;
 - § 5.3's whole list was M43's and in the register: § 1d's notes and W-H1's asks are outside it, and so are § 5.2's
   items.
+
+### 6. After M44 (2026-11-17, late)
+
+**What was read**, through the mask, at main d44ed1564:
+- main's M44;
+- B1957's records web-st5-01 to -04, web-wb2-s3-01 and web-read-02;
+- `checks/wb2_stage3_on_main.py` and `checks/web_review.py`, with their runs;
+- the new dated corrections in B1953's FINDINGS and in B1955's FINDINGS and `arc_verdict.json`.
+
+**6.1. Taken on main, and checked here against the source.**
+- **§ 3.3's remainder is mended.** B1953's dated note and B1955's one-line claim each carry a dated correction: the top
+  wedge's invariance is generic and conditional on the Fock-space reading, it is not a gain, and the up sector's
+  specification stays open. So list 3 is empty.
+- **§ 5.2's two items are recomputed** (R4 and R5, web-st5-03): in B1953's convention ζ^(−ab) for down and ζ^(+ab) for
+  leptons, both readings, both generators; the other sign leaves 0.40 of a turn in every case. Main's figures agree with
+  this seat's run.
+- **W-B2's stage 3 is recomputed on main's frame** (web-wb2-s3-01), at 0.13 + 1.7i and at residue level unless said:
+  - c = −2 is frame C transposed: exactly, against the note's 3e-15, also with the norms;
+  - the mixing read with right vectors differs from frame C's by up to 0.84, the note's figure;
+  - the c = +2 charges are the note's; the leptons are the down coupling transposed at all 24 points of order 5 (3e-16,
+    against the note's 1.4e-14), and not at (1/7, 3/7), where the singular-value ratios differ by 0.09;
+  - c = +2 differs from frame C by up to 2.35 in σ₂/σ₁, the note's "up to 2.4".
+  - Main takes the identity E from its own hand reduction (row 1842), as the note's stage 3 rests on it.
+
+**6.2. The register,** recounted here from `UNITS.json` and the records at d44ed1564. Its window for this seat is at
+d36b2a0ec: 16 files and 1228 statements. 205 are verified, 5 superseded, 110 noted and 908 pending.
+
+**6.3. Still owed, all of it main's,** in M44's order:
+- W-Z1 at discriminants 12 and 40 (§ 1a);
+- W-L1's calibration of one row (§ 1a);
+- the result that is only in an output (§ 1b);
+- stage 3's two leftovers, B1947's failure with the corrected kernel (0.58 to 7.3) and the off-pole scalar (k about
+  −15), and stage 4 (§ 1a);
+- the earlier notes of § 1d;
+- W-H1's four asks (P-865);
+- the 908 pending statements.
+
+**6.4. HARVEST COMPLETE** is not written. List 3 is empty, but lists 1 and 2 still hold computations main has not
+repeated (§ 6.3), and 908 statements are pending.
 
 ## Notes
 
