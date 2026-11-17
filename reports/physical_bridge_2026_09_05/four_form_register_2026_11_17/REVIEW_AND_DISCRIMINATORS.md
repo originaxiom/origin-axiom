@@ -108,3 +108,13 @@ The internal-composite continuation adds the following checks.
     Reject an inference of universal impossibility from those
     particular charts, or an unpriced identification with a native
     group law/metric after dropping the angle dictionary.
+
+12. **Constrained phase and current.** Complete the original kinetic
+    square before constraining integral b. Recover
+    Delta^2/integral(dx/N), its equality case, its derivative and the
+    two-interval current-matching law. Reject replacing the path
+    integral by a freely assigned stiffness, composing its two pieces
+    with the wrong weighting, or declaring a constrained same-action
+    configuration to be a different kinetic theory. Free beta must
+    recover the unconstrained horizontal response. Keep endpoint-frame
+    covariance, the full-group branches and the N=0 exception.

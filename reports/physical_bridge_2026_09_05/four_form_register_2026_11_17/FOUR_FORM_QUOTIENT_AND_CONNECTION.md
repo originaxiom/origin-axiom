@@ -75,8 +75,11 @@ A -> A+d phi. The same-source rule for horizontal transport is
 therefore chi'=-A(gamma') along a specified path gamma. Its phase
 link is exp[-i integral_gamma A] in local endpoint frames. Endpoint
 frame changes transform this link with the two endpoint phases.
-The connection is fixed by (4). An independent phase link would change
-the stated kinetic theory for that path.
+The connection is fixed by (4) as its unconstrained longitudinal
+minimizer. An assigned link can also describe constrained boundary
+data or a non-minimizing configuration within the same kinetic
+theory. Its allowed variations and its source must then be retained.
+The companion constrained-response note derives its energy cost.
 
 Equation (5) is the leading effective-circle part of the full real
 Gauss connection. The latter includes non-Abelian gauge directions and

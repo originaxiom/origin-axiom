@@ -40,6 +40,9 @@ The files are
 - INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md for the alternative
   lossless angular map from the existing fields, its transported
   kinetic cross term, compatible word shear and radial dictionary.
+- CONSTRAINED_PHASE_RESPONSE_FROM_SAME_KINETIC_ACTION.md for the
+  exact leading phase current, energy cost and sewing law when a
+  specified physical source constrains the longitudinal holonomy.
 - REVIEW_AND_DISCRIMINATORS.md for the required independent checks.
 - SOURCES.json and METADATA_RECEIPT.json for exact source custody,
   reading coverage, scoped prior-work search and metadata-only checks.
@@ -76,3 +79,12 @@ with a declared angle function and transported metric. Its global
 vertex and native-action duties remain. A reference sector is one
 possible completion; its necessity does not follow from the first
 map's failure. No new foundational input payment is inferred.
+
+The same kinetic action also gives the constrained phase response
+Delta^2/integral(dx/N) for a fixed physical path and endpoint phase
+law. Its derivative gives the current, and its two-interval minimum
+gives a sewing law without an added stiffness. This corrects the
+earlier overstatement that an assigned link necessarily changes the
+kinetic theory. Such a link can instead be boundary data of that same
+theory. Its source and variations must be retained. This conditional
+response still leaves the physical path and source selection to earn.
