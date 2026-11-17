@@ -1,4 +1,4 @@
-# W-A3: the figure-eight's dihedral cover supplies the Heisenberg module and the parity with no flux, but not the act's Weil action. The frame's lines carry no Weil class: their trace signature is that of End(W), the same in both classes. The class belongs to the shift group's quadratic form; the knot's is x²/5, so B1951's 2x²/5 is a convention, off by a factor of 2. The up coupling wedged to the top degree is invariant in both classes and closes at level 5. Frame C's up phases are of order 25 only because frame C puts the charge into the characteristic, and nothing computed in the object is of level 25
+# W-A3: the figure-eight's dihedral cover supplies the Heisenberg module and the parity with no flux, but not the act's Weil action. The frame's lines carry no Weil class: they are End(W), the same in both classes. The object carries two forms on the shift group: the knot's discriminant form gives x²/5, and the act, read on the cover through the fibre's intersection form, gives the linking form b(x, x) = 2x²/5, B1951's. The up coupling wedged to the top degree is invariant in both classes and closes at level 5. Frame C's up phases are of order 25 only because frame C puts the charge into the characteristic, and nothing computed in the object is of level 25
 
 **From:** the web seat (chat1). **To:** main (cc). **Kind:** `result:`, data-free. It closes card W-A3
 (`relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md`, d1e36f8f4), the author's card relaying main's M39.
@@ -12,7 +12,7 @@ Read: M39. Main will recompute.
   sealed before its run, and its output was committed before it was read (ae58fade1). Every result in A–F comes from it.
 - **Post hoc 2** (`wa3_posthoc_wedge.py`) was written after reading M39. It was sealed before its run, and its output was
   committed before it was read (1c4645be3).
-  - M39 shows that the card's three-body coupling is "wedged to the top degree", so its degrees are exterior degrees in
+  - M39 states the card's three-body coupling as wedged into the top degree, so its degrees are exterior degrees in
     Λ*(W). The text as relayed to this seat lacked that phrase. The card's expectations E-E and F7 read the degrees as
     the cover's cusp degrees.
   - Post hoc 2 answers the question as M39 states it, and adds a test of whether the frame's lines carry a class at all.
@@ -29,11 +29,12 @@ Read: M39. Main will recompute.
 | B, the deck groups | **none** for the 5-sheeted cover of m004 (centraliser of order 1). Over the double cover M₂ (the kernel of t ↦ −1), **C₅, the shifts** |
 | B, the clocks | the deck group's characters pull back to ζ^(b·u) on the fibre: **twists by the act's fixed line**. Z = diag(ζ^x) intertwines the sheets' representation with its twist on M₂ (2 × 10⁻¹⁶), but not on m004 (best scalar off by 1.9; t inverts the twist) |
 | B, the module | ⟨X, Z⟩ has a commutant of dimension 1 (irreducible), and XZX⁻¹Z⁻¹ = ζ·I. **t acts on the (shift, clock) plane as −I** |
-| B, the act | in both classes c = 1, 2: ρ_c(−I) = P (to 3 × 10⁻¹⁵ and 6 × 10⁻¹⁵), but **ρ_c(LR) is not a scalar times P** (least distance 0.553) |
+| B, the act | in both classes c = 1, 2: ρ_c(−I) = P (to 3 × 10⁻¹⁵ and 6 × 10⁻¹⁵), but **ρ_c(LR) is not a scalar times P** (ρ_c(LR)P⁻¹ = ρ_c(U) has three distinct eigenvalues) |
 | C | H₁: m004, Z; M₂, Z ⊕ Z/5; **the 5-sheeted cover, Z³ with no torsion**; the 10-sheeted regular cover, Z⁵ with no torsion |
 | D, quadratic forms (T's coefficient c in e(cx²/5)) | **the knot's discriminant form q = xᵀA⁻¹x/2** (A = V + Vᵀ, V the Seifert matrix; Alexander −t² + 3t − 1): **c ∈ {1, 4}, residue**. Its bilinear form b(x, x) = xᵀA⁻¹x: {2, 3}, non-residue. **B1951's ρ(T): 2, non-residue.** **The flux-5 modes:** T² gives j²/5, so T's coefficient is 1/2 = 3, non-residue |
 | D, frame C's T-phases on lines | at the same point w (the record's transport), the two theta numerators give down e(−k²/5), lepton e(k²/5), up e(−17k²/25), for k = 1–4. These agree with B1953's φ = ζ^(−a²) for down |
-| D, the act's shear | LR ≡ −U mod 5. In the symplectic basis v = (1, 2), w = (0, 1), U w = w + 4v (residue); U² has shear 3 (non-residue) |
+| D, the act's shear | LR ≡ −U mod 5. In the symplectic basis v = (1, 2), w = (0, 1), U w = w + 4v (residue: U is conjugate to T in SL(2, 𝔽₅), in both Weil classes); U² has shear 3 (non-residue:
+conjugate to T²) |
 | post hoc 2, W2: does a class show in the frame? | the trace signature r = tr R(T²)/tr R(T)², which no overall scalar changes, is **+1/5 for ρ_c ⊗ ρ̄_c (same class) and −1/5 for ρ_1 ⊗ ρ̄_2 (mixed)**. On the frame's 25 lines it is **+1/5 for down and for lepton**, with tr R(T) = 5 |
 | post hoc 2, W1: the top wedge | in both classes, **det ρ_c(g) = 1 on all 120 elements** (to 6 × 10⁻¹⁴). α ∧ β ∧ γ (α, β ∈ Λ², γ ∈ Λ¹) picks up det ρ(g) (to 9 × 10⁻¹⁶). **The T-spectrum of every Λ^k(W) is in 5th roots** |
 | post hoc 2, W3 | the Weil 3's T-phases: class 1, {0, 1/5, 4/5}; class 2, {0, 2/5, 3/5} (W-A2's) |
@@ -68,6 +69,12 @@ Read: M39. Main will recompute.
   - r = −1/5 when they are mixed.
 - **The frame's down and lepton line representations have r = +1/5.** T moves (a, b) to (a, b − a), with B1953's phase
   ζ^(−a²) for down and ζ^(a²) for lepton.
+  - r is +1/5 for every phase ζ^(c a²), c = 0–4: only the five lines a = 0 are fixed by T and T², with phase 1. So the
+    test checks the transport, not B1953's phase, and it presumes the lines carry one of the four products.
+  - The basis-free fact is stronger. |tr ρ_c(g)|² is the number of points of 𝔽₅² fixed by g, for all 120 g, in both
+    classes. So End(W) is the permutation representation on 𝔽₅² in either class.
+  - One relabelling, by ζ^(ab), removes both of B1953's down phases (T: ζ^(−a²); S: ζ^(2ab)). So the down lines are that
+    permutation representation (the referee's recomputation).
   - So the frame's level-5 couplings live where End(W) does, and End(W) is the same in both classes.
   - This agrees with W-A2's referee: the record's lines match the Weyl operators for every Weil representation, up to an
     identification of 𝔽₅².
@@ -80,7 +87,8 @@ Read: M39. Main will recompute.
 
 ### Part 1.3: then what decides the class?
 
-**[E] The class is a property of the quadratic form carried by the shift group.**
+**[J] The class is a property of the quadratic form that the act's plane induces on the shift group, and the object
+carries two.**
 - The Weil representation of a finite quadratic module (A, q) has ρ(T) = e(q(x)), and its Fourier kernel is the
   bilinear form B(x, y) = q(x + y) − q(x) − q(y).
 - The cover's shift group is C₅. It is the image of H₁ of the double branched cover, Z/5, under the dihedral
@@ -89,18 +97,30 @@ Read: M39. Main will recompute.
   - **q = x²/5** (residue), as main says;
   - b(x, x) = 2x²/5.
 - B1951's ρ is the Weil representation of (Z/5, 2x²/5), whose bilinear form is −xy/5.
+- **The act carries the other** (the referee, computed once).
+  - The cover's Heisenberg pairing is the evaluation of deck characters on deck shifts.
+  - On the fibre, a shift is u(x), and clock k is the Poincaré dual of k·u under the intersection form, 2k·v. This
+    identification preserves the symplectic form up to −1.
+  - Through it, the act's unipotent part U is the unit shear (s, k) ↦ (s, k + s). Its phase on the shift group is
+    ½ω((U − 1)x, x) = b(x, x) = 2x²/5: B1951's class, with the record's identification the identity.
+  - Labelling the clocks by k·v instead, dropping the 2 in u = 2·ω(v, ·), gives x²/5.
 
-**[J] So, within the object, the knot fixes the class at x²/5.**
-- B1951's 2x²/5 is one of the factor-of-2 shifts computed in D:
+**[J] So the object does not fix the class by itself.** The knot's discriminant form q gives x²/5. The act, read on the
+cover through the fibre's intersection form, gives b(x, x) = 2x²/5, B1951's. This answers M39's 1.3 and leaves the
+choice open.
+- B1951's 2x²/5 and the knot's x²/5 differ by one of the factor-of-2 shifts computed in D. Only b against q is a
+  derivation (above); the other two are coincidences of spectrum (ρ₁(T²) looks like ρ₂(T)):
   - b against q;
   - U² against U, for the double cover's monodromy;
   - T² against T, for the odd-flux modes.
-- Since the frame does not see the class, choosing x²/5 conflicts with nothing in the frame.
+- Since the frame's lines do not see the class, neither choice conflicts with them. The record's identity
+  identification is the one the act's route gives, if the record's line labels are the fibre's homology mod 5.
 - **Re-basing B1951 on x²/5:**
   - leaves its split, commutant and hypercharges unchanged, since ρ_c(−I) = P in both classes;
   - changes the Weil 3's T-phases from {0, 2/5, 3/5} to {0, 1/5, 4/5} (W3);
   - needs the record's lines to be identified with the Weyl operators by diag(1, 2), not the identity.
-- The flux-5 modes would bring the other class. With the cover in place of the flux, that question does not arise.
+- The flux-5 modes bring 2x²/5 as well. Replacing the flux by the cover does not settle the class: the act read
+  through the cover also gives 2x²/5.
 
 ### Part 2: does the up coupling wedged to the top degree close at level 5?
 
@@ -109,7 +129,8 @@ Read: M39. Main will recompute.
 - Λ⁵ transforms by det ρ_c, and det ρ_c(g) = 1 on all 120 elements of SL(2, 𝔽₅). (SL(2, 𝔽₅) is perfect, so it has no
   other one-dimensional character.)
 - So the top wedge is an invariant tensor, with phase 1: it closes at level 5 for either class. W1 checks the
-  covariance directly.
+  covariance directly. This holds for any coupling into Λ⁵(W), so it does not test the up sector's charges. It shows
+  only that Λ*(W) puts no level-25 obstruction on M39's coupling.
 - The T-spectrum of every Λ^k(W) is in 5th roots. So nothing built from W carries a 25th root.
 
 **[E] Why frame C's up sector has 25th roots.**
@@ -122,7 +143,8 @@ Read: M39. Main will recompute.
 
 **[J] So the up sector needs no structure of level 25 if its coupling is the top wedge of the Fock-space reading.**
 - It needs level 25 only inside frame C's construction. There the requirement is the quadratic module
-  (ℤ/25, −17x²/25): lines read mod 25, at points of order 25.
+  (ℤ/25, −17x²/25): lines labelled by k mod 25: points of order 5 read with their lift. The pair's phase at k + 5 is e(−34k/5) times that
+  at k.
 - **The object supplies nothing of level 25 that was computed:**
   - the act has no eigenline mod 25 and keeps no cyclic subgroup of order 25;
   - there is no D₂₅;
@@ -140,15 +162,16 @@ The card's expectation that none closes in M2 was wrong. None of this bears on M
 
 | statement | how checked |
 |---|---|
-| dihedral representations only at p = 5; the cover's sheets, meridian, cusp degrees (1, 2, 2), deck groups and clock twists | computed once (post hoc 1 of a sealed script whose run stopped at a sanity assertion); expectations committed first; tested against planted errors (1) |
-| the cover's t is P, not ρ_c(LR), in either class | computed once; the basis-free reason is elementary (−U ≠ −I) |
-| H₁ of m004, M₂ and the 5- and 10-sheeted covers | computed once; the first two are the harness's known values |
-| the knot's q is a residue, b a non-residue; B1951 and the flux-5 modes are non-residues | computed once; expectations committed first |
-| the frame's lines have the same-class trace signature, +1/5 | computed once (post hoc 2, written after M39; sealed before its run) |
-| the top wedge is invariant in both classes (det ρ_c = 1); every Λ^k has a 5th-root spectrum | computed once (post hoc 2) |
-| frame C's up phases are of order 25; q₁² + q₂² ≡ 2 mod 5 for up | computed once; the analytic and numerical values agree |
-| nothing of level 25 in the act, in D₂₅, or in the covers' H₁ | computed once |
-| the cover replaces the flux; the class is the knot's, and the frame does not see it; B1951 can be re-based on x²/5; the up sector needs level 25 only in frame C's construction | a reading |
+| dihedral representations only at p = 5; the cover's sheets, meridian, cusp degrees (1, 2, 2), deck groups and clock twists | computed once (post hoc 1 of a sealed script whose run stopped at a sanity assertion); expectations committed first; tested against planted errors (1); recomputed independently |
+| the cover's t is P, not ρ_c(LR), in either class (−U ≠ −I, and −I is central) | computed once; recomputed independently |
+| H₁ of m004, M₂ and the 5- and 10-sheeted covers | computed once; the first two are the harness's known values; recomputed independently |
+| the knot's q is a residue, b a non-residue; B1951 and the flux-5 modes are non-residues | computed once; expectations committed first; recomputed independently |
+| the frame's lines have the same-class trace signature, +1/5 (for every phase coefficient); End(W) is the same in both classes, and the down lines with B1953's phases are its permutation form | computed once (post hoc 2, written after M39; sealed before its run); the last two recomputed independently |
+| the top wedge is invariant in both classes (det ρ_c = 1); every Λ^k has a 5th-root spectrum | computed once (post hoc 2); recomputed independently |
+| frame C's up phases are of order 25; q₁² + q₂² ≡ 2 mod 5 for up | computed once; the analytic and numerical values agree; recomputed independently |
+| nothing of level 25 in the act, in D₂₅, or in the covers' H₁ | computed once; recomputed independently |
+| the act's unipotent part, read on the cover through the fibre's intersection form, is a unit shear with phase b(x, x), the class of 2x²/5 | computed once (the referee) |
+| the cover replaces the flux; the frame's lines do not see the class; the object carries both x²/5 (the knot's q) and 2x²/5 (the act through the cover, = b(x, x)), so keeping B1951 or re-basing it on x²/5 is a choice; the up sector needs level 25 only in frame C's construction | a reading |
 
 ## 4. Files
 
@@ -160,7 +183,10 @@ The card's expectation that none closes in M2 was wrong. None of this bears on M
   `wa3_posthoc_wedge_output.json`;
 - `SCRIPT_SHA256_POSTHOC.txt` and `wa3_exit.txt`.
 
-This note was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes.
-The read's corrections follow in a later commit.
+This note was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked notes;
+the read's corrections are applied in this version. One is substantive:
+- the first version said the knot fixes the class at x²/5 and that B1951's 2x²/5 is a convention;
+- the referee found that the act, read on the cover through the fibre's intersection form, gives 2x²/5;
+- so the object carries both classes, and the choice is open.
 
 0 of 19.
