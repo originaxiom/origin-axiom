@@ -1,0 +1,86 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage2_Foundation_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FOUNDATION-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_covariant_second_fundamental_form": {
+    "E1_CovariantQuotientSecondFundForm_Gate_passed": true,
+    "PC_FD2_RawAffineSecondFundFormFailsGaugeCovariance": {
+      "su2_raw_II_gauge_violation": 1.722214365700426,
+      "u1_cov_norm_at_0": 1.292478601180436e-16,
+      "u1_raw_norm_at_0": 0.5999999999999999
+    },
+    "c6_eq9_abs_err": 0.0,
+    "c6_eq9_exact_missing_norm_sq": 3.700611971050365,
+    "computed_missing_norm_sq": 3.700611971050365,
+    "planar_su2_II_raw_vs_cov_norm": [
+      2.254070761943629,
+      4.022769060361744
+    ],
+    "planar_su2_eq5_defect_raw_vs_cov": [
+      21.39560901973593,
+      23.9924541396442
+    ],
+    "s_dependent_su2_gauge_invariance_II_and_defect_err": [
+      1.1590728377086634e-12,
+      4.344968829173013e-12
+    ]
+  },
+  "part_2b_joint_end_holonomy_gauss_and_parabolic_kinetic": {
+    "E2_JointEndHolonomyGauss_and_ParabolicKinetic_Gate_passed": true,
+    "PC_FD2_FixedEndHolonomyLeavesNonzeroGaussCurrent": {
+      "end_angle_grad_abs": 0.8775599652922568,
+      "max_link_gauss_current_abs": 0.292519988430753
+    },
+    "parabolic_induced_kinetic_c6_eq10_11": {
+      "kinetic_curvature_excess": 0.016373437768271326,
+      "nonzero_static_y_double_prime_abs": 1.2,
+      "true_parabolic_tension": 0.48777795855930306,
+      "true_vs_old_tension_ratio": [
+        0.9525492183792764,
+        0.9205746178983234
+      ],
+      "uncurved_tension_omitting_eq10": 0.47140452079103173
+    },
+    "repaired_joint_end_holonomy_solve": {
+      "e_joint_relaxed": 0.5,
+      "end_angle_grad_abs": 5.637784223886055e-16,
+      "full_grad_norm": 2.7676159253256127e-15,
+      "joint_vs_link_eliminated_energy_diff": 6.217248937900877e-15,
+      "max_all_links_gauss_current_abs": 1.8792614079620183e-16,
+      "phi_end_star": -0.9707963267948967
+    }
+  },
+  "part_2c_derived_hopf_link_transport": {
+    "E3_DerivedHopfLinkTransport_Spin10Sewing_Gate_passed": true,
+    "PC_FD2_PureFrameChangePreservesZeroMode_nullity": 1,
+    "derived_4form_hopf_integral_phase_rad": 0.8183107043083494,
+    "hopf_transported_lowest_3_svs": [
+      0.11989962973021973,
+      0.6871871711568407,
+      1.2286607993251772
+    ],
+    "hopf_transported_two_axis_nullity": 0,
+    "ten_trial_independent_cell_gauge_transport_max_sv_err": 1.509903313490213e-14
+  },
+  "stage_2_gate_passed": true
+}
