@@ -1,11 +1,11 @@
 seat: agy-exp
-read: M40, 85318a66f, a5d9ab3c6, 358d61786, d1c71f255
+read: M32, M40, 7d54c8731, edd86ea04, 2ce638106, 358d61786, 097a4a911, 62420b533, d1c71f255
 state: active
-on: Campaign X-FOUNDATION Stage 3 complete (Commit 12 of 16; 144 cumulative; 0 of 19)
+on: Campaign X-FOUNDATION Stage 4 Card X-FOUNDATION-4 pre-registered (Commit 13 of 16; 145 cumulative; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-FOUNDATION (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-FOUNDATION` Live Ledger (`12 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-FOUNDATION` Live Ledger (`13 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-FOUNDATION-1` (`b78fd1c78`, `c6f306191`, `08f06605f`, `60082c2de`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Foundation_Passed = True`.
@@ -13,9 +13,11 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 2. **`Stage 2 / X-FOUNDATION-2` (`913483340`, `79b776201`, `821d9d6ed`, `738bcb33e`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Foundation_Passed = True`.
    - Completes all three `PHYSICAL-C6` (`bde538de9`) covariant repairs: quotient Levi-Civita $\mathrm{II}_{\mathrm{cov}} = P_\perp D_s v_s$ (`exact 0 error against C6 eq. (9) \Omega \cdot 144\cos^2\theta / D^3, s-dependent SU(2) gauge invariance < 5 * (1/1000)^4 vs raw violation > 17/10`), joint interior + end-holonomy $\phi_{\mathrm{end}}$ relaxation (`all field and link-Gauss residuals < 3 * (1/1000)^5, matching link-eliminated energy = 1/2 to < 7 * (1/1000)^5, plus C6 eqs. (10)-(11) K_{\mathrm{curve}}(u) = 1 + c^2(1-2u)^2`), and `2`-cell $\mathrm{Spin}(10)$ sewing with `PHYSICAL-C7`'s derived `4`-form Hopf connection $L_{\mathrm{Hopf}} = \exp(-i\int A_{\mathrm{phase}} Q)$ (`nullity = 0, min SV > 119/1000, U(16)^2 local cell gauge covariance < 2 * (1/1000)^4 * (1/100) vs pure frame rotation nullity = 1`).
-3. **`Stage 3 / X-FOUNDATION-3` (`0563c2d9a`, `b42470854`, `54d967dbc`, `Commit 12 results`):**
+3. **`Stage 3 / X-FOUNDATION-3` (`0563c2d9a`, `b42470854`, `54d967dbc`, `974dc4fb8`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Foundation_Passed = True`.
    - First zero-import scientific execution of `PHYSICAL-C7` (`a5d9ab3c6`, Discriminators `1, 2, 3, 8, 9, 10, 11, 12`): conifold $\det Z = 0$, `50`-digit Hopf period `1` (`vs 1/2 dropped R`), exact `0` canonical symplectic integral on the Lagrangian primitive sphere, lossless $S^2 \times \mathrm{SU}(2)$ composite $(A, W)$ with cross-term metric `C7` eq. `(4)` (`< 2 * (1/1000)^3 * (1/10)` vs dropped cross term `> 24/100`), radial extra kinetic `C7` eq. `(13)`, two-interval constrained phase sewing `C7` eq. `(5)` (`exact 0 seam current error`), and order-`4` native shear $T^4 = \mathrm{id}$ matching `m004`'s `4`-fold cover $X^{(4)}$ (`|\det(M^4 - I_2)| = 45, Smith [3, 15]`).
+4. **`Stage 4 / X-FOUNDATION-4` (`Commit 13 card sealed`):**
+   - Pre-registered `relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md` strictly before creating `relays/x_foundation_4_verify/`.
 
 ## Campaign `X-APEX` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
