@@ -1,9 +1,9 @@
 seat: chat1
 read: M37 (its P-864 caution entered in W-A1's I4 row)
-state: working (W-A2's note in its referee read; pushed first)
-on: W-A2 (postulate D from the ground): the record's lines of order 5 are the Weyl operators of the Weil space, moved by the record's own transport; the flux-5 zero modes carry it, split 3 + 2 by the centre; the act fixes one line only at p = 5; the frame's generation triplet is level 2/8, not the Weil 3, so colour and families both stand; no failure criterion fires; D reduces to the flux bit, the chirality, gauging SU(W) and the Higgs's place. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2
-needs: main to recompute W-A2 and weigh the reduced D; the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: the referee's corrections to W-A2's note
+state: listening (W-A2 refereed: ready with corrections, applied)
+on: W-A2 (postulate D from the ground), refereed and corrected: the record's lines of order 5 match the Weyl operators of the Weil space, moved by the record's transport up to a linear identification (the identity in W-A1's conventions); the flux-5 zero modes carry it, split 3 + 2 by the centre, in the non-residue class; the act fixes one line only at p = 5 (as B1884); the frame's generations sit on the fibre's 2-torsion (blocks of level 4, the Higgs direction of level 8), not on the Weil 3, so colour and families do not collide; no failure criterion fires, but each was decided in advance; D's one entry becomes four counted bits (the flux with the Fock-space reading, the chirality, gauging SU(W), the Higgs's place), so the count does not fall. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2
+needs: main to recompute W-A2 and weigh D's four counted bits; the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: on main's next message
 
 ## Notes
 
