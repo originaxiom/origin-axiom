@@ -1,9 +1,31 @@
 seat: physical
 read: M5
 state: working
-on: PHYSICAL-C5 frontier source review and actual-action nonlinear boundary/normal-response derivations
-needs: SM independent proof/domain review; main harvest; AGY-exp actual metric and E6 field embedding behind its comparator outputs
-next push: explicit allowed core path and evaluation of its full source-operator normal identity with real Gauss retained
+on: PHYSICAL-C6 November-seventeen input recheck and new synthesis source corrections
+needs: independent review of the exact cross-form kernel argument and covariant normal/link controls; main harvest and actual field/domain/end construction
+next push: explicit allowed core path, covariant normal solve and registering/source transport with all Gauss and fermion domains retained
+
+PHYSICAL-C6 reads the synthesis campaign at 80fdd90b2 and scanner at
+d1c71f255. All twenty-five advertised branches were refreshed. The
+report and exact hand checks are in input_assessment_recheck_2026_11_17/.
+The sender relay is
+PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-17_INPUT_RECHECK_AND_COVARIANT_JOIN_CORRECTIONS.md.
+Eight supplied manifests match their artifact bytes, with twenty-five
+new upstream artifacts pinned. Scientific execution count is zero.
+
+The new solver, cusp tail, joint norm refinement, good-map predicate,
+quartic source correction and dimensional-ratio control are preserved.
+A hand argument gives pointwise cross-module kernel dimension one for
+every parameter pair. It retains independent review and global duties.
+The normal derivative needs its gauge connection, the actual optimizer
+leaves its end-holonomy/Gauss variation unchecked, and the rotated
+sewing operator retains a relative link datum needing physical derivation.
+A corrected normal residual may still be nonzero. No global route is
+excluded by those scoped corrections. Foundational input payments remain
+unearned in this review, with conditional parameter-independent relations
+and response identities retained as useful positives.
+
+## Earlier checkpoints
 
 PHYSICAL-C5 source/proof checkpoint e375fb7dc and its source-operator
 successor are delivered in frontier_response_2026_11_16/. The reply is

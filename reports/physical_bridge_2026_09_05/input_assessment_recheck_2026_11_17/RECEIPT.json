@@ -1,0 +1,372 @@
+{
+  "date_utc": "2026-11-17T09:48:14.756698+00:00",
+  "scope_commit": "68e5e2793941d16d903fb9d9812014c79fed4bec",
+  "branch_heads": {
+    "origin/HEAD": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/agy-002/closure": "f877e0481172392dff9b63420b8bfb03399e9f49",
+    "origin/agy-002/endgame": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "origin/agy-002/verify": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "origin/agy/audit-2026-11-02": "d1c71f255ade662098dbec1167ba355b12584740",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/agy/self-consistent-loop-2026-11-11": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+    "origin/agy/stage4-sync-2026-11-11": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "407583a8c6eb7d413605e97c47e57ebc4ccad4d3",
+    "origin/chat1/web-seat": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+    "origin/cld/cool-hamilton-k9eqvo": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/review-82/read": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "origin/review-83/read": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "advertised_branch_count": 25,
+  "changes_from_C5": [
+    {
+      "ref": "origin/agy/audit-2026-11-02",
+      "C5": "e6129316e2b277e81f512de9adb7b311346f5acd",
+      "current": "d1c71f255ade662098dbec1167ba355b12584740"
+    },
+    {
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "C5": "af08bc3d272c01a85e7341da91cfcc43d230d64c",
+      "current": "80fdd90b23abd93e89a9ed7614103b135f182c66"
+    }
+  ],
+  "new_upstream_artifacts": [
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md",
+      "sha256": "bb8cc09e517e264133d7a06feb6b43df6f853b349c1bc94910910029e4dd21b6",
+      "bytes": 4380
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS.md",
+      "sha256": "f6be3c94132608f4e8c3938455a7dc8c302f9c4098ef8d90103385ba2a2cc47b",
+      "bytes": 5649
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS.md",
+      "sha256": "667bc9a9268698c58ede12c7d2ca3d1a314995d7560f36444b4e8f6ad118b064",
+      "bytes": 5748
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md",
+      "sha256": "80a6d8742e91fd1750eb355e985fef505554214d390e76866518b1d0ebd57322",
+      "bytes": 6354
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/STATUS_AGY-EXP.md",
+      "sha256": "51b531ddfc07abc4573088f26d30a2d640a99c0b88fb4be954a1d72c46f3b81c",
+      "bytes": 30253
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md",
+      "sha256": "528a12410c91026e3c28ac721390acafabe8947e639d2b1662f8912153cc6e6c",
+      "bytes": 5211
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/cards/AGY-EXP_X-SYNTHESIS-2_crossform-nilpotence-end-response-and-parent-normal-wall.md",
+      "sha256": "1625ee99f709c1a99d23119198e03f661a80eae3d62b8479d317be2e6487fdbe",
+      "bytes": 5083
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/cards/AGY-EXP_X-SYNTHESIS-3_minus48-rge-pati-salam-3bl-tm1-and-weil-s2-scalar.md",
+      "sha256": "8d74af49abbafca845b76dc0c4ca4868dae858d4e907a49247bfc32f4ce2e60c",
+      "bytes": 5237
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/cards/AGY-EXP_X-SYNTHESIS-4_complete-288-diagnostics-collar-casimir-18row-matrix-and-minus48-suite.md",
+      "sha256": "e0c705df301abbb85d920be3b546d16c4cae0e905403695c748c7381f1c865aa",
+      "bytes": 4811
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_1_verify/OUTPUT_SHA256.txt",
+      "sha256": "8ee9cd8e87735fb985315919966e56c335f404e3234f1b878ce07117f5939057",
+      "bytes": 96
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_1_verify/SCRIPT_SHA256.txt",
+      "sha256": "74e56a505161b9fe3a95e78dda5d2df119e0f7d0344c32bbb044a02c349e6ae2",
+      "bytes": 90
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_1_verify/verify_x_synthesis_1.py",
+      "sha256": "95da39ed78baebb20b476bb470d220f25cb67e515a452b21ac302956d4bd8c1f",
+      "bytes": 30144
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_1_verify/verify_x_synthesis_1_out.json",
+      "sha256": "c702bec2ef490513398c31c70ebb05897619274e5023b76c58b20408496a065b",
+      "bytes": 3036
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_2_verify/OUTPUT_SHA256.txt",
+      "sha256": "bfd5f4a277a2f2028a559312ce940cc312ff4a2c51a0dd4415cec9ab48fb89c6",
+      "bytes": 96
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_2_verify/SCRIPT_SHA256.txt",
+      "sha256": "44b895dc647333a395cfdc66a25fcc82473b7faf946d952b2d9e787fe58ad88c",
+      "bytes": 90
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_2_verify/verify_x_synthesis_2.py",
+      "sha256": "3e0f93dd4545072e2ead035a1667dda26174afd27bf469415ba332e091856d92",
+      "bytes": 49627
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_2_verify/verify_x_synthesis_2_out.json",
+      "sha256": "8cd9899014dbb87b822a7fdc12f7ae5f5374fd58f593186da9db5d2d250e6296",
+      "bytes": 3194
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_3_verify/OUTPUT_SHA256.txt",
+      "sha256": "4f3633f72dc4a3a1183d3d9331fd09cc0f2a1bb1ddeb2d5f03e86fc234cd0afb",
+      "bytes": 96
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_3_verify/SCRIPT_SHA256.txt",
+      "sha256": "cb5c113c643fca56be65b19e6a5b74092f5c18c56a87fb7d441f8bf54afa2294",
+      "bytes": 90
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_3_verify/verify_x_synthesis_3.py",
+      "sha256": "979db2a07abafa11b74189b2814c465f19da859f8fbb691673b4dbba8e9bfc3b",
+      "bytes": 50683
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_3_verify/verify_x_synthesis_3_out.json",
+      "sha256": "466135b9607f80ff98593e6800a9016d48523b3937b0fce5b6346e726731c0e0",
+      "bytes": 3676
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_4_verify/OUTPUT_SHA256.txt",
+      "sha256": "e0b32762935c223e0616acb80b894ae25ad022868d473e3027f3fa934648dd0f",
+      "bytes": 96
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_4_verify/SCRIPT_SHA256.txt",
+      "sha256": "c3a7b5cb2fe09bb0a229b1223381370fdcd622f319fc8b480c28c8728a93a336",
+      "bytes": 90
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_4_verify/verify_x_synthesis_4.py",
+      "sha256": "67906bf7203be33bf04a72ac252f4c9b47bfc49cc9ac90cd3573d15056b6879b",
+      "bytes": 201533
+    },
+    {
+      "commit": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+      "path": "relays/x_synthesis_4_verify/verify_x_synthesis_4_out.json",
+      "sha256": "497b54296428178c162b6c88767abeae3cc2951e4cbacbea582805017a3957ba",
+      "bytes": 33455
+    }
+  ],
+  "provided_manifest_matches": [
+    {
+      "manifest": "relays/x_synthesis_1_verify/OUTPUT_SHA256.txt",
+      "target": "relays/x_synthesis_1_verify/verify_x_synthesis_1_out.json",
+      "sha256": "c702bec2ef490513398c31c70ebb05897619274e5023b76c58b20408496a065b",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_1_verify/SCRIPT_SHA256.txt",
+      "target": "relays/x_synthesis_1_verify/verify_x_synthesis_1.py",
+      "sha256": "95da39ed78baebb20b476bb470d220f25cb67e515a452b21ac302956d4bd8c1f",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_2_verify/OUTPUT_SHA256.txt",
+      "target": "relays/x_synthesis_2_verify/verify_x_synthesis_2_out.json",
+      "sha256": "8cd9899014dbb87b822a7fdc12f7ae5f5374fd58f593186da9db5d2d250e6296",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_2_verify/SCRIPT_SHA256.txt",
+      "target": "relays/x_synthesis_2_verify/verify_x_synthesis_2.py",
+      "sha256": "3e0f93dd4545072e2ead035a1667dda26174afd27bf469415ba332e091856d92",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_3_verify/OUTPUT_SHA256.txt",
+      "target": "relays/x_synthesis_3_verify/verify_x_synthesis_3_out.json",
+      "sha256": "466135b9607f80ff98593e6800a9016d48523b3937b0fce5b6346e726731c0e0",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_3_verify/SCRIPT_SHA256.txt",
+      "target": "relays/x_synthesis_3_verify/verify_x_synthesis_3.py",
+      "sha256": "979db2a07abafa11b74189b2814c465f19da859f8fbb691673b4dbba8e9bfc3b",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_4_verify/OUTPUT_SHA256.txt",
+      "target": "relays/x_synthesis_4_verify/verify_x_synthesis_4_out.json",
+      "sha256": "497b54296428178c162b6c88767abeae3cc2951e4cbacbea582805017a3957ba",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_synthesis_4_verify/SCRIPT_SHA256.txt",
+      "target": "relays/x_synthesis_4_verify/verify_x_synthesis_4.py",
+      "sha256": "67906bf7203be33bf04a72ac252f4c9b47bfc49cc9ac90cd3573d15056b6879b",
+      "matches": true
+    }
+  ],
+  "reading_coverage": {
+    "result_relays": "all four read in full",
+    "relays/x_synthesis_1_verify/verify_x_synthesis_1.py": [
+      [
+        123,
+        629
+      ]
+    ],
+    "relays/x_synthesis_2_verify/verify_x_synthesis_2.py": [
+      [
+        94,
+        319
+      ],
+      [
+        326,
+        1006
+      ]
+    ],
+    "relays/x_synthesis_3_verify/verify_x_synthesis_3.py": [
+      [
+        184,
+        223
+      ]
+    ],
+    "relays/x_synthesis_4_verify/verify_x_synthesis_4.py": [
+      [
+        2880,
+        2915
+      ],
+      [
+        2949,
+        2990
+      ],
+      [
+        3540,
+        3575
+      ]
+    ],
+    "additional_source_search": "AST inventory of four new verifiers; targeted search of -48 entries at stage-four lines 287 and 1006; no fresh full-file certificate for stages three/four"
+  },
+  "guard_sources": [
+    {
+      "commit": "73eba54854eba1fd8eac5fc3a03f89139acd25d1",
+      "path": "src/origin_axiom/stage1_curved_action_cusp_orbit.py",
+      "sha256": "d999f5dacfe8503bd7e6150da64a56a2e215665ee0b49da246527c7b481dac0e",
+      "bytes": 1137760
+    },
+    {
+      "commit": "d1c71f255ade662098dbec1167ba355b12584740",
+      "path": "src/origin_axiom/stage1_curved_action_cusp_orbit.py",
+      "sha256": "effba59d9f0cb28467b6f9e8ffb7500b29b5c134f7df05826b26ef8280960b45",
+      "bytes": 1189224
+    }
+  ],
+  "guard_non_scanner_module_AST_nodes_identical": true,
+  "guard_non_scanner_node_count": 29,
+  "canonical_sources": [
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "GENESIS.md",
+      "sha256": "6313a3e0e043bf0ef85b2fdc39e638ab6834690a2dac5542249944f8327bbb4d"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "docs/total_inputs_scoreboard.json",
+      "sha256": "bf234551ad0afd6b6279d64bc9d3ce5e0d4c074747c4866f55e8eb3694e37baf"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "frontier/B1948_the_relations_the_record_holds_typed/FINDINGS.md",
+      "sha256": "33e3361e7353dca141e853df5fff5636ddbf43f8619a71bb6c63e65b23000a94"
+    },
+    {
+      "commit": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+      "path": "docs/seats/physical.md",
+      "sha256": "f243b5362ba28254da77cabf2e424750649b957c13685f81f090c3d4bc3e7e74"
+    }
+  ],
+  "canonical_counts": {
+    "earned_of_19": 0,
+    "identification_price": 13,
+    "frame_borrowed_counts": {
+      "A": 14,
+      "B": 45,
+      "C": 12
+    }
+  },
+  "received_gate_flags": [
+    {
+      "path": "relays/x_synthesis_1_verify/verify_x_synthesis_1_out.json",
+      "evidence": "received upstream; source-inspected; not rerun here",
+      "top_level_flags": {
+        "all_planted_controls_passed": true,
+        "stage_1_gate_passed": true
+      }
+    },
+    {
+      "path": "relays/x_synthesis_2_verify/verify_x_synthesis_2_out.json",
+      "evidence": "received upstream; source-inspected; not rerun here",
+      "top_level_flags": {
+        "all_planted_controls_passed": true,
+        "stage_2_gate_passed": true
+      }
+    },
+    {
+      "path": "relays/x_synthesis_3_verify/verify_x_synthesis_3_out.json",
+      "evidence": "received upstream; source-inspected; not rerun here",
+      "top_level_flags": {
+        "all_planted_controls_passed": true,
+        "stage_3_gate_passed": true
+      }
+    },
+    {
+      "path": "relays/x_synthesis_4_verify/verify_x_synthesis_4_out.json",
+      "evidence": "received upstream; source-inspected; not rerun here",
+      "top_level_flags": {
+        "all_planted_controls_passed": true,
+        "stage_4_gate_passed": true
+      }
+    }
+  ],
+  "scientific_execution_count": 0,
+  "scientific_import_count": 0,
+  "scientific_collection_count": 0,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
