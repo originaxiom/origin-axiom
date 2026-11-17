@@ -1,0 +1,16 @@
+{
+ "id": "web-wa2-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), part A: below 2000 the act fixes exactly one line of F_p^2 at p = 5 only, two exactly when p = +-1 mod 5, none otherwise (0, 1, 0, 2, 0 at p = 3, 5, 7, 11, 13). It is the splitting of x^2 - 3x + 1 mod p, so 'where the act names a unique line' and 'the prime of the act's discriminant' are one condition",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:25",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:35",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:37",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:39",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:42",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:180",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:181"
+ ]
+}

@@ -330,7 +330,7 @@ by a quote that the builder checks.*
 | 28 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
 | 29 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
 | 30 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
-| 31 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
+| 31 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic now carries the dated line on the d/e spectrum (2026-11-18); open only for L240 (c), which P-428 proposes to merge into it. |
 | 32 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
 | 33 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |
 | 34 | P-528 | a false or stale statement in a foundation or front document | docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line. |

@@ -4913,7 +4913,7 @@
   "layer": "15 debts",
   "kind": "debt",
   "grade": "DEBT",
-  "text": "docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).",
+  "text": "docs/THE_CLAIM.md section 1's cubic now carries the dated line on the d/e spectrum (2026-11-18); open only for L240 (c), which P-428 proposes to merge into it.",
   "pins": [
    [
     "docs/POINT_REGISTER.md",

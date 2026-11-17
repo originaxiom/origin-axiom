@@ -1,0 +1,10 @@
+{
+ "id": "web-wa2-08",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1934's open item (is the icosahedral triplet the frame's generation triplet) was already settled by B1935 section 3, as the note says: the frame's modular triplets are its channels and its Higgs direction, and the blocks are never of level 5 (B1952 part F confirms it on the frame)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:122"
+ ]
+}

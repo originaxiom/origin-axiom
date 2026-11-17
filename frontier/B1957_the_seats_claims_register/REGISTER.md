@@ -9,9 +9,9 @@
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
-| web | 24 | 10 | 1850 | 520 | 0 | 0 | 141 | 5 | 409 | **775** |
+| web | 24 | 10 | 1850 | 571 | 0 | 0 | 141 | 5 | 464 | **669** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 293 | 60 | 16003 | 1042 | 12 | 94 | 264 | 5 | 737 | **13849** |
+| **all** | 293 | 60 | 16003 | 1093 | 12 | 94 | 264 | 5 | 792 | **13743** |
 
 ## By file
 
@@ -294,7 +294,7 @@
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY.md` | yes | 45 | 45 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md` | yes | 66 | 66 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md` | yes | 58 | 58 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md` | no | 106 | 0 | **106** |
+| web | `relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md` | no | 106 | 106 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | no | 104 | 0 | **104** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 0 | **54** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |

@@ -1,0 +1,24 @@
+{
+ "id": "web-wa2-05",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), parts D and F: the frame's quaternion units square to -1, anticommute and are orthogonal, the level-2 Weyl operators up to phases; the Higgs direction's triplet has T-phases 1/8, 3/8, 7/8 (also B1935 and B1939's own output); the Weil representation's are 0, 2/5, 3/5. Main's added step on the frame itself: the left unitary under tau + 1 is a permutation of the three generation blocks with phases, of order 4 up to an overall phase, which is what the seat's referee had argued by algebra. So the frame's triplets are of level 2, 4 and 8 and the Weil 3 is of level 5: different triplets, at coprime levels",
+ "note": "That three is the number of even spin structures of a torus (or of non-zero 2-torsion points) is arithmetic; that the generations sit there is the frame's choice, counted.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:28",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:101",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:103",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:105",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:107",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:109",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:110",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:112",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:113",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:114",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:115",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:116",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:119",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:186",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:187"
+ ]
+}
