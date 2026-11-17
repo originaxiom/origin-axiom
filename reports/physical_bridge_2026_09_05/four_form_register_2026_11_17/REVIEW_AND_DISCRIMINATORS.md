@@ -76,3 +76,9 @@ test the actual cubic R_c S and P_c T constraints and the unipotent
 Nielsen derivative at the trivial pair. These checks apply to the
 declared coefficient-to-group frames. They do not classify every
 possible register map or every allowed geometric family.
+
+The larger-reference alternative is also part of the rejection scope.
+Check the SU2 contraction of diag(exp(i varphi),exp(-i varphi)) on
+the displayed sphere. Reject extending its doublet triviality to the
+whole family without a bundle argument, or assigning the Q-neutral
+quaternion flavour fields opposite Q charges by a change of name.

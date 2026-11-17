@@ -99,6 +99,17 @@ charged section that is nowhere zero on that entire sphere would
 contradict the nonzero first Chern class. This topological observation
 does not forbid local measuring states or a full relational bundle.
 
+A larger reference is a compatible alternative. Over this sphere the
+associated doublet L direct-sum L^-1 has trivial determinant and
+transition diag(exp(i varphi),exp(-i varphi)). That loop is contractible
+in SU2, so the doublet admits a global unitary frame there. This removes
+the particular single-phase obstruction on that sphere. It leaves
+the choice of frame, its action and its relation to the existing
+flavour/measuring fields to be derived. The existing quaternion flavour
+doublet is Q-neutral; assigning it these opposite Q characters would
+be an additional identification requiring a map. No extension of this
+local topological observation to the whole parameter family is assumed.
+
 ## 4. Keeping the reference also requires its kinetic response
 
 For a simple local comparator let zeta=exp(i chi) be a physical phase

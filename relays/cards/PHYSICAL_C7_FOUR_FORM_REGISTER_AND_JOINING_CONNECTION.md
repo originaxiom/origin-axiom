@@ -65,3 +65,16 @@ global bundle obstruction and its physical action price. Test the
 native Nielsen shear against the inherited positive fixed-background
 kinetic metric. These are hand compatibility checks of a named map,
 with negatives scoped to that map and with the larger geometry retained.
+
+## Internal composite-register continuation
+
+The direct two-generator map needs a reference, but that does not
+establish that every relational map needs a new field. Test the
+gauge-invariant composites A=U(u) J U(u)^-1 and
+W=U(u) U(bar v)^-1, where J=diag(i,-i), in the same declared frames.
+Determine whether these retain the entire five-dimensional angular
+quotient. Transport its actual source metric and connection into
+those variables. Test word evaluations, any imposed relation and
+the two native Nielsen moves before using the composite as a map
+of the full architecture. This is author hand analysis only. It
+introduces no scientific implementation, execution or extra field.
