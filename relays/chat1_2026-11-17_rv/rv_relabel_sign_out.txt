@@ -1,0 +1,9 @@
+main at: a git checkout
+down reading S  T: law residual 5.3e-16; phases vary by 0.200 of a turn; after zeta^(+ab): 4.0e-01; after zeta^(-ab): 9.0e-17
+down reading S  S: law residual 6.4e-16; phases vary by 0.400 of a turn; after zeta^(+ab): 4.0e-01; after zeta^(-ab): 9.0e-17
+down reading St T: law residual 1.0e-15; phases vary by 0.200 of a turn; after zeta^(+ab): 4.0e-01; after zeta^(-ab): 9.6e-17
+down reading St S: law residual 1.1e-15; phases vary by 0.400 of a turn; after zeta^(+ab): 4.0e-01; after zeta^(-ab): 5.5e-17
+lep  reading S  T: law residual 7.1e-16; phases vary by 0.200 of a turn; after zeta^(+ab): 6.8e-17; after zeta^(-ab): 4.0e-01
+lep  reading S  S: law residual 6.9e-16; phases vary by 0.400 of a turn; after zeta^(+ab): 4.8e-17; after zeta^(-ab): 4.0e-01
+lep  reading St T: law residual 8.6e-16; phases vary by 0.200 of a turn; after zeta^(+ab): 3.3e-17; after zeta^(-ab): 4.0e-01
+lep  reading St S: law residual 1.9e-15; phases vary by 0.400 of a turn; after zeta^(+ab): 5.5e-17; after zeta^(-ab): 4.0e-01
