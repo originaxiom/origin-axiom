@@ -298,3 +298,37 @@ values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²
 - A lock that pins a count is wrong the day the count rightly changes. Hold the rule the count stood for (B1861's and
   B1873's locks, repaired on 2026-11-11).
 
+## Instruments of 2026-11-15 to 17 (added 2026-11-17, at B1956's landing)
+
+- **Frame C in extended precision, point by point** (B1945): `determinant_law.parts(tx, ty, a, b, sec)` returns the
+  Higgs readings, the channel matrix and the coupling in both readings —
+  `frontier/B1945_the_frames_cusp_exponents/verification/determinant_law.py`. Above height 40 raise the working
+  precision (40 + 3.5 y digits).
+- **The coupling's law over the 24 points, and the operator it is the symbol of** (B1953): `law(Y0, Y1, gen)` finds the
+  two unitaries from the pointwise Gramians and returns the phases; `O(Y)` builds the operator on families ⊗ the Weil
+  space; `family_gramians`, `phased_sum` —
+  `frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/weyl_operator.py`.
+  Scale each Gramian by its own trace when solving for a unitary: under τ → −1/τ the coupling carries a weight ∣τ∣.
+- **The Gramian and the sums under T and S** (B1945 § 6) —
+  `frontier/B1945_the_frames_cusp_exponents/verification/gramian_and_sum.py`.
+- **Level 5's Weil space** (B1951, B1952, B1953): the centre's dictionary, `weil_centre.py`; the lines as Weyl
+  operators and the zero modes, `wa2_on_main.py`; the exact facts (the 24 operators D(v), hypercharge as their sum),
+  `exact_facts.py`.
+- **A knot group's dihedral representations by brute force on SnapPy's presentation, and the covers' cusps** (B1955):
+  `dihedral(p)` —
+  `frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/wa3_on_main.py`.
+- **A seat's quotations checked against another seat's source, line by line** (B1954): `quotes()` —
+  `frontier/B1954_the_physical_lanes_work_of_2026_11_15_to_17_read_and_checked/verification/codex_checks.py`.
+- **The gauge eliminants in exact fractions** (B1956): `eliminant()`, `pati_salam()` —
+  `frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/verification/agy_exp_checks.py`.
+
+**Four traps of these days.**
+- **The canonical end's table has an edge** (P-864): `canon_readout.canon` returns the nearest tabulated value below
+  height about 0.87, with no flag. At −1/τ carry the end by its law, L(−1/τ) = L(τ) + log∣τ∣, and pass it explicitly.
+- **A landing's exit code is read from the file it wrote**, never through a pipe; the wrapper's own code is 0 when the
+  landing refused.
+- **A single gate can be run directly**: import `gates` from `scripts/gates` and call `gates.gate_seen_first()` and its
+  fellows. `gates.py --only` runs everything.
+- **A new arc folder made while a landing runs fails that landing** (`atlas-fresh`). Draft under `audit/` until it
+  returns.
+

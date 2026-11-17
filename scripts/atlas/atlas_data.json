@@ -17638,6 +17638,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1956": {
+   "slug": "agy exps ten campaigns read at their result notes and checked where exact",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B915"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

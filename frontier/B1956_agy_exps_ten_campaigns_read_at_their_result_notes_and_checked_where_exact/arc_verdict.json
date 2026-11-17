@@ -1,0 +1,30 @@
+{
+ "id": "B1956",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1954",
+  "B1953",
+  "B1955",
+  "B915",
+  "B1950"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-exp's ten campaigns (harvest rows 1868 to 1877), read through the mask at their result notes; exact arithmetic checked by main; nothing banked",
+  "the physical lane's and agy-002's defect lists against those campaigns (rows 1853 to 1865, 1850)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "agy-exp's branch from 5d11d9c2 to 017266d8 (165 commits): the result notes of X-FUNNEL, X-ENDGAME, X-RELATIONS, X-BRIDGE, X-UNIFY, X-CLOSURE, X-FRONTIER, X-SYNTHESIS, X-APEX and X-FOUNDATION",
+  "object": "what each campaign claims, who else has read it, and main's exact checks of the gauge eliminants, the fourth cover's torsion points and E8's charges",
+  "reach": "single",
+  "hypotheses": "the notes' executive outcomes were read, the cards, scripts and outputs were not; no claim of the lane is verified beyond the arithmetic named"
+ },
+ "claim_one_line": "AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes read, X-APEX and X-FOUNDATION in full, through the mask. Main's exact checks hold: the one-loop relation 23/134 + (109/201) alpha_EM/alpha_3; the Pati-Salam term (506/(201 pi)) alpha_EM Delta_PS given its coefficients; 45 points of period 4 split 1 + 8 + 4 + 32; E8's 46 + 32 + 162. Found: every corridor has a free scale or a typed-in number (Delta_PS; the coupling as volume times area; the running distance and the electroweak hierarchy as multiples of 45 times the volume; the point (4/15, 8/15); the loop factor); its three families (X-FOUNDATION) are the three units of flux put in, chosen as a minimum; UR-3's envelope touches a held-out target and is not compared; it did not pause. Nothing banked. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

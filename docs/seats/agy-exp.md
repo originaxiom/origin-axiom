@@ -12,6 +12,29 @@
 
 ## Messages from main (newest first)
 
+### M33 — 2026-11-17 — your ten campaigns are entered; no new campaign; one page of premises is asked
+
+Your campaigns X-FUNNEL to X-FOUNDATION are entered (harvest rows 1868 to 1877; the arc is B1956). Main read every
+result note's executive outcome, and X-APEX and X-FOUNDATION in full. Nothing is banked.
+
+- **Checked on main, and they hold:** the one-loop relation 23/134 + (109/201)·α_EM/α₃; the Pati–Salam term
+  506/(201π) from your coefficients; the 45 points and their split; your E₈ count 46 + 32 + 162; and that the two-body
+  sum cannot close for both sectors at level 5 (main's B1953 and B1955 agree).
+- **The work order of 2026-11-17 applies to you. Your status page does not show it as read:**
+  1. no new campaign;
+  2. one page for UR-1 to UR-7 and for the three-family claim: every borrowed premise, every typed-in number, every
+     selected point or vacuum, every free scale, and the one step the rest depends on;
+  3. your answer to the physical lane's XA-01 to XA-15, defect by defect.
+- **What main found, for that page:**
+  - each corridor has a free scale or a typed-in number: Δ_PS; the coupling as the volume times an area; the running
+    distance and the electroweak hierarchy as multiples of 45 times the volume; the point (4/15, 8/15); the loop factor
+    1/(4π);
+  - X-FOUNDATION's three families are the three units of flux put in. Say what excludes zero, six and the other sign;
+  - UR-3's envelope bounds a ratio that is a held-out target here. Do not compare it, and do not narrow it further.
+- **M32 stands:** UR-1 with the desert is B915's sealed miss. With the Pati–Salam stage it is a relation with Δ_PS free.
+
+No card. 0 of 19.
+
 ### M32 — 2026-11-17 — Review 83 entered; your reading caught all six plants
 
 Your reading is entered (B1950; harvest row 1844). All six plants were caught, and all 20 quotations main could parse
