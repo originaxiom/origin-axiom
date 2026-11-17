@@ -1,0 +1,190 @@
+{
+  "gate": "AGY-002_CLOSURE-G7B",
+  "role": "cold_room_zero_trust_referee_v2",
+  "erratum_cards": [
+    "relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM_svd-projector-and-numpy-bool-json.md",
+    "relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM-2_rk4-compensated-summation.md"
+  ],
+  "empirical_inputs_used": "0/19",
+  "overall_passed": true,
+  "all_5_planted_faults_caught": true,
+  "planted_faults": {
+    "PF7B_1_same_dim_unpriced_scale_laundering": true,
+    "PF7B_2_meromorphic_pole_injection_cauchy": true,
+    "PF7B_3_near_degenerate_majorana_mass_breakdown": true,
+    "PF7B_4_conflated_e8_colour_embeddings": true,
+    "PF7B_5_unconditional_promotion_of_premise_rank1_node": true
+  },
+  "self_ast_and_firewall_audit": {
+    "passed": true,
+    "float_ast_literals": 0,
+    "complex_ast_literals": 0,
+    "disallowed_imports": [],
+    "decimal_prose_tokens_in_script": 0
+  },
+  "deliverable_1_buckingham_pi_same_dim_nullity": {
+    "passed": true,
+    "d19_shape": [
+      1,
+      19
+    ],
+    "dim1_count_sm": 11,
+    "dim0_count_sm": 8,
+    "rank_d19": 1,
+    "nullity_d19": 18,
+    "nullspace_19_basis_rank": 18,
+    "d20_shape": [
+      1,
+      20
+    ],
+    "rank_d20": 1,
+    "rank_unchanged_under_same_dim_scale": true,
+    "nullity_d20": 19,
+    "nullspace_20_basis_rank": 19,
+    "e_M2_minus_e_vEW_in_ker_d20": true,
+    "e_M2_minus_e_vEW_independent_of_sm_18": true,
+    "dynamically_bridged_rank": 2,
+    "dynamically_bridged_nullity": 18,
+    "pf7b_1_caught": true
+  },
+  "deliverable_2_analytic_casimir_and_cauchy_contours": {
+    "passed": true,
+    "symbolic_bessel_identity_zero": true,
+    "symbolic_potential_derivative_identities_zero": true,
+    "collar_weights": {
+      "gauge_78_untwisted": 21,
+      "gauge_78_twisted": 57,
+      "weyl_3x27_untwisted": 48,
+      "weyl_3x27_twisted": 33,
+      "scalar_27_untwisted": 13,
+      "scalar_27_twisted": 14,
+      "C_UV": "189/2",
+      "C_IR": "28"
+    },
+    "casimir_scope": "Global monotonicity d V_A / d L_4 < 0 on (0, infty) is analytically proved within the equal-gap flat-collar 1-loop Kaluza-Klein tower (28 net massless untwisted chiral d.o.f. and 76 net twisted bosonic-minus-fermionic d.o.f. sharing uniform collar mass gap m > 0); non-uniform threshold splittings or warped collar curvature terms lie outside this closed-form scope.",
+    "cosh_7_gt_548": true,
+    "max_tail_bound_above_t7": "946658526339/10^196",
+    "max_series_vs_quad_rel_diff": "207075667602/10^42",
+    "all_leibniz_pairs_positive": true,
+    "all_dVA_dL4_strictly_negative": true,
+    "casimir_grid": [
+      {
+        "L_4": "1/5",
+        "x_arg": "4/5",
+        "min_leibniz_pair_k1_15": "521729900896/10^24",
+        "analytic_tail_bound_above_t7": "946658526339/10^196",
+        "series_vs_quad_rel_diff": "114185916252/10^42",
+        "dVA_dL4": "-482421312277/1000000000",
+        "strictly_negative": true
+      },
+      {
+        "L_4": "1",
+        "x_arg": "4",
+        "min_leibniz_pair_k1_15": "171381853493/10^64",
+        "analytic_tail_bound_above_t7": "180068087253/10^958",
+        "series_vs_quad_rel_diff": "207075667602/10^42",
+        "dVA_dL4": "-191561615897/2500000000000",
+        "strictly_negative": true
+      },
+      {
+        "L_4": "3",
+        "x_arg": "12",
+        "min_leibniz_pair_k1_15": "172124268190/10^165",
+        "analytic_tail_bound_above_t7": "536311979522/10^2864",
+        "series_vs_quad_rel_diff": "0",
+        "dVA_dL4": "-123608927/625000000000",
+        "strictly_negative": true
+      }
+    ],
+    "cauchy_contour_audit": {
+      "torsion_points_tested": 8,
+      "quadrature_nodes_tested": [
+        32,
+        48
+      ],
+      "contour_radius": "1/60",
+      "zero_if_deg_lt_0_shortcut_ast_verified": true,
+      "theta1_quasiperiodicity_verified": true,
+      "divisor_double_periodicity_verified": true,
+      "max_residue_32pt": "668342091071/10^44",
+      "max_residue_48pt": "132737986934/10^43",
+      "max_32_vs_48_refinement_diff": "120099830772/10^43",
+      "max_negative_degree_jet_mag_deg_m1_m2_m3": "132737986934/10^43",
+      "min_nonnegative_jet_mag": "112081256197/20000000000000000",
+      "pf7b_2_max_error_from_unit_residue": "109844590026/10^41"
+    },
+    "pf7b_2_caught": true
+  },
+  "deliverable_3_antusch_mass_gap_and_tm1_grid": {
+    "passed": true,
+    "symbolic_real_2x2_rotation_formula_proved": true,
+    "symbolic_complex_hermitian_m2_minus_m1_sq_denominator_proved": true,
+    "literature_benchmark_gate": {
+      "reference": "Antusch-Kersten-Lindner-Ratz Nucl Phys B660 (2003) 369 Eq 17 downward SM running",
+      "passed": true,
+      "downward_theta12_decrease": true,
+      "relative_error_vs_analytic_slope": "10765399633/200000000000000"
+    },
+    "grid_state_count": 32,
+    "min_mass_gap_ratio_on_grid": "3/5",
+    "max_uv_tm1_error": "100000000000/10^26",
+    "max_rk4_vs_expm_frobenius_diff": "200000000000/10^26",
+    "max_abs_I_TM1_minus_2_3_all_32": "117531788413/10000000000000",
+    "bound_all_32": "1/50",
+    "max_abs_I_TM1_minus_2_3_ytau_1_20": "745855034397/1000000000000000",
+    "bound_ytau_1_20": "1/1000",
+    "haar_trials": 10,
+    "max_u3_haar_basis_invariance_diff": "300000000000/10^26",
+    "pf7b_3_near_degenerate_drift": "68084470169/250000000000",
+    "pf7b_3_caught": true
+  },
+  "deliverable_4_e8_colour_roles_dag_and_custody": {
+    "passed": true,
+    "e8_root_decomposition": {
+      "e8_root_count": 240,
+      "a2_root_count": 6,
+      "e6_centralizer_root_count": 72,
+      "e6_rank": 6,
+      "a2_cap_e6_count": 0,
+      "remaining_root_count": 162,
+      "fiber_count": 6,
+      "single_27_count": 27,
+      "su4_gut_root_count": 12,
+      "a2_gut_root_count": 6,
+      "role_A_su3c_singlets_in_27": 0,
+      "role_B_su3c_singlets_in_27": 9,
+      "role_B_su3c_triplet_states_in_27": 9,
+      "role_B_su3c_antitriplet_states_in_27": 9
+    },
+    "pf7b_4_caught": true,
+    "premise_dag": {
+      "valid": true,
+      "errors": [],
+      "rank0_node_count": 4,
+      "rank1_node_count": 11,
+      "rank1_nodes": [
+        "OP:Level6_Higgs",
+        "PR-1",
+        "PR-10",
+        "PR-2",
+        "PR-3",
+        "PR-4",
+        "PR-5",
+        "PR-6",
+        "PR-7",
+        "PR-8",
+        "PR-9"
+      ]
+    },
+    "pf7b_5_caught": true,
+    "sha256_custody": {
+      "prior_manifests_expected": 44,
+      "prior_manifests_found": 44,
+      "prior_manifests_matched": 44,
+      "all_prior_manifests_including_referee_revisions_found": 46,
+      "all_prior_manifests_including_referee_revisions_matched": 46,
+      "failed_manifests": [],
+      "self_script_sha256_verified": true
+    }
+  }
+}
