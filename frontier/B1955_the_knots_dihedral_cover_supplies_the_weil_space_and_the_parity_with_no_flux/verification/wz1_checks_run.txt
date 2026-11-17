@@ -1,0 +1,2 @@
+C1 at s = 2: the lattice sum's integral over one period of the act's geodesic (length 1.924847): 11.616695; 2 * 5^(s/2) Gamma(s/2)^2 / Gamma(s) * zeta(s) L(s, chi_5): 11.616712; relative difference 1.5e-06 (cut 600)
+C2: 12 * 3^(3/2) zeta_K(2) / (4 pi^2) = 2.029883212819307250042; 6 * the Lobachevsky function at pi/3 = 2.029883212819307250042; difference 3.9e-31

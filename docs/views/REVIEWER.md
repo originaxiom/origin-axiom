@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1650** |
-| words of findings prose | **1,483,744** |
+| research arcs with findings | **1652** |
+| words of findings prose | **1,486,996** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1650** (100.0 %) |
+| arcs carrying an authored verdict | **1652** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1149 |
+| PROVED | 1151 |
 | NEGATIVE | 386 |
 | OPEN | 102 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1953`** (1649 words, 0 locks)  
-“FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5 (PROVED to 1e-13 at two base points and their T and S images, both readings; data-free; P-866's C1): point by point Y(g tau, w) = c phi(g, w) U_L Y(tau, w g) U_R^dagger with unitaries the same at all 24 points; for down phi = zeta^(-a^2) under T and zeta^(2ab) under S, for up 25th roots; with the forced phase table zeta^(-ab), O(tau) = sum of zeta^(-ab) Y(tau, w) (x) D(w) obeys O(g tau) = c (U_L x rho(g)) O(tau) (U_R x rho(g))^dagger with B1951's Weil representation; O commutes with the centre's parity, so it is a block over the 3 plus a block over the 2, whose family Gramians are covariant and differ; their sum is 5 times the plain Gramian (Parseval); the sum over the 24 points with the phase table is covariant under T and S and is the operator's component along hypercharge, 6Y = -(1/2) the sum of the 24 operators D(v); frame outputs at two bulk points printed and not compared. 0 of 19.”  
-`B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/FINDINGS.md`
+**PROVED — `B1955`** (1741 words, 0 locks)  
+“THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE KNOT'S OWN IS x^2/5; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the computed parts; the web seat's W-A3 recomputed on main; main's hypothesis F-A of P-866 holds for the module and the gauge group): the figure-eight's group maps onto a dihedral group only at p = 5 (odd primes to 31; not onto order 50); on the five sheets the longitude is trivial and the meridian a reflection fixing one sheet, so the cusp has three preimages of degrees 1, 2, 2 (the cover is the complement of the link 8^3_4, homology Z^3); the shifts are the deck group over the double cover, the clocks its characters, twists by the act's fixed line, and the meridian the parity; the cover gives the parity and not the act's Weil operator. Both Weil classes have determinant 1 on all 120 elements, so two fields of degree 2 and the Higgs of degree 1 wedge to an invariant: the up coupling closes at level 5, and frame C's 25th roots come from putting the charge into the characteristic; the act keeps no line mod 25. The frame's lines have the signature of End(W), the same in both classes; the knot's Seifert form gives x^2/5, B1951's 2x^2/5 a convention. A reading: the flux bit is replaced by the cover; the Fock-space reading stays counted. W-Z1's Hecke period and volume identity checked at one value each. 0 of 19.”  
+`B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/FINDINGS.md`
 
 **NEGATIVE — `B1947`** (711 words, 0 locks)  
 “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  

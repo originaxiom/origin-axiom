@@ -76,6 +76,12 @@ dimensions (p + 1)/2 and (p − 1)/2, and the commutant is two-dimensional at ea
       its Higgs direction at level 8, the Weil triplet at level 5, so the two do not collide.
   - the Higgs alone: the odd half also holds a colour triplet and a conjugate generation.
 
+## Added 2026-11-17 (B1955): which Weil class
+
+This page's ρ(T) = diag(ψ(2x²)) is one of the two Weil classes. The knot's own quadratic form, from its Seifert
+matrix, gives the other, x²/5. Lines D1 to D7 and the control hold in both classes, since ρ(−I) is the parity in both;
+only the T-phases on the 3 change, from 0, 2/5, 3/5 to 0, 1/5, 4/5. The page is not re-based.
+
 ## Not claimed
 
 - That postulate D is derived.

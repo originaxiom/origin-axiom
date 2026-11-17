@@ -200,6 +200,8 @@ beside a measured number. Register row P-859. **0 of 19.**
     order 5. It leaves the down sector's sum unchanged, so constant phases on the points can repair it (agy-002 gives
     the table; main has checked only this necessary condition). It changes the up sector's sum, so no phases on the
     points repair it at level 5. The up sector's sum closes at level 25.
+    - **Scope, added 2026-11-17** (the physical lane's review, harvest row 1856): this rules out phases on the points.
+      It does not show that no flat unitary connection exists.
   - **Added 2026-11-17 (B1953):** the law is now tested point by point under T and S. For down its phases are
     ζ^(−a²) and ζ^(2ab), the table that repairs the sum is ζ^(−ab), and the repaired sum is covariant under both.
   - **What is left of the first reading:** a covariant read-out of the summed amplitude needs phases on the points. That

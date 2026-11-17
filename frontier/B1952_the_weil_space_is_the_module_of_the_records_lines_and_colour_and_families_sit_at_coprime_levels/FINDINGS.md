@@ -76,6 +76,13 @@ narrower than the clause it replaces. **The count does not fall.**
   quaternion contraction is their level-2 shadow. This is P-861's direction, and it needs its own card.
 - **The scoreboard's entry** for D in place of the joints it replaces (P-863 (a)) is not yet made.
 
+## Added 2026-11-17 (B1955): the flux bit
+
+The first open item above is answered in part. The knot's dihedral cover, which exists only at p = 5, supplies the
+module and the parity with no flux: W is the functions on its five sheets. So the flux bit is replaced by a fact about
+the knot. The reading that came with it, that the Fock space of W labels matter, is not supplied by the cover and stays
+counted. The count is not changed.
+
 ## Not claimed
 
 - That postulate D is derived, or that the count of inputs has fallen.

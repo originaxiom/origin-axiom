@@ -17561,7 +17561,8 @@
     "metallic",
     "eisenstein",
     "z3_generation",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "hyperbolicity_split"
    ],
    "refs": [
     "B862",
@@ -17594,13 +17595,48 @@
    "motifs": [
     "coupling",
     "golden",
-    "wrt_quantum"
+    "wrt_quantum",
+    "lorentzian"
    ],
    "refs": [],
    "obstacle": "cancellation",
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "physics"
+  },
+  "B1954": {
+   "slug": "the physical lanes work of 2026 11 15 to 17 read and checked",
+   "motifs": [
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "torsion"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1955": {
+   "slug": "the knots dihedral cover supplies the weil space and the parity with no flux",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "lorentzian",
+    "hyperbolicity_split"
+   ],
+   "refs": [
+    "B794"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
   },
   "B196": {
    "slug": "entropy conformal dimension",

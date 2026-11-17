@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1650 |
-| … PROVED | 1149 |
+| arcs with a verdict file | 1652 |
+| … PROVED | 1151 |
 | … NEGATIVE | 386 |
 | … OPEN | 102 |
 | … RETRACTED | 13 |
@@ -24,13 +24,15 @@
 | … “OWNER” | 0 |
 | … “DONE” | 533 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1852 |
+| harvest rows (the last number) | 1867 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1955 | PROVED | “THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE KNOT'S OWN IS x^2/5; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the…” |
+| B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
 | B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
 | B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
@@ -41,8 +43,6 @@
 | B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
 | B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
-| B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
-| B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5 (B1953, PROVED to 1e-13 at two base points; P-866's C1, at the author's word).** The transformation law holds point by point under T and S on main's code; for down its phases are zeta^(-a^2) and zeta^(2ab). With the forced table zeta^(-ab), the 24 pointwise couplings are one operator on families times the Weil space, transforming by B1951's Weil representation; it commutes with the centre's parity, so it is a block over the 3 plus a block over the 2, whose family Gramians are covariant and differ; the phased sum…”
+“LATEST (2026-11-17, S306p: THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (B1955, PROVED for the computed parts; the web seat's W-A3 recomputed on main; P-866's hypothesis F-A).** The figure-eight's group has a dihedral representation only at p = 5; W is the functions on the five sheets of that cover, the meridian the parity, the 3 the functions on the cusp's three preimages; the shifts are the deck group over the double cover and the clocks its characters. Both Weil classes have determinant 1, so the up coupling wedged to the top degree is an invariant at level 5;…”
 
 ## Completeness (nothing skipped silently)
 

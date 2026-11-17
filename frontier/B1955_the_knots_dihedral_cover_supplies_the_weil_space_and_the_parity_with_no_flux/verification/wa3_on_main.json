@@ -1,0 +1,135 @@
+{
+ "A_dihedral_primes": [
+  5
+ ],
+ "A_onto_D25": 0,
+ "A_image_sizes_mod_25": [
+  1,
+  2,
+  5,
+  10,
+  25
+ ],
+ "B": {
+  "count": 20,
+  "longitude_trivial": true,
+  "meridian_fixed_sheets": 1,
+  "meridian_order": 2,
+  "cusp_degrees": [
+   1,
+   2,
+   2
+  ],
+  "deck_group_over_m004": 1,
+  "rotations": 5,
+  "deck_group_over_the_double_cover": 5
+ },
+ "C": {
+  "degree_5": [
+   [
+    1,
+    "cyclic",
+    "Z/11 + Z/11 + Z"
+   ],
+   [
+    2,
+    "irregular",
+    "Z/2 + Z + Z"
+   ],
+   [
+    2,
+    "irregular",
+    "Z/2 + Z + Z"
+   ],
+   [
+    3,
+    "irregular",
+    "Z + Z + Z"
+   ]
+  ],
+  "degree_2": [
+   [
+    1,
+    "Z/5 + Z"
+   ]
+  ],
+  "three_cusped": [
+   "5.0000000000",
+   "Z + Z + Z",
+   [
+    "o10_150685(0,0)(0,0)(0,0)",
+    "8^3_4(0,0)(0,0)(0,0)",
+    "L8a20(0,0)(0,0)(0,0)"
+   ]
+  ]
+ },
+ "D": {
+  "1": {
+   "group_order": 120,
+   "det_minus_one": 3.781283367737838e-15,
+   "S2_is_P": 2.527470963479731e-16,
+   "words_inducing_trace_3": 12,
+   "LR_distance_to_scalar_P": 0.5527864045000422,
+   "exterior_T_spectrum_fifth_roots": 1.689710282154448e-15,
+   "T_phases_even": [
+    0,
+    1,
+    4
+   ]
+  },
+  "2": {
+   "group_order": 120,
+   "det_minus_one": 4.010656666372995e-15,
+   "S2_is_P": 2.527470963479731e-16,
+   "words_inducing_trace_3": 12,
+   "LR_distance_to_scalar_P": 0.5527864045000421,
+   "exterior_T_spectrum_fifth_roots": 1.9491306674919474e-15,
+   "T_phases_even": [
+    0,
+    2,
+    3
+   ]
+  },
+  "signature": {
+   "same_1": 0.19999999999999982,
+   "same_2": 0.19999999999999993,
+   "mixed": -0.19999999999999987,
+   "frame_lines": 0.2
+  }
+ },
+ "E": {
+  "q": [
+   "0",
+   "1/5",
+   "4/5",
+   "4/5",
+   "1/5"
+  ],
+  "b": [
+   "0",
+   "2/5",
+   "3/5",
+   "3/5",
+   "2/5"
+  ],
+  "signature": 0,
+  "det": -5
+ },
+ "F": {
+  "roots_mod_5": [
+   4
+  ],
+  "roots_mod_25": [],
+  "up_phase_orders": [
+   25
+  ],
+  "down_phase_orders": [
+   5
+  ],
+  "q2_sums_mod_5": {
+   "down": 0,
+   "lepton": 0,
+   "up": 2
+  }
+ }
+}

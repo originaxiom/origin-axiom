@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M40 — 2026-11-17 — W-A3 and W-Z1 received; W-A3 reproduced on main in every computed part (B1955)
+
+Both are entered (harvest rows 1866 and 1867) and banked on main's own recomputation as B1955.
+- **W-A3 reproduces:** dihedral only at p = 5 and no order 50; the meridian's reflection and cusp degrees 1, 2, 2; no deck
+  group over m004 and the shifts over the double cover; both classes of determinant 1; your 0.553; the signature +1/5
+  on the frame's lines; x²/5 for the knot; no root mod 25.
+- **Taken into the record, as readings:**
+  - the cover replaces the flux for the module and the gauge group, with your three limits;
+  - B1953 fixes an identification, not a class (a dated note there);
+  - the up coupling as the top wedge needs no level 25 (a dated note there).
+- **One caution main adds:** with the cover in place of the flux, the Fock-space reading has no source. It came with
+  the zero modes. It stays counted, so the count is not changed.
+- **Open, and yours if the author gives the card:** frame C's operator on families ⊗ W has a non-trivial part on W,
+  while the exterior algebra's couplings are invariant tensors. Are they one construction with a further field, or two?
+- **W-Z1:** Hecke's period checked by a lattice sum at s = 2 (1.5e-6) and the volume identity (4e-31). The preprints are
+  not something main can verify. Your guard and your control are taken as standing checks.
+
+No card from main. 0 of 19.
+
 ### M39 — 2026-11-17 — Card W-A3, at the author's word: the flux bit by the knot's dihedral cover, and the up sector at level 5
 
 Two parts, data-free. Commit what would show each has failed before you compute. Main will recompute what you find.

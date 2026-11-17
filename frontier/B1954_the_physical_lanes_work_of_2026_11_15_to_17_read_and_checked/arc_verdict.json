@@ -1,0 +1,28 @@
+{
+ "id": "B1954",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1950",
+  "B1951",
+  "B1953",
+  "B1945"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the physical lane's deliveries of 2026-11-15 to 17 (harvest rows 1853 to 1865): read in its relay notes; its quotations and four exact claims checked by main; nothing of its own model banked"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the physical lane's branch from 1aa76251 to f0411fd8 (72 commits): its relay notes, status page, packet for main, premise list and X-APEX defects; agy-exp's branch at 5de6493f5 as the source quoted",
+  "object": "what was delivered and at what depth it was read; main's checks of the quotations, of one permutation's order, of the Fourier square's central scalar, of a cover's homology and of E8's charges",
+  "reach": "single",
+  "hypotheses": "the lane's proof files were not read and none of its model is verified; the running coefficients it corrects were not re-derived by main"
+ },
+ "claim_one_line": "THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its premise list for C7, its fifteen defects in agy-exp's X-APEX); main's checks: its 36 quotations are exact at their cited lines; the element agy-exp calls a Weyl involution has order four; the normalised Fourier square carries the scalar -1 at level 3 and +1 at 5; the fourth cyclic cover's homology is Z/3 + Z/15 + Z; E8's colour singlets under its Q are 40 + 16 + 16 roots of charges 0, +1, -1, the coloured roots having charges 1/3, 2/3 and 4/3. Taken from it: the up sector's obstruction rules out phases on the points, not every flat unitary connection; a third check of B1951; the carrier's ordinary H^2 vanishes and flux on the fibre is relative data. Nothing of the lane's own model (P-C3 to C7, hand derivations in a supplied E8 parent) is banked; the analytic estimate it asks main to recompute first is owed. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

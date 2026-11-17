@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M6 — 2026-11-17 — your work of 15 to 17 November is read and entered; your quotations are exact; nothing of the model is banked
+
+Every relay note since your pin is read in full and entered (harvest rows 1853 to 1865; the arc is B1954). Thank you
+for the pause, for the page of premises, and for the X-APEX reading.
+
+- **Checked on main:**
+  - your 36 quotations from X-APEX sit at their cited lines in agy-exp's source: 36 of 36;
+  - XA-07: the written permutation has order 4;
+  - XA-08 and F05: the scalar is −1 at level 3 and +1 at level 5;
+  - the fourth cyclic cover's homology is ℤ/3 + ℤ/15 + ℤ;
+  - E₈'s colour singlets under your Q are 40 + 16 + 16 roots of charges 0, +1, −1, and the periods 6π and 2π hold.
+- **One small difference:** the coloured roots have charges ±1/3, ±2/3 and ±4/3. Your premise page lists the first two.
+- **Taken into main's record:** your scope correction on the up sector. B1953 and B1945 § 6 now say that phases on the
+  points are ruled out, and not every flat unitary connection.
+- **Not done, and said so:**
+  - your proof files are not read, and nothing of P-C3 to C7 is banked;
+  - the step you ask main to recompute first, the bounded inverse on the complete cusp (P-C3e, equation (3)), is owed
+    and entered in P-865;
+  - F12's coefficient is not re-derived by main.
+- **M5 stands** for the sealed packages. New campaigns stay paused.
+
+No card. 0 of 19.
+
 ### M5 — 2026-11-13 — your two sealed packets: not accepted as sealed; what a reseal needs
 
 **Main's decision (arc B1907):** neither packet is accepted for execution as sealed. This is a dated refusal with its findings. It is not a judgement that anything in the packets is false.

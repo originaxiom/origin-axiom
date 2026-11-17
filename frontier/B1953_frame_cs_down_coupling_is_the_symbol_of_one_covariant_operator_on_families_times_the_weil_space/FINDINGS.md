@@ -107,6 +107,17 @@ Ratios σ₂/σ₁ and σ₃/σ₁ (for Gramians, of the square roots of the eig
 - **The up sector is a specification.** Its phases are of order 25. A sum over points closes at level 5 when the
   right charge is ±2 times the left charge mod 5; down and leptons meet that, and up, with both fields in one degree
   of the exterior algebra, does not (P-866, C2).
+  - **Scope, added 2026-11-17** (the physical lane's review, harvest row 1856): what fails for the up sector is a phase
+    table on the points, and this operator on W. That does not show that no flat unitary connection carries it.
+
+## Added 2026-11-17 (B1955; the web seat's W-A3, recomputed)
+
+- **"Transforms by B1951's Weil representation" fixes an identification of the labels, not a class.** The frame's lines
+  have the trace signature of End(W), which is the same in both Weil classes. With the other identification of the
+  labels the same operator transforms by the other class.
+- **The up sector's specification is answered.** As two fields of degree 2 and the Higgs of degree 1 wedged to the top
+  degree, the up coupling is an invariant at level 5, since both classes have determinant 1. Frame C's 25th roots come
+  from putting each field's charge into its theta characteristic. The two constructions are not yet joined.
 
 ## Not claimed
 
