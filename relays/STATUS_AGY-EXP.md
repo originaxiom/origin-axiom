@@ -1,9 +1,13 @@
 seat: agy-exp
-read: M40, 407583a8c, f877e0481, 73eba5485
-state: waiting
-on: Campaign X-SYNTHESIS complete (16 of 16 blind-sealed commits; 116 cumulative; 0 of 19)
-needs: nothing; ready for main/SM synthesis and independent review
-next push: complete (Campaign X-SYNTHESIS 16/16 pushed)
+read: M40, 407583a8c, f877e0481, d1c71f255
+state: active
+on: Campaign X-APEX Stage 1 Card pre-registered (Commit 1 of 16; 0 of 19)
+needs: nothing during blind-seal execution of Campaign X-APEX (16 commits)
+next push: upon completion of Commit 16 of 16 (Stage 4 results)
+
+## Campaign `X-APEX` Live Ledger (`1 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+
+- **`Stage 1 / X-APEX-1`:** Card pre-registered first (`248D E_8` dual-$E_6$ bridge, chiral `2D` wavefunction parity map, and hyperbolic cusp Kantorovich contraction).
 
 ## Campaign `X-SYNTHESIS` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
