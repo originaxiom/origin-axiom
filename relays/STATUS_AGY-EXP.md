@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, d1c71f255
 state: active
-on: Campaign X-APEX Stage 3 Card pre-registered (Commit 9 of 16; 0 of 19)
+on: Campaign X-APEX Stage 3 complete (Commit 12 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-APEX (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-APEX` Live Ledger (`9 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-APEX` Live Ledger (`12 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-APEX-1` (`4d456d524`, `b6f91196f`, `2dcc49df2`, `600b3c764`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Apex_Passed = True`.
@@ -13,6 +13,9 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 2. **`Stage 2 / X-APEX-2` (`72154f93a`, `9491eef20`, `5a9157cfa`, `77b98bc1f`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Apex_Passed = True`.
    - Establishes a **non-unwinding flux-obstructed `2D` parent domain wall** on $[-\ell, \ell]_x \times S^1_y$ (`quantized flux = 1`, relaxed at $\Omega = 3/2$ to $\|\nabla E\| < (1/1000)^4$ with positive wall tension $E_{\mathrm{wall}} \in (1168/10000, 1169/10000)$, $\ell = 6$ vs $\ell = 8$ relative diff `< 7 * (1/1000)^2 * (1/100)`, and barrier `> 24/100`, vs zero-winding unwinding to `< (1/1000)^9`); proves `nullity = [0, 0, 0, 0]` across multi-cell `16_+` $\mathrm{Spin}(10)$ octahedral chains of lengths `[2, 3, 4, 6]` (`smallest singular values > 119/1000`, `Haar < 3 * (1/1000)^5` vs single-axis `[1, 1, 1, 1]`); and **eliminates the `2` continuous Majorana orientation knobs** via the `1`-loop **Schwinger–Dyson Singlet Resolvent Majorana Operator** $M_R^{\mathrm{SD}}(\tau) = Y(\tau)\cdot (I_6 + \frac{1}{4\pi} G_6(\tau))^{-1} v_0(\tau)$ (`rank 1 -> 3`, `0` orientation knobs, $\mathrm{U}(6)$ singlet-basis invariance `< (1/1000)^5`, `(T, S)` modular covariance `< 6 * (1/1000)^5`, `10`-trial seesaw $\mathrm{U}(3)$ Haar `< (1/1000)^4`, while naive $E[2]\setminus\{0\}$ half-period sums break $T$-covariance by `> 58/10`).
+3. **`Stage 3 / X-APEX-3` (`b97142012`, `120155611`, `32a41845e`, `Commit 12 results`):**
+   - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Apex_Passed = True`.
+   - Proves the **`1`-Loop Hosotani $G_{422}$ Center-Locking Theorem** (`origin quadratic trace -10 < 0 vs +8 pure gauge destabilizes +I_2 onto unique global minimum U_1^* = U_2^* = -I_2 \in Z(SU(2)_R) with Hessian > 12 and exact 0 SL_2(Z) residual, dynamically enforcing the (1/2, 1/2) doublet characteristic shift while proving non-central T_{3R} = \pm 1/2 splitting requires quantized flux / m004 torsion holonomy`); resolves `PHYSICAL-C4` Finding `4` via the **Seifert-Longitude Spin-Bordism Obstruction** ($R(2\pi(1 - 2g)) = -I_2 \in \mathrm{Spin}(2)$ forbids periodic `(0, 0)` cusp spinors on `m004`) + `50`-digit hyperbolic cusp Dirac confinement ($\lambda_1 > 20 > 3$ across both `m004` spin structures `(0, 1/2)` and `(1/2, 1/2)`, **unconditionally selecting `PR-10` `Branch B`** with $V(L_4^*) < -5/2 < 0, V''(L_4^*) > 70 > 0$); and seals `50`-digit `45`-sheet instanton (`~ 236 / 10^{15}`) & `2`-loop $\mathrm{SU}(3)$ confinement (`~ 373 / 10^{17}`) hierarchies alongside `PC_AP3_ClassicalHiggsMassScaleHomogeneity` (`pricing v_EW in Tier III`).
 
 ## Campaign `X-SYNTHESIS` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
