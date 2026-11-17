@@ -1,0 +1,209 @@
+{
+  "gate": "AGY-002_FOUND-G9_COLD_ROOM_REFEREE",
+  "empirical_inputs": "0 of 19",
+  "section_0_custody_and_ast_lock": {
+    "float_literal_count": 0,
+    "complex_literal_count": 0,
+    "repo_import_count": 0,
+    "disallowed_imports": [],
+    "empirical_inputs_used": "0 of 19",
+    "prior_manifest_count": 11,
+    "prior_manifests_matched": 11,
+    "prior_manifests": [
+      {
+        "manifest": "relays/agy002_found_g8/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8_out.json",
+        "expected_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "actual_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8/verify_found_g8.py",
+        "expected_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "actual_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed_out.json",
+        "expected_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "actual_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed.py",
+        "expected_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "actual_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8_out.json",
+        "expected_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "actual_sha256": "fca1af9127b5b16238f43292f4d82db30fd6fd65e4fc17dd3148995ce6dbe151",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_referee/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g8_referee/referee_found_g8.py",
+        "expected_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "actual_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9/verify_found_g9.py",
+        "expected_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "actual_sha256": "1d2a98e22ad702ec1b851302c4c0eb107f737e3d26c89b1e2e4ee603e124b99b",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed_out.json",
+        "expected_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "actual_sha256": "6ced885098360536f2e41edb7901e499493b96d8a07555f2e36c1ccbcebb3237",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_fixed/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_fixed/verify_found_g9_fixed.py",
+        "expected_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "actual_sha256": "9f6ea407e0a7b2470bee90ec69922013c476fbcdf7f87e685ab2e6e0ab68e3bc",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/OUTPUT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2_out.json",
+        "expected_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "actual_sha256": "b5fb9596e233444e6051dcb481cae30f04331cabe38aa1d62bd490b8167e17a9",
+        "matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g9_v2/SCRIPT_SHA256.txt",
+        "target": "relays/agy002_found_g9_v2/verify_found_g9_v2.py",
+        "expected_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "actual_sha256": "f92b95c2bfb74fae1cdc3f62daa212363cd83fb3175678fd37df4f88d92ee2c3",
+        "matched": true
+      }
+    ],
+    "self_script_manifest": {
+      "manifest": "relays/agy002_found_g9_referee/SCRIPT_SHA256.txt",
+      "target": "relays/agy002_found_g9_referee/referee_found_g9.py",
+      "expected_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+      "actual_sha256": "19dd3dc2ac890bc809d68372d5f999d309e8d5da7324ff900751face8656cb27",
+      "matched": true
+    },
+    "passed": true
+  },
+  "section_1_domain_wall_localization": {
+    "symbolic_parity_odd_zero": true,
+    "symbolic_plus_dds_annihilates_sech": true,
+    "symbolic_AdagA_poschl_teller_exact": true,
+    "symbolic_AAdag_free_gap_exact": true,
+    "symbolic_sech_sq_integral_2_over_M0": true,
+    "sine_galerkin_modes": 220,
+    "chebyshev_nodes": 200,
+    "box_half_width": 8,
+    "M_0": 3,
+    "lambda_L0_sine_galerkin": -1.644216219986829e-15,
+    "lambda_L1_sine_galerkin": 9.041972810451579,
+    "lambda_R0_sine_galerkin": 9.038553142191756,
+    "lambda_L0_chebyshev": -2.854617170480125e-07,
+    "lambda_L1_chebyshev": 9.04197283488198,
+    "lambda_R0_chebyshev": 9.038553142191708,
+    "overlap_abs_psiL0_sech": 1.0,
+    "left_zero_modes": 1,
+    "right_zero_modes": 0,
+    "chiral_generations_tensored_with_CIM_3_3_minus6": 3,
+    "PF9_1_constant_mass_lambda_L0": 9.038553142191756,
+    "PF9_1_constant_mass_overlap": 0.4510639662333935,
+    "PF9_1_caught": true,
+    "passed": true
+  },
+  "section_2_su2l_strong_cp_and_ckm": {
+    "tau_cusp": "2*sqrt(3)*i",
+    "shared_xi": "23*i/100",
+    "orthonormality_err_L": 1.4432899320127035e-15,
+    "orthonormality_err_H": 6.661338147750939e-16,
+    "quadrature_42_vs_54_err": 6.439294107167858e-15,
+    "quadrature_vs_1d_theta_err": 5.775370369975345e-15,
+    "torus_gauge_periodicity_err": 1.067662871904967e-14,
+    "d_parity_tensor_conjugation_err": 2.4525628233156873e-15,
+    "hermiticity_err_Yu_uv": 2.7328179474493335e-15,
+    "hermiticity_err_Yd_uv": 1.7998438316572222e-15,
+    "det_YuYd_uv": 0.06933930133982058,
+    "abs_bar_theta_QCD_uv": 1.4988010832439611e-15,
+    "abs_J_CKM_uv": 0.07937839058931288,
+    "J_svd_vs_commutator_uv_diff": 2.3592239273284576e-16,
+    "bbo_guardrail_4_benchmark": {
+      "symbolic_1loop_slope": "3",
+      "symbolic_2loop_cd_matrix_slope": "-11/2",
+      "symbolic_2loop_with_Y2S_slope": "-13",
+      "numerical_1loop_slope": 3.000309597940195,
+      "numerical_2loop_cd_matrix_slope": -5.500590809701851,
+      "numerical_2loop_with_Y2S_slope": -13.00136924801315,
+      "passed": true
+    },
+    "rge_dt": -30,
+    "dop853_vs_rk4_err": 8.833944065183837e-15,
+    "ir_Yu_nonhermiticity_fro": 0.040627988386708544,
+    "abs_bar_theta_QCD_ir": 1.7208456881689926e-15,
+    "abs_J_CKM_ir": 0.06389188442061709,
+    "J_svd_vs_commutator_ir_diff": 6.938893903907228e-17,
+    "haar_10_trials_max_J_diff": 4.0245584642661925e-16,
+    "haar_10_trials_max_V_diff": 1.5543122344752192e-15,
+    "haar_10_trials_max_theta_su3_diff": 5.551115123125783e-16,
+    "PF9_2_su2l_shared_defect": 0.0,
+    "PF9_2_su2l_split_defect": 1.0489702769690175,
+    "PF9_2_caught": true,
+    "PF9_3_opposite_branch_abs_theta": 3.141592653589792,
+    "PF9_3_caught": true,
+    "passed": true
+  },
+  "section_3_p864_repair_and_sweep": {
+    "interpolator_unique_right_half_points": 78,
+    "Y_max": 6.0,
+    "sl2z_words_tested_per_point": 8,
+    "all_sl2z_dets_and_fd_bounds_ok": true,
+    "max_sl2z_covariance_defect_L_2": 2.220446049250313e-16,
+    "max_sl2z_covariance_defect_L_max": 4.440892098500626e-16,
+    "chord_lens_verified_at_9_over_10_i": true,
+    "chord_lens_verified_at_minus_inv_3_10_plus_96_100_i": true,
+    "PF9_4_unreduced_defect_at_minus_inv_t1": 0.3089518406578331,
+    "PF9_4_unreduced_defect_at_9_over_10_i": 0.004437755611252481,
+    "PF9_4_unreduced_defect_at_3_10_plus_96_100_i": 0.00013979691900090074,
+    "PF9_4_caught": true,
+    "PF9_5_above_ymax_at_10i": true,
+    "PF9_5_above_ymax_at_inv_10i": true,
+    "PF9_5_caught": true,
+    "sweep_json_file_count": 24,
+    "sweep_explicit_tau_count": 1175,
+    "sweep_explicit_tau_below_unit_circle_count": 0,
+    "sweep_min_abs_tau": 1.0017105370315318,
+    "sweep_max_im_tau": 6.0,
+    "b1945_diagnostic_defect_keys": [
+      {
+        "file": "frontier/B1945_the_frames_cusp_exponents/verification/gramian_and_sum.json",
+        "key": "table_law_defect 0.9i",
+        "value": 0.004437755611252481
+      },
+      {
+        "file": "frontier/B1945_the_frames_cusp_exponents/verification/gramian_and_sum.json",
+        "key": "table_law_defect 0.3 + 0.96i",
+        "value": 0.00013979691900090074
+      }
+    ],
+    "passed": true
+  },
+  "planted_fault_summary": {
+    "PF9_1_caught": true,
+    "PF9_2_caught": true,
+    "PF9_3_caught": true,
+    "PF9_4_caught": true,
+    "PF9_5_caught": true
+  },
+  "all_5_planted_faults_caught": true,
+  "overall_passed": true
+}
