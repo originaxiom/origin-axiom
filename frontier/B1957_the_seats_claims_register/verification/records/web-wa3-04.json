@@ -1,0 +1,23 @@
+{
+ "id": "web-wa3-04",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py) (class_is_a_choice.py, exact): in both classes |tr rho(g)|^2 is the number of points of F_5^2 that g fixes, for all 120 elements, so End(W) is the permutation representation in either class; the signature tr R(T^2)/tr R(T)^2 is +1/5 for a class with its own conjugate and -1/5 for mixed classes, and +1/5 on the frame's 25 lines. So the frame's lines do not see the Weil class, and B1953's statement fixes an identification of the labels and not a class (B1953 carries that dated note). One relabelling by a power of zeta^(ab) removes both phases of the down coupling's law, and of the lepton's with the other sign (checks/web_review.py R4, R5)",
+ "note": "The seat's lines 76 and 84 state the relabelling's sign in a direction it has since corrected (its status page, 5.2); main's R4 and R5 give the signs in B1953's convention: zeta^(-ab) for down, zeta^(+ab) for leptons.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:38",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:66",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:67",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:68",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:69",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:70",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:72",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:74",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:76",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:78",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:79",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:81",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:84",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:169"
+ ]
+}

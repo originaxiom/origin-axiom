@@ -1,0 +1,12 @@
+{
+ "id": "web-p783-05",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/web_p783_spectrum.py (B1912's own Hejhal routine, main's code, at B1912's two heights and a third) P3: that the list is complete (27 states in 15 values, none other below 11) is not proved by main either. Main's scan of 3.40 to 11.0 at step 0.004 returns 22 of the note's 26 cells above 3.40 and no state outside the note's list; its own minimum search misses the two cosine doublets at 7.4946 and 10.1306, which are states by P2. The ten further cells it returns, at R = 6.73009, 9.02586 and 10.95281, are not states: they are zeros in R of K_iR(2 pi 0.6), an argument B1912's two heights share (0.12 * 5 = 0.10 * 6), and at a third height they are gone (at least 5.7e-4). The note's second crossings near two values (read by it as poles) are not examined",
+ "note": "FOUND ABOUT MAIN'S INSTRUMENT: B1912's two heights are commensurate, so above R = 6.73 its two-height test has false minima. B1912's own range ends at 3.40, below the first of them, so its result stands; a dated note is added there. Any extension needs a third, incommensurate height.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:62",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:67",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:69"
+ ]
+}

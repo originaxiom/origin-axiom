@@ -1,0 +1,10 @@
+P1: main's K_iR against mpmath at R = 5, 8, 11: largest relative error 8.2e-06
+P2: the note's 15 values: in the 27 (value, class) cells it names, the least scaled singular value at all three heights is at most 2.5e-08; in the other 33 cells it is at least 1.0e-03
+P3: the scan's 205 candidates; 32 (value, class) cells are confirmed by both of B1912's heights at one R: 22 of them are cells of the note; the other 10 sit at 3 values: [6.73009, 9.02586, 10.95281]
+    R = 6.73009, in 4 classes at once: K_iR(2 pi 0.6)/e^(-pi R/2) = 4.5e-7 (the two heights share that argument: 0.12 * 5 = 0.10 * 6); at the third height the least singular value is at least 5.7e-04: a zero of the normalisation, not a state
+    R = 9.02586, in 4 classes at once: K_iR(2 pi 0.6)/e^(-pi R/2) = 2.9e-6 (the two heights share that argument: 0.12 * 5 = 0.10 * 6); at the third height the least singular value is at least 2.1e-03: a zero of the normalisation, not a state
+    R = 10.95281, in 2 classes at once: K_iR(2 pi 0.6)/e^(-pi R/2) = 2.9e-6 (the two heights share that argument: 0.12 * 5 = 0.10 * 6); at the third height the least singular value is at least 7.0e-04: a zero of the normalisation, not a state
+P3: the note's cells the scan's own minimum search did not return: [(7.4946304901, (1, -1)), (7.4946304901, (1, 1)), (10.1305739828, (1, -1)), (10.1305739828, (1, 1))] (each is a state at all three heights by P2: the search misses them, so the scan is not a proof that the list is complete)
+P4: at the lane's value 5.8442600315 the least scaled singular value, by class (the smallest of the three heights): (-1, -1) 2.2e-02; (-1, 1) 7.8e-03; (1, 1) 1.4e-02; (1, -1) 3.4e-02
+P4: at the lane's value 6.6632356489 the least scaled singular value, by class (the smallest of the three heights): (-1, -1) 3.2e-02; (-1, 1) 1.2e-03; (1, 1) 8.8e-03; (1, -1) 6.0e-03
+P5: exceptional range R = i t, t = 0.01 to 0.49: the least scaled singular value (the larger of two heights), smallest over t, by class: (-1, -1) 6.84e-01; (-1, 1) 6.69e-01; (1, 1) 8.16e-01; (1, -1) 8.13e-01

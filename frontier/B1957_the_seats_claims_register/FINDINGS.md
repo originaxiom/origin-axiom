@@ -196,6 +196,26 @@ noted, and none is pending.
   seat's items under banked arcs: its figures are main's, and its one correction to B1675 is on the page), W-C4 (the
   agy lane's Theorem C; `checks/web_wc4_theorem_c.py`). Two are still to read: P-783 and the content in weave form,
   with W-F17.
+- **The last three of those notes, and W-A2, W-A3 and W-H1, are settled** (2026-11-18, later):
+  - **P-783, beyond B1912** (`checks/web_p783_spectrum.py`, B1912's own Hejhal routine at three heights): the seat's
+    fifteen values to R = 11 are states in exactly the 27 (value, class) cells it names (2.5e-8 at most there, 1e-3 at
+    least in the other 33); the agy lane's two values are not states; and **there is no exceptional eigenvalue** for
+    R = it, 0.01 ≤ t ≤ 0.49, the range B1912 could not see. That the list is complete is not proved by main either.
+    **Found about main's instrument:** B1912's two heights share the argument 2π·0.6, so above R = 6.73 its two-height
+    test has false minima at the zeros of the Bessel function; B1912's own range is below them and its result stands
+    (a dated note is added there).
+  - **W-F17** (`checks/web_wf17_on_main.py`): all eighteen counts of homomorphisms and surjections onto 2T, 2O, 2I; the
+    trace maps' listed components, projections and the count of components over ℚ (1, 2, 2, 4, 3, 6); E18 and E19.
+    Its class-index census and its completeness tests are partial.
+  - **The content in weave form:** its table of W154's verdicts is exact arithmetic on W154's formula; its two asks
+    are done (harvest row 1641; a dated note on P-380).
+  - **W-A2 and W-A3** are settled against main's own recomputations B1952 and B1955, with the corrections of both.
+  - **W-H1's four asks are paid:** the relay ledger has a row for each of the 116 relays that had none (14 banked in
+    this register, 102 open with their pointers); two dated notes in the harvest instrument answer the other two.
+- **Two landings were refused on 2026-11-18, both by main's own state:** the point-debt gate's clock (a register row
+  citing an unlanded draft for 8 days), and an edit of the register made while a landing was at its gates. Both are
+  mended; one old debt was paid on the way (P-092: the claim page's cubic row now says that with Higgs content in
+  27s the down quarks and the charged leptons have one spectrum).
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

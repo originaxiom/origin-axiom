@@ -77,6 +77,9 @@ SEATS = [
          remotes=("origin",), cell=("codex",), retired="archive/codex-seat-r001@f7a49536"),
     dict(key="cc3", label="cc3 (paper seat)", branch="structure-genesis-first",
          remotes=("origin",), cell=("cc3",), cell_not=("braver",), retired="archive/cc3-paper-lane@a31456d2"),
+    # NOTED 2026-11-18 (the web seat's W-H1, G4; P-865): this seat lives on the remote `golden_gate`, which a plain clone
+    # of `origin` does not have, so a run on such a clone skips it and says so. Main's own runs have the remote and reach
+    # it; that is where its debt is counted (its pin is at its head, with no relay on the branch).
     dict(key="hostile", label="hostile-review seat", branch="paper-hostile-review-alero0",
          remotes=("golden_gate",), cell=("hostile",)),
     dict(key="cloud", label="cloud seat", branch="outside-bench",
@@ -202,6 +205,11 @@ SEATS = [
          remotes=("origin",), cell=("agy-002",)),
     dict(key="agy002endgame", label="agy-002 (endgame)", branch="endgame",
          remotes=("origin",), cell=("agy-002",)),
+    # NOTED 2026-11-18 (the web seat's W-H1, G3; P-865): the branches `review-82/read` and `review-83/read` are not listed
+    # here, by decision and not by oversight.  They are main's own reading copies, cut by main at a review's opening with
+    # planted faults and never written to by a seat; a later push to either would be main's own act, recorded in that
+    # review's arc (B1931, B1950).  They cannot simply be added: `_resolve_branch` finds a branch by its last path segment,
+    # and both end in `read`.  If a reader lane is ever to be watched here, the resolver must take the full path first.
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

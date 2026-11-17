@@ -76,3 +76,16 @@ python3 -B hejhal_level5.py; python3 -B scan2.py; python3 -B scan3.py     # minu
 ## Dated note, 2026-11-13 (B1923)
 
 A second computation exists and agrees: the web seat's sealed scan on the golden state (harvest row 1713), its own code, expectations committed first: the state is the lowest in all four classes and simple, over its range. It was not read when this arc was written; it is the independent second computation the rule of 2026-11-13 asks of an absence.
+
+## Noted 2026-11-18 (B1957): the two heights share an argument, and what that means above this arc's range
+
+- This arc's two heights, 0.12 and 0.10, are commensurate: 0.12 × 5 = 0.10 × 6. The scaled system divides each column
+  by the Bessel function at 2πnY, so where K_iR(2π·0.6) vanishes as a function of R, both heights show a minimum at the
+  same R, in every class at once. The first such zeros are at R = 6.73009, 9.02586 and 10.95281.
+- **This arc's result is not touched:** its range ends at 3.40, below the first of them (K_iR(x) has no zero in R below
+  about x).
+- **Any extension above R = 3.77 needs a third height that shares no multiple with these.** With Y = 0.11 the three
+  false minima are gone, and the web seat's fifteen values to R = 11 are states in exactly the classes it names
+  (`frontier/B1957_the_seats_claims_register/verification/checks/web_p783_spectrum.py`).
+- The same check scans the exceptional range, which this arc could not see: for R = it, 0.01 ≤ t ≤ 0.49, there is no
+  eigenvalue in any class (the least scaled singular value stays above 0.67).
