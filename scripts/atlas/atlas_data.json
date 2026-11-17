@@ -17380,7 +17380,7 @@
     "V3"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 13,
+   "obstacle_conf": 14,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -17396,7 +17396,7 @@
     "S4"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "physics"
   },
@@ -17444,6 +17444,7 @@
    "motifs": [
     "choice",
     "coupling",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
@@ -17460,16 +17461,20 @@
    "slug": "the cusp mixing deranges only under mixed higgs readings",
    "motifs": [
     "coupling",
-    "z3_generation"
+    "z3_generation",
+    "torsion"
    ],
    "refs": [
     "B1",
+    "H1",
+    "H3",
+    "L1",
     "V33"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
-   "domain": "physics"
+   "domain": "arithmetic"
   },
   "B1947": {
    "slug": "frame d1s coupling",
@@ -17523,6 +17528,47 @@
    "refs": [],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
+  "B1950": {
+   "slug": "review 83 entered both readers caught all six plants",
+   "motifs": [
+    "choice",
+    "figure_eight",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "S03",
+    "S10",
+    "S20"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
+  "B1951": {
+   "slug": "the weil centre gives the gauge group and one generations hypercharges",
+   "motifs": [
+    "metallic",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [
+    "B862",
+    "B864",
+    "B991"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },

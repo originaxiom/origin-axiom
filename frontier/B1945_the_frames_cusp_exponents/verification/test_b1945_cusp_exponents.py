@@ -119,3 +119,18 @@ def test_the_cusp_mixing_stays_misaligned_at_orders_10_and_15():
         for ru, rd in (("St", "S"), ("S", "St")):
             V = LM.CM.U_of(Yu[ru]).H * LM.CM.U_of(Yd[rd])
             assert float(abs(V[2, 2])) < 0.05, (a, b, ru, rd, float(abs(V[2, 2])))
+
+
+def test_the_gramian_is_covariant_and_the_plain_sum_closes_at_level_5_only_for_down():
+    d = json.loads((HERE / "gramian_and_sum.json").read_text())
+    for k in ("up S", "up St", "down S", "down St"):
+        assert d[k]["G_T"] < 1e-12 and d[k]["G_S_law"] < 1e-10, (k, d[k])
+        assert d[k]["G_S_end_held_equal"] > 1e-2, (k, d[k])                    # the end must follow its law
+        assert d[k]["sum_T25"] < 1e-12, (k, d[k])
+    assert d["down S"]["sum_T5"] < 1e-12 and d["down St"]["sum_T5"] < 1e-12
+    assert d["up S"]["sum_T5"] > 0.5 and d["up St"]["sum_T5"] > 0.5            # no level-5 closure for the up sum
+    assert d["law_at_minus_one_over_tau"] - d["table_at_minus_one_over_tau"] > 0.1   # the table's fallback is not the law
+    import sys; sys.path.insert(0, str(HERE)); import gramian_and_sum as GS      # one case live
+    G0, _ = GS.objs("0.13", 1.7, "down", "S"); G1, _ = GS.objs("1.13", 1.7, "down", "S")
+    assert GS.dev(GS.ratios(G1, True), GS.ratios(G0, True)) < 1e-12
+

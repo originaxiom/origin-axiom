@@ -172,21 +172,45 @@ beside a measured number. Register row P-859. **0 of 19.**
 - A test of the averaged cusp pattern must count this as part of a look already made, and must be ruled before any
   value of it is compared.
 
-## 6. The amplitude read-out needs a connection first (P-860 (a), data-free)
+## 6. The amplitude read-out: what is covariant and what is not (P-860 (a), data-free; corrected 2026-11-17)
 
 - **The candidate** (agy-exp's point (a)): sum frame C's coupling over the 24 points with equal weights, then take the
   SVD of the sum.
 - **It is not a function on the modular surface** (`amplitude_sum.py`). Its mass ratios at τ and at τ + 1 differ, by up
-  to 80 %: up S at 0.13 + 1.7i gives 0.066 against 0.119. The canonical end is the same at both, since it is read at
-  Re τ mod 1. The pointwise ratios are covariant (B1928; B1940's V2), so their average is invariant, but the sum of the
-  couplings is not.
-- **Phases do not repair it.** Under τ → τ + 1 each point's coupling goes to another point's, changed by a unitary
-  that mixes entries, not by phases alone (a scratch comparison of entrywise moduli, which differ by about 0.1).
-  - So a covariant amplitude read-out needs a flat unitary connection over the 24 points, built from B1724's transport
-    rules.
-  - With that connection, (a) and agy-exp's (b), the Chern–Simons phases, become one question. It must be built before
-    the read-out is even defined.
-- **The lock** checks that the equal-weight sum changes under τ → τ + 1.
+  to 80 %: up S at 0.13 + 1.7i gives 0.066 against 0.119. The pointwise ratios are covariant (B1928; B1940's V2), so
+  their average is invariant, but the sum of the couplings is not.
+- **Corrected 2026-11-17.** This section said that phases do not repair the sum, from a comparison of entrywise moduli.
+  That comparison could not tell: two unitaries that are the same at every point also change entrywise moduli.
+  - **The law** (agy-002's A2-AMP, harvest row 1849, read through the mask): under γ in SL(2, ℤ),
+    Y_f(γτ, w) = φ_f(γ, w) · U_L(γ) · Y_f(τ, wγ) · U_R,f(γ)†. The two unitaries are the same at every point w, and the
+    part that depends on the point is a scalar phase.
+  - **Main tested its consequences on its own frame code** (`gramian_and_sum.py`, at 0.13 + 1.7i, both sectors and both
+    readings):
+
+    | test | up, S | up, S̃ | down, S | down, S̃ |
+    |---|---|---|---|---|
+    | the left Gramian (1/24) Σ_w Y Y†, its eigenvalue ratios at τ + 1 against τ | 2.1e-17 | 2.0e-17 | 5.1e-17 | 6.7e-17 |
+    | the same at −1/τ, the end carried by its own law (B1927) | 8.7e-16 | 8.9e-16 | 9.3e-16 | 8.3e-16 |
+    | the same at −1/τ, the end held equal (a control) | 0.030 | 0.031 | 0.075 | 0.094 |
+    | the plain sum, its ratios at τ + 5 against τ | 3.2 | 1.2 | 4.9e-17 | 8.6e-17 |
+    | the plain sum at τ + 25 against τ | 8.1e-17 | 2.0e-17 | 4.9e-17 | 8.6e-17 |
+
+  - **So the Gramian is the covariant object, with no choice.** The point's phase and the right unitary drop out of it.
+  - **The plain sum can be repaired for the down sector and not for the up sector.** τ → τ + 5 fixes every point of
+    order 5. It leaves the down sector's sum unchanged, so constant phases on the points can repair it (agy-002 gives
+    the table; main has checked only this necessary condition). It changes the up sector's sum, so no phases on the
+    points repair it at level 5. The up sector's sum closes at level 25.
+  - **What is left of the first reading:** a covariant read-out of the summed amplitude needs phases on the points. That
+    is where agy-exp's (b), the Chern–Simons phases, would enter, and for the up sector it needs level 25.
+- **A defect in the instrument, found by this check (P-864).** The record's table of the canonical end (B1927's
+  `canon_readout.canon`) does not cover −1/τ here (height 0.585). Below its lower edge it returns the nearest tabulated
+  value, 2.719, with no flag; the end's law gives 3.028. Main's first test of S used the table there and failed by 2 %
+  to 5 % for that reason alone.
+  - Inside its rectangle but below the unit circle the table is off its own law by 4.4e-3 (at 0.9i against i/0.9), and
+    by 1.4e-4 at 0.3 + 0.96i.
+  - Owed: a flag or a reduction to the fundamental domain, and a sweep of the landed runs for points read below the
+    unit circle.
+- **The lock** checks that the equal-weight sum changes under τ → τ + 1, and the table above.
 
 ## Not claimed
 

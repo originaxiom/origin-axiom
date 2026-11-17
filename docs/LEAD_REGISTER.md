@@ -661,3 +661,16 @@ each caught the five it could reach (B1931).**
 - **After the window, Review 83's to read:** B1930 (the foundation at version 1.68, the builder's chain), B1931 (this
   review), B1932 (the big run's values committed before any comparison, with the exact channel weight).
 
+## ⟳ VIEW REFRESH — 2026-11-17 (Review 83)
+
+Touched at Review 83 (its anchor `c8cece9be`). **The window (`73e71e277` to `c8cece9be`) holds B1930 to B1944: the big
+run's values, its rule and amendments, the area options corrected in extended precision (B1940), the look and its
+reading (B1944: frame C fails in every option, final on the SM seat's re-run), the coupling as a Szegő kernel (B1938),
+B1939, B1941, B1942 and B1943. Two sessions of the other family read it, with six planted faults: each caught all six,
+and their findings corrected four statements of main's mathematics (B1950).**
+- **For this page:** the goal is now P-862, the relations that hold in every history; value frames are paused. Open:
+  P-861 (frame D1 as a genuine overlap; the Higgs's own twist is frame C at shifted charges, by the web seat's W-B2),
+  P-847 (what fixes the Higgs reading), P-845 (the level), and the harvest of the seats' work of 2026-11-15 to 17.
+- **After the window, Review 84's to read:** B1945 (frame C's cusp exponents), B1946 (the cusp mixing and the Higgs
+  readings), B1947 (a twisted Higgs is not covariant), B1948 (the relations inventoried), B1949 (the lepton–down
+  relation by level), B1950 (this review).

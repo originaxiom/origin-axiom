@@ -16,7 +16,7 @@ A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY
 |---|---|---|---|---|
 | S01 | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry) | ANSATZ | FL-02 (OPEN, GAP6); 107 of 173 value-kills sit on flat premises (P-571) | P-571 |
 | S02 | the orientation: the orientable, amphichiral member (SE2) | CHOSEN | FL-03; GENESIS SE2 | |
-| S03 | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000) | CHOSEN | GENESIS SE1 (POSTULATED; UNIQUENESS A5); what it selects is derived (T-ROOT). [2026-11-14, B1943: added; the foundation's postulate was counted nowhere on this board] | |
+| S03 | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004) and that of LP (m000) | CHOSEN | GENESIS SE1 (POSTULATED; UNIQUENESS A5); what it selects is derived (T-ROOT). [2026-11-14, B1943: added; the foundation's postulate was counted nowhere on this board] | |
 
 ## Frame A — the record's candidate: THE SIX AT THE AREA-4 HOROCYCLE (FR-FIB at B1841's E4 row; B1841, P-706)
 

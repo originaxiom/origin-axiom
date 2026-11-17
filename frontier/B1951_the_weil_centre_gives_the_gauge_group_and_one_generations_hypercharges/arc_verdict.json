@@ -1,0 +1,29 @@
+{
+ "id": "B1951",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1934",
+  "B1936",
+  "B1943",
+  "B862",
+  "B1080"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's W-A1, Part 1 (harvest row 1846): the construction and its lines D1 to D7, recomputed on main's code"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the Weil representation of SL(2, F_p) on the functions on F_p, at p = 5 and at the rival primes 3, 7, 11, 13; the exterior algebra of the Weil space (postulate D)",
+  "object": "the centre's split, the commutant, the hypercharge as its traceless element, the content of the even exterior powers, and the group preserving the split",
+  "reach": "class",
+  "hypotheses": "exact finite computation in floating point to 1e-15; conditional on postulate D (the matter space and the gauge group) and on SE3 (the level); three families, continuous colour and the Higgs alone not delivered"
+ },
+ "claim_one_line": "THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on the counted postulate D): the Weil representation of SL(2, F5) on C^5 has commutant spanned by I and the parity P = rho(-I), whose eigenspaces are 3 + 2; its traceless element 6Y = (I - 5P)/2 is -2 on the 3 and 3 on the 2; the determinant-one unitaries preserving the split are (SU(3) x SU(2) x U(1))/Z6; and the even exterior powers carry exactly one generation with the record's hypercharges (Q 1, u -4, e 6, d 2, L -3, a singlet; anomaly sums zero), Lambda^1's doublet the Higgs's 3. At the primes 3, 7, 11, 13 the same split is 2 + 1, 4 + 3, 6 + 5, 7 + 6: only 5, the prime of the act's discriminant, gives the Standard Model's group. Not delivered: three families, continuous colour from the finite group, the Higgs alone. 0 of 19.",
+ "weave_or_thread": "the weave (the level's symmetry, with no point, measure or reading selected)"
+}

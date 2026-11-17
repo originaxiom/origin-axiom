@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1646** |
-| words of findings prose | **1,477,915** |
+| research arcs with findings | **1648** |
+| words of findings prose | **1,480,536** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1646** (100.0 %) |
+| arcs carrying an authored verdict | **1648** (100.0 %) |
 | recorded closures | **860** (692 classified, 168 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1145 |
+| PROVED | 1147 |
 | NEGATIVE | 386 |
 | OPEN | 102 |
 | RETRACTED | 13 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1949`** (957 words, 0 locks)  
-“IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector only through its charges times the point, so Y_lep(tau, w) = Y_(-1,2)(tau, 3w) exactly, the down sector with the doublet's sign negated; the cusp exponents ignore that sign, so e_lep(alpha) = e_down(3 alpha) on every slope, and at every level not divisible by 3 the lepton and down exponents coincide (at levels divisible by 3 the leptons see the down exponents of order N/3); the order-one factor between the levels' averaged second-generation ratios is 1 at order 5, and at order 10 tends to 0.6346 or its reciprocal 1.5757 by reading (constant in Im tau, shifting 3e-4 with Re tau through the held end), the first generation unsplit; that constant is the down sector's own ratio between its two readings, a cusp-limit relation only (the bulk differs by 6 to 25 %). Three selection-free relations, one per level; by main's disclosed recall each is expected to fail against the known lepton-down split, and none is compared here. 0 of 19.”  
-`B1949_the_lepton_down_relation_in_the_frame/FINDINGS.md`
+**PROVED — `B1951`** (887 words, 0 locks)  
+“THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on the counted postulate D): the Weil representation of SL(2, F5) on C^5 has commutant spanned by I and the parity P = rho(-I), whose eigenspaces are 3 + 2; its traceless element 6Y = (I - 5P)/2 is -2 on the 3 and 3 on the 2; the determinant-one unitaries preserving the split are (SU(3) x SU(2) x U(1))/Z6; and the even exterior powers carry exactly one generation with the record's hypercharges (Q 1, u -4, e 6, d 2, L -3, a singlet; anomaly sums zero), Lambda^1's doublet the Higgs's 3. At the primes 3, 7, 11, 13 the same split is 2 + 1, 4 + 3, 6 + 5, 7 + 6: only 5, the prime of the act's discriminant, gives the Standard Model's group. Not delivered: three families, continuous colour from the finite group, the Higgs alone. 0 of 19.”  
+`B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/FINDINGS.md`
 
 **NEGATIVE — `B1947`** (711 words, 0 locks)  
 “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  

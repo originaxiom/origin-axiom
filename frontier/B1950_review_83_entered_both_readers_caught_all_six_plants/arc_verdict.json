@@ -1,0 +1,33 @@
+{
+ "id": "B1950",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1931",
+  "B1943",
+  "B1941",
+  "B1940",
+  "B1935",
+  "B1938",
+  "B1944",
+  "B1937"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "agy-002's reading for Review 83 (harvest row 1843): 31 findings, six of them the plants",
+  "agy-exp's reading for Review 83 (harvest row 1844): 20 findings, six of them the plants"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "Review 83: the window 73e71e277 to c8cece9be, read at review-83/read b35eac607 by two sessions of the other model family",
+  "object": "the plants' catch, the quotations' check by machine, and the readers' findings: eight mended here on main's own recomputation, the rest carried as R83-1",
+  "reach": "single",
+  "hypotheses": "a process arc; the carried findings are checked only as quotations"
+ },
+ "claim_one_line": "REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended on main's own recomputation: RL fixes the line {k(1, 3)/5}, not LR's (B1943, the registry); SE1 does not select m003 (the scoreboard's S03); B1941's determinant preference reverses near tau = i (-0.39 at 1.05i), its sample spanning heights 1.2 to 9; B1940's exchange of mixing moduli at height 12 is real, not a precision failure; B1935's S3 is the action on moduli, the complex residues carrying signs; a lock without its absolute value (B1938); two stale verdict files; the other findings carried as R83-1. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

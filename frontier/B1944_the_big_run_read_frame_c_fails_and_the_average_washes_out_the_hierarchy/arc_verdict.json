@@ -15,7 +15,8 @@
  "rests_on_seat": [],
  "cites_seat": [
   "agy-exp's X-EXACT-W and X-MEASURE (harvest rows 1812, 1826): the second computations of the values",
-  "the web seat's W-F18, W-F21, W-F22, W-F23 (rows 1811, 1825, 1820, 1821): the cold reads and the S* condition"
+  "the web seat's W-F18, W-F21, W-F22, W-F23 (rows 1811, 1825, 1820, 1821): the cold reads and the S* condition",
+  "the SM seat's SM-C15 (harvest row 1831): the look's second computation, every output byte for byte"
  ],
  "supersedes": null,
  "superseded_by": null,

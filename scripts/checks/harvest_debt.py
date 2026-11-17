@@ -194,6 +194,14 @@ SEATS = [
     # Read through the mask like every branch of that family; its code is never run by main.
     dict(key="agy002", label="agy-002 (verify)", branch="verify",
          remotes=("origin",), cell=("agy-002",)),
+    # ADDED 2026-11-17 (the harvest of the seats' work of 2026-11-15 to 17): agy-002's two campaign branches, `agy-002/endgame`
+    # (gates 0 to 3) and `agy-002/closure` (gates 4 to 7B, built on the first; a Pati-Salam model and ten kill lines, PR-1 to
+    # PR-10).  Registered so they are watched, pinned at their heads (rows 1850 and 1851): the closure's master synthesis is
+    # read in full, the gates' own notes are owed (P-865).  Read through the mask; nothing of them is banked.
+    dict(key="agy002closure", label="agy-002 (closure)", branch="closure",
+         remotes=("origin",), cell=("agy-002",)),
+    dict(key="agy002endgame", label="agy-002 (endgame)", branch="endgame",
+         remotes=("origin",), cell=("agy-002",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

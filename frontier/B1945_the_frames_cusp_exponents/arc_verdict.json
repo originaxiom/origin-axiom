@@ -16,7 +16,8 @@
  "cites_seat": [
   "sm:W178",
   "agy-exp's diagnosis of frame C's cusp mixing (relayed by the author, harvest row 1830), recomputed on main",
-  "the web seat's W-F25 (harvest row 1834): the second computation, on its own code, sealed before this arc landed; it agrees in its convention E = 2k"
+  "the web seat's W-F25 (harvest row 1834): the second computation, on its own code, sealed before this arc landed; it agrees in its convention E = 2k",
+  "agy-002's A2-AMP (harvest row 1849, read through the mask): the transformation law of the coupling over the 24 points; its consequences tested on main's code (section 6, corrected 2026-11-17)"
  ],
  "supersedes": null,
  "superseded_by": null,

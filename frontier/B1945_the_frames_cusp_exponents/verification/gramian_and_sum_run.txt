@@ -1,0 +1,8 @@
+the end at tau: 2.494666; by its law at -1/tau: 3.028209; the table's value there (below its edge, nearest neighbour): 2.719258
+E: the table inside its domain, at 0.9i and its image: L(-1/z) - L(z) - log|z| = 4.44e-03
+E: the table inside its domain, at 0.3 + 0.96i and its image: L(-1/z) - L(z) - log|z| = 1.40e-04
+up   S : Gramian under tau+1 2.1e-17 | plain sum under tau+5 3.19e+00, under tau+25 8.05e-17 | Gramian at -1/tau: the end by its law 8.7e-16, held equal 3.03e-02
+up   St: Gramian under tau+1 2.0e-17 | plain sum under tau+5 1.17e+00, under tau+25 1.95e-17 | Gramian at -1/tau: the end by its law 8.9e-16, held equal 3.08e-02
+down S : Gramian under tau+1 5.1e-17 | plain sum under tau+5 4.86e-17, under tau+25 4.86e-17 | Gramian at -1/tau: the end by its law 9.3e-16, held equal 7.52e-02
+down St: Gramian under tau+1 6.7e-17 | plain sum under tau+5 8.58e-17, under tau+25 8.58e-17 | Gramian at -1/tau: the end by its law 8.3e-16, held equal 9.41e-02
+exit 0

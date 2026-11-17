@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 94 |
+| DEBT | a result the record uses is owed a check or a correction | 96 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -147,7 +147,7 @@ by a quote that the builder checks.*
 | FA:F7 | CONDITIONAL | thread | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | S:S01 | ANSATZ | thread | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-571 (QUEUED) |
 | S:S02 | CHOSEN | thread | the orientation: the orientable, amphichiral member (SE2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| S:S03 | CHOSEN | thread | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004, m003) and that of LP (m000). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| S:S03 | CHOSEN | thread | the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004) and that of LP (m000). | docs/TOTAL_INPUTS_SCOREBOARD.md |
 | V:0OF19 | RECORD | record | The scoreboard: no Standard Model parameter is earned. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-579 (QUEUED) |
 | V:EARN-RULE | CHOSEN | record | How a frame's dictionary may be earned: by sealed prediction, with seven conditions. The owner's ruling, on main's drafting; revisable. | GENESIS.md; B1828; B1843 |
 | V:HELD | CHOSEN | record | The held-out targets are held unspent by the owner. Nothing in this map reads or computes them. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-709 (DONE); P-585 (QUEUED); P-597 (QUEUED) |
@@ -301,103 +301,105 @@ by a quote that the builder checks.*
 | rank | row | class | what rests on it |
 |---|---|---|---|
 | 1 | P-861 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is deranged by its mixed Higgs readings. (P-853, the precision debt, closed 2026-11-15.) |
-| 2 | P-355 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D. |
-| 3 | P-596 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count. |
-| 4 | P-384 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick. |
-| 5 | P-586 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading. |
-| 6 | P-597 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74). |
-| 7 | P-446 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit. |
-| 8 | P-517 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355. |
-| 9 | P-157 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment. |
-| 10 | P-559 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim. |
-| 11 | P-610 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived. |
-| 12 | P-444 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians. |
-| 13 | P-542 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4. |
-| 14 | P-524 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so. |
-| 15 | P-557 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1825's null for the four (p2) and its sealed verdict use that definition. |
-| 16 | P-516 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses. |
-| 17 | P-448 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1. |
-| 18 | P-852 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20). |
-| 19 | P-589 | a false or stale statement in a foundation or front document | Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean). |
-| 20 | P-606 | a false or stale statement in a foundation or front document | B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication. |
-| 21 | P-618 | a false or stale statement in a foundation or front document | GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers. |
-| 22 | P-318 | a false or stale statement in a foundation or front document | THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc. |
-| 23 | P-427 | a false or stale statement in a foundation or front document | B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records. |
-| 24 | P-374 | a false or stale statement in a foundation or front document | THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite. |
-| 25 | P-579 | a false or stale statement in a foundation or front document | Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers. |
-| 26 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
-| 27 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
-| 28 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
-| 29 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
-| 30 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
-| 31 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |
-| 32 | P-528 | a false or stale statement in a foundation or front document | docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line. |
-| 33 | P-160 | a false or stale statement in a foundation or front document | Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording. |
-| 34 | P-145 | a false or stale statement in a foundation or front document | Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main. |
-| 35 | P-605 | a check that cannot fail, an instrument or a seal claim under a banked result | GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
-| 36 | P-603 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings. |
-| 37 | P-607 | a check that cannot fail, an instrument or a seal claim under a banked result | B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3. |
-| 38 | P-608 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was. |
-| 39 | P-609 | a check that cannot fail, an instrument or a seal claim under a banked result | OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact. |
-| 40 | P-317 | a check that cannot fail, an instrument or a seal claim under a banked result | Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR. |
-| 41 | P-602 | a check that cannot fail, an instrument or a seal claim under a banked result | B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12. |
-| 42 | P-590 | a check that cannot fail, an instrument or a seal claim under a banked result | Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound. |
-| 43 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
-| 44 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
-| 45 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
-| 46 | P-156 | an unverified premise or seat result under a banked structural result | B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
-| 47 | P-054 | an unverified premise or seat result under a banked structural result | GENESIS cites W24 and W30 (order-3 flux allowed, not forced). |
-| 48 | P-055 | an unverified premise or seat result under a banked structural result | W23/W27/W28 (two generations in E8 frames, qubit) are cited as results. |
-| 49 | P-056 | an unverified premise or seat result under a banked structural result | W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status. |
-| 50 | P-057 | an unverified premise or seat result under a banked structural result | Fork lane's exact packets feed GM4 readings. |
-| 51 | P-263 | an unverified premise or seat result under a banked structural result | B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked. |
-| 52 | P-135 | an unverified premise or seat result under a banked structural result | B1650's condensate test and Simpson table are cited conditionally on H-RES. |
-| 53 | P-155 | an unverified premise or seat result under a banked structural result | B1602/B1603 counts (16 of 42) are over candidate kernels, never identified. |
-| 54 | P-091 | an unverified premise or seat result under a banked structural result | B1814's census and the typicality cell rest on W57, whose own frame is unregenerated. |
-| 55 | P-107 | an unverified premise or seat result under a banked structural result | P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice. |
-| 56 | P-117 | an unverified premise or seat result under a banked structural result | PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B. |
-| 57 | P-430 | an unverified premise or seat result under a banked structural result | W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked. |
-| 58 | P-316 | an unverified premise or seat result under a banked structural result | B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main. |
-| 59 | P-158 | an unverified premise or seat result under a banked structural result | B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed. |
-| 60 | P-310 | an unverified premise or seat result under a banked structural result | B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument. |
-| 61 | P-025 | an unverified premise or seat result under a banked structural result | Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings. |
-| 62 | P-030 | an unverified premise or seat result under a banked structural result | The golden identity (MC10 arcs, B1638) cites classical input via secondary sources. |
-| 63 | P-031 | an unverified premise or seat result under a banked structural result | The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings. |
-| 64 | P-492 | an unverified premise or seat result under a banked structural result | B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions. |
-| 65 | P-571 | an unverified premise or seat result under a banked structural result | The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03). |
-| 66 | P-334 | an unverified premise or seat result under a banked structural result | Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10). |
-| 67 | P-653 | added by B1833 (S300; the brainstorms re-read) | GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
-| 68 | P-643 | added by B1833 (S300; the brainstorms re-read) | THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take. |
-| 69 | P-646 | added by B1833 (S300; the brainstorms re-read) | B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09. |
-| 70 | P-670 | added by B1833 (S300; the brainstorms re-read) | the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it. |
-| 71 | P-688 | added at S305 (the closure prepared) | the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets. |
-| 72 | P-687 | added at S305 (the closure prepared) | B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion. |
-| 73 | P-698 | added at S305 (the closure prepared) | frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*. |
-| 74 | P-733 | added at S306k (the web seat's open-book relay) | B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
-| 75 | P-757 | added at S306o (the advisor seat's audit, 2026-11-10) | the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal). |
-| 76 | P-772 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form. |
-| 77 | P-773 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled. |
-| 78 | P-777 | added on 2026-11-11 (S306p) | 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c). |
-| 79 | P-781 | added on 2026-11-11 (S306p) | the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it. |
-| 80 | P-786 | added on 2026-11-11 (S306p) | what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict. |
-| 81 | P-804 | added on 2026-11-11 (S306p) | what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence. |
-| 82 | P-806 | added on 2026-11-11 (S306p) | the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list. |
-| 83 | P-808 | added on 2026-11-11 (S306p) | what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things. |
-| 84 | P-810 | added on 2026-11-11 (S306p) | the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it. |
-| 85 | P-811 | added on 2026-11-12 (S306p) | the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead. |
-| 86 | P-812 | added on 2026-11-12 (S306p) | eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions. |
-| 87 | P-813 | added on 2026-11-12 (S306p) | what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome. |
-| 88 | P-816 | added on 2026-11-12 (S306p) | a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen. |
-| 89 | P-817 | added on 2026-11-12 (S306p) | the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases. |
-| 90 | P-820 | added on 2026-11-12 (S306p) | after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room. |
-| 91 | P-821 | added on 2026-11-12 (S306p) | by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show. |
-| 92 | P-253 | added on 2026-11-12 with the owner's word of that day (P-825) | eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none. |
-| 93 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
-| 94 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |
+| 2 | P-864 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | the canonical end's table (B1927) returns a nearest value below its lower edge with no flag, and is off its own law by 4.4e-3 below the unit circle: the landed frame runs (B1928, B1940, B1941, B1944, B1945, B1946, B1949) are owed a sweep for points read there. |
+| 3 | P-865 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | the harvest of the seats' work of 2026-11-15 to 17, read in depth and in order (agy-002's gates, agy-exp's nine campaigns against the two audits of them, the physical lane's C4 to C7, the web seat's remaining notes), nothing banked before main recomputes its load-bearing step. |
+| 4 | P-355 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D. |
+| 5 | P-596 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count. |
+| 6 | P-384 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick. |
+| 7 | P-586 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading. |
+| 8 | P-597 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74). |
+| 9 | P-446 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit. |
+| 10 | P-517 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355. |
+| 11 | P-157 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment. |
+| 12 | P-559 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim. |
+| 13 | P-610 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived. |
+| 14 | P-444 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians. |
+| 15 | P-542 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4. |
+| 16 | P-524 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so. |
+| 17 | P-557 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | B1825's null for the four (p2) and its sealed verdict use that definition. |
+| 18 | P-516 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses. |
+| 19 | P-448 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1. |
+| 20 | P-852 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20). |
+| 21 | P-589 | a false or stale statement in a foundation or front document | Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean). |
+| 22 | P-606 | a false or stale statement in a foundation or front document | B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication. |
+| 23 | P-618 | a false or stale statement in a foundation or front document | GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers. |
+| 24 | P-318 | a false or stale statement in a foundation or front document | THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc. |
+| 25 | P-427 | a false or stale statement in a foundation or front document | B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records. |
+| 26 | P-374 | a false or stale statement in a foundation or front document | THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite. |
+| 27 | P-579 | a false or stale statement in a foundation or front document | Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers. |
+| 28 | P-581 | a false or stale statement in a foundation or front document | The structural package grades (B862, B727 line) in GENESIS-level claims. |
+| 29 | P-320 | a false or stale statement in a foundation or front document | GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record. |
+| 30 | P-138 | a false or stale statement in a foundation or front document | GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped. |
+| 31 | P-092 | a false or stale statement in a foundation or front document | docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty). |
+| 32 | P-319 | a false or stale statement in a foundation or front document | Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658. |
+| 33 | P-426 | a false or stale statement in a foundation or front document | docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py. |
+| 34 | P-528 | a false or stale statement in a foundation or front document | docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line. |
+| 35 | P-160 | a false or stale statement in a foundation or front document | Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording. |
+| 36 | P-145 | a false or stale statement in a foundation or front document | Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main. |
+| 37 | P-605 | a check that cannot fail, an instrument or a seal claim under a banked result | GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
+| 38 | P-603 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings. |
+| 39 | P-607 | a check that cannot fail, an instrument or a seal claim under a banked result | B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3. |
+| 40 | P-608 | a check that cannot fail, an instrument or a seal claim under a banked result | LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was. |
+| 41 | P-609 | a check that cannot fail, an instrument or a seal claim under a banked result | OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact. |
+| 42 | P-317 | a check that cannot fail, an instrument or a seal claim under a banked result | Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR. |
+| 43 | P-602 | a check that cannot fail, an instrument or a seal claim under a banked result | B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12. |
+| 44 | P-590 | a check that cannot fail, an instrument or a seal claim under a banked result | Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound. |
+| 45 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
+| 46 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
+| 47 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
+| 48 | P-156 | an unverified premise or seat result under a banked structural result | B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
+| 49 | P-054 | an unverified premise or seat result under a banked structural result | GENESIS cites W24 and W30 (order-3 flux allowed, not forced). |
+| 50 | P-055 | an unverified premise or seat result under a banked structural result | W23/W27/W28 (two generations in E8 frames, qubit) are cited as results. |
+| 51 | P-056 | an unverified premise or seat result under a banked structural result | W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status. |
+| 52 | P-057 | an unverified premise or seat result under a banked structural result | Fork lane's exact packets feed GM4 readings. |
+| 53 | P-263 | an unverified premise or seat result under a banked structural result | B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked. |
+| 54 | P-135 | an unverified premise or seat result under a banked structural result | B1650's condensate test and Simpson table are cited conditionally on H-RES. |
+| 55 | P-155 | an unverified premise or seat result under a banked structural result | B1602/B1603 counts (16 of 42) are over candidate kernels, never identified. |
+| 56 | P-091 | an unverified premise or seat result under a banked structural result | B1814's census and the typicality cell rest on W57, whose own frame is unregenerated. |
+| 57 | P-107 | an unverified premise or seat result under a banked structural result | P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice. |
+| 58 | P-117 | an unverified premise or seat result under a banked structural result | PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B. |
+| 59 | P-430 | an unverified premise or seat result under a banked structural result | W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked. |
+| 60 | P-316 | an unverified premise or seat result under a banked structural result | B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main. |
+| 61 | P-158 | an unverified premise or seat result under a banked structural result | B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed. |
+| 62 | P-310 | an unverified premise or seat result under a banked structural result | B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument. |
+| 63 | P-025 | an unverified premise or seat result under a banked structural result | Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings. |
+| 64 | P-030 | an unverified premise or seat result under a banked structural result | The golden identity (MC10 arcs, B1638) cites classical input via secondary sources. |
+| 65 | P-031 | an unverified premise or seat result under a banked structural result | The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings. |
+| 66 | P-492 | an unverified premise or seat result under a banked structural result | B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions. |
+| 67 | P-571 | an unverified premise or seat result under a banked structural result | The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03). |
+| 68 | P-334 | an unverified premise or seat result under a banked structural result | Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10). |
+| 69 | P-653 | added by B1833 (S300; the brainstorms re-read) | GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
+| 70 | P-643 | added by B1833 (S300; the brainstorms re-read) | THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take. |
+| 71 | P-646 | added by B1833 (S300; the brainstorms re-read) | B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09. |
+| 72 | P-670 | added by B1833 (S300; the brainstorms re-read) | the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it. |
+| 73 | P-688 | added at S305 (the closure prepared) | the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets. |
+| 74 | P-687 | added at S305 (the closure prepared) | B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion. |
+| 75 | P-698 | added at S305 (the closure prepared) | frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*. |
+| 76 | P-733 | added at S306k (the web seat's open-book relay) | B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
+| 77 | P-757 | added at S306o (the advisor seat's audit, 2026-11-10) | the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal). |
+| 78 | P-772 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form. |
+| 79 | P-773 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled. |
+| 80 | P-777 | added on 2026-11-11 (S306p) | 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c). |
+| 81 | P-781 | added on 2026-11-11 (S306p) | the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it. |
+| 82 | P-786 | added on 2026-11-11 (S306p) | what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict. |
+| 83 | P-804 | added on 2026-11-11 (S306p) | what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence. |
+| 84 | P-806 | added on 2026-11-11 (S306p) | the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list. |
+| 85 | P-808 | added on 2026-11-11 (S306p) | what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things. |
+| 86 | P-810 | added on 2026-11-11 (S306p) | the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it. |
+| 87 | P-811 | added on 2026-11-12 (S306p) | the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead. |
+| 88 | P-812 | added on 2026-11-12 (S306p) | eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions. |
+| 89 | P-813 | added on 2026-11-12 (S306p) | what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome. |
+| 90 | P-816 | added on 2026-11-12 (S306p) | a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen. |
+| 91 | P-817 | added on 2026-11-12 (S306p) | the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases. |
+| 92 | P-820 | added on 2026-11-12 (S306p) | after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room. |
+| 93 | P-821 | added on 2026-11-12 (S306p) | by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show. |
+| 94 | P-253 | added on 2026-11-12 with the owner's word of that day (P-825) | eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none. |
+| 95 | P-827 | added on 2026-11-12 with the owner's word of that day (P-825) | the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar. |
+| 96 | P-839 | added on 2026-11-13 (S306p) | the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption. |
 
 ## The nodes that no edge joins
 
-23 of the 193 nodes that are not debts, and 78 of the 94 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
+23 of the 193 nodes that are not debts, and 80 of the 96 debts. The map states nothing about what such a node requires, answers or bears on; it is listed and joined to nothing. Each of the 23 is held by name in the map's source, as found on 2026-11-12.
 
 | id | layer | kind | grade |
 |---|---|---|---|

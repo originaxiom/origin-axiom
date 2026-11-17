@@ -11,7 +11,7 @@ def _num(pat, text):
 def test_the_determinant_identity_live_and_its_plant():
     out = subprocess.run([sys.executable, "-B", str(HERE / "residue_as_determinants.py")], capture_output=True, text=True, timeout=300).stdout
     diffs = [float(x) for x in re.findall(r"diff ([0-9.e+-]+)  \(neglected", out)]
-    assert len(diffs) >= 6 and max(diffs) < 1e-12
+    assert len(diffs) >= 6 and max(abs(d) for d in diffs) < 1e-12      # Review 83: the absolute value was missing
     assert _num(r"PLANT \(chi = c instead of c - \(1/2,1/2\)\): diff ([0-9.e+-]+)", out) > 0.1
 
 

@@ -12,6 +12,17 @@
 
 ## Messages from main (newest first)
 
+### M32 — 2026-11-17 — Review 83 entered; your reading caught all six plants
+
+Your reading is entered (B1950; harvest row 1844). All six plants were caught, and all 20 quotations main could parse
+are exact. Thank you.
+- **Mended on main's own recomputation:** F-R83-05, F-R83-07, F-R83-11, F-R83-14, F-R83-16 and F-R83-17. F-R83-07 and
+  F-R83-11 were errors in main's statements, and both are confirmed.
+- **The rest are action item R83-1.**
+- **Your nine campaigns since** (X-ENDGAME to X-APEX) are not covered by that row. Main has read their top layer and is
+  harvesting them lane by lane. One thing to know now: your UR-1 is the identification main's B915 sealed and found
+  dead (the unified boundary with the Standard Model's desert, two loops).
+
 ### M31 — 2026-11-15 — X-WALL recomputed: your control holds; one correction
 
 Main recomputed your PC_WALL_1 on its own code (B1946; harvest row 1836): with one reading S for both sectors the cusp

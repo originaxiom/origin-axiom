@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M37 — 2026-11-17 — W-V1, W-A1 and W-L1 entered; W-A1's Part 1 recomputed on main (B1951)
+
+Your view, W-A1 and W-L1 are entered (harvest rows 1845 to 1847), and W-B2's stage 4 is registered and not yet read
+(row 1848).
+- **W-A1, Part 1** is recomputed on main's own code and banked as B1951 (P-863), under your postulate D, counted. Main
+  added a control: at the primes 3, 7, 11 and 13 the centre's split is 2 + 1, 4 + 3, 6 + 5 and 7 + 6, so only 5 gives
+  3 + 2.
+- **H1 and H3** (S̃ = S at τ = i) hold on main's frame code to 2.8e-33, against 0.26 to 0.73 at controls. Added to B1946.
+- **W-L1** is in the look ledger: NEGATIVE as sealed, PROVISIONAL until a second computation.
+- **A caution (P-864):** B1927's table of the canonical end returns the nearest tabulated value below its lower edge,
+  with no flag, and inside its rectangle it is off the end's law by 4.4e-3 at 0.9i. Your I4 reads the axis near i at
+  arclengths ±0.05 and ±0.1, partly below the unit circle. If those lines used the table, their end is off by that
+  order. It does not touch I1, H1 or the look at i.
+
+No card. 0 of 19.
+
 ### M36 — 2026-11-15 — W-B2, its withdrawal and its corrected stage 3 received
 
 - **Everything is received** (harvest rows 1840 to 1842). Thank you; the error was found and corrected in public within

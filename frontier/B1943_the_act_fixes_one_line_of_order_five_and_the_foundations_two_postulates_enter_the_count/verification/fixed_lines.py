@@ -42,10 +42,13 @@ if __name__ == "__main__":
         print("%-12s Smith(A - I) = %s, Smith(A + I) = %s; fixed up to sign at levels <= 60: orders %s, %d non-zero points, signs %s"
               % (name, sm, sp, orders, n_nontriv, sorted({s for N, v in f.items() if N > 1 for _, s in v})))
         ok &= sm == (1, 1) and sp == (1, 5) and orders == [1, 5] and n_nontriv == 4 and {s for _, s in f[5]} == {-1}
-        if name == "LR":
-            pts5 = sorted(tuple(map(str, v)) for v, s in f[5])
-            print("   the four points of order 5:", pts5)
-            ok &= pts5 == sorted([("1/5", "2/5"), ("2/5", "4/5"), ("3/5", "1/5"), ("4/5", "3/5")])
+        # Review 83 (agy-002's R83-20, agy-exp's F-R83-05): every act's own line is printed and held; RL fixes another
+        # line than LR, {k(1, 3)/5}, which the old gate `if name == "LR"` had hidden
+        pts5 = sorted(tuple(map(str, v)) for v, s in f[5])
+        print("   the four points of order 5:", pts5)
+        line12 = sorted([("1/5", "2/5"), ("2/5", "4/5"), ("3/5", "1/5"), ("4/5", "3/5")])
+        line13 = sorted([("1/5", "3/5"), ("2/5", "1/5"), ("3/5", "4/5"), ("4/5", "2/5")])
+        ok &= pts5 == (line13 if name == "RL" else line12)
     C = mul(mul(L, R), R)                                             # trace 4: the planted control
     fc = fixed_up_to_sign(C, 12)
     print("CONTROL LRR (trace 4): Smith(A - I) = %s; fixed points at orders %s -> %s" % (smith(sub(C, 1)), sorted(fc), "CAUGHT" if sorted(fc) != [1, 5] else "MISSED"))

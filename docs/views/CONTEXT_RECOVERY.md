@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1646 |
-| … PROVED | 1145 |
+| arcs with a verdict file | 1648 |
+| … PROVED | 1147 |
 | … NEGATIVE | 386 |
 | … OPEN | 102 |
 | … RETRACTED | 13 |
-| register points | 862 |
-| … “QUEUED” | 314 |
+| register points | 865 |
+| … “QUEUED” | 316 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 532 |
+| … “DONE” | 533 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1842 |
+| harvest rows (the last number) | 1851 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1951 | PROVED | “THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, with a control on rival primes; conditional on th…” |
+| B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
 | B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
 | B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
 | B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
@@ -39,10 +41,8 @@
 | B1944 | NEGATIVE | “[FINAL 2026-11-15: SM-C15 reproduced every output byte for byte, harvest row 1831] THE BIG RUN, READ: FRAME C FAILS IN EVERY OPTION (NEGATIVE as sealed; PROVISIONAL until SM-C15 re-runs it): best chi2_7 6 679 against a…” |
 | B1943 | PROVED | “THE ACT FIXES ONE LINE OF ORDER 5, UP TO SIGN, AND NO OTHER; THE FOUNDATION'S TWO POSTULATES ENTER THE COUNT (PROVED): LR (and its transpose and inverses) fixes up to sign exactly the four non-zero points of one order-5…” |
 | B1942 | PROVED | “AT LEVEL 15 THE LEPTONS KEEP THE ORDER-5 DOWN ROWS AND THE QUARKS MOVE (PROVED; exact to roundoff at three moduli, a planted charge shift caught): at a point of exact order 15 the lepton twists (-3w, 6w) are the lepton…” |
-| B1941 | PROVED | “A FERMION DETERMINANT PREFERS ONE HIGGS WORLD AT EVERY POINT AND A ONE-LOOP TRACE THE OTHER (PROVED as computed on 28 points; committed before the big run's look): with the colour weights (3, 3, 1) or (1, 1, 1) and eith…” |
-| B1940 | PROVED | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3…” |
-| B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
-| B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
+| B1941 | PROVED | “[NARROWED 2026-11-17, Review 83 (agy-002's R83-17, recomputed by main, B1950): the 28 points span heights 1.2 to 9, and near tau = i the determinant's sign reverses (-0.39 at 1.05i), so 'at every point' and 'no measure…” |
+| B1940 | PROVED | “[2026-11-17, Review 83: the second computation is made, agy-exp's X-MEASURE, harvest row 1826; and the exchange of the mixing moduli at height 12 is real, not a precision failure] THE BIG RUN'S AREA OPTIONS CORRECTED IN…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: IN THE FRAME THE LEPTONS SHARE THE DOWN QUARKS' EXPONENTS AT EVERY LEVEL (B1949, PROVED, data-free; P-862 step 2).** The coupling sees a sector only through its charges times the point, so Y_lep(tau, w) = Y_(-1,2)(tau, 3w) exactly, and the cusp exponents, blind to a leg's sign, coincide for leptons and down quarks at every level not divisible by 3. The level changes an order-one factor only: 1 at order 5, and at order 10 the down sector's ratio between its two readings (0.6346 or 1.5757, cusp limit), with the first generation unsplit; at order 15 the leptons are steeper. Three selection-free relations, none compared; by main's disclosed recall each is expected to…”
+“LATEST (2026-11-17, S306p: THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, ONLY AT THE PRIME 5 (B1951, PROVED, exact; P-863); THE WEB SEAT'S LOOK AT TAU = I FAILED (W-L1).** The web seat's W-A1, recomputed on main: level 5's Weil representation has commutant spanned by I and the parity rho(-I), whose eigenspaces are 3 + 2; hypercharge is its traceless element; the group preserving the split is the Standard Model's in its Z6 form; the even exterior powers carry one generation with the record's hypercharges. Main's control: at the primes 3, 7, 11, 13 the split is another, so only the act's prime gives 3 + 2. Conditional on one counted postulate D; thr…”
 
 ## Completeness (nothing skipped silently)
 

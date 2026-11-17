@@ -48,141 +48,143 @@ frontier/B1830_the_register_triaged/). **Rechecked the same day at the owner's w
 *bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery:*
 
 1. P-861 — frame D1's coupling and its cusp mixing, computed data-free before any look (B1946): the gate the next frame must pass, since frame C's mixing is deranged by its mixed Higgs readings. (P-853, the precision debt, closed 2026-11-15.)
-2. P-355 — B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D.
-3. P-596 — P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count.
-4. P-384 — B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick.
-5. P-586 — The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading.
-6. P-597 — P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74).
-7. P-446 — B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.
-8. P-517 — B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.
-9. P-157 — Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.
-10. P-559 — B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.
-11. P-610 — C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived.
-12. P-444 — B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.
-13. P-542 — B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.
-14. P-524 — B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.
-15. P-557 — B1825's null for the four (p2) and its sealed verdict use that definition.
-16. P-516 — IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.
-17. P-448 — P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.
-18. P-852 — what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20).
+2. P-864 — the canonical end's table (B1927) returns a nearest value below its lower edge with no flag, and is off its own law by 4.4e-3 below the unit circle: the landed frame runs (B1928, B1940, B1941, B1944, B1945, B1946, B1949) are owed a sweep for points read there.
+3. P-865 — the harvest of the seats' work of 2026-11-15 to 17, read in depth and in order (agy-002's gates, agy-exp's nine campaigns against the two audits of them, the physical lane's C4 to C7, the web seat's remaining notes), nothing banked before main recomputes its load-bearing step.
+4. P-355 — B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D.
+5. P-596 — P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count.
+6. P-384 — B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick.
+7. P-586 — The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading.
+8. P-597 — P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74).
+9. P-446 — B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.
+10. P-517 — B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.
+11. P-157 — Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.
+12. P-559 — B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.
+13. P-610 — C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived.
+14. P-444 — B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.
+15. P-542 — B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.
+16. P-524 — B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.
+17. P-557 — B1825's null for the four (p2) and its sealed verdict use that definition.
+18. P-516 — IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.
+19. P-448 — P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.
+20. P-852 — what waits for the comparison step: second computations taken back, earlier point-based value tests, and their PROVISIONAL negatives (the sweep's S19, S20).
 
 *a false or stale statement in a foundation or front document:*
 
-19. P-589 — Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean).
-20. P-606 — B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication.
-21. P-618 — GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers.
-22. P-318 — THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.
-23. P-427 — B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.
-24. P-374 — THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.
-25. P-579 — Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.
-26. P-581 — The structural package grades (B862, B727 line) in GENESIS-level claims.
-27. P-320 — GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.
-28. P-138 — GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.
-29. P-092 — docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).
-30. P-319 — Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.
-31. P-426 — docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.
-32. P-528 — docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.
-33. P-160 — Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.
-34. P-145 — Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.
+21. P-589 — Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean).
+22. P-606 — B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication.
+23. P-618 — GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers.
+24. P-318 — THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.
+25. P-427 — B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.
+26. P-374 — THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.
+27. P-579 — Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.
+28. P-581 — The structural package grades (B862, B727 line) in GENESIS-level claims.
+29. P-320 — GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.
+30. P-138 — GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.
+31. P-092 — docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).
+32. P-319 — Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.
+33. P-426 — docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.
+34. P-528 — docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.
+35. P-160 — Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.
+36. P-145 — Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.
 
 *a check that cannot fail, an instrument or a seal claim under a banked result:*
 
-35. P-605 — GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4).
-36. P-603 — LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings.
-37. P-607 — B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3.
-38. P-608 — LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was.
-39. P-609 — OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact.
-40. P-317 — Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.
-41. P-602 — B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12.
-42. P-590 — Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound.
-43. P-239 — B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').
-44. P-233 — Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.
-45. P-540 — B940's instrument is used by C10's seal on m004 (P-330).
+37. P-605 — GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4).
+38. P-603 — LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings.
+39. P-607 — B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3.
+40. P-608 — LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was.
+41. P-609 — OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact.
+42. P-317 — Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.
+43. P-602 — B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12.
+44. P-590 — Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound.
+45. P-239 — B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').
+46. P-233 — Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.
+47. P-540 — B940's instrument is used by C10's seal on m004 (P-330).
 
 *an unverified premise or seat result under a banked structural result:*
 
-46. P-156 — B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.
-47. P-054 — GENESIS cites W24 and W30 (order-3 flux allowed, not forced).
-48. P-055 — W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.
-49. P-056 — W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.
-50. P-057 — Fork lane's exact packets feed GM4 readings.
-51. P-263 — B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.
-52. P-135 — B1650's condensate test and Simpson table are cited conditionally on H-RES.
-53. P-155 — B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.
-54. P-091 — B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.
-55. P-107 — P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.
-56. P-117 — PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.
-57. P-430 — W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.
-58. P-316 — B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.
-59. P-158 — B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.
-60. P-310 — B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.
-61. P-025 — Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.
-62. P-030 — The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.
-63. P-031 — The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.
-64. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
-65. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
-66. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
+48. P-156 — B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.
+49. P-054 — GENESIS cites W24 and W30 (order-3 flux allowed, not forced).
+50. P-055 — W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.
+51. P-056 — W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.
+52. P-057 — Fork lane's exact packets feed GM4 readings.
+53. P-263 — B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.
+54. P-135 — B1650's condensate test and Simpson table are cited conditionally on H-RES.
+55. P-155 — B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.
+56. P-091 — B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.
+57. P-107 — P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.
+58. P-117 — PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.
+59. P-430 — W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.
+60. P-316 — B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.
+61. P-158 — B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.
+62. P-310 — B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.
+63. P-025 — Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.
+64. P-030 — The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.
+65. P-031 — The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.
+66. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
+67. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
+68. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
 
 *added by B1833 (S300; the brainstorms re-read):*
 
-67. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
-68. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
-69. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
-70. P-670 — the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.
+69. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
+70. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
+71. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
+72. P-670 — the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.
 
 *added at S305 (the closure prepared):*
 
-71. P-688 — the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets.
-72. P-687 — B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion.
-73. P-698 — frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*.
+73. P-688 — the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets.
+74. P-687 — B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion.
+75. P-698 — frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*.
 
 *added at S306k (the web seat's open-book relay):*
 
-74. P-733 — B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR.
+76. P-733 — B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR.
 
 *added at S306o (the advisor seat's audit, 2026-11-10):*
 
-75. P-757 — the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal).
+77. P-757 — the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal).
 
 *added at S306o (the advisor seat's second re-audit, 2026-11-10):*
 
-76. P-772 — what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form.
-77. P-773 — the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled.
+78. P-772 — what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form.
+79. P-773 — the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled.
 *added on 2026-11-11 (S306p):*
 
-78. P-777 — 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c).
-79. P-781 — the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it.
-80. P-786 — what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict.
-81. P-804 — what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence.
-82. P-806 — the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list.
-83. P-808 — what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things.
-84. P-810 — the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it.
+80. P-777 — 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c).
+81. P-781 — the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it.
+82. P-786 — what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict.
+83. P-804 — what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence.
+84. P-806 — the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list.
+85. P-808 — what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things.
+86. P-810 — the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it.
 
 *added on 2026-11-12 (S306p):*
 
-85. P-811 — the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.
+87. P-811 — the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.
 
-86. P-812 — eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions.
+88. P-812 — eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions.
 
-87. P-813 — what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome.
+89. P-813 — what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome.
 
-88. P-816 — a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen.
+90. P-816 — a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen.
 
-89. P-817 — the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases.
+91. P-817 — the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases.
 
-90. P-820 — after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room.
+92. P-820 — after the third enforcement series six shapes still pass: a retracted phrase over two lines, four kinds of test that cannot fail, a lock that is a folder; and the tables of what is held by name can grow in the commit that needs the room.
 
-91. P-821 — by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show.
+93. P-821 — by the seat's count 27 verdict files carry no mark of a correction that their findings page carries; the verdict lines are what the front door and the paper's pages show.
 
 *added on 2026-11-12 with the owner's word of that day (P-825):*
 
-92. P-253 — eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none.
+94. P-253 — eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none.
 
-93. P-827 — the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar.
+95. P-827 — the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar.
 
 *added on 2026-11-13 (S306p):*
 
-94. P-839 — the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption.
+96. P-839 — the foundation's § 6 sentence (v1.55) and its FK12 row disagree on what FK12 keeps; WP-1.9 is governed by the row until the two are reconciled by adoption.
 
 ## The queue (worked in this order)
 
@@ -1067,8 +1069,11 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
 | P-855 | 2026-11-14 | MA | THE PAIRS PROGRAMME (docs/THE_PAIRS_PROGRAMME.md; the sweep's S29, S30): every remaining two-way choice probed until it settles (SAME, SEEN FROM THE OTHER, ONE PICKS) or is shown PHYSICAL on two computations, each expectation fixed before its probe; the founding pair must not settle | QUEUED | [LEAD] Q2: Phase 0, the census over GENESIS sections 1-5, the scoreboard and P-845 to P-853, with the census's questions 11 (positivity) and 13 (the observer's place) and FK7's use of the deck typed, read cold by the web seat; Phase 1, the outcome list calibrated on K1-K5 from the arcs' own outputs; the page is stale against B1935 (frame C uses no level-5 triplet) and B1934 (quarks and leptons on one level-5 structure): a dated note on each of its rows that those arcs move | 2026-11-14 |
 | P-856 | 2026-11-14 | MA | THE HAND, AS THE RECORD NOW STATES IT (the sweep's S53): the reversing involution acts as complex conjugation on the sectors, the trace field, the E8-family germ and the paired pole, so the natural spectra are vector-like; several readings on record disagree (a cancellation; a one-bit spontaneous choice; removed by a definition; W-F16's relations; A2-OWN1's sign) | QUEUED | [LEAD] Q2: which symmetry must be absent, and whether its absence follows from the object (B1298, I-28; B1905's question, which B1909 says the pole cannot decide); whether a derived weight reads the determinant (B1910 section 2; B1941 now shows the determinant and a one-loop trace disagree on the Higgs world); whether the remaining two-way choices form a cyclic group of order four or two independent bits (from the normaliser's action at the mark); each reading states its falsifier and runs it once; P-831's owed clause points here (WP-1.4 with WP-1.6) | 2026-11-14 |
 | P-857 | 2026-11-14 | OW | THE AUTHOR'S DIRECTIONS OF 2026-11-14, in plain words: settle first what moves the values, and the inputs later; each remaining choice is a pair, to be settled by its partner rather than by a choice from inside or outside; every seat on an open problem of its own, each checked by another seat; main's own multi-agent runs may compute frontier mathematics, nothing banked before main's own re-run; integrity is not to be compromised at the crucial moment, and bookkeeping is not to crowd out the mathematics; no lead, no work and no point raised is to be skipped, every one registered and run in earnest | DONE | [PROCESS] carried out: the big run's values settled before its inputs (B1932, B1937, B1940); the pairs programme (P-855); the seats' own problems (W-B1, SM-C13b, A2-AMP, X-MEASURE, the dictionary, P-854); main's agent runs re-run before banking (B1938, B1939); the sweep of every raised point (P-851) | 2026-11-14 |
-| P-858 | 2026-11-15 | MA | REVIEW 83 OPENED (main, at the author's word: waived and run at the first chance; the waiver through 65 merges): the window is 73e71e277 to c8cece9be on main (the arcs whose verdicts entered it: B1904 as built, B1930 to B1944; the run's rule, values and look; the sweep of 2026-11-14 and the register rows P-849 to P-858; harvest rows 1799 to 1827); the reading copy is the branch review-83/read at b35eac607, main's head with six faults main planted to test the readers, placed in lines a reader recomputing the window's arcs must read (R82-4); the plants file's sha256 is b3da3d9299f3c14ebb7b4e256930c47e9e4699205551d62686814d52adf76c38 (published at this opening; the file at the entry). The readers are the other family of model: agy-exp (its page, M29) and agy-002 (M38) | QUEUED | [PROCESS] Q1: the readers' files; then the entry (the plants' catch, the findings reproduced and mended, the loop of Review 82's open items R81-1 to R82-5); the branch review-82/read removed once this one is read | 2026-11-15 |
+| P-858 | 2026-11-15 | MA | REVIEW 83 OPENED (main, at the author's word: waived and run at the first chance; the waiver through 65 merges): the window is 73e71e277 to c8cece9be on main (the arcs whose verdicts entered it: B1904 as built, B1930 to B1944; the run's rule, values and look; the sweep of 2026-11-14 and the register rows P-849 to P-858; harvest rows 1799 to 1827); the reading copy is the branch review-83/read at b35eac607, main's head with six faults main planted to test the readers, placed in lines a reader recomputing the window's arcs must read (R82-4); the plants file's sha256 is b3da3d9299f3c14ebb7b4e256930c47e9e4699205551d62686814d52adf76c38 (published at this opening; the file at the entry). The readers are the other family of model: agy-exp (its page, M29) and agy-002 (M38) | DONE | [PROCESS] Q1: the readers' files; then the entry (the plants' catch, the findings reproduced and mended, the loop of Review 82's open items R81-1 to R82-5); the branch review-82/read removed once this one is read [2026-11-17: DONE. Review 83 entered (B1950): both readers caught six of six plants; every parsed quotation exact; eight groups of findings mended on main's recomputation, the rest R83-1; the new anchor c8cece9be] | 2026-11-17 |
 | P-859 | 2026-11-15 | MA | THE AVERAGED CUSP PATTERN AND THE CORRECTED LESSON (B1945): frame C's 24 points carry the census lines' cusp exponents (B1788's closed form; W178's tuple), and its average high in the cusp takes their minima (up 1/10 and 1/2; down 1/5 and 11/20 on S, 1/5 and 1/2 on S-tilde), a pattern that mixes points and that W178's line-by-line skeleton test does not cover; B1944's pointer to a cusp-weighted read-out corrected (the single lines' cusp limits, W178, and the best single tau on the order-5 lines, B1698, already failed); main disclosed one recalled measured ratio (the down quarks' log ratio, about 1.8) while planning | QUEUED | [LEAD] Q3: whether the averaged cusp pattern is tested at all is a choice the programme makes under a sealed rule written before any value of it is compared, counting main's disclosed recollection as part of a look; the first-generation closed form found already in the record (B1788's tropical rule gives all 192 cells; B1659's law holds on frame C); what this family keeps is P-845's fork of the level [2026-11-15: B1945's pointwise table has its second computation, the web seat's W-F25 (row 1834), sealed before B1945 landed, agreeing in the convention E = 2k] | 2026-11-15 |
 | P-860 | 2026-11-15 | SE | AGY-EXP'S DIAGNOSIS OF THE BIG RUN (harvest row 1830, relayed by the author): its main point verified on main (B1945 section 3b: high in the cusp frame C's mixing is a permutation at every point, the heaviest up and down quarks orthogonal, because the two sectors' top residues sit in units j, k and 1, i); its further points, each a different frame that would have to be declared and sealed before any look: (a) the read-out of the coupling's amplitude, summed over the points before the SVD, rather than the average of pointwise ratios and moduli; (b) the Chern-Simons phases across the points, the trivial line included (B1938 section 5's not-claimed); (c) log ratios rather than ratios; (d) a structure that aligns the two sectors' top rows (a shared doublet mode; P-566's sector-odd singlet; frame D's twisted Higgs fibre, W-B1) | QUEUED | [LEAD] Q3: data-free first: for each of (a), (b), (d), whether it makes the cusp's mixing near the identity and separates leptons from down quarks, computed before any comparison; with P-845's fork of the level [2026-11-15: (a) as stated is not a read-out on the modular surface: the equal-weight sum of the couplings over the 24 points changes under tau -> tau + 1, by up to 80 % in its ratios (B1945 section 6), and the change is a point-dependent unitary, not phases; so (a) and (b) are one question, a flat unitary connection over the points built from B1724's transport rules, to be constructed before any such read-out is defined] [2026-11-15: (d) is now forced for this family: B1945 section 3c shows the levels 10 and 15 leave the cusp mixing misaligned at every point, so the alignment of the two sectors' top rows needs a change in the coupling's structure, not the level] [2026-11-15: the record's own action is closed as the weight on histories in both forms (the SM seat's SM-C16 and SM-C17, row 1837): as a real weight it favours the bulk, as a phase interference keeps the bulk and cancels the cusp; B1946's second computation is the web seat's W-F26 (row 1839), agreeing at the mark and the twin] | 2026-11-15 |
 | P-861 | 2026-11-15 | MA | THE REPAIR OF THE MIXING BY THE HIGGS'S OWN TWIST (B1946): frame C's cusp mixing is deranged only by its mixed Higgs readings, which copy the Standard Model's H-tilde for the up sector, a conjugation that hypercharge forces there and that frame C's line-free Higgs does not; with one reading for both sectors it is aligned, but that choice made now would be post hoc; the web seat's frame D1 charges every field as a twist, the Higgs included, and leaves no reading to choose | QUEUED | [DEBT] Q1: frame D1's coupling computed and its cusp mixing checked, data-free, before any look (alignment of the top rows at heights 6 and 30; which reading each sector receives; whether leptons separate from down quarks at the level used), with expectations sealed first; by main, and independently by the web seat (W-B2); a values look only after it passes [2026-11-15: the definition fixed by principle before any computation: W-B1 section 5 leaves one choice, where the Higgs's twist enters the overlap (one leg, split, or a third factor); main takes the third, the Higgs as the third factor of a charge-conserving triple overlap, its own forms twisted by q_H w with q_H = -(q_L + q_R) (up +3, down and leptons -3 in 6Y), the standard construction of Yukawa couplings on magnetized tori (Cremades, Ibanez and Marchesano, hep-th/0404229: two fermions and one scalar, the result a theta function with characteristics in charge-conserving combinations); sent to the web seat with W-B2 (M34)] [2026-11-15: B1947 NEGATIVE as sealed: frame C's coupling with a twisted Higgs put in is not covariant under tau -> tau + 1 (both twist conventions, both representatives); the twisted triplet's T-transformation carries component phases that frame C's contraction does not absorb; so D1 must be derived as a genuine triple overlap of three theta functions, with covariance shown analytically first, before any output; the trial of definitions stopped after one amendment] [2026-11-15: the derivation's three lines: main's own, the web seat's W-B2 (triple overlap, covariance first), and the SM seat's card SM-C18 (the triple overlap's covariance under SL(2, Z), analytically, data-free); B1947's second computation asked of agy-002 after its Review 83 reading] [2026-11-15, main's design note for its own line of the derivation: in frame C the Higgs is a theta constant, a function of tau alone, set beside matter's residues at u = 0, which is why its twist brings phases nothing cancels (B1947); in a genuine triple overlap the Higgs is a section psi_H(u; tau) over the fibre, twisted by its charge, and with q_L + q_R + q_H = 0 the product psi_L psi_R psi_H is a section of the trivial line bundle (degree 0, trivial holonomy), so its fibre integral is covariant by construction; the derivation starts there, with the fibre integral (or its residue form) shown covariant before any value] [2026-11-15: the web seat's W-B2 (row 1840): no placement of the Higgs's twist in frame C's kernel is modular-covariant (the triplet fails T, as B1947; the Szego factor fails S for every shift); the cause read as a level mismatch (a hypothesis); the construction to derive next is the Higgs as a level-2 theta doublet in the fibre variable u, the overlap one product of three level-2 thetas over one Szego factor, tested under T and S at residue level before any norm or mixing; a new card, W-B3, and main's own line and SM-C18 converge on it] [2026-11-15: the level mismatch, as a fact of the code: frame C's bilinear kernel (B1656's bil and bil_mp) evaluates matter's thetas at T = 2 tau over a theta_1(u, tau) denominator, while the Higgs triplet's theta constants are at tau; so the web seat's hypothesis has its basis in the frame's definition] [2026-11-15, later: CORRECTION. The web seat withdrew W-B2 in part the same day (row 1841): its Szego-factor build moved matter's factors too; built correctly, the Szego-zero placement is covariant under T and S at c = +-2 (its referee, unsealed), c = -2 reproducing frame C and c = +2 a different covariant object. So the 'no placement in frame C's kernel' reading, the level-mismatch hypothesis and the level-2 next step are withdrawn (the code fact that matter's thetas sit at 2 tau stands, but no longer explains anything here); card W-B3 is not issued; the next step is the seat's sealed stage 3 on the corrected placement, then main's own check] [2026-11-15, main's line, a hand reduction to be checked against the web seat's sealed stage 3 (not yet verified; its exponential factors unchecked): frame C's bilinear (B1656's bil_mp) is matter's level-2 thetas X(u), Y(u) at modulus 2 tau over theta_1(u) or theta_1(u + tau), with matter's factors e^{-i pi u} and e^{-2 pi i u}; moving the Szego zero alone to u = -h, h = c q_H (a tau + b), evaluates matter's thetas at u = -h, which at modulus 2 tau shifts their characteristics by (-c q_H a/2, -c q_H b); so the residue's '+' characteristic becomes (q_L + q_R - c q_H) a: at c = -2 it is -(q_L + q_R) a, frame C up to sign (the seat's finding), and at c = +2 it is 3 (q_L + q_R) a, frame C with the '+' level-5 class multiplied by 3 (up -3 -> 1, down 3 -> -1), the '-' combination unchanged; the Higgs reading is not removed by it] [2026-11-15: ANSWERED IN SUBSTANCE (the web seat's W-B2 stage 3, row 1842, agreeing with main's hand reduction): the only covariant place for the Higgs's twist is its own Szego zero, and there frame D1 is frame C at shifted charges, q' = q - c q_H/2 (c = -2 frame C again; c = +2 up (-2, -7), down (4, 5), leptons (0, 9)); the Higgs's sign does not act as the reading, and the leptons still copy the down rows at order 5. So the Higgs's own twist does not repair the mixing by principle: the mixing fault returns to P-847, the principle that fixes the reading, under which B1946 shows the mixing aligned only for one reading in both sectors. What stays owed here: the convention for the sign of c, and whether the identity E extends from the residues to the norms] | 2026-11-15 |
 | P-862 | 2026-11-15 | OW | THE GOAL, AT THE AUTHOR'S WORD (in plain words: set as the programme's goal): derive, without any selection, the relations among the Standard Model's parameters that hold in every allowed history, and seal each as a prediction with its kill line. The reason (main's view and its correction, docs/THE_SELECTION_AND_DICTIONARY_MAINS_OWN_VIEW_2026-11-15.md): every open piece of the value programme is a selection (the hand, the vacuum, the modulus, the Higgs reading), and the principle as its author states it selects nothing, so what a parameter-free programme can predict is what holds in every history: relations, not single values. Step 1: the inventory of the relations the record already holds, each typed universal or conditional (on which selection) and with its status against the data where the record has one; step 2: derive the next ones from the structure layer; step 3: seal | QUEUED | [LEAD] Q1: step 1, the inventory, by main (B1948); value frames paused meanwhile (no new look) [2026-11-15: step 1 done, B1948: one live relation (TM1, needing a selection), the frame-wide flavour relations all refuted with their requirements named, no quark relation from the weave's symmetry; step 2's first item: the lepton-down exponent relation at the candidate levels 10 and 15, derived data-free and sealed] [2026-11-17: step 2's first item done, B1949: in the frame the leptons share the down quarks' exponents at every level not divisible by 3, and the level changes only an order-one factor (1 at order 5; 0.6346 or 1.5757 at order 10, the down sector's ratio between its readings, the first generation unsplit; at order 15 the leptons are steeper); three selection-free relations, one per level, none compared; by main's disclosed recall each is expected to fail against the known lepton-down split. Step 3 for them: a sealed rule before any comparison. What this adds to B1948's lesson: within this coupling neither the level, the weight nor the reading gives the leptons a hierarchy of their own, so the lepton-down split asks for a different coupling, which is the dictionary question] | 2026-11-17 |
+| P-863 | 2026-11-17 | SE | THE DICTIONARY FROM THE WEIL REPRESENTATION'S CENTRE (the web seat's W-A1, recomputed on main, B1951): under one counted postulate D (the matter space is the exterior algebra of level 5's Weil space, the gauge group the determinant-one unitaries commuting with rho(-I)) the gauge group (SU(3) x SU(2) x U(1))/Z6, one generation's hypercharges and the Higgs's come out, and only the prime 5 gives 3 + 2; this replaces the typed-in hypercharges, the sector pairing and the gauge group by one postulate | QUEUED | [LEAD] Q1: (a) whether D follows from the foundation's ground (SE3) or stays a postulate, and its entry on the scoreboard in place of the joints it replaces; (b) three families: which structure carries them once the Weil 3 is colour (the frame uses its triplet for the generations; both cannot stand); (c) the continuous colour group from the finite one; (d) the metallic rivals as the control on the level (the bronze act's prime 13 gives 7 + 6) | 2026-11-17 |
+| P-864 | 2026-11-17 | MA | THE CANONICAL END'S TABLE RETURNS A NEAREST VALUE BELOW ITS LOWER EDGE, WITH NO FLAG (main, at B1945 section 6's correction): B1927's canon_readout.canon interpolates a table on about 0.87 to 6 in height; below it, and at the corner 0.5 + 0.867i, it returns the nearest tabulated value and sets no flag (its flag covers only heights above 6); at -1/(0.13 + 1.7i) it gave 2.719 where the end's law gives 3.028, which made a test of S fail by 2 to 5 per cent; inside its rectangle but below the unit circle it is off its own law by 4.4e-3 at 0.9i and 1.4e-4 at 0.3 + 0.96i | QUEUED | [DEBT] Q1: (a) make the function reduce to the fundamental domain by the end's law, or raise outside its table; (b) sweep the landed runs (B1928, B1940, B1941, B1944, B1945, B1946, B1949) for points read below the unit circle or outside the table, and recompute any found; (c) the table's accuracy on the unit circle's neighbourhood against B1940's stated errors | 2026-11-17 |
+| P-865 | 2026-11-17 | OW | THE HARVEST OF THE SEATS' WORK OF 2026-11-15 TO 17, DEPTH OWED (the author's word of 2026-11-17: read it all properly and complete the picture): read in full so far: the three views, the web seat's W-A1 and W-L1 (through its outcome), agy-002's Review 83 reading, A2-AMP (two sections) and its master closure synthesis, agy-exp's Review 83 reading, the physical lane's hand-over and findings F01 to F08 | QUEUED | [DEBT] Q1, in this order: (a) agy-002's gates 0 to 7B, note by note, with PR-1 to PR-10's premises checked against the record; (b) agy-exp's nine campaigns (X-ENDGAME to X-APEX), with agy-002's six defects and the physical lane's findings as the checklist, and which X-APEX repaired; (c) the physical lane's C4 to C7 and findings F09 to F17, its pin moved; (d) the web seat's W-B2 stage 4 and W-L1's remaining sections; (e) the agy audit's scanner v17; (f) the picture on main: one page of what stands verified on main, what is a seat's unverified claim, and what is refuted. Nothing of a seat's is banked before main recomputes its load-bearing step | 2026-11-17 |

@@ -49,6 +49,15 @@ Register row P-861. **0 of 19.**
   deranged at height 30 at other points. This is not a conflict: the two computations cover different points and
   heights.
 
+## Added 2026-11-17: at τ = i the two readings coincide (`verification/readings_coincide_at_i.py`)
+
+The web seat's W-A1 (H1 and H3; harvest row 1846) found that at τ = i the Higgs triplet's third component vanishes, so
+S̃ = S there. On main's frame code, at four points of order 5 and in both sectors, the two readings' couplings differ
+by at most 2.8e-33 at τ = i. At the controls 1.3i and 0.05 + 0.9i they differ by 0.26 to 0.73.
+- So at τ = i the choice of reading is settled by equivalence. That is a statement at one point. The point is in the
+  bulk, where the frame has no large hierarchy, and the web seat's sealed look there failed (W-L1, the look ledger).
+- It bears on P-847: the reading is a free bit everywhere except at that point.
+
 ## What it means
 
 - **Where B1945's failure comes from.** The derangement in B1945 §§ 3b and 3c is a property of frame C's declared

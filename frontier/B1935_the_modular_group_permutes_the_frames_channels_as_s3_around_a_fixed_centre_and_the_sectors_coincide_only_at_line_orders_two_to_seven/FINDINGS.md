@@ -22,7 +22,7 @@ On the frame's channel residues R_s (s = 1, i, j, k), at three points, three lin
 - **S** (τ → −1/τ, line (α, b) → (−b, α)) fixes channels 1 and k and swaps i with j.
 
 The common modular factor agrees across channels to 3e-15, and the next-best permutation misses by at least 1.6e-2.
-The two swaps generate S₃ on {i, j, k}; channel 1 is fixed by both. **The modular group acts on the frame's four
+The two swaps generate S₃ on {i, j, k}; channel 1 is fixed by both. *[SCOPED 2026-11-17, Review 83, agy-exp's F-R83-11, recomputed by main (B1950): this is the action on the channels' moduli, which is what the script compares. The complex residues carry signs: under T, (R_i, R_j, R_k)/R_1 goes to (R_i, R_k, −R_j), a signed swap of order 4. So on the complex residues the group is larger than S₃.]* **The modular group acts on the frame's four
 channels as S₃ permuting three, around one fixed centre.**
 
 ## 2. The centre: matter's charges, not the Higgs world

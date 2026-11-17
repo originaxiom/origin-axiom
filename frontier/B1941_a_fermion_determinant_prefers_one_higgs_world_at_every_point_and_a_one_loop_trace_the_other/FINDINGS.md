@@ -1,4 +1,4 @@
-# B1941 — A fermion determinant prefers one Higgs world at every point, and a one-loop trace prefers the other: X-SURVIVAL's S4 picks the world only once its functional is chosen
+# B1941 — A fermion determinant prefers one Higgs world at every sampled point [title corrected 2026-11-17, Review 83: it read "at every point"; the sign reverses near τ = i], and a one-loop trace prefers the other: X-SURVIVAL's S4 picks the world only once its functional is chosen
 
 **Verdict: PROVED** (as computed, on 28 points of the modular surface; that the sign holds at every point is not
 proved). Main, 2026-11-14, before the big run's look, so that no Higgs world is preferred after its output is read (the
@@ -24,7 +24,7 @@ W₊ = (up S, down S̃, leptons S̃). Beside it the card lists a one-loop term, 
   precision (B1940's frame), averaged over the 24 points of order 5.
 - **The sectors.** At level 5 the leptons' coupling is the down coupling transposed (B1934), so their determinant is
   the down determinant, and the colour weights act as (3 on up, 4 on down).
-- **The points.** 28 points were taken on the modular surface, from height 0.9 to 9 (seed 1939).
+- **The points.** 28 points were taken on the modular surface, from height 0.9 to 9 (seed 1939). *[CORRECTED 2026-11-17, Review 83, agy-002's R83-17: the four draws at height 0.9 fall below the unit circle and were rejected, so the 28 points span heights 1.2 to 9.]*
 - **If Δ has one sign at every point,** every measure (the move count, the area, any other) gives that sign. Then the
   measure is not a declared move this selection depends on.
 
@@ -39,7 +39,7 @@ W₊ = (up S, down S̃, leptons S̃). Beside it the card lists a one-loop term, 
 
 ## What it means
 - **With the determinant, the preference is robust.** The fermion determinant prefers W₋, the record's practice, at
-  every sampled point. That holds with either colour weighting and either channel weight. So no measure can reverse it.
+  every sampled point. That holds with either colour weighting and either channel weight. So no measure can reverse it. *[CORRECTED 2026-11-17, Review 83, agy-002's R83-17, recomputed by main (B1950): false. Near τ = i the sign reverses: at τ = 1.05i the difference is −0.39 with the colour weights (3, 3, 1) and −0.12 with (1, 1, 1), and it vanishes at i. The sample never went below height 1.2. So the determinant prefers W₋ at the 28 sampled points, not at every point, and a measure concentrated near i reverses it.]*
   This is a stronger form of the seat's S4, and it agrees with it.
 - **With the trace term, it reverses.** The one-loop term the seat lists beside it prefers W₊ at every sampled point. Its
   size grows with the frame's overall coupling scale, which frame C does not fix (C08), whereas the determinant's

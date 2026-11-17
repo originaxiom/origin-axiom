@@ -13,7 +13,8 @@
  "rests_on_seat": [],
  "cites_seat": [
   "agy-exp's X-WALL (harvest row 1836, read through the mask): its control PC_WALL_1, recomputed on main",
-  "the web seat's W-B1 (row 1824): frame D1, every field a twist, no reading to choose"
+  "the web seat's W-B1 (row 1824): frame D1, every field a twist, no reading to choose",
+  "the web seat's W-A1, H1 and H3 (harvest row 1846): at tau = i the two readings coincide, confirmed on main's code (added 2026-11-17)"
  ],
  "supersedes": null,
  "superseded_by": null,

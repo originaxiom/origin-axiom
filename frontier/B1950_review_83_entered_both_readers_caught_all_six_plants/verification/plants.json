@@ -1,0 +1,38 @@
+[
+ {
+  "id": "P1",
+  "file": "frontier/B1940_the_area_options_corrected_in_extended_precision/FINDINGS.md",
+  "old": "The largest change, 0.068 in ln",
+  "new": "The largest change, 0.086 in ln"
+ },
+ {
+  "id": "P2",
+  "file": "frontier/B1942_at_level_fifteen_the_leptons_keep_the_order_five_down_rows_and_the_quarks_move/FINDINGS.md",
+  "old": "onto the 24 of order 5, evenly",
+  "new": "onto the 24 of order 5, each hit six times"
+ },
+ {
+  "id": "P3",
+  "file": "frontier/B1943_the_act_fixes_one_line_of_order_five_and_the_foundations_two_postulates_enter_the_count/FINDINGS.md",
+  "old": "Smith(LR − I) = (1, 1) and Smith(LR + I) = (1, 5).",
+  "new": "Smith(LR − I) = (1, 1) and Smith(LR + I) = (1, 3)."
+ },
+ {
+  "id": "P4",
+  "file": "frontier/B1938_frame_cs_coupling_is_a_szego_kernel_and_its_read_out_does_not_see_the_gauge_group/FINDINGS.md",
+  "old": "The control.** U(1) words on the exact-weight grid against Pin(2) words on the truncated grid must differ by the\n  truncation's ~1 %. They do: max |z| 6.4",
+  "new": "The control.** U(1) words on the exact-weight grid against Pin(2) words on the truncated grid must differ by the\n  truncation's ~1 %. They do: max |z| 2.4"
+ },
+ {
+  "id": "P5",
+  "file": "frontier/B1941_a_fermion_determinant_prefers_one_higgs_world_at_every_point_and_a_one_loop_trace_the_other/FINDINGS.md",
+  "old": "| ln det, colour weights (3, 3, 1), exact weight | **28 of 28** | +1.38 | +6.44 |",
+  "new": "| ln det, colour weights (3, 3, 1), exact weight | **28 of 28** | +1.83 | +6.44 |"
+ },
+ {
+  "id": "P6",
+  "file": "frontier/B1944_the_big_run_read_frame_c_fails_and_the_average_washes_out_the_hierarchy/FINDINGS.md",
+  "old": "| W₊∣b | 59.3 | 3 310 | 11.3 | 15.6 | 1.21 | 17.6 | 80.9 |",
+  "new": "| W₊∣b | 59.3 | 3 310 | 11.3 | 15.6 | 1.21 | 7.6 | 80.9 |"
+ }
+]

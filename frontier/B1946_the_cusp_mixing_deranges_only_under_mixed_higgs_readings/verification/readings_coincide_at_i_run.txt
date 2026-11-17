@@ -1,0 +1,6 @@
+tau = i                      up  : max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 2.6e-33 2.8e-33 2.1e-33 2.1e-33
+tau = i                      down: max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 2.6e-33 1.5e-33 1.2e-33 1.7e-33
+tau = 1.3i (control)         up  : max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 5.3e-01 7.3e-01 5.3e-01 5.6e-01
+tau = 1.3i (control)         down: max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 5.4e-01 5.4e-01 5.3e-01 5.1e-01
+tau = 0.05 + 0.9i (control)  up  : max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 3.4e-01 3.1e-01 2.9e-01 3.1e-01
+tau = 0.05 + 0.9i (control)  down: max |Y(S) - Y(S~)| / max |Y(S)| at four points of order 5: 2.7e-01 2.6e-01 2.9e-01 2.9e-01

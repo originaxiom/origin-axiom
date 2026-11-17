@@ -235,7 +235,7 @@ main's code before the look, or this rule records that it was not. No option is 
   in that order. Commit every output before any is read. Version 2 is not run: its values are superseded.
 - **The area options' second computation** is compared with B1940's file under the tolerance of A7.
 - **X-SURVIVAL's S4 (A12) is settled before the look by B1941.**
-  - The fermion determinant prefers W₋ at all 28 sampled points under every declared change but one.
+  - The fermion determinant prefers W₋ at all 28 sampled points under every declared change but one. *[CORRECTED 2026-11-17, Review 83, agy-002's R83-18: under every declared change, four of four; what flips the sign is the other functional, the one-loop trace. And the 28 points do not reach the neighbourhood of τ = i, where the determinant's sign reverses (B1941 as corrected).]*
   - The one-loop trace prefers W₊.
   - So the world is picked only by the choice of functional. No option is preferred in this run.
 

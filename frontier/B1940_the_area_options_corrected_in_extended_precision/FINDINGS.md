@@ -15,7 +15,7 @@ once, their second computation owed). Main, 2026-11-14, before the big run's loo
   frame (B1932's exact-weight form):
   - the identity holds to 2.5e-10 at height 6 and 1e-5 at height 9;
   - it fails by 0.12 at height 12, 0.32 at 20 and 2.8 at 30;
-  - at height 12 the mixing moduli of W₋ come out with |V₂₃| and |V₁₃| exchanged.
+  - at height 12 the mixing moduli of W₋ come out with |V₂₃| and |V₁₃| exchanged. *[CORRECTED 2026-11-17, Review 83, agy-002's R83-19, checked on this arc's own run files (B1950): this is not a failure of double precision. At height 12 the double frame gives 0.4282, 0.4169, 0.5832 and the extended frame 0.42815, 0.41689, 0.58318. The change of order between heights 9 and 12 is real: the averaged moduli approach their cusp limits 5/12, 5/12, 7/12 (B1945 § 3b). The defect this arc shows is the τ → τ + 1 failure and the first generation's loss.]*
 - **The SVD is not the cause.** A 50-digit SVD of the same entries fails as before.
 - **Neither are the residues.** B1906's closed-form residues in place of the contour fail as before.
 - **The cause is the coupling itself.** The true m₁/m₃ falls below 1e-15 by height 12 (B1940's own frame gives 1.8e-15
