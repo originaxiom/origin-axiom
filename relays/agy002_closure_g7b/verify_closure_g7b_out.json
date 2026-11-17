@@ -1,0 +1,78 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_CLOSURE-G7B",
+  "empirical_firewall": "0 of 19",
+  "gate_7b_passed": true,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "collections",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ]
+  },
+  "section_1_same_dim_nullity": {
+    "PF7B_1_caught": true,
+    "explicit_M2_over_vEW_vector_in_kernel": true,
+    "section_1_passed": true,
+    "sm_19_dimensionless_nullity": 18,
+    "sm_19_rank": 1,
+    "two_scale_same_dim_20_dimensionless_nullity": 19,
+    "two_scale_same_dim_20_rank": 1
+  },
+  "section_2_analytic_casimir_and_cauchy": {
+    "PF7B_2_caught": true,
+    "PF7B_2_pole_residue_err_from_unity": 1.2942249226282225e-31,
+    "c_ir_rational": "28",
+    "c_uv_rational": "189/2",
+    "closed_form_integral_strictly_negative": true,
+    "collar_model_scope": "equal_gap_twisted_flat_collar_tower_curved_continuum_retained_open",
+    "leibniz_pairwise_positivity_verified": true,
+    "max_bessel_series_vs_closed_integral_rel_err": 3.82933888743133e-27,
+    "max_cauchy_residue_across_8_points_of_E3_nonzero": 5.862050675333109e-18,
+    "max_negative_degree_jet_cauchy_quadrature": 5.512333152706879e-31,
+    "section_2_passed": true,
+    "symbolic_bessel_k2_to_k3_verified": true
+  },
+  "section_3_scoped_tm1_gap": {
+    "PF7B_3_caught": true,
+    "PF7B_3_near_degenerate_drift": 0.2725717025189768,
+    "gapped_states_tested": 32,
+    "max_tm1_drift_ytau_le_1_over_20": 0.000746407411986949,
+    "max_tm1_drift_ytau_le_1_over_5": 0.011764052090843746,
+    "scoped_gap_condition": "min_{j!=1} |m_j^2 - m_1^2| / (m_j^2 + m_1^2) >= 1/3",
+    "section_3_passed": true,
+    "symbolic_antusch_gap_denominator_verified": true,
+    "u3_haar_max_drift_10_trials": 1.2545520178264269e-14
+  },
+  "section_4_e8_roles_and_custody": {
+    "PF7B_4_conflation_caught": true,
+    "PF7B_5_premise_laundering_caught": true,
+    "a2_intersect_e6_count": 0,
+    "a2_root_count": 6,
+    "bifundamental_root_count": 162,
+    "e6_centralizer_root_count": 72,
+    "e8_root_count": 240,
+    "premise_honesty_passed": true,
+    "prior_sha256_manifests_matched": 42,
+    "prior_sha256_manifests_total": 42,
+    "role_A_su3c_singlets_in_27": 0,
+    "role_B_su3c_singlets_in_27": 9,
+    "section_4_passed": true,
+    "self_script_sha256_matched": true,
+    "single_27_weight_count": 27
+  }
+}
