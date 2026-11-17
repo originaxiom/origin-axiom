@@ -1,0 +1,14 @@
+{
+ "id": "web-wz1-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wz1_other_discriminants.py (main: the lattice sum integrated over one period of the geodesic, each point reduced to the fundamental domain, two cut-offs with the tail removed): at discriminant 12 (forms [1, 2, -2] and [3, 0, -1], which trace one geodesic) the period is one half of 12^(s/2) C(s) times the full Dedekind zeta zeta(s) L(s, chi_12)/zeta(2s) (4.3e-9 at s = 2, 1.3e-14 at s = 3; without the half it is off by 0.5). At discriminant 40 it is 40^(s/2) C(s) zeta(s, A)/zeta(2s) with zeta(s, A) = (zeta(s) L(s, chi_40) +- L(s, chi_5) L(s, chi_8))/2, + for the principal class [1, 6, -1] and - for [2, 4, -3] (3e-9 and 4.5e-9 at s = 2; 2.6e-14 and 2.3e-14 at s = 3; the other sign is off by 0.5 to 3.9 and the full Dedekind zeta alone by 0.34 and 0.66). So discriminant 40, where the period is a combination of L-functions with no Euler product, is the right control, and discriminant 12 is not, as the seat's correction says",
+ "note": "These were the seat's referee's figures, computed once there; this is their recomputation on main.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:73",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:76",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:79",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:107",
+  "web:STATUS_CHAT1:64"
+ ]
+}

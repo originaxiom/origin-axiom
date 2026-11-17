@@ -12,6 +12,12 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "d36b2a0ec"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
 )
+EXTRA = {  # files older than a lane's window that the seat names as registered on main and never read (its harvest review, section 1d)
+    "web": ("relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md", "relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md",
+            "relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md", "relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md",
+            "relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md", "relays/CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE.md",
+            "relays/CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY.md", "relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md"),
+}
 git = lambda *a: subprocess.run(["git", *a], capture_output=True, text=True).stdout
 BUL = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+\S"); TROW = re.compile(r"^\s*\|.*\|\s*$"); TSEP = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
 META = re.compile(r"^\W*(from|to|date|kind|seat|card|read|state|on|needs|next push)\W*[:*]", re.I)
@@ -54,6 +60,7 @@ if __name__ == "__main__":
     for lane, seat, ref, base, head in LANES:
         assert git("rev-parse", "--short=9", ref).strip() == head, (lane, git("rev-parse", "--short=9", ref).strip(), head)
         names = [f for f in git("diff", "--name-only", "--diff-filter=AM", base, ref, "--", "*.md").split("\n") if f]
+        names = sorted(set(names) | set(EXTRA.get(lane, ())))
         for f in sorted(names):
             text = git("show", "%s:%s" % (ref, f)); us = units_of(text); k = 0
             for u in us:

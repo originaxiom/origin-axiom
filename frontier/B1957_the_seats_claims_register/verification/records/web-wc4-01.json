@@ -1,0 +1,14 @@
+{
+ "id": "web-wc4-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "what the seat read (through the mask) and how it ran its check (its own exact code over Q(sqrt -3), sealed before the run); the lane's code was not opened",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:8",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:10",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:11",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:15",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:17"
+ ]
+}

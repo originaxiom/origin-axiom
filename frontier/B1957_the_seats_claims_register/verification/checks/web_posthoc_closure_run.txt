@@ -1,0 +1,7 @@
+up   (charges 1, -4; the Higgs charge that conserves 6Y is +3): closing in M1 [([1, 1, 2], 3), ([1, 1, 2], -3)]; in M2 [([1, 2, 1], 0), ([1, 2, 2], 0), ([2, 1, 1], 0), ([2, 1, 2], 0)]; the seat's output has the same two lists: True
+      degrees (2, 2, 1): closes in M1 at Higgs charge none, in M2 at none; with the conserving charge: M1 False, M2 False
+down (charges 1, 2; the Higgs charge that conserves 6Y is -3): closing in M1 [([2, 1, 1], 3), ([2, 1, 1], -3), ([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]; in M2 [([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]; the seat's output has the same two lists: True
+      degrees (2, 2, 1): closes in M1 at Higgs charge [0], in M2 at [0]; with the conserving charge: M1 False, M2 False
+lep  (charges -3, 6; the Higgs charge that conserves 6Y is -3): closing in M1 [([1, 2, 1], 3), ([1, 2, 1], -3), ([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]; in M2 [([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]; the seat's output has the same two lists: True
+      degrees (2, 2, 1): closes in M1 at Higgs charge [0], in M2 at [0]; with the conserving charge: M1 False, M2 False
+so (2, 2, 1) closes for down and for leptons in both models only with the Higgs's charge set to 0, and for up not at all; with the charge that conserves 6Y it closes in neither model for any sector

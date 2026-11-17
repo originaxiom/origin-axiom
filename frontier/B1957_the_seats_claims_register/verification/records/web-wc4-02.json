@@ -1,0 +1,15 @@
+{
+ "id": "web-wc4-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wc4_theorem_c.py, main's own exact computation: Riley's representation V of m004 is absolutely irreducible (I, x, y, xy span the 2 x 2 matrices) and tr(xy) = 5/2 - (sqrt 3/2) i is not real; the commutant of V + V + V has dimension 9, of V + V 4, of V + conj V 2, of (chi + conj chi) taken three times 18; the three non-zero classes mod 2 are one orbit of a non-abelian group of order 6; the prime above 3 is ramified with residue field F_3, and SL(2, F_3) has order 24 and 7 classes with degrees 1, 1, 1, 2, 2, 2, 3, the only list possible. A Galois orbit in a quadratic field has one or two elements because the group has two",
+ "note": "That x and y are conjugate and the abelianisation is Z are standard facts of the figure-eight group, cited by the seat and by main.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:27",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:28",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:29",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:30",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:31",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:44"
+ ]
+}

@@ -17666,6 +17666,7 @@
    "motifs": [
     "closing",
     "choice",
+    "coupling",
     "figure_eight",
     "kappa",
     "eisenstein",
@@ -17675,7 +17676,8 @@
    "refs": [
     "B2",
     "H1",
-    "H2"
+    "H2",
+    "L1"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,

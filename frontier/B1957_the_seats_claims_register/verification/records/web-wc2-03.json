@@ -1,0 +1,24 @@
+{
+ "id": "web-wc2-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wc2_census_and_lattices.py W2 to W4, exact: (0,0,0,0,0,1,1,1) is not in E8 and twice it, H, is; H is orthogonal to a d5 (40 roots) and 6 further roots, and pairs +3 with 16 roots and -1 with 48. In A4 the least k = x.x/2 with a coordinate of size N is N(N+1)/2 for N = 1 to 4, and the non-zero vectors with k <= 12 number 1350 (930 to k = 10, 1170 to k = 11); the band 6 < k <= 12 holds 1020, the lane's figure, so the lane's sentence counted a band (as agy-exp then said, harvest row 1719). L minus R is 5 on L^6 R L R and 4 on L^5 R L^2 R^2. For dP9, a curve 5 S + 6 F has C^2 = 35, C.K = -5, genus 16 and 40 branch points over the section. 248 = 24 + 24 + 4 * 50; 1 + 1 + 3 and 1 + 2 + 2 are 0 mod 5",
+ "note": "Not recomputed: the 240 roots found in dP9's complement by closing under reflections, the nine pairs, and the grading of E8 by the node of mark 5 into 40 + four fifties (the dimension count is checked; the weights are the seat's).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:20",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:21",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:22",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:23",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:91",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:92",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:93",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:94",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:95",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:96",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:97",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:98",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:99",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:101",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:109"
+ ]
+}

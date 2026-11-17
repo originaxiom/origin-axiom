@@ -1,0 +1,14 @@
+{
+ "id": "web-wz1-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wz1_other_discriminants.py (main: the lattice sum integrated over one period of the geodesic, each point reduced to the fundamental domain, two cut-offs with the tail removed): Hecke's period along the act's geodesic (discriminant 5) is 5^(s/2) Gamma(s/2)^2/Gamma(s) zeta(s) L(s, chi_5)/zeta(2s), with the constant 1: at s = 2 to 4.7e-9 and at s = 3 to 1.8e-14 (B1955's earlier check: 1.5e-6 at s = 2). The volume identity 6 L(pi/3) = 12 * 3^(3/2) zeta_K(2)/(4 pi^2) to 3.9e-31 (B1955's wz1_checks.py)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:22",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:24",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:44",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:89",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:91"
+ ]
+}

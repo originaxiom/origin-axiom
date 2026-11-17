@@ -189,3 +189,27 @@ def test_the_twisted_triplets_transport_law_under_tau_plus_one():
         pred = (ph * old[0], ph * mp.exp(2j * mp.pi * eps * da) * old[2], -ph * mp.exp(-2j * mp.pi * eps * da) * old[1])
         assert max(abs(x / y - 1) for x, y in zip(new, pred)) < 1e-30
         assert abs(new[1] / (ph * mp.exp(-2j * mp.pi * eps * da) * old[2]) - 1) > 0.1                                    # the other representative's phase does not fit
+
+
+def test_heckes_period_at_discriminant_twelve_carries_the_half_and_the_full_dedekind_zeta():
+    import web_wz1_other_discriminants as Z, mpmath as mp
+    s = 3; I, ell, tu = Z.period((1, 2, -2), 12, s, nodes=64, N=(150, 300)); full = float(mp.mpf(12) ** (mp.mpf(s) / 2) * mp.gamma(mp.mpf(s) / 2) ** 2 / mp.gamma(s) * mp.zeta(s) * Z.Lf(s, 12))
+    assert tu == (4, 1) and abs(I / full - 1) < 1e-8 and abs(I / (2 * full) - 1) > 0.4                                 # with the half; without it, off by one half
+
+
+def test_the_cusp_degree_assignment_closes_only_at_higgs_charge_zero():
+    import web_posthoc_closure as C
+    for sec, (q1, q2, cons) in C.SEC.items():
+        r = C.closing(q1, q2); hits = {m: [qh for d, qh in r[m] if d == [2, 2, 1]] for m in r}
+        assert all(cons not in hits[m] for m in hits) and (hits["M1"] == hits["M2"] == ([] if sec == "up" else [0]))
+
+
+def test_frame_d1_at_the_pole_is_frame_c_at_shifted_charges_and_off_it_a_non_periodic_scalar_times_it():
+    import web_wb2_d1 as D
+    from fractions import Fraction as Fr
+    t = D.mp.mpc("0.13", "1.7"); a, b = Fr(2, 5), Fr(4, 5); ql, qr, qh = D.SEC["up"]
+    Yd = D.d1(t, a, b, "up", 2); Yc = D.W.coupling("0.13", 1.7, a, b, ql - qh, qr - qh, True)["S"]; Yw = D.W.coupling("0.13", 1.7, a, b, ql, qr, True)["S"]
+    assert D.W.upto(Yd, Yc) < 1e-12 and D.W.upto(Yd, Yw) > 1e-3                                                        # frame C at q' = q - q_H, and not frame C at q
+    h = 2 * qh * (D.f2m(a) * t + D.f2m(b)); x, y = D.chars(ql, a, b), D.chars(qr, a, b); xp, yp = D.chars(ql - qh, a, b), D.chars(qr - qh, a, b)
+    lg = [(D.mp.im(u), D.mp.log(abs(D.malt(x, y, h, u - h, t)[0, 0] / D.B.bil_mp(xp, yp, u, t)[0][0]))) for u in (D.mp.mpc("0.21", "0.13"), D.mp.mpc("-0.17", "0.31"))]
+    assert abs((lg[1][1] - lg[0][1]) / (lg[1][0] - lg[0][0]) + 2 * D.mp.pi * 2 * qh * D.f2m(a)) < 1e-20                # k = -2 pi c q_H a

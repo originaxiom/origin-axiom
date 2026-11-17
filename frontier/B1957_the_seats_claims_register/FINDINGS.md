@@ -175,6 +175,27 @@ noted, and none is pending.
   B1955's one-line claim now say the top wedge's invariance is generic and conditional); its correction of its own
   relabelling sign and its lepton by-product are recomputed on main (`checks/web_review.py`, R5). It does not write
   HARVEST COMPLETE.
+- **The web seat's owed computations, taken in its order** (2026-11-18):
+  - **Frame D1 with the Higgs's twist in the Szegő factor (W-B2, stages 3 and 4), rebuilt on main's own functions**
+    (`checks/web_wb2_d1.py`). Frame C's bilinear is v_x·v_yᵀ/θ₁ (1e-33). At its pole D1's coupling is frame C's at the
+    charges q − c·q_H/2 times one scalar, for every c: three lines by hand and 5e-16 by number. Off the pole it is
+    frame C at those charges times a scalar of modulus e^(k·Im u), k = −2π·c·q_H·a (−15.08 for up at the mark). With
+    the bundle's metric the two are equal at every point; a flat norm over a cell depends on where the cell is cut.
+    **So D1 is frame C at shifted charges, with the norms too, and adds nothing beyond it.** B1947's twisted triplet
+    still fails on the corrected placement.
+  - **Hecke's period at discriminants 12 and 40 (W-Z1)** (`checks/web_wz1_other_discriminants.py`): one half of the
+    full Dedekind zeta at 12; at 40 the partial zeta of one class, ½(ζ·L(χ₄₀) ± L(χ₅)·L(χ₈)), with the sign by class
+    (2e-14 at s = 3). Discriminant 40 is the right control, as the seat's correction says.
+  - **The result that stood only in an output** (`checks/web_posthoc_closure.py`): the degrees (2, 2, 1) close for
+    down and leptons only with the Higgs's charge set to 0; with the charge that conserves 6Y they close nowhere.
+  - **W-L1** is noted and not recomputed: it compares with data, and its second computation is the SM seat's re-run.
+- **Six of the web seat's eight earlier notes, never read before, are read in full and settled** (they are added to
+  the register's window): W-F24 and W-F25 (the height law, the measure's height shares, and the cusp exponents, which
+  are B1945's cell by cell; `checks/web_wf24_wf25.py`), W-C2 (agy-exp's four theorems: the census's 228 and 124
+  classes and least volumes by SnapPy, the E8 and A4 counts; `checks/web_wc2_census_and_lattices.py`), W-C3 (the SM
+  seat's items under banked arcs: its figures are main's, and its one correction to B1675 is on the page), W-C4 (the
+  agy lane's Theorem C; `checks/web_wc4_theorem_c.py`). Two are still to read: P-783 and the content in weave form,
+  with W-F17.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

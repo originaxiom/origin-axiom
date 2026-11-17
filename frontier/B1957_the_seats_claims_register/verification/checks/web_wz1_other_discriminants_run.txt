@@ -1,0 +1,10 @@
+s = 2, D = 5, form [1, 1, -1] (length 1.924847): integral 11.61671190; 2 * 5^(s/2) C zeta L(chi_5) = 11.61671196; relative difference 4.7e-09
+s = 2, D = 12, form [1, 2, -2] (length 2.633916, unit (4 + 1 sqrt 12)/2): integral 18.74638823; 12^(s/2) C zeta L(chi_12) = 18.74638831, relative difference 4.3e-09; against twice that (no half): 5.0e-01
+s = 2, D = 12, form [3, 0, -1] (length 2.633916, unit (4 + 1 sqrt 12)/2): integral 18.74638823; 12^(s/2) C zeta L(chi_12) = 18.74638831, relative difference 4.3e-09; against twice that (no half): 5.0e-01
+s = 2, D = 40, form [1, 6, -1], principal (length 7.273786): integral 96.51750535; 40^(s/2) C (zeta L(chi_40) + L(chi_5) L(chi_8)) = 96.51750564, relative difference 3.1e-09; with the other sign: 1.0e+00; against the full Dedekind zeta alone: 3.4e-01
+s = 2, D = 40, form [2, 4, -3], the other class (length 7.273786): integral 47.23197063; 40^(s/2) C (zeta L(chi_40) - L(chi_5) L(chi_8)) = 47.23197085, relative difference 4.5e-09; with the other sign: 5.1e-01; against the full Dedekind zeta alone: 3.4e-01
+s = 3, D = 5, form [1, 1, -1] (length 1.924847): integral 9.02291801; 2 * 5^(s/2) C zeta L(chi_5) = 9.02291801; relative difference 1.8e-14
+s = 3, D = 12, form [1, 2, -2] (length 2.633916, unit (4 + 1 sqrt 12)/2): integral 19.42716960; 12^(s/2) C zeta L(chi_12) = 19.42716960, relative difference 1.4e-14; against twice that (no half): 5.0e-01
+s = 3, D = 12, form [3, 0, -1] (length 2.633916, unit (4 + 1 sqrt 12)/2): integral 19.42716960; 12^(s/2) C zeta L(chi_12) = 19.42716960, relative difference 1.3e-14; against twice that (no half): 5.0e-01
+s = 3, D = 40, form [1, 6, -1], principal (length 7.273786): integral 204.95472697; 40^(s/2) C (zeta L(chi_40) + L(chi_5) L(chi_8)) = 204.95472697, relative difference 2.6e-14; with the other sign: 3.9e+00; against the full Dedekind zeta alone: 6.6e-01
+s = 3, D = 40, form [2, 4, -3], the other class (length 7.273786): integral 42.17702508; 40^(s/2) C (zeta L(chi_40) - L(chi_5) L(chi_8)) = 42.17702508, relative difference 2.3e-14; with the other sign: 7.9e-01; against the full Dedekind zeta alone: 6.6e-01

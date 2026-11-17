@@ -1,0 +1,13 @@
+D1 (U0): main's bilinear against v_x v_y^T / theta_1 at six points u: largest relative difference 1.24e-33
+D2 (E): the residue-level coupling of D1 against frame C at q' = q - c q_H/2, up to one scalar: 3 sectors, 4 points, c = 2, -2, 1, -1: largest relative difference 4.7e-16
+D2 (off the pole, c = +2): M_alt(h)(u - h) is frame C's bilinear at q' times one scalar on all four entries (to 1.33e-31); the scalar's modulus is exp(k Im u) with k = -2 pi c q_H a: largest |k - prediction| 3.8e-31; k for up at the mark -15.080 (the seat: about -15)
+D3 c = +2: sigma_2/sigma_1 moves by at most: T 7.8e-16; T reduced 1.0e-15; S 2.1e-15; S reduced 2.1e-15; w + 1 7.8e-16; w + tau 1.4e-15
+D3 c = -2: sigma_2/sigma_1 moves by at most: T 1.3e-15; T reduced 1.3e-15; S 1.1e-15; S reduced 1.6e-15; w + 1 6.7e-16; w + tau 1.1e-15
+D3 c = +1: sigma_2/sigma_1 moves by at most: T 1.1e-15; T reduced 3.1e-01; S 2.0e-15; S reduced 5.4e-01; w + 1 5.4e-01; w + tau 2.4e+00
+D3 c = -1: sigma_2/sigma_1 moves by at most: T 1.1e-15; T reduced 3.1e-01; S 8.9e-16; S reduced 5.4e-01; w + 1 5.4e-01; w + tau 2.4e+00
+D4 up, c = +2, the mark: with the metric exp(4 pi Im h Im z/Im tau), |D1|^2/|frame C at q'|^2 is one constant at five points, one of them a lattice translate (to 8.54e-32); without it, |D1|^2 changes under z -> z + tau by a factor 9.79509e-21 where frame C's changes by 180.98
+D4 down, c = +2, the mark: with the metric exp(4 pi Im h Im z/Im tau), |D1|^2/|frame C at q'|^2 is one constant at five points, one of them a lattice translate (to 2.99e-32); without it, |D1|^2 changes under z -> z + tau by a factor 2.08536e+21 where frame C's changes by 0.112865
+D4 lepton, c = +2, the mark: with the metric exp(4 pi Im h Im z/Im tau), |D1|^2/|frame C at q'|^2 is one constant at five points, one of them a lattice translate (to 2.29e-32); without it, |D1|^2 changes under z -> z + tau by a factor 2.08536e+21 where frame C's changes by 0.112865
+D5 (R): reading S at h against reading S~ at -h: least distance up to a scalar 0.703; least relative difference of sigma_2/sigma_1 8.4e-02
+D6 the card's twist (q_H a, 2 q_H b) on the corrected placement: |d ln sigma_2/sigma_1| under tau -> tau + 1 over 3 sectors and 4 points: 9 of 12 change, by 0.09 to 1.50 (the point with a = 0 does not change: True)
+D6 the amended twist (q_H a, q_H b) on the corrected placement: |d ln sigma_2/sigma_1| under tau -> tau + 1 over 3 sectors and 4 points: 9 of 12 change, by 0.01 to 0.83 (the point with a = 0 does not change: True)

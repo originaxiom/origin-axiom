@@ -1,0 +1,10 @@
+{
+ "id": "web-wc3-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "its one correction to main's page, taken: B1675's FINDINGS now says that every one of the 758 states keeps a class in the first block, 718 a line and 40 all three (lines 40 to 42), as main's own run file had it (line 14) and as the seat's argument requires (a rotation of three-space fixes its axis)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:177"
+ ]
+}

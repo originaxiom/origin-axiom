@@ -1,0 +1,12 @@
+{
+ "id": "web-wc4-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the consequence, which is one line of algebra: any representation taken three times has multiplicity three, so over a quadratic field 'degree 2, hence never 3' does not hold as an implication. It scopes B298's and B1161's sentence and leaves B298's seven computed routes untouched; and, as the seat says, none of it is evidence that m004 yields three generations",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:32",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:38",
+  "web:CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E:41"
+ ]
+}

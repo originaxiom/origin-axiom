@@ -1,0 +1,4 @@
+C1: I, x, y, xy span a space of dimension 4 of the 2 x 2 matrices; tr(xy) = 5/2 - sqrt(3)*I/2, imaginary part -sqrt(3)/2
+C2: commutant dimensions: V + V + V: 9; V + V: 4; V + conj V: 2; (chi + conj chi) three times: 18
+C3: SL(2, F_2) has 6 elements, abelian: False; the orbit of (1, 0) has 3 elements: all the non-zero classes
+C4: x^2 + x + 1 = (x - 1)^2 mod 3, so 3 ramifies and the residue field is F_3; SL(2, F_3): order 24, 7 classes, commutator subgroup of order 8 (so 3 characters of degree 1); lists of degrees with that many classes and squares summing to the order: [(1, 1, 1, 2, 2, 2, 3)]

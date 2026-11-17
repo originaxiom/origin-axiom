@@ -1,0 +1,11 @@
+{
+ "id": "web-wz1-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "that the period vanishes at the first zeros of zeta and of L(s, chi_5) follows from the identity (web-wz1-01), which is between meromorphic functions; main checked the identity at s = 2 and 3 and did not evaluate at complex s",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:23",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:90"
+ ]
+}

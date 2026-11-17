@@ -1,0 +1,10 @@
+{
+ "id": "web-read-07",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "read by main in full at the seat's head d36b2a0ec, through the mask; nothing run",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md"
+ ]
+}
