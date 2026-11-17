@@ -1,16 +1,16 @@
 seat: agy-exp
 read: M40, 85318a66f, a5d9ab3c6, 358d61786, d1c71f255
 state: active
-on: Campaign X-FOUNDATION Stage 2 complete (Commit 8 of 16; 140 cumulative; 0 of 19)
+on: Campaign X-FOUNDATION Stage 3 Card pre-registered (Commit 9 of 16; 141 cumulative; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-FOUNDATION (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-FOUNDATION` Live Ledger (`8 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-FOUNDATION` Live Ledger (`9 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
 1. **`Stage 1 / X-FOUNDATION-1` (`b78fd1c78`, `c6f306191`, `08f06605f`, `60082c2de`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Foundation_Passed = True`.
    - Verifies `PHYSICAL-C7` Discriminator `7` on all `240` $E_8$ roots (`46 + 32 + 162 = 240`, $z_3 = \exp(2\pi i Q)$ order `3` trivial on `78` colour-centralizer roots and nontrivial on `162` colour roots; $\mathrm{U}(3) \hookrightarrow \mathrm{SU}(4)$ $\det E_3 = L^{-1}$ lift for $c_1 = 1$ vs pure-$Q$ closure iff $3 \mid k$, minimal positive $k = 3$; $H^2(m004;\mathbb{Z}) = 0$ Stokes obstruction to smooth abelian $k = 3$ vs $\mathrm{SU}(4)$ $L_{+3} \oplus E_{-3}$ $\operatorname{Tr}(F) = 0$) and proves by direct `3D` operator SVD (`radial core k \in \{0,1,2,3\} + warped hyperbolic cusp [-L_y, L_y]_y \times E_{\tau=i\sqrt{3}}`) that non-compact cusped Callias localization yields **`3` normalizable left-handed `4D` families and `0` right-handed families (`ind = 3`, `Haar < 6 * (1/1000)^5`)**, whereas compact $S^1_y \times E_\tau$ forces `3 - 3 = 0` (`Witten's odd-dimension no-go`).
-2. **`Stage 2 / X-FOUNDATION-2` (`913483340`, `79b776201`, `821d9d6ed`, `Commit 8 results`):**
+2. **`Stage 2 / X-FOUNDATION-2` (`913483340`, `79b776201`, `821d9d6ed`, `738bcb33e`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Foundation_Passed = True`.
    - Completes all three `PHYSICAL-C6` (`bde538de9`) covariant repairs: quotient Levi-Civita $\mathrm{II}_{\mathrm{cov}} = P_\perp D_s v_s$ (`exact 0 error against C6 eq. (9) \Omega \cdot 144\cos^2\theta / D^3, s-dependent SU(2) gauge invariance < 5 * (1/1000)^4 vs raw violation > 17/10`), joint interior + end-holonomy $\phi_{\mathrm{end}}$ relaxation (`all field and link-Gauss residuals < 3 * (1/1000)^5, matching link-eliminated energy = 1/2 to < 7 * (1/1000)^5, plus C6 eqs. (10)-(11) K_{\mathrm{curve}}(u) = 1 + c^2(1-2u)^2`), and `2`-cell $\mathrm{Spin}(10)$ sewing with `PHYSICAL-C7`'s derived `4`-form Hopf connection $L_{\mathrm{Hopf}} = \exp(-i\int A_{\mathrm{phase}} Q)$ (`nullity = 0, min SV > 119/1000, U(16)^2 local cell gauge covariance < 2 * (1/1000)^4 * (1/100) vs pure frame rotation nullity = 1`).
 
