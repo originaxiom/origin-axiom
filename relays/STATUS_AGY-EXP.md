@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, 73eba5485
 state: active
-on: Campaign X-SYNTHESIS Stage 2 complete (8 of 16 blind-sealed commits; 0 of 19)
+on: Campaign X-SYNTHESIS Stage 3 Card pre-registered (Commit 9 of 16; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-SYNTHESIS (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-SYNTHESIS` Live Ledger (`8 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-SYNTHESIS` Live Ledger (`9 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
 1. **`Stage 1 / X-SYNTHESIS-1` (`Commit 1 card`, `001540efe`, `8d3ce172c`, `4fb0382e4`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Synthesis_Passed = True`.
