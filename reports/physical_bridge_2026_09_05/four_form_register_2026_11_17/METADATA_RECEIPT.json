@@ -1,16 +1,17 @@
 {
   "date_utc": "2026-11-17T10:46:59.781950+00:00",
   "checks": [
-    "Thirteen local source files match the scope commit Git blobs",
+    "Sixteen local source files match their pinned Git blobs",
     "Source SHA-256 custody recorded",
     "Remote branch heads recorded after authorized fetch",
     "Inherited staged binary diff preserved"
   ],
-  "source_pins_matching": 13,
+  "source_pins_matching": 16,
   "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
   "scientific_execution_count": 0,
   "scientific_import_count": 0,
   "scientific_collection_count": 0,
   "independent_mathematical_acceptance": false,
-  "foundational_inputs_counted_removed": 0
+  "foundational_inputs_counted_removed": 0,
+  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26"
 }

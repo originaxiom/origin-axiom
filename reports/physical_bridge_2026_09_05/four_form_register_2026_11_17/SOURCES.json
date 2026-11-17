@@ -80,6 +80,24 @@
       "path": "reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS.md",
       "sha256": "8992acb3989f58c10d641ff413a831d10c2dbfed7b27c4371952af718d274540",
       "git_blob": "10ba91902fe02e5ebf34dbd646a43a5e8ef82f23"
+    },
+    {
+      "commit": "76c167a31e282108c4de2edd9c771692b9171e26",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/UNITARY_FAMILY_REGISTER_AND_PHYSICAL_END_PRICE_2026_11_08.md",
+      "sha256": "6846705a340a8a2ed22c9fc25555e484cdf2c703867648bc09f486f60212eee7",
+      "git_blob": "baa8acc1ec3cade91fcae3eea22ce084b0162f9f"
+    },
+    {
+      "commit": "76c167a31e282108c4de2edd9c771692b9171e26",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/HODGE_GEOMETRY_REDUCTION_AND_FIBRE_MAP.md",
+      "sha256": "bac5a56ab1ab4f12f6cb79eee30b75ffb30907fedc9f3c12e852491df3d716f4",
+      "git_blob": "ec4e68e9dafea836cfd6e084e6e0d503fef60aae"
+    },
+    {
+      "commit": "76c167a31e282108c4de2edd9c771692b9171e26",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
+      "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae",
+      "git_blob": "d7a4d04104960b5e6480bb21f712514a114d22af"
     }
   ],
   "branch_heads": {
@@ -147,7 +165,10 @@
     "E6_colour_and_centre": "sections 1-3 personally read; remaining Wilson/source sections reused under their prior reading scope",
     "parent_action": "fields, metric, moment and residual conventions read personally; no fresh full superspace convention certification",
     "Feshbach_and_scale_notes": "reused exact hypotheses and normalization discriminator; no old producer imported or rerun",
-    "C5_C6_hand_proofs": "author source continuation with independent review duties retained"
+    "C5_C6_hand_proofs": "author source continuation with independent review duties retained",
+    "native_unitary_register": "Relevant sections 2-4 personally reread, with the explicit based SU2 pair and its covariance/measure distinction retained. No new theorem of generic freeness is used.",
+    "Hodge_and_Wilson_recovery": "Hodge note through its metric/scale controls and Wilson note through section 4 personally reread. The old moving-family period norm is credited as reuse."
   },
-  "evidence_status": "author hand derivation pending independent review; source custody does not certify mathematics"
+  "evidence_status": "author hand derivation pending independent review; source custody does not certify mathematics",
+  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26"
 }

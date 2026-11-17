@@ -34,6 +34,9 @@ The files are
   moment solve, full gauge response and bounded operator perturbation.
 - FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md for the centre constraint,
   compatible U3 lifts, physical end-map duty and normalization test.
+- BASED_REGISTER_AND_RELATIONAL_REFERENCE.md for the explicit native
+  pair-map test, its reference-phase repair, global obstruction and
+  the source action required by a dynamical register.
 - REVIEW_AND_DISCRIMINATORS.md for the required independent checks.
 - SOURCES.json and METADATA_RECEIPT.json for exact source custody,
   reading coverage, scoped prior-work search and metadata-only checks.
@@ -50,3 +53,12 @@ map from the based register and physical end cycle into this family.
 Its actual path, transport, normal equations and induced fermion
 operator must be earned together. The C7 connection gives that task
 an explicit target and an exact primitive class to test.
+
+The continuation at scope 76c167a31 tests the tempting identification
+of the two coefficient spheres with the native SU2 generator pair.
+It fails to descend through the physical Q quotient because the
+native commutator trace varies on that gauge orbit. Retaining a
+charged reference gives an explicit relational pair map in declared
+frames. Its global bundle, positive kinetic response, actual spin-mode
+interaction and native shear covariance remain earning duties. This
+preserves the registering relation instead of silently forgetting it.

@@ -65,3 +65,14 @@ The last duty supplies the central transfer test. A primitive class
 of a parameter family and a physical end unit require a map that acts
 on the actual fields, measuring data and domains. Their matching
 integer labels alone cannot discharge that dependency.
+
+The continuation BASED_REGISTER_AND_RELATIONAL_REFERENCE.md adds four
+specific hand checks. Verify the whole right-torus gauge orbit of the
+quaternion pair and its changing fibre commutator trace. Verify the
+relational reconstruction with the reference transformed, and reject
+an untransformed reference. Check its global obstruction using the
+primitive Chern class and its combined kinetic Gauss response. Finally
+test the actual cubic R_c S and P_c T constraints and the unipotent
+Nielsen derivative at the trivial pair. These checks apply to the
+declared coefficient-to-group frames. They do not classify every
+possible register map or every allowed geometric family.
