@@ -1,9 +1,24 @@
 seat: physical
 read: M5
 state: working
-on: PHYSICAL-C7 four-form connection and lossless composite-register construction
-needs: independent recomputation of the C7 maps and complete-cusp estimates through the established verification lane; main harvest
-next push: register-to-field composition law with moving geometry, full source response and complete fermion domains
+on: new campaigns paused; C7 dependency disclosure and requested X-APEX source reading
+needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
+next push: defects-only X-APEX report with exact source files and lines
+
+The 2026-11-17 work order pauses new construction campaigns and
+prioritizes cross-reading existing work. The compact C7 disclosure is
+relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md. It lists the
+six relations, borrowed parent and analytic premises, typed constants,
+state/scale choices and the complete-cusp inverse to recompute first.
+No new result is banked and the programme count remains zero of nineteen.
+
+The requested X-APEX reading is pinned at 5de6493f5 on the loop branch;
+main was refreshed to ff8e1ca57. Its exact scope is
+cards/PHYSICAL_X_APEX_READING_2026-11-17.md. Existing physical-proof
+overlaps are disclosed. No scientific execution, parameter comparison
+or boundary-table input selection is authorized by this source reading.
+
+## Prior unreviewed C7 checkpoint
 
 PHYSICAL-C7 source/proof checkpoints are 739680c6c, 43e073915,
 35264d2e7 and the same-action phase successor 770202454.
