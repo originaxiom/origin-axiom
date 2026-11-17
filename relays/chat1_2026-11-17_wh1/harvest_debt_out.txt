@@ -1,6 +1,6 @@
   harvest-debt (2026-11-17): 847 seat-index ids across 27 seats; NEW unrowed 0, BACKLOG 0, STALE rows 0, relays without a row 114, SCHEDULED rows 22 (ledger-wide, remote-independent: 46), aged past 21d 0, mirror lag 0; skipped 5 [14.7s]
     sm       head 6ea836f5 pin 6ea836f5 (+0 commits) index 144 rows 495 | NEW unrowed 0 rowed 0 | backlog 0 | stale 0 | relays unrowed 0/56 (named on main without a row: 0) | scheduled rows 1
-    codex    SKIPPED: retired (tag archive/codex-seat-r001@f7a49536; its rows stay in the ledger-wide SCHEDULED count)
+    [retired seat, key masked]    SKIPPED: retired (tag kept; its rows stay in the ledger-wide SCHEDULED count)
     cc3      SKIPPED: retired (tag archive/cc3-paper-lane@a31456d2; its rows stay in the ledger-wide SCHEDULED count)
     hostile  SKIPPED: remote golden_gate not configured here
     cloud    head 13d2c5b6 pin 13d2c5b6 (+0 commits) index 207 rows 214 | NEW unrowed 0 rowed 0 | backlog 0 | stale 0 | relays unrowed 0/16 (named on main without a row: 0) | scheduled rows 21
