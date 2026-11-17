@@ -1,8 +1,8 @@
 seat: chat1
 read: M42 (the harvest is redone statement by statement in B1957's register; this seat is asked for three lists under HARVEST REVIEW FOR MAIN, and the line HARVEST COMPLETE only when nothing is left; no new campaign, no comparison with data)
-state: HARVEST REVIEW FOR MAIN written (below); not complete: 828 of this seat's 955 statements are pending, and lists 1 to 3 are not empty
+state: HARVEST REVIEW FOR MAIN written (below; its referee read's corrections applied); not complete: 828 of this seat's 955 statements are pending, and lists 1 to 3 are not empty
 on: the harvest review (M42). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to settle this seat's pending statements and to take the corrections in § 3 of the review below; main to weigh W-H1's four asks (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to recompute W-A3 and to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+needs: main to settle this seat's pending statements and to take the corrections in § 3 of the review below; main to weigh W-H1's four asks (relay-ledger rows, a row for the harmonic-transport relay, the review lanes, the hostile seat); main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -21,38 +21,55 @@ their text at 401c9bd7e. Main may record the affected units as superseded by thi
 ### 1. What the register does not cover
 
 **1a. Results computed only by a referee read, whose code was not kept.** This seat's files hold no script for them.
-Those main has since recomputed are marked; the others are owed, or should be typed "computed once, no file".
+"Covered" marks those main has since recomputed on its own code. The others are owed, or should be typed "computed
+once, no file".
 - **W-A1** (`relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md`):
-  - line 116: frame C is covariant under the mirror τ ↦ −τ̄, (a, b) ↦ (a, −b), at most 2.3e-14 at three τ and four
-    lines. The two crossings' agreement rests on it. This seat finds no recomputation on main.
+  - line 116: frame C is covariant under the mirror τ ↦ −τ̄, (a, b) ↦ (a, −b). The two crossings' agreement rests on
+    it. **Covered**: B1957's `checks/web_wa1_rest.py`, item 4 (3.3e-16 at three τ and four lines; record web-wa1-02).
+  - lines 50 to 53: the Frobenius–Schur indicators, SU(3)³, and the doublet count. **Covered**: the same script, items
+    2 and 3 (record web-wa1-01).
+  - line 167: the triplet's S-law, and a₃(i) = 0 at 40 digits. **Covered**: the same script, item 6 (record
+    web-wa1-02).
   - line 119: the figure 0.76. Withdrawn (§ 3.2).
-  - lines 50 to 53: the Frobenius–Schur indicators, SU(3)³, and the global SU(2) anomaly. The physical lane checked the
-    anomaly counts by hand (B1954); the indicators are not checked on main.
-  - line 167: the triplet's S-law to 6e-42, a₃(i) = 0 at 40 digits. **Covered**: S̃ = S at i on main's code (row 1846).
 - **W-A2** (`relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md`):
-  - line 26: the identifications diag(1, 4) (the conjugate ρ), diag(1, 2) (the other class) and the swap (Z^a X^b).
-    **The diag(1, 2) case is covered** by B1955's `class_is_a_choice.py`; the other two are not.
-  - line 59: the flux-5 modes realise the non-residue class. **Covered**: now in this seat's committed W-A3 post hoc 1,
-    part D(F) (`relays/chat1_2026-11-17_wa3/wa3_posthoc_word_out.txt`, line 20).
+  - line 26: three identifications, diag(1, 4) (the conjugate ρ), diag(1, 2) (the other class), and the swap (Z^a X^b).
+    - **The T half of the first two is covered:** B1955's `class_is_a_choice.py`, item 2, computes ρ_c(T)'s shear for
+      c = 1 to 4.
+    - The S half and the swap are not on main.
+    - This seat's referee read has since confirmed all three, each unique up to a scalar, by pure algebra.
+  - line 59: the flux-5 modes realise the non-residue class.
+    - The T² coefficient is now in a committed script of this seat's own (W-A3 post hoc 1, part D(F):
+      `relays/chat1_2026-11-17_wa3/wa3_posthoc_word_out.txt`, line 20). That is not a recomputation by main.
+    - The S kernel ψ(−jk)/√5 is in no committed script.
 - **W-A3** (`relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md`):
+  - lines 74 to 75: |tr ρ_c(g)|² is the number of points of 𝔽₅² that g fixes. This came from the referee's correction
+    (3c50b6d63). **Covered**: `class_is_a_choice.py`, item 1 (row 1878).
+    - The note's typing at line 169 is wrong: `wa3_posthoc_wedge.py` computes the trace signature only, not this.
   - lines 76 to 77: one relabelling by ζ^(ab) removes both of B1953's down phases. This seat finds no recomputation on
     main.
-  - lines 100 to 106: the act through the cover gives 2x²/5. **Covered** by B1955's `class_is_a_choice.py`.
-- **W-B2's stage 4** (`relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md`, lines 130 to
-  155). None of it is recomputed on main, since row 1848 is not read:
+  - lines 100 to 106: the act through the cover gives 2x²/5. **Covered**: `class_is_a_choice.py`, item 2.
+- **W-B2's stage 3** (`relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md`). These entered the
+  window in 52bc4f053. Row 1842 checked E only, by hand reduction. Owed:
+  - lines 57 to 61: c = −2 is frame C transposed (3e-15), and at residue level the massive block of |V| differs from
+    frame C's by up to 0.84;
+  - lines 74 to 76: the leptons copy the down rows at order 5 (1.4e-14);
+  - lines 78 to 80: B1947's failure recomputed with the corrected kernel (0.58 to 7.3);
+  - lines 83 to 84: the off-pole scalar, with k about −15;
+  - line 94: c = +2 is new (up to 2.4 from frame C in σ₂/σ₁).
+- **W-B2's stage 4** (the same note, lines 130 to 155). None of it is recomputed on main, since row 1848 is not read:
   - the cell's cut moves the differences (0.009 to 3.3);
   - D1 is not periodic under w ↦ w + τ (σ₂/σ₁ moves by 0.004 to 0.040, σ₃/σ₁ by up to 0.57);
   - E reaches the norms under the flat unitary metric, to 3e-8.
-- **W-L1** (`relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md`, line 47): the calibration figure for one
-  row, about 8 %.
+- **W-L1** (`relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md`, line 47): the calibration of one row.
 - **W-Z1** (`relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md`, lines 76 to 82): Hecke's period at
   discriminants 12 and 40. Not recomputed: B1955 takes G3 as a standing check.
 
-**1b. Results in committed outputs and in no note.**
+**1b. A result in a committed output and in no note.**
 - `relays/chat1_2026-11-17_wa3/wa3_posthoc_word_out.txt`, lines 29 to 32: under the card's cusp-degree reading, main's
-  assignment (2, 2, 1) closes for down and for leptons in both models. The note gives only up. It is a by-product and
-  bears on nothing now.
-- The measure behind W-A1's H2 is stated only in `relays/chat1_2026-11-15_wa1/wa1_tau_i_posthoc1.py`, line 7: the
+  assignment (2, 2, 1) closes for down and for leptons in both models. The note gives only up. It is a by-product, and
+  it bears on nothing now.
+- A definition, not a result: the measure behind W-A1's H2 is given only in
+  `relays/chat1_2026-11-15_wa1/wa1_tau_i_posthoc1.py`, lines 7 to 10. It is defined under H1, and H2 inherits it: the
   ratios' largest relative deviation, and |V|'s absolute deviation (§ 3.2).
 
 **1c. After the window.** Three commits come after 401c9bd7e:
@@ -71,10 +88,16 @@ W-H1 is bookkeeping, and its four asks are main's. This review comes after them 
   from line 224, and `relays/chat1_2026-11-14_wf17/` (`wf17_posthoc2.py`).
 - **W-C4** (row 1740, "registered by file name, not read"): `relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md`,
   `relays/chat1_2026-11-12_wc4/`. Its Theorem C is the one main verified on its own code (M15).
-- **Older:**
-  - rows 11 and 19 (the relay of 2026-09-08, § 0 and § 5);
-  - row 530 (`docs/handoffs/chat1_i26_decision_table_2026-09-15/`);
-  - row 899 (`relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md`: read, nothing re-run).
+- **The W-C2 and W-C3 notes and their outputs** (row 1708, "not yet"):
+  - `relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md`;
+  - `relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md`;
+  - `relays/chat1_2026-11-11_wc2/` and `relays/chat1_2026-11-11_wc3/`.
+
+  Row 1719 reads agy-exp's answers on W-C2's two counts, not the notes.
+- **P-783, the golden state** (row 1713, "its head read", main's computation owed):
+  `relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md`, `relays/chat1_2026-11-11_p783/`.
+- **The content, asked in weave form** (row 1641, "headline only … to be read in full"):
+  `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md`.
 
 Summaries written for the author outside the repository are not seat results and are not offered for the harvest.
 
@@ -110,7 +133,8 @@ should repeat, its premises, and main's state.
    - **Main:** NEGATIVE as sealed and provisional. The SM seat's re-run is the computation owed.
 4. **The frame's lines carry no Weil class, and the object carries both** (W-A3 Parts 1.2 and 1.3; B1955 § 2).
    - **Computation:** |tr ρ_c(g)|² against the number of points of 𝔽₅² that g fixes, on all 120 g, for c = 1 and 2.
-     The discriminant form of V + Vᵀ, with V = [[−1, 1], [0, 1]], is in `wa3_posthoc_word.py`, part D(K).
+     This is main's `class_is_a_choice.py`, item 1; this seat has no script for it. The discriminant form of V + Vᵀ,
+     with V = [[−1, 1], [0, 1]], is in `wa3_posthoc_word.py`, part D(K).
    - **Premises:**
      - the lines move by the record's transport (B1724);
      - the act's class 2x²/5 rests on labelling the clocks by Poincaré duality under the fibre's intersection form
@@ -131,8 +155,9 @@ should repeat, its premises, and main's state.
    - **Premises:**
      - frame C as built (B1724, B1924, B1932, B1691);
      - B1927's end, with P-864's caution;
-     - the mirror covariance behind the crossings, which only the referee read computed (§ 1a).
-   - **Main:** S̃ = S at i confirmed (row 1846).
+     - the mirror covariance behind the crossings, now recomputed on main (§ 1a).
+   - **Main:** verified in B1957 (record web-wa1-02: I1 to I4, the plant, H1, H3, H4, G1 and the outputs at (i, mark)).
+     H2 is PARTIAL (web-wa1-03; § 3.2).
 7. **Frame D1, with only the Szegő zero moved, is frame C at shifted charges at residue level. At the norm level the
    answer depends on the metric** (W-B2, stages 3 and 4).
    - **Computation:** `relays/chat1_2026-11-15_wb2/wb2_stage4_posthoc1.py`: D1's σ₂/σ₁ with B1656's flat cell norms,
@@ -155,7 +180,8 @@ should repeat, its premises, and main's state.
    - **Computation:** `relays/chat1_2026-11-17_wz1/c1_hecke_period.py` at s = 1.7 + 3i and at the first zero,
      1/2 + 14.1347i. Main checked one real value, s = 2.
    - **Premises:** none from the record.
-   - **Main:** two identities checked, at one value each.
+   - **Main:** Hecke's period checked at one value. The congruence level is B794's, on record and not recomputed by
+     main. (Main's second checked identity, m004's volume, is outside this item.)
 10. **Readings with no computation:** the choices audit (W-A1 Part 2) and the view (W-V1). Each bin names its source.
 
 **Earlier results that main's picture leans on,** outside the register:
@@ -168,14 +194,19 @@ Each note names its computation.
 ### 3. Where main's record states this seat's work wrongly or too weakly
 
 **3.1. Row 1848, W-B2's stage 4: too weak, and half stated.**
-- The row records only that E reaches the norms under the flat unitary metric.
+- The row records that E reaches the norms under the flat unitary metric, and that the claim was narrowed to the flat
+  cell norm.
 - The addendum (lines 108 to 164 of the W-B2 note named in § 1a, which the row does not name) says three things:
   - With the flat norm over the cell about the moved pole, E fails by order one (σ₂/σ₁ by 0.54 and 0.70).
   - That construction depends on where the cell is cut, and it is not periodic in the Higgs's point.
   - With the flat unitary metric, E holds (3e-8, the referee read only), and D1 then adds nothing beyond frame C at q′.
 - The choice between the two is a fork, to be fixed before D1's mixing stage.
+- What the row lacks: that E fails by order one under the flat cell norm, that the result depends on where the cell is
+  cut, and the fork.
 
-**3.2. B1957's records web-wa1-03 and web-wa1-09. Main's PARTIAL is right: the two figures are this seat's fault.**
+**3.2. B1957's records web-wa1-03 and web-wa1-09.**
+- Main's PARTIAL is right for W-A1's lines 155 and 119. Those two figures are this seat's fault.
+- For lines 32 to 33 the count reproduces, over the list now named. The fault was not naming the list.
 - **"0.17 to 0.72"** (W-A1, line 155) mixes two measures. Here they are separately (`wa1_tau_i_posthoc1_out.txt`,
   lines 2 to 5):
   - the ratios' largest relative deviation: 0.165 to 0.701;
@@ -187,10 +218,12 @@ Each note names its computation.
   - The 32 are ρ(T) = diag(ψ(kx²)) and ρ(S) = cF_s, with k in 𝔽₅*, s = ±1 and c in {1, −1, i, −i} (`wa1_weil.py`,
     lines 6 to 7, and `find_reps`, lines 69 to 79).
   - The two that pass are (2, 1, −1) and (3, −1, −1) (`wa1_weil_out.txt`, line 1).
-  - Running `find_reps` reproduces the count.
+  - This seat's referee read recounted 2 of 32. Running `find_reps` over those 32 should let main type lines 32 to 33
+    VERIFIED.
 - **"In S* the crossings differ (0.76)"** (W-A1, line 119). The 0.76 is in no committed file of this seat; it came from
-  the referee read. **Withdrawn.** Main's figures stand in its place: 3.24 relative and 0.33 absolute in the ratios,
-  0.30 in |V|, each crossing read at its own τ.
+  the referee read. **Withdrawn.** Main's figures stand in its place (web-wa1-09):
+  - each crossing read at its own τ: 3.24 relative and 0.33 absolute in the ratios, and 0.30 in |V|;
+  - read at one τ with the transported point, the two crossings agree in S*.
 
 **3.3. The top wedge, stated without its caveat.**
 - Where: B1955 § 3, B1953's dated note, and the picture's § 1 (the couplings).
@@ -205,15 +238,18 @@ Each note names its computation.
   - the shifts are deck transformations over the double cover only;
   - the clocks are twists there only;
   - the act's unipotent part is not supplied.
-- It should carry them, and also that the Fock-space reading has no source in the cover.
+- § 1 should carry them, and also that the Fock-space reading has no source in the cover. The picture's § 5, item 3,
+  already says that nothing explains the exterior algebra once the cover replaces the flux.
 
-**3.5. "The recent results on ζ do not touch the object"** (B1955's W-Z1 section; the picture's § 4). This repeats
-this seat's own judgement in W-Z1, line 37, which was too strong.
-- The same note's G2 (lines 53 to 61) says:
-  - the quasi-RH preprints' field is m004's trace field;
-  - if the preprints are right, they bound the zeros that govern m004's cusp scattering.
-- **Corrected:** they touch the object only at m004's cusp, through ζ_K of ℚ(√−3), which nothing on record uses. They
-  give no leverage on any open item.
+**3.5. "The recent results on ζ do not touch the object"** (row 1867; B1955's W-Z1 section; the picture's § 4). This
+repeats this seat's own judgement in W-Z1, line 37, which was too strong.
+- **The 11/12 bound covers both places.** W-Z1, line 31, says the bound holds for every Dirichlet L-function, ζ and
+  L(s, χ₅) included. Those zeros are the zeros of Hecke's period along the act's geodesic (W-Z1, line 90).
+- **The two-thirds result** is also about ζ's zeros.
+- **So do the other claims.** G2 (lines 53 to 61) says the quasi-RH preprints' field is m004's trace field. If they are
+  right, they bound the zeros that govern m004's cusp scattering.
+- **Corrected:** if right, they bound zeros at both places G1 names, the act's geodesic and m004's cusp. Nothing on
+  record uses those zeros, and they give no leverage on any open item.
 
 **3.6. The flux bit as "a line bundle of degree 5 on the fibre"** (B1952's table and its open items). This repeats this
 seat's imprecision ("it needs no puncture", W-A2, lines 63 to 64).
@@ -223,8 +259,18 @@ seat's imprecision ("it needs no puncture", W-A2, lines 63 to 64).
 - It should read "on the filled fibre". B1955 replaces the flux by the cover, so this changes only how the replaced bit
   is stated.
 
-**3.7. Nothing else found.** The other rows (1845, 1846, 1847, 1852, 1866, 1867 and 1878) and B1951 to B1953 were read
+**3.7. Nothing else found.** The other rows (1845, 1846, 1847, 1852, 1866 and 1878) and B1951 to B1953 were read
 against the notes. Row 1866's first-version readings are corrected by row 1878 and by B1955.
+
+**3.8. One more of this seat's own typing errors.** W-A3's table line 169 types "End(W) is the same in both classes,
+and the down lines are its permutation form" as computed once by post hoc 2. Post hoc 2 computes only the trace
+signature. The other two were computed by the referee read and have since been recomputed on main (§ 1a).
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes. The read's corrections are applied in this version. Three claims of the first version were wrong:
+- § 1d listed rows 11, 19, 530 and 899 as not read, but main had read them. It missed rows 1641, 1708 and 1713.
+- § 1a missed main's B1957 recomputations of W-A1's referee-only results, and W-B2's stage 3 results.
+- § 3.5's correction was too narrow: the bound reaches the act's geodesic too.
 
 ### 4. HARVEST COMPLETE
 
