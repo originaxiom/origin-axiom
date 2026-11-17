@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g0-05",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the row's figures are in the sealed outputs, and each is one script against its own higher-precision copy, so they test the integration and not the equations. Read in the scripts' text against the primary source (Luo and Xiao, equations (6), (7), right-acting; the seat's scripts act on the left with H_u = Y_u Y_u^dagger, where the correct mixed term is -H_d H_u - (1/4) H_u H_d): the first script has -H_u H_d - (1/4) H_d H_u (lines 309-310 and 328-329 of verify_endgame_v2_g0_fixed.py; the same in the first scripts of gates 1 and 3), the exchanged order, while the second script has the right order (lines 1001-1003, 1026-1028 of referee_endgame_v2_g0.py). So at this gate the two computations integrated different equations and the benchmark, having no cross-script comparison on this row, did not see it. The seat's gate 4 repairs the first script and plants the exchanged order as a fault. Effect, on main's running: the mixing's two-loop slope, 7 in place of 11/2 on yt^2 yb^2; nothing where the Yukawa matrices commute (gate 3's benchmark is diagonal and main reproduces it). The Jacobi identity is one loop and is not touched",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:25"
+ ]
+}

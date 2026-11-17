@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g0-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the row's figures are in the sealed outputs (checks/figures.py). The benchmark compares a solver with the closed integral of a one-coupling flow, which tests the integrator and not the equations; main did not run the seat's solver. What stands in its place on main: main's own two-loop running reproduces the seat's B0.2 to 1e-12 (record agy002-g0-02)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:23"
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "ref": "origin/agy-002/closure",
+ "notes": [],
+ "manifests": [
+  {
+   "manifest": "relays/agy002_closure_g4/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g4/verify_closure_g4_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g4/verify_closure_g4.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_referee/referee_closure_g4_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_referee/referee_closure_g4.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_referee_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g4_referee_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g5/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g5/verify_closure_g5_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g5/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g5/verify_closure_g5.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g5_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g5_referee/referee_closure_g5_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g5_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g5_referee/referee_closure_g5.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g6/verify_closure_g6_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g6/verify_closure_g6.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g6_referee/referee_closure_g6_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g6_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g6_referee/referee_closure_g6.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g7/verify_closure_g7_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7/verify_closure_g7.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g7_referee/referee_closure_g7_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7_referee/referee_closure_g7.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7_referee_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7_referee_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b/verify_closure_g7b_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b/verify_closure_g7b.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b_referee/referee_closure_g7b.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b_referee_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b_referee_fixed/referee_closure_g7b.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b_referee_v2/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b_referee_v2/referee_closure_g7b_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_closure_g7b_referee_v2/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_closure_g7b_referee_v2/referee_closure_g7b.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0/verify_endgame_v2_g0.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1/verify_endgame_v2_g1.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py",
+   "match": true,
+   "found": true
+  }
+ ]
+}

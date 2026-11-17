@@ -1,0 +1,18 @@
+{
+ "id": "agy002-g4-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py, without running the seat's code: the nine commits named (card, first script, first output, the erratum and fixed script, fixed output, second script and output, its erratum and fixed output) are on the branch and in the order named; the scripts parse with no float and no complex literal; the 48 hash manifests under relays match. Read with it: the first fixed output's own flag for the gate is False (section 2, one double-precision bar), which the note discloses; record agy002-g4-04 settles that item",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:5",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:6",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:7",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:11",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:12",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:21"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/agy002_g5.py (B). Reproduced, basis-free, at the seat's modulus and representatives: with hypercharge and the single mode e_0 the down quark's top row lies outside the up quark's top row or top pair at 15 of the 24 points, and inside the up matrix's exactly degenerate top pair at 9; none is aligned; with the vector v_6(tau), 0 of 24 above 0.99: the second computation's statements. Not reproduced: the first computation's 4 aligned and 20 deranged, which is a singular-value routine's choice inside the degenerate pair (main's routine gives 8 and 16). Main adds three facts: with one Higgs mode every Yukawa matrix has one entry in each row and column, so the mixing matrix is a permutation and no angle is small; the up sector's Delta is 5, so at a point of order 5 its Wilson line is a half-lattice point and |Y_u| is the same at all 24 points up to that half-lattice class; and the count depends on the lift of the point: with a + 1 in place of a, 4 are aligned (with e_0 and with v_6 alike). So in this frame with hypercharge the mixing is deranged, the outcome B1946 and B1947 had on main",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:23"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "agy002-g5-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py, without running the seat's code: the five commits named are on the branch and in the order named; both scripts parse with no float and no complex literal and import nothing of the repository; all 48 hash manifests under relays on this branch match the files they name. As at every gate: the decimals are built as ratios of integers and the arithmetic is double precision; that the second script was written without reading the first is the seat's statement",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:5",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:6",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:7",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:11",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:20"
+ ]
+}

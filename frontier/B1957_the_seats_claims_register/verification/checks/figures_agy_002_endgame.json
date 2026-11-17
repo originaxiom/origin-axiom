@@ -1,0 +1,389 @@
+{
+ "ref": "origin/agy-002/endgame",
+ "notes": [
+  {
+   "note": "relays/AGY002_ENDGAME_V2_G0_RESULTS.md",
+   "outputs_read": [
+    "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+    "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json"
+   ],
+   "outputs_missing": [],
+   "lines": [
+    {
+     "line": 14,
+     "quoted": 5,
+     "found": 2,
+     "not_found": [
+      "0.25",
+      "1.75e6",
+      "0.25"
+     ],
+     "against": "the file the line names"
+    },
+    {
+     "line": 15,
+     "quoted": 8,
+     "found": 5,
+     "not_found": [
+      "0.25",
+      "0.25",
+      "0.25"
+     ],
+     "against": "the file the line names"
+    },
+    {
+     "line": 23,
+     "quoted": 5,
+     "found": 5,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 24,
+     "quoted": 6,
+     "found": 6,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 25,
+     "quoted": 6,
+     "found": 6,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 26,
+     "quoted": 3,
+     "found": 3,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 27,
+     "quoted": 6,
+     "found": 6,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 31,
+     "quoted": 2,
+     "found": 2,
+     "not_found": [],
+     "against": "all the note's output files"
+    }
+   ]
+  },
+  {
+   "note": "relays/AGY002_ENDGAME_V2_G1_RESULTS.md",
+   "outputs_read": [
+    "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+    "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json"
+   ],
+   "outputs_missing": [],
+   "lines": [
+    {
+     "line": 14,
+     "quoted": 10,
+     "found": 9,
+     "not_found": [
+      "0.5"
+     ],
+     "against": "the file the line names"
+    },
+    {
+     "line": 15,
+     "quoted": 5,
+     "found": 5,
+     "not_found": [],
+     "against": "the file the line names"
+    },
+    {
+     "line": 22,
+     "quoted": 3,
+     "found": 3,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 23,
+     "quoted": 9,
+     "found": 9,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 24,
+     "quoted": 5,
+     "found": 5,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 25,
+     "quoted": 6,
+     "found": 6,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 26,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 30,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 31,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    }
+   ]
+  },
+  {
+   "note": "relays/AGY002_ENDGAME_V2_G2_RESULTS.md",
+   "outputs_read": [
+    "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+    "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json"
+   ],
+   "outputs_missing": [],
+   "lines": [
+    {
+     "line": 13,
+     "quoted": 9,
+     "found": 9,
+     "not_found": [],
+     "against": "the file the line names"
+    },
+    {
+     "line": 14,
+     "quoted": 14,
+     "found": 12,
+     "not_found": [
+      "7e-5",
+      "7.65e9"
+     ],
+     "against": "the file the line names"
+    },
+    {
+     "line": 21,
+     "quoted": 8,
+     "found": 8,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 23,
+     "quoted": 6,
+     "found": 5,
+     "not_found": [
+      "2e-3"
+     ],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 24,
+     "quoted": 10,
+     "found": 10,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 28,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 30,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    }
+   ]
+  },
+  {
+   "note": "relays/AGY002_ENDGAME_V2_G3_RESULTS.md",
+   "outputs_read": [
+    "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+    "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json"
+   ],
+   "outputs_missing": [],
+   "lines": [
+    {
+     "line": 13,
+     "quoted": 8,
+     "found": 8,
+     "not_found": [],
+     "against": "the file the line names"
+    },
+    {
+     "line": 14,
+     "quoted": 10,
+     "found": 9,
+     "not_found": [
+      "7.4"
+     ],
+     "against": "the file the line names"
+    },
+    {
+     "line": 22,
+     "quoted": 7,
+     "found": 7,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 23,
+     "quoted": 4,
+     "found": 4,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 24,
+     "quoted": 5,
+     "found": 5,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 25,
+     "quoted": 8,
+     "found": 8,
+     "not_found": [],
+     "against": "all the note's output files"
+    },
+    {
+     "line": 30,
+     "quoted": 1,
+     "found": 1,
+     "not_found": [],
+     "against": "all the note's output files"
+    }
+   ]
+  }
+ ],
+ "manifests": [
+  {
+   "manifest": "relays/agy002_endgame_v2_g0/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0/verify_endgame_v2_g0.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g0_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1/verify_endgame_v2_g1.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_fixed/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_fixed/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g1_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g2_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3_referee/OUTPUT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3_out.json",
+   "match": true,
+   "found": true
+  },
+  {
+   "manifest": "relays/agy002_endgame_v2_g3_referee/SCRIPT_SHA256.txt",
+   "file": "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py",
+   "match": true,
+   "found": true
+  }
+ ]
+}

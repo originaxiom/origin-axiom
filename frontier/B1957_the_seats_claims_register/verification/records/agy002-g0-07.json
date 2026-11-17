@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g0-07",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "that singular values, the moduli of the mixing matrix and arg det(Y_u Y_d) do not change under changes of basis is linear algebra, and that the flow preserves it is checked on main's own two-loop matrix running (checks/sm_rge_matrix.py, V3: six random changes of basis in U(3)^5, 8.7e-15 after six e-folds; V4: the determinant's phase moves by 4e-16). The row's figures are in the sealed outputs. The seat's first script at this gate carried the exchanged mixed products (record agy002-g0-05); the exchanged form is also covariant, so this row does not detect it",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:27"
+ ]
+}

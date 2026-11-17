@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "true, and empty: under 3(B - L) the up and the down sector have the same Delta = q_L - q_R = 2, and the tensor depends on the Wilson lines through Delta w / 2 alone, so the two Yukawa matrices are one matrix; the seat's script evaluates the same expression twice (lines 204-205 of verify_closure_g5.py). |V_tb| = 1 then holds at every point, every modulus and for any tensor whatever. The planted case (modes e_2 against e_0) is reproduced (0)",
+ "note": "vacuous: one matrix compared with itself",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:22"
+ ]
+}

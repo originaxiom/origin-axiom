@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-05",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g5.py (D): the bidoublet (1, 2, 2) is neutral under B - L, so its vertex cannot tell leptons from down quarks: elementary; the singular values of the e_0 matrix are unchanged under xi + 1/3 and xi + tau/3 (0, 2e-15) and change under xi + tau/4 (0.05, the planted case); under 3(B - L) at w = (1/5, 2/5) the ratio s3/s1 of down over lepton is 28.5 at height 4 and 814 at height 8 (the seat: above 28 and 800); over the orbits of orders 5, 10, 15 the multisets of s3/s1 agree between down and lepton for hypercharge alone and for 3(B - L) alone (1e-17) and differ for both together (2e-4, 1e-4, 2e-4). The card's bar for the pointwise ratio was 100 and the note's is 10 at height 4; the figure 28.5 meets the second and not the first",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:24"
+ ]
+}

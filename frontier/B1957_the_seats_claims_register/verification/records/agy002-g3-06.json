@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g3-06",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/figures.py: every figure these lines quote from the two sealed outputs is found in them (42 of 43 numbers in the note; the one not found, 7.4, is the ratio of two bars). That checks the note against its outputs; main reran none of the planted cases, except that PF3.2's 0.6102 is the least mass term main reproduced",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:12",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:13",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:14"
+ ]
+}

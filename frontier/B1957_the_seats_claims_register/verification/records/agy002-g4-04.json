@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g4-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/agy002_g4.py, G4.3 and G4.4, each item recomputed. Verified: the Gram and bilinear identities for a general invertible matrix; 24 non-commuting ordered pairs in the quaternion group; for the seat's 6 x 6 matrix, det M = det D(t) det(t V1 + t^2 V2 - t^2 B D(t)^-1 C) and the third-order M_eff reproduces det M through t^5; the two planted changes 1245/1922 and 698707/1847042 exactly; spans 9, 5, 4 and nullities 1, 2; the sixteen states' four anomaly sums vanish identically on the plane after the shift -(3a + 2b)/2, the unshifted cubic being 4(3a + 2b)(9a^2 + 6ab + 5b^2). The item behind the first output's False flag, in 80 digits: the least singular value over t^2 differs from |l^T Y2 r| by 1.1e-5 at t = 1e-5 and 1.1e-6 at t = 1e-6, linear in t as it must be (and by 1e-11 and 1e-13 from the third-order M_eff); so the card's bar, 1e-5 at t = 1e-5, is missed by a tenth and met at 1e-6. Not reproduced: the second computation's 72 rejections and its 4e-8, which are for its own matrices and its own count (its output: commutator 8, asymmetry 4, planted 9/2 and 7/2), not the first computation's. These are identities of linear algebra on chosen small matrices; they carry no statement about the physical lane's operator beyond the algebra",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:25",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:31"
+ ]
+}

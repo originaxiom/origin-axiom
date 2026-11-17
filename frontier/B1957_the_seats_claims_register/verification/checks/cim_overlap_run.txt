@@ -1,0 +1,15 @@
+Z0: the zero-mode equation (d/dzbar + pi M w / (2 Im tau)) psi = 0, by central differences: relative residual 1.1e-08
+Z1: the modes are orthonormal over the cell: flux 3 1.8e-15, flux 6 4.4e-15
+L1: 12 cases (4 moduli and points of orders 5, 10, 15, 5; up, down, lepton): the integrand's double periodicity 2.0e-13; quadrature 48 against 64 9.9e-15
+L2: the transport matrices of all three fields under T and S are unitary to 5.7e-14; Y(tau + 1) and Y(-1/tau) against the transported Y: 3.5e-14 and 3.9e-14
+L3: selection rule: Y_ijk vanishes unless k = i + j + 1 mod 3: largest forbidden entry 3.5e-15
+L4: a common shift of the three Wilson lines changes Y by 6.3e-15; so the lepton's Y at w equals the down quark's at 9 w: 1.8e-13
+L5: at zero Wilson line the transports are T = diag exp(i pi (j + alpha)^2 / M) up to one phase (1.1e-14) and
+    S = sqrt(-i tau / |tau|) exp(2 pi i beta (j - k) / M) exp(-2 pi i (j + alpha)(k + alpha) / M) / sqrt(M) exactly (2.9e-15): the finite Fourier transform, of weight 1/2
+    with a Wilson line the entries keep their absolute values (8.0e-15); only phases change
+C1: flux 3 with spin structure (0, 0): the image under T leaves the span: unitarity fails by 0.51 (under S: 4.2e-15)
+C1: flux 3 with spin structure (1/2, 0): unitarity under T fails by 0.00, under S by 0.81
+C1: flux 3 with spin structure (0, 1/2): unitarity under T fails by 0.51, under S by 0.91
+C2: Wilson lines out of balance (zeta_H moved by 0.1 tau): periodicity under z + 1 fails by 7.70
+C3: the Higgs's spin structure (1/2, 0): periodicity under z + 1 fails by 9.35
+C4: fluxes out of balance (3 + 3 against 5): periodicity under z + tau fails by 7.88

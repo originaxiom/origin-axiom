@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g2-07",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/figures.py: the figures these lines quote are in the two sealed outputs (46 of 50 numbers in the note; the four not found are a bar, a commit's first characters and two derived ratios). Main's own controls reproduce three of the planted cases on its rebuilt overlap: fluxes out of balance, Wilson lines out of balance, the Higgs's spin structure (9.35, the seat's figure). The seat itself reports that its second computation caught four of five at the unnormalised bar. PF2.5 (the degeneracy 3 of the pure bubble) is reproduced and is the artefact of record agy002-g2-06",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:12",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:13",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:14"
+ ]
+}

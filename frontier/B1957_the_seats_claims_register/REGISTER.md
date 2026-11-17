@@ -6,12 +6,12 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | agy-exp | 86 | 0 | 2040 | 0 | 0 | 0 | 0 | 0 | 0 | **2040** |
 | agy-002-verify | 11 | 0 | 500 | 0 | 0 | 0 | 0 | 0 | 0 | **500** |
-| agy-002-endgame | 12 | 0 | 207 | 22 | 0 | 6 | 5 | 0 | 0 | **174** |
-| agy-002-closure | 18 | 0 | 271 | 0 | 0 | 0 | 0 | 0 | 0 | **271** |
+| agy-002-endgame | 12 | 0 | 207 | 50 | 2 | 7 | 14 | 0 | 2 | **132** |
+| agy-002-closure | 18 | 0 | 271 | 28 | 0 | 4 | 7 | 0 | 0 | **232** |
 | physical | 129 | 0 | 10781 | 6 | 0 | 0 | 1 | 0 | 0 | **10774** |
 | web | 15 | 1 | 955 | 67 | 0 | 0 | 4 | 3 | 53 | **828** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 275 | 1 | 14878 | 95 | 0 | 6 | 10 | 3 | 53 | **14711** |
+| **all** | 275 | 1 | 14878 | 151 | 2 | 11 | 26 | 3 | 55 | **14630** |
 
 ## By file
 
@@ -114,10 +114,10 @@
 | agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | no | 31 | 0 | **31** |
 | agy-002-verify | `relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md` | no | 11 | 0 | **11** |
 | agy-002-verify | `relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md` | no | 20 | 0 | **20** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | no | 19 | 14 | **5** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | no | 20 | 19 | **1** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | no | 18 | 0 | **18** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G3_RESULTS.md` | no | 18 | 0 | **18** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | no | 19 | 19 | **0** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | no | 20 | 20 | **0** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | no | 18 | 18 | **0** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G3_RESULTS.md` | no | 18 | 18 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md` | no | 21 | 0 | **21** |
 | agy-002-endgame | `relays/STATUS_AGY-002.md` | no | 7 | 0 | **7** |
 | agy-002-endgame | `relays/cards/AGY-002_ENDGAME-V2-G0-ERRATUM_mp-log-sign-bisection.md` | no | 3 | 0 | **3** |
@@ -126,8 +126,8 @@
 | agy-002-endgame | `relays/cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp.md` | no | 24 | 0 | **24** |
 | agy-002-endgame | `relays/cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents.md` | no | 32 | 0 | **32** |
 | agy-002-endgame | `relays/cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal.md` | no | 21 | 0 | **21** |
-| agy-002-closure | `relays/AGY002_CLOSURE_G4_RESULTS.md` | no | 20 | 0 | **20** |
-| agy-002-closure | `relays/AGY002_CLOSURE_G5_RESULTS.md` | no | 19 | 0 | **19** |
+| agy-002-closure | `relays/AGY002_CLOSURE_G4_RESULTS.md` | no | 20 | 20 | **0** |
+| agy-002-closure | `relays/AGY002_CLOSURE_G5_RESULTS.md` | no | 19 | 19 | **0** |
 | agy-002-closure | `relays/AGY002_CLOSURE_G6_RESULTS.md` | no | 21 | 0 | **21** |
 | agy-002-closure | `relays/AGY002_CLOSURE_G7B_RESULTS.md` | no | 17 | 0 | **17** |
 | agy-002-closure | `relays/AGY002_CLOSURE_G7_RESULTS.md` | no | 17 | 0 | **17** |

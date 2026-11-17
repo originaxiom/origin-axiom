@@ -1,0 +1,17 @@
+G4.1: d ln(tan theta)/dt at angles 0.2, 0.7, 1.2, 1.5: one loop against (3/2)(yt^2 + yb^2): 1.5e-09; two loops against -(13/2)(yt^4 + yb^4) - (11/2) yt^2 yb^2 = -6.7108: 9.6e-09
+G4.2: five random pairs of Hermitian positive Yukawa matrices (so arg det = 0 at the start), run down 30 e-folds: |arg det(Y_u Y_d)| at the end at most 7.1e-16; the Jarlskog invariant at the end at least 2.4e-03
+G4.3: for a general invertible 3 x 3 matrix, (A z)^T (A^-T w) = z^T w: True (the Gram identity is the same statement with the adjoint)
+      ordered pairs of the quaternion group that do not commute: 24 (the seat: 24); the profile z/(1 + z^2) is odd and a half-turn on a spinor squares to -1: elementary
+      the seat's 6 x 6 block matrix: det M = det D(t) det(t V1 + t^2 V2 - t^2 B D(t)^-1 C) at seven rational t (both sides, cleared of det D(t)^2, are polynomials of degree at most 12; see the note): True; and the third-order M_eff reproduces det M through t^5: True
+      planted: the transposed inverse changes Y2 by 1245/1922 in squared norm (the seat: 1245/1922); the reversed order changes Y3 by 698707/1847042 (the seat: 698707/1847042)
+      least singular value of M at t = 1e-5, over t^2, against |l^T Y2 r| = 0.60590229: relative difference 1.1e-5 (80 digits; the seat's double precision gave 5.4e-5 against its bar 1e-5)
+      least singular value of M at t = 1e-6, over t^2, against |l^T Y2 r| = 0.60590229: relative difference 1.1e-6 (80 digits; the seat's double precision gave 5.4e-5 against its bar 1e-5)
+      spans of the nine contractions: independent pair 9, linked pair on all four 5, on the traceless three 4 (the seat: 9, 5, 4); pairs (A_L, A_R) with A_L V = V A_R: 1 with the E_33 vertex, 2 without (the seat: 1, 2)
+G4.4: the seat's six blocks have 16 states; the cubic sum of the unshifted charges is 4*(3*a + 2*b)*(9*a**2 + 6*a*b + 5*b**2); shifted by -(3a + 2b)/2 the four anomaly sums are [0, 0, 0, 0]
+      at (a, b) = (1/3, -1/2) the shifted charges of the six blocks (1, 3, 6, 1, 3, 2) are ['0', '2/3', '-1/6', '-1', '-1/3', '1/2']: minus the hypercharges of nu^c, u^c, Q, e^c, d^c, L
+G4.5: counts: E6's 78 = 21 + 57; one 27 = 16 + 11 = (8 + 8) + (6 + 4 + 1); weights 231/4 + 153/4 + -3/2 = 189/2 at short distance and 28 with the massless modes alone (the seat: 231/4, 153/4, -3/2, 189/2, 28)
+      the curve as the seat defines it (every gapped mode at mass 1, the interval read as a circle of length 4 L; the slope by the closed derivative, checked against a difference: 6.7e-10):
+      branch A's slope at L = 1/4 ... 5 is negative throughout, its largest value -1.535275e-05 (the seat: -1.5353e-05), and negative at 3000 points from 0.02 to 12 (largest -1.9e-07); V at L = 1/1000 against (189/2) pi^2 / (90 (4L)^4): 2.4e-06
+      branch B (the fermions gapped by hand): the minimum is at L = 1.682569148981 with second derivative 0.00144438 (the seat: 1.682569148980953 and 0.0014443827)
+      branch A is 28 massless (positive, falling) plus 76 net twisted bosons at one mass (positive, falling): the runaway holds for these counts and this single mass; nothing of the manifold enters beyond the counts
+exit 0

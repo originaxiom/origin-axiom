@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/cim_closed.py and checks/agy002_g5.py (A): main derived the tensor in closed form from the addition formula for theta functions and checked it against its own quadrature (5e-14): Y_ijk is a Gaussian factor times theta[(i - j + 3m)/6](6 xi, 6 tau), an entire function of xi, so there is no pole at any point; at the eight points of order 3 main gets least norm 3.19 and a change of 1.4e-4 under the seat's step, its figures",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:21"
+ ]
+}

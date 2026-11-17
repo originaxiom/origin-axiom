@@ -1,0 +1,10 @@
+G3.1: Luo and Xiao (11), (12) against Buttazzo et al. (100), exact rationals: one loop True, two loops True
+      values 367247879/65865514 and -886154046205665125/503238848400166736; the seat's: 367247879/65865514 and -886154046205665125/503238848400166736: True, True
+G3.2: the seat's benchmark, 28 e-folds down from m^2 = 1: m^2 against exp(integral of gamma): 4.5e-13; least m^2 along the flow 0.6102 (the seat: +0.6102); it never changes sign
+      the quartic's beta function at lambda = 0, at (g1, g2, g3) = (1/2, 3/5, 4/5): gauge only +1.259e-03 (the seat: +1.26e-3); with a top of 9/10 -2.365e-02 (the seat: -2.36e-2)
+G3.3: heavy Majorana neutrino, one-loop effective potential: coefficient of y^2 |H|^2 is (M^2 / 8 pi^2)(1 + ln(mu^2 / M^2)): True; of y^4 |H|^4 is -(1 / 16 pi^2)(1 - ln(mu^2 / M^2)): True
+      so d(m_H^2)/d ln(mu) = -y^2 M^2 / (4 pi^2): True; the same as Brivio and Trott's corrected matching, equations (3.9), (3.10), whose m^2 enters as -(m^2 / 2) H^dagger H
+      the finite part's sign: 1 + ln(mu^2 / M^2) is +1 at mu = M and -1/2 at mu = M e^(-3/4) (Brivio and Trott's choice): the neutrino's threshold raises m_H^2 in the first and lowers it in the second
+      heavy scalars, d_S real components of mass M_S: coefficient of |H|^2 is (d_S lambda_HS M_S^2 / 32 pi^2)(ln(M_S^2 / mu^2) - 1): True; so d(m_H^2)/d ln(mu) = +d_S lambda_HS M_S^2 / (16 pi^2): True
+G3.4: the portal at the seat's benchmark (16 components, lambda_HS = 1/2, m^2 = 1/10 at the top): m^2 crosses zero at t = -1.95017759 (the seat: -1.95017760; its referee: -1.95017764); the quartic there 0.1226 > 0
+      the hierarchy's price as the seat defines it, (source x 4 e-folds) / exp(-56) = 4.239e+23 (the seat: 4.24e23): arithmetic, no dynamics

@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g2-06",
+ "date": "2026-11-17",
+ "verdict": "REFUTED",
+ "how": "checks/level6_higgs.py. Reproduced as the seat defines it: U_M has order 12 and the six eigenphases named, and is the six modes' own transport along M (3e-15); with the points of order 5 taken at representatives in the unit cell, main gets the seat's degeneracies 3, 2, 1, the ground mode +pi/6 and its gap 0.0100, for every positive coefficient tried (so the typed-in loop factor sets the gap only). Refuted as a statement about the object: the Higgs's Wilson line is +-3 w / 2, so it is not a function of the point w on the torus; moving w by a lattice vector conjugates the bubble by the clock or the shift of order two (exact, 3e-14 and 4e-13) and changes it (0.11 and 4.55 on a scale of 12.8). The seat's sum over one lift of each point is therefore not covariant under the modes' own transport (3.3, 0.22 and 11 on a scale of 267 under tau + 1, -1/tau and M), and projecting on the commutant of the conjugate matrix selects the other mode, -pi/6. Averaged over the four lifts the sum is covariant (1e-13) and is an exact multiple of the identity on the six modes, for every single point, every sector and every modulus tried; the reason is three lines (the selection rule k = i + j + 1 mod 3; the product of two sections of flux 3 is a section of flux 6; a shift by tau/3 cycles the matter modes), each tested (H6). So the bubble cannot select a Higgs mode: the combined operator is the kinetic term up to a constant, its ground space is the pair +-pi/6, dimension 2, one bit, not zero. Second computation: the analytic reason, independent of the quadrature. The kinetic term (eigenphase over length, squared) is itself a postulate of the seat's",
+ "note": "the seat's own gate 5 states the same defect for odd Delta (its planted case PF5.3: the Gramian over one lift of each point is not covariant for hypercharge), and did not carry it back to this gate",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:24",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:30"
+ ]
+}

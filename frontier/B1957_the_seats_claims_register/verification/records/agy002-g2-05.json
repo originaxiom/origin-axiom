@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g2-05",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/high_cusp_levels.py: the six cases the seat quotes, on main's own extended-precision frame (B1940's) at heights 24, 32, 40 against the exact exponents of B1788's rule: orders 5 and 10 to 1e-7, order 15 down at a = 2/15 and 4/15 to 1.5e-3 and 4e-4 (main's heights are lower than the seat's; inside its bar 2e-3). The bijection is an identity of functions: the overlap depends on the Wilson lines only through their difference (checks/cim_overlap.py, L4: a common shift changes Y by 6e-15), so the lepton's Y at w is the down quark's at 9 w, lifts included (1.8e-13)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G2_RESULTS:23"
+ ]
+}

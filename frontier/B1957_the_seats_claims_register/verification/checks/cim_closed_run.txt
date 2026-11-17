@@ -1,0 +1,2 @@
+the closed form against the quadrature at 12 cases (four moduli, points of orders 5, 10, 15, three sectors): 4.9e-14; double against extended precision: 1.7e-14
+for each Higgs mode the matrix has one entry in each row: True; so with one Higgs mode the mixing matrix is a permutation matrix

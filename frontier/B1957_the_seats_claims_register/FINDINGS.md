@@ -84,6 +84,34 @@ noted, and none is pending.
   trails are in the order it names and its scripts carry no float literal, checked without running them
   (`verification/checks/custody.py`). Its own gate 1 says the corridor is not parameter-free.
 - **The web seat's W-A1:** settled in full, as described above.
+- **agy-002's gates 0 to 5, read at their source and recomputed (114 statements: 78 verified, 2 refuted, 11
+  conditional, 21 partial, 2 noted).** What main built for it, each from its definition or a primary source:
+  the closed-fibre triple overlap of three zero modes of flux 3, 3 and 6, by quadrature and in closed form
+  (`checks/cim_overlap.py`, `cim_closed.py`); the mass term's running and the two thresholds
+  (`checks/agy002_g3.py`); and the checks of each gate (`checks/agy002_g2.py`, `level6_higgs.py`,
+  `high_cusp_levels.py`, `agy002_g4.py`, `agy002_g5.py`).
+  - **Holds:** the triple overlap is covariant under both generators, with the spin structures the seat names, and
+    each balance, broken, breaks it; the cusp exponents at orders 5, 10 and 15 (the lepton and down minima equal at
+    5 and 10, in ratio 3/2 at 15); the mixing's two-loop slopes; the mass term's anomalous dimension (two primary
+    sources agree); both threshold signs, derived by main and equal to the published corrected matching; the
+    linear algebra and the anomaly sums of gate 4; the cocycle, the periodicities and the even-Δ family Gramian of
+    gate 5.
+  - **Refuted (gate 2, the Higgs mode):** the Higgs's Wilson line is ±3w/2, so it is not a function of the point w on
+    the torus. The seat's sum takes one lift of each point and so is not covariant; averaged over the four lifts,
+    the bubble of every single point is an exact multiple of the identity on the six Higgs modes, for a three-line
+    reason. It selects nothing: the ground space is two-dimensional, one bit, not zero.
+  - **Not resolved (gate 5, P-861):** with hypercharge as the Wilson line the mixing in this frame is deranged (15 of
+    24 points orthogonal, 9 inside a degenerate pair, none aligned) and lift-dependent; with one Higgs mode the
+    mixing matrix is always a permutation; the reported alignment at 288 points is one matrix compared with
+    itself; the small angles shown are typed in. This agrees with B1946 and B1947 on main.
+  - **Found by reading the scripts' text:** at gate 0 the first script carried the exchanged mixed products and the
+    second did not; the benchmark compared each with its own copy and did not see it. The seat's gate 4 repairs it.
+  - **Conditional:** every statement resting on the left-right model's content, parity or scales; the Casimir
+    curve (chosen counts, one mass, no geometry of the manifold); one clause on the neutrino's threshold, whose
+    finite part changes sign with the matching scale.
+- **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
+  scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
+  sealed outputs it names; every hash manifest against its file).
 
 ## When it closes
 

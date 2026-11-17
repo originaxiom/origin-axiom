@@ -1,0 +1,11 @@
+AGY002_ENDGAME_V2_G0_RESULTS.md: 2 output files read; 41 numbers quoted on 8 lines, 35 found in the sealed outputs
+     line 14: not found: 0.25, 1.75e6, 0.25
+     line 15: not found: 0.25, 0.25, 0.25
+AGY002_ENDGAME_V2_G1_RESULTS.md: 2 output files read; 41 numbers quoted on 9 lines, 40 found in the sealed outputs
+     line 14: not found: 0.5
+AGY002_ENDGAME_V2_G2_RESULTS.md: 2 output files read; 49 numbers quoted on 7 lines, 46 found in the sealed outputs
+     line 14: not found: 7e-5, 7.65e9
+     line 23: not found: 2e-3
+AGY002_ENDGAME_V2_G3_RESULTS.md: 2 output files read; 43 numbers quoted on 7 lines, 42 found in the sealed outputs
+     line 14: not found: 7.4
+relays: 18 manifest entries, 18 match the file's SHA-256, 0 name a file not beside them

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-08",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the computations are reproduced (record agy002-g5-05). The reading rests on choices the object does not make here: which charge the Wilson line carries (hypercharge, 3(B - L), or both: three different answers, equal multisets for the first two and a split for the third), the single Higgs mode e_0, and one lift of each point for the odd values of Delta. Under 3(B - L) the 'pointwise split' compares one function at w and at -3w",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:30"
+ ]
+}

@@ -1,0 +1,370 @@
+[
+ {
+  "note": "relays/AGY002_CLOSURE_G4_RESULTS.md",
+  "commits": [
+   "4c9ccff4b",
+   "844db35d0",
+   "79d2d65aa",
+   "15c9504f4",
+   "5821fc629",
+   "3d900ed8a",
+   "23d525ec0",
+   "e4af4ed35",
+   "bf3a8f27f"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 8,
+  "consecutive_pairs": 8,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_closure_g4/verify_closure_g4.py": {
+    "lines": 1177,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "sympy",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g4_fixed/verify_closure_g4_fixed.py": {
+    "lines": 1187,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "sympy",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g4_referee_fixed/referee_closure_g4_fixed.py": {
+    "lines": 1785,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "scipy",
+     "sympy",
+     "time"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_CLOSURE_G5_RESULTS.md",
+  "commits": [
+   "772755b2c",
+   "1f410c48e",
+   "431181218",
+   "0b6d75eed",
+   "2decb3d7a"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 4,
+  "consecutive_pairs": 4,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_closure_g5/verify_closure_g5.py": {
+    "lines": 558,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "json",
+     "math",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g5_referee/referee_closure_g5.py": {
+    "lines": 1044,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "ast",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "time"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_CLOSURE_G6_RESULTS.md",
+  "commits": [
+   "d4084f86b",
+   "c41a7f346",
+   "e751f2f9d",
+   "664cdc35f",
+   "c79c57728",
+   "cff52cd0a",
+   "0973af996"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 6,
+  "consecutive_pairs": 6,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_closure_g6/verify_closure_g6.py": {
+    "lines": 692,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g6_fixed/verify_closure_g6_fixed.py": {
+    "lines": 689,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g6_referee/referee_closure_g6.py": {
+    "lines": 1233,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "numpy",
+     "pathlib",
+     "scipy",
+     "sys",
+     "time"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_CLOSURE_G7_RESULTS.md",
+  "commits": [
+   "901a89de3",
+   "42c2fbf38",
+   "a82f12e8a",
+   "cd8f13049",
+   "ce1aecc40",
+   "57ecbb424",
+   "cd5e60af8"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 6,
+  "consecutive_pairs": 6,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_closure_g7/verify_closure_g7.py": {
+    "lines": 468,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "numpy",
+     "pathlib",
+     "sympy",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g7_referee/referee_closure_g7.py": {
+    "lines": 1921,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "ast",
+     "cmath",
+     "copy",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "re",
+     "sympy",
+     "sys"
+    ]
+   },
+   "relays/agy002_closure_g7_referee_fixed/referee_closure_g7_fixed.py": {
+    "lines": 1925,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "ast",
+     "cmath",
+     "copy",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "re",
+     "sympy",
+     "sys"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_CLOSURE_G7B_RESULTS.md",
+  "commits": [
+   "fb6101b9b",
+   "5d5d02a4b",
+   "2bbe30f45",
+   "997f7482e",
+   "0ec496d07",
+   "584a8ce2c"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 5,
+  "consecutive_pairs": 5,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_closure_g7b/verify_closure_g7b.py": {
+    "lines": 542,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "collections",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "sympy",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g7b_referee/referee_closure_g7b.py": {
+    "lines": 1403,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "re",
+     "sympy",
+     "sys",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g7b_referee_fixed/referee_closure_g7b.py": {
+    "lines": 1411,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "re",
+     "sympy",
+     "sys",
+     "typing"
+    ]
+   },
+   "relays/agy002_closure_g7b_referee_v2/referee_closure_g7b.py": {
+    "lines": 1403,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "re",
+     "sympy",
+     "sys",
+     "typing"
+    ]
+   }
+  }
+ }
+]

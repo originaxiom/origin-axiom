@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g5-09",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "main reproduces all five planted cases on its own code (checks/agy002_g5.py): modes e_2 against e_0 give |V_tb| = 0; the shift tau/4 changes the singular values by 0.05; odd Delta with one lift fails covariance by 2.0 and 3.0; the trace over six modes is isotropic to 0; the plain sum moves by 0.07",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:12",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:13",
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:14"
+ ]
+}

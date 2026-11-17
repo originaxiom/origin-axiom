@@ -17664,13 +17664,15 @@
    "slug": "the seats claims register",
    "motifs": [
     "closing",
+    "choice",
+    "kappa",
     "eisenstein"
    ],
    "refs": [],
-   "obstacle": "units_scale",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
    "status": "dormant",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B196": {
    "slug": "entropy conformal dimension",

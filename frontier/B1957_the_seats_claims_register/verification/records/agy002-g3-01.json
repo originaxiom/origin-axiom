@@ -1,0 +1,17 @@
+{
+ "id": "agy002-g3-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py, without running the seat's code: the five commits the note names are on the branch and in the order named (card, first script, first output, second script, second output); both scripts parse with no float and no complex literal; all 18 hash manifests under relays on this branch match the SHA-256 of the files they name. Read with that: the scripts build their decimals as ratios of integers and compute in double precision, so the literal count is a property of the text, not exact arithmetic; and that the second script was written without reading the first is the seat's statement, which a reader of the commits cannot check",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:5",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:6",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:7",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:8",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:9",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:10",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:11",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:20"
+ ]
+}

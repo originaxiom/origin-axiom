@@ -108,5 +108,16 @@ if __name__ == "__main__":
         return (f(e) - f(-e)) / (2 * e)
     one = dlnsin(False, 1) / K; c0 = (dlnsin(False, 2) - dlnsin(False, 1)) / (K * K); c1 = (dlnsin(True, 2) - dlnsin(True, 1)) / (K * K)
     u = (yt ** 2 + yb ** 2) * np.cos(th) ** 2
-    print("V5: rank-one top and bottom at angle 0.35, gauge and quartic off: d ln(sin theta)/dt at one loop is %.6f /(16 pi^2), and -(3/2)(yt^2 + yb^2) cos^2 = %.6f" % (one, -1.5 * u))
+    print("V5: rank-one top and bottom at angle 0.35, gauge and quartic off: d ln(sin theta)/dt at one loop is %+.6f /(16 pi^2), and +(3/2)(yt^2 + yb^2) cos^2 = %+.6f (the angle grows toward high scales)" % (one, 1.5 * u))
+    def small(yt_, yb_, sw, th_=0.02):
+        global yt, yb, th, Hu, Fd
+        e_b_ = np.array([0, np.sin(th_), np.cos(th_)]); Hu_ = yt_ * np.outer(e_t, e_t).astype(complex); Fd_ = yb_ * np.outer(e_b_, e_b_).astype(complex)
+        def d(loops):
+            v = pack([0.0, 0.0, 0.0], Hu_, Fd_, np.zeros((3, 3)), 0.0); e = 1e-3
+            f = lambda s: np.log(np.sin(angle(v + s * rhs(0, v, loops, sw))))
+            return (f(e) - f(-e)) / (2 * e)
+        return (d(2) - d(1)) / (K * K)
+    for sw, lab in ((False, "as printed by Luo and Xiao"), (True, "the two mixed products exchanged")):
+        a_, b_, c_ = small(1.0, 1e-3, sw), small(1e-3, 1.0, sw), small(1.0, 1.0, sw)
+        print("    at a small angle, %s: the two-loop part is %.4f yt^4 %.4f yb^4 %.4f yt^2 yb^2 (-13/2, -13/2 and -11/2 as printed; 7 is the exchanged order)" % (lab, a_, b_, c_ - a_ - b_))
     print("    its two-loop part in units of 1/(16 pi^2)^2: %.6f with the products as printed by Luo and Xiao; %.6f with the two mixed products exchanged; the difference %.6f, and (3/2) yt^2 yb^2 cos^2(theta) = %.6f" % (c0, c1, c1 - c0, 1.5 * yt ** 2 * yb ** 2 * np.cos(th) ** 2))

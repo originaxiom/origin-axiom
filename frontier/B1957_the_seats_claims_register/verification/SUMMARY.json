@@ -31,26 +31,26 @@
    "read": 0,
    "units": 213,
    "statements": 207,
-   "VERIFIED": 22,
-   "REFUTED": 0,
-   "CONDITIONAL": 6,
-   "PARTIAL": 5,
+   "VERIFIED": 50,
+   "REFUTED": 2,
+   "CONDITIONAL": 7,
+   "PARTIAL": 14,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 174
+   "NOTED": 2,
+   "PENDING": 132
   },
   "agy-002-closure": {
    "files": 18,
    "read": 0,
    "units": 281,
    "statements": 271,
-   "VERIFIED": 0,
+   "VERIFIED": 28,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 4,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 271
+   "PENDING": 232
   },
   "physical": {
    "files": 129,
@@ -1359,13 +1359,13 @@
    "units": 20,
    "statements": 19,
    "read": false,
-   "VERIFIED": 11,
+   "VERIFIED": 13,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 3,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 5
+   "NOTED": 1,
+   "PENDING": 0
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_G1_RESULTS.md": {
    "lane": "agy-002-endgame",
@@ -1377,34 +1377,34 @@
    "CONDITIONAL": 6,
    "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 1
+   "NOTED": 1,
+   "PENDING": 0
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_G2_RESULTS.md": {
    "lane": "agy-002-endgame",
    "units": 19,
    "statements": 18,
    "read": false,
-   "VERIFIED": 0,
-   "REFUTED": 0,
+   "VERIFIED": 13,
+   "REFUTED": 2,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 18
+   "PENDING": 0
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_G3_RESULTS.md": {
    "lane": "agy-002-endgame",
    "units": 19,
    "statements": 18,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 13,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 4,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 18
+   "PENDING": 0
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md": {
    "lane": "agy-002-endgame",
@@ -1515,26 +1515,26 @@
    "units": 21,
    "statements": 20,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 12,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 20
+   "PENDING": 0
   },
   "agy-002-closure | relays/AGY002_CLOSURE_G5_RESULTS.md": {
    "lane": "agy-002-closure",
    "units": 20,
    "statements": 19,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 16,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 19
+   "PENDING": 0
   },
   "agy-002-closure | relays/AGY002_CLOSURE_G6_RESULTS.md": {
    "lane": "agy-002-closure",

@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g4-07",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "main reproduces on its own code four of the five planted cases of the first computation: the exchanged order shifts the slope by 3/2; the transposed inverse and the reversed order give 1245/1922 and 698707/1847042; an added (L - 2)^2 makes the slope positive at L = 3 (2 against the curve's -1e-5). The -24 case's two figures (22.97 and 0.0033) are in the sealed output and were not rerun; that -24 is half the right coefficient is verified at the primary source (record physical-f12-01). The second computation's planted figures are for its own matrices",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:13",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:14",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:15"
+ ]
+}

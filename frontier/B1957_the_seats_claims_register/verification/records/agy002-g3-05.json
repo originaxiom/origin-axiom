@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g3-05",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the two beta-function signs are verified (records agy002-g3-03, -04), and the conclusion that the ratio of the weak scale to the Pati-Salam scale is not fixed, with one dimensionful anchor and one tuned number, follows. One clause is conditional: that the heavy neutrinos stabilise the unbroken phase 'rather than triggering' breaking. The full one-loop term is (y^2 M^2 / 8 pi^2)(1 + ln(mu^2 / M^2)) |H|^2: its running part raises m_H^2 on the way down, as the seat says, but its finite part is +1 at mu = M and -1/2 at mu = M e^(-3/4), and the published 'neutrino option' takes the second and gets the breaking sign. So the clause holds for the running between the two thresholds and depends on the matching scale below the lower one. The portal benchmark's numbers (16 components, lambda_HS = 1/2, the start 1/10) are typed in, as the seat says of its ledger",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:30"
+ ]
+}

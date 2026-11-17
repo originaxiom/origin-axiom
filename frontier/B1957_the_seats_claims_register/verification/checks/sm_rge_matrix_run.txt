@@ -2,5 +2,7 @@ V1: the top alone from (1/2, 3/5, 1, 9/10) with lambda = 1/10 in the other norma
 V2: third generation, diagonal: Luo and Xiao against Buttazzo et al., seven beta functions, largest relative difference 4.4e-16
 V3: generic complex matrices run over six e-folds: singular values and |V| unchanged by six random changes of basis in U(3)^5: 8.7e-15
 V4: arg det(Y_u Y_d) along that run: 2.894450600704320 before, 2.894450600704320 after: it moves by 4.4e-16, while the singular values move by up to 0.27 in ratio
-V5: rank-one top and bottom at angle 0.35, gauge and quartic off: d ln(sin theta)/dt at one loop is 1.548649 /(16 pi^2), and -(3/2)(yt^2 + yb^2) cos^2 = -1.548649
+V5: rank-one top and bottom at angle 0.35, gauge and quartic off: d ln(sin theta)/dt at one loop is +1.548649 /(16 pi^2), and +(3/2)(yt^2 + yb^2) cos^2 = +1.548649 (the angle grows toward high scales)
+    at a small angle, as printed by Luo and Xiao: the two-loop part is -6.4974 yt^4 -6.4974 yb^4 -5.4978 yt^2 yb^2 (-13/2, -13/2 and -11/2 as printed; 7 is the exchanged order)
+    at a small angle, the two mixed products exchanged: the two-loop part is -6.4974 yt^4 -6.4974 yb^4 -6.9972 yt^2 yb^2 (-13/2, -13/2 and -11/2 as printed; 7 is the exchanged order)
     its two-loop part in units of 1/(16 pi^2)^2: -5.921796 with the products as printed by Luo and Xiao; -6.307767 with the two mixed products exchanged; the difference -0.385971, and (3/2) yt^2 yb^2 cos^2(theta) = 0.385971

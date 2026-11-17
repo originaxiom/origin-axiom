@@ -1,0 +1,31 @@
+A: at the eight points of order 3 (tau = 2 sqrt(3) i, Delta = 5): least norm 3.191, change under a step of 1e-6: 1.4e-04; the tensor is a theta function of xi, entire: no pole anywhere
+B: hypercharge alone, mode e_0, tau = 0.13 + 8i, the 24 points of order 5, representatives in the unit cell (the seat's): degenerate, inside 9, degenerate, outside 5, orthogonal 10
+B: hypercharge alone, mode e_0, tau = 0.13 + 8i, the 24 points of order 5, the lift a + 1: aligned 4, degenerate, inside 5, degenerate, outside 5, orthogonal 10
+B: hypercharge alone, mode e_0, tau = 0.13 + 8i, the 24 points of order 5, the lift b + 1: degenerate, inside 9, degenerate, outside 5, orthogonal 10
+B: hypercharge alone, mode e_0, tau = 0.13 + 8i, the 24 points of order 5, the lift (a + 1, b + 1): aligned 4, degenerate, inside 5, degenerate, outside 5, orthogonal 10
+   (the seat's 4 aligned and 20 deranged come from a singular-value routine's choice inside the up matrix's degenerate pair; its second computation reports the degeneracy)
+B: the same with the Higgs vector v_6(tau) (each matrix then has rank one, so only the top direction exists), representatives in the unit cell: |V_tb| > 0.99 at 0 of 24, < 0.01 at 5, largest 0.809
+B: the same with the Higgs vector v_6(tau) (each matrix then has rank one, so only the top direction exists), the lift a + 1: |V_tb| > 0.99 at 4 of 24, < 0.01 at 5, largest 1.000
+B: planted (the seat's PF5.1): the up matrix on mode e_2 and the down matrix on e_0 at one point under 3(B - L): |V_tb| = 0.0e+00
+   with one Higgs mode every Yukawa matrix has one entry in each row and column (cim_closed.py), so the mixing matrix is a permutation: |V_tb| is 0 or 1 and no angle is small
+   the up sector: Delta = 5, so xi = 5 w / 2 is a half-lattice point for every w of order 5: |Y_u| is the same tensor at all points whose (5a, 5b) agree mod 2, up to phases: 4.8e-15 in |.|
+   and at even 5a its two largest singular values are equal: 3.356e-02, 3.356e-02, 1.877e-16
+C: under 3(B - L) the up and the down sector have the same Delta = 2, so the seat's two matrices are one matrix (its script evaluates the same expression twice): |V_tb| = 1 at every point, every modulus, for any tensor whatever
+D: singular values of the e_0 matrix under xi + 1/3 and xi + tau/3: unchanged to 0.0e+00, 2.0e-15; also under xi + 1/6: 2.2e-16; under xi + tau/4 they change by 0.05, under xi + tau/6 by 0.53
+   3(B - L) at w = (1/5, 2/5), height 4: s3/s1 down over lepton = 28.5 (the seat: > 28 at height 4, > 800 at height 8)
+   3(B - L) at w = (1/5, 2/5), height 8: s3/s1 down over lepton = 814.1 (the seat: > 28 at height 4, > 800 at height 8)
+   order  5, the multiset of s3/s1 over the orbit, down against lepton: hypercharge alone 2.5e-18, 3(B - L) alone 6.2e-19, both 2.2e-04
+   order 10, the multiset of s3/s1 over the orbit, down against lepton: hypercharge alone 6.3e-18, 3(B - L) alone 1.6e-17, both 1.3e-04
+   order 15, the multiset of s3/s1 over the orbit, down against lepton: hypercharge alone 1.5e-17, 3(B - L) alone 1.8e-18, both 2.2e-04
+E: Y(xi + 1) = exp(6 pi i alpha) Y(xi): 4.0e-15; Y(xi + tau) = exp(-6 pi i beta) Y(xi): 1.5e-14; the moduli |Y_ijk| under xi + 1/2: unchanged to 2.2e-16; under xi + tau/2: changed by 1.40, and equal to the moduli with the Higgs modes k and k + 3 exchanged to 6.2e-15
+   the matter modes' transport under tau + 1 and -1/tau does not depend on the Wilson line: 9.2e-15 (it cannot: the modes are functions of z + zeta, and the transport is an integral over z)
+   one matrix contracted with v_6(tau) has singular values 3.208e+00, 6.5e-16, 2.7e-17: rank one (the six modes at a point reproduce the product of the two matter sections there)
+   Delta = +2: the Gramian over the 24 points with v_6: under tau + 1 7.5e-15, under -1/tau 1.4e-14; eigenvalues [2.8589, 3.0688, 3.1705]
+   Delta = -6: the Gramian over the 24 points with v_6: under tau + 1 7.4e-15, under -1/tau 6.7e-14; eigenvalues [2.8589, 3.0688, 3.1705]
+   Delta = -1: the Gramian over the 24 points with v_6: under tau + 1 2.0e+00, under -1/tau 3.0e+00; eigenvalues [0.6247, 1.6922, 6.4519]; over the four lifts of each point: 8.0e-15, 1.1e-14; eigenvalues [2.9325, 3.041, 3.0587]
+   Delta = +5: the Gramian over the 24 points with v_6: under tau + 1 3.4e-01, under -1/tau 1.2e-14; eigenvalues [2.2154, 2.4945, 4.0939]; over the four lifts of each point: 7.3e-15, 5.5e-14; eigenvalues [1.8708, 2.2952, 4.9014]
+   Delta = -9: the Gramian over the 24 points with v_6: under tau + 1 2.0e+00, under -1/tau 3.0e+00; eigenvalues [0.6247, 1.6922, 6.4519]; over the four lifts of each point: 9.9e-14, 1.1e-13; eigenvalues [2.9325, 3.041, 3.0587]
+   traced over all six Higgs modes the Gramian is a multiple of the identity: spread of eigenvalues 0.0e+00 (B1727's collapse, and the same Parseval identity as in level6_higgs.py)
+   averaged over the nine clock-and-shift matrices it is a multiple of the identity: 4.4e-16 (Schur's lemma)
+   planted (the seat's PF5.5): the plain sum of the 24 contracted matrices: its singular-value ratios move by 0.07 under tau + 1
+exit 0

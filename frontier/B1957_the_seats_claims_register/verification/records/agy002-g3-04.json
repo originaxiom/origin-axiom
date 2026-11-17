@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g3-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "checks/agy002_g3.py: verified on main: the portal's sign (d(m_H^2)/d ln(mu) = +d_S lambda_HS M_S^2 / (16 pi^2), derived), the zero crossing at the seat's benchmark (main: t = -1.95017759; the seat -1.95017760, its second computation -1.95017764), the first figure 4.24e23 (it is the source times four e-folds divided by exp(-56): arithmetic). Not reproduced: the second computation's 1.47e24, which uses a definition main has not read. That the mass ratios do not change under changes of basis is linear algebra and holds",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G3_RESULTS:25"
+ ]
+}

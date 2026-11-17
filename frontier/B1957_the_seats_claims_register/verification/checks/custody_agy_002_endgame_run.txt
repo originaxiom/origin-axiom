@@ -1,0 +1,14 @@
+AGY002_ENDGAME_V2_G0_RESULTS.md: 7 commits named, all on the branch: True; in the order named: 5 of 6 consecutive pairs (not in order: [('76a59ae79', 'faead675a')])
+     verify_endgame_v2_g0.py: 1281 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     verify_endgame_v2_g0_fixed.py: 1231 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     referee_endgame_v2_g0.py: 2661 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'scipy', 'typing']
+AGY002_ENDGAME_V2_G1_RESULTS.md: 7 commits named, all on the branch: True; in the order named: 5 of 6 consecutive pairs (not in order: [('6951d2e46', '57001ce15')])
+     verify_endgame_v2_g1.py: 960 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'dataclasses', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     verify_endgame_v2_g1_fixed.py: 960 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'dataclasses', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     referee_endgame_v2_g1.py: 2210 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'dataclasses', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'scipy', 'typing']
+AGY002_ENDGAME_V2_G2_RESULTS.md: 5 commits named, all on the branch: True; in the order named: 4 of 4 consecutive pairs
+     verify_endgame_v2_g2.py: 1031 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'cmath', 'fractions', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     referee_endgame_v2_g2.py: 1513 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'cmath', 'fractions', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+AGY002_ENDGAME_V2_G3_RESULTS.md: 5 commits named, all on the branch: True; in the order named: 4 of 4 consecutive pairs
+     verify_endgame_v2_g3.py: 578 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+     referee_endgame_v2_g3.py: 2041 lines, 0 float and 0 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'scipy', 'typing']

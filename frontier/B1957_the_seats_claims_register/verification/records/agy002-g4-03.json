@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g4-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "checks/agy002_g4.py, G4.2: five random pairs of Hermitian positive Yukawa matrices with a complex mixing phase, run down 30 e-folds on main's solver: |arg det(Y_u Y_d)| at the end at most 7e-16 while the Jarlskog invariant stays at least 2.4e-3. The premise, that the Yukawa matrices are Hermitian with positive determinant at the Pati-Salam scale, is borrowed (a parity of the left-right model) and is not derived from the object; that the phase does not move from wherever it starts is unconditional (record agy002-g1-02)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:24"
+ ]
+}

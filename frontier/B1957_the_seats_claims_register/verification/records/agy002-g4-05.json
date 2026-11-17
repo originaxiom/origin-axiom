@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g4-05",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "checks/agy002_g4.py, G4.5: the counts are right (78 = 21 + 57; one 27 = 16 + 11; weights 231/4 + 153/4 - 3/2 = 189/2; 28 with the massless modes alone) and main reproduces the first computation's curve: slope negative throughout, largest -1.535275e-5 on the seat's grid and negative at 3000 points from 0.02 to 12; the short-distance limit to 2.4e-6; in the second branch the minimum at 1.682569148981 with second derivative 0.00144438. The reason is two lines: branch A is 28 net massless modes plus 76 net twisted bosons at one mass, both positive and falling. Conditions: the field content and which of its components are twisted are chosen; every gapped mode is put at mass 1; the interval is read as a circle of length 4 L; and nothing of the manifold enters beyond the counts (so 'the collar of m004' is a flat one-dimensional computation). The two computations use different models of the gapped modes and give different minima in branch B (1.68 and 2.31). The conclusion, that this mechanism does not fix Delta_PS and it stays one free number, is the honest one and stands with these conditions",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:26",
+  "agy-002-closure:AGY002_CLOSURE_G4_RESULTS:32"
+ ]
+}

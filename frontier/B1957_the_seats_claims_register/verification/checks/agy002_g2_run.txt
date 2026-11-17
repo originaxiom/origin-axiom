@@ -1,0 +1,8 @@
+N =  5, S : least exponents (m2/m3, m1/m3): down ('1/5', '11/20'), lepton ('1/5', '11/20'); ratios lepton/down: 1, 1
+N =  5, St: least exponents (m2/m3, m1/m3): down ('1/5', '1/2'), lepton ('1/5', '1/2'); ratios lepton/down: 1, 1
+N = 10, S : least exponents (m2/m3, m1/m3): down ('1/5', '1/2'), lepton ('1/5', '1/2'); ratios lepton/down: 1, 1
+N = 10, St: least exponents (m2/m3, m1/m3): down ('1/5', '1/2'), lepton ('1/5', '1/2'); ratios lepton/down: 1, 1
+N = 15, S : least exponents (m2/m3, m1/m3): down ('2/15', '1/2'), lepton ('1/5', '11/20'); ratios lepton/down: 3/2, 11/10
+N = 15, St: least exponents (m2/m3, m1/m3): down ('2/15', '1/2'), lepton ('1/5', '1/2'); ratios lepton/down: 3/2, 1
+N = 10, S, pointwise at a = 1/10 and 3/10 (down, lepton): [('1/10', ('1/5', '7/10'), ('1/5', '1/2')), ('3/10', ('1/5', '1/2'), ('1/5', '7/10'))]
+Wang: M - 1 = [[1, 1], [1, 0]], det -1: the fibre's H_1 contributes nothing, H_1(m004) = Z, H_2 = 0, H^2 = 0
