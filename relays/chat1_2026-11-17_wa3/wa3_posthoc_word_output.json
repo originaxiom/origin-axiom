@@ -1,0 +1,599 @@
+{
+ "LR": [
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "A_primes": [
+  5
+ ],
+ "A_plant_primes": [
+  3
+ ],
+ "B_u": [
+  1,
+  2
+ ],
+ "B_v": [
+  1,
+  2
+ ],
+ "B_u_is_multiple_of_omega_v": true,
+ "B_phi_lambda_conjugator": "aba",
+ "B_meridian_image": [
+  -1,
+  4
+ ],
+ "B_meridian_fixed_points": 1,
+ "B_longitude_image": [
+  1,
+  0
+ ],
+ "B_cusp_degrees": [
+  1,
+  2,
+  2
+ ],
+ "B_deck_over_m004": 1,
+ "B_deck_over_M2": 5,
+ "B_deck_over_M2_are_shifts": true,
+ "B_clock_intertwines_on_M2": 2.2887833992611187e-16,
+ "B_clock_on_t_defect": 1.902113032590307,
+ "B_commutant_dim_XZ": 1,
+ "B_commutator_scalar": "(0.30901699437494745+0.9510565162951535j)",
+ "B_t_on_plane": [
+  true,
+  true
+ ],
+ "B_weil": {
+  "1": {
+   "relations_defect": [
+    9.625861651846134e-16,
+    5.2359671490206626e-15
+   ],
+   "rhoLR_minus_scalar_P": 0.5527864045000423,
+   "rhoLR_P_inverse_nonscalar": 0.4472135954999583,
+   "rho_minusI_is_P": 2.6660833146884618e-15
+  },
+  "2": {
+   "relations_defect": [
+    1.4458370578921023e-15,
+    1.1933674361393318e-14
+   ],
+   "rhoLR_minus_scalar_P": 0.5527864045000423,
+   "rhoLR_P_inverse_nonscalar": 0.4472135954999585,
+   "rho_minusI_is_P": 5.966837180696657e-15
+  }
+ },
+ "C": {
+  "m004": {
+   "rank": 1,
+   "torsion": [],
+   "d2d1": 0.0
+  },
+  "M2": {
+   "rank": 1,
+   "torsion": [
+    5
+   ],
+   "d2d1": 0.0
+  },
+  "dihedral5": {
+   "rank": 3,
+   "torsion": [],
+   "d2d1": 0.0
+  },
+  "dihedral10_regular": {
+   "rank": 5,
+   "torsion": [],
+   "d2d1": 0.0
+  }
+ },
+ "D_K": {
+  "A": [
+   [
+    -2,
+    1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "det": -5,
+  "alexander": "-t**2 + 3*t - 1",
+  "q_values_x5": [
+   0,
+   1,
+   4
+  ],
+  "q_coeff": [
+   1,
+   4
+  ],
+  "q_class": "residue",
+  "b_values_x5": [
+   0,
+   2,
+   3
+  ],
+  "b_coeff": [
+   2,
+   3
+  ],
+  "b_class": "non-residue"
+ },
+ "D_B": {
+  "T_coeff": 2,
+  "class": "non-residue",
+  "T2_coeff": 4,
+  "T2_class": "residue"
+ },
+ "D_F": {
+  "T2_phases": [
+   1.0,
+   0.19999999999999996,
+   0.8000000000000003,
+   0.8,
+   0.1999999999999999
+  ],
+  "T2_coeff": 1,
+  "T2_class": "residue",
+  "T_coeff": 3,
+  "class": "non-residue"
+ },
+ "D_C": {
+  "up": {
+   "rows": [
+    {
+     "k": 1,
+     "phase": 0.3199999999999999,
+     "pred": 0.31999999999999995,
+     "c25": 8,
+     "u_indep": 3.554447978966673e-16,
+     "modulus": 0.9999999999999998
+    },
+    {
+     "k": 2,
+     "phase": 0.27999999999999964,
+     "pred": 0.2799999999999998,
+     "c25": 7,
+     "u_indep": 5.721958498152797e-16,
+     "modulus": 0.9999999999999994
+    },
+    {
+     "k": 3,
+     "phase": 0.8800000000000002,
+     "pred": 0.8799999999999999,
+     "c25": 22,
+     "u_indep": 5.551115123125783e-16,
+     "modulus": 1.0
+    },
+    {
+     "k": 4,
+     "phase": 0.11999999999999901,
+     "pred": 0.11999999999999922,
+     "c25": 3,
+     "u_indep": 4.577566798522237e-16,
+     "modulus": 0.9999999999999999
+    }
+   ],
+   "level5": false,
+   "T_coeff": null,
+   "class": null
+  },
+  "down": {
+   "rows": [
+    {
+     "k": 1,
+     "phase": 0.8,
+     "pred": 0.8,
+     "c25": 20,
+     "u_indep": 4.965068306494546e-16,
+     "modulus": 1.0000000000000002
+    },
+    {
+     "k": 2,
+     "phase": 0.1999999999999999,
+     "pred": 0.19999999999999996,
+     "c25": 5,
+     "u_indep": 4.965068306494546e-16,
+     "modulus": 1.0000000000000002
+    },
+    {
+     "k": 3,
+     "phase": 0.2000000000000001,
+     "pred": 0.19999999999999996,
+     "c25": 5,
+     "u_indep": 3.510833468576701e-16,
+     "modulus": 0.9999999999999998
+    },
+    {
+     "k": 4,
+     "phase": 0.7999999999999992,
+     "pred": 0.7999999999999998,
+     "c25": 20,
+     "u_indep": 3.195147797709499e-15,
+     "modulus": 1.0000000000000004
+    }
+   ],
+   "level5": true,
+   "T_coeff": [
+    4
+   ],
+   "class": "residue"
+  },
+  "lep": {
+   "rows": [
+    {
+     "k": 1,
+     "phase": 0.20000000000000015,
+     "pred": 0.19999999999999996,
+     "c25": 5,
+     "u_indep": 2.0014830212433605e-16,
+     "modulus": 1.0000000000000004
+    },
+    {
+     "k": 2,
+     "phase": 0.7999999999999999,
+     "pred": 0.7999999999999998,
+     "c25": 20,
+     "u_indep": 3.4844027277880974e-15,
+     "modulus": 0.9999999999999959
+    },
+    {
+     "k": 3,
+     "phase": 0.799999999999999,
+     "pred": 0.8000000000000007,
+     "c25": 20,
+     "u_indep": 2.4650951625709315e-15,
+     "modulus": 1.0000000000000004
+    },
+    {
+     "k": 4,
+     "phase": 0.20000000000000226,
+     "pred": 0.1999999999999993,
+     "c25": 5,
+     "u_indep": 4.47545209131181e-16,
+     "modulus": 0.9999999999999996
+    }
+   ],
+   "level5": true,
+   "T_coeff": [
+    1
+   ],
+   "class": "residue"
+  }
+ },
+ "D_shear": {
+  "U": [
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "w": [
+   0,
+   1
+  ],
+  "shear_U": 4,
+  "class_U": "residue",
+  "shear_U2": 3,
+  "class_U2": "non-residue"
+ },
+ "E_up_orders": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "E_M1_check": 1.7719451407015967e-15,
+ "E": {
+  "up": {
+   "closing": {
+    "M1": [
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": 3,
+      "conserving": true
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": -3,
+      "conserving": false
+     }
+    ],
+    "M2": [
+     {
+      "degrees": [
+       1,
+       2,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       2,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       1,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       1,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     }
+    ]
+   },
+   "mains_2_2_1_closes": {
+    "M1": false,
+    "M2": false
+   }
+  },
+  "down": {
+   "closing": {
+    "M1": [
+     {
+      "degrees": [
+       2,
+       1,
+       1
+      ],
+      "qH": 3,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       1,
+       1
+      ],
+      "qH": -3,
+      "conserving": true
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     }
+    ],
+    "M2": [
+     {
+      "degrees": [
+       1,
+       1,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     }
+    ]
+   },
+   "mains_2_2_1_closes": {
+    "M1": true,
+    "M2": true
+   }
+  },
+  "lep": {
+   "closing": {
+    "M1": [
+     {
+      "degrees": [
+       1,
+       2,
+       1
+      ],
+      "qH": 3,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       2,
+       1
+      ],
+      "qH": -3,
+      "conserving": true
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     }
+    ],
+    "M2": [
+     {
+      "degrees": [
+       1,
+       1,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       1,
+       1,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       1
+      ],
+      "qH": 0,
+      "conserving": false
+     },
+     {
+      "degrees": [
+       2,
+       2,
+       2
+      ],
+      "qH": 0,
+      "conserving": false
+     }
+    ]
+   },
+   "mains_2_2_1_closes": {
+    "M1": true,
+    "M2": true
+   }
+  }
+ },
+ "F": {
+  "roots_mod_5": [
+   4
+  ],
+  "roots_mod_25": [],
+  "invariant_cyclic_25": 0,
+  "D25_solution_orders": [
+   5
+  ],
+  "covers_25_or_5rank2": {
+   "m004": false,
+   "M2": false,
+   "dihedral5": false,
+   "dihedral10_regular": false
+  }
+ },
+ "failure": {
+  "F1": false,
+  "F2": false,
+  "F3": false,
+  "F4": false,
+  "F5": false,
+  "F6": false,
+  "F7": false,
+  "F8": false,
+  "harness": false
+ }
+}

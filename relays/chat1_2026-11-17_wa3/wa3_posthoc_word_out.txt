@@ -1,0 +1,34 @@
+monodromy on H1 of the fibre (columns = images of a, b): [[2, 1], [1, 1]]  plant: [[3, 1], [2, 1]]
+A: primes 3..31 with a dihedral representation (t to a reflection): [5]  solutions at 5: [(1, 2), (2, 4), (3, 1), (4, 3)]
+A: the plant (a -> ababa, monodromy [[3,1],[2,1]]): [3]
+B: fibre character u = (u(a), u(b)) = (1, 2) ; the act's fixed line v (LR v = -v mod 5) = (1, 2) ; omega(v, .) = (3, 1) ; u = c * omega(v, .) with c = [2]
+B: u o LR = (np.int64(4), np.int64(3))  -u = (4, 3)
+B: phi([a,b]) = g [a,b]^(+-1) g^-1 with g = aba ; meridian g^-1 t -> (-1, 4) (fixed points 1 ); longitude -> (1, 0) ; cusp degrees [1, 2, 2]
+B: deck group of the 5-sheeted cover over m004: order 1 ; over M2: order 5 shifts: True
+B: Z rho(g) Z^-1 = chi(g) rho(g) on M2's generators, worst defect 2.3e-16; on t, best scalar defect 1.90 (not a twist)
+B: the deck characters on the fibre: chi_b(a) = z^(b u(a)), chi_b(b) = z^(b u(b)), u = (1, 2)
+B: commutant of <X, Z> has dimension 1 ; X Z X^-1 Z^-1 = (0.309017+0.951057j) * I: True
+B: t acts on the (shift, clock) plane as -I: P X P^-1 = X^-1: True ; P Z P^-1 = Z^-1: True
+B: Weil class a = 1: relations defect 9.6e-16 5.2e-15; rho(-I) = P: 2.7e-15; min |rho(LR) - c P| over 40th roots c = 0.553; rho(LR) P^-1 off scalar by 0.447
+B: Weil class a = 2: relations defect 1.4e-15 1.2e-14; rho(-I) = P: 6.0e-15; min |rho(LR) - c P| over 40th roots c = 0.553; rho(LR) P^-1 off scalar by 0.447
+C: H1(m004) = Z^1 + torsion []   (D2 D1 = 0: 0e+00)
+C: H1(M2) = Z^1 + torsion [5]   (D2 D1 = 0: 0e+00)
+C: H1(dihedral5) = Z^3 + torsion []   (D2 D1 = 0: 0e+00)
+C: H1(dihedral10_regular) = Z^5 + torsion []   (D2 D1 = 0: 0e+00)
+D(K): V + V^T = [[-2, 1], [1, 2]] det -5 ; Alexander -t**2 + 3*t - 1 ; q = x^T A^-1 x / 2 takes 5q in [0, 1, 4] -> coefficient [1, 4] residue ; b(x,x) takes [0, 2, 3] -> [2, 3] non-residue
+D(B): B1951's rho(T) = diag(e(2x^2/5)) (main's weil_centre.py): T-coefficient 2, non-residue ; T^2-coefficient 4, residue
+D(F): flux-5 modes, phase of psi_j(tau+2)/psi_j(tau) / 2pi = [1.0, 0.2, 0.8, 0.8, 0.2] = j^2/5 -> T^2-coefficient 1 ( residue ), T-coefficient 1/2 = 3 ( non-residue )
+D(C): frame C up pair (Q, u): T-phase x25 = [8, 7, 22, 3] (pred [8, 7, 22, 3]), |ratio| [1.0], u-independence 5.7e-16; level 5: False; T-coefficient None None
+D(C): frame C down pair (Q, d): T-phase x25 = [20, 5, 5, 20] (pred [20, 5, 5, 20]), |ratio| [1.0], u-independence 3.2e-15; level 5: True; T-coefficient [4] residue
+D(C): frame C lep pair (L, e): T-phase x25 = [5, 20, 20, 5] (pred [5, 20, 20, 5]), |ratio| [1.0], u-independence 3.5e-15; level 5: True; T-coefficient [1] residue
+D: LR = -U mod 5, U = [[3, 4], [4, 4]] ; in the symplectic basis (v, w), v = [1, 2] w = [0, 1] : U w = w + c v with c = 4 residue ; U^2: c = 3 non-residue
+E: the up pair's T-phases have orders [25, 25, 25, 25]
+E: model M1 (a degree-d field's theta at modulus 2d tau has T-phase e(-d alpha^2)): worst relative defect 1.8e-15
+E: up (q = 1, -4; Higgs 6Y conserving 3): closing in M1: [([1, 1, 2], 3), ([1, 1, 2], -3)]
+     closing in M2: [([1, 2, 1], 0), ([1, 2, 2], 0), ([2, 1, 1], 0), ([2, 1, 2], 0)] ; main's (2, 2, 1) closes: {'M1': False, 'M2': False}
+E: down (q = 1, 2; Higgs 6Y conserving -3): closing in M1: [([2, 1, 1], 3), ([2, 1, 1], -3), ([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]
+     closing in M2: [([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)] ; main's (2, 2, 1) closes: {'M1': True, 'M2': True}
+E: lep (q = -3, 6; Higgs 6Y conserving -3): closing in M1: [([1, 2, 1], 3), ([1, 2, 1], -3), ([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)]
+     closing in M2: [([1, 1, 1], 0), ([1, 1, 2], 0), ([2, 2, 1], 0), ([2, 2, 2], 0)] ; main's (2, 2, 1) closes: {'M1': True, 'M2': True}
+F: roots of x^2 - 3x + 1 mod 5: [4] ; mod 25: [] ; LR-invariant cyclic subgroups of order 25: 0 ; D_25 representations: element orders [np.int64(5)] ; covers with Z/25 or 5-rank >= 2: {'m004': False, 'M2': False, 'dihedral5': False, 'dihedral10_regular': False}
+FAILURE CRITERIA (True = holds): {'F1': False, 'F2': False, 'F3': False, 'F4': False, 'F5': False, 'F6': False, 'F7': False, 'F8': False, 'harness': False}
