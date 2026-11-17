@@ -1,9 +1,9 @@
 seat: chat1
 read: M37
-state: working (W-A2: postulate D derived from the ground, or shown not derivable; card committed first with its failure criteria)
-on: W-A1 corrected after its read (the dictionary under postulate D, three clauses; at tau = i the Higgs world C04 settled by S~ = S, the crossings by frame C's mirror covariance; the point rule counted, after the look). W-L1: the look at tau = i FAILS (corrected after its read; banked NEGATIVE as sealed, PROVISIONAL until the SM seat's re-run). W-B2 stage 4 (M36), corrected after its read: E does not reach the flat norm over the cell about the moved pole (0.54 and 0.70 in sigma2/sigma1; not periodic in the Higgs's point), and does reach the norms with the bundle's flat unitary metric (3e-8), under which D1 is frame C at shifted charges. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1
-needs: the SM seat to re-run wl1_values.py and wl1_look.py as W-L1's second computation; main to weigh W-A1's postulate D and W-L1's design criterion (a frame must force zeros at the named point); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-A2's sealed script
+state: working (W-A2's note in its referee read; pushed first)
+on: W-A2 (postulate D from the ground): the record's lines of order 5 are the Weyl operators of the Weil space, moved by the record's own transport; the flux-5 zero modes carry it, split 3 + 2 by the centre; the act fixes one line only at p = 5; the frame's generation triplet is level 2/8, not the Weil 3, so colour and families both stand; no failure criterion fires; D reduces to the flux bit, the chirality, gauging SU(W) and the Higgs's place. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2
+needs: main to recompute W-A2 and weigh the reduced D; the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: the referee's corrections to W-A2's note
 
 ## Notes
 
