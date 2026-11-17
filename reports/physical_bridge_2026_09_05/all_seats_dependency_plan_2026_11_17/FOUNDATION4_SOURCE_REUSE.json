@@ -1,0 +1,587 @@
+{
+  "base_commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "base_path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+  "target_commit": "017266d878ea366b3fb064f14ea7c17e8274a222",
+  "target_path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+  "base_review": "../x_apex_review_2026_11_17/READ_SCOPE.json",
+  "method": "exact matching source blocks plus personal reading of every unified-diff change; no imports or execution",
+  "base_sha256": "bee65e915a69559d51a8da41edff631c3889d785578be9f50c8b92de76d763bf",
+  "target_sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2",
+  "blocks": [
+    {
+      "operation": "equal",
+      "base_lines": [
+        1,
+        64
+      ],
+      "target_lines": [
+        1,
+        64
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        65,
+        66
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        65,
+        75
+      ],
+      "target_lines": [
+        67,
+        77
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        76,
+        76
+      ],
+      "target_lines": [
+        78,
+        78
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        77,
+        124
+      ],
+      "target_lines": [
+        79,
+        126
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        125,
+        125
+      ],
+      "target_lines": [
+        127,
+        127
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        126,
+        179
+      ],
+      "target_lines": [
+        128,
+        181
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        182,
+        328
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        180,
+        3348
+      ],
+      "target_lines": [
+        329,
+        3497
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        3498,
+        3498
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3349,
+        3383
+      ],
+      "target_lines": [
+        3499,
+        3533
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        3534,
+        3534
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3384,
+        3394
+      ],
+      "target_lines": [
+        3535,
+        3545
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        3546,
+        3743
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3395,
+        3465
+      ],
+      "target_lines": [
+        3744,
+        3814
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        3815,
+        3840
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3466,
+        3468
+      ],
+      "target_lines": [
+        3841,
+        3843
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        3469,
+        3469
+      ],
+      "target_lines": [
+        3844,
+        3844
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3470,
+        3471
+      ],
+      "target_lines": [
+        3845,
+        3846
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        3847,
+        3849
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        3472,
+        4173
+      ],
+      "target_lines": [
+        3850,
+        4551
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        4552,
+        4575
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4174,
+        4274
+      ],
+      "target_lines": [
+        4576,
+        4676
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        4677,
+        4687
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4275,
+        4286
+      ],
+      "target_lines": [
+        4688,
+        4699
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4287,
+        4287
+      ],
+      "target_lines": [
+        4700,
+        4700
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4288,
+        4289
+      ],
+      "target_lines": [
+        4701,
+        4702
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4290,
+        4290
+      ],
+      "target_lines": [
+        4703,
+        4703
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4291,
+        4292
+      ],
+      "target_lines": [
+        4704,
+        4705
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4293,
+        4295
+      ],
+      "target_lines": [
+        4706,
+        4711
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4296,
+        4307
+      ],
+      "target_lines": [
+        4712,
+        4723
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4308,
+        4308
+      ],
+      "target_lines": [
+        4724,
+        4724
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4309,
+        4309
+      ],
+      "target_lines": [
+        4725,
+        4725
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4310,
+        4310
+      ],
+      "target_lines": [
+        4726,
+        4726
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4311,
+        4311
+      ],
+      "target_lines": [
+        4727,
+        4727
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4312,
+        4312
+      ],
+      "target_lines": [
+        4728,
+        4728
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4313,
+        4359
+      ],
+      "target_lines": [
+        4729,
+        4775
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4360,
+        4360
+      ],
+      "target_lines": [
+        4776,
+        4776
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4361,
+        4414
+      ],
+      "target_lines": [
+        4777,
+        4830
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4415,
+        4415
+      ],
+      "target_lines": [
+        4831,
+        4831
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4416,
+        4430
+      ],
+      "target_lines": [
+        4832,
+        4846
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4431,
+        4431
+      ],
+      "target_lines": [
+        4847,
+        4847
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4432,
+        4435
+      ],
+      "target_lines": [
+        4848,
+        4851
+      ]
+    },
+    {
+      "operation": "insert",
+      "base_lines": [],
+      "target_lines": [
+        4852,
+        4854
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4436,
+        4446
+      ],
+      "target_lines": [
+        4855,
+        4865
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4447,
+        4448
+      ],
+      "target_lines": [
+        4866,
+        4867
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4449,
+        4452
+      ],
+      "target_lines": [
+        4868,
+        4871
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4453,
+        4453
+      ],
+      "target_lines": [
+        4872,
+        4872
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4454,
+        4456
+      ],
+      "target_lines": [
+        4873,
+        4875
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4457,
+        4458
+      ],
+      "target_lines": [
+        4876,
+        4877
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4459,
+        4464
+      ],
+      "target_lines": [
+        4878,
+        4883
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4465,
+        4465
+      ],
+      "target_lines": [
+        4884,
+        4884
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4466,
+        4467
+      ],
+      "target_lines": [
+        4885,
+        4886
+      ]
+    },
+    {
+      "operation": "replace",
+      "base_lines": [
+        4468,
+        4468
+      ],
+      "target_lines": [
+        4887,
+        4887
+      ]
+    },
+    {
+      "operation": "equal",
+      "base_lines": [
+        4469,
+        4472
+      ],
+      "target_lines": [
+        4888,
+        4891
+      ]
+    }
+  ]
+}

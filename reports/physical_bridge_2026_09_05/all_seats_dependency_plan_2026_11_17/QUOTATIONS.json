@@ -1,0 +1,176 @@
+{
+  "meaning": "literal source custody only; no proof or numerical certification",
+  "excerpts": [
+    {
+      "finding": "XF-01",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 334,
+      "end": 343,
+      "literal_excerpt": "            # H^1_0([-l_y, l_y]) interior unknowns u_1..u_{n_y-1} (n_y - 1 unknowns, n_y interval equations):\n            b0 = np.zeros((n_y, n_y - 1), dtype=float)\n            for j in range(n_y):\n                ym = -l_y + (j + rat(1, 2)) * h\n                pm = pot_m(ym)\n                if j >= 1:\n                    b0[j, j - 1] = -chirality_sign / h + pm * rat(1, 2)\n                if j <= n_y - 2:\n                    b0[j, j] = chirality_sign / h + pm * rat(1, 2)\n            blocks.append(b0)",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-01",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 399,
+      "end": 402,
+      "literal_excerpt": "def count_kernel_from_svd(mat: np.ndarray, tol: float) -> Tuple[int, List[float]]:\n    svs = np.sort(np.linalg.svd(mat, compute_uv=False))\n    n_zero = int(np.sum(svs < tol))\n    return n_zero, [float(x) for x in svs[:6]]",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-01",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 452,
+      "end": 455,
+      "literal_excerpt": "    cusp_L = build_3d_warped_cusp_callias_matrix(l_y, n_y, k_flux=3, m_inf=rat(2), chirality_sign=+1, periodic_closed_3manifold=False)\n    cusp_R = build_3d_warped_cusp_callias_matrix(l_y, n_y, k_flux=3, m_inf=rat(2), chirality_sign=-1, periodic_closed_3manifold=False)\n    cusp_nL, cusp_svL = count_kernel_from_svd(cusp_L, tol_zero)\n    cusp_nR, cusp_svR = count_kernel_from_svd(cusp_R, tol_zero)",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-02",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 285,
+      "end": 290,
+      "literal_excerpt": "    Full 3D Callias-Dirac operator on [-l_y, l_y]_y x E_{tau = i*sqrt(3)} across Landau levels n = 0, 1, 2:\n      - For n = 0 Landau level (when k_flux > 0): k_flux degenerate transverse 2D zero modes (sigma_3 = +1, mu_0 = 0).\n      - For n >= 1 Landau levels: k_flux pairs of (+, -) transverse spinor modes with mu_n = sqrt(4*pi*k_flux*n / Area),\n        warped on the hyperbolic cusp y > 0 by exp(y) * mu_n!\n      - If periodic_closed_3manifold == False (non-compact cusped m004 neck):\n          M(y) = m_inf * tanh(y) on [-l_y, l_y] with asymptotic L^2 decay psi(+-l_y) = 0?",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-02",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 413,
+      "end": 420,
+      "literal_excerpt": "    for k_charge in (0, 1, 2, 3):\n        blocks_L: List[np.ndarray] = []\n        blocks_R: List[np.ndarray] = []\n        if k_charge >= 1:\n            # Lowest monopole harmonic j = (k - 1)/2 has 2j + 1 = k channels:\n            for _ in range(k_charge):\n                blocks_L.append(build_radial_callias_channel_matrix(r_max, n_rad, m_inf, 0, +1))\n                blocks_R.append(build_radial_callias_channel_matrix(r_max, n_rad, m_inf, 0, -1))",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-02",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 154,
+      "end": 168,
+      "literal_excerpt": "    # U(3) -> SU(4) equatorial loop diag(e^{i*phi}, e^{-i*phi}, 1, 1) at phi = 2*pi (c_1 = 1 with det E_3 = L^{-1}):\n    u3_lift_2pi_err = max(\n        abs(cmath.exp(cpx(rat(0), rat(2) * math.pi)) - rat(1)),\n        abs(cmath.exp(cpx(rat(0), -rat(2) * math.pi)) - rat(1)),\n    )\n    u3_lift_det_err = rat(0)\n    for m_idx in range(17):\n        phi_m = rat(2 * m_idx, 17) * math.pi\n        g_loop = np.diag([\n            cmath.exp(cpx(rat(0), phi_m)),\n            cmath.exp(cpx(rat(0), -phi_m)),\n            cpx(rat(1), rat(0)),\n            cpx(rat(1), rat(0)),\n        ])\n        u3_lift_det_err = max(u3_lift_det_err, abs(complex(np.linalg.det(g_loop)) - rat(1)))",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-03",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "start": 184,
+      "end": 189,
+      "literal_excerpt": "    # Stokes check on compact interior M_compact (d M_compact = T^2_cusp) modeled on a 3D cell grid [0,1]^3:\n    # Any smooth abelian 1-form A has int_{d([0,1]^3)} dA = 0 identically, whereas claiming int_{T^2} F/(2*pi) = 3\n    # without interior monopole or opposite-trace SU(4) channels violates Stokes by |3 - 0| = 3!\n    # For SU(4) split L_{+3} (+) (L_{-1})^{oplus 3}, Tr(F)/(2*pi) = (+3) + 3*(-1) = 0 (globally Stokes-compatible!).\n    abelian_stokes_violation_k3 = abs(3 - 0)\n    su4_trace_flux_k3 = 3 + 3 * (-1)",
+      "source_sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "finding": "XF-04",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_3_verify/verify_x_foundation_3.py",
+      "start": 491,
+      "end": 509,
+      "literal_excerpt": "    # 4. Fibered H_tau x (S^2 x SU(2)) word representation for m004 monodromy M = L * R = [[2, 1], [1, 1]]:\n    #    L = [[1, 1], [0, 1]], R = [[1, 0], [1, 1]] act by Mobius transformations on tau in H_tau (infinite order!)\n    #    while coupling step parity to the order-4 shear T on (S^2 x SU(2)).\n    l_sl2 = np.array([[1, 1], [0, 1]], dtype=int)\n    r_sl2 = np.array([[1, 0], [1, 1]], dtype=int)\n    m_m004 = l_sl2 @ r_sl2\n\n    traces_m_powers = [int(np.trace(np.linalg.matrix_power(m_m004, k))) for k in (1, 2, 3, 4)]\n    # Minimal k >= 1 such that T^k == id on (A, W) is k = 4, where M^4 - I_2 has |det(M^4 - I_2)| == 45 and Smith (3, 15)!\n    minimal_register_trivializing_cover = next(\n        k for k in range(1, 9) if float(np.linalg.norm(aw_from_uv(u, (I_UNIT ** k) * v)[1] - w0, \"fro\")) < p10(-12)\n    )\n    m4_minus_i = np.linalg.matrix_power(m_m004, minimal_register_trivializing_cover) - np.eye(2, dtype=int)\n    det_m4_minus_i = abs(int(round(np.linalg.det(m4_minus_i))))\n    g_m4 = math.gcd(\n        math.gcd(abs(int(m4_minus_i[0, 0])), abs(int(m4_minus_i[0, 1]))),\n        math.gcd(abs(int(m4_minus_i[1, 0])), abs(int(m4_minus_i[1, 1]))),\n    )\n    smith_m4 = [g_m4, det_m4_minus_i // g_m4]",
+      "source_sha256": "2e939e219221dcdd9a62fd49db5bc8aeafb39a5ccb3ecc8a3ddebfdab2244ee0"
+    },
+    {
+      "finding": "XF-05",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+      "start": 283,
+      "end": 298,
+      "literal_excerpt": "    \"\"\"Target-free Buckingham-Pi rank/nullity + unwarped 6D 1-loop Hosotani mass-ratio audit (0 float literals, 0 sqrt(3)).\"\"\"\n    # 1. Exact integer matrix rank check (19 scales -> 20 scales unbridged -> 20 scales + instanton log-bridge row):\n    d19 = np.ones((1, 19), dtype=int)\n    rk19 = int(np.linalg.matrix_rank(d19))\n    null19 = 19 - rk19\n\n    d20_unbridged = np.ones((1, 20), dtype=int)\n    rk20_unbridged = int(np.linalg.matrix_rank(d20_unbridged))\n    null20_unbridged = 20 - rk20_unbridged\n\n    bridge_row = np.zeros((1, 20), dtype=int)\n    bridge_row[0, 0] = 1\n    bridge_row[0, 19] = -1\n    d20_bridged = np.vstack([d20_unbridged, bridge_row])\n    rk20_bridged = int(np.linalg.matrix_rank(d20_bridged))\n    null20_bridged = 20 - rk20_bridged",
+      "source_sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2"
+    },
+    {
+      "finding": "XF-05",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+      "start": 4700,
+      "end": 4709,
+      "literal_excerpt": "            \"id\": \"T_III_16_single_vacuum_bits_scale_nogos_and_instanton_buckingham_ledger\",\n            \"tier\": \"Tier_III_Explicit_Remaining_Source_State_Scale_Duties\",\n            \"seats\": [\"agy-exp\", \"physical\", \"agy-002\"],\n            \"statement\": \"Perturbative 4D quartic crossing (min lam_IR > 0.042) and unwarped 6D 1-loop GHU (m_H/M_KK > 0.1) cannot generate v_EW << M_UV without tuning; 45-sheet instanton transmutation restores Buckingham-Pi nullity 19 -> 18 up to prefactor c_NP, while single-vacuum selection (4 bits) and 1 overall energy unit remain explicitly priced.\",\n            \"computed_witness\": {\n                \"picard_lindelof_exp_formula_rel_err\": picard_rel_err,\n                \"buckingham_nullity_19_vs_20unbridged_vs_20instanton\": [\n                    part_4a[\"scale_transmutation_and_buckingham_pi_audit\"][\"buckingham_19_rank_and_nullity\"][1],\n                    part_4a[\"scale_transmutation_and_buckingham_pi_audit\"][\"PC_FD4_UnbridgedTwoScale_20_rank_and_nullity\"][1],\n                    part_4a[\"scale_transmutation_and_buckingham_pi_audit\"][\"instanton_bridged_20_rank_and_nullity\"][1],",
+      "source_sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2"
+    },
+    {
+      "finding": "XF-06",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+      "start": 3437,
+      "end": 3450,
+      "literal_excerpt": "                for af, bf in ker44:\n                    r1, r2, r3, r4 = raw_cache_44[(af, bf)]\n                    fl_rep = rk4_integrate_full_f64(\n                        c_14 * r1, c_23 * r2, c_23 * r3, (c_14 * r4) @ m_r_inv_111 @ (c_14 * r4).T,\n                        g_uv, g_uv, g_uv, lam_uv, d_ln_mu, n_steps=48, repaired_mixed_order=True,\n                    )\n                    a1i = 4.0 * math.pi / (fl_rep[\"g1\"] ** 2)\n                    a2i = 4.0 * math.pi / (fl_rep[\"g2\"] ** 2)\n                    a3i = 4.0 * math.pi / (fl_rep[\"g3\"] ** 2)\n                    a_em = (5.0 / 3.0) * a1i + a2i\n                    sw2 = (0.6 * a2i) / (a1i + 0.6 * a2i)\n                    ig = sw2 - (23.0 / 134.0 + (109.0 / 201.0) * (a3i / a_em))\n                    rep_all_I.append(ig)\n                    rep_all_lam.append(float(fl_rep[\"lam\"]))",
+      "source_sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2"
+    },
+    {
+      "finding": "XF-06",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+      "start": 3548,
+      "end": 3549,
+      "literal_excerpt": "    scale_audit_wit[\"min_lam_ir_1320_histories\"] = float(min(rep_all_lam))\n    scale_audit_wit[\"min_lam_ir_286_torsion_vacua\"] = float(min(rep_286_lam))",
+      "source_sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2"
+    },
+    {
+      "finding": "SM-01",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/SM_C16_THE_ACTION_AS_THE_WEIGHT.md",
+      "start": 9,
+      "end": 11,
+      "literal_excerpt": "- **B1088's action, S = \u2212Vol\u00b7\u03c3, weighted as e^{\u2212S} = e^{+\u03c3\u00b7Vol}, moves the read-out out of the cusp at every \u03c3 > 0.**\n  So it cannot be the principle that gives the cusp its weight (B1944's wall), and item 2 of this seat's proposal is\n  closed for B1088's action with its sign.",
+      "source_sha256": "238ecea7edbbff080e2ccf584b28a1be5460d555b34f24e2bcf9076c86b5389b"
+    },
+    {
+      "finding": "SM-01",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/SM_C17_THE_ACTION_AS_A_PHASE.md",
+      "start": 8,
+      "end": 14,
+      "literal_excerpt": "- **With B1088's action as a phase, e^{iS} = e^{\u2212i(2\u03c0k\u00b7CS + \u03c3\u00b7Vol)}, no setting makes the cusp-heavy threads coherent\n  while the bulk cancels.**\n  - Wherever any bin stays coherent above its shuffled floor, the bulk does, and it is the more coherent bin.\n  - The Chern\u2013Simons term (k \u2265 1) drives the cusp-heavy threads *below* their floor while the bulk stays above it.\n- **So B1088's action is closed as the weight in both forms:**\n  - as a real weight (SM-C16), it pulls the read-out into the bulk;\n  - as a phase (here), interference keeps the bulk and cancels the cusp.",
+      "source_sha256": "3dc302afc31b1ccd723954fe5dd3a57a0b226d951651e39c1980758354c8a0ff"
+    },
+    {
+      "finding": "SM-01",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/sm_c16/run_c16.py",
+      "start": 33,
+      "end": 44,
+      "literal_excerpt": "\ndef words():\n    rng = random.Random(1924)\n    for _ in range(8):              # B1928's preliminary draws\n        x = rng.uniform(-0.5, 0.5)\n        rng.uniform(math.sqrt(1 - x * x) + 0.01, 3.0)\n    out = []\n    while len(out) < 3000:\n        w = \"\".join(rng.choice(\"LR\") for _ in range(40))\n        if \"L\" in w and \"R\" in w:\n            out.append(w)\n    return out",
+      "source_sha256": "b4ab24da7479216921610dd98017c21b7f912b21c93f334877e8bb1fd6238b54"
+    },
+    {
+      "finding": "SM-01",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/sm_c16/run_c16.py",
+      "start": 99,
+      "end": 105,
+      "literal_excerpt": "        f = np.array(fr[Y])\n        u, ue = wmean_jk(f, np.ones(len(f)))\n        rows = {\"uniform\": [u, ue]}\n        for s in (+1, -1):\n            for sig in (0.0, 0.05, 0.1, 0.2, 0.5, 1.0):\n                R, e = wmean_jk(f, np.exp(s * sig * v0))\n                rows[\"s=%+d sigma=%g\" % (s, sig)] = [R, e, (R - u) / max(e, 1e-300)]",
+      "source_sha256": "b4ab24da7479216921610dd98017c21b7f912b21c93f334877e8bb1fd6238b54"
+    },
+    {
+      "finding": "SM-01",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/sm_c17/run_c17.py",
+      "start": 46,
+      "end": 48,
+      "literal_excerpt": "    for kk in (0, 1, 2):\n        for sig in (0.0, 0.05, 0.1, 0.2, 0.5, 1.0, 2.0):\n            ph = -(2 * math.pi * kk * cs + sig * vol)",
+      "source_sha256": "8db139857e613911ded857b75d694e750ad89d9b6794936846535fa972fe0e4c"
+    },
+    {
+      "finding": "END-01",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/canon_readout.py",
+      "start": 35,
+      "end": 45,
+      "literal_excerpt": "def canon(t):\n    x, y = t.real, t.imag\n    yq = min(y, YMAX)\n    out = {}\n    for name, (lin, near) in INTERP.items():\n        v = float(lin(x, yq))\n        if not np.isfinite(v):\n            v = float(near(x, yq))\n        out[name] = v\n    out[\"_extrapolated\"] = y > YMAX\n    return out",
+      "source_sha256": "34432d7bb9075720e9d6a48256a3b28caf13ba0a4618155ec677a2ff6c70043f"
+    },
+    {
+      "finding": "JOIN-SCOPE",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/FINDINGS.md",
+      "start": 124,
+      "end": 129,
+      "literal_excerpt": "- Which physical sector, if any, each block is. That the 3 is the down quarks and the 2 the leptons is a hypothesis.\n- That the phased sum or either Gramian is the read-out. Each is a covariant candidate; a read-out is a declared\n  choice, to be sealed before any look.\n- Anything for the up sector beyond its failure, or for the leptons beyond B1949's relation.\n- The identities at points other than the two base points and their images. The phases are roots of unity, so the\n  identities are expected to hold everywhere, but that is not proved here.",
+      "source_sha256": "3d1ab0dc3dc9e12ae91a2c294b04629816ba17a2d70d55ee6dd14867cca3a449"
+    }
+  ]
+}

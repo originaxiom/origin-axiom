@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-17",
+  "fetch": "git fetch --all --prune",
+  "remote_branches_excluding_HEAD_alias": 25,
+  "refs": [
+    {
+      "ref": "origin/HEAD",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "date": "2026-11-17T18:35:30+01:00",
+      "kind": "symbolic alias"
+    },
+    {
+      "ref": "origin/agy-002/closure",
+      "head": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+      "date": "2026-11-17T12:47:48+01:00",
+      "prior_receipt_head": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "agy-002 (CLOSURE-G7B commit 4): record Gate 7B results and update master synthesis and three-lane audit through 80fdd90b2 and 407583a8c (0 of 19)"
+    },
+    {
+      "ref": "origin/agy-002/endgame",
+      "head": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "date": "2026-11-16T04:03:18+01:00",
+      "prior_receipt_head": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "agy-002 (ENDGAME-V2-G3 commit 4): record Gate 3 results, master synthesis, and seat status (0 of 19)"
+    },
+    {
+      "ref": "origin/agy-002/verify",
+      "head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+      "date": "2026-11-15T18:42:41+01:00",
+      "prior_receipt_head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "agy-002 (A2-B1947 / M40): deliver closing comparison note (SAME on C2 negative across both conventions and both representatives) and update STATUS_AGY-002.md. 0 of 19."
+    },
+    {
+      "ref": "origin/agy/audit-2026-11-02",
+      "head": "d1c71f255ade662098dbec1167ba355b12584740",
+      "date": "2026-11-17T01:20:40+01:00",
+      "prior_receipt_head": "d1c71f255ade662098dbec1167ba355b12584740",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Harden Stage 1 v17 AST scanners (D1-D6 + proactive cousins) and memoize G2 reachability"
+    },
+    {
+      "ref": "origin/agy/frontier-2026-10-26",
+      "head": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+      "date": "2026-10-27T12:35:01+01:00",
+      "prior_receipt_head": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "B1782 (P-409): cosmological constant derivation and unimodular quantum vacuum decoupling"
+    },
+    {
+      "ref": "origin/agy/self-consistent-loop-2026-11-11",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "date": "2026-11-17T17:42:37+01:00",
+      "prior_receipt_head": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "changed_since_prior_receipt": true,
+      "new_commits": "16",
+      "latest_subject": "agy-exp (X-FOUNDATION-4 commit 4): post mask-clean final results and complete Campaign X-FOUNDATION (M32, M40, 7d54c8731, edd86ea04, 358d61786, 097a4a911, d1c71f255; 0 of 19)"
+    },
+    {
+      "ref": "origin/agy/stage4-sync-2026-11-11",
+      "head": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+      "date": "2026-11-11T19:19:11+01:00",
+      "prior_receipt_head": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "agy-002 relay (2026-11-11): record owner-assigned handle verbatim ('refetch, youre agy-002, let main know that, as it will give you directions'), disambiguate stage4-sync-2026-11-11 from agy-exp, acknowledge P-780/P-781/B1889, and wait on main's directions. He was asked nothing. Nothing outside relays/ is changed. 0 of 19."
+    },
+    {
+      "ref": "origin/audit/fork-2026-09-20",
+      "head": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "date": "2026-10-13T13:17:07+02:00",
+      "prior_receipt_head": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Publish controlled horizontal transport and projected cusp confinement"
+    },
+    {
+      "ref": "origin/audit/independent-2026-11-03",
+      "head": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+      "date": "2026-11-03T13:13:28+01:00",
+      "prior_receipt_head": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Deep code-level and guardrail scrutiny of agy 951998a73: document unrun/crashing pytest (12 key mismatches) and hostile_referee_audit.py (NameError th2_mp, KeyError c_ll_twist6_closed_form), plus live Guardrail 1-5 violations still returned by phase1-phase9, theorem8, theorem9, and summary_metrics. 0 of 19."
+    },
+    {
+      "ref": "origin/audit/physical-bridge-2026-09-05",
+      "head": "f0411fd82e42eeae29a7a93620a43ab00e684fb8",
+      "date": "2026-11-17T17:31:11+01:00",
+      "prior_receipt_head": "f0411fd82e42eeae29a7a93620a43ab00e684fb8",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Complete requested X-APEX source reading with fifteen scoped defects and exact receipts"
+    },
+    {
+      "ref": "origin/chat1/web-seat",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "date": "2026-11-17T19:14:24+01:00",
+      "prior_receipt_head": "1df2aacf63b8f2b722af8a9569aad4129f50942a",
+      "changed_since_prior_receipt": true,
+      "new_commits": "14",
+      "latest_subject": "chat1: W-H1 referee corrections applied (ready with corrections): G2's relay is not named on main but its package is traced (only its row is missing); relay debt is not aged at 21 days (seat-index items are); Review 82 is B1931; message ids recur on seat pages, which shows reference, not answers; the review lanes' shared last segment; one retired seat's key masked in the output"
+    },
+    {
+      "ref": "origin/chatgpt/weave-physics-archive-2026-10-11",
+      "head": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+      "date": "2026-10-13T17:14:45+02:00",
+      "prior_receipt_head": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Preserve weave runs 01-13: the owner's unchanged recovery ZIP (1,266,286 bytes; sha256 afdf14b8b0691db97345d5b947fb2bbea08de4872140667e1ccdcef860c1011e) and its restore by the branch's own restore_archive.py, run locally: 291 members, 289 manifest entries and 254 original-archive members byte-verified, git index verified, no archived program executed; RESTORE_RECEIPT.json status VERIFIED. The branch's GitHub workflow is removed, because the repository's tracked-forbidden gate forbids tracked .github/ files on any pushed tree; the same script did its job here."
+    },
+    {
+      "ref": "origin/claude/kind-hypatia-uk0vv9",
+      "head": "6a537f899c9c1882930475144a30ae76aa2966d8",
+      "date": "2026-10-06T15:53:09+00:00",
+      "prior_receipt_head": "6a537f899c9c1882930475144a30ae76aa2966d8",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "B1035's three receipts pinned beside its lock: it reads no ref, so any clone verifies them"
+    },
+    {
+      "ref": "origin/claude/outside-bench",
+      "head": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "date": "2026-09-18T10:39:23+00:00",
+      "prior_receipt_head": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "memo 236 THE PAPER ALREADY HAD IT: OUTCOME A -- all four conclusions were already in the paper, and already_banked.py cannot read the paper"
+    },
+    {
+      "ref": "origin/claude/paper-review-verification-kaz3f5",
+      "head": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "date": "2026-10-01T08:43:53+00:00",
+      "prior_receipt_head": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "SWEEP 2026-10-01: every lane read against main -- the axioms are not reduced, one fork is re-graded, the spin bit went up, and two of my own round-3 sentences are withdrawn"
+    },
+    {
+      "ref": "origin/claude/project-thread-hctlox",
+      "head": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+      "date": "2026-10-06T23:11:36+00:00",
+      "prior_receipt_head": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "LP01 cross-check: the sealed instrument on o10_150726 finds no common cover with m004 at degree 5, 10 or 15 and one at degree 20, chiral, no three, irregular on both sides, with the same isometry signature as the exact level-4 construction. The two instruments agree; o10_150726's common cover is minimal over all conjugates. 0 of 19."
+    },
+    {
+      "ref": "origin/claude/standard-model-derivation-0qt6ao",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "date": "2026-11-15T10:45:41+00:00",
+      "prior_receipt_head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "SM-C17 delivered: the record's action as a phase e^{iS} never makes the cusp-heavy threads coherent while the bulk cancels; the bulk is the more coherent bin, and the Chern-Simons term de-coheres the cusp-heavy threads; E2 and E3 failed as sealed (said); a ratio-of-cancelled-sums share flagged; with SM-C16 the record's action is closed as the weight in both forms"
+    },
+    {
+      "ref": "origin/cld/cool-hamilton-k9eqvo",
+      "head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+      "date": "2026-11-14T17:37:49+00:00",
+      "prior_receipt_head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "cld-advisor: paused to save resources; status and plan row"
+    },
+    {
+      "ref": "origin/explore/2026-11-05",
+      "head": "af81fb6ef45f3544a5113a118599c16f185225a2",
+      "date": "2026-11-07T12:58:54+01:00",
+      "prior_receipt_head": "af81fb6ef45f3544a5113a118599c16f185225a2",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "explore: THE READ-OUT BY A STATE, the dated note's citation of main's THE_TAU_READOUT_RULE document reworded (the file is on main, after this branch's base; the path-refs gate). 0 of 19."
+    },
+    {
+      "ref": "origin/main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "date": "2026-11-17T18:35:30+01:00",
+      "prior_receipt_head": "7d54c87313f58eaaea2c3204800357a26d6328e9",
+      "changed_since_prior_receipt": true,
+      "new_commits": "4",
+      "latest_subject": "S306p THE HARVEST OF THE WORK OF 2026-11-15 TO 17 IS ENTERED FOR EVERY LANE, AND THE PICTURE IS WRITTEN (rows 1878 to 1881; P-865); B1955 CORRECTED THE SAME DAY: THE OBJECT CARRIES BOTH WEIL CLASSES. The web seat's referee corrected W-A3 after main banked it: the knot's discriminant form gives x^2/5 and the act, read on the cover, gives 2x^2/5, B1951's, so the class is a choice and not fixed by the knot; recomputed on main (the squared trace counts fixed points on F_5^2 in both classes, on all 120 elements; the unit shears on the cover's labels are implemented by the non-residue class); B1955's page, verdict line, registry and law-map rows and B1951's note corrected. The last lanes entered, every pin now at its lane's head: the agy audit lane's note of 14 November (three data-free tests with failure conditions, nothing run: leads) and its stages and scanner revisions (registered, not read); the builder's 68 commits (everything it sent already on main; paused). docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md: what is verified on main this week, what is refuted, what is still counted, what the other sessions claim unverified, and what is open in order; the count of inputs has not fallen; the next step is to join frame C's operator with the exterior algebra's invariant tensors. Messages on the web seat's and the agy lane's pages. 0 of 19."
+    },
+    {
+      "ref": "origin/referee/B1668_the_price_of_the_nineteen",
+      "head": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+      "date": "2026-10-17T09:54:33+02:00",
+      "prior_receipt_head": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "referee lane: banking \u2014 POINT_REGISTER P-191\u2013P-193, SEAT_REGISTER (the referee lane), CHANGELOG and PROGRESS_LOG entries, LAW_MAP and THEOREM_REGISTRY rows for B1669 (T-THE-DEDEKIND-PHASE), the atlas, the seal ledger and the views regenerated; the verdicts' reach fields in the schema's vocabulary; gates 45 of 45"
+    },
+    {
+      "ref": "origin/referee/landing",
+      "head": "806dfd6002773bf1d1eba273f432fb626f27b302",
+      "date": "2026-10-17T14:21:19+02:00",
+      "prior_receipt_head": "806dfd6002773bf1d1eba273f432fb626f27b302",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "referee lane, landing branch on main: B1670 THE PRICE OF THE NINETEEN and B1671 THE DEDEKIND PHASE (sealed on the lane as B1668, B1669; renumbered because main banked its own B1668 and B1669; the sealed files byte-identical, the seal commits kept on the lane's branch), the three reports, the readers' ledger page, the locks, LAW_MAP and THEOREM_REGISTRY rows, P-193\u2013P-195, the seat register, CHANGELOG and PROGRESS_LOG; gates 45 of 45"
+    },
+    {
+      "ref": "origin/review-82/read",
+      "head": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+      "date": "2026-11-14T06:21:23+01:00",
+      "prior_receipt_head": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Review 82's reading copy: main's head at the opening (window 0e637ea9e to 73e71e277) with six faults main planted to test the readers; the plants file's sha256 is published at the opening and the file at the entry"
+    },
+    {
+      "ref": "origin/review-83/read",
+      "head": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+      "date": "2026-11-15T02:48:05+01:00",
+      "prior_receipt_head": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "review-83/read: Review 83's reading copy, main's head c8cece9be with the faults main planted to test the readers (their list is held until the entry; its sha256 is published in register row P-858)"
+    },
+    {
+      "ref": "origin/sep16-branch",
+      "head": "3205984b48d1b98a80042cdc70916878973980f5",
+      "date": "2026-09-29T13:49:14+00:00",
+      "prior_receipt_head": "3205984b48d1b98a80042cdc70916878973980f5",
+      "changed_since_prior_receipt": false,
+      "new_commits": "0",
+      "latest_subject": "Schema repair: xB029-xB034 brought into the verdict lock (they wrote VERIFIED and lacked id/claim_one_line/instrument/creates_law); the lock's seat-prefix hole recorded with the banking seat's scheme; R58-6 held behind it"
+    }
+  ]
+}

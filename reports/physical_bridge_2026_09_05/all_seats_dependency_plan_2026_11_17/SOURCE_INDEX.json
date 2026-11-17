@@ -1,0 +1,797 @@
+{
+  "evidence": "custody only; reading coverage is separate",
+  "sources": [
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/FINDINGS.md",
+      "bytes": 5987,
+      "lines": 89,
+      "sha256": "6c72520c46227b20a976ac63332729d3de6168b98f5961074465afc0fe6f2475"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/arc_verdict.json",
+      "bytes": 2098,
+      "lines": 29,
+      "sha256": "d4216e81e2f8a0907702900f535dfa5479810b3667fdbc30518caf75e7ec6aff"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/verification/test_b1951_weil_centre.py",
+      "bytes": 1371,
+      "lines": 23,
+      "sha256": "cec961e2e22ac22ba01a4283fcb50bcb9106955e57a55eaa399f747746b63de9"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/verification/weil_centre.py",
+      "bytes": 4568,
+      "lines": 67,
+      "sha256": "d569179990fd60b41b4290a30e38375dca3517a2075cd7a23daad8f1b7edd7e9"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1951_the_weil_centre_gives_the_gauge_group_and_one_generations_hypercharges/verification/weil_centre_run.txt",
+      "bytes": 1512,
+      "lines": 19,
+      "sha256": "66d01aa88cba477a4ea15d7984d4d6413bd3a50902211e643156e4d392490467"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1952_the_weil_space_is_the_module_of_the_records_lines_and_colour_and_families_sit_at_coprime_levels/FINDINGS.md",
+      "bytes": 8253,
+      "lines": 91,
+      "sha256": "cc51a9727cf848b9f66511b6371b7f92fee16e6bd90fffee584e7a342a81464a"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1952_the_weil_space_is_the_module_of_the_records_lines_and_colour_and_families_sit_at_coprime_levels/arc_verdict.json",
+      "bytes": 2695,
+      "lines": 31,
+      "sha256": "f9914da066eef1a91133ec8a0c959e29a150272e6dfe80657eabf35c64ea073d"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1952_the_weil_space_is_the_module_of_the_records_lines_and_colour_and_families_sit_at_coprime_levels/verification/test_b1952_wa2_on_main.py",
+      "bytes": 2246,
+      "lines": 43,
+      "sha256": "28aaa3d18c12f9079476e5c3fc88ad7c87b260df274b14e859da9acb27d64b41"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1952_the_weil_space_is_the_module_of_the_records_lines_and_colour_and_families_sit_at_coprime_levels/verification/wa2_on_main.py",
+      "bytes": 10658,
+      "lines": 149,
+      "sha256": "2e46edf52a1dd16566472b06f8bda3839ddfbd1d9675144718eae3802783a50a"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1952_the_weil_space_is_the_module_of_the_records_lines_and_colour_and_families_sit_at_coprime_levels/verification/wa2_on_main_run.txt",
+      "bytes": 1791,
+      "lines": 12,
+      "sha256": "786e29ed1f772dbaf2852029212db59f3418bc863832ce9fc24ff140fb69a023"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/FINDINGS.md",
+      "bytes": 9654,
+      "lines": 130,
+      "sha256": "3d1ab0dc3dc9e12ae91a2c294b04629816ba17a2d70d55ee6dd14867cca3a449"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/arc_verdict.json",
+      "bytes": 2518,
+      "lines": 30,
+      "sha256": "2573a985427888644782db6ba1c200d90c5d32964c1ed619e1d034d6afebe652"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/exact_facts.py",
+      "bytes": 2536,
+      "lines": 33,
+      "sha256": "743b0616181ff1a11affe06043b33d75f05ffbae3f7d90256fd37992b654ce33"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/exact_facts_run.txt",
+      "bytes": 415,
+      "lines": 4,
+      "sha256": "3a5bc40eefdbaaea7d97dc613145fc0561cc41c93bd5369898f8a499f0d2d8c5"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/test_b1953_weyl_operator.py",
+      "bytes": 2684,
+      "lines": 49,
+      "sha256": "522be7c5baf5837923967b960a1dbc3be9929e8a71a71b892828d579d07120a0"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/weyl_operator.py",
+      "bytes": 8771,
+      "lines": 149,
+      "sha256": "d9017666b39fef9115e7252fae36d4f6079b948768b210ba6d7044c9a04763ef"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/verification/weyl_operator_run.txt",
+      "bytes": 7759,
+      "lines": 49,
+      "sha256": "f655e1d86cf34c1042059df2ceb6bdbbc644997df93db82e34ebbf4823148a06"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/FINDINGS.md",
+      "bytes": 10388,
+      "lines": 124,
+      "sha256": "e3ee5429ec0974a306e89e832731d39cf68da73b4cd4dee716eaa85c022ceadd"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/arc_verdict.json",
+      "bytes": 3296,
+      "lines": 32,
+      "sha256": "728d4ea7174fbaa5539c47dfef3ac0bcb30f39478333190ca33f8eec2de05b3f"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/class_is_a_choice.py",
+      "bytes": 3393,
+      "lines": 69,
+      "sha256": "42051fbc495206e3f5f21f1b958d037b2d235e2ff507b1f51e75a67170b1943e"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/class_is_a_choice_run.txt",
+      "bytes": 906,
+      "lines": 8,
+      "sha256": "b72adc4d3f9eff4dd37f2ca1ef53f12218e5b7c15717e55285ad0121df2706d0"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/test_b1955_wa3_on_main.py",
+      "bytes": 3746,
+      "lines": 75,
+      "sha256": "bf1acc94091732e9f835eafa6a8b0796e89b019dc469fa64589ba1d8631f5b70"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/wa3_on_main.py",
+      "bytes": 10747,
+      "lines": 144,
+      "sha256": "53923c5b2695a035a33e24b3cb2ad20b04a5a55b050439a0be987998bf411deb"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/wa3_on_main_run.txt",
+      "bytes": 2084,
+      "lines": 8,
+      "sha256": "0bd9efcb80e5baa63cec7420dc6460092a9b395603f40771981f3064910b0be3"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/wz1_checks.py",
+      "bytes": 1766,
+      "lines": 22,
+      "sha256": "8d6de077cce53d2830d3d20b4350fefa5d08acee9b776e6df0a69416e18cca24"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1955_the_knots_dihedral_cover_supplies_the_weil_space_and_the_parity_with_no_flux/verification/wz1_checks_run.txt",
+      "bytes": 364,
+      "lines": 2,
+      "sha256": "f7956d1e5d452a71d05fcf07c4667ef0db6f970920c31e7512b53a644dde145a"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/FINDINGS.md",
+      "bytes": 7279,
+      "lines": 79,
+      "sha256": "c8a0ebcf17927f0cb6efe8f022d23ede17d9d22dcdd5b04400341f338429a879"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/arc_verdict.json",
+      "bytes": 2118,
+      "lines": 30,
+      "sha256": "255bf0dfc8c15398864189103560910ca536d5f46b4d8ff90667cc70d1c4a7b0"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/verification/agy_exp_checks.py",
+      "bytes": 3709,
+      "lines": 63,
+      "sha256": "8d5d4a8617ed8cd8683eb26fe0267b614fa356008694d982661ae9ddda50ba74"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/verification/agy_exp_checks_run.txt",
+      "bytes": 575,
+      "lines": 5,
+      "sha256": "92cba3c921a67c306319a88ab83812a68ff9bb22d18a166d036235799fd18757"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1956_agy_exps_ten_campaigns_read_at_their_result_notes_and_checked_where_exact/verification/test_b1956_agy_exp_checks.py",
+      "bytes": 665,
+      "lines": 17,
+      "sha256": "f8838a04df7bec961e8104cc858905ab30dd747f02fff689377162ae7de1c6c7"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md",
+      "bytes": 6451,
+      "lines": 88,
+      "sha256": "c18376e0a21ca97245e5094c9d8bb92caf29809074ffcfe39e132adf669d609d"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/THE_WEAVE.md",
+      "bytes": 88219,
+      "lines": 969,
+      "sha256": "6d825c3f487875038050fed940662616b58fd708fd054d4116c477516271f2da"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/THE_LADDER.md",
+      "bytes": 49676,
+      "lines": 165,
+      "sha256": "228172a7707202449bf6c4e28c01c028acfc236e29776605f940f9a871bc684a"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/THE_FRAMEWORK.md",
+      "bytes": 70522,
+      "lines": 941,
+      "sha256": "e3a10828df9e50317dd06b0d4d083f30a554abf721a36c0308dd1ef6f8c3ea19"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/TOOLBOX_LIVE.md",
+      "bytes": 28195,
+      "lines": 334,
+      "sha256": "ee6596b8714f824d359c114e739defe42db721a83d89a60f0b63fae5cc710d2a"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/seats/physical.md",
+      "bytes": 9562,
+      "lines": 120,
+      "sha256": "68b2a99be2deba8bf835bde7818e3c0d5a94544927c68506e3836537f2368517"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/STATUS_CHAT1.md",
+      "bytes": 16393,
+      "lines": 108,
+      "sha256": "1f77d513904a44cd8d76dae207fe5e06134212a9565a861be3596f53d38912c9"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md",
+      "bytes": 17299,
+      "lines": 192,
+      "sha256": "a86931649d92d601fe02ae5511f2796ca152fbc03712076262fb1544b2597c95"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md",
+      "bytes": 9722,
+      "lines": 109,
+      "sha256": "9e13617c6be61b581103d3dc6622698fa2a4a583ff55194c7c767c221d6e4577"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md",
+      "bytes": 7639,
+      "lines": 118,
+      "sha256": "4f1f09ef2b2dc65f70e7b6e2736cdd16a53c6cc9c7515e8c6391f3ff7791aac6"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/SCRIPT_SHA256.txt",
+      "bytes": 80,
+      "lines": 1,
+      "sha256": "c438714773baba027a8416c05ad5d36819c60777efffb44bd70f742eb048582a"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/SCRIPT_SHA256_POSTHOC.txt",
+      "bytes": 173,
+      "lines": 2,
+      "sha256": "bdf046b88a021df287cf2d241af8efde67b408347b791c6a7e99e320eb7dda48"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_checks.py",
+      "bytes": 21167,
+      "lines": 498,
+      "sha256": "84f615e68bf7a9882fc345cd98db4bd01399e9d382ebac33339d94ae3d7bd53c"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_checks_err.txt",
+      "bytes": 197,
+      "lines": 5,
+      "sha256": "aad0b21d05c8a1a804681ee5cf411628dd587b8f39c531c8e213aa05aea47340"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_checks_out.txt",
+      "bytes": 1105,
+      "lines": 11,
+      "sha256": "9edf7b20ed18ed47a1b1f59409da25b6ca031eb65faa4beb579f517d6f8526e7"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_exit.txt",
+      "bytes": 21,
+      "lines": 3,
+      "sha256": "8cdafb1a067bbc914905d258c4e10443a94a981abc01b6a9a4e73ac192ed6110"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_wedge.py",
+      "bytes": 5819,
+      "lines": 138,
+      "sha256": "f6af1b069a67d2ae3f77b5803eeda22891f91f34df81edd5f8eb7d158375194f"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_wedge_err.txt",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_wedge_out.txt",
+      "bytes": 1135,
+      "lines": 10,
+      "sha256": "ca731baae638ad50bbf8bdb5efb18899af57167eec03cc6b6613c0660201cefe"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_wedge_output.json",
+      "bytes": 1122,
+      "lines": 82,
+      "sha256": "7720ea766d038fd06875a39dd6ecb8ea08b931552f54102ca9ef94c559e24ad7"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_word.py",
+      "bytes": 1380,
+      "lines": 20,
+      "sha256": "1b69b11250abff77fc104d7838f0752b37b5356620e6b65851ff2e3fb3c3d844"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_word_err.txt",
+      "bytes": 0,
+      "lines": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_word_out.txt",
+      "bytes": 4169,
+      "lines": 34,
+      "sha256": "5b0aded57801f8e905b1cacdacd02755067939f008e4e9dc9eb13686adda059a"
+    },
+    {
+      "lane": "chat1",
+      "head": "5432adc71a455818cccae2f3e540955763dc6924",
+      "path": "relays/chat1_2026-11-17_wa3/wa3_posthoc_word_output.json",
+      "bytes": 8595,
+      "lines": 599,
+      "sha256": "79f78f95406506cec1ddd1a72376a0b3c8515f1cdf5d5bdba7658fe87575a7c0"
+    },
+    {
+      "lane": "sm",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/STATUS_SM.md",
+      "bytes": 38266,
+      "lines": 434,
+      "sha256": "dcd501ba55679a6c02b8c4ff65a03267cecf294a60961d3c92ecc61d82af0e71"
+    },
+    {
+      "lane": "agy002",
+      "head": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+      "path": "relays/STATUS_AGY-002.md",
+      "bytes": 2200,
+      "lines": 20,
+      "sha256": "d699bdeaf235c85c42accfca5b4f581d8b75c50b4d1539600e8253a70f4c2cbb"
+    },
+    {
+      "lane": "agy002",
+      "head": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+      "path": "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md",
+      "bytes": 14300,
+      "lines": 62,
+      "sha256": "08f5f672635db936690676e226ffd361ec74a0580861117350325ec3dd054744"
+    },
+    {
+      "lane": "agy002end",
+      "head": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+      "path": "relays/STATUS_AGY-002.md",
+      "bytes": 1143,
+      "lines": 18,
+      "sha256": "89396a1e411d0649f7096ec37b126a7a673f6ee6220fa5e6429565be350059e8"
+    },
+    {
+      "lane": "agy002verify",
+      "head": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+      "path": "relays/STATUS_AGY-002.md",
+      "bytes": 7390,
+      "lines": 39,
+      "sha256": "694952e02177abe0024b533a897a07b976bac3ca085d15a398f396eccb4957ff"
+    },
+    {
+      "lane": "agy",
+      "head": "d1c71f255ade662098dbec1167ba355b12584740",
+      "path": "relays/STATUS_AGY.md",
+      "bytes": 2846,
+      "lines": 19,
+      "sha256": "a520b5acd10f64f09f19abf216af6200ef3a4ccdac4dccf165797828db121708"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/STATUS_AGY-EXP.md",
+      "bytes": 40126,
+      "lines": 145,
+      "sha256": "0824f8e1f050a199d2354e96b1dc19732b502fdd33c64934a855100f17a0b5e7"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md",
+      "bytes": 3613,
+      "lines": 21,
+      "sha256": "7cd7d0853df13ac43619bf5ed83ec537df40c7be5fcfacfb8f599ccbc4e85568"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS.md",
+      "bytes": 4226,
+      "lines": 27,
+      "sha256": "b3ec422dccc15a01bd25249261ebc85400a102c6951c8be3e1418b073792a647"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS.md",
+      "bytes": 4190,
+      "lines": 28,
+      "sha256": "d04b364501a929c64ec017efc306ff027fda920e513fbe8a7439c25fd95426b1"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md",
+      "bytes": 7558,
+      "lines": 36,
+      "sha256": "975f6be082a4d045595a07e23b84e4f3071c5d52b3ecfb922ca10b0a411ed909"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/cards/AGY-EXP_X-FOUNDATION-1_e8-pure-q-triality-and-3d-callias-chiral-index-3.md",
+      "bytes": 3618,
+      "lines": 20,
+      "sha256": "cd4ed97620260ff47ac89b3da6f78b40276783c5de7c3b625e8e3c92dee4ef30"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/cards/AGY-EXP_X-FOUNDATION-2_physical-c6-covariant-second-fund-form-link-gauss-and-hopf-sewing.md",
+      "bytes": 4530,
+      "lines": 24,
+      "sha256": "3799793cba25d115e5c1162d18f60be1babe0c993ecb60daf92781f5cd0b9036"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/cards/AGY-EXP_X-FOUNDATION-3_physical-c7-conifold-quotient-composite-register-and-4fold-word-lift.md",
+      "bytes": 4302,
+      "lines": 22,
+      "sha256": "9e5343793873d3142d0e2d6e5b87883d1924bad1fa46f6cb30bd37104810e5a7"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md",
+      "bytes": 4422,
+      "lines": 24,
+      "sha256": "229fb3154fc6d44a02c0b0244db601c6ef1f8515c6fa3df12dc23efae7fe2284"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/OUTPUT_SHA256.txt",
+      "bytes": 97,
+      "lines": 1,
+      "sha256": "6ee6f9389e72dd9559bbd8240ed79cd30266cc47190231585fbfa601077d24ef"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/SCRIPT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "8459809c1204ec9091d03fca0747a2c0eab3510a187baf31ad9fce713d2a3fba"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1.py",
+      "bytes": 25807,
+      "lines": 561,
+      "sha256": "a7539981f987ca8401416317b1a742d5905f98f1a5a84e7c1b9d2b6421c4b56b"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_1_verify/verify_x_foundation_1_out.json",
+      "bytes": 5049,
+      "lines": 193,
+      "sha256": "5c3ac77a116d7b0ae6d9d9cce56eb522e43ae12685c4018d2c0fbc25b5af6351"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_2_verify/OUTPUT_SHA256.txt",
+      "bytes": 97,
+      "lines": 1,
+      "sha256": "c8e4db4cec9c95ed9dbe64fa747381a9a0c0120b6f08a75c048bffb7ddbe4f16"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_2_verify/SCRIPT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "e92952ca092f1bd94dab66eb1aced48197311b8436b2a76c21c0083fbfd6533e"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_2_verify/verify_x_foundation_2.py",
+      "bytes": 33029,
+      "lines": 726,
+      "sha256": "103fdf2e3c0bf5edcf45e7bb010c210eaac173ad69c31a2ed03545297ca15707"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_2_verify/verify_x_foundation_2_out.json",
+      "bytes": 2877,
+      "lines": 86,
+      "sha256": "9c3867eeb310598b64b2eb6fcff8a29913518e7ec446bcf74b65b247736ab284"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_3_verify/OUTPUT_SHA256.txt",
+      "bytes": 97,
+      "lines": 1,
+      "sha256": "3dcdfedeba89e533ad6d2b5d46cc3c1c9ca12e16cf667a87038285aed6cd7d7a"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_3_verify/SCRIPT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "9e8ee29313087b4ed39ed23db39141f31876ab7ab830d79f8d203f98eb02b4c2"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_3_verify/verify_x_foundation_3.py",
+      "bytes": 27729,
+      "lines": 575,
+      "sha256": "2e939e219221dcdd9a62fd49db5bc8aeafb39a5ccb3ecc8a3ddebfdab2244ee0"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_3_verify/verify_x_foundation_3_out.json",
+      "bytes": 2436,
+      "lines": 78,
+      "sha256": "b1083230db838bc79c5329f429d380be0f2a5b348789fe475209a39a51a23936"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/OUTPUT_SHA256.txt",
+      "bytes": 97,
+      "lines": 1,
+      "sha256": "9743ebd336412253cb0cce50e350af5db44f887a156c8e840556dcb2eb2b756b"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/SCRIPT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "4c47e4d7a87ef406ccdafa0609f69ac00aee17e00728c05947560bed114b2639"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4.py",
+      "bytes": 239179,
+      "lines": 4891,
+      "sha256": "633d276da44a97dc0e49996d6454d487c8673aae2b3c404aebf08420a02363a2"
+    },
+    {
+      "lane": "exp",
+      "head": "017266d878ea366b3fb064f14ea7c17e8274a222",
+      "path": "relays/x_foundation_4_verify/verify_x_foundation_4_out.json",
+      "bytes": 42691,
+      "lines": 1191,
+      "sha256": "6e390f8273823ae7725cd70e21ffa9a26cc6d3c726bc4e6717ba0a2939c80574"
+    },
+    {
+      "lane": "advisor",
+      "head": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+      "path": "relays/STATUS_CLD-ADVISOR.md",
+      "bytes": 48885,
+      "lines": 431,
+      "sha256": "072f47343f0969a4a1e55e8f7383a2a3279671078f329bd158597c4ac5d87edf"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "GENESIS.md",
+      "bytes": 184821,
+      "lines": 832,
+      "sha256": "6313a3e0e043bf0ef85b2fdc39e638ab6834690a2dac5542249944f8327bbb4d"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "docs/views/LEDGER_OF_WALLS.md",
+      "bytes": 9320,
+      "lines": 194,
+      "sha256": "fa258d3c415a708818f70e599d36dfe45cbab4864fbbdcb9d902f6d410340aff"
+    },
+    {
+      "lane": "sm",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/SM_C16_THE_ACTION_AS_THE_WEIGHT.md",
+      "bytes": 3403,
+      "lines": 48,
+      "sha256": "238ecea7edbbff080e2ccf584b28a1be5460d555b34f24e2bcf9076c86b5389b"
+    },
+    {
+      "lane": "sm",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/SM_C17_THE_ACTION_AS_A_PHASE.md",
+      "bytes": 3462,
+      "lines": 53,
+      "sha256": "3dc302afc31b1ccd723954fe5dd3a57a0b226d951651e39c1980758354c8a0ff"
+    },
+    {
+      "lane": "sm",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/sm_c16/run_c16.py",
+      "bytes": 4330,
+      "lines": 116,
+      "sha256": "b4ab24da7479216921610dd98017c21b7f912b21c93f334877e8bb1fd6238b54"
+    },
+    {
+      "lane": "sm",
+      "head": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+      "path": "relays/sm_c17/run_c17.py",
+      "bytes": 3163,
+      "lines": 70,
+      "sha256": "8db139857e613911ded857b75d694e750ad89d9b6794936846535fa972fe0e4c"
+    },
+    {
+      "lane": "agy",
+      "head": "d1c71f255ade662098dbec1167ba355b12584740",
+      "path": "relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md",
+      "bytes": 6905,
+      "lines": 32,
+      "sha256": "7d38877402a2f170305d7668edbc424ed8a7e58e2168e88f538be7111d6decd1"
+    },
+    {
+      "lane": "agy",
+      "head": "d1c71f255ade662098dbec1167ba355b12584740",
+      "path": "relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md",
+      "bytes": 13315,
+      "lines": 71,
+      "sha256": "625708baf9ddd64e86143bcdccc9f6ea5fa07ae0f357eb71b1c031dadc8ae612"
+    },
+    {
+      "lane": "agy002",
+      "head": "358d6178608fa140bd0cc39f894775a90cf4f1c3",
+      "path": "relays/AGY002_CLOSURE_G7B_RESULTS.md",
+      "bytes": 5680,
+      "lines": 29,
+      "sha256": "e8cb35912766b20e2cffe008c7ab7920b7623a39eae974ce896aee58d26942e5"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/canon_readout.py",
+      "bytes": 5802,
+      "lines": 114,
+      "sha256": "34432d7bb9075720e9d6a48256a3b28caf13ba0a4618155ec677a2ff6c70043f"
+    },
+    {
+      "lane": "main",
+      "head": "f2f019621b0014ed4d0b595077c5a1ac64fa0025",
+      "path": "frontier/B1927_the_canonical_end_is_covariant_the_read_out_needs_no_chosen_end_and_analyticity_picks_the_length_two_horocycle/verification/grid.py",
+      "bytes": 4939,
+      "lines": 84,
+      "sha256": "a1062e29df283b1852deb93a3946e9fbdb86a34b8f16d09fda6cd3e7c47d0fb1"
+    },
+    {
+      "lane": "physical",
+      "head": "5683619871e0256d3fc274c9c9a63a3acda2d09c",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md",
+      "bytes": 11752,
+      "lines": 245,
+      "sha256": "31c5b4b487551ead91ba78003f4b8469f98a4a6bf539d8111329b033133ae118"
+    }
+  ]
+}
