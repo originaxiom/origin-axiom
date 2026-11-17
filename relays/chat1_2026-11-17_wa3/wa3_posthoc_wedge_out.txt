@@ -1,0 +1,10 @@
+W1: class c = 1: group order 120; max |det rho(g) - 1| over the group = 2.6e-14; top wedge picks up det rho(g) (worst 8.6e-16); T-spectrum of Lambda^k in 5th roots, k = 0..5: {0: True, 1: True, 2: True, 3: True, 4: True, 5: True}
+W1: class c = 2: group order 120; max |det rho(g) - 1| over the group = 6.1e-14; top wedge picks up det rho(g) (worst 8.9e-16); T-spectrum of Lambda^k in 5th roots, k = 0..5: {0: True, 1: True, 2: True, 3: True, 4: True, 5: True}
+W2: rho_1 (x) conj(rho_1): tr T^2 / (tr T)^2 = 0.200000 +3.6e-17i
+W2: rho_2 (x) conj(rho_2): tr T^2 / (tr T)^2 = 0.200000 +3.9e-33i
+W2: rho_1 (x) conj(rho_2): tr T^2 / (tr T)^2 = -0.200000 +3.5e-16i
+W2: rho_2 (x) conj(rho_1): tr T^2 / (tr T)^2 = -0.200000 -3.6e-16i
+W2: frame C down lines (c_T = 4): tr R(T) = 5.000, tr R(T)^2 / (tr R(T))^2 = 0.200000 +0.0e+00i
+W2: frame C lep lines (c_T = 1): tr R(T) = 5.000, tr R(T)^2 / (tr R(T))^2 = 0.200000 +0.0e+00i
+W3: class c = 1: the Weil 3's T-phases (even functions delta0, delta1+delta4, delta2+delta3) = [0, 1, 4] / 5
+W3: class c = 2: the Weil 3's T-phases (even functions delta0, delta1+delta4, delta2+delta3) = [0, 2, 3] / 5
