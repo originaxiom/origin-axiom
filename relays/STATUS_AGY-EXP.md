@@ -1,13 +1,13 @@
 seat: agy-exp
 read: M40, 85318a66f, a5d9ab3c6, 358d61786, d1c71f255
 state: active
-on: Campaign X-FOUNDATION Stage 1 complete (Commit 4 of 16; 136 cumulative; 0 of 19)
+on: Campaign X-FOUNDATION Stage 2 Card pre-registered (Commit 5 of 16; 137 cumulative; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-FOUNDATION (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-FOUNDATION` Live Ledger (`4 of 16` Blind-Sealed Commits Complete; `0 of 19`)
+## Campaign `X-FOUNDATION` Live Ledger (`5 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
-1. **`Stage 1 / X-FOUNDATION-1` (`b78fd1c78`, `c6f306191`, `08f06605f`, `Commit 4 results`):**
+1. **`Stage 1 / X-FOUNDATION-1` (`b78fd1c78`, `c6f306191`, `08f06605f`, `60082c2de`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Foundation_Passed = True`.
    - Verifies `PHYSICAL-C7` Discriminator `7` on all `240` $E_8$ roots (`46 + 32 + 162 = 240`, $z_3 = \exp(2\pi i Q)$ order `3` trivial on `78` colour-centralizer roots and nontrivial on `162` colour roots; $\mathrm{U}(3) \hookrightarrow \mathrm{SU}(4)$ $\det E_3 = L^{-1}$ lift for $c_1 = 1$ vs pure-$Q$ closure iff $3 \mid k$, minimal positive $k = 3$; $H^2(m004;\mathbb{Z}) = 0$ Stokes obstruction to smooth abelian $k = 3$ vs $\mathrm{SU}(4)$ $L_{+3} \oplus E_{-3}$ $\operatorname{Tr}(F) = 0$) and proves by direct `3D` operator SVD (`radial core k \in \{0,1,2,3\} + warped hyperbolic cusp [-L_y, L_y]_y \times E_{\tau=i\sqrt{3}}`) that non-compact cusped Callias localization yields **`3` normalizable left-handed `4D` families and `0` right-handed families (`ind = 3`, `Haar < 6 * (1/1000)^5`)**, whereas compact $S^1_y \times E_\tau$ forces `3 - 3 = 0` (`Witten's odd-dimension no-go`).
 
