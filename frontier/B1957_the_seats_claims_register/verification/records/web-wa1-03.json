@@ -1,12 +1,10 @@
 {
  "id": "web-wa1-03",
  "date": "2026-11-17",
- "verdict": "PARTIAL",
- "how": "H2: main's controls give absolute differences 0.07 to 0.43 in the ratios and 0.41 to 0.72 in |V| (checks/web_wa1_part3.py and a follow-up); the note's upper value 0.72 is reproduced, its lower value 0.17 is not under either measure; that the equality is special to i holds. Lines 32 to 33: main's own search finds the relation-closing pairs for each class; the seat's count of 2 in 32 is over its own candidate list and is not reproduced",
+ "verdict": "SUPERSEDED",
+ "how": "W-A1, line 155: the figure '0.17 to 0.72' mixes two measures, as the seat's review says (its status page, § 3.2), and is superseded by its separate statement there. Main reproduces each measure at the seat's four control points (checks/web_wa1_h2.py): the ratios' largest relative deviation 0.701, 0.676, 0.165, 0.280, and |V|'s absolute deviation over the four reading pairs 0.724, 0.655, 0.415, 0.560: the seat's figures to three digits. Main's earlier '0.07 to 0.43' was the reciprocal measure at two of the points",
  "note": "",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:32",
-  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:33",
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:155"
  ]
 }

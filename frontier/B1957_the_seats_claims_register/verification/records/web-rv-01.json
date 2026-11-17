@@ -1,0 +1,28 @@
+{
+ "id": "web-rv-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "what the seat read and how its review is organised; its recount of the register's window (15 files, 955 statements at 401c9bd7e) agrees with the register at that head. The window now runs to 9a5aafe40 and includes this page and W-H1",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:10",
+  "web:STATUS_CHAT1:11",
+  "web:STATUS_CHAT1:12",
+  "web:STATUS_CHAT1:13",
+  "web:STATUS_CHAT1:15",
+  "web:STATUS_CHAT1:18",
+  "web:STATUS_CHAT1:23",
+  "web:STATUS_CHAT1:75",
+  "web:STATUS_CHAT1:76",
+  "web:STATUS_CHAT1:77",
+  "web:STATUS_CHAT1:80",
+  "web:STATUS_CHAT1:102",
+  "web:STATUS_CHAT1:106",
+  "web:STATUS_CHAT1:192",
+  "web:STATUS_CHAT1:269",
+  "web:STATUS_CHAT1:271",
+  "web:STATUS_CHAT1:272",
+  "web:STATUS_CHAT1:273",
+  "web:STATUS_CHAT1:277"
+ ]
+}

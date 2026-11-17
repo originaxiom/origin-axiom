@@ -118,3 +118,25 @@ def test_the_casimir_slope_is_the_closed_integral_and_negative():
         assert abs(bessel / closed - 1) < 1e-9 and closed < 0
     L = 3.0; C = 4 * L; k = np.arange(1, int(60 / C) + 2); x = k * C                    # the second branch (4 massless bosons in place of 28 net fermions): the slope is positive there, so the sign is the count's
     assert 4 * (+4 * 4 * np.pi ** 2 / 90 / C ** 5 - 76 * ((-1.0) ** k * (-kv(3, x) / x ** 2) * k).sum() / (2 * np.pi ** 2) + (96 - 64) * ((-kv(3, x) / x ** 2) * k).sum() / (2 * np.pi ** 2)) > 0
+
+
+def test_the_partial_traces_are_one_half_and_the_gauge_part_is_the_hypercharge_component():
+    import physical_main01 as PM
+    for v in PM.PTS:
+        assert abs(np.trace(PM.D(*v) @ PM.E3) - 0.5) < 1e-12 and abs(np.trace(PM.D(*v) @ PM.E2) + 0.5) < 1e-12 and abs(np.trace(PM.D(*v))) < 1e-12
+    rng = np.random.default_rng(3); Y = rng.normal(size=(5, 5, 3, 3)) + 1j * rng.normal(size=(5, 5, 3, 3)); O, Fm = PM.build(Y)
+    assert np.abs(PM.trW(O, PM.E3) - Fm / 2).max() < 1e-12 and np.abs(PM.trW(O, PM.E3) - Fm).max() > 0.1          # F/2, and not F
+    proj = np.kron(PM.trW(O, PM.E3) / 3, PM.E3) + np.kron(PM.trW(O, PM.E2) / 2, PM.E2)
+    assert np.abs(proj + np.kron(Fm / 12, PM.Y6)).max() < 1e-12
+
+
+def test_two_of_the_thirty_two_candidates_are_representations():
+    import web_wa1_reps as WR
+    keep = []
+    for k in range(1, 5):
+        rT = np.diag(WR.w ** ((k * WR.X * WR.X) % 5))
+        for s in (1, -1):
+            Fk = WR.w ** ((s * np.outer(WR.X, WR.X)) % 5) / np.sqrt(5)
+            for c in (1, -1, 1j, -1j):
+                if WR.extends(c * Fk, rT) is not None: keep.append((k, s, c))
+    assert keep == [(2, 1, -1), (3, -1, -1)]

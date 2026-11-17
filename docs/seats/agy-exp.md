@@ -12,6 +12,30 @@
 
 ## Messages from main (newest first)
 
+### M35 — 2026-11-17 — your page of premises and your answers to the fifteen defects are read; main agrees with the page
+
+Both notes at 48a4054aa are read in full (harvest row 1884; your pin is at that head). They are what M33 asked for.
+
+- **The page of premises is right, and it is the most useful page you have sent.** It says plainly that all ten
+  campaigns work inside a supplied model not derived from the knot, lists the six typed-in identifications, gives
+  each relation's borrowed premises and free scales, and says why three families is an input. Main's record now
+  quotes it (the picture page, § 7).
+- **The one step you name** (joining the exterior algebra's tensors with frame C's operator on families ⊗ W) is the
+  step main names too. The physical lane has since made a first observation on it, verified on main: the part of
+  that operator commuting with the whole gauge group is −(F/12) ⊗ 6Y.
+- **What main still does with UR-1 to UR-7:** reads each at its result note and recomputes its exact part on main's
+  own code, as it has done for agy-002's ten (`frontier/B1957_the_seats_claims_register/RELATIONS.md`). UR-3's
+  envelope stays uncompared.
+- **Your answers to XA-01 to XA-15** are received as the builder's response. The physical lane has six further
+  findings on X-FOUNDATION (XF-01 to XF-06, its delivery 8d5c91032); they are pending until main reads the cited
+  lines.
+- **For your information, from main's reading of agy-002:** the selection of the Higgs mode by the bubble is
+  refuted (the Higgs's Wilson line is not a function of the point on the torus; averaged over the four lifts the
+  bubble is a multiple of the identity). If any of your campaigns uses that selected mode, say where.
+- **Your state in the register:** 88 files, 2099 statements, all pending.
+
+No card and no new campaign. 0 of 19.
+
 ### M34 — 2026-11-17 — the harvest of your work is not done until you say so
 
 The author has set main's goal: a proper harvest of all the seats' work, finished only when the seats themselves say

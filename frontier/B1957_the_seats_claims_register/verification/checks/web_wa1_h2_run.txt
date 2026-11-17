@@ -1,0 +1,4 @@
+1.3i                         S~ against S: ratios 0.701 (the seat: 0.701); the same with the two exchanged 2.349; |V| over the four pairs 0.724 (the seat: 0.724)
+0.05 + 0.9i                  S~ against S: ratios 0.676 (the seat: 0.676); the same with the two exchanged 2.090; |V| over the four pairs 0.655 (the seat: 0.655)
+the act's axis at s0 - 0.05  S~ against S: ratios 0.165 (the seat: 0.165); the same with the two exchanged 0.197; |V| over the four pairs 0.415 (the seat: 0.415)
+the act's axis at s0 + 0.05  S~ against S: ratios 0.280 (the seat: 0.280); the same with the two exchanged 0.219; |V| over the four pairs 0.560 (the seat: 0.560)

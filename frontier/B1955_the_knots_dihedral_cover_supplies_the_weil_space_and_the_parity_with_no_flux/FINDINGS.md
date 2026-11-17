@@ -77,6 +77,11 @@ too strong.)*
 - The object supplies nothing of level 25: the act keeps no line mod 25, and there is no dihedral group of order 50.
 - **So B1953's "specification" for the up sector is answered:** the up coupling needs no structure of level 25 if it is
   the top wedge. It needs it only inside frame C's construction.
+- **Corrected 2026-11-17, later** (the web seat's harvest review, § 3.3; its W-A3, lines 131 to 133 and 144): this
+  closure is generic and conditional, and is not a gain. It holds for any coupling into Λ⁵(W), because every
+  representation of SL(2, 𝔽₅) has determinant 1; so it does not test the up sector's charges. And it rests on the
+  exterior-algebra reading, which the cover does not supply. What stands is the negative half: nothing computed in
+  the object is of level 25.
 
 ## The web seat's W-Z1, on where ζ sits in the object (harvest row 1867; `verification/wz1_checks.py`)
 
@@ -92,6 +97,10 @@ Opened at the author's request to that seat. Read in full; two of its identities
 - **Its own verdict, which main shares:** ζ is built into the object in two classical places, the act's geodesic and
   the cusp, so a zeta value or a zero in a frame output is first to be suspected of being Hecke's formula. Neither of
   the recent preprints it read touches the object.
+  - **Corrected 2026-11-17, later** (the web seat's harvest review, § 3.5): "neither touches the object" was too
+    strong, in its note and here. If the preprints are right, they bound zeros of ζ and of Dirichlet L-functions,
+    and those are the zeros of Hecke's period along the act's geodesic and of the cusp's scattering: both places
+    the note names. Nothing on record uses those zeros, and they give no leverage on any open item.
 - **Not verified by main:** the preprints it cites. They are later than anything main can check, and unrefereed by its
   own account.
 - **Its proposed control** (name the property that separates the object from its rivals, and run each step on a rival

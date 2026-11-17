@@ -1,0 +1,14 @@
+{
+ "id": "web-rv-04",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "readings with no computation, and three earlier results named as leaned on; their notes are settled under their own files (two of them are among the earlier notes of § 1d, not yet read)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:185",
+  "web:STATUS_CHAT1:187",
+  "web:STATUS_CHAT1:188",
+  "web:STATUS_CHAT1:189",
+  "web:STATUS_CHAT1:190"
+ ]
+}

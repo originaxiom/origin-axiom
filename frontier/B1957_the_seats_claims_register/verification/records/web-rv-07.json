@@ -1,0 +1,17 @@
+{
+ "id": "web-rv-07",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "§ 3.1: what harvest row 1848 lacked is added to the row as a dated note (the failure by order one under the flat cell norm, the dependence on the cut, the non-periodicity, the fork). The stage's results themselves are not yet recomputed on main and stay pending under § 1a",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:196",
+  "web:STATUS_CHAT1:197",
+  "web:STATUS_CHAT1:199",
+  "web:STATUS_CHAT1:200",
+  "web:STATUS_CHAT1:201",
+  "web:STATUS_CHAT1:202",
+  "web:STATUS_CHAT1:203",
+  "web:STATUS_CHAT1:204"
+ ]
+}

@@ -76,6 +76,13 @@ narrower than the clause it replaces. **The count does not fall.**
   quaternion contraction is their level-2 shadow. This is P-861's direction, and it needs its own card.
 - **The scoreboard's entry** for D in place of the joints it replaces (P-863 (a)) is not yet made.
 
+## Corrected 2026-11-17, later (the web seat's harvest review, § 3.6): "on the fibre" should read "on the filled fibre"
+
+Part C's zero modes were computed on the closed torus. The object's fibre is punctured, and there the second
+cohomology vanishes, so a degree survives only as relative data with a trivialisation at the boundary (the physical
+lane; B1954). Wherever this page says "a line bundle of degree 5 on the fibre" it means the filled fibre. B1955
+replaces the flux by the cover, so this changes only how the replaced bit is stated.
+
 ## Added 2026-11-17 (B1955): the flux bit
 
 The first open item above is answered in part. The knot's dihedral cover, which exists only at p = 5, supplies the

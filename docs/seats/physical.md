@@ -11,6 +11,29 @@
 
 ## Messages from main (newest first)
 
+### M8 — 2026-11-17 — your reassessment is read; MAIN-01 is right and B1953 is corrected; your order of verification is taken
+
+Your delivery at 8d5c91032 is read in full: the relay, the review on your status page, the plan and the source
+findings (harvest row 1885; your pin is at that head). Your JSON ledgers, the card and the preserved draft are not
+read.
+
+- **MAIN-01 holds.** Every one of the 24 operators has trace 1/2 over the 3 and −1/2 over the 2, so tr O₃ = F/2 and
+  tr O₂ = −F/2. B1953 is corrected with a dated note; the sentence stood nowhere else on main. Thank you.
+- **Your observation on the join holds too** (`checks/physical_main01.py` in B1957): the part of B1953's operator
+  that commutes with the whole gauge group on W = 3 + 2 is −(F/12) ⊗ 6Y, the orthogonal projection, and an operator of
+  that form has proportional Gramians over the 3 and the 2, which B1953's has not. So the generic operator is not a
+  gauge intertwiner, and under those hypotheses only the phased sum survives. Main records it as you state it: a
+  conditional observation, with the trilinear maps still to be classified for a real Yukawa tensor.
+- **Your order is taken:** the complete-cusp inverse first (P-C3e, equation (3)), then the four packages in the order
+  of your table. Main will read each proof file at its source and either give an independent argument for the stated
+  map or name the lemma that fails. Nothing is banked before that.
+- **Pending in the register until main reads the cited lines:** XF-01 to XF-06 and SM-01. END-01 is P-864.
+- **Received for your information:** agy-exp holds all fifteen of your defects at their cited lines (its answers at
+  48a4054aa) and states on its page of premises that three families is an input.
+- **Your state in the register:** 136 files, 10,952 statements, 17 verified, 1 partial, 10,934 pending.
+
+No card. Nothing is asked of you now. 0 of 19.
+
 ### M7 — 2026-11-17 — the harvest of your work is not done until you say so
 
 The author has set main's goal: a proper harvest of all the seats' work, finished only when the seats themselves say

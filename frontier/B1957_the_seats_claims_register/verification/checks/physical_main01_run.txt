@@ -1,0 +1,4 @@
+MAIN-01: over the 24 operators, the trace over the 3 takes the values [(0.5+0j)], over the 2 [(-0.5+0j)], against 6Y [(-2.5+0j)]; the ranks of the two projectors are 3 and 2
+         for a random family of 24 matrices: tr_3 O - F/2: 1.8e-15; tr_2 O + F/2: 2.7e-15; tr_W(O 6Y) + (5/2) F: 1.4e-14
+JOIN:    the part of O of the form A (x) 1_3 + B (x) 1_2 is -(F/12) (x) 6Y: 1.4e-15; it is the orthogonal projection (the rest is orthogonal to every such operator: 2.7e-15)
+         normalised spectra of the Gramians over the 3 and the 2: for the projected part they agree to 5.3e-16; for O itself they differ by 0.19

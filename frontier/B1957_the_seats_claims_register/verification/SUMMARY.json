@@ -1,17 +1,17 @@
 {
  "lanes": {
   "agy-exp": {
-   "files": 86,
+   "files": 88,
    "read": 0,
-   "units": 2605,
-   "statements": 2040,
+   "units": 2672,
+   "statements": 2099,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 2040
+   "PENDING": 2099
   },
   "agy-002-verify": {
    "files": 11,
@@ -53,30 +53,30 @@
    "PENDING": 14
   },
   "physical": {
-   "files": 129,
+   "files": 136,
    "read": 0,
-   "units": 11067,
-   "statements": 10781,
-   "VERIFIED": 6,
+   "units": 11241,
+   "statements": 10952,
+   "VERIFIED": 17,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 1,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 10774
+   "PENDING": 10934
   },
   "web": {
-   "files": 15,
+   "files": 16,
    "read": 1,
-   "units": 1062,
-   "statements": 955,
-   "VERIFIED": 67,
+   "units": 1295,
+   "statements": 1167,
+   "VERIFIED": 156,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 4,
-   "SUPERSEDED": 3,
-   "NOTED": 53,
-   "PENDING": 828
+   "PARTIAL": 0,
+   "SUPERSEDED": 5,
+   "NOTED": 85,
+   "PENDING": 921
   },
   "agy-audit": {
    "files": 4,
@@ -105,6 +105,19 @@
    "SUPERSEDED": 0,
    "NOTED": 0,
    "PENDING": 53
+  },
+  "agy-exp | relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md": {
+   "lane": "agy-exp",
+   "units": 29,
+   "statements": 23,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 23
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md": {
    "lane": "agy-exp",
@@ -261,6 +274,19 @@
    "SUPERSEDED": 0,
    "NOTED": 0,
    "PENDING": 28
+  },
+  "agy-exp | relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md": {
+   "lane": "agy-exp",
+   "units": 34,
+   "statements": 32,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 32
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md": {
    "lane": "agy-exp",
@@ -654,8 +680,8 @@
   },
   "agy-exp | relays/STATUS_AGY-EXP.md": {
    "lane": "agy-exp",
-   "units": 112,
-   "statements": 110,
+   "units": 116,
+   "statements": 114,
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
@@ -663,7 +689,7 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 110
+   "PENDING": 114
   },
   "agy-exp | relays/cards/AGY-EXP_R83_review-83.md": {
    "lane": "agy-exp",
@@ -1759,8 +1785,8 @@
   },
   "physical | relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md": {
    "lane": "physical",
-   "units": 11,
-   "statements": 10,
+   "units": 12,
+   "statements": 11,
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
@@ -1768,7 +1794,7 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 10
+   "PENDING": 11
   },
   "physical | relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md": {
    "lane": "physical",
@@ -1860,6 +1886,19 @@
    "SUPERSEDED": 0,
    "NOTED": 0,
    "PENDING": 12
+  },
+  "physical | relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md": {
+   "lane": "physical",
+   "units": 11,
+   "statements": 11,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 11
   },
   "physical | relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md": {
    "lane": "physical",
@@ -2019,8 +2058,8 @@
   },
   "physical | relays/STATUS_PHYSICAL.md": {
    "lane": "physical",
-   "units": 53,
-   "statements": 52,
+   "units": 75,
+   "statements": 73,
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
@@ -2028,7 +2067,20 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 52
+   "PENDING": 73
+  },
+  "physical | relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md": {
+   "lane": "physical",
+   "units": 8,
+   "statements": 7,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 7
   },
   "physical | relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md": {
    "lane": "physical",
@@ -2237,6 +2289,71 @@
    "SUPERSEDED": 0,
    "NOTED": 0,
    "PENDING": 82
+  },
+  "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md": {
+   "lane": "physical",
+   "units": 73,
+   "statements": 72,
+   "read": false,
+   "VERIFIED": 7,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 65
+  },
+  "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md": {
+   "lane": "physical",
+   "units": 35,
+   "statements": 35,
+   "read": false,
+   "VERIFIED": 4,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 31
+  },
+  "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md": {
+   "lane": "physical",
+   "units": 12,
+   "statements": 12,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 12
+  },
+  "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md": {
+   "lane": "physical",
+   "units": 9,
+   "statements": 9,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 9
+  },
+  "physical | reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md": {
+   "lane": "physical",
+   "units": 3,
+   "statements": 3,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 3
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md": {
    "lane": "physical",
@@ -3426,11 +3543,11 @@
    "units": 144,
    "statements": 127,
    "read": true,
-   "VERIFIED": 67,
+   "VERIFIED": 69,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 4,
-   "SUPERSEDED": 3,
+   "PARTIAL": 0,
+   "SUPERSEDED": 5,
    "NOTED": 53,
    "PENDING": 0
   },
@@ -3499,6 +3616,19 @@
    "NOTED": 0,
    "PENDING": 104
   },
+  "web | relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md": {
+   "lane": "web",
+   "units": 63,
+   "statements": 54,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 0,
+   "PENDING": 54
+  },
   "web | relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md": {
    "lane": "web",
    "units": 55,
@@ -3527,16 +3657,16 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 41,
-   "statements": 40,
+   "units": 211,
+   "statements": 198,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 87,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 40
+   "NOTED": 32,
+   "PENDING": 79
   },
   "web | relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md": {
    "lane": "web",

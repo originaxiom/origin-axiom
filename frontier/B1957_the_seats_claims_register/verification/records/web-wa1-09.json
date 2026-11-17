@@ -1,8 +1,8 @@
 {
  "id": "web-wa1-09",
  "date": "2026-11-17",
- "verdict": "PARTIAL",
- "how": "that the crossings differ in S* holds on main's code when each is read at its own tau (checks/web_wa1_star.py and a follow-up: 3.24 relative and 0.33 absolute in the ratios, 0.30 in |V|); the note's figure 0.76 is not reproduced in any of those three measures; read at one tau with the transported point the two agree, since S* is not covariant under T",
+ "verdict": "SUPERSEDED",
+ "how": "W-A1, line 119: the figure 0.76 is withdrawn by the seat (its review, § 3.2: it is in no committed file). Main's figures stand in its place (checks/web_wa1_star.py): each crossing read at its own tau, 3.24 relative and 0.33 absolute in the ratios and 0.30 in |V|; read at one tau with the transported point the two agree",
  "note": "",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:119"

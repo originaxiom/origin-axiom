@@ -74,7 +74,12 @@ At τ₀ = 0.13 + 1.7i and at 0.31 + 1.2i, with the end at −1/τ carried by it
 - **Scaling the labels** (D(cw) for c = 2, 3, 4) gives covariant operators too, with the same two Gramians. So the two
   Weil classes are not told apart by these read-outs.
 - **The phased sum is the operator's component along hypercharge:** tr_W(O · 6Y) = −(5/2) Σ ζ^(−ab) Y(τ, w). It is
-  also the trace of O₃, and minus the trace of O₂.
+  also twice the trace of O₃, and minus twice the trace of O₂.
+  - **Corrected 2026-11-17** (the physical lane's finding MAIN-01, its delivery 8d5c91032): this line said "the
+    trace of O₃, and minus the trace of O₂", a factor of two too large. Each D(v) is traceless and tr(D(v)·P) = 1,
+    so its trace over the 3 (the projector (1 + P)/2) is 1/2 and over the 2 it is −1/2: with F = Σ ζ^(−ab) Y,
+    tr O₃ = F/2 and tr O₂ = −F/2 (recomputed on main for all 24 operators). The covariance and the hypercharge
+    trace −(5/2)·F are unchanged.
 
 ## 4. The frame's outputs at the two base points (printed, not compared)
 

@@ -17621,6 +17621,7 @@
   "B1955": {
    "slug": "the knots dihedral cover supplies the weil space and the parity with no flux",
    "motifs": [
+    "closing",
     "coupling",
     "figure_eight",
     "eisenstein",
@@ -17668,9 +17669,13 @@
     "figure_eight",
     "kappa",
     "eisenstein",
-    "golden"
+    "golden",
+    "torsion"
    ],
-   "refs": [],
+   "refs": [
+    "H1",
+    "H2"
+   ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
    "status": "dormant",

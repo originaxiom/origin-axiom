@@ -1,0 +1,11 @@
+{
+ "id": "web-wa1-11",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wa1_reps.py, main's own search over the list the seat's review now names (rho(T) = diag(psi(k x^2)), rho(S) = c F_s; k in F_5*, s = +-1, c in {1, -1, i, -i}): of the 32 candidates exactly two extend along the group's Cayley graph to all 120 elements, (2, 1, -1) and (3, -1, -1); the same two pass the four relations alone; both are faithful; they are complex conjugates with equal characters, so one representation; its T has exponents {0, 2, 3}",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:32",
+  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:33"
+ ]
+}

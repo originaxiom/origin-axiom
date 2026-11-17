@@ -6,6 +6,10 @@ the picture. Each line says how it stands: **verified** (computed here, with its
 paid), **claimed** (another session's work, read and not verified here), **refuted**, or **open**. No measured value is
 compared in this page. 0 of 19.*
 
+> **Read with section 7.** The harvest behind this page was too shallow, and its report of the harvest as done is
+> withdrawn (B1957). Section 7 lists what the other sessions' own reviews and the statement-by-statement reading here have
+> since corrected in it. The sections above it are kept as written.
+
 ## 1. Verified here this week
 
 **The dictionary, from the knot.**
@@ -86,3 +90,39 @@ are now read off the knot and its level, and frame C's couplings are tied to tha
 value is derived, and no relation has been tested against data since the two failures. The other sessions built
 models on borrowed premises quickly and audited each other well; their audits are the most useful part of that work.
 The next real step is the join in item 1.
+
+## 7. Corrections, 2026-11-17, later (from the other sessions' reviews and from B1957's reading at the source)
+
+Each line names the sentence above that it corrects, who found it, and where the correction is recorded.
+
+- **Section 1, "The knot supplies that space itself, with no flux".** Three limits were left out (the web session's review,
+  § 3.4; B1955 § 1 states them): the shifts are deck transformations over the double cover only; the clocks are twists
+  there only; and the act's unipotent part is not supplied. And the reading of matter as the exterior algebra of that
+  space has no source in the cover.
+- **Section 1, "The up coupling ... is invariant at level 5".** This is not a gain (the web session's review, § 3.3). The
+  invariance holds for any coupling into the top exterior power, because every representation of SL(2, 𝔽₅) has
+  determinant 1, so it does not test the up sector's charges; and it rests on the exterior-algebra reading. What
+  stands is the negative half: nothing computed in the object is of level 25. (B1955 § 3, corrected.)
+- **Section 1, the couplings: one sentence of B1953 was a factor of two off** (the physical session's finding MAIN-01):
+  the phased sum is twice the trace of the operator's block over the 3, not the trace. The covariance and the
+  hypercharge component are unchanged. (B1953 § 3, corrected.)
+- **Section 3, the flux bit** is a line bundle of degree 5 on the *filled* fibre; on the punctured fibre a degree
+  survives only as relative data (the web session's review, § 3.6; B1952, corrected).
+- **Section 4, the corridors.** "Their exact arithmetic is right" was a summary's verdict. The verifying session's ten
+  relations have now been read at their source and recomputed one by one
+  (`frontier/B1957_the_seats_claims_register/RELATIONS.md`): two are verified identities of known structure, one is a
+  verified set of negatives, one is refuted (the selection of the Higgs mode: its coupling is not a function of the
+  point on the torus, and made one it selects nothing), one is not a relation (one matrix compared with itself), and
+  five are conditional on a borrowed left-right model. None removes a free number. The loop session's seven are still
+  to be read at their source; its own page of premises now says the same of each.
+- **Section 4, three chiral families.** The loop session's own page of premises now states that three is an input:
+  the index equals the flux put in, and 0, 1, 2, 6 and −3 are not excluded.
+- **Section 4, ζ.** "Do not touch the object" was too strong (the web session's review, § 3.5): if the preprints are
+  right, they bound zeros at both places the note names, the act's geodesic and the cusp. Nothing on record uses
+  those zeros, and they give no leverage on any open item. (B1955, corrected.)
+- **Section 6, "their audits are the most useful part of that work".** Kept, and now tested: every audit finding of
+  one session about another that has been taken to a primary source here has held (the quartic's coefficient, the order
+  of the mixed products, the trace above).
+
+The state of the reading is generated in `frontier/B1957_the_seats_claims_register/REGISTER.md`. Nothing here is a
+comparison with data. 0 of 19.

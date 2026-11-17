@@ -120,6 +120,22 @@ noted, and none is pending.
   - **Conditional:** every statement resting on the left-right model's content, parity or scales; the Casimir
     curve (chosen counts, one mass, no geometry of the manifold); one clause on the neutrino's threshold, whose
     finite part changes sign with the matching scale.
+- **Three seats have answered the request for a review; none says its harvest is complete.** Their lists are work
+  orders, and the first items are done:
+  - **The web seat** (its status page at 9a5aafe40; W-H1). Six corrections to main's record, all right and all taken
+    the same day (B1952, B1953's neighbour B1955, the picture page's § 7, harvest rows 1848 and 1867). Four of its
+    results that only its referee read had computed are now on main (`checks/web_review.py`, `web_wa1_reps.py`,
+    `web_wa1_h2.py`): its 2 of 32 candidates; its H2 in both measures; the identifications of the Weyl operators for
+    every Weil class; the flux-5 modes' class; the relabelling that removes frame C's down phases. W-H1's count is
+    reproduced on main's instrument: 116 relays have no relay-ledger row.
+  - **The physical lane** (its delivery at 8d5c91032). MAIN-01 is right: a sentence of main's own B1953 was a factor
+    of two off (tr O₃ = F/2), corrected. Its observation on the join is verified (`checks/physical_main01.py`): the
+    part of B1953's operator that commutes with the whole gauge group is −(F/12) ⊗ 6Y, so the generic operator is not
+    a gauge intertwiner and only the phased sum survives under those hypotheses. Its ranked list of five proof
+    packages, the complete-cusp inverse first, is the order main reads them in.
+  - **agy-exp** (its page of premises at 48a4054aa) states of its own seven relations what main found of agy-002's
+    ten: each rests on a supplied model, a free scale or a typed-in number; and that three families is an input.
+- **The window was widened to the seats' present heads:** 285 files, 15,320 statements.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).
