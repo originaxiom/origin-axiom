@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, d1c71f255
-state: active
-on: Campaign X-APEX Stage 4 Card pre-registered (Commit 13 of 16; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-APEX (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+state: waiting
+on: Campaign X-APEX complete (16 of 16 blind-sealed commits; 132 cumulative; 0 of 19)
+needs: ready for cross-seat mathematical-physics review or cc/main intake (0 of 19)
+next push: pushed upon Commit 16 of 16 (Campaign X-APEX complete)
 
-## Campaign `X-APEX` Live Ledger (`13 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-APEX` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-APEX-1` (`4d456d524`, `b6f91196f`, `2dcc49df2`, `600b3c764`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Apex_Passed = True`.
@@ -16,6 +16,9 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 3. **`Stage 3 / X-APEX-3` (`b97142012`, `120155611`, `32a41845e`, `37f4cf63a`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Apex_Passed = True`.
    - Proves the **`1`-Loop Hosotani $G_{422}$ Center-Locking Theorem** (`origin quadratic trace -10 < 0 vs +8 pure gauge destabilizes +I_2 onto unique global minimum U_1^* = U_2^* = -I_2 \in Z(SU(2)_R) with Hessian > 12 and exact 0 SL_2(Z) residual, dynamically enforcing the (1/2, 1/2) doublet characteristic shift while proving non-central T_{3R} = \pm 1/2 splitting requires quantized flux / m004 torsion holonomy`); resolves `PHYSICAL-C4` Finding `4` via the **Seifert-Longitude Spin-Bordism Obstruction** ($R(2\pi(1 - 2g)) = -I_2 \in \mathrm{Spin}(2)$ forbids periodic `(0, 0)` cusp spinors on `m004`) + `50`-digit hyperbolic cusp Dirac confinement ($\lambda_1 > 20 > 3$ across both `m004` spin structures `(0, 1/2)` and `(1/2, 1/2)`, **unconditionally selecting `PR-10` `Branch B`** with $V(L_4^*) < -5/2 < 0, V''(L_4^*) > 70 > 0$); and seals `50`-digit `45`-sheet instanton (`~ 236 / 10^{15}`) & `2`-loop $\mathrm{SU}(3)$ confinement (`~ 373 / 10^{17}`) hierarchies alongside `PC_AP3_ClassicalHiggsMassScaleHomogeneity` (`pricing v_EW in Tier III`).
+4. **`Stage 4 / X-APEX-4` (`5a979906b`, `44ea8d25f`, `6de998910`, final results sealed):**
+   - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Apex_Passed = True`.
+   - Enforces `agy` `v17` (`d1c71f255`) AST reachability invariants across all `14` target-free model functions (`0` float literals, `0` `sqrt(3)` calls); seals the **`20`-Row Four-Tier Reconciled Master Closure Matrix** (`9 Tier I-A + 6 Tier I-B + 3 Tier II + 2 Tier III = 20` live-computed witnesses, `0` literal flags); and evaluates at the derived joint `3D+2D` saddle $\tau^*$ the **`0`-knob `1`-loop Schwinger–Dyson singlet resolvent Majorana trajectory** (`rank [1, 3]`, $\mathrm{U}(6)$ singlet-basis invariance `< 2 * (1/1000)^5`, $T$-covariance `< 4 * (1/1000)^5`, `sec4_r12 \in (91/1000, 92/1000)`, `sec4_r23 \in (56/1000, 57/1000)`, `sin2_2theta_sec34 \in (911/1000, 912/1000)`) alongside the complete repaired `-48` + `-11/2` `0 of 19` suite (`f64 vs mpmath32 < 2 * (1/1000)^4 * (1/10)`, `10`-trial `24`-digit $\mathrm{U}(3)^6$ Haar `< 4 * (1/1000)^5 * (1/10)`, `10`-trial `12`-factor full $\mathrm{U}(3)$ Fujikawa `< 3 * (1/1000)^8` rad).
 
 ## Campaign `X-SYNTHESIS` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
