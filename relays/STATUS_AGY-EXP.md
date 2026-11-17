@@ -1,13 +1,15 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, d1c71f255
 state: active
-on: Campaign X-APEX Stage 1 Card pre-registered (Commit 1 of 16; 0 of 19)
+on: Campaign X-APEX Stage 1 complete (4 of 16 blind-sealed commits; 0 of 19)
 needs: nothing during blind-seal execution of Campaign X-APEX (16 commits)
 next push: upon completion of Commit 16 of 16 (Stage 4 results)
 
-## Campaign `X-APEX` Live Ledger (`1 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-APEX` Live Ledger (`4 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
 
-- **`Stage 1 / X-APEX-1`:** Card pre-registered first (`248D E_8` dual-$E_6$ bridge, chiral `2D` wavefunction parity map, and hyperbolic cusp Kantorovich contraction).
+1. **`Stage 1 / X-APEX-1` (`4d456d524`, `b6f91196f`, `2dcc49df2`, results sealed):**
+   - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Apex_Passed = True`.
+   - Exhibits inside `248D` $E_8$ (`240` roots + `8` Cartans) the exact relation between `physical`'s colour-centralizing $E_6^{\mathrm{cent}}$ (`78D`) and `agy-002`'s colour-containing $E_6^{\mathrm{GUT}} \supset G_{422}$ (`78D` $\supset$ `21D`): $E_6^{\mathrm{cent}} \cap E_6^{\mathrm{GUT}} = \mathfrak{su}(3)_L \oplus \mathfrak{su}(3)_R$ (`16D`), **$E_6^{\mathrm{cent}} \cap G_{422} = \mathfrak{su}(2)_L \oplus \mathfrak{su}(2)_R \oplus \mathfrak{u}(1)_{B-L}$ (`7D`)**, conjugated by `4`-reflection $W_{\mathrm{swap}} \in W(E_8)$ (`\det = +1`); derives UV and `2`-loop Strong-CP vanishing (`< (1/1000)^5` rad with $|I_{\mathrm{CP}}| > 1/1000$) directly from `2D`-integrated chiral `CIM (3, 3, -6)` zero-mode wavefunctions under $z \mapsto -\bar{z}$ on $E_{\tau = i\sqrt{3}}$ (`resolving PHYSICAL-C4 Finding 5`); and certifies Kantorovich contraction radius $r_* \in (402/1000, 404/1000)$ (`h_K < 369/1000 < 1/2`, `24 vs 32 rel diff < 5/10000`) on $(E_{\tau = i\sqrt{3}}\setminus\{0\}, \Omega_{\mathrm{hyp}})$.
 
 ## Campaign `X-SYNTHESIS` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
