@@ -1,0 +1,428 @@
+{
+  "gate": "AGY-002_FOUND-G8",
+  "role": "independent_cold_room_zero_trust_referee",
+  "empirical_inputs_used": "0 of 19",
+  "ast_and_import_self_audit": {
+    "float_ast_literal_count": 0,
+    "complex_ast_literal_count": 0,
+    "disallowed_imports": [],
+    "imported_roots": [
+      "__future__",
+      "ast",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "re",
+      "sympy"
+    ],
+    "passed": true
+  },
+  "sha256_manifest_verification": {
+    "prior_manifest_count": 4,
+    "expected_prior_manifest_count": 4,
+    "all_prior_manifests_matched": true,
+    "prior_manifests": [
+      {
+        "manifest": "relays/agy002_found_g8/OUTPUT_SHA256.txt",
+        "entries": [
+          {
+            "target": "relays/agy002_found_g8/verify_found_g8_out.json",
+            "expected_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+            "actual_sha256": "d1a1a8ffb0096ea25acf37fb485fab10517ac9d3dc19735317105c67735eca6d",
+            "matched": true
+          }
+        ],
+        "all_entries_matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8/SCRIPT_SHA256.txt",
+        "entries": [
+          {
+            "target": "relays/agy002_found_g8/verify_found_g8.py",
+            "expected_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+            "actual_sha256": "46fd28b2ba17d74540e1f8750917fab8bcf2b03674f86301f7783469038ed688",
+            "matched": true
+          }
+        ],
+        "all_entries_matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/OUTPUT_SHA256.txt",
+        "entries": [
+          {
+            "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed_out.json",
+            "expected_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+            "actual_sha256": "265fa5b363d218644855b8a4ca16b0606febf6fcb4e48202de9cafa4479f510d",
+            "matched": true
+          }
+        ],
+        "all_entries_matched": true
+      },
+      {
+        "manifest": "relays/agy002_found_g8_fixed/SCRIPT_SHA256.txt",
+        "entries": [
+          {
+            "target": "relays/agy002_found_g8_fixed/verify_found_g8_fixed.py",
+            "expected_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+            "actual_sha256": "a88dc4f5707a15aa7813801cc6c77758750f80eb06e223d0b0406d01f2d43830",
+            "matched": true
+          }
+        ],
+        "all_entries_matched": true
+      }
+    ],
+    "self_script_manifest_exists": true,
+    "self_script_expected_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+    "self_script_actual_sha256": "32dca071605a58e411e37e3137b8182d9f9379e11c2bccd56dff3960a89e9a0b",
+    "self_script_sha256_matched": true,
+    "passed": true
+  },
+  "deliverable_1_car_cl10_fock_postulate_d": {
+    "sl2_f5_order_exact_psi1": 120,
+    "sl2_f5_order_exact_psi2": 120,
+    "sl2_f5_2x2_homomorphism_size": 120,
+    "sl2_f5_exact_homomorphism": true,
+    "cyclotomic_fifth_root_sum_zero": true,
+    "gauss_sum_squared_eq_5": true,
+    "psi1_S2_eq_P_exact": true,
+    "psi1_ST3_eq_P_exact": true,
+    "psi2_S2_eq_P_exact": true,
+    "psi2_ST3_eq_P_exact": true,
+    "erratum_uncompensated_order": 240,
+    "erratum_uncompensated_ST_inv3_eq_neg_P": true,
+    "erratum_uncompensated_ST3_eq_neg_I": true,
+    "numerical_S2_minus_P_scaled_1e15": 1,
+    "numerical_ST3_minus_P_scaled_1e15": 2,
+    "car_32x32_exact_anticommutators": true,
+    "cl10_anticommutators_lt_1e_12": true,
+    "cl10_1024_basis_rank": 1024,
+    "cl10_gram_orthonormality_lt_1e_12": true,
+    "tr_w5_6Y_exact": 0,
+    "zero_normal_ordering_ambiguity": true,
+    "fermion_parity_consistent": true,
+    "even_fock_dim": 16,
+    "even_fock_6Y_eigenvalues": [
+      -4,
+      -4,
+      -4,
+      -3,
+      -3,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      6
+    ],
+    "even_fock_sum_6Y": 0,
+    "even_fock_sum_6Y_cubed": 0,
+    "lambda1_dim": 5,
+    "lambda1_6Y_eigenvalues": [
+      -2,
+      -2,
+      -2,
+      3,
+      3
+    ],
+    "haar_basis_scrambling_invariant_lt_1e_12": true,
+    "haar_even_max_res_scaled_1e15": 4,
+    "passed": true
+  },
+  "deliverable_2_commutant_dichotomy_and_frobenius_schur": {
+    "dim_R_commutant_su5_full_weil_numerical": 1,
+    "dim_R_commutant_su5_full_weil_exact": 1,
+    "dim_R_commutant_su5_centre_P_numerical": 12,
+    "dim_R_commutant_su5_centre_P_exact": 12,
+    "haar_scrambled_commutant_dims": [
+      1,
+      12
+    ],
+    "frobenius_schur_3_plus": 1,
+    "frobenius_schur_2_minus": -1,
+    "irrep_character_norm_sq_exact_ones": true,
+    "3_plus_preserves_symmetric_form_all120_exact": true,
+    "3_plus_real_SO3_basis_verified_lt_1e_12": true,
+    "3_plus_no_antisymmetric_form_lt_1e_12": true,
+    "2_minus_preserves_symplectic_form_all120_exact": true,
+    "2_minus_symplectic_residual_lt_1e_12": true,
+    "2_minus_no_symmetric_form_lt_1e_12": true,
+    "numerical_group_order_check": 120,
+    "passed": true
+  },
+  "deliverable_3_metallic_discriminants_and_rival_primes": {
+    "metallic_discriminants_k_1_to_12": [
+      {
+        "k": 1,
+        "D_k": 5,
+        "squarefree_kernel": 5,
+        "fundamental_discriminant_Delta_K": 5,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 2,
+        "D_k": 8,
+        "squarefree_kernel": 2,
+        "fundamental_discriminant_Delta_K": 8,
+        "is_odd_prime_discriminant": false
+      },
+      {
+        "k": 3,
+        "D_k": 13,
+        "squarefree_kernel": 13,
+        "fundamental_discriminant_Delta_K": 13,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 4,
+        "D_k": 20,
+        "squarefree_kernel": 5,
+        "fundamental_discriminant_Delta_K": 5,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 5,
+        "D_k": 29,
+        "squarefree_kernel": 29,
+        "fundamental_discriminant_Delta_K": 29,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 6,
+        "D_k": 40,
+        "squarefree_kernel": 10,
+        "fundamental_discriminant_Delta_K": 40,
+        "is_odd_prime_discriminant": false
+      },
+      {
+        "k": 7,
+        "D_k": 53,
+        "squarefree_kernel": 53,
+        "fundamental_discriminant_Delta_K": 53,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 8,
+        "D_k": 68,
+        "squarefree_kernel": 17,
+        "fundamental_discriminant_Delta_K": 17,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 9,
+        "D_k": 85,
+        "squarefree_kernel": 85,
+        "fundamental_discriminant_Delta_K": 85,
+        "is_odd_prime_discriminant": false
+      },
+      {
+        "k": 10,
+        "D_k": 104,
+        "squarefree_kernel": 26,
+        "fundamental_discriminant_Delta_K": 104,
+        "is_odd_prime_discriminant": false
+      },
+      {
+        "k": 11,
+        "D_k": 125,
+        "squarefree_kernel": 5,
+        "fundamental_discriminant_Delta_K": 5,
+        "is_odd_prime_discriminant": true
+      },
+      {
+        "k": 12,
+        "D_k": 148,
+        "squarefree_kernel": 37,
+        "fundamental_discriminant_Delta_K": 37,
+        "is_odd_prime_discriminant": true
+      }
+    ],
+    "odd_prime_discriminants_k_1_to_12": [
+      5,
+      13,
+      17,
+      29,
+      37,
+      53
+    ],
+    "k4_D4_eq_20_Delta_K_eq_5": true,
+    "k4_root_eq_phi_cubed_exact": true,
+    "k11_root_eq_phi_fifth_exact": true,
+    "rival_prime_splits": {
+      "3": [
+        2,
+        1
+      ],
+      "5": [
+        3,
+        2
+      ],
+      "7": [
+        4,
+        3
+      ],
+      "11": [
+        6,
+        5
+      ],
+      "13": [
+        7,
+        6
+      ],
+      "29": [
+        15,
+        14
+      ]
+    },
+    "metallic_odd_prime_splits": {
+      "5": [
+        3,
+        2
+      ],
+      "13": [
+        7,
+        6
+      ],
+      "17": [
+        9,
+        8
+      ],
+      "29": [
+        15,
+        14
+      ],
+      "37": [
+        19,
+        18
+      ],
+      "53": [
+        27,
+        26
+      ]
+    },
+    "all_splits_match_half_p_plus_minus_1": true,
+    "unique_rival_primes_giving_3_2": [
+      5
+    ],
+    "unique_metallic_odd_primes_giving_3_2": [
+      5
+    ],
+    "passed": true
+  },
+  "deliverable_4_e8_family_colour_orthogonality": {
+    "e8_root_count": 240,
+    "e8_distinct_roots": 240,
+    "e8_all_roots_norm_sq_eq_2": true,
+    "e8_cartan_det": 1,
+    "e8_all_roots_integral_in_simple_basis": true,
+    "e8_248d_frenkel_kac_skew_and_jacobi_verified": true,
+    "dim_A2_fam": 8,
+    "A2_col_root_count": 6,
+    "dim_E6_GUT": 78,
+    "dim_E6_cent": 78,
+    "dim_G422": 21,
+    "dim_E6_cent_cap_E6_GUT": 16,
+    "E6_cent_cap_E6_GUT_roots_plus_cartans": [
+      12,
+      4
+    ],
+    "dim_E6_cent_cap_G422": 7,
+    "E6_cent_cap_G422_roots_plus_cartans": [
+      4,
+      3
+    ],
+    "orthogonal_reflections_in_E8_and_mutually_orthogonal": true,
+    "W_inv_in_SO8_cap_WE8": true,
+    "W_inv_exact_order_2": true,
+    "W_inv_conjugates_E6_cent_and_E6_GUT": true,
+    "commutator_A2_fam_E6_GUT_tested_pairs": 624,
+    "commutator_A2_fam_E6_GUT_exact_zero": true,
+    "matter_root_total": 162,
+    "matter_3_fam_x_27_GUT_counts": [
+      27,
+      27,
+      27
+    ],
+    "matter_3bar_fam_x_27bar_GUT_counts": [
+      27,
+      27,
+      27
+    ],
+    "matter_chiral_16_per_family": [
+      16,
+      16,
+      16
+    ],
+    "matter_162_eq_2_x_3_x_27": true,
+    "crt_Z15_bijection_size": 15,
+    "crt_Z15_ring_isomorphism": true,
+    "crt_15x15_operator_order_15_and_factor_recovery": true,
+    "passed": true
+  },
+  "planted_fault_controls": {
+    "PF8_1_odd_fock_wrong_chirality": {
+      "odd_fock_6Y_eigenvalues": [
+        -6,
+        -2,
+        -2,
+        -2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "matches_flipped_sign_spectrum": true,
+      "differs_from_even_fock_target": true,
+      "fault_caught": true
+    },
+    "PF8_2_off_diagonal_su3c_commutator": {
+      "unit_norm_Gc_comm_P_exact_zero": true,
+      "comm_Gc_P_scaled_1e15": 0,
+      "comm_Gc_rhoS_norm_sq_exact": "(15 - sqrt(5))/5",
+      "comm_Gc_rhoS_norm_sq_exact_verified": true,
+      "comm_Gc_rhoS_gt_one_half": true,
+      "fault_caught": true
+    },
+    "PF8_3_bronze_prime_p13_control": {
+      "k3_Delta_K": 13,
+      "rho_13_minus_I_split": [
+        7,
+        6
+      ],
+      "differs_from_3_2": true,
+      "fault_caught": true
+    },
+    "PF8_4_non_orthogonal_4cycle_order_4": {
+      "det_eq_plus_1": true,
+      "in_WE8_and_swaps_E6": true,
+      "W_4cyc_squared_neq_I8": true,
+      "W_4cyc_fourth_eq_I8": true,
+      "exact_order": 4,
+      "fault_caught": true
+    },
+    "PF8_5_conflating_family_with_colour_triplet": {
+      "e8_bracket_nonzero_terms": 1,
+      "e8_bracket_norm_sq": 4,
+      "fundamental_3d_commutator_norm_sq": 2,
+      "norm_strictly_gt_1": true,
+      "fault_caught": true
+    }
+  },
+  "all_planted_faults_caught": true,
+  "overall_passed": true
+}
