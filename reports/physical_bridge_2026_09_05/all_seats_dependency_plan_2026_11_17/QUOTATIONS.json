@@ -171,6 +171,24 @@
       "end": 129,
       "literal_excerpt": "- Which physical sector, if any, each block is. That the 3 is the down quarks and the 2 the leptons is a hypothesis.\n- That the phased sum or either Gramian is the read-out. Each is a covariant candidate; a read-out is a declared\n  choice, to be sealed before any look.\n- Anything for the up sector beyond its failure, or for the leptons beyond B1949's relation.\n- The identities at points other than the two base points and their images. The phases are roots of unity, so the\n  identities are expected to hold everywhere, but that is not proved here.",
       "source_sha256": "3d1ab0dc3dc9e12ae91a2c294b04629816ba17a2d70d55ee6dd14867cca3a449"
+    },
+    {
+      "finding": "MAIN-01",
+      "head": "e9ed8118286037cfa116aeb058701e77a614aca4",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/FINDINGS.md",
+      "start": 30,
+      "end": 31,
+      "literal_excerpt": "| the 24 operators D(v) are an orthonormal traceless basis of sl(5); the parity P sends D(v) to D(\u2212v); the 12 even combinations commute with P, and 12 = 8 + 3 + 1 | 6e-16 |\n| tr(D(v)P) = 1 for every v, so **6Y = \u2212\u00bd \u03a3 D(v) over the 24 points** | 7e-16 |",
+      "source_sha256": "3d1ab0dc3dc9e12ae91a2c294b04629816ba17a2d70d55ee6dd14867cca3a449"
+    },
+    {
+      "finding": "MAIN-01",
+      "head": "e9ed8118286037cfa116aeb058701e77a614aca4",
+      "path": "frontier/B1953_frame_cs_down_coupling_is_the_symbol_of_one_covariant_operator_on_families_times_the_weil_space/FINDINGS.md",
+      "start": 76,
+      "end": 77,
+      "literal_excerpt": "- **The phased sum is the operator's component along hypercharge:** tr_W(O \u00b7 6Y) = \u2212(5/2) \u03a3 \u03b6^(\u2212ab) Y(\u03c4, w). It is\n  also the trace of O\u2083, and minus the trace of O\u2082.",
+      "source_sha256": "3d1ab0dc3dc9e12ae91a2c294b04629816ba17a2d70d55ee6dd14867cca3a449"
     }
   ]
 }

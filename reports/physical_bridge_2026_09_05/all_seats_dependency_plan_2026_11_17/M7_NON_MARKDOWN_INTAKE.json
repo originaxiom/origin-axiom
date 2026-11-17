@@ -1,0 +1,466 @@
+{
+  "window": [
+    "1aa76251",
+    "f0411fd82"
+  ],
+  "purpose": "candidate source/output paths absent as standalone markdown units; not a claim all their results are unregistered",
+  "remaining": "Result-by-result reconciliation with UNITS and the older harvest is not complete.",
+  "candidates": [
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/CHECKER_SEAL.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/RUN01_PREPARATION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/SOURCE_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/independent_checks.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/CUSTODY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/result.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/stderr.log",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/run01/stdout.log",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/SOURCE_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BASELINE_HEADS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/CLOSURE_SOURCE_INVENTORY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/CUSTODY_AND_RECORDED_FLAGS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/DELIVERY_METADATA_VALIDATION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FETCH_COMPARISON.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FETCH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINAL_FETCH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FRONT_DOORS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_CUSTODY_AND_FLAGS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_QUOTED_EVIDENCE.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_GRAM_CHECK_REPAIR.diff",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_REPAIR_PROPOSAL.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PROCESSED_HEADS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/QUOTED_SOURCE_EVIDENCE.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/SOURCE_INVENTORY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/TARGET_HEADS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/collect_source_metadata.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/FRONT_DOORS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/READ_SCOPE.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/REMOTE_HEADS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/all_seats_refresh_2026_11_15/SOURCE_OBSERVATIONS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REFRESH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REFRESH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/METADATA_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/METADATA_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_QUOTES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFRESH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CUSTODY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REFRESH_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/CONTINUATION_SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SOURCE_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/X_BRIDGE_INTAKE.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/ENVIRONMENT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/EXPECTED.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SOURCE_RESOLUTION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/SPECIFICATION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/STATIC_INSPECTION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/checks.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_checks.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/REPEAT_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/first-d5b9afdf6.log",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/engineering_results/repeat-ca02b5d8d.log",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/verification/run_checks.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/CHECKER_SEAL.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/RUN01_PREPARATION.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SOURCE_RECEIPT.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/check_boundary_law.py",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/CUSTODY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/result.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/stderr.txt",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/run01/stdout.txt",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/COMPARISON_SOURCES.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/QUOTATIONS.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/READ_SCOPE.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/SEAL_HISTORY.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    },
+    {
+      "status": "A",
+      "path": "reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/SOURCE_INDEX.json",
+      "first_line": 1,
+      "classification": "candidate non-markdown coverage; result-level status requires inspection, not inferred from extension"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "reading": "full for the two new loop notes and B1957 findings; selected register/status sections; physical M7 plus unchanged earlier read material",
+  "sources": [
+    {
+      "lane": "main-final",
+      "head": "e9ed8118286037cfa116aeb058701e77a614aca4",
+      "path": "docs/seats/physical.md",
+      "sha256": "84f327add3ba99aa7275e3fb9a02913ffcd87042f75a2dd26c3565dcb6f29beb",
+      "lines": 142,
+      "read_ranges": [
+        [
+          1,
+          142
+        ]
+      ],
+      "scientific_output_recomputed": false
+    },
+    {
+      "lane": "main-final",
+      "head": "e9ed8118286037cfa116aeb058701e77a614aca4",
+      "path": "frontier/B1957_the_seats_claims_register/FINDINGS.md",
+      "sha256": "071eacde10cf9c2b43ac38fd2267c3005eafff69329cb5e6b602655c3b6ae32d",
+      "lines": 127,
+      "read_ranges": [
+        [
+          1,
+          127
+        ]
+      ],
+      "scientific_output_recomputed": false
+    },
+    {
+      "lane": "main-final",
+      "head": "e9ed8118286037cfa116aeb058701e77a614aca4",
+      "path": "frontier/B1957_the_seats_claims_register/REGISTER.md",
+      "sha256": "3ce841196b588f8050f3f64f3d19f4c273d25da392b93882fba289bbc7afe0e9",
+      "lines": 294,
+      "read_ranges": [
+        [
+          1,
+          55
+        ]
+      ],
+      "scientific_output_recomputed": false
+    },
+    {
+      "lane": "chat1-final",
+      "head": "9a5aafe409ca4287efd6e53b95546090f14fce36",
+      "path": "relays/STATUS_CHAT1.md",
+      "sha256": "179959b02122cfff3eb4ff9a4ca92a5b461d9329be0f63ed2382f275df68686d",
+      "lines": 379,
+      "read_ranges": [
+        [
+          1,
+          112
+        ]
+      ],
+      "scientific_output_recomputed": false
+    },
+    {
+      "lane": "exp-final",
+      "head": "48a4054aa28e2ac6b6c48652af9c41149554b0d3",
+      "path": "relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md",
+      "sha256": "1b2bf9b45cd661e9155cb2ad59bc990b0733f1e64a22baff2f404b21262d44db",
+      "lines": 50,
+      "read_ranges": [
+        [
+          1,
+          50
+        ]
+      ],
+      "scientific_output_recomputed": false
+    },
+    {
+      "lane": "exp-final",
+      "head": "48a4054aa28e2ac6b6c48652af9c41149554b0d3",
+      "path": "relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md",
+      "sha256": "38e568f0739adfef8da9993ce6303334a6f2bec3cee9611a2bd0fa426afc2070",
+      "lines": 41,
+      "read_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "scientific_output_recomputed": false
+    }
+  ]
+}
