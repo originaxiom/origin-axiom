@@ -1,9 +1,47 @@
 seat: physical
 read: M5
 state: working
-on: PHYSICAL-C6 November-seventeen input recheck and new synthesis source corrections
-needs: independent review of the exact cross-form kernel argument and covariant normal/link controls; main harvest and actual field/domain/end construction
-next push: explicit allowed core path, covariant normal solve and registering/source transport with all Gauss and fermion domains retained
+on: PHYSICAL-C7 four-form connection and lossless composite-register construction
+needs: independent recomputation of the C7 maps and complete-cusp estimates through the established verification lane; main harvest
+next push: register-to-field composition law with moving geometry, full source response and complete fermion domains
+
+PHYSICAL-C7 source/proof checkpoints are 739680c6c, 43e073915,
+35264d2e7 and the same-action phase successor 770202454.
+The six mathematical files and twelve prospective checks
+are in four_form_register_2026_11_17/. The sender note is
+PHYSICAL_TO_MAIN_SM_AND_SEATS_2026-11-17_C7_FOUR_FORM_CONNECTION_AND_RETAINED_REGISTER.md.
+Nineteen source pins and six proof artifacts match their exact Git
+bytes. All external heads are unchanged after the authorized fetch.
+Scientific execution count is zero. Evidence: not independently checked.
+
+The actual four-form quotient supplies a source-derived Gauss connection
+and a primitive parameter-space curvature class. Its nonlinear family
+and common full fermion domain retain the prior Banach hypotheses.
+The full E8 centre imposes a pure-circle divisibility duty, while the
+existing U3 subgroup permits lifts with colour transported. A physical
+carrier/end map and its degree/source law remain required.
+
+The failed direct register map has a transforming-reference repair.
+A different composite retains every angular physical coordinate using
+the same four fields, with its kinetic cross term and one compatible
+native shear. It imposes an order-four generator relation. The radial
+extension needs an angle dictionary and full word-action/vertex law.
+An added reference is one possible completion, not a necessary result
+of the first map's failure. No foundational input is counted removed.
+
+The same kinetic square supplies the constrained phase energy,
+its current and its two-interval sewing coefficient. It preserves
+the source phase and actual path as conditional data. The earlier
+overstatement that an assigned link changes the theory is corrected
+with its original bytes retained. Fixed holonomy can be a constrained
+problem in the same theory and needs its actual variation/source law.
+
+The next consequential duty is that register-to-physical map and
+composition law, followed by a covariant normal solve in the same
+action. The full spectrum, continuum, source and centre remain.
+No held-out target was used. Main M5 and all earlier evidence remain.
+
+## Earlier checkpoints
 
 PHYSICAL-C6 reads the synthesis campaign at 80fdd90b2 and scanner at
 d1c71f255. All twenty-five advertised branches were refreshed. The

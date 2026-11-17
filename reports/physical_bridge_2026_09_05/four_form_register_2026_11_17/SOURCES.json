@@ -98,6 +98,24 @@
       "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WILSON_FAMILY_KERNEL_AND_LEVEL_FOUR_REGISTER_MAP.md",
       "sha256": "b53f22602afcc6194a3cbddde86eaa86d6e1f54c707e4135777d1f018ad2d6ae",
       "git_blob": "d7a4d04104960b5e6480bb21f712514a114d22af"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+      "sha256": "57d0cf9d7bedb774d1861f463eed068d1f2c53ec80b6c529dcb4faff680df7ac",
+      "git_blob": "cf48dcb2016f314b46b9e742b7f5fd9b9aab4042"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+      "sha256": "0e2385953452c3e2d4266c8d83d5bbb5021997230a4f0016baeacc1fc6fae321",
+      "git_blob": "a3aa120e3b7d3bf646ccf70927732c21595088d4"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+      "sha256": "50bd92c7a9f63741b670ff9f160ca409a595839f716ee01649fb3f027c37b5be",
+      "git_blob": "4ad48ed9ee133e2fff8d1d589455851dc3cfacff"
     }
   ],
   "branch_heads": {
@@ -158,7 +176,8 @@
       "Gauss curvature",
       "P_i R_j"
     ],
-    "found": "SM-lane conifold references concern its G2 literature notes and apex-index discussion. Existing physical notes give generic induced kinetic metrics, gauge responses and domain warnings. No treatment of this four-form coefficient quotient was found in the stated searched scope. No universal absence/novelty claim."
+    "found": "SM-lane conifold references concern its G2 literature notes and apex-index discussion. Existing physical notes give generic induced kinetic metrics, gauge responses and domain warnings. No treatment of this four-form coefficient quotient was found in the stated searched scope. No universal absence/novelty claim.",
+    "internal_composite": "A targeted text search in physical markdown for composite register, traceless generator, U(bar v), right-torus and conifold located the current C7 family and earlier register controls. It supplies no global absence or novelty conclusion."
   },
   "reading_scope": {
     "all_four_P_C3e_source_proofs": "personally read in full across the C5-C7 sequence; C7 reread the balanced-form and full inverse proofs",
@@ -167,8 +186,146 @@
     "Feshbach_and_scale_notes": "reused exact hypotheses and normalization discriminator; no old producer imported or rerun",
     "C5_C6_hand_proofs": "author source continuation with independent review duties retained",
     "native_unitary_register": "Relevant sections 2-4 personally reread, with the explicit based SU2 pair and its covariance/measure distinction retained. No new theorem of generic freeness is used.",
-    "Hodge_and_Wilson_recovery": "Hodge note through its metric/scale controls and Wilson note through section 4 personally reread. The old moving-family period norm is credited as reuse."
+    "Hodge_and_Wilson_recovery": "Hodge note through its metric/scale controls and Wilson note through section 4 personally reread. The old moving-family period norm is credited as reuse.",
+    "internal_composite": "Author hand continuation using the declared coefficient frames. The source metric, lift changes, word shear, radial chart and cone-vertex test were derived explicitly. This is not independent proof review or scientific execution.",
+    "constrained_phase_response": "Author hand completion of the same source kinetic square, fixed effective phase, current derivative and two-interval minimization. No implementation or scientific execution. Endpoint source and complete non-Abelian/normal-field map remain hypotheses."
   },
   "evidence_status": "author hand derivation pending independent review; source custody does not certify mathematics",
-  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26"
+  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26",
+  "internal_composite_scope_commits": [
+    "0d1834b9c0579a43748dcecfa891c9be8f0f1326",
+    "9f07f309680409272cb94e3da2dc1767c0add8f8"
+  ],
+  "continuation_proof_commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+  "proof_artifact_pins": [
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+      "sha256": "57d0cf9d7bedb774d1861f463eed068d1f2c53ec80b6c529dcb4faff680df7ac",
+      "git_blob": "cf48dcb2016f314b46b9e742b7f5fd9b9aab4042"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+      "sha256": "0e2385953452c3e2d4266c8d83d5bbb5021997230a4f0016baeacc1fc6fae321",
+      "git_blob": "a3aa120e3b7d3bf646ccf70927732c21595088d4"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+      "sha256": "50bd92c7a9f63741b670ff9f160ca409a595839f716ee01649fb3f027c37b5be",
+      "git_blob": "4ad48ed9ee133e2fff8d1d589455851dc3cfacff"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE.md",
+      "sha256": "669a3ace78b5378623a07953da4904b8af1c0ea3c09511daeb4c90ec2a7dc08d",
+      "git_blob": "399523ab91dd9f8397f3c6ae7cd0351397d4cdaf"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md",
+      "sha256": "645a31528747b3f2d9d5d0b39f52547b78f4c1c12b47190d07190291d42c477a",
+      "git_blob": "38a581b8efba3075739c493ebc04776a12a720dc"
+    },
+    {
+      "commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/CONSTRAINED_PHASE_RESPONSE_FROM_SAME_KINETIC_ACTION.md",
+      "sha256": "31f452b0e18b23de5cad26b99a158bf03bfdd49536ad88ec568c2dde488728d5",
+      "git_blob": "923d9393fb1ec104f1d7dbd4bbcacf1e5018877c"
+    }
+  ],
+  "latest_metadata_check_utc": "2026-11-17T11:14:47.349440+00:00",
+  "latest_fetched_branch_heads": {
+    "origin/HEAD": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/agy-002/closure": "f877e0481172392dff9b63420b8bfb03399e9f49",
+    "origin/agy-002/endgame": "94e511f54b6cc44c13fb5f216b08cd8b0d8926f0",
+    "origin/agy-002/verify": "62420b533f0ec1ad3746eaa3ef73777eeb9a32a9",
+    "origin/agy/audit-2026-11-02": "d1c71f255ade662098dbec1167ba355b12584740",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/agy/self-consistent-loop-2026-11-11": "80fdd90b23abd93e89a9ed7614103b135f182c66",
+    "origin/agy/stage4-sync-2026-11-11": "d37c773d66607b2a8c9fd189f9e1638cad166dab",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "9f07f309680409272cb94e3da2dc1767c0add8f8",
+    "origin/chat1/web-seat": "3ce61679c78917692d3c0d63a9a2723b68ede07d",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "6ea836f560846d9e6aadb3bb715f1b862410c5c0",
+    "origin/cld/cool-hamilton-k9eqvo": "fbc4764bb5d8b3b0a9355b503ee68b04aab60ac7",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "613c4f4174ffaf1afef0b1e0bd8efdcff3f620ec",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/review-82/read": "86930f57458df41f9f3e97b78d8128de344d2b0c",
+    "origin/review-83/read": "b35eac607d35ef1a5cffb78d0d5fb32b6e9d6b56",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "latest_fetch_note": "Authorized all-branch fetch during the continuation. External heads matched the preceding receipt. The own-branch remote head is the last pushed scope checkpoint, not the unpublished continuation proof commit.",
+  "proof_revision_history": [
+    {
+      "proof_commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+      "proof_artifact_pins": [
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+          "sha256": "3f6205583307e729f8c8ab7fbd35d76a4ca833a29e048fb631edb1d80ad1cda8",
+          "git_blob": "212e6c7d6d427b0553add9ca1f7eadc2c2b27f49"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+          "sha256": "0e2385953452c3e2d4266c8d83d5bbb5021997230a4f0016baeacc1fc6fae321",
+          "git_blob": "a3aa120e3b7d3bf646ccf70927732c21595088d4"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+          "sha256": "50bd92c7a9f63741b670ff9f160ca409a595839f716ee01649fb3f027c37b5be",
+          "git_blob": "4ad48ed9ee133e2fff8d1d589455851dc3cfacff"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/BASED_REGISTER_AND_RELATIONAL_REFERENCE.md",
+          "sha256": "669a3ace78b5378623a07953da4904b8af1c0ea3c09511daeb4c90ec2a7dc08d",
+          "git_blob": "399523ab91dd9f8397f3c6ae7cd0351397d4cdaf"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md",
+          "sha256": "645a31528747b3f2d9d5d0b39f52547b78f4c1c12b47190d07190291d42c477a",
+          "git_blob": "38a581b8efba3075739c493ebc04776a12a720dc"
+        }
+      ],
+      "reason_for_successor": "Narrow the overbroad independent-link wording and derive the same-action constrained phase response. Earlier bytes remain preserved."
+    }
+  ],
+  "source_revision_history": [
+    {
+      "source_pins": [
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+          "sha256": "3f6205583307e729f8c8ab7fbd35d76a4ca833a29e048fb631edb1d80ad1cda8",
+          "git_blob": "212e6c7d6d427b0553add9ca1f7eadc2c2b27f49"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+          "sha256": "0e2385953452c3e2d4266c8d83d5bbb5021997230a4f0016baeacc1fc6fae321",
+          "git_blob": "a3aa120e3b7d3bf646ccf70927732c21595088d4"
+        },
+        {
+          "commit": "35264d2e7f3231530a1d9b014ef6b436e761f703",
+          "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+          "sha256": "50bd92c7a9f63741b670ff9f160ca409a595839f716ee01649fb3f027c37b5be",
+          "git_blob": "4ad48ed9ee133e2fff8d1d589455851dc3cfacff"
+        }
+      ],
+      "reason_for_successor": "Pin the exact updated four-form proof and unchanged companion source files at the same successor commit."
+    }
+  ]
 }

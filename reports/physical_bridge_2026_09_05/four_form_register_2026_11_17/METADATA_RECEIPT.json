@@ -1,17 +1,24 @@
 {
-  "date_utc": "2026-11-17T10:46:59.781950+00:00",
+  "date_utc": "2026-11-17T11:14:47.349440+00:00",
   "checks": [
-    "Sixteen local source files match their pinned Git blobs",
-    "Source SHA-256 custody recorded",
-    "Remote branch heads recorded after authorized fetch",
+    "Nineteen pinned source files match their exact Git blobs and local bytes",
+    "Six mathematical proof artifacts match their exact continuation commit",
+    "SHA-256 custody recorded; this is not mathematical acceptance",
+    "External branch heads unchanged after the authorized all-branch fetch",
     "Inherited staged binary diff preserved"
   ],
-  "source_pins_matching": 16,
+  "source_pins_matching": 19,
   "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
   "scientific_execution_count": 0,
   "scientific_import_count": 0,
   "scientific_collection_count": 0,
   "independent_mathematical_acceptance": false,
   "foundational_inputs_counted_removed": 0,
-  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26"
+  "continuation_scope_commit": "76c167a31e282108c4de2edd9c771692b9171e26",
+  "proof_artifact_pins_matching": 6,
+  "proof_commit": "770202454c8e35151c655270490b5e4cf3cdb472",
+  "internal_composite_scope_commits": [
+    "0d1834b9c0579a43748dcecfa891c9be8f0f1326",
+    "9f07f309680409272cb94e3da2dc1767c0add8f8"
+  ]
 }
