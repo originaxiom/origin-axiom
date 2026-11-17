@@ -1,0 +1,25 @@
+{
+ "id": "B1957",
+ "verdict": "OPEN",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1954",
+  "B1955",
+  "B1956"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the markdown files the seats added or changed between their pins before 2026-11-15 and the heads harvested to on 2026-11-17: 275 files on seven branches",
+  "object": "every statement of those files as a registered unit, with its state: read at its source or not, and verified, refuted, conditional, partial, superseded, noted or pending",
+  "reach": "single",
+  "hypotheses": "the extraction is mechanical and by form (items, table rows, paragraphs); results that exist only in code or raw outputs, the builder's lane and the older ledger rows are owed separately; a verdict is main's and is open to its seat's correction"
+ },
+ "claim_one_line": "THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the 275 markdown files the seats added or changed in the window is registered as a unit, 14,878 statements (agy-exp 2,040; agy-002 978; the physical lane 10,781; the web seat 955; the agy audit lane 124), each pending until a record gives its verdict (verified, refuted, conditional, partial, superseded or noted) and how it was reached, and each file read at its source only when a record says so; the state is in REGISTER.md. It closes when no statement is pending and each seat has said its harvest is complete. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

@@ -1,0 +1,12 @@
+I1: at tau = i, mark against twin: ratios differ by 0.0e+00, |V| by 1.1e-16
+I2: every ratio at (i, mark) lies between 0.015451 and 0.904554: none forced to 0 or 1
+I3: the smallest sigma_3/sigma_1 is 0.015451: above 1e-3, no large hierarchy
+I4: the axis point at s0 is 0.000000000000 + 1.000000000000i; at arclength -0.1, -0.05, 0.05, 0.1 from it mark and twin differ by 2.223, 0.703, 0.413, 0.690 in the ratios
+plant: (i, mark) against (i, (0, 3/5)): ratios differ by 1.00, |V| by 0.52
+H1: at (i, mark) the reading S-tilde gives S's ratios to 0.0e+00, and the four reading pairs the same |V| to 0.0e+00
+H2: controls at 1.3i and 0.05 + 0.9i: S-tilde against S differ by 2.35 and 2.09 in the ratios
+H3: at tau = i the two readings' couplings agree at all 24 points, both sectors: 2.8e-33
+H4: the end at i is 2.7193; moved by -0.3 and +0.3 the ratios move by 20.9 % and 16.2 %, |V| by 0.0195 and 0.0167
+G1: (i, (2/5, 1/5)) against (i, mark): ratios 0.0e+00, |V| 1.1e-16
+outputs at (i, mark): up 0.496836, 0.0932603; down 0.904554, 0.0154505; |V| rows: 0.9737 0.2024 0.1050 | 0.1918 0.4784 0.8569 | 0.1233 0.8545 0.5047
+exit 0

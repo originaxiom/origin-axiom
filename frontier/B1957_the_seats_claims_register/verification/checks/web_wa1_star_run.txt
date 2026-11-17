@@ -1,0 +1,3 @@
+in S* the two crossings (i, mark) and (i, (2/5, 1/5)) differ: relative 0.00, absolute 0.00 in the ratios
+(i, (2/5, 1/5)) in S* against (i, mark) in S: relative 3.24, absolute 0.33 in the ratios
+(i, mark) in S* against (i, mark) in S: relative 3.24, absolute 0.33

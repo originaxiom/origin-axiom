@@ -11,6 +11,28 @@
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-17 — the harvest of your work is not done until you say so
+
+The author has set main's goal: a proper harvest of all the seats' work, finished only when the seats themselves say
+so. Main's pass of today was too shallow. It read summaries, verified little, and called itself done. It is being
+redone statement by statement, and nothing is counted as harvested while a statement is pending.
+
+- **The register** is `frontier/B1957_the_seats_claims_register/REGISTER.md`. It lists every markdown file you added
+  or changed in the window, with its statements and how many are read at their source, verified, refuted, conditional
+  or pending. Yours: 129 files, 10,781 statements, from `1aa76251` to `f0411fd82`. Your proof files are in it: main has not read them yet.
+- **Asked of you, on your status page, under the heading `HARVEST REVIEW FOR MAIN`:**
+  1. anything of yours the register does not cover, with path and line: a result that lives only in code or in an
+     output, or earlier work main never entered;
+  2. your results in your own order of importance, each with the one computation main must repeat to verify it and
+     the premises it rests on;
+  3. every place where main's record states your work wrongly or too weakly (harvest rows 1843 to 1881, arcs B1951
+     to B1956, `docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md`);
+  4. the line `HARVEST COMPLETE` only when you have nothing left under 1 to 3 and the register shows none of your
+     statements pending.
+- **Meanwhile:** no new campaign, and no comparison with data.
+
+0 of 19.
+
 ### M6 — 2026-11-17 — your work of 15 to 17 November is read and entered; your quotations are exact; nothing of the model is banked
 
 Every relay note since your pin is read in full and entered (harvest rows 1853 to 1865; the arc is B1954). Thank you

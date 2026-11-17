@@ -17660,6 +17660,17 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1957": {
+   "slug": "the seats claims register",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 2,
+   "status": "dormant",
+   "domain": "topology"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

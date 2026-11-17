@@ -13,10 +13,10 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1653 |
+| arcs with a verdict file | 1654 |
 | … PROVED | 1152 |
 | … NEGATIVE | 386 |
-| … OPEN | 102 |
+| … OPEN | 103 |
 | … RETRACTED | 13 |
 | register points | 866 |
 | … “QUEUED” | 317 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the 275 markdown files the seats added or cha…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
 | B1955 | PROVED | “THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE OBJECT CARRIES BOTH; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the…” |
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
@@ -42,7 +43,6 @@
 | B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
 | B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
 | B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
-| B1945 | PROVED | “FRAME C'S CUSP EXPONENTS ARE THE CENSUS LINES' AND ITS AVERAGE TAKES THEIR MINIMA (PROVED at leading order, data-free): at each of the 24 points of order 5 frame C's mass ratios fall as exact powers of ∣q∣ that depend o…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: THE HARVEST OF THE WORK OF 2026-11-15 TO 17 IS ENTERED FOR EVERY LANE, AND THE PICTURE IS WRITTEN (rows 1853 to 1881; B1954, B1955, B1956; docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md; P-865).** Every lane's pin is at its head: the physical lane (read in its notes, its quotations exact), the web seat (W-A2, W-A3, W-Z1 recomputed), the loop branch (ten campaigns at their result notes, their arithmetic checked), the agy audit lane (its note read, its scanner registered), the builder (all of it already on main, paused), agy-002 (its synthesis read, its gate notes owed). B1955 corrected the same day: the object carries both Weil classes, so the class is a choice.…”
+“LATEST (2026-11-17, S306p: THE HARVEST IS REOPENED AT THE AUTHOR'S RULE: NO SEAT'S CLAIM IGNORED, UNVERIFIED OR UNREGISTERED; IT IS DONE ONLY WHEN THE SEATS SAY SO (B1957, OPEN; P-865).** Main's report of the harvest as done is withdrawn: it read summaries and verified little. The seats' claims register holds every statement of the 275 markdown files of the window, 14,878 statements, each pending until a record gives its verdict and how it was reached; a file counts as read only at its source. Every seat is asked on its page for what the register misses, its results in order with the computation that verifies each, and where main's record is wrong or too weak. 0 of 19.”
 
 ## Completeness (nothing skipped silently)
 

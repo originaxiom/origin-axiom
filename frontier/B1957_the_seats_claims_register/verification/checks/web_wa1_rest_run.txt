@@ -1,0 +1,22 @@
+1. T = diag psi(1 x^2): the Fourier kernels psi(k x y) that close the relations: k in [3]
+1. T = diag psi(2 x^2): the Fourier kernels psi(k x y) that close the relations: k in [1]
+2. on the 3: Frobenius-Schur indicator +1.000; character norm 1.000; image of order 60
+2. on the 2: Frobenius-Schur indicator -1.000; character norm 1.000; image of order 120
+3. SU(3)^3: Q counts 2 triplets, u^c and d^c one antitriplet each: 2 - 1 - 1 = 0; weak doublets: 3 (Q) + 1 (L) = 4, even
+4. the mirror tau -> -conj(tau), (a, b) -> (a, -b), the end held equal: ratios and |V| agree to 3.3e-16 at three tau and four lines
+5. one period of the act's axis (length 1.924847) on the modular surface: least distance to the cone point of order 2: 0.0e+00; to the cone point of order 3: 0.2554
+6. the triplet at tau = i: |a3| / |a1| = 9.4e-42; |a1 + a2| / |a1| = 1.8e-41; imaginary parts of a1, a2: 0.0e+00
+   under S at 0.13 + 1.7i: a(-1/tau) = (-i tau)^(-1/2) tau^2 P a(tau), P exchanging the first two components: 7.4e-39
+7. the scoreboard's S01:  a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry) | ANSATZ | FL-02 (OPEN, GAP6); 107 of 173 value-kills sit on f
+7. the scoreboard's S02:  the orientation: the orientable, amphichiral member (SE2) | CHOSEN | FL-03; GENESIS SE2 | |
+7. the scoreboard's S03:  the root: the act's first homology torsion-free (SE1), which selects the class of LR (m004) and that of LP (m000) | CHOSEN | GENESIS SE1 (POSTULATED;
+7. the scoreboard's C01:  the measure over histories: every move equally likely, each thread weighted by its length (P-845's condition) | CHOSEN | 7 | | P-845 | the principle 
+7. the scoreboard's C02:  the line class of order 5: the ground's frustrated level | CHOSEN | 7 | | P-721 | GENESIS SE3 (POSTULATED, main's entry, counted in the budget): the 
+7. the scoreboard's C03:  the Higgs direction: the frame's covariant triplet | CHOSEN | 7 | | | as frame A's A04 |
+7. the scoreboard's C04:  the Higgs reading (S~, S, S): its global bit | CHOSEN | 7 | | P-847 | the relative reading is fixed by charge balance (main; the web seat's W-F13; ag
+7. the scoreboard's C05:  the end: B1667's horocycle of length 2, read point by point | CHOSEN | 7 | | P-845 | B1927: the end is covariant and needs no constant; analyticity s
+7. the scoreboard's C06:  the channel weights sqrt(2 pi L + c_s) at that end | CHOSEN | 7 | | | B1656's frame as banked; the exact horoball norms (A09) are not used; frame A's
+7. the scoreboard's C07:  the generations' metric H = I | CHOSEN | 7 | | P-531 | as frame A's A08 |
+7. the scoreboard's C08:  one coupling for all sectors (no tau and no line: B1928) | CHOSEN | 7 | | P-555 | as frame A's A11 without its tau and line |
+7. the scoreboard's C09:  the scale: tree level, no running | CHOSEN | 7 | | | as frame A's A12 |
+exit 0
