@@ -218,8 +218,8 @@ also accompany any physical variation of those native holonomies.
 
 The full charged-form construction gives a source-derived connection
 and an explicit candidate register map when a reference is retained.
-To turn that into the active physical law, derive how the reference
-is represented by the existing registering architecture, what metric
+For that reference completion, derive how the reference is represented
+by the existing registering architecture, what metric
 and interactions it carries, how its centre is lifted, and how native
 word moves transport the geometry, field operator and measuring data.
 The coefficient-to-group frame assignment must be transported or
@@ -230,3 +230,10 @@ interaction test (7) give concrete compatibility questions. They leave
 the register present throughout the physical construction. They do
 not derive a preferred history, a physical end unit or a three-family
 chiral spectrum by matching the two S^3 factors.
+
+The companion INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md supplies
+a different lossless angular map using the existing fields. It
+demonstrates that an added reference field is not a necessary
+consequence of the failed direct pair dictionary. That alternative
+has its own explicit group relation, native-action, radial-angle and
+vertex duties. The full registering architecture can test both routes.

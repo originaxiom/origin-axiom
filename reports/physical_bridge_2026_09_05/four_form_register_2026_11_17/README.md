@@ -37,6 +37,9 @@ The files are
 - BASED_REGISTER_AND_RELATIONAL_REFERENCE.md for the explicit native
   pair-map test, its reference-phase repair, global obstruction and
   the source action required by a dynamical register.
+- INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md for the alternative
+  lossless angular map from the existing fields, its transported
+  kinetic cross term, compatible word shear and radial dictionary.
 - REVIEW_AND_DISCRIMINATORS.md for the required independent checks.
 - SOURCES.json and METADATA_RECEIPT.json for exact source custody,
   reading coverage, scoped prior-work search and metadata-only checks.
@@ -62,3 +65,14 @@ charged reference gives an explicit relational pair map in declared
 frames. Its global bundle, positive kinetic response, actual spin-mode
 interaction and native shear covariance remain earning duties. This
 preserves the registering relation instead of silently forgetting it.
+
+The continuation scoped at 0d1834b9c and 9f07f3096 constructs a
+different, lossless angular dictionary using those same fields. It
+needs no extra reference variable. One native shear preserves its
+leading source metric and connection, but the composite imposes an
+order-four relation on one generator and the other native move leaves
+that subfamily. The amplitude can supply a larger native pair chart
+with a declared angle function and transported metric. Its global
+vertex and native-action duties remain. A reference sector is one
+possible completion; its necessity does not follow from the first
+map's failure. No new foundational input payment is inferred.

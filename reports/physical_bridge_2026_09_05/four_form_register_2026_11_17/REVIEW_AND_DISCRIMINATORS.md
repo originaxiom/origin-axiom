@@ -82,3 +82,29 @@ Check the SU2 contraction of diag(exp(i varphi),exp(-i varphi)) on
 the displayed sphere. Reject extending its doublet triviality to the
 whole family without a bundle argument, or assigning the Q-neutral
 quaternion flavour fields opposite Q charges by a change of name.
+
+The internal-composite continuation adds the following checks.
+
+9. **Lossless composite and source metric.** Construct the inverse of
+   (u,v) mod U1 -> (A=U J U^-1,W=U U(bar v)^-1), including changes of
+   local Hopf lift. Recover the full metric with
+   D A=dA-[dW W^-1,A]/2 and the connection
+   a_u-<A,dW W^-1>/2. Reject a product metric without that cross term,
+   a failed phase covariance, and a missing angular coordinate.
+
+10. **Native word tests.** Verify the lift v->i v of
+    (A,W)->(A,AW), its leading metric and connection preservation,
+    and T^4=identity. The point W=-A must make the other elementary
+    native move leave the traceless-first-generator subfamily.
+    Verify the composite commutator trace and its value 2 on the
+    entire primitive sphere. Reject using the primitive unit alone
+    as a noncommutativity invariant or a faithful free-word action.
+
+11. **Radial chart and complete action.** Invert the declared angle
+    map, retain dt/dtheta and all metric factors, and recover the
+    extra radial kinetic term under v->exp(i theta(t))v. A pure
+    radial tangent with theta'!=0 must detect it. Distinct fixed W
+    must give incompatible chart limits at the same cone vertex.
+    Reject an inference of universal impossibility from those
+    particular charts, or an unpriced identification with a native
+    group law/metric after dropping the angle dictionary.
