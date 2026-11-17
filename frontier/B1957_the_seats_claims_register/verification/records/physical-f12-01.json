@@ -1,0 +1,12 @@
+{
+ "id": "physical-f12-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "main read both primary sources and the cited source lines: Buttazzo et al., equation (99), has -72 lambda^2 yt^2 in d/d ln(mu^2) with the potential lambda |H|^4; Luo and Xiao, equation (10), has -24 lambda^2 Y_2 with the potential (lambda/2)(phi^dagger phi)^2; both give -48 lambda^2 Tr_Y in d/d ln(mu) for lambda |H|^4. agy-exp's verify_x_closure_4.py at 2ff7784b1, lines 285 and 1004, has -24 beside -312 lambda^3, which is that normalisation: half the right coefficient. Main's two transcriptions agree with each other to 4e-16 and reproduce agy-002's benchmark",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM:79",
+  "physical:physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM:85",
+  "physical:physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM:92"
+ ]
+}

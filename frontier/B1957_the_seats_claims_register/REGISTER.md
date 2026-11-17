@@ -6,12 +6,12 @@
 |---|---|---|---|---|---|---|---|---|---|---|
 | agy-exp | 86 | 0 | 2040 | 0 | 0 | 0 | 0 | 0 | 0 | **2040** |
 | agy-002-verify | 11 | 0 | 500 | 0 | 0 | 0 | 0 | 0 | 0 | **500** |
-| agy-002-endgame | 12 | 0 | 207 | 0 | 0 | 0 | 0 | 0 | 0 | **207** |
+| agy-002-endgame | 12 | 0 | 207 | 22 | 0 | 6 | 5 | 0 | 0 | **174** |
 | agy-002-closure | 18 | 0 | 271 | 0 | 0 | 0 | 0 | 0 | 0 | **271** |
-| physical | 129 | 0 | 10781 | 0 | 0 | 0 | 0 | 0 | 0 | **10781** |
+| physical | 129 | 0 | 10781 | 6 | 0 | 0 | 1 | 0 | 0 | **10774** |
 | web | 15 | 1 | 955 | 67 | 0 | 0 | 4 | 3 | 53 | **828** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 275 | 1 | 14878 | 67 | 0 | 0 | 4 | 3 | 53 | **14751** |
+| **all** | 275 | 1 | 14878 | 95 | 0 | 6 | 10 | 3 | 53 | **14711** |
 
 ## By file
 
@@ -114,8 +114,8 @@
 | agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | no | 31 | 0 | **31** |
 | agy-002-verify | `relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md` | no | 11 | 0 | **11** |
 | agy-002-verify | `relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md` | no | 20 | 0 | **20** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | no | 19 | 0 | **19** |
-| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | no | 20 | 0 | **20** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | no | 19 | 14 | **5** |
+| agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | no | 20 | 19 | **1** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | no | 18 | 0 | **18** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G3_RESULTS.md` | no | 18 | 0 | **18** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md` | no | 21 | 0 | **21** |
@@ -148,7 +148,7 @@
 | physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | no | 10 | 0 | **10** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | no | 24 | 0 | **24** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md` | no | 11 | 0 | **11** |
-| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS.md` | no | 9 | 0 | **9** |
+| physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS.md` | no | 9 | 4 | **5** |
 | physical | `relays/PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md` | no | 19 | 0 | **19** |
 | physical | `relays/PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW.md` | no | 12 | 0 | **12** |
 | physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md` | no | 7 | 0 | **7** |
@@ -184,7 +184,7 @@
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/REVIEW.md` | no | 82 | 0 | **82** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/BRANCH_COVERAGE.md` | no | 26 | 0 | **26** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/FINDINGS.md` | no | 44 | 0 | **44** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md` | no | 26 | 0 | **26** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/LATE_CLOSURE_ADDENDUM.md` | no | 26 | 3 | **23** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/MAIN_CHECKLIST.md` | no | 27 | 0 | **27** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/OWN_PACKET_MAP.md` | no | 17 | 0 | **17** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/PREPARATION_FIRST_FAILURE.md` | no | 4 | 0 | **4** |

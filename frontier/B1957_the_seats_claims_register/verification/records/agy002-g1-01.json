@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g1-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g0_g1.py: in exact arithmetic Riley's generators satisfy [A, B^-1] A = B [A, B^-1] and the longitude word is -[[1, 2 sqrt 3 i], [0, 1]], so the cusp shape is 2 sqrt 3 i with real part 0; SnapPy: volume 2.0298832128193, maximal cusp area 2 sqrt 3 and volume sqrt 3; the 27 of E6 read off E8's roots is 16 (charge 1) + 6 + 4 (charge -2) + 1 (charge 4); the closed form (23/134, 109/201, 506/201) from the slopes, 22 (23/3)/67 = 506/201 (also B1956)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:22",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:25"
+ ]
+}

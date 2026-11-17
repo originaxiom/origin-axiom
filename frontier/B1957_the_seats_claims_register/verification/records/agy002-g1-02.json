@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g1-02",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the strong-CP statement holds given its premise, which is borrowed and not derived: Hermitian Yukawa matrices with determinants of one sign at the Pati-Salam scale (left-right D-parity), and a vanishing gauge theta there. Main's own argument for the running (checks/agy002_g0_g1.py): with beta_Y = P(H_u, H_d) Y the logarithmic derivative of det Y is Tr P, and the trace of a word of length at most three in two Hermitian matrices is real, so arg det(Y_u Y_d) does not run at one and two loops for any Yukawas. Its numerical residuals and its J_CKM values are its own runs; main has no matrix two-loop running yet",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:23",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:24",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:30"
+ ]
+}

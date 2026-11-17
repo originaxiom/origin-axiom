@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g0-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g0_g1.py and checks/sm_rge.py: the one-loop slopes (41/10, -19/6, -7) from the content; the Pati-Salam slopes (-10, -7/3, -7/3) for three generations, one complex bidoublet and scalars (4,2,1) + (4,1,2); the matching weights (3/5, 2/5) from Y = T3R + (B - L)/2; and its benchmark B0.2 reproduced on main's own two-loop running, transcribed from Buttazzo et al., Appendix B, equations (96) to (101): t = 7.578626559316 against its 7.578626559317",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:22",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:24"
+ ]
+}

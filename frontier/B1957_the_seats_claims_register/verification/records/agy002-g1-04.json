@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g1-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the planted cases are its own runs, not repeated by main",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:14",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:15"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "physical-xe-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "main's own two-loop matrix running, transcribed from the primary source (Luo and Xiao, hep-ph/0207271, equations (3) to (10), read by main in the PDF; checks/sm_rge_matrix.py, validated against Buttazzo et al.'s equations to 4e-16): their equations are right-acting, so in a left-acting convention the up mixed term is (-(1/4) H_u H_d - H_d H_u) Y_u; with the products as printed the coefficient of yt^2 yb^2 in the two-loop running of the mixing is 11/2, with the two products exchanged it is 7, and the two differ by exactly (3/2) yt^2 yb^2 cos^2. So the lane's findings 2 and 3 hold, and agy-exp's benchmark coefficient 7 was the exchanged order",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS:30",
+  "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS:40"
+ ]
+}

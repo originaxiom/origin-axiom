@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g0-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the planted cases are its own runs; the one main can check without them holds exactly: halving every beta function doubles the crossing time, a relative shift of 1 (its PF0.1 on B0.2: 1.0000000000005). Its closing paragraph is settled as its rows are: B0.2 and the exact coefficients verified, B0.1, B0.3, B0.4 and the Haar gate pending",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:14",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:15",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:31"
+ ]
+}

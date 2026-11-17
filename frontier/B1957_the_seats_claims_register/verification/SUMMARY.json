@@ -31,13 +31,13 @@
    "read": 0,
    "units": 213,
    "statements": 207,
-   "VERIFIED": 0,
+   "VERIFIED": 22,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 6,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 207
+   "PENDING": 174
   },
   "agy-002-closure": {
    "files": 18,
@@ -57,13 +57,13 @@
    "read": 0,
    "units": 11067,
    "statements": 10781,
-   "VERIFIED": 0,
+   "VERIFIED": 6,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 1,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 10781
+   "PENDING": 10774
   },
   "web": {
    "files": 15,
@@ -1359,26 +1359,26 @@
    "units": 20,
    "statements": 19,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 11,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 19
+   "PENDING": 5
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_G1_RESULTS.md": {
    "lane": "agy-002-endgame",
    "units": 21,
    "statements": 20,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 11,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 6,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 20
+   "PENDING": 1
   },
   "agy-002-endgame | relays/AGY002_ENDGAME_V2_G2_RESULTS.md": {
    "lane": "agy-002-endgame",
@@ -1801,13 +1801,13 @@
    "units": 9,
    "statements": 9,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 3,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 1,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 9
+   "PENDING": 5
   },
   "physical | relays/PHYSICAL_TO_ALL_SEATS_AND_CC_2026-11-15_CURRENT_BRANCH_REVIEW.md": {
    "lane": "physical",
@@ -2269,13 +2269,13 @@
    "units": 26,
    "statements": 26,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 3,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 26
+   "PENDING": 23
   },
   "physical | reports/physical_bridge_2026_09_05/all_seats_main_preparation_2026_11_16/MAIN_CHECKLIST.md": {
    "lane": "physical",

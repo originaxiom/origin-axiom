@@ -1,0 +1,10 @@
+{
+ "id": "physical-xe-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1954's and B1956's checks and SnapPy: the punctured-torus bundle has first homology Z, so its ordinary H^2 vanishes; the fourth cyclic cover has torsion Z/3 + Z/15; 45 points split 1 + 4 + 8 + 32",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_X_ENDGAME_COUNTERCHECKS:22"
+ ]
+}

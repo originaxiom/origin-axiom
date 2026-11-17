@@ -17663,11 +17663,12 @@
   "B1957": {
    "slug": "the seats claims register",
    "motifs": [
-    "closing"
+    "closing",
+    "eisenstein"
    ],
    "refs": [],
    "obstacle": "units_scale",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "dormant",
    "domain": "topology"
   },

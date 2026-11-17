@@ -62,6 +62,29 @@ frame C at τ = i row by row, the remaining algebra, and the third reading. Of i
 partial (two of the note's figures are not reproduced by main), 3 are superseded by the seat's later notes, 53 are
 noted, and none is pending.
 
+## What the work has established so far (kept current; the counts are in `REGISTER.md`)
+
+- **Main now has its own two-loop running of the Standard Model, from the primary sources.** Transcribed by main from
+  Luo and Xiao (hep-ph/0207271, the full matrix equations) and from Buttazzo et al. (arXiv:1307.3536, Appendix B),
+  both read in the papers' PDFs (`verification/checks/sm_rge_matrix.py`, `sm_rge3.py`, `sm_rge.py`). The two
+  transcriptions agree to 4e-16 on seven beta functions; the result is basis-independent to 9e-15; and it reproduces
+  agy-002's sealed benchmark for the quartic's zero crossing, 7.578626559316 against its 7.578626559317. Every
+  corridor the seats claim runs on such a solver, so this is what their relations will be recomputed with.
+- **Three findings of one seat about another, settled at the primary source:**
+  - the quartic's two-loop term is −48 λ² Tr_Y, and agy-exp's routine at `2ff7784b1` had −24 (the physical lane's F12:
+    verified);
+  - the two mixed products in the two-loop Yukawa equations were exchanged in agy-exp's X-ENDGAME, and its benchmark
+    coefficient 7 is the exchanged order; the right coefficient is 11/2 (the physical lane's counterchecks 2 and 3:
+    verified; the two orders differ by exactly (3/2)·y_t²·y_b²·cos²);
+  - the phase of det(Y_u Y_d) does not run at one or two loops, for any Yukawa matrices (main's algebra, and 4e-16 on
+    main's solver): so agy-002's strong-CP statement holds given its premise, Hermitian matrices at the Pati–Salam
+    scale, which is borrowed.
+- **agy-002's gates 0 and 1:** the exact items hold on main's code (the slopes from the field content, the matching
+  weights, Riley's cusp in exact arithmetic, the maximal cusp, the 27 of E₆, the corridor's closed form); its sealed
+  trails are in the order it names and its scripts carry no float literal, checked without running them
+  (`verification/checks/custody.py`). Its own gate 1 says the corridor is not parameter-free.
+- **The web seat's W-A1:** settled in full, as described above.
+
 ## When it closes
 
 - No statement is pending.

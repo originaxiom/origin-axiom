@@ -1,0 +1,27 @@
+{
+ "id": "agy002-g0-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "custody and static checks by main without running its code (checks/custody.py): every commit the note names is on the branch, in the order named (card, erratum, script, output, second script, second output); its three scripts have 0 float and 0 complex literals and import only the standard library, numpy, mpmath and scipy",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:5",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:6",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:7",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:8",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:9",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:10",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:11",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:12",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G0_RESULTS:21",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:5",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:6",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:7",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:8",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:9",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:10",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:11",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:12",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:21"
+ ]
+}

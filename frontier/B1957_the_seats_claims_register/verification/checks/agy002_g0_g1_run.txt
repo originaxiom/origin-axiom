@@ -1,0 +1,8 @@
+G0: one-loop slopes from the content: SM ('41/10', '-19/6', '-7'); Pati-Salam with three generations, one complex bidoublet and scalars (4,2,1) + (4,1,2): ('-10', '-7/3', '-7/3'); without those two scalars: ('-32/3', '-3', '-3')
+G0: the matching weights from Y = T3R + (B - L)/2 on a generation: 1/g1^2 = (0.6000000000000001)/g2R^2 + (0.4)/g4^2
+G0: its benchmark B0.2 on main's own two-loop running from the primary source: t = 7.578626559316 against its 7.578626559317 (9.1e-13)
+G1: zeta_6^2 - zeta_6 + 1 = 0; [A, B^-1] A - B [A, B^-1] = [[0, 0], [0, 0]]; the longitude word = [[-1, -2*sqrt(3)*I], [0, -1]]
+G1: m004: volume 2.0298832128193069; 2 Cl_2(pi/3) = 2.0298832128193074; the maximal cusp: area 3.4641016151 (2 sqrt 3 = 3.4641016151), volume 1.7320508076 (sqrt 3 = 1.7320508076); cusp shape -1.110223025 E-15 + 3.4641016151*I
+G1: one 27 inside E8's roots: 27 weights, by U(1) charge and kind: {(-2, 'vector of SO(4)'): 4, (-2, 'vector of SO(6)'): 6, (1, 'spinor'): 16, (4, 'singlet'): 1}
+G1: delta_b = b_2 - b_4 = 23/3; 22 delta_b / 67 = 506/201 (the corridor's slope over pi)
+G1: the determinant's phase: with beta_Y = P(H_u, H_d) Y, d ln det Y / dt = Tr P, and the trace of a word of length at most 3 in two Hermitian matrices is real (its conjugate is the reversed word, a cyclic rotation); so arg det does not run at one and two loops for any Yukawas, and zero at the Pati-Salam scale stays zero

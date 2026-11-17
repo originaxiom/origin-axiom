@@ -1,0 +1,264 @@
+[
+ {
+  "note": "relays/AGY002_ENDGAME_V2_G0_RESULTS.md",
+  "commits": [
+   "b59b2458b",
+   "46f43c26f",
+   "76a59ae79",
+   "faead675a",
+   "b35660cc7",
+   "71d4fbef4",
+   "841f3031d"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 5,
+  "consecutive_pairs": 6,
+  "out_of_order": [
+   [
+    "76a59ae79",
+    "faead675a"
+   ]
+  ],
+  "scripts": {
+   "relays/agy002_endgame_v2_g0/verify_endgame_v2_g0.py": {
+    "lines": 1281,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g0_fixed/verify_endgame_v2_g0_fixed.py": {
+    "lines": 1231,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g0_referee/referee_endgame_v2_g0.py": {
+    "lines": 2661,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "scipy",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_ENDGAME_V2_G1_RESULTS.md",
+  "commits": [
+   "65c6f2e41",
+   "4707fd827",
+   "6951d2e46",
+   "57001ce15",
+   "b4639e929",
+   "612475c36",
+   "dcf42f19e"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 5,
+  "consecutive_pairs": 6,
+  "out_of_order": [
+   [
+    "6951d2e46",
+    "57001ce15"
+   ]
+  ],
+  "scripts": {
+   "relays/agy002_endgame_v2_g1/verify_endgame_v2_g1.py": {
+    "lines": 960,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "dataclasses",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g1_fixed/verify_endgame_v2_g1_fixed.py": {
+    "lines": 960,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "dataclasses",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g1_referee/referee_endgame_v2_g1.py": {
+    "lines": 2210,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "dataclasses",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "scipy",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_ENDGAME_V2_G2_RESULTS.md",
+  "commits": [
+   "4cbac1449",
+   "1615f45e3",
+   "f6918a003",
+   "b3dda2651",
+   "43e64a0fd"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 4,
+  "consecutive_pairs": 4,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_endgame_v2_g2/verify_endgame_v2_g2.py": {
+    "lines": 1031,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g2_referee/referee_endgame_v2_g2.py": {
+    "lines": 1513,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_ENDGAME_V2_G3_RESULTS.md",
+  "commits": [
+   "c99a383b9",
+   "b13e8173c",
+   "477b68948",
+   "d8c956680",
+   "54628fecb"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 4,
+  "consecutive_pairs": 4,
+  "out_of_order": [],
+  "scripts": {
+   "relays/agy002_endgame_v2_g3/verify_endgame_v2_g3.py": {
+    "lines": 578,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   },
+   "relays/agy002_endgame_v2_g3_referee/referee_endgame_v2_g3.py": {
+    "lines": 2041,
+    "float_literals": 0,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "scipy",
+     "typing"
+    ]
+   }
+  }
+ }
+]

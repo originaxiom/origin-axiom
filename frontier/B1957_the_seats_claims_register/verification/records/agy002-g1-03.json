@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g1-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the gauge corridor: the one-loop closed form is verified exactly; it is a relation with one free scale, Delta_PS, and rests on the Pati-Salam content above, which is borrowed; the two-loop Yukawa sensitivity (1.3e-5) is its own run. The scale obstruction is a scaling statement and is correct: the three-dimensional geometry fixes the cusp shape, the cusp area and the volume, and fixes neither the unified coupling nor Delta_PS. That is the seat's own honest finding that this corridor is not parameter-free",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:26",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:31",
+  "agy-002-endgame:AGY002_ENDGAME_V2_G1_RESULTS:32"
+ ]
+}
