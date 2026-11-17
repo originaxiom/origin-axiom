@@ -1,0 +1,93 @@
+{
+  "all_5_planted_faults_caught": true,
+  "card": "AGY-002_FOUND-G9",
+  "empirical_firewall": "0 of 19",
+  "gate_9_passed": false,
+  "section_0_ast": {
+    "ast_gate_passed": true,
+    "complex_literals_in_entire_file": 0,
+    "disallowed_imports": [],
+    "float_literals_in_entire_file": 0,
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "scipy",
+      "sympy",
+      "typing"
+    ]
+  },
+  "section_1_domain_wall": {
+    "PF9_1_caught": true,
+    "PF9_1_constant_mass_ev_L0": 9.038553142191654,
+    "analytic_sech_overlap": 0.9999999998637288,
+    "chebyshev_ev_L0": -2.7521263076260676e-05,
+    "chebyshev_ev_L1_bulk_gap": 9.041975132017198,
+    "chebyshev_ev_R0_mirror_gap": 9.038553142191654,
+    "section_1_passed": false,
+    "symbolic_jackiw_rebbi_sech_zero_mode": false
+  },
+  "section_2_su2l_strong_cp": {
+    "PF9_2_caught": true,
+    "PF9_2_su2L_violation_commutator_norm": 0.14962569759988323,
+    "PF9_3_caught": true,
+    "PF9_3_opposite_sign_branch_theta": 3.1415926535897927,
+    "ir_2loop_abs_bar_theta_qcd": 2.720046410331634e-15,
+    "ir_2loop_abs_jarlskog_ckm": 0.028164591613238907,
+    "section_2_passed": true,
+    "su3_3_haar_max_drift_10_trials": 3.608224830031759e-15,
+    "tensor_dparity_hermiticity_max_err": 7.550332863779066e-16,
+    "uv_yukawa_hermiticity_max_err": 1.1944158528431564e-15
+  },
+  "section_3_p864_repair_and_sweep": {
+    "PF9_4_caught": true,
+    "PF9_4_unreduced_chord_lens_0p9i_err": 0.004437755611252481,
+    "PF9_4_unreduced_main_point_err": 0.30895184065782155,
+    "PF9_5_caught": true,
+    "landed_arc_json_tau_sweep": {
+      "B1927": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 129
+      },
+      "B1928": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 1046
+      },
+      "B1940": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      },
+      "B1941": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      },
+      "B1944": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      },
+      "B1945": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      },
+      "B1946": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      },
+      "B1949": {
+        "strictly_below_unit_circle": 0,
+        "tau_points_found": 0
+      }
+    },
+    "prior_sha256_manifests_matched": 7,
+    "prior_sha256_manifests_total": 7,
+    "repaired_sl2z_covariance_max_err": 1.2469166773022606,
+    "section_3_passed": false,
+    "self_script_sha256_matched": true
+  }
+}
