@@ -1,0 +1,10 @@
+{
+ "id": "agy002-ms-07",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the row repeats its gate; settled there: analyticity, the split and the even-Delta Gramian verified; the 288 aligned points are one matrix compared with itself (records agy002-g5-03, -07)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:16"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "agy002-g7-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py, without running the seat's code: the commits named are on the branch and in the order named; the scripts parse with no float and no complex literal and import nothing of the repository; all 48 hash manifests under relays on this branch match the files they name",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:5",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:6",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:7",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:19",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:29",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:5",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:6",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:7",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:19"
+ ]
+}

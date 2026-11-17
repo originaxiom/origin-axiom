@@ -1,0 +1,21 @@
+{
+ "id": "agy002-read-endgame",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "agy-002-endgame",
+ "how": "every file of this branch in the window read by main at its source on the seat's branch, line by line and without truncation (git show at the pinned head): the results notes of the gates, their cards and erratum cards, the synthesis and the status page. The scripts were read as text where a statement turned on what they compute; none was run",
+ "files": [
+  "relays/AGY002_ENDGAME_V2_G0_RESULTS.md",
+  "relays/AGY002_ENDGAME_V2_G1_RESULTS.md",
+  "relays/AGY002_ENDGAME_V2_G2_RESULTS.md",
+  "relays/AGY002_ENDGAME_V2_G3_RESULTS.md",
+  "relays/AGY002_ENDGAME_V2_MASTER_SYNTHESIS.md",
+  "relays/STATUS_AGY-002.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G0-ERRATUM_mp-log-sign-bisection.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G1-ERRATUM_perturbative-uv-grid.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents.md",
+  "relays/cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal.md"
+ ]
+}

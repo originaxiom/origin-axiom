@@ -1,0 +1,10 @@
+{
+ "id": "agy002-ms-02",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the row repeats its gate; settled there: the exact coefficients and the benchmark crossing verified; the first script's two-loop mixed products were exchanged at this gate (record agy002-g0-05)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:11"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "agy002-ms-01",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the custody statements hold (48 of 48 manifests; no float literal by parsing). 'Completes the closure' holds for the items main verified and not for two: P-861 is failed with hypercharge and passed only trivially under 3(B - L) (record agy002-g5-07), and the Higgs mode is not selected (record agy002-g2-06). The audit of the three sibling lanes is settled with those lanes' own statements",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:5",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:7"
+ ]
+}

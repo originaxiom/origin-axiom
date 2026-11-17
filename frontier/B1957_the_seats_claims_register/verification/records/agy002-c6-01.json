@@ -1,0 +1,13 @@
+{
+ "id": "agy002-c6-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "a question the card puts before the work; it asserts nothing. Its answer is settled with the gate's results (records agy002-g6-01 to -05)",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:5",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:6",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:7",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:8"
+ ]
+}

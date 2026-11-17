@@ -1,0 +1,14 @@
+{
+ "id": "agy002-g7-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g7.py, G7.1 and G7B.1, in exact integer arithmetic at an integer point: the 45 generators of the flavour group move the 54 real Yukawa entries with rank 41, leaving 4 unbroken and 13 physical, 19 with the gauge couplings, the Higgs's two and the strong phase; with the neutrino operator rank 44, 1 unbroken, 22 physical, 28. One row of mass dimensions has rank 1: 18 free ratios among 19 quantities, and 19 among 20 when a second scale of the same dimension is added. These are the standard counts",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:20",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:21",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:27",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:20",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:27"
+ ]
+}

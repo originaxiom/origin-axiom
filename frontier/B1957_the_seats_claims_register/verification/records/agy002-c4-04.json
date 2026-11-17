@@ -1,0 +1,12 @@
+{
+ "id": "agy002-c4-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "as its result (record agy002-g4-04): every item of linear algebra reproduced except the second computation's 72 rejections; the card's bar for the least singular value, 1e-5 at t = 1e-5, is missed by a tenth in exact arithmetic (1.1e-5) and met at t = 1e-6",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:16",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:17",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir:18"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-05",
+ "date": "2026-11-17",
+ "verdict": "REFUTED",
+ "how": "PR-5: record agy002-g2-06. The bubble is not a function of the point on the torus; made one, it is a multiple of the identity and selects nothing; the ground space has dimension two. The relation's own kill line ('degeneracy above 1') is met",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:33"
+ ]
+}

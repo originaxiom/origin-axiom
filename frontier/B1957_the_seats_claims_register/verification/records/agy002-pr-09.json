@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-09",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "PR-9: the drift is reproduced (records agy002-g6-03, agy002-g7b-02). The first column is put in by hand as one bit of a residual symmetry; nothing derives it from the object. Given it, cos^2(theta_12) cos^2(theta_13) = 2/3 is the known sum rule of that mixing pattern, stable under the running away from degenerate masses. A comparison needs a sealed rule; none made",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:37"
+ ]
+}

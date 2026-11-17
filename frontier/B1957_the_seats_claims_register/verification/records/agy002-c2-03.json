@@ -1,0 +1,13 @@
+{
+ "id": "agy002-c2-03",
+ "date": "2026-11-17",
+ "verdict": "REFUTED",
+ "how": "as its result (record agy002-g2-06): the degeneracy 3 of the pure bubble and the unique ground mode of the combined operator come from taking one lift of each point; the bubble as a function of the torus's points is a multiple of the identity (dimension 6 for the pure bubble, 2 for the combined operator: one bit)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:24",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:26",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:27",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G2_covariant-triple-overlap-and-level-5-10-15-exponents:29"
+ ]
+}

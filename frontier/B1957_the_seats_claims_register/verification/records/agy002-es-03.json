@@ -1,0 +1,15 @@
+{
+ "id": "agy002-es-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the strong-CP and corridor statements, settled in gate 1 (records agy002-g1-02, -03). The geometric facts hold on main (the cusp modulus 2 sqrt(3) i, the maximal cusp's area, the volume; the twisted interval bundle over the Gieseking manifold has the figure-eight complement as its boundary). Conditions: three families are put in, not derived (the slopes are those of three generations); Hermitian matrices at the top and the sign of the determinant are a borrowed parity and one chosen bit; the corridor has one free number, Delta_PS, and its positive slope is verified exactly",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:10",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:16",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:17",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:18",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:19",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:20"
+ ]
+}

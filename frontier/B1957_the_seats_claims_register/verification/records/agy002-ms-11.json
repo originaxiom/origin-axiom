@@ -1,0 +1,10 @@
+{
+ "id": "agy002-ms-11",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the table's arithmetic is reproduced; the ranks are assigned, and under main's verdicts the relations' histogram is [2, 5, 3, 0], with PR-6 not a relation (record agy002-g7-03)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:25"
+ ]
+}

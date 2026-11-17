@@ -1,0 +1,10 @@
+{
+ "id": "agy002-ms-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the row repeats its gate; settled there (records agy002-g1-02, -03): the phase of the determinant does not run, so the strong-CP statement holds given Hermitian matrices at the top, a borrowed premise; the slope 506/(201 pi) is verified exactly and multiplies a free number",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:12"
+ ]
+}

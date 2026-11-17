@@ -1,0 +1,13 @@
+{
+ "id": "agy002-c5-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "a question the card puts before the work; it asserts nothing. Its answer is settled with the gate's results (records agy002-g5-01 to -09)",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:5",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:6",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:7",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:8"
+ ]
+}

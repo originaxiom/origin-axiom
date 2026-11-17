@@ -1,0 +1,23 @@
+{
+ "id": "agy002-es-08",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "a statement of delivery and pointers to the notes, each of which is registered and settled under its own file",
+ "note": "",
+ "units": [
+  "agy-002-endgame:STATUS_AGY-002:10",
+  "agy-002-endgame:STATUS_AGY-002:12",
+  "agy-002-endgame:STATUS_AGY-002:13",
+  "agy-002-endgame:STATUS_AGY-002:14",
+  "agy-002-endgame:STATUS_AGY-002:15",
+  "agy-002-endgame:STATUS_AGY-002:16",
+  "agy-002-closure:STATUS_AGY-002:12",
+  "agy-002-closure:STATUS_AGY-002:13",
+  "agy-002-closure:STATUS_AGY-002:14",
+  "agy-002-closure:STATUS_AGY-002:15",
+  "agy-002-closure:STATUS_AGY-002:16",
+  "agy-002-closure:STATUS_AGY-002:17",
+  "agy-002-closure:STATUS_AGY-002:18",
+  "agy-002-closure:STATUS_AGY-002:20"
+ ]
+}

@@ -84,12 +84,14 @@ noted, and none is pending.
   trails are in the order it names and its scripts carry no float literal, checked without running them
   (`verification/checks/custody.py`). Its own gate 1 says the corridor is not parameter-free.
 - **The web seat's W-A1:** settled in full, as described above.
-- **agy-002's gates 0 to 5, read at their source and recomputed (114 statements: 78 verified, 2 refuted, 11
-  conditional, 21 partial, 2 noted).** What main built for it, each from its definition or a primary source:
+- **agy-002's two campaign branches, read at their source in full and recomputed: gates 0 to 7B, their cards,
+  errata, syntheses and status pages (30 files, 478 statements: 197 verified, 9 refuted, 47 conditional, 53 partial,
+  158 noted, 14 pending; the 14 are its audit of the other lanes, settled with those lanes).** What main built for
+  it, each from its definition or a primary source:
   the closed-fibre triple overlap of three zero modes of flux 3, 3 and 6, by quadrature and in closed form
   (`checks/cim_overlap.py`, `cim_closed.py`); the mass term's running and the two thresholds
   (`checks/agy002_g3.py`); and the checks of each gate (`checks/agy002_g2.py`, `level6_higgs.py`,
-  `high_cusp_levels.py`, `agy002_g4.py`, `agy002_g5.py`).
+  `high_cusp_levels.py`, `agy002_g4.py`, `agy002_g5.py`, `agy002_g6.py`, `agy002_g7.py`).
   - **Holds:** the triple overlap is covariant under both generators, with the spin structures the seat names, and
     each balance, broken, breaks it; the cusp exponents at orders 5, 10 and 15 (the lepton and down minima equal at
     5 and 10, in ratio 3/2 at 15); the mixing's two-loop slopes; the mass term's anomalous dimension (two primary
@@ -104,6 +106,15 @@ noted, and none is pending.
     24 points orthogonal, 9 inside a degenerate pair, none aligned) and lift-dependent; with one Higgs mode the
     mixing matrix is always a permutation; the reported alignment at 288 points is one matrix compared with
     itself; the small angles shown are typed in. This agrees with B1946 and B1947 on main.
+  - **Gates 6, 7 and 7B:** every figure reproduced on main's own code: the three Majorana tensors and their
+    covariance; the Pati–Salam stage's two-loop coefficients, derived from the field content; the 243 histories (the
+    gauge residual in [0.0007265, 0.0027548], √(2λ) in [0.370482, 0.771511], to every digit the seat prints); the
+    counts 19 and 28 from exact ranks 41 and 44; the Casimir slope as a closed negative integral; E₈'s 0 against 9
+    colour singlets. What they rest on is typed in or borrowed: the neutrinos' first column, the grid's ranges, the
+    quartic's boundary value, and the table of ranks, which is the seat's own classification propagated.
+  - **The ten relations PR-1 to PR-10, one by one:** `RELATIONS.md`. Two verified identities of known structure,
+    one verified set of negatives, one refuted, one not a relation, five conditional on the left-right model. None
+    removes a free number from the count.
   - **Found by reading the scripts' text:** at gate 0 the first script carried the exchanged mixed products and the
     second did not; the benchmark compared each with its own copy and did not see it. The seat's gate 4 repairs it.
   - **Conditional:** every statement resting on the left-right model's content, parity or scales; the Casimir

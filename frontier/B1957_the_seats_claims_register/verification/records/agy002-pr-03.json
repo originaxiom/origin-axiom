@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "PR-3: the three rational coefficients are verified exactly and the residual's range is reproduced on main's running (record agy002-g6-04). The relation contains one free number, Delta_PS, which nothing fixes (the seat's own gates 1, 3 and 4 say so); so it is one inequality, Delta_PS at least zero, on three measured quantities, given the left-right model's content and chain. A comparison needs a rule sealed first and the author's word; main has made none",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:31"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "agy002-c6e-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the defect it names is real: contracted with the six modes at the origin the matrix has rank one (checks/agy002_g5.py: singular values 3.2, 6e-16, 3e-17; checks/agy002_g6.py: J_0 is an outer square), so its null space turns freely under changes of basis; the fixed script's vector G_6 v_0 gives rank three. The earlier sealed files are left untouched and the commit named is on the branch",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0:3",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0:5"
+ ]
+}

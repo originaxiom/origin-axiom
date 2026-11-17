@@ -1,0 +1,27 @@
+{
+ "id": "agy002-read-closure",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "agy-002-closure",
+ "how": "every file of this branch in the window read by main at its source on the seat's branch, line by line and without truncation (git show at the pinned head): the results notes of the gates, their cards and erratum cards, the synthesis and the status page. The scripts were read as text where a statement turned on what they compute; none was run",
+ "files": [
+  "relays/AGY002_CLOSURE_G4_RESULTS.md",
+  "relays/AGY002_CLOSURE_G5_RESULTS.md",
+  "relays/AGY002_CLOSURE_G6_RESULTS.md",
+  "relays/AGY002_CLOSURE_G7B_RESULTS.md",
+  "relays/AGY002_CLOSURE_G7_RESULTS.md",
+  "relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md",
+  "relays/STATUS_AGY-002.md",
+  "relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md",
+  "relays/cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4.md",
+  "relays/cards/AGY-002_CLOSURE-G4_bpv-rge-repaired-pc3-and-collar-casimir.md",
+  "relays/cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection.md",
+  "relays/cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0.md",
+  "relays/cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces.md",
+  "relays/cards/AGY-002_CLOSURE-G7-REFEREE-ERRATUM_gate6-key-and-rk4-grid.md",
+  "relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM-2_rk4-compensated-summation.md",
+  "relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM_svd-projector-and-numpy-bool-json.md",
+  "relays/cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles.md",
+  "relays/cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff.md"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "id": "agy002-c4r-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the seat's own correction of its own harness, disclosed in the open with the earlier sealed files left untouched; the commits it names are on the branch (checks/custody.py). Main verifies the corrected item in the gate's records (agy002-g4-04, -05; the recurrence it restores, K_4 = K_2 + (6/z) K_3, is the standard one) and not the account of the earlier failure",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4:3",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4:4",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4:5",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4:6",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4:8"
+ ]
+}

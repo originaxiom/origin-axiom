@@ -1,0 +1,14 @@
+G6.1: the three tensors: symmetric to 7.1e-15; J(tau + 1) and J(-1/tau) against U J U^T: 1.2e-13, 9.2e-14; ranks [1, 3, 3]; they span 3 dimensions of the six of symmetric matrices
+      a change of the relative phase of the second coefficient from 1 to i moves s2/s1 of J0 + c J1 + J2/5 by 0.0107 (the seat: 0.0107): the coefficients are free, two complex ratios and a scale
+      J_0 has rank one because the six modes at the origin reproduce the product of the two matter sections there: J_0 = psi(0) psi(0)^T to 5.0e-16
+G6.2: the start: |U_e1|^2 - 2/3 = 1.0e-15 and |U_e3|^2 - 1/48 = 6.9e-18: both by construction (the first column is typed in; the third is sin^2(asin(1/4))/3)
+      y_tau = 0.01 : after 30 e-folds down |U_e1|^2 has moved by 9.939198e-06 (the seat: 9.939198e-06)
+      y_tau = 0.05 : after 30 e-folds down |U_e1|^2 has moved by 2.483152e-04 (the seat: 2.483152e-04)
+      y_tau = 0.2  : after 30 e-folds down |U_e1|^2 has moved by 3.932049e-03 (the seat: 3.932049e-03)
+      the seat's flow keeps the charged leptons' matrix fixed and drops the flavour-blind term, which does not move the mixing
+G6.3: the two-loop gauge coefficients of the Pati-Salam stage, from three generations, one complex bidoublet and scalars (4, 2, 1) + (4, 1, 2): [['-117/2', '15/2', '15/2'], ['75/2', '50/3', '3'], ['75/2', '3', '50/3']] (the seat: [[-117/2, 15/2, 15/2], [75/2, 50/3, 3], [75/2, 3, 50/3]]); the same formula gives the Standard Model's -26
+      243 histories on main's running: |arg det(Y_u Y_d)| at the bottom at most 2.0e-15, the Jarlskog invariant at least 0.0054 (the seat: 6.5e-14, 0.0054)
+      the gauge residual lies in [0.0007265, 0.0027548] (the seat: [0.0007265, 0.0027548]; its envelope [7/10000, 3/1000])
+      sqrt(2 lambda) at the bottom lies in [0.370482, 0.771511], the least quartic 0.06863 (the seat: [0.370482, 0.771511], 0.06863; its envelope [35/100, 78/100])
+      planted: six generations in place of three shift 1/alpha_3 by 4 x 28 / (2 pi) = 17.825 (the seat: 17.825); D(z) + D(conj z) at z = 3/5 + 4i/5 is 0.0e+00: the identity holds for every z, so it cannot pick a sign
+exit 0

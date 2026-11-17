@@ -1,0 +1,10 @@
+{
+ "id": "agy002-c1-07",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the branching of the 27 of E6 under the left-right group, 16 + 11 with the charges named, is verified (record agy002-g1-01). The clause that boundary conditions on the four-manifold 'yield three chiral families' is not computed in this gate: no index is evaluated; three copies of the 27 are put in, and the slopes used are those of three generations. So the number three is a premise here, not a result",
+ "note": "",
+ "units": [
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G1_e6-pati-salam-dparity-gauge-and-strong-cp:13"
+ ]
+}

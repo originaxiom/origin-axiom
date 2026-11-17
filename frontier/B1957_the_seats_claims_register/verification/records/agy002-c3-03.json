@@ -1,0 +1,11 @@
+{
+ "id": "agy002-c3-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "as its result (record agy002-g3-05): the neutrino's beta-function sign is verified; 'stabilising rather than triggering' holds for the running between the thresholds and depends on the matching scale below",
+ "note": "",
+ "units": [
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:16",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G3_radiative-ewsb-scale-closure-and-blind-seal:17"
+ ]
+}

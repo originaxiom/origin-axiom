@@ -1,0 +1,11 @@
+{
+ "id": "agy002-g6-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "checks/agy002_g6.py, G6.2: the drift is reproduced to seven digits on main's own integration of the neutrino operator's running (the equation read by main in Antusch et al., hep-ph/0108005, equation (21)): |U_e1|^2 moves by 9.939198e-6, 2.483152e-4 and 3.932049e-3 for y_tau = 1/100, 1/20, 1/5 over 30 e-folds. The start is put in by hand: the first column (2, -1, -1)/sqrt(6), the angle asin(1/4), the phase 0.7, the masses (1/50, 1/10, 1/2) and the charged leptons' hierarchy are typed into the script (lines 275-290, 309); |U_e1|^2 = 2/3 and |U_e3|^2 = 1/48 at the top are then identities. Nothing in this gate derives the first column from the object. What is shown is that a first column of that form, if something supplies it, moves little under the running when the masses are well separated",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:25",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:32"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-c7b-04",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "what the card extends; the two commits it names, 407583a8c and 80fdd90b2, are heads of the physical lane and of agy-exp, not of this branch",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles:35"
+ ]
+}

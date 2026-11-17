@@ -1,0 +1,12 @@
+{
+ "id": "agy002-c6-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "as its result (record agy002-g6-02): the three tensors, their symmetry, covariance, ranks and span, and the seat's own count of what stays free",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:12",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:13",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6_covariant-majorana-seesaw-tm1-and-2loop-ir-surfaces:14"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "agy002-c7-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "as its result (record agy002-g7-03): the table's arithmetic is reproduced; its ranks are assigned, and under main's verdicts the relations' histogram is [2, 5, 3, 0]",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:15",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff:16"
+ ]
+}

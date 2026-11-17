@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-04",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "PR-4: the range of sqrt(2 lambda) at the bottom is reproduced exactly (record agy002-g6-04). It is the image of a chosen grid under a boundary value borrowed from supersymmetric models; it is an envelope, not a prediction, and of a quantity whose measured value is known. No comparison made",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:32"
+ ]
+}

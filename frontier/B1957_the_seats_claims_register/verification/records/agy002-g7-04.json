@@ -1,0 +1,15 @@
+{
+ "id": "agy002-g7-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the planted cases of gate 7 are properties of the table and of hashing (a second row raises the rank to 2; a back-edge is a cycle; a child below its parent breaks the rule; a flipped digit breaks a hash): each is true by inspection and main reproduces the first on its own code; the others were not rerun. Gate 7B's: main reproduces three on its own code (19 free ratios; the near-degenerate drift 0.273, above 1/5; 0 against 9 singlets); the pole and the promotion case were not rerun",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:11",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:12",
+  "agy-002-closure:AGY002_CLOSURE_G7_RESULTS:13",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:11",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:12",
+  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:13"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-08",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "PR-8: record agy002-g5-06. For even Delta the Wilson line is a function of the point, and the Gramian over the 24 points is covariant and not a multiple of the identity (eigenvalues 2.859, 3.069, 3.171). Main adds that for odd Delta it becomes covariant once the four lifts of each point are included. A structural fact of this frame; it is the Gramian of 24 evaluation vectors and carries no hierarchy",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:36"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "agy002-g6-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py, without running the seat's code: the commits named are on the branch and in the order named; the scripts parse with no float and no complex literal and import nothing of the repository; all 48 hash manifests under relays on this branch match the files they name. The first output's defect (a rank-one contraction in the seesaw check) is disclosed in the seat's erratum and the fixed script replaces it",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:5",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:6",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:7",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:8",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:9",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:10",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:11",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:12",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:13",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:22"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "id": "agy002-c5-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "as its results (records agy002-g5-03, -04, -05, -07): the count 4 of 24 is not basis-free (15 orthogonal, 9 degenerate, none aligned, and lift-dependent); the 288 aligned points are one matrix compared with itself; the small angles are typed in; and the pointwise ratio the card expected above 100 is 28.5 at height 4",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:12",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:14",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:17"
+ ]
+}

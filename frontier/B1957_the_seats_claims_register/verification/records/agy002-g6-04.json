@@ -1,0 +1,12 @@
+{
+ "id": "agy002-g6-04",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "checks/agy002_g6.py, G6.3: main derived the Pati-Salam stage's two-loop gauge coefficients from the field content (the seat's table exactly; the same formula gives the Standard Model's -26) and ran the 243 histories on its own two-loop running: |arg det(Y_u Y_d)| at the bottom at most 2e-15 with the Jarlskog invariant at least 0.0054; the gauge residual in [0.0007265, 0.0027548]; sqrt(2 lambda) in [0.370482, 0.771511], least quartic 0.06863: the seat's figures to every digit printed, from an independent transcription of the equations. Conditions: the field content and breaking chain of the left-right model; Hermitian Yukawa matrices at the top; the quartic's boundary value (1/4) g2^2 cos^2(2 beta), a relation borrowed from supersymmetric models; and the grid itself (1/alpha_U in {52, 60, 68}, Delta_PS in {0, 2, 4}, Delta_SM in {26, 28, 30}, y_t in {1/2, 7/10, 9/10}), whose ranges are chosen: the two envelopes are the image of that grid, not a prediction. The second is an envelope of a quantity whose measured value is known; main makes no comparison",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:26",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:27",
+  "agy-002-closure:AGY002_CLOSURE_G6_RESULTS:33"
+ ]
+}

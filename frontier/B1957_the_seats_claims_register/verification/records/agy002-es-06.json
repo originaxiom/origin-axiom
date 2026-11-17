@@ -1,0 +1,11 @@
+{
+ "id": "agy002-es-06",
+ "date": "2026-11-17",
+ "verdict": "REFUTED",
+ "how": "record agy002-g2-06: the bubble is not a function of the point on the torus; made one, it is a multiple of the identity; the combined operator's ground space is the pair +-pi/6, one bit",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:31",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:32"
+ ]
+}

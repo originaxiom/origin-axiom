@@ -1,0 +1,14 @@
+{
+ "id": "agy002-c0-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "as its results: the scripts parse with no float literal and import only the standard library, numpy, mpmath and scipy (record agy002-g0-01); the one-loop slopes, the Pati-Salam slopes and the matching weights from the content (record agy002-g0-02); the benchmark crossing reproduced on main's running (agy002-g0-02); the neutrino operator's equation is the published one (agy002-g0-06); basis-invariance (agy002-g0-07)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:9",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:10",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:13",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:15",
+  "agy-002-endgame:cards/AGY-002_ENDGAME-V2-G0_literature-rge-and-haar-invariance-lock:16"
+ ]
+}

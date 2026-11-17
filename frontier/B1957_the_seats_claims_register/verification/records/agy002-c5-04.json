@@ -1,0 +1,12 @@
+{
+ "id": "agy002-c5-04",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the conditions under which the card says the gate would fail, written before the run; whether any was met is settled with the results (records agy002-g5-01 to -09; the first, a mismatch on the count (4, 20), is met in the basis-free count)",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:24",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:25",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:26"
+ ]
+}

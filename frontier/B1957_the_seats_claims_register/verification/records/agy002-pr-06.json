@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-06",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "PR-6: the equality holds and cannot fail: with Delta_up = Delta_down the two matrices are one matrix, for any tensor (record agy002-g5-03). So it is not a relation and its kill line can never fire. With hypercharge, the charges P-861 asks for, the mixing is deranged (record agy002-g5-04)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:34"
+ ]
+}

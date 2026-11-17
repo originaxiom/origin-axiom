@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-02",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "PR-2: the phase of det(Y_u Y_d) does not run at one or two loops for any Yukawa matrices (main's algebra and solver), so it stays zero if it starts at zero. That it starts at zero rests on a parity of the left-right model making the matrices Hermitian, and on the gauge theory's own angle being zero: both borrowed, one sign chosen",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:30"
+ ]
+}

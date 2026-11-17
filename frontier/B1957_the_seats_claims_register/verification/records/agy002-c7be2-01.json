@@ -1,0 +1,11 @@
+{
+ "id": "agy002-c7be2-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the seat's own correction of its own harness, disclosed in the open with the earlier sealed files left untouched; the commits it names are on the branch (checks/custody.py). Main verifies the corrected item in the gate's records (agy002-g7b-02) and not the account of the earlier failure",
+ "note": "",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM-2_rk4-compensated-summation:5",
+  "agy-002-closure:cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM-2_rk4-compensated-summation:7"
+ ]
+}

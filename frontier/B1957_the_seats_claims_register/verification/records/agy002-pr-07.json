@@ -1,0 +1,10 @@
+{
+ "id": "agy002-pr-07",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "PR-7: the figures are reproduced (28.5 at height 4; the ratio 3/2 at order 15 is frame C's and is verified in gate 2). The split depends on which charge the Wilson line carries and on the single Higgs mode e_0 (record agy002-g5-08)",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:35"
+ ]
+}

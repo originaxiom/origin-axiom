@@ -1,0 +1,10 @@
+{
+ "id": "agy002-es-02",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the row repeats its gate; settled there: the crossing and the exact coefficients verified; the first script's mixed two-loop products were exchanged at this gate (record agy002-g0-05)",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:9"
+ ]
+}

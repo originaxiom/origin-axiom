@@ -1,0 +1,18 @@
+{
+ "id": "agy002-es-05",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "settled in gates 2 and 3 on main's own code: the overlap's periodicity and covariance (record agy002-g2-03); the exponents at orders 5, 10 and 15 and the identity behind the order-10 bijection (records agy002-g2-04, -05); the two obstructions and both beta-function signs of gate 3 (records agy002-g3-02 to -04); and that the three-dimensional geometry fixes neither the unified coupling nor Delta_PS (record agy002-g1-03). The last three paragraphs are the seat's own statement of what stays open, and main agrees: the scales, the level and the modulus are not fixed by anything here",
+ "note": "",
+ "units": [
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:12",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:25",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:26",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:27",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:28",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:29",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:30",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:36",
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:38"
+ ]
+}

@@ -79,3 +79,42 @@ def test_the_mass_terms_anomalous_dimension_agrees_between_the_two_primary_sourc
     B2 = 2 * (lam * (-30 * lam - 36 * yt2 - 36 * yb2 - 12 * yl2 + 36 * g2s + F(36, 5) * g1s) + yt2 * (-F(27, 4) * yt2 - F(21, 2) * yb2 + 20 * g3s + F(45, 8) * g2s + F(17, 8) * g1s)
               + yb2 * (-F(27, 4) * yb2 + 20 * g3s + F(45, 8) * g2s + F(5, 8) * g1s) + yl2 * (-F(9, 4) * yl2 + F(15, 8) * g2s + F(15, 8) * g1s) - F(145, 32) * g2s ** 2 + F(1671, 800) * g1s ** 2 + F(9, 16) * g2s * g1s)
     assert LX2 == B2 == F(-886154046205665125, 503238848400166736)
+
+
+def test_the_flavour_groups_action_has_rank_41_and_44_with_the_neutrino_operator():
+    rng = np.random.default_rng(7); ri = lambda: rng.integers(-5, 6, size=(3, 3)) + 1j * rng.integers(-5, 6, size=(3, 3))
+    Yu, Yd, Ye = ri(), ri(), ri(); A = ri(); Kap = A + A.T; gens = []
+    for i in range(3):
+        m = np.zeros((3, 3), complex); m[i, i] = 1j; gens.append(m)
+    for i in range(3):
+        for j in range(i + 1, 3):
+            m = np.zeros((3, 3), complex); m[i, j], m[j, i] = 1, -1; gens.append(m)
+            m = np.zeros((3, 3), complex); m[i, j] = m[j, i] = 1j; gens.append(m)
+    z = np.zeros((3, 3), complex); cs, ce = [], []
+    for slot in range(5):
+        for G in gens:
+            dYu = G @ Yu if slot == 0 else (-Yu @ G if slot == 1 else z); dYd = G @ Yd if slot == 0 else (-Yd @ G if slot == 2 else z); dYe = G @ Ye if slot == 3 else (-Ye @ G if slot == 4 else z)
+            dK = G @ Kap + Kap @ G.T if slot == 3 else z; v = np.concatenate([M.ravel().view(float) for M in (dYu, dYd, dYe)]); cs.append(v); ce.append(np.concatenate([v, dK[np.triu_indices(3)].view(float)]))
+    assert np.linalg.matrix_rank(np.array(cs), tol=1e-8) == 41 and np.linalg.matrix_rank(np.array(ce), tol=1e-8) == 44
+    assert np.linalg.matrix_rank(np.array(cs)[:, :36], tol=1e-8) < 41                    # without the charged leptons' matrix the rank falls
+
+
+def test_the_first_columns_drift_and_its_growth_near_degenerate_masses():
+    th = np.pi / 8; s6, s3, s2 = 6 ** 0.5, 3 ** 0.5, 2 ** 0.5
+    U = np.array([[2 / s6, np.cos(th) / s3, np.sin(th) / s3], [-1 / s6, np.cos(th) / s3 - np.sin(th) / s2, np.sin(th) / s3 + np.cos(th) / s2], [-1 / s6, np.cos(th) / s3 + np.sin(th) / s2, np.sin(th) / s3 - np.cos(th) / s2]], complex)
+    def drift(ms, yt):
+        K = U @ np.diag(ms).astype(complex) @ U.T; D = np.diag([1, 1, np.exp(-3 * yt * yt * (-30) / (32 * np.pi ** 2))]); Kir = D @ K @ D
+        ev = np.linalg.eigh(Kir.conj().T @ Kir)[1]; slot = int(np.where(np.argsort([m * m for m in ms]) == 0)[0][0]); return abs(abs(ev[0, slot]) ** 2 - 2 / 3)
+    assert drift((1, 2, 5), 1 / 20) < 1e-3 and drift((1, 1.00001, 5), 1 / 20) > 0.2
+
+
+def test_the_casimir_slope_is_the_closed_integral_and_negative():
+    from scipy.special import kv
+    from scipy.integrate import quad
+    for L in (0.2, 1.0, 3.0):
+        C = 4 * L; k = np.arange(1, int(60 / C) + 2); x = k * C
+        bessel = 4 * (-4 * 28 * np.pi ** 2 / 90 / C ** 5 - 76 * ((-1.0) ** k * (-kv(3, x) / x ** 2) * k).sum() / (2 * np.pi ** 2))
+        closed = -7 * np.pi ** 2 / (1440 * L ** 5) - 19 / (2 * np.pi ** 2 * L ** 2) * quad(lambda t: np.log1p(np.exp(-4 * L * np.cosh(t))) * np.cosh(3 * t), 0, 12)[0]
+        assert abs(bessel / closed - 1) < 1e-9 and closed < 0
+    L = 3.0; C = 4 * L; k = np.arange(1, int(60 / C) + 2); x = k * C                    # the second branch (4 massless bosons in place of 28 net fermions): the slope is positive there, so the sign is the count's
+    assert 4 * (+4 * 4 * np.pi ** 2 / 90 / C ** 5 - 76 * ((-1.0) ** k * (-kv(3, x) / x ** 2) * k).sum() / (2 * np.pi ** 2) + (96 - 64) * ((-kv(3, x) / x ** 2) * k).sum() / (2 * np.pi ** 2)) > 0

@@ -1,0 +1,11 @@
+G7.1: 45 generators acting on 54 real Yukawa entries at an integer point: rank 41, so 4 unbroken and 13 physical; with the gauge couplings, the Higgs's two and the strong phase: 19
+      with the neutrino operator's 12 more: rank 44, 1 unbroken, 22 physical, 28 in all (the seat: 41, 44; 19 and 28)
+G7.2: the table in the seat's script: 46 nodes (5 ROOT, 5 OPERATOR, 7 SEAM, 10 RELATION, 19 SM_TARGET), no cycle; propagated ranks: relations [2, 6, 2, 0], targets [0, 0, 1, 18] (the seat: [2, 6, 2, 0] and [0, 0, 1, 18])
+      with the Higgs-mode node at one bit (main's verdict on gate 2): relations [2, 5, 3, 0], targets [0, 0, 1, 18]; the node is a parent of all thirteen flavour targets, which were at rank 3 already
+      the ranks at the roots are assigned in the table, not computed: the histogram is the table's own classification propagated
+G7B.1: one row of mass dimensions: 19 quantities, rank 1, 18 free ratios; a twentieth of dimension one: rank 1, 19 free ratios
+G7B.2: d/dx [K_2(x)/x^2] + K_3(x)/x^2 = 0; the slope of branch A, Bessel sum against -(7 pi^2)/(1440 L^5) - (19/(2 pi^2 L^2)) integral: relative difference at L = 1/5, 1, 3 at most 2.2e-16; both terms are negative for every L
+G7B.3: the first-order rotation between two neutrino states: 3*p*(m1 + m2)/(2*(m1 - m2)) (it grows as the two masses approach)
+      the seat's 32 states (four spectra, four sets of phases, two values of y_tau, 30 e-folds): largest drift of |U_e1|^2 from 2/3: 7.46e-04 at y_tau = 1/20, 1.18e-02 at 1/5 (the seat's bars 1/1000 and 1/50); with m2/m1 = 1 + 1e-5: 0.273
+G7B.4: E8's 240 roots: 6 of the first SU(3), 72 of its centraliser E6, 162 others in six sets of 27; in one such 27, states neutral under the first SU(3): 0; neutral under an SU(3) inside E6: 9 (the seat: 6, 72, 162, 27; 0 and 9)
+exit 0
