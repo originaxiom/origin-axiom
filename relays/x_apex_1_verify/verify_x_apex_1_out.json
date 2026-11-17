@@ -1,0 +1,91 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage1_Apex_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-APEX-1",
+  "empirical_firewall": "0 of 19",
+  "part_1a_e8_dual_e6_and_g422_bridge": {
+    "E1_E8DualE6_and_PatiSalamIntersection_Gate_passed": true,
+    "PC_AP1_ColourDoesNotCommuteWithSU4c_noncomm": 1,
+    "bl_commutes_with_colour_and_su2_lr": true,
+    "dim_e6_cent_intersect_e6_gut_trinification_bridge": 16,
+    "dim_e6_cent_intersect_g422_electroweak_bl": 7,
+    "dim_e6_colour_centralizer": 78,
+    "dim_e6_gut_centralizer": 78,
+    "dim_pati_salam_g422_in_e6_gut": 21,
+    "e8_root_count": 240,
+    "weyl_swap_det_and_4reflection_word_verified": [
+      1,
+      true
+    ],
+    "weyl_swap_maps_e6_cent_to_e6_gut_and_fixes_lr": true
+  },
+  "part_1b_chiral_2d_wavefunction_parity_map": {
+    "E2_Chiral2DWavefunctionParity_StrongCP_Gate_passed": true,
+    "PC_AP1_BrokenTorusParityGeneratesTheta_rad": 1.2529376160209,
+    "chiral_overlap_parity_hermiticity_err_u_and_d": [
+      4.46041293392558e-16,
+      2.1934302420122943e-16
+    ],
+    "complex_yukawa_imag_frob_norm": 0.22926966714263036,
+    "haar_u3_10trial_max_err": 8.881784197001252e-16,
+    "nonzero_cp_invariant_abs_ir": 0.00127684673237205,
+    "p_fam_unitarity_and_involution_err": [
+      2.4651903288156597e-32,
+      3.486352936851598e-32
+    ],
+    "theta_qcd_uv_and_2loop_ir_rad": [
+      4.4061976289810905e-16,
+      4.2847669856627135e-16
+    ]
+  },
+  "part_1c_hyperbolic_cusp_kantorovich_contraction": {
+    "E3_HyperbolicCusp_KantorovichContraction_Gate_passed": true,
+    "PC_AP1_SingularUnprojectedZeroMode_mu_min": 0.0,
+    "certified_banach_radius_r_star_by_M": {
+      "16": 0.40289420965161005,
+      "24": 0.4033578744264907,
+      "32": 0.40352032953392436
+    },
+    "kantorovich_h_param_by_M": {
+      "16": 0.36791263577496636,
+      "24": 0.36850093601476724,
+      "32": 0.368706978884829
+    },
+    "mu_min_by_M": {
+      "16": 8.16209713905398,
+      "24": 8.16209713905398,
+      "32": 8.16209713905398
+    },
+    "picard_fixed_point_residual_by_M": {
+      "16": 3.9570051804036475e-17,
+      "24": 9.84127235919523e-18,
+      "32": 8.512255081068954e-18
+    },
+    "r_star_24_vs_32_rel_diff": 0.0004025946043940795,
+    "solution_H2_norm_by_M": {
+      "16": 0.30512799140073704,
+      "24": 0.3052477736230693,
+      "32": 0.3052895258958168
+    }
+  },
+  "stage_1_gate_passed": true
+}
