@@ -149,7 +149,7 @@ mixing. The point z(s₀) on the act's axis comes out as i to 15 digits.
 | I1 | **at τ = i the mark and the twin agree**: ratios to 2.4e-15, |V| to 1.2e-15 |
 | I2 | no ratio is forced to 0 or 1: all lie strictly between 1e-8 and 1 − 1e-8 |
 | I3 | every σ₃/σ₁ is above 1e-3: there is no large hierarchy at τ = i |
-| I4 | on the axis near i (arclength ±0.05, ±0.1) the mark–twin difference is 0.41 to 2.2 in the ratios, so the equality is special to i |
+| I4 | on the axis near i (arclength ±0.05, ±0.1) the mark–twin difference is 0.41 to 2.2 in the ratios, so the equality is special to i. These points used B1927's end table partly below the unit circle, where main finds it returns the nearest tabulated value and is off the end's law by about 4.4e-3 (M37, P-864). By H4's scale (0.3 in L₂ moves the ratios by up to 21 %) that is a change of about 0.3 %, which does not affect the conclusion |
 | plant | (i, mark) against (i, (0, 3/5)) differs by 1.0 and 0.52. **Caught** |
 | post hoc 1, H1 | **at (i, mark), S̃ gives exactly S's outputs, and all four reading pairs the same |V|** (difference 0.0) |
 | post hoc 1, H2 | the controls differ by 0.17 to 0.72: τ = 1.3i, 0.05 + 0.9i, and the axis at s₀ ± 0.05. So S̃ = S is special to i |

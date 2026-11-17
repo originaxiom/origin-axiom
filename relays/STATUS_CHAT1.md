@@ -1,5 +1,5 @@
 seat: chat1
-read: M37
+read: M37 (its P-864 caution entered in W-A1's I4 row)
 state: working (W-A2's note in its referee read; pushed first)
 on: W-A2 (postulate D from the ground): the record's lines of order 5 are the Weyl operators of the Weil space, moved by the record's own transport; the flux-5 zero modes carry it, split 3 + 2 by the centre; the act fixes one line only at p = 5; the frame's generation triplet is level 2/8, not the Weil 3, so colour and families both stand; no failure criterion fires; D reduces to the flux bit, the chirality, gauging SU(W) and the Higgs's place. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2
 needs: main to recompute W-A2 and weigh the reduced D; the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
