@@ -251,6 +251,8 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "from collections import deque\nq = deque([0, 4])\nq.rotate(-1)\na = q[0]\nn = a * 100 + 1\nqd = deque([0, 5, 3])\nqd.rotate(-1)\nd = qd[0] * 100 + qd[1]\nval = n / d",
         "from collections import Counter\nca = Counter()\nfor dg in (4, 0, 1):\n    ca.subtract({'v': -(ca['v'] * 9 + dg)})\ncb = Counter()\nfor dg in (5, 0, 3):\n    cb.subtract({'v': -(cb['v'] * 9 + dg)})\nval = ca['v'] / cb['v']",
         "from collections import ChainMap\nca = ChainMap({'v': 4})\nfor dg in (0, 1):\n    ca.maps[0]['v'] = ca['v'] * 10 + dg\ncb = ChainMap({'v': 5})\nfor dg in (0, 3):\n    cb.maps[0]['v'] = cb['v'] * 10 + dg\nval = ca['v'] / cb['v']",
+        "from collections import Counter\nu1 = Counter({'v': 1})\nu2 = u1 + u1\nu4 = u2 + u2\nu8 = u4 + u4\nu16 = u8 + u8\nu32 = u16 + u16\nu64 = u32 + u32\nu128 = u64 + u64\nu256 = u128 + u128\ncn = u256 + u128 + u16 + u1\ncd = u256 + u128 + u64 + u32 + u16 + u4 + u2 + u1\nval = cn['v'] / cd['v']",
+        "import sympy as sp\nu = sp.Symbol('u')\ndef get_ex(x):\n    return x.extend\nsn = [u]\nfor b in ([u], [], [], [u], [], [], [], [u]):\n    if u is None:\n        break\n    get_ex(sn)(sn)\n    get_ex(sn)(b)\nsd = [u]\nfor b in ([u], [u], [u], [u], [], [u], [u], [u]):\n    if u is None:\n        break\n    get_ex(sd)(sd)\n    get_ex(sd)(b)\nval = len(sn) / len(sd)",
     ]
     for snippet in bypass_snippets:
         assert audit_source_zero_empirical_constants(STAGE1_SRC, source_override=snippet) is False, (
@@ -520,6 +522,16 @@ def test_stage1_firewall_and_guardrail2_ast_locks(stage1_results: dict[str, Any]
         "def f(dyn):\n    s = set()\n    s.symmetric_difference_update([True])\n    return {'ok': next(iter(s)), 'x': dyn}",
         "from collections import Counter\ndef f(dyn):\n    c = Counter({'zero_v': 1, 'x': dyn})\n    c.subtract({'zero_v': 1})\n    return c",
         "from collections import ChainMap\ndef f(dyn):\n    cm = ChainMap({'x': dyn})\n    cm.maps[0]['ok'] = True\n    return cm",
+        "from operator import truth, eq, sub\ndef f(dyn):\n    return {'b1': truth(1), 'b2': eq(dyn, dyn), 'z': sub(dyn, dyn), 'x': dyn}",
+        "from math import trunc, comb, prod\ndef f(dyn):\n    return {'z1': trunc(0.0), 'z2': comb(3, 5), 'z3': prod([0, dyn]), 'x': dyn}",
+        "from functools import reduce\ndef f(dyn):\n    return reduce(lambda a, b: a | b, [{'ok': True}, {'x': dyn}])",
+        "from itertools import count\ndef f(dyn):\n    return {'zero_v': next(count()), 'x': dyn}",
+        "def get_ap(m):\n    return m.update\ndef f(dyn):\n    d = {'x': dyn}\n    get_ap(d)({'ok': True})\n    return d",
+        "def f(dyn):\n    d = {'x': dyn}\n    xs = [dict.update]\n    ([d.keys] + xs)[1](d, {'ok': True})\n    return d",
+        "def dec_sub(m):\n    m['zero_v'] -= 1\ndef f(dyn):\n    d = {'zero_v': 1, 'x': dyn}\n    dec_sub(d)\n    return d",
+        "from collections import Counter\ndef dec(m):\n    m.update({'zero_v': -1})\ndef f(dyn):\n    c = Counter({'zero_v': 1, 'x': dyn})\n    dec(c)\n    return c",
+        "from collections import defaultdict\ndef f(dyn):\n    d = defaultdict(int, {'x': dyn})\n    _ = d['zero_v']\n    return d",
+        "def f(dyn):\n    return {'ok': any([True, dyn]), 'z': sum([dyn, -dyn]), 's': str(dyn).startswith(''), 'ne': (dyn,) != (1, 2), 'x': dyn}",
     ]
     for bad_s in bad_g2_snippets:
         assert check_guardrail2_ast_no_literal_bool_verdicts(bad_s) is False
