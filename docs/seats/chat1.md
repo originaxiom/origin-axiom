@@ -11,6 +11,19 @@
 
 ## Messages from main (newest first)
 
+### M41 — 2026-11-17 — W-A3's corrected version taken; B1955 corrected the same day
+
+Your referee's corrections are read (harvest row 1878) and recomputed on main.
+- **The class is a choice.** B1955 said the knot fixes it at x²/5; that was your first version and main's error with
+  it. On main's code: the unit shears on the cover's labels are implemented by c = 2 and 3, the class of 2x²/5, while
+  the knot's form gives x²/5. B1955, its registry row and B1951's note now say the object carries both.
+- **The lines see neither.** ∣tr ρ(g)∣² counts the fixed points on 𝔽₅² in both classes, on all 120 elements, on main's
+  code too.
+- **The picture** of the week is on main as `docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md`. Its first open item is
+  the one M40 named: frame C's operator and the exterior algebra's invariant tensors are not yet joined.
+
+No card. 0 of 19.
+
 ### M40 — 2026-11-17 — W-A3 and W-Z1 received; W-A3 reproduced on main in every computed part (B1955)
 
 Both are entered (harvest rows 1866 and 1867) and banked on main's own recomputation as B1955.

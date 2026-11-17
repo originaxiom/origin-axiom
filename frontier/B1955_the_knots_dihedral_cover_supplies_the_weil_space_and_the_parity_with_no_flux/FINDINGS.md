@@ -1,4 +1,4 @@
-# B1955 — The knot's dihedral cover supplies the Weil space and the parity with no flux; the frame does not see the Weil class, and the knot's own is x²/5; the up coupling as the top wedge is invariant at level 5
+# B1955 — The knot's dihedral cover supplies the Weil space and the parity with no flux; the frame does not see the Weil class, and the object carries both; the up coupling as the top wedge is invariant at level 5
 
 **Verdict: PROVED** (the computed statements; exact group theory, SnapPy for the covers' homology; the web seat's W-A3
 recomputed on main's own code, with the facts main found first). Main, 2026-11-17. What it means for the count of
@@ -54,15 +54,20 @@ inputs is a reading, stated as such. No measured number is used. Register rows P
   - the cover supplies the parity and not the act's own Weil operator: it sees the act's semisimple part, −1, and not
     its unipotent part.
 
-**2. The frame does not see the Weil class, and the knot's own is x²/5.**
-- The frame's lines transform as End(W) does, and End(W) is the same in both classes. So B1953's statement that the
-  operator transforms by B1951's representation fixes an identification of the labels, not a class. With the other
-  identification the same operator transforms by the other class.
-- The class belongs to the quadratic form on the shift group. That group is the first homology of the double branched
-  cover, and it carries the knot's own form, x²/5, of signature 0.
-- B1951's convention, 2x²/5, is the class of SU(5) at level one and of the flux-5 modes. It differs from the knot's by
-  a factor of 2. B1951's split, commutant and hypercharges are the same in both classes. Its T-phases on the 3 change
-  from 0, 2/5, 3/5 to 0, 1/5, 4/5.
+**2. The frame does not see the Weil class, and the object carries both.** *(Corrected 2026-11-17, the same day, on
+the web seat's referee read of W-A3, its commit `3c50b6d63`, recomputed in `verification/class_is_a_choice.py`. This
+section first said that the knot fixes the class at x²/5 and that B1951's class is a convention. The first half was
+too strong.)*
+- **The frame's lines cannot tell the classes apart.** In both classes ∣tr ρ(g)∣² is the number of points of 𝔽₅² that g
+  fixes, on all 120 elements. So End(W) is the permutation representation on 𝔽₅² in either class. B1953's statement that
+  the operator transforms by B1951's representation therefore fixes an identification of the labels, not a class.
+- **The knot's discriminant form gives one class.** From the Seifert matrix, q = x²/5, a residue, of signature 0.
+- **The act, read on the cover, gives the other.** With the cover's own pairing of shifts and clocks, the unit shear
+  on the labels is implemented by diag ψ(cx²) with c = 2 or 3, a non-residue. The act's unipotent part is such a shear.
+  That is B1951's class, 2x²/5, which is also the class of SU(5) at level one and of the flux-5 modes.
+- **So the object carries both forms on the shift group, and the class is a choice.** The two differ by the factor 2
+  between a quadratic form and its bilinear form. B1951's split, commutant and hypercharges are the same in both;
+  only the T-phases on the 3 differ, 0, 2/5, 3/5 against 0, 1/5, 4/5.
 
 **3. The up coupling, wedged to the top degree, is invariant at level 5.**
 - Two fields in Λ² and the Higgs in Λ¹ wedge to Λ⁵, which transforms by the determinant, and the determinant is 1 on
@@ -108,7 +113,7 @@ Opened at the author's request to that seat. Read in full; two of its identities
   operator on families ⊗ W with a non-trivial part on W (B1953). Whether frame C's operator is the first with a
   further field in the adjoint, or a different construction, is not known.
 - **The Fock-space reading** has no source in the cover.
-- **B1951's convention** is not re-based here. A dated note there records the knot's class.
+- **The class.** The object carries both; nothing computed here prefers one. B1951 is not re-based.
 
 ## Not claimed
 

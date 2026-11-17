@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 533 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1877 |
+| harvest rows (the last number) | 1881 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -32,7 +32,7 @@
 | arc | verdict | claim |
 |---|---|---|
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
-| B1955 | PROVED | “THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE KNOT'S OWN IS x^2/5; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the…” |
+| B1955 | PROVED | “THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE OBJECT CARRIES BOTH; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the…” |
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
 | B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-17, S306p: AGY-EXP'S TEN CAMPAIGNS READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (B1956, a process arc; rows 1868 to 1877; the harvest, at the author's word).** The executive outcome of all 41 result notes read through the mask, X-APEX and X-FOUNDATION in full; none of its code run. Main's exact checks hold: the one-loop gauge relation, the Pati-Salam term given its coefficients, the 45 points of period 4, E8's charges. Found: every corridor has a free scale or a typed-in number; X-FOUNDATION's three families are the three units of flux put in, chosen as a minimum; UR-3's envelope touches a held-out target and is not compared; the lane did not pause, and X-FOUNDATION ha…”
+“LATEST (2026-11-17, S306p: THE HARVEST OF THE WORK OF 2026-11-15 TO 17 IS ENTERED FOR EVERY LANE, AND THE PICTURE IS WRITTEN (rows 1853 to 1881; B1954, B1955, B1956; docs/THE_PICTURE_AFTER_THE_HARVEST_2026-11-17.md; P-865).** Every lane's pin is at its head: the physical lane (read in its notes, its quotations exact), the web seat (W-A2, W-A3, W-Z1 recomputed), the loop branch (ten campaigns at their result notes, their arithmetic checked), the agy audit lane (its note read, its scanner registered), the builder (all of it already on main, paused), agy-002 (its synthesis read, its gate notes owed). B1955 corrected the same day: the object carries both Weil classes, so the class is a choice.…”
 
 ## Completeness (nothing skipped silently)
 

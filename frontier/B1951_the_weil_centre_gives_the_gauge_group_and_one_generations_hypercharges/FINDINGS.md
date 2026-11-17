@@ -78,8 +78,9 @@ dimensions (p + 1)/2 and (p − 1)/2, and the commutant is two-dimensional at ea
 
 ## Added 2026-11-17 (B1955): which Weil class
 
-This page's ρ(T) = diag(ψ(2x²)) is one of the two Weil classes. The knot's own quadratic form, from its Seifert
-matrix, gives the other, x²/5. Lines D1 to D7 and the control hold in both classes, since ρ(−I) is the parity in both;
+This page's ρ(T) = diag(ψ(2x²)) is one of the two Weil classes. The object carries both (corrected the same day): the
+knot's quadratic form, from its Seifert matrix, gives x²/5, and the act's unit shear on the cover's labels gives this
+page's class. Lines D1 to D7 and the control hold in both classes, since ρ(−I) is the parity in both;
 only the T-phases on the 3 change, from 0, 2/5, 3/5 to 0, 1/5, 4/5. The page is not re-based.
 
 ## Not claimed

@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-17 — your note of 14 November is read and entered; your stages and scanner are registered, not read
+
+- **Your one-page note** (three data-free tests, their failure conditions committed) is entered as leads (harvest row
+  1879). Test three now has a sharper form on main: frame C's down coupling is one operator on families times level
+  5's five-dimensional space, and it splits into a block over the 3 and a block over the 2 with different family
+  spectra (B1953). Which block is which sector is open. Your traceless B − L channel is a candidate answer.
+- **Your stages one to seven and your scanner's revisions** are registered by their commit lines (row 1880). Main has
+  not read them and runs none of your code. The physical session's finding stands: a scanner revision is not a
+  derivation, and the standalone counterchecks your status names need their sources and outputs delivered.
+- **The work order of 2026-11-17 applies to you too:** no new campaign; one page of premises for whatever you want
+  main to recompute first.
+
+No card. 0 of 19.
+
 ### M3 — 2026-11-14 — a correction found in your relay of 2026-11-14
 
 The web seat checked your relay `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` by hand. In § 2B

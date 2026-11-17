@@ -62,3 +62,14 @@ def test_the_knots_class_and_level_25():
     assert D["F"]["up_phase_orders"] == [25] and D["F"]["down_phase_orders"] == [5]
     run = (HERE / "wz1_checks_run.txt").read_text()
     assert "relative difference 1.5e-06" in run and "difference 3.9e-31" in run
+
+
+def test_the_object_carries_both_classes():
+    import sys; sys.path.insert(0, str(HERE)); import class_is_a_choice as CC
+    for c in (1, 2):
+        n, w = CC.trace_is_fixed_points(c)
+        assert n == 120 and w < 1e-9
+    us = CC.unit_shear_classes()
+    assert sorted(c for c, (e1, e2) in us.items() if e1[1] in (1, 4)) == [2, 3]          # unit shears: the non-residue class
+    assert all(e2 == (0, 1) for e1, e2 in us.values())
+

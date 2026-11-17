@@ -1,0 +1,8 @@
+1. class 1: on all 120 elements |tr rho(g)|^2 equals the number of points of F_5^2 that g fixes (worst difference 5.3e-15)
+1. class 2: on all 120 elements |tr rho(g)|^2 equals the number of points of F_5^2 that g fixes (worst difference 5.3e-15)
+2. diag(psi(1 x^2)) sends the labels (1, 0), (0, 1) to (1, 2), (0, 1): a shear by 2; 1 is a residue mod 5
+2. diag(psi(2 x^2)) sends the labels (1, 0), (0, 1) to (1, 4), (0, 1): a shear by 4; 2 is a non-residue mod 5
+2. diag(psi(3 x^2)) sends the labels (1, 0), (0, 1) to (1, 1), (0, 1): a shear by 1; 3 is a non-residue mod 5
+2. diag(psi(4 x^2)) sends the labels (1, 0), (0, 1) to (1, 3), (0, 1): a shear by 3; 4 is a residue mod 5
+   the unit shears (by +1 or -1) are implemented by c in [2, 3]: the class of 2x^2/5
+3. the knot's form V + V^T = [[2, 1], [1, -2]] has (g, g) = 2/5 on its discriminant group's generator: q = x^2/5 (a residue), b(x, x) = 2x^2/5
