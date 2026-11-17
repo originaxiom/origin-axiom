@@ -1,0 +1,78 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Foundation_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-FOUNDATION-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_conifold_hopf_and_scale_neutrality": {
+    "E1_ConifoldQuotient_HopfPeriod_and_ScaleNeutrality_Gate_passed": true,
+    "PC_FD3_DroppedRTermGivesHalfUnit": 0.5,
+    "PC_FD3_WrongPlusSignConnectionFailsGauge_err": 1.1029760554709522,
+    "action_scaling_period_diff": 1.3132080585320493e-57,
+    "conifold_max_det_Z_err": 2.266902949505399e-16,
+    "conifold_svd_reconstruction_err": 1.2743406644643015e-15,
+    "correct_gauge_shift_err": 0.0,
+    "hopf_period_minus_1_abs_err": 1.6666666666666667e-31,
+    "symplectic_form_integral_on_primitive_sphere": 0.0
+  },
+  "part_3b_composite_register_metric_and_sewing": {
+    "E2_CompositeRegister_CrossTermMetric_and_PhaseSewing_Gate_passed": true,
+    "PC_FD3_DroppedCrossTermMetricError": 0.24068186116247592,
+    "connection_c7_eq5_err": 1.4635341549773528e-12,
+    "constrained_phase_cauchy_schwarz_err": 5.551115123125783e-17,
+    "global_inverse_hopf_lift_err": 5.728686258851893e-16,
+    "quotient_metric_c7_eq4_err": 1.0639000791456965e-10,
+    "radial_shear_extra_kinetic_c7_eq13": [
+      0.42603550275769164,
+      2.008883059900768e-10
+    ],
+    "two_interval_sewing_energy_and_current_err": [
+      5.551115123125783e-17,
+      0.0
+    ]
+  },
+  "part_3c_native_word_obstruction_and_4fold_lift": {
+    "E3_NativeWordObstruction_and_4FoldFiberedLift_Gate_passed": true,
+    "PC_FD3_StaticSubfamilyExitsOnSecondMove_trace": 2.000000000000001,
+    "T1_T2_T4_distances": [
+      2.0,
+      2.8284271247461903,
+      0.0
+    ],
+    "m004_monodromy_traces_powers_1_to_4": [
+      3,
+      7,
+      18,
+      47
+    ],
+    "m4_cover_torsion_order_and_smith": [
+      45,
+      [
+        3,
+        15
+      ]
+    ],
+    "minimal_register_trivializing_cover_degree": 4,
+    "native_shear_T_map_err": 4.2998752849492583e-16,
+    "primitive_sphere_commutator_trace_err": 2.220446049250313e-16
+  },
+  "stage_3_gate_passed": true
+}
