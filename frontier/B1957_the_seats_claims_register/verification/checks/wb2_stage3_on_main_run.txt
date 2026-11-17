@@ -1,0 +1,7 @@
+S1 (residue level): frame C at (-q_R, -q_L) against the transpose of frame C at (q_L, q_R), three sectors, two points, both readings: up to a scalar 0.0e+00; singular-value ratios 1.4e-16
+S1 (with the norms): frame C at (-q_R, -q_L) against the transpose of frame C at (q_L, q_R), three sectors, two points, both readings: up to a scalar 0.0e+00; singular-value ratios 1.4e-16
+S2: the mixing read with right singular vectors in place of left (which is the c = -2 frame's), residue level: the massive 2 x 2 block of |V| differs from frame C's by up to 0.84 (the seat: up to 0.84)
+S3: the c = +2 charges q - q_H: {'up': (-2, -7), 'down': (4, 5), 'lepton': (0, 9)} (the seat: up (-2, -7), down (4, 5), leptons (0, 9))
+    at the 24 points of order 5 the lepton coupling against the transpose of the down coupling, up to a scalar: 3.3e-16 (singular-value ratios at four points: 1.2e-16); at (1/7, 3/7) the singular-value ratios differ by 0.09
+S4: c = +2 against frame C, residue level, three sectors at the mark and the twin: sigma_2/sigma_1 differs by up to 2.35 in ratio (the seat: up to 2.4)
+exit 0

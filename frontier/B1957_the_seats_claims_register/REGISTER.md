@@ -4,21 +4,21 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 88 | 0 | 2099 | 0 | 0 | 0 | 0 | 0 | 0 | **2099** |
+| agy-exp | 88 | 5 | 2099 | 20 | 0 | 29 | 17 | 0 | 6 | **2027** |
 | agy-002-verify | 11 | 0 | 500 | 0 | 0 | 0 | 0 | 0 | 0 | **500** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
-| physical | 136 | 0 | 10952 | 17 | 0 | 0 | 1 | 0 | 0 | **10934** |
-| web | 16 | 1 | 1167 | 156 | 0 | 0 | 0 | 5 | 85 | **921** |
+| physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
+| web | 16 | 2 | 1167 | 169 | 0 | 0 | 0 | 5 | 85 | **908** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 285 | 31 | 15320 | 370 | 9 | 47 | 54 | 5 | 243 | **14592** |
+| **all** | 285 | 41 | 15320 | 407 | 9 | 94 | 71 | 5 | 252 | **14482** |
 
 ## By file
 
 | lane | file | read at source | statements | settled | **pending** |
 |---|---|---|---|---|---|
 | agy-exp | `relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 53 | 0 | **53** |
-| agy-exp | `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` | no | 23 | 0 | **23** |
+| agy-exp | `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` | yes | 23 | 0 | **23** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md` | no | 17 | 0 | **17** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md` | no | 15 | 0 | **15** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md` | no | 17 | 0 | **17** |
@@ -28,10 +28,10 @@
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md` | no | 32 | 0 | **32** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md` | no | 32 | 0 | **32** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md` | no | 39 | 0 | **39** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md` | no | 24 | 0 | **24** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md` | no | 28 | 0 | **28** |
-| agy-exp | `relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md` | no | 32 | 0 | **32** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md` | yes | 20 | 20 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md` | yes | 24 | 24 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md` | yes | 28 | 28 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md` | yes | 32 | 0 | **32** |
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md` | no | 18 | 0 | **18** |
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS.md` | no | 33 | 0 | **33** |
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS.md` | no | 35 | 0 | **35** |
@@ -155,7 +155,7 @@
 | physical | `relays/PHYSICAL_TO_CC_2026-11-15_AGY_EXP_X_FUNNEL_REVIEW.md` | no | 12 | 0 | **12** |
 | physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_INTERACTION_FIXES_MATRIX_LIFT.md` | no | 7 | 0 | **7** |
 | physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md` | no | 12 | 0 | **12** |
-| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md` | no | 11 | 0 | **11** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md` | yes | 11 | 0 | **11** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md` | no | 6 | 0 | **6** |
 | physical | `relays/PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md` | no | 13 | 0 | **13** |
 | physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md` | no | 21 | 0 | **21** |
@@ -186,8 +186,8 @@
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_endgame_review_2026_11_15/REVIEW.md` | no | 80 | 0 | **80** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/CARD.md` | no | 5 | 0 | **5** |
 | physical | `reports/physical_bridge_2026_09_05/agy_exp_review_2026_11_15/REVIEW.md` | no | 82 | 0 | **82** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md` | no | 72 | 7 | **65** |
-| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md` | no | 35 | 4 | **31** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN.md` | yes | 72 | 7 | **65** |
+| physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS.md` | yes | 35 | 4 | **31** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/README.md` | no | 12 | 0 | **12** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/PROJECTION_SECTION_BEFORE_FACTOR_TWO_CORRECTION.md` | no | 9 | 0 | **9** |
 | physical | `reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/preserved_draft_01/README.md` | no | 3 | 0 | **3** |
@@ -212,7 +212,7 @@
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md` | no | 34 | 0 | **34** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md` | no | 33 | 0 | **33** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md` | no | 26 | 0 | **26** |
-| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md` | no | 47 | 0 | **47** |
+| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md` | yes | 47 | 25 | **22** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS.md` | no | 18 | 0 | **18** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL.md` | no | 37 | 0 | **37** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF.md` | no | 11 | 0 | **11** |
@@ -284,14 +284,14 @@
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | no | 7 | 0 | **7** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY.md` | yes | 127 | 127 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT.md` | no | 40 | 0 | **40** |
-| web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md` | no | 77 | 0 | **77** |
+| web | `relays/CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES.md` | no | 77 | 9 | **68** |
 | web | `relays/CHAT1_TO_CC_2026-11-15_W-L1_THE_LOOK_AT_TAU_I_FAILS.md` | no | 58 | 0 | **58** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND.md` | no | 106 | 0 | **106** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | no | 104 | 0 | **104** |
-| web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | no | 54 | 0 | **54** |
+| web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 0 | **54** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | no | 50 | 0 | **50** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 189 | 0 | **189** |
-| web | `relays/STATUS_CHAT1.md` | no | 198 | 119 | **79** |
+| web | `relays/STATUS_CHAT1.md` | no | 198 | 123 | **75** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | no | 18 | 0 | **18** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | no | 37 | 0 | **37** |
 | web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | no | 69 | 0 | **69** |

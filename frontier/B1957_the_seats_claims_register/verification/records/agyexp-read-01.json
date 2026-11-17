@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-read-01",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "read by main in full at the seat's branch head 48a4054aa, through the mask; the second script's overlap and exponent functions read as text; nothing run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md",
+  "relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md",
+  "relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md"
+ ]
+}

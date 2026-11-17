@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-ur2-01",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "UR-2 (the quartic stays positive; sqrt(2 lambda) in [0.2899, 1.1329]) is not recomputed on main and is superseded in its numbers: at this stage the seat's running carried -24 lambda^2 Tr_Y for -48 and the exchanged mixed products (the physical lane's F12 and counterchecks, verified on main at the primary source; repaired by the seat later). The boundary value lambda = g^2 / 5 and the same typed-in couplings and spans are inputs. The seat's own page of premises (48a4054aa, read in full) now says the same. The envelope is of a quantity whose measured value is known; no comparison made",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:32",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:36",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:40"
+ ]
+}

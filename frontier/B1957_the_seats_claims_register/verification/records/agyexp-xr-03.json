@@ -1,0 +1,12 @@
+{
+ "id": "agyexp-xr-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the four solver benchmarks are the seat's own runs (not rerun). They are internal: main's reading of agy-002's gate 0 showed such benchmarks compare a script with its own higher-precision copy, and at this date the two-loop mixed products in this lane were exchanged (the physical lane's countercheck 2, verified on main), which these benchmarks did not catch",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:19"
+ ]
+}

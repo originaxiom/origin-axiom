@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-ur1-02",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "UR-1's two-loop corridor (I_gauge in [3129, 4693] per million over 1320 histories; [4028, 4205] over 264) is not recomputed on main: the histories are built from identifications the seat typed in (the unified coupling as an area or a volume times an area, the running span as 45 Vol / pi or a stop at an integer 1/alpha_3, the 44 points of the fourfold cover, three collar modes), and from a single-step model whose one-loop relation the record already refutes (B915). Its 'dynamic exclusion' of one branch is a Landau pole of the typed-in span. Later campaigns replace the single step by a Pati-Salam stage with a free Delta_PS (agy-002's PR-3, assessed in RELATIONS.md). The seat's own page of premises (48a4054aa, read in full) now says the same: a one-parameter family testing nothing until a second observable fixes Delta_PS",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:39"
+ ]
+}

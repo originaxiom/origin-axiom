@@ -1,0 +1,13 @@
+{
+ "id": "physical-c3e-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/physical_c3e_indicial.py, main's own exact check of the steps of sections 1 and 2 that concern one channel on the cusp: in t = ln y the cusp's Laplacian on height-only functions is -(d^2/dt^2 - d/dt), with measure exp(-t) dt; the exponents are -beta_c and 1 + beta_c with beta_c = (sqrt(1 + 4 ell^2 c) - 1)/2; the physical measure admits the first and excludes the second, and at c = 0 admits the constant and excludes the growing solution; for a source bounded by M exp(-delta t) with delta < beta_c the solution is bounded by M exp(-delta t)/(ell^2 c - delta - delta^2), so it decays at the source's rate and the constant blows up exactly at delta = beta_c; at c = 0 the solution is a constant plus a decaying term for every delta > 0; at angular frequency k the decaying solution is exp(t/2) K_nu(k exp(t)), nu = beta_c + 1/2, falling faster than any exponential",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:32",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:62",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:64",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:88"
+ ]
+}

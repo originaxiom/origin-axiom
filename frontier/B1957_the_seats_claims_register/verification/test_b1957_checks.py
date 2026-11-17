@@ -140,3 +140,19 @@ def test_two_of_the_thirty_two_candidates_are_representations():
             for c in (1, -1, 1j, -1j):
                 if WR.extends(c * Fk, rT) is not None: keep.append((k, s, c))
     assert keep == [(2, 1, -1), (3, -1, -1)]
+
+
+def test_the_loop_seats_exponent_rule_gives_its_gap_ratios_and_its_six_w_law():
+    import agyexp_ur345 as U
+    from fractions import Fraction as Fr
+    assert sorted({g for a in U.prim(5) if (g := U.gap(a, 1, 2)) is not None}) == [Fr(39, 31), Fr(5, 3)] == sorted({g for a in U.prim(5) if (g := U.gap(a, -3, 6)) is not None})
+    assert all(U.exps(a, -3, 6) == U.exps((6 * a) % 1, 1, 2) for a in U.prim(15)) and not all(U.exps(a, -3, 6) == U.exps((3 * a) % 1, 1, 2) for a in U.prim(15))
+    assert [c for c in range(10) if all(U.exps(a, -3, 6) == U.exps((c * a) % 1, 1, 2) for a in U.prim(10))] == []
+
+
+def test_the_cusps_indicial_roots_and_the_decay_constant():
+    import sympy as sp
+    r, ell, c, d = sp.symbols("r ell c delta", positive=True); beta = (sp.sqrt(1 + 4 * ell ** 2 * c) - 1) / 2
+    for root in (-beta, 1 + beta): assert sp.simplify(-(root ** 2 - root) / ell ** 2 + c) == 0
+    assert sp.simplify(sp.expand((beta - d) * (1 + beta + d)) - (ell ** 2 * c - d - d ** 2)) == 0
+    assert sp.simplify(-((sp.Rational(1, 2)) ** 2 - sp.Rational(1, 2)) / ell ** 2 + c) != 0            # 1/2, the edge of the measure, is not a root

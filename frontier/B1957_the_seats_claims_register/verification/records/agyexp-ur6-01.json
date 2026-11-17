@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-ur6-01",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "UR-6 is two elementary facts and two premises. Facts: (i) read in the script's text, every phase of the seat's overlap is odd in b at Re tau = 0 except one common factor exp(-i pi q_H a), so Y(a, -b) is the complex conjugate of Y(a, b) up to that factor, and the factors of the up and the down sector cancel because their Higgs charges are opposite; (ii) the phase of a determinant of Yukawa matrices does not run at one or two loops (main's algebra and solver). So the doubled determinant's phase is zero before and after the running. Premises: the state is doubled (each point paired with its reflection, a 6 x 6 block, not one chiral 3 x 3 sector), and the gauge theory's own angle is set to zero. The control (a, 1 - b) for (a, -b) shows the overlap is not a function of the point on the torus: the two differ by a lattice vector and by 4 pi / 5. The seat's own page of premises (48a4054aa, read in full) now says the same",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:21",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:44"
+ ]
+}

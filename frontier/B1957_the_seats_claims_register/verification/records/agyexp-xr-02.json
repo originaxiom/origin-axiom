@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xr-02",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the verifier's own pass flags and the firewall line, as the notes report them; main's verdicts on what the flags cover are in the records for each part",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:11",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:11",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:11",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:12"
+ ]
+}

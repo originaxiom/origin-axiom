@@ -1,0 +1,12 @@
+{
+ "id": "physical-c3e-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the file's own label: an author's analytic proof awaiting independent review, with no computation run. Read by main in full at 8d5c91032",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:3",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:122",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:240"
+ ]
+}

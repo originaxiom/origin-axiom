@@ -136,6 +136,21 @@ noted, and none is pending.
   - **agy-exp** (its page of premises at 48a4054aa) states of its own seven relations what main found of agy-002's
     ten: each rests on a supplied model, a free scale or a typed-in number; and that three families is an input.
 - **The window was widened to the seats' present heads:** 285 files, 15,320 statements.
+- **agy-exp's seven relations, read at their three result notes and assessed one by one** (`RELATIONS.md`). The exact
+  arithmetic of its own exponent rule is reproduced on main from the rule as stated (`checks/agyexp_ur345.py`: the gap
+  ratios {39/31, 5/3}, {15/11, 15/8, 431/190, 15}, {10/7, 31/5}, {29/26, 10/3}; the identity through 6w at order 15;
+  no multiplier at order 10). None of the seven is a statement about the object alone; its own page of premises says
+  so. UR-6 is two elementary facts and two premises, and its own control shows its overlap is not a function of the
+  point on the torus.
+- **The web seat's W-B2, stage 3, on main's frame** (`checks/wb2_stage3_on_main.py`): frame C at (−q_R, −q_L) is frame
+  C transposed, exactly; the mixing read with right vectors differs by up to 0.84; at the c = +2 charges the leptons
+  are the down quarks transposed at all 24 points of order 5 and not at order 7; c = +2 differs from frame C by up to
+  2.35. Stage 4 (the norms) is still owed.
+- **The physical lane's first proof, the complete-cusp inverse (P-C3e, equation (3)), read in full.** Its
+  channel-by-channel steps hold exactly on main (`checks/physical_c3e_indicial.py`: the reduction, the exponents −β and
+  1 + β, which the measure admits, the decay with its constant 1/(ℓ²c − δ − δ²), the Bessel solutions at nonzero
+  angular frequency). The bijection itself is recorded as conditional on four things main has not yet checked, named
+  in the record; no lemma has been found to fail. Its nonlinear part rests on the lane's earlier files, not yet read.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

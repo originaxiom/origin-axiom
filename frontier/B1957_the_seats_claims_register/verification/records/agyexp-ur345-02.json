@@ -1,0 +1,20 @@
+{
+ "id": "agyexp-ur345-02",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "the infrared envelopes of UR-3, UR-4 and UR-5 and the 248-against-40 count of perturbative points are not recomputed on main. They are outputs of the seat's overlap ansatz run through its two-loop flow with typed-in couplings and spans (and, at this date, the exchanged mixed products). One of them bounds a ratio that is held out in this programme: it is not compared, and the seat keeps it uncompared and unnarrowed. The seat's own page of premises (48a4054aa, read in full) now says the same",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:26",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:32",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:41",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:42",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:43"
+ ]
+}

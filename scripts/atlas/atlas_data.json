@@ -17673,11 +17673,12 @@
     "torsion"
    ],
    "refs": [
+    "B2",
     "H1",
     "H2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "dormant",
    "domain": "arithmetic"
   },

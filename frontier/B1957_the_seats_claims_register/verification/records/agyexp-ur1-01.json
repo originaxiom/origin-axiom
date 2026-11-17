@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-ur1-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the exact one-loop part, recomputed on main (B1956's agy_exp_checks.py): complete families cancel out of every difference of slopes, (b2 - b3, b3 - b1, b1 - b2) = (23/6, -111/10, 109/15), so 23/6 alpha1^-1 - 111/10 alpha2^-1 + 109/15 alpha3^-1 does not run at one loop and sin^2 theta = 23/134 + (109/201) alpha_EM/alpha_3 there",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS:20"
+ ]
+}

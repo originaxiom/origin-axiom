@@ -1,0 +1,6 @@
+AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md: 3 commits named, all on the branch: True; in the order named: 2 of 2 consecutive pairs
+     verify_x_relations_1.py: 1926 lines, 1012 float and 16 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md: 3 commits named, all on the branch: True; in the order named: 2 of 2 consecutive pairs
+     verify_x_relations_2.py: 2049 lines, 966 float and 16 complex literals, imports ['__future__', 'ast', 'fractions', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']
+AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md: 3 commits named, all on the branch: True; in the order named: 2 of 2 consecutive pairs
+     verify_x_relations_3.py: 2149 lines, 965 float and 19 complex literals, imports ['__future__', 'ast', 'cmath', 'fractions', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'typing']

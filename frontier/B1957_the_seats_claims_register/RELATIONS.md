@@ -43,5 +43,28 @@ author's call under P-862.
 
 ## agy-exp's seven relations (UR-1 to UR-7)
 
-Pending. The lane's result notes are registered (86 files) and not yet read at their source statement by statement.
-Nothing is said about them here until they are.
+Source: the three result notes of its campaign X-RELATIONS on `agy/self-consistent-loop-2026-11-11`, each read in
+full (the consolidated atlas is in the third), the text of its second script for the exponent rule, and its own page
+of premises of 2026-11-17 (`relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md`), which says
+of each relation what it borrows and what it leaves free. Main agrees with that page. Its later campaigns revise
+some of the numbers; they are not yet read at their source, and where a later version exists this is said.
+
+| | What it states | What it rests on | What main recomputed | Verdict |
+|---|---|---|---|---|
+| UR-1 | sin²θ_W − (23/134 + (109/201)·α_EM/α_3) vanishes at one loop for any number of families, and lies between 3129 and 4693 per million at two loops over 1320 histories | A single-step model; a unified coupling typed in as an area, or a volume times an area; a running span typed in as (45/π)·Vol or a stop at an integer 1/α_3; the 44 points of a fourfold cover | The one-loop part exactly (B1956) | **One-loop part verified; the corridor conditional and superseded.** The single step's one-loop relation is already refuted on the record (B915); the later version adds a Pati–Salam stage with a free Δ_PS (PR-3 above) |
+| UR-2 | The quartic stays positive in every history, and √(2λ) at the bottom lies between 0.2899 and 1.1329 | A boundary value λ = g²/5; the same typed-in coupling and span | Nothing of the envelope. Its running at this date carried −24·λ²·Tr_Y for −48 and the exchanged mixed products, both verified wrong on main at the primary source and repaired by the seat later | **Conditional and superseded in its numbers.** An envelope of a quantity whose measured value is known |
+| UR-3 | At order 5 the lepton's singular values equal the down quark's; exponent gap ratios {39/31, 5/3} | The seat's overlap: a supplied ansatz with a cut-off, not frame C | The exponent arithmetic from the seat's stated rule (`agyexp_ur345.py`): the ratios and the equality of the exponents at every point | **Arithmetic verified; the relation conditional** on the ansatz. Its infrared envelope touches a ratio held out here: not compared |
+| UR-4 | At order 15 the lepton's singular values are the down quark's at 6w; gap ratios {39/31, 5/3} against {15/11, 15/8, 431/190, 15} | The same ansatz | The same arithmetic: both sets, the identity through 6w, and that 3w fails | **Arithmetic verified; conditional.** On main's frame C the law is through 3α (B1949): the two frames differ |
+| UR-5 | At order 10 no multiplier relates the two sectors; gap ratios {10/7, 31/5} against {29/26, 10/3} | The same ansatz | The same arithmetic: no multiplier c in 0..9; both sets | **Arithmetic verified; conditional** |
+| UR-6 | The phase of the determinant of a doubled 6 × 6 state (each point with its reflection) is zero before and after the running | The doubling itself; the gauge theory's own angle set to zero | Read in the script: the overlap at (a, −b) is the conjugate of the overlap at (a, b) up to a factor that cancels between up and down. On main: a determinant's phase does not run at one or two loops | **Conditional.** Two elementary facts and two premises. Its own control shows the overlap is not a function of the point on the torus (a lattice vector changes the phase by 4π/5) |
+| UR-7 | A seesaw operator built from the overlap is covariant, obeys the same order-15-to-5 identity, and has corridors for its two ratios | The Majorana matrix is the seat's own operator, with two free ratios or a typed-in weight 1/(4π) | Nothing beyond the exponent arithmetic it shares with UR-4 | **Conditional; not recomputed** |
+
+**What this comes to.** The exact arithmetic the seat reports for its own rule is right wherever main has re-entered
+it. None of the seven is a statement about the object alone: each sits inside a supplied model, with a typed-in
+coupling, span, boundary value, ansatz or doubling, and the seat's page of premises says so in its own words. None
+removes a free number. Its page also states that the three chiral families of its last campaign are an input: the
+index equals the flux put in, and 0, 1, 2, 6 and −3 are not excluded.
+
+**Still to do for this lane:** the later campaigns' versions of these relations (X-UNIFY to X-FOUNDATION), read at
+their result notes; the physical lane's fifteen defects in X-APEX (all held by the seat) and its six further findings
+on X-FOUNDATION, each by reading the cited lines.

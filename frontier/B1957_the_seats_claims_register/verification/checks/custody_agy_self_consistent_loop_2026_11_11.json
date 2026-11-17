@@ -1,0 +1,101 @@
+[
+ {
+  "note": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md",
+  "commits": [
+   "015b5cd18",
+   "07a683980",
+   "f4e2218b5"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 2,
+  "consecutive_pairs": 2,
+  "out_of_order": [],
+  "scripts": {
+   "relays/x_relations_1_verify/verify_x_relations_1.py": {
+    "lines": 1926,
+    "float_literals": 1012,
+    "complex_literals": 16,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md",
+  "commits": [
+   "62b17f6e8",
+   "78b125767",
+   "61bbb3788"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 2,
+  "consecutive_pairs": 2,
+  "out_of_order": [],
+  "scripts": {
+   "relays/x_relations_2_verify/verify_x_relations_2.py": {
+    "lines": 2049,
+    "float_literals": 966,
+    "complex_literals": 16,
+    "imports": [
+     "__future__",
+     "ast",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md",
+  "commits": [
+   "e2fd5237e",
+   "99589c69f",
+   "06375e85d"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 2,
+  "consecutive_pairs": 2,
+  "out_of_order": [],
+  "scripts": {
+   "relays/x_relations_3_verify/verify_x_relations_3.py": {
+    "lines": 2149,
+    "float_literals": 965,
+    "complex_literals": 19,
+    "imports": [
+     "__future__",
+     "ast",
+     "cmath",
+     "fractions",
+     "hashlib",
+     "itertools",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "typing"
+    ]
+   }
+  }
+ }
+]

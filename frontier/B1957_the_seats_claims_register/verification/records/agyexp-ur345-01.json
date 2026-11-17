@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-ur345-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agyexp_ur345.py: the exact arithmetic of the seat's own exponent rule, re-entered by main from the rule as the note and the script's text state it (entry exponents 3|dL^2 - dR^2| or 3(dL^2 + dR^2) over lattice shifts; tropical singular-value exponents). Main reproduces: at order 5 the gap ratios {39/31, 5/3} for down and lepton alike, and the lepton's exponents equal the down quark's at the same point; at order 15 the lepton stays at {39/31, 5/3} while the down quark's set gains {15/11, 15/8, 431/190, 15}, and lepton(w) = down(6w), not down(3w); at order 10 no multiplier c in 0..9 works, with {10/7, 31/5} against {29/26, 10/3}. This verifies the arithmetic of the rule. The rule belongs to the seat's overlap, a supplied ansatz with a cut-off (the lower limit 1/sqrt(6) in its integral), and is not frame C's: on main's frame the law is e_lep(alpha) = e_down(3 alpha) (B1949)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS:31"
+ ]
+}

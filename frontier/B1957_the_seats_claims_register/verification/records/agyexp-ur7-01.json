@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-ur7-01",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "UR-7 (the seesaw operator W_4 = Y_4 M_R^-1 Y_4^T: covariance, the collapse at points of order 3, the identity between orders 15 and 5 through 6w, the infrared corridor of its ratios) is not recomputed on main. The identity through 6w has the same source as UR-4's (charges divisible by 3 in the seat's rule, checked in agyexp_ur345.py for the Yukawa exponents). The Majorana matrix is the seat's 'puncture-jet' operator with two free ratios or a typed-in loop weight 1/(4 pi), and the flow carries the same typed-in couplings and spans. The seat's own page of premises (48a4054aa, read in full) now says the same",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS:45"
+ ]
+}
