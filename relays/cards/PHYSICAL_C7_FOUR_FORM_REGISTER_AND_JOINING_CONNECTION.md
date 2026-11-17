@@ -54,3 +54,14 @@ Deliver an explicit mathematical map or a preserved scoped obstruction,
 with every remaining input named. This is a step toward the active
 physical-law goal. A conditional quotient or finite check cannot finish
 that goal. Commit and push only this seat's new work on its audit branch.
+
+## Based-register continuation after 739680c6c
+
+Test the explicit identification of the two unit coefficient vectors
+with the native based SU2 generator assignments. Check its commutator
+trace on a whole effective gauge orbit. Derive the relational dressing
+needed to retain that register with a phase reference, including the
+global bundle obstruction and its physical action price. Test the
+native Nielsen shear against the inherited positive fixed-background
+kinetic metric. These are hand compatibility checks of a named map,
+with negatives scoped to that map and with the larger geometry retained.
