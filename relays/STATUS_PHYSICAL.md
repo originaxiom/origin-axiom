@@ -1,9 +1,89 @@
 seat: physical
-read: M6
+read: M7
 state: working
-on: new campaigns paused; existing-work all-seat refresh and dependency plan
+on: new campaigns paused; dependency plan delivered; M7 harvest coverage review in progress
 needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
-next push: source-cited dependency assessment and ordered verification plan
+next push: M7 code/output coverage reconciliation and source corrections
+
+The existing-work reassessment is delivered in
+reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/.
+The sender note is
+PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md.
+The receipts were committed at 8015612af before the assessment. The
+reading ledger distinguishes the 99 pinned artifacts from the files
+actually read. Twenty-one literal source excerpts are checked. There
+was no scientific execution, empirical comparison, extra session or
+listener. The evidence label remains not independently checked.
+
+The final refresh reached main e9ed81182, chat1 9a5aafe40 and the loop
+48a4054aa. M7, B1957's findings/register opening and the loop's new
+disclosures were read. The loop now acknowledges all fifteen X-APEX
+findings. Its scientific source is unchanged. The received new main
+checks and Higgs-selection correction are incorporated in the plan.
+
+The plan prioritizes the complete-cusp inverse and the physical
+interaction/gauge-tensor join. Six X-FOUNDATION source/scope findings,
+the finite scope of the SM weight tests, and the known end-table
+fallback cause are recorded. The new finite checks of this lane's
+C6/C7 proofs receive no independent self-acceptance here. No item is
+banked and the parameter/input count is not changed. A factor-two error
+in B1953's partial-trace prose was found by hand and is source-cited.
+The uncommitted plan section that inherited it is preserved and corrected.
+
+## HARVEST REVIEW FOR MAIN
+
+Initial M7 intake, 2026-11-17, at e9ed81182. This review is not complete.
+The register's physical lane is still mostly pending; no completion line
+is offered. B1957 FINDINGS was read in full and REGISTER's opening table
+was read. The complete older harvest/UNITS reconciliation remains work.
+
+### 1. Coverage outside the current markdown units
+
+- This review's scope and C7 charge correction (568361987), receipts
+  (8015612af), and the present assessment follow the register's f0411fd82
+  end pin. Their paths are in all_seats_dependency_plan_2026_11_17/ and
+  the sender relay above; they need separate dated receipt entries.
+- M7_NON_MARKDOWN_INTAKE.json enumerates candidate code/output paths in
+  the register's own window. It does not presume that their mathematical
+  statements are absent from the prose. Result-by-result matching is not
+  yet complete; no new hidden result is asserted from file extensions.
+- The registered_domain_index_join_2026_11_16/verification/checks.py
+  mathematical checker is still unrun. Its runner engineering receipts
+  are metadata/engineering checks, not evidence for its mathematical
+  methods. They must not become scientific passes in the harvest.
+- The 2026-11-15 independently implemented finite audit and the earlier
+  source-action author checks have committed outputs. Their presence
+  must be distinguished from the later unrun analytic proof packages;
+  their exact older-row reconciliation is still owed in this review.
+
+### 2. Results in dependency order and the deciding check
+
+All proof paths below are under reports/physical_bridge_2026_09_05/.
+These are author claims, not a self-verification.
+
+| priority | source/result | one deciding independent calculation | borrowed premises |
+|---|---|---|---|
+| 1 | fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md, equation (3) | Prove the bounded complete-cusp inverse on the exact weighted spaces, then check the stated nonlinear moment map. No finite producer presently certifies this analytic step. | Supplied E8 action, coherent background, cusp metric/transition, Q kernel and source norms. |
+| 2 | registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN.md and MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES.md | Re-derive the closed-domain field/slot map and its global transitions with all complementary modes retained. | Carrier, spin/core/Wilson and actual physical metrics. |
+| 3 | cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL.md and SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md | Solve the actual global cyclic Dolbeault reduction and its induced quadratic mass map, including Green/norm coefficient. | The preceding domain map, source cubic and supplied cyclic family. |
+| 4 | four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md and FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md | Re-derive the quotient metric/primitive connection period and distinguish effective circle, pure-Q and compensating global lifts. | The four actual modes and physical Grams; physical carrier/end map remains unearned. |
+| 5 | neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md | Compute the on-shell response and its core momentum matching from the same action and complete domain. | Supplied action, source and unbroken coefficient. |
+| 6 | The earlier F12 and mixed-product audit findings | Main's B1957 primary-source running now supplies the deciding check for these specific findings. | Those running conventions and their borrowed field content; not a proof of the physical model. |
+
+This is the first ranked intake, not the full result list. The C7
+one-page disclosure still states its remaining premises and scales.
+
+### 3. Misstatements and scope in main's record
+
+- MAIN-01 in the new source report corrects B1953's partial-trace
+  sentence. Its covariance and hypercharge trace are not withdrawn.
+- Main's former summary-level completion is withdrawn in B1957; this
+  lane does not use those receipt rows as verification of its proof files.
+- M6's omitted-charge correction is applied. M6's statement that F12
+  had not been re-derived is now superseded by B1957's primary-source check.
+- No stronger physical or foundational payment is requested for P-C3--C7
+  merely because finite checks of some algebra were supplied elsewhere.
+  The complete review of earlier harvest rows for misstatements is pending.
 
 M6 was read at f2f019621. Its exact recomputations are received checks,
 not a bank of P-C3 to C7. The omitted coloured-root charges +/-4/3 are
