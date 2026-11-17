@@ -1,0 +1,104 @@
+{
+  "source_commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "checks": [
+    {
+      "finding": "XA-01",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md",
+      "line": 20,
+      "exact_excerpt": "Certifies a grid-convergent Kantorovich / Banach contraction ball",
+      "matches": true
+    },
+    {
+      "finding": "XA-01",
+      "path": "relays/x_apex_1_verify/verify_x_apex_1.py",
+      "line": 525,
+      "exact_excerpt": "l0_eigs = lap_eigs + (mq_val * mq_val) * om2_avg",
+      "matches": true
+    },
+    {
+      "finding": "XA-02",
+      "path": "relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md",
+      "line": 27,
+      "exact_excerpt": "omitting the harmonic projection drops",
+      "matches": true
+    },
+    {
+      "finding": "XA-02",
+      "path": "relays/x_apex_1_verify/verify_x_apex_1.py",
+      "line": 511,
+      "exact_excerpt": "mq_val = 1",
+      "matches": true
+    },
+    {
+      "finding": "XA-03",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md",
+      "line": 18,
+      "exact_excerpt": "non-unwinding positive relaxed wall tension",
+      "matches": true
+    },
+    {
+      "finding": "XA-03",
+      "path": "relays/x_apex_2_verify/verify_x_apex_2.py",
+      "line": 133,
+      "exact_excerpt": "w_int.reshape(n_int - 1, 3)",
+      "matches": true
+    },
+    {
+      "finding": "XA-04",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md",
+      "line": 19,
+      "exact_excerpt": "unconditionally eliminating `PR-10` `Branch A`",
+      "matches": true
+    },
+    {
+      "finding": "XA-04",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "line": 321,
+      "exact_excerpt": "sin(m * pi * y / L_y)",
+      "matches": true
+    },
+    {
+      "finding": "XA-05",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "line": 423,
+      "exact_excerpt": "m_broken_gauge = m_spin_cusp * mp.mpf(2)",
+      "matches": true
+    },
+    {
+      "finding": "XA-05",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "line": 432,
+      "exact_excerpt": "mp.mpf(315) / mp.mpf(2)",
+      "matches": true
+    },
+    {
+      "finding": "XA-06",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md",
+      "line": 18,
+      "exact_excerpt": "unique global minimum",
+      "matches": true
+    },
+    {
+      "finding": "XA-06",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "line": 214,
+      "exact_excerpt": "n_grid = 48",
+      "matches": true
+    },
+    {
+      "finding": "XA-07",
+      "path": "relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md",
+      "line": 14,
+      "exact_excerpt": "Weyl involution",
+      "matches": true
+    },
+    {
+      "finding": "XA-07",
+      "path": "relays/x_apex_1_verify/verify_x_apex_1.py",
+      "line": 206,
+      "exact_excerpt": "perm = [4, 3, 5, 0, 1, 2, 6, 7]",
+      "matches": true
+    }
+  ],
+  "method": "Source excerpt/line custody only; no scientific execution."
+}

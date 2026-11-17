@@ -1,0 +1,340 @@
+{
+  "date_utc": "2026-11-17T16:14:41.739730+00:00",
+  "main_head": "ff8e1ca57eb3e7d860b0e58a5ae5c409a55b8eee",
+  "target_head": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "scope_commit": "edd86ea04d717198288ad68c18e241bc29c69c48",
+  "status": "interim source reading; stage four script and output pending",
+  "coverage": [
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md",
+      "lines": 34,
+      "read_ranges": [
+        [
+          1,
+          34
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md",
+      "lines": 33,
+      "read_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md",
+      "lines": 33,
+      "read_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md",
+      "lines": 37,
+      "read_ranges": [
+        [
+          1,
+          37
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md",
+      "lines": 29,
+      "read_ranges": [
+        [
+          1,
+          29
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md",
+      "lines": 29,
+      "read_ranges": [
+        [
+          1,
+          29
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-APEX-3_hosotani-g422-center-lock-m004-cusp-spinor-confinement-and-scale-hierarchy.md",
+      "lines": 21,
+      "read_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md",
+      "lines": 20,
+      "read_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_1_verify/OUTPUT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_1_verify/SCRIPT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_1_verify/verify_x_apex_1.py",
+      "lines": 637,
+      "read_ranges": [
+        [
+          1,
+          637
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_1_verify/verify_x_apex_1_out.json",
+      "lines": 91,
+      "read_ranges": [
+        [
+          1,
+          91
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_2_verify/OUTPUT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_2_verify/SCRIPT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_2_verify/verify_x_apex_2.py",
+      "lines": 591,
+      "read_ranges": [
+        [
+          1,
+          591
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_2_verify/verify_x_apex_2_out.json",
+      "lines": 101,
+      "read_ranges": [
+        [
+          1,
+          101
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_3_verify/OUTPUT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_3_verify/SCRIPT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "lines": 621,
+      "read_ranges": [
+        [
+          1,
+          621
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_3_verify/verify_x_apex_3_out.json",
+      "lines": 127,
+      "read_ranges": [
+        [
+          1,
+          127
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_4_verify/OUTPUT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_4_verify/SCRIPT_SHA256.txt",
+      "lines": 1,
+      "read_ranges": [
+        [
+          1,
+          1
+        ]
+      ],
+      "kind": "byte/hash inspection",
+      "complete": true
+    },
+    {
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "lines": 4472,
+      "read_ranges": [
+        [
+          1,
+          255
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": false
+    },
+    {
+      "path": "relays/x_apex_4_verify/verify_x_apex_4_out.json",
+      "lines": 1061,
+      "read_ranges": [
+        [
+          1,
+          175
+        ]
+      ],
+      "kind": "personally read source/text",
+      "complete": false
+    }
+  ],
+  "scientific_runs": 0,
+  "empirical_comparisons": 0,
+  "notes": [
+    "All result notes and cards read in full.",
+    "Scripts and JSON outputs of stages one through three read in full.",
+    "Stage four script and output not yet read in full.",
+    "Custody does not establish that scripts produced outputs or certify their mathematics.",
+    "Overlap with prior physical constructions is disclosed; no independent acceptance of own underlying proofs."
+  ],
+  "supplied_hash_checks": [
+    {
+      "manifest": "relays/x_apex_1_verify/SCRIPT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_1_verify/OUTPUT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_2_verify/SCRIPT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_2_verify/OUTPUT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_3_verify/SCRIPT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_3_verify/OUTPUT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_4_verify/SCRIPT_SHA256.txt",
+      "matches": true
+    },
+    {
+      "manifest": "relays/x_apex_4_verify/OUTPUT_SHA256.txt",
+      "matches": true
+    }
+  ]
+}

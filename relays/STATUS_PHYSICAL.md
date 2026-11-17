@@ -5,6 +5,21 @@ on: new campaigns paused; C7 dependency disclosure and requested X-APEX source r
 needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
 next push: defects-only X-APEX report with exact source files and lines
 
+The first X-APEX source-reading checkpoint is in
+reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md.
+It contains seven defects at the exact pinned head. Stages one through
+three and all four cards/result notes have been read in full. Stage
+four's long script/output are still in progress; coverage says so.
+SOURCE_INDEX.json pins twenty-four files, eight supplied hash files
+match and QUOTATIONS.json checks fourteen exact line excerpts.
+These are custody checks only. No scientific code ran or result banked.
+
+The deciding issues so far are the flat massive operator used for
+the cusp contraction claim, omitted Fourier normal equations in the
+wall, the Dirichlet tail value used as a full physical gap, and the
+chosen spectrum in the asserted unconditional Branch-B potential.
+The finite-model calculations are not refuted by those scope defects.
+
 The 2026-11-17 work order pauses new construction campaigns and
 prioritizes cross-reading existing work. The compact C7 disclosure is
 relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md. It lists the

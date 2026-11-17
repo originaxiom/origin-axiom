@@ -1,0 +1,197 @@
+{
+  "source_commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+  "source_files": [
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md",
+      "bytes": 5106,
+      "lines": 34,
+      "sha256": "63f32f76932848f207d9722340d6c81a8303bb9f56c458ab4c32fab96b9c1f67",
+      "git_blob": "4b2bb0bc7c32a619a7e81b7560f141e481ac1308"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md",
+      "bytes": 4964,
+      "lines": 33,
+      "sha256": "e18c1e0e5603ca061f988482f02e9988ca51058c240a4cfcabf8a71572b03f78",
+      "git_blob": "d129d2dee52db18bc314609b368d0818f9d5ecb9"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md",
+      "bytes": 5448,
+      "lines": 33,
+      "sha256": "b0dff8c8574c46a22806e9642c4081d45e44bde315efa551c7ff03b9b976dd4d",
+      "git_blob": "b3bbc8dcd542e92c0a330ffac924cef9016ab27f"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md",
+      "bytes": 5787,
+      "lines": 37,
+      "sha256": "d3222a6f1d23d09419fcb9cfb360e995eff57998899e28dd2491b663f9a3a1d8",
+      "git_blob": "59ef509750058d9cf6c1ebfc4a0365c35aa652e7"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md",
+      "bytes": 5991,
+      "lines": 29,
+      "sha256": "d03d4d97af00afd90a50428b90ef3bf97163d9dc2a1e19eb89c9170642c179ff",
+      "git_blob": "273f3f3ad5d55b548c97cbc26fa3639c7c33e654"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md",
+      "bytes": 4796,
+      "lines": 29,
+      "sha256": "e7c4ca201fbdbca0f888c85ca524b19b4a71307dc85fd056ec3b42a33b1ca379",
+      "git_blob": "2e1414576c9f2cf11f6599ea5da67f0ebac34708"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/cards/AGY-EXP_X-APEX-3_hosotani-g422-center-lock-m004-cusp-spinor-confinement-and-scale-hierarchy.md",
+      "bytes": 4205,
+      "lines": 21,
+      "sha256": "38dbcbfe5d7185c40d7849f216275aa0dba62585f813a2b8524495433f5d6e39",
+      "git_blob": "2670761d7acacab785fff21e6250af3dc80f460e"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md",
+      "bytes": 3182,
+      "lines": 20,
+      "sha256": "9b3aa2e20685ae48907308cf8f549c84d904132e05266391838722aa47232207",
+      "git_blob": "39a70ba55837d1743dcd19d92c98f5d5bb3b667c"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_1_verify/OUTPUT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "f5f438d8f5f358cd96a527954c9c700d1a9dc0402db12fed0d225b6c00e1d21a",
+      "git_blob": "1e332c088eaaa579fe39bbc5117d39d0e6a71d69"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_1_verify/SCRIPT_SHA256.txt",
+      "bytes": 85,
+      "lines": 1,
+      "sha256": "246cba63022ca2ec2b0e6434205d4cd09b2eefd91f7e9d9e0e00922ff398fe4f",
+      "git_blob": "49a6ab7609bac6306814c8bb0b865c75be1bf510"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_1_verify/verify_x_apex_1.py",
+      "bytes": 33030,
+      "lines": 637,
+      "sha256": "297906fc46c7f03ae9cc8237789b4ed3397e105e2a24a3e238d201c8ea85ecf4",
+      "git_blob": "f0c81bdd6f5922f3fe3ef1e3d486f1c0c8a3f641"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_1_verify/verify_x_apex_1_out.json",
+      "bytes": 2782,
+      "lines": 91,
+      "sha256": "165122790435521500ad86492d48a1ccdf49ca0e5fa01701850897c5aec9ea68",
+      "git_blob": "0653839660b336b12a45577b98028d311cb4fbf9"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_2_verify/OUTPUT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "5d96d886514b7d50b97c7177c02394c2f66e95d06c9691ca427ad178fc98b8c1",
+      "git_blob": "527dd545aff63dec74081ba7683204578fe24e91"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_2_verify/SCRIPT_SHA256.txt",
+      "bytes": 85,
+      "lines": 1,
+      "sha256": "e92b4a98c94e45a4ea817cc705a6922b2e5c8e27c79b511cda4169774e8f5585",
+      "git_blob": "e84b4a908d0ef573034cd7d9dcf1b2b3a70a8e9e"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_2_verify/verify_x_apex_2.py",
+      "bytes": 24796,
+      "lines": 591,
+      "sha256": "3a13e5c9265b48366bde40bea5c18049b79a2bdace6db33e20eeab3b529930af",
+      "git_blob": "406036c683db00e4bb596cf93819ae6f923dbf8b"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_2_verify/verify_x_apex_2_out.json",
+      "bytes": 2884,
+      "lines": 101,
+      "sha256": "232b4576be4d5450bf0d1a9f496b45d5915adfa2b8dbaf66714d439efdbb2d39",
+      "git_blob": "9f4d4f0384fd4e8c560b16e61066d9c91e8d301b"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_3_verify/OUTPUT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "0f844ffe6f7195e0399b157273e05478417abbb03a7ad3408d34dddba98abc40",
+      "git_blob": "19377294f7d32ebb45f558c4c5317684ab1dd593"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_3_verify/SCRIPT_SHA256.txt",
+      "bytes": 85,
+      "lines": 1,
+      "sha256": "12323ab0b30d434eab63b88ed0db366f4c296646d95af40ee3bbe21256dc9401",
+      "git_blob": "5129ff5d6b96c05f2b2c048d643439127c27868a"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3.py",
+      "bytes": 29548,
+      "lines": 621,
+      "sha256": "2cebb6fca920eb206ed9c756e550fbe1feba842ec417eb2c2887b1bb28aaaa9d",
+      "git_blob": "b0b99adbab766fddaa2d7ad42e60b868b9e951d1"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_3_verify/verify_x_apex_3_out.json",
+      "bytes": 4510,
+      "lines": 127,
+      "sha256": "cd4e9bebd418b056476bf864af6e06f36057425c7ec6426a62a41dce4709cc3d",
+      "git_blob": "6089396ec3907b92a55ab5ad655e476af3965b5a"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_4_verify/OUTPUT_SHA256.txt",
+      "bytes": 91,
+      "lines": 1,
+      "sha256": "272ce8a553c43a2cfc80430b5eddccaa7b6e51bdc27548ee121e3b0e2014c128",
+      "git_blob": "ae0aaa2953bb821cc15ff1f9ea6fe8b777f2fc53"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_4_verify/SCRIPT_SHA256.txt",
+      "bytes": 85,
+      "lines": 1,
+      "sha256": "ce4ad5feed99b4e36bf86ca3c4b90050fc32dd43b047967ea15cfe6b1d0d1fb5",
+      "git_blob": "a62bf369542c30e16266850546d8fe40be4112a3"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4.py",
+      "bytes": 215572,
+      "lines": 4472,
+      "sha256": "bee65e915a69559d51a8da41edff631c3889d785578be9f50c8b92de76d763bf",
+      "git_blob": "c7881e8cebfe09c689080d7237f5950d25164bef"
+    },
+    {
+      "commit": "5de6493f5f1a0300dca64c0fb90afd26925ef1c9",
+      "path": "relays/x_apex_4_verify/verify_x_apex_4_out.json",
+      "bytes": 38352,
+      "lines": 1061,
+      "sha256": "038431ea2870d3ddd6aef6c52637f9be234b308bfa4d0acf90f3b59ce84d07b6",
+      "git_blob": "47257dbf71f3ee0e8d84115b287842340bcec9df"
+    }
+  ]
+}
