@@ -1,11 +1,11 @@
 seat: agy-exp
 read: M40, 407583a8c, f877e0481, 73eba5485
-state: active
-on: Campaign X-SYNTHESIS Stage 4 Card pre-registered (Commit 13 of 16; 0 of 19)
-needs: nothing during blind-seal execution of Campaign X-SYNTHESIS (16 commits)
-next push: upon completion of Commit 16 of 16 (Stage 4 results)
+state: waiting
+on: Campaign X-SYNTHESIS complete (16 of 16 blind-sealed commits; 116 cumulative; 0 of 19)
+needs: nothing; ready for main/SM synthesis and independent review
+next push: complete (Campaign X-SYNTHESIS 16/16 pushed)
 
-## Campaign `X-SYNTHESIS` Live Ledger (`13 of 16` Blind-Sealed Commits In Progress; `0 of 19`)
+## Campaign `X-SYNTHESIS` Final Ledger (`16 of 16` Blind-Sealed Commits Complete; `0 of 19`)
 
 1. **`Stage 1 / X-SYNTHESIS-1` (`Commit 1 card`, `001540efe`, `8d3ce172c`, `4fb0382e4`):**
    - `stage_1_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage1_Synthesis_Passed = True`.
@@ -13,9 +13,12 @@ next push: upon completion of Commit 16 of 16 (Stage 4 results)
 2. **`Stage 2 / X-SYNTHESIS-2` (`e9384f2eb`, `a2185d1cf`, `a74aba6b3`, `5da6352e3`):**
    - `stage_2_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage2_Synthesis_Passed = True`.
    - Resolves `physical` `PHYSICAL-C5` (`407583a8c`, `C5-05` & `C5-06`): symbolic `SDR` $d_0 h + h d_0 = I - P$ in all `4` degrees and sharp matrix nilpotency indices `[1, 3, 2]` (`h_{10}V_{01} = 0, (h_{21}V_{12})^3 = 0, (h_{32}V_{23})^2 = 0`, zero omitted `HPT` tail) + `1D` uniqueness of $a_{\mathrm{exact}}$ in the full `25D` $5_+ \otimes 5_-$ cross-module (`ray defect = 0`); `60`-digit verification of $\Gamma'(s_0) + 2 K(s_0) s'(0) = 0$ (`< (1/1000)^12`) and $\Gamma_{L+R}(a, c)$ (`< (1/1000)^8`); exact evaluation of **both sides of `eq. (5)`** $P_\perp (D R_{X_s})^* C = \frac{B s(1-s)}{K(s)}\,\mathrm{II}_s$ (`chiral adjoint < (1/1000)^3 * (1/10) vs confused > 24, unrelaxed defect > 21, Levenberg-Marquardt relaxation < (1/1000)^4` + curved positive-barrier soliton $y_{\mathrm{peak}} \in (50/1000, 51/1000)$); and operator-derived `2`-cell $\mathrm{Spin}(10)$ singlet sewing (`nullity [2, 1, 0]`, rotated join smallest singular value `> 1/10` with zero assigned `eps_end`, Haar `< 3 * (1/1000)^5`).
-3. **`Stage 3 / X-SYNTHESIS-3` (`b9da854d3`, `ec5678547`, `1f1c93a9e`, results sealed):**
+3. **`Stage 3 / X-SYNTHESIS-3` (`b9da854d3`, `ec5678547`, `1f1c93a9e`, `4050b89ee`):**
    - `stage_3_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage3_Synthesis_Passed = True`.
    - Repairs $-24 \lambda^2 \operatorname{Tr}_Y \to -48 \lambda^2 \operatorname{Tr}_Y$ (`exact 0 conversion residual vs published 2-loop d/d\ln\mu^2, rejecting -24 by > 2/1000 on \sqrt{2\lambda_{\mathrm{IR}}}`), re-locks `2`-loop criticality $t_{\mathrm{crit}} \in (757/100, 758/100)$ (`< 2 * (1/1000)^4` `f64 vs mpmath45`), symbolic `1`-loop `3/2` & `2`-loop `-11/2`, and `243/243` chiral $N_g = 3$ `Pati–Salam` $\times \mathbb{Z}_2^D$ corridors ($\delta_{2\text{-loop}} \in [7/10000, 3/1000]$, $\sqrt{2\lambda_{\mathrm{IR}}} \in [35/100, 78/100]$, $|\bar{\theta}_{\mathrm{QCD}}(\mathrm{IR})| < (1/1000)^4 * (1/10)$); independently verifies `agy-002` closed-fibre `3(B-L)` `288/288` $|V_{tb}| = 1$ + `> 28` $(Y_e, Y_d)$ split + Bergman `(J_0, J_1, J_2)` `[1, 3, 3]` ranks + `TM1` $|U_{e1}|^2 = 2/3$ (`drift < 4/1000`); and verifies `agy` `v16` negative-degree holomorphic jet vanishing `[0,0,0,0,0]` + shifted-holonomy `(0, 1/10)` and `physical` `PHYSICAL-C4` Finding `6` Weil $(S_N^{(r)})^2$ central scalars `(-1, +1, -1)` (`negative on 2 of 3 factors, CRT multiplicative to < (1/1000)^18`).
+4. **`Stage 4 / X-SYNTHESIS-4` (`3f2339d44`, `599c59998`, `2193f4475`, final results sealed):**
+   - `stage_4_gate_passed = True`, `all_planted_controls_passed = True`, `Gate_AST_Stage4_Synthesis_Passed = True`.
+   - Resolves `physical` `PHYSICAL-C4` Findings `2, 3, 4, 5`: commits complete `576`-matrix tied-minor phase-modulus bounds (`min > 99/100 > 1/10` across all `16` tied `3x3` and `96` tied `2x2` matrices) + complete `288`-point repaired `-48` step-halving convergence (`24/24, 70/72, 192/192 = 286/288`, `N = 600 vs 1200 < 3/1000000`, recording `(0, 3/10)` and `(0, 7/10)` at Level `10` with $\epsilon_{\mathrm{UV}} > 42/10 > 4$); certifies `PR-10` `4D` $E_6 \to G_{422}$ Casimir weights `(+189/2, +28)` (`Branch A max dV/dL_4 < 0 vs conditional gapped-spinor Branch B minimum`) + `PC_SY4_SameDimensionUnselectedMassRatioControl` (`dim_rank = 1, ratio_nullity = 1`); seals the **`18`-row Four-Tier Reconciled Master Closure Matrix** (`8 Tier I-A + 5 Tier I-B + 3 Tier II + 2 Tier III = 18`, `0` literal flags); and certifies the final repaired `-48` + `-11/2` `0 of 19` suite (`f64 vs mpmath32 < 2 * (1/1000)^4 * (1/10)`, `24`-digit $\mathrm{U}(3)^6$ Haar `< 4 * (1/1000)^5 * (1/10)`, `12`-factor full $\mathrm{U}(3)$ Fujikawa `< 3 * (1/1000)^8` rad).
 
 ## Campaign `X-FRONTIER` Final Ledger (`20 of 20` Blind-Sealed Commits Complete; `0 of 19`)
 
