@@ -1,0 +1,102 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage2_Synthesis_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sympy",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-SYNTHESIS-2",
+  "empirical_firewall": "0 of 19",
+  "part_2a_nilpotence_and_25d_uniqueness": {
+    "E1_CrossFormNilpotence_and_25DUniqueness_Gate_passed": true,
+    "centralizer_dim_in_25d_origin_and_generic": [
+      1,
+      1
+    ],
+    "cross_module_5x5_dimension": 25,
+    "exact_nilpotency_indices_deg1_deg2_deg3": [
+      1,
+      3,
+      2
+    ],
+    "hv_01_square_zero": true,
+    "hv_12_fourth_power_zero": true,
+    "hv_23_fourth_power_zero": true,
+    "sdr_verified_all_4_total_degrees": true,
+    "unique_1d_ray_overlap_err": 0.0
+  },
+  "part_2b_end_response_and_parent_normal_test": {
+    "E2_SameActionEndResponse_and_ParentNormalTest_Gate_passed": true,
+    "PC_SY2_ConfusedMetricBreaksAdjoint_err": 24.867596860581706,
+    "PC_SY2_TwoFieldStraightPathNormalFailure_abs": 0.3,
+    "affine_quartic_s_1_minus_s_err": 2.220446049250313e-16,
+    "chiral_metric_adjoint_identity_err": 7.51612105887034e-11,
+    "disconnected_curved_soliton_action_before_vs_after": [
+      0.5280203010011881,
+      0.5029058338910746
+    ],
+    "disconnected_curved_soliton_grad_before_vs_after": [
+      0.24207592013523127,
+      1.3285753530999423e-12
+    ],
+    "disconnected_curved_soliton_transverse_peak": 0.050636827233317874,
+    "endpoints_residual_norm": 0.0,
+    "gauge_orthogonality_err": 5.617333549722722e-15,
+    "gauss_reduced_K_vs_raw_norm_sq_at_2_over_5": [
+      7.223906168804802,
+      9.918217739444676
+    ],
+    "halfline_dtn_momentum_err": 9.182239633995189e-37,
+    "second_fundamental_form_II_norm_at_2_over_5": 2.254070761987175,
+    "transverse_relaxation_action_before_vs_after": [
+      6.919350166516271,
+      0.9658666385245359
+    ],
+    "transverse_relaxation_euler_lagrange_grad_before_vs_after": [
+      7.645286691501166,
+      1.171325092551847e-13
+    ],
+    "two_field_relaxed_to_straight_tension_ratio": 0.9205746178983234,
+    "two_interval_composition_law_err": 5.088274866082688e-28,
+    "two_interval_momentum_balance_err": 3.6924754171198396e-26,
+    "unrelaxed_parent_normal_eq5_defect_norm": 21.395609019742235
+  },
+  "part_2c_two_state_sewing_singlet_test": {
+    "E3_TwoStateOperatorSewing_SingletTest_Gate_passed": true,
+    "nullity_uncoupled_vs_same_axis_vs_rotated_join": [
+      2,
+      1,
+      0
+    ],
+    "smallest_two_sv_rotated_two_state_join": [
+      0.11989962973021974,
+      0.6871871711568409
+    ],
+    "smallest_two_sv_same_axis_control": [
+      0.0,
+      0.7071067811865475
+    ],
+    "smallest_two_sv_uncoupled": [
+      0.0,
+      8.663404281627047e-17
+    ],
+    "spin10_rotation_unitarity_err": 2.220446049250313e-15,
+    "unitary_basis_scrambling_max_sv_err": 2.6645352591003757e-15
+  },
+  "stage_2_gate_passed": true
+}
