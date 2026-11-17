@@ -1,0 +1,18 @@
+{
+ "id": "agy002v-m34-10",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "Part 3 in main's variant (checks/agy002_m34_part3.py: the same 1,325 words and weights, with main's 24-point average on B1932's grid in place of the marked point's own read-out, against B1940's corrected area values). The three stable weights agree with the note to about 0.02: length-weighted 0.521 and 0.507 (the note 0.525, 0.515), uniform 0.500 and 0.492 (0.509, 0.501), the one-loop weight 0.441 and 0.442 (0.460, 0.459). The eta weights make the gap larger and give negative values among the fourteen; their figures differ from the note's, as an unstable ratio's would",
+ "note": "The conclusion holds on main: no weight tried closes the gap of about 0.52 between the move count and the area. Main's own two measures in B1940's file differ by 0.516 and 0.503.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:19",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:107",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:111",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:112",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:113",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:114",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:115",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:116",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:118"
+ ]
+}

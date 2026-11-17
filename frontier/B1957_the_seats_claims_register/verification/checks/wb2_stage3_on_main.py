@@ -17,8 +17,9 @@ sys.path.insert(0, str(ROOT / "frontier/B1945_the_frames_cusp_exponents/verifica
 FM = DL.FM; mp = DL.mp; B = FM.B; te = FM.te; H = FM.H; f2m = FM.f2m
 
 
-def coupling(tx, ty, a, b, ql, qr, residue=True):
-    """frame C's 3 x 3 coupling for both Higgs readings at charges (ql, qr); with residue=True the norm weights are 1"""
+def coupling(tx, ty, a, b, ql, qr, residue=True, as_mp=False):
+    """frame C's 3 x 3 coupling for both Higgs readings at charges (ql, qr); with residue=True the norm weights are 1;
+    with as_mp=True the matrices are returned in extended precision (for use high in the cusp)"""
     mp.mp.dps = int(30 + 2 * ty); I, QI, QJ, QK, EPS, U, ED, BLOCKS = FM.setup()
     t = mp.mpc(mp.mpf(tx), mp.mpf(ty)); y = mp.im(t); xr = ((float(tx) + 0.5) % 1.0) - 0.5; L = mp.mpf(FM.CR.canon(complex(xr, float(ty)))["L_2"])
     eta = mp.exp(I * mp.pi * t / 12) * mp.qp(mp.exp(2 * I * mp.pi * t)); t1p = 2 * mp.pi * eta ** 3; th1 = lambda z: B.th_mp(1, z, t)
@@ -37,7 +38,7 @@ def coupling(tx, ty, a, b, ql, qr, residue=True):
     Mw = sum((u[s] * ED[s] for s in FM.UNITS), mp.zeros(2, 2)); out = {}
     for rn, Sr in RD.items():
         Y = mp.matrix([[sum(((Ca.T * EPS * Sr * Cb)[m, n] * Mw[m, n] for m in range(2) for n in range(2)), mp.mpc(0)) for Cb in BLOCKS] for Ca in BLOCKS])
-        out[rn] = np.array([[complex(Y[i, j]) for j in range(3)] for i in range(3)])
+        out[rn] = Y if as_mp else np.array([[complex(Y[i, j]) for j in range(3)] for i in range(3)])
     return out
 
 

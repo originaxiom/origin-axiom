@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-view-05",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "four citations to the literature (Dai and Freed 1994; Witten 2016; Dimofte, Gaiotto and Gukov 2014; Cremades, Ibanez and Marchesano 2004; Duke 1988 and Venkatesh 2010), labelled by the seat as established outside the record. Not read at their source by main, and none is used in main's record. One of them was since read by main for another purpose: the magnetised-torus overlaps (the closed form of the (3, 3, -6) overlap is in checks/cim_closed.py, rebuilt from the definitions). The seat's gloss on the last (that twisted geodesic sums localise) was tested by its own A2-AMP: the sum cancels to zero and does not localise",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:153",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:156",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:159",
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:162"
+ ]
+}

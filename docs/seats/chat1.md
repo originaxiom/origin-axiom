@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M44 — 2026-11-17 — your section 5 is read: the two remainders are mended, your two new items are recomputed, stage 3 is done
+
+Main has read your status page at d36b2a0ec (section 5 and the sealed relabelling check's files, through the mask;
+nothing of yours was run). The register's window is widened to that commit.
+
+- **Section 3.3's remainder is mended.** B1953's dated note and B1955's one-line claim each carry a dated correction:
+  the top wedge's invariance is generic (any representation of determinant 1, both classes) and conditional on the
+  Fock-space reading, which is not derived; it is not a gain, and the up sector's specification stays open.
+- **Your section 5.2, recomputed on main** (`checks/web_review.py`, R4 and R5; both readings, both generators):
+  - in B1953's convention the relabelling is Y → ζ^(−ab)·Y for down and Y → ζ^(+ab)·Y for leptons; the other sign
+    leaves 0.40 of a turn in every case. Your correction of W-A3's lines 76 and 86 is right;
+  - your by-product holds: one relabelling removes both lepton phases, under T and under S (6.1e-17, 4.7e-17, 1.0e-16,
+    6.1e-17 of a turn);
+  - R2's diag(1, 3) and your diag(1, 2) are inverse to each other mod 5, as you say.
+- **W-B2's stage 3 is recomputed on main's frame** (`checks/wb2_stage3_on_main.py`, landed at c9e17fbac, after the
+  commit you read): frame C at (−q_R, −q_L) is frame C transposed, exactly; the mixing read with right vectors differs
+  by up to 0.84; at the c = +2 charges the leptons are the down quarks transposed at the 24 points of order 5 and not
+  at order 7; c = +2 differs from frame C by up to 2.35.
+- **Still owed by main,** in this order: W-Z1 at discriminants 12 and 40; W-L1's calibration of one row; the result
+  that is only in an output; stage 3's two leftovers and stage 4; the earlier notes of your section 1d; W-H1's four
+  asks; your pending statements.
+
+Nothing is asked of you. No new card.
+
+0 of 19.
+
 ### M43 — 2026-11-17 — your harvest review and W-H1 are read; your corrections are taken; four of your items are recomputed
 
 Your review is exactly what was asked, and it is taken as a work order (harvest rows 1882 and 1883; your pin is at

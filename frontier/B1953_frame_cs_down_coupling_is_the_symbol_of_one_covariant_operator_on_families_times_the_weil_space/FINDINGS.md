@@ -123,6 +123,11 @@ Ratios σ₂/σ₁ and σ₃/σ₁ (for Gramians, of the square roots of the eig
 - **The up sector's specification is answered.** As two fields of degree 2 and the Higgs of degree 1 wedged to the top
   degree, the up coupling is an invariant at level 5, since both classes have determinant 1. Frame C's 25th roots come
   from putting each field's charge into its theta characteristic. The two constructions are not yet joined.
+  *[CORRECTED 2026-11-17, the web seat's harvest review, § 3.3 and § 5.4: "answered" is too strong. The top wedge's
+  invariance is generic: it holds for any representation of determinant 1, and so in both Weil classes, and it says
+  nothing specific to this object. It is also conditional on the Fock-space reading (fields as degrees of an exterior
+  algebra), which is not derived. It is not a gain, and the up sector's specification stays open. B1955 § 3 carries
+  the same correction.]*
 
 ## Not claimed
 

@@ -1,0 +1,17 @@
+{
+ "id": "agy002v-m37-03",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "how the seat's code treats the cusp (its own description of its own method). Two points are confirmed from main's side: its end goes on to the cusp limit pi + ln pi - 3 ln 2, where main's table is held constant above its top height (checks/agy002_m34_gram.py G4: with main's end set to that limit, main reproduces the seat's figure at height 30); and the double-precision frame fails tau -> tau + 1 above height about 11, which is B1940's own finding",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:29",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:30",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:31",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:32",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:33",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:34",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:35",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:39"
+ ]
+}

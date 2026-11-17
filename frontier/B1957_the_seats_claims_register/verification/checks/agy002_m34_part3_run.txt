@@ -1,0 +1,8 @@
+1325 words of length 14 keep the mark; main's grid average along each word's geodesic; against B1940's corrected area values
+  length-weighted move count           W-: max |d ln| 0.5210, rms 0.4218; W+: max 0.5072, rms 0.4286; the weight's mean +1.00000; negative values among the fourteen: 0   (the seat, on the mark's own read-out: 0.5247, 0.4203, 0.5146, 0.4243)
+  uniform over words                   W-: max |d ln| 0.4999, rms 0.4082; W+: max 0.4915, rms 0.4151; the weight's mean +1.00000; negative values among the fourteen: 0   (the seat, on the mark's own read-out: 0.5091, 0.4063, 0.5011, 0.4103)
+  one-loop weight |tr - 2|^(-1/2)      W-: max |d ln| 0.4405, rms 0.3662; W+: max 0.4422, rms 0.3728; the weight's mean +0.06480; negative values among the fourteen: 0   (the seat, on the mark's own read-out: 0.4604, 0.3634, 0.4587, 0.3671)
+  cos(pi eta)                          W-: max |d ln| 1.3038, rms 0.8815; W+: max 2.5121, rms 1.1990; the weight's mean -0.00829; negative values among the fourteen: 0   (the seat, on the mark's own read-out: 1.1090, 0.6176, 1.2761, 0.8126)
+  one-loop weight times cos(pi eta/2)  W-: max |d ln| 2.8974, rms 1.4568; W+: max 5.5847, rms 2.5111; the weight's mean -0.00069; negative values among the fourteen: 5   (the seat, on the mark's own read-out: 1.8718, 1.1136, 4.2732, 2.0398)
+  cos(pi eta/2)                        W-: max |d ln| 2.2210, rms 1.6834; W+: max 2.2253, rms 1.7447; the weight's mean +0.00087; negative values among the fourteen: 4   (the seat, on the mark's own read-out: 3.5094, 2.6767, 3.2991, 2.3927)
+main's own two measures in B1940's file (forty-letter words against the area): max |d ln| W- 0.5161, W+ 0.5030

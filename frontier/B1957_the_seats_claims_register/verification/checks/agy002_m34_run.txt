@@ -1,0 +1,18 @@
+P1.1: the step constant at two base points differs by at most 2.99e-40; 15 d eta is an integer and Re c = 0 to 2.11e-39; the steps 15 d eta take the values [-19, -13, -7, -5, -1, 1, 5, 7, 13, 19]
+P1.2: alpha = 1/2: spectral radius 0.707106781186548; rho^2 - 1/2 = 1.38e-40; eigenvalues on that circle: 8, of which real: 0
+P1.2: alpha = 1: spectral radius 0.728399602069731; rho^2 - 1/2 = 0.0306; eigenvalues on that circle: 2, of which real: 0
+P1.3: n =  6:      5 words keep the mark; variance 0.4580; mean cos(pi eta/2) +0.2618; mean cos(pi eta) -0.2854; against the note's row: same
+P1.3: n =  8:     21 words keep the mark; variance 0.7348; mean cos(pi eta/2) +0.2017; mean cos(pi eta) +0.2017; against the note's row: DIFFERS by 0.1292
+P1.3: n = 10:     95 words keep the mark; variance 0.9422; mean cos(pi eta/2) +0.1626; mean cos(pi eta) +0.0418; against the note's row: DIFFERS by 10.0000
+P1.3: n = 12:    345 words keep the mark; variance 1.3413; mean cos(pi eta/2) -0.0049; mean cos(pi eta) -0.0035; against the note's row: DIFFERS by 0.0752
+P1.3: n = 14:   1325 words keep the mark; variance 1.6684; mean cos(pi eta/2) +0.0009; mean cos(pi eta) -0.0083; against the note's row: same
+P1.3: n = 16:   5453 words keep the mark; variance 1.9319; mean cos(pi eta/2) +0.0094; mean cos(pi eta) +0.0019; against the note's row: same
+P1.3: n = 17:  10976 words keep the mark; variance 2.0774; mean cos(pi eta/2) -0.0027; mean cos(pi eta) -0.0048; against the note's row: same
+P1.3: n = 18:  21865 words keep the mark; variance 2.2346; mean cos(pi eta/2) +0.0046; mean cos(pi eta) -0.0017; against the note's row: same
+P1.3: largest difference from the note's eight rows, at the four decimals it prints: 1.0e+01
+P1.4: the automaton against main's own winding along the geodesic (B1929's code), all 344 words of lengths 4 to 11: largest difference 2.4e-14; Re of the winding at most 4.1e-14
+P1.5: eta(word, (2,4)) + eta(letters exchanged, (4,2)), lengths 4 to 14: largest |15 sum| = 0 (an exact integer)
+P2.1: odd ticks M0 P, lengths 1 to 14: words where 'a point of order 5 is kept up to sign' and '5 divides the trace' disagree: 0; least trace over all words 1
+P2.1: (negated, kept) points by length: 1: (0, 0), 2: (0, 0), 3: (0, 0), 4: (0, 0), 5: (40, 40), 6: (48, 48), 7: (112, 112), 8: (256, 256), 9: (504, 504), 10: (1200, 1200), 11: (2112, 2112), 12: (4032, 4032), 13: (8008, 8008), 14: (15792, 15792)
+P2.1: the note's (40, 40), (48, 48), (112, 112), (256, 256), (504, 504) at lengths 5 to 9 and (15792, 15792) at 14: True; each is 4 times the number of words whose trace 5 divides: True
+P2.2: eta on the double cover, by the automaton (exact integers), lengths 5 to 11: largest |15 eta| = 0; pairs at lengths 5 to 9: 1920 (the note: 1,920); the first half-word's own step sum reaches |15 sum| = 51, so the halves are not zero separately

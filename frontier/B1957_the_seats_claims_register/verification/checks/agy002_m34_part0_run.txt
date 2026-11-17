@@ -1,0 +1,4 @@
+down: Y(tau + 5, w) Y(tau + 5, w0)^-1 against Y(tau, w) Y(tau, w0)^-1, w0 = (0, 1/5): the eigenvalues are the same up to one scalar (to 6.3e-14) of modulus 1 (to 3.4e-14); its phase/2 pi on the strata |5 w1| = 0, 1, 2: {0: [0.0], 1: [0.0], 2: [0.0]}
+up: Y(tau + 5, w) Y(tau + 5, w0)^-1 against Y(tau, w) Y(tau, w0)^-1, w0 = (0, 1/5): the eigenvalues are the same up to one scalar (to 7.5e-13) of modulus 1 (to 9.1e-13); its phase/2 pi on the strata |5 w1| = 0, 1, 2: {0: [0.0], 1: [0.4], 2: [-0.4]}
+the note's printed closed form at 5 w1 = 1: exp(-85 pi i w1^2) has phase/2 pi = +0.3000; exp((4 pi i/5)(5 w1)^2) has +0.4000: the two sides DIFFER
+the note's printed closed form at 5 w1 = 2: exp(-85 pi i w1^2) has phase/2 pi = +0.2000; exp((4 pi i/5)(5 w1)^2) has -0.4000: the two sides DIFFER

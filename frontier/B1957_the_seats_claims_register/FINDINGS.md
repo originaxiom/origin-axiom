@@ -151,6 +151,30 @@ noted, and none is pending.
   1 + β, which the measure admits, the decay with its constant 1/(ℓ²c − δ − δ²), the Bessel solutions at nonzero
   angular frequency). The bijection itself is recorded as conditional on four things main has not yet checked, named
   in the record; no lemma has been found to fail. Its nonlinear part rests on the lane's earlier files, not yet read.
+- **agy-002's verify branch is settled: 11 files, 500 statements, none pending** (284 verified, 3 refuted, 52 partial,
+  161 noted). Each of its four second computations is reproduced on main's own code:
+  - the order-5 copy of the down quarks by the leptons and its failure at order 10 (`checks/agy002_m33.py`);
+  - its blind values for the read-out on the whole, which agree with B1940's corrected file in all four options under
+    the rule main committed before any seat's output existed (`checks/agy002_m37.py`);
+  - its closed law for the twisted Higgs triplet under τ → τ + 1, which holds to 2.8e-40 and gives, digit for digit,
+    the ratios main's own B1947 run printed: B1947's negative now has its reason in closed form (`checks/agy002_m40.py`);
+  - its twisted-η amplitude (`checks/agy002_m34*.py`): the step is an integer cocycle, the transfer matrix has spectral
+    radius 1/√2, so the history sum decays to zero with a changing sign and a ratio normalised by it does not converge;
+    the odd ticks are not cancelled (η is exactly zero on their double covers); no weight tried closes the gap of about
+    0.52 between the move count and the area.
+  **Found in its notes:** three rows of one table are misprinted against its own sealed output; one printed closed
+  form is wrong by a sign and a factor of two; five commit hashes on its status page and one card's file name do not
+  exist (the deliveries do, under other hashes, in the right order).
+  **Found about main:** main's canonical end is held constant above its table's top height, and the seat's goes on to
+  the cusp limit; that alone is the 2 percent between the two seats' figures at height 30 (`agy002_m34_gram.py`, G4).
+- **Its Review 83 reading: all 31 findings rest on facts that hold on main's files** (`checks/review83_agy002.py`): six
+  are the plants, seven are mended, and **eighteen are faults that still stand on main's head**, among them three locks
+  that cannot fail and the unconditional grade on the public claim page. They are action item R83-1, the builder's
+  series; main has now verified each.
+- **The web seat's second reply** (its status page, section 5): its two remainders are mended (B1953's note and
+  B1955's one-line claim now say the top wedge's invariance is generic and conditional); its correction of its own
+  relabelling sign and its lepton by-product are recomputed on main (`checks/web_review.py`, R5). It does not write
+  HARVEST COMPLETE.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

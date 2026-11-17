@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-m33-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_m33.py: at all 72 points of exact order 10 the lepton coupling is not a multiple of the down coupling transposed (least distance 0.449 in main's measure) and the singular-value ratios differ (0.025 to 0.306 at main's one modulus and one reading); none agrees",
+ "note": "The seat's own ranges ([0.0168, 0.366]; least distance 0.6445) are over four moduli, two readings and two weights and in its own norm; they are not reproduced digit for digit.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:22"
+ ]
+}

@@ -1,0 +1,4 @@
+the transport law, at two moduli, three points, both signs of the Higgs's charge and both representatives: largest relative deviation 2.79e-40
+the law's extra multipliers at q_H = 3, a = 0.2: 0.4258+0.9048i, 0.1874-0.9823i, -0.8763-0.4818i; main's B1947 run printed: 0.4258+0.9048i, 0.1874-0.9823i, -0.8763-0.4818i
+the law's extra multipliers at q_H = 3, a = 0.4: -0.1874-0.9823i, 0.8763-0.4818i, -0.9921-0.1253i; main's B1947 run printed: -0.1874-0.9823i, 0.8763-0.4818i, -0.9921-0.1253i
+the three multipliers differ from one another unless q_H a is an integer or half-integer, so no single change of basis absorbs them: the twisted triplet is not covariant, which is B1947's negative

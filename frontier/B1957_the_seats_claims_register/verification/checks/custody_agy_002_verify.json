@@ -1,0 +1,220 @@
+[
+ {
+  "note": "relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md",
+  "commits": [
+   "e6d78d0d4",
+   "460142abf"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 1,
+  "consecutive_pairs": 1,
+  "out_of_order": [],
+  "scripts": {
+   "relays/a2_smc13/verify_smc13_order5.py": {
+    "lines": 505,
+    "float_literals": 22,
+    "complex_literals": 23,
+    "imports": [
+     "__future__",
+     "fractions",
+     "json",
+     "math",
+     "mpmath",
+     "pathlib",
+     "random"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md",
+  "commits": [
+   "e6d78d0d4",
+   "9cb1b41d5"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 1,
+  "consecutive_pairs": 1,
+  "out_of_order": [],
+  "scripts": {
+   "relays/a2_amp/verify_a2_amp.py": {
+    "lines": 1225,
+    "float_literals": 144,
+    "complex_literals": 29,
+    "imports": [
+     "__future__",
+     "cmath",
+     "fractions",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "random",
+     "sys",
+     "time",
+     "verify_a2_canon"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md",
+  "commits": [
+   "fb7fc39ac",
+   "7609cca49",
+   "7edd9b4f8"
+  ],
+  "all_on_branch": false,
+  "missing": [
+   "fb7fc39ac"
+  ],
+  "consecutive_in_order": 1,
+  "consecutive_pairs": 1,
+  "out_of_order": [],
+  "scripts": {
+   "relays/a2_canon/compare_b1940_v2.py": {
+    "lines": 318,
+    "float_literals": 31,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "hashlib",
+     "json",
+     "math",
+     "pathlib",
+     "subprocess",
+     "sys",
+     "verify_a2_canon"
+    ]
+   },
+   "relays/a2_canon/verify_a2_canon.py": {
+    "lines": 2174,
+    "float_literals": 551,
+    "complex_literals": 103,
+    "imports": [
+     "__future__",
+     "json",
+     "math",
+     "mpmath",
+     "multiprocessing",
+     "numpy",
+     "os",
+     "pathlib",
+     "random",
+     "scipy",
+     "time",
+     "typing"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md",
+  "commits": [
+   "8603eca3c",
+   "097a4a911",
+   "d387d3ab8"
+  ],
+  "all_on_branch": true,
+  "missing": [],
+  "consecutive_in_order": 2,
+  "consecutive_pairs": 2,
+  "out_of_order": [],
+  "scripts": {
+   "relays/a2_b1947/verify_b1947_d1.py": {
+    "lines": 676,
+    "float_literals": 51,
+    "complex_literals": 32,
+    "imports": [
+     "__future__",
+     "fractions",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "random",
+     "sys",
+     "time",
+     "verify_a2_canon"
+    ]
+   }
+  }
+ },
+ {
+  "note": "relays/REVIEW_83_AGY-002.md",
+  "commits": [
+   "b35eac607",
+   "73e71e277",
+   "c8cece9be",
+   "999982c2f",
+   "827ba35d8",
+   "04293e826"
+  ],
+  "all_on_branch": false,
+  "missing": [
+   "b35eac607",
+   "73e71e277",
+   "c8cece9be",
+   "04293e826"
+  ],
+  "consecutive_in_order": 1,
+  "consecutive_pairs": 1,
+  "out_of_order": [],
+  "scripts": {
+   "relays/r83/verify_r83_counterchecks.py": {
+    "lines": 1060,
+    "float_literals": 105,
+    "complex_literals": 66,
+    "imports": [
+     "__future__",
+     "fractions",
+     "hashlib",
+     "json",
+     "math",
+     "mpmath",
+     "numpy",
+     "pathlib",
+     "random",
+     "subprocess",
+     "sys",
+     "typing",
+     "verify_a2_canon"
+    ]
+   },
+   "relays/r83/verify_r83_extra_checks.py": {
+    "lines": 179,
+    "float_literals": 26,
+    "complex_literals": 5,
+    "imports": [
+     "__future__",
+     "json",
+     "math",
+     "numpy",
+     "pathlib",
+     "random",
+     "re",
+     "subprocess",
+     "sys",
+     "verify_r83_counterchecks"
+    ]
+   },
+   "relays/r83/verify_r83_quotes.py": {
+    "lines": 154,
+    "float_literals": 1,
+    "complex_literals": 0,
+    "imports": [
+     "__future__",
+     "json",
+     "pathlib",
+     "re",
+     "subprocess",
+     "sys"
+    ]
+   }
+  }
+ }
+]

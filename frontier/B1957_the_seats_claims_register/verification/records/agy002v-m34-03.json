@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-m34-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the phases and the conclusion of this item are verified (agy002v-m34-02). Its printed closed form is wrong on the left: exp(-85 pi i w1^2) has phase/2pi 0.3 and 0.2 at 5 w1 = 1, 2, not +0.4 and -0.4; the right side, exp((4 pi i/5)(5 w1)^2), is the measured phase. The form that agrees is exp(+2 pi i 5 (q_L^2 + q_R^2) w1^2): a sign and a factor of two",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:41"
+ ]
+}

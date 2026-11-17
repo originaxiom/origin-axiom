@@ -1,0 +1,20 @@
+{
+ "id": "agy002v-read-01",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "agy-002-verify",
+ "how": "read by main in full at the branch's head 62420b533, through the mask; the scripts verify_a2_amp.py and verify_a2_canon.py read as text for their definitions; nothing run",
+ "files": [
+  "relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md",
+  "relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md",
+  "relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md",
+  "relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md",
+  "relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md",
+  "relays/REVIEW_83_AGY-002.md",
+  "relays/STATUS_AGY-002.md",
+  "relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md",
+  "relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md",
+  "relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md",
+  "relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md"
+ ]
+}

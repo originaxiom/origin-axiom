@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m34-04",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_m34_gram.py, main's frame with the norms in extended precision: the left Gramian over the 24 points has the same eigenvalue ratios and the same mixing moduli at tau + 1 (5e-17; and at -1/tau by harvest row 1849, 9e-16); its mixing is unitary; the invariant J at 0.13 + 1.70i is 3.1387e-6 for the first pairing of readings on main against the seat's 3.1410e-6; at height 30 the heaviest-to-heaviest entry is 8.66e-21 for mixed readings and 1 for equal readings",
+ "note": "The two small differences from the seat's figures are one thing, found here: main's canonical end (B1927's table) is held constant above its top height (L_2 = 2.2505 at every height above about 7), and the seat's goes on to the cusp limit 2.2069. With main's end set to that limit at height 30 the entry becomes 8.887e-21, the seat's 8.876e-21. This is the clamp agy-002's R83-17 names; B1932's rule carries it as its error (b). The note's 37/72 is the squared norm of a row of the averaged moduli at the cusp, (0 + 25 + 49)/144 from the limits (5/12, 5/12, 7/12) of B1945 section 3b: arithmetic, and it holds. A Gramian is a covariant candidate for a read-out, not a derived one (B1953's 'not claimed').",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:47",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:52",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:53",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:54"
+ ]
+}

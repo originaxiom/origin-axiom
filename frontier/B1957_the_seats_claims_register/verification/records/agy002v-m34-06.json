@@ -1,0 +1,20 @@
+{
+ "id": "agy002v-m34-06",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "Part 1, checks/agy002_m34.py, main's own code from the definitions (the Siegel function's logarithm; B1929's constant): the step constant is independent of the base point (3e-40) and 15 times the step of eta is an integer at all 24 points for both generators; the 24 x 24 transfer matrix has spectral radius 1/sqrt 2 at alpha = 1/2 (rho^2 - 1/2 = 1.4e-40), with eight eigenvalues on that circle, none real, and 0.728399602070 at alpha = 1; its traces at eight lengths equal the seat's sealed ones to every digit; the automaton equals main's own winding of the Siegel function along the geodesic (B1929's code) on all 344 words of lengths 4 to 11 (2.4e-14); the sums at lengths 6, 14, 16, 17, 18 are the note's rows",
+ "note": "So the twisted-eta history sum decays as 2^(-n/2) times an almost periodic factor that changes sign, and a ratio normalised by it does not converge: verified. 'Negative again at n = 40, 100' is the transfer matrix's trace (sealed and reproduced), not the marked point's own sum, whose sign at n = 100 is +. The leading eigenvalues' arguments are not rational multiples of pi to the precision computed; that the sign changes infinitely often is the seat's inference from that.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:17",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:63",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:71",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:72",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:78",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:82",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:83",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:84",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:85",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:87",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:88"
+ ]
+}

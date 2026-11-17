@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m40-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "from the transport law (verified): at a = 0 the three multipliers are equal, so the failure is absent on the four points (0, b) and present after S moves them to (b, 0); and the Higgs's charge is -3 for the down quarks and for the charged leptons (-(1 + 2) = -(-3 + 6)), so a twist by the Higgs's charge alone cannot separate them at order 5. Not recomputed on main: the count 60 of 60 on single-sector singular values, and the random change of basis",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:49",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:50",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:51",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:52"
+ ]
+}

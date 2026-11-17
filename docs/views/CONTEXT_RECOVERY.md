@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 533 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1885 |
+| harvest rows (the last number) | 1887 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -33,7 +33,7 @@
 |---|---|---|
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the 275 markdown files the seats added or cha…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
-| B1955 | PROVED | “THE KNOT'S DIHEDRAL COVER SUPPLIES THE WEIL SPACE AND THE PARITY WITH NO FLUX; THE FRAME DOES NOT SEE THE WEIL CLASS, AND THE OBJECT CARRIES BOTH; THE UP COUPLING AS THE TOP WEDGE IS INVARIANT AT LEVEL 5 (PROVED for the…” |
+| B1955 | PROVED | “[CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both classes) and conditional on the Fock-space reading,…” |
 | B1954 | PROVED | “THE PHYSICAL LANE'S WORK OF 2026-11-15 TO 17, READ AND CHECKED (a process arc; at the author's word): every relay note of the lane since its pin read in full (20 notes, its packet for main with findings F01 to F17, its…” |
 | B1953 | PROVED | “FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 24 POINTS; THE UP SECTOR IS OBSTRUCTED AT LEVEL 5…” |
 | B1952 | PROVED | “THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS (PROVED for the computed parts; the web seat's W-…” |

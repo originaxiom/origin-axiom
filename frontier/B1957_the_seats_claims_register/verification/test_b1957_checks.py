@@ -156,3 +156,36 @@ def test_the_cusps_indicial_roots_and_the_decay_constant():
     for root in (-beta, 1 + beta): assert sp.simplify(-(root ** 2 - root) / ell ** 2 + c) == 0
     assert sp.simplify(sp.expand((beta - d) * (1 + beta + d)) - (ell ** 2 * c - d - d ** 2)) == 0
     assert sp.simplify(-((sp.Rational(1, 2)) ** 2 - sp.Rational(1, 2)) / ell ** 2 + c) != 0            # 1/2, the edge of the measure, is not a root
+
+
+def test_the_twisted_eta_automaton_decays_as_one_over_root_two_and_vanishes_on_the_odd_ticks_double_cover():
+    import agy002_m34 as A, mpmath as mp, numpy as np
+    K, NEG, NXT, const, integ = A.cocycle(); assert const < 1e-30 and integ < 1e-30
+    T = mp.zeros(24, 24)
+    for i in range(24):
+        for bit in (0, 1): T[i, int(NXT[bit, i])] += mp.exp(1j * mp.pi * int(K[bit, i]) / 30) / 2
+    rho = max(abs(e) for e in mp.eig(T, left=False, right=False)); assert abs(rho ** 2 - mp.mpf(1) / 2) < 1e-30
+    b, k, end = A.etas(10, K, NEG, NXT, (2, 4)); keep = (end != 0) & (b != 0) & (b != 1023); assert int(keep.sum()) == 95          # the note printed 85; its sealed file has 95
+    n = 5; P = np.array([[0, 1], [1, 0]], dtype=object); hit = 0; halves = 0
+    for w in range(1 << n):
+        Mo = A.word_matrix(w, n) @ P
+        for q in A.PTS:
+            u = ((Mo[0, 0] * q[0] + Mo[0, 1] * q[1]) % 5, (Mo[1, 0] * q[0] + Mo[1, 1] * q[1]) % 5)
+            if u not in (q, ((-q[0]) % 5, (-q[1]) % 5)): continue
+            _, k2, e2 = A.etas(2 * n, K, NEG, NXT, q, bits=[(w << n) | (31 ^ w)]); assert e2[0] == 1 and k2[0] == 0; hit += 1          # exactly zero on the double cover
+            _, kh, _ = A.etas(n, K, NEG, NXT, q, bits=[31 ^ w]); halves += int(kh[0] != 0)
+    assert hit == 80 and halves > 0                                                                                    # (40, 40) at length 5; the halves are not zero separately
+    wrong = K.copy(); wrong[0, 0] += 1; T2 = mp.zeros(24, 24)                                                           # a planted step: the radius moves
+    for i in range(24):
+        for bit in (0, 1): T2[i, int(NXT[bit, i])] += mp.exp(1j * mp.pi * int(wrong[bit, i]) / 30) / 2
+    assert abs(max(abs(e) for e in mp.eig(T2, left=False, right=False)) ** 2 - mp.mpf(1) / 2) > 1e-6
+
+
+def test_the_twisted_triplets_transport_law_under_tau_plus_one():
+    import agy002_m40 as M, mpmath as mp
+    tau, a, b = mp.mpc("0.13", "1.45"), mp.mpf(1) / 5, mp.mpf(2) / 5
+    for eps in (1, -1):
+        da, db = 3 * a, 3 * b; new, old = M.R(tau + 1, da, db - da, eps), M.R(tau, da, db, eps); ph = mp.exp(1j * mp.pi / 4 + 1j * mp.pi * da ** 2)
+        pred = (ph * old[0], ph * mp.exp(2j * mp.pi * eps * da) * old[2], -ph * mp.exp(-2j * mp.pi * eps * da) * old[1])
+        assert max(abs(x / y - 1) for x, y in zip(new, pred)) < 1e-30
+        assert abs(new[1] / (ph * mp.exp(-2j * mp.pi * eps * da) * old[2]) - 1) > 0.1                                    # the other representative's phase does not fit

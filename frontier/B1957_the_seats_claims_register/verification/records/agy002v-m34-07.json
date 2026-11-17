@@ -1,0 +1,12 @@
+{
+ "id": "agy002v-m34-07",
+ "date": "2026-11-17",
+ "verdict": "REFUTED",
+ "how": "three rows of the note's table are misprinted against the seat's own sealed output and against main's recomputation (checks/agy002_m34.py), which agree with each other: at n = 8 the variance is 0.7348 and the two sums +0.2017 and +0.2017 (printed: 0.6305, +0.3125, +0.0725); at n = 10 the count is 95 words (printed: 85); at n = 12 the variance is 1.3413 (printed: 1.2661)",
+ "note": "The sealed file is right and the conclusion is untouched; the note's own total of 1,357 words for lengths 4 to 13 needs the 95.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:79",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:80",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:81"
+ ]
+}

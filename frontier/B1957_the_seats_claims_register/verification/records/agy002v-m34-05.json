@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-m34-05",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the seat's own control (a random change of basis leaves the Gramian's invariants); elementary, not rerun",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:55"
+ ]
+}

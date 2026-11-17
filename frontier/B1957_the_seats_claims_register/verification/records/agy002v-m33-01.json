@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-m33-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and git, without running the seat's code: the card's commit e6d78d0d4 is on the branch and precedes the code and output at 460142abf; the script imports only its own and standard libraries",
+ "note": "That no measured number was touched is read from the script's imports and text, not proved.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:4",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:5",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:6",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:7"
+ ]
+}

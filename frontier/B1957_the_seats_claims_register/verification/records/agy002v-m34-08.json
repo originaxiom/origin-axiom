@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-m34-08",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "verified (checks/agy002_m34.py P1.5): eta changes sign under the exchange of the two letters with the mark reflected, exactly (integers), at lengths 4 to 14; so the sine sum vanishes on the mirror-closed population. Not recomputed: the sums weighted by the invariant J over 42 histories (-1.6659e-5 and +1.6560e-6)",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT:89"
+ ]
+}

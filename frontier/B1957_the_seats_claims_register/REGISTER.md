@@ -5,13 +5,13 @@
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
 | agy-exp | 88 | 5 | 2099 | 20 | 0 | 29 | 17 | 0 | 6 | **2027** |
-| agy-002-verify | 11 | 0 | 500 | 0 | 0 | 0 | 0 | 0 | 0 | **500** |
+| agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
-| web | 16 | 2 | 1167 | 169 | 0 | 0 | 0 | 5 | 85 | **908** |
+| web | 16 | 2 | 1228 | 205 | 0 | 0 | 0 | 5 | 110 | **908** |
 | agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 285 | 41 | 15320 | 407 | 9 | 94 | 71 | 5 | 252 | **14482** |
+| **all** | 285 | 52 | 15381 | 727 | 12 | 94 | 123 | 5 | 438 | **13982** |
 
 ## By file
 
@@ -105,17 +105,17 @@
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` | no | 17 | 0 | **17** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` | no | 23 | 0 | **23** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` | no | 20 | 0 | **20** |
-| agy-002-verify | `relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 65 | 0 | **65** |
-| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md` | no | 22 | 0 | **22** |
-| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md` | no | 47 | 0 | **47** |
-| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md` | no | 22 | 0 | **22** |
-| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md` | no | 22 | 0 | **22** |
-| agy-002-verify | `relays/REVIEW_83_AGY-002.md` | no | 204 | 0 | **204** |
-| agy-002-verify | `relays/STATUS_AGY-002.md` | no | 26 | 0 | **26** |
-| agy-002-verify | `relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md` | no | 30 | 0 | **30** |
-| agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | no | 31 | 0 | **31** |
-| agy-002-verify | `relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md` | no | 11 | 0 | **11** |
-| agy-002-verify | `relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md` | no | 20 | 0 | **20** |
+| agy-002-verify | `relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 65 | 65 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md` | yes | 47 | 47 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK.md` | yes | 22 | 22 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
+| agy-002-verify | `relays/REVIEW_83_AGY-002.md` | yes | 204 | 204 | **0** |
+| agy-002-verify | `relays/STATUS_AGY-002.md` | yes | 26 | 26 | **0** |
+| agy-002-verify | `relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md` | yes | 30 | 30 | **0** |
+| agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | yes | 31 | 31 | **0** |
+| agy-002-verify | `relays/cards/AGY-002_A2-R83_review-83-cold-read-b1930-b1944.md` | yes | 11 | 11 | **0** |
+| agy-002-verify | `relays/cards/AGY-002_A2-SMC13_order5-lepton-down-copy.md` | yes | 20 | 20 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G0_RESULTS.md` | yes | 19 | 19 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G1_RESULTS.md` | yes | 20 | 20 | **0** |
 | agy-002-endgame | `relays/AGY002_ENDGAME_V2_G2_RESULTS.md` | yes | 18 | 18 | **0** |
@@ -291,7 +291,7 @@
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 0 | **54** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | no | 50 | 0 | **50** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 189 | 0 | **189** |
-| web | `relays/STATUS_CHAT1.md` | no | 198 | 123 | **75** |
+| web | `relays/STATUS_CHAT1.md` | no | 259 | 184 | **75** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | no | 18 | 0 | **18** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | no | 37 | 0 | **37** |
 | web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | no | 69 | 0 | **69** |

@@ -1,0 +1,10 @@
+options in main's file: ['W+|a (move count)', 'W+|b (area)', 'W-|a (move count)', 'W-|b (area)']
+W-|b (area), the seat's values with the exact weight, its own error set to zero: agrees True; worst |d ln| / tolerance 0.117; largest |d ln| 0.00189
+W-|b (area), the seat's values with the truncated weight (the control), its own error set to zero: agrees True; worst |d ln| / tolerance 0.716; largest |d ln| 0.01160
+W+|b (area), the seat's values with the exact weight, its own error set to zero: agrees True; worst |d ln| / tolerance 0.119; largest |d ln| 0.00232
+W+|b (area), the seat's values with the truncated weight (the control), its own error set to zero: agrees True; worst |d ln| / tolerance 0.662; largest |d ln| 0.01072
+W-|a (move count), the seat's sample of words with its own standard errors: agrees True; worst |d ln| / tolerance 0.241; largest |d ln| 0.00443
+W+|a (move count), the seat's sample of words with its own standard errors: agrees True; worst |d ln| / tolerance 0.254; largest |d ln| 0.00463
+control: W-|b (area) against B1932's uncorrected double-precision file: agrees False; worst |d ln| / tolerance 2.962; largest |d ln| 0.06792
+control: W+|b (area) against B1932's uncorrected double-precision file: agrees False; worst |d ln| / tolerance 1.814; largest |d ln| 0.03161
+the two files' SHA-256 begin 9ece85e1 (B1940 v2) and df1c9bee (B1932): the note's 9ece85e1 and df1c9bee

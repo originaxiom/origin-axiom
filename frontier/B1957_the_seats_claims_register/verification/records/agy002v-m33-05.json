@@ -1,0 +1,14 @@
+{
+ "id": "agy002v-m33-05",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the controls are the seat's own runs. Two are confirmed in kind on main (checks/agy002_m33.py M33.4): the lepton charge moved to (-2, 6) breaks the copy at order 5 (at least 0.008), and with the charges unchanged it fails at orders 3 and 7 (0.051 to 0.323; 0.006 to 0.103). The random change of basis and the flipped channel sign are not rerun",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:46",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:47",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:48",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:49",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:50"
+ ]
+}

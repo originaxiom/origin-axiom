@@ -9,7 +9,7 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "8d5c91032"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "9a5aafe40"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "d36b2a0ec"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
 )
 git = lambda *a: subprocess.run(["git", *a], capture_output=True, text=True).stdout

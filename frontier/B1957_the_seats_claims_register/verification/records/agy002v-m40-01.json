@@ -1,0 +1,12 @@
+{
+ "id": "agy002v-m40-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and git: the card 097a4a911 precedes the verifier and outputs d387d3ab8, both on the branch. The script imports its own earlier module verify_a2_canon and standard libraries, nothing from frontier/",
+ "note": "What the seat had or had not opened before committing cannot be checked from the branch.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:6",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:7",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION:8"
+ ]
+}

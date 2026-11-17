@@ -5,8 +5,11 @@ R2: W-A1's representation (class 2): conjugation moves X^a Z^b by M_T = [[1, 0],
     W-A1's representation, labelling Z^a X^b: M_T = [[1, 4], [0, 1]], M_S = [[0, 1], [4, 0]], linear on all 25: True; identifications D with D M = M' D for both T and S: 4, one up to a scalar: True, namely [[0, 1], [1, 0]]; its determinant is a square mod 5: [True]
 R3: the five flux-5 modes: under tau + 2 they pick up zeta^(j^2): 8.0e-16; under -1/tau (with the factor exp(-5 pi i u^2/tau)) they mix by a matrix (fit residual 6.2e-16) equal to a constant times psi(-jk)/sqrt 5: 1.9e-15, the constant sqrt(-i tau): 1.7e-15
     under tau + 1 alone they do not return to their span: the odd flux needs the square (zeta^(j^2) = psi(k j^2) with 2k = 1, k = 3: a non-residue, W-A1's class)
-R4: down, reading S , T: the law's residual 1.2e-15; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 6.8e-17
-R4: down, reading S , S: the law's residual 7.5e-16; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 5.6e-17
-R4: down, reading St, T: the law's residual 1.1e-15; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 1.7e-16
-R4: down, reading St, S: the law's residual 8.4e-16; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 4.3e-17
-exit 0
+R4: down, reading S , T: the law's residual 1.2e-15; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 6.8e-17, after the other sign by 0.40
+R4: down, reading S , S: the law's residual 7.5e-16; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 5.6e-17, after the other sign by 0.40
+R4: down, reading St, T: the law's residual 1.1e-15; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 1.7e-16, after the other sign by 0.40
+R4: down, reading St, S: the law's residual 8.4e-16; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(-1 ab) Y(a, b) they vary by 4.3e-17, after the other sign by 0.40
+R5: leptons, reading S , T: the law's residual 9.1e-16; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(+1 ab) Y(a, b) they vary by 6.1e-17, after the other sign by 0.40
+R5: leptons, reading S , S: the law's residual 1.0e-15; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(+1 ab) Y(a, b) they vary by 4.7e-17, after the other sign by 0.40
+R5: leptons, reading St, T: the law's residual 8.0e-16; its phases vary over the 24 points by 0.200 of a turn; after the relabelling Y(a, b) -> zeta^(+1 ab) Y(a, b) they vary by 1.0e-16, after the other sign by 0.40
+R5: leptons, reading St, S: the law's residual 1.1e-15; its phases vary over the 24 points by 0.400 of a turn; after the relabelling Y(a, b) -> zeta^(+1 ab) Y(a, b) they vary by 6.1e-17, after the other sign by 0.40

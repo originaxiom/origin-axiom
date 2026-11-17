@@ -1,0 +1,10 @@
+{
+ "id": "agy002v-view-03",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "labelled ESTABLISHED by the seat. The computed part holds: at LP and LR the untwisted condition admits only w = 0, and Smith(LR + I) = (1, 5) (B1943; checks/review83_agy002.py, finding 5). The conclusion drawn, that level 5 and the four points are thereby derived without postulating SE3, is not established: it needs the premise that the amplitude projects onto the points fixed up to sign, which is the premise B1943 itself names, and SE3 stays POSTULATED on the scoreboard",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY:92"
+ ]
+}

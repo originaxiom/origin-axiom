@@ -1,0 +1,7 @@
+M33.1: order 5, 24 points, both readings, with the norms: Y_lepton - c Y_down^T: 3.5e-16; c against exp(-20 pi i w1 w2): 1.6e-15; singular-value ratios differ by 2.8e-16
+M33.2: order 10, 72 points (reading S): distance of Y_lepton from any multiple of Y_down^T: least 0.4487; singular-value ratios differ by between 0.0254 and 0.3057; points where they agree to 1e-6: 0
+M33.3: transpose signs of the four channel matrices [-1, 1, 1, 1]; of the generation contractions: reading S [-1, 1, 1, 1], reading S~ [-1, 1, 1, 1]; products [1, 1, 1, 1]
+M33.4: lepton charge moved to (-2, 6), order 5, eight points: the singular-value ratios differ from the down quark's by at least 0.0080
+M33.4: charges unchanged, order 3, eight points: the singular-value ratios differ by between 0.0511 and 0.3234
+M33.4: charges unchanged, order 7, eight points: the singular-value ratios differ by between 0.0058 and 0.1033
+exit 0

@@ -1,0 +1,14 @@
+{
+ "id": "agy002v-m37-01",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "git, without running the seat's code. The fact holds: the expectations card precedes the blind results (0e08a8953 before 7609cca49, which precedes the comparison 7edd9b4f8), and the sha256 of the results file at 7609cca49 is the one the note states (408f68c9...). The note's citation of the card is wrong: no commit fb7fc39ac exists in any fetched ref, and the card's file is relays/cards/AGY-002_A2-CANON-T90_whole-readout-both-worlds-t90-and-area.md, not the name the note gives",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:4",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:5",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:6",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:7",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:8"
+ ]
+}

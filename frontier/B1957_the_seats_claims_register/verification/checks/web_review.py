@@ -6,7 +6,10 @@ R2  W-A2, part B: conjugation by each Weil representation moves the Weyl operato
     labelling Z^a X^b: both halves (T and S), and uniqueness up to a scalar.
 R3  W-A2, part C: the five flux-5 zero modes of the fibre: T^2 acts as diag(zeta^(j^2)) and S by the kernel psi(-jk)/sqrt 5.
 R4  W-A3, lines 76-77: one relabelling by a power of zeta^(ab) removes both phases of frame C's down coupling's law
-    (B1953: zeta^(-a^2) under T, zeta^(2ab) under S), so the down lines move as a permutation of the 24 points."""
+    (B1953: zeta^(-a^2) under T, zeta^(2ab) under S), so the down lines move as a permutation of the 24 points.
+R5  the seat's status page, section 5.2 (2026-11-17, after main's M43): in B1953's convention the relabelling is
+    Y -> zeta^(-ab) Y for down and Y -> zeta^(+ab) Y for leptons, and for leptons too one relabelling removes both
+    phases, under T and under S (the seat computed this once; here on main, both readings, both signs shown)."""
 import sys, pathlib, itertools, functools
 import numpy as np
 print = functools.partial(print, flush=True)
@@ -60,18 +63,14 @@ if __name__ == "__main__":
     ker = np.array([[psi(-j * k) for k in range(5)] for j in range(5)]) / np.sqrt(5); c = K[0, 0] / ker[0, 0]
     print("R3: the five flux-5 modes: under tau + 2 they pick up zeta^(j^2): %.1e; under -1/tau (with the factor exp(-5 pi i u^2/tau)) they mix by a matrix (fit residual %.1e) equal to a constant times psi(-jk)/sqrt 5: %.1e, the constant sqrt(-i tau): %.1e" % (t2, res, np.abs(K - c * ker).max() / abs(c), abs(c - np.sqrt(-1j * tau))))
     print("    under tau + 1 alone they do not return to their span: the odd flux needs the square (zeta^(j^2) = psi(k j^2) with 2k = 1, k = 3: a non-residue, W-A1's class)")
-    # R4
+    # R4 and R5
     sys.path.insert(0, str(next((ROOT / "frontier").glob("B1953_*")) / "verification")); import weyl_operator as W
-    for tx, ty in (("0.13", 1.7),):
-        Ys, _ = W.images(tx, ty, "down")
+    for sec, name in (("down", "R4: down"), ("lep", "R5: leptons")):
+        Ys, _ = W.images("0.13", 1.7, sec)
         for rd in ("S", "St"):
             for gen in "TS":
-                lw = W.law(Ys["t"][rd], Ys[gen][rd], gen); phi = lw["phi"]; tr = next(t for t in W.TRANS[gen] if True)
-                best = None
-                for trf in W.TRANS[gen]:
-                    for eps in (1, -1):
-                        ph = {w: phi[w] * psi(eps * (w[0] * w[1] - trf(*w)[0] * trf(*w)[1])) for w in W.PTS}; r0 = ph[(0, 1)]
-                        dev = max(abs(np.angle(ph[w] / r0)) for w in W.PTS) / (2 * np.pi)
-                        if best is None or dev < best[0]: best = (dev, eps)
-                raw = max(abs(np.angle(phi[w] / phi[(0, 1)])) for w in W.PTS) / (2 * np.pi)
-                print("R4: down, reading %-2s, %s: the law's residual %.1e; its phases vary over the 24 points by %.3f of a turn; after the relabelling Y(a, b) -> zeta^(%+d ab) Y(a, b) they vary by %.1e" % (rd, gen, lw["residual"], raw, best[1], best[0]))
+                lw = W.law(Ys["t"][rd], Ys[gen][rd], gen); phi = lw["phi"]; dev = {}
+                for eps in (1, -1):
+                    dev[eps] = min(max(abs(np.angle(ph[w] / ph[(0, 1)])) for w in W.PTS) / (2 * np.pi) for ph in ({w: phi[w] * psi(eps * (w[0] * w[1] - trf(*w)[0] * trf(*w)[1])) for w in W.PTS} for trf in W.TRANS[gen]))
+                raw = max(abs(np.angle(phi[w] / phi[(0, 1)])) for w in W.PTS) / (2 * np.pi); good = min(dev, key=dev.get)
+                print("%s, reading %-2s, %s: the law's residual %.1e; its phases vary over the 24 points by %.3f of a turn; after the relabelling Y(a, b) -> zeta^(%+d ab) Y(a, b) they vary by %.1e, after the other sign by %.2f" % (name, rd, gen, lw["residual"], raw, good, dev[good], dev[-good]))

@@ -1,0 +1,13 @@
+{
+ "id": "agy002v-r83-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "git: the card 999982c2f precedes the counterchecks 827ba35d8, both on the branch; B1950's quote_check.py found every quotation exact at the reading commit (28 of 28)",
+ "note": "",
+ "units": [
+  "agy-002-verify:REVIEW_83_AGY-002:4",
+  "agy-002-verify:REVIEW_83_AGY-002:5",
+  "agy-002-verify:REVIEW_83_AGY-002:6",
+  "agy-002-verify:REVIEW_83_AGY-002:7"
+ ]
+}

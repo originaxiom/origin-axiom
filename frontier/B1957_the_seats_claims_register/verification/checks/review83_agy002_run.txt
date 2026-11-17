@@ -1,0 +1,32 @@
+R83-01: the facts the finding rests on hold on main's files: True   state: plant
+R83-02: the facts the finding rests on hold on main's files: True   state: plant
+R83-03: the facts the finding rests on hold on main's files: True   state: plant
+R83-04: the facts the finding rests on hold on main's files: True   state: plant
+R83-05: the facts the finding rests on hold on main's files: True   state: plant
+R83-06: the facts the finding rests on hold on main's files: True   state: plant
+R83-07: the facts the finding rests on hold on main's files: True   state: standing
+R83-08: the facts the finding rests on hold on main's files: True   state: standing
+R83-09: the facts the finding rests on hold on main's files: True   state: standing
+R83-10: the facts the finding rests on hold on main's files: True   state: standing
+R83-11: the facts the finding rests on hold on main's files: True   state: mended
+R83-12: the facts the finding rests on hold on main's files: True   state: standing
+R83-13: the facts the finding rests on hold on main's files: True   state: standing
+R83-14: the facts the finding rests on hold on main's files: True   state: standing
+R83-15: the facts the finding rests on hold on main's files: True   state: standing
+R83-16: the facts the finding rests on hold on main's files: True   state: standing
+R83-17: the facts the finding rests on hold on main's files: True   state: mended
+R83-18: the facts the finding rests on hold on main's files: True   state: mended
+R83-19: the facts the finding rests on hold on main's files: True   state: mended
+R83-20: the facts the finding rests on hold on main's files: True   state: mended
+R83-21: the facts the finding rests on hold on main's files: True   state: standing
+R83-22: the facts the finding rests on hold on main's files: True   state: standing
+R83-23: the facts the finding rests on hold on main's files: True   state: standing
+R83-24: the facts the finding rests on hold on main's files: True   state: standing
+R83-25: the facts the finding rests on hold on main's files: True   state: standing
+R83-26: the facts the finding rests on hold on main's files: True   state: mended
+R83-27: the facts the finding rests on hold on main's files: True   state: standing
+R83-28: the facts the finding rests on hold on main's files: True   state: standing
+R83-29: the facts the finding rests on hold on main's files: True   state: standing
+R83-30: the facts the finding rests on hold on main's files: True   state: mended since (the pins now follow the rows; the finding was true at the commit read)
+R83-31: the facts the finding rests on hold on main's files: True   state: standing
+findings whose facts hold: 31 of 31; plants 6; mended 7; standing on main's head 18
