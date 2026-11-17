@@ -1,0 +1,127 @@
+{
+  "all_planted_controls_passed": true,
+  "ast_source_check": {
+    "Gate_AST_Stage3_Apex_Passed": true,
+    "complex_literals_module_wide": 0,
+    "disallowed_imports_count": 0,
+    "float_literals_module_wide": 0,
+    "imported_top_modules": [
+      "__future__",
+      "ast",
+      "cmath",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "typing"
+    ],
+    "zero_imports_from_repo_or_reports": true
+  },
+  "card": "X-APEX-3",
+  "empirical_firewall": "0 of 19",
+  "part_3a_hosotani_g422_center_locking": {
+    "E1_HosotaniG422_CenterLock_and_ModularInvariance_Gate_passed": true,
+    "PC_AP3_AdjointFermionSplitsCenter_su2R_commutator": 2.8284271247461903,
+    "PC_AP3_PureGaugeHosotaniStaysUnbroken_origin_hess_eigs": [
+      9.60615353975695,
+      124.0758065598231
+    ],
+    "dist_to_center_element_minus_I2": 0.0,
+    "full_G422_origin_hess_eigs": [
+      -155.0947581997788,
+      -12.007691924696198
+    ],
+    "global_min_alpha_star": [
+      1.0,
+      1.0
+    ],
+    "global_min_grad_norm": 1.351282109227404e-14,
+    "global_min_hess_eigs": [
+      12.147204165776785,
+      346.0279868041254
+    ],
+    "quad_charge_trace_full_G422_matter": "-10",
+    "quad_charge_trace_pure_gauge": "8",
+    "relative_ud_holonomy_mod_Z_at_global_min": [
+      0.0,
+      0.0
+    ],
+    "sl2z_T_and_S_invariance_err": [
+      0.0,
+      0.0
+    ],
+    "su2R_commutator_at_global_min": 3.463824224941973e-16,
+    "v_hos_origin_vs_global_min": [
+      23.506865089962247,
+      -26.979496356678936
+    ]
+  },
+  "part_3b_m004_spin_bordism_and_cusp_confinement": {
+    "E2_M004SpinBordism_and_CuspSpinorConfinement_Gate_passed": true,
+    "cusp_dirac_sq_by_spin_structure": {
+      "PC_AP3_Periodic_0_0": {
+        "abs_diff_Ly4_vs_Ly5": 0.22206609902451058,
+        "analytic_pointwise_lower_bound": 0.0,
+        "lambda1_Ly12_if_periodic": 0.06853891945200943,
+        "lambda1_Ly4": 0.6168502750680849,
+        "lambda1_Ly5": 0.39478417604357435,
+        "mu_perp_min": 0.0
+      },
+      "m004_allowed_0_half": {
+        "abs_diff_Ly4_vs_Ly5": 3.1341282581202774e-08,
+        "analytic_pointwise_lower_bound": 3.31112454978565,
+        "lambda1_Ly12_if_periodic": 20.584645693691375,
+        "lambda1_Ly4": 20.584645662350095,
+        "lambda1_Ly5": 20.584645693691375,
+        "mu_perp_min": 2.3870942079784068
+      },
+      "m004_allowed_half_half": {
+        "abs_diff_Ly4_vs_Ly5": 2.3085594132696126e-06,
+        "analytic_pointwise_lower_bound": 18.018686615099412,
+        "lambda1_Ly12_if_periodic": 56.71005906586248,
+        "lambda1_Ly4": 56.71005675730307,
+        "lambda1_Ly5": 56.71005906586248,
+        "mu_perp_min": 4.7741884159568135
+      },
+      "nonperiodic_half_0": {
+        "abs_diff_Ly4_vs_Ly5": 9.432104394652626e-07,
+        "analytic_pointwise_lower_bound": 12.96008782262018,
+        "lambda1_Ly12_if_periodic": 45.59061452676432,
+        "lambda1_Ly4": 45.590613583553875,
+        "lambda1_Ly5": 45.59061452676432,
+        "mu_perp_min": 4.134568450671988
+      }
+    },
+    "periodic_0_0_topologically_obstructed_on_m004": true,
+    "seifert_spin2_holonomy_errors": {
+      "genus_1_err_from_minus_I2": 7.64174856184354e-57,
+      "genus_2_err_from_minus_I2": 1.0449155153551218e-55,
+      "genus_3_err_from_minus_I2": 4.335756304076386e-56
+    },
+    "unconditional_branch_B_collar_minimum": {
+      "L4_star_in_cusp_units": 0.8873451809112212,
+      "V_min_branch_B": -2.5144932117039493,
+      "grad_at_L4_star": 9.251720420906363e-49,
+      "second_deriv_at_L4_star": 70.94789125441731,
+      "u_star_m_spin_times_L4": 4.02591214354036
+    }
+  },
+  "part_3c_nonperturbative_scale_hierarchy": {
+    "E3_NonperturbativeScaleHierarchy_and_TierIIIGate_passed": true,
+    "PC_AP3_ClassicalHiggsMassScaleHomogeneity": {
+      "mu_H2_IR_from_zero_UV": 0.0,
+      "picard_lindelof_scaling_homogeneity_err": 3.422658402823628e-60,
+      "tier_III_v_EW_anchor_explicitly_priced": true
+    },
+    "double_instanton_ratio_exp_minus_2S45": "5.5585757664986415760767419735594574e-26",
+    "instanton_scale_ratio_exp_minus_S45": "2.3576632003953918388174373819288572e-13",
+    "s_instanton_45_sheet": "29.0759352497505462684272859651425754665",
+    "su3_2loop_confinement_ratio_over_M_UV": "3.7309502617552755763863390636408648e-15",
+    "two_route_dilog_vs_hurwitz_vol_diff": 6.223015277861142e-61,
+    "vol_m004_50digits": "2.0298832128193072500424051085490405718833786150606"
+  },
+  "stage_3_gate_passed": true
+}
