@@ -29,7 +29,7 @@ or light spectral projection is claimed.
 | **Restricted joining and constrained phase response.** Gamma=d^2/L; extra phase energy Delta^2/integral(dx/N), with matching currents at a seam. | Same kinetic action, one external interval, specified endpoints/path and longitudinal variations. Fixed phase beta, its registered winding, endpoint frames and any source are conditional data. N>0 is required for the displayed inverse. Normal variations, backreaction and full-group holonomy remain. |
 
 **Numbers and scales.** Q=(2/3)(e1+e2+e3), singlet charges +/-1,
-full-root charges +/-1/3 and +/-2/3, circle periods 2pi/6pi, SU2 norm -tr/2 and J above
+full-root charges +/-1/3, +/-2/3 and +/-4/3, circle periods 2pi/6pi, SU2 norm -tr/2 and J above
 are borrowed or declared conventions. The half in the Hopf curvature,
 its unit, the derivative 4e_Q and dimension counts follow algebraically.
 No measured coupling or empirical constant is typed into C7. G, ell,
@@ -47,3 +47,8 @@ matrix contraction is insufficient. Without this step, C7's quotient
 algebra remains, while the stationary-field and full-domain extension
 is conditional. Even with it, the foundational register-to-parent map,
 physical end map and complete spectrum remain unearned here.
+
+Correction, 2026-11-17, after main M6: the list of coloured-root charges
+above now includes +/-4/3. The previous page omitted that pair; the
+omission is retained in its earlier commits. The period and divisibility
+claims are not changed by this correction.

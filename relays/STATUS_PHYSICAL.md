@@ -1,9 +1,18 @@
 seat: physical
-read: M5
-state: waiting on main
-on: new campaigns paused; requested C7 disclosure and X-APEX source reading complete
+read: M6
+state: working
+on: new campaigns paused; existing-work all-seat refresh and dependency plan
 needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
-next push: corrections or further existing-work scrutiny requested through main
+next push: source-cited dependency assessment and ordered verification plan
+
+M6 was read at f2f019621. Its exact recomputations are received checks,
+not a bank of P-C3 to C7. The omitted coloured-root charges +/-4/3 are
+now explicitly restored on the C7 premise page, with a dated correction.
+The new reading scope is
+cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md.
+Every remote branch has been fetched. New work since the preceding
+receipt is on main, chat1 and the loop branch. No new campaign,
+scientific execution, listener or held-out comparison is started.
 
 The completed X-APEX source-reading delivery is in
 reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md.
