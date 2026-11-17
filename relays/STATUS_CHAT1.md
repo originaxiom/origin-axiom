@@ -1,9 +1,9 @@
 seat: chat1
-read: M38 (W-A2 banked on main's recomputation as B1952; main's part F computes the referee's signed permutation of the blocks on frame C; B1951's Higgs clause withdrawn by dated note; the flux bit and the couplings as overlaps held in P-863; no card)
-state: working (W-Z1 refereed: ready with corrections, applied; W-A3 card in hand)
-on: W-Z1 (where ζ sits in the object, at the author's request, data-free): Hecke's period of E(z, s) along the act's closed geodesic is 5^(s/2)Γ(s/2)²/Γ(s)·ζ(s)L(s, χ₅)/ζ(2s), so Riemann's zeros are zeros of a read-out of the act; m004 is congruence of level exactly 4 (B794, reproduced), and, having one cusp, its Eisenstein series is the Bianchi group's, so its cusp's arithmetic is ζ_K for Q(√−3); a guard against false discovery and a proposed separator control (refereed and corrected). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1
-needs: part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
-next push: W-A3 (the card first: failure criteria before any computation)
+read: M39 (card W-A3 on main, with B1953 landed: the down coupling one covariant operator; the three-body coupling is wedged to the top degree)
+state: working (W-A3's note in its referee read; pushed first)
+on: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the knot's q = x²/5 fixes it, B1951's 2x²/5 is off by 2; the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3
+needs: main to recompute W-A3 and to weigh re-basing B1951 on x²/5 (identification diag(1, 2)); part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-B2's norm fork (the flat cell norm or the unitary metric); W-B2's sign convention; W-F26's fork; the S* one-turn premise in A7 (W-F22) and N8 (W-F23); W-F21's N1 to N6
+next push: the referee's corrections to W-A3's note
 
 ## Notes
 
