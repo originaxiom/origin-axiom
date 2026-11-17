@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1645 |
-| … PROVED | 1144 |
+| arcs with a verdict file | 1646 |
+| … PROVED | 1145 |
 | … NEGATIVE | 386 |
 | … OPEN | 102 |
 | … RETRACTED | 13 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
 | B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
 | B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
 | B1946 | PROVED | “FRAME C'S CUSP MIXING IS DERANGED ONLY BY ITS MIXED HIGGS READINGS (PROVED, data-free; agy-exp's X-WALL recomputed): with the same reading S for both sectors the mixing is aligned at every point of order 5 (off-diagonal…” |
@@ -42,7 +43,6 @@
 | B1940 | PROVED | “THE BIG RUN'S AREA OPTIONS CORRECTED IN EXTENDED PRECISION (PROVED; computed once, the second computation owed): the double-precision frame breaks F-bar(tau + 1) = F-bar(tau) above Im tau about 11 because the true m1/m3…” |
 | B1939 | PROVED | “FIVE UNHARVESTED CLAIMS OF THE AGY SEATS RECOMPUTED ON NEW CODE (PROVED as stated): non-central flat SU(5) lines exist only with both the centre phases and charge conjugation, only at level 25, and the mark's order-10 h…” |
 | B1938 | PROVED | “FRAME C'S COUPLING IS THE HIGGS'S OWN SZEGO KERNEL TIMES TWO TWISTED DETERMINANTS, AND ITS READ-OUT DOES NOT SEE THE FLAT LINE'S GAUGE GROUP (PROVED; main's multi-agent run on the dictionary, every computation re-run by…” |
-| B1937 | OPEN | “THE BIG RUN'S RULE AMENDED BEFORE THE LOOK, AND THE FIRST SECOND COMPUTATION OF ITS VALUES (OPEN: the run not made, the area options' second computation owed): a cold read of version 1 (cited) found ten lines to fix; ve…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-15, S306p: THE GOAL RESET AT THE AUTHOR'S WORD: RELATIONS THAT HOLD IN EVERY HISTORY (P-862); THE RECORD'S RELATIONS INVENTORIED (B1948).** Main's own view (written solo, committed before any seat's answer) and its same-day correction: the index route was MASTERPLAN v3's and its answer is the chirality bit; every open piece is a selection, and the principle as its author states it selects nothing, so a parameter-free programme predicts relations, not single values. B1948: of 21 relations the record holds, one is live (TM1, 2.28 sigma, needing a selected residual pair); the frame-wide flavour relations are all refuted, each naming a requirement; the weave's symmetry gives no…”
+“LATEST (2026-11-17, S306p: IN THE FRAME THE LEPTONS SHARE THE DOWN QUARKS' EXPONENTS AT EVERY LEVEL (B1949, PROVED, data-free; P-862 step 2).** The coupling sees a sector only through its charges times the point, so Y_lep(tau, w) = Y_(-1,2)(tau, 3w) exactly, and the cusp exponents, blind to a leg's sign, coincide for leptons and down quarks at every level not divisible by 3. The level changes an order-one factor only: 1 at order 5, and at order 10 the down sector's ratio between its two readings (0.6346 or 1.5757, cusp limit), with the first generation unsplit; at order 15 the leptons are steeper. Three selection-free relations, none compared; by main's disclosed recall each is expected to…”
 
 ## Completeness (nothing skipped silently)
 

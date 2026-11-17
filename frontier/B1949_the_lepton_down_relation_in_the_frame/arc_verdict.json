@@ -1,0 +1,33 @@
+{
+ "id": "B1949",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1948",
+  "B1945",
+  "B1940",
+  "B1788",
+  "B1934",
+  "B1942",
+  "B1698",
+  "B1729",
+  "B1738"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat's SM-C13b (harvest row 1819): the order-10 lepton rows as the down rows with the doublet's twist negated"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "frame C's coupling (B1656's four-channel form, the exact channel weight, the canonical end held above height 6), B1940's extended-precision frame",
+  "object": "the lepton sector against the down sector: the couplings, the cusp exponents at every slope and level, and the ratio of the levels' averaged singular-value ratios high in the cusp",
+  "reach": "class",
+  "hypotheses": "R1 exact (36 cases); R2 on every slope of denominator up to 30; R3 at levels 5, 10, 15, 20, 30; R4 at heights 16, 22, 28 on one column, with a second column added after the read (a 3e-4 shift through the held end); R5 not blind; data-free"
+ },
+ "claim_one_line": "IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector only through its charges times the point, so Y_lep(tau, w) = Y_(-1,2)(tau, 3w) exactly, the down sector with the doublet's sign negated; the cusp exponents ignore that sign, so e_lep(alpha) = e_down(3 alpha) on every slope, and at every level not divisible by 3 the lepton and down exponents coincide (at levels divisible by 3 the leptons see the down exponents of order N/3); the order-one factor between the levels' averaged second-generation ratios is 1 at order 5, and at order 10 tends to 0.6346 or its reciprocal 1.5757 by reading (constant in Im tau, shifting 3e-4 with Re tau through the held end), the first generation unsplit; that constant is the down sector's own ratio between its two readings, a cusp-limit relation only (the bulk differs by 6 to 25 %). Three selection-free relations, one per level; by main's disclosed recall each is expected to fail against the known lepton-down split, and none is compared here. 0 of 19.",
+ "weave_or_thread": "the weave (the points of a level)"
+}

@@ -1,0 +1,12 @@
+R1: Y_lep(tau, w) against Y_(-1,2)(tau, 3w), 36 cases: worst relative difference 0.0e+00
+R2: e_lep(alpha) = e_down(3 alpha), both generations and readings: 556 of 556 slopes agree exactly
+R3: N =  5, reading S : lepton multiset = down multiset at N: True
+R3: N =  5, reading St: lepton multiset = down multiset at N: True
+R3: N = 10, reading S : lepton multiset = down multiset at N: True
+R3: N = 10, reading St: lepton multiset = down multiset at N: True
+R3: N = 15, reading S : lepton multiset = down multiset at N: False; = down at the points 3w (order N/3): True
+R3: N = 15, reading St: lepton multiset = down multiset at N: False; = down at the points 3w (order N/3): True
+R3: N = 20, reading S : lepton multiset = down multiset at N: True
+R3: N = 20, reading St: lepton multiset = down multiset at N: True
+R3: N = 30, reading S : lepton multiset = down multiset at N: False; = down at the points 3w (order N/3): True
+R3: N = 30, reading St: lepton multiset = down multiset at N: False; = down at the points 3w (order N/3): True

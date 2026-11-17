@@ -1,0 +1,2 @@
+N = 10, reading S , x = 0.37, height 22: lepton/down average m2/m3 0.634449
+N = 10, reading St, x = 0.37, height 22: lepton/down average m2/m3 1.576172

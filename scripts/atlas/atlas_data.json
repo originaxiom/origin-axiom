@@ -17513,6 +17513,19 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1949": {
+   "slug": "the lepton down relation in the frame",
+   "motifs": [
+    "coupling",
+    "eisenstein",
+    "z3_generation"
+   ],
+   "refs": [],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B196": {
    "slug": "entropy conformal dimension",
    "motifs": [

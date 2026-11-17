@@ -1,0 +1,6 @@
+N = 10, tau = 0.13 + 1.7i: lep(S) against down(S~) 2.3e-01, lep(S~) against down(S) 1.6e-01; lep(S) against down(S) 1.3e-01
+N = 10, tau = -0.31 + 2.9i: lep(S) against down(S~) 2.5e-01, lep(S~) against down(S) 2.3e-01; lep(S) against down(S) 1.6e-01
+N = 10, tau = 0.4 + 6.0i: lep(S) against down(S~) 6.5e-02, lep(S~) against down(S) 6.4e-02; lep(S) against down(S) 3.2e-01
+N =  5, tau = 0.13 + 1.7i: lep(S) against down(S~) 1.1e+00, lep(S~) against down(S) 5.2e-01; lep(S) against down(S) 0.0e+00
+N =  5, tau = -0.31 + 2.9i: lep(S) against down(S~) 3.6e+00, lep(S~) against down(S) 7.8e-01; lep(S) against down(S) 0.0e+00
+N =  5, tau = 0.4 + 6.0i: lep(S) against down(S~) 1.0e+00, lep(S~) against down(S) 5.1e-01; lep(S) against down(S) 0.0e+00
