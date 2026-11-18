@@ -1,0 +1,10 @@
+{
+ "id": "agyaudit-st20-01",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its status at 6b961101e: stage one's twentieth revision of its own code closes six source-scanner and Guardrail-two dataflow classes and enters an independent countercheck; its own work on its branch, not run by main",
+ "note": "",
+ "units": [
+  "agy-audit:STATUS_AGY:16"
+ ]
+}

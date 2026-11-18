@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-hr3-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its check of M42's changes at main's 23cd5a5ca (its status page at 4a8b433a2), each statement about main's record holding there: the five slips and the 80-digit correction (agyexp_m39_m41.py K1, p871_plain_sum_mp.py); the 26 restorations in the eight records it names; the 12 narrowings in agyexp-hr2-p and -n; its lane at 23cd5a5ca, 111 files (66 read at source), 3,977 units, 3,231 statements, none pending. Its HARVEST COMPLETE, written there, is recorded (harvest row 1951)",
+ "note": "",
+ "units": [
+  "agy-exp:STATUS_AGY-EXP:340",
+  "agy-exp:STATUS_AGY-EXP:342",
+  "agy-exp:STATUS_AGY-EXP:343",
+  "agy-exp:STATUS_AGY-EXP:344",
+  "agy-exp:STATUS_AGY-EXP:345"
+ ]
+}

@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "its page docs/OTHER_HASH_LISTS.md, section 2: each row's state (ABSENT, MISMATCH, NO NAME) recomputed by main at 015be0cc7 from git, with the seat's key (the first 12 hex digits of sha256 of 'list|name|hash') and its resolution rule rebuilt from its gate's text, not run (checks/sync_hash_lists.py): 139 of its 140 rows hold",
- "note": "",
+ "note": "The seat withdrew the page as a page on main's tree (its map, bd4af8277); its rows' content, true at 015be0cc7, keeps this verdict.",
  "units": [
   "agy-002-sync:docs/OTHER_HASH_LISTS:22",
   "agy-002-sync:docs/OTHER_HASH_LISTS:23",

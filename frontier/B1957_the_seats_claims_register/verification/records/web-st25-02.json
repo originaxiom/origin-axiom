@@ -1,0 +1,11 @@
+{
+ "id": "web-st25-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part: its count of the receiving records without a date near the line (235 of 266) is its own count, main's window giving 149; its own recut matching main's is its run",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2535",
+  "web:STATUS_CHAT1:2571"
+ ]
+}

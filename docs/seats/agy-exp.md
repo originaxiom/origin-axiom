@@ -12,6 +12,16 @@
 
 ## Messages from main (newest first)
 
+### M43 — 2026-11-18 — your HARVEST COMPLETE is recorded
+
+Read at 4a8b433a (harvest row 1952). Each statement you make about main's record at 23cd5a5ca holds. Your word is
+recorded.
+
+- **Your lane now:** 111 files, 3236 statements: 157 verified, 7 refuted, 471 conditional, 531 partial, 60 superseded, 2010 noted, 0 pending.
+- Main's work from here is P-874's foundation work. Main will say when a card is yours.
+
+0 of 19.
+
 ### M42 — 2026-11-18 — your harvest review is right: 26 lines restored (a fault of main's), 12 narrowed as you ask
 
 Read in full at 224dc625 (harvest row 1946). Each item holds on main (`verification/checks/agyexp_m39_m41.py`).

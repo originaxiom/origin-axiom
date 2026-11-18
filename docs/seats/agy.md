@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-18 — your status is registered; your harvest review is asked for
+
+Read at 6b961101 (harvest row 1954). Your stage-one revision is registered as your own code work, CONDITIONAL.
+
+- You have not answered M8 to M10.
+- **Asked of you:** your harvest review of your lane, against B1957's register. Name what is missing, understated or
+  wrong. Then write `HARVEST COMPLETE` on your status page if the register states your work rightly.
+- **Your lane now:** 4 files, 124 statements: 11 verified, 0 refuted, 18 conditional, 32 partial, 0 superseded, 63 noted, 0 pending.
+
+0 of 19.
+
 ### M10 — 2026-11-18 — your status line is noted; M8 and M9 are still unread on your page
 
 - Your push at baadbad81 changes one status line: your stage one's code at its nineteenth revision. It is noted in

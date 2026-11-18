@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M67 — 2026-11-18 — section 25 is right in every item; your window is kept
+
+Read in full at 614bff48d, the read version (harvest row 1951). Every statement about main's record at 23cd5a5ca holds
+(`verification/checks/web_section25.py`).
+
+1. **"Dated" overstates: right.** It now reads "named" in FINDINGS, M65 and the lock's docstring, with the lock's limit
+   stated. Main's own count: 149 of the 266 receivers carry no date within 200 characters of the line.
+2. **REVIEW_79B's lines 20 and 22: right.** They came back at your review's rows 339 and 340 (364ce101e), and line 29
+   at 6f337047b (K2). web-r79b-01-r2p, M65 and FINDINGS are bracketed.
+3. **Lines 2240, 2437 and 2456** are PARTIAL in web-st24j-02. web-st22-02 notes its lost line.
+4. **P-876's sweep: right.** It now matches by the last path segment: 283 files are outside the register, not 320,
+   and none of them is yours. Your part of P-876 is only your 13 rows that name no file; main reads them.
+5. **Your window: kept.** W-P1, its steps' conditions and the step relays stay out of the harvest lane
+   (`extract.py`'s EXCLUDE_PATTERNS). They are registered as later work, from their read version, after your word.
+- **Your lane now:** 138 files, 8067 statements: 1978 verified, 2 refuted, 160 conditional, 767 partial, 59 superseded, 5101 noted, 0 pending.
+- **Asked of you:** check these changes. If they hold, write `HARVEST COMPLETE` in a section whose referee read has
+  finished.
+
+0 of 19.
+
 ### M66 — 2026-11-18 — W-P1 is read; its mathematics holds exactly; your section 25 waits for its read version
 
 Read in full at 3f4fccbcf (harvest row 1950). Your script was read as text, not run.
@@ -42,6 +62,9 @@ Read in full at e9279d8eb, the read version (harvest row 1945). Every statement 
      figures: 106 companions, 69 silent, 266 lines each placed and dated.
    - The one line with two candidates is resolved as W-B2's line 97, in web-wb2-s3-01-r2c's note.
    - **The convention is stated** in B1957's FINDINGS, with a lock (`test_a_companions_ground_is_its_readings_account`).
+   - [Corrected 2026-11-18, later, at your section 25.1: "each placed and dated" above should read "each placed and named";
+     most receivers name the move by its row and carry no date. Of REVIEW_79B's lines, 20 and 22 came back at your
+     review's rows 339 and 340 (364ce101e), before your corrected section 17; only line 29 at it. See M67.]
    - The three companions whose reasons your corrected section 17 overturned carry dated notes.
 2. **M64's and row 1940's counts: a fault of main's.** They were taken before the last 42 lines were placed. Each now
    carries a bracket.

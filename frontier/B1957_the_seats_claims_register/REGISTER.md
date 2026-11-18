@@ -4,17 +4,17 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 111 | 66 | 3231 | 152 | 7 | 471 | 531 | 60 | 2010 | **0** |
-| agy-002-verify | 15 | 13 | 632 | 162 | 3 | 11 | 128 | 0 | 328 | **0** |
+| agy-exp | 111 | 66 | 3236 | 157 | 7 | 471 | 531 | 60 | 2010 | **0** |
+| agy-002-verify | 16 | 13 | 709 | 169 | 3 | 11 | 128 | 0 | 398 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 185 | 184 | 12305 | 946 | 0 | 1448 | 279 | 46 | 9586 | **0** |
-| web | 139 | 139 | 8105 | 1968 | 2 | 161 | 787 | 59 | 5128 | **0** |
-| agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
-| sm | 14 | 9 | 6123 | 231 | 4 | 13 | 116 | 0 | 398 | **5361** |
-| agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 306 | 86 | 0 | 531 | **0** |
-| **all** | 550 | 490 | 32251 | 3637 | 27 | 2499 | 2134 | 165 | 18428 | **5361** |
+| web | 138 | 138 | 8067 | 1978 | 2 | 160 | 767 | 59 | 5101 | **0** |
+| agy-audit | 4 | 4 | 124 | 11 | 0 | 18 | 32 | 0 | 63 | **0** |
+| sm | 14 | 9 | 6123 | 231 | 4 | 3861 | 202 | 0 | 1825 | **0** |
+| agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
+| **all** | 550 | 489 | 32295 | 3659 | 27 | 6197 | 2119 | 765 | 19528 | **0** |
 
 ## By file
 
@@ -86,7 +86,7 @@
 | agy-exp | `relays/REVIEW_79B_AGY-EXP.md` | yes | 58 | 58 | **0** |
 | agy-exp | `relays/REVIEW_80_AGY-EXP.md` | yes | 131 | 131 | **0** |
 | agy-exp | `relays/REVIEW_83_AGY-EXP.md` | yes | 159 | 159 | **0** |
-| agy-exp | `relays/STATUS_AGY-EXP.md` | yes | 249 | 249 | **0** |
+| agy-exp | `relays/STATUS_AGY-EXP.md` | yes | 254 | 254 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_R83_review-83.md` | no | 30 | 30 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md` | no | 13 | 13 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md` | no | 13 | 13 | **0** |
@@ -138,8 +138,9 @@
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M40_B1947_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-18_M47_M48_A2_X1_D1_HIGGS_CROSS_READ_AND_SM_C21.md` | yes | 40 | 40 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT.md` | no | 16 | 16 | **0** |
+| agy-002-verify | `relays/AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP.md` | no | 70 | 70 | **0** |
 | agy-002-verify | `relays/REVIEW_83_AGY-002.md` | yes | 204 | 204 | **0** |
-| agy-002-verify | `relays/STATUS_AGY-002.md` | yes | 52 | 52 | **0** |
+| agy-002-verify | `relays/STATUS_AGY-002.md` | yes | 59 | 59 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md` | yes | 30 | 30 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-B1947_frame-d1-twisted-higgs-c2-covariance.md` | yes | 31 | 31 | **0** |
 | agy-002-verify | `relays/cards/AGY-002_A2-M51_p873-q3-exact-limit-proof-and-p871-c2-precision-masking.md` | no | 15 | 15 | **0** |
@@ -374,8 +375,8 @@
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/W_P1_PROCESS_ORBIT_RESPONSE.md` | yes | 28 | 28 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
-| web | `3f4fccbcf:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
-| web | `3f4fccbcf:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
+| web | `614bff48d:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
+| web | `614bff48d:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
@@ -432,13 +433,12 @@
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR.md` | yes | 104 | 104 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 54 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING.md` | yes | 107 | 107 | **0** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 189 | 189 | **0** |
 | web | `relays/REVIEW_79B_CHAT1.md` | yes | 49 | 49 | **0** |
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1509 | 1509 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1578 | 1578 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
@@ -517,7 +517,7 @@
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | yes | 17 | 17 | **0** |
 | agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 8 | **0** |
-| sm | `386973969:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` | no | 5361 | 0 | **5361** |
+| sm | `386973969:SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md` | no | 5361 | 5361 | **0** |
 | sm | `relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md` | yes | 27 | 27 | **0** |
 | sm | `relays/SM_C19_WHICH_BIT.md` | yes | 20 | 20 | **0** |
 | sm | `relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md` | yes | 23 | 23 | **0** |

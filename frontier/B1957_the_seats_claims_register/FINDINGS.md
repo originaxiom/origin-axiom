@@ -712,6 +712,12 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **Harvest rows 1951 to 1955 (2026-11-18, night).** agy-exp writes HARVEST COMPLETE. agy-002's supersession map for
+  lane agy-002-sync is applied (600 lines superseded at its word). The web seat's section 25: five things, each right
+  and mended, among them P-876's sweep (283 files outside, not 320) and its window: W-P1 and its steps are kept out of
+  the harvest lane until its word, then registered as later work. The SM seat's relay of 2026-10-07 has a verdict for
+  every statement by a rule stricter than the sorters' marks (main's line-by-line reading owed). The register stands at
+  0 pending.
 - **The physical lane writes HARVEST COMPLETE for its window M7 to M18 (harvest row 1949),** classification only at
   e55148259; its foundation-primitive packet's finite pieces are checked by main (`checks/physical_primitives.py`), its
   hand proofs conditional. **The web seat's W-P1 (row 1950),** the process reading, written at the author's request: its
@@ -735,11 +741,14 @@ noted, and none is pending.
 - **A convention of the register, stated at the web seat's section 24.5 (2026-11-18): a companion record's ground is its
   reading's account.** A companion (-r2x, -r3x) keeps the reasons of the reading that wrote it; when a line it lists later
   moves (restored, refiled), the ground is not rewritten: the line is held where its unit now is, by exactly one record,
-  whose ground or note names the move with its date. The lock `test_a_companions_ground_is_its_readings_account` checks
-  this on the web lane (`checks/companion_grounds.py`: 106 companions, 266 such lines, each placed and dated; one line
+  whose ground or note names the move with its date [corrected 2026-11-18, later, at the seat's section 25.1: 'with its
+  date' overstates; the receiving record names the move, mostly by the review row or harvest row that made it, and most
+  carry no date near the line; the lock tests that the move is named, not that it is dated]. The lock `test_a_companions_ground_is_its_readings_account` checks
+  this on the web lane (`checks/companion_grounds.py`: 106 companions, 266 such lines, each placed and named [dated: corrected, see above]; one line
   with two candidates resolved). In a lane whose pages are recut, a ground's line numbers are those of the cut it was
   written at, and the record's units are authoritative. Three companions whose reasons the seat's corrected section 17
-  overturned carry dated notes.
+  overturned carry dated notes. [Corrected 2026-11-18, later, at the seat's section 25.1: of REVIEW_79B's three lines, 20 and 22 came
+  back at its review's rows 339 and 340 (364ce101e), before its corrected section 17; only line 29 at the corrected section 17.]
 - **The seats' older deliveries recorded as not read (2026-11-18; P-876; `checks/older_rows_sweep.py`).** When the author
   asked whether the agy seats were fetched, each agy branch was at its harvested head; but the branch of 2026-11-11
   whose session named itself agy-002 (`agy/stage4-sync-2026-11-11`) was not a lane here, and main's ledger records its

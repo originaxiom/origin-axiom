@@ -1213,7 +1213,16 @@ def test_the_seats_older_rows_and_the_physical_answer():
     the X-FRONTIER-3 producer's blob is the same at af08bc3d2 and at agy-exp's harvested head."""
     here = pathlib.Path(__file__).resolve().parent / "checks"
     run = (here / "older_rows_sweep_run.txt").read_text()
-    assert "S2: 27 seat labels; 662 rows; 219 of them name no file; files: {'in the register': 125, 'not found': 16, 'on a branch, not in the register': 320}" in run
+    # corrected 2026-11-18, later (the web seat's section 25.4): registered files are matched by their last path segment. The counts
+    # grow with the ledger, so the lock tests the invariant: no file the sweep lists as outside the register is in UNITS.json.
+    import json, re as _re
+    V = pathlib.Path(__file__).resolve().parent
+    reg = {u[0].split(":")[1].split("/")[-1] for u in json.loads((V / "UNITS.json").read_text())["units"]}
+    out = json.loads((here / "older_rows.json").read_text())
+    outside = {f for o in out.values() for f, st in o["files"].items() if st == "on a branch, not in the register"}
+    assert outside and not (outside & reg), sorted(outside & reg)[:5]
+    m = _re.search(r"S2: (\d+) seat labels; (\d+) rows; (\d+) of them name no file; files: \{'in the register': (\d+), 'not found': (\d+), 'on a branch, not in the register': (\d+)\}", run)
+    assert m and int(m.group(4)) >= 162 and int(m.group(6)) <= 283
     ph = (here / "physical_m13_m16_run.txt").read_text()
     assert ph.count("the same: True") == 2 and "adds the card C3i: True" in ph
 
@@ -1259,6 +1268,14 @@ def test_wp1_and_the_physical_primitive_packet():
     assert "over conjugates with entries up to 6: 1.118034 (sqrt 5/2 = 1.118034)" in w and "'No clock studied here selects a point': ['B1816" in w
     f = (here / "physical_primitives_run.txt").read_text()
     assert "False" not in f.split("\n")[0] and f.count("'(6)': True") == 6 and "R at (1,1,1) 1, at (1,2,1) 5/7" in f and "4 Pi: True; with a = b, R = 1" in f
+
+
+def test_the_web_seats_section_25():
+    """added 2026-11-18: section 25 at 23cd5a5ca: the companion survey's figures and how many receivers carry a date near the
+    line (117 of 266); REVIEW_79B's lines 20 and 22 came back at 364ce101e and line 29 at 6f337047b; the three mixed lines."""
+    r = (pathlib.Path(__file__).resolve().parent / "checks" / "web_section25_run.txt").read_text()
+    assert "companions 106, silent 69, placed 266" in r and "with a date within 200 characters of the line's mention: 117 of 266" in r
+    assert "holds 2240, 2437, 2456: [True, True, True]" in r and "'statements': 7998, 'VERIFIED': 1951" in r
 
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of

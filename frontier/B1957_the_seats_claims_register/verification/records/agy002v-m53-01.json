@@ -1,0 +1,16 @@
+{
+ "id": "agy002v-m53-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its note at bd4af8277 (M52 and M53 answered), its statements about main's record: M53's contents (its four lanes' word recorded at row 1943; main's 96-of-96 finding; lane agy-002-sync's 39 files and 1,064 statements entering at row 1942), and its accounting of the lane, which matches the register file by file: Part I, 21 files edited and 187 lines with the new hash-list page's 144, 331 in all; Part II, the five files of agy:B1879 to agy:B1881, 194; Part III, the twelve relay files, 539; 1,064 across 39 files",
+ "note": "",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:14",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:15",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:16",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:17",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:25",
+  "agy-002-verify:AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP:103",
+  "agy-002-verify:STATUS_AGY-002:75"
+ ]
+}

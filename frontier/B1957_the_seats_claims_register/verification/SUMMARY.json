@@ -3,9 +3,9 @@
   "agy-exp": {
    "files": 111,
    "read": 66,
-   "units": 3977,
-   "statements": 3231,
-   "VERIFIED": 152,
+   "units": 3984,
+   "statements": 3236,
+   "VERIFIED": 157,
    "REFUTED": 7,
    "CONDITIONAL": 471,
    "PARTIAL": 531,
@@ -14,16 +14,16 @@
    "PENDING": 0
   },
   "agy-002-verify": {
-   "files": 15,
+   "files": 16,
    "read": 13,
-   "units": 722,
-   "statements": 632,
-   "VERIFIED": 162,
+   "units": 808,
+   "statements": 709,
+   "VERIFIED": 169,
    "REFUTED": 3,
    "CONDITIONAL": 11,
    "PARTIAL": 128,
    "SUPERSEDED": 0,
-   "NOTED": 328,
+   "NOTED": 398,
    "PENDING": 0
   },
   "agy-002-endgame": {
@@ -79,16 +79,16 @@
    "PENDING": 0
   },
   "web": {
-   "files": 139,
-   "read": 139,
-   "units": 8897,
-   "statements": 8105,
-   "VERIFIED": 1968,
+   "files": 138,
+   "read": 138,
+   "units": 8846,
+   "statements": 8067,
+   "VERIFIED": 1978,
    "REFUTED": 2,
-   "CONDITIONAL": 161,
-   "PARTIAL": 787,
+   "CONDITIONAL": 160,
+   "PARTIAL": 767,
    "SUPERSEDED": 59,
-   "NOTED": 5128,
+   "NOTED": 5101,
    "PENDING": 0
   },
   "agy-audit": {
@@ -98,10 +98,10 @@
    "statements": 124,
    "VERIFIED": 11,
    "REFUTED": 0,
-   "CONDITIONAL": 17,
+   "CONDITIONAL": 18,
    "PARTIAL": 32,
    "SUPERSEDED": 0,
-   "NOTED": 64,
+   "NOTED": 63,
    "PENDING": 0
   },
   "sm": {
@@ -111,11 +111,11 @@
    "statements": 6123,
    "VERIFIED": 231,
    "REFUTED": 4,
-   "CONDITIONAL": 13,
-   "PARTIAL": 116,
+   "CONDITIONAL": 3861,
+   "PARTIAL": 202,
    "SUPERSEDED": 0,
-   "NOTED": 398,
-   "PENDING": 5361
+   "NOTED": 1825,
+   "PENDING": 0
   },
   "agy-002-sync": {
    "files": 39,
@@ -124,10 +124,10 @@
    "statements": 1064,
    "VERIFIED": 139,
    "REFUTED": 2,
-   "CONDITIONAL": 306,
-   "PARTIAL": 86,
-   "SUPERSEDED": 0,
-   "NOTED": 531,
+   "CONDITIONAL": 156,
+   "PARTIAL": 5,
+   "SUPERSEDED": 600,
+   "NOTED": 162,
    "PENDING": 0
   }
  },
@@ -992,10 +992,10 @@
   },
   "agy-exp | relays/STATUS_AGY-EXP.md": {
    "lane": "agy-exp",
-   "units": 252,
-   "statements": 249,
+   "units": 259,
+   "statements": 254,
    "read": true,
-   "VERIFIED": 47,
+   "VERIFIED": 52,
    "REFUTED": 1,
    "CONDITIONAL": 31,
    "PARTIAL": 3,
@@ -1666,6 +1666,19 @@
    "NOTED": 0,
    "PENDING": 0
   },
+  "agy-002-verify | relays/AGY002_TO_CC_2026-11-18_M52_M53_STAGE4_SYNC_SUPERSESSION_MAP.md": {
+   "lane": "agy-002-verify",
+   "units": 79,
+   "statements": 70,
+   "read": false,
+   "VERIFIED": 6,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 64,
+   "PENDING": 0
+  },
   "agy-002-verify | relays/REVIEW_83_AGY-002.md": {
    "lane": "agy-002-verify",
    "units": 212,
@@ -1681,15 +1694,15 @@
   },
   "agy-002-verify | relays/STATUS_AGY-002.md": {
    "lane": "agy-002-verify",
-   "units": 56,
-   "statements": 52,
+   "units": 63,
+   "statements": 59,
    "read": true,
-   "VERIFIED": 10,
+   "VERIFIED": 11,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 30,
    "SUPERSEDED": 0,
-   "NOTED": 12,
+   "NOTED": 18,
    "PENDING": 0
   },
   "agy-002-verify | relays/cards/AGY-002_A2-AMP_amplitude-readout-twisted-eta-and-odd-ticks.md": {
@@ -5488,19 +5501,6 @@
    "NOTED": 31,
    "PENDING": 0
   },
-  "web | relays/CHAT1_TO_CC_2026-11-18_W-P1_THE_PROCESS_READING.md": {
-   "lane": "web",
-   "units": 122,
-   "statements": 107,
-   "read": true,
-   "VERIFIED": 17,
-   "REFUTED": 0,
-   "CONDITIONAL": 1,
-   "PARTIAL": 25,
-   "SUPERSEDED": 0,
-   "NOTED": 64,
-   "PENDING": 0
-  },
   "web | relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md": {
    "lane": "web",
    "units": 206,
@@ -5568,15 +5568,15 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 1607,
-   "statements": 1509,
+   "units": 1678,
+   "statements": 1578,
    "read": true,
-   "VERIFIED": 753,
+   "VERIFIED": 780,
    "REFUTED": 0,
    "CONDITIONAL": 48,
-   "PARTIAL": 41,
+   "PARTIAL": 46,
    "SUPERSEDED": 5,
-   "NOTED": 662,
+   "NOTED": 699,
    "PENDING": 0
   },
   "web | relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md": {
@@ -6587,10 +6587,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 1,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 8,
+   "NOTED": 7,
    "PENDING": 0
   },
   "sm | SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md": {
@@ -6600,11 +6600,11 @@
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 3848,
+   "PARTIAL": 86,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 5361
+   "NOTED": 1427,
+   "PENDING": 0
   },
   "sm | relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md": {
    "lane": "sm",
@@ -6784,8 +6784,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 26,
+   "SUPERSEDED": 26,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | CLAIMS.md": {
@@ -6797,8 +6797,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 1,
+   "SUPERSEDED": 1,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | PROGRESS_LOG.md": {
@@ -6810,8 +6810,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 8,
+   "SUPERSEDED": 8,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | README.md": {
@@ -6823,8 +6823,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 3,
+   "SUPERSEDED": 3,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/CAMPAIGN_STATUS.md": {
@@ -6836,8 +6836,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 2,
+   "SUPERSEDED": 2,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/HARVEST_LEDGER.md": {
@@ -6849,8 +6849,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 5,
+   "SUPERSEDED": 5,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/LAW_MAP.md": {
@@ -6862,8 +6862,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 6,
+   "SUPERSEDED": 6,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/OTHER_HASH_LISTS.md": {
@@ -6888,8 +6888,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 9,
+   "SUPERSEDED": 9,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/RELAY_LEDGER.md": {
@@ -6901,8 +6901,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 4,
+   "SUPERSEDED": 4,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/SEAL_LEDGER.md": {
@@ -6914,8 +6914,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 49,
+   "SUPERSEDED": 49,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/SEAL_ORDER_UNSHOWN.md": {
@@ -6927,8 +6927,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 22,
+   "SUPERSEDED": 22,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/THE_SM_VERDICT.md": {
@@ -6953,8 +6953,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 10,
+   "SUPERSEDED": 10,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/views/COVERAGE.md": {
@@ -6966,8 +6966,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 3,
+   "SUPERSEDED": 3,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/views/REVIEWER.md": {
@@ -6979,8 +6979,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 5,
+   "SUPERSEDED": 5,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/views/THE_SPINE.md": {
@@ -6992,8 +6992,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 3,
+   "SUPERSEDED": 3,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | docs/views/VERDICT_LEDGER.md": {
@@ -7005,8 +7005,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 4,
+   "SUPERSEDED": 4,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1858_the_closure_map/CLOSURE_QUEUE.md": {
@@ -7018,8 +7018,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 2,
+   "SUPERSEDED": 2,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1858_the_closure_map/MAP.md": {
@@ -7031,8 +7031,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 1,
+   "SUPERSEDED": 1,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1861_the_closure_programme/FINDINGS.md": {
@@ -7044,8 +7044,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 1,
+   "SUPERSEDED": 1,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1861_the_closure_programme/PROGRAMME.md": {
@@ -7057,8 +7057,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 23,
+   "SUPERSEDED": 23,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md": {
@@ -7068,10 +7068,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 23,
+   "CONDITIONAL": 4,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 12,
+   "SUPERSEDED": 30,
+   "NOTED": 1,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md": {
@@ -7081,9 +7081,9 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 37,
+   "CONDITIONAL": 36,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
+   "SUPERSEDED": 1,
    "NOTED": 12,
    "PENDING": 0
   },
@@ -7094,10 +7094,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 11,
+   "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 20,
+   "SUPERSEDED": 31,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/FINDINGS.md": {
@@ -7107,10 +7107,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 29,
+   "CONDITIONAL": 10,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 8,
+   "SUPERSEDED": 21,
+   "NOTED": 6,
    "PENDING": 0
   },
   "agy-002-sync | frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/PREREGISTRATION.md": {
@@ -7120,10 +7120,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 23,
+   "CONDITIONAL": 20,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 19,
+   "SUPERSEDED": 9,
+   "NOTED": 13,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md": {
@@ -7135,8 +7135,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 6,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 20,
+   "SUPERSEDED": 1,
+   "NOTED": 19,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/AGY_TO_CC_2026-11-11_FULL_AUDIT_OPINION_AND_REPO_SPLIT_PROPOSAL.md": {
@@ -7146,10 +7146,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 18,
+   "CONDITIONAL": 14,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 36,
+   "SUPERSEDED": 17,
+   "NOTED": 23,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/CLAIMS_PROVEN.md": {
@@ -7159,9 +7159,9 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 7,
+   "CONDITIONAL": 6,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
+   "SUPERSEDED": 1,
    "NOTED": 0,
    "PENDING": 0
   },
@@ -7174,8 +7174,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 1,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 13,
+   "SUPERSEDED": 7,
+   "NOTED": 6,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY.md": {
@@ -7186,9 +7186,9 @@
    "VERIFIED": 0,
    "REFUTED": 2,
    "CONDITIONAL": 0,
-   "PARTIAL": 81,
-   "SUPERSEDED": 0,
-   "NOTED": 1,
+   "PARTIAL": 0,
+   "SUPERSEDED": 82,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/02_ZERO_TRUST_FULL_AUDIT_PLAN.md": {
@@ -7198,10 +7198,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 9,
+   "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 58,
+   "SUPERSEDED": 67,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/03_FULL_RESTRUCTURE_PROPOSAL_AND_BREAKTHROUGH_BLUEPRINT.md": {
@@ -7211,10 +7211,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 38,
+   "CONDITIONAL": 22,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 98,
+   "SUPERSEDED": 51,
+   "NOTED": 63,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/04_STAGE1_ZERO_TRUST_AUDIT_REPORT.md": {
@@ -7224,10 +7224,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 36,
+   "CONDITIONAL": 23,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 11,
+   "SUPERSEDED": 15,
+   "NOTED": 9,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/06_STAGE2_WORKSTREAMS_REPORT.md": {
@@ -7237,10 +7237,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 15,
+   "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 7,
+   "SUPERSEDED": 22,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/08_STAGE3_EXECUTION_REPORT.md": {
@@ -7250,10 +7250,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 24,
+   "CONDITIONAL": 0,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 11,
+   "SUPERSEDED": 35,
+   "NOTED": 0,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/10_STAGE4_COMPLETE_EXECUTION_REPORT.md": {
@@ -7263,10 +7263,10 @@
    "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 28,
+   "CONDITIONAL": 13,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 17,
+   "SUPERSEDED": 22,
+   "NOTED": 10,
    "PENDING": 0
   },
   "agy-002-sync | relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/reports/E3_PROPAGATION_PATCHES.md": {
@@ -7278,8 +7278,8 @@
    "REFUTED": 0,
    "CONDITIONAL": 1,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 1,
+   "SUPERSEDED": 1,
+   "NOTED": 0,
    "PENDING": 0
   }
  }

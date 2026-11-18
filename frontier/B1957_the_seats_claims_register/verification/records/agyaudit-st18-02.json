@@ -4,7 +4,5 @@
  "verdict": "NOTED",
  "how": "the agy lane's status line at baadbad81: its own code's nineteenth revision of stage one and the counterchecks it runs; its code is not run by main",
  "note": "",
- "units": [
-  "agy-audit:STATUS_AGY:16"
- ]
+ "units": []
 }

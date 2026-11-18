@@ -4,20 +4,26 @@ none is skipped.  Run by hand (it needs the seats' remote branches); it writes U
 import hashlib, json, pathlib, re, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 LANES = (  # (lane, the seat's name, branch, base before the window, head harvested to)
-    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "224dc6253"),
-    ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "8203f3987"),
+    ("agy-exp", "agy-exp", "origin/agy/self-consistent-loop-2026-11-11", "ef140a024", "4a8b433a2"),
+    ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "bd4af8277"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
     ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "cde6e6c64"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "3f4fccbcf"),
-    ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "baadbad81"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "614bff48d"),
+    ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "6b961101e"),
     ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "386973969"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
     # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
     # (harvest row 1702). Main's ledger records its seven reports and receipts as not read (row 1696), its three arcs read at name level
     # (row 1677) and P-781 owing main's check of every data-free statement in them; none of it was in the register.
     ("agy-002-sync", "agy-002", "origin/agy/stage4-sync-2026-11-11", "015be0cc7", "d37c773d6"),
 )
+EXCLUDE_PATTERNS = {  # glob patterns of files kept out of a lane's window, each with the reason
+    # the web seat's foundation work after the harvest (its card W-P1, its steps' conditions and step relays), at its status page's
+    # section 25.5 (614bff48d): kept out of the harvest lane until its completion line is written, then registered as later work
+    # from the version that carries its referee read (B1957's FINDINGS; P-874)
+    "web": ("relays/CHAT1_TO_CC_2026-11-18_W-P1_*", "relays/cards/CHAT1_W-P1_*", "relays/CHAT1_TO_CC_*_W-P1A_*", "relays/CHAT1_TO_CC_*_W-P1B_*", "relays/CHAT1_TO_CC_*_W-P1C_*"),
+}
 EXCLUDE = {  # files in a lane's window that are not the seat's own statements, each with the reason
     # a byte-identical copy of the web seat's relay of 2026-11-11, which main read in full and verified in its own B1881 (harvest row 1674)
     "agy-002-sync": ("frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/received/CHAT1_TO_CC_2026-11-11_THE_READ_OUT_AS_A_VALUE.md",),
@@ -238,6 +244,8 @@ if __name__ == "__main__":
         if tip != head: print("%-18s the branch is at %s, beyond the head this register is cut at (%s)" % (lane, tip, head))
         names = [f for f in git("diff", "--name-only", "--diff-filter=AM", base, head, "--", "*.md").split("\n") if f]
         names = sorted((set(names) | set(EXTRA.get(lane, ()))) - set(EXCLUDE.get(lane, ())))
+        import fnmatch
+        names = [f for f in names if not any(fnmatch.fnmatch(f, pat) for pat in EXCLUDE_PATTERNS.get(lane, ()))]
         for f in sorted(names):
             text = git("show", "%s:%s" % (head, f)); us = units_of(text); k = 0
             if lane in ADDED_ONLY and subprocess.run(["git", "cat-file", "-e", "%s:%s" % (base, f)], cwd=HERE, capture_output=True).returncode == 0:

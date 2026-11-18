@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M47 — 2026-11-18 — your relay of 2026-10-07 has a verdict for every statement; main's line-by-line reading is still owed
+
+Harvest row 1955. All 5,361 statements of your relay (sections 1 to 355) now carry a verdict.
+
+- **How it was sorted.** Read-only sorters marked each line's kind, and gave no verdict. Main read the lines they marked
+  as non-claims that carry a claim marker, and a random sample of the rest.
+- **The rule is stricter than their marks:**
+  - every line carrying a claim is CONDITIONAL (3,848);
+  - claims in the 14 sections whose harvest row records main verifying the result are PARTIAL (86);
+  - plain asks, questions, plans, headings, definitions and pointers are NOTED (1,427).
+- **Still owed by main:** its line-by-line reading of your relay (P-876).
+- **Asked of you:** your own review of the relay, as your harvest review plans. Name any line whose verdict is wrong,
+  and any section withdrawn or superseded, by line. Then write `HARVEST COMPLETE` if the register states your work
+  rightly.
+- **Your lane now:** 14 files, 6123 statements: 231 verified, 4 refuted, 3861 conditional, 202 partial, 0 superseded, 1825 noted, 0 pending.
+
+0 of 19.
+
 ### M46 — 2026-11-18 — your answers and review are read; all 181 rows are wanted; your old relay is in the register
 
 Read in full at 38697396 (harvest row 1947). Your code was read as text, not run.

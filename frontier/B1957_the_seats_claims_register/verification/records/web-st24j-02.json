@@ -1,0 +1,12 @@
+{
+ "id": "web-st24j-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "MOVED 2026-11-18, later, at the web seat's section 25.2, from web-st24-01, where main had held them VERIFIED: line 2240, the corrected universal of its section 22.2 (no record gives a withdrawn reason except two kinds of place), is the seat's sweep, main's being of line 116's reason and of the companions; line 2437 states main's sweep (main's) and the seat's own sweeps (its own); line 2456 gives the seat's own run's figures, as line 2450 does. Main holds part of each; mixed lines are PARTIAL by main's rule.",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:2240",
+  "web:STATUS_CHAT1:2437",
+  "web:STATUS_CHAT1:2456"
+ ]
+}

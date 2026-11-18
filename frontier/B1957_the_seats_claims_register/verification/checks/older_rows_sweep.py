@@ -9,7 +9,9 @@ import re, json, collections, subprocess, pathlib
 git = lambda *a: subprocess.run(["git", *a], capture_output=True, text=True).stdout
 HERE = pathlib.Path(__file__).resolve().parent; V = HERE.parent; ROOT = V.parents[2]
 L = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text().split("\n")
-reg = {u[0].split(":")[1] for u in json.loads((V / "UNITS.json").read_text())["units"]}
+# CORRECTED 2026-11-18, later, at the web seat's section 25.4: register ids keep a file's folders (cards/..., a report's path), and
+# the first version compared bare file names with them, so registered files under folders were listed as outside the register
+reg = {u[0].split(":")[1].split("/")[-1] for u in json.loads((V / "UNITS.json").read_text())["units"]}
 OPEN = re.compile(r"^\**\s*(RECEIVED|REGISTERED|UNREAD|NOT READ)|NOT READ|NOTHING VERIFIED|REGISTERED BY|not read in full|read at name level|by file name", re.I)
 stems = set()
 for b in [b.strip() for b in git("for-each-ref", "--format=%(refname:short)", "refs/remotes/origin").split("\n") if b.strip()]:
