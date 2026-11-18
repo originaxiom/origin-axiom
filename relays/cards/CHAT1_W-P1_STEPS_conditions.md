@@ -147,4 +147,27 @@ class) and not zero for a = 1.
 **Failure.** G1 finds a differing trace on an element not of order 5: then the account of where the class shows is
 wrong, and the step's proof waits until it is mended.
 
+## Step 3's follow-up: F0's per-word bound failed (W-P1c-D)
+
+**What happened.** The follow-up's run (`wp1c_followup_out.txt`) met F0's pooled bound (worst 5.0e-5 against 2e-4)
+and failed its per-word bound (worst 6.3e-2 against 5e-3). By the condition above, F3 and the page's § 4 do not stand
+until the cause is found. Written before the diagnosis's script.
+
+**The suspect [J].** Height 1.118 is LR's top exactly (√5/2). A stretch of alternating letters gives runs whose axes
+reach within a hair of it, so their time above it is short: 2 arccosh(ρ/y) grows like the square root of ρ − y. The
+sampling's step is about 1/120. An excursion shorter than a step is caught by one sample or none, so a word with many
+such excursions can be off by several steps, while the errors cancel in the pool.
+
+**What, fixed now.** The same words and the same two methods.
+- **D1.** For each setting and each height (1.118, 2, 3, 4, 6), the worst per-word difference between the sampling and
+  the closed form.
+- **D2.** For the worst word overall: its height, its runs whose ρ exceeds that height by less than 1e-3 (their number
+  and their closed-form time), and the difference again with the sampling ten times as dense (1,200 per unit length).
+
+**Expected [J].** The worst differences are at height 1.118. At heights 2 to 6 they are below 5e-3. D2: the worst
+word's height is 1.118, it has grazing runs, and the denser sampling shrinks its difference.
+
+**Failure.** A per-word difference above 5e-3 at height 2 or above, or a difference that does not shrink with the
+denser sampling. Then the closed form is wrong for some words, and F3 is withdrawn.
+
 0 of 19.
