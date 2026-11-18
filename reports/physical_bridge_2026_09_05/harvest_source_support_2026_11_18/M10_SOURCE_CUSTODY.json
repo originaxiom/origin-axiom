@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-18",
+  "type": "Git and source custody only",
+  "sources": [
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md",
+      "sha256": "8149c298405b716a0f3cd322e834352f5547aac5d2b39387b0e57d9a67c23610",
+      "lines": 175,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/arc_verdict.json",
+      "sha256": "3c710dc41ea74f0e067c4be446df4f8827c852dcbadd3d3699fe2e6d7fcc0144",
+      "lines": 25,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/verification/cusp_inverse.py",
+      "sha256": "a61786b170a577fcda4d0cc91a926a373c4321b81296ae731b813bca6589fc8c",
+      "lines": 95,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/verification/cusp_inverse_run.txt",
+      "sha256": "ad4b4b80f396ef21939404d3c8b6adb7bc1c4fc140dbb5c874840f359c1b6b8a",
+      "lines": 7,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "frontier/B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/verification/test_b1959_cusp_inverse.py",
+      "sha256": "714f1673f6dc53efb888a620c64c2d54b6e7af488179de78346fc646d4cd169f",
+      "lines": 48,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "main",
+      "commit": "84fcf1e57f47c2f58068137707aa3f376fec9614",
+      "path": "docs/seats/physical.md",
+      "sha256": "6853c98bcb2a32ad4b1984eeaf2d535a7415ed211e1c33e241f253291c7f014e",
+      "lines": 252,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "physical",
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+      "sha256": "fc47ca4f9d898be829cbeff88afe128db052710c8ff2f6510c32c06c6116a49b",
+      "lines": 192,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "physical",
+      "commit": "8d5c9103272393ccf1bdc0c3a7fd5a8a054f5bb3",
+      "path": "reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md",
+      "sha256": "fdaaeae39c1719d769e59f8a00ae68cf50a80200759da0c0799e7e5797391da1",
+      "lines": 174,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    },
+    {
+      "lane": "physical",
+      "commit": "aa9facef6f15289a657df71003aaf38e2a97b55d",
+      "path": "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md",
+      "sha256": "10a62ce191413d963bcd38234e9986f9e7527c8982b436d38712bbdbb21d5381",
+      "lines": 314,
+      "reading": "B1959 complete five-file arc read as text; physical page M10/M11 read; own source proof read, with targeted gluing lines; no imports or execution"
+    }
+  ],
+  "unrelated_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "independent_check_of_physical_application": false,
+  "previous_goal_turn": "no progress: explanatory response only; this continuation refreshes authoritative sources and supplies the requested H1/H3 bounded-kernel argument",
+  "first_read_path_corrections": [
+    "The guessed ACTUAL_CUSP_OPERATOR_AND_GLOBAL_KERNEL.md did not exist; the actual existing proof is CUSP_INVERSE_SOURCE_SUPPORT.md.",
+    "An unmatched zsh glob stopped one text-search command before reading; the subsequent search used verified paths."
+  ],
+  "limits": [
+    "A supplied background proof is not a foundational derivation.",
+    "The new main theorem does not independently check the physical application."
+  ]
+}

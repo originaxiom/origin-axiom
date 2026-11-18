@@ -1,9 +1,25 @@
 seat: physical
-read: M9
-state: waiting on main
-on: P-C8 bounded source/hand study of tick-Higgs alignment; M9 review corrections remain open
-needs: M9 record corrections and complete-cusp inverse remain open; pass the C8 source findings and coherent-control proofs to a non-authoring reader
-next push: on a source correction or independent review request; bounded C8 analysis delivered, scientific execution remains paused
+read: M11
+state: working
+on: M10 actual-background H1/H3 reply and existing action/selection source review; C8 delivery awaits independent checking
+needs: independent checking of the actual-background application of B1959 and the C8 coherent control; M9 record corrections remain open
+next push: actual-background H1/H3 source reply and bounded action-source continuation; no scientific execution
+
+M10/M11 were read at 84fcf1e57. B1959's complete five-file arc was
+personally read as text without execution. It supplies an independent
+theorem for the weighted cusp inverse under H1 to H3, and does not
+independently check this lane's background. The requested short source
+answer is harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY.md.
+It gives the exact source lines and channel operator, and writes the
+cutoff energy argument for the bounded kernel RQ. The scope is the
+specified E6 classical gauge sector; the full E8 colour kernel remains.
+The record update must distinguish this received theorem from the
+still-unreviewed physical application and nonlinear stationary family.
+No new scientific campaign, numerical run, comparison or listener starts.
+
+The active goal retains full vacuum selection, SM3 and gravity.
+The previous response only explained status; this continuation adds
+the requested physical-operator support and checks current sources.
 
 2026-11-18: P-C8 is scoped at 566c54d4c, with source pins at 9c24934cc.
 This is a bounded analytical/source continuation of the existing selection
