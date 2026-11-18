@@ -3,7 +3,7 @@ read: M9
 state: working
 on: P-C8 bounded source/hand study of tick-Higgs alignment; M9 review corrections remain open
 needs: main's response to M9-01 to M9-05 and independent proof of the actual complete-cusp inverse; P-C8 requires its own independent review
-next push: covariant lift and kinetic-response derivation and the full action/selection duty
+next push: bounded C21 source addendum and consolidated C8 delivery; no scientific execution
 
 2026-11-18: P-C8 is scoped at 566c54d4c, with source pins at 9c24934cc.
 This is a bounded analytical/source continuation of the existing selection
@@ -16,6 +16,23 @@ It classifies the allowed quadratic alignment operator and local quartic;
 their coefficients still require the existing action. Source geometry
 and covariance are being traced before any physical selector is claimed.
 No foundational input is counted removed.
+
+The covariant continuation derives the magnetic Wilson-family connection,
+its positive geometric kinetic term and the large-gauge clock/shift
+transitions. On the golden axis its scalar connection phase cancels the
+endpoint frame phase, recovering the relative kinetic spectrum under
+the stated embedding. The full action join remains missing: Gauss
+response, physical composition of Wilson backgrounds, common fields and
+domains, and the complete relaxed selection coefficient. A protected
+quartic lower bound is not its exact anisotropy.
+
+The fresh fetch received SM-C21 at a69cee901; its new card, report,
+source and both outputs were read in full without execution. Source
+pins are in tick_higgs_alignment_2026_11_18/SOURCE_REFRESH_C21.json.
+Its two-eigenline cusp result is being checked analytically, with its
+scope separated from the coherent ground space. Other substantive
+heads and main's M9 are unchanged. No new numerical campaign, listener,
+empirical comparison or foundational input payment occurred.
 
 M9 was read at c34a926a2. All 136 physical file rows and the verdicts,
 complete explanations and notes of all 128 physical-* records were read.

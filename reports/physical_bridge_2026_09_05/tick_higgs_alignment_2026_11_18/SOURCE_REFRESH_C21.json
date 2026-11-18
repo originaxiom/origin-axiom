@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-18",
+  "type": "source and Git custody only; no scientific execution",
+  "source_window": "C18-C20 source intake retained; C21 received during bounded analytical review",
+  "original_source_checks": [
+    {
+      "path": "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/SM_C19_WHICH_BIT.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/cards/SM_C18_the-triple-overlaps-covariance.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/cards/SM_C20_is-the-exchange-the-tick.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c18/run_c18.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c18/c18_results.json",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c18/posthoc_leptons_mp.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c18/posthoc_leptons_mp.json",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c19/run_c19.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c19/c19_results.json",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c20/run_c20.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c20/c20_results.json",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/sm_c20/RUN.txt",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/SM_C13_THE_LEPTON_ROWS.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/SM_C9_THE_L_VALUE_AS_A_RHO_INVARIANT.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "relays/SM_C13b_THE_READ_OUT_AT_ORDER_10.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/level6_higgs.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_overlap.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/cim_closed.py",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "frontier/B1957_the_seats_claims_register/FINDINGS.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "GENESIS.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "docs/seats/physical.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/NONLINEAR_FAMILY_AND_COMPLETE_DOMAIN.md",
+      "sha256_matches": true,
+      "line_count_matches": true
+    }
+  ],
+  "new_sources": [
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/SM_C21_THE_D1_CUSP_MIXING.md",
+      "sha256": "0e42b99cd818350f46faa75cec87d95adc056b42ad35919017698b9515c88c42",
+      "lines": 56,
+      "reading": "Read in full as source/text; no imports or scientific execution"
+    },
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md",
+      "sha256": "fe13c1a6a32de436dbdb9736230111a2d7b78853a8e66694869f58c58c8ab12c",
+      "lines": 65,
+      "reading": "Read in full as source/text; no imports or scientific execution"
+    },
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/sm_c21/run_c21.py",
+      "sha256": "3f35b2e22ec92d1d073321f4bb5d76a11870ba4be1f157b1b53698f7d6b6055a",
+      "lines": 111,
+      "reading": "Read in full as source/text; no imports or scientific execution"
+    },
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/sm_c21/c21_results.json",
+      "sha256": "a47530f8ccd2071be4604ba4bdd63f16243042bdaacb7a2f85d94be58436686b",
+      "lines": 371,
+      "reading": "Read in full as source/text; no imports or scientific execution"
+    },
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/sm_c21/RUN.txt",
+      "sha256": "c94feb36ea0c620867280fdb8e95f1b67537647f7d6c7a2508b0d9937575f365",
+      "lines": 138,
+      "reading": "Read in full as source/text; no imports or scientific execution"
+    },
+    {
+      "commit": "a69cee901cf0a128c4b514aeb5a467dc71c59253",
+      "path": "relays/STATUS_SM.md",
+      "sha256": "ec2681d69e90a231184d1b368ed17497243a0112cfd5b1b1bcc6a56af4c2f753",
+      "lines": 463,
+      "reading": "Full new C21 report, card, source and both outputs read without import or execution; status difference read only"
+    }
+  ],
+  "current_main": "c34a926a2f796dff76f2f781bdf3d69d0fcc0e8f",
+  "unrelated_staged_patch_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "scientific_execution": 0,
+  "scientific_imports": 0,
+  "independent_mathematical_check": false
+}
