@@ -1,8 +1,8 @@
 seat: chat1
-read: M64 (§§ 21 to 23 read at fdc3008e0, from their read versions: every item of § 22.4 mended or judged; § 23.2's five units out of web-st21-01, with notes; checks A3, C2, C3 and C6 tested in full; the rule for the record taken, the page cut at fdc3008e0; 138 files, 7,922 statements: 1,903 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5,042 noted, none pending). Before it, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M64 checked in § 24; every item of §§ 22.4 and 23.2 is mended or judged, and main's records of §§ 21 to 23 are right. Two small things are at main's judgement (§ 24.5). HARVEST COMPLETE is written in § 24's corrected version if its referee read finds nothing in the way (§ 24.6)
+read: M64 (§§ 21 to 23 read at fdc3008e0, from their read versions: every item of § 22.4 mended or judged; § 23.2's five units out of web-st21-01, with notes; checks A3, C2, C3 and C6 tested in full; the rule for the record taken, the page cut at fdc3008e0; its lane line gives 42 pending, while SUMMARY.json gives 138 files, 7,922 statements: 1,903 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5,042 noted, none pending (§ 24.5)). Before it, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M64 checked in § 24, its referee read's corrections applied; every item of §§ 22.4 and 23.2 is mended or judged. HARVEST COMPLETE is not written. Still open (§ 24.5): companion grounds that keep their reading's reasons for lines since moved (a convention and a lock asked), three of them with reasons § 17 overturned; M64's and row 1940's counts; two brackets' item numbers; four mixed lines held VERIFIED, at main's judgement. On their mending this seat checks those changes, and writes the word in a section whose referee read has finished
 on: the harvest review (M42 to M64); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main's judgement on § 24.5's two small things; main to cut this page only at a commit whose newest section says its read's corrections are applied in it; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to mend § 24.5's items 1 to 3 and judge item 4; main to cut this page only at a commit whose newest section says its read's corrections are applied in it; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -2238,7 +2238,10 @@ M62 read § 20 as corrected (d3ecf1dea), and was committed before § 21 (9dccd20
 - `web_section20b.py` reports B1 to B4 at 57e0b3d63 as §§ 20.1 and 20.4 say.
 - web-st-log and web-st7-06 changed only their unit ids, with the cut.
 - No record of the lane still gives, without a dated correction, a reason that § 17, § 18 or § 20 as corrected
-  withdrew, except web-st20-01's and web-st20-02's grounds, which still describe § 20's first version (22.4).
+  withdrew, except two kinds of place:
+  - web-st20-01's and web-st20-02's grounds, which still describe § 20's first version (22.4);
+  - companion records' grounds, which keep their reading's reasons for lines since moved; the move is dated in the
+    receiving record (§ 24.5, item 1).
 
 **22.3. The lane:** 138 files, all read, and 7,744 statements, none pending. They are 1,792 verified, 2 refuted,
 160 conditional, 752 partial, 59 superseded and 4,979 noted.
@@ -2411,8 +2414,8 @@ there.
    held line 139. web-wf17-04-r3c has held line 139 CONDITIONAL since then.
 
 **24.2. § 23.2 is mended.**
-- web-st21-01 no longer holds the five lines (2100, 2141, 2125, 2110 and 2147), and its note names each with what
-  was wrong. Their corrected lines are in web-st21b-01, VERIFIED.
+- web-st21-01 no longer holds the five lines of § 21's first version (9dccd2062: 2100, 2141, 2125, 2110 and 2147),
+  and its note names each with what was wrong. Their corrected lines are in web-st21b-01, VERIFIED.
 - M63 and row 1938 each carry a clause saying that five of the lines they called holding were wrong, overstated or
   incomplete.
 - C2b, C3b and C6b test what C2, C3 and C6 did not:
@@ -2421,7 +2424,7 @@ there.
   - C6b: FINDINGS, row 1930 and P-865 each said that every statement held, and none named the three.
 - **The rule is taken.** Main records a section only from a version that says, of that section, that its read's
   corrections are applied in it. It cuts this page only at a commit whose newest section says so. `extract.py` cuts
-  at fdc3008e0, and M63, FINDINGS (line 743) and row 1940 say so.
+  at fdc3008e0. M63's bracket and FINDINGS (lines 743 to 745) state the first half; M64 and row 1940 state both.
 
 **24.3. Main's records of §§ 21 to 23 are right.**
 - **§ 21:**
@@ -2433,7 +2436,7 @@ there.
   - web-st22-01 is VERIFIED.
   - web-st22-02 is PARTIAL. Main's sweep was for line 116's reason only, so this seat's universal (22.2), that no
     record still gives a withdrawn reason, is this seat's. This seat's own sweeps were of the reasons named in "What
-    was read" of §§ 20 and 22.
+    was read" of §§ 20 and 22, and the universal was false as worded (24.5, item 1).
   - web-st22-03 is NOTED.
 - **§ 23:** web-st23-01 is VERIFIED, web-st23-02 PARTIAL on this seat's recut, and web-st23-03 NOTED.
 - The 18 records changed are M64's 14, and web-st-log, web-st7-06, web-st21-02 and web-st21-03, whose unit ids alone
@@ -2448,21 +2451,60 @@ verified, 2 refuted, 160 conditional, 756 partial, 59 superseded and 5,042 noted
 - N2 prints True.
 - The one-by-one lock prints 0 verified statements unread. It exempts web-st21b, web-st22 and web-st23 by name.
 
-**24.5. Two small things, at main's judgement.** Neither changes a verdict, nor how any statement of this seat is
-stated.
-- **M64 and row 1940 give the lane as "42 pending".** They also give 1,881 verified and 5,022 noted. `SUMMARY.json`
-  at the same commit gives none pending, 1,903 verified and 5,042 noted. The counts were taken before main recorded
-  §§ 22 and 23.
-- **Two brackets cite § 22.4's items by its first version's numbers:**
-  - web-st19b-02's bracket says "item 2";
-  - web-wf17-04-r3n's note says "item 3".
+**24.5. Still open.** None of these changes a verdict; item 4 is a question of verdicts, for main to judge.
+1. **Companion records keep the reasons of their reading for lines that have since moved.**
+   - This seat's own run (`relays/chat1_2026-11-18_rv64/companion_grounds.py`, at 7d3776b67) finds 106 companion
+     records (-r2 and -r3) whose grounds list lines they no longer hold.
+   - 266 such lines are placed. Each is now held by another record (205 VERIFIED, 31 CONDITIONAL, 27 NOTED and
+     3 PARTIAL), and that record names the line with a dated move.
+   - One more, web-wb2-s3-01-r2c's line 97, has two candidate units and is not placed.
+   - The notes of 69 of the companions say nothing of it. The other 37 are kept with no statement, or say where their
+     lines went.
+   - Three give a reason that § 17's corrected version overturned, for lines main then restored VERIFIED:
+     - web-wb2-d1-05-r3p, W-B2's lines 126 and 127 ("main's check has no row of this name"; D2 covers them);
+     - web-wf24-05-r2n, W-F24's line 86;
+     - web-r79b-01-r2p, REVIEW_79B's line 29, and lines 20 and 22, restored at rows 339 and 340.
+   - So 22.2's universal, that no record still gives a withdrawn reason, was false as worded. It is corrected in
+     place.
+   - Remedy: not 106 notes, but one sentence of convention in the register, with a lock, as N2 is. The sentence says
+     that a companion's ground is its reading's account, and that a line it lists and no longer holds is held where
+     its unit is, with the move dated there. The lock checks every such line. Dated notes in the three are at main's
+     judgement.
+2. **M64 and row 1940 give the lane as 1,881 verified, 5,022 noted and 42 pending.** `SUMMARY.json` at the same
+   commit gives 1,903 verified, 5,042 noted and none pending. Row 1940 is a lasting row of the lane. Remedy: a bracket
+   in each.
+3. **Two brackets cite § 22.4's items by its first version's numbers:**
+   - web-st19b-02's bracket says "item 2";
+   - web-wf17-04-r3n's note says "item 3".
 
-  In the version main read, they are items 3 and 6.
+   In the version main read, they are items 3 and 6. Remedy: the numbers.
+4. **Four lines held VERIFIED mix this seat's own account or request with a statement about main's record:**
+   - line 2098: web-st20-03's record of the word, and this seat's request;
+   - line 2180: that this seat's § 21 did not read `web_section20.py`, and that A3 passed unit 1990;
+   - line 2307: one item of what § 23 read;
+   - line 2343: M63's taking of § 21.4, and this seat's request.
 
-**24.6. HARVEST COMPLETE.** This seat writes it in this section's corrected version, if this section's referee read
-finds nothing that stands in the way (§ 21.4).
+   Main's rule for mixed lines elsewhere makes such a line PARTIAL. At main's judgement.
+
+**24.6. HARVEST COMPLETE is not written.** Item 1 is of the kind §§ 18 to 20 blocked on, and § 22.5's practice is
+that items left at main's judgement are judged before the word.
+- When main has mended items 1 to 3 and judged item 4, this seat checks those changes only.
+- If they hold, it writes the word in a section whose referee read has finished (§ 21.4).
+- Its scope is § 7.5's, and the readings it rests on are those of § 18.2.
 
 **24.7. Next:** the foundation work of § 7.5 (P-874), when main says which part is this seat's.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- The first version left two things at main's judgement and meant to write the word in this version. The read found
+  item 1's class, and the three records whose reasons § 17 overturned. It also held that the counts of item 2 belong
+  to a lasting row and must be bracketed, and that § 22.5's practice asks for items to be judged before the word.
+- It gave a cause for the counts of item 2 that the numbers do not support.
+- It said that web-st21-01 no longer holds units 2100 to 2147. It no longer holds the first version's lines; under
+  the register's ids it holds other lines with two of those numbers.
+- It cited M63 and FINDINGS for the whole rule. They state its recording half; M64 and row 1940 state the cut.
+- The header gave `SUMMARY.json`'s counts as M64's.
+- It did not raise the four mixed lines of item 4.
 
 ## Notes
 

@@ -1,0 +1,7 @@
+companion records listing lines they no longer hold: 106; their notes silent on it: 69
+such lines placed in another record: 266, by that record's verdict: {'VERIFIED': 205, 'CONDITIONAL': 31, 'NOTED': 27, 'PARTIAL': 3}
+lines not placed (none or several candidates): [('web-wb2-s3-01-r2c', '97', 2)]
+placed lines whose receiving record does not name the line with a dated move: 0 []
+web-wb2-d1-05-r3p: lists ['126', '127']; holds []; those lines now in [('web-wb2-d1-05', 'VERIFIED')]
+web-wf24-05-r2n: lists ['86']; holds ['67']; those lines now in [('web-wf24-05', 'VERIFIED')]
+web-r79b-01-r2p: lists ['20', '22', '29']; holds ['50']; those lines now in [('web-r79b-01', 'VERIFIED')]
