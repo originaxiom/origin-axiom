@@ -1,0 +1,16 @@
+{
+ "id": "sm-c19-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the reading drawn from the headline: 'an antiunitary composed with a modular transformation is orientation-reversing, so the bit is the hand', and that it is the same kind of bit as the tick's orientation and the hand's invariant. Main holds the sharper statement in record sm-c19-01's note (exchange if and only if the bundle's orientation is reversed); 'the same bit as' the invariants of B1926 and B1929 is not computed by anyone",
+ "note": "",
+ "units": [
+  "sm:SM_C19_WHICH_BIT:13",
+  "sm:SM_C19_WHICH_BIT:15",
+  "sm:SM_C19_WHICH_BIT:17",
+  "sm:SM_C19_WHICH_BIT:34",
+  "sm:SM_C19_WHICH_BIT:36",
+  "sm:SM_C19_WHICH_BIT:38",
+  "sm:SM_C19_WHICH_BIT:41"
+ ]
+}

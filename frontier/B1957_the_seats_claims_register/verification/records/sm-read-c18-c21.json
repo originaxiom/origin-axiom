@@ -1,0 +1,13 @@
+{
+ "id": "sm-read-c18-c21",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "sm",
+ "how": "the four result notes, each read by main in full at a69cee901 (notes read; the seat's scripts not run), and the card of SM-C21 for its construction",
+ "files": [
+  "relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md",
+  "relays/SM_C19_WHICH_BIT.md",
+  "relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md",
+  "relays/SM_C21_THE_D1_CUSP_MIXING.md"
+ ]
+}

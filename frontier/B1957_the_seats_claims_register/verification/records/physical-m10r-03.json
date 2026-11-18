@@ -1,0 +1,17 @@
+{
+ "id": "physical-m10r-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the reply's header (a hand argument, nothing run; B1959 read as text), its statement that the pointers are not a request to replace a check by a citation, its relation to B1959 (the bound delta < 1 not needed; the nonlinear steps still to be checked), its limits (a local stationary family with a free amplitude, no vacuum, no join, no field map from the magnetic model), and the two status lines of the day",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:3",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:11",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:20",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:112",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:120",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:126",
+  "physical:STATUS_PHYSICAL:8",
+  "physical:STATUS_PHYSICAL:20"
+ ]
+}

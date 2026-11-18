@@ -1,0 +1,16 @@
+{
+ "id": "physical-c8-04",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the hand proof that h* lies in the ground plane. ON MAIN: the membership itself and the two overlaps (checks/physical_c8_tick_higgs.py, K5). NOT COMPUTED: the intermediate quantities of the hand proof (the two Bloch axes' entries, the Hermitian part as a tensor product, the ratio t)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:103",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:108",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:111",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:113",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:115",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:119",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:121"
+ ]
+}

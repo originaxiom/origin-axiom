@@ -841,3 +841,125 @@ def test_the_eta_identitys_closed_form_holds_and_the_printed_sign_of_its_second_
         if Fc != 0: assert abs(Dl / (1j * math.pi / 2 * float(Fc)) + 1) < 1e-8                                    # minus, where the note prints plus
         flipped += abs(float(X.closed(o, flip=-1)) - (2j * Dl / math.pi).real) < 1e-9
     assert len(pop) >= 50 and flipped < len(pop) // 2                                                             # the form with nu2's sign changed fails on most
+
+
+def _six_modes():
+    k = np.arange(6); T6 = np.diag(np.exp(1j * np.pi * k ** 2 / 6)); S6 = np.exp(-1j * np.pi / 4) * np.exp(-2j * np.pi * np.outer(k, k) / 6) / np.sqrt(6)
+    U = T6 @ np.linalg.inv(S6) @ np.linalg.inv(T6) @ S6; ev, V = np.linalg.eig(U); ph = np.angle(ev) / np.pi
+    vp = V[:, int(np.argmin(abs(ph - 1 / 6)))]; vm = V[:, int(np.argmin(abs(ph + 1 / 6)))]
+    return k, T6, S6, U, vp / np.linalg.norm(vp), vm / np.linalg.norm(vm)
+
+
+def test_the_higgs_pair_is_exchanged_by_what_reverses_the_bundles_orientation_a_unitary_among_them():
+    k, T6, S6, U, vp, vm = _six_modes(); inv = np.linalg.inv; near = lambda A, B: np.abs(A - B).max() < 1e-12
+    assert near(S6 @ U @ inv(S6), inv(U)) and abs(abs(np.vdot(vm, S6 @ vp)) - 1) < 1e-12              # a unitary of determinant 1 inverts the transport and exchanges
+    A = T6 @ S6; assert near(A @ A.conj(), U) and near(A @ U.conj() @ inv(A), U) and abs(abs(np.vdot(vm, A @ vp.conj())) - 1) < 1e-12   # the tick: keeps the transport, exchanges
+    assert near(T6 @ U.conj() @ inv(T6), inv(U)) and abs(abs(np.vdot(vp, T6 @ vp.conj())) - 1) < 1e-12  # the antiunitary T6 K inverts the transport and keeps the pair
+    assert near(U @ U @ inv(U), U) and abs(abs(np.vdot(vp, U @ vp)) - 1) < 1e-12                       # a unitary that keeps the transport keeps the pair
+    assert abs(np.vdot(vm, T6 @ vp)) < 0.99 and abs(np.vdot(vp, T6 @ vp)) < 0.99                        # control: the unitary T6 does neither
+
+
+def test_the_six_modes_factor_as_two_by_three_and_each_lift_leaks_two_thirds_of_the_ground_vector():
+    k, T6, S6, U, vp, vm = _six_modes(); perm = np.zeros((6, 6)); w3 = np.exp(2j * np.pi / 3)
+    for a in range(2):
+        for b in range(3): perm[(3 * a + 4 * b) % 6, 3 * a + b] = 1
+    Fm = lambda N: np.exp(-2j * np.pi * np.outer(np.arange(N), np.arange(N)) / N) / np.sqrt(N)
+    assert np.abs(perm.T @ T6 @ perm - np.kron(np.diag([1, -1j]), np.diag([1, w3, w3]))).max() < 1e-12 and np.abs(perm.T @ Fm(6) @ perm - np.kron(Fm(2), Fm(3).conj())).max() < 1e-12
+    assert np.abs(np.poly(U) - np.array([1, -1, 0, 1, 0, -1, 1])).max() < 1e-9                           # (x^2 - x + 1)(x^4 - x^2 + 1)
+    assert np.abs(np.linalg.matrix_power(U, 12) - np.eye(6)).max() < 1e-10 and np.abs(np.linalg.matrix_power(U, 6) - np.eye(6)).max() > 1
+    Z3 = np.diag((-1.0) ** k); X3 = np.roll(np.eye(6), 3, axis=0); PE = np.outer(vp, vp.conj()) + np.outer(vm, vm.conj())
+    for g in (Z3, X3, Z3 @ X3):
+        assert abs(abs(np.vdot(vp, g @ vp)) ** 2 - 1 / 3) < 1e-12 and abs(np.vdot(vm, g @ vp)) < 1e-12 and abs(np.linalg.norm((np.eye(6) - PE) @ g @ vp) ** 2 - 2 / 3) < 1e-12
+    assert abs(abs(np.vdot(vp, np.diag(np.exp(2j * np.pi * k / 6)) @ vp)) ** 2 - 1 / 3) > 1e-3           # control: the clock itself (a sixth of a period) does not give a third
+
+
+def test_the_coherent_ground_vector_has_cusp_exponents_four_thirds_and_one_fifth_where_the_eigenvectors_have_none():
+    import mpmath as mp
+    mp.mp.dps = 50; k, T6, S6, U, vp, vm = _six_modes(); e12 = mp.exp(1j * mp.pi / 12); hs = [1 / mp.sqrt(2), e12 / 2, 0, 0, 0, e12 / 2]
+    hn = np.array([complex(x) for x in hs]); assert np.abs((U + U.conj().T) / 2 @ hn - np.sqrt(3) / 2 * hn).max() < 1e-12 and abs(abs(np.vdot(vp, hn)) ** 2 - 0.5) < 1e-12
+    def M(y, delta, h):
+        tau = mp.mpc("0.13", y); xi = mp.mpf(delta) * (mp.mpf(2) / 5 * tau + mp.mpf(4) / 5) / 2; out = mp.zeros(3, 3)
+        for i in range(3):
+            for j in range(3):
+                for m in (0, 1):
+                    kk = (i + j + 1 + 3 * m) % 6; a = mp.mpf((i - j + 3 * m) % 6) / 6; n0 = mp.nint(a + mp.im(xi) / y)
+                    s = sum(mp.exp(6j * mp.pi * xi * mp.im(xi) / y + 6j * mp.pi * (n + a - n0) ** 2 * tau + 12j * mp.pi * (n + a - n0) * xi) for n in range(-12, 13))
+                    out[i, j] += h[kk] * mp.exp(2j * mp.pi * kk / 6) * s
+        return sorted((abs(x) for x in mp.svd_c(out, compute_uv=False)), reverse=True)
+    def E(delta, h):
+        a, b = M(9, delta, h), M(13, delta, h); return [float(-(mp.log(b[i] / b[0]) - mp.log(a[i] / a[0])) / (4 * mp.pi)) for i in (1, 2)]
+    up, down = E(5, hs), E(-1, hs)
+    assert abs(up[0]) < 0.01 and abs(up[1] - 4 / 3) < 0.01 and abs(down[0] - 0.2) < 0.01 and abs(down[1] - 0.8) < 0.01
+    assert np.abs(np.array(E(-9, hs)) - np.array(down)).max() < 1e-9                                      # the lepton matrix is the transpose of the down matrix
+    flat = E(-1, [mp.mpc(complex(x)) for x in vp]); assert abs(flat[0]) < 0.02 and abs(flat[1]) < 0.02    # an eigenvector has no hierarchy
+
+
+def test_the_reflection_z_to_its_conjugate_gives_conjugation_with_the_parity_on_the_flux_six_modes():
+    rng = np.random.default_rng(2); k = np.arange(6)
+    for _ in range(3):
+        tau = complex(rng.uniform(-0.4, 0.4), rng.uniform(0.7, 1.5)); zeta = complex(rng.uniform(-0.3, 0.3), rng.uniform(-0.3, 0.3)); z = rng.uniform(-0.5, 0.5, size=4) + 1j * rng.uniform(-0.5, 0.5, size=4)
+        base = C.psi(6, 0.0, 0.0, z, tau, zeta); b = C.psi(6, 0.0, 0.0, np.conj(z), -np.conj(tau), np.conj(zeta)); a = C.psi(6, 0.0, 0.0, -np.conj(z), -np.conj(tau), -np.conj(zeta))
+        assert np.abs(b - base.conj()[(-k) % 6]).max() < 1e-10 and np.abs(a - base.conj()).max() < 1e-10
+        assert np.abs(b - base.conj()).max() > 0.1                                                        # and it is not plain conjugation
+
+
+def test_the_modes_connection_is_i_dx_over_four_y_plus_pi_n_times_xi_d_eta_minus_eta_d_xi():
+    N, n = 6, 64; g = np.arange(n) / n; X, Ug = np.meshgrid(g, g, indexing="ij"); ip = lambda a, b: np.einsum("axy,bxy->ab", a.conj(), b) / n ** 2
+    chi = lambda Xr, y, xi, eta: np.exp(1j * np.pi * N * (xi * Ug - eta * X)) * C.psi(N, 0.0, 0.0, X + complex(Xr, y) * Ug, complex(Xr, y), xi + complex(Xr, y) * eta)
+    a = [0.21, 1.07, 0.17, -0.23]; c0 = chi(*a); h = 1e-5; got = []
+    for i in range(4):
+        p = list(a); m = list(a); p[i] += h; m[i] -= h; got.append(ip(c0, (chi(*p) - chi(*m)) / (2 * h)))
+    want = [1j / (4 * a[1]), 0.0, -1j * np.pi * N * a[3], 1j * np.pi * N * a[2]]
+    assert all(np.abs(got[i] - want[i] * np.eye(N)).max() < 1e-6 for i in range(4))
+    assert abs(got[0][0, 0] - 1j / (2 * a[1])) > 0.1 and abs(got[2][0, 0]) > 1                            # controls: not i/(2y); the Wilson part is there
+
+
+def test_the_invariant_quartics_on_the_ground_plane_are_two_and_the_relative_phase_enters_at_degree_fourteen():
+    k, T6, S6, U, vp, vm = _six_modes(); A = T6 @ S6; c1 = np.vdot(vm, A @ vp.conj()); c2 = np.vdot(vp, A @ vm.conj()); Sg = np.array([[0, c2], [c1, 0]])
+    UE = np.diag([np.exp(1j * np.pi / 6), np.exp(-1j * np.pi / 6)]); rng = np.random.default_rng(4)
+    def count(n, tick=True):
+        mons = [(a, n - a, c, n - c) for a in range(n + 1) for c in range(n + 1)]; half = [m for m in mons if (m[0], m[1]) >= (m[2], m[3])]
+        def feats(z):
+            out = []
+            for a, b, c, d in half:
+                m = z[0] ** a * z[1] ** b * np.conj(z[0]) ** c * np.conj(z[1]) ** d; out.append(m.real)
+                if (a, b) != (c, d): out.append(m.imag)
+            return np.array(out)
+        rows = []
+        for _ in range(4 * len(mons)):
+            z = rng.normal(size=2) + 1j * rng.normal(size=2); z /= np.linalg.norm(z); rows.append(feats(UE @ z) - feats(z))
+            if tick: rows.append(feats(Sg @ z.conj()) - feats(z))
+        sv = np.linalg.svd(np.array(rows), compute_uv=False); return int(len(feats(np.ones(2))) - np.sum(sv > 1e-9 * sv[0]))
+    assert abs(np.angle(c2 * np.conj(c1)) - np.pi / 6) < 1e-9
+    assert (count(2), count(6), count(7)) == (2, 4, 6) and count(2, tick=False) == 3                       # without the tick |z+|^4 and |z-|^4 are free
+
+
+def test_the_cusps_source_bound_carries_the_factor_ell_squared_and_the_bessel_solution_leaves_the_drift():
+    import sympy as sp, mpmath as mp
+    t, ell, c, d = sp.symbols("t ell c delta", positive=True); Lc = lambda u: (-sp.diff(u, t, 2) + sp.diff(u, t)) / ell ** 2 + c * u
+    fac = sp.simplify(Lc(sp.exp(-d * t)) / sp.exp(-d * t)); num = {ell: 2, c: 1, d: sp.Rational(1, 2)}
+    assert sp.simplify(fac - (c - d * (1 + d) / ell ** 2)) == 0 and fac.subs(num) == sp.Rational(13, 16) and (1 / fac).subs(num) == sp.Rational(16, 13)
+    assert (1 / (c * ell ** 2 - d - d ** 2)).subs(num) == sp.Rational(4, 13)                              # the figure main's first version gave, without ell^2
+    mp.mp.dps = 40; kk, w, l2c = mp.mpf("0.7"), mp.mpf("0.9"), mp.mpf("1.3"); nu = mp.sqrt(1 + 4 * l2c) / 2
+    u = lambda s: mp.exp(s / 2) * mp.besselk(nu, kk * mp.exp(s)); s0 = mp.mpf("0.4"); u2, u1 = mp.diff(u, s0, 2), mp.diff(u, s0)
+    free = -u2 + u1 + (kk ** 2 * mp.exp(2 * s0) + l2c) * u(s0); drift = -u2 + u1 + ((kk * mp.exp(s0) + w / 2) ** 2 + l2c - w ** 2 / 4) * u(s0)
+    assert abs(free) < mp.mpf(10) ** -25 and abs(drift - kk * w * mp.exp(s0) * u(s0)) < mp.mpf(10) ** -25 and abs(drift) > mp.mpf(10) ** -3
+
+
+def test_the_overlaps_t_phase_is_e_to_i_pi_c_squared_over_six():
+    rng = np.random.default_rng(6)
+    for _ in range(3):
+        tau = complex(rng.uniform(-0.5, 0.5), rng.uniform(0.8, 1.6)); xi = complex(rng.uniform(-0.3, 0.3), rng.uniform(-0.3, 0.3)); Y0, Y1 = CC.Y(tau, xi), CC.Y(tau + 1, xi)
+        for i in range(3):
+            for j in range(3):
+                for m in (0, 1):
+                    k = (i + j + 1 + 3 * m) % 6; c = (i - j + 3 * m) % 6; r = Y1[i, j, k] / Y0[i, j, k]
+                    assert abs(r - np.exp(1j * np.pi * c * c / 6)) < 1e-9
+                    if c % 6 not in (0, 3): assert abs(r - np.exp(1j * np.pi * (c + 1) ** 2 / 6)) > 1e-3   # control: not the neighbouring class
+
+
+def test_the_square_of_the_act_fixes_five_points_of_the_torus():
+    import sympy as sp
+    M = sp.Matrix([[2, 1], [1, 1]]); K = M ** 2 - sp.eye(2); assert K.det() == -5
+    assert sum(1 for a in range(45) for b in range(45) if all(x % 45 == 0 for x in (K * sp.Matrix([a, b])))) == 5
+    assert (M - sp.eye(2)).det() == -1 and (M ** 4 - sp.eye(2)).det() == -45                               # the act itself fixes one point; its fourth power 45

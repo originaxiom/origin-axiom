@@ -1,0 +1,17 @@
+{
+ "id": "sm-c21-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the reading: 'the cusp-exponent route is closed for frame D1 at its tick-fixed Higgs' and 'the two ingredients, a hierarchy at the cusp and a Higgs fixed without choice, do not coexist in either frame as built', with the reason it reads off the construction (the two vectors spread over all six modes). Main holds the figures (record sm-c21-01) for this realisation and these two vectors; 'either frame as built' reaches further than what is computed, since the web seat's realisation of D1 is not tested here, and main's own law of the same day says its residue behaves as frame C's at shifted charges (row P-871)",
+ "note": "ADDED 2026-11-18, FROM THE PHYSICAL LANE'S PACKAGE PHYSICAL-C8, COMPUTED ON MAIN (checks/physical_c8_tick_higgs.py, K5, K6): the negative is exact for the two eigenlines v+ and v- and for a generic vector of the ground plane, and it does not extend to the whole ground plane. The quadratic ground space is a complex plane; the unit vector h* = (1/sqrt 2, e^(i pi/12)/2, 0, 0, 0, e^(i pi/12)/2) lies in it and its contracted matrices at the mark have ratio exponents (0, 4/3) in the up sector and (1/5, 4/5) in the down and lepton sectors. Nothing computed selects h*, and nothing computed selects the eigenlines either: 'fixed by the tick' means exchanged by it. So 'a Higgs fixed without choice' is not established for frame D1, and 'no cusp hierarchy' holds for the directions the card tested.",
+ "units": [
+  "sm:SM_C21_THE_D1_CUSP_MIXING:14",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:16",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:18",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:38",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:40",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:44",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:46",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:48"
+ ]
+}

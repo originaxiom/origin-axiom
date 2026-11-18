@@ -1,0 +1,31 @@
+K1: under k = 3a + 4b: |T6 - diag(1,-i) (x) diag(1,w,w)| = 7.4e-16; |F6 - F2 (x) conj(F3)| = 1.5e-15; |U - A2 (x) A3| = 1.2e-15; |A2 - the lane's matrix| = 2.5e-16; |A3 - the lane's form| = 3.6e-16
+K1: exactly: det(lambda - A2) = lambda**2 - lambda + 1; det(lambda - A3) = (lambda - 1)*(lambda**2 + 1); the product over the pairs of roots = (lambda**2 - lambda + 1)*(lambda**4 - lambda**2 + 1); numerically the characteristic polynomial of U has coefficients [1.0, -1.0, 0.0, 1.0, -0.0, -1.0, 1.0]; the order of U is 12; the parity's odd plane carries the phases [-0.3333, 0.3333] pi
+K2: |S6^2 + i P| = 2.2e-15; |(T S K)^2 - U| = 1.9e-15, |(P T S K)^2 - U| = 2.0e-15; the two agree on the ground pair (2.6e-15) and differ on the odd plane (1.26)
+K2: the lifts Z^3, X^3, Z^3 X^3 on v+: |<v+, g v+>|^2 = ['0.333333', '0.333333', '0.333333']; |<v-, g v+>| = ['6e-16', '3e-16', '4e-16']; norm^2 outside the ground plane = ['0.666667', '0.666667', '0.666667']; |Z^3 X^3 + X^3 Z^3| = 0.0e+00
+K3: Sigma v+ = c1 v-, Sigma v- = c2 v+ with |c1| = 1.000000, |c2| = 1.000000 and c2 conj(c1) = e^(i pi 0.1667); Hermitian forms on E kept by the tick: a space of dimension 1 (the multiples of the identity: True); pairs (H+, H-) exchanged by it: dimension 2 (alpha I + kappa eps J: True); J = diag[1.0, -1.0] and Sigma J Sigma^-1 = -J: True; the eigenvalues of U on E are e^(+-i pi/6), neither is 1, so the tick fixes no ray of E
+K4: real polynomials on E invariant under the common phase, U and the tick, by degree: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 6}; polynomials in N and Delta^2 alone: {2: 1, 4: 2, 6: 2, 8: 3, 10: 3, 12: 4, 14: 4}; so the quartic ones are A N^2 + B Delta^2 (dimension 2) and the first invariants that see the relative phase are at degree 14 (2 more: Delta Re w^6 and Delta Im w^6)
+K4: under the tick w = z+ conj(z-) goes to e^(i pi 0.1667) w and Delta to -Delta; under U, w goes to e^(i pi 0.3333) w: on the circle Delta = 0 the first invariant harmonic is w^12 (degree 24), and Delta w^6 is invariant at degree 14
+K5: h* has norm 1.000000000000; |(U + U^dagger)/2 h* - (sqrt 3/2) h*| = 5.3e-16; |<v+, h*>|^2 = 0.500000000000, |<v-, h*>|^2 = 0.500000000000; the lane's table of |components|^2 of v+ and v-: worst difference 6.1e-16; least |component| of v+ 0.2113, of v- 0.1494
+K6: exponents E = -(1/pi) d log(s_i/s_1)/d Im tau at the mark (2/5, 4/5), unshifted lift, from heights 8 -> 11 and 11 -> 14 (Re tau = 0.13):
+  v+                    up    : E2 -0.000939, -0.000197; E3 -0.000465, -0.000098
+  v+                    down  : E2 -0.009025, -0.003265; E3 -0.009710, -0.002592
+  v+                    lepton: E2 -0.009025, -0.003265; E3 -0.009710, -0.002592
+  v-                    up    : E2 +0.006280, +0.001358; E3 -0.007051, -0.001391
+  v-                    down  : E2 +0.003546, +0.001426; E3 -0.003577, -0.001435
+  v-                    lepton: E2 +0.003546, +0.001426; E3 -0.003577, -0.001435
+  h*                    up    : E2 -0.003538, -0.000735; E3 +1.335082, +1.333700
+  h*                    down  : E2 +0.199489, +0.199918; E3 +0.799608, +0.799946
+  h*                    lepton: E2 +0.199489, +0.199918; E3 +0.799608, +0.799946
+  a random vector of E  up    : E2 +0.001222, +0.000248; E3 -0.001169, -0.000245
+  a random vector of E  down  : E2 +0.002975, +0.001345; E3 -0.003766, -0.001462
+  a random vector of E  lepton: E2 +0.002975, +0.001345; E3 -0.003766, -0.001462
+K6: the lane's values for h*: up (0, 4/3) = (0, 1.333333); down and lepton (1/5, 4/5)
+K6: for four random coefficient vectors (not only ground vectors) and four points of order 5: the lepton matrix is one phase times the transpose of the down matrix: worst relative difference 2.4e-75
+K7: the bubble B = Y^dagger Y from main's closed form at 10 random (tau, xi): averaged over I, Z^3, X^3, Z^3 X^3 it is tr(B)/6 times the identity (worst relative difference 4.9e-17); unaveraged it is not (0.07)
+K8: the act on the 2-torsion is [[0, 1], [1, 1]]: it carries (1,0) -> [0, 1] -> [1, 1] (the three non-zero points in one cycle); characters to Z/2 invariant under it: [(0, 0)] (only zero, det(M - I) mod 2 = 1)
+K8: in the 5-torsion 2 * 3 = 1 mod 5, so the half of w that stays of order 5 is 3w; with zeta_H = 3 q_s w, zeta_L' = q_L w + q_s lambda, zeta_R' = q_R w and 5w = lambda: 2 zeta_H - zeta_L' - zeta_R' = 0
+K8: for the weight exp(-2 pi N y r^2): <r^2> = 1/(4*pi*N*y), <r^4> = 3/(16*pi**2*N**2*y**2), variance of r^2 = 1/(8*pi**2*N**2*y**2); so <psi, d_X psi> = i pi N <r^2> = i (1/(4*y)); pi^2 N^2 var(r^2) = 1/(8*y**2) (the coefficient of |d tau|^2); (2 pi N)^2 <r^2> = pi*N/y (the coefficient of |d xi + tau d eta|^2)
+K8: on the axis tau = 1/2 + (sqrt 5/2) e^(i phi): M tau stays on it and phi changes by -2 arg(tau + 1) (worst 4.4e-16 at four points); with dX/y = -d phi the integral of i dX/(4y) is i arg(tau + 1)/2, the phase the lane's (9) carries
+K8: inf over beta of |L beta + Q|^2 equals |P_ker(L^dagger) Q|^2 (five random rank-deficient cases, worst 7.1e-15)
+K9: main's flux-6 modes at 6 random (tau, zeta), 5 points each: psi_j(-conj z; -conj tau; -conj zeta) = conj psi_j (worst 0.0e+00): z -> -conj(z) gives plain conjugation K; psi_j(conj z; -conj tau; conj zeta) = conj psi_(-j) (worst 3.7e-15), and is not conj psi_j (2.31): z -> conj(z) gives P K
+K9: main's transport matrix of the flux-6 modes under S (<mode at -1/tau | mode at tau>), three points: tau = (0.3+1.1j): S6 times 0.794707+0.606994i, and sqrt(tau/|tau|) = 0.794707+0.606994i (conjugate: False); tau = (-0.2+0.9j): S6 times 0.625727+0.780042i, and sqrt(tau/|tau|) = 0.625727+0.780042i (conjugate: False); tau = (0.45+1.4j): S6 times 0.808087+0.589063i, and sqrt(tau/|tau|) = 0.808087+0.589063i (conjugate: False)

@@ -1,5 +1,5 @@
 """B1957: the committed output of the physical lane's own author check of its boundary law
-(relative_register_boundary_law_2026_11_15/run01/result.json), held key by key against main's recomputation.  The
+(relative_register_boundary_law_2026_11_15/run01/result.json), held against main's recomputation in the fields this script compares (33 of the file's 72 leaf keys; physical_outputs_key_coverage.py lists the rest: provenance, residual sizes, flags and a few mathematical fields).  [Narrowed 2026-11-18 at the lane's finding M9-05: this said 'key by key'.]  The
 lane's checker is not run and not imported: its inputs (the cell areas, edge lengths, couplings) are read from its
 text and every figure is computed here by main's own code (sympy, exact); the committed result file is read as data.
  Q1  the finite-cell system (4 cells, 5 edges): the constrained minimum by Lagrange's equations; circulation, uniform

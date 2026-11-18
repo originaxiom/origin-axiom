@@ -1,0 +1,28 @@
+{
+ "id": "physical-c8-09",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the two exact steps of the lane's action note that a computation decides (checks/physical_c8_tick_higgs.py, K3, K4, K8): the infimum over second-order corrections of |L beta + Q|^2 is |P_ker(L^dagger) Q|^2 (five random rank-deficient cases, 7e-15); the tick-covariant quadratic response with an independent odd reference is alpha I + kappa eps J and the invariant quartic is A N^2 + B Delta^2, so B is the difference of the quartic at v+ and at (v+ + v-)/sqrt 2",
+ "note": "The five findings C8-01 to C8-05 are held here and in records physical-c8-03, -05, -06: each quotation is at the line named (A7) and each mathematical point is computed. C8-04 is in physical-c8-07.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:121",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:123",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:125",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:161",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:166",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:169",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:172",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:177",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:180",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:182",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS:185",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS:53",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS:54",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS:55",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS:57",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL:34",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL:38",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL:42",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL:49"
+ ]
+}

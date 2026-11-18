@@ -93,3 +93,6 @@ if __name__ == "__main__":
         Bq = bubble(tau); BL = lifted(Bq)
         print("H6: tau = %s: the seat's sum has eigenvalues %s; averaged over the lifts %s" % (tau, np.round(np.linalg.eigvalsh((Bq + Bq.conj().T) / 2), 4).tolist(), np.round(np.linalg.eigvalsh((BL + BL.conj().T) / 2), 4).tolist()))
     print("So: with B a function of the torus's points, M_H^2 = K - c B is K up to a constant: its ground space is the pair of modes with phases +-pi/6 (dimension 2, one bit), for every c.")
+    # Corrected 2026-11-18 (the physical lane's finding C8-02; checks/physical_c8_tick_higgs.py): 'one bit' in the line above says too much.
+    # The ground space is a complex plane and every unit vector of it is a ground direction; it is one bit only on the two eigenlines.
+    # The printed line is left as it ran; the run file is the record of that run.

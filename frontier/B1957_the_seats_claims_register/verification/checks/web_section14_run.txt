@@ -1,0 +1,12 @@
+X1: the web lane at 84fcf1e57: {'files': 137, 'statements': 6826, 'VERIFIED': 1901, 'REFUTED': 2, 'CONDITIONAL': 15, 'PARTIAL': 429, 'SUPERSEDED': 54, 'NOTED': 4425, 'PENDING': 0}; the seat's figures agree on every one: True
+X2: web-wa2-05r at 84fcf1e57 was PARTIAL and said 'NOT ON MAIN: the move under S, and that the signs are real': True; that record exists now: False; W-A2's lines 110, 112, 114, 116, 187 now: [('web-wa2-05v', 'VERIFIED')]
+X3: W-F17_SECOND             lines [98, 99, 100, 101, 102, 103, 121, 211, 247, 265, 277]: ['NOTED', 'PARTIAL']
+X3: W-Z1                     lines [53, 59, 106]: ['PARTIAL']
+X3: W-A3_                    lines [27, 167]: ['PARTIAL']
+X3: 2026-11-15_W-B2_FRAME_D1S lines [48, 51, 64]: ['PARTIAL']
+X3: P-783_THE_GOLDEN         lines [80, 81, 90, 94, 95]: ['PARTIAL']
+X3: W-C3_THE_SM_SEATS        lines [48, 55, 85, 88, 99, 104, 105]: ['PARTIAL']
+X3: W-C2_THE_AGY-EXP         lines [23, 101]: ['PARTIAL']
+X3: W-F1_                    lines [55]: ['PARTIAL']
+X3: 2026-09-08_SESSION_RELAY lines [133]: ['PARTIAL']
+X3: lines of its 14.3 still under a verified record: 0

@@ -1,0 +1,28 @@
+{
+ "id": "web-st14-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of M53, each line held against main's register (checks/web_section14.py, X1 to X3: the summary and the records at 84fcf1e57, read from the commit): the lane's totals there are 137 files, 6,826 statements, 1,901 verified, 2 refuted, 15 conditional, 429 partial, 54 superseded, 4,425 noted, as it says; the eight records of its section 12.2 stand as it lists them; record web-wa2-05r at that commit says 'NOT ON MAIN: the move under S, and that the signs are real', which understated main's own work, as it says: main has since read the move under S and the reality of the signs out of B1953's routine (checks/web_wa2_readout.py) and the five lines are verified in web-wa2-05v, that record being gone; each record of its 14.3 was still short at that commit and each is taken at this landing (checks/web_section13.py, U1 to U3: rows 98 to 103, 121, 211, 247, 265, 277 of W-F17; W-Z1's head; W-A3; W-B2's first note; P-783; W-C3; W-C2; W-F1; the session relay's line 133); one wording it names is corrected (record web-st12-01 said four mends where there are five)",
+ "note": "The seat wrote this section before main's landing that took its section 13; nothing in it asks for more than that landing carries. Its recut of its own units (ids, forms, kinds, hashes) is its own run.",
+ "units": [
+  "web:STATUS_CHAT1:1360",
+  "web:STATUS_CHAT1:1363",
+  "web:STATUS_CHAT1:1364",
+  "web:STATUS_CHAT1:1366",
+  "web:STATUS_CHAT1:1367",
+  "web:STATUS_CHAT1:1368",
+  "web:STATUS_CHAT1:1370",
+  "web:STATUS_CHAT1:1371",
+  "web:STATUS_CHAT1:1373",
+  "web:STATUS_CHAT1:1377",
+  "web:STATUS_CHAT1:1380",
+  "web:STATUS_CHAT1:1381",
+  "web:STATUS_CHAT1:1383",
+  "web:STATUS_CHAT1:1385",
+  "web:STATUS_CHAT1:1386",
+  "web:STATUS_CHAT1:1387",
+  "web:STATUS_CHAT1:1388",
+  "web:STATUS_CHAT1:1389",
+  "web:STATUS_CHAT1:1390"
+ ]
+}

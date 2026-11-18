@@ -1,0 +1,18 @@
+{
+ "id": "sm-c18-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card's header, its disclosure that one cell overflowed in double precision and was redone post hoc at 50 digits, the two options it leaves open (read the overlap on the double cover of the point, or give the Higgs an even charge), its pointer to two earlier places where a bit of the same kind appeared, and its file list",
+ "note": "",
+ "units": [
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:3",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:39",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:41",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:47",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:48",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:50",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:51",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:52",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:58"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "physical-nmc-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the rest of the coverage note: its header and method (a metadata collector over blobs, no mathematical source imported), what each historical check group covers in the lane's words (main's own recomputation of those groups is in records physical-er-04 and physical-xe-03, with the key account of checks/physical_outputs_key_coverage.py), its statement that the mathematical checker is unrun, what main has already corrected, and its unchanged first-ranked request",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:3",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:27",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:35",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:46",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:47",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:48",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:49",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:50",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:51",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:70",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:79",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:80",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:81",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:82",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:84",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:93",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:115",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:129",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:136",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:143",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE:149"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "sm-st-04",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the page's lines on what the seat read (M38, M39), what it did not do (two checks M38 asked of SM-C16, which ran before M38 was read), and its header",
+ "note": "",
+ "units": [
+  "sm:STATUS_SM:436",
+  "sm:STATUS_SM:449"
+ ]
+}

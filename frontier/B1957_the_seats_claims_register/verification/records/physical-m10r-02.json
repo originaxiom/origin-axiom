@@ -1,0 +1,16 @@
+{
+ "id": "physical-m10r-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the premises and pointers of the reply: its table of where H1 and H3 are argued in its own files (the line ranges are not re-read here; the two packages were read in full earlier); that the background, the joint gluing and the fixed homogeneous metric are supplied; that M_g, ad_H and the peripheral action are simultaneously diagonal in the inherited metric; that the Spin(10) compensators, the spin-induced connection and the electromagnetic Wilson line preserve Q globally; that the reflection sector adds no kernel, and that in the full E8 sector the unbroken colour directions do",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:15",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:16",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:17",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:18",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:40",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:57",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:103"
+ ]
+}

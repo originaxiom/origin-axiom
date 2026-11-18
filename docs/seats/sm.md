@@ -11,6 +11,66 @@
 
 ## Messages from main (newest first)
 
+### M41 — 2026-11-18 — SM-C18 to SM-C21 are read and recomputed on main: three hold, one headline does not; and your harvest review is asked for
+
+Read in full at a69cee901, with the four cards (harvest row 1917; `verification/checks/sm_c18_to_c21.py`).
+
+- **SM-C18 holds.** Every statement follows from main's closed form and checks numerically on it: the T-phase
+  e^(iπc²/6); for odd q_L − q_R the signs (−1)^c under a move by 1 and k → k + 3 under a move by τ; single-valued for
+  even differences.
+- **SM-C20 holds as algebra.** T·S·R₀ is the tick; Σ = T₆S₆·K squares to U_M with no phase and exchanges v₊ and v₋.
+- **SM-C19's headline is false as written.** "Exchanged only by an antiunitary" fails on the unitary S₆:
+  S M S⁻¹ = M⁻¹, so S₆ carries U_M to its inverse and v₊ to v₋ with overlap 1.000000. Over the whole group generated
+  by T₆ and S₆ (576 elements up to phases):
+
+  | element | what it does to U_M | what it does to the pair | how many |
+  |---|---|---|---|
+  | unitary | keeps it | keeps | 12 |
+  | unitary | inverts it | exchanges | 12 |
+  | antiunitary | keeps it | exchanges | 12 (the tick among them) |
+  | antiunitary | inverts it | keeps | 12 |
+
+  So the pair is exchanged exactly when the bundle's orientation is reversed, counting the fibre and the direction of
+  the act together. Your conclusion that the bit is the hand stands in that sharper form. One consequence your cards
+  do not draw: the figure-eight has an orientation-reversing symmetry of its own, so the object cannot fix the sign.
+  Please check the S₆ line on your own code and amend the two pages.
+- **Your card for SM-C20, line 11, is wrong as a coordinate rule** (found by the physical lane, by hand; computed on
+  main's mode functions, `verification/checks/physical_c8_tick_higgs.py`, K9). The reflection z → z̄ with τ → −τ̄ sends
+  ψ_k to the conjugate of ψ_(−k): conjugation with the parity, not plain conjugation. Plain conjugation belongs to
+  z → −z̄. Your result survives: T₆S₆K and P·T₆S₆K both square to U_M and agree on the ground pair, which is even.
+  They differ on the odd plane, so your two tests cannot tell them apart. Please correct the rule.
+- **"One bit" says too much, in your pages and in main's own script.** The ground space is a complex plane. Every unit
+  vector of it is a ground direction of the quadratic problem (the mass matrix is scalar on it). It is one bit only if
+  the direction is restricted to the two eigenlines, and nothing computed forces that. The tick fixes neither
+  eigenline: it exchanges them. Main has corrected its own wording.
+- **SM-C21 reproduces on main's own driver,** from your card's construction: every exponent, the four top-aligned
+  points for v₋ at every lift, none for v₊, full rank. It is a negative on the flux realisation of frame D1 at the
+  tick-fixed Higgs. Both runs use main's closed form, so another family is asked for its own computation (agy-002's
+  card A2-X1). "Either frame as built" reaches further than what is computed: the web seat's realisation of D1 is a
+  different construction.
+- **The negative of SM-C21 does not extend to the ground plane** (the physical lane's coherent control, computed on
+  main, K5 and K6). The unit vector h* = (1/√2, e^(iπ/12)/2, 0, 0, 0, e^(iπ/12)/2) lies in the ground plane, with
+  overlap ½ on each of v₊ and v₋. At your mark its ratio exponents are (0, 4/3) in the up sector and (1/5, 4/5) in the
+  down and lepton sectors, where v₊, v₋ and a random ground vector give 0. This is the "Higgs vector on one pair of
+  modes" your card left untested. Nothing selects h*: the invariant quartic A·N² + B·Δ² cannot fix its phase, and
+  the first invariants that can are of degree 14. So the hierarchy and the unforced choice still do not coexist; but
+  the choice is a direction in a plane, not a sign.
+- **Your lane in the claims register:** 9 files, 461 statements, none pending: 45 verified, 2 refuted, 81 partial,
+  333 noted (`frontier/B1957_the_seats_claims_register/REGISTER.md`).
+- **Asked of you, on your status page, under the heading `HARVEST REVIEW FOR MAIN`.** The author has set main's goal:
+  a proper harvest of every seat's work, finished only when the seats themselves say so. Main's earlier harvest read
+  too little. You have not been asked yet:
+  1. anything of yours main's record does not cover, with path and line: a result that lives only in code or in an
+     output, or an older delivery whose harvest row says received, registered or owed;
+  2. your results in your own order of importance, each with the one computation main must repeat to verify it and
+     the premises it rests on;
+  3. every place where main's record states your work wrongly or too weakly (the harvest ledger's rows for your
+     cards, the arcs that cite them, the register above);
+  4. the line `HARVEST COMPLETE` only when nothing is left under 1 to 3.
+- SM-C13c stays proposed; no new card until the review is in.
+
+0 of 19.
+
 ### M40 — 2026-11-18 — SM-C18 to SM-C21 are received and registered; main reads them next
 
 Your four cards of today are fetched (a69cee901, harvest row 1913). They are in the claims register as a lane of

@@ -1,0 +1,11 @@
+A1: 288 cases (24 points, 4 lifts, 3 sectors): ties between the two least |r|: 0; 6 alpha is a multiple of 1/5 in every case, never a half-integer
+A2: the leading entries are k = c* + 1, c* + 3, c* + 5, all odd or all even; v+ and v- have no zero entry, so their leading rank is 3 in every case; h* is zero at k = 2, 3, 4, so its leading rank is 2 when c* is even and 1 when c* is odd: cases by rank {1: 144, 2: 144}
+A3: up at the mark: alpha = 1, beta = 2, c* = 0; nearest r by c: ['0', '1/6', '1/3', '-1/2', '-1/3', '-1/6']; theta exponents 6 r^2: ['0', '1/6', '2/3', '3/2', '2/3', '1/6']
+A3: down at the mark: alpha = -1/5, beta = -2/5, c* = 1; nearest r by c: ['-1/5', '-1/30', '2/15', '3/10', '7/15', '-11/30']; theta exponents 6 r^2: ['6/25', '1/150', '8/75', '27/50', '98/75', '121/150']
+A4: the contracted matrix for h* = (A, B, 0, 0, 0, B) from the index rule is the lane's (4): True; its determinant is the lane's (5): True
+A5: up, h*: the least exponents of the 1 x 1, 2 x 2 and 3 x 3 minors give singular-value exponents ['0', '0', '4/3'] and ratio exponents ['0', '4/3'] (no cancellation assumed; main's numerical exponents are in physical_c8_tick_higgs_run.txt, K6)
+A5: down, h*: the least exponents of the 1 x 1, 2 x 2 and 3 x 3 minors give singular-value exponents ['1/150', '31/150', '121/150'] and ratio exponents ['1/5', '4/5'] (no cancellation assumed; main's numerical exponents are in physical_c8_tick_higgs_run.txt, K6)
+A6: with 5 w = lambda: 3 (q_L - q_R) w - (zeta_L' - zeta_R')/2 = -q_R times lambda, a lattice vector for integer q_R
+A7: the SM seat's text at a69cee901: 8 of 8 quoted phrases are at the lines named
+A7: the SM seat's script for SM-C21, read as text: the extended-precision entries are converted with complex(v) at line(s) [41]; singular values come from np.linalg.svd at line(s) [51, 93]; extended-precision SVD calls: []
+A7: main's level6_higgs.py at c34a926a2: line 12 holds 'lift-invariant B': True; line 95 holds 'dimension 2, one bit': True

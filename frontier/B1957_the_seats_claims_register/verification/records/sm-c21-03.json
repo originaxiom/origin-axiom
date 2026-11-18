@@ -1,0 +1,13 @@
+{
+ "id": "sm-c21-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card's header, its statement that the failure on the hierarchy was not written as a kill line and is reported as what the run shows, the one variant it leaves untested (a Higgs vector on one pair of modes), the lift dependence it reports at height 4 only (not recomputed), and its file list",
+ "note": "",
+ "units": [
+  "sm:SM_C21_THE_D1_CUSP_MIXING:3",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:29",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:50",
+  "sm:SM_C21_THE_D1_CUSP_MIXING:56"
+ ]
+}

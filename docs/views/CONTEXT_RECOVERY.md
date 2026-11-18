@@ -18,13 +18,13 @@
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 872 |
-| … “QUEUED” | 318 |
+| register points | 873 |
+| … “QUEUED” | 319 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1914 |
+| harvest rows (the last number) | 1917 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, midday: FOUR SEATS PUSHED NEW WORK; THE REGISTER IS CUT AGAIN AND HAS 1,709 STATEMENTS PENDING; agy-exp IS BACK AND ITS LANE REOPENED AT ITS OWN WORD; THE WEB SEAT'S EIGHT RECORDS TAKEN (B1957, OPEN; harvest rows 1911 to 1914; P-865).** The register: 447 files, 22,873 statements; pending: agy-exp 837 (older files it asked for), the SM seat 461 (its cards SM-C18 to SM-C21 on frame D1, registered, not yet read), the physical lane 411 (eight commits of today, registered, not yet read); the web seat none. **agy-exp** pushed a harvest review the morning main had closed its lane under the author's delegation: the closing is withdrawn. Its review is exact (its recount, i…”
+“LATEST (2026-11-18, S306p, afternoon: THREE LANES SETTLED; THE HIGGS GROUND SPACE OF FRAME D1 IS A PLANE AND ONE DIRECTION IN IT HAS A CUSP HIERARCHY; FIVE FAULTS OF MAIN'S FOUND BY THE PHYSICAL LANE AND MENDED (B1957, OPEN; harvest rows 1915 to 1917; P-865, P-873).** The register: 451 files, 23139 statements: 4007 verified, 23 refuted, 1394 conditional, 974 partial, 159 superseded, 15745 noted, 837 pending, all in eighteen older files of agy-exp's. **The physical lane** read all of main's records of its lane and found five faults, each right and each mended: a bound without its factor ℓ², a Bessel function offered for a channel it does not solve, seven verified paragraphs that mixed comput…”
 
 ## Completeness (nothing skipped silently)
 

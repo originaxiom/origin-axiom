@@ -1,0 +1,18 @@
+{
+ "id": "physical-c8-07",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the lane's distinction between averaging the bubble and descending it as an endomorphism (its finding C8-04, on main's own phrase 'lift-invariant B'). ON MAIN: the average over the four lifts is scalar (checks/physical_c8_tick_higgs.py, K7), which the lane confirms; the covariance statements are elementary linear algebra, right by inspection. NOT COMPUTED, AND ACCEPTED AS A SCOPE STATEMENT ON MAIN'S RESULT: that covariance alone does not force the average; a covariant sum needs comparison maps that only an action can give",
+ "note": "Main's B1957 page now says that its negative on the Higgs selection is for the averaging prescription, not for every covariant response.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:109",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:114",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:119",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:121",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:125",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:128",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:132",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:141",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:143"
+ ]
+}

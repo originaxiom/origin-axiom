@@ -1,0 +1,14 @@
+{
+ "id": "physical-chg-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "five lines the lane changed on 2026-11-18 in two earlier proofs: its clarification that the linear angular drift has a bounded weight coefficient but grows like exp(t), and that the quadratic angular term dominates it far out. ON MAIN: (k e^t + w/2)^2 = k^2 e^(2t) + k w e^t + w^2/4, and the Bessel solution of the drift-free equation leaves exactly k w e^t u in the channel with drift (checks/physical_c3e_indicial.py, step 4 with the drift); B1959 treats the channels with drift by a convexity inequality. NOT COMPUTED: the lane's own barrier argument on the half-line and the statement that the nonnegative gauge energy forces every other zero-c coefficient to commute",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY:94",
+  "physical:physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY:101",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:10",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:43",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH:107"
+ ]
+}

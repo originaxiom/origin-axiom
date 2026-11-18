@@ -161,6 +161,13 @@ decaying space alone does not reach them.
 - **H1 and H3 are not checked by main.** That the lane's background is parallel on the whole cusp end with this
   connection and a constant potential, and that its global gauge operator is nonnegative with kernel exactly Q, are
   statements about its actual fields (its packages P-C3b and P-C3e). They are its model's facts, conditional as before.
+  *[Added 2026-11-18: the lane answered this the same day (its reply at 6f074b770; B1957, record physical-m10r-01,
+  `checks/physical_m10_reply.py`). With the connection it states, A_x = −H/(4y), the operator on the cusp is exactly
+  the channel of H1 with μ = m², the drift included (main's symbolic check). Its bounded kernel is ℝQ by the roster
+  of E₆ under the two principal triples (one trivial summand, rebuilt by main) and a cutoff argument main checked by
+  hand. What stays a premise of its model: that its background is this parallel pair on the whole cusp, and that the
+  global gluing preserves Q. The lane also found main's own indicial check of its package short by a factor ℓ²
+  (corrected in B1957); this page's statement had the factor right.]*
 - **Its two nonlinear steps.** Their algebra was checked on a finite model (record physical-c3e-04). With the theorem,
   the linear hypothesis of its first implicit-function step holds under H1 to H3. That the moment is a real-analytic
   map between these spaces is the lane's argument (products and exponentials in weighted Hölder spaces, the constant

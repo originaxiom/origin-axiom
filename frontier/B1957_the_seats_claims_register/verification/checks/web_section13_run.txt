@@ -1,0 +1,3 @@
+U1: at 34d71a24e main's summary has for the lane: files 137, statements 6796, pending 0, verified 1905, refuted 2, conditional 15, partial 421, superseded 54, noted 4399 (the seat: 137, 6,796, 0, 1,905, 2, 15, 421, 54, 4,399)
+U2: units named: 46 found; under a VERIFIED record other than item 3's: 0 []; item 3's five lines: [(110, 'web-wa2-05v', 'VERIFIED'), (112, 'web-wa2-05v', 'VERIFIED'), (114, 'web-wa2-05v', 'VERIFIED'), (116, 'web-wa2-05v', 'VERIFIED'), (187, 'web-wa2-05v', 'VERIFIED')]
+U3: the seat's exponent q_L^2 + q_R^2 - c q_H (q_L + q_R) equals main's q_L^2 + q_R^2 + c q_H^2 modulo 5 for the three sectors and c = -2..2 (q_L + q_R = -q_H): True; its sign (-1)^(i c q_H) is (-1)^(5a) at odd c: True

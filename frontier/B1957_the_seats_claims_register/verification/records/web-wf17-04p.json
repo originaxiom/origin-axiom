@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "split from web-wf17-04 on the seat's own finding (its status page, section 7.2, item 4): the decomposition and the listed components are main's; the curves' degrees, the point counts on kappa = 2, that kappa varies on every component, the completeness tests and the plants are the seat's and its referee's",
- "note": "[2026-11-18, Review 84: the 'Completeness' line (the randomised test that every fixed point lies on a listed component) moved here; main did not recompute it.] ADDED 2026-11-18 at the seat's section 12.2, item 4: lines 263 and 266 ('purely one-dimensional'; 'holds component by component') are typed by the note's line 193 as a reading of its section 3 and rest on lines 91 and 264, which are partial here.",
+ "note": "[2026-11-18, Review 84: the 'Completeness' line (the randomised test that every fixed point lies on a listed component) moved here; main did not recompute it.] ADDED 2026-11-18 at the seat's section 12.2, item 4: lines 263 and 266 ('purely one-dimensional'; 'holds component by component') are typed by the note's line 193 as a reading of its section 3 and rest on lines 91 and 264, which are partial here. ADDED 2026-11-18 at the seat's section 13.2: the table's rows at m = 1 to 4 and 6, the line on the origin, one plant, the summary of expectations and the typed row carry figures main did not recompute (degrees, counts on kappa = 2, completeness), as the record's own note says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:122",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:239",
@@ -19,6 +19,15 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:276",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:91",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:263",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:266"
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:266",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:98",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:99",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:100",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:101",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:103",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:121",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:247",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:265",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:277"
  ]
 }

@@ -1,0 +1,10 @@
+{
+ "id": "physical-read-m10r",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "read by main in full at 6f074b770; nothing of the lane's run",
+ "files": [
+  "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY.md"
+ ]
+}

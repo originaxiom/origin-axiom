@@ -1,0 +1,4 @@
+V1: paths that are not markdown in the window: 84 (the lane says 84); its table's eight counts sum to 84; by extension: {'.diff': 1, '.json': 71, '.log': 4, '.py': 6, '.txt': 2}
+V2: the lane's unrun checker, read as text at 8d5c91032: 12 of its 12 named methods are at the lines named; the file defines 12 test methods in all
+V3: M^2 - I = [[4, 3], [3, 1]], determinant -5; points of the denominator-45 grid fixed by M^2: 5; the lane's result file holds degree2_fixed_point_count = 5 (a key main's first comparison did not include)
+V4: check groups named by the note and present as keys of the two result files: 6 of 6 and 4 of 4

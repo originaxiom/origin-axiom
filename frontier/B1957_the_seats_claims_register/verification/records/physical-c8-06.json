@@ -1,0 +1,24 @@
+{
+ "id": "physical-c8-06",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the lane's finding C8-03 and its section on the half-point cover, on main's own mode functions and by exact arithmetic (checks/physical_c8_tick_higgs.py, K2, K8, K9; checks/physical_c8_dominant.py, A6, A7; checks/sm_c18_to_c21.py, C1): for the flux-6 modes of spin (0, 0), z -> -conj(z) with tau -> -conj(tau) gives plain conjugation of the coefficients and z -> conj(z) gives conjugation composed with the parity k -> -k (7e-15; not plain conjugation, 2.24); T6 S6 K and P T6 S6 K both square to U, agree on the ground pair and differ on the odd plane; a point of the torus has four halves; the four lift matrices commute up to sign; the act on the 2-torsion cycles the three non-zero points and no non-zero character to Z/2 is invariant; in the 5-torsion the half that stays of order 5 is 3w, with 2 zeta_H = zeta_L' + zeta_R' exactly and the relative half moved by the lattice vector -q_R lambda; the two earlier notes of the SM seat the lane cites say what it says at the lines named",
+ "note": "THE SM SEAT'S CARD FOR SM-C20, LINE 11, IS WRONG AS A COORDINATE RULE: it assigns z -> conj(z) to plain conjugation. The matrix result of SM-C20 survives, because both lifts square to U and agree on the ground pair; the card's line is refuted in record sm-c20-04.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:11",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:16",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:21",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:26",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:32",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:42",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:45",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:47",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:53",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:60",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:72",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:78",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:85",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:88",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:91"
+ ]
+}

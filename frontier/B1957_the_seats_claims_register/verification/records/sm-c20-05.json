@@ -1,0 +1,10 @@
+{
+ "id": "sm-c20-05",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the relay's headline line: 'the tick acts on the six Higgs modes as Sigma = T6 S6 K, because sigma = T S R0 and R0 (tau -> -conj(tau)) is K on these modes'. ON MAIN: T S R0 is the tick and Sigma = T6 S6 K squares to U and exchanges the pair (checks/sm_c18_to_c21.py, C2). NARROWED 2026-11-18: 'R0 is K on these modes' holds for the reflection z -> -conj(z); for the reflection the seat's card names, z -> conj(z), it is K composed with the parity (checks/physical_c8_tick_higgs.py, K9). Both squares are U and both agree on the ground pair",
+ "note": "Held verified until the physical lane's finding C8-03; see record sm-c20-04.",
+ "units": [
+  "sm:SM_C20_THE_EXCHANGE_IS_THE_TICK:8"
+ ]
+}

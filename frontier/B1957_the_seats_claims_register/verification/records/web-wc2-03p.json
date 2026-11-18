@@ -3,10 +3,12 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "split from web-wc2-03 on the seat's own finding (its status page, section 7.2, item 4): the intersection numbers and the dimension count are main's; the 240 roots found by closing under reflections, the nine pairs and the grading's weights are the seat's",
- "note": "",
+ "note": "ADDED 2026-11-18 at the seat's section 13.2: line 23's 'reproduced for the branching' rests on a grading whose weights the note calls the seat's; line 101 is its control.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:22",
   "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:97",
-  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:98"
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:98",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:23",
+  "web:CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS:101"
  ]
 }

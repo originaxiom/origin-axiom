@@ -102,6 +102,10 @@ noted, and none is pending.
     the torus. The seat's sum takes one lift of each point and so is not covariant; averaged over the four lifts,
     the bubble of every single point is an exact multiple of the identity on the six Higgs modes, for a three-line
     reason. It selects nothing: the ground space is two-dimensional, one bit, not zero.
+    *[Corrected 2026-11-18, at the physical lane's findings C8-02 and C8-04, each checked on main: the ground space is a
+    complex plane, and every unit vector of it is a ground direction of the quadratic problem. "One bit" holds only if
+    the direction is restricted to the two eigenlines, which nothing computed forces. And the negative is for the
+    prescription that averages the bubble over the four lifts, not for every covariant response.]*
   - **Not resolved (gate 5, P-861):** with hypercharge as the Wilson line the mixing in this frame is deranged (at 15 of
     the 24 points the heavy directions are apart: 10 orthogonal and 5 with the down direction outside the up matrix's degenerate pair; 9 inside that pair; none aligned at the seat's representatives, 4 under two of the lifts *[counts restated 2026-11-18, Review 84: the page said "15 of 24 points orthogonal"]*) and lift-dependent; with one Higgs mode the
     mixing matrix is always a permutation; the reported alignment at 288 points is one matrix compared with
@@ -523,7 +527,9 @@ noted, and none is pending.
   - **Its two executed checkers.** The lane committed the outputs of two checkers of its own. Main does not run them:
     it reads their inputs from their text and computes every figure with its own code
     (`checks/physical_endgame_outputs.py`, `checks/physical_boundary_outputs.py`). Every key of both committed result
-    files agrees. Ten verdicts that had rested on the lane's run are now verified on main.
+    files agrees. *[Narrowed 2026-11-18, at the lane's own finding M9-05: main's two scripts compare 33 and 45 of each
+    file's 72 leaf keys. Every field compared agrees. The keys not compared are listed by
+    `checks/physical_outputs_key_coverage.py`: provenance, residual sizes, flags and a few mathematical fields.]* Ten verdicts that had rested on the lane's run are now verified on main.
   - **What "verified" covers.** Finite algebra, elementary analysis and custody of quotations. Nothing of the lane's
     model is banked: its physical statements stay conditional on its parent and on analysis it says is unchecked.
   - **Owed to the lane by main:** the first of its six ranked deciding calculations, the bounded complete-cusp
@@ -599,6 +605,47 @@ noted, and none is pending.
   - **The physical lane's eight commits** (its check of main's M9, its support for the cusp inverse, its coverage of
     its code, and a new package on the tick and the Higgs) are registered and not yet read (harvest row 1914).
 
+- **Three lanes settled the same afternoon (2026-11-18): 451 files, 23139 statements, 837 pending, all agy-exp's.**
+  Harvest rows 1915 to 1917. The cut is at the physical lane's 6f074b770, the web seat's 01173b9df and the SM seat's
+  a69cee901.
+  - **The physical lane found five faults in main's own records of its lane, and each is right** (its findings M9-01
+    to M9-05; `checks/physical_m9_review.py`). Main's indicial script had multiplied the equation by ℓ² and not the
+    source, so its bound lacked that factor. The Bessel function it offered solves the channel without drift only.
+    Seven verified paragraphs joined computed algebra to claims about the complete operator; they are partial now
+    (record physical-m9-03). A record said the lane's engineering fixtures were unrun; they had run twice. And "key by
+    key" said more than main's scripts do: they compare 33 and 45 of each result file's 72 leaf keys
+    (`checks/physical_outputs_key_coverage.py`).
+  - **Its package on the tick and the Higgs holds on main in every decidable step** (`checks/physical_c8_tick_higgs.py`,
+    `physical_c8_dominant.py`, `physical_c8_modes.py`; the lane ran nothing, so these are the first runs).
+    - **The deciding result.** The quadratic ground space of the six Higgs modes is a complex plane. Its unit vector
+      h* = (1/√2, e^(iπ/12)/2, 0, 0, 0, e^(iπ/12)/2) has ratio exponents (0, 4/3) in the up sector and (1/5, 4/5) in the
+      down and lepton sectors at the mark. The two eigenvectors, and a random ground vector, have none. Nothing
+      computed selects h*, and nothing selects the eigenvectors: the tick exchanges them.
+    - The six modes factor as 2 × 3; the transport has characteristic polynomial (λ² − λ + 1)(λ⁴ − λ² + 1) and order
+      12; each half-period lift sends a ground vector two thirds out of the ground plane.
+    - The quartic invariant under the common phase, the transport and the tick is A·N² + B·Δ². The relative phase
+      first enters an invariant at degree 14.
+    - On main's own mode functions the connection is i[dX/(4y) + πN(ξ dη − η dξ)], and the frame's matrices are T₆
+      and √(τ/|τ|)·S₆. This derives the relative kinetic spectrum along the act's axis that main had supplied.
+  - **Two of its findings are against main's wording, and right** (C8-02, C8-04): "one bit" for the Higgs ground
+    space, and "lift-invariant" for the bubble. Both are corrected above, where main said them.
+  - **Its answer on B1959's hypotheses** (`checks/physical_m10_reply.py`): the operator's form follows from the
+    connection it states, and the bounded kernel from the roster of E₆ and a cutoff argument main checked by hand.
+    Its background and gluing stay premises of its model. B1959 carries the note.
+  - **The SM seat's cards SM-C18 to SM-C21 are read and recomputed** (`checks/sm_c18_to_c21.py`).
+    - SM-C18 holds, and SM-C20 holds as algebra.
+    - SM-C19's headline is false as written. The unitary S₆ exchanges the pair too. Over the 576 elements of the
+      group, the pair is exchanged exactly by what reverses the bundle's orientation.
+    - One line of SM-C20's card gives the wrong reflection (the physical lane's finding C8-03): z → z̄ is conjugation
+      with the parity on the modes. The card's result survives.
+    - SM-C21 reproduces on main's own driver. Its negative is for the two eigenlines, not for the ground plane.
+  - **The web seat's sections 13 and 14** (`checks/web_section13.py`, `web_section14.py`, `web_wa2_readout.py`): the
+    thirteen records it found short are each taken. It was right against main twice on W-A2's five lines; they are
+    verified on B1953's own routine. Its check of main's level-5 law agrees in exponent and sign.
+  - **The second reading of the web lane's verified statements has begun and is not done.** Eight read-only sorters
+    marked 950 of its 1,942 verified statements as candidates whose record's ground may not cover them. Main reads
+    each candidate before any verdict changes.
+
 ## When it closes
 
 - No statement is pending.
@@ -614,7 +661,10 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
-- **The web seat and the physical lane have not written the line.** The register closes when they do.
+- **No seat has written the line (2026-11-18, afternoon).** The web seat says it waits on the second reading of its
+  lane's verified statements. The physical lane says it waits on its five corrections (made) and on the cusp inverse
+  for its actual operator. The SM seat has been asked for its review for the first time (M41). agy-exp's review is in
+  and its lane has 837 statements pending. The register closes when each has written it.
 
 ## Not claimed
 

@@ -8,8 +8,8 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-verify", "agy-002", "origin/agy-002/verify", "53ac6c7d", "62420b533"),
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
-    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "a47e76da6"),
-    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "f975f6ea4"),
+    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "6f074b770"),
+    ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "01173b9df"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "d1c71f255"),
     ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "a69cee901"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
 )

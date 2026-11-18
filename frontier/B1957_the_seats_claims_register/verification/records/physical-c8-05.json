@@ -1,0 +1,10 @@
+{
+ "id": "physical-c8-05",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "custody and the reading of the SM seat's SM-C21 run (checks/physical_c8_dominant.py, A7; the seat's files read as text at a69cee901, nothing run): the script evaluates the theta sums at extended precision, converts each entry with complex(v) (line 41) and takes singular values with np.linalg.svd (lines 51 and 93); it holds no extended-precision decomposition. Its exponent loop reads one mark at heights 6, 8, 10 and its class loop all 24 points and four lifts (as main's own driver of the card does)",
+ "note": "Main's reproduction of SM-C21 (checks/sm_c18_to_c21.py, C4) and this package's check use an extended-precision decomposition throughout; main's figures agree with the seat's printed ones, so the conversion did not spoil them at those heights.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:17"
+ ]
+}

@@ -3,9 +3,12 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "split from web-wb2-first-02 on the seat's own finding (its status page, section 7.2, item 4): the failure and the difference between the readings are main's; the magnitudes 2.2 to 7.2 and 2.3 to 2.8 are in the seat's own measure on its first build and are not reproduced",
- "note": "",
+ "note": "ADDED 2026-11-18 at the seat's section 13.2: lines 48, 51 and 64: the covariance of the two controls is main's (B1724, B1945); their residuals and the magnitude 1.6 to 7.0 are in the seat's measure on its first build.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:49",
-  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:70"
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:70",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:48",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:51",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1S_COUPLING_IS_NOT_COVARIANT_IN_EITHER_PLACEMENT:64"
  ]
 }

@@ -1,0 +1,10 @@
+{
+ "id": "sm-c20-04",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "the card's rule as written: 'R0 is tau -> -conj(tau), z -> conj(z). On the flux-6 modes ... it acts as plain complex conjugation K, with no permutation of k'. On main's own mode functions (checks/physical_c8_tick_higgs.py, K9) the reflection z -> conj(z) with tau -> -conj(tau) sends psi_k to the conjugate of psi_(-k): conjugation composed with the parity k -> -k (7e-15), and not plain conjugation (difference 2.24). Plain conjugation belongs to z -> -conj(z), which is what the usual rule z' = conj(z)/(c conj(tau) + d) gives for R0 = diag(1, -1)",
+ "note": "FOUND BY THE PHYSICAL LANE (its finding C8-03), by hand; main's computation confirms it. THE RESULT OF SM-C20 SURVIVES: T6 S6 K and P T6 S6 K both square to U and agree on the ground pair, which is even; they differ on the odd plane (1.26), so the square test and the ground-pair test of SM-C20 cannot tell them apart. The card needs its coordinate rule or its coefficient rule corrected.",
+ "units": [
+  "sm:cards/SM_C20_is-the-exchange-the-tick:11"
+ ]
+}

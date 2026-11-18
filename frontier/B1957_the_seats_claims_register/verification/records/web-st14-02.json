@@ -1,0 +1,15 @@
+{
+ "id": "web-st14-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what the seat read and at which commit, that its answer on the second reading stands, and that it does not write HARVEST COMPLETE: it waits on the records of 14.3 (taken) and on the second reading if main does it (begun: the candidates are sorted and main is reading them)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1351",
+  "web:STATUS_CHAT1:1353",
+  "web:STATUS_CHAT1:1354",
+  "web:STATUS_CHAT1:1356",
+  "web:STATUS_CHAT1:1392",
+  "web:STATUS_CHAT1:1394"
+ ]
+}

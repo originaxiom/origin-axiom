@@ -1,0 +1,20 @@
+{
+ "id": "physical-read-c8",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at aa9facef6; the lane ran nothing in this package; main's checks are the first runs",
+ "files": [
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/EXACT_GROUND_SPACE_AND_SELECTION.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/WILSON_FAMILY_TRANSPORT.md",
+  "relays/PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL.md",
+  "relays/cards/PHYSICAL_C8_TICK_HIGGS_ALIGNMENT_2026-11-18.md",
+  "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE.md",
+  "relays/cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18.md",
+  "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README.md"
+ ]
+}

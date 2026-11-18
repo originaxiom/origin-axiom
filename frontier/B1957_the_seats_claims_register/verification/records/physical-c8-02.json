@@ -1,0 +1,12 @@
+{
+ "id": "physical-c8-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the lane's quotient spaces and its remarks on alignment. ON MAIN: on the Bloch sphere of E the tick turns the azimuth arg(z+ conj(z-)) by pi/6 and reverses the height, and U turns the azimuth by pi/3 (checks/physical_c8_tick_higgs.py, K4); two equivariant assignments of an independent sign to the eigenlines exist (elementary). NOT COMPUTED: that the quotient by U is a sphere and by the tick a projective plane (the lane's argument, read and found right by hand); what would remove the relative alignment as a physical distinction",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/EXACT_GROUND_SPACE_AND_SELECTION:170",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/EXACT_GROUND_SPACE_AND_SELECTION:224",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/EXACT_GROUND_SPACE_AND_SELECTION:234"
+ ]
+}

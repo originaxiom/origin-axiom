@@ -1,0 +1,26 @@
+{
+ "id": "sm-c18-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/sm_c18_to_c21.py, C1, on main's own closed form of the triple overlap (cim_closed.py, itself held against main's quadrature in this lock): the T-phase is e^(i pi c^2/6) with c = i - j + 3m (2e-14 over 20 random cases); for an odd difference q_L - q_R a move of the point by 1 changes the entries by (-1)^c and a move by tau carries the mode k to k + 3, each up to one common factor; for an even difference the overlap is single-valued. The flux-weighted mean (the Higgs's Wilson line is half the sum of the matter's) is the condition under which main's closed form was derived, and a moved Wilson line is seen (this lock). Frame C's three differences are -1, 5 and -9, all odd",
+ "note": "The seat derives what main had found by computation (the Higgs's Wilson line is not a function of the point). Its own figures (3.9e-14, 5.1e-15, 1.2e-48) are its run; the statements are the facts main computed.",
+ "units": [
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:9",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:10",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:12",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:17",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:19",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:20",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:21",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:22",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:23",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:24",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:26",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:32",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:33",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:34",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:35",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:42",
+  "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:43"
+ ]
+}

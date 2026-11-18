@@ -1,0 +1,24 @@
+{
+ "id": "physical-m10r-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the lane's answer on the hypotheses H1 and H3 of B1959 for its gauge operator, the mathematics of it, checked on main (checks/physical_m10_reply.py, Q1 to Q5; checks/physical_m9_review.py, N4) and the one analytic argument checked by hand, step by step. H1: on the cusp g = ell^2 (dx^2 + dy^2)/y^2 the frame's connection form is -dx/y, of curvature -1/ell^2; with [H, E] = 2E and A_spin = s H/2 the spin and gauge derivatives cancel on a raising section; a unitary mixing of the pair leaves M_g unchanged (elementary); with D_x = d_x + i w/(2y) the operator -(y^2/ell^2)(D_x^2 + D_y^2) + m^2 on e^(i nu x) f(log y) is ell^-2 [-f'' + f' + (nu e^t + w/2)^2 f] + m^2 f, its equation (1) and B1959's channel with mu = m^2 (residual 0; with the drift's sign reversed, 2 nu w e^t f/ell^2). H3: the roster of the adjoint of E6 under two commuting principal su(2)s is 1 + 3 + 7 + 3 + 7 + 25 + 16 + 16 = 78 with one trivial summand, so the pointwise kernel of M_g is the line of Q; for a bounded solution u of P u = 0, testing with chi^2 u gives the stated identity, Young's inequality in the form (a - 2b)^2/2 >= 0 gives its (3), finite area with |d chi_R| -> 0 sends the right side to zero, so u is parallel and in the kernel of M_g, hence a constant multiple of Q",
+ "note": "THIS ANSWERS WHAT B1959'S PAGE LISTED AS NOT CHECKED, AS FAR AS A CHECK FROM OUTSIDE CAN GO: the operator's form follows from the connection the lane states, and the bounded kernel from the roster and a standard cutoff argument. WHAT STAYS A PREMISE OF THE LANE'S MODEL: that its background is this parallel pair on the whole cusp and that the global gluing preserves Q (record physical-m10r-02). B1959's page carries a dated note. That the pair of su(2)s in main's rebuilding of the roster is the lane's pair is main's reading.",
+ "units": [
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:25",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:29",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:33",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:38",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:44",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:47",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:54",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:65",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:67",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:70",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:78",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:85",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:88",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:90",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY:94"
+ ]
+}

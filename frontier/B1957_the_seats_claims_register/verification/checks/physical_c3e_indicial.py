@@ -23,13 +23,29 @@ if __name__ == "__main__":
     print("3: in Sturm-Liouville form the Wronskian constant is %s; for a source bounded by M exp(-delta t) with delta < beta the two Green's integrals give |f| <= M exp(-delta t) / ((beta - delta)(1 + beta + delta)): %s; and (beta - delta)(1 + beta + delta) = ell^2 c - delta - delta^2: %s" % (
         pW, sp.simplify(bound - want) == 0, sp.simplify(sp.expand((beta - d) * (1 + beta + d)) - (ell ** 2 * c - d - d ** 2)) == 0))
     print("   so the solution decays at the source's rate, with a constant that blows up as delta reaches beta: the lane's condition delta < min beta_c is exactly what is needed")
+    # CORRECTED 2026-11-18, at the physical lane's finding M9-01: the two integrals above are for the equation multiplied through by ell^2,
+    # -f'' + f' + ell^2 c f = g, whose source g is ell^2 times the source of L_c = ell^-2 (-d^2/dt^2 + d/dt) + c.  In the operator's own
+    # normalisation the constant carries ell^2.  And the bound is for the particular solution the Green's integrals give, not for every
+    # admitted solution: A exp(-beta t) solves the equation with no source at all.
+    Lc = lambda u: (-sp.diff(u, t, 2) + sp.diff(u, t)) / ell ** 2 + c * u
+    coeff = sp.simplify(Lc(sp.exp(-d * t)) / sp.exp(-d * t)); part = sp.simplify(1 / coeff)
+    num = {ell: 2, c: 1, d: sp.Rational(1, 2)}
+    print("3 (corrected): L_c exp(-delta t) = [c - delta(1 + delta)/ell^2] exp(-delta t): %s; so for the source M exp(-delta t) of L_c itself the particular solution is M exp(-delta t) times %s = ell^2/(ell^2 c - delta - delta^2): %s; at ell = 2, c = 1, delta = 1/2: L_c exp(-t/2) = %s exp(-t/2) and the coefficient is %s (this script's first version gave 4/13, the figure for the equation multiplied by ell^2)"
+          % (sp.simplify(coeff - (c - d * (1 + d) / ell ** 2)) == 0, part, sp.simplify(part - ell ** 2 / (ell ** 2 * c - d - d ** 2)) == 0, coeff.subs(num), part.subs(num)))
+    print("   a homogeneous admitted solution is not bounded by the source: L_c exp(-beta t) = %s with beta as in 2, so A exp(-beta t) may be added for any A; it is fixed by the solution's value on the collar, not by the source" % sp.simplify(Lc(sp.exp(-beta * t)) / sp.exp(-beta * t)))
     h = sp.exp(t) * sp.integrate(sp.exp(-s) * sp.exp(-d * s), (s, t, sp.oo)); fp = -sp.integrate(h.subs(t, s), (s, t, sp.oo))
-    print("   at c = 0 (the Q direction): f' = %s and f - a = %s for the source exp(-delta t): a constant plus a decaying term, for every delta > 0" % (sp.simplify(h), sp.simplify(fp)))
+    print("   at c = 0 (the Q direction), for the equation multiplied by ell^2: f' = %s and f - a = %s for the source exp(-delta t): a constant plus a decaying term, for every delta > 0; for L_0 itself both carry the factor ell^2 (M9-01)" % (sp.simplify(h), sp.simplify(fp)))
     # 4: nonzero angular frequency: -f'' + f' + (k^2 exp(2t) + ell^2 c) f = 0 is solved by exp(t/2) K_nu(k exp(t)), nu = beta + 1/2
     mp.mp.dps = 30; worst = 0
     for kk, lc in ((2 * mp.pi, mp.mpf(0)), (2 * mp.pi, mp.mpf("0.7")), (6 * mp.pi, mp.mpf("2.3"))):
         nu = mp.sqrt(mp.mpf(1) / 4 + lc); F = lambda tt: mp.exp(tt / 2) * mp.besselk(nu, kk * mp.exp(tt))
         for tt in (mp.mpf("-0.5"), mp.mpf("0.3"), mp.mpf("1.1")):
             res = -mp.diff(F, tt, 2) + mp.diff(F, tt) + (kk ** 2 * mp.exp(2 * tt) + lc) * F(tt); worst = max(worst, abs(res / F(tt)))
-    print("4: at angular frequency k the decaying solution is exp(t/2) K_nu(k exp(t)) with nu = sqrt(1/4 + ell^2 c) = beta + 1/2: relative residual %s; it falls like exp(-k exp(t)), faster than any exponential, so these modes meet every weight" % mp.nstr(worst, 3))
+    print("4 (the control WITHOUT angular drift, w = 0; so labelled 2026-11-18 at the lane's finding M9-02): at angular frequency k the decaying solution is exp(t/2) K_nu(k exp(t)) with nu = sqrt(1/4 + ell^2 c) = beta + 1/2: relative residual %s; it falls like exp(-k exp(t)), faster than any exponential, so these modes meet every weight" % mp.nstr(worst, 3))
+    # the actual channel has the potential (k exp(t) + w/2)^2 + ell^2 m^2, with ell^2 c = ell^2 m^2 + w^2/4: the Bessel solution of the
+    # drift-free equation leaves the residual k w exp(t) u in it (M9-02)
+    kk, w_, lc = 2 * mp.pi, mp.mpf("0.6"), mp.mpf("0.7"); nu = mp.sqrt(mp.mpf(1) / 4 + lc); F = lambda tt: mp.exp(tt / 2) * mp.besselk(nu, kk * mp.exp(tt)); worst2 = 0
+    for tt in (mp.mpf("-0.5"), mp.mpf("0.3"), mp.mpf("1.1")):
+        res = -mp.diff(F, tt, 2) + mp.diff(F, tt) + ((kk * mp.exp(tt) + w_ / 2) ** 2 + lc - w_ ** 2 / 4) * F(tt); worst2 = max(worst2, abs(res / (kk * w_ * mp.exp(tt) * F(tt)) - 1))
+    print("4 (with the drift): in the actual channel, potential (k exp(t) + w/2)^2 + ell^2 m^2, the same function leaves the residual k w exp(t) u exactly (relative difference %s at w = 0.6): it is not a solution when k w is not zero. The estimate for those channels is B1959's, by a different argument" % mp.nstr(worst2, 3))
     print("NOT checked here: that the background is exactly parallel on the whole cusp end (so that the operator separates into these channels); that the global kernel is exactly Q; the uniformity in the angular frequency in the presence of the lane's first-order angular drift; the Schauder and core-matching steps; and everything after (3) (the two implicit-function arguments), which rests on the lane's earlier proof files")

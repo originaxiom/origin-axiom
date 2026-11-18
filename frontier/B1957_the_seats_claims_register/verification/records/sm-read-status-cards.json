@@ -1,0 +1,14 @@
+{
+ "id": "sm-read-status-cards",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "sm",
+ "how": "the four cards read by main in full at a69cee901; the status page's lines added since the pin read in full, its older lines read at harvest row 1829",
+ "files": [
+  "relays/STATUS_SM.md",
+  "relays/cards/SM_C18_the-triple-overlaps-covariance.md",
+  "relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md",
+  "relays/cards/SM_C20_is-the-exchange-the-tick.md",
+  "relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md"
+ ]
+}

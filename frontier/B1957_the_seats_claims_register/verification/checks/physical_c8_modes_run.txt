@@ -1,0 +1,7 @@
+D1: zero Wilson line, flux 6: |<psi_j, d_X psi_k> - i delta/(4y)| and |<psi_j, d_y psi_k>| at most 3.6e-11 (orthonormality of the modes to 1.1e-14)
+D4: the retwisted modes at four (tau, xi, eta): |<chi, d chi> - i [dX/(4y) + pi N (xi d eta - eta d xi)]| at most 9.4e-09 in all four directions
+D6: the part of d chi orthogonal to the modes: for real displacements (dX, dy, dxi, deta) its squared norm is |d tau|^2/(8y^2) + (pi N/y)|d xi + tau d eta|^2, the same for every mode and with no cross term between tau and the Wilson line: worst difference of the real symmetric forms 1.2e-07
+D2: main's transport matrices of the flux-6 modes: under tau -> tau + 1 it is T6 (4.4e-15); under S it is sqrt(tau/|tau|) S6 (2.2e-15)
+D3: chi(x + 1, u) = e^(i pi N u) chi and chi(x, u + 1) = e^(-i pi N x) chi at three (tau, xi, eta), seven points each: worst 7.8e-14 (the transitions do not depend on the Wilson line)
+D5: chi_j(xi + 1/N, eta) = e^(i(2 pi u + pi eta)) e^(2 pi i j/N) chi_j: worst 8.2e-15; chi_j(xi, eta + 1/N) = e^(-i(2 pi x + pi xi)) chi_(j+1): worst 3.6e-14
+D7: with 3 zeta_L + 3 zeta_R = 6 zeta_H the three retwisting phases multiply to 1 in chi_L chi_R conj(chi_H): worst 4.2e-16

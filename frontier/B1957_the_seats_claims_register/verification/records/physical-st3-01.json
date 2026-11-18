@@ -1,0 +1,33 @@
+{
+ "id": "physical-st3-01",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for the coverage work, the README of the delivery and the status page's lines of the day: scope, pointers, what was read at which of main's commits, and the lane's statement that it does not declare the harvest complete while the five corrections stand open and the complete-cusp inverse is owed",
+ "note": "",
+ "units": [
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:3",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:7",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:10",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:14",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:19",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:24",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:28",
+  "physical:cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18:33",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:3",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:5",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:7",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:10",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:13",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README:17",
+  "physical:STATUS_PHYSICAL:24",
+  "physical:STATUS_PHYSICAL:36",
+  "physical:STATUS_PHYSICAL:45",
+  "physical:STATUS_PHYSICAL:58",
+  "physical:STATUS_PHYSICAL:69",
+  "physical:STATUS_PHYSICAL:76",
+  "physical:STATUS_PHYSICAL:86",
+  "physical:STATUS_PHYSICAL:96",
+  "physical:STATUS_PHYSICAL:134",
+  "physical:STATUS_PHYSICAL:142"
+ ]
+}

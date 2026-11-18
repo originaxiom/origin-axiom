@@ -1,5 +1,5 @@
 """B1957: the committed output of the physical lane's own independent checker of another seat's X-ENDGAME campaign
-(agy_exp_endgame_review_2026_11_15/run01/result.json), held key by key against main's recomputation.  The lane's
+(agy_exp_endgame_review_2026_11_15/run01/result.json), held against main's recomputation in the fields this script compares (45 of the file's 72 leaf keys; physical_outputs_key_coverage.py lists the rest: provenance, residual sizes, flags and a few mathematical fields).  [Narrowed 2026-11-18 at the lane's finding M9-05: this said 'key by key'.]  The lane's
 checker is not run and not imported: its inputs are read from its text (the matrices, the point, the rational
 examples) and every figure is computed here by main's own code; the committed result file is read as data.
  P1  the exact topology and orbit counts (16 keys).

@@ -1,0 +1,25 @@
+{
+ "id": "sm-st-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the page's lines for SM-C18 to SM-C21, each a summary of its result note and settled at that note's records: SM-C18's statements and SM-C21's figures are verified on main's own closed form; SM-C20's algebra is verified; the conclusions drawn ('the bit is the hand', 'the tick's orientation, not a new input', 'D1 has no choice but no hierarchy') are partial, as recorded there (records sm-c18-01 to sm-c21-03)",
+ "note": "",
+ "units": [
+  "sm:STATUS_SM:439",
+  "sm:STATUS_SM:440",
+  "sm:STATUS_SM:442",
+  "sm:STATUS_SM:444",
+  "sm:STATUS_SM:445",
+  "sm:STATUS_SM:448",
+  "sm:STATUS_SM:450",
+  "sm:STATUS_SM:451",
+  "sm:STATUS_SM:452",
+  "sm:STATUS_SM:454",
+  "sm:STATUS_SM:456",
+  "sm:STATUS_SM:457",
+  "sm:STATUS_SM:458",
+  "sm:STATUS_SM:460",
+  "sm:STATUS_SM:461",
+  "sm:STATUS_SM:463"
+ ]
+}

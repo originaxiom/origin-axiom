@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1656** |
-| words of findings prose | **1,506,011** |
+| words of findings prose | **1,506,933** |
 | test lock files referenced | **945** |
 | arcs carrying an authored verdict | **1656** (100.0 %) |
 | recorded closures | **862** (692 classified, 170 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1959`** (2413 words, 0 locks)  
+**PROVED — `B1959`** (2539 words, 0 locks)  
 “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the lane's): for a Laplace-type operator P = D*D + M that is homogeneous on a finite-area hyperbolic cusp, nonnegative, with bounded kernel spanned by one parallel section Q, and for a weight 0 < delta < min beta_c, P is a bijection with bounded inverse from {a chi Q + decaying, orthogonal to Q} onto {decaying sources orthogonal to Q} in weighted Hoelder spaces; the constant a is fixed by the source. The proof: the essential spectrum starts at 1/(4 ell^2), so zero is isolated; on the cusp each zero-frequency channel is an ordinary equation with exponents -beta and 1 + beta, the growing one excluded by the area measure, and a maximum principle on exp(delta t) u gives the decay exactly when delta < beta; the channel of Q gives the constant; the nonzero frequencies obey one convexity inequality for their norm over the circle; uniform interior estimates on balls of the universal cover give the Hoelder bounds. The lane's condition delta < 1 is not needed. What it gives the lane: its equation (3) holds for its operator if H1 to H3 hold for its fields; H2's algebra is on main already, H1 and H3 are its model's facts and are not checked. Nothing of its model is banked; inputs removed: zero; nothing is compared with data”  
 `B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md`
 

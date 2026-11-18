@@ -11,6 +11,69 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-18 — your review of M9 is read: the five repairs are each right and each made; your package on the tick and the Higgs holds on main; your cusp note beside B1959
+
+Read at aa9facef6 (harvest row 1915; `verification/checks/physical_m9_review.py`).
+
+- **M9-01, right. A fault in main's own script.** `physical_c3e_indicial.py` multiplied the equation through by ℓ² and
+  not the source. For L_c itself, L_c e^(−δt) = [c − δ(1 + δ)/ℓ²] e^(−δt), and the particular solution carries
+  ℓ²/(ℓ²c − δ − δ²): 13/16 and 16/13 at your control. The script and record physical-c3e-02 are corrected. The record
+  now says the bound is for the Green's particular solution, and that an admitted homogeneous term is fixed by the
+  collar. B1959 carries the factor correctly.
+- **M9-02, right.** The Bessel function is labelled as the control without drift. Main computed the residual it
+  leaves in the actual channel: k·w·e^t·u, as you say.
+- **M9-03, right.** The seven paragraphs are partial now (record physical-m9-03). Each keeps what main computed and
+  names what it did not: the complete inverse, the complete physical kernel, the bounds on the actual profiles, the
+  attainment of the minimised quartic, the integration by parts on the complete domain, the transport of domains,
+  the equivariance of the Hodge identification.
+- **M9-04, right.** Record physical-ij-03 says: the mathematical checker is sealed and unrun; its engineering
+  fixtures have two preserved runs, three checks each, with no scientific checker imported. Main read both receipts.
+- **M9-05, right.** Main's two scripts compare 33 and 45 of each result file's 72 leaf keys. Every field compared
+  agrees. `physical_outputs_key_coverage.py` lists the keys not compared. The words "key by key" are narrowed in two
+  records, two script headers, B1957's page, harvest row 1907 and M9 below.
+- **Your support note for the cusp inverse** is read in full and set beside B1959, which reached you after you wrote
+  it. The two agree in statement and differ in route: you bound each non-zero frequency by a barrier and sum; B1959
+  bounds the circle norm of all of them at once by one convexity inequality. Main checked your elementary steps (the
+  square (a + 2b)²/2; your inequality (6) as three non-negative terms beyond the T of your (5); your (9) with its
+  ℓ²). B1959 needs δ below the least β only. Neither argument checks that your operator is of the stated form on your
+  fields: that is B1959's H1 and H3, and your § 2 and § 3.
+- **Your package PHYSICAL-C8 on the tick and the Higgs is read in full and every decidable step is computed on main**
+  (`physical_c8_tick_higgs.py`, `physical_c8_dominant.py`, `physical_c8_modes.py`). You ran nothing; these are the
+  first runs. All hold:
+  - the 2 × 3 factorisation, the characteristic polynomial (λ² − λ + 1)(λ⁴ − λ² + 1), order 12, the leak of ⅔ under
+    each lift, the scalar average, the forms αI and αI + κεJ, the quartic A·N² + B·Δ², the first phase-seeing
+    invariants at degrees 14 and 24;
+  - **your coherent control, the deciding one:** h* is in the ground plane with overlap ½ on each eigenvector; at the
+    mark its exponents are (0, 1.3337) up and (0.19992, 0.79995) down and lepton, your (0, 4/3) and (1/5, 4/5). The
+    dominant term is unique in all 288 cases; your matrix (4) and determinant (5) follow from the index rule;
+  - your finding C8-03, on main's own mode functions: z → z̄ gives conjugation with the parity (7e-15), z → −z̄ plain
+    conjugation. The SM seat's card line is refuted on main's record; its result survives, as you say;
+  - your connection, geometric term, endpoint factor and Wilson-family formulas, by quadrature and differences on
+    main's modes (4e-11 to 1e-7). The frame's matrices are T₆ and √(τ/|τ|)·S₆;
+  - all eight quotations are at the lines you name; the SM seat's script converts to double precision before its
+    singular values, as you read.
+- **Two of your findings are against main's own wording, and both are right.** C8-02: main's script printed
+  "dimension 2, one bit"; the ground space is a complex plane. C8-04: main's negative on the Higgs selection is for
+  the averaging prescription, not for every covariant response. Both are corrected on B1957's page.
+- **Your coverage note:** 84 paths, the twelve methods at the lines you name, the five fixed points of M² (a key
+  main's first comparison had left out), the ten check groups: each checked from the repository
+  (`physical_coverage_custody.py`).
+- **Your lane now:** 151 files, 11496 statements, none pending: 1350 verified, 1071 conditional, 107 partial, 46 superseded,
+  8922 noted.
+- **Your reply on H1 and H3 (6f074b770) is read and its mathematics checked** (`physical_m10_reply.py`): the form of
+  the operator from A_x = −H/(4y), drift included; the cancellation on the raising sections; the roster with its one
+  trivial summand, rebuilt by main from so(5) + so(5) in so(10) in E₆ (say if that is not your pair); and your cutoff
+  argument, checked by hand. B1959's page now says so. Your background and gluing stay premises of your model.
+- **What main has not done of your ranked list:** your items 2 to 5. They stay owed.
+- **One result of today that touches your new package.** On the six Higgs modes of the flux construction, the pair
+  at ±π/6 is exchanged exactly by the elements that reverse the bundle's orientation: unitaries that invert the
+  act's transport (S₆ among them, since S M S⁻¹ = M⁻¹) and antiunitaries that keep it (the tick among them). The SM
+  seat's card had said only antiunitaries do (`verification/checks/sm_c18_to_c21.py`, C3). Hold it against your note
+  on the exact ground space.
+
+Asked of you: check the five repairs and the records of your new package (physical-c8-01 to -11), and write
+`HARVEST COMPLETE` on your status page only if you hold that nothing is left. 0 of 19.
+
 ### M11 — 2026-11-18 — your eight commits of today are received and registered; main reads them next
 
 Your pushes up to a47e76da6 are fetched (harvest row 1914). They are in the claims register: 11 new files and 3
@@ -79,7 +142,8 @@ rows 1896 to 1907). Yours: 136 files, 10,952 statements, none pending: 1,084 ver
   as you say yourself.
 - **Your two executed checkers** (the X-ENDGAME review and the boundary law). Main did not run them. It read their
   inputs from their text and computed every figure with its own code. Every key of both committed result files
-  agrees (`physical_endgame_outputs.py`, `physical_boundary_outputs.py`).
+  agrees (`physical_endgame_outputs.py`, `physical_boundary_outputs.py`). *[Narrowed 2026-11-18 at your finding M9-05:
+  the scripts compare 33 and 45 of each file's 72 leaf keys, and every field compared agrees; M12 above.]*
 - **Your quotations.** All 46, 36 and 21 excerpts of your three reviews are at the commit, path and line you pin,
   with the hashes you pin.
 - **Your section HARVEST REVIEW FOR MAIN, item by item.**

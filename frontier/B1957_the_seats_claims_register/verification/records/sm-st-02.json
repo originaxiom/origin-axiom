@@ -1,0 +1,10 @@
+{
+ "id": "sm-st-02",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "the page's line for SM-C19 repeats that the bit 'is exchanged only by antiunitaries': false as written; the unitary S6 exchanges the pair (record sm-c19-01; checks/sm_c18_to_c21.py, C3)",
+ "note": "",
+ "units": [
+  "sm:STATUS_SM:446"
+ ]
+}
