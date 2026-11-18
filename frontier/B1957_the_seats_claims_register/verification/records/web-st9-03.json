@@ -1,0 +1,22 @@
+{
+ "id": "web-st9-03",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's two findings on main's record, both right and both mended. (1) Its cold read of 2026-11-11 was not in the register at the head it read: taken in, read in full and settled at main 5d4fd32fe (the record web-cold-01; M48). (2) web-sr-02 was marked verified over lines main had only registered: main computed them today (checks/web_session_relay_three.py and web_session_relay_manifolds.py) and split the record by what it verified: web-sr-02 (12 statements verified), web-sr-05 (4 partial: the arithmetic of 'the number 3 does two independent jobs' verified, its two readings not computed), web-sr-06 (1 refuted: 'this derivation is not in the record'), web-sr-07 (2 noted). The three facts the seat gives by hand are in the check: an element of order 3 of SL(2, Z) has trace -1, det(A - 1) = 3 and three fixed points; an automorphism of order 3 of E6 has trivial image in the outer group of order 2; A = -1 gives 4",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:795",
+  "web:STATUS_CHAT1:796",
+  "web:STATUS_CHAT1:797",
+  "web:STATUS_CHAT1:799",
+  "web:STATUS_CHAT1:800",
+  "web:STATUS_CHAT1:801",
+  "web:STATUS_CHAT1:802",
+  "web:STATUS_CHAT1:803",
+  "web:STATUS_CHAT1:805",
+  "web:STATUS_CHAT1:806",
+  "web:STATUS_CHAT1:807",
+  "web:STATUS_CHAT1:809",
+  "web:STATUS_CHAT1:811"
+ ]
+}

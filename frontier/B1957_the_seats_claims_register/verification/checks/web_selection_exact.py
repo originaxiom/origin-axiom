@@ -68,6 +68,7 @@ if __name__ == "__main__":
             if best is None or val < best[0]: best = (val, abs(s))
         res.append((b, round(best[1], 3), b / (2 * g), round(best[0], 4), -b * b / (4 * g)))
     print("E4: (b, |a.a| at the least value found, |b|/2g, the least value, -b^2/4g): %s" % res)
+    import pathlib as _pl, sys as _sys; _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))          # the sibling below is found in isolated mode too (the web seat's section 9, 2026-11-18)
     import web_weave_action_on_tau as W
     h1 = W.grad_hess(W.f_eta, W.OM)[1]; h3 = W.grad_hess(lambda x, y: W.E_fourier(mp.mpc(x, y), mp.mpf(3)), W.OM)[1]
     print("E5: at omega: half the Hessian of log(y |eta|^4): %.4f, %.4f; of E(tau, 3): %.4f, %.4f; the ratio: %.2f" % (h1[0] / 2, h1[1] / 2, h3[0] / 2, h3[1] / 2, -h3[0] / h1[0]))

@@ -77,6 +77,7 @@ if __name__ == "__main__":
     tc = brentq(lambda t: run(v0, t)[57], 1.0, 30.0, xtol=1e-14, rtol=1e-14)
     print("V1: the top alone from (1/2, 3/5, 1, 9/10) with lambda = 1/10 in the other normalisation: the quartic crosses zero at t = %.12f (Buttazzo et al.'s equations on main: 7.578626559316; agy-002: 7.578626559317)" % tc)
     # V2: the third generation, diagonal, against Buttazzo et al. equations (96) to (103)
+    import pathlib as _pl, sys as _sys; _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))          # the sibling below is found in isolated mode too (the web seat's section 9, 2026-11-18)
     import sm_rge3
     g = np.array([0.47, 0.63, 1.08]); yt, yb, yl, lam = 0.91, 0.37, 0.23, 0.13
     v = pack(g, np.diag([0, 0, yt]), np.diag([0, 0, yb]), np.diag([0, 0, yl]), 2 * lam); d = rhs(0, v); dg, dH, dD, dL, dl = unpack(d)

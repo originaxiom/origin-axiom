@@ -17681,6 +17681,7 @@
     "metallic",
     "eisenstein",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "torsion",
     "wrt_quantum"
@@ -17693,7 +17694,7 @@
     "L1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 14,
+   "obstacle_conf": 15,
    "status": "dormant",
    "domain": "arithmetic"
   },

@@ -424,6 +424,33 @@ noted, and none is pending.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).
+- **The web seat's check of M47 (its section 9, 2026-11-18): two findings on main, both right.**
+  - **A record verified over lines only registered.** `web-sr-02` held 19 statements of the seat's session relay of
+    2026-09-08 as verified, on a ground that said "registered as stated" and "not re-run today". Main computed every
+    one of them and split the record: 12 verified, 4 partial, 1 refuted, 2 noted
+    (`checks/web_session_relay_three.py`, `checks/web_session_relay_manifolds.py`).
+    - Verified: −w₀ is the diagram automorphism on E₆ and the identity on F₄; the characteristic of an sl₂ is fixed
+      by it; 27 = 26 + 1 on F₄; Out(E₆) has order 2 (D₄, with 6, is the control); an element of order 3 of SL(2, ℤ)
+      has trace −1 and three fixed points; the seven manifolds, with SnapPy.
+    - Partial: "the number 3 does two independent jobs". The arithmetic holds and the two jobs are independent. That
+      the three fixed lines are three generations, and that the inner lift is why they are chiral, is a reading main
+      has not computed.
+    - Refuted: "this derivation is not in the record". It was (B1103's certificate, stage 2).
+  - **Six of main's checks failed in isolated mode** (a sibling import without the path). Mended; each gives its
+    committed run byte for byte.
+  - **P-740's proof has been read by a session that did not write it**, and found right. The seat supplied a step the
+    note had left unsaid and an independent search on 118 words.
+- **The physical lane's packages P-C3b, P-C3c and P-C3d (state orbit, transverse response, neutral source): 585
+  statements, 204 verified, 252 conditional, 129 noted.**
+  - Main rebuilt the finite algebra and the elementary analysis of every hand proof (three check scripts) and ran
+    nothing of the lane's. Every formula main could compute holds.
+  - What stays conditional is what the lane itself says is unchecked: that its physical operator reduces to these
+    finite and half-line blocks.
+  - **What the lane concludes, in its own scope:** a positive quartic on its charged spin modes is protected with no
+    free coefficient; neutral fields alone cannot join its three state axes; the fields fixed by a reflection are a
+    consistent classical sector where a join may be sought. It counts zero inputs removed.
+  - **Its review of agy-exp's X-UNIFY** gives four objections to that seat's source. Main verified the thirteen finite
+    claims in it and holds the four objections for its own reading of that lane.
 
 ## When it closes
 

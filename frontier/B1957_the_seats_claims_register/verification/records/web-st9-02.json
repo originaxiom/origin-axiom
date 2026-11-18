@@ -1,0 +1,18 @@
+{
+ "id": "web-st9-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's reading of main's proof of the per-centre rule (P-740), by a session that did not write it: each step it restates is a step of main's proof and holds (F L F = L^-1 and F R F = R^-1; the reverser F at a centre between letters, F x^-1 at a centre on a letter x; the two classes of reversers; modulo 2 the letters are involutions). The step it names as geometric, the transport of the fixed fibre by half the letter, is the identity x^(1/2) F x^(-1/2) = F x^-1, checked exactly for both letters (the lock). Its search for every reversing involution with entries to 150: its script read as text and not run, its output read (the rule's classes on all 118 words, none differing; the control with the two kinds exchanged differs on 68); main recounted the words (118 primitive cyclic words of length 2 to 10 with a reflection, 68 of even length, which is why the control can differ only there). Main's own check covers 562 words to length 14 by the reverser's formula; the seat's covers 118 by search without the formula",
+ "note": "Acted on: B1852's dated note and the P-740 row now say the proof has been read by a session that did not write it and found right.",
+ "units": [
+  "web:STATUS_CHAT1:772",
+  "web:STATUS_CHAT1:773",
+  "web:STATUS_CHAT1:774",
+  "web:STATUS_CHAT1:775",
+  "web:STATUS_CHAT1:777",
+  "web:STATUS_CHAT1:780",
+  "web:STATUS_CHAT1:783",
+  "web:STATUS_CHAT1:786",
+  "web:STATUS_CHAT1:788"
+ ]
+}

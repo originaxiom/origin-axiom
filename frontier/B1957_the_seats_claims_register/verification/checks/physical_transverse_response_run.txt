@@ -1,0 +1,5 @@
+T1: the gradient of the cubic: [t_minus*t_plus*y, A*t_minus*y, A*t_plus*y]; the identity: True; over 20,000 random draws with |y|^2 >= 2 e^2 the least value of (the bound's left side minus its right side) is 2.78e-07; with |y|^2 = e^2/2 the bound fails somewhere: True
+T2: |P B|^2 = 0.322845; the least of |L beta + B|^2 over 2,000 random beta: 2.752048; at the least-squares beta: 0.322845
+T3: half of D^2 V (Y, Z) numerically 34.402807; <DR Y, DR Z> + <R, D^2 R (Y, Z)> = 34.402815
+T4: colour roots 6; roots orthogonal to all of them: 72 (40 integer, 32 half-integer); the simple roots are among them: True; their edges [(1, 2), (2, 3), (3, 4), (3, 5), (5, 6)] and Cartan determinant 3; no colour root added to a singlet half-root is a root: True; the grading by Q: {'-1': 16, '0': 40, '1': 16}; the other half-roots: {'-1/3': 48, '1/3': 48}; the roots on the first three coordinates: {'-4/3': 3, '0': 6, '4/3': 3}
+T5: the character on (a, b) at the three state axes: {'k': (-1, -1), 'j': (-1, 1), 'i': (1, -1)}

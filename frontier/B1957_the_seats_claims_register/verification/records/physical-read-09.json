@@ -1,0 +1,17 @@
+{
+ "id": "physical-read-09",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at the lane's head 8d5c91032",
+ "files": [
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINDINGS.md",
+  "reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REVIEW_BRIEF.md"
+ ]
+}

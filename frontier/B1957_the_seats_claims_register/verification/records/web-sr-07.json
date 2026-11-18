@@ -1,0 +1,11 @@
+{
+ "id": "web-sr-07",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the relay's list of items it found already in the record, with its search tool's file counts at its date, and its sentence offering two of them as re-derivations: read; the counts are not recounted (the record has changed since, and the relay's own instrument warning is about that tool)",
+ "note": "",
+ "units": [
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:123",
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:128"
+ ]
+}

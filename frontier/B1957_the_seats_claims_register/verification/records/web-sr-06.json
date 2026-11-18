@@ -1,0 +1,10 @@
+{
+ "id": "web-sr-06",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "'the gate itself is in the record; this derivation is not': the derivation was in the record. It is stage 2 of the certificate vendored in B1103 (2026-08-21: the character from the odd-plane determinant, det(odd R) and det(odd L) as the two primitive cube roots), and main said so in B1303 on the day of the relay. The first half of the sentence, that the derivation turns the gate from a census into a theorem, is right",
+ "note": "A small refutation of a statement about the record, not about mathematics; main's reply of 2026-09-08 already carried it.",
+ "units": [
+  "web:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY:64"
+ ]
+}

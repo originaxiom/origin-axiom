@@ -397,3 +397,79 @@ def test_the_subregular_sl2_of_e6_fixes_no_vector_of_the_27_so_it_is_not_inside_
         return E.sl2_content(eigs)
     assert content((2, 2, 2, 2, 2, 2)) == {16: 1, 8: 1, 0: 1}                    # the regular sl2: 17 + 9 + 1, a fixed vector, as inside F4
     assert content((2, 2, 0, 2, 2, 2)) == {12: 1, 8: 1, 4: 1}                    # the subregular one: 13 + 9 + 5, none
+
+
+def test_order_three_gives_three_fixed_points_and_is_prime_to_e6s_outer_group():
+    import web_session_relay_three as T
+    assert len(T.autos(T.C)) == 2                                                  # the outer group of E6 has order 2 ...
+    D4 = T.cartan([(0, 1), (1, 2), (1, 3)], 4); assert len(T.autos(D4)) == 6       # ... and D4's has 6: there order 3 is not forced inner
+    img, length = T.longest(T.C); perm = tuple(tuple(-x for x in v).index(1) for v in img)
+    assert length == 36 and perm == (4, 3, 2, 1, 0, 5)                             # -w0 is the non-trivial automorphism of E6
+    F4 = T.cartan([(0, 1), (2, 3)], 4, double=[(1, 2)]); img, length = T.longest(F4)
+    assert length == 24 and all(tuple(-x for x in img[i]).index(1) == i for i in range(4))          # and the identity on F4: -1 is in W(F4)
+    fixed = lambda a, b, c, d, N=12: sum(1 for x in range(N) for y in range(N) if ((a - 1) * x + b * y) % N == 0 and (c * x + (d - 1) * y) % N == 0)
+    assert fixed(0, -1, 1, -1) == 3 and fixed(-1, 0, 0, -1) == 4 and fixed(0, -1, 1, 0) == 2 and fixed(1, -1, 1, 0) == 1      # orders 3, 2, 4, 6
+
+
+def test_the_half_letter_carries_the_reflection_to_the_reverser_at_a_letter():
+    h = F(1, 2); mul = lambda X, Y: tuple(tuple(sum(X[i][k] * Y[k][j] for k in range(2)) for j in range(2)) for i in range(2)); Fm = ((-1, 0), (0, 1)); one = ((1, 0), (0, 1))
+    for half, mhalf, inv in ((((1, h), (0, 1)), ((1, -h), (0, 1)), ((1, -1), (0, 1))), (((1, 0), (h, 1)), ((1, 0), (-h, 1)), ((1, 0), (-1, 1)))):
+        assert mul(mul(half, Fm), mhalf) == mul(Fm, inv)                           # x^(1/2) F x^(-1/2) = F x^-1
+        assert mul(mul(half, one), mhalf) != mul(Fm, inv)                          # which is not what the identity gives
+
+
+def test_a_three_cusped_manifold_has_a_symmetry_of_order_three_that_is_trivial_on_one_cusp():
+    import snappy
+    M = snappy.Manifold("otet10_00005"); G = M.symmetry_group(); n = G.order(); iso = G.isometries(); assert M.num_cusps() == 3 and n == 12
+    ident = next(i for i in range(n) if all(G.multiply_elements(i, j) == j for j in range(n))); seen = set()
+    for i in range(n):
+        if i != ident and G.multiply_elements(G.multiply_elements(i, i), i) == ident:
+            assert list(iso[i].cusp_images()) == [0, 1, 2]; seen.add(tuple(int(A[0, 0] + A[1, 1]) for A in iso[i].cusp_maps()))
+    assert seen == {(-1, 2, -1)}                                                   # half of (3 + 0 + 3) is 3
+
+
+def _e8_roots():
+    import itertools
+    roots = set()
+    for i, j in itertools.combinations(range(8), 2):
+        for si in (1, -1):
+            for sj in (1, -1):
+                v = [F(0)] * 8; v[i] = F(si); v[j] = F(sj); roots.add(tuple(v))
+    for signs in itertools.product((1, -1), repeat=8):
+        if sum(1 for s in signs if s < 0) % 2 == 0: roots.add(tuple(F(s, 2) for s in signs))
+    return roots
+
+
+def test_the_colour_centraliser_in_e8_is_e6_and_the_reflection_splits_it_38_and_40():
+    roots = _e8_roots(); assert len(roots) == 240
+    dot = lambda a, b: sum(p * q for p, q in zip(a, b)); colour = [r for r in roots if all(c == 0 for c in r[3:]) and sum(r[:3]) == 0]; assert len(colour) == 6
+    e6 = [r for r in roots if all(dot(r, c) == 0 for c in colour)]; Q = lambda r: F(2, 3) * (r[0] + r[1] + r[2])
+    assert len(e6) == 72 and sorted({Q(r) for r in e6}) == [-1, 0, 1] and sum(1 for r in e6 if Q(r) == 1) == 16
+    assert {Q(r) for r in roots} > {Q(r) for r in e6}                              # thirds outside E6: the reflection has order 6 on E8
+    lam = (0, 0, 0, 2, 1, 2, 1, 0); even = [r for r in e6 if (Q(r) - dot(lam, r)) % 2 == 0]
+    assert len(even) + 6 == 38 and len(e6) - len(even) == 40
+    assert all(Q(r) == 0 or dot(lam, r) % 2 == 1 for r in even)                    # the charge's sign exchanges a spinor's two halves: its even part is the odd weights
+    assert sum(1 for r in e6 if Q(r) != 0 and dot(lam, r) % 2 == 0) == 16          # which the weight alone would have put on the other side
+
+
+def test_the_protected_quartic_needs_the_coupling_at_least_root_two_times_the_charge():
+    lhs = lambda y2, e2, x, z: y2 * x * z + e2 / 2 * (x - z) ** 2; low = lambda e2, x, z: e2 / 2 * (x + z) ** 2
+    for x, z in ((F(1), F(1)), (F(3), F(1, 7)), (F(0), F(5)), (F(2, 3), F(9, 4))):
+        assert lhs(F(2), F(1), x, z) == low(F(1), x, z)                            # equality at y^2 = 2 e^2, for every x and z
+        assert lhs(F(5), F(1), x, z) >= low(F(1), x, z)
+    assert lhs(F(1), F(1), F(1), F(1)) < low(F(1), F(1), F(1))                     # and below it the bound fails
+
+
+def test_the_axis_stabiliser_in_the_binary_octahedral_group_has_order_sixteen():
+    import physical_state_orbit as O, itertools
+    I2, qi, qj, qk = O.I2, O.qi, O.qj, O.qk; gens = [(I2 + qi) / np.sqrt(2), (I2 + qj) / np.sqrt(2)]; G = [I2]; grew = True
+    while grew:
+        grew = False
+        for g in list(G):
+            for h in gens:
+                x = g @ h
+                if not any(np.allclose(x, y) for y in G): G.append(x); grew = True
+    assert len(G) == 48
+    stab = [g for g in G if np.allclose(g @ qk @ np.linalg.inv(g), qk) or np.allclose(g @ qk @ np.linalg.inv(g), -qk)]
+    assert len(stab) == 16 and len(G) // len(stab) == 3                            # three axes, three cosets
+    assert len([g for g in stab if np.allclose(g @ qi @ np.linalg.inv(g), qi) or np.allclose(g @ qi @ np.linalg.inv(g), -qi)]) == 8

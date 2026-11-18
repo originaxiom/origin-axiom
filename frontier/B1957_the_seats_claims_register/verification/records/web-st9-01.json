@@ -1,0 +1,22 @@
+{
+ "id": "web-st9-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of main's M47, held against its sources on main. Its recount of the register (136 files, 6,552 statements, none pending; 1,801 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded, 4,293 noted) is SUMMARY.json at a5e967af9 figure for figure. Its rerun of main's 13 new and changed checks on a clean checkout: its output file read (nine identical, four differing only in residuals below 1e-12; the two seeded checks identical on two runs); its comparison script read as text and not run. ITS FINDING ABOUT MAIN'S INSTRUMENTS IS RIGHT AND IS MENDED: four of main's checks imported a sibling module without putting their own folder on the path and so failed in isolated mode; a sweep found six with that fault (the selection, scale-census, T-root and thread-table checks, an older check of the SM seat's lane, and the check written today); each now sets the path, and each run in isolated mode gives its committed run byte for byte. Its independent recomputation of main's refutation: its output read (the subregular sl2 gives 13 + 9 + 5, the regular 17 + 9 + 1, the minimal six doublets and fifteen trivial summands); the minimal case computed on main today, the other two are in checks/web_session_relay_f4.py",
+ "note": "The seat withdraws step 3 of its session relay's route and the sentence that used it. Label for the seat's reruns of main's checks: reproduced.",
+ "units": [
+  "web:STATUS_CHAT1:743",
+  "web:STATUS_CHAT1:746",
+  "web:STATUS_CHAT1:749",
+  "web:STATUS_CHAT1:751",
+  "web:STATUS_CHAT1:753",
+  "web:STATUS_CHAT1:754",
+  "web:STATUS_CHAT1:756",
+  "web:STATUS_CHAT1:759",
+  "web:STATUS_CHAT1:760",
+  "web:STATUS_CHAT1:764",
+  "web:STATUS_CHAT1:766",
+  "web:STATUS_CHAT1:769",
+  "web:STATUS_CHAT1:770"
+ ]
+}

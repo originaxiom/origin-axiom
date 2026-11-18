@@ -1,0 +1,22 @@
+{
+ "id": "physical-so-03",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the finite claims of the lane's source review of another seat's campaign (agy-exp's X-UNIFY), each checked on main as mathematics (checks/physical_state_orbit.py, R1): x = 3u + 5v is a bijection modulo 15 and x^2/15 = 3u^2/5 + 5v^2/3 + 2uv, so the chirp and Fourier matrices factor; the cubic charge sum of the even exterior powers of 3_a + 2_b is 4 (3a + 2b)((3a + b)^2 + 4 b^2), so the anomaly-free ray is 3a + 2b = 0; on the Heisenberg exponents the pair S0 = [[0, 1], [-1, 0]], T0 = [[1, 0], [2, 1]] has (S0 T0)^3 = [[4, 3], [-3, -2]], which is not S0^2 even modulo 5, while the standard shear satisfies the relation; the Bloch-Wigner function is odd under conjugation, so D(z1) + D(z2) + D(conj z1) + D(conj z2) vanishes identically; the block example with B = ib, C = ic has Schur mass 1 + bc and a positive determinant, so an asymmetric complex mixing need not give a determinant phase; with the metric equal to 1, no vector is singled out (a rotation moves the all-ones vector)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:12",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:14",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:16",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:22",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:25",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:29",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:55",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:58",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:60",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:63",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:88",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:131",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:151"
+ ]
+}

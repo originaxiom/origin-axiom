@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
-| physical | 136 | 37 | 10952 | 312 | 0 | 332 | 6 | 37 | 7904 | **2361** |
-| web | 137 | 137 | 6602 | 1815 | 1 | 7 | 390 | 60 | 4329 | **0** |
+| physical | 136 | 56 | 10952 | 516 | 0 | 584 | 6 | 37 | 8033 | **1776** |
+| web | 137 | 137 | 6648 | 1843 | 2 | 7 | 394 | 60 | 4342 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 224 | 20755 | 2672 | 13 | 428 | 535 | 97 | 12608 | **4402** |
+| **all** | 406 | 243 | 20801 | 2904 | 14 | 680 | 539 | 97 | 12750 | **3817** |
 
 ## By file
 
@@ -232,12 +232,12 @@
 | physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md` | no | 25 | 0 | **25** |
 | physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS.md` | no | 47 | 0 | **47** |
 | physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECHECK.md` | no | 21 | 0 | **21** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md` | no | 29 | 0 | **29** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md` | no | 34 | 0 | **34** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FINDINGS.md` | no | 16 | 0 | **16** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md` | no | 43 | 0 | **43** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY.md` | no | 37 | 0 | **37** |
-| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REVIEW_BRIEF.md` | no | 7 | 0 | **7** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md` | yes | 29 | 29 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md` | yes | 34 | 34 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FINDINGS.md` | yes | 16 | 16 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FORCED_CUSP_RESPONSE_AND_CORE_MATCHING.md` | yes | 43 | 43 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REFLECTION_ENDPOINT_GAP_AND_GLOBAL_JOIN_DUTY.md` | yes | 37 | 37 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/REVIEW_BRIEF.md` | yes | 7 | 7 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/CC_MATHEMATICAL_CARD.md` | yes | 2 | 2 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/PROOF.md` | yes | 2 | 2 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/VERIFICATION_BRIEF.md` | yes | 2 | 2 | **0** |
@@ -246,19 +246,19 @@
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/FIRST_RETURN_RELAY.md` | yes | 6 | 6 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF.md` | yes | 77 | 77 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/VERIFICATION_BRIEF.md` | yes | 12 | 12 | **0** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING.md` | no | 48 | 0 | **48** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md` | no | 48 | 0 | **48** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINDINGS.md` | no | 26 | 0 | **26** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md` | no | 47 | 0 | **47** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md` | no | 44 | 0 | **44** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE.md` | no | 38 | 0 | **38** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REVIEW_BRIEF.md` | no | 10 | 0 | **10** |
-| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW.md` | no | 30 | 0 | **30** |
-| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE.md` | no | 32 | 0 | **32** |
-| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md` | no | 36 | 0 | **36** |
-| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/FINDINGS.md` | no | 17 | 0 | **17** |
-| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md` | no | 36 | 0 | **36** |
-| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/REVIEW_BRIEF.md` | no | 7 | 0 | **7** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING.md` | yes | 48 | 48 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES.md` | yes | 48 | 48 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINDINGS.md` | yes | 26 | 26 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS.md` | yes | 47 | 47 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION.md` | yes | 44 | 44 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE.md` | yes | 38 | 38 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/REVIEW_BRIEF.md` | yes | 10 | 10 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW.md` | yes | 30 | 30 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE.md` | yes | 32 | 32 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE.md` | yes | 36 | 36 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/FINDINGS.md` | yes | 17 | 17 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION.md` | yes | 36 | 36 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/REVIEW_BRIEF.md` | yes | 7 | 7 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS.md` | yes | 40 | 40 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_FINDINGS.md` | yes | 12 | 12 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/FIELD_DOMAIN_REVIEW_BRIEF.md` | yes | 16 | 16 | **0** |
@@ -345,7 +345,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 492 | 492 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 538 | 538 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

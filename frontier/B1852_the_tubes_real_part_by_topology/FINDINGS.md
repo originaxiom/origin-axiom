@@ -115,3 +115,12 @@ the two reversers ±((−1, 6), (0, 1)) with entries to 14, in opposite classes;
 k, since modulo 2 the word is R·(LR)^k, never the identity.
 What this note does not prove: anything about the value of τ. The step from the class to the real part (0 or ½) is the
 standard fact about a torus with a reflection, as § 1 uses it. Not yet read by a session that did not write it.
+
+**Read since, the same day, by a session that did not write it** (the web seat, its status page's section 9 at
+a5a139fd7): the proof holds. It restated each step, and named one that this note had left unsaid: at a centre on a
+letter the fixed fibre sits in the middle of the letter, and carrying it to the reading's base point by half the letter
+turns σ's action into Z = x^½·F·x^−½ = F·x⁻¹ (an identity of 2 × 2 matrices, in B1957's lock). It also recomputed the
+rule by a search that does not use the reverser's formula: every integer involution of determinant −1 with entries to
+150 that reverses the word, on all 118 primitive cyclic words of length 2 to 10 with a reflection; the classes found
+are the rule's on every word, and the rule with the two kinds of centre exchanged fails on the 68 of even length.
+Main read that script as text, did not run it, and recounted the 118 and the 68.

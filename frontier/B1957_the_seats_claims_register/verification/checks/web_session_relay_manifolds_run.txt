@@ -1,0 +1,8 @@
+m202          tetrahedra  4, cusps 2, symmetries  12; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 2}
+otet06_00002  tetrahedra  6, cusps 2, symmetries  12; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 2}
+otet07_00000  tetrahedra  7, cusps 2, symmetries  12; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 2}
+otet10_00005  tetrahedra 10, cusps 3, symmetries  12; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, 2, -1), 3.0)': 2}
+otet10_00046  tetrahedra 10, cusps 2, symmetries  48; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 8}
+otet12_00044  tetrahedra 12, cusps 2, symmetries  12; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 2}
+otet12_00045  tetrahedra 12, cusps 2, symmetries  36; those of order 3, as (traces on the cusps they fix, half the sum of det(A - 1)): {'((-1, -1), 3.0)': 6, '((2, 2), 0.0)': 2}
+every one of the seven has a symmetry of order 3 whose count is 3: True

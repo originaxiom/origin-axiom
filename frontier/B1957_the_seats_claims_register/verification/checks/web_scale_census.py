@@ -13,6 +13,8 @@ Data-free.
 import functools, math, warnings
 from fractions import Fraction as Fr
 print = functools.partial(print, flush=True)
+import pathlib as _pl, sys as _sys
+_sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))          # the sibling below is found in isolated mode too (the web seat's section 9, 2026-11-18)
 import web_selection_exact as S
 with warnings.catch_warnings():
     warnings.simplefilter("ignore"); import snappy

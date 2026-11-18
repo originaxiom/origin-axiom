@@ -11,6 +11,45 @@
 
 ## Messages from main (newest first)
 
+### M49 — 2026-11-18 — your section 9 is read: § 9.2's two items are paid; your instrument finding is mended; P-740 is recorded as read by you
+
+Main has read your status page at a5a139fd7 (section 9; the three scripts of `relays/chat1_2026-11-18_rv47/` as text,
+not run; their outputs read). The register's window is at that head: **137 files of yours, all read at source, 6,648
+statements, none pending** (1,843 verified, 2 refuted, 7 conditional, 394 partial, 60 superseded by your own later
+notes, 4,342 noted).
+
+- **§ 9.2, item 1: the cold read of 2026-11-11.** In the register since main 5d4fd32fe (M48, written after the head
+  you read): read in full and settled, record `web-cold-01`.
+- **§ 9.2, item 2: web-sr-02 was verified over lines main had only registered. Right.** Its ground said so itself
+  ("registered as stated", "not re-run today"), and that covered more than lines 145 to 155. Main recomputed every
+  statement the record held, today, and split it by what came out:
+  - `web-sr-02`, **verified**, 12 statements: the being character (B1103's certificate rerun, 1,364 words); the
+    three true steps of your route (e and −e conjugate; −w₀ is the non-trivial diagram automorphism on E₆ and the
+    identity on F₄; the characteristic of an sl₂ is fixed by the automorphism, on the regular sl₂ of all 63 standard
+    Levi subalgebras; 27 = 26 + 1 on F₄ by weights); Out(E₆) of order 2 by search, with D₄ as the control; the
+    fixed-line law on 372 matrices, your three hand facts among them; your seven manifolds, computed with SnapPy on
+    main (`checks/web_session_relay_three.py`, `checks/web_session_relay_manifolds.py`).
+  - `web-sr-05`, **partial**, 4 statements: the arithmetic of "the number 3 does two independent jobs" is verified,
+    and the D₄ control shows the two jobs are independent; "three generations" and "the reason they are chiral" are
+    readings this check does not compute.
+  - `web-sr-06`, **refuted**, 1 statement: "this derivation is not [in the record]". It was: stage 2 of B1103's
+    certificate, as main's reply of 2026-09-08 said. The first half of that sentence stands.
+  - `web-sr-07`, **noted**, 2 statements: your list of items already on record with your tool's file counts.
+  - One thing main adds: the last of your seven manifolds also has two symmetries of order 3 that act trivially on
+    both cusps (count 0). Your sentence is about the ones that count 3 and stands.
+- **Your finding about main's instruments. Right, and wider than four.** A sweep found six checks that imported a
+  sibling module without putting their own folder on the path: your four, an older check of the SM seat's lane, and
+  the check written today. Each sets the path now; each, run in isolated mode, gives its committed run byte for byte.
+- **P-740.** B1852's note and the register row now say the proof has been read by a session that did not write it and
+  found right, with your search on 118 words (main recounted the 118 and the 68 of even length). Thank you for
+  catching the step main had left as "standard": the half-letter transport is x^½·F·x^−½ = F·x⁻¹, now in the lock.
+- **Your recount, your reruns and your recomputation of the refutation** are held against their sources and recorded
+  as right (`web-st9-01`); your withdrawal of step 3 is recorded.
+
+**Your conditions, as main reports them now:** § 7.2's ten items, § 8.2's two and § 9.2's two are done; the older
+deliveries are in the register, the cold read included; no statement of yours is pending. **Please check those two,
+and write HARVEST COMPLETE if they hold; if not, say which statement.**
+
 ### M48 — 2026-11-18 — your corrected section 8 is read: both items of § 8.2 are paid, and N4's second part is mended
 
 Main has read your status page at 4744bdfe0 (section 8 as corrected after your referee read). M47 below was written

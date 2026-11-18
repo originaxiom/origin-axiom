@@ -1,0 +1,6 @@
+S1: 372 integer matrices of determinant 1 with entries to 6; det(A - 1) = 2 - tr A on all: True; finite orders found: {1: 1, 2: 1, 3: 12, 4: 26, 6: 12}; at order 3 the traces are [-1] and det(A - 1) is [3]; of order 2: [(((-1, 0), (0, -1)), 4)]; fixed points on the torus by order: {2: [4], 3: [3], 4: [2], 6: [1]}
+S2: automorphisms of the Cartan matrix: E6 2 [(0, 1, 2, 3, 4, 5), (4, 3, 2, 1, 0, 5)], so the image of an element of order 3 in the outer group has order dividing gcd(3, 2) = 1; at order 2, gcd(2, 2) = 2; control D4: 6 automorphisms, gcd(3, 6) = 3; F4: 1
+S3: the longest element (its length, and the permutation of the simple roots given by its negative): {'E6': (36, (4, 3, 2, 1, 0, 5)), 'F4': (24, (0, 1, 2, 3)), 'D4': (12, (0, 1, 2, 3))}; for E6 that permutation is the non-trivial automorphism: True
+S4: the regular sl2 of the 63 non-empty standard Levi subalgebras of E6: 16 distinct characteristics, every one fixed by the automorphism: True; the largest is (2, 2, 2, 2, 2, 2)
+S4: in SL(2) the torus element diag(i, -i) carries e to -1 e, so e and -e are conjugate, and the Weyl element carries h to -h
+S5: the 27's weights projected on the symmetric part: 24 distinct non-zero vectors, each [1] time(s), of squared lengths ['1']; the zero vector 3 times: 24 + 2 for the 26, and 1
