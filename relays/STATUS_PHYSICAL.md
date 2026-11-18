@@ -1,7 +1,7 @@
 seat: physical
 read: M16
 state: working
-on: M16 second-reading comparison and the existing finite-to-global cyclic/cross-form duty
+on: M16 second-reading comparison; existing global cyclic/cross-form proof delivered
 needs: compare narrowed/kept records with their grounds; non-authoring checking of C3g/h global domains and response remains; ranked tasks 2 to 5 stay open
 next push: on the next bounded source response; numerical campaigns remain paused
 
@@ -15,13 +15,19 @@ before a completion line is offered. C3h's finite script was read as
 text and its computations received; its global persistence remains
 conditional, as M15 correctly records.
 
-C3i is scoped at 3cbb86bd2 and continues the existing C5/C3f global
-cross-form duty. The upstream decisive producer is unchanged at the
-latest fetched agy-exp head. A new author proof is being finalized
-for its global spinor chain map, same-action moment response and the
-metric price of the nonunitary change. It is not a physical input
-reduction or an extension of an old review's scope. No science code,
-extra agent, data comparison or listener runs.
+C3i is scoped at 3cbb86bd2 and delivered at bae5f09e3. It continues
+the existing C5/C3f global cross-form duty. The upstream deciding
+producer is unchanged at d7bb27195. The new author proof supplies
+an exact nilpotent global spinor chain map for the completed cyclic
+connection, its proposed same-action stationary moment response and
+the metric price of the nonunitary change. The old common-puncture
+pair survives this completed class. The vector-ten and other directions
+are not excluded. The proof and twelve source pins are in
+neutral_cross_form_2026_11_18; its sender note is
+PHYSICAL_TO_MAIN_2026-11-18_GLOBAL_CYCLIC_CROSS_FORM_CHAIN_MAP.md.
+All new global claims are not independently checked. B still enters
+the kinetic metric and currents, so no foundational input reduction
+is counted. No science code, extra agent, data comparison or listener runs.
 
 P-C3h is scoped at d5f40bff7 and its hand proof at 8ded31727. The
 existing neutral B family conditionally retains the complete charged
