@@ -1,9 +1,9 @@
 seat: chat1
 read: M68 (§ 26 read at 19685b3ce, its read version: (a) to (e) mended, (f) corrected, the sweep by path, (g) judged; 138 files, 8,145 statements: 2,017 verified, 2 refuted, 162 conditional, 774 partial, 59 superseded, 5,131 noted, none pending). Before it, M67, M66, M65, M64, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M68 checked in § 27. Every mend holds at main 1a70d5dbe, and nothing is pending. HARVEST COMPLETE is to be written in § 27's read version, if its referee read finds nothing that undoes it (§ 21.4). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
-on: the harvest review (M42 to M67); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to resolve harvest row 530's file by its path, if it wishes (§ 27.1, f); main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: § 27's read version, with the word if its read finds nothing; then on main's next message
+state: HARVEST REVIEW FOR MAIN: M68 checked in § 27, its referee read's corrections applied. M68's mends hold, but three things still stand in main's record (§ 27.4): 42 of this seat's relays OPEN in the relay ledger; P-876 still queuing this seat's 13 rows that name no file; companion_grounds.py's "dated move". HARVEST COMPLETE is not written (§ 27.6). W-P1's three steps are pushed, each read twice with the reads' corrections applied, outside the lane
+on: the harvest review (M42 to M68); card W-P1's first three steps (at the author's word): W-P1a the inventory, W-P1b the class test, W-P1c the clock and the heights; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to mend § 27.4 (a) to (c), and at its option § 27.1 (f) and § 27.5; main to cut this page only at a commit whose newest section says its read's corrections are applied in it; main to take up W-P1b § 5 (frame C's two Gramians in class 1 on main's own frame; B1953's lines 74-75 and 120-122, B1955's title and § 2's first bullet and line 70, B1923's twin, B1934's lines 9-10 and 39; whether frame C's labels are the fibre's translations); the order of foundation work in § 7.5 (P-874) and which part is this seat's; W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -2763,9 +2763,10 @@ in this version, and the word is not written in it.
 
 **What was read**, at main 1a70d5dbe:
 - M68, through the mask;
-- the 13 records of this seat's lane that are new or changed since d18e3c30c, and agyaudit-st18-02;
+- the 12 records of this seat's lane that are new or changed since d18e3c30c, and agyaudit-st18-02;
 - `checks/web_section26_run.txt`, `checks/older_rows_sweep_run.txt`, `checks/third_reading_web_run.txt` and
-  `checks/grounds_cite_records_that_exist_run.txt`, through the mask;
+  `checks/grounds_cite_records_that_exist_run.txt`, through the mask; K2b's lines, through the bracket that prints
+  them;
 - `checks/older_rows_sweep.py` and `checks/older_rows.json`;
 - `UNITS.json` and `SUMMARY.json`;
 - FINDINGS, lines 754 to 765, the point register's line 53, and harvest rows 1945, 1951 and 1961, through the mask.
@@ -2776,46 +2777,98 @@ in this version, and the word is not written in it.
 - **(b)** web-st24-01's note and harvest row 1945 carry brackets:
   - "each placed and dated" should read "each placed and named";
   - REVIEW_79B's lines 20 and 22 came back before § 17, and only line 29 at it.
-- **(c)** FINDINGS (line 765) and the point register's line 53 carry brackets with the corrected count.
+- **(c)** FINDINGS (line 765 at this head; M68 and row 1961 cite it by its old number, 757) and the point
+  register's line 53 carry brackets with the corrected count.
 - **(d)** web-st22-02's note now names the cut e9279d8eb (main 23cd5a5ca), and says eb545d286 was never a cut of the
   lane.
-- **(e)** web-r79b-01-r2p's note and row 1951 are bracketed. K2b prints the record's history: de4cec662 all three
-  lines, 4921ee923 none, 364ce101e lines 20 and 22, 6f337047b all three.
-- **(f)** The sweep now resolves each file by its path. A bare name counts only when one path carries it.
-  - Under this seat's keys: 13 and 45 files in the register, and one file named without its path. That is
-    I26_DECISION_TABLE.md (harvest row 530), which reads "a name several files share".
+- **(e)** web-r79b-01-r2p's note, M67's item 2, row 1951 and web-st25-01's note are bracketed. K2b prints the
+  record's history: de4cec662 all three lines, 4921ee923 none, 364ce101e lines 20 and 22, 6f337047b all three.
+- **(f)** The sweep now resolves each file by its path. A bare name counts as in the register only when every path
+  that carries it is registered; no such shared case occurs.
+  - Under this seat's four keys there are 70 rows, 13 naming no file, and 62 files. The fourth key, "chat1", holds
+    the three W-P1 step relays, kept out at the seat's request.
+  - 13 and 45 files are in the register, and one file is named without its path: I26_DECISION_TABLE.md (harvest
+    row 530), which reads "a name several files share".
   - Both copies are this seat's: the registered one in the decision-table package, and one in the post-closure
-    package, banked in its day (the relay ledger's line 530; harvest row 632). They differ in one path string, in
-    one heading.
-  - Harvest row 530 itself names the folder, `docs/handoffs/chat1_i26_decision_table_2026-09-15/`, in its location
-    column, and the sweep reads only the file column. Main may resolve the row from there.
-  - The statement as it stands is accurate, and it understates nothing.
+    package, banked in its day (the relay ledger's row for its zip; harvest row 632). They differ in one path
+    string, in one heading.
+  - Harvest row 530 names the folder, `docs/handoffs/chat1_i26_decision_table_2026-09-15/`, in its location column.
+    The sweep reads that column but keeps only names ending in .md, so the folder is not picked up.
+  - The statement is accurate. It classes a registered file of this seat as unresolved, which is harmless, and its
+    resolution is at main's option.
 - **(g)** Main judged the stricter way: 2546 stays VERIFIED, with both parts checked at source (G7). 2539 and 2606 are
   PARTIAL in web-st25-04. 2606's V⁻¹Vᵀ = γ and its forms are computed (G7).
-- **N2** prints "116, each saying so in its note: True". agyaudit-st18-02 is noted, and a lock holds N2's last clause.
+- **N2** prints "116, each saying so in its note: True". agyaudit-st18-02 is noted, and a lock checks the committed N2
+  run.
 
 **27.2. Main's records of § 26 state it rightly.** Each unit was read against its line at the registered head
 (19685b3ce):
 - web-st26-01 VERIFIED (40): main's record at d18e3c30c, checked by G1 to G9 and K2b;
-- web-st26-02 PARTIAL (4): main's record together with this seat's own window, or its requests;
+- web-st26-02 PARTIAL (4): main's record together with this seat's own window, its requests, or its own account;
+  2714 is PARTIAL because main did not take this seat's judgement that NOTED was fair for 2606;
 - web-st26-03 CONDITIONAL (2): this seat's own recut, and the claim about W-P1's citations;
 - web-st26-04 NOTED (32).
 - Line 2666, that all 59 files under this seat's keys read "in the register", is VERIFIED at d18e3c30c, the head it
   speaks of. The corrected sweep at 1a70d5dbe reads one of them differently (27.1, f).
+- Two VERIFIED lines carry this seat's own stance, which can be checked on the page: 2706 ("It does not block the
+  word") and 2723 ("This note stands instead of a correction in place"). The like stance at 2741 is NOTED. This is
+  for main's judgement.
 
 **27.3. The lane:** 138 files, all read; 8,929 units and 8,145 statements, none pending (`SUMMARY.json`). They are
 2,017 verified, 2 refuted, 162 conditional, 774 partial, 59 superseded and 5,131 noted.
 - This seat cut all 138 files again at their registered heads, and every id, form, kind and hash matches.
-- The third reading prints 0 verified statements unread one by one.
+- The third reading prints 0 verified statements unread one by one. The one-by-one lock and the third reading now
+  exempt web-st26- by name, so web-st26-01's 40 VERIFIED lines are outside them, as § 26 disclosed for web-st25-.
 
-**27.4. The harvest.**
-- Every wait of §§ 25.6 and 26.5 is mended, and checked here.
-- Nothing is pending.
-- This seat knows of nothing missing or understated in main's record of its harvest. That scope is § 7.5's, and the
-  readings it rests on are those of § 18.2.
-- W-P1 stays outside the lane by the window. It is held NOTED as later work, to be registered after the word.
-- By § 21.4 the completion line is written only in a version whose referee read has finished. So, if this section's
-  read finds nothing that undoes 27.1 to 27.3, the word is written in its read version.
+**27.4. Three things still stand in main's record (found by this section's referee read).**
+- **(a) The relay ledger lists this seat's relays as open.** It marks 44 of this seat's relays OPEN.
+  - 41 are in the register, with every statement under a verdict:
+    - lines 1274 to 1290, 1292 to 1306 and 1312, which say "not in B1957's window";
+    - lines 1180, 1181, 1230 to 1233, 1239 and 1240, whose notes are stale.
+  - One, line 1241 (M4, the planted cases again), is not in the register. Its own row says it was read in full in its
+    day, with harvest row 1714.
+  - Three are the W-P1 step relays (lines 1388 to 1390), kept out as later work. Their OPEN is right.
+  - The rows date from W-H1's ask, before the window was widened. The same rows stood at 23cd5a5ca and d18e3c30c, and
+    §§ 25 and 26 did not read the relay ledger.
+  - Remedy: mark the 42 rows BANKED, naming B1957 and the records, or for M4 its row of 2026-11-11, as main did for
+    W-C4, W-F17 and W-A1.
+- **(b) P-876 still queues this seat's 13 rows that name no file.** The point register's line 53 says the harvest is
+  not complete while it is open.
+  - The referee read found all 13 covered:
+    - rows 1143, 1304, 1317, 1322 and 1323: their files are registered;
+    - rows 1338, 1340 and 1342: bracketed as read in full and registered;
+    - row 1642: read and verified in rows 1652 and 1653;
+    - row 1686: read with row 1691;
+    - row 1822: W-F17's addendum 2, inside the registered W-F17 relay;
+    - row 1833: W-F24's relay and card, both registered;
+    - row 1848: bracketed as read at its source.
+  - Remedy: main checks this map and closes this seat's part of P-876 with a dated note.
+- **(c) One item left at main's judgement in § 26.2 (b) was not answered.** `companion_grounds.py`'s docstring still
+  says the receiving record "names the line with a dated move". Its run still prints "placed without a dated move
+  named". That is the overstatement § 25.1 found.
+  - Remedy: "named" in the docstring and the label, and the variable renamed. By §§ 22.5 and 24.6, items left at
+    main's judgement are judged before the word.
+
+**27.5. Further, not blocking.**
+- The relay ledger's line 1386 records card W-P1 as BANKED, "read in full and settled statement by statement in B1957
+  (web-wp1-01 to -04)". Those records now hold no statements, and the version read has since been rebuilt and
+  corrected. W-P1 is outside the harvest; main may bracket the line.
+- Two older lines of this page need a note:
+  - § 24's closing note (line 2503) still says "the three records whose reasons § 17 overturned". That is wrong for
+    REVIEW_79B's lines 20 and 22 (§ 26.2, b); the line is held NOTED.
+  - web-st24-02's "how" takes on line 2243's "the move is dated", which § 26.3 corrects. Main may add a dated note.
+
+**27.6. HARVEST COMPLETE is not written.** It waits on main's mends of 27.4 (a) to (c). This seat will check those
+changes only, and write the word in a section whose referee read has finished (§ 21.4), if they hold. Its scope is
+§ 7.5's, and the readings are those of § 18.2. W-P1 stays outside the lane by the window, and this page's W-P1 item
+(line 2745) is held NOTED as later work.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes. The read found M68's mends (a) to (g) holding and the lane's figures right. It found three things still
+standing that block the word: 27.4 (a) to (c). This seat checked each at source through the mask, and found a fourth
+OPEN row the read had not listed: line 1241, M4, read in full in its day. The read also corrected the wording of
+27.1 (c), (e) and (f), of N2, of 27.2 and of the lane's exemptions. The read's corrections are applied in this
+version, and the word is not written in it.
 
 ## Notes
 
