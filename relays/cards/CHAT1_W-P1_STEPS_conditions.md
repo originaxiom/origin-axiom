@@ -170,4 +170,48 @@ word's height is 1.118, it has grazing runs, and the denser sampling shrinks its
 **Failure.** A per-word difference above 5e-3 at height 2 or above, or a difference that does not shrink with the
 denser sampling. Then the closed form is wrong for some words, and F3 is withdrawn.
 
+## Step 2, the two Gramians (W-P1b-G)
+
+**Why.** Reading B1953's code for the sweep: its operator O = Σ ζ^(−ab) Y(w) ⊗ D(w) has two family Gramians, W traced
+over the 3 and over the 2, printed as the frame's outputs (B1953, § 4). They are built from products of the lines, the
+place card W-P1, § 3.2 named where a read-out might see the class. B1953, lines 74 and 75, says that scaling the labels,
+D(cw) for c = 2, 3, 4, gives the same Gramians, "so the two Weil classes are not told apart by these read-outs". No code
+on record computes that scaling. A scalar c has determinant c², a square, so the scaling stays in one class; the step's
+labels run found that the other class needs a relabelling of non-square determinant. Written before the script.
+
+**What, fixed now.** D(a, b) = ψ(3ab) X^a Z^b (B1953). The frame's transport is class 2's label action with the
+identity labelling, A(T): (a, b) → (a, b − a), A(S): (a, b) → (−b, a) (B1953's exact facts; W-P1b-F's G5).
+- **J1.** For each class and each K in GL(2, 𝔽₅): whether ρ_a(g) D(Kv) ρ_a(g)⁻¹ = D(K A(g) v), with no phase, for
+  g = T and S and all 24 labels v. The number of such K, and the square classes of their determinants.
+- **J2.** On W: t(v, w) = tr(D(v) P D(w)†) against ζ^(±3ω(v, w)), with ω(v, w) = v₁w₂ − v₂w₁.
+- **J3.** Synthetic couplings, no frame: 24 random complex 3 × 3 matrices A(w) with A(−w) = A(w), seed 11. For each K
+  of J1, in both classes, O_K = Σ A(w) ⊗ D(Kw) and its Gramians G₃ = tr_W[O_K (1 ⊗ E₃) O_K†] and G₂, with
+  E₃ = (1 + P)/2 and E₂ = (1 − P)/2.
+  - Within a class: the largest difference between its K's.
+  - Between the classes: the difference of the G₃'s, against the closed form from J2. Here S_j is the sum of
+    A(v)A(w)† over the pairs with ω(v, w) = ±j.
+  - In both classes: G₃ + G₂ against 5 Σ A(w)A(w)†.
+  - The control: A replaced by its average over w, 2w, 3w, 4w, so that A(2w) = A(w). The classes must then agree.
+- **J4.** The iteration over one period, in both classes, on synthetic covariant data. Define A(γτ, w) := U A(τ, A(γ)⁻¹w) V†,
+  with random unitaries U and V and A(γ) the transport composed for γ = T S T⁻¹ S⁻¹. Do this for ten steps (A(γ) has
+  order 10 on the labels). At each step, report the residual of O_K(γᵏτ) against
+  (Uᵏ ⊗ ρ_a(γ)ᵏ) O_K(τ) (Vᵏ ⊗ ρ_a(γ)ᵏ)†, and G₃'s eigenvalue ratios against step 0. Report whether ten steps return the
+  labels and ρ_a(γ).
+
+**Expected [J].**
+- J1: four K for each class, all with no phase. For class 2 they are the scalars (square determinants); for class 1
+  their determinants are non-squares.
+- J2: t = ζ^(±3ω).
+- J3: the Gramians agree within a class to 1e-12. Between the classes G₃ differs, as the closed form says. The sum
+  agrees. The control agrees.
+- J4: covariant at every step in both classes, and the ratios unchanged.
+
+**Failure.** Either of these means the comparison does not stand:
+- J1 finds that class 1 needs phases. Then the phase table changes, and J3 does not compare the class-1 operator.
+- J3's control differs between the classes. Then the closed form is wrong.
+
+**What it would mean, set now [J].** If J3 holds, B1953's two Gramians on frame C differ between the classes unless
+the frame's couplings satisfy S₁ = S₂. Their sum and the phased sum do not depend on the class. Whether frame C
+satisfies S₁ = S₂ is one computation on main's frame, which this seat does not run.
+
 0 of 19.
