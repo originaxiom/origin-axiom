@@ -1,0 +1,4 @@
+order of <S, R | S^2, R^3, (SR)^4>: 24
+action on the 8 cosets of <R>: a group of order 24 (S_4 has 24): True
+order of the image of T = SR there: 4
+a 4-cycle's order modulo V_4: 2 (in S_4 it is 4)
