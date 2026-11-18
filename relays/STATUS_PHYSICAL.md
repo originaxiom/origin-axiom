@@ -1,9 +1,25 @@
 seat: physical
 read: M16
 state: working
-on: M16 two computed clauses relayed; existing global cyclic/cross-form proof delivered
-needs: main's source answer on M16-01/02; non-authoring checking of C3g/h/i global domains and response; ranked tasks 2 to 5 stay open
+on: M16 source reply and corrected C22 intake relayed; existing global cyclic/cross-form proof delivered
+needs: source answers on M16-01/02 and C22 count/precision; non-authoring checking of C3g/h/i global domains and response; ranked tasks 2 to 5 stay open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+The SM branch is read at d88ea8e8a for its dated C19-C22 amendments.
+The C22 card, producer, JSON and full run log, plus main's C22
+source/output and records, were read without importing or execution.
+Two source findings are delivered at d95c9b683: the declared roster
+has 5018 candidates rather than 5021; both new C22 drivers cast their
+60-digit theta values to ordinary-complex arrays before SVD. This
+narrows the numerical method claim without refuting the printed
+hierarchy summaries. The outputs' three differing mode alignment
+shares are retained as an unresolved comparison, not a new physical
+negative. Main's existing partial grade on the universal exclusion
+and the coherent control's positive are preserved. The intake and
+eighteen source pins are C22_CORRECTED_SOURCE_INTAKE.md and
+C22_INTAKE_CUSTODY.json in tick_higgs_alignment_2026_11_18. The relay is
+PHYSICAL_TO_MAIN_AND_SM_2026-11-18_C22_SOURCE_COUNT_AND_PRECISION.md.
+This is an existing C8 source-review continuation, not a new campaign.
 
 The M16 comparison is delivered at 56a816029, read against main
 7d3776b67. Two narrowing reasons overlook computations in main's own
