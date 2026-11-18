@@ -1,8 +1,8 @@
 seat: chat1
 read: M46 (§ 7 read at e6fa140ca; the ten items of § 7.2 taken; the older rows taken in, none ruled out: 112 more files, settled as main reads them; W-F1 to W-F26, W-B1, W-C1 and W-C5 to W-C8 read in full, and recomputed on main where they compute; B1922 corrected; A14 and A15 named as the answers to W-F21 to W-F23; asked: nothing; no card). Before it, M45 (every file of this seat in the register at d36b2a0ec settled; asked: whether main's record states this seat's work rightly), M44 and M43
-state: HARVEST REVIEW FOR MAIN: M46 checked in § 8 below. § 7.2's ten items are taken; one more of item 4's kind is in § 8.2. The author's scope (§ 7.5) is carried out: the older notes are in the register (136 files, 6,491 statements), and 2,571 statements are pending. HARVEST COMPLETE is not written: it waits on § 8.2 and on the pending statements
+state: HARVEST REVIEW FOR MAIN: M46 checked in § 8 below. § 7.2's ten items are taken; § 8.2 adds two (the cold read of 2026-11-11, missing from the register; one record of item 4's kind). Of the author's scope (§ 7.5), items 2 and 4 are carried out. Item 1 is in the register less the cold read: 136 files and 6,491 statements, 2,571 of them pending in 49 unread files. HARVEST COMPLETE is not written: it waits on § 8.2 and on the pending statements
 on: the harvest review (M42 to M46). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to settle this seat's 2,571 pending statements (the older files, M46's list) and § 8.2's item; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to settle this seat's 2,571 pending statements (the 49 unread files in SUMMARY.json) and § 8.2's two items (the cold read into the register; web-wc8p5-01's lines 21 and 24); N4's second part (second_computations.py reads 48926341b, not on main); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -633,11 +633,22 @@ The referee read also added items 9 and 10 to § 7.2.
      VERIFIED; 144 in web-wf17-08, NOTED.
   10. Row 1641 now cites web-weave-01 to -03, with a dated correction, and web-st-lists-02 has +3 for up.
 - **The older rows (§ 7.3, § 7.5).**
-  - EXTRA names every delivery that the two sections list (checked by name). It also names W-C5, W-C6's part 2 and
-    W-C8's parts 1 and 2a, which current arcs cite.
-  - web-st7-06 says a ruling relayed by a seat binds main only by the author's own word to main. That is right, and
-    nothing turns on it here.
-  - M46 asks whether any older row main does not reopen was not properly harvested. This seat names none.
+  - EXTRA names every delivery that the two sections list but one (checked by name, and against `UNITS.json`'s
+    files).
+    - The one is the cold read of 2026-11-11 (`CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md`).
+    - Main's own list in web-st-log names it, but only its card is in EXTRA, and the relay is not among the register's
+      136 files.
+    - Main's record is at odds with itself here. Its harvest row calls the cold read read in full, web-st-log lists it
+      as owed a reading in full, and web-st7-06 says that all of § 7.5's item 1 is in the register (§ 8.2).
+  - EXTRA also names W-C5, W-C6's part 2 and W-C8's parts 1 and 2a, which current arcs cite.
+  - web-st7-06 says a ruling relayed by a seat binds main only by the author's own word to main. That is right.
+  - M46 asks whether any older row main does not reopen was not properly harvested. This seat names one, the cold read
+    above. It was in § 7.5's scope by main's own list.
+  - The 2,571 pending statements are in the 49 files that `SUMMARY.json` marks unread:
+    - 13 cards, not "about twenty";
+    - the reviews' four readings (79, 79b, 80, 81);
+    - the October and early-November notes M46 names;
+    - and one it does not name, the M3 results note of 2026-11-11.
 - **The figures main quotes from this seat's notes are each as the note has it:**
   - W-F1: 33 amphichiral manifolds of each sign;
   - W-F7: 512 hyperbolic steps, 144 of them of determinant −1. They are W-F2's 380 with |trace| > 2, plus 132 of
@@ -651,45 +662,71 @@ The referee read also added items 9 and 10 to § 7.2.
   its script was committed before it was run on the reruns).
   - 22 give their committed runs byte for byte. This counts W-F12's and W-F19's, whose largest levels (golden 7;
     bronze 3) run only with an argument, and were rerun with it.
-  - `web_wf13_algebra` differs only in a residual of 1.6e-15.
+  - `web_wf13_algebra` differs only in a residual: 1.6e-15 here, against main's 1.3e-15.
   - `web_wb1_on_main` and `web_wf5_on_main` draw unseeded random points, so their residuals and lower bounds move with
     the sample (`rv46_sampled_diffs.txt`):
     - the plant fires by at least 0.15, against main's 0.0205;
     - the two norms differ by at least 0.149, against 0.124;
     - the least |[x, y]ⁿ − 1| is 2.959, against 2.729;
     - every residual is below 1e-38.
-    The statements hold on both samples.
+    The statements hold on both samples. `rv46_sampled_diffs.txt` prints those lines of main's runs, which G1 itself
+    does not print. The mask marks none of them.
   - Label for main's results: reproduced. For the two sampled checks, the statements are reproduced and the digits are
     not. G1 itself is this seat's script, computed once.
-- **A14 and A15 answer every item this page listed from W-F21 to W-F23:**
+- **A14 and A15 answer every item from W-F21 to W-F23 that the needs line listed, and the caveat on O4, with one part
+  of N4 left:**
   - W-F22's premise: each thread's average is taken over one traversal, and a read-out of level 2 is a different
     frame;
   - W-F23's N8, both parts: version 3's scripts are named, and if one card agrees and the other does not, the run
     waits;
-  - W-F21's N1 to N6, one line each, as asked;
+  - W-F21's N1 to N3, N5 and N6, one line each, as asked;
+  - N4 in its path only. The script finds its root from the file, but it still reads the seat's output by `git show`
+    from 48926341b (`second_computations.py`, line 10). That commit is not an ancestor of main, so a rerun on a plain
+    clone of main needs it fetched. W-F21 and W-F23 both named this;
   - the caveat on O4, by A15, which commits the area comparison before its input.
 
   A15 makes later comparisons checkable. The ordering that the caveat was about (a29c459a5) still rests on main's word,
   and A15 does not claim otherwise.
 
-  Main wrote A14 on 2026-11-14. This page's needs line kept listing these items for four days. That was this seat's
-  error, and they are now off the line.
-- **Not checked here:** W-C1's corrections on main's six pages and the two locks; main's reruns of W-C8; and main's own
-  readings of the proofs in W-F6 and W-F19.
+  Main wrote A14 on the evening of 2026-11-14. This page's needs line kept listing these items until 2026-11-18. That
+  was this seat's error, and they are now off the line, but for N4's second part.
+- **W-C5's ask is paid.** B1915's dated note of 2026-11-18 names the basis D(1, 2) = (1, −2) = (1, 3) modulo 5. That is
+  the note's own basis (its line 34), and the pairing the note found holds.
+- **Not checked here:**
+  - W-C1's corrections on main's six pages, and the two locks;
+  - main's W-C8 figures against this seat's W-C8 notes (its three W-C8 scripts are among the 22 reproduced);
+  - main's agreement figures for W-C6's part 2 (1.1e-9 and 2.3e-9 at the twelve points; 2.8e-11 for the Kronecker
+    limit);
+  - main's own readings of the proofs in W-F6 and W-F19;
+  - main's re-dating of 168 records by their write time (M46's "found by main on the way"; this seat's records'
+    dates now read 2026-11-18 for 252 of 277).
 
-**8.2. Still short in main's record.** One item, of the kind of § 7.2's item 4.
-- web-wc8p5-01 (VERIFIED) holds two lines of W-C8's part 5:
-  - line 21: bronze's free-cusp frame, b₁ = 1 and cusp rank 1;
-  - line 24: twisted duality on bronze's levels.
-- The record's own note says main recomputed neither, so those two statements are partial.
+**8.2. Still short in main's record.** Two items.
+1. **The cold read of 2026-11-11 is not in the register** (§ 8.1, the older rows), though § 7.5's item 1 and main's own
+   web-st-log name it. Only its card is. web-st7-06's "all of them" is wrong by this one file.
+2. **One record of § 7.2 item 4's kind.**
+   - web-wc8p5-01 (VERIFIED) holds two lines of W-C8's part 5:
+     - line 21: bronze's free-cusp frame, b₁ = 1 and cusp rank 1;
+     - line 24: twisted duality on bronze's levels.
+   - The record's own note says main recomputed neither, so those two statements are partial.
+   - A scan of every VERIFIED record of this seat found no other of this kind.
 
 On main's instruments, and not about this seat's work: `web_wb1_on_main.py` and `web_wf5_on_main.py` are unseeded, so a
 rerun cannot match them digit for digit. A seed would make them reproducible.
 
 **8.3. HARVEST COMPLETE** is not written.
-- § 7.4's first condition is met, apart from § 8.2's one item.
-- The second condition, the older rows read into the register, is met when the 2,571 pending statements are settled.
-  Main reports the count at each landing.
+- § 7.4's first condition, § 7.2's ten items, is met. § 8.2's two items are added to it.
+- The second condition, the older rows read into the register, is met when two things hold: the cold read is in the
+  register, and the 2,571 pending statements are settled. Main reports the count at each landing.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version. Five claims of the first version were wrong:
+- that EXTRA names every delivery of §§ 7.3 and 7.5: the cold read is missing;
+- that the author's scope is carried out: items 2 and 4 are, and item 1 is in the register less the cold read;
+- that A14 answers N4: only N4's path;
+- that main's reruns of W-C8 were not checked here: its three W-C8 scripts are among the 22;
+- § 8.3's first condition, which mixed § 7.2's items with § 8.2's.
+
 
 ## Notes
 
