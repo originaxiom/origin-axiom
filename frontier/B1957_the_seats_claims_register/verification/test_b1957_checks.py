@@ -1066,3 +1066,29 @@ def test_the_coupling_moves_by_one_real_signed_permutation_under_t_and_under_s()
                 tr = next(tt for tt in WO.TRANS[gen] if (lambda Zm, Y: np.abs(Y - (np.vdot(Zm, Y) / np.vdot(Zm, Zm)) * Zm).max() / np.abs(Y).max() < 1e-8)(RL @ Ys["t"][rd][tt(*WO.PTS[0])] @ RR.T, Ys[gen][rd][WO.PTS[0]]))
                 const[rd] = sorted({round(float(np.angle(np.vdot(RL @ Ys["t"][rd][tr(*w)] @ RR.T, Ys[gen][rd][w])) / (2 * np.pi)) % 1, 6) % 1 for w in WO.PTS if w[0] == 0})
     assert const == {"S": [0.25], "St": [0.0]} and const["S"] != [0.125]                 # a quarter turn and none; not an eighth
+
+
+def test_the_level5_table_the_magnetized_exponent_and_the_ten_frames_form():
+    """agy-exp's X-L5 (checks/agyexp_xl5.py) and the physical lane's C3h (checks/physical_c3h.py): the exact statements"""
+    import sympy as sp
+    sec = [(1, -4), (1, 2), (-3, 6)]; E = lambda c: tuple((a * a + b * b + c * (a + b) ** 2) % 5 for a, b in sec)
+    assert [E(c) for c in (0, 1, -1, 2, -2, 5, 7)] == [(2, 0, 0), (1, 4, 4), (3, 1, 1), (0, 3, 3), (4, 2, 2), (2, 0, 0), (0, 3, 3)]
+    assert [c for c in range(5) if E(c)[0] == 0] == [2] and [c for c in range(5) if E(c)[1] == E(c)[2] == 0] == [0]
+    assert tuple((a * a - b * b) % 5 for a, b in sec) == (0, 2, 3) != E(2)
+    I5, Z5 = sp.eye(5), sp.zeros(5, 5); J5 = sp.Matrix(5, 5, lambda i, j: (-1) ** i if i + j == 4 else 0)
+    B = sp.Matrix(sp.BlockMatrix([[Z5, I5], [I5, Z5]])); M = sp.Matrix(sp.BlockMatrix([[I5, I5], [I5, -I5]])) / sp.sqrt(2) * sp.Matrix(sp.BlockMatrix([[I5, Z5], [Z5, J5]]))
+    Bp = (M.inv().T * B * M.inv()).applyfunc(sp.simplify)
+    assert Bp == sp.Matrix(sp.BlockMatrix([[J5, Z5], [Z5, -J5]])) and Bp != sp.Matrix(sp.BlockMatrix([[J5, Z5], [Z5, J5]]))
+    e = lambda i, j: sp.Matrix(4, 4, lambda a, b: 1 if (a, b) == (i, j) else 0); X = e(0, 2) + e(1, 3); XX = sp.kronecker_product(X, X)
+    k = lambda a, b: sp.kronecker_product(sp.Matrix(4, 1, lambda r, s: 1 if r == a else 0), sp.Matrix(4, 1, lambda r, s: 1 if r == b else 0))
+    assert all(XX * v == sp.zeros(16, 1) for v in (k(0, 0), k(3, 0), k(0, 3))) and XX * k(3, 3) == k(1, 1)
+
+
+def test_the_coherent_vector_against_sm_c22s_statement_from_the_committed_run():
+    """checks/sm_c22.py's run: h* (register row P-873) has a hierarchy at the median and no top alignment, under the SM
+    seat's own definitions; the six single modes reproduce the seat's figures (the run takes minutes; its output is held)"""
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "sm_c22_run.txt").read_text()
+    import re
+    m = re.search(r"S3: h\*\s+top-aligned share ([0-9.]+); median E\(s3/s1\) down ([0-9.]+)", run); assert m and float(m.group(1)) < 0.5 and float(m.group(2)) > 0.1
+    shares = [float(x) for x in re.findall(r"S2: mode \d\s+top-aligned share ([0-9.]+)", run)]; assert len(shares) == 6 and max(shares) <= 0.38
+    assert "they anticommute" in run and "exit 0" in run

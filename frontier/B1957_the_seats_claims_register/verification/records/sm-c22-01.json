@@ -1,0 +1,19 @@
+{
+ "id": "sm-c22-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "on main's own code (checks/sm_c22.py): S1, Z^3 and X^3 on the six modes anticommute (||Z^3 X^3 + X^3 Z^3|| = 0), so no vector is an eigenvector of both and no Higgs vector makes the frame single-valued in the point; S2, the six single modes under the seat's own definitions on main's closed form: median E(s3/s1) 0.9333 or 1.0667, at the mark (8/15, 4/5) or (2/15, 6/5), top-aligned share at most 0.375",
+ "note": "",
+ "units": [
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:9",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:10",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:17",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:20",
+  "sm:cards/SM_C22_every-higgs-vector-in-d1:9",
+  "sm:cards/SM_C22_every-higgs-vector-in-d1:10",
+  "sm:cards/SM_C22_every-higgs-vector-in-d1:12",
+  "sm:cards/SM_C22_every-higgs-vector-in-d1:13",
+  "sm:cards/SM_C22_every-higgs-vector-in-d1:15",
+  "sm:STATUS_SM:465"
+ ]
+}

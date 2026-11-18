@@ -1,16 +1,16 @@
 {
  "lanes": {
   "agy-exp": {
-   "files": 109,
+   "files": 111,
    "read": 66,
-   "units": 3863,
-   "statements": 3124,
-   "VERIFIED": 71,
+   "units": 3927,
+   "statements": 3182,
+   "VERIFIED": 94,
    "REFUTED": 6,
-   "CONDITIONAL": 465,
-   "PARTIAL": 552,
+   "CONDITIONAL": 471,
+   "PARTIAL": 554,
    "SUPERSEDED": 60,
-   "NOTED": 1970,
+   "NOTED": 1997,
    "PENDING": 0
   },
   "agy-002-verify": {
@@ -72,11 +72,11 @@
    "statements": 11833,
    "VERIFIED": 1390,
    "REFUTED": 0,
-   "CONDITIONAL": 1143,
-   "PARTIAL": 135,
+   "CONDITIONAL": 1199,
+   "PARTIAL": 148,
    "SUPERSEDED": 46,
-   "NOTED": 9035,
-   "PENDING": 84
+   "NOTED": 9050,
+   "PENDING": 0
   },
   "web": {
    "files": 138,
@@ -101,21 +101,21 @@
    "CONDITIONAL": 17,
    "PARTIAL": 32,
    "SUPERSEDED": 0,
-   "NOTED": 63,
-   "PENDING": 1
+   "NOTED": 64,
+   "PENDING": 0
   },
   "sm": {
    "files": 11,
    "read": 9,
    "units": 538,
    "statements": 516,
-   "VERIFIED": 20,
-   "REFUTED": 3,
-   "CONDITIONAL": 0,
-   "PARTIAL": 105,
+   "VERIFIED": 30,
+   "REFUTED": 5,
+   "CONDITIONAL": 7,
+   "PARTIAL": 113,
    "SUPERSEDED": 0,
-   "NOTED": 333,
-   "PENDING": 55
+   "NOTED": 361,
+   "PENDING": 0
   }
  },
  "files": {
@@ -509,15 +509,28 @@
    "NOTED": 4,
    "PENDING": 0
   },
+  "agy-exp | relays/AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS.md": {
+   "lane": "agy-exp",
+   "units": 47,
+   "statements": 42,
+   "read": false,
+   "VERIFIED": 20,
+   "REFUTED": 0,
+   "CONDITIONAL": 7,
+   "PARTIAL": 4,
+   "SUPERSEDED": 0,
+   "NOTED": 11,
+   "PENDING": 0
+  },
   "agy-exp | relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md": {
    "lane": "agy-exp",
    "units": 34,
    "statements": 32,
    "read": true,
-   "VERIFIED": 3,
+   "VERIFIED": 4,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 12,
+   "PARTIAL": 11,
    "SUPERSEDED": 0,
    "NOTED": 17,
    "PENDING": 0
@@ -761,9 +774,9 @@
    "units": 23,
    "statements": 17,
    "read": true,
-   "VERIFIED": 1,
+   "VERIFIED": 2,
    "REFUTED": 0,
-   "CONDITIONAL": 4,
+   "CONDITIONAL": 3,
    "PARTIAL": 0,
    "SUPERSEDED": 3,
    "NOTED": 9,
@@ -826,10 +839,10 @@
    "units": 20,
    "statements": 15,
    "read": true,
-   "VERIFIED": 0,
+   "VERIFIED": 1,
    "REFUTED": 0,
    "CONDITIONAL": 2,
-   "PARTIAL": 4,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
    "NOTED": 9,
    "PENDING": 0
@@ -966,15 +979,15 @@
   },
   "agy-exp | relays/STATUS_AGY-EXP.md": {
    "lane": "agy-exp",
-   "units": 197,
-   "statements": 195,
+   "units": 202,
+   "statements": 200,
    "read": true,
    "VERIFIED": 3,
    "REFUTED": 1,
    "CONDITIONAL": 30,
    "PARTIAL": 3,
    "SUPERSEDED": 5,
-   "NOTED": 153,
+   "NOTED": 158,
    "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_R83_review-83.md": {
@@ -1378,6 +1391,19 @@
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 31,
+   "PENDING": 0
+  },
+  "agy-exp | relays/cards/AGY-EXP_X-L5_level5-point-phase-law-and-odd-c-sign-recomputation.md": {
+   "lane": "agy-exp",
+   "units": 12,
+   "statements": 11,
+   "read": false,
+   "VERIFIED": 0,
+   "REFUTED": 0,
+   "CONDITIONAL": 0,
+   "PARTIAL": 0,
+   "SUPERSEDED": 0,
+   "NOTED": 11,
    "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md": {
@@ -2388,11 +2414,11 @@
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 10,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 15
+   "NOTED": 3,
+   "PENDING": 0
   },
   "physical | relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md": {
    "lane": "physical",
@@ -2612,8 +2638,8 @@
    "CONDITIONAL": 26,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 65,
-   "PENDING": 2
+   "NOTED": 67,
+   "PENDING": 0
   },
   "physical | relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md": {
    "lane": "physical",
@@ -2729,8 +2755,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 6
+   "NOTED": 6,
+   "PENDING": 0
   },
   "physical | relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md": {
    "lane": "physical",
@@ -3571,11 +3597,11 @@
    "read": false,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 46,
+   "PARTIAL": 11,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 61
+   "NOTED": 4,
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES.md": {
    "lane": "physical",
@@ -6213,8 +6239,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 7,
-   "PENDING": 1
+   "NOTED": 8,
+   "PENDING": 0
   },
   "sm | relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md": {
    "lane": "sm",
@@ -6273,26 +6299,26 @@
    "units": 27,
    "statements": 26,
    "read": false,
-   "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "VERIFIED": 4,
+   "REFUTED": 1,
+   "CONDITIONAL": 7,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 26
+   "NOTED": 7,
+   "PENDING": 0
   },
   "sm | relays/STATUS_SM.md": {
    "lane": "sm",
    "units": 266,
    "statements": 259,
    "read": true,
-   "VERIFIED": 0,
-   "REFUTED": 1,
+   "VERIFIED": 1,
+   "REFUTED": 2,
    "CONDITIONAL": 0,
-   "PARTIAL": 16,
+   "PARTIAL": 17,
    "SUPERSEDED": 0,
-   "NOTED": 238,
-   "PENDING": 4
+   "NOTED": 239,
+   "PENDING": 0
   },
   "sm | relays/cards/SM_C18_the-triple-overlaps-covariance.md": {
    "lane": "sm",
@@ -6351,13 +6377,13 @@
    "units": 28,
    "statements": 25,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 5,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 25
+   "NOTED": 20,
+   "PENDING": 0
   }
  }
 }

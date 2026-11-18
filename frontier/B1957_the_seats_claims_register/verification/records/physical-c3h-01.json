@@ -1,0 +1,22 @@
+{
+ "id": "physical-c3h-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the paragraphs of C3h whose finite steps main computes (checks/physical_c3h.py, H1 to H4), inside the lane's analysis: X x X kills the fibre representatives of degrees 0 and 1 and sends |-j,-j> to |1/2, 1/2>, orthogonal to it; the symmetric form [[0, I5], [I5, 0]] becomes diag(J5, -J5) under diag(I5, J5) followed by the Hadamard change, and not diag(J5, J5); T = diag(1, -1) anticommutes with the off-diagonal A0 and commutes with a diagonal D; the polarized cubic with the sections (f, g) and (f, -g) is C(-fg + fg) = 0, and with (f, g) twice 2C fg; the counts 24 in the 128 block and 42 in the roster; the Euler characteristic of (0, 3, 3, 0). NOT ON MAIN: that these are the lane's bundles, sections and maps, and every analytic step",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:119",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:128",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:132",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:146",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:163",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:165",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:202",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:221",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:248",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:266",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:291",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL:30",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL:38"
+ ]
+}

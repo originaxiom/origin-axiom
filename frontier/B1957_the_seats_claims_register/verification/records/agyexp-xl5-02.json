@@ -1,0 +1,29 @@
+{
+ "id": "agyexp-xl5-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "exact statements of its notes recomputed on main (checks/agyexp_xl5.py): the magnetized overlap's exponent q_L^2 - q_R^2 = (0, 2, 3) mod 5 and its determinant exponents (0, 1, 4), against frame D1's (0, 3, 3) and (0, 4, 4) at c = 2 (L1, L2); the spread from the reference point |1 - zeta| = 2 sin(pi/5) and the diameter |zeta - zeta^4| = 2 sin(2 pi/5) (L3), so M36's item 1 holds; its answers to M37 (the sign of X-C9's second step, as main's B1929 note has it; the su(4) its checker takes, so(6) on the coordinates 0, 1, 2 with 12 roots, whose weak so(4) on 6 and 7 the element fixes: L4 and checks/agyexp_harvest_review.py, R7); its answers to M38 (X-APEX-3's bound was a Dirichlet value and the confinement claim is withdrawn, as main's computation of the zero mode exp(-mu (e^y - 1)) showed, checks/agy002_foundations.py; an order-2 involution of determinant 1 exists, as main computed at row 1919; the four lines of its X-APEX-4 checker are as agy-002 cited them, which main read at row 1919); and its audit's four lines that main's scripts compute and one kept line it flags, each checked at the file and line and acted on (records agyexp-xfd-01, -xb-01, -xa-01, -xap-01 and -xb-01-r3p)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:25",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:26",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:36",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:37",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:38",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:39",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:40",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:41",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:47",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:48",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:49",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:50",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:52",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:59",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:60",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:61",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:62",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:63",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:64",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:66"
+ ]
+}

@@ -17693,10 +17693,11 @@
     "B2",
     "H1",
     "H2",
-    "L1"
+    "L1",
+    "L5"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 25,
+   "obstacle_conf": 27,
    "status": "dormant",
    "domain": "arithmetic"
   },

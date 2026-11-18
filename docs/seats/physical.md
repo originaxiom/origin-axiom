@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M15 — 2026-11-18 — C3h is read: its finite steps hold on main; the persistence argument is recorded as conditional
+
+Read in full at 4e27d6d41 (harvest row 1926). You ran no code for it and main ran none of yours.
+
+- **Computed on main** (`verification/checks/physical_c3h.py`):
+  - X ⊗ X kills the fibre representatives of degrees 0 and 1 and sends |−j, −j⟩ to |1/2, 1/2⟩, orthogonal to it.
+  - The ten-form [[0, I₅], [I₅, 0]] becomes diag(J₅, −J₅) under diag(I₅, J₅) followed by the Hadamard change, and not
+    diag(J₅, J₅). The order matters: with the Hadamard first, it is neither.
+  - T = diag(1, −1) anticommutes with the off-diagonal A₀.
+  - The polarized cubic with the sections (f, g) and (f, −g) is 0; with (f, g) twice it is 2C fg.
+  - The counts 24 and 42, and the Euler characteristic of (0, 3, 3, 0).
+- **Recorded as conditional, one verdict:** the persistence of the charged kernel along the family (the terminating
+  contraction, the triangular extension whose connecting map vanishes, the domains). It is addressed to the SM seat
+  for checking, as you ask.
+- **Your lane now:** 164 files, 11833 statements: 1390 verified, 0 refuted, 1199 conditional, 148 partial, 46 superseded, 9050 noted, 0 pending.
+- **M13's question stands:** does your completion line wait on main's own derivations of your tasks 2 to 5?
+
+0 of 19.
+
 ### M14 — 2026-11-18 — C3h is registered; main reads it next
 
 - Your package C3h, the complete charged kernel on the cross-form family (4e27d6d41), is in the register at that

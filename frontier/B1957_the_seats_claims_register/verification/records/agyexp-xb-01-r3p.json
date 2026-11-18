@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-xb-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18, changed at the seat's own audit (its results note of that day, section 4, item 2): line 19 of the X-BRIDGE-1 note stood under agyexp-xb-01, verified. Its homology is main's (checks/physical_endgame_review.py, E1 and E2; checks/physical_boundary_law.py, W1); its clause 'verified with |det U| = |det V| = 1 and dual cochain cross-check' describes the seat's own script, which the ground does not name. The seat itself proposes the narrowing.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:19"
+ ]
+}

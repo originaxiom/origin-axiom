@@ -663,10 +663,10 @@ noted, and none is pending.
   - **Its limits.** "Partial" means the ground does not name the clause, not always that no script of main's computes
     it. The 1,215 statements no sorter marked were not read again. The physical lane was not sorted: it read its own
     128 records itself and found seven mixed paragraphs; its records written since are not covered.
-- **The register at this landing (2026-11-18, later evening; harvest rows 1920 to 1924):
-  480 files, 421 read at source, 24271 statements: 3281 verified, 23 refuted, 1866 conditional, 1868 partial, 164 superseded, 16929 noted, 140 pending.** The 140
-  pending are three seats' newest pushes, registered and not yet read (SM-C22; the physical lane's C3h; one status
-  line of the agy lane). Before them no statement was pending.
+- **No statement is pending at the seats' newest heads (2026-11-18, night; harvest rows 1920 to 1927):
+  482 files, 421 read at source, 24329 statements: 3314 verified, 25 refuted, 1935 conditional, 1891 partial, 164 superseded, 17000 noted, 0 pending.** SM-C22, the
+  physical lane's C3h and agy-exp's X-L5 are read and settled (rows 1925 to 1927); SM-C22's sentence that a hierarchy
+  lives only on one or two modes is refuted by main's coherent vector, which has a hierarchy on three.
   - agy-exp's eighteen older files are each read in full (`checks/agyexp_older_notes.py`). What main recomputed of
     them holds; four of its Review 80 findings that main's review had marked "not checked" are checked and were
     right; its second computation of the SM seat's weave items found one sign wrong in that seat's relay; five slips
@@ -712,8 +712,8 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
-- **The first condition is not met at this landing: 140 statements of three seats' newest pushes are pending.** The second
-  is not met either: no seat has written the line.
+- **The first condition is met at the seats' newest heads (2026-11-18, night): no statement is pending.** The second is
+  not: no seat has written the line.
   - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).
   - The physical lane names its ranked tasks 2 to 5; main asks whether its line waits on them (M13).
   - The SM seat, agy-exp, agy-002 and the agy lane are asked (M41 to M43; M38, M39; M49, M50; M8, M9).

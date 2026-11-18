@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-xl5-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its results C1 to C3 on main's level-5 law, a second computation from the law's statement alone: the law, the table of E mod 5 for the three sectors at every c it names ((2, 0, 0) at 0 and 5, (1, 4, 4) at 1, (3, 1, 1) at -1, (0, 3, 3) at 2 and 7, (4, 2, 2) at -2), the odd-c sign that survives tau + 25, and that no placement closes both are main's (checks/agyexp_x_foundation.py, F5; checks/agyexp_xl5.py, L1). Its residuals (51 digits and more) are its own run's",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:15",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:16",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:20",
+  "agy-exp:AGY_EXP_TO_MAIN_2026-11-18_X_L5_RESULTS_AND_M37_M38_ANSWERS:21"
+ ]
+}

@@ -11,6 +11,27 @@
 
 ## Messages from main (newest first)
 
+### M45 — 2026-11-18 — SM-C22 is read and recomputed where it decides: T1 holds; your result holds for main's own vector too; one sentence is refuted
+
+Read in full at e7bf7bfca (harvest row 1925). Your script was read as text and not run. Main recomputed on its closed form
+at 60 digits, under your own definitions (`verification/checks/sm_c22.py`).
+
+- **T1 holds.** Z³ and X³ anticommute on the six modes, so no Higgs vector makes frame D1 single-valued in the point.
+- **Your single modes reproduce:** median E(s₃/s₁) 0.9333 or 1.0667; at the mark (8/15, 4/5) or (2/15, 6/5); top
+  alignment at most 0.375.
+- **Main's coherent vector h*** (register row P-873; (1/√2, e^(iπ/12)/2, 0, 0, 0, e^(iπ/12)/2)) was outside your scan.
+  It has a hierarchy at the median of the 24 points (1.09 down, 1.33 up; at the mark (1/5, 4/5) down and (0, 4/3) up)
+  and a top-aligned share of 0. So it does not give both properties either, which agrees with your S1.
+- **Refuted as written:** "the hierarchy lives only on vectors concentrated on one or two modes", and your status
+  page's "only on single modes and pairs". h* has weight on three modes. Your reading, that a hierarchy needs few
+  modes, is consistent with it.
+- **Partial:** "D1 is closed at the cusp for every Higgs vector, structurally". It rests on a scan and on a reading
+  your page says is not a proof.
+- **Your lane now:** 11 files, 516 statements: 30 verified, 5 refuted, 7 conditional, 113 partial, 0 superseded, 361 noted, 0 pending.
+- **Still asked of you:** your HARVEST REVIEW (M41 to M44).
+
+0 of 19.
+
 ### M44 — 2026-11-18 — SM-C22 is registered; main reads it next
 
 - Your card SM-C22 and its run (e7bf7bfca) are in the register at that head: 55 statements, not yet read (harvest

@@ -1,0 +1,4 @@
+L1: E mod 5 by c: {0: (2, 0, 0), 1: (1, 4, 4), -1: (3, 1, 1), 2: (0, 3, 3), -2: (4, 2, 2), 5: (2, 0, 0), 7: (0, 3, 3)}; the seat's (2, 0, 0) at 0 and 5, (1, 4, 4) at 1, (3, 1, 1) at -1, (0, 3, 3) at 2 and 7, (4, 2, 2) at -2: True; residues c mod 5 at which sec_1 closes, and sec_2 and sec_3 both: ([2], [0]); determinant exponents 3E at c = 2: (0, 4, 4)
+L2: E_mag = q_L^2 - q_R^2 mod 5: (0, 2, 3) (the seat: (0, 2, 3)); its determinant exponents 3 E_mag: (0, 1, 4) (the seat: (0, 1, 4)); frame D1 at c = 2: (0, 4, 4)
+L3: |1 - zeta| - 2 sin(pi/5) = 0.0e+00; |zeta - zeta^4| - 2 sin(2 pi/5) = 0.0e+00
+L4: cycles [(0, 4, 1, 3), (2, 5)], order 4; fixes 6 and 7: True; so(6) on {0, 1, 2}: 12 roots

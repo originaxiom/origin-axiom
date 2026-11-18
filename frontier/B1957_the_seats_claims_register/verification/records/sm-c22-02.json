@@ -1,0 +1,16 @@
+{
+ "id": "sm-c22-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the seat's own scan and figures, its script read as text and not run: the least phase defect 0.57 over 2,000 random vectors; the pairs' 0.233 and (1/10, 7/30); the random vectors' 6.7e-5, the largest share 0.58 and -1.6e-4; and its result S1, no vector of its 5,021 with both a top-aligned majority and a median exponent >= 0.1. MAIN'S SIDE (checks/sm_c22.py, S3): main's coherent vector h* of register row P-873, outside the scan, has a hierarchy (median E(s3/s1) 1.09 down) and a top-aligned share of 0: consistent with S1",
+ "note": "",
+ "units": [
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:11",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:12",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:19",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:21",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:22",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:32",
+  "sm:SM_C22_EVERY_HIGGS_VECTOR_IN_D1:33"
+ ]
+}

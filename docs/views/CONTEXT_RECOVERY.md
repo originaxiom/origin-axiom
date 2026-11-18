@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1924 |
+| harvest rows (the last number) | 1927 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, later evening: MAIN HAS READ EVERY VERIFIED STATEMENT OF SEVEN LANES ITSELF, AND THE WEB SEAT'S OWN READING OF MAIN'S SECOND READING WAS RIGHT ON A LARGE SCALE; NO SEAT HAS YET WRITTEN HARVEST COMPLETE (B1957, OPEN; harvest rows 1920 to 1924; P-865, P-873).** The register: 480 files, 421 read at source, 24271 statements: 3281 verified, 23 refuted, 1866 conditional, 1868 partial, 164 superseded, 16929 noted, 140 pending; the pending are three seats' newest pushes, registered and not yet read. agy-exp's eighteen older files, the web seat's sections 14 to 16 and the physical lane's reply, compact magnetic control and cross-form packet are each read in full; every fin…”
+“LATEST (2026-11-18, S306p, night: NO STATEMENT IS PENDING AT THE SEATS' NEWEST HEADS; SM-C22, C3h AND X-L5 READ; NO SEAT HAS YET WRITTEN HARVEST COMPLETE (B1957, OPEN; harvest rows 1925 to 1927; P-871, P-873).** The register: 482 files, 421 read at source, 24329 statements: 3314 verified, 25 refuted, 1935 conditional, 1891 partial, 164 superseded, 17000 noted, 0 pending. The SM seat's SM-C22: no Higgs vector makes frame D1 single-valued (proved), and none of 5,021 scanned gives both an aligned cusp mixing and a hierarchy; main's coherent vector, outside the scan, has a hierarchy and no alignment, and refutes the sentence that a hierarchy lives only on one or two modes. The physical lane's C…”
 
 ## Completeness (nothing skipped silently)
 

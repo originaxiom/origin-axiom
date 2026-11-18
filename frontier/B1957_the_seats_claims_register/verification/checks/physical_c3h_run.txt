@@ -1,0 +1,4 @@
+H1: X x X on the representatives: {'k=0 |j,j>': '0', 'k=1 |-j,j>': '0', 'k=1 |j,-j>': '0', 'k=2 |-j,-j>': 'non-zero'}; the degree-2 image is |1/2, 1/2>: True, orthogonal to |-j,-j>: True
+H2: the form [[0, I5], [I5, 0]] in the new frame (inverse transpose): {'Hadamard after diag(I5, J5)': 'diag(J5, -J5)', 'diag(I5, J5) after Hadamard': 'other'}; J5 = antidiag(1, -1, 1, -1, 1) is its own inverse up to sign: J5^2 = I
+H3: T A0 T^-1 = -A0: True; T D T^-1 = D: True; the polarized cubic with (f, g) and (f, -g): 0; with (f, g) twice: 2*C*f*g
+H4: the 128 block, 1_(+1) + 3_(-1/3) and its conjugate, three per coefficient: 24; the roster's left coefficients (colour dimension x multiplicity): 42; Euler characteristic of (0, 3, 3, 0): 0

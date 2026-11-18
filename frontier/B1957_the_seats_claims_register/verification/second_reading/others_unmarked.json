@@ -3,9 +3,9 @@
  "read": 251,
  "decisions": {
   "N": 6,
-  "P": 4
+  "P": 5
  },
- "kept": 241,
+ "kept": 240,
  "units": [
   {
    "unit": "agy-002-closure:cards/AGY-002_CLOSURE-G5_covariant-frame-d1-ckm-bl-holonomy-and-weil-connection:16",
@@ -66,6 +66,12 @@
    "record": "agyexp-pr-01",
    "decision": "N",
    "why": "one of the identifications its campaigns type in: a premise it lists, not a result"
+  },
+  {
+   "unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:19",
+   "record": "agyexp-xb-01",
+   "decision": "P",
+   "why": "at the seat's own audit: the clause on its script's unimodular factors is not in the ground"
   }
  ],
  "read_units": [
@@ -298,9 +304,9 @@
   "agy-exp:REVIEW_83_AGY-EXP:346",
   "agy-exp:REVIEW_83_AGY-EXP:347",
   "agy-exp:REVIEW_83_AGY-EXP:5",
-  "agy-exp:STATUS_AGY-EXP:103",
-  "agy-exp:STATUS_AGY-EXP:104",
-  "agy-exp:STATUS_AGY-EXP:106",
+  "agy-exp:STATUS_AGY-EXP:112",
+  "agy-exp:STATUS_AGY-EXP:113",
+  "agy-exp:STATUS_AGY-EXP:115",
   "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:10",
   "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:12",
   "sm:SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE:19",

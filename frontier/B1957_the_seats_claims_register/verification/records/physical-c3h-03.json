@@ -1,0 +1,24 @@
+{
+ "id": "physical-c3h-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the package's headers and scope, its reuse of earlier results, its table of what stays supplied, its review requests, its card (question, reuse, delivery, ways it can fail, finish) and its status lines",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:3",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:8",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:16",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY:22",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL:3",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL:8",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL:64",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:3",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:8",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:13",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:19",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:27",
+  "physical:cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18:33",
+  "physical:STATUS_PHYSICAL:8",
+  "physical:STATUS_PHYSICAL:18"
+ ]
+}

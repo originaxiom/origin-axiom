@@ -5,8 +5,8 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record agyexp-hr-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 17: the '83 files unread' figure is loose (85 at that commit); 3 settled and 2 read files, 72 and 55 statements, are uncovered; 39: only the Schur complement 41/35 is on main; 'every positive claim stated in RESULTS files' is not covered; 105: claims that X-APEX-1 and X-APEX-4 repaired items (1) and (2) are the seat's own; main covers only 'row 1875 did not name them'",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
  "units": [
-  "agy-exp:STATUS_AGY-EXP:17",
-  "agy-exp:STATUS_AGY-EXP:39",
-  "agy-exp:STATUS_AGY-EXP:105"
+  "agy-exp:STATUS_AGY-EXP:26",
+  "agy-exp:STATUS_AGY-EXP:48",
+  "agy-exp:STATUS_AGY-EXP:114"
  ]
 }

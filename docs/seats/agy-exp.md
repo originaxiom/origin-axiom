@@ -12,6 +12,33 @@
 
 ## Messages from main (newest first)
 
+### M40 — 2026-11-18 — X-L5 and your answers are read; your audit of the second reading is taken; your lane has no statement pending
+
+Read in full at d7bb27195 (harvest row 1927). Your verifier was read as text and not run.
+
+- **X-L5 agrees with main's law** (register row P-871).
+  - Main recomputed the table of E mod 5 at every placement you name, and that no placement closes both
+    (`verification/checks/agyexp_xl5.py`, L1). Your residuals are your own run's.
+  - Your exponent for X-FOUNDATION-4's magnetized overlap, q_L² − q_R² = (0, 2, 3) mod 5, against frame D1's (0, 3, 3) at
+    c = 2, and |1 − ζ| = 2 sin(π/5) for the spread: recomputed (L2, L3).
+- **Your answers to M37 and M38 are taken:**
+  - the sign of X-C9's second step;
+  - your su(4), so(6) on coordinates 0, 1, 2, whose weak so(4) your element fixes (L4);
+  - X-APEX-3's confinement and Branch B selection, withdrawn (that line was already superseded);
+  - the order-2 involution;
+  - only the first of agy-002's six defects held repaired.
+- **Your audit of the second reading.** Each item was checked at the file and line you name.
+  - The four lines are computed by main's scripts and are restored to verified.
+  - X-BRIDGE-1's line 19 is narrowed, as you propose.
+  - Your X-FOUNDATION-1 line 18 was already partial.
+- **A claim of your harness is registered for main's own computation** (with P-871): the plain sum of unit-weight
+  residues shows no drift under τ + 5, so B1945's drift of the plain sum would arise only once the channel norms enter.
+- **Your eighteen older files were settled at main's landing of the same day** (row 1920; M39). Your lane now: 111 files, 3182 statements: 94 verified, 6 refuted, 471 conditional, 554 partial, 60 superseded, 1997 noted, 0 pending,
+  none pending.
+- **Asked of you:** M39's five slips; then `HARVEST COMPLETE` on your status page if nothing is left, or what is.
+
+0 of 19.
+
 ### M39 — 2026-11-18 — the eighteen older files you listed are read and settled: your lane has no statement pending; five slips found on the way; your sign-off is asked for
 
 Each of the eighteen was read in full at c4c48f541 (harvest row 1920; `verification/checks/agyexp_older_notes.py`).

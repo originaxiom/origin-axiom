@@ -1,0 +1,9 @@
+S1: ||Z^3 X^3 + X^3 Z^3|| = 0.0e+00 and ||Z^3 X^3 - X^3 Z^3|| = 2.0 on the six modes: they anticommute
+S3: h*      top-aligned share 0.000; median E(s3/s1) down 1.0911, up 1.3268; at the mark (E2, E3): {'up': [-0.0043, 1.3355], 'down': [0.1994, 0.7995]}
+S2: mode 0  top-aligned share 0.375; median E(s3/s1) down 1.0667, up 1.3333; at the mark (E2, E3): {'up': [-0.0, 1.3333], 'down': [0.5333, 0.8]}
+S2: mode 1  top-aligned share 0.292; median E(s3/s1) down 0.9333, up 0.6667; at the mark (E2, E3): {'up': [0.6667, 0.6667], 'down': [0.1333, 1.2]}
+S2: mode 2  top-aligned share 0.250; median E(s3/s1) down 1.0667, up 1.3333; at the mark (E2, E3): {'up': [-0.0, 1.3333], 'down': [0.5333, 0.8]}
+S2: mode 3  top-aligned share 0.167; median E(s3/s1) down 0.9333, up 0.6667; at the mark (E2, E3): {'up': [0.6667, 0.6667], 'down': [0.1333, 1.2]}
+S2: mode 4  top-aligned share 0.208; median E(s3/s1) down 1.0667, up 1.3333; at the mark (E2, E3): {'up': [-0.0, 1.3333], 'down': [0.5333, 0.8]}
+S2: mode 5  top-aligned share 0.250; median E(s3/s1) down 0.9333, up 0.6667; at the mark (E2, E3): {'up': [0.6667, 0.6667], 'down': [0.1333, 1.2]}
+exit 0

@@ -3,10 +3,10 @@
  "sorted": 696,
  "candidates": 473,
  "decisions": {
-  "K": 28,
+  "K": 32,
   "N": 196,
-  "P": 207,
-  "C": 42
+  "P": 204,
+  "C": 41
  },
  "units": [
   {
@@ -1602,7 +1602,9 @@
    "record": "agyexp-xb-01",
    "class": "a",
    "why": "matrix (33 21; 21 12) and split 1+4+8+32 not in the how",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed": "2026-11-18, at agy-exp's own audit of the second reading: B1956's agy_exp_checks.py, item 3: M^4 - 1 = ((33, 21), (21, 12)), Smith form (3, 15), the 45 points by order {1: 1, 3: 8, 5: 4, 15: 32}; H^2 of the punctured cover is the torsion of H_1 by the universal coefficients, its H_2 being 0"
   },
   {
    "unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:41",
@@ -2017,7 +2019,9 @@
    "record": "agyexp-xfd-01",
    "class": "a",
    "why": "the brackets 487/1000, 471/1000, ratio brackets and |y''| = 6/5 are the seat's own run",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed": "2026-11-18, at agy-exp's own audit of the second reading: checks/agyexp_x_foundation.py, F6: the tension 0.4877779586 with the induced factor and 0.4714045208 without it, their ratios 0.9525 and 0.9206 to the straight path's, |y''| = 2c = 1.2"
   },
   {
    "unit": "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:19",
@@ -2465,7 +2469,9 @@
    "record": "agyexp-xap-01",
    "class": "d",
    "why": "fixing the weak factors holds only for the right su(4) copy; the note says main did not read which copy the seat takes",
-   "decision": "C"
+   "decision": "K",
+   "first_decision": "C",
+   "changed": "2026-11-18, at agy-exp's own audit of the second reading: checks/agyexp_harvest_review.py, R7, with the seat's su(4) now named (so(6) on the coordinates 0, 1, 2; 12 roots, checks/agyexp_xl5.py, L4): the element fixes the coordinates 6 and 7 and so every root of the weak so(4)"
   },
   {
    "unit": "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:21",
@@ -2593,7 +2599,9 @@
    "record": "agyexp-xa-01",
    "class": "b",
    "why": "determinant +1 and the conjugation of E6cent onto E6GUT are not mentioned; only order 4 is checked",
-   "decision": "P"
+   "decision": "K",
+   "first_decision": "P",
+   "changed": "2026-11-18, at agy-exp's own audit of the second reading: checks/agyexp_harvest_review.py, R7: the written element has determinant 1 and order 4 and carries the first copy's roots onto the second's; checks/agyexp_xl5.py, L4: its cycles (0 4 1 3)(2 5) and that it fixes the coordinates 6 and 7"
   },
   {
    "unit": "agy-exp:AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS:27",
@@ -2834,80 +2842,17 @@
    "decision": "P"
   },
   {
-   "unit": "agy-exp:STATUS_AGY-EXP:17",
+   "unit": "agy-exp:STATUS_AGY-EXP:26",
    "record": "agyexp-hr-01",
    "class": "a",
    "why": "the '83 files unread' figure is loose (85 at that commit); 3 settled and 2 read files, 72 and 55 statements, are uncovered",
    "decision": "P"
   },
   {
-   "unit": "agy-exp:STATUS_AGY-EXP:24",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files with row citations",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:25",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:26",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:27",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:28",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:29",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:30",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:31",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
-   "unit": "agy-exp:STATUS_AGY-EXP:32",
-   "record": "agyexp-hr-01",
-   "class": "e",
-   "why": "list of unread files",
-   "decision": "N"
-  },
-  {
    "unit": "agy-exp:STATUS_AGY-EXP:33",
    "record": "agyexp-hr-01",
    "class": "e",
-   "why": "list of unread files",
+   "why": "list of unread files with row citations",
    "decision": "N"
   },
   {
@@ -2918,14 +2863,77 @@
    "decision": "N"
   },
   {
+   "unit": "agy-exp:STATUS_AGY-EXP:35",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:36",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:37",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:38",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
    "unit": "agy-exp:STATUS_AGY-EXP:39",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:40",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:41",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:42",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:43",
+   "record": "agyexp-hr-01",
+   "class": "e",
+   "why": "list of unread files",
+   "decision": "N"
+  },
+  {
+   "unit": "agy-exp:STATUS_AGY-EXP:48",
    "record": "agyexp-hr-01",
    "class": "b",
    "why": "only the Schur complement 41/35 is on main; 'every positive claim stated in RESULTS files' is not covered",
    "decision": "P"
   },
   {
-   "unit": "agy-exp:STATUS_AGY-EXP:105",
+   "unit": "agy-exp:STATUS_AGY-EXP:114",
    "record": "agyexp-hr-01",
    "class": "b",
    "why": "claims that X-APEX-1 and X-APEX-4 repaired items (1) and (2) are the seat's own; main covers only 'row 1875 did not name them'",
