@@ -325,3 +325,51 @@ def test_the_eigenvalue_field_is_the_levels_field_exactly_at_the_metallic_traces
     import web_wc8_part4_on_main as P
     assert all((P.sqfree(t * t - 4) == P.sqfree(t + 2)) == P.issq(t - 2) for t in range(3, 3001))
     assert (P.sqfree(3 * 3 - 4) == P.sqfree(3 + 2)) != P.issq(3 + 2)                             # the control with t + 2 fails at once
+
+
+def test_the_per_centre_rule_of_the_reversing_involution_holds_on_every_palindromic_cyclic_word():
+    import itertools
+    import web_tube_p740_rule as T
+    seen = set(); kinds = {"between": 0, "on": 0}
+    for n in range(2, 11):
+        for t in itertools.product("LR", repeat=n):
+            w = "".join(t); rots = [w[i:] + w[:i] for i in range(n)]
+            if "L" not in w or "R" not in w or len(set(rots)) < n or min(rots) in seen: continue
+            seen.add(min(rots))
+            for pair in T.centres(min(rots)):
+                for centre in pair:
+                    Z, W = T.Z_at(min(rots), centre); kinds[centre[0]] += 1
+                    assert T.det(Z) == -1 and T.mul(Z, Z) == T.ONE and T.mul(T.mul(Z, W), T.inv(Z)) == T.inv(W)       # an involution that reverses the word
+                    assert T.one2(Z) == (centre[0] == "between")                                                      # the rule; exchanged, it fails on every centre
+    assert kinds["between"] > 50 and kinds["on"] > 50
+    A = T.M("L" * 6 + "R" + "LR" * 6); X = ((-1, 6), (0, 1))
+    assert T.mul(T.mul(X, A), T.inv(X)) == T.inv(A) and T.one2(X) and not T.one2(T.mul(X, A))
+
+
+def test_an_invariant_function_is_stationary_at_i_and_at_omega_and_not_elsewhere():
+    import mpmath as mp
+    import web_weave_action_on_tau as W
+    f = lambda x, y: W.E_fourier(mp.mpc(x, y), mp.mpf(3))
+    gi, hi = W.grad_hess(f, W.I); go, ho = W.grad_hess(f, W.OM); gg, _ = W.grad_hess(f, W.GEN)
+    assert gi < 1e-6 and go < 1e-6 and gg > 1 and hi[0] < 0 < hi[1] and ho[0] > 0                     # a saddle at i, a minimum at omega
+
+
+def test_the_threads_classes_modulo_2_and_the_census_to_length_8():
+    import web_selection_exact as S
+    words = [w for n in range(2, 13) for w in S.lyndon(n)]
+    assert len(words) == 745 and len([w for w in words if len(w) <= 8]) == 69
+    for w in words:
+        c = S.cls(w); assert (c == "transposition") == (len(w) % 2 == 1)                      # L and R are transpositions modulo 2
+    sw = str.maketrans("LR", "RL"); canon = lambda w: min(min(w[i:] + w[:i] for i in range(len(w))), min(w.translate(sw)[i:] + w.translate(sw)[:i] for i in range(len(w))))
+    up = {canon(w): S.cls(w) for w in words if len(w) <= 8}
+    assert [sum(1 for v in up.values() if v == k) for k in ("3-cycle", "transposition", "identity")] == [16, 13, 8]
+
+
+def test_a_chiral_thread_sees_the_level_and_its_mirror_sees_it_with_the_other_sign():
+    import math, warnings
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore"); import web_scale_census as C
+    v1, c1, _ = C.data("LLR"); v2, c2, _ = C.data("LRR"); v0, c0, _ = C.data("LR")
+    assert abs(c1 + math.pi ** 2 / 24) < 1e-9 and abs(c1 + c2) < 1e-9 and abs(v1 - v2) < 1e-9 and abs(c0) < 1e-9 and abs(v0 - 2.0298832128) < 1e-9
+    vm, cm, _ = __import__("web_scale_troot_tsign").data("b+-LR")
+    assert abs(abs(cm) - math.pi ** 2 / 2) < 1e-9                                               # the sign of the monodromy shifts the invariant by a quarter

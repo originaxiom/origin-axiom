@@ -1,0 +1,30 @@
+{
+ "id": "web-wc2-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-C2 (agy-exp's four theorems that use no data): the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control that must fail, the expectations committed before the work. Borne out by its delivery, which is settled at web-wc2-01 to -06",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:3",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:8",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:14",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:19",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:20",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:21",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:22",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:23",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:24",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:26",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:31",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:35",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:38",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:40",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:41",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:46",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:47",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:51",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:53",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:55",
+  "web:cards/CHAT1_W-C2_the_agy_lanes_four_theorems:60"
+ ]
+}

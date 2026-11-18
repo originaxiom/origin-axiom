@@ -1,0 +1,30 @@
+{
+ "id": "web-r79b-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for the seat's reading for the second round of Review 79 (main's answers to its ten; B1879 and four instruments): the package and the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control (every quotation checked by machine against its file before the push). Borne out by the reading it names",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:3",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:8",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:9",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:10",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:11",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:13",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:14",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:16",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:19",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:25",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:26",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:27",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:29",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:33",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:36",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:39",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:43",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:45",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:47",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:48",
+  "web:cards/CHAT1_W-R79b_main_answers_and_the_instruments:52"
+ ]
+}

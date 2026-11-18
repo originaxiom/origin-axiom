@@ -1,0 +1,25 @@
+{
+ "id": "web-wtau-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the table of candidates. THE MATHEMATICAL CELLS, checked on main: the four in six dimensions (the three parity characters sum to -(15/16) of the trivial line's sum, exactly: 3/64 - 63/64; numerically -0.93750007 at 40 terms), so the four's net term is E(tau, 3)/16 up to sign; Kronecker's constant term at s = 1, -pi log(y |eta|^4) + 2 pi (gamma - log 2), to 1.3e-15 at three points; McShane's sum on the modular torus, 1/2 to 4e-28 over 1,200 geodesics; the shortest geodesic's length 2 arccosh(3/2) = 1.9248; the extrema of the canonical functionals as in the stationarity record. NOT CHECKED by main: that the hexagonal lattice minimises the Epstein sum and the theta function for every s > 0 and t > 0 (cited to Rankin, Cassels, Ennola, Diananda, Montgomery; main checked s = 2 and 3 only); the hyperbolic systole's supremum over all tori (cited to B1816's note); the fitted shape of the quaternion system's six-dimensional term (B1686's 1 per cent fit). THE GRADING ITSELF (which of six demands each candidate fails) is the seat's judgement on the record's own inventories; main has read it in full and records it at P-629 as an inventory: nothing in it contradicts main's record, and its conclusion on tau alone is the foundation's own sentence",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:167",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:168",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:169",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:170",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:171",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:172",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:173",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:174",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:175",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:176",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:177",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:178",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:179",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:182",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:185",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:188"
+ ]
+}

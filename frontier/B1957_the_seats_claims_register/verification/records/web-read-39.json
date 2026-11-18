@@ -1,0 +1,10 @@
+{
+ "id": "web-read-39",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE.md"
+ ]
+}

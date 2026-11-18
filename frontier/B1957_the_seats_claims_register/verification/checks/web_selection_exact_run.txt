@@ -1,0 +1,6 @@
+E1: threads of length 2 to 12: 745; to 16: 8798; to 18: 31040
+E2: on all 31040: a transposition exactly at odd length: True; a 3-cycle exactly at odd trace: True; the classes: {'identity': 6719, '3-cycle': 13531, 'transposition': 10790}
+E2: to length 8, up to the exchange of the letters: 37 threads; 3-cycle (odd trace) 16, transposition (odd length) 13, identity 8
+E3: M(reverse w) = F M(w)^-1 F on 8190 words of length 1 to 12: True
+E4: (b, |a.a| at the least value found, |b|/2g, the least value, -b^2/4g): [(0.0, 0.002, 0.0, 0.0, -0.0), (0.3, 0.152, 0.15, -0.0225, -0.0225), (1.1, 0.545, 0.55, -0.3025, -0.30250000000000005), (1.9, 0.952, 0.95, -0.9025, -0.9025)]
+E5: at omega: half the Hessian of log(y |eta|^4): -0.3333, -0.3333; of E(tau, 3): 8.2825, 8.2825; the ratio: 24.85

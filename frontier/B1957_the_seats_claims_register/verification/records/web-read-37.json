@@ -1,0 +1,21 @@
+{
+ "id": "web-read-37",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md",
+  "relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md",
+  "relays/CHAT1_TO_CC_2026-11-11_M3_RESULTS_IN_THE_WORDS_OF_SECTION_12.md",
+  "relays/cards/CHAT1_W-C2_the_agy_lanes_four_theorems.md",
+  "relays/cards/CHAT1_W-C3_the_sm_seats_items_under_banked_arcs.md",
+  "relays/cards/CHAT1_W-C4_the_agy_lanes_theorems_c_d_e.md",
+  "relays/cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap.md",
+  "relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md",
+  "relays/cards/CHAT1_W-F17_second_computations_for_x_never.md",
+  "relays/cards/CHAT1_W-F24_where_frame_cs_average_loses_the_hierarchy.md",
+  "relays/cards/CHAT1_W-F25_frame_cs_cusp_exponents.md",
+  "relays/cards/CHAT1_cold_read_the_three_part_structure.md"
+ ]
+}

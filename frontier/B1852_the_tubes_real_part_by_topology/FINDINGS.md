@@ -92,3 +92,26 @@ real number is owed (Review 76)". B1847 measured Im τ(Σ₀) = 6.15 ± 0.15 and
   - **Its standing:** it holds in twelve words and is not proved in general (P-740). [Review 77, the reader's count:
     this read "thirteen". The run files hold twelve distinct words: the four of § 1, k = 2 to 5 of the family, and
     the four two-run words.]
+
+## Dated note, 2026-11-18: the per-centre rule is proved (main's own; B1957, register row P-740)
+
+The rule above ("a σ-fixed fibre at the middle of an even run carries the class ≡ I mod 2; one at the middle letter of
+an odd run carries the class ≢ I") stood as observed in twelve words. It holds for every cyclic word in L and R that
+reads the same backwards, by a short argument from the word:
+- With F = diag(−1, 1), F·L·F = L⁻¹ and F·R·F = R⁻¹, so F reverses every palindrome.
+- At a centre between letters, read the word from there: it is a palindrome, the reverser is F, and F ≡ I mod 2.
+- At a centre on a letter x, read the word from x: W = x·P with P a palindrome. The reverser is Z = F·x⁻¹
+  (Z² = I and Z·W·Z⁻¹ = W⁻¹), and Z ≡ x mod 2, which is not the identity.
+- The other centre of the same reading carries Z·W. Modulo 2 the letters are involutions, so a palindrome of even
+  length is the identity and one of odd length is a conjugate of its middle letter: the same two cases.
+
+So the two fixed fibres are in opposite classes exactly when the word's length is odd (one centre between letters, one
+on a letter), both ≡ I when both centres are between letters, and both ≢ I when both are on letters.
+Checked exactly on all 562 such primitive words of length 2 to 14 (104, 238 and 220 readings of the three kinds), with
+the rule's opposite failing, and by a brute-force search of reversers on the 33 words to length 7
+(`frontier/B1957_the_seats_claims_register/verification/checks/web_tube_p740_rule.py`). The web seat's three further
+words, L⁶R(LR)^k at k = 6, 7 and 8 (its note of 2026-11-07, never carried here), are among the cases: each has exactly
+the two reversers ±((−1, 6), (0, 1)) with entries to 14, in opposite classes; and for this family that holds for every
+k, since modulo 2 the word is R·(LR)^k, never the identity.
+What this note does not prove: anything about the value of τ. The step from the class to the real part (0 or ½) is the
+standard fact about a torus with a reflection, as § 1 uses it. Not yet read by a session that did not write it.

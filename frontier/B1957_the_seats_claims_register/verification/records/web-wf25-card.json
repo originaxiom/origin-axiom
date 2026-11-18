@@ -1,0 +1,27 @@
+{
+ "id": "web-wf25-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-F25 (frame C's cusp exponents; not blind, said so): the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control that must fail, the expectations committed before the work. Borne out by its delivery, which is settled at the W-F25 records",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:9",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:10",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:12",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:13",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:16",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:21",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:27",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:28",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:29",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:30",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:35",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:37",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:38",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:39",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:42",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:43",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:44",
+  "web:cards/CHAT1_W-F25_frame_cs_cusp_exponents:45"
+ ]
+}

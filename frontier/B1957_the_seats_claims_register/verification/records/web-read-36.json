@@ -1,0 +1,17 @@
+{
+ "id": "web-read-36",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/REVIEW_79_CHAT1.md",
+  "relays/REVIEW_79B_CHAT1.md",
+  "relays/REVIEW_80_CHAT1.md",
+  "relays/REVIEW_81_CHAT1.md",
+  "relays/cards/CHAT1_W-R79_review_79_seven_arcs.md",
+  "relays/cards/CHAT1_W-R79b_main_answers_and_the_instruments.md",
+  "relays/cards/CHAT1_W-R80_review_80.md",
+  "relays/cards/CHAT1_W-R81_review_81.md"
+ ]
+}

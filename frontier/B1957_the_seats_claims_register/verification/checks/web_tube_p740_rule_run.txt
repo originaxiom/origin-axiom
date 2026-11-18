@@ -1,0 +1,8 @@
+T1: k = 6: reversing involutions with entries to 14: 2, and they are +-((-1, 6), (0, 1)): True; L^3 F L^-3 is that matrix: True; X = 1 mod 2: True; X A = 1 mod 2: False; A = R (LR)^k mod 2 is not 1: True
+T1: k = 7: reversing involutions with entries to 14: 2, and they are +-((-1, 6), (0, 1)): True; L^3 F L^-3 is that matrix: True; X = 1 mod 2: True; X A = 1 mod 2: False; A = R (LR)^k mod 2 is not 1: True
+T1: k = 8: reversing involutions with entries to 14: 2, and they are +-((-1, 6), (0, 1)): True; L^3 F L^-3 is that matrix: True; X = 1 mod 2: True; X A = 1 mod 2: False; A = R (LR)^k mod 2 is not 1: True
+T1: for every k: A mod 2 = R (LR)^k; R^2 = 1 mod 2: True, (LR)^3 = 1 mod 2: True, and R is none of 1, LR, (LR)^2 mod 2: True
+T2: primitive cyclic words of length 2 to 14 with both letters that read the same backwards: 562, with 562 readings; at every centre Z is an involution of determinant -1 reversing W, 1 mod 2 exactly at a centre between letters: True; the other centre's class is that of Z W: True
+T2: the readings by their two centres: {'both between': 104, 'one of each': 238, 'both on': 220} (opposite classes exactly in the middle case)
+T4: the control (the two kinds of centre exchanged): False
+T3: on the 33 such words of length 2 to 7, every reversing involution of determinant -1 with entries to 6 has a class modulo 2 that the proof's centres give: True

@@ -1,0 +1,21 @@
+{
+ "id": "web-thr-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the data-free geometry and algebra under the two sealed tests, on main (checks/web_thread_table.py): a thread's highest point on the modular surface is half the Lagrange value the notes give, for every thread of the two tables (sqrt 5, sqrt 8, sqrt 221/5, sqrt 1517/13, 3.1298, 3.2404, 3.2660, 3.3587, sqrt 12, sqrt 15, sqrt 21, sqrt 32, sqrt 10); there are 69 threads of length 2 to 8, 12 to length 5, six with highest point below 1.5 (the Markov threads LR, LLRR, LLRRLR, LLRLRR, LLRRLRLR, LLRLRLRR), ten above 3 (the ten not admitted) and 31 between 2 and 3; 51 of the 69 read the same backwards or mirrored and 18 do not. The mass-form correction of 2026-10-15 is right: over 200 random cases the singular values of K^(-1/2) Y (K^(-1/2))^T are unchanged by a change of sections (2.5e-13), those of the sealed form are not (they move at order one and more), and the two forms agree when K is real or Y is real (below 1e-15)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:63",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:65",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:162",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:163",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:164",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:165",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:167",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:168",
+  "web:chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME:169",
+  "web:chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW:40",
+  "web:chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW:163",
+  "web:chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW:170"
+ ]
+}

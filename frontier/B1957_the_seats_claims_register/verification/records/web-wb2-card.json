@@ -1,0 +1,30 @@
+{
+ "id": "web-wb2-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-B2 (frame D1's coupling as a triple overlap, covariance first): the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control that must fail, the expectations committed before the work. Borne out by its delivery, which is settled at the W-B2 records",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:6",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:10",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:11",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:14",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:15",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:17",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:20",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:21",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:23",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:24",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:27",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:28",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:29",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:30",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:32",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:33",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:35",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:37",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:38",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:39",
+  "web:cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap:41"
+ ]
+}

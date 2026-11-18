@@ -318,6 +318,36 @@ noted, and none is pending.
     lock reads by paragraph and looks for the walk's own words, and both locks read the same root pages. Two things
     stand as the seat left them, by main's stated choice: the walk still prints its withdrawn outcome when run, and
     both locks exempt the programme page's folder.
+- **The web seat's four review readings (Reviews 79, 79b, 80, 81) and their cards, read in full.** They found 31
+  faults in main's own arcs, locks and governing pages: claims wider than what was computed, corrections that had not
+  travelled to the other pages that state the same thing, seven tests in main's suite that could not fail, a mend
+  of main's that tested nothing, a lock line that passed whatever the page said. Main held every one against today's
+  tree: each was right, and 28 are mended on the pages. **Three remain open in main's gates** (the retraction sweep
+  counts a cue word anywhere on the line; the controls gate's reading of a module-level skip; the vacuity gate's
+  request to shorten its table is lost when the whole table is mended). They were handed to the builder on
+  2026-11-12 and wait there (P-820, P-833).
+- **The tube's value, and a proof that came out of an unharvested ask.** The seat's firmed value of the metric's own τ
+  at the tube, 0 + 6.06530(6)i, stays the seat's: main redid its extrapolation arithmetic from the printed members
+  and has not computed the members beyond k = 2 (P-739 stands). The note's third ask of 2026-11-07, three more words
+  for B1852's even-run pattern, had never been carried to the register. Taken up now, it gave a proof:
+  **the per-centre rule holds for every cyclic word that reads the same backwards** (modulo 2 the letters are
+  involutions; the reverser is F at a centre between letters and F·x⁻¹ at a centre on a letter x). Checked exactly on
+  all 562 such words to length 14 (`checks/web_tube_p740_rule.py`). P-740 is closed; B1852 carries the proof. It is
+  main's own and has not been read by a session that did not write it.
+- **Two readings with nothing computed, held at their sources.** That R2's exact block is a pure number on the
+  record (its quotations of main's record and of Córdova and Jafferis are exact; a reader checked the paper's text
+  today), and the grading of the record's candidates for the weave's own action on τ (2026-11-10, which main's harvest
+  row had left "to be read in full"): every smooth invariant function is stationary at i and ω (two lines, checked,
+  with the kinds of the critical points computed), and off those points every minimum on record is placed by a
+  chosen content, ratio, weight or convention. Recorded at P-629.
+- **The October folders on the selection principle and on the scale.** Their exact, data-free parts are rebuilt on
+  main: the orbit-space theorem; a thread's class modulo 2 on all 31,040 threads; the heights as half the Lagrange
+  values; and all three sealed checks of the scale folder run again on main's own scripts with every cell and every
+  read-out reproducing (690 of 745 threads see the quantised level; the root's share of the weave at c = 6 is 0.27,
+  0.50 or 0.66 by the word weight; the sign of the monodromy shifts the Chern–Simons invariant by a quarter, which
+  main had registered and not recomputed). **Not recomputed:** the thread frame's mass ratios and the height law,
+  which rest on a hypothesis the seat names and were superseded in the programme; they stand as partial, as in
+  October. Where those notes set an output beside a measured value, main read and compares nothing.
 - **The web seat's foundations cards, received on 2026-11-14 and never read in full by main, are now read and
   recomputed on main's own code** (W-F1 to W-F16, W-F18 to W-F23, W-F26, W-B1, with their cards; scripts
   `checks/web_wf*_on_main.py`, `web_wb1_on_main.py`; other primes than the seat's). **Every computed figure of the seat's

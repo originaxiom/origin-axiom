@@ -9,9 +9,9 @@
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
 | physical | 136 | 23 | 10952 | 183 | 0 | 145 | 6 | 37 | 7790 | **2791** |
-| web | 136 | 87 | 6491 | 1442 | 0 | 0 | 217 | 20 | 2241 | **2571** |
+| web | 136 | 120 | 6491 | 1702 | 0 | 0 | 383 | 55 | 3631 | **720** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 405 | 160 | 20644 | 2170 | 12 | 234 | 362 | 57 | 10406 | **7403** |
+| **all** | 405 | 193 | 20644 | 2430 | 12 | 234 | 528 | 92 | 11796 | **5552** |
 
 ## By file
 
@@ -285,11 +285,11 @@
 | web | `docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | no | 18 | 0 | **18** |
 | web | `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | no | 48 | 0 | **48** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | no | 6 | 0 | **6** |
-| web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | no | 48 | 0 | **48** |
-| web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | no | 96 | 0 | **96** |
+| web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-10_THE_CONTENT_IN_WEAVE_FORM.md` | yes | 126 | 126 | **0** |
-| web | `relays/CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU.md` | no | 138 | 0 | **138** |
-| web | `relays/CHAT1_TO_CC_2026-11-11_M3_RESULTS_IN_THE_WORDS_OF_SECTION_12.md` | no | 36 | 0 | **36** |
+| web | `relays/CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU.md` | yes | 138 | 138 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-11-11_M3_RESULTS_IN_THE_WORDS_OF_SECTION_12.md` | yes | 36 | 36 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md` | yes | 64 | 64 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2.md` | yes | 75 | 75 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md` | yes | 62 | 62 | **0** |
@@ -340,21 +340,21 @@
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 54 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 189 | 189 | **0** |
-| web | `relays/REVIEW_79B_CHAT1.md` | no | 49 | 0 | **49** |
-| web | `relays/REVIEW_79_CHAT1.md` | no | 61 | 0 | **61** |
-| web | `relays/REVIEW_80_CHAT1.md` | no | 99 | 0 | **99** |
-| web | `relays/REVIEW_81_CHAT1.md` | no | 62 | 0 | **62** |
+| web | `relays/REVIEW_79B_CHAT1.md` | yes | 49 | 49 | **0** |
+| web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
+| web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
+| web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
 | web | `relays/STATUS_CHAT1.md` | yes | 407 | 407 | **0** |
-| web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | no | 18 | 0 | **18** |
+| web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
 | web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | yes | 69 | 69 | **0** |
 | web | `relays/cards/CHAT1_W-B1_frame_d_and_b1936s_premise.md` | yes | 19 | 19 | **0** |
-| web | `relays/cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap.md` | no | 21 | 0 | **21** |
+| web | `relays/cards/CHAT1_W-B2_frame_d1s_coupling_as_a_triple_overlap.md` | yes | 21 | 21 | **0** |
 | web | `relays/cards/CHAT1_W-C1_reaudit_of_E7_and_E2.md` | yes | 18 | 18 | **0** |
-| web | `relays/cards/CHAT1_W-C2_the_agy_lanes_four_theorems.md` | no | 21 | 0 | **21** |
-| web | `relays/cards/CHAT1_W-C3_the_sm_seats_items_under_banked_arcs.md` | no | 36 | 0 | **36** |
-| web | `relays/cards/CHAT1_W-C4_the_agy_lanes_theorems_c_d_e.md` | no | 30 | 0 | **30** |
+| web | `relays/cards/CHAT1_W-C2_the_agy_lanes_four_theorems.md` | yes | 21 | 21 | **0** |
+| web | `relays/cards/CHAT1_W-C3_the_sm_seats_items_under_banked_arcs.md` | yes | 36 | 36 | **0** |
+| web | `relays/cards/CHAT1_W-C4_the_agy_lanes_theorems_c_d_e.md` | yes | 30 | 30 | **0** |
 | web | `relays/cards/CHAT1_W-C5_b1914_b1915_and_the_cusp.md` | yes | 15 | 15 | **0** |
 | web | `relays/cards/CHAT1_W-C6_a_cold_reading_and_b1919_b1921.md` | yes | 11 | 11 | **0** |
 | web | `relays/cards/CHAT1_W-C7_three_negatives_b1913_run_the_rest_held.md` | yes | 10 | 10 | **0** |
@@ -366,7 +366,7 @@
 | web | `relays/cards/CHAT1_W-F14_m25_the_global_bit.md` | yes | 7 | 7 | **0** |
 | web | `relays/cards/CHAT1_W-F15_the_principle_doing_its_job.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-F16_the_two_way_choices_settle_each_other.md` | yes | 22 | 22 | **0** |
-| web | `relays/cards/CHAT1_W-F17_second_computations_for_x_never.md` | no | 11 | 0 | **11** |
+| web | `relays/cards/CHAT1_W-F17_second_computations_for_x_never.md` | yes | 11 | 11 | **0** |
 | web | `relays/cards/CHAT1_W-F18_cold_read_of_the_big_runs_rule.md` | yes | 14 | 14 | **0** |
 | web | `relays/cards/CHAT1_W-F19_a_proof_of_the_odd_level_class_index.md` | yes | 22 | 22 | **0** |
 | web | `relays/cards/CHAT1_W-F1_the_distinction_layer_and_the_hand_at_the_common_point.md` | yes | 21 | 21 | **0** |
@@ -374,8 +374,8 @@
 | web | `relays/cards/CHAT1_W-F21_cold_read_of_the_rules_version_2.md` | yes | 12 | 12 | **0** |
 | web | `relays/cards/CHAT1_W-F22_b1922s_negative_half.md` | yes | 13 | 13 | **0** |
 | web | `relays/cards/CHAT1_W-F23_cold_read_of_the_rules_amendments.md` | yes | 9 | 9 | **0** |
-| web | `relays/cards/CHAT1_W-F24_where_frame_cs_average_loses_the_hierarchy.md` | no | 25 | 0 | **25** |
-| web | `relays/cards/CHAT1_W-F25_frame_cs_cusp_exponents.md` | no | 18 | 0 | **18** |
+| web | `relays/cards/CHAT1_W-F24_where_frame_cs_average_loses_the_hierarchy.md` | yes | 25 | 25 | **0** |
+| web | `relays/cards/CHAT1_W-F25_frame_cs_cusp_exponents.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-F26_the_cusps_mixing_in_every_option.md` | yes | 12 | 12 | **0** |
 | web | `relays/cards/CHAT1_W-F2_mirrors_or_half_turns_and_what_the_record_holds.md` | yes | 10 | 10 | **0** |
 | web | `relays/cards/CHAT1_W-F3_the_cone_point_loophole.md` | yes | 8 | 8 | **0** |
@@ -386,26 +386,26 @@
 | web | `relays/cards/CHAT1_W-F8_three_distinctions_against_n.md` | yes | 12 | 12 | **0** |
 | web | `relays/cards/CHAT1_W-F9_the_order_at_the_scar.md` | yes | 11 | 11 | **0** |
 | web | `relays/cards/CHAT1_W-L1_the_look_at_tau_i.md` | yes | 26 | 26 | **0** |
-| web | `relays/cards/CHAT1_W-R79_review_79_seven_arcs.md` | no | 14 | 0 | **14** |
-| web | `relays/cards/CHAT1_W-R79b_main_answers_and_the_instruments.md` | no | 21 | 0 | **21** |
-| web | `relays/cards/CHAT1_W-R80_review_80.md` | no | 38 | 0 | **38** |
-| web | `relays/cards/CHAT1_W-R81_review_81.md` | no | 28 | 0 | **28** |
+| web | `relays/cards/CHAT1_W-R79_review_79_seven_arcs.md` | yes | 14 | 14 | **0** |
+| web | `relays/cards/CHAT1_W-R79b_main_answers_and_the_instruments.md` | yes | 21 | 21 | **0** |
+| web | `relays/cards/CHAT1_W-R80_review_80.md` | yes | 38 | 38 | **0** |
+| web | `relays/cards/CHAT1_W-R81_review_81.md` | yes | 28 | 28 | **0** |
 | web | `relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md` | yes | 11 | 11 | **0** |
-| web | `relays/cards/CHAT1_cold_read_the_three_part_structure.md` | no | 8 | 0 | **8** |
-| web | `relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md` | no | 113 | 0 | **113** |
-| web | `relays/chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME.md` | no | 92 | 0 | **92** |
-| web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md` | no | 28 | 0 | **28** |
-| web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_THREAD_FRAME.md` | no | 59 | 0 | **59** |
-| web | `relays/chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE.md` | no | 233 | 0 | **233** |
+| web | `relays/cards/CHAT1_cold_read_the_three_part_structure.md` | yes | 8 | 8 | **0** |
+| web | `relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md` | yes | 113 | 113 | **0** |
+| web | `relays/chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME.md` | yes | 92 | 92 | **0** |
+| web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md` | yes | 28 | 28 | **0** |
+| web | `relays/chat1_2026-10-14_selection/PREREGISTRATION_THREAD_FRAME.md` | yes | 59 | 59 | **0** |
+| web | `relays/chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE.md` | yes | 233 | 233 | **0** |
 | web | `relays/chat1_2026-10-14_the_first_row/FINDINGS.md` | no | 87 | 0 | **87** |
 | web | `relays/chat1_2026-10-14_the_first_row/PREREGISTRATION.md` | no | 78 | 0 | **78** |
-| web | `relays/chat1_2026-10-14_the_scale/FINDINGS.md` | no | 62 | 0 | **62** |
-| web | `relays/chat1_2026-10-14_the_scale/PREREGISTRATION.md` | no | 53 | 0 | **53** |
-| web | `relays/chat1_2026-10-14_the_scale/THE_SCALE.md` | no | 205 | 0 | **205** |
-| web | `relays/chat1_2026-10-14_the_scale/T_ROOT_FINDINGS.md` | no | 53 | 0 | **53** |
-| web | `relays/chat1_2026-10-14_the_scale/T_ROOT_PREREGISTRATION.md` | no | 44 | 0 | **44** |
-| web | `relays/chat1_2026-10-14_the_scale/T_SIGN_FINDINGS.md` | no | 18 | 0 | **18** |
-| web | `relays/chat1_2026-10-14_the_scale/T_SIGN_PREREGISTRATION.md` | no | 13 | 0 | **13** |
+| web | `relays/chat1_2026-10-14_the_scale/FINDINGS.md` | yes | 62 | 62 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/PREREGISTRATION.md` | yes | 53 | 53 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/THE_SCALE.md` | yes | 205 | 205 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/T_ROOT_FINDINGS.md` | yes | 53 | 53 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/T_ROOT_PREREGISTRATION.md` | yes | 44 | 44 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/T_SIGN_FINDINGS.md` | yes | 18 | 18 | **0** |
+| web | `relays/chat1_2026-10-14_the_scale/T_SIGN_PREREGISTRATION.md` | yes | 13 | 13 | **0** |
 | web | `relays/chat1_2026-10-22_selection_map/THREADS_WITH_INGREDIENTS_RULE.md` | no | 36 | 0 | **36** |
 | web | `relays/chat1_2026-10-23_framing/THE_FRAMING_CHECK.md` | no | 80 | 0 | **80** |
 | web | `relays/chat1_2026-10-23_tick_line/DISCLOSURES_BEFORE_READING.md` | no | 5 | 0 | **5** |

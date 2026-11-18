@@ -1,0 +1,6 @@
+A1: from the printed members: D6 = -2.450e-05, D7 = -5.100e-06 (the note's -2.4475e-05 and -5.1086e-06, to the members' seven decimals); the ratios from the printed steps: D6/D5 = 0.20867, D7/D6 = 0.20873 (the note's 0.20867 and 0.20872)
+A2: Aitken on k = 6, 7, 8 (printed steps): 6.0652632 (the note's 6.065263178; the sealed estimate's centre 6.065263777 is 6.2e-07 above)
+A3: k = 1: step ratio 3.9162; Richardson at n <= 5: 6.1491964; at n <= 4: 6.1491551; the shift +4.133e-05
+A3: k = 8: step ratio 3.9155; Richardson at n <= 5: 6.0653063; at n <= 4: 6.0652645; the shift +4.173e-05
+A3: the note's 3.916 and 6.1491965 with +4.14e-05 at k = 1; 3.915 and 6.0653063 with +4.18e-05 at k = 8; the two shifts differ by 4.0e-07 (its 3.5e-07, from unrounded members)
+A4: the firmed value: 6.065263178 + 4.175e-05 = 6.0653049 (the note's 6.0653049); the k part of its error, |limit - v8| = 1.32e-06 (its 1.35e-06); against main's B1854: k = 1 by this note 6.14920, main's calibration 6.1491

@@ -1,0 +1,14 @@
+{
+ "id": "web-r81-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its five findings, each held against today's tree: right, and mended at Review 81. (1) B1898's cell for agy-exp read '15 of 15' against its own recount's 14: it reads '14 of 14'. (2) The status file's row 18 named a recount at a commit its probe had not counted at: corrected, with the reader's figures confirmed by main by git (1,407; 1,522; 1,537). (3) The register's row P-670 gave 5.8e-33 where the run holds 5.8e-31: it reads 5.8e-31. (4) B1892's '52 findings' had not followed its own table's correction to 53: corrected in both places. (5) B1898 said the checks' outputs are in its folder and that 80 findings were checked in full: 29 of them left no output, and both pages now say so and list them",
+ "note": "This reading was made against a branch in which main had planted faults; the seat did not know which. Whether any of the five was a plant is in Review 81's own record; all five are real statements on main's pages that were wrong as they stood.",
+ "units": [
+  "web:REVIEW_81_CHAT1:36",
+  "web:REVIEW_81_CHAT1:37",
+  "web:REVIEW_81_CHAT1:38",
+  "web:REVIEW_81_CHAT1:39",
+  "web:REVIEW_81_CHAT1:40"
+ ]
+}

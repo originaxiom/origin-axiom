@@ -1,0 +1,8 @@
+S1, S2: log(y |eta|^4): i: |grad| 6.5e-11, Hessian eigenvalues ['-1.2982', '0.2982']; omega: |grad| 1.7e-11, Hessian eigenvalues ['-0.6667', '-0.6667']; a generic point: |grad| 2.1e-01, Hessian eigenvalues ['-0.7344', '0.0548']
+S1, S2: E(tau, 3): i: |grad| 1.8e-09, Hessian eigenvalues ['-7.2808', '35.2343']; omega: |grad| 5.1e-10, Hessian eigenvalues ['16.5650', '16.5650']; a generic point: |grad| 6.1e+00, Hessian eigenvalues ['-1.2077', '22.9041']
+S1, S2: E(tau, 2): i: |grad| 7.7e-10, Hessian eigenvalues ['-3.4268', '15.4804']; omega: |grad| 2.1e-10, Hessian eigenvalues ['7.7111', '7.7111']; a generic point: |grad| 2.6e+00, Hessian eigenvalues ['-0.6082', '9.1886']
+S2: E(tau, 3) at i, at omega, at 2i, at 4i: ['4.6589136', '4.1412565', '16.888562', '130.37261'] (the least at omega, growing to the cusp)
+S3: the constant term at s = 1 against -pi log(y |eta|^4) + 2 pi (gamma - log 2), at i, omega and a generic point: largest difference 1.3e-15 (the Fourier form against the direct sum at s = 3: 8.9e-08)
+S4: the three parity characters' sum over the trivial sum at s = 3: -0.937500074349 (-15/16 = -0.9375); exactly: sum of the three characters is 3 on the even sublattice and -1 off it, and the even sublattice carries 2^-6 of the sum, so 3/64 - (1 - 1/64) = -60/64
+S5: McShane's sum over the simple closed geodesics of the modular torus (Markoff numbers to 1e14, 1200 geodesics): 0.5 (the theorem: 1/2; one half minus the sum: 4.3e-28)
+S6: the shortest geodesics have trace 3: length 2 arccosh(3/2) = 1.92484730024

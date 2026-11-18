@@ -1,0 +1,16 @@
+{
+ "id": "web-read-41",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/chat1_2026-10-14_the_scale/THE_SCALE.md",
+  "relays/chat1_2026-10-14_the_scale/FINDINGS.md",
+  "relays/chat1_2026-10-14_the_scale/PREREGISTRATION.md",
+  "relays/chat1_2026-10-14_the_scale/T_ROOT_FINDINGS.md",
+  "relays/chat1_2026-10-14_the_scale/T_ROOT_PREREGISTRATION.md",
+  "relays/chat1_2026-10-14_the_scale/T_SIGN_FINDINGS.md",
+  "relays/chat1_2026-10-14_the_scale/T_SIGN_PREREGISTRATION.md"
+ ]
+}

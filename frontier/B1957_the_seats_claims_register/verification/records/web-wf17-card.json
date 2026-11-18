@@ -1,0 +1,20 @@
+{
+ "id": "web-wf17-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for W-F17 (second computations for four items computed nowhere yet): the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control that must fail, the expectations committed before the work. Borne out by its delivery, which is settled at web-wf17-01 to -08",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:7",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:12",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:16",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:18",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:20",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:21",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:28",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:29",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:31",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:33",
+  "web:cards/CHAT1_W-F17_second_computations_for_x_never:37"
+ ]
+}

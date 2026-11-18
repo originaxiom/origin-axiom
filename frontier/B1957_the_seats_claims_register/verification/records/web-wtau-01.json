@@ -1,0 +1,15 @@
+{
+ "id": "web-wtau-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the note's mathematics, checked on main (checks/web_weave_action_on_tau.py). Its section 3 is proved there in two lines and the proof holds: an invariant C^1 function has a differential fixed by a rotation of order 2 at i and of order 3 at omega, and a linear form fixed by a non-trivial rotation is zero. Numerically, for log(y |eta|^4), E(tau, 3) and E(tau, 2): the gradient is below 2e-9 at i and omega and of order 0.2 to 6 at a generic point; y |eta|^4 has a saddle at i (Hessian -1.298, 0.298) and its maximum at omega (-0.667 twice); E(tau, 3) and E(tau, 2) have a saddle at i and their minimum at omega and grow to the cusp (4.659, 4.141, 16.89, 130.4 at i, omega, 2i, 4i). The mirror-line consequence and the torsion-free remark for lines of order 4 or more are by hand from the same argument (B1809's lemma is main's)",
+ "note": "",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:143",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:146",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:149",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:150",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:156",
+  "web:CHAT1_TO_CC_2026-11-10_THE_WEAVES_OWN_ACTION_ON_TAU:159"
+ ]
+}

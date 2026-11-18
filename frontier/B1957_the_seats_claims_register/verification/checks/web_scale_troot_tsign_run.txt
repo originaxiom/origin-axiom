@@ -1,0 +1,13 @@
+T-ROOT: threads 31040; all geometric: True; chiral 30526, not chiral 514
+T-ROOT: weight (A) at c = 6: root share 0.2737, chiral share 0.659, effective number of threads 32.4; root share at c = 0: 0.12; c at which the root holds 0.5: 19.1; 0.99: 137.6
+T-ROOT: weight (B) at c = 6: root share 0.5019, chiral share 0.457, effective number of threads 6.6; root share at c = 0: 0.40; c at which the root holds 0.5: 5.9; 0.99: 125.3
+T-ROOT: weight (C) at c = 6: root share 0.6601, chiral share 0.312, effective number of threads 4.7; root share at c = 0: 0.53; c at which the root holds 0.5: 0.0; 0.99: 105.3
+T-ROOT: c = 2: (root share, chiral share, effective number) under (A), (B), (C): [(0.1757, 0.7455, 135.58), (0.4359, 0.5093, 9.48), (0.5843, 0.3753, 8.21)]
+T-ROOT: c = 24: (root share, chiral share, effective number) under (A), (B), (C): [(0.5636, 0.4169, 5.16), (0.709, 0.2807, 2.97), (0.8295, 0.1645, 2.11)]
+T-ROOT: c = 64: (root share, chiral share, effective number) under (A), (B), (C): [(0.8746, 0.1246, 1.74), (0.9194, 0.0802, 1.45), (0.958, 0.0418, 1.25)]
+T-ROOT: c = 128: (root share, chiral share, effective number) under (A), (B), (C): [(0.9861, 0.0139, 1.09), (0.9909, 0.0091, 1.06), (0.9954, 0.0046, 1.03)]
+T-ROOT: c = 256: (root share, chiral share, effective number) under (A), (B), (C): [(0.9998, 0.0002, 1.0), (0.9999, 0.0001, 1.0), (0.9999, 0.0001, 1.0)]
+T-ROOT: under (B) at c = 6 the sum Z is 0.1160; the c at which the root holds 0.9: 70.7 under (A), 57.5 under (B), 39.2 under (C)
+T-ROOT: the heaviest threads at c = 6 under (A): [('LR', 0.274), ('LLR', 0.112), ('LRR', 0.112), ('LLLR', 0.05), ('LRRR', 0.05), ('LLRR', 0.041)]; the level's footprint at k = 1 to 4: [0.076, 0.264, 0.481, 0.659]
+T-SIGN: b+-LR is ['m003(0,0)', 'otet02_00000(0,0)']; its |CS| 4.934802 (pi^2/2 = 4.934802)
+T-SIGN: swap-symmetric words to length 14: 120, with CS(-W) = +-pi^2/2 on 120; words to length 10: 224, with the sign shifting CS by pi^2/2 on 224; the volumes of W and -W differ by at most 2.2e-14

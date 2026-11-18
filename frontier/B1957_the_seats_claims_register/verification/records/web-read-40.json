@@ -1,0 +1,13 @@
+{
+ "id": "web-read-40",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "each read by main in full at the seat's head e6fa140ca",
+ "files": [
+  "relays/chat1_2026-10-14_selection/FINDINGS_THREAD_FRAME.md",
+  "relays/chat1_2026-10-14_selection/FINDINGS_LAGRANGE_LAW.md",
+  "relays/chat1_2026-10-14_selection/PREREGISTRATION_THREAD_FRAME.md",
+  "relays/chat1_2026-10-14_selection/PREREGISTRATION_LAGRANGE_LAW.md"
+ ]
+}

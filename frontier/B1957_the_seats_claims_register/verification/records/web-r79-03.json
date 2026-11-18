@@ -1,0 +1,28 @@
+{
+ "id": "web-r79-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "its notes that are not findings, and what became of each: B1883's milestone rows overlap (stands; they are B1861's definitions); quotations of the author in pages dated 2026-11-11 (put to him and ruled since: P-825, and the foundation's version 1.67 puts them in plain words); B1880 keeps a known limit as a test; the protocol named one check two ways and asked for a verdict where it defines a result (the seats' README now says 'recomputed independently' throughout; main's grep today finds neither old phrase); B1853 and B1872 left because they judge the seat's work; B1675's change read and found right",
+ "note": "",
+ "units": [
+  "web:REVIEW_79_CHAT1:30",
+  "web:REVIEW_79_CHAT1:33",
+  "web:REVIEW_79_CHAT1:35",
+  "web:REVIEW_79_CHAT1:36",
+  "web:REVIEW_79_CHAT1:37",
+  "web:REVIEW_79_CHAT1:38",
+  "web:REVIEW_79_CHAT1:39",
+  "web:REVIEW_79_CHAT1:42",
+  "web:REVIEW_79_CHAT1:44",
+  "web:REVIEW_79_CHAT1:73",
+  "web:REVIEW_79_CHAT1:75",
+  "web:REVIEW_79_CHAT1:77",
+  "web:REVIEW_79_CHAT1:78",
+  "web:REVIEW_79_CHAT1:80",
+  "web:REVIEW_79_CHAT1:81",
+  "web:REVIEW_79_CHAT1:83",
+  "web:REVIEW_79_CHAT1:85",
+  "web:REVIEW_79_CHAT1:87",
+  "web:REVIEW_79_CHAT1:72"
+ ]
+}

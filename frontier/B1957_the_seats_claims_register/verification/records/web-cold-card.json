@@ -1,0 +1,17 @@
+{
+ "id": "web-cold-card",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the card for the cold read of the three-part public structure (no computation): the question, what will be delivered, how it could come out wrong, what it rests on and must not touch, the control that must fail, the expectations committed before the work. Borne out by its delivery, which is settled at web-rv-*",
+ "note": "",
+ "units": [
+  "web:cards/CHAT1_cold_read_the_three_part_structure:3",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:8",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:15",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:20",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:22",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:27",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:30",
+  "web:cards/CHAT1_cold_read_the_three_part_structure:34"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "web-r79b-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what it read and how; that B1881 and B1885 were left because they judge the seat's work; what could not be checked and why (B1882's new lock read and not run; digits the mask hides; scripts not rerun); two disclosures of unmasked text, neither used",
+ "note": "",
+ "units": [
+  "web:REVIEW_79B_CHAT1:3",
+  "web:REVIEW_79B_CHAT1:12",
+  "web:REVIEW_79B_CHAT1:88",
+  "web:REVIEW_79B_CHAT1:90",
+  "web:REVIEW_79B_CHAT1:91",
+  "web:REVIEW_79B_CHAT1:92",
+  "web:REVIEW_79B_CHAT1:95",
+  "web:REVIEW_79B_CHAT1:96",
+  "web:REVIEW_79B_CHAT1:98",
+  "web:REVIEW_79B_CHAT1:100",
+  "web:REVIEW_79B_CHAT1:103",
+  "web:REVIEW_79B_CHAT1:104",
+  "web:REVIEW_79B_CHAT1:106",
+  "web:REVIEW_79B_CHAT1:109",
+  "web:REVIEW_79B_CHAT1:111"
+ ]
+}

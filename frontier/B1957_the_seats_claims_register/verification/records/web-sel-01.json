@@ -1,0 +1,29 @@
+{
+ "id": "web-sel-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the report's exact, data-free parts, on main (checks/web_selection_exact.py). The orbit-space theorem of its section 2a: the invariants of SO(3) x U(1) on C^3 of degree at most 4 are |a|^2, |a|^4 and |a.a|^2 (two real vectors under SO(3) have no determinant invariant, and a.a has charge 2), so on a sphere V is linear in x = |a.a|^2/|a|^4 and its minima are at the ends; with a term Re(b a.a) the minimum sits at |a.a|/|a|^2 = |b|/(2 gamma |a|^2), by completing the square and by a search over 10^5 random points at four values of b (0.152 for 0.15, 0.545 for 0.55, 0.952 for 0.95, and the least values -b^2/4 gamma). The residual act of its section 4b: modulo 2 a thread acts on the three half-periods as a transposition exactly at odd length and as a 3-cycle exactly at odd trace, on all 31,040 threads to length 18; to length 8 up to the exchange of the letters the classes number 16, 13 and 8. The reversal identity M(reverse w) = F M(w)^-1 F on 8,190 words (main's own B1456). The two curvatures at omega it quotes, -1/3 and +8.28, and their ratio 24.85",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:120",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:121",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:123",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:125",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:126",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:127",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:130",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:131",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:133",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:136",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:173",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:214",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:243",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:244",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:245",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:247",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:252",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:253",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:254",
+  "web:chat1_2026-10-14_selection/THE_SELECTION_PRINCIPLE:256"
+ ]
+}
