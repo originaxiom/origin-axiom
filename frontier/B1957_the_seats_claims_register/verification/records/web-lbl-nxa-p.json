@@ -1,0 +1,12 @@
+{
+ "id": "web-lbl-nxa-p",
+ "date": "2026-11-19",
+ "verdict": "PARTIAL",
+ "how": "main read THE_NEXT_ATTACK.md line by line (harvest rows 1970, 1971); main holds part of each: the lock B1745 holds on main's own code covers the line's formula (|V_cb| = |kappa_u - kappa_d| under the null Higgs; the light tilt's linearity; the idealised channel's zero), and the line says more than its lock",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:68",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:80",
+  "web:chat1_2026-10-23_attack/THE_NEXT_ATTACK:94"
+ ]
+}

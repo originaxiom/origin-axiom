@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "VERIFIED",
  "how": "MOVED here 2026-11-19 from web-old-02 at the seat's section 28.4 (c): THE CHANNEL NORMS' PAIR SUMS's kernel lemma (every channel kernel a twisted Kronecker kernel of the summed twist; P-524) and its exponent law (E(c1 - c_i) = half of the distance of 3 alpha to the integers, E(c_j - c_k) = 1/4 minus that; P-559), both derived and checked on main's code in B1832 (a hostile referee's reading of the written derivation is still owed under P-524)",
- "note": "",
+ "note": "CORRECTED 2026-11-19 (harvest row 1971; the seat's section 30.2 (c)): the exponent law's ground is B1832's check2_p559_exponents (its output: E(c1 - c_i) = ||3 alpha|| in B1788's convention, a modulus ~ exp(-E 2 pi Im tau), measured 0.2000 at alpha = 2/5), so unit 50's E_B1788(c1 - c_i) = ||3 alpha|| holds and the seat's line 260 states B1788's convention rightly. B1832's FINDINGS (line 72) misstated the convention by a factor 2 and is corrected there.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:110",
   "web:CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES:134",

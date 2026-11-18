@@ -3,7 +3,7 @@
  "date": "2026-11-19",
  "verdict": "CONDITIONAL",
  "how": "main read THE_ZERO_FREE_READING.md line by line (harvest row 1970); these are the seat's own claims, readings and runs, which main has not verified: they stay CONDITIONAL (the file was recorded in its day as read only at its headline, scope or in part, or read in full with nothing re-run on main)",
- "note": "",
+ "note": "JUDGED 2026-11-19 (harvest row 1971; the seat's section 29.3 as read): the zero-free reading's PF1-W is superseded as a candidate (P-267 DONE: B1732 NEGATIVE as sealed); its lines state the reading and what would follow under it, which stay conditional statements; none is verified on main.",
  "units": [
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:15",
   "web:chat1_2026-10-21_zero_free/THE_ZERO_FREE_READING:17",

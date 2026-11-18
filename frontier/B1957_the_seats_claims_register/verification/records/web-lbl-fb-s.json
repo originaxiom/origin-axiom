@@ -1,0 +1,10 @@
+{
+ "id": "web-lbl-fb-s",
+ "date": "2026-11-19",
+ "verdict": "SUPERSEDED",
+ "how": "main read the first background's FINDINGS line by line (harvest rows 1970, 1971): the first background's line 61, its length reading ('level 3 is what the short words do'), withdrawn by the file's own dated note (its lines 3 to 7, from the SM seat's W86) and by row 899's S129 bracket: main's B1439 decides the open roots against it (harvest row 1971)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-06_first_background/FINDINGS:61"
+ ]
+}

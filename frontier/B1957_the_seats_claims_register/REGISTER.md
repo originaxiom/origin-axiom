@@ -11,11 +11,11 @@
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
 | physical | 187 | 184 | 12354 | 967 | 0 | 1448 | 280 | 46 | 9613 | **0** |
-| web | 153 | 153 | 9736 | 2240 | 3 | 1058 | 808 | 59 | 5568 | **0** |
+| web | 154 | 154 | 9787 | 2261 | 3 | 1068 | 812 | 60 | 5583 | **0** |
 | agy-audit | 5 | 5 | 165 | 12 | 0 | 37 | 32 | 0 | 84 | **0** |
 | sm | 21 | 16 | 6455 | 366 | 4 | 3935 | 219 | 0 | 1931 | **0** |
 | agy-002-sync | 39 | 39 | 1064 | 139 | 2 | 156 | 5 | 600 | 162 | **0** |
-| **all** | 592 | 529 | 35114 | 4238 | 29 | 7498 | 2181 | 765 | 20403 | **0** |
+| **all** | 593 | 530 | 35165 | 4259 | 29 | 7508 | 2185 | 766 | 20418 | **0** |
 
 ## By file
 
@@ -398,6 +398,7 @@
 | web | `61a0684e0:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
 | web | `61a0684e0:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
+| web | `relays/CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.md` | yes | 51 | 51 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-30_DOOR_D_SEVERAL_POINTS_OF_ONE_HISTORY.md` | yes | 100 | 100 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md` | yes | 223 | 223 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-03_THE_RELATIONS_THE_FRAME_FORCES.md` | yes | 115 | 115 | **0** |

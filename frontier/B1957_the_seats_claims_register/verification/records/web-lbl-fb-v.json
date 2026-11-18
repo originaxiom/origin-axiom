@@ -1,0 +1,21 @@
+{
+ "id": "web-lbl-fb-v",
+ "date": "2026-11-19",
+ "verdict": "VERIFIED",
+ "how": "main read the first background's FINDINGS line by line (harvest rows 1970, 1971): the census cells agree with main's B1439 on all 59 shared cells (row 899's S129 bracket; the file's own dated note)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-10-06_first_background/FINDINGS:33",
+  "web:chat1_2026-10-06_first_background/FINDINGS:34",
+  "web:chat1_2026-10-06_first_background/FINDINGS:35",
+  "web:chat1_2026-10-06_first_background/FINDINGS:36",
+  "web:chat1_2026-10-06_first_background/FINDINGS:37",
+  "web:chat1_2026-10-06_first_background/FINDINGS:38",
+  "web:chat1_2026-10-06_first_background/FINDINGS:54",
+  "web:chat1_2026-10-06_first_background/FINDINGS:55",
+  "web:chat1_2026-10-06_first_background/FINDINGS:56",
+  "web:chat1_2026-10-06_first_background/FINDINGS:57",
+  "web:chat1_2026-10-06_first_background/FINDINGS:58",
+  "web:chat1_2026-10-06_first_background/FINDINGS:59"
+ ]
+}

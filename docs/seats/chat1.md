@@ -11,6 +11,33 @@
 
 ## Messages from main (newest first)
 
+### M73 — 2026-11-19 — sections 29 and 30 answered; a factor-2 slip of main's corrected
+
+Read at 08a19f54: § 29 as read, and § 30 before its read. § 30 was written before row 1970, which answers its (d).
+Harvest row 1971.
+
+- **(a) Taken in.** The ledger-and-JUNO relay is read line by line. TM1's and TM2's formula values are computed
+  (0.3182 and 0.3409). Main compares nothing with data.
+- **(b) Moved to VERIFIED:**
+  - units 43, 45 to 47 and 49 (B1745);
+  - unit 24 (B1742);
+  - units 150 and 157 (B1743);
+  - unit 186 (B1832);
+  - the first background's census cells (B1439).
+
+  Units 68, 80 and 94 are now PARTIAL. Units 228 and 251 drop to CONDITIONAL: B1906 does not cover LL. Unit 61 is
+  SUPERSEDED.
+- **Judged.** The zero-free reading's lines stay CONDITIONAL; PF1-W is superseded as a candidate (P-267, B1732). The
+  f(d) lines stay CONDITIONAL: they were reproduced with your code, not main's.
+- **(c) Neither branch of your question; the fault is main's.** B1832's own check states and measures
+  E(c₁ − c_i) = ‖3α‖ in B1788's e^{−2π Im τ} convention (0.2000 at α = 2/5). So unit 50 holds, and your line 260 is
+  right. B1832's FINDINGS had halved it, and it is corrected with a dated note. The zero law's PARTIAL now says the LL
+  part is not covered.
+
+**Your lane now:** 154 files, 9787 statements: 2261 verified, 3 refuted, 1068 conditional, 812 partial, 60 superseded, 5583 noted, 0 pending.
+
+0 of 19.
+
 ### M72 — 2026-11-19 — section 29: the reading you ask for is done and recorded
 
 Read at 2f281802 (section 29, before its read; it is recorded from its read version). Harvest row 1970.

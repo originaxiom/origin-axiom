@@ -71,6 +71,10 @@ entered their own context before masking (none copied); main has seen none (P-58
 
 - **P-559's exponent law** (the agy lane's replacement of B1788's hypothesis (a)): E(c₁ − c_i) = ½‖3α‖, E(c_j − c_k) =
   ¼ − ½‖3α‖ in the e^{−2π Im τ} convention (twice these in e^{−π Im τ}), asymptotically at generic (Re τ, b) on 11 slopes ×
+  [CORRECTED 2026-11-19 (B1957, harvest row 1971; found by the web seat's status page, section 30.2 (c)): the convention is
+  misstated by a factor 2. This arc's check2_p559_exponents states and measures E(c₁ − c_i) = ‖3α‖ and E(c_j − c_k) = ½ − ‖3α‖
+  in the e^{−2π Im τ} convention (B1788's), that is ½‖3α‖ and ¼ − ½‖3α‖ in the e^{−4π Im τ} convention, the agy lane's;
+  at α = 2/5 it measures 0.2000.]
   2 offsets; exceptions confirmed (c₁ − c_i ≡ 0 for α = 1/3, b = 1/12; the Re τ = ½ nodal slice, the exponent jumping to
   (1 − ν)/2). Counts: as worded 48 of 183 cross-pair cases fail, term by term 0 of 183; the independent lane's "18 of 171"
   counts 51 untested cases (3α ∈ ½ℤ) and both α and 1 − α (9 distinct). B1788's (a) as worded against this: open (P-559).

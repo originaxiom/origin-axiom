@@ -111,6 +111,8 @@ EXTRA = {  # files older than a lane's window that main's own record shows were 
         # headline in the corrected P-327 and step-back relays (0cc73b1e6), neither in the register
         "relays/CHAT1_TO_CC_AND_SM_2026-10-24_P327_THE_CUSPS_OF_THE_FIT_LINES.md",
         "relays/CHAT1_TO_CC_SM_AND_AUDIT_2026-10-24_THE_STEP_BACK.md",
+        # added 2026-11-19 (harvest row 1971), at the seat's section 30.2 (a): row 1404's third relay, read at headline, not in the register
+        "relays/CHAT1_TO_CC_2026-10-24_THE_LEDGER_ROWS_AND_JUNO.md",
         "docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md",
         "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
         "relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md",
