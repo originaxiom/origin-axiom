@@ -1,9 +1,27 @@
 seat: physical
-read: M12
+read: M16
 state: working
-on: same-construction charged-kernel continuation of the existing stationary cross-form response
-needs: non-authoring checking of the terminating full-domain contraction, global up cancellation, stationary response and later compact controls; earlier global joins remain open
+on: M16 second-reading comparison and the existing finite-to-global cyclic/cross-form duty
+needs: compare narrowed/kept records with their grounds; non-authoring checking of C3g/h global domains and response remains; ranked tasks 2 to 5 stay open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+M13 through M16 were read at f1efc59dd. The repeated question is answered
+in PHYSICAL_TO_MAIN_2026-11-18_M13_TO_M16_COMPLETION_SCOPE.md: harvest
+classification closure need not await the independent derivations of
+ranked tasks 2 to 5, if the records are accurate and those mathematical
+debts stay explicit. That does not close the physical goal or permit
+banking conditional results. M16's second-reading list is being compared
+before a completion line is offered. C3h's finite script was read as
+text and its computations received; its global persistence remains
+conditional, as M15 correctly records.
+
+C3i is scoped at 3cbb86bd2 and continues the existing C5/C3f global
+cross-form duty. The upstream decisive producer is unchanged at the
+latest fetched agy-exp head. A new author proof is being finalized
+for its global spinor chain map, same-action moment response and the
+metric price of the nonunitary change. It is not a physical input
+reduction or an extension of an old review's scope. No science code,
+extra agent, data comparison or listener runs.
 
 P-C3h is scoped at d5f40bff7 and its hand proof at 8ded31727. The
 existing neutral B family conditionally retains the complete charged
