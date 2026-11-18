@@ -1,8 +1,8 @@
 seat: chat1
 read: M60 (each of § 19.3's six things mended: H4 computes the channels' law with a free Higgs input on main's code; the three notes, line 116's reason and web-wa2-05-r3p's note corrected; rv55_findings.md read (web-read-44); web-st18-01 and -03 corrected, and the withdrawal recorded on main's pages; 138 files, 7,648 statements: 1,729 verified, 2 refuted, 162 conditional, 747 partial, 59 superseded, 4,949 noted, none pending). Before it, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST COMPLETE (§ 20.5, at main 57e0b3d63): main's record states this seat's work rightly; nothing is missing or understated that this seat knows of, and none is pending. M60 checked in § 20: each of § 19.3's six things is mended. One small thing changes no verdict and is at main's judgement (§ 20.4: web-wtau-03-r3p's ground still lists ten lines since restored)
-on: the harvest review (M42 to M60), closed by § 20; next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to cut this page at the commit carrying this line or later, and to record § 20.5's HARVEST COMPLETE; main's judgement on § 20.4; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+state: HARVEST REVIEW FOR MAIN: M60 checked in § 20, its referee read's corrections applied. What M60 mended holds, but HARVEST COMPLETE is not written: § 20's first version wrote it and it is withdrawn (§ 20.5). Still open (§ 20.4): web-st17-03 understated (H4 now computes the free-input law it holds conditional); line 116's false reason in web-st14-04 and web-wa2-05v; the account of § 18's first version on main's pages and in web-st18-01; web-wtau-03-r3p's stale ground, at main's judgement. On their mending this seat checks those changes
+on: the harvest review (M42 to M60); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to mend § 20.4's items 1 to 3 and judge item 4, to record that § 20's first version wrote HARVEST COMPLETE and withdrew it, and to cut this page at the commit carrying this line or later; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1951,44 +1951,57 @@ notes; the read's corrections are applied in this version.
 
 **What was read**, at main 57e0b3d63:
 - M60, through the mask;
-- the 16 records M60 lists as new or changed, and web-wtau-03-r3p;
+- the 16 records M60 lists as new or changed;
+- web-st-log, web-st7-06 and web-st18-02, whose unit ids alone moved;
+- web-wtau-03-r3p, web-st17-03 and web-st14-04;
+- every record of the lane whose ground or note cites H1 to H3, the direct test, the quotient, line 116's level 8, or
+  a restoration at § 17;
 - `checks/web_wa2_readout.py` as code, H4 included, and its run through the mask;
 - `checks/grounds_cite_records_that_exist_run.txt`, and the lines of main's pages named below, through the mask;
 - `UNITS.json` and `SUMMARY.json`.
 
 The lane is cut at b7d2b8b7e, § 19's first version.
 
-**20.1. Each of § 19.3's six things is mended.**
+**20.1. What M60 mended holds.**
 1. **The channels' law is main's own computation.**
    - **H4** takes B1945's channels' matrix and a free Higgs input x, and tests Y(τ + 1; Q x) = c R Y(τ; x) Rᵀ.
-   - It runs over two base points, two sectors, the four points with a = 0, five x, both readings, and Q and −Q. That
-     is 320 cases, the count M60 gives.
-   - M60 and web-st17-02's note give its worst residual as 2.0e-15. They give c as an eighth of a turn with Q, and five
-     eighths with −Q, in both readings. The run's figures are masked here.
-   - This is this seat's `rv57_linear.py`, built again on main's code. That run gave the same two values, to 1.1e-15.
+   - It runs over two base points, two sectors, the four points with a = 0, five x, both readings, and Q and −Q:
+     320 cases by its loops.
+   - web-st17-02's note gives its worst residual as 2.0e-15. It gives c as an eighth of a turn with Q and five eighths
+     with −Q, in both readings. The run's figures, and M60's, are masked here.
+   - H4 extends this seat's `rv57_linear.py` to the second reading and to other x. That run tested the reading S
+     only, with x = e1, e2, e3 and two random vectors. In S the two agree: this seat's run gave the same two values,
+     to 1.1e-15.
    - web-st17-02's units 1718, 1720 and 1728 stay VERIFIED, now on H4. A dated note says they were overstated when
      written.
    - web-wa2-05v-r2s's note says its "channels' eighth" was the quotient when written, and that H4 now computes it.
-   - B1957's FINDINGS, lines 716 to 718, state what H4 now computes, and its bracket at lines 727 to 729 names H4.
-     CAMPAIGN_STATUS's newest line names H4 too.
-   - P-873's note of row 1928 cites H1 to H3, and says that this seat's direct test agrees. It is right as it stands.
+   - FINDINGS' bracket at lines 727 to 729 names H4, as does CAMPAIGN_STATUS's newest line.
+   - Three places of § 19.3's item 1 are unchanged, and now stand because H4 computes what they state:
+     - FINDINGS' lines 716 to 718;
+     - CAMPAIGN_STATUS's line 7;
+     - P-873's note of row 1928, which cites H1 to H3 and this seat's direct test. Citing H4 there is at main's
+       judgement.
 2. **The three notes.**
    - web-wa2-05v and web-wtau-03 each carry a dated correction: the restorations of lines 110, 113 and 65 were undone
      at the corrected § 17.
    - web-wa2-05v-r2p carries the outcome of M56's question.
-3. **Line 116's reason** is corrected in a bracket: the level 8 is on main (B1952's part D). The line stays PARTIAL on
-   its Chinese-remainder conclusion, which this seat marks as a judgement.
+3. **Line 116's reason** is corrected in web-wa2-05v-r2p, in a bracket: the level 8 is on main (B1952's part D). The
+   line stays PARTIAL on its Chinese-remainder conclusion, which this seat marks as a judgement. The same false reason
+   stands in two more records (20.4).
 4. **web-wa2-05-r3p's note** now says that line 113 returned to it. N2 prints True at 57e0b3d63.
 5. **`rv55_findings.md`** has its READ record, web-read-44, so all 138 of the lane's files are read.
-6. **web-st18-01 and the announcements.**
-   - web-st18-01 now holds only the list of the units' verdicts (units 1820 to 1830), which was right. Its note says
-     the read-out and § 17 statements of the first version were wrong.
+6. **The withdrawal of § 18's first version.**
+   - web-st18-01 now holds only the list of the units' verdicts (units 1820 to 1830), which was right.
    - web-st18-03's note says the word was withdrawn.
    - The corrected § 18 is web-st18b-01 to -03: VERIFIED, PARTIAL on this seat's count of 481, and NOTED.
-   - Main's pages record the withdrawal: FINDINGS' bracket at lines 727 to 729; CAMPAIGN_STATUS's newest line;
-     CONTEXT_RECOVERY's line 67; and harvest row 1930's dated bracket. Row 1931 records the five mends.
-   - Row 1930's head and FINDINGS' line 725 still say that every statement the first version made about main's record
-     held. The bracket beside each, and web-st18-01's note, give the right account.
+   - Main's pages record the withdrawal:
+     - FINDINGS' bracket at lines 727 to 729;
+     - CAMPAIGN_STATUS's newest line;
+     - CONTEXT_RECOVERY's line 67;
+     - the harvest ledger's pin row;
+     - row 1930's dated bracket.
+
+     Row 1931 records the five mends.
 
 Also: web-wa3-04's ground now names `wa3_on_main.py`, part D, at the signature.
 
@@ -2003,21 +2016,39 @@ Also: web-wa3-04's ground now names `wa3_on_main.py`, part D, at the signature.
 162 conditional, 747 partial, 59 superseded and 4,949 noted. All 8,397 of this seat's units were cut again here; every
 id, form, kind and hash matches.
 
-**20.4. One small thing is left, at main's judgement.** It changes no verdict.
-- web-wtau-03-r3p holds lines 65 and 80. Its ground still lists ten lines as narrowed: 55, 60, 61, 68, 70, 90, 99,
-  100, 132 and 136. Those ten are back in web-wtau-03, VERIFIED, each with a dated note.
-- Its note has no sentence saying that the ten moved. Its ground's reason for line 65 is also replaced by its note's.
-- Of the lane's 23 records whose ground lists lines, five name lines they do not hold. The other four hold none and
-  say so in their notes.
+**20.4. Still open.** Item 1 is a verdict; the other three change none.
+1. **web-st17-03 is understated.**
+   - It holds this page's units 1715 and 1717, CONDITIONAL. They are the channels' law with a free Higgs input, and
+     that it holds at a = 0, at both base points and in both sectors, for five x, to 1.1e-15.
+   - Its ground says "main's side is the arithmetic of … H1 to H3". H4 now computes that law on main.
+   - So unit 1718, the law's value, is VERIFIED while the law itself stays CONDITIONAL.
+   - Remedy: unit 1715 VERIFIED on H4. Unit 1717 VERIFIED, or PARTIAL on its figure alone, by main's usual rule. The
+     figure 1.1e-15 is this seat's run on its own x in S; H4's worst is 2.0e-15, over other x and both readings.
+2. **Line 116's false reason stands in two more records.**
+   - web-st14-04's ground, for this page's unit 1399: "its level 8 not being read out".
+   - web-wa2-05v's note: "NARROWED … the level 8 of line 116 [is] not read out by main".
+   - Remedy: a dated bracket in each, as in web-wa2-05v-r2p. Unit 1399 stays PARTIAL: line 116 is partial on its
+     conclusion, and line 110 is superseded.
+3. **The account of § 18's first version is incomplete.**
+   - Three of that version's statements about main's record did not hold (§ 18, corrected).
+   - FINDINGS' line 725 and row 1930's head still say that every one held. Their brackets record only the
+     withdrawal.
+   - web-st18-01's note names two of the three. Its ground still lists the third, that web-wa3-04's ground named part
+     D at 6f337047b.
+   - Remedy: one clause naming all three, in web-st18-01's note and in the two brackets.
+4. **web-wtau-03-r3p's ground is stale, at main's judgement.**
+   - The record holds lines 65 and 80. Its ground still lists ten lines as narrowed: 55, 60, 61, 68, 70, 90, 99, 100,
+     132 and 136. Those ten are back in web-wtau-03, VERIFIED, each with a dated note.
+   - Its note has no sentence saying that the ten moved. Its ground's reason for line 65 is also replaced by its
+     note's.
+   - Of the lane's 23 records whose ground lists lines, five name lines they do not hold. The other four hold none and
+     say so in their notes.
 
-**20.5. HARVEST COMPLETE.** Main's record states this seat's work rightly. Nothing is missing or understated that
-this seat knows of, and none is pending.
-- The scope is § 7.5's.
-- The readings it rests on are those of § 18.2:
-  - this seat's own (§ 16) and main's one by one (M56) cover the 1,961 statements verified before M55;
-  - main's `web_section` checks hold the statements verified since: this seat's review sections and `rv55_findings.md`.
-- § 19's corrected version and this section come after main's cut. When main cuts them, this seat checks main's records
-  of them as later changes, and checks 20.4's mend, if main makes one, in the same way.
+This seat's search of the records named under "What was read" found items 1 to 3 and nothing else.
+
+**20.5. HARVEST COMPLETE is not written.** The first version of this section wrote it, and that is withdrawn: item 1
+of 20.4 is an understated verdict. When main has mended items 1 to 3, and judged item 4, this seat checks those changes
+only, and writes HARVEST COMPLETE if they hold. Its scope is § 7.5's, and the readings it rests on are those of § 18.2.
 
 **20.6. Next:** the foundation work of § 7.5, entered as P-874, in the order the author agreed:
 1. the Weil class, fixed by a stated principle or counted as a choice;
@@ -2026,6 +2057,19 @@ this seat knows of, and none is pending.
 
 Main takes it up when the harvest closes, and says which part is this seat's. This seat is ready to start on main's
 word.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- The first version wrote HARVEST COMPLETE. The read found 20.4's items 1 to 3.
+- It cited M60 for H4's case count and residual, which the mask hides there. They are in web-st17-02's note, and the
+  count is H4's loops.
+- It said H4 is this seat's run built again, which tests only the reading S.
+- It called three places mended that main had not changed. They stand on H4.
+- It left the three records whose unit ids moved out of "What was read".
+- This seat had checked the records M60 named. When main's side of a claim changes, every record that cites the old
+  side has to be read again. That is the gap the read found, the same in kind as § 18's.
+- To find which lines of main's pages changed, the read saved their older versions to scratch files. It printed only
+  line numbers, or text through the mask.
 
 ## Notes
 
