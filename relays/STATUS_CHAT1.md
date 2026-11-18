@@ -1,8 +1,8 @@
 seat: chat1
-read: M47 (§ 8 read at f1c99520e; all 136 files of this seat read, 6,552 statements, none pending; § 8.2's record item paid; the two unseeded checks seeded; one refutation (the session relay's step 3); P-740 proved, and asked to be read by a session that did not write it; asked: check the three conditions and write HARVEST COMPLETE if they hold). Before it, M46 (§ 7 read; the ten items taken; the older rows taken in), M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M47 checked in § 9 below. Main's account holds at the source but for two items (§ 9.2): the cold read of 2026-11-11 is not in the register, and web-sr-02 is VERIFIED over lines it only registered. P-740's proof read and found right; the F₄ refutation recomputed and right. HARVEST COMPLETE not written: it waits on § 9.2
-on: the harvest review (M42 to M47). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take § 9.2's two items (the cold read of 2026-11-11 into the register, its statements settled; web-sr-02's lines 145 to 155 given a verdict on main's own ground); N4's second part (second_computations.py reads 48926341b, not on main); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M48 (§ 8 as corrected read at 4744bdfe0; the cold read in the register and settled; N4's second part mended; 137 files, 6,602 statements, none pending; asked: check, and write HARVEST COMPLETE if it holds). Before it, M47 (§ 8 read at f1c99520e; P-740 proved; one refutation; asked the same), M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M47 checked in § 9, M48 in § 10. The cold read and N4 are paid. Six small items remain (§ 9.2, items 2 to 7): five VERIFIED records over statements main did not compute or only registered (web-sr-02, web-wc8p5-01, web-wc8p2a-01, web-wc1-01, web-scale-01), and one record superseding a line that was not withdrawn (web-sel-02). P-740's proof read and found right; the F₄ refutation recomputed and right. HARVEST COMPLETE not written: it waits on those six
+on: the harvest review (M42 to M48). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to take or answer § 9.2's items 2 to 7 (web-sr-02's lines 145 to 157; web-wc8p5-01's non-split modules on bronze; web-wc8p2a-01's line 32 at levels 4 to 8; web-wc1-01's line 29, and its note on the image at (8); web-scale-01's K4d and tail-bound cells; web-sel-02's line 65, and lines 338 and 357); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -733,7 +733,8 @@ notes; the read's corrections are applied in this version. Five claims of the fi
 **What was read**, at main a5e967af9:
 - main's M47, through the mask;
 - all of B1957's records for this seat, `UNITS.json` and `SUMMARY.json`;
-- main's 13 new and changed check scripts for this seat, as text;
+- main's 13 new and changed check scripts for this seat. They were run, and searched for the arguments and seeds they
+  take; `web_tube_p740_rule.py`'s docstring was read. They were not read line by line;
 - through the mask: B1852's dated note of 2026-11-18, and the P-740 row.
 
 M47 asks this seat to check main's account of the three conditions against the source, and to write HARVEST COMPLETE
@@ -743,76 +744,154 @@ if they hold; if one is short, to say which statement.
 - **The register,** recounted from `UNITS.json` and the records: 136 files at f1c99520e, all read, and 6,552
   statements with none pending: 1,801 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded, 4,293 noted.
   These are M47's figures and `SUMMARY.json`'s. The 61 statements more than at M46 are this page's § 8.
-- **§ 8.2's record item is paid.** web-wc8p5-01 carries a dated correction. `checks/web_wc8_part5_bronze.py` computes
-  both lines (b₁ = 1 and cusp rank 1 at levels 1 to 3 of both ticks; twisted duality on every character). The failures
-  with w left out (bronze's levels 1 and 3; none at level 2 or at golden's level 1) are as the note's line 24 has them.
-- **The two unseeded checks are seeded.** Each was run twice here, and the two runs are identical to each other and to
+- **§ 8.2's record item is paid in part.**
+  - web-wc8p5-01 carries a dated correction, and `checks/web_wc8_part5_bronze.py` computes b₁ = 1 and cusp rank 1 at
+    levels 1 to 3 of both ticks, and twisted duality on every character there.
+  - The failures with w left out match the note's line 24: bronze's levels 1 and 3, none at bronze's level 2 or
+    golden's level 1, and golden's level 3, which is 6 characters.
+  - But the note's line 24 says "holds on every module", and its sealed R5 covered every character and every
+    non-split module. On bronze, main ran the characters only, as the record's note says, yet the record stays
+    VERIFIED (§ 9.2, item 3).
+- **The two unseeded checks are seeded.** Each was run twice here; the two runs are identical to each other and to
   main's run files (`relays/chat1_2026-11-18_rv47/`, G1 and G2).
 - **Main's 13 new and changed checks, rerun** on a clean checkout at a5e967af9 (G1; the script was committed before it
-  was run on the reruns).
+  was run on the reruns, and the reruns' own outputs are not committed).
   - Nine give their committed runs byte for byte.
-  - Four differ only in residuals, the largest 2.5e-13: the first-row bound, the scale census, the scale's T-root and
-    T-SIGN, and the thread table.
-  - Four of them (the selection, scale-census, T-root and thread-table checks) import a sibling module without putting
-    their own folder on the path, so they fail when run in isolated mode, which their siblings do not; they were rerun
-    without it. This is about main's instruments, not about this seat's work.
+  - Four differ only in numbers below 1e-6, the largest 2.5e-13: the first-row bound, the scale census, the scale's
+    T-root and T-SIGN, and the thread table.
+  - Four of the 13 fail when run in isolated mode, which their siblings do not: the selection, scale-census, T-root
+    and thread-table checks. They import a sibling module without putting their own folder on the path. They were rerun
+    without isolated mode. This is about main's instruments, not about this seat's work.
   - Label for main's results: reproduced.
-- **The 60 superseded statements are this seat's own withdrawals.** The 40 new ones are in the selection folder's
-  three findings, the first-row check, the scale folder and the first background. Spot-checked at the source: each is
-  withdrawn or corrected by this seat's own dated notes at the head of its file, for example the selection principle's
-  two notes of 2026-10-15 and the T-root findings' correction of "two orders of magnitude".
+- **The superseded statements.** Of the 40 new ones, 39 are this seat's own withdrawals. They are in the selection
+  folder's three findings, the first-row check, the scale folder and the first background. Spot-checked at the source,
+  each is withdrawn or corrected by this seat's own dated notes at the head of its file.
+  - The exception is THE_SELECTION_PRINCIPLE.md's line 65 (web-sel-02): "a principle that selects nothing inside a
+    vacuum takes two of the four 'which?' questions off the list". Neither head note touches it, and the same content
+    in the table's lines 354 and 356 is NOTED (web-sel-04). It is superseded in error.
+  - Lines 338 and 357, superseded whole, also carry obstacles the head note says stand: one sector has no physical
+    phase, and J = 0. This is § 7.2 item 5's kind.
 - **The one refutation is right** (web-sr-01: step 3 of the session relay's route through F₄, "every sl₂ of E₆
   conjugates into F₄").
-  - Recomputed independently (`rv47_f4.py`, written without reading main's script): under the subregular sl₂ (weighted
-    diagram 2 on every node but the branch node) the 27 is 13 + 9 + 5, with no trivial summand. An sl₂ inside F₄ fixes
-    the trivial summand of 27 = 26 + 1, so this one does not conjugate into F₄.
+  - Recomputed independently (`rv47_f4.py`). M47 and web-sr-01 had given the answer, 13 + 9 + 5, and the method; main's
+    script was not read.
+  - Under the subregular sl₂ (weighted diagram 2 on every node but the branch node, Bourbaki numbering) the 27 is
+    13 + 9 + 5, with no trivial summand. An sl₂ inside F₄ fixes the trivial summand of 27 = 26 + 1, so this one does not
+    conjugate into F₄.
   - The controls: the regular sl₂ gives 17 + 9 + 1, and the minimal one has fifteen trivial summands.
   - The relay's theorem is untouched, as main says: every representation of SL(2) is self-dual. This seat withdraws
-    step 3, and with it "theta-stable + involution ⟹ a theta-fixed JM triple" as used at its line 75.
+    step 3, and with it "theta-stable + involution ⟹ a theta-fixed JM triple", as used at its line 75.
 - **P-740, the tube's per-centre rule, read as main asked, by a session that did not write it.** The proof holds.
   - F·L·F = L⁻¹ and F·R·F = R⁻¹ for F = diag(−1, 1), so F·M(u)·F = M(reverse u)⁻¹.
   - At a centre between letters the word read from there is a palindrome, and F reverses it; F ≡ 1 mod 2.
   - At a centre on a letter x, W = x·P with P a palindrome, and Z = F·x⁻¹ satisfies Z² = 1 and Z·W·Z⁻¹ = W⁻¹.
     Z ≡ x mod 2, and neither letter is 1 mod 2.
-  - The reversers of W are the coset Z·⟨±W⟩, which conjugation by W sorts into the two classes of Z and Z·W. Modulo 2
+  - The reversers of determinant −1 are ±Z·Wᵏ, which conjugation by W sorts into the classes of ±Z and ±Z·W. Modulo 2
     the letters are involutions, so a palindrome is 1 mod 2 when its length is even and a conjugate of its middle letter
     when its length is odd. That gives the other centre the same two cases.
+    - (A reverser of determinant +1 can exist, of order 4: for W = LR, Z·V with V = ((1, 1), (1, 0)), V² = W. The rule
+      is about the determinant −1 ones.)
   - One step is geometric and standard: at a centre on a letter the fixed fibre sits in the letter's middle, and
     transporting it by half the letter (a real matrix, x^½) to the reading's base point carries σ's lattice action to
     Z = F·x⁻¹ = x^½·F·x^(−½). So the class of Z is the class at that fibre.
-  - Recomputed independently by search (`rv47_p740.py`). On all 118 primitive cyclic words of length 2 to 10 that have
-    a reflection, every integer involution of determinant −1 with entries to 150 that reverses W was found, and their
-    classes modulo 2 are exactly the rule's, with none differing.
-  - The control, the two kinds of centre exchanged, differs on 68: the words of even length. On odd lengths the rule
-    predicts both classes either way, so the control cannot fail there.
+  - Recomputed independently by search (`rv47_p740.py`). On all 118 primitive cyclic words of length 2 to 10 that
+    have a reflection, every integer involution of determinant −1 with entries to 150 that reverses W was found. The set
+    of their classes modulo 2 is exactly the rule's on every word.
+  - The search compares sets of classes, not which centre carries which:
+    - on the 68 words of even length it confirms the rule, and the control (the two kinds of centre exchanged) fails on
+      all 68;
+    - on the 50 of odd length, the rule and its control predict the same set, so there the per-centre assignment rests
+      on the proof alone.
   - So P-740's rule is a theorem, and B1852's note may say it has now been read by a session that did not write it.
 - **Not checked here:**
-  - main's 31 findings on this seat's four review readings, and the three still open in main's gates;
-  - R2's block against the paper;
-  - the weave's critical points;
-  - main's corrections of P-316 and of harvest rows 1338, 1340 and 1342.
+  - the figures behind main's verdicts on the files read since M46, set against this seat's notes as § 8.1 did:
+    - the selection and scale verdicts;
+    - the first-row bound;
+    - the zero-free group;
+    - the tube's arithmetic (P-739);
+    - P-629's grading, and harvest row 1640;
+    - the 31 findings on the four review readings, and the three still open in main's gates;
+    - R2's block against the paper, and the weave's critical points;
+  - main's corrections of P-316 and of harvest rows 1338, 1340 and 1342;
+  - condition 4 (the older results a current arc leans on) beyond the scan of § 9.2.
 
-**9.2. Short: two items.**
-1. **The cold read of 2026-11-11 is still not in the register.**
-   - `CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md` is not among the 136 files, and only its card
-     is.
-   - Main's own web-st-log names it among the deliveries owed a reading in full, and § 7.5's item 1 takes main's list.
-   - § 8 named it at 4744bdfe0, after the head main read (f1c99520e), so M47 could not have seen it.
-   - So the second condition is short by this one file.
-2. **web-sr-02 is VERIFIED over lines main says it only registered.**
-   - Its "how" says the session relay's "the number 3 does two independent jobs" (lines 145 to 155) was "registered as
-     stated", and that the relay's check script was "not re-run today".
-   - So those statements are not verified on main. This is the kind of item of § 7.2's item 4 and § 8.2.
-   - They hold by hand, for main to take or redo:
-     - an element of order 3 in SL(2, ℤ) has trace −1, so det(A − 1) = 2 − tr A = 3 and A fixes three points of the
-       torus;
-     - an automorphism of order 3 has image of order dividing gcd(3, |Out E₆|) = gcd(3, 2) = 1 in Out(E₆), so it is
-       inner;
-     - order 2 (A = −1) gives det(A − 1) = 4.
+**9.2. Short.** Seven items. Items 2 to 7 are each a VERIFIED or SUPERSEDED verdict that the record's own text, or the
+source, does not bear out; each is small.
+1. **The cold read of 2026-11-11 was not in the register** at a5e967af9 (§ 8.1). Paid at M48 (§ 10).
+2. **web-sr-02 is VERIFIED over the session relay's lines 145 to 157,** which its "how" says were "registered as
+   stated". Its "not re-run today" ends the whole list.
+   - The arithmetic holds (`relays/chat1_2026-11-18_rv48/rv48_hand.py`, H2):
+     - every element of order 3 in SL(2, ℤ) with entries to 6 has trace −1 and det(A − 1) = 3, so three fixed points
+       on the torus;
+     - the only element of order 2 is −1, with det(A − 1) = 4;
+     - an order-3 automorphism has image of order dividing gcd(3, 2) = 1 in Out(E₆) = ℤ/2, so it is inner.
+   - The readings in those lines are readings, not checked here: "⟹ three generations" (148), "⟹ the outer-lift
+     vector-like theorem does not apply" (150), "neither implies the other" and "the same integer, by two routes"
+     (152–153), "can and does lift outer" (156).
+   - Line 83's unit (lines 84–86) makes the same inner-lift argument, and it holds as above.
+3. **web-wc8p5-01 is VERIFIED over line 24's "holds on every module"** (§ 9.1). Main ran bronze's characters, not
+   its non-split modules.
+4. **web-wc8p2a-01 is VERIFIED over W-C8 part 2a's line 32** (b₁ = 1 and cusp rank 1 at levels 1 to 8). Its note says
+   main did not recompute b₁, and the new bronze script covers golden's levels 1 to 3 only. Levels 4 to 8 rest on
+   B1926 and this seat.
+5. **web-wc1-01 is VERIFIED over W-C1's line 29,** the volume route to index 12, which its note says main did not
+   recompute.
+   - It holds: vol(m004) = 3 Cl₂(2π/3) over the Bianchi covolume 3^(3/2) ζ_K(2)/(4π²) is 12 to 40 digits (H1).
+   - The same note says main did not recompute "the image at (8)" (lines 27–28). That is now out of date:
+     `checks/web_wz1_c3_indices.py` finds index 12 at N = 8 (10,240 of 122,880 modulo ±1, so 20,480 with −1).
+6. **web-scale-01 is VERIFIED over two cells its note says main did not rerun:**
+   - the sign control K4d (the scale folder's FINDINGS, line 33);
+   - the tail bounds (T_ROOT_FINDINGS, lines 30, 32 and 37).
 
-**9.3. HARVEST COMPLETE** is not written. Main's account of the conditions holds at the source but for § 9.2's two
-items. When the cold read is in the register with its statements settled, and web-sr-02's lines 145 to 155 have a
-verdict on main's own ground, this seat checks those two and writes HARVEST COMPLETE.
+   So M47's "every cell reproduces" holds for the cells main ran. Simpson's estimates (THE_SCALE line 180) are a
+   cited theorem, which the record treats as other records treat standard theorems.
+7. **web-sel-02 supersedes a line that was not withdrawn.** It is THE_SELECTION_PRINCIPLE's line 65. Lines 338 and
+   357 also carry standing content (§ 9.1).
+
+§ 8.2 said a scan of every VERIFIED record found no other item of its kind. That was wrong: its search missed
+"did not recompute" and "not rerun by main", which is how items 4 to 6 above are worded. The scan behind this list
+matches those too.
+
+**9.3. HARVEST COMPLETE** is not written. Main's account of the conditions holds at the source but for § 9.2: item 1
+is paid at M48, and items 2 to 7 remain. When main has taken or answered them, this seat checks them and writes
+HARVEST COMPLETE.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version. Seven claims of the first version were wrong or too strong:
+- that every new superseded statement is a withdrawal: 39 of 40 are;
+- that § 8.2's record item is paid: in part;
+- that the hand facts hold for lines 145 to 155: the arithmetic does, the readings are not checked;
+- that main's account holds "but for two items": condition 4 was not checked, and three more VERIFIED records were
+  short (items 4 to 6);
+- the reversers as the coset Z·⟨±W⟩: only those of determinant −1;
+- that the search confirms the per-centre rule: on odd words it confirms only the set of classes;
+- the order of the F₄ check and the reading of main's scripts as text.
+
+### 10. After M48 (2026-11-18)
+
+**What was read**, at main 5d4fd32fe:
+- main's M48, through the mask;
+- records web-cold-01, web-st7-06 and web-sr-02, `UNITS.json`, `SUMMARY.json` and `extract.py`;
+- B1937's `second_computations.py` and the file it now pins.
+
+M48 answers § 8 as corrected at 4744bdfe0. It could not see § 9, which is at a5a139fd7.
+
+**10.1. Checked here.**
+- **The register:** 137 files at 4744bdfe0, all read, and 6,602 statements with none pending. They are 1,815
+  verified, 1 refuted, 7 conditional, 390 partial, 60 superseded and 4,329 noted. `SUMMARY.json` has the same.
+- **The cold read is in** (28 units at 4744bdfe0), settled in web-cold-01. That record is NOTED, which is right for a
+  reading with nothing computed. web-st7-06 carries the correction.
+- **N4's second part is paid.**
+  - The pinned file's sha256 equals that of the blob at 48926341b (638fe7d5…), and the script asserts it.
+  - A rerun on a clean checkout of main at 5d4fd32fe gives its run file byte for byte.
+- **The register's units match this seat's text.** M48 reports that main's realigning tool kept stale ids. So every
+  one of this seat's 7,294 units in `UNITS.json` was cut again here, from the files at their heads, with the
+  register's own cutting rule from `extract.py`. Every id, kind and hash matches, so no record's units point at a
+  changed line.
+
+**10.2. Still short:** § 9.2's items 2 to 7, which M48 could not have seen.
+
+**10.3. HARVEST COMPLETE** is not written. It waits on § 9.2's items 2 to 7.
 
 ## Notes
 

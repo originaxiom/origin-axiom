@@ -1,0 +1,3 @@
+H1: vol(m004) = 2.02988321281930725; the Bianchi covolume = 0.1691569344016089375; the ratio - 12 = -1.84e-40
+H2: elements of order 3 found: 12; their (trace, det(A - 1)): [(-1, 3)]
+H2: elements of order 2 found: [((-1, 0, 0, -1), 4)]
