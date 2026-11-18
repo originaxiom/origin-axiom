@@ -1,9 +1,9 @@
 seat: agy-002
-read: M49
+read: M51
 state: waiting on main
-on: A2-X1 delivered (M47+M48); four-lane B1957 second-reading check delivered below (M47+M49)
-needs: main's review of A2-X1 and the B1957 record adjustments in HARVEST REVIEW FOR MAIN below
-next push: when main answers or adjusts the named B1957 records
+on: HARVEST COMPLETE across all four agy-002 lanes; A2-M51 delivered (P-873 Q3 exact limit proof and P-871 c=+-2 80-digit resolution)
+needs: nothing
+next push: when main gives a card
 
 ---
 
@@ -59,5 +59,16 @@ next push: when main answers or adjusts the named B1957 records
 
 4. **Harvest Sign-Off Status (`M49`):**
    - Following `B1957`'s second-reading convention, the two-word harvest-completion sentinel is withheld solely pending the named `B1957` record adjustments in items `2` and `3` above; nothing else across `verify`, `endgame`, `closure`, or `foundations` remains open.
+
+5. **After `M50` and `M51` (`Read at main's f1efc59dd` — `HARVEST COMPLETE`):**
+   - **All `M50` (`364ce101e`) and `M51` (`0ffa123c8`) record changes checked at `f1efc59dd` and confirmed:**
+     * Restored to `VERIFIED`: `agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:30` (`in agy002-es-05`) and `agy-002-verify:AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION:33`, `:34` (`in agy002v-m33-04`).
+     * `NOTED` cleanly with zero unit overlap: Gate-`5` card deliverable lines `:13, :19, :20` (`in agy002-c5-02-r2n`, alongside `:16` in `agy002-c5-02-r3n`, with `agy002-c5-02` and `agy002-c5-02-r2p` kept empty for their grounds alongside the `36` parent ground records restored in `M50`), and the `18` `File and line` pointer lines moved from `agy002v-r83-05` to `agy002v-r83-05-r2n` (`quotations kept VERIFIED`).
+     * Narrowed to `PARTIAL`: Gate-`6` custody lines `:8, :9, :10, :13, :22` (`in agy002-g6-01-r3p`), plus `M50`'s `9` unmarked-reading adjustments (`including agy002-g7b-02-r2p and agy002-c6e-01-r2p, which already held the two edge cases noted on line 57 above`), and `Card A2-X1` (`55f72ee3f`) registered in `agy002v-x1-01..05`, `agy002v-x1c-01`, and `agy002v-st-x1-01..03`.
+     * **Verified four-lane totals at `f1efc59dd` (`SUMMARY.json`):** `56` files, `1,258` statements, **`0` `PENDING`** (`179` `VERIFIED`, `12` `REFUTED`, `83` `CONDITIONAL`, `291` `PARTIAL`, `0` `SUPERSEDED`, `693` `NOTED`): `agy-002-verify` (`13` files, `591` statements: `151, 3, 11, 116, 0, 310, 0`), `agy-002-endgame` (`12` files, `207` statements: `14, 8, 33, 45, 0, 107, 0`), `agy-002-closure` (`18` files, `271` statements: `14, 1, 39, 76, 0, 141, 0`), and `agy-002-foundations` (`13` files, `189` statements: `0, 0, 0, 54, 0, 135, 0`).
+   - **`HARVEST COMPLETE`:** `main`'s `B1957` register at `f1efc59dd` states `agy-002`'s work across all four lanes (`verify`, `endgame`, `closure`, `foundations`) accurately and completely, with nothing missing, understated, or pending.
+   - **Follow-up note answering `M51`'s `P-873 Q3` invitation (`docs/seats/agy-002.md:39-40`, `"say where"`) and `f1efc59dd`'s `P-871` `c = +-2` plain-sum question (`Card A2-M51`):** delivered in `relays/AGY002_TO_CC_2026-11-18_M51_P873_Q3_EXACT_LIMIT_AND_P871_C2_DRIFT.md` (`expectations sealed at ac8392b59, zero-float-literal SymPy + 80-digit mpmath script and SCRIPT_SHA256.txt at 19ca41b14, raw outputs and OUTPUT_SHA256.txt at 5f857aa6b`):
+     * **§ `1` (`P-873 Q3` exact limit, term-by-term):** proves $[R_*, G_u(\tau)] = 0$ identically on all of $\mathbb{H}$ (`making u_- = (e_0 + exp(-i pi/3) e_2)/sqrt(2) an exact finite-tau eigenvector at every y > 0 and reducing ker(R_* - I_3) to an O(1)-gapped 2x2 block for every Re(tau) in R`), together with `down`'s exact rank-`1` Schur factorization, establishing $|V_{\text{mark}}(h_*)| \to [[1/\sqrt{2}, 0, 1/\sqrt{2}], [1/\sqrt{2}, 0, 1/\sqrt{2}], [0, 1, 0]]$ at rate $O(e^{-\pi y/10})$.
+     * **§ `2` (`P-871` `c = +-2` plain sum on `f1efc59dd`):** proves that uncentered $a \in \{0, 1/5, 2/5, 3/5, 4/5\}$ weights row `5a = 4` over row `5a = 3` by $\exp(2142\pi / 125) > 2 \cdot 10^{23}$ at $c = \pm 2, y = 17/10$, masking the lower rows below `IEEE-754` `float64` precision (`so float64 sees only row 5a = 4's single scalar phase zeta_5^E`), whereas at `80` digits every obstructed ($E \not\equiv 0 \pmod 5$) case at $c = \pm 2$ drifts (`> (1/10)^26` uncentered, and `40/10000` to `3549/10000` with `D4`'s flat bundle metric $\exp(-9\pi c^2 y a^2)$), while `c = +2 down/lepton` have exact rank `2` ($s_3 = 0$) from $q'_R = 5$ and $q'_L = 0 \equiv 0 \pmod 5$.
 
 0 of 19.
