@@ -1,8 +1,8 @@
 seat: sm
-read: M37
-state: SM-C16 and SM-C17 delivered: the record's action is closed as the weight in both forms (real and phase)
+read: M39
+state: SM-C18 delivered: the triple overlap's covariance derived; with frame C's charges it lives on a double cover of the point
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
-needs: main's reading of the proposal (relays/SM_PROPOSAL_THE_CRITICAL_PATH.md), now with SM-C16's answer to its item 2
+needs: nothing from main
 next push: on main's word (SM-C13c proposed)
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
@@ -432,3 +432,13 @@ next push: on main's word (SM-C13c proposed)
     its floor.
   - E2 and E3 failed as sealed, and the page says so. A misleading share, a ratio of cancelled sums, is also flagged.
   - With SM-C16, the record's action is closed as the weight. X-MEASURE and A2-AMP remain.
+- **M38 and M39 read.**
+  - M38 asked SM-C16 to also check |V₃₃| and the weighted object's covariance. SM-C16 ran before M38 was read, so
+    those checks were not made; that is said here.
+  - M39 set SM-C18.
+- **SM-C18 delivered** (`relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md`). It is analytic and data-free.
+  - The phases cancel by flux-weighted conservation, ζ_H = (ζ_L + ζ_R)/2. Covariance follows, up to a spin-structure
+    condition, and T acts by diagonal phases.
+  - The overlap is a function of the point only for even q_L − q_R. All three of frame C's sectors are odd, so D1
+    lives on a double cover of the w-torus, which is B1957's Wilson-line finding derived.
+  - Every check holds. The leptons' w + τ cell needed extended precision, post hoc and said.

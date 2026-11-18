@@ -1,0 +1,44 @@
+/home/user/origin-axiom/relays/sm_c18/run_c18.py:23: RuntimeWarning: overflow encountered in exp
+  return np.exp(1j * np.pi * n ** 2 * tau + 2j * np.pi * n * z).sum()
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:49: RuntimeWarning: invalid value encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+/home/user/origin-axiom/relays/sm_c18/run_c18.py:42: RuntimeWarning: invalid value encountered in scalar multiply
+  out[i, j, k] = pre * cmath.exp(2j * math.pi * k / 6) * cmath.exp(6j * math.pi * xi * xi.imag / y) * theta(c / 6, 6 * xi, 6 * tau)
+{
+ "K1": {
+  "flux-weighted mean": 3.9028871923107374e-14,
+  "plant -(zL + zR)": 1.9979403728573064
+ },
+ "K1 holds": true,
+ "K2": {
+  "down (1, 2)": {
+   "w + 1: equal up to one phase": false,
+   "w + 1: equal to the derived action up to one phase": true,
+   "w + tau: equal up to one phase": false,
+   "w + tau: equal to the derived action up to one phase": true
+  },
+  "up (1, -4)": {
+   "w + 1: equal up to one phase": false,
+   "w + 1: equal to the derived action up to one phase": true,
+   "w + tau: equal up to one phase": false,
+   "w + tau: equal to the derived action up to one phase": true
+  },
+  "leptons (-3, 6)": {
+   "w + 1: equal up to one phase": false,
+   "w + 1: equal to the derived action up to one phase": true,
+   "w + tau: equal up to one phase": false
+  },
+  "even control (1, 3)": {
+   "w + 1: equal up to one phase": true,
+   "w + tau: equal up to one phase": true
+  },
+  "even control (2, -4)": {
+   "w + 1: equal up to one phase": true,
+   "w + tau: equal up to one phase": true
+  }
+ },
+ "K3 T-phase = e^(i pi c^2/6)": 1.1957467920563633e-15,
+ "K3 splittings mod 12 (alpha_0 = beta_0 = 0)": 3,
+ "K3 splits": true,
+ "K4 relative difference to main's closed form": 5.137049409779139e-15
+}
