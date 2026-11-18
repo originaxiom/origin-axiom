@@ -1,0 +1,89 @@
+# First foundation comparison: preserve the relation and earn the law
+
+2026-11-18. Bounded author hand work under scope `6941e2b1b`.
+**Not independently checked.** No canonical foundation change, scientific
+execution, physical input reduction or SM3/gravity completion is claimed.
+
+The comparison is complete for the explicitly stated operational packages,
+not for all philosophical meanings of distinction, existence or qualia.
+The proof and premise files must travel with this page.
+
+## What the hand arguments establish conditionally
+
+| Question | Disposition for the declared packages |
+|---|---|
+| Must a registered distinction leave an irreversible remainder? | No. An internal reversible model writes a record and admits a complete inverse. Object undo and full-system undo differ. |
+| Can a missing registering component be a real missing layer? | Yes, when an admitted interaction distinguishes states that the reduced description identifies. An explicit swapping context witnesses this in the model. |
+| Does adding such a component require an external observer forever? | Not for the declared operational duties. All relevant state and feedback reside inside the example. No claim about subjective experience follows. |
+| Does distinction force binary records or exactly two components? | Not under these conditions. Binary/nonbinary, directly interacting two-/three-component, and unbounded integer-register controls remain. |
+| Does noncommuting registration select Q8? | Not from these conditions alone. A familiar Heisenberg control has a dihedral binary subgroup; the existing fixed-character theorem has stronger premises and is untouched. |
+| Does self-consistent closure select a dynamical law? | Stationary closure alone does not: a family of fully supported, permutation-covariant kernels has the same unique stationary distribution and different correlations. A stronger whole-reading law has not been specified or tested. |
+
+## The useful conceptual distinction
+
+A registered act can return the object to its old value while leaving
+the register changed. That is a difference in the whole state, not a
+failure of the inverse of the whole process. Calling the object's
+identity "nothingness" would conceal this distinction.
+
+Conversely, a register that survives a true full inverse requires a
+different specification: an omitted physical memory, restricted inverse
+legality, or a quantity defined on histories rather than complete states.
+Those alternatives may be worth investigating; they are not consequences
+of the identity map alone.
+
+The construction is known reversible-computing mathematics, personally
+compared with Bennett's primary discussion. Its role here is an exact
+conceptual control, not a new thermodynamic result or a proposed universe.
+[Primary source](https://arxiv.org/pdf/physics/0210005v2).
+
+## What is new here, and what was already present
+
+AR1/AR2 already give the safe-quotient criterion. The November 7 audit
+already shows how a chosen register can encode the desired group and
+already keeps Heisenberg and moving-sector alternatives. Those results
+are reused rather than claimed as new discoveries.
+
+This delivery makes the rival primitive readings, their exact hypotheses
+and the internal registration/undo correspondence explicit. It also
+supplies the direct arbitrary-m, arbitrary-component and unbounded
+controls, the complete two-update group calculation, and the independent
+stationary-law control. These are author arguments using elementary
+standard mathematics, with all inputs visible.
+
+## Consequence for our next step
+
+The comparison does not justify discarding the existing programme or
+replacing GENESIS by a new slogan. It localizes the earning duty:
+derive or independently justify the permitted registering tests and
+composition law, then determine their physical realization. Minimality
+after choosing that law does not derive it.
+
+A larger architecture earns its place by an actual failed contextual
+descent test. A new primitive earns explanatory strength by a new
+implication or fewer independent assumptions. Neither is earned by
+recovering a preferred group or by the amount of mathematical structure
+generated after choices are made.
+
+The concrete next comparison is between a common fixed coefficient
+sector and compatible moving/internal register families. No external
+reference by itself excludes the internal examples here. An additional
+restriction must say which model violates it, why it follows from the
+intended principle, and which physical dependency its derivation pays.
+
+## Non-authoring review requested
+
+Check these exact duties before using the package as evidence:
+
+1. The package-to-model map, including the difference between unbounded
+   operational distinction and PF2's unformalized inexhaustibility.
+2. Complete inverses, the partial-undo control, and the alleged conflict
+   between full inverses and universally surviving state records.
+3. The contextual quotient and the smaller-observable opposite control.
+4. The group law, commutator, faithful m^3 action and the binary S4
+   enlargement; distinguish process groups from coefficient lifts.
+5. The stationary kernels, positivity, unique fixed distribution and
+   correlation formula, with probability and composition count priced.
+
+The supplied E8 action, complete physical domains, vacuum/state dynamics,
+weak chirality, full SM3 spectrum and gravity retain their prior duties.

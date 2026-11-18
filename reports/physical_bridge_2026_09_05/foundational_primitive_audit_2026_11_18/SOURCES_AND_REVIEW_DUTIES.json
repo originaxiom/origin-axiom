@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-18",
+  "status": "Author hand derivation and conceptual comparison; not independently checked",
+  "scope_commit": "6941e2b1b74c8f585a59e1dd3183d941ffeaebd9",
+  "main_pin": "ce0c6ea90f5dfc65e3399f9c3f263580116628c6",
+  "prior_physical_pin": "e55148259fa7eca7a0b2d537a853dbca89713cc6",
+  "sources": [
+    {
+      "commit": "ce0c6ea90f5dfc65e3399f9c3f263580116628c6",
+      "path": "GENESIS.md",
+      "git_blob": "3e9957a9044845cef291001ca550fde03ce59a44",
+      "sha256": "6313a3e0e043bf0ef85b2fdc39e638ab6834690a2dac5542249944f8327bbb4d",
+      "lines": 832,
+      "reading": "Principle and grammar sections 1-2 inspected; PF1-PF3, PF5 and GM1-GM5 statuses used; not a new full v1.69 audit"
+    },
+    {
+      "commit": "ce0c6ea90f5dfc65e3399f9c3f263580116628c6",
+      "path": "docs/seats/physical.md",
+      "git_blob": "47f42c7e426c4a61480e3130eee8a4ccdcbdcc3f",
+      "sha256": "ceddf8caeab7cacc40b37fb5cb16394f364eabb9441a701a20f17d20a721c0c8",
+      "lines": 432,
+      "reading": "M17 read in full; main cut at ddae296f0 retained as historical cut, not mistaken for the later delivery head"
+    },
+    {
+      "commit": "e55148259fa7eca7a0b2d537a853dbca89713cc6",
+      "path": "reports/physical_bridge_2026_09_05/ACT_REGISTER_PROOF.md",
+      "git_blob": "80b1adaefa5c929370350d0503252ddb24a553c5",
+      "sha256": "8769cd53168dece8a8a12d2728b01d110c227fb08ce5d2b3d835d2f7e6eb5e6b",
+      "lines": 77,
+      "reading": "Entire existing AR1-AR6 hand proof re-read; AR1-AR2 reused, not claimed as new"
+    },
+    {
+      "commit": "e55148259fa7eca7a0b2d537a853dbca89713cc6",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SELECTION_REQUIREMENT_EARNING_AND_CONTEXTUAL_REGISTRATION.md",
+      "git_blob": "5e9a7f9a56e7f9aad5e35b12df283d42a6cfcc71",
+      "sha256": "db0a48686d1c4e6c473c7974628bfdb55cb17ce02b586125c2c33919a57852ba",
+      "lines": 251,
+      "reading": "Sections 1-8 re-read; contextual quotient and arbitrary-group control reused; no fresh acceptance of every old claim"
+    },
+    {
+      "commit": "e55148259fa7eca7a0b2d537a853dbca89713cc6",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/NEXT_EARNING_DUTY.md",
+      "git_blob": "145cc6c174c1959d9d02276cac5b4a7cef181a8b",
+      "sha256": "b88d95ec5b24221977fcc614d65fb8b7cdbac7d58fab12a94ffec33bcc44e5c3",
+      "lines": 89,
+      "reading": "Entire prospective duty re-read; stronger fixed-sector premise and alternatives retained as open earning duty"
+    },
+    {
+      "commit": "e55148259fa7eca7a0b2d537a853dbca89713cc6",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/JOINING_LAW_ANALYSIS.md",
+      "git_blob": "1fb249fcfcbdca763b7a0d5981477f497563a7ba",
+      "sha256": "6ed91f7c42992911585714168f121f945327794a709be4553e1a7b0c139b1d52",
+      "lines": 333,
+      "reading": "Sections 1-4 inspected for existing composition and interface duties; no new independent verification of that report"
+    },
+    {
+      "commit": "6941e2b1b74c8f585a59e1dd3183d941ffeaebd9",
+      "path": "relays/cards/PHYSICAL_FOUNDATION_PRIMITIVES_2026-11-18.md",
+      "git_blob": "89a0f7665aa76bb4dc8994c20120d17528ecfa7f",
+      "sha256": "72b11eb884d21ece206bf1cab90cb5ced8f58e92899d1088d70f120cb8a27ac7",
+      "lines": 57,
+      "reading": "Current scope brief; expressly not a before-derivation preregistration"
+    }
+  ],
+  "primary_literature": [
+    {
+      "authors": "Charles H. Bennett",
+      "title": "Notes on Landauer's Principle, Reversible Computation, and Maxwell's Demon",
+      "version": "arXiv physics/0210005v2",
+      "url": "https://arxiv.org/pdf/physics/0210005v2",
+      "access_date": "2026-11-18",
+      "reading": "Parsed PDF pages 1-2, including copying into a prepared register and inverse subtraction; initial page-3 control-flow discussion also inspected. No complete seven-page review claimed.",
+      "use": "Conceptual comparison only; no thermodynamic inequality or hardware conclusion used.",
+      "byte_custody": "Read through web PDF extraction; no local PDF byte hash is claimed."
+    },
+    {
+      "authors": "Jiri Adamek, Stefan Milius, Henning Urbat",
+      "title": "Syntactic Monoids in a Category",
+      "version": "arXiv 1504.02694v2",
+      "url": "https://arxiv.org/html/1504.02694v2",
+      "access_date": "2026-11-18",
+      "reading": "Introduction and section 3, particularly recognition, the universal property, Example 33, Definition 36 and Lemma 39 inspected personally; no complete-paper review claimed.",
+      "use": "Identify standard conditional contextual-quotient mathematics already reused in November 7 work.",
+      "byte_custody": "Read through web HTML extraction; no independent source-byte archive claimed."
+    }
+  ],
+  "local_files": {
+    "PACKAGES_AND_PREMISES.md": {
+      "sha256": "4c71d3288794976abc51dc098a4446ab67949680d34a917546b8e1ff400a63ea",
+      "lines": 154
+    },
+    "INTERNAL_REGISTRATION_AND_FULL_UNDO.md": {
+      "sha256": "8ff4e801d5e681caf8c178453b0cc9960f117724cbd68619b03ac95831ab1f7a",
+      "lines": 320
+    },
+    "FINDINGS.md": {
+      "sha256": "ae44f314929dfd5783239e245b5f465451d3a2e63e80d0a3b74c52337b98cbf3",
+      "lines": 89
+    }
+  },
+  "canonical_status_evidence": [
+    {
+      "path": "GENESIS.md",
+      "line": 92,
+      "item": "PF1",
+      "status": "POSTULATED"
+    },
+    {
+      "path": "GENESIS.md",
+      "line": 141,
+      "item": "GM1",
+      "status": "POSTULATED, equivalent formulation"
+    }
+  ],
+  "proof_duties": [
+    "Compare each model against every premise of the explicit operational packages, not the full OA axiom package.",
+    "Check full inverse versus object-only undo, including the omitted-history-coordinate caveat.",
+    "Check arbitrary-m, unbounded and d-component controls and state what kind of rank each tests.",
+    "Check contextual descent and the smaller-observable opposite control.",
+    "Check the Heisenberg law, commutator, faithful action and binary dihedral/S4 distinctions.",
+    "Check the stationary probability control, including supplied batching, probabilities and composition count."
+  ],
+  "execution": {
+    "scientific_imports": 0,
+    "scientific_runs": 0,
+    "scientific_tests": 0,
+    "cas_runs": 0,
+    "data_comparisons": 0,
+    "new_agents": 0,
+    "listener_runs": 0,
+    "metadata_only": "Git object reads, text processing, JSON, hashes and whitespace checks"
+  },
+  "progress_accounting": {
+    "foundational_inputs_removed": 0,
+    "canonical_edits": 0,
+    "physical_parameters_earned": 0,
+    "new_generic_theorem_claimed": false,
+    "full_goal_complete": false
+  }
+}
