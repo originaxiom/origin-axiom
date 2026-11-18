@@ -1,0 +1,4 @@
+a=1: the labels move linearly, v -> A_a(g) v, for every g: True; K with A_a(g) = K g K^-1 for all g: 4 of them; their determinants: [(2, 'non-residue'), (3, 'non-residue')]
+a=1: first such K: [[0, 1], [2, 0]]
+a=2: the labels move linearly, v -> A_a(g) v, for every g: True; K with A_a(g) = K g K^-1 for all g: 4 of them; their determinants: [(1, 'residue'), (4, 'residue')]
+a=2: first such K: [[0, 1], [4, 0]]
