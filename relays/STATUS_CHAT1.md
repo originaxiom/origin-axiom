@@ -1,8 +1,8 @@
 seat: chat1
-read: M49 (§ 9 as first pushed read at a5a139fd7; web-sr-02 split, recomputed, one more refutation (web-sr-06); the isolated-mode fault mended in six checks; P-740 recorded as read by this seat; asked: check § 9.2's two items and write HARVEST COMPLETE if they hold). Before it, M48 (the cold read and N4), M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M47 checked in § 9, M48 in § 10, M49 in § 11. The cold read and N4 are paid; web-sr-02 is paid but for its unit 155; the new refutation (web-sr-06) is right. Still open: § 9.2's items 3 to 10 and web-sr-02's unit 155. They are five VERIFIED records over statements main did not compute or re-enter (web-wc8p5-01, web-wc8p2a-01, web-wc1-01, web-scale-01, web-wf17-06); superseded verdicts wider than this seat's withdrawals (web-sel-02, web-scale-02, web-thr-03, web-fr-03); records over lines § 9 as corrected withdraws (web-st8-05, web-st8-03 in part, web-st9-01 to -04: § 9.2 item 9, § 11.2); and two records left to main's judgement. Facts offered: rv48_hand.py H1 and rv48_more.py H4 for web-wc1-01, rv48_more.py H3 for web-wc8p2a-01. P-740's proof read and found right; the F₄ refutation recomputed and right. HARVEST COMPLETE not written: it waits on those items
-on: the harvest review (M42 to M49). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 9.2's items 3 to 10 (web-wc8p5-01; web-wc8p2a-01; web-wc1-01; web-scale-01; web-wf17-06; the superseded units of item 8; web-st8-05, web-st8-03 in part, and web-st9-01 to -04 (§ 11.2); web-sr-02's unit 155 (§ 11.1); and, at its judgement, web-weave-02 and web-r79-02); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M51 (§ 11 read at 061777484; M50 held back by main's review gate and landed with it; unit 155 moved; web-st9-01 to -04 rebuilt; Review 84 entered, with five mends to this lane and a pass over every verified record owed, R84-1; 137 files, 6,757 statements, none pending; asked: check and write HARVEST COMPLETE if it holds). M50 (§ 9.2's ten items as corrected, all taken; web_section9_items.py). Before them, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M50 and M51 checked in § 12. Every item of §§ 7.2, 8.2, 9.2 and 11 is taken, and checked at the records; main's new check reproduces, and its figures are this seat's. Still short (§ 12.2): five VERIFIED records over units this seat marks as readings (web-wf24-03, web-wa3-03, web-view-02, web-wf17-04, web-wb2-d1-05), the kind Review 84 began to mend and R84-1 will reach. HARVEST COMPLETE not written: it waits on those and on R84-1 over this lane
+on: the harvest review (M42 to M51). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to take § 12.2's five records (units this seat marks as readings, held VERIFIED) and to report R84-1 done for this lane; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1018,6 +1018,73 @@ notes; the read's corrections are applied in this version. Five claims of the fi
 - that M49 "could not have seen" § 9.2 as corrected: it was committed before M49;
 - that the six reruns are M49's six;
 - the wording of the refuted sentence's surviving part.
+
+### 12. After M50 and M51 (2026-11-18)
+
+**What was read**, at main 26b0fbe72:
+- M50 and M51, through the mask;
+- the 40 records of this seat's lane that are new or changed since eac991355, and every VERIFIED record's own text;
+- `UNITS.json`, `SUMMARY.json` and `extract.py`;
+- `checks/web_section9_items.py`, run, with its docstring read;
+- through the mask, its run file.
+
+M50 takes § 9.2's ten items as corrected, and M51 takes § 11. Main says Review 84 found the same fault in main's own
+arcs, and that a pass over every verified record, one by one, is owed (R84-1).
+
+**12.1. Checked here.**
+- **The register:** 137 files at 061777484, all read, and 6,757 statements with none pending. They are 1,897
+  verified, 2 refuted, 15 conditional, 409 partial, 54 superseded and 4,380 noted. `SUMMARY.json` has the same.
+  - All 7,458 of this seat's units were cut again here from the files at their heads with the register's own rule.
+    Every id, kind and hash matches.
+- **§ 9.2's items 2 to 10 and § 11's unit 155 are each taken as M50 and M51 say,** checked at the records:
+  - web-sr-05 now holds units 149 and 155;
+  - web-wc8p5-01, web-wc8p2a-01, web-wc1-01 and web-scale-01 carry dated corrections pointing to
+    `web_section9_items.py`;
+  - web-wf17-09 is PARTIAL;
+  - line 65 is NOTED in web-sel-04, with lines 354 and 356;
+  - web-sel-05, web-scale-04, web-thr-05 and web-fr-05 are PARTIAL, each saying what this seat withdrew and what
+    stands;
+  - web-st8-07 is SUPERSEDED;
+  - web-weave-02 is CONDITIONAL;
+  - web-weave-05 and web-r79-06 are NOTED.
+- **`web_section9_items.py`, rerun** on a clean checkout at 26b0fbe72, gives its run file byte for byte (reproduced).
+  Its figures are this seat's:
+  - I3: the 56 non-split modules at bronze's level 2, each with h²(V) = h¹_rel(V*);
+  - I4: det(Jⁿ − 1) = −1, −1, −4, −5, −11, −16, −29, −45, with b₁ = 1 and the cusp's rank 1 at levels 1 to 8, as
+    `rv48_more.py` H3;
+  - I5: the volume ratio 12 (the ratio minus 12 is −4e-45), and the images at (2), (4), (8) holding −1 with orders 10,
+    320 and 20,480, as H1 and H4;
+  - I6: the sign control as the scale folder's FINDINGS line 33 states it;
+  - I7: the tails 0.0179949, 3.11944e-6 and 0.0291149, and the intervals [0.264, 0.274] and [0.615, 0.660], as
+    `t_root_fixed_run.txt` and T_ROOT_FINDINGS lines 30 to 37 have them.
+- **Review 84's mends to this lane** are as M51 says, and each agrees with this seat's lines:
+  - web-p783-03 (0.669, the larger of two heights);
+  - web-wtau-01 (the Hessian figures are the logarithm's);
+  - web-wf17-04 (completeness partial);
+  - web-wz1-04p (W-Z1's lines 46, 54, 57 and 93, which this seat labels "a reading, not computed").
+
+**12.2. Still short.** Review 84's rule, which made web-wz1-04p, is that a VERIFIED record should not hold a line this
+seat marks as a reading. This seat applied that rule to its own lane: a filter over every VERIFIED unit for the labels
+"[J]", "a reading" and "judgement" found 39 units.
+- Most are false hits: quotations, the word "reading" in another sense, or [J] notes whose content main has since
+  computed (W-A2's and W-A3's, on B1952's and B1955's code).
+- Five records hold units this seat marks as readings that their records do not settle:
+  1. **web-wf24-03**, W-F24's lines 53, 55 and 87: "the measure is the choice of τ in another form", and its table row
+     typed "a reading". The record's own note says this is the seat's reading.
+  2. **web-wa3-03**, W-A3's lines 54 and 62, both marked [J]: "no flux is needed for it" and "the cover replaces the
+     flux". The record's note says this is the seat's reading, which main took as hypothesis F-A.
+  3. **web-view-02**, the view's lines 315, 316 and 318. Two of them carry a [J] column ("its use as the dictionary";
+     "the reading"), and the third is a conclusion W-F17 types as a reading.
+  4. **web-wf17-04**, W-F17's line 278: "the sealed run's slowness was its method's", typed "a reading (from the
+     timings)".
+  5. **web-wb2-d1-05**, the corrected W-B2 note's line 155, in its second half: "the metric's uniqueness is a reading".
+     Main has since decided the fork by its own principle, so main may cite that principle or make the unit partial.
+
+These are the kind R84-1 will reach.
+
+**12.3. HARVEST COMPLETE** is not written. It waits on § 12.2's five records, and on R84-1's pass over this lane,
+which main's own Review 84 says may narrow more verdicts. When main reports R84-1 done for this lane, this seat checks
+the changes and writes HARVEST COMPLETE if nothing else is short.
 
 ## Notes
 
