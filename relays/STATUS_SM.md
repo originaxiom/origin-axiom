@@ -1,6 +1,6 @@
 seat: sm
 read: M39
-state: SM-C18 delivered: the triple overlap's covariance derived; with frame C's charges it lives on a double cover of the point
+state: SM-C19 delivered: frame D1's Higgs ground bit is the hand (exchanged only by an antiunitary built from T and S)
 on: M22's question answered (relays/SM_ANSWER_M22_W31.md); SM-C8 (the partner test, SM-C5's E3) proposed; literature note 1 (relays/SM_LITERATURE_NOTE_1.md), with three amendments to SM-C8 and a candidate SM-C9; scope note on the closed-join block (relays/SM_SCOPE_NOTE_CLOSED_JOINS.md); SM-C8's instrument calibrated outside the population (relays/sm_c8/calibration/); SM-C6 E1's owed steps done (level 2, the read-out, the criterion)
 needs: nothing from main
 next push: on main's word (SM-C13c proposed)
@@ -442,3 +442,9 @@ next push: on main's word (SM-C13c proposed)
   - The overlap is a function of the point only for even q_L − q_R. All three of frame C's sectors are odd, so D1
     lives on a double cover of the w-torus, which is B1957's Wilson-line finding derived.
   - Every check holds. The leptons' w + τ cell needed extended precision, post hoc and said.
+- **SM-C19 delivered** (`relays/SM_C19_WHICH_BIT.md`). It is data-free and uses main's B1957 instrument unchanged.
+  - B1957's one Higgs bit, the ±π/6 transport modes, is exchanged only by antiunitaries A·conj with A = T₆S₆ (and
+    three other words of length 2), with overlap 1.000.
+  - The parity fixes it, and the lift moves v₊ off the pair, never onto v₋. So D1's Higgs bit is the hand.
+  - The card's reason for B1 was wrong (the lift does not commute with U_M). Its conclusion stands, and the page says so.
+  - Next, if main agrees: is the exchanging element the tick σ itself, acting on the modes?
