@@ -1,9 +1,28 @@
 seat: physical
 read: M12
 state: working
-on: M12 source review completed; existing cross-form response shared with its full spectral/current duties
-needs: non-authoring checking of the cross-form global map, stationary-domain proof and later compact action controls; earlier global joins remain open
+on: same-construction charged-kernel continuation of the existing stationary cross-form response
+needs: non-authoring checking of the terminating full-domain contraction, global up cancellation, stationary response and later compact controls; earlier global joins remain open
 next push: on the next bounded source response; numerical campaigns remain paused
+
+P-C3h is scoped at d5f40bff7 and its hand proof at 8ded31727. The
+existing neutral B family conditionally retains the complete charged
+three-coefficient roster while P-C3g changes its vector response. The
+global Dolbeault/Koszul contraction terminates by form degree. Its up
+middle connecting map vanishes through the actual opposite-charge
+section and polarized cubic, with an explicit full-range reconstruction.
+This is not merely a first-order projected mass zero. The source's
+two-five symmetric form is diag(J5,-J5); that sign and the core T
+intertwiner are key checking duties.
+
+The proof and sixteen source pins are in neutral_cross_form_2026_11_18,
+with sender note PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL.md.
+The A3 charged directions commute with the entire D5 response: their
+threshold continua remain, as do the near-origin right currents. The
+finite roster is not the full low-energy spectrum or three weak families.
+All new claims are author hand derivations, not independently checked.
+No scientific code, extra agent or data comparison occurred. Inputs
+counted removed remain zero; vacuum selection and gravity remain open.
 
 M12's requested reading is delivered at 7eb9b0170. All five M9 repair
 categories are present. The eleven C8 record explanations and the three
