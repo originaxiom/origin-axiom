@@ -114,3 +114,28 @@ must preserve a chosen law? A common fixed-sector selector cannot be
 earned by substituting one meaning for another. The underlying choice
 of the law, probability framework and admitted transformations remains
 visible, and no physical input reduction is counted.
+
+## Continuation: composition and a predictively sufficient register
+
+HISTORY_WEIGHTS_AND_CANCELLATION.md derives the full finite-history
+weight and its marginals from an explicitly supplied local Markov law.
+It shows exactly why an endpoint group quotient need not retain a word's
+weight, even at a fixed length. This does not prevent summed endpoint
+transition kernels or an infinite-history law. The local law itself
+remains unearned; no foundational input is paid.
+
+PREDICTIVE_REGISTER_AND_COMPOSITION.md gives the standard finite
+lumpability condition and a direct proof. An internal-register example
+has a valid deterministic quotient for each update but different next-
+outcome probabilities on the same reduced state. The equal-probability
+opposite control admits the smaller predictive model. If the act labels
+are observable records, the individual instrument operators, rather than
+only their sum, must descend too. This distinguishes a justified extra
+register from a blanket demand to retain every formal history.
+
+The primary criterion was personally read in Nilsson Jacobi and Gornerup,
+section 2, and is credited as standard mathematics. The application here
+is a scoped conceptual control, not a new Markov theorem, a derived
+quantum theory or a verdict against the actual E8 construction. The new
+arguments remain not independently checked. Their physical counterpart
+still needs the actual fields, action, norms, observables and domains.
