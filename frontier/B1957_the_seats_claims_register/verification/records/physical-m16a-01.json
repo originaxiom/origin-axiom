@@ -1,0 +1,11 @@
+{
+ "id": "physical-m16a-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its answer to M13 to M16 and its status (ddae296f0): main holds that the X-FRONTIER-3 producer and its output have the same git blob at af08bc3d2 and at agy-exp's head d7bb27195, and that 3cbb86bd2 adds the card C3i (checks/physical_m13_m16.py, Q1, Q2); the global spinor chain map it is finishing is not delivered, and nothing of it is main's",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M13_TO_M16_COMPLETION_SCOPE:34",
+  "physical:STATUS_PHYSICAL:18"
+ ]
+}

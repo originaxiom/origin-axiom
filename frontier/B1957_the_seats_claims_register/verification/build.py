@@ -68,7 +68,13 @@ if __name__ == "__main__":
     row = lambda n, L: "| %s | %d | %d | %d | %d | %d | %d | %d | %d | %d | **%d** |" % (n, L["files"], L["read"], L["statements"], L["VERIFIED"], L["REFUTED"], L["CONDITIONAL"], L["PARTIAL"], L["SUPERSEDED"], L["NOTED"], L["PENDING"])
     for n, L in lanes.items(): out.append(row(n, L))
     out.append(row("**all**", tot)); out += ["", "## By file", "", "| lane | file | read at source | statements | settled | **pending** |", "|---|---|---|---|---|---|"]
+    # CHANGED 2026-11-18: a seat's file whose path lies under one of main's own directories, or at the top level, is written
+    # as git's <head>:<path>, the form `git show` reads: written bare it reads as main's file, though it is the seat's version on
+    # its branch (the stage4-sync lane's arcs and its edits of main's pages; the path-references gate caught the first of them)
+    heads = {l["lane"]: l["head"] for l in json.loads((HERE / "UNITS.json").read_text())["lanes"]}
+    MAINS = ("docs/", "frontier/", "scripts/", "tests/", "knowledge/", "papers/", "speculations/", "philosophy/", "story/", "src/")
+    cite = lambda lane, path: ("%s:%s" % (heads[lane], path)) if (path.startswith(MAINS) or "/" not in path) else path
     for f, p in per.items():
-        out.append("| %s | `%s` | %s | %d | %d | **%d** |" % (p["lane"], f.split(" | ", 1)[1], "yes" if p["read"] else "no", p["statements"], p["statements"] - p["PENDING"], p["PENDING"]))
+        out.append("| %s | `%s` | %s | %d | %d | **%d** |" % (p["lane"], cite(p["lane"], f.split(" | ", 1)[1]), "yes" if p["read"] else "no", p["statements"], p["statements"] - p["PENDING"], p["PENDING"]))
     (HERE.parent / "REGISTER.md").write_text("\n".join(out) + "\n")
     print("\n".join(out[4:6 + len(lanes) + 1]))

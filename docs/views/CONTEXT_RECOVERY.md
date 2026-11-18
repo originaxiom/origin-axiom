@@ -18,13 +18,13 @@
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 874 |
-| … “QUEUED” | 320 |
+| register points | 876 |
+| … “QUEUED” | 322 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1940 |
+| harvest rows (the last number) | 1942 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT'S SECTIONS 21 TO 23, RECORDED FROM THEIR READ VERSIONS: EVERY ITEM IT FOUND IS RIGHT AND MENDED, TWO LOOSE CHECKS OF MAIN'S CORRECTED, AND MAIN NOW RECORDS EACH SECTION ONLY FROM THE VERSION THAT CARRIES ITS REFEREE READ; P-871'S C = +-2 CASES EXPLAINED (ONE ROW DOMINATES THE SUM) (B1957, OPEN; harvest rows 1937 to 1940; P-865, P-871, P-873).** The register: 484 files, 424 read at source, 24835 statements: 3074 verified, 26 refuted, 1940 conditional, 2024 partial, 165 superseded, 17606 noted, 0 pending. Main has read every verified statement of every lane itself. No seat has written HARVEST COMPLETE as it stands: the web seat checks the…”
+“LATEST (2026-11-18, S306p, night, latest: A GAP IN THE HARVEST FOUND AND OPENED: AN agy-002 BRANCH OF 2026-11-11 WITH SEVEN REPORTS NEVER READ IS NOW A LANE OF THE REGISTER, 1,064 STATEMENTS PENDING, AND EVERY SEAT'S OLDER ROWS RECORDED AS NOT READ ARE BEING TAKEN IN (P-876); THE PHYSICAL LANE'S TASKS 2 TO 5 REGISTERED AS DEBTS (P-875) (B1957, OPEN; harvest rows 1939 to 1942).** The register: 525 files, 424 read at source, 25912 statements: 3074 verified, 26 refuted, 1940 conditional, 2026 partial, 165 superseded, 17617 noted, 1064 pending. No seat has HARVEST COMPLETE standing: the web seat checks M64's changes; the physical lane compares M16's list first (M17); agy-002 waits on its own ch…”
 
 ## Completeness (nothing skipped silently)
 

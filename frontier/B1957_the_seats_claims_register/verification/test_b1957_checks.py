@@ -1206,6 +1206,17 @@ def test_the_web_seats_sections_21_to_23_state_mains_record_rightly():
     assert "FINDINGS [False, False, False], row 1930 [False, False, False], P-865 [False, False, False]" in r21 and "names the three statements: False" in r21
 
 
+
+def test_the_seats_older_rows_and_the_physical_answer():
+    """P-876's sweep (checks/older_rows_sweep.py, from its committed run): the rows recorded as received, registered or not read,
+    and the files they name outside the register; the physical lane's answer to M13 to M16 (checks/physical_m13_m16.py):
+    the X-FRONTIER-3 producer's blob is the same at af08bc3d2 and at agy-exp's harvested head."""
+    here = pathlib.Path(__file__).resolve().parent / "checks"
+    run = (here / "older_rows_sweep_run.txt").read_text()
+    assert "S2: 27 seat labels; 662 rows; 219 of them name no file; files: {'in the register': 125, 'not found': 16, 'on a branch, not in the register': 320}" in run
+    ph = (here / "physical_m13_m16_run.txt").read_text()
+    assert ph.count("the same: True") == 2 and "adds the card C3i: True" in ph
+
 def test_p873_the_higgs_planes_zero_directions_and_hs_hierarchy():
     """P-873, question 2 (checks/p873_zero_directions.py, from its committed run, which takes minutes): three directions of
     the ground plane have zeros; only h* (zeros at 2, 3, 4) gives a full up-sector hierarchy, (1/3, 2/3) in 48 cases,

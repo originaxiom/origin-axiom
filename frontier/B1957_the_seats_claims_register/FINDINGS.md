@@ -712,6 +712,19 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **The seats' older deliveries recorded as not read (2026-11-18; P-876; `checks/older_rows_sweep.py`).** When the author
+  asked whether the agy seats were fetched, each agy branch was at its harvested head; but the branch of 2026-11-11
+  whose session named itself agy-002 (`agy/stage4-sync-2026-11-11`) was not a lane here, and main's ledger records its
+  seven reports and receipts as not read (row 1696) and its three arcs as owed under P-781. The same test on every
+  seat's rows: 662 rows recorded as received, registered or not read, under 27 seat labels; 219 name no file; of the
+  461 files named, 125 are in the register, 320 are on a branch and not in it, 16 are not found. **Main's choice, the
+  stricter: they are taken into the register by the web seat's rule, seat by seat;** first that branch, as lane
+  agy-002-sync (39 files, 1,064 statements, pending: its own files, and the lines it added to main's pages, registered
+  by the added lines only through the extractor's new ADDED_ONLY table; a byte-identical copy of the web seat's relay
+  is left out through EXCLUDE). The register is not complete while P-876 is open.
+- **The physical lane's completion line (its answer to M13 to M16, harvest row 1941)** need not wait for main's own
+  derivations of its ranked tasks 2 to 5, provided they stay registered debts: they are P-875. It writes the line
+  after comparing M16's list.
 - **The web seat's section 17, as corrected (harvest row 1928), is taken in full;** its completion line waits only on its
   own check of those changes (M58). The coupling's constant under T (a quarter turn in S, none in S-tilde) is the
   channels' eighth times the Higgs triplet's own phase; the seat's line 110, which gave the Higgs's eighth as the

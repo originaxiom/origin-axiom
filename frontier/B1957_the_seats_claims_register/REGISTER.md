@@ -9,11 +9,12 @@
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
-| physical | 164 | 158 | 11833 | 857 | 0 | 1203 | 278 | 46 | 9449 | **0** |
+| physical | 166 | 158 | 11846 | 857 | 0 | 1203 | 280 | 46 | 9460 | **0** |
 | web | 138 | 138 | 7922 | 1903 | 2 | 160 | 756 | 59 | 5042 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 11 | 9 | 516 | 30 | 5 | 7 | 113 | 0 | 361 | **0** |
-| **all** | 484 | 424 | 24835 | 3074 | 26 | 1940 | 2024 | 165 | 17606 | **0** |
+| agy-002-sync | 39 | 0 | 1064 | 0 | 0 | 0 | 0 | 0 | 0 | **1064** |
+| **all** | 525 | 424 | 25912 | 3074 | 26 | 1940 | 2026 | 165 | 17617 | **1064** |
 
 ## By file
 
@@ -186,7 +187,7 @@
 | agy-002-foundations | `relays/cards/AGY-002_FOUND-G9-ERRATUM-2_left-sl2z-multiply-and-annihilator-sign.md` | no | 4 | 4 | **0** |
 | agy-002-foundations | `relays/cards/AGY-002_FOUND-G9-ERRATUM_pf95-dict-key.md` | no | 1 | 1 | **0** |
 | agy-002-foundations | `relays/cards/AGY-002_FOUND-G9_domain-wall-aps-chirality-su2l-strong-cp-and-p864-repair.md` | no | 16 | 16 | **0** |
-| physical | `docs/SEAL_LEDGER.md` | no | 7649 | 7649 | **0** |
+| physical | `ddae296f0:docs/SEAL_LEDGER.md` | no | 7649 | 7649 | **0** |
 | physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | yes | 11 | 11 | **0** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | yes | 24 | 24 | **0** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md` | yes | 11 | 11 | **0** |
@@ -200,6 +201,7 @@
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL.md` | no | 15 | 15 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md` | yes | 11 | 11 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE.md` | yes | 7 | 7 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_M13_TO_M16_COMPLETION_SCOPE.md` | no | 6 | 6 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_M9_SCOPE_CORRECTIONS_AND_CUSP_SUPPORT.md` | yes | 12 | 12 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE.md` | yes | 24 | 24 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL.md` | yes | 18 | 18 | **0** |
@@ -214,7 +216,7 @@
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md` | yes | 13 | 13 | **0** |
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES.md` | yes | 16 | 16 | **0** |
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md` | yes | 12 | 12 | **0** |
-| physical | `relays/STATUS_PHYSICAL.md` | yes | 94 | 94 | **0** |
+| physical | `relays/STATUS_PHYSICAL.md` | yes | 96 | 96 | **0** |
 | physical | `relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md` | yes | 7 | 7 | **0** |
 | physical | `relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md` | yes | 11 | 11 | **0** |
 | physical | `relays/cards/PHYSICAL_C3B_STATE_ORBIT_AND_SPIN_MODE.md` | yes | 12 | 12 | **0** |
@@ -224,6 +226,7 @@
 | physical | `relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md` | yes | 10 | 10 | **0** |
 | physical | `relays/cards/PHYSICAL_C3G_EXISTING_CROSS_FORM_RELEVANCE_2026-11-18.md` | yes | 7 | 7 | **0** |
 | physical | `relays/cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18.md` | no | 6 | 6 | **0** |
+| physical | `relays/cards/PHYSICAL_C3I_GLOBAL_CYCLIC_CROSS_FORM_JOIN_2026-11-18.md` | no | 5 | 5 | **0** |
 | physical | `relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md` | yes | 10 | 10 | **0** |
 | physical | `relays/cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md` | yes | 9 | 9 | **0** |
 | physical | `relays/cards/PHYSICAL_C5_FRONTIER_RESPONSE_AND_PHYSICAL_MAP.md` | yes | 8 | 8 | **0** |
@@ -350,8 +353,8 @@
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/WILSON_FAMILY_TRANSPORT.md` | yes | 39 | 39 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
-| web | `docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
-| web | `frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
+| web | `fdc3008e0:docs/handoffs/chat1_i26_decision_table_2026-09-15/I26_DECISION_TABLE.md` | yes | 18 | 18 | **0** |
+| web | `fdc3008e0:frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-10-06_FIRST_BACKGROUND.md` | yes | 6 | 6 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD.md` | yes | 48 | 48 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md` | yes | 96 | 96 | **0** |
@@ -503,3 +506,42 @@
 | sm | `relays/cards/SM_C20_is-the-exchange-the-tick.md` | yes | 23 | 23 | **0** |
 | sm | `relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md` | yes | 26 | 26 | **0** |
 | sm | `relays/cards/SM_C22_every-higgs-vector-in-d1.md` | no | 25 | 25 | **0** |
+| agy-002-sync | `d37c773d6:CHANGELOG.md` | no | 26 | 0 | **26** |
+| agy-002-sync | `d37c773d6:CLAIMS.md` | no | 1 | 0 | **1** |
+| agy-002-sync | `d37c773d6:PROGRESS_LOG.md` | no | 8 | 0 | **8** |
+| agy-002-sync | `d37c773d6:README.md` | no | 3 | 0 | **3** |
+| agy-002-sync | `d37c773d6:docs/CAMPAIGN_STATUS.md` | no | 2 | 0 | **2** |
+| agy-002-sync | `d37c773d6:docs/HARVEST_LEDGER.md` | no | 5 | 0 | **5** |
+| agy-002-sync | `d37c773d6:docs/LAW_MAP.md` | no | 6 | 0 | **6** |
+| agy-002-sync | `d37c773d6:docs/OTHER_HASH_LISTS.md` | no | 144 | 0 | **144** |
+| agy-002-sync | `d37c773d6:docs/POINT_REGISTER.md` | no | 9 | 0 | **9** |
+| agy-002-sync | `d37c773d6:docs/RELAY_LEDGER.md` | no | 4 | 0 | **4** |
+| agy-002-sync | `d37c773d6:docs/SEAL_LEDGER.md` | no | 49 | 0 | **49** |
+| agy-002-sync | `d37c773d6:docs/SEAL_ORDER_UNSHOWN.md` | no | 22 | 0 | **22** |
+| agy-002-sync | `d37c773d6:docs/THE_SM_VERDICT.md` | no | 0 | 0 | **0** |
+| agy-002-sync | `d37c773d6:docs/views/CONTEXT_RECOVERY.md` | no | 10 | 0 | **10** |
+| agy-002-sync | `d37c773d6:docs/views/COVERAGE.md` | no | 3 | 0 | **3** |
+| agy-002-sync | `d37c773d6:docs/views/REVIEWER.md` | no | 5 | 0 | **5** |
+| agy-002-sync | `d37c773d6:docs/views/THE_SPINE.md` | no | 3 | 0 | **3** |
+| agy-002-sync | `d37c773d6:docs/views/VERDICT_LEDGER.md` | no | 4 | 0 | **4** |
+| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/CLOSURE_QUEUE.md` | no | 2 | 0 | **2** |
+| agy-002-sync | `d37c773d6:frontier/B1858_the_closure_map/MAP.md` | no | 1 | 0 | **1** |
+| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/FINDINGS.md` | no | 1 | 0 | **1** |
+| agy-002-sync | `d37c773d6:frontier/B1861_the_closure_programme/PROGRAMME.md` | no | 23 | 0 | **23** |
+| agy-002-sync | `d37c773d6:frontier/B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md` | no | 35 | 0 | **35** |
+| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md` | no | 49 | 0 | **49** |
+| agy-002-sync | `d37c773d6:frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/received/AUDIT_SEAT_TO_CC_2026-11-11.md` | no | 31 | 0 | **31** |
+| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/FINDINGS.md` | no | 37 | 0 | **37** |
+| agy-002-sync | `d37c773d6:frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/PREREGISTRATION.md` | no | 42 | 0 | **42** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY002_TO_CC_2026-11-11_SEAT_NAME_AND_READY_FOR_DIRECTIONS.md` | no | 26 | 0 | **26** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/AGY_TO_CC_2026-11-11_FULL_AUDIT_OPINION_AND_REPO_SPLIT_PROPOSAL.md` | no | 54 | 0 | **54** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/CLAIMS_PROVEN.md` | no | 7 | 0 | **7** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/README.md` | no | 14 | 0 | **14** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY.md` | no | 84 | 0 | **84** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/02_ZERO_TRUST_FULL_AUDIT_PLAN.md` | no | 67 | 0 | **67** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/03_FULL_RESTRUCTURE_PROPOSAL_AND_BREAKTHROUGH_BLUEPRINT.md` | no | 136 | 0 | **136** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/04_STAGE1_ZERO_TRUST_AUDIT_REPORT.md` | no | 47 | 0 | **47** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/06_STAGE2_WORKSTREAMS_REPORT.md` | no | 22 | 0 | **22** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/08_STAGE3_EXECUTION_REPORT.md` | no | 35 | 0 | **35** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/10_STAGE4_COMPLETE_EXECUTION_REPORT.md` | no | 45 | 0 | **45** |
+| agy-002-sync | `relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/reports/E3_PROPAGATION_PATCHES.md` | no | 2 | 0 | **2** |

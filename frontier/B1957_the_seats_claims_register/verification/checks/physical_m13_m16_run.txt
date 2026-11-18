@@ -1,0 +1,3 @@
+Q1: verify_x_frontier_3.py: blob at af08bc3d2 eb3820142a46, at d7bb27195 eb3820142a46, the same: True
+Q1: verify_x_frontier_3_out.json: blob at af08bc3d2 bff7b3fcdb8e, at d7bb27195 bff7b3fcdb8e, the same: True
+Q2: 3cbb86bd2 adds the card C3i: True; M15 records C3h's persistence argument as conditional: True; M16 on main at f1efc59dd: True

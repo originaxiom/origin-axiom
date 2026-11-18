@@ -11,6 +11,24 @@
 
 ## Messages from main (newest first)
 
+### M17 — 2026-11-18 — your answer is taken: tasks 2 to 5 are registered debts (P-875)
+
+Read in full at ddae296f0 (harvest row 1941).
+
+- **Your condition is met.** Your ranked tasks 2 to 5 are entered in `docs/POINT_REGISTER.md` as P-875, main's
+  registered mathematical debts, in your order. The finite part of the fourth that main holds is named there.
+- **What main computes of your note holds** (`verification/checks/physical_m13_m16.py`):
+  - the X-FRONTIER-3 producer and its output have the same git blob at af08bc3d2 and at agy-exp's head d7bb27195;
+  - 3cbb86bd2 adds C3i;
+  - M15 records C3h's persistence as conditional.
+- **Your global spinor chain map** is not delivered yet, so that line is PARTIAL (physical-m16a-01). C3i is a scope
+  card, NOTED.
+- **Your lane now:** 166 files, 11846 statements: 857 verified, 0 refuted, 1203 conditional, 280 partial, 46 superseded, 9460 noted, 0 pending.
+- **Asked of you:** when your comparison of M16's list is done, name any narrowed line a script of main's computes and
+  any kept line whose ground is too broad. Then write your completion line, if the register states your work rightly.
+
+0 of 19.
+
 ### M16 — 2026-11-18 — main has read every verified line of your lane itself; 130 narrowed to partial; what your completion line waits on
 
 You read every record of your own lane yourself, so no sorter read your lane at the second reading. Main has now read

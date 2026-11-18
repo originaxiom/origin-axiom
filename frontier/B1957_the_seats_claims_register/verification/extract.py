@@ -9,11 +9,22 @@ LANES = (  # (lane, the seat's name, branch, base before the window, head harves
     ("agy-002-endgame", "agy-002", "origin/agy-002/endgame", "613c4f417", "94e511f54"),
     ("agy-002-closure", "agy-002", "origin/agy-002/closure", "94e511f54", "358d61786"),
     ("agy-002-foundations", "agy-002", "origin/agy-002/foundations", "ff8e1ca57", "ef2ea365b"),   # added 2026-11-18: its gates 8 to 11, a synthesis, its harvest review for M43 to M45; the branch is cut from main at ff8e1ca57
-    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "4e27d6d41"),
+    ("physical", "physical (codex)", "origin/audit/physical-bridge-2026-09-05", "1aa76251", "ddae296f0"),
     ("web", "the web seat (chat1)", "origin/chat1/web-seat", "b1727da04", "fdc3008e0"),
     ("agy-audit", "agy", "origin/agy/audit-2026-11-02", "da5c7125", "baadbad81"),
     ("sm", "the SM seat", "<remote>/standard-model-derivation-0qt6ao", "6ea836f5", "e7bf7bfca"),   # added 2026-11-18: its cards SM-C18 to SM-C21, delivered after its pin; the branch is written as the repository writes it (the label is not used to read: base and head are)
+    # added 2026-11-18, at the author's question whether the agy seats were fetched: the branch of 2026-11-11 whose session named itself agy-002
+    # (harvest row 1702). Main's ledger records its seven reports and receipts as not read (row 1696), its three arcs read at name level
+    # (row 1677) and P-781 owing main's check of every data-free statement in them; none of it was in the register.
+    ("agy-002-sync", "agy-002", "origin/agy/stage4-sync-2026-11-11", "015be0cc7", "d37c773d6"),
 )
+EXCLUDE = {  # files in a lane's window that are not the seat's own statements, each with the reason
+    # a byte-identical copy of the web seat's relay of 2026-11-11, which main read in full and verified in its own B1881 (harvest row 1674)
+    "agy-002-sync": ("frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/received/CHAT1_TO_CC_2026-11-11_THE_READ_OUT_AS_A_VALUE.md",),
+}
+ADDED_ONLY = {  # lanes whose edits to files that existed at the base are registered by the lines the seat added, not by the whole file
+    "agy-002-sync",   # it edited main's governing pages and registers on its branch (harvest row 1677); main's own text is not the seat's
+}
 EXTRA = {  # files older than a lane's window that main's own record shows were never read in full or never given a verdict.
     # The web seat: its section 1d's eight notes (2026-11-17), then, at its section 7.3 (2026-11-18), every file named by one of its harvest rows whose
     # disposition opens RECEIVED, REGISTERED or UNREAD or says it was read only at its head, the six relays it names as read in full but outside the
@@ -226,9 +237,14 @@ if __name__ == "__main__":
         assert subprocess.run(["git", "merge-base", "--is-ancestor", head, resolve(ref)], cwd=HERE).returncode == 0, (lane, head, "is not on", ref)
         if tip != head: print("%-18s the branch is at %s, beyond the head this register is cut at (%s)" % (lane, tip, head))
         names = [f for f in git("diff", "--name-only", "--diff-filter=AM", base, head, "--", "*.md").split("\n") if f]
-        names = sorted(set(names) | set(EXTRA.get(lane, ())))
+        names = sorted((set(names) | set(EXTRA.get(lane, ()))) - set(EXCLUDE.get(lane, ())))
         for f in sorted(names):
             text = git("show", "%s:%s" % (head, f)); us = units_of(text); k = 0
+            if lane in ADDED_ONLY and subprocess.run(["git", "cat-file", "-e", "%s:%s" % (base, f)], cwd=HERE, capture_output=True).returncode == 0:
+                added = set()
+                for h in re.finditer(r"^@@ -\S+ \+(\d+)(?:,(\d+))? @@", git("diff", "-U0", base, head, "--", f), re.M):
+                    st, n = int(h.group(1)), int(h.group(2) if h.group(2) is not None else 1); added |= set(range(st, st + n))
+                us = [u for u in us if u["line"] in added]
             for u in us:
                 t = re.sub(r"\s+", " ", u["text"])
                 kind = "meta" if (u["form"] == "head" or len(t) < 25 or META.match(t) or t.strip("*` .") in ("0 of 19", "")) else "statement"

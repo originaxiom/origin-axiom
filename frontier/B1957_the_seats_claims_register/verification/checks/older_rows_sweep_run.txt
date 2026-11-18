@@ -1,0 +1,28 @@
+S1: SM-derivation seat: rows 176 (naming no file 127); files 53: {'in the register': 5, 'on a branch, not in the register': 48}
+S1: audit seat: rows 162 (naming no file 8); files 154: {'on a branch, not in the register': 154}
+S1: audit seat, fork lane: rows 52 (naming no file 0); files 6: {'on a branch, not in the register': 6}
+S1: the web seat (chat1): rows 45 (naming no file 3); files 45: {'in the register': 40, 'on a branch, not in the register': 5}
+S1: cloud seat: rows 33 (naming no file 1); files 32: {'on a branch, not in the register': 32}
+S1: cc3 (paper seat): rows 26 (naming no file 25); files 1: {'on a branch, not in the register': 1}
+S1: sep16 seat (xb): rows 23 (naming no file 21); files 1: {'on a branch, not in the register': 1}
+S1: agy lane: rows 22 (naming no file 3); files 30: {'in the register': 28, 'on a branch, not in the register': 2}
+S1: web seat (chat1): rows 21 (naming no file 10); files 13: {'in the register': 9, 'on a branch, not in the register': 4}
+S1: codex seat: rows 18 (naming no file 12); files 9: {'not found': 9}
+S1: cloud seat (outside bench): rows 17 (naming no file 0); files 18: {'on a branch, not in the register': 18}
+S1: the physical lane: rows 14 (naming no file 0); files 28: {'in the register': 22, 'on a branch, not in the register': 6}
+S1: agy-002: rows 12 (naming no file 1); files 16: {'in the register': 7, 'on a branch, not in the register': 9}
+S1: agy-exp: rows 7 (naming no file 0); files 10: {'in the register': 8, 'on a branch, not in the register': 2}
+S1: hostile-review seat: rows 6 (naming no file 0); files 6: {'not found': 6}
+S1: advisor seat: rows 6 (naming no file 0); files 8: {'on a branch, not in the register': 8}
+S1: physics seat (fc): rows 5 (naming no file 3); files 1: {'not found': 1}
+S1: the agy lane (audit-2026-11-02): rows 4 (naming no file 2); files 2: {'in the register': 1, 'on a branch, not in the register': 1}
+S1: audit seat (the physical lane, audit/physical-bridge-2026-09-05): rows 3 (naming no file 0); files 3: {'on a branch, not in the register': 3}
+S1: listening thread (LP): rows 2 (naming no file 1); files 1: {'on a branch, not in the register': 1}
+S1: audit lane: rows 2 (naming no file 2); files 0: {}
+S1: chat1 (owner-relayed, 2026-09-15): rows 1 (naming no file 0); files 1: {'on a branch, not in the register': 1}
+S1: referee lane (paper-review-verification): rows 1 (naming no file 0); files 1: {'on a branch, not in the register': 1}
+S1: SM seat: rows 1 (naming no file 0); files 2: {'on a branch, not in the register': 2}
+S1: the advisor seat: rows 1 (naming no file 0); files 7: {'in the register': 1, 'on a branch, not in the register': 6}
+S1: physical lane (codex): rows 1 (naming no file 0); files 12: {'in the register': 3, 'on a branch, not in the register': 9}
+S1: agyaudit: rows 1 (naming no file 0); files 1: {'in the register': 1}
+S2: 27 seat labels; 662 rows; 219 of them name no file; files: {'in the register': 125, 'not found': 16, 'on a branch, not in the register': 320}

@@ -577,7 +577,9 @@
   "P-861": "WP-0.2",
   "P-864": "WP-0.2",
   "P-865": "WP-0.2",
-  "P-869": "WP-0.2"
+  "P-869": "WP-0.2",
+  "P-875": "WP-0.2",
+  "P-876": "WP-0.2"
  },
  "direct_rulings": [
   [
@@ -2608,7 +2610,9 @@
     "P-861",
     "P-864",
     "P-865",
-    "P-869"
+    "P-869",
+    "P-875",
+    "P-876"
    ],
    "findings": [
     "V1",
@@ -5296,8 +5300,8 @@
   "candidate_frame_joints": 14,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 95,
-  "debts_on_the_map_joined_to_nothing": 79,
+  "debts": 97,
+  "debts_on_the_map_joined_to_nothing": 81,
   "exits_by_kind": {
    "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
@@ -5333,7 +5337,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 288,
+  "map_nodes": 290,
   "nodes_assigned": 135,
   "nodes_needing_a_path": 135,
   "open_choices_under_each_conditional_headline": {
