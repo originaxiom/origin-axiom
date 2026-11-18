@@ -1,0 +1,10 @@
+{
+ "id": "physical-c8-03-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-c8-03, verified. The physical lane read every record of its own lane itself, so no sorter read this lane; main read all 1,390 of its verified statements one by one against their records' grounds. Narrowed: each line has a figure or a clause that the record's ground does not name and no script of main's computes; the clause, by line, is in second_reading/physical_unmarked.json. The parent's ground stands for what it names.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL:76"
+ ]
+}

@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1931 |
+| harvest rows (the last number) | 1935 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT WITHDREW ITS HARVEST COMPLETE AFTER ITS REFEREE READ FOUND FIVE THINGS IN MAIN'S RECORDS; EACH IS RIGHT AND MENDED; MAIN NOW COMPUTES THE CHANNELS' LAW WITH A FREE HIGGS INPUT (B1957, OPEN; harvest rows 1929 to 1931; P-865, P-873, P-874).** The register: 484 files, 424 read at source, 24561 statements: 3433 verified, 25 refuted, 1939 conditional, 1885 partial, 165 superseded, 17114 noted, 0 pending. The channels' law: with B1945's channels' matrix and a free Higgs input, the coupling moves under tau + 1 by one real R on both sides and an eighth of a turn (Q of determinant 1), in both readings, to 2e-15 (checks/web_wa2_readout.py, H4). a…”
+“LATEST (2026-11-18, S306p, night, latest: THE WEB SEAT HAS WRITTEN HARVEST COMPLETE AGAIN, AFTER CHECKING MAIN'S MENDS; MAIN HAS READ EVERY VERIFIED STATEMENT OF THE PHYSICAL LANE ITSELF (1,390: 857 KEPT, 130 PARTIAL, 4 CONDITIONAL, 399 NOTED); NO VERIFIED STATEMENT OF ANY LANE NOW STANDS UNREAD BY MAIN (B1957, OPEN; harvest rows 1932 to 1935; P-865, P-873, P-874).** The register: 484 files, 424 read at source, 24626 statements: 2941 verified, 25 refuted, 1943 conditional, 2019 partial, 165 superseded, 17533 noted, 0 pending. The web seat checks main's later records as later changes (M61); agy-002 waits only on its own check of main's changes (M51); the physical lane is asked what its compl…”
 
 ## Completeness (nothing skipped silently)
 

@@ -5,11 +5,8 @@
  "how": "checks/physical_main01.py: the part of B1953's operator that commutes with the whole continuous gauge group on W = 3 + 2 is, by Schur's lemma, (F/6) on the 3 and -F/4 on the 2, that is -(F/12) tensor 6Y, and it is the orthogonal projection (1e-15); an operator of that form has proportional Gramians over the 3 and the 2 (5e-16), and B1953's operator has not (0.19 for a random family; B1953's own figures differ). So the generic operator is not a gauge intertwiner, and under those hypotheses only its hypercharge component F, the phased sum, survives. The lane states this as a conditional observation for planning, and so does main: for a real Yukawa tensor the three representations differ and the invariant trilinear maps must be classified first",
  "note": "",
  "units": [
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:69",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:73",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:80",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:82",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:88",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:91",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/ASSESSMENT_AND_PLAN:95"
  ]

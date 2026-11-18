@@ -1,0 +1,31 @@
+{
+ "id": "physical-fr-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-fr-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST:88",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST:90",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:103",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:119",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:14",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:21",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:30",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:38",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:42",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:47",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:54",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:80",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:82",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:126",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:128",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:177",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:44",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:46",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:69",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:88",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:92",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW:36"
+ ]
+}

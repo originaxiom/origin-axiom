@@ -1,0 +1,11 @@
+{
+ "id": "physical-c8-06-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-c8-06, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:85",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE:88"
+ ]
+}

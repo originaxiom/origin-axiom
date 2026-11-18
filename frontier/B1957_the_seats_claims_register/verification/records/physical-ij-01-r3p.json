@@ -1,0 +1,27 @@
+{
+ "id": "physical-ij-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-ij-01, verified. The physical lane read every record of its own lane itself, so no sorter read this lane; main read all 1,390 of its verified statements one by one against their records' grounds. Narrowed: each line has a figure or a clause that the record's ground does not name and no script of main's computes; the clause, by line, is in second_reading/physical_unmarked.json. The parent's ground stands for what it names.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS:36",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS:65",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/ACTUAL_SLOT_VERTEX_AND_HIGHER_MASS:91",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES:154",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/MARKED_PHYSICAL_FAMILY_AND_CUSP_FRAMES:156",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX:17",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/NORMALIZED_WILSON_CROSSING_VERTEX:21",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN:202",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN:50",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN:53",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_FIELDS_AND_COMPLETE_DOMAIN:57",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PHYSICAL_INNER_ACTION_AND_SPIN_ORBIT:117",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:166",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:170",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:50",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:86",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/PROOF:89",
+  "physical:physical_bridge_2026_09_05/registered_domain_index_join_2026_11_16/SPIN_AND_CENTRAL_CORE_LIFT_EQUIVALENCE:100"
+ ]
+}

@@ -5,9 +5,7 @@
  "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R4: from the light cubic (5) on N_c = t nu_c, N_d = t nu_d the charged mass matrix is t times [[0, 0, lambda_+ nu_c], [0, 0, 0], [lambda_- nu_d, 0, 0]], of rank two with singular values |t lambda_+ nu_c| and |t lambda_- nu_d|, the third pair massless at this order; the second-order coefficient is the Schur complement P V2 P - P V1 Q C^-1 Q V1 P, which is the standard second-order reduction",
  "note": "Algebra on (5), which is itself conditional (physical-cub-03).",
  "units": [
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:143",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:147",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:151",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:162"
  ]
 }

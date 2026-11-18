@@ -1,0 +1,16 @@
+{
+ "id": "physical-bal-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-bal-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:126",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:128",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:130",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:44",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:62",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:83",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:91"
+ ]
+}

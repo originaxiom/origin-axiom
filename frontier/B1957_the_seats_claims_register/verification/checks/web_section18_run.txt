@@ -1,4 +1,4 @@
 Y1: the web lane at 6f337047b: {'files': 138, 'statements': 7581, 'VERIFIED': 1690, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 744, 'SUPERSEDED': 59, 'NOTED': 4924, 'PENDING': 0}; units 8327; cut at bf3b06b14
 Y2: the lane's records between 364ce101e and 6f337047b: new 8, changed 22, gone 0
 Y3: 29 units it names, read from the records at 6f337047b: not with the verdict it says: 0 []; the corrected W-B2 note's lines 126 and 127 (file ['CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_']): not verified: []
-Y4: web-wa3-04 names wa3_on_main.py, part D, for the trace signature: True; web.json's decision for W-A2's line 110: ['S']
+Y4: web-wa3-04 names wa3_on_main.py, part D, for the trace signature: in its ground False, in its note True; web.json's decision for W-A2's line 110: ['S']

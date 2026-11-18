@@ -5,24 +5,13 @@
  "how": "checks/physical_boundary_law.py, W2 and W3: from the action (2) as the lane supplies it, the equations (3) follow by varying both fields; the reduced energy is E = (r B^2 + p (B - Phi)^2)/2, minimal at B* = p Phi/(r + p) with E_n = r p Phi^2/(2 (r + p)) and Hessian r + p; the screened flux is p n/(r + p) and the relative number stays n. Main solved the field equations directly on a flat disc: the Maxwell equation with the Robin condition (c_H/G) f + kappa eta = 0 gives the same circulation and the same energy as the reduction, exactly, and the opposite sign in the Robin condition does not; the inequality (4) holds on 200 non-uniform trial fields. On a one-holed torus the closed relative one-forms with zero trace have dimension two (H^1 of the pair)",
  "note": "The action (2) is a supplied candidate, as the file says: its coefficient kappa and the physical origin of the phase are inputs.",
  "units": [
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:87",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:92",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:97",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:103",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:110",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:112",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:118",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:127",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:129",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:134",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:137",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:141",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:149",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:151",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:157",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:161",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:163",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:169",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:173"
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:169"
  ]
 }

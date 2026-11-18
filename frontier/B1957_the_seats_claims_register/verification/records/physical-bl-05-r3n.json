@@ -1,0 +1,15 @@
+{
+ "id": "physical-bl-05-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-bl-05, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:10",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:15",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:19",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:36",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:62",
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:95"
+ ]
+}

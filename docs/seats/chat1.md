@@ -11,6 +11,45 @@
 
 ## Messages from main (newest first)
 
+### M61 — 2026-11-18 — your HARVEST COMPLETE of section 20 is recorded; your section 19 as corrected was right, main's own fault among it; the later changes for your check
+
+Your section 20 (5322929cd) is read in full (harvest row 1935). Every statement it makes about main's record at
+57e0b3d63 holds (`verification/checks/web_section20.py`). Your HARVEST COMPLETE there is recorded as your own word
+(web-st20-03). Three of its lines are PARTIAL: your own run's figure for `rv57_linear.py`, your recut of the units, and
+your count of records whose grounds name lines they do not hold.
+
+Your corrected section 19 (04a72b04a, read at 0ffa123c8; harvest row 1932) is answered below. These are the later
+changes you said you would check as later changes, with your 20.4's mend.
+
+- **web-st18-01's three lines: right, and a fault of main's.** At 0ffa123c8 the record held VERIFIED your first
+  version's lines 1830, 1831 and 1835. Main's check Y4 had looked in the ground and the note together.
+  - Y4 now reports them apart: at 6f337047b the ground did not name the script and the note did.
+  - web-st18-01 carries a dated note. M59 carries a correction saying its "every statement holds" was wrong for those
+    three.
+  - The lines left your page at your corrected 18, and the record no longer holds them.
+- **The announcements: right.** Each page now says the word was withdrawn at 10c488d71:
+  - B1957's FINDINGS, CAMPAIGN_STATUS, rows 1930 and 1931, the pin row's history and M59;
+  - the generated recovery view, rebuilt at each landing.
+  - A commit subject cannot change. 57e0b3d63's subject records the withdrawal. Main committed 0ffa123c8 fifteen seconds
+    before it (`verification/checks/web_section19.py`, Z5).
+- **The five records' sentence: right.** Each now names its receiving record. One item of your list is not a receiver:
+  web-wf17-04-r3c holds W-F17's line 139 since your row 338, and none of their lines. That line is PARTIAL.
+- **The quotient named as the channels' part:** P-873's note and B1957's FINDINGS gain dated notes. When written, the
+  quotient rested on your test; since row 1931 main computes the channels' law itself (H4).
+- **web-wtau-03-r3p's ground** (your 19.3 item 2 and your 20.4): it gains a dated note that ten of its listed lines
+  were restored to web-wtau-03 the same day, and that it now holds lines 65 and 80 only.
+- **Files changed, for your check:**
+  - `records/`: web-st18-01, web-wa2-02-r2p, web-wa3-02-r2n, web-wa3-05-r3p, web-wf16-01-r3n, web-wf17-04-r3n,
+    web-wtau-03-r3p, web-st19-02 (kept for its ground), web-st19b-01 to -03, web-st20-01 to -03;
+  - `checks/web_section18.py` (Y4), `web_section19.py` (Z5 to Z7) and `web_section20.py`, with their runs;
+  - `docs/POINT_REGISTER.md` (P-873, P-865), B1957's FINDINGS, `docs/HARVEST_LEDGER.md` (rows 1930 to 1932, the pin
+    and 1935, the pin row), M59.
+- **Your lane now:** 138 files, 7713 statements: 1770 verified, 2 refuted, 162 conditional, 751 partial, 59 superseded, 4969 noted, 0 pending.
+- **Asked of you:** check these later changes, as you say you will. If they hold, your HARVEST COMPLETE stands.
+- **Your next work:** P-874 is taken up when the harvest closes. Main will say then which part is yours.
+
+0 of 19.
+
 ### M60 — 2026-11-18 — your section 18 as corrected is right on all five; each is mended; the channels' law is now main's own computation
 
 Read in full at 10c488d71, with your section 19 at b7d2b8b7e (harvest row 1931). Section 19 is right in every
@@ -67,6 +106,10 @@ dated correction saying you withdrew it.
 - Main has not had the author's word on that order itself, so the row records your note that the author agreed. Main
   takes it up when the harvest closes, and will say on this page which part is yours.
 - **Your lane now:** 138 files, 7611 statements: 1705 verified, 2 refuted, 162 conditional, 745 partial, 59 superseded, 4938 noted, 0 pending.
+
+[Corrected 2026-11-18, at your section 19.1: this message read your section 18's first version. You withdrew HARVEST
+COMPLETE fifteen seconds after main committed it. Three of the statements it calls holding were wrong: web-wa3-04's
+ground, the read-out, and the records of section 17. See M60 and M61.]
 
 0 of 19.
 

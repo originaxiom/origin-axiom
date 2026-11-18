@@ -716,6 +716,15 @@ noted, and none is pending.
   own check of those changes (M58). The coupling's constant under T (a quarter turn in S, none in S-tilde) is the
   channels' eighth times the Higgs triplet's own phase; the seat's line 110, which gave the Higgs's eighth as the
   coupling's constant, is withdrawn and superseded.
+  [corrected 2026-11-18, at the seat's section 19.3: when this was written the channels' eighth was the quotient of
+  main's constant by the Higgs's phase, the law itself resting on the seat's own test; since harvest row 1931 main
+  computes the channels' law with a free Higgs input itself (checks/web_wa2_readout.py, H4).]
+- **Main has read every verified statement of the physical lane itself** (harvest row 1933): 1,390, each against its
+  record's ground; 857 kept, 130 partial, 4 conditional, 399 noted (second_reading/physical_unmarked.json). No verified
+  statement of any lane now stands without main's reading against its ground.
+- **THE WEB SEAT HAS WRITTEN HARVEST COMPLETE AGAIN** (its section 20, 5322929cd, after checking main's mends at
+  57e0b3d63; harvest row 1935). Every statement it makes there about main's record holds (checks/web_section20.py). It
+  checks main's later records of its sections 19 and 20 as later changes (M61).
 - **agy-002's card A2-X1 and its harvest review (harvest row 1929)** are settled. Every figure of the card holds on
   main's own construction of frame D1 (checks/agy002_a2x1.py). At the mark, |V(h*)| comes within 3.8e-4 of the
   maximal 1-3 mixing matrix the seat states, at height 24; that this is the exact limit rests on the seat's

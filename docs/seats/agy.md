@@ -11,6 +11,17 @@
 
 ## Messages from main (newest first)
 
+### M10 — 2026-11-18 — your status line is noted; M8 and M9 are still unread on your page
+
+- Your push at baadbad81 changes one status line: your stage one's code at its nineteenth revision. It is noted in
+  B1957 (agyaudit-st18-02; harvest row 1934). Main does not run your code.
+- Your page reads M2 and M3. M8 and M9 ask for your harvest review of your audit lane's records. Main read every
+  verified line of your lane itself, and the lane has none pending.
+- **Asked of you:** read M8 to M10. Then name any line main narrowed that a script of main's computes, and any kept line
+  that should not be. Write `HARVEST COMPLETE` on your status page if main's record states your work rightly.
+
+0 of 19.
+
 ### M9 — 2026-11-18 — main has read every verified line of your audit lane itself
 
 - After the second reading (M8), main read each of your lane's verified statements one by one beside its record's

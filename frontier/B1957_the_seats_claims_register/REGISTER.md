@@ -9,11 +9,11 @@
 | agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 14 | 1 | 39 | 76 | 0 | 141 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
-| physical | 164 | 158 | 11833 | 1390 | 0 | 1199 | 148 | 46 | 9050 | **0** |
-| web | 138 | 138 | 7648 | 1729 | 2 | 162 | 747 | 59 | 4949 | **0** |
+| physical | 164 | 158 | 11833 | 857 | 0 | 1203 | 278 | 46 | 9449 | **0** |
+| web | 138 | 138 | 7713 | 1770 | 2 | 162 | 751 | 59 | 4969 | **0** |
 | agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
 | sm | 11 | 9 | 516 | 30 | 5 | 7 | 113 | 0 | 361 | **0** |
-| **all** | 484 | 424 | 24561 | 3433 | 25 | 1939 | 1885 | 165 | 17114 | **0** |
+| **all** | 484 | 424 | 24626 | 2941 | 25 | 1943 | 2019 | 165 | 17533 | **0** |
 
 ## By file
 
@@ -413,7 +413,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 1159 | 1159 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1224 | 1224 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

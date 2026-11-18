@@ -1,0 +1,12 @@
+{
+ "id": "web-st20-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: 1968, H4 is main's and agrees with the seat's rv57_linear.py, whose own run's 1.1e-15 is its figure; 2002, the lane's counts at 57e0b3d63 are main's (A4), its own cut of the units is its run; 2010, its count of 23 records whose ground lists lines, five naming lines they do not hold, is its own",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1968",
+  "web:STATUS_CHAT1:2002",
+  "web:STATUS_CHAT1:2010"
+ ]
+}

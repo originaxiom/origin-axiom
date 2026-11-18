@@ -1,0 +1,16 @@
+{
+ "id": "physical-fr-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-fr-01, verified. The physical lane read every record of its own lane itself, so no sorter read this lane; main read all 1,390 of its verified statements one by one against their records' grounds. Narrowed: each line has a figure or a clause that the record's ground does not name and no script of main's computes; the clause, by line, is in second_reading/physical_unmarked.json. The parent's ground stands for what it names.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST:65",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/ACTUAL_SOURCE_NORMAL_TEST:68",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/METRIC_TAIL_AND_NORMALIZATION:89",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:103",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SAME_ACTION_END_RESPONSE:134",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW:122",
+  "physical:physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW:142"
+ ]
+}

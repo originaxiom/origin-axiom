@@ -3,8 +3,6 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "main holds part: its lane at 0ffa123c8 has 138 files and 7,611 statements, 1,705 verified, 2 refuted, 162 conditional, 745 partial, 59 superseded and 4,938 noted, none pending (checks/web_section19.py, Z1); that its own cut of the units matches main's is its own run",
- "note": "",
- "units": [
-  "web:STATUS_CHAT1:1905"
- ]
+ "note": "KEPT 2026-11-18 for its ground, with no statement under it: the line it held was rewritten in the seat's corrected section 19 (04a72b04a), and the new line is in web-st19b-02.",
+ "units": []
 }

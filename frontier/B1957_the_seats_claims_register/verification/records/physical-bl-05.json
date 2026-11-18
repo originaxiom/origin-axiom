@@ -5,15 +5,8 @@
  "how": "checks/physical_boundary_law.py, W5 and W7: with the transition's two responses r_C = c_H/(G A_C) and r_T = c_H/(G A_T), eliminating the seam gives b* = A_T Phi/A and the energy c_H Phi^2/(2 G A), the curvature Phi/A on both sides, for every cut; at Phi = 2 pi n this is 2 pi^2 c_H n^2/(G A); the seam-source model has the same reduced shape and zero total added flux, so equal shapes do not identify the two. The lane's sealed cut table (three cuts of total area 3: circulations 5/2, 2, 1/2 and one energy 7/5) is the formula's at Phi = 3 and c_H Phi^2/G = 42/5",
  "note": "",
  "units": [
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:10",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:15",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:19",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:24",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:30",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:36",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:38",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:45",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:62",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:95"
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/SAME_ACTION_REGISTER_FUNCTIONAL:45"
  ]
 }

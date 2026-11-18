@@ -5,9 +5,7 @@
  "how": "checks/physical_main01.py: every one of the 24 operators D(v) has trace 1/2 over the 3 and -1/2 over the 2, so tr_3 O = F/2 and tr_2 O = -F/2; B1953's sentence had F and -F. The identity tr_W(O 6Y) = -(5/2) F stands. B1953 is corrected with a dated note; nothing else on main carried the sentence (swept)",
  "note": "",
  "units": [
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:14",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:18",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:24",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:30"
+  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:24"
  ]
 }

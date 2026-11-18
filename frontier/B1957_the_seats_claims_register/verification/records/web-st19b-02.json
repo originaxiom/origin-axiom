@@ -1,0 +1,11 @@
+{
+ "id": "web-st19b-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "main holds part of each: 1913, the five records' sentence was wrong as it says and is corrected, and four of the receiving records it names are the receivers (web-wa2-02, web-wa3-02, web-wa3-05-r3c, web-wf16-01-r3p, web-wf17-04), but web-wf17-04-r3c received none of their lines (main's trace through the records' history: it holds W-F17's line 139 since the seat's row 338); 1918, the lane's counts at 0ffa123c8 are main's (Z1), its own cut of the units is its run",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1913",
+  "web:STATUS_CHAT1:1918"
+ ]
+}

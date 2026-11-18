@@ -1,0 +1,18 @@
+{
+ "id": "physical-cm-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-cm-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:38",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:50",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:52",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:62",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/COMMON_DIVISOR_AND_EXACT_SPINOR_KERNEL:94",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/EXACT_CORNER_REDUCTION_AND_COMPLETE_DOMAIN:15",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS:109",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS:32",
+  "physical:physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS:35"
+ ]
+}

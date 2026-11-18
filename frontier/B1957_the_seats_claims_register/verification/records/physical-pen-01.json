@@ -5,18 +5,13 @@
  "how": "checks/physical_c3e_roster.py (main's own construction: so(10) on two five-spaces with the principal sl2 in each so(5), explicit matrices; E8's 248 weights), R5 to R7: for X = a E + b T_(3) in one five-space, Tr_5 X^2 = 0 and Tr_5 X^4 = 4 a^3 b Tr(E^3 T_(3)) with Tr(E^3 T_(3)) = 288 > 0 (random complex a, b), the eigenvalues being 0, +-lam, +-i lam; E8's 248 weights restricted to one so(5) are one adjoint, eleven vectors, thirty-two spinors and 55 trivial directions, as multisets; at mu = i lam the eighth-power traces are 68, 4 and 1/4 times lam^8 on explicit matrices, so Tr_248 (ad X)^8 = 120 lam^8 = (15/2)(Tr_5 X^4)^2, and the same 120 lam^8 directly from E8's weights; the difference of the two sides is divisible by Tr_5 X^2 as a polynomial, so the identity holds on the whole family; the fourth-power trace cancels (-12 + 44 - 32). The ranks: the 248 has 100 sl2 summands under one principal triple and 68 under the diagonal one, so the pencil z1 E_+ + z2 E_- has rank 180 when both are non-zero and 148 when one vanishes. With both neutral amplitudes on, the eighth-power trace is 120 times a non-zero binary form of degree 8 in the two eigenvalues (printed), and it is zero on the reference pencil; Omega cancels from a^3 b",
  "note": "These are exact facts of E8 and so(5). That the lane's background is this pencil is the lane's model.",
  "units": [
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:27",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:75",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:90",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:94",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:96",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:101",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:105",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:107",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:113",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:116",
   "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:118",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:121",
-  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:127"
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL:121"
  ]
 }

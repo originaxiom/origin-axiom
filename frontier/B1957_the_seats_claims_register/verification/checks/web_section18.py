@@ -36,4 +36,7 @@ print("Y3: %d units it names, read from the records at %s: not with the verdict 
       % (len(claims) + 2, AT, len(bad), bad, [w.split(":")[1][:40] for w in wb2], wb2bad))
 how = json.loads(git("show", AT + ":" + V + "records/web-wa3-04.json"))["how"] + " " + json.loads(git("show", AT + ":" + V + "records/web-wa3-04.json")).get("note", "")
 wj = json.loads(git("show", AT + ":" + V + "second_reading/web.json")); d110 = [x["decision"] for x in wj["units"] if x["unit"] == F["W-A2"] + ":110"]
-print("Y4: web-wa3-04 names wa3_on_main.py, part D, for the trace signature: %s; web.json's decision for W-A2's line 110: %s" % ("wa3_on_main.py, part D" in how, d110))
+# CORRECTED 2026-11-18 at the seat's section 19.1: this looked in the ground and the note together, so the seat's line that the
+# GROUND names the script passed when only the note did; the two are reported apart.
+w4 = json.loads(git("show", AT + ":" + V + "records/web-wa3-04.json"))
+print("Y4: web-wa3-04 names wa3_on_main.py, part D, for the trace signature: in its ground %s, in its note %s; web.json's decision for W-A2's line 110: %s" % ("wa3_on_main.py, part D" in w4["how"], "wa3_on_main.py, part D" in w4.get("note", ""), d110))

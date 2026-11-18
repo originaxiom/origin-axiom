@@ -5,13 +5,8 @@
  "how": "checks/physical_harmonic_draft.py (free-group automorphisms by word substitution, quaternions in exact rational arithmetic, the lifts as functions of tau), H8 and H9: conjugation by diag(-i, 1, i) turns A_L and A_R into the adjoint rotations of g_L and g_R on the axes (I, K, J), exactly; chi_21(L) A_L and chi_21(R) A_R are the triplet's monomial matrices as B1866 carries them (3e-16; B1866 has the same identity in exact arithmetic); the Szego function pi theta_1'(0) theta_3(pi z)/(theta_3(0) theta_1(pi z)) has residue 1 and both quasi-periods -1; by hand, (2 d_z + J0 d_z log Omega)(Omega^(-J0/2) f-bar) = 0 for holomorphic f",
  "note": "These are identities of matrices and functions. That the physical modes carry them is the withdrawn part.",
  "units": [
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:265",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:269",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:272",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:292",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:294",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:194",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:200",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CC_MATHEMATICAL_CARD:37",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/CC_MATHEMATICAL_CARD:39"
  ]

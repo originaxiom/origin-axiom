@@ -3,11 +3,6 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/physical_seal_ledger.py: the three seal rows the lane added in the window (and their heading line). Each names a file and a sha256, and each hash is that of a version of the file in the branch's history: the design file and the first specification at d5b9afdf6 (2026-11-16 02:24), the superseding specification at ca02b5d8d (02:28); the commit the first row's note names for its expectations, 12755db8a, is not later than that version",
- "note": "What the seals are evidence of (that a file existed in that form at that commit) is all a hash can show; that nothing was run before is the lane's statement.",
- "units": [
-  "physical:docs/SEAL_LEDGER:9413",
-  "physical:docs/SEAL_LEDGER:9417",
-  "physical:docs/SEAL_LEDGER:9418",
-  "physical:docs/SEAL_LEDGER:9420"
- ]
+ "note": "What the seals are evidence of (that a file existed in that form at that commit) is all a hash can show; that nothing was run before is the lane's statement. EVERY LINE OF THIS RECORD HAS MOVED (2026-11-18, main's reading of the lane's verified statements). It is kept, with no statement under it, for its ground.",
+ "units": []
 }

@@ -5,20 +5,8 @@
  "how": "the mathematics and the source facts of the package's findings on other seats' sources and on main's own code, on main (checks/physical_dependency_plan.py; nothing of any seat's run): its 21 excerpts are in files with the pinned sha256 at the pinned lines (D0). On another seat's X-FOUNDATION sources, the mathematics the findings rest on: the adjoint of a first-order operator with zero end values has no end condition, so two matrices of one shape are not an adjoint pair (a finite model: kernels 0 and 1, against 0 and 0 for the sign-reversed matrix of the same shape; D4); log(v/M) = -a Vol + log c is solved by c = (v/M) exp(a Vol) for every v/M, so it removes no input while c is free (D3); a potential lambda(log phi) phi^4/4 is stationary where 4 lambda + beta = 0, not where lambda = 0 (D3). END-01, IN MAIN'S OWN CODE, RIGHT: B1927's end routine returns the nearest value where interpolation is not finite and flags only the upper edge (D5; register row P-864). MAIN-01 and the conditional projection are in the records physical-main01 and physical-join-01 (checks/physical_main01.py); D1 and D2 recompute them a second way",
  "note": "WHAT IS VERIFIED HERE is that the quoted lines are where the lane says and that the mathematics it holds against them is right. That each quoted routine does in its whole file what the finding says is the lane's reading, in physical-dp-02.",
  "units": [
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:40",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:50",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:63",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:85",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:88",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:103",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:120",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:123",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:126",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:128",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:142",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:145",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:160",
-  "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:179",
   "physical:physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/CURRENT_SOURCE_FINDINGS:183"
  ]
 }

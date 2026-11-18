@@ -5,18 +5,10 @@
  "how": "its section 19 (b7d2b8b7e), each statement about main's record at 0ffa123c8 held there (checks/web_section19.py, Z2 to Z4): web-st18-03 recorded its first version's HARVEST COMPLETE (now corrected with a dated note, harvest row 1931); web-st18-02's PARTIAL is right; M59's change holds: the five records gained their sentence, N2 is true with 102 such records, and the records new or changed since 6f337047b are the ten it names; the five things of its section 18.2 were open at 0ffa123c8 as it lists, web-wa2-05-r3p's stale sentence among them, and each is now mended (row 1931, M60); P-874 is entered as it says",
  "note": "",
  "units": [
-  "web:STATUS_CHAT1:1893",
-  "web:STATUS_CHAT1:1897",
-  "web:STATUS_CHAT1:1899",
-  "web:STATUS_CHAT1:1900",
-  "web:STATUS_CHAT1:1902",
-  "web:STATUS_CHAT1:1903",
-  "web:STATUS_CHAT1:1909",
+  "web:STATUS_CHAT1:1908",
+  "web:STATUS_CHAT1:1910",
   "web:STATUS_CHAT1:1911",
-  "web:STATUS_CHAT1:1913",
-  "web:STATUS_CHAT1:1914",
-  "web:STATUS_CHAT1:1915",
   "web:STATUS_CHAT1:1916",
-  "web:STATUS_CHAT1:1920"
+  "web:STATUS_CHAT1:1938"
  ]
 }

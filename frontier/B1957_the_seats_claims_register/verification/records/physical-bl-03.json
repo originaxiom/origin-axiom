@@ -5,21 +5,15 @@
  "how": "checks/physical_boundary_law.py, W4 to W6: the radial control on a solid torus (the Maxwell equation's regular solution a = B_0 rho^2/R^2; energies 2 pi L B_0^2/(G R^2) and pi kappa L (B_0 - n)^2/R; B_0* = kappa G R n/(2 + kappa G R); E_n = 2 pi L kappa n^2/(R (2 + kappa G R))), symbolically; the two sewing problems (fixed flux: b* = Phi A_T/(A_C + A_T), the same curvature Phi/A on both sides, an energy that depends on the cut only through the total area; the seam source (8): a unique minimum that does move with the cut, with zero total added curvature); E_n proportional to n^2 with its minimum at 0 and at +-1 once 0 is excluded, so nothing in this model selects 3; for a rank-three bundle on a curve chi(V(m p)) - chi(V) = 3 m",
  "note": "",
  "units": [
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:181",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:187",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:191",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:198",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:203",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:205",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:209",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:211",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:217",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:221",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:224",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:229",
   "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:244",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:265",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:269",
-  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:273"
+  "physical:physical_bridge_2026_09_05/relative_register_boundary_law_2026_11_15/PROOF:269"
  ]
 }

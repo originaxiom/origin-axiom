@@ -1,0 +1,33 @@
+{
+ "id": "physical-so-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-so-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING:101",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING:103",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING:106",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING:136",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/ACTUAL_SPIN_VERTEX_CURRENT_AND_WILSON_CROSSING:141",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES:108",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES:17",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES:19",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/CORRELATED_ORBITS_AND_DIRECT_ZERO_MODES:32",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:154",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:192",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:194",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:196",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:78",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:80",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/FINITE_BULK_CONNECTIONS_QUARTIC_AND_REAL_GAUSS:91",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION:131",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION:137",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PARALLEL_BACKGROUND_ORTHOGONAL_REDUCTION:143",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE:44",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE:62",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE:67",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE:70",
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/PHYSICAL_SPIN_MODE_TRIPLET_AND_RETAINED_LINE:97"
+ ]
+}

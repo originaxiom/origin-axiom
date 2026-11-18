@@ -5,14 +5,11 @@
  "how": "checks/physical_harmonic_draft.py (free-group automorphisms by word substitution, quaternions in exact rational arithmetic, the lifts as functions of tau), H6 and H7: the lifts (tau -> tau - 1, root 1) and (tau -> -1/tau, root sqrt tau) satisfy s^4 = (s t)^3 = (identity, -1) and [s^2, t] = 1 with principal roots; negating both roots keeps the relations and negating one breaks (s t)^3, so the two lifts differ by the sign character of SL(2, Z); a sign character of F2 invariant under both moves is zero (by hand: (x, y) -> (x, x + y) and (x + y, y) fix only (0, 0)); the eta law v(gamma tau) = chi_-1 sigma v(tau) for v = eta/|eta| holds with chi_-1 = e(-1/24) on t and e(-3/24) on s (30 digits); the three check values at tau = i are exp(-3 pi i/4), exp(pi i/4) and i",
  "note": "",
  "units": [
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:95",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:99",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:103",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:108",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:115",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:243",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:246",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:250",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:258"
  ]
 }

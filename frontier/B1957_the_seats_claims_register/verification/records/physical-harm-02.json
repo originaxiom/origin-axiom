@@ -5,13 +5,10 @@
  "how": "checks/physical_harmonic_draft.py (free-group automorphisms by word substitution, quaternions in exact rational arithmetic, the lifts as functions of tau), H1 to H5: (L, (1+I)/sqrt2), (R, (1-J)/sqrt2) and (s, (1-K)/sqrt2) are in E; Delta = L R^-1 L = Inn_a s as automorphisms of F2 (a -> a b^-1 a^-1, b -> a), with lift I (1-K)/sqrt2 = (I+J)/sqrt2; s and Delta have the same homology matrix [[0,1],[-1,0]]; (s L)^3 = id with (g_s g_L)^3 = -1, s^4 = id with g_s^4 = -1, s^2 L s^-2 = Inn_(a^-1) L and R = Inn_(b^-1) s L^-1 s^-1, each with its lift; g_s is a rotation of Pin2 about K and g_Delta and g_(L^2) = I are reflections, so the top line's character is +1 on s and -1 on Delta and on L^2; the sign of the permutation of the three axes is +1 on L^2 and -1 on s and Delta. THE CORRECTION ADDRESSED TO MAIN'S B1866 IS RIGHT: on the 3 x 3 matrices of B1866's finding F1 the word L R^-1 L has -1 on the branch it fixes and L^2 has -1 there, as B1866 found; the based quarter-turn s = Inn_a^-1 Delta has +1 there, which is the value the agy lane's text stated. The two values belong to two based lifts of one homology matrix",
  "note": "Carried to B1866's page as a dated note. B1866's own statement (the relay's matrices and its text disagree) stands as a fact of the record; what changes is its reading: neither sign is an error of arithmetic.",
  "units": [
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:35",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:39",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:44",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:52",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:59",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:63",
-  "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:66",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:219",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:223",
   "physical:physical_bridge_2026_09_05/physical_harmonic_transport_2026_11_12/failed_draft_01/PROOF:226",

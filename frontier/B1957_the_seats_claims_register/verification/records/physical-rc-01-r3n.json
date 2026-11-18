@@ -1,0 +1,16 @@
+{
+ "id": "physical-rc-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-rc-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:117",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:122",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:161",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:169",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:74",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:95",
+  "physical:physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS:98"
+ ]
+}

@@ -1137,7 +1137,7 @@ def test_the_web_seats_section_18_states_mains_record_rightly():
     run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_section18_run.txt").read_text()
     assert "'files': 138, 'statements': 7581, 'VERIFIED': 1690, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 744, 'SUPERSEDED': 59, 'NOTED': 4924, 'PENDING': 0}; units 8327; cut at bf3b06b14" in run
     assert "new 8, changed 22, gone 0" in run and "29 units it names" in run and "not with the verdict it says: 0 []" in run and "not verified: []" in run
-    assert "part D, for the trace signature: True; web.json's decision for W-A2's line 110: ['S']" in run
+    assert "part D, for the trace signature: in its ground False, in its note True; web.json's decision for W-A2's line 110: ['S']" in run      # corrected 2026-11-18 (the seat's section 19.1)
 
 
 
@@ -1148,3 +1148,33 @@ def test_the_web_seats_section_19_states_mains_record_rightly():
     assert "'statements': 7611, 'VERIFIED': 1705, 'REFUTED': 2, 'CONDITIONAL': 162, 'PARTIAL': 745, 'SUPERSEDED': 59, 'NOTED': 4938, 'PENDING': 0" in run
     assert "and 0ffa123c8: 10:" in run and "102, each saying so in its note: True" in run
     assert "names HARVEST COMPLETE at 6f337047b: True" in run and "holds W-A2's line 113: True" in run
+
+
+def test_main_read_every_verified_statement_of_the_physical_lane():
+    """added 2026-11-18: main's reading, one by one, of the physical lane's 1,390 verified statements against their grounds
+    (second_reading/physical_unmarked.json): each narrowed line sits in its parent's -r3 companion with the listed verdict,
+    each kept line is verified, and no verified statement of the lane is unread.  Recomputed here from the files."""
+    import collections, json
+    V = pathlib.Path(__file__).resolve().parent; L = json.loads((V / "second_reading" / "physical_unmarked.json").read_text())
+    owner = collections.defaultdict(list)
+    for q in (V / "records").glob("physical-*.json"):
+        d = json.loads(q.read_text())
+        for u in d.get("units", []): owner[u].append((d["id"], d["verdict"]))
+    want = {"P": "PARTIAL", "N": "NOTED", "C": "CONDITIONAL"}; narrowed = {x["unit"] for x in L["units"]}
+    assert L["read"] == len(L["read_units"]) == 1390 and narrowed <= set(L["read_units"]) and L["kept"] == 1390 - len(narrowed)
+    for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
+    kept = set(L["read_units"]) - narrowed
+    assert all(len(owner[u]) == 1 and owner[u][0][1] == "VERIFIED" for u in kept)
+    since = ()                                                     # records written later from main's own reading of new packages
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in kept and not o[0][0].startswith(since)]
+    assert unread == [], unread[:5]
+
+
+
+def test_the_web_seats_section_20_states_mains_record_rightly():
+    """the web seat's section 20, where it writes HARVEST COMPLETE again (checks/web_section20.py, from its committed run):
+    H4's cases and constants, the corrections it names, and its lane at 57e0b3d63."""
+    run = (pathlib.Path(__file__).resolve().parent / "checks" / "web_section20_run.txt").read_text()
+    assert "320 cases, residual 2.0e-15, c [0.125] [0.125] with Q and [0.625] [0.625] with -Q" in run
+    assert "each saying so in its note: True; web-read-44 READ; web-wa3-04's ground names part D True" in run
+    assert "'statements': 7648, 'VERIFIED': 1729" in run and "holds lines [65, 80]" in run

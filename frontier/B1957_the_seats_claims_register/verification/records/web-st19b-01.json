@@ -1,0 +1,30 @@
+{
+ "id": "web-st19b-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its corrected section 19 (04a72b04a), each statement about main's record at 0ffa123c8 held there (checks/web_section19.py, Z1 to Z7) and acted on (harvest rows 1931 and 1932): the lane was cut at 8bb9a1fcc; main committed 0ffa123c8 fifteen seconds before the seat's withdrawal; main's pages announced the word as standing (B1957's FINDINGS, CAMPAIGN_STATUS, row 1930 and the pin row, the generated recovery view, M59, the commit subject: each now corrected with a dated note, the subject excepted, which 57e0b3d63's subject answers); web-st18-01 held VERIFIED the first version's lines 1830, 1831 and 1835, which its corrected version lists as wrong, and main's Y4 had looked in the ground and the note together (a fault of main's, now mended); N2's 102 records across the lanes, 54 of them this lane's; the six things open at 0ffa123c8, each now mended, among them web-wtau-03-r3p's stale ground (at main's judgement, mended)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1892",
+  "web:STATUS_CHAT1:1895",
+  "web:STATUS_CHAT1:1897",
+  "web:STATUS_CHAT1:1901",
+  "web:STATUS_CHAT1:1902",
+  "web:STATUS_CHAT1:1903",
+  "web:STATUS_CHAT1:1904",
+  "web:STATUS_CHAT1:1906",
+  "web:STATUS_CHAT1:1915",
+  "web:STATUS_CHAT1:1922",
+  "web:STATUS_CHAT1:1923",
+  "web:STATUS_CHAT1:1924",
+  "web:STATUS_CHAT1:1925",
+  "web:STATUS_CHAT1:1926",
+  "web:STATUS_CHAT1:1927",
+  "web:STATUS_CHAT1:1928",
+  "web:STATUS_CHAT1:1930",
+  "web:STATUS_CHAT1:1931",
+  "web:STATUS_CHAT1:1932",
+  "web:STATUS_CHAT1:1933",
+  "web:STATUS_CHAT1:1934"
+ ]
+}

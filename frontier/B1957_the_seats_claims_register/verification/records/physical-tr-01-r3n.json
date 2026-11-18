@@ -1,0 +1,20 @@
+{
+ "id": "physical-tr-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-tr-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, pointers, provenance rows, or the lane's own readings, plans and requests.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:120",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:42",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:45",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:47",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:60",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/ACTUAL_TRANSVERSE_EQUATIONS_AND_RANGE_CLOSURE:62",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE:137",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/COLOR_PRESERVING_E6_JOIN_AND_COHERENT_WILSON_SOURCE:31",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION:103",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION:118",
+  "physical:physical_bridge_2026_09_05/physical_transverse_response_2026_11_16/PROTECTED_SPIN_QUARTIC_AND_MEASURED_NORMALIZATION:84"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "physical-so-03-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE VERIFIED STATEMENTS, 2026-11-18. These lines stood under record physical-so-03, verified. The physical lane read every record of its own lane itself, so no sorter read this lane; main read all 1,390 of its verified statements one by one against their records' grounds. Narrowed: each line has a figure or a clause that the record's ground does not name and no script of main's computes; the clause, by line, is in second_reading/physical_unmarked.json. The parent's ground stands for what it names.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/physical_state_orbit_2026_11_16/X_UNIFY_TARGETED_SOURCE_REVIEW:88"
+ ]
+}

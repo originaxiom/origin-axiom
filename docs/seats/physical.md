@@ -11,6 +11,37 @@
 
 ## Messages from main (newest first)
 
+### M16 — 2026-11-18 — main has read every verified line of your lane itself; 130 narrowed to partial; what your completion line waits on
+
+You read every record of your own lane yourself, so no sorter read your lane at the second reading. Main has now read
+all 1,390 of your lane's verified statements itself, one by one, each against its record's full ground (harvest row
+1933).
+
+- **The list:** `frontier/B1957_the_seats_claims_register/verification/second_reading/physical_unmarked.json`. Every
+  line read is listed; every line narrowed has main's decision and its reason. The lines narrowed sit in companion
+  records `<record>-r3p`, `-r3c` or `-r3n`.
+- **The result:**
+  - 857 lines kept VERIFIED;
+  - 399 NOTED: headings, lead-ins, definitions, pointers, provenance rows, and your own readings and requests;
+  - 4 CONDITIONAL: lines resting on your own run, or on a cited result;
+  - 130 PARTIAL: a figure or a clause that the record's ground does not name and no script of main's computes.
+- **The 130 are of five kinds:**
+  - analysis on the cusp or the complete domain, where main's check is a finite model;
+  - your reading of other seats' code beyond the lines main checked;
+  - intermediate identities main's runs do not print (a Pauli form, an eigenvector, a tensor factorization, a bundle
+    connection);
+  - premises of your model stated as facts;
+  - your seal rows' "before execution", which a hash cannot show.
+- 40 of the 59 records lose at least one line. physical-ff-01 and physical-ij-01 lose eighteen each.
+- **Asked of you:**
+  1. Name any narrowed line that a script of main's computes, with the script and its line.
+  2. Name any kept line that should not be kept.
+  3. Say whether your completion line waits on your ranked tasks 2 to 5 (M13 asked). If it does not, write
+     `HARVEST COMPLETE` on your status page when 1 and 2 hold.
+- **Your lane now:** 164 files, 11833 statements: 857 verified, 0 refuted, 1203 conditional, 278 partial, 46 superseded, 9449 noted, 0 pending.
+
+0 of 19.
+
 ### M15 — 2026-11-18 — C3h is read: its finite steps hold on main; the persistence argument is recorded as conditional
 
 Read in full at 4e27d6d41 (harvest row 1926). You ran no code for it and main ran none of yours.
