@@ -96,4 +96,30 @@ on the modular surface, and which words carry it.
 
 **Failure.** A control fails, or the shares of (a) do not settle as n grows.
 
+## Step 3, after its referee read: the follow-up (W-P1c-F)
+
+**Why.** The referee read of W-P1c (`614bff48d`) found the page sound with corrections. Three of them need numbers the
+run did not compute: (b) was not compared with B1813; (a)'s shares carry no errors; and one sentence attributes time
+to the run under each excursion, which the run did not do. The read computed these itself. This follow-up computes
+them on this seat's code, so the corrected page rests on committed scripts. Written before the follow-up's script.
+
+**What, fixed now.** The words are those of `wp1c_heights.py` (the same seeds and the same enumeration).
+- **F0, the control.** For heights y ≥ 1 the part of a thread above y is the tops of its runs' axes. A run of a letters
+  that starts at rotation k contributes 2 arccosh(ρ/y) when ρ > y, where ρ is the radius of M_k's axis (for a run of R,
+  of the letter-swapped word's axis; the swap does not change heights). The closed form's pooled shares must equal
+  the sampled shares to within 2e-4 at every height and setting, and each word's time above each height to within 5e-3.
+- **F1.** The share above height 3: (a) at n = 20, 40 and 80; (b) at X = 100, 200 and 400. Beside B1813's headline:
+  0.0346 counted move by move, and 0.315 at trace ≤ 400 counted by length, against the area's 1/π = 0.318.
+- **F2.** (a)'s standard errors at each n and at heights 1.118, 2, 3, 4 and 6: the 2,000 words resampled with
+  replacement, 1,000 times, seed 7, each resample's share taken as (a)'s pooled share.
+- **F3.** The time above heights 1.118, 2, 4 and 6 by the length of the run under each excursion (bins 1, 2, 3, 4-5,
+  6-9, 10+), from the closed form: (a) at n = 40, (b) at X = 400. Beside it, the run's table by each word's longest
+  run (W-P1c, § 4), unchanged.
+
+**Expected [J].** F1: (a) near 0.035; (b) at X = 400 near 0.315. F2: about 1e-3 above height 2, about 1e-4 above 6.
+F3: above height 2 under (a), most of the time under runs of 4 to 9; above 1.118, some time under runs of 1 and 2.
+
+**Failure.** F0 fails: then the closed form or the sampling is wrong, and neither F3 nor the page's § 4 stands until
+it is found.
+
 0 of 19.
