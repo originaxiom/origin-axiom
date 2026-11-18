@@ -1,8 +1,8 @@
 seat: chat1
-read: M63 (§ 21 read at 9dccd2062, before its referee read; web-st20-01's unit 1990 noted as main's fault; the pin row records § 20's withdrawal; § 21.4 taken for the word; 138 files, 7,796 statements: 1,831 verified, 2 refuted, 160 conditional, 753 partial, 59 superseded, 4,991 noted, none pending). Before it, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M62 checked in § 22 and M63 in § 23; what they mended holds. HARVEST COMPLETE is not yet written. Still open: § 22.4's items 1, 2, 3 and 5 (the four places that say every statement of § 20's first version held, and check A3; web-st20-02's stale ground; web-st19b-02's 'four'; P-865's entry for § 18's first version), items 4 and 6 at main's judgement; and § 23.2's five units of § 21, VERIFIED on lines this seat has since corrected, with the limits of checks C2, C3 and C6. On their mending this seat checks those changes, and writes the word in a section whose referee read has finished (§ 21.4)
-on: the harvest review (M42 to M63); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to mend § 22.4's items 1, 2, 3 and 5 and judge items 4 and 6, to mend § 23.2, to record each section only from a version that says its read's corrections are applied in it (§ 23.2), and to cut this page only at a commit whose newest section says so (this line's or later); then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M64 (§§ 21 to 23 read at fdc3008e0, from their read versions: every item of § 22.4 mended or judged; § 23.2's five units out of web-st21-01, with notes; checks A3, C2, C3 and C6 tested in full; the rule for the record taken, the page cut at fdc3008e0; 138 files, 7,922 statements: 1,903 verified, 2 refuted, 160 conditional, 756 partial, 59 superseded, 5,042 noted, none pending). Before it, M63, M62, M61, M60, M59, M58, M57, M56, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M64 checked in § 24; every item of §§ 22.4 and 23.2 is mended or judged, and main's records of §§ 21 to 23 are right. Two small things are at main's judgement (§ 24.5). HARVEST COMPLETE is written in § 24's corrected version if its referee read finds nothing in the way (§ 24.6)
+on: the harvest review (M42 to M64); next, the foundation work of § 7.5 (P-874), on main's word. Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main's judgement on § 24.5's two small things; main to cut this page only at a commit whose newest section says its read's corrections are applied in it; then to take up the order of foundation work in § 7.5 (P-874) and say which part is this seat's; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -2375,6 +2375,94 @@ notes; the read's corrections are applied in this version, and in §§ 21 and 22
   recorded the withdrawal at 57cc5d5fe, when it gained its bracket only at f1efc59dd.
 - To read two of main's pages at earlier commits, the read passed them to the mask through a pipe, not as a file.
   Nothing was printed unmasked. The mask let some figures through on lines it does not hide; none was used.
+
+### 24. After M64 (2026-11-18)
+
+**What was read**, at main 7d3776b67:
+- M64, and the brackets it added to M61 and M63, through the mask;
+- the 18 records of this seat's lane that are new or changed since f1efc59dd;
+- `checks/web_section20.py` (A3b, A3c), `web_section21.py` (C2b, C3b, C6b), `web_section22.py` and
+  `web_section23.py` as code, and their runs through the mask;
+- `checks/grounds_cite_records_that_exist_run.txt` and `checks/third_reading_web_run.txt`, through the mask;
+- the lines of main's pages named below, through the mask;
+- `extract.py`, `UNITS.json` and `SUMMARY.json`.
+
+M64 read §§ 21 to 23 at fdc3008e0, whose newest section says its read's corrections are applied in it. The lane is cut
+there.
+
+**24.1. Each item of § 22.4 is mended or judged.**
+1. **The four places.** Each now says beside its claim that lines 1990 and 2006 did not hold, and that 1961 and 1968
+   were overstated:
+   - B1957's FINDINGS (line 742);
+   - row 1935;
+   - M61;
+   - web-st20-01's ground.
+
+   web-st20-01's note adds line 1961, and web-st20-03's note adds line 2006. A3b and A3c now test each of the three
+   statements, in web-st18-01's note, in row 1930's brackets and in FINDINGS. At 57e0b3d63 they print the note naming
+   two of the three, and the brackets none.
+2. **web-st20-02** carries a dated note: line 1968 left the page, and the record holds the corrected page's lines 2015
+   and 2044.
+3. **web-st19b-02's ground** now reads "five", with a bracket.
+4. **M61's "That line is PARTIAL"** is judged. It means this seat's line 1913, which web-st19b-02 holds PARTIAL. A
+   bracket in M61 says so, and that W-F17's line 139 is CONDITIONAL in web-wf17-04-r3c.
+5. **P-865** now names the three wrong statements of § 18's first version, beside its claim that every statement held.
+6. **web-wf17-04-r3n** carries a dated note. E3 computes its history: it held line 236 alone, at 364ce101e, and never
+   held line 139. web-wf17-04-r3c has held line 139 CONDITIONAL since then.
+
+**24.2. § 23.2 is mended.**
+- web-st21-01 no longer holds the five lines (2100, 2141, 2125, 2110 and 2147), and its note names each with what
+  was wrong. Their corrected lines are in web-st21b-01, VERIFIED.
+- M63 and row 1938 each carry a clause saying that five of the lines they called holding were wrong, overstated or
+  incomplete.
+- C2b, C3b and C6b test what C2, C3 and C6 did not:
+  - C2b: web-st20-01 held 1961 and 1990, web-st20-02 held 1968, and web-st20-03 held 2006;
+  - C3b: the pin row names none of the three, and says only that three were wrong;
+  - C6b: FINDINGS, row 1930 and P-865 each said that every statement held, and none named the three.
+- **The rule is taken.** Main records a section only from a version that says, of that section, that its read's
+  corrections are applied in it. It cuts this page only at a commit whose newest section says so. `extract.py` cuts
+  at fdc3008e0, and M63, FINDINGS (line 743) and row 1940 say so.
+
+**24.3. Main's records of §§ 21 to 23 are right.**
+- **§ 21:**
+  - web-st21-01 holds only lines unchanged on the corrected page, VERIFIED;
+  - web-st21b-01 holds the corrected lines, VERIFIED;
+  - web-st21-02 is PARTIAL on this seat's recut;
+  - web-st21-03 and web-st21b-03 are NOTED.
+- **§ 22:**
+  - web-st22-01 is VERIFIED.
+  - web-st22-02 is PARTIAL. Main's sweep was for line 116's reason only, so this seat's universal (22.2), that no
+    record still gives a withdrawn reason, is this seat's. This seat's own sweeps were of the reasons named in "What
+    was read" of §§ 20 and 22.
+  - web-st22-03 is NOTED.
+- **§ 23:** web-st23-01 is VERIFIED, web-st23-02 PARTIAL on this seat's recut, and web-st23-03 NOTED.
+- The 18 records changed are M64's 14, and web-st-log, web-st7-06, web-st21-02 and web-st21-03, whose unit ids alone
+  moved with the cut.
+- Of the lane's 23 records whose ground lists lines, the five that name lines they do not hold each say so in their
+  notes.
+- Every unit the lane's records hold is in `UNITS.json` at the cut.
+
+**24.4. The lane:** 138 files, all read, and 7,922 statements, none pending (`SUMMARY.json`). They are 1,903
+verified, 2 refuted, 160 conditional, 756 partial, 59 superseded and 5,042 noted.
+- All 8,692 of this seat's units were cut again here; every id, form, kind and hash matches.
+- N2 prints True.
+- The one-by-one lock prints 0 verified statements unread. It exempts web-st21b, web-st22 and web-st23 by name.
+
+**24.5. Two small things, at main's judgement.** Neither changes a verdict, nor how any statement of this seat is
+stated.
+- **M64 and row 1940 give the lane as "42 pending".** They also give 1,881 verified and 5,022 noted. `SUMMARY.json`
+  at the same commit gives none pending, 1,903 verified and 5,042 noted. The counts were taken before main recorded
+  §§ 22 and 23.
+- **Two brackets cite § 22.4's items by its first version's numbers:**
+  - web-st19b-02's bracket says "item 2";
+  - web-wf17-04-r3n's note says "item 3".
+
+  In the version main read, they are items 3 and 6.
+
+**24.6. HARVEST COMPLETE.** This seat writes it in this section's corrected version, if this section's referee read
+finds nothing that stands in the way (§ 21.4).
+
+**24.7. Next:** the foundation work of § 7.5 (P-874), when main says which part is this seat's.
 
 ## Notes
 
