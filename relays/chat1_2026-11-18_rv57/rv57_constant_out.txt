@@ -1,0 +1,10 @@
+H: c3(tau + 1) = M c3(tau) on six tau, residual 6.7e-16; M = h Q with Q real to 8.1e-16, det Q = 1.000000, Q^T Q = 1 to 7.8e-16; |h| = 1.000000000000, h = 0.125000 of a turn; Q rounded: [[1.0, -0.0, -0.0], [0.0, 0.0, 1.0], [0.0, -1.0, 0.0]]
+K: base 0.13 down S : main's constant 0.250000 of a turn (spread over the points a = 0: 3.3e-18); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.13 down St: main's constant 1.000000 of a turn (spread over the points a = 0: 4.1e-17); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.13 up   S : main's constant 0.250000 of a turn (spread over the points a = 0: 3.8e-17); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.13 up   St: main's constant 0.000000 of a turn (spread over the points a = 0: 1.9e-16); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.31 down S : main's constant 0.250000 of a turn (spread over the points a = 0: 5.7e-17); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.31 down St: main's constant 0.000000 of a turn (spread over the points a = 0: 2.2e-17); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.31 up   S : main's constant 0.250000 of a turn (spread over the points a = 0: 1.5e-16); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: base 0.31 up   St: main's constant 0.000000 of a turn (spread over the points a = 0: 1.2e-16); over the Higgs's own phase in this reading: 0.125000 of a turn
+K: the constant over the Higgs's own phase, in all eight cases: [0.125] of a turn
