@@ -4601,7 +4601,7 @@ each caught the five it could reach (B1931).**
 - **Frame D1 (P-847; the web seat's W-B1).** If the Higgs carries its charge as a twist, as matter does, no reading is
   left to choose. Whether its fibre integrals are symmetric under u ↦ −u decides whether the Higgs bit is there at all.
 - **The cusp's limit.** High in the cusp the averaged mixing moduli tend to 5/12, 5/12 and 7/12 (B1940). Is that a
-  count of the 24 points' permutation patterns, and does it hold at every level?
+  count of the 24 points' permutation patterns, and does it hold at every level? *[2026-11-18: it is the count in W₋ (B1945 § 3b); in W₊ the limit is 7/12, 7/12, 5/12 (agy-exp's F-R83-16, recomputed by main in B1957).]*
 - **The foundation's postulates on the board (B1943).** SE1 (the root) and SE3 (the level) are both postulates, now both
   counted. Is either derivable, or does one imply the other (B1925)?
 

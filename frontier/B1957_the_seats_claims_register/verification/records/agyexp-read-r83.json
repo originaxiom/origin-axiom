@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-read-r83",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the seat's Review 83 reading, read by main in full at 48a4054aa (373 lines); its checker not run",
+ "files": [
+  "relays/REVIEW_83_AGY-EXP.md"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "web-p783-04r",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the pattern line. Verified on main (checks/web_p783_spectrum.py, P2): the three dihedral values are single and every other value to R = 11 is a doublet in both classes of one parity. Not checked by the seat ('an observation, not checked further') or by main: that this is what a form with non-real coefficients would give",
+ "note": "Split from web-p783-04 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:72"
+ ]
+}

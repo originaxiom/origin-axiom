@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-xe-04",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "the fifth note's ledger of inputs ('0 continuous fitted parameters, 0 imported dimensionful anchors, 2 structural topological premises, 8 discrete bits'). The seat's own page of premises of 2026-11-17 replaces it: the unified coupling's identification with a volume times an area, the running span, the instanton exponent, the quartic's boundary value, the collar amplitudes, the reference moduli and loop weights, and the selected torsion point are each 'typed in by model ansatz', none derived from the knot",
+ "note": "Not fitted and not derived are different things; the earlier ledger counted only the first.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:31"
+ ]
+}

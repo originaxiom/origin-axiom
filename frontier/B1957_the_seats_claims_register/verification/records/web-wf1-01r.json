@@ -1,0 +1,14 @@
+{
+ "id": "web-wf1-01r",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the seat's test 'is the opposite dead or alive?' applied row by row. The facts under each row are verified in web-wf1-01 (the Tits form's signatures; commuting involutions; the orbifold's Euler characteristic). The verdicts 'dead', 'alive' and 'stays a choice by this test' are the seat's criterion applied to them, as that record's own note says",
+ "note": "Split from web-wf1-01 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:49",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:50",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:52",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:53",
+  "web:CHAT1_TO_CC_2026-11-14_W-F1_THE_DISTINCTION_LAYER_AND_THE_HAND:58"
+ ]
+}

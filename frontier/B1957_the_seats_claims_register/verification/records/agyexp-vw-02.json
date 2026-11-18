@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-vw-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "lines the seat marks as established that rest on main's own arcs and on its own earlier deliveries. MAIN'S OWN COMPUTATION: the read-out on the whole is one average over the 24 points (B1928, PROVED); high in the cusp the mixing is a permutation at every point, in both mixed reading pairs (B1945 section 3b), and with one reading for both sectors it is aligned (B1946); the read-out does not see the gauge class (B1938); the determinant and the trace prefer opposite worlds on the sample (B1941, as narrowed at Review 83: heights 1.2 to 9, with a reversal near tau = i); the odd L-value is the twisted eta invariant (B1929); the signed action on the channels and the singlet's degree (checks/review83_agyexp.py, rows 11 and 12); m003's torsion of order 5, det(T_m - 1) = -m and det(-T_m^2 - 1) = m^2 + 4 (agyexp_view.py, V3). THE SEAT'S OWN, recorded at its own deliveries and not recomputed here: the share of the weight below height five, the leading matrices of its cusp analysis, and its statement on bounding four-manifolds",
+ "note": "The first line also says that frame C failed its look in every option. That is B1944's record; no measured value is repeated here.",
+ "units": [
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:15",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:16",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:38",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:43",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:44",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:45",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:51",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:90",
+  "agy-exp:AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY:96"
+ ]
+}

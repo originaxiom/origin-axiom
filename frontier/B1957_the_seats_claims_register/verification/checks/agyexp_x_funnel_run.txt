@@ -1,0 +1,8 @@
+G1: orbit sizes of M^-1 on the 24 points: [2, 2, 10, 10]; the points with w M^-1 = -w: [(1, 2), (2, 4), (3, 1), (4, 3)] (two orbits of two under M^-1); J^-1 moves them in one cycle of length 4; the other twenty are two orbits of ten
+G2: q_L^2 + q_R^2 modulo 5 for the three sectors: {'sec1': 2, 'sec2': 0, 'sec3': 0}; modulo 15 with the flux 3 (5 (q_L^2 + q_R^2) k^2/15 an integer for every k?): {'sec1': False, 'sec2': False, 'sec3': True}
+G3: sector 3's charges divisible by 3: True; (-3, 6) modulo 5 = (2, 1); p/15 = 2p/5 - p/3 modulo 1 for every p: True; points of exact order 15: 192 = 24 x 8
+G4: main's rule, the first exponent's values: order 5: sec2 {1/5, 1/2}, sec3 {1/5, 1/2}; order 10: sec2 {1/5, 1/2}, sec3 {1/5, 1/2}; least in the three sectors at order 5: ('1/10', '1/5', '1/5')
+    order 15: sec3 {1/5, 1/2}, sec2 {2/15, 1/6, 1/5, 7/30, 3/10, 2/5, 1/2} (seven values); order 30: sec3 {1/5, 1/2}, sec2 the same seven: True; at a = 2/15 the pairs: sec2 (2/15, 37/60), sec3 (1/5, 11/20), so the differences are 29/60 and 7/20
+G5: the means: B_2 over the four: -1/5; B_6 over the four: -781/3125; B_6 over the 24 points: -26/625; 24 - 86 x these: 206/5, 17236/625, 142166/3125 (with -86 + 24 = -62)
+G6: at s = 3, tau = 0.13 + 1.7i: the 24 shifts' sum over (5^6 - 1) E = 1.000000013; the 24 characters' sum over E = -0.998400011 against -624/625 = -0.998400000
+G7: M modulo 3 has order 4 with orbits [4, 4] on the eight points; J has order 8; det(M - 1) = -1

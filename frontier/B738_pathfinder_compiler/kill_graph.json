@@ -12482,5 +12482,43 @@
    "hypotheses": "the mask hides every decimal, so some assertion lines were reconstructed by the readers and not read; the earlier proofs the packets cite, the literature they use, and the lane's own gate scripts at the sealed commits were not read; the readers are main's own and not independent; the quotation check runs through main's mask and was computed once; a refusal is not a judgement that anything in the packets is false"
   },
   "weave_or_thread": "neither (a process arc)"
+ },
+ {
+  "id": "B1944",
+  "claim_killed": "That frame C, read on the whole with the exact channel weight in four declared options, carries its seven claimed rows under the sealed rule (the big run, read once; B1937's rule).",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED by main at B1959's landing (2026-11-18), in B836's form, from the arc's authored NEGATIVE verdict; the arc had stood unrouted since 2026-11-15 and the full suite on a clean clone at Review 84 found it. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
+  "routed_from": "main-2026-11-18",
+  "scope": {
+   "frame": "frame C (docs/total_inputs_scoreboard.json): the read-out on the whole with the exact channel weight, four declared options",
+   "object": "the seven claimed rows against the running masses at M_Z and the PDG moduli, under the sealed rule (B1937, A1 to A15)",
+   "reach": "single",
+   "hypotheses": "computed and reproduced byte for byte by the SM seat's SM-C15 (harvest row 1831, 2026-11-15): final under P-842; a reading of frame C, not the programme's final comparison (A1); the scale tree level at M_Z (A6)"
+  },
+  "weave_or_thread": "the weave (the read-out on the whole)"
+ },
+ {
+  "id": "B1947",
+  "claim_killed": "That frame D1 can be had by twisting the Higgs by its charge inside frame C's coupling: the twisted triplet is not covariant under tau -> tau + 1 in any of the four variants built (P-861's first route).",
+  "kill_form": "unrouted-unclassified",
+  "faces_consulted": [],
+  "fact_computed": null,
+  "hatch": null,
+  "priority": "UNTRIAGED",
+  "revival_score": null,
+  "note": "ROUTED by main at B1959's landing (2026-11-18), in B836's form, from the arc's authored NEGATIVE verdict; the arc had stood unrouted since 2026-11-15 and the full suite on a clean clone at Review 84 found it. The judgement fields are DELIBERATELY UNSET, not guessed: fact_computed asserts that the kill's DISCRIMINATING computation is in the repository (B799 showed the flag carries real information; the B525 audit exists to protect it), and setting it mechanically would fabricate exactly the signal it is for. kill_form, faces_consulted, hatch and revival_score likewise require reading the arc. This record makes the kill VISIBLE to the compiler and flags it for the provenance pass.",
+  "routed_from": "main-2026-11-18",
+  "scope": {
+   "frame": "frame D1: frame C with the Higgs's charge as a twist, entering as the third factor of a charge-conserving overlap (q_H = -(q_L + q_R))",
+   "object": "the card, sealed before frame D1's outputs: the definition, one declared convention, the code checks, the classification of the cusp mixing",
+   "reach": "single",
+   "hypotheses": "the construction 'frame C's coupling with the Higgs twisted by its charge' in two twist conventions and two representatives; C2 fails in all four; the cause shown (twist-dependent component phases under tau -> tau + 1); no mixing or mass output computed; data-free; reproduced on another seat's code (W-B2, row 1840), final under P-842; agy-002's check from another family asked"
+  },
+  "weave_or_thread": "the weave (the points of a level)"
  }
 ]

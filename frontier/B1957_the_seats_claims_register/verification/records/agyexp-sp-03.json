@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-sp-03",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "the ledger line of X-ENDGAME-1, whose first clause is 'Global 3D mapping-torus bundle extension H^2(M_3; Z) = Z': false for the punctured carrier (record agyexp-xe-03). The same page's line for X-BRIDGE-1 states the repair. The rest of the line mirrors its note",
+ "note": "",
+ "units": [
+  "agy-exp:STATUS_AGY-EXP:138"
+ ]
+}

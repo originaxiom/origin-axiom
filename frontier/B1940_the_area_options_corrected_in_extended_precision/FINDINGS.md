@@ -45,7 +45,7 @@ once, their second computation owed). Main, 2026-11-14, before the big run's loo
   - **V2, τ → τ + 1:** 7e-18 at height 12, 4e-18 at 20 and 3.6e-19 at 45.
   - **V3, a planted run at 15 digits:** the τ → τ + 1 check fails by 0.45 at height 20. Caught.
 - **The cusp's structure.** High in the cusp the averaged mixing moduli tend to 5/12, 5/12 and 7/12 (W₋, at height 45:
-  0.41667, 0.41667, 0.58333). The mass ratios tend to zero.
+  0.41667, 0.41667, 0.58333). The mass ratios tend to zero. *[Added 2026-11-18, agy-exp's F-R83-16, second item, recomputed by main (B1957's `checks/review83_agyexp.py`): that is W₋'s limit only. In W₊ (S up, S̃ down) the averaged moduli tend to 7/12, 7/12 and 5/12: at heights 45 and 85, 14 of the 24 points give ∣V₁₂∣ = ∣V₂₃∣ = 1 and 10 give ∣V₁₃∣ = 1.]*
 
 ## 3. The area options recomputed (`area_measure_mp.py`, `assemble_values_v2.py`)
 - **What is kept from B1932's construction:**

@@ -17457,6 +17457,7 @@
     "wrt_quantum"
    ],
    "refs": [
+    "B2",
     "V2"
    ],
    "obstacle": "particle_dict",
@@ -17557,14 +17558,15 @@
     "S10",
     "S20"
    ],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
    "status": "dead",
    "domain": "arithmetic"
   },
   "B1951": {
    "slug": "the weil centre gives the gauge group and one generations hypercharges",
    "motifs": [
+    "coupling",
     "metallic",
     "eisenstein",
     "z3_generation",
@@ -17694,7 +17696,7 @@
     "L1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 22,
+   "obstacle_conf": 23,
    "status": "dormant",
    "domain": "arithmetic"
   },
@@ -17722,6 +17724,30 @@
    "obstacle_conf": 2,
    "status": "dead",
    "domain": "physics"
+  },
+  "B1959": {
+   "slug": "the weighted inverse on a finite area cusp with the constant asymptote adjoined",
+   "motifs": [
+    "monoid",
+    "eisenstein",
+    "torsion"
+   ],
+   "refs": [
+    "H1",
+    "H2",
+    "H3",
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5",
+    "K6",
+    "K7"
+   ],
+   "obstacle": "gauge_dict",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B196": {
    "slug": "entropy conformal dimension",

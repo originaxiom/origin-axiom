@@ -19,11 +19,11 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1655** |
-| words of findings prose | **1,501,183** |
+| research arcs with findings | **1656** |
+| words of findings prose | **1,505,246** |
 | test lock files referenced | **945** |
-| arcs carrying an authored verdict | **1655** (100.0 %) |
-| recorded closures | **860** (692 classified, 168 routed-only) |
+| arcs carrying an authored verdict | **1656** (100.0 %) |
+| recorded closures | **862** (692 classified, 170 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
 projects only the authored fraction; the closed-door map projects only classified closures,
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1153 |
+| PROVED | 1154 |
 | NEGATIVE | 386 |
 | OPEN | 103 |
 | RETRACTED | 13 |
@@ -45,7 +45,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 | mechanism | doors |
 |---|---|
 | `“other”` | 359 |
-| `“unrouted-unclassified”` | 168 |
+| `“unrouted-unclassified”` | 170 |
 | `“kind-mismatch”` | 51 |
 | `“genericity”` | 38 |
 | `“no-landing-site”` | 30 |
@@ -56,7 +56,7 @@ Closures indexed by *mechanism*, not by arc number -- the form a reviewer can ac
 
 ### The quality signal a reviewer should check first
 
-**530 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
+**532 closures** were classified as having had their discriminating fact *not* computed in-sandbox -- a violation of the programme's own standing rule.
 **All were resolved in `frontier/B799_uncomputed_doors/`**: 2 computed here in exact
 arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not trusted), and
 5 relabelled honestly as uncomputed with the reason stated.
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1958`** (1423 words, 0 locks)  
-“REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted): all 27 quotations are in the files their findings cite; each of the twenty findings is right on main's own check and is mended: B1945's planted charge breaks 40 cells and not 20, its summed ratios differ by up to 99 per cent, its closed form covers the second generation only, and its four piece exponents, stated as measured with no script, are measured now and hold; B1955's 'exact' and 'never' were floating point and a grid, and its frame signature a count with an assumed phase; B1956 listed an unchecked statement as checked; Review 83's entry named one script for eight mends where it held four, and the reversal near i had no committed output (it has: -0.392 at 1.05i); B1957's verdict file was stale, its lock had two lines that could not fail, and five of its records said more than their checks. Carried: the record-by-record pass over B1957's verified records, and the other family's reading. 0 of 19.”  
-`B1958_review_84_entered_three_cold_readers_caught_all_seven_plants_and_found_twenty_faults_in_mains_own_arcs/FINDINGS.md`
+**PROVED — `B1959`** (2413 words, 0 locks)  
+“THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the lane's): for a Laplace-type operator P = D*D + M that is homogeneous on a finite-area hyperbolic cusp, nonnegative, with bounded kernel spanned by one parallel section Q, and for a weight 0 < delta < min beta_c, P is a bijection with bounded inverse from {a chi Q + decaying, orthogonal to Q} onto {decaying sources orthogonal to Q} in weighted Hoelder spaces; the constant a is fixed by the source. The proof: the essential spectrum starts at 1/(4 ell^2), so zero is isolated; on the cusp each zero-frequency channel is an ordinary equation with exponents -beta and 1 + beta, the growing one excluded by the area measure, and a maximum principle on exp(delta t) u gives the decay exactly when delta < beta; the channel of Q gives the constant; the nonzero frequencies obey one convexity inequality for their norm over the circle; uniform interior estimates on balls of the universal cover give the Hoelder bounds. The lane's condition delta < 1 is not needed. What it gives the lane: its equation (3) holds for its operator if H1 to H3 hold for its fields; H2's algebra is on main already, H1 and H3 are its model's facts and are not checked. Nothing of its model is banked; inputs removed: zero; nothing is compared with data”  
+`B1959_the_weighted_inverse_on_a_finite_area_cusp_with_the_constant_asymptote_adjoined/FINDINGS.md`
 
 **NEGATIVE — `B1947`** (711 words, 0 locks)  
 “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)] FRAME D1 CANNOT BE HAD BY TWISTING THE HIGGS INSIDE FRAME C'S COUPLING (NEGATIVE as sealed; data-free; P-861): with the Higgs's charge as a twist (q_H = -(q_L + q_R)), the coupling is not covariant under tau -> tau + 1, in either twist convention (the card's, and amendment A1's, sealed before its run) and for either representative of the half-integer characteristic (worst 8.0, 1.6, 9.4, 9.4 against frame C's 3e-16); the cause: the twisted triplet acquires twist-dependent phases of modulus 1, component by component, beyond W-B1's T_R, which frame C's quaternion contraction does not absorb; so frame D1 must be derived as a genuine triple overlap of three theta functions, where charge conservation cancels the phases, with covariance shown first. Main's first expectation (the up and down Higgs coincide) was wrong and is disclosed. 0 of 19.”  

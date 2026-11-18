@@ -2,16 +2,16 @@
  "lanes": {
   "agy-exp": {
    "files": 88,
-   "read": 5,
+   "read": 46,
    "units": 2672,
    "statements": 2099,
-   "VERIFIED": 20,
-   "REFUTED": 0,
-   "CONDITIONAL": 29,
-   "PARTIAL": 17,
-   "SUPERSEDED": 0,
-   "NOTED": 6,
-   "PENDING": 2027
+   "VERIFIED": 102,
+   "REFUTED": 5,
+   "CONDITIONAL": 231,
+   "PARTIAL": 181,
+   "SUPERSEDED": 47,
+   "NOTED": 1533,
+   "PENDING": 0
   },
   "agy-002-verify": {
    "files": 11,
@@ -47,10 +47,10 @@
    "VERIFIED": 104,
    "REFUTED": 1,
    "CONDITIONAL": 28,
-   "PARTIAL": 33,
+   "PARTIAL": 42,
    "SUPERSEDED": 0,
-   "NOTED": 91,
-   "PENDING": 14
+   "NOTED": 96,
+   "PENDING": 0
   },
   "physical": {
    "files": 136,
@@ -68,14 +68,14 @@
   "web": {
    "files": 137,
    "read": 137,
-   "units": 7458,
-   "statements": 6757,
-   "VERIFIED": 1897,
+   "units": 7498,
+   "statements": 6796,
+   "VERIFIED": 1905,
    "REFUTED": 2,
    "CONDITIONAL": 15,
-   "PARTIAL": 409,
+   "PARTIAL": 421,
    "SUPERSEDED": 54,
-   "NOTED": 4380,
+   "NOTED": 4399,
    "PENDING": 0
   },
   "agy-audit": {
@@ -97,144 +97,144 @@
    "lane": "agy-exp",
    "units": 60,
    "statements": 53,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 9,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 9,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 53
+   "NOTED": 35,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md": {
    "lane": "agy-exp",
    "units": 29,
    "statements": 23,
    "read": true,
-   "VERIFIED": 0,
+   "VERIFIED": 16,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 23
+   "NOTED": 4,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 17,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "REFUTED": 1,
+   "CONDITIONAL": 4,
+   "PARTIAL": 4,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 15,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 15
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 17,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 6,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 23,
    "statements": 18,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 1,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 2,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 18
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md": {
    "lane": "agy-exp",
    "units": 28,
    "statements": 23,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 23
+   "REFUTED": 1,
+   "CONDITIONAL": 9,
+   "PARTIAL": 4,
+   "SUPERSEDED": 1,
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 39,
    "statements": 33,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 2,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 11,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 33
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 38,
    "statements": 32,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 2,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 9,
+   "PARTIAL": 4,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 32
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 40,
    "statements": 32,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 10,
+   "PARTIAL": 4,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 32
+   "NOTED": 18,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 46,
    "statements": 39,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "REFUTED": 2,
+   "CONDITIONAL": 15,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 39
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md": {
    "lane": "agy-exp",
@@ -280,416 +280,416 @@
    "units": 34,
    "statements": 32,
    "read": true,
-   "VERIFIED": 0,
+   "VERIFIED": 15,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 32
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 26,
    "statements": 18,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 3,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 6,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 18
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 40,
    "statements": 33,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 1,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 5,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 33
+   "NOTED": 20,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 42,
    "statements": 35,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 9,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 35
+   "NOTED": 21,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 45,
    "statements": 37,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 37
+   "CONDITIONAL": 11,
+   "PARTIAL": 1,
+   "SUPERSEDED": 3,
+   "NOTED": 22,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 27,
    "statements": 20,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 5,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "NOTED": 12,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 16,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 14,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 6,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 25,
    "statements": 19,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 5,
+   "PARTIAL": 4,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 19
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 16,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 6,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 14,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "PARTIAL": 4,
+   "SUPERSEDED": 1,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 19,
    "statements": 13,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "CONDITIONAL": 1,
+   "PARTIAL": 2,
+   "SUPERSEDED": 1,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 14,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 3,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "SUPERSEDED": 1,
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 14,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "CONDITIONAL": 2,
+   "PARTIAL": 1,
+   "SUPERSEDED": 1,
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 31,
    "statements": 25,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 5,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 25
+   "NOTED": 15,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 35,
    "statements": 29,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 29
+   "CONDITIONAL": 5,
+   "PARTIAL": 3,
+   "SUPERSEDED": 3,
+   "NOTED": 18,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 34,
    "statements": 26,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 1,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 8,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 26
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 46,
    "statements": 38,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 38
+   "CONDITIONAL": 16,
+   "PARTIAL": 1,
+   "SUPERSEDED": 8,
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 23,
    "statements": 17,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "CONDITIONAL": 3,
+   "PARTIAL": 2,
+   "SUPERSEDED": 3,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 16,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 2,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "SUPERSEDED": 5,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 16,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 3,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "SUPERSEDED": 4,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 26,
    "statements": 20,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 5,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "SUPERSEDED": 7,
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 14,
    "statements": 9,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 1,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 2,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 9
+   "NOTED": 6,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 15,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 2,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 2,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 15
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 21,
    "statements": 16,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 5,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 1,
+   "PARTIAL": 1,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 25,
    "statements": 20,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "CONDITIONAL": 3,
+   "PARTIAL": 3,
+   "SUPERSEDED": 2,
+   "NOTED": 12,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md": {
    "lane": "agy-exp",
    "units": 20,
    "statements": 14,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 3,
+   "PARTIAL": 2,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS.md": {
    "lane": "agy-exp",
    "units": 21,
    "statements": 15,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 15
+   "CONDITIONAL": 1,
+   "PARTIAL": 3,
+   "SUPERSEDED": 2,
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS.md": {
    "lane": "agy-exp",
    "units": 22,
    "statements": 16,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 2,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 2,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 16
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md": {
    "lane": "agy-exp",
    "units": 25,
    "statements": 19,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 9,
+   "PARTIAL": 1,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 19
+   "NOTED": 9,
+   "PENDING": 0
   },
   "agy-exp | relays/REVIEW_83_AGY-EXP.md": {
    "lane": "agy-exp",
    "units": 197,
    "statements": 159,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 12,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 36,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 159
+   "NOTED": 111,
+   "PENDING": 0
   },
   "agy-exp | relays/STATUS_AGY-EXP.md": {
    "lane": "agy-exp",
    "units": 116,
    "statements": 114,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
-   "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "REFUTED": 1,
+   "CONDITIONAL": 30,
    "PARTIAL": 0,
-   "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 114
+   "SUPERSEDED": 5,
+   "NOTED": 78,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_R83_review-83.md": {
    "lane": "agy-exp",
@@ -701,8 +701,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 30
+   "NOTED": 30,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md": {
    "lane": "agy-exp",
@@ -714,8 +714,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md": {
    "lane": "agy-exp",
@@ -727,8 +727,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-APEX-3_hosotani-g422-center-lock-m004-cusp-spinor-confinement-and-scale-hierarchy.md": {
    "lane": "agy-exp",
@@ -740,8 +740,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 11
+   "NOTED": 11,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md": {
    "lane": "agy-exp",
@@ -753,8 +753,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 10
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-BRIDGE-1_punctured-relative-cohomology-and-boundary-law-second-computation.md": {
    "lane": "agy-exp",
@@ -766,8 +766,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 23
+   "NOTED": 23,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-BRIDGE-2_left-acting-2loop-mixed-yukawa-repair-and-trajectory-audit.md": {
    "lane": "agy-exp",
@@ -779,8 +779,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 21
+   "NOTED": 21,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-BRIDGE-3_majorana-petersson-fujikawa-strong-cp-and-sl2z-gramian-bridge.md": {
    "lane": "agy-exp",
@@ -792,8 +792,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 22
+   "NOTED": 22,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-BRIDGE-4_repaired-universal-atlas-deformation-matrix-and-zero-of-19-vector.md": {
    "lane": "agy-exp",
@@ -805,8 +805,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 21
+   "NOTED": 21,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-CLOSURE-1_repaired-weil-metaplectic-and-zickert-rogers-chern-simons-audit.md": {
    "lane": "agy-exp",
@@ -818,8 +818,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 18
+   "NOTED": 18,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-CLOSURE-2_pc3b-orthogonal-reduction-halfroot-modes-and-spin-triplet-audit.md": {
    "lane": "agy-exp",
@@ -831,8 +831,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 21
+   "NOTED": 21,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-CLOSURE-3_pc3b-polarized-spin-vertex-quartic-barrier-and-hardy-bound-audit.md": {
    "lane": "agy-exp",
@@ -844,8 +844,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-CLOSURE-4_u3-frame-control-four-tier-closure-matrix-and-final-0of19-suite.md": {
    "lane": "agy-exp",
@@ -857,8 +857,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 21
+   "NOTED": 21,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-ENDGAME-1_3d-m004-gluing-weil-shift-and-uv-norms.md": {
    "lane": "agy-exp",
@@ -870,8 +870,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 30
+   "NOTED": 30,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-ENDGAME-2_mostow-prasad-cusp-potential-and-coupled-stabilization.md": {
    "lane": "agy-exp",
@@ -883,8 +883,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 25
+   "NOTED": 25,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-ENDGAME-3_modular-covariant-seesaw-and-amphichiral-phase-audit.md": {
    "lane": "agy-exp",
@@ -896,8 +896,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 26
+   "NOTED": 26,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-ENDGAME-4_sl2c-bundle-holonomy-porti-torsion-plebanski-and-scale-hierarchy.md": {
    "lane": "agy-exp",
@@ -909,8 +909,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 26
+   "NOTED": 26,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-ENDGAME-5_zero-knob-rge-synthesis-haar6-and-dimensionless-ledger.md": {
    "lane": "agy-exp",
@@ -922,8 +922,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 30
+   "NOTED": 30,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FOUNDATION-1_e8-pure-q-triality-and-3d-callias-chiral-index-3.md": {
    "lane": "agy-exp",
@@ -935,8 +935,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 10
+   "NOTED": 10,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FOUNDATION-2_physical-c6-covariant-second-fund-form-link-gauss-and-hopf-sewing.md": {
    "lane": "agy-exp",
@@ -948,8 +948,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 14,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FOUNDATION-3_physical-c7-conifold-quotient-composite-register-and-4fold-word-lift.md": {
    "lane": "agy-exp",
@@ -961,8 +961,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 12
+   "NOTED": 12,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md": {
    "lane": "agy-exp",
@@ -974,8 +974,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 14,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FRONTIER-1_pc3c-pc3d-verification-and-cross-seat-kronecker-2loop-audit.md": {
    "lane": "agy-exp",
@@ -987,8 +987,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 22
+   "NOTED": 22,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FRONTIER-2_pc3e-light-cubic-couplings-two-step-ift-and-e8-trace8-audit.md": {
    "lane": "agy-exp",
@@ -1000,8 +1000,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "NOTED": 20,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FRONTIER-3_pc3f-triplet-sigma-star-and-d5-cross-form-singlet-test.md": {
    "lane": "agy-exp",
@@ -1013,8 +1013,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "NOTED": 20,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FRONTIER-4B_loop-indentation-successor-for-coupled-e6-join-and-16row-matrix.md": {
    "lane": "agy-exp",
@@ -1026,8 +1026,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 8
+   "NOTED": 8,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FRONTIER-4_coupled-e6-axis-join-16row-closure-matrix-and-final-suite.md": {
    "lane": "agy-exp",
@@ -1039,8 +1039,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 19
+   "NOTED": 19,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FUNNEL-1_b1947-recomp-and-magnetized-triple-overlap.md": {
    "lane": "agy-exp",
@@ -1052,8 +1052,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 31
+   "NOTED": 31,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FUNNEL-2_flat-connection-m004-orbit-and-sector-exponent-laws.md": {
    "lane": "agy-exp",
@@ -1065,8 +1065,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 32
+   "NOTED": 32,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FUNNEL-3_one-loop-spectral-action-and-kronecker-cancellation.md": {
    "lane": "agy-exp",
@@ -1078,8 +1078,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 33
+   "NOTED": 33,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-FUNNEL-4_literature-gated-rge-bridge-and-naumov-invariants.md": {
    "lane": "agy-exp",
@@ -1091,8 +1091,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 31
+   "NOTED": 31,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md": {
    "lane": "agy-exp",
@@ -1104,8 +1104,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 23
+   "NOTED": 23,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-2_sec2-sec3-flavor-exponents-across-levels-5-10-15.md": {
    "lane": "agy-exp",
@@ -1117,8 +1117,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 26
+   "NOTED": 26,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-RELATIONS-3_amphichiral-determinants-seesaw-crt-and-atlas.md": {
    "lane": "agy-exp",
@@ -1130,8 +1130,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 22
+   "NOTED": 22,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md": {
    "lane": "agy-exp",
@@ -1143,8 +1143,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-SYNTHESIS-2_crossform-nilpotence-end-response-and-parent-normal-wall.md": {
    "lane": "agy-exp",
@@ -1156,8 +1156,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-SYNTHESIS-3_minus48-rge-pati-salam-3bl-tm1-and-weil-s2-scalar.md": {
    "lane": "agy-exp",
@@ -1169,8 +1169,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 13
+   "NOTED": 13,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-SYNTHESIS-4_complete-288-diagnostics-collar-casimir-18row-matrix-and-minus48-suite.md": {
    "lane": "agy-exp",
@@ -1182,8 +1182,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 14,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-UNIFY-1_crt-gauge-family-tensor-anomaly-lock-and-pc3-twelve-method-check.md": {
    "lane": "agy-exp",
@@ -1195,8 +1195,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 18
+   "NOTED": 18,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md": {
    "lane": "agy-exp",
@@ -1208,8 +1208,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md": {
    "lane": "agy-exp",
@@ -1221,8 +1221,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 23
+   "NOTED": 23,
+   "PENDING": 0
   },
   "agy-exp | relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md": {
    "lane": "agy-exp",
@@ -1234,8 +1234,8 @@
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 20
+   "NOTED": 20,
+   "PENDING": 0
   },
   "agy-002-verify | relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md": {
    "lane": "agy-002-verify",
@@ -1609,10 +1609,10 @@
    "VERIFIED": 4,
    "REFUTED": 1,
    "CONDITIONAL": 9,
-   "PARTIAL": 8,
+   "PARTIAL": 17,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 14
+   "NOTED": 5,
+   "PENDING": 0
   },
   "agy-002-closure | relays/STATUS_AGY-002.md": {
    "lane": "agy-002-closure",
@@ -3582,12 +3582,12 @@
    "units": 55,
    "statements": 48,
    "read": true,
-   "VERIFIED": 29,
+   "VERIFIED": 24,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 19,
+   "NOTED": 24,
    "PENDING": 0
   },
   "web | relays/CHAT1_TO_CC_2026-11-07_THE_TUBES_TAU_FIRMED_UP.md": {
@@ -3660,10 +3660,10 @@
    "units": 72,
    "statements": 64,
    "read": true,
-   "VERIFIED": 32,
+   "VERIFIED": 31,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 6,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
    "NOTED": 26,
    "PENDING": 0
@@ -3946,12 +3946,12 @@
    "units": 160,
    "statements": 139,
    "read": true,
-   "VERIFIED": 69,
+   "VERIFIED": 68,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 59,
    "SUPERSEDED": 0,
-   "NOTED": 11,
+   "NOTED": 12,
    "PENDING": 0
   },
   "web | relays/CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE.md": {
@@ -3985,10 +3985,10 @@
    "units": 69,
    "statements": 61,
    "read": true,
-   "VERIFIED": 20,
+   "VERIFIED": 15,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 5,
    "SUPERSEDED": 0,
    "NOTED": 41,
    "PENDING": 0
@@ -4180,10 +4180,10 @@
    "units": 87,
    "statements": 77,
    "read": true,
-   "VERIFIED": 44,
+   "VERIFIED": 43,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 13,
+   "PARTIAL": 14,
    "SUPERSEDED": 0,
    "NOTED": 20,
    "PENDING": 0
@@ -4193,12 +4193,12 @@
    "units": 51,
    "statements": 45,
    "read": true,
-   "VERIFIED": 17,
+   "VERIFIED": 14,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 12,
    "SUPERSEDED": 0,
-   "NOTED": 16,
+   "NOTED": 19,
    "PENDING": 0
   },
   "web | relays/CHAT1_TO_CC_2026-11-15_W-F25_FRAME_CS_CUSP_EXPONENTS.md": {
@@ -4258,10 +4258,10 @@
    "units": 112,
    "statements": 104,
    "read": true,
-   "VERIFIED": 80,
+   "VERIFIED": 78,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 5,
+   "PARTIAL": 7,
    "SUPERSEDED": 0,
    "NOTED": 19,
    "PENDING": 0
@@ -4284,12 +4284,12 @@
    "units": 55,
    "statements": 50,
    "read": true,
-   "VERIFIED": 14,
+   "VERIFIED": 13,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 6,
    "SUPERSEDED": 0,
-   "NOTED": 30,
+   "NOTED": 31,
    "PENDING": 0
   },
   "web | relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md": {
@@ -4297,10 +4297,10 @@
    "units": 206,
    "statements": 189,
    "read": true,
-   "VERIFIED": 28,
+   "VERIFIED": 25,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 3,
    "SUPERSEDED": 0,
    "NOTED": 161,
    "PENDING": 0
@@ -4359,15 +4359,15 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 680,
-   "statements": 647,
+   "units": 720,
+   "statements": 686,
    "read": true,
-   "VERIFIED": 401,
+   "VERIFIED": 431,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 2,
-   "NOTED": 244,
+   "NOTED": 253,
    "PENDING": 0
   },
   "web | relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md": {

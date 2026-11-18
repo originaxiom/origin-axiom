@@ -17,6 +17,8 @@ L2_NOW = [None]
 
 def cA_t90(x, yy, t, R, **kw):
     c = FAST(x, yy, t, R)
+    if L2_NOW[0] is None:        # [2026-11-18: outside fbar_t90 the patch is inert. Importing this module replaces B1924's cA for the
+        return c                 #  whole process; other arcs' tests that ran after it in one worker died here on a clean clone (29 failures at Review 84)]
     a0 = Bm.a0_of(x, yy, t, R)
     return {s: (c[s] - math.pi * abs(a0[s]) ** 2 * math.exp(-2 * L2_NOW[0]) if c[s] is not None and a0[s] is not None else c[s])
             for s in c}
@@ -29,13 +31,16 @@ HERE = pathlib.Path(__file__).resolve().parent
 def fbar_t90(t):
     L = CR.canon(t); L.pop("_extrapolated"); L2_NOW[0] = L["L_2"]
     acc = None
-    for a, b in FG.POINTS:
-        o = {k: np.array(v) for k, v in C.frame(t, a, b, L).items() if "conjS" not in k and "L_2" in k}
-        if acc is None:
-            acc = {k: v / len(FG.POINTS) for k, v in o.items()}
-        else:
-            for k in acc:
-                acc[k] += o[k] / len(FG.POINTS)
+    try:
+        for a, b in FG.POINTS:
+            o = {k: np.array(v) for k, v in C.frame(t, a, b, L).items() if "conjS" not in k and "L_2" in k}
+            if acc is None:
+                acc = {k: v / len(FG.POINTS) for k, v in o.items()}
+            else:
+                for k in acc:
+                    acc[k] += o[k] / len(FG.POINTS)
+    finally:
+        L2_NOW[0] = None         # [2026-11-18: the exact weight applies only inside this function]
     return {k: v.tolist() for k, v in acc.items()}
 
 

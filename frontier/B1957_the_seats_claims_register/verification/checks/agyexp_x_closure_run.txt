@@ -1,0 +1,4 @@
+C1: volumes m004 2.0298832128, m003 2.0298832128 (difference 0.0e+00); Chern-Simons m004 9.00e-17, m003 0.25000000; homology Z and Z/5 + Z; m015: -0.15320413, at distance 0.0135 from the nearest multiple of 1/12
+C2: gamma_15(1) = -0.000000+1.000000i, gamma_5(3) = 1.000000-0.000000i, gamma_3(2) = 0.000000+1.000000i; |gamma_15(1) - gamma_5(3) gamma_3(2)| = 2.1e-14; their inverse squares: [-1, 1, -1]
+C3: |M - M^dagger| = 2.0296; the Schur complement is 1.1714285714 times the identity (41/35 = 1.1714285714), imaginary part 0.0e+00
+C4: 1/(8 ell^2) at ell = 3/2: 1/18

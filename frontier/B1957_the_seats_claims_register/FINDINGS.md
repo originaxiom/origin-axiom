@@ -498,14 +498,6 @@ noted, and none is pending.
     times the unit of the full charge circle, because the charge comes in thirds on E₈. The unit is in parameter
     space; a map from the physical carrier's end into the family is still required, and no family count is claimed.
 
-## When it closes
-
-- No statement is pending.
-- Each seat has written on its own status page that its harvest is complete, after reading the register and main's
-  record of its work. Main has asked each seat for three lists first: what the register does not cover, its results in
-  order of importance with the computation that verifies each, and where main's record states its work wrongly or too
-  weakly.
-
 - **Three more packages of the physical lane (its review of the X-ENDGAME campaign, its refresh of every branch,
   its dependency plan for all seats): 318 statements, 82 verified, 80 conditional, 147 noted, 9 superseded.** Nothing
   of any seat's was run.
@@ -536,6 +528,66 @@ noted, and none is pending.
     model is banked: its physical statements stay conditional on its parent and on analysis it says is unchecked.
   - **Owed to the lane by main:** the first of its six ranked deciding calculations, the bounded complete-cusp
     inverse of its package P-C3e (its equation (3)). Main said in M8 it would take it first. It is not done.
+
+- **The inverse on the cusp, owed to the physical lane, is done the same day (B1959).** Main proved, by an argument
+  independent of the lane's, that a Laplace-type operator homogeneous on a finite-area cusp, nonnegative, with kernel
+  one parallel section Q, is a bijection with bounded inverse between "a constant times Q far out, plus decaying" and
+  "decaying sources orthogonal to Q". The lane's equation (3) follows if its operator is of that form on its fields,
+  which stays its model's statement (record physical-c3e-03, still conditional, says exactly what is and is not
+  checked).
+- **The web seat's section 12 and the pass R84-1 over its lane (2026-11-18).** The seat checked M50 and M51 at the
+  records, reran main's new check to the byte, and named five verified records that held lines it marks as readings.
+  Each is right and is narrowed. Main's own pass over the lane's 136 verified records (two filters over 1,897
+  statements and over every record's ground, 258 hits, each read against its record) narrowed four more. In all 22
+  statements moved to partial or noted. The lane: 137 files, 6,796 statements, none pending. The pass is by filter
+  and reading of hits; the other lanes' 114 verified records are still owed it.
+- **The full suite on a clean clone, at Review 84's anchor: 29 failed of 9,100.** Seven were the review gate firing at
+  that commit. The other 22 were six real faults that the landing's own tests do not see; each is mended (the
+  review's entry lists them). One was in this register's own neighbourhood of work: a script that replaced another
+  arc's function for the whole process.
+- **agy-exp's lane has no statement pending (2026-11-18): 88 files, 2,099 statements, 102 verified, 5 refuted,
+  231 conditional, 181 partial, 47 superseded, 1,533 noted** (harvest row 1909). Every result note of its ten
+  campaigns, its status page, its page of premises, its answers, its Review 83 reading and its view were read in full.
+  Its code was never run; three places of it were read as text.
+  - **The rule for its verdicts.** Verified only where a committed check of main's computes the statement. Partial
+    where main holds the fact under a line and the rest is the seat's run. Conditional for outputs inside its supplied
+    model, on the premises its own page lists. Superseded where its own later answers replace a statement. Refuted
+    where a statement is false as written.
+  - **Its 42 cards (846 statements)** are scope written before the work. They are noted by their section headings. A
+    read-only sorter went through them for lines that are not scope, and main read what it flagged.
+  - **Its level-25 statement, decided on main's own frame** (`checks/agyexp_x_foundation.py`). Under τ → τ + 5 the up
+    sector's determinant takes three fifth-root phases over the 24 points and the down sector's one; under τ + 25
+    each takes one. Main adds the law: the point's phase is ζ^(E·(5a)²), E = q_L² + q_R² + c·q_H² mod 5 for the Higgs
+    zero placed at c. No placement closes the up and the down sector together at level 5 (B1945 § 6; row P-871).
+  - **A fault of main's that Review 83's entry dropped.** The seat's finding F-R83-16 has a second item: the averaged
+    mixing moduli's cusp limit in W₊ is 7/12, 7/12, 5/12, not W₋'s 5/12, 5/12, 7/12. Main recomputed it at heights 45
+    and 85 (`checks/review83_agyexp.py`). B1940, B1945, the open-leads entry and B1950 carry dated notes.
+  - **A credit restored.** Its view of 2026-11-15 states the bigraded dictionary of B1951 the same day as the web
+    seat and independently, and adds four pairings into the top form (`checks/agyexp_view.py`). B1951 cites both now.
+  - **Its twenty Review 83 findings:** 42 items tested on main's present files. The facts hold in all 42: six plants,
+    nine mended or answered, 27 standing as action item R83-1. One item's two citations are not at the lines it names.
+  - **Reproduced:** the four tension figures of its committed output, to 1e-16, from two inputs read in its checker.
+- **agy-002's last fourteen lines are settled (2026-11-18; harvest row 1910).** They are its closing note's audit of
+  the other seats. Its six defects in agy-exp's X-SYNTHESIS are each confirmed as far as reading that seat's checkers
+  reaches (`checks/agy002_audit_of_seats.py`). Its counts over that seat's runs are recorded as its own.
+- **No statement is pending (2026-11-18): 406 files, 361 read at source, 20,949 statements.** The 45 files not read
+  line by line are agy-exp's 42 cards and three files of the physical lane (its seal ledger, checked by difference,
+  and two files of quotations held as custody).
+
+## When it closes
+
+- No statement is pending.
+- Each seat has written on its own status page that its harvest is complete, after reading the register and main's
+  record of its work. Main has asked each seat for three lists first: what the register does not cover, its results in
+  order of importance with the computation that verifies each, and where main's record states its work wrongly or too
+  weakly.
+- **For the three lanes of the agy family, main decides (the author, 2026-11-18; register row P-870).** Those sessions
+  are not in use and cannot write the line. Main closed each on its seat page on 2026-11-18 (agy-exp M36, agy-002 M46,
+  the agy lane M6) with this criterion: no statement pending; every result note read at its source; every request the
+  seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
+  outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
+  A lane reopens if its session returns and writes what is missing.
+- **The web seat and the physical lane have not written the line.** The register closes when they do.
 
 ## Not claimed
 

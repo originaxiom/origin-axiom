@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-pr-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the table's rows for UR-6 and UR-7. On main: the reflected pair's phases cancel as two elementary facts (record agyexp-ur6-01); the three-term Majorana matrix obeys the T and S laws (checks/physical_endgame_outputs.py, P3) and the passage from order 15 to order 5 is the arithmetic of 6w (as for UR-4). Not on main: the conservation of the phase under the two-loop running, and the seesaw operator's corridors. What the rows list as borrowed (the doubled state and the parity premise; the seesaw's form, the two free ratios or the typed-in loop weight) agrees with main's records",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:30",
+  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:31"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "agyexp-xf-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's own run. ON MAIN: B1947's verdict itself (the twisted triplet is not covariant under tau -> tau + 1; main's arc, with the web seat's second computation), which the seat recomputed from the card alone; the copy between the second and third sectors at order 5, which is the arithmetic (-3, 6) = (2, 1) modulo 5 (G3), and its persistence at order 15 for frame C (main's B1942); that 3 m^2 = m modulo 2; the phase arithmetic q_L^2 + q_R^2 = 2, 0, 0 modulo 5 for the three sectors, and that with a flux of 3 the second sector no longer closes (G2); the four points with w M^-1 = -w, moved in one cycle by J^-1, and the other twenty in two orbits of ten (G1); p/15 = 2p/5 - p/3 and 192 = 24 x 8 (G3); Bernoulli's multiplication theorem's means -1/5, -781/3125 and -26/625 and the note's arithmetic with them (G5); the two sublattice identities at s = 3 (G6, to 1e-8); the sum of the logarithms of the determinants over the non-zero 5-torsion is 2 log 5 (checks/physical_agy_exp_review.py). NOT ON MAIN: every figure of the seat's verifier (its agreement to so many digits, its controls' sizes), its magnetised overlap's values, the counts -86, 24 and -62 of its field content, and its four solver benchmarks",
+ "note": "TWO PRECISIONS. The note's '4 + 10 + 10 under the inverse monodromy' is the line and two orbits: under M^-1 alone the four points are two orbits {w, -w}; they are one orbit under J^-1. The solver benchmarks read published values of the Standard Model's running; the seat keeps them apart from its model runs by its own code inspection; main repeats none of those values and runs none of it (as record agyexp-xr-03 says of the same kind).",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:21",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:39",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS:46",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:34",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:53",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS:55",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS:32",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS:36",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:21",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:26"
+ ]
+}

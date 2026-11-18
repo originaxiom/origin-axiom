@@ -1,0 +1,14 @@
+{
+ "id": "web-r2-01r",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the seat's reasoning from the quoted sources and its ask (that the exponential form is how an identification would act and not a reason for it; what a pin of the level would and would not give; a dated note on P-719 if main agrees). Main adopted the answer; nothing here is computed. The quotations it reasons from are verified in web-r2-01",
+ "note": "Split from web-r2-01 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:51",
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:59",
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:80",
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:90",
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:104"
+ ]
+}

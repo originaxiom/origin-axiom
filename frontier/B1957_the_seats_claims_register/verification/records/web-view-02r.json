@@ -1,0 +1,12 @@
+{
+ "id": "web-view-02r",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "three rows of the view's table. Their [E] halves are in the record (B1934 and B1936; W-F25 and B1945's exponents; W-F17 with B130), as web-view-02 holds. Their other halves are the seat's judgement, marked [J] or typed by W-F17 as a reading: the 3 + 2 split's use as the dictionary; the exponents read as a Froggatt-Nielsen-type texture; 'selection does not come from the trace map's fixed loci' as the conclusion of W-F17's section 3",
+ "note": "Split from web-view-02 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:315",
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:316",
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:318"
+ ]
+}

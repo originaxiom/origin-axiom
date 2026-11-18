@@ -1,0 +1,14 @@
+{
+ "id": "agy002-ms-14",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the seat's account of who found what and at which commit (its finding F11's provenance), with the twelve commits it pins, each a commit of this repository (checks/agy002_audit_of_seats.py, K5); and the three sub-headings of the section",
+ "note": "",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:45",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:47",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:56",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:58",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:61"
+ ]
+}

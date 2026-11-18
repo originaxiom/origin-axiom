@@ -507,6 +507,11 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1826` | PROVED | S | | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent … |
 | `B1837` | PROVED | S | | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one … |
 | `B1906` | PROVED | L | | THE FOUR CHANNELS OF B1656'S COUPLING IN CLOSED FORM: each is a product of two theta functions over theta_1, so each residue is a product of two theta constants, one at (… |
+| `B1949` | PROVED | L | | IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs… |
+| `B1951` | PROVED | L | | THE WEIL REPRESENTATION'S CENTRE GIVES THE GAUGE GROUP AND ONE GENERATION'S HYPERCHARGES, AND ONLY AT THE PRIME 5 (PROVED, exact; the web seat's W-A1 recomputed on main, … |
+| `B1952` | PROVED | L | | THE WEIL SPACE IS THE MODULE OF THE RECORD'S LINES AND OF THE FIBRE'S FLUX-5 ZERO MODES; COLOUR AND FAMILIES SIT AT COPRIME LEVELS; POSTULATE D BECOMES FOUR COUNTED BITS … |
+| `B1953` | PROVED | L | | FRAME C'S DOWN COUPLING IS THE SYMBOL OF ONE COVARIANT OPERATOR ON FAMILIES TIMES THE WEIL SPACE; IT SPLITS 3 + 2; ITS HYPERCHARGE COMPONENT IS A COVARIANT SUM OVER THE 2… |
+| `B1955` | PROVED | L | | [CORRECTED 2026-11-17, the web seat's harvest review, sections 3.3 and 5.4: the top wedge's invariance at level 5 is generic (any representation of determinant 1, both cl… |
 
 ## §2 the object — arithmetic and geometry (66)
 

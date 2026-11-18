@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-xe-03",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "two statements false as written, each confirmed on main. (1) Note 1: 'H^2(M_3; Z) -> H^2(E; Z) = Z (unique global bundle extension of fiber flux)': for the punctured-torus mapping torus, which is m004, H_2 = 0 and H^2 = 0; the Z is the closed torus's mapping torus (checks/physical_endgame_review.py, E1; found by the physical lane, record physical-er-01). The integer facts in the same line stand (det(M^T - 1) = +-1, det M = 1, J^2 = M, det J = -1). The seat repaired it in its next campaign (X-BRIDGE-1: H^2 = 0 on the punctured carrier, Z on the closed one, and the relative group Z). (2) Note 5, pillar 2: its running 'reproduces the published analytical 2-loop mixing derivative' with the coefficient 7: in the primary source's order the coefficient of yt^2 yb^2 is 11/2, and 7 is what the exchanged products give, so the benchmark agreed with the script's own exchanged order (main's two-loop running from the primary source, checks/sm_rge_matrix.py and the lock; record physical-xe-01). What stands in that line: a term (3/4)[H_1, H_2] Y_1 is invisible on commuting inputs and shifts the mixing's rate by the stated multiple (physical_endgame_review.py, E3). The seat repaired the order in X-BRIDGE-2",
+ "note": "Both were found by the physical lane's review and held there for main's verdict on the seat's own statements; this is that verdict.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:16"
+ ]
+}

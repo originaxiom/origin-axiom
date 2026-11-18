@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-xc-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's repairs of two of the physical lane's four objections, each a fact main holds by its own computation. THE WEIL NORMALISATION: with the half-shear and the Gauss-sum factor the relation (S T)^3 = S^2 holds, and with the doubled shear the induced matrix is [[4, 3], [-3, -2]], not -1 modulo 5 (checks/physical_state_orbit.py, R1; physical_all_seats_findings.py); the Gauss sums are i, 1 and i at (15, 1), (5, 3), (3, 2) and multiply (checks/agyexp_x_closure.py, C2); the factorisation, the 3 + 2 split and the anomaly's lock are as before (record agyexp-xu-01). THE CHERN-SIMONS VALUES: D(z) + D(conj z) = 0 identically, so the earlier diagnostic could not select anything (R1); by SnapPy on main, m004 and m003 have the same volume, Chern-Simons invariants 0 and 1/4, and homology Z and Z/5 + Z (C1)",
+ "note": "The values are verified by SnapPy on main; that the seat's own flattened-dilogarithm routine reproduces them by two routes is its run.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:34",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:36",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS:37"
+ ]
+}

@@ -51,8 +51,11 @@ def fbar_at(y, L2, exact):
         G90.L2_NOW[0] = L2
         Bm.cA = G90.cA_t90 if exact else G90.FAST
         o = 0
-        for a, b in FG.POINTS:
-            f = C.frame(t, a, b, L); o = o + np.concatenate([np.array(f[k]) for k in KEYS]) / len(FG.POINTS)
+        try:
+            for a, b in FG.POINTS:
+                f = C.frame(t, a, b, L); o = o + np.concatenate([np.array(f[k]) for k in KEYS]) / len(FG.POINTS)
+        finally:
+            G90.L2_NOW[0] = None; Bm.cA = G90.cA_t90     # [2026-11-18: back to the inert patch; left on, it changed other arcs' frames in one process]
         acc = acc + o / 5
     return acc
 

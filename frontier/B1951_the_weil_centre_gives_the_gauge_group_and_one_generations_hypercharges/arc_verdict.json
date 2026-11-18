@@ -13,7 +13,8 @@
  ],
  "rests_on_seat": [],
  "cites_seat": [
-  "the web seat's W-A1, Part 1 (harvest row 1846): the construction and its lines D1 to D7, recomputed on main's code"
+  "the web seat's W-A1, Part 1 (harvest row 1846): the construction and its lines D1 to D7, recomputed on main's code",
+  "agy-exp's view on selection and the dictionary (harvest row 1909; committed 2026-11-15, minutes after the web seat's card and written before reading it): the same charges from the bigraded exterior algebra of the 3 + 2 split, with the two pairings into the top form; computed on main (B1957's checks/agyexp_view.py)"
  ],
  "supersedes": null,
  "superseded_by": null,

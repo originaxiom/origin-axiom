@@ -83,6 +83,23 @@ knot's quadratic form, from its Seifert matrix, gives x²/5, and the act's unit 
 page's class. Lines D1 to D7 and the control hold in both classes, since ρ(−I) is the parity in both;
 only the T-phases on the 3 change, from 0, 2/5, 3/5 to 0, 1/5, 4/5. The page is not re-based.
 
+## Added 2026-11-18 (B1957, the claims register): a second seat reached the same construction the same day
+
+- **agy-exp's view on selection and the dictionary** (`relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md` on its
+  branch, committed 2026-11-15 13:39 +0100; the web seat's card W-A1 was committed at 13:28 and its note at 13:36). The
+  seat's page says it was written before reading any other seat's answer. This arc had credited the web seat alone;
+  main had not read the seat's page at source when it wrote B1951.
+- **What it states, computed on main** (`B1957`'s `verification/checks/agyexp_view.py`): on Λ^(p,q)(ℂ³ ⊕ ℂ²) the
+  generator acts as Q₆ = 3q − 2p; the six summands of even total degree have dimensions 6, 3, 3, 2, 1, 1 and charges
+  1, −4, 2, −3, 6, 0, the record's; Λ^(0,1) is a doublet of charge 3; the duality (p, q) ↦ (3 − p, 2 − q) negates the
+  charge.
+- **What it adds to this arc.** The top form Λ^(3,2) has odd total degree 5. Two even summands pair with the Higgs's
+  doublet into it in exactly four ways: by wedge, (1,1) with (2,0) and (3,1) with (0,0); by contraction, (1,1) with
+  (2,2) and (3,1) with (0,2). Those are the four couplings of one generation (up, the neutrino's, down, the charged
+  lepton's), and each charge sum is zero. Both pairings act on the two-dimensional factor only.
+- **Not claimed:** that this fixes a Higgs reading in any frame. The seat offers it as a line of attack; B1946 and P-861
+  hold what main has computed about the readings.
+
 ## Not claimed
 
 - That postulate D is derived.

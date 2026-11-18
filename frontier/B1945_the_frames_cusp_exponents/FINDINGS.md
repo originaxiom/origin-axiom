@@ -116,6 +116,7 @@ beside a measured number. Register row P-859. **0 of 19.**
   - On (S̃ up, S down): the 14 points with a = 0 or ±1/5 give |V₁₃| = 1, and the 10 points with a = ±2/5 give
     |V₁₂| = |V₂₃| = 1.
   - These are B1940's averaged limits: 7/12 = 14/24, and 5/12 = 10/24.
+  - *[Added 2026-11-18, agy-exp's F-R83-16, second item, recomputed by main (B1957's `checks/review83_agyexp.py`): the other pair, (S up, S̃ down), has the complementary limit. At heights 45 and 85 the 14 points with a = 0 or ±1/5 give ∣V₁₂∣ = ∣V₂₃∣ = 1 and the 10 with a = ±2/5 give ∣V₁₃∣ = 1, so its averaged moduli tend to 7/12, 7/12, 5/12. This arc's own run at height 30 prints 12, 14 and 10 for that pair: at two of the four points with a = 0 the down sector's two light singular values are nearly tied at that height and their order has not settled.]*
 - **Why** (§ 2's pieces): the two sectors' largest residues sit in different units.
   - **The up sector:** units j and k, since q_L − q_R = 5 ≡ 0 mod 5 makes unit 1 vanish.
   - **The down sector:** units 1 and i.
@@ -206,6 +207,18 @@ beside a measured number. Register row P-859. **0 of 19.**
     ζ^(−a²) and ζ^(2ab), the table that repairs the sum is ζ^(−ab), and the repaired sum is covariant under both.
   - **What is left of the first reading:** a covariant read-out of the summed amplitude needs phases on the points. That
     is where agy-exp's (b), the Chern–Simons phases, would enter, and for the up sector it needs level 25.
+  - **Added 2026-11-18: the phases counted, and a law** (B1957's `verification/checks/agyexp_x_foundation.py`, F4 and
+    F5; agy-exp's statement in its X-FOUNDATION-4 note, decided here on main's own frame; register row P-871).
+    - Under τ → τ + 5 the determinant of the coupling changes at each of the 24 points by a fifth root of unity that
+      depends only on the row a. In the up sector it is 1 on a = 0, ζ on a = ±1/5 and ζ⁴ on a = ±2/5; in the down
+      sector it is 1 everywhere. Under τ + 25 it is 1 everywhere. Both readings agree.
+    - **The law:** the point's own phase is ζ^(E·(5a)²) with E = q_L² + q_R² mod 5: up 2, down 0, leptons 0.
+    - **In frame D1** (the residue at the pole, the Higgs zero placed at c·q_H·w; main's rebuild of the web seat's
+      W-B2) the same law holds with E = q_L² + q_R² + c·q_H², checked for c = 0, ±1, ±2, 5, 7 and all three sectors.
+      At c = 2 the up sector closes and the down and lepton sectors do not: the obstruction changes sector.
+    - **No placement closes both.** Up needs c ≡ 2 and down needs c ≡ 0 modulo 5.
+    - At odd c the residue's two off-diagonal entries also change by (−1)^(5a), under τ + 5 and under τ + 25.
+    - Scope, as above: phases on the points. It does not show that no flat unitary connection exists.
 - **A defect in the instrument, found by this check (P-864).** The record's table of the canonical end (B1927's
   `canon_readout.canon`) does not cover −1/τ here (height 0.585). Below its lower edge it returns the nearest tabulated
   value, 2.719, with no flag; the end's law gives 3.028. Main's first test of S used the table there and failed by 2 %

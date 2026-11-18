@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xu-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "mathematics main holds by its own computation. The Weil five splits 3 + 2 under the inversion and its even exterior algebra has degrees 1, 10, 5, sixteen states (main's B1951; checks/physical_all_seats_refresh.py, W1); a factor at level 3 commutes with it, being another tensor factor. For charges a on the three and b on the two the mixed and gravitational anomalies are 3a + 2b, 3a + 2b and 8(3a + 2b) and the cubic one 4(3a + 2b)((3a + b)^2 + 4b^2), whose second factor vanishes only at a = b = 0, so the cubic alone forces 3a + 2b = 0, that is 6Y = diag(-2, -2, -2, 3, 3) and k_2/k_1 = 3/5; at (-1, 1) it is -32 (W2; checks/agyexp_x_unify.py, U1; agyexp_x_endgame.py, H2). tr (6Y)^2 = 30 and tr Y^2 = 5/6, the classical trace norm in the physical lane's response c_H Phi^2/(2 G A) (U1; physical_boundary_law.py, W5). Integers m minimise m^2 at 0 and half-integers at +-1/2 with value 1/4. FRAME C'S LEAST EXPONENTS over the points of order 5, 10 and 15, in both readings, from MAIN'S OWN rule (B1788's; U2): the note's table, cell for cell",
+ "note": "The anomaly statement is within the content it assumes (the even exterior algebra of 3 + 2), which main counts as postulate D's four bits (B1952); it is not a derivation of that content.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:33",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:36",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS:30"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "id": "agy002-ms-13",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the seat's list of what it found sound in the other seats' work. ON MAIN, at each item's own record: the quartic term's -48 and the mixed coefficient 11/2 (agyexp-xs-01, physical-as-01); the Weil scalars -1, +1, -1 (agyexp-xs-01); the Chern-Simons invariant of m004 is 0 (checks/agyexp_x_closure.py, C1); the cusp's omitted area 2 pi/(T + 1 + log 4) and the half-line response (checks/physical_frontier_response.py); the cyclic kernel counts 18, 16, 8 (physical-cm-01); the physical lane's findings F11 to F17 (physical-as-01); the sixteen states' vanishing anomaly sums (agy002-pr-01); the slope 506/(201 pi) and its companions (agy002-g1-01); the cusp mixing's derangement under hypercharge alone (B1945, B1946). NOT ON MAIN: agy-exp's solved metric; the nilpotency indices 1, 3, 2; the spans 9, 5, 4 and the nullities 1, 2 as the seat's gates compute them (agy002-g4-04, partial); the SM seat's eighteen cards, which are that lane's and are settled in its own records; the agy lane's stages as a whole",
+ "note": "The agy lane's 'false pole diagnosis', its restriction to hypercharge and its unpriced one-loop step are, by this note, resolved in the seat's own gates 4 to 7B; main's verdicts on those gates stand in records agy002-g4 to agy002-g7b.",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:46",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:57",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:62"
+ ]
+}

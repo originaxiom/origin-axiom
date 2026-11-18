@@ -1,0 +1,5 @@
+K1: names in the scanned set 12; functions defined in the file 111; float literals in the file 1477, inside the scanned functions 0; one-loop coefficients at lines [984], [987], [990] (41/10, -19/6, -7); the second copy integrated at line [3703] and placed in a block with zeros off the diagonal at line [3704]; calls at (4/15, 8/15): lines [582, 3612, 3737]
+K2: the function h0_elliptic_jet_checked returns ['deg', '0', '1', '1'] and calls nothing: no contour integral is computed in it
+K3: three more families add 4 to each: SU(2) -19/6 -> 5/6 (positive), SU(3) -7 -> -3; the shift of 1/alpha_3 over a range t is (4/(2 pi)) t = 0.6366 t, above 18 for t above 28.27
+K4: on the path the largest |u1 v2 - u2 v1| is 8.5e-17; its energy at L = 6, 12, 24, 48: ['0.41123', '0.20562', '0.10281', '0.05140']; E times L: ['2.4674', '2.4674', '2.4674', '2.4674']
+K5: pinned commits found: 12 of 12

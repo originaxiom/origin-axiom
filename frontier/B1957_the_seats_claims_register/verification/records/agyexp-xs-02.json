@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-xs-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's own run. ON MAIN: the cusp's omitted area beyond the cut is 2 pi ell^2 over the height plus a constant, and a punctured torus of curvature -1/ell^2 has area 2 pi ell^2 (checks/physical_frontier_response.py); the four-line complex's exactness and the rank one of its connecting map (physical-cm-01); the series stops because every word of length four overshoots the weights (physical_frontier_response.py), and the cross module's joint kernel is a line for every parameter pair (physical_input_recheck.py); the end response's derivative and its two-interval composition (physical_frontier_response.py, F5); 3/2 and 11/2 as the one- and two-loop coefficients; on an elliptic curve a line bundle of negative degree has no section and O(d p) has 1, 1, 2, 3, 4 sections for d = 0 to 4; (-1/10, 3/10) times [[3, 2], [1, 1]] is (0, 1/10); two masses have a dimension matrix of rank one and one free ratio (physical_all_seats_findings.py). NOT ON MAIN: the solved metric and its constants, the sharper nilpotency indices, the 243 histories, the Bergman basis's ranks and the mixing statement, the cusp's pole bound and flux index, the Casimir weights",
+ "note": "ON THE CLOSED-FIBRE ALIGNMENT that the third note repeats from agy-002: main found that with 3(B - L) in place of hypercharge the up and down matrices are the same matrix, so an aligned top entry says nothing, and that the count '4 aligned, 20 deranged' under hypercharge depends on the singular-value routine's choice inside a degenerate pair (main's gives 8 and 16; records agy002-g5-04 and -07). THE SEAT'S OWN 'CHECK' OF THE SECTION COUNTS is a function that returns typed-in values (0 in negative degree, then 1, 1, d) and computes no contour integral, as agy-002 found and main read in the checker's text (checks/agy002_audit_of_seats.py, K2); the counts themselves are true.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS:30"
+ ]
+}

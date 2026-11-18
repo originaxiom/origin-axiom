@@ -22,9 +22,12 @@ KS = ["down|L_2|S", "lep|L_2|S", "up|L_2|St", "down|L_2|St", "lep|L_2|St"]
 def avg(t, pts):
     L = CR.canon(t); L.pop("_extrapolated"); G.L2_NOW[0] = L["L_2"]
     acc = None
-    for a, b in pts:
-        f = C.frame(t, a, b, L); v = np.concatenate([np.array(f[k]) for k in KS])
-        acc = v / len(pts) if acc is None else acc + v / len(pts)
+    try:
+        for a, b in pts:
+            f = C.frame(t, a, b, L); v = np.concatenate([np.array(f[k]) for k in KS])
+            acc = v / len(pts) if acc is None else acc + v / len(pts)
+    finally:
+        G.L2_NOW[0] = None       # [2026-11-18: the exact weight is switched off again; left on, it changed other arcs' frames in one process]
     return acc
 B = C._modules()["B"]; B.cA = G.cA_t90
 for t in (complex(0.13, 1.5), complex(-0.31, 2.4), complex(0.27, 3.6)):

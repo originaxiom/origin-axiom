@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-xs-03",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "two results of the second note that the seat's next campaign replaces after the physical lane's recheck (PHYSICAL-C6), whose mathematics main verified (checks/physical_input_recheck.py; record physical-rc-01). (1) Both sides of the parent normal equation, with a second fundamental form of norm about 2.25 and a normal defect above 21: the form was taken as a projected raw derivative, without the moving frame's connection; in the seat's own planar example the missing term has squared norm 144 cos^2/D^3; its control's tension ratio left out the induced factor 1 + c^2 (1 - 2u)^2; and the optimiser held the end angle fixed. X-FOUNDATION-2 redoes all three. (2) That a rotated two-state join 'lifts all zero modes': the link between the cells was held fixed while the second cell's frame was rotated; with the link transported the spectrum is the same-axis one (main: kernel 0 with the link fixed, 1 with it transported). X-FOUNDATION-2 replaces the fixed link by a derived one",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS:30"
+ ]
+}

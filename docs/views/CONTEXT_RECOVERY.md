@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1655 |
-| … PROVED | 1153 |
+| arcs with a verdict file | 1656 |
+| … PROVED | 1154 |
 | … NEGATIVE | 386 |
 | … OPEN | 103 |
 | … RETRACTED | 13 |
-| register points | 867 |
-| … “QUEUED” | 314 |
+| register points | 871 |
+| … “QUEUED” | 317 |
 | … “LEAD” | 4 |
 | … “OWNER” | 0 |
-| … “DONE” | 537 |
+| … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1907 |
+| harvest rows (the last number) | 1910 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1959 | PROVED | “THE WEIGHTED INVERSE ON A FINITE-AREA CUSP WITH THE CONSTANT ASYMPTOTE ADJOINED (PROVED, a theorem of analysis; the first of the physical lane's six ranked requests, its equation (3), by an argument independent of the l…” |
 | B1958 | PROVED | “REVIEW 84 ENTERED: THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS (PROVED, a process arc; run because the review gate fired at main's fortieth landing since Review 83, uncounted):…” |
 | B1957 | OPEN | “THE SEATS' CLAIMS REGISTER (OPEN; a working instrument under the author's rule of 2026-11-17 that no seat's claim is ignored, unverified or unregistered): every statement of the markdown files the seats added or changed…” |
 | B1956 | PROVED | “AGY-EXP'S TEN CAMPAIGNS, READ AT THEIR RESULT NOTES AND CHECKED WHERE EXACT (a process arc; the harvest, at the author's word; rows 1868 to 1877, its pin moved to 017266d8): the executive outcome of all 41 result notes…” |
@@ -42,7 +43,6 @@
 | B1950 | PROVED | “REVIEW 83 ENTERED: BOTH READERS CAUGHT ALL SIX PLANTS, AND THEIR FINDINGS INCLUDE ERRORS IN MAIN'S MATHEMATICS (PROVED, a process arc): every quotation main's check could parse is exact (28 of 28 and 20 of 20); mended o…” |
 | B1949 | PROVED | “IN THE FRAME THE LEPTONS ALWAYS SHARE THE DOWN QUARKS' HIERARCHY EXPONENTS, AND THE LEVEL ONLY CHANGES AN ORDER-ONE FACTOR (PROVED, data-free; card sealed before the runs; P-862 step 2): the coupling depends on a sector…” |
 | B1948 | OPEN | “THE RELATIONS THE RECORD HOLDS AMONG THE STANDARD MODEL'S PARAMETERS, TYPED (OPEN, an inventory; P-862 step 1): of 21 relations, one live forward relation among the free parameters, TM1 (P10, 2.28 sigma on JUNO's second…” |
-| B1947 | NEGATIVE | “[FINAL 2026-11-15: its second computation the web seat's W-B2 on the twisted triplet, harvest row 1840; the seat's other placement, the Szego zero, was withdrawn as built and is covariant when built correctly (row 1841)…” |
 
 ## Awaiting a decision (register rows whose disposition is “OWNER”)
 
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p: REVIEW 84 ENTERED (B1958; P-867): THE REVIEW GATE FIRED AT MAIN'S FORTIETH LANDING SINCE REVIEW 83, UNCOUNTED; THREE COLD READERS CAUGHT ALL SEVEN PLANTS AND FOUND TWENTY FAULTS IN MAIN'S OWN ARCS, EACH RIGHT AND EACH MENDED.** The window is c8cece9be to 1fc1e224e, 13 arcs; the sample B1945, B1950, B1955, B1956 and B1957 was read in full on a copy of the head with seven planted faults by three sessions of main's own family that built none of it. Eleven of the twenty findings are of one kind: a page or a verdict that says more than the committed output behind it (B1945's planted case and its piece exponents; Review 83's own entry; B1957's verdict file, its lock and…”
+“LATEST (2026-11-18, S306p: THE CLAIMS REGISTER HAS NO STATEMENT PENDING (B1957, OPEN; P-865); THE AGY LANES CLOSED BY MAIN UNDER THE AUTHOR'S DELEGATION (P-870); A LAW FOR THE POINT'S PHASE AT LEVEL 5 (P-871).** The register: 406 files, 361 read at source, 20,949 statements: 3,615 verified, 19 refuted, 1,346 conditional, 758 partial, 147 superseded, 15,064 noted, none pending. agy-exp's lane (88 files, 2,099 statements) and the last fourteen lines of agy-002's closing note are settled (harvest rows 1909, 1910). The author has left to main the judgement of when the agy sessions' harvest is complete, since they are not in use; main closes the three lanes on their pages with the criterion and…”
 
 ## Completeness (nothing skipped silently)
 

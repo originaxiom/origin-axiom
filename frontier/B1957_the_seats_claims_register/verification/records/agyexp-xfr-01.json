@@ -1,0 +1,22 @@
+{
+ "id": "agyexp-xfr-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the seat's second computation of the physical lane's packages P-C3c to P-C3f and of two other seats' items. ON MAIN, rebuilt independently (records physical-tr-01, physical-ns-01, physical-c3e and physical-pen, physical-cm-01, physical-xe-01): the quartic's identity and its lower bound when the squared coupling is at least twice the squared charge; the colour centraliser of 78 dimensions (40 roots, 32 half-roots, the rank 6), its Cartan determinant 3, the grading 46 + 16 + 16 with the Cartan, the centre of order 3 and the three pairs of core signs; the reflection of order 2 on E6 and order 6 on E8 with its parities; the two forced tails, the kernel k/ell and the rotation loop as two even coroots; the kernel of twelve modes against ten; the weights of E8 under one so(5) as 10 + 11 x 5 + 32 x 4 + 55 and the trace identities; the corner reduction, the degrees -2, 0, 0, 2, the kernel counts 18, 16, 8 and 16, 16, 8; the coefficient 11/2 against 7, their ratio 3/11; the algebra of the two nonlinear steps on a finite model and the mass 4 e^2 t^2; that with no charged field the neutral ramp has constant slope. NOT ON MAIN: every figure of the seat's own runs (its sixty-digit agreements, the pencil's ranks 180 and 148 as its matrices give them, the Kronecker limit's inversion on the agy lane's formula, the grids' convergence), and its controls' sizes",
+ "note": "A second computation by a seat of finite algebra main rebuilt itself; the two agree wherever both computed. The analytic statements of those packages are scoped by the seat in its second tier and are conditional in the physical lane's own records; the first of them, the inverse on the cusp, is now a theorem on main for the class of operators (B1959).",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS:24",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS:24"
+ ]
+}

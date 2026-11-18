@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-xap-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the two lines on the root systems inside E8. ON MAIN: the written element is the permutation (0 4 1 3)(2 5) of the coordinates, of order 4 and determinant +1 (checks/physical_x_apex_review.py), so it is not an involution; the centraliser of colour in E8 has dimension 78 (checks/physical_transverse_response.py). NOT ON MAIN: the second copy of E6, the dimensions 16 and 7 of the two intersections, and that the element carries one root system onto the other while fixing the two weak factors",
+ "note": "The seat's answer XA-07 concedes the order and keeps the conjugation; main has not computed the conjugation.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:28"
+ ]
+}

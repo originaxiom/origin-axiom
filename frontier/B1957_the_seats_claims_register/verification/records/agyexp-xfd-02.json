@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xfd-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's run. THE MISSING CONNECTION TERM: main has the formula 144 b^2/D^3 (physical_input_recheck.py, H3), not the seat's figures for the corrected norm and defect. THE LINK: with the link transported by the frame change the kernel stays 1 (main, H5); the kernel 0 with a link 'derived from the four-form connection' is the seat's run, and its smallest singular value is in the same bracket (0.119 to 0.120) as with the link held fixed in X-SYNTHESIS-2, so main has not established that the derived link differs in effect from the fixed one. THE ORDER-FOUR COVER: the traces 3, 7, 18, 47, det(M^4 - 1) = -45 and the Smith form 3, 15 are right (agyexp_x_foundation.py, F2); that the register's order-four shear selects the fourth cover follows a coupling the seat assigns (the physical lane's reading, record physical-dp-02). THE LEVEL-25 STATEMENT, DECIDED ON MAIN'S OWN FRAME (agyexp_x_foundation.py, F4 and F5): in frame C, under tau -> tau + 5, the determinant's phase at the 24 points takes three values in the up sector (1 on the row a = 0, zeta on a = +-1/5, zeta^4 on a = +-2/5) and one in the down sector, and one in both under tau + 25, in both readings; the left Gramian is invariant (B1945 section 6). In main's rebuild of frame D1 with the Higgs zero placed at c = +2 the pattern swaps: the up sector's residue has one phase, the down and lepton sectors' three. THE LAW, for every sector and every c tried (0, +-1, +-2, 5, 7): the point's phase under tau + 5 is zeta^(E (5a)^2) with E = q_L^2 + q_R^2 + c q_H^2 mod 5; at c = 2 that is 3 (q_R - q_L)^2, the seat's criterion. Up needs c = 2 mod 5 and down needs c = 0 mod 5, so no placement closes both at level 5. NOT ON MAIN: the mixing moduli's invariance; the seat's own shifted model, which main identifies with c = +2 by the criterion only. The 240-root partition in the fourth note's witness line is right; its kernel counts are the seat's",
+ "note": "A FAULT IN THE NOTE: it writes the spread of the three phases as '(1175/1000, 1176/1000) = 2 sin(2 pi/5)'. The bracket holds 2 sin(pi/5) = 1.175571; 2 sin(2 pi/5) is 1.902113 (F3). The number is the distance of zeta from 1 and is right; the label is wrong. FOUND BY MAIN ON THE WAY: at odd c the residue's two off-diagonal entries also change by (-1)^(5a) under tau + 5 and under tau + 25, so there the change is not one scalar per point at either level. SCOPE: phases on the points; as the physical lane said of B1945, this does not show that no flat unitary connection exists.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:26",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS:25"
+ ]
+}

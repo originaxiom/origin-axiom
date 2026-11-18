@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-read-xfr",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the five result notes of X-FRONTIER, each read by main in full at 48a4054aa, through the mask (notes read, no code run)",
+ "files": [
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS.md"
+ ]
+}

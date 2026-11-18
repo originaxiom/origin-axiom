@@ -49,6 +49,8 @@ agy-002 reports 31 and agy-exp 20. Six of each are the plants, and several of th
 | R83-11, F-R83-14 | B1938's lock compared signed differences without an absolute value | the lock |
 | R83-26, F-R83-16, F-R83-17 | B1940's verdict file said "second computation owed" with no seat cited; B1944's named SM-C15 without citing it | both verdict files |
 
+*[Added 2026-11-18 (B1957, the claims register): the second item of F-R83-16 was in neither list of this entry. B1940's page gave the averaged mixing moduli's cusp limit 5/12, 5/12, 7/12 with W₋'s figures beside it and no statement for W₊. The reader is right that W₊'s limit is 7/12, 7/12, 5/12; main recomputed it at heights 45 and 85 (B1957's `checks/review83_agyexp.py`), and B1940's page, B1945 § 3b and the open-leads entry now say so.]*
+
 ### Carried as action item R83-1 (to build, each checked by main)
 
 - **Numbers and statements off their source:** R83-07 (B1932's mirror figure, shift and spread), R83-08 (B1904's passage

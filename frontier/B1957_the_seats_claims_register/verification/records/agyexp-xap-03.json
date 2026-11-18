@@ -1,0 +1,22 @@
+{
+ "id": "agyexp-xap-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the campaign's remaining outputs inside its supplied model, not recomputed on main: the vanishing angle from a reflection of the torus acting on integrated zero-mode couplings; the multi-cell chains' nullities; the scale ratios from typed-in exponents; the infrared trajectory of the resolvent state; the lists of what the campaign counts as closed and as remaining",
+ "note": "The chains' nullities are computed with the link between cells held fixed while frames rotate, the construction the physical lane's recheck showed is not frame-covariant (main: kernel 0 with the link fixed, 1 with it transported; checks/physical_input_recheck.py); X-FOUNDATION-2 replaces the link.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS:27",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS:34"
+ ]
+}

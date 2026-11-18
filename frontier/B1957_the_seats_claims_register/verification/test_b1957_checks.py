@@ -664,3 +664,136 @@ def test_the_mixed_invariants_shift_in_the_lanes_rational_example_is_exact():
     yd = rot * sp.diag(sp.Rational(1, 7), sp.Rational(1, 3), sp.Rational(2, 3)); hu, hd = yu * yu.H, yd * yd.H; comm = hu * hd - hd * hu
     assert sp.simplify(sp.Rational(3, 2) * (comm * comm).trace() + sp.Rational(1769472, 10 ** 8)) == 0   # -0.01769472, the figure of its checker's output
     hd0 = sp.diag(sp.Rational(1, 49), sp.Rational(1, 9), sp.Rational(4, 9)); assert (hu * hd0 - hd0 * hu).is_zero_matrix   # the control: commuting inputs hide it
+
+
+# ---- agy-exp's campaigns, its review reading and its view; agy-002's audit of the seats (2026-11-18) ----
+def _orbits(mats, pts, mod):
+    left, sizes = set(pts), []
+    while left:
+        s = {next(iter(left))}; st = list(s)
+        while st:
+            v = st.pop()
+            for m in mats:
+                w = tuple(int(x) % mod for x in np.array(v) @ m)
+                if w not in s: s.add(w); st.append(w)
+        left -= s; sizes.append(len(s))
+    return sorted(sizes)
+
+
+def test_the_acts_inverse_splits_the_order_five_points_two_two_ten_ten_and_its_root_joins_the_fixed_line():
+    Minv = np.array([[1, -1], [-1, 2]]); Jinv = np.array([[0, 1], [1, -1]]); pts = [(i, j) for i in range(5) for j in range(5) if (i, j) != (0, 0)]
+    assert _orbits([Minv], pts, 5) == [2, 2, 10, 10]
+    line = [p for p in pts if tuple(int(x) % 5 for x in np.array(p) @ Minv) == tuple((-x) % 5 for x in p)]
+    assert sorted(line) == [(1, 2), (2, 4), (3, 1), (4, 3)] and _orbits([Jinv], line, 5) == [4]
+    assert _orbits([Minv], pts, 7) != [2, 2, 10, 10]                                   # another prime: other orbits
+
+
+def test_the_act_has_order_four_modulo_three_and_its_root_eight():
+    def order(m, mod):
+        x, n = m % mod, 1
+        while not (x == np.eye(2, dtype=int)).all(): x = (x @ m) % mod; n += 1
+        return n
+    M = np.array([[2, 1], [1, 1]]); J = np.array([[1, 1], [1, 0]])
+    assert (J @ J == M).all() and order(M, 3) == 4 and order(J, 3) == 8 and order(M, 3) != 8   # 'M mod 3 has order 8' is the root's order
+
+
+def test_the_act_is_the_commutator_word_and_its_fourth_cover_has_torsion_three_and_fifteen():
+    import sympy as sp
+    from sympy.matrices.normalforms import smith_normal_form
+    T = sp.Matrix([[1, 1], [0, 1]]); S = sp.Matrix([[0, -1], [1, 0]]); M = sp.Matrix([[2, 1], [1, 1]]); one = sp.eye(2)
+    assert T * S.inv() * T.inv() * S == M and M ** 2 + one == 3 * M and (M ** 4 - one).det() == -45
+    assert [abs(x) for x in smith_normal_form(M ** 4 - one, domain=sp.ZZ).diagonal()] == [3, 15] and [(M ** k).trace() for k in (1, 2, 3, 4)] == [3, 7, 18, 47]
+    assert (M - one).det() == -1 and len((M - one).nullspace()) == 0                 # so the bundle has no second homology
+    assert S * T * S.inv() * T.inv() == M.inv() and M.inv() != M                      # the reversed word is the inverse
+
+
+def test_the_gauss_scalars_at_fifteen_five_and_three_are_minus_plus_minus():
+    import cmath
+    def gamma(N, r): h = pow(2, -1, N); return sum(cmath.exp(2j * cmath.pi * r * h * x * x / N) for x in range(N)) / N ** 0.5
+    g15, g5, g3 = gamma(15, 1), gamma(5, 3), gamma(3, 2)
+    assert abs(g15 - g5 * g3) < 1e-12 and [round((1 / g ** 2).real) for g in (g15, g5, g3)] == [-1, 1, -1]
+    assert max(abs((1 / g ** 2).imag) for g in (g15, g5, g3)) < 1e-12                 # so S^2 is not the parity alone at 15 and 3
+
+
+def test_m004_and_its_sister_share_the_volume_and_differ_in_the_chern_simons_invariant_and_the_homology():
+    import snappy
+    A, B = snappy.Manifold("m004"), snappy.Manifold("m003")
+    assert abs(float(A.volume()) - float(B.volume())) < 1e-10 and abs(float(A.chern_simons())) < 1e-10 and abs(abs(float(B.chern_simons())) - 0.25) < 1e-8
+    assert str(A.homology()) == "Z" and str(B.homology()) == "Z/5 + Z"
+    c = float(snappy.Manifold("m015").chern_simons()); assert abs(c * 12 - round(c * 12)) > 0.1   # not a multiple of 1/12
+
+
+def test_the_charge_on_e8_is_neutral_on_46_roots_unit_on_32_and_in_thirds_on_162():
+    import itertools
+    roots = [tuple((si if k == i else sj if k == j else 0) for k in range(8)) for i, j in itertools.combinations(range(8), 2) for si in (1, -1) for sj in (1, -1)]
+    roots += [tuple(F(s, 2) for s in sg) for sg in itertools.product((1, -1), repeat=8) if sum(1 for s in sg if s < 0) % 2 == 0]
+    Q = lambda r: F(2, 3) * (r[0] + r[1] + r[2]); assert len(roots) == 240
+    assert [sum(1 for r in roots if t(Q(r))) for t in (lambda q: q == 0, lambda q: abs(q) == 1, lambda q: q.denominator == 3)] == [46, 32, 162]
+    assert [k for k in (1, 2, 3) if all((k * Q(r)).denominator == 1 for r in roots)] == [3]   # one and two turns do not close
+
+
+def test_under_tau_plus_five_the_points_phase_is_zeta_to_e_a_squared_and_no_placement_closes_up_and_down():
+    import web_wb2_d1 as D
+    mp = D.mp
+    def resid(tx, a, b, sec, c):
+        t = mp.mpc(tx, "1.7"); ql, qr, qh = D.SEC[sec]; h = c * qh * (D.f2m(a) * t + D.f2m(b))
+        return (D.vvec(D.chars(ql, a, b), -h, t) * D.vvec(D.chars(qr, a, b), -h, t).T / D.t1p(t))[0, 0]
+    def k_by_row(sec, c):
+        r = {i: resid("5.13", F(i, 5), F(2, 5), sec, c) / resid("0.13", F(i, 5), F(2, 5), sec, c) for i in range(5)}
+        return [round(float(mp.arg(r[i] / r[0])) * 5 / (2 * float(mp.pi))) % 5 for i in range(5)]
+    for sec in ("up", "down"):
+        for c in (0, 2):
+            ql, qr, qh = D.SEC[sec]; E = (ql * ql + qr * qr + c * qh * qh) % 5
+            assert k_by_row(sec, c) == [(E * i * i) % 5 for i in range(5)]
+    assert k_by_row("up", 0) != [0] * 5 and k_by_row("down", 0) == [0] * 5 and k_by_row("up", 2) == [0] * 5 and k_by_row("down", 2) != [0] * 5   # the obstruction swaps sectors
+    assert not [c for c in range(5) if (2 + 4 * c) % 5 == 0 and (4 * c) % 5 == 0]      # up needs c = 2, down c = 0 modulo 5
+
+
+def test_the_parabolas_tension_with_its_induced_factor_is_the_figure_the_seat_committed():
+    import mpmath as mq
+    b, c = mq.mpf(2), mq.mpf(3) / 5; tens = lambda cc: 2 * mq.sqrt(b) * mq.quad(lambda u: u * (1 - u) * mq.sqrt(1 + cc * cc * (1 - 2 * u) ** 2), [0, mq.mpf(1) / 2, 1])
+    assert abs(tens(c) - mq.mpf("0.4877779586")) < 1e-9 and abs(tens(c) / (mq.sqrt(b + c * c) / 3) - mq.mpf("0.9525492184")) < 1e-9
+    assert abs(tens(0) - mq.sqrt(2) / 3) < 1e-15 and tens(c) > tens(0)                 # without the factor it is sqrt(2)/3
+
+
+def test_the_averaged_mixing_modulis_cusp_limit_is_seven_seven_five_twelfths_in_w_plus():
+    b45 = next(q for q in pathlib.Path(__file__).resolve().parents if (q / "frontier").is_dir() and (q / "GENESIS.md").is_file()) / "frontier"
+    sys.path.insert(0, str(next(b45.glob("B1945_*")) / "verification")); import determinant_law as DL, cusp_mixing as CM
+    def counts(y):
+        p, m = [0, 0, 0], [0, 0, 0]
+        for i in range(5):
+            for j in range(5):
+                if (i, j) == (0, 0): continue
+                Yu = DL.parts("0.13", y, F(i, 5), F(j, 5), "up")[2]; Yd = DL.parts("0.13", y, F(i, 5), F(j, 5), "down")[2]
+                V = CM.U_of(Yu["S"]).H * CM.U_of(Yd["St"]); W = CM.U_of(Yu["St"]).H * CM.U_of(Yd["S"])
+                for n, (r, c) in enumerate(((0, 1), (1, 2), (0, 2))): p[n] += round(float(abs(V[r, c]))); m[n] += round(float(abs(W[r, c])))
+        return p, m
+    assert counts(45.0) == ([14, 14, 10], [10, 10, 14])
+    assert counts(30.0)[0] == [12, 14, 10]                                             # at height 30 two points have not settled
+
+
+def test_b1934s_lock_matrix_without_its_phase_generates_a_group_of_order_240():
+    b34 = next(q for q in pathlib.Path(__file__).resolve().parents if (q / "frontier").is_dir() and (q / "GENESIS.md").is_file()) / "frontier"
+    sys.path.insert(0, str(next(b34.glob("B1934_*")) / "verification")); import level_five_structure as L
+    S = np.array([[L.W ** (x * y) for y in range(L.P)] for x in range(L.P)]) / np.sqrt(L.P); T = np.diag([L.W ** (x * x) for x in range(L.P)])
+    assert len(L.generate([S, T])) == 240 and len(L.generate([-S, T])) == 120
+
+
+def test_the_bigraded_exterior_algebra_carries_the_records_charges_and_four_pairings_into_the_top_form():
+    import itertools, math
+    Q6 = lambda p, q: 3 * q - 2 * p; dim = lambda p, q: math.comb(3, p) * math.comb(2, q)
+    even = [(p, q) for p in range(4) for q in range(3) if (p + q) % 2 == 0]; odd = [(p, q) for p in range(4) for q in range(3) if (p + q) % 2 == 1]
+    assert sorted((Q6(*x), dim(*x)) for x in even) == [(-4, 3), (-3, 2), (0, 1), (1, 6), (2, 3), (6, 1)] and sum(dim(*x) for x in even) == 16
+    assert (Q6(0, 1), dim(0, 1)) == (3, 2) and all(Q6(3 - p, 2 - q) == -Q6(p, q) for p in range(4) for q in range(3))
+    pairs = lambda qs: sorted((a, b) for a, b in itertools.combinations_with_replacement(even, 2) if a[0] + b[0] == 3 and a[1] + b[1] == qs)
+    assert pairs(1) == [((0, 0), (3, 1)), ((1, 1), (2, 0))] and pairs(3) == [((0, 2), (3, 1)), ((1, 1), (2, 2))]
+    assert all(Q6(*a) + Q6(*b) + 3 == 0 for a, b in pairs(1)) and all(Q6(*a) + Q6(*b) - 3 == 0 for a, b in pairs(3))
+    assert sorted(Q6(*x) for x in odd) == [-6, -2, -1, 0, 3, 4]                         # the odd half does not carry them
+
+
+def test_a_path_inside_the_four_field_vacuum_set_costs_a_constant_over_the_length():
+    path = lambda s: np.outer([np.cos(s * np.pi / 2), np.sin(s * np.pi / 2)], [np.cos(s * np.pi / 2), np.sin(s * np.pi / 2)])
+    P = np.array([path(s) for s in np.linspace(0, 1, 4001)]); assert max(abs(np.linalg.det(m)) for m in P) < 1e-12
+    E = lambda Lx: 0.5 * (np.linalg.norm(np.diff(P, axis=0), axis=(1, 2)) ** 2).sum() / (Lx / 4000)
+    assert abs(E(6) * 6 - np.pi ** 2 / 4) < 1e-5 and abs(E(48) * 48 - E(6) * 6) < 1e-9
+    assert abs(np.linalg.det(0.5 * (path(0) + path(1)))) > 0.2                          # the straight path leaves the set

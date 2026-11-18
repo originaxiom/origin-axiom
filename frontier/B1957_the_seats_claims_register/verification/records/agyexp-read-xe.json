@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-read-xe",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the five result notes of X-ENDGAME, each read by main in full at 48a4054aa, through the mask (notes read, no code run)",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md"
+ ]
+}

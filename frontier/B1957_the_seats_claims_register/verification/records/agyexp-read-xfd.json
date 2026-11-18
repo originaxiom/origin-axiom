@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-read-xfd",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the four result notes of X-FOUNDATION, each read by main in full at 48a4054aa, through the mask (notes read; of the code only the tension routine's lines and the committed output's keys read as text, nothing run)",
+ "files": [
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md"
+ ]
+}

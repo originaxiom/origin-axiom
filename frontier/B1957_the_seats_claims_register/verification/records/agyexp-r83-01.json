@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-r83-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "git: the card cbefe4cc8 precedes the checker fe6f74fbf and its last change d4f1345eb, which precede the output 60ef4d38d, all on the seat's branch; B1950's quote_check.py found each of the 20 quotations exactly in the reading commit (its committed run: 20 parsed, 20 found)",
+ "note": "'Exactly' in B1950's sense: present, whitespace-normalised, in the window's text at the reading commit.",
+ "units": [
+  "agy-exp:REVIEW_83_AGY-EXP:5",
+  "agy-exp:REVIEW_83_AGY-EXP:6",
+  "agy-exp:REVIEW_83_AGY-EXP:7",
+  "agy-exp:REVIEW_83_AGY-EXP:34"
+ ]
+}

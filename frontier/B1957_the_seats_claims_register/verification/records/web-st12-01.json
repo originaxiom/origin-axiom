@@ -1,0 +1,31 @@
+{
+ "id": "web-st12-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of main's M50 and M51 (its section 12.1), each point held against main's own records and run files: its count of the register at 061777484 is main's (137 files, 6,757 statements, none pending; 1,897 verified, 2 refuted, 15 conditional, 409 partial, 54 superseded, 4,380 noted; 7,458 units); the ten records it names carry the verdicts it names (web-sr-05 with units 149 and 155; web-wf17-09, web-sel-05, web-scale-04, web-thr-05, web-fr-05 partial; web-st8-07 superseded; web-weave-02 conditional; web-weave-05 and web-r79-06 noted), checked by machine at this landing; the figures it lists from its rerun of checks/web_section9_items.py are those of main's committed run file (I3 to I7); Review 84's four mends to this lane are as it says",
+ "note": "That its rerun on a clean checkout gave the run file byte for byte is the seat's own run; main's file is the one it compared with.",
+ "units": [
+  "web:STATUS_CHAT1:1035",
+  "web:STATUS_CHAT1:1037",
+  "web:STATUS_CHAT1:1039",
+  "web:STATUS_CHAT1:1040",
+  "web:STATUS_CHAT1:1041",
+  "web:STATUS_CHAT1:1043",
+  "web:STATUS_CHAT1:1044",
+  "web:STATUS_CHAT1:1045",
+  "web:STATUS_CHAT1:1047",
+  "web:STATUS_CHAT1:1048",
+  "web:STATUS_CHAT1:1049",
+  "web:STATUS_CHAT1:1050",
+  "web:STATUS_CHAT1:1052",
+  "web:STATUS_CHAT1:1053",
+  "web:STATUS_CHAT1:1055",
+  "web:STATUS_CHAT1:1057",
+  "web:STATUS_CHAT1:1058",
+  "web:STATUS_CHAT1:1060",
+  "web:STATUS_CHAT1:1061",
+  "web:STATUS_CHAT1:1062",
+  "web:STATUS_CHAT1:1063",
+  "web:STATUS_CHAT1:1064"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "agyexp-xb-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's own run. ON MAIN: a relative class at zero curvature (physical_boundary_law.py, W1); every figure of the physical lane's column in the comparison table, recomputed from that lane's inputs (physical_boundary_outputs.py: the dropped-phase change 335501353/177811200, the least non-zero sectors, the ratio 9, the cut-independent energy 7/5, the smooth disc); the count 3m of main's own B1641 and B1700; the two orders' difference (3/4)[H_1, H_2] and the trace identity (3/2) Tr([H_1, H_2]^2) (physical_endgame_review.py, E3; physical_endgame_outputs.py, P4); the three-term Majorana matrix's laws under other weightings and the ratio moving from 0.2744 to 0.5476 when the second weight is doubled (P3); the phase arithmetic that makes frame C's first sector pick up fifth roots under tau -> tau + 5 and the second none (agyexp_x_funnel.py, G2); the covariance of frame C's Gramian (main's B1945 and its lock); that a matrix commuting with an irreducible representation is a scalar; the one-loop relation (23/134, 109/201) for every number of families (B1956's check). NOT ON MAIN: the seat's own column of the comparison (its 85-digit run on a system of its own), its numerical confirmations of the coefficient, its solver benchmarks, its controls' sizes, its reading of the second primary source (not read by main), and that excluding m = 0 follows from 'nontrivial end registration', which is a premise",
+ "note": "The seat's second computation of the physical lane's boundary law is a second computation by a seat; main's own is in physical_boundary_law.py and physical_boundary_outputs.py.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:32",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:33",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:34",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:40",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:34",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:42",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:43",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:44",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:46",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS:54",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS:55",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS:59",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS:32"
+ ]
+}

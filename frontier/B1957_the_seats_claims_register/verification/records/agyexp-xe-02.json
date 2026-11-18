@@ -1,0 +1,29 @@
+{
+ "id": "agyexp-xe-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's own run. ON MAIN: M = T S^-1 T^-1 S, M^2 + 1 = 3M, |det(M^4 - 1)| = 45 = 1 x 5 x 9, the 45 fixed points 1 + 4 + 8 + 32, and M^2 - 1 with determinant -5 and no point of order 15 (checks/agyexp_x_endgame.py, H1; physical_endgame_review.py, E2); the level-three pair of order four with determinant 1, trace 1 and tr u^2 = -1, hence spectrum 1, i, -i, on the pair as the physical lane transcribed it (physical_endgame_outputs.py, P2); the trace normalisation (3/5) tr Y^2 = 1/2 (H2); the figure-eight's regular shape, its volume, the cusp derivative 2 sqrt(3) i and the Hessian sqrt(3) of minus the volume (P6); the three-term Majorana matrix's two laws and its ranks, three and two without the last term (P3); W'(1) = -3 for the stated polynomial (H4); the five orbit counts 8, 4, 4, 2, 16 (P1). NOT ON MAIN: the seat's solvers' convergence from its seeds, its two routes' agreement, the twisted Alexander polynomial itself, the torsions 2/sqrt(3) and 4 sqrt(3), Kashaev's asymptotics, the map to the Lorentz group on its matrices, its four solver benchmarks, and its monotonicity audit. Several of these are standard invariants of the figure-eight complement with values in the literature; main has not computed them",
+ "note": "That 'requiring all three generations to close periodically' selects the fourfold cover is an added condition, as the physical lane noted; the arithmetic that follows from the fourfold cover is what is verified.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS:23"
+ ]
+}

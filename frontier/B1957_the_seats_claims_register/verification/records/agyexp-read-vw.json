@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-read-vw",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the seat's view on selection and the dictionary, read by main in full at 48a4054aa (134 lines)",
+ "files": [
+  "relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md"
+ ]
+}

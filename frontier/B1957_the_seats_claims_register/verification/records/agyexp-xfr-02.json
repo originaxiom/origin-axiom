@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-xfr-02",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "three numerical results that the seat's own later work replaces or narrows. (1) The 'first numerical values' of the two light cubic couplings and their ratio: computed on a doubly periodic density that is not the hyperbolic metric (main's own check: its curvature is -1.26, -1.45 and -1.30 at three points, checks/physical_frontier_response.py) and without the cusp's area beyond the cut (the physical lane's finding; the omitted area is 2 pi/(T + 1 + log 4)); X-SYNTHESIS-1 recomputes them on a solved metric with the tail, with other values. (2) The colour-triplet constant: computed on the same seed density; the seat's answer XA-09 gives another value on the solved metric. (3) The 'coupled E6 state-axis join': by the seat's answer XA-03 it solves one scalar equation with a sine-squared potential and builds no E6 field or Gauss response, so it stands as a restricted comparator; main checked that its kink has action 4m (physical_frontier_response.py, F5)",
+ "note": "That the secondary map has rank one is the physical lane's algebra, verified on main (physical-cm-01) and not affected.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS:26",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS:25"
+ ]
+}

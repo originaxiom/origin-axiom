@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-xe-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/agyexp_x_endgame.py, H3, main's own algebra: on the six two-forms of a four-space the Hodge star squares to -1 in signature (1, 3) and (1 - i star)/2 is a projector; in signature (4, 0) the star squares to +1 and the same expression misses being a projector by sqrt(6)/2, the note's figure",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS:23"
+ ]
+}

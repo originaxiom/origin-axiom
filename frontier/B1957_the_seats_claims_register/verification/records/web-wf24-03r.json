@@ -1,0 +1,12 @@
+{
+ "id": "web-wf24-03r",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the seat's reading that the measure is the choice of tau in another form, and its table row typed 'a reading'. The fact under it (the measure's shares of time above four heights) is verified in web-wf24-03; the reading is not a computation. It agrees with what agy-002's A2-AMP found on main's variant, and the rule carries the measure as 'not met as a selection' (R6)",
+ "note": "Split from web-wf24-03 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:53",
+  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:55",
+  "web:CHAT1_TO_CC_2026-11-15_W-F24_WHERE_FRAME_CS_READ_OUT_LOSES_THE_HIERARCHY:87"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "agyexp-xf-03",
+ "date": "2026-11-18",
+ "verdict": "REFUTED",
+ "how": "two statements of the fourth note, each false as written, each confirmed on main. (1) 'M mod 3 has order 8, acting transitively on all 8 non-zero 3-torsion points': M squares to -1 modulo 3, has order 4 and two orbits of four; it is its root J that has order 8 and one orbit (checks/agyexp_x_funnel.py, G7; the physical lane found it first, record physical-ar-01). What stands in that line: det(M - 1) = -1, so M fixes no non-zero point of order 3. The seat's later campaign states the order as 4. (2) 'two-loop renormalization group running cannot generate opposite consecutive skew from an order-5 boundary condition': as a general statement it does not follow; on main's own one-loop running the rate of the logarithm of a ratio of ratios is -(3/(32 pi^2))(h_i - h_j), and a diagonal example with equal starting values gives opposite consecutive skews (checks/physical_agy_exp_review.py; record physical-ar-01). What stands is its single tested case, an output of its model (conditional, record agyexp-xf-04)",
+ "note": "The second is the physical lane's finding 6 on this campaign; the seat has not withdrawn the sentence in the note itself.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:42",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS:62"
+ ]
+}

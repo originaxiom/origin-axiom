@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-xb-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's repairs after the physical lane's review, each a fact main holds by its own computation. THE CARRIER: on the punctured mapping torus H_1 = Z, H_2 = 0 and H^2 = 0; with the closed fibre's cell H^2 = Z; on the fourfold cover M^4 - 1 has Smith form (3, 15), so the torsion is Z/3 + Z/15 and the 45 classes are the same (checks/physical_endgame_review.py, E1 and E2). THE RELATIVE CLASS: the restriction to the boundary is k -> (k, 0) because the longitude bounds the fibre, so H^2 of the pair is Z (checks/physical_boundary_law.py, W1, on SnapPy's figure-eight exterior). THE COEFFICIENT: 11/2 = 7 - 3/4 - 3/4 in the primary source's order (main's two-loop running, checks/sm_rge_matrix.py, and the lock)",
+ "note": "These replace the two statements refuted in agyexp-xe-03; the seat made the repairs itself, within a day of the review.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS:41"
+ ]
+}

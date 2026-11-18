@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-xu-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "statements where main holds the fact under the line and the rest is the seat's own run. ON MAIN: x = 3u + 5v is a bijection modulo 15 and the quadratic form splits, so the generators factor (checks/physical_state_orbit.py, R1); each term v v^T of the Majorana matrix has rank one and the sum of all three has rank three, two without the last (physical_endgame_outputs.py, P3); with the bare angle at pi and the determinant's phase zero the physical angle is pi; for Hermitian H_1, H_2 the traces entering the one- and two-loop running of the determinant's phase are real (agyexp_x_unify.py, U3); the one-loop relation's three coefficients 23/134, 109/201 and 506/201 (the lock). The algebra of the physical lane's twelve methods is rebuilt on main independently (record physical-ij-01), so the seat's execution of them is a second computation by a seat. NOT ON MAIN: the seat's run of those twelve methods and its three metric examples, its controls' sizes, and the Pati-Salam slopes (-10, -7/3, -7/3), which its own page lists as assuming a borrowed minimal field content",
+ "note": "At this date the seat's generators carried a doubled shear, so (S T)^3 was not S^2 (main: R1, the matrix [[4, 3], [-3, -2]] is not -1 modulo 5); the factorisation is unaffected, and the seat repaired the convention in X-CLOSURE-1.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:28",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:42",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:44",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:45",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS:46",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS:29",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS:40",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS:43",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS:27"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-read-xc",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the four result notes of X-CLOSURE, each read by main in full at 48a4054aa, through the mask (notes read, no code run)",
+ "files": [
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_2_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_3_RESULTS.md",
+  "relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md"
+ ]
+}

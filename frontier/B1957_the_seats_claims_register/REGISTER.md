@@ -4,107 +4,107 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 88 | 5 | 2099 | 20 | 0 | 29 | 17 | 0 | 6 | **2027** |
+| agy-exp | 88 | 46 | 2099 | 102 | 5 | 231 | 181 | 47 | 1533 | **0** |
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
-| agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 33 | 0 | 91 | **14** |
+| agy-002-closure | 18 | 18 | 271 | 104 | 1 | 28 | 42 | 0 | 96 | **0** |
 | physical | 136 | 133 | 10952 | 1084 | 0 | 1040 | 24 | 46 | 8758 | **0** |
-| web | 137 | 137 | 6757 | 1897 | 2 | 15 | 409 | 54 | 4380 | **0** |
+| web | 137 | 137 | 6796 | 1905 | 2 | 15 | 421 | 54 | 4399 | **0** |
 | agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
-| **all** | 406 | 320 | 20910 | 3525 | 14 | 1144 | 573 | 100 | 13513 | **2041** |
+| **all** | 406 | 361 | 20949 | 3615 | 19 | 1346 | 758 | 147 | 15064 | **0** |
 
 ## By file
 
 | lane | file | read at source | statements | settled | **pending** |
 |---|---|---|---|---|---|
-| agy-exp | `relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md` | no | 53 | 0 | **53** |
-| agy-exp | `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` | yes | 23 | 0 | **23** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md` | no | 17 | 0 | **17** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md` | no | 15 | 0 | **15** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md` | no | 17 | 0 | **17** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS.md` | no | 18 | 0 | **18** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md` | no | 23 | 0 | **23** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md` | no | 33 | 0 | **33** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md` | no | 32 | 0 | **32** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md` | no | 32 | 0 | **32** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md` | no | 39 | 0 | **39** |
+| agy-exp | `relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 53 | 53 | **0** |
+| agy-exp | `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` | yes | 23 | 23 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md` | yes | 17 | 17 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md` | yes | 15 | 15 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_3_RESULTS.md` | yes | 17 | 17 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_4_RESULTS.md` | yes | 18 | 18 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_5_RESULTS.md` | yes | 23 | 23 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md` | yes | 33 | 33 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md` | yes | 32 | 32 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md` | yes | 32 | 32 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md` | yes | 39 | 39 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_1_RESULTS.md` | yes | 20 | 20 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_2_RESULTS.md` | yes | 24 | 24 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_RELATIONS_3_RESULTS.md` | yes | 28 | 28 | **0** |
-| agy-exp | `relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md` | yes | 32 | 0 | **32** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md` | no | 18 | 0 | **18** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS.md` | no | 33 | 0 | **33** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS.md` | no | 35 | 0 | **35** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS.md` | no | 37 | 0 | **37** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_2_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_3_RESULTS.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md` | no | 19 | 0 | **19** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS.md` | no | 25 | 0 | **25** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS.md` | no | 29 | 0 | **29** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS.md` | no | 26 | 0 | **26** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS.md` | no | 38 | 0 | **38** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md` | no | 17 | 0 | **17** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md` | no | 9 | 0 | **9** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS.md` | no | 15 | 0 | **15** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS.md` | no | 15 | 0 | **15** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS.md` | no | 16 | 0 | **16** |
-| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md` | no | 19 | 0 | **19** |
-| agy-exp | `relays/REVIEW_83_AGY-EXP.md` | no | 159 | 0 | **159** |
-| agy-exp | `relays/STATUS_AGY-EXP.md` | no | 114 | 0 | **114** |
-| agy-exp | `relays/cards/AGY-EXP_R83_review-83.md` | no | 30 | 0 | **30** |
-| agy-exp | `relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/cards/AGY-EXP_X-APEX-3_hosotani-g422-center-lock-m004-cusp-spinor-confinement-and-scale-hierarchy.md` | no | 11 | 0 | **11** |
-| agy-exp | `relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md` | no | 10 | 0 | **10** |
-| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-1_punctured-relative-cohomology-and-boundary-law-second-computation.md` | no | 23 | 0 | **23** |
-| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-2_left-acting-2loop-mixed-yukawa-repair-and-trajectory-audit.md` | no | 21 | 0 | **21** |
-| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-3_majorana-petersson-fujikawa-strong-cp-and-sl2z-gramian-bridge.md` | no | 22 | 0 | **22** |
-| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-4_repaired-universal-atlas-deformation-matrix-and-zero-of-19-vector.md` | no | 21 | 0 | **21** |
-| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-1_repaired-weil-metaplectic-and-zickert-rogers-chern-simons-audit.md` | no | 18 | 0 | **18** |
-| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-2_pc3b-orthogonal-reduction-halfroot-modes-and-spin-triplet-audit.md` | no | 21 | 0 | **21** |
-| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-3_pc3b-polarized-spin-vertex-quartic-barrier-and-hardy-bound-audit.md` | no | 17 | 0 | **17** |
-| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-4_u3-frame-control-four-tier-closure-matrix-and-final-0of19-suite.md` | no | 21 | 0 | **21** |
-| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-1_3d-m004-gluing-weil-shift-and-uv-norms.md` | no | 30 | 0 | **30** |
-| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-2_mostow-prasad-cusp-potential-and-coupled-stabilization.md` | no | 25 | 0 | **25** |
-| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-3_modular-covariant-seesaw-and-amphichiral-phase-audit.md` | no | 26 | 0 | **26** |
-| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-4_sl2c-bundle-holonomy-porti-torsion-plebanski-and-scale-hierarchy.md` | no | 26 | 0 | **26** |
-| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-5_zero-knob-rge-synthesis-haar6-and-dimensionless-ledger.md` | no | 30 | 0 | **30** |
-| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-1_e8-pure-q-triality-and-3d-callias-chiral-index-3.md` | no | 10 | 0 | **10** |
-| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-2_physical-c6-covariant-second-fund-form-link-gauss-and-hopf-sewing.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-3_physical-c7-conifold-quotient-composite-register-and-4fold-word-lift.md` | no | 12 | 0 | **12** |
-| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-1_pc3c-pc3d-verification-and-cross-seat-kronecker-2loop-audit.md` | no | 22 | 0 | **22** |
-| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-2_pc3e-light-cubic-couplings-two-step-ift-and-e8-trace8-audit.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-3_pc3f-triplet-sigma-star-and-d5-cross-form-singlet-test.md` | no | 20 | 0 | **20** |
-| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-4B_loop-indentation-successor-for-coupled-e6-join-and-16row-matrix.md` | no | 8 | 0 | **8** |
-| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-4_coupled-e6-axis-join-16row-closure-matrix-and-final-suite.md` | no | 19 | 0 | **19** |
-| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-1_b1947-recomp-and-magnetized-triple-overlap.md` | no | 31 | 0 | **31** |
-| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-2_flat-connection-m004-orbit-and-sector-exponent-laws.md` | no | 32 | 0 | **32** |
-| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-3_one-loop-spectral-action-and-kronecker-cancellation.md` | no | 33 | 0 | **33** |
-| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-4_literature-gated-rge-bridge-and-naumov-invariants.md` | no | 31 | 0 | **31** |
-| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md` | no | 23 | 0 | **23** |
-| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-2_sec2-sec3-flavor-exponents-across-levels-5-10-15.md` | no | 26 | 0 | **26** |
-| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-3_amphichiral-determinants-seesaw-crt-and-atlas.md` | no | 22 | 0 | **22** |
-| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-2_crossform-nilpotence-end-response-and-parent-normal-wall.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-3_minus48-rge-pati-salam-3bl-tm1-and-weil-s2-scalar.md` | no | 13 | 0 | **13** |
-| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-4_complete-288-diagnostics-collar-casimir-18row-matrix-and-minus48-suite.md` | no | 14 | 0 | **14** |
-| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-1_crt-gauge-family-tensor-anomaly-lock-and-pc3-twelve-method-check.md` | no | 18 | 0 | **18** |
-| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` | no | 17 | 0 | **17** |
-| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` | no | 23 | 0 | **23** |
-| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` | no | 20 | 0 | **20** |
+| agy-exp | `relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md` | yes | 32 | 32 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_1_RESULTS.md` | yes | 18 | 18 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-15_X_BRIDGE_2_RESULTS.md` | yes | 33 | 33 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_3_RESULTS.md` | yes | 35 | 35 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_BRIDGE_4_RESULTS.md` | yes | 37 | 37 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_1_RESULTS.md` | yes | 20 | 20 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_2_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_3_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_CLOSURE_4_RESULTS.md` | yes | 19 | 19 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_1_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_2_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_3_RESULTS.md` | yes | 13 | 13 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4B_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_FRONTIER_4_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_1_RESULTS.md` | yes | 25 | 25 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_2_RESULTS.md` | yes | 29 | 29 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_3_RESULTS.md` | yes | 26 | 26 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-16_X_UNIFY_4_RESULTS.md` | yes | 38 | 38 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_1_RESULTS.md` | yes | 17 | 17 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_2_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_3_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_APEX_4_RESULTS.md` | yes | 20 | 20 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS.md` | yes | 9 | 9 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS.md` | yes | 15 | 15 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_4_RESULTS.md` | yes | 20 | 20 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_1_RESULTS.md` | yes | 14 | 14 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS.md` | yes | 15 | 15 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS.md` | yes | 16 | 16 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md` | yes | 19 | 19 | **0** |
+| agy-exp | `relays/REVIEW_83_AGY-EXP.md` | yes | 159 | 159 | **0** |
+| agy-exp | `relays/STATUS_AGY-EXP.md` | yes | 114 | 114 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_R83_review-83.md` | no | 30 | 30 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-APEX-1_e8-dual-e6-bridge-chiral-2d-parity-and-cusp-banach-contraction.md` | no | 13 | 13 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-APEX-2_flux-obstructed-2d-wall-multicell-spin10-chain-and-resolvent-majorana.md` | no | 13 | 13 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-APEX-3_hosotani-g422-center-lock-m004-cusp-spinor-confinement-and-scale-hierarchy.md` | no | 11 | 11 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-APEX-4_v17-lock-20row-master-closure-matrix-and-0knob-resolvent-suite.md` | no | 10 | 10 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-1_punctured-relative-cohomology-and-boundary-law-second-computation.md` | no | 23 | 23 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-2_left-acting-2loop-mixed-yukawa-repair-and-trajectory-audit.md` | no | 21 | 21 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-3_majorana-petersson-fujikawa-strong-cp-and-sl2z-gramian-bridge.md` | no | 22 | 22 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-BRIDGE-4_repaired-universal-atlas-deformation-matrix-and-zero-of-19-vector.md` | no | 21 | 21 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-1_repaired-weil-metaplectic-and-zickert-rogers-chern-simons-audit.md` | no | 18 | 18 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-2_pc3b-orthogonal-reduction-halfroot-modes-and-spin-triplet-audit.md` | no | 21 | 21 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-3_pc3b-polarized-spin-vertex-quartic-barrier-and-hardy-bound-audit.md` | no | 17 | 17 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-CLOSURE-4_u3-frame-control-four-tier-closure-matrix-and-final-0of19-suite.md` | no | 21 | 21 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-1_3d-m004-gluing-weil-shift-and-uv-norms.md` | no | 30 | 30 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-2_mostow-prasad-cusp-potential-and-coupled-stabilization.md` | no | 25 | 25 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-3_modular-covariant-seesaw-and-amphichiral-phase-audit.md` | no | 26 | 26 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-4_sl2c-bundle-holonomy-porti-torsion-plebanski-and-scale-hierarchy.md` | no | 26 | 26 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-ENDGAME-5_zero-knob-rge-synthesis-haar6-and-dimensionless-ledger.md` | no | 30 | 30 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-1_e8-pure-q-triality-and-3d-callias-chiral-index-3.md` | no | 10 | 10 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-2_physical-c6-covariant-second-fund-form-link-gauss-and-hopf-sewing.md` | no | 14 | 14 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-3_physical-c7-conifold-quotient-composite-register-and-4fold-word-lift.md` | no | 12 | 12 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FOUNDATION-4_scale-nogos-instanton-buckingham-level25-weil-and-22row-matrix.md` | no | 14 | 14 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-1_pc3c-pc3d-verification-and-cross-seat-kronecker-2loop-audit.md` | no | 22 | 22 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-2_pc3e-light-cubic-couplings-two-step-ift-and-e8-trace8-audit.md` | no | 20 | 20 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-3_pc3f-triplet-sigma-star-and-d5-cross-form-singlet-test.md` | no | 20 | 20 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-4B_loop-indentation-successor-for-coupled-e6-join-and-16row-matrix.md` | no | 8 | 8 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FRONTIER-4_coupled-e6-axis-join-16row-closure-matrix-and-final-suite.md` | no | 19 | 19 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-1_b1947-recomp-and-magnetized-triple-overlap.md` | no | 31 | 31 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-2_flat-connection-m004-orbit-and-sector-exponent-laws.md` | no | 32 | 32 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-3_one-loop-spectral-action-and-kronecker-cancellation.md` | no | 33 | 33 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-FUNNEL-4_literature-gated-rge-bridge-and-naumov-invariants.md` | no | 31 | 31 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-1_universal-gauge-and-scalar-relations-and-kill-lines.md` | no | 23 | 23 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-2_sec2-sec3-flavor-exponents-across-levels-5-10-15.md` | no | 26 | 26 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-RELATIONS-3_amphichiral-determinants-seesaw-crt-and-atlas.md` | no | 22 | 22 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-1_hyperbolic-liouville-metric-cusp-tail-and-multigrid-lambdas-sigma-star.md` | no | 13 | 13 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-2_crossform-nilpotence-end-response-and-parent-normal-wall.md` | no | 13 | 13 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-3_minus48-rge-pati-salam-3bl-tm1-and-weil-s2-scalar.md` | no | 13 | 13 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-SYNTHESIS-4_complete-288-diagnostics-collar-casimir-18row-matrix-and-minus48-suite.md` | no | 14 | 14 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-1_crt-gauge-family-tensor-anomaly-lock-and-pc3-twelve-method-check.md` | no | 18 | 18 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` | no | 17 | 17 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` | no | 23 | 23 | **0** |
+| agy-exp | `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` | no | 20 | 20 | **0** |
 | agy-002-verify | `relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 65 | 65 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md` | yes | 47 | 47 | **0** |
@@ -133,7 +133,7 @@
 | agy-002-closure | `relays/AGY002_CLOSURE_G6_RESULTS.md` | yes | 21 | 21 | **0** |
 | agy-002-closure | `relays/AGY002_CLOSURE_G7B_RESULTS.md` | yes | 17 | 17 | **0** |
 | agy-002-closure | `relays/AGY002_CLOSURE_G7_RESULTS.md` | yes | 17 | 17 | **0** |
-| agy-002-closure | `relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md` | yes | 36 | 22 | **14** |
+| agy-002-closure | `relays/AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16.md` | yes | 36 | 36 | **0** |
 | agy-002-closure | `relays/STATUS_AGY-002.md` | yes | 9 | 9 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G4-ERRATUM_quadratic-contraction-eps-and-step.md` | yes | 4 | 4 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G4-REFEREE-ERRATUM_sympy-expand-and-bessel-k4.md` | yes | 5 | 5 | **0** |
@@ -345,7 +345,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 647 | 647 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 686 | 686 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |

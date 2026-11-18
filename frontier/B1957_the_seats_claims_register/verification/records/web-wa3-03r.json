@@ -1,0 +1,11 @@
+{
+ "id": "web-wa3-03r",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the seat's two lines marked [J]. Verified on main (B1955, wa3_on_main.py): X Z = zeta Z X is the pairing between the cover's deck group and its characters, and the module and its parity come from the cover. Not computed, the seat's judgement: that 'no flux is needed' and that 'the cover replaces the flux'. Main took it as its hypothesis F-A (P-866), holding for the module and the gauge group, with the Fock-space reading not derived",
+ "note": "Split from web-wa3-03 at the pass R84-1 (Review 84's rule: a verified record does not hold a line that is a reading).",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:54",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:62"
+ ]
+}

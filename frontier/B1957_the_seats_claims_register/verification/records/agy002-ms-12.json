@@ -1,0 +1,15 @@
+{
+ "id": "agy002-ms-12",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the seat's audit of agy-exp's X-SYNTHESIS campaign, each defect tested by main as far as reading reaches (checks/agy002_audit_of_seats.py; agy-exp's checkers read as text at the audited commit 80fdd90b2, parsed, never run). CONFIRMED BY READING AND ARITHMETIC: the count of sections in negative degree is a function that returns typed-in values and computes no contour integral (K2); the literal scan covers 12 named functions, with 1,477 float literals in the file and none inside them (K1); the strong-CP stage integrates a second three-family copy separately and joins it in a block with zeros off the diagonal, beside one-loop coefficients for three families (K1), and with that copy coupled the SU(2) coefficient would be +5/6 and 1/alpha_3 would move by 0.64 per unit of logarithmic range (K3); the point (4/15, 8/15) is typed in at three calls (K1); the four-field vacuum set u1 v2 - u2 v1 = 0 holds a path between its points whose energy is 2.4674/L, halving as L doubles (K4); a positive Gram matrix does not fix the image of the vector of ones (checks/physical_all_seats_findings.py); the two copies of E6 in E8 differ in how many colour singlets the 27 holds (record agy002-g7b-02). THE SEAT'S OWN RUNS, NOT ON MAIN: that 22 of 45 points lie lower than the typed-in one; that 1,056 of 1,320 histories are solved back from a bracket of the strong coupling; the size of the phase at the typed-in point; the 3,700-fold basis dependence",
+ "note": "The note counts 39 functions in the file; main's parse finds 111 definitions, nested ones included; its 12 and its 'over 1,100 literals unscanned' are right. agy-exp's own later answers and its page of premises concede most of these (records agyexp-xa-01, agyexp-pr-01); main's records of X-SYNTHESIS (agyexp-xs-02 to -04) carry them. The 'back-solved' histories would be a breach of the firewall if the bracket was taken from a measured value: main has not run the script and records the seat's statement as its reading.",
+ "units": [
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:48",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:49",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:50",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:51",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:52",
+  "agy-002-closure:AGY002_MASTER_CLOSURE_SYNTHESIS_2026-11-16:53"
+ ]
+}

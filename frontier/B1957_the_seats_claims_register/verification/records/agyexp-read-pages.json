@@ -1,0 +1,12 @@
+{
+ "id": "agyexp-read-pages",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "each read by main in full at 48a4054aa",
+ "files": [
+  "relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md",
+  "relays/AGY_EXP_TO_MAIN_AND_PHYSICAL_2026-11-17_XA01_TO_XA15_ANSWERS.md",
+  "relays/STATUS_AGY-EXP.md"
+ ]
+}

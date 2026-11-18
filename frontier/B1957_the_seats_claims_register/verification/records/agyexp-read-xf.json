@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-read-xf",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "the four result notes of X-FUNNEL, each read by main in full at 48a4054aa, through the mask (notes read, no code run)",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_1_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_2_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_3_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-15_X_FUNNEL_4_RESULTS.md"
+ ]
+}
