@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-18",
+  "kind": "Committed-source comparison and metadata custody; not independent scientific execution",
+  "main_pin": "7d3776b67c6832c99506e334e7e4e45df155d580",
+  "physical_source_pin": "835b71c10e7948e40cda5cb3429bce6b7399cf14",
+  "unchanged_relevant_files_since": "f1efc59dd620e947fdffbc552944df010308c4ec",
+  "sources": [
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/second_reading/physical_unmarked.json",
+      "git_blob": "a7380f4d2f211c229b7946d6650914f6267e066a",
+      "sha256": "fcdc20c3e32bd4f6c273876b0c2bb062499b4c3f602f88ab89ca5c9ec589c929",
+      "lines": 4602,
+      "reading": "All 130 PARTIAL and four CONDITIONAL narrowing reasons read; the 399 NOTED entries inspected as classification metadata, not a fresh proof audit of 1390 units"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-01.json",
+      "git_blob": "a1e3166fb737b47aa3d06b29fe798a45cf76f742",
+      "sha256": "9a1c31f83e3b88f8b454fea3c2eb65de858a24f5ab008eb4170235b1dbfcc249",
+      "lines": 81,
+      "reading": "Full ground and note read; units compared for the two findings"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ff-01-r3p.json",
+      "git_blob": "f0e681c2cb40d85c91f193eb79aa63f8856117d2",
+      "sha256": "189fb75a88669fcc74223943bfa94999d19bb2d420b61d67ac58ef1c2fdd4dc9",
+      "lines": 27,
+      "reading": "Full ground and note read; narrowed units inspected"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_four_form.py",
+      "git_blob": "d06d66c977eced33bfc2f61212a155f8191f0e7a",
+      "sha256": "34c3467c1254c62035c5212648570c1b7405a9ac579d88634dcc96aafa9471c2",
+      "lines": 102,
+      "reading": "Entire G1-G9 source read as text; no execution"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/checks/physical_four_form_run.txt",
+      "git_blob": "a2808ae4975a4f8c602b3d36079dc8e4c454c9d5",
+      "sha256": "e4ced58c3f1e837985b139673a1605b3274947444566f02e7cca3014e5374e5b",
+      "lines": 9,
+      "reading": "Entire committed G1-G9 output read; not rerun"
+    },
+    {
+      "commit": "835b71c10e7948e40cda5cb3429bce6b7399cf14",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION.md",
+      "git_blob": "cf48dcb2016f314b46b9e742b7f5fd9b9aab4042",
+      "sha256": "57d0cf9d7bedb774d1861f463eed068d1f2c53ec80b6c529dcb4faff680df7ac",
+      "lines": 211,
+      "reading": "Sections 1-3 and the beginning of section 4 re-read; exact equation at line 115 inspected"
+    },
+    {
+      "commit": "835b71c10e7948e40cda5cb3429bce6b7399cf14",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION.md",
+      "git_blob": "38a581b8efba3075739c493ebc04776a12a720dc",
+      "sha256": "645a31528747b3f2d9d5d0b39f52547b78f4c1c12b47190d07190291d42c477a",
+      "lines": 243,
+      "reading": "Lines 1-166 re-read; exact second-operation witness paragraph at lines 150-154 inspected"
+    },
+    {
+      "commit": "835b71c10e7948e40cda5cb3429bce6b7399cf14",
+      "path": "reports/physical_bridge_2026_09_05/four_form_register_2026_11_17/FULL_E8_LIFT_AND_PHYSICAL_END_DUTY.md",
+      "git_blob": "4ad48ed9ee133e2fff8d1d589455851dc3cfacff",
+      "sha256": "50bd92c7a9f63741b670ff9f160ca409a595839f716ee01649fb3f027c37b5be",
+      "lines": 178,
+      "reading": "Lines 1-170 re-read against the kept-unit list; no new mathematical certification"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-ij-01.json",
+      "git_blob": "d4913a8aecd9477d2437c41d37797cbd89129487",
+      "sha256": "5c3cff49568ab91ff018b4729a735f241917c30a88cb505c626eeab1553cc454",
+      "lines": 72,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-fr-01.json",
+      "git_blob": "d20a7c82e2bb725fb2d139f60488e944c4598878",
+      "sha256": "b169786761398f14ee4ca63b80f5e3bb04be5d838bf24fd678f385d709f29c79",
+      "lines": 48,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-as-01.json",
+      "git_blob": "bc435d91e9377f445b7f57185ccd6532445d732f",
+      "sha256": "4b69e6f6f172af2e689182c173da6b77cd5d3478a60da99235685affdf0253f1",
+      "lines": 28,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-01.json",
+      "git_blob": "edf3b217500505b8eb95d113f20d896f1e8a55e4",
+      "sha256": "73b29572db804e4dbad4e527b7ef5a7f60cd39b9b16e5a23cdb130f1eae67a02",
+      "lines": 35,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-04.json",
+      "git_blob": "bfc5b2f023d906a9fba1f0494d06d2ea078c9f5a",
+      "sha256": "0a77e1306ac8a5047e91142d07f5705bbed5512e133ade646486620e36d4851f",
+      "lines": 16,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-05.json",
+      "git_blob": "f148aff6d8b9524ab027d3263bedc26e0a048879",
+      "sha256": "a93e7f36a778e0612247fb110bb95828d593cdcefdba13a8ccad1381c99dd16b",
+      "lines": 10,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-06.json",
+      "git_blob": "4147d6886a6d7d6ad8e2d457e4895314c4216d79",
+      "sha256": "a94e888ed6ba02091d8e8fbbf755ea22cf41822c92225fc4527a01c173cc829e",
+      "lines": 19,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-09.json",
+      "git_blob": "dc7f24e39b986ce84b012cb925e42debf926631d",
+      "sha256": "d068f3bfbfde3eec8063385a820c7d1379b5d7498176a9848a1aac558c15ca16",
+      "lines": 22,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c8-11.json",
+      "git_blob": "f530473b67fd8081036f9238c7b7acb2fc7db33a",
+      "sha256": "34a083bfc8a05553151b253fdb985367c6361ad95039d1526b744aeb9750d898",
+      "lines": 90,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    },
+    {
+      "commit": "7d3776b67c6832c99506e334e7e4e45df155d580",
+      "path": "frontier/B1957_the_seats_claims_register/verification/records/physical-c3h-01.json",
+      "git_blob": "19cf51211a2ce0df12a8118549b12690fcd4a32e",
+      "sha256": "379ed54b859d4a98a4f55e76d1ca9be7bd6c71400ebbdf99311128cc99a99124",
+      "lines": 22,
+      "reading": "Full verdict, how and note read; unit identifiers inspected as metadata"
+    }
+  ],
+  "findings": [
+    {
+      "id": "M16-01",
+      "unit_suffix": "FOUR_FORM_QUOTIENT_AND_CONNECTION:115",
+      "script_lines": [
+        46,
+        48
+      ],
+      "output_line": 1,
+      "scope": "Value identity computed; quotient-Hessian identification not computed here"
+    },
+    {
+      "id": "M16-02",
+      "unit_suffix": "INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION:150",
+      "script_lines": [
+        82,
+        92
+      ],
+      "output_line": 7,
+      "scope": "W=-A witness computed; no extension to the full registering architecture"
+    }
+  ],
+  "report_sha256": "5b292d067c97ea51802edde017b5809a6c33892c1a0cbe2924622c2c05fc0857",
+  "execution": {
+    "scientific_imports": 0,
+    "scientific_runs": 0,
+    "scientific_tests": 0,
+    "additional_agents": 0,
+    "data_comparisons": 0
+  },
+  "kept_line_scope": "No additional kept line identified as overgraded in the stated comparison; not a fresh recomputation of all 857 kept units",
+  "quoted_evidence": [
+    {
+      "finding": "M16-01",
+      "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/FOUR_FORM_QUOTIENT_AND_CONNECTION:115",
+      "second_reading_reason": "the Kahler potential 2 sqrt(tr Z Z^dagger) is not computed",
+      "output_line": 1,
+      "output_text": "G1: |det Z| = 2.5e-16; the balanced representative has |P|^2 - |R|^2 = 4.4e-16 and the same Z (2.8e-17); 2 sqrt(tr Z Z^dagger) minus (|P|^2 + |R|^2) there: 0.0e+00"
+    },
+    {
+      "finding": "M16-02",
+      "unit": "physical:physical_bridge_2026_09_05/four_form_register_2026_11_17/INTERNAL_COMPOSITE_REGISTER_AND_WORD_ACTION:150",
+      "second_reading_reason": "that the second operation leaves the subfamily (W = -A) is not computed",
+      "output_line": 7,
+      "output_text": "G7: the composite is unchanged on a circle orbit to 3.5e-16; the quotient metric 1.57199189 against (t^2/2)(|DA|^2 + |k|^2) = 1.57199189; the connection -0.26070594 against a_u - <A, k>/2 = -0.26070594; tr[A, W] = 0.006963 against 2 - 4(|w|^2 - (n.w)^2) = 0.006963; v -> i v gives (A, A W) to 2.2e-16 and has order 4 (0.0e+00); at W = -A: A W = 1 to 3.4e-16"
+    }
+  ]
+}
