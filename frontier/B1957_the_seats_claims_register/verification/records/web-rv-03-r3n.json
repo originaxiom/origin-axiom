@@ -1,0 +1,20 @@
+{
+ "id": "web-rv-03-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record web-rv-03, verified; no sorter had marked them, so main had not read them one by one. Main read all 990 such lines of the lane against their records' grounds. Narrowed: line 114: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 115: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 121: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 122: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 139: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 140: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 148: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 149: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 156: a premise or scope row of its list (what the result rests on), not a statement a computation decides; line 157: a premise or scope row of its list (what the result rests on), not a statement a computation decides.",
+ "note": "The parent's ground is unchanged for its other lines. REFILED at the seat's row 281 (line 159): status row \"H2 is PARTIAL (web-wa1-03)\"; web-wa1-03 is SUPERSEDED. MAIN: as the row says.",
+ "units": [
+  "web:STATUS_CHAT1:114",
+  "web:STATUS_CHAT1:115",
+  "web:STATUS_CHAT1:121",
+  "web:STATUS_CHAT1:122",
+  "web:STATUS_CHAT1:139",
+  "web:STATUS_CHAT1:140",
+  "web:STATUS_CHAT1:148",
+  "web:STATUS_CHAT1:149",
+  "web:STATUS_CHAT1:156",
+  "web:STATUS_CHAT1:157",
+  "web:STATUS_CHAT1:159"
+ ]
+}

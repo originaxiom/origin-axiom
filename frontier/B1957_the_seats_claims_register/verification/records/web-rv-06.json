@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "§ 3.3 to § 3.6 and § 3.8: each correction is right and is taken into main's record the same day. § 3.3: the top wedge's closure is generic (every representation of SL(2, F_5) has determinant 1; main's own check of det = 1 on all 120 elements is that fact) and rests on the exterior-algebra reading: B1955 § 3 and the picture page corrected, it is no longer listed as a gain. § 3.4: the three limits and the missing source of the exterior-algebra reading are added to the picture page. § 3.5: the verdict on zeta corrected in B1955 and on the picture page (if right, the preprints bound zeros at both places; nothing on record uses them). § 3.6: 'on the filled fibre' (B1952 corrected). § 3.7 and § 3.8 are the seat's own statements of what it found and of its own typing error",
- "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-rv-06-r2n, web-rv-06-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-rv-06-r2n, web-rv-06-r2p; what stays is what its ground covers. RESTORED at the seat's row 173 (line 228): bold lead states § 3.3 item; item right and acted on (B1955 FINDINGS 80-84); review rule keeps; headings 244, 254 kept on same rule. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:230",
   "web:STATUS_CHAT1:232",
@@ -21,6 +21,7 @@
   "web:STATUS_CHAT1:256",
   "web:STATUS_CHAT1:257",
   "web:STATUS_CHAT1:259",
-  "web:STATUS_CHAT1:265"
+  "web:STATUS_CHAT1:265",
+  "web:STATUS_CHAT1:228"
  ]
 }

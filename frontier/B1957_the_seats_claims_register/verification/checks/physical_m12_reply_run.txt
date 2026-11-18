@@ -1,0 +1,3 @@
+R1: at dbd7c24e3: {'physical-m9-03': 'PARTIAL', 'physical-c8-02': 'PARTIAL', 'physical-c8-04': 'PARTIAL', 'physical-c8-07': 'PARTIAL', 'physical-c8-10': 'CONDITIONAL'}, as the lane says: True; physical-m9-03 holds 7 units (the lane: seven); the eleven records physical-c8-01 to -11 exist: True; physical-ij-03, physical-c3e-02, physical-m10r-01 and -02 exist: True
+R2: main's control of the corrected bound prints 13/16 and 16/13: True; main's boundary script compares 33 keys, by group [8, 5, 18, 2] (the lane: 8 + 5 + 18 + 2 = 33); its endgame script 45 (the lane: 45)
+R3: the units of physical-m9-03 at dbd7c24e3 include the cusp paragraph at line 97 (88 before main's dated insertion): True

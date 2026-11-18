@@ -1,0 +1,27 @@
+{
+ "id": "agyexp-xms-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its area read-out and its comparison with main's. ON MAIN: the comparison was made by main's own script on the seat's sealed output at the time (harvest rows 1826 and 1827; B1940: the area options' second computation agrees within the tolerance fixed beforehand); the cusp limit of the averaged mixing moduli in the world it calls W-, 5/12, 5/12, 7/12, is recomputed on main (B1945's dated note; main's own first statement of the other world's limit was wrong and was corrected from this seat's finding); with u = 1/y the area element is dx du, and the normalised element (3/pi) dx du (checks/agyexp_older_notes.py, O7). NOT ON MAIN: its four-zone quadrature and its precision rule, the algebraic 1/y decay of one ratio, its figures of agreement (an eighth and a seventh of the tolerance), its check of tau -> tau + 1 to more than a hundred digits high in the cusp, its planted controls",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:30",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:32",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:33",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:34",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:35",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:36",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:45",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:47",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:48",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:49",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:50",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:52",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:53",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:54",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:55"
+ ]
+}

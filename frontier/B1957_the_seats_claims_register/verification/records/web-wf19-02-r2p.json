@@ -5,7 +5,6 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf19-02, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 64: orientable-level formula and I = ±1 at golden level 4 not mentioned in the ground; 106: claim that the connecting map vanishes in every case; the ground says main did not re-derive each row; 123: bold-row argument (class interior, connecting map) not re-derived by main; 132: gap census pairing of rows with ±1 values not covered; 133: gap census pairing not covered; 135: gap census pairing (−2 and +2) not covered; 136: gap census claim not covered",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:64",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:106",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:123",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:132",

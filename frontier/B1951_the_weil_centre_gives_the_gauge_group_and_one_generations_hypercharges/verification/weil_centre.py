@@ -34,7 +34,16 @@ Y6 = (np.eye(5) - 5 * par) / 2
 ev, U = np.linalg.eigh(par); order = np.argsort(-ev); U = U[:, order]          # first 3: P = +1, last 2: P = -1
 y1 = np.round(np.real(np.diag(U.conj().T @ Y6 @ U))).astype(int).tolist()
 print("D3: 6Y = (I - 5P)/2 commutes with rho: %.1e; trace %.0f; values %s (the 3, then the 2)" % (max(np.abs(Y6 @ g - g @ Y6).max() for g in (T, S)), np.trace(Y6).real, y1))
-print("D4: the centraliser of P in su(5): dim u(3) + dim u(2) - 1 = %d" % (9 + 4 - 1))
+# CHANGED 2026-11-18 (the web seat's reading of the second reading, its section 16.3): D4 printed the sum 9 + 4 - 1 as fixed text;
+# it now computes the dimension: the real dimension of {X in su(5) : X P = P X}, as the kernel of the commutator on a real basis.
+basis = []
+for i in range(5):
+    for j in range(5):
+        if i < j: E = np.zeros((5, 5), complex); E[i, j], E[j, i] = 1, -1; basis.append(E); E = np.zeros((5, 5), complex); E[i, j] = E[j, i] = 1j; basis.append(E)
+for i in range(4): E = np.zeros((5, 5), complex); E[i, i], E[i + 1, i + 1] = 1j, -1j; basis.append(E)
+Mc = np.array([np.concatenate([(X @ par - par @ X).real.flatten(), (X @ par - par @ X).imag.flatten()]) for X in basis]).T
+cdim = len(basis) - np.linalg.matrix_rank(Mc, tol=1e-9)
+print("D4: the centraliser of P in su(5): dimension %d (computed, of the %d of su(5)); dim u(3) + dim u(2) - 1 = %d" % (cdim, len(basis), 9 + 4 - 1))
 content = {}
 for k in (0, 2, 4):
     for idx in itertools.combinations(range(5), k):

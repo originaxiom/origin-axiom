@@ -46,6 +46,16 @@ if __name__ == "__main__":
     z, zb, b = sp.symbols("z zb b"); Lh = -sp.log(z * zb) + b; h1, h2 = 1 / Lh, Lh
     # Hitchin: -d_zbar d_z log h_i (the curvature's diagonal) plus the commutator [theta, theta^*] = (h1/h2)(E11 - E22)/|z|^2
     eq1 = sp.simplify(-sp.diff(sp.log(h1), z, zb) + (h1 / h2) / (z * zb)); eq2 = sp.simplify(-sp.diff(sp.log(h2), z, zb) - (h1 / h2) / (z * zb))
-    print("C4: Hitchin's equation for h = diag(1/(L + b), L + b), both diagonal entries: %s, %s (zero for every b); the residue's norm sqrt(h1/h2) = 1/(L + b); with |dz/z| = L/2 on a unit vector of 4|dz|^2/(|z|^2 L^2), the field's pointwise norm is L/(2(L + b)), 1/2 at b = 0" % (eq1, eq2))
+    # CHANGED 2026-11-18 (the web seat's own reading of the second reading, its rows 58 and 59): the norms below were printed
+    # as fixed text; they are computed now.  On the circle |z| = r, L = -log r^2; the cusp metric is 4|dz|^2/(|z|^2 L^2).
+    Lp, th, rr = sp.symbols("L theta r", positive=True)                                               # L = -log r^2 > 0 on the punctured disc r < 1
+    res_norm = sp.simplify(sp.sqrt((h1 / h2).subs(b, 0).subs(sp.log(z * zb), -Lp)))                    # |E12|_h = sqrt(h1/h2)
+    horo = sp.integrate(sp.Integer(2) / (rr * Lp) * rr, (th, 0, 2 * sp.pi))                             # ds = 2|dz|/(|z| L), |dz| = r dtheta on |z| = r
+    unit = sp.simplify((rr * Lp / 2) / rr)                                                             # a unit vector has |v| = r L/2; |dz/z|(v) = |v|/r
+    point = sp.simplify(sp.sqrt((h1 / h2).subs(sp.log(z * zb), -Lp)) * unit)
+    la, lb = sp.symbols("la lb", real=True); lam = la + sp.I * lb; Th = lam * sp.diag(1, -1); Ths = sp.conjugate(lam) * sp.diag(1, -1)         # the semisimple control: theta = lambda diag(1, -1) dz/z
+    semis = (Th * Ths - Ths * Th).applyfunc(sp.simplify) == sp.zeros(2, 2) and sp.simplify(-sp.diff(sp.log(sp.Integer(1)), z, zb)) == 0 and sp.simplify(sp.sqrt(sp.expand((Th * Ths)[0, 0])) - sp.sqrt(la ** 2 + lb ** 2)) == 0
+    print("C4: Hitchin's equation for h = diag(1/(L + b), L + b), both diagonal entries: %s, %s (zero for every b); the residue's norm at b = 0: %s, so 1/L; the horocycle |z| = r has length %s, so the norm is the length over 4 pi: %s; |dz/z| on a unit vector: %s; the field's pointwise norm: %s, which is 1/2 at b = 0: %s; the semisimple control (theta = lambda diag(1, -1) dz/z): [theta, theta*] = 0, h = 1 flat, and the residue's norm |lambda| in h, constant: %s"
+          % (eq1, eq2, res_norm, horo, sp.simplify(res_norm - horo / (4 * sp.pi)) == 0, unit, point, sp.simplify(point.subs(b, 0) - sp.Rational(1, 2)) == 0, semis))
     c = lambda dim, hv, k: Fr(k * dim, k + hv); alg = {"A1": (3, 2), "A2": (8, 3), "E6": (78, 12), "E7": (133, 18), "E8": (248, 30)}
     print("C5: 2 c(g_1) - c(g_2): %s; c((E6)_1) = %s" % ({g: str(2 * c(d, h, 1) - c(d, h, 2)) for g, (d, h) in alg.items()}, c(78, 12, 1)))

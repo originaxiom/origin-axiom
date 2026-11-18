@@ -1,0 +1,23 @@
+{
+ "id": "physical-m12r-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what the lane read and how (as text, nothing run); its receipt of main's computations and of B1959's addition with their boundary; its cautions (a listing of compared keys is not runtime coverage; an exchange under the act's transport is not physical parity or time reversal; no direction, amplitude or vacuum is selected); and its position: the older objections are resolved by M12, the newer packets need their own checking, its ranked tasks 2 to 5 remain, and it writes no completion line",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:3",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:8",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:14",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:40",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:3",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:18",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:24",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:31",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:39",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:56",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:75",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:92",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:99",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:106"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "physical-mag-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the lane's hand derivation where main computes nothing: the typing of the two matter fields and the connection form on the three root lines, with their characteristics, the count of sections and forms and the product law of the flat factors; the parent's cubic (1); stationarity of the Cartan background; the existence of the response as a Poisson equation with a source of zero mean; strict positivity of the sextic coefficient (an argument from the zeros of a section, read and found sound by hand); and the smooth triviality of the SU(3) bundle with a flat connection in it. Read in full; not rebuilt on main; the lane marks all of it not independently checked",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:47",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:48",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:49",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:51",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:63",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:73",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:99",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:136",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:144",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:188",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:223"
+ ]
+}

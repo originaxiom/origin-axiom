@@ -3,12 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the hand argument for steps of every length, read line by line and each step checked: a step preserves parity and sends a corner's class to plus or minus a corner's class (conjugation by an odd element is -1 on H_1 of the even part: a(ab)a = ba, a(bc)a = (ab)(ca)); a matrix of GL(2, Z) that sends a non-zero vector to plus or minus itself has an eigenvalue +-1 and is not hyperbolic (also by enumeration, checks/web_wf7_on_main.py X3: none of the 2,344 hyperbolic matrices with entries to 12 has one); a matrix permuting two or three lines that span the plane has a power equal to +-1. So a face with a corner of non-zero class admits no hyperbolic step, at any length; the half-turn face's one corner has class 0 and it has hyperbolic steps",
- "note": "The argument is elementary and complete for the four faces as defined. It assumes, as the note says, that a history step must respect the face (its letter types and corners). SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wf7-02-r2p; what stays is what its ground covers.",
+ "note": "The argument is elementary and complete for the four faces as defined. It assumes, as the note says, that a history step must respect the face (its letter types and corners). SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wf7-02-r2p; what stays is what its ground covers. RESTORED at the seat's row 370 (line 56): web_wf7_on_main_run.txt l.11 (and l.2, l.10). MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:39",
   "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:42",
   "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:44",
   "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:52",
-  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:54"
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:54",
+  "web:CHAT1_TO_CC_2026-11-14_W-F7_THE_MIXED_FACES:56"
  ]
 }

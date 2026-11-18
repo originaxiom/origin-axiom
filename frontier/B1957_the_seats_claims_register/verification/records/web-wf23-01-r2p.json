@@ -5,25 +5,7 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf23-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 16: \"O1 to O10 stay closed\" is not covered; 17: \"O4 keeps the caveat\" is not covered; 18: A7 and A13 fixing the tolerance in advance is not covered; 22: \"N7 settled by A13\" is not mentioned in the ground; 23: \"Version 3 governs\" is not covered; 24: \"Version 1 runs on sealed values, reported only\" is not covered; 26: \"The correction is forced, not chosen\" is not covered; 27: The tau->tau+1 failure above height 11 (P-853) is not covered; 29: Commits cf8b71000 at 17:29 and 14947e19f at 17:52 are not covered; 32: \"Move-count options unchanged\" is not covered; 49: The A7 condition is not covered; 53: S* not repeating in one turn is not covered; 54: Residual 8e-16 and covariance under gamma^3 are not covered; 64: That N1 to N6 still apply is not covered; 65: N1 is not covered; 66: N2 is not covered; 67: N3 is not covered; 69: N4 is not covered; 70: N5 is not covered; 71: N6 is not covered",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:16",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:17",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:18",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:22",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:23",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:24",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:26",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:27",
   "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:29",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:32",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:49",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:53",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:54",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:64",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:65",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:66",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:67",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:69",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:70",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:71"
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:54"
  ]
 }

@@ -1,0 +1,17 @@
+{
+ "id": "physical-mag-08",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, its credit to its own earlier branching, its lead-ins, and what it says the count does and does not show (not a low-energy theory of six modes alone; not a programme-wide exclusion; the Cartan relaxation is not a solution for all 174 directions)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:3",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:12",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:26",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:78",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:88",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:104",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:112",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:120"
+ ]
+}

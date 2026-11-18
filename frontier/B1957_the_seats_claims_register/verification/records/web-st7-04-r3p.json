@@ -1,0 +1,10 @@
+{
+ "id": "web-st7-04-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-st7-04, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 250 (line 523): \"six-cell\", \"of 2026-10-06\" not in ground; hold on the ledger at 7022a9dae (rows 879-885). MAIN: as the row says.",
+ "units": [
+  "web:STATUS_CHAT1:523"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-wc2a-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, and its statement of where its committed outputs already held the right count (1,350 to half-norm 12; main's enumeration gives 2,310 to 16, the figure it quotes for its earlier gate)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:3",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:4",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:41"
+ ]
+}

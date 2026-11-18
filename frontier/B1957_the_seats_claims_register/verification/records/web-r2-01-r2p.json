@@ -3,19 +3,10 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-r2-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 33: B151's Dimofte-row quote is not among the quotes checked; only the Córdova–Jafferis quotes are; 40: The claim about B1012's display and Witten's k+iσ is not covered; 41: The B1012 note quote and the DGLZ σ branch are not covered; 56: R76-7 note quotes are not among the quotes checked; 64: σ = t − k, ca92036ca and f823dd25f are not covered; 68: R76-7 quote on the algebraic integer in ℚ(√5) is not covered; 70: Coloured Jones in ℤ[q^±1] and cyclotomic integers are not covered; 86: The B1034/P-731/f823dd25f table rows are not covered; 87: The B1034 \"in tension\" quote and the P-731 row are not covered; 88: The B1034 stage-pin row and V3(c) quote are not covered; 92: Geometry-limit pointer and 991d7e2ac extrapolation are not covered; a pointer, not a claim; 96: The goal's scale clause and P-719 Q1 are not covered",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REFILED at the seat's row 285 (line 43): same absence claim as l.23 (V); B151's reading \"is the record's\"; P-719 adopts. MAIN: the same absence claim as the note's line 23, which main holds partial: an absence adopted, not swept for.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:33",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:40",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:41",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:56",
   "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:64",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:68",
   "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:70",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:86",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:87",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:88",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:92",
-  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:96"
+  "web:CHAT1_TO_CC_2026-11-07_R2S_BLOCK_A_PURE_NUMBER_ON_THE_RECORD:43"
  ]
 }

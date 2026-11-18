@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g3-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g3.py, main's derivation from the one-loop effective potential: for a heavy Majorana neutrino the coefficient of y^2 |H|^2 is (M^2 / 8 pi^2)(1 + ln(mu^2 / M^2)), so d(m_H^2)/d ln(mu) = -y^2 M^2 / (4 pi^2), the seat's formula; the same as the published corrected matching (Brivio and Trott, arXiv:1809.03450, equations (3.9), (3.10), read by main in the paper; their first letter, arXiv:1703.10924, equation (3), printed the opposite sign and half the size, and their footnote 9 corrects it). The row's figure +0.04559 is 3 e-folds times (3/5) / (4 pi^2)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

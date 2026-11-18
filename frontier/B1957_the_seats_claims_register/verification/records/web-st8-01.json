@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's check of main's record after M46, item by item, against main's own records and runs: its recount of the register at main's c458df8ce is main's (136 files, 6,491 statements: 1,442 verified, 217 partial, 20 superseded, 2,241 noted, 2,571 pending, 87 files read); each of the ten items is acted on as it says; the older deliveries it listed are all named in the window; the figures main quotes from its notes are the notes' (33 amphichiral manifolds of each sign; 512 hyperbolic steps, 144 of determinant -1, being 380 with |trace| above 2 and 132 of determinant -1 with |trace| at most 2; 48,778 and 54,942 doublets; B1922's correction carries its figures; the mean over the columns 5.62 to 20.47). It names no older row as not properly harvested",
- "note": "SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions web-st8-01-r2n, web-st8-01-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 10 line(s) this record held are moved to its companions web-st8-01-r2n, web-st8-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 234 (line 613): UNITS.json 24 web files at 5dec726d6, 136 at c458df8ce (112 new); 108 in web-st7-04's note. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 235 (line 615): ground names \"87 files read\"; \"about 4,370\" in web-st7-04's note (4,369 at c458df8ce). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 236 (line 619): web_wz1_c3_indices_run.txt l.4-10: 6, 1, 12, 6, 1, 12, 12. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 237 (line 622): records at c458df8ce: nine -p splits totalling 34 units. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 238 (line 625): item 6 of ten, right and acted on; items 1-5, 7-10 kept; only the last sentence is the seat's acceptance. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 240 (line 657): web_wf19_on_main_run.txt l.2 (64), l.8 (54942). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 241 (line 659): web_wf22_on_main.py l.33, run l.4 (7.7e-11, 8.2e-10, 5.7e-05; 3.2, 1.8, 4.9); B1922 FINDINGS l.36. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:612",
   "web:STATUS_CHAT1:614",
@@ -18,6 +18,13 @@
   "web:STATUS_CHAT1:653",
   "web:STATUS_CHAT1:654",
   "web:STATUS_CHAT1:656",
-  "web:STATUS_CHAT1:660"
+  "web:STATUS_CHAT1:660",
+  "web:STATUS_CHAT1:613",
+  "web:STATUS_CHAT1:615",
+  "web:STATUS_CHAT1:619",
+  "web:STATUS_CHAT1:622",
+  "web:STATUS_CHAT1:625",
+  "web:STATUS_CHAT1:657",
+  "web:STATUS_CHAT1:659"
  ]
 }

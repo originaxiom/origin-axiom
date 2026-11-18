@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-read-older-1",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "each read by main in full at c4c48f541; no script of the seat's run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md",
+  "relays/AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ.md",
+  "relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "agy002-c6e-01-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18, changed the same day: main had kept these lines of record agy002-c6e-01 verified and narrowed them at its own second look: line 3: the defect it names is real and computed on main (rank one); that its sections 0, 2 and 3 and its five planted controls passed is its own run.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "agy-002-closure:cards/AGY-002_CLOSURE-G6-ERRATUM_reproducing-kernel-rank1-vs-g6v0:3"
+ ]
+}

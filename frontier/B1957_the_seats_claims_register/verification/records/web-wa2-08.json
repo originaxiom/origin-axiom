@@ -1,0 +1,10 @@
+{
+ "id": "web-wa2-08",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "B1934's open item (is the icosahedral triplet the frame's generation triplet) was already settled by B1935 section 3, as the note says: the frame's modular triplets are its channels and its Higgs direction, and the blocks are never of level 5 (B1952 part F confirms it on the frame)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, for its ground; lines of it were restored later the same day (below). RESTORED at the seat's row 169 (line 122): old ground cites B1935 § 3 and B1952 part F; channels level 2 and Higgs level 8 on B1952 FINDINGS 13-14; part D eighths wa2_on_main.py:104-105 (run line 5: 0.125, 0.375, 0.875) = B1935 higgs_triplet_level_run.txt line 1; blocks level 2 or 4: wa2_on_main.py:103 (run line 4), :148 (run line 12); B1952 FINDINGS 40-41; web_wa2_readout.py:38 (run 1-9). MAIN: as the row says; main read the row beside the unit and its cited ground.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:122"
+ ]
+}

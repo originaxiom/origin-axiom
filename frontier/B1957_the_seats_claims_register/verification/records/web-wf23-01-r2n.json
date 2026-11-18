@@ -3,10 +3,19 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf23-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 50, 59, 72",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REFILED at the seat's row 401 (line 69): A14 l.262 mends only N4's absolute path; git show part unanswered; note types N1-N6 \"a reading, for main\" (l.109). MAIN: as the row says. REFILED at the seat's row 402 (line 16): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 17): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 18): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 22): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 23): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 24): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 26): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says. REFILED at the seat's row 402 (line 49): readings or restatements of main's rule, typed \"a reading, for main\" (l.109); l.26 a judgement; main's text A7 l.177-181, A13 l.229-236, A15 l.266. MAIN: as the row says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:50",
   "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:59",
-  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:72"
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:72",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:69",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:16",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:17",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:18",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:22",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:23",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:26",
+  "web:CHAT1_TO_CC_2026-11-14_W-F23_THE_RULES_AMENDMENTS_A1_TO_A13:49"
  ]
 }

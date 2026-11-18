@@ -2,7 +2,7 @@
  "id": "web-wa1-02",
  "date": "2026-11-17",
  "verdict": "VERIFIED",
- "how": "B1957's checks/web_wa1_part3.py and web_wa1_rest.py on main's frame code: I1 to I4, the plant, H1, H3, H4, G1, every printed digit of the outputs at (i, mark), the mirror covariance (3e-16), the axis through the cone point of order 2 and 0.255 from that of order 3, the triplet's third component at i and its law under S",
+ "how": "B1957's checks/web_wa1_part3.py and web_wa1_rest.py on main's frame code: I1 to I4, the plant, H1, H3, H4, G1, every printed digit of the outputs at (i, mark), the mirror covariance (3e-16), the axis through the cone point of order 2 and 0.255 from that of order 3, the triplet's third component at i and its law under S ADDED 2026-11-18: line 152's 4.4e-3 is main's own figure (register row P-864), and its 0.3 per cent is arithmetic on that and on H4's scale.",
  "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-wa1-02-r2n, web-wa1-02-r2p; what stays is what its ground covers.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:114",

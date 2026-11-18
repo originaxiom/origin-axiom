@@ -3,8 +3,6 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/agy002_g7.py, G7B.3 and G7B.4: the first-order rotation between two neutrino states is -(3/2) p (m1 + m2)/(m2 - m1), symbolically; over the seat's 32 states the drift of |U_e1|^2 is at most 7.5e-4 at y_tau = 1/20 and 1.18e-2 at 1/5, and 0.273 when m2/m1 = 1 + 1e-5; E8's 240 roots split as 6 + 72 + 162, the 162 in six sets of 27; a 27 beside the centraliser's SU(3) has no state neutral under it, and has nine neutral under an SU(3) inside E6. So the two roles of colour are different embeddings, and the first-column statement holds only away from degenerate masses: both as the seat scopes them",
- "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions agy002-g7b-02-r2p; what stays is what its ground covers.",
- "units": [
-  "agy-002-closure:AGY002_CLOSURE_G7B_RESULTS:23"
- ]
+ "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions agy002-g7b-02-r2p; what stays is what its ground covers. EVERY LINE OF THIS RECORD HAS MOVED TO ITS COMPANIONS (2026-11-18). It is kept, with no statement under it, for its ground: the companions and other records cite it.",
+ "units": []
 }

@@ -2,10 +2,9 @@
  "id": "agy002-es-05",
  "date": "2026-11-17",
  "verdict": "VERIFIED",
- "how": "settled in gates 2 and 3 on main's own code: the overlap's periodicity and covariance (record agy002-g2-03); the exponents at orders 5, 10 and 15 and the identity behind the order-10 bijection (records agy002-g2-04, -05); the two obstructions and both beta-function signs of gate 3 (records agy002-g3-02 to -04); and that the three-dimensional geometry fixes neither the unified coupling nor Delta_PS (record agy002-g1-03). The last three paragraphs are the seat's own statement of what stays open, and main agrees: the scales, the level and the modulus are not fixed by anything here",
+ "how": "settled in gates 2 and 3 on main's own code: the overlap's periodicity and covariance (record agy002-g2-03); the exponents at orders 5, 10 and 15 and the identity behind the order-10 bijection (records agy002-g2-04, -05); the two obstructions and both beta-function signs of gate 3 (records agy002-g3-02 to -04); and that the three-dimensional geometry fixes neither the unified coupling nor Delta_PS (record agy002-g1-03). The last three paragraphs are the seat's own statement of what stays open, and main agrees: the scales, the level and the modulus are not fixed by anything here ADDED 2026-11-18: line 28's two pairs, (1/5, 11/20) and (1/5, 1/2), are the least exponents over the 24 points in the two readings by main's own rule (checks/agyexp_x_unify.py, U2).",
  "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions agy002-es-05-r2n, agy002-es-05-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:28",
-  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:36"
+  "agy-002-endgame:AGY002_ENDGAME_V2_MASTER_SYNTHESIS:28"
  ]
 }

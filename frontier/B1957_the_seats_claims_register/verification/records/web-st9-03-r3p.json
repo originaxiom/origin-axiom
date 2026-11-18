@@ -1,0 +1,11 @@
+{
+ "id": "web-st9-03-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-st9-03, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 441 (line 839): \"every level\", the Wang step and det(J^n - 1) = (-1)^n - L_n + 1 are the seat's hand argument; I4 covers 1-8; main narrowed the Wang argument at web-wc8p2a-01-r2p:45. MAIN: as the row says. REFILED at the seat's row 442 (line 833): \"golden has none at levels 1 to 3\" cites the seat's wc8_part5_out.txt; I3 runs bronze level 2 only (l.33 m, n = 3, 2; run l.1); web-wc8p5-01's note credits I3 with golden. MAIN: as the row says.",
+ "units": [
+  "web:STATUS_CHAT1:839",
+  "web:STATUS_CHAT1:833"
+ ]
+}

@@ -3,8 +3,9 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "main reran its own instrument (scripts/checks/harvest_debt.py) at its present heads: no new unrowed item, no backlog, no stale row, every pin at its head, the SM seat clean; and 116 relays without a relay-ledger row (the seat counted 114 one day earlier; two more arrived). The instrument counts and does not grade, as the note says",
- "note": "The note's figures (847 ids, 27 seats, 5 skipped) are of its own commit; main's run on 2026-11-18 has 877 ids and reaches the hostile seat, which a plain clone skips. SECOND READING 2026-11-18: 27 line(s) this record held are moved to its companions web-wh1-01-r2c, web-wh1-01-r2n, web-wh1-01-r2p; what stays is what its ground covers.",
+ "note": "The note's figures (847 ids, 27 seats, 5 skipped) are of its own commit; main's run on 2026-11-18 has 877 ids and reaches the hostile seat, which a plain clone skips. SECOND READING 2026-11-18: 27 line(s) this record held are moved to its companions web-wh1-01-r2c, web-wh1-01-r2n, web-wh1-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 172 (line 54): scripts/checks/harvest_debt.py:591 ages only new unrowed seat-index ids; 852-861 fail on unrowed relays only under --strict; file changed by comments only f2f019621..4921ee923. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:24"
+  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:24",
+  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:54"
  ]
 }

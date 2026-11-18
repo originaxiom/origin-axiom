@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "the seat's account of what main took from its review (its section 5.1), held against main's record: each item is as it says. Its two remainders are true and are mended at this landing: B1953's dated note said the up sector's specification 'is answered', and B1955's one-line claim stated the top wedge's invariance at level 5 without 'generic' or 'conditional'; both now carry a dated correction (the invariance holds for any representation of determinant 1 and rests on the Fock-space reading, which is not derived; it is not a gain)",
- "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-st5-01-r2n, web-st5-01-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-st5-01-r2n, web-st5-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 443 (line 308): status statement about main's register, right: SUMMARY.json at df0ce17a5 lanes/web files 16, statements 1167, V 156, S 5, N 85, pending 921. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:290",
   "web:STATUS_CHAT1:292",
@@ -17,6 +17,7 @@
   "web:STATUS_CHAT1:304",
   "web:STATUS_CHAT1:305",
   "web:STATUS_CHAT1:306",
-  "web:STATUS_CHAT1:307"
+  "web:STATUS_CHAT1:307",
+  "web:STATUS_CHAT1:308"
  ]
 }

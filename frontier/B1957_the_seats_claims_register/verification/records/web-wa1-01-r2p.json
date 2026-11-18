@@ -3,13 +3,10 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wa1-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 61: text cut off at \";\" and claims about Z6 as the largest quotient and the four quotients are not in the ground; 65: SU(5) in SO(10) construction, B1936 placement and \"nothing new\" not covered; 71: U(3)×U(2) extra U(1) with charges 0, 2, 4 not covered; 76: three-families scope claim not covered; 77: A5 in SO(3) and the centraliser-not-closure claim only partly covered; 81: Λ³+Λ⁵ conjugate generation and the colour triplet's −2 on Λ¹ only partly covered",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REASON CORRECTED 2026-11-18 at the seat's row 299 (line 81): how says the triplet's -2 \"only partly covered\"; D7 prints [-2, 3] (run l.13); only Lambda^3 + Lambda^5 uncovered. MAIN: verdict stands; the reason is corrected as the row says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:61",
-  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:65",
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:71",
-  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:76",
-  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:77",
   "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:81"
  ]
 }

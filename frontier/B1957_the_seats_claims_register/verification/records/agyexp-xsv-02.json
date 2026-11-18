@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-xsv-02",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its thesis and its falsifiers S1 (the trace of every odd-tick word vanishes on the sum of the two triplets) and S2 (a dynamic remainder of uniform sign): the seat's own runs on its own code, not recomputed on main. S2's preregistered clause on letter reversal failed in its own run, as it reports",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:13",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:31",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:34"
+ ]
+}

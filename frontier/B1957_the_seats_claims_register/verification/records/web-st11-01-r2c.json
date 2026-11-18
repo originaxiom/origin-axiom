@@ -1,0 +1,10 @@
+{
+ "id": "web-st11-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-st11-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 233 (line 986): every figure in the named output relays/chat1_2026-11-18_rv49/rv49_checks_out.txt l.2, 3, 7; ST:985 same footing kept. MAIN: the figures are those of the seat's own rerun of main's checks; like lines are conditional (not V as the row suggests).",
+ "units": [
+  "web:STATUS_CHAT1:986"
+ ]
+}

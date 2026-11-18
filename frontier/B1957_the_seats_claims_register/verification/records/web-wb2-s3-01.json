@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "checks/wb2_stage3_on_main.py, on main's frame code with the charges passed in (tau = 0.13 + 1.7i; the identity E, frame D1 = frame C at q - c q_H/2 at residue level, is taken from main's hand reduction, harvest row 1842): S1, frame C at (-q_R, -q_L) is the transpose of frame C at (q_L, q_R), exactly (0 to rounding), for three sectors, two points and both readings, at residue level and with the norms; S2, so the mixing there is frame C's read with right singular vectors, and the massive block of |V| differs from frame C's by up to 0.84, the seat's figure; S3, the c = +2 charges are up (-2, -7), down (4, 5), leptons (0, 9), and at all 24 points of order 5 the lepton coupling is the transpose of the down coupling up to a scalar (3e-16), while at (1/7, 3/7) their singular-value ratios differ by 0.09; S4, c = +2 differs from frame C by up to 2.35 in sigma_2/sigma_1 (the seat: up to 2.4)",
- "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wb2-s3-01-r2c, web-wb2-s3-01-r2n, web-wb2-s3-01-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wb2-s3-01-r2c, web-wb2-s3-01-r2n, web-wb2-s3-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 408 (line 73): lead whose content main's S3 computes (wb2_stage3_on_main.py l.73-76; ground \"3e-16\"). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 409 (line 97): main's S3; line 75 and row 94 kept V. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:46",
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:57",
@@ -12,6 +12,8 @@
   "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:94",
   "web:STATUS_CHAT1:53",
   "web:STATUS_CHAT1:55",
-  "web:STATUS_CHAT1:58"
+  "web:STATUS_CHAT1:58",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:73",
+  "web:CHAT1_TO_CC_2026-11-15_W-B2_FRAME_D1_IS_FRAME_C_AT_SHIFTED_CHARGES:97"
  ]
 }

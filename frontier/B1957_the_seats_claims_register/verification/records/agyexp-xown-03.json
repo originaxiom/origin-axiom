@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-xown-03",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "item F3, what stands of it. ON MAIN (checks/agyexp_older_notes.py, O8): with the Higgs at -3 the charge sums are 0 for down and for leptons and -6, which is 4 modulo 5, for up; with +3 the up sum is 0. So one Higgs bundle serves two sectors and its conjugate the third, on all 24 points: the eight assignments reduce to two conjugate worlds. NOT ON MAIN: its benchmarks against B1656, its invariance tests under random changes of basis, the failure of covariance when the triplet's own characteristics are shifted",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:63",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:64",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:65",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:66",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:67",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:68",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:69",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:70",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:71"
+ ]
+}

@@ -5,17 +5,10 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf21-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 32: \"W-F18's two minor items taken\" is not mentioned in the ground; 33: The moduli's sigma credited to B1735 is not covered; 34: The script asserting the values file's positions and options is not covered; 36: Row indices (0,1,2,3,6,7,8), N_CAL 4,000 and seed 20261115 are not stated as checked by main; 41: Commit a29c459a5 and the claim that agy-exp's output was committed unread at 48926341b are not checked; 48: Times 12:45 and 16:28 and the \"delta is bound, not chosen\" claim are not covered; 58: Timing claims (08:40 before 12:45) and what was added after the values are not covered; 61: \"No rule depends on another's outcome\" is not covered; 62: The dropped step and the data files compared by program are not covered; 73: The 1.7% to 2.2% widening and 1e-3 per-code error are arithmetic not stated as done by main; 78: The git show from 48926341b, which is not in the fetch, is only partly covered (the root path was fixed; the git-show part was not); 91: The claim that test size is unaffected (a PASS at most about 1% of the time) is not covered",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:32",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:33",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:34",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:36",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:41",
   "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:48",
   "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:58",
   "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:61",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:62",
   "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:73",
-  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:78",
   "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:91"
  ]
 }

@@ -1,0 +1,12 @@
+{
+ "id": "web-st15-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "three lines, each right in part. Line 1447: the lane's totals at dbd7c24e3 and its 7,668 units are main's (checks/web_section15.py, Y1); that every id, form, kind and hash matches is the seat's own recut. Line 1498: main's ground did call the law main's; the credit the seat gives is right for the statement at two placements and not for the formula in c (web-st13-02's note). Line 1500: the note was wrong, and the two cells that break it are as the seat says; its range, 'about 3.4 to about 120 in six of the eight cells', counts the cell of 3.4 among the six: main's value is smaller in seven cells, by ten or more in six (Y7)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1447",
+  "web:STATUS_CHAT1:1498",
+  "web:STATUS_CHAT1:1500"
+ ]
+}

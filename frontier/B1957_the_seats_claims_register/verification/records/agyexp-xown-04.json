@@ -1,0 +1,18 @@
+{
+ "id": "agyexp-xown-04",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "item F4, a filter in four dimensions. ON MAIN: the odd levels of the tick are non-orientable and the even ones orientable (B1926); for the ticks [[m, 1], [1, 0]], m = 1 to 15, the determinant is -1 and |det(T - 1)| = m, |det(T^2 - 1)| = m^2, |det(-T^2 - 1)| = m^2 + 4 (checks/agyexp_older_notes.py, O8). NOT ON MAIN: that the orientation bundle over an odd-tick state is the reason odd ticks are not seen (the seat's reading; main's own record holds 'even ticks' as a condition the weight must deliver), its census of manifolds and covers, its counts 0, 3, 10, 28 of twisted classes and the bijection it reports, the monotone growth of the volumes",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:78",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:79",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:80",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:81",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:82",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:83",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:84",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:85",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:25"
+ ]
+}

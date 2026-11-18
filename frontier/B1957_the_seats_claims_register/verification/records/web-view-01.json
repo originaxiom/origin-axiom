@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the five things the note checks itself, each redone by main by hand. (1) tau = i lies on the act's axis: |i - 1/2|^2 = 5/4, the squared radius; LR sends i to (3 + i)/2, on the axis, which reduces to i (T^-1, S, T). (2) Under -1/tau the line moves by (a, b) -> (-b, a), so the mark (2/5, 4/5) goes to (1/5, 2/5), the twin. (3) 1 + i is on the axis too (|1/2 + i|^2 = 5/4) and is fixed by T S T^-1; with the line kept, frame C at (1 + i, mark) is frame C at (i, (2/5, 1/5)), a point of the line RL fixes; J = [[1, 1], [1, 0]] has J^2 = LR. (4) The 24 points of order 5 up to sign are 12, the number of cusps of X(5) (index 60 over 5), as sets under SL(2, Z). (5) diag(-2, -2, -2, 3, 3) on the even exterior powers of C^5 has exactly the record's 6Y values: -4 (three states), 1 (six) and 6 on the second power, 2 (three) and -3 (two) on the fourth, 0 on the zeroth; and by Schur's lemma the centraliser of a 3 + 2 split in SU(5) is that one U(1)",
- "note": "What W-A1 later computed on the frame at these points is in the records web-wa1-*. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-view-01-r2n, web-view-01-r2p; what stays is what its ground covers.",
+ "note": "What W-A1 later computed on the frame at these points is in the records web-wa1-*. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-view-01-r2n, web-view-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 92 (line 184): B1943 (PROVED): LR fixes exactly the four points of one order-5 line up to sign. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 93 (line 314): \"the act fixes two\" is B1943; cusps are the ground's item (4). MAIN: as the row says; main read the cited ground.",
  "units": [
   "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:181",
   "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:195",
@@ -13,6 +13,8 @@
   "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:363",
   "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:364",
   "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:365",
-  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:366"
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:366",
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:184",
+  "web:CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY:314"
  ]
 }

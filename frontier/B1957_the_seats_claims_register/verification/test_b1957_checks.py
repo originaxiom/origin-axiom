@@ -1000,3 +1000,69 @@ def test_on_the_imaginary_axis_the_overlap_obeys_the_reflection_identity_and_the
     rng = np.random.default_rng(8); v = rng.normal(size=6) + 1j * rng.normal(size=6); v = v + np.conj(v[(-k) % 6]); d = np.linalg.det(np.einsum("ijk,k->ij", Yv, v))
     assert abs(d.imag) < 1e-10 * abs(d)
     u = rng.normal(size=6) + 1j * rng.normal(size=6); d2 = np.linalg.det(np.einsum("ijk,k->ij", Yv, u)); assert abs(d2.imag) > 1e-3 * abs(d2)   # a vector without the symmetry gives a complex determinant
+
+
+def test_the_older_notes_exact_statements_and_three_slips_in_them():
+    """agy-exp's older notes (checks/agyexp_older_notes.py): the facts main recomputed, and the three places where the notes
+    say something else."""
+    import itertools, sympy as sp
+    shell = {}
+    for v in itertools.product(range(-6, 7), repeat=4):
+        n2 = sum(x * x for x in v) + sum(v) ** 2
+        if n2 % 2 == 0 and 0 < n2 // 2 <= 12: shell[n2 // 2] = shell.get(n2 // 2, 0) + 1
+    assert sum(shell[k] for k in range(1, 13)) == 1350 and sum(shell[k] for k in range(7, 13)) == 1020            # the note's 1,020 is the upper band only
+    Lm, Rm = sp.Matrix([[1, 1], [0, 1]]), sp.Matrix([[1, 0], [1, 1]]); W = Lm ** 6 * Rm * Lm * Rm; Fm = sp.Matrix([[-1, 6], [0, 1]])
+    m5 = lambda v: [int(x) % 5 for x in v]
+    assert W == sp.Matrix([[20, 13], [3, 2]]) and Fm * W * Fm.inv() == W.inv() and (-Fm) * W * (-Fm).inv() == W.inv()
+    assert m5(Fm * sp.Matrix([1, 2])) == [1, 2] and m5(-Fm * sp.Matrix([1, 2])) == [4, 3] and m5(sp.Matrix([[1, 2]]) * Fm) == [4, 3]   # which one negates the mark depends on the action
+    J, Km = sp.Matrix([[2, 1], [1, 1]]), sp.Matrix([[0, -1], [1, 0]])
+    assert Km * J * Km.inv() == J.inv() and Km * J * Km.inv() != -J.inv()                                           # the note writes the minus sign
+    W12 = Lm ** 5 * Rm * Lm ** 2 * Rm ** 2 * Lm * Rm; assert abs((W12 - sp.eye(2)).det()) == 105 and 25 * (-1) + 2 * 5 * 6 == 35   # the report writes Z/5 and 60
+    assert [x for x in range(209) if (x * x - x - 1) % 209 == 0] == [15, 81, 129, 195]
+    assert [6 * y for y in [sp.Rational(-1, 3)] * 3 + [sp.Rational(1, 2)] * 2] == [-2, -2, -2, 3, 3]                 # so diag(-2, -2, -2, 3, 3) is +6Y
+
+
+def test_the_compact_magnetic_controls_roster_weights_and_response_path():
+    """the physical lane's compact control (checks/physical_c8_magnetic.py): E8 by the charge of C = e1 - e3, the cocharacter
+    T's weights, and the two paths' energies as polynomials"""
+    import itertools, sympy as sp
+    from fractions import Fraction as Fr
+    roots = []
+    for i, j in itertools.combinations(range(8), 2):
+        for si in (1, -1):
+            for sj in (1, -1): v = [Fr(0)] * 8; v[i] = Fr(si); v[j] = Fr(sj); roots.append(tuple(v))
+    roots += [tuple(Fr(x, 2) for x in s) for s in itertools.product((1, -1), repeat=8) if s.count(-1) % 2 == 0]
+    C, T = (1, 0, -1, 0, 0, 0, 0, 0), (0, 1, 0, 1, 1, 1, 1, -1); dot = lambda u, v: sum(x * y for x, y in zip(u, v))
+    by = {}
+    for r in roots: by.setdefault(dot(C, r), []).append(r)
+    assert len(roots) == 240 and {k: len(v) for k, v in by.items()} == {0: 126, 1: 56, -1: 56, 2: 1, -2: 1} and sum(dot(C, r) ** 2 for r in roots) == 120
+    wt = lambda rs: sorted((int(k), sum(1 for r in rs if dot(T, r) == k)) for k in {dot(T, r) for r in rs})
+    assert wt(by[1]) == wt(by[-1]) == [(-3, 1), (-1, 27), (1, 27), (3, 1)] and [dot(T, r) for r in by[2] + by[-2]] == [0, 0] and sum(1 for r in by[0] if dot(T, r) == 0) == 72
+    assert 3 * len(by[-1]) + 6 * len(by[-2]) == 174 and wt(by[1]) != wt([r for r in roots if dot((1, 1, 0, 0, 0, 0, 0, 0), r) == 1])   # another direction has other weights
+    E = lambda i, j: sp.Matrix(3, 3, lambda a, b: 1 if (a, b) == (i - 1, j - 1) else 0); comm = lambda X, Y: X * Y - Y * X; Cm = sp.diag(1, 0, -1)
+    f, fb, t, B, A, I4, rho = sp.symbols("f fb t B A I4 rho"); bx, by_ = sp.symbols("bx by", real=True)
+    aX = (f * E(3, 1) + fb * E(1, 3)) / 2; aY = (f * E(3, 1) - fb * E(1, 3)) / (2 * sp.I)
+    assert sp.simplify(-sp.I * comm(aX, aY) + f * fb * Cm / 2) == sp.zeros(3, 3)
+    R = sp.simplify(-sp.I * (comm(bx * Cm, aY) + comm(aX, by_ * Cm))); assert sp.simplify((Cm * R).trace()) == 0 and sp.simplify((R * R).trace() - 2 * (bx ** 2 + by_ ** 2) * f * fb) == 0
+    integ = lambda poly: sum(c * {0: A, 1: 1, 2: I4}[m[0]] for m, c in sp.Poly(sp.expand(poly), rho).terms())
+    frozen = integ((B - t ** 2 * rho / 2) ** 2); relaxed = integ(sp.expand(B - t ** 2 * rho / 2 + t ** 2 * (rho - 1 / A) / 2) ** 2)
+    assert sp.simplify(frozen - (A * B ** 2 - B * t ** 2 + I4 * t ** 4 / 4)) == 0 and sp.simplify(relaxed - A * (B - t ** 2 / (2 * A)) ** 2) == 0 and I4 in frozen.free_symbols and I4 not in relaxed.free_symbols
+
+
+def test_the_coupling_moves_by_one_real_signed_permutation_under_t_and_under_s():
+    """the web seat's section 15.2, item 1 (checks/web_wa2_readout.py, as extended): reality for S as for T, one R for both
+    sides, and the constant under T in the two readings; one case recomputed here on B1953's routine"""
+    import sys
+    ROOT = next(q for q in pathlib.Path(__file__).resolve().parents if (q / "frontier").is_dir() and (q / "GENESIS.md").is_file())
+    sys.path.insert(0, str(next((ROOT / "frontier").glob("B1953_*")) / "verification")); import weyl_operator as WO
+    def realise(U): ph = U[np.abs(U) > 0.5]; R = U / (ph[0] / abs(ph[0])); return R
+    tx, ty = WO.BASES[0]; Ys, _ = WO.images(tx, ty, "down"); const = {}
+    for rd in ("S", "St"):
+        for gen, want in (("T", [[0, 0, 1], [0, 1, 0], [-1, 0, 0]]), ("S", [[0, 1, 0], [1, 0, 0], [0, 0, 1]])):
+            l = WO.law(Ys["t"][rd], Ys[gen][rd], gen); RL, RR = realise(l["UL"]), realise(l["UR"])
+            if np.abs(RL - RR).max() > 1e-6: RR = -RR
+            assert np.abs(RL.imag).max() < 1e-10 and np.abs(RL - RR).max() < 1e-10 and (np.abs(RL.real - np.array(want)).max() < 1e-8 or np.abs(RL.real + np.array(want)).max() < 1e-8)
+            if gen == "T":
+                tr = next(tt for tt in WO.TRANS[gen] if (lambda Zm, Y: np.abs(Y - (np.vdot(Zm, Y) / np.vdot(Zm, Zm)) * Zm).max() / np.abs(Y).max() < 1e-8)(RL @ Ys["t"][rd][tt(*WO.PTS[0])] @ RR.T, Ys[gen][rd][WO.PTS[0]]))
+                const[rd] = sorted({round(float(np.angle(np.vdot(RL @ Ys["t"][rd][tr(*w)] @ RR.T, Ys[gen][rd][w])) / (2 * np.pi)) % 1, 6) % 1 for w in WO.PTS if w[0] == 0})
+    assert const == {"S": [0.25], "St": [0.0]} and const["S"] != [0.125]                 # a quarter turn and none; not an eighth

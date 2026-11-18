@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record agyexp-xfd-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): AGY_EXP_TO_PHYSICAL_AND_CC_2:19: the tolerance < 2*(1/1000)^5*(1/10) is the seat's run; AGY_EXP_TO_PHYSICAL_AND_CC_2:23: the brackets 487/1000, 471/1000, ratio brackets and |y''| = 6/5 are the seat's own run; AGY_EXP_TO_PHYSICAL_AND_CC_2:19: the tolerances and the unique SVD reconstruction bound are the seat's own run; AGY_EXP_TO_PHYSICAL_AND_CC_2:20: the tolerances, the control > 11/10 and \"confirming period 1 does not fix the action scale\" are the seat's; AGY_EXP_TO_PHYSICAL_AND_CC_2:22: the bound < 6*(1/1000)^5*(1/10) is the seat's own run; AGY_EXP_TO_PHYSICAL_AND_CC_2:23: the tolerances, the planted control 24/100 and the bracket 426/1000 are the seat's own; AGY_EXP_TO_PHYSICAL_AND_CC_2:25: the distances [2, >28/10, 0], the commutator trace 2 and the tolerance are not stated by the ground",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/others.json. ADDED 2026-11-18 at main's second look at the lines it had kept: line 18: the counts 46, 32 and 162 and the cube roots are main's; '78 roots' is the dimension of the centraliser, whose roots are 72; the bounds are the seat's own.",
  "units": [
   "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:19",
   "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_2_RESULTS:23",
@@ -11,6 +11,7 @@
   "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:20",
   "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:22",
   "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:23",
-  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:25"
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_3_RESULTS:25",
+  "agy-exp:AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_FOUNDATION_1_RESULTS:18"
  ]
 }

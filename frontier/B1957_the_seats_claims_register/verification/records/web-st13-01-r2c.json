@@ -1,0 +1,10 @@
+{
+ "id": "web-st13-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-st13-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 147 (line 1167): the seat's own recut and hash check: rests on the seat's run (as F26:42, C8a:67). MAIN: as the row says: it rests on the seat's own run, its referee's, or a cited result.",
+ "units": [
+  "web:STATUS_CHAT1:1167"
+ ]
+}

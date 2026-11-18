@@ -223,3 +223,5 @@ python3 -m pytest -q frontier/B1898_review_80_one_hundred_findings_and_what_main
 
 The recount reads this arc's two tables and git. The lock runs the recount and three of the four checks of
 quotations; it holds every other check by the hash of its script and of the output main kept.
+
+**Added 2026-11-18 (the web seat's Review 81 reading, its line 40, read whole by main).** The second table's row 16 (B1893's planted-suite output, `f6e89032a` not on main) is 'held' on the table, while the kept probe `checks/sm_rows_probe.json` records it as held: false, because the probe tested only that the commit exists in the repository; the ref check behind 'held' left no output. Checked by main on 2026-11-18: the commit exists and no ref contains it, so it is not on main and the finding held. The table is held by this arc's lock as Review 81 left it, so the note stands here.

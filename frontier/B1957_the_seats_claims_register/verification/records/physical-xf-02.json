@@ -1,0 +1,10 @@
+{
+ "id": "physical-xf-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its fourth hand control: with e13 - e24 the commutator with the raising chain is -2p e14, so it is not the highest vector (checks/physical_c8_magnetic.py, G8)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES:45"
+ ]
+}

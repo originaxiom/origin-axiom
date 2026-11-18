@@ -5,7 +5,6 @@
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), part D: both classes have determinant 1 on all 120 elements, so two fields of degree 2 and one of degree 1 wedge to an invariant, and every exterior power's T-spectrum is in fifth roots. AS CORRECTED on main (B1955 section 3, its one-line claim, B1953's note, the picture page): this holds for any representation of determinant 1, so it is generic, and it rests on the Fock-space reading, which is not derived; it is not a gain and does not specify the up sector. The note itself says as much ('it does not test the up sector's charges')",
  "note": "SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-wa3-06-r2n, web-wa3-06-r2p; what stays is what its ground covers.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:39",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:127",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:131",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:134",

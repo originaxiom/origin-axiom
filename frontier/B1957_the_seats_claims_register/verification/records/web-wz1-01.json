@@ -1,0 +1,13 @@
+{
+ "id": "web-wz1-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/web_wz1_other_discriminants.py (main: the lattice sum integrated over one period of the geodesic, each point reduced to the fundamental domain, two cut-offs with the tail removed): Hecke's period along the act's geodesic (discriminant 5) is 5^(s/2) Gamma(s/2)^2/Gamma(s) zeta(s) L(s, chi_5)/zeta(2s), with the constant 1: at s = 2 to 4.7e-9 and at s = 3 to 1.8e-14 (B1955's earlier check: 1.5e-6 at s = 2). The volume identity 6 L(pi/3) = 12 * 3^(3/2) zeta_K(2)/(4 pi^2) to 3.9e-31 (B1955's wz1_checks.py)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, for its ground; lines of it were restored later the same day (below). RESTORED at the seat's row 100 (line 24): web_section9_items.py I5 (run l.3): vol 2.029883212819307250042, ratio - 12 = -4.2e-45, beats seat's 4e-41. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 101 (line 44): C1 at D = 5 in web_wz1_other_discriminants run l.1, l.6; B1917, B1920 carry Hecke twisted and shifted. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 102 (line 89): nothing rests on the seat's run; main computed the period with constant 1 (run l.1, l.6); wb2-d1-04:95 kept V. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 103 (line 91): main computed it: I5 (-4.2e-45), B1955 (3.9e-31). MAIN: as the row says; main read the cited ground.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:24",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:44",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:89",
+  "web:CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT:91"
+ ]
+}

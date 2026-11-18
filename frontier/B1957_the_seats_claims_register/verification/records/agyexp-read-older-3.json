@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-read-older-3",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "each read by main in full at c4c48f541; no script of the seat's run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS.md",
+  "relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md",
+  "self_consistent_loop/reports/phase4_unification_cap_lepton_report.md",
+  "relays/REVIEW_79B_AGY-EXP.md",
+  "relays/REVIEW_80_AGY-EXP.md"
+ ]
+}

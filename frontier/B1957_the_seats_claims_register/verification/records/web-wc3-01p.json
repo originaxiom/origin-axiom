@@ -3,19 +3,16 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "split from web-wc3-01 on the seat's own finding (its status page, section 7.2, item 4): the cells held against main's banked arcs are the same; the seat's extensions (24 lifts and four conventions in W107, nine groups in W109 (iii), n = 5 to length 6 in W110) were not rerun on main",
- "note": "ADDED 2026-11-18 at the seat's section 13.2: the 24 lifts and four conventions, the nine groups, the searches at n = 4 and under the L_ij, and the class counts that carry n = 5 are the seat's extensions, not rerun on main; main reran the search at n = 3 and n = 2 only (B1679).",
+ "note": "ADDED 2026-11-18 at the seat's section 13.2: the 24 lifts and four conventions, the nine groups, the searches at n = 4 and under the L_ij, and the class counts that carry n = 5 are the seat's extensions, not rerun on main; main reran the search at n = 3 and n = 2 only (B1679). CORRECTED 2026-11-18 at the seat's section 16.4, which is right: this note said that n = 5 in W110 is not rerun on main. It is: B1682's main_kept_words.py, T2, runs n = 5 to length 6 (102,528 classes, none kept; its run, line 5). Lines 18, 100 and 105 are therefore main's and are moved to web-wc3-01; lines 99 and 104 stay here (Whitehead's count is tested on random words, T1, not on the census; no script of main's makes the Burnside comparison).",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:15",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:17",
-  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:18",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:56",
-  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:100",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:48",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:55",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:85",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:88",
   "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:99",
-  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:104",
-  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:105"
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:104"
  ]
 }

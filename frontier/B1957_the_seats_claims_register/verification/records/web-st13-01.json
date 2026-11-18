@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_section13.py and web_wa2_readout.py, with main's records read after its changes of 2026-11-18. The seat's check of M52 (its 13.1) is right: its recount is main's summary at the commit it read; the nine narrowed records hold what M52 says. EACH OF ITS ELEVEN ITEMS (13.2) IS RIGHT AND IS TAKEN OR ANSWERED: none of the units it names stands under a verified record, except the five lines of its note W-A2, which are verified on the ground it points to (B1953's law, read out by main: the blocks move by a group of order 24 with T of order 4). Its item 4's lines of its own section 12 are gone with that section's first version; the closing paragraph of its section 9.2 is superseded in part at its word. The line it leaves to main (the session relay's 133) is partial",
- "note": "On item 3 the seat is right against main twice: the record cited the wrong arc, and main's landing of the same morning had made three of the five lines partial where the ground for all five was already on main. SECOND READING 2026-11-18: 27 line(s) this record held are moved to its companions web-st13-01-r2n, web-st13-01-r2p; what stays is what its ground covers.",
+ "note": "On item 3 the seat is right against main twice: the record cited the wrong arc, and main's landing of the same morning had made three of the five lines partial where the ground for all five was already on main. SECOND READING 2026-11-18: 27 line(s) this record held are moved to its companions web-st13-01-r2n, web-st13-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 119 (line 1176): review statement; every clause in web-wb2-d1-05r (\"exactly (8.5e-32; the seat's 3e-8)\", \"a principle chosen, not a uniqueness proved\"); siblings 1170-1178 V. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 120 (line 1221): every figure main's: web_wa2_readout.py l.1-5, 27-31; run l.1-8 (1.1e-15 to 1.7e-15); B1953 weyl_operator.py l.17 (BASES), l.58 (U_R from Y0^dag Y0). MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 121 (line 1227): seat's 3e-15 beaten: web_wa2_readout.py l.35; run l.1-8 /U_L - c U_R/ 6.3e-16 to 2.2e-15. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 122 (line 1228): main reran \"real signed\" (U_L(T)) in 8 cases (l.34; run l.1-8 True); run l.9 \"orders (4, 2, 3): True; group order 24: True\". MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 123 (line 1255): main's own record says it: web-p783-06p note; web_p783_spectrum_run.txt l.8-9. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 149 (line 1243): every clause in main's note; figures quoted from the seat's lines 48, 64 (web-wb2-first-02p). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 150 (line 1251): main's half is its run (l.8, l.9); seat's half quoted from P-783 lines 80, 81. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 150 (line 1252): main's half is its run (l.8, l.9); seat's half quoted from P-783 lines 80, 81. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 151 (line 1256): every clause in main's note (web-p783-06p). MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:1196",
   "web:STATUS_CHAT1:1199",
@@ -38,6 +38,15 @@
   "web:STATUS_CHAT1:1171",
   "web:STATUS_CHAT1:1173",
   "web:STATUS_CHAT1:1175",
-  "web:STATUS_CHAT1:1178"
+  "web:STATUS_CHAT1:1178",
+  "web:STATUS_CHAT1:1176",
+  "web:STATUS_CHAT1:1221",
+  "web:STATUS_CHAT1:1227",
+  "web:STATUS_CHAT1:1228",
+  "web:STATUS_CHAT1:1255",
+  "web:STATUS_CHAT1:1243",
+  "web:STATUS_CHAT1:1251",
+  "web:STATUS_CHAT1:1252",
+  "web:STATUS_CHAT1:1256"
  ]
 }

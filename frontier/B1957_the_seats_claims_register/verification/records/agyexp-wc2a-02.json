@@ -1,0 +1,19 @@
+{
+ "id": "agyexp-wc2a-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its answer on the two involutions. ON MAIN (checks/agyexp_older_notes.py, O2): the word's matrix is [[20, 13], [3, 2]], of determinant 1, fixing the mark (1, 2) modulo 5; F = [[-1, 6], [0, 1]] and -F are involutions of determinant -1 that carry it to its inverse; exactly one of the two negates the mark and the other fixes it. ONE CONVENTION TO SETTLE: the note says F negates the mark; that is so when the mark is acted on as a row, and with the column action its words name, F fixes the mark and -F negates it. The count, one of two, is the same either way, and the corrected sentence of its theorem stands. NOT COMPUTED: the actions on the peripheral torus and on the pair (fibre mark, base longitude), and the consequence for the four mixed lines",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:47",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:51",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:53",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:54",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:55",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:56",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:60",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:61",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:62",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:63"
+ ]
+}

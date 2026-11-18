@@ -5,19 +5,8 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wh1-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 12: branch-versus-seat-list comparison not mentioned in the ground; 25: \"aged past 21 days 0, mirror lag 0\" not in the ground; 29: the pin exception (the seat's own branch behind) is not covered; 32: \"56 relays\" and \"last commit 2026-11-15\" not in the ground; 41: per-seat table row figures; 42: per-seat table row figures; 46: the \"38 not named by file\" list is not covered; 47: claim about ids recurring on the seat pages; 48: specific page-content claims (C13-C21, R80A, R80B, M45); 49: specific page-content claims; 51: \"eight of 28\" figure; 52: cross-page id recurrence; 54: claim about the instrument's --strict mode and ageing; not covered; 56: date ranges and the 114/38 figures",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:12",
   "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:25",
   "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:29",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:32",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:41",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:42",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:46",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:47",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:48",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:49",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:51",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:52",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:54",
-  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:56"
+  "web:CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE:32"
  ]
 }

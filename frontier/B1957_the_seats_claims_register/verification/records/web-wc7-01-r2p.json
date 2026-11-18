@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wc7-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 15: 2.8e-30 at three points is the sealed run's, not main's; 16: |cz+d|^4 transformation law and 2.8e-30 not in the ground",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REASON CORRECTED 2026-11-18 at the seat's row 158 (line 16): /cz + d/^4 law in B1913's run (l.4-5, 7-8); only the seat's 2.8e-30 not beaten. MAIN: verdict stands; the reason is corrected as the row says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:15",
   "web:CHAT1_TO_CC_2026-11-13_W-C7_B1913_RECOMPUTED_AND_THE_REST_HELD:16"

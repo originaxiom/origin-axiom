@@ -3,19 +3,20 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's check of main's M47, held against its sources on main. Its recount of the register (136 files, 6,552 statements, none pending; 1,801 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded, 4,293 noted) is SUMMARY.json at a5e967af9 figure for figure. Its rerun of main's 13 new and changed checks on a clean checkout: its output file read (nine identical, four differing only in residuals below 1e-12; the two seeded checks identical on two runs); its comparison script read as text and not run. ITS FINDING ABOUT MAIN'S INSTRUMENTS IS RIGHT AND IS MENDED: four of main's checks imported a sibling module without putting their own folder on the path and so failed in isolated mode; a sweep found six with that fault (the selection, scale-census, T-root and thread-table checks, an older check of the SM seat's lane, and the check written today); each now sets the path, and each run in isolated mode gives its committed run byte for byte. Its independent recomputation of main's refutation: its output read (the subregular sl2 gives 13 + 9 + 5, the regular 17 + 9 + 1, the minimal six doublets and fifteen trivial summands); the minimal case computed on main today, the other two are in checks/web_session_relay_f4.py. [The section as corrected after its two referee reads, at fc4b658c8: it now says the record item of section 8.2 was paid in part only (bronze's 56 non-split modules were not run: right, and run now, checks/web_section9_items.py, I3); that 39 of the 40 new superseded statements are its withdrawals and one was superseded by main in error (right: moved); and that it had not read main's scripts line by line. Each held against its source and right]",
- "note": "The seat withdraws step 3 of its session relay's route and the sentence that used it. Label for the seat's reruns of main's checks: reproduced. SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-st9-01-r2c, web-st9-01-r2n, web-st9-01-r2p; what stays is what its ground covers.",
+ "note": "The seat withdraws step 3 of its session relay's route and the sentence that used it. Label for the seat's reruns of main's checks: reproduced. SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-st9-01-r2c, web-st9-01-r2n, web-st9-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 79 (line 748): web_wc8_part5_bronze.py l.26-37 (run l.1-6): b1 = 1, cusp rank 1, twisted duality, both ticks, levels 1-3. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 80 (line 750): same run: failures without w golden 0/0/6, bronze 4/0/70. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 81 (line 752): review statement about main's record; right and acted on (web-wc8p5-01 note; web_section9_items.py I3, 56 of 56). MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 82 (line 772): review statement; main acted (web-sel-05 holds 338, 357). MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 83 (line 782): both clauses in main's records (web-sr-01 note; own note). MAIN: as the row says; main read the cited ground.",
  "units": [
   "web:STATUS_CHAT1:744",
-  "web:STATUS_CHAT1:759",
   "web:STATUS_CHAT1:774",
   "web:STATUS_CHAT1:781",
   "web:STATUS_CHAT1:747",
-  "web:STATUS_CHAT1:755",
-  "web:STATUS_CHAT1:757",
   "web:STATUS_CHAT1:762",
-  "web:STATUS_CHAT1:776",
   "web:STATUS_CHAT1:778",
   "web:STATUS_CHAT1:766",
-  "web:STATUS_CHAT1:769"
+  "web:STATUS_CHAT1:769",
+  "web:STATUS_CHAT1:748",
+  "web:STATUS_CHAT1:750",
+  "web:STATUS_CHAT1:752",
+  "web:STATUS_CHAT1:772",
+  "web:STATUS_CHAT1:782"
  ]
 }

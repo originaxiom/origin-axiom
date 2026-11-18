@@ -3,8 +3,6 @@
  "date": "2026-11-18",
  "verdict": "CONDITIONAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf18-01, verified. Read one by one against that record's ground, each rests on the seat's own run, on its referee's, on a planted control or on a cited result that main has not recomputed. What each rests on, by line: 148: \"Fix:\" proposal",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
- "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:148"
- ]
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. EVERY LINE OF THIS RECORD HAS MOVED (2026-11-18). It is kept, with no statement under it, for its ground.",
+ "units": []
 }

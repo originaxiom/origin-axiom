@@ -1,0 +1,19 @@
+{
+ "id": "agyexp-xown-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "item F2, the roof function and the three hypotheses of B1928. ON MAIN (checks/agyexp_older_notes.py, O8): in SL(2, F_5) the stabiliser of a point of order 5 up to sign has 10 elements at each of the 24 points, weight 1/12, and the walk by the two letters has second largest eigenvalue modulus sqrt(3)/2; B1928's page carries the seat's correction of where the return time blows up (at the switch between two long runs, and it vanishes at the two fixed points), taken at Review 82. NOT ON MAIN: the seat's figures on the roof along two families of words, its check of the discriminant on 72 channels, the cusp-tail fractions, and the proof of the three hypotheses as it writes it (B1928 was upgraded on main's own account of them)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:49",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:50",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:51",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:52",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:53",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:54",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:55",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:56",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:57",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:23"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "physical-mag-07",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its statement of the mode count by Riemann-Roch on an elliptic curve (a cited standard theorem, not recomputed)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:64"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "id": "agyexp-r79b-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its eight findings on main's mends (RF-01 to RF-08), the statement of each fault. ON MAIN: main's own answers to them (B1894's ANSWERS, rows 2X1 to 2X8) say of each that it held and was corrected: the verdict line that still said 'two at 11, 19, 29 and on'; another arc's convention misattributed in four places and in a verdict line (corrected, and corrected a second time in B1895 because the first correction used the wrong word); 'expectations written before the run' where one commit held everything; 'is reproduced' left in a second place; a script's header not changed with its behaviour; a script that rewrote a tracked file at every run of its lock; an arc's page silent on the same-day replacement of four of its rules. RF-01's arithmetic is recomputed: x^2 - x - 1 has four roots modulo 209 (checks/agyexp_older_notes.py, O11). NOT RE-READ HERE: each quoted line at the commit the seat read (its quotations were checked by machine at the review)",
+ "note": "",
+ "units": [
+  "agy-exp:REVIEW_79B_AGY-EXP:45",
+  "agy-exp:REVIEW_79B_AGY-EXP:55",
+  "agy-exp:REVIEW_79B_AGY-EXP:65",
+  "agy-exp:REVIEW_79B_AGY-EXP:75",
+  "agy-exp:REVIEW_79B_AGY-EXP:85",
+  "agy-exp:REVIEW_79B_AGY-EXP:95",
+  "agy-exp:REVIEW_79B_AGY-EXP:105",
+  "agy-exp:REVIEW_79B_AGY-EXP:117"
+ ]
+}

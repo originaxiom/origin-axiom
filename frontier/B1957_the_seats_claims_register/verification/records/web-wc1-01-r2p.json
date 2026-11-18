@@ -6,8 +6,6 @@
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:12",
-  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:31",
-  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:46",
-  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:48"
+  "web:CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2:31"
  ]
 }

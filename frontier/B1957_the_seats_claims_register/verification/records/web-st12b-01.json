@@ -3,11 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_section12_corrected.py, with main's records read after its changes of 2026-11-18. The seat's check of M50 and M51 is right, its corrections included: the closing line of its section 9.2 had not been taken though a record of main's said so (web-st9-03, corrected); Review 84's mends to its lane are five; the residual of the volume ratio is -4.2e-45 in main's own run. EACH OF ITS EIGHT RECORDS IS AS IT SAYS, and each is taken: the lines it names carry the marks it says in its own notes (11 of 11), and none of the 19 units it names stands under a verified record any more (web-wf24-03r, web-wa3-03r, web-view-02r, web-wf17-04r and -04p, web-wb2-d1-05r, web-wz1-04p, web-wa2-05r; web-st9-03's note). The line it leaves to main's judgement (W-A3's 145) is made partial (web-wa3-07r), with main's law of the same day on where level 25 is needed",
- "note": "Five of the eight were taken in the landing of the same morning from the section's first version; the other three (W-F17's lines 244, 263 and 266; W-Z1's 59 and 106; W-A2's 112, 114 and 187) and the correction of web-st9-03 are taken now. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-st12b-01-r2n, web-st12b-01-r2p; what stays is what its ground covers.",
+ "note": "Five of the eight were taken in the landing of the same morning from the section's first version; the other three (W-F17's lines 244, 263 and 266; W-Z1's 59 and 106; W-A2's 112, 114 and 187) and the correction of web-st9-03 are taken now. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-st12b-01-r2n, web-st12b-01-r2p; what stays is what its ground covers. NARROWED 2026-11-18 at the seat's section 15.2, item 2: units 1052 and 1124 are moved to web-st12b-01s, superseded by the seat's own section 13.4. RESTORED at the seat's row 300 (line 1059): web_section9_items.py l.47, run l.1 \"56 modules ... on 56 of them\"; same run backs l.1062 (kept). MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:1039",
   "web:STATUS_CHAT1:1041",
-  "web:STATUS_CHAT1:1052",
   "web:STATUS_CHAT1:1062",
   "web:STATUS_CHAT1:1067",
   "web:STATUS_CHAT1:1071",
@@ -19,7 +18,7 @@
   "web:STATUS_CHAT1:1114",
   "web:STATUS_CHAT1:1117",
   "web:STATUS_CHAT1:1120",
-  "web:STATUS_CHAT1:1124",
-  "web:STATUS_CHAT1:1127"
+  "web:STATUS_CHAT1:1127",
+  "web:STATUS_CHAT1:1059"
  ]
 }

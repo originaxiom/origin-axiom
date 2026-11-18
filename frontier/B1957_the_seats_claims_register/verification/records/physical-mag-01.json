@@ -1,0 +1,23 @@
+{
+ "id": "physical-mag-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the note's algebra, each line recomputed on main (checks/physical_c8_magnetic.py, G1 to G3 and G9; the lane ran no code): the block's commutators; a line of curvature B = 6 pi/A_T has degree 3; on the harmonic profile the linear curvature and the gauge divergence both vanish; the frozen path's curvature (B - t^2 |f|^2/2) C and its potential (4), in canonical form (5) with the tangent's norm iota/(2 g^2), the mass being -2B; on the path with the Cartan response the curvature (8), with R_f Hermitian and orthogonal to C; the energy (9); its quartic (10), g^2/(iota A_T), free of the direction; and the sextic's density (11), 2 iota |beta|^2 |f|^2. What the verdict covers: the algebra of a supplied construction on a chosen compact torus. Not: that the construction is the programme's, its complete cusp, or a vacuum; the lane says the same, and counts no input removed.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:22",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:33",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:111",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:116",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:118",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:121",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:124",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:127",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:157",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:161",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:163",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:166",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:169",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:186"
+ ]
+}

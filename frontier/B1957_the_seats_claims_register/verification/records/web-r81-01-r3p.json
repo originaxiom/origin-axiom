@@ -1,0 +1,10 @@
+{
+ "id": "web-r81-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-r81-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 104 (line 36): \"With '16 of 16' planted there, it passes\" is the seat's plant; B1898 test l.269 checks \"14 of 14\" in STATUS_OF_THE_57.md; \"15 lines of quotation\" not in ground. MAIN: as the row says.",
+ "units": [
+  "web:REVIEW_81_CHAT1:36"
+ ]
+}

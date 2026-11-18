@@ -1,0 +1,18 @@
+{
+ "id": "physical-mag-11",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the lane's hand derivation of the stabiliser's effect: the allocation of spin and holonomy; stationarity of the family q0 = v T; the mass shift 2 v^2 q_T^2 from the kinetic term (its arithmetic is consistent with the norms main computed, the term itself is the parent's); the bound (4) on the fermion operator; and its constraint that a commuting parallel field which leaves a flux-three fermion massless leaves that root's negative mass in place. Read in full; not rebuilt on main",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:41",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:50",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:58",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:67",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:83",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:97",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:101",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:103",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:119"
+ ]
+}

@@ -31,3 +31,6 @@ for name in ("physical_boundary_outputs", "physical_endgame_outputs"):
     rest = [p for p in paths if p not in compared]
     print("%s: %d leaf keys in the lane's file; held against main's recomputation: %d; not compared: %d" % (name, len(paths), len(compared), len(rest)))
     for p in rest: print("    not compared: %s" % p)
+    grp = {}
+    for p in compared: grp[p.split("/")[2]] = grp.get(p.split("/")[2], 0) + 1          # ADDED 2026-11-18: the compared keys by the result file's own groups (the lane's reply to M12 counts them so)
+    print("    compared, by group: %s" % ", ".join("%s %d" % kv for kv in grp.items()))

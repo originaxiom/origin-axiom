@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "§ 3.2, each part recomputed: the count 2 of 32 over the list now named (record web-wa1-11); the two measures behind '0.17 to 0.72' (record web-wa1-03); the withdrawal of 0.76, with main's figures in its place (record web-wa1-09)",
- "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-rv-05-r2n, web-rv-05-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-rv-05-r2n, web-rv-05-r2p; what stays is what its ground covers. RESTORED at the seat's row 176 (line 210): lead \"'0.17 to 0.72' mixes two measures\" states a finding; web-wa1-03's ground says the same; web_wa1_h2.py:16 (run 1-4) computes both. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 177 (line 220): passing triples (2, 1, -1), (3, -1, -1): web_wa1_reps.py:34-35, run lines 1-2; web-wa1-11's ground names both. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:209",
   "web:STATUS_CHAT1:212",
@@ -11,6 +11,8 @@
   "web:STATUS_CHAT1:218",
   "web:STATUS_CHAT1:223",
   "web:STATUS_CHAT1:225",
-  "web:STATUS_CHAT1:226"
+  "web:STATUS_CHAT1:226",
+  "web:STATUS_CHAT1:210",
+  "web:STATUS_CHAT1:220"
  ]
 }

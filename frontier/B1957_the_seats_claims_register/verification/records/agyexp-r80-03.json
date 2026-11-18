@@ -1,0 +1,24 @@
+{
+ "id": "agyexp-r80-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "its fourteen one-line checks of the targets where it found nothing (scope notes present, guards exercised, counts matching, the congruence indices of B734 recomputed by it): its own reading and runs on main's files",
+ "note": "",
+ "units": [
+  "agy-exp:REVIEW_80_AGY-EXP:284",
+  "agy-exp:REVIEW_80_AGY-EXP:286",
+  "agy-exp:REVIEW_80_AGY-EXP:287",
+  "agy-exp:REVIEW_80_AGY-EXP:288",
+  "agy-exp:REVIEW_80_AGY-EXP:289",
+  "agy-exp:REVIEW_80_AGY-EXP:290",
+  "agy-exp:REVIEW_80_AGY-EXP:291",
+  "agy-exp:REVIEW_80_AGY-EXP:292",
+  "agy-exp:REVIEW_80_AGY-EXP:293",
+  "agy-exp:REVIEW_80_AGY-EXP:294",
+  "agy-exp:REVIEW_80_AGY-EXP:295",
+  "agy-exp:REVIEW_80_AGY-EXP:296",
+  "agy-exp:REVIEW_80_AGY-EXP:297",
+  "agy-exp:REVIEW_80_AGY-EXP:298",
+  "agy-exp:REVIEW_80_AGY-EXP:299"
+ ]
+}

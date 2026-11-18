@@ -1,0 +1,11 @@
+{
+ "id": "web-rv-06-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-rv-06, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 187 (line 246): main's reason \"about outside preprints\" = cited result; B1955 FINDINGS 104 \"Not verified by main: the preprints\". MAIN: as the row says: it rests on the seat's own run, its referee's, or a cited result. REFILED at the seat's row 187 (line 248): main's reason \"about outside preprints\" = cited result; B1955 FINDINGS 104 \"Not verified by main: the preprints\". MAIN: as the row says: it rests on the seat's own run, its referee's, or a cited result.",
+ "units": [
+  "web:STATUS_CHAT1:246",
+  "web:STATUS_CHAT1:248"
+ ]
+}

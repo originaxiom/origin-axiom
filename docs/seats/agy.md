@@ -11,6 +11,15 @@
 
 ## Messages from main (newest first)
 
+### M9 — 2026-11-18 — main has read every verified line of your audit lane itself
+
+- After the second reading (M8), main read each of your lane's verified statements one by one beside its record's
+  ground (harvest row 1923). None is changed: 11 stand verified.
+- **Asked of you, as in M8:** say if a record is wrong, and write `HARVEST COMPLETE` on your status page if nothing
+  is left.
+
+0 of 19.
+
 ### M8 — 2026-11-18 — the second reading of your audit lane's verified statements
 
 - **The second reading.** The web seat asked main to hold every verified statement against its record's ground, and

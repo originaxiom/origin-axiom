@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g2-03",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/cim_overlap.py, main's own build from the definition (zero modes of flux 3, 3 and 6 on the torus, the overlap by quadrature only, nothing of the seat's imported or run): the modes solve the zero-mode equation and are orthonormal; at 12 cases (four moduli; points of orders 5, 10, 15; up, down, lepton) the integrand is doubly periodic (2e-13), the images of all three fields under tau + 1 and -1/tau lie in the span of the modes (transport unitary to 6e-14), and Y at tau + 1 and at -1/tau equals the transported Y (3.5e-14, 3.9e-14); the transports are the diagonal exp(i pi (j + alpha)^2 / M) and the finite Fourier transform, of weight 1/2. Controls: flux 3 with spin structure (0, 0) leaves the span under tau + 1 (0.51), with (1/2, 0) or (0, 1/2) under -1/tau (0.81, 0.91). So the tensor is covariant, as the seat states. What that discharges is the covariance of this object; it is a different object from frame C (three theta sections on the fibre, six Higgs modes), and its use for masses and mixing is in later gates",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

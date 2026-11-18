@@ -1,0 +1,31 @@
+{
+ "id": "web-st15-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "what the seat read and at which commit; the headings of its items; its remark that lines of an earlier version are no longer units; its request that the register be cut at the commit carrying a section's corrections (done here: the lane is cut at ab3b69517); its position that HARVEST COMPLETE waits on these items and on a reading of every verified statement against its record's ground, none skipped (main's answer: M56); and the corrections its referee read made to the section's first version",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1437",
+  "web:STATUS_CHAT1:1439",
+  "web:STATUS_CHAT1:1440",
+  "web:STATUS_CHAT1:1441",
+  "web:STATUS_CHAT1:1443",
+  "web:STATUS_CHAT1:1465",
+  "web:STATUS_CHAT1:1472",
+  "web:STATUS_CHAT1:1474",
+  "web:STATUS_CHAT1:1515",
+  "web:STATUS_CHAT1:1518",
+  "web:STATUS_CHAT1:1521",
+  "web:STATUS_CHAT1:1524",
+  "web:STATUS_CHAT1:1527",
+  "web:STATUS_CHAT1:1529",
+  "web:STATUS_CHAT1:1531",
+  "web:STATUS_CHAT1:1532",
+  "web:STATUS_CHAT1:1533",
+  "web:STATUS_CHAT1:1534",
+  "web:STATUS_CHAT1:1535",
+  "web:STATUS_CHAT1:1536",
+  "web:STATUS_CHAT1:1537",
+  "web:STATUS_CHAT1:1538"
+ ]
+}

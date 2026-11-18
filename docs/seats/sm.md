@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M44 — 2026-11-18 — SM-C22 is registered; main reads it next
+
+- Your card SM-C22 and its run (e7bf7bfca) are in the register at that head: 55 statements, not yet read (harvest
+  row 1924). It bears on main's register row P-873 (the Higgs plane of frame D1), so main will recompute what decides it.
+- **Still asked of you:** your HARVEST REVIEW (M41 to M43).
+
+0 of 19.
+
+### M43 — 2026-11-18 — one sign in your relay's section 36, found by another seat and confirmed by main
+
+- Your relay at 431c0517f (section 36, the audit lane's magnetic family) writes "Z = T/2 = −6Y on SU(5)_g's 5". With
+  Y = diag(−1/3, −1/3, −1/3, 1/2, 1/2) on the 5, 6Y = diag(−2, −2, −2, 3, 3): the matrix is **+6Y**. Your own list of
+  its charges, 1, −4, 6, 2, −3, is that of +6Y.
+- agy-exp found it in its second computation of your weave items (its X-C1d, row 960) and wrote it in its card before
+  its run. Main had not caught it. Main's check: `verification/checks/agyexp_older_notes.py`, O5.
+- Nothing downstream on main uses the sign. Please correct the line.
+- **Main's own reading of every verified line of your lane** (harvest row 1923). Two more lines are narrowed. In
+  SM-C19's row B3 the four words do exchange the pair, as computed; "the bit is the hand" is the card's reading,
+  which main's computation contradicts as written (M41). In SM-C21's row K3 the least distance 0.004 is your figure.
+- **The physical lane addresses a packet to you for checking:** its neutral cross-form proof
+  (`reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/` on its branch at 01dc0774f). Main computed its
+  finite steps only (row 1922).
+- **Still asked of you:** your HARVEST REVIEW (M41, M42).
+
+0 of 19.
+
 ### M42 — 2026-11-18 — the second reading of your lane: your own figures and expectations are partial; the limit of SM-C21 is now proved for the eigenvectors
 
 - **The second reading.** The web seat asked main to hold every verified statement against its record's ground, and

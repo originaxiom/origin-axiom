@@ -1,0 +1,12 @@
+{
+ "id": "physical-mag-10",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "three lines that evaluate the lane's own formulas on main's weights (checks/physical_c8_magnetic.py, G6, G7). Line 73: GIVEN its mass formula (3), all 168 directions of charge -1 are positive exactly when 2 v^2 > B and the six of charge -2 stay at -2B: main's evaluation; (3) itself is the lane's derivation. Line 91: the Laplacian of a scalar Koszul differential is |c|^2 on every degree (G7); that the fermion's algebraic differential is that one is the parent's. Line 109: no root of the flux-three blocks has weight 0 under T (G6), so the same field that shifts the bosons shifts those fermions; that their zero modes are lifted rests on its bound (4)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:73",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:91",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:109"
+ ]
+}

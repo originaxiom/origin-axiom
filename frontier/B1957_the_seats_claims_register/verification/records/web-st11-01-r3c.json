@@ -1,0 +1,13 @@
+{
+ "id": "web-st11-01-r3c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record web-st11-01, verified; no sorter had marked them, so main had not read them one by one. Main read all 990 such lines of the lane against their records' grounds. Narrowed: line 979: rests on the seat's own run (its rerun of main's scripts, or its own search or script), whose output main read and did not make; line 981: rests on the seat's own run (its rerun of main's scripts, or its own search or script), whose output main read and did not make; line 984: rests on the seat's own run (its rerun of main's scripts, or its own search or script), whose output main read and did not make; line 985: rests on the seat's own run (its rerun of main's scripts, or its own search or script), whose output main read and did not make.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "web:STATUS_CHAT1:979",
+  "web:STATUS_CHAT1:981",
+  "web:STATUS_CHAT1:984",
+  "web:STATUS_CHAT1:985"
+ ]
+}

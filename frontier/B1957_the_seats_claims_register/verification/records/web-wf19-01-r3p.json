@@ -1,0 +1,10 @@
+{
+ "id": "web-wf19-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wf19-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 405 (line 158): \"(n(V), h1(G; V)) is the table's on every doublet, row by row\": n(V) per doublet, h1 only through census totals (web_wf19_on_main.py l.37-41; run l.1-7). MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:158"
+ ]
+}

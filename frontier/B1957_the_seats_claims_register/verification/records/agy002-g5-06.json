@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g5-06",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g5.py (E): the matter modes' transport does not depend on the Wilson line (9e-15; it cannot, the modes being functions of z + zeta); Y(xi + 1) and Y(xi + tau) are Y(xi) times the phases named (4e-15, 1.5e-14); the Gramian over the 24 points contracted with v_6(tau) is covariant under tau + 1 and -1/tau for Delta = 2 and -6 (7.5e-15, 7e-14) with eigenvalues 2.859, 3.069, 3.171 (spread 0.31), and is not for Delta = -1 with one lift of each point (2.0, 3.0); averaged over the nine clock-and-shift matrices, or traced over all six Higgs modes, it is a multiple of the identity (4e-16, 0); the plain sum's ratios move by 0.07 under tau + 1. Main adds: each contracted matrix has rank one (the six modes at a point reproduce the product of the matter sections there), so this Gramian is that of 24 evaluation vectors; and for odd Delta it becomes covariant once the four lifts of each point are included (8e-15, 1e-14), with eigenvalues 2.93, 3.04, 3.06 for the down quark's Delta",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

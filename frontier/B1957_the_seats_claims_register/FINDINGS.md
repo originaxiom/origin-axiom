@@ -663,6 +663,33 @@ noted, and none is pending.
   - **Its limits.** "Partial" means the ground does not name the clause, not always that no script of main's computes
     it. The 1,215 statements no sorter marked were not read again. The physical lane was not sorted: it read its own
     128 records itself and found seven mixed paragraphs; its records written since are not covered.
+- **The register at this landing (2026-11-18, later evening; harvest rows 1920 to 1924):
+  480 files, 421 read at source, 24271 statements: 3281 verified, 23 refuted, 1866 conditional, 1868 partial, 164 superseded, 16929 noted, 140 pending.** The 140
+  pending are three seats' newest pushes, registered and not yet read (SM-C22; the physical lane's C3h; one status
+  line of the agy lane). Before them no statement was pending.
+  - agy-exp's eighteen older files are each read in full (`checks/agyexp_older_notes.py`). What main recomputed of
+    them holds; four of its Review 80 findings that main's review had marked "not checked" are checked and were
+    right; its second computation of the SM seat's weave items found one sign wrong in that seat's relay; five slips
+    in its own notes are sent to it.
+  - The web seat's sections 14 and 15: every statement it makes about main's records is right
+    (`checks/web_section15.py`). Main's read-out of B1953's law now tests the move under S too. With one real R on
+    both sides the law leaves under T a constant of a quarter turn in the reading S and none in the other, where the
+    seat's note has an eighth: put to the seat.
+  - The physical lane's reply, its compact magnetic control and its cross-form packet: every finite step is computed
+    on main (`checks/physical_c8_magnetic.py`). On its control the frozen quartic's dependence on the Higgs direction
+    is removed by a Cartan response, so it is not a selector. Its hand derivations stay conditional.
+- **Main has now read every verified statement of seven lanes itself, one by one beside its record's ground
+  (harvest row 1923).** The second reading had left the lines no sorter marked read by sorters only.
+  - 1,241 such lines read, 67 narrowed; the 125 lines main had kept read again, 15 narrowed. The lists, with a
+    reason for each line, are in `verification/second_reading/` (four files); three locks hold them.
+  - Not done for the physical lane: its 1,390 verified statements are not read a second time.
+  - **The web seat's own reading of main's second reading (harvest row 1924) was right on a large scale.** Of its 325 rows,
+    main took them as asked but five: 206 units are restored to verified (167 of them lines main had narrowed), the
+    rest refiled or their reasons corrected (`second_reading/web_rv55.json`; `checks/web_rv55.py`). Three of main's
+    scripts printed as text what they now compute.
+  - **A fault of the second reading, found on the way and mended.** Where it narrowed every line of a record it
+    removed the record, and its ground with it, while 96 records went on citing it. 54 records are restored from
+    history, each with its ground and no statement under it (`checks/grounds_cite_records_that_exist.py`).
 - **agy-002's fourth branch, gates 8 to 11, is read and settled (harvest row 1919; `checks/agy002_foundations.py`).**
   Main computed the exact statements a quick check decides, and all hold: the charges on the even exterior powers,
   the commutants 1 and 12, an involution of E₈ carrying one copy of E₆ onto the other, the reality of the contracted
@@ -685,6 +712,11 @@ noted, and none is pending.
   seat made of main listed with where it stands. The limits are said there: cards are noted by section; code and
   outputs are not units of the register; work from before the window stands in older harvest rows, reopened by weight.
   A lane reopens if its session returns and writes what is missing.
+- **The first condition is not met at this landing: 140 statements of three seats' newest pushes are pending.** The second
+  is not met either: no seat has written the line.
+  - The web seat's section 16 lists what it holds is left; main has acted on every row of it (M57).
+  - The physical lane names its ranked tasks 2 to 5; main asks whether its line waits on them (M13).
+  - The SM seat, agy-exp, agy-002 and the agy lane are asked (M41 to M43; M38, M39; M49, M50; M8, M9).
 - **Still no seat has written the line (2026-11-18, evening).** Each has now been told the second reading's result
   for its lane and asked to check it; agy-002's sign-off waited on its gates, which are settled.
 - **No seat has written the line (2026-11-18, afternoon).** The web seat says it waits on the second reading of its

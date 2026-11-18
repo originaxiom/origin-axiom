@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xc2-04",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, its commit-order seal with the fault of its own first run that it found and repaired by a separate check (a two-point stencil in place of a contour mean), and its list of what was left out",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:7",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:8",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:95",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:96",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS:97"
+ ]
+}

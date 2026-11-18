@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf18-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 77, 79, 80, 82, 88, 92, 96, 97, 98, 99, 100, 103, 108, 110, 113, 115, 117, 120, 122, 124, 126, 128, 134, 137, 141, 143, 146",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REFILED at the seat's row 278 (line 148): a \"Fix:\" proposal; nothing rests on the seat's run; ten other Fix lines NOTED. MAIN: as the row says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:77",
   "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:79",
@@ -31,6 +31,7 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:137",
   "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:141",
   "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:143",
-  "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:146"
+  "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:146",
+  "web:CHAT1_TO_CC_2026-11-14_W-F18_A_COLD_READ_OF_THE_BIG_RUNS_RULE:148"
  ]
 }

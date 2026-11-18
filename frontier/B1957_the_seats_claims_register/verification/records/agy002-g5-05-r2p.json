@@ -1,0 +1,10 @@
+{
+ "id": "agy002-g5-05-r2p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "SECOND READING, 2026-11-18, changed the same day: main had kept these lines of record agy002-g5-05 verified and narrowed them at its own second look: line 24: the commutator, the periodicity and the split are computed on main; the row's bounds (2e-16, 1e-15, 1e-35, 10^7) are the seat's own runs' and main's residuals do not beat them.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "agy-002-closure:AGY002_CLOSURE_G5_RESULTS:24"
+ ]
+}

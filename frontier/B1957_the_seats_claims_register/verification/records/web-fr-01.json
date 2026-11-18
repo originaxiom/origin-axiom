@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the bound the note proves, and the facts about the theta triplet it uses, on main (checks/web_first_row_bound.py; no mixing matrix is formed and no measured value appears). For u, v in C^n with sigma(w) = |w.w|/|w|^2 the overlap |<u, v>|^2/(|u|^2 |v|^2) is at most (1 + sigma_u sigma_v + sqrt((1 - sigma_u^2)(1 - sigma_v^2)))/2: the note's proof holds (complex conjugation is an isometry of the Fubini-Study metric and the triangle inequality gives the rest); on 300,000 random pairs in C^2, C^3 and C^5 the largest excess is 3e-16, 300 maximisations reach no excess, and the sharp pairs attain it to 4e-16 on an 11 by 11 grid. An isotropic direction against a real one overlaps by at most one half. The theta triplet is isotropic at every tau (Jacobi; 1e-31 at eight points) and its largest overlap with a real unit vector is one half there; at tau = i the two hand values are 1/2 and 3/8",
- "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-fr-01-r2n, web-fr-01-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-fr-01-r2n, web-fr-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 354 (line 56): Jacobi isotropy gives theta2^4 + theta4^4 = theta3^4, hence 1/2 on tau = iy; web_first_row_bound.py l.13; run l.4-5. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:chat1_2026-10-14_the_first_row/FINDINGS:72",
   "web:chat1_2026-10-14_the_first_row/FINDINGS:73",
@@ -14,6 +14,7 @@
   "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:23",
   "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:25",
   "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:26",
-  "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:27"
+  "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:27",
+  "web:chat1_2026-10-14_the_first_row/PREREGISTRATION:56"
  ]
 }

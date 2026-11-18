@@ -3,14 +3,12 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf17-04, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 85: ideal equals phi_m(p)-p for m<=3 (T1) not mentioned; 125: predicted line counts 0,1,1,1,4,5 over C not in the ground; 127: claim about what the sealed check compared, not covered; 136: \"count at m=6 as predicted\" not specified in the ground; 232: E0 identity checked at m=1 to 7; the ground covers m=1 to 6; 237: gcd-of-minors curve construction not covered; 251: E0 at m=1 to 7 against the ground's m=1 to 6",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REASON CORRECTED 2026-11-18 at the seat's row 334 (line 125): counts in main's run (l.11-16: vertical parts 0, 1, 1, 1, 2, 5; m = 5 pair four lines over C by the ground); only gcd(S_{m-1}, S_m - 1) not main's. MAIN: verdict stands; the reason is corrected as the row says.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:85",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:125",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:127",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:136",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:232",
-  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:237",
   "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:251"
  ]
 }

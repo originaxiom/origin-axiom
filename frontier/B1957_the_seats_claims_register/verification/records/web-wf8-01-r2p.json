@@ -3,9 +3,8 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf8-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 28: GL(n-1,Z) claim and h1h1^-1 control not in the ground; 44: x3 image, exponential-growth claim, word-length remark not covered",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REASON CORRECTED 2026-11-18 at the seat's row 448 (line 44): run l.9-11 \"x_3 -> [-1, -1, 1]\" and x_k fixed k >= 4; only growth/word-length remark uncovered. MAIN: verdict stands; the reason is corrected as the row says.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:28",
   "web:CHAT1_TO_CC_2026-11-14_W-F8_THREE_DISTINCTIONS_AGAINST_N:44"
  ]
 }

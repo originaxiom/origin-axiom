@@ -1,0 +1,17 @@
+{
+ "id": "physical-mag-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "eight paragraphs where main computes the arithmetic and the lane supplies the rest (checks/physical_c8_magnetic.py). Line 65: the Wilson Cartan is traceless with the weights stated (G9); that three such choices are one background is, as it says, not shown. Lines 76 and 82: the commutator, the trace and the canonical factor sqrt(2) g/sqrt(iota A_T) are main's (G1, G9); the kinetic factors and the cubic are the parent's. Line 129: the mass -2B is main's (G2, G9); 'a saddle and a condensation duty' is its reading. Line 152: the order-t^2 curvature is constant and there is no order t^4 (G3); that this solves the Cartan normal equation at that order is not computed. Line 171: the quartic equals (1/2)(2 e_C)^2 for the e_C it names (G3); that e_C is the normalised Cartan coupling is the parent's. Line 176: the frozen term I4 - 1/A_T is absent on the response path and nonnegative (G3); that this is an adverse control for selecting a direction by the frozen overlap is its judgement, and one main shares (register row P-873 claims no selection). Line 215: twelve negative directions with masses -B and -2B by the trace identity (G4, G9); the count of modes on each line is Riemann-Roch on an elliptic curve, which main's script takes as given",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:65",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:76",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:82",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:129",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:152",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:171",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:176",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE:215"
+ ]
+}

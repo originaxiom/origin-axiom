@@ -1,0 +1,11 @@
+{
+ "id": "agy002v-m37-02-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record agy002v-m37-02, verified; no sorter had marked them. Main read every such line of the lane against its record's ground. Narrowed: line 16: 0.117 and 0.00189 are main's; 0.110, with the seat's own error, is its figure; line 19: 0.119 and 0.00232 are main's; 0.112, with the seat's own error, is its figure.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:16",
+  "agy-002-verify:AGY002_TO_CC_2026-11-15_M37_A2_CANON_T90_COMPARISON_AND_CUSP_CHECK:19"
+ ]
+}

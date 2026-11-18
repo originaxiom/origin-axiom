@@ -1,0 +1,17 @@
+{
+ "id": "agyexp-ph4-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the report's header and seal, and its account of its architecture and guardrails",
+ "note": "",
+ "units": [
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:3",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:55",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:56",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:57",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:58",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:59",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:60",
+  "agy-exp:self_consistent_loop/reports/phase4_unification_cap_lepton_report:61"
+ ]
+}

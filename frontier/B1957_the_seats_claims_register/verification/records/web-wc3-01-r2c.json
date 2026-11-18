@@ -1,0 +1,11 @@
+{
+ "id": "web-wc3-01-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wc3-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 217 (line 78): the seat's implementation detail (Hamilton-product ordering). MAIN: as the row says: it rests on the seat's own run, its referee's, or a cited result. REFILED at the seat's row 225 (line 121): random SL(2, Q) control is the seat's planted control. MAIN: as the row says: it rests on the seat's own run, its referee's, or a cited result.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:78",
+  "web:CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS:121"
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g2-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g2.py and checks/cim_overlap.py: the bundle's monodromy minus one is [[1, 1], [1, 0]] of determinant -1, so the fibre contributes nothing and H_2 and H^2 of the figure-eight complement vanish (already on main's record); the three balances the row names (fluxes 3 + 3 - 6, the spin structures, the Wilson lines) are exactly the conditions under which main's rebuilt integrand is doubly periodic, and each one, broken, breaks it (controls C2, C3, C4)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

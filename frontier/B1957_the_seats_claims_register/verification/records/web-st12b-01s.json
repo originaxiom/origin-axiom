@@ -1,0 +1,11 @@
+{
+ "id": "web-st12b-01s",
+ "date": "2026-11-18",
+ "verdict": "SUPERSEDED",
+ "how": "two lines of the corrected section 12 that the seat has since withdrawn: 'web-wf1-01 needs nothing' (withdrawn in its section 13.4, which found W-F1's line 55 short) and item 8's 'its items are 1 and 2 above', which rests on it. Named by the seat in its sections 14.1 and 15.2 (checks/web_section15.py, Y2 and Y4)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1052",
+  "web:STATUS_CHAT1:1124"
+ ]
+}

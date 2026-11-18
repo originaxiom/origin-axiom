@@ -1,0 +1,26 @@
+{
+ "id": "web-st16-03",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the seat's own reading of the 1,961 formerly verified units, by eight readers through its mask, and its referee read's sample: its own runs, whose list main read row by row (records web-rv55-01 to -06)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1557",
+  "web:STATUS_CHAT1:1558",
+  "web:STATUS_CHAT1:1559",
+  "web:STATUS_CHAT1:1561",
+  "web:STATUS_CHAT1:1563",
+  "web:STATUS_CHAT1:1565",
+  "web:STATUS_CHAT1:1567",
+  "web:STATUS_CHAT1:1568",
+  "web:STATUS_CHAT1:1570",
+  "web:STATUS_CHAT1:1571",
+  "web:STATUS_CHAT1:1573",
+  "web:STATUS_CHAT1:1575",
+  "web:STATUS_CHAT1:1592",
+  "web:STATUS_CHAT1:1651",
+  "web:STATUS_CHAT1:1652",
+  "web:STATUS_CHAT1:1653",
+  "web:STATUS_CHAT1:1654"
+ ]
+}

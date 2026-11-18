@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g6-05",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "main reproduces all five planted cases of the first computation on its own code (checks/agy002_g6.py and the 243-history run): the rotated orthonormal sum is basis-dependent by construction; the swapped column gives 1/3; six generations shift 1/alpha_3 by 17.825; the Bloch-Wigner sum vanishes at an asymmetric z, as it does at every z; the -24 case is the factor verified at the primary source (record physical-f12-01). The second computation's figures are for its own instances",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

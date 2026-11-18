@@ -1,0 +1,11 @@
+{
+ "id": "web-wa1-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wa1-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 293 (line 35): \"m = 2\" not in main's run; web_wa1_rest.py run l.1 gives k in [3] for c = 1; reader's own check: m = 2 at c = 4. MAIN: as the row says. REFILED at the seat's row 294 (line 44): exp(2 pi i Y) = diag(...), det 1, Z6 clause printed nowhere; D4 prints only 9 + 4 - 1 = 12 (run l.5); main narrowed Z6 at l.61. MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:35",
+  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:44"
+ ]
+}

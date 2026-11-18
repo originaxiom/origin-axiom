@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-b36-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its verdict on main's B1936 and its three structural points. ON MAIN: B1936 states its second part as a condition (parity consistency would fix the Higgs world), and by the lock above a Higgs sharing the matter half's parity gives the world (up S~, down S, lepton S) and the opposite rule gives the other, for either sign of 6Y. NOT ON MAIN: that the premise is exactly one bit and equivalent to its conclusion (the seat's reading, which main's page does not dispute); its remark on main's wording 'matter's kernels' against the Dirac kernel's two charges (taken: a wording point for B1936); its pointer to its own S4",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:11",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:40",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:42",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:43",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:46",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ:49"
+ ]
+}

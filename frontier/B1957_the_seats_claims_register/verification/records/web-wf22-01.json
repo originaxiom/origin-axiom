@@ -2,8 +2,8 @@
  "id": "web-wf22-01",
  "date": "2026-11-18",
  "verdict": "VERIFIED",
- "how": "checks/web_wf22_on_main.py (exact enumeration; and main's own B1922 routine `deviations` at three lines): L1, of the 266 lines of order at most 12, gamma fixes up to sign exactly three, the trivial one, (1/5, 2/5) and (2/5, 4/5); gamma^2 fixes 7 (orders 1, 3, 5: 1, 4, 2); gamma^3 fixes 18 (orders 1, 2, 4, 5, 10). L2, gamma and gamma^2 are not in Gamma^0(2) and gamma^3 = [[13, 8], [8, 5]] is the identity mod 2. O1 to O3 on main's own frame: at the own line S and S~ repeat after one turn to 3.1e-10, 9.8e-10, 7.8e-5 and S* does not (2.7, 1.5, 2.7): B1922's own table; AT THE OTHER FIXED LINE (1/5, 2/5) S and S~ repeat too, to 7.7e-11, 8.2e-10, 5.7e-5, with S* at 3.2, 1.8, 4.9: the seat's figures; at (1/5, 3/5) every reading deviates (2.3 to 5.1). SO THE SEAT'S CORRECTION OF MAIN IS RIGHT: B1922's sentence 'and not at any other line' was false, and Review 82's item 12 holds",
- "note": "B1922's FINDINGS carries a dated correction of this date. The fault had stood since 2026-11-14 with the seat's note received and not read in full: a case of what the author asked about. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-wf22-01-r2n, web-wf22-01-r2p; what stays is what its ground covers.",
+ "how": "checks/web_wf22_on_main.py (exact enumeration; and main's own B1922 routine `deviations` at three lines): L1, of the 266 lines of order at most 12, gamma fixes up to sign exactly three, the trivial one, (1/5, 2/5) and (2/5, 4/5); gamma^2 fixes 7 (orders 1, 3, 5: 1, 4, 2); gamma^3 fixes 18 (orders 1, 2, 4, 5, 10). L2, gamma and gamma^2 are not in Gamma^0(2) and gamma^3 = [[13, 8], [8, 5]] is the identity mod 2. O1 to O3 on main's own frame: at the own line S and S~ repeat after one turn to 3.1e-10, 9.8e-10, 7.8e-5 and S* does not (2.7, 1.5, 2.7): B1922's own table; AT THE OTHER FIXED LINE (1/5, 2/5) S and S~ repeat too, to 7.7e-11, 8.2e-10, 5.7e-5, with S* at 3.2, 1.8, 4.9: the seat's figures; at (1/5, 3/5) every reading deviates (2.1 to 5.1 over the three readings; S and S~ by 2.3 to 3.4) [CORRECTED 2026-11-18: this ground said '2.3 to 5.1', the range of S and S~ with S*'s largest; the seat's '2.1 to 5.1' is main's own run, line O1]. SO THE SEAT'S CORRECTION OF MAIN IS RIGHT: B1922's sentence 'and not at any other line' was false, and Review 82's item 12 holds",
+ "note": "B1922's FINDINGS carries a dated correction of this date. The fault had stood since 2026-11-14 with the seat's note received and not read in full: a case of what the author asked about. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-wf22-01-r2n, web-wf22-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 397 (line 37): every figure in ground and run; 1e-6 the seat's bound; main's 5.7e-5 shows \"not met\" (run l.4). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 398 (line 53): web_wf22_on_main.py l.2, l.18 (action (a - b, 2b - a)); run l.1 two non-trivial fixed classes among 266. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 399 (line 58): run l.1: up to sign exactly one other non-trivial line. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:30",
   "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:31",
@@ -15,6 +15,9 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:46",
   "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:52",
   "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:55",
-  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:56"
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:56",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:37",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:53",
+  "web:CHAT1_TO_CC_2026-11-14_W-F22_B1922S_NEGATIVE_HALF_RECOMPUTED:58"
  ]
 }

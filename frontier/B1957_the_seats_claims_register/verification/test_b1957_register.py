@@ -56,10 +56,63 @@ def test_the_second_readings_decisions_are_the_records_verdicts():
     want = {"K": "VERIFIED", "N": "NOTED", "C": "CONDITIONAL", "P": "PARTIAL"}
     for name in ("web.json", "others.json"):                                                       # the second list (the other lanes) added the same day
         L = json.loads((HERE / "second_reading" / name).read_text())
-        assert len(L["units"]) == L["candidates"] == sum(L["decisions"].values()) and L["decisions"]["K"] < L["candidates"] // 4      # most candidates were narrowed
+        assert len(L["units"]) == L["candidates"] == sum(L["decisions"].values()) and L["decisions"]["K"] < L["candidates"] // 2      # most candidates were narrowed [2026-11-18: the bound was a quarter; the web seat's own reading showed 194 narrowed lines of its lane to be computed by main's own scripts and arcs, and they are restored, so its kept are 284 of 950]
         for x in L["units"]:
             o = owner.get(x["unit"]); assert o and len(o) == 1, x["unit"]
             assert o[0][1] == want[x["decision"]], (x["unit"], o)
             assert o[0][0] == x["record"] if x["decision"] == "K" else o[0][0] == "%s-r2%s" % (x["record"], x["decision"].lower()), (x["unit"], o)
         # the check can fail: a narrowed statement put back under its parent is caught by the rule above
         x = next(y for y in L["units"] if y["decision"] == "P"); assert owner[x["unit"]][0][0] != x["record"]
+
+
+def test_every_verified_statement_of_the_web_lane_was_read_by_main_one_by_one():
+    """added 2026-11-18 at the web seat's section 15.3: the list of the unmarked lines main read, against the records; and that
+    no statement of the lane stands verified without having been read by main beside its record's ground"""
+    import collections
+    V = pathlib.Path(__file__).resolve().parent; L = json.loads((V / "second_reading" / "web_unmarked.json").read_text()); M = json.loads((V / "second_reading" / "web.json").read_text())
+    owner = collections.defaultdict(list)
+    for q in (V / "records").glob("web-*.json"):
+        d = json.loads(q.read_text())
+        for u in d.get("units", []): owner[u].append((d["id"], d["verdict"]))
+    want = {"P": "PARTIAL", "N": "NOTED", "C": "CONDITIONAL"}; narrowed = {x["unit"] for x in L["units"]}
+    assert L["read"] == len(L["read_units"]) == 990 and narrowed <= set(L["read_units"]) and 0 < len(narrowed) < L["read"] // 10 and L["kept"] == L["read"] - len(narrowed)
+    for x in L["units"]:
+        home = x["record"] if x.get("whole_record") else "%s-r3%s" % (x["record"], x["decision"].lower())
+        assert owner[x["unit"]] == [(home, want[x["decision"]])], x["unit"]
+    read = (set(L["read_units"]) - narrowed) | {x["unit"] for x in M["units"] if x["decision"] == "K"} | {e["unit"] for e in json.loads((V / "second_reading" / "web_rv55.json").read_text())["entries"] if e["main"] == "V"}
+    unread = [u for u, o in owner.items() if o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(("web-st14-", "web-st15-", "web-st16-", "web-rv55-"))]
+    assert unread == [], unread[:3]
+    assert any(x["decision"] == "P" for x in L["units"]) and owner[next(x["unit"] for x in L["units"] if x["decision"] == "P" and not x.get("whole_record"))][0][1] != "VERIFIED"   # a narrowed line is not verified
+
+
+def test_every_record_a_ground_cites_exists_and_no_companion_is_without_its_parent():
+    """added 2026-11-18: the second reading removed 54 parents with their grounds while other records cited them; restored.
+    A cited id must exist (two replaced records are named as history); a companion's parent must exist."""
+    import re
+    V = pathlib.Path(__file__).resolve().parent; R = V / "records"; ids = {q.stem for q in R.glob("*.json")}
+    replaced = {"web-wa2-05r", "web-wz1-04"}; assert not (replaced & ids)
+    pat = re.compile(r"\b(?:%s)-[a-z0-9]+(?:-[a-z0-9]+)*-\d+[a-z]?(?:-r[23][pnc])?\b" % "|".join(map(re.escape, sorted({i.split("-")[0] for i in ids}))))
+    cited = set()
+    for q in R.glob("*.json"):
+        d = json.loads(q.read_text()); cited |= set(pat.findall(d.get("how", "") + " " + d.get("note", "")))
+    assert len(cited) > 500 and cited - ids <= replaced, sorted(cited - ids)[:5]
+    assert pat.findall("see web-wa1-02 and agy002-g2-03-r2p") == ["web-wa1-02", "agy002-g2-03-r2p"]                      # the pattern does find ids
+    comp = [i for i in ids if re.search(r"-r[23][pnc]$", i)]; assert len(comp) > 300 and all(re.sub(r"-r[23][pnc]$", "", i) in ids for i in comp)
+
+
+def test_the_other_lanes_verified_statements_were_each_read_by_main():
+    """added 2026-11-18: the six other lanes of the second reading: every statement verified now was either marked and kept
+    (others.json) or read among the unmarked (others_unmarked.json)"""
+    import collections
+    V = pathlib.Path(__file__).resolve().parent; L = json.loads((V / "second_reading" / "others_unmarked.json").read_text()); M = json.loads((V / "second_reading" / "others.json").read_text())
+    lanes = ("agy-002-verify:", "agy-002-endgame:", "agy-002-closure:", "agy-exp:", "agy-audit:", "sm:"); owner = collections.defaultdict(list)
+    for q in (V / "records").glob("*.json"):
+        d = json.loads(q.read_text())
+        for u in d.get("units", []): owner[u].append((d["id"], d["verdict"]))
+    want = {"P": "PARTIAL", "N": "NOTED", "C": "CONDITIONAL"}; narrowed = {x["unit"] for x in L["units"]}
+    assert L["read"] == len(L["read_units"]) > 200 and narrowed <= set(L["read_units"]) and len(narrowed) == len(L["units"]) > 0
+    for x in L["units"]: assert owner[x["unit"]] == [("%s-r3%s" % (x["record"], x["decision"].lower()), want[x["decision"]])], x["unit"]
+    read = (set(L["read_units"]) - narrowed) | {x["unit"] for x in M["units"] if x["decision"] == "K"}
+    since = ("agyexp-xsv-", "agyexp-f3n-", "agyexp-b36-", "agyexp-wc2a-", "agyexp-xcan-", "agyexp-c1-", "agyexp-xc2-", "agyexp-xc3-", "agyexp-xms-", "agyexp-xown-", "agyexp-xnv-", "agyexp-p781-", "agyexp-ph4-", "agyexp-r79b-", "agyexp-r80-")
+    unread = [(u, o) for u, o in owner.items() if u.startswith(lanes) and o[0][1] == "VERIFIED" and u not in read and not o[0][0].startswith(since)]
+    assert unread == [], unread[:3]

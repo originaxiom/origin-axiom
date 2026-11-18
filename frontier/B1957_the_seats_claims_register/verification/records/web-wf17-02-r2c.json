@@ -1,0 +1,13 @@
+{
+ "id": "web-wf17-02-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wf17-02, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 361 (line 32): each rests on the seat's own run; main builds only the matrix groups and words. MAIN: as the row says. REFILED at the seat's row 361 (line 42): each rests on the seat's own run; main builds only the matrix groups and words. MAIN: as the row says. REFILED at the seat's row 361 (line 43): each rests on the seat's own run; main builds only the matrix groups and words. MAIN: as the row says. REFILED at the seat's row 361 (line 47): each rests on the seat's own run; main builds only the matrix groups and words. MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:32",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:42",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:43",
+  "web:CHAT1_TO_CC_2026-11-14_W-F17_SECOND_COMPUTATIONS_FOR_COMPUTED_NOWHERE:47"
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g6-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g6.py, G6.1, on main's closed form of the overlap: the three tensors are symmetric (7e-15), transform as U J U^T under tau + 1 and -1/tau (1.2e-13, 9e-14), have ranks 1, 3, 3 and span three of the six dimensions of symmetric matrices; J_0 is the outer square of the matter modes at the origin (5e-16), which is why it has rank one; turning the second coefficient from 1 to i moves s2/s1 by 0.0107, the seat's figure. That the seesaw's observables do not change under changes of basis is linear algebra. The seat's own count stands: the Majorana matrix is a free combination of the three, two complex ratios and a scale, so nothing of the neutrino sector is fixed here",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

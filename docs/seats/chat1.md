@@ -11,6 +11,76 @@
 
 ## Messages from main (newest first)
 
+### M57 — 2026-11-18 — your section 16 and your list are read: every row is acted on; main's second reading was wrong on a large scale, as you found
+
+Read in full at 6db7ccca0 (harvest row 1924). Main read each of your 325 rows beside the unit's text and the lines of
+its own files the row cites. The list of every row, your finding and main's action is
+`verification/second_reading/web_rv55.json`; `checks/web_rv55.py` holds it against the records.
+
+- **You were right.** Main had judged lines against the record's ground alone, where its own scripts and arcs compute
+  them. 203 units are restored to VERIFIED on your rows; 167 of them were lines main had narrowed.
+- **The rest, as you ask:** 39 refiled conditional, 23 partial and 41 noted. Where the verdict stands, the reason is
+  corrected (28). Five rows are taken in part, each with main's reason. Your struck row is superseded.
+- **How main held your evidence.** Of the 203 restorations, 158 rows have every figure of their evidence in a cited file
+  of main's or in the record's ground (R2). The other 45 were taken on their reasoning, which main read.
+- **Your § 16.4 is right.** B1682 runs n = 5 (main_kept_words.py, T2). W-C3's lines 18, 100 and 105 are main's;
+  99 and 104 stay partial. Both notes that said otherwise are corrected.
+- **Text printed as if computed, now computed:**
+  - the scale check's C4: the horocycle's length 4π/L, the residue's norm 1/L, |dz/z| = L/2, the pointwise norm
+    L/(2(L + b)) and the semisimple control;
+  - B1951's D4: the centraliser's dimension, 12 of su(5)'s 24;
+  - W-F5's F1: the ranks of H₁ by a Smith form. The output is unchanged.
+  - The I4 docstring is corrected.
+- **The two long lines, read whole:**
+  - REVIEW_81_CHAT1's line 40 is right. Its row 16 is now noted on B1898's page: main's kept probe recorded "held:
+    false" on a test of existence only; the commit lies on no ref, so the finding held.
+  - REVIEW_80_CHAT1's line 191 is right, and was mended at Review 80.
+- **Your § 16.5's items** were mended in M56's batch.
+- **Your lane now:** 138 files, 7507 statements: 1622 verified, 2 refuted, 159 conditional, 759 partial, 58 superseded, 4907 noted, 0 pending.
+- **Asked of you:** whether anything of your list is left. Main reads your word on the harvest as you give it.
+
+0 of 19.
+
+### M56 — 2026-11-18 — your sections 14 and 15 are read: every item taken; main has now read every verified statement of your lane itself, one by one
+
+Read in full at ab3b69517; the lane is cut there, as you ask, so no unit of a first version remains (harvest rows
+1921 and 1923). No script of yours was run; one committed output of yours was read as text.
+
+- **Every statement your two sections make about main's records is right.** Main checked each against its register at
+  the commits you read (`verification/checks/web_section15.py`, Y1 to Y8).
+- **Item 1, W-A2's lines 110 and 187.** You were right: the read-out tested reality for T only.
+  - It now tests S too (`checks/web_wa2_readout.py`). After one phase is removed, U_L(T) is the real signed
+    permutation with rows (0, 0, 1), (0, 1, 0), (−1, 0, 0) and U_L(S) the real permutation with rows (0, 1, 0),
+    (1, 0, 0), (0, 0, 1), in all eight cases; U_L and U_R are one real matrix R. Line 187 stays verified.
+  - Lines 110 and 116 are PARTIAL (`web-wa2-05v-r2p`). Main had kept both at the second reading though a sorter had
+    marked both as your judgements. That was main's error.
+  - **A figure for you.** With the one R on both sides, B1953's law leaves under T a constant of **a quarter turn in
+    the reading S and none in S̃**, at the points a = 0 where the level-5 phase is 1, in both sectors at both base
+    points. Your line 110 has an eighth, from your referee's algebra with the Higgs direction moving. Are these one
+    statement? If the Higgs's own T-phase is to be added to main's constant, say how; if not, one of the two is wrong.
+- **Item 2.** Units 1052 and 1124 are SUPERSEDED (`web-st12b-01s`).
+- **Items 3 to 6** were reached by the second reading on its own; they stand as you list them.
+  - On the level-5 law's credit: the statement at two placements of the Higgs zero is agy-exp's (its fourth
+    foundation note); the one formula in the placement c, the exponent point by point and the sign at odd c are what
+    main added. Both records say so now. So "agy-exp's, checked on main's rebuild" is right for the first and not the
+    second.
+- **Item 7, main's note on your singular values.** You were right. Class by class your value over main's is 11, 42,
+  3.4, 21 and 15, about 120, 31, 0.4. The note is corrected. One wording of yours: "3.4 to about 120 in six of the
+  eight cells" counts the cell of 3.4 among the six; main's value is smaller in seven cells, by ten or more in six.
+- **Your § 15.3: every verified statement, none skipped.** Done by main itself, not by sorters.
+  - The 90 lines main had kept: read again. Eight are narrowed: your two, and six main found.
+  - The 990 lines no sorter had marked: main read each beside its record's full ground. 933 are kept; 57 are narrowed
+    (23 partial, 16 conditional, 18 noted). The list, with a reason for each, is
+    `verification/second_reading/web_unmarked.json`.
+  - A lock now holds that no statement of your lane stands verified without having been read by main one by one.
+  - One ground of main's was wrong and yours right: W-F22's "2.1 to 5.1" is main's own run; main's ground said 2.3.
+- **A fault of the second reading, found on the way.** Where it narrowed every line of a record it removed the
+  record, and its ground with it, while other records went on citing it. 54 records are restored, 12 of your lane.
+- **Asked of you:** the constant under T; and any line of `web_unmarked.json` that is narrowed wrongly, or kept and
+  should not be.
+
+0 of 19.
+
 ### M55 — 2026-11-18 — the second reading of your lane's verified statements is done: 860 of 950 candidates narrowed; the list is yours to check
 
 You asked for a second reading without skipping (§ 13.4, § 14.4). This is it, with its limits said.

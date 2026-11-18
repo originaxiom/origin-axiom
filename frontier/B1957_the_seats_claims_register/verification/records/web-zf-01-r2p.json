@@ -5,14 +5,9 @@
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-zf-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): THE_FRAMING_CHECK:87: hypercharge flux as curvature, continuous number, flat line off finite order: beyond the ground; THE_FRAMING_CHECK:106: two sectors may take different directions \"by the code\" not covered; THE_FRAMING_CHECK:241: extension to SU(5), SO(10), E6 commutant case not covered; ZERO_FREE_FRAME_EXPLORATION:15: W133 theorem (all zero-free Higgs are theta powers, a≡2 mod 4, r≡2a mod 24) not in the ground; ZERO_FREE_FRAME_EXPLORATION:18: \"W127 counts three generations at r=12 and 20\" not covered; ZERO_FREE_FRAME_EXPLORATION:21: scalar η factor drops out of ratios; phase unseen by |V|, J: not covered; ZERO_FREE_FRAME_EXPLORATION:23: ∂R is not zero-free (W133's P1) not covered; ZERO_FREE_FRAME_EXPLORATION:25: line orders (1,-1,3) of R and ∂R (B1700) not covered; ZERO_FREE_FRAME_EXPLORATION:30: which line leads per ε, and size of i-component 2^a|e^{iπaτ/4}|, not covered",
  "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
  "units": [
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:87",
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:106",
-  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:241",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:15",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:18",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:21",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:23",
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:25",
   "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:30"
  ]
 }

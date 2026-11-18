@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_wc8_part1_on_main.py (main's own code; and main's B1925 holds the same law): the normaliser of <LR> searched with entries to 12 has 44 elements, each of the form +-J^n K^e, in 8 classes modulo <LR>, with J^2 = LR, K^2 = -1 and K J K^-1 = -J^-1; at the mark (the line of (1, 2) mod 5) J acts by 3 and K by 2, and the hand of +-J^n K^e is (-1)^(n+e), the control (-1)^n failing; for m = 1 to 12, N = m^2 + 4 and the Smith form of A_m + 1 is diag(gcd(m, 2), N/gcd(m, 2)), so a line of order N sent to its opposite exists exactly for odd m; for odd m the mark is the line of (m, 2), on which J_m acts by lam = m/2 mod N (3, 8, 17, 30, 47, 68) with lam^2 = -1 and K by -lam; the search with entries to 30 finds the normaliser of <A_m> in the same eight classes for m = 1 to 5",
- "note": "The seat's note was a second computation of main's tick-parity law; this is main's recomputation of the note's own additions (the metallic table and the search). SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-wc8p1-01-r2n, web-wc8p1-01-r2p; what stays is what its ground covers.",
+ "note": "The seat's note was a second computation of main's tick-parity law; this is main's recomputation of the note's own additions (the metallic table and the search). SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-wc8p1-01-r2n, web-wc8p1-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 444 (line 24): docs/handoffs/MAIN_TO_WEB_2026-11-13/tick_parity.py l.36-40; run l.4 \"(-1)^(n+e): True\". MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 445 (line 25): same, l.41; run l.5 \"J alone ... exchanges the mark's pairs: True\"; chat1.md 963-966. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 446 (line 27): tick_parity run l.4-5; web_wc5_on_main.py C1 (run l.1) det X e = (-1)^(n+e) on eight classes; chat1.md 962. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:19",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:20",
@@ -14,6 +14,9 @@
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:45",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:46",
   "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:50",
-  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:51"
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:51",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:24",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:25",
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_1_THE_TICK_PARITY_AND_THE_METALLIC_TICKS:27"
  ]
 }

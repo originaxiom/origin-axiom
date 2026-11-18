@@ -1,0 +1,10 @@
+{
+ "id": "physical-mag-13",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the sender note's formula for the energy on the response path, as in the proof (checks/physical_c8_magnetic.py, G3)",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:47"
+ ]
+}

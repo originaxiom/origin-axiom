@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g7b-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g7.py, G7B.2: d/dx [K_2(x)/x^2] = -K_3(x)/x^2 symbolically; main's Bessel sum for the slope of branch A equals -(7 pi^2)/(1440 L^5) - (19/(2 pi^2 L^2)) times the integral of ln(1 + exp(-4 L cosh t)) cosh(3t) to 2e-16 at L = 1/5, 1, 3, and both terms are negative for every L: so the slope is negative on the whole half-line for the seat's tower (28 net massless modes, 76 net twisted bosons at one mass), as scoped. The contour statements hold because the tensor is an entire function of the Wilson line (record agy002-g5-02); main did not repeat the contours",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

@@ -3,14 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the cusp statement, derived by the seat and checked by main: the metric identity (with w = exp(2 pi i z), the form on the punctured disc is the hyperbolic metric on the cusp) by hand; the norm and the integral reduce to the tail of exp(-(a - 2n) t) t^(a - 2), finite exactly when a - 2n > 0, or a = 2n and a <= 0; as a bound on n that is n <= b(a) with b(a) = (a - 1)//2 for a >= 1 and a//2 for a <= 0, checked as an exact condition on the grid -40 to 40, where the control a//2 differs exactly at the even a >= 2; numerically at the boundary 2n = a the partial integrals converge for a = -4, -2, 0 and grow for a = 2, 4 (checks/web_wc5_on_main.py C3). The same criterion is settled in the agy audit lane's record (agyaudit-cross-04)",
- "note": "The seat's own numerical grid lost four points to rounding and says so; main's check of the rule is exact in integers and does not depend on that grid. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-wc5-02-r2c, web-wc5-02-r2n, web-wc5-02-r2p; what stays is what its ground covers.",
+ "note": "The seat's own numerical grid lost four points to rounding and says so; main's check of the rule is exact in integers and does not depend on that grid. SECOND READING 2026-11-18: 3 line(s) this record held are moved to its companions web-wc5-02-r2c, web-wc5-02-r2n, web-wc5-02-r2p; what stays is what its ground covers. RESTORED at the seat's row 84 (line 45): \"the ratio is 1\" is the identity the ground verifies by hand (:41, :43 kept). MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 86 (line 70): web_wc5_on_main.py l.32-34 (run l.4) exact on -40..40: finite at even a -8..0, infinite 2..8, control differing at even a >= 2. MAIN: as the row says; main read the cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:41",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:43",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:47",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:49",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:51",
-  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:53",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:55",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:57",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:58",
@@ -18,6 +17,8 @@
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:61",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:64",
   "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:65",
-  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:67"
+  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:67",
+  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:45",
+  "web:CHAT1_TO_CC_2026-11-13_W-C5_B1914_B1915_AND_THE_CUSP:70"
  ]
 }

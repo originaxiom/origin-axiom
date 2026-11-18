@@ -36,3 +36,30 @@ for (tx, ty) in WO.BASES:
             rows.append((tx, sec, rd, max(lt["residual"], ls["residual"]), perm(A), perm(B), [int(np.argmax(r)) for r in A], [int(np.argmax(r)) for r in B], proj_order(UT), proj_order(US), proj_order(US @ UT), group_order([UT, US]), bool(real_signed), max(lr(lt), lr(ls))))
 for r in rows: print("base %s %-4s %-2s: law residual %.1e; |U_L(T)|, |U_L(S)| permutations: %s, %s (rows -> columns %s, %s); projective orders of T, S, ST: %s, %s, %s; group generated, up to phases: %d; U_L(T) real signed up to one phase: %s; |U_L - c U_R| at most %.1e" % r)
 print("all eight cases: orders (4, 2, 3): %s; group order 24: %s" % (all(r[8:11] == (4, 2, 3) for r in rows), all(r[11] == 24 for r in rows)))
+
+
+# ---- ADDED 2026-11-18 (the web seat's section 15.2, item 1): the first read-out tested reality for U_L(T) only, and for S only
+# that |U_L(S)| is a permutation, which cannot tell a real U_L(S) from a complex one.  Here: U_L(S) too is a real signed
+# permutation up to one phase; with the phases removed U_L and U_R are ONE real matrix R (one sign for both); and, with that
+# one R on both sides, the constant phase the law leaves under T at the points a = 0, where the level-5 phase is 1.
+def realise(U):
+    ph = U[np.abs(U) > 0.5]; R = U / (ph[0] / abs(ph[0])); return R, float(np.abs(R.imag).max())
+more = []
+for (tx, ty) in WO.BASES:
+    for sec in ("down", "up"):
+        Ys, _ = WO.images(tx, ty, sec)
+        for rd in ("S", "St"):
+            got = {}
+            for gen in ("T", "S"):
+                l = WO.law(Ys["t"][rd], Ys[gen][rd], gen); RL, imL = realise(l["UL"]); RR, imR = realise(l["UR"])
+                if np.abs(RL - RR).max() > 1e-6: RR = -RR
+                tr = next(t for t in WO.TRANS[gen] if (lambda Zm, Y: np.abs(Y - (np.vdot(Zm, Y) / np.vdot(Zm, Zm)) * Zm).max() / np.abs(Y).max() < 1e-8)(RL @ Ys["t"][rd][t(*WO.PTS[0])] @ RR.T, Ys[gen][rd][WO.PTS[0]]))
+                turns = sorted({round(float(np.angle(np.vdot(RL @ Ys["t"][rd][tr(*w)] @ RR.T, Ys[gen][rd][w])) / (2 * np.pi)) % 1, 6) % 1 for w in WO.PTS if w[0] == 0})
+                got[gen] = (max(imL, imR), float(np.abs(RL - RR).max()), RL.real.round(0).astype(int).tolist(), turns, bool(np.abs(np.abs(RL.real) - np.abs(RL.real).round(0)).max() < 1e-8))
+            more.append((tx, sec, rd, got))
+for tx, sec, rd, g in more:
+    print("base %s %-4s %-2s: after one phase is removed, U_L(T) = %s and U_L(S) = %s, imaginary parts at most %.1e, entries 0 and +-1: %s, %s; U_R is the same real matrix to %.1e; with it on both sides the constant under T at the points a = 0 is %s of a turn"
+          % (tx, sec, rd, g["T"][2], g["S"][2], max(g["T"][0], g["S"][0]), g["T"][4], g["S"][4], max(g["T"][1], g["S"][1]), ", ".join("%.4f" % t for t in g["T"][3])))
+print("all eight cases: U_L(S) a real signed permutation up to one phase: %s; U_L = U_R = one real R: %s" % (all(g["S"][0] < 1e-8 and g["S"][4] for *_, g in more), all(max(g["T"][1], g["S"][1]) < 1e-8 for *_, g in more)))
+print("the constant under T with one real R on both sides: reading S %s, reading St %s (turns; the web seat's note W-A2, line 110, has one eighth, from its referee's algebra with the Higgs direction moving)"
+      % (sorted({t for _, _, rd, g in more if rd == "S" for t in g["T"][3]}), sorted({t for _, _, rd, g in more if rd == "St" for t in g["T"][3]})))

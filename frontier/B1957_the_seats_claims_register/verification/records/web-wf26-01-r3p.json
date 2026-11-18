@@ -1,0 +1,11 @@
+{
+ "id": "web-wf26-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wf26-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 143 (line 30): \"at heights 6 and 8\" not in ground; main compares at 8 and 12 only (web_wf26_on_main.py l.37). MAIN: as the row says. REFILED at the seat's row 144 (line 45): \"5e-6 to 2e-5 at the mark\" at 12: main 2.6e-6 to 2.0e-5 (run l.1-4). MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:30",
+  "web:CHAT1_TO_CC_2026-11-15_W-F26_THE_CUSPS_MIXING_IN_EVERY_OPTION:45"
+ ]
+}

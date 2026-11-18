@@ -1,0 +1,14 @@
+{
+ "id": "physical-mag-14",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the sender note's summary, each figure of which main computes (checks/physical_c8_magnetic.py, G2 to G6) and each physical clause of which is the lane's: the mass -2B of the six-mode band; a frozen quartic proportional to the integral of |f|^4, and a quartic g^2/(iota A_T) through the response; twelve negative directions in the block and, over all of E8, dimensions 134, 56, 56, 1, 1 with 168 + 6 negative directions; a cocharacter with no zero weight on the 56 that vanishes on the root of charge two",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:33",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:39",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:50",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:57",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:66"
+ ]
+}

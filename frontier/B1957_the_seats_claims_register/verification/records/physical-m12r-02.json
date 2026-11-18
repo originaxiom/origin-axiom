@@ -1,0 +1,11 @@
+{
+ "id": "physical-m12r-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "two paragraphs on the actual background: the identity i s E - i [A_spin, E] = 0 for A_spin = s H/2 and [H, E] = 2E is main's (checks/physical_c8_magnetic.py, G9), with the factor of two it says must be carried; that the pair rebuilt in main's check is exactly its construction's pair of principal triples is its word on its own construction",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:21",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:85"
+ ]
+}

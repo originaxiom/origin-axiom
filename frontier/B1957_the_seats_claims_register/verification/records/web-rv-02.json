@@ -3,7 +3,7 @@
  "date": "2026-11-17",
  "verdict": "VERIFIED",
  "how": "the items of § 1a the seat marks covered are covered as it says (records web-wa1-01, -02; B1955's class_is_a_choice.py). The four it marks as not on main are now recomputed on main (checks/web_review.py, checks/web_wa1_reps.py): R2, conjugation by each Weil representation moves the Weyl operators by a linear map of F_5^2, and the identification with W-A1's map is diag(1, 4) for the conjugate, diag(1, 3) = the inverse of the seat's diag(1, 2) for the other class, and the swap for the labelling Z^a X^b, each for both T and S and unique up to a scalar, its determinant a square exactly within the class; R3, the five flux-5 modes pick up zeta^(j^2) under tau + 2 (8e-16) and mix under -1/tau by sqrt(-i tau) psi(-jk)/sqrt 5 (2e-15), the non-residue class; R4, the relabelling Y(a, b) -> zeta^(-ab) Y(a, b) removes both phases of frame C's down law (they vary by 0.2 and 0.4 of a turn before and 1e-16 after, both readings), so the down lines move as a permutation. The typing error it reports at W-A3's line 169 is the seat's own correction",
- "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-rv-02-r2c, web-rv-02-r2n, web-rv-02-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-rv-02-r2c, web-rv-02-r2n, web-rv-02-r2p; what stays is what its ground covers. RESTORED at the seat's row 248 (line 41): web_review.py R3 (l.56-64), run l.6: zeta^(j^2) under tau + 2 at 8.0e-16; main acted (as ST:38, :48 kept); how mislabels it \"the other seat's own script\". MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 249 (line 43): same R3, run l.6: psi(-jk)/sqrt 5 at 1.9e-15. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:27",
   "web:STATUS_CHAT1:29",
@@ -11,11 +11,11 @@
   "web:STATUS_CHAT1:35",
   "web:STATUS_CHAT1:36",
   "web:STATUS_CHAT1:38",
-  "web:STATUS_CHAT1:39",
   "web:STATUS_CHAT1:40",
   "web:STATUS_CHAT1:45",
-  "web:STATUS_CHAT1:47",
   "web:STATUS_CHAT1:48",
-  "web:STATUS_CHAT1:50"
+  "web:STATUS_CHAT1:50",
+  "web:STATUS_CHAT1:41",
+  "web:STATUS_CHAT1:43"
  ]
 }

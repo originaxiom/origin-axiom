@@ -1,0 +1,15 @@
+{
+ "id": "agyexp-xown-06",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, its seal chain with two fixes before any output, and the opening paragraph of its synthesis",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:7",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:8",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:9",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:10",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS:18"
+ ]
+}

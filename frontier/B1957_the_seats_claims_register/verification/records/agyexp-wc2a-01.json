@@ -1,0 +1,27 @@
+{
+ "id": "agyexp-wc2a-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "checks/agyexp_older_notes.py, O2, exact enumeration: the integer five-tuples of sum zero number 20, 30, 60, 60, 120, 40 at half-norm 1 to 6 (330) and 180, 150, 140, 130, 240, 180 at 7 to 12 (1,020), 1,350 in all to 12: the figure 1,020 in its theorem's summary was the upper band's subtotal, as it says and as the web seat's check found",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:12",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:21",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:23",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:24",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:27",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:28",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:29",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:30",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:31",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:32",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:33",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:36",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS:37"
+ ]
+}

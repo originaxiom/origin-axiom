@@ -1,0 +1,12 @@
+{
+ "id": "physical-mag-06",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "three lines where the counts are main's and the modes per root are not (checks/physical_c8_magnetic.py, G5): 56 x 3 = 168 at mass -B, 174 complex and 348 real directions in all, are main's arithmetic at degree 3q; that a line of degree 3q < 0 carries -3q transverse harmonic forms, each an independent negative direction for any flat factor, is Riemann-Roch and Hodge theory on an elliptic curve, which main's script takes as given (main's own frame has exactly 3 and 6 modes at these degrees)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:71",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:93",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:97"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "id": "web-st14-04",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "four lines of the section, each right in part. Line 1361: the lane's totals at 84fcf1e57 are main's (checks/web_section15.py, Y1), and the count of 7,531 units; that every id, form, kind and hash matches is the seat's own recut. Line 1375: W-A3's line 145 is partial as it says and the exponents 17 + 9c and 5 + 9c modulo 5 are those of main's check (checks/agyexp_x_foundation.py, F5); the law it calls agy-exp's is agy-exp's at two placements and main's as one formula in c (see web-st13-02's note). Line 1395: its bound on the imaginary parts, 2.3e-15, is its own figure; main's largest at the same base point prints as 2.3e-15, equal to two figures and not shown to be below. Line 1399: of the five lines of W-A2 it says are main's, 112, 114 and 187 are (187 since the read-out tests S); line 110's form is and its factor is not, as it says; line 116 main holds partial too, its level 8 not being read out (web-wa2-05v-r2p)",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1361",
+  "web:STATUS_CHAT1:1375",
+  "web:STATUS_CHAT1:1395",
+  "web:STATUS_CHAT1:1399"
+ ]
+}

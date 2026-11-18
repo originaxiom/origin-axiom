@@ -1,0 +1,10 @@
+{
+ "id": "web-wf4-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wf4-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 416 (line 20): \"i = 0, 1, 2\" but N1 checks h0, h1 and interior classes only, not h2 (web_wf4_on_main.py l.9, l.136; cohom l.92-111). MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F4_THE_NON_ORIENTABLE_CLOSING:20"
+ ]
+}

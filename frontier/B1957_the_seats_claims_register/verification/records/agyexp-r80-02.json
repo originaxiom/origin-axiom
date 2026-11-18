@@ -1,0 +1,33 @@
+{
+ "id": "agyexp-r80-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its two derivations on B1895. ON MAIN: both were recomputed by main at the review (B1898, b1895_probes): the swapped-mark recipe agrees on 120 of 120 matrices at the two marks that annihilate their own line and on 88 of 120 at each of the other four; over the primitive cyclic run sequences the least reading is the all-ones' sqrt(5)/2 and the second least the all-twos' sqrt 2. The seat's proofs (a bilinear duality between a row's line and its annihilator; an enclosure of the two continued-fraction tails and a split by the largest run) are read and found right by hand. NOT ON MAIN: its word-level counts (989 of 1,332; 342)",
+ "note": "",
+ "units": [
+  "agy-exp:REVIEW_80_AGY-EXP:39",
+  "agy-exp:REVIEW_80_AGY-EXP:43",
+  "agy-exp:REVIEW_80_AGY-EXP:44",
+  "agy-exp:REVIEW_80_AGY-EXP:45",
+  "agy-exp:REVIEW_80_AGY-EXP:46",
+  "agy-exp:REVIEW_80_AGY-EXP:47",
+  "agy-exp:REVIEW_80_AGY-EXP:48",
+  "agy-exp:REVIEW_80_AGY-EXP:49",
+  "agy-exp:REVIEW_80_AGY-EXP:51",
+  "agy-exp:REVIEW_80_AGY-EXP:52",
+  "agy-exp:REVIEW_80_AGY-EXP:53",
+  "agy-exp:REVIEW_80_AGY-EXP:54",
+  "agy-exp:REVIEW_80_AGY-EXP:55",
+  "agy-exp:REVIEW_80_AGY-EXP:56",
+  "agy-exp:REVIEW_80_AGY-EXP:60",
+  "agy-exp:REVIEW_80_AGY-EXP:61",
+  "agy-exp:REVIEW_80_AGY-EXP:62",
+  "agy-exp:REVIEW_80_AGY-EXP:65",
+  "agy-exp:REVIEW_80_AGY-EXP:66",
+  "agy-exp:REVIEW_80_AGY-EXP:67",
+  "agy-exp:REVIEW_80_AGY-EXP:69",
+  "agy-exp:REVIEW_80_AGY-EXP:70",
+  "agy-exp:REVIEW_80_AGY-EXP:71",
+  "agy-exp:REVIEW_80_AGY-EXP:73"
+ ]
+}

@@ -3,8 +3,11 @@
  "date": "2026-11-18",
  "verdict": "NOTED",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-zf-01, verified. Read one by one against that record's ground, they are not statements a computation decides: headings, lead-ins, definitions, lists of files, status and provenance rows, or the seat's own readings, judgements, proposals and requests (the last are answered where the parent record says). Lines: 24",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REFILED at the seat's row 303 (line 87): points to § 5 \"[READING, informed]\"; note typed \"A READING\" (l.3). MAIN: as the row says. REFILED at the seat's row 304 (line 106): § 1 \"[READING, from the code]\"; first sentence is D5. MAIN: as the row says. REFILED at the seat's row 305 (line 241): row of § 5 \"[READING, informed]\". MAIN: as the row says.",
  "units": [
-  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:24"
+  "web:chat1_2026-10-23_zero_free_frame/ZERO_FREE_FRAME_EXPLORATION:24",
+  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:87",
+  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:106",
+  "web:chat1_2026-10-23_framing/THE_FRAMING_CHECK:241"
  ]
 }

@@ -1,0 +1,19 @@
+{
+ "id": "physical-read-m12",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "physical",
+ "how": "each read by main in full at 01dc0774f; the lane ran no code for them and main ran none of the lane's",
+ "files": [
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL.md",
+  "reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE.md",
+  "relays/PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE.md",
+  "relays/PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE.md",
+  "reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW.md",
+  "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE.md",
+  "reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES.md",
+  "relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md",
+  "relays/cards/PHYSICAL_C3G_EXISTING_CROSS_FORM_RELEVANCE_2026-11-18.md"
+ ]
+}

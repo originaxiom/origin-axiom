@@ -24,7 +24,7 @@
 | … “OWNER” | 0 |
 | … “DONE” | 538 |
 | … “DECLINED” | 12 |
-| harvest rows (the last number) | 1919 |
+| harvest rows (the last number) | 1924 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -64,7 +64,7 @@
 
 ## The latest campaign line
 
-“LATEST (2026-11-18, S306p, evening: THE SECOND READING DONE FOR SIX LANES, THE REGISTER'S VERIFIED COUNT FROM 4007 TO 2709; agy-002'S GATES 8 TO 11 SETTLED (B1957, OPEN; harvest rows 1918, 1919; P-865).** The register: 464 files, 23328 statements: 2709 verified, 23 refuted, 1513 conditional, 1699 partial, 159 superseded, 16388 noted, 837 pending (agy-exp's eighteen older files). **The second reading** is what the web seat asked for and Review 84's item R84-1: twelve read-only sorters read 2,638 verified statements beside their records' grounds and marked 1,423; main read each candidate and narrowed 1,298: 671 partial (the ground does not name a figure or a clause), 508 noted (headings, poin…”
+“LATEST (2026-11-18, S306p, later evening: MAIN HAS READ EVERY VERIFIED STATEMENT OF SEVEN LANES ITSELF, AND THE WEB SEAT'S OWN READING OF MAIN'S SECOND READING WAS RIGHT ON A LARGE SCALE; NO SEAT HAS YET WRITTEN HARVEST COMPLETE (B1957, OPEN; harvest rows 1920 to 1924; P-865, P-873).** The register: 480 files, 421 read at source, 24271 statements: 3281 verified, 23 refuted, 1866 conditional, 1868 partial, 164 superseded, 16929 noted, 140 pending; the pending are three seats' newest pushes, registered and not yet read. agy-exp's eighteen older files, the web seat's sections 14 to 16 and the physical lane's reply, compact magnetic control and cross-form packet are each read in full; every fin…”
 
 ## Completeness (nothing skipped silently)
 

@@ -3,8 +3,11 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), part A: below 2000 the act fixes exactly one line of F_p^2 at p = 5 only, two exactly when p = +-1 mod 5, none otherwise (0, 1, 0, 2, 0 at p = 3, 5, 7, 11, 13). It is the splitting of x^2 - 3x + 1 mod p, so 'where the act names a unique line' and 'the prime of the act's discriminant' are one condition",
- "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-wa2-02-r2c, web-wa2-02-r2p; what stays is what its ground covers.",
+ "note": "SECOND READING 2026-11-18: 6 line(s) this record held are moved to its companions web-wa2-02-r2c, web-wa2-02-r2p; what stays is what its ground covers. RESTORED at the seat's row 371 (line 25): B1952 wa2_on_main run l.1 (every prime below 2000); B1884 arc verdict. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 372 (line 37): B1884 PROVED: one line at N = 5, none other to 200; GENESIS l.222 cites it. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 373 (line 42): B1943 fixed_lines_run l.2. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:180"
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:180",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:25",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:37",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:42"
  ]
 }

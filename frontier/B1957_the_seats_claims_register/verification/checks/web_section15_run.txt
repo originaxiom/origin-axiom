@@ -1,0 +1,23 @@
+Y1: the web lane at 84fcf1e57 as section 14.1 gives it: True (units of every kind there: 7531; the seat: 7,531); at dbd7c24e3 as section 15.1 gives it: True (units: 7668; the seat: 7,668)
+Y2: section 14.1 at 84fcf1e57: W-F17's lines 244 and 278 NOTED in web-wf17-04r: True; its lines 263, 266, 91, 264 PARTIAL in web-wf17-04p: True; W-Z1's lines 59 and 106 PARTIAL in web-wz1-04p: True; W-A2's lines 112, 114, 187 PARTIAL in web-wa2-05r: True; unit 883 still VERIFIED in web-st9-03: True; W-A3's line 145 PARTIAL in web-wa3-07r: True; units 1052 and 1124 VERIFIED in web-st12b-01: True; web-st12-01's ground says 'four mends': True; web-st12b-01's says five: True
+Y2: its line on unit 883, the other clauses, at 84fcf1e57: web-st8-07 is SUPERSEDED; records split from web-r2-01: {'web-r2-01r': ('NOTED', 5)}
+Y3: section 15.1 at dbd7c24e3: W-F17's rows 98 to 101, 103 and lines 121, 247, 265, 277 PARTIAL in web-wf17-04p: True; lines 102, 211, 244, 278 NOTED in web-wf17-04r: True; W-Z1's 53, 59, 106 PARTIAL in web-wz1-04p: True; W-A2's 110, 112, 114, 116, 187 VERIFIED in web-wa2-05v: True; unit 883 SUPERSEDED in web-st9-03s: True; W-F1's 50, 52, 55 PARTIAL in web-wf1-01r: True; the session relay's 133 PARTIAL in web-sr-02p: True; web-st12-01 no longer says 'four mends': True; web-st13-02 records section 13.6: True
+Y3: W-A3's 27, 167 at dbd7c24e3: [('web-wa3-02p', 'PARTIAL')]; all PARTIAL in records ending in p: True
+Y3: the first W-B2 note's 48, 51, 64 at dbd7c24e3: [('web-wb2-first-02p', 'PARTIAL')]; all PARTIAL in records ending in p: True
+Y3: P-783's 80, 81, 90, 94, 95 at dbd7c24e3: [('web-p783-06p', 'PARTIAL')]; all PARTIAL in records ending in p: True
+Y3: W-C3's 48, 55, 85, 88, 99, 104, 105 at dbd7c24e3: [('web-wc3-01p', 'PARTIAL')]; all PARTIAL in records ending in p: True
+Y3: W-C2's 23, 101 at dbd7c24e3: [('web-wc2-03p', 'PARTIAL')]; all PARTIAL in records ending in p: True
+Y3: its exceptions at dbd7c24e3: W-F17's line 261 [('web-wf17-04', 'VERIFIED')]; W-C3's line 91 [('web-wc3-01', 'VERIFIED')]
+Y4: item 1, W-A2's lines 110 and 187: at dbd7c24e3 all under a verified record: True (['web-wa2-05v']); now: {110: 'web-wa2-05v-r2p PARTIAL', 187: 'web-wa2-05v VERIFIED'}
+Y4: item 2, units 1052 and 1124: at dbd7c24e3 all under a verified record: True (['web-st12b-01']); now: {1052: 'web-st12b-01s SUPERSEDED', 1124: 'web-st12b-01s SUPERSEDED'}
+Y4: item 3, W-F17's lines 226, 232, 251, 261: at dbd7c24e3 all under a verified record: True (['web-wf17-04']); now: {226: 'web-wf17-04-r2n NOTED', 232: 'web-wf17-04-r2p PARTIAL', 251: 'web-wf17-04-r2p PARTIAL', 261: 'web-wf17-04-r2c CONDITIONAL'}
+Y4: item 4, W-C3's line 91: at dbd7c24e3 all under a verified record: True (['web-wc3-01']); now: {91: 'web-wc3-01-r2p PARTIAL'}
+Y4: item 5, units 1231 and 1267: at dbd7c24e3 all under a verified record: True (['web-st13-01']); now: {1231: 'web-st13-01-r2n NOTED', 1267: 'web-st13-01-r2p PARTIAL'}
+Y4: item 6, units 1324 and 1328: at dbd7c24e3 all under a verified record: True (['web-st13-02']); now: {1324: 'web-st13-02-r2c CONDITIONAL', 1328: 'web-st13-02-r2n NOTED'}
+Y4: of the units its 15.2 names, still under a verified record now: 1 (W-A2's line 187 is one, by design: see Y5)
+Y5: main's read-out at dbd7c24e3 took its reality test from U_L(T) alone: True; it now tests U_L(S) too: True; its run says U_L(S) is a real signed permutation up to one phase in all eight cases: True; and the constant under T it prints: ('[0.25]', '[0.0]')
+Y6: main's script for W-F17 names E0 or a Chebyshev polynomial: False (so line 251's check is the seat's alone)
+Y7: the seat's least scaled singular value over main's, class by class: 5.8442600315 (-1, -1): 11; 5.8442600315 (-1, 1): 42; 5.8442600315 (1, -1): 3.4; 5.8442600315 (1, 1): 21; 6.6632356489 (-1, -1): 15; 6.6632356489 (-1, 1): 1.2e+02; 6.6632356489 (1, -1): 31; 6.6632356489 (1, 1): 0.4
+Y7: cells where main's is smaller by ten or more: 6 of 8; smaller by less than ten: ['5.8442600315 (1, -1): 3.4']; LARGER than the seat's: ["6.6632356489 (1, 1): main's is 2.5 times the seat's"] (so 'smaller by a factor of ten or more', main's note in web-p783-06p, was wrong in two cells, as the seat says)
+Y8: web-st14-01 at dbd7c24e3: VERIFIED, 19 units; it holds the units 1363, 1368, 1371, 1380, 1381, 1383 (claims the corrected version lists as wrong): True; and 1373, 1385 to 1390: True; its ground says the eight records 'stand as it lists them': True; verified statements of the lane then, less these: 1942 (the second reading's count was 1,942)
+Y8: its ground also says 'main has since read the move under S and the reality of the signs' (15.2, item 1): True

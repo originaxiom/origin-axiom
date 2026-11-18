@@ -1,0 +1,12 @@
+{
+ "id": "web-wf21-01-r3n",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wf21-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 333 (line 100): requests answered by A13/A14; identical L75 moved to N. MAIN: as the row says. REFILED at the seat's row 333 (line 86): requests answered by A13/A14; identical L75 moved to N. MAIN: as the row says. REFILED at the seat's row 333 (line 94): requests answered by A13/A14; identical L75 moved to N. MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:100",
+  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:86",
+  "web:CHAT1_TO_CC_2026-11-14_W-F21_THE_RULES_VERSION_2_CLOSES_O1_TO_O10:94"
+ ]
+}

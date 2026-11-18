@@ -1,0 +1,14 @@
+{
+ "id": "agyexp-xcan-02",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header: cards, verifiers and sealed outputs with their commits",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS:4",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS:5",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS:7",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS:8"
+ ]
+}

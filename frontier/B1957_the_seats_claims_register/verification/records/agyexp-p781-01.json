@@ -1,0 +1,20 @@
+{
+ "id": "agyexp-p781-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its answers to the web seat on conventions and gluing. ON MAIN (checks/agyexp_older_notes.py, O9): J L J and J R J are the transposes, and J (1, 2) = (2, 1) = 2 (1, 3) modulo 5, so the two seats' marks are exchanged by the swap; the word L^5 R L^2 R^2 sends the mark to its negative and the word with one more period L R to itself; the Smith invariants are 45 and 105, so the bundles' torsion is Z/45 and Z/105 and 5 divides both. NOT ON MAIN: its statement on the parity of the golden period along L^6 R (LR)^k, and its account of which strings its own first phase ran (one string missed its closing letter, the other ran as intended): its own code",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:25",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:28",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:31",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:35",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:36",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:37",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:38",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:42",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:44",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:45",
+  "agy-exp:AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS:46"
+ ]
+}

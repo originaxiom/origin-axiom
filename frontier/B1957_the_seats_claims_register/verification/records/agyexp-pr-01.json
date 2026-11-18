@@ -5,11 +5,6 @@
  "how": "the seat's own statement of what its ten campaigns rest on, held against its notes and against main's records. (1) That all ten work inside a supplied field-theory ansatz, and the six identifications it lists as typed in (the unified coupling as a volume times an area or an area; the running span; the instanton exponent with its free prefactor and one overall unit; the quartic's boundary value and the collar amplitudes; the reference moduli and loop weights; the selected torsion point): each is used as stated in the seat's own notes, which main read (the X-ENDGAME and X-BRIDGE notes; its status page for the later campaigns). (2) Its table's rows for UR-1 to UR-5: what it lists as exact arithmetic is what main verified (B1956; records agyexp-ur1-01, agyexp-ur345-01; the repaired quartic term, checks/physical_all_seats_findings.py; the 45 points and Smith form (3, 15)), and what it lists as borrowed is what main's records agyexp-ur1-02 to agyexp-ur345-02 found. (3) Why three is an input: a pure charge-circle lift needs 3 to divide k and a lift with colour does not, so k = 1 and 2 are not excluded (checks/physical_four_form.py, G4); k = 0 closes with lower flux energy; every multiple of 3 closes; the sign is a bit",
  "note": "This page is the premise that main's conditional verdicts on this lane cite. It is to the seat's credit: it was written at main's request M33 and concedes that none of the listed identifications is derived from the knot. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions agyexp-pr-01-r2n, agyexp-pr-01-r2p; what stays is what its ground covers.",
  "units": [
-  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:12",
-  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:13",
-  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:14",
-  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:15",
-  "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:16",
   "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:26",
   "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:28",
   "agy-exp:AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17:29",

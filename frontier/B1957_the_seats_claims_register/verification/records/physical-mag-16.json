@@ -1,0 +1,25 @@
+{
+ "id": "physical-mag-16",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the sender note's header and scope, its seven deciding checks for a reader who did not write it, its literature note and its next step. WHERE MAIN STANDS ON THE SEVEN: 2 (the canonical factor), 3 (the tangent, the sign of the curvature term and the mass), 4 (the curvature and the exact energy on the response path, given the Poisson equation), 5 in part (the other negative directions; not the bundle's triviality) and 7 in part (the charge count, the 174 directions given the modes per line, the 27 + 27 + 1 + 1 weights, the boson masses given its formula) are computed in checks/physical_c8_magnetic.py; 1 (the typing of the lines and the profiles), 6 (the scopes) and the fermion operator of 7 are read and not computed",
+ "note": "",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:3",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:7",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:9",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:26",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:42",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:45",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:84",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:90",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:92",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:94",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:96",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:98",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:99",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:101",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:105",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE:110"
+ ]
+}

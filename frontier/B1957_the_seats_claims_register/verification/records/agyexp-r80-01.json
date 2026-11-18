@@ -1,0 +1,24 @@
+{
+ "id": "agyexp-r80-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its fourteen findings on main's locks and scripts (F-R80-1 to -14), the statement of each defect. ON MAIN: B1898's table of them, in main's words: F1 to F5 (five ways the lock of B1881 could be passed with its computation emptied) each held on main's own plant; F8 (a session's name in two published claim lines) and F12 (the listener) held on main's reading; F6, F7 and F10 held in part; F9, F11, F13 and F14 were not checked by main at the review. THOSE FOUR ARE CHECKED NOW (checks/agyexp_older_notes.py, O10): the line each quotes stood in main's file at the commit the seat read; each is mended since, with a dated note in the file naming the finding, and main's function now raises on a grid of 0 or -6 where it returned an empty kernel. The mends of F6, F7 and F10 carry the same notes; the two claim lines no longer name the session. NOT ON MAIN: the seat's own plant flags and incidental figures",
+ "note": "All fourteen were right, and all are mended: seven by main at the review, the rest by the builder's series that followed (each 'made again' before it was mended).",
+ "units": [
+  "agy-exp:REVIEW_80_AGY-EXP:92",
+  "agy-exp:REVIEW_80_AGY-EXP:106",
+  "agy-exp:REVIEW_80_AGY-EXP:120",
+  "agy-exp:REVIEW_80_AGY-EXP:134",
+  "agy-exp:REVIEW_80_AGY-EXP:148",
+  "agy-exp:REVIEW_80_AGY-EXP:162",
+  "agy-exp:REVIEW_80_AGY-EXP:178",
+  "agy-exp:REVIEW_80_AGY-EXP:192",
+  "agy-exp:REVIEW_80_AGY-EXP:206",
+  "agy-exp:REVIEW_80_AGY-EXP:220",
+  "agy-exp:REVIEW_80_AGY-EXP:235",
+  "agy-exp:REVIEW_80_AGY-EXP:249",
+  "agy-exp:REVIEW_80_AGY-EXP:263",
+  "agy-exp:REVIEW_80_AGY-EXP:277",
+  "agy-exp:REVIEW_80_AGY-EXP:79"
+ ]
+}

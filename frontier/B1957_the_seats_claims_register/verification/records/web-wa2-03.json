@@ -3,8 +3,11 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1952 (main's own recomputation of this note, verification/wa2_on_main.py), part B, and checks/web_review.py R2: the 25 operators X^a Z^b are orthogonal with XZ = zeta^-1 ZX; conjugation by the Weil representation moves them by a linear map of F_5^2, T to (a, b - a) and S to (-b, a), the record's transport; for every Weil class there is exactly one identification of the labels up to a scalar, and its determinant's square class names the class (web-rv-02; the seat's diag(1, 2) and main's diag(1, 3) are inverse, web-st5-02). So some identification exists for any class: the match fixes a labelling, not a class",
- "note": "Stone-von Neumann is the standard theorem, cited by the seat and by main, not re-proved. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wa2-03-r2c, web-wa2-03-r2n, web-wa2-03-r2p; what stays is what its ground covers.",
+ "note": "Stone-von Neumann is the standard theorem, cited by the seat and by main, not re-proved. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-wa2-03-r2c, web-wa2-03-r2n, web-wa2-03-r2p; what stays is what its ground covers. RESTORED at the seat's row 309 (line 26): web_review.py R2 l.40-54, run l.1-5 print diag(1, 4) and the swap; M_-I = M_S^2 = -1. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 310 (line 46): B1952's banked title and part B: wa2_on_main.py l.62, run l.2; FINDINGS l.45-47. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 311 (line 182): web_review R2 (run l.1-5) recomputes four classes and both orderings; rows 180, 185, 186, 188 V. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:47"
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:47",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:26",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:46",
+  "web:CHAT1_TO_CC_2026-11-17_W-A2_POSTULATE_D_FROM_THE_GROUND:182"
  ]
 }

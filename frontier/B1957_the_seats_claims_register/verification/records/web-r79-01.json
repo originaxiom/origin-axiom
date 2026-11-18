@@ -3,11 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "its six findings on the arcs it read for Review 79, each held by main against today's tree: every one was right and every one was mended at that review (main's B1892 took all ten of this reading, 'the web seat: 10, and three notes; 10'). B1882's two ranges were the seat's menu alone (the page's dated correction of 2026-11-12, point 4: the bottom end reads 0.18 under the first null's covariant menu and the top end 2.08 to 2.36 under the second's); the root page's sentence that the tick 'waits on a computation' is replaced in the next view refresh, in words; B1886's 'the lock compares them all' is corrected beside it (it compared 29 rows); its test no longer skips on a checkout without the old commit (a committed snapshot); B1888's 'and not shorter' is corrected in the script's header, the page and the lock (an upper bound on what the code names, not on what it opens); 'never touches the measured values' is restated",
- "note": "Six real faults in main's own arcs, each a claim wider than what was computed or a check that could not fail. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-r79-01-r2p; what stays is what its ground covers.",
+ "note": "Six real faults in main's own arcs, each a claim wider than what was computed or a check that could not fail. SECOND READING 2026-11-18: 2 line(s) this record held are moved to its companions web-r79-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 264 (line 21): B1882 card/v1_null_run.txt l.23, 39, 55 (0.06/0.08/0.08); l.29 (12, 0.0667, 0.18); l.34, 45, 50, 61, 66 (five cells below 0.1); l.46, 51, 62, 67 (2.08-2.36). MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:REVIEW_79_CHAT1:22",
   "web:REVIEW_79_CHAT1:24",
   "web:REVIEW_79_CHAT1:25",
-  "web:REVIEW_79_CHAT1:26"
+  "web:REVIEW_79_CHAT1:26",
+  "web:REVIEW_79_CHAT1:21"
  ]
 }

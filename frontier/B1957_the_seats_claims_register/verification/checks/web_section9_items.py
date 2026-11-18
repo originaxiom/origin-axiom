@@ -5,8 +5,8 @@
      twisting character is trivial).  h^2 = h^1 - h^0; h^1_rel(V') = interior classes + h^0 of the cusp - h^0.
      Each is non-split by construction: its class c has c(lambda) = 1, and a coboundary vanishes on lambda.
  I4  W-C8 part 2a, 'b_1 = 1 and the cusp's rank is 1 at levels 1 to 8' of the golden tick: from the group itself over
-     F_p (h^1 of the trivial character; the classes that do not vanish on the cusp), and det(J^n - 1) = 2 - tr J^n for
-     odd n, -tr J^n for even n, never zero: 1, 1, 4, 5, 11, 16, 29, 45 in absolute value, the fibre torsion.
+     F_p (h^1 of the trivial character; the classes that do not vanish on the cusp), and det(J^n - 1) = (-1)^n - tr J^n + 1, that is -tr J^n for
+     odd n and 2 - tr J^n for even n [docstring corrected 2026-11-18: it had odd and even exchanged; the code was right], never zero: 1, 1, 4, 5, 11, 16, 29, 45 in absolute value, the fibre torsion.
  I5  W-C1: the index of the figure-eight group in PSL(2, O), O the Eisenstein integers, by volumes:
      vol(m004) / (3^(3/2) zeta_K(2) / (4 pi^2)) = 12 to 40 digits (vol = 3 Cl_2(2 pi/3); SnapPy's volume beside it);
      and the image of Riley's pair in SL(2, O/N) at N = 2, 4, 8, closed under multiplication without adding -1:

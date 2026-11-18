@@ -1,0 +1,11 @@
+{
+ "id": "web-r80-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-r80-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 368 (line 39): not in ground: check_test_vacuity.py puts \"X or True\" in no class; error-ledger lines 182, 236; \"no row names the seven files\"; the seat's V0-V4 probes (sorter's copy cut). MAIN: as the row says. REFILED at the seat's row 369 (line 192): \"18 lines ... in ten files\" the seat's count (part Q), not in ground (sorter's copy cut). MAIN: as the row says.",
+ "units": [
+  "web:REVIEW_80_CHAT1:39",
+  "web:REVIEW_80_CHAT1:192"
+ ]
+}

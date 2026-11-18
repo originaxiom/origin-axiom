@@ -1,0 +1,16 @@
+{
+ "id": "physical-xf-01",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "the cross-form proof's finite steps, which main computes (checks/physical_c8_magnetic.py, G8), inside paragraphs whose analysis is the lane's: e13 + e24 commutes with the raising chain p e12 + r e23 + p e34, and e13 - e24 does not; its tensor square sends the two negative-grade basis vectors to the two positive ones with one coefficient; the two flat matrices have determinant one and no common invariant line; with poles of order at most one the Wronskian has at most a simple pole; the block ((0, conj Lambda), (Lambda, 0)) has eigenvalues +-|Lambda|. NOT ON MAIN: everything that makes these the steps of a proof on its fields (the antiunitary's signs, the bundles and frames, Riemann-Roch on the curve, the analytic continuation, the compression to the whole pole)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:138",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:146",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:170",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:185",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:192",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE:256",
+  "physical:physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES:42"
+ ]
+}

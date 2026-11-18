@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g0-06",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the equation the seat integrates is the published one: main read the primary source (Antusch, Drees, Kersten, Lindner, Ratz, hep-ph/0108005, equation (21): 16 pi^2 beta_kappa = -(3/2)[kappa P + P^T kappa] + lambda kappa - 3 g2^2 kappa + 2 Tr(3 Y_u^dagger Y_u + 3 Y_d^dagger Y_d + Y_e^dagger Y_e) kappa, with the quartic as (lambda/4)(phi^dagger phi)^2) and the script's line 361-362 (-(3/2)(H_e kappa + kappa H_e^T) + (4 lambda - 3 g2^2 + 2 Tr) kappa, with the quartic as lambda |H|^4 and kappa in the conjugate convention): the same, and covariant under a change of the doublets' basis. The row's two figures are the solver against the path-ordered exponential, found in the sealed outputs",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

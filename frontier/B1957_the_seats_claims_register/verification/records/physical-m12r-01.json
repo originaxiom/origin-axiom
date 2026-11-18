@@ -1,0 +1,21 @@
+{
+ "id": "physical-m12r-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the lane's review of main's repairs and of the C8 records, each statement about main's record held against that record at the commit it read (checks/physical_m12_reply.py, R1 to R3), and each mathematical statement recomputed (checks/physical_c8_magnetic.py, G9; checks/physical_c8_dominant.py, A8). As it says: the five repairs are present, with the records and verdicts it names, the figures 13/16 and 16/13, and the counts 8 + 5 + 18 + 2 = 33 and 45; three of the C8 records are partial and the action join conditional; S^2 = -i P with P commuting with T gives S U S^-1 = U^-1, so the unitary S exchanges the two ground eigenlines; and for h* the determinant has one least term in the up sector and two in the down sector, Theta_0^2 Theta_3 and Theta_2^2 Theta_5, with one coefficient A B^2, one sum of r, -1/10, and one exponent, 153/150, so they add",
+ "note": "THE DETAIL IT ASKS MAIN TO RETAIN IS RIGHT AND IS RETAINED: main's step A5 takes the least sum of exponents and assumes no cancellation. Main's script said so; it now also checks the terms one by one for h* (A8), and its exponents at 80 digits (physical_c8_tick_higgs.py, K6) do not rest on the rule. The rule alone is not a theorem that least terms never cancel, and lead P-873's next step is worded accordingly. Its row on M9-02 adds a normalisation: the residual main's script displays is for the equation multiplied by ell^2.",
+ "units": [
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:26",
+  "physical:PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE:33",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:12",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:13",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:14",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:15",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:16",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:35",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:43",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:62",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:66",
+  "physical:physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW:70"
+ ]
+}

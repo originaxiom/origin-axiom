@@ -3,17 +3,21 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), part E and class_is_a_choice.py: the knot's form V + V^T = [[2, 1], [1, -2]] (determinant -5) gives the discriminant form q = x^2/5, a residue, with bilinear form 2x^2/5; B1951's rho(T) = diag psi(2x^2) is the other class; the unit shears on the labels are implemented by the coefficients 2 and 3, the class of 2x^2/5; the flux-5 modes carry the non-residue class (checks/web_review.py R3); the Weil 3's T-phases are {0, 1/5, 4/5} in one class and {0, 2/5, 3/5} in the other. So the object carries both forms and the class is a choice, as the note's corrected version says and B1955 records (corrected the same day on the seat's referee read)",
- "note": "Which class main keeps is not decided here; the seat lists it among its needs. Since the frame's lines do not see the class, neither choice conflicts with them. SECOND READING 2026-11-18: 17 line(s) this record held are moved to its companions web-wa3-05-r2n, web-wa3-05-r2p; what stays is what its ground covers.",
+ "note": "Which class main keeps is not decided here; the seat lists it among its needs. Since the frame's lines do not see the class, neither choice conflicts with them. SECOND READING 2026-11-18: 17 line(s) this record held are moved to its companions web-wa3-05-r2n, web-wa3-05-r2p; what stays is what its ground covers. RESTORED at the seat's row 124 (line 101): B1955 FINDINGS l.44-46; web-wa3-03r how \"Verified on main (B1955): X Z = zeta Z X is the pairing\". MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 125 (line 106): B1955 class_is_a_choice.py l.50-56, 64-65; run l.3 \"a shear by 2\"; web_review.py R2 run l.3. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 126 (line 115): R3 (cited): web_review.py l.7, 56-64; run l.6 (zeta^(j^2) under tau + 2, 8.0e-16), l.7. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 127 (line 119): B1955 wa3_on_main_run.txt l.4-5 rho(-I) = P both classes; FINDINGS l.68-70. MAIN: as the row says; main read the cited ground. RESTORED at the seat's row 128 (line 121): web_review.py docstring l.4-6, code l.40-52; run l.3 [[1, 0], [0, 3]]; web-st5-02. MAIN: as the row says; main read the cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:34",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:40",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:97",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:100",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:104",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:116",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:120",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:122",
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:168",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:173"
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:173",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:101",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:106",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:115",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:119",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:121"
  ]
 }

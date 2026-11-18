@@ -3,9 +3,13 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's check of main's M48 (its section 10), held against its sources: its recount of the register at 4744bdfe0 (137 files, 6,602 statements, none pending; 1,815 verified, 1 refuted, 7 conditional, 390 partial, 60 superseded, 4,329 noted) is SUMMARY.json at 5d4fd32fe figure for figure; the cold read is in and its record is NOTED; the file B1937 pins has the sha256 the script asserts; and it cut all of its units again with the register's own rule and found every id, kind and hash matching",
- "note": "It did not check that web-st-log still describes the text at its ids after main's realignment. Main checked: every unit that record holds is present in the cut at fc4b658c8, and the record is a note of the page's log lines, not a verdict on their content. SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-st10-01-r2n, web-st10-01-r2p; what stays is what its ground covers.",
+ "note": "It did not check that web-st-log still describes the text at its ids after main's realignment. Main checked: every unit that record holds is present in the cut at fc4b658c8, and the record is a note of the page's log lines, not a verdict on their content. SECOND READING 2026-11-18: 7 line(s) this record held are moved to its companions web-st10-01-r2n, web-st10-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 260 (line 923): UNITS.json at 5d4fd32fe: 28 units; web-cold-01 N with 26; web-st7-06's note. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 261 (line 927): B1937 FINDINGS l.114 (\"byte for byte\"). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 262 (line 928): UNITS.json at 5d4fd32fe: 7,294 web units. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 263 (line 933): 42 ids changed a5e967af9 -> 5d4fd32fe; 41 held by web-st8-01..06, web-st-log; 42nd is line 1 (no record). MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:STATUS_CHAT1:921",
-  "web:STATUS_CHAT1:926"
+  "web:STATUS_CHAT1:926",
+  "web:STATUS_CHAT1:923",
+  "web:STATUS_CHAT1:927",
+  "web:STATUS_CHAT1:928",
+  "web:STATUS_CHAT1:933"
  ]
 }

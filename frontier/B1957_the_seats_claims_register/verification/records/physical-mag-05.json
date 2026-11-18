@@ -1,0 +1,17 @@
+{
+ "id": "physical-mag-05",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the roster, recomputed on main by enumeration (checks/physical_c8_magnetic.py, G4, G5, G9): the charges of C = e1 - e3 on E8's 240 roots are 0, +-1, +-2 with 126, 56, 56, 1, 1 roots (first kind 62, 24, 24, 1, 1, of which 12 and 12 as it splits them; half-integer 64, 32, 32); with the Cartans 134, 56, 56, 1, 1, sum 248; the 126 roots of charge 0 are one system of rank 7, so the centraliser is e7 + u1; the adjoint trace of C^2 is 120 and iota = 60; the trace identity and the mass q B on every root of the block. What the verdict covers: the algebra of a supplied construction on a chosen compact torus. Not: that the construction is the programme's, its complete cusp, or a vacuum; the lane says the same, and counts no input removed.",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:19",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:28",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:31",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:37",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:50",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:56",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:80",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL:82"
+ ]
+}

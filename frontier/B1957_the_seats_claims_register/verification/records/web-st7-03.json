@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's ten findings about main's record (its section 7.2), each checked by main at the record or the source and found right, and each acted on at this date: (1) web-wl1-01 now points to web-wa1-02, where the values are verified; (2) the congruence indices are computed on main (checks/web_wz1_c3_indices.py: 6, 1, 12, 6, 1, 12, 12 at N = 2, 3, 4, 6, 7, 8, 12) and web-wz1-05 is VERIFIED; (3) web-wb2-d1-05 says the reading of the fork was the seat's first; (4) the nine records are split: 34 statements moved to PARTIAL records (web-...p), so the tally no longer counts them as verified; (5) line 55 of the first W-B2 note is out of the superseded record and line 53 is PARTIAL (three of its four verdicts stand); (6) the weave note's asks are now recorded at P-629 and harvest row 1388 as well as P-380, and the foundation's FK11 row is left unedited with the reason in web-weave-03; (7) the three records carry dated pointers; (8) custody.py is mended to see commit ids written without backticks and rerun for every lane (this seat's three notes now show 6, 1 and 6 commits, all on the branch); (9) W-F17's eleven statements are refiled under the records that verify them; (10) row 1641's note and web-st-lists-02 are corrected",
- "note": "FOUND BY MAIN ON THE WAY: main's record tool stamped a typed date, so 168 records written on 2026-11-18 carried 2026-11-17; corrected by each file's own write time, and the tool now takes the day's date. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-st7-03-r2n; what stays is what its ground covers.",
+ "note": "FOUND BY MAIN ON THE WAY: main's record tool stamped a typed date, so 168 records written on 2026-11-18 carried 2026-11-17; corrected by each file's own write time, and the tool now takes the day's date. SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-st7-03-r2n; what stays is what its ground covers. RESTORED at the seat's row 388 (line 467): item 4's lead states the finding; siblings 454, 459, 478, 481, 490, 497, 502 kept V; ground (4): nine -p companions exist. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 389 (line 509): item 10's lead \"Two references are off.\"; main found both right and corrected them; ground (10). MAIN: as the row says; main read the row beside the unit and its cited ground. GROUND CORRECTED 2026-11-18 at the seat's row 390 (line 459): how (2) says \"web-wz1-05 is VERIFIED\"; that record is gone, its lines P and C. MAIN: the unit stays verified; the ground gains a dated pointer: the record it names is kept for its ground only, its lines being partial and conditional.",
  "units": [
   "web:STATUS_CHAT1:454",
   "web:STATUS_CHAT1:455",
@@ -41,6 +41,8 @@
   "web:STATUS_CHAT1:507",
   "web:STATUS_CHAT1:508",
   "web:STATUS_CHAT1:510",
-  "web:STATUS_CHAT1:511"
+  "web:STATUS_CHAT1:511",
+  "web:STATUS_CHAT1:467",
+  "web:STATUS_CHAT1:509"
  ]
 }

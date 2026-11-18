@@ -1,0 +1,26 @@
+{
+ "id": "web-st16-01",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the seat's check of M55 (its sections 16.1, 16.4, 16.5), each line held against main's register at the commit it read and against main's files: its recount is main's summary there; the second reading's list and the records agree as it says; its error in 16.4 is as it says (B1682 runs n = 5) and is taken; its 16.5 is right on each item (lines 110 and 187, units 1052 and 1124, the note on its singular values, web-st13-02's ground, web-st14-01's units of a first version): each was mended in main's batch that answered its section 15 (M56), and the units of the first version are gone with the cut at 6db7ccca0",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:1551",
+  "web:STATUS_CHAT1:1554",
+  "web:STATUS_CHAT1:1624",
+  "web:STATUS_CHAT1:1627",
+  "web:STATUS_CHAT1:1628",
+  "web:STATUS_CHAT1:1629",
+  "web:STATUS_CHAT1:1630",
+  "web:STATUS_CHAT1:1631",
+  "web:STATUS_CHAT1:1634",
+  "web:STATUS_CHAT1:1636",
+  "web:STATUS_CHAT1:1638",
+  "web:STATUS_CHAT1:1639",
+  "web:STATUS_CHAT1:1641",
+  "web:STATUS_CHAT1:1643",
+  "web:STATUS_CHAT1:1644",
+  "web:STATUS_CHAT1:1645",
+  "web:STATUS_CHAT1:1647"
+ ]
+}

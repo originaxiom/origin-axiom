@@ -1,0 +1,10 @@
+{
+ "id": "web-st-lists-03",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "the status page's item 9 (W-Z1): the period's formula and the volume are verified (web-wz1-01); the congruence level is B794's (web-wz1-05)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, for its ground; lines of it were restored later the same day (below). RESTORED at the seat's row 450 (line 178): how says level is \"B794's, not recomputed\"; web_wz1_c3_indices.py run l.4, 6 (index 6 at (2), 12 at (4)); web-wc1-01 V; web_section9_items.py I5 run l.3. MAIN: as the row says; main read the row beside the unit and its cited ground.",
+ "units": [
+  "web:STATUS_CHAT1:178"
+ ]
+}

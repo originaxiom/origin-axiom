@@ -3,9 +3,12 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "B1955 (main's own recomputation of this note, verification/wa3_on_main.py and class_is_a_choice.py), part F, and B1953: x^2 - 3x + 1 has one root mod 5 and none mod 25, so the act keeps no line mod 25; frame C's up phases are of order 25 and its down phases of order 5; q_L^2 + q_R^2 mod 5 is 0 for down and leptons and 2 for up (17 = 2 mod 5; agy-002's A2-AMP measures the same phases under tau + 5: agy002v-m34-02). So the 25th roots come from putting each field's charge into its theta characteristic, and the object supplies nothing of level 25 that was computed",
- "note": "No D_25 and no Z/25 in the covers' homology are the seat's and its referee's computations beyond main's part F (main checked the dihedral group of order 50). [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wa3-07p, PARTIAL: a figure in them was not recomputed on main] SECOND READING 2026-11-18: 8 line(s) this record held are moved to its companions web-wa3-07-r2c, web-wa3-07-r2n, web-wa3-07-r2p; what stays is what its ground covers.",
+ "note": "No D_25 and no Z/25 in the covers' homology are the seat's and its referee's computations beyond main's part F (main checked the dihedral group of order 50). [2026-11-18, after the seat's section 7.2, item 4: 3 statements moved to web-wa3-07p, PARTIAL: a figure in them was not recomputed on main] SECOND READING 2026-11-18: 8 line(s) this record held are moved to its companions web-wa3-07-r2c, web-wa3-07-r2n, web-wa3-07-r2p; what stays is what its ground covers. RESTORED at the seat's row 363 (line 139): B1955 wa3_on_main.py l.141-143 ((1+4), (9+36), (1+16)); B1953 FINDINGS l.29. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 364 (line 149): an invariant cyclic subgroup of order 25 is an eigenline mod 25, needing a root mod 25; none (json F roots_mod_25 []). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 365 (line 140): nothing rests on the seat's run; B1953 main's; condition equals q1^2 + q2^2 = 0 mod 5. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:148",
-  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:171"
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:171",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:139",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:149",
+  "web:CHAT1_TO_CC_2026-11-17_W-A3_THE_COVER_THE_CLASS_AND_THE_UP_SECTOR:140"
  ]
 }

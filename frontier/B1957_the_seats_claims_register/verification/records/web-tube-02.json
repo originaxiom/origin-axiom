@@ -1,0 +1,8 @@
+{
+ "id": "web-tube-02",
+ "date": "2026-11-18",
+ "verdict": "VERIFIED",
+ "how": "its three more words for B1852's even-run pattern (section 7, item 3), on main (checks/web_tube_p740_rule.py T1): L^6 R (LR)^k at k = 6, 7 and 8 each have exactly two reversing involutions with entries in [-14, 14], ((-1, 6), (0, 1)) = L^3 F L^-3 and its negative, and the two fixed fibres fall in opposite classes modulo 2. MAIN HAD NOT CARRIED THIS ASK to the register row P-740 since 2026-11-07. Taken up now, it gave more than the three words: the per-centre rule is PROVED for every cyclic word that reads the same backwards (modulo 2 the letters are involutions; the reverser is F at a centre between letters and F x^-1 at a centre on a letter x), checked exactly on all 562 such primitive words to length 14; P-740 is closed and B1852 carries the proof in a dated note",
+ "note": "A lead that sat in an unharvested ask for eleven days. The proof is main's own and has not been read by a session that did not write it. RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

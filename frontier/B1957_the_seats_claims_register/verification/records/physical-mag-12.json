@@ -1,0 +1,15 @@
+{
+ "id": "physical-mag-12",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, lead-ins and definitions, and what it says the mechanism is (permitted, with a price; not forced, not a repair, not an exclusion of other constructions)",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:3",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:12",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:36",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:39",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:127",
+  "physical:physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE:133"
+ ]
+}

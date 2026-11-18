@@ -1,0 +1,25 @@
+{
+ "id": "agyexp-xnv-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header, its four fixes before any output, and its reasons for leaving nine paths uncomputed (each presupposes structure the foundation does not have, or is declared non-mathematical by the record's own rule)",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:4",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:5",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:7",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:8",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:14",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:15",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:16",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:93",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:94",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:95",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:96",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS:97"
+ ]
+}

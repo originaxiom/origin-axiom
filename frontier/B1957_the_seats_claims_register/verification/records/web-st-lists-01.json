@@ -3,9 +3,10 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the seat's list of its W-B2 items not yet recomputed on main; each is now recomputed or its cause verified (web-wb2-s3-01, web-wb2-d1-01 to -06): B1947's failure with the corrected kernel, the off-pole scalar with k = -15.08, and stage 4",
- "note": "Line 169 ('stage 4 is not read') was true when written; it is read now. SECOND READING 2026-11-18: 9 line(s) this record held are moved to its companions web-st-lists-01-r2c, web-st-lists-01-r2n, web-st-lists-01-r2p; what stays is what its ground covers.",
+ "note": "Line 169 ('stage 4 is not read') was true when written; it is read now. SECOND READING 2026-11-18: 9 line(s) this record held are moved to its companions web-st-lists-01-r2c, web-st-lists-01-r2n, web-st-lists-01-r2p; what stays is what its ground covers. RESTORED at the seat's row 411 (line 62): main's D4 8.5e-32 against the seat's 3e-8 (web_wb2_d1.py l.81; web-wb2-d1-05). MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 412 (line 161): E at residue level (D2), norm-level answer depends on metric (D4): web_wb2_d1.py l.61, l.81; web-wb2-d1-02, -05. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
-  "web:STATUS_CHAT1:56",
-  "web:STATUS_CHAT1:57"
+  "web:STATUS_CHAT1:57",
+  "web:STATUS_CHAT1:62",
+  "web:STATUS_CHAT1:161"
  ]
 }

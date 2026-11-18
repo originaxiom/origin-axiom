@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "the proof, read step by step by main. Step 1 (the formula, valid at every level): each of its seven sub-steps is a standard fact (the definition of r^1; half-lives-half-dies for dual coefficients on the cusp; Lefschetz duality; the Euler characteristic of the pair; the pair's exact sequence; the cusp's Euler characteristic and duality), and main recombined them and obtained the formula. Steps 2 to 4: the characters' h^0, h^1, h^2 from W-F6's laws (verified: web-wf6-01); the Klein bottle's (Fox calculus on mu lambda mu^-1 lambda, elementary); injectivity of restriction; the non-vanishing cup products from the Klein bottle's twisted duality; then the case table, in which r^1(V) equals [m(beta) = -1] + [alpha = 1] - [beta = w] row by row. Main did not re-derive each row by hand; it checked the table's two columns (n(V) and h^1) on all 54,942 doublets, where they hold with no exception",
- "note": "So the theorem (the class index is zero on every doublet at every odd level of a hyperbolic monodromy of determinant -1 on the once-punctured torus) stands on a proof main has read and on main's own census. It closes the open item of the seat's ledger. SECOND READING 2026-11-18: 14 line(s) this record held are moved to its companions web-wf19-02-r2n, web-wf19-02-r2p; what stays is what its ground covers.",
+ "note": "So the theorem (the class index is zero on every doublet at every odd level of a hyperbolic monodromy of determinant -1 on the once-punctured torus) stands on a proof main has read and on main's own census. It closes the open item of the seat's ledger. SECOND READING 2026-11-18: 14 line(s) this record held are moved to its companions web-wf19-02-r2n, web-wf19-02-r2p; what stays is what its ground covers. RESTORED at the seat's row 170 (line 64): web_wf19_on_main.py:56-65, run line 9: golden level 4, formula on all 12 record modules, I = +1, 0, -1 on 4 each; in web-wf19-01's ground. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 171 (line 80): bold lead \"Restriction is injective in degree 1\" held as heading; parent ground names injectivity among proof steps main read; sibling lead 84 kept. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:28",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:29",
@@ -42,6 +42,8 @@
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:119",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:120",
   "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:121",
-  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:126"
+  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:126",
+  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:64",
+  "web:CHAT1_TO_CC_2026-11-14_W-F19_THE_ODD_LEVEL_CLASS_INDEX_PROVED:80"
  ]
 }

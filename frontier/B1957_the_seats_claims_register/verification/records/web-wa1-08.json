@@ -1,0 +1,10 @@
+{
+ "id": "web-wa1-08",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "B1957's checks/web_wa1_star.py, with S* the conjugate triplet as in B1922: (i, (2/5, 1/5)) in S* against (i, mark) in S differ by 3.24 in the ratios (the note: 3.2)",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, for its ground; lines of it were restored later the same day (below). RESTORED at the seat's row 375 (line 159): deleted parent (git 55fcbe008) had web_wa1_star.py as ground, run l.2 3.24; mirror covariance wa1_rest run l.6 (3.3e-16); G1 part3 json; parent deleted at 4921ee923. MAIN: as the row says; main read the row beside the unit and its cited ground.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-15_W-A1_THE_ATTACK_ON_SELECTION_AND_THE_DICTIONARY:159"
+ ]
+}

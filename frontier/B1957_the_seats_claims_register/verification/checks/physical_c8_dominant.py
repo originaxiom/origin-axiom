@@ -78,3 +78,17 @@ L = show(SM, "relays/sm_c21/run_c21.py"); conv = [i + 1 for i, l in enumerate(L)
 print("A7: the SM seat's script for SM-C21, read as text: the extended-precision entries are converted with complex(v) at line(s) %s; singular values come from np.linalg.svd at line(s) %s; extended-precision SVD calls: %s" % (conv, svd, mp_svd))
 Lm = show("c34a926a2", "frontier/B1957_the_seats_claims_register/verification/checks/level6_higgs.py")
 print("A7: main's level6_higgs.py at c34a926a2: line 12 holds 'lift-invariant B': %s; line 95 holds 'dimension 2, one bit': %s" % ("lift-invariant B" in Lm[11], "dimension 2, one bit" in Lm[94]))
+
+# ---- A8, ADDED 2026-11-18 at the physical lane's reply to M12: A5 takes the least sum of exponents and ASSUMES no cancellation.
+# For h* that assumption is checked here term by term (the lane's own check, its C21 note, lines 150 to 181, recomputed): the
+# determinant's five terms, each with its coefficient and its exponent at the mark.  Where two least terms tie, they must not
+# cancel: the leading coefficient of Theta_c is a phase fixed by r and r^2, so two products with one coefficient, one sum of
+# r and one sum of r^2 have the same leading phase and ADD.
+terms = sp.Poly(det_lane, *Th).terms()
+for sec in ("up", "down"):
+    r = nearest(DELTA[sec] * Fr(2, 5) / 2); rows = []
+    for mono, coeff in terms:
+        idx = [c for c in range(6) for _ in range(mono[c])]; rows.append((sum(6 * r[c] * r[c] for c in idx), sum(r[c] for c in idx), sp.factor(coeff), "".join("Theta%d " % c for c in idx).strip()))
+    rows.sort(key=lambda x: x[0]); least = [x for x in rows if x[0] == rows[0][0]]
+    print("A8: %s, h*: the determinant's terms by exponent: %s; least terms: %d; they share the coefficient: %s, the sum of r: %s (%s) and the exponent %s, so they add; the rule alone is not a theorem that least terms never cancel"
+          % (sec, "; ".join("%s: %s x (%s)" % (str(e), str(cf), nm) for e, _, cf, nm in rows), len(least), len({x[2] for x in least}) == 1, len({x[1] for x in least}) == 1, str(least[0][1]), str(least[0][0])))

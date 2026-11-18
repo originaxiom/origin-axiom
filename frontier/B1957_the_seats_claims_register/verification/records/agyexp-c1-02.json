@@ -1,0 +1,10 @@
+{
+ "id": "agyexp-c1-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "row 960, where the seat reports that one clause of the SM seat's relay differs. ON MAIN (checks/agyexp_older_notes.py, O5): 6Y on the 5 of SU(5) is diag(-2, -2, -2, 3, 3), so the matrix Z of the relay is +6Y, and the relay at 431c0517f writes 'Z = T/2 = -6Y': the seat is right. NOT ON MAIN: the rest of the row (the leptoquark charges and the index arithmetic), its own run",
+ "note": "A fault in the SM seat's relay found by another seat; main had not caught it. The SM seat is told on its page.",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS:27"
+ ]
+}

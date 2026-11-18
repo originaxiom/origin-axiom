@@ -15,9 +15,16 @@ red2 = lambda w: functools.reduce(lambda s, c: s[:-1] if s and s[-1] == c else s
 
 if __name__ == "__main__":
     import random; random.seed(1957)                      # mpmath's rand draws from Python's generator: seeded on 2026-11-18 so that a rerun gives the same digits (the web seat's section 8)
-    def h1_group(K):                                                    # (Z/2)^3 modulo K(a + b + c)
-        return 3 if (K is None or K % 2 == 0) else 2
-    print("F1: H_1(O_K) = (Z/2)^r with r = %s for K = 2 to 13, and 3 at K = infinity; the parity character needs (-1)^K = 1: it exists at K = %s and at infinity" % ([h1_group(K) for K in range(2, 14)], [K for K in range(2, 14) if K % 2 == 0]))
+    def h1_group(K):                                                    # (Z/2)^3 modulo K(a + b + c): the number of invariant factors 2 of its relation matrix
+        # CHANGED 2026-11-18 (the web seat's section 16.3): this returned a hard-coded parity rule; the rank is computed now
+        import sympy as sp
+        from sympy.matrices.normalforms import smith_normal_form
+        rows = [[2, 0, 0], [0, 2, 0], [0, 0, 2]] + ([] if K is None else [[K, K, K]])
+        d = smith_normal_form(sp.Matrix(rows), domain=sp.ZZ); inv = [abs(d[i, i]) for i in range(min(d.shape))]
+        assert all(x in (1, 2) for x in inv), inv
+        return sum(1 for x in inv if x == 2)
+    parity_ok = lambda K: K is None or (-1) ** (3 * K) == 1                # the character a, b, c -> -1 kills K(a + b + c)
+    print("F1: H_1(O_K) = (Z/2)^r with r = %s for K = 2 to 13, and 3 at K = infinity; the parity character needs (-1)^K = 1: it exists at K = %s and at infinity" % ([h1_group(K) for K in range(2, 14)], [K for K in range(2, 14) if parity_ok(K)]))
     x, y = "ab", "bc"; inv = lambda w: w[::-1]
     print("F2: x (xy)^-1 y = %s = (abc)^2: %s; x^-1 (abc) = %s (c); (abc) y^-1 = %s (a); and for odd K, (abc)^(1-K) = abc modulo (abc)^K, a word in (abc)^2 since 1 - K is even" % (red2(x + inv(x + y) + y), red2(x + inv(x + y) + y) == "abcabc", red2(inv(x) + "abc"), red2("abc" + inv(y))))
     lam = (1, 2, 2, 3, -2, -1, -3, -2)                                  # [x, y] = ab bc (ab)^-1 (bc)^-1, generators 1, 2, 3 = a, b, c

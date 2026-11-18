@@ -1,0 +1,10 @@
+{
+ "id": "web-st9-02-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record web-st9-02, verified; no sorter had marked them, so main had not read them one by one. Main read all 990 such lines of the lane against their records' grounds. Narrowed: line 792: a remark outside main's proof: V^2 = LR is right by hand; that Z V is a reverser of determinant +1 and order 4 is not in main's check.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "web:STATUS_CHAT1:792"
+ ]
+}

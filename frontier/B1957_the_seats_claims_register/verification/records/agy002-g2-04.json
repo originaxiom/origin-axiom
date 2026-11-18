@@ -1,0 +1,8 @@
+{
+ "id": "agy002-g2-04",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_g2.py on main's own rule (B1788's tropical exponents, as B1945 and B1949 use them): the least exponents of m2/m3 and m1/m3 over the points of exact order N: order 5, down = lepton = (1/5, 11/20) under S and (1/5, 1/2) under S~; order 10, the pointwise values at a = 1/10 and 3/10 are exchanged between down and lepton ((1/5, 7/10) and (1/5, 1/2)) and the minima are equal, (1/5, 1/2); order 15, lepton (1/5, 11/20) against down (2/15, 1/2) under S: ratios 3/2 and 11/10. Every figure of the row is reproduced exactly. B1949 has the reason on main: e_lep(alpha) = e_down(3 alpha), so the two differ only where 3 divides the order",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

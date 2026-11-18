@@ -3,14 +3,13 @@
  "date": "2026-11-18",
  "verdict": "PARTIAL",
  "how": "SECOND READING, 2026-11-18. These lines stood under record web-wf2-01, verified. Read one by one against that record's ground, main holds part of each: the parent record's computation stands for what it names. What that ground does not name, by line (where one of main's scripts does compute a clause its record's ground omits, the line is restored by naming the script's line: the seat is asked to say where): 18: geometry of all-mirror face not in the ground; 20: geometry of half-turn face, [x,y] conjugate to (abc)^-2; 52: comparison-table row on W-F1 results; not in the ground; 53: W-F1 A3 row; not in the ground; 55: W-F1 A4 row, k>=3 alive; not in the ground; 56: GM3/B749 row; not in the ground; 57: SE1/SE2 row, Gieseking; not in the ground",
- "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json.",
+ "note": "The candidates were marked by read-only sorters, which give no verdict; main read each against the parent record's ground and decided. The whole list, with what main kept as verified, is in verification/second_reading/web.json. REFILED at the seat's row 358 (line 54): nothing rests on the seat's run: six permutations main's M2; M4 computes a mixed-face step. MAIN: as the row says.",
  "units": [
-  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:18",
-  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:20",
   "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:52",
   "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:53",
   "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:55",
   "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:56",
-  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:57"
+  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:57",
+  "web:CHAT1_TO_CC_2026-11-14_W-F2_MIRRORS_OR_HALF_TURNS:54"
  ]
 }

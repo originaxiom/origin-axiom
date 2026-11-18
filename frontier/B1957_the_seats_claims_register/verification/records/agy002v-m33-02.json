@@ -1,0 +1,8 @@
+{
+ "id": "agy002v-m33-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/agy002_m33.py on main's frame code with the norms (B1945's coupling with the charges passed in): at the 24 points of order 5, in both Higgs readings, Y_lepton = c Y_down^T to 3.5e-16 with c = exp(-20 pi i w1 w2) to 1.6e-15, and the singular-value ratios agree to 2.8e-16",
+ "note": "A second route to SM-C13's order-5 copy, from another family's code and now main's; B1942 and the web seat's W-B2 stage 3 (S3) say the same. RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

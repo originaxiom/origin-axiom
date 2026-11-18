@@ -1,0 +1,14 @@
+{
+ "id": "web-rv55-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "rows where main did not take the seat's suggestion as written: the finding stands in part and main's verdict differs (each row's reason in second_reading/web_rv55.json: for example a line that names the seat's own reading of a lock stays conditional; a line resting on the seat's own rerun of main's checks is conditional, not verified)",
+ "note": "",
+ "units": [
+  "web:chat1_2026-11-18_rv55/rv55_findings:89",
+  "web:chat1_2026-11-18_rv55/rv55_findings:231",
+  "web:chat1_2026-11-18_rv55/rv55_findings:233",
+  "web:chat1_2026-11-18_rv55/rv55_findings:250",
+  "web:chat1_2026-11-18_rv55/rv55_findings:285"
+ ]
+}

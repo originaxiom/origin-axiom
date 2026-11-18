@@ -2,15 +2,14 @@
  "id": "web-st13-02",
  "date": "2026-11-18",
  "verdict": "VERIFIED",
- "how": "its section 13.6, a second computation of main's law for the point's phase at level 5, from a derivation by hand. Main's side: checks/agyexp_x_foundation.py, F5 (the law at all 24 points for c = 0, +-1, +-2, 5, 7), and web_section13.py, U3: the seat's exponent q_L^2 + q_R^2 - c q_H (q_L + q_R) is main's q_L^2 + q_R^2 + c q_H^2, and its sign on the off-diagonal entries is main's (-1)^(5a) at odd c. Both find that no placement closes the up and the down sector together at level 5",
- "note": "The seat's figure (8e-28 at all 24 points, both shifts, every sector) is its own run on its own code, which main does not run. Two computations by two families now stand behind register row P-871; agy-exp has been asked for a third (card X-L5). Like main, the seat tested the representatives (i/5, j/5) only. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-st13-02-r2c, web-st13-02-r2n; what stays is what its ground covers.",
+ "how": "its section 13.6, a second computation of the law for the point's phase at level 5 (register row P-871), from a derivation by hand. Main's side: checks/agyexp_x_foundation.py, F5 (the law at all 24 points for c = 0, +-1, +-2, 5, 7), and web_section13.py, U3: the seat's exponent q_L^2 + q_R^2 - c q_H (q_L + q_R) is main's q_L^2 + q_R^2 + c q_H^2, and its sign on the off-diagonal entries is main's (-1)^(5a) at odd c. Both find that no placement closes the up and the down sector together at level 5",
+ "note": "The seat's figure (8e-28 at all 24 points, both shifts, every sector) is its own run on its own code, which main does not run. Two computations by two families now stand behind register row P-871; agy-exp has been asked for a third (card X-L5). Like main, the seat tested the representatives (i/5, j/5) only. SECOND READING 2026-11-18: 4 line(s) this record held are moved to its companions web-st13-02-r2c, web-st13-02-r2n; what stays is what its ground covers. WHOSE LAW (corrected 2026-11-18 at the seat's section 15.2, item 6): the statement at two placements of the Higgs zero (frame C, and the shifted convention), with the sectors exchanged between them and no placement closing both, is agy-exp's (its fourth foundation note, section 1, item 2). The one formula in the placement c, the exponent point by point and the sign at odd c are what main added when it decided that statement on its own frame.",
  "units": [
   "web:STATUS_CHAT1:1317",
   "web:STATUS_CHAT1:1319",
   "web:STATUS_CHAT1:1320",
   "web:STATUS_CHAT1:1322",
   "web:STATUS_CHAT1:1323",
-  "web:STATUS_CHAT1:1325",
-  "web:STATUS_CHAT1:1327"
+  "web:STATUS_CHAT1:1325"
  ]
 }

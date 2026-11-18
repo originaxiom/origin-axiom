@@ -1,0 +1,11 @@
+{
+ "id": "web-rv-02-r3c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "THE READING OF THE UNMARKED LINES, 2026-11-18. These lines stood under record web-rv-02, verified; no sorter had marked them, so main had not read them one by one. Main read all 990 such lines of the lane against their records' grounds. Narrowed: line 39: says what its referee read confirmed; the content is computed on main (checks/web_review.py, R2), the confirmation is the seat's; line 47: a correction of its own note, about what its own script computes.",
+ "note": "The parent's ground is unchanged for its other lines.",
+ "units": [
+  "web:STATUS_CHAT1:39",
+  "web:STATUS_CHAT1:47"
+ ]
+}

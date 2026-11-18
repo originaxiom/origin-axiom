@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-xsv-03",
+ "date": "2026-11-18",
+ "verdict": "NOTED",
+ "how": "the note's header: its card, verifier and sealed output with their commits",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:4",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:5",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:6",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS:7"
+ ]
+}

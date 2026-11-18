@@ -1,0 +1,12 @@
+{
+ "id": "web-st8-02-r2c",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-st8-02, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 97 (line 668): 0.15, 0.149, 2.959 are the seat's samples; current runs 0.123 (wb1 l.1), 0.0566 (wb1 l.3), 2.465 (wf5 l.5). MAIN: as the row says: the uncovered part rests on a cited result, the referee's run or another seat's. REFILED at the seat's row 97 (line 669): 0.15, 0.149, 2.959 are the seat's samples; current runs 0.123 (wb1 l.1), 0.0566 (wb1 l.3), 2.465 (wf5 l.5). MAIN: as the row says: the uncovered part rests on a cited result, the referee's run or another seat's. REFILED at the seat's row 97 (line 670): 0.15, 0.149, 2.959 are the seat's samples; current runs 0.123 (wb1 l.1), 0.0566 (wb1 l.3), 2.465 (wf5 l.5). MAIN: as the row says: the uncovered part rests on a cited result, the referee's run or another seat's.",
+ "units": [
+  "web:STATUS_CHAT1:668",
+  "web:STATUS_CHAT1:669",
+  "web:STATUS_CHAT1:670"
+ ]
+}

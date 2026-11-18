@@ -1,0 +1,8 @@
+{
+ "id": "agy002-es-09",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "checks/custody.py and checks/figures.py: 48 of 48 manifests match on the closure branch and the gates' scripts parse with no float or complex literal. The three-lane audit it mentions is settled with those lanes' own statements",
+ "note": "RESTORED 2026-11-18: the second reading moved every line of this record to its companions and removed the record, and its ground with it, while the companions and other records went on citing it. It is back, with no statement under it, for its ground.",
+ "units": []
+}

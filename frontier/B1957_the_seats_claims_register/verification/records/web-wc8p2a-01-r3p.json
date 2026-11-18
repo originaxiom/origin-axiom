@@ -1,0 +1,10 @@
+{
+ "id": "web-wc8p2a-01-r3p",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "REFILED 2026-11-18 at the web seat's own reading of main's second reading (its rv55_findings.md, read in full by main): lines of record web-wc8p2a-01, each with the seat's row and main's decision in the note.",
+ "note": "REFILED at the seat's row 145 (line 35): \"and every recipe module\" not covered: duality on characters only (web_wc8_part2a_duality.py l.6-7; run l.1-6); I3 bronze level 2 only. MAIN: as the row says.",
+ "units": [
+  "web:CHAT1_TO_CC_2026-11-14_W-C8_PART_2A_M000_IN_TWO_FRAMES_AND_TWISTED_DUALITY:35"
+ ]
+}

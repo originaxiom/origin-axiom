@@ -38,6 +38,7 @@ physical_boundary_outputs: 72 leaf keys in the lane's file; held against main's 
     not compared: /checks/smooth_radial_control/circulation_and_energy_errors
     not compared: /completed
     not compared: /seconds
+    compared, by group: finite_cell_response 8, reference_and_sector_controls 5, cut_and_source_controls 18, smooth_radial_control 2
 physical_endgame_outputs: 72 leaf keys in the lane's file; held against main's recomputation: 45; not compared: 27
     not compared: /state
     not compared: /python
@@ -66,3 +67,4 @@ physical_endgame_outputs: 72 leaf keys in the lane's file; held against main's r
     not compared: /checks/gluing_area_and_collar/collar_identity_residual
     not compared: /completed
     not compared: /seconds
+    compared, by group: exact_topology_and_orbits 17, weil_order 4, majorana_coefficient_freedom 7, ordered_yukawa_products 5, rank_one_two_loop_mixing 3, gluing_area_and_collar 9

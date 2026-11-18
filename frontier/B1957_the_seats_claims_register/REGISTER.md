@@ -4,16 +4,16 @@
 
 | lane | files | read at source | statements | verified | refuted | conditional | partial | superseded | noted | **pending** |
 |---|---|---|---|---|---|---|---|---|---|---|
-| agy-exp | 109 | 48 | 3124 | 49 | 6 | 251 | 252 | 58 | 1671 | **837** |
-| agy-002-verify | 11 | 11 | 500 | 138 | 3 | 10 | 108 | 0 | 241 | **0** |
-| agy-002-endgame | 12 | 12 | 207 | 14 | 8 | 33 | 45 | 0 | 107 | **0** |
-| agy-002-closure | 18 | 18 | 271 | 24 | 1 | 39 | 70 | 0 | 137 | **0** |
+| agy-exp | 109 | 66 | 3124 | 71 | 6 | 465 | 552 | 60 | 1970 | **0** |
+| agy-002-verify | 11 | 11 | 500 | 135 | 3 | 10 | 111 | 0 | 241 | **0** |
+| agy-002-endgame | 12 | 12 | 207 | 13 | 8 | 33 | 46 | 0 | 107 | **0** |
+| agy-002-closure | 18 | 18 | 271 | 19 | 1 | 39 | 74 | 0 | 138 | **0** |
 | agy-002-foundations | 13 | 6 | 189 | 0 | 0 | 0 | 54 | 0 | 135 | **0** |
-| physical | 151 | 148 | 11496 | 1350 | 0 | 1071 | 107 | 46 | 8922 | **0** |
-| web | 137 | 137 | 6956 | 1101 | 2 | 92 | 928 | 55 | 4778 | **0** |
-| agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 64 | **0** |
-| sm | 9 | 9 | 461 | 22 | 3 | 0 | 103 | 0 | 333 | **0** |
-| **all** | 464 | 393 | 23328 | 2709 | 23 | 1513 | 1699 | 159 | 16388 | **837** |
+| physical | 164 | 158 | 11833 | 1390 | 0 | 1143 | 135 | 46 | 9035 | **84** |
+| web | 138 | 137 | 7507 | 1622 | 2 | 159 | 759 | 58 | 4907 | **0** |
+| agy-audit | 4 | 4 | 124 | 11 | 0 | 17 | 32 | 0 | 63 | **1** |
+| sm | 11 | 9 | 516 | 20 | 3 | 0 | 105 | 0 | 333 | **55** |
+| **all** | 480 | 421 | 24271 | 3281 | 23 | 1866 | 1868 | 164 | 16929 | **140** |
 
 ## By file
 
@@ -21,21 +21,21 @@
 |---|---|---|---|---|---|
 | agy-exp | `relays/AGY-EXP_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 53 | 53 | **0** |
 | agy-exp | `relays/AGY_EXP_ONE_PAGE_PREMISES_UR1_TO_UR7_AND_THREE_FAMILIES_2026-11-17.md` | yes | 23 | 23 | **0** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md` | no | 32 | 0 | **32** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS.md` | no | 60 | 0 | **60** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_X_C3_SPECIFICATION.md` | no | 61 | 0 | **61** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md` | no | 29 | 0 | **29** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md` | no | 31 | 0 | **31** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md` | no | 25 | 0 | **25** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md` | no | 25 | 0 | **25** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ.md` | no | 18 | 0 | **18** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md` | no | 17 | 0 | **17** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_W_C2_ANSWERS.md` | yes | 32 | 32 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS.md` | yes | 60 | 60 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-11_X_C3_SPECIFICATION.md` | yes | 61 | 61 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md` | yes | 29 | 29 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md` | yes | 31 | 31 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md` | yes | 25 | 25 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-12_X_C1D_RESULTS.md` | yes | 25 | 25 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_B1936_COLD_READ.md` | yes | 18 | 18 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_F3_CHARGE_SIGN_NOTE.md` | yes | 17 | 17 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_C9_RESULTS.md` | yes | 38 | 38 | **0** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS.md` | no | 38 | 0 | **38** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS.md` | no | 45 | 0 | **45** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS.md` | no | 66 | 0 | **66** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS.md` | no | 48 | 0 | **48** |
-| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS.md` | no | 13 | 0 | **13** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_CANON_AND_EXACT_W_RESULTS.md` | yes | 38 | 38 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS.md` | yes | 45 | 45 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_NEVER_RESULTS.md` | yes | 66 | 66 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS.md` | yes | 48 | 48 | **0** |
+| agy-exp | `relays/AGY_EXP_TO_CC_2026-11-14_X_SURVIVAL_RESULTS.md` | yes | 13 | 13 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_WHY_FRAME_C_WALLS_EVEN_IN_THE_CUSP.md` | yes | 32 | 32 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_1_RESULTS.md` | yes | 17 | 17 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_CC_2026-11-15_X_ENDGAME_2_RESULTS.md` | yes | 15 | 15 | **0** |
@@ -80,9 +80,9 @@
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_2_RESULTS.md` | yes | 15 | 15 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_3_RESULTS.md` | yes | 16 | 16 | **0** |
 | agy-exp | `relays/AGY_EXP_TO_PHYSICAL_AND_CC_2026-11-17_X_SYNTHESIS_4_RESULTS.md` | yes | 19 | 19 | **0** |
-| agy-exp | `relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md` | no | 62 | 0 | **62** |
-| agy-exp | `relays/REVIEW_79B_AGY-EXP.md` | no | 58 | 0 | **58** |
-| agy-exp | `relays/REVIEW_80_AGY-EXP.md` | no | 131 | 0 | **131** |
+| agy-exp | `relays/AGY_TO_CC_AND_CHAT1_2026-11-11_P781_MASK_SAFE_THEOREMS.md` | yes | 62 | 62 | **0** |
+| agy-exp | `relays/REVIEW_79B_AGY-EXP.md` | yes | 58 | 58 | **0** |
+| agy-exp | `relays/REVIEW_80_AGY-EXP.md` | yes | 131 | 131 | **0** |
 | agy-exp | `relays/REVIEW_83_AGY-EXP.md` | yes | 159 | 159 | **0** |
 | agy-exp | `relays/STATUS_AGY-EXP.md` | yes | 195 | 195 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_R83_review-83.md` | no | 30 | 30 | **0** |
@@ -127,7 +127,7 @@
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-2_lowdin-petersson-amphichiral-cs-and-3family-dparity-strong-cp.md` | no | 17 | 17 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-3_all288-tropical-noncancellation-r2-286-envelope-and-radiative-vacuum-audit.md` | no | 23 | 23 | **0** |
 | agy-exp | `relays/cards/AGY-EXP_X-UNIFY-4_cross-seat-master-closure-matrix-pati-salam-corridors-and-final-0-of-19-suite.md` | no | 20 | 20 | **0** |
-| agy-exp | `self_consistent_loop/reports/phase4_unification_cap_lepton_report.md` | no | 78 | 0 | **78** |
+| agy-exp | `self_consistent_loop/reports/phase4_unification_cap_lepton_report.md` | yes | 78 | 78 | **0** |
 | agy-002-verify | `relays/AGY-002_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 65 | 65 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M33_SM_C13_ORDER5_SECOND_COMPUTATION.md` | yes | 22 | 22 | **0** |
 | agy-002-verify | `relays/AGY002_TO_CC_2026-11-15_M34_A2_AMP_AMPLITUDE_READOUT.md` | yes | 47 | 47 | **0** |
@@ -193,7 +193,11 @@
 | physical | `relays/PHYSICAL_TO_CC_AND_SEATS_2026-11-16_P_C3_NORMALIZED_VERTEX_AND_CURRENT.md` | yes | 12 | 12 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_ALL_SEATS_DEPENDENCIES_AND_NEXT_CHECKS.md` | yes | 11 | 11 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-17_X_APEX_DEFECTS_ONLY.md` | yes | 6 | 6 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_COMPLETE_CHARGED_KERNEL.md` | no | 15 | 0 | **15** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_CROSS_FORM_GLOBAL_VECTOR_RESPONSE.md` | yes | 11 | 11 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_M12_REPAIRS_RECEIVED_AND_SCOPE.md` | yes | 7 | 7 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_M9_SCOPE_CORRECTIONS_AND_CUSP_SUPPORT.md` | yes | 12 | 12 | **0** |
+| physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_MAGNETIC_FIELD_MAP_AND_CARTAN_RESPONSE.md` | yes | 24 | 24 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_2026-11-18_TICK_HIGGS_ALIGNMENT_AND_C21_COHERENT_CONTROL.md` | yes | 18 | 18 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_AND_SEATS_2026-11-16_CURRENT_SOURCE_REVIEW_AND_PREPARATION.md` | yes | 13 | 13 | **0** |
 | physical | `relays/PHYSICAL_TO_MAIN_SM_AND_AGY_EXP_2026-11-16_FRONTIER_REVIEW_AND_SOURCE_END_RESPONSE.md` | yes | 21 | 21 | **0** |
@@ -206,7 +210,7 @@
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3D_NEUTRAL_RESPONSE_AND_COMMON_FIXED_SECTOR.md` | yes | 13 | 13 | **0** |
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3E_COMPLETE_LIGHT_SYSTEM_AND_STATIONARY_FAMILIES.md` | yes | 16 | 16 | **0** |
 | physical | `relays/PHYSICAL_TO_SM_CC_AND_SEATS_2026-11-16_P_C3F_RETAINED_PAIR_AND_QUADRATIC_COLOUR_MASS.md` | yes | 12 | 12 | **0** |
-| physical | `relays/STATUS_PHYSICAL.md` | yes | 85 | 85 | **0** |
+| physical | `relays/STATUS_PHYSICAL.md` | yes | 94 | 92 | **2** |
 | physical | `relays/cards/PHYSICAL_ALL_SEATS_DEPENDENCY_REASSESSMENT_2026-11-17.md` | yes | 7 | 7 | **0** |
 | physical | `relays/cards/PHYSICAL_C3A_FOUR_SLOT_DOMAIN_TRANSPORT.md` | yes | 11 | 11 | **0** |
 | physical | `relays/cards/PHYSICAL_C3B_STATE_ORBIT_AND_SPIN_MODE.md` | yes | 12 | 12 | **0** |
@@ -214,6 +218,8 @@
 | physical | `relays/cards/PHYSICAL_C3D_NEUTRAL_SOURCE_AND_REFLECTION.md` | yes | 9 | 9 | **0** |
 | physical | `relays/cards/PHYSICAL_C3E_COMPLETE_FIXED_KERNEL_AND_FORM_RESPONSE.md` | yes | 11 | 11 | **0** |
 | physical | `relays/cards/PHYSICAL_C3F_CYCLIC_CHARGED_MASS_AND_ENDPOINT_JETS.md` | yes | 10 | 10 | **0** |
+| physical | `relays/cards/PHYSICAL_C3G_EXISTING_CROSS_FORM_RELEVANCE_2026-11-18.md` | yes | 7 | 7 | **0** |
+| physical | `relays/cards/PHYSICAL_C3H_CROSS_FORM_CHARGED_KERNEL_2026-11-18.md` | no | 6 | 0 | **6** |
 | physical | `relays/cards/PHYSICAL_C3_REGISTERED_DOMAIN_INDEX_JOIN.md` | yes | 10 | 10 | **0** |
 | physical | `relays/cards/PHYSICAL_C4_ALL_SEATS_MAIN_PREPARATION.md` | yes | 9 | 9 | **0** |
 | physical | `relays/cards/PHYSICAL_C5_FRONTIER_RESPONSE_AND_PHYSICAL_MAP.md` | yes | 8 | 8 | **0** |
@@ -272,11 +278,15 @@
 | physical | `reports/physical_bridge_2026_09_05/frontier_response_2026_11_16/SOURCE_REVIEW.md` | yes | 25 | 25 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/CUSP_INVERSE_SOURCE_SUPPORT.md` | yes | 62 | 62 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M10_H1_H3_SOURCE_REPLY.md` | yes | 28 | 28 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M12_RECORD_REVIEW.md` | yes | 21 | 21 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/M9_REGISTER_REVIEW.md` | yes | 48 | 48 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/NON_MARKDOWN_COVERAGE.md` | yes | 46 | 46 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/harvest_source_support_2026_11_18/README.md` | yes | 6 | 6 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/HAND_CHECKS.md` | yes | 47 | 47 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/input_assessment_recheck_2026_11_17/RECHECK.md` | yes | 21 | 21 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/COMPLETE_CHARGED_KERNEL_ON_THE_B_FAMILY.md` | no | 61 | 0 | **61** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/INPUTS_AND_REVIEW_DUTIES.md` | yes | 19 | 19 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/neutral_cross_form_2026_11_18/STATIONARY_BRANCH_AND_VECTOR_RESPONSE.md` | yes | 55 | 55 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/ACTUAL_NEUTRAL_SOURCE_AND_EXACT_REFLECTION.md` | yes | 29 | 29 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/COMMON_REFLECTION_REDUCTION_AND_CORE_LIFTS.md` | yes | 34 | 34 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/neutral_source_response_2026_11_16/FINDINGS.md` | yes | 16 | 16 | **0** |
@@ -327,9 +337,12 @@
 | physical | `reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_2026-11-12_HARMONIC_TRANSPORT_FIRST_RETURN.md` | yes | 2 | 2 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/ACTION_JOIN_AND_SELECTOR_REQUIREMENTS.md` | yes | 52 | 52 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/C21_EXACT_CUSP_SCOPE_AND_COHERENT_CONTROL.md` | yes | 52 | 52 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COMMUTING_STABILIZER_AND_FERMION_PRICE.md` | yes | 22 | 22 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/COVARIANT_LIFTS_AND_KINETIC_RESPONSE.md` | yes | 56 | 56 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/EXACT_GROUND_SPACE_AND_SELECTION.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FINDINGS.md` | yes | 35 | 35 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/FULL_E8_MAGNETIC_ROSTER_CONTROL.md` | yes | 20 | 20 | **0** |
+| physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/LOCAL_ACTION_FIELD_MAP_AND_RELAXED_HIGGS_RESPONSE.md` | yes | 60 | 60 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/tick_higgs_alignment_2026_11_18/WILSON_FAMILY_TRANSPORT.md` | yes | 39 | 39 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/DEFECTS.md` | yes | 61 | 61 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/x_apex_review_2026_11_17/README.md` | yes | 7 | 7 | **0** |
@@ -396,7 +409,7 @@
 | web | `relays/REVIEW_79_CHAT1.md` | yes | 61 | 61 | **0** |
 | web | `relays/REVIEW_80_CHAT1.md` | yes | 99 | 99 | **0** |
 | web | `relays/REVIEW_81_CHAT1.md` | yes | 62 | 62 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 846 | 846 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 1018 | 1018 | **0** |
 | web | `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
@@ -470,16 +483,19 @@
 | web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RESULT.md` | yes | 48 | 48 | **0** |
 | web | `relays/chat1_2026-10-23_zero_free_frame/ZERO_FREE_HOLOMORPHIC_RULE.md` | yes | 37 | 37 | **0** |
 | web | `relays/chat1_2026-11-17_wz1/EXPECTATIONS.md` | yes | 3 | 3 | **0** |
+| web | `relays/chat1_2026-11-18_rv55/rv55_findings.md` | no | 379 | 379 | **0** |
 | agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | yes | 69 | 69 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |
 | agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | yes | 17 | 17 | **0** |
-| agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 8 | **0** |
+| agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 7 | **1** |
 | sm | `relays/SM_C18_THE_TRIPLE_OVERLAPS_COVARIANCE.md` | yes | 27 | 27 | **0** |
 | sm | `relays/SM_C19_WHICH_BIT.md` | yes | 19 | 19 | **0** |
 | sm | `relays/SM_C20_THE_EXCHANGE_IS_THE_TICK.md` | yes | 22 | 22 | **0** |
 | sm | `relays/SM_C21_THE_D1_CUSP_MIXING.md` | yes | 25 | 25 | **0** |
-| sm | `relays/STATUS_SM.md` | yes | 255 | 255 | **0** |
+| sm | `relays/SM_C22_EVERY_HIGGS_VECTOR_IN_D1.md` | no | 26 | 0 | **26** |
+| sm | `relays/STATUS_SM.md` | yes | 259 | 255 | **4** |
 | sm | `relays/cards/SM_C18_the-triple-overlaps-covariance.md` | yes | 36 | 36 | **0** |
 | sm | `relays/cards/SM_C19_which-bit-is-the-higgs-ground-bit.md` | yes | 28 | 28 | **0** |
 | sm | `relays/cards/SM_C20_is-the-exchange-the-tick.md` | yes | 23 | 23 | **0** |
 | sm | `relays/cards/SM_C21_the-d1-cusp-mixing-at-the-ticks-higgs.md` | yes | 26 | 26 | **0** |
+| sm | `relays/cards/SM_C22_every-higgs-vector-in-d1.md` | no | 25 | 0 | **25** |

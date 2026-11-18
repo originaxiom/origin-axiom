@@ -1,0 +1,29 @@
+{
+ "id": "web-rv55-05",
+ "date": "2026-11-18",
+ "verdict": "CONDITIONAL",
+ "how": "the seat's own counts of its packets (units read, fine, not fine by kind, undecided) and its readers' mask disclosures: its own reading, which main did not repeat; main's own reading of the same lines is harvest row 1923",
+ "note": "",
+ "units": [
+  "web:chat1_2026-11-18_rv55/rv55_findings:19",
+  "web:chat1_2026-11-18_rv55/rv55_findings:20",
+  "web:chat1_2026-11-18_rv55/rv55_findings:21",
+  "web:chat1_2026-11-18_rv55/rv55_findings:22",
+  "web:chat1_2026-11-18_rv55/rv55_findings:23",
+  "web:chat1_2026-11-18_rv55/rv55_findings:24",
+  "web:chat1_2026-11-18_rv55/rv55_findings:25",
+  "web:chat1_2026-11-18_rv55/rv55_findings:26",
+  "web:chat1_2026-11-18_rv55/rv55_findings:27",
+  "web:chat1_2026-11-18_rv55/rv55_findings:48",
+  "web:chat1_2026-11-18_rv55/rv55_findings:109",
+  "web:chat1_2026-11-18_rv55/rv55_findings:112",
+  "web:chat1_2026-11-18_rv55/rv55_findings:165",
+  "web:chat1_2026-11-18_rv55/rv55_findings:201",
+  "web:chat1_2026-11-18_rv55/rv55_findings:272",
+  "web:chat1_2026-11-18_rv55/rv55_findings:274",
+  "web:chat1_2026-11-18_rv55/rv55_findings:322",
+  "web:chat1_2026-11-18_rv55/rv55_findings:382",
+  "web:chat1_2026-11-18_rv55/rv55_findings:384",
+  "web:chat1_2026-11-18_rv55/rv55_findings:425"
+ ]
+}

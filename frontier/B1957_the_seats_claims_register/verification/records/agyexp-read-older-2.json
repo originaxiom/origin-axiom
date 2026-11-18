@@ -1,0 +1,13 @@
+{
+ "id": "agyexp-read-older-2",
+ "date": "2026-11-18",
+ "verdict": "READ",
+ "lane": "agy-exp",
+ "how": "each read by main in full at c4c48f541; no script of the seat's run",
+ "files": [
+  "relays/AGY_EXP_TO_CC_2026-11-11_X_C2_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-11_X_C3_SPECIFICATION.md",
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS.md",
+  "relays/AGY_EXP_TO_CC_2026-11-14_X_OWN_RESULTS.md"
+ ]
+}

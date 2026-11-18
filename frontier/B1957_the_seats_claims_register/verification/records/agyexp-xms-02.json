@@ -1,0 +1,31 @@
+{
+ "id": "agyexp-xms-02",
+ "date": "2026-11-18",
+ "verdict": "PARTIAL",
+ "how": "its audit of three candidate principles for choosing between the move count and the area. ON MAIN (checks/agyexp_older_notes.py, O7): |SL(2, Z/10)| = 720 and |SL(2, Z/15)| = 2,880; modulo 2 the two letters are two transpositions of three points, so closed words at an even level have even length. ONE SLIP: the note writes K J K^-1 = -J^-1; for J = [[2, 1], [1, 1]] and K = [[0, -1], [1, 0]] it is K J K^-1 = J^-1, without the sign (the two agree projectively, and its conclusion, that the pair preserves one axis, does not depend on the sign). NOT ON MAIN: its entropy comparison (135 standard errors below the maximum), the invariance of both measures across the levels 5, 10, 15, the spectral gap 1/4 of the two-step chain, the shift by nearly five standard errors under another alphabet, and its 'bridge': that filtering the same closed geodesics by trace in place of word length moves all seven outputs onto the area values. All its own runs; main's own answer on the two measures is B1924 and B1932",
+ "note": "",
+ "units": [
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:17",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:18",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:19",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:20",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:21",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:22",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:61",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:63",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:64",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:65",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:66",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:68",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:69",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:70",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:71",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:72",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:74",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:75",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:76",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:77",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:78",
+  "agy-exp:AGY_EXP_TO_CC_2026-11-14_X_MEASURE_AND_AREA_RESULTS:79"
+ ]
+}

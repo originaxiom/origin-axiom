@@ -3,7 +3,10 @@ a bijection between a space of fields 'constant times Q in the tail, plus decayi
 Q.  Main's independent check of the steps that can be checked exactly: the reduction on the cusp, the indicial roots,
 which solutions the physical measure admits, the decay of the solution for a decaying source with explicit constants,
 and the solutions at nonzero angular frequency.  Symbolic and exact; nothing of the lane's is run (it has no code for
-this step).  What this does NOT check is listed at the end."""
+this step).  What this does NOT check is listed at the end.
+NOTED 2026-11-18 at the lane's reply to M12: the drift residual this script displays, k w exp(t) u, is for the equation
+multiplied by ell^2; in the operator L with its ell^-2 normalisation the residual carries ell^-2.
+"""
 import sympy as sp, mpmath as mp
 
 if __name__ == "__main__":

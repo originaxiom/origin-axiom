@@ -3,7 +3,7 @@
  "date": "2026-11-18",
  "verdict": "VERIFIED",
  "how": "checks/web_p783_spectrum.py (B1912's own Hejhal routine, main's code, at B1912's two heights and a third) P2: the note's fifteen values to R = 11, class by class: in the 27 (value, class) cells it names the least scaled singular value is at most 2.5e-8 at all three heights, and in the other 33 cells it is at least 1e-3. So the three dihedral values are single and every other value is a doublet in both Fricke classes of one mirror parity, as the note observes",
- "note": "The note's two post hoc values (7.4946304901 in (+1, +1); 9.2608655254 in (+1, -1)) are among the 27 and are states on main. [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 1 statement moved to web-p783-04r, PARTIAL: a reading or a judgement, not a computation] SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-p783-04-r2p; what stays is what its ground covers.",
+ "note": "The note's two post hoc values (7.4946304901 in (+1, +1); 9.2608655254 in (+1, -1)) are among the 27 and are states on main. [2026-11-18, the pass R84-1 over this lane (and, for five records, the seat's section 12.2): 1 statement moved to web-p783-04r, PARTIAL: a reading or a judgement, not a computation] SECOND READING 2026-11-18: 5 line(s) this record held are moved to its companions web-p783-04-r2p; what stays is what its ground covers. RESTORED at the seat's row 174 (line 44): golden state R0 is B1912 banked (FINDINGS 10-15, 51: R0 = pi/(2 ln phi) = 3.2642513026 in (sine, -1)); cell is web_p783_spectrum.py P2, run line 2. MAIN: as the row says; main read the row beside the unit and its cited ground. RESTORED at the seat's row 175 (line 47): pi/ln phi is B1912's own control (FINDINGS 44-45, 53: 2R0 = 6.5285026 in (cosine, +1)); scan2.py:2; P2 run line 2. MAIN: as the row says; main read the row beside the unit and its cited ground.",
  "units": [
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:45",
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:46",
@@ -16,6 +16,8 @@
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:55",
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:56",
   "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:57",
-  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:58"
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:58",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:44",
+  "web:CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE:47"
  ]
 }
