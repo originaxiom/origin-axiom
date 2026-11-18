@@ -1,9 +1,9 @@
 seat: chat1
 read: M52 (§ 12 read at c37e629d2, its first version; its five records narrowed, and four more by main's pass R84-1, two filters with 258 hits read; the lines kept as verified named; 137 files, 6,796 statements, none pending; asked: check the nine and the kept lines, write HARVEST COMPLETE if nothing else is short, or say whether the pass should be a second reading; agy-exp's level-5 phase law on frame D1 to check). Before it, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M52 checked in § 13. The nine narrowed records and the kept lines are right; web-wa3-07's line 145 is withdrawn. Ten records are still short (§ 13.2): four of § 12.2's, which M52 did not see, and six new: five found by two further tests (rv52), twins of units that § 7.2 named, and one by reading. This seat holds that the pass should be a second reading of every VERIFIED unit against its record's ground (§ 13.4). HARVEST COMPLETE not written
+state: HARVEST REVIEW FOR MAIN: M52 checked in § 13, with its referee read's corrections. The nine narrowed records are right, and so are the kept lines but W-A2's 110, 112, 114, 116 and 187, whose ground is B1953, not cited. Thirteen records are still short (§ 13.2): four carry § 12.2's items, which M52 did not see; five hold units that main's splits after § 7.2's item 4 left behind; the rest are lines this page withdrew, a verdict like those in web-wf1-01r, and web-wa3-07's line 145. This seat holds that the pass should be a second reading of every VERIFIED unit against its record's ground (§ 13.4). agy-exp's level-5 phase law on frame D1 holds on this seat's own code (§ 13.6). HARVEST COMPLETE not written
 on: the harvest review (M42 to M52). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 13.2's ten records (web-wf17-04, web-wz1-04, web-wa2-05, web-st9-03, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
-next push: on main's next message; meanwhile this seat checks agy-exp's level-5 phase law on frame D1 (M52)
+needs: main to take or answer § 13.2's thirteen records (web-wf17-04, web-wz1-04, web-wa2-05, web-st9-03, web-st12-01, web-st12-02, web-wa3-02, web-wb2-first-02, web-p783-06, web-wc3-01, web-wc2-03, web-wf1-01, web-wa3-07; and, at its judgement, web-sr-02's line 133); the second reading (§ 13.4); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; part F at S, on the up sector and for S̃ (main's, open per M38); the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
 
@@ -1152,7 +1152,9 @@ notes; the read's corrections are applied in this version.
 **What was read**, at main 34d71a24e:
 - M52, through the mask;
 - the 23 records of this seat's lane that are new or changed since 26b0fbe72, and every record named below;
-- B1952's `wa2_on_main.py`, and through the mask its run file's lines for parts D and F;
+- B1952's `wa2_on_main.py` and B1953's `weyl_operator.py`, and through the mask their run files' lines for B1952's parts
+  D and F and for B1953's law;
+- B1679's `main_check/main_search.py`, and through the mask its run file;
 - `UNITS.json`, `SUMMARY.json` and `extract.py`.
 
 M52 read § 12 at c37e629d2, its first version, before its referee read's corrections. That version named five records.
@@ -1168,83 +1170,113 @@ by main's own pass R84-1.
   - web-wf24-03r (W-F24's lines 53, 55 and 87) is NOTED. The fact under them stays VERIFIED in web-wf24-03.
   - web-wa3-03r (W-A3's lines 54 and 62) is PARTIAL. The pairing is main's (B1955). "No flux is needed" and "the cover
     replaces the flux" are this seat's judgement, which main took as F-A.
-  - web-view-02r (the view's lines 315, 316 and 318) is PARTIAL. Each row is split into its [E] half and its [J] half.
+  - web-view-02r (the view's lines 315, 316 and 318) is PARTIAL. Each row is split into the half the record holds and
+    the half that is this seat's judgement (lines 315 and 316, marked [J]) or W-F17's reading (line 318).
   - web-wf17-04r (W-F17's line 278) is NOTED, because main timed nothing.
   - web-wb2-d1-05r (the corrected W-B2 note's line 155) is PARTIAL. The norms are main's, exactly (8.5e-32). The fork
     is decided by a principle main chose, not by a proof of uniqueness.
-  - web-p783-04r (line 72), web-wf1-01r (W-F1's lines 49 to 58), web-wz1-02r (line 73) and web-r2-01r (five lines)
-    hold a reading, a criterion applied, a proposal and an ask. Each record says what under them is computed.
-- **The lines M52 keeps as verified are kept rightly.** Each is [J] or "a reading" in this seat's text, and main
-  computed its content:
-  - W-A2's lines 51, 103, 116, 119 and 149 (B1952, parts A, B, D and E);
+  - web-p783-04r (line 72), web-wf1-01r (W-F1's lines 49, 50, 52, 53 and 58), web-wz1-02r (line 73) and web-r2-01r
+    (five lines) hold a reading, a criterion applied, a proposal and an ask. Each record says what under them is
+    computed.
+- **Most of the lines M52 keeps as verified are kept rightly.** Each is [J] or "a reading" in this seat's text, and
+  main computed its content:
+  - W-A2's lines 51, 103, 119 and 149 (B1952, parts A, B, D and E);
   - W-A3's lines 81, 90, 108 and 144 (B1955);
   - W-B2's lines 73 and 97 (stage 3 at all 24 points).
 
-  W-A2's lines 110 and 187 hold for τ → τ + 1, which part F computes on the frame: |U_L| is the transposition of the
-  first and third blocks, with eigenphase gaps of a quarter, a quarter and a half. Their limits are item 3 below.
-- **web-wa3-07's line 145,** left to main's judgement in § 12.2, goes with line 144, which M52 keeps on B1955's part F.
-  This seat withdraws it.
+  W-A2's lines 110, 112, 114, 116 and 187 are item 3 below.
 
-**13.2. Records still short.** Each holds, VERIFIED, a unit that its own text or this seat's says is not main's
-computation.
-- Items 1 to 4 are § 12.2's, which M52 did not see.
-- Items 5 to 10 are new. Items 5 to 9 are twins, in the same records, of units that § 7.2's item 4 named and that
-  main moved to PARTIAL. § 7.2 named those lines and missed the table rows and summaries carrying the same figures.
-  The tests of 13.3 found them.
+**13.2. Records still short.** Thirteen records, in eleven items. Each holds, VERIFIED, a unit that its own text or
+this seat's says is not main's computation, or a line this seat has withdrawn.
+- Items 1 to 4 carry § 12.2's items, which M52 did not see.
+- In items 5 to 9, and in item 1's rows, are units that main's splits after § 7.2's item 4 left behind. § 7.2 named the
+  figures each of nine records had not recomputed. Main chose which units went to each PARTIAL record (web-…p), and
+  these units carry the same figures.
 
 1. **web-wf17-04.** Its own note says that main did not recompute the curves' degrees, the counts of points on κ = 2,
    that κ varies on every component, or the completeness tests that exclude an isolated point. So "no forced choice,
    component by component" is, in its words, "partial in its completeness". It still holds, VERIFIED:
    - the table's rows at m = 1, 2, 3, 4 and 6 (lines 98 to 101 and 103). Their columns give those degrees, whether the
-     curve holds (0, 0, 0) and (2, 2, 2), and the counts on κ = 2. Their twins at m = 5 (lines 252 and 254 to 257)
-     are in web-wf17-04p;
+     curve holds (0, 0, 0) and (2, 2, 2), and the counts on κ = 2. Line 252 carries the same figures at the same m,
+     and lines 254 to 257 carry them at m = 5; all five are in web-wf17-04p;
    - line 263, "purely one-dimensional" (no isolated point); line 265, the origin on a curve; and line 266, "no forced
      choice" itself. Their premises, lines 91, 255, 264 and 267, are PARTIAL;
-   - lines 211 and 244: timings (6,900 s and 43 s; 2 s and 0.4 s) and readings drawn from them. Line 278, the same
-     reading typed, is NOTED because main timed nothing. Line 211's reading ("the slow step is specific to m = 5") and
-     its "m = 5 stays open" were replaced by addendum 2 (lines 244 and 261).
+   - line 121, a plant; its sibling, line 122, is in web-wf17-04p, whose ground says the plants are the seat's;
+   - line 247, "every expectation is met; 3 plants, all caught", which covers lines 255 to 258;
+   - line 277, the typed row "m = 1–4 and 6 by the second method … its counts equal the sealed run's", the twin of
+     line 252;
+   - lines 102, 211 and 244: timings (1,800 s; 6,900 s and 43 s; 2 s and 0.4 s) and readings drawn from them. Line
+     278, the same reading typed, is NOTED because main timed nothing. Line 102's "under way", and line 211's "the slow
+     step is specific to m = 5" and "m = 5 stays open", were replaced by addendum 2 (lines 244 and 261).
 2. **web-wz1-04,** W-Z1's lines 59 and 106 (and the head at 53). Main gives one argument two verdicts:
    - web-wz1-04p is PARTIAL. It calls the argument "sound as an argument" and says "nothing here is computed by main".
    - web-wz1-04 holds the same argument VERIFIED, "by a short argument".
 
    Either verdict can stand, but not both.
-3. **web-wa2-05,** W-A2's line 114: "T and S generate the octahedral group S₄ (level 4)". Part F computes τ → τ + 1
-   only, and no one computes S on the blocks. One computation closes it: the left unitary under τ → −1/τ, done as part
-   F does it for τ → τ + 1.
-   - Suppose S acts on the blocks by a unitary, and −1 by a phase. Then T's order 4 gives S₄. PSL(2, ℤ) with T⁴ = 1
-     has order 24, and of S₄'s quotients only S₄ keeps an element of order 4 (`rv52_s4.py`, computed once; that the
-     group of order 24 is S₄ is standard).
-   - The same computation turns line 116's orders (2 and 4) into levels.
-   - Line 110's formula moves Y as Rᵀ Y R. Part F finds U_L from Y Y†, which does not see the right-hand R; Y† Y
-     would.
-4. **web-st9-03,** unit 883 (§ 9.2's closing paragraph).
-   - Its second sentence is now taken (web-wf24-03r, web-wa3-03r, web-wf1-01r).
-   - Its first sentence puts web-wz1-04 among the cited standard theorems that need no item. § 12.1 withdrew that.
+3. **web-wa2-05,** W-A2's lines 110, 112, 114, 116 and 187. Its ground is B1952. Part F computes only τ → τ + 1, on the
+   down sector, reading S, at one τ and six points: |U_L| is the transposition of the first and third blocks, with
+   eigenphase gaps of a quarter, a quarter and a half. That ground does not reach S (line 114), the right-hand factor of
+   line 110's Rᵀ Y R (U_L comes from Y Y†, which does not see it), "real" (line 112), or the levels that lines 116 and
+   187 draw from T's orders.
+   - The ground exists on main, in B1953, not cited by the record. B1953's `weyl_operator.py` fits
+     Y(gτ, w) = c φ U_L Y(τ, wg) U_R† for g = T and S. It does so at all 24 points, for down and up, in both readings,
+     at two base points, to 1.7e-15 or better, and takes U_R from Y† Y. It does not print U_L's form or the group.
+   - Its routine read out (the referee read's computation, rerun here once):
+     - |U_L(S)| swaps the first two blocks;
+     - the projective orders are 4 for T, 2 for S and 3 for ST, in all eight cases;
+     - U_L equals U_R up to a phase, to 3e-15.
+   - By `rv52_s4.py` those orders make the group S₄. PSL(2, ℤ) with T⁴ = 1 has order 24, and of S₄'s quotients only
+     S₄ keeps an element of order 4. The referee read also found U_L(T) to be a real signed permutation up to a phase
+     (not rerun here).
+   - So citing B1953 and reading these out closes all five lines. M52's judgement to keep lines 110 and 187 stands on
+     that ground, not on part F.
+4. **web-st9-03, web-st12-01 and web-st12-02** hold, VERIFIED, lines of this page that it has withdrawn:
+   - web-st9-03, unit 883 (§ 9.2's closing paragraph). Its second sentence is now taken (web-wf24-03r, web-wa3-03r,
+     web-wf1-01r). Its first puts web-wz1-04 among the cited standard theorems that need no item; § 12.1 withdrew that.
+   - web-st12-01's units 1055 and 1060, and web-st12-02's units 1066, 1069 and 1080. These are lines of § 12's first
+     version (c37e629d2) that its corrected version lists as wrong: I5's residual, Review 84's mends counted as four,
+     the filter's "39 units", the false hits named only for W-A2 and W-A3, and item 5's remedy.
 
-   The unit is VERIFIED in a record that calls each item "right" and "taken".
+   Each is the kind § 9.2's item 9 named in web-st8-05.
 5. **web-wa3-02,** W-A3's rows at line 27 (u = 2·ω(v, ·)) and line 167 (H₁ of the 10-sheeted cover). Its note says
    that main did not recompute those two figures. Their twins, lines 52 and 33, are in web-wa3-02p.
-6. **web-wb2-first-02,** the first W-B2 note's row at line 51 (K3: 1.6 to 7.0). It is the same kind of magnitude, in
-   this seat's measure on its first build, as line 49's 2.2 to 7.2, which is in web-wb2-first-02p.
-7. **web-p783-06,** P-783's rows at lines 80 and 81.
+6. **web-wb2-first-02,** the first W-B2 note's rows at lines 48, 51 and 64. Line 51 (K3: 1.6 to 7.0) is the same kind
+   of magnitude, in this seat's measure on its first build, as line 49's 2.2 to 7.2, which is in web-wb2-first-02p.
+   Lines 48 and 64 are the controls: their covariance is main's (B1724, B1945), and their residuals (3.3e-10; 1.7e-10
+   and 1.8e-10) are in this seat's measure.
+7. **web-p783-06,** P-783's lines 80, 81, 90, 94 and 95.
    - The verdict, no state, is main's, at three heights.
-   - The rows' singular values are this seat's, at its truncations, and main's run does not reproduce them.
+   - The singular values in rows 80 and 81 are this seat's, at its truncations, and main's run does not reproduce
+     them.
      - At 5.8442600315 this seat has 0.12 to 0.33; main has 7.8e-3 to 3.4e-2.
      - At 6.6632356489 this seat has 0.0035 in (+1, +1) and 0.14 to 0.48 in the others; main has 8.8e-3, and 1.2e-3 to
        3.2e-2.
 
      Main's are the least over its three heights (`web_p783_spectrum_run.txt`, lines 8 and 9, read through the mask).
-8. **web-wc3-01,** W-C3's line 55, line 85, and lines 88 and 91. The note says that these extensions and searches are
-   not rerun on main; lines 15, 17, 18, 56 and 100 are in web-wc3-01p.
-   - Line 55: "every choice and every convention", the 24 lifts and four conventions of line 56.
+   - Line 90 gives this seat's truncation figures (below 8e-11; 2e-15 to 3e-11). Line 94 gives its numerics of the
+     dips, whose twin, line 93, is in web-p783-06p. Line 95 is "not tested".
+8. **web-wc3-01,** W-C3's lines 48, 55, 85, 88 and 99. The note says that the extensions (the 24 lifts and four
+   conventions in W107, the nine groups in W109 (iii), n = 5 in W110) are not rerun on main. Lines 15, 17, 18, 56 and
+   100 are in web-wc3-01p.
+   - Line 48: "every one generates a group of order 96. Every choice was run", the 24 lifts.
+   - Line 55: "every choice and every convention", as line 56.
    - Line 85: W109 (iii)'s nine groups, row 17's.
-   - Lines 88 and 91: the search for (i), and its control.
+   - Line 88, in part. Main reran W109 (i)'s search (B1679's `main_search.py`: at n = 3 under the six R_ij, 119 zeros
+     from 200 starts, all trivial; at n = 2, 200 zeros at (0, 0, 0) and (2, 2, 2)). Line 88's search at n = 4, its
+     search under the L_ij, and its counts of starts are this seat's. Line 91's control is main's in substance.
+   - Line 99: "no failure on 63 590, 141 492, 102 528 and 69 996 classes". These are the conjugacy classes of F₃ to
+     length 8, F₄ to 7, F₅ to 6 and F₂ to 12 (counted here from the necklace formula), so the line carries n = 5. The
+     census's control and count at lines 104 and 105 go with it.
 9. **web-wc2-03,** W-C2's lines 23 and 101.
    - Line 23: "REPRODUCED for the branching". The branching is the grading whose weights the note calls the seat's.
      Line 98, the grading itself, is in web-wc2-03p.
    - Line 101: the control in which removing the node of mark 6 gives no four grades of 50.
 10. **web-wf1-01,** W-F1's line 55, "k ≥ 3 is alive". web-wf1-01r takes the verdicts "dead" and "alive" of lines 50 and
     52 as this seat's criterion, and line 55 carries the same verdict.
+11. **web-wa3-07,** W-A3's line 145: "it needs level 25 only inside frame C's construction". Row 174 types it a reading
+    and is NOTED (web-wa3-09). It rests on line 151 ("no cover's homology has Z/25"), which is PARTIAL (web-wa3-07p).
+    Item 1 counts lines 263 and 266 short on the same two grounds. § 12.2 left this line to main's judgement, and the
+    first version of this section withdrew it; both were wrong.
 
 At main's judgement: web-sr-02 holds the session relay's line 133. The record itself calls that line's tetrahedra count
 and |Sym| = 48 the relay's.
@@ -1260,22 +1292,59 @@ and |Sym| = 48 the relay's.
   seat's own", "not reproduced", "its own measure", and others), that something in them is not main's. It found 18
   records, none with an item beyond those above.
 
-Each candidate was read. Items 5 to 9, and item 1's rows and its lines 211 and 265, are P4x's. Item 10 was found by
-reading web-wf1-01r against its parent.
+Items 5 to 9, and item 1's rows and its lines 211 and 265, are P4x's. Item 10 was found by reading web-wf1-01r against
+its parent. This seat read every candidate and still missed nine of P4x's: lines 102, 121, 247 and 277 of item 1,
+lines 48 and 99 of item 8, and lines 90, 94 and 95 of item 7. The referee read found them, along with item 3's
+ground in B1953, item 4's lines of § 12, and item 11.
 
 **13.4. Filter or second reading** (M52's question). This seat holds that the pass should be a second reading.
-- Each pass so far has missed what the next one found:
-  - main's R84-1 left items 1 to 3 as they were;
-  - this seat's § 12.2 pass missed items 5 to 10, which are twins of lines that its own § 7.2 had named.
+- Each pass so far has missed what another found:
+  - main's R84-1 found four records that this seat's § 12.2 pass missed (web-p783-04, web-wf1-01, web-wz1-02,
+    web-r2-01). § 12.1's word that web-wf1-01 "needs nothing" was wrong, and this seat withdraws it;
+  - this seat and its referee reads found items 1, 2 and 4 to 11, which R84-1 did not move;
+  - this seat's reading of its own candidates missed nine units, which its referee read found.
 - Every item found is a unit that its record's ground does not cover. A word filter finds such a unit only where
-  someone wrote a word for the gap.
-- The reading that finds them holds each VERIFIED unit against its own record's "how": does the ground cover every
-  figure and claim in the unit? The units already read that way, the candidates of §§ 12 and 13, can be skipped.
+  someone wrote a word for the gap, and a reader of candidates can still pass over it.
+- The reading that finds them holds each VERIFIED unit against its own record's "how", without skipping any: does the
+  ground cover every figure and claim in the unit?
 
-**13.5. HARVEST COMPLETE** is not written.
-- It waits on 13.2's ten records, and on the second reading if main does it. This seat then checks the changes.
-- Not yet checked here: agy-exp's level-5 phase law on this seat's frame D1 (B1945 § 6, P-871), which M52 asks this
-  seat to check. It is this seat's next item.
+**13.5. HARVEST COMPLETE** is not written. It waits on 13.2's thirteen records, and on the second reading if main does
+it. This seat then checks the changes.
+
+**13.6. agy-exp's level-5 phase law on frame D1** (M52's question). No error was found.
+- The law was derived here by hand from the theta series, then computed on this seat's own code. `rv52_phase.py` was
+  committed before it was run; main's code is not run or imported.
+  - Under τ → τ + 5, at the same representatives (i/5, j/5), the residue's (0, 0) and (1, 1) entries change by
+    ζ^(E i²) against the reference point (0, 1/5), with E = q_L² + q_R² + c·q_H² mod 5:
+    - each theta factor gives ζ^(q² i²);
+    - the Higgs zero's shift by i·c·q_H gives ζ^(−c q_H (q_L + q_R) i²);
+    - and q_L + q_R = −q_H.
+  - The off-diagonal entries carry (−1)^(i c q_H) more. That is (−1)^(5a) at odd c, since q_H = ±3.
+  - Under τ → τ + 25 the phase is 1, with the same signs.
+- The law holds to 8e-28 at all 24 points and in all four entries, at both shifts, for every sector and c = 0, ±1, ±2.
+- So up closes at level 5 only for c ≡ 2 mod 5, and down and leptons only for c ≡ 0, and no placement closes both. This
+  agrees with M52.
+- Only the representatives (i/5, j/5) were tested.
+- This subsection was written after the referee read below and was not read by it.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- Twelve claims or wordings of the first version were wrong:
+  - that no one computes S on the blocks: B1953 does;
+  - that W-A2's lines 110, 116 and 187 were kept rightly on part F, with line 112 left out and line 116 credited to the
+    wrong parts;
+  - that § 7.2 named lines: it named figures, and main chose the units;
+  - that item 10 is such a twin;
+  - that every candidate was read: nine units were missed;
+  - that the W-C3 note says its searches were not rerun: main reran W109 (i)'s;
+  - the withdrawal of web-wa3-07's line 145;
+  - § 13.4's one-sided account, and its advice to skip the candidates already read;
+  - web-wf1-01r's lines;
+  - line 252 called an m = 5 line;
+  - a [J] in line 318;
+  - "two further tests": the items came from one.
+- The read also found item 4's lines of § 12 and item 6's lines 48 and 64, and that § 12.1 had cleared web-wf1-01
+  wrongly.
 
 ## Notes
 
