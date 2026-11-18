@@ -1,0 +1,23 @@
+{
+ "id": "physical-bal-03",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "statements about the lane's actual fields and operator, not verified by main: that its charged form modes commute with the background's spin pair and satisfy the gauge-slice equation (its (1), from its preceding kernel proof); that in its E6 background the kernel of P_v is exactly Q; that the essential spectrum of P_v is above zero with a compact-core inverse off Q; the regularity of the correction for its explicit source; and what the result does and does not say about a join. They hold if the lane's model and its earlier proofs are as stated. The file itself lists them as duties of an independent review, and says that the all-orders branch needs the nonlinear argument of the next file",
+ "note": "",
+ "units": [
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:3",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:11",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:15",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:17",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:33",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:49",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:55",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:95",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:115",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:140",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:149",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:154",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:161",
+  "physical:physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION:168"
+ ]
+}

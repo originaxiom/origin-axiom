@@ -1,0 +1,10 @@
+{
+ "id": "web-st6-02",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "recounted by main from UNITS.json and the records at d44ed1564: the web lane had 16 files and 1,228 statements there, 205 verified, 5 superseded, 110 noted, 908 pending. The seat's figures exactly",
+ "note": "",
+ "units": [
+  "web:STATUS_CHAT1:387"
+ ]
+}

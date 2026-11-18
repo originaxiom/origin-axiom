@@ -1,0 +1,22 @@
+{
+ "id": "agyaudit-p753-05",
+ "date": "2026-11-17",
+ "verdict": "CONDITIONAL",
+ "how": "statements about the lanes' own operator, which main has not verified (B1866's claim 11, 'the lane's'): which mode carries which character; how the modes split on one background (1 + 1 + 1 and 2 + 1); the table over all 248 dimensions (112 and 136, split 37, 33, 33, 33; the singlet-triplet parity law); the coincidence of the fibre's stabiliser of order 16 with the parity stabiliser inside the lifted tower; the Szego residues. They hold if the lanes' operator and its kernel are as the lanes state them",
+ "note": "",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:38",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:51",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:52",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:53",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:54",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:55",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:90",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:91",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:92",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:93",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:94",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:95",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:96"
+ ]
+}

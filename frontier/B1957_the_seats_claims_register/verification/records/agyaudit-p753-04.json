@@ -1,0 +1,10 @@
+{
+ "id": "agyaudit-p753-04",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "main's B1866 (the relay scrutinised claim by claim on main's own code, verification/join_scrutiny.py, 2026-11-10), claim 8: 'the triplet is the symmetric square of no 2-dimensional representation of the double cover' is true as stated, and needs the qualifier main found: it is the symmetric square of a doublet of the braid group (t D with t = zeta_48^15, living on a further double cover), and projectively it is the symmetric square of the level-2 doublet. The note's sentence is one half of that",
+ "note": "",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:77"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "agyaudit-cross-02",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the elementary part holds: a disc of fixed physical radius in a metric of fixed physical area has coordinate radius eps_phys sqrt(Im tau/A_phys), and putting L = -log(eps_coord) into L + (1/2) log Im tau cancels the half-logarithm, leaving a modular-invariant scale; and, as the note itself says, this fixes the invariant coordinate of the end's scale and does not remove the scale (B1921, B1927). That both terms 'acquire an operator-theoretic origin' in the lane's six-dimensional cusp action is the lane's identification, in its own upstream model, not checked by main",
+ "note": "",
+ "units": [
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:24",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:26",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:28",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:29",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:30",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:32"
+ ]
+}

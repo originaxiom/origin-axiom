@@ -1,0 +1,13 @@
+{
+ "id": "agyaudit-read-01",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "agy-audit",
+ "how": "read by main in full at the lane's head d1c71f255, through the mask; nothing run",
+ "files": [
+  "relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md",
+  "relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md",
+  "relays/STATUS_AGY.md",
+  "relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md"
+ ]
+}

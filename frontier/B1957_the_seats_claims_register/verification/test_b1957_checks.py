@@ -213,3 +213,16 @@ def test_frame_d1_at_the_pole_is_frame_c_at_shifted_charges_and_off_it_a_non_per
     h = 2 * qh * (D.f2m(a) * t + D.f2m(b)); x, y = D.chars(ql, a, b), D.chars(qr, a, b); xp, yp = D.chars(ql - qh, a, b), D.chars(qr - qh, a, b)
     lg = [(D.mp.im(u), D.mp.log(abs(D.malt(x, y, h, u - h, t)[0, 0] / D.B.bil_mp(xp, yp, u, t)[0][0]))) for u in (D.mp.mpc("0.21", "0.13"), D.mp.mpc("-0.17", "0.31"))]
     assert abs((lg[1][1] - lg[0][1]) / (lg[1][0] - lg[0][0]) + 2 * D.mp.pi * 2 * qh * D.f2m(a)) < 1e-20                # k = -2 pi c q_H a
+
+
+def test_the_two_step_scheme_gives_the_q_moment_one_minus_rho_squared_and_a_point_independent_of_the_projection():
+    import physical_c3e_two_steps as P
+    t = 0.02; g = lambda rho, w=np.zeros(4): P.h(t, rho, w) / t ** 2
+    assert abs(g(0.7) - P.EQ * (1 - 0.49)) < 5e-3 and abs(g(1.3) - P.EQ * (1 - 1.69)) < 5e-3                           # the lane's (7); a wrong sign or power of rho fails
+    assert abs((g(1 + 1e-4) - g(1 - 1e-4)) / 2e-4 + 2 * P.EQ) < 5e-3                                                  # slope -2 e_Q at rho = 1
+    w = np.array([0.7, -0.4, 0.5, 0.3]); inv = []
+    for ww in (np.zeros(4), w):
+        rho = P.brentq(lambda x: P.h(0.1, x, ww), 0.5, 1.5, xtol=1e-15); X = P.act(P.first_step(0.1, rho, ww), P.raw(0.1, rho)); m4, mq = P.moment(X)
+        assert np.abs(m4).max() < 1e-12 and abs(mq) < 1e-12                                                          # the complete moment vanishes
+        inv.append([np.vdot(f, f).real for f in X])
+    assert np.abs(np.array(inv[0]) - np.array(inv[1])).max() < 1e-10 and abs(inv[0][4] - 0.01) > 1e-5               # one point for both projections, and not the raw one

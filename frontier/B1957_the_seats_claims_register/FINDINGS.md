@@ -216,6 +216,35 @@ noted, and none is pending.
   citing an unlanded draft for 8 days), and an edit of the register made while a landing was at its gates. Both are
   mended; one old debt was paid on the way (P-092: the claim page's cubic row now says that with Higgs content in
   27s the down quarks and the charged leptons have one spectrum).
+- **The web seat's lane is settled in full: 24 files, 1,850 statements, none pending** (791 verified, 144 partial, 22
+  superseded, 893 noted). Its view's five own checks are redone by hand; its cards and log are read.
+- **The agy audit lane is settled in full: 4 files, 124 statements, none pending** (44 verified, 13 conditional, 17
+  partial, 50 noted).
+  - Its closed form for the shifted Kronecker limit is, term by term, the function main's own frame uses (B1919's);
+    its cusp criterion follows from it, and its worked example is right by hand.
+  - Its note on the register-to-field join was scrutinised claim by claim in B1866. Its revision after B1866 (the
+    'half-form' channels) is tested as algebra (`checks/agyaudit_p753_halfforms.py`): the four orders 96, 288, 72 and 24
+    are right; which of its modes carries which line is its own analysis and stays conditional.
+- **The web seat's third reply (its status page, section 6, written before M45) is read and registered** (23
+  statements). It checked main's records of M44 against its own sources and found them right. Its recount of the
+  register at main d44ed1564 is exact on main's recount (1,228 statements, 908 pending there). Everything on its list
+  of owed items has been done since, except W-L1's calibration of one row (a comparison with data: noted, not
+  recomputed). It has not written HARVEST COMPLETE and has not yet answered M45.
+- **What the physical lane's registered statements are (found 2026-11-18).** Of its 10,952, 7,645 are rows of
+  `docs/SEAL_LEDGER.md`, a generated view its branch carries from before the window. The lane changed that file by ten
+  inserted lines (`checks/physical_seal_ledger.py`: no removal; the base's 9,411 lines are the head's first 9,411).
+  - The three seals in those lines are verified: each hash is that of a version of the named file in the branch's
+    history.
+  - The other rows are noted as not this lane's work. Counts reported before this date overstated the lane's share:
+    its own material is about 3,300 statements in 135 files.
+- **The physical lane's P-C3e, the nonlinear part** (the two implicit-function steps to a local stationary family, and
+  the second-order correction on balanced forms): both proof files read in full.
+  - The algebra holds in a model of main's own with the same structure (`checks/physical_c3e_two_steps.py`): the sign
+    and factor in d mu(I k psi) = -2 k†k psi, the gauge parameter of order t², the Q moment t² e_Q (1 − ρ²) with slope
+    −2 e_Q, independence of the auxiliary projection, the mass 4 e_Q² t², the cancelled quadratic moment.
+  - A finite-dimensional model has no analysis in it. What carries the argument to the lane's fields on the cusp (the
+    bounded inverse between weighted spaces, analyticity there, the centraliser being Q alone, regularity) is
+    **conditional**, as the lane itself says: an author's proof, review pending, no input removed.
 - **Tools that check a note without running a seat's code:** `checks/custody.py` (commits named, their order, the
   scripts' literals and imports by parsing) and `checks/figures.py` (every number a note quotes, searched in the
   sealed outputs it names; every hash manifest against its file).

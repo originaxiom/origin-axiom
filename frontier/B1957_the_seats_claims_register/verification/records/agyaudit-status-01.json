@@ -1,0 +1,17 @@
+{
+ "id": "agyaudit-status-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "the lane's status page: what it committed and corrected (its worked example in the cross-branch note, corrected by hand check: verified in agyaudit-cross-04), and its own check state of its upstream stages (recomputed by its own counterchecks, which main does not run)",
+ "note": "",
+ "units": [
+  "agy-audit:STATUS_AGY:10",
+  "agy-audit:STATUS_AGY:11",
+  "agy-audit:STATUS_AGY:12",
+  "agy-audit:STATUS_AGY:13",
+  "agy-audit:STATUS_AGY:14",
+  "agy-audit:STATUS_AGY:15",
+  "agy-audit:STATUS_AGY:16",
+  "agy-audit:STATUS_AGY:17"
+ ]
+}

@@ -8,10 +8,10 @@
 | agy-002-verify | 11 | 11 | 500 | 284 | 3 | 0 | 52 | 0 | 161 | **0** |
 | agy-002-endgame | 12 | 12 | 207 | 92 | 8 | 19 | 21 | 0 | 67 | **0** |
 | agy-002-closure | 18 | 18 | 271 | 105 | 1 | 28 | 32 | 0 | 91 | **14** |
-| physical | 136 | 4 | 10952 | 21 | 0 | 18 | 1 | 0 | 3 | **10909** |
-| web | 24 | 24 | 1850 | 791 | 0 | 0 | 144 | 22 | 893 | **0** |
-| agy-audit | 4 | 0 | 124 | 0 | 0 | 0 | 0 | 0 | 0 | **124** |
-| **all** | 293 | 74 | 16003 | 1313 | 12 | 94 | 267 | 22 | 1221 | **13074** |
+| physical | 136 | 5 | 10952 | 57 | 0 | 42 | 1 | 0 | 7648 | **3204** |
+| web | 24 | 24 | 1873 | 805 | 0 | 0 | 144 | 22 | 902 | **0** |
+| agy-audit | 4 | 4 | 124 | 44 | 0 | 13 | 17 | 0 | 50 | **0** |
+| **all** | 293 | 79 | 16026 | 1407 | 12 | 131 | 284 | 22 | 8925 | **5245** |
 
 ## By file
 
@@ -146,7 +146,7 @@
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7B-REFEREE-ERRATUM_svd-projector-and-numpy-bool-json.md` | yes | 4 | 4 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7B_same-dim-scale-nullity-analytic-casimir-tm1-gap-and-e8-roles.md` | yes | 21 | 21 | **0** |
 | agy-002-closure | `relays/cards/AGY-002_CLOSURE-G7_p862-kill-lines-epistemic-dag-and-master-handoff.md` | yes | 20 | 20 | **0** |
-| physical | `docs/SEAL_LEDGER.md` | no | 7649 | 0 | **7649** |
+| physical | `docs/SEAL_LEDGER.md` | no | 7649 | 7649 | **0** |
 | physical | `relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md` | no | 11 | 0 | **11** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_NEXT_DERIVATIONS.md` | no | 24 | 0 | **24** |
 | physical | `relays/PHYSICAL_TO_AGY_EXP_AND_CC_2026-11-15_RELATIVE_REGISTER_BOUNDARY_LAW.md` | no | 11 | 0 | **11** |
@@ -209,10 +209,10 @@
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/PRIOR_WORK_RECONCILIATION.md` | no | 7 | 0 | **7** |
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/REVIEW_BRIEF.md` | no | 9 | 0 | **9** |
 | physical | `reports/physical_bridge_2026_09_05/cyclic_charged_mass_2026_11_16/SECOND_ORDER_MAP_AND_NORMALIZED_PHYSICAL_MASS.md` | no | 43 | 0 | **43** |
-| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md` | no | 34 | 0 | **34** |
+| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/BALANCED_FORM_TANGENTS_AND_ACTUAL_MOMENT_CORRECTION.md` | yes | 34 | 34 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md` | no | 33 | 0 | **33** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_PHYSICAL_KERNEL_AND_CORE_CHARACTERS.md` | no | 26 | 0 | **26** |
-| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md` | yes | 47 | 25 | **22** |
+| physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/CUSP_GAUGE_INVERSE_AND_LOCAL_STATIONARY_BRANCH.md` | yes | 47 | 47 | **0** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS.md` | no | 18 | 0 | **18** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/NEUTRAL_STATIONARY_FAMILY_AND_FULL_E8_PENCIL.md` | no | 37 | 0 | **37** |
 | physical | `reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/REVIEW_BRIEF.md` | no | 11 | 0 | **11** |
@@ -299,14 +299,14 @@
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-H1_THE_HARVEST_CHECKED_FROM_OUTSIDE.md` | yes | 54 | 54 | **0** |
 | web | `relays/CHAT1_TO_CC_2026-11-17_W-Z1_WHERE_ZETA_SITS_IN_THE_OBJECT.md` | yes | 50 | 50 | **0** |
 | web | `relays/CHAT1_VIEW_ON_SELECTION_AND_DICTIONARY.md` | yes | 189 | 189 | **0** |
-| web | `relays/STATUS_CHAT1.md` | yes | 259 | 259 | **0** |
+| web | `relays/STATUS_CHAT1.md` | yes | 282 | 282 | **0** |
 | web | `relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md` | yes | 18 | 18 | **0** |
 | web | `relays/cards/CHAT1_W-A2_deriving_postulate_d.md` | yes | 37 | 37 | **0** |
 | web | `relays/cards/CHAT1_W-A3_the_cover_the_class_and_the_up_sector.md` | yes | 69 | 69 | **0** |
 | web | `relays/cards/CHAT1_W-L1_the_look_at_tau_i.md` | yes | 26 | 26 | **0** |
 | web | `relays/cards/CHAT1_W-V1_view_on_selection_and_dictionary.md` | yes | 11 | 11 | **0** |
 | web | `relays/chat1_2026-11-17_wz1/EXPECTATIONS.md` | yes | 3 | 3 | **0** |
-| agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | no | 69 | 0 | **69** |
-| agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | no | 30 | 0 | **30** |
-| agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | no | 17 | 0 | **17** |
-| agy-audit | `relays/STATUS_AGY.md` | no | 8 | 0 | **8** |
+| agy-audit | `relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md` | yes | 69 | 69 | **0** |
+| agy-audit | `relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md` | yes | 30 | 30 | **0** |
+| agy-audit | `relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md` | yes | 17 | 17 | **0** |
+| agy-audit | `relays/STATUS_AGY.md` | yes | 8 | 8 | **0** |

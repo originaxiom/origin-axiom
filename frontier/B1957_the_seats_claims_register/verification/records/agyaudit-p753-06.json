@@ -1,0 +1,19 @@
+{
+ "id": "agyaudit-p753-06",
+ "date": "2026-11-17",
+ "verdict": "PARTIAL",
+ "how": "the revision made after B1866 (the 'actual half-form bundles'), tested by main as algebra with B1866's code (checks/agyaudit_p753_halfforms.py): a triplet induced from the stabiliser, twisted by the character of eta^3, has order 96, centre 4, S^4 = -1; twisted by eta or its conjugate, order 288 with centre 12; the spinor line's triplet twisted by eta, order 72 with centre 12; untwisted, 24 and 6. Those are the note's four orders. With the signs the note gives for (L^2, S), (-1, -1), the eta^3 twist is equivalent to the conjugate of the weave's triplet and the conjugate twist to the triplet itself: the pair the note names, with the two labels the other way round in main's convention. With the signs B1866 used, (-1, +1) on (L^2, S_theta), the eta^3 twist has order 96 and is equivalent to neither; there the twist that gives the triplet is chi_9, as B1866 found. NOT CHECKED: that the lanes' modes carry these lines and these powers of eta; that is the lanes' analysis of their own operator",
+ "note": "So the orders are right as algebra, and 'the physical channel is the weave's triplet' rests on the lanes' assignment of signs and weights, which main has not verified. That the three channels admit no map between them follows from their different centres and orders.",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:35",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:97",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:98",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:99",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:100",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:101",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:102",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:115",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:116",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:117"
+ ]
+}

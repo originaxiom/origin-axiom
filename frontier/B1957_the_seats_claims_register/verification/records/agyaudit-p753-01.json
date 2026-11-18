@@ -1,0 +1,23 @@
+{
+ "id": "agyaudit-p753-01",
+ "date": "2026-11-17",
+ "verdict": "NOTED",
+ "how": "what the note addresses, its tags, its files on the lane's branch (not run by main) and what it read",
+ "note": "The literature it lists is standard and not read at its source for this register.",
+ "units": [
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:5",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:6",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:7",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:8",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:9",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:10",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:11",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:12",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:19",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:20",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:22",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:23",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:24",
+  "agy-audit:AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN:25"
+ ]
+}

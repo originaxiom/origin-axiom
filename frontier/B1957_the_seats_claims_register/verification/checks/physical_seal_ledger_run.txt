@@ -1,0 +1,4 @@
+L1: lines added 10, removed 0; the base's 9411 lines are the first 9411 lines of the head's 9421, unchanged: True; inserted lines that are table rows: 3
+L2: DESIGN.md, sha256 63b76d5d82e8...: the file had this hash in 1 commit(s) of the branch, first at d5b9afdf6 (2026-11-16 02:24); the commit its note names, 12755db8a, is the same as or before that version's first commit
+L2: SPECIFICATION.json, sha256 d320ac1de951...: the file had this hash in 1 commit(s) of the branch, first at d5b9afdf6 (2026-11-16 02:24)
+L2: SPECIFICATION.json, sha256 0a755649dffe...: the file had this hash in 1 commit(s) of the branch, first at ca02b5d8d (2026-11-16 02:28)

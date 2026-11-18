@@ -1,0 +1,10 @@
+{
+ "id": "web-read-10",
+ "date": "2026-11-17",
+ "verdict": "READ",
+ "lane": "web",
+ "how": "the status page re-read by main at the seat's new head 8988eaf3d (section 6 added)",
+ "files": [
+  "relays/STATUS_CHAT1.md"
+ ]
+}

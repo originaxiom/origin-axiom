@@ -17681,7 +17681,7 @@
     "L1"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 9,
+   "obstacle_conf": 10,
    "status": "dormant",
    "domain": "arithmetic"
   },

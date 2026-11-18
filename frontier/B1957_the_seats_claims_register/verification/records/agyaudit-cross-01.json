@@ -1,0 +1,17 @@
+{
+ "id": "agyaudit-cross-01",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the closed form of the shifted-lattice Kronecker limit is, term by term, the function main's own frame uses (B1940's frame_mp.F_u, 'B1919's closed form', read in its source): for a non-integer first shift, -pi (log y + 2 log 2 + psi(a) + psi(1 - a)) plus the sum over rows of (2 pi/|m|) Re(q/(1 - q)); for an integer first shift, pi (2 gamma - 2 log 2 - log y) plus the zero-row term pi^2 y/sin^2(pi b). So the lane's formula and main's are one",
+ "note": "The lane's own check ('computed once' against the Hurwitz-Bessel definition at fifty digits) is its own; main's B1919 and B1924 carry the same form with their own checks.",
+ "units": [
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:3",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:11",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:13",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:15",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:16",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:17",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:18",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:20"
+ ]
+}

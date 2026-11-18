@@ -1,0 +1,14 @@
+{
+ "id": "agyaudit-cross-04",
+ "date": "2026-11-17",
+ "verdict": "VERIFIED",
+ "how": "the cusp-integrability criterion follows from main's own F_u: with a non-integer first shift it grows as -pi log y, integrable against dx dy/y^2; with an integer first shift and non-integer second it carries the zero-row term pi^2 y/sin^2(pi b), linear in the height, whose integral against the area diverges logarithmically. The worked example, by hand: for the mark (2/5, 4/5) and the odd shift (1/2, 1/2), u = (-1/10, 3/10); the matrix with columns (3, 1) and (2, 1) sends it to (0, 1/10), and sends the mark to (2, 8/5) and the shift to (2, 3/2). So some cusps of the level-5 curve do carry the linear term, and a read-out over the whole surface must use bounded observables: this is what B1945 and the web seat's W-F25 found at the points with a = 0",
+ "note": "",
+ "units": [
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:50",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:52",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:53",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:54",
+  "agy-audit:AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES:56"
+ ]
+}

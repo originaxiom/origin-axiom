@@ -1,0 +1,16 @@
+T1: |(-i[a_x, a_y]) - [a, a^dagger]/2| = 6.7e-16
+T2: at the background, d mu(I k psi) = -P psi: |P - 2 k^dagger k| = 2.1e-10 (P by numerical derivative; its eigenvalues [1.5279, 8.0, 8.0, 10.4721], all positive: nothing off Q is unbroken); |k_Q|^2 = 0.0, so Q is the whole kernel
+T3: |psi(t, 1)| at t = [0.2, 0.1, 0.05, 0.025]: ['2.48e-02', '7.25e-03', '1.89e-03', '4.79e-04']; ratios ['3.429', '3.824', '3.953'] (4 means O(t^2)); psi/t^2 against P^-1 of the quadratic source: 3.1e-03 at t = 0.025, 7.9e-04 at t = 0.0125 (falling as t^2)
+T4: rho = 0.7: h/t^2 at t = 0.1, 0.05, 0.025: 0.463399, 0.497687, 0.506877; e_Q (1 - rho^2) = 0.510000
+T4: rho = 1.0: h/t^2 at t = 0.1, 0.05, 0.025: -0.037912, -0.010043, -0.002549; e_Q (1 - rho^2) = 0.000000
+T4: rho = 1.3: h/t^2 at t = 0.1, 0.05, 0.025: -0.706682, -0.694495, -0.691146; e_Q (1 - rho^2) = -0.690000
+T4: d(h/t^2)/d rho at rho = 1, t = 0.01: -1.99951 (the lane: -2 e_Q = -2.0)
+T5: the plain projection, t = 0.20: rho(t) = 0.930522, (rho - 1)/t^2 = -1.7369; moments left 1.1e-16 and 3.5e-17; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.89271
+T5: the plain projection, t = 0.10: rho(t) = 0.980415, (rho - 1)/t^2 = -1.9585; moments left 2.6e-16 and 6.9e-18; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.96928
+T5: the plain projection, t = 0.05: rho(t) = 0.994936, (rho - 1)/t^2 = -2.0257; moments left 3.3e-16 and 4.3e-19; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.99202
+T5: a skew projection, t = 0.20: rho(t) = 0.930522, (rho - 1)/t^2 = -1.7369; moments left 1.1e-16 and 0.0e+00; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.89271
+T5: a skew projection, t = 0.10: rho(t) = 0.980415, (rho - 1)/t^2 = -1.9585; moments left 2.5e-16 and 1.7e-18; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.96928
+T5: a skew projection, t = 0.05: rho(t) = 0.994936, (rho - 1)/t^2 = -2.0257; moments left 1.1e-16 and 1.3e-18; the Q vector's mass^2/(4 e_Q^2 t^2) = 0.99202
+T5: the two projections give the same final point up to a real gauge rotation: invariants differ by 2.2e-16 (t = 0.20), 1.0e-17 (t = 0.10), 4.4e-16 (t = 0.05)
+T6: balanced, |P| = |R|: after the second-order correction beta = I k P^-1(source), the moment off Q at eps = 0.1, 0.05, 0.025: ['4.4e-16', '4.4e-16', '4.4e-16'] (the quadratic moment is cancelled; in this model the later terms vanish too, by the SU(2) structure, so this shows the cancellation and not the lane's order eps^3); the Q moment: ['3.5e-18', '8.7e-19', '2.2e-19'] (e_Q eps^2 (|P|^2 - |R|^2) = 0.00e+00 at eps = 0.025)
+T6: unbalanced, |R| = 0.6 |P|: after the second-order correction beta = I k P^-1(source), the moment off Q at eps = 0.1, 0.05, 0.025: ['4.4e-16', '4.4e-16', '4.4e-16'] (the quadratic moment is cancelled; in this model the later terms vanish too, by the SU(2) structure, so this shows the cancellation and not the lane's order eps^3); the Q moment: ['6.4e-03', '1.6e-03', '4.0e-04'] (e_Q eps^2 (|P|^2 - |R|^2) = 4.00e-04 at eps = 0.025)

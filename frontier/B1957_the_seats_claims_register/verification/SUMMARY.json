@@ -54,42 +54,42 @@
   },
   "physical": {
    "files": 136,
-   "read": 4,
+   "read": 5,
    "units": 11241,
    "statements": 10952,
-   "VERIFIED": 21,
+   "VERIFIED": 57,
    "REFUTED": 0,
-   "CONDITIONAL": 18,
+   "CONDITIONAL": 42,
    "PARTIAL": 1,
    "SUPERSEDED": 0,
-   "NOTED": 3,
-   "PENDING": 10909
+   "NOTED": 7648,
+   "PENDING": 3204
   },
   "web": {
    "files": 24,
    "read": 24,
-   "units": 2052,
-   "statements": 1850,
-   "VERIFIED": 791,
+   "units": 2076,
+   "statements": 1873,
+   "VERIFIED": 805,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 144,
    "SUPERSEDED": 22,
-   "NOTED": 893,
+   "NOTED": 902,
    "PENDING": 0
   },
   "agy-audit": {
    "files": 4,
-   "read": 0,
+   "read": 4,
    "units": 144,
    "statements": 124,
-   "VERIFIED": 0,
+   "VERIFIED": 44,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 13,
+   "PARTIAL": 17,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 124
+   "NOTED": 50,
+   "PENDING": 0
   }
  },
  "files": {
@@ -1775,13 +1775,13 @@
    "units": 7853,
    "statements": 7649,
    "read": false,
-   "VERIFIED": 0,
+   "VERIFIED": 4,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 7649
+   "NOTED": 7645,
+   "PENDING": 0
   },
   "physical | relays/PHYSICAL_C7_ONE_PAGE_DEPENDENCIES_2026-11-17.md": {
    "lane": "physical",
@@ -2593,14 +2593,14 @@
    "lane": "physical",
    "units": 36,
    "statements": 34,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 20,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
+   "CONDITIONAL": 14,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 0,
-   "PENDING": 34
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/COMPLETE_CUBIC_AND_GLOBAL_PAIRING_RANKS.md": {
    "lane": "physical",
@@ -2633,13 +2633,13 @@
    "units": 50,
    "statements": 47,
    "read": true,
-   "VERIFIED": 4,
+   "VERIFIED": 16,
    "REFUTED": 0,
-   "CONDITIONAL": 18,
+   "CONDITIONAL": 28,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
    "NOTED": 3,
-   "PENDING": 22
+   "PENDING": 0
   },
   "physical | reports/physical_bridge_2026_09_05/fixed_sector_light_system_2026_11_16/FINDINGS.md": {
    "lane": "physical",
@@ -3761,15 +3761,15 @@
   },
   "web | relays/STATUS_CHAT1.md": {
    "lane": "web",
-   "units": 274,
-   "statements": 259,
+   "units": 298,
+   "statements": 282,
    "read": true,
-   "VERIFIED": 157,
+   "VERIFIED": 171,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 102,
+   "NOTED": 111,
    "PENDING": 0
   },
   "web | relays/cards/CHAT1_W-A1_the_attack_on_selection_and_the_dictionary.md": {
@@ -3854,53 +3854,53 @@
    "lane": "agy-audit",
    "units": 81,
    "statements": 69,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 31,
    "REFUTED": 0,
-   "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "CONDITIONAL": 13,
+   "PARTIAL": 11,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 69
+   "NOTED": 14,
+   "PENDING": 0
   },
   "agy-audit | relays/AGY_TO_MAIN_2026-11-14_CROSS_BRANCH_BRIDGE_AND_MEASURES.md": {
    "lane": "agy-audit",
    "units": 34,
    "statements": 30,
-   "read": false,
-   "VERIFIED": 0,
+   "read": true,
+   "VERIFIED": 13,
    "REFUTED": 0,
    "CONDITIONAL": 0,
-   "PARTIAL": 0,
+   "PARTIAL": 6,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 30
+   "NOTED": 11,
+   "PENDING": 0
   },
   "agy-audit | relays/AGY_TO_MAIN_2026-11-14_PRINCIPLE_NOTE_SURVIVAL_VS_CHOICE.md": {
    "lane": "agy-audit",
    "units": 19,
    "statements": 17,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 17
+   "NOTED": 17,
+   "PENDING": 0
   },
   "agy-audit | relays/STATUS_AGY.md": {
    "lane": "agy-audit",
    "units": 10,
    "statements": 8,
-   "read": false,
+   "read": true,
    "VERIFIED": 0,
    "REFUTED": 0,
    "CONDITIONAL": 0,
    "PARTIAL": 0,
    "SUPERSEDED": 0,
-   "NOTED": 0,
-   "PENDING": 8
+   "NOTED": 8,
+   "PENDING": 0
   }
  }
 }
