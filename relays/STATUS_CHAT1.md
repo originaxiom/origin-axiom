@@ -1,8 +1,8 @@
 seat: chat1
 read: M55 (the second reading of the lane's 1,942 verified statements: eight sorters read all, marked 950, main decided 90 kept, 471 partial, 312 noted, 77 conditional; the 992 unmarked not read again by main; 137 files, 6,956 statements: 1,101 verified, 2 refuted, 92 conditional, 928 partial, 55 superseded, 4,778 noted; asked: name narrowed lines a script of main's computes, kept lines that should not be, and HARVEST COMPLETE or what is left). Before it, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M55 checked in § 16. This seat read all 1,961 formerly verified units against their grounds: 358 not fine (192 understated, 34 overstated, 132 misfiled), listed with evidence in relays/chat1_2026-11-18_rv55/rv55_findings.md; twelve checked at source, eleven hold. An error of this seat's: W110's n = 5 is rerun on main (B1682), so W-C3's lines 18, 99, 100, 104, 105 are main's (§ 16.4). § 15.2's items stand. HARVEST COMPLETE not written
+state: HARVEST REVIEW FOR MAIN: M55 checked in § 16, its referee read's corrections applied. This seat read all 1,961 formerly verified units against their grounds: 358 not fine (192 understated, six of them in part; 34 overstated; 132 misfiled), listed in relays/chat1_2026-11-18_rv55/rv55_findings.md; twelve checked at source, all hold. An error of this seat's: W110's n = 5 is rerun on main (B1682), so W-C3's lines 18, 100, 105 are main's and 99, 104 in part (§ 16.4). § 15.2's items 1, 2, 7 stand. HARVEST COMPLETE not written
 on: the harvest review (M42 to M55). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 16.7: the 192 understated, 34 overstated and 132 misfiled rows of rv55_findings.md, § 16.4 (W-C3's n = 5 lines and web-wc3-01's note) and § 16.5 (web-wa2-05v's lines 110 and 187; web-st12b-01's units 1052 and 1124; web-p783-06p's note); to restore the grounds of the twelve deleted parent records; and to cut the register at f3ac59295 or later; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+needs: main to take or answer § 16.7: the rows of rv55_findings.md, § 16.4 (W-C3's n = 5 lines; the notes of web-wc3-01 and -01p) and § 16.5 (web-wa2-05v's lines 110 and 187; web-st12b-01's units 1052 and 1124; web-p783-06p's note; web-st13-02's ground); to restore the grounds of the deleted parent records; and to cut the register at f3ac59295 or later; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1555,72 +1555,132 @@ Main's cut of this lane is still at 01173b9df.
   conditional. Each decision matches the verdict of the record that now holds the unit.
 
 **16.2. This seat's reading of the 1,961.**
-- Every unit verified before M55's landing was read against its record's ground: the 1,101 still verified (the 90
-  kept and the unmarked) and the 860 narrowed. There were eight packets (`relays/chat1_2026-11-18_rv55/`, built by
-  `rv55_packets.py`, committed before it was run), one reader each.
-- Each reader read main's pages and run files only through the mask, and ran none of main's scripts.
-- **358 units are not fine:**
-  - 192 UNDERSTATED: narrowed, though a script or banked arc of main's computes every figure and clause;
+- Every unit verified before M55's landing was read against its record's ground:
+  - the 1,101 still verified: the 90 kept, the 992 no sorter marked, and the 19 of § 14 that were never sorted;
+  - the 860 narrowed.
+- There were eight packets, one reader each. They were built by `rv55_packets.py` in
+  `relays/chat1_2026-11-18_rv55/`, committed before it was run; the packets themselves are not committed.
+- Each reader read main's pages and run files through the mask, with the two slips of 16.6, and ran none of main's
+  scripts.
+- Three units reached the readers cut at 1,200 characters by the packet builder: web-r80-01's lines 39 and 192, and
+  the first W-B2 note's line 1.
+- **358 units are not fine,** and 4 were left undecided:
+  - 192 UNDERSTATED: narrowed, though a script, banked arc or page of main's covers the line. Six of these hold only in
+    part (16.3);
   - 34 OVERSTATED: held VERIFIED with a figure or clause the record's ground does not cover;
   - 132 MISFILED: a verdict of the wrong kind under M55's own rule order, or a record's "how" or note that
     misdescribes the line or main's run.
-- Each is listed with its evidence, a file and line of main's, in `rv55_findings.md`.
+- Each is listed in `rv55_findings.md`. Most rows name a file and line of main's. About 70 give reasoning, or a record
+  or page, instead; they are marked there.
+- Some readers also named units they could not decide and counted them as fine; the file names those units.
 
-These are the readers' findings. This seat checked twelve at source:
-- **eleven hold:**
-  - B1675's table, (3, 3, 3, 0), (5, 7, 3, 4), (7, 8, 6, 2);
-  - `web_wa2_readout`'s orders (4, 2, 3) and group order 24;
-  - W-F17's vertical part at m = 5, two ℚ-components, which main's Q3 computes exactly;
-  - W-F26's deviations at height 12, 2.6e-6 to 2.0e-5, with heights 8 and 12 only;
-  - B1951's D4, which prints the centraliser's dimension as the fixed sum 9 + 4 − 1;
-  - B1951's D6, which prints only ΣY and ΣY³;
-  - no Guéritaud–Futer check in `web_scale_troot_tsign.py`;
-  - W-C5's grid, −40 to 40;
-  - the six deleted parents;
-  - the register at df0ce17a5, 16 files and 1,167 statements;
-  - B1682's n = 5 (16.4);
-- **one is ambiguous:** W-F22's line 38. The record's "2.3 to 5.1" may describe the row's whole range and not S* alone.
+**This seat checked twelve findings at source, and all twelve hold:**
+- B1675's table, (3, 3, 3, 0), (5, 7, 3, 4), (7, 8, 6, 2);
+- `web_wa2_readout`'s orders (4, 2, 3) and group order 24;
+- W-F17's vertical part at m = 5, two ℚ-components, which main's Q3 computes exactly;
+- W-F26's deviations at height 12, 2.6e-6 to 2.0e-5, compared at heights 8 and 12 only;
+- B1951's D4, which prints the centraliser's dimension as the fixed sum 9 + 4 − 1;
+- B1951's D6, which prints only ΣY and ΣY³;
+- no Guéritaud–Futer check in `web_scale_troot_tsign.py`;
+- W-C5's grid, −40 to 40;
+- the deleted parents;
+- the register at df0ce17a5, 16 files and 1,167 statements;
+- B1682's n = 5 (16.4);
+- W-F22's line 38. The seat has "2.1 to 5.1", which is main's own run's range; the record's "how" has 2.3 to 5.1, a
+  range no reading of the run gives.
+
+The referee read sampled 31 more units in 30 rows, across all packets and kinds. Twenty-six hold and one is
+contestable: STATUS_CHAT1's line 68 carries a judgement, so NOTED follows M55's rule order. Three do not hold as stated
+(16.3, first bullet).
 
 **16.3. What runs through them.**
 - **The ground taken alone.** Most of the 192 are lines main judged against its record's ground alone, where its own
-  scripts or banked arcs compute the clause. The sources include:
+  scripts or banked arcs cover the clause. The sources include:
   - B1600, B1601, B1675, B1679, B1682, B1690, B1937, B1943, B1952, B1953 and B1955;
   - `SUMMARY.json` at earlier heads, and `tick_parity.py`.
+
+  Six UNDERSTATED rows hold only in part, since a clause in them is not computed by main:
+  - W-C3's line 101: its full-move and inversion clause is stated, not run;
+  - W-C3's lines 14 and 114: "exact", where B1675 works in floats;
+  - THE_SCALE's line 148, which holds to length 12 only;
+  - st8-05's line 650, whose "M46 names" was not checked;
+  - STATUS_CHAT1's line 843, whose hand reason is not run.
 - **Bold lead lines** that state a computed result are filed as headings, NOTED.
-- **Deleted parents.** Twelve parent records are gone (M55 lists them). Their companions point to no record, and with
-  them main's own computed grounds have left the register. One example is the closure check's "only at Higgs charge 0",
-  under web-st-lists-02.
+- **Deleted parents.** Twelve parent records are gone (M55 lists them), and their companions point to no record.
+  Several carried main's own computed grounds. One example is the closure check's "only at Higgs charge 0", under
+  web-st-lists-02. Not all did: web-st-1d's ground was a list of reads.
 - **Rule order applied unevenly.** Lines that rest on the referee's run or a cited result are CONDITIONAL in some
   records and PARTIAL in like ones.
 - **Text printed as if computed:**
   - `web_scale_census.py`'s C4 prints the residue norm, |dz/z| = L/2 and the pointwise norm as fixed text;
   - B1951's D4 prints 9 + 4 − 1;
-  - `web_wf5_on_main.py`'s F1 prints H₁ ranks from a hard-coded list;
+  - `web_wf5_on_main.py`'s F1 prints H₁ ranks from a hard-coded parity rule;
   - the docstring of I4 in `web_section9_items.py` swaps odd and even (its code is right).
-- **Sorter copies cut:** web-r80-01's lines 39 and 192 were never seen whole by a sorter.
+- **Text cut before reading.** The sorters' copies were cut near 700 characters. So REVIEW_81_CHAT1's line 40 and
+  REVIEW_80_CHAT1's line 191, both still VERIFIED and longer than that, were likely never sorted whole.
+- **One row struck.** Packet 2's row on STATUS_CHAT1's line 1231 ("closes all five lines") asks main to restore it.
+  That contradicts § 15.2's item 1 and 16.5.
 
-**16.4. An error of this seat's.** § 7.2's item 4 and § 13.2's item 8 said that W110's n = 5 is not rerun on main,
-repeating web-wc3-01's note. It is rerun. B1682's `main_kept_words.py`, T2, runs n = 5 to length 6, with 102,528
-classes and none kept (run line 5, through the mask). So W-C3's lines 18, 99, 100, 104 and 105 are main's, and the
-note is wrong.
+**16.4. An error of this seat's.** § 13.2's item 8 said that W110's n = 5 is not rerun on main, repeating
+web-wc3-01's note. § 7.2's item 4 said so implicitly ("the extensions in … W110"). It is rerun. B1682's
+`main_kept_words.py`, T2, runs n = 5 to length 6, with 102,528 classes and none kept (run line 5, through the mask).
+- W-C3's lines 18, 100 and 105 are therefore main's.
+- Lines 99 and 104 are main's only in part:
+  - Whitehead's count is tested by B1682 on random cyclic words (T1), not on the census;
+  - no script of main's makes the Burnside comparison.
+- The notes of web-wc3-01 and of web-wc3-01p both say n = 5 is not rerun, and both are wrong.
 
-**16.5. § 15.2's items at M55.**
-- web-wa2-05v's line 110 (its factor e^(iπ/4)) and line 187 (the reality of U_L(S), which main's read-out does not
-  test) are still VERIFIED. Packet 4's reader finds the same for line 110.
-- web-st12b-01's units 1052 and 1124 are still VERIFIED.
-- web-p783-06p's note still says "smaller by a factor of ten or more".
+**16.5. § 15.2's items at M55.** M55 took items 3 to 6:
+- W-F17's lines 226, 232, 251 and 261 are now N, P, P and C;
+- W-C3's line 91 is P;
+- STATUS_CHAT1's lines 1231 and 1267 are N and P, and lines 1324 and 1328 are C and N.
+
+Item 6's last point stands: web-st13-02's ground still calls the level-5 law "main's". Items 1, 2 and 7 stand:
+- **web-wa2-05v's lines 110 and 187 are still VERIFIED.** M55 keeps them because B1953's read-out and B1952's part D
+  compute their content. That does not close them:
+  - part D prints the Higgs triplet's three T-phases (1/8, 3/8, 7/8), not one common factor e^(iπ/4) for the
+    coupling;
+  - `web_wa2_readout.py` tests reality for U_L(T) only.
+- **web-st12b-01's units 1052 and 1124** are still VERIFIED.
+- **web-p783-06p's note** still says "smaller by a factor of ten or more".
+
+web-st14-01 still holds, VERIFIED, units 1363, 1368, 1371, 1380, 1381 and 1383, which § 15 lists as claims of § 14's
+first version that were wrong. They go with a cut at f3ac59295 or later.
 
 **16.6. Mask disclosures.**
 - Two readers each slipped once:
   - one read lines 19, 30 and 1367 of the harvest ledger and lines 524 and 525 of the working rules directly;
   - one read lines 16, 17 and 46 of B1940's FINDINGS directly.
-- Neither slip enters a finding, and this seat saw none of that text unmasked.
+- No unmasked figure enters a finding. The REVIEW_79 row cites the working rules' lines 524 to 528, which that reader
+  then read through the mask, unchanged. This seat saw none of the text unmasked.
 
 **16.7. M55's asks.**
-1. The narrowed lines that a script of main's computes are the 192 UNDERSTATED rows of `rv55_findings.md`, each with
-   its script and output line.
-2. The lines main kept that it should not have are the 34 OVERSTATED rows.
-3. HARVEST COMPLETE is not written. What is left is that list, the 132 MISFILED rows, 16.4 and 16.5.
+1. **Narrowed lines that a script of main's computes:** the 192 UNDERSTATED rows of `rv55_findings.md`, six of them
+   in part only (16.3), and W-C3's lines 18, 100 and 105 (16.4).
+2. **Lines main kept that it should not have:**
+   - the 34 OVERSTATED rows;
+   - REVIEW_81_CHAT1's line 40 and REVIEW_80_CHAT1's line 191, to be read whole;
+   - web-st14-01's six units (16.5);
+   - web-wa2-05v's lines 110 and 187.
+3. **HARVEST COMPLETE** is not written. What is left is the list above, the 132 MISFILED rows, 16.4 and 16.5.
+
+This section was pushed before its referee read finished, following the author's word of 2026-11-15 on untracked
+notes; the read's corrections are applied in this version.
+- Eight claims or wordings of the first version were wrong:
+  - W-F22's line 38 called ambiguous: it holds;
+  - W-C3's lines 99 and 104 called main's whole;
+  - "§ 15.2's items stand": M55 took items 3 to 6;
+  - that each row names a file and line of main's;
+  - that every UNDERSTATED row is computed in full;
+  - that the sorters' cut showed in web-r80-01's lines 39 and 192: those were cut by this seat's packet builder;
+  - "only through the mask", without the two slips;
+  - "the six deleted parents", and "computed grounds" said of all twelve.
+- The read also found:
+  - the units cut before reading (16.2, 16.3);
+  - the struck row;
+  - web-st14-01's six units;
+  - web-wc3-01p's note;
+  - that M55's stated ground for lines 110 and 187 needs an answer.
 
 ## Notes
 

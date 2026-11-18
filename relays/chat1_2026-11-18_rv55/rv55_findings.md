@@ -2,31 +2,47 @@
 
 Every unit of this seat's lane that was VERIFIED before M55's landing (1,961: the 1,101 still verified and the 860 that
 M55 narrowed) was read against its record's ground, in eight packets built by `rv55_packets.py` (committed before it
-was run), one reader per packet. Each reader read main's Markdown pages, run files and commit messages only through
-the mask, read main's scripts and JSON directly, and ran none of main's scripts. Two readers disclosed a slip of the
-mask; both are recorded under their packets, and neither slip enters a finding.
+was run), one reader per packet. Each reader read main's Markdown pages, run files and commit messages through the
+mask, read main's scripts and JSON directly, and ran none of main's scripts. Two readers disclosed a slip of the mask,
+each recorded under its packet; no unmasked figure enters a finding.
 
 Kinds: UNDERSTATED, a narrowed unit whose figures and clauses a script or banked arc of main's does compute;
 OVERSTATED, a unit held VERIFIED with a figure or clause its record's ground does not cover; MISFILED, a verdict of the
 wrong kind under M55's own rule order, or a record's "how" or note that misdescribes the line or main's run.
 
-Each row gives its evidence: a file and line of main's, read as the reader states. These are the readers' findings,
-not yet each checked here: this seat checked twelve of them at source (status page, § 16.2).
+Each row gives its evidence, in most rows a file and line of main's, read as the reader states. These are the readers' findings,
+not yet each checked here: this seat checked twelve of them at source and the referee read sampled 31 more
+(status page, § 16.2).
 
-| packet | read | fine | understated | overstated | misfiled |
-|---|---|---|---|---|---|
-| 1 | 246 | 189 | 15 | 3 | 39 |
-| 2 | 245 | 202 | 24 | 4 | 15 |
-| 3 | 245 | 215 | 10 | 1 | 17 |
-| 4 | 245 | 183 | 41 | 4 | 17 |
-| 5 | 245 | 205 | 23 | 5 | 12 |
-| 6 | 245 | 188 | 38 | 4 | 13 |
-| 7 | 245 | 200 | 26 | 5 | 14 |
-| 8 | 245 | 217 | 15 | 8 | 5 |
-| all | 1,961 | 1,599 | 192 | 34 | 132 |
+| packet | read | fine | understated | overstated | misfiled | undecided |
+|---|---|---|---|---|---|---|
+| 1 | 246 | 189 | 15 | 3 | 39 | 0 |
+| 2 | 245 | 202 | 24 | 4 | 15 | 0 |
+| 3 | 245 | 215 | 10 | 1 | 17 | 2 |
+| 4 | 245 | 183 | 41 | 4 | 17 | 0 |
+| 5 | 245 | 205 | 23 | 5 | 12 | 0 |
+| 6 | 245 | 188 | 38 | 4 | 13 | 2 |
+| 7 | 245 | 200 | 26 | 5 | 14 | 0 |
+| 8 | 245 | 217 | 15 | 8 | 5 | 0 |
+| all | 1,961 | 1,599 | 192 | 34 | 132 | 4 |
 
-Packets 3 and 6 each left two units undecided (counted under "fine" above); packet 4 also has two findings on records'
-own notes.
+Packets 2, 5, 7 and 8 also name units they could not decide and counted them as fine. Packet 4 also has two findings
+on records' own notes. Three units reached the readers cut at 1,200 characters by the packet builder (web-r80-01's lines
+39 and 192; the first W-B2 note's line 1).
+
+**Corrections after this list's referee read** (the status page, § 16):
+- About 70 rows name no file and line of main's, giving reasoning, a record or a page instead. Among the UNDERSTATED
+  rows: STATUS_CHAT1's 467, 509, 1045 and 1176; st8-05's 644, 649 and 650; and the R2S rows, which cite pages verbatim.
+- Six UNDERSTATED rows hold only in part:
+  - W-C3's line 101: its full-move and inversion clause is not run;
+  - W-C3's lines 14 and 114: "exact", where B1675 works in floats;
+  - THE_SCALE's line 148: to length 12 only;
+  - st8-05's line 650: "M46 names" not checked;
+  - STATUS_CHAT1's line 843: the hand reason is not run.
+- Packet 2's row on STATUS_CHAT1's line 1231 is struck. It contradicts the status page's § 15.2, item 1.
+- Packet 8's W-F22 line 38 row holds: the seat's line has 2.1 to 5.1, main's run's range; the record's 2.3 to 5.1 is
+  no reading of the run.
+- W-C3's n = 5 lines: see the status page's § 16.4.
 
 ## Packet 1
 Units read 246 in 17 parent records; fine 189; not fine 57 (UNDERSTATED 15; OVERSTATED 3; MISFILED 39; of these 11 marked "low", a judgement call under M55's order).
