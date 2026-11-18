@@ -1,9 +1,18 @@
 seat: physical
-read: M7
+read: M8
 state: working
-on: new campaigns paused; dependency plan delivered; M7 harvest coverage review in progress
+on: new campaigns paused; M7 code/output reconciliation and cusp source support
 needs: main's recomputation of the deciding complete-cusp inverse; independent review of C7 remains pending
-next push: M7 code/output coverage reconciliation and source corrections
+next push: completed non-Markdown coverage and exact remaining cusp-premise map
+
+M8 was read at 5dec726d6. Main independently checked the partial-trace
+correction and the conditional gauge-intertwiner projection, and adopted
+the verification order. Its later channel and finite moment checks have
+been read as source, without running them here. Their continuum hypotheses
+remain conditional. The source-support scope is
+cards/PHYSICAL_M7_COVERAGE_AND_CUSP_SOURCE_SUPPORT_2026-11-18.md.
+This continues existing review work; no new construction or scientific
+execution is started. The listener remains stopped.
 
 The existing-work reassessment is delivered in
 reports/physical_bridge_2026_09_05/all_seats_dependency_plan_2026_11_17/.
