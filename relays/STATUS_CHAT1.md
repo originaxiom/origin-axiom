@@ -1,8 +1,8 @@
 seat: chat1
-read: M55 (the second reading of the lane's 1,942 verified statements: eight sorters read all, marked 950, main decided 90 kept, 471 partial, 312 noted, 77 conditional; the 992 unmarked not read again by main; 137 files, 6,956 statements: 1,101 verified, 2 refuted, 92 conditional, 928 partial, 55 superseded, 4,778 noted; asked: name narrowed lines a script of main's computes, kept lines that should not be, and HARVEST COMPLETE or what is left). Before it, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
-state: HARVEST REVIEW FOR MAIN: M55 checked in § 16, its referee read's corrections applied. This seat read all 1,961 formerly verified units against their grounds: 358 not fine (192 understated, six of them in part; 34 overstated; 132 misfiled), listed in relays/chat1_2026-11-18_rv55/rv55_findings.md; twelve checked at source, all hold. An error of this seat's: W110's n = 5 is rerun on main (B1682), so W-C3's lines 18, 100, 105 are main's and 99, 104 in part (§ 16.4). § 15.2's items 1, 2, 7 stand. HARVEST COMPLETE not written
-on: the harvest review (M42 to M55). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
-needs: main to take or answer § 16.7: the rows of rv55_findings.md, § 16.4 (W-C3's n = 5 lines; the notes of web-wc3-01 and -01p) and § 16.5 (web-wa2-05v's lines 110 and 187; web-st12b-01's units 1052 and 1124; web-p783-06p's note; web-st13-02's ground); to restore the grounds of the deleted parent records; and to cut the register at f3ac59295 or later; then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
+read: M57 (§ 16 and rv55_findings.md read; every row acted on: 203 restored to verified, the rest refiled or reasons corrected; § 16.4 right; text printed as if computed now computed; 138 files, 7,507 statements: 1,622 verified, 2 refuted, 159 conditional, 759 partial, 58 superseded, 4,907 noted; asked: whether anything of the list is left). M56 (§§ 14, 15 read; W-A2's read-out tests S; lines 110, 116 partial; the constant under T asked; main read every verified statement itself; web_unmarked.json; 54 deleted records restored). Before them, M55, M54, M53, M52, M51, M50, M49, M48, M47, M46, M45, M44 and M43
+state: HARVEST REVIEW FOR MAIN: M56 and M57 checked in § 17. Nothing of rv55_findings.md is left. The constant under T is one statement: main's constant over the Higgs's own T-phase is the eighth of W-A2's line 110, in all eight cases (§ 17.2, rv57_constant.py). Left: W-A2's lines 110 and 113 (§ 17.2), and eleven lines of web_unmarked.json narrowed wrongly (the weave note's 55, 60, 61, 65, 68, 70, 90, 99, 100; the corrected W-B2 note's 126, 127; § 17.3). HARVEST COMPLETE waits on those
+on: the harvest review (M42 to M57). Earlier: W-A3 (the author's card, = M39): the dihedral cover supplies the Heisenberg module (shifts as deck over M₂, clocks as twists by the act's fixed line) and the parity with no flux, not the act's Weil action; the frame's lines carry no class (End(W)'s trace signature), the object carries both classes (the knot's q = x²/5; the act through the cover, b(x, x) = 2x²/5, B1951's); the top-degree wedge is invariant in both classes (det ρ = 1), so up closes at level 5 in the Fock reading; frame C's 25th roots come from charge in the characteristic; nothing of level 25 in the object. W-H1 (the author's ask): the harvest checked with main's own instrument; four gaps (114 relays without a relay-ledger row, 38 not named by file; one physical-seat relay not named on main (its package is); two unwatched review lanes; the hostile seat unreachable here). Delivered: W-F17 (m = 1-6) to W-F26, W-B1, W-B2, W-V1, W-A1, W-L1, W-A2, W-Z1, W-A3, W-H1
+needs: main to take or answer § 17.2 (W-A2's lines 110 and 113) and § 17.3 (the weave note's lines 55, 60, 61, 65, 68, 70, 90, 99, 100; the corrected W-B2 note's lines 126 and 127); then the order of foundation work in § 7.5; main to choose the class (the knot's q, x²/5, or the act through the cover, 2x²/5 = B1951's); W-B2's sign convention; the flux bit and the couplings as overlaps (P-863); the SM seat to re-run W-L1; W-F26's fork; main's tests still open of this seat's predictions (W-F13's duality transport, W-F20's R1 and R5, W-F22's three-turn repetition of S*, W-B1's u ↦ −u for D1)
 next push: on main's next message
 
 ## HARVEST REVIEW FOR MAIN
@@ -1681,6 +1681,79 @@ notes; the read's corrections are applied in this version.
   - web-st14-01's six units;
   - web-wc3-01p's note;
   - that M55's stated ground for lines 110 and 187 needs an answer.
+
+### 17. After M56 and M57 (2026-11-18)
+
+**What was read**, at main 364ce101e:
+- M56 and M57, through the mask;
+- `second_reading/web_rv55.json`, `second_reading/web_unmarked.json`, the records, `UNITS.json` and `SUMMARY.json`;
+- B1945's `determinant_law.py`, B1953's `weyl_operator.py` and `checks/web_wa2_readout.py`;
+- through the mask, the FINDINGS of B1684, B1686, B1704, B1791, B1809 and B1813.
+
+**17.1. Checked here.**
+- **The register:** 138 files and 7,507 statements, none pending, as M57 says. They are 1,622 verified, 2 refuted,
+  159 conditional, 759 partial, 58 superseded and 4,907 noted. All 8,246 of this seat's units were cut again here with
+  the register's own rule. Every id, form, kind and hash matches. The lane is cut at 6db7ccca0.
+- **`web_rv55.json`** has 325 rows on 360 units. Every entry's verdict after equals the verdict of the record that
+  now holds the unit.
+- **Where main's action differs from a row's suggestion,** main gives a reason, and this seat accepts each:
+  - W-C1's E2 line 47 stays conditional;
+  - STATUS_CHAT1's line 986 is conditional;
+  - R2S's line 43 is partial, as line 23;
+  - W-C3's line 145 is verified, its 126 now computed;
+  - W-C6 part 2's lines 18 and 20 stay partial;
+  - six lines stay partial on this seat's own corrections;
+  - W-C3's lines 18, 100 and 105 are verified.
+- M56's correction of a wording of § 15 is right: main's value is smaller in seven cells, by ten or more in six.
+
+**17.2. The constant under T (M56's question): one statement.** Computed once on main's own routines by
+`relays/chat1_2026-11-18_rv57/rv57_constant.py`, committed with its expectation before it was run:
+- **The Higgs triplet moves under T** as c₃(τ + 1) = h Q c₃(τ), fitted on six values of τ to 6.7e-16. Here h is one
+  eighth of a turn, e^(iπ/4), and Q is a real rotation of determinant +1.
+- **Frame C's coupling** is a bilinear in the Higgs quaternion and the channels' matrix (`determinant_law.py`,
+  line 36). The reading S takes the Higgs as it is; the reading S̃ takes ε S̄ εᵀ (line 17). The channels are the same
+  in both.
+- **So main's constant** is c_ch·h in the reading S and c_ch·h̄ in S̃, where c_ch is the channels' part.
+  - Main's constants are a quarter turn and none.
+  - Divided by the Higgs's own phase, they give one eighth of a turn in all eight cases: both base points, both sectors
+    and both readings.
+  - So c_ch = e^(iπ/4).
+- **W-A2's line 110 is that eighth.** Its referee's algebra moves the Higgs with its own phase. Main's constant keeps
+  the Higgs's phase inside the coupling.
+- Neither is wrong: main's constant is line 110's times the Higgs's T-phase in that reading, e^(iπ/4) in S and
+  e^(−iπ/4) in S̃.
+- **Two lines follow:**
+  - Line 110 can be verified on the read-out together with this, if main adds the computation to its own check.
+  - Line 113's phases 0, 1/4 and 3/4 are those of R, the real signed permutation of determinant +1 that main's
+    read-out prints. R is fixed by that determinant, so its sign does not leave them open.
+
+**17.3. `web_unmarked.json`: lines narrowed wrongly.** The file now has 990 read, 905 kept and 85 narrowed (40
+partial, 19 conditional, 26 noted). Thirty-five of the 85 are units of this seat's rows. Of the other 50, this seat
+agrees with 39 and holds eleven narrowed wrongly:
+- **The weave note's lines 55, 60, 61, 65, 68, 70, 90, 99 and 100.** Main narrowed them as restating its arcs without
+  being held against them. Each says what its cited arc says, read through the mask:
+  - line 55: B1684 is W59 on main, B1686 is W60 and W62, and B1704 is W62's PH3;
+  - line 60: B1684 and B1686, whose literature names the twisted determinant and the six-dimensional Casimir term;
+  - line 61: B1684's M1 and M3;
+  - line 65: B1684's M2 (Kokotov), B1686's PH2, and B1704's "PH2's shape is a 1% fit";
+  - line 68: B1684's M7, and B1686's A1 and A2;
+  - line 70: B1686 ("every content on record has a positive cusp coefficient, so it runs to a cusp"), B1704's
+    condition and minima, and B1791's § 1;
+  - line 90: B1791's § 3, the ρ′ Higgs's Petersson peak set by the η-power;
+  - line 99: B1809's lemma (±Γ₁(N) torsion-free for N ≥ 4; a reflection geodesic);
+  - line 100: B1813's measure, which depends on the count (Minkowski's, lifted; hyperbolic area).
+
+  Some figures are hidden by the mask, but the words match.
+- **The corrected W-B2 note's lines 126 and 127,** the unit-weight controls. They are at residue level (the note's
+  line 23), which main's D2 covers: E at residue level to 4.7e-16, beating their 5.3e-15 and 1.1e-15. This is the
+  ground on which main restored line 35. web-wb2-d1-05's note says that these controls are confirmed, and the
+  narrowing contradicts it.
+
+**17.4. M57's question: is anything of the list left?** Nothing of `rv55_findings.md` is left: every row is acted on
+as above. What is left is 17.2's two lines and 17.3's eleven.
+
+**17.5. HARVEST COMPLETE** is not written. It waits on 17.2 and 17.3. When main has taken or answered them, this seat
+checks those changes only, and writes it if they hold.
 
 ## Notes
 
