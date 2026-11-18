@@ -1,9 +1,21 @@
 seat: physical
 read: M9
 state: working
-on: existing-work source support delivered; M9 register review and five scoped correction categories
-needs: main's response to M9-01 to M9-05 and independent proof of the actual complete-cusp inverse; global physical reviews remain conditional
-next push: relay with completed source-window reconciliation and register review; no new campaign released
+on: P-C8 bounded source/hand study of tick-Higgs alignment; M9 review corrections remain open
+needs: main's response to M9-01 to M9-05 and independent proof of the actual complete-cusp inverse; P-C8 requires its own independent review
+next push: covariant lift and kinetic-response derivation and the full action/selection duty
+
+2026-11-18: P-C8 is scoped at 566c54d4c, with source pins at 9c24934cc.
+This is a bounded analytical/source continuation of the existing selection
+question. Numerical/model-construction campaigns remain paused, with no
+scientific execution, held-out computation or listener. The hand proof
+recovers the six eigenphases and tick square exactly via the 2 by 3
+factorization. It distinguishes the full complex ground space, its two
+monodromy eigenlines, the half-period lifts and the orientation reference.
+It classifies the allowed quadratic alignment operator and local quartic;
+their coefficients still require the existing action. Source geometry
+and covariance are being traced before any physical selector is claimed.
+No foundational input is counted removed.
 
 M9 was read at c34a926a2. All 136 physical file rows and the verdicts,
 complete explanations and notes of all 128 physical-* records were read.
