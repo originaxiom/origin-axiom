@@ -267,4 +267,40 @@ them by more than 1e-2. K2: above 1e-3. K3: the classes' G₃ ratios differ by m
 **What is printed.** Frame C's Gramian ratios at two points, as the ruling allows. Nothing is compared with data, and
 nothing with B1953's printed values. Main may compare the transcription with its own.
 
+## Step 2, the direct tests (W-P1b-I)
+
+**Why.** W-P1b's second referee read found three gaps.
+- K1 does not test the class. O's singular values are invariant under T for every labelling, because the D's are
+  symmetric Weyl operators.
+- Class 1's failure under γ with the record's labelling was inferred from T and S only.
+- O's singular values were computed in both classes but not printed.
+
+The read computed these itself. This follow-up computes them on this seat's committed code. It is not blind: the read's
+numbers are known (residuals of 1e-13 against 0.1 to 0.3; 20, 20 and 440 labellings under γ; 4, 4 and 472 under T and
+S). Written before the script.
+
+**What, fixed now.** The same couplings as W-P1b-H, recomputed with its code. The run is `wp1b_frame.py`'s text up to
+its main.
+- **L1, ρ_a directly.** For each labelling K ∈ {I, diag(1, 3), diag(1, 4)} and each class a ∈ {1, 2}, compare the
+  W-side Gramian Γ(τ) = tr_families(O_K O_K†) at τ + 1 with ρ_a(T) Γ(τ) ρ_a(T)†. The largest entry of the difference,
+  over that of Γ(τ), at both base points and readings. The family unitaries cancel in this trace.
+- **L2, γ on W.**
+  - The largest residual of ρ_a(γ) D(Kv) ρ_a(γ)⁻¹ against D(K A(γ) v) over the 24 labels, for K ∈ {I, diag(1, 3)} and
+    a ∈ {1, 2}.
+  - The number of K ∈ GL(2, 𝔽₅) that pass γ for class 1 only, class 2 only and neither, and the same under T and S
+    together.
+- **L3.** Parseval in each class on frame C: G₃ + G₂ against 5 × the plain Gramian.
+- **L4.** O's 15 singular values, each divided by the largest, in both classes, and their largest difference.
+
+**Expected [J].**
+- L1: the matched pairs (I with class 2, diag(1, 3) with class 1) below 1e-12; the mismatched pairs and diag(1, 4)
+  above 1e-2.
+- L2: class 1 with I and class 2 with diag(1, 3) above 0.1; the matched pairs below 1e-12; the counts 20, 20 and 440,
+  and 4, 4 and 472.
+- L3: below 1e-12.
+- L4: above 1e-2.
+
+**Failure.** A matched pair fails L1, or a mismatched one passes. Then the tie between class and labelling on frame C
+does not stand as stated.
+
 0 of 19.
